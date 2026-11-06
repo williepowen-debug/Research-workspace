@@ -1,0 +1,92 @@
+{
+  "brief-desktop": {
+    "checks": [
+      {
+        "name": "Full short question shown without truncation",
+        "pass": true
+      },
+      {
+        "name": "Every important condition visible outside collapsed material",
+        "pass": true
+      },
+      {
+        "name": "Explanation appears once",
+        "pass": true
+      },
+      {
+        "name": "Evidence collapsed and exact original available",
+        "pass": true
+      },
+      {
+        "name": "Choices preserve meaning and consequence",
+        "pass": true
+      },
+      {
+        "name": "No closed examples resurrected",
+        "pass": true
+      },
+      {
+        "name": "Fits viewport",
+        "pass": true
+      },
+      {
+        "name": "Response review carries conditions",
+        "pass": true
+      },
+      {
+        "name": "No recommendation is labelled accurately",
+        "pass": true
+      },
+      {
+        "name": "Expired brief exposes full original context",
+        "pass": true
+      }
+    ],
+    "screenshot": "brief-desktop.png"
+  },
+  "brief-narrow": {
+    "checks": [
+      {
+        "name": "Full short question shown without truncation",
+        "pass": true
+      },
+      {
+        "name": "Every important condition visible outside collapsed material",
+        "pass": true
+      },
+      {
+        "name": "Explanation appears once",
+        "pass": true
+      },
+      {
+        "name": "Evidence collapsed and exact original available",
+        "pass": true
+      },
+      {
+        "name": "Choices preserve meaning and consequence",
+        "pass": true
+      },
+      {
+        "name": "No closed examples resurrected",
+        "pass": true
+      },
+      {
+        "name": "Fits viewport",
+        "pass": true
+      },
+      {
+        "name": "Response review carries conditions",
+        "pass": true
+      },
+      {
+        "name": "No recommendation is labelled accurately",
+        "pass": true
+      },
+      {
+        "name": "Expired brief exposes full original context",
+        "pass": true
+      }
+    ],
+    "screenshot": "brief-narrow.png"
+  }
+}

@@ -84,7 +84,7 @@ class RevisionDeliveryTests(unittest.TestCase):
 
     def test_refused_commit_then_revised_answer_delivers_without_sweeping_old_stage(self):
         a=self.desk.save(self.request(note='Rejected fixture wording'))
-        hook=self.put('scripts/githooks/pre-commit','#!/bin/sh\ngit diff --cached --name-only | rg queue-responses && exit 1\nexit 0\n')
+        hook=self.put('scripts/githooks/pre-commit','#!/bin/sh\ngit diff --cached --name-only | while IFS= read -r path; do\n  case "$path" in */queue-responses/*) exit 1 ;; esac\ndone\n')
         hook.chmod(0o755)
         self.git('add','scripts/githooks/pre-commit'); self.git('commit','-qm','Fixture refusing hook')
         with self.assertRaisesRegex(ValueError, 'commit refused'): self.send(a)

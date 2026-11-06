@@ -19,7 +19,8 @@ def source_for(repo, row, commit, current=False):
         raise ValueError("Option source is not published; refresh after PROME finishes")
     record = record_block(text, "decisions-options")
     fields(record, {"schema_version", "wq_id", "queue_row_sha256", "choices"}, "Options")
-    if (record["schema_version"] != "decisions-options/1" or record["wq_id"] != row["n"]
+    if (record["schema_version"] != "decisions-options/1" or type(record["wq_id"]) not in (str, int)
+            or str(record["wq_id"]) != row["n"]
             or record["queue_row_sha256"] != hashlib.sha256(row["row"].encode()).hexdigest()):
         raise ValueError("Options do not bind this exact queue row")
     choices = record["choices"]

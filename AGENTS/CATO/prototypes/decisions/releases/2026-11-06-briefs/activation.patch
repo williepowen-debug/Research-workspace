@@ -1,0 +1,137 @@
+--- a/PROME/WILL_QUEUE.md
++++ b/PROME/WILL_QUEUE.md
+@@ -55,7 +55,7 @@
+ | 636 | **HANS's €100 European gas alarm fired 10/28 and has no exit rule, so it stays open though gas trades around €85–90. Should it close after 5 straight closes under €90?** **A:** yes, close after 5 consecutive named-front closes under €90, re-fire on a close over €100 · **B:** leave it open · **C:** a different level you name. | DECISION | 2026-11-20 | 11/06 | **Rec: A** (HANS's and PROME's). It mirrors the desk's existing T-10 rule, and today the board shows a red alarm that no longer reflects the price. ⚠️ No base rate computed, one episode only. An exit is a level, so it is your word. No money moves. | Registered 2026-11-06 11:20 ET by PROME prome-51 from PROME/inbox/processed/2026-11-06_from-HANS_inbox-drain-grades-forecasts.md, HANS-T-07 L3, HANS owed #30. |
+ | 634 | **LABOR's jobs rule says 'stand down' three weak-jobs lines but names no score. Accept LABOR's reading that they drop to the floor, taking its score from 27 to 22 of 80?** **A:** accept the floor of 1 · **B:** flag them as stood down and hold the scores, 26 of 80 · **C:** something else. | DECISION | 2026-11-13 | 11/06 | **Rec: A** (LABOR's and PROME's). 'Stand down' reads as no longer counting, and a held score would keep weighing a line the rule retired. ⚠️ Long-term unemployment, one of the three, got worse (27.6%): the rule overrides that line, it does not refute it. No re-arm rule exists; bringing one back needs your word. No money moves. | Registered 2026-11-06 10:03 ET by PROME prome-51 from PROME/inbox/processed/2026-11-06_from-LABOR_oct-nfp-grade-delivery.md; reasoning at AGENTS/LABOR/docket/graded/GRADING_CARD_20261106_NFP.md § 8.4; v4 2 to 1, v6 3 to 1, v7 2 to 1, v17 2 to 1 is separate. A stands in LABOR's STATUS until he rules otherwise. |
+ | 633 | **Your hands, about 2 minutes: re-authorize WALTER's X bookmark login on the laptop.** Run `python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --authorize` and sign in; the token failed to refresh, so nothing is being marked. | HANDS | 2026-11-13 | 11/06 | **Rec: do it when convenient, in WALTER's next session is fine.** Bookmark intake is stopped until then; news collection is unaffected. | Registered 2026-11-06 09:00 ET by PROME prome-96 from AGENTS/WALTER/LAST_COMPLETION.md § WILL_NEEDS. |
+-| 632 | **CARL's car-loan forecast (CRL-21) missed, so the failure clause you set to revisit on 7/24 is now yours: 'trim short positions 25% and extend duration to Q2 2027 or later'. Act on it?** **A:** close the clause, no action · **B:** have TERRY review it against today's tape · **C:** something else. | DECISION | 2026-11-13 | 11/06 | **Rec: A** (CARL's and PROME's). It was written for a book that has since changed and no card names it. The only visible candidate is FORGE D-74's 14 bank and credit put lines, $554.00 marks on $6,644.24 basis, intraday 11/5, before the afternoon's fall. Root rule #7 reads a trim as thesis broken, and CARL's score stays 53/70. | Registered 2026-11-06 07:53 ET by PROME prome-96 from PROME/inbox/processed/2026-11-06_from-CARL_L843-CRL21-missed-predictions-themes.md. CARL's answer 2026-11-06 07:55 ET: the clause has three homes that disagree. Row Invalidation NOT met on both conjuncts (Q3 NCO +32 bp, not under +30; vintage −38.0 bp, outside ±25 on the better side); THESIS line 129 'If Q3 fails' met; THESIS line 430 met. Nothing fired mechanically; the revisit rests on Will's 7/24 ruling and the THESIS text. Not met on the letter is NOT evidence for holding shorts: −38 is a stronger benign reading than the band contemplates. MISSED unaffected. Not executed, not a card. Fact added 2026-11-06 10:12 ET, TERRY and REGINALD 21cf81281: LABOR's bull-side kill fired 11/6 and REGINALD's TRADE.md § 4 lists it as a refuter for any bank put, so that refuter is met; TERRY dated it on the WAL, OZK, KRE and KRE-add cards, no card term changed, no hold or sell view, a hiring read, REGINALD's claim is CRE recognition. |
++| 632 | **CARL's car-loan forecast (CRL-21) missed, so the failure clause you set to revisit on 7/24 is now yours: 'trim short positions 25% and extend duration to Q2 2027 or later'. Act on it?** **A:** close the clause, no action · **B:** have TERRY review it against today's tape · **C:** something else. | DECISION | 2026-11-13 | 11/06 | **Rec: A** (CARL's and PROME's). It was written for a book that has since changed and no card names it. The only visible candidate is FORGE D-74's 14 bank and credit put lines, $554.00 marks on $6,644.24 basis, intraday 11/5, before the afternoon's fall. Root rule #7 reads a trim as thesis broken, and CARL's score stays 53/70. | Registered 2026-11-06 07:53 ET by PROME prome-96 from PROME/inbox/processed/2026-11-06_from-CARL_L843-CRL21-missed-predictions-themes.md. CARL's answer 2026-11-06 07:55 ET: the clause has three homes that disagree. Row Invalidation NOT met on both conjuncts (Q3 NCO +32 bp, not under +30; vintage −38.0 bp, outside ±25 on the better side); THESIS line 129 'If Q3 fails' met; THESIS line 430 met. Nothing fired mechanically; the revisit rests on Will's 7/24 ruling and the THESIS text. Not met on the letter is NOT evidence for holding shorts: −38 is a stronger benign reading than the band contemplates. MISSED unaffected. Not executed, not a card. Fact added 2026-11-06 10:12 ET, TERRY and REGINALD 21cf81281: LABOR's bull-side kill fired 11/6 and REGINALD's TRADE.md § 4 lists it as a refuter for any bank put, so that refuter is met; TERRY dated it on the WAL, OZK, KRE and KRE-add cards, no card term changed, no hold or sell view, a hiring read, REGINALD's claim is CRE recognition. <!-- decisions-options: PROME/proposals/2026-11-06_wq632-decision-brief.md --> |
+ | 631 | **Before any fill of the UNG spread, should TERRY and AEOLUS write down what 'downward coupling' means? The card sells after a fill if AEOLUS has not logged it by 12/04, and no written test defines the phrase, so one desk's judgement would end a position.** **A:** yes, TERRY proposes a test with AEOLUS's candidates and brings it to you · **B:** leave it to AEOLUS's judgement · **C:** you name the test. | DECISION | 2026-11-20 | 11/06 | **Rec: A.** AEOLUS is barred from setting it. Candidates, none adopted: 30 hPa 60N below 0 on a GFS analysis; CPC AO at or below −1.0 on 5 straight days (true in 39 of 76 years, so weak alone); CPC 8–14 day below normal over Middle Atlantic and East North Central. Card unfilled, so not urgent, but cheaper before a fill. Your Dec-24 call is not on this card. | Registered 2026-11-06 07:43 ET by PROME prome-96 from AEOLUS's ask 3, PROME/inbox/processed/2026-11-06_from-AEOLUS_L906-session-delivery.md. Needed-by is the card's last entry day. A level or consequence on a card is ask-first. |
+ | 629 | **Add a correcting note to the China urea gate (GATE-FERT-G3)? The 3.3 Mt it recorded as an export quota is actually the 2026 import quota, and no published national export ceiling was found.** **A:** approve FERT's note text: "State at registration: 3.3 Mt was recorded as an export quota; MOFCOM Announcement 2025 No. 66 shows it is the 2026 urea import tariff-rate quota. No published national export ceiling was found. Leg 1 reads down-revisions from enterprise-round reporting." · **B:** decline · **C:** change the wording. | DECISION | 2026-12-03 | 11/05 | **Rec: A** (FERT's and PROME's). It corrects the record; level and operator are unchanged and the gate has not fired. ⚠️ It writes down that leg 1 reads enterprise-round reporting, which is how it has been read since the rounds began. That touches the instrument, so it is your word, not class C1. | Registered 2026-11-05 18:40 ET by PROME prome-96 from FERT's packet PROME/inbox/processed/2026-11-05_from-FERT_L578-CF-Q3-G5-G3-predictions-themes.md; primary KB-FERT-117. G3's next review is 12/03. |
+ | 627 | **Should CRUISE redraw the Norwegian Cruise Line weakness gauge (VX-CRU-05)? It reads only guidance cuts, so it has no cell for a raised guide with a negative yield and rising leverage.** **A:** yes, CRUISE drafts new cells on leverage and deposits against capacity, and they come back to you before they count · **B:** keep as is · **C:** something else you name. | DECISION | 2026-11-17 | 11/05 | **Rec: A** (CRUISE's and PROME's). It holds RED(4) only because no letter forces a move. Bands are yours (WQ-601 unit 4). | Registered 2026-11-05 18:22 ET by PROME prome-96 from CRUISE's packet PROME/inbox/processed/2026-11-05_from-CRUISE_L714-10Q-graded-predictions-themes.md; VX row read at AGENTS/CRUISE/workbook/VX.tsv. Caveats: funding clean through 2027 on an endpoint test only, dated low-point schedule not built; D2 and B3 open. No position on this name. |
+--- /dev/null
++++ b/PROME/proposals/2026-11-06_wq632-decision-brief.md
+@@ -0,0 +1,69 @@
++# WQ-632 — decision explanation
++
++PROME-authored wording from the November 6 preview, connected to the live app under Will’s direct-live instruction to CATO. The queue remains authoritative; matching chat confirmation remains required.
++
++```decisions-brief
++{
++  "schema_version": "decisions-brief/1",
++  "wq_id": 632,
++  "queue_row_sha256": "d2b6d25465f8ec28ddc58f9f9545b3f7dd98a8865fb09946570d82168c6b2491",
++  "prepared_at": "2026-11-06 11:10 ET",
++  "stale_after": "2026-11-13",
++  "question": "A car-loan forecast from CARL, the consumer-credit desk, missed. Should its old instruction to trim your bearish positions by 25% and push their dates out now be acted on?",
++  "what_changes": "On 7/24 you held this forecast and said to revisit it once the October data came in. It has, and the forecast missed: Ally's 2025 car loans are running better than the forecast required, not worse. The clause sits with you until you close it. Closing it changes nothing in your book. Acting on it would mean cutting bearish positions, and your rules treat a trim as saying the thesis is broken.",
++  "recommendation": {
++    "status": "RECOMMENDED",
++    "text": "Close it with no action (A). CARL and PROME agree: it was written for a book that has since changed, and no trade card names it."
++  },
++  "conditions": [
++    "The miss is not an all-clear. Ally's 2025 loans are worse than its 2024 loans, 2026 early delinquencies run above 2023, and this is one lender.",
++    "The grade can be contested: the measure was chosen after the fact. CARL will reverse it on your word.",
++    "The clause's three written versions disagree: two say it was met, and the strictest says not.",
++    "New today: LABOR's hiring rule fired, and the bank desk lists that as one reason a bank put could be wrong. TERRY changed no card and gives no hold or sell view; it is a hiring read, not a layoffs read.",
++    "The only visible candidate is 14 bank and credit put lines, worth $554 on a $6,644 cost, priced mid-day 11/5 before that afternoon's fall. No desk's card covers them."
++  ],
++  "supporting": [
++    {
++      "label": "CARL's report",
++      "path": "PROME/inbox/processed/2026-11-06_from-CARL_L843-CRL21-missed-predictions-themes.md"
++    },
++    {
++      "label": "REGINALD's bank-put refuters",
++      "path": "AGENTS/REGINALD/TRADE.md"
++    },
++    {
++      "label": "TERRY's re-grade",
++      "path": "AGENTS/TERRY/research/2026-11-06_regrade/NOTE.md"
++    }
++  ]
++}
++```
++
++```decisions-options
++{
++  "schema_version": "decisions-options/1",
++  "wq_id": 632,
++  "queue_row_sha256": "d2b6d25465f8ec28ddc58f9f9545b3f7dd98a8865fb09946570d82168c6b2491",
++  "choices": [
++    {
++      "id": "A",
++      "label": "Close it, no action",
++      "meaning": "The old 25% trim instruction ends.",
++      "consequence": "No position changes."
++    },
++    {
++      "id": "B",
++      "label": "Have TERRY review it first",
++      "meaning": "TERRY checks whether the clause fits today's positions and market.",
++      "consequence": "TERRY reports back. Any trade would still come to you as its own card."
++    },
++    {
++      "id": "C",
++      "label": "Something else",
++      "meaning": "You name a different answer.",
++      "consequence": "PROME reads it back before recording it."
++    }
++  ]
++}
++```
++
+--- a/PROME/decisions/app-acceptance.json
++++ b/PROME/decisions/app-acceptance.json
+@@ -2,7 +2,7 @@
+   "schema_version": "decisions-app-acceptance/1",
+   "queue_responses": true,
+   "matching_chat_confirmation": true,
+-  "acceptance_basis": "PROME independent review ACCEPT of CATO's SR5 intake-isolation patch (Will 2026-10-31 18:34 ET 'Can we fix this.'), installed on the WQ-579 build, whose own acceptance stays the operator approval below",
++  "acceptance_basis": "Will-directed live Decisions explanation update, November 6, 2026; bounded CATO author checks. Prior independent review applies only to its recorded historical scope. No new independent verdict claimed.",
+   "independent_review": {
+     "path": "PROME/reports/2026-10-31_decisions-sr5-intake-fix-review.md",
+     "commit": "da0963a39164a0b7d165746c595e626efa8d725c",
+@@ -17,21 +17,22 @@
+     "further_independent_review_waived": true
+   },
+   "build_hashes": {
+-    "app.py": "493866d608f617e5e4bc9b30b8c128eca0e83dc55d6295e7eb898f9be5ae494d",
+-    "desk.html": "ddf2789e980f0703dd080b882f1fe4bffefb0d422ff4be5d75a28deb2f017b46",
++    "app.py": "d5229c81afeae81518fb775e62f75528d6dcc73712b9ec02f11254d23370936b",
++    "desk.html": "a428686dc82d8c6c5fc985c6b0342ba75a865e94db9aa1f44436955b4a2e0236",
+     "queue_store.py": "29a50e0a40a7f04f65d495cf8c20de40237b0332292a3fbbc2df36fa0db27e51",
+     "delivery.py": "8c1c8b70b277cecf79b8f7ee57daca240c1a71b62ce3a13812bd1a0ec06428d4",
+     "pilot_files.py": "8203454d5f96ddc422b46c21a82dd3f3cb4279875dbb6c05ee81c3a352eb4006",
+     "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
+     "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
+     "owner_receipt.py": "963486f3f69c41df876dac9ec591895cde0ffd9db1ce087089de276f62b5fb39",
+-    "options.py": "7cb9e82fdd0279489c613d403b02031aeb6b87024fe22ce34d93df653ef371a0",
++    "options.py": "e169dfc692efe294da170158af40dff94a25d0250201af2360f3125fb120f28d",
+     "history.py": "53de00a1a9cc65a7876535305062215a11b619c6f25ecf4c9cec1342823d9ebf",
++    "briefs.py": "701b6b7d554106d99b173d1e110ee997205069646b2fdb82d3b78543f569fb88",
+     "PROME/tools/willq_view.py": "e98326f71ef854c7f48099de2e6c5b63cdadabc81838990938c055952d362023",
+     "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229",
+     "scripts/safe-push.sh": "6a1add8851c8ddfd288a71fa78c2fd648f4b74b7c0387512d6e19f8ec89dcb14",
+     "scripts/install-git-hooks.sh": "2ce133fe85d42a414d974c8683a171c61e10edad37b6df03af1dcf2515841cd1",
+-    "scripts/claim_check.py": "efe09d44ea0d66f86636f45f0da9b6fcdf3499352910e1925ae6a5e6606660bb",
++    "scripts/claim_check.py": "c77bbcc45ea2affcaeb4c2a709b48d0401b252bb9cd96b579edc669f5ea3ff8b",
+     "scripts/orphan_check.sh": "e9cd6a58b014df9260e657cfb2888b248d0f89d4453b73f0cd8fe503fd2626bc",
+     "AGENTS/CATO/decisions/.gitignore": "8fea49ee73987cc6cffd9a61c4503191d0192d628a127118f7c940ca0e5129ff",
+     "AGENTS/CATO/prototypes/decisions/mvp/.gitignore": "846685ed73e5dc3656136665b69926430ef42810bc63c15eabdccb546ac6c838",
+@@ -39,5 +40,14 @@
+     "scripts/githooks/pre-commit": "71bea43fa0cada41832cd21d83e68aca20b824d0940f80d20e00dd839b4ac0e1",
+     "scripts/githooks/pre-push": "84fb1307ba206bc50c9d1b611d2e04ce7e1f7c5a17c954a6525d657f959b5e30",
+     "scripts/account_guard.py": "f8186a8f0facf5fe0b9e63bde2416812dafa09344600b6f79dad914c032e8d39"
+-  }
++  },
++  "operator_updates": [
++    {
++      "by": "Will",
++      "date": "2026-11-06",
++      "quote": "can you just work on the live app?  I want to cut down on the back and forth reviews and tests",
++      "scope": "Install the plain-language explanation update; preserve queue authority, source binding, saved answers and matching chat confirmation.",
++      "record": "PROME/inbox/2026-11-06_from-CATO_decisions-live-explanations.md"
++    }
++  ]
+ }

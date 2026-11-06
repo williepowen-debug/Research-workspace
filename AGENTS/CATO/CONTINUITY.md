@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated November 6, 2026, after startup recovery; session closed. Next: orient, then perform the already-approved WQ-607 brief challenge unless Will redirects. The brief has arrived; review and packet handoff remain pending.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
+**Updated November 6, 2026, after live Decisions explanation work. Next: confirm PROME's prepared source/enablement activation when delivered; no new review loop. WQ-607 remains approved and pending, not started during this assignment.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
 
 ## Resume point
 
@@ -17,7 +17,7 @@ Accepted maintenance, launcher repair and WQ-583 stay closed. FFIEC desktop regi
 ## Surviving CATO work
 
 - **Forecast pilot:** enrollment closed at 20/20 originals. Effort **44/120 minutes**, 76 remaining. Resume only when Will directs. Saved observations: RED-25 October 31 re-review if new evidence; FAL-06 November 5 checkpoint; December 31 process assessment. Grading limits, no-replacement condition and unresolved 2027 endpoints survive. [Recorded state and evidence](TASK_INDEX.md#forecast-pilot).
-- **Decisions:** investigate the pre-existing revision-delivery test discrepancy at the next authorized Decisions maintenance touch; no automatic task. SR5 adoption is complete. Matching chat confirmation, historical build-specific waiver and W-S/legacy-pilot limits survive. Live-answer use remains unverified. [Current outcome and limits](TASK_INDEX.md#october-30-wq-decision-workflow).
+- **Decisions:** Will directed live-app work with fewer review/test round trips. Explanation rendering is implemented and author-tested; PROME must apply the prepared WQ-632 source/enablement patch and publish it. No further independent review requested. Until then replies remain disabled and authored briefs are unconnected. Revision-delivery fixture discrepancy resolved (missing `rg` in a standard PATH); production delivery unchanged. [Current outcome, installation and limits](runs/2026-10-30_1059_wq-decision-workflow.md#november-6--live-explanation-update-owner-activation-prepared). Matching chat confirmation and W-S/legacy-pilot limits survive.
 
 ## Delivered tools and machine handoff
 

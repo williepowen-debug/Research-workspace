@@ -10,6 +10,16 @@ The page reads the existing PROME queue and your saved responses. **Decisions**,
 
 **Installed status (October 31, 2026):** Will explicitly waived the further WQ-579 independent review and directed installation of tested candidate `bbf134770`. Acceptance is based on that operator approval and author tests, not a new independent verdict. The published acceptance record preserves the original review reference as historical evidence and separately records the waiver. Chat confirmation remains required for every answer. Reopen Decisions after this update; the queue remains authoritative.
 
+## November 6 — plain-language explanations
+
+The live application code now reads an optional `decisions-brief/1` block from the existing published `decisions-options` source. Question, what changes, recommendation, conditions and choices appear once; evidence stays expandable. Conditions remain visible. Supporting document links use the source commit on GitHub. Briefs do not generate choices, reopen closed items or change the queue's authority.
+
+The original `/2` answer snapshot already preserves the entire source document, so it also preserves the exact brief shown. No new response dialect or delivery path is introduced. A source edit invalidates a pending answer through the existing text binding. Brief and option IDs accept the producer's integer or string form; booleans refuse. Missing or malformed briefs fall back to full terms on that card. A date-expired brief is hidden and the full explanation opens with a notice; the still-current explicit choices remain usable, per PROME's proposed date-only behavior. Wrong row bindings continue to refuse responses under the existing options reader. Historical saved briefs remain historical and do not expire out of their saved record.
+
+**Activation remains with PROME:** [ready installation patch](../releases/2026-11-06-briefs/activation.patch) connects the still-open WQ-632 brief and refreshes the existing enablement record. WQ-599 and WQ-635 are no longer OPEN and are not reintroduced. This patch is prepared, not applied by CATO: PROME owns the concurrently active queue and acceptance record. No additional independent review is requested under Will's direct-live instruction. The prior shared `scripts/claim_check.py` change had already disabled replies before this work; the patch reconciles its inspected current bytes too. Reopen Decisions after the owner publishes activation. Until then the application remains read-only and unconnected cards retain their full queue wording.
+
+Matching PROME-chat confirmation and prior W-S/legacy-pilot limits remain. Changes are author-tested, not independently reviewed; ordinary-use benefit is unmeasured.
+
 ## Everyday use after acceptance
 
 1. Open Decisions. **Sync latest records** fetches receipts and applies remote commits only when the checkout is clean and has no diverging local commits. Concurrent owner work is preserved; unresolved Git work is reported.

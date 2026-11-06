@@ -1,0 +1,14 @@
+{
+  "PROME/WILL_QUEUE.md": {
+    "before": "c3154e816f5ddeecee6cdc6d6e408e261fd04eaee1b6de5d4f28304ff9240b57",
+    "after": "732c54a64291b673502e7524aed3dc406122137d90400656e4928248b1ec174a"
+  },
+  "PROME/proposals/2026-11-06_wq632-decision-brief.md": {
+    "before": null,
+    "after": "6b078538fb0a8b4edce34127c9c0f5b2bfe0508cc233e765c26baf2ad3065d7f"
+  },
+  "PROME/decisions/app-acceptance.json": {
+    "before": "467838193b261b7f4cf453036a6db0ad241f3caaa4143611799f973f98812156",
+    "after": "f6bc2ccd70fc512918eb5c9719157874df8de98b628e42648ed0096ada3e9578"
+  }
+}

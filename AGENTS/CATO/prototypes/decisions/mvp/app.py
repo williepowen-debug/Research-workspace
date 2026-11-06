@@ -11,13 +11,14 @@ import webbrowser
 
 import delivery
 import history
+import briefs
 from pilot_files import PilotStore, Repo, RESPONSES, RECEIPTS, strict_json
 from queue_store import QueueStore, QUEUE, REPLIES, open_rows, unit_for
 from server import make_server
 from store import HERE, identifier, reader
 
 ACCEPTANCE = "PROME/decisions/app-acceptance.json"
-BUILD_FILES = ("app.py", "desk.html", "queue_store.py", "delivery.py", "pilot_files.py", "store.py", "server.py", "owner_receipt.py", "options.py", "history.py")
+BUILD_FILES = ("app.py", "desk.html", "queue_store.py", "delivery.py", "pilot_files.py", "store.py", "server.py", "owner_receipt.py", "options.py", "history.py", "briefs.py")
 PILOT_SOURCE = "PROME/proposals/2026-10-30_wq558-l884-pilot-source.md"
 POWERSHELL = "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe"
 
@@ -42,7 +43,7 @@ def accepted(repo):
             raise ValueError("Acceptance is not published")
         record = strict_json(raw)
         if record.get("schema_version") != "decisions-app-acceptance/1" or record.get("build_hashes") != build_hashes():
-            raise ValueError("Build differs from independently accepted version")
+            raise ValueError("This installed build is not yet enabled for replies")
         if record.get("queue_responses") is not True or record.get("matching_chat_confirmation") is not True:
             raise ValueError("Daily reply contract is not accepted")
         review = record["independent_review"]
@@ -50,7 +51,7 @@ def accepted(repo):
         repo.read(review["path"], review["commit"], prefix="PROME").strip()
         return True, ""
     except (ValueError, KeyError, TypeError, AttributeError, OSError, subprocess.CalledProcessError) as error:
-        return False, "Read-only until final independent acceptance: " + str(error)
+        return False, "Replies are unavailable: " + str(error)
 
 
 class Desk:
@@ -156,8 +157,16 @@ class Desk:
             if errors:
                 for card in cards:
                     card["can_respond"] = False
+            for card in cards:
+                historical = card["group"] == "History" or bool(card.get("errors"))
+                card.update(briefs.presentation(card.get("snapshot") or {}, historical=historical))
+                card["saved_briefs"] = {event["id"]: briefs.presentation(event["display"], historical=True)
+                                        for event in card.get("events", [])}
             rulings = history.recent(self.repo)
+            remote = self.repo.git("remote", "get-url", "origin").strip().removesuffix(".git")
+            match = re.fullmatch(r"(?:https://github\.com/|git@github\.com:)([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)", remote)
             return {"mode": "decisions-desk", "cards": cards, "errors": errors, "limit": limit,
+                    "source_url": "https://github.com/" + match[1] + "/blob/" if match else None,
                     "rulings": rulings,
                     "can_deliver": enabled and not errors, "sync": self.sync_receipt,
                     "head": self.repo.git("rev-parse", "HEAD").strip()}
