@@ -51,7 +51,7 @@ On what I can measure, these are **two stories sharing one AI-financing tape, no
 
 | Claim | Finding |
 |---|---|
-| "3.25%" | Source: an image post, in card 029; no date or vendor established [RELAY]. **As a level, supported:** October 20 had 12 trades, ranging 305 to 346 conv, ten of them at 323 or wider, with 342.5 disseminated [FILE]. **As November 6's level, not supported so far:** best conv print 314, about 318 on the disseminated basis, through about 15:50 ET [FILE]. **As a "record" on November 6, not supported:** October 20 stands higher on this file |
+| "3.25%" | Source: an image post, in card 029; no date or vendor established [RELAY]. **As a level, supported:** October 20 had 12 trades, ranging 305 to 346 conv, eleven of them at 323 or wider, with 342.5 disseminated [FILE]. **As November 6's level, not supported so far:** best conv print 314, about 318 on the disseminated basis, through about 15:50 ET [FILE]. **As a "record" on November 6, not supported:** October 20 stands higher on this file |
 | "315 bp" | Undated [RELAY]. Matches a disseminated 315 on October 21, 18:02Z, and 314 on October 22 [FILE]. A match, not proof of what the report meant |
 
 "Record" beyond this window: my file begins December 2025, so I cannot grade all-time. Relays call the level an 18-year high [RELAY].
@@ -138,13 +138,15 @@ A shared tape is not a link. Proof means the same dollars. **Any one of these wo
 3. A named lender cutting, repricing or hedging both Oracle-linked project debt and SoftBank credit, on primary evidence.
 4. CDS moving together on a SoftBank-only or Oracle-only funding event, with the AI tape flat that day.
 
+**Closest thing found so far: a shared holder, not a link [RELAY].** SHADE read Athene's deck and 10-Q (card 040): Oracle $2.4B and about $4.8B of SoftBank-linked paper at September 30; the Finco line rose 50% in the quarter; no loss shown. SHADE also has Apollo as a lead arranger, with SoftBank Group guarantor, on the $10B loan (card 041). SAM finds SoftBank and Oracle share a counterparty, OpenAI, with no financing link in the text read (card 041). I did not read these filings. This is exposure in the same hands, which is how a link *could* transmit. It shows no stress moving, and it does not meet test 3: nothing shows Athene or Apollo cutting, repricing or hedging either name.
+
 **Would weigh against:** SoftBank's next yen retail bond clearing at a normal coupon; Oracle's remaining performance obligations intact with prepayments on schedule.
 
 | Date | Test | Owner |
 |---|---|---|
 | Tonight, about 20:15 ET | DTCC November 6 full file: Oracle and Microsoft | LIQUID |
 | About November 9 | State Street file as of November 6: new notes against reoffer, the second bond point | LIQUID |
-| November 10, 01:30 ET | SoftBank results. ⛔ Headline leverage is as of September 30, not today's (card 036) | SAM |
+| November 10, 01:30 ET | SoftBank results. ⛔ Headline leverage is as of September 30, not today's (cards 036, 041) | SAM |
 | About November 13 | W1 as-of November 10, first print able to show a cover after November 5 | LIQUID |
 | November 19 | ING data-centre loan bids [RELAY] | WALTER, LIQUID |
 | Mid-December, not set | Oracle Q2 FY27 results and 10-Q: remaining performance obligations, prepayments, vendor financing. Any public raise beyond the pledge | VULCAN, LIQUID |
