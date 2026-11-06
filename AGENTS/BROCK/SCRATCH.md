@@ -4,7 +4,7 @@ Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-
 
 **Resume list: DONE 11/06 on Will's 11:18 ET word.** Card 067, GIBBS and LIQUID packets and card 019 processed; inbox and WALTER lane empty at the commit (KB-BRK-450–452). Card 026 and MFIC Q3 added on Will's 12:38 ET word (KB-BRK-445, 453–455). L587 DECLINED by PROME 11:25 ET. Cards 029/030/031/034 cleared 15:32 ET on PROME's assignment (KB-BRK-456–458). L1058/L1059 added.
 
-Cards through 040 and the IREN deep dive closed 11/06; X1 joint answer WQ-644, Will decides.
+Cards through 041 and the IREN deep dive closed 11/06; X1 joint answer WQ-644, Will decides.
 
 **Next-boot first moves:**
 1. **Mon 11/09 after ~16:30 ET or Tue 11/10 AM:** CRMT tenth-bridge STD, whole feed from 11/05 08:01 ET, every form, INDEX acceptance time. Feed read to 10:15 ET 11/06 was empty. Covers L927; backstop #7 L928 Tue 11/10.

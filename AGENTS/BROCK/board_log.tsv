@@ -412,3 +412,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T15:43:38-05:00	SIG-W-20261106-038	info-only	INBOX_WALTER	LIQUID Q3 BDC card final; no X1 half; GSBD figures match KB-BRK-451. No score moved.
 2026-11-06T15:44:46-05:00	SIG-W-20261106-039	acted	INBOX_WALTER	OTTO label note taken: MFIC REPORT section 3 and KB-BRK-455 relabelled LendingPoint LLC. Manheim is OTTO's. No score moved.
 2026-11-06T15:45:09-05:00	SIG-W-20261106-040	noted	INBOX_WALTER	Same root as SHADE packet, one member, KB-BRK-462. No loss shown. No score moved.
+2026-11-06T16:48:21-05:00	SIG-W-20261106-041	noted	INBOX_WALTER	Correction to 036, 003, 040. No retracted wording on any BROCK surface. KB-BRK-445 and -462 updated. No score moved.

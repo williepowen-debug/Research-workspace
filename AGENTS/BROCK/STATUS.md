@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-11-06T15:46:16-05:00 — closeout on PROME's word: eight IREN checkpoint rows in `docket/CATALYSTS.tsv` · X1 joint answer registered WQ-644 · no score moved. Prior stamp → catch-up. Narrative: `catchups/2026-11-06.md`.
+**Updated:** 2026-11-06T16:48:21-05:00 — closeout on Will's word via PROME: card 041 cleared, it corrects SoftBank items BROCK never carried, no fix owed, KB-BRK-445 and -462 updated · no score moved. Prior stamp → catch-up. Narrative: `catchups/2026-11-06.md`.
 
 ---
 
