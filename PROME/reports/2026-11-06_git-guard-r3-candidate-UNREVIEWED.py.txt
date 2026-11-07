@@ -1,0 +1,193 @@
+#!/usr/bin/env python3
+"""PreToolUse(Bash) hook — refuses the root-canon forbidden git commands BEFORE they run.
+Will-approved 2026-08-29 ("approved go ahead"); PROME-scoped first, fleet-wide after a week.
+
+Canon (root CLAUDE.md § Git Protocol, prose until now): never add-all / add-dot, never
+reset HEAD, never commit --amend, never force-push; plus commit -a (sweeps the whole
+index — Gate C custody rule). `git stash drop` is left to judgment (canon permits it when
+own files are committed).
+
+⚠️ WHAT THIS IS: a BEST-EFFORT LINT LAYER, not a security boundary. The 8/29 commissioning
+commit (e67992c34) said "prohibitions become impossibilities" — that claim is RETRACTED
+(RAV review 8/29 PM, verified: five bypasses passed the 14/14 self-test). The guard matches
+a regex over the literal command text after stripping prose; anything that builds the
+command at runtime is invisible to it by construction:
+  - a git call inside a script invoked by path (`bash do_it.sh`, `python3 x.py` → subprocess)
+  - commands assembled from variables or eval (`CMD="add ."; git $CMD`)
+  - a git alias, a wrapper binary, or a different working tree via `--git-dir`/`--work-tree`
+    (the -C form IS covered since 8/29 PM)
+The root CLAUDE.md prohibition is the rule; this hook catches the direct forms of breaking it.
+
+Protocol: stdin = JSON {tool_name, tool_input:{command}}; exit 2 + stderr = BLOCK (the
+message reaches the model); exit 0 = allow. A parse failure ⇒ ALLOW, but VISIBLY: it prints
+an advisory to stderr so a silently fail-open guard cannot be mistaken for coverage
+(a guard that fails closed on its own bug would halt every shell command).
+
+Text vs command (8/29 PM re-cut after the RAV bypass set): heredoc bodies are dropped.
+A quoted string is PROSE only if it contains whitespace ("...", a commit message);
+a quoted token with no whitespace (`"."`, `"--amend"`) is an ARGUMENT and is unquoted.
+The body after `bash -c` / `sh -c` / `zsh -c` is a COMMAND and is unquoted and scanned.
+"""
+import json
+import posixpath
+import re
+import sys
+
+# `git` followed by any of its global options (-C <dir>, -c k=v, --git-dir=…, --work-tree=…,
+# --no-pager …) before the subcommand — `git -C /tmp add .` is still add-dot.
+GIT = r"\bgit(?:\s+(?:-C\s+\S+|-c\s+\S+|--git-dir=\S+|--work-tree=\S+|--no-pager|-p|-P|--no-optional-locks))*\s+"
+
+RULES = [
+    (GIT + r"add\s+(?:.*\s)?(?:-A\b|--all\b)",
+     "add-all sweeps every agent's work — pathspec adds only"),
+    (GIT + r"add\s+(?:.*\s)?\.(?:/)?(?:\s|$|;|&|\|)",
+     "add-dot sweeps the shared index — pathspec adds only"),
+    (GIT + r"commit\b[^\n|;&]*\s--amend\b",
+     "commit --amend rewrites whoever holds HEAD — note the fix in the next commit instead (root rule 4b)"),
+    (GIT + r"push\b[^\n|;&]*\s(?:-f\b|--force\b|--force-with-lease\b)",
+     "force push is never permitted — scripts/safe-push.sh only"),
+    (GIT + r"commit\s+(?:.*\s)?-a(?:m)?\b",
+     "commit -a commits the whole tree — pathspec commits only"),
+]
+
+# `reset` is checked by reset_violation(), by walking its arguments; regexes failed two
+# independent reads 2026-11-06 (PROME/reports/2026-11-06_git-guard-reset-read-*.md).
+# Every doubt fails closed: this guard blocks; `--` with named files is the way through.
+_RESET = re.compile(GIT.replace(r"-C\s+\S+|-c\s+\S+", r"-[Cc](?:\s+\S+)?") + r"reset(?=\s|$|[;&|)`#<>])")
+_RESET_END = re.compile(r"[;&|)`\n]|(?:^|\s)#")
+_REDIRECT = re.compile(r"\d*(?:>>?\|?|<<?<?)&?\s*[^\s;&|)`]+")
+_REFLIKE = re.compile(r"^(?:HEAD(?:$|[~^@])|@|FETCH_HEAD$|ORIG_HEAD$|MERGE_HEAD$|origin/|upstream/)|[~^]|@\{")
+_MODES = {"--mixed", "--soft", "--merge", "--keep"}
+
+
+def _wide_path(a: str) -> bool:
+    """True unless `a` is plainly one named path below the current directory."""
+    n = posixpath.normpath(a) if a else "."
+    return (all(p in (".", "..") for p in n.split("/")) or a[:1] in (":", "/", "~")
+            or bool(re.search(r"[*?\[$`<>\\]", a)))
+
+
+def reset_violation(scan: str):
+    """Reason to refuse, or None. Allowed only: a reset naming specific files."""
+    for m in _RESET.finditer(scan):
+        rest = _REDIRECT.sub(" ", scan[m.end():])   # first: `2>&1` holds an `&`
+        end = _RESET_END.search(rest)
+        args = (rest[:end.start()] if end else rest).split()
+        dd = args.index("--") if "--" in args else None
+        pre = args if dd is None else args[:dd]
+        if "--hard" in pre:
+            return "reset --hard discards the shared working tree"
+        if any(a in _MODES for a in pre):
+            return "reset with a mode moves the shared branch for everyone"
+        positional = [a for a in pre if not a.startswith("-")]
+        if positional and _REFLIKE.search(positional[0]):
+            return "reset HEAD is a global unstage on the shared index"
+        paths = positional if dd is None else args[dd + 1:]
+        if not paths or any(_wide_path(a) for a in paths):
+            return "bare reset unstages everyone's work; name the files after --"
+    return None
+
+
+_SHELL_C = re.compile(r"\b(?:bash|sh|zsh|dash)\s+(?:-[a-zA-Z]*c[a-zA-Z]*\s+)(['\"])(.*?)\1", re.S)
+_QUOTED = re.compile(r"'([^']*)'|\"([^\"]*)\"")
+
+
+def _drop_heredocs(cmd: str) -> str:
+    """Drop heredoc BODIES so prose inside them is not scanned as commands.
+
+    ⛔ BYPASS FIXED 2026-09-12 (independent review): this used to skip forward from
+    any `<<WORD` token until it found a terminator, and if none existed it consumed
+    EVERY REMAINING LINE. So a command whose first line merely MENTIONS the token —
+    `grep -n "<<EOF" scripts/x.sh` — silently discarded the rest, and a following
+    `git add -A` was never scanned. Verified: that payload returned rc=0, allowed,
+    with no stderr, while the same payload behind `echo hi` returned rc=2.
+    ⚠️ Root CLAUDE.md 4b prescribes the heredoc idiom for every commit message, so a
+    multi-line Bash call containing `<<` is house style, not an edge case.
+
+    Now the terminator must actually EXIST before anything is skipped. An unterminated
+    or spurious marker means "this was not a heredoc" and the remaining lines are
+    scanned — fail visible, per this module's own contract.
+    `[[finding_marker_word_in_prose_disables_the_scanner_that_reads_for_it]]`"""
+    out, i, lines = [], 0, cmd.split("\n")
+    while i < len(lines):
+        ln = lines[i]
+        m = re.search(r"<<-?\s*['\"]?(\w+)['\"]?", ln)
+        out.append(ln)
+        if m:
+            term = m.group(1)
+            # Look for the terminator FIRST. No terminator => not a heredoc => skip
+            # nothing. Previously the skip happened unconditionally.
+            end = next((j for j in range(i + 1, len(lines))
+                        if lines[j].strip() == term), None)
+            if end is not None:
+                i = end
+        i += 1
+    return "\n".join(out)
+
+
+def _unquote_or_drop(m: re.Match) -> str:
+    body = m.group(1) if m.group(1) is not None else m.group(2)
+    return body if not re.search(r"\s", body) else " "
+
+
+def strip_text(cmd: str) -> str:
+    """Prose out, arguments in: heredocs dropped; `-c "…"` bodies scanned as commands;
+    whitespace-bearing quoted strings dropped; whitespace-free quoted tokens unquoted."""
+    s = _drop_heredocs(cmd).replace("\\\n", " ")   # a line continuation is one command
+    # the body of `bash -c "…"` is a command: lift it out of its quotes so the rules see it
+    s = _SHELL_C.sub(lambda m: " " + m.group(2) + " ", s)
+    s = _QUOTED.sub(_unquote_or_drop, s)
+    return s
+
+
+def main():
+    try:
+        data = json.load(sys.stdin)
+        # L294 F-6: input that PARSES but is not an object ([], null, "ok", 3) used to
+        # reach data.get() and raise AttributeError out of main() — rc=1 with a
+        # traceback. That is the same situation as unparseable input (the hook cannot
+        # interpret what it was handed) and belongs on the same declared path, so the
+        # shape check lives INSIDE this try rather than becoming a third policy.
+        # ⛔ Scope note: the guard's blocking path was never broken — a normal request
+        # carrying `git add .` returns 2 correctly. Only this validation path was.
+        if not isinstance(data, dict):
+            raise TypeError(f"hook input is {type(data).__name__}, expected an object")
+    except Exception as e:
+        sys.stderr.write(f"⚠️ git_guard: unusable hook input ({type(e).__name__}: {e}) — "
+                         "ALLOWING without a check. This is fail-open, not coverage.\n")
+        return 0
+    if data.get("tool_name") != "Bash":
+        return 0
+    # The SAME F-6 shape, one level down, found by this repair's own overlap test:
+    # `tool_input` present but not an object (a bare string) reached `.get` and raised
+    # AttributeError outside any try — rc=1 again. Validating only the top-level object
+    # fixed the reproduction and left its nested twin live.
+    # `[[finding_hand_fixing_named_rows_is_not_fixing_the_class]]`
+    ti = data.get("tool_input")
+    if ti is not None and not isinstance(ti, dict):
+        sys.stderr.write(f"⚠️ git_guard: unusable tool_input ({type(ti).__name__}, expected an "
+                         "object) — ALLOWING without a check. This is fail-open, not coverage.\n")
+        return 0
+    cmd = (ti or {}).get("command", "") or ""
+    try:
+        scan = strip_text(cmd)
+    except Exception as e:
+        sys.stderr.write(f"⚠️ git_guard: text-stripper failed ({type(e).__name__}) — "
+                         "ALLOWING without a check. This is fail-open, not coverage.\n")
+        return 0
+    found = reset_violation(scan)
+    for rx, why in RULES:
+        if found:
+            break
+        if re.search(rx, scan):
+            found = why
+    if found:
+        sys.stderr.write(
+            f"⛔ git_guard BLOCKED: {found}\n   command: {cmd[:200]}\n"
+            "   (root CLAUDE.md § Git Protocol — this hook lints the direct forms of the prohibition)\n")
+        return 2
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

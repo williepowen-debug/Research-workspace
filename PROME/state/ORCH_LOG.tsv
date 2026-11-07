@@ -2282,3 +2282,33 @@ date	desk	tier	touch	trigger	drained	delivered	zero_capital	notes	brief_defects	
 2026-11-06	BOND	TOUCH	10	Will 17:08 ET boot and update through the 11/6 close		IN-FLIGHT	OK	PROME prome-51; existing cleared window assigned by SendMessage, no launch				
 2026-11-06	WALTER	TOUCH	10	Will 17:08 ET boot and update through the 11/6 close		IN-FLIGHT	OK	PROME prome-51; existing cleared window assigned by SendMessage, no launch				
 2026-11-06	REGINALD	TOUCH	10	Will 17:08 ET boot and update through the 11/6 close		IN-FLIGHT	OK	PROME prome-51; existing cleared window assigned by SendMessage, no launch				
+2026-11-06	TERRY	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD e78d6b9d17	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	VIOLET	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 62ef5a558c	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	ORACLE	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 30312225b4	OK	PROME prome-51; ASKED then receipt; window stays for WQ-646 timers				
+2026-11-06	FALCON	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 938ec91997	OK	PROME prome-51; ASKED then receipt; window stays for WQ-646 timers				
+2026-11-06	WALTER	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 577648987c	OK	PROME prome-51; ASKED then receipt; window stays for WQ-646 routing				
+2026-11-06	REGINALD	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD a8e1a7933a	OK	PROME prome-51; ASKED then receipt; window stays for the 11/7 run				
+2026-11-06	LIQUID	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 30a0e63c7d	OK	PROME prome-51; ASKED then receipt; window stays, own 20:21 ET timer for the DTCC line				
+2026-11-06	CARL	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD e37a62edb2	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	HENRY	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 3bc5e793a1	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	CYPHER	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD b8812f6bec	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	NEXUS	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 5efbbdff00	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	ISHM	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 064c314467	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	BROCK	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 5efbbdff00	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	CORAL	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 1ddd6446b8	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	HANS	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 958f189f7e	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	VULCAN	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 41db235c0b	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	ZHAO	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 6680d2b396	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	SHADE	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 5b514d55e4	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	OSPREY	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 7566d02f28	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	CREED	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 4f3942dbfa	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	OTTO	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 3042ad4ca0	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	SAM	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 4d7972d12a	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	BRENT	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD b9e6340bd9	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	BOND	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD c85c7b09c7	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	RED	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD 41db235c0b	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	HAWK	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD d93aca2361	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	CRUISE	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD a185068d7e	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	LABOR	TOUCH	CLOSE	Will 17:08 ET boot and close refresh, Will 18:33 ET closeout, by SendMessage		message receipt 18:3x ET, HEAD ca008f9a2a	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	ARGUS	subagent	1	WQ-485 end-of-day audit, first schema-3 freeze		in-session ledger, 9 ❌ 9 ⚠️ of 72 claims	OK	PROME prome-51; RUN-LOG; ❌ applied, duplicate DOCKET rows removed, changed-portion re-check follows				
+2026-11-06	ARGUS	subagent	2	WQ-583 changed-portion re-check		in-session ledger, 3 ❌ wording 5 ⚠️	OK	PROME prome-51; ❌ applied, not re-read, disclosed in memory				

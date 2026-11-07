@@ -41,10 +41,6 @@ RULES = [
      "add-all sweeps every agent's work — pathspec adds only"),
     (GIT + r"add\s+(?:.*\s)?\.(?:/)?(?:\s|$|;|&|\|)",
      "add-dot sweeps the shared index — pathspec adds only"),
-    (GIT + r"reset\s+HEAD\b",
-     "reset HEAD is a global unstage on the shared index"),
-    (GIT + r"reset\s+(?:--hard|--mixed|--soft)?\s*$",
-     "bare reset unstages everyone's work"),
     (GIT + r"commit\b[^\n|;&]*\s--amend\b",
      "commit --amend rewrites whoever holds HEAD — note the fix in the next commit instead (root rule 4b)"),
     (GIT + r"push\b[^\n|;&]*\s(?:-f\b|--force\b|--force-with-lease\b)",
@@ -52,6 +48,44 @@ RULES = [
     (GIT + r"commit\s+(?:.*\s)?-a(?:m)?\b",
      "commit -a commits the whole tree — pathspec commits only"),
 ]
+
+# `reset` is checked by reset_violation(), by walking its arguments; regexes failed two
+# independent reads 2026-11-06 (PROME/reports/2026-11-06_git-guard-reset-read-*.md).
+# Every doubt fails closed: this guard blocks; `--` with named files is the way through.
+_RESET = re.compile(GIT + r"reset(?=\s|$|[;&|)`#<>])")
+_RESET_END = re.compile(r"[;&|)`\n]|(?:^|\s)#")
+_REDIRECT = re.compile(r"\d*(?:>>?|<)&?\s*[^\s;&|)`]+")
+_REFLIKE = re.compile(r"^(?:HEAD(?:$|[~^@])|@|FETCH_HEAD$|ORIG_HEAD$|MERGE_HEAD$|origin/|upstream/)|[~^]|@\{")
+_MODES = {"--mixed", "--soft", "--merge", "--keep"}
+
+
+def _wide_path(a: str) -> bool:
+    """True unless `a` is plainly one named path below the current directory."""
+    n = re.sub(r"^(?:\./+)+", "", a).rstrip("/")
+    return (n in ("", ".", "..") or n.startswith("../") or a.startswith(":")
+            or bool(re.search(r"[*?\[$`]", a)))
+
+
+def reset_violation(scan: str):
+    """Reason to refuse, or None. Allowed only: a reset naming specific files."""
+    for m in _RESET.finditer(scan):
+        rest = _REDIRECT.sub(" ", scan[m.end():])   # first: `2>&1` holds an `&`
+        end = _RESET_END.search(rest)
+        args = (rest[:end.start()] if end else rest).split()
+        dd = args.index("--") if "--" in args else None
+        pre = args if dd is None else args[:dd]
+        if "--hard" in pre:
+            return "reset --hard discards the shared working tree"
+        if any(a in _MODES for a in pre):
+            return "reset with a mode moves the shared branch for everyone"
+        positional = [a for a in pre if not a.startswith("-")]
+        if positional and _REFLIKE.search(positional[0]):
+            return "reset HEAD is a global unstage on the shared index"
+        paths = positional if dd is None else args[dd + 1:]
+        if not paths or any(_wide_path(a) for a in paths):
+            return "bare reset unstages everyone's work; name the files after --"
+    return None
+
 
 _SHELL_C = re.compile(r"\b(?:bash|sh|zsh|dash)\s+(?:-[a-zA-Z]*c[a-zA-Z]*\s+)(['\"])(.*?)\1", re.S)
 _QUOTED = re.compile(r"'([^']*)'|\"([^\"]*)\"")
@@ -98,7 +132,7 @@ def _unquote_or_drop(m: re.Match) -> str:
 def strip_text(cmd: str) -> str:
     """Prose out, arguments in: heredocs dropped; `-c "…"` bodies scanned as commands;
     whitespace-bearing quoted strings dropped; whitespace-free quoted tokens unquoted."""
-    s = _drop_heredocs(cmd)
+    s = _drop_heredocs(cmd).replace("\\\n", " ")   # a line continuation is one command
     # the body of `bash -c "…"` is a command: lift it out of its quotes so the rules see it
     s = _SHELL_C.sub(lambda m: " " + m.group(2) + " ", s)
     s = _QUOTED.sub(_unquote_or_drop, s)
@@ -140,12 +174,17 @@ def main():
         sys.stderr.write(f"⚠️ git_guard: text-stripper failed ({type(e).__name__}) — "
                          "ALLOWING without a check. This is fail-open, not coverage.\n")
         return 0
+    found = reset_violation(scan)
     for rx, why in RULES:
+        if found:
+            break
         if re.search(rx, scan):
-            sys.stderr.write(
-                f"⛔ git_guard BLOCKED: {why}\n   command: {cmd[:200]}\n"
-                "   (root CLAUDE.md § Git Protocol — this hook lints the direct forms of the prohibition)\n")
-            return 2
+            found = why
+    if found:
+        sys.stderr.write(
+            f"⛔ git_guard BLOCKED: {found}\n   command: {cmd[:200]}\n"
+            "   (root CLAUDE.md § Git Protocol — this hook lints the direct forms of the prohibition)\n")
+        return 2
     return 0
 
 
