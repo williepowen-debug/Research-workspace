@@ -1,0 +1,9 @@
+event_key	calendar_source	owner	publication_state	source_vintage	walter_disposition	owner_grade_state	evidence_path	next_action
+centcom-announcement-november-7	Al Jazeera 22:55Z, unnamed official; on no calendar	FALCON	future	Saturday 08:30 ET	reviewed/routed SIG-W-20261106-054	pending FALCON	card 054	read after publication
+vix-skew-november-6	RED-FT-06, RED-FT-10	RED/VIOLET	partly published	VIX9D, VIX3M, VVIX History posted; VIX and SKEW History unposted at 00:36Z	no fire	RED/VIOLET owe	observations.json	re-read
+wal-kre-november-6	REG-T-01, REG-T-02	REGINALD	vendor only	Nasdaq rows unposted at 00:36Z	no fire; re-entry	REGINALD owes	observations.json	re-read
+hy-ccc-november-6	DOCKET; STATUS	LIQUID/RED/REGINALD/TERRY	future	about 10:10 ET November 9	unpublished/source unavailable	none		November 9
+oracle-dtcc-november-6	LIQUID, card 042	LIQUID	future	about 20:15 ET; timer in LIQUID desktop window, UNKNOWN from this box	unpublished/source unavailable	none		LIQUID or PROME
+baker-hughes-rigs-november-6	boundary 7 retired	BRENT	UNKNOWN	not read	no routing duty, retired	UNKNOWN		BRENT
+cftc-cot-november-6	intake cftc_cot.json	BRENT	UNKNOWN	BRENT COT #13 as-of November 3 not matched to a November 6 file	UNKNOWN	UNKNOWN		BRENT
+ozk-q3-10q	PROME/DOCKET L763	OZK	UNKNOWN	Bank OZK files with FDIC	UNKNOWN	UNKNOWN		OZK
