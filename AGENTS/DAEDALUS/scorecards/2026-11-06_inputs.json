@@ -1,0 +1,51 @@
+{
+  "commit": "b5e629ac1e07fbfbd5def769477a5d86ee311448",
+  "rendered_at": "2026-11-07T16:21:21.890643+00:00",
+  "basis": "Detached local shared-object clone; *.md/*.tsv/*.py sparse checkout retains every source/data extension used by unchanged v1.3, including unregistered-ledger enumeration. Full Git history retained. Inputs clean. Selected key hashes below; commit pins all dependencies. TZ America/New_York.",
+  "inputs_dirty_at_render": "none",
+  "files": [
+    {
+      "path": "PROME/DOCKET.tsv",
+      "sha256": "7b158a9eb132f4848654f7f9f0d7b3dbb2f5aa3b965bd939dc86387d1a5392dd"
+    },
+    {
+      "path": "PROME/WILL_QUEUE.md",
+      "sha256": "c9b8cdfc2a23c3de257f15ff825cd632bbaa2930d47dead95689114b1cece98c"
+    },
+    {
+      "path": "PROME/state/ORCH_LOG.tsv",
+      "sha256": "a6e3184c7d730be08714321ad13b0408f40bf155f393a4c0811f1c83804a80bc"
+    },
+    {
+      "path": "PROME/archive/ORCH_LOG_2026-09.tsv",
+      "sha256": "334747daffc18e3a4e1304dcc6e5699b66b68d8c363474bd4852cf9edb3677c6"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/CORRECTIONS.tsv",
+      "sha256": "798a6b097b0531aa0277c8608ae1e4c4f7c2ec57258bba23eb63226720846693"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scorecards/LEDGERS.tsv",
+      "sha256": "b9c67a2fc39fc0ac3f484dc6ba7b225aff5814349afe664349ebeb480bf55247"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/scorecard.py",
+      "sha256": "6f21ce10ec65a3da8ff884fb8547fd88c6bc28492251ad760347fc37c15a2e93"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/coordination_scorecard.py",
+      "sha256": "ab855e96c01611901ba3a14bb8b16e9f833f471668ebb6b1412b9297b91c3fa9"
+    },
+    {
+      "path": "scripts/orch_log.py",
+      "sha256": "0e77438e350270ae0c4807e3dd3c2d6dff2471d360ae0405815f4c13bf0f2b7f"
+    }
+  ],
+  "generated_body_bytes": 114634,
+  "generated_body_sha256": "494f98321fe2edb4d1c23d1856420875af98be7428f4b0100063034335e82af3",
+  "published_sha256": "9e3c0e63a1aa5f9eceab932e0f51516f2ff2cd918f406ba8a93823b6532c99d0",
+  "series_prior_sha256": "da2e7a7fe538fcd85cec40f43a09dfeca640f73c41041cb9bbcc8bc4d6f191ae",
+  "prior_rows_conserved": true,
+  "tests": "27/27 rc0",
+  "render_rc": 0
+}

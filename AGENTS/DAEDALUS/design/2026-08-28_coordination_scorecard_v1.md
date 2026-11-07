@@ -46,3 +46,7 @@
 ## Run log — October 3, 2026 late render for October 2
 
 Full-v1 #5 rendered 18:01:47 EDT from pinned committed c5cd19407; window9/26–10/2 retained, later-source snapshot explicitly disclosed. `scorecards/2026-10-02.md`, input hashes `scorecards/2026-10-02_inputs.json`, interpretation/coverage `runs/2026-10-03_SCORECARD_2026-10-02_DELIVERY.md`. Producer27/27, live render rc0. Prior series rows conserved. No success threshold; 198/270 defect counts EMPTY and3 forecast statuses UNMAPPED block an improvement or29-certified-resolutions claim. Actual last_run10/3; next Friday10/9.
+
+## Run log — November 7, 2026 late render for November 6
+
+Existing v1.3 rendered October 31–November 6 at pinned b5e629ac1e, one day late. 27/27 selftests; rc 0; nine prior series rows conserved. Result and cutoff limits: `runs/2026-11-07_SCORECARD_2026-11-06_DELIVERY.md`. Method unchanged; later snapshot versus prior partial Friday prevents a simple improvement inference. Actual last_run November 7; next dated obligation November 13.
