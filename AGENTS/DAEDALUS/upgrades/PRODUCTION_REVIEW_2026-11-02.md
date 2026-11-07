@@ -1,3 +1,5 @@
+> **November 7 follow-through:** Owner replies reconciled at `runs/2026-11-07_REPLY_INTEGRATION.md`; current map/profile/card deltas carry the bounded results. Historical counts below stay dated; no whole-run clock or original review scope changed.
+
 # Production Review #9 — November 2, 2026
 
 Authority: Will's overdue/gaps instruction and PROME's committed `inbox/processed/2026-11-02_from-PROME_production-review-followthrough.md`; on-demand review under `sweeps/PRODUCTION_REVIEW.md`. This brings the review forward, not November 4 observations or blanket fix approval. No domain owner launched or edited, market threshold moved, new standing checker built, paid feed requested or trade action taken.

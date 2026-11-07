@@ -1,3 +1,5 @@
+> **November 7 follow-through:** Owner replies reconciled at `runs/2026-11-07_REPLY_INTEGRATION.md`; current map/profile/card deltas carry the bounded results. Historical counts below stay dated; no whole-run clock or original review scope changed.
+
 # Harness audit — October 23 skipped-items reconciliation, November 4, 2026
 
 **Result:** bounded reconciliation COMPLETE; whole audit PARTIAL. All skip legs itemized against their owner packets and current files (HEAD at or after 5eed2f29e3, read 20:50–20:53 ET). Commissioned by Will in the DAEDALUS window ("keep going", 20:50 ET). No owner file edited, no clock moved.

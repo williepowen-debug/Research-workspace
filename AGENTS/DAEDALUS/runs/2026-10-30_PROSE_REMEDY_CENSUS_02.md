@@ -1,3 +1,5 @@
+> **November 7 follow-through:** Owner replies reconciled at `runs/2026-11-07_REPLY_INTEGRATION.md`; current map/profile/card deltas carry the bounded results. Historical counts below stay dated; no whole-run clock or original review scope changed.
+
 # Prose-Remedy Census #2 — 2026-10-30 (due 10/29, 1d late)
 
 **Perimeter:** ROSTER ACTIVE + TIER-2 + SPECIAL charters and their STATUS/SCRATCH/CANARY_MAP/MAINTENANCE/LAST_COMPLETION (DAEDALUS included). **Step 1:** `scripts/prose_remedy_candidates.py` (selftest 21/21) at HEAD c1ad5137f → 165 candidate rows, `2026-10-30_PROSE_REMEDY_CENSUS_02/…_CANDIDATES.tsv`. **Step 2:** two non-owner Opus classifiers, every row opened at its line, every BUILT/PROSE-REMEDY checked against code: `…_A-M.md` (74 rows, 20 desks) and `…_N-Z.md` (91 rows, 18 desks). 0 rows NOT READ. DAEDALUS spot-checked the LABOR rows and the brief-pin claim at the artifacts (both hold).

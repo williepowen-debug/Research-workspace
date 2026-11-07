@@ -1,0 +1,153 @@
+{
+  "observed_at": "2026-11-07T10:38:06.482331-05:00",
+  "head": "7c3e5d91d8c0d868de1437f9c824b208d29c0187",
+  "checks": {
+    "CREED_original_11_dispositions": [
+      {
+        "ID": "KB-CREED-001",
+        "Status": "ACTIVE",
+        "Stale_By": "2027-01-31",
+        "Last_Refreshed": "2026-11-05"
+      },
+      {
+        "ID": "KB-CREED-002",
+        "Status": "ACTIVE",
+        "Stale_By": "2027-01-31",
+        "Last_Refreshed": "2026-11-05"
+      },
+      {
+        "ID": "KB-CREED-003",
+        "Status": "ACTIVE",
+        "Stale_By": "2027-01-31",
+        "Last_Refreshed": "2026-11-05"
+      },
+      {
+        "ID": "KB-CREED-009",
+        "Status": "SUPERSEDED",
+        "Stale_By": "NA",
+        "Last_Refreshed": "2026-11-05"
+      },
+      {
+        "ID": "KB-CREED-014",
+        "Status": "STALE",
+        "Stale_By": "NA",
+        "Last_Refreshed": "2026-07-27"
+      },
+      {
+        "ID": "KB-CREED-017",
+        "Status": "ACTIVE",
+        "Stale_By": "2027-01-31",
+        "Last_Refreshed": "2026-11-05"
+      },
+      {
+        "ID": "KB-CREED-018",
+        "Status": "ACTIVE",
+        "Stale_By": "2027-01-31",
+        "Last_Refreshed": "2026-11-05"
+      },
+      {
+        "ID": "KB-CREED-019",
+        "Status": "ACTIVE",
+        "Stale_By": "2027-01-31",
+        "Last_Refreshed": "2026-11-05"
+      },
+      {
+        "ID": "KB-CREED-036",
+        "Status": "ACTIVE",
+        "Stale_By": "2027-01-31",
+        "Last_Refreshed": "2026-11-05"
+      },
+      {
+        "ID": "KB-CREED-041",
+        "Status": "ACTIVE",
+        "Stale_By": "2027-01-31",
+        "Last_Refreshed": "2026-11-05"
+      },
+      {
+        "ID": "KB-CREED-046",
+        "Status": "ACTIVE",
+        "Stale_By": "2027-01-31",
+        "Last_Refreshed": "2026-10-28"
+      }
+    ],
+    "CREED_current_guard_rc": 1,
+    "AGENTS/CARL/sub_agents/PHAN/workbook/PREDICTIONS.tsv": [
+      {
+        "Instrument": "bankruptcy dockets (PACER), state receivership orders, or the company wind-down notice; one primary per failure, distress excluded :: count of additional fintech failures :: >=2"
+      },
+      {
+        "Instrument": "state AG press release or state court docket, one primary per state, county DAs excluded (CARL ruling 2026-10-28) :: count of states with cash-advance-app enforcement :: >=5"
+      }
+    ],
+    "AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv": [
+      {
+        "Instrument": "CA DOI market share report; <50K leg: carrier commitments in CDI-approved Sustainable Insurance Strategy rate filings, no dated read yet (2026-11-06) :: FAIR Plan rank among CA residential insurers by policy count :: qualitative"
+      }
+    ],
+    "WATT_A2_recorded": true,
+    "SHADE_falsifier_recorded": true,
+    "HANS_current_summary": true,
+    "CORAL_WQ475_logged": true,
+    "VULCAN_venue_and_limit": true,
+    "NEXUS_already_annotated": true,
+    "CRUISE_filing_since_packet": true,
+    "FALCON_exit_now_v4": true,
+    "FALCON_warrisk_6_10": true,
+    "FALCON_FAL07_encoded": true,
+    "ORACLE_gate_writeback": {
+      "alert_recorded": true,
+      "NYSE_calendar": true
+    },
+    "ORACLE_producer_rulings": [
+      [
+        "VX-ORC-07",
+        true,
+        false
+      ],
+      [
+        "VX-ORC-08",
+        false,
+        true
+      ]
+    ],
+    "L882_scannable": [
+      [
+        "GATE-TERRY-ROLL70-EXIT",
+        "JUDGEMENT"
+      ],
+      [
+        "GATE-TERRY-VLO-HELD-01",
+        "JUDGEMENT"
+      ]
+    ],
+    "UNG_terminal_current": "RETIRED(TERMINAL 2026-11-07) \u2014 ended by Will 09:22 ET, read by PROME and stated back: \"I did a UNG call already so no need to stay focused there\"; no order, $0 deployed on the card"
+  },
+  "sources": {
+    "AGENTS/CARL/sub_agents/PHAN/workbook/PREDICTIONS.tsv": "dfc800c844bc33c5f455de6c0aaad16a92b45fa084457b5d0fa185681b8fbcaf",
+    "AGENTS/CARL/sub_agents/POLLY/workbook/PREDICTIONS.tsv": "ac9e4f88b5cd81ec279082ce303cdd7547232b4543d13cf967a8add78c8e040d",
+    "AGENTS/WATT/KILL_MEMO.md": "5541c9978452664c74281fa00074a3bc86ce8b941637fe43a0807cd6d89f6ba7",
+    "AGENTS/SHADE/research/L185_Q3_INSURER_READ_2026-11-06.md": "5db28ddca6e2d2a0b9593ecbc83c376aee16f4c5d17418e9232e1475325a50a8",
+    "AGENTS/HANS/thesis/KILL_TREE.md": "3ace36c7ecbfaffee4bb976278091ed67d8f81a52dd2ef50149ef3911db6bc98",
+    "AGENTS/CORAL/thesis/CHANGELOG.md": "eacbcb13c105b87fbd13feca286973b508a4021076f8d953e8769133b74688d8",
+    "AGENTS/CORAL/thesis/THESIS.md": "ed37265e396da89c15bf48e6eb0eb546d2e595a7645300f0dce1a243807edd57",
+    "AGENTS/CORAL/workbook/FL_Forward_Log.md": "3c1b2b6254388fd1692a2db8841592a5ec66199b256bc0fd512a633d774e5671",
+    "AGENTS/VULCAN/workbook/PREDICTIONS.tsv": "e8974125ca30bc35903d939d932b97ba8b539a6bd0111d0fdbcafbd464805648",
+    "AGENTS/NEXUS/STATUS.md": "a9e531dfe8e8d9a8c32757dbf010ddac2fb8e3abb70a843e50e4165d2dc358bd",
+    "AGENTS/CRUISE/STATUS.md": "f2f9ec668f8e8512a0008dd1ae7a13e40c5b9ad3a2b55648b2fad5f752e777d9",
+    "AGENTS/FALCON/workbook/EXIT_PROTOCOL.md": "fdf087ae3fe60e5b88e70f3ed555de4a8696fb58050328d50d4a57e7a5a376e1",
+    "AGENTS/FALCON/thesis/PREDICTIONS.tsv": "627f816cdea0b62bd4bc15dc576e4486b31769652ad75b173020ac865ed28531",
+    "AGENTS/ORACLE/workbook/VX.tsv": "327ca4f62df065c9c8464c35cfe5e8377343f79f309222ab282539d39838daa2",
+    "PROME/GATES.tsv": "873097d7262c5887747c076d2790f030efd998a3fd146f099f47ab370e9236be",
+    "AGENTS/CREED/workbook/KB.tsv": "d9c90e7fa8147ec69f11350f0edc07fe0f09ec9181a41c21212089020f1b718d",
+    "AGENTS/CREED/scripts/creed_selfcheck.py": "8511e66dbc4e3d6a8411ff70117aee8c45ef68599596d798771c78e7cb583e15",
+    "AGENTS/GIBBS/workbook/KB.tsv": "6de5df06f56ab39558c431f910ff3aebc66f55e317f11d2fd97c9846d4e796c4",
+    "AGENTS/GIBBS/workbook/READS.tsv": "c56baf3780da48afab05953ac0563bbffe33584a71a02e7f5e8998b1b4c1842d",
+    "AGENTS/CORAL/workbook/PREDICTIONS.tsv": "626fec3d3fb2aee73d8566b1dcf602086c88bea40f3b34388241b2d0344a2d91",
+    "AGENTS/DAEDALUS/scorecards/LEDGERS.tsv": "b9c67a2fc39fc0ac3f484dc6ba7b225aff5814349afe664349ebeb480bf55247"
+  },
+  "creed_selfcheck": {
+    "rc": 1,
+    "stdout": "CREED SELF-CHECK \u2014 fired-trigger consistency + asserted counts\n  actual: VX=34 \u00b7 KB=116 \u00b7 PRED=15 (open=4) \u00b7 workbook files=9\n\n  \ud83d\udfe0 [schema] KB KB-CREED-073: past Stale_By 2026-11-06 and still ACTIVE: re-verify, or mark STALE\n\n  \ud83d\udfe0 [schema] KB KB-CREED-092: past Stale_By 2026-11-06 and still ACTIVE: re-verify, or mark STALE\n\n  \u2139\ufe0f  VX-CREED-4.01 shows ORANGE vs band-mechanical GREEN: DISCLOSED exception (indicative ORANGE held after the 8/27 basis change (see its note))\n\n  \u2139\ufe0f  VX-CREED-9.02 shows ORANGE vs band-mechanical RED: DISCLOSED exception (bands are DECLINE magnitudes ('>-25' = a fall past 25%), which this mechanical read cannot parse; -33 reads ORANGE by intent (proxy adopted by Will 2026-10-28; see its note))\n\n  \u2139\ufe0f  VX-CREED-9.03 shows ORANGE vs band-mechanical GREEN: DISCLOSED exception (bands uncalibrated for the CBRE provider (see its note))\n\n  2 finding(s). Fix by PATTERN, not by this list.\n",
+    "stderr": ""
+  }
+}

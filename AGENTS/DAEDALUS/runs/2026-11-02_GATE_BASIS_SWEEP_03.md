@@ -1,3 +1,5 @@
+> **November 7 follow-through:** Owner replies reconciled at `runs/2026-11-07_REPLY_INTEGRATION.md`; current map/profile/card deltas carry the bounded results. Historical counts below stay dated; no whole-run clock or original review scope changed.
+
 # Gate Basis Sweep #3 — 2026-11-02
 
 **State:** COMPLETE detection/review perimeter, with owner repairs and source-access exceptions OPEN. This is not a fresh current-market grade or clean-gate certification. 28 registered rows enumerated: 22 operative published-observation gates; 6 NOT GRADED with reasons. Historical already-fired OSPREY volume branch is accounted for, not re-fired. Source metadata/fingerprints are working-tree observations, not a single immutable fleet snapshot.

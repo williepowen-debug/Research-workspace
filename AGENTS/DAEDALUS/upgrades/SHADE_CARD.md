@@ -1,3 +1,5 @@
+> **November 7 bounded reply integration:** WQ-473/474 definitions retain conditional DLIC classifier and diagnostic-only R/T limits. Thesis-level falsifier F-SHADE-01 now recorded in November 6 report section 11: March 31 FY2026 test, stress-environment gate and all-three-leg conjunction. This accepts presence/write-back, not authority or substantive test validation. Other prediction/conditioned-flat and memory debt not rechecked. No repeat missing-thesis-falsifier request. Remaining owner surfaces and whole comprehension of new definitions precede ratio-guard changes; no new grade or re-score. Evidence/limits: `runs/2026-11-07_REPLY_INTEGRATION.md`. Prior body vintage and grade unchanged.
+
 # Upgrade Card — SHADE (read-only assessment, no agent files touched)
 
 > 🗄 **ROUTED 2026-07-27 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.

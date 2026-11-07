@@ -1,3 +1,5 @@
+> **November 7 bounded reply integration:** Current judgment/reading B and repaired content-clock wiring retain prior acceptance. PHAN-P04/P07 and POLLY-P07 now name instruments; POLLY policy-count leg explicitly has no dated read, DOC-P08 untouched. Child-ledger/STUE scope not remeasured; CARL aggregate and CRL-15/23 mark review remain pending separate work. L5 requires current child-ledger/STUE dispositions and clean-closeout verification. DAEDALUS CARL scoring review remains in two PROME inbox requests; no scoring verdict in this integration pass. Evidence/limits: `runs/2026-11-07_REPLY_INTEGRATION.md`. Prior body vintage and grade unchanged.
+
 # Upgrade Card — CARL (read-only assessment, no agent files touched)
 
 > 🗄 **ROUTED 2026-07-10 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.

@@ -1,3 +1,5 @@
+> **November 7 follow-through:** Owner replies reconciled at `runs/2026-11-07_REPLY_INTEGRATION.md`; current map/profile/card deltas carry the bounded results. Historical counts below stay dated; no whole-run clock or original review scope changed.
+
 # WIRING SWEEP — LEG ⑰ METRIC-SURFACE SWEEP, RUN #4
 
 **Run date:** 2026-10-30 (Fri) · stamp at file creation: `Fri Oct 30 12:26:34 EDT 2026` (`date`, same command as the write) · **Owner:** DAEDALUS · **Reader:** read-only non-owner reader (no subagents)

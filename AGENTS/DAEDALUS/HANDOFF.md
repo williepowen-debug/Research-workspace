@@ -1,10 +1,12 @@
 # DAEDALUS handoff — November 7, 2026
 
-## Latest continuation: startup recovery only
+## Latest continuation: bounded integration completed on Will's go
 
-Will requested startup and status, not execution. Read 23 current inbox packets; none filed. New CARL scoring review and CORAL ledger-registration assignments join the GIBBS three-cell recheck. L882 is now resolved at DOCKET and PROME's November 6 reply. Recovery, approval caveats, every packet disposition and current overdue clocks: `runs/2026-11-07_BOOT_RECOVERY.md`. Suggested next assigned pass is reply integration and bounded follow-ups; no maintenance clock, grade or review changed. OpenAI Codex; Claude-specific tooling unavailable, cross-runtime discovery/messaging unverified. Foreign REGINALD dirty work blocked pull; fetch succeeded.
+Evidence/dispositions: `runs/2026-11-07_REPLY_INTEGRATION.md`. CORAL registry applied; both consumers see four OPEN rows. GIBBS independently L2/M at bounded floor scope. CREED original eleven expiries closed; current guard flags 073/092. CRUISE filing read complete at owner, model/add-back caveats remain. NEXUS annotation already present; L882 closed; FALCON WQ-559 encoded. Twelve map re-cuts and profile/card/batch pointers preserve whole vintages.
 
-Prior continuation below is dated history where superseded by this recovery. No new authorization is inferred.
+Four packets retained: two CARL scoring/mark reviews, plus new PROME L816 wording and L852/L556 answers. None worked in this bounded pass. Weekly scorecard overdue; Harness/profile clocks unchanged. A09 unapproved; C17/root rotation/L263 and WQ-601 unit 4 caveat remain. Durable packets via Git, consumption unverified. GIBBS reader stopped explicitly.
+
+Prior November 6 continuation below is history where superseded here. Completed work is not reopened by those lines.
 
 # DAEDALUS handoff — November 6, 2026
 

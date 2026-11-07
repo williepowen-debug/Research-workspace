@@ -8,6 +8,7 @@ AGENTS/BRENT/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
 AGENTS/BROCK/workbook/PREDICTIONS.tsv	Status	NONE	INLINE-FIRST-ISO	Result	LIVE
 AGENTS/BROCK/workbook/PREDICTIONS_ARCHIVE.tsv	Status	NONE	INLINE-FIRST-ISO	Result	ARCHIVE
 AGENTS/CARL/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/CORAL/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
 AGENTS/CREED/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
 AGENTS/CRUISE/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
 AGENTS/FALCON/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE

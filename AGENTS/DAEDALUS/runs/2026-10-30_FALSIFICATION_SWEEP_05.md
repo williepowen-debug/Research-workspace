@@ -1,3 +1,5 @@
+> **November 7 follow-through:** Owner replies reconciled at `runs/2026-11-07_REPLY_INTEGRATION.md`; current map/profile/card deltas carry the bounded results. Historical counts below stay dated; no whole-run clock or original review scope changed.
+
 # Falsification Freshness Sweep — RUN #5 (2026-10-30; due 10/29 on its 21-day cadence, +1d)
 
 **Written:** 2026-10-30 13:00 EDT (from `date`) · DAEDALUS synthesis · scanner `falsification_scan.py` at HEAD `ddb8148bc`, **fixed today** to read labelled `Kill rail re-derived:` stamps inside STATUS.md (design `design/2026-10-30_FALSIFICATION_SCAN_STATUS_RAIL.md`, AC1–AC6 met, fleet diff = 3 rows added, 0 changed). Two non-owner Opus readers: `2026-10-30_FALSIFICATION_SWEEP_05/R1_FLAGS_BUCKETS.md` · `R2_NEGRES.md`; scanner output `SCAN.md` / `SCAN.tsv`.
