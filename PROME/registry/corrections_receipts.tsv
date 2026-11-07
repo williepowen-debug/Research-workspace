@@ -80,3 +80,7 @@ receipt_date	correction_id	action	note
 2026-11-06T21:29Z	COR-20261106-37	APPLIED	artifact=PROME/themes/ellison/reports/2026-11-06_funding-loop-synthesis.md#Oracle CDS; validation_ref=NONE; 
 2026-11-06T21:29Z	COR-20261106-41	APPLIED	artifact=PROME/themes/ellison/reports/2026-11-06_funding-loop-synthesis.md#SoftBank; validation_ref=NONE; 
 2026-11-06T21:29Z	COR-20261106-36	NO-OP	scope=superseded the same day by COR-20261106-41, PROME synthesis carries the 22 to 24 percent line and never 21.5; 
+2026-11-07T00:34Z	COR-20261106-42	APPLIED	artifact=HEARTBEAT.md#Kill-on-sight at this cut; validation_ref=NONE; 
+2026-11-07T00:34Z	COR-20261106-53	APPLIED	artifact=HEARTBEAT.md#Amendment 1; validation_ref=NONE; 
+2026-11-07T00:34Z	COR-20261106-51	NO-OP	scope=PROME surfaces searched 2026-11-06 19:4x ET: HEARTBEAT, SCRATCH, HANDOFF, STATUS, DOCKET, GATES, themes, 11/6 reports: kill string absent, no Hertz Class B claim to correct; 
+2026-11-07T00:35Z	COR-20261106-52	NO-OP	scope=same search 2026-11-06 19:4x ET: kill string absent, memory/2026-11-06.md already reads the refusal as at most one credit decision; 
