@@ -632,7 +632,7 @@ def main():
     with open(tmp, "w", newline="") as fh:
         for line in header_lines(today):
             fh.write(line + "\n")
-        w = csv.DictWriter(fh, fieldnames=COLS, delimiter="\t", extrasaction="ignore")
+        w = csv.DictWriter(fh, fieldnames=COLS, delimiter="\t", extrasaction="ignore", lineterminator="\n")
         w.writeheader()
         for r in rows:
             w.writerow(r)

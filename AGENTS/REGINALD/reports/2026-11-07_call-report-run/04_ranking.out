@@ -1,0 +1,37 @@
+selftest ok
+Retrospective validation of frozen 8/20 scores, not a blind test; n = 14 of 14; missing: none
+bank  S1 S2   B1    B2     primary  secondary
+OZK    2  2  0.92  0.023   -0.662    0.521
+WAL    2  1  0.86  0.082   -0.121    0.278
+EGBN   5  4  2.05 -0.582    0.681    0.253
+ZION   1  1  0.47  0.013    0.030    0.018
+SSB    2  2  0.53 -0.060    0.015    0.094
+CFG    0  0  0.96 -0.093    0.023    0.366
+BKU    2  1  0.95 -0.184    0.034    0.106
+SBCF   2  2  0.66 -0.093   -0.118    0.159
+AMTB   5  4  2.46 -0.113   -0.366    0.115
+FLG    6  5  4.88  0.152   -0.069    0.477
+MTB    1  1  0.84 -0.042    0.049    0.349
+HBAN   0  0  0.84  0.128    0.049    0.304
+VLY    3  3  0.88  0.031    0.080    0.279
+CUBI   1  1  0.31  0.036   -0.022    0.274
+
+Outcome: primary
+  S1: Spearman -0.183; top group n=3 mean +0.082; other 11 mean -0.058
+  S2: Spearman -0.188; top group n=3 mean +0.082; other 11 mean -0.058
+  B1: Spearman -0.062; top group n=3 mean +0.082; other 11 mean -0.058
+  B2: Spearman -0.147; top group n=3 mean -0.047; other 11 mean -0.023
+
+Outcome: secondary
+  S1: Spearman -0.075; top group n=3 mean +0.282; other 11 mean +0.250
+  S2: Spearman -0.043; top group n=3 mean +0.282; other 11 mean +0.250
+  B1: Spearman +0.374; top group n=3 mean +0.282; other 11 mean +0.250
+  B2: Spearman +0.503; top group n=3 mean +0.353; other 11 mean +0.230
+
+Reading rule: differences under 0.2 = no distinguishable difference. No significance claims.
+  primary: S1 vs B1 difference -0.122; S1 vs B2 -0.036
+  secondary: S1 vs B1 difference -0.449; S1 vs B2 -0.578
+
+Side list (WQ-624 A): reported beside the score, in no statistic. $K, 9/30/2026
+  Preferred: 2746=0 3499=143096 F179=33447 3501=80028 F183=70977 1403=159758 2122=6267239
+  NexBank: 2746=0 3499=75152 F179=5021 3501=1937 F183=35515 1403=86675 2122=8682332

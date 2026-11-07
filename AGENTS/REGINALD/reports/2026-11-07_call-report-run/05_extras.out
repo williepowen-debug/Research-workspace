@@ -1,0 +1,80 @@
+== filing Last Update, 9/30 (mode, max) and any 6/30 update after 2026-08-15
+OZK 9/30 latest 20261030 mode 20261030 | 6/30 latest 20260730
+WAL 9/30 latest 20261030 mode 20261030 | 6/30 latest 20260730
+EGBN 9/30 latest 20261029 mode 20261029 | 6/30 latest 20260902
+ZION 9/30 latest 20261030 mode 20261030 | 6/30 latest 20260729
+SSB 9/30 latest 20261029 mode 20261029 | 6/30 latest 20260820
+CFG 9/30 latest 20261029 mode 20261029 | 6/30 latest 20260730
+BKU 9/30 latest 20261030 mode 20261030 | 6/30 latest 20260730
+SBCF 9/30 latest 20261030 mode 20261030 | 6/30 latest 20260730
+AMTB 9/30 latest 20261030 mode 20261030 | 6/30 latest 20260730
+FLG 9/30 latest 20261030 mode 20261030 | 6/30 latest 20260730
+MTB 9/30 latest 20261030 mode 20261030 | 6/30 latest 20260728
+HBAN 9/30 latest 20261030 mode 20261030 | 6/30 latest 20260821
+VLY 9/30 latest 20261027 mode 20261027 | 6/30 latest 20260729
+CUBI 9/30 latest 20261030 mode 20261030 | 6/30 latest 20260730
+== NDFI: RC-N M9 and all RCN rows naming nondepository, plus 9.a and Memo 10
+OZK {'M9 PV23': '0', 'M9 PV24': '0', 'M9 PV25': '0'}
+WAL {'M9 PV23': '0', 'M9 PV24': '0', 'M9 PV25': '122497'}
+EGBN {'M9 PV23': '0', 'M9 PV24': '0', 'M9 PV25': '9541'}
+ZION {'M9 PV23': '0', 'M9 PV24': '0', 'M9 PV25': '9429'}
+SSB {'M9 PV23': '0', 'M9 PV24': '0', 'M9 PV25': '7533'}
+CFG {'M9 PV23': '0', 'M9 PV24': '21', 'M9 PV25': '128'}
+BKU {'M9 PV23': '10000', 'M9 PV24': '0', 'M9 PV25': '24968'}
+SBCF {'M9 PV23': '0', 'M9 PV24': '0', 'M9 PV25': '0'}
+AMTB {'M9 PV23': '0', 'M9 PV24': '0', 'M9 PV25': '0'}
+FLG {'M9 PV23': '0', 'M9 PV24': '0', 'M9 PV25': '0'}
+MTB {'M9 PV23': '3000', 'M9 PV24': '0', 'M9 PV25': '7000'}
+HBAN {'M9 PV23': '15463', 'M9 PV24': '0', 'M9 PV25': '15701'}
+VLY {'M9 PV23': '0', 'M9 PV24': '0', 'M9 PV25': '18522'}
+CUBI {'M9 PV23': '0', 'M9 PV24': '0', 'M9 PV25': '0'}
+Preferred {'M9 PV23': '0', 'M9 PV24': '0', 'M9 PV25': '0'}
+NexBank {'M9 PV23': '0', 'M9 PV24': '0', 'M9 PV25': '0'}
+== Memo 10 at 6/30, 9/30 (bal)
+OZK [{'9a': '3264019', 'M10a': '0', 'M10b': '1935393', 'M10c': '857762', 'M10d': '40587', 'M10e': '430277'}, {'9a': '3568848', 'M10a': '0', 'M10b': '2060390', 'M10c': '1023441', 'M10d': '43274', 'M10e': '441743'}]
+WAL [{'9a': '15812034', 'M10a': '10895412', 'M10b': '3459295', 'M10c': '1457327', 'M10d': '0', 'M10e': '0'}, {'9a': '15832394', 'M10a': '10767707', 'M10b': '3599174', 'M10c': '1465513', 'M10d': '0', 'M10e': '0'}]
+EGBN [{'9a': '91664', 'M10a': '91664', 'M10b': '0', 'M10c': '0', 'M10d': '0', 'M10e': '0'}, {'9a': '135752', 'M10a': '135752', 'M10b': '0', 'M10c': '0', 'M10d': '0', 'M10e': '0'}]
+ZION [{'9a': '2517907', 'M10a': '547197', 'M10b': '990639', 'M10c': '218925', 'M10d': '306902', 'M10e': '454245'}, {'9a': '2210173', 'M10a': '334591', 'M10b': '945398', 'M10c': '118541', 'M10d': '271717', 'M10e': '539927'}]
+SSB [{'9a': '752984', 'M10a': '70713', 'M10b': '43516', 'M10c': '280095', 'M10d': '243511', 'M10e': '115150'}, {'9a': '807540', 'M10a': '69655', 'M10b': '66856', 'M10c': '315908', 'M10d': '163845', 'M10e': '191276'}]
+CFG [{'9a': '21993287', 'M10a': '304607', 'M10b': '6133488', 'M10c': '9774410', 'M10d': '1142705', 'M10e': '4638077'}, {'9a': '23003913', 'M10a': '285705', 'M10b': '5774405', 'M10c': '10396973', 'M10d': '1318738', 'M10e': '5228093'}]
+BKU [{'9a': '2152485', 'M10a': '1206114', 'M10b': '197528', 'M10c': '325281', 'M10d': '104976', 'M10e': '318586'}, {'9a': '2215066', 'M10a': '1210881', 'M10b': '231744', 'M10c': '270194', 'M10d': '107062', 'M10e': '395185'}]
+SBCF [{'9a': '66418', 'M10a': '141', 'M10b': '43194', 'M10c': '0', 'M10d': '2109', 'M10e': '20974'}, {'9a': '55198', 'M10a': '129', 'M10b': '31910', 'M10c': '0', 'M10d': '2015', 'M10e': '21144'}]
+AMTB [{'9a': '85492', 'M10a': '85492', 'M10b': '0', 'M10c': '0', 'M10d': '0', 'M10e': '0'}, {'9a': '49502', 'M10a': '49502', 'M10b': '0', 'M10c': '0', 'M10d': '0', 'M10e': '0'}]
+FLG [{'9a': '3457706', 'M10a': '1108371', 'M10b': '202021', 'M10c': '866756', 'M10d': '763873', 'M10e': '516685'}, {'9a': '4511574', 'M10a': '1135986', 'M10b': '672514', 'M10c': '1465986', 'M10d': '813146', 'M10e': '423940'}]
+MTB [{'9a': '13681000', 'M10a': '6555000', 'M10b': '2127000', 'M10c': '3537000', 'M10d': '521000', 'M10e': '941000'}, {'9a': '13734000', 'M10a': '6939000', 'M10b': '2008000', 'M10c': '3298000', 'M10d': '523000', 'M10e': '966000'}]
+HBAN [{'9a': '17511739', 'M10a': '3239200', 'M10b': '3104636', 'M10c': '4130324', 'M10d': '590572', 'M10e': '6447007'}, {'9a': '19938764', 'M10a': '3557497', 'M10b': '3544041', 'M10c': '4873733', 'M10d': '676753', 'M10e': '7286740'}]
+VLY [{'9a': '1765627', 'M10a': '309319', 'M10b': '619397', 'M10c': '814314', 'M10d': '0', 'M10e': '22597'}, {'9a': '2062490', 'M10a': '262066', 'M10b': '605610', 'M10c': '1153981', 'M10d': '22542', 'M10e': '18291'}]
+CUBI [{'9a': '6143029', 'M10a': '2465509', 'M10b': '2858825', 'M10c': '736743', 'M10d': '100', 'M10e': '81852'}, {'9a': '6206273', 'M10a': '2079326', 'M10b': '3011076', 'M10c': '1026454', 'M10d': '100', 'M10e': '89317'}]
+== same-basis sensitivity: 1403 over matching-prefix 2122
+OZK RCFD2122 False primary same -0.662 frozen -0.662; secondary same 0.521; 6/30 ratio same 0.923
+WAL RCFD2122 False primary same -0.121 frozen -0.121; secondary same 0.278; 6/30 ratio same 0.861
+EGBN RCFD2122 False primary same +0.681 frozen +0.681; secondary same 0.253; 6/30 ratio same 2.052
+ZION RCFD2122 False primary same +0.030 frozen +0.030; secondary same 0.018; 6/30 ratio same 0.467
+SSB RCFD2122 False primary same +0.015 frozen +0.015; secondary same 0.094; 6/30 ratio same 0.528
+CFG RCFD2122 True primary same +0.023 frozen +0.023; secondary same 0.366; 6/30 ratio same 0.962
+BKU RCFD2122 False primary same +0.034 frozen +0.034; secondary same 0.106; 6/30 ratio same 0.952
+SBCF RCFD2122 False primary same -0.118 frozen -0.118; secondary same 0.159; 6/30 ratio same 0.657
+AMTB RCFD2122 True primary same -0.366 frozen -0.366; secondary same 0.115; 6/30 ratio same 2.459
+FLG RCFD2122 True primary same -0.069 frozen -0.069; secondary same 0.477; 6/30 ratio same 4.882
+MTB RCFD2122 True primary same +0.049 frozen +0.049; secondary same 0.349; 6/30 ratio same 0.842
+HBAN RCFD2122 True primary same +0.048 frozen +0.049; secondary same 0.302; 6/30 ratio same 0.831
+VLY RCFD2122 True primary same +0.080 frozen +0.080; secondary same 0.279; 6/30 ratio same 0.882
+CUBI RCFD2122 False primary same -0.022 frozen -0.022; secondary same 0.274; 6/30 ratio same 0.311
+primary S1 -0.172
+primary S2 -0.172
+primary B1 -0.062
+primary B2 -0.174
+secondary S1 -0.075
+secondary S2 -0.043
+secondary B1 0.374
+secondary B2 0.503
+== leave-out: primary S1, without EGBN; without OZK
+OZK primary S1 -0.197 B1 -0.014
+EGBN primary S1 -0.404 B1 -0.212
+== FLG memo 1 rows RC-C
+3-31-2026 [('RCFDG378', '30456678', 'M14', 'Pledged loans and leases'), ('RCFDHK25', '136989', 'M1g', 'Total loan modifications to borrowers experiencing'), ('RCFDK098', '0', 'M1f4a', 'Credit cards'), ('RCFDK163', '20040', 'M1e1', 'To U.S. addressees (domicile)'), ('RCFDK164', '0', 'M1e2', 'To non-U.S. addressees (domicile)'), ('RCFDK165', '0', 'M1f', 'All other loans (include loans to individuals for '), ('RCFDK168', '0', 'M1f3', 'Loans to finance agricultural production and other'), ('RCFDK203', '0', 'M1f4b', 'Automobile loans'), ('RCFDK204', '0', 'M1f4c', 'Other (includes revolving credit plans other than ')]
+6-30-2026 [('RCFDG091', '0', 'M12a', 'Loans secured by real estate'), ('RCFDG092', '0', 'M12a', 'Loans secured by real estate'), ('RCFDG093', '0', 'M12a', 'Loans secured by real estate'), ('RCFDG094', '0', 'M12b', 'Commercial and industrial loans'), ('RCFDG095', '0', 'M12b', 'Commercial and industrial loans'), ('RCFDG096', '0', 'M12b', 'Commercial and industrial loans'), ('RCFDG097', '0', 'M12c', 'Loans to individuals for household, family, and ot'), ('RCFDG098', '0', 'M12c', 'Loans to individuals for household, family, and ot'), ('RCFDG099', '0', 'M12c', 'Loans to individuals for household, family, and ot'), ('RCFDG100', '0', 'M12d', 'All other loans and all leases'), ('RCFDG101', '0', 'M12d', 'All other loans and all leases'), ('RCFDG102', '0', 'M12d', 'All other loans and all leases'), ('RCFDG378', '31333952', 'M14', 'Pledged loans and leases'), ('RCFDHK25', '337048', 'M1g', 'Total loan modifications to borrowers experiencing'), ('RCFDK098', '0', 'M1f4a', 'Credit cards'), ('RCFDK163', '123767', 'M1e1', 'To U.S. addressees (domicile)'), ('RCFDK164', '0', 'M1e2', 'To non-U.S. addressees (domicile)'), ('RCFDK165', '0', 'M1f', 'All other loans (include loans to individuals for '), ('RCFDK168', '0', 'M1f3', 'Loans to finance agricultural production and other'), ('RCFDK203', '0', 'M1f4b', 'Automobile loans')]
+9-30-2026 [('RCFDG378', '30116767', 'M14', 'Pledged loans and leases'), ('RCFDHK25', '409193', 'M1g', 'Total loan modifications to borrowers experiencing'), ('RCFDK098', '0', 'M1f4a', 'Credit cards'), ('RCFDK163', '0', 'M1e1', 'To U.S. addressees (domicile)'), ('RCFDK164', '0', 'M1e2', 'To non-U.S. addressees (domicile)'), ('RCFDK165', '0', 'M1f', 'All other loans (include loans to individuals for '), ('RCFDK168', '0', 'M1f3', 'Loans to finance agricultural production and other'), ('RCFDK203', '0', 'M1f4b', 'Automobile loans'), ('RCFDK204', '0', 'M1f4c', 'Other (includes revolving credit plans other than ')]
+== side list q/q
+Preferred 1918344
+NexBank 652874

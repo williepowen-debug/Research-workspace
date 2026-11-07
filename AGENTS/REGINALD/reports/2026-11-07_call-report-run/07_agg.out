@@ -1,0 +1,36 @@
+shape Q1>Q2 ['FLG NA +118,447 ACL -85,000', 'OZK NA +3,841 ACL -18,411', 'ZION NA +13,775 ACL -4,177']
+shape Q2>Q3 ['CFG NA +36,255 ACL -64,221', 'EGBN NA +42,807 ACL -360', 'FLG NA +1,765 ACL -2', 'HBAN NA +107,713 ACL -26,311', 'VLY NA +48,761 ACL -9,800', 'ZION NA +18,841 ACL -16,293']
+sum NA 9785410.0 9828048.0
+sum OREO 530442.0 695803.0
+3/31/2026 mid5 rate [('WAL', 2.44, 123205.0), ('VLY', 0.98, 5161.0), ('SSB', 0.32, 26061.0), ('BKU', 1.11, 4190.0), ('SBCF', 0.62, 4250.0)]
+6/30/2026 mid5 rate [('WAL', 2.71, 126086.0), ('VLY', 1.09, 4126.0), ('SSB', 0.24, 12396.0), ('BKU', 0.58, 1495.0), ('SBCF', 0.36, 3473.0)]
+9/30/2026 mid5 rate [('WAL', 1.69, 164743.0), ('VLY', 1.22, 1729.0), ('SSB', 0.3, 15220.0), ('BKU', 0.51, 2374.0), ('SBCF', 0.31, 3263.0)]
+NDFI NA sum {'6/30': 223310, '9/30': 215319} holders {'6/30': 9, '9/30': 9}
+CUBI 10b+10c 3595568 4037530 12.3
+OZK {'mi3_qoq_pct': '2.7', 'mi3_yoy_pct': '-42.6', 'loans_qoq_pct': '4.8', 'step_flag': ''}
+WAL {'mi3_qoq_pct': '-3.8', 'mi3_yoy_pct': '9.2', 'loans_qoq_pct': '0.5', 'step_flag': ''}
+EGBN {'mi3_qoq_pct': '14.2', 'mi3_yoy_pct': '-2.4', 'loans_qoq_pct': '-1.4', 'step_flag': ''}
+ZION {'mi3_qoq_pct': '12.2', 'mi3_yoy_pct': '-14.3', 'loans_qoq_pct': '-0.1', 'step_flag': ''}
+SSB {'mi3_qoq_pct': '-6.9', 'mi3_yoy_pct': '22.5', 'loans_qoq_pct': '2.1', 'step_flag': ''}
+CFG {'mi3_qoq_pct': '0.5', 'mi3_yoy_pct': '-7.0', 'loans_qoq_pct': '0.1', 'step_flag': ''}
+BKU {'mi3_qoq_pct': '1.2', 'mi3_yoy_pct': '157.0', 'loans_qoq_pct': '-0.5', 'step_flag': ''}
+SBCF {'mi3_qoq_pct': 'N-A-ZERO-BASE', 'mi3_yoy_pct': 'N-A-ZERO-BASE', 'loans_qoq_pct': '3.2', 'step_flag': ''}
+AMTB {'mi3_qoq_pct': 'N-A-ZERO-BASE', 'mi3_yoy_pct': 'N-A-ZERO-BASE', 'loans_qoq_pct': '3.0', 'step_flag': ''}
+FLG {'mi3_qoq_pct': '54.1', 'mi3_yoy_pct': '41.5', 'loans_qoq_pct': '1.5', 'step_flag': 'STEP-CANDIDATE'}
+MTB {'mi3_qoq_pct': '9.4', 'mi3_yoy_pct': '17.5', 'loans_qoq_pct': '1.6', 'step_flag': ''}
+HBAN {'mi3_qoq_pct': '28.6', 'mi3_yoy_pct': '141.8', 'loans_qoq_pct': '0.9', 'step_flag': 'STEP-CANDIDATE'}
+VLY {'mi3_qoq_pct': '-3.2', 'mi3_yoy_pct': '-5.4', 'loans_qoq_pct': '1.4', 'step_flag': ''}
+CUBI {'mi3_qoq_pct': '-21.3', 'mi3_yoy_pct': '-11.9', 'loans_qoq_pct': '2.8', 'step_flag': ''}
+== funding bank level 6/30 -> 9/30
+CUBI {'ib_dep_cost_pct': ('3.55', '3.54'), 'nib_share_pct': ('32.23', '32.27'), 'uninsured_pct': ('44.28', '43.09'), 'brokered_pct': ('21.1', '18.71')} NIB $K 7051360 7325716 +3.9% FHLB $K 2059163 2137182 +3.8%
+CFG {'ib_dep_cost_pct': ('2.1', '2.15'), 'nib_share_pct': ('23.24', '22.92'), 'uninsured_pct': ('47.48', '47.84'), 'brokered_pct': ('2.62', '0.71')} NIB $K 43859236 43123326 -1.7% FHLB $K 6363166 8363056 +31.4%
+WAL {'ib_dep_cost_pct': ('2.73', '2.76'), 'nib_share_pct': ('33.79', '31.33'), 'uninsured_pct': ('38.09', '39.73'), 'brokered_pct': ('18.75', '6.86')} NIB $K 27819683 25752147 -7.4% FHLB $K 5800000 5200000 -10.3%
+OZK {'ib_dep_cost_pct': ('2.9', '2.93'), 'nib_share_pct': ('11.62', '11.32'), 'uninsured_pct': ('32.47', '32.31'), 'brokered_pct': ('7.4', '8.66')} NIB $K 3951241 3943886 -0.2% FHLB $K 0 600000 n/a
+FLG {'ib_dep_cost_pct': ('3.05', '3.07'), 'nib_share_pct': ('17.37', '18.27'), 'uninsured_pct': ('28.94', '29.07'), 'brokered_pct': ('9.68', '3.88')} NIB $K 11730364 12390115 +5.6% FHLB $K 9900933 9900481 -0.0%
+EGBN {'ib_dep_cost_pct': ('2.75', '2.75'), 'nib_share_pct': ('19.25', '19.45'), 'uninsured_pct': ('27.69', '26.62'), 'brokered_pct': ('31.92', '10.04')} NIB $K 1578973 1565546 -0.9% FHLB $K 100000 0 -100.0%
+CUBI 2365 4616030 4247624 G803 0 None 2365-G803 at 6/30 4616030 sweep MT95 2027523 2966553
+CFG 2365 4945038 1326659 G803 3919671 None 2365-G803 at 6/30 1025367 sweep MT95 3261742 2978858
+WAL 2365 15436378 5642001 G803 10158702 None 2365-G803 at 6/30 5277676 sweep MT95 5360060 11769919
+OZK 2365 2517280 3017646 G803 0 None 2365-G803 at 6/30 2517280 sweep MT95 365676 362001
+FLG 2365 6534970 2632888 G803 4386876 None 2365-G803 at 6/30 2148094 sweep MT95 303 3199039
+EGBN 2365 2618316 807845 G803 1422956 None 2365-G803 at 6/30 1195360 sweep MT95 983751 955190

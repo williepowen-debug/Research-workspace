@@ -52,6 +52,7 @@ At each print-cluster grade, this desk sends TERRY any candidate expression as a
 | 2026-11-06 | VLY and EGBN 10-Qs | **No candidate.** No trigger fired. VLY ~$108M deferral block looks re-modified (inference), 0.77% of CRE pool, a recognition question; facts packeted to TERRY because `VLY $12P Dec-18-2026 ×1` is held. EGBN MF criticized line met, not on the book | `reports/2026-11-06_VLY-EGBN_10Q_reads.md` §4 |
 | 2026-11-05 | PFBC after outside research | **No candidate.** Options untradeable, short interest 11.8% of shares, 10-Q days away | `reports/2026-11-05_PFBC_deep-research-verification.md` §5 |
 | 2026-11-05 | FLG after 12-quarter review | **NOT-FIRED lead downgraded.** The 30–89 move is a rebound; 90+ and modifications are the live points; 10-Q decides | `reports/2026-11-05_FLG_late-loan-review.md` |
+| 2026-11-07 | Q3 Call Report run, frozen ranking test, L180 | **No candidate.** L180 BROADER on the letter through the foreclosure limb only, 0 of 5 on the rate test; matrix showed no skill; cohort CRE bad-loan rate fell 2.23% to 2.13% [9/30]; population count UNKNOWN until the FDIC posts | `reports/2026-11-07_call-report-run/REPORT.md` |
 
 ## 3. Triggers this desk grades (levels live in `STATUS.md` §THRESHOLD STATUS — never here)
 
