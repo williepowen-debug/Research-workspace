@@ -4,6 +4,8 @@
 **Thesis owners (evidence, not TERRY's):** AEOLUS (stratospheric vortex forecast and observation, `AGENTS/AEOLUS/workbook/KB.tsv` KB-AEO-225 and KB-AEO-229, 10/29; winter-demand card C3) · BRENT (idea #3 of its 10/29 packet, `../inbox/processed/2026-10-29_from-BRENT_trade-ideas-nov1-3-cluster.md`: confidence "Low"; "an AEOLUS observed-reversal packet is the natural fire point").
 **Terry verdict:** CONDITIONAL — APPROVED FIRED, order presented to Will, no fill (T1 logged 11/5 14:35 ET, KB-AEO-255). (WQ-573, Will 2026-10-31 14:23 ET in PROME's chat, verbatim "573 - approve": the January version as written, UNG Jan-15-2027 10/12C ×5, limit ≤ $0.50, max loss $256.50; registered `PROME/GATES.tsv` GATE-TERRY-UNG-01). Nothing fills before T1 fires; at a fire TERRY re-checks live (root rule #4) and presents the order, which is Will's hand (root rule #5). *(was: unapproved proposal under Will's 10/20 loosened rule, 10/31 14:03 EDT)*
 
+> **WQ-642 RULED A (Will in the Decisions app 2026-11-06 19:54 ET, note "A", confirmed in PROME's chat 20:31 ET, verbatim "confirm all three"; record `PROME/proposals/2026-11-06_wq642-644-RULED.md`; encoded 20:41 EST):** "downward coupling" now has a written test, in § 7. One read of the CPC 8-14 day outlook issued Thu 12/3; not met means sell at the bid by the close Fri 12/4. It applies only if the spread fills. **No order is approved or placed by this ruling.** The $0.50 limit, ×5, max loss $256.50, the window through 11/20, the $1.00 harvest and the 1/8 time stop do not change. Will's Dec-24 call is not on this card.
+
 > **FINAL BAR 2026-11-06, written 17:12 EST (TERRY): GREEN, CONFIRMED.** UNG $9.35 +0.86% vs $9.27 [11/5], vendor daily bar pulled 17:09 EST. Spread outer $0.46, mid $0.395, 17:11 EST post-close vendor screen, not a fire mark. WQ-642, the coupling test, open with Will. Card terms unchanged.
 
 > **CLOSE READ 2026-11-06 16:08 EST (TERRY): GREEN, NO ENTRY TODAY.** UNG $9.35 +0.81%, vendor read 16:06 ET, final daily bar not yet read. Live through 11/20 on a red day at debit ≤ $0.50. ⚠️ TERRY's intraday red watch was killed by memory pressure at about 15:26 ET, so 15:26-16:00 ET was read only at 15:28 and 16:06. WQ-631 proposal sits with PROME for Will (`../research/2026-11-06_coupling-test/NOTE.md`). Card terms unchanged.
@@ -53,7 +55,7 @@ Authority: Will selected “Check trigger and refresh the card,” recorded in c
 | Liquidity / gaps | 10C width 6.52%, 12C width **25.45%** of mid; the short wing is wide. Greeks, IV rank, broker complex quote and exact fees unavailable. A saved pull at 10:21:31–32 and a 10:22:40 retry failed DNS (`guce.yahoo.com`); the intervening successful tool response survives as a labelled transcript excerpt in the evidence folder. |
 | Both $10.40 guards bind | **Any completed UNG close ≥ $10.40 before entry voids the card**, even if a later entry quote falls below $10.40. Separately **entry quote must be < $10.40**. The old 10/30 close $9.08 did not void it; there is no new completed cash session since then at this refresh. DAEDALUS's prior-close $10.45 / later-quote $10.30 example is synthetic and would stay void. |
 | Crowding | WALTER SIG-W-20261102-002: reported gross shorts 625,150 across seven contracts; net short 223,591 below the 266,416 record. Aggregation and observation vintage not independently reproduced. Context only, no T1 fire. |
-| Management unchanged | Harvest complex bid ≥ $1.00; kill if AEOLUS has not logged downward coupling by December 4; time stop January 8; no pre-approved roll. No held-line prompt or order. |
+| Management unchanged | Harvest complex bid ≥ $1.00; kill on the § 7 test (WQ-642 A); time stop January 8; no pre-approved roll. No held-line prompt or order. |
 
 Evidence: `../research/2026-11-02_UNG-refresh/REPORT.md`. The dated October 30 screening tables below are historical, retained for the original decision; the table above governs this refresh. The fresh positive GFS sample cannot fire T1; canonical owner logging and unsampled intervals remain unresolved even if a broker can fill within budget.
 
@@ -129,17 +131,42 @@ If the forecast break of the polar vortex actually happens, buy a cheap, defined
 - **Edge estimate:** **small and not demonstrated.** The forecast is public (gas traders watch the same ECMWF products), UNG sits at its 60-bar low with December gas at $2.90, and the curve already prices a 16% January premium. The card's only informational step is waiting for the forecast to become an observation, then requiring a red day.
 - **Kelly reference:** no p_model for the payoff; edge undemonstrated ⇒ no Kelly size; capped at about half the default by judgment.
 - **Sizing proposal:** **×5**, limit ≤ $0.50 (`risk_calc.py --premium 0.50 --max-loss 260`: 5 contracts, $250 premium before fees).
-- **Invalidation:** no observed reversal by 11/12 (the card dies unfilled); after a fill, AEOLUS logs no downward coupling by Fri 12/4.
+- **Invalidation:** no observed reversal by 11/12 (the card dies unfilled); after a fill, the § 7 coupling test is not met on the CPC issue of Thu 12/3 (WQ-642 A).
 - **Gap/event risk:** a warmer December forecast can gap UNG down 5–10% in a session; weekly storage surprises move gas a few percent. The spread caps the loss at the debit.
 - **Liquidity / spread check:** acceptable (open interest above 30,000 at both strikes; 5.9% / 10.5% bid-ask on Friday's last quotes).
 - **Execution block:** Will's [Approve] on this card · T1 logged · red UNG day · broker-chain debit ≤ $0.50 · UNG < $10.40.
 
 ## 7. Target / management (written before any fill)
 - **Harvest (durable finding 9):** sell the spread when it marks **≥ $1.00** on the broker bid (2× the limit, 50% of width). At ×5 ≈ $500 proceeds, ≈ +$243.50 before closing fees.
-- **Kill:** AEOLUS has not logged downward coupling (its C3 reach condition) by the close **Fri 2026-12-04** → sell at the bid.
+- **Kill (WQ-642 A):** the coupling test below is not met → sell the spread at the bid by the close **Fri 2026-12-04**. TERRY presents the result and the sell order once; the order is Will's hand (root rule #5).
 - **Time stop:** sell by the close **Fri 2027-01-08** (one week before expiry) if neither has fired. No roll pre-registered (Non-Negotiable #6).
 - Forward max loss after a fill is the remaining mark (construction rule #20(d)).
-- **Review cadence:** each AEOLUS vortex read to 11/12; after a fill, weekly at the EIA storage release (Thursdays) and at AEOLUS's C3 reads.
+- **Review cadence:** each AEOLUS vortex read to 11/12; after a fill, weekly at the EIA storage release (Thursdays), at AEOLUS's C3 reads, and at the coupling read by 12:00 ET Fri 12/4 (DOCKET row dated 2026-12-03).
+
+### 7a. Coupling test (WQ-642 A, adopted as written; proposal `PROME/inbox/processed/2026-11-06_from-TERRY_WQ631-coupling-test-proposal.md`, f64857524e)
+**Downward coupling is logged if, and only if, the CPC 8-14 day temperature outlook issued Thu 2026-12-03 (`814temp_20261203.zip`) places at least 2 of Philadelphia, New York, Pittsburgh AND at least 2 of Chicago, Detroit, Columbus inside a Below area.**
+
+| Term | As written |
+|---|---|
+| Instrument | CPC archived shapefile, innermost area containing the city. Above, near normal and equal chances all count as not Below |
+| Window | One read, this issue only. An earlier pass does not count and a later issue does not rescue |
+| Missing file | If that issue is absent at 12:00 ET 12/4, use the last issue dated on or before 12/3 |
+| Revision policy | The file as posted at the 12:00 ET read stands |
+| Who reads | AEOLUS logs the result by 12:00 ET Fri 12/4. TERRY re-reads the same file. The result stands on the file, so a missing log does not fire the kill |
+| Not met | The kill fires: sell the spread at the bid by the close Fri 12/4 |
+
+If the test is met, no further coupling read follows, and the $1.00 harvest and the 1/8 time stop keep running (GATE-TERRY-UNG-01: "else by 01/08").
+
+**Reader:** `read()` in `../research/2026-11-06_coupling-test/cpc_test.py` holds the fixed city points and the innermost-area rule. Control, re-run 2026-11-06 20:41 EST: the 11/5 issue reproduces, and issues 11/5 and 11/6 were both on the CPC server that evening. That proves the reader, not a result.
+
+**Reach:** only if the spread fills (red UNG day, debit ≤ $0.50, through 11/20). No fill, no read. Will's Dec-24 call is not on this card, and this test says nothing about it.
+
+**⚠️ Caveats shown to Will, standing on the card:**
+- It tests a forecast, not cold. The map covers about 12/11-17, and nothing here observes surface cold or the vortex reaching the surface.
+- n = 14 (2012-2025, the CPC archive), and the p 0.011 is unadjusted across the forms tried.
+- It would have said sell in 10 of 14 years, including 2022 and 2024, two of the three best hold years.
+- Cold on the map did not mean UNG paid: in all 4 pass years holding past 12/4 lost to selling, by $29 to $203 on 5 spreads (stylized marks).
+- It saves decay and gives up the tail the card was bought for.
 
 ## 8. Why not / counter-trade
 - **A stratospheric warming does not reliably deliver a US cold winter on cue.** The reversal can couple down over Europe or Asia instead, or not at all; AEOLUS's lag is 1–4 weeks and the landing is regional.
