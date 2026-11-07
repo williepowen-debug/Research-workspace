@@ -1,3 +1,15 @@
+# DAEDALUS current handoff — November 7, 2026
+
+**Stop after the three authorized deliverables; await prioritization.** CARL scoring/report and contest packet committed b5e629ac1e; November 6 weekly scorecard committed 61754aa646. Current plan: `runs/2026-11-07_DISPOSITION_PLAN.md`. This opening supersedes older resume instructions below; those remain history, not an active launch list.
+
+CARL: 11 binary resolutions, original/earliest-known Brier 0.4795, eligible marks 0.4209, CRL-21 60%. CRL-15 basis/public-outcome timing withheld; CRL-23 prospective timing supported but 15% rationale contested. Both OPEN, unscored. Exact report independently ACCEPTED; no CARL ledger/grade changed. Scorecard uses unchanged v1.3 and a fixed November 7 snapshot; later-entry/prior partial-day caveats retained.
+
+Reconciled: nine whole profiles and PR9 deltas complete; L817 accepted; C17 applied; root L883 RESOLVED with below-70% target unmet; CATO L628 accepted October 23 with declared parser/calendar limits; L676/L710 already retired. B24 token in ZHAO brief; charter line awaits Will/owner. TERRY narrative move verified, consumer claim unverified. A09 retirement is proposed, not approved. WQ-601 unit 4 ambiguity unchanged; no rollback without Will's contrary word.
+
+Plan reciprocal counterpart was requested before findings; no PROME result received. Three retirement recommendations remain UNVERIFIED-REMEDY. Whole Harness/profile clocks unchanged. PROME coordination is via committed inbox packets; native current PROME channel unavailable/unverified, no duplicate launch. Remaining unrelated inbox: L816 and L852/L556, including own SURFACES pointer correction and optional blueprint clause; do not start from this handoff. CARL packets filed only after completed report commit.
+
+---
+
 # DAEDALUS handoff — November 7, 2026
 
 ## Latest continuation: bounded integration completed on Will's go

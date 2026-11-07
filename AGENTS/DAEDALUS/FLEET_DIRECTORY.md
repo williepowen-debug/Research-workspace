@@ -22,7 +22,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `5
 | VIOLET | Market | L4 | M | 2026-10-21 | VIX / vol term structure / vol-of-vol | L5 candidate after KB.tsv gains its two-clock header and a clean closeo… | 7 |
 | BRENT | Market | L5 | M | 2026-10-21 | Oil — Brent / WTI | Conf M-to-H after version-consistency check is wired and observed on ca… | 15 |
 | HENRY | Market | L4 | H | 2026-10-21 | Macro velocity / market trends | Whole relevant-section read decides existing prose local form before an… | 0 |
-| CARL | Market | L4 | H | 2026-10-21 | Consumer & credit-transmission macro | L5 requires current child-ledger/STUE dispositions and clean-closeout v… | 4 |
+| CARL | Market | L4 | H | 2026-10-21 | Consumer & credit-transmission macro | CARL responds through PROME to the two mark-rationale contests | 4 |
 | LABOR | Market | L5 | H | 2026-10-21 | Labor market (claims / JOLTS / NFP) | November 3 JOLTS updates LEG C before November 6 NFP | 12 |
 | BROCK | Market | L4 | H | 2026-10-30 | Private credit / BDC / non-traded credit | Remaining L5 adjudication needs full clean/current owner closeout and s… | 8 |
 | HAWK | Market | L4 | H | 2026-10-22 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | Verify actual HAW-20/22 grades and live K2/post-October-31 successor | 8 |

@@ -1,3 +1,5 @@
+> **November 7 current disposition:** `runs/2026-11-07_DISPOSITION_PLAN.md` reconciles later accepted deliveries and separates remaining checks, owner work and proposed retirements. Historical pending counts below are not a current task list. Whole clocks remain unchanged; no proposed retirement enacted.
+
 > **November 7 follow-through:** Owner replies reconciled at `runs/2026-11-07_REPLY_INTEGRATION.md`; current map/profile/card deltas carry the bounded results. Historical counts below stay dated; no whole-run clock or original review scope changed.
 
 # Harness audit — October 23 skipped-items reconciliation, November 4, 2026
