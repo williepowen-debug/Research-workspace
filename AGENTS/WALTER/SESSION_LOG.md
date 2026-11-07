@@ -1,3 +1,7 @@
+## 2026-11-07T00:55:22Z light-closeout — full deferred
+
+Card 055 from ORACLE's second-spike packet, walter-e1. NBC read to the paywall; desktop closed per PROME 4b9fac2f2e.
+
 ## Rotated from STATUS 2026-11-07T00:42:54Z, observation rows VERBATIM
 
 | Object | Observation and limit |

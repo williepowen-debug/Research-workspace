@@ -1,11 +1,11 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-07T00:42:32Z, Claude Code Opus 5.5, session walter-e1 on the laptop WilliePOwen. Light closeout after night boot; coverage PARTIAL. Window stays open for WQ-646 routing through Sunday; on PROME's word WALTER starts no desk and sets no timer.
+Updated 2026-11-07T00:55:22Z, Claude Code Opus 5.5, session walter-e1 on the laptop WilliePOwen. Light closeout after night boot; coverage PARTIAL. Window stays open for WQ-646 routing through Sunday; on PROME's word WALTER starts no desk and sets no timer.
 
 ## RESUME — do these first
 
 1. `git pull --rebase` at root, then ordinary boot.
-1a. **Which machine holds the weekend timers.** Laptop booted 19:27 ET with only prome-bf and walter-e1. FALCON, ORACLE, LIQUID and REGINALD windows sit on DESKTOP-BC6EF81 per PROME SCRATCH, UNKNOWN from here. PROME holds recovery until Will says whether the desktop is on; PROME would then time the Saturday read after 08:30 ET.
+1a. **Weekend reads moved (PROME 4b9fac2f2e):** Will 19:44 ET desktop closed, every desktop timer gone; 19:46 ET persistent laptop sessions. falcon-de, oracle-e5, reginald-49 live. PROME reminders Saturday 08:43 and 09:07 ET, Sunday 15:03 ET die if its window closes or the laptop sleeps. LIQUID's Oracle DTCC read deferred to Monday on Will's yes, replacing item 3's timing.
 1b. **Card 054:** CENTCOM announcement on Iran due Saturday 08:30 ET per one unnamed official to Al Jazeera. Route what it says when published.
 2. **Finish the November 6 certification.** Close pass ran at 22:10Z, cards 043–046. Still owed: Cboe VIX and SKEW History and Nasdaq WAL and KRE November 6 rows, unposted at 23:33Z; read them at next boot. Apple 20% recheck done, card 046, still unfound.
 2a. **Qeshm, card 047:** two projectiles reported November 6 about 21:55Z, attacker unnamed, not established as a US strike. CENTCOM, UKMTO and Reuters directly not reached. Re-search at next boot; FALCON grades.
@@ -27,7 +27,7 @@ November 5 total: 67 BOARD cards, 261 handoffs. November 6 total to close: 53 ca
 
 ## CHANGED
 
-Night boot: card 054, one kill-log row, anchor note and verbatim rotation, boot-basis hashes re-attested, REGISTRY 10 rows. November 6 close pass: cards 043–053, COR-20261106-51, -52 and -53, CARL, OTTO, LIQUID, BROCK and ORACLE packets consumed, COR-20261106-48, §3.6 banner on 043, FALCON packet consumed; batches BM-20261106-04 (5 of 5) and -05 (15 of 15) closed; intake and bookmarks marked; Iran anchor bounded note, sweep clock unchanged; doorbells to FALCON and CARL. Earlier November 6 and older: moved verbatim to research/2026-11-06_closeout/LC-GAPS-ROTATED.md.
+Night boot: cards 054 and 055, ORACLE packet consumed, one kill-log row, anchor note and verbatim rotation, boot-basis hashes re-attested, REGISTRY 10 rows. November 6 close pass: cards 043–053, COR-20261106-51, -52 and -53, CARL, OTTO, LIQUID, BROCK and ORACLE packets consumed, COR-20261106-48, §3.6 banner on 043, FALCON packet consumed; batches BM-20261106-04 (5 of 5) and -05 (15 of 15) closed; intake and bookmarks marked; Iran anchor bounded note, sweep clock unchanged; doorbells to FALCON and CARL. Earlier November 6 and older: moved verbatim to research/2026-11-06_closeout/LC-GAPS-ROTATED.md.
 
 ## RESULT
 
@@ -35,7 +35,7 @@ November 6 close: Qeshm projectiles reported, attacker unnamed (047). Qatar's Pr
 
 ## GAPS
 
-- Night boot PARTIAL: X bookmarks not run, token refresh failed on this box, nothing marked, needs `x_bookmarks_scan.py --authorize` in Will's browser. FILTER_SPEC trailing 48h route-log rows and desk STATUS reads scoped to changed desks; RED banner hash not re-checked; HANS dailies cited. Card 054 quotes came through a fetch helper; WALTER did not open the pages. READS UNKNOWN stands, PROME's L845. WALTER's November 6 receipts say laptop, while this box records no boot 09:04 to 19:27 ET; label likely wrong, history not rewritten.
+- Night boot PARTIAL: X bookmarks not run, token refresh failed on this box, nothing marked, needs `x_bookmarks_scan.py --authorize` in Will's browser. FILTER_SPEC trailing 48h route-log rows and desk STATUS reads scoped to changed desks; RED banner hash not re-checked; HANS dailies cited. Card 054 and 055 web quotes came through a fetch helper; NBC body paywalled; WALTER did not read ORACLE's books. READS UNKNOWN stands, PROME's L845. WALTER's November 6 receipts say laptop, while this box records no boot 09:04 to 19:27 ET; label likely wrong, history not rewritten.
 - Consumer check on SoftBank 21.5%: NEXUS was off card 041 and its AI-funding read cites the old figures; packet filed at AGENTS/NEXUS/inbox/, consumption unproved.
 - Michigan November preliminary missed by step 7i: on no calendar WALTER reads, including HENRY ECON_CALENDAR; CARL caught it, card 049, about eight hours late. Monthly Michigan dates need a calendar home; flag to HENRY at next touch.
 - Card 043 miss: "no comprehensive deal" carried from paraphrase without Bloomberg or the Oxford text; dateline and Yanbu stamp wrong; FALCON caught three, Al Jazeera the fourth. Corrected 048.
@@ -105,7 +105,7 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-07T00:42:32Z",
+  "as_of": "2026-11-07T00:55:22Z",
   "next_review": "2026-11-09",
   "publication": [
     {
@@ -146,8 +146,8 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
   ],
   "delivery": {
     "signal_date": "20261106",
-    "total": 229,
-    "delivered": 229,
+    "total": 235,
+    "delivered": 235,
     "note": "Delivery proof by origin only; recipient use separate."
   },
   "owner_review": {
@@ -169,7 +169,7 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
     "session": "Window open for WQ-646 routing; no helper or timer running."
   },
   "manual_duties": {
-    "11": "Card 054 IMMEDIATE, no FLASH. No batch opened.",
+    "11": "Cards 054 and 055 IMMEDIATE, no FLASH. No batch opened.",
     "13": "REGISTRY 10 rows before NETWORK.",
     "12": "Counts, NETWORK, bottom line, observation row, session log breadcrumb.",
     "14": "Session note only.",
