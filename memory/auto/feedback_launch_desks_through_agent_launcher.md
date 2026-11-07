@@ -18,6 +18,6 @@ Will, 2026-11-05 09:53 ET in the PROME window, verbatim: *"Okay so can you use t
 - The launcher's lock sees only launcher starts, so it is not a preflight. It misses hand-opened sessions and Codex tasks that outlive their windows.
 - Each launch opens a window on Will's screen, so use it for desks he may want to talk to or that must outlive PROME; a bounded read stays an `Agent` subagent.
 - Task text stays one argument. Put the row keys, the limits and the delivery instruction in it.
-- ⚠️ **Scope of this grant, as PROME reads it:** Will's word covered these two launches and remembering the method. It does not establish launching without his word beyond PROME's existing tiers, and it authorizes no unattended launch (WQ-388 stays unruled).
+- ⚠️ **Scope of this grant, as PROME reads it:** Will's word covered these two launches and remembering the method. It does not establish launching without his word beyond PROME's existing tiers, and it authorizes no unattended launch (WQ-388 RULED DECLINE 2026-10-15: WALTER may not self-schedule an unattended sweep; sessions start only when Will or PROME launches them).
 
 Evidence: AEOLUS and RED launched 09:53 ET, `ps` and `ListAgents` confirmed both, ORCH_LOG commit be576372f. Related: [[feedback_close_finished_subagent_panes]] · [[feedback_doorbell_live_desks_directly_never_paste_blocks]].
