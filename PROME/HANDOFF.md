@@ -1,6 +1,6 @@
 # PROME HANDOFF
 
-**Current state: RESTART CHECKPOINT 2026-11-07 09:1x ET, session prome-bf, laptop, working session unfinished; REGINALD L180 run in flight. Say "pick up PROME". Resume at [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here); run CronList first, re-create reminders only if the window closed.**
+**Current state: RESTART CHECKPOINT 2026-11-07 09:4x ET, session prome-bf, laptop, working session unfinished; REGINALD write-backs in flight (reginald-e6). Say "pick up PROME". Resume at [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here); run CronList first, re-create reminders only if the window closed.**
 
 **Resume:** (1) [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) and [today's account](../memory/2026-11-06.md); (2) DOCKET/GATES/WILL_QUEUE for obligations and `PROME/tools/inbox_census.py PROME` before any launch; (3) [research-first briefing instruction](proposals/2026-10-25_research-first-briefing-RULED.md), installed at BOOT step 8; (4) [delivery contract](tools/ARGUS_CONTRACT.md). The 10/25 three-desk sweep, its four file corrections and its evening inbox disposition are history at [its report](reports/2026-10-25_three-desk-stale-file-sweep.md#final-session-disposition--all-three-closed-by-will) and [that closeout](reports/2026-10-25_evening-closeout.md). Dated sections below are historical continuity.
 
