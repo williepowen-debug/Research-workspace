@@ -1,6 +1,6 @@
 # FLG — TRADE SURFACE
 
-> **LIVE — state as of 2026-11-01 (re-read against `FORGE/STATUS.md` by FLG, PROME C9 spawn). Position state: FLG Mar-19-2027 $10 put ×1 IN THE MIRROR (Fidelity capture 2026-10-30 intraday) · re-arm readings A and B FIRED 10/23 (below).**
+> **LIVE — re-arm table updated 2026-11-07 at the Q3 10-Q; position line last re-read against `FORGE/STATUS.md` 2026-11-01 (FLG, PROME C9 spawn), not re-read this session. Position state: FLG Mar-19-2027 $10 put ×1 IN THE MIRROR (Fidelity capture 2026-10-30 intraday) · re-arm readings A and B FIRED 10/23 (below).**
 > This is a live surface, not a frozen one: it carries a current-state claim and must be re-stated whenever the position state changes or a session reads it against the mirror. Position truth is **off-repo** (Will / broker direct); `FORGE/STATUS.md` is the fleet's structured mirror. **Never cite a price from this file** (root rule #4); pull live via `FORGE/tools/market-data/fetch.py price FLG`.
 
 ## Current position
@@ -11,12 +11,12 @@
 
 FLG proposes no trade; construction is TERRY's and the decision is Will's under root rule #5. Under Will's 10/20 11:50 ET word *"we can loosen rules for trade ideas"* (TERRY `RISK_RULES.md`, October 20 operator amendment — IDEAS), FLG sends TERRY a packet **labelled NOT-FIRED** whenever ANY of these reads true, citing the reading in figures:
 
-| # | Reading | Source / when | Direction it supports | State 10/28 |
+| # | Reading | Source / when | Direction it supports | State 11/07 |
 |---|---|---|---|---|
 | A | Any surprise route R1–R5 fires | `reports/2026-10-22_preprint-surprise-threshold-NOTE.md` · release 10/23 | as recorded (miss/cut = downside) | ✅ **FIRED 10/23** — R1, R3, R4, R5 (R2 not, by $1M); NOT-FIRED packet sent to TERRY `936d8c0fd` |
 | B | Frame item A thesis-confirming: Q3 provision > $62M, or FY2026 provision guide raised above $140M, attributed to NYC multi-family | `reports/2026-10-21_Q3-2026_PREPRINT_FRAME.md` (frozen) · release 10/23 | downside | ✅ **FIRED 10/23** — provision $76M; FY26 guide $160–170M. ⚠️ issuer attribution leads with RATES, CEO names rent regulation (KB-086/090) |
-| C | FLG-02 grades HIT: ACL / non-accrual coverage at 9/30/26 < 31.04% (10-Q basis) | `workbook/PREDICTIONS.tsv` · 10-Q ~11/6–11/9 | downside | PENDING — release PREVIEW 30.85% (derived) points to HIT |
-| D | K-1 fires (multi-family HFI rising 2 filed quarters AND non-accrual rate falling) | `workbook/EXIT_PROTOCOL.md` | **AGAINST** any downside idea — FLG tells TERRY to stand it down | NOT FIRED — MF HFI fell −$983M in Q3 |
+| C | FLG-02 grades HIT: ACL / non-accrual coverage at 9/30/26 < 31.04% (10-Q basis) | `workbook/PREDICTIONS.tsv` · 10-Q filed 11/6 | downside | ✅ **FIRED 11/07** — 30.85%. NOT-FIRED packet to TERRY owed; this spawn was limited to `PROME/inbox/`, so PROME routes it. ⚠️ Same filing: Q3 cures 56.3% of outflow, frame direction AGAINST; both travel together (`reports/2026-11-07_Q3-2026_10Q_LEG.md`) |
+| D | K-1 fires (multi-family HFI rising 2 filed quarters AND non-accrual rate falling) | `workbook/EXIT_PROTOCOL.md` | **AGAINST** any downside idea — FLG tells TERRY to stand it down | NOT FIRED — MF HFI $25,948M at the 10-Q, −$983M in Q3, 0 of 2 |
 
 Price context is REGINALD's (`VX-REG-6.03` ladder, RED since 10/7); FLG never fires on price alone.
 
