@@ -16,3 +16,7 @@
 5. New demotions keep appending to `INDEX_COLD.md`. No other file changes.
 
 **Not done.** `MEMORY.md` is untouched. No memory file moves.
+
+## Result and declared residue, 2026-11-07 10:0x ET
+
+Applied; plan read 0 ❌, 4 ⚠️; result read 0 ❌, 2 ⚠️, byte comparison clean, 522 slugs before and after. Header line "every demotion wave" corrected after the result read, one phrase. The record of the shard sits in the two pointer lines at the moved section rather than a separate header line. Moved rows were not scanned for cross-references to sections left behind; the sections are date waves with no such links expected.
