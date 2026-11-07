@@ -1,6 +1,6 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-07T00:55:22Z, Claude Code Opus 5.5, session walter-e1 on the laptop WilliePOwen. Light closeout after night boot; coverage PARTIAL. Window stays open for WQ-646 routing through Sunday; on PROME's word WALTER starts no desk and sets no timer.
+Updated 2026-11-07T01:00:12Z, Claude Code Opus 5.5, session walter-e1 on the laptop WilliePOwen. Light closeout after night boot; coverage PARTIAL. Window stays open for WQ-646 routing through Sunday; on PROME's word WALTER starts no desk and sets no timer.
 
 ## RESUME — do these first
 
@@ -27,7 +27,7 @@ November 5 total: 67 BOARD cards, 261 handoffs. November 6 total to close: 53 ca
 
 ## CHANGED
 
-Night boot: cards 054 and 055, ORACLE packet consumed, one kill-log row, anchor note and verbatim rotation, boot-basis hashes re-attested, REGISTRY 10 rows. November 6 close pass: cards 043–053, COR-20261106-51, -52 and -53, CARL, OTTO, LIQUID, BROCK and ORACLE packets consumed, COR-20261106-48, §3.6 banner on 043, FALCON packet consumed; batches BM-20261106-04 (5 of 5) and -05 (15 of 15) closed; intake and bookmarks marked; Iran anchor bounded note, sweep clock unchanged; doorbells to FALCON and CARL. Earlier November 6 and older: moved verbatim to research/2026-11-06_closeout/LC-GAPS-ROTATED.md.
+Night boot: cards 054, 055 and 056, Encelia guard line, ORACLE packet consumed, one kill-log row, anchor note and verbatim rotation, boot-basis hashes re-attested, REGISTRY 10 rows. November 6 close pass: cards 043–053, COR-20261106-51, -52 and -53, CARL, OTTO, LIQUID, BROCK and ORACLE packets consumed, COR-20261106-48, §3.6 banner on 043, FALCON packet consumed; batches BM-20261106-04 (5 of 5) and -05 (15 of 15) closed; intake and bookmarks marked; Iran anchor bounded note, sweep clock unchanged; doorbells to FALCON and CARL. Earlier November 6 and older: moved verbatim to research/2026-11-06_closeout/LC-GAPS-ROTATED.md.
 
 ## RESULT
 
@@ -63,6 +63,7 @@ No WALTER decision open. WQ-646 A: this window routes what FALCON and ORACLE sen
 
 ## FOLLOW-UP
 
+0. At the November 12 sweep reconcile anchor ladder item 1, which names Kharg and South Pars as FAL-01-class, with FAL-01 RESOLVED and FALCON's November 7 read that its D 85 to 92 rung covers Gulf-ally production only. FALCON owns the letter. WALTER did not find the Rewards for Justice post on card 056.
 0. CYPHER asks: any story naming Arkéa's provider goes to CYPHER as IMMEDIATE; stories naming Abrigo or Sageworks go to CYPHER; carry the four corrections in 052.
 0. Rule 6 doorbells to live desks were late on 024–037: sent November 5 13:5x ET to LIQUID, HENRY, VULCAN, CREED; PROME has the wake packet for desks not seen running. Doorbell at dispatch, not when asked.
 0. HENRY's FLASH doorbell request ended November 5 about 14:02 ET when that session closed out; cards go to its inbox. Will may reboot it the same day: at each dispatch check ListAgents and doorbell any live owner under rule 6.
@@ -105,7 +106,7 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-07T00:55:22Z",
+  "as_of": "2026-11-07T01:00:12Z",
   "next_review": "2026-11-09",
   "publication": [
     {
@@ -151,8 +152,8 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
   ],
   "delivery": {
     "signal_date": "20261106",
-    "total": 235,
-    "delivered": 235,
+    "total": 241,
+    "delivered": 241,
     "note": "Delivery proof by origin only; recipient use separate."
   },
   "owner_review": {
@@ -174,7 +175,7 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
     "session": "Window open for WQ-646 routing; no helper or timer running."
   },
   "manual_duties": {
-    "11": "Cards 054 and 055 IMMEDIATE, no FLASH. No batch opened.",
+    "11": "Cards 054 and 055 IMMEDIATE, 056 PRIORITY, no FLASH. No batch opened.",
     "13": "REGISTRY 10 rows before NETWORK.",
     "12": "Counts, NETWORK, bottom line, observation row, session log breadcrumb.",
     "14": "Session note only.",
