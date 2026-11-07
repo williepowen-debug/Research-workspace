@@ -37,7 +37,8 @@
 
 | From | Input | Expected by | Consequence |
 |---|---|---|---|
-| CENTCOM / wires / Iran | Attribution, direction and time of the Qeshm report | Next boot | Could establish a US strike on Iran; dated in ET for FAL-09. No rung fires |
+| CENTCOM / White House | Any on-record line naming Qeshm or Friday; any US strike dated 11/7 or later | Read 2, about 15:03 ET 11/8 | Closes the gap in KB-433; a confirmed strike day would be FAL-09 day one. No rung fires |
+| UKMTO | The third sinking in the week to 11/4, and the 11/7 tanker | Read 2 | A named hull could change the census; RITI would be first class (iii-A) |
 | Qatar / US / Iran | Signed dated text with an on-record US answer | On event | First evidence that could start C→B |
 | NAVAREA IX / IMO | RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate | Any day | RITI total loss = first class (iii-A), EXIT rewrite + memo |
 | PGSA / Sinokor / Korea | Any named Sinokor hull detained | Any day | Shipping-vector event; BRENT freight read |
@@ -45,7 +46,7 @@
 
 ## VIEW
 
-- The tape closed the week pricing a deal; after the close, Iranian reports of impacts on Qeshm and ORACLE's strike legs pointed the other way, cause unproven. No registered condition has moved in either direction.
+- The tape closed the week pricing a deal; after the close, Iranian reports of impacts on Qeshm and Trump's "minor strikes" pointed the other way, and ORACLE reports the ceasefire legs resolved NO, order and cause unproven. Monday's futures open is BRENT's read. No registered condition has moved in either direction.
 - Marks sit at a rail: held means no letter fired, not that D 85 was re-earned.
 - The live question is now scale, a sustained campaign versus limited strikes, not whether the US strikes at all; I price the campaign at 40%.
 
