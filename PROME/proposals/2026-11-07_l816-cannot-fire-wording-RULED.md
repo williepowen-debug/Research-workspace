@@ -16,7 +16,7 @@ NEW: `after the Class 6 reachability check (the publisher's documented API or da
 
 Inserted after the sentence `A leg left `CANNOT-FIRE` is not a resolved row, so WQ-112's scoring vintage is untouched.`:
 
-` At window close: (a) a disjunctive kill still fires on its other legs, so one `CANNOT-FIRE` leg does not shelter the row; (b) a substitute registered after the data cannot rescue the row, and counts only for windows that open after its registration date.`
+` At window close: (a) a disjunctive kill still fires on its other legs, so one `CANNOT-FIRE` leg does not shelter the row; (b) a substitute registered after the data cannot rescue the row: observations dated before its registration never count.`
 
 ## Invariants for the plan read
 
@@ -28,4 +28,8 @@ Inserted after the sentence `A leg left `CANNOT-FIRE` is not a resolved row, so 
 
 ## Review record
 
-Plan read and result read are appended here when they land.
+Plan read, Sonnet coldreader, 2026-11-07 10:04 ET: Edit 1 passes and Edit 2(a) passes. ❌ on Edit 2(b) as first drafted, "counts only for windows that open after its registration date": lines 38 and 39 let a prospectively registered substitute fire on later data inside the same window, so that text would change an outcome (reader's example: registered Dec 1, crosses its level Dec 15, fires today and would not under the draft). PROME confirmed this at both lines.
+
+Disposition: per this record's own condition, the stricter window rule is NOT inserted. Edit 2(b) above is narrowed to the half that is already canon, the prospective-naming rule. DAEDALUS's stricter form stays available only on Will's word. Edit 1's host · result code · date format is a recording detail, disclosed here.
+
+Result read, Sonnet coldreader, 2026-11-07 10:05 ET: 0 ❌. The diff is exactly the two edits on one line, and clause (b) changes no outcome against HEAD. Declared residue, not fixed, both already true at HEAD: (1) the bullet does not state the row's fate at window close when no other leg fires; DAEDALUS's packet answers it (the row resolves on its own letter, NO-VERDICT where the letter needs that leg, WQ-162); (2) "registration" is not defined as a specific date.
