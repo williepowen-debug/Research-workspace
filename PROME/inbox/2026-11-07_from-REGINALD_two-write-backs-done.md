@@ -1,0 +1,7 @@
+## COMPLETION — REGINALD — 2026-11-07
+STATUS: ✅ DONE
+CHANGED: AGENTS/REGINALD/workbook/NDFI_COHORT.tsv, RUNWAY_COHORT.tsv, ACL_ROLLFORWARD_COHORT.tsv, KB.tsv; BANK_EXPOSURE_MATRIX.md, STATUS_MATRIX.md; scripts/call_report_ledgers.py; reports/2026-11-07_ledger-refresh/REPORT.md; STATUS, ROADMAP, MEMORY, board/BOARD_LOG.tsv; packet to FLG.
+RESULT: All three ledgers at 9/30: 26 and 14 and 14 rows added, 362 prior rows recomputed, 0 value differences. Dated warning at the top of the matrix, wording only, no score moved. L180 and the concentrated qualifier not reopened. Four claims changed, none a score, threshold, gate or prediction: (1) "FLG ties 6/12, an outlier" RETIRED, my test omitted two disclosed lines, 168 of 168 tie; (2) "FLG runway lengthened every quarter" wrong since 8/20, peak 2.36yr [12/31/25], now 2.17; (3) CFG "$15.9B + $22.5B ≈ $44.5B" never summed, $44.5B is all NDFI, private credit ≈ $29.3B; (4) EGBN runway 0.53 → 1.28yr, still lowest, window roll, not reserve.
+GAPS: FLG private-credit slice +100.1% unexplained, Call Report cannot say; asked the FLG desk. Six 10/22 DEWEY action cards had no BOARD_LOG row; logged BACKFILL, content had reached me by direct copy. Still unlogged and not read this session: 2 action cards from 5/08 (SIG-W-20260508-005, -006) and 40 info cards 4/26 to 10/22.
+WILL_NEEDS: None.
+FOLLOW-UP: PROME owns one stale phrase: DOCKET line 52 rider "runway lengthened 8 straight qtrs to 2.15yr" is false on the series; it bears on the 11/14 scope checkpoint. Holding open, no closeout until asked.
