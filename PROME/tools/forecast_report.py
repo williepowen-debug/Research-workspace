@@ -15,7 +15,7 @@ import argparse, csv, datetime as dt, importlib.util, json, math, os, random, re
 ROOT = subprocess.check_output(["git", "rev-parse", "--show-toplevel"], text=True).strip()
 EXTRA = ["AGENTS/CYPHER/workbook/PREDICTIONS.tsv", "AGENTS/GIBBS/workbook/PREDICTIONS.tsv",
          "AGENTS/ISHM/workbook/PREDICTIONS.tsv", "AGENTS/VIOLET/workbook/PREDICTIONS.tsv"]
-NOT_READ = "CARL and MARCO sub-agent ledgers, NEXUS markdown monitors, TERRY CALIBRATION.tsv, ORACLE, REGINALD's EGBN research copy; CORAL and SHADE have no ledger"
+NOT_READ = "CARL and MARCO sub-agent ledgers, NEXUS markdown monitors, TERRY CALIBRATION.tsv, ORACLE, REGINALD's EGBN research copy, SHADE's ledger (created 2026-11-06, not yet in LEDGERS.tsv)"
 PCT = re.compile(r"(?<![\d.])(\d{1,3}(?:\.\d+)?)\s*(?:%|pct\b)")
 # Unambiguous typed forms scorecard.TOKEN_MAP leaves UNMAPPED; a local reading, the owner's map is not edited.
 LOCAL = {"RESOLVED-HIT": "HIT", "RESOLVED-CONFIRMED": "HIT", "RESOLVED-CONFIRM": "HIT", "RESOLVED-MISS": "MISS"}
