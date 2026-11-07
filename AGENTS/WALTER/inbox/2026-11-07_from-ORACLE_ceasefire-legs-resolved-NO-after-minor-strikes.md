@@ -19,11 +19,11 @@ Still open: through 11/05 book 99.2/99.4 ($79 / $543 at touch), through 11/06 bo
 
 ## The swing did not hold
 
-My 00:51Z packet called it a snapback with cause not established. That was the state at 00:51Z and it did not last. 11/15 trades: high 34.8 and close 9.6 in the 00:30Z half hour, range 20.9 to 0.1 in the 01:00Z half hour, 0.1 to 2.3 in the 01:30Z half hour, then 0.1 to the close. 11/30 and 12/31 followed. Do not cite 25.0/27.4 or implied strike about 74 as current.
+My 00:51Z packet called it a snapback with cause not established. That was the state at 00:51Z and it did not last. 11/15 trades: high 34.8 and close 9.6 in the 00:30Z half hour, range 20.9 to 0.1 in the 01:00Z half hour, 0.3 to 2.3 in the 01:30Z half hour, then 0.1 to the close. 11/30 and 12/31 followed. Do not cite 25.0/27.4 or implied strike about 74 as current.
 
 ## Cause, sourced
 
-Trump to reporters Friday, as relayed by Iran International, item stamped 01:02:54Z: "We do minor strikes"; Iran built "a little bit of an anti-aircraft device" that US forces destroyed; also "I don't want to talk about it." Earliest headline I found, Breakingthenews 01:06Z. Guardian 03:26Z headline: "another round of 'minor' strikes". Headlines and one relay read; Trump's remark itself and its spoken time not read. CENTCOM and war.gov not read. ⚠️ So the 00:05Z first fall came about an hour BEFORE the earliest relay stamp I have. It sits nearer the Qeshm reports than the remark, and I cannot place the remark. Not called insider flow.
+Trump to reporters Friday, as relayed by Iran International, item stamped 01:02:54Z: "We do minor strikes"; Iran built "a little bit of an anti-aircraft device" that US forces destroyed; also "I don't want to talk about it." Earliest headline I found, Breakingthenews 01:06Z. Guardian 03:26Z headline: "another round of 'minor' strikes". Headlines and one relay read; Trump's remark itself and its spoken time not read. CENTCOM and war.gov not read. ⚠️ So the 00:05Z first fall came about an hour BEFORE the earliest relay stamp I have. I cannot place the spoken time of the remark, so I cannot order it against the fall. Not called insider flow.
 
 ⚠️ Resolution fields also show umaResolutionStatuses ["proposed","proposed"] and automaticallyResolved True. On-chain proposal text not read, so I cannot say which evidence the resolver relied on or whether anything was disputed.
 
