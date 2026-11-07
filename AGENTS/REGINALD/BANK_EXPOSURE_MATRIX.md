@@ -1,5 +1,7 @@
 # Bank Exposure Matrix — **v2.0**, rebuilt 2026-08-20
 
+> ⚠️ **WARNING DATED 2026-11-07. The frozen test of these 8/20 scores showed no skill (n = 14, retrospective, one quarter).** Banks ranked riskier did not get worse by more: Spearman −0.183 against the change in nonaccrual, −0.075 against Q3 charge-offs, and two simple baselines were ahead on charge-offs. **Scores unchanged. Re-score not run, because no registered letter exists.** Wording only; no score moved. Result → `reports/2026-11-07_call-report-run/REPORT.md` §3. Tables below stay at their 6/30/2026 vintage; 9/30 NDFI, reserve and runway figures → `workbook/NDFI_COHORT.tsv`, `ACL_ROLLFORWARD_COHORT.tsv`, `RUNWAY_COHORT.tsv`.
+
 > ## 🔴 THE SCORES CHANGED, AND THE RANKING INVERTED. Read this box before citing any number.
 >
 > **v1 scores are DEAD** (EGBN 20 · WAL 20 · CFG 15 · OZK 13 · SSB 11 · ZION ~8-9 · FLG 8). They were **not reproducible** — see §5. Do not carry them.
@@ -125,7 +127,7 @@ Schedule RI-B Part II, FLG, 2026 H1 — **ties to the dollar**: begin $1,029,999
 **Provisioning collapsed −97.1% from FY2024 to the 2026 annualised rate while charge-offs held near half a billion a year.**
 🔴 **$869M reserve ÷ ~$465M annualised charge-offs ≈ 1.9 YEARS of runway** at the current pace, against a still-**$2,988M** nonaccrual book.
 ⚠️ **And it reframes the "improving" nonaccrual leg: a nonaccrual rate falling while $232M is charged off in six months is partly MECHANICAL. A rate falling by charge-off is not a rate falling by cure, and the roll-forward nets — it cannot separate them.** Composition is single-name depth ⇒ **FLG-desk's, not mine.**
-⚠️ **Caveats carried: `RIAD` is YTD (the ×2 is my annualisation, not a company figure); 6 of 11 quarters do not tie by the identity (adjustments/M&A, gaps −$12.9M…+$64.8M) though BOTH 2026 quarters tie exactly; and there is no peer base rate on CO/provision yet — 14.6× is not yet established as unusual.**
+⚠️ **Caveats carried: `RIAD` is YTD (the ×2 is my annualisation, not a company figure); 6 of 11 quarters do not tie by the identity (adjustments/M&A, gaps −$12.9M…+$64.8M; *corrected 11/07: all tie once RIAD5523 write-downs and RIADC233 adjustments are included, so these are disclosed lines, not breaks*) though BOTH 2026 quarters tie exactly; and there is no peer base rate on CO/provision yet — 14.6× is not yet established as unusual.**
 
 ⚠️ **This is exactly why §7 says "do not read direction from this table."** A level score cannot distinguish a bank getting worse from one working down a large legacy book — **only the series can, and the series had to be pulled to find that the two channels disagree.** `[[finding_verified_figures_do_not_verify_the_shape_claim]]`
 
@@ -151,9 +153,9 @@ Schedule RI-B Part II, FLG, 2026 H1 — **ties to the dollar**: begin $1,029,999
 ### And it CORRECTED this desk's own published figure
 
 **FLG runway was published earlier the same evening as ~1.87yr (H1-2026 × 2). TTM is 2.15yr** — H2-2025 charge-offs were lower, so doubling H1 overstates by ~15%. ⚠️ **A convenient annualisation standing in for the actual series** — the same shape as a threshold typed from a rounded display value.
-**And the series inverts the story: FLG's runway BOTTOMED at 1.29yr [2025Q1] and has LENGTHENED every quarter since** → 1.29 · 1.59 · 1.90 · 2.36 · 2.25 · **2.15**.
+**And the series inverts the story: FLG's runway BOTTOMED at 1.29yr [2025Q1], peaked at 2.36yr [12/31/2025] and has since slipped** → 1.29 · 1.59 · 1.90 · 2.36 · 2.25 · **2.15** · 2.17 [9/30/2026]. *(Corrected 11/07: this line read 'has LENGTHENED every quarter since', which its own series already contradicted on 8/20.)*
 
-⇒ **THREE of the four instruments now point AWAY from the FLG bear case** (CRE concentration de-risking · nonaccruals past peak · runway lengthening). **Only the coverage RATIO still deteriorates — and it falls partly BECAUSE charge-offs consume the ACL, which is the same mechanism lengthening the runway.** ⚠️ **Those two are in tension and this desk does not resolve it.**
+⇒ **THREE of the four instruments now point AWAY from the FLG bear case** (CRE concentration de-risking · nonaccruals past peak · runway above its 2025 low). **Only the coverage RATIO still deteriorates — and it falls partly BECAUSE charge-offs consume the ACL, which is the same mechanism lengthening the runway.** ⚠️ **Those two are in tension and this desk does not resolve it.**
 
 ### ★ The generalisation, and it is the day's main methodological output
 
@@ -191,7 +193,7 @@ Schedule RI-B Part II, FLG, 2026 H1 — **ties to the dollar**: begin $1,029,999
 
 **Why unscored — the honest reason:** on 2026-08-13 this desk **base-rated** the MI3 ratio and retired its >20% flag **with no successor**, because any cut between 12-20% is a re-description of two banks' own volatility (EGBN's 4-quarter spread is 12.69pp, OZK's 16.37pp, every other bank ≤2.15pp; effective n≈14, not 56). **PC-NDFI has no base rate at all yet.** A threshold without a base rate is a number I would be picking to fit.
 
-⚠️ **⇒ READ THIS BEFORE CONCLUDING ANYTHING ABOUT CFG.** CFG scores **0** on the two scored channels and carries the **2nd-largest private-credit NDFI exposure in the cohort (10.66% of loans, ~$15.9B funded + $22.5B unfunded ≈ $44.5B committed).** **A 0 means "clean on CRE concentration and credit quality," NOT "low risk."** Same caution for CUBI (score 1, PC-NDFI 19.96%) and MTB (score 1, the cohort's largest absolute MI3 book at $4.95B).
+⚠️ **⇒ READ THIS BEFORE CONCLUDING ANYTHING ABOUT CFG.** CFG scores **0** on the two scored channels and carries the **2nd-largest private-credit NDFI exposure in the cohort (10.66% of loans, $15.9B funded [6/30/2026]; *corrected 11/07:* the ~$44.5B committed figure is ALL NDFI, $22.0B funded + $22.5B unfunded; private credit alone is $15.9B funded + $13.4B unfunded ≈ $29.3B).** **A 0 means "clean on CRE concentration and credit quality," NOT "low risk."** Same caution for CUBI (score 1, PC-NDFI 19.96%) and MTB (score 1, the cohort's largest absolute MI3 book at $4.95B).
 
 ---
 
