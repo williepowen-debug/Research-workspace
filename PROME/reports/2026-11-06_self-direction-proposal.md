@@ -13,8 +13,10 @@
 Finishes: verify at the artifact, evaluate against the question, update or route, close out, then re-rank. Fails: diagnose once, one alternate route, else record blocked and move on. Uncertain: keep the label, one cheap follow-up if it would resolve it, else carry it as a named unknown. Needs Will: register, park that branch only, continue the rest. Nothing useful: stop and say so.
 
 ## Instructions: missing versus not applied
-Not applied: BOOT step 9; SCRATCH "a miss is started by hand" (asked twice 11/6); interrupt test on surfacing hands items once; register before presenting (WQ-642 clause, 11/6); verify before relay; C9 unused this session.
-Missing: BOOT step 9 is boot-only, nothing covers the moment a desk returns mid-session; nothing says rank by research value rather than date. One sentence in step 9 would cover both, proposed only if the trial shows it helps.
+Not applied: BOOT step 8, begin authorized work (first written here as step 9, Will's correction 21:42 ET); SCRATCH "a miss is started by hand" (asked twice 11/6); interrupt test on surfacing hands items once; register before presenting (WQ-642 clause, 11/6); verify before relay; C9 unused this session.
+Possibly missing, to be shown by the trial and not assumed: nothing explicit covers the moment a desk returns mid-session. No BOOT change (WQ-648 A).
 
 ## Trial: WQ-648
 Saturday 11/7, starts once the two Saturday reads and REGINALD's run are in, about 10:00 ET, stops 14:00 ET. Budget: one read-only helper and at most two desk touches, no new windows. Stops earlier when the three are done or blocked, on a decision only Will can make with nothing else useful left, or under 1 GB available. Account from existing records, under Will's seven headings. Separate from the WQ-646 four-read trial.
+
+**Ruled:** WQ-648 A with clarifications, PROME/proposals/2026-11-06_wq648-RULED.md. They govern this file wherever the two differ: action 1's Saturday deliverable is an interim assessment and handoffs; operational work is not inherently low-value.

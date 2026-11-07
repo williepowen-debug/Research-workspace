@@ -29,3 +29,6 @@
 Reminders are gone. Re-create them from the Scheduled table, run any read already past due by message to the live desk (preflight first, restart the desk by launcher if gone), and log the reboot below as a manual rescue.
 
 ## Events
+
+## WQ-648 open-session trial, Saturday 11/7, separate from the four reads
+Ruling: PROME/proposals/2026-11-06_wq648-RULED.md. Maximum window 10:00 to 14:00 ET. Before state, 21:45 ET Friday: three candidate actions, Iran interim assessment, REGINALD ranking consequence, SoftBank check; none begun. Record below as it happens: priority changes, completion evidence, unnecessary work, mistakes, intervention from Will, resource use.
