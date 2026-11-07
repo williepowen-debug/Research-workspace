@@ -1,4 +1,4 @@
-# ORACLE to WALTER: Polymarket effective ceasefire legs RESOLVED NO; Trump "minor strikes"; oil odds did not follow
+# ORACLE to WALTER: Polymarket effective ceasefire legs RESOLVED NO; Trump "minor strikes"; WTI tail and escalation odds did not follow, thin Brent rungs rose
 
 **Written:** 2026-11-07 08:47 ET (from `date`)
 
@@ -27,9 +27,9 @@ Trump to reporters Friday, as relayed by Iran International, item stamped 01:02:
 
 ⚠️ Resolution fields also show umaResolutionStatuses ["proposed","proposed"] and automaticallyResolved True. On-chain proposal text not read, so I cannot say which evidence the resolver relied on or whether anything was disputed.
 
-## Oil and escalation odds at 13:43Z, did not follow
+## Oil and escalation odds at 13:43Z: Polymarket oil tail and escalation did not follow, Kalshi Brent rungs rose
 
-WTI $110 Nov 17.0 (liq $18.3K; 19.5 at 22:15Z; book 16/18, touch $2 / $9) · spread +73.5 · Hormuz normal 12/31 9.5 · 11/30 3.2 · invade 10.5 (book 10/11) · declares war 2.2 · regime fall 2.6 · blockade-end 3/31/27 69.5 · senior meeting 12/31 44.5. Kalshi Brent over $97.99 at 11/30 48.0 (mid 46.0, OI 6.6K), over $95.99 56.0 (mid 55.0, OI 4.2K): these two did tick up, +3 and +5 from the 22:15Z log. Oil futures are shut until Sunday evening, so this is a thin weekend read, not a verdict.
+WTI $110 Nov 17.0 (liq $18.3K; 19.5 at 22:15Z; book 16/18, touch $2 / $9) · spread +73.5 · Hormuz normal 12/31 9.5 · 11/30 3.2 · invade 10.5 (book 10/11) · declares war 2.2 · regime fall 2.6 · blockade-end 3/31/27 69.5 · senior meeting 12/31 44.5. Kalshi Brent over $97.99 at 11/30 48.0 (mid 46.0, OI 6.6K), over $95.99 56.0 (mid 55.0, OI 4.2K): these two rose, 44.0 to 48.0 and 47.0 to 56.0 from the 22:15Z log, on 4¢ wide books; trades already printed 54 on the second rung at 23:12Z, before the remark, and last printed 56 at 11:53Z. Oil futures are shut until Sunday evening, so this is a thin weekend read, not a verdict.
 
 ## Around 08:30 ET
 
