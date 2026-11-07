@@ -2,9 +2,11 @@
 
 **Desk:** REGINALD, laptop, PROME prome-bf's word Sat 09:07 ET. **Basis:** bank-level FFIEC Call Reports, quarter-end 6/30 and 9/30/2026, pulled fresh 09:07 to 09:13 ET unless labelled. **Nothing moved:** no score, band, threshold, gate or trade.
 
+⚠️ **Corrected 09:26 ET, 11/07, after PROME's review, on my own catch.** The first version said this changed nothing and that the concentrated claim stands. The read plan pre-registered otherwise (§0 item 4; §6). Sections 1 and 7 are corrected. Every figure is unchanged.
+
 ## 1. The answer first
 
-The 8/20 risk score did not predict Q3. Banks it ranked riskier did not get worse by more in nonaccrual loans, and on charge-offs two far simpler measures beat it. Separately, the breadth test reads BROADER on its literal wording, but it gets there by a thin route: none of the five banks it tests passed the bad-loan test, and the count hangs on foreclosed-property rises at three of them, one just $0.9M and outside commercial real estate. Taken together this changes nothing on the regional-bank put thesis. It does not strengthen the tier-wide case, because commercial real estate bad loans fell across the 14. The population count that would actually test tier-wide stays UNKNOWN until the FDIC posts 9/30.
+The 8/20 risk score did not predict Q3. Banks it ranked riskier did not get worse by more in nonaccrual loans, and on charge-offs two far simpler measures beat it. Separately, the breadth test reads BROADER on its literal wording, but it gets there by a thin route: none of the five banks it tests passed the bad-loan test, and the count hangs on foreclosed-property rises at three of them, one just $0.9M and outside commercial real estate. **No score, band, threshold, gate or trade moves (plan §6). The judgment does move:** the plan pre-registered a yes on this test as the one observation that turns "concentrated" into "spreading", and §D moves it toward BROADER. So "concentrated, not tier-wide" no longer stands unqualified, even though the evidence for the move is weak and commercial real estate bad loans fell across the 14. The population count that would actually test tier-wide stays UNKNOWN until the FDIC posts 9/30.
 
 | Question | Result |
 |---|---|
@@ -160,7 +162,7 @@ No new fact against the 11/05 scan. Preferred's 10-Q (REG-31) most likely Mon 11
 
 ## 7. Regional-bank put thesis
 
-**It changes nothing.** No score, gate, threshold or trade moves.
+**No score, gate, threshold or trade moves. The judgment word moves, on the registered letter, and the evidence behind it is weak.**
 
 | Direction | Evidence |
 |---|---|
@@ -169,7 +171,9 @@ No new fact against the 11/05 scan. Preferred's 10-Q (REG-31) most likely Mon 11
 | Weakens this desk's tools | The matrix showed no skill, so "concentrated at FLG, EGBN, AMTB" rests on levels and named mechanisms, not on a tested ranking |
 | Still open | (d) to (f) are the direct test of tier-wide vs name-specific and are UNKNOWN; FDIC QBP ~late November; REG-03 |
 
-The live claim, severity concentrated not tier-wide, stands on Q3 levels. TRADE §2b records no candidate. TERRY constructs; Will decides.
+Reading: severity is still concentrated on Q3 levels, but the pre-registered breadth test reads BROADER on its letter, so the claim carries that qualifier until the FDIC population count and the Q3 QBP read. I do not argue my way back to "concentrated" against my own registered test; I report that the test passed thinly. TRADE §2b records no candidate. TERRY constructs; Will decides.
+
+Old text kept for the record: "The live claim, severity concentrated not tier-wide, stands on Q3 levels."
 
 ## 8. Verified, inferred, unknown
 

@@ -1,5 +1,9 @@
 # REGINALD CHANGELOG
 
+## 2026-11-07 — L180 reads BROADER on its letter; 'concentrated' now carries a qualifier
+
+Old view: severity CONCENTRATED, not tier-wide, unqualified, with L180 pending. New view: the registered breadth test reads BROADER, c = 3, m = 0, so the read plan's §0 judgment moves as pre-registered, toward spreading. Evidence for the move is weak: rate test 0 of 5; foreclosed property WAL +$38.7M mostly one office property, SSB +$2.8M, BKU +$0.9M outside CRE; cohort CRE bad-loan rate fell 2.23% to 2.13% [9/30]. Why not simply kept: I first wrote that the claim stood, against my own registered test, and corrected it the same morning. Open: FDIC 9/30 population counts, Q3 QBP. No score, threshold, gate or trade moved (plan §6). PROME recorded no change to the limb under C3 before seeing this correction. → `reports/2026-11-07_call-report-run/REPORT.md`.
+
 ## 2026-10-12 — OZK near-term maturity-failure premise weakens; cohort thesis unchanged
 
 Previously RaDD extension/recap outcome was unresolved in REGINALD's Sept top3 evidence. Now OZK's completed owner research and the full Oct12 FDIC 8-K establish an executed multi-year extension/new capital. Unknown loan-specific recognition does not negate execution; redraw and as-stabilized valuation limits remain. Sept balances/scenarios marked historical; no numerical re-mark or cohort score change. Canonical current terms → `AGENTS/OZK/research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`; consumed bank-tape context → `reports/2026-10-12_morning-regional-bank-tape.md`.
