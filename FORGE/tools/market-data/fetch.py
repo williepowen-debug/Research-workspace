@@ -177,7 +177,7 @@ def _audit_log(action, details, latency_ms=None):
 
 def _parse_flags(args):
     """Extract --json, --history N, --periods N, --delta PCT from args."""
-    flags = {"json": False, "history": 0, "periods": 5, "delta": 0.0, "first_published": False}
+    flags = {"json": False, "history": 0, "periods": 5, "delta": 0.0, "first_published": False, "equity": False}
     clean = []
     skip_next = False
     for i, a in enumerate(args):
@@ -188,6 +188,8 @@ def _parse_flags(args):
             flags["json"] = True
         elif a == "--first-published":
             flags["first_published"] = True
+        elif a == "--equity":
+            flags["equity"] = True
         elif a == "--history" and i + 1 < len(args):
             flags["history"] = int(args[i + 1])
             skip_next = True
@@ -759,6 +761,21 @@ _NAME_MONTH_RE = re.compile(
 # condition 1's named symptom, for a whole asset class.
 _BARE_DATED_RE = re.compile(r"^[A-Z0-9]{1,3}[FGHJKMNQUVXZ]\d{2}$")
 
+# L925 (2026-11-07): these bare symbols resolve to an UNRELATED listed name, rc=0, no warning
+# (CL = Colgate-Palmolive, NG = Novagold, BZ = Kanzhun, ES = Eversource, WTI = W&T Offshore).
+# The CLI refuses them on both ticker paths and names the working form; --equity serves the
+# symbol as typed. The registry is the roots the fleet uses as =F, not every commodity root:
+# an unlisted root such as ZS or KC can still resolve to an unrelated name.
+FUTURES_ROOTS = {r: f"{r}=F" for r in ("CL", "BZ", "GC", "HO", "RB", "NG", "HG", "PL", "PA", "SI",
+                                        "TTF", "JKM", "ZC", "ZW", "ZB", "ZN", "ZF", "ZT", "ZQ",
+                                        "CT", "ES", "NQ", "YM", "RTY")}
+FUTURES_ROOTS.update({"WTI": "CL=F", "GOLD": "GC=F"})
+
+
+def _refused_roots(tickers):
+    """{typed: working form} for bare futures roots in a CLI ticker list."""
+    return {t: FUTURES_ROOTS[t.upper()] for t in tickers if t.upper() in FUTURES_ROOTS}
+
 
 def _is_bare_dated_contract(sym):
     """True only for an unsuffixed dated futures symbol (CLX26, HOV26, BZF27).
@@ -939,7 +956,7 @@ def price_fetch(tickers, delta_threshold=0.0):
                     # nothing and sent desks back to the continuous ticker.
                     raise RuntimeError(
                         f"dated contract {t!r} not resolvable bare or as {resolved!r} — "
-                        f"try an exchange suffix (.NYM/.CME/.CBT) or use contract_probe()"
+                        f"try an exchange suffix (.NYM/.CME/.CMX/.CBT) or use contract_probe()"
                     )
             # FX (=X) daily bars are DATE-SHIFTED (yahoo sparse-FX index shift),
             # so regularMarketPreviousClose — which is always the second-to-last
@@ -965,9 +982,10 @@ def price_fetch(tickers, delta_threshold=0.0):
                 vol = int(vol) if vol is not None and vol == vol else None
             except Exception:
                 vol = None
+            dp = _price_decimals(t, curr)
             results[t] = {
-                "price": round(curr, 2),
-                "prev": round(prev, 2) if prev else None,
+                "price": round(curr, dp),
+                "prev": round(prev, dp) if prev else None,
                 "change_pct": round(float(chg), 2) if chg is not None else None,
                 "name": ALL_PRICES.get(t, t),
                 "volume": vol,
@@ -1643,6 +1661,11 @@ def _looks_like_future(ticker):
     )
 
 
+def _price_decimals(t, value):
+    """L925: a futures quote under $20 keeps 4 decimals (HO 4.3359 is not 4.34); else 2."""
+    return 4 if value is not None and value < 20 and _looks_like_future(t) else 2
+
+
 def display_prices(results, labels=None):
     # Volume is the LAST column (added 2026-09-11): the rendered table is a parser contract for consumers
     # (PAT-069) — Ticker · Name · Price · Change · As-of keep their positions; a trailing column is additive.
@@ -1655,7 +1678,7 @@ def display_prices(results, labels=None):
             print(f" {t:<10} {d.get('name','')[:21]:<22} {'ERROR':>10} {str(d['error'])[:30]}")
             continue
         name = d.get("name", (labels or {}).get(t, ""))[:21]
-        p = f"${d['price']:,.2f}" if d["price"] < 1000 else f"{d['price']:,.2f}"
+        p = f"${d['price']:,.{_price_decimals(t, d['price'])}f}" if d["price"] < 1000 else f"{d['price']:,.2f}"
         chg = f"{d['change_pct']:+.2f}%" if d.get("change_pct") is not None else "N/A"
         asof = d.get("asof")
         stamp = _session_stamp(d, asof, today, t)   # L462: futures session mark; others unchanged
@@ -1699,6 +1722,8 @@ def display_prices(results, labels=None):
                 # Key ABSENT now means exactly one thing: an entry cached before
                 # this field existed. Every live path sets it, success or failure.
                 print(f" {'':<10} └─ contract: UNRESOLVED (entry cached before 2026-09-14 — clear .cache to re-pull)")
+    if any("error" not in d and _looks_like_future(t) for t, d in results.items()):
+        print(" ⚠ vendor futures quotes run about 10 minutes behind (median, measured 2026-11-05, L925)")
 
 
 def display_fred(series_id, label, obs):
@@ -2001,6 +2026,12 @@ def _price_or_fred(symbols, flags):
     was alive the whole time, 8/18 95.29). Say what happened and fetch it right."""
     fred_ids = [s for s in symbols if s in ALL_FRED]
     tickers = [s for s in symbols if s not in ALL_FRED]
+    refused = {} if flags.get("equity") else _refused_roots(tickers)
+    if refused:
+        forms = ", ".join(f"{k}: use {v}" for k, v in refused.items())
+        print(f"fetch.py: REFUSED, bare futures root may be an unrelated listed name. {forms}. "
+              "Add --equity to mean the listed name.", file=sys.stderr)
+        sys.exit(2)
     for sid in fred_ids:
         print(f"[{sid} is a FRED series ({ALL_FRED[sid]}) — routing to the FRED path, not yfinance]")
         cmd_fred(sid, flags)

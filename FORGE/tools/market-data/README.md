@@ -87,6 +87,8 @@ python3 dashboard.py                 # Full dashboard, all tiers
 python3 dashboard.py --agent LABOR   # Single agent view
 python3 dashboard.py --tier 1        # Decision drivers only
 python3 fetch.py price KRE           # Single ticker price
+python3 fetch.py price CL=F          # Futures use =F; a bare root (CL, GOLD, ...) refuses, rc 2
+python3 fetch.py price CL --equity   # The listed name, here Colgate
 python3 fetch.py fred ICSA           # Single FRED series
 ```
 
