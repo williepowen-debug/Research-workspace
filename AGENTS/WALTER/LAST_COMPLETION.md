@@ -109,6 +109,11 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
   "next_review": "2026-11-09",
   "publication": [
     {
+      "commit": "b4e393ffc38d927193b50092a2c26939a56eb30b",
+      "state": "published",
+      "note": "Card 055."
+    },
+    {
       "commit": "6346a153872ee3f18d86d46c64b2290456660acf",
       "state": "published",
       "note": "Card 054."
@@ -175,7 +180,7 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
     "14": "Session note only.",
     "15": "Resume list, cutoff, gaps.",
     "16": "Exact paths, safe-push.",
-    "checks": "research/2026-11-06_night-boot/closeout/checks.json. Doctor MED carried: 2 unconsumed items, DEWEY 003R parked."
+    "checks": "research/2026-11-06_night-boot/closeout/checks.json. Doctor MED carried: 2 unconsumed items, DEWEY 003R parked. Ledger nudge reviewed: kill_log unchanged by card 055, nothing substantive."
   }
 }
 END_CLOSEOUT_RECEIPT -->
