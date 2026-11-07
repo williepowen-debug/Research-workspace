@@ -2,8 +2,8 @@
 
 **Status:** 🟡 — Physical equipment buying well supported; factory upturn strong but slowing, durability unproved.
 **Domain:** US manufacturing cycle, domestic/imported equipment and freight; downstream owners retain thesis judgments.
-**Recent thesis pivot:** November 6 close: October truck orders fell sharply (ACT preliminary 13,500, -45% y/y) on what both issuers call EPA 2027 uncertainty; factory payrolls +19K. Earlier the same day, the original S&P October final moved R1 toward-real from CANNOT-FIRE to NOT-MET. No flip fired, and no score, band, gate or threshold changed.
-**As of:** 2026-11-06 17:30 ET | STATUS commit: `ffde963a194645526a9899eb7eb4f19679d9ff3e`
+**Recent thesis pivot:** WQ-643 A, November 6 20:31 ET: R1 re-pointed to the November S&P final, December 1, date PRIMARY at the issuer calendar. November 6 close: October truck orders fell sharply (ACT preliminary 13,500, -45% y/y) on what both issuers call EPA 2027 uncertainty; factory payrolls +19K. Earlier the same day, the original S&P October final moved R1 toward-real from CANNOT-FIRE to NOT-MET. No flip fired, and no score, band, gate or threshold changed.
+**As of:** 2026-11-06 20:43 ET | STATUS commit: `5f377f1a14b4a408a2fde50fd77364ccd26f3092`
 
 ## CROSS-DOMAIN
 
@@ -16,7 +16,7 @@
 | CARL | S&P output prices steepest since September 2022; ISM prices 75.2 from 77.9; Parker $27M returns, $6M received | P3 | Inflation read stays CARL's. Refund accounting is not new tariff cost; the two survey measures are different series |
 | LABOR | S&P hiring steepest since April 2021; ISM employment 52.4 from 52.7 | P3 | Survey disagreement in size; LABOR keeps the figure. No trigger; ISM <47 NOT-FIRED |
 | LIQUID, RED | October Class 8 preliminary: ACT 13,500, -45% y/y; FTR 15,600, -36% y/y; AAR week of October 31 +3.0%/+3.9% y/y | P2 | J2 volume input only, qualified for EPA 2027 order timing; no condition fires. Credit and probability reads stay with them |
-| PROME | Six due items closed; R1 has no live named print; survey-band recommendation is register none | P2 | R1 successor registered as WQ-643; a frozen-letter change needing Will's ruling |
+| PROME | Six due items closed; R1 re-pointed under WQ-643 A, December 1 confirmed at the issuer; survey-band recommendation is register none | P2 | R1 test live again at one print; DOCKET's "date secondary" wording is PROME's to update |
 
 Packets dated November 6 at the six owners, plus the receipt at `PROME/inbox/`. No recipient consumption is claimed.
 
@@ -24,7 +24,6 @@ Packets dated November 6 at the six owners, plus the receipt at `PROME/inbox/`. 
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| Will | WQ-643 ruling on an R1 successor observation | November 30 | R1 has no live named print | A ruled print restores the bidirectional flip test; until then the state stays mixed, selective upturn |
 | Honeywell, Union Pacific IR | Next earnings dates | December 31 recheck | Pages returned 403, so dates are UNKNOWN, not unannounced | Schedules existing company reads only |
 | Deere IR | Fiscal Q4 date | November 12 check | November 25 remains an indexed, qualified date | Re-dates an existing row |
 | AAR | Exact October-edition publication day | December 2 rail batch | Still UNKNOWN; PDF creation is not publication proof | Metadata only; October weekly grade is complete |
@@ -51,9 +50,9 @@ Packets dated November 6 at the six owners, plus the receipt at `PROME/inbox/`. 
 
 ## NEXT DECISION POINT
 
-- **What:** R1 successor, WQ-643. Desk recommendation is A, the same two-branch wording at the November S&P final.
-- **When:** Will's ruling, row due November 30; the next possible print is the December 1 final (date SECONDARY).
-- **What would falsify the trigger:** Nothing fires until a successor is ruled. Without a ruling, the December 1 print is read but cannot flip R1.
+- **What:** R1 grade at the November S&P final, same two branches as October (WQ-643 A, Will November 6).
+- **When:** December 1, 14:45 UTC = 09:45 ET, PRIMARY issuer calendar read November 6; a schedule, not a publication.
+- **What would falsify the trigger:** Toward real needs orders and output both faster than October plus issuer-stated broadening beyond precautionary stockbuilding. Toward borrowed needs orders contracting with input stocks rising, tied to precautionary purchases. Otherwise NOT-MET, or CANNOT-FIRE if the release omits the composition. ⚠️ October is a soft base, and the test is one print; it does not roll without a new ruling.
 
 ## FORWARD CATALYSTS
 
@@ -63,7 +62,7 @@ Packets dated November 6 at the six owners, plus the receipt at `PROME/inbox/`. 
 | November 20 (desk recheck) | ACT Class 8 October final | ACT says mid-November; J2 input, final vs preliminary 13,500 |
 | November 17 / 24 | Fed G.17 October / annual revision | First-published and revised bases separate |
 | November 25 | BEA Q3 second estimate; durables October advance | J1 revisions without erasing prior vintages |
-| December 1 | ISM and S&P final November | ISM strict <47; R1 only if a successor is ruled |
+| December 1 | S&P final 09:45 ET, ISM 10:00 ET, November | R1 two-branch grade at the S&P final (WQ-643 A); ISM strict <47 |
 | December 2 / 3 / 8 | November rail batch / October full M3 / October FT-900 | Existing successor releases; AAR metadata follow-up |
 
-Evidence: `research/2026-11-06_close-refresh/NOTE.md`, `research/2026-11-06_due-items/REPORT.md` and their source manifests; `workbook/PRINTS.tsv` 89 rows. Prior work remains at `research/2026-11-04_backlog/REPORT.md` and `research/2026-11-02_L899/REPORT.md`.
+Evidence: `research/2026-11-06_r1-successor/NOTE.md`, `research/2026-11-06_close-refresh/NOTE.md`, `research/2026-11-06_due-items/REPORT.md` and their source manifests; `workbook/PRINTS.tsv` 89 rows. Prior work remains at `research/2026-11-04_backlog/REPORT.md` and `research/2026-11-02_L899/REPORT.md`.
