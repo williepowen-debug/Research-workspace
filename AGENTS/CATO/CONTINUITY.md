@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated November 7, 2026. PROME self-direction advice complete: bounded continuation implementation replaces the retired WQ-648 trial. Fresh context: orient and await Will; no new review or trial. WQ-607 remains approved/pending, not started here.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
+**Updated November 7, 2026. Sloane commit-review assessment complete; recommend finishing FLG/REGINALD corrections through existing owners. No repair or handoff started. Fresh context: orient and await Will. WQ-607 remains approved/pending, not started here.** [Assessment, evidence, owner closure conditions and limits](runs/2026-11-07_1033_sloane-commit-review.md). [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
 
 ## Resume point
 
