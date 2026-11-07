@@ -19,6 +19,7 @@ entities: ["NBC", "Pickaxe Mountain", "Hegseth", "Vance", "CENTCOM", "Rewards fo
 word_count: 304
 dispatch_note: "FALCON message to walter-e1. WALTER verified the NBC target quotes through a fetch helper's read of Iran International; NBC's body unread. WALTER's helper and search did not find the Rewards for Justice post, on Iran International, the verbatim part of Fox, or search; carried as FALCON's read. BRENT not listed on the laptop: UNKNOWN, not DARK, no doorbell. Adds to card 055; no error, so not a correction. Anchor verified as of the 2026-11-05 sweep; guards read whole this session. CARL off: no supply mechanism, no event."
 ---
+> **Correction, November 7 — SIG-W-20261107-002:** The no-new-strike find HOLDS to about 00:57Z. Trump's "minor strikes" remark reached relays at 01:02:54Z, without naming Qeshm or Friday. The CENTCOM reward post not found at dispatch is now confirmed by AP, CBS and Al Jazeera. The target line holds. Original text preserved below.
 # NBC via relay: Iran oil and gas infrastructure among potential targets discussed with Trump, no decision; FALCON finds no new strike behind the odds move
 
 Advice reported, not an order. Nothing fired; no score moved. BRENT owns the oil read, FALCON the theater.

@@ -22,6 +22,7 @@ corrects: "SIG-W-20261106-047"
 corrects_direction: "WEAKENS the market line, 31.5 was a low and the leg retraced to 48.0; the rest of card 047 holds"
 kill_strings: ["ceasefire through November 15 fell 59.0 to 31.5"]
 ---
+> **Correction, November 7 — SIG-W-20261107-002:** The legs quoted here resolved NO on November 7. Trump said "We do minor strikes" without naming Qeshm or Friday, so "attacker still unnamed" WEAKENS but is not closed. Original text preserved below.
 # CORRECTION to card 047: Polymarket ceasefire leg retraced to 48.0 from its 31.5 low; attacker still unnamed; a leg can stay open to November 18
 
 Corrects SIG-W-20261106-047's market line. Direction: 31.5 was a low, not the level; the implied alarm WEAKENS. The rest of 047 HOLDS. No asks.

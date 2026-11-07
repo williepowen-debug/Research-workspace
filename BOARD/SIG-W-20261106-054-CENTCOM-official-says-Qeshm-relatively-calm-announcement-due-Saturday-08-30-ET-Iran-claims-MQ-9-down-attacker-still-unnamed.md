@@ -19,6 +19,7 @@ entities: ["Qeshm", "CENTCOM", "MQ-9", "IRIB", "Qatar", "Vance", "Bagheri", "Axi
 word_count: 194
 dispatch_note: "WALTER read a fetch helper's verbatim quotes of both live pages, not the pages directly; CENTCOM's own site, UKMTO, Reuters and Axios not read. Second search found no later item; Al Jazeera's November 7 page had no stamped updates before dispatch. Anchor verified as of the 2026-11-05 sweep; IRAN_WAR_GUARDS read whole this session. Completes card 048's unread office text. Not carried: 'Iran told Russia the strait stays closed until seven conditions', an undated aggregator line naming no outlet. CARL off: no supply mechanism established."
 ---
+> **Correction, November 7 — SIG-W-20261107-002:** The announcement is Task Force Iron Gate, not a strike (SIG-W-20261107-001). Trump said "We do minor strikes" without naming Qeshm or Friday, so "attacker still unnamed" WEAKENS but is not closed. The other lines hold as read. Original text preserved below.
 # Qeshm: CENTCOM official says "relatively calm" and flags an Iran announcement Saturday 08:30 ET; Iran claims an MQ-9 shot down; attacker still unnamed
 
 FALCON owns the grade. Reported only. Stamps are GMT; outlets differ by up to 10 minutes on the same item.

@@ -19,6 +19,7 @@ entities: ["Polymarket", "Qeshm", "NBC", "State Department", "Trump", "CENTCOM"]
 word_count: 186
 dispatch_note: "ORACLE packet 7de38dd855; odds cited at ORACLE's dated read, WALTER did not read the books. NBC stamp is the page's own; ORACLE's 00:36Z is Iran International's relay time, so NBC preceded the fall. 'All options available at any time' not carried: not in NBC's visible text, relay only. Standing Worldwide Caution dates July 20; whether the 00:13Z alert is new text is unread. Updates card 053's market line; no error, so not a correction. Anchor verified as of the 2026-11-05 sweep; guards read whole this session. CARL off."
 ---
+> **Correction, November 7 — SIG-W-20261107-002:** The 00:51Z books and implied-strike figure are superseded: the legs resolved NO on November 7, the snapback did not last. Do not cite them as current. Cause was not established at dispatch; the remark's spoken time is still unread. Original text preserved below.
 # Polymarket ceasefire legs spiked again, about 99 implied strike at the low, back to about 74; no new strike report found; NBC: advisers urge action within eight weeks
 
 FALCON owns the event grade; priced odds are ORACLE's. Prices settle nothing.
