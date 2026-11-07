@@ -2,7 +2,7 @@
 
 **Status:** Severity concentrated on Q3 levels, with a qualifier: the registered breadth test L180 reads BROADER on its letter, weak [11/07]; frozen 8/20 score showed no skill. HY OAS 348bp [11/05] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 2bp below the strict >350 line, run 0-of-3); wide HY alone does not establish bank transmission. FL frame NO TRANSMISSION FINAL [11/06]: three HOLDS, BKU MIXED, its primary cell transmitted alone on one modified credit of $21.3M. VLY's ~$108M CRE payment-delay block did not pay off and looks modified again (inference); no second bank passed that test on the 11/06 screen, now NO BLOCK at 8 names; FLG's pool +$202M is mostly a Call Report line (inferred). FLG multifamily special mention $3,001M and substandard $4,428M rose in Q3 while modifications fell to $96M. The 10-year, not HY, moves regionals. Problem loans up at 7 of 10 names; falling coverage dropped as a predictor (L801, 10/30). WAL's Q3 10-Q: NCO 0.30%, no fraud, WAL-source stand-down leg NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-07 09:27 ET, closeout on PROME's word after the Call Report run | STATUS commit: `c1679efcc9`
+**As of:** 2026-11-07 09:55 ET, ledger refresh on PROME's word, no change of state | STATUS commit: `36a1f23409`
 
 ## CROSS-DOMAIN
 
