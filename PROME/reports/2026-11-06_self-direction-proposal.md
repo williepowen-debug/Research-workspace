@@ -13,8 +13,20 @@
 Finishes: verify at the artifact, evaluate against the question, update or route, close out, then re-rank. Fails: diagnose once, one alternate route, else record blocked and move on. Uncertain: keep the label, one cheap follow-up if it would resolve it, else carry it as a named unknown. Needs Will: register, park that branch only, continue the rest. Nothing useful: stop and say so.
 
 ## Instructions: missing versus not applied
-Not applied: BOOT step 8, begin authorized work (first written here as step 9, Will's correction 21:42 ET); SCRATCH "a miss is started by hand" (asked twice 11/6); interrupt test on surfacing hands items once; register before presenting (WQ-642 clause, 11/6); verify before relay; C9 unused this session.
-Possibly missing, to be shown by the trial and not assumed: nothing explicit covers the moment a desk returns mid-session. No BOOT change (WQ-648 A).
+*Rewritten 2026-11-07 08:1x ET on Will's word from the session transcript and records. The first version overclaimed; it is in git.*
+
+| Item | Situation | What PROME did | Consequence | Class |
+|---|---|---|---|---|
+| Verify before relaying (MESSAGING; RELAYING IS ASSERTING) | 11/6 prome-51: Qatar paraphrase, $40B bridge from a stale theme row, 3.25% CDS claim | Relayed without checking the source | Will told wrong facts, later corrected | Clear omission |
+| Decision terms in the queue row (root anti-laundering clause; USER.md, the chat is his only window) | WQ-642, 11/6: row and 20:27 ET read-back lacked TERRY's missing-file, revision and who-reads clauses | Will approved; record says "that issue only" while the card carries the clause | Conflict between record and card, now WQ-649; no money, spread unfilled | Clear omission, decision terms |
+| Register before presenting (USER.md) | Missing-file clause raised to Will 21:02 ET; WQ-649 registered 21:29 ET | Presented first, registered 27 minutes later | No app card for those minutes; no effect on the outcome | Clear omission, timing only |
+| Will's word, "lets not waste time on that anymore" (20:26 ET) | Laptop power | Mentioned plugging in again at 21:45 ET | Small; ignored a direct word | Clear omission |
+| Repeated plug-in notices 19:47 to 20:25 ET | Session survival risk; no written rule limits it (the once-only rule covers HANDS rows) | Four mentions, three with a new measured battery figure | Will asked to stop | Judgment, no rule |
+| BOOT step 8, start work | 11/6 boot; task said "Do not begin unassigned work" | Reported and stopped | None | Compliance, withdrawn |
+| SCRATCH, a miss is started by hand | 19:33 to 19:46 ET; no read had been missed, and the same instruction barred unassigned work | Asked whether the desktop was on, then whether to run from the laptop | About 13 minutes | Instruction did not apply, conflict, withdrawn |
+| C9 and Tier 1 launches | 20:33 ET TERRY, ISHM left to next session at tight memory; Will prompted 20:38 ET | Launched on his word | About 5 minutes | Unused permission, not a failure |
+
+Possibly missing: nothing explicit covered the moment a desk returns mid-session; BOOT step 8 Continuation now does.
 
 ## Trial: WQ-648
 Saturday 11/7, starts once the two Saturday reads and REGINALD's run are in, about 10:00 ET, stops 14:00 ET. Budget: one read-only helper and at most two desk touches, no new windows. Stops earlier when the three are done or blocked, on a decision only Will can make with nothing else useful left, or under 1 GB available. Account from existing records, under Will's seven headings. Separate from the WQ-646 four-read trial.
