@@ -16,7 +16,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 - Themes KB-407, KB-408 updated. KB-419..424. VX diplomacy row stamped. Report reports/2026-11-06c_close-refresh-card043.md. ORACLE packet read and logged.
 
 ## NEXT SESSION (dated, future-verifiable)
-- WQ-646 A (Will 17:44 ET, PROME/proposals/2026-11-06_wq646-647-RULED.md): reads Sat 11/7 08:00 ET and Sun 11/8 15:00 ET, four reads across FALCON and ORACLE only, not a standing grant. Timers are session-only (bee28c33, 4d8ff25a): if this window died, run the read by hand.
+- WQ-646 A (Will 17:44 ET, PROME/proposals/2026-11-06_wq646-647-RULED.md; Will's yes 11/6 19:46 ET to run them on the laptop): the desktop is closed and timers bee28c33 and 4d8ff25a are GONE. Laptop session falcon-de HOLDS, sets no timer. PROME messages about 08:45 ET Sat 11/7, after CENTCOM's reported 08:30 ET announcement, and about 15:00 ET Sun 11/8. This supersedes the old 08:00 ET slot. One read each: Qeshm attribution and any new event, graded to files. No score moves without a registered letter. Breaking items to WALTER (walter-e1). No closeout until PROME asks. If this window dies, a fresh boot waits for PROME's message; it does not self-start a read.
 0. First: Qeshm attribution. CENTCOM, wires, Tasnim follow-up, and the event time in ET. If US on the FAL-09 confirmation standard, date it in ET: the window opens 11/7 00:00 ET, a strike dated 11/6 ET is outside it; read the letter if the night crossed midnight ET. Also UKMTO numbers after 197-26, which I could not read.
 1. Re-run PortWatch transit and bypass (429 on five attempts; transit newest 10/25, bypass 10/30).
 2. November 11: weekly + GATE-FALCON-001 review; combo themes; re-read D 85 note (KB-403, KB-416); DAEDALUS items 6, 7, 8, 10–13.
@@ -39,7 +39,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-Inbox 0; cards 043, 047, 048, 053 and ORACLE's two packets consumed. Card 053's file was uncommitted by WALTER at 18:36 ET, so it stays in the lane: logged and receipted; `git mv` it to processed at the Saturday read. COR-20261106-48 receipted APPLIED. Packets sent to BRENT, WALTER, ORACLE. No PROME packet: no figure others cite moved.
+Inbox 0 at the 19:50 ET laptop boot. Cards 053 and 054 moved to processed. Card 054 logged DEFERRED: Qeshm grade waits for the announcement; KB-427, KB-428, themes KB-407, KB-408 updated. The 08:30 ET line is not read by me, one outlet via WALTER. COR-20261106-48 receipted APPLIED. Packets sent to BRENT, WALTER, ORACLE. No PROME packet: no figure others cite moved.
 
 ## PENDING PUSH / GIT
-All pushed through safe-push at Will's 18:33 ET closeout word via prome-51. No theater search after about 22:31Z (17:31 ET): marks are as of that cutoff, not as of closeout. Window stays open for the two WQ-646 reads.
+The 11/6 close pushed through safe-push at Will's 18:33 ET word. Laptop boot drain committed locally 11/6 19:5x ET, not pushed; push waits for PROME's closeout. STATUS and NEXUS_BRIEF deliberately unchanged at boot, no mark or grade moved; both refresh at the reads. Boot sweep to about 00:48Z 11/7: PortWatch transit and bypass still 429 (twice), IMO 129 / 25 as at 11/6 unchanged, NAVAREA newest 431 and 432/26, no new theater event found; CENTCOM and UKMTO 403.
