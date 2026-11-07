@@ -1,7 +1,7 @@
 # PROME STATUS.md
 
 **Helm RETIRED (WQ-461, 2026-10-19):** routine generation, hosted publication and presentation upkeep ended; dashboard change-feed history is frozen. Deck remains paused under WQ-460. Underlying records, book-line and position-management checks stay active. Authority: `PROME/proposals/2026-10-19_wq461-helm-retired-RULED.md`.
-**Updated:** 2026-11-06 18:4x ET, session prome-51 on the desktop, closeout; next action in SCRATCH ★ NEXT. Prior: 2026-11-06 08:27 ET, prome-96. Prior: 2026-11-05 16:58 ET, session prome-80 on the desktop; earlier text in git history.
+**Updated:** 2026-11-07 11:5x ET, session prome-bf on the laptop, work table cut to live rows; next action in SCRATCH ★ NEXT. Prior: 2026-11-06 18:4x ET, prome-51; earlier text in git history.
 **Last spine audit:** 2026-11-07 (19th run, on Will's word 10:28 ET — 9 readers/17 files: 28 blocking [STATUS ×6 · SCRATCH ×7 · ACTIVE_DECISIONS ×3 · HEARTBEAT ×2, the ended UNG card carried as live · MACHINE_LOCAL ×3 · CLOSEOUT step 12 and its runner, intra-day baseline · closeout runner's disabled legacy flag · SYSTEM, intake cadence · HANDOFF · AUTONOMY Tier 1: all FIXED; root carve-out ④ → WQ-651; charter L378 sentence → Will's word] + 95 minors [about 20 fixed in the same pass, the rest at DOCKET's spine-audit-19 residue row]; record `PROME/reports/2026-11-07_spine-audit-19.md`. Re-run when >7d.) Prior: #18 2026-10-29 (9/17: 9 blocking + 80 minors) — full stamp verbatim in `PROME/archive/STATUS_SPINE_AUDIT_PRIORS_2026-10-29.md` (entry crc32 829284454); earlier → `PROME/archive/STATUS_SPINE_AUDIT_PRIORS_2026-10-23.md` · `PROME/archive/STATUS_SPINE_AUDIT_PRIORS_2026-10-15.md` · `PROME/archive/STATUS_SPINE_AUDIT_PRIORS_2026-10-02.md`.
 
 ## Current Work Queue — PROME's own actions
