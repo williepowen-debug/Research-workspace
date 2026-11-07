@@ -172,3 +172,9 @@ Observed/finalized 2026-11-07T10:43:09.475003-05:00
 ## Pre-commit verification
 
 Only GIBBS Level changes across twelve map re-cuts; comment lines conserved and old whole-profile vintage lines retained. Six independent GIBBS source hashes still match. Directory generation also refreshed the external configured-phrase count (CYPHER 51 to 53), not a grade or routing-health measurement. Diff whitespace check clean. Closeout 20261107T154333Z rc 0: CLEAN 6, DUE 3, NOT-APPLICABLE 1, DECLARED 1; DUE self-authored packets are included in this commit, map update included, other ledger data unchanged. Maintenance remains DUE. Codex list_threads(limit=50) discovery returned partial app-server inventory; Claude/cross-runtime coverage not established, recipients UNKNOWN, never DARK. No native notification or recipient consumption claimed.
+
+## Filing completed
+
+Substantive integration committed first at 37f47c6c2e. All 21 manifest packets then moved with git mv to processed, bytes conserved by SHA256. Two CARL requests and two later PROME arrivals remain pending. No unseen arrivals processed.
+
+Post-filing closeout 20261107T154442Z rc 0: CLEAN 7, DUE 2, NOT-APPLICABLE 1, DECLARED 1. No self-authored orphan; remaining ledger nudge covers unchanged PATTERNS/SURFACES/CHECKS. Maintenance clocks remain DUE.
