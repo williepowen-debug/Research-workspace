@@ -74,7 +74,7 @@ Publication and exactcloseoutcommit proof are recorded in dateddelivery; prior s
 
 ## Next Session — start here
 
-00. **Final bars and HY:** read HYG and UNG 11/6 final daily bars, then the HY 11/6 cell about 11/9 against WQ-513's 350 count. **WQ-631:** on Will's ruling, write the test on the UNG card; change nothing before it. OP-SCALE contest delivered and settled, N = 5.
+00. **HY:** read the HY 11/6 cell about 11/9 against WQ-513's 350 count. **WQ-642 RULED A, encoded on UNG card § 7a (10e701bf7f):** one CPC read of the 12/3 issue, only if the spread fills, DOCKET row dated 2026-12-03. Item open: PROME took the missing-file clause to Will on 11/6; strike it from § 7a only on his word by packet. OP-SCALE contest delivered and settled, N = 5.
 0a. **UNG (WQ-573):** APPROVED FIRED, unfilled, LIVE through 11/20, re-price live on any red UNG day; WQ-621 A governs a debit over $0.50. Will holds a separate Robinhood Dec-24 $10.5 call ×1 (NOTE-UNG105C-DEC24); show combined risk about $311.50 if presenting. Whether the call replaces the card is his to say; do not prompt on the call.
 0b1. **HYG hedge (WQ-615):** T1(a) FIRED on 348 [11/5], order stands, first green HYG day through 12/4, no fill known. **QQQ (WQ-617):** bring to Will on live VIX3M/VIX ≥ 1.00 on a red QQQ day by 11/20, else close. CAL-0003 11/12.
 0b2. **Closes:** read a close after about 16:30 ET. On 11/5 a 16:12 daily bar showed UNG's last minute bar $9.255 (red), and the final was $9.27 (flat); VIX family prints to about 16:15.
