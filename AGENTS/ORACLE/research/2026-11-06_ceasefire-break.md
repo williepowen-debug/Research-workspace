@@ -63,3 +63,23 @@ Cause; whether any trader had information; whether the level holds into Monday. 
 - ⚠️ Without an established consensus the market stays open until 11:59 PM Iran time on the third calendar date after the named date (11/18 for the 11/15 leg). So an unresolved leg does not show that no strike happened, and these legs can sit mid-range for days.
 
 **One estimate, weak:** all three legs fell by a similar proportion at the 22:15Z low (0.53 to 0.68 of the 20:26Z level) and at 23:34Z (0.79 to 0.89). Equal proportions across dates fit a single near-term event being bet on better than a general rise in strike risk, which would hit the later dates harder. Treated that way, the crowd's odds that this event counts were about 32 to 47 at the low and about 11 to 21 at 23:34Z. Noisy books, separate prices, an inference, not a reading.
+
+## Second spike and snapback (read 00:48Z to 00:52Z 11/07, laptop, public reads, not a log row)
+
+The legs broke again from about 00:05Z (19:05 ET), to near zero, then rebounded inside 45 minutes. No new strike report found. Cause NOT established.
+
+| Leg | 23:34Z | Low trade | CLOB 00:50:40Z | CLOB 00:51:40Z |
+|---|---|---|---|---|
+| 11/15 | 48.0 | 1.2 | 28.7/32.9 | 25.0/27.4 |
+| 11/30 | 35.5 | 1.1 | 19.8/26.9 | 20.9/26.9 |
+| 12/31 | 22.5 | 1.0 | 6.1/7.8 | 6.2/8.9 |
+
+11/15 trade path, 10-minute bars from data-api: 23:50Z close 46.0; 00:00Z low 18.0, close 29.0, $2,716; 00:10Z low 2.1, close 8.6, $20,980; 00:20Z low 1.2, close 2.3, $3,842; 00:30Z low 1.7, close 5.4, $5,197; 00:40Z low 3.4, high 34.8, close 32.8, $1,139.
+
+**Instrument lesson:** Gamma lagged the book in this move. 00:48:24Z: Gamma 3.75 (updated 00:43:26Z), CLOB 21.4/33.6. 00:48:57Z: 28.6/32.9. Gamma reached 20.0 by about 00:52Z. A reading from `polymarket.py market` or `pull` during a fast move is a Gamma snapshot; take the book.
+
+**Flow:** 11/15 leg, $34.9K since 23:30Z, 0x5d8af5 $16.2K SELL No at 84 to 87 cents 00:14:58Z to 00:16:46Z (sold into the fall); 0xe23495 $5.5K BUY No at 96 to 97 cents 00:16:12Z and 00:21:24Z. Prints 10 cents apart inside two minutes. Best bid and ask sizes $0 to $77 in 35 of 36 readings, one $688. Not called insider flow.
+
+**Unmoved (Gamma 00:48Z, which may lag):** WTI $110 Nov 19.0 · invade 11.5 · war 2.2 · Hormuz 12/31 9.5 · blockade-end 71.0 · senior meeting 44.0. Kalshi Brent `T97.99` 46/50.
+
+**Reports (Iran International liveblog, relayed):** 00:13 GMT State Department vigilance alert (Houthi threats, Iranian targeting of US officials, airspace closures possible). 00:36 GMT NBC: some advisers want major operations resumed before the new Congress; Trump undecided. CBS newest 22:26 GMT; Al Jazeera 11/7 page, same two-missile report, attacker unnamed. Nothing found explains the rebound.

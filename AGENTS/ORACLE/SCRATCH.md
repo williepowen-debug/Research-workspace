@@ -2,6 +2,8 @@
 
 **Last updated:** 2026-11-06 (Fri) 17:15–17:4x ET (from `date`) · **Box:** DESKTOP `DESKTOP-BC6EF81`, Kalshi SIGNED (`status` rc=0). · Session: Claude Code, Opus 5.5; Will's 17:08 ET close-refresh word via prome-51, bounded, no spawns. Prior: 2026-11-06 15:25 ET.
 
+**Intra-session note 2026-11-06 19:5x ET (from `date`):** laptop `WilliePOwen`, window oracle-e5, Kalshi UNSIGNED public read (`status` rc=3). HOLD for WQ-646 A; not a closeout. Boot done; KB-ORC-130 written; the section below is the 17:4x ET handoff.
+
 ## CHANGES SINCE 15:4x ET
 
 - **Effective ceasefire legs broke from 16:04 ET:** 59.0 · 40.0 · 28.5 (20:26Z) → 31.5 · 27.0 · 16.0 (22:15Z); book 22:23Z 30/33 · 26/29 · 15/16; 11/15 swung 31.5 to 36. Oil, invade, war and Hormuz legs did not follow. Cause NOT established.
@@ -20,7 +22,7 @@
 
 ## NEXT SESSION (dated, priority-flagged)
 
-- **🔴 Weekend reads, WQ-646 A (Will 11/06 17:44 ET; `PROME/proposals/2026-11-06_wq646-647-RULED.md`):** Sat 11/07 about 08:00 ET and Sun 11/08 about 15:00 ET, context only, these two reads only. Timers are one-shot session jobs (`657db5cf`, `6d1a6129`) in the window opened 11/06 17:15 ET: they die if this session exits and fire only while it is idle. If a fresh session reads this after a slot passed with no row in `ODDS_LOG.tsv`, that read was MISSED: run it and say so.
+- **🔴 Weekend reads, WQ-646 A (Will 11/06 17:44 ET and his 19:46 ET yes to run them on the laptop; `PROME/proposals/2026-11-06_wq646-647-RULED.md`):** one read Sat 11/07 and one Sun 11/08, ceasefire legs and oil odds, context only, these two reads only. **Trigger is PROME's message, about 08:45 ET Saturday and 15:00 ET Sunday, to the persistent laptop window oracle-e5.** The desktop is closed and the old timers (`657db5cf`, `6d1a6129`) are dead. Set no timer. Laptop Kalshi lane is UNSIGNED public read: say so in each grade. In a fast move read the CLOB book, not Gamma (KB-ORC-130). Sunday's 15:00 ET read comes before oil futures reopen. If a fresh session reads this after a slot passed with no row in `ODDS_LOG.tsv`, that read was MISSED: run it and say so.
 - **🔴 Every boot:** `tools/routine_check.py`, then grade the routine rows into `V5_NOV110_READS.tsv` and VX-ORC-12. Next ledger row is ET Mon 11/09.
 - **🔴 Effective ceasefire, weekend reads and Mon 11/09:** baseline is 23:34Z 48.0 · 35.5 · 22.5, not the 22:15Z low. Without consensus a leg stays open to its named date + 3 (11/18), so unresolved is not all-clear. Did the 16:04 ET break hold, and did oil follow at Sunday's reopen? Any leg resolving NO = another qualifying strike. Find the cause if a wire reached it; re-test on a second venue (`kalshi.py search "Iran strike"` was NOT CERTIFIED). The routine runs weekdays only.
 - **🟠 Rolls:** Hormuz weekly → wk-of-11/9 at 11/09 · Hormuz on-date · December $110 at listing (expect ~11/25 by prior pattern; bump REGIME, one edit) · R3 switch 2026-11-17T01:00Z (INFERRED) resets the arming run.
