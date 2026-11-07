@@ -1,6 +1,6 @@
 # Weekend trial log, WQ-646 A, November 7 to 8
 
-**Owner:** PROME. Written as things happen, so the Sunday account survives a lost session.
+**Owner:** PROME. **CLOSED 2026-11-07 07:59 ET on Will's word: the formal WQ-648 trial and the Sunday account are retired, the reads and the Sunday Iran brief continue.** Record: PROME/proposals/2026-11-06_wq648-RULED.md § Addendum 2. Kept as history; no further entries owed.
 
 ## Will's instruction, 2026-11-06 about 21:00 ET, pasted in PROME's chat, in substance
 - Run the approved trial: two FALCON reads and two ORACLE reads, separate from the TERRY, ISHM, SHADE and BROCK assignments of November 6.
@@ -16,9 +16,7 @@
 | Sat 11/7 08:43 | FALCON read 1, ORACLE read 1 | PROME session-only reminder, then SendMessage | This window, laptop awake and powered |
 | Sat 11/7 09:07 | REGINALD Call Report run, L180, approved separately, not one of the four reads | Same | Same |
 | Sun 11/8 15:03 | FALCON read 2, ORACLE read 2 | Same | Same |
-| Sun 11/8 16:37 | PROME Sunday account and capability check | Same | Same |
-| Sat 11/7 10:03 | WQ-648 trial check: read what arrived, Iran interim assessment and handoffs, then only what is justified | Same | Same |
-| Sat 11/7 14:03 | WQ-648 latest stop, account to Will | Same | Same |
+| Sun 11/8 16:37 | Sunday Iran brief, material capability findings folded in | Same | Same |
 | Sun 11/8 18:17 | Offer to restore laptop sleep settings, restore only on Will's word | Same | Same |
 
 ## Known before the trial

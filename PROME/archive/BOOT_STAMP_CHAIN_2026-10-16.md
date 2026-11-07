@@ -6,3 +6,7 @@ Dated history, not instructions: the ` Prior:` clauses that followed the **Updat
  Prior (dropped from the live header at rotation #3, 2026-10-30): 2026-10-16 12:5x ET (boot rewiring — ruling `PROME/proposals/2026-10-16_boot-rewiring-RULED.md`: execution order · GATES wording · HEARTBEAT scope · bounded-read rule · delta brief · one price pull · slate rule; plan read HOLD→fixed, result read recorded there).
 
  Prior (dropped from the live header at WQ-578 batch 2, 2026-10-31): 2026-10-30 12:25 ET (rotation #3, WQ-552 A; plan `proposals/2026-10-30_boot-rotation-3-PLAN.md`).
+
+ Prior (dropped from the live header 2026-11-07): 2026-10-31 (WQ-578 batch 2 — step 2 regenerates the calendar before reading it; step 5 drops the retired session-snapshot clause; DOCKET L908).
+
+ Prior (dropped from the live header 2026-11-07): 2026-11-06 (WQ-639 A — step 3b, Decisions app cards and answers; record `proposals/2026-11-06_wq639-640-RULED.md`).

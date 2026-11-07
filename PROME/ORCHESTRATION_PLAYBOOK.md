@@ -1,5 +1,5 @@
 # ORCHESTRATION PLAYBOOK
-**Created:** 2026-06-26 | **Updated:** 2026-11-04 (WQ-508 C14 mode-count simplification) · prior: 2026-10-15 15:17 ET (DOCKET L733 — § Two-tier "Ledger" line now names the ONLY writer, `scripts/orch_log.py append`; no tier, route or authority changed) · prior: 2026-10-05 (WQ-385 runtime compatibility; ruling: `PROME/proposals/2026-10-05_runtime-compatibility-RULED.md`). Prior: 2026-09-15 10:54 ET (L381 bounded instruction reconciliation; existing authority preserved; plan/review record: `PROME/plans/2026-09-15_L381-reconciliation.md`). Prior: 2026-08-10 (+§Mode C — forum canonized as the third mode, Will-approved in-session; template = `FORUM/CHARTER_TEMPLATE.md`) | Prior: 2026-07-09 (+§Standard Fable session — session-design guide, Will-directed; Codex cross-vendor lane; verification tiers; record-vs-reality rule) | **Owner:** Prome | **Companion to:** `PROME/ORCHESTRAL_LAYER_DESIGN.md` (fleet-scan/ranking layer)
+**Created:** 2026-06-26 | **Updated:** 2026-11-07 (§ Related design-doc pointer only) · prior: 2026-11-04 (WQ-508 C14 mode-count simplification) · prior: 2026-10-15 15:17 ET (DOCKET L733 — § Two-tier "Ledger" line now names the ONLY writer, `scripts/orch_log.py append`; no tier, route or authority changed) · prior: 2026-10-05 (WQ-385 runtime compatibility; ruling: `PROME/proposals/2026-10-05_runtime-compatibility-RULED.md`). Prior: 2026-09-15 10:54 ET (L381 bounded instruction reconciliation; existing authority preserved; plan/review record: `PROME/plans/2026-09-15_L381-reconciliation.md`). Prior: 2026-08-10 (+§Mode C — forum canonized as the third mode, Will-approved in-session; template = `FORUM/CHARTER_TEMPLATE.md`) | Prior: 2026-07-09 (+§Standard Fable session — session-design guide, Will-directed; Codex cross-vendor lane; verification tiers; record-vs-reality rule) | **Owner:** Prome | **Companion to:** `PROME/ORCHESTRAL_LAYER_DESIGN.md` (fleet-scan/ranking layer)
 **Purpose:** Operating rules for running a multi-agent session. Read when Will says "let's orchestrate" / before spawning >1 agent. Born from the 2026-06-26 debrief: the orchestration layer works, but we were paying live-orchestration prices for fan-out work and absorbing a fragile-concurrency tax.
 
 ---
@@ -255,7 +255,7 @@ Independently launched and PROME-created owner sessions use the verified transpo
 **PROME closeout hook:** follow `PROME/CLOSEOUT.md` § Pre-closeout item 3; idle status and committed delivery do not establish that the closeout ask occurred.
 
 ## Related
-- `PROME/ORCHESTRAL_LAYER_DESIGN.md` — fleet-scan / ranking / revival-proxy layer (the *what to work on*; this doc is the *how to run it*).
+- `PROME/ORCHESTRAL_LAYER_DESIGN.md` — design history; its § Revival-proxy v3 brief spec stays live. Choosing work → `PROME/BOOT.md` steps 8 and 9.
 - Auto-memory: [[finding_fleet_selfreport_convergence]], [[finding_workflow_concurrency_529]], [[feedback_parallel_spawn_independent_agents]], [[feedback_named_spawn_teams_mode]], [[feedback_warm_parked_agent_collision]].
 
 ---

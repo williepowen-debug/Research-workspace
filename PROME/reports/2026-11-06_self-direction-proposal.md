@@ -19,4 +19,4 @@ Possibly missing, to be shown by the trial and not assumed: nothing explicit cov
 ## Trial: WQ-648
 Saturday 11/7, starts once the two Saturday reads and REGINALD's run are in, about 10:00 ET, stops 14:00 ET. Budget: one read-only helper and at most two desk touches, no new windows. Stops earlier when the three are done or blocked, on a decision only Will can make with nothing else useful left, or under 1 GB available. Account from existing records, under Will's seven headings. Separate from the WQ-646 four-read trial.
 
-**Ruled:** WQ-648 A with clarifications, PROME/proposals/2026-11-06_wq648-RULED.md. They govern this file wherever the two differ: action 1's Saturday deliverable is an interim assessment and handoffs; operational work is not inherently low-value.
+**Retired 2026-11-07 07:59 ET, before it started, on Will's word; the Continuation section above now lives in BOOT.md step 8.** **Ruled:** WQ-648 A with clarifications, PROME/proposals/2026-11-06_wq648-RULED.md. They govern this file wherever the two differ: action 1's Saturday deliverable is an interim assessment and handoffs; operational work is not inherently low-value.

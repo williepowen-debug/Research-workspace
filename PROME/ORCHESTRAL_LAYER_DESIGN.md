@@ -1,8 +1,8 @@
 # ORCHESTRAL LAYER DESIGN
 
 **Date drafted:** 2026-05-18
-**Last updated:** 2026-07-01 (hygiene trim: prototype narrative compressed to a record block, dead pointers fixed, counts/claims re-based; design content unchanged). Substantive design last touched 2026-05-19 (v3 brief-spec folded in after LIQUID + HENRY proxy prototypes).
-**Status:** standing design reference — fleet-scan (Step 1) + revival-proxy (Step 4) validated 2026-05; adversarial-pair top-N (Step 3) still unprototyped/open
+**Last updated:** 2026-11-07 (status, references and scan recipe only, Will's word 07:59 ET; record `PROME/proposals/2026-11-06_wq648-RULED.md` § Addendum 2). Prior: 2026-07-01 (hygiene trim: prototype narrative compressed to a record block, dead pointers fixed, counts/claims re-based; design content unchanged). Substantive design last touched 2026-05-19 (v3 brief-spec folded in after LIQUID + HENRY proxy prototypes).
+**Status:** design history, kept for its reasoning. **One section stays live: § Revival-proxy v3 brief spec**, the procedure for reviving a stale desk (`PROME/BOOT_MODULES.md`; `PROME/proposals/2026-09-05_spawn-driver-RULED.md`). Choosing work is governed by `PROME/BOOT.md` steps 8 and 9, not by this file. Fleet state is `PROME/ROSTER.md` + `AGENTS/DAEDALUS/FLEET_MAP.tsv`. Scoring status: § Ranking criteria. Adversarial pair (Step 3) was never prototyped.
 **Drafted in:** Prome theory-crafting session with Will, post-memory-audit-001
 
 ---
@@ -109,6 +109,8 @@ The scan is rebuilt on demand (BOOT conditional read — between rebuilds `PROME
 
 ## Ranking criteria for Section 6 (Top-N Moves)
 
+**Status, established from the record 2026-11-07: DORMANT, not a current requirement; no ruling that retires it was found.** History: `HUNTING.md` scoring was a mandatory boot step from 2026-03-25 until it left BOOT on 2026-05-18 (5a03fc512e), when this rubric was distilled here for the fleet scan. BOOT kept "ranked by score" until 2026-06-14, when PROME's context prune (c687fadfd2) replaced it with "ranked by urgency/position relevance", which is BOOT step 9 today and the requirement in force. Only the 2026-05-18 scan (1ec1b3af05) shows the math; scans from 2026-06-04 on carry none. No Will ruling adopting or retiring the rubric by name was found in WILL_QUEUE, its archives or AUTONOMY (SEARCH-NOT-FOUND, not proof of absence). Do not score from this table or treat its weights as authoritative; restoring or formally retiring it is Will's call. Its four anti-patterns below remain useful as plain judgment.
+
 Distilled from the retired `PROME/archive/TOSCANINI_2026-03/HUNTING.md`. The fleet-scanner uses this rubric to rank candidate moves rather than eyeballing it.
 
 **Score each candidate move on six dimensions (0-3); apply weights; sum. Max 22.5.**
@@ -138,7 +140,7 @@ Distilled from the retired `PROME/archive/TOSCANINI_2026-03/HUNTING.md`. The fle
 4. **Step 4 — revival-proxy: ✅ prototyped 2×** — LIQUID (validated the pattern) + HENRY (validated generalization; introduced the framing-precision overlay). Both fed the v3 brief spec below.
 5. **Step 5 — cadence: on-request** is the standing mode; revisit (ritual / scheduled / Telegram-push) only if Will asks.
 
-**To run a scan today:** spawn a fleet-scanner sub-agent briefed with the template above — output → `PROME/FLEET_SCAN.md` (7 fixed sections), coverage = all `AGENTS/<NAME>/` dirs, ~10-line summary back to Prome. Read budget = the **v2** budget (first-30-lines proved insufficient — v2 adds inbox file counts + HEARTBEAT full + SCRATCH; see Open Questions below); open-loops inputs are `ACTIVE_DECISIONS`/`STATUS` (the old TOSCANINI QUEUE input is retired). For >1 agent, apply the mode-split rule first (`PROME/ORCHESTRATION_PLAYBOOK.md`).
+**Scans are not rebuilt:** `PROME/FLEET_SCAN.md` is a superseded snapshot (`PROME/SYSTEM.md`). The former how-to-run recipe is in git before 2026-11-07.
 
 ## Revival-proxy v3 brief spec
 
