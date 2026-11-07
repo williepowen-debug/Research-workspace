@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated November 7, 2026. Application-package review delivered; closeout for a fresh context. Orient and await Will.** Final Downloads files were text-checked; layout, truthful authorship/account of AI assistance, and Will/PROME's public Case 10 correction disposition remain. [Exact files, hashes, corrections and limits](runs/2026-10-17_1049_readme-application-review.md#november-7--economics-and-policy-application-package). WQ-607 remains approved/pending, not started here. [CHARTER](CHARTER.md) governs authority; [TASK_INDEX](TASK_INDEX.md) is on demand. Closeout starts no owner work.
+**Updated November 7, 2026. Final-folder application review delivered. Await Will.** All four files in `Anthropic_Fellows_Final_2026-11-07` read; corrected résumé and matching 391-word essay/paste confirmed. Case 10 correction and both public consumers now verified live, closing the publication gap. Remaining with Will: visual layout, truthful authorship history and personal Python capability against the role requirement; optional editorial refinements only. [Exact files, hashes, assessment and limits](runs/2026-10-17_1049_readme-application-review.md#november-7--final-folder-review). No application edits or submission. WQ-607 remains approved/pending, not started here. [CHARTER](CHARTER.md) governs authority; [TASK_INDEX](TASK_INDEX.md) is on demand.
 
 ## Resume point
 
