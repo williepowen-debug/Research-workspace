@@ -2,6 +2,14 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## November 7 application package
+
+[Continuing application record](runs/2026-10-17_1049_readme-application-review.md#november-7--economics-and-policy-application-package) supersedes October 19's accepted résumé labor interpretation. PROME's corrected Downloads files: `Why Anthropic FINAL.docx`, `William_Owen_Resume_Fellows_v2.docx`, `When_AI_Layoff_Labels_Change_Owen.docx`; CATO text-checked them, no rendered-layout guarantee. Will must resolve authorship against actual drafting history and Anthropic guidance; CATO's prior “ready to submit” was editorial, not a compliance finding. Case 10 + README/lessons correction recommended, not authorized/published by CATO; pending in last relayed PROME message. No submission, new document rewrite or automatic task. Exact hashes, source checks and closure owners are in the report.
+
+## November 7 commit review and owner follow-through
+
+[Review and later discussion](runs/2026-11-07_1033_sloane-commit-review.md): S1–S5 bank propagation/schema/order findings are pinned to the reviewed revision, not a fresh claim after owner repairs. PROME reports WQ-651/652/653 delivered and research follow-through; DAEDALUS reports CARL, standing scorecard and bounded disposition delivered, summons entry reconciled. CATO supplied prompts/advice, no owner edits/messages/launches. Reuse prior evidence and check changed conditions only if resumed. Deferred controls and retirement recommendations retain existing owners/authority; no broad audit or recurring trial.
+
 ## November 7 PROME self-direction
 
 [Continuing record](runs/2026-11-07_0946_prome-self-direction.md): discussion delivered, WQ-648 trial retired in favor of bounded implementation under Will's November 7 word. No CATO implementation or further audit assigned. Preserve corrections to the overstated initiative-failure diagnosis, distinguish source verification from desk-report reading, and judge ordinary work without another evaluation program. PROME's latest recorded WQ-649/650 and L37 dispositions are recovered there with their limits. Fresh context orients and awaits Will; separate WQ-607 approval survives.
