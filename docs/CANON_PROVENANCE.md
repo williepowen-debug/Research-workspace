@@ -69,10 +69,10 @@
   **Step 2 push receipt:** `safe-push.sh` prints `Pushed. CONFIRMED: HEAD … on origin/master` since 2026-08-28 (DAEDALUS); rc=2 CANNOT-CONFIRM added `e0ce45241`. "Pushed." can be true about SOMEONE ELSE's commits — `finding_push_train_hides_a_failed_commit`.
 - `key: git-step-3` · `root-anchor: If safe-push aborts (non-ff), do NOT force`
   **Step 3 non-ff:** re-based 2026-08-03 (CORAL packet + RED 7/31 precedent, Will-approved): verified same-box committers with ZERO path overlap — a non-ff is a property of the commit graph, not file paths, so separate directories cannot prevent it; only per-agent branches could. `--autostash` reconciles the fix with "never pull over others' uncommitted work" — RED verified byte-identical restoration. The old "recurs mid-session" tripwire fired on routine same-box pushes and produced a false escalation (CORAL 8/3) — retired. RAV 2026-08-29: the overlap check is prose and `--autostash` is not fully safe; a separate explicit recovery tool is designed at `PROME/proposals/2026-08-29_nonff-recovery-tool-DESIGN.md` (RAV review pending).
-- `key: git-before-committing` · `root-anchor: Never `git commit --amend``
+- `key: git-before-committing` · `root-anchor: § Before committing`
   **Before committing:** the pathspec pattern exists because of the shared-`.git/index` race — `finding_pathspec_commit_race_safety`, incident `8ac5bf71` Jun 4 2026. Step 0 (repo-root cwd): from an agent's launch dir `git commit AGENTS/<NAME>/<file>` fails loudly but `git status -- AGENTS/<NAME>/` silently shows nothing. Step 4b (never amend): Will-approved 2026-08-21, DAEDALUS proposal `548d06e87`; n=3 across 3 desks Aug 2026 — one amended a PUSHED commit; record + repair preconditions → `finding_backtick_command_substitution_in_commit_message`. Step 5 validated 2026-06-26: first use caught 53 foreign pre-staged files mid-race + a months-old display-copy desync; the `git mv`-vs-bash-`mv` residue class → `feedback_git_mv_for_inbox_processing`. Commit-message overclaims (d3915f75d 8/28, 6704cfc37 8/29) → `PROME/tools/commit_check.py` (RAV review 8/29).
 
-- `key: git-commit-subject-cap` · `root-anchor: Commit SUBJECT ≤100 characters`
+- `key: git-commit-subject-cap` · `root-anchor: § Before committing`
   **Why (WQ-171 ①, Will 2026-09-03 *"Approve WQ-171 ① and ② and WQ-172 with your recs"*, on a Codex workspace audit relayed the same evening):** measured on the last 1,817 commits at `c101dc953`: subject average 211 characters, 581 subjects over 200 and **1,573 (86.6%) over the new 100-char cap** — the subject line had become an operational ledger, so `git log --oneline` stopped being readable and a message could ride under the wrong tree (PROME error #82, 9/3, `PROME/SCRATCH.md` § MY ERRORS: a commit whose message file described a different change than its tree — the earlier ORCH_LOG note over the WQ-158 execution set). The body keeps every receipt; nothing about commit SIZE or path-scoping changes (Codex: "preserve small path-scoped commits where they prevent concurrent-agent collisions"). Record: `PROME/proposals/2026-09-03_codex-workspace-audit-RECORD.md`.
 
 ## Data Hygiene
@@ -92,6 +92,23 @@
 
 - `key: reference-cost-model` · `root-anchor: Status key`
   **Cost model line** ("Heavy research on Sonnet, synthesis on Opus. Typical sub-agent: $0.02-0.05. Long research: $0.10-0.20.") deleted 2026-08-29 (WQ-119, RAV F5) — stale, not a rule.
+
+## Moved from root 2026-11-07 (WQ-651, Will 10:28 ET; text verbatim)
+
+- `key: root-amendment-history-2026-11` · `root-anchor: Latest amendment`
+  **Latest amendment:** 2026-11-04, WQ-508/WQ-577 retained cleanup (`PROME/proposals/2026-11-04_wq508-retained-cleanup-RULED.md`). **Prior amendment:** 2026-10-31, WQ-578 G3/G4 (session-end steps 1c-bis and 1e simplified; `PROME/reports/2026-10-31_checker-value-sweep.md`). **Runtime amendment:** 2026-10-05, WQ-385; `PROME/proposals/2026-10-05_runtime-compatibility-RULED.md`.
+- `key: memory-carveout-why` · `root-anchor: Self-authored auto-memory files`
+  **Why mandatory:** `MEMORY.md` is a shared index that rides out on whoever commits next, while your memory FILE needs a deliberate `git add`; an index row pointing at an absent file is worse than no memory.
+- `key: plain-pull-why` · `root-anchor: never a plain `git pull``
+  (a plain pull's behaviour depends on the clone's `pull.rebase` setting — under `false` it MERGES around other agents' dirty files instead of refusing, under `true` it rebases only by a setting no rule guarantees — so the explicit `--rebase` is the one form on every clone)
+- `key: non-ff-why` · `root-anchor: A non-ff means another SESSION pushed`
+  usually a concurrent agent on the SAME box; it is a property of the commit graph, not of file paths, so separate directories cannot prevent it.
+- `key: auto-push-why` · `root-anchor: scripts/safe-push.sh`
+  sound because Will runs ONE machine at a time and closes out before switching.
+- `key: step-1e-glued-history` · `root-anchor: Claim check`
+  (the WQ-560 glued-date step was retired 2026-10-31, WQ-578)
+- `key: carve-out-4-rekey` · `root-anchor: ④ Gate C Kernel shadow paths`
+  Re-keyed 2026-11-07 under WQ-150 (ruled 2026-09-01), legs before: dated non-DRAFT filename · `authorized_by` Will · current time inside its concrete `window_start`/`window_end` (UTC) · `revoked_at` empty · the window names you. Reason: a desk cannot observe liveness at commit time; the custodian's doorbell closes the window desk-side (`KERNEL/GATE_C_C7_RUNBOOK.md` § Carve-out-④ successor scope).
 
 ## AGENTS.md (routing topology — same rules-vs-provenance split, WQ-123, 2026-08-29)
 

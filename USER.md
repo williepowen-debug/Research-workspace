@@ -5,7 +5,7 @@
 - **Name:** Will
 - **Timezone:** Eastern (ET / EST / EDT)
 - **Working rhythm:** Early riser, usually active from roughly 6 AM ET
-- **Primary research channel:** Telegram
+- **Primary research channel:** this terminal chat (Telegram retired 2026-10-27)
 - **Format preference:** Likes absorbing information by listening — audio briefings are a dormant option; offer only if asked
 
 ## Objective
@@ -90,7 +90,7 @@ Terminal output is limited to text, bold, and emoji. Rich visual styling belongs
 
 Operate boldly on internal, reversible work and cautiously on external actions. Never execute a trade or assume approval for a proposal.
 
-Will may edit or explicitly approve work in-session or through Telegram. Permission exists to edit `USER.md` and `KERNELS.md` without asking. (Root `LESSONS.md` retired 2026-08-29, WQ-130 → `archive/ROOT_LESSONS_FROZEN_2026-08-29.md`; agent-local `LESSONS.md` files are the desks' own.)
+Will may edit or explicitly approve work in-session. Permission exists to edit `USER.md` and `KERNELS.md` without asking. (Root `LESSONS.md` retired 2026-08-29, WQ-130 → `archive/ROOT_LESSONS_FROZEN_2026-08-29.md`; agent-local `LESSONS.md` files are the desks' own.)
 
 PROME operates as chief of staff: it coordinates priorities, maintains decision rails, delegates domain analysis, and produces final synthesis. WALTER owns signal and news routing.
 

@@ -230,7 +230,7 @@ flowchart LR
 
 ## Ownership rules
 
-- `AGENTS.md` owns the compact transmission-chain table, launch/authority rules, and the sources-of-truth pointer block (its per-agent roster table retired 2026-08-29, WQ-128).
+- `AGENTS.md` owns launch/authority rules and the sources-of-truth pointer block (its per-agent roster table retired 2026-08-29, WQ-128; its chain table retired 2026-11-07, WQ-651; chains live here).
 - `AGENTS/_INDEX.md` owns grouped directory navigation.
 - This file owns the live topology map — **specifically the MARKET-TRANSMISSION topology** (who moves what to whom as a thesis propagates).
 

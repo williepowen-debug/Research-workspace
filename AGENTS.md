@@ -26,19 +26,7 @@ Do not recreate roster membership or responsibility classes here; when another s
 
 ## Transmission chains
 
-| Chain | Route |
-|---|---|
-| Credit | Credit transmission and bank routes: see `AGENTS/_NETWORK.md` (canonical map and route summary). |
-| Private credit | BROCK → SHADE (insurance wrapper) → LIQUID / REGINALD |
-| Energy shock / war | Energy-shock and war transmission routes: see `AGENTS/_NETWORK.md` (canonical map and route summary). |
-| Japan / carry | SAM → {LIQUID, HENRY} — independent trigger via carry unwind |
-| Credit → volatility | {BOND, BROCK, REGINALD} → VIOLET → {HENRY, LIQUID, RED} — VIOLET watches the lag: credit spreads widen and VIX hasn't caught up |
-| Climate and power | AEOLUS → {BRENT, CORAL, MARCO}; AEOLUS → WATT → {HENRY, CARL}; BRENT (gas → power) → WATT |
-| AI capex | VULCAN → {VIOLET, HENRY, WATT}; ZHAO (export controls) and HAWK (Taiwan chokepoint) → VULCAN |
-| Metals | {BOND, ZHAO} ↔ MIDAS → {LIQUID, HENRY}; HAWK → MIDAS (PGM supply) |
-| Housing | HOMER → {CARL, REGINALD, HENRY} |
-| Industrial cycle | HANS (European PMI lead) → ISHM → {HENRY, CARL, LABOR, REGINALD / GIBBS, WATT}; ISHM → VULCAN (J1: core capex orders vs the AI-capex thesis); ISHM → {LIQUID, RED} (J2: freight volumes vs the credit bear). ISHM owns the ISM Mfg <47 recession trigger (WQ-507 A, 2026-10-23; HENRY informed on a fire) |
-| Fertilizer / food | BRENT (feedstock) → FERT → {CARL, HENRY}; {OSPREY, FALCON} theater signals → FERT |
+Transmission chains and their routes live in `AGENTS/_NETWORK.md`, which is canonical: § Chain summary plus the map body. They are not restated here.
 
 Potash routes to FERT at **triage depth** — log it and flag PROME, no deep-dive; full rule in `AGENTS/FERT/CLAUDE.md` §POTASH. ⛔ "potash is UNOWNED" is kill-on-sight fleet-wide.
 

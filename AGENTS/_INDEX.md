@@ -90,4 +90,4 @@ When adding a new agent:
 1. Create the canonical folder as `AGENTS/<NAME>/`.
 2. Add it to this roster.
 3. Add it to exactly one primary group file, plus cross-links if it bridges domains.
-4. Update `PROME/ROSTER.md` (verified classification) if it is an operational agent, not just an experimental/workbook folder; add it to the `AGENTS.md` chain table and `_NETWORK.md` only if it joins a named transmission chain.
+4. Update `PROME/ROSTER.md` (verified classification) if it is an operational agent, not just an experimental/workbook folder; add it to `_NETWORK.md` only if it joins a named transmission chain.
