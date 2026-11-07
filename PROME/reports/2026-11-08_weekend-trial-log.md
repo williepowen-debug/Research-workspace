@@ -17,6 +17,9 @@
 | Sat 11/7 09:07 | REGINALD Call Report run, L180, approved separately, not one of the four reads | Same | Same |
 | Sun 11/8 15:03 | FALCON read 2, ORACLE read 2 | Same | Same |
 | Sun 11/8 16:37 | PROME Sunday account and capability check | Same | Same |
+| Sat 11/7 10:03 | WQ-648 trial check: read what arrived, Iran interim assessment and handoffs, then only what is justified | Same | Same |
+| Sat 11/7 14:03 | WQ-648 latest stop, account to Will | Same | Same |
+| Sun 11/8 18:17 | Offer to restore laptop sleep settings, restore only on Will's word | Same | Same |
 
 ## Known before the trial
 - Original plan needed the desktop on; Will closed it; desk timers and PROME's backup checks were lost. PROME found out by asking Will and from WALTER's message, 19:41 ET.
@@ -32,3 +35,5 @@ Reminders are gone. Re-create them from the Scheduled table, run any read alread
 
 ## WQ-648 open-session trial, Saturday 11/7, separate from the four reads
 Ruling: PROME/proposals/2026-11-06_wq648-RULED.md. Maximum window 10:00 to 14:00 ET. Before state, 21:45 ET Friday: three candidate actions, Iran interim assessment, REGINALD ranking consequence, SoftBank check; none begun. Record below as it happens: priority changes, completion evidence, unnecessary work, mistakes, intervention from Will, resource use.
+
+- 2026-11-06 21:4x ET: Will asked to checkpoint and reboot the session; all session reminders lost by design, re-created by the resumed PROME. Logged as the first manual intervention of the trials, before either began.
