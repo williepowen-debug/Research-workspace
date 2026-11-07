@@ -4,7 +4,7 @@
 
 **Intra-session note 2026-11-06 19:5x ET (from `date`):** laptop `WilliePOwen`, window oracle-e5, Kalshi UNSIGNED public read (`status` rc=3). HOLD for WQ-646 A; not a closeout. Boot done; KB-ORC-130 written; the section below is the 17:4x ET handoff.
 
-**Intra-session note 2026-11-07 08:49 ET (from `date`):** WQ-646 A read 1 of 2 done, on prome-bf's 08:43 ET message. All effective ceasefire legs from 11/08 out RESOLVED NO; alert 00, KB-ORC-131. Sunday read still owed on PROME's message, about 15:03 ET, no timer. Full rewrite still owed at closeout.
+**Intra-session note 2026-11-07 08:49 ET (from `date`):** WQ-646 A read 1 of 2 done, on prome-bf's 08:43 ET message. All effective ceasefire legs from 11/08 out RESOLVED NO; alert 00, KB-ORC-131. Sunday read scope confirmed by prome-bf 08:49 ET: WTI $110, Brent rungs, invade, war, Hormuz, open 11/05 and 11/06 legs; add any forward US strike or ceasefire market listed by then and say so. Trigger is PROME's message, about 15:03 ET, no timer. Closeout only when PROME asks, after Sunday. Full rewrite still owed at closeout.
 
 ## CHANGES SINCE 15:4x ET
 
