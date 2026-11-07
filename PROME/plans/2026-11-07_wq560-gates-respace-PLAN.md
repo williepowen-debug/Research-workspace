@@ -36,3 +36,9 @@
 | 19 | 21 | GATE-HOMER-THESIS-KILL | state | `,cutters43%]; formal11/20 unchang` | `formal11/20` | `formal 11/20` |
 | 20 | 21 | GATE-HOMER-THESIS-KILL | last_checked | `d L725 report consumed10/19. New A3` | `consumed10/19` | `consumed 10/19` |
 | 21 | 21 | GATE-HOMER-THESIS-KILL | last_checked | `ad221bp[10/15/Wed10/14 convent` | `Wed10/14` | `Wed 10/14` |
+
+## Result and declared residue, 2026-11-07 10:0x ET
+
+Plan read: Sonnet coldreader, 0 ❌, 6 ⚠️, verdict safe to apply. Applied by script; the script proved 21 single-space insertions and nothing else, with tab counts unchanged on every row. Result read: Sonnet coldreader, 0 ❌, 2 ⚠️, byte-level diff confirmed exactly 21 single-space inserts, no counterexample found; both ⚠️ are recording items, closed by this note and the gate refresh.
+
+Declared residue, not fixed: (1) `claim_check --check glued` flags only 17 of the 21, since four tokens are counts such as `FIRED0/2`; all 21 were spaced. (2) Invariant 5 named no command; the check used is the gate refresh. (3) Edits 12 to 16 sit in a RETIRED row's prior-chain text, harmless. (4) Other glued forms stay out of scope. (5) No crc for GATES is recorded elsewhere, so none is re-recorded.
