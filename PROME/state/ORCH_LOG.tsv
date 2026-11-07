@@ -2323,3 +2323,4 @@ date	desk	tier	touch	trigger	drained	delivered	zero_capital	notes	brief_defects	
 2026-11-06	BROCK	subagent	1	WQ-644 record, Will 20:38 ET		OK, commit on origin	OK	PROME prome-bf; in-session desk helper, finished and returned 20:40 ET, no window				
 2026-11-07	FALCON	TOUCH	1	WQ-646 A Saturday read 1, reminder 08:43 ET, by SendMessage		IN-FLIGHT	OK	PROME prome-bf laptop; live desk by ListAgents 08:43 ET, idle, carried from the 11/6 19:47 ET launch; no new session				
 2026-11-07	ORACLE	TOUCH	1	WQ-646 A Saturday read 1, reminder 08:43 ET, by SendMessage		IN-FLIGHT	OK	PROME prome-bf laptop; live desk by ListAgents 08:43 ET, idle, carried from the 11/6 19:47 ET launch; no new session				
+2026-11-07	REGINALD	TOUCH	1	L180 Saturday Call Report run, WQ-646 A window, reminder 09:07 ET, by SendMessage		IN-FLIGHT	OK	PROME prome-bf laptop; live desk by ListAgents 09:07 ET, idle, carried from the 11/6 19:47 ET launch; no new session				
