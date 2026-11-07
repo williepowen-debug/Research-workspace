@@ -1,14 +1,14 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-07T01:00:12Z, Claude Code Opus 5.5, session walter-e1 on the laptop WilliePOwen. Light closeout after night boot; coverage PARTIAL. Window stays open for WQ-646 routing through Sunday; on PROME's word WALTER starts no desk and sets no timer.
+Updated 2026-11-07T13:53:08Z, Claude Code Opus 5.5, session walter-e1 on the laptop WilliePOwen. Light closeout after cards 001 to 003; coverage PARTIAL. Window stays open for WQ-646 routing through Sunday; on PROME's word WALTER starts no desk and sets no timer.
 
 ## RESUME — do these first
 
 1. `git pull --rebase` at root, then ordinary boot.
 1a. **Weekend reads moved (PROME 4b9fac2f2e):** Will 19:44 ET desktop closed, every desktop timer gone; 19:46 ET persistent laptop sessions. falcon-de, oracle-e5, reginald-49 live. PROME reminders Saturday 08:43 and 09:07 ET, Sunday 15:03 ET die if its window closes or the laptop sleeps. LIQUID's Oracle DTCC read deferred to Monday on Will's yes, replacing item 3's timing.
-1b. **Card 054:** CENTCOM announcement on Iran due Saturday 08:30 ET per one unnamed official to Al Jazeera. Route what it says when published.
+1b. **Card 054 closed by card 001:** the Saturday CENTCOM item is Task Force Iron Gate, not a strike; the link to the 8:30am line is time and subject only. ORACLE read 1 and FALCON read 1 are routed. Owed under WQ-646: Sunday reads about 15:03 ET on PROME's message.
 2. **Finish the November 6 certification.** Close pass ran at 22:10Z, cards 043–046. Still owed: Cboe VIX and SKEW History and Nasdaq WAL and KRE November 6 rows, unposted at 23:33Z; read them at next boot. Apple 20% recheck done, card 046, still unfound.
-2a. **Qeshm, card 047:** two projectiles reported November 6 about 21:55Z, attacker unnamed, not established as a US strike. CENTCOM, UKMTO and Reuters directly not reached. Re-search at next boot; FALCON grades.
+2a. **Qeshm, cards 047 and 002:** Trump said "We do minor strikes" Friday evening without naming Qeshm or Friday. No CENTCOM statement found; centcom.mil, UKMTO and Reuters directly unreached; FALCON grades. Unknowns: spoken time of the remark, resolver evidence, which strike qualified (ORACLE).
 2b. **WQ-646 A (Will 17:44 ET, PROME/proposals/2026-11-06_wq646-647-RULED.md):** FALCON and ORACLE each do two reads, Saturday November 7 and Sunday November 8, triggered by PROME's message (about 08:43 ET and 15:03 ET per item 1a); WALTER routes anything that breaks when they send it, with no WALTER timer or standing watch. Those four reads only; not a standing unattended grant. WQ-388 is RULED DECLINE, October 15, 2026: WALTER may not self-schedule an unattended sweep and sessions start only when Will or PROME launches them (PROME/archive/WILL_QUEUE_ROWS_2026-10-28_rolloff.md; corrected on Will's order via PROME, November 6 about 21:00 ET; no authority changed). No score moves without a registered letter.
 3. **Oracle DTCC November 6 file, about 20:15 ET.** Through about 15:50 ET best converted 314, about 318 disseminated basis (LIQUID). It tests November 6 only: 3.25% as a level is already supported on October 20, 342.5 disseminated, and that is the high of LIQUID's window, card 042. LIQUID owns the read; WALTER routes. Not routed by this pass, on PROME's instruction; nothing is scheduled to route it.
 4. **November 9 HY cell, about 10:10 ET.** Prints the November 6 value. HY 348 [Nov 5]; REG-T-04 strict >350 x3 is 0/3, 2 bp away. A value above 350 starts the count. RED's grade on card 012 not verified; TERRY records its HYG line FIRED, unfilled, no order by the desk.
@@ -27,7 +27,7 @@ November 5 total: 67 BOARD cards, 261 handoffs. November 6 total to close: 53 ca
 
 ## CHANGED
 
-Night boot: cards 054, 055 and 056, Encelia guard line, ORACLE packet consumed, one kill-log row, anchor note and verbatim rotation, boot-basis hashes re-attested, REGISTRY 10 rows. November 6 close pass: cards 043–053, COR-20261106-51, -52 and -53, CARL, OTTO, LIQUID, BROCK and ORACLE packets consumed, COR-20261106-48, §3.6 banner on 043, FALCON packet consumed; batches BM-20261106-04 (5 of 5) and -05 (15 of 15) closed; intake and bookmarks marked; Iran anchor bounded note, sweep clock unchanged; doorbells to FALCON and CARL. Earlier November 6 and older: moved verbatim to research/2026-11-06_closeout/LC-GAPS-ROTATED.md.
+November 7 morning: cards 001 to 003, COR-20261107-02, five banners on cards 047, 053, 054, 055, 056, ORACLE packet consumed at commit 9b03984679, batch BM-20261107-01 closed 12/12, anchor note, no sweep reset. Calendar step 7i not run; bookmarks still blocked on Will's sign-in. Night boot: cards 054, 055 and 056, Encelia guard line, ORACLE packet consumed, one kill-log row, anchor note and verbatim rotation, boot-basis hashes re-attested, REGISTRY 10 rows. November 6 close pass: cards 043–053, COR-20261106-51, -52 and -53, CARL, OTTO, LIQUID, BROCK and ORACLE packets consumed, COR-20261106-48, §3.6 banner on 043, FALCON packet consumed; batches BM-20261106-04 (5 of 5) and -05 (15 of 15) closed; intake and bookmarks marked; Iran anchor bounded note, sweep clock unchanged; doorbells to FALCON and CARL. Earlier November 6 and older: moved verbatim to research/2026-11-06_closeout/LC-GAPS-ROTATED.md.
 
 ## RESULT
 
@@ -106,9 +106,19 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-07T01:00:12Z",
+  "as_of": "2026-11-07T13:53:08Z",
   "next_review": "2026-11-09",
   "publication": [
+    {
+      "commit": "203c1f65c0cd4da359e12e0da74d4d46159f0fa2",
+      "state": "published",
+      "note": "Card 003."
+    },
+    {
+      "commit": "9da5207d033fb64553e41b3ae93bce2af1b57c37",
+      "state": "published",
+      "note": "Cards 001-002, COR-20261107-02."
+    },
     {
       "commit": "22546a36fc3bb0b62a5c698bafd297c54f9ea00e",
       "state": "published",
@@ -156,10 +166,10 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
     }
   ],
   "delivery": {
-    "signal_date": "20261106",
-    "total": 241,
-    "delivered": 241,
-    "note": "Delivery proof by origin only; recipient use separate."
+    "signal_date": "20261107",
+    "total": 22,
+    "delivered": 22,
+    "note": "Delivery proof by origin only; recipient use separate. November 6 cohort 241/241."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -180,13 +190,13 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
     "session": "Window open for WQ-646 routing; no helper or timer running."
   },
   "manual_duties": {
-    "11": "Cards 054 and 055 IMMEDIATE, 056 PRIORITY, no FLASH. No batch opened.",
-    "13": "REGISTRY 10 rows before NETWORK.",
-    "12": "Counts, NETWORK, bottom line, observation row, session log breadcrumb.",
-    "14": "Session note only.",
-    "15": "Resume list, cutoff, gaps.",
+    "11": "Cards 001 and 002 IMMEDIATE, 003 PRIORITY, no FLASH. Batch BM-20261107-01 closed 12/12.",
+    "13": "REGISTRY unchanged this pass; FALCON and ORACLE rows carried from night boot.",
+    "12": "Counts, bottom line, session log breadcrumb. NETWORK unchanged.",
+    "14": "No MEMORY change.",
+    "15": "Resume items 1b and 2a, CHANGED; cutoff unchanged, step 7i not run.",
     "16": "Exact paths, safe-push.",
-    "checks": "research/2026-11-06_night-boot/closeout/checks.json. Doctor MED carried: 2 unconsumed items, DEWEY 003R parked. Ledger nudge reviewed: kill_log unchanged by card 055, nothing substantive."
+    "checks": "research/2026-11-07_morning/closeout/checks.json. Doctor MED carried: 2 unconsumed items, DEWEY 003R parked."
   }
 }
 END_CLOSEOUT_RECEIPT -->

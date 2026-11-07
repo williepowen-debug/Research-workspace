@@ -1,7 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-11-07T01:00:12Z — card 056 after light closeout, session walter-e1 on the laptop (WilliePOwen), window stays open for WQ-646 routing through Sunday. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-07T13:53:08Z — cards 001 to 003 after light closeout, session walter-e1 on the laptop (WilliePOwen), window stays open for WQ-646 routing through Sunday. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
+
+November 7 morning: 3 cards, 1 correction, 2 IMMEDIATE, no FLASH. Card 001: CENTCOM's Saturday item is Task Force Iron Gate, a Tampa staff against Iranian land and Caspian routes, not a strike. Card 002 corrects 047, 053, 054, 055, 056: Polymarket legs resolved NO; Trump said "minor strikes" without naming Qeshm or Friday; WTI tail did not follow, thin Kalshi Brent rungs rose, futures shut until Sunday evening. Card 003: UKMTO week to November 4, tanker mine claim, IRGC range statement, AP bridge plan. FALCON owns the Qeshm grade. No score moved.
 
 Night boot: card 054 IMMEDIATE. CENTCOM official to Al Jazeera, Qeshm "relatively calm", and an announcement on Iran Saturday 08:30 ET, content undisclosed, one outlet; Iran claims a US MQ-9 down, unverified; attacker still unnamed. Card 055: Polymarket ceasefire legs spiked again and snapped back, no new strike report found, cause not established; NBC 18:16 ET says advisers urge action within eight weeks. Card 056: NBC via relay says Iran's oil and gas infrastructure is among targets discussed, no decision; FALCON found no new strike through about 00:57Z, relays only. Desktop closed, Will 19:44 ET; falcon-de, oracle-e5 and reginald-49 live on the laptop, reads now run on PROME's messages after 08:30 ET. November 6 close, Cboe VIX and SKEW and Nasdaq rows still unposted at 00:36Z.
 
