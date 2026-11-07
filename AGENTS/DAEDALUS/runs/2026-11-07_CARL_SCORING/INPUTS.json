@@ -1,0 +1,41 @@
+{
+  "pin": "a5790484a131cbec452b73ece2182d5759e9690e",
+  "scope": "CARL binary scored cohort and CRL15/23 mark review; no broad source regrade",
+  "inputs": [
+    {
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "sha256": "c58bee834d20c142e1873862106e284eaa69bbf4ddcde6d6729ca3b01f53fabe",
+      "equals_pin": true
+    },
+    {
+      "path": "FORGE/PREDICTION_DISCIPLINE.md",
+      "sha256": "e4748d4a95457c56b564f1effd12cdd0b034354b0bca4498d0da494da63c91ab",
+      "equals_pin": true
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/POP/state_vectors/SV-POP-2026-10-28-01.md",
+      "sha256": "786da339d45415205958243de572d61ad931c3fcf57eb49c3fcc74a30c7869c8",
+      "equals_pin": true
+    },
+    {
+      "path": "AGENTS/CARL/sub_agents/POP/state_vectors/SV-POP-2026-10-28-02.md",
+      "sha256": "38fb632c644f835ed806f444885b933f1ab0ad41ed8f254c09e09f08af3d6f17",
+      "equals_pin": true
+    },
+    {
+      "path": "AGENTS/HOMER/workbook/BUILDER.tsv",
+      "sha256": "a863e9b15c5fb4b0a4cdfdd5032eda020117ec40caef1608c64040708219b0cf",
+      "equals_pin": true
+    },
+    {
+      "path": "AGENTS/HOMER/reports/2026-11-05_evidence/dhi_fq4_call_excerpts.txt",
+      "sha256": "c844ba82a0673c2c47c9ffe76bbc6beed3c7c7e41d43fda829918df48221b1e1",
+      "equals_pin": true
+    },
+    {
+      "path": "AGENTS/DAEDALUS/runs/2026-09-24_CARL_BRIER_RESCORE_AND_CRL08_RULING.md",
+      "sha256": "307595910d83e3cfd13577c5b8d78e7e9303750c5628430db747bf66190421eb",
+      "equals_pin": true
+    }
+  ]
+}

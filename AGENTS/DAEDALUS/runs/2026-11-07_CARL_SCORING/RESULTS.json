@@ -1,0 +1,340 @@
+{
+  "pin": "a5790484a131cbec452b73ece2182d5759e9690e",
+  "summary": {
+    "n": 11,
+    "hits": 2,
+    "misses": 9,
+    "original_sum": "5.2744",
+    "original_mean": "0.4794909090909090909090909091",
+    "eligible_sum": "4.6303",
+    "eligible_mean": "0.4209363636363636363636363636",
+    "before_CRL21_60_restore_same_cohort": "0.3938909090909090909090909091",
+    "constant_50_percent_brier": "0.25",
+    "limitations": "Existing outcome grades retained, not independently source-regraded. Original series includes earliest-known CRL11 (not proved Date_Made) and changed-question lineages CRL07/08. OPEN CRL15/23 excluded. MIXED is not assigned 0.5."
+  },
+  "scored": [
+    {
+      "id": "CRL-01",
+      "line": 4,
+      "outcome": 0,
+      "original_probability": "0.75",
+      "eligible_scoring_probability": "0.75",
+      "original_loss": "0.5625",
+      "eligible_loss": "0.5625"
+    },
+    {
+      "id": "CRL-03",
+      "line": 6,
+      "outcome": 0,
+      "original_probability": "0.9",
+      "eligible_scoring_probability": "0.9",
+      "original_loss": "0.81",
+      "eligible_loss": "0.81"
+    },
+    {
+      "id": "CRL-04",
+      "line": 7,
+      "outcome": 1,
+      "original_probability": "0.88",
+      "eligible_scoring_probability": "0.88",
+      "original_loss": "0.0144",
+      "eligible_loss": "0.0144"
+    },
+    {
+      "id": "CRL-07",
+      "line": 10,
+      "outcome": 0,
+      "original_probability": "0.8",
+      "eligible_scoring_probability": "0.8",
+      "original_loss": "0.64",
+      "eligible_loss": "0.64"
+    },
+    {
+      "id": "CRL-08",
+      "line": 11,
+      "outcome": 0,
+      "original_probability": "0.85",
+      "eligible_scoring_probability": "0.28",
+      "original_loss": "0.7225",
+      "eligible_loss": "0.0784"
+    },
+    {
+      "id": "CRL-09",
+      "line": 12,
+      "outcome": 0,
+      "original_probability": "0.75",
+      "eligible_scoring_probability": "0.75",
+      "original_loss": "0.5625",
+      "eligible_loss": "0.5625"
+    },
+    {
+      "id": "CRL-11",
+      "line": 14,
+      "outcome": 0,
+      "original_probability": "0.85",
+      "eligible_scoring_probability": "0.85",
+      "original_loss": "0.7225",
+      "eligible_loss": "0.7225"
+    },
+    {
+      "id": "CRL-16",
+      "line": 19,
+      "outcome": 0,
+      "original_probability": "0.6",
+      "eligible_scoring_probability": "0.6",
+      "original_loss": "0.36",
+      "eligible_loss": "0.36"
+    },
+    {
+      "id": "CRL-18",
+      "line": 21,
+      "outcome": 1,
+      "original_probability": "0.6",
+      "eligible_scoring_probability": "0.6",
+      "original_loss": "0.16",
+      "eligible_loss": "0.16"
+    },
+    {
+      "id": "CRL-21",
+      "line": 24,
+      "outcome": 0,
+      "original_probability": "0.6",
+      "eligible_scoring_probability": "0.6",
+      "original_loss": "0.36",
+      "eligible_loss": "0.36"
+    },
+    {
+      "id": "CRL-24",
+      "line": 27,
+      "outcome": 0,
+      "original_probability": "0.6",
+      "eligible_scoring_probability": "0.6",
+      "original_loss": "0.36",
+      "eligible_loss": "0.36"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "CRL-02",
+      "status": "NO-VERDICT"
+    },
+    {
+      "id": "CRL-05",
+      "status": "NO-VERDICT"
+    },
+    {
+      "id": "CRL-06",
+      "status": "RETIRED"
+    },
+    {
+      "id": "CRL-10",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-12",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-13",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-14",
+      "status": "RETIRED"
+    },
+    {
+      "id": "CRL-15",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-17",
+      "status": "NO-VERDICT"
+    },
+    {
+      "id": "CRL-19",
+      "status": "MIXED"
+    },
+    {
+      "id": "CRL-20",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-22",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-23",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-25",
+      "status": "RETIRED"
+    },
+    {
+      "id": "CRL-26",
+      "status": "NO-VERDICT"
+    },
+    {
+      "id": "CRL-27",
+      "status": "RETIRED"
+    },
+    {
+      "id": "CRL-28",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-29",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-30",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-31",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-32",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-33",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-34",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-35",
+      "status": "OPEN"
+    },
+    {
+      "id": "CRL-36",
+      "status": "OPEN"
+    }
+  ],
+  "historical_evidence": {
+    "CRL-01": {
+      "commit": "91c301279f356c1fe64013258c649bfa8a3d7617",
+      "commit_time": "2026-03-04T03:29:53+00:00",
+      "path": "AGENTS/CARL/workbook/PREDICTIONS.tsv",
+      "blob_sha256": "ce97ff98d53026a7464cea556e9d31d5ea44c82ff7e168335bdb22a669acc246",
+      "line": 2,
+      "text": "CRL-01\t2026-03-03\tGas pump peak stress Mar 14-21 with Brent $84\t75%\tMar 14-21 2026\tOPEN\t\tOil spike accelerates timeline"
+    },
+    "CRL-03": {
+      "commit": "4e8c98359b236c43ac0019ea441e656f0ba15dca",
+      "commit_time": "2026-03-09T01:36:32+00:00",
+      "path": "AGENTS/CARL/STATUS.md",
+      "blob_sha256": "b6b79814f17585aa79a8b77ab281d9a534793aa4571a0de35b0923dcbe054e6e",
+      "line": 142,
+      "text": "| CRL-05 | Fannie MF DQ >0.80% | 0.74% | 6bps | Q2 2026 | 90% | \u26a0\ufe0f IMMINENT |"
+    },
+    "CRL-04": {
+      "commit": "4e8c98359b236c43ac0019ea441e656f0ba15dca",
+      "commit_time": "2026-03-09T01:36:32+00:00",
+      "path": "AGENTS/CARL/STATUS.md",
+      "blob_sha256": "b6b79814f17585aa79a8b77ab281d9a534793aa4571a0de35b0923dcbe054e6e",
+      "line": 143,
+      "text": "| CRL-06 | Student 90+ >10% | 9.6% | 0.4pp | Q1 2026 | 88% | \u26a0\ufe0f IMMINENT |"
+    },
+    "CRL-07": {
+      "commit": "9e30a573c19c04aef7153d5cba566a4b4e0f28d2",
+      "commit_time": "2026-03-09T02:28:21+00:00",
+      "path": "AGENTS/CARL/workbook/PREDICTIONS.tsv",
+      "blob_sha256": "c5d38285f0bd85ad976f8b3ef964c50cdcf1768aef7928cba4131c8a74e4e04e",
+      "line": 8,
+      "text": "CRL-07\t2026-03-10\tFL UI exhaustion wave triggers DQ spike\t80%\tMay-Jun 2026\tOPEN\t\t\tFL extends UI benefits beyond 12 weeks OR federal program reinstated\tFirst wave Mar 24. FL max 12 weeks = exhaustion hits right as gas squeeze peaks."
+    },
+    "CRL-08": {
+      "commit": "9e30a573c19c04aef7153d5cba566a4b4e0f28d2",
+      "commit_time": "2026-03-09T02:28:21+00:00",
+      "path": "AGENTS/CARL/workbook/PREDICTIONS.tsv",
+      "blob_sha256": "c5d38285f0bd85ad976f8b3ef964c50cdcf1768aef7928cba4131c8a74e4e04e",
+      "line": 9,
+      "text": "CRL-08\t2026-03-10\tGas pump prices hit $4.50+ national avg\t85%\tMar 20-Apr 5 2026\tOPEN\t\t\tBrent drops below $80 before Mar 20\tBrent $90 + 2-3 week refinery lag. ULSD parabolic. Bottom 60% squeezed hardest."
+    },
+    "CRL-09": {
+      "commit": "9220f89178245128872320cd12bb14f59f9cdb2d",
+      "commit_time": "2026-03-31T20:06:54-04:00",
+      "path": "AGENTS/CARL/STATUS.md",
+      "blob_sha256": "90b82e06c147388384a986c80ab39573c41a58e56bdd7b5e70dd7bc76e465fc5",
+      "line": 128,
+      "text": "| CRL-09 | JOLTS Mar ratio <0.88 (from 0.91 Feb) | NEW \u2014 75% conf, May release |"
+    },
+    "CRL-11": {
+      "commit": "3427660fcac19fbf1339b9bb02fe25a84e1031f5",
+      "commit_time": "2026-06-05T20:16:54-04:00",
+      "path": "AGENTS/CARL/STATUS.md",
+      "blob_sha256": "7b3ef06240fc5e5d864723aa78c3e0f765a4b699211b893d11bc7d587b273a0c",
+      "line": 240,
+      "text": "| CRL-11 | Hires rate \u22643.2% through Q2 | 85% | Jul/Aug releases | Currently 3.1% COVID-low |"
+    },
+    "CRL-16": {
+      "commit": "bf073316af5e5afc597422a40d56f96f987350af",
+      "commit_time": "2026-04-10T12:50:09-04:00",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "blob_sha256": "3f98a1eddafd346ff2ccf9359ef1e3b76c2c47e028e42d32954d6e11430a25e4",
+      "line": 17,
+      "text": "CRL-16\t2026-04-09\tRegional bank Q2 2026 earnings show SB-related provision increases >25% YoY\t60%\tJul-Aug 2026 (Q2 earnings)\tOPEN\t\t\tQ2 earnings show SB provision declines AND classified loan migration reverses\tDefault timeline model: tariff cash flow pressure from Q4 2025-Q1 2026 \u2192 30DPD at 3-5mo \u2192 classified loan migration Q2 \u2192 provision build Q2 earnings. Key banks: Huntington (top SBA lender), OZK (CRE/SB tenant nexus), Zions (transparent SB metrics). KRE P/B 1.1x not pricing this. See KB-CARL-172, KB-CARL-173."
+    },
+    "CRL-18": {
+      "commit": "41a3ba284e5a95e4559033eb801ff7a4a1332680",
+      "commit_time": "2026-05-01T21:45:03-04:00",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "blob_sha256": "ef05be487f196c3021537c29a527ec79b5c67b04ca699dad6b92cb3260fd7160",
+      "line": 19,
+      "text": "CRL-18\t2026-05-01\tQ1 2026 GDP second estimate (May 28 BEA) revises advance 2.0% downward by 0.2-0.4pp into 1.6-1.8% range\t60%\tMay 28 2026 (BEA second estimate release)\tOPEN\t\t\tSecond estimate prints flat or above 2.0% (no downward revision), OR revises down by more than 0.5pp (overshoot)\t**Pattern basis:** Q4 2025 cumulative downward revision was -0.9pp (1.4 \u2192 0.7 \u2192 0.5 across 1st/3rd/annual estimates). Pattern: aggregate data systematically over-states near-term resilience and revises down as more granular source data is incorporated. Q1 advance (2.0%) was driven by inventory build + IPP/equipment + healthcare-led services PCE; second-estimate refinements typically tighten inventory contribution and refine PCE. -0.2 to -0.4pp = central revision range; smaller (-0.1pp) or larger (-0.5pp+) = pattern broken. Result feeds Vector #12 (Stagflation Trap) calibration: bigger revision \u2192 growth read weakens further while inflation NIPA holds = stagflation deeper. KB-CARL-254, KB-CARL-256."
+    },
+    "CRL-21": {
+      "commit": "41a3ba284e5a95e4559033eb801ff7a4a1332680",
+      "commit_time": "2026-05-01T21:45:03-04:00",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "blob_sha256": "ef05be487f196c3021537c29a527ec79b5c67b04ca699dad6b92cb3260fd7160",
+      "line": 22,
+      "text": "CRL-21\t2026-05-01\tBy Q3 2026, NCOs at ALLY/COF/SYF have begun visible inflection AND vintage-loss projections for FY2025/FY2026 vintages \u2265+50bps above FY2023 vintage at comparable seasoning\t60%\tQ3 2026 (Jul-Sep)\tOPEN\t\t\tBy Q3 2026 NCOs have NOT begun visible inflection (NCO QoQ <+30bps at ALLY) AND vintage projections track FY2023 baseline within \u00b125bps \u2192 confidence -25-30pp + position-action: trim short positions 25% + extend duration to Q2 2027+\t**v2.5 INTERMEDIATE falsification \u2014 addresses 12-24mo unfalsifiability tail risk.** Without this, 12-24mo of clean prints could absorb every counter-data without consequence. Q3 2026 = first checkpoint for masking framework prediction (P&L visibility lag begins surfacing). Specific thresholds: ALLY consumer auto NCO \u2265+30bps QoQ for 2 consecutive quarters OR vintage-loss projections (mgmt commentary, ABS prepay/loss curves, deal-level CNL trajectories) materially diverge above FY2023 vintage trajectory. **POSITION ACTION COMMITMENT, not just confidence update** \u2014 if Q3 fails, automatic trim 25% + duration extend. KB-CARL-225, KB-CARL-263."
+    },
+    "CRL-24": {
+      "commit": "6e748c97e163d1bb8a1ac8396ef1f60dc0df4fa0",
+      "commit_time": "2026-06-26T15:24:17-04:00",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "blob_sha256": "d44638fc7364cb97d26e6c589080fc2834afef9bc0f4fccbece83f6c1fcd2fc6",
+      "line": 25,
+      "text": "CRL-24\t2026-06-25\tAxis A (unsecured/monoline) crystallizes H2-2026: SYF Q2 2026 card NCO >5.5% (above its FY26 guide ceiling; Q1 5.42%) AND ACL coverage ratio DOWN QoQ (reserve build < charge-off burn)\t60%\tQ2 2026 earnings (SYF ~Jul 22, ALLY ~Jul 18, COF ~Jul 22-24)\tOPEN\t\t\tSYF Q2 card NCO \u22645.5% OR ACL coverage ratio stable/rising \u2192 Q1 deceleration was genuine; unsecured H2-2026 pin not confirmed; holds-to-2027 survives. Applies even if monoline NCOs are elevated if coverage is building (provisioning ahead of losses = masking intact).\tPre-registered hard trigger from Jun 25 adversarial pass (Will-approved; outbox 2026-06-25_cluster-consumer-leg.md). Primary: SYF alone requires BOTH conditions (NCO >guide AND ACL coverage down). Confirm (\u22651): COF domestic card NCO >5.5% with 30+ DQ up \u226525bps QoQ; OR ALLY reverses Q1 reserve release (\u2212$224M) to BUILD with retail-auto 30+ DQ >4.6% AND NCO >2.1%. A monoline-only break confirms Axis A but does NOT flip Axis B (CRE/regional). COF is dual-path: Axis A (card NCO) + Axis B (commercial/office CRE) on one balance sheet. FFIEC Uniform Retail Credit Classification mandates charge-off at 180 DPD (open-end/card) / 120 DPD (closed-end/auto) \u2014 un-deferrable, un-maskable. See THESIS.md Path C \u2014 Bifurcated Timing Axis (v2.6)."
+    },
+    "CRL-15": {
+      "commit": "bf073316af5e5afc597422a40d56f96f987350af",
+      "commit_time": "2026-04-10T12:50:09-04:00",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "blob_sha256": "3f98a1eddafd346ff2ccf9359ef1e3b76c2c47e028e42d32954d6e11430a25e4",
+      "line": 16,
+      "text": "CRL-15\t2026-04-09\tSBA 7(a) default rate exceeds 6.5% by end of 2026\t65%\tQ4 2026\tOPEN\t\t\tSBA 7(a) default rate declines below 3.0% for 2 consecutive quarters\tCurrently 3.7% (2024, 12-yr high). Crestmont consensus projects 6.5-7.5%. Drivers: tariff margin compression, EIDL repayment burden, elevated rates. Early defaults (within 18mo) tripled. Community Advantage already at 7%. 2020-21 vintage maturing into stress environment. See KB-CARL-169, POP/domain/sources/SB_BANK_PIPELINE_DEEP_DIVE.md."
+    },
+    "CRL-23": {
+      "commit": "af5ed9a7f335ea039b56f395597aabc721afc8f7",
+      "commit_time": "2026-05-03T14:18:35-04:00",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "blob_sha256": "08ea42e232fe199d0894d53b2212e99a8b69fb1aa11ad5155f5edbe883be761a",
+      "line": 24,
+      "text": "CRL-23\t2026-05-03\tFY27 builder GM compression: DHI Q1 FY27 GM \u226417.5% (\u2265-2.2pp from FY26 normalized ~19.7%) OR PHM Q1 FY27 GM \u226422.0% (\u2265-2.4pp from Q1 FY26 24.4%) AND tariff regime (Sec 122 successor or Sec 301 replacement) sustained \u226510% effective rate on imported building materials through Q4 2026\t70%\tDHI Q1 FY27 print (Jan 2027) + PHM Q1 FY27 print (Apr 2027)\tOPEN\t\t\tBoth DHI Q1 FY27 GM \u226518.5% AND PHM Q1 FY27 GM \u226523.0% despite sustained tariff regime \u2192 tariff cost absorbed elsewhere (suppliers, labor offsets, NAHB overstated) \u2192 builder-side tariff transmission thesis invalidated\t**v2.5.1 NEW \u2014 NOT a masking framework falsification.** Tests Vector #10 + tariff regime durability. Mechanism: +$10,900/home tariff cost (NAHB Apr 2026, 60% builders reporting +6.3% material cost increase) flows into reported COGS at FY27 vintage rather than being absorbed by suppliers, offset by labor cost decline, or overstated by NAHB. Tariff magnitude is large relative to current margins (3pp on 19.7% base); pricing power to pass through is constrained by K-shape qualification environment. Main uncertainty is regime durability \u2014 Sec 122 expires Jul 24 2026, successor mechanism (likely Sec 301) high-probability but not certain. Confidence 70% (not lower) because tariff magnitude + constrained pricing power; (not higher) because regime durability uncertain. Position action on failure: builder-side conviction -25pp; revisit Vector #10 \u2014 if builders absorb cost without margin compression, demand-side weakness framing wrong, not just deferred. KB-CARL-220, KB-CARL-247, KB-CARL-265."
+    }
+  },
+  "open_marks": [
+    {
+      "id": "CRL-15",
+      "first_call": "0.65",
+      "undated_intermediate": "0.35",
+      "dated_2026_11_06": "0.10",
+      "outcome": null
+    },
+    {
+      "id": "CRL-23",
+      "first_call": "0.70",
+      "undated_intermediate": "0.45",
+      "dated_2026_11_06": "0.15",
+      "outcome": null
+    }
+  ]
+}
