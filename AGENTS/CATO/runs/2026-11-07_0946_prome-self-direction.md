@@ -1,0 +1,38 @@
+# PROME self-direction — November 6–7 discussion and handoff
+
+## Current disposition
+
+Will chose bounded implementation over further trial planning. PROME records the formal WQ-648 trial retired before it started and continuation guidance installed; the approved Iran reads, REGINALD work and Sunday Iran brief survive. No new CATO implementation, audit, launch or send is assigned. Fresh CATO context should orient and await Will. WQ-607 A remains separately approved and pending; the brief is available and the challenge plus packet handoff have not been performed.
+
+## Scope and evidence
+
+CATO advised Will through the quoted PROME/SLOANE exchanges, supplied prompts, and corrected its own overemphasis on preserving the trial. Early local inspection confirmed the WQ-388 decline in the queue ledger, stale references in PROME's charter/AUTONOMY and launcher memory, and existing unattended collection references. No market claims, source calculations, scheduled executions or live notification path were independently tested here. SLOANE's quoted repository checks are attributed observations, not CATO verification.
+
+Closeout checkout: `622f1df40e759c23cd5623ce6ddb5b16164b444e` on master, November 7. Read `PROME/proposals/2026-11-06_wq648-RULED.md` including Addendum 2, the current Continuation paragraph in `PROME/BOOT.md`, and `PROME/proposals/2026-11-07_wq649-650-RULED.md`. This establishes the recorded implementation and dispositions, not a full diff review or demonstrated benefit. PROME's claim that required implementation checks passed and no independent read occurred remains an owner report. Root/local startup instructions showed no intervening commits since this session's initial reads. REGINALD's dirty `scripts/.kre_float_state.json` is concurrent work, untouched.
+
+## Decisions and corrected advice
+
+- WQ-388 was RULED DECLINE October 15: WALTER cannot self-schedule unattended sweeps; launches by Will or PROME remain within existing grants. Will authorized correction of current references. This does not authorize standing unattended PROME operation. PROME reports the corrections completed; no broad propagation audit here.
+- Keep the four FALCON/ORACLE weekend reads distinct from the TERRY/ISHM/SHADE/BROCK encoding assignments and REGINALD's separate run. Scheduled delivery, choosing valuable follow-through, recovery and urgent notification are different capabilities.
+- Will wants urgent-only contact for something requiring attention before he returns; routine work belongs in a consolidated brief. This is a preference, not authorization to build a channel. Investigate existing GitHub Actions, timers, session management and delivery before proposing infrastructure. No new recurring program, checker, scoring system, paid hosting or authority grant.
+- WQ-648 was initially approved with bounded evaluation conditions, then superseded by Will's November 7 07:59 implementation instruction. Retired trial budgets, reminders and formal accounts must not be resumed. Preserve useful capability findings in normal briefings and the ordinary Sunday Iran brief. Historical scoring is recorded by PROME as dormant, with adoption/retirement search limits; the live revival procedure survives. No CATO certification of the historical authority analysis.
+- Implement continuation by integrating existing wording: reassess after results, use existing evidence or live specialists where sufficient, continue unrelated authorized branches, and stop when additional effort lacks value. A due row still needs a disposition; it is not automatically a reason to launch. Unused commissioning capacity is not failure. Operational work can protect research reliability and should not be dismissed merely as housekeeping.
+- CATO initially recommended waiting for trial evidence too categorically. Will's objective is improvement, not preservation of an experiment. Narrow, observable and reversible instruction changes can proceed under approval without a new evaluation program; required repository checks still apply.
+- PROME withdrew broad claims that it had ignored initiative instructions. Orientation-only compliance, an untriggered missed-read condition, unused C9 capacity and reasonable scheduled waiting do not establish failures. Its clearer reported omissions concern unverified relays, omitted material decision terms, registration timing and repeating a request after Will asked it to stop. These do not establish that the continuation change fixes accuracy. Do not reopen this retrospective without changed evidence.
+- Reading a desk artifact verifies what it says, not necessarily its decisive source premise. Preserve material caveats and verify consequential premises proportionately. SoftBank helper work was judged low-value before Tuesday; independently unchecked inputs remain a deferred uncertainty, not proof that nothing can be resolved.
+
+## Latest owner dispositions recovered at closeout
+
+The November 7 09:22 PROME ruling supersedes this chat's earlier statements that WQ-649 and WQ-650 still need answers. It records:
+
+- **L37:** closed NOT MET, N = 5 / R = 6; fleet shrinking dropped, calibration/learning continues. Will did not separately confirm the count; the WAL close date/price remain UNKNOWN and PROME disclosed its co-grading role. The outcome and Will's decision to continue remain separate.
+- **WQ-649:** moot under PROME's stated-back interpretation that Will ended the unfilled UNG spread card. No keep/strike choice was made; the missing-file clause conflict remains unresolved but no longer governs that card. Will's separate call is outside it. This is owner interpretation, not CATO trade advice or independent portfolio verification.
+- **WQ-650:** Will's own option: TERRY looks for trades Monday November 9 before the open. No order approved; PROME preserves stale pre-open quotes and the later high-yield reading as limits.
+
+## Remaining work, owners and stop condition
+
+PROME owns execution and consumption of approved research, normal synthesis, actual recovery if needed, and publication of its implementation. Success is useful work and reduced supervision, not activity or unused budgets exhausted. No further CATO retrospective, implementation review or trial is owed from this discussion. CATO's WQ-607 challenge closes only on the bounded assessment and authorized packet to PROME/inbox; retain its existing approval and resume when Will directs continuation. Forecast pilot stays at 44/120 minutes and resumes only on Will's direction. Decisions notification remains unproven; chat confirmation fallback survives. Other approvals remain at their existing continuity/index references.
+
+## Closeout verification
+
+All 11 distinct intended inputs existed and were readable. Weekday check passed on `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, `AGENTS/CATO/CONTINUITY.md`, `AGENTS/CATO/TASK_INDEX.md` and this report. Read-cap passed on all six startup files: `AGENTS/CATO/AGENTS.md`, `AGENTS/CATO/CHARTER.md`, `AGENTS/CATO/CONTINUITY.md`, `CLAUDE.md`, `USER.md`, `AGENTS.md`. Orphan advisory found only REGINALD's unrelated dirty `.kre_float_state.json`, preserved and disclosed to Will. Scoped whitespace check passed. No ledger, memory or superseded-figure consumer check was triggered. No code, owner files, Decisions response exports, auto-memory, positions, figures or gates changed by CATO. Origin refresh required escalation because Git metadata is sandbox read-only; fetch completed. Shared push may carry PROME's concurrent committed work; inspect and disclose the actual train in the final receipt. Publication receipt belongs in chat; no extra commit solely to record its own hash.

@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated November 6, 2026. Current-card button connection published by PROME and verified against the live app sources for 639/640/642. Actual app-to-live-PROME alert remains unproven. Chat fallback remains. WQ-607 stays approved/pending, not started here.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
+**Updated November 7, 2026. PROME self-direction advice complete: bounded continuation implementation replaces the retired WQ-648 trial. Fresh context: orient and await Will; no new review or trial. WQ-607 remains approved/pending, not started here.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
 
 ## Resume point
+
+**Latest discussion closed:** Will prefers implementing useful bounded changes over more trials/checks. PROME owns approved research and normal follow-through; no new CATO task or expanded authority. [Advice, corrections, evidence limits and latest owner dispositions](runs/2026-11-07_0946_prome-self-direction.md). At closeout PROME records WQ-649 moot, WQ-650 Monday pre-open, and L37 closed NOT MET with fleet shrink dropped; this supersedes the chat's earlier open-item list, not independent verification. Urgent-only contact preferred, no channel build authorized. Do not resume the retired trial or repeat the settled retrospective.
 
 **Authorized remaining CATO assignment — WQ-607 A:** read PROME’s research brief when delivered and return overstatement challenges by packet to `PROME/inbox/`. [Exact assignment and approval](inbox/2026-11-05_from-PROME_WQ607-A-completion-plan.md). Will approved in PROME’s window at 11:03 ET; this supersedes the earlier draft-only disposition. No need to ask again. Packet communication authorized for this result; no native route to this Codex session was available to PROME. Scope: credit/consumer, energy, implications for existing ideas, plus whether AI selling is spreading. No new broad audit, owner launch, restructuring or recurring automation.
 

@@ -2,6 +2,10 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## November 7 PROME self-direction
+
+[Continuing record](runs/2026-11-07_0946_prome-self-direction.md): discussion delivered, WQ-648 trial retired in favor of bounded implementation under Will's November 7 word. No CATO implementation or further audit assigned. Preserve corrections to the overstated initiative-failure diagnosis, distinguish source verification from desk-report reading, and judge ordinary work without another evaluation program. PROME's latest recorded WQ-649/650 and L37 dispositions are recovered there with their limits. Fresh context orients and awaits Will; separate WQ-607 approval survives.
+
 ## November 4 agent-work review
 
 **Latest: November 5 morning sweep delivered.** [Current assessment and owner closure conditions](runs/2026-11-04_1531_agent-work-review.md#november-5--morning-commit-sweep) supersede the dated dispositions below. 102-commit inventory through `6dbd83642`; no new owner grants or CATO task. L835 checkpoint preservation, delivered CARL/FALCON work, held LIQUID/L920 repairs and L848 acceptance now recorded.
