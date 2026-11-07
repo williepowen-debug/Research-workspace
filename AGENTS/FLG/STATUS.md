@@ -80,8 +80,9 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 | multi-family vintage | 2026 | **2027** | 2028 | 2029 | 2030 | 2031+ |
 |---|---:|---:|---:|---:|---:|---:|
-| $M repricing/maturing | 2,700 | **8,503** | 5,447 | 3,843 | 2,048 | 4,191 |
+| $M repricing/maturing at 6/30 | 2,700 | **8,503** | 5,447 | 3,843 | 2,048 | 4,191 |
 | share of the $26.9B book | 10.0% | **31.6%** | 20.2% | 14.3% | 7.6% | 15.6% |
+| **$M at 9/30 (10-Q)** | 1,846 | **8,519** | 5,305 | 3,814 | 1,952 | 4,397 |
 
 **2026-10 the rent freeze takes effect · 2027 a third of the multi-family book reprices into it · 2028-Q2 the DSCR review carries most of a freeze year** *(⚠️ corrected from Q2-2027 — KB-FLG-052; see below).* The desk previously knew the freeze bit but not *which vintages* — that was the named top gap at v1.0, and it is closed.
 
