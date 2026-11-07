@@ -1,10 +1,17 @@
-# FALCON SCRATCH — November 6, 2026, close refresh on Will's 17:08 ET word via prome-51, cards 047 and 048 after it; written 17:32 ET, evidence cutoff about 22:31Z
+# FALCON SCRATCH — November 7, 2026, WQ-646 read 1 of 2 done on prome-bf's 08:43 ET message, cutoff about 13:50Z; body below read 1 is the 11/6 close
 
 ## CURRENT MARKS
 B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-06 CONFIRMED; FAL-08..12 OPEN to 12/31. GATE-FALCON-001 LIVE, next review_by 11/11. Claude Code, Opus 5.5.
 
+## READ 1, 11/7 (reports/2026-11-07_wq646-read1.md, KB-432..440)
+- CENTCOM 08:30 ET = Task Force Iron Gate, 20 staff in Tampa, DVIDS 578868, own primary read. Not a strike. Match to card 054 is by time and subject. DVIDS is a working CENTCOM primary here.
+- Qeshm 11/6: US strike, attribution high, not explicit. Trump did not say Qeshm or Friday; no CENTCOM statement. Dated 11/6 ET, FAL-09 0 of 5 either way.
+- Claim-only: Iranian Navy tanker on a mine 11/7; MQ-1, MQ-9. Basij death cause not stated. Saudi intercepts only.
+- UKMTO weekly via MEE: 11 attacks, three sank, 325 transits. Census stays 7, third sinking unnamed. ⛔ 46/day is not 53% of 88/day.
+- WALTER sent the breaks about 08:50 ET; cards 20261107-001, 002 acted, KB-441: Polymarket legs resolved NO, ORACLE's, not an event grade. No mark moved.
+
 ## CHANGES SINCE LAST SESSION (11/06 11:34 ET → about 17:25 ET)
-- ⚠️ QESHM, DEVELOPING. Reuters via JPost about 22:19Z: Tasnim says initial reports of two missiles on Qeshm, unconfirmed; IRNA cites witnesses, two projectiles at Suza after an aircraft was heard. Fars: explosions at Qeshm and Bandar Khamir, cause unclear, possibly warning shots. IRNA's bulletin via Al Jazeera: locals say two projectiles "impacted in the Susa area". Direction leans inbound, not settled. No attacker named; TodayPress's unsourced US-strike line not carried. NOT ESTABLISHED as a US strike. Touches no ladder rung; no 72-hour halt is running. KB-422.
+- QESHM, AS READ 11/6, SUPERSEDED BY READ 1. Reuters via JPost about 22:19Z: Tasnim says initial reports of two missiles on Qeshm, unconfirmed; IRNA cites witnesses, two projectiles at Suza after an aircraft was heard. Fars: explosions at Qeshm and Bandar Khamir, cause unclear, possibly warning shots. IRNA's bulletin via Al Jazeera: locals say two projectiles "impacted in the Susa area". Direction leans inbound, not settled. No attacker named; TodayPress's unsourced US-strike line not carried. NOT ESTABLISHED as a US strike. Touches no ladder rung; no 72-hour halt is running. KB-422.
 - US military official to Iran International 20:26Z: stay indoors, away from IRGC positions, if tensions escalate. Anonymous.
 - ORACLE: Polymarket effective ceasefire through 11/15 59 to 31.5 from 16:04 ET, back to 48 by 23:34Z, cause not established. ORACLE's numbers. KB-424, KB-426.
 - Qatar's Prime Minister at the Oxford Union, not Doha: good deal over perfect one. Card 043. KB-419. Qatar's media office (Al Jazeera 22:25Z): "failed" reports false; mediators support "ongoing negotiations". Card 048. KB-425.
@@ -17,9 +24,10 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 
 ## NEXT SESSION (dated, future-verifiable)
 - WQ-646 A (Will 17:44 ET, PROME/proposals/2026-11-06_wq646-647-RULED.md; Will's yes 11/6 19:46 ET to run them on the laptop): the desktop is closed and timers bee28c33 and 4d8ff25a are GONE. Laptop session falcon-de HOLDS, sets no timer. PROME messages about 08:45 ET Sat 11/7, after CENTCOM's reported 08:30 ET announcement, and about 15:00 ET Sun 11/8. This supersedes the old 08:00 ET slot. One read each: Qeshm attribution and any new event, graded to files. No score moves without a registered letter. Breaking items to WALTER (walter-e1). No closeout until PROME asks. If this window dies, a fresh boot waits for PROME's message; it does not self-start a read.
-0. First: Qeshm attribution. CENTCOM, wires, Tasnim follow-up, and the event time in ET. If US on the FAL-09 confirmation standard, date it in ET: the window opens 11/7 00:00 ET, a strike dated 11/6 ET is outside it; read the letter if the night crossed midnight ET. Also UKMTO numbers after 197-26, which I could not read.
-1. Re-run PortWatch transit and bypass (429 on five attempts; transit newest 10/25, bypass 10/30).
+0. Read 2, about 15:03 ET Sun 11/8, on PROME's message: read DVIDS first for CENTCOM, then any strike dated 11/7 or later for FAL-09 day one, any US line closing Qeshm, the third UKMTO sinking, the 11/7 tanker, UKMTO numbers after 197-26, UKMTO's next weekly, the reported US naval withdrawal. Saudi and Riyadh damage reports.
+1. PortWatch reads returned 11/7; re-run at read 2.
 2. November 11: weekly + GATE-FALCON-001 review; combo themes; re-read D 85 note (KB-403, KB-416); DAEDALUS items 6, 7, 8, 10–13.
+2a. At the 11/11 review: state whether thesis-kill #2's 88/day is PortWatch-perimeter in the letter, so a UKMTO 46/day cannot be read against it; read UKMTO's Bab line against the gate.
 2b. By WALTER's November 12 sweep: WALTER's anchor ladder item 1 names Kharg and South Pars as FAL-01-class; FAL-01 is RESOLVED and my D 85 to 92 rung covers Gulf-ally production only (EXIT §2a). State my letter to WALTER; WALTER owns the anchor.
 3. December 31 late ET: dated searches FAL-08, 09, 10, 12; FAL-11 and FAL-12 IMO table read. A search after that date = NO-VERDICT.
 4. Band proposal (11/04 report §6) awaits PROME.
@@ -28,7 +36,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 - Saudi and UAE November print: none at any source. KB-421. Vortexa vs Blas-Vortexa first-22-days conflict unexplained.
 - Trump 11/6 "not lost a soldier in seven months or six months" vs 11/5 "18 US dead"; 17 at 7/19 on my record. Unreconciled.
 - CMV-22B: no Navy or CENTCOM statement found; NOT ESTABLISHED.
-- 197-26 hull name, cargo, cause; IMO row. UKMTO 196-26 unread, probably VELOS by numbering only.
+- 197-26 hull name, cargo, cause; IMO row. UKMTO 196-26 unread, VELOS by numbering and now position (JMIC 111 via Gulf News, north of Qatar).
 - VELOS hull assessment; a declared total loss needs a census read.
 - Yanbu loadings: no reader; KB-168 proxy unbuilt. RITI status; SELAT STORM IMO row (still Damaged 11/6) and crew; AL JUSUFI hull fate; ERA S and GRIT not on IMO table.
 - PMF discriminator not re-read since 11/2–11/3; a close search found no November item. STRIKES mark 11/03, not due.
@@ -40,7 +48,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-Inbox 0 at the 19:50 ET laptop boot. Cards 053 and 054 moved to processed. Card 054 logged DEFERRED: Qeshm grade waits for the announcement; KB-427, KB-428, themes KB-407, KB-408 updated. The 08:30 ET line is not read by me, one outlet via WALTER. Card 055 acted 19:5x ET: no new US strike found through about 00:57Z, coverage only, KB-429..431. CENTCOM's $20M reward post 11/6 is NOT the 08:30 announcement unless CENTCOM says so. At the Saturday read also read Trump's 11/6 'minor strikes' remark, headline only so far. COR-20261106-48 receipted APPLIED. Packets sent to BRENT, WALTER, ORACLE. No PROME packet: no figure others cite moved.
+11/7: cards 001, 002 acted and moved; WALTER's PRIORITY card on my items 3 to 5 still to come. Inbox 0 at the 19:50 ET laptop boot. Cards 053 and 054 moved to processed. Card 054 logged DEFERRED: Qeshm grade waits for the announcement; KB-427, KB-428, themes KB-407, KB-408 updated. The 08:30 ET line is not read by me, one outlet via WALTER. Card 055 acted 19:5x ET: no new US strike found through about 00:57Z, coverage only, KB-429..431. CENTCOM's $20M reward post 11/6 is NOT the 08:30 announcement unless CENTCOM says so. At the Saturday read also read Trump's 11/6 'minor strikes' remark, headline only so far. COR-20261106-48 receipted APPLIED. Packets sent to BRENT, WALTER, ORACLE. No PROME packet: no figure others cite moved.
 
 ## PENDING PUSH / GIT
 The 11/6 close pushed through safe-push at Will's 18:33 ET word. Laptop boot drain committed locally 11/6 19:5x ET, not pushed; push waits for PROME's closeout. STATUS and NEXUS_BRIEF deliberately unchanged at boot, no mark or grade moved; both refresh at the reads. Boot sweep to about 00:48Z 11/7: PortWatch transit and bypass still 429 (twice), IMO 129 / 25 as at 11/6 unchanged, NAVAREA newest 431 and 432/26, no new theater event found; CENTCOM and UKMTO 403.
