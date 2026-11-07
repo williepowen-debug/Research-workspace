@@ -1,6 +1,6 @@
 # SHADE STATUS
 
-**Last Updated:** 2026-11-06T17:23:10-05:00 — 11/6 close refresh on Will's 17:08 ET word via PROME, Claude Code/Opus 5.5: **`T-SHADE-01` NOT MET at the 11/6 close, inbox 0, no Q3 statutory or deck posted.** No score, band, gate or threshold moved. Prior: 11/6 16:48 restart closeout (Q3 read, L185 legs, card 041).
+**Last Updated:** 2026-11-06T20:40:09-05:00 — WQ-644 A recorded (§7) on PROME's spawn, Claude Code/Opus 5.5. No score, band, gate or threshold moved. Prior: 11/6 17:23 close refresh, **`T-SHADE-01` NOT MET at the 11/6 close, no Q3 statutory or deck posted**; 11/6 16:48 restart closeout (Q3 read, L185 legs, card 041).
 **Prior sessions:** 10/21 L726/L727 proposals; 10/15 L673 first grade; 10/10 L0 drain; 10/1 W1/ARI; 8/28 Delaware Life pause. Historical chain → `archive/STATUS_PRE-ROTATION_2026-10-01.md` (32,462 B, crc32 `8f171d07`, `tail -n +5`) / `archive/STATUS_PRE-ROTATION_2026-08-28.md`.
 
 **Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` NOT MET (read 11/6, endpoint 11/6 close):** 9/24→11/6 RAW wrappers +0.79% vs managers +4.14%, both up; no dig. 10/10 owner fire stays PROVISIONAL, unconfirmed. HY 348 [11/5] (LIQUID), environment band YELLOW, 2bp under RED; the 11/6 cell is unpublished, due about 10:10 ET Monday 11/9. SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.
@@ -36,7 +36,7 @@
 | SoftBank-linked | **$4,846M**, SVF II +$1,033M in Q3 | No letter. Vehicle identities INFERRED. Card 041 11/6: the $10B loan is not an "OpenAI-share margin loan"; these figures unchanged |
 | Apollo GAAP loss | $3,274M of Athene's $3,418M is mortgage and derivative marks; provision $82M | Accounting and rates on issuer attribution. ⚠️ **90+/non-accrual principal $1,818M → $3,453M, +89.9% YTD** |
 
-**Also:** AAIA Key Ratio #1 (1,635.7%, FY25) recorded **CRITICAL BY LETTER**, no score tied, no rescore · X1 reconcile: BROCK CONCUR 11/6, keep two named tests, PROME carries to Will · BMA holds FY2025 statements for ALRe, AARe, ALReI and each ACRA vehicle, unread · Delaware Life ladder unchanged, sale exploration attributed only, Q3 not posted · cyber: no change.
+**Also:** AAIA Key Ratio #1 (1,635.7%, FY25) recorded **CRITICAL BY LETTER**, no score tied, no rescore · X1 reconcile: BROCK CONCUR 11/6, RULED two named tests (WQ-644 A, §7) · BMA holds FY2025 statements for ALRe, AARe, ALReI and each ACRA vehicle, unread · Delaware Life ladder unchanged, sale exploration attributed only, Q3 not posted · cyber: no change.
 
 ## 0u. 2026-10-29 — L781: RATIOS ENCODED, FIRST READINGS (LIVE RAIL)
 
@@ -130,7 +130,7 @@ Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-06.md` (crc32 `0fe75ab2`, 
 ## 7. Cross-agent dependencies — read the OWNER, never re-derive
 
 - **Fund gates / BDC stress / BCRED / First Brands** → BROCK. SHADE translates the insurer implication only.
-- **HY OAS series + its readings** → LIQUID. SHADE owns only whether `T-SHADE-01` fires. ⛔ **Not X1, not L494's 3-obs proposal** — separate instruments until the X1≡T-SHADE-01 reconcile (FORUM-5 ruling 2) lands.
+- **HY OAS series + its readings** → LIQUID. SHADE owns only whether `T-SHADE-01` fires. ⛔ **Not X1, not L494's 3-obs proposal** — X1 and `T-SHADE-01` stay two named tests with shared inputs (WQ-644 A, Will 11/6 20:31 ET, `PROME/proposals/2026-11-06_wq642-644-RULED.md`); the FORUM-5 'one instrument' ruling closes, no gate or letter moves.
 - **CCC channel** → **`CCC/HY` = REGINALD `VX-REG-18.04`; `CCC/BB` + gap = BROCK `KB-BRK-221`.** SHADE registers neither. 🔴 **Same 787-obs series ⇒ agreement is ARITHMETIC, never corroboration.**
 - **Bank/NDFI/FHLB, Truist and Fifth Third as banks** → REGINALD. ⛔ An FHLB is a cooperative, not a bank credit story.
 - **CRE/CMBS series + triggers, MBA/Z.1 sector reads** → CREED. 🆕 **Packet 10/1: AAIA (a US life insurer) took ~$7.4B on 4/24 — the sector's +$3.6B commercial print is not evidence of diversion outside the US life sector.**
