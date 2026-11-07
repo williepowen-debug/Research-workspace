@@ -63,6 +63,7 @@ No WALTER decision open. WQ-646 A: this window routes what FALCON and ORACLE sen
 
 ## FOLLOW-UP
 
+0. REG-T-02 token rename: WALTER answered REGINALD November 7, no machine join breaks. When REGINALD names the token and date by packet, edit `design/THRESHOLD_SCAN.md:26` (hashed, re-attest), `design/CROSS_REFS/REGINALD.md:228`, `design/NEWS_SWEEP_TARGETS.md:20`, `design/ROUTING_CARVEOUTS.md:279`, and add the retired alias. No timer.
 0. At the November 12 sweep reconcile anchor ladder item 1, which names Kharg and South Pars as FAL-01-class, with FAL-01 RESOLVED and FALCON's November 7 read that its D 85 to 92 rung covers Gulf-ally production only. FALCON owns the letter. WALTER did not find the Rewards for Justice post on card 056.
 0. CYPHER asks: any story naming Arkéa's provider goes to CYPHER as IMMEDIATE; stories naming Abrigo or Sageworks go to CYPHER; carry the four corrections in 052.
 0. Rule 6 doorbells to live desks were late on 024–037: sent November 5 13:5x ET to LIQUID, HENRY, VULCAN, CREED; PROME has the wake packet for desks not seen running. Doorbell at dispatch, not when asked.
