@@ -25,4 +25,7 @@
 - Reminders live only in this session.
 - App answers reach PROME with no alert: three sat about 30 minutes on 11/6.
 
+## If PROME reboots mid-trial
+Reminders are gone. Re-create them from the Scheduled table, run any read already past due by message to the live desk (preflight first, restart the desk by launcher if gone), and log the reboot below as a manual rescue.
+
 ## Events
