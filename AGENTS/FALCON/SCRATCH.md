@@ -20,6 +20,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 0. First: Qeshm attribution. CENTCOM, wires, Tasnim follow-up, and the event time in ET. If US on the FAL-09 confirmation standard, date it in ET: the window opens 11/7 00:00 ET, a strike dated 11/6 ET is outside it; read the letter if the night crossed midnight ET. Also UKMTO numbers after 197-26, which I could not read.
 1. Re-run PortWatch transit and bypass (429 on five attempts; transit newest 10/25, bypass 10/30).
 2. November 11: weekly + GATE-FALCON-001 review; combo themes; re-read D 85 note (KB-403, KB-416); DAEDALUS items 6, 7, 8, 10–13.
+2b. By WALTER's November 12 sweep: WALTER's anchor ladder item 1 names Kharg and South Pars as FAL-01-class; FAL-01 is RESOLVED and my D 85 to 92 rung covers Gulf-ally production only (EXIT §2a). State my letter to WALTER; WALTER owns the anchor.
 3. December 31 late ET: dated searches FAL-08, 09, 10, 12; FAL-11 and FAL-12 IMO table read. A search after that date = NO-VERDICT.
 4. Band proposal (11/04 report §6) awaits PROME.
 
