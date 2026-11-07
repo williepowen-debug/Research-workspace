@@ -83,3 +83,47 @@ The legs broke again from about 00:05Z (19:05 ET), to near zero, then rebounded 
 **Unmoved (Gamma 00:48Z, which may lag):** WTI $110 Nov 19.0 · invade 11.5 · war 2.2 · Hormuz 12/31 9.5 · blockade-end 71.0 · senior meeting 44.0. Kalshi Brent `T97.99` 46/50.
 
 **Reports (Iran International liveblog, relayed):** 00:13 GMT State Department vigilance alert (Houthi threats, Iranian targeting of US officials, airspace closures possible). 00:36 GMT is Iran International's RELAY time for an NBC story on some advisers wanting major operations resumed before the new Congress, Trump undecided. **Timing corrected 19:5x ET, WALTER walter-e1 via a fetch helper reading NBC's page:** NBC stamps the story 18:16 ET (23:16Z), so it came BEFORE the fall and before the 23:34Z 48.0 read, and cannot be read as a same-minute trigger. I could not reach NBC's page myself; the stamp is a fetch helper's read relayed by WALTER, not seen directly by either desk. "All options available at any time" rests on Iran International's relay only; WALTER did not find it in NBC's visible text. CBS newest 22:26 GMT; Al Jazeera 11/7 page, same two-missile report, attacker unnamed. Nothing found explains the rebound.
+
+## Resolved NO: WQ-646 A read 1 of 2 (read 13:43Z to 13:48Z 11/07, written 2026-11-07 08:49 ET, laptop, public reads)
+
+Grade: Polymarket public reads; Kalshi UNSIGNED public read, 9 of 9 watchlist tickers fetched. Saturday, so context only: not a gate read, not a ledger row, no score moved. Polymarket log 49 rows of 52 pins, the three legs absent because they closed.
+
+**The 11/06 evening swing did not reverse. It ended in resolution.** My 00:51Z "snapback" was a pause; the 25.0/27.4 book lasted minutes.
+
+| Leg | Result | Closed (11/07) | Last book 00:51:40Z | Volume |
+|---|---|---|---|---|
+| through 11/08 | NO | 03:20Z | not read | $1.33M |
+| through 11/15 | NO | 12:40Z | 25.0/27.4 | $941.3K |
+| through 11/30 | NO | 03:31Z | 20.9/26.9 | $303.8K |
+| through 12/31 | NO | 12:40Z | 6.2/8.9 | $263.2K |
+
+Source: Gamma with `closed=true`, read 13:44Z: outcomePrices ["0","1"], umaResolutionStatus resolved, resolutionMechanism oracle, automaticallyResolved True. No book exists on a closed leg, so there is no depth to report for these four.
+
+Still open, book about 13:46Z: through 11/05 99.2/99.4 (touch $79 / $543, liq $26.8K); through 11/06 97.6/98.0 (touch $250 / $157, liq $29.1K). Their cutoff is 11:59 PM Iran time, which is 20:29Z for 11/06, before the 21:04Z break. The crowd prices the qualifying strike as after that cutoff; priced, not established.
+
+**11/15 trade path, half-hour bars (data-api):**
+
+| Bar | Open | High | Low | Close | Traded |
+|---|---|---|---|---|---|
+| 23:30Z | 50.0 | 50.0 | 45.4 | 46.0 | $1,042 |
+| 00:00Z | 45.0 | 45.0 | 1.2 | 2.3 | $27,538 |
+| 00:30Z | 1.7 | 34.8 | 1.7 | 9.6 | $12,038 |
+| 01:00Z | 5.6 | 20.9 | 0.1 | 0.8 | $21,345 |
+| 01:30Z | 2.3 | 2.3 | 0.3 | 0.5 | $19,186 |
+| 02:00Z | 0.5 | 0.6 | 0.3 | 0.6 | $3,966 |
+
+From 03:30Z the leg traded at 0.1 to its 12:30Z last print. 12/31 reached 0.1 in the 01:00Z bar. 11/30 reached 0.1 by the 02:00Z bar.
+
+**Cause, as far as established.** Trump to reporters Friday, Iran International relay stamped 01:02:54Z: "We do minor strikes"; Iran built "a little bit of an anti-aircraft device" that US forces destroyed; "I don't want to talk about it." Earliest headline found: Breakingthenews 01:06Z. Times of Israel 02:31Z and Guardian 03:26Z headlines agree. The market record plus that remark establish why the legs resolved in the crowd's and resolver's terms; FALCON owns whether the event is graded.
+
+**Not established.** (1) The spoken time of the remark. The first fall began about 00:05Z, about an hour before the earliest relay stamp, so I cannot order remark and fall. Not called insider flow. (2) What the resolver cited: on-chain proposal text not read, and umaResolutionStatuses shows ["proposed","proposed"], which I cannot read as disputed or not. (3) Whether the strike was the 11/06 Qeshm event or another: Trump's relayed words name an anti-aircraft device; Tasnim's two missiles carry no origin. (4) CENTCOM and war.gov not read; wire bodies not read.
+
+**Oil and escalation, 13:43Z log, 22:15Z in brackets.** WTI $110 Nov 17.0 [19.5], liq $18.3K, book 16/18, touch $2 / $9 · spread +73.5 [+71.0] · Hormuz normal 12/31 9.5 [9.5], 11/30 3.2 [3.5] · invade 10.5 [11.5] · war 2.2 [2.2] · regime fall 2.6 [2.9] · blockade-end 3/31/27 69.5 [71.5] · senior meeting 12/31 44.5 [41.5] · deal top 11.5 [13.5]. Kalshi Brent over $97.99 at 11/30 48.0 [44.0], mid 46.0, OI 6.6K; over $95.99 56.0 [47.0], mid 55.0, OI 4.2K; 4¢ books. The second rung printed 54 at 23:12Z, before the earliest relay stamp, and 56 last at 11:53Z.
+
+So the WTI tail and the escalation odds did not follow a confirmed strike, and the thin Brent rungs rose. Oil futures are shut until Sunday evening. Sunday's reopen is the test.
+
+**Around 08:30 ET.** Across 8 Polymarket Iran and oil markets, one trade from 13:30Z to about 13:45Z: blockade-end 69.0 at 13:33Z (prior print 70.0 at 12:01Z). Kalshi Brent last print 11:53Z. The legs were already closed. No visible move, on a 15-minute window in thin Saturday books. Headlines only, bodies unread: Reuters exclusive 13:36Z on restricting Iranian land commerce; JPost 13:37Z, CENTCOM to announce a task force against Iranian trade. FALCON holds the check.
+
+**Instrument note.** The legs fell out of the plain Gamma slug query; `polymarket.py pull` printed them as RESOLVED NO via its closed-market fallback. A read that had stopped at the IndexError would have reported a broken pin instead of the event.
+
+**Correction to my own record.** `SCRATCH.md` said a leg resolving NO means another qualifying strike, and that an unresolved leg could stay open to 11/18. Both true. The legs resolved inside 2.5 to 12 hours, far sooner than the "can sit mid-range for days" framing in Alert 1 implied.

@@ -4,6 +4,8 @@
 
 **Intra-session note 2026-11-06 19:5x ET (from `date`):** laptop `WilliePOwen`, window oracle-e5, Kalshi UNSIGNED public read (`status` rc=3). HOLD for WQ-646 A; not a closeout. Boot done; KB-ORC-130 written; the section below is the 17:4x ET handoff.
 
+**Intra-session note 2026-11-07 08:49 ET (from `date`):** WQ-646 A read 1 of 2 done, on prome-bf's 08:43 ET message. All effective ceasefire legs from 11/08 out RESOLVED NO; alert 00, KB-ORC-131. Sunday read still owed on PROME's message, about 15:03 ET, no timer. Full rewrite still owed at closeout.
+
 ## CHANGES SINCE 15:4x ET
 
 - **Effective ceasefire legs broke from 16:04 ET:** 59.0 · 40.0 · 28.5 (20:26Z) → 31.5 · 27.0 · 16.0 (22:15Z); book 22:23Z 30/33 · 26/29 · 15/16; 11/15 swung 31.5 to 36. Oil, invade, war and Hormuz legs did not follow. Cause NOT established.
@@ -24,7 +26,8 @@
 
 - **🔴 Weekend reads, WQ-646 A (Will 11/06 17:44 ET and his 19:46 ET yes to run them on the laptop; `PROME/proposals/2026-11-06_wq646-647-RULED.md`):** one read Sat 11/07 and one Sun 11/08, ceasefire legs and oil odds, context only, these two reads only. **Trigger is PROME's message, about 08:45 ET Saturday and 15:00 ET Sunday, to the persistent laptop window oracle-e5.** The desktop is closed and the old timers (`657db5cf`, `6d1a6129`) are dead. Set no timer. Laptop Kalshi lane is UNSIGNED public read: say so in each grade. In a fast move read the CLOB book, not Gamma (KB-ORC-130). Sunday's 15:00 ET read comes before oil futures reopen. If a fresh session reads this after a slot passed with no row in `ODDS_LOG.tsv`, that read was MISSED: run it and say so.
 - **🔴 Every boot:** `tools/routine_check.py`, then grade the routine rows into `V5_NOV110_READS.tsv` and VX-ORC-12. Next ledger row is ET Mon 11/09.
-- **🔴 Effective ceasefire, weekend reads and Mon 11/09:** baseline is 23:34Z 48.0 · 35.5 · 22.5, not the 22:15Z low. Without consensus a leg stays open to its named date + 3 (11/18), so unresolved is not all-clear. Did the 16:04 ET break hold, and did oil follow at Sunday's reopen? Any leg resolving NO = another qualifying strike. Find the cause if a wire reached it; re-test on a second venue (`kalshi.py search "Iran strike"` was NOT CERTIFIED). The routine runs weekdays only.
+- **🔴 Sunday read and Mon 11/09:** the 48.0 · 35.5 · 22.5 baseline is dead, the legs resolved NO (KB-ORC-131). The test now is whether oil follows at Sunday's reopen. Read WTI $110 Nov (17.0), Kalshi Brent rungs (48.0, 56.0), invade, war, Hormuz, open legs through 11/05 and 11/06 (book 99.2/99.4, 97.6/98.0). Unknowns to close: spoken time of Trump's remark, resolver's evidence, which strike qualified. Re-test a second-venue strike market (`kalshi.py search "Iran strike"` was NOT CERTIFIED).
+- **🟠 Watchlist:** retire the three resolved effective ceasefire pins and look for a forward US strike market; none found 11/07 13:4xZ. Do at closeout, not inside a WQ-646 read.
 - **🟠 Rolls:** Hormuz weekly → wk-of-11/9 at 11/09 · Hormuz on-date · December $110 at listing (expect ~11/25 by prior pattern; bump REGIME, one edit) · R3 switch 2026-11-17T01:00Z (INFERRED) resets the arming run.
 - **🟠 Kalshi CPI:** `KXCPIYOY-26OCT` 404; decide on pinning `KXCPIYOY-26NOV` rungs near the mode (November data, closes 12/10; OI 57.4K on `T3.8`) after HENRY's view. October CPI grade (KB-ORC-124) then rests on PM's thin book.
 - **🟠 `TRADE.md`:** regenerate tables from `TRADE_MARKS.tsv` (current); rendered tables are as of 11/04.
@@ -61,6 +64,7 @@
 ## OPEN HYPOTHESES
 
 - **The 11/05 fall may be a risk-off reflex, not a Fed read (UNPROVEN).** Five markets moved together 10:40–10:50 ET. The odds rebounded on 11/06, 6 points before the print and 8 after. No driver found. LIQUID and HENRY own the reality.
+- **11/07 first test of the line below: a confirmed minor strike, WTI $110 fell to 17.0, Brent rungs rose on thin books, futures shut. Still UNPROVEN.**
 - **Possibly the crowd separates limited strikes from a supply shock (UNPROVEN).** Another strike about 73 by 11/30 vs $110 at 19.5, wider after the 16:04 ET break; invade and war flat. A thin-book push fits equally well. Separate contracts give no read on oil conditional on a strike. HAWK and BRENT own the reality.
 - **Deal hopes may explain the 11/04 oil drop (cause NOT established).** Blockade-end 3/31/27 71.5 is the check; deal top component 12.5.
 - **Bank-failure crowd = the 2024-25 prior, not 2026 data.** Test in F-1 (Brier). Book stayed dead through a −2.46% KRE day ($2.2K liq 11/06).
