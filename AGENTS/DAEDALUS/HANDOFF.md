@@ -1,6 +1,6 @@
 # DAEDALUS current handoff — November 7, 2026
 
-**Stop after the three authorized deliverables; await prioritization.** CARL scoring/report and contest packet committed b5e629ac1e; November 6 weekly scorecard committed 61754aa646. Current plan: `runs/2026-11-07_DISPOSITION_PLAN.md`. This opening supersedes older resume instructions below; those remain history, not an active launch list.
+**Stop after the three authorized deliverables; await prioritization.** Publication: 7ae2d6edaa confirmed on origin; gate verify 20261107T162953Z rc 0. Recipient consumption remains unverified. CARL scoring/report and contest packet committed b5e629ac1e; November 6 weekly scorecard committed 61754aa646. Current plan: `runs/2026-11-07_DISPOSITION_PLAN.md`. This opening supersedes older resume instructions below; those remain history, not an active launch list.
 
 CARL: 11 binary resolutions, original/earliest-known Brier 0.4795, eligible marks 0.4209, CRL-21 60%. CRL-15 basis/public-outcome timing withheld; CRL-23 prospective timing supported but 15% rationale contested. Both OPEN, unscored. Exact report independently ACCEPTED; no CARL ledger/grade changed. Scorecard uses unchanged v1.3 and a fixed November 7 snapshot; later-entry/prior partial-day caveats retained.
 
