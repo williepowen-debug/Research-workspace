@@ -246,12 +246,14 @@ Detail → `IQHQ_PLAYBOOK.md`. Invalidation triggers for this channel listed in 
 - OREO is **$420M** (+43%), with **zero priced sales** in Q3. Management says sales take "several quarters" and gave no prices. Marks set by appraisal, untested by a sale, are exactly what v1.5 says lags.
 - Boston 10 Prospect is the one Q3 mark that was tested, and it broke: $37.3M lost and title taken.
 - A new $105.9M Boston land loan moved to substandard. Management guides NCO **elevated through 2027** (MC p.21). Future RaDD capital calls are anticipated "if needed" (10/21 call).
-- ≈$207M of the −$313M special-mention flow is not itemized. It could still have moved to substandard, nonaccrual or OREO, and the 10-Q (~11/5) settles it.
+- The −$313M special-mention flow is still not named credit by credit, but the 10-Q closed the question that mattered: at least $208.1M took no adverse route (`reports/2026-11-07_Q3_10Q_READ.md` §2). Invalidation 6 stays UNKNOWN on its letter; the working read is benign.
 
 **Verdict: the case against won on the aggregate and on the catalyst; the thesis survives only as an OREO-marks question.** That is what v1.7 🟡 LOW encodes. The forward tests that could retire it are THESIS invalidation 6–8 (check-by 11/16 and the Q4 print).
 
 **Confidence: HIGH that capital is not at risk. LOW-MEDIUM that OREO marks are overstated** (direction supported by one tested asset, Boston; no sale prices yet).
 
 ---
+
+**Added 2026-11-07 (Q3 10-Q + Call Report), the case against gained two more points:** (1) **THESIS invalidation 8 FIRED:** `RIAD5409` $42,437K at 6/30 and 9/30, zero Q3 debt-on-debt charge-offs, so the H1 print reads as a one-off so far (one quarter; `RIAD5409` has coded late once). (2) Special mention left mostly by benign routes, per above. Still standing for the bear side: no RESG OREO sale priced, OREO holding cost $9.8M in Q3 against $1.3M a year earlier, ACL ratio 1.19% vs 1.23% at 6/30, a remaining special-mention condo credit (likely the $147M at 105.6% LTV, INFERRED).
 
 *All weakness rebuttals are data-backed and primary-sourced. **As of Q3 (2026-10-22) the thesis does NOT fully survive its own stress test:** C7 and C10 won on the aggregate; what survives is the narrower OREO-marks claim (v1.7 🟡 LOW).*

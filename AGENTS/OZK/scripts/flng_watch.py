@@ -24,7 +24,8 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 
 # Baseline = newest filing already READ by the desk. Advanced 2026-10-22 (D:L793 item 4) from 11981 (Q2'26 10-Q,
 # 2026-08-05) to 12022 (Q3'26 8-K bundle, 2026-10-20) — 12019 (10/12 RaDD 8-K) and 12022 were both read, and
 # leaving the baseline behind printed them as NEW at every boot. Advance it again after each filing is read.
-BASELINE_ID = 12022
+# Advanced 2026-11-07 from 12022 to 12040 (Q3'26 10-Q, FDIC index 2026-11-06, read pp.1-70).
+BASELINE_ID = 12040
 # Coverage floor: the list held 182 filings on 2026-09-24 and only grows. A response far below it is truncated.
 MIN_ROWS = 170
 

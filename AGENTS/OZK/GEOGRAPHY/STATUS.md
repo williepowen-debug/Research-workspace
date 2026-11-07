@@ -20,7 +20,7 @@ The core finding from March still holds: **geography is not the risk; the inters
 | **Six metros** | **$7,722M** | **$6,451M** | **−16.5%** | **23.6% → 25.4%** | RESG named classified + OREO in these metros ≈ $522M (DERIVED from STATUS §Problem Credits) |
 | *Outside the six* | | | | | Baltimore land $40.0M nonaccrual (sale contract, close Q4-26/Q1-27) · Lake Tahoe $23.6M substandard accrual (since Q4-2019) |
 
-Special mention ($303M bank-wide, −$313M in Q3) is **not itemized by metro**; the Q3 10-Q (~11/5) may say where it went.
+Special mention ($303.5M bank-wide, −$312.8M in Q3) is **not itemized by metro**, and the Q3 10-Q (filed 11/6) did not change that: two RESG credits $209.9M (condo, office), no location. At least $208.1M of the RESG decline took no adverse route → `../reports/2026-11-07_Q3_10Q_READ.md` §2. Foreclosed plus nonperforming by state at 9/30 (10-Q p.44): MA $132.0M · WA $104.6M · CA $97.3M · GA $51.1M · IL $47.6M · MD $40.0M.
 
 ## Rest of the book (Q3-26, Fig 16)
 
@@ -51,7 +51,6 @@ KB-OZK-107–132 (Mar-26 build) · 189–193 (Q1-26 adds) · **264** (345 N Morg
 
 ## Next
 
-- Q3 10-Q (~11/5): special-mention −$313M by credit; any metro concentration it names.
 - Rebuild `EXPOSURE_MAP.md`'s MSA table on Q3-26 only if a decision needs it (the table above carries the problem metros).
 
 ---

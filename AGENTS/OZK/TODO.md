@@ -1,6 +1,6 @@
 # OZK — Research TODO / Backlog
 
-**Last updated:** 2026-10-28 22:5x ET — **catch-up session with Will** ("1 2 3 all approved", 22:44 ET): SCENARIOS prices re-based (**P-OZK-9**, Will 22:52 ET, EV $48.56) · **C4 severity refresh DONE** (KB-268/269 supersede 177) · **R2 GEOGRAPHY + LIFE_SCI rebuilt on Q3** (PRIVATE_CREDIT + INSIDERS remain) · inbox drained · charter hot/cold split (L810) · READS attestation. Prior 2026-10-22 — D:L793 fix batch; P-OZK-7/8 applied.
+**Last updated:** 2026-11-07 — D5, D6, D7 and the R2 refreshes DONE (Q3 10-Q + Call Report graded → `reports/2026-11-07_Q3_10Q_READ.md`). Prior 2026-10-28 22:5x ET — **catch-up session with Will** ("1 2 3 all approved", 22:44 ET): SCENARIOS prices re-based (**P-OZK-9**, Will 22:52 ET, EV $48.56) · **C4 severity refresh DONE** (KB-268/269 supersede 177) · **R2 GEOGRAPHY + LIFE_SCI rebuilt on Q3** (PRIVATE_CREDIT + INSIDERS remain) · inbox drained · charter hot/cold split (L810) · READS attestation. Prior 2026-10-22 — D:L793 fix batch; P-OZK-7/8 applied.
 **Dated items also live in `CALENDAR.md`; this file is the research queue.**
 **▶ WORK ORDER (L690, Will-approved 10/12):** run the ready Q3 card at L520; review Horton unresolved disposition at original 10/14 checkpoint. Broader reserve-model rebuild **DEFERRED** pending decision-relevant Q3 inputs; no general subdomain refresh.
 
@@ -23,9 +23,9 @@
 | D3 | ✅ **DONE — Stage-1 graded 10/21, Stage-2 (call) read 10/22** → `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`; conviction re-grade proposed (P-OZK-7, Will-gated) · ~~Q3 scoring card READY~~ — prepared 10/12 under L690 | **Run** 10/20 AMC / 10/21 08:30 ET; check-by 10/31 | `workbook/Q3_2026_SCORING_CARD.md`; original priors/definitions unchanged, no Q3 observation graded. Boston/OREO/SM/earnings + remaining RaDD accounting/budget/rating questions |
 | ~~D4~~ | ✅ **DONE 9/24 — Q2'26 10-Q full read** → `research/threads/Q2_2026_10Q_READ.md` (+ Q2 MC credit pages). Roster turned over; Dec 18 misattribution found; RIAD5409 attribution inferred; RaDD pass-rated by elimination | — | ⭐ The Q1 read produced the debt-on-debt pillar and the $250.4M-at-$0-ALL deferral finding; the Q2 one is unread (keyword pass only). Q2'25 + Q3'25 10-Qs are local too |
 | ~~D3b~~ | ✅ **DONE — used in the 10/21 Stage-1 grade** (W1–W14 rows → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`) · ~~L520 W1–W14 collection pre-staged~~ | Q3 publication sequence | All existing workout rows in `workbook/Q3_2026_SCORING_CARD.md`. No priced OREO sale ⇒ exact unresolved phrase in card; retain early-Nov 10-Q needed legs |
-| D5 | **Insider pull after the Q3 print** (FDIC EFR cert 110) | re-pull ~11/5 with the 10-Q | Pulled 10/22: **no filing after 8/14** (blackout). Zero open-market buys since 7/6 |
-| D7 | **Q3 10-Q read** (D:L763) | **~Thu 11/5** (Q3 10-Qs filed 11/5/2024, 11/5/2025) | SM −$313M flow · RaDD reserve/readvance (OZK-09) · Sullivan · OREO roll-forward · OZK-02 property-type inputs · debt-on-debt balance |
-| D6 | **Q3 Call Report pull** (LOG-ONLY) | ~Nov 1-10 | ⏰ **FFIEC JWT expires 11/5 — Will action.** `RIAD5409` continuation · `RCON2746` vs Q3 10-Q debt-on-debt · Memo-10 PV05-09 |
+| ~~D5~~ | ✅ **DONE 11/7** — EFR cert 110: no filing after 8/14; zero open-market buys since 7/6 · ~~Insider pull after the Q3 print~~ | — | INSIDERS/STATUS stamped; its Q1-based body not rebuilt |
+| ~~D7~~ | ✅ **DONE 11/7** — Q3 10-Q read pp.1-70 (FLNG 12040, filed 11/6) → `reports/2026-11-07_Q3_10Q_READ.md` · OZK-02 property-type inputs NOT drawn: the 10-Q table is bank-wide, not RESG | — | — |
+| ~~D6~~ | ✅ **DONE 11/7** — `RIAD5409` Q3 increment $0, `RCON2746` $441.7M = 10-Q; ledger row added. Memo-10 PV05-08 not re-tabulated | — | Token exp claim 2027-01-31 |
 
 ## 2. Owed checks (undated, overdue)
 
@@ -42,7 +42,7 @@
 | # | Item | Priority | Note |
 |---|---|---|---|
 | R1 | **Re-derive SEVEN_CREDIT's $150-300M reserve-build estimate** on the **Q2 roster** (`research/threads/Q2_2026_10Q_READ.md` §2) + SM concentration (5 credits $529M) | **DEFERRED by L690** | Rebuild only if Q3 supplies decision-relevant new classifications/cash prices/retained balances; not commissioned now. Single-supported since the 37.6% input died; the Q1 roster it used has turned over (Sullivan cured; Chapter I/II + Atlanta foreclosed) Inputs now on file: KB-269 (OZK loss ≈20–25% at transfer) + the 10/28 severity thread §3 (named book ≈$44–158M ahead). |
-| R2 | **Refresh the remaining subdomain STATUS files** — INSIDERS · PRIVATE_CREDIT (GEOGRAPHY + LIFE_SCI ✅ rebuilt 10/28 on Q3) | 🟡 | INSIDERS with the ~11/5 EFR re-pull (D5); PRIVATE_CREDIT after the 10-Q debt-on-debt balance (D7) |
+| R2 | **Refresh the remaining subdomain STATUS files** — PRIVATE_CREDIT ✅ stamped 11/7; INSIDERS header ✅ stamped 11/7, Q1-based body and its 13-score convergence still un-rebuilt | ⚪ low | Rebuild the INSIDERS body only if a new filing appears |
 | R4 | **Does OZK populate MI3 from the debt-on-debt book only?** | 🟡 | MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose ever reported from item 4 |
 | R5 | **Primary BPRE marks/Alewife funding refresh DONE10/12** | Video Q&A access gap remains | June common mark $317.4M, subsequent $270.6M (−14.73%, disclosedAugust28); September30 equity weights5.3%+2.6%. Alewife fundedSeptember28 terms verified. Written replay summary consumed; no video transcript. Source artifact preserves instrument/date/denominator limits. Trade construction remains TERRY/BROCK/Will |
 | R6 | **OZK-04 roster freshness** — its numerator is our own SEVEN_CREDIT roster | 🟡 before Q4 print | Gradeable at the Q4'26 print only if the roster is current |

@@ -134,3 +134,19 @@ Next resolvers: call transcript (Stage-2), Q3 10-Q (~early Nov), Q3 Call Report 
 | Loss outlook | MC p.21: NCO may remain "elevated" in 2026–27, "improving trend in 2027"; CEO: cycle "largely behind us" by YE-2027 | earnings drag, not capital event |
 
 **Stage-2 net:** adds nothing toward stress; closes no open leg. Conviction re-grade proposed to Will as **P-OZK-7 (🔴🔴 → 🟡 LOW), not applied**. Remaining resolvers: Q3 10-Q (~early Nov; RaDD reserve, SM flow, Sullivan, OREO roll-forward) and the Q3 Call Report (`RIAD5409`; FFIEC JWT expires 11/5, Will action).
+
+---
+
+## RESULTS — 10-Q and Call Report leg (2026-11-07; FDIC FLNG 12040 filed 11/6; FFIEC pull 11/7 11:55 ET; detail → `reports/2026-11-07_Q3_10Q_READ.md`)
+
+| Row | Observation | Read |
+|---|---|---|
+| R1 RaDD recognition | No RaDD-specific reserve or charge-off named; Q3 OCRE + CLD gross leave ≤$0.3M unattributed | OPEN/STUCK; no valid bound under $140M |
+| R2 9/30 rating | Pass on the 10-Q's own tables (all SM $303.5M, all substandard $270.7M, both below funded balance) | VERIFIED by arithmetic |
+| R3 / R5 readvance, funding | 10-Q silent; 10/9 paydown is post-period; no subsequent-events note | UNKNOWN |
+| W1 Sullivan | Not named | UNKNOWN |
+| W6 OREO sales | Q3 in $135.7M, sold $3.6M, written down $4.4M. **No OREO sale priced in Q3** | Delayed-loss hypothesis untested |
+| SM $616.2M | RESG five credits $529.2M → two credits $209.9M; adverse exits ≤$111.2M | At least $208.1M benign; invalidation 6 UNKNOWN on the letter |
+| Nonaccrual, no-ALL | $89.1M; $45.4M with no ALL; FV $74.0M; ALL allocations $15.1M; management discount weighted 31% | Book drained into OREO, not cured: −$211.3M of which OREO $132.0M, charge-off $37.3M |
+| Debt-on-debt | $441.7M; `RIAD5409` Q3 increment $0 | OZK-10 FALSE (Brier 0.1225); invalidation 8 FIRED |
+| Notes reset, buyback | 6.14% confirmed p.58; Q3 0.65M at $48.21; October 0.60M at $45.62 | Known cost; bank bought the October drop |

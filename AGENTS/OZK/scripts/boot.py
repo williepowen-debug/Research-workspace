@@ -40,9 +40,10 @@ CATALYSTS = [
     ("2026-10-06", False, "🟡", "Bluerock BPRE roadmap webinar — IQHQ mark/exit talk (context, not a grade)"),
     ("2026-10-21", False, "🔴", "Q3 2026 earnings (Tue 10/20 after close) + call Wed 10/21 8:30 ET [OZK release 9/30] — mgmt's self-set \"~92 day\" RaDD report-back"),
     ("2026-10-20", False, "🟡", "NEA/USRE2021-1 original expected repayment (ARD); legal final 2061; amendments/payoff UNKNOWN, trustee sign-in; not automatic Affinius corporate default (C5 read 10/12)"),
-    ("2026-11-05", False, "🟠", "FFIEC JWT EXPIRES — renewal is a Will action (PWS login); blocks the Q3 pull"),
-    ("2026-11-05", True,  "🔴", "Q3 10-Q (FDIC; Q3 10-Qs filed 11/5/2024 + 11/5/2025) — SM −$313M flow, RaDD reserve/readvance, Sullivan, OREO roll-forward (D:L763)"),
-    ("2026-11-07", True,  "🟠", "Q3 2026 Call Report (REPDTE 20260930) — LOG-ONLY, Z6 never re-grades"),
+    ("2026-11-05", False, "🟠", "FFIEC JWT renewed — pull worked 11/7; token exp claim 2027-01-31 (renewal is a Will action, PWS login)"),
+    ("2026-11-06", False, "🔴", "Q3 10-Q ✅ filed 11/6 (FLNG 12040), read 11/7 → reports/2026-11-07_Q3_10Q_READ.md"),
+    ("2026-11-07", False, "🟠", "Q3 2026 Call Report ✅ pulled 11/7 — OZK-10 RESOLVED FALSE, invalidation 8 FIRED"),
+    ("2026-11-10", True,  "🟡", "FINRA short interest, 10/30 settlement — first post-print read (vs 18.89M at 10/15)"),
     ("2027-01-19", True,  "🔴", "Q4'26 print — resolves OZK-02/03/04; closes OZK-09 Option-2 window (Q4 prints Jan 16-20, 2023-26)"),
 ]
 # Sync note (2026-08-23): the two 2026-10/11 rows and the JWT row were absent here while present in
@@ -61,8 +62,8 @@ STANDING_WATCH = [
      "Q3 2026", "2027-01-19"),
     ("Past-due >$550M or >2.0% — Q3'26 $88M/0.26% (Q2 $298M/0.92%) [FLNG 12022 MC Fig 22]",
      "Q3 2026", "2027-01-19"),
-    ("IQHQ specific reserve — none named in Q3 written or call (CEO: \"[a] pass credit\", 10/21); Q3 10-Q reserve leg pending → OZK-09 OPEN/STUCK",
-     "Q3 2026", "2026-11-05"),
+    ("IQHQ specific reserve — none named in Q3 written, call or 10-Q (FLNG 12040); pass at 9/30 on the 10-Q tables; no valid bound under $140M → OZK-09 OPEN/STUCK",
+     "Q3 2026", "2027-01-19"),
 ]
 
 # OZK price bands (STATUS Signal Dashboard).

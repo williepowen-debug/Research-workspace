@@ -1,14 +1,14 @@
 # OZK — Dashboard
 
-**Updated:** 2026-11-02 — sub-notes opening call-notice check **SWEPT AND EMPTY**; live price sync → `research/threads/2026-10-01_SUBNOTES_RESET.md` §6. Data-staleness sweep complete; prioritized remediation inventory → `reports/2026-11-02_data_staleness_sweep.md` (audit only, no grades moved). Prior 10/28 catch-up → MEMORY §LAST SESSION.
-**Price:** **$51.78** [fetch.py 2026-11-02 11:10 ET, +2.23%; KRE +2.5%] · 10/28 close $50.51 · 10/21 call-day close $48.09 (+4.18%, 3.31M sh = 1.84× avg) with KRE flat · <$45 previously FIRED 10/6, above band now · <$40 **$11.78 / 22.7% below** | **TBV:** $47.50 [Q3'26] | **P/TBV:** ~1.09×
-**Thesis:** RESERVOIR **v1.7** — **Conviction: 🟡 LOW** (re-graded from 🔴🔴 HIGH 2026-10-22, P-OZK-7, Will-approved WQ-483): RaDD catalyst removed (executed Dec-2029 extension, fresh $100M, CEO "pass credit") and the Q2 adverse-selection conjunction did not repeat; residual = OREO/Boston marks untested by sales, NCO elevated through 2027 per management — an earnings drag, not a capital event. **OZK-09 OPEN** (45% scoring prior; recognition measurement STUCK → Q3 10-Q); A30/B45/C8/D17 and ~$129M EL are **pre-outcome model records on $555M**, not refreshed forecasts | **Scenarios:** Bear 20 / Base 50 / Bull 28 / Tail 2 (P-OZK-8, 10/22) · prices re-based on Q3, **EV $48.56** (P-OZK-9, Will 10/28; was $44.41) → `SCENARIOS.md` | **KB:** 269 rows / 37 groups
+**Updated:** 2026-11-07 — **Q3 10-Q read (FDIC FLNG 12040, filed 11/6) and Q3 Call Report graded.** Invalidation 8 FIRED · OZK-10 RESOLVED FALSE · invalidation 6 UNKNOWN on the letter, benign on the arithmetic · OZK-09 OPEN/STUCK · conviction unchanged → `reports/2026-11-07_Q3_10Q_READ.md`. Prior 11/2 → MEMORY §LAST SESSION.
+**Price:** **$50.64** [fetch.py, 11/6 close, −0.88%, pulled 2026-11-07 12:02 ET; KRE $72.20, −0.15%] · 11/2 11:10 ET $51.78 · 10/21 call-day close $48.09 · <$45 previously FIRED 10/6, above band now · <$40 **$10.64 / 21.0% below** | **TBV:** $47.50 [Q3'26] | **P/TBV:** ~1.07×
+**Thesis:** RESERVOIR **v1.7** — **Conviction: 🟡 LOW** (re-graded from 🔴🔴 HIGH 2026-10-22, P-OZK-7, Will-approved WQ-483): RaDD catalyst removed (executed Dec-2029 extension, fresh $100M, CEO "pass credit") and the Q2 adverse-selection conjunction did not repeat; residual = OREO marks untested by sales, NCO elevated through 2027 per management — an earnings drag, not a capital event. **The 11/7 10-Q and Call Report narrowed it further: no leg reopened the stress case.** **OZK-09 OPEN** (45% scoring prior; recognition measurement STUCK after the Q3 10-Q → Q4 print and 10-K); A30/B45/C8/D17 and ~$129M EL are **pre-outcome model records on $555M**, not refreshed forecasts | **Scenarios:** Bear 20 / Base 50 / Bull 28 / Tail 2 (P-OZK-8, 10/22) · prices re-based on Q3, **EV $48.56** (P-OZK-9, Will 10/28; was $44.41) → `SCENARIOS.md` | **KB:** 274 rows / 37 groups
 **Short interest:** **~18.6% of float** (18.89M sh, **10/15/26** FINRA via Nasdaq API, pulled 10/28; float % derived on the 6/30 basis), **DTC 9.2** (fell from 13.5 because average volume rose to 2.06M) — up from 17.60M (9/30) and 16.51M (9/15); **highest share count of the 25 settlements since 10/15/25** [KB-266]. The 10/15 settlement predates the 10/20 print, so it does not test the call-day covering inference; the **10/30 settlement (~11/10)** does. [refresh at each settlement]
-**Next:** Q3 10-Q **~Thu 11/5** (Q3 10-Qs filed 11/5/2024 and 11/5/2025 per FDIC index; D:L763 says 11/6) — SM −$313M flow, RaDD reserve/readvance, Sullivan, OREO roll-forward · Q3 Call Report ~Nov 1–10 (FFIEC JWT expires 11/5 — Will action) · sub-notes call-notice window 11/2→12/22 (D:L588). Horton 10/14 checkpoint passed with occupancy UNRESOLVED.
+**Next:** FINRA short interest ~Tue 11/10 (10/30 settlement, first post-print read) · sub-notes call-notice window to 12/22 (D:L588) · Boston land $105.9M matures Dec 2026 · Baltimore note sale close Q4-26/Q1-27 · Q4 print ~1/19/27 (OZK-02/03/04, OZK-11/12, invalidation 7). Horton occupancy UNRESOLVED, event-driven only.
 
 ---
 
-## Positions — Fidelity OZK Nov-20 $40P ×4 (last broker view: FORGE 10/22 11:01 ET; no newer reconcile at 10/28)
+## Positions — Fidelity OZK Nov-20 $40P ×4 (last broker view read here: FORGE 10/22 11:01 ET; no broker data received this session)
 
 **FORGE reconcile 10/22 (ANVIL, Will's Fidelity paste 11:01 ET, intraday marks):** ×4 held, mark **$0.05**, value **$20.00**, **−$302.65 / −93.8%** on broker basis $322.65 [`FORGE/STATUS.md` OZK row]. **Will approved SELL ×4 on 10/14** (WQ-428, TERRY card `MGMT-OZK40P-NOV20`, window 10/15 – 10/19 15:30 ET, backstop 10/20 15:30 ET, day limit never market); **no sell order is visible in the 10/22 capture** (FORGE D-82 "approved sells not evidenced"). Whether an order was placed and not filled is **UNKNOWN**. Strike $40 = this desk's <$40 band. Conviction is now 🟡 LOW (WQ-483). This desk supplies the evidence, never the management: **TERRY owns the card, Will the order** (root rule #5). Prior book: both Aug-21 puts ($45P ×4, $42.5P ×1) **expired worthless** under Will's 8/4 RIDE ruling; realized **−$1,686.37 / −100%** ($0 settle tape-inferred, not broker-confirmed). ⛔ **D1/OZK-salvage RULED-CLOSED** — no re-present, no successor. Detail → `POSITIONS.md`.
 
@@ -18,6 +18,7 @@
 
 | Date | Event | Read |
 |---|---|---|
+| **11/7 10-Q + Call Report read** (new vs known split → report §9) | SM: RESG five credits $529.2M → two $209.9M; adverse exits ≤$111.2M. `RIAD5409` unchanged at $42,437K. OREO no RESG sale. RaDD pass on 10-Q tables. FHLB $600M, average borrowings $296.8M. TD Cowen "downgrade" in WALTER mail is the 7/6 action, already KB-216 | **No leg reopened stress.** Invalidation 8 FIRED, OZK-10 FALSE (Brier 0.1225), invalidation 6 UNKNOWN on the letter, OZK-09 STUCK → `reports/2026-11-07_Q3_10Q_READ.md` [FDIC FLNG 12040] |
 | **10/28 desk refresh** | **Severity:** OZK's own loss when it takes a 2026 problem loan through foreclosure or recap = **≈20–25% of the balance** (six resolutions, 7–32%; KB-269), while 2026 market trades of vacant/partly leased office and lab clear **50–90% below prior sale** (KB-268). The unobserved leg is the OREO exit ($416.0M RESG, no sale priced): a 10–30% discount to carrying makes the all-in loss ≈29–47%. **Geography:** the six problem metros shrank −16.5% vs the RESG book −22.3% since Q1-25, share 23.6% → 25.4% (KB-267) | Named RESG problem book ≈$44–158M of loss ahead (desk model) vs PPNR $261.4M/qtr — an earnings drag, consistent with v1.7. Moves no grade → `research/threads/2026-10-28_SEVERITY_COMP_REFRESH.md`, `GEOGRAPHY/STATUS.md` |
 | **10/20–10/27 press (filed 10/28)** | **345 N Morgan** (Chicago, Sterling Bay): DekaBank $79M financing reported to pay off the matured ~$70M OZK construction loan (Trepp 10/27; TRD 10/23 via Crain's — one source chain) [KB-264]. **Culver City:** OZK named lender on a $132.7M 5-yr construction loan, 344 apartments (Berkadia 10/20) [KB-265] | Mildly contrary: a legacy Sterling Bay credit likely exits (payoff primary unread, zero loss not certified) and RESG still originates multifamily construction. Moves no grade. `GEOGRAPHY/EXPOSURE_MAP.md` annotated |
 | **10/21 call · Stage-2 read 10/22** | CEO calls RaDD "[a] pass credit"; no reserve/readvance discussed; 45-day bridge was for mezz + equity to agree **future capital contributions "if needed"**; "lab demand is not what it was" (marketing widened to office/non-lab). OREO: buyers on all 7 main properties except Atlanta (leasing), "appropriately valued", "several quarters", no price. SM −$313M flow **not itemized**. MC p.21: NCO may stay **elevated in 2026–27**, improving in 2027. Oct 1–19 RESG payoffs ≈$690M, Q4 "perhaps record". Below the 300% CRE guideline. Portico (Oakland) was a full payoff | **Adds nothing toward stress, closes no leg.** OZK-09 OPEN/STUCK → 10-Q. Secondary transcript (TradingKey), short quotes only → `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md` |
@@ -33,9 +34,9 @@
 
 ---
 
-## Q3 2026 Snapshot — Stage-1 graded 10/21 · Stage-2 (call) read 10/22 · 10-Q leg PENDING ~11/5
+## Q3 2026 Snapshot — Stage-1 graded 10/21 · Stage-2 (call) read 10/22 · 10-Q and Call Report graded 11/7
 
-*Primary: FDIC 8-K bundle FLNG 12022 (`raw/Q3_2026_8K_bundle.pdf`), MC Fig 22–23 pp.23–25. Grade detail → `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`, `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`, card `workbook/Q3_2026_SCORING_CARD.md`. Q2 snapshot + Q2 Call Report tables → `archive/STATUS_HISTORY_2026-10-22.md` (verbatim).*
+*Primary: FDIC 8-K bundle FLNG 12022 (`raw/Q3_2026_8K_bundle.pdf`), 10-Q FLNG 12040 (`raw/Q3_2026_10Q.pdf`). Detail → `reports/2026-11-07_Q3_10Q_READ.md`, `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md`, `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`, card `workbook/Q3_2026_SCORING_CARD.md`. Q2 snapshot + Q2 Call Report tables → `archive/STATUS_HISTORY_2026-10-22.md` (verbatim).*
 
 | Metric | Q3 26 | vs Q2 | Read |
 |---|---|---|---|
@@ -46,9 +47,9 @@
 | RESG total commitments | $25.4B | −$0.3B | Q2 adverse-selection conjunction did **not** repeat (both fell) |
 | NPA | $510M / 1.18% | 🟢 vs $593M / 1.42% | Nonaccrual $89M + OREO $420M — the mix moved into OREO |
 | Provision / ACL | $47.8M / $621.1M | ACL +$3.3M | ties 617.8 − 44.5 + 47.8 |
-| TBV / CET1 | $47.50 / 11.44% (prelim) | −$0.91 / −36bps | TBV fall attributed to AOCI |
+| TBV / CET1 | $47.50 / **11.45%** (10-Q final; 11.44% prelim) | −$0.91 / −35bps | TBV fall attributed to AOCI, −$241.4M; AOCI excluded from CET1 by election |
 
-**Open legs → Q3 10-Q (~11/5):** where the SM −$313M went (only Boston land $105.9M itemized) · RaDD reserve/readvance (OZK-09) · Sullivan · OREO roll-forward · debt-on-debt balance. **Q3 Call Report (LOG-ONLY):** `RIAD5409` continuation — FFIEC JWT expires 11/5 (Will action). **Kill-§1** stays FIRED-LITERAL · mechanism UNDETERMINED (Q2 Call Report); re-spec is P-OZK-4, Will-gated → `THESIS.md` §Invalidation, Q2 detail in the archive.
+**Legs closed 11/7:** SM −$313M: at least $208.1M took no adverse route, no credit named · RaDD: pass on the 10-Q's own tables, no reserve or readvance disclosed, OZK-09 STUCK · Sullivan: not named, W1 UNKNOWN · OREO roll-forward: Q3 in $135.7M, sold $3.6M, written down $4.4M · debt-on-debt: $441.7M · `RIAD5409`: Q3 increment $0. **Kill-§1** stays FIRED-LITERAL · mechanism UNDETERMINED (Q2 Call Report); re-spec is P-OZK-4, Will-gated → `THESIS.md` §Invalidation.
 
 ---
 
@@ -59,10 +60,10 @@
 | **Substandard nonaccrual — RESG (1)** | **Baltimore land** — matured 2025-12-18, 303 DPD; note under sale contract, close Q4-26/Q1-27, "net proceeds substantially equal" to balance, else title; LTV 67% as-is (Jun-26) | $40.0M of $89M bank-wide |
 | **Substandard accrual — RESG (2)** | **Boston land** $105.9M (NEW — SM → substandard in Q3; 77% as-is LTV, Dec-25 appraisal; matures Dec-2026) · **Lake Tahoe** lots/homes $23.6M (substandard since Q4-2019; 97% LTV) | $129.5M of $182M bank-wide |
 | **Foreclosed — RESG (7) = $416.0M** | **Boston 10 Prospect life sci $132.0M** (NEW — sale failed; title after $37.3M c/o; 80% of Sept-26 as-is) · Seattle office $56.1M · LA land $54.5M (contract did not close; new counterparty) · Seattle life sci $48.5M · Chicago life sci $47.5M · Santa Monica office $40.8M (cut $4.0M; 15% leased) · Atlanta office $36.6M ("meaningful leasing interest") | $420M bank-wide · **no OREO sale priced in Q3** |
-| **Special mention — bank-wide** | Not itemized in writing (Q2 had 5 RESG credits = $529.2M) | $303M (−$313M) |
+| **Special mention — bank-wide** | Two RESG credits **$209.9M** (condo, office; 10-Q p.14), unnamed. The condo is likely the Q2 $147M at 105.6% LTV (INFERRED). Q2 had five RESG credits = $529.2M | $303.5M (−$312.8M) |
 | **Resolved in Q3** | **The Jack** (Seattle office, $25.9M nonaccrual) recapitalized → pass · **Wauwatosa hotel** ($16.7M nonaccrual) paid off from sale, negligible recovery | |
 
-**RaDD ($579.1M funded post-paydown) is pass-rated at 9/30 by elimination** (larger than every classified bucket; CEO "[a] pass credit", 10/21 call). Q2 roster + Q1 dossiers → `archive/STATUS_HISTORY_2026-10-22.md`, `research/threads/Q2_2026_10Q_READ.md` §2, `SEVEN_CREDIT_DEEP_DIVE.md`.
+**RaDD ($579.1M funded post-paydown) is pass-rated at 9/30 on the 10-Q's own tables:** all special mention $303.5M and all substandard $270.7M are smaller than its funded balance, and no loans are doubtful or loss (pp.13-14). CEO "[a] pass credit", 10/21 call. Q2 roster + Q1 dossiers → `archive/STATUS_HISTORY_2026-10-22.md`, `research/threads/Q2_2026_10Q_READ.md` §2, `SEVEN_CREDIT_DEEP_DIVE.md`.
 
 ---
 
@@ -70,17 +71,19 @@
 
 | Signal | Current [date] | Watch Level | Fires |
 |---|---|---|---|
-| OZK price | **$51.78** [11/2 11:10 ET, fetch.py] · 10/28 close $50.51 · 10/21 close $48.09 | <$45 / <$40 | above both; <$40 $11.78 / 22.7% below |
+| OZK price | **$50.64** [11/6 close, fetch.py, pulled 11/7 12:02 ET] · 11/2 $51.78 · 10/21 close $48.09 | <$45 / <$40 | above both; <$40 $10.64 / 21.0% below |
 | Past-due loans | **$88M / 0.26%** [Q3] (Q2 $298M) | >$550M or >2.0% | 🟢 |
 | NCO (ann.) | **0.53%** [Q3] · 9M 0.59% (Q2 0.69%) | >80bps mid-year / **≤55bps kill** | 🟡 Q3 under the line; kill-§2 needs "sustained Q2–Q3" → NOT fired |
 | Classified+criticized | **$995M** [Q3] (Q2 $1,282M) | >$1.5B fires REGINALD/CREED | 🟢 fell 22% while RESG fell 1% — Q2 conjunction did not repeat |
 | RaDD leased % | ~3.3% (JCVI 50K SF, May 2025) | Any signing >100K SF | none found through 9/27 (web); none disclosed in Q3 written materials or call (10/20–10/21) |
-| IQHQ specific reserve | **None named** in Q3 written or call; CEO: "[a] pass credit" (10/21 call) | Any positive disclosure | Next: Q3 10-Q ~11/5 |
+| IQHQ specific reserve | **None named** in Q3 written, call or 10-Q; pass on the 10-Q tables; no valid bound under $140M | Any positive disclosure | Next: Q4 print and 10-K |
 | RaDD maturity | **December 2029**, extension **executed 10/9** [OZK 10/12 8-K Item 7.01] | OZK-09: qualifying extension + <$140M attributable recognition | Extension leg MET (fresh $100M); recognition UNKNOWN; row OPEN/STUCK, not FALSE or evidence for holding puts |
 | Sub notes reprice | **Reset 10/1 CONFIRMED by issuer** (Q3 MC p.35): 3M Term SOFR + 209bp, **6.14% for Q4-26**, Q4 NIM −3bp, Tier 2 −20%, callable at par each quarterly date [FDIC FLNG 12022] | Redemption/refi filing | drag ≈+$12.0M/yr pre-tax (supersedes ≈6.19% / ≈$12.3M estimate) · next call date 2027-01-01 · **11/2 FDIC + press SWEPT AND EMPTY** (thread §6) |
-| Insider buying | **Zero** open-market buys 7/6→10/22 (FDIC EFR cert 110: no filing after 8/14, pulled 10/22) | Any buy | CFO + 1 officer sold 8/12-13 · re-pull with the 10-Q ~11/5 |
+| Insider buying | **Zero** open-market buys 7/6→11/7 (FDIC EFR cert 110: no filing after 8/14, pulled 11/7 12:00 ET). Bank bought 0.60M at $45.62 in October | Any buy | CFO + 1 officer sold 8/12-13 |
+| Debt-on-debt | **$441.7M** [9/30, 10-Q p.40 = `RCON2746`], +$11.5M · `RIAD5409` Q3 increment $0 | Next YTD move | Invalidation 8 FIRED 11/7; ⚠️ the line coded late once |
+| FHLB / other borrowings | **$600M FHLB + $150M fed funds** at 9/30; Q3 average $296.8M; COIBD 3.27% | WQ-318 F: COIBD ≥3.34% + FHLB or brokered; N | INCONCLUSIVE stands; brokered and N limbs met |
 
-**Cross-feed (ref only — REGINALD owns):** KRE **$72.11** [10/28 close, −0.65%, own pull] (was $72.23 on 10/22 intraday, $68.89 on 10/7, $76.69 on 7/20). HY OAS / Brent / claims → read `../REGINALD/STATUS.md`; not refreshed here.
+**Cross-feed (ref only — REGINALD owns):** KRE **$72.20** [11/6 close, −0.15%, own pull 11/7]. HY OAS / Brent / claims → read `../REGINALD/STATUS.md`; not refreshed here.
 
 ---
 
@@ -88,21 +91,21 @@
 
 | Date | Event | Thesis Impact |
 |---|---|---|
+| **~Tue Nov 10** | FINRA short interest, 10/30 settlement | First post-print read vs 18.89M at 10/15; a drop tests the call-day covering inference |
 | **Mon Nov 2 → Tue Dec 22** | Sub-notes holder-notice window for a par call on **2027-01-01** (Fiscal Agency Agmt §8: 10–60 days' notice; D:L588) | A call = 🟠 REGINALD + PROME, recalculate (removes ≈$12.0M/yr cost and the notes' Tier 2). Notice need not be FDIC-filed — press check too |
-| **~Thu Nov 5** | **Q3 10-Q** (FDIC-filed; Q3 10-Qs landed 11/5/2024 and 11/5/2025; D:L763) | SM −$313M credit flow · RaDD reserve / readvance (OZK-09 leg) · Sullivan · OREO roll-forward · nonaccrual/collateral-dependent tables · debt-on-debt balance · OZK-02 property-type inputs |
-| **~Nov 1-10** | Q3 Call Report | LOG-ONLY: does `RIAD5409` keep printing? · `RCON2746` trajectory. ⏰ FFIEC JWT expires 11/5 (Will action) |
+| **Dec 2026** | Boston land $105.9M matures (substandard accrual, 77% as-is LTV, Dec-25 appraisal) | Payoff, extension or title. A title would add to OZK-11's OREO count |
 | **Q4'26 print (~late Jan 2027)** | OZK-09 Option-2 window closes | Recognition ≥$140M through this print, absent an executed extension; negative branch resolves only after a named 3-leg sweep |
 
 ---
 
 ## Open Items (live queue → `TODO.md`)
 
-1. **RaDD accounting after the executed extension** — no reserve, readvance or rating change named in the Q3 written materials or call; next resolver the **Q3 10-Q ~11/5** (D:L763). OZK-09 OPEN/STUCK. `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`.
-2. **Special-mention −$313M flow** — only Boston land ($105.9M → substandard) itemized; the rest resolves at the 10-Q.
+1. **RaDD accounting after the executed extension** — 10-Q silent on reserve and readvance; 10/9 paydown is post-period. OZK-09 OPEN/STUCK. Next resolver Q4 print and 10-K. `reports/2026-11-07_Q3_10Q_READ.md` §3.
+2. **Special-mention exit** — benign on the arithmetic, not named. Which credits left, and how much was cash, stays UNKNOWN. Watch the condo credit.
 3. **Horton occupancy UNRESOLVED** — bounded check 10/12 done, 10/14 checkpoint passed with no dated occupancy evidence; event-driven only → `research/threads/2026-10-12_HORTON_BOUNDED_CHECK.md`.
 4. **NEA/USRE2021-1 original ARD 10/20 passed** — repayment/extension outcome UNKNOWN (trustee report needs sign-in); not an automatic Affinius default → `research/threads/2026-10-12_AIMCO_AFFINIUS_CHECK.md`.
 5. 🟡 **Does OZK populate MI3 from the debt-on-debt book only?** MI3 ≡ PV09 every quarter ⇒ zero CRE-purpose balance ever reported from item 4.
-6. **Forward tests + forecasts:** THESIS invalidation 6 (10-Q SM flow) + 8 / OZK-10 (Q3 Call Report `RIAD5409`) check-by **Mon 11/16**; invalidation 7 + OZK-11/12 by the Q4 print (RESOLVE_BY 2027-03-01). SCENARIOS prices re-based on Q3 (P-OZK-9, Will 10/28).
+6. **Forward tests + forecasts:** invalidation 6 graded UNKNOWN on the letter · invalidation 8 FIRED · OZK-10 RESOLVED FALSE (all 11/7, ahead of the 11/16 check-by). Open: invalidation 7 + OZK-02/03/04/11/12 by the Q4 print (11 + 12 RESOLVE_BY 2027-03-01). OZK-04 is tracking toward invalidation at about 2.3%; all rows assessed as registered → `reports/2026-11-07_Q3_10Q_READ.md` §10. Invalidation 6 did not fire, so a later fire of 7 would not meet the 6 + 7 letter; the desk would still put the question to Will. SCENARIOS prices re-based on Q3 (P-OZK-9, Will 10/28).
 7. Will-gated, not applied: **P-OZK-1 / P-OZK-4 / P-OZK-5**. Applied: **P-OZK-6** (83aad459e, WQ-395) · **P-OZK-7** (v1.7, WQ-483, 10/22) · **P-OZK-8** (SCENARIOS re-weight Bear 20 / Base 50 / Bull 28 / Tail 2; Will in-session 10/22 12:42 ET) · **P-OZK-9** (prices re-based on Q3, EV $44.41 → $48.56; Will in-session 10/28 22:52 ET).
 
 *Done and removed 10/22: Bluerock/IQHQ primary refresh (10/12; limits → `research/threads/2026-10-12_THREE_GAP_DELIVERY.md`).* *Resolved July items (RESG "88%" phantom, Bluerock entity, 7/2 selloff, Boston sponsor, WAL-not-an-IQHQ-lender) → git history of this file + KB-195/196/197/198.*
@@ -117,6 +120,6 @@
 
 ## BOTTOM LINE
 
-**Q3 print + call (10/21–22): mostly contrary evidence, one confirmation, nothing new from the call.** Classified+criticized fell 22% to $995M, past-due fell to $88M, quarterly NCO 0.53% dropped under the 55bp line, RaDD was extended with $100M fresh capital and the CEO now calls it a pass credit, The Jack and Wauwatosa resolved, and refinance liquidity is driving record RESG payoffs (≈$690M in Oct 1–19). Against that: Boston 10 Prospect's sale failed, OZK took title with a **$37.3M** loss and holds it as $132.0M OREO; a $105.9M Boston land loan moved to substandard; OREO is $420M with **no sale priced** and management says sales take "several quarters"; management itself guides charge-offs **elevated through 2027**; future RaDD capital calls are anticipated "if needed". Credit costs are an earnings drag (PPNR 5.5× provision), not a capital event. Peers printed the same direction (ZION classified −$204M; EGBN NCO 0.25% vs 2.78%, though NPA rose to $166M on one loan — WALTER SIG-W-20261021-009/-013), so part of OZK's improvement is cohort-wide. **Conviction re-graded to 🟡 LOW (v1.7, Will-approved WQ-483, 10/22).** The open legs (SM flow, RaDD reserve, Sullivan, OREO marks) resolve at the ~11/5 10-Q. Nov-20 $40P ×4 at the last broker view (FORGE 10/22 11:01 ET: mark $0.05, value $20); strike 22.7% below the $51.78 price (11/2 11:10 ET). TERRY owns the card, Will the order. Detail → `research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md` (Stage-2), `research/threads/2026-10-21_Q3_PRINT_STAGE1_GRADE.md` (Stage-1).
+**The Q3 10-Q (filed 11/6, three days before the 11/9 deadline; read 11/7) and the Q3 Call Report did not reopen the stress case. The thesis is now one question: are the foreclosed-property marks right?** Special mention fell $312.8M; at least $208.1M of the RESG decline took no adverse route, and only Boston land ($105.9M) is named as moving to substandard. Debt-on-debt charge-offs were zero in Q3, so the H1 print reads as a one-off so far. RaDD is pass on the filing's own tables, with no reserve or readvance disclosed. Against that: **$420.4M of OREO with no RESG sale priced**, holding cost $9.8M in Q3 against $1.3M a year earlier (public since the 10/20 8-K), the ACL ratio down to 1.19%, a special-mention condo credit likely at 105.6% LTV, and management's own guide that charge-offs stay elevated through 2027. Credit cost is an earnings drag (PPNR $261.4M, 5.5× provision), not a capital event. **Conviction stays 🟡 LOW** (v1.7, WQ-483). Live reversal triggers: an OREO sale well below carrying, or a RaDD reserve or readvance. Watches, not triggers: the condo credit, `RIAD5409` in the Q4 YTD. Invalidation 6 did not fire, so a later fire of 7 would not meet the 6 + 7 letter; the desk would still put the question to Will. **Next action: Tue 11/10 short interest.** Book: Nov-20 $40P ×4 at the last broker view (FORGE 10/22 11:01 ET: mark $0.05, value $20); strike 21.0% below the $50.64 close (11/6). TERRY owns the card, Will the order.
 
-*Pre-print bottom line (10/12) and Aug–early-Oct developments → `archive/STATUS_HISTORY_2026-10-21.md` (moved 2026-10-21, read-cap rotation; verbatim).*
+*Superseded analysis stays in dated records: Stage-1 and Stage-2 threads above, `reports/2026-11-07_Q3_10Q_READ.md`.* *Pre-print bottom line (10/12) and Aug–early-Oct developments → `archive/STATUS_HISTORY_2026-10-21.md` (moved 2026-10-21, read-cap rotation; verbatim).*

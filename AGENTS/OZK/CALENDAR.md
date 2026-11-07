@@ -1,6 +1,6 @@
 # OZK CALENDAR
 
-**Last Updated:** 2026-10-28 — added the ~11/10 short-interest row (10/15 settlement 18.89M, KB-266); no date moved. Prior 2026-10-22 — Q3 call Stage-2 read (`research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`); past October rows pruned; 10-Q re-dated ~Thu 11/5 at the FDIC index. Prior 2026-10-21 Stage-1 grade.
+**Last Updated:** 2026-11-07 — Q3 10-Q (filed Fri 11/6, FLNG 12040) and Q3 Call Report graded; FFIEC login renewed, token exp claim 2027-01-31; rows moved to RESOLVED; Boston land Dec-2026 maturity added. Prior 2026-10-28 — added the ~11/10 short-interest row (10/15 settlement 18.89M, KB-266); no date moved. Prior 2026-10-22 — Q3 call Stage-2 read (`research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`); past October rows pruned; 10-Q re-dated ~Thu 11/5 at the FDIC index. Prior 2026-10-21 Stage-1 grade.
 
 *For multi-bank events (cohort earnings, Call Reports, AOCI, FL reinsurance) → `../REGINALD/CALENDAR.md`. Dated rows that PROME tracks: DOCKET L126 (sub-notes reprice), L463 (10/2 read).*
 
@@ -18,10 +18,13 @@
 | Date | Event | What to Check | Threshold / Signal |
 |------|-------|---------------|-------------------|
 | **Nov 2 → Dec 22** | Sub-notes **Jan-1-2027 par-call holder-notice window** (Fiscal Agency Agmt §8: 10–60 days before the call date; subject to regulatory approval) | **11/2 SWEPT AND EMPTY** — FDIC FLNG 184 returned, none after 12022; targeted press found no notice (`research/threads/2026-10-01_SUBNOTES_RESET.md` §6). `flng_watch.py` at every boot + next press check mid-Dec — a notice need not be FDIC-filed | A call = 🟠 → REGINALD + PROME and **recalculate** (removes ≈$12.0M/yr cost at the issuer's 6.14% AND the notes' ~$280M Tier 2; THESIS §Invalidation 4). Mgmt Q2'26: "no plans to replace them" |
-| **~Nov 1-10** | **Q3 2026 Call Report** (REPDTE 20260930, RSSD 107244) | Re-run `workbook/CALL_REPORT_SERIES.tsv`: **`RIAD5409`** (does debt-on-debt charge-off continue?) · `RCON2746` vs the Q3 10-Q debt-on-debt figure · Memo-10 PV05-09 · past-due basis fork · 30-89 → nonaccrual/OREO transit | **LOG-ONLY — never re-grades** predictions. **THESIS invalidation 8** (added 10/22): `RIAD5409` YTD still $42,437K = fired; check-by Mon 11/16 · **OZK-10** (35%, Q3 increment >0) resolves on the same pull, RESOLVE_BY 11/16 |
-| **Nov 5** | ⏰ **FFIEC CDR JWT expires** | Renewal = **Will action** (PWS login) | Blocks the Q3 Call Report pull if not renewed — check before ~Nov 1 |
-| **~Thu Nov 5** *(re-dated 10/22: Q3 10-Qs filed 11/5/2024 and 11/5/2025, FDIC index; D:L763 carries 11/6)* | Q3'26 10-Q (FDIC-filed) | p.37 debt-on-debt balance · sub-notes rate (issuer already printed **6.14%** for Q4-26 in Q3 MC p.35 — the 10-Q is a second confirmation) · **SM −$313M credit flow** · **RaDD reserve / readvance** · Sullivan · OREO roll-forward · nonaccrual / collateral-dependent marking · subsequent events | Feeds OZK-09's negative-branch sweep leg (3) · **THESIS invalidation 6** (added 10/22): ≥$200M of the SM decline to pass/payoff = fired; not itemized = UNKNOWN; check-by Mon 11/16 |
 | **~Tue Nov 10** | FINRA short interest, **10/30 settlement** (Nasdaq SI API) | Shares short vs 18.89M at 10/15 (~18.6% of float, the 12-month high) | First post-print settlement: a drop tests the call-day covering inference (STATUS, INFERRED); a rise means shorts added into the +4.2% move |
+
+## DECEMBER 2026
+
+| Date | Event | What to Check | Threshold / Signal |
+|------|-------|---------------|-------------------|
+| **Dec 2026** | **Boston land $105.9M matures** (substandard accrual, 77% as-is LTV, Dec-25 appraisal; MC Fig 23) | Payoff, extension or title; new appraisal; any charge-off | A title adds to OREO (OZK-11). Any migration of the $209.9M special-mention pair is the other Q4 watch |
 
 ## Q4 2026 PRINT (~mid/late Jan 2027)
 
@@ -47,6 +50,7 @@
 
 | Date | Event | Outcome | Live thread it feeds |
 |------|-------|---------|---------|
+| **Nov 6 filed · Nov 7 read ✅** | Q3'26 10-Q, FDIC FLNG 12040 (D:L763; actual deadline Mon 11/9, 40 days, large accelerated filer) + Q3 Call Report (RSSD 107244, pull 11/7 11:55 ET) | SM: at least $208.1M took no adverse route; invalidation 6 UNKNOWN on the letter. `RIAD5409` Q3 increment $0: invalidation 8 FIRED, OZK-10 RESOLVED FALSE. RaDD pass, OZK-09 STUCK. No RESG OREO sale | `reports/2026-11-07_Q3_10Q_READ.md`; invalidation 7, OZK-09, OZK-11 |
 | **Oct 9 execution / Oct 12 disclosure ✅** | RaDD bridge outcome (DOCKET L635) | Executed extension to December 2029, fresh $100M; WQ-395 extension leg MET; OZK-09 OPEN/STUCK on recognition attribution | `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`; L520 accounting resolver |
 | **June30 / August28 filing · read October12** | BPRE newer IQHQ marks obtained | June common equity **$317,371,980**, subsequent footnote **$270,611,845**, derived **−14.73%**; exact subsequent valuation day undisclosed. **Supersedes H2'25-only desk state**, not an October event | `research/threads/2026-10-12_IQHQ_FUNDING_AND_MARKS.md`; no class-specific price or OZK loss inferred |
 | **Aug 31 ✅** | IQHQ RaDD Aug-2026 maturity window | **SWEPT AND EMPTY** — FDIC FLNG zero Aug filings but the 8/5 10-Q (keyword-clean); press ×3 empty; recorder leg UNKNOWN. Quiet close = v1.5's pre-registered path; resolves nothing under the Option-2 ruling → `research/threads/IQHQ_AUG_WINDOW_CLOSE_SWEEP.md` | Q3 call report-back; OZK-09 |

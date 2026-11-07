@@ -10,3 +10,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-21T13:03:41Z	SIG-W-20261019-003	noted	INBOX_WALTER	HY 331bp x3 >320 info; REGINALD/RED own consequences; no OZK action
 2026-10-21T13:03:41Z	SIG-W-20261021-003	acted	INBOX_WALTER	Boston failed sale 37.3M c/o + OREO 132.0M verified at FDIC FLNG 12022 MC p.25 by OZK; integrated in Q3 Stage-1 grade W9
 2026-10-22T15:14:50Z	SIG-W-20261022-011	noted	INBOX_WALTER	HBAN/VLY/SSB bank sweep INFO; REGINALD owns cohort read. OZK tie-in: OZK ACL ratio also drifting down (~4bp/qtr per UBS on 10/21 call) while MC p.21 guides NCO elevated 2026-27 — same reserve-thinning shape; diagnostic only, no OZK action
+2026-11-07T17:10:45Z	SIG-W-20261031-026	noted	INBOX_WALTER	Q3 Call Report cohort read INFO; OZK nonaccrual and NCO fall is same-bank contrary evidence already held; OZK figures re-pulled at FFIEC 11/7; no OZK action
+2026-11-07T17:10:45Z	SIG-W-20261105-037	noted	INBOX_WALTER	OZK line checked: ScanX TD Cowen Buy->Hold $53 page metadata datePublished 2026-07-06, so a stale repost, already KB-216; TD Cowen latest found Hold, PT $52->$50 on 10/5; nothing new, no OZK action

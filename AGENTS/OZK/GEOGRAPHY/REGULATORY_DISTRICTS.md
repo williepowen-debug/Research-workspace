@@ -129,10 +129,9 @@ Districts sorted by loss recognition behavior:
 **Reading the matrix:**
 - **Top-left (high stress, recognizing):** Kansas City and partially Atlanta. These districts have high noncurrent AND are charging off. Stress is visible in reported metrics.
 - **Top-right (high stress, deferring):** New York. High noncurrent but wide PDNA/NCO gap. Stress is partially hidden — more charge-offs coming.
-- **Bottom-left (low stress, recognizing):** San Francisco (WAL's district). Low noncurrent, tightest gap. Losses hit the P&L fast. This is why WAL is a "fast transmission" thesis.
-- **Bottom-right (low stress, deferring):** Dallas (OZK's district). Low noncurrent, widest gap in country. **Maximum deferred loss recognition.** The "clean" number is most likely to deteriorate.
+- ⚠️ **Corrected 2026-11-07 (WAL packet 10/28, peer artifact `AGENTS/WAL/research/2026-10-28_KB-march-rows-review.md`; FDIC regional figures are REGINALD's lane):** the gap on this axis subtracts a point-in-time stock (PDNA) from an annual flow (NCO), so it is not like-for-like and does not measure recognition speed. San Francisco's 1.13% NCO is total-loan, about 83% loans to individuals and 61% cards; on nonfarm-nonresidential it was 0.14% vs 0.22% national. The March readings "losses hit the P&L fast" (SF) and "maximum deferred loss recognition" (Dallas) are **withdrawn**. Verbatim prior text: `git log -p` on this file.
 
-**OZK sits in the worst quadrant (bottom-right) by classification, but its actual loans are in top-right and top-left.** The bank gets Dallas's clean optics while carrying NY/Atlanta stress.
+**OZK's actual loans sit in other districts' geographies, not Dallas's.** No thesis figure rests on this matrix.
 
 ---
 
@@ -164,15 +163,15 @@ WAL (Western Alliance) is also in our short book. The FDIC district data reveals
 | NCO rate | 0.19% | 1.13% |
 | PDNA/NCO gap | 1.69pts (widest) | 0.54pts (tightest) |
 | 30-89 pipeline | 0.33% | 0.26% (cleanest) |
-| Loss recognition | Maximum deferral | Aggressive recognition |
+| Loss recognition | ~~Maximum deferral~~ withdrawn 11/7 | ~~Aggressive recognition~~ withdrawn 11/7 |
 
 ### Key Differences
 
 1. **OZK = reservoir thesis.** Stress accumulates, masked by extensions and reserve cuts. Maturity wall forces recognition Q1-Q3 2026. Losses appear gradually through the delinquency pipeline (30-89 → noncurrent → charge-off).
 
-2. **WAL = fast transmission thesis.** Losses reach the P&L directly. SF has the highest NCO rate (1.13%) despite low noncurrent (0.90%) — losses appear episodically (Cantor fraud pattern, Oct 2025), not through the standard pipeline.
+2. ~~WAL = fast transmission thesis~~ **Withdrawn 2026-11-07:** the 1.13% is mostly consumer and card losses, not CRE (see §6 correction). WAL dropped the framing at its v2.0.
 
-3. **Pipeline methodology works for OZK, breaks for WAL.** NY's 0.41% 30-89 rate predicts OZK's next wave. But SF's clean 0.26% pipeline doesn't mean WAL is safe — WAL losses bypass the pipeline entirely.
+3. **Pipeline methodology works for OZK.** NY's 0.41% 30-89 rate was read as OZK's next wave. ~~WAL losses bypass the pipeline~~ withdrawn 11/7: the same-basis CRE figures show no such signature at district level (§6 correction).
 
 4. **Position timing:** OZK puts (May/Aug) align with maturity wall + IQHQ Aug maturity. WAL puts (Jun/Sep) catch Jefferies contagion + Q1 earnings (~Apr 21).
 

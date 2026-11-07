@@ -1,5 +1,5 @@
 # INSIDERS STATUS
-**Updated:** 2026-07-06 (fresh pull via FDIC securities-filings API — 16 new Form 4s since Apr 12)
+**Updated:** 2026-11-07 (EFR cert 110 re-pulled 12:00 ET: 471 filings, **none after 8/14**, the Hicks and Wolfe Form 4s; zero open-market buys since 7/6; 10-Q p.64: no director or Section 16 officer adopted or ended a trading plan in Q3; bank bought 0.60M shares at $45.62 in October). Body below is unchanged and stays Q1-2026-based. Prior 2026-07-06 (fresh pull via FDIC securities-filings API — 16 new Form 4s since Apr 12)
 
 > ⚠️ **VINTAGE FLAG (2026-08-28 integrity sweep) — this file is PRE-Q2-PRINT and has not been refreshed against it.** Everything below is **Q1-2026-based**; the Q2 print (7/21-22) and the Q2 Call Report (8/7) are **not** reflected. Q2 moved the relevant aggregates materially: classified+criticized **$1,215M→$1,282M**, RESG commitments **$27.8B→$25.7B**, NPA **$446M/1.07%→$589M/1.41%**, OREO **+93%**, NCO **0.56%→0.69%**. **Do not cite figures below as current** — root `STATUS.md` is canonical. *(Flagged, not rewritten: a refresh is real analytical work, not a stamp. This banner is the honest state; silently carrying Q1 figures under a current-looking header is what it replaces — [[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]].)*
 

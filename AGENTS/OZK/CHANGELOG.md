@@ -2,6 +2,21 @@
 
 Tracks changes to `OZK/THESIS.md` and structural shifts in the OZK bear case. Mirrors `AGENTS/REGINALD/thesis/CHANGELOG.md` format. Sub-docs (IQHQ_PLAYBOOK, SEVEN_CREDIT_DEEP_DIVE, RESG_MIX_DETERIORATION, IQHQ_SECONDARY_EXPOSURE, CIB_MARGIN_COMPRESSION) carry the deep math; this log tracks thesis-level deltas only.
 
+## 2026-11-07 — Q3 10-Q + Q3 Call Report graded (NO THESIS VERSION BUMP — v1.7 and 🟡 LOW stand)
+
+**Authority:** registered letters only (THESIS §6–8, OZK-09, OZK-10); PROME spawn prome-bf, DOCKET L763 / L808. **Primary:** FDIC FLNG 12040 (filed 11/6); FFIEC SDF RSSD 107244, pull 11/7 11:55 ET. Detail → `reports/2026-11-07_Q3_10Q_READ.md`.
+
+| Item | Before | After |
+|---|---|---|
+| Invalidation 6 | OPEN | **UNKNOWN on the letter, benign on the arithmetic** (at least $208.1M took no adverse route vs $200M; no credit named) |
+| Invalidation 7 | OPEN | OPEN, not fired (no RESG OREO sale priced) |
+| Invalidation 8 | OPEN | **FIRED** (`RIAD5409` Q3 increment $0) |
+| OZK-10 | OPEN 35% | **RESOLVED FALSE**, Brier 0.1225 |
+| OZK-09 | OPEN/STUCK 45% | OPEN/STUCK 45% (sweep leg 3 run; RaDD pass on the 10-Q tables; no valid bound under $140M) |
+| Reversal triggers | Four live | Two spent (SM into classified, `RIAD5409` in Q3), two live. Wording unchanged. Condo credit is a watch, not a trigger |
+
+No conviction, weight, scenario, threshold or score moved. Why no bump: the residual claim (OREO marks untested) is unchanged and the letter says one fired item leaves conviction at LOW.
+
 ## 2026-10-28 (22:5x ET) — SCENARIOS price ranges re-based on Q3, P-OZK-9 (NO THESIS VERSION BUMP — v1.7 stands; prices live in `SCENARIOS.md`)
 
 **Authority:** Will verbatim 2026-10-28 22:52 ET in the OZK session: *"P-OZK-9 approved, go ahead"* — on the desk's proposal (`research/threads/2026-10-28_SCENARIOS_PRICE_REBASE.md`, commit cb546d8d9).
