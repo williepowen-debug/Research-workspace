@@ -22,26 +22,25 @@
 
 Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanup_MEMORY.md`; exact source-line/section map and verified CRCs → `reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check size at any append or on 2026-11-20, whichever first.
 
-⛔ **Resume here first:** Saturday 11/07 Call Report run and frozen ranking test DONE → `reports/2026-11-07_call-report-run/REPORT.md`; FDIC-dependent items carried (NEXT SESSION 00). Veterans Day: Wed 11/11 is a non-session for the REG-T-04 count, already confirmed (DOCKET line 711 RESOLVED 10/30), HY bar excluded and run bridged, apply by hand.
+⛔ **Resume here first:** Saturday 11/07 Call Report run and ranking test DONE → `reports/2026-11-07_call-report-run/REPORT.md`; ledgers at 9/30 → `reports/2026-11-07_ledger-refresh/REPORT.md`; FDIC-dependent items carried (NEXT SESSION 00). Veterans Day: Wed 11/11 is a non-session for the REG-T-04 count, already confirmed (DOCKET line 711 RESOLVED 10/30), HY bar excluded and run bridged, apply by hand.
 
 ⚠️ **Open question:** is Valley's reserve-into-rising-nonaccrual shape broad or name-specific across the population? The FDIC 9/30 universe answers it; the 11/07 run could not.
 
-### LAST SESSION — 2026-11-06 19:47 → 2026-11-07 09:25 ET, laptop `WilliePOwen`, session reginald-49, L180 on Will's yes via PROME
-- **Boot and hold:** full boot from files, intake zero, FFIEC verified with `--mechanics` on old quarters. Held overnight with no timer; window survived on battery, 86% at 09:07 ET. My first BOARD selector read the wrong frontmatter key; fixed against a positive control.
-- **Run, PROME prome-bf 09:07 ET → `reports/2026-11-07_call-report-run/REPORT.md`, commit e9b7371c63.** Ranking: no skill shown, baselines ahead on charge-offs. L180 BROADER on the letter, c = 3, m = 0, foreclosure limb only, rate test 0 of 5. Exit rail leg 2 not met. MI3 ranks re-citable on 9/30. FDIC 9/30 list 0 rows: (a), (d), (e), (f) UNKNOWN, not filled, FFIEC bulk not tried.
-- **Correction 09:26 ET:** the NEXUS line '§0 judgment moves only on L180 BROADER' caught it at closeout. I had told PROME the run changed nothing and the concentrated claim stood; the plan pre-registered otherwise. Report, STATUS, CHANGELOG corrected; PROME and Will told. PROME's C3 record came before this correction.
-- **WALTER answered V1V3 11/07:** no machine join breaks; packet in `inbox/processed/`.
-- **Decisions:** PROME recorded no change to the foreclosure limb under C3; the caveat and its direction go to Will in full. PROME told TERRY not to lean on the 8/20 score at Monday's pass. No score, band, threshold, gate or trade moved. No registered letter for the matrix re-score, so not run.
-- **Files:** MI3 and CRE ledgers rolled to 9/30; `mi3_cohort_screen.py` CRLF and `cre_rcn_cohort.py` hardcoded stamp fixed, no value changed; REG-T-02 row 11/06 $75.55, 48 rows, 0-of-3; KB ML-REG-290, 291; TRADE §2b no candidate; packets PROME, WALTER (doorbelled, ask by 11/20), FLG, OZK.
-- **Skipped:** matrix re-score; NDFI, RUNWAY, ACL_ROLLFORWARD refreshes, PROME says next session; research retirement sweep; DECK_EVIDENCE, POSITIONS, no score or broker change; read-cap item 7, rc 1 unchanged. Consumer check skipped, no threshold, band, split or flip level superseded.
+### LAST SESSION — 2026-11-07 09:42 ET → 2026-11-08 07:10 ET, session reginald-e6, PROME prome-bf on Will's word, held open between taps
+- **Boot:** Claude Code, Opus 5.5; SendMessage worked; failed connectors Indeed, Definite, MT Newswire, Desktop Commander, none needed. Git 0/0. Intake 0; corrections 0; no new applicable BOARD cards.
+- **Write-backs, commit 36a1f23409:** NDFI, RUNWAY, ACL ledgers at 9/30 by new builder `scripts/call_report_ledgers.py`, 362 prior rows reproduced, 0 differences → `reports/2026-11-07_ledger-refresh/REPORT.md`. Matrix warning added, no score moved. Four claims corrected: FLG tie outlier retired (168/168 tie with RIAD5523 and RIADC233); FLG runway not lengthening every quarter; CFG $44.5B is all NDFI; EGBN runway 1.28yr. New: FLG private-credit NDFI +100.1%, KB ML-REG-292. Six BOARD BACKFILL rows. Packets FLG, PROME.
+- **11/07 11:13 ET on PROME's word, d6a1168287:** STATUS line 13 had $1,571M and 87.5% / 1.6% as current; now $1,548M [9/30], shares labelled H1 only. Line 7 already carried $1,548M: the correction had not reached the judgment line.
+- **Closeout 11/08 on PROME's ask:** OZK 11/07 entry ACKed, no change (my 11/05 OREO difference closed on OZK's 10-Q split). FLG answers folded into STATUS line 7 (re-default cause, $128M placement), ROADMAP, KB ML-REG-293. WQ-653 applied: STATUS judgment, uncertainty and triggers checked against the FLG and OZK reads.
+- **Standing alerts at boot.py 11/08, all known:** WAL $75.55 below $78 [11/06]; FLG director buy 10,000 sh at $10.14 [10/28], already in STATUS 10/28; OZK FLNG 12040 is the Q3 10-Q, read 11/06.
+- **Skipped:** price grades (no session since 11/06); matrix re-score (no registered letter); research retirement sweep; DECK_EVIDENCE, POSITIONS (no score or broker change); 2 May action cards and 40 info BOARD cards still unlogged.
 
+*11/06 19:47 → 11/07 09:25 ET session (reginald-49) → `archive/MEMORY_rotation_2026-11-08.md` BLOCK M21, crc32 `54330b5a`.*
 *11/06 17:09 → 18:33 ET session → `archive/MEMORY_rotation_2026-11-07.md` BLOCK M20, crc32 `a795f24d`.*
 *11/06 09:55 → 16:51 ET session → `archive/MEMORY_rotation_2026-11-06c.md` BLOCK M19, crc32 `4886f48c`.*
 *11/05 sessions, 11/03 and 11/02 evening entries → `archive/MEMORY_rotation_2026-11-06b.md` BLOCK M17, crc32 `62c3cb93`. Prior NEXT SESSION list → BLOCK M18, crc32 `e0250fd5`.*
 *11/02 morning and midday, 11/01, 10/31 and 10/30 evening entries → `archive/MEMORY_rotation_2026-11-06.md` BLOCK M16, crc32 `c6b9b3e6`.* *10/30 09:05 ET session entry → `archive/MEMORY_rotation_2026-11-02.md` BLOCK M14, crc32 `6de3a7d5`.* *10/28 PRIOR SESSION entry → `archive/MEMORY_rotation_2026-10-30.md` BLOCK M13, crc32 `5d7d98d1`.*
 
 ### CHANGES SINCE LAST SESSION
-- 11/07 09:41 ET session, PROME prome-bf: boot clean; three ledgers refreshed, matrix warning added, four claims corrected; holding open, closeout only on PROME's word.
 
 ### NEXT SESSION
 00. **DONE 11/07 09:07 ET, report above. CARRIED:** when the FDIC 9/30 universe posts (0 rows 11/07 09:07 ET; ~mid/late Nov ESTIMATE): Friedberg four measures, reserve-release counts (d), (e), (f) per CALENDAR 11/07 row. Will's call pending via PROME: size for L180's foreclosure limb, my recommendation is no change after the result. Matrix re-score needs a registered letter. Fresh ranking frozen before Q4 prints, ~mid-Jan 2027, settle the foreclosure defect in the outcome first. NDFI, RUNWAY, ACL_ROLLFORWARD ledgers DONE 11/07 → `reports/2026-11-07_ledger-refresh/REPORT.md`; next quarter run `scripts/call_report_ledgers.py`.
@@ -51,8 +50,9 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 02a. **V1V3 rename, by 11/20:** propose token and change date by packet to WALTER; registry commit first, keep the old token as a retired alias in `registry/NOTES.md`, fix `threshold_thesis_ref`, notice TERRY for `REG-T-02_FIRE_PROCEDURE.md:62`, flag PROME for its test fixture.
 03. **Dated:** H.4.1 11/12; REG-T-06 grades 11/13 from the CFR; FDIC Q3 posting ~mid/late Nov for the frozen borrowing verdict; QBP ~11/25; REG-06 scan 11/30; combo reviews 11/20 and 11/30.
 04. **12/31 Call Report checks:** VLY K161+K162, REG-35 70% ≥ $95.0M, report 11/06 §3. BKU RCONF179 $21.3M, does it roll into F181 or F183, report §4.
-05. **Combination watch LIVE:** re-modified-cre, late-loans-outside-14, bank-vendor-breaches, bank-lending-to-private-credit, KB ML-REG-285..288. Add members on arrival.
+05. **Combination watch LIVE:** re-modified-cre, late-loans-outside-14, bank-vendor-breaches, bank-lending-to-private-credit, KB ML-REG-285..288.; private-credit members ML-REG-292, 293 (FLG +100.1%, FLG desk: new lending better supported, ~$0.5B open). Add members on arrival.
 06. **Standing:** cite Trepp multifamily 8.09% [Oct] only with the Cove at Tiburon caveat (HOMER). Send HANS any of: provider serves other euro banks, second bank on the route, ACPR/ECB/EBA/CERT-FR alert. Nano next evidence L515, L517, Fed OIG ~3/25/27. CCB 10-Q done, CASH and GDOT no filing since 10/26.
+07a. **BOARD backlog:** 2 May action cards (SIG-W-20260508-005, -006) and 40 info cards have no BOARD_LOG row; count by filename, old cards lack `signal_id`. Read and log, or record why not.
 07. **By 11/20, with the charter trim (DOCKET L889):** read_cap rc 1 is two linked defects from one cause: re-validate the reading copy for BOARD/SIG-W-20260619-008 (39,509 B; class-row member exception past its review date; PROME 11/05 says this is mine), re-attest READS, send PROME the WAL and OZK channel rows. DAEDALUS deferrals carry dates in my 10/31 reply; VX.tsv stale rows and POSITIONS Nov legs remain. Research retirement sweep partial: five moved 11/06, the remaining older reports not judged one by one.
 
 **CARRIED LESSONS — behaviour, not record.** *Newest first. Aging rule (9/02): full entry → one-line rule AND the full text goes to `archive/` verbatim + crc in the same pass. ⛔ Never age a lesson by deletion (the 12-21 compressions archived nothing; git history only). Preamble → BLOCK M7, crc32 `8028ecb4`.*
