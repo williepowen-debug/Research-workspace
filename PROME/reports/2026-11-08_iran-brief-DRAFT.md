@@ -83,3 +83,14 @@ Everything else held is bank, credit and index puts (KRE, OZK, ZION, WAL, APO, V
 - No oil price exists after Friday's close until the Sunday evening reopen; nothing above says what oil will do.
 - Saturday's new events are claims by one party each; none is established.
 - The book figures are 11/5 intraday marks, two to three days old by Sunday.
+
+---
+
+## READ 2 FILL — Sunday 2026-11-08, pulled forward to about 12:00 ET on Will's word 11:57 ET
+
+Sources: FALCON `AGENTS/FALCON/reports/2026-11-08_wq646-read2.md` (9b7d122d78, cutoff about 17:05Z); ORACLE `AGENTS/ORACLE/research/2026-11-06_ceasefire-break.md` § WQ-646 A read 2 of 2 (519ecd3d04, pulls 16:58Z, books 16:59Z to 17:00Z; WALTER packet 9b6404ed12). Both verified at the artifact 12:0x ET. Delivered to Will in chat the same hour.
+
+- **§1 FALCON:** no letter moved. B 1 / C 14 / D 85 HELD, convergence 43/50, losses 7, FAL-09 0 of 5, no 72-hour quiet running. Qeshm unchanged (US strike, attribution high, not explicit; Reuters 11/8: neither side commented). New: Houthi strike on an Aramco office tower in Riyadh's financial district 11/8 (Saudi Energy Ministry: shrapnel, minor damage, no casualties; Reuters witness: windows out over several floors) and a missile at the Eastern Province, intercepted, alerts at Abqaiq. D 85→92 NOT fired: an office is not production-class; Abqaiq damage is a Houthi claim only. Not counted: US aircraft disabled cargo ship HUDA 11/7 (CENTCOM on record; blockade enforcement, excluded from FAL-09 by the letter); Qeshm and Jask blasts Saturday evening (Iran state TV suggests its own activity); two UKMTO tanker events 11/7 and three new Iranian mine claims, no sinking. Card 056: NBC's own page carries the "window closing, act before January" limb; the oil-and-gas target line is not in NBC's open text, one relay only. Diplomacy 3: Qatar says talks continue; Axios reports a two-day blockade-for-inspectors sequence; no text, date or venue. Unreached: CENTCOM site and X, direct Reuters, AP, AFP.
+- **§2 ORACLE:** new Polymarket market "US x Iran Effective Ceasefire begins by…? (2 week pause)", listed 02:48Z 11/8: by-11/8 leg 23.5 (book 24/25), so about 76 that another qualifying US strike on Iran's land lands within 14 days; 11/15 36.0 · 11/22 48.5 · 11/30 62.5 · 12/31 80.0. ⚠️ two days old, $8K to $27K volume per leg, $400 to $5K within 2¢; different rule from the old event, not comparable. Old legs: through 11/05 99.7/99.8, through 11/06 99.0/99.3, open, windows close 20:29Z today and Mon on ORACLE's rule reading. Flat: WTI $110 Nov 17.0 · invade 10.5 · war 2.0 · Hormuz normal 12/31 8.5 (9.5) · Kalshi Brent >$97.99 47.0 (48.0), >$95.99 52.0 (56.0). Diplomacy legs fell: senior meeting 38.5 (44.5), enrichment-end 3.85 (6.95). Fed December hike raw 76.0 to 76.5. Resolver evidence still unreadable.
+- **§3:** no oil price until the reopen; the 18:07 ET reminder pulls the first prints.
+- **§6:** no decision for Will.
