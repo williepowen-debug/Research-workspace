@@ -1,42 +1,41 @@
-# BRENT SCRATCH — November 6 closeout (prome-51, Will's word 18:33 ET; closeout 2026-11-06 18:3x EST)
+# BRENT SCRATCH — November 8 pre-reopen read (PROME prome-bf, Will's word 11:59 ET; closeout 2026-11-08 12:1x EST)
 
 ## CHANGES SINCE LAST SESSION
-- 11/6 settles read: Brent January $98.32, WTI December $90.83 [EST wire, no exchange page]. Vendor daily rows 97.76, 90.34 are 16:59 ET last trades, not settles.
-- Same-contract week: BZF27 −13.3%, CLZ26 −12.8%. CNBC's 16% is the December expiry roll.
-- Rigs 463 oil, 604 total, week to 11/6 [Reuters; Baker Hughes primary 403].
-- Bloomberg via Rigzone: Saudi and UAE shipments back to prewar levels, Asian prices at a six-year low, no figure. Unverified, not adopted.
-- After the close: Qeshm projectile reports, attacker unnamed (card 047); Polymarket ceasefire through 11/15 59.0 to 31.5, back to 48.0 at 23:34Z, on a thin book (ORACLE); oil shut until Sunday evening, so unpriced.
+- FALCON read 2: Qeshm 11/6 a US strike, attribution high, not explicit. Houthis hit an Aramco office in Riyadh 11/8, minor damage; Eastern Province missile intercepted; tanker fire off Khasab and a projectile hit 11/7; four mine claims unmatched; no sinking, census 7; D 85 NOT fired.
+- Polymarket ceasefire legs 11/8, 11/15, 11/30, 12/31 resolved NO 11/7. New 2-week-pause market prices about 76 for another US land strike in 14 days; oil legs flat (ORACLE read 2, 16:58Z).
+- NBC oil-and-gas target line rests on one relay (Iran International), not in NBC's open text.
+- CENTCOM Task Force Iron Gate: staff unit, not a strike. HUDA disabled 11/7.
+- Vendor 11/6 daily rows now equal the wire settles, BZF27 $98.32, CLZ26 $90.83.
 
 ## WHAT I DID THIS SESSION
-- Booted, inbox and WALTER lane empty, 0 consumed. Corrections check 0.
-- Third window capture 17:10 ET plus CLF27, settles, week, rigs and flow claim: `research/2026-11-06_window/NOTE.md` § After the close.
-- BRT-33 still NO OBSERVATION, valid 0 of 1. No score, band, gate or probability moved; no registered letter required one.
-- Closeout mail: 7 consumed. FALCON corrected my 17:1x wording: Vortexa's 86% is the whole Gulf, Bloomberg's clause is Saudi and UAE, so no collision. Fixed in the note, STATUS, NEXUS. COR-20261106-48 receipted NO-OP.
-- STATUS header, COT and rig rows, summary; wake block and summary rotated, 2053 B crc32 `ef250af7`. TRACKER stamp, three combo rows, NEXUS row.
+- Booted (boot.py rc 2, five standing findings; market shut). Read 9 WALTER cards, 9 ledger rows, 9 `git mv` to processed. Receipted COR-20261107-02 and COR-20261108-02 APPLIED.
+- Wrote `reports/2026-11-08_pre-reopen-oil-read.md`: weekend by mechanism, surprise bands, registered lines the open can touch.
+- STATUS 11/8 block and summary; rotated the 11/6 window-and-COT block and summary, 1046 B crc32 `3aa2a6b7`. TRACKER stamp, five combo rows, NEXUS row.
+- No score, band, gate, threshold or probability moved; no registered letter required one.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Every session through 11/27, BRT-33:** pull BZF27 and BZH27 14:28–14:30 ET bars, save raw. Pull after about 14:45 ET: vendor bars lag about 10 minutes. Vendor reach about 8 days. Valid 0 of 1; needs at least 8 or NO-VERDICT. Read the 11/26 holiday schedule when near.
-2. Sunday evening or Monday 11/9 open: read oil against the Qeshm reports and FALCON's grade before writing any level; cause of the ceasefire-odds break not established. Confirm the vendor 11/6 daily rows finalize near $98.32 and $90.83. The Friday Close routine does NOT carry settles, so read them live. First BRT-35 print.
-3. Tuesday 11/10: November STEO, COPS_OPEC re-pull for the 11/29 letter. Check it against the prewar-levels claim.
-4. Thursday 11/12: WPSR week 11/6, BRT-31 week five, first BRT-34 print, name all legs per registration note addendum 2. Review the five themes dated 11/12 in `docket/CATALYSTS.tsv`.
+1. **Monday 11/9:** read the reopen against the report's surprise bands. First gradable settle: MKT-BZ-F-ABOVE-100 is $1.68 above Friday's BZF27 settle; grade on the named-contract settle only. A bar read after 18:00 ET Sunday is Monday-session. First BRT-35 print (GASREGW 11/9).
+2. **Every session through 11/27, BRT-33:** pull BZF27 and BZH27 14:28–14:30 ET bars, save raw, after about 14:45 ET. Valid 0 of 1; needs at least 8 or NO-VERDICT. Read the 11/26 holiday schedule when near.
+3. Tuesday 11/10: November STEO, COPS_OPEC re-pull for the 11/29 letter; check against the prewar-levels claim and the Aramco OSP cut.
+4. Thursday 11/12: WPSR week 11/6, BRT-31 week five, first BRT-34 print, all legs named per registration note addendum 2. Review the five themes dated 11/12.
 5. Friday 11/13: COT #14, as-of 11/10, `cot_grade.py --expect 2026-11-10`.
-6. Any session: a dated Kpler or Vortexa November Yanbu or Saudi print goes to FALCON (route (c)) and to the themes. This now also tests the Bloomberg prewar-levels claim.
+6. Any session: a laden-tanker loss with cargo confirmed → BG-02 report, flag, stop. A dated Kpler or Vortexa November Gulf print → FALCON and the themes. A November TD3C or war-risk quote → gulf-access-cost.
 7. Ungraded CATALYSTS rows: Sinokor 11/1 and TD3C/TD34; MPC Q3 11/3; Aramco run-state 11/3.
 8. Deferred WALTER items in `board_log.tsv`, not worked: gas shorts (1102-002), NYT aggregate (1102-006), Hormuz proposal (1102-011), Al Mayeda (1102-012), Qeshm (1104-002, 019), IEA winter scenario (013), YANOS (014), CVR (015), Russian gas (030), Aramco 15% claim (031), HPCL (032), UKMTO 188 (048), energy leads (059).
-9. Housekeeping: KILL-LEG2-JWC IUA re-fetch; USO/observations.tsv freeze or refresh; RF-013 Ufa re-key; COT_VINTAGES two-clock header; TRADE and STATUS rotate-tier; six STANDING STATE rows reconciled 11/5, before the 11/6 grades, need a re-read and re-stamp (Derived Views).
+9. Housekeeping: six STANDING STATE rows reconciled 11/5 need a re-read and re-stamp (Derived Views rc 2); KILL-LEG2-JWC IUA re-fetch; USO/observations.tsv freeze or refresh; RF-013 Ufa re-key; COT_VINTAGES two-clock header; NEXUS_BRIEF at 27.0 KB, rotate tier; TRADE and STATUS rotate tier.
 
 ## OPEN THREADS / WATCHES
-- 🟠 Gulf crude flow: Bloomberg's prewar-levels line covers Saudi Arabia and the UAE with no figure. October support is mixed: TankerTrackers yes, Vortexa partly, Kpler no for Saudi Arabia [FALCON relay]. Needs a dated November vendor print on that perimeter; never compare it to Vortexa's whole-Gulf 86%. The Saudi gain is a re-route west, so it leans on Yanbu.
-- 🟠 BZH27 thin in the window: no bar on 11/5 or 11/6, 5 of 7 recent sessions present. NO-VERDICT risk on BRT-33; the row stands, any change is Will's.
-- 🟠 Yanbu flow NOT MEASURABLE; Hormuz and Gulf flow UNRESOLVED. Known-unknowns that gate any Saudi read.
-- 🟠 TANKER-LIVENESS owner grade was not run 11/6; market closed by this session; nothing armed; re-probe in market hours.
-- 🟡 Dashboard re-pin to BZF27.NYM and L925 `fetch.py` bare roots are PROME's, fix due 11/09.
-- 🟡 Thursday routine still has six account connectors attached; removal is a Will UI action.
+- 🟠 Southern-route access: UKMTO counted 325 transits week to 11/4 (277 prior), more southern-route use; the weekend fires and IRGC "unauthorized route" line target that traffic. Watch route exits and war-risk cover this week. Never compare 325 a week with PortWatch's 1 a day.
+- 🟠 Houthi target set moving toward production class (FALCON): Riyadh office 11/8, Abqaiq-area intercept. Yanbu is the bypass in range (BRT-32 20%).
+- 🟠 Gulf crude flow: Bloomberg prewar-levels claim unverified; Aramco Asia OSP −$2 fits it. Needs a dated November vendor print on the Saudi and UAE perimeter.
+- 🟠 BZH27 thin in the window; NO-VERDICT risk on BRT-33.
+- 🟠 TANKER-LIVENESS owner grade not run since before 11/6; re-probe in market hours.
+- 🟡 Dashboard re-pin to BZF27.NYM and L925 `fetch.py` bare roots are PROME's, fix due 11/09. `fetch.py history` errored 'exchangeTimezoneName' 11/8 12:04 EST; `price` works.
 
 ## POSITION DECISIONS PENDING
-- None from BRENT. USO Oct-28 and Oct-30 165C outcomes stay UNKNOWN pending Will's Activity (FORGE D-90); no reminders (USER.md). PENDING guard 11/6: 1 elapsed expiry row, FORGE last changed 11/5, CHECKED-AT-ARTIFACT-AND-STILL-OPEN.
+- None from BRENT. Positions are TRADE's and Will's; no reminders (USER.md). PENDING guard 11/8: 2 elapsed expiry rows, not re-checked at the artifact this session (no broker evidence read).
 
 ## MAIL STATE
-- Inbox clear except card 053, as of 2026-11-06 18:3x EST. This session 7 consumed, 7 ledger rows, 7 moved (FALCON, ORACLE twice, cards 043, 046, 047, 048).
-- Card 053 read and COR-20261106-53 receipted NO-OP; DEFERRED filing: WALTER had not committed it, so no ledger row or move yet. Next boot: log it, `git mv` it to `inbox/WALTER/processed/`.
+- Inbox WALTER lane empty as of 2026-11-08 12:1x EST. This session 9 consumed, 9 ledger rows, 9 moved (cards 053–056, 20261107-001 to -003, 20261108-001, -002). Top-level inbox: one ZHAO packet, read, filing deferred (below).
+- ZHAO packet `inbox/2026-11-08_from-ZHAO_11-10-clocks-instrument-check.md` (FYI, no ask) read 12:1x EST: USTR s.301 ship fees OPEN, suspension ends 11/9 23:59 ET; fees on China-linked vessels could accrue from 11/10 absent a USTR determination; China mirror keyed on it. Shipping-cost context for gulf-access-cost, nothing moved. DEFERRED filing: ZHAO had not committed it, so no ledger row or move yet. Next boot: log it (source=INBOX), `git mv` to `inbox/processed/`, read ZHAO's 11/10 result.
 - Outbox: no open packet.

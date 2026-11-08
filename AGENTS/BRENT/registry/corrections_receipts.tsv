@@ -33,3 +33,5 @@ receipt_date	correction_id	action	note
 2026-11-06T20:35Z	COR-20261106-35	NO-OP	scope=BRENT holds no put/call figure, card 033 BRENT line is France diesel only, unaffected; 
 2026-11-06T23:35Z	COR-20261106-48	NO-OP	scope=BRENT never carried card 043's claim or a November 6 Yanbu line, grep of STATUS NEXUS CATALYSTS SCRATCH clean; 
 2026-11-06T23:36Z	COR-20261106-53	NO-OP	scope=BRENT never carried 31.5 as the level, STATUS and SCRATCH already show the retrace to 48.0 from ORACLE's packet; 
+2026-11-08T17:07Z	COR-20261107-02	APPLIED	artifact=AGENTS/BRENT/STATUS.md#November 8 pre-reopen read; validation_ref=AGENTS/FALCON/reports/2026-11-08_wq646-read2.md#1. Qeshm attribution; 
+2026-11-08T17:08Z	COR-20261108-02	APPLIED	artifact=AGENTS/BRENT/reports/2026-11-08_pre-reopen-oil-read.md#Infrastructure-target report; validation_ref=AGENTS/FALCON/reports/2026-11-08_wq646-read2.md#4. WALTER card SIG-W-20261106-056; 

@@ -802,3 +802,12 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T18:35:43-05:00	SIG-W-20261106-046	noted	INBOX_WALTER	Headlines logged on combo:diesel-buffer: Energy Aspects China diesel cut, Kazakhstan road fuel ban. No figures, no score moved.
 2026-11-06T18:35:43-05:00	SIG-W-20261106-047	noted	INBOX_WALTER	FALCON owns the grade. Not established as a US strike. Oil shut until Sunday evening. No line touched.
 2026-11-06T18:35:43-05:00	SIG-W-20261106-048	noted	INBOX_WALTER	Correction COR-20261106-48 receipted NO-OP: BRENT carried neither the card 043 claim nor a November 6 Yanbu line.
+2026-11-08T12:08:25-05:00	SIG-W-20261106-053	noted	INBOX_WALTER	Correction to 047, superseded by 20261107-002 (legs resolved NO). COR-20261106-53 receipted NO-OP 11/6; filed now.
+2026-11-08T12:08:25-05:00	SIG-W-20261106-054	noted	INBOX_WALTER	CENTCOM 08:30 announcement flag; answered by 20261107-001 (Iron Gate, not a strike). No line touched.
+2026-11-08T12:08:25-05:00	SIG-W-20261106-055	noted	INBOX_WALTER	Odds snapback superseded by 20261107-002. Priced odds are ORACLE's; no line touched.
+2026-11-08T12:08:25-05:00	SIG-W-20261106-056	acted	INBOX_WALTER	NBC target line read against scenarios: tail up, centre little changed; Iranian barrels already blockaded, retaliation on Gulf-ally production is the risk. Weakened by 20261108-002 to one relay. reports/2026-11-08_pre-reopen-oil-read.md.
+2026-11-08T12:08:25-05:00	SIG-W-20261107-001	noted	INBOX_WALTER	Iron Gate staff unit, blockade enforcement continues; CENTCOM $25B is a party figure. In the 11/8 read, no line touched.
+2026-11-08T12:08:25-05:00	SIG-W-20261107-002	acted	INBOX_WALTER	COR-20261107-02 receipted APPLIED: STATUS 11/8 block supersedes the 11/6 attacker-unnamed line. No line touched.
+2026-11-08T12:08:25-05:00	SIG-W-20261107-003	acted	INBOX_WALTER	UKMTO 325 transits read against Hormuz basis: different perimeter from PortWatch, never compared; mine claim CLAIM-ONLY. Logged combo:gulf-access-cost. In the 11/8 read.
+2026-11-08T12:08:25-05:00	SIG-W-20261108-001	acted	INBOX_WALTER	2-week-pause market about 76 for another land strike in 14 days with oil legs flat, read against scenarios in the 11/8 read. ORACLE's odds; no line touched.
+2026-11-08T12:08:25-05:00	SIG-W-20261108-002	acted	INBOX_WALTER	Riyadh hit and Abqaiq intercept read: D 85 not fired, no barrels lost; yanbu-bypass combo logged. COR-20261108-02 receipted APPLIED at the 11/8 read.
