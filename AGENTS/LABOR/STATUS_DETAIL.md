@@ -1561,3 +1561,29 @@ CPS, SA, thousands, FRED pulled 2026-09-17 (BLS Employment Situation, USDL-26-14
 **2026-11-05 — Layoffs are still asleep, and hiring got a little better; tomorrow's payrolls can decide the bull case on one print.** New jobless claims fell to 189,000 for the week of Oct 31 (Labor Department 11/5), and the four-week average of 194,750 is the lowest since 1969 by count, though not as a share of a much larger workforce. Employers announced 43,994 job cuts in October (Challenger 11/5), the lowest October since 2023. In September, hires beat separations by 83,000, and August was revised to +96,000 from +122,000 (BLS 11/3). That keeps one leg of my bull-side kill rule in place, so **an October payroll print of about +150,000 or more on Friday would, on its own, fire the rule that stands down my freeze vectors**; the bar gets recomputed from the revised August and September first. ⚠️ September's flow figure is preliminary and revises Dec 1, after the draw, and August's layoffs figure was just revised up 127,000, so the layoffs reading of 1.0% is not settled. **Productivity rose 3.6% and unit labor costs fell 0.7% in Q3 (BLS 11/5), with hours nearly flat at +0.1%; I have no registered line on that release, so it moves nothing.** Labor's share of output, 53.0%, is the lowest since the series began in 1947. **Today's market selloff: cause not established, and I attribute nothing to labor.** Rate path stays with BOND, HENRY and ORACLE. Score **27/80**, unchanged.
 *Prior bottom line (10/30 ECI) → DETAIL § `status-rotated-20261105`.* **Next — Fri 11/6 08:30 NFP Oct (no session open; PROME told) · Mon 11/9 Canada re-check · Thu 11/12 claims · Fri 11/20 FL UR · Tue 12/1 JOLTS Oct · Thu 12/3 Challenger Nov.**
 ✅ **LAB-03 RESOLVED ❌ 2026-10-01** (197,000 vs 251,000): as-made 65% ⇒ Brier 0.4225; book n=13, mean **0.348**; **0-for-6 at ≥60% on threshold calls** (SCOREBOARD §A). C2-0 sweep re-run 2026-10-01: zero rows trip (LAB-19 60%, registered 9/4 — under the 60-day leg). C2-0 sweep re-run 2026-09-29: zero rows trip (only LAB-19 is ≥60%, registered 9/4 — under the 60-day leg). No confidence moved. 10/2 card §3f pre-commits post-print values for LAB-18/19.
+
+<a id="status-rotated-20261108"></a>
+## § `status-rotated-20261108` — STATUS.md surfaces rotated at the 11/8 data catch-up (verbatim; READ_CAP rotate tier, 24,769 B)
+
+✅ **LAB-19 RESOLVED TRUE 2026-11-06** (LF Sep +485K, Oct +421K, 2 of 3): as-made 60% ⇒ Brier 0.16, book n=14, mean **0.335**; latest mark 81% ⇒ 0.0361. Mechanism calls now 4-for-4 at the same confidence. CORE TENSION rewritten → DETAIL § `core-tension-20261106`.
+
+⛔ **LAB-11 VOIDED 2026-10-28 (Will):** no resolution rule was ever written ("breaks" undefined; a falling Challenger AI share reads either way), so it is unscored, not graded; old row → DETAIL § `status-rotated-20261028`. LAB-03 ❌ 10/1 and the C2-0 sweep notes → DETAIL § `status-rotated-20261106`.
+
+| 🔒 Mon 11/2 – Thu 11/5 | ISM Oct · T-07 Oct · JOLTS Sep (LEG C met) · claims 189,000 · Challenger 43,994 — nothing fired | rows verbatim → DETAIL § `status-rotated-20261106` |
+
+| ✅ **Fri 11/6 08:30** | **NFP Oct +165K · U-3 4.1 · EPOP 59.3 ⇒ v2 FIRED**; v8 1 of 2, v17 → 1, LAB-19 ✅ | Card → `docket/graded/GRADING_CARD_20261106_NFP.md` §8 · KB-LAB-246 to 248 |
+
+| ✅ **Sun 11/8** | **Canada counter-tariff re-check #2 (docketed 11/9): NO EVIDENCE** — IL to 10/30, IA to 11/3, WI to 11/5 VERIFIED-absent; MN Oct report unread; cohort `0 / 20,000`. Row pruned, no #3 docketed | `domain/sources/2026-11-08_CANADA_COUNTERTARIFF_RECHECK2.md` · KB-LAB-265 |
+
+12. 🅿️ **PARKED 2026-10-02, fold-by 2027-01-15 — CA SB 951** (EDD technological-displacement summaries, effective 2027-01-01; registered-input decision NOT now) — full text verbatim → DETAIL § `status-rotated-20261029`.
+
+11. 🔧 **C5 retirement checklist — run 2026-10-01, MOVES NOT EXECUTED** (14 `domain/sources/` files; needs per-file citer read + repointing) — **do it at the next self-directed closeout**; full text verbatim → DETAIL § `status-rotated-20261029`.
+
+| 🔒 Jun 30 – Sep 24 | all graded; nothing fired in Sep | → DETAIL § `calendar-rows-collapsed-20260929` |
+| 🔒 Sep 29 – Oct 21 | all graded or decided, nothing fired | pointer rows verbatim → DETAIL § `status-rotated-20261028` (which points on to `-20261008`, `-20261015`, `-20261021`) |
+| 🔒 Thu 10/22 · Wed 10/28 | Claims w/e Oct 17 194,000 band B · Sep ISM employment late grade (v3 2 → 1) · 17 inbox items — nothing fired | rows verbatim → DETAIL § `status-rotated-20261029` |
+| 🔒 Thu 10/29 · Fri 10/30 | Claims 194,000 band B · ECI Q3 E1-c, wedge closed from the AHE side — nothing fired | rows verbatim → DETAIL § `status-rotated-20261105` |
+
+5. 🔧 **Owed, not urgent (re-listed 10/28):** KELYA post-mortem · build debt (`BUILD_DEBT.md`; nearest BD-32, BD-41, BD-23) · CORRECTIVE base rate (L-25/L-32) · Pepsi Knoxville WARN 112 · charter size · L-34 re-check at each self-sweep. Full text → DETAIL § `status-rotated-20261029`.
+
+7. 🔧 **Spine gate:** keep exactly one `obs` token on each live row (claims, CC, JOLTS hires, FL UR) or the gate reports CANNOT-VERIFY. Full text → DETAIL § `status-rotated-20261029`.

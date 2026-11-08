@@ -17,7 +17,11 @@ with open(CSV) as f:
         try: rows[x['st']][x['rptdate']]=int(x['c3'])
         except: pass
 states=[s for s in rows if len(s)==2 and s not in ('PR','VI')]
-latest='2026-09-05'
+# Newest rptdate with a non-zero c3 for every one of the 51 jurisdictions; optional argv[2] = YYYY-MM-DD override.
+# (Fixed 2026-11-08: this was hardcoded '2026-09-05' from the 9/17 build, so every later run silently re-read
+# early September while the CSV carried data through w/e Oct 31.)
+_full=[d for d in {d for s in states for d in rows[s]} if sum(1 for s in states if rows[s].get(d))>=51]
+latest=sys.argv[2] if len(sys.argv) > 2 else max(_full)
 def wk(d,n): return (dt.date.fromisoformat(d)-dt.timedelta(weeks=n)).isoformat()
 def avg4(s,end):
     v=[rows[s].get(wk(end,i)) for i in range(4)]
