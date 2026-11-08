@@ -1,3 +1,7 @@
+## 2026-11-08T17:06:43Z light-closeout — full deferred
+
+Cards 20261108-001 and -002 from ORACLE packet 9b6404ed12 and FALCON read-2 message, walter-e1. COR-20261108-02 WEAKENS card 056 target line, banners on 056 and 20261107-002, batch BM-20261108-01 closed 7/7, anchor note. Tier 2 debt continues.
+
 ## 2026-11-07T13:53:08Z light-closeout — full deferred
 
 Cards 001 to 003 from ORACLE packet, FALCON message and WALTER sweep, walter-e1. COR-20261107-02, five §3.6 banners, batch BM-20261107-01 closed 12/12, anchor note.
