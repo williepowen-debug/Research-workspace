@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated November 8, 2026. Application submitted; await Will.** Will reports the Anthropic application is done and submitted. Pre-submission review is closed; final-version verification limits and prior advice are retained in the [closure record](runs/2026-10-17_1049_readme-application-review.md#november-8--application-submitted), with no automatic follow-up. WQ-607 remains approved/pending, not triggered by this closure. [CHARTER](CHARTER.md) governs authority; [TASK_INDEX](TASK_INDEX.md) is on demand.
+**Updated November 8, 2026. Additional Anthropic role search delivered; await Will.** Trainer first, then mid-market sales or commercial customer success; Human Data Operations is a research-adjacent stretch. [Shortlist, direct links, experience/location gaps](runs/2026-10-17_1049_readme-application-review.md#november-8--other-anthropic-positions). Relocation preference unanswered; hybrid roles included provisionally. No application or outreach authorized. Submitted Economics & Policy application remains closed. WQ-607 remains approved/pending, not triggered here. [CHARTER](CHARTER.md) governs authority; [TASK_INDEX](TASK_INDEX.md) is on demand.
 
 ## Resume point
 
