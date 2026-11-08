@@ -60,3 +60,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T21:48:00Z	SIG-W-20261106-030	info-only	INBOX_WALTER	OpenAI round terms, VULCAN and SAM own. No ZHAO score moved.
 2026-11-06T21:48:00Z	SIG-W-20261106-036	info-only	INBOX_WALTER	SoftBank leverage, superseded by 041, SAM owns. No ZHAO score moved.
 2026-11-06T21:48:00Z	SIG-W-20261106-041	acted	INBOX_WALTER	ABB scope from SoftBank notice via WALTER. KB-ZHAO-236.
+2026-11-08T17:07:00Z	2026-11-06_from-NEXUS_brief-pin-B24-decision	acted	INBOX_TOP	Action 1 in; action 2 is a charter edit awaiting Will; filed to processed. KB-ZHAO-245.
