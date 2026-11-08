@@ -1,6 +1,12 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-11-06 17:30 EST — close refresh on PROME prome-51's 17:08 ET relay of Will's word (a relay, not his word here); runtime Claude Code, Opus 5.5. No score, band, gate or escalation state moved; no row fired; inbox and WALTER lane empty at boot.**
+**Last Updated: 2026-11-08 12:1x EST — Arkéa provider and shared-reach check, pulled forward from the 11/09 row (PROME prome-bf spawn on Will's word in PROME's chat 11:59 ET, a relay; $0). Runtime Claude Code, Opus 5.5. No score, band, gate, prediction or escalation state moved; no row fired.**
+- **Arkéa (059): unchanged, shared reach still UNKNOWN.** The provider is unnamed everywhere read: the bank's press list holds only its two 11/04 statements; BleepingComputer (11/07) got no answer; AFP, Security Affairs and Armees.com name none. No second institution, no rail statement. CERT-FR alerts and avis carry no banking or payment product; ACPR's press list ends 10/22; ECB list unreadable, Banque de France 403 (UNKNOWN). No US bank, US-dollar rail or Abrigo link in any source. FL-CYP-22 UNTESTED with one more dated null; VX-05 and VX-02 held at 3; CYP-05 (35%) and CYP-06 (12%) not re-marked. No HANS trigger met, so no packets. Row re-dated weekly to 11/16, P2. `research/2026-11-05_arkea/RECORD.md` §9, KB-CYP-107.
+- **Abrigo (060):** no report dated 11/07-11/08 found; whether borrower data was taken still unstated. Next look 11/12 as registered.
+- **Inbox:** PROME's 11/07 carve-out ④ packet LOGGED (KB-CYP-108) and filed; the charter pointer edit it asks for is NOT made (this spawn said not to edit the charter): resume item (3).
+- **Not worked this session:** boot leg 5 flags 023, 024, 028, 029 past their 14-day re-check (last 10/23); carried to the 11/12 claim pass.
+
+**Earlier 11/06, 17:30 EST — close refresh on PROME prome-51's 17:08 ET relay of Will's word (a relay, not his word here); runtime Claude Code, Opus 5.5. No score, band, gate or escalation state moved; no row fired; inbox and WALTER lane empty at boot.**
 - **SonicWall (063, new, off-wave):** CISA listed SonicOS SSLVPN CVE-2026-19868 as exploited on 11/06, due 11/20: valid credentials can bypass SAML and maybe MFA. No victim named. CHK-32 noted; CHK-10 POSSIBLE (weak), not a finding of exposure. ⚠️ SonicWall's own advisory unread (page will not render to curl).
 - **SecurCommunity FCU (064, new, off-wave, not cyber):** $88.5M Memphis credit union, debit and online banking problems since its 11/02 conversion. VX-02 held at 3; PROME agreed 11/06, class C3, no change, reported to Will by PROME.
 - **Row 9 at the close:** PANW $313.84 (-7.77%), HACK $110.84 (-6.37%), gap -1.40; $24.60 above the $289.24 line. HACK's +12.79% peak gain has reversed; SPY -4.39%.
@@ -15,15 +21,7 @@
 - **Intake clear:** cards 062, 005 and 015, GIBBS's answer (no consequence at the 16, KB-CYP-092), LIQUID's rail answer (no effect on its surfaces, cannot see a European rail, not a clearance, KB-CYP-103), COR-20261105-62 and COR-20261106-15 NO-OP. 005 and 019 re-checked at search level. HANS answered 11/06; SHADE has not filed its 11/05 packet.
 - **Second turn, 15:2x ET:** HANS's Arkéa read logged (one-bank earnings event, conditional on shared reach, KB-CYP-104; its three re-read triggers on the 11/09 row). Card 026: shinkin 3,430 branches UNVERIFIED, noted on 062. Card 033: EFS read at franceinfo, three sites, no loss, noted on 061. No score, band, gate or state moved.
 - **WQ-622:** 3 themes logged in KB (`supplier-route-to-banks`, `japan-october-cluster`, `ai-tooling-entry`). The charter line is NOT added: on the resume list until Will gives it directly.
-- **Resume list:** (1) WQ-622 charter line, Will's direct word. (2) `workbook/ESCALATION_WATCH.tsv` at 79% of read budget (25,780 B): rotate dated notes verbatim to `archive/` to under 22,785 B, not done today.
-
-**2026-11-05 16:49 EST — closeout of the launched session (PROME prome-98, WQ-618 A, Will 13:56 ET "yes go ahead"; runtime Claude Code, Opus 5.5).**
-- **Crédit Mutuel Arkéa: CYB-INC-059 OPENED, OFF-WAVE, CONFIRMED** (`research/2026-11-05_arkea/RECORD.md`). The bank says attackers came through "la plateforme d'un de nos prestataires" (provider unnamed) and paid other banks from its own account, about EUR 100M on its provisional word (no figure in its written statements). Crypto conversion is "potentiellement". **Shared software, rail or vendor reach: not established either way.** No second bank, rail statement or supervisory alert found. Not systemic on this evidence. Next check 11/09.
-- **WQ-589 ENCODED and VERIFIED:** PROME checked charter row and VX-CYP-02 cells at c082434f2; D:L917 RESOLVED.
-- **L812 second pass:** rows 1, 3-9 NOT-FIRED, all stamped 11/05. **Evidence moved on row 1:** Palo Alto's Unit 42 verified Dream's compromises (CYB-INC-047 → CONFIRMED); still no organisation named. PROME ruled 11/05: R1's naming requirement governs, NOT-FIRED holds, no letter change (class C3 on L812).
-- **Bank-vendor cluster watch: count limb MET** on Finzly (037 → CONFIRMED) and Abrigo (060, new). Not an escalation row; P1 sent to REGINALD, LIQUID, GIBBS and PROME. ⚠️ Abrigo is a CU-vendor on plain words, not a core. **REGINALD answered 11/05:** no regional-bank consequence today, not a clearance; EDGAR full text only, 10-Qs not searched; Abrigo also supports loan-loss reserve models, so the Q3 reporting window is the exposed moment. Re-judges on a regional 8-K or late 10-Q citing either vendor.
-- **Scores:** VX-01 2→3 (correction on the letter), VX-08 3→4 (FBI attribution, on the letter, composition note). Composite 24/40 raw, 15/40 shared-root-adjusted.
-- **Inbox drained:** 1 PROME packet, 8 WALTER cards (030, 037, 046, 050, 013, 011, 020, 061). Binance post-mortem into 055. Friday rows date-checked; one retired. COR-20261105-52 receipted APPLIED. **Consumption:** REGINALD and GIBBS filed their packets and answered; at 11/06 boot the LIQUID, HANS and SHADE packets were still unfiled at the top of their inboxes.
+- **Resume list:** (1) WQ-622 charter line, Will's direct word. (2) `workbook/ESCALATION_WATCH.tsv` at 79% of read budget (25,780 B): rotate dated notes verbatim to `archive/` to under 22,785 B, not done today. (3) Charter GIT line: point carve-out ④ at root `CLAUDE.md` (PROME packet 11/07, KB-CYP-108); a pointer edit, when PROME authorises it. (11/08: items 1-3 still open.)
 
 > ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** Normal boot.
 
@@ -140,11 +138,11 @@ Rotated verbatim 2026-11-06 to `archive/STATUS_ARCHIVE_2026-11-06.md`; its facts
 
 | Date | Check |
 |---|---|
-| 11/09 | **Arkéa provider and shared-reach check (P1)** |
-| 11/12 | SonicWall advisory · SecurCommunity · Open-wave 7-day clock · bank-vendor cluster watch · Abrigo · ConnectWise · claim pass 038, 040, 042, 045 · Keystone last look |
+| 11/12 | SonicWall advisory · SecurCommunity · Open-wave 7-day clock · bank-vendor cluster watch · Abrigo · ConnectWise · claim pass 038, 040, 042, 045 · overdue re-checks 023, 024, 028, 029 · Keystone last look |
+| 11/16 | Arkéa weekly look (P2; checked 11/08, nothing moved) |
 | 11/13 | GMO results briefing · Kiteworks second look |
 | 11/15 · 11/18 · 11/20 | TruStage answer window · row 9 equity test · **R1 flip test (P1)** |
 
 ## BOTTOM LINE
 
-The October PHP2Shell wave is still open with one trigger fired (CISA's exploitation listing, 10/26) and no bank, credit union or banking vendor named as its victim; Kiteworks, the product most shaped like MOVEit, has no named victim at +16 days, which is weak evidence because Kiteworks has neither confirmed nor denied exploitation. The most important unconfirmed lead is still who Crédit Mutuel Arkéa's provider is and whether it serves other banks. Row 9's collapse size is ruled (WQ-635 A), not met at the 11/06 close, and HENRY grades it at the 11/18 close. CISA listed a separate SonicWall flaw as exploited on 11/06, with no victim named. Next wakes: 11/09 Arkéa, 11/12 wave clock and vendor watch, 11/13 GMO and Kiteworks, 11/18 row 9, 11/20 flip test; these wake CYPHER through PROME's summons check.
+The October PHP2Shell wave is still open with one trigger fired (CISA's exploitation listing, 10/26) and no bank, credit union or banking vendor named as its victim; Kiteworks, the product most shaped like MOVEit, has no named victim at +16 days, which is weak evidence because Kiteworks has neither confirmed nor denied exploitation. The most important unconfirmed lead is still who Crédit Mutuel Arkéa's provider is and whether it serves other banks; at the 11/08 re-check it was still unnamed, with no second institution, no supervisory alert and no US link. Row 9's collapse size is ruled (WQ-635 A), not met at the 11/06 close, and HENRY grades it at the 11/18 close. CISA listed a separate SonicWall flaw as exploited on 11/06, with no victim named. Next wakes: 11/12 wave clock and vendor watch, 11/13 GMO and Kiteworks, 11/16 Arkéa weekly look, 11/18 row 9, 11/20 flip test; these wake CYPHER through PROME's summons check.

@@ -119,3 +119,38 @@ Carry as: **"about €100M on the bank's provisional word, final figure not give
 | France 24 (card's source) | curl 403; card relied on it | Not read; AFP identical text at Boursorama in French |
 | Le Télégramme, Le Monde, Le Figaro, Usine Digitale, CoinDesk, The Block, BeInCrypto | Not reached (403/429 or not tried) | Paywall or block |
 | swift.com | 403 | Not read |
+
+## 9. Re-check 2026-11-08 (catalyst row 11/09, pulled forward one day; PROME prome-bf spawn on Will's word 11:59 ET)
+
+**Session:** CYPHER, Sun 2026-11-08 12:0x-12:2x ET, runtime Claude Code, Opus 5.5. $0, free public sources only.
+**Answer: unchanged. The provider is still unnamed in every source read; no second institution, no supervisory alert, no rail statement, no US-dollar or US-bank link. Shared reach stays UNKNOWN, not absent. No letter moved.**
+
+| Checklist item (§5 instruments, catalyst row) | Reading 2026-11-08 | Source and basis |
+|---|---|---|
+| 1. Provider named by the bank | **No.** Arkéa's press list still shows only the two 11/04 statements ("Crédit Mutuel Arkéa annonce avoir été victime d'une attaque"; "Informations complémentaires suite à l'attaque…"); no third statement | cm-arkea.com `c_8757/fr/actualites-/-communiques-de-presse`, curl 12:02 ET, sha256 a9638204f0fc…6264. PRIMARY-VERIFIED (absence on the bank's own list) |
+| 1. Provider named by prosecutor or press | **No.** BleepingComputer (Bill Toulas, 11/07 10:25) asked the bank and had no answer at publication; Security Affairs (11/08) and Bellator (11/08) carry no name; AFP via Yahoo (11/05) carries no name and quotes an analyst asking whether the provider serves other banks | SECONDARY, each read in full via WebFetch 11/08. Reuters 11/05 (§2) still the latest: spokesperson declined to name |
+| 2. Provider's own statement | None found (no provider is known to look for) | SEARCH-NOT-FOUND |
+| 3. Second institution, same route | **None.** Searches in French and English (four queries) found none; Security Affairs, BleepingComputer, Armees.com (11/07) name only "other banking institutions" that RECEIVED the transfers, which is the payment path, not a second victim | SEARCH-NOT-FOUND (weak: DORA reports are not public) |
+| 4. Supervisory alert | **None found.** CERT-FR alert list: current alerts are OpenSSH (11/05 update 11/06), Ivanti ICS, PHP, refrigeration controllers, Citrix; no banking or payment product. CERT-FR avis list 11/06: Alpine, Mattermost, Foxit, Mitel, Cisco, Splunk, VMware, Debian, IBM; none banking. ACPR press list: latest item 22 Oct 2026 (WebFetch). ECB Banking Supervision press list renders by script (not readable by curl). Banque de France 403 | CERT-FR PRIMARY-VERIFIED (curl 12:0x ET); ACPR ARTIFACT-VERIFIED via WebFetch; ECB and BdF UNKNOWN |
+| 5. Rail operator statement | None found in any article read; no article names the rail. swift.com not re-tried (403 on 11/05) | SEARCH-NOT-FOUND |
+| 6. CVE or advisory on a treasury or payment product | None on CERT-FR lists; boot leg 7 (KEV v2026.11.06) shows nothing new on the desk's watch keys | PRIMARY-VERIFIED for CERT-FR and KEV |
+| 7. Prosecutor statement on method | Nothing after the 11/04 opening | SEARCH-NOT-FOUND |
+| 8. Rating-agency comment | None found | SEARCH-NOT-FOUND |
+| Reverse reach (Arkéa Banking Services clients) | No report of a partner institution affected | SEARCH-NOT-FOUND (one query) |
+| US reach | No US bank, US custodian or Fed-rail leg named anywhere. USD stablecoins (USDC, USDT) were the exit tool per third-party tracers. A search summary attributes to BeInCrypto a Tether freeze of about $1.14M by 11/02 and no Circle freeze; the article was NOT read, so that figure is not carried | SEARCH-NOT-FOUND for a US bank; stablecoin figure UNVERIFIED lead |
+| Abrigo / Sageworks (US shared provider, CYB-INC-060) | **No link to Arkéa in any source.** Abrigo status unchanged from 11/05: unauthorized access confirmed (American Banker), Sageworks mostly restored 11/02, whether borrower data was taken still unstated; no report dated 11/07 or 11/08 found | SECONDARY; next look 11/12 as registered |
+
+**New, small, not load-bearing:** Security Affairs (11/08) names crypto exit venues "WellWallet, Kyrrex" for the converted funds (SECONDARY, unverified; the exit, not the provider). No source contradicts the bank's own account in §2.
+
+**Grading on this re-check:**
+
+| Surface | Call |
+|---|---|
+| CYB-INC-059 | Unchanged: CONFIRMED, SUPPLY-CHAIN, OFF-WAVE. Last_Checked 2026-11-08 |
+| FL-CYP-22 (one vendor, several banks) | Stays UNTESTED; one more dated null (11/08) |
+| VX-CYP-05 / VX-CYP-02 | Held at 3 / 3; no ORANGE boundary evidence (no compromised shared product) |
+| Chokepoint map | No row reached: provider unnamed |
+| CYP-05 (provider named, 35%) / CYP-06 (second institution, 12%) | Not re-marked: four days of silence after a bank that has said it will not comment is what both prices already assumed. OPEN |
+| Packets | None due: the row's three HANS triggers (provider serves other euro-area banks, second bank, ACPR/ECB/EBA/CERT-FR alert) did not occur |
+
+**Next look:** weekly, 2026-11-16 (catalyst row re-dated, P2). The resolution searches for CYP-05/06 stay 12/29-12/31.
