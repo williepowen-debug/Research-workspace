@@ -6,3 +6,4 @@ receipt_date	correction_id	action	note
 2026-10-29T00:44Z	COR-20261022-14	NO-OP	scope=ORACLE only logged SIG-W-20261021-025 as noted in board_log.tsv with no KB or STATUS claim built on it and no pinned market resolves on the OCC rule; 
 2026-11-06T22:21Z	COR-20261106-35	NO-OP	scope=ORACLE carries no equity put/call figure in STATUS, KB, NEXUS_BRIEF, SCRATCH or any gate, card 033 sits in inbox/WALTER/processed only; 
 2026-11-07T00:53Z	COR-20261106-53	APPLIED	artifact=AGENTS/ORACLE/workbook/KB.tsv#KB-ORC-129; validation_ref=AGENTS/ORACLE/research/2026-11-06_ceasefire-break.md#Second spike and snapback; Baseline 48.0 35.5 22.5 carried in STATUS and SCRATCH; card 053 market line itself overtaken by KB-ORC-130
+2026-11-08T12:10Z	COR-20261107-02	APPLIED	artifact=AGENTS/ORACLE/workbook/KB.tsv#KB-ORC-131; validation_ref=AGENTS/ORACLE/workbook/KB.tsv#KB-ORC-130; 
