@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated November 7, 2026. Revised application-folder review delivered. Await Will.** Résumé precision improved; essay/paste match at 395 words. Two corrections recommended: study matching/common collection date does not eliminate event/timing differences (AP6); restore separate outcome-verification caveat (AP7, proposed essay 393 words). Q1 2027 plus 90-day wait is a later extension if targeting the January four-month fellowship. Public Case 10 correction remains closed. Will owns revisions, visual layout, truthful authorship and personal Python capability. [Exact files, evidence and closure conditions](runs/2026-10-17_1049_readme-application-review.md#november-7--revised-folder-follow-up). No application edits or submission. WQ-607 remains approved/pending. [CHARTER](CHARTER.md) governs authority; [TASK_INDEX](TASK_INDEX.md) is on demand.
+**Updated November 8, 2026. Application submitted; await Will.** Will reports the Anthropic application is done and submitted. Pre-submission review is closed; final-version verification limits and prior advice are retained in the [closure record](runs/2026-10-17_1049_readme-application-review.md#november-8--application-submitted), with no automatic follow-up. WQ-607 remains approved/pending, not triggered by this closure. [CHARTER](CHARTER.md) governs authority; [TASK_INDEX](TASK_INDEX.md) is on demand.
 
 ## Resume point
 

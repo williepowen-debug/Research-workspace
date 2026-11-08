@@ -2,7 +2,7 @@
 
 ## Current disposition
 
-**November 7: revised final-folder review delivered; two narrow corrections recommended.** Résumé count/date and operator-role wording improved; the essay/paste now match at 395 words. New study boundaries improve specificity but overclaim what employer/time matching and a common collection date establish (AP6). Revised essay restores explicit public-resolution timing uncertainty but drops the separate outcome-verification caveat (AP7). Suggested correction produces a 393-word essay. Study's Q1 2027 endpoint plus 90-day wait also needs a later-extension label if intended for the January four-month fellowship. AP5 public correction remains closed; AP4 authorship, personal Python capability and rendered layout remain with Will. No application edits or submission by CATO. [Latest evidence and recommendations](#november-7--revised-folder-follow-up). Earlier reviews are historical snapshots.
+**November 8: application submitted; pre-submission assignment closed by Will.** Will reports the application is done and submitted. No further application review, revision or follow-up is assigned. Prior findings and verification limits remain historical evidence; submission does not establish which final revisions were used. [Closure record](#november-8--application-submitted). Await Will; unrelated approvals survive.
 
 ## Scope, evidence and limits
 
@@ -213,3 +213,12 @@ Will supplied the same directory after revisions. Read all four updated bodies; 
 **Disposition:** revised package is stronger, but AP6/AP7 merit correction before editorial acceptance of this version. No full rewrite, new study or new tool is warranted. Prior personal Python capability, accurate draft authorship and rendered-layout limits survive unchanged; they were not reassessed. No Downloads edits, messages or submission; CATO follow-up remains author review. Other assignments/approvals preserved.
 
 Checks: all ten required inputs readable. Weekday passed on exactly `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, this report and `AGENTS/CATO/CONTINUITY.md`; optional CATO STATUS/calendar/catalyst files absent. Read-cap passed on `AGENTS/CATO/AGENTS.md`, `AGENTS/CATO/CHARTER.md`, `AGENTS/CATO/CONTINUITY.md`, `CLAUDE.md`, `USER.md`, `AGENTS.md` (continuity 7,217 B). Orphan/whitespace checks clean, index empty, only two CATO records changed. No ledger/memory/consumer trigger or code change. No retirement-eligible touched file. Exact commit/push receipt in chat.
+
+
+## November 8 — Application submitted
+
+Will stated: “Okay CATO that application is done and submitted”. Record submission on Will's direct report and close the pre-submission assignment. AP6/AP7 are retired from active pre-submission work, with implementation in the submitted files unverified; AP4 authorship, personal Python capability and rendered-layout limits remain historical assessment boundaries, not pending CATO tasks. AP1–3 and AP5 retain their previously demonstrated closures. No receipt or final uploaded copy was requested or independently inspected, and no assertion is made that the last reviewed hashes identify the submitted artifacts. No new edit, resubmission, contact, interview preparation or monitoring is assigned. Resume only on Will's direction; WQ-607 and other surviving approvals remain unchanged.
+
+Record reconciliation only: starting HEAD `612654787f53f42020c033414511cbb87375a977`, clean tree/index; governing root and CATO instructions unchanged from the prior review commit. Updated this report, the existing task-index entry and the short continuity resume point. No application files touched.
+
+Closure checks: all eleven required inputs existed/readable. Weekday passed on `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, this report, `AGENTS/CATO/CONTINUITY.md` and `AGENTS/CATO/TASK_INDEX.md`; absent optional CATO STATUS/calendar/catalyst files omitted. Read-cap passed on `AGENTS/CATO/AGENTS.md`, `AGENTS/CATO/CHARTER.md`, `AGENTS/CATO/CONTINUITY.md`, `CLAUDE.md`, `USER.md`, `AGENTS.md` (continuity 6,871 B). Orphan advisory and whitespace check clean. No conditional ledger, memory or consumer check triggered. Only three CATO record paths intended for delivery; no retirement-eligible touched file. Commit/push receipt in chat.

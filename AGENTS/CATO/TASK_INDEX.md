@@ -4,7 +4,7 @@ Read only entries relevant to Will's current assignment. This is historical evid
 
 ## November 7 application package
 
-[Continuing application record](runs/2026-10-17_1049_readme-application-review.md#november-7--economics-and-policy-application-package) supersedes October 19's accepted résumé labor interpretation. PROME's corrected Downloads files: `Why Anthropic FINAL.docx`, `William_Owen_Resume_Fellows_v2.docx`, `When_AI_Layoff_Labels_Change_Owen.docx`; CATO text-checked them, no rendered-layout guarantee. Will must resolve authorship against actual drafting history and Anthropic guidance; CATO's prior “ready to submit” was editorial, not a compliance finding. Case 10 + README/lessons correction recommended, not authorized/published by CATO; pending in last relayed PROME message. No submission, new document rewrite or automatic task. Exact hashes, source checks and closure owners are in the report.
+**Submitted and closed November 8, per Will.** [Closure and continuing record](runs/2026-10-17_1049_readme-application-review.md#november-8--application-submitted). November 7 reviews covered successive final-folder versions; Case 10 and both public consumer corrections were verified live. AP6/AP7 remain historical advice with implementation in the submitted version unverified, not active pre-submission tasks. Authorship, technical capability and rendered-layout assessment limits survive without an automatic further assignment. Final uploaded hashes/receipt were not independently inspected. Await Will for any subsequent application or interview work.
 
 ## November 7 commit review and owner follow-through
 
