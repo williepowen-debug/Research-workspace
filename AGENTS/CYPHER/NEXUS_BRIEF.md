@@ -1,8 +1,8 @@
 # CYPHER — NEXUS Brief
 
-**Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), compromises vendor-verified, no named victim. Off-wave: Crédit Mutuel Arkéa theft through an unnamed provider (shared reach UNKNOWN); bank-vendor watch met on Finzly and Abrigo; WQ-589 encoded. New 11/06: SonicWall SSLVPN flaw listed as exploited by CISA, no victim named.
+**Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), compromises vendor-verified, no named victim. Off-wave: Crédit Mutuel Arkéa theft through an unnamed provider (shared reach UNKNOWN); bank-vendor watch met on Finzly and Abrigo; WQ-589 encoded. New 11/06: SonicWall SSLVPN flaw listed as exploited by CISA, no victim named. 11/08: Arkéa re-checked, provider still unnamed, nothing moved.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-06 17:31 EST (11/06 close refresh on PROME prome-51's relay of Will's word; no score, band, gate or state moved) | STATUS commit: `9cd15d6c9008508f37ec048045e1c4ea90d7ba90`
+**As of:** 2026-11-08 12:07 EST (Arkéa provider and shared-reach check, pulled forward from 11/09 on PROME prome-bf's spawn; no score, band, gate or state moved) | STATUS commit: `063fde11b035bdc825c30f5ec9760ffa580c1b96`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -11,7 +11,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
-| REGINALD / LIQUID / GIBBS / HANS / PROME | Crédit Mutuel Arkéa (CYB-INC-059, 11/04): attackers came through an unnamed provider's platform and paid other banks from the bank's own account, about EUR 100M provisional. No second bank, rail statement or supervisory alert found; shared reach UNKNOWN, not systemic on this evidence. LIQUID 11/06: no effect on its surfaces, which cannot see a European rail; not a clearance (KB-CYP-103). HANS 11/06: one-bank earnings event, conditional on shared reach (KB-CYP-104) | P1 | New class: theft of a bank's own funds through a vendor (FL-CYP-21). Whether one vendor can do it to several banks is FL-CYP-22, UNTESTED |
+| REGINALD / LIQUID / GIBBS / HANS / PROME | Crédit Mutuel Arkéa (CYB-INC-059, 11/04): attackers came through an unnamed provider's platform and paid other banks from the bank's own account, about EUR 100M provisional. No second bank, rail statement or supervisory alert found; shared reach UNKNOWN, not systemic on this evidence. LIQUID 11/06: no effect on its surfaces, which cannot see a European rail; not a clearance (KB-CYP-103). HANS 11/06: one-bank earnings event, conditional on shared reach (KB-CYP-104). **11/08 re-check:** provider still unnamed (bank press list, BleepingComputer 11/07), no second institution, no CERT-FR banking alert, ACPR list ends 10/22, no US or Abrigo link; no HANS trigger met, no packets (KB-CYP-107) | P1 | New class: theft of a bank's own funds through a vendor (FL-CYP-21). Whether one vendor can do it to several banks is FL-CYP-22, UNTESTED |
 | REGINALD / LIQUID / GIBBS / PROME | Bank-vendor cluster watch count limb MET 11/05: Finzly (one device, Fed-link firewall keys published, untested; Fed not impacted) and Abrigo (unauthorized access, ~69h Sageworks shutdown, data loss unstated). Off-wave. REGINALD 11/05: no regional-bank consequence today, not a clearance (EDGAR only, 10-Qs not searched). GIBBS 11/05-06: not observed at the 16, Arkéa shared-vendor channel UNKNOWN, 15 Q3 10-Qs clean on a keyword diff (KB-CYP-092). Abrigo counts on plain words, not a core | P1 | Supplier channel consequence is theirs |
 | SHADE | FBI state attribution of the Binance theft (10/31, SECONDARY), told late; VX-CYP-08 graded 4 ORANGE with composition note | P1 | State-attack exclusion read |
 | NEXUS / PROME / SAM | 11/06: Capcom corrected to CONFIRMED (11.77M records, no financial channel; the desk's 10/23 read was wrong). Kiteworks: no named route at +16 days, weak evidence. GMO cost not calculable, next 11/13. Shinkin outage: 128 Japanese credit co-ops about 5.5 hours, operators think not cyber, no fire | P3 | Consequence stays with SAM |
@@ -32,7 +32,7 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
 | Victims / IR firms / CERTs | A NAMED PHP2Shell compromise (incl. behind Dream's firewall finding) | Check 11/04; flip window 11/20 | Row 1 under R1 needs a named organisation | Row 1 FIRES -> R1 toward the MOVEit shape |
-| Arkéa, prosecutors, supervisors | Provider's name; any second institution; any alert | Check 11/09 | The whole shared-reach question turns on it | A named shared product or a second bank flips FL-CYP-22 |
+| Arkéa, prosecutors, supervisors | Provider's name; any second institution; any alert | Checked 11/08, nothing; weekly 11/16 | The whole shared-reach question turns on it | A named shared product or a second bank flips FL-CYP-22 |
 | ConnectWise | Restoration completion | Check 11/12 | Phases 3-4 partial at 11/04 18:55 UTC | MSP availability verdict |
 | Abrigo | Whether data was taken; root cause | Check 11/12 | Bank and CU loan documents | PHP2Shell root cause fires row 3 |
 | HENRY | Equity persistence grade incl. PANW as vector vendor (VULCAN declined the price leg; scope with PROME) | 2026-11-18 | Row 9 | Owner-graded thermometer |
@@ -59,8 +59,8 @@
 
 ## NEXT DECISION POINT
 
-- **What:** R1 flip test: rows 1, 3 and 4, each needing a named organisation; re-checks dated 11/13–11/20. Arkéa provider and shared-reach check comes first, 11/09 (P1).
-- **When:** 2026-11-20 (P1); 2026-11-09 (P1) for Arkéa.
+- **What:** R1 flip test: rows 1, 3 and 4, each needing a named organisation; re-checks dated 11/13–11/20. Arkéa checked 11/08 (nothing moved); weekly look 11/16 (P2).
+- **When:** 2026-11-20 (P1); 2026-11-16 (P2) for Arkéa.
 - **What would falsify the trigger:** no named organisation by 11/20, with in-window re-checks, moves R1 to MECHANICAL (Log4Shell shape).
 
 ## FORWARD CATALYSTS (next 2–4 weeks)
@@ -68,7 +68,7 @@
 | Date | Event | Threshold / Signal |
 |---|---|---|
 | 2026-11-13 | GMO results briefing; Kiteworks second look | A cost figure; a named Kiteworks route |
-| 2026-11-09 | Arkéa provider and shared-reach check | Provider named; a second institution; a rail statement |
+| 2026-11-16 | Arkéa weekly look (checked 11/08, nothing moved) | Provider named; a second institution; a rail statement |
 | 2026-11-12 (weekly) | Wave 7-day clock; bank-vendor / payment-plumbing cluster watch (Will 10/29); Abrigo; ConnectWise; claim pass; Keystone | Count limb already MET 11/05; a multi-institution outage of 1+ business day; a regional 8-K or late 10-Q citing Finzly or Abrigo -> REGINALD |
 | 2026-11-15 | TruStage data-access window | Primary scope and cost |
 | 2026-11-18 | Row 9 equity persistence; collapse leg ruled (WQ-635 A) | PANW at or below $289.24 AND 10.0 points behind HACK on 2 consecutive closes; HENRY grades after 16:15 ET |
