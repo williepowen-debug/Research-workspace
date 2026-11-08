@@ -154,7 +154,7 @@ Context read, not a gate read and not a ledger row. Pulls: `polymarket.py pull -
 | by 12/31 | 80.0 | 79.0/81.0 | $2,873 / $1,228 | $5,231 / $29.4K | $26.6K | $51.8K |
 
 - **Reading, priced:** the by-11/8 leg is YES only if no qualifying strike lands from creation through about 11/21 (Iran time). At 23.5 the crowd prices about a **76% chance of at least one more qualifying US strike on Iranian land in the two weeks from 11/08**. The by-12/31 leg at 80 prices about a 20% chance that strikes keep recurring often enough that no clean 14-day window opens before year-end.
-- **Caveats:** a two-day-old market with $8K to $27K volume per leg and $400 to $5K within 2¢ of the bid. The rule differs from the old event (it excludes minor surface-to-surface strikes and adds the 14-day test). **Never difference it against the old legs.** Not pinned yet, so it has no log rows. Pinning is a closeout decision.
+- **Caveats:** a market about 14 hours old at my read (corrected 11/08 12:1x ET after WALTER: Gamma createdAt 02:48:20Z 11/08, about 14 hours before my 16:58Z read; I had written "two-day-old"), with $8K to $27K volume per leg and $400 to $5K within 2¢ of the bid. The rule differs from the old event (it excludes minor surface-to-surface strikes and adds the 14-day test). **Never difference it against the old legs.** Not pinned yet, so it has no log rows. Pinning is a closeout decision.
 - **Kalshi:** no US strike or ceasefire market found. `kalshi.py search "Iran"` returned 74 markets, NOT CERTIFIED (page cap), so a zero is not a verified absence. The search found US-Iran agreement legs (Dec 2.0, Mar 27 17.0), but those are a deal family, not a strike family.
 
 **2. Oil and escalation, 16:58Z log, read 1 in brackets.**
@@ -183,3 +183,5 @@ Context read, not a gate read and not a ledger row. Pulls: `polymarket.py pull -
 - Ship strikes at sea fall outside "Iran" in both market rules unless they hit internal waters. Whether any of these is a qualifying land strike after 02:48Z 11/08 is **not established**.
 
 **Unreachable or not done:** the UMA on-chain proposal text, CENTCOM and wire bodies, the spoken time of Trump's remark, and a certified Kalshi strike-market search.
+
+**After the read (WALTER card SIG-W-20261108-002, FALCON grades to about 17:05Z 11/08):** Iran state TV, via Reuters and RTHK, reports no missile strikes confirmed in the Saturday-evening Qeshm and Jask blasts, which may be Iranian military activity. FALCON: not a US strike day. The M/V HUDA was disabled by US aircraft at sea on 11/07, which is blockade enforcement outside Iran's land. So FALCON's grade gives no qualifying land strike after the 2-week-pause market's 02:48Z 11/08 creation. That is FALCON's event grade, not a market resolution. Separately, card 002 WEAKENS card 056's NBC "oil and gas infrastructure, Pickaxe Mountain" target line (one relay only); my record never cited that line.
