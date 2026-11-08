@@ -1,5 +1,7 @@
 # MIDAS — current open items
 
+**November 8 bounded session:** Closed: L820 WQ-451 L3-SAFE SUPPORTS (PBoC October +25.82 t, PRIMARY SAFE stamped 11/07; `gold/research/2026-11-08_WQ451-L3-SAFE-grade.md`); COT as-of 11/03 consumed (gold, Ag/Pt/Pd); ZHAO China copper answer filed (KB-265). Open, unchanged: L821 TIC sign about 11/18, L822 WGC October early December, L819 L2 at 2 of 10; Russia L3 offset unread; certified gold settle (Will source decision); charter WQ-352 band paragraph still describes the unscored window.
+
 **November 6 bounded session:** Closed: L819 WQ-451 L1 NOT TESTED; 10/30 class UNEXPLAINED-DOWN, tonnes up; 3-month line not crossed; MIDAS-14/15 HIT; WGC Q3 read, 100 t floor clear; contract map reviewed, next 11/13; DAEDALUS M-F1 to F6; inbox drained 7 of 7. Open: L820 SAFE needs a session after the about-11/07 print; COT as-of 11/03 due 11/06 15:30 ET; certified gold settle (Will source decision). Charter's WQ-352 band section still says M2 stays 1 and the composite is 8/20, which described the unscored window; STATUS carries the scored state. L2 rolling, 2 of 10.
 
 **November 2 startup/closeout:** MIDAS-09 and MIDAS-10 RESOLVED (c) (KB-MIDAS-245). Still open, unchanged: GLD 10/30 tonnes → WQ-451 class and 3-month line; MIDAS-14/15 on the 11/2 close (first retrieval 11/3) and first post-floor band scoring; contract-map review overdue since 10/30 (SI/PL/PA pointers off-front, December roll before late-November first notice); certified gold settle (Will source decision).

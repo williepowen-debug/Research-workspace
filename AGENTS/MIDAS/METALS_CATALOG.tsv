@@ -133,3 +133,5 @@ gold	gold	research	gold/research/2026-11-06_WQ451-L1-grade.md	WQ-451 L1 grade an
 shared	gold,silver,platinum,palladium,copper	sources	shared/sources/2026-11-06_L819_grade	L819, MIDAS-14/15 and band grade bundle	PRIMARY SPDR, Treasury, WGC, SAFE table; MIRROR Yahoo, Westmetall; frozen classifier applied.
 shared	gold,silver,platinum,palladium,copper	sources	shared/sources/2026-11-06_predictions	MIDAS-18 to 22 base rates	SLV history, Westmetall 2015 to 2025, WPIC page; computed before registration.
 shared	gold,silver,platinum,palladium,copper	sources	shared/sources/2026-11-06_contract_map	Weekly contract-map review	Mapped vs next listed month, vendor volume.
+gold	gold	research	gold/research/2026-11-08_WQ451-L3-SAFE-grade.md	November 8 WQ-451 L3-SAFE grade (L820)	PBoC October +25.82 t, SUPPORTS; PRIMARY SAFE table stamped 2026-11-07.
+gold	gold	sources	gold/sources/2026-11-08_L820_SAFE	L820 SAFE October reserve gold bundle	PRIMARY SAFE page capture, sha256, ounces-to-tonnes calculation.

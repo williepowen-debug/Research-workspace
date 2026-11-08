@@ -1,0 +1,105 @@
+{
+ "source_url": "https://www.safe.gov.cn/safe/2026/0206/27116.html",
+ "sha256": "0ffb831dc85bb3eaa22f92b05be0eb70bf3e7deb9a482c61d5a493c15f65c376",
+ "meta_PubDate": "2026-11-07",
+ "page_modified_stamp": "2026-11-07T09:15:08 (printed in page; Beijing time assumed, = 2026-11-06 20:15 ET)",
+ "tonnes_per_oz": 3.11034768e-05,
+ "method": "(Oct 万盎司 - Sep 万盎司) x 10,000 oz x 3.11034768e-05 t/oz; same method as sources/2026-10-20_news/calculations.json",
+ "oct_moz": 78.3,
+ "sep_moz": 77.47,
+ "oct_change_oz": 830000.0,
+ "oct_change_t": 25.815885744,
+ "rounding_bound_t": 0.31103476799999996,
+ "sep_change_t_recheck": 23.016572831999998,
+ "letter_lines": {
+  "supports_at_or_above_t": 10,
+  "weakens_below_t": 5
+ },
+ "grade": "SUPPORTS",
+ "implied_usd_per_oz": {
+  "2026.09": 4176.029430747386,
+  "2026.10": 3913.295019157088
+ },
+ "monthly": [
+  {
+   "month": "2026.01",
+   "gold_wan_oz": 7419,
+   "gold_moz": 74.19,
+   "gold_usd_100m": 3695.82,
+   "mom_oz": null,
+   "mom_t": null
+  },
+  {
+   "month": "2026.02",
+   "gold_wan_oz": 7422,
+   "gold_moz": 74.22,
+   "gold_usd_100m": 3875.88,
+   "mom_oz": 30000.0,
+   "mom_t": 0.9331
+  },
+  {
+   "month": "2026.03",
+   "gold_wan_oz": 7438,
+   "gold_moz": 74.38,
+   "gold_usd_100m": 3427.63,
+   "mom_oz": 160000.0,
+   "mom_t": 4.9766
+  },
+  {
+   "month": "2026.04",
+   "gold_wan_oz": 7464,
+   "gold_moz": 74.64,
+   "gold_usd_100m": 3441.72,
+   "mom_oz": 260000.0,
+   "mom_t": 8.0869
+  },
+  {
+   "month": "2026.05",
+   "gold_wan_oz": 7496,
+   "gold_moz": 74.96,
+   "gold_usd_100m": 3407.52,
+   "mom_oz": 320000.0,
+   "mom_t": 9.9531
+  },
+  {
+   "month": "2026.06",
+   "gold_wan_oz": 7544,
+   "gold_moz": 75.44,
+   "gold_usd_100m": 3037.24,
+   "mom_oz": 480000.0,
+   "mom_t": 14.9297
+  },
+  {
+   "month": "2026.07",
+   "gold_wan_oz": 7608,
+   "gold_moz": 76.08,
+   "gold_usd_100m": 3063.54,
+   "mom_oz": 640000.0,
+   "mom_t": 19.9062
+  },
+  {
+   "month": "2026.08",
+   "gold_wan_oz": 7673,
+   "gold_moz": 76.73,
+   "gold_usd_100m": 3500.8,
+   "mom_oz": 650000.0,
+   "mom_t": 20.2173
+  },
+  {
+   "month": "2026.09",
+   "gold_wan_oz": 7747,
+   "gold_moz": 77.47,
+   "gold_usd_100m": 3235.17,
+   "mom_oz": 740000.0,
+   "mom_t": 23.0166
+  },
+  {
+   "month": "2026.10",
+   "gold_wan_oz": 7830,
+   "gold_moz": 78.3,
+   "gold_usd_100m": 3064.11,
+   "mom_oz": 830000.0,
+   "mom_t": 25.8159
+  }
+ ]
+}

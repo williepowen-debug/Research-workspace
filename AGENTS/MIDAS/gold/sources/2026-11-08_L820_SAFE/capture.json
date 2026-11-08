@@ -1,0 +1,10 @@
+{
+ "retrieved_at_utc": "2026-11-08T17:02:34Z",
+ "retrieved_at_et": "2026-11-08 12:02:34 EST",
+ "http_status": 200,
+ "bytes": 50667,
+ "tool": "curl -L, desktop UA",
+ "scope": "DOCKET L820, WQ-451 L3-SAFE grade; PRIMARY SAFE official reserve table, bilingual",
+ "prediction_changes": false,
+ "actual_score_changes": false
+}
