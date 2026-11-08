@@ -127,3 +127,59 @@ So the WTI tail and the escalation odds did not follow a confirmed strike, and t
 **Instrument note.** The legs fell out of the plain Gamma slug query; `polymarket.py pull` printed them as RESOLVED NO via its closed-market fallback. A read that had stopped at the IndexError would have reported a broken pin instead of the event.
 
 **Correction to my own record.** `SCRATCH.md` said a leg resolving NO means another qualifying strike, and that an unresolved leg could stay open to 11/18. Both true. The legs resolved inside 2.5 to 12 hours, far sooner than the "can sit mid-range for days" framing in Alert 1 implied.
+
+## WQ-646 A read 2 of 2, Sun 11/08 (pulled forward to 16:58Z on PROME's message, Will's word 11:57 ET)
+
+Context read, not a gate read and not a ledger row. Pulls: `polymarket.py pull --log` and `kalshi.py pull --log` at **16:58Z**, `disruption_supply_spread.py` at 16:58Z; CLOB books and data-api trades **16:59Z to 17:00Z**. Kalshi is the UNSIGNED public read on the laptop (`status` rc=3): every Kalshi market here was fetched (9 of 9), and only the signed lane is unused, so no venue is missing. Read 1 values (13:43Z 11/07 log) are in brackets. Priced odds only. No score moved and no registered letter applies.
+
+**1. Ceasefire legs, old event (`us-iran-effective-ceasefire-continues-throughptptpt-20261103`).**
+
+| Leg | 16:59Z book | Touch bid / ask | Within 2¢ bid / ask | Liq | Read 1 | Trades since read 1 |
+|---|---|---|---|---|---|---|
+| Through 11/05 | 99.7/99.8 | $6,313 / $72 | $38.4K / $324 | $64.4K | 99.2/99.4 | 60, last 13:52Z |
+| Through 11/06 | 99.0/99.3 | $93 / $266 | $16.5K / $18.4K | $43.5K | 97.6/98.0 | 136, last 16:26Z |
+| Through 11/08 · 11/15 · 11/30 · 12/31 | RESOLVED NO | no book | | | resolved | |
+
+- **Both open legs firmed, and neither has resolved.** The market text keeps a leg open "until 11:59 PM Iran Standard Time on the third calendar date following the specified date" unless a qualifying action is already established. That puts the 11/05 leg's window close at 20:29Z today (15:29 ET) and the 11/06 leg's at 20:29Z Mon 11/09. This is my reading of the rule text; the resolver may act later. At these prices the crowd still dates the qualifying strike to 11/07 Iran time, after the 11/06 cutoff. That is priced, not established.
+- **Resolver's evidence is still not readable.** The Gamma closed record is unchanged since read 1: umaResolutionStatus resolved, umaResolutionStatuses ["proposed","proposed"], automaticallyResolved True, same resolvedBy address, umaBond 500, resolutionSource empty. Gamma carries no proposal text, and I did not read the on-chain proposal or UMA's pages. So which strike the resolver relied on is **not established**.
+
+**NEW forward market, listed after read 1: "US x Iran Effective Ceasefire begins by...? (2 week pause)"** (`us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108`). Created 02:48Z 11/08; first trades 03:13Z; event volume $92.5K. **Rule:** YES if a full 14-day period with no qualifying US strike on Iran's land starts between market creation and the named date (Iran time). A strike resets the start to the next day. Strikes before creation do not count. Exclusions: intercepted munitions, naval gunfire and artillery, minor surface-to-surface strikes (loitering munitions, FPV, ATGM), and Iran's waters and airspace beyond its internal waters. Each period gets a 3-day reporting buffer.
+
+| Leg | Price | 16:59Z book | Touch bid / ask | Within 2¢ bid / ask | Vol | Liq |
+|---|---|---|---|---|---|---|
+| by 11/8 | 23.5 | 24.0/25.0 | $5 / $816 | $398 / $1,944 | $23.0K | $32.9K |
+| by 11/15 | 36.0 | 35.0/38.0 | $533 / $214 | $893 / $1,626 | $20.6K | $41.0K |
+| by 11/22 | 48.5 | 48.0/49.0 | $177 / $81 | $1,679 / $2,513 | $7.8K | $43.5K |
+| by 11/30 | 62.5 | 62.0/63.0 | $149 / $991 | $1,123 / $6,880 | $14.5K | $45.9K |
+| by 12/31 | 80.0 | 79.0/81.0 | $2,873 / $1,228 | $5,231 / $29.4K | $26.6K | $51.8K |
+
+- **Reading, priced:** the by-11/8 leg is YES only if no qualifying strike lands from creation through about 11/21 (Iran time). At 23.5 the crowd prices about a **76% chance of at least one more qualifying US strike on Iranian land in the two weeks from 11/08**. The by-12/31 leg at 80 prices about a 20% chance that strikes keep recurring often enough that no clean 14-day window opens before year-end.
+- **Caveats:** a two-day-old market with $8K to $27K volume per leg and $400 to $5K within 2¢ of the bid. The rule differs from the old event (it excludes minor surface-to-surface strikes and adds the 14-day test). **Never difference it against the old legs.** Not pinned yet, so it has no log rows. Pinning is a closeout decision.
+- **Kalshi:** no US strike or ceasefire market found. `kalshi.py search "Iran"` returned 74 markets, NOT CERTIFIED (page cap), so a zero is not a verified absence. The search found US-Iran agreement legs (Dec 2.0, Mar 27 17.0), but those are a deal family, not a strike family.
+
+**2. Oil and escalation, 16:58Z log, read 1 in brackets.**
+
+| Market | Read 2 | Read 1 | Depth | Range since read 1 (trades) |
+|---|---|---|---|---|
+| PM WTI $110 Nov (v5 segment, same slug) | **17.0** | 17.0 | liq $31.1K; book 16/18, touch **$2 / $1**, within 2¢ $1,141 / $1 ⚠️ | 15.0 to 20.0 (20 trades, $3.5K) |
+| PM US invade Iran before 2027 | 10.5 | 10.5 | book 10/11, touch $8.4K / $8.6K | 10.0 to 11.0 (217, $31.2K) |
+| PM US declares war by 12/31 | 2.0 | 2.2 | book 1.8/2.2, touch $2 / $5 ⚠️ | 2.0 to 2.4 (8, $2.2K) |
+| PM Hormuz normal by 12/31 | 8.5 | 9.5 | book 8/9, touch $2.4K / $859, liq $359.4K | 8.0 to 10.0 (35) |
+| PM Hormuz normal by 11/30 | 2.4 | 3.25 | book 2.3/2.5, touch $66 / $62 | 2.3 to 3.4 (27, $17.2K) |
+| Kalshi Brent >$97.99 at 11/30 | 47.0 | 48.0 | mid 45.5, 3¢ book, OI 6.6K (flat), vol +49 | — |
+| Kalshi Brent >$95.99 at 11/30 | 52.0 | 56.0 | mid 54.0, 4¢ book, OI 4.2K (flat), vol +688 | — |
+| Disruption − supply spread | +74.5 | +73.5 | 91.5 − 17.0 | — |
+| Context: senior meeting 12/31 · blockade-end 3/31/27 · deal top · Iran ends enrichment · regime fall | 38.5 · 65.5 · 10.5 · 3.85 · 2.75 | 44.5 · 69.5 · 11.5 · 6.95 · 2.65 | | |
+
+- The Kalshi deltas are taken from `KALSHI_ODDS_LOG.tsv`, not from the pull's printed Δp. Both Brent rungs have 3¢ to 4¢ books, so a 1 to 4 point move is inside thin-book noise. Mark nothing on it.
+- **Oil and escalation odds still have not followed.** WTI $110 is unchanged and invade is unchanged; war and Hormuz-normal are 1 point lower. The diplomacy legs fell: senior meeting fell 6 and enrichment-end 3.1. Oil futures have been shut all weekend and reopen at 18:00 ET tonight. This read is the last price before that reopen.
+
+**3. December Fed hike, raw, no grade.** PM HIKE-at-Dec 76.5 [76.5], book 76.0/77.0, touch $39.4K / $281K, liq $978K, range 76.0 to 77.0 since read 1. Kalshi ≥1 more hike by Dec (`KXFED-26DEC-T4.00`) 76.0 [77.0], OI 92.3K, 1¢ book.
+
+**Headlines since read 1 (bodies unread; FALCON and HAWK own the events):**
+- Military.com 17:59Z 11/07: "US Military Carries Out New Targeted Strikes on Iran". LiveNOW/FOX 21:30Z: "US strikes Iran air defense system". LA Times 22:19Z. These may re-report the Friday remark.
+- CENTCOM 20:49Z 11/07: "U.S. Forces Disable Cargo Vessel Attempting to Violate Naval Blockade".
+- DW 13:07Z 11/08: "Iran: US strikes ship after blockade breach". Reuters 14:21Z 11/08: "Iran suggests blasts are not US attacks as both sides report ships hit".
+- Ship strikes at sea fall outside "Iran" in both market rules unless they hit internal waters. Whether any of these is a qualifying land strike after 02:48Z 11/08 is **not established**.
+
+**Unreachable or not done:** the UMA on-chain proposal text, CENTCOM and wire bodies, the spoken time of Trump's remark, and a certified Kalshi strike-market search.
