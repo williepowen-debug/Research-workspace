@@ -2,7 +2,7 @@
 
 **Status:** Severity concentrated on Q3 levels, with a qualifier: the registered breadth test L180 reads BROADER on its letter, weak [11/07]; frozen 8/20 score showed no skill. HY OAS 348bp [11/05] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 2bp below the strict >350 line, run 0-of-3); wide HY alone does not establish bank transmission. FL frame NO TRANSMISSION FINAL [11/06]: three HOLDS, BKU MIXED, its primary cell transmitted alone on one modified credit of $21.3M. VLY's ~$108M CRE payment-delay block did not pay off and looks modified again (inference); no second bank passed that test on the 11/06 screen, now NO BLOCK at 8 names; FLG's pool +$202M is mostly a Call Report line (inferred). FLG multifamily special mention $3,001M and substandard $4,428M rose in Q3 while modifications fell to $96M. The 10-year, not HY, moves regionals. Problem loans up at 7 of 10 names; falling coverage dropped as a predictor (L801, 10/30). WAL's Q3 10-Q: NCO 0.30%, no fraud, WAL-source stand-down leg NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-07 11:13 ET, FLG figures in STATUS brought to 9/30 on PROME's word, no change of state | STATUS commit: `d6a1168287`
+**As of:** 2026-11-08 07:11 ET, closeout on PROME's ask, FLG and OZK 10-Q answers folded in, no change of state | STATUS commit: `981332d303`
 
 ## CROSS-DOMAIN
 
@@ -15,7 +15,7 @@
 - **Settled 11/06:** WAL $75.55, exit 0-of-3; KRE $72.20; FLG $10.52, 22 closes below RED.
 
 **November6 close refresh** (`reports/2026-11-06_close-refresh/REPORT.md`):
-- **FLG 10-Q:** multifamily special mention $3,001M vs $2,757M [6/30], substandard $4,428M vs $4,182M, my 'weakens if' line NOT MET; Q3 modifications $96M vs $401M; nonaccrual with no allowance $1,548M vs $1,571M. ⚠️ Nine-month re-default row $221M below H1 as filed $385M, cause open, with the FLG desk. Multifamily 30-89 +68% in the quarter; the filing's table shows −33% against year-end.
+- **FLG 10-Q:** multifamily special mention $3,001M vs $2,757M [6/30], substandard $4,428M vs $4,182M, my 'weakens if' line NOT MET; Q3 modifications $96M vs $401M; nonaccrual with no allowance $1,548M vs $1,571M. ⚠️ Nine-month re-default row $221M below H1 as filed $385M, cause not assignable from the filing, specific to the default table (FLG desk 11/07); needs the issuer or the FY2026 10-K. Multifamily 30-89 +68% in the quarter; the filing's table shows −33% against year-end.
 - **OZK 10-Q:** OREO $420.4M, $10.6M sold in nine months, marks still untested. **CUBI, OZK:** no CRE modifications.
 - **H.8 [w/e 10/28]:** small-bank borrowings $309.7B +1.5%, deposits +0.26%, NDFI $199.2B down a second week; no run, no credit draw.
 - **HY 11/06 not published.**
