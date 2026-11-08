@@ -1,9 +1,9 @@
 # GIBBS — NEXUS Brief
 
-**Status:** 🟡 Large banks: 10-Qs keep the read; deposit-cost repricing shared at 12 of 14, CRE mostly recognition, stress at PNC office and possibly Goldman CRE; Goldman's $368M still unattributed; no cyber consequence observed
+**Status:** 🟡 Large banks: all 16 10-Qs keep the read; deposit-cost repricing shared at 13 of 15, CRE mostly recognition, stress at PNC office and possibly Goldman CRE; Goldman's $368M still unattributed; no cyber consequence observed
 **Domain:** 16 US Category I-III banks as REGINALD's comparison group (Q1 industry-wide vs regional-only) and large-lender NDFI transmission (Q2, one figure with BROCK); large-bank consequence of CYPHER's cyber events
-**Recent thesis pivot:** no pivot; the 2026-11-06 10-Q pass (15 of 16) narrows it: GS and AXP deposit costs fell, PNC's stress is office-led, GS CRE nonaccrual rising, Goldman provision not attributed to a sector
-**As of:** 2026-11-06 07:39 ET | STATUS commit: `dbb0f6d0fc`
+**Recent thesis pivot:** no pivot; the 10-Q pass closed 16 of 16 on 2026-11-08 (Schwab: deposit cost +4bp, no CRE or NDFI book); no bank 10-Q discloses data-center lending, which sits in technology and real-estate buckets
+**As of:** 2026-11-08 12:10 ET | STATUS commit: `51c104341e`
 
 ---
 
@@ -12,17 +12,16 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
-| REGINALD | Q3 10-Q reads tagged 16 INDUSTRY-WIDE / 6 REGIONAL-ONLY / 42 NOT-YET-DETERMINABLE: IB-deposit cost up at 12 of 14 same-line large banks (+2 to +11bp) vs cohort +2 to +15bp, GS and AXP down; CRE recognition better supported; PNC office, possibly GS CRE (packet 2026-11-06) | P1 | Comparison group for the regional-only vs industry-wide question |
+| REGINALD | Q3 10-Q reads tagged 17 INDUSTRY-WIDE / 6 REGIONAL-ONLY / 41 NOT-YET-DETERMINABLE: IB-deposit cost up at 13 of 15 same-line large banks (+2 to +11bp) vs cohort +2 to +15bp, GS and AXP down; its 14 cohort 10-Q lines changed no tag (criticized direction split); question on whether that line carries a direction (packets 2026-11-06, 2026-11-08) | P1 | Comparison group for the regional-only vs industry-wide question |
 | BROCK | 13-name NDFI figures from the 10-Qs (STT, BK, NTRS, TFC, MS, PNC proxy); Goldman: Q3 charge-offs in other collateralized and corporate loans, other collateralized nonaccrual $121M, $424M, $266M, no sector named; WFC matches BROCK's figure (packet 2026-11-06) | P1 | One figure; Goldman bears on BRK-31 if BROCK finds a non-bank borrower |
-| LIQUID | Custody deposits down at Q3 (NTRS avg IB -3.1%, NIB -5.4%; BNY period-end -9.5% vs elevated 6/30); no BK/STT custody outage from the October cyber events | P1 | Large-bank funding leg for the plumbing read; seasonal caveat |
+| LIQUID | Custody deposits down at Q3 (NTRS avg IB -3.1%, NIB -5.4%; BNY period-end -9.5% vs elevated 6/30); Schwab sweep deposits -3.94% with loan-led growth in higher-cost short-term funding (packet 2026-11-08); no BK/STT custody outage from the October cyber events | P1 | Large-bank funding leg for the plumbing read; seasonal caveat |
 | CYPHER | Consequence NOT OBSERVED at the 16 through 11/06: no 8-K Item 1.05 since 10/23, no incident or watched vendor in 15 10-Qs (period to 9/30); Arkéa shared-vendor channel UNKNOWN | P2 | Large-bank consequence grade for the event row |
 | PROME | AXP enforcement (OCC $350M AML penalty, Fed/OCC orders 10/08, no asset cap) sits in the unowned enforcement class; USB CRO resigned 10/23 (governance only) | P2 | Exclusions register: enforcement has no owner desk |
 
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| Issuers | SCHW Q3 10-Q, not filed at 2026-11-06 12:27Z | ~2026-11-09 | Last 3 open slots | A CRE or NDFI line would be new; otherwise no change |
-| REGINALD | Cohort 10-Q reads, same quarter and basis | ~2026-11-14 | Needed to tag the 10-Q legs | Tags only; otherwise NOT-YET-DETERMINABLE |
+| REGINALD | Whether its cohort criticized line carries a Q3 direction | open, no date | Needed to tag the large-bank criticized rows | Tags only; otherwise NOT-YET-DETERMINABLE |
 | CYPHER | Named-victim rows 1/3; Kiteworks victim check; Arkéa and vendor re-checks | 11/06 · 11/09 · 11/12 · R1 flip 11/20 | Turns NOT OBSERVED into a graded consequence | A named perimeter-firm victim or an 8-K Item 1.05 at one of the 16 |
 
 ---
@@ -49,9 +48,9 @@
 
 ## NEXT DECISION POINT
 
-- **What:** Schwab's Q3 10-Q (last 3 slots), then re-tag against REGINALD's 10-Q comparators.
-- **When:** SCHW check-by 2026-11-09; comparators ~2026-11-14.
-- **What would falsify the trigger:** SCHW's 10-Q slipping past ~11/09, or the EDGAR route failing.
+- **What:** Quarterly perimeter re-cut (HBAN, FITB, USB category moves), then the post-Q3 consumption review.
+- **When:** 2026-11-14 and 2026-11-15.
+- **What would falsify the trigger:** a category source not yet published at 11/14 (FR Y-9C via FFIEC NIC is blocked to automation).
 
 ---
 
@@ -59,7 +58,6 @@
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 2026-11-09 | SCHW Q3 10-Q check-by | Last 3 slots: CRE, NDFI, NII guide |
 | 2026-11-14 | FR Y-9C window + perimeter re-cut | Category moves (HBAN, FITB, USB vs $700B) |
 | 2026-11-15 | R0 post-Q3 consumption review | Did REGINALD or BROCK change a judgment on a GIBBS read |
 | 2026-11-20 | CYPHER R1 flip date | KB-GIB-025 re-dated on a named victim or none |
