@@ -22,6 +22,7 @@ corrects: ["SIG-W-20261106-047", "SIG-W-20261106-053", "SIG-W-20261106-054", "SI
 corrects_direction: "SUPERSEDES card 055's 00:51Z books, the legs resolved NO; WEAKENS attacker unnamed, Trump spoke but named neither Qeshm nor Friday; card 056's no-new-strike find HOLDS to 00:57Z"
 kill_strings: ["25.0/27.4", "Implied another US strike by November 15 about 74", "Attacker of the two reported missiles: still unnamed"]
 ---
+> **Correction, November 8 — SIG-W-20261108-002:** "The target line holds" overstated card 056: the oil-and-gas target line rests on one relay, unconfirmed at NBC's page, with no second source (FALCON). The rest of this card holds. Original text preserved below.
 # CORRECTION to cards 047, 053, 054, 055, 056: Polymarket legs resolved NO; Trump says "minor strikes" without naming Qeshm or Friday; WTI tail did not follow
 
 Corrects card 055's books and the "attacker unnamed" lines on 047, 053, 054. Direction: 055's snapback did not last, superseded. "Unnamed" WEAKENS, not closed. 056's no-new-strike find HOLDS to 00:57Z. FALCON owns the grade; odds are ORACLE's.
