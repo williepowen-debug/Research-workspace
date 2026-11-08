@@ -1,7 +1,7 @@
 # ORACLE STATUS
 
 **Live dashboard: prediction-market probabilities, divergences, alerts.**
-**FULL REWRITE 2026-11-06 (desktop, Kalshi SIGNED); CURRENT-STATE RECONCILED 2026-11-08 07:08 ET (laptop `WilliePOwen`, Kalshi UNSIGNED public read) after the 11/07 resolution.** Alerts 00 to 3, the Iran and oil rows, the matrix, bottom line, tensions and catalysts reflect the **11/07 13:43Z** pull (Saturday, WQ-646 A read 1, context only). Every other figure is the **11/06 22:15Z** pull, a later same-date pull and so CONTEXT, never a gate read (letter O3); the 11/06 gate read is the routine's 10:15 ET pull. Next gate reads Mon 11/09.
+**FULL REWRITE 2026-11-06 (desktop, Kalshi SIGNED); CURRENT-STATE RECONCILED 2026-11-08 07:08 ET (laptop `WilliePOwen`, Kalshi UNSIGNED public read) after the 11/07 resolution; READ 2 FOLDED 2026-11-08 12:1x ET.** Alert 000, the Iran row, bottom line, tension #2 and catalysts reflect the **11/08 16:58Z** pull (Sunday, WQ-646 A read 2, context only). Alerts 00 to 3, the Iran and oil rows, the matrix, bottom line, tensions and catalysts reflect the **11/07 13:43Z** pull (Saturday, WQ-646 A read 1, context only). Every other figure is the **11/06 22:15Z** pull, a later same-date pull and so CONTEXT, never a gate read (letter O3); the 11/06 gate read is the routine's 10:15 ET pull. Next gate reads Mon 11/09.
 
 > **Prices here are a LOG, not a live quote.** Never cite this file as the current price; re-pull. Every figure carries platform/date/depth. Thin books (<$5K liq) are flagged ⚠️ and never marked on one print. Kalshi depth proxy = open interest. "PM" = Polymarket.
 
@@ -107,7 +107,7 @@
 | Inflation | Oct CPI modal at 86.0 ⚠️ thin | HENRY owns the print | no Kalshi October YoY event | 🟡 |
 | Recession 2026 | PM 4.5 / Kalshi 4.0 | RED 4–12% (NBER-dated) | structural definitional gap | 🟡 |
 | Oil: premium vs shortage | Nov $110 17.0 (11/07); WTI Dec settle $90.83 (wire, per BRENT) | premium ≠ shortage | spread +73.5 (11/07); Brent rungs rose on thin books | 🟠 |
-| Iran | effective ceasefire legs RESOLVED NO 11/07 after Trump's "minor strikes"; invade 10.5, war 2.2 (11/07) | HAWK owns; FALCON grades Qeshm | strike priced and resolved; escalation odds flat | 🔴 |
+| Iran | effective ceasefire legs RESOLVED NO 11/07 after Trump's "minor strikes"; new 2-week-pause market by-11/8 23.5 = about 76 for another qualifying strike in 14 days; invade 10.5, war 2.0 (11/08 16:58Z) | HAWK owns; FALCON grades Qeshm | another strike priced likely; escalation odds flat | 🔴 |
 | Tail sentiment | S&P best-asset 87.0; AI bubble 7.5 | — | two days | 🟡 |
 
 ---
@@ -116,7 +116,7 @@
 
 *Structural detail → `MAINTENANCE.md`; findings → `workbook/KB.tsv` (KB-ORC-118 to 131).*
 
-- ✅ **Resolved effective ceasefire pins (11/15, 11/30, 12/31) retired from `watchlist.tsv` 11/08.** No live forward US strike market found 11/07.
+- ✅ **Resolved effective ceasefire pins (11/15, 11/30, 12/31) retired from `watchlist.tsv` 11/08.** No live forward US strike market found 11/07; on 11/08 the new "2 week pause" event (created 02:48Z 11/08) was found, and its by-11/8 and by-11/30 legs were pinned (KB-ORC-132).
 - ✅ **Kalshi U3 rolled 11/06:** `KXU3-26NOV-T4.1`, `T4.2`, first logged 22:15Z.
 - ✅ **Signed Kalshi lane verified on the desktop 11/06:** `status` rc=0 at 22:1xZ.
 - ⏳ **Rolls due:** Hormuz weekly → wk-of-11/9 at 11/09 · Hormuz on-date (no November event found) · December $110 when listed.
@@ -133,7 +133,7 @@
 
 ## BOTTOM LINE
 
-**Polymarket's effective ceasefire legs resolved NO on 11/07: the market and its resolver treat a US strike on Iran as having landed after 11/06.** Trump said the US does "minor strikes" and knocked out an anti-aircraft device, without naming Qeshm or a day. Oil odds on Polymarket did not follow and invasion and war odds stayed low; two thin Kalshi Brent rungs rose. Oil futures reopen Sunday evening, which is the first real test of whether this is a limited exchange or the start of a supply story.
+**Polymarket's effective ceasefire legs resolved NO on 11/07: the market and its resolver treat a US strike on Iran as having landed after 11/06.** Trump said the US does "minor strikes" and knocked out an anti-aircraft device, without naming Qeshm or a day. Oil odds on Polymarket did not follow and invasion and war odds stayed low; two thin Kalshi Brent rungs rose. On Sunday at 16:58Z, a new Polymarket market priced about a 76% chance of another qualifying US strike on Iranian land within two weeks. WTI $110 stayed at 17.0, invasion at 10.5 and war at 2.0. Oil futures reopen at 18:00 ET Sunday, the first real test of whether this is a limited exchange or the start of a supply story.
 
 **December hike odds stayed near 77 to 78%, matching futures.** AI downturn odds stayed at 7.5, $110 oil near 20, recession under 5%, and bank-failure books stayed too thin to read.
 
@@ -142,7 +142,7 @@
 ## Cross-agent tensions
 
 1. 🟠 **ORACLE ↔ LIQUID/HENRY/BOND: Fed repricing, cause open.** Odds fell 14 to 17 points on 11/05 with stocks and rebounded 14 on 11/06, part before the print. Packets sent 11/05 and 11/06.
-2. 🔴 **ORACLE ↔ BRENT/HAWK/FALCON: strike resolved, oil flat.** Effective ceasefire legs resolved NO 11/07 against WTI $110 Nov 17.0 and invade 10.5; Kalshi Brent rungs up on thin books. FALCON's event grade of Qeshm is open. Packets 11/06 22:2xZ, 23:4xZ, 11/07 00:5xZ and 13:4xZ.
+2. 🔴 **ORACLE ↔ BRENT/HAWK/FALCON: strike resolved, oil flat.** Effective ceasefire legs resolved NO 11/07 against WTI $110 Nov 17.0 and invade 10.5; Kalshi Brent rungs up on thin books 11/07. On 11/08 at 16:58Z, the new 2-week-pause market priced about 76 for another strike while WTI $110 stayed at 17.0 and the Brent rungs eased to 47 and 52. FALCON's event grade of Qeshm is open. Packets 11/06 22:2xZ, 23:4xZ, 11/07 00:5xZ and 13:4xZ, 11/08 17:0xZ.
 3. 🟠 **ORACLE ↔ BOND/TERRY: 10Y resolution basis.** The ladder resolves on the Treasury par "10 Yr"; gates key on DGS10. Equivalence unconfirmed since 9/17.
 4. 🟠 **ORACLE ↔ RED: recession definitions.** Kalshi GDP-rule 4.0 vs PM GDP-or-NBER 4.5 is structural (KB-ORC-099).
 
