@@ -36,6 +36,6 @@
 - None from BRENT. Positions are TRADE's and Will's; no reminders (USER.md). PENDING guard 11/8: 2 elapsed expiry rows, not re-checked at the artifact this session (no broker evidence read).
 
 ## MAIL STATE
-- Inbox WALTER lane empty as of 2026-11-08 12:1x EST. This session 9 consumed, 9 ledger rows, 9 moved (cards 053–056, 20261107-001 to -003, 20261108-001, -002). Top-level inbox: one ZHAO packet, read, filing deferred (below).
-- ZHAO packet `inbox/2026-11-08_from-ZHAO_11-10-clocks-instrument-check.md` (FYI, no ask) read 12:1x EST: USTR s.301 ship fees OPEN, suspension ends 11/9 23:59 ET; fees on China-linked vessels could accrue from 11/10 absent a USTR determination; China mirror keyed on it. Shipping-cost context for gulf-access-cost, nothing moved. DEFERRED filing: ZHAO had not committed it, so no ledger row or move yet. Next boot: log it (source=INBOX), `git mv` to `inbox/processed/`, read ZHAO's 11/10 result.
+- Inbox WALTER lane empty as of 2026-11-08 12:1x EST. This session 9 consumed, 9 ledger rows, 9 moved (cards 053–056, 20261107-001 to -003, 20261108-001, -002). Top-level inbox: one ZHAO packet, consumed and filed (below); 10 consumed, 10 rows, 10 moved in all.
+- ZHAO packet `inbox/2026-11-08_from-ZHAO_11-10-clocks-instrument-check.md` (FYI, no ask) read 12:1x EST: USTR s.301 ship fees OPEN, suspension ends 11/9 23:59 ET; fees on China-linked vessels could accrue from 11/10 absent a USTR determination; China mirror keyed on it. Shipping-cost context for gulf-access-cost, nothing moved. Filed after ZHAO committed it (092acb7d4b): ledger row and move done. Next: read ZHAO's 11/10 result.
 - Outbox: no open packet.
