@@ -1055,6 +1055,9 @@ def price_fetch(tickers, delta_threshold=0.0):
                     results[t]["trade_date"] = sess["trade_date"]
                     results[t]["session_basis"] = sess["session_basis"]
                     results[t]["change_basis"] = sess["change_basis"]
+                    if "last_trade_age_min" in sess:
+                        results[t]["last_trade_age_min"] = sess["last_trade_age_min"]
+                        results[t]["age_flag"] = sess["age_flag"]
                     if sess["withhold"]:
                         results[t]["change_pct"] = None
                         results[t]["prev_basis"] = ("regularMarketPreviousClose — NOT the last settle while the "
@@ -1467,6 +1470,10 @@ def contract_probe(root, horizon=5, exchange="NYM"):
 # inputs classify as `unverified` with the reason -- never a silent `day`.
 # ---------------------------------------------------------------------------
 _DAY_SESSION_CLOSE_ET = (17, 0, 0)   # CME Globex energy/metals; see the header above
+# L925 open half (2026-11-08): a `day` bar dated today whose last trade is older than
+# this is marked "old" -- a frozen feed must not print as a live quote all afternoon.
+# Above the 29.1-minute live worst case and the ~10-minute median measured 2026-11-05.
+_DAY_AGE_LIMIT_MIN = 45
 
 
 def _next_session_date(d):
@@ -1485,7 +1492,7 @@ def _prev_session_date(d):
     return n
 
 
-def futures_bar_session(md, asof, prev_asof, quote_price=None):
+def futures_bar_session(md, asof, prev_asof, quote_price=None, now=None):
     """Classify a futures bar only when its quote and chart observations cohere.
 
     Returns a dict: session ∈ {day, evening-next-session, non-session-date,
@@ -1494,7 +1501,10 @@ def futures_bar_session(md, asof, prev_asof, quote_price=None):
     published) · change_basis (what the change is, or why it is withheld).
     Precedence: non-session-date > re-labelled/evening > day. A `day` bar whose
     PRIOR bar is not the expected prior session still withholds the change
-    (overnight window: the T-1 settle bar may not be restored yet)."""
+    (overnight window: the T-1 settle bar may not be restored yet).
+    L925: every decided row also carries last_trade_age_min (fetch clock minus last
+    trade, `now` = epoch seconds, default time.time()); a `day` bar dated today
+    with an age over _DAY_AGE_LIMIT_MIN carries age_flag True."""
     from datetime import datetime as _dt, timezone as _tz
     from zoneinfo import ZoneInfo
     md = md or {}
@@ -1556,29 +1566,42 @@ def futures_bar_session(md, asof, prev_asof, quote_price=None):
         # price_fetch's history-failure branch, whose stated cause would be false.
         return _unverified(f"regularMarketTime {rmt_i} not a usable epoch ({type(te).__name__})")
     lt_date = local.date()
+    now_s = time.time() if now is None else float(now)
+    age_min = round((now_s - rmt_i) / 60.0, 1)
+    now_et = _dt.fromtimestamp(now_s, ZoneInfo("America/New_York"))
+    # Only while the clock is before the day-session close on the bar date: after 17:00
+    # the bar is final (Friday, holiday eve) or in the daily halt, and an old last trade
+    # is not a frozen feed (counterexample read 2026-11-08, ❌1).
+    in_session = now_et.date() == asof_d and (now_et.hour, now_et.minute, now_et.second) < _DAY_SESSION_CLOSE_ET
+
+    def _aged(res):
+        res["last_trade_age_min"] = age_min
+        res["age_flag"] = bool(res["session"] == "day" and in_session
+                               and age_min > _DAY_AGE_LIMIT_MIN)
+        return res
     basis = (f"last trade {local.strftime('%Y-%m-%d %H:%M:%S')} [America/New_York; source {tz_basis}] vs bar {asof}; "
              f"quote/chart price joined at {quote_price_f}; day-session close "
              f"{_DAY_SESSION_CLOSE_ET[0]:02d}:{_DAY_SESSION_CLOSE_ET[1]:02d} ET assumed (CME Globex energy/metals)")
     withheld_eve = ("withheld: evening bar spans two sessions — regularMarketPreviousClose is the settle "
                     "BEFORE the overwritten session")
     if asof_d.weekday() >= 5 or asof_d.isoformat() in US_MARKET_HOLIDAYS:
-        return {"session": "non-session-date", "trade_date": _next_session_date(asof_d).isoformat(),
+        return _aged({"session": "non-session-date", "trade_date": _next_session_date(asof_d).isoformat(),
                 "session_basis": f"bar dated a non-session day; {basis}",
-                "withhold": True, "change_basis": "withheld: bar is dated a non-session day"}
+                "withhold": True, "change_basis": "withheld: bar is dated a non-session day"})
     if lt_date < asof_d:
         if (local.hour, local.minute, local.second) >= _DAY_SESSION_CLOSE_ET \
                 and _next_session_date(lt_date) == asof_d:
-            return {"session": "evening-next-session", "trade_date": asof_d.isoformat(),
+            return _aged({"session": "evening-next-session", "trade_date": asof_d.isoformat(),
                     "session_basis": f"last trade is the immediately preceding evening for the bar date; {basis}",
-                    "withhold": True, "change_basis": withheld_eve}
+                    "withhold": True, "change_basis": withheld_eve})
         return _unverified(
             f"last trade {local.isoformat()} is stale or mismatched for bar {asof}: "
             "not the immediately preceding evening session"
         )
     if lt_date == asof_d and (local.hour, local.minute, local.second) >= _DAY_SESSION_CLOSE_ET:
-        return {"session": "evening-next-session", "trade_date": _next_session_date(asof_d).isoformat(),
+        return _aged({"session": "evening-next-session", "trade_date": _next_session_date(asof_d).isoformat(),
                 "session_basis": f"last trade at/after the day-session close on the bar date; {basis}",
-                "withhold": True, "change_basis": withheld_eve}
+                "withhold": True, "change_basis": withheld_eve})
     if lt_date > asof_d:
         return _unverified(f"last trade {lt_date} is AFTER the bar date {asof} — quote and chart endpoints disagree")
     # day session — check the PRIOR bar is the expected prior session (overnight overwrite window)
@@ -1588,14 +1611,14 @@ def futures_bar_session(md, asof, prev_asof, quote_price=None):
             relation = "absent"
         else:
             relation = "newer than expected" if str(prev_asof) > expected_prev else "older than expected"
-        return {"session": "day", "trade_date": asof_d.isoformat(),
+        return _aged({"session": "day", "trade_date": asof_d.isoformat(),
                 "session_basis": f"day session; {basis}",
                 "withhold": True,
                 "change_basis": (f"withheld: prior bar {prev_asof!r} is {relation}; expected {expected_prev} "
-                                 "(NYSE holiday table basis)")}
-    return {"session": "day", "trade_date": asof_d.isoformat(),
+                                 "(NYSE holiday table basis)")})
+    return _aged({"session": "day", "trade_date": asof_d.isoformat(),
             "session_basis": f"day session; {basis}",
-            "withhold": False, "change_basis": f"regularMarketPreviousClose (prior bar {prev_asof})"}
+            "withhold": False, "change_basis": f"regularMarketPreviousClose (prior bar {prev_asof})"})
 
 
 def _session_stamp(d, asof, today, ticker=None):
@@ -1617,8 +1640,11 @@ def _session_stamp(d, asof, today, ticker=None):
         return f"{str(asof)[5:]}⚠non-session"
     if sess == "unverified":
         return f"{asof or 'date?'}⚠unverif"
+    old = f"⚠{math.ceil(d.get('last_trade_age_min') or 0)}m old" if (sess == "day" and d.get("age_flag")) else ""
     if sess == "day" and d.get("change_pct") is None and str(d.get("change_basis", "")).startswith("withheld"):
-        return f"{asof}⚠gap" + (" ⚠stale" if str(asof) != today else "")
+        return f"{asof}⚠gap" + (f" {old}" if old else "") + (" ⚠stale" if str(asof) != today else "")
+    if old:
+        return f"{asof} {old}" + ("" if str(asof) == today else " ⚠stale")
     return "date?" if asof is None else (asof if asof == today else f"{asof} ⚠stale")
 
 
@@ -1639,9 +1665,14 @@ def _session_note(d, ticker=None):
         if ticker is not None and _row_is_future(d, ticker):
             return "pre-L462 cache entry (no session field) — re-pull with --no-cache; the day-change is unverified"
         return None
+    age_line = None
+    if sess == "day" and d.get("age_flag"):
+        age_line = (f"last trade {d.get('last_trade_age_min')} min old at fetch on a bar dated today "
+                    f"(limit {_DAY_AGE_LIMIT_MIN} min): the vendor feed may be frozen — not a live quote")
     if sess != "day" or (d.get("change_pct") is None and str(d.get("change_basis", "")).startswith("withheld")):
-        return f"{sess}: {d.get('change_basis')} · {d.get('session_basis')}"
-    return None
+        gap = f"{sess}: {d.get('change_basis')} · {d.get('session_basis')}"
+        return f"{gap}\n{'':<15}⚠ {age_line}" if age_line else gap
+    return age_line
 
 
 def _looks_like_future(ticker):
