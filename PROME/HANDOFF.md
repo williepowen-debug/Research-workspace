@@ -1,6 +1,6 @@
 # PROME HANDOFF
 
-**Current state: RESTART CHECKPOINT 2026-11-07 12:45 ET, session prome-bf, laptop, working session unfinished; four DAEDALUS packets carried in PROME/inbox. Say "pick up PROME". Resume at [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here); run CronList first, re-create reminders only if the window closed.**
+**Current state: RESTART CHECKPOINT 5, 2026-11-07 20:0x ET, session prome-bf, laptop, working session unfinished; PROME/inbox empty; next dated obligation Sun 11/8 15:03 ET. Say "pick up PROME". Resume at [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here); run CronList first, re-create reminders only if the window closed.**
 
 **Resume:** (1) [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) and [today's account](../memory/2026-11-07.md); (2) DOCKET/GATES/WILL_QUEUE for obligations and `PROME/tools/inbox_census.py PROME` before any launch; (3) [research-first briefing instruction](proposals/2026-10-25_research-first-briefing-RULED.md), installed at BOOT step 8; (4) [delivery contract](tools/ARGUS_CONTRACT.md). The 10/25 three-desk sweep, its four file corrections and its evening inbox disposition are history at [its report](reports/2026-10-25_three-desk-stale-file-sweep.md#final-session-disposition--all-three-closed-by-will) and [that closeout](reports/2026-10-25_evening-closeout.md). Dated sections below are historical continuity.
 
