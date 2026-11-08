@@ -1,16 +1,21 @@
 # FALCON — NEXUS Brief
 
-**Status:** 🔴 B 1 / C 14 / D 85 HELD (11/04 weekly review; no letter met through about 13:50Z 11/07, WQ-646 read 1); FAL-06 CONFIRMED, route (c) ungraded; losses 7; FAL-08..12 OPEN to 12/31, FAL-09 count 0 of 5. Qeshm 11/6 graded a US strike, attribution high, not explicit.
+**Status:** 🔴 B 1 / C 14 / D 85 HELD (11/04 weekly review; no letter met through about 17:05Z 11/08, WQ-646 read 2); FAL-06 CONFIRMED, route (c) ungraded; losses 7; FAL-08..12 OPEN to 12/31, FAL-09 count 0 of 5. Qeshm 11/6 graded a US strike, attribution high, not explicit. Houthis hit an Aramco office in Riyadh 11/8: out of class, rung not fired.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); v3.1 November 6 moves the live test to FAL-08, a STATED loss; no new pivot.
-**As of:** 2026-11-07 08:52 ET | STATUS commit: `63fc2fc0a2` | Evidence cutoff about 13:50Z 11/07; centcom.mil, War Department, UKMTO unreachable (403), CENTCOM X and direct Reuters, AP, AFP unread; DVIDS reachable
+**As of:** 2026-11-08 12:06 ET | STATUS commit: `8016a6faad` | Evidence cutoff about 17:05Z 11/08; centcom.mil, UKMTO and Seatrade unreachable (403), CENTCOM X and direct Reuters, AP, AFP, Bloomberg unread; DVIDS and Anadolu reachable
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
+| HENRY / BRENT / HAWK / RED / PROME / SAM | **Aramco office tower, Riyadh, 11/8: STRUCK, minor damage** (Saudi Energy Ministry: falling shrapnel, no casualties; Reuters witness: windows out across several floors). Houthis claim it plus Riyadh airport, Aramco storage tanks and Abqaiq. Eastern Province ballistic missile intercepted; Abqaiq alert lifted | P0 | **D 85 to 92 NOT FIRED: an office is not production-class**; Abqaiq damage is a claimant's word only. No stated crude loss, FAL-08 untouched. Second Aramco office hit after Dhahran 10/13. The target list now names the class that would fire the rung. BRENT owns the price read. KB-445/446 |
+| HAWK / BRENT / RED / PROME | US aircraft disabled cargo ship HUDA 11/7 after it left an Iranian port (CENTCOM on record). Qeshm and Jask blasts 11/7 evening: cause unknown, Iran's state TV suggests its own activity, no US claim | P1 | HUDA is blockade enforcement, excluded from FAL-09; count stays 0 of 5. CENTCOM counts since July (147 redirected, five disabled, 10 Iranian tankers destroyed) are a party's figures, a separate loss instrument. KB-443/444 |
+| BRENT / SAM / HAWK / RED / WALTER | UKMTO 199-26: tanker on fire 8 nm NW of Khasab 19:20Z 11/7, crew evacuated; UKMTO: tanker hit by an unknown projectile outbound 11/7, crew safe; UAE rescued 22 from a burning cargo ship 11/8. Iranian mine claims 11/7 to 11/8: four tankers, CLAIM-ONLY | P1 | No sinking reported; census 7. No hull named, no mine named by a maritime authority; FAL-12 untouched. KB-447/448 |
+| HAWK / BRENT / PROME | Card 056: NBC's own page confirms advisers' "window closing, act before January" limb; the Iranian oil-and-gas target line is not in NBC's open text and has no second source | P1 | One relay only. Advice, not a decision; an Iranian facility is outside my rung. KB-449 |
+| HAWK / RED / PROME | Talks: Qatar says continuing; Axios: proposed two-day sequence, blockade lifted and funds unfrozen for IAEA access; Iraqi delegation carried a US message to Tehran. Katz: mission "not complete" | P1 | No text, date or venue. Diplomacy stays 3; C→B not met. KB-450 |
 | HENRY / BRENT / HAWK / RED / PROME | CENTCOM's 08:30 ET item 11/7 = Task Force Iron Gate: about 20 staff in Tampa against Iranian land and Caspian routes. Own primary read, DVIDS 578868. **Not a strike, a campaign or a new order** | P1 | Link to the 8:30 line is time and subject only; CENTCOM X unread. $25B blockade figure is a party's. KB-432 |
-| HENRY / BRENT / HAWK / RED / PROME / ORACLE | Qeshm 11/6: **US strike, attribution high, not explicit.** Trump, Friday evening, asked about Qeshm: "We do minor strikes... They built a little bit of an anti-aircraft device, and we knocked it out". ⚠️ He named neither Qeshm nor Friday; no CENTCOM statement found; no US official or named wire sourcing it found. Dated 11/6 ET, about 16:00 to 17:00 ET | P0 | Not a 🔴 fire: limited, ceiling vector, no rung. FAL-09 0 of 5, window opened 11/7 00:00 ET. No 72-hour halt running. "No new strike" is coverage to about 13:50Z. Polymarket legs resolved NO is ORACLE's and not an event grade. KB-433, KB-441 |
+| HENRY / BRENT / HAWK / RED / PROME / ORACLE | Qeshm 11/6: **US strike, attribution high, not explicit.** Trump, Friday evening, asked about Qeshm: "We do minor strikes... They built a little bit of an anti-aircraft device, and we knocked it out". ⚠️ He named neither Qeshm nor Friday; no CENTCOM statement found; no US official or named wire sourcing it found. Dated 11/6 ET, about 16:00 to 17:00 ET | P1 | Unchanged at read 2: no CENTCOM line; Reuters 11/8 says neither side commented. Not a 🔴 fire: limited, ceiling vector, no rung. FAL-09 0 of 5, window opened 11/7 00:00 ET. No 72-hour halt running. "No US strike day" is coverage to about 17:05Z 11/8. Polymarket legs resolved NO is ORACLE's and not an event grade. KB-433, KB-441 |
 | BRENT / HAWK / RED / WALTER | UKMTO weekly via MEE, seven days to 11/4: 11 attacks, three sank; Hormuz 325 transits vs 277, about 65% below pre-conflict, AIS-seen 71. JMIC 111: about 31 US-assisted a day | P1 | Relay, UKMTO 403; Al Jazeera says week ending 11/6. Census 7: third sinking unnamed. ⛔ 46 a day is not comparable with 88 a day or PortWatch 2 to 6: different perimeter, US-reported share. Flow reading is BRENT's. KB-436/437 |
 | HAWK / RED / BRENT | Iranian Navy 11/7: unnamed tanker on a mine east of Hormuz: CLAIM-ONLY. MQ-1 and MQ-9 claims: CLAIM-ONLY. Basij death late 11/6: cause not stated. Houthi cruise missile toward Riyadh region intercepted | P2 | No neutral match; FAL-12 never counts it. INTERCEPTED is not STRUCK, rung not fired. KB-434/435/438 |
 | HAWK / RED / PROME | Card 043: Qatar's Prime Minister at the Oxford Union, not Doha, urged a good deal over a perfect one. Ladder item 5 NOT MET on both limbs. Qatar's media office, Al Jazeera 22:25Z: "failed" reports "false and misleading", mediators support "ongoing negotiations". So "mediation ended" is refuted; "So it's war" in no source read | P1 | A mediator's own word, no progress implied. Diplomacy stays 3. KB-419/420/425 |
@@ -37,18 +42,19 @@
 
 | From | Input | Expected by | Consequence |
 |---|---|---|---|
-| CENTCOM / White House | Any on-record line naming Qeshm or Friday; any US strike dated 11/7 or later | Read 2, about 15:03 ET 11/8 | Closes the gap in KB-433; a confirmed strike day would be FAL-09 day one. No rung fires |
-| UKMTO | The third sinking in the week to 11/4, and the 11/7 tanker | Read 2 | A named hull could change the census; RITI would be first class (iii-A) |
+| CENTCOM / White House | Any on-record line naming Qeshm or Friday; any US strike dated 11/7 or later | On event (WQ-646 reads spent) | Closes the gap in KB-433; a confirmed strike day would be FAL-09 day one. No rung fires |
+| UKMTO | The third sinking in the week to 11/4; names for 199-26 and the 11/7 projectile hull | Any day | A named hull could change the census; RITI would be first class (iii-A) |
 | Qatar / US / Iran | Signed dated text with an on-record US answer | On event | First evidence that could start C→B |
+| Saudi MoE / Aramco | Any counting-source damage statement at Abqaiq or another IN-class plant | On event | D 85 to 92 fires on a hostile hit, minor damage counts |
 | NAVAREA IX / IMO | RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate | Any day | RITI total loss = first class (iii-A), EXIT rewrite + memo |
 | PGSA / Sinokor / Korea | Any named Sinokor hull detained | Any day | Shipping-vector event; BRENT freight read |
 | UKMTO / IMO | 197-26 hull name and cause; 196-26 unread (403 here) | Next recovery | Could add a name; a stated mine would fire FAL-12 |
 
 ## VIEW
 
-- The tape closed the week pricing a deal; after the close, Iranian reports of impacts on Qeshm and Trump's "minor strikes" pointed the other way, and ORACLE reports the ceasefire legs resolved NO, order and cause unproven. Monday's futures open is BRENT's read. No registered condition has moved in either direction.
-- Marks sit at a rail: held means no letter fired, not that D 85 was re-earned.
-- The live question is now scale, a sustained campaign versus limited strikes, not whether the US strikes at all; I price the campaign at 40%.
+- The weekend added fire, not a letter: a Houthi hit on an Aramco office in Riyadh, US blockade fire on a cargo ship, and more tanker fires and mine claims, while Qatar says talks go on. Monday's futures open is BRENT's read.
+- The rung to watch is the production one: the Houthis now name Abqaiq. An office does not count, and an intercept does not count.
+- Marks sit at a rail: held means no letter fired, not that D 85 was re-earned. The scale question stands: a sustained US campaign 40%, no counting strike day yet.
 
 ## CALIBRATION
 

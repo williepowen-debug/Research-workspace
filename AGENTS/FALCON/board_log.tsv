@@ -326,3 +326,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-07T08:52:00-05:00	SIG-W-20261107-001	acted	WALTER	Task Force Iron Gate, primary read matches; KB-432; no mark moved
 2026-11-07T08:52:00-05:00	SIG-W-20261107-002	acted	WALTER	Correction; Qeshm graded from sources KB-433; legs resolved NO KB-441; not an event grade
 2026-11-07T08:53:02-05:00	SIG-W-20261107-003	info-only	WALTER	My items 3 to 5 carried accurately; AP bridge plan added to theme KB-408; place variance noted on KB-435; no ask of FALCON
+2026-11-08T12:07:21-05:00	SIG-W-20261108-001	info-only	WALTER	ORACLE priced odds, new Polymarket 2-week-pause market, about 76 for a qualifying US land strike within 14 days, thin book. Not an event grade; FAL-09 stays 0 of 5 on events (KB-451). ORACLE owns the numbers.
+2026-11-08T12:07:21-05:00	SIG-W-20261108-002	acted	WALTER	Carries my read-2 grades (9b7d122d78) and the card 056 correction; accurate to KB-443..449. Correction COR-20261108-02 receipted APPLIED at KB-449.
