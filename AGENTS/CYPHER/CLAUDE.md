@@ -193,7 +193,7 @@ SPENT 2026-10-22 (STATUS banner struck). The section is kept verbatim in `CHARTE
 
 ## GIT
 
-Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/CYPHER/` (+ carve-outs ① self-authored inbox packets · ② self-authored shared-log rows · ③ self-authored `memory/auto/` files · ④ only under a LIVE Gate C activation). Auto-push at closeout via `scripts/safe-push.sh`, unless an explicit coordinator handoff retains push custody. No other local exceptions.
+Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/CYPHER/` (+ carve-outs ① self-authored inbox packets · ② self-authored shared-log rows · ③ self-authored `memory/auto/` files · ④ Gate C Kernel shadow paths — conditions in root `CLAUDE.md` §Git Protocol carve-out ④). Auto-push at closeout via `scripts/safe-push.sh`, unless an explicit coordinator handoff retains push custody. No other local exceptions.
 
 ## FILES
 
