@@ -361,3 +361,11 @@ Polymarket slugs **rot**: markets resolve at their end-date and drop off. Every 
 - **`kalshi_watchlist.tsv`:** `KXBRENTMON-26NOV3017-T97.99` and `-T95.99` pinned. Off-center rungs are OI 0 and not monotonic.
 - **Found, not fixed:** `kalshi.py pull --log` has no double-log guard (23:15Z re-pull logged 9 of 9). No change made; Will 10/31: fewer checkers.
 - **Boot-impact:** step 7a only.
+
+### 2026-11-09 — `daily_pull.sh` sync-first (PROME brief, Will "go" 10:41 ET; WQ-527 C, DOCKET L847)
+- **Trigger:** 11/09 10:15 ET the desktop, 203 commits behind, read and committed 2ff376f4cd onto the 11/06 base, conflicting with the laptop's 11/07 and 11/08 rows (same class as 11/02 → 11/04).
+- **`tools/daily_pull.sh` (45a7701876):** local read check first (exit, no git); else skip on a rebase/merge in progress; `git fetch origin` (skip on failure); if behind, skip when tracked files are dirty, else `git pull --rebase` (abort + skip on failure); re-check, then read. Skips write no tracked file: one SKIP line to the cron log, exit 3.
+- **`tools/test_daily_pull_sync.sh` (new, 055188d9af):** scratch suite, 9 cases, 26/26 pass; the pre-fix script fails 12. PROME reran it 10:49:59 ET, 26/0.
+- **`SCHEDULED_RUNS.md`:** Contract 2, Known limits (collision fixed for pushed reads; four residues incl. PROME's cloud-push rebase note), Tests section.
+- **Not changed:** cron line (so `PROME/MACHINE_LOCAL.md` untouched), never-push rule, the four committed files.
+- **Boot-impact:** none (ran-check unchanged).

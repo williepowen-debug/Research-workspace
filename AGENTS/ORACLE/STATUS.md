@@ -123,8 +123,8 @@
 - ⏳ **Kalshi CPI:** `KXCPIYOY-26OCT` returns 404; open events are `26NOV` (November data, closes 12/10; OI 57.4K on `T3.8`) and `26DEC`. Candidate pin, not pinned.
 - ✅ **Hormuz 0-ships closure `⛔` is a false flag:** the row says do not replace (`watchlist.tsv`, diagnosed 8/27). Context column only.
 - 🔵 **Coverage due ≤11/11.** Movers ran 22:1xZ: 6 hits, none Iran, none pinned. Russian diesel nomination still awaits BRENT/OSPREY.
-- ⚠️ **The routine pulls and never grades.** Owner question sits on WQ-599 (Will, Sat 11/07). Routine unchanged.
-- ⚠️ **Two boxes collide:** both crons run; `SCHEDULED_RUNS.md` § Known limits.
+- ⚠️ **The routine pulls and never grades.** Owner question sits on WQ-599 (Will, Sat 11/07). The Mon 11/09 read was the routine's 10:15 ET pull (166f9c649e, desktop): logged, NOT YET GRADED.
+- ✅ **Two-box collision fixed by sync-first 2026-11-09 (45a7701876, PROME accepted):** a slot with no read today fetches and pulls before reading; any doubt skips without writing a tracked file. Still open: an UNPUSHED read on one box still collides; behind plus another desk's dirty file skips every slot. `SCHEDULED_RUNS.md` § Known limits.
 - ⚠️ **Kalshi lane is per-box:** laptop = UNSIGNED.
 - ⚠️ **Kalshi `pull` has no double-log guard.** It also logs FINALIZED markets' last trades as `yes_prob`; read `[finalized]` / API `result`.
 - ⚠️ **Never use `pull --log --force` to log new pins.**

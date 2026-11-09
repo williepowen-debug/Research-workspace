@@ -1,8 +1,17 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Last updated:** 2026-11-08 (Sun) 12:04 ET (from `date`) · **Box:** laptop `WilliePOwen`, Kalshi UNSIGNED public read (`status` rc=3) · Session: Claude Code, Opus 5.5, window oracle-e5, booted 11/06 19:4x ET for WQ-646 A. **Second closeout, on PROME's ask after read 2 (prome-bf, 11/08 12:03 ET). WQ-646's reads are all spent; no timed read is owed. The window stays open, idle.** Prior closeout: 2026-11-08 07:08 ET.
+**Last updated:** 2026-11-09 (Mon) 10:5x ET (hook clock 10:50) · **Box:** desktop `DESKTOP-BC6EF81`, Kalshi SIGNED (`status` rc=0) · Session: Claude Code, Opus 5.5, window oracle-8f, booted 10:42 ET on PROME's commission (Will "go" 10:41 ET). **Closeout on prome-6f's WQ-249 ask (10:5x ET), after PROME accepted the fix.** Prior closeout: 2026-11-08 12:04 ET (oracle-e5, laptop).
 
-## CHANGES SINCE 11/06 17:4x ET
+## THIS SESSION (oracle-8f, 11/09 10:42 ET to closeout) — scope: the sync-first fix only
+
+- **Boot:** git clean, 8 ahead / 0 behind (others' unpushed); ran-check OK (11/09 READ, routine 10:15 ET on the desktop, 166f9c649e); corrections rc 0; Kalshi signed rc 0. Inbox: only PROME's brief.
+- **`tools/daily_pull.sh` sync-first, 45a7701876:** local read check first (no git if already read), then skip on a rebase/merge in progress, fetch (skip on failure), pull --rebase only when behind on a clean tree (abort + skip on failure), re-check, then read. Skips write no tracked file: one SKIP line to `~/.local/state/oracle_daily_pull.log`, exit 3. Read-first ordering was my deviation from the brief; PROME agreed.
+- **Tests:** `tools/test_daily_pull_sync.sh` (055188d9af), 9 cases, 26/26; the pre-fix script fails 12. PROME reran it 10:49:59 ET, 26/0. Live no-op run under `env -i`: exit 0, state unchanged. A cron-environment fetch works on the desktop (credential helper `store`).
+- **`SCHEDULED_RUNS.md`:** Contract 2, Known limits (residues a to d; PROME's cloud-push rebase note folded into c), Tests. Return packet `PROME/inbox/2026-11-09_from-ORACLE_daily-pull-sync-first.md` (f4d652ea39) + SendMessage; PROME ACCEPTED.
+- **Process:** WALTER's 811962c856 committed my staged `git mv` of the brief from the shared index (R100; PROME: nothing to fix).
+- **Not done this session (out of scope):** no market pulls, no grading. The 11/09 routine read is logged and ungraded.
+
+## CHANGES SINCE 11/06 17:4x ET (oracle-e5, carried)
 
 - **READ 2 (11/08 16:58Z): a NEW forward market.** PM "US x Iran Effective Ceasefire begins by...? (2 week pause)" was created 02:48Z 11/08. Legs: by 11/8 23.5 (about 76 for another qualifying strike on Iran's land within 14 days) · 11/15 36.0 · 11/22 48.5 · 11/30 62.5 · 12/31 80.0. Depth is thin. The rule differs from the old event: never difference the two. By-11/8 and by-11/30 are pinned. KB-ORC-132.
 - **Read 2, other rows:** old legs through 11/05 and 11/06 firmed to 99.7/99.8 and 99.0/99.3 and are still open; their windows close 20:29Z 11/08 and 20:29Z 11/09 (my reading of the rule). Resolver evidence is still unreadable. WTI $110 17.0 (17.0), invade 10.5, war 2.0, Hormuz 12/31 8.5, Kalshi Brent 47.0 / 52.0 on thin books, spread +74.5. Fed Dec hike PM 76.5, Kalshi 76.0.
@@ -27,7 +36,8 @@
 
 - **✅ WQ-646 A done: four reads spent (prome-bf 11/08 12:03 ET); no timed read owed.** Hold the window idle, with no timer, until PROME asks.
 - **🔴 New pins (11/08):** `us-x-iran-effective-ceasefire-by-november-8-20261108` has a nominal endDate of 20:29Z 11/08, but its 14-day period cannot complete before about 11/24, so it may stay open or drop from the plain query. If `pull` prints it RESOLVED, read the Gamma closed record before believing it: a NO means a qualifying strike landed after 02:48Z 11/08. Old 11/05 leg window closes 20:29Z 11/08; 11/06 leg closes 20:29Z 11/09. Check both outcomes.
-- **🔴 Every boot:** `tools/routine_check.py`, then grade the routine rows into `V5_NOV110_READS.tsv` and VX-ORC-12. Next ledger row is ET Mon 11/09.
+- **🔴 Every boot:** `tools/routine_check.py`, then grade the routine rows into `V5_NOV110_READS.tsv` and VX-ORC-12. Next ledger row is ET Mon 11/09: the routine's 10:15 ET desktop pull (166f9c649e, spread +77.0pp), logged and NOT graded.
+- **🟠 Sync-first, first real exercise Tue 11/10 10:15 ET:** read `~/.local/state/oracle_daily_pull.log` on each box for `SKIP` lines and their reasons. If "behind ... tracked files are modified" recurs, the date goes NOT READ for a live session to take (Known limits b). The laptop has not run the new script yet; its first run will be at its next slot after it pulls.
 - **🔴 Mon 11/09:** did oil follow at Sunday's reopen? Unknowns to close: spoken time of Trump's remark, the resolver's evidence, which strike qualified. VX-ORC-07's 48h pair window ends 11/08 22:15Z with its leg closed; state unchanged until a registered step says otherwise. Re-test a second-venue strike market (`kalshi.py search "Iran strike"` was NOT CERTIFIED).
 - **🟠 Rolls:** Hormuz weekly → wk-of-11/9 at 11/09 · Hormuz on-date · December $110 at listing (expect ~11/25 by prior pattern; bump REGIME, one edit) · R3 switch 2026-11-17T01:00Z (INFERRED) resets the arming run.
 - **🟠 Kalshi CPI:** `KXCPIYOY-26OCT` 404; decide on pinning `KXCPIYOY-26NOV` rungs near the mode (November data, closes 12/10; OI 57.4K on `T3.8`) after HENRY's view. October CPI grade (KB-ORC-124) then rests on PM's thin book.
@@ -41,7 +51,7 @@
 
 ## CARRY-FORWARD
 
-- **Push state:** the first closeout pushed a97c651d62. Read 2 (519ecd3d04, 9b6404ed12) and this second closeout commit go by `scripts/safe-push.sh` at 11/08 12:1x ET; the receipt is in the reply to prome-bf.
+- **Push state:** oracle-8f's commits 45a7701876, 055188d9af, f4d652ea39 and this closeout commit go by `scripts/safe-push.sh` at 11/09 closeout; the CONFIRMED receipt is in the reply to prome-6f. (11/08 closeout pushed via the laptop; receipt in the reply to prome-bf.)
 - **Combination themes (`combo:` in KB Notes):** strike-vs-oil · diplomacy-drift · polymarket-integrity · bank-book-depth · ai-unwind-read · print-miss-direction · venue-legal-risk.
 - **Cadence settled:** PROME 11/04: one read per weekday stands. The letter has no halt rule, and I did not propose one (Will 10/31: fewer rules).
 - **`TRADE.md` refresh:** rerun `tools/trade_marks.py --write`, then regenerate the tables; never hand-type a vintage.
