@@ -1,0 +1,8 @@
+# WILL_QUEUE RECENTLY DONE roll-off 2026-11-09
+
+Moved verbatim from `PROME/WILL_QUEUE.md` § RECENTLY DONE at the 2026-11-09 desktop boot (session 3856123e, gate line "WILL_QUEUE fresh": ROLL-OFF 585 and 584, done 2026-11-01, 8d). Block crc32 2967760456 over the two rows incl. final newline. Per-row: 585 3952635606 · 584 2923692833.
+
+| Item | Since | Outcome |
+|---|---|---|
+| **585 — Let PROME install BRENT's already-approved routine fix (WQ-543) into BRENT's four scheduled routines tonight** | Done 2026-11-01 21:27 ET — Will's word in this chat | RULED A, Will 2026-11-01 21:27 ET in this chat, verbatim *"yes go ahead with brent fix"*. PROME installed BRENT's prepared text (sha256-verified, = the 10/28 prompts + the four approved WQ-543 edits) and the four EST crons via RemoteTrigger 02:28–02:30Z; validation run on the Thursday fallback (session cse_01CW5vrcca18J1KkG4Z6WXAb) — receipt in PROME/reports/2026-11-01_wq543-routine-install-receipt.md. |
+| **584 — Allow one more independent check on a small tightening fix to the new closeout tool (WQ-583), then commit it** | Done 2026-11-01 10:26 ET — Will's word in this chat | RULED A, Will 2026-11-01 10:26 ET in this chat, verbatim *"okay can we do this independent review now?  However can we make sure its not TOO laborous or burdensome?  Sometimes these reviews seem like that take very long and I am not sure if they are productive or just re-reading"*. Executed as a BOUNDED read #4 over the tightening diff only (read #3 ⚠️1 desk moves never ride a PROME commit · ⚠️2 no live file into an inbox as a 'move' · ⚠️3 declared reviews off · ⚠️5 index-lock path); commit on a clean read without returning (his A). |
