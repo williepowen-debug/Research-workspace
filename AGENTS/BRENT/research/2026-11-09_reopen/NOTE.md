@@ -72,4 +72,22 @@ Claim, relayed: JPMorgan estimates a global surplus of 1.1 mb/d in September wid
 
 ## 6. Window and settle, Monday 11/9
 
-PENDING: capture after 14:45 ET.
+**Captured:** c1 2026-11-09 14:45 EST (from `date`), `pull.py c1`, raw bars in `raw/c1_*.json`, summary `window_c1.json`. Vendor one-minute bars, proxies, not settlements. No exchange page read.
+
+| Row | Value, [14:28,14:30) ET | Basis |
+|---|---|---|
+| **BRT-33 M1−M3, BZF27 − BZH27** | **+3.8039, VALID session, not under +3.5000** | both legs printed: BZF27 14:28 92.48 (898 lots), 14:29 92.55 (577); BZH27 14:28 88.66 (891), 14:29 88.79 (448) |
+| BZF27 | 92.5074, 2 bars, 1,475 lots | [EST vendor proxy] |
+| BZG27 | 90.4439, 2 bars, 1,173 lots | [EST vendor proxy] |
+| BZH27 | 88.7035, 2 bars, 1,339 lots | [EST vendor proxy] |
+| M1−M2 | +2.0635 | record only (11/6: +2.6734) |
+| CLZ26 | 86.8774, 21,754 lots | [EST vendor proxy] |
+| January 3:2:1, boundary #8 | $38.0468, count 0, line $50 | (2×RBF27 2.6067 + HOF27 4.1119) × 42/3 − BZF27 |
+| December crack | $90.1652 | HOZ26 4.2153 × 42 − CLZ26, record only |
+| WTI−Brent, month-matched, line 10 | −$6.8010 | CLF27 85.7064 − BZF27 92.5074; same month label (January), line is WTI−Brent above +$5, not near |
+
+**BRT-33:** 11/9 is the first valid session. Valid **1 of 2** (11/6 no observation). No YES today; the row stays OPEN to 11/27 and needs at least 8 valid sessions or it is NO-VERDICT. BZH27 traded 1,339 lots in the window today against none on 11/5 and 11/6, so the thin-leg risk eased on this session; one session, not a trend. 13 or 14 sessions remain after today (11/26 holiday schedule not read).
+
+**F-a at its own letter (THESIS, WQ-331 P1):** `M1−M3 back under +$3.50` on the pinned month: **NOT crossed**, +3.8039, $0.30 above the line. First measurable window since 11/4 (+$4.50). Not within 2 sessions of a pin switch (BZG27 governs from 11/30), so no roll-step decomposition applies. The spread fell about $1.2 from the 11/6 same-minute +5.04 as the front fell faster than March: the paper curve is flattening toward the line on a deal-hope repricing, not on a measured stock build.
+
+**Boundary #1 (≥$120 on 3 settles):** BZF27 about $92.5; cannot fire before Wed 11/11 and is $27 away.
