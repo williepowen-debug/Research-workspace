@@ -1941,3 +1941,57 @@ KRE $72.20 −0.15% · SSB $104.11 −0.58% · SBCF $33.54 −0.18% · BKU $44.0
 
 ### AD0. Header rotated from STATUS 2026-11-09, verbatim
 **Last Updated:** 2026-11-06 17:30 ET (Fri, **coral-ad**, close refresh on Will's 17:08 ET word via prome-51): Isaias insured losses **$735.5M at 11/06**; Citizens weekly **216,432 at 10/30**; Avidia Q3 release read, association-loan quality still unsplit; FEMA routine indicator notices read. **No colour, gate or grade moved.** Evidence § AC; prior header → § AC0.
+
+## AE. 2026-11-09 (Mon, 12:55–) — coral-ae: Will's direct ask — (1) the flooding's implications for Florida's economy and insurance, (2) Amendment 3's implications — evidence
+
+### AE1. November floods ("Election Day floods"), re-based 12:5x ET
+⛔ **Correction to § AB5's framing:** the epicentre was **Brevard / Indian River / St. Lucie (Space Coast and Treasure Coast)**, not Palm Beach. AB5's Palm Beach rainfall table stands as a table; the frame "Palm Beach flooding" understated the event.
+
+| Item | Figure | Basis | Source, read |
+|---|---|---|---|
+| Peak rain | 24 in in 24 h, Malabar; 20.33 in Bayside Lakes (Palm Bay); 16.70 in Port St. Lucie; Melbourne 11.51 in on 11/02 = wettest day since 1937 | gauge reports as compiled | Wikipedia "November 2026 Florida floods" (aggregator, read via API 12:5x ET) |
+| Deaths | 2, Palm Bay | press | Wikipedia; Florida Today via Yahoo 11/07 |
+| Homes | "more than 2000 homes" damaged | county statement as reported | WFTV (date not on page) |
+| Registrations | "some 2,000 Space Coast residents have registered flood-related damage to homes and other property" | self-report registrations, ≠ homes | Florida Today 11/07 |
+| Total damage and economic loss | **$3B–$5B** | AccuWeather preliminary; total economic incl. indirect, NOT insured | via Wikipedia / AccuWeather article |
+| Insured loss | "hundreds of millions of dollars, possibly higher", across three U.S. flood events (Florida, Desert Southwest, southern Appalachians); insured share "a fraction of the total" | Aon weekly report | Business Insurance |
+| Flood take-up | **16% of Florida households** carry flood insurance; NFIP cap $250,000 per residence vs ~$400,000 median FL home; >1.7M flood policies; losses "manageable" | AM Best commentary, Nov 2026 | news.ambest.com refnum 278562; Insurance Journal 11/04 |
+| Federal aid | **No federal declaration; the state has not yet requested one.** Brevard compiling damage assessments → joint FEMA/state PDA → Governor's request → President. Thresholds quoted by Palm Bay's coordinator: ≥ $3M county, ≥ $42M statewide | press, quoting officials | WFTV; Florida Today 11/07 |
+| Federal aid, primary | OpenFEMA `DisasterDeclarationsSummaries`, FL, declarationDate ≥ 10/25: **15 rows, all DR-4955 (Isaias)**; nothing for the floods | PRIMARY | OpenFEMA v2, pulled 12:5x ET 11/09 |
+| River | **St. Johns near Cocoa (COCF1) 16.98 ft at 17:15Z 11/09; major stage 17.0 ft.** Article: forecast ~17.1 ft (would tie Fay 2008 for third-highest); water enters homes at 17.2 ft (Lake Poinsett, Rockledge Silver Pines, Cocoa Shakespeare Park); Geneva 9.12 ft moderate; Sanford, DeLand above or near flood stage this week; flooding "could last for weeks" | gauge PRIMARY; forecast press | NWS NWPS API 12:5x ET; thefloridapress.com 11/09 (less-established outlet; figures cite NWS Melbourne) |
+| Business losses | State Business Damage Assessment Survey open ("2026 Fall Flooding", FloridaDisaster.biz) | | CBS12 |
+
+**So what (CORAL's read; inference marked):**
+1. **Insurance:** homeowners policies, Citizens included, exclude rising water; they pay roof-leak and wind-driven rain damage, and auto comprehensive pays flooded cars. Most building loss lands on NFIP/private flood (16% take-up) or on households. ⇒ *small for property insurers' balance sheets (AM Best agrees), large for uninsured households.* Not the OIR wind channel; OIR has posted no flood data call (none found).
+2. **Households and mortgages (inference, unmeasured):** Palm Bay is inland, older and lower-value housing, much of it presumably outside mapped flood zones; uninsured repair falls on savings or credit. Without a presidential declaration there is no FEMA household aid and no declaration-triggered FHA/VA foreclosure moratorium (from memory, unverified this session). Watch: mortgage delinquency in the Palm Bay–Melbourne area over 3–9 months. Rival: GSE and servicer hardship forbearance does not need a declaration, and many owners may have flood cover through lenders where in mapped zones.
+3. **Economy:** $3–5B is a single vendor's total-economic figure (AccuWeather's run above modelled insured figures by construction). Concentrated in Brevard, Indian River, St. Lucie; road and water infrastructure (Port Malabar Blvd collapse, boil-water notices). Statewide it is a local shock, not a state-level one. Isaias insured $735.5M (OIR 11/06) is the nearest comparator and is a different basis (insured wind).
+4. **CORAL gates:** none of the 14 emergency counties holds an MSI metro (§ AB5 stands); the Peace River at Arcadia (DeSoto, next to Charlotte/Punta Gorda) was in moderate flood 11/08, forecast below flood stage 11/13. No gate read changes.
+5. **Fiscal crossover (L784):** the flood is a live test of the federal posture: a declaration request has not been sent nine days after the event. Local governments carry the cleanup now, ahead of Amendment 3's revenue cut (§ AE2).
+
+### AE2. Amendment 3 — implications, read 12:5x ET
+| Item | Figure | Basis | Source |
+|---|---|---|---|
+| Mechanics | Homestead exemption (non-school levies) $50,000 → **$150,000 for 2027 assessments** (first bills Nov 2027, FY27-28 budgets), **$250,000 in 2028**, inflation-indexed after; school taxes excluded; non-homestead assessment cap **10% → 5%** | legislated text as summarized | Insurance Journal 6/12 (S&P story); WUSF 11/08; Fortune 11/06; House Final Bill Analysis (§ AB4) |
+| Protected uses | Local property tax limited to: education/schools, infrastructure, natural resources, **bond debt service**, retirement benefits, operations/administration | ballot language | Lee County SOE ballot text (search snippet, not opened) |
+| Statewide revenue | −$4.95B FY27-28 · −$8.78B FY28-29 · −$11.86B recurring | PRIMARY (REC) | § AB4 |
+| Share | counties −30%, smaller municipalities −13% (annual, at full effect) | Legislature research arm, as quoted | Fortune 11/06 (secondary) |
+| Credit | S&P survey of 90 rated issuers: average **14% revenue loss by end-2028**, range **2.3%** (market value per capita $1M) to **48%** ($185,000) — poorer places lose more; Moody's, Fitch, S&P all published negative-leaning analyses in June; FL issuers >$175B muni debt (Bloomberg). **No rating action found** | rating-agency research, not actions | Bond Buyer (search snippet); Insurance Journal 6/12; WCJB 6/17 |
+| Counties | Martin: −$42M (≈12%) FY27-28, −$75M (≈20%) FY28-29; covering FY27-28 from non-homestead would need ≈19% higher non-homestead taxes. St. Lucie: −$63M then −$112M. Manatee sheriff: > −$50M by FY28-29 | county officials | WUSF 11/08; Suncoast Searchlight |
+| Offsets | (a) cuts, (b) shift to non-homestead (second homes, rentals, commercial), (c) fees/assessments (fire, stormwater, jail). Governor wants a special session before January to block new fees plus a state grant pool; **Legislature has not agreed**; Governor-elect takes office 1/5/2027 | press | WUSF; cibercuba/cubaheadlines 11/06 (aggregators); thefloridapress |
+| Household | $1,400–$2,500/yr homeowner savings | estimate | Fortune / Florida Trib (secondary) |
+| Newcomers | phased-in eligibility for new residents (MARCO's lane, § AB4) | | Fortune correction note |
+
+**So what (CORAL's read; inference marked):**
+1. **Nothing bites until fall 2027.** Budgets for FY27-28 are set by September 2027; 2026 bills are untouched. Near-term signals are certification (11/17), the special-session decision, and the first rating action.
+2. **Winners:** homesteaded owners, most in lower-value homes, where non-school tax falls toward zero. ⇒ lower carrying cost for owner-occupiers (thesis criterion 6's subject; **graded 11/15, not here**).
+3. **Who pays (inference, two-sided):** non-homestead owners (investor and snowbird condos, rentals, commercial) are the obvious shift target; millage can rise even though the per-parcel assessment cap falls to 5%. For vintage condos that is extra cost on top of SIRS assessments for exactly the owners most likely to sell. Rival: the 5% cap lowers their long-run assessment growth, and Martin's officials doubt a commission would shift the full gap — direction for any single owner is UNKNOWN until 2027 millage is set.
+4. **Local credit:** S&P's own range says low-value, inland places lose most (48% vs 2.3%). Debt service is a protected use, so default risk is low; the pressure is on services, capital and reserves. Brevard/Palm Bay, the flood epicentre, is the low-value type (inference: not in S&P's list as read).
+5. **Two threads meet:** the flood counties need road and stormwater spending; Amendment 3 removes revenue from FY27-28; stormwater fees are one of the offsets the Governor wants to restrict; FEMA's share is not yet even requested. That is ML-CORAL-142 (local revenue squeeze) and ML-CORAL-141 (water on collateral) touching in the same counties.
+6. **Banks:** no transmission path read. FL community banks hold FL munis and lend to local governments; no exposure figure in hand. Bank rail unchanged (NOT met, NOT armed).
+
+**What would change this read:** a presidential declaration with household aid (IA) for Brevard or none by month-end · NFIP claim counts for the event · OIR or Citizens loss figures (none yet) · St. Johns crest above 17.2 ft at Cocoa · special-session call and any fee ban · first Florida local rating action citing Amendment 3 · 2027 county budget workshops (mid-2027).
+
+### AE0. STATUS rows rotated 2026-11-09 13:0x ET, verbatim
+**Last Updated:** 2026-11-09 10:5x ET (Mon, **coral-ae**, catch-up on Will's ask via PROME prome-6f 10:46 ET): **MSI reading #13 (data 11/08): 4-of-5, Cape Coral 5.84 series low ⇒ re-fire fails, leg 🟠.** Avidia 10-Q, FEMA DR-4955 notice, OIR, Citizens weekly all unchanged since 11/06; Amendment 3 not re-read (state site unreachable). **No colour moved.** Evidence § AD; prior header → § AD0.
+| Coastal flooding + fall rain | King tide 10/25–10/29: record / near-record water on SE-FL gauges (levels = AEOLUS), no tally. **Rain 10/31–11/5: state emergency in 14 counties incl. Palm Beach, not Broward (EO 26-227, 26-228)**; six rainfall bases kept apart (Riviera Beach "over 19 inches" in 12 h is the Governor's order; PBI gauge 11.67 in 2-day). No insured-loss figure, no FEMA declaration. Flood = NFIP and uninsured channel. Evidence § AB5 | 🟡 |
+| **State fiscal (9)** | **Amendment 3 PASSED on unofficial returns: Yes 61.98% (4,917,796 of 7,933,991; state page 11/06); certification 11/17.** My "leaning FAIL" was wrong. Local revenue (Revenue Estimating Conference): **−$4.95B FY27-28 · −$8.78B FY28-29 · −$11.86B recurring** — one estimate, so the carried −$4.9B and the press $12B agree; not a realized loss. Who fills it and muni credit UNREAD. Amendment 1 (BSF cap) **failed, 40.9%**. **FEMA cost shift (L784):** reserves $16.2B FY26-27; soft spot = EPR Fund ($163.1M at 9/1) and counties carrying the match. Full row → § AB0 | 🟠 |

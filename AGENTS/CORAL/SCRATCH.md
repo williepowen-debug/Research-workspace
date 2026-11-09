@@ -15,12 +15,14 @@
 2. Re-checked every resume-list item (§ AD2). Amendment 3 not re-read: state site does not connect from this box.
 3. NEXUS_BRIEF: fixed a stale live claim ("MSI sits at series highs" — September read).
 4. Packet to PROME: reading #13, review_by 11/19, `.gitkeep` counted by inbox_census.py.
+5. **Will's ask 12:55 ET:** floods re-based (epicentre Brevard, not Palm Beach; no federal declaration or request; 16% flood take-up) and Amendment 3 implications (S&P −14% avg, no rating action, offsets contested). § AE1–AE2. No grade, gate or route moved ⇒ no packet.
 
 ## NEXT SESSION / OWED
 
 - **Awaiting Will's word (since 11/06; not answered as of 10:50 ET 11/09):** (a) `DATA_SOURCES.md` line for `scripts/sec_contact.py`; (b) catch `workbook/VX_Vectors.md` up on coral-ac/ad/ae readings; (c) refresh the stale size figure in `CLAUDE.md` step 1.
 - ✅ DAEDALUS registry row for `workbook/PREDICTIONS.tsv` exists (`AGENTS/DAEDALUS/scorecards/LEDGERS.tsv:11`).
 - **Resume list:** Avidia 10-Q (45-day line Mon 11/16 if non-accelerated) · FEMA FR notice · Amendment 3 at the state page (needs a reachable route) · Citizens 10/31 month-end · ATTOM October (~mid-Nov).
+- Flood watch: St. Johns crest at Cocoa this week; FEMA declaration request; NFIP claim counts; OIR/Citizens flood figures (none yet).
 - **11/15 falsify grade, unofficial returns** · 11/16 FL Realtors Oct, grade CORAL-02 · 11/17 certification + Dockside adversary hearing · **MSI #14 by 11/19** · 11/19 Gardens of Forest Lakes hearing.
 - Carried: Panhandle Citizens county re-cut · Pembroke Lakes foreclosure check · OQ L Wayback · s.252.37(5)(a) · hearings (Will's hands, WQ-547) · DBPR portal (Will's hands, WQ-463) · FMHPI vintage re-read at touch.
 
@@ -33,4 +35,4 @@
 ## MAIL STATE
 
 `inbox/` top-level: empty (`.gitkeep` only) · `inbox/WALTER/`: empty at 12:12 ET after consuming SIG-W-20261109-008 (noted: Jacksonville $300M budget hole after Amendment 3, press via X, basis unstated → ML-CORAL-154 under the ML-CORAL-142 revenue theme; no score moves) · outbound: PROME (`PROME/inbox/2026-11-09_from-CORAL_MSI13-catchup.md`).
-**Closed 12:1x ET 11/09 on PROME's WQ-249 closeout ask.**
+**Closed 12:1x ET on PROME's WQ-249 ask, then reopened 12:55 ET on Will's direct ask (flooding + Amendment 3 implications) → § AE, ML-CORAL-155/156, STATUS flood and fiscal rows re-based. PROME told the window stays open.**

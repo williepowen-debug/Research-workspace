@@ -3,9 +3,15 @@
 **Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #13 (11/08) 4-of-5, Cape Coral 5.84, re-fire fails. Next: falsify grade 11/15.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-11-09 10:5x ET (Mon, coral-ae, catch-up; MSI #13, no state change) | STATUS commit: pending this closeout (prior `fcb146763d`) · earlier 11/06 17:29 ET (coral-ad)
+**As of:** 2026-11-09 13:0x ET (Mon, coral-ae, Will's direct ask: flooding + Amendment 3) | STATUS commit: pending this closeout (prior `2a6252b7d8`) · earlier 11/09 10:5x ET (MSI #13)
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## 2026-11-09 pm — FLOODS RE-BASED · AMENDMENT 3 IMPLICATIONS (no colour moves; evidence `STATUS_DETAIL.md` § AE)
+| # | What | So what / who |
+|---|---|---|
+| 1 | **Floods 11/01–03: epicentre Brevard/Indian River/St. Lucie, not Palm Beach** (Malabar 24 in/24 h; 2 deaths; ~2,000 damage registrations; AccuWeather $3–5B total economic, not insured). **No federal declaration and no state request yet** (OpenFEMA 11/09). St. Johns at Cocoa 16.98 ft vs 17.0 major (NWS). | Flood excluded from homeowners/Citizens ⇒ NFIP/private (16% FL take-up, AM Best) or uninsured households. AEOLUS (levels), CARL (household drain), L784 (federal posture). No MSI metro hit. |
+| 2 | **Amendment 3:** S&P 90-issuer survey avg −14% revenue by end-2028, range −2.3% to −48% (low-value places worst); Moody's/Fitch/S&P negative-leaning, **no rating action**; debt service protected; first bills Nov 2027. Offsets: cuts, non-homestead shift (Martin: ≈19% to fill FY27-28), fees (fee ban needs a special session not yet agreed). | Flood counties need stormwater/road money as revenue falls from FY27-28. MARCO (newcomer phase-in), REGINALD (muni exposure unread). Criterion 6 graded 11/15, not early. |
 
 ## 2026-11-09 — MSI #13; WEEKEND QUIET (no colour moves; evidence `STATUS_DETAIL.md` § AD)
 
