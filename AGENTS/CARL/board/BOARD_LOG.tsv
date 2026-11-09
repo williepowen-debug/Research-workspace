@@ -1098,3 +1098,7 @@ SIG-W-20261106-032	2026-11-06	PRIVATE_CREDIT	ROUTINE	acted	KB-CARL-606	2026-11-0
 SIG-W-20261106-038	2026-11-06	PRIVATE_CREDIT	ROUTINE	noted	KB-CARL-606	2026-11-06	Context only per the card; grep of OPEN rows found none.	
 SIG-W-20261106-039	2026-11-06	CONSUMER_CREDIT	ROUTINE	acted	KB-CARL-605	2026-11-06	Base-effect caveat carried; OTTO owns OTTO-37.	
 SIG-W-20261106-046	2026-11-06	MIXED	ROUTINE	acted	KB-CARL-607	2026-11-06	CARL holiday line logged; other lines are other owners.	
+SIG-W-20261106-049	2026-11-06	MACRO_INFLATION	PRIORITY	noted	KB-CARL-604	2026-11-09	CARL-origin (CARL packet cbca9c0864); already in STATUS Michigan rows. Grep of OPEN rows: no Michigan instrument. V12 long-run trigger <3.0% not met.	
+SIG-W-20261106-050	2026-11-06	CONSUMER_CREDIT	PRIORITY	acted	KB-CARL-608	2026-11-09	Tricolor auction logged combo:deep-subprime-loss-recognition. Hertz line is LIQUID/OTTO's, no CARL row. Grep of OPEN rows: none (V2 tier panel is EART/SDART/BLAST, not Tricolor).	
+SIG-W-20261106-051	2026-11-06	CONSUMER_CREDIT	PRIORITY	noted		2026-11-09	Correction to 050 Hertz wording; CARL held no Hertz row. Receipt COR-20261106-51 NO-OP.	
+SIG-W-20261106-052	2026-11-06	CONSUMER_CREDIT	PRIORITY	noted		2026-11-09	Correction to 051, Oaktree single manager; no CARL file touched. Receipt COR-20261106-52 NO-OP.	
