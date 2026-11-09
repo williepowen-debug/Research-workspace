@@ -32,4 +32,5 @@
 
 ## MAIL STATE
 
-`inbox/` top-level: empty (`.gitkeep` only) · `inbox/WALTER/`: empty at 10:49 ET; WALTER (walter-da) sweep from 11/8 17:07Z pending — consume when it lands · outbound: PROME (`PROME/inbox/2026-11-09_from-CORAL_MSI13-catchup.md`).
+`inbox/` top-level: empty (`.gitkeep` only) · `inbox/WALTER/`: empty at 12:12 ET after consuming SIG-W-20261109-008 (noted: Jacksonville $300M budget hole after Amendment 3, press via X, basis unstated → ML-CORAL-154 under the ML-CORAL-142 revenue theme; no score moves) · outbound: PROME (`PROME/inbox/2026-11-09_from-CORAL_MSI13-catchup.md`).
+**Closed 12:1x ET 11/09 on PROME's WQ-249 closeout ask.**
