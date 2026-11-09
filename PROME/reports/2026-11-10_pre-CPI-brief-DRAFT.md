@@ -36,6 +36,21 @@
 
 Book line at draft time (`will_brief.py --book-line`, rc 0): $44,841.44, cash 62.93%, broker export 2026-11-05, marks 11/5 intraday, not live. Holdings by theme from `FORGE/STATUS.md` (mirror, not position truth): oil (USO shares and calls, VLO), gold (GLD), regional-bank and lender puts (OZK, WAL ×2, ZION, VLY, FLG), private-credit put (APO), the Robinhood UNG call, and the unfilled HYG card WQ-615. Monday: one line per theme on which way a hot or a cool core moves it, taken from the owner desk's own stated read, never PROME's inference; live marks pulled Monday.
 
+**FILLED Mon 11/9, 10:4x ET (PROME).** Underlyings: dashboard 10:33:22 ET and `fetch.py price` 10:43 ET, vendor intraday, not closes. Holdings are from the 11/5 mirror; what Will holds today is not verified.
+
+| Theme (held) | Underlying, 11/9 intraday | Owner's stated CPI read (verbatim source) | Hot vs cool core |
+|---|---|---|---|
+| Rates / Fed path (context for every line) | 10Y 4.84 [11/5, dashboard]; Dec hike 76% [HENRY, 11/6 15:00 ET, vendor last trade] | HENRY STATUS L125: HEN-57 "expect NOT FIRED, +0.2; last CPI before 12/9". BOND STATUS L115: the market "believes the December hike … more than the hikes after it"; real long rates have not fallen. 10Y auction 4.5 h after CPI | HENRY's letter fires on core 0.4+. No owner states a direction for the cool case |
+| Equity vol / gamma | VIX 21.18 (−4.46) | VIOLET STATUS L97: CPI pre/post surface read owed; "VIX9D/VIX 1.0601, front still priced above 30-day into CPI" [11/6]. TERRY IDEAS row 4: **NO CARD**, "No owner gives a direction. The event premium is unmeasured" | No owner direction |
+| Regional-bank and lender puts (KRE ×5 lines, OZK, WAL ×2, ZION, VLY, FLG) | KRE $73.38 (+1.18) · OZK $51.34 · WAL $77.45 · ZION $66.28 (+2.34%) · VLY $14.45 (+2.63%) · FLG $10.69 (+1.57%) | REGINALD, LIQUID: **no stated CPI read on record** (searched STATUS, THESIS, NEXUS_BRIEF; not inferred) | Not stated |
+| Private-credit put (APO Dec-18 95P) | APO $121.00 (+4.25) | BROCK: **no stated CPI read on record** | Not stated |
+| HY credit (HYG ×5 card, unfilled) | HYG $77.46 (+0.29%) 10:35 ET; HY 342 [11/6] | TERRY card: the entry rule keys on HYG day colour, not CPI. No owner CPI direction | Not stated; a green HYG day is the entry condition |
+| Oil (USO 30 shares, Nov-11 172C, Nov-20 170C; VLO 2) | USO $144.99 (−2.31%) · VLO $353.71 (+2.10%) · Brent BZF27 $94.36 | HENRY L775 (the CPI wake row): read "headline vs core and the energy share, against the war-driven fuel path". BRENT: **no stated CPI direction** | October's energy share is backward-looking; oil's live driver today is the Hormuz report (BRENT, L1089) |
+| Gold (GLD 18) | GLD $377.42 (+1.32%) | MIDAS: **no stated CPI read on record**; its frame is real rates (real 10Y 2.63 [11/6, BOND]) | Not stated |
+| Gas (Robinhood UNG Dec-24 $10.5C ×1, Will's own) | UNG $9.83 (+5.16%) | none (no card; Will's own position) | n/a |
+
+**So what for the chat version:** two owners have stated a read on CPI: HENRY's expectation (+0.2, letter not fired) and TERRY's "no card". No desk says which way a hot or cool core moves the bank, private-credit or gold lines, and PROME does not supply one. The book's main exposure (the bank and lender puts) is to credit and banks, which eased into Monday.
+
 ## 5. HY spread cell for 11/6 `[MON about 10:10 ET]`
 
 FRED publishes the ICE BofA HY OAS for 11/6 Monday morning. Consequences to state: WQ-513 (second HYG hedge) counts 1 of 3 closes only if the cell is above 3.50% (it was 3.48% on the last print); VIOLET's Path A size condition is HY at or over 368bp.
