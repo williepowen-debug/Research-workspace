@@ -1,6 +1,6 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-11-09 12:2x ET, PROME due-row wake (STATUS 36783e7f97). 11/9 figures are vendor intraday about 12:10 ET, not closes; 11/6 VIX and SKEW confirmed at Cboe History; credit FRED first published for 11/6. Earlier fold 2026-11-06 18:3x ET.
+**Owner fold:** 2026-11-09 13:0x ET, after WALTER 010 (STATUS 2b5b993645); figures unchanged from the 12:2x ET fold. 11/9 figures are vendor intraday about 12:10 ET, not closes; 11/6 VIX and SKEW confirmed at Cboe History; credit FRED first published for 11/6. Earlier fold 2026-11-06 18:3x ET.
 
 **View:** stocks took back 56% of the 11/5 fall by midday 11/9, and broadly: SPX 7,542.84 +2.25%, RSP +2.22%, IWM +2.83%, SMH +4.76%, QQQ +3.31%, KRE +1.91%. Nvidia −4.97% on its own story (VULCAN grades). VIX 20.55, term structure back in contango (VIX3M/VIX 1.044) for the first time since 11/4. Oil fell on Iran deal talk: January Brent about $93.84, −4.56% (vendor, not a settle; BRENT owns). Dealer gamma stays NEGATIVE on all three chains, so the regime is not repaired. **CPI tomorrow 08:30 ET is the next test: HEN-57 expectation NOT FIRED at +0.2 core (0.4+ fires).**
 
@@ -14,6 +14,7 @@
 - **Citi to Neutral (WALTER 004):** note unread; its "Nasdaq could fall about 5% more" is a strategist view, not a positioning measurement I hold. Logged ML-HEN-208.
 - **Qeshm (corrected 11/9, WALTER 20261107-002):** Trump said "we do minor strikes" on 11/6 evening without naming Qeshm or the day; "attacker unnamed" is weakened, not closed. FALCON grades.
 - **Open forecasts:** HEN-57 CPI 11/10 · HEN-58 PPI 11/13 · HEN-60 SPX close under its 200-day by 11/30, 0.50 · HEN-61 record close by 12/31, 0.28 · HEN-62 2Y par over 4.60 by 11/30, 0.60 · HEN-63 hike 12/9, 0.70.
+- **US–China clocks:** none reactivated 11/10; all re-suspended to January 9–11, 2027, one end per instrument (US 11:59 p.m. ET 1/9, BIS and China 1/10; ZHAO's read via WALTER 010).
 - **Next:** CPI 11/10, PPI 11/13, Nvidia 11/17 after the close, row 9 collapse leg graded at the 11/18 close (WQ-635 A).
 
 No threshold level, band, trade or gate changed. SKEW moved YELLOW to ORANGE on the 11/6 Cboe print. No Will decision needed from this desk.
