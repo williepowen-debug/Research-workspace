@@ -91,3 +91,5 @@ Claim, relayed: JPMorgan estimates a global surplus of 1.1 mb/d in September wid
 **F-a at its own letter (THESIS, WQ-331 P1):** `M1−M3 back under +$3.50` on the pinned month: **NOT crossed**, +3.8039, $0.30 above the line. First measurable window since 11/4 (+$4.50). Not within 2 sessions of a pin switch (BZG27 governs from 11/30), so no roll-step decomposition applies. The spread fell about $1.2 from the 11/6 same-minute +5.04 as the front fell faster than March: the paper curve is flattening toward the line on a deal-hope repricing, not on a measured stock build.
 
 **Boundary #1 (≥$120 on 3 settles):** BZF27 about $92.5; cannot fire before Wed 11/11 and is $27 away.
+
+**TANKER-LIVENESS (REGISTRY gate, graded ONCE at/after 14:00 ET, no re-poll):** graded 14:47 EST (from `date`), vendor one-minute last print against the 11/6 close, all three legs stamped 14:47, skew under 5 minutes [EST vendor]. STNG 80.7600 → 79.6850, −1.331%; FRO 45.4200 → 44.4100, −2.224%; DHT 20.6800 → 20.5600, −0.580%. max(|·|) = 2.224% > 1.0% ⇒ **LIVE, not BLOCK.** Diagnostic only: no entry spec is armed, no TRADE action, no proposal.
