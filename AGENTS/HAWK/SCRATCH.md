@@ -1,49 +1,53 @@
-# HAWK SCRATCH — November 6, 2026, closeout
+# HAWK SCRATCH — November 9, 2026, catch-up (not a closeout)
 
-**As of:** 18:36 ET (from `date`). Claude Code / Opus 5.5; session id UNKNOWN. Closeout on Will's 18:33 ET word via prome-51. Earlier: wake 11:36 ET, close refresh 17:25 ET.
+**As of:** 10:51 ET (from `date`). Claude Code / Opus 5.5; session id UNKNOWN. Catch-up on Will's word via PROME prome-6f 10:46 ET; PROME asked for commit and push at about 10:5x ET and said this is NOT a closeout. The window stays open for PROME's direction.
 
 ## CURRENT MARKS
 
 No trade book. VEN G; TWN/TWNMIL/IRAQ/FININFRA Y; TRADE01/TRADE02/CODIF/EURMIL O; SULPHUR R; CEASEFIRE superseded. No mark or band moved.
 Open: HAW-22 (65% UNCALIBRATED; undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity), HAW-23 55%, HAW-24 20%, HAW-25 14%, HAW-26 10%.
 
-## CHANGES SINCE LAST SESSION (Oct 29 → Nov 6, eight dark days)
+## CHANGES SINCE LAST SESSION (11/6 18:36 ET → 11/9)
 
-HAW-20 and the HAW-22 window passed with no HAWK session, and the WQ-470 packet sat unread. See STATUS for owner deltas.
+- Qeshm 11/6: FALCON regrade, US strike, attribution high, not explicit (KB-514). Supersedes KB-512.
+- Houthi hit on an Aramco office in Riyadh 11/8, minor per the Saudi ministry; Abqaiq missile intercepted; D 85 not fired (KB-515). NBC oil-and-gas target line: one relay only.
+- Unconfirmed: Iran accepted Qatari interim terms; Trump 11/8 "highly unlikely" to strike if a strong deal is signed; Rubio "no progress"; the "outrageous" quote is unverified (KB-516). Brent Jan27 about $94 intraday 11/9 (KB-517, BRENT).
+- Taiwan: 100+ PLAN and CCG vessels (Wu 11/3); AEI/ISW 11/6 possible unannounced isolation exercise; TWNMIL YELLOW held; HAW-25 not met (KB-519). HAWK's 11/6 one-day MND read missed it.
+- Trade 11/10 clocks per ZHAO (KB-520).
 
 ## WHAT I DID THIS SESSION
 
-Closeout: FALCON and OSPREY close passes reconciled; cards 047, 048, 053 and ORACLE's retrace packet filed; KB-512 adopts FALCON's Qeshm grade; KB-513; COR-20261106-48 and -53 APPLIED. Close refresh: card 043 and ORACLE packet filed; KB-504..511, theme seven combo:russia-iran-coupling; K1 re-read, still UNMEASURED; aggregates and FALSIFICATION stamped. Bounded, no new thread, no spawn.
-Earlier today: WQ-470 answered, joint, adopted by Will as WQ-637 A 12:35 ET; HAW-20 CONFIRMED (late search); YUR-004 null read; ORACLE read; intake 50 items; five receipts; EURMIL backstop; aggregates; WQ-622 six themes KB-495..500; HAW-23..26.
+Boot; intake 9 WALTER cards + ZHAO packet dispositioned and filed; COR-20261107-02 and COR-20261108-02 APPLIED; KB-514..521; STATUS 11/9 block and bottom line; both aggregates stamped (owner ledgers unchanged since 11/6); FALSIFICATION 11/9 review; derived fingerprints recorded after review. Bounded web catch-up; the search index was thin for November (KB-521).
 
 ## NEXT SESSION
 
-0. **First:** re-read FALCON and ORACLE on Qeshm (KB-512): NOT ESTABLISHED as a US strike, no attacker named, direction leans inbound, not settled. HAWK read FALCON's row, not primaries. Carry neither 'strike' nor 'warning shots' as fact. ORACLE's 11/15 leg can stay open to 11/18 without consensus.
-1. **C3 limb 2 (WQ-637 A, adopted 11/6):** grade limb 2 for the first time at the 11/27 DOCKET wake; PROME wakes HAWK. Run or confirm a dated canvass inside 11/25–11/27, naming each outlet and one outlet-free query. OSPREY's brief says its canvass runs 11/24–11/27; an 11/24 pull alone is outside the last three days. Letter: OSPREY CLAUDE.md §1. Comparators: last in-scope print on OSPREY WARRISK, same unit and discount basis. Any in-scope rise that surfaces later reverses a kill (d).
-2. Nov 8: EURMIL native check (Article 4/5 primaries, equipment stocks).
-3. Nov 9–11: USTR final notice (none on public inspection at about 17:20 ET 11/6, KB-506), BIS rule publishes, MOFCOM 公告70, ZHAO's read. Update KB-489. Also Nov 9: Syria/Russia Mediterranean MOU review, CATALYSTS row, joint OSPREY watch, not previously carried here. G7 foreign ministers in Paris 11/9–11/10 (CBS 11/6); Abu Dhabi talks 11/10–11.
-4. Nov 12: IRAQ / FININFRA / SULPHUR backstops.
-5. Dec 5: VEN / TWN / TWNMIL / CODIF backstops.
-6. Dec 15–21: HAW-22 final search; Dec 22 resolve.
-7. Dec 31 late ET: dated searches HAW-23..26, inside the window.
-8. FLOW-21 after DHT 11/9 and BW LPG 11/24; decisive Q4 prints Jan–Feb 2027.
-9. Carried debt: Canada annex count (TIFF); Canada Gazette / Qatar documents; HAW01/04/05 provenance; FE1 Suez; EU legal annex; VEN posture; CPC durability; GL135.
-10. New debt: find a working CIT opinions or docket route (three guessed URLs 404, KB-507).
+1. **Deal reports (KB-516):** confirm or deny at a government primary; G7 Paris communique 11/10; Qatar PM at the White House. FALCON owns C→B.
+2. **Trade clocks 11/10–11/11:** USTR ship-fee determination (suspension ended 11/9 23:59 ET), MOFCOM 公告70, ZHAO's ZHA-19 grade. Update KB-520. Also Syria/Russia Mediterranean MOU (CATALYSTS, joint OSPREY watch, was 11/9).
+3. **Taiwan (KB-519):** watch for a PRC naming (resolves HAW-25 YES), a closure zone or navigation warning near the Strait lanes (TWNMIL ORANGE test), MND daily counts. Re-check by 11/16.
+4. **EURMIL native check, OVERDUE from 11/8:** web found no Article 4 request 11/6–11/9 (KB-521), but it is not primary-closed; equipment stocks still owed. Next primary pass by 11/12.
+5. Abu Dhabi Ukraine talks 11/10–11 (OSPREY's); Kirishi fire 11/9 per BRENT relay, OSPREY to row.
+6. Nov 12: IRAQ / FININFRA / SULPHUR backstops.
+7. **C3 limb 2 (WQ-637 A):** first grade at the 11/27 DOCKET wake; dated canvass inside 11/25–11/27, naming each outlet and one outlet-free query. Letter: OSPREY CLAUDE.md §1.
+8. Dec 5: VEN / TWN / TWNMIL / CODIF backstops. Dec 15–21: HAW-22 final search; Dec 22 resolve. Dec 31 late ET: HAW-23..26 dated searches.
+9. FLOW-21 after DHT 11/9 and BW LPG 11/24; decisive Q4 prints Jan–Feb 2027.
+10. Carried debt: Canada annex count (TIFF); Canada Gazette / Qatar documents; HAW01/04/05 provenance; FE1 Suez; EU legal annex; VEN posture; CPC durability; GL135; a working CIT opinions route (KB-507); FALSIFICATION rotation decision before about 48,000 B (now 42.5 kB).
 
 ## OPEN THREADS / WATCHES
 
-Qeshm attribution (KB-512); Trump's stated decision on new strikes (KB-504); sustained US campaign vs limited strikes; OFAC 2026-22802 withdrawn filing; CIT S301 ruling; named Sinokor detention; Poland border first half of November; refinery-wave runs print; Ras Tanura operator statement; UKMTO originals; matched war-risk quotes.
+- 🔴 Deal confirmation vs a further limited US land strike (ORACLE: about 76 by about 11/21, thin, KB-518).
+- 🟠 Taiwan deployment; Houthi target list moving toward production class; IRGC tanker claims (undated repeats).
+- 🟡 OFAC 2026-22802 withdrawn filing; named Sinokor detention; Poland border; refinery-wave runs print; matched war-risk quotes.
 
-## DECISIONS
+## PREDICTIONS DUE / DECISIONS PENDING
 
-- WQ-470 / WQ-637: Will ruled A 12:35 ET 11/6. Closed.
-- Forward physical-loss window: none exists; the 10/25 candidate needs Will's perimeter word and a confidence basis. Flagged to PROME.
-- HAW-20 late search: PROME reviewed 11/6, stands as graded, keep the note on the row. Closed.
+- None due before 11/27. Forward physical-loss window: none exists; the 10/25 candidate needs Will's perimeter word and a confidence basis (flagged to PROME).
 
 ## MAIL STATE
 
-Inbound lanes clear at 18:36 ET (cards 047, 048 and 053, ORACLE's retrace packet filed; no HAWK-routed BOARD signal after 053). COR-20261106-48 and -53 APPLIED. Outbound: OSPREY answers `af938f7ced` consumed by OSPREY 11:55 ET; rulings packet sent after that. PROME delivery packet `34d87c9c0f`, consumed and filed per PROME 11:52 ET; L432 RESOLVED; HAW-23..26 registered.
+- Inbox: clear (ZHAO 11/8 filed).
+- WALTER lane: clear through SIG-W-20261109-001 (consumption ack sent to walter-da 10:49 ET).
+- Outbox: none. PROME told by message; no packet, nothing changed a grade, gate or route.
 
 ## PENDING PUSH / GIT
 
-All HAWK work committed by exact path and pushed through safe-push; the receipt is in the session output. Foreign dirty work excluded; no pull, stash or rebase.
+Committed by exact path and pushed via safe-push this session; receipt in session output. Foreign dirty work (FALCON baghdad_watch_state.json) excluded.

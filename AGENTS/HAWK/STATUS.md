@@ -1,6 +1,6 @@
 # HAWK STATUS
 
-**Updated:** November 6, 2026, 18:36 ET (from `date`), closeout on Will's 18:33 ET word via PROME; prior stamp 17:25 ET, close refresh on Will's 17:08 ET word. Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Root/local instructions explicitly read. No trade book. **No mark, band, score or letter moved; no registered letter required one.**
+**Updated:** November 9, 2026, 10:49 ET (from `date`), catch-up on Will's word via PROME 10:46 ET, closeout pending; prior stamp November 6, 18:36 ET closeout. Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Root/local instructions explicitly read. No trade book. **No mark, band, score or letter moved; no registered letter required one.**
 
 ## Decisions and thresholds (top)
 
@@ -14,9 +14,20 @@
 | **YUR-004 consumer read** | Null: no HAWK band moved (KB-487). L432 RESOLVED by PROME. No public declaration found is not no decision. ⛔ Do not score this as near-term armed-conflict risk. |
 | **WQ-622** | Six themes set up, charter line added, KB-495..500. Logging is not scoring. |
 
-## ⚠️ After the close, unresolved (KB-511, KB-512)
+## Catch-up, November 9 (Will via PROME 10:46 ET; KB-514..521) — supersedes the 11/6 Qeshm block
 
-**Two projectiles reported on Qeshm tonight; FALCON grades this NOT ESTABLISHED as a US strike, no attacker named, direction leans inbound, not settled (KB-FALCON-422, adopted KB-512).** IRNA via Al Jazeera 21:55Z: locals report two projectiles impacted in the Susa area after an aircraft sound, authorities silent. Tasnim via Reuters and JPost about 22:19Z: two missiles, initial reports. Fars 21:56Z: possibly warning shots. Semi-official outlets report no casualties. Only TodayPress says the US struck, unsourced and hedged, not carried (card 047); HAWK's 17:25 ET line that no source read said so was too absolute. Touches no rung; no 72-hour halt running; CENTCOM silence is not a denial. ORACLE's ceasefire leg through 11/15: 59.0 at 20:26Z, 31.5 at 22:15Z, 48.0 at 23:34Z, cause not established, no leg resolved, and it can stay open to 11/18 without consensus; WTI $110 unmoved [ORACLE 11/6]. HAWK read FALCON's row, not the primaries.
+Mid-session record; full closeout pending PROME's ask. Nothing moved a mark, band, score or letter.
+
+| Item | Read 11/9 | Limit |
+|---|---|---|
+| Qeshm 11/6 | FALCON regrade: **US strike, attribution high, not explicit**. Trump 11/6: "we do minor strikes… knocked it out", naming neither Qeshm nor Friday; no CENTCOM statement. Polymarket ceasefire legs resolved NO 11/7 (KB-514) | Supersedes KB-512's NOT ESTABLISHED. FAL-09 0 of 5. Iron Gate (11/7) was a staff, not a strike |
+| Riyadh 11/8 | Houthi hit on an Aramco **office** tower, minor damage per the Saudi ministry ("significant" per the Houthis); Eastern Province missile **intercepted**; US disabled M/V HUDA 11/7 (KB-515) | D 85 to 92 not fired. Abqaiq damage is a claim only. NBC's oil-and-gas target line rests on one relay (COR-20261108-02) |
+| Deal reports | Unconfirmed: Iran accepted Qatari interim terms (blockade lifted, $8B in Qatar, toll demand dropped, nuclear off the table); two unnamed sources via OilPrice. Trump 11/8 CNN: renewed strikes "highly unlikely" if a strong deal is signed. Rubio: "no progress" [AFP 11/9] (KB-516) | **Not established**; no text, date or confirmation. Rubio's "outrageous and ridiculous" is unverified at any outlet |
+| Oil, BRENT's figures | Brent Jan27 $94.16 at 08:38 ET (−$4.16 from the $98.32 Friday wire settle), $94.53 at 10:45 ET; WTI Dec26 $87.62 → $88.03 [vendor intraday, not settles] (KB-517) | Price falling on diplomacy reports while both wars pressed: Riyadh office, Khasab tanker fire, Kirishi fire (OSPREY's). No stated crude loss in either war; K1 UNMEASURED |
+| Odds | ORACLE 11/8: about 76 priced for a qualifying US land strike by about 11/21, thin (KB-518) | ORACLE's read; a new market's rule, never differenced against the old |
+| **Taiwan** | Taiwan's NSC (Wu, 11/3): **100+ PLA Navy and coast-guard vessels** in the western Pacific; AEI/ISW 11/6: possible **unannounced** isolation exercise, three theater commands; MND 49 sorties 11/2 (KB-519) | **TWNMIL YELLOW held**: no declared exercise, closure zone or shipping effect. HAW-25 not met; a PRC naming would resolve it YES. HAWK's 11/6 one-day read missed this |
+| Trade 11/10 | BIS stay published to 1/10/2027; MOFCOM 公告70 no re-suspension, China's controls return after 11/10 unless it files; USTR ship-fee final notice absent, suspension ends 11/9 23:59 ET (KB-520, ZHAO) | 2025 notice came 11/13, so no paper ≠ fees resume. ZHAO grades |
+| Coverage | EURMIL native check (owed 11/8): no Article 4 or incursion found 11/6–11/9; CIT, Majlis, Bab, OFAC, war-risk quote: nothing new found (KB-521) | Search index thin for November; coverage, not negatives. Primaries still owed |
 
 ## Close refresh, November 6 (KB-504..510)
 
@@ -69,4 +80,4 @@ Marks unchanged: VEN GREEN; TWN/TWNMIL/IRAQ/FININFRA YELLOW; TRADE01/TRADE02/COD
 
 ## BOTTOM LINE
 
-Both wars are pressing oil at the same time, more in products than crude, yet no one has measured a lost barrel of crude in either war, and Brent still fell 13.3% on the week to about $98.32 on wire figures. FALCON reads that as the market pricing a deal or a smaller war, while BRENT says the cause is not established; no registered condition has moved, and HAWK's test of that gap (K1) cannot run because no fresh war-risk quote exists. The single most important watch is who fired at Qeshm tonight: FALCON leans inbound but no attacker is named and it is not established as a US strike, while Qatar says talks continue and Trump said on 11/5 people would soon know his decision on new strikes. Next on the dormant book, 11/9–11/10: no ship-fee final notice was on the public list as of about 17:20 ET, and China's suspension still has no paper on ZHAO's read. Since the last update nothing moved a mark; the additions are tonight's Qeshm reports, ORACLE's odds break and its partial retrace, Qatar's denial that talks failed, an OFAC Iran shipping-registry action, and more reports of Russian support to Iran.
+Oil fell about 4% more on Monday morning, Brent near $94 on BRENT's intraday figures, on an unconfirmed report that Iran accepted Qatar's interim terms and on Trump calling renewed strikes "highly unlikely" if a strong deal is signed. Both wars kept pressing over the weekend: a Houthi hit on an Aramco office in Riyadh, tanker fires off Khasab, and a fire at Kirishi. Neither war has a measured lost barrel of crude, so the price is moving on diplomacy reports, not supply. The single most important watch is whether the deal report is confirmed or denied by either government; Rubio says "no progress", and the market still prices a further limited US strike. What changed since 11/6: FALCON now grades Qeshm a US strike (high attribution, not explicit), and Taiwan reports 100+ Chinese navy and coast-guard ships at sea in a possible unannounced isolation exercise, which moves no band because nothing was declared and shipping is untouched.
