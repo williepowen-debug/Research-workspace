@@ -11,7 +11,7 @@ Open: HAW-22 (65% UNCALIBRATED; undisclosed damage can produce a misleading CONF
 
 - Qeshm 11/6: FALCON regrade, US strike, attribution high, not explicit (KB-514). Supersedes KB-512.
 - Houthi hit on an Aramco office in Riyadh 11/8, minor per the Saudi ministry; Abqaiq missile intercepted; D 85 not fired (KB-515). NBC oil-and-gas target line: one relay only.
-- Unconfirmed: Iran accepted Qatari interim terms; Trump 11/8 "highly unlikely" to strike if a strong deal is signed; Rubio "no progress"; the "outrageous" quote is unverified (KB-516). Brent Jan27 about $94 intraday 11/9 (KB-517, BRENT).
+- Unconfirmed: Iran accepted Qatari interim terms; Trump 11/8 "highly unlikely" to strike if a strong deal is signed; Rubio: demands "outrageous and ridiculous", no breakthrough near, verified at Al Jazeera by FALCON (KB-516). Brent Jan27 about $94 intraday 11/9 (KB-517, BRENT).
 - Taiwan: 100+ PLAN and CCG vessels (Wu 11/3); AEI/ISW 11/6 possible unannounced isolation exercise; TWNMIL YELLOW held; HAW-25 not met (KB-519). HAWK's 11/6 one-day MND read missed it.
 - Trade 11/10 clocks per ZHAO (KB-520).
 
@@ -35,7 +35,7 @@ Boot; intake 9 WALTER cards + ZHAO packet dispositioned and filed; COR-20261107-
 ## OPEN THREADS / WATCHES
 
 - 🔴 Deal confirmation vs a further limited US land strike (ORACLE: about 76 by about 11/21, thin, KB-518).
-- 🟠 Taiwan deployment; Houthi target list moving toward production class; IRGC tanker claims (undated repeats).
+- 🟠 Taiwan deployment; Houthi target list moving toward production class; IRGC three-tanker claim dated 11/8 (TASS), CLAIM-ONLY.
 - 🟡 OFAC 2026-22802 withdrawn filing; named Sinokor detention; Poland border; refinery-wave runs print; matched war-risk quotes.
 
 ## PREDICTIONS DUE / DECISIONS PENDING

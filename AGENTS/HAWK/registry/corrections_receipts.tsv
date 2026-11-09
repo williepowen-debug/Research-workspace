@@ -27,3 +27,4 @@ receipt_date	correction_id	action	note
 2026-11-06T23:37Z	COR-20261106-53	APPLIED	artifact=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-512; validation_ref=AGENTS/ORACLE/workbook/KB.tsv#KB-ORC-129; 
 2026-11-09T15:49Z	COR-20261107-02	APPLIED	artifact=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-514; validation_ref=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-441; Legs resolved NO, Trump minor strikes not naming Qeshm; FALCON regrade adopted
 2026-11-09T15:49Z	COR-20261108-02	APPLIED	artifact=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-515; validation_ref=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-449; NBC oil and gas target line one relay; window limb confirmed
+2026-11-09T15:56Z	COR-20261109-09	APPLIED	artifact=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-516; validation_ref=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-454; Rubio quote verified, IRGC claim dated 11/8; KB-516/517/522 updated
