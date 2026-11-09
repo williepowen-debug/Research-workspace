@@ -1,8 +1,14 @@
 # OSPREY — NEXUS Brief
 
-**Status:** Elevated, active Russia/Ukraine energy campaign. **2026-11-06: scores 5 / 5 / 3 unchanged; six refinery strikes in eight days; ~30% band stale against late-October runs of about 5 M bpd, not moved.**
+**Status:** Elevated, active Russia/Ukraine energy campaign. **2026-11-09: scores 5 / 5 / 3 unchanged; Kirishi KINEF struck 11/9 and is the newest C1 anchor; ~30% band still stale, not moved.**
 **Domain:** Russia/Ukraine military and energy-infrastructure evidence; prices owned by BRENT.
-**As of:** 2026-11-06 (Fri) 17:29 ET (from `date`; osprey-1106b, close pass) | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
+**As of:** 2026-11-09 (Mon) 12:11 ET (from `date`; osprey-1109, closeout on PROME WQ-249 ask) | **STATUS commit: e4bc891bb9**
+🆕 **2026-11-09 (osprey-1109, catch-up) — READ FIRST; no mark, band or threshold moved, +2 strike rows, swept mark stays 11/2 BOUNDED:**
+1. **BRENT/HAWK — refineries:** Kirishi KINEF (Surgutneftegaz, Leningrad Oblast, inland) struck 11/9 → newest C1 anchor; C1 leg A restarts 0/14, earliest 11/23 (PROME re-dated DOCKET L914 to 11/23). Halt and units unknown; +5d re-read ~11/14. Saratov 11/7 rowed as C3-only (Rosneft, single-outlet, does not anchor C1). KB-273.
+2. **Re-reads:** YANOS, Ryazan and Afipsky +5d re-reads found no halt, unit or identity report; carried in OWED-43.
+3. **Combination watch:** Rosneft gasoline limits in six regions, two of three US-bound diesel cargoes diverted, Ust-Luga turret tender, Baltic convoy escort (KB-274, domestic-fuel-policy). Abu Dhabi 11/10–11 delegations named; a possible energy/maritime ceasefire item rests on an unread outlet (KB-275, settlement-brake). Logged, not scored.
+4. **Clocks 11/9:** C1 0/30 · C2 22/30 (earliest 11/17) · C3 34/21, limb-2 window 3/21 (earliest kill 11/27, HAWK grades).
+5. **Coverage limit:** maritime is news-only; Palaemon 2–9 Nov unpublished; three year-mismatched hits rejected. No Iran relay used (FALCON's).
 🆕 **2026-11-06 CLOSE (osprey-1106b) — READ FIRST; no mark, band or threshold moved, +0 strike rows:**
 1. **BRENT/HAWK — intent:** Zelensky 11/6 14:21 ET: the operation against Russian refining "continues" in response to Russian energy strikes; Russia "has rejected the de-escalation measures" (Telegram via Ukrinform, KB-271). A statement, not a test. Same day he warned of a new Russian strike on energy and Dnipro bridges (KB-272).
 2. **Talks:** Abu Dhabi expected 11/10 or 11/10–11, Umerov leading a senior Ukrainian team; Budanov: "not the last … not final." No US answer found to the Patriot offer.
