@@ -196,3 +196,21 @@ qqq_put_wall	650	2026-11-06	clean at both horizons (14d +37%, 35d +27%), PUBLISH
 qqq_call_wall	670	2026-11-06	670 at both horizons, near-tie band 670-680 at both (14d +9%, 35d +1%), PUBLISHED as a band; was WITHHELD at 09:55; 11/6 post-close run 17:1x ET, spot = vendor close, chain still carries 11/5 trading (QQQ Nov-20 sampled puts unchanged from 09:55)
 ndx_put_wall	28000	2026-11-06	28000 at both horizons, 14d near-tie band 27500-28000 (+0%), 35d clean +12%; spot 26989.99 UNDER it, overhead not support; 11/6 post-close run 17:1x ET, spot = vendor close, chain still carries 11/5 trading (QQQ Nov-20 sampled puts unchanged from 09:55)
 ndx_call_wall	29675	2026-11-06	clean at both horizons (14d +73%, 35d +39%), PUBLISHED; 11/6 post-close run 17:1x ET, spot = vendor close, chain still carries 11/5 trading (QQQ Nov-20 sampled puts unchanged from 09:55)
+gamma_flip_14d	7660	2026-11-09	cboe 4954 contracts (11/9 midday run ~12:1x ET, live vendor spot; chain carries 11/6 trading (first since the 11/6 close map))
+net_gex_14d_Bn	-36.8	2026-11-09	$B per 1% (11/9 midday run ~12:1x ET, live vendor spot; chain carries 11/6 trading (first since the 11/6 close map))
+gamma_flip_35d	7661	2026-11-09	cboe 8345 contracts (11/9 midday run ~12:1x ET, live vendor spot; chain carries 11/6 trading (first since the 11/6 close map))
+net_gex_35d_Bn	-44.8	2026-11-09	$B per 1% (11/9 midday run ~12:1x ET, live vendor spot; chain carries 11/6 trading (first since the 11/6 close map))
+qqq_gamma_flip_14d	689.93	2026-11-09	cboe 2203 contracts (11/9 midday run ~12:1x ET, live vendor spot; chain carries 11/6 trading (first since the 11/6 close map))
+qqq_net_gex_14d_Bn	-1.4	2026-11-09	$B per 1% (11/9 midday run ~12:1x ET, live vendor spot; chain carries 11/6 trading (first since the 11/6 close map))
+qqq_gamma_flip_35d	690.63	2026-11-09	cboe 3163 contracts (11/9 midday run ~12:1x ET, live vendor spot; chain carries 11/6 trading (first since the 11/6 close map))
+qqq_net_gex_35d_Bn	-1.7	2026-11-09	$B per 1% (11/9 midday run ~12:1x ET, live vendor spot; chain carries 11/6 trading (first since the 11/6 close map))
+ndx_gamma_flip_14d	28040	2026-11-09	cboe 2194 contracts (11/9 midday run ~12:1x ET, live vendor spot; chain carries 11/6 trading (first since the 11/6 close map))
+ndx_net_gex_14d_Bn	-0.3	2026-11-09	$B per 1% (11/9 midday run ~12:1x ET, live vendor spot; chain carries 11/6 trading (first since the 11/6 close map))
+ndx_gamma_flip_35d	28205	2026-11-09	cboe 3070 contracts (11/9 midday run ~12:1x ET, live vendor spot; chain carries 11/6 trading (first since the 11/6 close map))
+ndx_net_gex_35d_Bn	-0.7	2026-11-09	$B per 1% (11/9 midday run ~12:1x ET, live vendor spot; chain carries 11/6 trading (first since the 11/6 close map))
+put_wall	7500	2026-11-09	clean at both horizons (14d +31%, 35d +28%), PUBLISHED; spot 7532.07 ABOVE it by 0.4%, so support under spot; 11/9 midday run ~12:1x ET, live vendor spot, chain carries 11/6 trading
+call_wall	7700	2026-11-09	clean at both horizons (14d +31%, 35d +29%), PUBLISHED; spot 7532.07 under it, overhead; 11/9 midday run ~12:1x ET, live vendor spot, chain carries 11/6 trading
+qqq_put_wall	NONE	2026-11-09	WITHHELD, none published: 14d put wall 680 equals the call wall (side unresolved); 35d 680 clean +28%; spot 676.70 UNDER 680; SUPERSEDES 650 [11/6]; 11/9 midday run ~12:1x ET, live vendor spot, chain carries 11/6 trading
+qqq_call_wall	NONE	2026-11-09	WITHHELD, none published: 14d 680 vs 35d 700 (35d near-tie band 680-700), horizons disagree; SUPERSEDES 670 [11/6]; 11/9 midday run ~12:1x ET, live vendor spot, chain carries 11/6 trading
+ndx_put_wall	28000	2026-11-09	clean at both horizons (14d +30%, 35d +42%); spot 27814.86 UNDER it, overhead not support; 11/9 midday run ~12:1x ET, live vendor spot, chain carries 11/6 trading
+ndx_call_wall	29675	2026-11-09	clean at both horizons (14d +68%, 35d +64%), PUBLISHED; 11/9 midday run ~12:1x ET, live vendor spot, chain carries 11/6 trading

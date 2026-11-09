@@ -59,3 +59,6 @@ receipt_date	correction_id	action	note
 2026-11-06T21:48Z	COR-20261106-41	APPLIED	artifact=AGENTS/HENRY/workbook/KB.tsv#ML-HEN-200; validation_ref=NONE; STATUS line carries the corrected read
 2026-11-06T22:17Z	COR-20261106-42	NO-OP	scope=HENRY carries only 305bp [11/5 DTCC via LIQUID] which WALTER 042 holds. No 3.25 percent or 288 or record claim on STATUS or brief or KB (scan had a positive hit on the 305 line); 
 2026-11-06T23:37Z	COR-20261106-53	NO-OP	scope=Card 053 corrects the Polymarket ceasefire line of card 047. HENRY never carried those odds on STATUS, NEXUS_BRIEF, KB or board_log, and the Qeshm line stands: attacker unnamed, direction open; 
+2026-11-09T17:12Z	COR-20261107-02	APPLIED	artifact=AGENTS/HENRY/NEXUS_BRIEF.md#Qeshm; validation_ref=NONE; 
+2026-11-09T17:12Z	COR-20261108-02	NO-OP	scope=card 056 oil-and-gas target line never carried on HENRY surfaces, grep Pickaxe and oil and gas infrastructure 0 hits in STATUS NEXUS_BRIEF KB MEMORY LAST_COMPLETION, control HEN-57 hit; 
+2026-11-09T17:12Z	COR-20261109-09	NO-OP	scope=Rubio quote and IRGC three-tanker claim never carried on HENRY surfaces, grep 0 hits, control HEN-57 hit; 

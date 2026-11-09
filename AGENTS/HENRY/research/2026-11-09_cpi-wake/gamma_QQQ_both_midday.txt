@@ -1,0 +1,25 @@
+===== QQQ GAMMA FLIP  (asof 2026-11-09, <= 14d, 2,231 contracts, src=cboe) =====
+  QQQ spot        676.75
+  Net GEX @ spot  -1.4 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~691
+                  spot is -14 pts BELOW (neg-gamma) the flip
+  Call wall       680  (clean #1, +13% over #2)
+  Put wall       680  (clean #1, +17% over #2)  <- QQQ BELOW put wall (intensified downside feedback)
+  ⚠️⚠️ PUT WALL == CALL WALL — structurally impossible as stated; treat the put side as UNRESOLVED at this horizon (see LESSONS 7/23).
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== QQQ GAMMA FLIP  (asof 2026-11-09, <= 35d, 3,208 contracts, src=cboe) =====
+  QQQ spot        676.75
+  Net GEX @ spot  -1.7 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~691
+                  spot is -14 pts BELOW (neg-gamma) the flip
+  Call wall       700  ⚠️ NEAR-TIE (7% over #2) — report the BAND 680-700, not this strike
+  Put wall       680  (clean #1, +28% over #2)  <- QQQ BELOW put wall (intensified downside feedback)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== CROSS-HORIZON CHECK (audit E2) =====
+  Flip band       691-691  (14d ~691 · 35d ~691)
+  Regime          14d NEGATIVE · 35d NEGATIVE
+  Call  wall      ⛔ WITHHOLD: 14d 680 vs 35d 700 — horizons disagree
+  Put   wall      ⛔ WITHHOLD: put wall == call wall at 14d — put side UNRESOLVED
+  PUBLISHED.tsv NOT written (pass --publish to record this read)

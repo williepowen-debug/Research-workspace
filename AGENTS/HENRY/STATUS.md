@@ -1,73 +1,59 @@
 # HENRY STATUS
 
-**Last owner update:** 2026-11-06 18:3x ET, Will's closeout via PROME: WALTER 047 and 049 consumed, STATUS rotated. Before that 17:1x ET, Will's close-refresh via PROME (Claude Code, Opus 5.5, `claude-opus-5-5`): 11/6 close graded, map re-published on the close, thresholds re-based to 11/6, MARKET_DATA backfilled, WALTER 042 consumed. Earlier closes 16:4x ET (SoftBank line, 4 packets, 5 corrections), 15:3x ET (December hike read), 10:2x ET (WQ-626 A wake, 11/5 close grade, HEN-59 resolved). The 11/6 morning VIEW, the 09:55 ET map and the grade of the 11/5 maps rotated verbatim to `STATUS_COLD.md` § ROT-11/06-CLOSE.
+**Last owner update:** 2026-11-09 12:1x ET, PROME due-row wake (Will's word 12:07 ET; Claude Code, Opus 5.5): inbox drained (15 WALTER, 1 ZHAO), 3 corrections receipted, 11/9 gamma map published, 11/6 credit filled, WALTER 004 acted, HEN-57 CPI grade sheet set. 11/6 close VIEW and map rotated verbatim to `STATUS_COLD.md` § ROT-11/09. Before that 2026-11-06 18:3x ET, Will's closeout via PROME: WALTER 047 and 049 consumed, STATUS rotated. Before that 17:1x ET, Will's close-refresh via PROME (Claude Code, Opus 5.5, `claude-opus-5-5`): 11/6 close graded, map re-published on the close, thresholds re-based to 11/6, MARKET_DATA backfilled, WALTER 042 consumed. Earlier closes 16:4x ET (SoftBank line, 4 packets, 5 corrections), 15:3x ET (December hike read), 10:2x ET (WQ-626 A wake, 11/5 close grade, HEN-59 resolved). The 11/6 morning VIEW, the 09:55 ET map and the grade of the 11/5 maps rotated verbatim to `STATUS_COLD.md` § ROT-11/06-CLOSE.
 
-## VIEW
+## VIEW — 11/9 MIDDAY (vendor quotes about 12:10 ET, not closes; FRED and Cboe for 11/6 where marked)
 
-**11/6 close (vendor dated bars, Treasury par; FRED and Cboe History have not posted 11/6). October payrolls beat hard, rates took it and stocks did not: SPX closed +0.31% at 7,376.86, level with its open and 7.31 points over the day's low.** Open 7,377.65, high 7,444.20 (+1.23%) in the first hour, 7,402.48 at 15:30 ET (+0.66%), low 7,369.55, last half hour −0.35%. The whole gain was the opening gap. BLS first print +165,000 against consensus +65,000 (Reuters) and +59,000 (Dow Jones), unemployment 4.1%, August and September revised up 84,000 combined (BLS USDL-26-1632 as graded by LABOR, matching my BLS API pull; consensus from press). LABOR's freeze-thaw v2 fired, and that margin is thin: 15K over its +150K bar. **HEN-59 resolved 11/6: NOT FIRED; my expectation of FIRED MISSED.**
+**Stocks took back more than half of the 11/5 fall, and broadly: SPX 7,542.84, +2.25%.** That recovers 189 of the 335 points lost on 11/5 (56%, own calc). Equal weight matched cap weight (RSP +2.22%), small caps led (IWM +2.83%), chips rose (SMH +4.76%, QQQ +3.31%), KRE +1.91%. **Nvidia fell 4.97% on its own story** (Huang spy-report follow-through; VULCAN grades the name), so it says nothing about the AI tape. VIX 20.55 (−19.85%), VIX9D 20.70, VIX3M 21.45: **term structure back in contango** (VIX3M/VIX 1.044), first time since 11/4. Oil fell: January Brent about $93.84, −4.56% (vendor, not a settle; BRENT owns) as Trump called renewed strikes "highly unlikely" if Iran signs a strong deal; Iran accepting Qatar's terms is unconfirmed and Rubio said there is no breakthrough (WALTER 001, 009). 10Y 4.88% (vendor), USD/JPY 158.01.
 
-**The bounce was chips, and thin against the fall.** SMH +3.62% to 463.96 (about 29% of the 11/5 loss, own calc), AMD +11.04% after −17.26%, NVDA +2.78%, NDX 26,989.99 (+1.35%), QQQ 656.10 (+1.40%), against RSP −0.38%, Dow −0.46%. IWM +0.99% cuts against a chips-only read; member breadth was not rerun. SPX is +0.71% over its 200-day (7,325.05); QQQ is −3.64% under (680.89) and NDX −3.55% under (27,983.89), second close under for both. **Rates:** Treasury par 2Y 4.51% (+5bp), 10Y 4.86% (+2bp), 30Y 5.26% (+1bp); the 2Y faded 3bp from its 4.54% quote at 09:57 ET. Dollar index +0.72% (vendor). **HEN-59 reaction note, closed:** KRE −0.15%, WAL −0.43%, APO −0.44% with the 2Y up 5bp: neither the rate story (KRE up) nor the credit story (KRE gapping down). The discriminator read flat, so no call. HYG −0.06%, LQD −0.12%.
+**Interpretation, working read:** an oil-relief and unwind day, broad rather than chips-only (one session, intraday; ML-HEN-208 logs it against the narrow-rebound theme). It does not repair the dealer regime: **gamma is NEGATIVE on both horizons with the flip about 1.6% overhead at ~7,660**, so dealers amplify moves either way, including this one. SPX is still under its 50-day (7,676.13, own calc with today's bar), so the short-term CTA condition still holds; VIX under 23 means the vol-control condition does not, intraday.
 
-**Interpretation, working read:** on 11/5 the rates market cushioned the fall (2Y −12bp, part of the December hike out); on 11/6 the front end took back 5bp of that 12bp and stocks did not trade it. A strong economy lowers the recession worry and raises the rate risk on long-duration tech, so the two do not net cleanly. The session was quieter than the map allows: range 1.0% against a VIX-implied day of about 1.6%, one session, no read on repair. Reported 11/5 cause (Democratic wins, AI regulation fear; CNBC and Reuters via WALTER 019) stays reported, not established.
+**Citi to Neutral (WALTER 004, ACTION HENRY):** the note is unread. Its "Nasdaq could fall about 5% more before positioning turns decisively bearish" is a strategist's view; I hold no positioning series that measures it, so it is logged, not adopted. What I can measure: QQQ 677.80 sits under its 680 strike cluster with both walls withheld (horizons disagree), and NDX 27,856 sits under 28,000 and under its flip (28,040–28,205). OddStats' 683.65 is context, not my line.
 
-**December hike, 15:00 ET 11/6, own calc from fed funds futures (vendor last trade, not settlement, one tick is 2.8 points): 76%, against 82% on 11/4, 65% on 11/5 and 73% just before the print.** December came back and the path did not, and payrolls were only part of it: odds were already 73% before 08:30 (ORACLE: about 6 of the 14-point venue rebound came before the print, cause not established). December regained 2.0bp of the 3.0bp lost on 11/5, June 2027 only 3.0bp of 14.0bp. Peak priced +46bp at October 2027 vs +57.5bp on 11/4. This corrects my morning line that the print takes the cushion back; that held only at the front. Stocks did not trade it: on the close SPX +0.31%, SMH +3.62%, RSP −0.38%, KRE −0.15%. ZQZ26 last stayed 95.985 through 16:45 ET, so 76% stands on the close (vendor last, CME settlement not read). Since 9/24 the path and SPX move together (correlation 0.53, n=32), and the path fell on 4 of 5 SPX falls of 1% or more since 10/14; the exception was the 10/14 CPI day. A growth scare takes hikes out and cushions stocks; an inflation print adds hikes and does not. **CPI 11/10 is the last CPI before the 12/9 decision (November CPI prints 12/10), and it lands with gamma NEGATIVE.** ORACLE's odds log agrees: Polymarket 77.5, Kalshi 78.0 at 20:26Z. HEN-63 registered, hike at 12/9, 0.70, no claimed edge. The number failed last month: 72% for October on 9/24, then a hold. BOND carries the rest. Read: `research/2026-11-06_nfp/DECEMBER_HIKE_READ.md`.
+**Credit, 11/6 cell (FRED first published, pulled 12:1x ET 11/9):** HY 342bp (−6), BB 208 (−5), B 361 (−6), CCC 1,317 (−3), CCC−BB 1,109 (+2), IG 93. A third of 11/5's +16bp came back and the tail moved least. Under the Credit-Primary Rule one lower print is not a peak call; 348 [11/5] stays the 2026 high.
 
-**Credit moved, and less than stocks did (FRED first read, posted about 10:16 ET 11/6).** HY OAS 348bp on 11/5, +16bp from 332: the 2026 high, highest since 353 on 5/9/2025 (series as served starts 11/7/2023). BB 213 (+14), B 367 (+16), CCC 1,320 (+23), CCC−BB 1,107 (+9), IG 93 (+2). The quality tier moved about as much as the tail in basis points, so this reads as a broad repricing, not a tail event. Against the equity move it is modest: of 8 other S&P falls of 2.5% or more since 11/2023, five saw HY widen 19bp or more, and 4/3/2025 (−4.84%) saw +59bp. Under the Credit-Primary Rule a new high is the opposite of a peak, so no bottom call is available; the 11/6 cell publishes Monday. My attribution test read 11/5's KRE fall as a credit story; the cash print supports a partial reading, a move and not an event.
+**11/6 close, kept short (full text `STATUS_COLD.md` § ROT-11/09):** SPX 7,376.86 (+0.31%) on payrolls +165K vs +65K consensus; **HEN-59 NOT FIRED, expectation MISSED.** December hike 76% at 15:00 ET 11/6 (fed funds futures, own calc, vendor last); HEN-63 at 0.70. VIX 25.64 and SKEW 153.55 for 11/6 now confirmed at Cboe History.
 
-No threshold level, band, trade or gate changed. On the close two state words moved under the registered bands: VIX ORANGE to YELLOW, 30Y YELLOW to ORANGE. No forecast resolved at this refresh; HEN-60, HEN-61, HEN-62 windows open 11/9.
+**CPI tomorrow, 08:30 ET (HEN-57, DOCKET L775):** frozen expectation **NOT FIRED at +0.2** (core 0.4+ fires). Inputs 11/9: Cleveland Fed nowcast core +0.21%, headline +0.24% (unchanged from 10/29); consensus core 0.22%, headline 0.23% (Bloomberg via X relay). The energy leg should be small after September's +5.2% energy jump: retail gasoline averaged −1.0% in October before seasonal adjustment (FRED GASREGW). The risk sits in core, not energy. A hot core print is the case where the hike repricing and the dealer amplification point the same way. Grade sheet and 08:30 procedure: `research/2026-11-09_cpi-wake/CPI_GRADE_SHEET.md`.
 
-## GAMMA MAP — 11/6 CLOSE (`gamma_flip.py --both --spot <close> --publish`, 17:1x ET; spot = vendor close; chain carries 11/5 trading, 11/6 trading reaches OCC Monday)
+## GAMMA MAP — 11/9 MIDDAY (`gamma_flip.py --both --publish`, about 12:1x ET; live vendor spot; chain carries 11/6 trading)
 
 | Chain (Cboe) | Flip 14d / 35d | Net GEX per 1% 14d / 35d | Put wall | Call wall |
 |---|---:|---:|---|---|
-| SPX (4,320 / 7,547 contracts), spot 7,376.86 | ~7,654 / ~7,658 | **−$53.4B / −$66.4B** | **WITHHELD, side unresolved:** 14d 7,500 near-tie (+7%), 35d 7,000 near-tie (+4%) and equal to the call wall; band 7,000–7,500 | **7,000 at both, clean (+51%, +48%), spot ABOVE it: not a ceiling** |
-| QQQ (1,793 / 2,721), spot 656.10 | ~689 / ~689 | −$2.2B / −$2.6B | **650 at both, clean (+37%, +27%): the only published wall under spot on any chain** | 670 at both, band 670–680 at both |
-| NDX (2,221 / 3,039), spot 26,989.99 | ~28,009 / ~28,206 | −$1.1B / −$1.5B | 28,000 at both (14d band 27,500–28,000), spot UNDER it: overhead, not support | **29,675 at both** |
+| SPX (4,954 / 8,345 contracts), spot 7,532.07 | ~7,660 / ~7,661 | **−$36.8B / −$44.8B** | **7,500 at both, clean (+31%, +28%): spot 0.4% ABOVE it, support under spot** | **7,700 at both, clean (+31%, +29%), overhead** |
+| QQQ (2,203 / 3,163), spot 676.70 | ~690 / ~691 | −$1.4B / −$1.7B | **WITHHELD:** 14d put equals the call at 680, side unresolved; 35d 680 clean; spot UNDER 680 | **WITHHELD:** 14d 680 vs 35d 700 (35d band 680–700) |
+| NDX (2,194 / 3,070), spot 27,814.86 | ~28,040 / ~28,205 | −$0.3B / −$0.7B | 28,000 at both, clean; spot UNDER it: overhead, not support | 29,675 at both, clean |
 
-**The clean SPX 7,500 put wall published at 09:55 ET is withdrawn.** It did not survive the session on unchanged positions: QQQ Nov-20 puts 680 83,273 · 670 38,275 · 690 35,284 · 700 37,915 are identical to the 09:55 chain, so the shift is spot, marks and the contract set (4,664 → 4,320 at 14d), not new positioning. The flip moved 13 to 16 points on the same open interest; treat it as a zone. **No clean SPX support is published.** QQQ 650 is 0.93% under spot, and QQQ closed under that strike on 11/5 at 647.05.
+**The SPX 7,500 put wall is back, clean on both horizons, on the first chain that carries 11/6 trading** (it was withheld on the 11/6 close, and the 09:55 ET 11/6 version did not survive the session). A clean wall depends on its spot: it is support at 7,532, not at a lower open. `PUBLISHED.tsv`: QQQ walls carry `NONE` rows, so 650 and 670 [11/6] now read as superseded.
 
-⚠️ Option marks at the close, spot vendor. Free-tier proxy: sign and flip robust, $B assumption-dependent, walls the fragile part. Monday's pre-open chain carries 11/6 trading and retires this map. The 35d profile (09:55 ET, rotated) showed amplification deep through 7,000 with no flip back to dampening; not re-run at the close.
+⚠️ Intraday marks and live spot. Free-tier proxy: sign and flip robust, $B assumption-dependent, walls the fragile part. Re-run pre-open 11/10 before CPI.
 
-**Levels from the 11/6 close (SPX, own calc through 11/6):** 200-day 7,325.05 (−0.70%) · yellow 7,200 (−2.40%) · orange 7,100 (−3.75%) · red 7,037.04 (−4.61%, −10% from peak, WQ-609 A). 100-day 7,618.70 (+3.28%), 50-day 7,679.45 (+4.10%) and flip about 3.8% overhead.
+**Levels (SPX, own calc with the 11/9 intraday bar):** 200-day 7,328.21 · 50-day 7,676.13 · yellow 7,200 · orange 7,100 · red 7,037.04 (−10% from the 10/6 peak 7,818.93, WQ-609 A).
 
-**Cascade conditions on the 11/6 close (conditions only; dollar sizes are unsourced):** vol-control VIX >23–24 MET at 25.64 (vendor) · short-term CTA SPX under the 50-day MET, **sixth straight close since 10/30** (corrects my 11/5 line, which said second close; 11/4 missed by 4.35 points on a 50-day that includes it; vendor closes, own calc) · medium and long triggers have no sourced level, no call · risk parity correlation not read.
-
-## GRADE OF THE 11/6 09:55 ET MAP ON THE CLOSE (vendor bars)
-
-| Line | 11/6 high / low | Close | Grade |
-|---|---:|---:|---|
-| SPX 7,500 overhead | 7,444.20 / 7,369.55 | 7,376.86 | Not tested, 55.80 short; line since withdrawn |
-| SPX flip ~7,670 | high 7,444.20 | 7,376.86 | Not reached, stayed NEGATIVE |
-| QQQ 650 | 664.52 / 654.00 | 656.10 | Not tested, low 4.00 above |
-| NDX 28,000 overhead | 27,316.09 / 26,887.69 | 26,989.99 | Not tested, 683.91 short |
-| SPX 200-day 7,325.05 | low 7,369.55 | 7,376.86 | Not tested, low 44.50 above |
-
-**Morgan Stanley levered-ETF close (WALTER 054):** shape fits in chips, size unproven, note unread; detail rotated, `STATUS_COLD.md` § ROT-11/06-EVE-2.
-
-## VOL REGIME / TAPE INPUTS — 11/6 CLOSE (vendor; 11/5 and earlier VIX confirmed FRED VIXCLS; VIOLET grades the broadcast)
+## VOL REGIME / TAPE INPUTS — THROUGH 11/9 MIDDAY (11/6 VIX and SKEW confirmed at Cboe History; 11/9 vendor intraday; VIOLET grades the broadcast)
 
 | Session | SPX | VIX | VIX9D | VIX3M | VVIX | SKEW | Term structure |
 |---|---:|---:|---:|---:|---:|---:|---|
-| 11/2 | 7,541.40 (−0.51%) | 21.15 | 22.46 | 21.60 | 110.47 | 152.78 | **inverted** (9D > 3M) |
 | 11/3 | 7,568.92 (+0.36%) | 20.83 | 21.96 | 21.27 | 107.40 | 150.01 | **inverted** |
 | 11/4 | 7,688.62 (+1.58%) | 16.61 (−20.26%) | 15.19 | 18.80 | 90.41 | 150.90 | contango |
 | 11/5 | **7,353.73 (−4.36%)** | **28.18 (+69.66%)** | 32.66 | 25.55 | 134.99 | 149.37 (Cboe History confirmed) | **inverted** (VIX3M/VIX 0.9067, VIOLET: fired) |
-| 11/6 | **7,376.86 (+0.31%)** | **25.64 (−9.01%), vendor, FRED and Cboe not posted** | 27.18 | 24.60 | 121.94 | not published, cell missing | **inverted** (VIX3M/VIX 0.9594) |
+| 11/6 | **7,376.86 (+0.31%)** | **25.64 (−9.01%), Cboe History confirmed** | 27.18 | 24.60 | 121.94 | **153.55 (Cboe History)** | **inverted** (VIX3M/VIX 0.9594) |
+| 11/9 ~12:10 ET, intraday | 7,542.84 (+2.25%) | 20.55 (−19.85%) | 20.70 | 21.45 | 103.67 | not published intraday | **contango** (VIX3M/VIX 1.044), first since 11/4 |
 
-**11/6 close inputs:** KRE $72.20, USD/JPY 158.43 [vendor 11/6], HYG $77.23. Cascade proxy: SPX 50-day 7,679.45; layers 1 and 2 met on the close. VIOLET owns the vol broadcast: VVIX 120 fired 11/5, VIX 30 not, high 28.36 (SIG-VIO 11/5). Inversion marks peaks, not onsets, on its base rate (KB-VIO-034). Files: `research/2026-11-06_close/`, `research/2026-11-06_nfp/`.
+**11/9 intraday inputs:** KRE $73.58, USD/JPY 158.01, HYG $77.43 [vendor ~12:10 ET]. Cascade conditions intraday: vol-control (VIX >23–24) NOT met at 20.55; short-term CTA (SPX under its 50-day 7,676.13) still met; medium and long triggers have no sourced level; dollar sizes unsourced. On the 11/6 close both layers were met (sixth straight close under the 50-day). VIOLET owns the vol broadcast: VVIX 120 fired 11/5, VIX 30 not, high 28.36 (SIG-VIO 11/5). Inversion marks peaks, not onsets, on its base rate (KB-VIO-034). Files: `research/2026-11-06_close/`, `research/2026-11-06_nfp/`.
 
-## CREDIT EARLY-WARNING MONITOR — FRED THROUGH 11/5, FIRST PUBLISHED FOR 11/5 (pulled 10:17 ET 11/6)
+## CREDIT EARLY-WARNING MONITOR — FRED THROUGH 11/6, FIRST PUBLISHED FOR 11/6 (pulled 12:1x ET 11/9)
 
-**11/5 is the first print carrying the sell-off: HY +16bp to 348, the 2026 high.** ETFs stayed calmer than cash: HYG −0.31% on 11/5, −0.06% on 11/6 ($77.23). The 11/6 cash cell lands about 10:10 ET Monday 11/9. Owners grade their own lines (LIQUID Gate 069, TERRY T1, REGINALD, RED, VIOLET; WALTER 012); HENRY grades none of them.
+**11/5 carried the sell-off (HY +16bp to 348, the 2026 high); 11/6 gave back 6bp to 342, the tail least (CCC −3).** HYG $77.43 +0.25% intraday 11/9. The 11/9 cell lands about 10:10 ET 11/10. Owners grade their own lines (LIQUID Gate 069, TERRY T1, REGINALD, RED, VIOLET; WALTER 012); HENRY grades none of them.
 
-| Series | 10/30 | 11/2 | 11/3 | 11/4 | 11/5 |
+| Series | 11/2 | 11/3 | 11/4 | 11/5 | 11/6 |
 |---|---:|---:|---:|---:|---:|
-| HY OAS | 344bp | 343bp | 340bp | 332bp | **348bp** |
-| BB OAS | 209bp | 206bp | 203bp | 199bp | **213bp** |
-| CCC OAS | 1,327bp | 1,319bp | 1,316bp | 1,297bp | **1,320bp** |
-| CCC−BB | 1,118bp | 1,113bp | 1,113bp | 1,098bp | **1,107bp** |
+| HY OAS | 343bp | 340bp | 332bp | **348bp** | **342bp** |
+| BB OAS | 206bp | 203bp | 199bp | **213bp** | 208bp |
+| CCC OAS | 1,319bp | 1,316bp | 1,297bp | **1,320bp** | 1,317bp |
+| CCC−BB | 1,113bp | 1,113bp | 1,098bp | **1,107bp** | 1,109bp |
 
-**LIQUID 11/4 (owner adjudication, SIG-W-20261104-076):** renewed >320 persistence MET 11/2, fourth observation 11/3; existing tier rule BROADENS (IG 94/94/93 fails strict >94). Price repricing is demonstrated; a generalized funding restriction is not (funding NOT ARMED through 11/3). REGINALD's strict >350 ×3 stays 0 of 3. `credit_monitor.py` 17:09 ET 11/6: gap +252bp over about 3 months, HYG $77.23, HYG/LQD 5-session −0.51%, no fund-flow flag.
+**LIQUID 11/4 (owner adjudication, SIG-W-20261104-076):** renewed >320 persistence MET 11/2, fourth observation 11/3; existing tier rule BROADENS (IG 94/94/93 fails strict >94). Price repricing is demonstrated; a generalized funding restriction is not (funding NOT ARMED through 11/3). REGINALD's strict >350 ×3 stays 0 of 3. `credit_monitor.py` at boot 11/9: gap 1,109bp, +246bp over about 3 months (CCC +294 vs BB +48), HYG/LQD 5-session −0.19%, no fund-flow flag.
 
 ## RELEASES SINCE 11/2
 
@@ -95,9 +81,9 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 |---|---|
 | Cyclical | Inflation pressure persists (September CPI/PPI hot on energy; core PCE +0.3% m/m, 3.1% y/y [BEA 10/29]; ISM prices 75.2 manufacturing / 73.0 services [Oct]) while activity holds (ISM 55.5 / 54.5 [Oct]). October payrolls +165K with wages firm; LABOR stood its freeze thesis down on its own kill rule, a hiring read and not a layoffs read, 15K over the bar on a first print (WALTER 010). Read-through here: the labor leg no longer argues for an equity bid break, and it supports the hike side of the rate path. Brent January about $98.29 on 11/5 (BRENT mark, [EST]). Treasury par 11/6: 2Y 4.51%, 10Y 4.86%, 30Y 5.26%. |
 | AI-capex | HEN-36 mechanism RESOLVED-CONFIRMED; class-wide de-rate expression FALSIFIED. Q3 hyperscaler cluster closed with **no capex cut** (VULCAN 10/30: AMZN held ~$220B for 2026, TTM FCF −$42.4B; §4b NO-VERDICT). The market sold the spend: GOOGL −12.64% (10/29), then on 10/30 SOXX −8.24%, INTC −28.58% on its results, NVDA −4.22%, QQQ −3.47% vs RSP −0.79% (VULCAN owns the capex grade; HEN-36 re-read: nothing in VULCAN's packet changes its resolution). **11/4–11/5 repeated the pattern without a capex event:** chips fell through the election relief and led 11/5 down; AMD beat its quarter on 11/3 (press) and closed −17.26% on 11/5, SMH −11.21% (vendor). |
-| Structural credit | Tail stress persists (CCC 1,320bp RED, CCC−BB 1,107bp [FRED 11/5]); broad HY **348bp, the 2026 high, six observations over 320**, +16bp on the 11/5 sell-off, BB +14; tiers BROADENS and Gate 069 L4 fired on 11/5, funding did not move (LIQUID, card 013). VIOLET's credit-flat row met by 3bp: flat is the letter, not calm credit (card 016). Funding not confirmed. Not AI-led on the rated CCC tier (DEWEY 10/23). |
+| Structural credit | Tail stress persists (CCC 1,317bp RED, CCC−BB 1,109bp [FRED 11/6]); broad HY 342bp [11/6], −6 from **348bp [11/5], the 2026 high**, seven observations over 320; tiers BROADENS and Gate 069 L4 fired on 11/5, funding did not move (LIQUID, card 013). VIOLET's credit-flat row met by 3bp: flat is the letter, not calm credit (card 016). Funding not confirmed. Not AI-led on the rated CCC tier (DEWEY 10/23). |
 
-**Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 348 [11/5] > 260; VIX 25.64 [vendor 11/6] > 15).
+**Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 342 [FRED 11/6] > 260; VIX 25.64 [Cboe 11/6] > 15).
 
 ## ACTIVE THRESHOLDS — ALL STANDING LEVELS UNCHANGED
 
@@ -108,17 +94,17 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 | ISM manufacturing prices | 75.2 [ISM Oct] | >60 / >70 / >75 | RED observation (0.2 over) |
 | PPI FD m/m | +1.3% [BLS Sep, 10/15] | >0.4 / >0.5 / >0.6 | RED observation; next print 11/13 |
 | Core PCE m/m | +0.3% [BEA Sep, 10/29] (unrounded +0.32%) | >0.3 hot | NOT FIRED |
-| VIX | **25.64 [vendor 11/6, after the 16:15 ET close; FRED and Cboe not posted]**; 28.18 [FRED VIXCLS 11/5] | >23 / >28 / >30 sustained | **YELLOW on the 11/6 close** (2.36 under orange; was ORANGE 11/5); >30 not reached. VIOLET owns the broadcast |
-| SPX | **7,376.86 [vendor 11/6]** | <7,200 / <7,100 / **−10% from cycle peak** (7,037.04 at the 7,818.93 close of 10/6; recomputes at a new peak; WQ-609 A, Will 11/5) | NOT FIRED (176.86 above 7,200, 339.82 above red, on the close); −5.65% from peak; gamma **NEGATIVE both**, flip 7,654–7,658 [11/6 17:1x ET] |
-| KRE | $72.20 [vendor 11/6] | <$65 / <$62 / <$60 | NOT FIRED |
-| 10Y | **4.86% [Treasury par 11/6]** | >4.5 / >4.8 / >5.0 | ORANGE (14bp under red) |
+| VIX | **25.64 [Cboe History 11/6]**; 20.55 [vendor ~12:10 ET 11/9, intraday] | >23 / >28 / >30 sustained | **YELLOW on the 11/6 close**; intraday 11/9 under yellow (2.45 under 23), state on the close. VIOLET owns the broadcast |
+| SPX | 7,376.86 [vendor 11/6 close]; **7,542.84 [vendor ~12:10 ET 11/9]** | <7,200 / <7,100 / **−10% from cycle peak** (7,037.04 at the 7,818.93 close of 10/6; recomputes at a new peak; WQ-609 A, Will 11/5) | NOT FIRED (342.84 above 7,200, 505.80 above red, intraday); −3.53% from peak; gamma **NEGATIVE both**, flip 7,660–7,661, put wall 7,500 [11/9 ~12:1x ET] |
+| KRE | $72.20 [vendor 11/6]; $73.58 [~12:10 ET 11/9] | <$65 / <$62 / <$60 | NOT FIRED |
+| 10Y | **4.86% [Treasury par 11/6]**; 4.88% [vendor ^TNX 11/9 intraday] | >4.5 / >4.8 / >5.0 | ORANGE (14bp under red on par) |
 | 2Y / 30Y | **4.51% / 5.26% [Treasury par 11/6]** | >4.25 / >4.40 / >4.60 · >5.0 / >5.25 / >5.50 | 2Y ORANGE (9bp under red; HEN-62 needs >4.60); 30Y **ORANGE, 1bp over** (was YELLOW at 5.25) |
-| HY OAS | **348bp [FRED 11/5, first published]** | >320 / >400 / >500 | **YELLOW** (28 over; 52 under orange); 2026 high |
-| CCC OAS | 1,320bp [FRED 11/5] | >900 / >1000 / >1100 | RED |
-| USD/JPY | 158.43 [vendor bar 11/6] | absolute daily change ≥2%, SAM's call | NOT FIRED (+0.04% on the bar, +0.59% on the quote feed; under 2% on both) |
-| SKEW | 149.37 [Cboe History 11/5]; 11/6 not published | >145 / >150 / >160 | YELLOW on the last print; RED-FT-10 owner grade separate |
-| VIX kill leg | **25.64 [vendor 11/6]** | <17 / <16 / <15 one session | NOT FIRED |
-| HY kill observable | 348bp [FRED 11/5] | <290 / <270 / <260 ×5 | NOT FIRED |
+| HY OAS | **342bp [FRED 11/6, first published]** | >320 / >400 / >500 | **YELLOW** (22 over; 58 under orange); 2026 high 348 [11/5] |
+| CCC OAS | 1,317bp [FRED 11/6] | >900 / >1000 / >1100 | RED |
+| USD/JPY | 158.01 [vendor ~12:10 ET 11/9] | absolute daily change ≥2%, SAM's call | NOT FIRED (−0.26% intraday) |
+| SKEW | **153.55 [Cboe History 11/6]** (149.37 [11/5]) | >145 / >150 / >160 | **ORANGE on 11/6** (3.55 over 150, was YELLOW 11/5); RED-FT-10 owner grade separate |
+| VIX kill leg | 25.64 [Cboe 11/6]; 20.55 [11/9 intraday] | <17 / <16 / <15 one session | NOT FIRED |
+| HY kill observable | 342bp [FRED 11/6] | <290 / <270 / <260 ×5 | NOT FIRED |
 
 ## CROSS-DESK / CATALYST STACK / GAPS
 
@@ -127,8 +113,6 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 - **VLO line (SIG-W-20261104-077):** $90.16 and the HOZ26×42 − CLZ26 basis confirmed to TERRY 11/5 (packet in its inbox). TERRY owns the gate; CME unread; no order implied. HEN-46 itself resolved 10/22, so "thesis-dead" is historical wording.
 - **Diesel and refining (BRENT commission, DOCKET 11/20):** my crack estimate is BRENT's input; Russian producer ban through 1/31/2027 (SIG-W-20261031-001).
 - **SOXX:** iShares 3-for-1 split effective 11/5. The vendor has now applied it: 11/5 131.90, 11/6 136.53 (+3.51%). 11/4 150.14 post-split makes 11/5 −12.15%, in line with SOX −12.25% (WALTER 033). The false 11/5 change I flagged is gone.
-- **Inbox before the close refresh:** rotated verbatim, `STATUS_COLD.md` § ROT-11/06-EVE, with the ISHM 11/4 and CYPHER 11/2 lines. Standing from it: equity put/call 11/5 is 0.89 at the Cboe file, not 1.05; SoftBank leverage about 22% to 24% (SAM estimate), not 21.5% or 13%; Oracle CDS 305bp [11/5]. No score, band or trigger moved.
-- **Inbox (11/6 close refresh):** WALTER 042: Oracle CDS traded through 3.25% on 10/20, not on 11/6 so far, and 288bp was a vendor close on another basis. My 305bp [11/5] holds; COR-20261106-42 receipted NO-OP. Consumed, inbox and WALTER lane empty at 17:1x ET.
-- **Inbox (11/6 evening, 18:3x ET):** WALTER 047: Iranian media report two projectiles at Qeshm after the US close, attacker unnamed, direction open, not established as a US strike; FALCON owns the grade, oil and equities shut until Sunday evening. WALTER 053 corrects 047's odds line, never carried here, COR-20261106-53 NO-OP. WALTER 049: Michigan preliminary November 51.0 from 48.0, year-ahead inflation 4.3% from 4.7%, long-run 3.4% from 3.5%; interviews ended 11/2, before the election and the selloff, so the 5% fall among top stock holders is not a read of last week. ML-HEN-207. Nothing moved.
-- **Still open:** Operating Dashboard not refreshed (outside this bounded wake); breadth rerun and options volume by strike not run; VIX and SPX 11/6 unconfirmed until Cboe and FRED post; HY, CCC and SKEW 11/6 cells missing, HY lands about 10:10 ET Monday; Brent and gas MARKET_DATA cells stay blank, BRENT owns the settle. Fleet consumer sweep timed out at boot (180s); scoped runs on the flip (zero certified stale) and on the 7,500 wall (6 hits, all dated history) found no packet owed. `workbook/PUBLISHED.tsv`: with the 7,500 relabelled, `put_wall` resolves to 7,600 [11/5], withheld that day and broken at the close, because the ledger has no row meaning none published; read the WITHHELD row.
-- **Runtime:** Claude Code (Opus 5.5), terminal + web + cross-session messaging; Definite and MT Newswire connectors failed and were not needed; Quartr not called. bls.gov web 403 from this box, api.bls.gov works; cmegroup.com not approached. Tree dirty with other desks' reboot work: pull refused 17:12 ET, read from origin/master.
+- **Inbox, 11/9 due-row wake (12:1x ET):** WALTER lane 15 cards and ZHAO's 11/8 clocks packet dispositioned in `board_log.tsv`, moved to processed. Acted: 004 (Citi, index tape, VIEW above, ML-HEN-208). Corrections: COR-20261107-02 APPLIED (NEXUS_BRIEF Qeshm line: Trump's "minor strikes" weakens "attacker unnamed"), COR-20261108-02 and COR-20261109-09 NO-OP, never carried. ZHAO: three separate 11/10 clocks, BIS stay to 1/10/2027 published, MOFCOM 70 still reactivates after 11/10 unless filed, USTR ship fees open. Standing from earlier inboxes (rotated `STATUS_COLD.md` § ROT-11/06-EVE and ROT-11/09-INBOX): put/call 11/5 0.89 at the Cboe file; SoftBank leverage about 22% to 24% (SAM); Oracle CDS 305bp [11/5]. Nothing moved.
+- **Still open:** Operating Dashboard not refreshed (outside this bounded wake); breadth rerun and options volume by strike not run; FRED SP500 and VIXCLS 11/6 not posted (Cboe confirms VIX 25.64); Brent and gas MARKET_DATA cells stay blank, BRENT owns the settle. Fleet consumer sweep timed out at boot again (180s). `PUBLISHED.tsv` now says none published with a `NONE` value row (QQQ walls 11/9); SPX `put_wall` resolves to 7,500 [11/9].
+- **Runtime (11/9):** Claude Code (Opus 5.5, `claude-opus-5-5`), terminal, web search, cross-session messaging; Definite and MT Newswire connectors failed to connect and were not needed; Quartr not called. bls.gov web 403 from this box, api.bls.gov and Cboe History work; cmegroup.com not approached. Tree carries other desks' staged and modified files; commits path-scoped.
