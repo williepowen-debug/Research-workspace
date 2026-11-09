@@ -8,7 +8,7 @@
 |---|---|---|
 | `PROME/proposals/2026-08-16_carl-row44-respec-optionA-RULED.md` | Will ruled Option (A) on 2026-08-16, verbatim "approved - go ahead with A as recommended": leg 2 re-keys to the credit-card transition rate into 90+ (NY Fed HHDC Page 14), 2 consecutive declines with cumulative decline of at least 100bp; the reset of the count from 1-of-2 to 0-of-2 accepted. Live only when two conditions clear | VERIFIED |
 | Condition 1, CARL commit 7037178306 (2026-08-27) | The servicer-transfer caveat was read at the primary and is scoped to mortgage balances, not card reporting; the rule was encoded as THESIS v2.6.6 the same day, re-affirmed by Will in-session per the commit body | VERIFIED at the commit; the in-session re-affirmation is CARL's record |
-| Condition 2, RED dissent | `AGENTS/CARL/thesis/CHANGELOG.md` records CHG-RED-045 answered in the spec text and RED's rider folded in; no later record reopening the choice was found | INFERRED (no reopening found; RED's files were not searched whole) |
+| Condition 2, RED dissent | RED's own packet to CARL of 2026-08-20 (`AGENTS/CARL/inbox/processed/2026-08-20_from-RED_chg045-answer-A-no-reopen-the-shadow-grade-is-the-cover-not-your-word.md`) reads "(A), no reopen" and "No reopen routed to PROME"; RED's 11/06 tree (`AGENTS/RED/research/2026-11-10_HHDC_Q3_TREE.md`) labels the re-spec the live rule. Found by CARL 11/9 16:0x ET, checked by PROME at the 8/20 packet | VERIFIED (upgraded 2026-11-09 16:0x ET from INFERRED) |
 | Same ruling, "What stands" | The as-written share rule (Page 12, direction only) is SUPERSEDED. It survives only as a mandatory shadow grade. If it fires while the re-spec has not, that divergence is written on the card in figures and escalated to Will the same session, "never absorbed" | VERIFIED |
 | `AGENTS/CARL/thesis/HHDC_Q3_2026_GRADING_CARD_TEMPLATE.md` §1 (frozen 11/06) | Carries both rows as the ruling requires | VERIFIED |
 
@@ -20,4 +20,4 @@
 4. **What a divergence would mean:** only Will can reopen the 8/16 choice. A divergence report carries the figures and the note that CARL is the beneficiary of the reset; it proposes nothing.
 
 ## Limit
-Condition 2 rests on the absence of a reopening record in the files read. If RED holds an unanswered post-8/16 objection to the re-spec, the choice would be open to Will under the 8/16 ruling's own clause, and the official verdict would then be unresolved. None was found.
+RED's files were searched by text, not read whole. One stale label remains at RED: `AGENTS/RED/STATUS.md` line 78 (CHG-RED-045) still reads "GRADE THE KILL RULE AS WRITTEN", RED's 8/07 position from before the re-spec; RED was told by packet 11/9. RED's challenge ledger keeps CHG-RED-045 open for its own adjudication at this print; that is a challenge record, not a reopening of the rule.

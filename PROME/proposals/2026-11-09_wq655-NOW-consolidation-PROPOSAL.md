@@ -127,3 +127,34 @@ WALTER (READS row 143) and NEXUS (row 341) read the head of `PROME/STATUS.md`; t
 1. Keep the name SCRATCH (recommended) or rename to NOW.md.
 2. HANDOFF: a stub that points onward (recommended, keeps old links working) or delete.
 3. The spawn-slate read: retire only if the fleet view proves it redundant (recommended) or keep regardless.
+
+## 8. APPROVED and amended after the plan read (2026-11-09, execution governs from here)
+
+**Approved:** WQ-658 A, Will 2026-11-09 15:55 ET (`PROME/proposals/2026-11-09_wq656-657-658-RULED.md`). §7 is ruled: name SCRATCH kept; HANDOFF becomes a stub; the spawn-slate boot read is KEPT until the fleet view demonstrates equivalent coverage (the §5 "candidate" row is therefore not executed). This file keeps its PROPOSAL name because rows, packets and the ruling record cite it.
+
+**Plan read:** one blind read (coldreader, Sonnet, 2026-11-09 about 15:58 ET), ❌ 9 · ⚠️ 13. Ledger copied to `PROME/archive/NOW_MIGRATION_2026-11-09/coldread_plan.md`. Line numbers in §2 are an older HEAD; execution maps by content.
+
+**❌ fixes (each replaces the §2/§3 text it names):**
+
+| # | Finding | Fix executed |
+|---|---|---|
+| 1 | The Decisions-app row lives only in STATUS's Current Work Queue and carries caveats | The whole row, caveats included (installed under Will's waiver of PROME's review, author-tested only; CATO owns one pre-existing test failure; Will reopens the app once after an install; chat confirmation for every answer), moves to STATUS § Live Surfaces together with SCRATCH's Decisions-app paragraph |
+| 2 | Three of the four operator-card "guards" are closed; the live items had no home | No guard rows are minted from WQ-357, WQ-360, WQ-365. Live items: HBAN Oct-16 16P disposition and the WQ-302 post-expiry reconciliation → one DOCKET row keyed to the next broker capture; Clear Spring → WQ-422 (exists); VLO 2 held with no TERRY rule → FORGE D-78 and ACTIVE_DECISIONS row "TRY-FIRE-004 standing guards" (both exist); STAND DOWN (WQ-192) and X1 CLOSED → FORGE VLO row and STATUS § Restrictions (exist). The 11/18 December-crack review belonged to GATE-TERRY-VLO-HELD-01, RESOLVED EXECUTED 11/5: no row |
+| 3 | "Still carried: no independent read…" is a live disclosure | One DOCKET row for PROME's unreviewed work: the spine-audit-19 fix pass, charter items 3 and 4, the final item 2 and WQ-653 root text, the FORGE 11/5 rotation, the position_management.tsv source_sha256 re-review |
+| 4 | `PROME/FLEET_SCAN.md` rows name SCRATCH's operator card and HANDOFF | Added to §3; the three pointers are corrected |
+| 5 | The reconcile skill tells a reconcile to rewrite SCRATCH's operator-card book line | Added to §3, both copies: the book line is read from `will_brief.py --book-line`, never stored |
+| 6 | The LIQUID, HENRY, BOND re-scope carries PROME's own duty and a 2027-07-01 re-open | STATUS § Owner lanes STAYS (standing instructions, not current state), minus its "Optional" row; a DOCKET row dated 2027-07-01 carries the re-open. §2c's packet route is withdrawn |
+| 7 | The DAEDALUS-packets paragraph holds owed work | TERRY script-consumer check, ZHAO B24 receipt and the SHADE registry ask are DAEDALUS-owned and live in its plan and its inbox; DOCKET L490 (DAEDALUS owed set) is annotated with the three so PROME's side has a row |
+| 8 | The pick-up paragraph and the "do not" lines were unmapped | NOW § Next and § Waiting carry: the overnight-desk question (do not re-ask before the evening closeout), DAEDALUS's WQ-657 packet (sent 6891fa8f21), the Skydance 10-Q read on D:L811, the closeout lessons and the FERT census scaffold gap (to the daily note at closeout, named in § Next until then) |
+| 9 | The pick-up branch and the closeout tiers still read HANDOFF and a "resume section" | Added to §3: `PROME/BOOT_MODULES.md` § Resume step 1 (reads SCRATCH and the latest daily note), `PROME/CLOSEOUT.md` § Restart checkpoint and its Bounce and Light tier lines (NOW § Next and § This session) |
+
+**Declared residue (⚠️, not fixed in the plan; handled as stated or left):**
+- "Message after tomorrow's prints" goes to NOW § Waiting verbatim. Will's "all desk windows stay open" and "instructions stand alone" go to the playbook line with the memory ceiling; Quartr stays a NOW § Standing words pointer to its memory file.
+- STATUS keeps its Helm and Deck banner line and its process paragraph (the plan sent the banner to the snapshot).
+- "Carry owner grades into the next base" is homed in the HEARTBEAT rebase plan NOW links to. ARGUS P5 gets a DOCKET row. October 7 to 9 orchestration rows and the older Codex-session recovery stay UNKNOWN in ORCH_LOG and the 10/7 report; the snapshot keeps the sentences.
+- The NOW header is two lines, not one. HANDOFF's four resume pointers go to § Links; "census before any launch" is already charter text.
+- No new ACTIVE_DECISIONS rows are added, so its budget is untouched. The TERRY acceptance and WQ-430 read budget stay in their own records.
+- The book line is not stored in NOW: § Book names the command. `fleet_dashboard.py` needs no repoint because the file name and markers stay.
+- READS.tsv: PROME's ATTESTATION row is re-filed with rows 108, 109, 114. `WILL_QUEUE.md`'s header sentence about the operator card is corrected.
+- Charter and root edits: the replacement text for `PROME/CLAUDE.md` § Handoff Requirement and Boot step 5, and for the `AGENTS.md` reference line, is drafted in the ruling record before insertion (Will approved "consumer updates", and §3 named both files as Will-gated). Snapshot is taken BEFORE any edit; crc32 from `measure.py`. Rollback is `git revert` of the migration commits. One result read, no more.
+- `argus_scope.py`'s recorded perimeter updates at its next recorded baseline (tonight's closeout), not here.

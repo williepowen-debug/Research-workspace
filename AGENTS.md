@@ -44,6 +44,6 @@ Trade proposals require Will's explicit approval; TERRY proposes structure, neve
 
 ## Operating references
 
-- PROME boot / closeout / continuity: `PROME/BOOT.md` · `PROME/CLOSEOUT.md` · `PROME/HANDOFF.md`
+- PROME boot / closeout / continuity: `PROME/BOOT.md` · `PROME/CLOSEOUT.md` · `PROME/SCRATCH.md` (the NOW page; `PROME/HANDOFF.md` is a retired stub)
 - Autonomy tiers and proposal rules: `PROME/AUTONOMY.md`
 - Coordination-layer design: `PROME/ORCHESTRAL_LAYER_DESIGN.md` (historical Toscanini files → `PROME/archive/TOSCANINI_2026-03/`)

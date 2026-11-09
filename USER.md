@@ -34,6 +34,8 @@ It is also proof-of-work for an AI-native research and operations practice. Trad
 - Will welcomes questions that help refine this profile and how the agents work with him (2026-10-14). Record his answers rather than assuming preferences.
 
 - **Document small news; it may matter in combination (Will, 2026-11-05 15:22 ET, WQ-622 A, every desk):** *"Even if any singular piece of news doesnt move the needle by itself - we do want to account for and document things that might matter eventually, or in combination, etc."* Too small to act on is not too small to record, and themes are updated as new data arrives. Logging is not scoring: nothing logged moves a score, band or trigger. Set-up guide for each desk: `PROME/COMBINATION_WATCH.md`.
+- **Quiet mode during desk sweeps (Will, 2026-11-06 18:20 ET; PROME's wording of his instruction, record `memory/auto/feedback_quiet_mode_during_desk_sweeps.md`):** one digest plus interrupts while desks work; label a relayed claim that has not been verified.
+- **Historical reconstruction stopped (Will, 2026-11-05 15:59 ET; PROME's wording, record `memory/2026-11-05.md`):** do not rebuild old timelines; say "supported by recorded dates".
 
 ## How Will Thinks
 

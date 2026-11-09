@@ -46,7 +46,7 @@ reminder rows they replace were printed at 100% of closeouts and acted on at an
 unknown fraction — a reminder is not a check. claim_check (root step 1e) runs
 mechanically every closeout, advisory: a flag is a prompt to LOOK, never a
 find-replace (it may be a correctly-labelled quote of a corrected error).
-The HANDOFF/SCRATCH judgment writes remain manual.
+The SCRATCH (NOW page) judgment writes remain manual; HANDOFF is a retired stub.
 """
 import argparse
 import csv

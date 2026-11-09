@@ -39,9 +39,9 @@ DESIGN CONSTRAINTS (commission §3 — each a paid-for lesson)
      content-derived: crc32 of the parsed live rows, not a clock).  7. No network.
 
 USAGE
-  python3 scripts/docket_view.py --write PROME/SCRATCH.md            # PROME closeout
-  python3 scripts/docket_view.py --write PROME/SCRATCH.md --dry-run  # print block only
-  python3 scripts/docket_view.py --check PROME/SCRATCH.md HEARTBEAT.md
+  python3 scripts/docket_view.py --write PROME/state/CALENDAR.md            # PROME boot and closeout
+  python3 scripts/docket_view.py --write PROME/state/CALENDAR.md --dry-run  # print block only
+  python3 scripts/docket_view.py --check PROME/state/CALENDAR.md
   python3 scripts/docket_view.py --check FILE --docket <snapshot.tsv> --as-of 2026-08-16
   python3 scripts/docket_view.py --selftest
 """

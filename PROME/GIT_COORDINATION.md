@@ -144,7 +144,7 @@ YEYOU Phase 1 reports to Prome only:
 
 - Write findings/proposals under `AGENTS/YEYOU/reviews/` or `AGENTS/YEYOU/outbox/`.
 - Prome reads those directly.
-- Prome records decisions in live `PROME/` docs, usually this file, `PROME/SCRATCH.md`, or `PROME/HANDOFF.md`.
+- Prome records decisions in live `PROME/` docs, usually this file or `PROME/SCRATCH.md` (the NOW page); `PROME/HANDOFF.md` is a retired stub.
 - Do not use archived `AGENTS/PROME/INBOX.md` as canonical.
 
 Direct-to-Will YEYOU routing can be added later only after Will approves that escalation path.

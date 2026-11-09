@@ -16,11 +16,11 @@ Use these instead:
 | Need | Current source |
 |---|---|
 | Regime / dashboard / near gates | `HEARTBEAT.md` |
-| Immediate operator card | `PROME/SCRATCH.md` |
+| Positions and book (the operator card was retired 2026-11-09) | `FORGE/STATUS.md` · `python3 PROME/tools/will_brief.py --book-line` |
 | System health / work queue | `PROME/STATUS.md` |
 | Current session state | `PROME/SCRATCH.md` |
 | Non-terminal decisions / trade safety | `PROME/ACTIVE_DECISIONS.md` |
-| Cross-runtime continuity | `PROME/HANDOFF.md` |
+| Cross-runtime continuity | `PROME/SCRATCH.md` (the NOW page) + `memory/YYYY-MM-DD.md` (`PROME/HANDOFF.md` is a retired stub) |
 
 ## Durable Jun14 Takeaway
 

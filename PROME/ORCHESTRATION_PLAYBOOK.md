@@ -206,6 +206,7 @@ When a coordinator-driven session (forum slate, proxy spawn, fan-out) commits co
 4. **Will-decisions identified** up front so I can batch them, not drip them?
 5. Actual execution/commit concurrency checked under Runtime mechanics and root Git Protocol?
 6. **Go-quiet plan:** what's the *next* thing worth interrupting Will for?
+7. **Room on the box?** `free -g` before a launch: none while only about 1 to 2 GB is free; about 20 sessions is the desktop's ceiling (`PROME/MACHINE_LOCAL.md`, measured 11/6). Desk windows stay open and are tapped by message, never closed to make room without Will's word (Will 2026-11-06 16:38 ET). An instruction to an open desk stands alone: tell it to reread its files and name the artifact.
 
 ---
 
