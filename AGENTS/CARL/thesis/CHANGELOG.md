@@ -8,6 +8,17 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-09 — Contest answers: CRL-23 re-marked 15 → 30, CRL-15 rationale withdrawn (no version or score change)
+
+**Trigger:** PROME packet 2026-11-07 (DAEDALUS run b5e629ac1e, Will-assigned scoring), answered in the PROME due-row wake (Will's word 12:07 ET). Answer: `research/2026-11-09_contests/ANSWER.md`.
+
+| Item | Old → new | Basis |
+|---|---|---|
+| CRL-23 | 15% (dated 11/06) → **30% dated 2026-11-09** | 11/06 cut withdrawn as unsupported. DHI guide errors (actual − guide mid, HOMER BUILDER.tsv): FQ2 +0.85, FQ3 +0.75, FQ4 −1.25 (printed 10/29, before the cut). Leg A needs ≤ −0.75. A ~30%, B ~10%, C ~0.9, joint ~30%. Raise increases loss on a miss; disclosed |
+| CRL-15 | 10% (dated 11/06) → **10% stands on record, rationale WITHDRAWN, no new mark** | March TTM used as a November level; cross-construction subtraction; SBA 9/30 file listed (Last-Modified 10/30) before the mark. Window = calendar year-end per registration text. No construction was ever registered. NO-VERDICT-BY-INSTRUMENT resolver proposed to Will via PROME, not enacted |
+
+**Preserved:** CRL-15 65 / 35 / 10; CRL-23 70 / 45 / 15. **Not moved:** matrix 53/70, every vector, band, threshold and other prediction.
+
 ## 2026-11-06 (4) — Catch-up on Will's word: V2 September graded, V12 presser, two dated re-marks (no version or score change)
 
 **Will, 13:30 ET via PROME:** *"Okay keep directing CARL to get him up to speed and address any gaps or problems."* Card: `research/2026-11-06_catchup/CATCHUP.md`.

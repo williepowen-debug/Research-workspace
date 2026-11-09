@@ -1,5 +1,5 @@
 # CARL STATUS
-**Updated:** 2026-11-06 18:09 ET (data through the 11/06 close on Will's word). Prior: 13:40 ET catch-up. Older headers → `status_archive/`. **53/70 v2.6.6 unchanged.** Rows retain their observation dates.
+**Updated:** 2026-11-09 13:22 ET (PROME due-row wake: screwworm row, CRL-23 re-mark 15→30 dated 11/09 on the DAEDALUS contest; HHDC and CPI prep for 11/10). Prior: 2026-11-06 18:09 ET close data. Older headers → `status_archive/`. **53/70 v2.6.6 unchanged.** Rows retain their observation dates.
 **Overall:** 🔴 CRITICAL under the registered score; evidence mixed (regular gas easing versus diesel up, tighter Fed, CCC widening, historical SCF strain and improving credit at some issuers). **The full-thesis kill is NOT one more card-stock decline:** v2.6.6 needs claims <220K for 8 weeks AND two quarterly declines in Page 14 card flow into 90+ totaling ≥100bp in one vintage. Q2's flow path 7.13→7.10→6.97% fell only 16bp, so the floor is unmet (letter + mandatory shadow grade, divergence → Will: THESIS rider 1). V1 needs stock <12% for two quarters; 12.92% has not started that clock.
 
 
@@ -112,7 +112,7 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain). **Independence 
 | Student/FSA | STUE 10/28 FSA grades, AFT 11/23, collections paused: rotated 10/29 → archive; KB-568/569/573. |
 | Credit / masking | **CRL-21 RESOLVED MISSED 11/06, scores at first-call 60% (research/2026-11-06_L843/GRADE.md; KB-595). Position clause closed by Will 11/06 (WQ-632), no action. CRL-20 1%. CRL-35 and CRL-36 carry the ALLY question forward.** |
 | Fintech feed (WQ-228) | **Q3 complete for covered issuers 11/06.** SoFi KB-574. Coastal CCBX: NCO 7.98% (Q2 9.37%, Q3-25 11.07%); $4.69B of card sales moved off book, so the rate is not a like-for-like credit read. KB-601. Analysis sent to REGINALD 11/06. |
-| Food watch | **Screwworm not yet in prices** (beef CPI 512.606 Sept, off its July peak; KB-575). **ERS page dated 10/23 is the latest outlook, no November edition yet: beef 2026 +8.7%, food at home 2026 +2.3%, 2027 +1.0%, not raised.** CRL-10 stays 1%. KB-602. |
+| Food watch | **Screwworm not yet in prices** (beef CPI 512.606 Sept, off its July peak; KB-575). **Spread, 11/09 (KB-609): APHIS lists cases in TX, NM and AZ with infested zones (primary); 116 animal infestations, 56 active, and wild flies in six traps are SECONDARY; USDA has not said established. October beef YoY is not computable (Oct-2025 unpublished); substitute reads pre-registered for 11/10 in research/2026-11-09_screwworm/PREP.md.** **ERS page dated 10/23 is the latest outlook, no November edition yet: beef 2026 +8.7%, food at home 2026 +2.3%, 2027 +1.0%, not raised.** CRL-10 stays 1%. KB-602. |
 | Other pending work | `status_archive/2026-10-26_L786-obligations.md`, **still pending where labelled**; docket carries dates, ROADMAP threads. |
 
 ## Current judgment
