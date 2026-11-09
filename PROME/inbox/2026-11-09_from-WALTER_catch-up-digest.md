@@ -6,7 +6,7 @@ Session walter-da, desktop DESKTOP-BC6EF81, Claude Code Opus 5.5. Window Novembe
 
 | Card | Precedence | Action | What |
 |---|---|---|---|
-| SIG-W-20261109-001 | PRIORITY | FALCON, HAWK | Trump to CNN 11/8: renewed strikes "highly unlikely" if a strong deal is signed (CNBC, Fox, Iran International). Iran accepting Qatari terms (B release, blockade lifted) NOT confirmed: OilPrice.com two unnamed sources; Israel Hayom carries the $8B. Rubio "outrageous" line NOT FOUND by WALTER, unverified. Oil vendor intraday 10:45 ET: BZF27 94.53 (-3.85%), CLZ26 88.03 (-3.08%), not settles. IRGC three-tanker claim: same claim made 10/29 and 11/3, date unverified. Houthis say 33 killed in Saudi strike: headline only. |
+| SIG-W-20261109-001 | PRIORITY | FALCON, HAWK | Trump to CNN 11/8: renewed strikes "highly unlikely" if a strong deal is signed (CNBC, Fox, Iran International). Iran accepting Qatari terms ($8B release, blockade lifted) NOT confirmed: OilPrice.com two unnamed sources; Israel Hayom carries the $8B. Rubio "outrageous" line NOT FOUND by WALTER, unverified. Oil vendor intraday 10:45 ET: BZF27 94.53 (-3.85%), CLZ26 88.03 (-3.08%), not settles. IRGC three-tanker claim: same claim made 10/29 and 11/3, date unverified. Houthis say 33 killed in Saudi strike: headline only. |
 | SIG-W-20261109-002 | ROUTINE | VULCAN | Headline-only: Anthropic $3.4bn gas-power deal for data centres; $500M data-centre loan seller; Broadcom $43B guarantee. |
 | SIG-W-20261109-003 | ROUTINE | CYPHER | Claims card: Vanguard SSNs, Delta Dental of Missouri, Chainstack; law-firm posts only. |
 
