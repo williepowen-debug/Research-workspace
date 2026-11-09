@@ -2,7 +2,7 @@
 
 ## Current assessment
 
-**November 5 session closed for a fresh window.** All requested sweep, planning and AEOLUS/CREED/PFBC advice delivered. The subsequent WQ-607 A approval supersedes draft-only descriptions: CATO is authorized to challenge PROME’s after-close research brief by packet when delivered. Exact scope and surviving owner responsibilities are in the final closeout section. No new review/implementation or owner work started at closeout; next orient and recover changed evidence only.
+**November 9: WQ-607 bounded challenge completed; packet prepared for PROME.** Four corrections below distinguish unconfirmed transmission from absence, preserve consumer/bank caveats, qualify the oil comparison, and prevent reuse of historical trade eligibility. PROME owns correction and acknowledgment; no source/calculation audit or current-market recommendation was performed. Other assignments and approvals retain their prior scope.
 
 Earlier dated assessments below retain their historical evidence and verification limits; use their subsequent dispositions rather than stale pending claims.
 
@@ -375,3 +375,46 @@ Forecast pilot remains 44/120 minutes, resume only on Will's direction. Decision
 Only continuity and this continuing report changed for the handoff. Initial foreign working/staged paths were preserved; at closeout only unrelated untracked `hi.html` remained before these edits. Git metadata was sandbox read-only; approved escalated `git pull --rebase` returned already up to date. Ignored Decisions reply exports were neither staged nor touched. Check results and publication receipt follow.
 
 Closeout checks: all 10 distinct intended inputs existed and were readable. Weekday PASS on `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, `AGENTS/CATO/CONTINUITY.md` and this report. Read-cap PASS on `AGENTS/CATO/AGENTS.md`, `AGENTS/CATO/CHARTER.md`, `AGENTS/CATO/CONTINUITY.md`, `CLAUDE.md`, `USER.md`, `AGENTS.md` (all six below cap). Scoped whitespace clean. Orphan advisory identified only unrelated `hi.html`, preserved and flagged to Will in the closeout receipt. No self-authored cross-directory packet or auto-memory residue; ledger, memory and consumer-check conditions absent. Exact two-file commit and fresh-fetch push receipt delivered in chat; no further record edit solely for its hash.
+
+
+## November 9 — WQ-607 bounded overstatement challenge
+
+Will directed continuation in this CATO session: “oh then yes do that now”. Approval remains WQ-607 A, November 5 11:03 ET; packet delivery to PROME is expressly authorized. Review began at shared HEAD `7fb32e951aaa7d405722977642e95d230a6f25e7`; brief last changed at `2dd1b63492`. Reviewed `PROME/reports/2026-11-05_WQ607-research-brief.md`, stamped November 5 16:05 ET. This is an independent synthesis challenge, not independent verification of the underlying financial figures. No external source/calculation audit, market refresh, owner edits, launches, or trading recommendation. Other desks have active working and staged changes; preserve them.
+
+**Assessment:** the brief answers all four requested subjects and gives a useful dated map of evidence and triggers. Its cautious refusal to infer forced selling or change gates is supported by the cited owner returns. But the opening reassurance exceeds its coverage. Correct the wording; this review does not establish the opposite thesis or justify a trade.
+
+### C607-1 — material: no broad confirmation is not no credit transmission
+
+Brief opening: “has not reached credit or funding on anything measured so far”; section 1: “In credit and funding, not on what is published.” Its own HY and funding-rate observations predate the selloff, and it reports Oracle borrowing spreads already substantially wider. VULCAN's November 5 owner packet (`PROME/inbox/processed/2026-11-05_from-VULCAN_ai-chip-selling-owner-read-and-rows.md`, Figures that travel) reports issuer spreads wider and makes no causal claim. The brief correctly says the issuer deterioration predates today; that distinction must also reach the opening. Broad equity declines establish breadth, not AI selling as the cause.
+
+**Correction:** “Selling was broad across equities. Same-day broad credit/funding transmission was not confirmed by the available observations; key rate/spread releases lagged. AI issuer borrowing costs had already deteriorated, with no established causal link to today's tape.” Keep the $0 repo caveat. PROME closes by correcting the brief or its explicitly linked current successor, preserving both time horizons.
+
+### C607-2 — material: concentrated evidence does not establish containment
+
+“Credit and consumer evidence shows concentrated weakness, not broadening” and “Flagstar's jump mostly noise” omit decision-relevant limits. CARL's `2026-11-05_from-CARL_card-reports-thesis-and-test.md` explicitly says one quarter cannot separate “first” from “only”; Citi is unread, and crude default-dollar ratios at JPMorgan/AmEx also rose (not comparable true default rates). REGINALD's `2026-11-05_from-REGINALD_FLG-late-loan-review.md` says the jump is mostly noise **but underlying stress is real**, with 90+ accruing multifamily balances $32M → $51M → $107M in 2026 and causes unresolved before the filing. Those are owner-reported figures, not CATO-recomputed values.
+
+**Correction:** “Observed weakness remains concentrated; broadening is not established and coverage cannot rule it out. Flagstar's shorter-delinquency rebound is not a new high, but longer delinquency worsened and underlying stress persists.” PROME closes by preserving these caveats in the conclusion; no new study or desk task required.
+
+### C607-3 — material: oil attribution and the physical/paper comparison overreach
+
+Opening “Oil fell on hopes, not on a measured physical change” asserts a cause more firmly than section 3's reported attribution. Section 3 compares Dated Brent November 3 with January futures November 4 to conclude physical and paper “still disagree”. Different dates and delivery bases do not establish a contemporaneous dislocation; the text provides no aligned comparison or normal-basis benchmark.
+
+**Correction:** “The November 4 futures fall was attributed in reporting to deal hopes; physical recovery and the causal explanation remain unverified. The older physical assessment is context, not a measured same-time divergence.” The physical question remains unresolved. A later BRENT packet (`2026-11-05_from-BRENT_yanbu-qatar-grades-predictions-themes.md`, 18:38 ET) reports a November 5 rebound and unresolved Gulf flows; it postdates the brief and is a reuse limit, not evidence of what PROME knew at 16:05. PROME closes by qualifying the causal/basis claims, or supplying aligned evidence if it wants to retain them.
+
+### C607-4 — material reuse limit: historical eligibility and book are not current
+
+Section 4's UNG eligibility, 63% cash, and November 6 “next observations” are November 5 claims. TERRY's `2026-11-05_from-TERRY_selloff-construction-read.md` dates the portfolio capture and marks later changes POSITION_STATE_UNKNOWN. Its later `2026-11-05_from-TERRY_closeout-and-close-correction.md` corrects the UNG completed-day color to flat, explicitly preserving the earlier red order-time read and the live gate. This does **not** falsify intraday eligibility; it demonstrates why a live-through date is not continuing execution eligibility. No current card or broker state was checked here.
+
+**Correction:** preserve the brief as historical. Any reuse for a current decision needs current owner gate/card evidence, prices and portfolio vintage; distinguish a trigger arming from all entry conditions being met. PROME owns any current synthesis, TERRY construction, Will execution. Closure for this challenge is an explicit dated-use limitation, not a new market-refresh assignment.
+
+### Proposed replacement opening
+
+“As of November 5 at 16:05 ET, selling was broad across equities, but its cause was unproved. Same-day broad credit/funding transmission was unconfirmed, with important releases lagging; AI issuer borrowing costs had already worsened. Consumer and bank weakness was concentrated in the observations reviewed, without enough evidence to exclude broadening. The November 4 oil decline was attributed to deal hopes, while physical recovery remained unresolved. These findings alone did not establish a reason to change the existing gates; trade eligibility and portfolio figures are dated snapshots.”
+
+### Reconciliation and handoff
+
+Availability and CATO assessment obligations are satisfied. Packet: `PROME/inbox/2026-11-09_from-CATO_WQ607-overstatement-challenge.md`. PROME owns disposition/correction of C607-1–4 and acknowledgment. No fresh CATO audit is owed; await owner response or Will. Earlier L835/L925 and bank findings retain their separate owners and limits; this challenge closes none of them.
+
+Independent pass completed before substantive contact. At 10:50 ET, supported host inventory found an idle interactive Claude PROME session, PID 1204, session `3856123e-cf9c-44d3-b4df-c688af25bf5a`; Codex list was partial and did not identify a matching loaded owner. Discovery covers visible processes/native Claude inventory, not every runtime. No verified cross-runtime send tool is exposed for this pair; no raw socket transport used. First substantive contact: none. Packet publication does not establish notification or recipient consumption; those remain unverified.
+
+Verification: all 11 distinct intended inputs existed and were readable. Weekday check passed on PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO/CONTINUITY.md, this report and the delivery packet. Read-cap passed on CATO/AGENTS.md, CATO/CHARTER.md, CATO/CONTINUITY.md, root CLAUDE.md, USER.md and AGENTS.md. Scoped whitespace clean. Orphan advisory identified the self-authored delivery packet (included in the exact commit set); other desks' changes and packets were preserved. No auto-memory, ledger or superseded financial figure was changed; those conditional checks do not apply. No new tests or checker. Publication receipt is delivered in chat; no extra commit solely to record its hash.
