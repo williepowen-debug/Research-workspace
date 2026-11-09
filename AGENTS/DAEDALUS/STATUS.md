@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-11-09 — WQ-654 implemented and independently accepted; PROME read-declaration handoff pending.**
+**Last Updated: 2026-11-09 — WQ-655 Phase 1 fleet view implemented; delivery checks in progress.**
 
 **Current judgment:** The separate twelve profile deltas and fourteen-proposal dispositions are complete, L889 reading-copy repair independently accepted, and HOMER now independently L4/H. Thirty map rows re-cut; thirty-seven live profile deltas preserve old whole vintages. This is bounded review completion, not fleet-wide clearance: WQ-654 retires the completed profile queue and re-bases the retained Harness detection clock; unimplemented tool/owner work and runtime review remain open. DAEDALUS L4/M retained, no L5 adjudication.
 
@@ -87,7 +87,7 @@
 
 ## BOTTOM LINE — 2026-11-09
 
-- **WORK:** WQ-654 five-item implementation independently accepted at exact hashes. Completed profile queue retired with its boot child removed; Production Review retains the instrument/refusal contract. A09 spec lines retained; narrowed Harness recurrence re-based to October 4. No whole-audit or L5 clearance.
-- **CHECKS:** Focused tests 3 + 17 + 12 and sweeps selftest 5 pass; original-code negative control fails 2 tests. Standalone profile CLI clean/alert/refusal observed. Closeout 20261109T155847Z rc 0, CLEAN 8/DUE 1 (ledger nudge), no BLOCKING/UNKNOWN. Cadence rc 0 does not certify profiles or model/provider-trigger review.
-- **DELIVERY:** Implementation 374700b439 and PROME packet 5655f52bab confirmed on origin; verify 20261109T160001Z rc 0. Evidence `runs/2026-11-09_WQ654_IMPLEMENTATION.md`. PROME READS application/consumption remains pending.
-- **OPEN:** PROME must reconcile read declarations after receipt. Provider-change Harness review remains unverified and outside this implementation; existing owner gaps and WQ-601 unit 4 remain. SHADE registry, SURFACES pointer, L816 review and optional blueprint suggestion remain unrelated pending intake.
+- **WORK:** WQ-655 Phase 1 generated read-only fleet view implemented; default exceptions and optional full roster from one collection. No canonical/boot changes. Stop after delivery for Will's review. WQ-654 remains delivered.
+- **CHECKS:** Ten behavioral tests PASS, including missing/malformed inputs, source preservation, concurrent changes, wrong-owner citations, scaffold inboxes and symlink output refusal. Independent recheck ACCEPTED. Closeout 20261109T201643Z rc0; existing ledger nudge DUE and own packet awaiting commit. No BLOCKING/UNKNOWN checks. See `runs/2026-11-09_WQ655_FLEET_VIEW.md`.
+- **DELIVERY:** Generator/tests and live `PROME/state/FLEET.md` prepared; publication and PROME consumption pending. Current native PROME channel unverified; durable packet is the return surface.
+- **OPEN:** Current fleet activity and semantic substance remain UNKNOWN beyond stated source coverage; no live-marker inference. Will reviews Phase 1 before expansion. Existing SHADE/SURFACES/L816 and owner conditions remain unrelated pending intake.

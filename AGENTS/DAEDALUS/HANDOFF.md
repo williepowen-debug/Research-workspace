@@ -1,3 +1,9 @@
+# Current continuation — WQ-655, November 9, 2026
+
+Will authorized the complete Phase 1 brief. Generator `scripts/fleet_view.py` produces `PROME/state/FLEET.md`; `--full` adds the roster from the same collection. Ten behavioral tests pass. Independent review caught and fixed foreign inbox rename detection, symlink output escape, and loose citation attribution; all fixes independently ACCEPTED, reviewer closed out. Closeout 20261109T201643Z rc0 with maintenance DUE; publication pending. Evidence: `runs/2026-11-09_WQ655_FLEET_VIEW.md`. Stop after delivery for Will's review; do not start NOW migration or unrelated inbox work. Prior WQ-654 delivery below remains valid. No new fleet rule, grade, cadence or boot requirement.
+
+---
+
 # Current continuation — November 9, 2026
 
 WQ-654 implemented on Will's “okay then go ahead”; independent result review ACCEPT, exact hashes recorded. `runs/2026-11-09_WQ654_IMPLEMENTATION.md` is the result record. Profile queue retired, checker moved into Production Review, A09 mandatory closure leg removed while spec lines remain, Harness 90-day detection clock October 4 (next January 2), provider switch explicitly triggers model review. Profile vintages and other clocks unchanged. Implementation 374700b439 and packet 5655f52bab confirmed on origin, verification 20261109T160001Z rc 0. PROME read declarations follow the committed receipt; no whole-audit/runtime clearance. Current provider-change review unverified; do not silently treat cadence rc0 as its completion. Three unrelated inbox items and prior owner conditions remain pending. Older continuation text below is historical where superseded by this opening and STATUS.
