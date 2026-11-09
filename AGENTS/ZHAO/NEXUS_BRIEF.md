@@ -1,9 +1,9 @@
 # ZHAO — NEXUS Brief
 
-**Status:** 🟠 **29/60 ELEVATED (11/06 close; +1 on Vector 5).** China's 11/10 clock is the only open export-control clock: **the US stay to 1/10 is in the published 11/9 Federal Register; MOFCOM 公告70 has no re-suspension at the 18:01 Beijing 11/08 read** (KB-242). Ship fees: no USTR final notice before the 11/9 23:59 ET end; last year's came 3 days late, so resumption is not implied (KB-243). Forecasts **ZHA-19 65% (grades 11/10) / ZHA-20 85%** (correlated). **PBOC main rate moved to overnight at 1.25% on 11/02; China 10Y 1.59%.** October activity fell back under 50.
+**Status:** 🟠 **29/60 ELEVATED (11/06 close; +1 on Vector 5).** ✅ **Every 11/10 clock was re-suspended on paper on 11/9:** MOFCOM+GAC 公告**2026**年第58号 continues the export-control package suspension 11/11 to 2027-01-10, scope identical to 公告70 (KB-246); BIS stay in the 11/9 FR to 1/10 (KB-242); USTR ships fees through 1/9 23:59 ET (KB-248); Hanwha countermeasures and China's port fees to ~1/10 (KB-247, 249). Forecasts **ZHA-19 65% / ZHA-20 85%** both look like hits, graded 11/10 and 11/11 as lookups. **PBOC main rate moved to overnight at 1.25% on 11/02; China 10Y 1.59%.** October activity fell back under 50.
 **Domain:** China macro → U.S. transmission — SAFE-reported Treasury-line selling (Belgium proxy falsified 8/21), PBOC/CNY, property·LGFV·fiscal, HK peg, trade war, Taiwan (econ), Korea contagion, India oil. Edges: **→LIQUID** (UST demand hole), **→SAM** (Korea/Asia flows), **→HAWK/BRENT** (energy), **→HENRY** (10Y/term premium), **→HANS** (Euroclear custody).
 **Thesis framing:** China-macro-transmission (no version stamp; no position — research/signal agent). **Pivot history 2026-07-04→08-21 (superseded figures) → `archive/NEXUS_BRIEF_PIVOT_HISTORY_20260919.md`; the `Status:` line above is canonical.**
-**As of:** **2026-11-08 12:09 ET (by `date`)** — L482/L858 instrument check a day early (PROME prome-bf, KB-242..245). No score moved; ZHA-20 held at 85% with a second adverse China-side input (KB-244). || STATUS commit: NONE (folded in the same commit as STATUS) || Prior as-of: 2026-11-06 18:34 ET.
+**As of:** **2026-11-09 12:14 ET (by `date`)** — PROME due-row wake (Will 12:07 ET): four 11/10 rows read at primaries, KB-246..250. No score moved. || STATUS commit: NONE (folded in the same commit as STATUS) || Prior as-of: 2026-11-08 12:09 ET.
 
 ---
 
@@ -28,7 +28,7 @@
 - **Conviction — China UST selling: MEDIUM, DECELERATING.** Three straight months of coupon selling, each about half the last (LT −15.8 / −7.7 / −4.8B). 6-month total net −$71.5B. Aug level fall overstates it: −$12.25B is non-transaction residual, cause UNKNOWN.
 - **Conviction — where the money went: LOW, said plainly.** Belgium proxy falsified (rho +0.067, n=43), Agency rotation refuted three times, entity-shifting untestable from TIC. Belgium is now **out of the thesis kill** (replaced by a China flow leg, KB-219).
 - **Conviction — China domestic demand: weak at home, booming abroad.** Exports +36.3% (Sep), PPI +5.0% (energy-led), RatingDog 52.0 (Oct); but construction new orders 40.0, CGB 1.59% on 11/06 (credit demand weak, funding cheaper). The deflation-export read is REFUTED at the aggregate.
-- **Uncertain about:** (1) whether either 11/10 clock gets an instrument (12 days); (2) what caused the Aug residuals; (3) whether HK carry pressure forces HKMA in; (4) leg F's hit rate in a real regime change (untested — the whole sample is a selling regime).
+- **Uncertain about:** (1) whether the 1/9 to 1/11/2027 cluster gets a third extension or a deal; (2) what caused the Aug residuals; (3) whether HK carry pressure forces HKMA in; (4) leg F's hit rate in a real regime change (untested — the whole sample is a selling regime).
 - **Failure patterns to mind:** my own instruments have been one-directional or untested more than once (Belgium proxy, Agency rotation, V6/V9). **Assume an un-base-rated gauge is blind until measured.** And a quiet desk is not a quiet domain: the dark spell went unflagged because recurring releases had dropped off my calendar (fixed 10/29).
 - **RED counter-frame:** BENIGN-DRIFT — the fall is valuation plus reserve management, not strategic exit. **Strengthened again:** the PBOC is buying dollars to slow appreciation, gold is +23 t/month, reserves are stable. I do not hide that.
 
@@ -46,7 +46,7 @@
 |----|--------|----------|-----------------------|
 | **LIQUID** | HK peg at the 7.85 weak edge, HIBOR-SOFR YELLOW, no HKMA yet · Q3 China+Korea selling −$21.6B through Aug (needs ≈ −$28B in Sep for the >$50B route) | 🟡 | peg-defence drain → HKD liquidity; UST demand hole |
 | **HENRY** | PBOC holding the yuan BACK (fix +0.68% weaker than market, 20-fix mean 11/06) · PBOC main rate 1.25% overnight since 11/02 · CGB 1.59% (11/06) = weak credit demand, not haven · China-US 10Y gap ~327bp, directional only | 🟡 | term premium; risk-off read must not lean on the yuan |
-| **VULCAN · WATT · HAWK** | Both 11/10 clocks still have no instrument; ZHA-19 65% / ZHA-20 70%; 公告58 battery leg keys on the MOFCOM instrument | 🔴 | export-perimeter widening on 11/10 by default |
+| **VULCAN · WATT · HAWK** | All 11/10 clocks re-suspended 11/9 to ~1/10 (KB-246..249); WATT T1 re-dates to 1/10, does not open 11/11. ⚠️ 2026年第58号 ≠ 2025年第58号 | 🟠 | perimeter widening deferred to the 1/9-1/11 cluster |
 | **HANS** | Belgium removed from ZHAO's thesis kill (rho +0.067); FYI level only | 🟢 | hub tables citing the ZHAO kill-leg are stale |
 | **MIDAS** | PBOC gold +0.74 Moz ≈ 23 t in Sep (largest since Sep-2023) | 🟡 | WQ-451 L3-SAFE leg |
 
@@ -62,8 +62,8 @@
 
 ## NEXT DECISION POINT
 
-- **What:** **Mon 11/9 L482 re-check → 11/10 ZHA-19 grade → 11/11 ZHA-20 read (WATT T1 opens here on branch B)** → 11/18 September TIC (ZHA-22; Q3 anchor total needs ≈ −$28B more for the >$50B route) → 11/30 Nov PMI (ZHA-23).
-- **What would change my view:** a **MOFCOM 公告** re-suspending 公告70 ⇒ that clock re-dates. ⛔ Statements re-date nothing. **HKMA market activity < 0** ⇒ the peg channel wakes (V7 rescore, LIQUID, ZHA-25).
+- **What:** **11/10 ZHA-19 lookup → 11/11 ZHA-20 lookup (公告2026年第58号)** → 11/18 September TIC (ZHA-22; Q3 anchor total needs ≈ −$28B more for the >$50B route) → 11/30 Nov PMI (ZHA-23).
+- **What would change my view:** a MOFCOM 公告 withdrawing or changing 公告2026年第58号, or a deal text before the 1/10 cluster. ⛔ Statements re-date nothing. **HKMA market activity < 0** ⇒ the peg channel wakes (V7 rescore, LIQUID, ZHA-25).
 - **Standing kill-lines (re-specified 10/29, KB-219):** thesis killed only when **F** China 6-month TIC net ≥ +$2B on 2 consecutive releases (now −$71.5B) AND **L** China >$700B ×3 consecutive (now $590.7B) AND **S** fiscal >5% GDP with LGFV backstop. Noise tripwire: China >$680B ×2.
 
 ---
@@ -73,8 +73,8 @@
 | Date | Event | Threshold / Signal |
 |------|-------|--------------------|
 | Sat Nov 7 | SAFE Oct reserves + PBOC gold | fall beyond valuation = intervention; gold ≥10 t (MIDAS WQ-451) |
-| 🟠 Mon Nov 9 | USTR s.301 ships suspension ends 23:59 ET; FR publishes the BIS stay | ZHA-19 grades on the 11/10 record (65%) |
-| 🔴 Tue Nov 10 | **MOFCOM 公告70 reads to this date** | no 公告 by 23:59 Beijing ⇒ first-use regime, WATT T1; ZHA-20 (85%) |
+| ✅ Mon Nov 9 | All four 11/10 clocks re-suspended (BIS, MOFCOM, USTR ships, MoT, Hanwha) | KB-246..249 |
+| 🟠 Tue–Wed Nov 10–11 | ZHA-19 / ZHA-20 lookups | YES branches appear satisfied |
 | ~Nov 7–16 | Oct trade, CPI/PPI, credit, activity data | property investment vs the 10/9 V5 cut |
 | 🔴 Wed Nov 18 | **September TIC** (Treasury-confirmed) | China Q3 net ≤ −$50B ⇒ LIQUID+PROME; Aug residual revision? |
 | Fri Nov 27 | MOFCOM 公告2024年第46号 clause 2 ends | content UNVERIFIED (B2) |

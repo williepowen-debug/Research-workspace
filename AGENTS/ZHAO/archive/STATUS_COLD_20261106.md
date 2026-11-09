@@ -74,3 +74,36 @@ Moved VERBATIM from STATUS.md at the 11/06 rewrite (READ-CAP rule 5: rotate-tier
 ## ⓗ November-window paragraph (moved verbatim from STATUS CALENDAR, 2026-11-06 16:49 ET). Its US leg was overtaken by FR 2026-22793
 
 > 🔴 **THE NOVEMBER WINDOW — TWO LIVE CLOCKS ON 11/10 + ONE ON 11/27 (corrected 9/25).** **Tue 11/10 US:** BIS Affiliates Rule reimposed effective (≥50% aggregate ownership, zero new listings). **Tue 11/10 CHINA:** 公告70 expires — six announcements incl. **Li-battery/LFP cathode/graphite anode (公告58) — WATT's triggered channel keys on the MOFCOM instrument, not the date** (`reports/2026-09-25_WATT_TRIGGER_WORDING_gonggao58.md`). **Fri 11/27 CHINA:** 公告2024年第46号 clause 2 (B2). ⛔ ~~US IEEPA reciprocal lapse~~ **VOID since 2/24/2026.** Full verbatim prior → COLD_20260925 §ⓒ.
+
+
+## ⓘ 11/08 header, 11/10 cluster, resume notes and bottom-line opener (moved verbatim from STATUS 2026-11-09 12:14 ET). Overtaken by the 11/9 re-suspensions, KB-246 to 249
+
+**Updated:** 2026-11-08 12:09 ET (by `date`) — **L482 and L858 instrument checks run a day early (PROME prome-bf, Will's word), KB-242..245.** Only the 11/10 cluster, resume notes, calendar and bottom line changed; every other cell is as of the 11/06 close. Prior: 2026-11-06 17:47 ET.
+📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① **China's 11/10 clock is the only export-control clock still open.** The US stay is now in the published 11/9 Federal Register (KB-242). MOFCOM has nothing as of 18:01 Beijing 11/08; **ZHA-20 85%**, with two adverse inputs since the mark: the US call (KB-240) and MOFCOM's 11/07 complaint that the US is "departing from the heads-of-state consensus" (KB-244). The ships suspension has no US final notice and cannot get one in the FR before it ends 11/9 23:59 ET; last year's came 3 days late, so that does not mean fees resume (KB-243). ② **🔴 The PBOC moved its main policy rate to overnight at 1.25% on 11/02, and this desk missed it for 4 days (KB-238).** ZHA-24 withdrawn on Will's word, ZHA-26 replaces it (KB-241). ③ **China 10Y 1.59%, through the 1.60 Orange line** (KB-239). ④ **October activity fell back under 50:** mfg 49.3, composite 49.7, construction new orders 40.0 ⇒ **V5 4→5, total 29** (KB-227). ⑤ **NPCSC closed with no fiscal figure,** ZHA-21 NO (KB-224). ⑥ China's security review prohibited SoftBank's ABB Robotics deal in China, the China business only (KB-228, 236). ⑦ HK off the weak edge (7.84), no HKMA activity, spread −135.9bp YELLOW.
+
+## 📌 **THE 11/10 CLUSTER: THREE SEPARATE CLOCKS (read 11/08 12:01-12:07 ET)**
+
+| Clock | Instrument | Reads 11/08 | Status |
+|---|---|---|---|
+| US perimeter (L435) | BIS Affiliates Rule stay | **Published** in the 11/9 FR issue, 91 FR 70789-70790, text unchanged from public inspection: "further stayed until January 10, 2027". Branch C did not occur | 🟢 PAPER PUBLISHED; ZHA-19 grades 11/10, not re-marked (KB-242) |
+| China perimeter (L437) | MOFCOM/GAC 公告2025年第70号 | 至2026年11月10日. No re-suspension on the live list (MakeTime 18:01 Beijing 11/08); newest still 第56, 57号. GAC unread (HTTP 412) | 🔴 LIVE; ZHA-20 85% (KB-242, 244) |
+| US s.301 ships (L858) | USTR proposal FR 2026-21755 to 1/9 | Suspension ends 11/9 23:59 ET. **No final notice published or on public inspection; the complete 11/9 issue has none, so FR publication before the end is no longer possible.** ⚠️ 2025 precedent: final published 11/13 for a suspension effective 11/10, so fees resuming does not follow from FR timing | 🟠 OPEN until USTR acts (KB-243) |
+| China ships mirror | MoT 公告2025年第60号 · MOFCOM 令2025年第7号 (Hanwha) | Both 1 year from 2025-11-10, keyed on the US suspension. No re-suspension seen (MoT home page only) | 🟠 follows the US act (KB-243) |
+| ~~US tariff~~ | ~~EO 14358 §2~~ | — | ⛔ **VOID since 2026-02-24** (KB-183) |
+| China (separate) | 公告2024年第46号 clause 2 | 11/27 | 🟠 B2, content UNVERIFIED (KB-185) |
+
+⚠️ **MOFCOM list: read `mofcom.gov.cn/zwgk/zcfb` via the unit API WITH `parseType=bulidstatic`. Without it the API answers 200 with an EMPTY list, which is a bad request, not "nothing filed" (KB-237). `/zcfb/index.html` froze at 10/26**, so 11/02's "newest is 第52号" could not see later rows (KB-221 corrected, no conclusion changed). Run book, branch table, WATT T1/T2 state: `reports/2026-11-06_PREP_11-10-clocks.md`. ⛔ DO-NOT-MERGE: the US stay is not evidence China extended. Next: ZHA-19 grade and the ships outcome on 11/10, the Beijing read for ZHA-20 at 11/10 to 11/11.
+
+---
+
+## ▶️ RESUME NOTES (2026-11-08 12:09 ET, prome-bf instrument check)
+
+No job running. **Clocks last read 12:01-12:07 ET 11/08; re-read before citing.** Unpublished at the 11/06 read, not re-read today: SAFE Oct reserves and gold, GACC Oct trade.
+- **L482 done a day early (KB-242):** no new document matching the 1/10 extension. BIS stay published 11/9. MOFCOM 公告70 armed. WATT T1 and T2 unfired.
+- **L858 (KB-243):** no USTR final in the FR before 11/9 23:59 ET is now certain; the consequence is not. **Owed 11/10:** read USTR (press releases, public inspection for 11/10 and 11/12 issues) for the determination, and MoT/MOFCOM for China's matching notices.
+- **Tue 11/10:** grade ZHA-19 on the 11/10 record. **Wed 11/11:** read ZHA-20 at the Beijing 11/10 close, send WATT its notice the same session on either branch. Run book: `reports/2026-11-06_PREP_11-10-clocks.md`.
+- **Needs Will's word, not a peer's:** two `CLAUDE.md` lines, the WQ-622 line and NEXUS's B24 change at `CLAUDE.md:37`, within 290 B of cap room. The NEXUS packet is filed to `processed/` (KB-245); the ask lives in NEXT ACTIONS 9. DAEDALUS gets the applied commit after.
+
+---
+
+**NOV 8 NOON CHECK — nothing new is on paper.** The US export-control hold is now in Monday's printed Federal Register, unchanged. China's Commerce Ministry still has no notice extending its own hold, and on Saturday it complained that the US is walking away from the leaders' deal; I log that against my 85% but do not move it. The ships deal has no final US notice and cannot get one in the Federal Register before it lapses at midnight Monday, but last year's notice came three days after the fact, so that alone does not mean the fees come back. Tuesday decides it.

@@ -1,36 +1,36 @@
 # ZHAO STATUS
 
-**Updated:** 2026-11-08 12:09 ET (by `date`) — **L482 and L858 instrument checks run a day early (PROME prome-bf, Will's word), KB-242..245.** Only the 11/10 cluster, resume notes, calendar and bottom line changed; every other cell is as of the 11/06 close. Prior: 2026-11-06 17:47 ET.
-📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① **China's 11/10 clock is the only export-control clock still open.** The US stay is now in the published 11/9 Federal Register (KB-242). MOFCOM has nothing as of 18:01 Beijing 11/08; **ZHA-20 85%**, with two adverse inputs since the mark: the US call (KB-240) and MOFCOM's 11/07 complaint that the US is "departing from the heads-of-state consensus" (KB-244). The ships suspension has no US final notice and cannot get one in the FR before it ends 11/9 23:59 ET; last year's came 3 days late, so that does not mean fees resume (KB-243). ② **🔴 The PBOC moved its main policy rate to overnight at 1.25% on 11/02, and this desk missed it for 4 days (KB-238).** ZHA-24 withdrawn on Will's word, ZHA-26 replaces it (KB-241). ③ **China 10Y 1.59%, through the 1.60 Orange line** (KB-239). ④ **October activity fell back under 50:** mfg 49.3, composite 49.7, construction new orders 40.0 ⇒ **V5 4→5, total 29** (KB-227). ⑤ **NPCSC closed with no fiscal figure,** ZHA-21 NO (KB-224). ⑥ China's security review prohibited SoftBank's ABB Robotics deal in China, the China business only (KB-228, 236). ⑦ HK off the weak edge (7.84), no HKMA activity, spread −135.9bp YELLOW.
+**Updated:** 2026-11-09 12:14 ET (by `date`) — **PROME due-row wake (Will 12:07 ET): the four 11/10 clocks read at their sources, KB-246..250.** Only the header, the 11/10 cluster, resume notes, calendar, predictions line and bottom line changed; every other cell is as of the 11/06 close. Prior: 2026-11-08 12:09 ET.
+📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① ✅ **Both governments filed paper on 11/9: every 11/10 clock is re-suspended to about 1/10/2027.** China: MOFCOM+GAC 公告2026年第58号 continues the export-control package suspension 11/11 to 1/10 (KB-246); Hanwha countermeasures 2 more months (KB-247); MoT port fees to 1/10 (KB-249, secondaries). US: BIS stay in the 11/9 FR (KB-242); USTR ships fees suspended through 1/9 23:59 ET (KB-248). ZHA-19 and ZHA-20 grade 11/10 and 11/11 as lookups. **Next cliff: the 1/9 to 1/11 cluster, four separate texts.** ② **🔴 The PBOC moved its main policy rate to overnight at 1.25% on 11/02, and this desk missed it for 4 days (KB-238).** ZHA-26 replaces ZHA-24 (KB-241). ③ **China 10Y 1.59%, through the 1.60 Orange line** (KB-239). ④ **October activity under 50:** mfg 49.3, construction new orders 40.0 ⇒ **V5 4→5, total 29** (KB-227). ⑤ NPCSC no fiscal figure, ZHA-21 NO (KB-224). ⑥ HK off the weak edge (7.84), spread −135.9bp YELLOW. ⑦ Tomorrow: China Oct CPI/PPI (~), 11/27 公告2024年第46号 clause 2 still open.
 🧊 **Header lines + bottom lines through 11/02 moved VERBATIM → `archive/STATUS_COLD_20261106.md` §ⓐ–ⓖ** (earlier → `…_20261029.md`, `…_20261022.md`).
 **Overall Status:** 🟠 ELEVATED — **29/60** (+1 on 11/06, V5; two-sided shadow 32). **August TIC: China $590.7B; LT −$4.8B, a third month of selling at half the prior pace; 6-month net −$71.5B.** Thesis kill re-specified 10/29 (Belgium leg retired → China flow leg F). Proxy falsified (rho +0.067, n=43); rotation refuted three times.
 
-> 🧊 **READ-CAP rotations (verbatim moves, nothing deleted):** #1 `archive/STATUS_COLD_20260902.md` · #2 `…_20260917.md` · #3 `…_20260918.md` (§①–㉚) · **#4 `…_20260918b.md` (§ⓐ–ⓚ)**. · **#7 `…_20260925.md` (§ⓐ–ⓖ)** · **#8 `…_20261016.md` (§ⓐ–ⓒ)** · **#9 `…_20261106.md` (§ⓐ–ⓖ)**
+> 🧊 **READ-CAP rotations (verbatim moves, nothing deleted):** #1 `archive/STATUS_COLD_20260902.md` · #2 `…_20260917.md` · #3 `…_20260918.md` (§①–㉚) · **#4 `…_20260918b.md` (§ⓐ–ⓚ)**. · **#7 `…_20260925.md` (§ⓐ–ⓖ)** · **#8 `…_20261016.md` (§ⓐ–ⓒ)** · **#9 `…_20261106.md` (§ⓐ–ⓘ)**
 
 ---
 
-## 📌 **THE 11/10 CLUSTER: THREE SEPARATE CLOCKS (read 11/08 12:01-12:07 ET)**
+## 📌 **THE 11/10 CLUSTER: ALL RE-SUSPENDED ON 11/9 (read 11/9 12:09-12:12 ET)**
 
-| Clock | Instrument | Reads 11/08 | Status |
+| Clock | Instrument read | New end | Row / grade |
 |---|---|---|---|
-| US perimeter (L435) | BIS Affiliates Rule stay | **Published** in the 11/9 FR issue, 91 FR 70789-70790, text unchanged from public inspection: "further stayed until January 10, 2027". Branch C did not occur | 🟢 PAPER PUBLISHED; ZHA-19 grades 11/10, not re-marked (KB-242) |
-| China perimeter (L437) | MOFCOM/GAC 公告2025年第70号 | 至2026年11月10日. No re-suspension on the live list (MakeTime 18:01 Beijing 11/08); newest still 第56, 57号. GAC unread (HTTP 412) | 🔴 LIVE; ZHA-20 85% (KB-242, 244) |
-| US s.301 ships (L858) | USTR proposal FR 2026-21755 to 1/9 | Suspension ends 11/9 23:59 ET. **No final notice published or on public inspection; the complete 11/9 issue has none, so FR publication before the end is no longer possible.** ⚠️ 2025 precedent: final published 11/13 for a suspension effective 11/10, so fees resuming does not follow from FR timing | 🟠 OPEN until USTR acts (KB-243) |
-| China ships mirror | MoT 公告2025年第60号 · MOFCOM 令2025年第7号 (Hanwha) | Both 1 year from 2025-11-10, keyed on the US suspension. No re-suspension seen (MoT home page only) | 🟠 follows the US act (KB-243) |
-| ~~US tariff~~ | ~~EO 14358 §2~~ | — | ⛔ **VOID since 2026-02-24** (KB-183) |
-| China (separate) | 公告2024年第46号 clause 2 | 11/27 | 🟠 B2, content UNVERIFIED (KB-185) |
+| US perimeter | BIS stay FR 2026-22793, 91 FR 70789, published 11/9 (KB-242) | "until January 10, 2027" | L435 · ZHA-19 lookup 11/10 → YES |
+| China perimeter | **商务部、海关总署公告2026年第58号**, 11/9 16:00 Beijing: 2025 Nos. 55-58, 61, 62 继续暂停实施 自11/11起至2027-01-10. Scope = 公告70's word for word (KB-246) | 至2027-01-10 | L437 · ZHA-20 lookup 11/11 → YES |
+| US s.301 ships | **USTR FR 2026-22867**, PI 11/9 08:45 ET, pub 11/10, effective 11/9 (KB-248) | through 11:59 p.m. ET 2027-01-09 | L858 · fees do NOT resume; FR-before-deadline leg NO by letter |
+| China ships mirror | MoT notice 11/9: 2025 Nos. 54, 55 + 交办水〔2025〕59号 continued (KB-249, B2, primary unread) | 至2027-01-10 | — |
+| Hanwha | **商务部令2026年第4号**: 令2025年第6号 measures suspended 2 more months from 11/10 Beijing (KB-247) | ~2027-01-10 | L1088 · RE-SUSPENDED |
+| China (separate) | 公告2024年第46号 clause 2 | 11/27 | 🟠 B2, not addressed 11/9 (L483) |
 
-⚠️ **MOFCOM list: read `mofcom.gov.cn/zwgk/zcfb` via the unit API WITH `parseType=bulidstatic`. Without it the API answers 200 with an EMPTY list, which is a bad request, not "nothing filed" (KB-237). `/zcfb/index.html` froze at 10/26**, so 11/02's "newest is 第52号" could not see later rows (KB-221 corrected, no conclusion changed). Run book, branch table, WATT T1/T2 state: `reports/2026-11-06_PREP_11-10-clocks.md`. ⛔ DO-NOT-MERGE: the US stay is not evidence China extended. Next: ZHA-19 grade and the ships outcome on 11/10, the Beijing read for ZHA-20 at 11/10 to 11/11.
+⚠️ **2026年第58号 (the suspension) ≠ 2025年第58号 (the battery package). Always write the year.** ⛔ DO-NOT-MERGE carries forward: four texts, four wordings ("until 1/10", "through 1/9 23:59 ET", 至1/10, "2 months"). MOFCOM list read: unit API WITH `parseType=bulidstatic` (count 2,358). Successor rows in `docket/CATALYSTS.tsv` at 2027-01-09 and 2027-01-10. WATT T1 re-dates to 1/10 by its own clause and does not open 11/11.
 
 ---
 
-## ▶️ RESUME NOTES (2026-11-08 12:09 ET, prome-bf instrument check)
+## ▶️ RESUME NOTES (2026-11-09 12:14 ET, PROME due-row wake)
 
-No job running. **Clocks last read 12:01-12:07 ET 11/08; re-read before citing.** Unpublished at the 11/06 read, not re-read today: SAFE Oct reserves and gold, GACC Oct trade.
-- **L482 done a day early (KB-242):** no new document matching the 1/10 extension. BIS stay published 11/9. MOFCOM 公告70 armed. WATT T1 and T2 unfired.
-- **L858 (KB-243):** no USTR final in the FR before 11/9 23:59 ET is now certain; the consequence is not. **Owed 11/10:** read USTR (press releases, public inspection for 11/10 and 11/12 issues) for the determination, and MoT/MOFCOM for China's matching notices.
-- **Tue 11/10:** grade ZHA-19 on the 11/10 record. **Wed 11/11:** read ZHA-20 at the Beijing 11/10 close, send WATT its notice the same session on either branch. Run book: `reports/2026-11-06_PREP_11-10-clocks.md`.
-- **Needs Will's word, not a peer's:** two `CLAUDE.md` lines, the WQ-622 line and NEXUS's B24 change at `CLAUDE.md:37`, within 290 B of cap room. The NEXUS packet is filed to `processed/` (KB-245); the ask lives in NEXT ACTIONS 9. DAEDALUS gets the applied commit after.
+No job running. Session stays open until PROME asks for closeout.
+- **Tue 11/10 lookups:** ZHA-19 (confirm federalregister.gov/d/2026-22793) · L858 (FR 2026-22867 published) · L1088 (令2026年第4号 still up) · L435 re-date to 1/10.
+- **Wed 11/11 (after 11/10 23:59 Beijing):** ZHA-20 — confirm 公告2026年第58号 still up and unwithdrawn, then YES at 85%. Packet WATT on the T1 re-date.
+- Unpublished at the 11/06 read, not re-read: SAFE Oct reserves and gold, GACC Oct trade.
+- **Needs Will's word, not a peer's:** WQ-622 charter line and NEXUS's B24 change at `CLAUDE.md:37` (NEXT ACTIONS 9).
 
 ---
 
@@ -132,15 +132,15 @@ No job running. **Clocks last read 12:01-12:07 ET 11/08; re-read before citing.*
 | Date | Event | P |
 |------|-------|---|
 | Sat Nov 7 · ~Nov 7–9 | SAFE Oct reserves/gold · GACC Oct trade (copper, coal, crude volumes). Neither out at the 11/06 close read | 🟠 |
-| Mon Nov 9 | ✅ L482 run 11/08 (KB-242, 243). USTR ships suspension ends 23:59 ET; no final notice | 🔴 |
-| Tue Nov 10 | **MOFCOM 公告70 reads to this date.** ZHA-19 grades on the 11/10 record · USTR ships determination and China's mirrors · Oct CPI/PPI (~) | 🔴 |
-| Wed Nov 11 | ZHA-20 read (Beijing 11/10 close); WATT T1 opens here on branch B | 🔴 |
+| Mon Nov 9 | ✅ All four 11/10 clocks re-suspended on paper (KB-246..249) | ✅ |
+| Tue Nov 10 | ZHA-19, L858, L1088 lookups · Oct CPI/PPI (~) | 🟠 |
+| Wed Nov 11 | ZHA-20 lookup (公告2026年第58号); WATT T1 re-dated to 1/10 | 🟠 |
 | Fri Nov 27 | MOFCOM 公告2024年第46号 clause 2 (B2) · then ZHA-23 Mon Nov 30, ZHA-25/26 to 12/31 | 🟠 |
 | Wed Nov 18 | **September TIC** (Treasury-confirmed) — Q3 anchor total; Aug residual revision? | 🔴 |
 
 *(The old November-window paragraph, overtaken on its US leg by the 11/05 stay, moved VERBATIM → `archive/STATUS_COLD_20261106.md` §ⓗ. WATT's channel keys on the MOFCOM instrument, not the date.)*
 
-## PREDICTIONS (status Nov 6 close)
+## PREDICTIONS (status Nov 9 noon)
 
 *(**OPEN rows only** — resolved rows live in `workbook/PREDICTIONS.tsv`.)*
 
@@ -150,7 +150,7 @@ No job running. **Clocks last read 12:01-12:07 ET 11/08; re-read before citing.*
 | ZHA-06 / 07 / 10 | >250 banks consolidated · liquidity crunch forcing UST sales · petro-yuan >$5B | 72/70/40% | OPEN — none due inside 60d; see `PREDICTIONS.tsv` |
 | ⛔ ZHA-05 | Regional bank NPL >12% | 55% | **STUCK 10/29**: its 11.6% anchor was a segment figure, so the letter cannot discriminate (KB-220). Successor instrument `VX-6.15`; a new call waits for a base rate |
 | ✅ ZHA-16 | Xi–Trump summit produces branch A (instrument extending past 11/10) | 45% | **RESOLVED 9/30 — MISS (B via residual), Brier 0.2025** → `PREDICTIONS.tsv`, KB-190 |
-| 🆕 **ZHA-19 · 20** | US clock instrumented by 11/9 · MOFCOM 公告70 re-suspended by 11/10 | **65 / 85%** | OPEN — ZHA-19 instrument filed 11/05, grades 11/10, deliberately not re-marked; ZHA-20 re-marked 70→85 on 11/06, before the Friday call (KB-240), held under the refresh bound. Correlated |
+| 🆕 **ZHA-19 · 20** | US clock instrumented by 11/9 · MOFCOM 公告70 re-suspended by 11/10 | **65 / 85%** | OPEN — both YES branches appear satisfied (KB-242, KB-246); graded 11/10 and 11/11 as lookups, not re-marked. Correlated |
 | 🆕 **ZHA-22 · 23 · 26 · 25** | Sep TIC China LT <0 (11/18) · Nov NBS mfg <50.0 (11/30) · PBOC overnight rate cut from 1.25% by 12/31 · HKMA weak-side intervention by 12/31 | **60 / 68 / 12 / 18%** | OPEN — letters `reports/2026-11-06_PREREGISTRATION_ZHA-22-25.md`, `…_ZHA-26.md`. ZHA-24 closed **VOID (premise-mismatch)** on Will's WQ-647 A, no Brier (KB-241) |
 | ✅ **ZHA-21** | NPCSC fiscal figure | 12% | **RESOLVED 11/06 — NO, Brier 0.0144** (KB-224) |
 | ✅ **ZHA-18** | Aug TIC: China LT ≤ −$5.0B (third month) | 40% | **RESOLVED 10/16 — NO, branch B (−$4,828M), Brier 0.16.** $172M from the boundary ⇒ not banked as skill (letter §4). Narrative said 60%, base rate 3/9 said 33%; the base rate pointed the right way. → `PREDICTIONS.tsv`, KB-197 |
@@ -164,7 +164,7 @@ No job running. **Clocks last read 12:01-12:07 ET 11/08; re-read before citing.*
 
 **OWED — in priority order; full rationale per item → COLD_20260918b §ⓠ + §ⓝ.**
 
-2. 🔴 **L482 done 11/08 (KB-242). Grade ZHA-19 (11/10), read the ships determination (11/10, KB-243) and ZHA-20 (11/11)** per `reports/2026-11-06_PREP_11-10-clocks.md`. Blind spots: GAC (412), the MoT notices list (JavaScript only), 公告2025年第72号 primary, 公告 39/43/45/47 and 54/55/58.
+2. 🟠 **11/10 clocks all re-suspended 11/9 (KB-246..249). Owed: ZHA-19 lookup 11/10, ZHA-20 lookup 11/11, L858/L1088/L435 closes, WATT T1 re-date packet.** Next cluster 1/9 to 1/11/2027 (CATALYSTS successor rows). Blind spots: GAC (412), MoT primary (JavaScript; KB-249 is B2), 公告2025年第72号 primary, 11/27 clause 2.
 3. ✅ **DONE 10/16 — Aug TIC graded (ZHA-18 NO).** 🟠 **NEW: explain the −$12.25B China / +$19.85B Belgium holdings residuals** (Treasury note? ask LIQUID/HANS) · re-score question for Vector 1 · refresh `VX-1.04`/`VX-7.01` (not done 10/16).
 4. ✅ **DONE 10/29 — Vectors 6 & 9 two-directional** (`VX-2.10/2.11`, KB-219). Owed: CFETS 16:30 close as the primary market leg (yfinance has 91/922 stale closes); add the fix pull to boot.py.
 5. 🟠 **Primaries owed on the two NEW rows:** ChinaBond for `VX-2.08` (currently a secondary carrier) · **a single-source matched-basis figure for `VX-2.09`** — today's legs are mixed carriers/dates/conventions and **only the DIRECTION is quotable** (KB-171).
@@ -179,7 +179,7 @@ No job running. **Clocks last read 12:01-12:07 ET 11/08; re-read before citing.*
 
 ## BOTTOM LINE
 
-**NOV 8 NOON CHECK — nothing new is on paper.** The US export-control hold is now in Monday's printed Federal Register, unchanged. China's Commerce Ministry still has no notice extending its own hold, and on Saturday it complained that the US is walking away from the leaders' deal; I log that against my 85% but do not move it. The ships deal has no final US notice and cannot get one in the Federal Register before it lapses at midnight Monday, but last year's notice came three days after the fact, so that alone does not mean the fees come back. Tuesday decides it. **NOV 6 CLOSE, unchanged below — China's clock is the only one still running, money got cheaper, and I missed part of that.** The US has put its half of the truce on paper: Commerce keeps its wider export-control rule on hold until January 10. China has not matched it. Its own hold on rare-earth and battery export controls still ends on 11/10, and nothing was on the Commerce Ministry's list at 6:21 Saturday morning Beijing time. I still put 85% on China filing in time, but that number was set before Friday's call, where the US pressed China to carry out its rare-earth and farm-purchase commitments. The US account says nothing about 11/10, and I have not found China's account. The ships deal has a nearer gap: no US final notice is queued for the 11/9 or 11/10 Federal Register, though the suspension ends 11/9. **The correction: China's central bank switched its main policy rate to an overnight rate of 1.25% on November 2, and this desk still showed 1.40% until tonight.** One of today's new forecasts, ZHA-24, rested on the old rate. On your ruling I withdrew it and registered ZHA-26 on the 1.25% rate, at the same 12%. China's 10-year yield hit 1.59%, under my 1.60 warning line, which I read as cheap funding and weak credit, not a flight to safety. October's factory survey at 49.3 and construction orders at 40.0 already put the desk at 29 of 60, and that total did not move tonight. The PBOC is still holding the yuan back, so this is weak demand at home, not currency stress.
+**NOV 9 NOON — both capitals signed.** The 11/10 cliff did not happen. Overnight Beijing time China's Commerce Ministry and Customs extended their hold on the rare-earth and battery export controls to January 10, in the same words as last year's hold. Commerce also kept its countermeasures on Hanwha's US shipyards off for two more months. On the US side the export-control hold was already in the 11/9 Federal Register, and the US Trade Representative filed this morning to keep the China ship fees off through 11:59 p.m. January 9. China's Transport Ministry matched it on port fees to January 10, though I have that only from Chinese press quoting the text. So the risk has moved, not gone: about five separate holds now end within a day of each other around January 9 to 11. My two forecasts on these clocks look like hits and grade tomorrow and Wednesday as lookups. **NOV 6 CLOSE, unchanged below — China's clock is the only one still running, money got cheaper, and I missed part of that.** The US has put its half of the truce on paper: Commerce keeps its wider export-control rule on hold until January 10. China has not matched it. Its own hold on rare-earth and battery export controls still ends on 11/10, and nothing was on the Commerce Ministry's list at 6:21 Saturday morning Beijing time. I still put 85% on China filing in time, but that number was set before Friday's call, where the US pressed China to carry out its rare-earth and farm-purchase commitments. The US account says nothing about 11/10, and I have not found China's account. The ships deal has a nearer gap: no US final notice is queued for the 11/9 or 11/10 Federal Register, though the suspension ends 11/9. **The correction: China's central bank switched its main policy rate to an overnight rate of 1.25% on November 2, and this desk still showed 1.40% until tonight.** One of today's new forecasts, ZHA-24, rested on the old rate. On your ruling I withdrew it and registered ZHA-26 on the 1.25% rate, at the same 12%. China's 10-year yield hit 1.59%, under my 1.60 warning line, which I read as cheap funding and weak credit, not a flight to safety. October's factory survey at 49.3 and construction orders at 40.0 already put the desk at 29 of 60, and that total did not move tonight. The PBOC is still holding the yuan back, so this is weak demand at home, not currency stress.
 
 
 ---
