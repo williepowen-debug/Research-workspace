@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-11-09 — WQ-655 Phase 1 fleet view implemented; delivery checks in progress.**
+**Last Updated: 2026-11-09 — WQ-655 Phase 1 fleet view implemented; published; stopped for Will's Phase 1 review.**
 
 **Current judgment:** The separate twelve profile deltas and fourteen-proposal dispositions are complete, L889 reading-copy repair independently accepted, and HOMER now independently L4/H. Thirty map rows re-cut; thirty-seven live profile deltas preserve old whole vintages. This is bounded review completion, not fleet-wide clearance: WQ-654 retires the completed profile queue and re-bases the retained Harness detection clock; unimplemented tool/owner work and runtime review remain open. DAEDALUS L4/M retained, no L5 adjudication.
 
@@ -88,6 +88,6 @@
 ## BOTTOM LINE — 2026-11-09
 
 - **WORK:** WQ-655 Phase 1 generated read-only fleet view implemented; default exceptions and optional full roster from one collection. No canonical/boot changes. Stop after delivery for Will's review. WQ-654 remains delivered.
-- **CHECKS:** Ten behavioral tests PASS, including missing/malformed inputs, source preservation, concurrent changes, wrong-owner citations, scaffold inboxes and symlink output refusal. Independent recheck ACCEPTED. Closeout 20261109T201643Z rc0; existing ledger nudge DUE and own packet awaiting commit. No BLOCKING/UNKNOWN checks. See `runs/2026-11-09_WQ655_FLEET_VIEW.md`.
-- **DELIVERY:** Generator/tests and live `PROME/state/FLEET.md` prepared; publication and PROME consumption pending. Current native PROME channel unverified; durable packet is the return surface.
+- **CHECKS:** Ten behavioral tests PASS, including missing/malformed inputs, source preservation, concurrent changes, wrong-owner citations, scaffold inboxes and symlink output refusal. Independent recheck ACCEPTED. Closeout 20261109T201643Z rc0; existing ledger nudge DUE and own packet now committed. No BLOCKING/UNKNOWN checks. See `runs/2026-11-09_WQ655_FLEET_VIEW.md`.
+- **DELIVERY:** Implementation abd1d40fa9 published; verify 20261109T201756Z rc0. PROME consumption pending. Current native PROME channel unverified; durable packet is the return surface.
 - **OPEN:** Current fleet activity and semantic substance remain UNKNOWN beyond stated source coverage; no live-marker inference. Will reviews Phase 1 before expansion. Existing SHADE/SURFACES/L816 and owner conditions remain unrelated pending intake.

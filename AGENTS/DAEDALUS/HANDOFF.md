@@ -1,6 +1,6 @@
 # Current continuation — WQ-655, November 9, 2026
 
-Will authorized the complete Phase 1 brief. Generator `scripts/fleet_view.py` produces `PROME/state/FLEET.md`; `--full` adds the roster from the same collection. Ten behavioral tests pass. Independent review caught and fixed foreign inbox rename detection, symlink output escape, and loose citation attribution; all fixes independently ACCEPTED, reviewer closed out. Closeout 20261109T201643Z rc0 with maintenance DUE; publication pending. Evidence: `runs/2026-11-09_WQ655_FLEET_VIEW.md`. Stop after delivery for Will's review; do not start NOW migration or unrelated inbox work. Prior WQ-654 delivery below remains valid. No new fleet rule, grade, cadence or boot requirement.
+Will authorized the complete Phase 1 brief. Generator `scripts/fleet_view.py` produces `PROME/state/FLEET.md`; `--full` adds the roster from the same collection. Ten behavioral tests pass. Independent review caught and fixed foreign inbox rename detection, symlink output escape, and loose citation attribution; all fixes independently ACCEPTED, reviewer closed out. Closeout 20261109T201643Z rc0 with maintenance DUE; implementation abd1d40fa9 on origin, verify 20261109T201756Z rc0. PROME consumption unverified. Evidence: `runs/2026-11-09_WQ655_FLEET_VIEW.md`. Stop after delivery for Will's review; do not start NOW migration or unrelated inbox work. Prior WQ-654 delivery below remains valid. No new fleet rule, grade, cadence or boot requirement.
 
 ---
 
