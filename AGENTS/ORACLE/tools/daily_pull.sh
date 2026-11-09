@@ -11,6 +11,9 @@
 #
 # Idempotent: cron fires it several times a day; it exits silently if ODDS_LOG already holds a
 # row stamped on today's ET date (a session or an earlier slot already took the read).
+# Sync-first (2026-11-09): when the checkout holds no read for today, it fetches origin and, if
+# behind, pulls with --rebase, then checks again, so a read taken and pushed by the other box is seen; any doubt (fetch fails, behind + dirty tree,
+# pull fails) skips the slot without touching a tracked file.
 set -u
 ORC="$(cd "$(dirname "$0")/.." && pwd)"
 REPO="$(cd "$ORC/../.." && pwd)"
@@ -25,7 +28,9 @@ ET_DATE="$(TZ=America/New_York date +%F)"
 [ "$(TZ=America/New_York date +%u)" -ge 6 ] && exit 0   # weekend: no read to take
 
 # Already read today? (last ODDS_LOG row's UTC stamp converted to its ET date)
-LAST_ET="$("$PY" - "$ODDS" <<'PY'
+read_today() {
+  local last_et
+  last_et="$("$PY" - "$ODDS" <<'PY'
 import sys, datetime as dt
 from zoneinfo import ZoneInfo
 last = None
@@ -38,7 +43,35 @@ if last:
     print(t.astimezone(ZoneInfo("America/New_York")).date().isoformat())
 PY
 )"
-[ "$LAST_ET" = "$ET_DATE" ] && exit 0
+  [ "$last_et" = "$ET_DATE" ]
+}
+# This checkout already holds today's read: no read will be taken, so no sync is needed either
+# (keeps the four later slots from pulling, and rebasing other sessions' unpushed commits, daily).
+read_today && exit 0
+
+# Sync with GitHub BEFORE the read (PROME brief 2026-11-09, Will "go" 10:41 ET), then re-check.
+# A box whose checkout is behind origin read anyway and committed onto stale history (11/02, 11/09).
+# A skipped slot touches NO tracked file (no ROUTINE_RUNS row): it logs one line to stdout, which
+# cron appends to ~/.local/state/oracle_daily_pull.log, and exits 3. The next slot retries.
+skip() { echo "$(date -u +%FT%H:%MZ) $(hostname) oracle daily_pull: SKIP et_date=$ET_DATE: $1"; exit 3; }
+export GIT_TERMINAL_PROMPT=0
+cd "$REPO" || exit 1
+in_progress() {   # a rebase or merge is underway in this checkout
+  [ -e "$(git rev-parse --git-path rebase-merge)" ] || [ -e "$(git rev-parse --git-path rebase-apply)" ] \
+    || [ -e "$(git rev-parse --git-path MERGE_HEAD)" ]
+}
+in_progress && skip "a rebase or merge is already in progress in this checkout (not ours; left alone)"
+timeout 120 git fetch -q origin 2>&1 || skip "git fetch origin failed (rc=$?)"
+BEHIND="$(git rev-list --count HEAD..origin/master 2>/dev/null)" || skip "cannot compare HEAD with origin/master"
+if [ "$BEHIND" -gt 0 ]; then
+  DIRTY="$(git status --porcelain --untracked-files=no | head -3 | tr '\n' ' ')"
+  [ -n "$DIRTY" ] && skip "behind origin/master by $BEHIND and tracked files are modified or staged ($DIRTY); not pulling over another desk's work"
+  if ! PULL_OUT="$(timeout 300 git pull --rebase -q 2>&1)" || in_progress; then
+    in_progress && git rebase --abort >/dev/null 2>&1
+    skip "behind by $BEHIND; git pull --rebase failed or stopped, rebase aborted: $(printf '%s' "$PULL_OUT" | tr '\n' ' ' | cut -c1-200)"
+  fi
+fi
+read_today && exit 0   # the other box took today's read and pushed it
 
 cd "$ORC" || exit 1
 PM_OUT="$("$PY" -W ignore scripts/polymarket.py pull --log 2>&1)"; PM_RC=$?
