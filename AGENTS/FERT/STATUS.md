@@ -70,6 +70,7 @@
 
 ## Current Work — 2026-11-05
 
+- **11/09, D:L761 prep (PROME due-row wake, Will 12:07 ET):** inbox drained (WQ-629 note mirrored to KB-FERT-006; organic-corn anecdote to combo:under-application-yield). Grading card frozen for 11/10: NASS Crop Production 12:00 ET (T8) + October CPI food at home 08:30 ET (T3), `workbook/GRADING_CARD_2026-11-10_NASS-CPI.md`. Found: NASS **reissued** the October report 10/23, so October corn yield is +2.4 vs a revised September, not +2.7; level 181.2 unchanged (KB-FERT-074). October 2025 CPI is missing, so October's food-at-home y/y has no base. Grade after the prints.
 - **11/05, bounded session WQ-623 (prome-96):** CF Q3 read against the China return (`reports/2026-11-05_cf-q3-wake.md`), card filled, G5 and G3 graded, 3.3 Mt basis closed at MOFCOM, Pink Sheet and Mosaic rows consumed, **FERT-14..17 registered**, six combination themes set up, charter line 5b added (C4). No trade, card, gate, band or threshold changed.
 
 Prior notes: 10/28 session → `reports/2026-10-28_wake.md`; older → `archive/STATUS_whatchanged_*_ROTATED.md`.
