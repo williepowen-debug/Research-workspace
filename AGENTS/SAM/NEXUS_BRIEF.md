@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-11-06T23:34:59+00:00 (18:34 ET), closeout on Will's 18:33 ET word via PROME; cards 043, 047, 048 taken in, no view moved. **STATUS commit `a2b3376717`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
+**As of:** 2026-11-09T16:21:55+00:00 (11:21 ET), PROME commission on Will's 11:14 ET word: WALTER lane drained (13 cards), SoftBank 11/10 lookup pre-written; no view moved. **STATUS commit `47678a9017`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
 
 ## VIEW
 
@@ -15,7 +15,9 @@
 
 **BOJ December:** Totan incremental equivalent **52** (11/6 15:15 JST) vs 82 (10/29, pre-decision); cumulative hikes to April 1.38 vs 1.94. Reuters prints 42% hike, a separate basis. Equivalents, not probabilities, and no reviewed chart sits between the two dates. Fed December hike odds ~77–79% after payrolls (card 017), so both legs push the yen weaker. **The risk is now a December skip and a weaker yen near 160, not a hike-led unwind.** Ueda's 11/6 IMF text does not discuss policy or markets; any Q&A unread.
 
-**SoftBank (FILING unless marked):** the check is ¥48B–143B, on a $64.6B stake completed 10/1. **The $40B bridge is gone**: repaid 9/15, cancelled 9/30. Nearest large maturity: Arm margin loan about $25B, 9/2027 (relay). The $10B OpenAI loan (8/2028) is **guaranteed by SoftBank Group**, with a trigger on OpenAI's fair value. Leverage: 13% is 6/30 only; SAM estimate **about 22% on SoftBank's definition, about 24% counting the guaranteed loan**, vs its own 25% ceiling, reached at Arm about $128 and $160. SVF and Others held at 6/30; monetizations unknown. Households: senior retail about ¥3.9T, 0.16% of household assets, no large yen senior maturity before Dec-2029. Per-bank exposure undisclosed; Mizuho and SMBC are on the guaranteed loan.
+**SoftBank 11/9 update:** Arm $187.71 (+7.5%, vendor) moves the re-mark to **about 21.3% / 23.3%**; SBG's own ¥3,400 (−4.2%) is not in its LTV. Musk's turbine-default claim is unverified and about purchase orders, not debt. SoftBank's policy (read at source 11/9): **under 25% in normal times, 35% upper threshold even in emergencies**; over 25% obliges a stated plan, not a default. Grading rules for the 9/30 print were committed before release: model expects 15.2% (17.0% if the SVF2 loan sits inside); a 9/30 print of 14.0–16.5% confirms, 18.3% or more puts SoftBank's own basis at 25% at today's Arm → `research/outputs/2026-11-06_softbank/2026-11-10_RESULTS_LOOKUP.md`.
+
+**SoftBank (FILING unless marked, 11/6):** the check is ¥48B–143B, on a $64.6B stake completed 10/1. **The $40B bridge is gone**: repaid 9/15, cancelled 9/30. Nearest large maturity: Arm margin loan about $25B, 9/2027 (relay). The $10B OpenAI loan (8/2028) is **guaranteed by SoftBank Group**, with a trigger on OpenAI's fair value. Leverage: 13% is 6/30 only; SAM estimate **about 22% on SoftBank's definition, about 24% counting the guaranteed loan**, vs its own 25% ceiling, reached at Arm about $128 and $160. SVF and Others held at 6/30; monetizations unknown. Households: senior retail about ¥3.9T, 0.16% of household assets, no large yen senior maturity before Dec-2029. Per-bank exposure undisclosed; Mizuho and SMBC are on the guaranteed loan.
 
 **Oracle loop:** no SoftBank–Oracle credit tie found. They share OpenAI as a counterparty, on separate balance sheets. The nearer circle is SoftBank–OpenAI–NVIDIA: SB Energy is OpenAI's landlord (PORTS-Pike 8.0 GW, Milam 753 MW) and NVIDIA guarantees up to $105B of that rent, not SoftBank.
 
@@ -31,11 +33,11 @@ No grade this session. **35 validated rows: 16 CONFIRMED / 16 FAILED / 1 special
 
 **SENDING (11/6):** VULCAN and WALTER funding-stack corrections, replacing 21.5%. WALTER issued card 041 at 20:52Z correcting 036, 003 and 040 and reran the script; other consumers unverified. PROME receipts.
 
-**WAITING-FOR:** SoftBank 11/10 actuals; MOF curve 11/6; CFTC 11/10, released 11/13; Ueda 10/30 press conference; MOF October investor-type; an offshore basis instrument, still absent.
+**WAITING-FOR:** SoftBank 11/10 actuals (01:30 ET); MOF curve 11/6 landed 11/9 (10Y 2.696, 30Y 3.898); CFTC 11/10, released 11/13; Ueda 10/30 press conference; MOF October investor-type; an offshore basis instrument, still absent.
 
 ## NEXT DECISION POINT
 
-No Will ruling needed. **Tue 11/10 stacks three reads:** SoftBank's headline LTV at 9/30 will flatter (estimate 14–17%; read list in the funding stack §6), the Summary of Opinions predates the selloff, and the 30Y auction faces frozen bars. December MPM is 12/17–18.
+No Will ruling needed. **Tue 11/10 stacks three reads:** SoftBank's headline LTV at 9/30 will flatter (model 15.2%; graded by the pre-written lookup), the Summary of Opinions predates the selloff, and the 30Y auction faces frozen bars. December MPM is 12/17–18.
 
 ## FORWARD CATALYSTS
 
