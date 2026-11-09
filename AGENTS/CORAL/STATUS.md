@@ -1,7 +1,7 @@
 # CORAL — Florida Real Estate Stress Monitor
 ## Comprehensive Florida Agent | 10 pillars (real estate · insurance · banks · migration · tourism · fiscal · labor · climate)
 
-**Last Updated:** 2026-11-06 17:30 ET (Fri, **coral-ad**, close refresh on Will's 17:08 ET word via prome-51): Isaias insured losses **$735.5M at 11/06**; Citizens weekly **216,432 at 10/30**; Avidia Q3 release read, association-loan quality still unsplit; FEMA routine indicator notices read. **No colour, gate or grade moved.** Evidence § AC; prior header → § AC0.
+**Last Updated:** 2026-11-09 10:5x ET (Mon, **coral-ae**, catch-up on Will's ask via PROME prome-6f 10:46 ET): **MSI reading #13 (data 11/08): 4-of-5, Cape Coral 5.84 series low ⇒ re-fire fails, leg 🟠.** Avidia 10-Q, FEMA DR-4955 notice, OIR, Citizens weekly all unchanged since 11/06; Amendment 3 not re-read (state site unreachable). **No colour moved.** Evidence § AD; prior header → § AD0.
 
 **File map:** **`STATUS.md`** = state, colours, levels, owed actions (boot-read whole) · **`STATUS_DETAIL.md`** = evidence, sources, vintages + rotated blocks verbatim (latest § AA0) · **`archive/STATUS_SESSIONS_20260721-20260823.md`** = 7/17→8/23 narrative. **State disagreement ⇒ this file wins; provenance ⇒ `STATUS_DETAIL.md` wins; either is a defect.** · **`TRADE.md`** = FLAT (9/28) · **`tools/bkcy/`** = bankruptcy instrument.
 
@@ -17,7 +17,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 
 | Channel | Level (dated) | Status |
 |---|---|---|
-| **🟠 MSI supply-side leg** | **Reading #12 (Parcl data date 11/05; current series, WQ-475 A): 4-of-5 > 6.00** — Tampa 7.22 · Punta Gorda 6.21 · North Port 6.22 · Lakeland 6.31 · **Cape Coral 5.85** (series low; ≤ 6.00 every day 10/18→11/05) ⇒ re-fire fails, clock at zero. First prints of #10–#11 all revised UP 0.02–0.07; a revision is a new fact, not a re-grade (WQ-475 (c)). ⛔ Not an all-clear, not bank evidence. Letter → OQ §A / §A2; evidence § AB1 | 🟠 |
+| **🟠 MSI supply-side leg** | **Reading #13 (Parcl data date 11/08; current series, WQ-475 A): 4-of-5 > 6.00** — Tampa 7.23 · Punta Gorda 6.19 · North Port 6.22 · Lakeland 6.30 · **Cape Coral 5.84** (series low; ≤ 6.00 every day 10/18→11/08) ⇒ re-fire fails, clock at zero. Punta Gorda and North Port touched their own series lows 11/06 (6.17, 6.19), still > 6.00. Revisions small and upward (n=3). ⛔ Not an all-clear, not bank evidence. Letter → OQ §A / §A2; evidence § AD1 | 🟠 |
 | FL foreclosure — H1 cumulative | #1 of 50, **0.27%** (ATTOM, 7/17) — ⚠️ not refreshed since 7/17 | 🔴 |
 | FL REO completions | FL Q1 **1,014, +108% YoY**; nat'l H1 +33% | 🟠 |
 | Condo/TH median (**mix**) | **$293.5K, −1.8% YoY (Sep)**; avg **$470.5K, +8.6%** (right tail fattening); sales **7,179, −0.1%**; 3Q median $295K flat, sales +3.1% | 🟡 |
@@ -86,7 +86,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 > **Scope:** the supply-side price-discovery leg ONLY. The bank-transmission rail and CORAL's overall colour are untouched whether it fires or stands down.
 > **Ruling:** Will, 2026-09-28 ~15:1x ET, verbatim record `PROME/WILL_QUEUE.md` WQ-241 (PROME commit `c0cfe7ba6`). Proposal history (incl. the measured-move table, not part of this letter): `PROME/inbox/processed/…WQ-241-and-WQ-321-tightened-letters.md` (`9655ceaf3`).
 
-**State:** leg **🟠 since 2026-09-13** (stood down on a COUNT, not because Florida improved). **Reading #12 (data date 11/05, current series): 4-of-5 > 6.00, Cape Coral 5.85 ⇒ re-fire fails, clock at zero; stand-down N/A.** #10 and #11 stand as recorded despite later revisions (WQ-475 (c)). **Next reading by 2026-11-12.** Prior paragraph → § AA0; pull evidence § AB1.
+**State:** leg **🟠 since 2026-09-13** (stood down on a COUNT, not because Florida improved). **Reading #13 (data date 11/08, current series): 4-of-5 > 6.00, Cape Coral 5.84 ⇒ re-fire fails, clock at zero; stand-down N/A.** #10–#12 stand as recorded despite later revisions (WQ-475 (c)). **Next reading by 2026-11-19.** Prior paragraph → § AA0; pull evidence § AD1 (#12 § AB1).
 
 **A2. ✅ INSTRUMENT BASIS — RULED (Will 2026-10-21 22:46 ET, verbatim "Approve 472 A, 473 A, 474 A, 475 A, 476 A" = WQ-475 option A; packet `inbox/processed/2026-10-21_from-PROME_WQ475-RULED-A.md`). The ruled letter for identity and series:**
 > **(a) Reading identity** = the **data date of one Parcl build carrying all five metros** (the retired page stamp is gone for good). Two pulls of one build are one reading.
@@ -111,13 +111,13 @@ Consequence: readings #1–#10 stay as recorded; the current series' history is 
 | K | No constant-quality statewide FL **condo** index — every condo composition argument rests on a mix statistic | open | named gap |
 | L | Parcl listings route ✅ (`seo.totalCount`/`nCutting`); residual: did the fields exist on 9/13? (if yes, correct ML-CORAL-079, never delete) | next session (Wayback) | record ⚠️ |
 | M | Falsify grade — ⛔ do not re-derive the rule, do not reword a criterion. **Criterion 6 instrument: state unofficial page (61.98%); certified result is 11/17, after the grade, so 11/15 states it runs on unofficial returns; EDR impact = § AB4** | **2026-11-15** | baseline 1.5 of 6 |
-| N | Bank rail re-test — REGINALD frame **FINAL 11/06: NO TRANSMISSION** (SBCF, SSB, AMTB HOLDS; BKU MIXED). BKU balance re-read at the 12/31 Call Report (REGINALD). CORAL's condo/association grep DONE on seven 10-Qs: zero association-loan disclosure (§ AB2). Remaining: **Avidia 10-Q** (not on EDGAR 17:24 ET 11/06), the only filer disclosing association-loan quality | **Avidia ~mid-Nov** | NOT met, NOT armed |
+| N | Bank rail re-test — REGINALD frame **FINAL 11/06: NO TRANSMISSION** (SBCF, SSB, AMTB HOLDS; BKU MIXED). BKU balance re-read at the 12/31 Call Report (REGINALD). CORAL's condo/association grep DONE on seven 10-Qs: zero association-loan disclosure (§ AB2). Remaining: **Avidia 10-Q** (not on EDGAR 10:4x ET 11/09), the only filer disclosing association-loan quality | **Avidia ~mid-Nov** | NOT met, NOT armed |
 | O | Stale rows: **SE-FL vintage $/sf (7/13)** · **blacklist count (Apr-2025)** · **NOAA SIR sargassum (since 7/21)** · **ATTOM foreclosure (7/17)** · **VLY CRE/RBC 329% is Q1** | rolling | STALE-marked in place |
 | P | **NFIP authorization** — extended 9/2 | **2026-12-11** | dated cliff |
 | W | ⭐ **FL school enrollment, tracked** (Will 9/28): VX-CORAL-ENRL-01 + `workbook/FL_ENROLLMENT.tsv` — read the discriminators before any migration claim | **FLDOE Survey 2 ~Nov–Dec**; EEC ~Jan | tracking |
 | V | Brightline Flagler real-estate debtors — read schedules when filed (station-area parcels, TOD) | when filed | ⚪ info |
 | X | ✅ Association→lender follow-ups (9/28) — run, round closed (row → § T0; evidence § N–Q) · ⭐ **DBPR Step 1 SENT 10/1 22:51 ET (WQ-334); assigned 10/3 as DBPR PRC W212505-100226, In Progress, no estimate/records** → `sources/condo/DBPR_request_W212505-100226_log.md` | portal check DOCKET L597 (Will/PROME) | DBPR pending |
-| Z | 🌀 **Isaias observables:** OIR ✅ 68,071 / $735.5M at 11/06 · FEMA DR-4955: PA 15/15, IH 8/8 requested, HM none · **FEMA FR notice (cost share) not published at 17:24 ET 11/06** · Citizens claims/PIF · modeler estimates (AEOLUS $1–4.5bn) · NFIP across 12/11. Evidence § AB3 | FEMA FR notice; rest ~late Nov | PARTIAL |
+| Z | 🌀 **Isaias observables:** OIR ✅ 68,071 / $735.5M at 11/06 (unchanged 11/09) · FEMA DR-4955: PA 15/15, IH 8/8 requested, HM none · **FEMA FR notice (cost share) not published at 10:4x ET 11/09** · Citizens claims/PIF · modeler estimates (AEOLUS $1–4.5bn) · NFIP across 12/11. Evidence § AB3 | FEMA FR notice; rest ~late Nov | PARTIAL |
 | AB | ⭐ **L784 FEMA cost shift** (`research/2026-10-21_L784_fema-cost-shift-florida.md` § 9): peer cells closed. ⛔ IA-gap item corrected: IH flagged 8/8; IA-appeal row withdrawn. Ballot read (unofficial). **Remains:** FEMA FR notice (cost share) · HM. 11/06 FR: routine CPI step only, statewide indicator **$2.01**, not the Council's $2.99 (§ AC2). Row re-date proposed in the 11/06 packet | **proposed 2026-11-20** | OPEN |
 
 *Closed 10/29: U (→ § Y0) · Q · Y · AA (→ § X0). Earlier closures and rotations → § AA0, § T0.*
@@ -134,6 +134,6 @@ Consequence: readings #1–#10 stay as recorded; the current series' history is 
 
 **What would change the read:** BKU's $21.3M at 90+, non-accrual or charged off at the 12/31 Call Report · any past-due, criticized or charge-off in Avidia's association segment · FEMA FR notice with cost share <75% · FL Realtors Oct (11/16): financed condo units falling faster than SF by a wider margin · Cape Coral >6.00 with the other four held · first county or rating action citing Amendment 3.
 
-**Next (dates → `CALENDAR.md`):** **Nov 12** MSI #13 · Avidia 10-Q ~mid-Nov · **Nov 15** falsify grade · **Nov 16** FL Realtors Oct (GSE instrument) · **Nov 17** canvassing commission certifies · Citizens October month-end ~mid-Nov · **Dec 11** NFIP. *Earlier bottom lines rotated verbatim → § AB0 / § AA0 / § X0 / § W0 / § V0 / § U0 / § T0.*
+**Next (dates → `CALENDAR.md`):** **Nov 19** MSI #14 · Avidia 10-Q ~mid-Nov · **Nov 15** falsify grade · **Nov 16** FL Realtors Oct (GSE instrument) · **Nov 17** canvassing commission certifies · Citizens October month-end ~mid-Nov · **Dec 11** NFIP. *Earlier bottom lines rotated verbatim → § AB0 / § AA0 / § X0 / § W0 / § V0 / § U0 / § T0.*
 
 *CORAL: tracking the bleaching of Florida's condo market. Evidence → `STATUS_DETAIL.md` · session history → `archive/STATUS_SESSIONS_20260721-20260823.md`.*

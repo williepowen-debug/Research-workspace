@@ -1903,3 +1903,41 @@ KRE $72.20 −0.15% · SSB $104.11 −0.58% · SBCF $33.54 −0.18% · BKU $44.0
 
 ### AC0. Header rotated from STATUS 2026-11-06, verbatim
 **Last Updated:** 2026-11-06 11:21 ET (Fri, **coral-ac**, PROME prome-51 Tier-1 wake on Will's word 11:05 ET): MSI #12 graded, re-fire fails, leg 🟠; all seven bank 10-Qs read; **FL frame FINAL (REGINALD 11/06): NO TRANSMISSION, BKU MIXED;** **household aid now flagged in DR-4955's 8 requested counties, the 10/29 "IA 0/8" cell is corrected**; Amendment 3 **61.98% yes, unofficial**; inbox 18 of 18. Evidence § AB; rotated rows § AB0. Prior header → § AB0.
+
+## AD. 2026-11-09 (Mon, 10:43–) — coral-ae: catch-up since the 11/06 close (PROME prome-6f relay of Will's ask, 10:46 ET) — evidence
+
+### AD1. Parcl MSI reading #13 (data date 2026-11-08)
+**Route (unchanged, § X1 / § AB1):** `GET …/v1/msi/metrics/session` HTTP 200 10:4x ET 11/09 → metrics tile `msi-metrics/20261109T100851Z/free/all/msa.json` (`built_at` 2026-11-09T10:08:51Z; Last-Modified 10:11:52 GMT) + bundles `msi-bundles/20261109T101156Z/free/<parcl_id>.json` (`built_at` 10:11:56Z). Tile summary MSI == each bundle's daily `all` series LAST point, dated **2026-11-08** for all five; tile `context_as_of` 2026-11-08; `as_of_week` 2026-11-02 (weekly series, not this instrument). First build carrying 11/08; one build carries all five ⇒ one reading (WQ-475 (a)). No build between 11/06 and 11/09 was read; the session route serves only the current build.
+
+| Metro | **#13 MSI (data 11/08)** | Listings | % cutting | #12 as recorded (data 11/05) | 11/05 in the 11/09 build |
+|---|---:|---:|---:|---:|---:|
+| Tampa | **7.23** | 26,017 | 51.8% | 7.22 | 7.23 |
+| Punta Gorda | **6.19** | 4,343 | 43.0% | 6.21 | 6.22 |
+| North Port | **6.22** | 11,850 | 44.7% | 6.22 | 6.23 |
+| Cape Coral | **5.84** | 13,532 | 42.4% | 5.85 | 5.85 |
+| Lakeland | **6.30** | 8,047 | 47.9% | 6.31 | 6.31 |
+
+- **Grade (amended letter WQ-241, basis WQ-475 A):** 4-of-5 > 6.00; Cape Coral 5.84 ⇒ **re-fire reading FAILS, clock at zero**; stand-down N/A (leg already 🟠). No rule applies; leg 🟠. Next reading by **2026-11-19**.
+- **Level facts, this build (2/1→11/8):** Cape Coral ≤ 6.00 on 22 days, 10/18→11/08 unbroken; < 5.90 on 11/01 and 11/04→11/08 (11/02 now 5.90+ in this build); **5.84 on 11/06–11/08 = series low** (prior low 5.85). **Punta Gorda 6.17 on 11/06 and North Port 6.19 on 11/06 = both their series lows since 2/1**; both still > 6.00. Tampa and Lakeland flat.
+- **Revision fact:** 11/05 revised 0.00 to +0.01 in four metros, unchanged at Cape Coral. Up-revision pattern continues small (n=3 readings). #12 stands as recorded (WQ-475 (c)).
+- **Inference audit (13a):** no causal claim. ⛔ A falling MSI is not a Florida all-clear and not bank evidence; one supply-side leg. CORAL-01 (Cape Coral first print > 6.00 by data date 12/15, 15%) unresolved.
+- Extract: `sources/parcl/parcl_msi_daily_5metros_build20261109T101156Z.csv` (daily 8/1 → 11/8).
+
+### AD2. Checked since the 11/06 close (reads 10:45–10:50 ET 11/09)
+| Row | Result |
+|---|---|
+| Avidia (AVBC, CIK 2058758) | EDGAR submissions: latest Form 4 11/06; 8-K 11/03 ×2; 8-K 10/23. **10-Q for 9/30 still not filed.** Row N waits. |
+| FEMA DR-4955 FR notice | FR API: `FEMA-4955-DR` = the same 2 SBA documents (11/04). FEMA documents ≥ 11/06 = the six routine 11/06 notices only. Public inspection: no FEMA disaster item. **Cost share UNKNOWN.** CORAL-04 open. |
+| OpenFEMA DR-4955 | rundate 2026-11-09T15:46Z, rows `lastRefresh` 11/06 12:27Z: 15 counties, PA 15, IH 8, IA 0, HM 0 — unchanged. No new FL declaration since 10/28 (fall flooding still undeclared). |
+| OIR Isaias | Page still "Data as of November 6, 2026" ⇒ $735.5M / 68,071 stands. CORAL-03 $64.5M short. |
+| Citizens | News page still "Policies in Force as of October 30, 2026: 216,432". The 11/06 weekly not posted at read. October month-end not checked. |
+| Amendment 3 | ⚠️ NOT re-read: `flelectionwatch.gov` connect failure (curl 000) from this box; `results.elections.myflorida.com` returns a frames shell. 61.98% stays the 11:10 ET 11/06 read; press (WUSF 11/03 "nearly 62%") consistent, not a primary. Certification 11/17. Press 11/06–11/07 (Fortune) restates the Revenue Estimating Conference figures (~$4.9B yr 1, ~$11.8B by 2031-32) — same estimate CORAL carries, nothing new. No county or rating action located. |
+| NHC | TWOAT 07:00 EST 11/09: "Tropical cyclone formation is not expected during the next 7 days." Season ends 11/30. |
+| ATTOM | October 2026 foreclosure report not found (ATTOM's monthly usually mid-month). H1 row stays STALE-marked. |
+| Insurers | No new FL insurer receivership or OIR action located 11/06–11/09 (search; DFS archive newest 2023). Not a primary sweep of OIR orders. |
+| Peer reads | REGINALD 11/07: Q3 Call Reports, all 14 filers; L180 breadth test BROADER on its letter, weak (national); FL frame NO TRANSMISSION FINAL unchanged. MARCO, AEOLUS, HOMER: no commit since 11/06 17:30. |
+| WALTER / inbox | 0 · 0 at 10:44 and 10:49 ET. PROME's "top-level 1" = `.gitkeep` counted by `inbox_census.py`. |
+| Prices | boot.py 10:44 ET (Yahoo intraday, not a close): KRE $73.35 +1.59% · SSB $105.97 · SBCF $34.02 · BKU $44.49 · VLY $14.45 · USCB $20.07. Context only. |
+
+### AD0. Header rotated from STATUS 2026-11-09, verbatim
+**Last Updated:** 2026-11-06 17:30 ET (Fri, **coral-ad**, close refresh on Will's 17:08 ET word via prome-51): Isaias insured losses **$735.5M at 11/06**; Citizens weekly **216,432 at 10/30**; Avidia Q3 release read, association-loan quality still unsplit; FEMA routine indicator notices read. **No colour, gate or grade moved.** Evidence § AC; prior header → § AC0.

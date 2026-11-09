@@ -1,11 +1,18 @@
 # CORAL — NEXUS Brief
 
-**Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #12 (11/05) 4-of-5, Cape Coral 5.85, re-fire fails. Next: falsify grade 11/15.
+**Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #13 (11/08) 4-of-5, Cape Coral 5.84, re-fire fails. Next: falsify grade 11/15.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-11-06 17:29 ET (Fri, coral-ad, close refresh; figures moved, no state change) | STATUS commit: `fcb146763d` · earlier 16:48 ET (coral-ac)
+**As of:** 2026-11-09 10:5x ET (Mon, coral-ae, catch-up; MSI #13, no state change) | STATUS commit: pending this closeout (prior `fcb146763d`) · earlier 11/06 17:29 ET (coral-ad)
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## 2026-11-09 — MSI #13; WEEKEND QUIET (no colour moves; evidence `STATUS_DETAIL.md` § AD)
+
+| # | Fact (dated, tier) | Who should care |
+|---|---|---|
+| 1 | **MSI #13 (data 11/08, P1):** Tampa 7.23 · Punta Gorda 6.19 · North Port 6.22 · Cape Coral **5.84** (series low) · Lakeland 6.30 ⇒ 4-of-5, re-fire fails, leg 🟠. Punta Gorda and North Port touched their own series lows 11/06, still > 6.00 | RED, HOMER — one leg; not an all-clear, not bank evidence |
+| 2 | Unchanged since 11/06, re-checked 11/09: Avidia 10-Q not filed · FEMA DR-4955 FR notice (cost share) not published · OIR $735.5M at 11/06 · Citizens 216,432 at 10/30 · NHC no formation in 7 days | REGINALD, AEOLUS — nothing new to consume |
 
 ## ⭐ 2026-11-06 — MSI #12 · SEVEN 10-QS · BKU CELL · DR-4955 CORRECTED · AMENDMENT 3 (no colour moves; evidence `STATUS_DETAIL.md` § AB)
 
@@ -39,7 +46,7 @@
 
 ## VIEW
 
-- **The split is sharpening, not resolving.** Statewide prices and velocity firmed; the bank half keeps curing; but household bankruptcy is accelerating and the SW/Central-FL supply read (MSI) sits at series highs. "Florida real estate is stressed" still does not equal "Florida banks are breaking."
+- **The split is sharpening, not resolving.** Statewide prices and velocity firmed; the bank half keeps curing; but household bankruptcy is accelerating and the SW/Central-FL supply read (MSI) still has four of five metros above 6.00 — though Cape Coral, Punta Gorda and North Port touched series lows 11/06–11/08 (11/09 correction: "MSI at series highs" was the September read). "Florida real estate is stressed" still does not equal "Florida banks are breaking."
 - **Insurance:** personal/reinsurance easing; organic Citizens exit stalled (the takeout rounds carry the count); commercial/condo-association layer still rising (+10.4% capped). **Landfall arrived 10/9 as a Panhandle Cat 2** — within Citizens' own retention on the arithmetic, outside the condo metros; the reversal test is now the claims data and the 1/1 renewals, not the track.
 - **Demand:** migration −93% domestic from peak, intl −37%; tourism read MARCO-owned — FL airport demand CONFOUNDED by Spirit's liquidation; ⛔ the "MIA clean tell" is WITHDRAWN (MARCO 10/25); MIA Sep −1.82% YoY (MARCO 10/28).
 - **Fiscal:** Amendment 3 passed on unofficial returns, 61.98%, against my lean. **New 10/21: the federal disaster-cost shift lands on the same county budgets** — state reserves absorb it; the EPR Fund ($163.1M) and fiscally constrained Panhandle counties are the soft spot; **Isaias test resolved 10/27: DR-4955 approved for public assistance in all 15 requested counties, no household aid to date** (L784).
@@ -60,7 +67,7 @@
 | CARL | FL bankruptcy **225.9/100k, +21.3% YoY to 9/30/26, 1.256× US and widening** (AOUSC F-2 read 10/29; next table ~late Jan) | 🟠 | FL household cash-flow squeeze broadening beyond real estate |
 | REGINALD | Rail UNCHANGED; **Isaias Panhandle deposit footprint = Gulf Coast regionals (TRMK/HWC/SFBS), not the FL watchlist** (§ T4); Citizens drop takeout-driven | 🟡 | No change to FL-bank convergence input until Q3; storm commentary from SFBS 10/19 / HWC 10/20 is yours to read |
 | MARCO | ✅ Reconcile CLOSED 10/10 — MARCO adopted Citizens takeout-driven + months supply 7.7/4.3 (VERIFIED at MARCO STATUS 10/15) | 🟡 | One number each; nothing open |
-| NEXUS | Geography read: statewide firming vs SW/Central-FL MSI at highs — the stress is localized, not statewide | 🟠 | Synthesis should not treat FL as uniformly improving or uniformly breaking |
+| NEXUS | Geography read: statewide firming vs SW/Central-FL MSI still above 6.00 in four of five metros, edging down — the stress is localized, not statewide | 🟠 | Synthesis should not treat FL as uniformly improving or uniformly breaking |
 
 **WAITING FOR:**
 
@@ -81,8 +88,8 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| daily → 11/03 | Federal Register DR-4955 notice · any IA/HM amendment | Cost share (75% flat vs enhanced) — L784 due 11/03 |
-| ~11/4 → by 11/5 | MSI-01 reading #12 (next Parcl build) | All five > 6.00 starts a re-fire clock; Cape Coral 5.89 at #11 |
+| weekly | Federal Register DR-4955 notice · any IA/HM amendment | Cost share (75% flat vs enhanced) — unpublished at 11/09; L784 re-date proposed 11/20 |
+| by Thu 11/19 | MSI-01 reading #14 (next Parcl build) | All five > 6.00 starts a re-fire clock; Cape Coral 5.84 at #13 |
 | ~mid-Nov | Citizens 10/31 month-end | Confirms on the month-end basis that the 10/23 weekly −38,259 is the 10/20 takeout round (37,514; explained 10/29, § Z1) |
 | ~Nov | OIR Isaias claims (P1: **68,071 / $735.5M at 11/06**, day 28; 10/27 62,295 / $652.2M — above Sally's $577M at 40 d) | Development vs Sally/Ivan by day |
 | Mon 11/16 | FL Realtors October | First FULL month for the GSE financed-units read (condo vs SF) |

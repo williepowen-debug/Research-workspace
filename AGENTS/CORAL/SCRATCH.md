@@ -1,38 +1,35 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-11-06 17:23 → 17:3x ET (Fri) — **coral-ad**, PROME prome-51 relay of Will's 17:08 ET word: boot and refresh through the 11/06 close. Opus 5.5 in Claude Code; root CLAUDE.md and local CLAUDE.md injected at launch; full boot set; boot.py; corrections rc 1 → receipted NO-OP → rc 0. Pull not run: tree dirty with other desks' files; `git fetch` showed origin level with us.
-**Previous:** 2026-11-06 11:05 → 16:48 ET coral-ac.
+**Session:** 2026-11-09 10:43 → 10:5x ET (Mon) — **coral-ae**, boot on Will's word, then catch-up on PROME prome-6f relay (10:46 ET) of Will's ask. Opus 5.5 in Claude Code; root CLAUDE.md, AGENTS.md, USER.md, local CLAUDE.md read explicitly; full boot set; boot.py; corrections rc 0. Pull not needed: origin had nothing new (local was 5 PROME commits ahead, not mine). Quiet mode (Will 11/6).
+**Previous:** 2026-11-06 17:23 → 17:3x ET coral-ad.
 
 ---
 
-## CHANGES SINCE 16:48 ET (what the world did)
+## CHANGES SINCE 11/06 17:30 ET (what the world did)
 
-- OIR moved its Isaias page to 11/06. Citizens posted the 10/30 weekly. FEMA published six routine annual notices, 11/06. No new Parcl build. No WALTER card, no packet.
+- Parcl built 11/09 (data 11/08). Nothing else moved: Avidia, FEMA DR-4955 notice, OIR, Citizens weekly, OpenFEMA all as of 11/06. NHC quiet. REGINALD ran Q3 Call Reports 11/07 (national breadth test BROADER on the letter, weak; FL frame unchanged).
 
 ## WHAT I DID
 
-1. **OIR:** 68,071 claims, $735.5M, day 28 (10/27: 62,295, $652.2M). § AC1, ML-CORAL-149.
-2. **Citizens:** weekly 216,432 at 10/30, residual ≈ −890. Binding lifted 10/10, not still suspended. § AC4, ML-CORAL-150.
-3. **Avidia:** 10-Q not filed. Read the Q3 release I had left unread since 10/23 and the Hovde deck: association loans $491.9M, quality not split. § AC3, ML-CORAL-151.
-4. **FEMA:** own DR-4955 notice still unpublished; routine indicators $2.01 and $5.03, not the Council's $2.99. § AC2, ML-CORAL-152.
-5. **Correction COR-20261106-35:** NO-OP, CORAL carries no put/call figure.
-6. Packets to PROME and AEOLUS on the moved figures. No colour, gate or grade moved.
+1. **MSI reading #13 (data 11/08):** 4-of-5, Cape Coral 5.84 series low ⇒ re-fire fails, leg 🟠. PG and NP touched own series lows 11/06. § AD1, ML-CORAL-153, CSV in `sources/parcl/`.
+2. Re-checked every resume-list item (§ AD2). Amendment 3 not re-read: state site does not connect from this box.
+3. NEXUS_BRIEF: fixed a stale live claim ("MSI sits at series highs" — September read).
+4. Packet to PROME: reading #13, review_by 11/19, `.gitkeep` counted by inbox_census.py.
 
 ## NEXT SESSION / OWED
 
-- **Awaiting Will's word (his yes covered only the DAEDALUS packet):** (a) `DATA_SOURCES.md` line for SEC contact via `scripts/sec_contact.py`; (b) catch `workbook/VX_Vectors.md` up on the coral-ac readings (coral-ad updated the Citizens row only); (c) refresh the stale size figure and date in `CLAUDE.md` step 1. coral-ad's SEC pulls used `sec_contact.py`.
-- Check DAEDALUS added the registry row for `workbook/PREDICTIONS.tsv`; until then the monthly forecast report does not count CORAL-01..04.
-- **Resume list: Avidia 10-Q · FEMA FR notice.** Re-read Amendment 3 at the state page (error page at 17:2x ET); 61.98% is the 11:10 ET read.
-- BKU's $21.3M re-read at the 12/31 Call Report (REGINALD owns).
-- **MSI #13 by 11/12** · **Avidia 10-Q ~mid-Nov** (segment past due, criticized, charge-offs) · **11/15 falsify grade, unofficial returns** · 11/16 FL Realtors Oct, grade CORAL-02 · 11/17 certification · FEMA FR notice weekly · Citizens 10/31 month-end.
-- Carried: Panhandle Citizens county re-cut · Pembroke Lakes foreclosure check · OQ L Wayback · s.252.37(5)(a) · hearings (needs a CourtListener token or Will-approved PACER) · FMHPI vintage re-read at touch · ATTOM Q3 foreclosure, no report found 11/06.
+- **Awaiting Will's word (since 11/06; not answered as of 10:50 ET 11/09):** (a) `DATA_SOURCES.md` line for `scripts/sec_contact.py`; (b) catch `workbook/VX_Vectors.md` up on coral-ac/ad/ae readings; (c) refresh the stale size figure in `CLAUDE.md` step 1.
+- ✅ DAEDALUS registry row for `workbook/PREDICTIONS.tsv` exists (`AGENTS/DAEDALUS/scorecards/LEDGERS.tsv:11`).
+- **Resume list:** Avidia 10-Q (45-day line Mon 11/16 if non-accelerated) · FEMA FR notice · Amendment 3 at the state page (needs a reachable route) · Citizens 10/31 month-end · ATTOM October (~mid-Nov).
+- **11/15 falsify grade, unofficial returns** · 11/16 FL Realtors Oct, grade CORAL-02 · 11/17 certification + Dockside adversary hearing · **MSI #14 by 11/19** · 11/19 Gardens of Forest Lakes hearing.
+- Carried: Panhandle Citizens county re-cut · Pembroke Lakes foreclosure check · OQ L Wayback · s.252.37(5)(a) · hearings (Will's hands, WQ-547) · DBPR portal (Will's hands, WQ-463) · FMHPI vintage re-read at touch.
 
 ## OPEN THREADS
 
-- CORAL-03 ($800M by 12/31): $64.5M short at day 28, open.
-- Parcl first prints have run low, n=2 readings; watch for it, no rule change.
-- L227 leg (a) has no pre-registered rule; CORAL may propose one. fema.gov page routes returned Access Denied 11/06 am; OpenFEMA API works.
+- CORAL-03 ($800M by 12/31): $64.5M short at day 28, open. CORAL-01 (Cape Coral > 6.00 by 12/15): 5.84 at #13.
+- Parcl first prints revise up small, n=3; watch, no rule change.
+- L227 leg (a) has no pre-registered rule; CORAL may propose one. fema.gov pages Access Denied; OpenFEMA + FR APIs work. flelectionwatch.gov connect-fails.
 
 ## MAIL STATE
 
-`inbox/` top-level: empty · `inbox/WALTER/`: empty at 17:23 ET · outbound this session: PROME, AEOLUS.
+`inbox/` top-level: empty (`.gitkeep` only) · `inbox/WALTER/`: empty at 10:49 ET; WALTER (walter-da) sweep from 11/8 17:07Z pending — consume when it lands · outbound: PROME (`PROME/inbox/2026-11-09_from-CORAL_MSI13-catchup.md`).
