@@ -1,0 +1,73 @@
+# Monday 2026-11-09 live pulls after the open (TERRY). Clock from date:
+Mon Nov  9 09:32:01 EST 2026
+
+## chain_fetch.py --no-cache --legs
+== HYG 2027-01-15 --type put --legs 76,73
+09:32:01
+TERRY leg gate (--legs)
+  🔴 DEFECTIVE     76.00 P  bid 0.00 / ask 0.00  [DEAD]
+  🔴 DEFECTIVE     73.00 P  bid 0.00 / ask 0.00  [DEAD]
+
+⛔ EXIT 2 — a requested leg is unusable. DO NOT compute a net debit off this pull. Re-pull; if it persists, the leg is untradeable and that is a NO TRADE, not a number to work around.
+== HYG 2027-01-15 --type put --legs 77,74
+09:32:04
+TERRY leg gate (--legs)
+  🔴 DEFECTIVE     77.00 P  bid 0.00 / ask 0.00  [DEAD]
+  🔴 DEFECTIVE     74.00 P  bid 0.00 / ask 0.00  [DEAD]
+
+⛔ EXIT 2 — a requested leg is unusable. DO NOT compute a net debit off this pull. Re-pull; if it persists, the leg is untradeable and that is a NO TRADE, not a number to work around.
+== ORCL 2026-12-18 --type put --legs 115,100
+09:32:06
+TERRY leg gate (--legs)
+  ✓ usable       115.00 P  bid 8.30 / ask 12.05  [-]
+  ✓ usable       100.00 P  bid 2.59 / ask 6.60  [-]
+  ⇒ all requested legs carry usable two-sided quotes.
+== QQQ 2026-12-18 --type call --legs 670,680
+09:32:08
+TERRY leg gate (--legs)
+  ✓ usable       670.00 C  bid 21.16 / ask 21.40  [-]
+  ✓ usable       680.00 C  bid 16.03 / ask 16.27  [-]
+  ⇒ all requested legs carry usable two-sided quotes.
+
+## prices
+Mon Nov  9 09:32:10 EST 2026
+
+ Ticker     Name                        Price     Change              As-of        Volume
+ ---------------------------------------------------------------------------------------
+ HYG        HY Bond ETF                $77.42     +0.24%         2026-11-09       258,942
+ QQQ        QQQ                       $663.30     +1.10%         2026-11-09     3,282,680
+ ORCL       ORCL                      $115.78     -0.28%         2026-11-09     1,275,656
+ ^VIX       VIX                        $23.16     -9.67%         2026-11-09             0
+ ^VIX3M     ^VIX3M                     $24.60     -0.00%  2026-11-06 ⚠stale             0
+ BZF27.NYM  BZF27.NYM                  $92.98     -5.43%         2026-11-09        19,886
+            └─ contract: UNKNOWN (name-cut-inferred-from-width-at-31:'Brent Crude Oil Last Day Financ')
+ BZH27.NYM  BZH27.NYM                  $88.82     -4.80%         2026-11-09        11,840
+            └─ contract: UNKNOWN (name-cut-inferred-from-width-at-31:'Brent Crude Oil Last Day Financ')
+ USO        USO                       $142.88     -3.73%         2026-11-09     1,356,461
+ ⚠ vendor futures quotes run about 10 minutes behind (median, measured 2026-11-05, L925)
+
+## HYG re-pull
+09:32:24
+TERRY leg gate (--legs)
+  🔴 DEFECTIVE     76.00 P  bid 0.00 / ask 0.00  [DEAD]
+  🔴 DEFECTIVE     73.00 P  bid 0.00 / ask 0.00  [DEAD]
+
+⛔ EXIT 2 — a requested leg is unusable. DO NOT compute a net debit off this pull. Re-pull; if it persists, the leg is untradeable and that is a NO TRADE, not a number to work around.
+TERRY leg gate (--legs)
+  🔴 DEFECTIVE     77.00 P  bid 0.00 / ask 0.00  [DEAD]
+  🔴 DEFECTIVE     74.00 P  bid 0.00 / ask 0.00  [DEAD]
+
+⛔ EXIT 2 — a requested leg is unusable. DO NOT compute a net debit off this pull. Re-pull; if it persists, the leg is untradeable and that is a NO TRADE, not a number to work around.
+ HYG        HY Bond ETF                $77.42     +0.24%         2026-11-09       260,286
+09:33:14
+TERRY leg gate (--legs)
+  🔴 DEFECTIVE     76.00 P  bid 0.00 / ask 0.00  [DEAD]
+  🔴 DEFECTIVE     73.00 P  bid 0.00 / ask 0.00  [DEAD]
+
+⛔ EXIT 2 — a requested leg is unusable. DO NOT compute a net debit off this pull. Re-pull; if it persists, the leg is untradeable and that is a NO TRADE, not a number to work around.
+TERRY leg gate (--legs)
+  🔴 DEFECTIVE     77.00 P  bid 0.00 / ask 0.00  [DEAD]
+  🔴 DEFECTIVE     74.00 P  bid 0.00 / ask 0.00  [DEAD]
+
+⛔ EXIT 2 — a requested leg is unusable. DO NOT compute a net debit off this pull. Re-pull; if it persists, the leg is untradeable and that is a NO TRADE, not a number to work around.
+ HYG        HY Bond ETF                $77.42     +0.24%         2026-11-09       260,286

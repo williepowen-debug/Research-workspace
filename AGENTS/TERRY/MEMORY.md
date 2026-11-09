@@ -74,7 +74,7 @@ Publication and exactcloseoutcommit proof are recorded in dateddelivery; prior s
 
 ## Next Session — start here
 
-00. **WQ-650 pass (Monday 11/9, finish before 09:30 ET on PROME's tap):** Sunday draft `research/2026-11-08_wq650-pass/IDEAS.md`, no new card; § 4 is the Monday run order (oil reopen vs BRENT's $103/$95 bands, pre-market, live `--legs` chains after 09:30, HYG ×5 hedge first). Then the HY 11/6 cell about 10:10 ET against WQ-513's 350 count (0 of 3).
+00. **WQ-650 FINALIZED 2026-11-09 09:34 EST** (`research/2026-11-08_wq650-pass/IDEAS.md` §§ 4a, 4b): no new card. HYG ×5 hedge (WQ-615 A) FIRED with a green HYG day 11/9, but vendor legs DEAD, so no debit; Will's broker chain decides (≤ $0.60, max loss $306.50, window to 12/4). **Owed:** HY 11/6 cell (about 10:10 ET 11/9) against WQ-513's 350 count (0 of 3); book an HYG ×5 fill only on Will's word; re-pull HYG legs if asked.
 0a. **UNG card CLOSED** 2026-11-08 on Will's 11/7 09:22 ET word, never filled, $0; § 7a test no longer operates; PB-0010 stays OPEN as the ghost. Will's Robinhood Dec-24 $10.5 call ×1 (NOTE-UNG105C-DEC24) is his own position: no sell rule, no prompts.
 0b1. **HYG hedge (WQ-615):** T1(a) FIRED on 348 [11/5], order stands, first green HYG day through 12/4, no fill known. **QQQ (WQ-617):** bring to Will on live VIX3M/VIX ≥ 1.00 on a red QQQ day by 11/20, else close. CAL-0003 11/12.
 0b2. **Closes:** read a close after about 16:30 ET. On 11/5 a 16:12 daily bar showed UNG's last minute bar $9.255 (red), and the final was $9.27 (flat); VIX family prints to about 16:15.

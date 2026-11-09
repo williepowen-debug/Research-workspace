@@ -72,6 +72,18 @@ Held lines (GLD, USO, VLO, the bank and credit puts, FLG Mar-19-2027 $10P): Will
 | ORCL 115/100P (approved) | **NOT FIRED** | ORCL $116.02 vs $120 T2; CDS 305 [11/5], no newer file | CDS ≥ 350 and ORCL ≥ $120; debit ≤ $4.40 |
 | QQQ 670/680C (WQ-617 C, not approved) | **NOT FIRED** | QQQ green pre-open (+0.66%). VIX3M/VIX = 24.60 / 23.50 = 1.047, but mixed vintage (Friday VIX3M over an overnight VIX), not a reading | A red QQQ session with live VIX3M/VIX ≥ 1.00. ⚠️ VIX fell 2.1 points overnight, so the ratio leg may read ≥ 1.00 live; the trigger then rests on QQQ turning red. A fire goes to Will for a decision; it is not approved |
 
+## 4b. Monday 11/9 live reprice after the open (09:32:01–09:33:14 EST, from `date`)
+
+**Result: no new card. The approved HYG ×5 hedge has its entry day, but the vendor feed carries no quote for its legs, so its debit can only come from Will's broker chain.** Evidence: `live_1109.txt`. $0 moved; no order is approved; the order is Will's hand (root rule #5).
+
+| Card | State | Live figures | Verdict |
+|---|---|---|---|
+| HYG 76/73P ×5 (WQ-615 A) | **FIRED; entry condition met** | HYG $77.42, +0.24% vs $77.23 (09:32:10): a green session. All four HYG Jan-15 legs read 0.00/0.00 [DEAD], exit 2, at 09:32:01, 09:32:24 and 09:33:14 | **No debit computed** (the gate forbids it). Order rule unchanged: broker 76P ask − 73P bid ≤ $0.60. Max loss at the limit $306.50; break-even $75.39. Over $0.60, or HYG red at order time, means no trade today; the window runs to Fri 12/4. Green at 09:32 can flip |
+| HYG 77/74P ×4 (WQ-513 A) | **NOT FIRED** | 0 of 3 > 350; the 11/6 cell lands about 10:10 ET | No fill today |
+| ORCL 115/100P | **NOT FIRED** | ORCL $115.78 (−0.28%) vs the $120 T2. 115P 8.30/12.05, 100P 2.59/6.60: mid $5.58, outer $9.46 | Over the $4.40 cap even at mid (opening-minute width) |
+| QQQ 670/680C (WQ-617 C, not approved) | **NOT FIRED** | QQQ $663.30, +1.10%, green (the trigger needs red). VIX $23.16; VIX3M shows Friday's $24.60, so there is no live ratio. 670C 21.16/21.40, 680C 16.03/16.27: outer $5.37 | Over the $4.90 cap |
+| Oil re-look | **NOT triggered** | Brent F27 $92.98 (−5.43%), H27 $88.82, M1−M3 +$4.16; USO $142.88 (−3.73%) | Falling, under BRENT's ~$95 line. USO is Will's line, reference only |
+
 ## 5. Inbox: four PROME packets of 11/7, all consumed
 
 | Packet | Disposition |
