@@ -51,6 +51,27 @@ Held lines (GLD, USO, VLO, the bank and credit puts, FLG Mar-19-2027 $10P): Will
 4. After 09:30 ET: live chains with `--no-cache --legs` for the HYG ×5 hedge first. Present it only on a green HYG print and a broker debit ≤ $0.60. Then reprice the other three cards for their records.
 5. HY 11/6 cell about 10:10 ET: count WQ-513 (> 350, 0 of 3 now).
 
+## 4a. Monday 11/9 pre-open finalization (PROME tap, run 07:37–07:38 EST from `date`)
+
+**Result: still no new card. Every card below is NOT FIRED or FIRED-unfilled; no debit is quotable before the open. $0 moved; no order is approved.** Evidence: `preopen_1109.txt`.
+
+| Step | Reading (pulled 07:37–07:38 EST) | Verdict |
+|---|---|---|
+| 1. Oil reopen | Brent Jan-27 (BZF27) $94.93 on the 07:25 bar, −3.45% vs the $98.32 Friday settle. Overnight high $98.42 at 22:05 Sun, low $94.43 at 06:20. M1−M3 (BZF27 − BZH27 $90.33) = +$4.60. WTI Dec $88.25 (−2.84%). Monday-session bars, vendor about 10 min behind, not a settle | **Oil re-look NOT triggered.** Never near $103; M1−M3 under +$6; price sits under BRENT's ~$95 line, its "noise or a deal" band. Cause unknown to this desk (step 2) |
+| 2. FALCON / BRENT overnight | No commit from either since Sun 19:09; no BOARD signal after SIG-W-20261108-002; no TERRY inbox packet | Nothing on file. The −3.45% has no graded explanation; that is BRENT's to read, not TERRY's |
+| 3. Pre-market prints | HYG $77.26 (06:11, thin); QQQ $660.46 (07:37, +0.66% vs $656.10); ORCL $116.02 (07:37); FLG $10.59 (07:03); USO $144.64 (07:36, −2.5%); SPY $740.67; VIX $23.50 (overnight session); VIX3M $24.60 is Friday's, not computed overnight | Pre-open prints are not a session colour |
+| 4. Chains, `--no-cache --legs` | All eight legs (HYG 76/73P, 77/74P; ORCL 115/100P; QQQ 670/680C) read bid 0.00 / ask 0.00 [DEAD], exit 2 | Expected before 09:30: the vendor carries no live quote. **No debit computed.** Re-pull after the open |
+| 5. HY 11/6 cell | Not yet (about 10:10 ET) | WQ-513 stays 0 of 3 |
+
+**Card state at pre-open:**
+
+| Card | State | Figures (pre-open) | What decides it after 09:30 |
+|---|---|---|---|
+| HYG 76/73P ×5 (WQ-615 A) | **FIRED, UNFILLED** | HYG $77.26 pre vs $77.23 close; debit unquotable | A green HYG session vs $77.23 and a broker debit ≤ $0.60; max loss $306.50 |
+| HYG 77/74P ×4 (WQ-513 A) | **NOT FIRED** (0 of 3 > 350) | — | Cannot fill Monday; at most 1 of 3 after the 10:10 cell |
+| ORCL 115/100P (approved) | **NOT FIRED** | ORCL $116.02 vs $120 T2; CDS 305 [11/5], no newer file | CDS ≥ 350 and ORCL ≥ $120; debit ≤ $4.40 |
+| QQQ 670/680C (WQ-617 C, not approved) | **NOT FIRED** | QQQ green pre-open (+0.66%). VIX3M/VIX = 24.60 / 23.50 = 1.047, but mixed vintage (Friday VIX3M over an overnight VIX), not a reading | A red QQQ session with live VIX3M/VIX ≥ 1.00. ⚠️ VIX fell 2.1 points overnight, so the ratio leg may read ≥ 1.00 live; the trigger then rests on QQQ turning red. A fire goes to Will for a decision; it is not approved |
+
 ## 5. Inbox: four PROME packets of 11/7, all consumed
 
 | Packet | Disposition |

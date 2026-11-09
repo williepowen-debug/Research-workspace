@@ -1,0 +1,58 @@
+# Monday 2026-11-09 pre-open pulls (TERRY). Clock from date:
+Mon Nov  9 07:38:21 EST 2026
+
+## fetch.py price (vendor futures ~10 min behind; bars after 18:00 ET Sun = Monday session, not a settle)
+
+ Ticker     Name                        Price     Change              As-of        Volume
+ ---------------------------------------------------------------------------------------
+ BZF27.NYM  BZF27.NYM                  $94.93     -3.45%         2026-11-09        11,895
+            └─ contract: UNKNOWN (name-cut-inferred-from-width-at-31:'Brent Crude Oil Last Day Financ')
+ BZG27.NYM  BZG27.NYM                  $92.39     -3.41%         2026-11-09         8,721
+            └─ contract: UNKNOWN (name-cut-inferred-from-width-at-31:'Brent Crude Oil Last Day Financ')
+ BZH27.NYM  BZH27.NYM                  $90.33     -3.18%         2026-11-09         7,162
+            └─ contract: UNKNOWN (name-cut-inferred-from-width-at-31:'Brent Crude Oil Last Day Financ')
+ CL=F       WTI Crude                  $88.25     -2.84%         2026-11-09        82,774
+            └─ contract: Dec 2026 (CLZ26)
+ HYG        HY Bond ETF                $77.23     -0.06%  2026-11-06 ⚠stale    31,778,300
+ QQQ        QQQ                       $656.10     +1.40%  2026-11-06 ⚠stale    70,469,100
+ ORCL       ORCL                      $116.10     +0.82%  2026-11-06 ⚠stale    47,503,200
+ FLG        FLG                        $10.52     -0.75%  2026-11-06 ⚠stale     4,825,000
+ USO        USO                       $148.41     +0.13%  2026-11-06 ⚠stale     4,001,900
+ ^VIX       VIX                        $23.50     -8.35%         2026-11-09             0
+ ^VIX3M     ^VIX3M                     $24.60     -3.72%  2026-11-06 ⚠stale             0
+ ^OVX       ^OVX                       $58.29     -3.32%  2026-11-06 ⚠stale             0
+ ⚠ vendor futures quotes run about 10 minutes behind (median, measured 2026-11-05, L925)
+
+## yfinance .info pre-market (preMarketTime converted to ET)
+HYG     pre 77.26 at 06:11:42  regularMarketPrice 77.23  state PRE
+QQQ     pre 660.52 at 07:38:15  regularMarketPrice 656.1  state PRE
+ORCL    pre 116.1742 at 07:38:11  regularMarketPrice 116.1  state PRE
+FLG     pre 10.59 at 07:03:47  regularMarketPrice 10.52  state PRE
+USO     pre 144.6404 at 07:36:54  regularMarketPrice 148.41  state PRE
+SPY     pre 740.67 at 07:38:12  regularMarketPrice 735.29  state PRE
+^VIX    pre None at -  regularMarketPrice 23.5  state REGULAR
+^VIX3M  pre None at -  regularMarketPrice 24.6  state PRE
+BZ=F since Sun 18:00 ET: first 97.45 @11-08 18:10, high 98.42 @11-08 22:05, low 94.43 @11-09 06:20, last 94.93 @11-09 07:25 (5m bars, ET)
+CL=F since Sun 18:00 ET: first 90.32 @11-08 18:10, high 91.42 @11-08 22:05, low 87.54 @11-09 06:20, last 88.25 @11-09 07:25 (5m bars, ET)
+
+## chain_fetch.py --no-cache --legs (pre-open)
+== HYG 2027-01-15 --type put --legs 76,73
+  🔴 DEFECTIVE     76.00 P  bid 0.00 / ask 0.00  [DEAD]
+  🔴 DEFECTIVE     73.00 P  bid 0.00 / ask 0.00  [DEAD]
+
+⛔ EXIT 2 — a requested leg is unusable. DO NOT compute a net debit off this pull. Re-pull; if it persists, the leg is untradeable and that is a NO TRADE, not a number to work around.
+== HYG 2027-01-15 --type put --legs 77,74
+  🔴 DEFECTIVE     77.00 P  bid 0.00 / ask 0.00  [DEAD]
+  🔴 DEFECTIVE     74.00 P  bid 0.00 / ask 0.00  [DEAD]
+
+⛔ EXIT 2 — a requested leg is unusable. DO NOT compute a net debit off this pull. Re-pull; if it persists, the leg is untradeable and that is a NO TRADE, not a number to work around.
+== ORCL 2026-12-18 --type put --legs 115,100
+  🔴 DEFECTIVE    115.00 P  bid 0.00 / ask 0.00  [DEAD]
+  🔴 DEFECTIVE    100.00 P  bid 0.00 / ask 0.00  [DEAD]
+
+⛔ EXIT 2 — a requested leg is unusable. DO NOT compute a net debit off this pull. Re-pull; if it persists, the leg is untradeable and that is a NO TRADE, not a number to work around.
+== QQQ 2026-12-18 --type call --legs 670,680
+  🔴 DEFECTIVE    670.00 C  bid 0.00 / ask 0.00  [DEAD]
+  🔴 DEFECTIVE    680.00 C  bid 0.00 / ask 0.00  [DEAD]
+
+⛔ EXIT 2 — a requested leg is unusable. DO NOT compute a net debit off this pull. Re-pull; if it persists, the leg is untradeable and that is a NO TRADE, not a number to work around.
