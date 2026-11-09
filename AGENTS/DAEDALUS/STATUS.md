@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-11-07 — CARL scoring complete and independently accepted; overdue weekly scorecard delivered; bounded disposition plan delivered with counterpart pending. Stop for prioritization.**
+**Last Updated: 2026-11-09 — startup recovery only; WQ-654 approval and counterpart recovered; implementation not begun.**
 
 **Current judgment:** The separate twelve profile deltas and fourteen-proposal dispositions are complete, L889 reading-copy repair independently accepted, and HOMER now independently L4/H. Thirty map rows re-cut; thirty-seven live profile deltas preserve old whole vintages. This is bounded review completion, not fleet-wide clearance: whole Harness/profile clocks and unimplemented tool/owner work remain open. DAEDALUS L4/M retained, no L5 adjudication.
 
@@ -85,9 +85,9 @@
 - **Weekly scorecard COMPLETE:** `runs/2026-11-07_SCORECARD_2026-11-06_DELIVERY.md`. One day late; unchanged v1.3, 27 selftests pass, production rc 0. Later snapshot/prior partial-Friday limits retained; activity counts are not demonstrated improvement.
 - **Disposition plan DELIVERED:** `runs/2026-11-07_DISPOSITION_PLAN.md`. Credits nine whole profiles, PR9 deltas, L817, C17, root rotation and CATO result. B24 token already applied; ZHAO charter awaits Will/owner. TERRY consumer check remains narrow. A09/aggregate profile queue/age-only whole Harness recurrence retirements are proposals, UNVERIFIED-REMEDY; no requirement dropped. PROME reciprocal counterpart pending.
 
-## BOTTOM LINE — 2026-11-07
+## BOTTOM LINE — 2026-11-09
 
-- **WORK:** Three authorized deliverables prepared; CARL review accepted, scorecard complete, disposition plan retains review limits. Stop after publication; no next backlog task.
-- **CHECKS:** CARL arithmetic/source checks accepted; scorecard 27/27 and rc 0. Whole Harness/profile clocks remain DUE. Plan counterpart and retirement consumer review remain pending; closeout 20261107T162902Z rc 0, no mechanical BLOCKING/UNKNOWN; cadence and unrelated ledger nudges remain DUE.
-- **DELIVERY:** CARL b5e629ac1e and scorecard 61754aa646 committed. Plan/continuity/completion packet committed 7ae2d6edaa; safe-push fresh-fetch confirmed, verify 20261107T162953Z rc 0 with 17 paths byte-identical on origin. Recipient consumption unverified.
-- **OPEN:** PROME coordinates record reconciliation and bounded counterpart; Will retains retirement authority. CARL owns explanations; ZHAO charter and WQ-601 unit 4 remain owner/Will-dependent. Two unrelated PROME packets (L816; L852/L556) retained, including SURFACES pointer follow-up. No other ownership, approval or trigger changed.
+- **WORK:** Startup recovery complete; no backlog implementation or launch. WQ-654 A is approved, superseding the older pending-retirement/counterpart statements above. Evidence: `runs/2026-11-09_BOOT_RECOVERY.md`.
+- **CHECKS:** Boot 20261109T154701Z rc 0; CLEAN 3, DUE 1. Installed Harness/profile alerts remain until WQ-654 implementation; no whole-audit clearance.
+- **DELIVERY:** PROME's November 7 counterpart packet confirms prior four packets consumed/filed. Today's recovery saved locally; publication checked at closeout, recipient consumption not claimed.
+- **OPEN:** WQ-654 implementation and required review are the suggested next assignment. Four inbox packets retained with pending actions; SHADE registry, SURFACES pointer, L816 review and optional blueprint suggestion remain. WQ-601 unit 4 and existing owner dependencies unchanged. No new decision required.
