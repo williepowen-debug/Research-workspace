@@ -158,3 +158,23 @@ WALTER (READS row 143) and NEXUS (row 341) read the head of `PROME/STATUS.md`; t
 - READS.tsv: PROME's ATTESTATION row is re-filed with rows 108, 109, 114. `WILL_QUEUE.md`'s header sentence about the operator card is corrected.
 - Charter and root edits: the replacement text for `PROME/CLAUDE.md` § Handoff Requirement and Boot step 5, and for the `AGENTS.md` reference line, is drafted in the ruling record before insertion (Will approved "consumer updates", and §3 named both files as Will-gated). Snapshot is taken BEFORE any edit; crc32 from `measure.py`. Rollback is `git revert` of the migration commits. One result read, no more.
 - `argus_scope.py`'s recorded perimeter updates at its next recorded baseline (tonight's closeout), not here.
+
+## 9. Result read (2026-11-09, one read, Opus, bounded to commit 43066aca48): ❌ 3 · ⚠️ 15
+
+Ledger: `PROME/archive/NOW_MIGRATION_2026-11-09/resultread.md`. Held: snapshots byte-identical to the pre-commit files; no authority moved (owner lanes, restrictions, standing readings verbatim; charter and AGENTS.md hunks match the ruling addendum); skill copies identical; tool checks pass; new rows trace to the record.
+
+**❌ fixed 16:11 ET (one further edit; these fixes are UNREVIEWED, no read follows them):**
+1. WQ-653's "adoption unconfirmed" limit restored on the NOW page § Standing words.
+2. FALCON's read-cap flag (still failing) added to D:L1095.
+3. `USER.md`'s reconstruction line repointed to `PROME/reports/2026-11-05_forecast-report-1.md` § Closed and narrowed to that report (the first wording cited the wrong record and widened Will's word).
+
+**⚠️ declared residue, not fixed:**
+- Live text that still names the old shapes: `PROME/tools/spine_audit.workflow.js` line 76 hands HANDOFF (now a stub) to a reader; `PROME/BOOT.md` step 4, `PROME/FLEET_SCAN.md` line 20 and `PROME/ORCHESTRAL_LAYER_DESIGN.md` line 44 call STATUS a "work queue"; `PROME/AUTONOMY.md` lines 17, 21, 29 name HANDOFF as a closeout write. `PROME/HANDBOOK.md` is frozen history. Fix at the next spine audit (D:L1084 class).
+- NOW page: the desk-window list carries this session's 15:14 ET ListAgents names with no committed record (it is labelled a lead, not presence); the CARL bullet cites D:L797, which is CARL's beef row graded the same day, beside the HHDC row D:L1017.
+- `MACHINE_LOCAL.md` says ORACLE's collision "was fixed"; the record supports a sync-first fix to the pull block, and the routine still runs on both boxes (`AGENTS/ORACLE/SCHEDULED_RUNS.md`).
+- Left the live surfaces, reachable in the snapshot only: the note "WQ-513/514: no X1 wording on record, a fire must show X1 as Will's choice" (the general rule stands in `USER.md` and STATUS § Restrictions); the prome-80 read-episode counts marked binding (Gate 069 episode 2, ta_ws 2, L920 2, no third read; `archive/SCRATCH_ROTATED_2026-11-07_prome-bf.md`); "TERRY's 30 hPa fact sits in AEOLUS's inbox, PROME does not chase"; STATUS's byte-flow re-check sentence; the note that generated DOCKET and the queue are over their advisory sizes.
+- D:L1095 names REGINALD for BKU; the snapshot named no desk. The Decisions-app row gained an owner cell consistent with BOOT step 3b.
+- BOOT step 8's sub-rule changed from "third boot unrun leaves SCRATCH for a row" to "a row when it arises"; a process rule inside the approved consolidation, not quoted in the ruling addendum.
+- Not read by the result reader: the CLOSEOUT, CLOSEOUT_PROCEDURES, SYSTEM, COMPLETION_SPEC and GIT_COORDINATION hunks line by line (grepped only); the plan's § 2 and § 3 tables.
+
+**State:** IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED as of 43066aca48 with the three ❌ above then fixed without a further read · STILL UNRESOLVED: the residue list. Read budget for this episode is spent (plan 1, result 1).

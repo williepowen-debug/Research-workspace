@@ -4,7 +4,7 @@
 **This page references ledgers; it never copies their state.** Obligations live in DOCKET, decisions in WILL_QUEUE, gate state in GATES, positions in FORGE, standing rules in [STATUS](STATUS.md). History is the daily note and git. Rebuilt 2026-11-09 under WQ-658 A; the page it replaced is `archive/NOW_MIGRATION_2026-11-09/SCRATCH.md`.
 
 ## Next, in order
-1. NOW migration result read and its ❌ fixes (WQ-658 A; plan `proposals/2026-11-09_wq655-NOW-consolidation-PROPOSAL.md` § 8), then report to Will: completion, unresolved conditions, both review results.
+1. NOW migration DONE (WQ-658 A): result read ❌ 3 fixed, residue declared in `proposals/2026-11-09_wq655-NOW-consolidation-PROPOSAL.md` § 9; the live-text residue is fixed at the next spine audit (D:L1084).
 2. BROCK Car-Mart final read after the 8-K window (D:L927; message brock-73).
 3. Skydance Q3 10-Q read after it files tonight (D:L811; first half logged in `themes/ellison/log.md`); if not filed, re-date the row at closeout.
 4. Evening Standard closeout (no row: session duty): closeout ask to every desk touched 11/9 (ORCH_LOG) · ARGUS end-of-day (WQ-485) and the two items on D:L1096 · daily-note lessons: a relayed search miss reported as a refutation; two narrative clock stamps (10:4x, 14:4x); the COR-20261109-09 receipt said "zero hits" while DOCKET held two old unrelated Rubio rows; the FERT census scaffold gap (PROTOCOL.md and RECEIPT.md still counted).
@@ -33,12 +33,12 @@ Run `python3 PROME/tools/will_brief.py --book-line` and paste its line whole; no
 - Launches on Will's word: ORACLE, SAM, VULCAN, BRENT, HENRY, ZHAO, NEXUS, BOND, CARL, FERT. Catch-up touches to the seven Will-launched desks. DAEDALUS touch (WQ-655, WQ-657).
 - C9 commissions 0 of 2. Done without asking: none.
 - Process changes: inbox_census scaffold skip (c49c5f261f, PROCESS) · the NOW migration (WQ-658 A, PROCESS, Will-approved).
-- Read episodes: NOW migration: plan read 1 of 1 used (❌ 9, fixed in the plan § 8); result read owed, then no more.
+- Read episodes: NOW migration: plan read used (❌ 9) and result read used (❌ 3); budget spent, the three result fixes are unreviewed.
 - Memory: about 2.4 GB free at 14:39 ET with 13 desks; launch rule in the playbook's spawn checklist.
 - Session timers: none.
 
 ## Standing words (pointers only)
-`USER.md`: no expiry nagging · quiet mode during desk sweeps · historical reconstruction stopped · Will's only window is this chat. WQ-653: desks apply the current-state rule through existing files, no new summary file and no launch for it alone. Quartr: never call, never re-auth (`memory/auto/feedback_quartr_no_subscription_do_not_call.md`). Restrictions: [STATUS § Restrictions](STATUS.md).
+`USER.md`: no expiry nagging · quiet mode during desk sweeps · forecast report 1's historical reconstruction stopped · Will's only window is this chat. WQ-653: desks apply the current-state rule through existing files, no new summary file and no launch for it alone; ⚠️ adoption is unconfirmed: four running desks got the rule by message on 11/7 and none has confirmed, and dormant desks are unchanged until they next wake. Quartr: never call, never re-auth (`memory/auto/feedback_quartr_no_subscription_do_not_call.md`). Restrictions: [STATUS § Restrictions](STATUS.md).
 
 ## Links
 [Calendar](state/CALENDAR.md) · [Fleet view](state/FLEET.md) · [STATUS](STATUS.md) · [HEARTBEAT](../HEARTBEAT.md) and its [current rebase plan](plans/2026-11-06_heartbeat-38th-rebase-PLAN.md) (owner grades and declared residue carry into the next base) · [research-first briefing rule](proposals/2026-10-25_research-first-briefing-RULED.md) · [ARGUS delivery contract](tools/ARGUS_CONTRACT.md) · theme homes: STATUS § Live Surfaces · size: `scripts/read_cap_check.py --agent PROME`.
