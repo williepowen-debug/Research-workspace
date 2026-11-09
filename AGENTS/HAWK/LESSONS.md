@@ -62,3 +62,7 @@
 ## [2026-11-06] A proxy with no known-positive control certifies nothing, and I had called it a measured negative
 **What happened:** on 10/29 I accepted TD6/TD19 as a stand-in and wrote "SATISFIED-BY-PROXY, a measured negative". OSPREY's 16-week backfill showed it fires only on CPC disruption and reads clear in 9 of 10 windows.
 **Rule:** before a proxy may satisfy a test, show it has seen the object at least once. If it never has, it can only cue, never clear.
+
+## [2026-11-09] Two lessons from the catch-up: a search miss is not a refutation, and a fingerprint record must cover every changed input
+**What happened:** (1) I carried WALTER's "not found" search for the Rubio quote and the IRGC claim date as a refutation; FALCON had both at the primaries, and PROME's relay reversed it. (2) Twice in one session I recorded fingerprints with an owner input changed and unread: first FALCON's brief at 10:55 ET, then OSPREY STRIKES `e4bc891bb9`, committed 10:51:23 ET, in the same minute as my aggregate stamp. The aggregate said "unchanged" and the brief said "OSPREY has not rowed Kirishi" for about two hours.
+**Rule:** (1) a search that finds nothing is a statement about the search, not the event; write UNVERIFIED, never "did not happen". (2) Before `--record`, list every REVIEW path that the capture printed and name the diff read for each; a stamp written in the same minute as an owner commit has to be re-checked against `git log`.

@@ -1,6 +1,6 @@
 # HAWK STATUS
 
-**Updated:** November 9, 2026, 10:49 ET (from `date`), catch-up on Will's word via PROME 10:46 ET, closeout pending; prior stamp November 6, 18:36 ET closeout. Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Root/local instructions explicitly read. No trade book. **No mark, band, score or letter moved; no registered letter required one.**
+**Updated:** November 9, 2026, 13:00 ET (from `date`; trade-clock card 010 applied; prior 10:49 ET), catch-up on Will's word via PROME 10:46 ET, closeout pending; prior stamp November 6, 18:36 ET closeout. Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Root/local instructions explicitly read. No trade book. **No mark, band, score or letter moved; no registered letter required one.**
 
 ## Decisions and thresholds (top)
 
@@ -26,7 +26,7 @@ Mid-session record; full closeout pending PROME's ask. Nothing moved a mark, ban
 | Oil, BRENT's figures | Brent Jan27 $94.16 at 08:38 ET (−$4.16 from the $98.32 Friday wire settle), $94.53 at 10:45 ET; WTI Dec26 $87.62 → $88.03 [vendor intraday, not settles] (KB-517) | Price falling on diplomacy reports while both wars pressed: Riyadh office, Khasab tanker fire, Kirishi fire (OSPREY's). No stated crude loss in either war; K1 UNMEASURED |
 | Odds | ORACLE 11/8: about 76 priced for a qualifying US land strike by about 11/21, thin (KB-518) | ORACLE's read; a new market's rule, never differenced against the old |
 | **Taiwan** | Taiwan's NSC (Wu, 11/3): **100+ PLA Navy and coast-guard vessels** in the western Pacific; AEI/ISW 11/6: possible **unannounced** isolation exercise, three theater commands; MND 49 sorties 11/2 (KB-519) | **TWNMIL YELLOW held**: no declared exercise, closure zone or shipping effect. HAW-25 not met; a PRC naming would resolve it YES. HAWK's 11/6 one-day read missed this |
-| Trade 11/10 | BIS stay published to 1/10/2027; MOFCOM 公告70 no re-suspension, China's controls return after 11/10 unless it files; USTR ship-fee final notice absent, suspension ends 11/9 23:59 ET (KB-520, ZHAO) | 2025 notice came 11/13, so no paper ≠ fees resume. ZHAO grades |
+| Trade 11/10 | **Every 11/10 clock re-suspended on paper; none reactivated** (ZHAO at the primaries 11/9 12:09–12:12 ET; KB-523, supersedes KB-520): MOFCOM–GAC 公告**2026年**第58号 to 1/10/2027 Beijing; Hanwha 令2026年第4号 2 more months; USTR ship and crane fees FR 2026-22867 and 178 exclusions FR 2026-22925 through 11:59 p.m. ET 1/9/2027; BIS stay "until January 10, 2027" | Four instruments, two capitals, never one "1/10 cliff". MoT port-fee leg B2 (primary unread). HAWK read ZHAO's rows, not the primaries. ZHAO grades |
 | Coverage | EURMIL native check (owed 11/8): no Article 4 or incursion found 11/6–11/9; CIT, Majlis, Bab, OFAC, war-risk quote: nothing new found (KB-521) | Search index thin for November; coverage, not negatives. Primaries still owed |
 
 ## Close refresh, November 6 (KB-504..510)
@@ -59,7 +59,7 @@ Mid-session record; full closeout pending PROME's ask. Nothing moved a mark, ban
 ## Dormant book
 
 Marks unchanged: VEN GREEN; TWN/TWNMIL/IRAQ/FININFRA YELLOW; TRADE01/TRADE02/CODIF/EURMIL ORANGE; SULPHUR RED; CEASEFIRE SUPERSEDED.
-- **TRADE01:** BIS Affiliates stay moved to about 1/10–1/11 (FR 2026-22793 publishes 11/9). MOFCOM 公告70 still reads 11/10, no paper as of ZHAO's 11/6 read. USTR ship fees proposal only, ends 11/9, no final notice on public inspection at about 17:20 ET (KB-506). Three clocks, not merged (KB-489).
+- **TRADE01:** ORANGE held. All 11/10 clocks re-suspended 11/9 to the January 9–11, 2027 cluster (KB-523): USTR ship fees, crane duties and exclusions end 11:59 p.m. ET 1/9; BIS stay "until January 10"; 公告2026年第58号, Hanwha 令2026年第4号 and MoT port fees (B2) about 1/10 Beijing. One CATALYSTS row per instrument, not merged (KB-489).
 - **TRADE02 / CODIF:** S338 50% unchanged; S301 and Gellert unruled; CIT asked S301 plaintiffs on 11/4 to list countries. AGOA removals reported, no FR instrument (KB-493). No collection evidence.
 - **EURMIL:** backstop swept 11/6, ORANGE held. Article 4 9/30–11/6 not primary-closed; Article 5 UNMEASURED; no RED (b) activation found. Poland's deployment moves no rung (KB-491).
 - **Backstops:** Iraq / FININFRA / SULPHUR 11/12; VEN/TWN/TWNMIL/CODIF 12/5; EURMIL native 11/8.

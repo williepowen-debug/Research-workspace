@@ -22,10 +22,10 @@ Boot; intake 9 WALTER cards + ZHAO packet dispositioned and filed; COR-20261107-
 ## NEXT SESSION
 
 1. **Deal reports (KB-516):** confirm or deny at a government primary; G7 Paris communique 11/10; Qatar PM at the White House. FALCON owns C→B.
-2. **Trade clocks 11/10–11/11:** USTR ship-fee determination (suspension ended 11/9 23:59 ET), MOFCOM 公告70, ZHAO's ZHA-19 grade. Update KB-520. Also Syria/Russia Mediterranean MOU (CATALYSTS, joint OSPREY watch, was 11/9).
+2. **Trade clocks: RESOLVED 11/9, moved to the January 9–11, 2027 cluster** (card 010, KB-523; six CATALYSTS rows, one per instrument). Still open: MoT port-fee primary unread (B2); ZHA-19/20 grades 11/10–11/11 are ZHAO's. Also Syria/Russia Mediterranean MOU (CATALYSTS, joint OSPREY watch, was 11/9).
 3. **Taiwan (KB-519):** watch for a PRC naming (resolves HAW-25 YES), a closure zone or navigation warning near the Strait lanes (TWNMIL ORANGE test), MND daily counts. Re-check by 11/16.
 4. **EURMIL native check, OVERDUE from 11/8:** web found no Article 4 request 11/6–11/9 (KB-521), but it is not primary-closed; equipment stocks still owed. Next primary pass by 11/12.
-5. Abu Dhabi Ukraine talks 11/10–11 (OSPREY's); Kirishi fire 11/9 per BRENT relay, OSPREY to row.
+5. Abu Dhabi Ukraine talks 11/10–11 (OSPREY's); Kirishi 11/9 rowed by OSPREY (B2, newest C1 anchor, leg A earliest 11/23; +5-day re-read about 11/14 is OSPREY's).
 6. Nov 12: IRAQ / FININFRA / SULPHUR backstops.
 7. **C3 limb 2 (WQ-637 A):** first grade at the 11/27 DOCKET wake; dated canvass inside 11/25–11/27, naming each outlet and one outlet-free query. Letter: OSPREY CLAUDE.md §1.
 8. Dec 5: VEN / TWN / TWNMIL / CODIF backstops. Dec 15–21: HAW-22 final search; Dec 22 resolve. Dec 31 late ET: HAW-23..26 dated searches.
@@ -45,7 +45,7 @@ Boot; intake 9 WALTER cards + ZHAO packet dispositioned and filed; COR-20261107-
 ## MAIL STATE
 
 - Inbox: clear (ZHAO 11/8 filed).
-- WALTER lane: clear through SIG-W-20261109-001 (consumption ack sent to walter-da 10:49 ET).
+- WALTER lane: clear through SIG-W-20261109-010 (card 010 applied 13:00 ET; earlier acks to walter-da 10:49 and 10:56 ET).
 - Outbox: none. PROME told by message; no packet, nothing changed a grade, gate or route.
 
 ## PENDING PUSH / GIT
