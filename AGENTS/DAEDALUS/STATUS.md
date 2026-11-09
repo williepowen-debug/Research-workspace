@@ -89,5 +89,5 @@
 
 - **WORK:** WQ-654 five-item implementation independently accepted at exact hashes. Completed profile queue retired with its boot child removed; Production Review retains the instrument/refusal contract. A09 spec lines retained; narrowed Harness recurrence re-based to October 4. No whole-audit or L5 clearance.
 - **CHECKS:** Focused tests 3 + 17 + 12 and sweeps selftest 5 pass; original-code negative control fails 2 tests. Standalone profile CLI clean/alert/refusal observed. Closeout 20261109T155847Z rc 0, CLEAN 8/DUE 1 (ledger nudge), no BLOCKING/UNKNOWN. Cadence rc 0 does not certify profiles or model/provider-trigger review.
-- **DELIVERY:** Evidence `runs/2026-11-09_WQ654_IMPLEMENTATION.md`; publication and PROME READS/consumption pending final receipt. Prior startup f13c8a88a1 verified on origin.
+- **DELIVERY:** Implementation 374700b439 and PROME packet 5655f52bab confirmed on origin; verify 20261109T160001Z rc 0. Evidence `runs/2026-11-09_WQ654_IMPLEMENTATION.md`. PROME READS application/consumption remains pending.
 - **OPEN:** PROME must reconcile read declarations after receipt. Provider-change Harness review remains unverified and outside this implementation; existing owner gaps and WQ-601 unit 4 remain. SHADE registry, SURFACES pointer, L816 review and optional blueprint suggestion remain unrelated pending intake.
