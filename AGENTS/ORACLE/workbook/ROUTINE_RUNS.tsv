@@ -7,3 +7,4 @@ run_ts_utc	et_date	host	status	pm_rc	pm_rows	kalshi_rc	kalshi_rows	spread_rc	not
 2026-11-04T15:15Z	2026-11-04	DESKTOP-BC6EF81	OK	0	52	0	11	0	spread +64.0pp
 2026-11-05T15:15Z	2026-11-05	DESKTOP-BC6EF81	OK	0	52	0	7	0	spread +73.5pp
 2026-11-06T15:15Z	2026-11-06	DESKTOP-BC6EF81	OK	0	52	0	9	0	spread +71.5pp
+2026-11-09T15:15Z	2026-11-09	DESKTOP-BC6EF81	OK	0	49	0	9	0	spread +77.0pp
