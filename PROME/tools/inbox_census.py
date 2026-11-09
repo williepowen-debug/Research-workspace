@@ -3,13 +3,18 @@
 
 Usage: python3 PROME/tools/inbox_census.py LABOR [SAM ...]     (repo-root or PROME/ cwd both fine)
 
-Counts FILES only (never directory entries), at the top level of AGENTS/<DESK>/inbox/ and separately per lane
+Counts FILES only (never directory entries; dotfiles and README* scaffolds skipped), at the top level of AGENTS/<DESK>/inbox/ and separately per lane
 subdirectory (e.g. WALTER/), excluding any `processed/` directory at either level. PROME's own surface is
 PROME/inbox/ at the repo root (never AGENTS/PROME/). rc 0 always; the numbers are the output.
 Origin: 9/4 doorbells quoted every desk one high because `ls | grep -v processed | wc -l` counted the WALTER/ lane
 directory as an item (BOND 3→2, VIOLET 7→6, LABOR 2→1+2-lane, SAM 1→0).
 """
 import os, sys, subprocess
+
+def item(dp, f):
+    # Scaffold files are not packets (2026-11-09: WALTER and CORAL were each quoted a
+    # .gitkeep/README/.gitignore as an unread item): dotfiles and README* are skipped.
+    return os.path.isfile(os.path.join(dp, f)) and not f.startswith(".") and not f.upper().startswith("README")
 
 def root():
     return subprocess.run(["git","rev-parse","--show-toplevel"],capture_output=True,text=True).stdout.strip()
@@ -18,12 +23,12 @@ def census(desk):
     base = os.path.join(root(), "PROME", "inbox") if desk.upper()=="PROME" else os.path.join(root(), "AGENTS", desk.upper(), "inbox")
     if not os.path.isdir(base):
         return desk, None, {}
-    top = sorted(f for f in os.listdir(base) if os.path.isfile(os.path.join(base,f)))
+    top = sorted(f for f in os.listdir(base) if item(base, f))
     lanes = {}
     for d in sorted(os.listdir(base)):
         dp = os.path.join(base,d)
         if os.path.isdir(dp) and d != "processed":
-            lanes[d] = sorted(f for f in os.listdir(dp) if os.path.isfile(os.path.join(dp,f)))
+            lanes[d] = sorted(f for f in os.listdir(dp) if item(dp, f))
     return desk, top, lanes
 
 def main(argv):
