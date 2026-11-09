@@ -1,6 +1,6 @@
 # ZHAO STATUS
 
-**Updated:** 2026-11-09 12:14 ET (by `date`) — **PROME due-row wake (Will 12:07 ET): the four 11/10 clocks read at their sources, KB-246..250.** Only the header, the 11/10 cluster, resume notes, calendar, predictions line and bottom line changed; every other cell is as of the 11/06 close. Prior: 2026-11-08 12:09 ET.
+**Updated:** 2026-11-09 15:23 ET (by `date`) — **Key-file refresh on Will's word (15:19 ET): dashboard to 11/09 live values, SAFE October reserves and gold, FLOW-15 deferred, KB-251..254.** Earlier today 12:14 ET: PROME due-row wake, the four 11/10 clocks read at their sources, KB-246..250. No score moved. Cells not named here are as of the 11/06 close. Prior: 2026-11-08 12:09 ET.
 📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① ✅ **Both governments filed paper on 11/9: every 11/10 clock is re-suspended to about 1/10/2027.** China: MOFCOM+GAC 公告2026年第58号 continues the export-control package suspension 11/11 to 1/10 (KB-246); Hanwha countermeasures 2 more months (KB-247); MoT port fees to 1/10 (KB-249, secondaries). US: BIS stay in the 11/9 FR (KB-242); USTR ships fees suspended through 1/9 23:59 ET (KB-248). ZHA-19 and ZHA-20 grade 11/10 and 11/11 as lookups. **Next cliff: the 1/9 to 1/11 cluster, four separate texts.** ② **🔴 The PBOC moved its main policy rate to overnight at 1.25% on 11/02, and this desk missed it for 4 days (KB-238).** ZHA-26 replaces ZHA-24 (KB-241). ③ **China 10Y 1.59%, through the 1.60 Orange line** (KB-239). ④ **October activity under 50:** mfg 49.3, construction new orders 40.0 ⇒ **V5 4→5, total 29** (KB-227). ⑤ NPCSC no fiscal figure, ZHA-21 NO (KB-224). ⑥ HK off the weak edge (7.84), spread −135.9bp YELLOW. ⑦ Tomorrow: China Oct CPI/PPI (~), 11/27 公告2024年第46号 clause 2 still open.
 🧊 **Header lines + bottom lines through 11/02 moved VERBATIM → `archive/STATUS_COLD_20261106.md` §ⓐ–ⓖ** (earlier → `…_20261029.md`, `…_20261022.md`).
 **Overall Status:** 🟠 ELEVATED — **29/60** (+1 on 11/06, V5; two-sided shadow 32). **August TIC: China $590.7B; LT −$4.8B, a third month of selling at half the prior pace; 6-month net −$71.5B.** Thesis kill re-specified 10/29 (Belgium leg retired → China flow leg F). Proxy falsified (rho +0.067, n=43); rotation refuted three times.
@@ -24,12 +24,12 @@
 
 ---
 
-## ▶️ RESUME NOTES (2026-11-09 12:14 ET, PROME due-row wake)
+## ▶️ RESUME NOTES (2026-11-09 15:23 ET, key-file refresh after the PROME due-row wake)
 
 No job running. Session stays open until PROME asks for closeout.
 - **Tue 11/10 lookups:** ZHA-19 (confirm federalregister.gov/d/2026-22793) · L858 (FR 2026-22867 published) · L1088 (令2026年第4号 still up) · L435 re-date to 1/10.
 - **Wed 11/11 (after 11/10 23:59 Beijing):** ZHA-20 — confirm 公告2026年第58号 still up and unwithdrawn, then YES at 85%. Packet WATT on the T1 re-date.
-- Unpublished at the 11/06 read, not re-read: SAFE Oct reserves and gold, GACC Oct trade.
+- ✅ SAFE Oct reserves and gold read (KB-251). **GACC Oct trade publishes Tue 11/10** (KB-252), and China Oct CPI/PPI date is still a placeholder.
 - **Needs Will's word, not a peer's:** WQ-622 charter line and NEXUS's B24 change at `CLAUDE.md:37` (NEXT ACTIONS 9).
 
 ---
@@ -48,7 +48,7 @@ No job running. Session stays open until PROME asks for closeout.
 | **Belgium↔China flow rho** | **+0.067 (n=43)** · 24m +0.017 · LT +0.057 | rho < −0.5 = usable | 🟢 **PROXY STILL FALSIFIED** | ~zero every window; Belgium buys in 15 of 28 China-selling months (54%). **No China inference either direction** · `VX-1.09`, KB-151 |
 | Official vs Non-Official (LT, all countries) | **Aug: official +$18.1B / private +$90.9B** (Jul: +$25.5B / −$29.1B) · official bills **−$42.2B** | — | 🟢 | T3 Grand Total LT +$108.9B — broad foreign coupon buying while China sold. **LIQUID's to price** · KB-197 |
 | Combined Anchor Selling | **Aug: China −$9.6B, Korea +$2.3B ⇒ −$7.3B** · Q3-to-date **−$21.6B** | >$50B/qtr = 🔴 LIQUID | 🟢 | Needs ≈ −$28B more in Sep (TIC **11/18**) — not forecast · Korea Aug **$134.2B** · `VX-7.01`/`2.07`, KB-217 |
-| Brent crude | **$97.76** (`BZ=F` 11/06 bar, read 17:21 ET; contract label UNKNOWN; the 10/22 $112.46 is not comparable across a roll) | Asia shock transmission | 🟠 | boot.py `BZ=F`. **HAWK/BRENT own the price** |
+| Brent crude | **$91.88** (`BZ=F` 11/09 bar, read 15:20 ET, intraday not a settle; contract label UNKNOWN; 11/06 $98.32) | Asia shock transmission | 🟠 | boot.py `BZ=F`. **HAWK/BRENT own the price** · KB-254 |
 | Property / LGFV / banking | **source of truth = `workbook/VX.tsv`** | mixed | 🟠 | land sales, LGFV, NPL 🧊 |
 
 ### Currency / HK Peg
@@ -57,11 +57,11 @@ No job running. Session stays open until PROME asks for closeout.
 
 | Metric | Value | Threshold | Status | Record |
 |--------|-------|-----------|--------|--------|
-| USD/CNY | **6.6648** (yfinance 11/06) · CNH **6.6717** · CFETS fix **6.7168** (11/06) · gap20 **+0.676%** | >7.30 = 🟠 | 🟢 **CORRECT BUT UNINFORMATIVE** | ★ Fix WEAKER than market ⇒ PBOC leans against appreciation: V6 **3·A**, V9 **2·A** (c60 −1.07%) · `VX-2.01/2.10/2.11`, KB-219 |
-| USD/KRW | **1,363.65** (11/06 bar; 11/05 1,340.07) | >1,500 = BoK selling | 🟢 **EASED THROUGH** | 24 won weaker on the day in the Asia selloff; 136 from the line. ⚠️ two 8/3 caveats UNVERIFIED · `VX-2.05`, KB-234 |
-| HK Aggregate Balance | **HK$54,021M** (11/06) | <$45B = 🟡 | 🟢 | No HKMA market activity since 2025-08-15. USD/HKD **7.84** (10/29 7.846), off the 7.85 edge · `VX-2.03`, ZHA-25 |
-| 1-mo HIBOR | **2.56113%** (11/06) | — | 🟢 | −15bp vs 10/29 · KB-216 |
-| HIBOR-SOFR Spread | **−135.9bps** (SOFR 3.92% 11/05) | worse than −200bps = 🟠 | 🟡 | 64bp from Orange · `VX-2.04` |
+| USD/CNY | **6.6727** (yfinance 11/09) · CNH **6.6696** · CFETS fix **6.7188** (11/09) · gap20 **+0.669%** | >7.30 = 🟠 | 🟢 **CORRECT BUT UNINFORMATIVE** | ★ Fix WEAKER than market ⇒ PBOC leans against appreciation: V6 **3·A**, V9 **2·A** (c60 −1.05%) · `VX-2.01/2.10/2.11`, KB-254 |
+| USD/KRW | **1,340.11** (11/09 bar; 11/06 1,356.34) | >1,500 = BoK selling | 🟢 **EASED THROUGH** | 160 from the line. ⚠️ two 8/3 caveats UNVERIFIED · `VX-2.05`, KB-254 |
+| HK Aggregate Balance | **HK$55,802M** (11/09) | <$45B = 🟡 | 🟢 | No HKMA market activity since 2025-08-15. USD/HKD **7.8417** (11/09), off the 7.85 edge · `VX-2.03`, ZHA-25 |
+| 1-mo HIBOR | **2.59268%** (11/09) | — | 🟢 | +3bp vs 11/06 · KB-254 |
+| HIBOR-SOFR Spread | **−129.7bps** (HIBOR 11/09 − SOFR 3.89% 11/06; legs a business day apart) | worse than −200bps = 🟠 | 🟡 | 70bp from Orange · `VX-2.04` |
 
 ### Domestic Stress
 
@@ -73,7 +73,7 @@ No job running. Session stays open until PROME asks for closeout.
 | **PMI cluster (OCT)** | mfg **49.3** · non-mfg **49.7** · svcs **50.0** · composite **49.7** · imports **47.0** · new export orders **48.7** | 🟠 **back under 50**; small firms 47.5; consensus mfg 50.0 (secondary) | `VX-6.11/6.12`, KB-227 |
 | **CPI / PPI (SEP)** | CPI **+0.9% YoY** (core 1.0%) · **PPI +5.0%** (+1.2% m/m; mining +25.4%) | 🔴 **DEFLATION-EXPORT READ REFUTED AT THE AGGREGATE — AND MORE SO** (energy-led); `FLOW-13` CONTESTED | NBS primary 10/15, KB-217 |
 | **RatingDog Mfg PMI (OCT)** | **52.0** vs NBS **49.3** — gap **+2.7** | 🟠 past the 2.0 Orange line; ⚠️ single secondary | `VX-6.14`, KB-227 |
-| **FX reserves / gold** | **~$3.40T** end-**Sep** (−$38.1B; SAFE: valuation) · gold **77.47 Moz**, +0.74 Moz ≈ **23 t** (largest since Sep-2023) | 🟢 decline is valuation; gold buying accelerating (MIDAS's WQ-451 leg). Secondary carriers; Jul/Aug not logged | `VX-1.07`, KB-217 |
+| **FX reserves / gold** | **$3,405.2B** end-**Oct** (+$4.9B; SAFE: valuation) · gold **78.30 Moz**, +0.83 Moz ≈ **25.8 t**, largest 2026 add, 24th straight month | 🟢 reserves stable; gold buying still accelerating, through a ~6% October price fall (MIDAS's WQ-451 leg). SAFE primary; Jan–Oct series in VX | `VX-1.07`, KB-251 |
 | **Sep trade (nominal $)** | exports **+36.3%** ($447.2B) · imports **+31.0%** (record) · surplus **$133.5B**; Jan–Sep **$938.1B** | 🟠 ⚠️ nominal, carriers not GACC tables; AI demand + pre-holiday rush | KB-217 |
 | **Debt swap program** | **94% utilized** (~1.62T RMB H1'26) | 🟢 hidden debt −65% since end-2023; **the 6% headroom is the number to watch** | `VX-6.08` |
 | **PBOC main rate / LPR** | **1.25% overnight reverse repo, main policy rate since 11/02** (7d was 1.40%) / **3.00–3.50%, 17th mo held (10/20)** | 🟠 🔴 **ANCHOR CHANGED, desk 4 days late.** RMB 541B on day one. Not a conventional cut; lowers the framework floor 15bp. 7d becomes a multi-rate tender. PBOC notices 第211, 215号 read (11/06: RMB 226B at 1.25%). Next fixing 11/20 | `VX-6.06`, KB-238 |
@@ -87,15 +87,15 @@ No job running. Session stays open until PROME asks for closeout.
 | # | Vector | Score | As-Of |
 |---|---|---|---|
 | 1 | Four-Anchor UST Selling | 🔴 5 | TIC **Aug'26**, pull 10/16 — ⚠️ held, not re-scored: China decelerating, Korea buying (rescore question owed) |
-| 2 | Korea Crisis | 🟢 1 | won **11/06**; TIC Aug'26 · WALTER's Jan–Aug −$23.8B is LT-only; all-Treasury Feb–Aug −$3.6B, bills bought (KB-223) |
+| 2 | Korea Crisis | 🟢 1 | won **11/09**; TIC Aug'26 · WALTER's Jan–Aug −$23.8B is LT-only; all-Treasury Feb–Aug −$3.6B, bills bought (KB-223) |
 | 3 | Custodial Arb. | 🟡 2 | Belgium Aug'26 |
 | 4 | LGFV/Banks | 🟡 2 | **rural-bank NPL 2.83% Q2-26, rising** (`VX-6.15`, new 10/29); Guizhou/Zhengzhou canaries 🧊; swap Jun'26 |
 | 5 | Property Zombification | 🔴 **5 ↑** | **Oct 31** (KB-227 re-raise leg; prior cut 10/9) |
 | 5b | Domestic Demand / Broad Activity | 🟠 **3** | RatingDog **Aug**, NBS Aug 31 — ⚠️ held; October PMI cluster warrants a rescore, owed |
-| 6 | PBOC currency management (two-way, `VX-2.10`) | 🟢 1 **(shows 3·A)** | fix-vs-market **+0.68%** 11/06 (H.10 + yfinance fill) — fix set WEAKER than market every month since Dec-2025; A-side not counted |
-| 7 | HK Peg Channel | 🟢 1 | **11/06** — spread YELLOW, USD/HKD 7.84; HELD, rescore if HKMA intervenes |
+| 6 | PBOC currency management (two-way, `VX-2.10`) | 🟢 1 **(shows 3·A)** | fix-vs-market **+0.669%** 11/09 (H.10 + yfinance fill) — fix set WEAKER than market every month since Dec-2025; A-side not counted |
+| 7 | HK Peg Channel | 🟢 1 | **11/09** — spread YELLOW, USD/HKD 7.8417; HELD, rescore if HKMA intervenes |
 | 8 | LNG/Energy Shock | 🔴 **4** | `VX-8.02` (new 10/29): TTF **€100.72** 10/28 (HANS) · Brent ~$110.7 · Qatar FM into Nov/Dec — 10/22 inputs were worse than the 9/17 score, but Brent reads $97.76 on 11/06 (contract unmatched): **4→5 question weaker, still open** |
-| 9 | USD/CNY pressure (two-way, `VX-2.11`) | 🟢 1 **(shows 2·A)** | fix **−1.07%** over 60 fixes 11/06; A-side not counted |
+| 9 | USD/CNY pressure (two-way, `VX-2.11`) | 🟢 1 **(shows 2·A)** | fix **−1.05%** over 60 fixes 11/09; A-side not counted |
 | 10 | Gulf Recycl. | 🟡 2 | BRENT/HAWK Jul 4 |
 | 11 | Gulf Infra | 🟡 2 | BRENT/HAWK Jul 4 |
 
@@ -131,9 +131,9 @@ No job running. Session stays open until PROME asks for closeout.
 
 | Date | Event | P |
 |------|-------|---|
-| Sat Nov 7 · ~Nov 7–9 | SAFE Oct reserves/gold · GACC Oct trade (copper, coal, crude volumes). Neither out at the 11/06 close read | 🟠 |
+| Sat Nov 7 | ✅ SAFE Oct reserves/gold read 11/09 (KB-251). **GACC Oct trade re-dated to Tue 11/10** (KB-252) | ✅ |
 | Mon Nov 9 | ✅ All four 11/10 clocks re-suspended on paper (KB-246..249) | ✅ |
-| Tue Nov 10 | ZHA-19, L858, L1088 lookups · Oct CPI/PPI (~) | 🟠 |
+| Tue Nov 10 | ZHA-19, L858, L1088 lookups · **GACC Oct trade** (exports consensus +33.5%) · Oct CPI/PPI (~) | 🟠 |
 | Wed Nov 11 | ZHA-20 lookup (公告2026年第58号); WATT T1 re-dated to 1/10 | 🟠 |
 | Fri Nov 27 | MOFCOM 公告2024年第46号 clause 2 (B2) · then ZHA-23 Mon Nov 30, ZHA-25/26 to 12/31 | 🟠 |
 | Wed Nov 18 | **September TIC** (Treasury-confirmed) — Q3 anchor total; Aug residual revision? | 🔴 |
@@ -170,7 +170,7 @@ No job running. Session stays open until PROME asks for closeout.
 5. 🟠 **Primaries owed on the two NEW rows:** ChinaBond for `VX-2.08` (currently a secondary carrier) · **a single-source matched-basis figure for `VX-2.09`** — today's legs are mixed carriers/dates/conventions and **only the DIRECTION is quotable** (KB-171).
 6. 🟠 **PBOC central-parity SERIES** — ✅ first primary read 10/29 (CFETS via Xinhua: 6.7147 vs market 6.6607, KB-212); still owed: a series from `chinamoney.com.cn`, since **the gap between fix and market IS the signal** and one day is not a series.
 7. ✅ **DONE 10/29 — Belgium kill-leg retired, China flow leg F registered** (KB-219).
-8. ✅ **Sep reserves/gold/trade/CPI/PPI backfilled 10/29 (KB-217)** — still owed: GACC tables (primary), Jul/Aug reserves, Sep credit + activity data. **Rest of the sweep's list → `reports/2026-10-29_DESK_SWEEP.md`** (Belgium kill-leg re-spec **6 days late**; V6/9 two-way re-spec; ZHA-05 lapsed window; DAEDALUS D3/D4/D7–D12; CLAUDE.md 25 B from cap).
+8. ✅ **Sep reserves/gold/trade/CPI/PPI backfilled 10/29 (KB-217)** — still owed: GACC tables (primary; Oct trade 11/10), Sep credit + activity data. Jul/Aug reserves ✅ 11/09 (KB-251). **Rest of the sweep's list → `reports/2026-10-29_DESK_SWEEP.md`** (Belgium kill-leg re-spec **6 days late**; V6/9 two-way re-spec; ZHA-05 lapsed window; DAEDALUS D3/D4/D7–D12; CLAUDE.md 25 B from cap).
 9. 🟠 **Owed from 11/06:** V5b rescore on the October cluster · **WQ-622 charter line NOT added** (root guard: no CLAUDE.md edit on a peer's request; awaits Will's word in this window; 290 B of cap room) · DAEDALUS B24: NEXUS ruled, brief token in, `CLAUDE.md:37` awaits Will's word · read SoftBank's and ABB's own text (KB-236 is WALTER's read) · Vector 8 4→5 question · rural NPL base rate → ZHA-05 successor · ZHA-10 `Date_Made` defect. History → COLD_20261106 §ⓕ-2.
 10. 🟡 **US-China ag channel unmeasured** (KB-170) · **Korea's two unverified caveats** since 8/3 · ~~CLAUDE.md re-key~~ (landed 9/17 `c6ac32e81`, per DAEDALUS 10/14) · DAEDALUS 10/14 fix-list items 3–7, 9, 10 OWED (maintenance spawn) · **ZHA-10 `Date_Made` defect** · **HK $9.33B June UST sale unlogged** (KB-140).
 11. 🟡 **HK peg watch (new 10/29, KB-216):** USD/HKD 7.846 at the 7.85 weak edge, HIBOR-SOFR YELLOW. Tell = HKMA `market_activities` ≠ +0 / Aggregate Balance falling ⇒ rescore Vector 7, route LIQUID+PROME. Check at each boot (HKMA API, ~1 call).
@@ -179,7 +179,7 @@ No job running. Session stays open until PROME asks for closeout.
 
 ## BOTTOM LINE
 
-**NOV 9 NOON — both capitals signed.** The 11/10 cliff did not happen. Overnight Beijing time China's Commerce Ministry and Customs extended their hold on the rare-earth and battery export controls to January 10, in the same words as last year's hold. Commerce also kept its countermeasures on Hanwha's US shipyards off for two more months. On the US side the export-control hold was already in the 11/9 Federal Register, and the US Trade Representative filed this morning to keep the China ship fees off through 11:59 p.m. January 9. China's Transport Ministry matched it on port fees to January 10, though I have that only from Chinese press quoting the text. So the risk has moved, not gone: about five separate holds now end within a day of each other around January 9 to 11. My two forecasts on these clocks look like hits and grade tomorrow and Wednesday as lookups. **NOV 6 CLOSE, unchanged below — China's clock is the only one still running, money got cheaper, and I missed part of that.** The US has put its half of the truce on paper: Commerce keeps its wider export-control rule on hold until January 10. China has not matched it. Its own hold on rare-earth and battery export controls still ends on 11/10, and nothing was on the Commerce Ministry's list at 6:21 Saturday morning Beijing time. I still put 85% on China filing in time, but that number was set before Friday's call, where the US pressed China to carry out its rare-earth and farm-purchase commitments. The US account says nothing about 11/10, and I have not found China's account. The ships deal has a nearer gap: no US final notice is queued for the 11/9 or 11/10 Federal Register, though the suspension ends 11/9. **The correction: China's central bank switched its main policy rate to an overnight rate of 1.25% on November 2, and this desk still showed 1.40% until tonight.** One of today's new forecasts, ZHA-24, rested on the old rate. On your ruling I withdrew it and registered ZHA-26 on the 1.25% rate, at the same 12%. China's 10-year yield hit 1.59%, under my 1.60 warning line, which I read as cheap funding and weak credit, not a flight to safety. October's factory survey at 49.3 and construction orders at 40.0 already put the desk at 29 of 60, and that total did not move tonight. The PBOC is still holding the yuan back, so this is weak demand at home, not currency stress.
+**NOV 9 NOON — both capitals signed.** The 11/10 cliff did not happen. Overnight Beijing time China's Commerce Ministry and Customs extended their hold on the rare-earth and battery export controls to January 10, in the same words as last year's hold. Commerce also kept its countermeasures on Hanwha's US shipyards off for two more months. On the US side the export-control hold was already in the 11/9 Federal Register, and the US Trade Representative filed this morning to keep the China ship fees off through 11:59 p.m. January 9. China's Transport Ministry matched it on port fees to January 10, though I have that only from Chinese press quoting the text. So the risk has moved, not gone: about five separate holds now end within a day of each other around January 9 to 11. My two forecasts on these clocks look like hits and grade tomorrow and Wednesday as lookups. **Afternoon refresh:** China's reserves were flat in October at $3.41 trillion, and the central bank bought about 26 tonnes of gold, its biggest monthly purchase this year, even as the gold price fell. The yuan, won and Hong Kong dollar barely moved; nothing crossed a line. **NOV 6 CLOSE, unchanged below — China's clock is the only one still running, money got cheaper, and I missed part of that.** The US has put its half of the truce on paper: Commerce keeps its wider export-control rule on hold until January 10. China has not matched it. Its own hold on rare-earth and battery export controls still ends on 11/10, and nothing was on the Commerce Ministry's list at 6:21 Saturday morning Beijing time. I still put 85% on China filing in time, but that number was set before Friday's call, where the US pressed China to carry out its rare-earth and farm-purchase commitments. The US account says nothing about 11/10, and I have not found China's account. The ships deal has a nearer gap: no US final notice is queued for the 11/9 or 11/10 Federal Register, though the suspension ends 11/9. **The correction: China's central bank switched its main policy rate to an overnight rate of 1.25% on November 2, and this desk still showed 1.40% until tonight.** One of today's new forecasts, ZHA-24, rested on the old rate. On your ruling I withdrew it and registered ZHA-26 on the 1.25% rate, at the same 12%. China's 10-year yield hit 1.59%, under my 1.60 warning line, which I read as cheap funding and weak credit, not a flight to safety. October's factory survey at 49.3 and construction orders at 40.0 already put the desk at 29 of 60, and that total did not move tonight. The PBOC is still holding the yuan back, so this is weak demand at home, not currency stress.
 
 
 ---

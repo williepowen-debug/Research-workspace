@@ -3,7 +3,7 @@
 **Status:** 🟠 **29/60 ELEVATED (11/06 close; +1 on Vector 5).** ✅ **Every 11/10 clock was re-suspended on paper on 11/9:** MOFCOM+GAC 公告**2026**年第58号 continues the export-control package suspension 11/11 to 2027-01-10, scope identical to 公告70 (KB-246); BIS stay in the 11/9 FR to 1/10 (KB-242); USTR ships fees through 1/9 23:59 ET (KB-248); Hanwha countermeasures and China's port fees to ~1/10 (KB-247, 249). Forecasts **ZHA-19 65% / ZHA-20 85%** both look like hits, graded 11/10 and 11/11 as lookups. **PBOC main rate moved to overnight at 1.25% on 11/02; China 10Y 1.59%.** October activity fell back under 50.
 **Domain:** China macro → U.S. transmission — SAFE-reported Treasury-line selling (Belgium proxy falsified 8/21), PBOC/CNY, property·LGFV·fiscal, HK peg, trade war, Taiwan (econ), Korea contagion, India oil. Edges: **→LIQUID** (UST demand hole), **→SAM** (Korea/Asia flows), **→HAWK/BRENT** (energy), **→HENRY** (10Y/term premium), **→HANS** (Euroclear custody).
 **Thesis framing:** China-macro-transmission (no version stamp; no position — research/signal agent). **Pivot history 2026-07-04→08-21 (superseded figures) → `archive/NEXUS_BRIEF_PIVOT_HISTORY_20260919.md`; the `Status:` line above is canonical.**
-**As of:** **2026-11-09 12:14 ET (by `date`)** — PROME due-row wake (Will 12:07 ET): four 11/10 rows read at primaries, KB-246..250. No score moved. || STATUS commit: NONE (folded in the same commit as STATUS) || Prior as-of: 2026-11-08 12:09 ET.
+**As of:** **2026-11-09 15:23 ET (by `date`)** — key-file refresh: 11/09 live FX/HK values, SAFE October reserves $3,405.2B (+$4.9B, valuation) and gold 78.30 Moz (+0.83 Moz ≈ 25.8 t, largest 2026 add), KB-251..254; earlier 12:14 ET the four 11/10 clocks were read re-suspended, KB-246..250. No score moved. || STATUS commit: NONE (folded in the same commit as STATUS) || Prior as-of: 2026-11-08 12:09 ET.
 
 ---
 
@@ -75,7 +75,7 @@
 | Sat Nov 7 | SAFE Oct reserves + PBOC gold | fall beyond valuation = intervention; gold ≥10 t (MIDAS WQ-451) |
 | ✅ Mon Nov 9 | All four 11/10 clocks re-suspended (BIS, MOFCOM, USTR ships, MoT, Hanwha) | KB-246..249 |
 | 🟠 Tue–Wed Nov 10–11 | ZHA-19 / ZHA-20 lookups | YES branches appear satisfied |
-| ~Nov 7–16 | Oct trade, CPI/PPI, credit, activity data | property investment vs the 10/9 V5 cut |
+| Tue Nov 10 · ~Nov 10–16 | GACC Oct trade (11/10; exports consensus +33.5%), CPI/PPI, credit, activity data | property investment vs the V5 re-raise |
 | 🔴 Wed Nov 18 | **September TIC** (Treasury-confirmed) | China Q3 net ≤ −$50B ⇒ LIQUID+PROME; Aug residual revision? |
 | Fri Nov 27 | MOFCOM 公告2024年第46号 clause 2 ends | content UNVERIFIED (B2) |
 
