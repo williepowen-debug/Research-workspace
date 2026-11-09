@@ -2,7 +2,7 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-11-09T11:20:18-05:00 | **STATUS commit:** 8740916f62
+**As of:** 2026-11-09T13:01:01-05:00 | **STATUS commit:** f777e5f8c3
 **Variant:** FULL. PROME commission (Will 11:14 ET): inbox drained, Nvidia's 11/9 fall read on the letters, 11/10 CoreWeave and TSMC pre-stated as a lookup. No letter fired.
 
 ## CROSS-DOMAIN
@@ -22,7 +22,7 @@
 | WATT | 🆕 Texas moratorium is a promise, nothing enacted; ballot count stays REPORTED, $100B is pre-vote, whether any measure binds or reaches a contracted build is unread. Jupiter hearing stays 12/7, after the developer's earlier 11/23 warning; reset unknown. TrendForce Lighthouse 2027 650 to 310 MW is a forecast. S3 NOT FIRED. | KB-348/362/367/373 |
 | HENRY / CARL | 🆕 S2 stays 2. Qualcomm QCT handsets −26% y/y; its release names memory as an input cost and does not attribute the handset fall to it. Micron Taoyuan construction report is supply, due 2028, unconfirmed by Micron. Contract read unchanged; slower rises are not falling prices. | KB-363/371/375; acc 0000804328-26-000127 |
 | WATT / DEWEY | 🆕 CME GPU futures review runs to 2027-01-08, not 11/9; status Approval Pending (90), no first trade date. Silicon Data remains an index. | KB-356; CFTC page 11/5 |
-| ZHAO / HAWK | 🆕 BIS affiliates stay to January 10, 2027 published 11/9 (91 FR 70789); MOFCOM 70 not re-suspended as of 11/8 per ZHAO, so China's controls reactivate after 11/10 unless MOFCOM files; three clocks, do not merge. Marvell and Lumentum signed, not closed, no supply change. | KB-364, KB-381, KB-411 |
+| ZHAO / HAWK | 🆕 **Every 11/10 US-China clock re-suspended on paper:** BIS affiliates stay to January 10, 2027 (91 FR 70789, published 11/9); China's package to 2027-01-10 (MOFCOM-GAC 公告2026年第58号, ZHAO A1); USTR ship fees to 11:59 p.m. ET 1/9. Next cluster January 9–11; separate instruments, do not merge. Marvell and Lumentum signed, not closed, no supply change. | KB-364, KB-381, KB-411, KB-413 |
 | PROME | 🆕 WQ-608 RULED A: VULCAN-13 grades on the developer form; REFUTED if no developer leg lands, which raises S5's demotion question. VULCAN-188..191 registered; DOCKET rows are PROME's. | KB-366; a3da5ec6b |
 
 ## VIEW
@@ -44,7 +44,6 @@ Exact event set generated from `docket/CATALYSTS.tsv` at this write; the registe
 | When | What | Whose |
 |---|---|---|
 | 2026-11-10 | CoreWeave Q3 2026 earnings — issuer-confirmed Tuesday 2026-11-10, call 5:00 PM ET | VULCAN, TERRY, LIQUID, BROCK |
-| 2026-11-10 | MOFCOM/GAC ANNOUNCEMENT No.70 suspension ends — 公告55/56/57/58/61/62 reactivate (rare earths, superhard materials, Li-battery incl. LFP cathode, and 公告61's 0.1%-by-value de minimis) | VULCAN; ZHAO(owner); HAWK; HENRY; WATT (LFP = grid storage) |
 | 2026-11-10 | TSMC October revenue 6-K (monthly) — S4 series reading | VULCAN, ZHAO, HAWK |
 | 2026-11-12 | Nebius Q3 2026 results — issuer-confirmed Thursday, before the open, call 8:00 AM ET | VULCAN, BROCK |
 | 2026-11-13 | GPU-rental panel reading 10 — cadence extension (registered 2026-09-29, before the original cadence's last slot) | VULCAN, PROME, WATT |
@@ -72,6 +71,7 @@ Exact event set generated from `docket/CATALYSTS.tsv` at this write; the registe
 | 2026-12-31 | IREN GPU Financing 2.0 undrawn $1.5B availability ends | VULCAN, LIQUID, BROCK |
 | 2027-01-08 | CFTC Reg 40.3 review period ENDS for NYMEX Submission 26-370/370S (Silicon Data H100 + B200 Rental Index Futures, GPU1/GPU2) — extended by NYMEX consent to 2027-01-08 (was 2026-11-09) | VULCAN, WATT, DEWEY, PROME |
 | 2027-01-10 | BIS AFFILIATES RULE stay ends — FR Doc. 2026-22793 stays it 'until January 10, 2027', summary 'through'; reimposition day not stated, treat 1/10 to 1/11 as the window | VULCAN; ZHAO(owner of the rule); HAWK; PROME |
+| 2027-01-10 | MOFCOM/GAC 公告2026年第58号 suspension ends — 公告2025年第55/56/57/58号 and 公告2025年第61/62号 would reactivate from 2027-01-11 Beijing (rare earths, superhard materials, Li-battery incl. LFP cathode, and 公告2025年第61号's 0.1%-by-value de minimis) | VULCAN; ZHAO(owner); HAWK; HENRY; WATT (LFP = grid storage) |
 | 2027-01-29 | Microsoft Q2 FY27 10-Q, leases not yet commenced vs $364.6B — ESTIMATED, late January, not set | VULCAN, LIQUID |
 | 2027-02-05 | HYPERSCALER Q4 2026 CLUSTER (MSFT · GOOGL · META · AMZN) — successor bidirectional flip EXIT_PROTOCOL §4c | VULCAN, VIOLET, HENRY |
 | 2027-02-05 | EXIT_PROTOCOL next dated REWRITE — FIRST of {§4c resolves at the Q4 2026 cluster · 2027-02-15 (VULCAN-10 / thesis-kill leg 1)} | PROME |
