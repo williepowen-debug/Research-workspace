@@ -1,10 +1,12 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-08T17:07:00Z, Claude Code Opus 5.5, session walter-e1 on the laptop WilliePOwen. Light closeout after cards 20261108-001 and -002; coverage PARTIAL. Window stays open for WQ-646 routing through Sunday; on PROME's word WALTER starts no desk and sets no timer.
+Updated 2026-11-09T20:2xZ, Claude Code Opus 5.5, session walter-da on the desktop DESKTOP-BC6EF81. Light closeout on Will's "ok go" 15:18 ET after cards 20261109-001 to -010; coverage PARTIAL. Window stays open through SoftBank results (01:30 ET) and CPI (08:30 ET) November 10, then Tier 2 FULL closeout.
 
 ## RESUME — do these first
 
-1. `git pull --rebase` at root, then ordinary boot. **Tier 2 FULL closeout owed:** 15 light-closeout breadcrumbs in the SESSION_LOG head; laptop window closed November 9 09:3x ET on PROME's machine-move ask without running it. Step 7i first, cutoff below.
+1. `git pull --rebase` at root, then ordinary boot. **Tier 2 FULL closeout owed:** 6 light-closeout breadcrumbs since the November 6 23:34Z full closeout (the earlier "15" was a miscount; recount by SESSION_LOG heading). Planned after CPI November 10. Step 7i first, cutoff below.
+1c. **November 9, walter-da (desktop):** 10 cards, 1 correction, no IMMEDIATE or FLASH; 50/50 delivery rows on origin. 001 Iran weekend (Trump "highly unlikely"; Qatar $8B terms unconfirmed); 002 AI power headlines (VULCAN); 003 CYPHER claims; 004 to 008 from 35 X bookmarks (batch BM-20261109-01 closed 14/14); 009 = COR-20261109-09 STRENGTHEN on FALCON's read (Rubio quote at Al Jazeera, IRGC claim dated 11/8 by TASS), HAWK APPLIED 10f6c9c1f8; 010 US–China 11/10 clocks re-suspended to about 1/9–1/10/2027 (ZHAO primary read; MoT leg B2), consumed by HENRY 2b5b993645, VULCAN f777e5f8c3, HAWK b2db6997ad, BRENT 9fa3eac55c; WATT and MIDAS pending their next session. PROME digest at PROME/inbox/2026-11-09_from-WALTER_catch-up-digest.md (filed ddcc16b2e4). ORACLE closed out; reads 001 and 009 at next boot.
+1d. **November 10 watch, routing only:** SoftBank results 01:30 ET (SAM pre-wrote its lookup, 47678a9017); CPI 08:30 ET (HENRY HEN-57 grade sheet, expect NOT FIRED at +0.2); CoreWeave; NY Fed household debt 11:00 ET; MOFCOM No. 70 clock superseded by 公告2026年第58号 (card 010); 10Y auction. Owners grade; WALTER routes what breaks.
 1a. **Weekend reads moved (PROME 4b9fac2f2e):** Will 19:44 ET desktop closed, every desktop timer gone; 19:46 ET persistent laptop sessions. falcon-de, oracle-e5, reginald-49 live. PROME reminders Saturday 08:43 and 09:07 ET, Sunday 15:03 ET die if its window closes or the laptop sleeps. LIQUID's Oracle DTCC read deferred to Monday on Will's yes, replacing item 3's timing.
 1b. **WQ-646 A reads all routed.** Read 1 (November 7): cards 001 to 003; card 054 closed by 001, Task Force Iron Gate, not a strike. Read 2 (November 8, about 17:00Z): card 20261108-001, ORACLE's new 2-week-pause market, by-11/8 leg 23.5, about 76 for another qualifying US land strike in 14 days, thin and new; card 20261108-002, FALCON: Houthis struck Aramco's Riyadh office tower, minor damage, Abqaiq missile intercepted, no rung fired, HUDA disabled, Khasab tanker fire, and COR-20261108-02 WEAKENS card 056's NBC target line (one relay). ACTION BRENT and HAWK: neither has a session open, UNKNOWN, no doorbell; oil futures reopen 18:00 ET Sunday. Old-event legs through 11/05 and 11/06 open; ORACLE reads reporting windows closing 20:29Z November 8 and 9. ORACLE's packet called the market two days old; Gamma shows created 02:48Z November 8.
 2. **Finish the November 6 certification.** Close pass ran at 22:10Z, cards 043–046. Still owed: Cboe VIX and SKEW History and Nasdaq WAL and KRE November 6 rows, unposted at 23:33Z; read them at next boot. Apple 20% recheck done, card 046, still unfound.
@@ -17,7 +19,7 @@ Updated 2026-11-08T17:07:00Z, Claude Code Opus 5.5, session walter-e1 on the lap
 7. **Open:** CF's call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; wake recommendations with PROME for HOMER and FERT need a fresh read, HANS and CORAL have since worked. STWD and ACRE calls unheard; RC call unheard.
 8. **WQ-622 combination watch:** WALTER has not set it up. Offer stands; Will has not answered.
 
-Calendar coverage cutoff: 2026-11-07T00:42:32Z (step 7i run at night boot; rows in research/2026-11-06_night-boot/CALENDAR-RECONCILIATION.tsv; UNKNOWN rows named there).
+Calendar coverage cutoff: 2026-11-09T20:2xZ (step 7i at the 11/9 boot to 15:49Z, rechecked at this closeout; rows in research/2026-11-09_boot/CALENDAR-RECONCILIATION.tsv; Syria/Russia MOU review UNKNOWN, OSPREY owns).
 
 ## STATUS
 
@@ -27,6 +29,8 @@ November 5 total: 67 BOARD cards, 261 handoffs. November 6 total to close: 53 ca
 
 ## CHANGED
 
+November 9 (walter-da): cards 001 to 010, COR-20261109-09 with banners on 001 and 006, CORRECTIONS row; batch BM-20261109-01 closed 14/14; four kill-log rows; intake_seen and x_bookmarks registries marked; PROME digest; MEMORY #51 extended (pathspec commits; WALTER commits 811962c856 and 6022eddfe5 swept ORACLE's and FALCON's staged renames, harmless, owners told); calendar 7i rows; STATUS bottom line re-cut, November 6 paragraph rotated verbatim to SESSION_LOG.
+
 November 8: cards 001 and 002, COR-20261108-02 with banners on 056 and 20261107-002, ORACLE packet consumed at 9b6404ed12, batch BM-20261108-01 closed 7/7 (manifest opened after dispatch, late), anchor note, STATUS bottom line. November 7 afternoon: REGINALD V1V3 rename answered, 20942d5f3c. November 7 morning: cards 001 to 003, COR-20261107-02, five banners on cards 047, 053, 054, 055, 056, ORACLE packet consumed at commit 9b03984679, batch BM-20261107-01 closed 12/12, anchor note, no sweep reset. Calendar step 7i not run; bookmarks still blocked on Will's sign-in. Night boot: cards 054, 055 and 056, Encelia guard line, ORACLE packet consumed, one kill-log row, anchor note and verbatim rotation, boot-basis hashes re-attested, REGISTRY 10 rows. November 6 close pass: cards 043–053, COR-20261106-51, -52 and -53, CARL, OTTO, LIQUID, BROCK and ORACLE packets consumed, COR-20261106-48, §3.6 banner on 043, FALCON packet consumed; batches BM-20261106-04 (5 of 5) and -05 (15 of 15) closed; intake and bookmarks marked; Iran anchor bounded note, sweep clock unchanged; doorbells to FALCON and CARL. Earlier November 6 and older: moved verbatim to research/2026-11-06_closeout/LC-GAPS-ROTATED.md.
 
 ## RESULT
@@ -35,6 +39,7 @@ November 6 close: Qeshm projectiles reported, attacker unnamed (047). Qatar's Pr
 
 ## GAPS
 
+- November 9 boot PARTIAL: boot basis not re-attested (AGENTS.md, CLAUDE.md, fetch.py, ORCHESTRATION_PLAYBOOK.md, USER.md); READS UNKNOWN; article bodies mostly not read (search snippets, owner reads, ZHAO's primary reads relayed unverified by WALTER); HANS dailies and CREED owner states cited, not re-pulled; doctor MEDs carried. WALTER miss: card 001 called the Rubio quote unfound and the IRGC claim undated; FALCON found both; corrected by 009. First status to Will wrongly said bookmarks had run; corrected in session, then run.
 - Night boot PARTIAL: X bookmarks not run, token refresh failed on this box, nothing marked, needs `x_bookmarks_scan.py --authorize` in Will's browser. FILTER_SPEC trailing 48h route-log rows and desk STATUS reads scoped to changed desks; RED banner hash not re-checked; HANS dailies cited. Card 054 and 055 web quotes came through a fetch helper; NBC body paywalled; WALTER did not read ORACLE's books. READS UNKNOWN stands, PROME's L845. WALTER's November 6 receipts say laptop, while this box records no boot 09:04 to 19:27 ET; label likely wrong, history not rewritten.
 - Consumer check on SoftBank 21.5%: NEXUS was off card 041 and its AI-funding read cites the old figures; packet filed at AGENTS/NEXUS/inbox/, consumption unproved.
 - Michigan November preliminary missed by step 7i: on no calendar WALTER reads, including HENRY ECON_CALENDAR; CARL caught it, card 049, about eight hours late. Monthly Michigan dates need a calendar home; flag to HENRY at next touch.
@@ -107,9 +112,34 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-08T17:07:00Z",
-  "next_review": "2026-11-09",
+  "as_of": "2026-11-09T20:20:29Z",
+  "next_review": "2026-11-10",
   "publication": [
+    {
+      "commit": "282a0bf659f1f0ce5cfa8227243cda3c509a6299",
+      "state": "published",
+      "note": "Card 010 delivery reconcile."
+    },
+    {
+      "commit": "3bdf6c1c5824d0023a43cff065bdb083c2d5ddaa",
+      "state": "published",
+      "note": "Card 010."
+    },
+    {
+      "commit": "8a1dabccecab24e329dddd6616f7d4ebe04a487c",
+      "state": "published",
+      "note": "Card 009, COR-20261109-09."
+    },
+    {
+      "commit": "de732344b572d1454951ab46105d3c9b6a585f21",
+      "state": "published",
+      "note": "Cards 004-008."
+    },
+    {
+      "commit": "811962c856c68508678a1d908aa093da9835bde2",
+      "state": "published",
+      "note": "Cards 001-003."
+    },
     {
       "commit": "962091e8fed8e0987abfdc6be5e05bc05103f650",
       "state": "published",
@@ -172,37 +202,37 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
     }
   ],
   "delivery": {
-    "signal_date": "20261108",
-    "total": 12,
-    "delivered": 12,
-    "note": "Delivery proof by origin only; recipient use separate. November 7 cohort 22/22."
+    "signal_date": "20261109",
+    "total": 50,
+    "delivered": 50,
+    "note": "Delivery proof by origin only; recipient use separate. November 8 cohort 12/12."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-11-06_night-boot/THRESHOLD-SCAN.md",
-        "sha256": "60bcd5ef58ad2d33121b4ee896201d3a7650e86b1250599db0f177851552c56a"
+        "path": "AGENTS/WALTER/research/2026-11-09_boot/CALENDAR-RECONCILIATION.tsv",
+        "sha256": "932e6b2d81637f10f75bad5e0c683a92f8ac239138da09fdaf0663bd9fd233b9"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-06_night-boot/CALENDAR-RECONCILIATION.tsv",
-        "sha256": "b195b98472273928ecff9abf3c622ffee093a6aaab07befb7c65d246c619a827"
+        "path": "AGENTS/WALTER/research/2026-11-06_night-boot/THRESHOLD-SCAN.md",
+        "sha256": "60bcd5ef58ad2d33121b4ee896201d3a7650e86b1250599db0f177851552c56a"
       }
     ]
   },
   "procedure": {
     "tier": "light",
-    "boot": "PARTIAL: bookmarks not run, token refresh failed; READS UNKNOWN on a stale attestation; fleet visibility UNKNOWN from the laptop.",
-    "session": "Window open for WQ-646 routing; no helper or timer running."
+    "boot": "PARTIAL: boot basis not re-attested (5 files); READS UNKNOWN; bodies mostly unread; HANS/CREED cited.",
+    "session": "Window open through CPI 11/10 for routing; no helper or timer running."
   },
   "manual_duties": {
-    "11": "November 8: cards 001 and 002 PRIORITY, no IMMEDIATE or FLASH, COR-20261108-02. Batch BM-20261108-01 closed 7/7.",
-    "13": "REGISTRY unchanged this pass; FALCON and ORACLE rows carried from night boot.",
-    "12": "Counts, bottom line, session log breadcrumb. NETWORK unchanged.",
-    "14": "No MEMORY change.",
-    "15": "Resume item 1b, CHANGED; cutoff unchanged, step 7i not run.",
+    "11": "November 9: cards 001-010, 6 PRIORITY 4 ROUTINE, no IMMEDIATE or FLASH; COR-20261109-09 STRENGTHEN. Batch BM-20261109-01 closed 14/14.",
+    "13": "REGISTRY not refreshed this pass; deferred to Tier 2.",
+    "12": "Bottom line re-cut, Nov 6 paragraph rotated verbatim, session log breadcrumb. NETWORK unchanged.",
+    "14": "MEMORY #51 extended (pathspec commits).",
+    "15": "Resume 1, 1c, 1d; CHANGED; GAPS; cutoff 2026-11-09T20:2xZ.",
     "16": "Exact paths, safe-push.",
-    "checks": "research/2026-11-08_sunday/closeout/checks.json. Doctor MED carried: 2 unconsumed items, DEWEY 003R parked."
+    "checks": "research/2026-11-09_boot/closeout/checks.json."
   }
 }
 END_CLOSEOUT_RECEIPT -->
