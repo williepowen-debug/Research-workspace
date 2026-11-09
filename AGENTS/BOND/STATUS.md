@@ -1,8 +1,8 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-11-06 18:34 ET, closeout on Will's 18:33 ET word via PROME (Claude Code `claude-opus-5-5`): WALTER card 049 consumed, KB-BND-560, no score moved. Close-of-day data refresh 17:12 ET: every figure refreshed through the 11/6 close, no score, band, gate or threshold moved. Earlier today: October payrolls rates read, 16:02 ET. **Last real data refresh: 2026-11-06.**
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-11-09 13:1x ET, PROME due-row wake (Will 12:07 ET; Claude Code `claude-opus-5-5`): **3Y `91282CRW3` registered grade, I′ FIRED (indirect 55.48 vs 57.44), BND-33 TRUE**, clean-nominal counter 3 → 0, auction health held 3; ICE 11/6 HY 342 (KB-BND-561, 562). Prior: 2026-11-06 18:34 ET closeout, WALTER card 049 consumed, KB-BND-560, no score moved. Close-of-day data refresh 17:12 ET: every figure refreshed through the 11/6 close, no score, band, gate or threshold moved. Earlier today: October payrolls rates read, 16:02 ET. **Last real data refresh: 2026-11-09.**
 
-Frontiers: Treasury nominal/real **11/6** · 5Y5Y and 10Y breakeven **11/6** · ICE credit via FRED **11/5** (11/6 cell unpublished, due about 10:10 ET Monday 11/9) · NY Fed repo **11/5** (11/6 due Monday) · FR2004 as-of **10/28** · ACM **11/5** · KW **10/30** · PMMS **11/5** · Bund **11/6** · TreasuryDirect auctions through **10/29**. Evidence: `analysis/2026-11-06_nfp/READ.md` and raw manifest.
+Frontiers: Treasury nominal/real **11/6** · 5Y5Y and 10Y breakeven **11/6** · ICE credit via FRED **11/6** · NY Fed repo **11/5** (11/6 due Monday) · FR2004 as-of **10/28** · ACM **11/6** · KW **10/30** · PMMS **11/5** · Bund **11/6** · TreasuryDirect auctions through **11/9** (3Y). Evidence: `analysis/2026-11-06_nfp/READ.md` and raw manifest.
 
 ## Current judgment
 
@@ -16,7 +16,7 @@ Frontiers: Treasury nominal/real **11/6** · 5Y5Y and 10Y breakeven **11/6** · 
 
 **New issuance went quiet in October and reopened into the selloff.** About $15B in October, $3.5B a week over the last four (KB-BND-540). The week of 11/2 reached nearly $10B by Thursday, with three deals above $2B priced on 11/5 itself (Bloomberg via CAM 11/6, secondary; KB-BND-551). So the 350 row's "issuance freeze" label is close on the threshold and not on the mechanism. EDGAR filers 21 for the week. ⚠️ That count mixes investment grade with high yield and misses private deals; pulled deals are not observable from free sources, and three searches found none.
 
-**Auctions: downgrade graded, refunding next.** Three clean registered nominals under WQ-536 A and no size change, so auction health moves 4→3. ⚠️ The downgrade follows the weakest 2Y in BOND's records (10/26, audit-only, recorded beside the count). The refunding prints grade REGISTERED on bars frozen 11/2, and a fire there resets the counter.
+**Auctions: the refunding's first leg fired the marker; the mechanism did not fail.** The 3Y `91282CRW3` ($58B, 11/9) printed indirect **55.48%** against its frozen I′ bar **57.44** (−1.96pp) and below its 12-auction minimum 56.50; **directs took 35.04% and dealers only 9.48%** (max 19.50), so the shortfall went to direct bidders, not dealer balance sheets; BTC 2.53 vs minimum 2.54 (cover marker by 0.01). **BND-33 TRUE** (50% call). Clean-nominal counter **3 → 0** (registered fire, WQ-536 A); auction health **held 3** (a bare I′ is the 🟠 marker; 9/15 precedent moved no score). ⚠️ Two short-end tenors in three weeks now sit low on indirect (10/26 2Y audit-only 45.68, 11/9 3Y 55.48); the thesis tenors grade next, 10Y 11/10 (bar 65.05) and 30Y 11/12 (bar 63.89). KB-BND-562.
 
 **Rates:** 2s30s 75bp, −4 on 11/6 after +9 on 11/5: 2Y 4.51, 10Y 4.86, 30Y 5.26 [11/6]. Real 10Y 2.63%, run 41 sessions at or above 2.50. Long-run inflation pricing fell: 5Y5Y 2.17% [11/6], −5bp, on one day of fitted-par arithmetic; 33bp below 2.50. Europe did not follow the US: Bund 3.29% [11/6], −4bp, while the 10Y rose 2. Refunding next: the 3Y rose most on 11/6 (+6); the 10Y prints 4.5 hours after CPI on 11/10, the same day as the UK 5⅜% 2056 auction (HANS).
 
@@ -36,9 +36,9 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 | 5Y5Y forward / 10Y breakeven | 2.17 / 2.23% [11/6]; 2.22 / 2.24 [11/5] | [CONF MIRROR FRED T5YIFR/T10YIE]; 33bp below 2.50 |
 | ACM 10Y TP / KW 10Y TP | 0.7218% [11/5] / 0.9089% [10/30] | [EST PRIMARY NY Fed / MIRROR FRED]; different models |
 | Fed path | 12/9 meeting: +19.0bp priced ≈ 76% of a +25bp hike (in-month method, EFFR held 3.88 [11/5]); strip peak 4.345 Oct-2027 (+46.5bp); 65% [11/5], 82% [11/4] | [EST CBOT vendor bars, last print after the 17:00 ET halt 11/6, captured 17:09 ET, not settlement; HENRY owns] |
-| HY/CCC/B/BB/BBB/IG OAS | 348 / 1320 / 367 / 213 / 116 / 93bp [11/5] | [CONF MIRROR-WALLED ICE via FRED] |
+| HY/CCC/IG OAS | 342 / 1317 / 93bp [11/6]; B/BB/BBB 367 / 213 / 116 [11/5] | [CONF MIRROR-WALLED ICE via FRED, read 11/9 12:56 ET] |
 | HY primary | Week to 11/6 nearly $10B through Thursday, Friday volume not seen; October ≈$15B; EDGAR filers 22 week of 11/2 (read after the 11/6 close) | [EST secondary, Bloomberg via CAM; EDGAR mixed IG/HY]; pulled deals not observable |
-| HY distance to 350 | 2bp [11/5]; 332 [11/4], 340 [11/3], 343 [11/2], 344 [10/30] | [EST] |
+| HY distance to 350 | 8bp [11/6]; 348 [11/5], 332 [11/4], 340 [11/3], 343 [11/2], 344 [10/30] | [EST] |
 | SOFR / EFFR / IORB | 3.92 / 3.88 / 3.90% [11/5]; volume $3,256B | [CONF PRIMARY NY Fed; IORB FRED] |
 | SOFR−IORB | +2bp [11/5]; +4 on 11/4 | [EST]; LIQUID owns the verdict |
 | FR2004 stock | Long-end $146.946B (−3.870); 11–21Y $67.734B (+5.035); >21Y $41.465B (−8.430); 3–6Y $44.974B (−3.012) [as-of 10/28] | [CONF PRIMARY NY Fed] |
@@ -56,6 +56,7 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 | 10/26 | 2Y `91282CRU7` | **45.68 / 41.32** / 13.00 | 2.59 | AUDIT ONLY; I′ FIRE (bar 54.82, −9.14pp); OLD not fired |
 | 10/27 | 5Y `91282CRT0` | 60.05 / 29.40 / 10.56 | 2.33 | AUDIT ONLY; clean (I′ +0.63pp) |
 | 10/29 | 7Y `91282CRV5` | 57.77 / 32.82 / 9.41 | 2.46 | AUDIT ONLY; clean (I′ 57.43, +0.34pp; OLD and cover not fired) |
+| **11/9** | **3Y `91282CRW3`** | **55.48 / 35.04 / 9.48** | **2.53** | **REGISTERED; I′ FIRE (bar 57.44, −1.96pp); cover marker (2.54); OLD not fired (dealer −10.02pp); BND-33 TRUE** |
 
 **Frozen 11/2 for the refunding** (n=12, published 2dp; OLD indirect-min / dealer-max · BTC-min · I′): 3Y `91282CRW3` 11/9 $58B: 56.50 / 19.50 · 2.54 · 57.44 — 10Y `91282CRX1` 11/10 $42B: 63.95 / 13.38 · 2.39 · 65.05 — 30Y `912810UY2` 11/12 $25B: 59.95 / 14.74 · 2.29 · 63.89. Files `registry/auction_bars/`; grade with `.venv` python (system python lacks numpy, so I′ is not computed there). ⚠️ After a print, a PRE-PRINT line means not graded, whatever the rc; one blank Yes/No on any coupon row refuses the run (L859 read 2).
 
@@ -80,26 +81,26 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 | # | Target /vector | Score | Status | Key evidence | Upgrade condition |
 |---|---|---:|---|---|---|
 | 1 | Long end / duration VX-BND-05 / VX-BND-12 / VX-BND-14 | 5 | 🔴🔴 | 30Y 5.26 [11/6], run 87; real 10Y 2.63 | Existing top score |
-| 2 | Treasury auction health VX-BND-01 / VX-BND-08 / VX-BND-13 | 3 | 🟠 | Downgraded 4→3 on 11/5: counter 3, QRA no size change | A registered composition fire resets the counter; second composition failure with a confirmed mechanism leg |
+| 2 | Treasury auction health VX-BND-01 / VX-BND-08 / VX-BND-13 | 3 | 🟠 | 3Y 11/9 registered I′ fire, dealers 9.48: counter 3→0, score held; downgraded 4→3 on 11/5 | A registered composition fire resets the counter; second composition failure with a confirmed mechanism leg |
 | 3 | Dealer absorption VX-BND-04 / VX-BND-16 | 2 | 🟡 | As-of 10/28 −$3.870B to $146.946B, no build; >21Y gave back most of the 10/14 jump | Two consecutive builds again; red = fresh long-end record + composition failure |
 | 4 | HY function VX-BND-02 / VX-BND-11 | 3 | 🟠 | HY 348 [11/5]; CCC 1320; B +41bp over 15 sessions; primary open 11/5 | HY >350 or verified pulled-deal cluster |
 | 5 | IG function VX-BND-03 / VX-BND-10 | 1 | ⚪ | IG 93 / BBB 116 | IG 120 / failed syndication |
 | 6 | CDX/cash VX-BND-06 | 1 | ⚪ | Proxy 5th percentile of 3 months, z20 −1.36, HY not tight; true CDX gap | Confirmed fast-layer lead |
 | 7 | Credit-equity VX-BND-07 | 2 | 🟡 | HY back in the band 11/5 at 348 with VIX 28.18; upgrade not met | Band held ≥2 sessions with VIX <20 at VIOLET's close |
 
-**Composite 17/35 = 5+3+2+3+1+1+2, unchanged at the 11/6 close:** one 5, two 3, two 2, two 1. Auction health 4→3 on its letter. **Clean-auction counter = 3 (WQ-536 RULED A, Will 10/29):** the 10/26 2Y audit-only I′ fire is recorded beside it. Rider: the downgrade follows the weakest 2Y in BOND's records. Outside composite: VX-BND-15=2, VX-BND-16=4, VX-BND-17=2 (1→2 on 11/5, 234bp), VX-BND-18=2, VX-BND-19=3, VX-BND-20=2.
+**Composite 17/35 = 5+3+2+3+1+1+2, unchanged through the 11/9 3Y grade:** one 5, two 3, two 2, two 1. Auction health 4→3 on its letter. **Clean-auction counter = 0 (reset 11/9 by the registered 3Y I′ fire; WQ-536 RULED A, Will 10/29):** the 10/26 2Y audit-only I′ fire stays recorded beside it. Rider: the downgrade follows the weakest 2Y in BOND's records. Outside composite: VX-BND-15=2, VX-BND-16=4, VX-BND-17=2 (1→2 on 11/5, 234bp), VX-BND-18=2, VX-BND-19=3, VX-BND-20=2.
 
 ## Exit / falsification
 
-WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT sold 10/30). Funding window UNGRADED. Thesis falsifier 10Y<4.15 AND 30Y<5.00 for 3 sessions plus a clean refunding: not met (4.86 / 5.26 [11/6]). Convergence downgrade: applied 11/5. Position construction is TERRY's. **OPEN predictions: 5.** BND-33: at least one refunding auction fires I′, 50%, base rate 5 of 11. BND-34 to 37 registered 11/5, resolve by 12/31 (`thesis/PREDICTIONS.tsv`). VX-BND-09 auction tails remain retired.
+WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT sold 10/30). Funding window UNGRADED. Thesis falsifier 10Y<4.15 AND 30Y<5.00 for 3 sessions plus a clean refunding: not met (4.86 / 5.26 [11/6]). Convergence downgrade: applied 11/5. Position construction is TERRY's. **OPEN predictions: 4.** BND-33 ✅ TRUE 11/9 on the 3Y (I′ 55.48 vs 57.44; called 50%, base rate 5 of 11). BND-34 to 37 registered 11/5, resolve by 12/31 (`thesis/PREDICTIONS.tsv`). VX-BND-09 auction tails remain retired.
 
 ## Immediate Catalysts (same event set as docket/CATALYSTS.tsv)
 
 | Date | Obligation |
 |---|---|
-| 11/9 | ICE credit for 11/6, late morning: BND-34 window opens, needs 352 |
-| **11/9 · 11/10 · 11/12** | 🔴 **Refunding: 3Y `91282CRW3` · 10Y `91282CRX1` · 30Y `912810UY2` — registered grades on the 11/2 frozen bars** · CPI 11/10 |
-| 11/11, 11/12, 11/13 | VX-BND-20 review 11/11 · BND-33 resolves at the 30Y grade 11/12 · FHLB Combined Financial Report 11/13 (REGINALD calendar) · FRBNY FX report 11/13 |
+| 11/9 | ✅ ICE 11/6 HY 342, BND-34 not TRUE (needs 352) · ✅ 3Y graded, I′ fire, BND-33 TRUE |
+| **11/10 · 11/12** | 🔴 **Refunding: 10Y `91282CRX1` (I′ 65.05) · 30Y `912810UY2` (I′ 63.89) — registered grades on the 11/2 frozen bars** · CPI 11/10 08:30 |
+| 11/11, 11/12, 11/13 | VX-BND-20 review 11/11 · 30Y grade 11/12 (counter only; BND-33 already TRUE) · FHLB Combined Financial Report 11/13 (REGINALD calendar) · FRBNY FX report 11/13 |
 | 11/17 | F2 op 20–30Y |
 | 11/18, 11/19 | 20Y new issue $16B · 10Y TIPS reopening $19B (bars freeze 11/12–11/17) |
 | 11/19 | Freeze bars for the month-end cluster |
@@ -112,4 +113,4 @@ WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT s
 
 ## BOTTOM LINE
 
-The October jobs beat moved two-year Treasuries up 5bp and the 30-year 1bp, and much of that came before the report. The market believes the December hike, about 76% on HENRY's futures read, more than the hikes after it. What BOND adds is that real long rates have not fallen: priced 2027 hikes dropped 11 to 30bp since the October meeting while the real 10-year stayed between 2.60 and 2.67, so borrowers have had no relief in real terms. Junk spreads hit 348 on November 5, the widest of 2026 and 2bp from the 350 line, yet three junk deals still priced that day, so access is not shut. No BOND score moved at the close. The November 6 junk-spread cell lands about 10:10 ET Monday, and 352 would settle BND-34. BOND has no position on this thesis; the November 9 to 12 refunding is the next real test, with the 10-year auction 4.5 hours after CPI on November 10.
+The first auction of the November refunding, the 3-year on November 9, drew a low foreign and investor share: 55.48% indirect against a pre-set line of 57.44% and below all twelve prior 3-year sales (since November 2025). That settles BOND's 50% call that at least one refunding auction would trip the line (BND-33, TRUE). The plumbing held: direct bidders took up the slack and dealers kept only 9.48%, so the auction cleared at price rather than leaving inventory stuck on dealer books. That makes it a warning light, not a break, and no BOND score moved; the counter of clean auctions goes back to zero. Junk spreads eased to 342 on November 6 from the 348 high. The tenors the thesis is about come next: the 10-year 4.5 hours after CPI on November 10 and the 30-year on November 12. BOND has no position.

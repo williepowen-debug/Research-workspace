@@ -49,3 +49,9 @@ Inbox empty at writing. No packet: no figure others cite moved. Reply to prome-5
 WALTER card 049 landed after the refresh: Michigan preliminary, long-run 3.4% from 3.5%, interviews end 11/2. Logged KB-BND-560, board_log row, card moved to processed. No score moved. No new work. Everything above stands.
 
 **Control skipped, corrected here:** commit 30a0e63c7d went in after `--verify` printed FREEZE MOVED, because my chained command did not gate on it, and its message wrongly says FREEZE MATCH and cause not traced. Cause, read at `tree_digest`: the digest hashes HEAD, and other desks' commits moved HEAD during the fleet closeout. No BOND path was dirty at the probe. Not self-fixed: a shared HEAD in the digest fails freeze whenever desks close together; bring to CATO or DAEDALUS with R1, R5.
+
+## ADDENDUM 2026-11-09 13:07 ET — PROME due-row wake (Will 12:07 ET), session OPEN
+
+Boot 12:56 ET: corrections rc=0, docket_check rc=0 (verified through 11/19), WALTER lane empty, boot_recompute rc=1 (VX-BND-17 spread-leg review, already scored 2 on 11/5). ICE 11/6: HY 342, CCC 1317, IG 93; BND-34 not TRUE (KB-BND-561). ACM 11/6 0.6428, −7.9bp.
+**3Y `91282CRW3` graded REGISTERED 13:04 ET:** indirect 55.48 vs I′ 57.44 → FIRE; dealer 9.48, BTC 2.53 (cover marker by 0.01); OLD not met. **BND-33 TRUE.** Counter 3 → 0; auction health held 3; composite 17. KB-BND-562. Packets: PROME (L924), LIQUID and ZHAO (🟠 FYI).
+**NEXT:** 10Y `91282CRX1` 11/10 13:00 ET (bars 63.95 / 13.38 · 2.39 · I′ 65.05), 30Y `912810UY2` 11/12 (59.95 / 14.74 · 2.29 · I′ 63.89) — registered grades for the counter only. Stay open until PROME asks for closeout; NEXUS_BRIEF fold at closeout.
