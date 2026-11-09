@@ -19,3 +19,4 @@ receipt_date	correction_id	action	note
 2026-11-06T23:36Z	COR-20261106-53	NO-OP	scope=STATUS and SCRATCH and KB-424 and KB-426 searched 2026-11-06 18:37 ET. The retrace to 48.0 and the contract text were already applied from ORACLE's own packet. Grade of KB-422 unchanged.; 
 2026-11-08T17:07Z	COR-20261107-02	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-441; validation_ref=AGENTS/FALCON/reports/2026-11-07_wq646-read1.md#2; 
 2026-11-08T17:07Z	COR-20261108-02	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-449; validation_ref=AGENTS/FALCON/reports/2026-11-08_wq646-read2.md#4; 
+2026-11-09T15:56Z	COR-20261109-09	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-454; validation_ref=AGENTS/FALCON/reports/2026-11-09_catchup-read.md#corrections-to-relays; 
