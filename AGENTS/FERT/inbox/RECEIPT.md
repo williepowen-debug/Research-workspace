@@ -1,25 +1,23 @@
-# Inbox Processing Receipt — 2026-11-05 23:37 UTC
+# Inbox Processing Receipt — 2026-11-09 18:05 UTC
 ## Agent: FERT
 
 ### Signals Processed
 | # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
 |---|-------------|--------|-------------------|-----------------|
-| 1 | WALTER/SIG-W-20261104-051.md | INTEGRATE | KB-FERT-113, KB-FERT-124 | VX-FERT-02 value 987 |
-| 2 | WALTER/SIG-W-20261105-004.md | INTEGRATE (China line superseded by 018) | KB-FERT-115 | none |
-| 3 | WALTER/SIG-W-20261105-018.md | INTEGRATE | KB-FERT-116, 119, 120 | VX-FERT-01 value, V1 score 2 to 1 by card |
+| 1 | 2026-11-06_from-PROME_WQ629-A-note-on-G3.md | INTEGRATE (mirror) | none; KB-FERT-006 Notes carries the WQ-629 note verbatim | none |
+| 2 | WALTER/SIG-W-20261106-033.md | LOG | none; KB-FERT-135 (combo:under-application-yield) gains one headline member + counterevidence | none |
+| 3 | 2026-11-09_from-PROME_due-rows-wake.md | INTEGRATE (task) | D:L761 T8 prep; grade after the 11/10 release | none yet |
 
-Census by PROME/tools/inbox_census.py: 3 lane items before, 0 after. Standing files `PROTOCOL.md` and `RECEIPT.md` are not packets. All three rows are in `board_log.tsv` (agent root).
+Census by PROME/tools/inbox_census.py before the drain: top-level 3 (2 packets + PROTOCOL.md + RECEIPT.md; the WQ-629 packet + two standing files at PROME's count), WALTER/ 1. After: packets 0. All three rows in `board_log.tsv` (agent root). Correction COR-20261106-35 (put/call) receipted NO-OP: FERT never carried the figure.
 
 ### STATUS.md Changes
-- MAP $983 → $987, G5 NOT FIRED 12 of 12; G3 7th re-read NOT FIRED; convergence 16 → 15; BOTTOM LINE rewritten
+- none at drain; STATUS moves at the T8 grade
 
 ### Outbox Signals Written
-- to-PROME: `PROME/inbox/2026-11-05_from-FERT_L578-CF-Q3-G5-G3-predictions-themes.md`
-- to-TERRY: `AGENTS/TERRY/inbox/2026-11-05_from-FERT_CF-Q3-guidance-read.md`
-- to-CORAL: `AGENTS/CORAL/inbox/2026-11-05_from-FERT_mosaic-florida-mines.md`
+- none at drain (quiet mode: one PROME packet at the grade)
 
 ### Files Modified
-KB.tsv, VX.tsv, TRIGGERS.tsv, PREDICTIONS.tsv, GATE_GRADES.md, GRADING_CARD, SUPPLY_EVENTS.tsv, INSTRUMENT_GAPS.md, STATUS.md, board_log.tsv
+KB.tsv, board_log.tsv, registry/corrections_receipts.tsv, inbox moves
 
 ### Skipped / Issues
-- (none)
+- OSPREY Rosneft gasoline / Russian diesel combo items: not routed to FERT; not logged here
