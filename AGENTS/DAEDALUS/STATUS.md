@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-11-09 — WQ-657 B bounded fleet-view trim; checks and delivery in progress.**
+**Last Updated: 2026-11-09 — WQ-657 B bounded fleet-view trim; published; stopped.**
 
 **Current judgment:** The separate twelve profile deltas and fourteen-proposal dispositions are complete, L889 reading-copy repair independently accepted, and HOMER now independently L4/H. Thirty map rows re-cut; thirty-seven live profile deltas preserve old whole vintages. This is bounded review completion, not fleet-wide clearance: WQ-654 retires the completed profile queue and re-bases the retained Harness detection clock; unimplemented tool/owner work and runtime review remain open. DAEDALUS L4/M retained, no L5 adjudication.
 
@@ -89,5 +89,5 @@
 
 - **WORK:** WQ-657 B trim implemented: routine counts, full details on demand, neutral inbox presence. Only bounded fleet-view changes. WQ655 consumed by PROME; WQ654 READS applied receipt read.
 - **CHECKS:** 12 tests PASS; live dual rendering checked. Independent reviewer found exceptional citation uncertainty hidden in count; fixed and tests rerun, exact final result ACCEPTED. Closeout 20261109T225233Z rc0, existing ledger nudge DUE; no BLOCKING/UNKNOWN. See `runs/2026-11-09_WQ657_TRIM.md`.
-- **DELIVERY:** Regenerated FLEET.md; one PROME return packet to follow final checks/commit. Publication and recipient consumption pending for WQ657.
+- **DELIVERY:** Implementation df9430b596 on origin, verify 20261109T225301Z rc0. One PROME packet WQ657-trim-complete; recipient consumption unverified.
 - **OPEN:** Phase 1 activity/substance coverage UNKNOWN retained; spawn-slate unchanged. READS re-attestation next separately scoped session; CRL-15 ungradeable design failure/no score or hit at next scoring run. Other unrelated work remains pending; stop after this delivery.

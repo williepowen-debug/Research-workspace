@@ -1,6 +1,6 @@
 # Current continuation — WQ-657 B, November 9, 2026
 
-Bounded trim implemented; tests 12 PASS, independent review ACCEPTED; closeout 20261109T225233Z rc0 with existing ledger nudge DUE. Publication pending. Record `runs/2026-11-09_WQ657_TRIM.md`. Opening routine entries counted, details preserved with --full; inbox presence asserts no work/consumption state. Stop after one PROME packet. WQ655 two packets consumed/filed; WQ654 READS changes applied, own re-attestation still stale for next separate session. WQ656 B governs next scoring report: CRL-15 design failure/ungradeable, no Brier/hit including withdrawn 10%; no scoring work now. Spawn-slate stays. Earlier Phase 1 consumption-pending text below is historical, superseded by these receipts.
+Bounded trim implemented; tests 12 PASS, independent review ACCEPTED; closeout 20261109T225233Z rc0 with existing ledger nudge DUE. Implementation df9430b596 published; verify 20261109T225301Z rc0. One return packet WQ657-trim-complete; recipient consumption unverified. Record `runs/2026-11-09_WQ657_TRIM.md`. Opening routine entries counted, details preserved with --full; inbox presence asserts no work/consumption state. Stop after one PROME packet. WQ655 two packets consumed/filed; WQ654 READS changes applied, own re-attestation still stale for next separate session. WQ656 B governs next scoring report: CRL-15 design failure/ungradeable, no Brier/hit including withdrawn 10%; no scoring work now. Spawn-slate stays. Earlier Phase 1 consumption-pending text below is historical, superseded by these receipts.
 
 ---
 
