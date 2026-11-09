@@ -12,7 +12,7 @@
 6. HYG hedge WQ-615 ×5 is FIRED and UNFILLED; the order is Will's hand (GATES `GATE-TERRY-HYG-FOLLOW-01`, TERRY's card). Pairing with WQ-513 ×4 needs his word (D:L830). No prompt from PROME.
 
 ## Waiting on / dependencies
-- **DAEDALUS** (Codex, not listable; packet only): WQ-657 B fleet-view trim, packet `AGENTS/DAEDALUS/inbox/2026-11-09_from-PROME_WQ657-RULED-B-fleet-view-trim.md` (6891fa8f21); return to `PROME/inbox/`. Also owes its READS re-attestation and the D:L490 set.
+- **DAEDALUS** (Codex, not listable; packet only): WQ-657 B trim DELIVERED and consumed 11/9 (df9430b596; PROME re-ran 12 tests and the generator; opening view 83 lines). Still owes its READS re-attestation and the D:L490 set.
 - **CARL** (carl-aa, open): HHDC grade Tue 11/10 11:00 ET on the RE-SPEC only, shadow beside it, divergence to PROME as a fact (`reports/2026-11-09_CARL-HHDC-governing-rule.md`; D:L1017, D:L797).
 - **CATO** (Codex): the one-command card writer and question-only lock for the Decisions app (STATUS § Live Surfaces row).
 - **Message after tomorrow's prints (desks open, tap by SendMessage):** SAM after SoftBank 01:30 ET · HENRY after CPI 08:30 (D:L775) · NEXUS (DFII10 cell once FRED posts the 11/6 cell, GATE-NEXUS-T12S-DFII10; PRED-41, D:L575) and CARL (CRL-33) after HHDC 11:00 · FERT after USDA 12:00 (D:L761) · ZHAO 11/10 (ZHA-19, D:L858 close, re-date the D:L435 cliff to 2027-01-10) and 11/11 (ZHA-20) · VULCAN on CoreWeave and TSMC (lookup `AGENTS/VULCAN/reports/2026-11-10_lookup/LOOKUP.md`) · BOND after the 10Y 13:00 (grades 10Y 11/10, 30Y 11/12) · RED 11/11 re-review (D:L1064).
