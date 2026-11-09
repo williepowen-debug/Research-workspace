@@ -1,4 +1,18 @@
-> # ⛔ 2026-11-06T18:35:10-05:00 — READ THIS BLOCK FIRST. Re-close on Will's word, relayed verbatim by prome-51 at 18:33 ET: "Lets direct our agents to close out". Same session as the block below (Claude Code, Opus 5.5, session 65471f19). No new work. Next session is a fresh boot.
+> # ⛔ 2026-11-09T11:19:30-05:00 — READ THIS BLOCK FIRST. PROME commission, Will's go 11:14 ET relayed in `inbox/processed/2026-11-09_from-PROME_nvidia-divergence-coreweave-catchup.md`. Claude Code, Opus 5.5 (claude-opus-5-5), session id not exposed. Session stays OPEN until PROME asks for closeout.
+
+▶ START HERE: **Nothing moved: 15/25.** Tomorrow is a lookup: `reports/2026-11-10_lookup/LOOKUP.md` holds VULCAN-188 (TSMC October: TRUE ≥ NT$570,630mn, NO-VERDICT 559,330 to below 570,630, FALSE below) and VULCAN-191 (CoreWeave FY2026 capex midpoint: TRUE below $36.5B, NO-VERDICT 36.5 to below 37.5, FALSE 37.5 or above, VOID if none stated), with pre-stated wordings. Then 11/12 Nebius, 11/13 slot 10 + GPU 10 + S2, before 11/15 IREN exhibits vs GPU 1.0 for VULCAN-13 leg (c), renew GPU cadence before 11/27. STATUS 88% of cap: rotate.
+
+RECONCILE 18b829a3d8c3659cb997c83d4a224899cf3e7241e19d774efe8fd9f9b9cc324f STATUS UPDATED: header, S1 and S4 reads carry KB-409 and KB-411; no score, band, fired count or obligation moved, 15/25. BOTTOM LINE unchanged: a single-name governance fall does not change the systemic state, and its named next tests (CoreWeave 11/10, Nebius, OpenAI round, Oracle 10-Q) stand.
+RECONCILE 18b829a3d8c3659cb997c83d4a224899cf3e7241e19d774efe8fd9f9b9cc324f THESIS UNCHANGED: reviewed S1 and S4 stages against KB-409..412. Nvidia's fall lowers concentration and changes no capex guide; the BIS publication was already struck and dated in S4 on 11/6; no stage state, verdict or resolver moves.
+RECONCILE 18b829a3d8c3659cb997c83d4a224899cf3e7241e19d774efe8fd9f9b9cc324f EXIT UNCHANGED: leg 2 stays on slot 9 33.4972% (above 28%); a falling NVDA intraday is not a sample. Legs 1, 3, 4 have no new evidence. §4c live, rewrite trigger not fired, Newest entry not refreshed.
+
+- Boot: root CLAUDE, AGENTS, USER, desk CLAUDE read; no desk AGENTS.md. Master 1 ahead of origin (PROME's 78cbbb5507), 0 behind after fetch; tree clean, no pull needed. boot.py: carried META 10-Q model FAIL only; none due; series fresh.
+- Nvidia [KB-409]: fetch.py 11:16 ET NVDA 175.41 −6.02% vs SMH +4.32%, AMD +12.14%. Story is secondaries (board probe, Huang's staff email); NYT original and board statement unread; EDGAR shows no Nvidia 8-K since 10/13. No slot moves; key-person risk is not a channel.
+- Card 002 [KB-410]: Anthropic $3.4bn NOT LOCATED; loan seller not promoted; Broadcom $43B probably KB-199's $42B, check the December 10-K. Card 005 info-only, SAM's.
+- BIS 11/10 row swept after reading FR Doc. 2026-22793, 91 FR 70789, published 11/9 [KB-411]. ZHAO packet to processed. CoreWeave baseline $35–39B confirmed by two relays [KB-412].
+- No PROME packet: no grade, slot, gate or route moved (quiet mode). No LESSONS row: no correction or ruling. 4b: no scope, threshold, cadence or charter date changed. No auto-memory written.
+
+> # ⛔ 2026-11-06T18:35:10-05:00 — prior block. Re-close on Will's word, relayed verbatim by prome-51 at 18:33 ET: "Lets direct our agents to close out". Same session as the block below (Claude Code, Opus 5.5, session 65471f19). No new work. Next session is a fresh boot.
 
 ▶ START HERE: **Nothing moved: 15/25.** Read the ▶ START HERE in the block below; its clock and obligations stand unchanged. Next: 11/10 CoreWeave and TSMC 6-K and MOFCOM 70, 11/12 Nebius, 11/13 slot 10 + GPU 10 + S2, **before 11/15 compare IREN 10-Q exhibits 10.1 and 10.2 with GPU 1.0 for VULCAN-13 leg (c)**, sweep the BIS 11/10 row once the 11/09 publication is seen, renew GPU cadence before 11/27. STATUS 87% of cap, rotate at the next working session.
 
