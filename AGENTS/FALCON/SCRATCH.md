@@ -40,7 +40,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-11/8: no WALTER cards after 20261107-003; inbox empty. Read 2 grades sent to walter-e1 and prome-bf. PROME confirmed read 2 received at 9b7d122d78 and asked for closeout with safe-push.
+11/8: cards SIG-W-20261108-001 (ORACLE's 2-week-pause market, info-only) and 002 (my read-2 grades plus COR-20261108-02 on card 056, acted) logged and moved to processed; COR-20261107-02 and COR-20261108-02 receipted APPLIED. WALTER pushed the routing at c0e86bac35; BRENT and HAWK had no session open, so nobody has read the Riyadh office hit or the Abqaiq intercept against oil scenarios (BRENT's read). Inbox empty at 11/9 09:3x ET.
 
 ## PENDING PUSH / GIT
-Closeout 11/8 on PROME's ask: push via safe-push after the brief commit; receipt to prome-bf.
+Closed and pushed 11/8 (HEAD d39ac9e70e on origin, receipt to prome-bf). 11/9 09:3x ET: laptop to desktop move on PROME's WQ-249 ask; only this SCRATCH mail and git note changed. Nothing pending.
