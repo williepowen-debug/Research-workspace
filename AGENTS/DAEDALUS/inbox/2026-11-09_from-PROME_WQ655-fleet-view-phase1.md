@@ -12,6 +12,7 @@
   - orchestration: `scripts/orch_log.py`, `PROME/tools/orch_closeout.py`, `PROME/state/ORCH_LOG.tsv`
   - activity attribution: `PROME/tools/desk_activity.py`
   - session discovery: `PROME/tools/session_presence.py`, `PROME/tools/session_bridge.py`, `PROME/tools/session_identity.py`
+  - **the retired Fleet-Ops build `PROME/tools/fleet_dashboard.py`** (build retired 2026-10-16, WQ-452.FLEETOPS; still the parser library: `parse_roster` · `parse_fleet_map` · `collect_fleet_rows` · `parse_gates`, imported by `will_handbook.py`). Its design contract (generated, points never owns, fail loud, self-declaring age) is the right one; reuse its parsers, do not revive the HTML page.
   - also: `PROME/ROSTER.md`, `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/tools/board_scan.py`, the desks' `NEXUS_BRIEF.md` files (31, no common header)
 - **Preserve Git preflight controls.** This is not a Git-coordination redesign.
 - **Not in scope:** positions and conviction; any "live now" marker maintained by hand; a trial, recurring measurement program, new checker framework or expanded audit.
