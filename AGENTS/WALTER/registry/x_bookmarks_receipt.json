@@ -1,43 +1,101 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-06T22:16:26Z",
-  "items": 5,
+  "checked_at": "2026-11-09T15:52:48Z",
+  "items": 35,
   "scan": {
-    "checked_at": "2026-11-06T22:11:23Z",
-    "head_checked_at": "2026-11-06T22:11:23Z",
+    "checked_at": "2026-11-09T15:50:48Z",
+    "head_checked_at": "2026-11-09T15:50:47Z",
     "head_checked_this_run": true,
     "incomplete": false,
     "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "partly_read": 2,
-    "fully_read": 3
+    "partly_read": 26,
+    "fully_read": 9
   },
   "dispositions": {
-    "DISPATCH": 3,
-    "FOLD": 2
+    "FOLD": 13,
+    "DISPATCH": 6,
+    "NO-ACTION": 8,
+    "DUP": 8
   },
   "follow_ups": [
     {
-      "id": "2118806627822297100",
-      "ref": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md"
+      "id": "2119806908693627130",
+      "ref": "BOARD/SIG-W-20261109-004-Nvidia-down-about-4pct-while-QQQ-up-3pct-on-Huang-spy-report-follow-through-Citi-cuts-US-equities-and-tech-to-Neutral.md"
     },
     {
-      "id": "2118785537775480886",
-      "ref": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md"
+      "id": "2119649663582142556",
+      "ref": "BOARD/SIG-W-20261109-008-Small-items-Japan-financial-cyber-shutdown-option-Berkshire-yen-bond-Union-Pacific-rate-threat-Jacksonville-300M-hole-El-Nino-jet.md"
     },
     {
-      "id": "2118720061053739304",
-      "ref": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md"
+      "id": "2119763850325086357",
+      "ref": "BOARD/SIG-W-20261109-004-Nvidia-down-about-4pct-while-QQQ-up-3pct-on-Huang-spy-report-follow-through-Citi-cuts-US-equities-and-tech-to-Neutral.md"
     },
     {
-      "id": "2118796071648530528",
-      "ref": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md"
+      "id": "2119717185492775004",
+      "ref": "BOARD/SIG-W-20261109-004-Nvidia-down-about-4pct-while-QQQ-up-3pct-on-Huang-spy-report-follow-through-Citi-cuts-US-equities-and-tech-to-Neutral.md"
     },
     {
-      "id": "2118775958408773893",
-      "ref": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md"
+      "id": "2119603414011174937",
+      "ref": "BOARD/SIG-W-20261109-008-Small-items-Japan-financial-cyber-shutdown-option-Berkshire-yen-bond-Union-Pacific-rate-threat-Jacksonville-300M-hole-El-Nino-jet.md"
+    },
+    {
+      "id": "2119476320652411214",
+      "ref": "BOARD/SIG-W-20261109-006-US-demands-Iraq-close-Iran-border-crossings-Bessent-reportedly-presses-China-on-Tehran-Eisenkot-asked-to-form-Israeli-government.md"
+    },
+    {
+      "id": "2119414635053113810",
+      "ref": "BOARD/SIG-W-20261109-007-Millennium-shuts-two-more-credit-pods-Binance-CFO-resigns-after-hack-private-credit-defaults-claim-unsourced.md"
+    },
+    {
+      "id": "2119201854257233944",
+      "ref": "BOARD/SIG-W-20261109-008-Small-items-Japan-financial-cyber-shutdown-option-Berkshire-yen-bond-Union-Pacific-rate-threat-Jacksonville-300M-hole-El-Nino-jet.md"
+    },
+    {
+      "id": "2117406534024253536",
+      "ref": "BOARD/SIG-W-20261109-007-Millennium-shuts-two-more-credit-pods-Binance-CFO-resigns-after-hack-private-credit-defaults-claim-unsourced.md"
+    },
+    {
+      "id": "2119204044564787517",
+      "ref": "BOARD/SIG-W-20261109-007-Millennium-shuts-two-more-credit-pods-Binance-CFO-resigns-after-hack-private-credit-defaults-claim-unsourced.md"
+    },
+    {
+      "id": "2118862304385142917",
+      "ref": "BOARD/SIG-W-20261109-008-Small-items-Japan-financial-cyber-shutdown-option-Berkshire-yen-bond-Union-Pacific-rate-threat-Jacksonville-300M-hole-El-Nino-jet.md"
+    },
+    {
+      "id": "2119166955974262986",
+      "ref": "BOARD/SIG-W-20261109-006-US-demands-Iraq-close-Iran-border-crossings-Bessent-reportedly-presses-China-on-Tehran-Eisenkot-asked-to-form-Israeli-government.md"
+    },
+    {
+      "id": "2119157583533515245",
+      "ref": "BOARD/SIG-W-20261109-006-US-demands-Iraq-close-Iran-border-crossings-Bessent-reportedly-presses-China-on-Tehran-Eisenkot-asked-to-form-Israeli-government.md"
+    },
+    {
+      "id": "2119067457717412198",
+      "ref": "BOARD/SIG-W-20261109-005-SoftBank-down-4-2pct-in-Tokyo-before-results-Musk-claims-SoftBank-is-defaulting-on-turbine-orders-unverified.md"
+    },
+    {
+      "id": "2119119041419714656",
+      "ref": "BOARD/SIG-W-20261109-006-US-demands-Iraq-close-Iran-border-crossings-Bessent-reportedly-presses-China-on-Tehran-Eisenkot-asked-to-form-Israeli-government.md"
+    },
+    {
+      "id": "2119085414124335308",
+      "ref": "BOARD/SIG-W-20261109-008-Small-items-Japan-financial-cyber-shutdown-option-Berkshire-yen-bond-Union-Pacific-rate-threat-Jacksonville-300M-hole-El-Nino-jet.md"
+    },
+    {
+      "id": "2118745842064703987",
+      "ref": "BOARD/SIG-W-20261109-007-Millennium-shuts-two-more-credit-pods-Binance-CFO-resigns-after-hack-private-credit-defaults-claim-unsourced.md"
+    },
+    {
+      "id": "2118949821037912517",
+      "ref": "BOARD/SIG-W-20261109-004-Nvidia-down-about-4pct-while-QQQ-up-3pct-on-Huang-spy-report-follow-through-Citi-cuts-US-equities-and-tech-to-Neutral.md"
+    },
+    {
+      "id": "2118730605693370422",
+      "ref": "BOARD/SIG-W-20261109-007-Millennium-shuts-two-more-credit-pods-Binance-CFO-resigns-after-hack-private-credit-defaults-claim-unsourced.md"
     }
   ],
   "requests": []

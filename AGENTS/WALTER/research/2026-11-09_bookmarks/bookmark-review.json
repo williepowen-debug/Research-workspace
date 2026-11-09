@@ -1,0 +1,252 @@
+{
+ "schema": 2,
+ "staged_at": 1794239448.137602,
+ "items": [
+  {
+   "id": "2119806908693627130",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-004-Nvidia-down-about-4pct-while-QQQ-up-3pct-on-Huang-spy-report-follow-through-Citi-cuts-US-equities-and-tech-to-Neutral.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119649663582142556",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-008-Small-items-Japan-financial-cyber-shutdown-option-Berkshire-yen-bond-Union-Pacific-rate-threat-Jacksonville-300M-hole-El-Nino-jet.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119763850325086357",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-004-Nvidia-down-about-4pct-while-QQQ-up-3pct-on-Huang-spy-report-follow-through-Citi-cuts-US-equities-and-tech-to-Neutral.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119717185492775004",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-004-Nvidia-down-about-4pct-while-QQQ-up-3pct-on-Huang-spy-report-follow-through-Citi-cuts-US-equities-and-tech-to-Neutral.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119784575786230114",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2119603414011174937",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-008-Small-items-Japan-financial-cyber-shutdown-option-Berkshire-yen-bond-Union-Pacific-rate-threat-Jacksonville-300M-hole-El-Nino-jet.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119452131488838051",
+   "disposition": "DUP",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2119476320652411214",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-006-US-demands-Iraq-close-Iran-border-crossings-Bessent-reportedly-presses-China-on-Tehran-Eisenkot-asked-to-form-Israeli-government.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119414635053113810",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261109-007-Millennium-shuts-two-more-credit-pods-Binance-CFO-resigns-after-hack-private-credit-defaults-claim-unsourced.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119433866746212822",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2119431020965748760",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2119390132587598203",
+   "disposition": "DUP",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2119228115708731885",
+   "disposition": "DUP",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2119201854257233944",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-008-Small-items-Japan-financial-cyber-shutdown-option-Berkshire-yen-bond-Union-Pacific-rate-threat-Jacksonville-300M-hole-El-Nino-jet.md",
+   "ask_user": null
+  },
+  {
+   "id": "2117406534024253536",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261109-007-Millennium-shuts-two-more-credit-pods-Binance-CFO-resigns-after-hack-private-credit-defaults-claim-unsourced.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119204044564787517",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-007-Millennium-shuts-two-more-credit-pods-Binance-CFO-resigns-after-hack-private-credit-defaults-claim-unsourced.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118858930038174006",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2119154501097845001",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118773968849055873",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118862304385142917",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-008-Small-items-Japan-financial-cyber-shutdown-option-Berkshire-yen-bond-Union-Pacific-rate-threat-Jacksonville-300M-hole-El-Nino-jet.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119161693674549308",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2119166955974262986",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-006-US-demands-Iraq-close-Iran-border-crossings-Bessent-reportedly-presses-China-on-Tehran-Eisenkot-asked-to-form-Israeli-government.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119157583533515245",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-006-US-demands-Iraq-close-Iran-border-crossings-Bessent-reportedly-presses-China-on-Tehran-Eisenkot-asked-to-form-Israeli-government.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118963044235837558",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2119067457717412198",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-005-SoftBank-down-4-2pct-in-Tokyo-before-results-Musk-claims-SoftBank-is-defaulting-on-turbine-orders-unverified.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119119041419714656",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-006-US-demands-Iraq-close-Iran-border-crossings-Bessent-reportedly-presses-China-on-Tehran-Eisenkot-asked-to-form-Israeli-government.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119084942789398954",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118724387851428091",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118795736469090551",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2119085693649465633",
+   "disposition": "DUP",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2119085414124335308",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261109-008-Small-items-Japan-financial-cyber-shutdown-option-Berkshire-yen-bond-Union-Pacific-rate-threat-Jacksonville-300M-hole-El-Nino-jet.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118745842064703987",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-007-Millennium-shuts-two-more-credit-pods-Binance-CFO-resigns-after-hack-private-credit-defaults-claim-unsourced.md",
+   "ask_user": null
+  },
+  {
+   "id": "2119076433045889191",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118949821037912517",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261109-004-Nvidia-down-about-4pct-while-QQQ-up-3pct-on-Huang-spy-report-follow-through-Citi-cuts-US-equities-and-tech-to-Neutral.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118730605693370422",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261109-007-Millennium-shuts-two-more-credit-pods-Binance-CFO-resigns-after-hack-private-credit-defaults-claim-unsourced.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "25fe099b63554d7c82e6f4946197ff0b"
+}
