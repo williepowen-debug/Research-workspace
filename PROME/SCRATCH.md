@@ -5,8 +5,8 @@
 
 ## Next, in order
 1. NOW migration DONE (WQ-658 A): result read ❌ 3 fixed, residue declared in `proposals/2026-11-09_wq655-NOW-consolidation-PROPOSAL.md` § 9; the live-text residue is fixed at the next spine audit (D:L1084).
-2. BROCK Car-Mart final read after the 8-K window (D:L927; message brock-73).
-3. Skydance Q3 10-Q read after it files tonight (D:L811; first half logged in `themes/ellison/log.md`); if not filed, re-date the row at closeout.
+2. BROCK Car-Mart final read (D:L927): asked by message 16:42 ET 11/9 to grade after the 17:30 ET window and return a packet; consume it and resolve the row.
+3. Skydance Q3 10-Q read once it files (D:L811, re-dated 11/11; the 11/9 8-K letter is logged in `themes/ellison/log.md`).
 4. Evening Standard closeout (no row: session duty): closeout ask to every desk touched 11/9 (ORCH_LOG) · ARGUS end-of-day (WQ-485) and the two items on D:L1096 · daily-note lessons: a relayed search miss reported as a refutation; two narrative clock stamps (10:4x, 14:4x); the COR-20261109-09 receipt said "zero hits" while DOCKET held two old unrelated Rubio rows; the FERT census scaffold gap (PROTOCOL.md and RECEIPT.md still counted).
 5. Overnight-desk question: DEFERRED by Will 15:12 ET 11/9. Do not re-ask before the evening closeout (no row: his word).
 6. HYG hedge WQ-615 ×5 is FIRED and UNFILLED; the order is Will's hand (GATES `GATE-TERRY-HYG-FOLLOW-01`, TERRY's card). Pairing with WQ-513 ×4 needs his word (D:L830). No prompt from PROME.
