@@ -40,6 +40,14 @@ Book line at draft time (`will_brief.py --book-line`, rc 0): $44,841.44, cash 62
 
 FRED publishes the ICE BofA HY OAS for 11/6 Monday morning. Consequences to state: WQ-513 (second HYG hedge) counts 1 of 3 closes only if the cell is above 3.50% (it was 3.48% on the last print); VIOLET's Path A size condition is HY at or over 368bp.
 
+**FILLED Mon 11/9, 10:3x ET (PROME, desktop boot):** HY OAS **342 bp [11/6]**, −6 from 348 [11/5]; CCC **1,317 bp [11/6]**, −3. Source: PROME dashboard pull 2026-11-09 10:33:22 ET (first-published cell). Consequences, each by the owner's letter, none graded here:
+- WQ-513 (HYG ×4): NOT FIRED, still 0 of 3 above 350.
+- REG-T-04 (REGINALD, 350 ×3): 0 of 3.
+- VIOLET Path A size (≥ 368): not met.
+- WQ-615 HYG ×5 (GATE-TERRY-HYG-FOLLOW-01): T1 already FIRED on 348 [11/5] and stays fired. The card voids only on HY ≤ 330 for 5 consecutive closes before entry; 342 is not ≤ 330, so 0 of 5. TERRY read today as an entry day (HYG $77.42 +0.24% at 09:32 ET, commit 063e542caf), but its vendor quoted both option legs at 0.00/0.00, so only the broker chain can price the debit (≤ $0.60, max loss $306.50). No order is approved beyond the card; the order is Will's hand.
+- HY > 320 run: continues. LIQUID's tier rule (BROADENS on one print) and its second-print read are LIQUID's to grade.
+- So what: Friday's credit print eased instead of following Thursday's equity break through. The open question from HEARTBEAT, whether price deterioration has become a financing constraint, gets no support from this cell. One print; CPI Tuesday is the next test.
+
 ## 6. Known unknowns to carry into the chat version
 
 - The CPI date and time are INFERRED from two secondary pages quoting BLS, not read at bls.gov.
