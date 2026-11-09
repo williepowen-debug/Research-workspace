@@ -1,6 +1,6 @@
 # Pre-CPI brief, Tue 2026-11-10 — DRAFT (DOCKET L1086)
 
-**State:** outline, built Sun 2026-11-08 15:1x ET by PROME prome-bf. Cells marked `[MON]` fill on Monday 11/9; the brief goes to Will in chat Monday after the HY cell (about 10:10 ET) and before the close. This file is the record; the chat version follows the operator-surface clause in root `CLAUDE.md`.
+**State:** DELIVERED to Will in chat Mon 2026-11-09 14:5x ET (PROME prome-6f, desktop), sections 4–5 filled the same day; HENRY's grade sheet `AGENTS/HENRY/research/2026-11-09_cpi-wake/CPI_GRADE_SHEET.md` adds the Bloomberg-survey consensus (core 0.22, via X relay) and the gamma map. Outline built Sun 2026-11-08 15:1x ET by PROME prome-bf. Cells marked `[MON]` fill on Monday 11/9; the brief goes to Will in chat Monday after the HY cell (about 10:10 ET) and before the close. This file is the record; the chat version follows the operator-surface clause in root `CLAUDE.md`.
 
 ## 1. What prints Tuesday (ET)
 
