@@ -1,14 +1,18 @@
 # FALCON — NEXUS Brief
 
-**Status:** 🔴 B 1 / C 14 / D 85 HELD (11/04 weekly review; no letter met through about 17:05Z 11/08, WQ-646 read 2); FAL-06 CONFIRMED, route (c) ungraded; losses 7; FAL-08..12 OPEN to 12/31, FAL-09 count 0 of 5. Qeshm 11/6 graded a US strike, attribution high, not explicit. Houthis hit an Aramco office in Riyadh 11/8: out of class, rung not fired.
+**Status:** 🔴 B 1 / C 14 / D 85 HELD (11/04 weekly review; no letter met through about 15:50Z 11/09, catch-up read); FAL-06 CONFIRMED, route (c) ungraded; losses 7; FAL-08..12 OPEN to 12/31, FAL-09 count 0 of 5. Qatar's PM at the White House 11/9 with unconfirmed terms: ladder item 5 and FAL-10 not met. Houthis hit an Aramco office in Riyadh 11/8: out of class, rung not fired.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); v3.1 November 6 moves the live test to FAL-08, a STATED loss; no new pivot.
-**As of:** 2026-11-08 12:06 ET | STATUS commit: `8016a6faad` | Evidence cutoff about 17:05Z 11/08; centcom.mil, UKMTO and Seatrade unreachable (403), CENTCOM X and direct Reuters, AP, AFP, Bloomberg unread; DVIDS and Anadolu reachable
+**As of:** 2026-11-09 10:55 ET | STATUS commit: `9c7c5f946e` | Evidence cutoff about 15:50Z 11/09; centcom.mil, UKMTO, Dawn (403) unreachable; CENTCOM X and direct Reuters, AP, AFP, Bloomberg unread; Al Jazeera, TASS, CNN, JPost, Anadolu, MarEx, IMO, NAVAREA IX, FIRMS reachable
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
+| HAWK / RED / PROME / ORACLE / BRENT | Qatar track 11/9: PM meets Trump (Vance first). Unnamed sources (Israel Hayom, OilPrice.com): an Iranian-approved plan, $8B released from Qatar, blockade lifted, Hormuz reopens day two. Neither government confirms. Trump 11/8: new strikes "highly unlikely" if a strong deal is signed. Rubio 11/8: demands "outrageous and ridiculous", no breakthrough near (verified, Al Jazeera). Axios: CENTCOM preparing to resume, awaiting orders | P0 | **Ladder item 5 and FAL-10 NOT MET**; Diplomacy 3; C→B needs a dated framework plus verified reopening. ⛔ Do not carry "deal signed" or "Iran accepted". Meeting outcome after cutoff. KB-452/453 |
+| BRENT / SAM / HAWK / RED / WALTER | IRGC: three tankers ablaze 11/8, dated (TASS dateline 11/8), CLAIM-ONLY. Own FIRMS: at-sea heat 26.10N 55.90E 08:41–10:21Z 11/8, zero detections in that box for 32 days. IMO 131 / 25 as at 9 Nov: VIEILA = UKMTO 197-26; HUDA listed. 199-26 OSINT candidate NAVIG8 MESSI (ADNOC L&S-linked), unconfirmed | P1 | No hull named for 11/8; no sinking; census 7; FAL-12 untouched. FIRMS establishes no hull, cause or count. KB-454..457 |
+| HAWK / RED / PROME | Qeshm 11/8 evening: four explosions (IRNA), Bandar Abbas blasts (Fars: maybe warning shots). No US claim. US Treasury asked Iraq to shut all but two Iran crossings (Iraqi FM, Reuters 11/7); four of five still open | P1 | NOT ESTABLISHED as US; FAL-09 0 of 5. Iraq item is pressure, not a strike; PMF not fired; combo:land-route-squeeze. KB-458/461 |
+| BRENT / HAWK / RED | Riyadh tower severity: ministry "minor", verified video several floors, Houthis "significant"; no Saudi comment on airport, storage or Abqaiq claims | P1 | Rung NOT FIRED whatever the damage: office and storage OUT of class; Abqaiq IN, claim-only. KB-459 |
 | HENRY / BRENT / HAWK / RED / PROME / SAM | **Aramco office tower, Riyadh, 11/8: STRUCK, minor damage** (Saudi Energy Ministry: falling shrapnel, no casualties; Reuters witness: windows out across several floors). Houthis claim it plus Riyadh airport, Aramco storage tanks and Abqaiq. Eastern Province ballistic missile intercepted; Abqaiq alert lifted | P0 | **D 85 to 92 NOT FIRED: an office is not production-class**; Abqaiq damage is a claimant's word only. No stated crude loss, FAL-08 untouched. Second Aramco office hit after Dhahran 10/13. The target list now names the class that would fire the rung. BRENT owns the price read. KB-445/446 |
 | HAWK / BRENT / RED / PROME | US aircraft disabled cargo ship HUDA 11/7 after it left an Iranian port (CENTCOM on record). Qeshm and Jask blasts 11/7 evening: cause unknown, Iran's state TV suggests its own activity, no US claim | P1 | HUDA is blockade enforcement, excluded from FAL-09; count stays 0 of 5. CENTCOM counts since July (147 redirected, five disabled, 10 Iranian tankers destroyed) are a party's figures, a separate loss instrument. KB-443/444 |
 | BRENT / SAM / HAWK / RED / WALTER | UKMTO 199-26: tanker on fire 8 nm NW of Khasab 19:20Z 11/7, crew evacuated; UKMTO: tanker hit by an unknown projectile outbound 11/7, crew safe; UAE rescued 22 from a burning cargo ship 11/8. Iranian mine claims 11/7 to 11/8: four tankers, CLAIM-ONLY | P1 | No sinking reported; census 7. No hull named, no mine named by a maritime authority; FAL-12 untouched. KB-447/448 |
@@ -52,9 +56,9 @@
 
 ## VIEW
 
-- The weekend added fire, not a letter: a Houthi hit on an Aramco office in Riyadh, US blockade fire on a cargo ship, and more tanker fires and mine claims, while Qatar says talks go on. Monday's futures open is BRENT's read.
-- The rung to watch is the production one: the Houthis now name Abqaiq. An office does not count, and an intercept does not count.
-- Marks sit at a rail: held means no letter fired, not that D 85 was re-earned. The scale question stands: a sustained US campaign 40%, no counting strike day yet.
+- The live variable is the Qatar track: a plan is on Trump's desk, but no government has confirmed terms and the Secretary of State calls the demands outrageous. A signed, dated text confirmed by both sides is the only thing that moves my letters.
+- The war did not pause over the weekend: a dated IRGC tanker claim with a matching at-sea fire, Qeshm blasts, a Houthi hit on Aramco's Riyadh tower. None fires a rung; the production rung still waits on an Abqaiq-class hit.
+- Marks sit at a rail: held means no letter fired, not that D 85 was re-earned. A sustained US campaign stays 40%, no counting strike day yet.
 
 ## CALIBRATION
 
