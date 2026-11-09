@@ -202,7 +202,7 @@ def boot_registry(ctx):
         return (UNKNOWN if rc != 0 else ENUM), note, f + ab + st, rc
     steps.append((Step("B0", "git state (fetch · ahead/behind · dirty outside own dir)", git_state), ["git", "fetch/rev-list/status"]))
 
-    steps.append(child_step("B1", "sweeps_due (cadence · profile clocks · SELF-ROW · DIRECTORY-STALE)",
+    steps.append(child_step("B1", "sweeps_due (cadence · SELF-ROW · DIRECTORY-STALE)",
                             [sys.executable, os.path.join(HERE, "sweeps_due.py")], {0: CLEAN, 1: DUE, 2: UNKNOWN}))
     steps.append(child_step("B2", "corrections_boot_check DAEDALUS",
                             [sys.executable, os.path.join(root, "scripts/corrections_boot_check.py"), AGENT], {0: CLEAN, 1: BLOCKING, 2: UNKNOWN}))

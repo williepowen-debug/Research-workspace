@@ -6,14 +6,14 @@
   "publication_at_capture": "PROME live registry replacement pending owner application",
   "sha256": {
     "CLAUDE.md": "609e423d7ea3cee6395854304f2b36a7d2f831061dbf02e29bbd1021aba43e9e",
-    "AGENTS/DAEDALUS/CLAUDE.md": "72eb4aa54ffb6f8731c7adcf63be82c23fd4be3a1af734937b7d5e93017e3656",
-    "AGENTS/DAEDALUS/scripts/sweeps_due.py": "a09caad656f356546c2c64b475cde313cc4262893eb417778e2a8edefbbf27eb",
-    "AGENTS/DAEDALUS/scripts/profile_clock_check.py": "fcb42a0ec2154eb099b90a0ad1d0d022e6f9b7011e83e7b84491c65682819644",
+    "AGENTS/DAEDALUS/CLAUDE.md": "4ed906d0da93bcecd023431e2bd4b25dd27c93af2ddb6758d56d892b56ca4dc1",
+    "AGENTS/DAEDALUS/scripts/sweeps_due.py": "e0a8d9b0ca193e6133096e1a4f0245c20aa477d53755213cf8fd8d3b8f2bc5d1",
+    "AGENTS/DAEDALUS/scripts/profile_clock_check.py": "e6f1003671d8a38b39b0843fa5f32dbbd0ff1e67c83d2be1816eea59e8285beb",
     "scripts/corrections_boot_check.py": "db69634350a304386e77eab0220c1a2efb4ee47aaeba58a2e45435bc21bf8f0e",
     "scripts/read_cap_check.py": "b5fbd2fd3b108a3d375731f30dd4470bdd4ad7fbfecf3f1a295aa5fc30279180",
     "AGENTS/DAEDALUS/scripts/complete_check.py": "e944d6db07190560c4fd96ef11af0d097f02d1621f25088af5067d89ebdf5d9a",
     "AGENTS/DAEDALUS/scripts/verify_push.sh": "53c57c6eb10bac7998658f7558510e8c50a63becfa3358d49467b6db920513f3",
-    "AGENTS/DAEDALUS/scripts/daedalus_gate.py": "b280a9108858e66f81d3d2ec631c25b24e3b7d38477adc1b5c575a29d489bcc9",
+    "AGENTS/DAEDALUS/scripts/daedalus_gate.py": "89e678d0c008a37317e1d41b34bae4650c9e0b20168f42375bb8dc277f9169fe",
     "AGENTS/DAEDALUS/scripts/render_directory.py": "666110836dee09c1ba7b9c3d1ed9fd2490013a5ed3e273978cea33db0e313a00",
     "AGENTS/DAEDALUS/scripts/regen_patterns_hot.py": "5271d0b4ca5070f4ce24ae3fc6edca18504254201e47e45fb05fc45ebf3892a1",
     "PROME/ROSTER.md": "1796721ce1f8233424232f8ab7c35561c1eb0ea99b572ce9b4590c45fb426aca",
@@ -25,5 +25,6 @@
     "scripts/docket_view.py": "84dad878bd199ba082c0f816ce251beadca1884dd2b35f689c58b1ce7c134d9d",
     "AGENTS/DAEDALUS/OPERATIONS.md": "a4082fc62b903cc26b1866c943503ec127ee7ccd8e6037e52349d4ed320a940d"
   },
-  "charter_identity_update": "2026-10-09: Will-approved preservation split into mandatory CLAUDE.md and OPERATIONS.md; only these instruction identities refreshed/added. Other hashes retain their prior reviewed snapshots. Additive owner delta: registry/2026-10-09_READS_SPLIT_DELTA.tsv; live application not inferred."
+  "charter_identity_update": "2026-10-09: Will-approved preservation split into mandatory CLAUDE.md and OPERATIONS.md; only these instruction identities refreshed/added. Other hashes retain their prior reviewed snapshots. Additive owner delta: registry/2026-10-09_READS_SPLIT_DELTA.tsv; live application not inferred.",
+  "wq654_update": "2026-11-09: only sweeps_due/profile_clock/daedalus_gate identities refreshed for WQ-654 invocation relocation; profile_clock code unchanged. Other hashes remain historical. PROME READS application pending owner receipt; implementation review in runs/2026-11-09_WQ654_IMPLEMENTATION.md. Post-initial-review correction: CLAUDE.md SPAWN5 stale profile-clock phrase removed; charter identity refreshed, A09 spec lines retained."
 }

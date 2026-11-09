@@ -1,6 +1,6 @@
 # Current continuation — November 9, 2026
 
-Startup/status only, completed without backlog work. Read `runs/2026-11-09_BOOT_RECOVERY.md` before older continuation text below. WQ-654 A is approved and pending implementation; PROME counterpart and prior-package consumption are confirmed by its November 7 packet. Suggested next assignment: the bounded WQ-654 package with item-2 review and basis/READS handoff. Four inbox packets read and retained; no implementation or optional blueprint change started. Installed Harness/profile alerts remain. Foreign dirty work prevented pull; fetch succeeded, no incoming commits at boot. `python3` available; exact model variant and live cross-runtime PROME channel unverified. Existing WQ-601 unit 4 and owner dependencies remain.
+WQ-654 implemented on Will's “okay then go ahead”; independent result review ACCEPT, exact hashes recorded. `runs/2026-11-09_WQ654_IMPLEMENTATION.md` is the result record. Profile queue retired, checker moved into Production Review, A09 mandatory closure leg removed while spec lines remain, Harness 90-day detection clock October 4 (next January 2), provider switch explicitly triggers model review. Profile vintages and other clocks unchanged. PROME read declarations follow the implementation receipt; no whole-audit/runtime clearance. Current provider-change review unverified; do not silently treat cadence rc0 as its completion. Three unrelated inbox items and prior owner conditions remain pending. Older continuation text below is historical where superseded by this opening and STATUS.
 
 ---
 

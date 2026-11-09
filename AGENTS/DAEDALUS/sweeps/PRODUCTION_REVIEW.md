@@ -23,6 +23,12 @@ git log --after="$LAST 00:00" --pretty=format:"%s" | sed -E 's/^([A-Z]+).*/\1/' 
 python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/maturity_scan.py"
 ```
 
+**Profile clocks (WQ-654 A, Will 2026-11-07):** run the retained instrument here at each Production Review, separately from the boot cadence check:
+```bash
+python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/profile_clock_check.py"
+```
+Record its actual exit code and output. rc 0 certifies only evaluated dated predicates; rc 1 reports fired clocks for the profile-trigger disposition below; rc 2 refuses certification of malformed, missing or ambiguous metadata while retaining any valid alerts. DAEDALUS must verify the refused metadata before certifying that profile. Content/event triggers and undated profiles remain agent-judged. A valid delta disposition does not reset the whole-profile vintage; the September 8 contract in `UPGRADE_PROTOCOL.md` still applies. The separate profile-refresh queue is complete and retired; Step 0 at first heavy touch and the 14-day review remain.
+
 ### 2. Per active agent (shipped since last review): read the STATUS delta + key commits, assess via the maturity/structure lens
 - Did it **clear or slip a gate?** (L-level change — PAT-024 under-rating is the common case; PAT-030 grade content-not-filename; don't over-grade mechanically — flag *confirm-read owed* if you didn't do a full firming.)
 - Did a **profile open-question resolve**, or a **profile/row note go stale?**

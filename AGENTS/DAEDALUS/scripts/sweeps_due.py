@@ -13,6 +13,8 @@ the founding "always 0" contract, which was PAT-110's twin):
     2 = CANNOT-CERTIFY (registry missing or any row un-parseable) — dominates.
 All output on STDOUT (§8 rule 1 — stderr-only warnings die in wrappers).
 The clean line states its perimeter (§2): rows tracked + rows skipped.
+Profile metadata/day clocks are checked separately inside Production Review
+(WQ-654); rc0 here does not certify profile freshness or metadata.
 
 Also checks (PAT-050 fix-form, self-audit F8/B6): the DAEDALUS row in
 FLEET_MAP.tsv — Last_scored older than SELF_ROW_MAX_DAYS prints a FINDINGS
@@ -176,7 +178,7 @@ def main():
         return selftest()
     if "--registry" in sys.argv:
         REGISTRY = sys.argv[sys.argv.index("--registry") + 1]
-    no_pc = "--no-profile-clock" in sys.argv
+    # Legacy --no-profile-clock remains accepted as a no-op for existing callers.
     today = today_et()
     due, tracked, skipped = [], 0, []
     missing_pb = []   # playbook path in the row does not exist (2026-09-03 guard)
@@ -302,21 +304,7 @@ def main():
         return 2
     if overdue:
         return 1
-    # PROFILE CLOCKS (wired 2026-09-01, PR#5): the cheap half of the profile-staleness trigger.
-    # Runs as a child so its rc contract stays its own; a fired clock is a dated obligation → rc 1 here.
-    if no_pc:
-        return 1 if (due or self_row) else 0
-    try:
-        import subprocess as _sp
-        pc = _sp.run([sys.executable, os.path.join(HERE, "profile_clock_check.py"), "--quiet"],
-                     capture_output=True, text=True)
-        for line in pc.stdout.rstrip("\n").split("\n"):
-            if line: print(line)
-        if pc.returncode == 2:
-            print("🔴 sweeps_due CANNOT-CERTIFY: profile_clock_check rc 2 (see line above)"); return 2
-        if pc.returncode == 1: due = due or ["profile clocks"]
-    except Exception as e:  # never silently green
-        print(f"🔴 sweeps_due CANNOT-CERTIFY: profile_clock_check could not run ({e})"); return 2
+    # WQ-654: profile clocks run inside Production Review, never as a boot child.
     return 1 if (due or self_row) else 0
 
 

@@ -2,7 +2,13 @@
 
 **Owner:** DAEDALUS · **Cadence:** every **90 days** — **AND unconditionally on any model upgrade** (the boot/closeout instruction layer is calibrated to a model's failure modes; a new model re-opens every deletion/rewrite call) · **Registered:** 2026-07-22 (Will-ruled — the recurrence commitment from the 7/7 audit had lost its registry slot to the Falsification sweep and was tracked nowhere) · **Registry:** `sweeps/REGISTRY.tsv` · **First run:** 2026-07-07.
 
-**What it does:** re-tests every agent's harness layer (CLAUDE.md boot/closeout steps, standalone CLOSEOUT docs, PROME BOOT/CLOSEOUT) against the deletion criterion ratified 7/7: *keep a step only if it is (a) an ACTION/behavior-gate, (b) not mechanizable, and (c) not owned elsewhere* — re-tested per model upgrade. Produces a strike-list (delete), rewrite-list (compress/fix), and disposition per file.
+**What it does (WQ-654 A, Will 2026-11-07):** reads every agent's harness layer (CLAUDE.md boot/closeout steps, standalone CLOSEOUT docs, PROME BOOT/CLOSEOUT), whether changed or unchanged, for removals and simplifications under WQ-577 plus git, authority and trade-path contradictions. Produces a bounded strike/rewrite list and disposition per file; additions and unrelated audit work are outside this pass.
+
+A switch between model providers counts as a model upgrade for the unconditional Harness re-test, including when the exact model version is unknown; the 90-day cadence does not substitute for that review.
+
+**Current clock and limits:** WQ-654 re-bases the detection clock to the October 4, 2026 full pass (next 90-day date January 2, 2027), not completion of every derived edit. This is not whole-audit closure or a runtime/hooks behavioral test. The counterpart's coverage limits remain: no runtime behavioral verification, and no whole reread of ORCHESTRATION_PLAYBOOK, NEXUS or WALTER BOOT_PROTOCOL in the October 23 delta pass. The current provider-change review is not certified by this implementation.
+
+**A09:** no longer a required Harness closure leg under WQ-654; its charter lines remain unchanged. Revisit at DAEDALUS's next own-charter edit or on a concrete contradiction. Independent review and approval before harness edits remain required. Earlier run-log clock/closure conditions below are historical, superseded by WQ-654 only within its stated scope.
 
 **Method + criterion detail:** `HARNESS_AUDIT_2026-07-07.md` (the first run IS the playbook's worked example — method §1-2, criterion §3, strike/rewrite lists §4-5). Cite, don't restate.
 
@@ -27,3 +33,5 @@
 | 2026-11-04 skips | Bounded current-text read of the October 23 direct-apply skips; ledgers G1–G4 plus packets | 24 ledger legs + 7 unrecorded: 6 closed, 3 no edit, 2 keep, 5 conflict, 3 B44, 4 tidy, 1 domain | PROME 20:59 ET: 14 LOW legs accepted, B24 routed, items 1–4 to Will at WQ-601. No owner edit. A09, TERRY November 6, root rotation and C17 application remain. July 7 clock unchanged. `runs/2026-11-04_HARNESS_SKIPS_RECONCILIATION.md` |
 
 | 2026-11-07 disposition | Bounded receipt/current-clause reconciliation, no broad re-audit | L817/C17 complete; root L883 resolved with target shortfall; TERRY moves complete, consumer claim unverified; L628 accepted; B24 token applied/charter owner-dependent | Plan `runs/2026-11-07_DISPOSITION_PLAN.md`; three retirements proposed only, counterpart pending. July 7 clock and existing obligations unchanged. |
+
+| 2026-11-09 WQ-654 | Approved scope/clock implementation, not an audit run | Profile queue retired; profile check moved to Production Review; A09 no longer mandatory | 90-day Harness recurrence retained/narrowed; detection last_run October 4; model/provider review unconditional. Receipt `runs/2026-11-09_WQ654_IMPLEMENTATION.md`. |

@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "AGENTS/DAEDALUS/scripts",
+      "-p",
+      "test_boot_reliability.py"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": "....../home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/daedalus_gate.py:755: ResourceWarning: unclosed file <_io.BufferedReader name='/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/daedalus_gate.py'>\n  \"runner_sha256\": hashlib.sha256(open(SELF, \"rb\").read()).hexdigest(),\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/daedalus_gate.py:767: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmphaz7iut9/20261109T155551Z_boot.json'>\n  rsha = hashlib.sha256(open(rp, \"rb\").read()).hexdigest()[:8]\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n......\n----------------------------------------------------------------------\nRan 12 tests in 0.011s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "AGENTS/DAEDALUS/scripts/profile_clock_check.py",
+      "--as-of",
+      "2026-11-09"
+    ],
+    "rc": 1,
+    "stdout": "PROFILE-CLOCK perimeter as-of 2026-11-09: 38 profile(s) attempted (includes retired); 33 dated clocks evaluated; 5 NO-DATED-CLOCK; 0 CANNOT-EVALUATE\nExcluded non-profile filenames: NEXUS_REFRESH_2026-09-03_READER_REPORT.md, PROME_REFRESH_2026-09-03_READER_REPORT.md, RED_REFRESH_2026-09-03_READER_REPORT.md, REFRESH_2026-09-17_READER_P1_BOND_BROCK.md, REFRESH_2026-09-17_READER_P2_CARL_LIQUID.md, REFRESH_2026-09-17_READER_P3_SAM_SHADE.md, REFRESH_2026-09-17_VERIFY_P1_BOND_BROCK.md, REFRESH_2026-09-17_VERIFY_P2_CARL_LIQUID.md, REFRESH_2026-09-17_VERIFY_P3_SAM_SHADE.md, VIOLET_REFRESH_2026-09-04_READER_A.md, VIOLET_REFRESH_2026-09-04_READER_B.md, VIOLET_REFRESH_2026-09-04_READER_C.md, VIOLET_REFRESH_2026-09-04_READER_D.md, VULCAN_REFRESH_2026-10-08_READER_V1.md, VULCAN_REFRESH_2026-10-08_READER_V2.md, VULCAN_REFRESH_2026-10-08_READER_V3.md, _TEMPLATE.md\nNOT certified: content/event triggers, unsupported/ambiguous owner-relative predicates, or truth of declared refresh work. Supported owner STATUS-relative clocks use named header dates; no git-date or wall-clock fallback.\nNO-DATED-CLOCK (agent-judged): DEWEY: body 2026-08-07, age 94d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): HAWK: body 2026-10-22, age 18d [Profile vintage: 2026-10-22]\nNO-DATED-CLOCK (agent-judged): HOMER: body 2026-10-28, age 12d [Profile vintage: 2026-10-28]\nNO-DATED-CLOCK (agent-judged): WAL: body 2026-10-30, age 10d [Profile vintage: 2026-10-30]\nNO-DATED-CLOCK (agent-judged): WALTER: body 2026-08-26, age 75d [Date: 2026-08-26]\nPROFILE-CLOCK 1: 27 PAST own day clock \u2014 DAEDALUS: refresh/banner under UPGRADE_PROTOCOL step 0\n  ALERT AEOLUS: body 2026-10-21, age 19d [Profile vintage: 2026-10-21]; floor 2026-11-04 passed\n  ALERT BOND: body 2026-09-17, age 53d [Profile vintage: 2026-09-17]; 53d > 45d\n  ALERT BRENT: body 2026-09-07, age 63d [FULL REFRESH: 2026-09-07]; 63d > 45d\n  ALERT CARL: body 2026-09-17, age 53d [Profile vintage: 2026-09-17]; 53d > 45d\n  ALERT CORAL: body 2026-09-05, age 65d [Body refreshed 2026-09-05]; 65d > 30d\n  ALERT CRUISE: body 2026-09-05, age 65d [Date: 2026-09-05]; 65d > 21d\n  ALERT FERT: body 2026-09-05, age 65d [Date: 2026-09-05]; 65d > 21d\n  ALERT FLG: body 2026-09-05, age 65d [Date: 2026-09-05]; 65d > 21d\n  ALERT HANS: body 2026-09-05, age 65d [Body date: 2026-09-05]; 65d > 45d\n  ALERT HENRY: body 2026-08-07, owner stamp 2026-11-06, lead 91d [/home/willi/Research-workspace/AGENTS/HENRY/STATUS.md; FULLY REWRITTEN: 2026-08-07]; 91d > 21d\n  ALERT LABOR: body 2026-09-07, age 63d [REFRESHED (parity assessment, 3-reader fan-out + artifact re-verification): 2026-09-07]; 63d > 30d\n  ALERT LIQUID: body 2026-09-17, age 53d [Profile vintage: 2026-09-17]; 53d > 30d\n  ALERT MARCO: body 2026-09-05, age 65d [Body refreshed 2026-09-05]; 65d > 45d\n  ALERT NEXUS: body 2026-09-03, age 67d [Body vintage: 2026-09-03]; 67d > 21d\n  ALERT ORACLE: body 2026-09-05, age 65d [Body date: 2026-09-05]; 65d > 45d\n  ALERT OSPREY: body 2026-08-07, owner stamp 2026-11-09, lead 94d [/home/willi/Research-workspace/AGENTS/OSPREY/STATUS.md; Built: 2026-08-07]; 94d > 21d\n  ALERT OTTO: body 2026-09-05, age 65d [Profile vintage: 2026-09-05]; 65d > 45d\n  ALERT OZK: body 2026-09-05, age 65d [Body refreshed 2026-09-05]; 65d > 21d\n  ALERT PROME: body 2026-09-03, age 67d [Body vintage: 2026-09-03]; 67d > 21d\n  ALERT RED: body 2026-09-03, age 67d [Body vintage: 2026-09-03]; 67d > 21d\n  ALERT SAM: body 2026-09-17, age 53d [Profile vintage: 2026-09-17]; 53d > 45d, floor 2026-11-01 passed\n  ALERT SHADE: body 2026-09-17, age 53d [Profile vintage: 2026-09-17]; 53d > 45d, floor 2026-11-01 passed\n  ALERT TERRY: body 2026-09-05, age 65d [Body refreshed 2026-09-05]; 65d > 21d\n  ALERT VIOLET: body 2026-09-04, age 66d [Body vintage: 2026-09-04]; 66d > 21d\n  ALERT VULCAN: body 2026-10-08, age 32d [Body vintage: 2026-10-08]; 32d > 21d\n  ALERT WATT: body 2026-09-05, age 65d [Body refreshed 2026-09-05]; 65d > 21d\n  ALERT YEYOU: body 2026-09-05, age 65d [Body date: 2026-09-05]; 65d > 45d\n  OK BROCK: body 2026-10-30, age 10d [Profile vintage: 2026-10-30]; inside declared window (days=45, floor=None)\n  OK CREED: body 2026-10-30, age 10d [Profile vintage: 2026-10-30]; inside declared window (days=45, floor=None)\n  OK FALCON: body 2026-10-30, age 10d [Profile vintage: 2026-10-30]; inside declared window (days=45, floor=None)\n  OK MIDAS: body 2026-11-02, age 7d [Profile vintage: 2026-11-02]; inside declared window (days=21, floor=None)\n  OK REGINALD: body 2026-10-30, age 10d [Profile vintage: 2026-10-30]; inside declared window (days=45, floor=None)\n  OK ZHAO: body 2026-10-14, age 26d [Body vintage: 2026-10-14]; inside declared window (days=45, floor=None)\n",
+    "stderr": ""
+  },
+  {
+    "negative_control": "original boot child restored in temporary file",
+    "tests": 3,
+    "failures": 2,
+    "errors": 0,
+    "output": ".FF\n======================================================================\nFAIL: test_retired_overdue_queue_does_not_run_profile_child (regression.InvocationTests.test_retired_overdue_queue_does_not_run_profile_child)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/tests/test_wq654_invocation.py\", line 35, in test_retired_overdue_queue_does_not_run_profile_child\n    self.assertEqual(result.returncode, 0, result.stdout)\nAssertionError: 2 != 0 : \u2705 sweeps: none due (0 tracked, 0 skipped, self-row current, 0 resolve_by passed)\nUNEXPECTED-PROFILE-BOOT-READ\n\ud83d\udd34 sweeps_due CANNOT-CERTIFY: profile_clock_check rc 2 (see line above)\n\n\n======================================================================\nFAIL: test_unrelated_active_cadence_still_fires (regression.InvocationTests.test_unrelated_active_cadence_still_fires)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/tests/test_wq654_invocation.py\", line 41, in test_unrelated_active_cadence_still_fires\n    self.assertEqual(result.returncode, 1, result.stdout)\nAssertionError: 2 != 1 : \u23f0 DUE: Other sweep \u2014 last run 2504d ago (cadence 1d, +2503d over) \u2192 /tmp/tmp25i7w8nb/playbook.md\nUNEXPECTED-PROFILE-BOOT-READ\n\ud83d\udd34 sweeps_due CANNOT-CERTIFY: profile_clock_check rc 2 (see line above)\n\n\n----------------------------------------------------------------------\nRan 3 tests in 0.107s\n\nFAILED (failures=2)\n"
+  },
+  {
+    "case": "clean",
+    "rc": 0,
+    "stdout": "PROFILE-CLOCK perimeter as-of 2026-11-09: 1 profile(s) attempted (includes retired); 1 dated clocks evaluated; 0 NO-DATED-CLOCK; 0 CANNOT-EVALUATE\nExcluded non-profile filenames: none\nNOT certified: content/event triggers, unsupported/ambiguous owner-relative predicates, or truth of declared refresh work. Supported owner STATUS-relative clocks use named header dates; no git-date or wall-clock fallback.\n  OK TEST: body 2026-11-08, age 1d [Profile vintage: 2026-11-08]; inside declared window (days=21, floor=None)\nPROFILE-CLOCK 0: 1 evaluated dated clocks inside window; content/undated profiles NOT certified\n"
+  },
+  {
+    "case": "alert",
+    "rc": 1,
+    "stdout": "PROFILE-CLOCK perimeter as-of 2026-11-09: 1 profile(s) attempted (includes retired); 1 dated clocks evaluated; 0 NO-DATED-CLOCK; 0 CANNOT-EVALUATE\nExcluded non-profile filenames: none\nNOT certified: content/event triggers, unsupported/ambiguous owner-relative predicates, or truth of declared refresh work. Supported owner STATUS-relative clocks use named header dates; no git-date or wall-clock fallback.\nPROFILE-CLOCK 1: 1 PAST own day clock \u2014 DAEDALUS: refresh/banner under UPGRADE_PROTOCOL step 0\n  ALERT TEST: body 2026-10-01, age 39d [Profile vintage: 2026-10-01]; 39d > 21d\n"
+  },
+  {
+    "case": "malformed",
+    "rc": 2,
+    "stdout": "PROFILE-CLOCK perimeter as-of 2026-11-09: 1 profile(s) attempted (includes retired); 0 dated clocks evaluated; 0 NO-DATED-CLOCK; 1 CANNOT-EVALUATE\nExcluded non-profile filenames: none\nNOT certified: content/event triggers, unsupported/ambiguous owner-relative predicates, or truth of declared refresh work. Supported owner STATUS-relative clocks use named header dates; no git-date or wall-clock fallback.\nPROFILE-CLOCK 2 CANNOT-EVALUATE \u2014 DAEDALUS: verify metadata or compare named owner stamp before certifying\n  TEST: unparseable day clock declaration\n"
+  }
+]
