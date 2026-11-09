@@ -20,6 +20,7 @@ word_count: 369
 dispatch_note: "PROME catch-up ask 10:46 ET. Iran pre-dispatch guard: anchor full sweep 11/05, next 11/12; guards ADD#14 and syndication read. Search via WebSearch summaries; article bodies not read by WALTER. Rubio quote unfound. Not IMMEDIATE: no registered threshold crossed, acceptance unconfirmed."
 anchor_unverified_as_of: "2026-11-08"
 ---
+> **Correction, November 9 — SIG-W-20261109-009:** The Rubio quote is verified at Al Jazeera's November 9 page, and the IRGC three-tanker claim is a fresh November 8 statement (TASS dateline Tehran, 12:09), still claim-only (FALCON). The rest of this card holds. Original text preserved below.
 # Trump says renewed Iran strikes "highly unlikely" if a strong deal is signed; reports of Iran accepting Qatari terms ($8B release, blockade lifted) unconfirmed; oil down about 4% Monday; IRGC three-tanker claim date unverified
 
 Weekend window November 8 17:07Z to November 9 15:50Z. No score moved; WALTER graded nothing. FALCON owns the ladder and the hull census, HAWK the scenarios, BRENT the oil read, ORACLE the odds.

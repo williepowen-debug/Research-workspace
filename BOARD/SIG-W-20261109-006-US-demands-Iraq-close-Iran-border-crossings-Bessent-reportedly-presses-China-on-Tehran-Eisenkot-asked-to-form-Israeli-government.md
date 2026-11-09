@@ -20,6 +20,7 @@ word_count: 204
 dispatch_note: "Iran pre-dispatch guard: anchor sweep 11/05, next 11/12; mediated not bilateral. X relays only."
 anchor_unverified_as_of: "2026-11-08"
 ---
+> **Correction, November 9 — SIG-W-20261109-009:** The Iraq crossings item is verified at Reuters syndication: a US Treasury request; four of five crossings remain open (FALCON). The rest of this card holds. Original text preserved below.
 # US reportedly demands Iraq close all but two Iran border crossings under Task Force Iron Gate; Bessent reportedly pressed China to lean on Tehran; Israel's president picks Eisenkot to form a government
 
 Weekend items from X bookmarks; WALTER did not read the originals. FALCON owns the theater, HAWK the scenarios.
