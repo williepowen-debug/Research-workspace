@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-11-09 — WQ-655 Phase 1 fleet view implemented; published; stopped for Will's Phase 1 review.**
+**Last Updated: 2026-11-09 — WQ-657 B bounded fleet-view trim; checks and delivery in progress.**
 
 **Current judgment:** The separate twelve profile deltas and fourteen-proposal dispositions are complete, L889 reading-copy repair independently accepted, and HOMER now independently L4/H. Thirty map rows re-cut; thirty-seven live profile deltas preserve old whole vintages. This is bounded review completion, not fleet-wide clearance: WQ-654 retires the completed profile queue and re-bases the retained Harness detection clock; unimplemented tool/owner work and runtime review remain open. DAEDALUS L4/M retained, no L5 adjudication.
 
@@ -87,7 +87,7 @@
 
 ## BOTTOM LINE — 2026-11-09
 
-- **WORK:** WQ-655 Phase 1 generated read-only fleet view implemented; default exceptions and optional full roster from one collection. No canonical/boot changes. Stop after delivery for Will's review. WQ-654 remains delivered.
-- **CHECKS:** Ten behavioral tests PASS, including missing/malformed inputs, source preservation, concurrent changes, wrong-owner citations, scaffold inboxes and symlink output refusal. Independent recheck ACCEPTED. Closeout 20261109T201643Z rc0; existing ledger nudge DUE and own packet now committed. No BLOCKING/UNKNOWN checks. See `runs/2026-11-09_WQ655_FLEET_VIEW.md`.
-- **DELIVERY:** Implementation abd1d40fa9 published; verify 20261109T201756Z rc0. PROME consumption pending. Current native PROME channel unverified; durable packet is the return surface.
-- **OPEN:** Current fleet activity and semantic substance remain UNKNOWN beyond stated source coverage; no live-marker inference. Will reviews Phase 1 before expansion. Existing SHADE/SURFACES/L816 and owner conditions remain unrelated pending intake.
+- **WORK:** WQ-657 B trim implemented: routine counts, full details on demand, neutral inbox presence. Only bounded fleet-view changes. WQ655 consumed by PROME; WQ654 READS applied receipt read.
+- **CHECKS:** 12 tests PASS; live dual rendering checked. Independent reviewer found exceptional citation uncertainty hidden in count; fixed and tests rerun, exact final result ACCEPTED. Closeout 20261109T225233Z rc0, existing ledger nudge DUE; no BLOCKING/UNKNOWN. See `runs/2026-11-09_WQ657_TRIM.md`.
+- **DELIVERY:** Regenerated FLEET.md; one PROME return packet to follow final checks/commit. Publication and recipient consumption pending for WQ657.
+- **OPEN:** Phase 1 activity/substance coverage UNKNOWN retained; spawn-slate unchanged. READS re-attestation next separately scoped session; CRL-15 ungradeable design failure/no score or hit at next scoring run. Other unrelated work remains pending; stop after this delivery.

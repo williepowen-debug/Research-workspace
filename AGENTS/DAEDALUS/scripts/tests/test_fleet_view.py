@@ -56,13 +56,60 @@ class FleetView(unittest.TestCase):
         self.assertIn('Full roster', fv.render(data, True))
         self.assertEqual(2, len(data['due']))
 
-    def test_committed_return_stays_pending(self):
+    def test_committed_return_remains_presence(self):
         self.write('PROME/inbox/2026-11-09_from-AAA_test.md', 'D:L1 result\n')
         self.commit('AAA: D:L1 return')
         data = self.collect()
         self.assertEqual(1, len(data['returns']))
         self.assertIn('RETURN FOUND', data['due'][0]['message'])
         self.assertIn('never completion', data['due'][0]['message'])
+
+    def test_trim_preserves_details_and_unknowns(self):
+        self.write('PROME/DOCKET.tsv',
+                   '2026-11-09\tTask\tAAA\tPENDING (COVERED: test)\t\t\n'
+                   'TBD\tUndated one\tAAA\tPENDING\t\t\n'
+                   'TBD\tUndated two\tAAA\tPENDING\t\t\n')
+        self.write('AGENTS/AAA/inbox/one.md', 'one')
+        self.write('AGENTS/AAA/inbox/WALTER/two.md', 'two')
+        data = self.collect()
+        # Controlled ORCH records isolate display aggregation from ledger matching.
+        for n in (2, 3):
+            data['unknown'].append(dict(stamp=NOW.isoformat(),
+                message=f'AAA: unreconciled ORCH in-flight claim, event 2026-11-09/{n}; actual activity UNKNOWN',
+                source=f'PROME/state/ORCH_LOG.tsv:{n}'))
+        data['due'].append(dict(stamp=NOW.isoformat(),
+            message='D:L99 · AAA · covered=True · UNCHECKED (coverage incomplete: UNKNOWN)',
+            source='PROME/DOCKET.tsv:99'))
+        opening, full = fv.render(data), fv.render(data, True)
+        self.assertIn('D:L99', opening)
+        self.assertIn('coverage incomplete: UNKNOWN', opening)
+        self.assertIn('2 AAA: inbox files present', opening)
+        self.assertIn('1 covered due obligations', opening)
+        self.assertIn('2 open undated obligations; due dates UNKNOWN', opening)
+        self.assertIn('2 unreconciled current/future-day ORCH claims', opening)
+        self.assertNotIn('inbox/one.md', opening)
+        self.assertIn('inbox/one.md', full)
+        self.assertIn('inbox/WALTER/two.md', full)
+        self.assertIn('PROME/DOCKET.tsv:2', full)
+        self.assertIn('PROME/state/ORCH_LOG.tsv:3', full)
+        for r in fv.opening_rows(data, 'returns'):
+            self.assertTrue(r['stamp'])
+            self.assertEqual('AGENTS/AAA/inbox/', r['source'])
+        for text in (opening, full):
+            self.assertNotIn('pending consumption', text.lower())
+            self.assertNotIn('pending candidates', text.lower())
+            self.assertNotIn('unread', text.lower())
+            self.assertNotIn('unconsumed', text.lower())
+            self.assertNotIn('unfinished', text.lower())
+            self.assertIn('Current turn activity UNKNOWN', text)
+
+    def test_named_protocol_scaffolds_and_unknown_protocol(self):
+        for name in ('CYPHER', 'FLG', 'GIBBS', 'ISHM'):
+            path = self.root/f'AGENTS/{name}/inbox/PROTOCOL.md'
+            self.write(str(path.relative_to(self.root)), f'# {name} — INBOX PROTOCOL\n')
+            self.assertTrue(fv.scaffold(path))
+        self.write('AGENTS/AAA/inbox/PROTOCOL.md', '# A new protocol request\n')
+        self.assertFalse(fv.scaffold(self.root/'AGENTS/AAA/inbox/PROTOCOL.md'))
 
     def test_wrong_owner_prefix_never_becomes_owned_work(self):
         self.write('AGENTS/BBB/STATUS.md', 'other\n')

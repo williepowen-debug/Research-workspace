@@ -60,7 +60,7 @@ def scaffold(path):
     if path.name not in ('PROTOCOL.md', 'RECEIPT.md'):
         return False
     first = path.read_text().splitlines()[0:1]
-    return bool(first and (path.name == 'PROTOCOL.md' and first[0] == '# Mail Processing Protocol'
+    return bool(first and (path.name == 'PROTOCOL.md' and (first[0] == '# Mail Processing Protocol' or re.fullmatch(r'# [A-Z][A-Z0-9]+ — INBOX PROTOCOL', first[0]))
                           or path.name == 'RECEIPT.md' and first[0].startswith('# Inbox Processing Receipt')))
 
 
@@ -124,7 +124,7 @@ def collect(root=ROOT, now=None, inventory=None):
             try:
                 desk['inbox'] = inbox(root, owner)
                 for path in desk['inbox']:
-                    row('returns', f'{owner}: pending consumption candidate (presence, not unread proof)', path)
+                    row('returns', f'{owner}: file present; consumption/work state UNKNOWN', path)
             except (OSError, ValueError) as exc:
                 row('unknown', f'{owner}: inbox UNKNOWN: {exc}', base + '/inbox/')
             try:
@@ -253,7 +253,7 @@ def collect(root=ROOT, now=None, inventory=None):
                 renames = [l for l in names.splitlines() if l.startswith('R') and any(p in l.split('\t')[1:] for p in foreign)]
                 if renames:
                     row('conflicts', f'{author}: foreign-desk rename(s), coordination candidate; permission/intent UNKNOWN: ' + '; '.join(renames), c['sha'], c['stamp'])
-        row('coverage', 'Inbox presence includes committed and untracked packets, one lane deep; processed/, dotfiles, README* and recognized FERT protocol/receipt scaffolds excluded. Presence is not proof of unread state.', 'PROME/tools/inbox_census.py')
+        row('coverage', 'Inbox presence includes committed and untracked packets, one lane deep; processed/, dotfiles, README* and recognized protocol/receipt scaffolds excluded. Presence does not establish consumption or work state.', 'PROME/tools/inbox_census.py')
         row('coverage', 'BOARD dispatch/consumption remains a separate surface; no board receipt is inferred from inbox presence. Positions, conviction, market prose, roster launch permissions and boot policy are not projected.', 'PROME/tools/board_scan.py; PROME/ROSTER.md')
         row('coverage', 'Due citations reuse spawn_slate (bounded 200 owner commits, first owner); RETURN FOUND is only a pointer, NO CITING RETURN is limited to that search. Working tree inputs and pinned committed evidence may differ.', 'PROME/tools/spawn_slate.py')
         for path, before in source_text.items():
@@ -281,12 +281,45 @@ def cell(value):
     return str(value).replace('|', '\\|').replace('\n', ' ').replace('\r', ' ')
 
 
+def opening_rows(data, key):
+    """Collapse routine rows only; preserve the collected records for --full."""
+    visible, groups = [], {}
+    for row in data[key]:
+        message = row['message']
+        group = None
+        if key == 'returns':
+            # Owner is the collector's controlled prefix, never inferred from text.
+            owner = message.split(':', 1)[0]
+            group = (f'{owner}: inbox files present; consumption/work state UNKNOWN',
+                     activity.desk_path(owner) + '/inbox/')
+        elif (key == 'due' and ' · covered=True · ' in message
+              and not any(flag in message for flag in ('UNCHECKED', 'coverage incomplete', 'citation UNKNOWN:'))):
+            group = ('covered due obligations; coverage is not completion; owned-work attribution UNKNOWN',
+                     'PROME/DOCKET.tsv')
+        elif key == 'unknown' and ': open obligation, due date UNKNOWN' in message:
+            group = ('open undated obligations; due dates UNKNOWN', 'PROME/DOCKET.tsv')
+        elif key == 'unknown' and ': unreconciled ORCH in-flight claim, event ' in message:
+            group = ('unreconciled current/future-day ORCH claims; actual activity UNKNOWN',
+                     'PROME/state/ORCH_LOG.tsv')
+        if group is None:
+            visible.append(row)
+        else:
+            groups.setdefault(group, []).append(row)
+    for (label, source), rows in groups.items():
+        stamps = sorted({row['stamp'] for row in rows})
+        visible.append(dict(stamp='; '.join(stamps),
+                            message=f'{len(rows)} {label}; details: --full; not a clean result',
+                            source=source))
+    return visible
+
+
 def render(data, full=False):
     out = ['# Fleet evidence view — generated, never hand-edit', '',
-           f"Observed {data['stamp']}; Git snapshot `{data['head']}`. Read-only evidence, no authority or launch decisions.", '']
-    for key, title in [('due', 'Due work'), ('returns', 'Pending consumption'), ('blockers', 'Recorded blockers'), ('conflicts', 'Coordination candidates'), ('unknown', 'Consequential unknowns'), ('coverage', 'Coverage')]:
+           f"Observed {data['stamp']}; Git snapshot `{data['head']}`. Read-only evidence, no authority or launch decisions.",
+           'Routine entries are counted below; `--full` shows every collected detail and the roster. Counts do not establish completion or a clean result.', '']
+    for key, title in [('due', 'Due work'), ('returns', 'Inbox file presence'), ('blockers', 'Recorded blockers'), ('conflicts', 'Coordination candidates'), ('unknown', 'Consequential unknowns'), ('coverage', 'Coverage')]:
         out += ['## ' + title, '', '| Observed / event time | Evidence | Source |', '|---|---|---|']
-        for r in data[key]:
+        for r in (data[key] if full else opening_rows(data, key)):
             out.append(f"| {cell(r['stamp'])} | {cell(r['message'])} | {cell(r['source'])} |")
         if not data[key]:
             out.append(f"| {data['stamp']} | No matches in checked inputs; see UNKNOWN and coverage before treating as clean | {data['head']}; PROME/DOCKET.tsv; PROME/GATES.tsv; PROME/state/ORCH_LOG.tsv |")
@@ -296,7 +329,7 @@ def render(data, full=False):
         for owner, d in data['desks'].items():
             c = d['commit']
             commit = f"{c['sha'][:12]} {c['stamp']} prefix + owned path; STATUS/TSV touches: {', '.join(c['substantive']) or 'none'}; semantic substance UNKNOWN" if c else 'No attributable commit in bounded scan; substantive work UNKNOWN'
-            mail = 'UNKNOWN / not collected for class' if d['inbox'] is None else str(len(d['inbox'])) + ' pending candidates'
+            mail = 'UNKNOWN / not collected for class' if d['inbox'] is None else str(len(d['inbox'])) + ' files present; consumption/work state UNKNOWN'
             dirty = 'UNKNOWN' if d['pending'] is None else str(len(d['pending']))
             sessions = '; '.join(d['sessions'] + d['orch']) or 'No observed session/event in covered sources'
             out.append('| ' + ' | '.join(map(cell, [data['stamp'], owner+' / '+d['cls'], commit, mail+'; dirty paths '+dirty, sessions+'; current activity UNKNOWN', d['brief'], 'PROME/ROSTER.md; '+activity.desk_path(owner)+(('; commit '+c['sha']) if c else '')])) + ' |')
