@@ -8,6 +8,14 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-09 (2) — CRL-15 CLOSED NO-VERDICT, UNGRADEABLE, on Will's ruling WQ-656 B (no version or score change)
+
+- **Ruling:** Will, PROME's chat, 2026-11-09 15:55 ET (`PROME/proposals/2026-11-09_wq656-657-658-RULED.md`; delivered by PROME packet `inbox/2026-11-09_from-PROME_WQ656-RULED-B-and-HHDC-governing-rule.md`). Verbatim: *"Close CRL-15 as ungradeable. Preserve the original prediction, its probability history and subsequent corrections. Record the missing measurement definition as a prediction-design failure. Keep it visible in evaluation reporting without assigning a Brier score or treating it as a successful prediction. Do not create a replacement forecast unless separately approved."*
+- **Row:** CRL-15 OPEN → NO-VERDICT (token NO-VERDICT-BY-INSTRUMENT), resolved 2026-11-09. Claim text and the Confidence cell unchanged: 65% (4/09), 35% (7/24, undated), 10% (11/06; rationale withdrawn 11/09). Not scored: no Brier, not a hit, not a miss.
+- **Failure class, recorded for calibration:** PREDICTION-DESIGN FAILURE — a bar and a window were registered with no measurement definition (numerator, denominator, period construction, publisher). The basis (KB-169) was vendor and press projections. Sibling of CRL-17 (a CARL composite with no published series, NO-VERDICT 10/01) and the CRL-07 G5 shape: **name the published series and its construction at registration, or the row cannot be graded.** Check G does not test for an undefined construction behind a named-sounding series; noted, no new rule proposed (Will 10/31: fewer checkers).
+- **Not adopted:** CARL's proposed resolver rule (11/09 contest answer; PROME recommendation A). Will chose B.
+- **No successor.** No replacement SBA 7(a) forecast without Will's separate approval; the Lumos trailing-twelve-month idea stays an idea. POP-P06 (>5%, same series) is POP's row and untouched; its own definition gap routes to POP's next spawn.
+
 ## 2026-11-09 — Contest answers: CRL-23 re-marked 15 → 30, CRL-15 rationale withdrawn (no version or score change)
 
 **Trigger:** PROME packet 2026-11-07 (DAEDALUS run b5e629ac1e, Will-assigned scoring), answered in the PROME due-row wake (Will's word 12:07 ET). Answer: `research/2026-11-09_contests/ANSWER.md`.
