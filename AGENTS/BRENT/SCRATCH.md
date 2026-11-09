@@ -37,3 +37,4 @@
 - Inbox: WALTER lane clear as of 12:59 EST; top-level inbox clear. 5 consumed, 5 ledger rows, 5 moved.
 - Outbox: one packet to PROME, ONE per quiet mode, sent at this session's grade (see `PROME/inbox/2026-11-09_from-BRENT_L1089-graded.md`).
 - Session stays open: PROME asked; do not close out until PROME says so.
+- PROME consumed the L1089 packet and closed the row (14:5x ET). Correction from PROME, verified 14:52 ET: the packet's "FRED/EIA keys missing, env_doctor FAIL" line was wrong for this box. `.env` is present and `scripts/env_doctor.py --quiet` exits 0 (python3 and .venv, root and BRENT dir). The FAIL is the Monday cloud routine's own checkout (no gitignored `.env`), copied from `monday_2026-11-09.md` line 9 without a local re-run. Next time: re-run a routine's tooling claim locally before relaying it.
