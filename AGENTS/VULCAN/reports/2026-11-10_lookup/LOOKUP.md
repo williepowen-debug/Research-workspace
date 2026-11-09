@@ -53,5 +53,5 @@ Arithmetic, frozen at registration: Q4 guide midpoint US$53.3B × 31.8 NT$/US$ �
 ## C. Other 11/10 clocks (ZHAO owns; read separately, never one "11/10 cliff")
 
 - **BIS Affiliates Rule:** stay extension published 11/9, 91 FR 70789 (FR Doc. 2026-22793) [KB-411]. Does not widen 11/10; next window 2027-01-10 to 01-11. The 11/10 CATALYSTS row is swept.
-- **MOFCOM 公告70:** not re-suspended as of 11/8 per ZHAO; China's controls, including the 0.1% de minimis, reactivate after 11/10 unless MOFCOM files. ZHAO grades ZHA-19 11/10. On S4's letter this is a China export control, not an equipment ban or fab cutoff; S4 needs quantified lost output.
-- **USTR s.301 ship fees:** OPEN; a missing FR notice does not by itself mean fees resume (last year's published 11/13).
+- **MOFCOM:** ~~not re-suspended as of 11/8 per ZHAO~~ (struck 2026-11-09 12:59 ET): re-suspended 11/9 by MOFCOM-GAC 公告2026年第58号, from 11/11 to 2027-01-10, same six 2025 announcements (ZHAO A1) [KB-413]. Nothing reactivates; ZHAO grades ZHA-19 and ZHA-20 on their own letters.
+- **USTR s.301 ship fees:** ~~OPEN~~ (struck 2026-11-09): FR Doc. 2026-22867 suspends them through 11:59 p.m. ET 2027-01-09, on public inspection 11/9, publishes 11/10 [KB-413]. Not on S4's letter.
