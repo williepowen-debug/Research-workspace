@@ -2,11 +2,15 @@
 
 **Written** 2026-11-05 16:05 ET by PROME, from owner returns dated November 4 and 5. Market figures are vendor reads at 16:04 ET unless dated, not settled closes. No trade, gate or score changes here. CATO challenges by packet.
 
-**Bottom line.** The AI selling spread through stocks today and has not reached credit or funding on anything measured so far. Credit and consumer evidence shows concentrated weakness, not broadening. Oil fell on hopes, not on a measured physical change. None of this changes an approved card or argues for adding risk today.
+**Corrected 2026-11-09 on CATO's challenge (C607-1 to C607-4, all four accepted; `AGENTS/CATO/runs/2026-11-04_1531_agent-work-review.md` § November 9; packet `PROME/inbox/processed/2026-11-09_from-CATO_WQ607-overstatement-challenge.md`).** The opening and three section leads overstated what the body supports; they are replaced below with CATO's wording. The text as delivered on 11/5 is `git show 2dd1b63492:PROME/reports/2026-11-05_WQ607-research-brief.md`. No figure was re-verified or changed, and no gate, card or score moves.
+
+**Dated-use limit.** This brief is a November 5 record. Its card eligibility, the 63% cash figure and its "next observations" are snapshots of that day (TERRY later corrected the UNG completed-day colour to flat, and the UNG card has since ended). Any current decision needs current owner gate and card evidence, live prices and a fresh portfolio capture; a trigger arming is not every entry condition being met.
+
+**Bottom line.** As of November 5 at 16:05 ET, selling was broad across equities, but its cause was unproved. Same-day broad credit/funding transmission was unconfirmed, with important releases lagging; AI issuer borrowing costs had already worsened. Consumer and bank weakness was concentrated in the observations reviewed, without enough evidence to exclude broadening. The November 4 oil decline was attributed to deal hopes, while physical recovery remained unresolved. These findings alone did not establish a reason to change the existing gates; trade eligibility and portfolio figures are dated snapshots.
 
 ## 1. Is the AI selling spreading?
 
-**In stocks, yes. In credit and funding, not on what is published.**
+**In stocks, selling was broad. In credit and funding, same-day transmission was not confirmed by the available observations; the key rate and spread releases lagged the tape.** AI issuer borrowing costs had already deteriorated (below), with no established causal link to today's tape.
 
 | Layer | Evidence | Date and basis |
 |---|---|---|
@@ -23,16 +27,16 @@
 
 ## 2. Credit and consumer: broadening or concentrated?
 
-**Concentrated, on current evidence.**
+**Observed weakness remains concentrated; broadening is not established and coverage cannot rule it out.** CARL cannot separate "first" from "only" on one quarter, and Citi is unread.
 
 - Capital One's hardship-plan borrowers visibly worsened in one quarter. CARL: one lender, one quarter, cause unknown, whole card book better than a year ago, test NOT COMPUTABLE. Citi remains a missing leg.
 - BROCK: no private-credit event, X1 NOT MET. Filing news this week is real but name-level: Car-Mart's tenth bridge to 11/9, Blue Owl Technology Finance's non-accruals tripled.
-- REGINALD: Preferred real but contained; Flagstar's jump mostly noise; 10-Qs still due.
+- REGINALD: Preferred real but contained; Flagstar's shorter-delinquency rebound is not a new high, but longer delinquency worsened and underlying stress persists (90+ accruing multifamily $32M, $51M, $107M through 2026, owner-reported, causes unresolved before the filing); 10-Qs still due.
 - Against: Fed SLOOS shows tightening to credit intermediaries, net +22.0 all banks, survey about Q3 and predating this week. TERRY's history: big down days with calm credit trailed days when credit fell too, at all five cuts tested. Calm credit is not an all-clear. ⚠️ Those are overlapping episodes, not a forecast.
 
 ## 3. Energy: physical loss, repricing, or a gap?
 
-**Repricing, with the physical question unresolved.** Brent January fell 8.67% to $94.62 on 11/4 on reported midterm and deal hopes, with no signed text and no transit recovery established (BRENT, secondary sources; official CME unread). Dated Brent was $107.03 on 11/3, so physical and paper still disagree. EIA week 10/30: distillate −3.565M to 99.259M, crude −0.865M, no registered line crossed. BRENT holds WAIT.
+**Repricing, with the physical question unresolved.** Brent January fell 8.67% to $94.62 on 11/4 on reported midterm and deal hopes, with no signed text and no transit recovery established (BRENT, secondary sources; official CME unread). Dated Brent was $107.03 on 11/3; that older physical assessment is context, not a measured same-time divergence (different dates and delivery bases, no aligned comparison). The attribution of the fall to deal hopes is reporting, and the causal explanation remains unverified. EIA week 10/30: distillate −3.565M to 99.259M, crude −0.865M, no registered line crossed. BRENT holds WAIT.
 
 ## 4. What this changes
 
