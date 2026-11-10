@@ -2,14 +2,14 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-11-09T13:01:01-05:00 | **STATUS commit:** f777e5f8c3
-**Variant:** FULL. PROME commission (Will 11:14 ET): inbox drained, Nvidia's 11/9 fall read on the letters, 11/10 CoreWeave and TSMC pre-stated as a lookup. No letter fired.
+**As of:** 2026-11-10T10:12:57-05:00 | **STATUS commit:** 14b33c9675
+**Variant:** FULL. Closeout 11/10 on Will's word (switch to desktop): WALTER card 011 read on the letters, Nvidia key-person question gets no row [KB-414]; 11/10 TSMC and CoreWeave not yet graded, desktop pickup. No letter fired.
 
 ## CROSS-DOMAIN
 
 | Desk | Material finding and limit | Source |
 |---|---|---|
-| VIOLET / HENRY / ZHAO | 🆕 **Nvidia 11/9, vendor intraday 11:16 ET, not closes:** NVDA −6.02% while QQQ +3.07%, SMH +4.32%, AMD +12.14%, AVGO +9.00%. Reported board probe of Huang over a suspected Chinese intelligence contact (secondaries; NYT original and board statement unread); EDGAR shows no Nvidia 8-K. A falling Nvidia lowers S&P concentration, so S1's red legs move away; no capex guide changed; nothing enacted for S4. Key-person risk is not a VULCAN channel. Next real test: Nvidia results 11/17. | KB-409; fetch.py; EDGAR 11/9 |
+| VIOLET / HENRY / ZHAO | 🆕 **Nvidia 11/9, vendor intraday 11:16 ET, not closes:** NVDA −6.02% while QQQ +3.07%, SMH +4.32%, AMD +12.14%, AVGO +9.00%. Nvidia announced its own investigation 11/8 and Huang acknowledged the affair in an open letter (AP via WALTER card 011; neither read here); Trump says the FBI is looking 'in terms of something else', not at Huang [KB-414]; no key-person row; EDGAR shows no Nvidia 8-K. A falling Nvidia lowers S&P concentration, so S1's red legs move away; no capex guide changed; nothing enacted for S4. Key-person risk is not a VULCAN channel. Next real test: Nvidia results 11/17. | KB-409; fetch.py; EDGAR 11/9 |
 | BROCK / LIQUID / WATT | 🆕 Card 002 checked: Anthropic $3.4bn gas deal not located; $500M loan seller unnamed and low-credibility; Broadcom $43B probably the reported $42B Anthropic TPU converts (KB-199), no filing read. None promoted. | KB-410 |
 | VIOLET / HENRY / LIQUID | 🆕 **11/6 close, vendor bars, not official closes, cause not established:** SPY +0.31%, RSP −0.38%, QQQ +1.40%, SMH +3.62%, MU +5.12%, MSFT −0.99%, ORCL 116.10 +0.82%, CRWV +6.28%, IREN +20.02%. Against the 11/4 close SMH is still −7.99%, MU −13.23%. Breadth +3.27pp [11/6], descriptive, no slot row; registered slot 9 stays +4.08pp [11/5]. | KB-407; yfinance 17:14 ET |
 | LIQUID / BROCK / HENRY | 🆕 **Closing papers, no new deal:** Meta $15.0B closed 11/5, €9.0B settles about 11/12, Alphabet €6.0B closed 11/5, Meta over-allotment about $1.869B. Meta long-term debt $80.9B [9/30] to about $106B, my sum, not filed. | KB-408; EDGAR 11/6 |
