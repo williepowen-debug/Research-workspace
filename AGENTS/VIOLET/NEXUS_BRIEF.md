@@ -3,7 +3,7 @@
 **Status:** 🟡 11/10 CPI day, intraday: VIX back above 20 on the tick (21.10 at 11:09 ET), so **today's close decides whether LOW_VOL holds**. 11/09 History confirmed the print on every cell: LOW_VOL by 0.08, convergence 33/50. **VIO-PRED-07 CONFIRMED** (1.0467). ⚠️ Credit has not followed vol down: HY 342bp [11/06].
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.9. No live gate moved.
-**As of:** 2026-11-10 11:2x ET | **STATUS commit:** `bb2e50f113`.
+**As of:** 2026-11-10 11:5x ET | **STATUS commit:** `f385b5f0cf`.
 Official History closes through 11/09 (SETTLE, 2,766 agreed, 0 corrected); 11/10 row TICK. Canonical numbers: [STATUS](STATUS.md). KB-VIO-393, KB-VIO-394.
 
 ## CROSS-DOMAIN
@@ -25,6 +25,8 @@ Official History closes through 11/09 (SETTLE, 2,766 agreed, 0 corrected); 11/10
 **BRENT / HAWK — oil-vol canary:** OVX 57.37, OVX/VIX 2.88 CALM [11/09]. Broad co-move, oil not leading.
 
 **SAM — carry-to-vol CALM:** RV10 4.8%, p16.0, USDJPY 158.73 [11/10 boot]. FXY IV/RV 2.38x; not graded.
+
+**LIQUID — D:L342 credit twin (named to PROME, yours):** FRED HY OAS carries the prior value forward on NYSE closures (11/27/2025 3.00, 9/07/2026 2.68), so a consecutive-run count over it can gain a day on 11/26. VIOLET's own VX_DAILY writer now refuses closure rows (KB-VIO-395).
 
 **PROME:** dated memo `PROME/inbox/2026-11-10_from-VIOLET_pred07-confirmed-cpi-intraday-card011.md`. VIO-PRED-07 CONFIRMED for D:L1030. The CPI close read is owed; the window holds for your message.
 
