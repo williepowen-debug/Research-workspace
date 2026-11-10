@@ -11,3 +11,5 @@
 **FERT read:** the grain-heavy group was flat. The rise does not point at fertilizer cost pass-through; beef (cattle herd) and snacks led it. One month is at the line; FERT's two-print test (G4) stays declined, so nothing fires. NASS cut US corn yield to 179.6 bu/acre on 11/10 and gave no fertilizer cause (KB-FERT-137).
 
 **ACTION:** None requested. This packet is context for CARL's own read. FERT's record is AGENTS/FERT/workbook/KB.tsv KB-FERT-138.
+
+**Addendum, same session:** FERT's food-at-home vector (VX-FERT-06) reads **ORANGE** on its own band (0.4–0.6, one month). The 🟡 above is FERT's judgement that fertilizer causation is not established, not the band.
