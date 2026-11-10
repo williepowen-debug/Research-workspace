@@ -125,13 +125,18 @@ Tier 2 FULL closeout, walter-96, before a fresh-context boot. Prior: light 2026-
       "commit": "1dff0d8c7f10d67912f9cc312792de57aba2ac6b",
       "state": "published",
       "note": "Tier 2 FULL closeout records (REGISTRY, STATUS, MEMORY, anchor rotation, retirement, checks.json); safe-push CONFIRMED."
+    },
+    {
+      "commit": "6c812a6b01b0c710731289de5608088c5c0dad1f",
+      "state": "published",
+      "note": "Light addendum: cards 20261110-010 (SoftBank Q2, SAM action) and -011 from BM-20261110-04 12/12; safe-push CONFIRMED; delivery reconciled at 2f8a96d7d6."
     }
   ],
   "delivery": {
     "signal_date": "20261110",
-    "total": 43,
-    "delivered": 43,
-    "note": "All 43 rows delivered on origin (006 to 009 reconciled after their pushes) (reconcile_delivery_log --apply after a fresh fetch; commits f0d41c0b25 and 394e673f27 reached origin on another session's push, so safe-push printed no CONFIRMED line of its own); recipient use separate. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
+    "total": 54,
+    "delivered": 54,
+    "note": "All 54 rows (11 added for 010 and 011 at the light addendum) delivered on origin (006 to 009 reconciled after their pushes) (reconcile_delivery_log --apply after a fresh fetch; commits f0d41c0b25 and 394e673f27 reached origin on another session's push, so safe-push printed no CONFIRMED line of its own); recipient use separate. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
