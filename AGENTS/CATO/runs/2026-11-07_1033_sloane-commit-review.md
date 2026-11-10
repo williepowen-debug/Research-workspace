@@ -2,7 +2,7 @@
 
 ## Current assessment
 
-**Review delivered; later follow-through remains owner-reported unless specified below.** At the inspected revision, finish the existing research correction chain first. Sloane's material findings survived, with two refinements: FLG also retained an explicitly withdrawn runway projection; and the ledger headers already explained the legacy reconciliation flags. The finding list is dated evidence, not a claim that every item is still open after subsequent owner work. No new fleet audit, trial, checker or launch is recommended or started by CATO.
+**November 9 follow-up: S1 CLOSED at FLG's active thesis; S2–S5 remain unchanged.** The bounded [recent-commit review](2026-11-09_2016_recent-commit-review.md) verified incorporation of both withdrawn claims and the revised latency conclusion. REGINALD's four previously inspected files are unchanged from the original review revision; its wording, ordering, field-semantics and documentation corrections remain owner work. S6 was not reopened. The findings below preserve the original dated evidence, not a claim that every item remains open. No new fleet audit, trial, checker or launch is recommended or started by CATO.
 
 Will supplied Sloane's review of November 6–7 commits, initially at `364159994a`, while discussing review work. CATO checked selected current artifacts at `77d8849806147d19ce14f43e3ff19820c2a1cfcc`. The worktree and index were clean at entry. A later diff against that revision found no changes to the seven principal thesis/code/table/control files checked. Shared HEAD may advance; this is a named-revision assessment, not certification of later work.
 
