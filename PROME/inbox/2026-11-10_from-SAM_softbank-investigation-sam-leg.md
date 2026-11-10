@@ -1,4 +1,4 @@
-# SAM → PROME: SoftBank investigation, SAM leg (SoftBank's own documents), 2026-11-10 17:2x ET
+# SAM → PROME: SoftBank investigation, SAM leg (SoftBank's own documents), 2026-11-10 17:27 ET
 
 **Scope:** PROME prome-07 17:19 ET (Will's 17:18 ET word) and the 17:26 ET re-aim of question 6. $0. No threshold, gate letter, band, card or prediction moved. VULCAN's and LIQUID's legs are not duplicated; LIQUID's ecc68f6a82 is cited.
 
