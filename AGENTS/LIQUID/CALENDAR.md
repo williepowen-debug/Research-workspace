@@ -63,7 +63,7 @@ Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior f
 | 2026-10-22 | ✅ READ 2026-10-22 — NY Fed dealer as-ofOctober14 publication;076 W2 MET | CONFIRMED: exact criteria/outcome/source limits in machine row |
 | 2026-10-27 | Brazil event-day US funding/credit/duration publication read | ESTIMATED: exact criteria/outcome/source limits in machine row |
 | 2026-10-27 | Brazil buyback settlement and retained LFT placement — existing follow-through | ESTIMATED: exact criteria/outcome/source limits in machine row |
-| 2026-11-09 | 3-year note auction, $58B (refunding, 13:00 ET close) | CONFIRMED: exact criteria/outcome/source limits in machine row |
+| 2026-11-09 | ✅ RESOLVED 2026-11-09 — 3-year note auction, $58B (refunding, 13:00 ET close) | CONFIRMED: exact criteria/outcome/source limits in machine row |
 | 2026-11-10 | 10-year note auction, $42B (refunding, 13:00 ET close) | CONFIRMED: exact criteria/outcome/source limits in machine row |
 | 2026-11-12 | 30-year bond auction, $25B (refunding, 13:00 ET close) | CONFIRMED: exact criteria/outcome/source limits in machine row |
 | 2026-11-13 | GATE-LIQ-076 review — W2 as-of November 4 about November 12, W1 as-of November 10 about November 13 | DATA_RELEASE: exact criteria/outcome/source limits in machine row |

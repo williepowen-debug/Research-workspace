@@ -2,7 +2,14 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-06T17:14:21-05:00 (Will's 17:08 ET word relayed by PROME, prome-51, Claude Code / Opus 5.5)
+### CURRENT SESSION — 2026-11-09T20:20:43-05:00 (Will boot 20:11 ET, "yes please update LIQUID go ahead" 20:15 ET, laptop, Claude Code / Opus 5.5)
+
+- **Context:** startup recovery, then a bounded Monday catch-up. No new thread, spawn, trade or card. No gate, band or score moved.
+- **Delivered:** November 6 first-published grades (HY 342, −6; >320 run 7; tier rule BROADENS on the 15-session clause only); 069 L1 and L4, 072, 079 (+7), HY-REKILL, 076 window; DTCC November 6 full file (Oracle 305 disseminated, 306 to 314 converted; Microsoft about 47 or 156 bp, payer undisclosed); 3Y auction row resolved from BOND's grade; three WALTER cards and the GIBBS and BOND packets consumed; KB-LIQ-153, 156, 158 updated; packet to PROME. → `research/2026-11-05_live-catchup/REPORT.md` §18.
+- **Slip, disclosed:** an unquoted heredoc turned "$0" into "/bin/bash" and "$500M" into "00M" in REPORT §18. Caught by grep before commit and fixed; the diff is append-only.
+- **Found:** `dtcc_cds_probe.py` crashes (division by zero) on a short-dated contract, so its list stops early; read the raw CSV until it is fixed (STATUS §3).
+
+### PRIOR SESSION — 2026-11-06T17:14:21-05:00 (Will's 17:08 ET word relayed by PROME, prome-51, Claude Code / Opus 5.5)
 
 - **Context:** bounded boot and close refresh. No new thread, spawn, trade or card. No gate, band or score moved.
 - **Delivered:** November 6 closes, Treasury curve, repo operations, H.8 (release November 6), commercial paper to November 5, TGA → `research/2026-11-05_live-catchup/REPORT.md` §16. Three peer packets and card 042 consumed; COR-20261106-42 receipted; KB-LIQ-153 updated from SAM and BROCK.
@@ -13,7 +20,7 @@
 - **Rotated STATUS at closeout** under READ_CAP rule 5 → `archive/status_snapshots/STATUS_rotated_2026-11-06.md`. Closed on Will's 18:33 ET word; window stays open for the DTCC ping.
 - **Added, WALTER doorbell 18:14 ET:** card 050 Hertz owner read from the primary filings, REPORT §17, KB-LIQ-159; card 049 noted; packet to WALTER carrying the Class B refusal the card lacked. Method note: the exhibit, not the 10-Q summary, held the refusal, and the Note 10 fair values held the price.
 
-### PRIOR SESSION — closed 2026-11-06T16:48:41-05:00 (WQ-626 A, DOCKET L970, session liquid-98, Claude Code / Opus 5.5)
+### EARLIER SESSION — closed 2026-11-06T16:48:41-05:00 (WQ-626 A, DOCKET L970, session liquid-98, Claude Code / Opus 5.5)
 
 - **Context:** ran the November 6 handoff by hand after the November 5 HY cell posted. No trades; no level, operator, instrument or consequence changed.
 - **Delivered:** November 5 print graded first-published (HY 348, +16); Will's funding sweep; GSBD; final Q3 BDC card (MAIN 10-Q); card 029 read of IREN and Oracle at filings; 076 W1; 21 WALTER cards consumed today; combination themes logged (WQ-622). `research/2026-11-05_live-catchup/REPORT.md` §15.
@@ -46,6 +53,4 @@
 
 ### NEXT SESSION
 
-**FIRST, one line owed to PROME:** read DTCC's full November 6 file, published about 20:15 ET, and send the Oracle and Microsoft update. Run `.venv/bin/python3 AGENTS/LIQUID/scripts/dtcc_cds_probe.py ORACLE 2026-11-06` and the same for MICROSOFT from repo root. Compare against same-day slices to about 15:50 ET: Oracle Dec 2031 306 to 314 converted, about 318 disseminated basis, 305 only inside a curve package; Microsoft no print. ⚠️ The probe keeps cancelled rows, so check EROR by hand; Microsoft sits under the 100 bp coupon, so read disseminated rows only, not the conversion. Say whether 325 or the 342.5 high was reached. Method → `research/2026-11-06_oracle-cds-loop/REPORT.md` end notes.
-
-**Then:** the Monday November 9 row in STATUS §3, then the rest of that owed list. The November 6 handoff is done. Sessions from October 29 and earlier, with the prior NEXT SESSION text → `archive/MEMORY_before-2026-11-05-closeout.md` (verbatim copy).
+**Tuesday November 10 row in STATUS §3:** the November 9 SOFR set and ICE cell (069 L4 for the November 9 session, L1, tier rule, HY-REKILL, 072, >320 run), the 10-year auction at 13:00 ET (BOND grades), and VIOLET's November 9 MOVE and VIX figure for 076 W3. Then the rest of §3: State Street Oracle bond point, the DTCC probe repair (cancelled rows and the short-tenor crash), and 076 W2 and W1 on November 12 to 13. Sessions from October 29 and earlier, with the prior NEXT SESSION text → `archive/MEMORY_before-2026-11-05-closeout.md` (verbatim copy).

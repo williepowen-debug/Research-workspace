@@ -488,3 +488,58 @@ Schedule IV totals $600M because it lists both groups; Class B Maximum stays $30
 **ISHM packet, read after this section was committed.** October Class 8 orders fell: ACT 13,500, −45% y/y, FTR 15,600, −36% y/y, both preliminary and issuer-attributed to regulatory uncertainty; rail stayed firm. No ISHM J2 condition fires and ISHM asks nothing. LIQUID reads no gate on it; HY's widening has no established cause and I have not tested any link to freight, so I give no credit read from this print. ISHM's next J2 leg is Cass, November 13.
 
 **Correction, 18:35 ET, to this section.** I wrote "every existing holder refused" and listed two refusers without reading the signature pages. BROCK did: ABF Rental Car Holdings 2025-1 signs through an Oaktree entity, so the $300M is at most one credit decision. ABF's economic owners are not established. I verified this, Delticus signing through Third Point LLC, and Section 11.26 at the exhibit. Refusers are paid by August 31, 2027 regardless, earlier if the new money funds. The Oaktree funds marked the position 99.49 at June 30, before the amendment (BROCK KB-BRK-465). OTTO: a December 31 miss is scheduled amortization, not an Amortization Event, and OTTO has not read the base indenture's event list. No figure changed. The refusal can still be fund-specific.
+
+## 18. Addendum: November 6 grades, DTCC full file and card intake, written 20:19 ET November 9 (Will's 20:15 ET word "yes please update LIQUID go ahead"; bounded, no new study, no gate moved)
+
+### 18.1 November 6 credit, FRED first-published, read 20:16 ET November 9
+
+| Tier | Level | Day | 15 sessions (base October 16) |
+|---|---|---|---|
+| IG | 93 | 0 | +8 |
+| BBB | 116 | 0 | +10 |
+| BB | 208 | −5 | +5 |
+| B | 361 | −6 | +26 |
+| CCC | 1,317 | −3 | +20 |
+| HY | 342 | −6 | +11 |
+
+HY−IG 249, CCC−BB 1,109, CCC−B 956. First-published equals latest-revised on every cell read (October 20 to November 6). 15-session column from `transmission_check.py --asof 2026-11-06`, latest-revised basis.
+
+**Tier rule (September 25 order): BROADENS on the 15-session clause only** (IG +8 ≥ +6, BBB +10 ≥ +7). REVERSES fails (CCC −3, B −6; needs ≤ −9 and ≤ −4). The daily clause fails because neither B nor CCC widened. As §14.5 warned, this clause prints on a flat day, so the November 6 result carries little news: a one-print pause after November 5, not a reversal.
+
+**>320 first-published run: 7 observations** (326 / 344 / 343 / 340 / 332 / 348 / 342). REGINALD >350 witness 0 of 3, max 348. No below-300 observation.
+
+### 18.2 Gate grades on this print (LIQUID rows only)
+
+| Gate | Grade |
+|---|---|
+| HY-REKILL | NOT FIRED, 0 of 2 (HY 342) |
+| 069 L1 | NOT FIRED: BB 208, 12 under 220; CCC 5-session −10, flat |
+| 069 L4, November 6 session | NOT FIRED: CRWV +6.28%, IREN +20.02%, APLD +9.74%, NBIS +7.58% (raw closes); HY −6 |
+| 072 price leg | NOT FIRED: IG 93 fails >94; HY−IG 249 fails <180 |
+| 079 | NOT ARMED: SOFR99 3.97 − IORB 3.90 = +7 bp [November 6, non-calendar] |
+| 076 W3 | November 6 NOT MET (VIX 25.64 first-published). November 9 witness MOVE 85.98 / VIX 19.92 is EDGE; VIOLET's figure governs; it could only re-witness W3, already counted. Window October 27→November 9: 1 of 3 |
+
+Funding November 6: SOFR−IORB −1, SOFR75−IORB +4, TGCR−IORB −4 bp. Standing repo $0 [November 9], RRP $0.25B [November 9]. H.15 November 6: 2Y 4.51, 10Y 4.86, 30Y 5.26.
+
+**3-year auction November 9 (BOND's grade, `AGENTS/BOND/analysis/2026-11-09_refunding/grade_91282CRW3.txt`):** bid-to-cover 2.53, indirect 55.48%, directs 35.04%, dealers 9.48%. Weak demand from the indirect class, but direct bidders absorbed it and dealers took the smallest share in 12 auctions, so no balance-sheet warehousing. LIQUID's send line (BTC <2.0) is not met. The indirect share is above my 55% line by 0.48 points; one short-end print is not "sustained".
+
+### 18.3 DTCC November 6 full file (SEC cumulative credits, downloaded 20:17 ET November 9)
+
+Owed to PROME since November 6. Read from the raw CSV, because `dtcc_cds_probe.py` crashed (division by zero) on a December 2026 Oracle contract at 21:28Z and printed nothing after it.
+
+| Name, tenor | Prints November 6 | Level |
+|---|---|---|
+| Oracle Dec 2031 (5Y) | 14:41Z, 17:18Z, 19:31Z, 19:42Z converted; 17:37Z disseminated ×2 | 305 disseminated; 306 / 306 / 314 / 312 converted (flat-hazard approximation). Last 5Y print 19:42Z (14:42 ET) |
+| Oracle Dec 2030 | five prints | 271.5 to 273 |
+| Oracle Jun 2031 | three prints | 280 to 289 |
+| Microsoft Dec 2031 | one print, 20:48Z (15:48 ET), 5,000,000+ capped | upfront 2.36 points on the 100 bp coupon; payer not disseminated, so about 47 bp (seller pays) or about 156 bp (buyer pays). No level stated |
+
+Neither 325 nor the 342.5 high [October 20] was reached. The full file adds nothing beyond the partial read on November 6. Lifecycle rows: one EROR cancels an Oracle Dec 2031 trade from November 5 14:31Z (upfront 834,065.77, notional blank); one MODI on the November 5 14:52Z trade (406,386.61 → 405,690.00, still about 305); two CORR rows, unchanged values; one TERM for clearing. None changes a November 6 level.
+
+### 18.4 Cards and packets (no grade moved)
+
+- **SIG-W-20261109-007 (ACTION LIQUID), checked against my funding gauges:** Millennium reportedly shutting two more credit pods (X relay of a screenshot, original unread). That is multi-strategy de-risking in credit. If it were forced and wide, the places I can see it are cash HY and repo. On November 6, HY tightened 6 bp, SOFR99−IORB was +7 and standing repo was $0. Prime-brokerage margin is unmeasured here, so the absence proves little. Binance CFO resignation: CYPHER owns the venue. On my side, RRP and repo show no crypto-linked cash call. The "private-credit defaults highest since 2008" line has no source and is not used. Logged to KB-LIQ-156.
+- **SIG-W-20261109-002 (INFO):** the "$500M seller of data-centre loans" is a low-credibility outlet and may be the ING sale already in KB-LIQ-153 (about $500M, bids November 19): one root counts once. Logged as a possible duplicate.
+- **SIG-W-20261109-005 (INFO):** SoftBank −4.2% in Tokyo November 9 before results; Musk's turbine "defaulting" claim is unverified and is not debt. SAM owns the leverage read. Logged to KB-LIQ-153.
+- **GIBBS November 8, Schwab 10-Q (primary):** sweep deposits −3.94% in Q3; bank loans +35% and margin loans +37% year on year, funded with higher-cost wholesale money (brokered CDs $0.283B → $3.797B). Demand-led, not a refused facility. Logged to KB-LIQ-156 as leverage-growth context.
+- **BOND November 9:** 3-year grade as in §18.2.
