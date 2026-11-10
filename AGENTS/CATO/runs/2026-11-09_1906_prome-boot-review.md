@@ -2,7 +2,7 @@
 
 ## Current assessment
 
-Keep the NOW migration and fleet view. Recommend bounded owner repairs to session-boundary evidence, allowance labels, obsolete references and header dating. The dry run supports useful state recovery, not a demonstrated operational boot. Navigation overhead is a legitimate separate simplification candidate, not grounds to remove mechanical checks. No implementation, owner send, launch or additional trial authorized or performed in this review. Await Will; no automatic next audit.
+**November 9 session closed: investigation and advice delivered; owner repairs recorded at `82762f2373`.** Keep NOW/fleet and the existing spawn-slate read. PROME's ruling/repair record confirms authorization and describes implementation/review; CATO has not independently tested the repaired boot. Due-row cap interpretation, header ownership on arrival and delivery-channel evidence retain the limits below. No further CATO audit, test, redesign or implementation assigned. Next session: orient and await Will.
 
 ## Scope and evidence
 
@@ -51,3 +51,22 @@ PROME owns PB1–3 record/wording repairs within its actual authority and any re
 ## Delivery verification
 
 All 11 distinct intended inputs existed/readable. Weekday passed on PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO/CONTINUITY.md, this report and the preserved raw log. Read-cap passed on CATO/AGENTS.md, CHARTER.md, CONTINUITY.md and root CLAUDE.md, USER.md, AGENTS.md. Scoped whitespace and orphan advisory clean; no staged foreign paths at precommit. Preserved log bytes match the SHA-256 above. No source figure, auto-memory, ledger or code changed; conditional consumer/memory/ledger checks and implementation tests not applicable. Exact-path commit/publication receipt delivered in chat, without a further edit solely to record its hash.
+
+
+## November 9 — owner delivery, discussion and session closeout
+
+Will relayed PROME's published four-repair receipt. At CATO closeout, read `PROME/proposals/2026-11-09_boot-handoff-repairs-RULED.md` and commit `82762f2373` path/stat receipt. The record quotes Will's approval at 19:16 ET, including bounded instruction edits despite the earlier review budget being spent, but prohibits broader redesign, registry/checker or another evaluation. CATO supplied the prompt and advice; PROME implemented. This was a record-reconciliation read, not a repeat diff/code audit or independent acceptance.
+
+PB1–3: owner reports header disposition/evidence and takeover wording, launch split, corrected references and timestamp contract implemented. Reader recorded no hard findings and five advisories; condition 2 was partial at that read. PROME then changed the launch-cap treatment and archived two provenance phrases, both post-review and unreviewed. Do not call the final text wholly independently verified. PB4–6 interpretation corrections remain settled.
+
+Remaining material conditions and owners:
+- **PROME / Will: due-row cap interpretation.** Seven desks launched on Will's blanket 12:07 instruction are not proven exempt merely by relabelling. PROME treats the cap as spent for this working session and asks before further due-row launches. A ruling is needed only if that interpretation must be resolved for action; CATO grants no exemption.
+- **PROME: header on arrival and takeover behavior.** No explicit step requires the arriving session to write its own OPEN header; existing ownership checks remain binding. Observe at the next ordinary boot whether ownership is established and the record updated. Header disposition is not liveness, and idle does not mean ownership relinquished. No new trial or follow-up audit scheduled.
+- **PROME / WALTER: delivery evidence.** Replacement channel is not established by this record. A dated actual-delivery receipt or Will's confirmation suffices; otherwise prior delivery stays UNKNOWN and full context is supplied. No messaging build authorized.
+- **Lower-impact residue:** awkward same-session wording and two post-read edits remain disclosed; no further read commissioned solely to clear them. Operational benefit and a successful full boot remain unmeasured.
+
+Other discussion dispositions retained: CATO supports WQ-658 A NOW consolidation with existing migration safeguards and WQ-657 B fleet trim, keeping spawn-slate until equivalent coverage is demonstrated. These deliveries/tests are owner-reported, not rerun here. On WQ-656 CATO corrected its earlier A-in-principle advice to B: preserve CRL-15 as ungradeable, retain probability history and design failure without a Brier score; a rule introduced in November does not repair April preregistration. For CARL's next release, recover the legitimately governing dated rule before outcomes, or retain both interpretations and an unresolved verdict; no outcome-based selection. These are saved discussion judgments, not a fresh CARL audit or authority to act for its owner.
+
+Session ending at Will's request. No owner messages, agent launches or cross-directory changes in this closeout. WQ-607 acceptance is reconciled in its continuing report and removed from pending continuity. Forecast pilot remains 44/120 minutes and waits for Will; unrelated approvals and Decisions custody remain intact. No fresh work started merely to close out. Next session orients and awaits Will.
+
+Closeout checks: all 12 distinct intended inputs existed/readable. Weekday PASS on PROME/DOCKET.tsv, GATES.tsv, WILL_QUEUE.md, CATO/CONTINUITY.md, TASK_INDEX.md and both changed continuing reports (this report and 2026-11-04_1531_agent-work-review.md). Read-cap PASS on CATO/AGENTS.md, CHARTER.md, CONTINUITY.md and root CLAUDE.md, USER.md, AGENTS.md. Orphan advisory and scoped whitespace clean; only four authorized CATO documents modified and no staged foreign paths. No auto-memory, ledger or financial figure changed, so their conditional checks do not apply. Ignored Decisions exports untouched. No repeated implementation tests. Exact-file commit and fresh-fetch publication receipt delivered in chat.

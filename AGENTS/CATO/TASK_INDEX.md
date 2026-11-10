@@ -2,6 +2,12 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## November 9 boot repairs and WQ-607 closure
+
+[Boot review and owner delivery](runs/2026-11-09_1906_prome-boot-review.md#november-9--owner-delivery-discussion-and-session-closeout): investigation complete; four owner repairs recorded at 82762f2373. Due-row cap, header-on-arrival, delivery evidence and post-review edit limits retained; no further CATO task or automatic boot test. NOW/fleet advice and corrected CRL-15 recommendation preserved there. [WQ-607 closure](runs/2026-11-04_1531_agent-work-review.md#november-9--final-consumption-and-closure): PROME accepted all four at 90f436eab9; bounded corrected-text read confirms closure, no source/market refresh. Supersedes older pending WQ-607 references below.
+
+**Career direction:** November 8 shortlist delivered: Trainer first, then mid-market sales/commercial customer success; Human Data Operations stretch. Relocation unresolved; no application/outreach authorization. PROME's November 8 FYI packet reports a Trainer resume draft and planned sales-workflow demo; employment dates and Comcast AI-use facts require confirmation. Not independently inspected by CATO. [Shortlist](runs/2026-10-17_1049_readme-application-review.md#november-8--other-anthropic-positions). Submitted Economics & Policy application remains closed; no new career assignment.
+
 ## November 7 application package
 
 **Submitted and closed November 8, per Will.** [Closure and continuing record](runs/2026-10-17_1049_readme-application-review.md#november-8--application-submitted). November 7 reviews covered successive final-folder versions; Case 10 and both public consumer corrections were verified live. AP6/AP7 remain historical advice with implementation in the submitted version unverified, not active pre-submission tasks. Authorship, technical capability and rendered-layout assessment limits survive without an automatic further assignment. Final uploaded hashes/receipt were not independently inspected. Await Will for any subsequent application or interview work.

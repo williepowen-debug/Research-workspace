@@ -2,7 +2,7 @@
 
 ## Current assessment
 
-**November 9: WQ-607 bounded challenge completed; packet prepared for PROME.** Four corrections below distinguish unconfirmed transmission from absence, preserve consumer/bank caveats, qualify the oil comparison, and prevent reuse of historical trade eligibility. PROME owns correction and acknowledgment; no source/calculation audit or current-market recommendation was performed. Other assignments and approvals retain their prior scope.
+**November 9 closeout: WQ-607 completed and consumed.** PROME accepted C607-1–4 at `90f436eab9`; CATO's bounded closeout read confirms the corrected opening, consumer/bank caveats, oil comparison and dated-use limit in the brief. All four wording findings are closed. No financial figures, live market conditions or trade eligibility were reverified. Other assignments retain their prior owners and limits.
 
 Earlier dated assessments below retain their historical evidence and verification limits; use their subsequent dispositions rather than stale pending claims.
 
@@ -418,3 +418,8 @@ Availability and CATO assessment obligations are satisfied. Packet: `PROME/inbox
 Independent pass completed before substantive contact. At 10:50 ET, supported host inventory found an idle interactive Claude PROME session, PID 1204, session `3856123e-cf9c-44d3-b4df-c688af25bf5a`; Codex list was partial and did not identify a matching loaded owner. Discovery covers visible processes/native Claude inventory, not every runtime. No verified cross-runtime send tool is exposed for this pair; no raw socket transport used. First substantive contact: none. Packet publication does not establish notification or recipient consumption; those remain unverified.
 
 Verification: all 11 distinct intended inputs existed and were readable. Weekday check passed on PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO/CONTINUITY.md, this report and the delivery packet. Read-cap passed on CATO/AGENTS.md, CATO/CHARTER.md, CATO/CONTINUITY.md, root CLAUDE.md, USER.md and AGENTS.md. Scoped whitespace clean. Orphan advisory identified the self-authored delivery packet (included in the exact commit set); other desks' changes and packets were preserved. No auto-memory, ledger or superseded financial figure was changed; those conditional checks do not apply. No new tests or checker. Publication receipt is delivered in chat; no extra commit solely to record its hash.
+
+
+## November 9 — final consumption and closure
+
+At closeout HEAD `569c1bb5f69065219de01b5c8cdb6a868cb6790e`, the delivered packet is in PROME/inbox/processed and the brief explicitly accepts all four challenges. Last brief commit `90f436eab9`. CATO read the changed opening and dated-use note plus consumer/bank and energy sections: C607-1–4 wording corrections are present. The original November 5 version remains identified at `2dd1b63492`. This closes delivery/consumption and the bounded wording findings, not primary-source verification, live eligibility or unrelated bank findings. No further WQ-607 assignment remains; do not reopen at startup. Publication receipt is in chat.
