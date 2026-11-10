@@ -1,12 +1,12 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-09T20:2xZ, Claude Code Opus 5.5, session walter-da on the desktop DESKTOP-BC6EF81. Light closeout on Will's "ok go" 15:18 ET after cards 20261109-001 to -010; coverage PARTIAL. Window stays open through SoftBank results (01:30 ET) and CPI (08:30 ET) November 10, then Tier 2 FULL closeout.
+Updated 2026-11-10T00:38:17Z, Claude Code Opus 5.5, session walter-da on the desktop DESKTOP-BC6EF81. **Window CLOSED** on Will's 19:37 ET word via PROME prome-9c (WQ-249 closeout, desktop to laptop). Light closeout; Tier 2 FULL NOT run, carried to the laptop boot (resume 1). No routing from this window after 19:37 ET; SoftBank and CPI coverage needs the laptop WALTER. Coverage PARTIAL.
 
 ## RESUME — do these first
 
-1. `git pull --rebase` at root, then ordinary boot. **Tier 2 FULL closeout owed:** 6 light-closeout breadcrumbs since the November 6 23:34Z full closeout (the earlier "15" was a miscount; recount by SESSION_LOG heading). Planned after CPI November 10. Step 7i first, cutoff below.
+1. `git pull --rebase` at root, then ordinary boot. **Tier 2 FULL closeout owed:** 6 light-closeout breadcrumbs since the November 6 23:34Z full closeout (the earlier "15" was a miscount; recount by SESSION_LOG heading). Was planned after CPI November 10 from this window; the window closed 19:37 ET 11/9 for the laptop switch, so run it at the laptop boot (before or after CPI on Will's word). Step 7i first, cutoff below.
 1c. **November 9, walter-da (desktop):** 10 cards, 1 correction, no IMMEDIATE or FLASH; 50/50 delivery rows on origin. 001 Iran weekend (Trump "highly unlikely"; Qatar $8B terms unconfirmed); 002 AI power headlines (VULCAN); 003 CYPHER claims; 004 to 008 from 35 X bookmarks (batch BM-20261109-01 closed 14/14); 009 = COR-20261109-09 STRENGTHEN on FALCON's read (Rubio quote at Al Jazeera, IRGC claim dated 11/8 by TASS), HAWK APPLIED 10f6c9c1f8; 010 US–China 11/10 clocks re-suspended to about 1/9–1/10/2027 (ZHAO primary read; MoT leg B2), consumed by HENRY 2b5b993645, VULCAN f777e5f8c3, HAWK b2db6997ad, BRENT 9fa3eac55c; WATT and MIDAS pending their next session. PROME digest at PROME/inbox/2026-11-09_from-WALTER_catch-up-digest.md (filed ddcc16b2e4). ORACLE closed out; reads 001 and 009 at next boot.
-1d. **November 10 watch, routing only:** SoftBank results 01:30 ET (SAM pre-wrote its lookup, 47678a9017); CPI 08:30 ET (HENRY HEN-57 grade sheet, expect NOT FIRED at +0.2); CoreWeave; NY Fed household debt 11:00 ET; MOFCOM No. 70 clock superseded by 公告2026年第58号 (card 010); 10Y auction. Owners grade; WALTER routes what breaks.
+1d. **November 10 watch, routing only, needs a launched laptop WALTER (desktop window closed 19:37 ET 11/9; nothing scheduled, no timer):** SoftBank results 01:30 ET (SAM pre-wrote its lookup, 47678a9017); CPI 08:30 ET (HENRY HEN-57 grade sheet, expect NOT FIRED at +0.2); CoreWeave; NY Fed household debt 11:00 ET; MOFCOM No. 70 clock superseded by 公告2026年第58号 (card 010); 10Y auction. Owners grade; WALTER routes what breaks.
 1a. **Weekend reads moved (PROME 4b9fac2f2e):** Will 19:44 ET desktop closed, every desktop timer gone; 19:46 ET persistent laptop sessions. falcon-de, oracle-e5, reginald-49 live. PROME reminders Saturday 08:43 and 09:07 ET, Sunday 15:03 ET die if its window closes or the laptop sleeps. LIQUID's Oracle DTCC read deferred to Monday on Will's yes, replacing item 3's timing.
 1b. **WQ-646 A reads all routed.** Read 1 (November 7): cards 001 to 003; card 054 closed by 001, Task Force Iron Gate, not a strike. Read 2 (November 8, about 17:00Z): card 20261108-001, ORACLE's new 2-week-pause market, by-11/8 leg 23.5, about 76 for another qualifying US land strike in 14 days, thin and new; card 20261108-002, FALCON: Houthis struck Aramco's Riyadh office tower, minor damage, Abqaiq missile intercepted, no rung fired, HUDA disabled, Khasab tanker fire, and COR-20261108-02 WEAKENS card 056's NBC target line (one relay). ACTION BRENT and HAWK: neither has a session open, UNKNOWN, no doorbell; oil futures reopen 18:00 ET Sunday. Old-event legs through 11/05 and 11/06 open; ORACLE reads reporting windows closing 20:29Z November 8 and 9. ORACLE's packet called the market two days old; Gamma shows created 02:48Z November 8.
 2. **Finish the November 6 certification.** Close pass ran at 22:10Z, cards 043–046. Still owed: Cboe VIX and SKEW History and Nasdaq WAL and KRE November 6 rows, unposted at 23:33Z; read them at next boot. Apple 20% recheck done, card 046, still unfound.
@@ -112,9 +112,14 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-09T20:20:29Z",
+  "as_of": "2026-11-10T00:38:17Z",
   "next_review": "2026-11-10",
   "publication": [
+    {
+      "commit": "a941ce2325a60193d1538cde83e27d5582c00b90",
+      "state": "published",
+      "note": "Light closeout 11/9 20:20Z."
+    },
     {
       "commit": "282a0bf659f1f0ce5cfa8227243cda3c509a6299",
       "state": "published",
@@ -223,7 +228,7 @@ Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Op
   "procedure": {
     "tier": "light",
     "boot": "PARTIAL: boot basis not re-attested (5 files); READS UNKNOWN; bodies mostly unread; HANS/CREED cited.",
-    "session": "Window open through CPI 11/10 for routing; no helper or timer running."
+    "session": "Window closed 19:37 ET 11/9 on Will's word via PROME (laptop switch); no helper or timer running. Tier 2 FULL carried to the laptop boot."
   },
   "manual_duties": {
     "11": "November 9: cards 001-010, 6 PRIORITY 4 ROUTINE, no IMMEDIATE or FLASH; COR-20261109-09 STRENGTHEN. Batch BM-20261109-01 closed 14/14.",
