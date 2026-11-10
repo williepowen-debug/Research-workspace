@@ -5,7 +5,7 @@ STATUS: LIVE under WQ-184 — Will 2026-09-05 21:42 ET, verbatim "approve WQ-184
 (record PROME/proposals/2026-09-05_spawn-driver-RULED.md). Wired into `prome_gate.py boot` (horizon 0)
 and `closeout` (horizon 1 weekday / 3 Fri-Sat). The RULE it serves (L0, PROME/CLAUDE.md spawn block):
 a registered dated row with a dark owner is a Tier-1 spawn at the first PROME boot on/after its date —
-no nod; cap 4 per boot (8 under C6 when every desk woken is on a due catalyst/review row; any aged-ACTION or aged-waits wake keeps the boot at 4); ACTIVE owner ⇒ consumer read at the owner's artifact first; Will-owned ⇒ queue.
+no nod; no count cap since WQ-667 B (2026-11-10), memory measured before each launch; ACTIVE owner ⇒ consumer read at the owner's artifact first; Will-owned ⇒ queue.
 Review sitting 2026-09-19 (DOCKET).
 
 QUESTION IT ANSWERS: which registered dated rows have arrived (or arrive before the next boot) whose
@@ -52,7 +52,6 @@ from pathlib import Path
 
 ROOT = Path(subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True, text=True).stdout.strip())
 DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
-CAP_PER_BOOT = 4      # WQ-184 leg ② — informational here; PROME enforces at spawn time
 
 
 # ⛔ ONE interpretation of "is this row still open", imported — never re-implemented here.
@@ -471,7 +470,7 @@ def render(rows, today, horizon_days, tsv: bool) -> int:
               + "  — form-valid COVERED annotations with no self-slate, no negation, no lapsed promise date (L368 A6: visible, never a candidate)")
     if not tsv:
         print(f"\nREAD (WQ-184 L0): DARK = Tier-1 due-row spawn after an in-session ListAgents check (live desk ⇒ doorbell); "
-              f"cap {CAP_PER_BOOT}/boot, beyond → slate to Will. ACTIVE = read the owner's artifact FIRST — the row may already "
+              f"no count cap (WQ-667 B), memory measured before each launch. ACTIVE = read the owner's artifact FIRST — the row may already "
               "be graded (receipt gap). \u26d4 CADENCE IS AN ANNOTATION ONLY — it never changes a class, never hides a due "
               "row and never moves the exit code; PLANNED QUIET IS NOT A COMPLETED GRADE, and CANNOT-EVALUATE is not a pass.")
     if n["UNKNOWN"]:

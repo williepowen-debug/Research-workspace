@@ -60,9 +60,9 @@ TERMS = (
     "answered — an independent read on 10/02 found 2 of 4 such rows unanswered. **Strong** = names the row key, or carries a row "
     "identifier in a commit subject / packet filename; **body mention** = an identifier only inside the text. **hint words** are keyword "
     "matches near the citation; they decide nothing.",
-    "- **Cap**: 4 due-row spawns per PROME boot (one boot = one PROME session start; `PROME/CLAUDE.md` spawn block). C6 raises it to 8 "
-    "only when every desk woken that boot is woken on a due catalyst/review row. Whether a re-ping counts is unruled (DOCKET L444). "
-    "A slot number here is slate ORDER, not proof a slot is free.",
+    "- **Cap**: no count cap on due-row spawns since WQ-667 B (Will 2026-11-10; `PROME/CLAUDE.md` spawn block). The limit is memory, "
+    "measured before each launch; every wake is listed for Will the same day. "
+    "A slot number here is slate ORDER only.",
     "- **Re-ping**: a SendMessage to a live desk session; if the desk has no session it is a packet to its inbox or a spawn — PROME's call.",
     "- **Lane WQ-184 L0**: a registered dated row with a dark owner. The aged-ACTION (WQ-206) and aged-waits (WQ-221) lanes are not computed here.",
     "- **Inherited limits**: desk attribution and first-owner parsing are `spawn_list`'s (open residue: DOCKET L455, L459).",
@@ -477,8 +477,7 @@ def build(rows, dets, ev, today, roster_text, orch_text, related_rows, open_rows
             top["unknown"].append(f"{desk} (not launchable; {', '.join(d.key for d in dark)})")
         elif dark:
             slot += 1
-            cap = (f"slot {slot} of {sl.CAP_PER_BOOT}" if slot <= sl.CAP_PER_BOOT else
-                   f"slot {slot} — beyond the ordinary cap of {sl.CAP_PER_BOOT} → Will's slate, unless the C6 terms hold (PROME's judgement)")
+            cap = f"slot {slot} (slate order; no count cap, WQ-667 B)"
             verdict = (f"SPAWN CANDIDATE — Tier 1, WQ-184 L0 due row · {cap}"
                        + (" · ⏱ the row carries timing words: check them before waking" if tw else "")
                        + (" · ORCH_LOG shows an open touch today: check liveness first" if inflight else ""))

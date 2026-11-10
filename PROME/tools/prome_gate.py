@@ -1647,12 +1647,12 @@ def mode_boot(advance_board=True):
     guard(check_desk_catalyst_summons)
     # WQ-184 L1 (Will 2026-09-05 21:42 "approve WQ-184 with your recs"): the spawn driver. rc=1 = a DARK row —
     # a registered dated row has arrived and its owner has no self-commit since; under L0 that is a Tier-1
-    # spawn at THIS boot (ListAgents first; cap 4, or 8 under C6; ACTIVE ⇒ consumer read at the owner's artifact first).
+    # spawn at THIS boot (ListAgents first; no count cap since WQ-667 B; ACTIVE ⇒ consumer read at the owner's artifact first).
     # DAEDALUS 2026-10-02: the spawn slate is built on spawn_list.render(); its ANSWERED/PARTIAL class FAILED
     # its independent read and is WITHDRAWN — RETURN FOUND is a pointer, never a grade. SPAWN_SLATE.md is
     # state-local (`.gitignore` entry). One line for both since 2026-10-31 (WQ-578 batch 2, #32).
     guard(spawn_list_and_slate, "0", "spawn list — L0 due-row candidates (WQ-184) + slate",
-          "DARK ⇒ ListAgents same minute → Tier-1 spawn (cap 4/boot; 8 under C6 when every desk woken is on a due catalyst/review row) or doorbell a live desk; "
+          "DARK ⇒ ListAgents same minute → Tier-1 spawn (no count cap, WQ-667 B; measure memory first) or doorbell a live desk; "
           "ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it · "
           "read the slate's top block (PROME/state/SPAWN_SLATE.md), then only the stanzas you act on")
     # Session-presence line RETIRED 2026-10-31 (WQ-578 batch 2, #33): it said itself it proved nothing; presence before a

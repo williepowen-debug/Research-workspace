@@ -270,12 +270,12 @@ class Fixture(unittest.TestCase):
 
     # 9 — cap
     def test_c09_slots_only_for_launchable_dark(self):
-        self.assertRegex(self.stanza("ALPHA").split("\n")[0], r"slot [12] of 4")
+        self.assertRegex(self.stanza("ALPHA").split("\n")[0], r"slot [12] \(slate order; no count cap")
         self.assertIn("⏱", self.stanza("ALPHA").split("\n")[0]); self.assertRegex(self.body, r"Spawn candidates[^\n]*ALPHA ⏱")
         self.assertIn("NOT A SPAWN", self.stanza("OLDIE").split("\n")[0])
         self.assertEqual(len(re.findall(r"(?m)^### .*slot \d", self.body)), 2)       # ALPHA + EPS; OLDIE (dormant) takes none
 
-    def test_c09_beyond_cap_is_labelled(self):
+    def test_c09_no_count_cap_since_wq667(self):
         docket = "# h\n" + "\n".join(_row(TODAY, f"row {d}", d) for d in ("ALPHA", "OLDIE")) + "\n"
         docket += "\n".join(_row(TODAY, f"row {i}", f"NEW{i}X") for i in range(6)) + "\n"
         roster = ROSTER.replace("| ALPHA | x |", "| ALPHA | x |\n" + "".join(f"| NEW{i}X | x |\n" for i in range(6)), 1)
@@ -283,7 +283,7 @@ class Fixture(unittest.TestCase):
         a = argparse.Namespace(**{**vars(self.args), "docket": "D2.tsv", "roster": "R2.md"})
         body = SS.compose(a, "s")[2]
         self.assertEqual(len(re.findall(r"(?m)^### .*slot \d", body)), 7)
-        self.assertEqual(len(re.findall(r"(?m)^### .*beyond the ordinary cap", body)), 3)
+        self.assertEqual(len(re.findall(r"(?m)^### .*beyond the ordinary cap", body)), 0)   # WQ-667 B (2026-11-10): every due row is a candidate
 
     def test_c07_lands_only_desk_is_a_table_row_and_is_conserved(self):
         a = argparse.Namespace(**{**vars(self.args), "horizon": 7})
