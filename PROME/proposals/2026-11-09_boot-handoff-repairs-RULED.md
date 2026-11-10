@@ -44,3 +44,12 @@ Two fixes made AFTER the read (unreviewed):
 - W5: "the PROME that wrote it" reads oddly when the same session re-reads its own header after a context reset.
 
 **State:** IMPLEMENTED · TESTED (read-cap rotation_due=0, WILLQ view check passes, skill and agent copies identical) · INDEPENDENTLY VERIFIED for the text as read, except the two post-read fixes, which are unreviewed · STILL UNRESOLVED: W1, W4, the due-row cap question.
+
+## Observation at the next ordinary boot (PROME prome-1e, laptop, 2026-11-09 20:13 ET; Will's instruction above)
+
+- **W1 (disposition):** the header read CLOSED OUT with its evidence pointer. Before taking over, the booting PROME established yield by three checks: hostname `WilliePOwen` against the header's `DESKTOP-BC6EF81`; `git fetch` then 0/0 against origin/master with the closeout commit 8dfc5baea1 present; ListAgents empty at 20:09 ET. It then wrote its own session and OPEN disposition into the header. Nothing instructed that write; the three checks were sufficient on a machine switch. On a same-machine restart the hostname check is void, and ListAgents plus the run-directory receipt carry it.
+- **W4 (delivery evidence):** no WALTER brief to Will since 19:42 ET; prior delivery was PROME's own chat brief at 14:5x ET and its closeout report at 19:4x ET, so the delta brief rested on PROME's own record and no channel question arose.
+- **Due-row cap:** nothing fell due between 19:42 and 20:07 ET, so the question did not arise. Will opened ten desk windows himself at about 20:11 ET; tomorrow's due rows are taps to live owners, not launches.
+- **What the NOW page did not carry:** the ARGUS residue list (found in the daily note it points to) and WALTER's routing need for 11/10 (its `LAST_COMPLETION.md`). Both were one pointer away; neither blocked the boot.
+- **Defects met:** the pre-CPI brief draft § 1 China row was stale (ARGUS had flagged it) and is corrected this boot. `fetch.py price` returned empty tables on a ten-ticker loop and worked on single retries; cause UNKNOWN (vendor or load). The header's model name ("Fable 5.2") does not match this runtime's model id (`claude-fable-5-1`); left as the prior session's record.
+- **State of W1, W4, the cap question:** W1's method is now recorded here; W4 and the cap question stay STILL UNRESOLVED as written.

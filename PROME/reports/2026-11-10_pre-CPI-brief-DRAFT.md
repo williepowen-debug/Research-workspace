@@ -10,7 +10,7 @@
 | 11:00 | NY Fed Household Debt and Credit, Q3 | CARL CRL-33 L1017 · NEXUS PRED-41 L575 | DOCKET rows; re-dated 11/6 |
 | about 12:00 | USDA Crop Production (November) | FERT L761 | DOCKET row; time `[MON]` verify |
 | 13:00 | 10-year Treasury auction (refunding leg 2) | BOND, registered grades on the 11/2 frozen bars | BOND STATUS line 101 |
-| all day | China and US trade clocks: MOFCOM 公告70 suspension end, USTR ship-fee determination, Hanwha countermeasure clock | ZHAO L437 · L858 · L1088; L435 graded on the 11/10 record | ZHAO STATUS; BIS stay is to 1/10/2027, so the US entity perimeter does NOT widen on 11/10 |
+| lookups only | China and US trade clocks: all four re-suspended on paper 11/9 to about 1/10/2027 (BIS stay 91 FR 70789; MOFCOM+GAC 公告2026年第58号 from 11/11; USTR FR 2026-22867 through 1/9/2027 23:59 ET; MoT port-fee mirror, secondary only). Nothing lapses 11/10; ZHA-19 lookup 11/10, ZHA-20 11/11 | ZHAO L435 · L437 · L858 · L1088 | ZHAO STATUS 05d6d6e72c, read 11/9 12:09–12:12 ET; this row corrected 2026-11-09 20:13 ET on ARGUS's 11/9 end-of-day flag (it had shown the clocks as open) |
 
 ## 2. What is expected
 
