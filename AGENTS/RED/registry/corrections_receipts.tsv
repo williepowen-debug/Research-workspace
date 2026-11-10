@@ -91,3 +91,7 @@ receipt_date	correction_id	action	note
 2026-11-06T22:20Z	COR-20261106-37	NO-OP	scope=RED never carried Oracle CDS levels or IREN fully funded - grep 11/06 of STATUS, SCRATCH, CALENDAR, NEXUS_BRIEF, OUTBOX, KB, VX, ML, CATALYSTS and the CHG-057 report and trees found none, and KB-RED-109 adds the corrected reads; 
 2026-11-06T22:20Z	COR-20261106-42	NO-OP	scope=RED never carried Oracle CDS levels - grep 11/06 of STATUS, SCRATCH, CALENDAR, NEXUS_BRIEF, OUTBOX, KB, VX, ML, CATALYSTS and the CHG-057 report and trees found none, and KB-RED-109 adds the corrected reads; 
 2026-11-06T23:35Z	COR-20261106-48	APPLIED	artifact=AGENTS/RED/workbook/KB.tsv#KB-RED-112; validation_ref=NONE; 
+2026-11-10T15:12Z	COR-20261106-53	DEFERRED	review=2026-11-11; 
+2026-11-10T15:12Z	COR-20261107-02	DEFERRED	review=2026-11-11; 
+2026-11-10T15:12Z	COR-20261108-02	DEFERRED	review=2026-11-11; 
+2026-11-10T15:12Z	COR-20261109-09	DEFERRED	review=2026-11-11; 

@@ -4,6 +4,13 @@
 
 ---
 
+## S61 — 2026-11-10 10:13 ET (from `date`; booted 11/09 20:11 ET status-only on Will's task; closed on PROME prome-1e's relay of Will 10:11 ET, machine switch) — **NO WEIGHT MOVED. HOLD 72 · net-bear 68 unchanged. One registered-trigger exit COUNT moved (FT-06 1 of 5 → 3 of 5); no trigger fired or exited.**
+
+- **FT-06:** VIXCLS 25.64 [11/06] and 19.92 [11/09], both ≥18. Old view: "a new run, 1 of 5." New view: "3 of 5; two closes (11/10, 11/11) ≥18 complete it at the 11/12 read." The 11/09 close sat only 1.92 over the line. RED-29 50% held.
+- **Not graded this session (owed at the next boot):** Oct CPI 11/10 08:30, household debt 11:00, SoftBank and CoreWeave. No weight may be read as held on them.
+
+---
+
 ## S60 — 2026-11-06 10:19 ET (from `date`; WQ-626 A, DOCKET L971 wake via PROME) — **NO WEIGHT MOVED. HOLD 72 · net-bear 68 unchanged. One registered-trigger exit COUNT moved (FT-06 0 of 5 → 1 of 5); no trigger fired or exited. RED-23 resolved CORRECT.**
 
 - **FT-06:** VIXCLS 28.18 [11/05], Cboe agrees. Old view: "the run died at three, the clock is empty." New view: "a new run, 1 of 5; earliest completion is the 11/11 bar, read 11/12." No exit, no weight.

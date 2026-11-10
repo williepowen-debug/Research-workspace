@@ -1,6 +1,8 @@
 # RED — NEXUS Brief
 
-**Status:** 🟠 **vS60-e (2026-11-06 17:22 ET, 11/06 close refresh). HOLD 72 · net-bear 68, UNCHANGED: no weight moved.** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3. No RED line fired or exited. Prior vS60-c → `reports/2026-11-06_NEXUS_BRIEF_vS60-c_rotated.md`.
+**Status:** 🟠 **vS61 (2026-11-10 10:13 ET, closeout for the machine switch). HOLD 72 · net-bear 68, UNCHANGED: no weight moved.** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3. No RED line fired or exited. Prior vS60-e → `reports/2026-11-10_NEXUS_BRIEF_vS60-e_rotated.md`.
+- 🆕 **FT-06 exit 3 of 5:** VIXCLS 25.64 [11/06] and 19.92 [11/09], both ≥18. Needs 11/10 and 11/11 ≥18; read 11/12 after 10:30 ET (RED-29 50%). If it completes, Stag +2 / Managed −2, MECHANICAL. A close <18 resets to 0. FT-02 exit 0 of 3 (HY 342 [11/06]); FT-10 exit 0 of 4 (SKEW 153.55 [11/06], 150.34 [11/09]).
+- ⚠️ **Not yet graded by RED:** Oct CPI (FT-08 exit, CHG-028 final), household debt 11:00 ET, SoftBank and CoreWeave (CHG-057). Owed at the next RED boot; do not read RED as having passed on them.
 - 🆕 **11/06 close:** VIXCLS, SKEW, HY and CCC cells unpublished and missing, so all exit counts stand through 11/05. Cboe's 16:15 ET print has VIX 25.64, a second witness, uncounted. Published 11/06: 5y5y 2.17 (−5bp, lowest since 6/24), Treasury par 2Y 4.51, 10Y 4.86, 30Y 5.26, real 10Y 2.63. January Brent settle 98.32 [BRENT, EST wire]. FT-11 no window.
 - 🆕 **CHG-RED-056 closed** on WQ-599 RULED C, Will's decision and no verdict on RED's read. PROME's count N = 5, R = 6, NOT MET. **Q3 household debt report is Tue 11/10 11:00 ET**, verified at the New York Fed; CHG-045 and CHG-049 re-review then; tree `research/2026-11-10_HHDC_Q3_TREE.md`.
 - 🆕 **CHG-RED-057 MODERATE, AI funding 'pickier rather than failing':** not failing holds on what is read; the top of the chain is pricier, not picked over; the weak part is 'rather than', since selection leans on investment-grade tenants and Microsoft is reported reassessing. RED-30 25% and RED-31 30% are the exit tests. Report `challenges/2026-11-06_CHG-057_AI_FUNDING_PICKIER_NOT_FAILING.md`.
@@ -76,7 +78,7 @@
 | 🟡 ~11/25 | FT-10 outcome horizon | condition already met; apparatus only |
 | 🟡 Fri 11/27 | VX-006 Zweig 12-month grade | SPY > 683.39 = CORRECT |
 
-**Daily monitors [2026-11-06 close, official cells 11/05]:** FT-02 exit (348 [11/05], 0 of 3) · FT-12 HY vs 260 (88bp) · CCC 1,320 (FT-07 banked) · FT-10 SKEW 149.37 [11/05] (exit 0 of 4) · FT-06 exit 1 of 5 · FT-11 next window · WL-07/12 USD/JPY 158.43 vs 160/155 [vendor 11/06] · WL-11 Brent <95 clear, January Brent 98.32 settle [11/06, BRENT EST wire].
+**Daily monitors [2026-11-06 close, official cells 11/05]:** FT-02 exit (348 [11/05], 0 of 3) · FT-12 HY vs 260 (88bp) · CCC 1,320 (FT-07 banked) · FT-10 SKEW 149.37 [11/05] (exit 0 of 4) · FT-06 exit 3 of 5 [11/09, S61] · FT-11 next window · WL-07/12 USD/JPY 158.43 vs 160/155 [vendor 11/06] · WL-11 Brent <95 clear, January Brent 98.32 settle [11/06, BRENT EST wire].
 
 ---
 

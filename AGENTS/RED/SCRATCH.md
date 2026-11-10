@@ -1,77 +1,37 @@
 # RED SCRATCH — canonical session handoff
-**S60 HANDOFF — written 2026-11-06 10:20 ET (from `date`). Session S60: WAKE under WQ-626 A, DOCKET L971, launched by PROME prome-51. Closed on PROME's ask, 10:20 ET. The S59 handoff is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
+**S61 HANDOFF — written 2026-11-10 10:13 ET (from `date`). Booted 11/09 20:11 ET on the laptop, status-only on Will's task ("do not begin unassigned work"). Closed 11/10 on PROME prome-1e's relay of Will 10:11 ET: switch laptop → desktop. The S60 handoff and its addenda b to f are in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
 
-## CHANGES SINCE (S59 closed 11/05 16:43 → S60 11/06 10:10)
-- Official 11/05: VIXCLS 28.18 (Cboe 28.18, high 28.36), HY 348, CCC 1,320, BB 213 (WALTER), SKEW 149.37, 5y5y 2.22. VIOLET: VVIX 134.99, VIX3M/VIX 0.9067.
-- October jobs, BLS USDL-26-1632: payrolls +165K, Aug +186K, Sep +60K, U-3 4.1, AHE +0.4% and +3.1% YoY. LABOR v2 fired, score 27 → 22 of 80.
-- Vendor 11/06 10:10 ET, not closes: ^VIX 23.86, SPY +1.01%, KRE −0.01%, HYG +0.04%, Brent 97.64.
+## CHANGES SINCE (S60-f closed 11/06 18:35 → S61 11/10 10:13)
+- Official: VIXCLS 25.64 [11/06], 19.92 [11/09] · HY 342, CCC 1,317 [11/06]; the 11/09 HY cell was unpublished at 10:12 ET · SKEW 153.55 [11/06], 150.34 [11/09] Cboe · 5y5y 2.19 [11/09].
+- Vendor, not closes: 11/09 SPY +2.37%, KRE +1.73%, Brent 92.33; 11/10 10:12 ET ^VIX 20.43, Brent 90.59, 10Y 4.99.
+- Iran: FALCON graded 11/09, no mark moved. Qatar terms reported as accepted by Iran, unconfirmed by either government. The 11/8 Qeshm blasts are not established as US (FAL-09 0 of 5). WL-11 Brent <95 price leg met on vendor quotes, display only.
+- SAM graded SoftBank overnight: leverage estimate CONFIRMED, 15.9% at 9/30 and 22.5% rolled (SAM commit cd0b8bc027, packet to PROME). Not yet read by RED.
 
-## WHAT I DID (S60)
-- **Graded on publisher bars:** FT-06 exit 1 of 5, a new run · FT-02 exit 0 of 3, 348 a new post-fire high · FT-10 exit 0 of 4. No RED line fired or exited. WALTER's SIG-W-20261106-012 agrees on all.
-- **RED-23 CORRECT, EVENT TRUE, +69.0K:** Jun +31, Jul −10, Aug +186 = 207, /3. BLS API CES0000000001 and the release text (LABOR's saved copy, bls.gov pages 403). LABOR's +186K confirmed. S41 move stands. ML-322 records the path: +71.3K, +51.3K, +69.0K.
-- **Weights: NONE moved.** HOLD 72 · net-bear 68. Ledger additions in STATUS.
-- **RED-29 registered, 50%:** FT-06 exit completes; catalyst and calendar rows in; read 11/12 after 10:30 ET.
-- **Combination watch set up:** KB-RED-109 to 113, themes ai-financing-reach, credit-breadth-outside-ai, labor-bull-rebuild, oil-price-vs-flow, forced-deleveraging; charter line at boot 1.5.
-- **Corrections:** 8 of 8 receipted (2 APPLIED, 6 NO-OP). **Inbox:** VIOLET and CARL packets, one WALTER lane card, processed. CARL's is deferred, unanswered.
-- Delivered: `PROME/inbox/2026-11-06_from-RED_L971-grades-RED23.md`, OUTBOX -071; PROME receipt 10:20 ET, L971 RESOLVED, RED-29 on DOCKET.
-- **KB-092 re-derived on PROME's ruling, 4–12% unchanged** (ML-323): the 9/6 table's credit clause is met and pulls up, labor and a 55-day window pull down. Next at the 12/04 jobs report. **VX-001 and VX-014 flips NOT MET, VX-007 leg B MET.** Packet `PROME/inbox/2026-11-06_from-RED_KB092-rederive.md`.
+## WHAT I DID (S61)
+- Boot reads in full, boot.py, review_debt (clean), ledger staleness (clean), corrections (4 named, DEFERRED to 11/11 in the receipts file), basis (root CLAUDE.md WQ-651/652/653 and fetch.py L925 read, re-attested).
+- **FT-06 exit 1 → 3 of 5** in canon, STATUS, CALENDAR and NEXUS. Scan view regenerated. No weight moved.
+- board_log: PROME packet `deferred`, 13 Iran and AI info-cc cards `info-only` (titles read, bodies not). Rotated, 59.8%.
+- STATUS headers S60-d and S60-c folded verbatim → `reports/2026-11-10_S61_status_headers_folded.md`. NEXUS vS60-e rotated → `reports/2026-11-10_NEXUS_BRIEF_vS60-e_rotated.md`.
 
-## NEXT SESSION (dated, ordered)
-0. 🔴 **Each morning 11/09 to 11/12:** read VIXCLS for FT-06 (11/06 bar on 11/09). Any close <18 breaks it to 0 and resolves RED-29 FALSE. Four closes ≥18 → 11/12 read after 10:30 ET executes Stag +2 / Managed −2, labelled MECHANICAL, and RED-29 TRUE. Pre-stated: if that executes on 11/12, the post-CPI discretionary re-derivation does not run 11/13.
-1. 🟠 **VX-007:** leg B met on the 11/05 close, weights held 45/55; decide strength at the post-11/10 re-derivation. Leg A still has no instrument. Tree for FT-06: `research/2026-11-12_FT06_EXIT_TREE.md`.
-2. 🟠 **FT-02 and RED-27 daily:** HY 11/06 cell; REG-T-04 is REGINALD's, 2bp away.
-3. 🟠 **Before Sat 11/7:** TERRY revises OP-SCALE against report version 4; re-read the diff only if asked. RED answers contests only (CHG-056).
-4. 🟡 **By 11/9:** CHG-054 re-review: OZK 10-Q (FDIC filer; Chicago refi primary, SIG-W-20261027-041). KB-065/066 refresh then.
-5. 🟡 **CARL packet, deferred:** press CRL-21 MISSED on (1) realized gross charge-offs as a substitute basis, (2) the 10/26 STUCK calling an available comparison unavailable, (3) the mechanism kept alive on one nine-month reading, CRL-36. Grade unread: `AGENTS/CARL/research/2026-11-06_L843/GRADE.md`.
-6. 🔴 **Tue 11/10:** Oct CPI per the pre-written tree, then the discretionary re-derivation off the STATUS ledger, War included. Read War against price and flow separately.
-7. 🟡 **11/6–11/13:** KB review cluster. **11/13** combo theme credit-breadth-outside-ai. **11/15** HHDC (CHG-045/049). **11/20** three combo themes. **~11/25** FT-10 outcome grade.
+## NEXT SESSION (dated, ordered; desktop pickup)
+0. 🔴 **FT-06 / RED-29:** 11/10 and 11/11 VIXCLS. Both ≥18 → the 11/12 read after 10:30 ET executes Stag +2 / Managed −2 MECHANICAL, RED-29 TRUE, and no discretionary re-derivation 11/13. Any close <18 → reset to 0, RED-29 FALSE. 11/10 ^VIX 20.43 at 10:12 ET, about 2.4 over the line.
+1. 🔴 **Oct CPI (printed 11/10 08:30), UNGRADED:** grade per `research/2026-11-10_OCT_CPI_DECISION_TREE.md`: FT-08 exit (only core ≤0.0), CHG-028 final verdict, RED-28. bls.gov 403s this box; use LABOR's or HENRY's saved release.
+2. 🔴 **Household debt report 11/10 11:00 ET:** CHG-045 and CHG-049 re-review per `research/2026-11-10_HHDC_Q3_TREE.md`. The governing rule is the RE-SPEC (Will Option A 8/16, `PROME/reports/2026-11-09_CARL-HHDC-governing-rule.md`); the as-written row is the shadow only. CARL grades.
+3. 🟠 **PROME packet, in `inbox/` (left there as the pickup):** fix CHG-RED-045's Key_Finding cell in `workbook/CHALLENGES.tsv` (canon; the STATUS line is GENERATED) so it no longer reads as "grade the kill rule as written". Then `status_mirrors.py --write`, then `git mv` the packet to `inbox/processed/`. PROME's date is 11/11 (D:L1064).
+4. 🟠 **11/11 CHG-057 re-review (D:L1064):** SoftBank (SAM's grade, commit cd0b8bc027) and CoreWeave Q3 (11/10 17:00 ET) per `research/2026-11-10_AI_FUNDING_TEST_TREE.md`; VULCAN's read.
+5. 🟠 **Then the post-CPI discretionary re-derivation** off the STATUS ledger, War included (FALCON 11/09 grade; price and flow read separately) — unless FT-06 executes 11/12.
+6. 🟡 **Corrections:** COR-20261106-53, COR-20261107-02, COR-20261108-02, COR-20261109-09 are DEFERRED to 11/11: read each and re-receipt APPLIED or NO-OP (KB-RED-112 is the likely artifact).
+7. 🟡 **OVERDUE since 11/09:** CHG-054 re-review: OZK 10-Q (FDIC filer), Chicago refi primary (SIG-W-20261027-041). Reasoning grade only; the book is Will's.
+8. 🟡 **FT-02 and RED-27 daily:** HY 11/09 and 11/10 cells. **KB review cluster row (11/06) is OVERDUE on boot.py**: resolve it with an outcome. **11/13** combo theme credit-breadth-outside-ai. **11/19** ING auction. **11/20** three combo themes, Michigan final. **~11/25** FT-10 outcome grade.
+9. 🟡 **CARL packet (11/06), still deferred:** press CRL-21 MISSED (see S60 handoff item 5 in git history; grade at `AGENTS/CARL/research/2026-11-06_L843/GRADE.md`).
 
 ## OPEN THREADS
-- Live-event override ended with S60's close on PROME's ask at 10:20 ET; it re-applies at the next session if VIX closes over 20 and the event is running.
-- FT-10 reading: the condition met on a tech and gamma trigger, so do not read the ~11/25 CORRECT as war or credit foresight.
-- WL-11: price and flow still disagree. Do not resolve by inference.
-- PROME's scoring run on the row key is unconfirmed; report 2 is 12/4.
+- Live-event override: VIX over 20 intraday 11/10; the override applies at the next boot if a VIX close over 20 posts and an event is running.
+- FT-10's ~11/25 CORRECT must not be read as war or credit foresight (tech and gamma trigger, ML-311).
+- WL-11: price and flow still disagree; do not resolve by inference.
 
 ## PENDING WILL-DECISIONS
-- None owned by RED. WQ-599 is Will's.
+- None owned by RED.
 
 ## GIT STATE
-See the closeout message for commits and the push receipt.
-
----
-
-## ADDENDUM S60-b — 2026-11-06 11:06 ET (from `date`)
-- WALTER SIG-W-20261106-016 and VIOLET's History packet read and processed. VIOLET's credit-flat row met by 3bp; HY 326 and 348 check at FRED; no RED line, grade or weight moves. Ledger note in STATUS; KB-RED-109 member added.
-- RED-27 stays at 68%: VIOLET's 3 of 21 is a 20-session base rate on a different letter and a price is never amended after data.
-- Next boot, W2: WQ-599 is reported RULED C (TERRY commit 3c4d41ec8, PROME 98308b28f), so CHG-RED-056's closing event has passed; read the ruling, then close the row. Not closed here, the ruling is unread.
-
----
-
-## ADDENDUM S60-c — 2026-11-06 15:36 ET (from `date`)
-- Will's word via PROME 15:24 ET: inbox 2 of 2 cleared, AI-funding model challenged, $0, no trade. HANS: C-3 killed, no RED line, KB-RED-112 gas member. REGINALD: RED's S56 grade uses neither EGBN figure, KB-RED-114 carries the $211.8M caveat.
-- CHG-RED-057 MODERATE, report in `challenges/`, tree `research/2026-11-10_AI_FUNDING_TEST_TREE.md`. RED-30 25% to 12/31, RED-31 30% to 12/15. ML-324: RED's Meta book attack failed on the term sheets.
-- **Owed:** 🟠 **11/11:** re-review CHG-057 from SAM's and VULCAN's 11/10 reads. Feed the S60-c ledger line into the post-CPI re-derivation. Close CHG-RED-056 after reading the WQ-599 ruling (still unread).
-
----
-
-## ADDENDUM S60-d — 2026-11-06 16:50 ET (from `date`)
-- Will's reboot word via PROME 16:46 ET. SAM's packet (committed 15:49 ET, after S60-c closed) read and verified at its funding stack, then processed.
-- Corrected in RED's own files: CHG-057 report (attack 6, steelman room, 11/10 test, independence line), the 11/10 tree, CATALYSTS, CHALLENGES. ML-325 records it. CHG-057 stays MODERATE; no weight moved.
-- **Owed unchanged from S60-c:** 🟠 **11/11:** re-review CHG-057. Now also weigh, as known before the print: bridge repaid 9/15, final OpenAI tranche paid from September notes, and the $10B OpenAI loan needing a parent guarantee (SAM, attack 4). Close CHG-RED-056 after reading the WQ-599 ruling.
-
----
-
-## ADDENDUM S60-e — 2026-11-06 17:22 ET (from `date`)
-- Will's 17:08 ET word via PROME: boot, drain, refresh through the 11/6 close. Bounded: no new research thread, no spawns, no trade or card. Inbox empty, WALTER lane empty. 25 BOARD cards logged; log rotated. Corrections 9 of 9 receipted (3 APPLIED, 6 NO-OP). Basis re-attested on WALTER spec v0.37, push mechanics only.
-- **No weight, trigger state or count moved.** VIXCLS, SKEW, HY and CCC have no 11/06 cell. Published 11/06: 5y5y 2.17, Treasury par 2Y 4.51, 10Y 4.86, 30Y 5.26, real 10Y 2.63. FT-11 no window. January Brent 98.32 settle [BRENT, EST wire].
-- **CHG-RED-056 RESOLVED** on WQ-599 RULED C, read at the ruling. It closes on Will's decision, not on RED being right. 11/7 catalyst row resolved. This retires S60's NEXT item 3 and the S60-c and S60-d owed line.
-- **Household debt report re-dated: Tue 11/10 11:00 ET**, listing read at the New York Fed advisories page (time per CARL). CHG-045 and CHG-049 re-review 11/10; tree `research/2026-11-10_HHDC_Q3_TREE.md`. Replaces S60's '11/15 HHDC' in NEXT item 7. ML-326.
-- KB-101 refreshed to October (own FRED pull), KB-091 re-classed DATED-HISTORICAL, combo rows KB-109 to 113 extended. STATUS headers folded with crc.
-- **Owed, in order:** 🔴 **Mon 11/09:** VIXCLS and SKEW 11/06 bars, HY and CCC about 10:10 ET: FT-06 2 of 5 only on a published ≥18, FT-02, FT-10, RED-27 window. 🟡 **By 11/09:** CHG-054 re-review, OZK 10-Q still unread. 🟡 Combo KB-110 due 11/13. 🟡 CARL packet still deferred. 🔴 **11/10:** CPI 08:30, household debt 11:00, then the re-derivation; read 11/11 CHG-057 from SAM and VULCAN.
-- Live-event override: VIX is still over 20, the market is shut until Monday, and PROME's task is bounded, so the session ends here. It re-applies at the next boot if a VIX close over 20 posts and the event is running.
-
----
-
-## ADDENDUM S60-f — 2026-11-06 18:35 ET (from `date`)
-- Will's 18:33 ET word via PROME: close out, no new work. ISHM Class 8 packet and cards 047, 048, 049 read and logged. COR-20261106-48 APPLIED to KB-RED-112 (Qatar line now paraphrase, denied). KB-110, 111, 112 extended. **No weight, trigger state or count moved.** Owed list unchanged from S60-e.
-- **Added to owed:** 🔴 **Sun evening to Mon 11/09:** FALCON's Qeshm grade and the oil reopen; direction is open and the attacker unnamed, so read it before any War input, and do not score it from the 59.0 to 31.5 Polymarket move (ORACLE's, thin book, cause not established). 🟡 ACT final Class 8 mid-November; Cass 11/13 is ISHM's next J2 leg. Michigan final 11/20 10:00 ET.
+See the closeout message. Shared tree held many other desks' dirty files at 10:12 ET (closeout traffic); RED committed by pathspec only.

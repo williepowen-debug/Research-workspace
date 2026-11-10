@@ -20,3 +20,20 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-28T21:08	SIG-W-20261029-002	acted	BOARD	Ras Tanura claim-only + WSJ post-midterm campaign report: War +1 input S57 (US-side root, single report)
 2026-10-28T21:08	SIG-W-20261023-015	acted	BOARD	HY 340 [10/22] near REG-T-04; FT-06 exit run counted by RED: 3 of 5 then broken 10/27 -> 0 of 5
 2026-10-28T21:08	SIG-W-20261023-019	acted	BOARD	DEWEY HY widening mostly broad (AI ~10-15pct of Oct): FT-02 composition note S57
+2026-10-28T21:08	SIG-W-20261023-005	noted	BOARD	FLG Q3 provision up, criticized +670M: REGINALD/FLG own; context for CHG-054 KRE leg
+2026-10-28T21:08	SIG-W-20261023-012	noted	BOARD	FCNCA clean / FHB split: Managed +2 activity context S57
+2026-10-28T21:08	SIG-W-20261023-010	acted	BOARD	Flash PMI mfg 56.0 (53-mo high): Managed +2 input S57
+2026-10-28T21:08	SIG-W-20261023-014	acted	BOARD	Michigan Oct final LR 3.5 / 1y 4.7: why Stag -2 not -3 (S57)
+2026-10-28T21:08	SIG-W-20261023-042	acted	BOARD	Pump prices falling while crude rises: Stag -2 input S57
+2026-10-28T21:08	SIG-W-20261023-006	noted	BOARD	BZ=F rolled Dec->Jan 10/23: FT-03/04 PROVISIONAL mirror read accordingly (Brent ~110.8 vendor 10/28)
+2026-10-28T21:08	SIG-W-20261027-041	noted	BOARD	Chicago refinancing may remove a legacy OZK exposure, primary unread: CHG-054 OZK leg context for the 11/09 re-review
+2026-10-28T21:08	SIG-W-20261022-031	noted	BOARD	France 10Y above US 10Y: NEXUS full review finds no US funding bridge; no RED weight
+2026-10-28T21:08	2026-10-22_from-DEWEY_bank-tech-vendor-concentration	info-only	INBOX_GENERAL	cyber/vendor base rates; no RED registered object
+2026-10-28T21:08	2026-10-22_from-DEWEY_cyber-wave-systemic-base-rates	info-only	INBOX_GENERAL	n=5 waves, no bank run; do-not-relay guard kept
+2026-10-28T21:08	2026-10-22_from-DEWEY_data-center-abs-cmbs-holders	info-only	INBOX_GENERAL	v1 PARTIAL, superseded by v2
+2026-10-28T21:08	2026-10-22_from-DEWEY_data-center-abs-cmbs-holders-v2	info-only	INBOX_GENERAL	v2: Barings BDC held BB- class (exited); insurer leg UNKNOWN
+2026-10-28T21:08	2026-10-22_from-DEWEY_genius-stablecoin-deposit-flight	info-only	INBOX_GENERAL	policy dates 11/30, 2027-01-18; no RED object
+2026-10-28T21:08	2026-10-22_from-DEWEY_hyperscaler-ai-funding-gap	info-only	INBOX_GENERAL	Oracle IG->HY tail (~120B) noted; VULCAN owns
+2026-10-28T21:08	2026-10-22_from-DEWEY_reserve-coverage-decline-base-rate	acted	INBOX_GENERAL	NPL-up + coverage-down: no lift within 4q; S57 Acute-flat bull input; bears on CHG-027 Q4 framing
+2026-10-28T21:08	2026-10-22_from-DEWEY_screwworm-beef-food-cpi	info-only	INBOX_GENERAL	+0.03 to +0.08pp headline, 12-18m out; not an Oct CPI tree input
+2026-10-28T21:08	2026-10-22_from-DEWEY_tanker-war-base-rates	noted	INBOX_GENERAL	1984-88 attacks gave small reversing price moves; held War at +1 not +2
