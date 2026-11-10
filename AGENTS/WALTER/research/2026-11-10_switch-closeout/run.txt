@@ -1,0 +1,2 @@
+Selected checks: UNKNOWN; procedure completion: UNVERIFIED.
+Check evidence (manual outcomes remain in LAST_COMPLETION): AGENTS/WALTER/research/2026-11-10_switch-closeout

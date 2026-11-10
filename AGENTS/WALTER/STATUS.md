@@ -1,7 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-11-10T01:21:02Z — Tier 2 FULL closeout on the laptop (WilliePOwen), session walter-bb, on Will's 20:15 ET go-ahead; clears the six light-closeout breadcrumbs since November 6. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-10T15:13:34Z — Tier 1 LIGHT closeout on the laptop, session walter-bb, for the machine switch to the desktop (Will via PROME prome-1e, 10:11 ET November 10); full deferred, 1 breadcrumb since the 01:21Z full. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
+
+November 10 morning (machine switch, 2026-11-10T15:13:34Z): no cards, no IMMEDIATE, no FLASH since 01:22Z; this window sat idle overnight and routed nothing. Desk commits since the cutoff are unread by WALTER (for example SAM's SoftBank grade, bbd8974416). CPI 08:30 ET, NY Fed household debt 11:00 ET, the 10-year auction 13:00 ET and CoreWeave were NOT routed by WALTER; owners grade, and the desktop boot's step 7i reconciles them from calendar cutoff 2026-11-10T01:20Z. HY November 9 cell unread (REG-T-04 last 0/3, 8 bp). Doctor MED: HAWK registry row stale (owner commit November 9), DEWEY 003R 7 days overdue, AI_INFRA_CAPEX coherence review 31 days old, 18 unconsumed across 6 desks. X bookmarks still blocked (token).
 
 November 9 evening (laptop boot, Will's go-ahead 20:15 ET): 2 cards, 1 correction, no IMMEDIATE, no FLASH. Card 011 (COR-20261109-11, STRENGTHEN) corrects 004: Huang acknowledged the affair in an open letter, Nvidia announced its own investigation Sunday, and Trump says the FBI is "looking into it in terms of something else", not that Huang himself is under investigation (AP read at NBC New York; the letter unread). VULCAN and HENRY, both live, doorbelled. Card 012: seven small items under WQ-622 (WAL Q3 Basel III disclosure posted, unread; Russian diesel drones; Paraguay teachers' strike; tungsten drill bits; Wyoming trona layoffs; FTC nominee; a Japan intervention retrospective). Scan: HY 342 [Nov 6], REG-T-04 0/3, 8 bp; vendor VIX 19.92 Monday; no new fire. Cboe and Nasdaq November 6 rows now certified. X bookmarks blocked: token refresh fails on the laptop, needs Will's browser.
 
