@@ -214,3 +214,9 @@ qqq_put_wall	NONE	2026-11-09	WITHHELD, none published: 14d put wall 680 equals t
 qqq_call_wall	NONE	2026-11-09	WITHHELD, none published: 14d 680 vs 35d 700 (35d near-tie band 680-700), horizons disagree; SUPERSEDES 670 [11/6]; 11/9 midday run ~12:1x ET, live vendor spot, chain carries 11/6 trading
 ndx_put_wall	28000	2026-11-09	clean at both horizons (14d +30%, 35d +42%); spot 27814.86 UNDER it, overhead not support; 11/9 midday run ~12:1x ET, live vendor spot, chain carries 11/6 trading
 ndx_call_wall	29675	2026-11-09	clean at both horizons (14d +68%, 35d +64%), PUBLISHED; 11/9 midday run ~12:1x ET, live vendor spot, chain carries 11/6 trading
+gamma_flip_14d	7633	2026-11-10	cboe 4924 contracts (11/10 post-CPI intraday run ~11:1x ET, live vendor spot; chain carries 11/9 trading)
+net_gex_14d_Bn	-47.9	2026-11-10	$B per 1% (11/10 post-CPI intraday run ~11:1x ET, live vendor spot; chain carries 11/9 trading)
+gamma_flip_35d	7636	2026-11-10	cboe 8333 contracts (11/10 post-CPI intraday run ~11:1x ET, live vendor spot; chain carries 11/9 trading)
+net_gex_35d_Bn	-57.3	2026-11-10	$B per 1% (11/10 post-CPI intraday run ~11:1x ET, live vendor spot; chain carries 11/9 trading)
+put_wall	NONE	2026-11-10	WITHHELD, none published: 14d #1 put strike 7500 equals the 14d #1 call strike 7500 (side unresolved at 14d); 35d put 7500 clean +36%; spot ~7,490 UNDER 7500, so not support at this spot; SUPERSEDES 7500 [11/9]; 11/10 post-CPI intraday run ~11:1x ET, live vendor spot, chain carries 11/9 trading
+call_wall	NONE	2026-11-10	WITHHELD, none published: 14d 7500 (near-tie band 7500-7700) vs 35d 7700 (near-tie band 7500-7700), horizons disagree; SUPERSEDES 7700 [11/9]; 11/10 post-CPI intraday run ~11:1x ET, live vendor spot, chain carries 11/9 trading
