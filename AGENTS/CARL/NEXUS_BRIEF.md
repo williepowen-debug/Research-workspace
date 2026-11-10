@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none in version. 11/06: masking framework's intermediate falsifier CRL-21 MISSED: Ally FY2025 −38.0 bp vs FY2023 at the same age, FY2026 −5.0 bp; outer falsifier CRL-20 at 1%. Mechanism not killed: FY2026 early delinquency is above FY2023, one nine-month reading. Aggregate buffer drawdown (saving 3.8%) stands.
-**As of:** 2026-11-06 18:12 ET | STATUS commit: `55793ec55`
+**As of:** 2026-11-09 19:45 ET | STATUS commit: `89650bf9c3`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -19,6 +19,7 @@
 | WALTER / NEXUS | EIA October19 regular gasoline fell 4.7 cents weekly; diesel rose 9.7 cents. Gartner October26 holiday release uses August intentions; Canada tariff relief remains talks. | Existing routing | Different fuel channels matter for household costs; no live quote, realized holiday-sales drop or enacted tariff cut. WALTER packet supplies evidence for dedupe/routing, not a new study. |
 | NEXUS / REGINALD / RED | ALLY matched vintage, Q3 10-Q: FY2025 −38.0 bp vs FY2023, FY2026 −5.0 bp; AART +3.4 / −4.5 bp. CRL-21 MISSED, scores at first-call 60% (re-marked 11/06, WQ-112 ii; the 25% was undated), the 10/26 STUCK conclusion withdrawn. | L843 | Realized gross, on book, not a published projection; contestable on that word. FY2024 is the best vintage, FY2025 and FY2026 worsen against it. Grade: research/2026-11-06_L843/GRADE.md. |
 | NEXUS / REGINALD | RITM Q3 10-Q: owned GNMA 60+ 6.1%; Ginnie Mae loans subject to repurchase $4.6B vs $4.0B YE; foreclosure advances +23.7% YoY. | L843 | Direction confirmed at a later stage; no text on modification accounting, cushion untestable. CRL-20 1%. |
+| PROME / DAEDALUS | 11/09: CRL-23 new dated mark 30% (was 15, 11/06 cut withdrawn on the DHI FQ4 guide miss of −1.25); CRL-15 CLOSED NO-VERDICT, ungradeable (Will WQ-656 B 15:55 ET), a prediction-design failure: no measurement definition registered, not scored. | Contest answer / Will ruling | Not a hit, not a miss; marks 65/35/10 preserved; no SBA successor without Will. research/2026-11-09_contests/ANSWER.md. |
 | TERRY | CRL-21 MISSED; Will closed the position clause 11/06 with no action, WQ-632. | L843 | Trim and duration never executed. No card. CARL holds no book. |
 | PROME / NEXUS | L786 source reviews, 11 signal assessments, 3 scoped correction NO-OPs and GDP/PCE prep persisted at 5b18d5a88. | Owner result | Receipt gap cleared; remaining observations have dated homes. PROME explicitly acknowledged reading that L786 result; the separate news-sweep packet has no consumption receipt yet. |
 | NEXUS / ISHM / FERT | ISHM boundary/result and FERT L758 read under PROME's bounded addition; consumer consequence in PEER_INTAKE.md. | Bounded intake | Freight spending is not volume; regional prices are not CPI. Lower 2027 food inflation forecast has no demonstrated input-cost attribution and does not imply lower household bills. No CARL re-grade. |
@@ -45,6 +46,7 @@
 - Fuel: EIA regular $4.153 and diesel $6.292 both fell at 11/02, diesel after three rises; distillate stocks 99.3M bbl w/e 10/30, cover 23.8 days, the lowest late-October since 1991 (freight-cost context; no household pass-through coefficient).
 - Corporate credit: 11/05 HY 348bp (318 on 10/27) with CCC−B narrowing to 953bp from 999, reversing the 10/27 split; three sessions, one shock. RED/REGINALD own the thresholds; CARL's L708 found consumer-facing B/CCC names did not lead.
 - Single-name items (True Food Ch.11, JetBlue fuel-driven loss, Carvana unit growth) are context, not breadth evidence.
+- 11/09 screwworm (KB-609): APHIS lists cases in TX, NM and AZ with infested zones (primary); 116 infestations and wild flies in six traps are secondary; USDA has not said established, so DEWEY scenario B is not called. Not in prices: beef CPI Sept 512.606 (+3.5% YoY); October YoY is not computable (October 2025 unpublished).
 - Registered score stays 53/70. Next aggregate reads: October CPI 11/10, BEA income and outlays 11/25.
 
 ## CALIBRATION
@@ -58,7 +60,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** grade the Q3 HHDC, CRL-30 first grade and CRL-33, and the October CPI.
+- **What:** grade the Q3 HHDC (official kill verdict on the RE-SPEC row only, fixed before the print by Will's 11/09 instruction; the superseded as-written row recorded beside it, any divergence to PROME as a fact), CRL-30 first grade and CRL-33, and October CPI beef on pre-registered substitute reads.
 - **When:** Tue 11/10, 08:30 ET and 11:00 ET.
 - **What would falsify the trigger:** card flow at or below 6.97% and a falling student-loan stock with the flow would both weaken the credit legs. Neither changes frozen letters.
 
@@ -73,4 +75,4 @@
 | 12/04 | November payrolls | V16 print 2 of 2 |
 | 12/09 | FOMC | V12 un-fire count |
 
-**Closeout (11/06 catch-up):** see SCRATCH closeout receipt. Score 53/70 unchanged; CRL-21 scores at first-call 60%; CRL-15 10% and CRL-23 15%, dated marks.
+**Closeout (11/09, WQ-249 desktop → laptop):** see SCRATCH closeout receipt. Score 53/70 unchanged; CRL-23 30% dated 11/09; CRL-15 closed NO-VERDICT (WQ-656 B), not scored.
