@@ -72,7 +72,7 @@ For a redemption-limited fund like OCIC, a lapse frees cash. That is my reading.
 
 The shortfall is then an unsecured claim on IREN, beside $8,061M of recourse debt principal including $6,746M of converts. IREN's $6B of data centers are unencumbered today, and it plans to borrow against them first (Horizons 1 to 4). That would put new secured debt ahead of this guarantee on those assets. Even the worst row leaves BRK-07's $500M unreached on this name alone.
 
-**The Microsoft route:** GPU Financing 1.0, $1,980M funded at 9/30, is non-recourse at IE US Hardware 3, apart from limited parent guarantees. On my reading, its acceleration would stop Mackenzie draws but would not default the Mackenzie loan. That depends on Hardware 3 qualifying as a Non-Recourse Subsidiary under the general definition; Annex 4 does not list it by name. Not a lawyer's reading.
+**The Microsoft route:** GPU Financing 1.0, $1,980M funded at 9/30, is non-recourse at IE US Hardware 3, apart from limited parent guarantees. On my reading, its acceleration would stop Mackenzie draws but would not default the Mackenzie loan. Hardware 3 IS a Non-Recourse Subsidiary by name: Annex 4 lists IE US Hardware 3 LLC, its Holdings and FinCo, IE US Development Holdings 3 Inc. and Granite Holdings LLC (page image exhibit101-mfsa055.jpg). *(Corrected 2026-11-10, KB-BRK-474: this line said Annex 4 did not list it; the text layer prints the names before the heading, the page image shows them under it.)* Not a lawyer's reading.
 
 ## 4. Holders
 
