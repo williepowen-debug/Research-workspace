@@ -2,14 +2,22 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-09T20:20:43-05:00 (Will boot 20:11 ET, "yes please update LIQUID go ahead" 20:15 ET, laptop, Claude Code / Opus 5.5)
+### CURRENT SESSION — 2026-11-10 (PROME prome-07 launch on Will's word 11:38 ET, desktop, Claude Code / Opus 5.5)
+
+- **Context:** three items in order: D:L342 holiday-carry ruling, Tuesday row, 10-year auction grade. No trade, card, threshold, letter or band moved.
+- **D:L342 EXPOSED, fixed and pushed (398a946b9a) before the November 11 cell:** FRED repeats the prior HY value on bond-market (SIFMA) closures, Veterans and Columbus Day included while NYSE trades, so tomorrow was the first exposure, not Thanksgiving; month-end weekend rows too. Five readers now read session rows from one `BOND_CLOSED` list in `gate069_legs.py` (extend before 2027-12-31). No past grade since registration changes. REPORT §19.1.
+- **November 9 grades:** HY 334, >320 run 8, tier rule STALLS; all gates NOT FIRED; 079 +6; 076 W3 MET 11/9 on VIOLET's figures, window 1 of 3. Cards 20261109-012, 20261110-001/-004/-005 consumed.
+- **10-year auction [November 10, TA_WS accepted basis]:** bid-to-cover 2.46, high yield 5.020%, indirect 61.23% (lowest of 13), direct 29.00% (highest of 13), dealers 9.77%; LIQUID's lines not met, no signal. BOND owns the grade and tail. REPORT §19.3.
+- **Method note:** a "carry" test by value equality cannot separate a holiday from a flat day; the calendar decides. VIOLET framed it as NYSE closures; the data showed the bond calendar, which moved the deadline 15 days earlier.
+
+### PRIOR SESSION — 2026-11-09T20:20:43-05:00 (Will boot 20:11 ET, "yes please update LIQUID go ahead" 20:15 ET, laptop, Claude Code / Opus 5.5)
 
 - **Context:** startup recovery, then a bounded Monday catch-up. No new thread, spawn, trade or card. No gate, band or score moved.
 - **Delivered:** November 6 first-published grades (HY 342, −6; >320 run 7; tier rule BROADENS on the 15-session clause only); 069 L1 and L4, 072, 079 (+7), HY-REKILL, 076 window; DTCC November 6 full file (Oracle 305 disseminated, 306 to 314 converted; Microsoft about 47 or 156 bp, payer undisclosed); 3Y auction row resolved from BOND's grade; three WALTER cards and the GIBBS and BOND packets consumed; KB-LIQ-153, 156, 158 updated; packet to PROME. → `research/2026-11-05_live-catchup/REPORT.md` §18.
 - **Slip, disclosed:** an unquoted heredoc turned "$0" into "/bin/bash" and "$500M" into "00M" in REPORT §18. Caught by grep before commit and fixed; the diff is append-only.
 - **Found:** `dtcc_cds_probe.py` crashes (division by zero) on a short-dated contract, so its list stops early; read the raw CSV until it is fixed (STATUS §3).
 
-### PRIOR SESSION — 2026-11-06T17:14:21-05:00 (Will's 17:08 ET word relayed by PROME, prome-51, Claude Code / Opus 5.5)
+### EARLIER SESSION — 2026-11-06T17:14:21-05:00 (Will's 17:08 ET word relayed by PROME, prome-51, Claude Code / Opus 5.5)
 
 - **Context:** bounded boot and close refresh. No new thread, spawn, trade or card. No gate, band or score moved.
 - **Delivered:** November 6 closes, Treasury curve, repo operations, H.8 (release November 6), commercial paper to November 5, TGA → `research/2026-11-05_live-catchup/REPORT.md` §16. Three peer packets and card 042 consumed; COR-20261106-42 receipted; KB-LIQ-153 updated from SAM and BROCK.
@@ -53,4 +61,4 @@
 
 ### NEXT SESSION
 
-**Tuesday November 10 row in STATUS §3:** the November 9 SOFR set and ICE cell (069 L4 for the November 9 session, L1, tier rule, HY-REKILL, 072, >320 run), the 10-year auction at 13:00 ET (BOND grades), and VIOLET's November 9 MOVE and VIX figure for 076 W3. Then the rest of §3: State Street Oracle bond point, the DTCC probe repair (cancelled rows and the short-tenor crash), and 076 W2 and W1 on November 12 to 13. Sessions from October 29 and earlier, with the prior NEXT SESSION text → `archive/MEMORY_before-2026-11-05-closeout.md` (verbatim copy).
+**STATUS §3 is the list.** Wednesday November 11 is Veterans Day: FRED's 11/11 cell is a carry and counts for nothing (fix in place); 069 L4 UNGRADEABLE for the 11/11 and 11/12 sessions. Thursday November 12: the November 10 ICE cell and the 30-year auction; 076 W2 as-of November 4. Friday November 13: 076 W1 as-of November 10, PROME review. Then State Street Oracle bond point and the DTCC probe repair. Sessions from October 29 and earlier, with the prior NEXT SESSION text → `archive/MEMORY_before-2026-11-05-closeout.md` (verbatim copy).

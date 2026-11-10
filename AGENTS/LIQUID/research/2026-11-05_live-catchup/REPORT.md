@@ -597,3 +597,22 @@ HY−IG 243, CCC−BB 1,111, CCC−B 961.
 Funding November 9: SOFR 3.88, SOFR−IORB −2, SOFR75−IORB +4, TGCR−IORB −4 bp; standing repo $0.005B, RRP $0.25B. Eased a fifth day.
 
 **Context, grades nothing:** December now fully priced plus about 13% of a further 25 bp after Waller's 04:00 ET speech and core CPI +0.3% (HENRY f3279ab9ac, WALTER card SIG-W-20261110-001; vendor last trades, not CME settlements). 10-year yield about 5.00% at 11:40 ET (vendor, not H.15).
+
+### 19.3 10-year auction, November 10 (CUSIP 91282CRX1, new issue, $42B; TreasuryDirect TA_WS, posted by 13:04 ET; accepted basis = share of competitive par awarded)
+
+| | Nov 10 | Trailing 12 (Nov 2025 to Oct 2026) | Read |
+|---|---|---|---|
+| Bid-to-cover | 2.46 | median 2.54, min 2.39, max 2.77 | inside the range |
+| High yield / coupon | 5.020% / 5.000% | October 7 reopening 5.300% | |
+| Indirect | 61.23% | min 63.95, median 72.34, max 81.49 | lowest of the 13, 2.72 pts under the prior low |
+| Direct | 29.00% | max 24.51 | highest of the 13 |
+| Primary dealers | 9.77% | median 9.14, max 13.38 | no dealer warehousing |
+| Allotted at high | 2% | | |
+
+**LIQUID's lines:** bid-to-cover <2.0 (send 🔴 to ALL via WALTER) NOT MET, 2.46. Indirect <55% sustained NOT MET, 61.23% on one print. No signal sent.
+
+**BOND's frozen bars** (`AGENTS/BOND/registry/auction_bars/2026-11-10_91282CRX1.json`, frozen November 2): composition failure needs indirect <63.95 AND dealer >13.38; my arithmetic reads indirect yes, dealer no. Cover marker BTC <2.39: no. BOND's I' bar, indirect <65.05: 61.23 is under it. BOND owns the scoring and the grade; its file was still a pre-print temp file at 13:04, so its verdict is BOND's to publish, not mine to relay.
+
+**Tail:** not measured here; this box has no when-issued feed. BOND's read governs.
+
+**Read:** cover was ordinary, but the mix shifted. Indirect bidders, the usual proxy for foreign and fund demand, took the smallest share in a year. Direct bidders took the difference, as on the November 9 3-year (indirect 55.48%). Dealers did not absorb it. Two prints of soft indirect share on consecutive days are a pattern to watch at Thursday's 30-year, not a funding signal. Context, grades nothing: the auction cleared 28 bp below October's after core CPI +0.3% and Waller's 04:00 ET speech moved December to fully priced (HENRY f3279ab9ac).
