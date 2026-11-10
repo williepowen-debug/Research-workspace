@@ -41,7 +41,7 @@ Counterweights in the same document: two hold opinions ("a little more examinati
 | Total | ¥15,399.3B | sums exactly |
 
 **What this settles:**
-1. **8/3 was an intervention day.** `STATUS_REFERENCE.md` carried the 8/3 "detector disagreement" (2.67-yen range over the 2.5-yen bar, while the BOJ fiscal-factor settlement read −¥3.29T, ordinary) as unresolved. The range was right; **the fiscal-factor semi-confirm (KB-SAM-211) missed an op of about ¥1.9T.** That bounds the instrument's noise floor from below: an op of this size can hide in it.
+1. **8/3 was an intervention day.** `STATUS_REFERENCE.md` carried the 8/3 "detector disagreement" (2.67-yen range over the 2.5-yen bar, while the BOJ fiscal-factor settlement read −¥3.29T, ordinary) as unresolved. The range was right; **the fiscal-factor semi-confirm (KB-SAM-211) did not flag an op of about ¥1.9T.** Not determined tonight: whether the check read the wrong settlement day (an 8/3 op settles about 8/5) or the op sat inside its noise. Either way, a "no signature" from that check cannot rule out an op of this size.
 2. The earlier per-day split was wrong. The 7/30 Bloomberg estimate (~¥8.45T) was ¥0.47T high; my derived 7/31 residual (~¥6.95T) was ¥1.40T high, because it assumed two days and the third was 8/3.
 3. **SAM-39 is unaffected.** Its window started 8/4 (inclusive), so an 8/3 op sits outside it. Its grade (TRUE-IN-LETTER / FALSE-IN-SPIRIT) stands.
 4. Still open: the US account split (ESF vs SOMA), due in the FRBNY Q3 report ~11/13.
