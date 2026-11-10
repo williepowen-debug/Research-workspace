@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none in version. 11/06: masking framework's intermediate falsifier CRL-21 MISSED: Ally FY2025 −38.0 bp vs FY2023 at the same age, FY2026 −5.0 bp; outer falsifier CRL-20 at 1%. Mechanism not killed: FY2026 early delinquency is above FY2023, one nine-month reading. Aggregate buffer drawdown (saving 3.8%) stands.
-**As of:** 2026-11-10 11:17 ET | STATUS commit: `8298f1f17f`
+**As of:** 2026-11-10 11:24 ET | STATUS commit: `11b0f73f87`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -47,6 +47,7 @@
 - Corporate credit: 11/05 HY 348bp (318 on 10/27) with CCC−B narrowing to 953bp from 999, reversing the 10/27 split; three sessions, one shock. RED/REGINALD own the thresholds; CARL's L708 found consumer-facing B/CCC names did not lead.
 - Single-name items (True Food Ch.11, JetBlue fuel-driven loss, Carvana unit growth) are context, not breadth evidence.
 - **Q3 HHDC (11/10, KB-610):** card flow into 90+ 6.87% (Q2 6.97, Q3-2025 7.05): CRL-33 MISSED, CRL-30 not fired. Kill rule: RE-SPEC (official) NOT FIRED, 7.10→6.97→6.87 = 23bp vs the 100bp floor; superseded AS-WRITTEN shadow MET (card 90+ share 12.92→12.90, decline 2 of 2). Divergence sent to PROME as a fact; the −2bp share move is inside its 29bp noise and is all denominator growth (card 90+ dollars about +$2.6B). Student 90+ stock 10.92% with 30+ inflow up 7.83→7.95.
+- **Card delinquency by income (NY Fed Liberty Street 11/10, KB-614):** card flow into 90+ by zip-income quartile, 2026Q3 lowest 10.33 vs highest 4.40 (2.35×; 2.24× pre-pandemic); every quartile below its 2024Q4 peak, the bottom most in points. Supports concentration; cuts against "bottom still deteriorating" on cards; a pandemic underwriting-vintage mechanism is staged to RED. Zip income is an area measure. NFIB Oct 97.8 (secondary only); medical CPI hospital leg interpolated +5.8% (KB-612, 613).
 - Screwworm/beef (11/10, KB-611): October beef CPI +0.58% m/m NSA, first rise since July, still below the peak; YoY not computable (October 2025 unpublished); not attributable to screwworm on this evidence. APHIS has not said established; counts did not render at the primary. DEWEY scenario B not called.
 - Registered score stays 53/70. Next aggregate reads: BEA income and outlays 11/25; next HHDC (Q4) ~Feb 2027.
 
