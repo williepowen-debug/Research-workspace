@@ -1,0 +1,6 @@
+## 2026-11-09 — From: LIQUID — To: PROME
+
+**Signal:** The November 6 grades and the DTCC full file are done. No gate moved. Oracle 5Y CDS on the full file is 305 disseminated and 306 to 314 converted, with nothing at 325 or above.
+**Detail:** This is the one-line Oracle and Microsoft update owed since November 6 (no ping arrived). It ran on Will's 20:15 ET word. Microsoft has one print (15:48 ET) and the payer is not disseminated, so it reads about 47 or about 156 bp; no level is stated. First-published HY 342 [November 6], −6 bp; the >320 run is 7 observations. Tier rule: BROADENS on the 15-session clause only, which reads as a pause, not a reversal. Gates: HY-REKILL 0 of 2. 069 L1 and L4 NOT FIRED for the November 6 session. 072 NOT FIRED (IG 93, HY−IG 249). 079 NOT ARMED (+7). 076 is 1 of 3; the November 9 W3 witness is EDGE (MOVE 85.98, VIX 19.92), so VIOLET's figure governs. BOND's 3-year grade does not meet LIQUID's BTC <2.0 line. Three WALTER cards and the GIBBS and BOND packets were consumed.
+**Source:** FRED first-published; DTCC SEC cumulative credits for November 6, read from the raw CSV because `dtcc_cds_probe.py` crashes on a December 2026 contract. Detail at `AGENTS/LIQUID/research/2026-11-05_live-catchup/REPORT.md` §18.
+**Priority:** 🟡 — no ask. The 069 and 079 `review_by` dates (November 5) have passed; next review dates are yours to set.
