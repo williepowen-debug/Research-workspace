@@ -14,8 +14,8 @@
 - No score, band, gate, threshold or probability moved.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **11/9 settles (BZF27, CLZ26):** not indexed at 14:49 EST. Read the wire settles and the vendor daily rows after 18:00 ET; add to NOTE section 6 and the CL table. Neither grade depends on them.
-2. **BRT-35:** first GASREGW print 11/9 (EIA posts Monday afternoon). Grade under 4.000 or record; last 4.153 on 11/2.
+1. **11/9 settles (BZF27, CLZ26):** not indexed at 14:49 EST nor at closeout 19:38 EST. Read the wire settles and the vendor daily rows after 18:00 ET; add to NOTE section 6 and the CL table. Neither grade depends on them.
+2. **BRT-35:** first GASREGW print 11/9: not published at 19:38 EST (FRED and EIA API newest 11/2 4.153; EIA API needs `curl -g` for bracketed params). Grade under 4.000 or record; last 4.153 on 11/2.
 3. **Every session through 11/27, BRT-33:** run `pull.py` (copy the 11/9 one) after about 14:45 ET; valid 1 of 2, needs at least 8 or NO-VERDICT. Read the 11/26 holiday schedule when near.
 4. **Tuesday 11/10:** November STEO balance against the JPM/GS surplus call; COPS_OPEC re-pull for the 11/29 letter.
 5. **Thursday 11/12:** WPSR week 11/6, BRT-31 week five, first BRT-34 print; review the five themes dated 11/12.
@@ -36,5 +36,5 @@
 ## MAIL STATE
 - Inbox: WALTER lane clear as of 12:59 EST; top-level inbox clear. 5 consumed, 5 ledger rows, 5 moved.
 - Outbox: one packet to PROME, ONE per quiet mode, sent at this session's grade (see `PROME/inbox/2026-11-09_from-BRENT_L1089-graded.md`).
-- Session stays open: PROME asked; do not close out until PROME says so.
+- Closed out 19:38 EST on PROME's ask (prome-9c, WQ-249: Will 19:37 ET, desktop to laptop). Work continues on the laptop from these files.
 - PROME consumed the L1089 packet and closed the row (14:5x ET). Correction from PROME, verified 14:52 ET: the packet's "FRED/EIA keys missing, env_doctor FAIL" line was wrong for this box. `.env` is present and `scripts/env_doctor.py --quiet` exits 0 (python3 and .venv, root and BRENT dir). The FAIL is the Monday cloud routine's own checkout (no gitignored `.env`), copied from `monday_2026-11-09.md` line 9 without a local re-run. Next time: re-run a routine's tooling claim locally before relaying it.

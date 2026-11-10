@@ -2,7 +2,7 @@
 
 **Written:** 2026-11-09 from 12:11 EST (from `date`), live BRENT session on PROME's due-row wake (Will's word 12:07 ET). Runtime Claude Code, Opus 5.5. $0; no trade, card, gate, band, threshold or probability moved unless a section below says so.
 
-**Status of this note:** sections 1 to 5 written before the 14:30 ET settle; section 6 (window and settle) is PENDING until the post-settle capture.
+**Status of this note:** sections 1 to 5 written before the 14:30 ET settle; section 6 (window) captured 14:45 EST; the 11/9 settles were not indexed by closeout 19:38 EST and are carried.
 
 ## 1. Reopen against the 11/8 surprise bands
 
@@ -93,3 +93,5 @@ Claim, relayed: JPMorgan estimates a global surplus of 1.1 mb/d in September wid
 **Boundary #1 (≥$120 on 3 settles):** BZF27 about $92.5; cannot fire before Wed 11/11 and is $27 away.
 
 **TANKER-LIVENESS (REGISTRY gate, graded ONCE at/after 14:00 ET, no re-poll):** graded 14:47 EST (from `date`), vendor one-minute last print against the 11/6 close, all three legs stamped 14:47, skew under 5 minutes [EST vendor]. STNG 80.7600 → 79.6850, −1.331%; FRO 45.4200 → 44.4100, −2.224%; DHT 20.6800 → 20.5600, −0.580%. max(|·|) = 2.224% > 1.0% ⇒ **LIVE, not BLOCK.** Diagnostic only: no entry spec is armed, no TRADE action, no proposal.
+
+**Closeout check, 19:38 EST (from `date`):** 11/9 wire settles for BZF27 and CLZ26 still not indexed (one web search, no Reuters/ICE/CME-derived settle found); not read from vendor daily rows (a daily bar read after the 18:00 evening open belongs to the next session). GASREGW: FRED and the EIA API both return 2026-11-02 4.153 as newest; the 11/9 print is not published yet. Both carried to the next session (laptop); no grade in this note depends on them.
