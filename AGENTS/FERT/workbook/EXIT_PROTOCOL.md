@@ -3,6 +3,7 @@
 **Kill rail re-derived: 2026-08-17** (first live session under the 2026-08-16 re-charter)
 **Definitions tightened: 2026-09-05** — §0 gained *"pre-break plateau level"* and *"stall ≠ reversal"* after the T11 grade found a STATUS paraphrase of Channel B leg 1 sitting above the letter. **The kill rails themselves are UNCHANGED** — this was a definition repair, not a re-derivation, and it does not reset the clock below.
 **Amended 2026-10-01 (`f3a4b8028`, rules UNCHANGED):** §1A "what killed it" distance re-stated against the G2 $600/mt AWARDED line (was an uncanonical ~$500), and an instrument note added that the NOLA leg is ungradeable while T5 is retired — so nitrogen re-opens only through an India AWARD. *(Header line added 2026-10-09 per DAEDALUS Falsification #4 flag 1.)*
+**Amended 2026-11-10 (WQ-665 B, rules aligned, level UNCHANGED):** §1 Channel C QUESTION-CLOSE re-worded to the per-month reading of the transmission line below; no level, band, score or card moved.
 **Next mandatory re-derivation: 2026-11-15** — or immediately on any channel state change below.
 
 > This file carries the DURABLE RULES. It deliberately carries **no live values** — the live read lives in `STATUS.md` with `[src M/D]` (anti-drift split, blueprint §3). If you are reading a price here, the file is malformed.
@@ -47,7 +48,7 @@
 **STATUS: OPEN INSTRUMENTED QUESTION. Explicitly NOT a carried prediction.**
 
 - The March *timing* claim is graded **MISS** (`PREDICTIONS.tsv` FERT-05). The *mechanism* is **not** refuted — it is un-instrumented (`finding_market_ignoring_is_not_market_refuting`).
-- **QUESTION-CLOSE (declare the channel shut):** BLS food-at-home m/m stays below the G4 threshold through the November-2026 print (T3/T6) **AND** no USDA ERS edition revises 2027 food-at-home upward *citing input costs*.
+- **QUESTION-CLOSE (declare the channel shut):** BLS food-at-home m/m stays **<+0.4% in every month** through the November-2026 print (T3/T6) **AND** no USDA ERS edition revises 2027 food-at-home upward *citing input costs*. *(Per-month reading governs — WQ-665 B, Will 2026-11-10 13:21 ET, verbatim "665 B"; record `PROME/proposals/2026-11-10_wq665-RULED.md`. The earlier wording "below the G4 threshold" is replaced; level unchanged. October 2026 printed +0.4%, so this close cannot be met at the November print; a new end window is proposed to Will by packet and is NOT in force until he rules.)*
 - **QUESTION-REOPEN:** requires a **fresh input shock**, never a re-read of the 2026 one. Concretely: a G1/G2 breach that persists past its stated print count. Re-reading the April spike is not evidence.
 
 ---

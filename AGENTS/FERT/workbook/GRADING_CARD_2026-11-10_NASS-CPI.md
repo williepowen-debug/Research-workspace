@@ -89,3 +89,7 @@
 
 ⚠️ **Tooling note.** This shell's `grep` is a wrapper that printed nothing for the scratchpad NASS file (exit 1). All counts above are from `command grep` and Python, which agree.
 
+
+## Addendum 2026-11-10 13:23 ET — close-rule reading RULED
+
+WQ-665 **B**, Will 2026-11-10 13:21 ET, verbatim "665 B" (record `PROME/proposals/2026-11-10_wq665-RULED.md`): the **per-month** reading governs. October +0.4% blocks a close at the November print. FERT recommended the two-print reading; Will chose per-month. `EXIT_PROTOCOL.md` §C aligned; no RESULT cell changed.
