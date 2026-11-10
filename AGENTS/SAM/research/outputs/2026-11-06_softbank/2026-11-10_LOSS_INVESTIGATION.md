@@ -111,12 +111,21 @@ The rows sum to the pre-tax line (SAM check: 1,143.4 − 1,081.9 − 133.6 − 4
 | Fact | Basis |
 |---|---|
 | 9984.T closed ¥3,872 (+13.88%) on 11/10, after **¥4,765 on 10/29 → ¥3,400 on 11/9 (−28.6% in eight sessions)**. Still −18.7% from 10/29 | vendor daily closes (yfinance), completed sessions |
-| SoftBank released at **15:30 JST, the Tokyo close** (01:30 ET; card 005; my grade file) | so the 11/10 Tokyo session **did not trade on the loss** |
+| SoftBank released at **15:30 JST, the Tokyo close** (01:30 ET). **Confirmed at the primary:** TDnet list for 2026-11-10 (page 006) shows `15:30 99840 ソフトバンクグループ ... 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）`. The TSE regular session closes at 15:30 JST | so the 11/10 Tokyo session **did not trade on the loss** (fetched about 17:27 ET) |
 | US ADR **SFTBY $11.27, −4.00%** on the 11/10 US session, the first full session after the release | vendor, completed US session |
 | First Tokyo session on the results: **11/11, opens 09:00 JST = 19:00 ET tonight** | — |
 
 - **Plain words:** the +13.88% is not the market shrugging off the loss. It traded before the loss was public, as a rebound after an eight-session slide. The first reaction to the loss is the ADR's −4.0%, with Tokyo's reaction still to come.
-- **Unknown:** what drove the 11/10 in-session rally. Two searches found no dated report of it (secondary search, about 17:24 ET).
+- **Unknown:** what drove the 11/10 in-session rally before the print. Two searches found no dated report of it (secondary search, about 17:24 ET). It sits after an eight-session −28.6% slide that began 10/29 and included Musk's 11/6 post. That context is fact; it is not a source for the cause.
+- **Credit, pre-results** (LIQUID's leg, cited, not re-read): SoftBank 5-year CDS **497 on 11/9**, widest since August (LIQUID ecc68f6a82, `PROME/inbox/2026-11-10_from-LIQUID_softbank-credit-leg.md`).
+- **What I would read at the 11/11 Tokyo session** (opens 09:00 JST = 19:00 ET 11/10; closes 15:30 JST = 01:30 ET 11/11):
+  1. 9984.T's completed close and % change against ¥3,872, and the intraday low against 11/9's ¥3,400.
+  2. Volume against 11/10's 64.8M.
+  3. The SoftBank roll re-run at that day's dated Arm price.
+  4. Any TDnet follow-up filing from 9984.
+  5. Whether SoftBank posts its own call transcript.
+  6. Read before re-reading anything: LIQUID's CDS and yen retail-bond read, and the BOJ/yen carry read (USD/JPY near 160) for any spillover.
+  Until then, the post-results Tokyo reaction is a **known-unknown**.
 - **Offsetting messages in the release itself** (deck):
   - record quarterly financing and the bridge repaid early;
   - cash at more than two years of redemptions;
