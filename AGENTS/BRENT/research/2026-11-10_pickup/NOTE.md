@@ -85,7 +85,7 @@ No confirmed US delivery; the Kremlin envoy calls the reports fake; New Jersey's
 
 ## 5. Mail
 
-WALTER lane: SIG-W-20261109-012 (small items) → `noted`; BRENT's line is a paywalled Energy Intelligence headline (drone strikes threaten Russia's rising diesel exports), logged on combo:diesel-buffer. Moved to processed with a board_log row (1 moved, 1 row).
+WALTER lane: SIG-W-20261109-012 (small items) → `noted`; BRENT's line is a paywalled Energy Intelligence headline (drone strikes threaten Russia's rising diesel exports), logged on combo:diesel-buffer. Moved to processed with a board_log row. Later the same day: SIG-W-20261110-005 (small items, INFO; arrived 11:45 after the 11:41 drain) → `info-only`, China PPI fuel and power +18.6% as context; SIG-W-20261110-008 (Petroline, ACTION) → `acted`, section 8. Lane total 3 moved, 3 rows.
 
 ## 6. BRT-33 window, November 10
 
@@ -120,3 +120,17 @@ WALTER lane: SIG-W-20261109-012 (small items) → `noted`; BRENT's line is a pay
 | STATUS read cap | Two verbatim rotations: set 1 (11/8 block and summary, 2,069 B crc32 `14e95759`), set 2 (11/9 block and summary, older receipts, superseded header lines, the 11/5 reconciliation note, 7,017 B crc32 `7603e4b9`). |
 | CATALYSTS | 16 graded rows older than one week (grades 10/7 to 11/2) moved verbatim to `archive/CATALYSTS_pruned_2026-11-10.tsv`; calendar re-rendered, 40 events, Derived Views calendar check passes. |
 | Step 6c | Both elapsed USO expiry rows: FORGE/STATUS newest commit still 6db8d1d6f7 (11/5) at 12:0x EST; CHECKED-AT-ARTIFACT-AND-STILL-OPEN, unchanged from the 10:12 EST check; TRADE not edited. |
+
+## 8. Petroline attack, November 9 (WALTER SIG-W-20261110-008, ACTION)
+
+<a id="petroline"></a>**Fact:** a Saudi Energy Ministry official, via the Saudi Press Agency, said the East-West pipeline was targeted in the Madinah region on Monday 11/9, causing a "limited fire" that was extinguished; "No injuries or fatalities were reported, and pipeline operations were unaffected." Verified at Al Jazeera 11/9, which quotes SPA, read 14:5x EST. Al Arabiya and Gulf Business returned 403 here; WALTER read them. The SPA text was not read directly. The Houthi spokesman denies Madinah and claims strikes on pumping stations near Riyadh (RT relay, unverified). On 11/10 two missiles fired at Riyadh were intercepted, and debris caused minor damage to the Aramco Tower.
+
+| Test | Letter | Reading | Grade |
+|---|---|---|---|
+| BG-02 R1 (`setups/SPECS_GATES.md` C2) | Aramco, energy ministry or SPA statement naming capacity offline or Petroline throughput reduced; a named figure of at least 0.7 mb/d, or a capacity figure stated to have reduced exports or loadings | The ministry names no quantity and says operations were unaffected | **NOT MET.** C4 applies as well: a statement with no quantity cannot be completed by a tracker. |
+| BG-02 R4 | clean FAL-01 with an output-loss figure | none | not engaged; FALCON grades the theater |
+| BRT-32 (Yanbu loading halt for at least 24 hours) | operator statement or Reuters/Bloomberg report of a stated halt | no halt stated | no change, OPEN 20% |
+| Curve | `R-CURVE-VETO` context only | M1−M3 narrowed from +3.8039 (11/9 window) to +3.7552 (11/10 window) | the market did not price a supply loss |
+
+**Read:** the first strike on the bypass line itself since 9/10, and the third Saudi energy target in three days (Riyadh office 11/8, pipeline 11/9, Aramco Tower debris 11/10). The target set keeps moving toward production class without a measured loss. Logged on combo:yanbu-bypass. Attribution and theater grade are FALCON's. Nothing moved.
+
