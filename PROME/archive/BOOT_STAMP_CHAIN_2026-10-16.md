@@ -10,3 +10,9 @@ Dated history, not instructions: the ` Prior:` clauses that followed the **Updat
  Prior (dropped from the live header 2026-11-07): 2026-10-31 (WQ-578 batch 2 — step 2 regenerates the calendar before reading it; step 5 drops the retired session-snapshot clause; DOCKET L908).
 
  Prior (dropped from the live header 2026-11-07): 2026-11-06 (WQ-639 A — step 3b, Decisions app cards and answers; record `proposals/2026-11-06_wq639-640-RULED.md`).
+
+ Editorial-amendment line (dropped from the live header 2026-11-09 for bytes; ruling pointer also on the NOW page § Links): 2026-10-25, WQ-525 — research-first briefing, step 8; ruling and reads `PROME/proposals/2026-10-25_research-first-briefing-RULED.md`.
+
+ Prior (dropped from the live header 2026-11-09): 2026-11-07 (step 8 Continuation; `proposals/2026-11-06_wq648-RULED.md` § Addendum 2).
+
+ Step-2 provenance phrases (dropped from the live text 2026-11-09 for bytes): "WQ-578 batch 2:" before the calendar-regeneration rule; "moved out of SCRATCH 2026-10-20 on Will's word" after "the generated DOCKET calendar view".

@@ -89,4 +89,4 @@ Do not assert: "Oracle, Microsoft and SoftBank are one financing loop" (separate
 PROME owns this file; cadence and HOT/COLD structure remain at cold §C. Byte budget 32,550 B; rotate at 75%, stop below 70%; channel paragraphs target ≤600 B. Measure with `PROME/tools/measure.py`. This is a DOMAIN synthesis refresh, no process-rule change. Plan/read record above carries declared residue and source limitations.
 
 ## Skip
-Friday-evening synthesis of the dated evidence above. X1 CLOSED / DON'T-SIZE and energy STAND DOWN remain. $0 moved by PROME. Owner grades, current broker truth and future qualifying observations are not supplied by this memo. Research follow-through and coordination resume at `PROME/SCRATCH.md` ★ NEXT.
+Friday-evening synthesis of the dated evidence above. X1 CLOSED / DON'T-SIZE and energy STAND DOWN remain. $0 moved by PROME. Owner grades, current broker truth and future qualifying observations are not supplied by this memo. Research follow-through and coordination resume at `PROME/SCRATCH.md` § Next, in order.

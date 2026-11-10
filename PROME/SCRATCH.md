@@ -1,13 +1,15 @@
 # SCRATCH.md — NOW (what PROME is doing, waiting on and limited by)
 
-**Updated:** 2026-11-09 16:02 ET · session prome-6f (Claude Code; Fable 5.2 since the 15:1x ET pick-up) · desktop DESKTOP-BC6EF81 · account `memory/2026-11-09.md` § prome-6f.
+**Session:** prome-6f · desktop DESKTOP-BC6EF81 · Claude Code (Fable 5.2 since the 15:1x ET pick-up; Opus 5.5 before it).
+**Last recorded disposition:** OPEN, no closeout run (recorded 2026-11-09 19:18 ET). Evidence: § This session below; restart checkpoint 15:1x ET 11/9, picked up 15:15 ET (refresh `refresh-6kqt1a7d`); account `memory/2026-11-09.md` § prome-6f. This line is a record, not liveness: before taking over this session's unfinished work or sending its closeout asks, establish that the PROME that wrote it has yielded or is stopped (an idle session may still own the work); if uncertain, resolve that first (BOOT step 2; `BOOT_MODULES.md` § Resume after a restart).
+**Page last edited:** 2026-11-09 19:20 ET (from `date`). This dates the page only; it refreshes no market or book observation, and none is stored here.
 **This page references ledgers; it never copies their state.** Obligations live in DOCKET, decisions in WILL_QUEUE, gate state in GATES, positions in FORGE, standing rules in [STATUS](STATUS.md). History is the daily note and git. Rebuilt 2026-11-09 under WQ-658 A; the page it replaced is `archive/NOW_MIGRATION_2026-11-09/SCRATCH.md`.
 
 ## Next, in order
 1. NOW migration DONE (WQ-658 A): result read ❌ 3 fixed, residue declared in `proposals/2026-11-09_wq655-NOW-consolidation-PROPOSAL.md` § 9; the live-text residue is fixed at the next spine audit (D:L1084).
 2. BROCK Car-Mart: D:L927 RESOLVED 11/9 (no filing, nothing graded); next look is BROCK's Tue 11/10 read on D:L928. BROCK holds an unpushed local commit (bfdbeb6298) for the closeout ask.
 3. Skydance Q3 10-Q read once it files (D:L811, re-dated 11/11; the 11/9 8-K letter is logged in `themes/ellison/log.md`).
-4. Evening Standard closeout (no row: session duty): closeout ask to every desk touched 11/9 (ORCH_LOG) · ARGUS end-of-day (WQ-485) and the two items on D:L1096 · daily-note lessons: a relayed search miss reported as a refutation; two narrative clock stamps (10:4x, 14:4x); the COR-20261109-09 receipt said "zero hits" while DOCKET held two old unrelated Rubio rows; the FERT census scaffold gap (PROTOCOL.md and RECEIPT.md still counted).
+4. Evening Standard closeout, on Will's "close out" (no row: session duty): set the header disposition to CLOSED OUT with the clock time and receipt · closeout ask to every desk touched 11/9 (ORCH_LOG) · ARGUS end-of-day (WQ-485) and the two items on D:L1096 · daily-note lessons: a relayed search miss reported as a refutation; two narrative clock stamps (10:4x, 14:4x); the COR-20261109-09 receipt said "zero hits" while DOCKET held two old unrelated Rubio rows; the FERT census scaffold gap (PROTOCOL.md and RECEIPT.md still counted).
 5. Overnight-desk question: DEFERRED by Will 15:12 ET 11/9. Do not re-ask before the evening closeout (no row: his word).
 6. HYG hedge WQ-615 ×5 is FIRED and UNFILLED; the order is Will's hand (GATES `GATE-TERRY-HYG-FOLLOW-01`, TERRY's card). Pairing with WQ-513 ×4 needs his word (D:L830). No prompt from PROME.
 
@@ -30,9 +32,10 @@ Run `python3 PROME/tools/will_brief.py --book-line` and paste its line whole; no
 
 ## This session (prome-6f; reset only by a completed closeout)
 - Original boot run dir `/tmp/prome-boot-3856123e` (gate PASS 10:3x ET 11/9); pick-up refresh `refresh-6kqt1a7d` PASS 15:15 ET. Restart checkpoint 15:1x ET, picked up after `/clear`.
-- Launches on Will's word: ORACLE, SAM, VULCAN, BRENT, HENRY, ZHAO, NEXUS, BOND, CARL, FERT. Catch-up touches to the seven Will-launched desks. DAEDALUS touch (WQ-655, WQ-657).
-- C9 commissions 0 of 2. Done without asking: none.
-- Process changes: inbox_census scaffold skip (c49c5f261f, PROCESS) · the NOW migration (WQ-658 A, PROCESS, Will-approved).
+- Launches each on Will's own word in this chat (ORCH_LOG 11/9 rows carry his words and times): ORACLE (10:41 ET) · SAM, VULCAN (11:14 ET) · BRENT, HENRY, ZHAO, NEXUS, BOND, CARL, FERT (12:07 ET, "spawn other due sessions": seven due-row desks, the WQ-184 class, launched on his direct instruction). None was a spawn PROME chose on its own authority. ⚠️ Whether his blanket word counts against the four-per-boot due-row cap is not ruled; treat the cap as spent for this session and ask before any further due-row launch.
+- Autonomous allowances consumed (caps unchanged, `PROME/CLAUDE.md`): due-row spawns on PROME's own authority 0 (see the ⚠️ above before using the 4) · C6 wakes none · C8 sessions none · C9 commissions 0 of 2 · aged-action and aged-waits drains none. Done without asking: none.
+- Touches without a launch: catch-up messages to the seven desks Will launched himself (10:46 ET); DAEDALUS by packet (WQ-655, WQ-657).
+- Process changes: inbox_census scaffold skip (c49c5f261f, PROCESS) · the NOW migration (WQ-658 A, PROCESS, Will-approved) · four bounded boot-handoff repairs (Will 19:1x ET 11/9 on CATO's review `AGENTS/CATO/runs/2026-11-09_1906_prome-boot-review.md`, PROCESS).
 - Read episodes: NOW migration: plan read used (❌ 9) and result read used (❌ 3); budget spent, the three result fixes are unreviewed.
 - Memory: about 2.4 GB free at 14:39 ET with 13 desks; launch rule in the playbook's spawn checklist.
 - Session timers: none.
