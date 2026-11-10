@@ -1,41 +1,42 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-10T19:50:24Z",
-  "items": 13,
+  "checked_at": "2026-11-10T22:15:44Z",
+  "items": 12,
   "scan": {
-    "checked_at": "2026-11-10T19:47:16Z",
-    "head_checked_at": "2026-11-10T19:47:15Z",
+    "checked_at": "2026-11-10T22:13:24Z",
+    "head_checked_at": "2026-11-10T22:13:23Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 2
+    "attempts": 3
   },
   "review_recorded": true,
   "read_counts": {
-    "fully_read": 8,
-    "partly_read": 5
+    "partly_read": 5,
+    "fully_read": 7
   },
   "dispositions": {
-    "FOLD": 9,
-    "DUP": 1,
-    "DISPATCH": 2,
-    "KILL": 1
+    "DISPATCH": 12
   },
   "follow_ups": [
     {
-      "id": "2119812400920543356",
-      "ref": "BOARD/SIG-W-20261110-009-Small-items-bookmarks-Nov-9-10-VVIX-realized-vol-record-QQQ-drawdown-base-rates-Megaspeed-halt-claim-indeterminate-Florida-29-counties.md"
+      "id": "2119896073560834060",
+      "ref": "BOARD/SIG-W-20261110-011-Small-items-bookmarks-Nov-10-evening-NVDA-168.89-down-5.5pct-CoreWeave-Q3-headline-10Y-4.98-Japan-spending-minus-6.8-COR1M-BofA-claim-unconfirmed.md"
     },
     {
-      "id": "2119879763615731859",
-      "ref": "BOARD/SIG-W-20261110-009-Small-items-bookmarks-Nov-9-10-VVIX-realized-vol-record-QQQ-drawdown-base-rates-Megaspeed-halt-claim-indeterminate-Florida-29-counties.md"
+      "id": "2120269470862082304",
+      "ref": "BOARD/SIG-W-20261110-011-Small-items-bookmarks-Nov-10-evening-NVDA-168.89-down-5.5pct-CoreWeave-Q3-headline-10Y-4.98-Japan-spending-minus-6.8-COR1M-BofA-claim-unconfirmed.md"
     },
     {
-      "id": "2119808229236699466",
-      "ref": "BOARD/SIG-W-20261110-009-Small-items-bookmarks-Nov-9-10-VVIX-realized-vol-record-QQQ-drawdown-base-rates-Megaspeed-halt-claim-indeterminate-Florida-29-counties.md"
+      "id": "2120205029433081965",
+      "ref": "BOARD/SIG-W-20261110-010-SoftBank-Q2-net-loss-1.12T-yen-597B-power-equipment-advance-payment-loss-Ohio-Intel-prepaid-forward-loss-322B.md"
     },
     {
-      "id": "2119791620111699982",
-      "ref": "BOARD/SIG-W-20261110-009-Small-items-bookmarks-Nov-9-10-VVIX-realized-vol-record-QQQ-drawdown-base-rates-Megaspeed-halt-claim-indeterminate-Florida-29-counties.md"
+      "id": "2120164357740929436",
+      "ref": "BOARD/SIG-W-20261110-011-Small-items-bookmarks-Nov-10-evening-NVDA-168.89-down-5.5pct-CoreWeave-Q3-headline-10Y-4.98-Japan-spending-minus-6.8-COR1M-BofA-claim-unconfirmed.md"
+    },
+    {
+      "id": "2120236047791689993",
+      "ref": "BOARD/SIG-W-20261110-011-Small-items-bookmarks-Nov-10-evening-NVDA-168.89-down-5.5pct-CoreWeave-Q3-headline-10Y-4.98-Japan-spending-minus-6.8-COR1M-BofA-claim-unconfirmed.md"
     }
   ],
   "requests": []
