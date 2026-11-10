@@ -1,12 +1,11 @@
 # VIOLET CALENDAR
 
-Updated November 10, 2026 (11:1x ET); canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). Closeout contract: at least one HIGH/MEDIUM row within 14 calendar days (`scripts/forward_calendar_check.py`, KB-VIO-353). Fired rows preserved in research/2026-10-19_official-followthrough/catalysts-fired.tsv, research/2026-10-21_catchup/catalysts-fired.tsv research/2026-10-29_catchup/catalysts-fired.tsv, research/2026-10-30_boj-carry-vol/catalysts-fired.tsv and research/2026-11-05_catchup/catalysts-fired.tsv.
+Updated November 10, 2026 (16:3x ET); canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). Closeout contract: at least one HIGH/MEDIUM row within 14 calendar days (`scripts/forward_calendar_check.py`, KB-VIO-353). Fired rows preserved in research/2026-10-19_official-followthrough/catalysts-fired.tsv, research/2026-10-21_catchup/catalysts-fired.tsv research/2026-10-29_catchup/catalysts-fired.tsv, research/2026-10-30_boj-carry-vol/catalysts-fired.tsv research/2026-11-05_catchup/catalysts-fired.tsv and research/2026-11-10_cpi/catalysts-fired.tsv.
 
 ## ACTIVE FORWARD CATALYSTS
 
 | Date | Event | Impact | VIOLET checkpoint |
 |---|---|---|---|
-|Nov 10 (Tue)|October CPI, 08:30 ET|MEDIUM|**Released; date verified 11/10** on the BLS public API (pages still 403). Intraday read done (KB-VIO-394, TICK); **the close read is still owed**, then prune to fired.|
 |Nov 17 (Tue)|NVIDIA Q3 FY27 results, after the close; call 17:00 ET|HIGH|Company-announced date, read through search. Results land the evening before the VIX AM SOQ, so read the VX/X6 settle and VIX9D into it.|
 |Nov 17 (Tue)|Credit-vol WATCH window endpoint|MEDIUM|Grade the lag against the 100bp size condition from 268bp [9/22]. A watch, not a letter. KB-VIO-328.|
 |Nov 18 (Wed)|VIX November expiration AM SOQ|MEDIUM|Record contract pair; adjusted helper switches inside DTE<5.|
@@ -14,6 +13,7 @@ Updated November 10, 2026 (11:1x ET); canonical dated rows [CATALYSTS](workbook/
 
 ## RESOLVED — fired catalysts and their grades
 
+- **November 10 October CPI (08:30 ET):** fired; date verified at the publisher (BLS public API; pages 403). SA m/m all items +0.35%, core +0.30%; consensus not read. **Close read on the 16:15:01 ET print (TICK until History):** VIX **19.46** vs 19.92 pre (−2.31%), intraday high 21.43; 9D/VIX 0.9527, 3M/VIX 1.0606, VVIX 96.63. **Under 20.00: LOW_VOL holds, no regime row.** Vol priced it as a one-session event. [Record](research/2026-11-10_cpi/GRADE.md), KB-VIO-394/396.
 - **November 3 US midterm Election Day:** fired. **The checkpoint asked the wrong instrument:** VX/X6 prices VIX on 11/18 and the 30 days after, so it cannot hold election variance directly. VIX9D carried the event: VIX9D/VIX 1.0619 [11/02], 1.0542 [11/03], then 0.9145 [11/04] as VIX9D fell 30.83% to 15.19. VIX 21.15 / 20.83 / 16.61; RISING_VOL on two closes, LOW_VOL again 11/04. Futures-front inversion ended 11/04 at +1.352%. Cause not established: the election result and Brent −8.7% shared the session. [Grade](research/2026-11-05_catchup/GRADE.md), KB-VIO-367, KB-VIO-368.
 - **October 30 BOJ decision (Oct 29–30) + Outlook Report:** fired the evening of 10/29 ET. **Held at 1.25%, vote 8–1** (Takata for a hike); ETF sales pace raised to ~¥860B/yr book from January 2027 (BOJ `k261030a.pdf`). SAM owns substance. **VIOLET carry-to-vol: CALM, no transmission.** RV10 7.02% p34.5 vs WATCH 14.15%; USDJPY 157.96 → 157.42 (10/30 intraday); FXY IV/RV 1.66 → 1.61. Equity vol jumped the same day (VIX ~20 intraday, KB-VIO-362), not carry-led. [Grade](research/2026-10-30_boj-carry-vol/GRADE.md), KB-VIO-360.
 - **October 29 Q3 GDP advance + September PCE (08:30 ET):** fired. VIX tick 17.03–17.05 by 14:55 ET (+0.7%), alongside Alphabet −12.75% (vendor intraday); no index-vol repricing. The official 10/29 close is not yet graded. AMZN/AAPL report after this close and are not graded. KB-VIO-356.

@@ -1,6 +1,6 @@
 # VIOLET — session handoff
 
-**As of:** November 10, 2026 11:1x ET (session opened 11:09 ET from `date`). Launched by PROME prome-07 on the desktop after the 11/10 laptop → desktop switch. Task: CPI before/after read on the close, PRED-07 grade (DOCKET L1030), WALTER card 011. Limits: $0 moved; no threshold, gate letter, band or card changed without Will; live prices only; quiet mode. **The window HOLDS open with no timer, waiting for PROME's message.** Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **33/50** (History-confirmed for 11/09).
+**As of:** November 10, 2026 16:3x ET (close read 16:31 ET from `date`; session opened 11:09 ET). Launched by PROME prome-07 on the desktop after the 11/10 laptop → desktop switch. Task: CPI before/after read on the close, PRED-07 grade (DOCKET L1030), WALTER card 011. Limits: $0 moved; no threshold, gate letter, band or card changed without Will; live prices only; quiet mode. **Close read done on PROME's 16:21 ET tap; the window holds open for PROME, not closed out.** Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **33/50** (History-confirmed for 11/09).
 
 ## CHANGES SINCE (11/09 20:2x ET → 11/10 11:09 ET)
 
@@ -17,10 +17,12 @@
 - **WALTER card 011:** info-only in board_log, moved to processed, COR-20261109-11 receipted NO-OP.
 - MEMORY data source: the BLS API works where the pages 403.
 - Packets: RED (`AGENTS/RED/inbox/2026-11-10_from-VIOLET_1109-history-bars.md`), PROME (dated memo).
+- **CPI close read (16:31 ET, PROME tap 16:21):** VIX **19.46** at the 16:15:01 print (high 21.43), under 20.00: LOW_VOL holds, conditional not met, no regime row, no re-score. 9D/VIX 0.9527, 3M/VIX 1.0606, VVIX 96.63. `thresholds.py --supersede` replaced the 11:09 TICK row. CPI row pruned to `research/2026-11-10_cpi/catalysts-fired.tsv`; KB-VIO-396; GRADE.md close section. Packet to PROME.
+- **D:L342 fix** (11:27–11:31 ET), see NEXT SESSION 4.
 
 ## NEXT SESSION
 
-0. **CPI post read on the 11/10 CLOSE: OWED.** It was not done because the session launched at 11:09 ET and the instruction was to hold with no timer. When PROME's message arrives (or at the next boot), take the 16:15 ET print, then `backfill.py --spot-only` once History posts. Compare against pre: VIX 19.92, 9D/VIX 0.998, 3M/VIX 1.0467, VVIX 98.43. **If VIX closes ≥ 20.00:** LOW → RISING, re-send the regime row through NEXUS_BRIEF CROSS-DOMAIN, and re-score convergence. Then prune the CPI row from CATALYSTS/CALENDAR into a fired file and add a KB row for the close.
+0. **Confirm 11/10 on Cboe History:** run `backfill.py --spot-only` once History posts. The VX_DAILY 11/10 row is the 16:15:01 ET print, basis TICK: VIX 19.46, 9D 18.54, 3M 20.64, 6M 21.99, VVIX 96.63, SKEW blank (not printed at 16:31 ET). If History puts VIX ≥ 20.00 (needs a +0.54 correction, never seen), the label flips and the regime row is owed. Send the 11/10 SKEW bar to RED with the next bars.
 1. **November 17:** credit-vol WATCH endpoint (HY 342 [11/06] vs the 368bp size condition) and NVIDIA after the close; **November 18** VIX AM SOQ. VIO-PRED-08 grade after 11/20 History; PRED-09 after 12/31.
 2. FXY IV intraday re-pull (2.38x at boot 11/10).
 3. implied_corr.py SETTLE-by-clock defect: not commissioned.

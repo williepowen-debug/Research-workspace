@@ -54,3 +54,28 @@ VIX GTH session range 19.62 to 21.61 through 10:55 ET. SPY 747.77 at 11:10 ET vs
 
 - VIO-PRED-08 (VIX ≥30 by 11/20, 25%): VIX 21.10 at 11:09 ET, 8.90 away. VIO-PRED-09 (SKEW <140 by 12/31, 45%): 150.34 [11/09 History].
 - RED-FT-10 and RED-FT-06 are RED's to grade. The 11/09 bars were sent to RED: SKEW 150.34, VIX History and VIXCLS 19.92.
+
+## CPI post read on the 11/10 CLOSE (added 2026-11-10 16:3x ET)
+
+**Stamp:** 16:31 ET from `date`. PROME prome-07 timed tap 16:21 ET. Source: Cboe delayed-quote feed (`cdn.cboe.com/api/global/delayed_quotes/quotes/_VIX.json` and companions), **observation time `last_trade_time` 2026-11-10T16:15:01** (feed stamp 21:30:42 UTC), read 16:31:12 ET. The 16:05:31 observation read at 16:21 ET was 19.48; the final print is below. `thresholds.py --supersede` at 16:31:30 ET replaced the 11:09 ET TICK row. **Basis TICK: this is the 16:15 print, not yet Cboe History.** History and FRED VIXCLS 11/10 were not posted at read time; `backfill.py --spot-only` confirms or corrects the row later.
+
+| Series | Pre: 11/09 close [History] | 11:09 ET tick | **11/10 close print, 16:15:01 ET** | Change vs pre |
+|---|---:|---:|---:|---:|
+| VIX | 19.92 | 21.10 | **19.46** (open 21.33, high 21.43, low 19.29) | −0.46 (−2.31%) |
+| VIX9D | 19.88 | 20.86 | **18.54** | −6.74% |
+| VIX3M | 20.85 | 21.68 | **20.64** | −1.01% |
+| VIX6M | 22.22 | 22.80 | **21.99** | −1.04% |
+| VVIX | 98.43 | 102.54 | **96.63** (high 104.11) | −1.83% |
+| COR1M | 13.23 | 15.14 | **12.35** | −6.65% |
+| VIX9D/VIX | 0.998 | 0.989 | **0.9527** | steeper front contango |
+| VIX3M/VIX | 1.0467 | 1.0275 | **1.0606** | steeper |
+| Adjusted VX M1:M2 (VX/X6→VX/Z6) | −2.572% [11/09 settle] | | **−1.98%** [11/10 settle, thresholds.py] | |
+| SKEW | 150.34 | | **not printed** (last print 11/09 17:00:18; stale-column guard nulled it) | |
+
+Vendor closes, context only (fetch.py 16:22 ET; HENRY owns equity, BOND rates, LIQUID credit): SPY $749.92 (−0.37%), QQQ $674.76 (−0.68%), RSP $220.88 (−0.03%), TLT $80.88 (−1.32%), HYG $77.18 (−0.43%).
+
+**Conditional: NOT MET.** VIX closed **19.46, 0.54 under 20.00**. The label stays **LOW_VOL** (the 11/10 row's intraday RISING_VOL tick label was superseded by the close). No regime-shift row, no NEXUS_BRIEF re-send, no convergence re-score, no RED/HENRY regime message.
+
+**Read:** the CPI release lifted VIX intraday (high 21.43) and the market sold it back by the close. VIX finished below its pre-CPI close, the front fell most (VIX9D −6.74%), and the curve ended steeper in contango than before the release. VVIX and implied correlation also closed lower. **The vol market priced October CPI as a one-session event, not as a regime input.** Equities closed modestly lower and Treasuries lower (TLT −1.32%): the rates leg moved more than equity vol did. That is BOND's and HENRY's read; this record says only that vol did not carry it.
+
+**Rows resolved by this close:** the CATALYSTS 2026-11-10 October CPI row (FIRED, pruned to `catalysts-fired.tsv` here). **No prediction resolves:** VIO-PRED-08 (VIX ≥30 by 11/20) is 10.54 away; VIO-PRED-09 (SKEW <140 by 12/31) has no 11/10 print yet. RED-FT-10 and RED-FT-06 are RED's. Path-A VIX<20 filter passes on the print (19.46). Cheap-tail alert stays DORMANT (VIX 19.46 vs ≤16 leg, VVIX 96.63 vs ≤90 leg).
