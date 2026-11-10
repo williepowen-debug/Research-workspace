@@ -1,5 +1,6 @@
 # DOC STATUS
 **Last real data refresh:** 2026-10-28 | **Last touched:** 2026-10-28 21:35 ET (closeout). Five passes: (1) real refresh after 79-day gap (Aug/Sep CPI, KFF EHBS 2026, Census 2025, Commonwealth 2026, KFF cost brief 10/23, Kaufman Hall Aug flash, Mercer/BGH/Aon 2027, GLP-1 coverage; two CARL packets processed); (2) news sweep (HCA/UHS Q3 uninsured shift, Urban Institute medical debt, WTW GLP-1, Medicaid work requirements); (3) CARL rulings (P07 closed NO-VERDICT, P11/P12 registered, P05 reverted to DUE-UNRESOLVED); (4) ledger hygiene (KFF 41% mislabel corrected, stale VX/COVERAGE rows refreshed or marked STALE); (5) DOC `CLAUDE.md` closeout/boot protocol rewritten, Will-approved
+**2026-11-10 parent read (CARL, no DOC spawn; docket CPI-day cadence):** October medical-care CPI read into VX-DOC-1.01/1.02 (interpolated YoY, labelled). DOC-P10 still graded at the Q3 second estimate (BEA 11/25), not today. No threshold, confidence or prediction changed. Record: `AGENTS/CARL/research/2026-11-10_owed-rows/READ.md`.
 **Status:** 🟠 ELEVATED. The cost squeeze has moved off the price indexes and onto people. Medical CPI is down to 1.5%, but only because drug prices are falling: hospital prices run +5.2%. Employer premiums rose 5% while workers' share rose 9%. Working-age uninsured is 11.2%, up from 8.9% in 2024. Hospital bad debt is +13% YoY, and HCA's uninsured share of admissions is 10.5% vs 8.5% a year ago (Q3). One prediction MISSED this session (P02, on magnitude). P05 is due but unresolved until the Gallup 2026 print (a miss is likely).
 **Thesis Confidence:** 78% (was 84%; −6pp for the P02 miss, the likely P05 miss and the corrected care-deferral baseline) | **Phase:** Phase 2-3 (Straining → Deferring). The coverage-loss leg is now measured; the debt-in-collections leg is still unmeasured at bureau level.
 
@@ -40,7 +41,7 @@ Healthcare costs are a non-discretionary stress MULTIPLIER on CARL's consumer th
 
 | Vector | Current | Threshold | Status | Trend |
 |--------|---------|-----------|--------|-------|
-| Medical Care CPI YoY | **1.5% (Sep 2026)** / 1.6% Aug [BLS] | >4% | 🟢 | FALLING (drug-led) |
+| Medical Care CPI YoY | **Oct 2026: official YoY not computable (Oct-2025 unpublished); CARL interpolation +1.8%, hospital services +5.8%, SA m/m +0.34% [BLS 11/10, parent read]**; Sep official 1.5% | >4% | 🟢 | FALLING (drug-led) |
 | Medical Care Services CPI YoY | **2.5% (Sep)** [BLS] | >4% | 🟢 | FLAT |
 | Medical Care Commodities CPI YoY | **−3.3% (Sep)** [BLS] | — | 🟢 | FALLING |
 | Hospital Services CPI YoY | **+5.2% (Aug)**; MoM +0.7% Sep [BLS] | — | 🟡 WATCH | HOT (single-month rule on Sep MoM) |

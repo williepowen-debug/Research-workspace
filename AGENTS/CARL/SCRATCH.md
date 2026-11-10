@@ -1,8 +1,8 @@
 # CARL SCRATCH
-**Last session:** 2026-11-10 from 11:09 ET to the closeout ~11:2x ET; Claude Code, Opus 5.5 (claude-opus-5-5), desktop, launched by PROME prome-07 after the 11/10 laptop → desktop switch. Quiet mode. Window HELD OPEN after closeout, waiting for PROME's message (no timer).
+**Last session:** 2026-11-10 from 11:09 ET; first closeout pushed 534aa070d1; second pass on PROME's 11:18 ET message closed 2026-11-10 11:23 ET; Claude Code, Opus 5.5 (claude-opus-5-5), desktop, launched by PROME prome-07 after the 11/10 laptop → desktop switch. Quiet mode. Window HELD OPEN after closeout, waiting for PROME's message (no timer).
 **Type:** PROME due-row wake, graded: D:L1017 (CRL-33 and the Q3 HHDC) and D:L797 (screwworm/beef at October CPI). No trade, card, gate, band, threshold or score moved.
 
-**PRIORITY-1:** **Wait for PROME's reply on the §1 divergence (sent 11/10 as a fact; only Will can reopen the 8/16 choice). Next dated action: Thu 11/12 ICSA (leg 1 vintage) and the PHAN successor gate.** Do not re-grade CRL-33 on any later revision (row rule).
+**PRIORITY-1:** **Hold for PROME (D:L1017 and D:L797 closed by PROME 5f595c8c29; divergence carried to Will 11:17 ET). Next dated action: Thu 11/12 ICSA (leg 1 vintage) and the PHAN successor gate.** Do not re-grade CRL-33 on any later revision (row rule).
 
 ---
 
@@ -34,8 +34,8 @@
 
 ### IMMEDIATE (24 hours)
 - Act on PROME's reply to the divergence packet, if any. Propose nothing on the rule.
-- 11/10 rows NOT worked this session, still owed: DOC monthly refresh + DOC-P10 grade (docket row kept); NFIB October (docket row kept). Carried cards SIG-W-20260929-002, -20261002-009, -20261008-027, -20260904-004.
-- Read the NY Fed Liberty Street post published with the Q3 HHDC (card delinquency by neighborhood income and lending standards); not read 11/10.
+- DONE in the second pass (`research/2026-11-10_owed-rows/READ.md`): NFIB (secondary only, nfib.com 403; KB-612), DOC parent read (KB-613; DOC VX/STATUS), Liberty Street post (KB-614; staged to RED COUNTER_LOG), retirement sweep (3 retained, 0 moved). Docket rows pruned; November CPI row added 12/10 (date UNVERIFIED).
+- If POP is spawned: NFIB earnings and credit-access lines were not obtained. Carried cards SIG-W-20260929-002, -20261002-009, -20261008-027, -20260904-004.
 
 ### UPCOMING (this week)
 - 11/12 ICSA (leg 1) and PHAN successor gate (COCKROACH.tsv held, +60d). 11/13 ES-02 / CRL-28 and Sweet v. McMahon (ask STUE).
@@ -63,9 +63,9 @@ Both PROME 11/09 packets (`due-rows-wake`, `WQ656-RULED-B-and-HHDC-governing-rul
 ## WORKBOOK HEALTH
 | TSV | Note |
 |---|---|
-| KB.tsv | LIVE; 607 data rows; KB-610, 611 added 11/10 |
+| KB.tsv | LIVE; 610 data rows; KB-610 to 614 added 11/10 |
 | PREDICTIONS.tsv | 36 rows, 11 columns; 14 OPEN; header refresh 2026-11-10 |
-| Docket | CATALYSTS 29 = CALENDAR 29 |
+| Docket | CATALYSTS 28 = CALENDAR 28 |
 
 ## URGENT
 - The HHDC card is frozen: addenda only.
@@ -82,7 +82,7 @@ Both PROME 11/09 packets (`due-rows-wake`, `WQ656-RULED-B-and-HHDC-governing-rul
 | Claim weekday | PASS | 4 files clean |
 | Ledger nudge | RUN | KB and PREDICTIONS changed and committed; sub-agent ledgers unchanged in data |
 | Roadmap index | PASS | `--check` rc 0; no thread edited |
-| Research retirement | NOT RUN | carried; the 11/09 sweep retained all 3 candidates |
+| Research retirement | RUN (second pass) | 3 candidates >60d, all cited by live rows (CRL-12 OPEN; KB-223, 326-328 ACTIVE; COUNTER_LOG): retained, 0 moved |
 | Consumer check | NOT APPLICABLE | no figure superseded; CRL-33 resolved, not re-priced |
 | Memory | NOT APPLICABLE | no new transferable lesson |
 | Brief pin / push | see final report | |
