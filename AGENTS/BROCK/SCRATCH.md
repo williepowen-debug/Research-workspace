@@ -1,20 +1,18 @@
-# BROCK SCRATCH — 2026-11-09 handoff (closed on PROME prome-9c's WQ-249 ask; Will 19:37 ET, desktop → laptop)
+# BROCK SCRATCH — 2026-11-10 handoff (D:L928 session, PROME prome-07 launch, desktop; window HELD open for PROME's message)
 
-Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-09.md`. New KB rows: KB-BRK-466 to 471.
+Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-10.md`. New KB rows: KB-BRK-472, 473.
 
-**Closed today:** inbox (FLG, OZK packets) and WALTER lane (SIG-W-20261109-002) drained. ADS Q3 FINAL graded, R2 (b) NOT FIRED. L927 RESOLVED as no filing, nothing graded (CRMT feed read 17:31 ET). Packet to PROME committed (`PROME/inbox/2026-11-09_from-BROCK_L927-no-filing-nothing-graded.md`). No score moved.
+**Done today:** L928 read 11:10 ET: CRMT ELEVENTH BRIDGE (8-K 0001171843-26-007312, agreed 11/09, STD → Thu 11/12, +3 days); no other agreement dated ≤11/04, PROVISIONAL. WALTER lane 1/1 (SIG-W-20261109-007 noted). Packet to PROME asks for two successor DOCKET rows (11/12 STD, 11/16 backstop #8). No score moved.
 
-**Next-boot first moves (laptop):**
-1. **Tue 11/10 AM: DOCKET L928**, CRMT Item 1.01 backstop #7 (any OTHER agreement dated ≤11/04). Same read also checks for an eleventh bridge or anything signed 11/09: full feed for CIK 0000799850 from 11/05 08:01 ET, every form incl. 1.03, 2.04 and Nasdaq 3.01, INDEX acceptance time. An agreement signed 11/09 is due on an 8-K by Fri 11/13. Silence grades nothing. Grade → KB, STATUS CRMT row, CATALYSTS 11/10 row, one packet to PROME.
-2. **Tue 11/10 08:30 ET:** CPI (HENRY's). **17:00 ET:** CoreWeave Q3 (VULCAN's date); read for the lender side only (DDTL draws, KB-BRK-425/457 holders).
-3. **Fri 11/13:** CABO hearing (L1058). Feed for Item 3.01, GTCR intervention, financing; outcome press or 8-K only. CourtListener 403; PACER ask-first.
-4. **Mon 11/16:** BRK-11 re-run · R2 review if PROME moves it. **Tue 11/17 AMC:** GBDC, BRK-36.
-5. **~12/04:** BCRED Q4 letter (offer expires 12/1). P13 applies at NH/OCIC Q4 figures.
+**Next-boot first moves:**
+1. **Thu 11/12 after ~16:30 ET (or Fri 11/13 AM): CRMT eleventh-bridge STD.** Full feed for CIK 0000799850 from 11/10 08:01 ET, every form incl. 1.03, 2.04, Nasdaq 3.01; INDEX acceptance time. Also closes the L928 letter (anything dated ≤11/04). Bridges 9–11 were all filed the morning after at 08:00 ET: a silent evening is not a lapse.
+2. **Mon 11/16:** CRMT backstop #8 (other agreement dated ≤11/09) · BRK-11 re-run · R2 review if PROME moves it.
+3. **Tue 11/10 17:00 ET:** CoreWeave Q3 (VULCAN's date); lender side only (DDTL draws, KB-BRK-425/457 holders).
+4. **Fri 11/13:** CABO hearing (L1058). Feed for Item 3.01, GTCR intervention, financing; outcome press or 8-K only. CourtListener 403; PACER ask-first.
+5. **Tue 11/17 AMC:** GBDC, BRK-36. **~12/04:** BCRED Q4 letter (offer expires 12/1).
 
 **Thread notes:**
-- EDGAR feed helper lives only in this session's scratchpad. Rebuild: submissions JSON `https://data.sec.gov/submissions/CIK##########.json` with `from sec_contact import sec_ua` (scripts/), filter `filings.recent` by filingDate, print acceptanceDateTime. CIKs: CRMT 799850, CABO 1632127, ADS 1837532, KBDC 1747172.
-- ADS Q3 10-Q 0001193125-26-449955 is unread (NA, PIK, NAV pass owed; separate passes, LESSONS #20).
-- ADS "16.8% Q2" in a search summary is unverified and equals OCIC's Q3 figure; do not use.
-- The 11/09 background watcher was killed by the harness at low system memory; a one-shot timed read after the 17:30 ET window worked.
-- Carried from 11/06, still live: 39-name discount rerun via `research/2026-11-06_close-refresh/nav39.py` (split price from NAV refresh before quoting a move); CABO 11/6 -16.7% cause not established; Hertz Class B / OSCF note in KB-BRK-465; IREN checkpoints in `docket/CATALYSTS.tsv`; Experiment A FSK/BXSL/OBDC software FV/par cells owed (SOI parse); CATALYSTS past-dated rows without a prefix (STATUS carried debt).
+- EDGAR feed helper: `/tmp/claude-1000/-home-willi-Research-workspace-AGENTS-BROCK/42dff885-74d4-4726-8c51-3df3008fe25e/scratchpad/feed.py <cik> <since-date>` (session scratchpad; rebuild if gone: submissions JSON `https://data.sec.gov/submissions/CIK##########.json`, UA from root `scripts/sec_contact.py`, filter `filings.recent`). CIKs: CRMT 799850, CABO 1632127, ADS 1837532, KBDC 1747172.
+- Wed 11/11 Veterans Day = federal holiday; count it out of every four-business-day window this week (INFERRED, not an SEC notice).
+- Carried, still live: ADS Q3 10-Q 0001193125-26-449955 unread (NA, PIK, NAV passes, separate, LESSONS #20); ADS "16.8% Q2" search figure unverified, do not use; 39-name discount rerun via `research/2026-11-06_close-refresh/nav39.py`; CABO 11/6 −16.7% cause not established; Experiment A FSK/BXSL/OBDC software FV/par cells owed; CATALYSTS past-dated rows without a prefix (STATUS carried debt).
 - Quartr: never call. corrections receipt: no semicolons in `--scope`. Re-list `inbox/WALTER/` right before `git mv`.
