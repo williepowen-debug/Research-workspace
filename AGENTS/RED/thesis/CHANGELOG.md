@@ -4,6 +4,18 @@
 
 ---
 
+## S62 — 2026-11-10 11:48 ET (from `date`; desktop, PROME prome-07 on Will's word 11:38 ET, SCRATCH items 0 to 9) — **NO WEIGHT MOVED. HOLD 72 · net-bear 68 unchanged. No registered-trigger STATE changed. Two challenges closed.**
+
+- **FT-08 (Oct CPI):** core +0.3 Table A (+0.296% unrounded), window 0.3/0.3/0.3 = 3.66 (index 3.75). Old view: "the fire very likely stands (exit P≈5%)." New view: "it stands; November must print ≤0.0 for an exit at 12/10 (RED-28)."
+- **CHG-RED-028 → CLOSED NO VERDICT.** Old view: "two-print oil→core test, leg 1 missed." New view: "oil never reached core on the registered test (airfares +1.16% Sept, +0.41% Oct vs 2.35), and core ran hot anyway: the stagflation case rests on core breadth, not on oil." The pre-stated Stag bear add (+1) needed the leg and does not land; the anti-spiral −2 was ruled landed at S57.
+- **CHG-RED-045 (household debt):** Old view: "the print grades CARL's kill rule on both texts." New view: "the official re-spec did not fire (23bp of 100bp); the superseded share row would have fired on a denominator-only −2bp move. The reset helps CARL on the rule; the official measure runs against CARL's thesis." Open to 11/17 only for Will on the divergence fact.
+- **CHG-RED-049 → RESOLVED-CONVERGED.** The inverse configuration never recurred (auto 90+ share up 5.49 → 5.66).
+- **CHG-RED-054:** OZK leg stays MODERATE by the pre-stated rule (OZK-09 STUCK on the 10-Q).
+- **CHG-RED-057:** SoftBank's SVF2 loan sits inside its own ratio: Attack 6 reopens on the letter; graded 11/11 with CoreWeave.
+- **Ledger for the next re-derivation (consumer, count once with payrolls and claims):** card flow into 90+ easing (6.87), in every income quartile (Liberty Street 11/10), CRL-21 and CRL-33 MISSED: bull; 90+ card dollars +$2.6B, student 30+ flow up: bear. KB-RED-115.
+
+---
+
 ## S61 — 2026-11-10 10:13 ET (from `date`; booted 11/09 20:11 ET status-only on Will's task; closed on PROME prome-1e's relay of Will 10:11 ET, machine switch) — **NO WEIGHT MOVED. HOLD 72 · net-bear 68 unchanged. One registered-trigger exit COUNT moved (FT-06 1 of 5 → 3 of 5); no trigger fired or exited.**
 
 - **FT-06:** VIXCLS 25.64 [11/06] and 19.92 [11/09], both ≥18. Old view: "a new run, 1 of 5." New view: "3 of 5; two closes (11/10, 11/11) ≥18 complete it at the 11/12 read." The 11/09 close sat only 1.92 over the line. RED-29 50% held.

@@ -95,3 +95,8 @@ receipt_date	correction_id	action	note
 2026-11-10T15:12Z	COR-20261107-02	DEFERRED	review=2026-11-11; 
 2026-11-10T15:12Z	COR-20261108-02	DEFERRED	review=2026-11-11; 
 2026-11-10T15:12Z	COR-20261109-09	DEFERRED	review=2026-11-11; 
+2026-11-10T16:45Z	COR-20261106-53	APPLIED	artifact=AGENTS/RED/workbook/KB.tsv#KB-RED-112; validation_ref=NONE; 
+2026-11-10T16:45Z	COR-20261107-02	APPLIED	artifact=AGENTS/RED/workbook/KB.tsv#KB-RED-112; validation_ref=NONE; 
+2026-11-10T16:45Z	COR-20261109-09	NO-OP	scope=RED carries no Rubio quote, IRGC three-tanker claim or Iraq crossing item; 
+2026-11-10T16:45Z	COR-20261108-02	NO-OP	scope=RED carries no NBC oil-and-gas target line, NEXUS cites NBC only for the 11/02 strike dating; 
+2026-11-10T16:45Z	COR-20261109-11	NO-OP	scope=RED carries no Huang or Nvidia claim, HENRY and VULCAN own the read; 

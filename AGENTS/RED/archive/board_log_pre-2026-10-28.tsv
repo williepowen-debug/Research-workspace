@@ -37,3 +37,7 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-28T21:08	2026-10-22_from-DEWEY_reserve-coverage-decline-base-rate	acted	INBOX_GENERAL	NPL-up + coverage-down: no lift within 4q; S57 Acute-flat bull input; bears on CHG-027 Q4 framing
 2026-10-28T21:08	2026-10-22_from-DEWEY_screwworm-beef-food-cpi	info-only	INBOX_GENERAL	+0.03 to +0.08pp headline, 12-18m out; not an Oct CPI tree input
 2026-10-28T21:08	2026-10-22_from-DEWEY_tanker-war-base-rates	noted	INBOX_GENERAL	1984-88 attacks gave small reversing price moves; held War at +1 not +2
+2026-10-28T21:08	2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines	acted	INBOX_GENERAL	U-R1/U-R2 applied by DAEDALUS 4da79f1ee; diff read, not contested; basis rehashed S57
+2026-10-28T21:08	2026-10-23_from-DEWEY_ccc-loans-issuance	acted	INBOX_GENERAL	CCC bonds broad, software stress sits in loans/BDCs; issuance narrowed not shut: S57 Acute-flat input
+2026-10-28T21:08	2026-10-23_from-DEWEY_ccc-optimum-korea	acted	INBOX_GENERAL	rated CCC 0pct AI, ~16.5pct cable/telecom (Optimum): FT-02 composition note
+2026-10-28T21:08	2026-10-23_from-DEWEY_hy-widening-ai-vs-broad	acted	INBOX_GENERAL	mixed, mostly broad: FT-02 composition note S57

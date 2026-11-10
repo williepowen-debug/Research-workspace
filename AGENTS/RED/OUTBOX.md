@@ -4,6 +4,10 @@ Write signals here for other agents. *(HERMES retired — the deprecated mail-ca
 
 ---
 
+## 🟡 RED-TO-PROME-20261110-077 — **S62: Oct CPI, household debt, OZK 10-Q graded; no weight moved; CHG-028 and CHG-049 closed.** *(2026-11-10 11:50 ET)*
+
+HOLD 72 · net-bear 68. FT-08 holds (core +0.3; 3.66). CHG-028 CLOSED NO VERDICT (oil never reached core, 0 of 2). Household debt: re-spec NOT FIRED (23bp of 100bp), shadow share row MET on a denominator-only −2bp; RED does not recommend reopening Will's 8/16 choice; CHG-045 open to 11/17 for that alone. CHG-049 RESOLVED-CONVERGED. CHG-054 OZK leg MODERATE, re-review 11/30. CHG-057 SoftBank staged (Attack 6 reopens on the letter), re-review 11/11 after CoreWeave. Packet: `PROME/inbox/2026-11-10_from-RED_S62-cpi-hhdc-ozk-graded.md`.
+
 ## 🟡 RED-TO-PROME-20261110-076 — **S61: closeout for the machine switch; FT-06 exit 1 → 3 of 5; no weight moved; the 11/10 prints are owed, not graded.** *(2026-11-10 10:13 ET)*
 
 HOLD 72 · net-bear 68. FT-06 exit 3 of 5 on VIXCLS 25.64 [11/06] and 19.92 [11/09]; two more closes ≥18 (11/10, 11/11) complete it at the 11/12 read (Stag +2 / Managed −2, MECHANICAL; RED-29 50%). FT-02 0 of 3, FT-10 0 of 4. Owed at RED's next boot (desktop): Oct CPI grade (FT-08 exit, CHG-028 final), household debt (CHG-045/049 on the RE-SPEC), CHG-057 re-review on SoftBank and CoreWeave (D:L1064), CHG-045 canon cell fix per PROME's 11/09 packet, CHG-054 OZK 10-Q (overdue from 11/09), 4 corrections DEFERRED to 11/11. Pickup: `AGENTS/RED/SCRATCH.md` § NEXT SESSION. Report by SendMessage to prome-1e.
