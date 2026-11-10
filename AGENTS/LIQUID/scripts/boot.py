@@ -199,9 +199,23 @@ def build_credit():
         # 260-265 else-block, so the `bps < 260` branch above it had NO RUN CHECK AVAILABLE and
         # printed a two-close label off a ONE-close observation. See the <260 branch below.
         # tr is newest-first; count the CURRENT consecutive run only.
+        # D:L342 (2026-11-10): counts read SESSION rows only. FRED repeats the prior HY value on
+        # bond-market closures (Veterans Day 11/11, Thanksgiving) and prints month-end weekend rows;
+        # `tr` kept them, so a carried row lengthened a run by a day ICE never priced. The letters
+        # already bridge such days (HY-REKILL, WQ-444); `trs` makes the counters obey them. If the
+        # dated pull fails, the counters fall back to `tr` and the row SAYS SO.
+        _pr, _perr = fred_pairs("BAMLH0A0HYM2", 12)
+        try:
+            from gate069_legs import hy_session as _hys
+            trs = [v for _dt, v in _pr if _hys(_dt)] if _pr else None
+        except Exception:
+            trs = None
+        if not trs:
+            trs = tr
+        _cal = "" if trs is not tr else " ⚠️ run counted on UNFILTERED rows (dated pull or bond calendar unavailable)"
         def crun(lim):
             c = 0
-            for x in (tr or []):
+            for x in (trs or []):
                 if round(x * 100) < lim: c += 1
                 else: break
             return c
@@ -231,7 +245,7 @@ def build_credit():
             # readings strictly >320.0, any <=320.0 resets, non-session rows bridge. This run is a
             # WITNESS only: latest-revised rows, holiday rows NOT bridged, non-numeric rows skipped
             # (M8). The first-published count in STATUS governs.
-            k = hy320_run(tr)
+            k = hy320_run(trs)
             st = "MET-WITNESS" if k >= 3 else f"{k}-of-3"
             m, n = "🔴", f"HY >320 — CONFIRMATION rung {st} (WQ-444: 3 consecutive >320.0; witness on FRED rows, STATUS first-published count governs); X1 level leg also tagged: {X1_TAIL}"
         elif b1 > 300: m, n = "🔴", f"HY >300 — approaching the 320 confirmation ({320 - bps:.0f}bp); X1 level leg TAGGED (letter: >280 SUSTAINED): {X1_TAIL}"
@@ -274,7 +288,7 @@ def build_credit():
                 m, n = "🟡", f"PRE-TRIGGER — HY <270 sustained {r270} sessions (KILL_MEMO ladder). {bps - 260:.0f}bps to the 260 kill"
             else:
                 m, n = "🟢", f"260-265 band, ladder rungs NOT sustained — {bps - 260:.0f}bps to 260 kill / {280 - bps:.0f}bps to 280 X1 trigger"
-        add("CREDIT", "HY OAS", f"{bps:.0f}bps", m, n, d, trend_str(tr, 100, 0), headline=True)
+        add("CREDIT", "HY OAS", f"{bps:.0f}bps", m, n + _cal, d, trend_str(tr, 100, 0), headline=True)
 
     # CCC OAS — >1000 trip
     v, d, tr, err = fred_series("BAMLH0A3HYC")
@@ -1021,6 +1035,17 @@ def selftest():
         if got != exp:
             print(f"  ✗ {lbl}: got {got}"); ok = False
     if ok: print("  ✓ WQ-444 >320 run counter (4 cases)")
+    # D:L342: the Veterans Day carry row must not lengthen a run (filter used by build_credit)
+    try:
+        from gate069_legs import hy_session as _hys
+        _rows = [("2026-11-12", 3.22), ("2026-11-11", 3.21), ("2026-11-10", 3.21), ("2026-11-09", 3.10)]
+        _got = hy320_run([v for d, v in _rows if _hys(d)])
+        if _got != 2:
+            print(f"  ✗ D:L342 holiday carry row counted: run {_got}, want 2"); ok = False
+        else:
+            print("  ✓ D:L342 bond-holiday carry row not counted (run 2, not 3)")
+    except Exception as _e:
+        print(f"  ✗ D:L342 bond calendar import failed: {_e}"); ok = False
 
     # Countdown call site on a temporary ledger: finished rows hide, malformed ones still report.
     import contextlib, io, tempfile

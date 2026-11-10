@@ -543,3 +543,57 @@ Neither 325 nor the 342.5 high [October 20] was reached. The full file adds noth
 - **SIG-W-20261109-005 (INFO):** SoftBank −4.2% in Tokyo November 9 before results; Musk's turbine "defaulting" claim is unverified and is not debt. SAM owns the leverage read. Logged to KB-LIQ-153.
 - **GIBBS November 8, Schwab 10-Q (primary):** sweep deposits −3.94% in Q3; bank loans +35% and margin loans +37% year on year, funded with higher-cost wholesale money (brokered CDs $0.283B → $3.797B). Demand-led, not a refused facility. Logged to KB-LIQ-156 as leverage-growth context.
 - **BOND November 9:** 3-year grade as in §18.2.
+
+## 19. Tuesday November 10 (desktop, launched by PROME prome-07 on Will's word 11:38 ET)
+
+### 19.1 D:L342 ruling: EXPOSED, instance fixed 2026-11-10 before the November 11 cell
+
+**VIOLET's read verified, and it is wider than stated.** FRED BAMLH0A0HYM2 prints a row on US bond-market (SIFMA) full closures, and on the first-published basis it repeats the prior value: 21 of 28 such days from November 2023 to October 2026 carry exactly (Thanksgiving 11/28/2024 2.69 = 2.69, 11/27/2025 3.00 = 3.00; Labor Day 9/7/2026 2.68 = 2.68; MLK 1/19/2026 2.65 = 2.65). Christmas, New Year and full-close Good Fridays print no value. **The class is the bond calendar, not NYSE:** Veterans Day (11/11/2024 2.63 = 2.63, 11/11/2025 3.02 = 3.02) and Columbus Day (10/13/2025 3.18 = 3.18, 10/12/2026 3.11 = 3.11) carry while NYSE trades. **So the first exposure is tomorrow, Wednesday November 11, not Thursday November 26.** A second class VIOLET did not name: FRED prints month-end weekend rows with distinct values (Saturday 11/30/2024 2.74, Sunday 11/30/2025 2.92, Sunday 5/31/2026 2.74). 37 such rows in the 791-row first-published set since 2023-11-14.
+
+**Exposed readers (all counted a FRED row as an observation, with no calendar):**
+
+| Reader | Count | Exposure |
+|---|---|---|
+| `boot.py` `crun()` | 260 / 265 / 270 rungs (HY-REKILL machine primary label, KILL_MEMO ladder) | a carry row lengthens a run |
+| `boot.py` `hy320_run()` | >320 witness (STATUS first-published count governs) | same |
+| `hy_oas_watch.py` `_first_published` → `sub_run`, `first_kill_date` | GATE-HY-REKILL, ×2 TERMINAL | a 11/11 carry of a sub-260 11/10 would have completed the pair on one priced session |
+| `gate069_legs.py` L4 / L1 | 069 L4 "HY +5 on the same session"; L1 CCC 5-session change | on 11/11 NYSE trades and HY reads 0 (a false NOT FIRED); on 11/12 the HY change spans two equity sessions |
+| `transmission_check.py` ladder | tier rule d/d and 15-session base | the 11/11 cell would print a 0 bp day (STALLS on a day nobody priced) |
+
+**Letters, unchanged.** GATE-HY-REKILL already says weekends and holidays are non-publication days that do not break consecutiveness; WQ-444 says non-session rows bridge; 069 L4 says "the same session" and its code already fails closed on a stretched session (CATO 9/29). The fix makes the readers obey those letters. No level, operator, count, letter or consequence changed. **My reading: this is conformance, not a change in how a registered count is taken. If PROME reads it otherwise, it returns to Will.**
+
+**Fix (one list, existing readers, no new checker):** `BOND_CLOSED` (SIFMA full closes 2023-11 to 2027-12) and `hy_session()` added beside the NYSE calendar in `gate069_legs.py`; `boot.py`, `hy_oas_watch.py` and `transmission_check.py` read session rows only. `hy_oas_watch.py` fails the kill leg CLOSED if the calendar is missing or a row is past 2027-12-31. Early-close days that ICE prices (Good Friday 4/3/2026, 1/9/2025) stay sessions. Selftests: `gate069_legs.py` +7 cases, `hy_oas_watch.py` +2, `boot.py` +1, all PASS. Watcher run by hand 11:44 ET on the new code: 334 bp [November 9], sub260 0, ok.
+
+**Past counts audited on the first-published set:** since each line was registered, no grade changes. The current >320 run (October 29 to November 9) holds no non-session row. Columbus Day 10/12 sits inside the long >280 run (X1 letter has no session count; RED-FT-01 is RED's count and RED has ruled FT-06); Labor Day sits inside the August 26 to September 8 <270 run without moving its crossing date. Pre-registration differences only (2024-01-15/16 for >350, 2024-07-02/03 for >320, 2025-09 and 2026-02 for >280). `transmission_check.py` recorded grades unchanged: 15-session bases stay October 16 (November 6) and October 19 (November 9); only the percentile context columns move (n 782 → 745).
+
+**REG-T-04 (>350 ×3) is REGINALD's letter.** Whether a carried 11/11 cell counts there is REGINALD's call; TERRY raises it only if the 11/10 cell prints above 350.
+
+### 19.2 November 9 print (FRED first-published; equals latest-revised on every cell)
+
+| Tier | Level | Day | 15 sessions (base October 19) |
+|---|---|---|---|
+| IG | 91 | −2 | +4 |
+| BBB | 113 | −3 | +5 |
+| BB | 200 | −8 | 0 |
+| B | 350 | −11 | +14 |
+| CCC | 1,311 | −6 | +1 |
+| HY | 334 | −8 | +5 |
+
+HY−IG 243, CCC−BB 1,111, CCC−B 961.
+
+**Tier rule (September 25 order): STALLS**, the first time this episode. REVERSES fails (B −11 meets ≤ −4, CCC −6 misses ≤ −9). BROADENS fails on both clauses: no tier widened on the day, and the 15-session changes fell short (IG +4 vs +6, BBB +5 vs +7, BB 0 vs +19) as the October 16 to 19 widening left the base. CONTINUES fails (neither B nor CCC wider). A rally day: the pause of November 6 extended, not a reversal on the rule's numbers.
+
+**>320 first-published run: 8 observations** (326 / 344 / 343 / 340 / 332 / 348 / 342 / 334). REGINALD >350 witness 0 of 3, max 348. No below-300 observation.
+
+| Gate | Grade |
+|---|---|
+| HY-REKILL | NOT FIRED, 0 of 2 (HY 334) |
+| 069 L1 | NOT FIRED: BB 200, 20 under 220; CCC 5-session −8 (vs November 2), flat |
+| 069 L4, November 9 session | NOT FIRED: CRWV +5.56%, IREN −1.06%, APLD +7.52%, NBIS +9.24% (raw closes); HY −8 |
+| 072 price leg | NOT FIRED: IG 91 fails >94; HY−IG 243 fails <180 |
+| 079 | NOT ARMED: SOFR99 3.96 − IORB 3.90 = +6 bp [November 9, non-calendar] |
+| 076 W3 | November 9 MET on VIOLET's recorded figures: MOVE 85.98 > 85.00, VIX 19.92 < 20.00 (Cboe History, VIOLET STATUS 11/10). Re-witnesses a leg already counted. Window October 28 → November 10: 1 of 3 |
+
+Funding November 9: SOFR 3.88, SOFR−IORB −2, SOFR75−IORB +4, TGCR−IORB −4 bp; standing repo $0.005B, RRP $0.25B. Eased a fifth day.
+
+**Context, grades nothing:** December now fully priced plus about 13% of a further 25 bp after Waller's 04:00 ET speech and core CPI +0.3% (HENRY f3279ab9ac, WALTER card SIG-W-20261110-001; vendor last trades, not CME settlements). 10-year yield about 5.00% at 11:40 ET (vendor, not H.15).

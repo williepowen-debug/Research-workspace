@@ -46,6 +46,39 @@ NYSE_CLOSED = {
     "2027-09-06", "2027-11-25", "2027-12-24"}
 CAL_FIRST, CAL_LAST = "2025-01-02", "2027-12-31"
 
+# US BOND-MARKET full closes (SIFMA calendar) — D:L342, LIQUID 2026-11-10. ICE does not price its
+# indices on these days, yet FRED prints a row for most of them that REPEATS the prior value
+# (first-published, verified 11/10: 21 of 28 such days 2023-11 to 2026-10 carry exactly; e.g. Veterans
+# Day 11/11/2025 3.02=3.02, Columbus Day 10/12/2026 3.11=3.11, Thanksgiving 11/27/2025 3.00=3.00).
+# FRED also prints month-end WEEKEND rows (e.g. Sun 2025-11-30). Neither is a session. Every registered
+# HY count letter already says so (GATE-HY-REKILL: weekends/holidays are non-publication days that do
+# not break consecutiveness; WQ-444: non-session rows bridge) — this list makes the readers obey it.
+# NOT the NYSE list: Columbus and Veterans Day are bond-closed with NYSE open; early-close days
+# (Good Friday 2026-04-03, 2025-01-09) are priced and stay sessions. Extend before 2027-12-31.
+BOND_CLOSED = {
+    "2023-11-23", "2023-12-25",
+    "2024-01-01", "2024-01-15", "2024-02-19", "2024-03-29", "2024-05-27", "2024-06-19", "2024-07-04",
+    "2024-09-02", "2024-10-14", "2024-11-11", "2024-11-28", "2024-12-25",
+    "2025-01-01", "2025-01-20", "2025-02-17", "2025-04-18", "2025-05-26", "2025-06-19", "2025-07-04",
+    "2025-09-01", "2025-10-13", "2025-11-11", "2025-11-27", "2025-12-25",
+    "2026-01-01", "2026-01-19", "2026-02-16", "2026-05-25", "2026-06-19", "2026-07-03", "2026-09-07",
+    "2026-10-12", "2026-11-11", "2026-11-26", "2026-12-25",
+    "2027-01-01", "2027-01-18", "2027-02-15", "2027-03-26", "2027-05-31", "2027-06-18", "2027-07-05",
+    "2027-09-06", "2027-10-11", "2027-11-11", "2027-11-25", "2027-12-24"}
+BOND_CAL_LAST = "2027-12-31"
+
+
+def hy_session(d):
+    """True if FRED ICE row date `d` is a bond-market session (weekday, not a SIFMA full close).
+    A row on any other day is a carry or a month-end weekend valuation: never a counted observation."""
+    from datetime import date as _d
+    return _d.fromisoformat(d).weekday() < 5 and d not in BOND_CLOSED
+
+
+def drop_nonsession(series):
+    """{date: value} -> the same without non-session rows (see BOND_CLOSED)."""
+    return {d: v for d, v in series.items() if hy_session(d)}
+
 
 def is_session(d):
     from datetime import date as _d
@@ -107,6 +140,11 @@ def grade_l4(hy, eq):
     base = {"state": "INSTRUMENT-FAULT", "rows": [], "last": last, "hprev": hprev}
     if not is_session(last) or hprev is None:
         return {**base, "faults": [f"{last} is not a covered NYSE session (calendar {CAL_FIRST}..{CAL_LAST})"]}
+    if not hy_session(last):   # D:L342: a carried FRED row is not an HY observation
+        return {**base, "faults": [f"{last} is a bond-market closure: the HY row is a carry, not a session"]}
+    if hprev in BOND_CLOSED:   # D:L342: NYSE traded, ICE did not price — the HY change would span two sessions
+        return {**base, "faults": [f"bond market closed on {hprev} (NYSE session): HY has no observation for it, "
+                                   f"so a {last} HY change would span two equity sessions"]}
     if hprev not in hy:
         return {**base, "faults": [f"HY obs missing for the required previous session {hprev}"]}
     hy_chg = hy[last] - hy[hprev]
@@ -262,6 +300,19 @@ def selftest():
           grade_l1({d: bp("2.30") for d in D}, {**{d: bp("8.00") for d in D}, D[-1]: bp("8.15")})["flat"], True)
     hy_tie = {d: bp("2.50") for d in D}; hy_tie[D[-1]] = bp("2.55")
     check("tie: HY 2.50 → 2.55 (+5bp exactly) IS credit underperforming (>=)", grade_l4(hy_tie, eq_fire)["cr"], True)
+    # D:L342 (2026-11-10): FRED carries HY on bond-market closures; NYSE may be open (Veterans Day)
+    vd = {"2026-11-09": 334, "2026-11-10": 340, "2026-11-11": 340, "2026-11-12": 346}
+    check("hy_session: Veterans Day 2026-11-11 is not an HY session", hy_session("2026-11-11"), False)
+    check("hy_session: Good Friday 2026-04-03 (early close, priced) IS", hy_session("2026-04-03"), True)
+    check("hy_session: month-end Sunday 2025-11-30 is not", hy_session("2025-11-30"), False)
+    check("drop_nonsession removes the carry row", sorted(drop_nonsession(vd)), ["2026-11-09", "2026-11-10", "2026-11-12"])
+    v_eq = {t: {"2026-11-10": 100.0, "2026-11-11": 84.0, "2026-11-12": 84.0} for t in TICK}
+    check("L4 on Veterans Day itself (carry row present) → INSTRUMENT-FAULT, never a 0bp NOT FIRED",
+          grade_l4({k: v for k, v in vd.items() if k <= "2026-11-11"}, v_eq)["state"], "INSTRUMENT-FAULT")
+    check("L4 the day after (HY change would span 11/10→11/12) → INSTRUMENT-FAULT",
+          grade_l4(drop_nonsession(vd), v_eq)["state"], "INSTRUMENT-FAULT")
+    check("L4 after Thanksgiving: NYSE and bonds both shut, prev session 11/25 → graded",
+          grade_l4({"2026-11-25": 330, "2026-11-27": 336}, {t: {"2026-11-25": 100.0, "2026-11-27": 99.0} for t in TICK})["state"], "NOT FIRED")
     print(f"\n  SELFTEST: {'PASS' if ok else 'FAIL'}")
     return 0 if ok else 1
 
@@ -276,7 +327,7 @@ def ser(sid, n=30):
         # Unrounded, 2.20*100 = 220.00000000000003 > 220 (a FALSE L1 fire at exactly the line) and
         # 2.55*100 - 2.50*100 = 4.999… < 5 (a MISSED L4 credit leg at exactly +5bp).
         out[x["date"]] = bp(v)
-    return out
+    return drop_nonsession(out)   # D:L342: carry and month-end weekend rows are not observations
 
 
 def bp(pct):
@@ -325,7 +376,13 @@ def main():
     for t, close, chg, ep in g4["rows"]:
         print(f"      {t:<6} {close:>10.2f}  {chg:+.2f}%   [session {g4['last']} vs {ep}, raw close]")
     if g4.get("newer"):
-        print(f"      ⏳ equity sessions after the latest HY obs {g4['newer']}: UNGRADEABLE-PENDING-PUBLICATION (not graded)")
+        shut = [d for d in g4["newer"] if d in BOND_CLOSED]
+        wait = [d for d in g4["newer"] if d not in BOND_CLOSED]
+        if wait:
+            print(f"      ⏳ equity sessions after the latest HY obs {wait}: UNGRADEABLE-PENDING-PUBLICATION (not graded)")
+        if shut:
+            print(f"      ⛔ equity sessions on a bond-market closure {shut}: UNGRADEABLE — ICE does not price, "
+                  f"so no HY session change exists (D:L342); the next session is UNGRADEABLE too")
     if "hy_chg" in g4:
         print(f"      HY OAS session change {g4['hy_chg']:+.0f}bp [obs {g4['last']} vs {g4['hprev']}, prev NYSE session] "
               f"-> credit underperforming? {'YES' if g4['cr'] else 'NO'}")

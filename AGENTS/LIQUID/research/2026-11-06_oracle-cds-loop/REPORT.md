@@ -150,7 +150,7 @@ A shared tape is not a link. Proof means the same dollars. **Any one of these wo
 | About November 13 | W1 as-of November 10, first print able to show a cover after November 5 | LIQUID |
 | November 19 | ING data-centre loan bids [RELAY] | WALTER, LIQUID |
 | Mid-December, not set | Oracle Q2 FY27 results and 10-Q: remaining performance obligations, prepayments, vendor financing. Any public raise beyond the pledge | VULCAN, LIQUID |
-| December 31 | IREN GPU 2.0's undrawn $1.5B lapses [FILE]; a Microsoft-linked funding test | VULCAN, LIQUID |
+| December 31 | IREN GPU 2.0's undrawn $1.5B lapses [FILE]; the draw test is IREN's own certificate, and the Microsoft contract is not collateral, so a Microsoft cut is not a default on this loan (BROCK KB-BRK-474, corrected November 10; was "a Microsoft-linked funding test") | VULCAN, LIQUID |
 | About January 1, 2027 | Oracle's 60-day company lock-up ends [FILE] | LIQUID |
 | Late January, not set | Microsoft 10-Q: commitments and leases not yet commenced | VULCAN |
 

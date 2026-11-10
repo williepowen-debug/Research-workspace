@@ -34,7 +34,12 @@ def pct_rank(x, hist):
 def ladder(asof):
     data = {k: series(s) for k, s in LADDER}
     dates = sorted(set.intersection(*(set(v) for v in data.values())))
-    dates = [d for d in dates if d >= START and (asof is None or d <= asof)]
+    # D:L342 (2026-11-10): drop bond-market closures and weekend month-end rows. FRED repeats the
+    # prior ICE value on closures (Veterans Day, Thanksgiving), so a carried row printed a 0 bp
+    # "day" and shifted the 15-session base by a day nobody traded.
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+    from gate069_legs import hy_session
+    dates = [d for d in dates if d >= START and (asof is None or d <= asof) and hy_session(d)]
     i = len(dates) - 1
     print(f"== LADDER (bp, FRED latest-revised) latest obs {dates[i]} | prior {dates[i-1]} | 15-sess base {dates[i-15]} | history {dates[0]}..{dates[i]}")
     print(f"{'tier':5}{'level':>7}{'d/d':>6}{'d/d pct':>9}{'>=':>6}{'15s':>6}{'15s pct':>9}{'>=':>6}  n_dd/n_15")

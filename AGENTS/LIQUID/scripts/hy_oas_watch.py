@@ -240,6 +240,14 @@ def selftest():
     # holiday gap: two consecutive PUBLISHED obs across a non-publication day count as consecutive
     r8 = decide(258, "2026-09-08", s0, hy, classify, [("2026-09-08", 258), ("2026-09-04", 259)])
     check("consecutive published obs across a holiday → kill", K(r8), True)
+    # D:L342 (2026-11-10): a Veterans Day carry row must not complete a pair — _first_published drops it
+    from gate069_legs import hy_session
+    vet = [("2026-11-10", 259), ("2026-11-11", 259), ("2026-11-12", 262)]
+    check("bond-holiday carry row cannot complete a kill pair",
+          first_kill_date([r for r in vet if hy_session(r[0])], hy.get("kill_below", 260)), None)
+    check("pair across Thanksgiving (11/25, 11/27) still consecutive",
+          first_kill_date([r for r in [("2026-11-25", 259), ("2026-11-26", 259), ("2026-11-27", 258)]
+                           if hy_session(r[0])], hy.get("kill_below", 260)), "2026-11-27")
     # STATELESS TERMINAL (reader CE6): history alone establishes a prior fire, no state file needed
     kb = hy.get("kill_below", 260)
     hist = [("2026-07-01", 270), ("2026-07-02", 259), ("2026-07-03", 258), ("2026-07-06", 270)]
@@ -435,9 +443,18 @@ def _first_published(mult):
         dates = [o.get("date") for o in obs]
         if len(dates) != len(set(dates)):
             return None
+        # D:L342 (2026-11-10): FRED repeats the prior value on bond-market closures (Veterans Day,
+        # Thanksgiving) and prints month-end weekend rows. The letter makes those non-publication
+        # days that do not break consecutiveness, so they are dropped here, never counted. No
+        # calendar (import failure or a date past its end) => the kill leg fails CLOSED.
+        from gate069_legs import hy_session, BOND_CAL_LAST
+        if any(o.get("date", "") > BOND_CAL_LAST for o in obs):
+            return None
         out = []
         for o in obs:
             if o.get("value") in (".", None, ""):
+                continue
+            if not hy_session(o["date"]):
                 continue
             # FRED publishes OAS at 0.01 percent: compare its integer-bp value,
             # not a floating-point product against the strict kill boundary.
