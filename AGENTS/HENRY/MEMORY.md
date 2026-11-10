@@ -53,26 +53,22 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-09 20:11 ET laptop boot (Will's boot ask; Claude Code, Opus 5.5, host WilliePOwen). Closed 10:1x ET 11/10 on PROME's ask (laptop back to desktop). **CPI printed and NOT graded.**
+### CHANGES SINCE — 2026-11-10 desktop, 11:09–16:2x ET (PROME prome-07 launch and three taps; Claude Code, Opus 5.5). Window held open at the end on PROME's word, not closed out.
 
-- **The miss, classified:** the boot ended "keep the window open, PROME will message after 08:30". No message came, and an idle session cannot wake itself (timers were forbidden by the wake packet). The next input was the 10:11 closeout ask, which said no new work. So the pre-open map, the CPI grade and the WALTER 011 open read all went unrun. **Next time a boot hands off to "a message will come", say at the boot report that the session cannot wake itself, so Will knows the grade depends on that message arriving.**
-- WALTER 011 (Huang affair acknowledged, Nvidia probe, FBI remark) was logged as deferred and moved to processed. COR-20261109-11 receipted NO-OP. AP's −11% checked at −10.7% (178.67 vs 200.13, vendor).
-- Laptop dependencies: api.bls.gov works (September control matched); bls.gov web 403; Treasury CSV slow (17s) but 200; GitHub DNS failed once, then fetched.
+- **HEN-57 / L775 graded late (about 2h40m), NOT FIRED:** core +0.3 (+0.296%), headline +0.4 (+0.350%), from api.bls.gov SA indexes (bls.gov web 403). Expectation HIT on the verdict, level 0.1 low. MISS LINE: next CPI expectation starts from the three-month core run rate (0.3, 0.3, 0.3), not the nowcast alone.
+- **HEN-62 RESOLVED-HIT 11/10:** 2Y par 4.73 (11/9 4.56). The Treasury par CSV had the same-day print at 16:21 ET.
+- **Overnight 82% → 99% December repricing = Waller's London speech, released 04:00 ET** (Fed speeches RSS `federalreserve.gov/feeds/speeches.xml` works here; pubDate is GMT). Method that worked: find the jump minute on ZQZ26 1-minute bars, then check every candidate against that minute and the cross-asset moves in it.
+- **December pricing:** ZQZ26 95.920 (+28.2bp, 113% on the binary) after CPI, 95.925 at 15:00 ET, 95.920 last trade 16:01 ET. HEN-63 0.70 NOT re-marked (its letter has no re-mark clause; the gap is recorded, not a revision). One of the registration shades (soft core CPI) failed.
+- **Map 11/10 (11:1x ET):** SPX flip ~7,635, walls WITHHELD (7,500 equals put and call at spot); QQQ call 680, put WITHHELD; NDX put 28,000 overhead, call 29,675. `PUBLISHED.tsv` NONE rows written by hand.
+- Citi note behind WALTER 004 UNREACHABLE (client note); NVDA −5.47% vs SMH −0.78% on the close, single-name.
+- STATUS rotated to 70% of budget (ROT-11/10 and ROT-11/10-CLOSE in STATUS_COLD).
+- **Slips:** three typed timestamps ahead of the clock (fixed from `date`); an unquoted path in a scratch `cat > "$TMPDIR/..."` failed harmlessly.
 
-### PRIOR SESSION (11/9 desktop, 12:09–19:4x ET; detail in git log and STATUS_COLD)
+### NEXT SESSION
 
-- **Inbox drained:** 15 WALTER cards and ZHAO's 11/8 packet, all in `board_log.tsv` and `git mv`'d. WALTER 053 moved too. 3 corrections receipted (COR-20261107-02 APPLIED on the NEXUS Qeshm line). `--scope` text for a NO-OP receipt may not contain `;`.
-- **11/9 midday map published:** SPX flip ~7,660/~7,661, put 7,500 and call 7,700 clean at both horizons; QQQ walls WITHHELD with `NONE` value rows (that closes last session's item 4: consumer_check reads the latest row, so `NONE` is how to say none published). NDX put 28,000 sits overhead.
-- **CPI prep:** `research/2026-11-09_cpi-wake/CPI_GRADE_SHEET.md`. bls.gov web 403s this box; api.bls.gov v1 serves SA indexes, so compute m/m from them (September core control 338.896/337.765 = +0.335% → 0.3). Grade on the BLS one-decimal figure; a late grade is not NO-VERDICT.
-- **WALTER 010:** every 11/10 US–China clock moved to January 9–11, 2027, one row per instrument in STATUS. 公告2026年第58号 (the suspension) is not 公告2025年第58号 (the battery package).
-- **11/9 close (vendor):** SPX 7,549.94 +2.35%, VIX 19.92, 2Y par 4.56% (+5bp) with oil down: the front end is trading the hike path into CPI. HEN-60, -61, -62 not resolved.
-- **Slips:** ran an absence grep with `2>/dev/null` (LESSONS forbids); re-ran unsuppressed with a positive control. Boot consumer sweep timed out at 180s again. `git pull --rebase` refused all session on other desks' dirty files; a non-ff after the brief commit was another session already carrying mine to origin (`merge-base --is-ancestor`).
-
-### NEXT SESSION (desktop; full list in STATUS § CROSS-DESK "Desktop pickup")
-
-1. **Map:** pull, `gamma_flip.py --both --publish` (an intraday read now, after about 09:47 ET), hand-write wall rows (`NONE` where withheld).
-2. **HEN-57 / L775: grade October CPI FIRST, it is late** (a late grade is not NO-VERDICT), from the grade sheet. Then WALTER 011: NVDA against SMH, QQQ and RSP on the session tape. Log release row, KB row, PREDICTIONS HEN-57, reaction (2Y, SPX vs map, KRE). ZQZ26 hike rerun 15:00 ET (76% at 11/6). ONE packet to `PROME/inbox/` citing L775 / HEN-57 and SIG-W-20261109-004; then move the PROME wake packet to processed with a board_log row. Quiet mode; no trade proposal except through TERRY.
-3. FRED 11/9 HY and CCC into MARKET_DATA (USD/JPY 11/9 left blank: vendor bar already stamped 11/10). HEN-58 PPI 11/13 (L776); NVDA 11/17 after the close (L926); HEN-60 and HEN-62 resolve 11/30, HEN-61 12/31; HEN-63 12/9.
-4. Row 9 collapse leg: grade at the 11/18 close after 16:15 ET (WQ-635 A, letter in STATUS). ECON_CALENDAR rebuild before 11/20.
-5. Unrun from Will's list: breadth rerun on closes, options volume by strike, top-name point attribution. Operating Dashboard still 10/22, same URL.
-6. Combination themes review: 11/13 (`risk-off-bid-vs-hike-path`, `narrow-rebound-or-broadening`, ML-HEN-208 added), 11/18 (`ai-chips-sold-without-a-capex-cut`), 11/20 (`levered-and-close-flows`).
+1. **Map pre-open 11/11** (`gamma_flip.py --both --publish`, hand-write wall rows): the chain will carry 11/10 trading for the first time.
+2. FRED 11/10 HY and CCC into MARKET_DATA and the credit table (CPI-day cell). FRED SP500 and VIXCLS 11/10 to confirm the vendor closes.
+3. **HEN-58 PPI Fri 11/13 (L776)**; expect NONE ≤0.4. Register the wake as a DOCKET row: an idle window cannot wake itself (11/10 lesson).
+4. HEN-60 (SPX under its 200-day by 11/30; +2.6% above on 11/10), HEN-61 (record by 12/31; −3.8%), HEN-63 (12/9). Operating Dashboard is stale: HEN-57 and HEN-62 resolved 11/10 and are not on it; refresh the SAME URL.
+5. NVDA results Tue 11/17 after the close (L926); row 9 collapse leg at the 11/18 close (WQ-635 A); ECON_CALENDAR rebuild before 11/20.
+6. Combination themes review 11/13 (`risk-off-bid-vs-hike-path` got ML-HEN-214), 11/18, 11/20. Unrun: breadth rerun, options volume by strike, top-name point attribution (cap weight lagged equal weight 0.35pp on 11/10).

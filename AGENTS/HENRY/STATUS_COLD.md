@@ -666,3 +666,39 @@ No threshold level, band, trade or gate changed. On the close two state words mo
 ⚠️ Intraday marks and live spot. Free-tier proxy: sign and flip robust, $B assumption-dependent, walls the fragile part. Re-run pre-open 11/10 before CPI.
 
 **Levels (SPX, own calc with the 11/9 intraday bar):** 200-day 7,328.21 · 50-day 7,676.13 · yellow 7,200 · orange 7,100 · red 7,037.04 (−10% from the 10/6 peak 7,818.93, WQ-609 A).
+
+
+## ROT-11/10-CLOSE (rotated verbatim 2026-11-10 16:2x ET at the close read; STATUS at 84% of the read-cap budget)
+
+### Header history before 11/10 (verbatim tail of the "Last owner update" line)
+
+Before that 2026-11-09 20:19 ET, laptop boot (Claude Code, Opus 5.5; host `WilliePOwen`): nothing changed since closeout; WALTER 011 deferred to the 11/10 open (pickup item 7, section now "Desktop pickup"). Before that 2026-11-09 19:4x ET, closeout on PROME's ask (WQ-249, Will 19:37 ET: close every desktop desk, switch to the laptop): 11/9 close line added under VIEW, MARKET_DATA 11/9 row, laptop handoff in § CROSS-DESK "Laptop pickup". CPI not yet graded; the PROME wake packet stays in `inbox/` until it is. Before that 2026-11-09 13:0x ET, WALTER 010 (US–China clocks moved to the January 2027 cluster). Before that 12:1x ET, PROME due-row wake (Will's word 12:07 ET; Claude Code, Opus 5.5): inbox drained (15 WALTER, 1 ZHAO), 3 corrections receipted, 11/9 gamma map published, 11/6 credit filled, WALTER 004 acted, HEN-57 CPI grade sheet set. 11/6 close VIEW and map rotated verbatim to `STATUS_COLD.md` § ROT-11/09. Before that 2026-11-06 18:3x ET, Will's closeout via PROME: WALTER 047 and 049 consumed, STATUS rotated. Before that 17:1x ET, Will's close-refresh via PROME (Claude Code, Opus 5.5, `claude-opus-5-5`): 11/6 close graded, map re-published on the close, thresholds re-based to 11/6, MARKET_DATA backfilled, WALTER 042 consumed. Earlier closes 16:4x ET (SoftBank line, 4 packets, 5 corrections), 15:3x ET (December hike read), 10:2x ET (WQ-626 A wake, 11/5 close grade, HEN-59 resolved). The 11/6 morning VIEW, the 09:55 ET map and the grade of the 11/5 maps rotated verbatim to `STATUS_COLD.md` § ROT-11/06-CLOSE.
+
+### RELEASES SINCE 11/2: rows 11/2-11/5 and the paragraphs under the table
+
+| ISM manufacturing Oct (11/2) | 55.5; orders 55.5, employment 52.4, prices 75.2 | UNKNOWN | 54.5 | SPX −0.51% that day; overlapped | Activity holds, prices stay RED observation; inventory and precautionary demand limit breadth (ISHM) |
+| S&P manufacturing final Oct (11/2) | 54.9 | flash 56.0 | 55.9 | — | Components unverified (portal 403) |
+| JOLTS Sep (11/3) | openings 7,523K; hires−separations +83K | UNKNOWN | +96K rev | — | LABOR owns |
+| ADP Oct (11/4) | +86K | UNKNOWN | +86K rev | — | Not CES; does not grade HEN-59 |
+| ISM services Oct (11/4) | 54.5; orders 55.9, employment 51.4, prices 73.0 | UNKNOWN | 54.9 | SPX +1.58%; overlapped by oil and election | Demand softer but above 50; prices remain high: the two legs stay separate |
+| Productivity Q3 prelim (11/5) | output per hour +3.5% annualized; unit labor costs −0.7% annualized | UNKNOWN | — | not separable from the open | ⚠️ My annualization of FRED OPHNFB/ULCNFB index levels; BLS page 403, release text unread |
+
+Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read there, not re-read by HENRY). KB ML-HEN-195.
+
+**Election (SIG-W-20261104-038):** HENRY held no election scenario to reconcile; nothing to grade (search with positive control in `board_log.tsv`). Reaction logged KB ML-HEN-196, cause not established.
+
+**Breadth check (SIG-W-20261104-055):** the attributed "60% of S&P 500 in bear-market territory" (Goldman's Molavi via Bloomberg, 11/3) does not reproduce: **31.3%** of members sat 20%+ under their 252-session closing high on 11/3 (33.3% on intraday highs), 29.1% on 11/4; **56.4%** sat 10%+ under on 11/3, 50.6% on 11/4. Bloomberg's definition was not read, so the gap is unexplained. Members above 50-day / 200-day: 71.7% / 65.5% on 11/4. SPX was −3.2% from its 10/6 record on 11/3. Own calc, `research/2026-11-05_catchup/breadth_recheck.txt`, KB ML-HEN-197.
+
+**Rotated verbatim to `STATUS_COLD.md` § ROT-11/06-EVE:** the L616 market breadth study (10/30 closes, predates the 11/5 selloff; the latest member read is the 11/4 line above), the 11/5 midday adds and the positioning leads. QQQ short interest 10/30 settlement still not posted.
+
+### SOXX
+
+- **SOXX:** iShares 3-for-1 split effective 11/5. The vendor has now applied it: 11/5 131.90, 11/6 136.53 (+3.51%). 11/4 150.14 post-split makes 11/5 −12.15%, in line with SOX −12.25% (WALTER 033). The false 11/5 change I flagged is gone.
+
+### Inbox, 11/9 due-row wake (12:1x ET)
+
+- **Inbox, 11/9 due-row wake (12:1x ET):** WALTER lane 15 cards and ZHAO's 11/8 clocks packet dispositioned in `board_log.tsv`, moved to processed. Acted: 004 (Citi, index tape, VIEW above, ML-HEN-208). Corrections: COR-20261107-02 APPLIED (NEXUS_BRIEF Qeshm line: Trump's "minor strikes" weakens "attacker unnamed"), COR-20261108-02 and COR-20261109-09 NO-OP, never carried. ZHAO 11/8: three separate 11/10 clocks; all since re-suspended to January 9–11 (WALTER 010, bullet above). Standing from earlier inboxes (rotated `STATUS_COLD.md` § ROT-11/06-EVE and ROT-11/09-INBOX): put/call 11/5 0.89 at the Cboe file; SoftBank leverage about 22% to 24% (SAM); Oracle CDS 305bp [11/5]. Nothing moved.
+
+### CREDIT MONITOR: LIQUID 11/4 paragraph
+
+**LIQUID 11/4 (owner adjudication, SIG-W-20261104-076):** renewed >320 persistence MET 11/2, fourth observation 11/3; existing tier rule BROADENS (IG 94/94/93 fails strict >94). Price repricing is demonstrated; a generalized funding restriction is not (funding NOT ARMED through 11/3). REGINALD's strict >350 ×3 stays 0 of 3. `credit_monitor.py` at boot 11/9: gap 1,109bp, +246bp over about 3 months (CCC +294 vs BB +48), HYG/LQD 5-session −0.19%, no fund-flow flag.
