@@ -1,22 +1,22 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-10T15:13:34Z, Claude Code Opus 5.5, session walter-bb on the laptop WilliePOwen. **Tier 1 LIGHT closeout for the machine switch to the desktop** (PROME prome-1e relaying Will 10:11 ET November 10: "lets close all agents out to switch back over to desktop"). Full deferred: 1 breadcrumb. No routing, boot step or new work since the 01:22Z full closeout; the text below is that closeout's, with resume items 1, 3 and 9 updated now.
+Updated 2026-11-10T16:45:40Z, Claude Code Opus 5.5, session walter-96 on the desktop DESKTOP-BC6EF81. **Desktop boot, routing pass and Tier 1 LIGHT closeout; window HOLDING open with no timer** (PROME prome-07 launch on Will's 11:38 ET word: route the November 10 releases and graded desk results, then ZHAO's outbox signal). Full deferred: 2 breadcrumbs. Cards SIG-W-20261110-001 to -005.
 
-Prior header: Updated 2026-11-10T01:22:33Z, Claude Code Opus 5.5, session walter-bb on the laptop WilliePOwen. **Tier 2 FULL closeout** on Will's 20:15 ET November 9 go-ahead ("ok go ahead" to: finish boot, route the six lane items, run the overdue full closeout). Clears the six light-closeout breadcrumbs since November 6 23:34Z. Coverage PARTIAL (GAPS). Earlier resume, status, changed and result text and 15 GAPS bullets moved verbatim to research/2026-11-09_laptop-boot/LC-ROTATED.md; still binding where their conditions hold.
+Prior header (2026-11-10T15:13:34Z, walter-bb, laptop): Tier 1 LIGHT closeout for the machine switch; prior to that the 01:22Z Tier 2 FULL closeout, whose text below stands except where items are updated.
 
 ## RESUME — do these first
 
-1. **November 10, NOT routed by WALTER; desktop pickup.** This window was idle from 01:22Z to the switch; nothing below was routed. The desktop boot's step 7i must enumerate every release from the cutoff below and match it to BOARD and the owner's own log (SAM committed a SoftBank grade, bbd8974416; VIOLET carried a CPI read to the desktop, 646871ab65; neither read by WALTER). Original item: routing only; owners grade. SoftBank results 15:30 JST = 01:30 ET (SAM's lookup 47678a9017; card 041 leverage figures are September 30 estimates); CPI 08:30 ET (HENRY HEN-57; RED-FT-08 stands until RED grades; inflation filter LOOSE through the print); NY Fed household debt 11:00 ET (CARL); 10Y $42B auction 13:00 ET (BOND); CoreWeave results (VULCAN). No WALTER timer or unattended watch (WQ-388 DECLINE stands); this window routes what desks send while it is open.
+1. **DISCHARGED 11/10 desktop (walter-96):** November 10 releases reconciled at step 7i (research/2026-11-10_desktop-boot/CALENDAR-RECONCILIATION.tsv) and routed from the owners' grades: 001 CPI and Waller (HENRY add9590e6d, f3279ab9ac), 002 NY Fed household debt (CARL 8298f1f17f), 003 ZHAO's 11/27 clock and the 11/10 clock grades (2cbc0f65d4, outbox file), 004 BROCK IREN and Car-Mart (ac07f4abf5, 7794582852), 005 SoftBank, China CPI/PPI and trade, JGB 30-year, NFIB, PRED-38, VIO-PRED-07. **Still open:** 10-year $42B auction 13:00 ET (BOND live) and CoreWeave results after the close (VULCAN) not yet elapsed at the cutoff; USDA Crop Production (FERT, L761) UNKNOWN. Routes what desks send while this window is open; no timer (WQ-388 DECLINE stands).
 2. **X bookmarks blocked on the laptop:** `python3 AGENTS/WALTER/tools/x_bookmarks_scan.py` → "Token refresh failed; re-authorize. No IDs marked." Needs `--authorize` in Will's browser on this machine. Nothing marked.
-3. **HY November 9 cell, due about 10:10 ET November 10, NOT read by WALTER before the switch; desktop step 6c.** HY 342 [Nov 6, first-published]; REG-T-04 strict >350 x3 0/3, 8 bp, near-trigger watch. RED and REGINALD grade.
+3. **DISCHARGED 11/10:** HY 334 [Nov 9] first-published (342 prior); REG-T-04 strict >350 x3 0/3, 16 bp, near-trigger watch; tightening. November 11 Veterans Day is a non-session for ICE BofA OAS (RED rule: bridge, never count); the November 10 cell is due on FRED November 11 or 12, publication timing not checked. RED and REGINALD grade.
 4. **Oracle DTCC November 6 file:** LIQUID owns the read; not routed by WALTER; nothing scheduled.
 5. **Iran full sweep about November 12** (anchor ladder item 8); add Saudi, Houthi and Yanbu terms; reconcile ladder item 1 (Kharg and South Pars wording vs FAL-01 RESOLVED; FALCON owns). FALCON owes a read on card 023 (Osprey). IRAN_WAR.md 24,329 B, 83 B under the 75% trigger: rotate at the sweep.
 6. **Open, unchanged:** CF call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; HOMER and FERT wake recommendations with PROME need a fresh read; STWD, ACRE and RC calls unheard. Michigan monthly dates need a calendar home (flag to HENRY at next touch).
 7. **WQ-622 combination watch:** WALTER has not set it up; offer stands, Will has not answered.
-9. **Doctor at the switch (2026-11-10T15:13:34Z):** MED HAWK registry row 2026-11-06 behind owner commit November 9 (step 8 refresh); MED REQ-DEWEY-20261022-003R 7 days past deadline (run or drop); MED AI_INFRA_CAPEX coherence review 31 days old (CLUSTER_TAXONOMY revisit test); MED 18 unconsumed over 2 days across YURI, AEOLUS, HOMER, CATO, WAL, WATT (oldest ACTION 22 days). LOW: two ISHM and LIQUID packets filed without a .consumed.tsv line. None started.
+9. **Doctor at the 11/10 desktop boot (run just after the 16:39:07Z clock read):** no HIGH. MED HAWK and RED registry rows refreshed here (step 8, plus CARL, SAM, BROCK). Still open: MED REQ-DEWEY-20261022-003R 7 days past deadline (run or drop); MED AI_INFRA_CAPEX coherence review 31 days old; MED 18 unconsumed over 2 days across YURI, AEOLUS, HOMER, CATO, WAL, WATT (oldest ACTION 22 days; not a DARK finding). LOW: two ISHM and LIQUID packets filed without a .consumed.tsv line. None started.
 8. Discharged this session: November 6 certification (Cboe VIX 25.64, SKEW 153.55; Nasdaq WAL 75.55, KRE 72.20, all [Nov 6], research/2026-11-09_laptop-boot/THRESHOLD-SCAN.md); Tier 2 debt; WQ-646 A weekend reads (all four routed through card 20261108-002; the grant ended Sunday and was never standing).
 
-Calendar coverage cutoff: 2026-11-10T01:20Z (step 7i at this boot; typed stamp, the check ran between the 01:18:31Z pull and 01:21:02Z; rows in research/2026-11-09_laptop-boot/CALENDAR-RECONCILIATION.tsv; no scheduled release in the window; Syria/Russia MOU review UNKNOWN, OSPREY owns).
+Calendar coverage cutoff: 2026-11-10T16:44Z (step 7i at the desktop boot, from date output 16:44:39Z; rows in research/2026-11-10_desktop-boot/CALENDAR-RECONCILIATION.tsv). Previous cutoff 2026-11-10T01:20Z (step 7i at the laptop boot; typed stamp, the check ran between the 01:18:31Z pull and 01:21:02Z; rows in research/2026-11-09_laptop-boot/CALENDAR-RECONCILIATION.tsv; no scheduled release in the window; Syria/Russia MOU review UNKNOWN, OSPREY owns).
 
 ## STATUS
 
@@ -87,32 +87,30 @@ Boundary 8’s registered fallback and missing official-settlement execution rem
 
 ## CLOSEOUT RECEIPT
 
-Tier 1 LIGHT closeout for the machine switch; prior FULL closeout 2026-11-10T01:22Z (9ac1a64128), and before it November 6 23:34Z (ef1de5313a). Operational coverage PARTIAL. Publication is not consumption.
+Tier 1 LIGHT closeout after the desktop routing pass; window held open. Prior: light 2026-11-10T15:13:34Z (050dff4cbe), FULL 2026-11-10T01:22Z (9ac1a64128). Operational coverage PARTIAL. Publication is not consumption.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-10T15:13:34Z",
-  "next_review": "2026-11-10",
+  "as_of": "2026-11-10T16:46:38Z",
+  "next_review": "2026-11-11",
   "publication": [
-    {"commit": "9ac1a641283636d0bce917730e0f435f83943726", "state": "published", "note": "Full closeout 11/10 01:22Z."},
-    {"commit": "3ce0a1b70fa7486ee6fb79072396686022b5a444", "state": "published", "note": "Typed-stamp fix on card 011 and the ZHAO and VIOLET handoffs."},
-    {"commit": "76703d4d3805d165e1ad3718f49fb74bb88ef45e", "state": "published", "note": "Cards 011-012, COR-20261109-11."},
-    {"commit": "a941ce2325a60193d1538cde83e27d5582c00b90", "state": "published", "note": "Light closeout 11/9; earlier commits in that receipt, git history."}
+    {"commit": "f0d41c0b252dabeceb15d77290f54c8accef3c5b", "state": "published", "note": "Cards 20261110-001 to -005, handoffs, logs, index, batch manifest, 6c and 7i evidence."},
+    {"commit": "050dff4cbee408bd0e0a9aadfaa3943c4e79fef8", "state": "published", "note": "Light closeout for the machine switch; earlier commits in git history."}
   ],
-  "delivery": {"signal_date": "20261109", "total": 61, "delivered": 61, "note": "Cards 011-012 rows delivered on origin via 76703d4d38 (carried by another desk's push), reconciled. Recipient use separate; VULCAN and HENRY moved card 011 to processed."},
+  "delivery": {"signal_date": "20261110", "total": 29, "delivered": 0, "note": "Rows written_not_delivered_pending_push until safe-push and reconcile_delivery_log --apply; recipient use separate. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."},
   "owner_review": {"scope": "manual evidence review; no automatic completion", "evidence": [
-    {"path": "AGENTS/WALTER/research/2026-11-09_laptop-boot/THRESHOLD-SCAN.md", "sha256": "14f1dadfb7ae12f562b5f48b1e8dff6644c5be484447b70cc8f85632380f1742"},
-    {"path": "AGENTS/WALTER/research/2026-11-09_laptop-boot/CALENDAR-RECONCILIATION.tsv", "sha256": "c7ddd9f7e3f90446704b058d6e1a3f226ef85fbf9f927a5e6387b9f97a9c478e"}
+    {"path": "AGENTS/WALTER/research/2026-11-10_desktop-boot/THRESHOLD-SCAN.md", "sha256": "45e0d30c83ed2521834502b8c4013553dfa19f9c552793aaef71a15441b29469"},
+    {"path": "AGENTS/WALTER/research/2026-11-10_desktop-boot/CALENDAR-RECONCILIATION.tsv", "sha256": "10b97d7e2c053cdd2883e3dcf2deed9d2fb8ca7e26d8e1147d7ae7d31fe5bdc4"}
   ]},
-  "procedure": {"tier": "light", "boot": "PARTIAL: see STATUS section; no boot step re-run at the switch.", "session": "walter-bb interactive on the laptop, closing for the desktop switch; no helper or timer running."},
+  "procedure": {"tier": "light", "boot": "PARTIAL: see SESSION_LOG 2026-11-10T16:46:38Z entry.", "session": "walter-96 interactive on the desktop, holding open with no timer or helper."},
   "manual_duties": {
-    "11": "No dispatch since 01:22Z. Earlier: cards 011 (PRIORITY, correction) and 012 (ROUTINE); batch BM-20261110-01 closed 12/12; index regenerated.",
-    "13": "REGISTRY 28 rows Updated/Focus from owner lead headers plus WALTER by hand; Status column not re-graded.",
-    "12": "Bottom line re-cut, observation row added, rotations verbatim, NETWORK regenerated after 13, FILTER POSTURE CPI LOOSE, SESSION_LOG entry.",
-    "14": "MEMORY #2 and #34 n+1, session note; 23,783 B, under trigger.",
-    "15": "This file rewritten and rotated.",
-    "16": "Exact paths; safe-push.", "light": "STATUS Updated line and one bottom-line paragraph; resume items 1, 3, 9; SESSION_LOG breadcrumb. REGISTRY, NETWORK, MEMORY untouched (full deferred). Checks: research/2026-11-10_switch-closeout/ (read-cap rc 0, rotation due on the charter CLAUDE.md 25,929 B, carried; ledger nudge REVIEW on kill_log and route_log, nothing routed so nothing to refresh). Slip: the 9ac1a64128 full hash was first typed from memory and wrong; the receipt check refused it and it was replaced from git rev-parse (MEMORY #34 class, not yet recorded there)."
+    "11": "Cards 001 (IMMEDIATE) to 005 published, index regenerated, route_log 5 rows, delivery_log rows per (signal, recipient); batch BM-20261110-02 closed 15/15; no correction.",
+    "13": "REGISTRY RED, HAWK, CARL, SAM, BROCK Updated/Focus from owner STATUS lead headers; Status column not re-graded.",
+    "12": "STATUS Updated line, new bottom-line paragraph, observation row, FILTER POSTURE inflation LOOSE reverted; NETWORK not regenerated (full deferred).",
+    "14": "MEMORY untouched (full deferred).",
+    "15": "Header, resume items 1, 3, 9, calendar cutoff and this receipt rewritten.",
+    "16": "Exact paths; safe-push.", "light": "SESSION_LOG breadcrumb; PROME packet; doorbells red-b3 and liquid-9e. Slips caught before commit (MEMORY #34 class): the 050dff4cbe full hash and the delivery count were first typed from memory and replaced from git rev-parse and grep; a calendar window end typed 16:47Z replaced by the 16:44:39Z clock."
   }
 }
 END_CLOSEOUT_RECEIPT -->
