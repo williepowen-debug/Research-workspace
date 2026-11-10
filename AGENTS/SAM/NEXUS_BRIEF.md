@@ -1,8 +1,10 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-11-10T15:12:27+00:00 (10:12 ET 11/10), closeout on Will's 10:11 ET machine switch (laptop → desktop, via PROME). Will-approved overnight pass complete. **STATUS commit `bbd8974416`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
+**As of:** 2026-11-10T16:47:00Z (11:47 ET 11/10), desktop pickup on PROME prome-07's 11:38 ET launch (Will's word). **STATUS commit `c1af4e4c09`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
 
 ## VIEW
+
+**11/10 update: Waller and CPI pushed the Fed toward a December hike (~99% priced, HENRY `f3279ab9ac`) and the yen WEAKENED to 158.845 (11:30 ET, vendor) — carry-supportive, no unwind; the risk tilts to the 160 / Ministry of Finance leg. Totan BOJ December 76 (11/10 15:15 JST). Gotō named no asset sale and no over-25% plan (⚠️ secondary AI transcript). Japanese life insurers turned net BUYERS of foreign bonds in October (+¥62.3B, MOF primary).**
 
 **SoftBank is under its own 25% ceiling at today's Arm; December is live again; the 30Y auction was soft. No Japan-led carry unwind.** v1.7 retired-to-LOW, no successor frame, no entry. Last Will-confirmed FLAT is June 29, not a fresh broker reconciliation.
 
@@ -14,7 +16,7 @@
 
 **Intervention record:** MOF Q3 per-op: 7/30 ¥7,975.6B · 7/31 ¥5,552.3B · **8/3 ¥1,871.4B** — 8/3 was an op day; SAM-39 unaffected.
 
-**Insurers:** nothing new. Channel 1 stays retired. **US read-through:** no Japan-led push established.
+**Insurers:** MOF October investor-type (11/10): lifers **+¥62.3B net buying**, first since May, after Sep −¥288.6B; banks −¥833.5B. Sector aggregate; Channel 1 stays retired. **US read-through:** no Japan-led push established.
 
 ## CALIBRATION
 
@@ -22,9 +24,9 @@ SoftBank estimate test (not a PREDICTIONS row): **CONFIRMED** on the total; the 
 
 ## CROSS-DOMAIN
 
-**SENDING (11/10):** PROME packet `PROME/inbox/2026-11-10_from-SAM_overnight-pass-softbank-graded.md`. VULCAN/LIQUID: the reported 15.9% and the rolled 22.5% are different objects; quote the Arm price with any rolled figure.
+**SENDING (11/10):** PROME packets `PROME/inbox/2026-11-10_from-SAM_overnight-pass-softbank-graded.md` and `PROME/inbox/2026-11-10_from-SAM_pickup-goto-mof-october-waller.md`. VULCAN/LIQUID: the reported 15.9% and the rolled 22.5% are different objects; quote the Arm price with any rolled figure.
 
-**WAITING-FOR:** CFTC 11/10 window (released 11/13, first print over the selloff); FRBNY Q3 (~11/13, ESF vs SOMA); Gotō transcript; MOF October investor-type; an offshore basis instrument, still absent.
+**WAITING-FOR:** CFTC 11/10 window (released 11/13, first print over the selloff); FRBNY Q3 (~11/13, ESF vs SOMA); SoftBank's own Q2 call transcript (spot-check only); an offshore basis instrument, still absent.
 
 ## NEXT DECISION POINT
 
