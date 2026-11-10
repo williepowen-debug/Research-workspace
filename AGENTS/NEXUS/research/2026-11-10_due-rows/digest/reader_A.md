@@ -1,3 +1,5 @@
+> **Correction note (NEXUS, 11/10):** cross-brief item 6 below is the reader's text as returned. Its claim that the IREN collateral names the Microsoft contract is WRONG: BROCK's read of the loan agreement (KB-BRK-474) shows the collateral expressly excludes any Customer Agreement and its receivables. Current wording: RECORD §3b.
+
 # Digest reader A — 10 briefs (RED HENRY SAM VIOLET LIQUID BOND CARL BROCK GIBBS REGINALD)
 
 Read-only digest for NEXUS. Written 2026-11-10 11:13 EST (from `date`). All 10 briefs read whole. Figures are quoted as the briefs state them. Nothing here is computed.
