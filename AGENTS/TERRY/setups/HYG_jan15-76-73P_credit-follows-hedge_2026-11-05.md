@@ -1,10 +1,12 @@
 # TRADE IDEA — HYG Jan-15 76/73 put spread — hedge if credit starts to follow
 **Date:** 2026-11-05 (written 13:36 EST from `date`)
 **Setup ID:** `IDEA-HYG-FOLLOW-NOV05`
-**Terry verdict:** CONDITIONAL — APPROVED FIRED, order presented to Will, no fill known (T1(a) HY 348 [11/5], read 2026-11-06 10:09 EST). (WQ-615 A, Will in PROME's chat 2026-11-05 13:59 ET, verbatim "Okay approve with your recs all four"; record `PROME/proposals/2026-11-05_wq614-617-RULED.md`; GATE-TERRY-HYG-FOLLOW-01). ×5 at or under $0.60, max loss $306.50. X1 passed by Will's choice on this card only. Nothing fills before T1 fires; at an eligible entry TERRY re-checks live (root rule #4) and presents the order, which is Will's hand on a live broker quote (root rule #5). *(was: not approved, 11/5 13:36 EST)* Separate card; `IDEA-CREDIT-HYG-BDC-OCT23` (WQ-513 A) is unchanged.
+**Terry verdict:** CONDITIONAL — APPROVED FIRED, green-day condition waived on this card (WQ-663 B, 2026-11-09), order presented to Will, no fill known (T1(a) HY 348 [11/5], read 2026-11-06 10:09 EST). (WQ-615 A, Will in PROME's chat 2026-11-05 13:59 ET, verbatim "Okay approve with your recs all four"; record `PROME/proposals/2026-11-05_wq614-617-RULED.md`; GATE-TERRY-HYG-FOLLOW-01). ×5 at or under $0.60, max loss $306.50. X1 passed by Will's choice on this card only. Nothing fills before T1 fires; at an eligible entry TERRY re-checks live (root rule #4) and presents the order, which is Will's hand on a live broker quote (root rule #5). *(was: not approved, 11/5 13:36 EST)* Separate card; `IDEA-CREDIT-HYG-BDC-OCT23` (WQ-513 A) is unchanged.
 **Thesis owner:** LIQUID and REGINALD own the credit read. TERRY owns only the construction. Credit is unconfirmed either way for 11/5; the cause of the selloff is not established (HENRY card SIG-W-20261105-027; VIOLET SIG-VIO 12:41 ET).
 **Confidence in structure:** Medium.
 **Data freshness:** chains and spot 13:33 EST, vendor intraday, screening marks (durable finding 5b). The order is priced on the broker chain. Position truth: FORGE capture 11/5 ~10:0x ET, later changes `[POSITION_STATE_UNKNOWN]`.
+
+> **WQ-663 B 2026-11-09 23:12 EST (TERRY): ROOT RULE #6 BREAK, THIS CARD ONLY. GREEN-DAY ENTRY CONDITION WAIVED.** Will 2026-11-09 23:10 ET in PROME's window, verbatim "663 B" (row `PROME/WILL_QUEUE.md` WQ-663, commit ab3c992b70). Entry on any session after T1, through Fri 2026-12-04, when the broker shows 76P ask − 73P bid ≤ $0.60. **Break test (`RISK_RULES.md` § Breaking root rule #6), written before any fill:** the proxy asks "am I paying up for convexity?"; the direct measurement is the broker debit against the $0.60 cap, read at every order. Measured worth of the day colour on this spread: (1) the card's own screens: HYG $77.14 → $77.29 (+0.19%, 11/5 13:33 → 11/6 10:09 EST) moved the leg mid $0.365 → $0.345 (2 cents) and the outer not at all ($0.44 both). (2) HYG's median absolute daily move over 60 sessions (8/17–11/9, vendor closes) is 0.159%, $0.12 at $77.51; 90th percentile 0.456%. At a model spread delta of −0.19 to −0.22 (Black-Scholes, IV 7.3–11% from the 11/5 screen, 67 days, assumed 4% rate and 6% yield; not a broker Greek) that is about $0.02–0.03 per spread on a median day ($11–14 on five) and about $0.07 ($33–39 on five) on a 90th-percentile day. (3) The 76P alone was $0.08–$0.11 wide bid to ask on both screens. The colour is worth less than the cost of crossing the spread. Red sessions were 36 of 60, so the rule shut about 60% of days. **Guards unchanged:** T1 fired, $0.60 cap, ×5, max loss $306.50, window to 12/4, void and exit terms, the $711.70 pair condition with WQ-513, order is Will's hand (root rule #5). Not a chase: the reason is the measurement, and 18 sessions remain. ⚠️ Not measured: whether HYG put volatility rises on red days; the $0.60 cap is the backstop for it. Root rule #6 itself and the WQ-513 ×4 card are unchanged. No fill known. This block supersedes every "green day" entry line in the dated blocks below.
 
 > **FINAL BAR 2026-11-06, written 17:12 EST (TERRY): RED, CONFIRMED.** HYG $77.23 −0.06% vs $77.28 [11/5], vendor daily bar pulled 17:09 EST. Next eligible: first green HYG day through 12/4. No fill known.
 
@@ -27,7 +29,7 @@ Own cheap protection on junk bonds if the equity selloff reaches credit, entered
 | Leg | Line | State 13:33 EST | Status |
 |---|---|---|---|
 | **T1, either of** | (a) ICE BofA HY OAS (FRED BAMLH0A0HYM2, mirror), first-published, one close **> 344 bp**, the 10/30 peak of this episode. (b) HYG completed regular-session close **< $76.81**, its 60-bar closing low to 11/4 (60 of 60 bars; vendor) | (a) 332 [11/4], 11/5 unpublished. (b) $77.14 −0.48%, day low $77.13 | **NOT FIRED** |
-| Entry window | First **green HYG session** after T1 (root rule #6), through Fri 2026-12-04 | HYG red today | waits on T1 |
+| Entry window | **Any session** after T1 at broker debit ≤ $0.60, through Fri 2026-12-04 (WQ-663 B: root rule #6 waived on this card only; was: first green HYG session) | HYG red today | waits on T1 |
 | Void | No T1 by 12/4, or HY OAS ≤ 330 on 5 consecutive closes (REGINALD's exit line) before entry, or broker debit > $0.60 at entry | count 0 of 5 | live |
 
 These are proposed card conditions, not registered gates.
@@ -76,6 +78,7 @@ One complex order, never legged. Limit **≤ $0.60**. Do not chase above $0.60. 
 
 ## 9. Decision
 - [x] **APPROVED (WQ-615 A):** ×5, limit ≤ $0.60, max loss $306.50, on T1 then a green HYG day, past X1 by Will's choice
+- [x] **WQ-663 B (Will 2026-11-09 23:10 ET, verbatim "663 B"):** green-day entry condition waived on this card only; every other term unchanged; break figures in the 11/9 block at the top
 - [ ] Pre-trigger variant in § 8: not chosen
 - [ ] REJECT
 - [ ] REWORK
