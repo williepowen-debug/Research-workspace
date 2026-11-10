@@ -3,7 +3,7 @@
 **Status:** 🟡 11/10 CPI day, intraday: VIX back above 20 on the tick (21.10 at 11:09 ET), so **today's close decides whether LOW_VOL holds**. 11/09 History confirmed the print on every cell: LOW_VOL by 0.08, convergence 33/50. **VIO-PRED-07 CONFIRMED** (1.0467). ⚠️ Credit has not followed vol down: HY 342bp [11/06].
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.9. No live gate moved.
-**As of:** 2026-11-10 11:5x ET | **STATUS commit:** `f385b5f0cf`.
+**As of:** 2026-11-10 11:32 ET (from `date`) | **STATUS commit:** `f385b5f0cf`.
 Official History closes through 11/09 (SETTLE, 2,766 agreed, 0 corrected); 11/10 row TICK. Canonical numbers: [STATUS](STATUS.md). KB-VIO-393, KB-VIO-394.
 
 ## CROSS-DOMAIN
