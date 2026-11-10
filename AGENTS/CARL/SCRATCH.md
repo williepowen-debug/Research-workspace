@@ -2,7 +2,7 @@
 **Last session:** 2026-11-10 from 11:09 ET; first closeout pushed 534aa070d1; second pass on PROME's 11:18 ET message closed 2026-11-10 11:23 ET; Claude Code, Opus 5.5 (claude-opus-5-5), desktop, launched by PROME prome-07 after the 11/10 laptop → desktop switch. Quiet mode. Window HELD OPEN after closeout, waiting for PROME's message (no timer).
 **Type:** PROME due-row wake, graded: D:L1017 (CRL-33 and the Q3 HHDC) and D:L797 (screwworm/beef at October CPI). No trade, card, gate, band, threshold or score moved.
 
-**PRIORITY-1:** **Hold for PROME (D:L1017 and D:L797 closed by PROME 5f595c8c29; divergence carried to Will 11:17 ET). Next dated action: Thu 11/12 ICSA (leg 1 vintage) and the PHAN successor gate.** Do not re-grade CRL-33 on any later revision (row rule).
+**PRIORITY-1:** **Day complete; window closed on PROME's closeout ask 2026-11-10 11:39 ET (WQ-249, Will's word 11:38 ET). D:L1017 and D:L797 closed by PROME 5f595c8c29; divergence carried to Will 11:17 ET. Next PROME row: Wed 11/25 08:30 ET BEA income and outlays, D:L860 (CRL-32 leg 1). Own docket before that: Thu 11/12 ICSA (leg 1 vintage) and the PHAN successor gate.** Do not re-grade CRL-33 on any later revision (row rule).
 
 ---
 
