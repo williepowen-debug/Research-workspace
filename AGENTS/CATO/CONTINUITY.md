@@ -4,6 +4,8 @@
 
 ## Resume point
 
+**November 9 boot investigation delivered:** [assessment and preserved dry-run log](runs/2026-11-09_1906_prome-boot-review.md). Keep NOW/fleet; recommend bounded owner repairs to session evidence, allowance labels and stale pointers. No implementation/send or further test authorized. Await Will; other approvals below survive.
+
 **Latest direction:** finish useful bounded work; no additional trial or broad audit for these discussions. PROME reports WQ-651/652/653 delivered; current-state reconciliation is now root policy. DAEDALUS reports CARL/scorecard/disposition delivered and stopped; CATO summons repair reconciled as accepted. These receipts do not independently close the earlier bank findings or establish fleet adoption. [Discussion, remaining owners and limits](runs/2026-11-07_1033_sloane-commit-review.md#november-7--subsequent-discussion-and-fresh-context-disposition). [Earlier self-direction advice](runs/2026-11-07_0946_prome-self-direction.md) remains settled: retired WQ-648 trial stays retired, urgent-only contact preferred, no channel build or expanded CATO authority.
 
 **WQ-607 A — November 9 challenge complete:** four bounded corrections and replacement opening saved in the [continuing report](runs/2026-11-04_1531_agent-work-review.md#november-9--wq-607-bounded-overstatement-challenge); [packet to PROME](../../PROME/inbox/2026-11-09_from-CATO_WQ607-overstatement-challenge.md). PROME owns disposition/correction and acknowledgment; native notification and consumption unverified. Review covers the November 5 brief, not current markets or a source/calculation audit. No new CATO task; orient and await Will or an owner response. Original WQ-607 approval and packet authority remain recorded in the report.
