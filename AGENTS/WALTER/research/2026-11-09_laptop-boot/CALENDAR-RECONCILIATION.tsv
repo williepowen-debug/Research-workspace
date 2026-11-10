@@ -1,0 +1,3 @@
+release	period	scheduled	source	outcome	evidence
+(window) 2026-11-09T20:2xZ to 2026-11-10T01:20Z (typed; check ran between 01:18:31Z and 01:21:02Z)	-	-	PROME/DOCKET.tsv; HENRY ECON_CALENDAR.md; AGENTS/*/workbook/CATALYSTS.tsv (grep 2026-11-09 and 2026-11-10)	NO SCHEDULED RELEASE in window found	All November 9 rows fall before the prior cutoff (research/2026-11-09_boot/CALENDAR-RECONCILIATION.tsv); November 10 rows (SoftBank 15:30 JST = 06:30Z, CPI 13:30Z, 10Y auction 18:00Z, NY Fed household debt 16:00Z) are after this cutoff
+Syria/Russia Mediterranean MOU review (carry)	-	about 2026-11-09	AGENTS/HAWK/workbook/CATALYSTS.tsv	UNKNOWN	PENDING at HAWK; OSPREY owns; no record either way, not DARK

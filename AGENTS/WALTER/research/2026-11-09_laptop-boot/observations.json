@@ -1,0 +1,1240 @@
+{
+  "as_of": "2026-11-10T01:18:31.453518+00:00",
+  "BAMLH0A3HYC": [
+    {
+      "date": "2026-11-06",
+      "value": "13.17"
+    },
+    {
+      "date": "2026-11-05",
+      "value": "13.2"
+    },
+    {
+      "date": "2026-11-04",
+      "value": "12.97"
+    },
+    {
+      "date": "2026-11-03",
+      "value": "13.16"
+    },
+    {
+      "date": "2026-11-02",
+      "value": "13.19"
+    },
+    {
+      "date": "2026-10-30",
+      "value": "13.27"
+    }
+  ],
+  "VIXCLS": [
+    {
+      "date": "2026-11-06",
+      "value": "25.64"
+    },
+    {
+      "date": "2026-11-05",
+      "value": "28.18"
+    },
+    {
+      "date": "2026-11-04",
+      "value": "16.61"
+    },
+    {
+      "date": "2026-11-03",
+      "value": "20.83"
+    },
+    {
+      "date": "2026-11-02",
+      "value": "21.15"
+    },
+    {
+      "date": "2026-10-30",
+      "value": "19.42"
+    }
+  ],
+  "BAMLH0A0HYM2": [
+    {
+      "date": "2026-11-06",
+      "value": "3.42"
+    },
+    {
+      "date": "2026-11-05",
+      "value": "3.48"
+    },
+    {
+      "date": "2026-11-04",
+      "value": "3.32"
+    },
+    {
+      "date": "2026-11-03",
+      "value": "3.4"
+    },
+    {
+      "date": "2026-11-02",
+      "value": "3.43"
+    },
+    {
+      "date": "2026-10-30",
+      "value": "3.44"
+    }
+  ],
+  "ICSA": [
+    {
+      "date": "2026-10-31",
+      "value": "189000"
+    },
+    {
+      "date": "2026-10-24",
+      "value": "195000"
+    },
+    {
+      "date": "2026-10-17",
+      "value": "195000"
+    },
+    {
+      "date": "2026-10-10",
+      "value": "200000"
+    },
+    {
+      "date": "2026-10-03",
+      "value": "198000"
+    },
+    {
+      "date": "2026-09-26",
+      "value": "199000"
+    }
+  ],
+  "T5YIFR": [
+    {
+      "date": "2026-11-09",
+      "value": "2.19"
+    },
+    {
+      "date": "2026-11-06",
+      "value": "2.17"
+    },
+    {
+      "date": "2026-11-05",
+      "value": "2.22"
+    },
+    {
+      "date": "2026-11-04",
+      "value": "2.22"
+    },
+    {
+      "date": "2026-11-03",
+      "value": "2.21"
+    },
+    {
+      "date": "2026-11-02",
+      "value": "2.19"
+    }
+  ],
+  "IORB": [
+    {
+      "date": "2026-11-10",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-11-09",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-11-08",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-11-07",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-11-06",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-11-05",
+      "value": "3.9"
+    }
+  ],
+  "SOFR": [
+    {
+      "date": "2026-11-06",
+      "value": "3.89"
+    },
+    {
+      "date": "2026-11-05",
+      "value": "3.92"
+    },
+    {
+      "date": "2026-11-04",
+      "value": "3.94"
+    },
+    {
+      "date": "2026-11-03",
+      "value": "3.97"
+    },
+    {
+      "date": "2026-11-02",
+      "value": "3.95"
+    },
+    {
+      "date": "2026-10-30",
+      "value": "3.95"
+    }
+  ],
+  "DGS10": [
+    {
+      "date": "2026-11-06",
+      "value": "4.86"
+    },
+    {
+      "date": "2026-11-05",
+      "value": "4.84"
+    },
+    {
+      "date": "2026-11-04",
+      "value": "4.9"
+    },
+    {
+      "date": "2026-11-03",
+      "value": "4.95"
+    },
+    {
+      "date": "2026-11-02",
+      "value": "4.91"
+    },
+    {
+      "date": "2026-10-30",
+      "value": "4.94"
+    }
+  ],
+  "DGS30": [
+    {
+      "date": "2026-11-06",
+      "value": "5.26"
+    },
+    {
+      "date": "2026-11-05",
+      "value": "5.25"
+    },
+    {
+      "date": "2026-11-04",
+      "value": "5.28"
+    },
+    {
+      "date": "2026-11-03",
+      "value": "5.32"
+    },
+    {
+      "date": "2026-11-02",
+      "value": "5.28"
+    },
+    {
+      "date": "2026-10-30",
+      "value": "5.31"
+    }
+  ],
+  "DGS2": [
+    {
+      "date": "2026-11-06",
+      "value": "4.51"
+    },
+    {
+      "date": "2026-11-05",
+      "value": "4.46"
+    },
+    {
+      "date": "2026-11-04",
+      "value": "4.58"
+    },
+    {
+      "date": "2026-11-03",
+      "value": "4.61"
+    },
+    {
+      "date": "2026-11-02",
+      "value": "4.59"
+    },
+    {
+      "date": "2026-10-30",
+      "value": "4.56"
+    }
+  ],
+  "VIXh": [
+    {
+      "DATE": "11/04/2026",
+      "OPEN": "19.200000",
+      "HIGH": "19.220000",
+      "LOW": "16.570000",
+      "CLOSE": "16.610000"
+    },
+    {
+      "DATE": "11/05/2026",
+      "OPEN": "17.140000",
+      "HIGH": "28.360000",
+      "LOW": "16.700000",
+      "CLOSE": "28.180000"
+    },
+    {
+      "DATE": "11/06/2026",
+      "OPEN": "27.680000",
+      "HIGH": "27.760000",
+      "LOW": "23.470000",
+      "CLOSE": "25.640000"
+    }
+  ],
+  "SKEWh": [
+    {
+      "DATE": "11/04/2026",
+      "SKEW": "150.900000"
+    },
+    {
+      "DATE": "11/05/2026",
+      "SKEW": "149.370000"
+    },
+    {
+      "DATE": "11/06/2026",
+      "SKEW": "153.550000"
+    }
+  ],
+  "VIX9Dh": [
+    {
+      "DATE": "11/05/2026",
+      "OPEN": "16.350000",
+      "HIGH": "32.950000",
+      "LOW": "16.350000",
+      "CLOSE": "32.660000"
+    },
+    {
+      "DATE": "11/06/2026",
+      "OPEN": "29.580000",
+      "HIGH": "29.800000",
+      "LOW": "24.940000",
+      "CLOSE": "27.180000"
+    },
+    {
+      "DATE": "11/09/2026",
+      "OPEN": "24.710000",
+      "HIGH": "24.710000",
+      "LOW": "19.400000",
+      "CLOSE": "19.880000"
+    }
+  ],
+  "VIX3Mh": [
+    {
+      "DATE": "11/05/2026",
+      "OPEN": "19.230000",
+      "HIGH": "25.650000",
+      "LOW": "19.230000",
+      "CLOSE": "25.550000"
+    },
+    {
+      "DATE": "11/06/2026",
+      "OPEN": "24.600000",
+      "HIGH": "24.710000",
+      "LOW": "22.980000",
+      "CLOSE": "24.600000"
+    },
+    {
+      "DATE": "11/09/2026",
+      "OPEN": "23.200000",
+      "HIGH": "23.200000",
+      "LOW": "20.780000",
+      "CLOSE": "20.850000"
+    }
+  ],
+  "Cushing": [
+    {
+      "date": "2026-10-30",
+      "value": "27250"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "26970"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "27594"
+    }
+  ],
+  "VVIXh": [
+    {
+      "DATE": "11/05/2026",
+      "VVIX": "134.990000"
+    },
+    {
+      "DATE": "11/06/2026",
+      "VVIX": "121.940000"
+    },
+    {
+      "DATE": "11/09/2026",
+      "VVIX": "98.430000"
+    }
+  ],
+  "WALn": [
+    {
+      "date": "11/06/2026",
+      "close": "$75.55",
+      "volume": "473,296",
+      "open": "$75.18",
+      "high": "$76.34",
+      "low": "$75.13"
+    },
+    {
+      "date": "11/05/2026",
+      "close": "$75.88",
+      "volume": "875,095",
+      "open": "$80.10",
+      "high": "$81.27",
+      "low": "$74.99"
+    },
+    {
+      "date": "11/04/2026",
+      "close": "$79.24",
+      "volume": "1,531,895",
+      "open": "$79.25",
+      "high": "$81.335",
+      "low": "$78.12"
+    }
+  ],
+  "KREn": [
+    {
+      "date": "11/06/2026",
+      "close": "72.20",
+      "volume": "9,713,674",
+      "open": "72.15",
+      "high": "72.73",
+      "low": "71.82"
+    },
+    {
+      "date": "11/05/2026",
+      "close": "72.31",
+      "volume": "23,869,600",
+      "open": "74.97",
+      "high": "75.80",
+      "low": "72.02"
+    },
+    {
+      "date": "11/04/2026",
+      "close": "74.13",
+      "volume": "17,731,450",
+      "open": "74.62",
+      "high": "75.67",
+      "low": "73.62"
+    }
+  ],
+  "ZIONn": [
+    {
+      "date": "11/06/2026",
+      "close": "$64.76",
+      "volume": "1,124,873",
+      "open": "$64.38",
+      "high": "$65.175",
+      "low": "$64.17"
+    },
+    {
+      "date": "11/05/2026",
+      "close": "$64.93",
+      "volume": "1,861,710",
+      "open": "$67.68",
+      "high": "$68.30",
+      "low": "$64.63"
+    },
+    {
+      "date": "11/04/2026",
+      "close": "$66.63",
+      "volume": "2,325,601",
+      "open": "$67.43",
+      "high": "$68.25",
+      "low": "$65.8566"
+    }
+  ],
+  "HYGn": [
+    {
+      "date": "11/06/2026",
+      "close": "77.23",
+      "volume": "31,809,990",
+      "open": "77.32",
+      "high": "77.36",
+      "low": "77.225"
+    },
+    {
+      "date": "11/05/2026",
+      "close": "77.28",
+      "volume": "70,897,510",
+      "open": "77.45",
+      "high": "77.475",
+      "low": "77.11"
+    },
+    {
+      "date": "11/04/2026",
+      "close": "77.52",
+      "volume": "65,955,780",
+      "open": "77.17",
+      "high": "77.57",
+      "low": "77.17"
+    }
+  ],
+  "HY_first_published": {
+    "basis": "first-published",
+    "series": "BAMLH0A0HYM2",
+    "rows": [
+      {
+        "date": "2026-11-06",
+        "value": "3.42",
+        "first_published": "2026-11-06"
+      },
+      {
+        "date": "2026-11-05",
+        "value": "3.48",
+        "first_published": "2026-11-05"
+      },
+      {
+        "date": "2026-11-04",
+        "value": "3.32",
+        "first_published": "2026-11-04"
+      },
+      {
+        "date": "2026-11-03",
+        "value": "3.4",
+        "first_published": "2026-11-03"
+      },
+      {
+        "date": "2026-11-02",
+        "value": "3.43",
+        "first_published": "2026-11-02"
+      },
+      {
+        "date": "2026-10-30",
+        "value": "3.44",
+        "first_published": "2026-10-30"
+      }
+    ],
+    "request": {
+      "series_id": "BAMLH0A0HYM2",
+      "output_type": 4,
+      "observation_start": "2026-10-13",
+      "realtime_start": "2026-09-29",
+      "realtime_end": "9999-12-31",
+      "limit": 6
+    },
+    "short": false,
+    "missing": [],
+    "under_limit": false
+  },
+  "SPYn": [
+    {
+      "date": "11/06/2026",
+      "close": "735.29",
+      "volume": "58,978,820",
+      "open": "734.82",
+      "high": "742.2104",
+      "low": "734.58"
+    },
+    {
+      "date": "11/05/2026",
+      "close": "733.00",
+      "volume": "125,892,800",
+      "open": "765.47",
+      "high": "765.97",
+      "low": "732.71"
+    },
+    {
+      "date": "11/04/2026",
+      "close": "766.81",
+      "volume": "62,126,350",
+      "open": "762.99",
+      "high": "775.64",
+      "low": "762.64"
+    }
+  ],
+  "probe_CL": {
+    "root": "CL",
+    "continuous": "CL=F",
+    "continuous_price": 86.36,
+    "continuous_time": 1794272913,
+    "candidates": {
+      "CLZ26.NYM": 86.36,
+      "CLF27.NYM": 85.25,
+      "CLG27.NYM": 84.0,
+      "CLH27.NYM": 82.55
+    },
+    "candidate_times": {
+      "CLZ26.NYM": 1794272913,
+      "CLF27.NYM": 1794272914,
+      "CLG27.NYM": 1794272825,
+      "CLH27.NYM": 1794272902
+    },
+    "candidate_age_s": {
+      "CLZ26.NYM": 0,
+      "CLF27.NYM": 1,
+      "CLG27.NYM": 88,
+      "CLH27.NYM": 11
+    },
+    "attempted": [
+      "CLX26.NYM",
+      "CLZ26.NYM",
+      "CLF27.NYM",
+      "CLG27.NYM",
+      "CLH27.NYM"
+    ],
+    "dropped": {
+      "CLX26.NYM": "KeyError"
+    },
+    "verdict": "IDENTIFIED",
+    "tracking": "CLZ26.NYM",
+    "control": "passed-distinct-prices",
+    "cross_check": "agrees-with-vendor-name:CLZ26"
+  },
+  "probe_HO": {
+    "root": "HO",
+    "continuous": "HO=F",
+    "continuous_price": 4.2015,
+    "continuous_time": 1794272874,
+    "candidates": {
+      "HOZ26.NYM": 4.2015,
+      "HOF27.NYM": 4.0971,
+      "HOG27.NYM": 4.0165,
+      "HOH27.NYM": 3.9165
+    },
+    "candidate_times": {
+      "HOZ26.NYM": 1794272874,
+      "HOF27.NYM": 1794272806,
+      "HOG27.NYM": 1794272874,
+      "HOH27.NYM": 1794269263
+    },
+    "candidate_age_s": {
+      "HOZ26.NYM": 0,
+      "HOF27.NYM": 68,
+      "HOG27.NYM": 0,
+      "HOH27.NYM": 3611
+    },
+    "attempted": [
+      "HOX26.NYM",
+      "HOZ26.NYM",
+      "HOF27.NYM",
+      "HOG27.NYM",
+      "HOH27.NYM"
+    ],
+    "dropped": {
+      "HOX26.NYM": "KeyError"
+    },
+    "verdict": "IDENTIFIED",
+    "tracking": "HOZ26.NYM",
+    "control": "passed-distinct-prices-but-stale-candidates:['HOH27.NYM']",
+    "cross_check": "agrees-with-vendor-name:HOZ26"
+  },
+  "probe_RB": {
+    "root": "RB",
+    "continuous": "RB=F",
+    "continuous_price": 2.644,
+    "continuous_time": 1794272902,
+    "candidates": {
+      "RBZ26.NYM": 2.644,
+      "RBF27.NYM": 2.6029,
+      "RBG27.NYM": 2.5838,
+      "RBH27.NYM": 2.5954
+    },
+    "candidate_times": {
+      "RBZ26.NYM": 1794272902,
+      "RBF27.NYM": 1794272880,
+      "RBG27.NYM": 1794272902,
+      "RBH27.NYM": 1794272490
+    },
+    "candidate_age_s": {
+      "RBZ26.NYM": 0,
+      "RBF27.NYM": 22,
+      "RBG27.NYM": 0,
+      "RBH27.NYM": 412
+    },
+    "attempted": [
+      "RBX26.NYM",
+      "RBZ26.NYM",
+      "RBF27.NYM",
+      "RBG27.NYM",
+      "RBH27.NYM"
+    ],
+    "dropped": {
+      "RBX26.NYM": "KeyError"
+    },
+    "verdict": "IDENTIFIED",
+    "tracking": "RBZ26.NYM",
+    "control": "passed-distinct-prices",
+    "cross_check": "agrees-with-vendor-name:RBZ26"
+  },
+  "probe_BZ": {
+    "root": "BZ",
+    "continuous": "BZ=F",
+    "continuous_price": 92.19,
+    "continuous_time": 1794272914,
+    "candidates": {
+      "BZF27.NYM": 92.19,
+      "BZG27.NYM": 90.06,
+      "BZH27.NYM": 88.23
+    },
+    "candidate_times": {
+      "BZF27.NYM": 1794272914,
+      "BZG27.NYM": 1794272914,
+      "BZH27.NYM": 1794266221
+    },
+    "candidate_age_s": {
+      "BZF27.NYM": 0,
+      "BZG27.NYM": 0,
+      "BZH27.NYM": 6693
+    },
+    "attempted": [
+      "BZX26.NYM",
+      "BZZ26.NYM",
+      "BZF27.NYM",
+      "BZG27.NYM",
+      "BZH27.NYM"
+    ],
+    "dropped": {
+      "BZX26.NYM": "KeyError",
+      "BZZ26.NYM": "KeyError"
+    },
+    "verdict": "IDENTIFIED",
+    "tracking": "BZF27.NYM",
+    "control": "passed-distinct-prices-but-stale-candidates:['BZH27.NYM']",
+    "cross_check": "no-vendor-name-to-compare"
+  },
+  "prices": {
+    "CLF27.NYM": {
+      "price": 85.22,
+      "prev": 89.59,
+      "change_pct": null,
+      "name": "CLF27.NYM",
+      "volume": 2055,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": "Jan 2027",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "CLF27",
+      "session": "evening-next-session",
+      "trade_date": "2026-11-10",
+      "session_basis": "last trade at/after the day-session close on the bar date; last trade 2026-11-09 20:08:33 [America/New_York; source America/New_York] vs bar 2026-11-09; quote/chart price joined at 85.22000122070312; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "withheld: evening bar spans two sessions \u2014 regularMarketPreviousClose is the settle BEFORE the overwritten session",
+      "last_trade_age_min": 10.0,
+      "age_flag": false,
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "BZF27.NYM": {
+      "price": 92.17,
+      "prev": 98.32,
+      "change_pct": null,
+      "name": "BZF27.NYM",
+      "volume": 921,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'Brent Crude Oil Last Day Financ'",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": null,
+      "session": "unverified",
+      "trade_date": null,
+      "session_basis": "unverified: quote/chart price mismatch: fast_info 92.16999816894531 vs history_metadata 92.19",
+      "change_basis": "withheld: session unverified (quote/chart price mismatch: fast_info 92.16999816894531 vs history_metadata 92.19)",
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "RBF27.NYM": {
+      "price": 2.6029,
+      "prev": 2.7276,
+      "change_pct": null,
+      "name": "RBF27.NYM",
+      "volume": 316,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": "Jan 2027",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "RBF27",
+      "session": "evening-next-session",
+      "trade_date": "2026-11-10",
+      "session_basis": "last trade at/after the day-session close on the bar date; last trade 2026-11-09 20:08:00 [America/New_York; source America/New_York] vs bar 2026-11-09; quote/chart price joined at 2.6029000282287598; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "withheld: evening bar spans two sessions \u2014 regularMarketPreviousClose is the settle BEFORE the overwritten session",
+      "last_trade_age_min": 10.6,
+      "age_flag": false,
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "HOF27.NYM": {
+      "price": 4.0971,
+      "prev": 4.2239,
+      "change_pct": null,
+      "name": "HOF27.NYM",
+      "volume": 289,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": "Jan 2027",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "HOF27",
+      "session": "evening-next-session",
+      "trade_date": "2026-11-10",
+      "session_basis": "last trade at/after the day-session close on the bar date; last trade 2026-11-09 20:06:46 [America/New_York; source America/New_York] vs bar 2026-11-09; quote/chart price joined at 4.097099781036377; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "withheld: evening bar spans two sessions \u2014 regularMarketPreviousClose is the settle BEFORE the overwritten session",
+      "last_trade_age_min": 11.8,
+      "age_flag": false,
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "CLZ26.NYM": {
+      "price": 86.39,
+      "prev": 90.83,
+      "change_pct": null,
+      "name": "CLZ26.NYM",
+      "volume": 4571,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": "Dec 2026",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "CLZ26",
+      "session": "evening-next-session",
+      "trade_date": "2026-11-10",
+      "session_basis": "last trade at/after the day-session close on the bar date; last trade 2026-11-09 20:08:35 [America/New_York; source America/New_York] vs bar 2026-11-09; quote/chart price joined at 86.38999938964844; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "withheld: evening bar spans two sessions \u2014 regularMarketPreviousClose is the settle BEFORE the overwritten session",
+      "last_trade_age_min": 10.0,
+      "age_flag": false,
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "HOZ26.NYM": {
+      "price": 4.2015,
+      "prev": 4.3317,
+      "change_pct": null,
+      "name": "HOZ26.NYM",
+      "volume": 435,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": "Dec 2026",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "HOZ26",
+      "session": "evening-next-session",
+      "trade_date": "2026-11-10",
+      "session_basis": "last trade at/after the day-session close on the bar date; last trade 2026-11-09 20:07:54 [America/New_York; source America/New_York] vs bar 2026-11-09; quote/chart price joined at 4.201499938964844; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "withheld: evening bar spans two sessions \u2014 regularMarketPreviousClose is the settle BEFORE the overwritten session",
+      "last_trade_age_min": 10.7,
+      "age_flag": false,
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "RBZ26.NYM": {
+      "price": 2.644,
+      "prev": 2.7767,
+      "change_pct": null,
+      "name": "RBZ26.NYM",
+      "volume": 616,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": "Dec 2026",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "RBZ26",
+      "session": "evening-next-session",
+      "trade_date": "2026-11-10",
+      "session_basis": "last trade at/after the day-session close on the bar date; last trade 2026-11-09 20:08:36 [America/New_York; source America/New_York] vs bar 2026-11-09; quote/chart price joined at 2.6440000534057617; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "withheld: evening bar spans two sessions \u2014 regularMarketPreviousClose is the settle BEFORE the overwritten session",
+      "last_trade_age_min": 10.0,
+      "age_flag": false,
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "KRE": {
+      "price": 73.45,
+      "prev": 72.2,
+      "change_pct": 1.73,
+      "name": "Regional Banks ETF",
+      "volume": 13170549,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-confirmed-by-longName-at-31:'State Street SPDR S&P Regional '",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "WAL": {
+      "price": 77.2,
+      "prev": 75.55,
+      "change_pct": 2.18,
+      "name": "Western Alliance",
+      "volume": 919365,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'Western Alliance Bancorporation'",
+      "instrument_type": "EQUITY",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "ZION": {
+      "price": 66.25,
+      "prev": 64.76,
+      "change_pct": 2.3,
+      "name": "ZION",
+      "volume": 1518663,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'Zions Bancorporation N.A.' (instrumentType='EQUITY')",
+      "instrument_type": "EQUITY",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "OZK": {
+      "price": 51.18,
+      "prev": 50.64,
+      "change_pct": 1.07,
+      "name": "Bank OZK",
+      "volume": 890561,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'Bank OZK' (instrumentType='EQUITY')",
+      "instrument_type": "EQUITY",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "VLY": {
+      "price": 14.3,
+      "prev": 14.08,
+      "change_pct": 1.56,
+      "name": "VLY",
+      "volume": 8617598,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'Valley National Bancorp' (instrumentType='EQUITY')",
+      "instrument_type": "EQUITY",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "FLG": {
+      "price": 10.58,
+      "prev": 10.52,
+      "change_pct": 0.57,
+      "name": "FLG",
+      "volume": 5607835,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'Flagstar Bank, N.A.' (instrumentType='EQUITY')",
+      "instrument_type": "EQUITY",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "^VIX": {
+      "price": 19.92,
+      "prev": 25.64,
+      "change_pct": -22.31,
+      "name": "VIX",
+      "volume": 0,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'CBOE Volatility Index' (instrumentType='INDEX')",
+      "instrument_type": "INDEX",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "^VIX9D": {
+      "price": 19.88,
+      "prev": 27.18,
+      "change_pct": -26.86,
+      "name": "^VIX9D",
+      "volume": 0,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'CBOE S&P 500 9 Day Volatility I'",
+      "instrument_type": "INDEX",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "^VIX3M": {
+      "price": 20.85,
+      "prev": 24.6,
+      "change_pct": -15.24,
+      "name": "^VIX3M",
+      "volume": 0,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'CBOE S&P 500 3-Month Volatility'",
+      "instrument_type": "INDEX",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "^VVIX": {
+      "price": 98.43,
+      "prev": 121.94,
+      "change_pct": -19.28,
+      "name": "^VVIX",
+      "volume": 0,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'CBOE VIX VOLATILITY INDEX' (instrumentType='INDEX')",
+      "instrument_type": "INDEX",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "^SKEW": {
+      "price": 150.34,
+      "prev": 153.55,
+      "change_pct": -2.09,
+      "name": "^SKEW",
+      "volume": 0,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'CBOE SKEW INDEX' (instrumentType='INDEX')",
+      "instrument_type": "INDEX",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "VLO": {
+      "price": 356.75,
+      "prev": 346.45,
+      "change_pct": 2.97,
+      "name": "VLO",
+      "volume": 3298311,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'Valero Energy Corporation' (instrumentType='EQUITY')",
+      "instrument_type": "EQUITY",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "USO": {
+      "price": 142.66,
+      "prev": 148.41,
+      "change_pct": -3.87,
+      "name": "USO",
+      "volume": 6422138,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'United States Oil Fund' (instrumentType='ETF')",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "GLD": {
+      "price": 379.53,
+      "prev": 372.52,
+      "change_pct": 1.88,
+      "name": "GLD",
+      "volume": 7330193,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'SPDR Gold Shares' (instrumentType='ETF')",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "APO": {
+      "price": 122.2,
+      "prev": 116.75,
+      "change_pct": 4.67,
+      "name": "Apollo Global",
+      "volume": 3002666,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'Apollo Global Management, Inc. '",
+      "instrument_type": "EQUITY",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "SPY": {
+      "price": 752.69,
+      "prev": 735.29,
+      "change_pct": 2.37,
+      "name": "SPY",
+      "volume": 48888639,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-confirmed-by-longName-at-31:'State Street SPDR S&P 500 ETF T'",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "^GSPC": {
+      "price": 7549.94,
+      "prev": 7376.86,
+      "change_pct": 2.35,
+      "name": "^GSPC",
+      "volume": 3554608000,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'S&P 500' (instrumentType='INDEX')",
+      "instrument_type": "INDEX",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "QQQ": {
+      "price": 679.35,
+      "prev": 656.1,
+      "change_pct": 3.54,
+      "name": "QQQ",
+      "volume": 54176627,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'Invesco QQQ Trust, Series 1' (instrumentType='ETF')",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "SMH": {
+      "price": 487.41,
+      "prev": 463.96,
+      "change_pct": 5.05,
+      "name": "SMH",
+      "volume": 14596565,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'VanEck Semiconductor ETF' (instrumentType='ETF')",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "NVDA": {
+      "price": 178.67,
+      "prev": 186.64,
+      "change_pct": -4.27,
+      "name": "NVDA",
+      "volume": 456756830,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'NVIDIA Corporation' (instrumentType='EQUITY')",
+      "instrument_type": "EQUITY",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "HYG": {
+      "price": 77.51,
+      "prev": 77.23,
+      "change_pct": 0.36,
+      "name": "HY Bond ETF",
+      "volume": 37966606,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-confirmed-by-longName-at-31:'iShares iBoxx $ High Yield Corp'",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "LQD": {
+      "price": 104.67,
+      "prev": 104.53,
+      "change_pct": 0.13,
+      "name": "LQD",
+      "volume": 20887569,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-confirmed-by-longName-at-31:'iShares iBoxx $ Investment Grad'",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "IWM": {
+      "price": 282.51,
+      "prev": 273.67,
+      "change_pct": 3.23,
+      "name": "Russell 2000 ETF",
+      "volume": 28487908,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'iShares Russell 2000 Index Fund'",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "TLT": {
+      "price": 81.96,
+      "prev": 81.92,
+      "change_pct": 0.05,
+      "name": "20Y+ Treasury ETF",
+      "volume": 28888963,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-confirmed-by-longName-at-31:'iShares 20+ Year Treasury Bond '",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "RSP": {
+      "price": 220.95,
+      "prev": 216.05,
+      "change_pct": 2.27,
+      "name": "RSP",
+      "volume": 11692171,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-confirmed-by-longName-at-31:'Invesco S&P 500 Equal Weight ET'",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "UNG": {
+      "price": 10.08,
+      "prev": 9.35,
+      "change_pct": 7.81,
+      "name": "UNG",
+      "volume": 26300456,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'United States Natural Gas Fund '",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "ORCL": {
+      "price": 119.79,
+      "prev": 116.1,
+      "change_pct": 3.18,
+      "name": "ORCL",
+      "volume": 27574289,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'Oracle Corporation' (instrumentType='EQUITY')",
+      "instrument_type": "EQUITY",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "AAPL": {
+      "price": 350.69,
+      "prev": 342.37,
+      "change_pct": 2.43,
+      "name": "AAPL",
+      "volume": 47499490,
+      "asof": "2026-11-09",
+      "prev_asof": "2026-11-06",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'Apple Inc.' (instrumentType='EQUITY')",
+      "instrument_type": "EQUITY",
+      "is_future": false,
+      "contract_symbol": null
+    }
+  }
+}

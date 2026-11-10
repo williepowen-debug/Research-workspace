@@ -1,59 +1,37 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-10T00:38:17Z, Claude Code Opus 5.5, session walter-da on the desktop DESKTOP-BC6EF81. **Window CLOSED** on Will's 19:37 ET word via PROME prome-9c (WQ-249 closeout, desktop to laptop). Light closeout; Tier 2 FULL NOT run, carried to the laptop boot (resume 1). No routing from this window after 19:37 ET; SoftBank and CPI coverage needs the laptop WALTER. Coverage PARTIAL.
+Updated 2026-11-10T01:22:33Z, Claude Code Opus 5.5, session walter-bb on the laptop WilliePOwen. **Tier 2 FULL closeout** on Will's 20:15 ET November 9 go-ahead ("ok go ahead" to: finish boot, route the six lane items, run the overdue full closeout). Clears the six light-closeout breadcrumbs since November 6 23:34Z. Coverage PARTIAL (GAPS). Earlier resume, status, changed and result text and 15 GAPS bullets moved verbatim to research/2026-11-09_laptop-boot/LC-ROTATED.md; still binding where their conditions hold.
 
 ## RESUME — do these first
 
-1. `git pull --rebase` at root, then ordinary boot. **Tier 2 FULL closeout owed:** 6 light-closeout breadcrumbs since the November 6 23:34Z full closeout (the earlier "15" was a miscount; recount by SESSION_LOG heading). Was planned after CPI November 10 from this window; the window closed 19:37 ET 11/9 for the laptop switch, so run it at the laptop boot (before or after CPI on Will's word). Step 7i first, cutoff below.
-1c. **November 9, walter-da (desktop):** 10 cards, 1 correction, no IMMEDIATE or FLASH; 50/50 delivery rows on origin. 001 Iran weekend (Trump "highly unlikely"; Qatar $8B terms unconfirmed); 002 AI power headlines (VULCAN); 003 CYPHER claims; 004 to 008 from 35 X bookmarks (batch BM-20261109-01 closed 14/14); 009 = COR-20261109-09 STRENGTHEN on FALCON's read (Rubio quote at Al Jazeera, IRGC claim dated 11/8 by TASS), HAWK APPLIED 10f6c9c1f8; 010 US–China 11/10 clocks re-suspended to about 1/9–1/10/2027 (ZHAO primary read; MoT leg B2), consumed by HENRY 2b5b993645, VULCAN f777e5f8c3, HAWK b2db6997ad, BRENT 9fa3eac55c; WATT and MIDAS pending their next session. PROME digest at PROME/inbox/2026-11-09_from-WALTER_catch-up-digest.md (filed ddcc16b2e4). ORACLE closed out; reads 001 and 009 at next boot.
-1d. **November 10 watch, routing only, needs a launched laptop WALTER (desktop window closed 19:37 ET 11/9; nothing scheduled, no timer):** SoftBank results 01:30 ET (SAM pre-wrote its lookup, 47678a9017); CPI 08:30 ET (HENRY HEN-57 grade sheet, expect NOT FIRED at +0.2); CoreWeave; NY Fed household debt 11:00 ET; MOFCOM No. 70 clock superseded by 公告2026年第58号 (card 010); 10Y auction. Owners grade; WALTER routes what breaks.
-1a. **Weekend reads moved (PROME 4b9fac2f2e):** Will 19:44 ET desktop closed, every desktop timer gone; 19:46 ET persistent laptop sessions. falcon-de, oracle-e5, reginald-49 live. PROME reminders Saturday 08:43 and 09:07 ET, Sunday 15:03 ET die if its window closes or the laptop sleeps. LIQUID's Oracle DTCC read deferred to Monday on Will's yes, replacing item 3's timing.
-1b. **WQ-646 A reads all routed.** Read 1 (November 7): cards 001 to 003; card 054 closed by 001, Task Force Iron Gate, not a strike. Read 2 (November 8, about 17:00Z): card 20261108-001, ORACLE's new 2-week-pause market, by-11/8 leg 23.5, about 76 for another qualifying US land strike in 14 days, thin and new; card 20261108-002, FALCON: Houthis struck Aramco's Riyadh office tower, minor damage, Abqaiq missile intercepted, no rung fired, HUDA disabled, Khasab tanker fire, and COR-20261108-02 WEAKENS card 056's NBC target line (one relay). ACTION BRENT and HAWK: neither has a session open, UNKNOWN, no doorbell; oil futures reopen 18:00 ET Sunday. Old-event legs through 11/05 and 11/06 open; ORACLE reads reporting windows closing 20:29Z November 8 and 9. ORACLE's packet called the market two days old; Gamma shows created 02:48Z November 8.
-2. **Finish the November 6 certification.** Close pass ran at 22:10Z, cards 043–046. Still owed: Cboe VIX and SKEW History and Nasdaq WAL and KRE November 6 rows, unposted at 23:33Z; read them at next boot. Apple 20% recheck done, card 046, still unfound.
-2a. **Qeshm, cards 047 and 002:** Trump said "We do minor strikes" Friday evening without naming Qeshm or Friday. No CENTCOM statement found; centcom.mil, UKMTO and Reuters directly unreached; FALCON grades. Unknowns: spoken time of the remark, resolver evidence, which strike qualified (ORACLE).
-2b. **WQ-646 A (Will 17:44 ET, PROME/proposals/2026-11-06_wq646-647-RULED.md):** FALCON and ORACLE each do two reads, Saturday November 7 and Sunday November 8, triggered by PROME's message (about 08:43 ET and 15:03 ET per item 1a); WALTER routes anything that breaks when they send it, with no WALTER timer or standing watch. Those four reads only; not a standing unattended grant. WQ-388 is RULED DECLINE, October 15, 2026: WALTER may not self-schedule an unattended sweep and sessions start only when Will or PROME launches them (PROME/archive/WILL_QUEUE_ROWS_2026-10-28_rolloff.md; corrected on Will's order via PROME, November 6 about 21:00 ET; no authority changed). No score moves without a registered letter.
-3. **Oracle DTCC November 6 file, about 20:15 ET.** Through about 15:50 ET best converted 314, about 318 disseminated basis (LIQUID). It tests November 6 only: 3.25% as a level is already supported on October 20, 342.5 disseminated, and that is the high of LIQUID's window, card 042. LIQUID owns the read; WALTER routes. Not routed by this pass, on PROME's instruction; nothing is scheduled to route it.
-4. **November 9 HY cell, about 10:10 ET.** Prints the November 6 value. HY 348 [Nov 5]; REG-T-04 strict >350 x3 is 0/3, 2 bp away. A value above 350 starts the count. RED's grade on card 012 not verified; TERRY records its HYG line FIRED, unfilled, no order by the desk.
-5. **Iran and Saudi:** next full sweep about November 12; add Saudi, Houthi and Yanbu terms. FALCON owes a read on card 023 (Osprey, cause unknown).
-6. **SoftBank results November 10, 15:30 JST.** The headline leverage is as of September 30, about six weeks old; SAM's 22.1% and 24.2% are estimates, card 041.
-7. **Open:** CF's call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; wake recommendations with PROME for HOMER and FERT need a fresh read, HANS and CORAL have since worked. STWD and ACRE calls unheard; RC call unheard.
-8. **WQ-622 combination watch:** WALTER has not set it up. Offer stands; Will has not answered.
+1. **November 10, routing only; owners grade.** SoftBank results 15:30 JST = 01:30 ET (SAM's lookup 47678a9017; card 041 leverage figures are September 30 estimates); CPI 08:30 ET (HENRY HEN-57; RED-FT-08 stands until RED grades; inflation filter LOOSE through the print); NY Fed household debt 11:00 ET (CARL); 10Y $42B auction 13:00 ET (BOND); CoreWeave results (VULCAN). No WALTER timer or unattended watch (WQ-388 DECLINE stands); this window routes what desks send while it is open.
+2. **X bookmarks blocked on the laptop:** `python3 AGENTS/WALTER/tools/x_bookmarks_scan.py` → "Token refresh failed; re-authorize. No IDs marked." Needs `--authorize` in Will's browser on this machine. Nothing marked.
+3. **HY November 9 cell, about 10:10 ET November 10.** HY 342 [Nov 6, first-published]; REG-T-04 strict >350 x3 0/3, 8 bp, near-trigger watch. RED and REGINALD grade.
+4. **Oracle DTCC November 6 file:** LIQUID owns the read; not routed by WALTER; nothing scheduled.
+5. **Iran full sweep about November 12** (anchor ladder item 8); add Saudi, Houthi and Yanbu terms; reconcile ladder item 1 (Kharg and South Pars wording vs FAL-01 RESOLVED; FALCON owns). FALCON owes a read on card 023 (Osprey). IRAN_WAR.md 24,329 B, 83 B under the 75% trigger: rotate at the sweep.
+6. **Open, unchanged:** CF call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; HOMER and FERT wake recommendations with PROME need a fresh read; STWD, ACRE and RC calls unheard. Michigan monthly dates need a calendar home (flag to HENRY at next touch).
+7. **WQ-622 combination watch:** WALTER has not set it up; offer stands, Will has not answered.
+8. Discharged this session: November 6 certification (Cboe VIX 25.64, SKEW 153.55; Nasdaq WAL 75.55, KRE 72.20, all [Nov 6], research/2026-11-09_laptop-boot/THRESHOLD-SCAN.md); Tier 2 debt; WQ-646 A weekend reads (all four routed through card 20261108-002; the grant ended Sunday and was never standing).
 
-Calendar coverage cutoff: 2026-11-09T20:2xZ (step 7i at the 11/9 boot to 15:49Z, rechecked at this closeout; rows in research/2026-11-09_boot/CALENDAR-RECONCILIATION.tsv; Syria/Russia MOU review UNKNOWN, OSPREY owns).
+Calendar coverage cutoff: 2026-11-10T01:20Z (step 7i at this boot; typed stamp, the check ran between the 01:18:31Z pull and 01:21:02Z; rows in research/2026-11-09_laptop-boot/CALENDAR-RECONCILIATION.tsv; no scheduled release in the window; Syria/Russia MOU review UNKNOWN, OSPREY owns).
 
 ## STATUS
 
-Close pass done; no unattended work, no helper running. Close-pass boot PARTIAL: Iran guard corpus read in part for card 043, REGISTRY rows other than WALTER not refreshed, BOARD ToC scan and LIAISON steps not run, HANS dailies not re-read. Prior session: CLOSED. Boot PARTIAL: desk STATUS leads only; HANS dailies, TTF and AGSI not re-read; READS check UNKNOWN on a stale attestation, PROME's L845; Iran guard corpus not read whole for card 018. Evidence: research/2026-11-06_boot/.
-
-November 5 total: 67 BOARD cards, 261 handoffs. November 6 total to close: 53 cards, 13 corrections, 9 IMMEDIATE, no FLASH. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
+Boot PARTIAL, closeout FULL. Done: sync check (in step with origin; PROME's two state files dirty, pull deferred, no incoming commits), doctor (no HIGH), boot basis (6 REVIEW REQUIRED, not re-attested), read-cap rc=0, READS UNKNOWN (stale attestation), STATUS, IRAN_WAR, MEMORY, LAST_COMPLETION, inbox (empty), DEWEY (empty), corrections check rc=0, intake pull and scan (healthy, 1 missed weekday run), dropzone (0), threshold pull and scan, calendar 7i, X bookmarks (blocked), REGISTRY refresh, ORCH_INFLIGHT whole, ListAgents. Not done: ROUTING_TABLE and ROUTING_OVERLAYS whole reads, THRESHOLD_SCAN.md whole read, threshold registries not re-read whole (no commit to any since November 7), BOARD ToC scan beyond the dup grep, LIAISON turns (all dormant per STATUS), HANS dailies. No helper, timer or unattended task running.
 
 ## CHANGED
 
-November 9 (walter-da): cards 001 to 010, COR-20261109-09 with banners on 001 and 006, CORRECTIONS row; batch BM-20261109-01 closed 14/14; four kill-log rows; intake_seen and x_bookmarks registries marked; PROME digest; MEMORY #51 extended (pathspec commits; WALTER commits 811962c856 and 6022eddfe5 swept ORACLE's and FALCON's staged renames, harmless, owners told); calendar 7i rows; STATUS bottom line re-cut, November 6 paragraph rotated verbatim to SESSION_LOG.
-
-November 8: cards 001 and 002, COR-20261108-02 with banners on 056 and 20261107-002, ORACLE packet consumed at 9b6404ed12, batch BM-20261108-01 closed 7/7 (manifest opened after dispatch, late), anchor note, STATUS bottom line. November 7 afternoon: REGINALD V1V3 rename answered, 20942d5f3c. November 7 morning: cards 001 to 003, COR-20261107-02, five banners on cards 047, 053, 054, 055, 056, ORACLE packet consumed at commit 9b03984679, batch BM-20261107-01 closed 12/12, anchor note, no sweep reset. Calendar step 7i not run; bookmarks still blocked on Will's sign-in. Night boot: cards 054, 055 and 056, Encelia guard line, ORACLE packet consumed, one kill-log row, anchor note and verbatim rotation, boot-basis hashes re-attested, REGISTRY 10 rows. November 6 close pass: cards 043–053, COR-20261106-51, -52 and -53, CARL, OTTO, LIQUID, BROCK and ORACLE packets consumed, COR-20261106-48, §3.6 banner on 043, FALCON packet consumed; batches BM-20261106-04 (5 of 5) and -05 (15 of 15) closed; intake and bookmarks marked; Iran anchor bounded note, sweep clock unchanged; doorbells to FALCON and CARL. Earlier November 6 and older: moved verbatim to research/2026-11-06_closeout/LC-GAPS-ROTATED.md.
+November 9 evening (walter-bb): card 011 = COR-20261109-11 STRENGTHEN of card 004 with the §3.6 banner and CORRECTIONS row (76703d4d38); card 012 small items; batch BM-20261110-01 closed 12/12; two kill-log rows (WAL earnings-date item from October 6, stale; Oracle weekly recap, DUP); intake marked; doorbells to vulcan-cb and henry-b0 (both consumed the handoff before the stamp fix); typed-stamp fix on card 011, ZHAO and VIOLET handoffs (3ce0a1b70f), REGISTRY, calendar and scan files; REGISTRY 28 rows plus WALTER; STATUS bottom line, observation row, NETWORK, FILTER POSTURE (CPI LOOSE), two bottom-line paragraphs and four observation rows rotated verbatim to SESSION_LOG; MEMORY #2 and #34 extended (n+1 each), session note; this file rotated.
 
 ## RESULT
 
-November 6 close: Qeshm projectiles reported, attacker unnamed (047). Qatar's Prime Minister urged a good deal; "mediation ended" and "so it's war" unsupported; Qatar denies failed-deal reports, office text unread (043, corrected 048). G.19 September +$27.84B, revolving +14.5% after −4.4%. Flagstar 10-Q accepted 21:15:04Z, unread. VIX 25.64 at the Cboe print. No new WALTER registered fire. Earlier: moved verbatim to research/2026-11-06_closeout/LC-GAPS-ROTATED.md.
+Nvidia: the CEO, the company and the President are now on the record. Huang acknowledged the affair; Nvidia runs its own investigation; Trump says the FBI is "looking into it in terms of something else" and did not say Huang is under investigation. AP: NVDA "more than 4%" lower Monday, about 11% since Wednesday. VULCAN owns any channel. Monday tape (vendor, not closes): S&P +2.35%, QQQ +3.54%, VIX 19.92, Brent January 92.17. No new registered fire.
 
 ## GAPS
 
-- November 9 boot PARTIAL: boot basis not re-attested (AGENTS.md, CLAUDE.md, fetch.py, ORCHESTRATION_PLAYBOOK.md, USER.md); READS UNKNOWN; article bodies mostly not read (search snippets, owner reads, ZHAO's primary reads relayed unverified by WALTER); HANS dailies and CREED owner states cited, not re-pulled; doctor MEDs carried. WALTER miss: card 001 called the Rubio quote unfound and the IRGC claim undated; FALCON found both; corrected by 009. First status to Will wrongly said bookmarks had run; corrected in session, then run.
-- Night boot PARTIAL: X bookmarks not run, token refresh failed on this box, nothing marked, needs `x_bookmarks_scan.py --authorize` in Will's browser. FILTER_SPEC trailing 48h route-log rows and desk STATUS reads scoped to changed desks; RED banner hash not re-checked; HANS dailies cited. Card 054 and 055 web quotes came through a fetch helper; NBC body paywalled; WALTER did not read ORACLE's books. READS UNKNOWN stands, PROME's L845. WALTER's November 6 receipts say laptop, while this box records no boot 09:04 to 19:27 ET; label likely wrong, history not rewritten.
-- Consumer check on SoftBank 21.5%: NEXUS was off card 041 and its AI-funding read cites the old figures; packet filed at AGENTS/NEXUS/inbox/, consumption unproved.
-- Michigan November preliminary missed by step 7i: on no calendar WALTER reads, including HENRY ECON_CALENDAR; CARL caught it, card 049, about eight hours late. Monthly Michigan dates need a calendar home; flag to HENRY at next touch.
-- Card 043 miss: "no comprehensive deal" carried from paraphrase without Bloomberg or the Oxford text; dateline and Yanbu stamp wrong; FALCON caught three, Al Jazeera the fourth. Corrected 048.
-- Close of November 6: pull and scan done at 22:10Z on vendor and Cboe print rows; Cboe History, SKEW and Nasdaq rows unposted, so closes are not certified. Card 043 relies on two secondaries; Yanbu lane lines unread, not carried. Doctor MED at boot: 2 unconsumed items, DEWEY 003R parked. IRAN_WAR.md about 24,350 B and LAST_COMPLETION over or near the 75% trigger; rotation owed at the next Tier 2.
-- November 6 WALTER misses, each corrected on the record: card 018 event date from a blog stamp; card 023 benign-only precedent; card 029 omitted Reuters' "larger reassessment" line, corrected 034; card 030 wording; card 032 cluster; card 038 typed clock, fixed from the stamp; six corrections shipped without the §3.6 file banner, added later; card 003 overstated the ABB ban, corrected 041; card 037 carried LIQUID's untested negative, corrected 042. LIQUID's Q3 packet sat unread 14:20 to 15:31 ET.
-- Card 040: sec.gov Archives returned 403 to this client on the AHL 10-Q and 8-K; not evaded. data.sec.gov confirms the filings exist; the figures are SHADE's read. Card 042: WALTER read LIQUID's table and report, not the DTCC files.
-- Historical WALTER recovery report/notice published; Will accepted NOT RECOVERED and prohibited search expansion. Separately, WAL now verified complete freshly retrieved Q3 source bytes and independent extraction (November 4 report; MI3 19.81%, no weight/score change). Source/access is no longer its blocker. This does not rewrite WALTER's earlier failed recovery or resolve attribution/parent-bank gaps. No WALTER search restarted.
-- Card 018 took a CBS blog stamp as the event date; FALCON corrected it, card 020. CORAL's DR-4955 and Amendment 3 corrections are to its own surfaces, no WALTER card carried them, no register row; CORAL told consumers. HANS corrected France screen URL and holds TTF 90.68 versus card 1105-008's intraday €85, unresolved.
-- Card 064 said Cable One's risk sections were read whole and carried neither the NYSE non-compliance nor the convertible chain; BROCK caught it November 6, card 014. WALTER miss.
-- Publication: November 5 state is in the receipt below; no consumption inferred except named owner commits. HENRY and VIOLET consumed 077/078 November 5.
-- Intake coverage: November4 21:01Z collector healthy;24 incremental flagged news/filing units dispositioned at reboot. Prior catch-up: All 464 titles were screened, not every original article. Cards 057–068 explicitly retain source-body/owner-overlap gaps. Bookmarks: five fully read, 44 partly read; videos not watched. Exact gaps/reopen conditions are in REVIEW.md and the verification reports. No unattended monitoring or comprehensive all-news claim.
-- Source-complete threshold checks are separate from all 48 registered IDs. Trepp's two-print observation is complete; CREED qualitative/cohort events remain owner-limited. Official oil/TTF settles, France/Italy compound legs, complete monthly PMIs and qualitative censuses remain missing. Futures returns were refused on rounded quote/chart mismatch (87.48999786376953 versus 87.49); no return bypass/proxy. Existing broad-HY fires are not new fires; REG-T-04 >350 x3 remains not met, 10 bp watch at November 3 HY 340. VIX exit observations are 3/5, not owner closure.
-- Reader basis: boot basis matched 28 paths November 5; READS check stays UNKNOWN on a stale attestation, PROME's L845. Step 7 ran after the morning cards, desk STATUS reads PARTIAL (STEP7-REVIEW.md). Charter is 25,922 B, 80% of budget: NOT owed. READ_CAP rule 20 excludes charters from the read cap and directs no desk to rotate one; the yellow line comes from the Codex explicit-read row and 25.9 KB is under the truncation cap. Earlier 'owed' wording was overstated, corrected November 5. Optional hygiene only. Complete fleet lifecycle visibility UNKNOWN; no DARK inference.
+- This session's PARTIAL items are listed under STATUS. Card 011 rests on one AP chain read through a fetch helper at NBC New York; BBC unreachable from this client; Huang's letter not read; no FBI or DOJ comment found. Card 012 bodies unread, headlines and search summaries only.
+- WALTER misses this session: the first boot report called the Nvidia headline unrouted when card 004 carried the story (MEMORY #2 n+1); four typed stamps ran ahead of the clock (MEMORY #34 n+1), fixed before push except in the VULCAN and HENRY handoffs already consumed; the error is a source-timestamp label only, no content.
+- Doctor MED carried: 16 unconsumed items older than 2 days across YURI, AEOLUS, HOMER, CATO, WAL, WATT (5 ACTION, oldest 21 days); not a DARK finding; no doorbell basis established. DEWEY 003R 6 days past deadline (below).
 - DEWEY: 005R RESOLVED through VULCAN L800 and DEWEY L834, method omissions and WQ-551.FIRM deferral survive. 003R PARKED by DEWEY November 4, row stays PARTIAL and doctor MED stays until it runs: FDIC BankFind 0 Q3 rows against June control 4,313 (WALTER reproduced); FFIEC 4,259 of 4,268 is DEWEY's measurement. Not an unavailable-data deferral; no Q3 placement exists. DEWEY re-checks FDIC at next touch.
 - November 2 source gaps survive where not replaced: direct Al Jazeera/QSE originals and neutral Al Mayeda position/damage evidence; CME historical/motive/curve claims; original mortgage recording/Lunar/Vegas videos and selected paywalled primary bodies. ConnectWise's partial recovery was updated in November 4 card 011, not declared complete. New Qeshm/UKMTO evidence is routed, not a whole-theater census. Full Iran sweep completed November 5 01:44Z; ukmto.org 403, warnings 192-26 onward unseen, FT and Bloomberg originals unread.
 
@@ -62,23 +40,22 @@ November 6 close: Qeshm projectiles reported, attacker unnamed (047). Qatar's Pr
 
 Six older limit bullets (UNG WQ-573, owner grading, boundary 7, Codex messaging, earlier intake limits, VULCAN and CATO records) moved verbatim to research/2026-11-06_closeout/LC-GAPS-ROTATED.md; they remain binding.
 
+
+
+Fifteen earlier GAPS bullets (November 2 to 9) moved verbatim to research/2026-11-09_laptop-boot/LC-ROTATED.md; they remain binding.
+
 ## WILL_NEEDS
 
-No WALTER decision open. WQ-646 A: this window routes what FALCON and ORACLE send through Sunday; if it is gone, they file to inbox and PROME or Will starts WALTER. Offered, not begun: WALTER's WQ-622 combination watch. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding. WQ-626 ruled A November 5. TERRY owns the HYG card and any pairing word.
+No WALTER decision open. Ask (not a ruling): re-authorize X bookmarks in the browser on the laptop. Offered, not begun: WQ-622 combination watch. Existing WQ-573, WQ-556 C, WQ-401/WQ-508, WQ-388 DECLINE and source-search limits remain binding. TERRY owns the HYG card and any pairing word.
 
 ## FOLLOW-UP
 
-0. REG-T-02 token rename: WALTER answered REGINALD November 7, no machine join breaks. When REGINALD names the token and date by packet, edit `design/THRESHOLD_SCAN.md:26` (hashed, re-attest), `design/CROSS_REFS/REGINALD.md:228`, `design/NEWS_SWEEP_TARGETS.md:20`, `design/ROUTING_CARVEOUTS.md:279`, and add the retired alias. No timer.
-0. At the November 12 sweep reconcile anchor ladder item 1, which names Kharg and South Pars as FAL-01-class, with FAL-01 RESOLVED and FALCON's November 7 read that its D 85 to 92 rung covers Gulf-ally production only. FALCON owns the letter. WALTER did not find the Rewards for Justice post on card 056.
+0. REG-T-02 token rename: when REGINALD names the token and date by packet, edit `design/THRESHOLD_SCAN.md:26` (hashed, re-attest), `design/CROSS_REFS/REGINALD.md:228`, `design/NEWS_SWEEP_TARGETS.md:20`, `design/ROUTING_CARVEOUTS.md:279`, and add the retired alias. No timer.
 0. CYPHER asks: any story naming Arkéa's provider goes to CYPHER as IMMEDIATE; stories naming Abrigo or Sageworks go to CYPHER; carry the four corrections in 052.
-0. Rule 6 doorbells to live desks were late on 024–037: sent November 5 13:5x ET to LIQUID, HENRY, VULCAN, CREED; PROME has the wake packet for desks not seen running. Doorbell at dispatch, not when asked.
-0. HENRY's FLASH doorbell request ended November 5 about 14:02 ET when that session closed out; cards go to its inbox. Will may reboot it the same day: at each dispatch check ListAgents and doorbell any live owner under rule 6.
-1. HENRY and VIOLET consumed 077/078 November 5 by their own commits; wake recommendation closed. DEWEY 003R residual stays with DEWEY. L907 remains the bridge repair; L920 quote tolerance kept, intermittent refusals open at PROME.
-2. November 6: payrolls, WQ-556 C check, STWD/ACRE cohort releases. November 7: Friedberg/coverage-level and reserve/modification breadth pass. Supply dated prediction IDs/sources at the relevant owner's next authorized session per COMPLETION_SPEC; no historical registration sweep.
-3. November 11: Veterans Day HY non-session bridge. About November 12: full Iran sweep, MEMORY calendar check, staleness sweep; UNG reversal deadline remains November 12. November 13: WQ-556 C remeasurement and REG-T-06 CFR grade. Mid-December ERCOT audit and WATT EO 14421 before December 24 remain unchanged.
-4. FLG/REGINALD first reviews are complete; FLG M3 allocation waits for T-02/10-Q, REGINALD filing/cause questions and November 7 detector fix survive. CORAL/other semantic consumption is unproved. Sinokor legal-action, dated Iran answer/Qatar draft and LIQUID October issuance retain normal owner review; no unresolved headline becomes a new commissioned study.
-5. Prior cleanup/L845/VPS/transcription and boundary 7 repairs remain complete; no repeat repair. Prior CATO substantive evidence lacks an exact receipt; backlog alone does not authorize a wake. No continuing helper or unattended WALTER activity.
-6. Idea, not installed: show prior-day change for key instruments in the boot scan, labelled unverified when the vendor withholds it. Extends an existing step; needs Will's word.
+0. At each dispatch run ListAgents and doorbell every live ACTION owner (MEMORY #64).
+1. November 11 Veterans Day HY non-session bridge. About November 12: full Iran sweep, MEMORY calendar check, staleness sweep; UNG reversal deadline November 12. November 13: WQ-556 C remeasurement and REG-T-06 CFR grade. Mid-December ERCOT audit and WATT EO 14421 before December 24 unchanged.
+2. FLG M3 allocation waits for T-02/10-Q; REGINALD filing and cause questions survive. Sinokor, dated Iran answer, Qatar draft and LIQUID October issuance retain normal owner review; no new commissioned study.
+3. Idea, not installed: show prior-day change for key instruments in the boot scan, labelled unverified when the vendor withholds it; needs Will's word.
 
 ## SOURCE-SEARCH DISPOSITION — approved October 16, retained
 
@@ -107,137 +84,31 @@ Boundary 8’s registered fallback and missing official-settlement execution rem
 
 ## CLOSEOUT RECEIPT
 
-Light closeout after night boot; prior FULL closeout on Will's 18:33 ET word. Operational coverage PARTIAL. Publication is not consumption.
+Tier 2 FULL closeout after the laptop boot; prior FULL closeout November 6 23:34Z (ef1de5313a). Operational coverage PARTIAL. Publication is not consumption.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-10T00:38:17Z",
+  "as_of": "2026-11-10T01:22:33Z",
   "next_review": "2026-11-10",
   "publication": [
-    {
-      "commit": "a941ce2325a60193d1538cde83e27d5582c00b90",
-      "state": "published",
-      "note": "Light closeout 11/9 20:20Z."
-    },
-    {
-      "commit": "282a0bf659f1f0ce5cfa8227243cda3c509a6299",
-      "state": "published",
-      "note": "Card 010 delivery reconcile."
-    },
-    {
-      "commit": "3bdf6c1c5824d0023a43cff065bdb083c2d5ddaa",
-      "state": "published",
-      "note": "Card 010."
-    },
-    {
-      "commit": "8a1dabccecab24e329dddd6616f7d4ebe04a487c",
-      "state": "published",
-      "note": "Card 009, COR-20261109-09."
-    },
-    {
-      "commit": "de732344b572d1454951ab46105d3c9b6a585f21",
-      "state": "published",
-      "note": "Cards 004-008."
-    },
-    {
-      "commit": "811962c856c68508678a1d908aa093da9835bde2",
-      "state": "published",
-      "note": "Cards 001-003."
-    },
-    {
-      "commit": "962091e8fed8e0987abfdc6be5e05bc05103f650",
-      "state": "published",
-      "note": "Cards 20261108-001 and -002, COR-20261108-02."
-    },
-    {
-      "commit": "203c1f65c0cd4da359e12e0da74d4d46159f0fa2",
-      "state": "published",
-      "note": "Card 003."
-    },
-    {
-      "commit": "9da5207d033fb64553e41b3ae93bce2af1b57c37",
-      "state": "published",
-      "note": "Cards 001-002, COR-20261107-02."
-    },
-    {
-      "commit": "22546a36fc3bb0b62a5c698bafd297c54f9ea00e",
-      "state": "published",
-      "note": "Card 056."
-    },
-    {
-      "commit": "b4e393ffc38d927193b50092a2c26939a56eb30b",
-      "state": "published",
-      "note": "Card 055."
-    },
-    {
-      "commit": "6346a153872ee3f18d86d46c64b2290456660acf",
-      "state": "published",
-      "note": "Card 054."
-    },
-    {
-      "commit": "dde9b85bd31a610864f6c139c487b452b745cf15",
-      "state": "published",
-      "note": "Cards 043-046."
-    },
-    {
-      "commit": "10c3ce7c2c9add83f5f312e34e31acaf592b6d45",
-      "state": "published",
-      "note": "Cards 047-048."
-    },
-    {
-      "commit": "0c16d549b6a42b8ac660592626aafea1a6be0e56",
-      "state": "published",
-      "note": "Cards 049-050."
-    },
-    {
-      "commit": "d0f2c336736947e5323d2ff0c0b1288769b835e2",
-      "state": "published",
-      "note": "Card 051."
-    },
-    {
-      "commit": "a99da8d471aea6bbdf93e56006d401fe63c841cc",
-      "state": "published",
-      "note": "Card 052."
-    },
-    {
-      "commit": "ef1de5313a2cf34e807a980fd4970f143d911d9d",
-      "state": "published",
-      "note": "Prior full closeout; cards 001-042 commits are in that receipt, git history."
-    }
+    {"commit": "3ce0a1b70fa7486ee6fb79072396686022b5a444", "state": "published", "note": "Typed-stamp fix on card 011 and the ZHAO and VIOLET handoffs."},
+    {"commit": "76703d4d3805d165e1ad3718f49fb74bb88ef45e", "state": "published", "note": "Cards 011-012, COR-20261109-11."},
+    {"commit": "a941ce2325a60193d1538cde83e27d5582c00b90", "state": "published", "note": "Light closeout 11/9; earlier commits in that receipt, git history."}
   ],
-  "delivery": {
-    "signal_date": "20261109",
-    "total": 50,
-    "delivered": 50,
-    "note": "Delivery proof by origin only; recipient use separate. November 8 cohort 12/12."
-  },
-  "owner_review": {
-    "scope": "manual evidence review; no automatic completion",
-    "evidence": [
-      {
-        "path": "AGENTS/WALTER/research/2026-11-09_boot/CALENDAR-RECONCILIATION.tsv",
-        "sha256": "932e6b2d81637f10f75bad5e0c683a92f8ac239138da09fdaf0663bd9fd233b9"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-06_night-boot/THRESHOLD-SCAN.md",
-        "sha256": "60bcd5ef58ad2d33121b4ee896201d3a7650e86b1250599db0f177851552c56a"
-      }
-    ]
-  },
-  "procedure": {
-    "tier": "light",
-    "boot": "PARTIAL: boot basis not re-attested (5 files); READS UNKNOWN; bodies mostly unread; HANS/CREED cited.",
-    "session": "Window closed 19:37 ET 11/9 on Will's word via PROME (laptop switch); no helper or timer running. Tier 2 FULL carried to the laptop boot."
-  },
+  "delivery": {"signal_date": "20261109", "total": 61, "delivered": 61, "note": "Cards 011-012 rows delivered on origin via 76703d4d38 (carried by another desk's push), reconciled. Recipient use separate; VULCAN and HENRY moved card 011 to processed."},
+  "owner_review": {"scope": "manual evidence review; no automatic completion", "evidence": [
+    {"path": "AGENTS/WALTER/research/2026-11-09_laptop-boot/THRESHOLD-SCAN.md", "sha256": "14f1dadfb7ae12f562b5f48b1e8dff6644c5be484447b70cc8f85632380f1742"},
+    {"path": "AGENTS/WALTER/research/2026-11-09_laptop-boot/CALENDAR-RECONCILIATION.tsv", "sha256": "c7ddd9f7e3f90446704b058d6e1a3f226ef85fbf9f927a5e6387b9f97a9c478e"}
+  ]},
+  "procedure": {"tier": "full", "boot": "PARTIAL: see STATUS section.", "session": "walter-bb interactive on the laptop; no helper or timer running."},
   "manual_duties": {
-    "11": "November 9: cards 001-010, 6 PRIORITY 4 ROUTINE, no IMMEDIATE or FLASH; COR-20261109-09 STRENGTHEN. Batch BM-20261109-01 closed 14/14.",
-    "13": "REGISTRY not refreshed this pass; deferred to Tier 2.",
-    "12": "Bottom line re-cut, Nov 6 paragraph rotated verbatim, session log breadcrumb. NETWORK unchanged.",
-    "14": "MEMORY #51 extended (pathspec commits).",
-    "15": "Resume 1, 1c, 1d; CHANGED; GAPS; cutoff 2026-11-09T20:2xZ.",
-    "16": "Exact paths, safe-push.",
-    "checks": "research/2026-11-09_boot/closeout/checks.json."
+    "11": "Cards 011 (PRIORITY, correction) and 012 (ROUTINE); batch BM-20261110-01 closed 12/12; index regenerated.",
+    "13": "REGISTRY 28 rows Updated/Focus from owner lead headers plus WALTER by hand; Status column not re-graded.",
+    "12": "Bottom line re-cut, observation row added, rotations verbatim, NETWORK regenerated after 13, FILTER POSTURE CPI LOOSE, SESSION_LOG entry.",
+    "14": "MEMORY #2 and #34 n+1, session note; 23,783 B, under trigger.",
+    "15": "This file rewritten and rotated.",
+    "16": "Exact paths; safe-push."
   }
 }
 END_CLOSEOUT_RECEIPT -->
