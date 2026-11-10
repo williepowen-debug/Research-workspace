@@ -1,8 +1,8 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-11-09 13:1x ET, PROME due-row wake (Will 12:07 ET; Claude Code `claude-opus-5-5`): **3Y `91282CRW3` registered grade, I′ FIRED (indirect 55.48 vs 57.44), BND-33 TRUE**, clean-nominal counter 3 → 0, auction health held 3; ICE 11/6 HY 342 (KB-BND-561, 562). Prior: 2026-11-06 18:34 ET closeout, WALTER card 049 consumed, KB-BND-560, no score moved. Close-of-day data refresh 17:12 ET: every figure refreshed through the 11/6 close, no score, band, gate or threshold moved. Earlier today: October payrolls rates read, 16:02 ET. **Last real data refresh: 2026-11-09.**
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-11-09 19:4x ET, standard closeout on PROME prome-9c ask (Will 19:37 ET, desktop to laptop), 11/9 Treasury close refreshed. Earlier 13:1x ET, PROME due-row wake (Will 12:07 ET; Claude Code `claude-opus-5-5`): **3Y `91282CRW3` registered grade, I′ FIRED (indirect 55.48 vs 57.44), BND-33 TRUE**, clean-nominal counter 3 → 0, auction health held 3; ICE 11/6 HY 342 (KB-BND-561, 562). Prior: 2026-11-06 18:34 ET closeout, WALTER card 049 consumed, KB-BND-560, no score moved. Close-of-day data refresh 17:12 ET: every figure refreshed through the 11/6 close, no score, band, gate or threshold moved. Earlier today: October payrolls rates read, 16:02 ET. **Last real data refresh: 2026-11-09.**
 
-Frontiers: Treasury nominal/real **11/6** · 5Y5Y and 10Y breakeven **11/6** · ICE credit via FRED **11/6** · NY Fed repo **11/5** (11/6 due Monday) · FR2004 as-of **10/28** · ACM **11/6** · KW **10/30** · PMMS **11/5** · Bund **11/6** · TreasuryDirect auctions through **11/9** (3Y). Evidence: `analysis/2026-11-06_nfp/READ.md` and raw manifest.
+Frontiers: Treasury nominal/real **11/9** · 5Y5Y and 10Y breakeven **11/6** · ICE credit via FRED **11/6** · NY Fed repo **11/5** (11/6 and 11/9 cells not read this session) · FR2004 as-of **10/28** (next as-of publishes 11/12) · ACM **11/6** (0.6428%) · KW **10/30** · PMMS **11/5** · Bund **11/6** · TreasuryDirect auctions through **11/9** (3Y). Evidence: `analysis/2026-11-09_refunding/` (3Y grade, close read); 11/6 `analysis/2026-11-06_nfp/READ.md`.
 
 ## Current judgment
 
@@ -18,7 +18,7 @@ Frontiers: Treasury nominal/real **11/6** · 5Y5Y and 10Y breakeven **11/6** · 
 
 **Auctions: the refunding's first leg fired the marker; the mechanism did not fail.** The 3Y `91282CRW3` ($58B, 11/9) printed indirect **55.48%** against its frozen I′ bar **57.44** (−1.96pp) and below its 12-auction minimum 56.50; **directs took 35.04% and dealers only 9.48%** (max 19.50), so the shortfall went to direct bidders, not dealer balance sheets; BTC 2.53 vs minimum 2.54 (cover marker by 0.01). **BND-33 TRUE** (50% call). Clean-nominal counter **3 → 0** (registered fire, WQ-536 A); auction health **held 3** (a bare I′ is the 🟠 marker; 9/15 precedent moved no score). ⚠️ Two short-end tenors in three weeks now sit low on indirect (10/26 2Y audit-only 45.68, 11/9 3Y 55.48); the thesis tenors grade next, 10Y 11/10 (bar 65.05) and 30Y 11/12 (bar 63.89). KB-BND-562.
 
-**Rates:** 2s30s 75bp, −4 on 11/6 after +9 on 11/5: 2Y 4.51, 10Y 4.86, 30Y 5.26 [11/6]. Real 10Y 2.63%, run 41 sessions at or above 2.50. Long-run inflation pricing fell: 5Y5Y 2.17% [11/6], −5bp, on one day of fitted-par arithmetic; 33bp below 2.50. Europe did not follow the US: Bund 3.29% [11/6], −4bp, while the 10Y rose 2. Refunding next: the 3Y rose most on 11/6 (+6); the 10Y prints 4.5 hours after CPI on 11/10, the same day as the UK 5⅜% 2056 auction (HANS).
+**Rates, 11/9 close:** front end up again, long end flat: 2Y 4.56 (+5), 3Y 4.58 (−1, auction day), 10Y 4.88 (+2), 30Y 5.26 (0); 2s30s 70bp (−5). Real 5Y 2.42 (+7), real 10Y 2.66 (+3), run 42 sessions at or above 2.50; no attribution computed. *11/6:* 2s30s 75bp, 2Y 4.51, 10Y 4.86, 30Y 5.26. Long-run inflation pricing fell: 5Y5Y 2.17% [11/6], −5bp, on one day of fitted-par arithmetic; 33bp below 2.50. Europe did not follow the US: Bund 3.29% [11/6], −4bp, while the 10Y rose 2. Refunding next: the 3Y rose most on 11/6 (+6); the 10Y prints 4.5 hours after CPI on 11/10, the same day as the UK 5⅜% 2056 auction (HANS).
 
 ## Regime and capital record
 <!-- bond-state: thesis=v1.2.13; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=FLAT@2026-10-30 -->
@@ -28,13 +28,13 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 
 | Metric | Dated observation | Source / basis |
 |---|---|---|
-| Official 2Y/5Y/10Y/20Y/30Y | 4.51 / 4.64 / 4.86 / 5.29 / 5.26% [11/6]; daily +5/+5/+2/+2/+1bp | [CONF PRIMARY Treasury par CSV, re-read 11/6 17:10 ET, unchanged from 15:53] |
-| Official real 5Y/10Y/30Y | 2.35 / 2.63 / 3.07% [11/6]; daily +2/+3/+2 | [CONF PRIMARY Treasury real CSV] |
-| 10Y/30Y nominal−real | 2.23 / 2.19% [11/6] | [EST fitted-par subtraction; not pure breakevens] |
-| 2s10s / 5s30s / 2s30s | 35 / 62 / 75bp [11/6] | [EST PRIMARY subtraction] |
-| 20Y−30Y | +3bp [11/6]; 20Y still above 30Y | [EST PRIMARY] |
+| Official 2Y/3Y/5Y/10Y/20Y/30Y | 4.56 / 4.58 / 4.67 / 4.88 / 5.29 / 5.26% [11/9]; daily +5/−1/+3/+2/0/0bp | [CONF PRIMARY Treasury par CSV, read 11/9 19:4x ET] |
+| Official real 5Y/10Y/30Y | 2.42 / 2.66 / 3.08% [11/9]; daily +7/+3/+1 | [CONF PRIMARY Treasury real CSV] |
+| 10Y/30Y nominal−real | 2.22 / 2.18% [11/9] | [EST fitted-par subtraction; not pure breakevens] |
+| 2s10s / 5s30s / 2s30s | 32 / 59 / 70bp [11/9] | [EST PRIMARY subtraction] |
+| 20Y−30Y | +3bp [11/9]; 20Y still above 30Y | [EST PRIMARY] |
 | 5Y5Y forward / 10Y breakeven | 2.17 / 2.23% [11/6]; 2.22 / 2.24 [11/5] | [CONF MIRROR FRED T5YIFR/T10YIE]; 33bp below 2.50 |
-| ACM 10Y TP / KW 10Y TP | 0.7218% [11/5] / 0.9089% [10/30] | [EST PRIMARY NY Fed / MIRROR FRED]; different models |
+| ACM 10Y TP / KW 10Y TP | 0.6428% [11/6], −7.9bp / 0.9089% [10/30] | [EST PRIMARY NY Fed / MIRROR FRED]; different models |
 | Fed path | 12/9 meeting: +19.0bp priced ≈ 76% of a +25bp hike (in-month method, EFFR held 3.88 [11/5]); strip peak 4.345 Oct-2027 (+46.5bp); 65% [11/5], 82% [11/4] | [EST CBOT vendor bars, last print after the 17:00 ET halt 11/6, captured 17:09 ET, not settlement; HENRY owns] |
 | HY/CCC/IG OAS | 342 / 1317 / 93bp [11/6]; B/BB/BBB 367 / 213 / 116 [11/5] | [CONF MIRROR-WALLED ICE via FRED, read 11/9 12:56 ET] |
 | HY primary | Week to 11/6 nearly $10B through Thursday, Friday volume not seen; October ≈$15B; EDGAR filers 22 week of 11/2 (read after the 11/6 close) | [EST secondary, Bloomberg via CAM; EDGAR mixed IG/HY]; pulled deals not observable |
@@ -64,14 +64,14 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 
 | Existing gate | Dated state |
 |---|---|
-| Real 10Y ≥2.50 sustain | MET; Treasury 2.63 [11/6], 13bp through; trailing run 41 sessions (2026 Treasury real file) |
+| Real 10Y ≥2.50 sustain | MET; Treasury 2.66 [11/9], 16bp through; trailing run 42 sessions (2026 Treasury real file) |
 | OLD auction add re-arm | MET 9/23; add DECLINED WQ280; not met at any October print |
 | WQ291 paired kill | MET-REC 10/1 (closed window); funding window UNGRADED; position now flat |
 | Inflation anchoring | T5YIFR 2.17 [11/6], 33bp below 2.50 |
 | HY marker / lead | HY 348 [11/5] >300; 2bp below 350; band 338–363 held 10/30, 11/2, 11/3, left 11/4, back 11/5 |
 | Credit-equity upgrade (band ≥2 sessions, VIX <20) | NOT MET: one of four band sessions under VIX 20 (10/30); VIX 28.18 [11/5], 25.64 [11/6 vendor, VIOLET owns the close], so 11/6 cannot count toward it whatever HY prints |
 | CCC escalation | 1320 [11/5] >1100; score 4 held |
-| 30Y ≥5.00 | 103 of 214 2026 sessions, trailing run 87 [Treasury file through 11/6] |
+| 30Y ≥5.00 | 104 of 215 2026 sessions, trailing run 88 [Treasury file through 11/9] |
 | WQ400 Bund disorderly | NOT MET through 11/6; 0 of 21 prospective evaluations (five-session changes +1/−6/−4/−5/−9/−11bp; 3.29 vs 3.40 on 10/30) |
 | F2 buyback carrier | Seven of seven OFF-THE-RUN through 11/4; next op 11/17 20–30Y; carrier runs to 2/9/2027 |
 | F1 / F3 | NOT FIRED at the 11/4 QRA (KB-BND-528); next read 2/3/2027 |
@@ -80,7 +80,7 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 
 | # | Target /vector | Score | Status | Key evidence | Upgrade condition |
 |---|---|---:|---|---|---|
-| 1 | Long end / duration VX-BND-05 / VX-BND-12 / VX-BND-14 | 5 | 🔴🔴 | 30Y 5.26 [11/6], run 87; real 10Y 2.63 | Existing top score |
+| 1 | Long end / duration VX-BND-05 / VX-BND-12 / VX-BND-14 | 5 | 🔴🔴 | 30Y 5.26 [11/9], run 88; real 10Y 2.66 | Existing top score |
 | 2 | Treasury auction health VX-BND-01 / VX-BND-08 / VX-BND-13 | 3 | 🟠 | 3Y 11/9 registered I′ fire, dealers 9.48: counter 3→0, score held; downgraded 4→3 on 11/5 | A registered composition fire resets the counter; second composition failure with a confirmed mechanism leg |
 | 3 | Dealer absorption VX-BND-04 / VX-BND-16 | 2 | 🟡 | As-of 10/28 −$3.870B to $146.946B, no build; >21Y gave back most of the 10/14 jump | Two consecutive builds again; red = fresh long-end record + composition failure |
 | 4 | HY function VX-BND-02 / VX-BND-11 | 3 | 🟠 | HY 348 [11/5]; CCC 1320; B +41bp over 15 sessions; primary open 11/5 | HY >350 or verified pulled-deal cluster |
@@ -92,7 +92,7 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 
 ## Exit / falsification
 
-WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT sold 10/30). Funding window UNGRADED. Thesis falsifier 10Y<4.15 AND 30Y<5.00 for 3 sessions plus a clean refunding: not met (4.86 / 5.26 [11/6]). Convergence downgrade: applied 11/5. Position construction is TERRY's. **OPEN predictions: 4.** BND-33 ✅ TRUE 11/9 on the 3Y (I′ 55.48 vs 57.44; called 50%, base rate 5 of 11). BND-34 to 37 registered 11/5, resolve by 12/31 (`thesis/PREDICTIONS.tsv`). VX-BND-09 auction tails remain retired.
+WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT sold 10/30). Funding window UNGRADED. Thesis falsifier 10Y<4.15 AND 30Y<5.00 for 3 sessions plus a clean refunding: not met (4.88 / 5.26 [11/9]). Convergence downgrade: applied 11/5. Position construction is TERRY's. **OPEN predictions: 4.** BND-33 ✅ TRUE 11/9 on the 3Y (I′ 55.48 vs 57.44; called 50%, base rate 5 of 11). BND-34 to 37 registered 11/5, resolve by 12/31 (`thesis/PREDICTIONS.tsv`). VX-BND-09 auction tails remain retired.
 
 ## Immediate Catalysts (same event set as docket/CATALYSTS.tsv)
 

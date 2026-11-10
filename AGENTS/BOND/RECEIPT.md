@@ -1,18 +1,15 @@
-# BOND receipt — 2026-11-06 close-of-day data refresh
+# BOND receipt — 2026-11-09 PROME due-row wake + standard closeout
 
-Task: Will's 17:08 ET word relayed by PROME: boot, drain, refresh through the 11/6 close; no new thread, no spawn, no trade or card. Runtime Claude Code, model `claude-opus-5-5`. Tools used: bash, repo `.venv` python. Failed to connect: mtnewswire, Definite. Not called: Quartr.
+Task: PROME due-row wake (Will 12:07 ET): grade DOCKET L924 / BND-33 on the 3Y; then closeout on prome-9c's ask (Will 19:37 ET). Runtime Claude Code, model `claude-opus-5-5`. Tools: bash, repo `.venv` python, background poll. Failed to connect: mtnewswire, Definite. Not called: Quartr.
 
 | Item | Result | Evidence |
 |---|---|---|
-| Inbox and WALTER lane | Empty at the 17:09 ET boot; corrections check rc=0 | `inbox/`; `corrections_boot_check.py` |
-| Treasury close | Par and real cells unchanged from the 15:53 ET read | KB-BND-558 |
-| New official cells | 5Y5Y 2.17, 10Y breakeven 2.23, Bund 3.29 [11/6] | KB-BND-558 |
-| Path, last vendor print | 12/9 about 76%; peak 4.345 Oct-2027; vendor bars, not settlement, HENRY owns | KB-BND-558 |
-| Credit | ICE 11/6 unpublished, no estimate; proxy 0.8407; VIX 25.64 vendor | KB-BND-559 |
-| Primary | 22 EDGAR filers; one "not to proceed" hit is credit agreement boilerplate | KB-BND-559 |
-| Moved | No score, band, gate or threshold. WQ400 0 of 21 | STATUS gates |
-| Stale line fixed | `monitors/CDX_CASH_BASIS.md` 0.8440 [11/5] replaced; that close is 0.8403 | KB-BND-559 |
+| Boot | corrections rc=0; docket_check rc=0 through 11/19; WALTER lane empty | boot outputs |
+| ICE 11/6 | HY 342, CCC 1317, IG 93; BND-34 not TRUE | KB-BND-561 |
+| 3Y `91282CRW3` | REGISTERED: indirect 55.48 vs I′ 57.44 → FIRE; dealer 9.48; BTC 2.53 | KB-BND-562; `analysis/2026-11-09_refunding/grade_91282CRW3.txt` |
+| BND-33 / L924 | ✅ TRUE 11/9 | `thesis/PREDICTIONS.tsv`; PROME packet |
+| Counter / score | counter 3 → 0; auction health held 3; composite 17 | VX-BND-01 |
+| Treasury 11/9 close | 2Y 4.56, 10Y 4.88, 30Y 5.26, real 10Y 2.66 | KB-BND-563 |
+| Packets | PROME (L924), LIQUID, ZHAO (🟠 FYI) | commit cf19bacf7e |
 
-Closeout addendum: WALTER card 049 (Michigan preliminary) consumed, KB-BND-560, board_log.
-
-Unread or unpublished: ICE 11/6, SOFR and EFFR 11/6, ACM 11/6, KW after 10/30, FR2004 as-of 11/4, Friday HY volume. No packet: no figure others cite moved.
+Pending for the laptop: 10Y grade 11/10 13:00 ET, 30Y grade 11/12 (counter only). Details → SCRATCH NEXT.
