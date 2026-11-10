@@ -220,3 +220,15 @@ gamma_flip_35d	7636	2026-11-10	cboe 8333 contracts (11/10 post-CPI intraday run 
 net_gex_35d_Bn	-57.3	2026-11-10	$B per 1% (11/10 post-CPI intraday run ~11:1x ET, live vendor spot; chain carries 11/9 trading)
 put_wall	NONE	2026-11-10	WITHHELD, none published: 14d #1 put strike 7500 equals the 14d #1 call strike 7500 (side unresolved at 14d); 35d put 7500 clean +36%; spot ~7,490 UNDER 7500, so not support at this spot; SUPERSEDES 7500 [11/9]; 11/10 post-CPI intraday run ~11:1x ET, live vendor spot, chain carries 11/9 trading
 call_wall	NONE	2026-11-10	WITHHELD, none published: 14d 7500 (near-tie band 7500-7700) vs 35d 7700 (near-tie band 7500-7700), horizons disagree; SUPERSEDES 7700 [11/9]; 11/10 post-CPI intraday run ~11:1x ET, live vendor spot, chain carries 11/9 trading
+qqq_gamma_flip_14d	689.35	2026-11-10	cboe 2165 contracts (11/10 post-CPI intraday run 11:19 ET, live vendor spot; chain carries 11/9 trading)
+qqq_net_gex_14d_Bn	-2.3	2026-11-10	$B per 1% (11/10 post-CPI intraday run 11:19 ET, live vendor spot; chain carries 11/9 trading)
+qqq_gamma_flip_35d	689.82	2026-11-10	cboe 3300 contracts (11/10 post-CPI intraday run 11:19 ET, live vendor spot; chain carries 11/9 trading)
+qqq_net_gex_35d_Bn	-2.7	2026-11-10	$B per 1% (11/10 post-CPI intraday run 11:19 ET, live vendor spot; chain carries 11/9 trading)
+ndx_gamma_flip_14d	28020	2026-11-10	cboe 2439 contracts (11/10 post-CPI intraday run 11:19 ET, live vendor spot; chain carries 11/9 trading)
+ndx_net_gex_14d_Bn	-0.5	2026-11-10	$B per 1% (11/10 post-CPI intraday run 11:19 ET, live vendor spot; chain carries 11/9 trading)
+ndx_gamma_flip_35d	28186	2026-11-10	cboe 3429 contracts (11/10 post-CPI intraday run 11:19 ET, live vendor spot; chain carries 11/9 trading)
+ndx_net_gex_35d_Bn	-0.9	2026-11-10	$B per 1% (11/10 post-CPI intraday run 11:19 ET, live vendor spot; chain carries 11/9 trading)
+qqq_put_wall	NONE	2026-11-10	WITHHELD, none published: put wall 680 equals the call wall 680 at both 14d and 35d (side unresolved); spot 674.24 UNDER 680; 11/10 post-CPI intraday run 11:19 ET, live vendor spot, chain carries 11/9 trading
+qqq_call_wall	680	2026-11-10	PUBLISHED at both horizons (14d clean +25%, 35d near-tie band 680-700); spot 674.24 under it, overhead; SUPERSEDES NONE [11/9]; 11/10 post-CPI intraday run 11:19 ET, live vendor spot, chain carries 11/9 trading
+ndx_put_wall	28000	2026-11-10	clean at both horizons (14d +16%, 35d +37%); spot 27718.83 UNDER it, overhead not support; 11/10 post-CPI intraday run 11:19 ET, live vendor spot, chain carries 11/9 trading
+ndx_call_wall	29675	2026-11-10	clean at both horizons (14d +51%, 35d +46%), PUBLISHED; 11/10 post-CPI intraday run 11:19 ET, live vendor spot, chain carries 11/9 trading
