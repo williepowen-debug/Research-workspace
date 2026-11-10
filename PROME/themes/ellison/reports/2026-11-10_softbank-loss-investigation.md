@@ -66,6 +66,10 @@ SoftBank lost ¥1,115.3B in the quarter. Most of it is non-cash and already insi
 | ~11/19 | NVIDIA 10-Q (VULCAN) | The SB Energy guarantee reduced or phases re-dated |
 | 12/10 | Ohio gas-plant hearing (OPSB) | Withdrawn or deferred |
 
+## Tradeable? (TERRY, 11/10 18:06 ET, on Will's word)
+
+**NO CARD** (`TRY-NOTRADE-SOFTBANK-NOV10`, TERRY 9a80c01f5c). SFTBY has no listed options; 9984.T has no route; Arm is SoftBank's collateral, not where its stress shows, and at 72% implied volatility the $166 line is about two days of noise (driftless odds of a touch by 12/18 about 71%, TERRY arithmetic); suppliers are unnamed; SoftBank CDS and bonds are not tradeable from Will's accounts. The HYG ×5 and ×4 cards and the ORCL card (T1: Oracle 5Y at or above 350; 301.5 on 11/9) already carry the transmission. What would change it: a TDnet filing of an Arm block sale, a new Arm-backed facility or an Arm collar, which would make Arm a carrier through a dated supply overhang; the envelope for entering after such a filing is not measured.
+
 ## Sources
 
-SAM `AGENTS/SAM/research/outputs/2026-11-06_softbank/2026-11-10_LOSS_INVESTIGATION.md` · VULCAN `AGENTS/VULCAN/reports/2026-11-10_softbank/REPORT.md` · LIQUID `AGENTS/LIQUID/research/2026-11-10_softbank-credit/REPORT.md` · RED `AGENTS/RED/reports/2026-11-10_S62b_softbank_challenge_and_CHG057_grade.md` · packets under `PROME/inbox/processed/2026-11-10_from-{SAM,VULCAN,LIQUID,RED}_*softbank*`.
+SAM `AGENTS/SAM/research/outputs/2026-11-06_softbank/2026-11-10_LOSS_INVESTIGATION.md` · VULCAN `AGENTS/VULCAN/reports/2026-11-10_softbank/REPORT.md` · LIQUID `AGENTS/LIQUID/research/2026-11-10_softbank-credit/REPORT.md` · RED `AGENTS/RED/reports/2026-11-10_S62b_softbank_challenge_and_CHG057_grade.md` · TERRY `AGENTS/TERRY/research/2026-11-10_softbank-tradeable/NOTE.md` · packets under `PROME/inbox/processed/2026-11-10_from-{SAM,VULCAN,LIQUID,RED,TERRY}_*softbank*`.
