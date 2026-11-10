@@ -94,3 +94,36 @@
 
 **2026-11-09 15:59 ET addendum (CARL), written before the Q3 print. No cell edited.** On Will's instruction of 15:55 ET, PROME established the governing rule from dated records before the data: `PROME/reports/2026-11-09_CARL-HHDC-governing-rule.md`. **The RE-SPEC (THESIS v2.6.6; Will Option A 2026-08-16; encoded 2026-08-27, 7037178306) carries the official verdict. The as-written row is the shadow only.** If the shadow shows decline 2 of 2 while the re-spec has not fired, CARL writes both in figures here and sends PROME the divergence the same session as a fact, proposing no verdict, reset or rule change; only Will can reopen the 8/16 choice. **Condition 2 (no RED reopening after 8/16), checked in CARL's and RED's files:** RED's packet of 2026-08-20 (`inbox/processed/2026-08-20_from-RED_chg045-answer-A-no-reopen-…`) answers "(A), no reopen … No reopen routed to PROME", and RED's tree of 11/06 (`AGENTS/RED/research/2026-11-10_HHDC_Q3_TREE.md`) labels the re-spec "live rule, Will Option A, 8/16". No later RED objection found.
 
+
+**2026-11-10 11:13 ET addendum (CARL, GRADE AT THE Q3 PRINT; PROME prome-07 wake, D:L1017). No cell above edited.**
+
+**§2 instrument.** File `HHD_C_Report_2026Q3.xlsx` pulled 2026-11-10 11:09 ET from newyorkfed.org with curl and a browser UA: HTTP 200, 968,678 bytes, sha256 f6370608…76b72a3 (saved at `research/2026-11-09_HHDC_prep/raw/`). Year trap: the workbook's table of contents reads "November 2026" and the last data row on Pages 12 and 14 is 26:Q3. **One vintage (Q3) for every figure below.** Revision check against the PRIOR (Q2) file: 0 quarters revised on Page 14 CC, 0 on Page 12 CC; 26:Q2 unrevised on every series read. Page 28 not used. Two renderings agree: the press release table ("Flow into Serious Delinquency … Credit Card Debt 7.05% [Q3 2025] 6.87% [Q3 2026]") matches Page 14 Data.
+
+**§1 shadow grade, both rows, figures before interpretation.**
+
+| | Measure | Instrument | Q3 verdict | Consecutive count |
+|---|---|---|---|---|
+| **AS-WRITTEN** (superseded v2.6.5, shadow) | CC 90+ balance share, QoQ direction | Page 12 Data CC, Q3 vintage | 12.92 → **12.90 (−2 bp): DECLINE** | **2 of 2 (26:Q1 13.12 → 26:Q2 12.92 → 26:Q3 12.90): LEG 2 MET** |
+| **RE-SPEC** (live v2.6.6, OFFICIAL) | CC flow into 90+, 2 consecutive declines, cumulative ≥100 bp | Page 14 Data CC, Q3 vintage | 7.10 → 6.97 → **6.87**: both moves down (−13 bp, −10 bp), **cumulative 23 bp vs 100 bp floor: NOT MET** | **NOT FIRED** (two declines, but 77 bp short of the floor) |
+
+**⛔ §1 DIVERGENCE OCCURRED.** The superseded as-written rule fires its leg 2 at Q3; the governing re-spec does not. With leg 1 met (below), the as-written full-thesis kill would read FIRED; the official verdict under the rule Will ratified 2026-08-16 is **NOT FIRED**. Reported to PROME this session as a fact (packet `PROME/inbox/2026-11-10_from-CARL_D-L1017-D-L797-HHDC-graded-divergence-beef-read.md`). CARL proposes no verdict, reset or rule change; CARL is the beneficiary of the 8/16 reset; only Will can reopen that choice.
+
+**§1a leg 1.** ICSA 189K, latest weekly print (FRED pull 2026-11-10 11:09 ET; vintage as of that pull; next print Thu 11/12). Under 220K for 14 straight weeks (8/01–10/31 per the 11/09 pull). Met; filters nothing (RED rider 1).
+
+**§4 guards applied.**
+1. **Share vs dollars vs balances (Page 12 CC vs Page 3 CC):** card balances $1.263T → $1.285T (+$22B, +1.7%; press release "+$22 billion"). Implied 90+ dollars 12.92% × 1.263 = $163.2B → 12.90% × 1.285 = $165.8B, **+$2.6B (+1.6%)**. The numerator ROSE; the whole −2 bp share decline is denominator growth (as at Q2). Rounding basis: the shares are published to two decimals, so each implied dollar figure carries about ±$0.06B.
+2. **Noise floor:** Page 12 CC median absolute QoQ move, 03:Q1–26:Q3, is 29 bp (94 moves; 7 of 94 were 2 bp or smaller). A −2 bp move is inside the noise. Page 14 CC median absolute QoQ move is 19 bp; Q3's −10 bp is about half of that.
+3. **Issuer's characterisation reconciled:** NY Fed press release 2026-11-10, "Transition rates into serious delinquency slightly improved for credit cards and student loans"; headline "Delinquency Transition Rates Remain Flat". CARL's words: "slightly lower", consistent with the release.
+4. **One witness:** Page 13 CC flow into 30+ 8.69 → 8.39 (−30 bp) moves the same way; same pipeline, not a second confirmation.
+5. **Outflow not split:** no claim about cure, extension or charge-off from these figures.
+
+**Other grades at this print (frozen letters):**
+| Letter | Figure | Result |
+|---|---|---|
+| **CRL-33** (25%) | Page 14 CC 26:Q3 **6.87** vs 6.97 | **NO (below) → prediction MISSED** |
+| CRL-30 (25%) | 6.87 vs ≥7.50 bar; same-quarter YoY 25:Q3 7.05 → 6.87 (−18 bp) | Not fired, stays OPEN; invalidation needs <6.50 twice, not met |
+| CRL-04 basis note | Page 12 student 90+ share 10.92 (Q2 10.60) | Row CONFIRMED; note only, no re-grade |
+| AUTO-OUTFLOW-01 context | Page 12 auto 90+ share 5.49 → 5.66; Page 14 auto flow 3.00 → 3.02 | Context only; scoring needs the trust panel |
+| Student flow/stock (docket) | Page 12 student stock 10.60 → 10.92 up; Page 14 student flow 7.83 → 7.72 down | Divergence continues |
+
+**2026-11-10 11:15 ET correction to the 11:13 addendum's last table row (CARL).** The docket row asks about student flow into **30+** (Page 13) vs the 90+ stock (Page 12), not flow into 90+. Page 13 student 30+ flow: 16.35 (25:Q4) → 11.03 → 7.83 → **7.95 (26:Q3), up 12 bp**; 90+ stock 10.60 → 10.92, up. **The falling-inflow / rising-stock divergence did not continue at Q3: both rose.** The 90+ flow (Page 14) 7.83 → 7.72 is the figure the 11:13 row cited. KB-610 and STATUS carry the 30+ figure.

@@ -1,92 +1,88 @@
 # CARL SCRATCH
-**Last session:** 2026-11-09 from ~12:10 ET to the closeout at 19:38 ET (Will's 19:37 ET desktop → laptop switch, WQ-249, via PROME); Claude Code, Opus 5.5 (claude-opus-5-5), launched on PROME's due-row wake (Will's word 12:07 ET). One context, compacted once.
-**Type:** PROME due-row wake (D:L1017 CRL-33, D:L797 screwworm/beef), prepared up to the prints, which land 11/10. DAEDALUS contest answers. CRL-15 closed on Will's WQ-656 B. No trade, card, gate, band, threshold or score moved; no registered letter fired.
+**Last session:** 2026-11-10 from 11:09 ET to the closeout ~11:2x ET; Claude Code, Opus 5.5 (claude-opus-5-5), desktop, launched by PROME prome-07 after the 11/10 laptop → desktop switch. Quiet mode. Window HELD OPEN after closeout, waiting for PROME's message (no timer).
+**Type:** PROME due-row wake, graded: D:L1017 (CRL-33 and the Q3 HHDC) and D:L797 (screwworm/beef at October CPI). No trade, card, gate, band, threshold or score moved.
 
-**PRIORITY-1:** **Tue 11/10 11:00 ET: Q3 HHDC. OFFICIAL VERDICT ON THE RE-SPEC ROW ONLY (Will 15:55 ET; `PROME/reports/2026-11-09_CARL-HHDC-governing-rule.md`); record the as-written shadow beside it in figures; a divergence goes to PROME the same session AS A FACT, proposing nothing. Grade CRL-33 (>6.97 YES, <6.97 NO, =6.97 NO-VERDICT).** Procedure: `research/2026-11-09_HHDC_prep/PREP.md` (curl the Q3 xlsx with a generic browser UA, then run `hhdc_lookup.py --prior …Q2.xlsx --new …Q3.xlsx --quarter 26:Q3` from the repo root with `.venv/bin/python3 -I`). Before that, **08:30 ET CPI: beef on the substitute reads in `research/2026-11-09_screwworm/PREP.md`, labelled as substitutes.**
+**PRIORITY-1:** **Wait for PROME's reply on the §1 divergence (sent 11/10 as a fact; only Will can reopen the 8/16 choice). Next dated action: Thu 11/12 ICSA (leg 1 vintage) and the PHAN successor gate.** Do not re-grade CRL-33 on any later revision (row rule).
 
 ---
 
 ## CHANGES SINCE LAST SESSION
-- Will ruled WQ-656 **B** at 15:55 ET (PROME had recommended A): CRL-15 closed ungradeable. Same message: governing rule for 11/10 fixed before the print (re-spec).
-- PROME consumed the 13:30 packet (90f436eab9) and the 16:00 packet.
-- Q3 HHDC xlsx not published as of 13:00 ET 11/09 (the URL returns a 302 redirect).
-- BOARD: 56 cards dated 11/06 (053 on) to 11/09 are unrecorded in `board/BOARD_LOG.tsv`; none names CARL in its routing line and a keyword screen hit none of CARL's instruments. Not dispositioned; carried below.
+- No CARL laptop session ran on 11/10; PROME closed out the laptop at 10:17 ET and relaunched desks on the desktop.
+- NY Fed Q3 HHDC published 11:00 ET 11/10 (file 200 at 11:09 ET). BLS October CPI published 08:30 ET.
+- BOARD: closeout assertion "21 new since SIG-W-20261106-052, 1041 logged"; boot gap scan 1082 unrecorded, none with action:[CARL]. Card SIG-W-20261109-012 lists CARL info-only ("none moves a score"). Not dispositioned; carried.
 
 ## WHAT HAPPENED
-1. **Inbox drained:** BOARD 049–052 dispositioned (Tricolor → KB-608 combo:deep-subprime-loss-recognition); COR-20261106-51/-52 receipted NO-OP; PROME 11/07 packet filed.
-2. **D:L1017 prep:** Q1/Q2 HHDC xlsx saved with sha256; `hhdc_lookup.py` written and tested on the Q1→Q2 vintages (reproduced the Q2 card). Base rates: the as-written shadow could fire at Q3 (Page 12 CC fell Q2→Q3 16 of 23, but rose the last three Q3s). Card addenda 13:20 and 15:59 ET; no cell edited.
-3. **D:L797 prep:** October 2025 beef CPI unpublished, so October YoY not computable; three substitute reads fixed before the print. APHIS: cases in TX, NM and AZ (primary); 116 infestations and wild flies in traps are secondary (KB-609). Scenario B not called.
-4. **Contests (DAEDALUS b5e629ac1e):** CRL-23 new dated mark 30% (11/09) on the DHI FQ4 guide miss; CRL-15's 11/06 rationale withdrawn. `research/2026-11-09_contests/ANSWER.md`.
-5. **CRL-15 CLOSED NO-VERDICT, ungradeable (WQ-656 B):** prediction-design failure, no measurement definition registered; not scored; marks preserved; my resolver proposal not adopted; no successor without Will's approval. Backlog idea line added so ANSWER.md's "carried in ROADMAP" is true.
-6. **Condition 2 for PROME:** RED 8/20 packet "(A), no reopen"; RED 11/06 tree calls the re-spec the live rule. Flagged RED/STATUS.md line 78's stale pre-8/16 label to PROME (RED's file, not edited).
+1. **Q3 HHDC graded on the frozen card** (addenda 11/10 11:13 and 11:15 ET), Q3 vintage, 0 revisions vs Q2 on Pages 12/14 CC. **CRL-33 MISSED** (6.87 vs 6.97). CRL-30 not fired (YoY 7.05 → 6.87). CRL-04 note (student 10.92).
+2. **§1 DIVERGENCE:** official RE-SPEC NOT FIRED (7.10 → 6.97 → 6.87, cumulative 23 bp vs 100 bp); superseded AS-WRITTEN shadow MET (12.92 → 12.90, decline 2 of 2). The −2 bp is inside the 29 bp noise and is all denominator growth (90+ dollars +$2.6B). Sent to PROME as a fact.
+3. **Beef (D:L797):** October beef CPI +0.58% m/m NSA, +0.92% SA, first rise since the July peak; YoY not computable; interpolated +3.38%. APHIS primary: no "established" wording; counts did not render. Scenario B not called. CRL-10 level: food 352.359, Nov needs +0.86% m/m.
+4. Correction on the card: the docket's student question is 30+ inflow (Page 13), which ROSE 7.83 → 7.95; the falling-inflow/rising-stock divergence did not continue.
+5. Docket: HHDC, CRL-33 and October CPI rows pruned (TSV 29 = CALENDAR 29).
 
 ## STATUS CHANGES
 | Item | Change |
 |---|---|
-| CRL-23 | 15% (11/06) → **30% dated 11/09**; 70/45/15 preserved |
-| CRL-15 | OPEN 10% → **NO-VERDICT 11/09** (WQ-656 B), not scored |
-| OPEN predictions | 16 → 15 |
-| STATUS | Header; obligation rows for HHDC 11/10, beef CPI 11/10, CRL-15; food-watch spread sentence |
-| KB | +608, +609 |
+| CRL-33 | OPEN 25% → **MISSED 11/10** (Brier 0.0625) |
+| CRL-30 | first grade noted, stays OPEN 25% |
+| OPEN predictions | 15 → 14 |
+| STATUS | header; CC 90+ row → Q3 12.90; student rows → Q3; HHDC and beef obligation rows → graded; food watch → October beef |
+| KB | +610 (HHDC Q3), +611 (beef/APHIS, combo:goods-price-pipeline) |
 | Score | 53/70 v2.6.6 unchanged |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### IMMEDIATE (11/10)
-- **08:30 ET CPI:** beef substitute reads (m/m vs 512.606; 24-month vs 426.449; CARL interpolation vs 498.737, labelled); re-read the APHIS dashboard and the 10/28 AZ and 10/23 TX releases at the primary; CRL-10 CPIUFDNS level check; DOC refresh; NFIB 08:00. Carried cards SIG-W-20260929-002, -20261002-009, -20261008-027.
-- **11:00 ET HHDC:** as PRIORITY-1; also CRL-30 first grade with same-quarter YoY (25:Q3 7.05), CRL-04 basis note, AUTO-OUTFLOW-01 context, carried card SIG-W-20260904-004. Then PREDICTIONS (CRL-33), mirror, CHANGELOG, KB, STATUS; commit, safe-push, **ONE packet to PROME citing D:L1017 and D:L797**; then `git mv` both PROME packets in `inbox/` to `inbox/processed/`.
-- **Laptop boot first:** `git pull --rebase` per root protocol; disposition the 56 unrecorded BOARD cards (11/06-053 to 11/09) with the open-instrument grep before any non-acting disposition.
+### IMMEDIATE (24 hours)
+- Act on PROME's reply to the divergence packet, if any. Propose nothing on the rule.
+- 11/10 rows NOT worked this session, still owed: DOC monthly refresh + DOC-P10 grade (docket row kept); NFIB October (docket row kept). Carried cards SIG-W-20260929-002, -20261002-009, -20261008-027, -20260904-004.
+- Read the NY Fed Liberty Street post published with the Q3 HHDC (card delinquency by neighborhood income and lending standards); not read 11/10.
 
 ### UPCOMING (this week)
-- 11/12 ICSA (leg 1 vintage) and PHAN gate (COCKROACH.tsv +57d held). 11/13 ES-02 and Sweet v. McMahon (ask STUE).
+- 11/12 ICSA (leg 1) and PHAN successor gate (COCKROACH.tsv held, +60d). 11/13 ES-02 / CRL-28 and Sweet v. McMahon (ask STUE).
 
 ### UPCOMING (next 2 weeks)
-- 11/17 S49b row. 11/20 Michigan final. 11/25 BEA second estimate and DOC-P10. 11/30 EART October. 12/01 Section 122. 12/04 NFP print 2 (V16).
+- 11/17 S49b row and October retail sales. 11/20 Michigan final. 11/25 BEA personal income (CRL-32 leg 1) and DOC-P10. 11/30 EART October. 12/01 Section 122. 12/04 NFP print 2 (V16).
 
 ### BACKLOG
-- Carried NOT-DONE items from 11/06: DOC-P10 line, SLOOS percentages, CRL-22 ELV membership, gig driver supply, Epiq base 225 vs 248, ALLY call text.
+- THESIS / STATUS matrix evidence text (V1, V4) still cites Q2 figures; scores unchanged, so Check B passes. Refresh the evidence text at the next THESIS touch.
+- 56+ unrecorded BOARD cards (11/06-053 onward): disposition with the open-instrument grep before any non-acting disposition.
+- Carried from 11/06: DOC-P10 line, SLOOS percentages, CRL-22 ELV membership, gig driver supply, Epiq base 225 vs 248, ALLY call text.
 - Consistency soft (6, carried): CRL-29 instrument form, CRL-13 G3, CRL-20 G5, CRL-22 and CRL-23 G1, paper sleeve empty.
-- Page 14 base-rate count 9 of 49 vs registration 8 of 48: not reconciled (does not move CRL-33).
-- `consumer_pulse.py` TOTALNS label; docket has no G.19 row.
+- REVISION_LEDGER.tsv regeneration (CRL-23, CRL-15, CRL-33 events).
 
 ---
 
-## OUTBOX (all committed and on origin)
+## OUTBOX (1 item)
 | File | To | Summary |
 |---|---|---|
-| `PROME/inbox/2026-11-09_from-CARL_wake-prep-contest-answers.md` | PROME | Prep, contest answers, CRL-15 ask; consumed (90f436eab9) |
-| `PROME/inbox/2026-11-09_from-CARL_CRL-15-closed-WQ656-B-and-no-RED-reopen.md` | PROME | CRL-15 closed; condition-2 record; RED line-78 label flag |
+| `PROME/inbox/2026-11-10_from-CARL_D-L1017-D-L797-HHDC-graded-divergence-beef-read.md` | PROME | Both row keys; CRL-33 MISSED; §1 divergence as a fact; beef read. Committed with this closeout; push receipt in the final report |
 
-## INBOX (2 live; both deliberately held until the 11/10 grade)
-| File | From | Disposition |
-|---|---|---|
-| `inbox/2026-11-09_from-PROME_due-rows-wake.md` | PROME | Prep done; grades 11/10; move to processed after |
-| `inbox/2026-11-09_from-PROME_WQ656-RULED-B-and-HHDC-governing-rule.md` | PROME | Part 1 DONE; part 2 (HHDC governing rule) acts 11/10 |
-WALTER lane: 0.
+## INBOX (0 live)
+Both PROME 11/09 packets (`due-rows-wake`, `WQ656-RULED-B-and-HHDC-governing-rule`) acted and moved to `inbox/processed/` 11/10. WALTER lane: 0.
 
 ## WORKBOOK HEALTH
 | TSV | Note |
 |---|---|
-| KB.tsv | LIVE; 605 rows, all 15 columns; KB-608, 609 added 11/09 |
-| PREDICTIONS.tsv | 36 rows, all 11 columns; 15 OPEN; header refresh 2026-11-09 |
-| Docket | CATALYSTS 32 = CALENDAR 32; 11/10 rows still forward, none pruned |
-| REVISION_LEDGER.tsv | Not regenerated this session; the CRL-23 and CRL-15 events enter at the next regeneration |
+| KB.tsv | LIVE; 607 data rows; KB-610, 611 added 11/10 |
+| PREDICTIONS.tsv | 36 rows, 11 columns; 14 OPEN; header refresh 2026-11-10 |
+| Docket | CATALYSTS 29 = CALENDAR 29 |
 
 ## URGENT
-- HHDC card is frozen: addenda only, never edit a cell.
-- The as-written shadow may fire tomorrow while the re-spec cannot. That is a fact for PROME the same session, not a verdict, reset or rule proposal.
+- The HHDC card is frozen: addenda only.
+- The divergence is PROME's to carry to Will. CARL is the beneficiary of the 8/16 reset; never absorb or reframe the shadow fire.
 
-## CLOSEOUT RECEIPT (2026-11-09 19:4x ET, WQ-249 machine switch)
-| Obligation | Result | Evidence / remaining action |
+## CLOSEOUT RECEIPT (2026-11-10)
+| Obligation | Result | Evidence |
 |---|---|---|
-| Consistency (no --warn-only) | See final receipt to PROME | Earlier 16:0x run: rc 0, 0 hard, 6 soft (carried) |
-| Read cap, orphan, claim weekday, brief pin, ledger nudge, corrections | See final receipt to PROME | |
-| Roadmap index | PASS | `--check` rc 0, 14 threads; no thread edited (backlog line only) |
-| BOARD assertion (WQ-227) | rc 0 | "BOARD scan run, 19 new since SIG-W-20261106-052, 1041 logged". Separately, 56 unrecorded cards dated 11/06–11/09, none naming CARL; NOT dispositioned, carried to laptop boot |
-| Research retirement | RUN | 3 candidates >60d (HHDC Q1 brief, SYF_COF_Q1, ALLY reclass audit); all cited by live KB/PREDICTIONS/card/COUNTER_LOG → retained, 0 moved |
-| Consumer check | RUN | CRL-23 15%→30%: cross-desk and --self hits are bare 2-sig-fig matches or dated history; no packet, per root rule. CRL-15 closed, no figure superseded |
-| Memory | Not applicable | No new transferable lesson beyond the CHANGELOG entry |
-| Approvals | Preserved | WQ-656 B applied; nothing pending from Will on CARL |
-| Delivery | See final receipt | safe-push fresh-fetch line goes to PROME |
+| Consistency (no --warn-only) | PASS | rc 0; 0 hard, 6 soft (carried) |
+| Corrections boot check | PASS | rc 0, 0 unreceipted named rows |
+| BOARD assertion (WQ-227) | rc 0 | "BOARD scan run, 21 new since SIG-W-20261106-052, 1041 logged" — a receipt count, not review; backlog not dispositioned |
+| Read cap | PASS | rc 0, 7 reads under budget (perimeter = charter heuristic) |
+| Orphan | RUN | own packet [likely YOURS] committed; others' files [not yours], not touched |
+| Claim weekday | PASS | 4 files clean |
+| Ledger nudge | RUN | KB and PREDICTIONS changed and committed; sub-agent ledgers unchanged in data |
+| Roadmap index | PASS | `--check` rc 0; no thread edited |
+| Research retirement | NOT RUN | carried; the 11/09 sweep retained all 3 candidates |
+| Consumer check | NOT APPLICABLE | no figure superseded; CRL-33 resolved, not re-priced |
+| Memory | NOT APPLICABLE | no new transferable lesson |
+| Brief pin / push | see final report | |

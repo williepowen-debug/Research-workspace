@@ -8,6 +8,19 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-10 — Q3 HHDC graded: CRL-33 MISSED; re-spec kill NOT FIRED, superseded shadow MET (divergence to PROME); beef read (no version or score change)
+
+**What:** NY Fed Q3-2026 HHDC (11/10 11:00 ET), Q3 vintage, 0 revisions vs the Q2 file on Pages 12 and 14 CC. PROME DOCKET D:L1017 and D:L797, PROME prome-07 wake.
+- **CRL-33 OPEN 25% → MISSED.** Page 14 CC 26:Q3 6.87% vs bar 6.97% (−10 bp). Brier 0.0625. Card flow fell for a second straight quarter (7.10, 6.97, 6.87); the 17% after-decline base rate was the better guide.
+- **CRL-30 first grade:** 6.87 vs ≥7.50, not fired, stays OPEN at 25%; YoY 7.05 → 6.87 (−18 bp); invalidation (<6.50 twice) not met.
+- **Kill rule, §1 of the frozen card (THESIS v2.6.6 rider 1):** RE-SPEC (official, Will Option A 8/16) leg 2 NOT MET: two declines but cumulative 23 bp vs the 100 bp floor. AS-WRITTEN (superseded, shadow) leg 2 MET: Page 12 CC share 13.12 → 12.92 → 12.90, decline 2 of 2. Leg 1 met (ICSA 189K). **Divergence written on the card in figures and sent to PROME the same session as a fact; CARL proposes no verdict, reset or rule change.** The shadow's −2 bp is inside the 29 bp median noise and is all denominator growth (card 90+ dollars +$2.6B).
+- **CRL-04 basis note:** student 90+ share 10.92% (row CONFIRMED; note only).
+- **Beef (D:L797, watch, not a prediction):** October beef CPI +0.58% m/m NSA (+0.92% SA), first rise since July; official YoY not computable; APHIS has not declared establishment. KB-611. CRL-10 stays 1%.
+
+**Score:** 53/70 v2.6.6 unchanged. No threshold, band, gate letter or card changed. Records: `thesis/HHDC_Q3_2026_GRADING_CARD_TEMPLATE.md` addendum 2026-11-10 11:13 ET; `research/2026-11-09_screwworm/PREP.md` § RESULT; KB-610, KB-611.
+
+---
+
 ## 2026-11-09 (2) — CRL-15 CLOSED NO-VERDICT, UNGRADEABLE, on Will's ruling WQ-656 B (no version or score change)
 
 - **Ruling:** Will, PROME's chat, 2026-11-09 15:55 ET (`PROME/proposals/2026-11-09_wq656-657-658-RULED.md`; delivered by PROME packet `inbox/2026-11-09_from-PROME_WQ656-RULED-B-and-HHDC-governing-rule.md`). Verbatim: *"Close CRL-15 as ungradeable. Preserve the original prediction, its probability history and subsequent corrections. Record the missing measurement definition as a prediction-design failure. Keep it visible in evaluation reporting without assigning a Brier score or treating it as a successful prediction. Do not create a replacement forecast unless separately approved."*
