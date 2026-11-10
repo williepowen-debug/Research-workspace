@@ -3,7 +3,7 @@
 **Status:** ELEVATED. Both wars kept pressing over the weekend while oil fell on unconfirmed deal reports; no measured lost crude barrel in either war. Qeshm 11/6 is now graded a US strike (high attribution, not explicit). Taiwan reports 100+ Chinese navy and coast-guard ships at sea, undeclared. No mark or band moved.
 **Domain:** Cross-war synthesis and dormant geopolitical book.
 **As of:** November 9, 2026, 19:37 ET (from `date`), closeout (desktop → laptop); owner evidence FALCON `6f82d5a97a` (11/8 12:06 ET), OSPREY `1489e2eddd` (11/9 12:11 ET closeout), BRENT Monday pull `b4e541d56a` (11/9), ZHAO `ae5c0b5c43` (11/9 trade clocks), WALTER cards 20261109-001 and -010.
-**STATUS commit:** `b2db6997ad` (card 010 trade clocks; OSPREY Kirishi rows consumed).
+**STATUS commit:** `73f6eea7d1` (11/9 closeout; card 010 trade clocks and OSPREY Kirishi rows at `b2db6997ad`).
 
 | Consumer | Material result | Limitation |
 |---|---|---|
