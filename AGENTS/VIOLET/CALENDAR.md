@@ -1,12 +1,12 @@
 # VIOLET CALENDAR
 
-Updated November 5, 2026 (10:0x ET); canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). Closeout contract: at least one HIGH/MEDIUM row within 14 calendar days (`scripts/forward_calendar_check.py`, KB-VIO-353). Fired rows preserved in research/2026-10-19_official-followthrough/catalysts-fired.tsv, research/2026-10-21_catchup/catalysts-fired.tsv research/2026-10-29_catchup/catalysts-fired.tsv, research/2026-10-30_boj-carry-vol/catalysts-fired.tsv and research/2026-11-05_catchup/catalysts-fired.tsv.
+Updated November 10, 2026 (11:1x ET); canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). Closeout contract: at least one HIGH/MEDIUM row within 14 calendar days (`scripts/forward_calendar_check.py`, KB-VIO-353). Fired rows preserved in research/2026-10-19_official-followthrough/catalysts-fired.tsv, research/2026-10-21_catchup/catalysts-fired.tsv research/2026-10-29_catchup/catalysts-fired.tsv, research/2026-10-30_boj-carry-vol/catalysts-fired.tsv and research/2026-11-05_catchup/catalysts-fired.tsv.
 
 ## ACTIVE FORWARD CATALYSTS
 
 | Date | Event | Impact | VIOLET checkpoint |
 |---|---|---|---|
-|Nov 10 (Tue)|October CPI, 08:30 ET|MEDIUM|SECONDARY date (RED S57 names it; bls.gov 403 10/29 and 11/05; search 11/05 did not confirm). Pre/post surface read only.|
+|Nov 10 (Tue)|October CPI, 08:30 ET|MEDIUM|**Released; date verified 11/10** on the BLS public API (pages still 403). Intraday read done (KB-VIO-394, TICK); **the close read is still owed**, then prune to fired.|
 |Nov 17 (Tue)|NVIDIA Q3 FY27 results, after the close; call 17:00 ET|HIGH|Company-announced date, read through search. Results land the evening before the VIX AM SOQ, so read the VX/X6 settle and VIX9D into it.|
 |Nov 17 (Tue)|Credit-vol WATCH window endpoint|MEDIUM|Grade the lag against the 100bp size condition from 268bp [9/22]. A watch, not a letter. KB-VIO-328.|
 |Nov 18 (Wed)|VIX November expiration AM SOQ|MEDIUM|Record contract pair; adjusted helper switches inside DTE<5.|

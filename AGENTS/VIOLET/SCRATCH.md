@@ -1,45 +1,43 @@
 # VIOLET — session handoff
 
-**As of:** November 9, 2026 20:2x ET (session opened 20:11 ET from `date`). Closeout touch 11/10 10:12 ET for the machine switch: only NEXT SESSION item 0 changed; STATUS unchanged. Will's "go" 20:16 ET on the boot report: SETTLE 11/06, grade forecasts, broadcast the regime return, refresh both pages, commit locally. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **33/50** (print basis). github.com did not resolve at boot (no pull); it resolved by 20:23 ET and the session pushed: receipt HEAD 3ce0a1b70f.
+**As of:** November 10, 2026 11:1x ET (session opened 11:09 ET from `date`). Launched by PROME prome-07 on the desktop after the 11/10 laptop → desktop switch. Task: CPI before/after read on the close, PRED-07 grade (DOCKET L1030), WALTER card 011. Limits: $0 moved; no threshold, gate letter, band or card changed without Will; live prices only; quiet mode. **The window HOLDS open with no timer, waiting for PROME's message.** Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **33/50** (History-confirmed for 11/09).
 
-## CHANGES SINCE (11/06 18:05 ET → 11/09 20:11 ET)
+## CHANGES SINCE (11/09 20:2x ET → 11/10 11:09 ET)
 
-- 11/09 print: VIX 19.92 (−22.31%), VVIX 98.43, VIX3M/VIX 1.0467, VIX9D/VIX 0.998, COR1M 13.23, MOVE 85.98. SPY +2.37%, QQQ +3.54%, RSP +2.27% (vendor).
-- Cboe History posted 11/06 VIX and SKEW, and 11/09 VIX9D, VIX3M, VVIX. VIX 11/09 not posted at 20:17 ET.
-- HY OAS first-published 342bp [11/06], CCC 13.17%, BB 208.
-- WALTER card SIG-W-20261109-004 (NVDA −3.88% vs QQQ +3.13% intraday on the Huang report; Citi to Neutral): info-only, VULCAN and HENRY own it.
-- PROME closed out 11/09 19:51 ET for a desktop → laptop switch. PROME/state/board_* left dirty by PROME, not mine.
+- Cboe History posted 11/09 VIX 19.92 and SKEW 150.34; every 11/09 cell equals the print. FRED VIXCLS 11/09 = 19.92.
+- October CPI was released 11/10. The BLS data API carries it as `latest` (the pages still 403).
+- CPI-day tape: VIX GTH went from 20.02 to 20.77 in the 08:30 bar; 21.10 on the 11:09 ET tick.
+- The machine switch happened; origin and local were equal at boot. PROME's 4 dirty paths (SCRATCH, corrections_receipts, board_*) are PROME's, untouched.
 
 ## WHAT I DID
 
-- **11/06 SETTLE:** `backfill.py --spot-only --spot-days 15`: 2,763 agreed, 1 filled (SKEW 153.55), 0 corrected. CHEAP_TAIL 11/06 added via `--as-of` against CATALYSTS at `3920dc20ee`: DORMANT 2/4. STATUS-only correction: 11/06 VIX high 27.76 on History, not 26.62 (noted in KB-VIO-391).
-- **VIO-PRED-10 CONFIRMED** (VVIX 98.43 [11/09 History] < 100; 55%). PREDICTIONS.tsv row updated, KB-VIO-392, record `research/2026-11-09_close/GRADE.md`.
-- **11/09 close read (KB-VIO-391):** RISING_VOL → LOW_VOL on the print by 0.08; inversion ended; VVIX under 120. Convergence 38 → 33 (VVIX 5→3, front curve 5→3, correlation 4→3). 5-day row, window 10/30→11/06: MET on its letter (VIX +32.03%, HY −2bp), same episode, not re-sent.
-- **Regime broadcast:** NEXUS_BRIEF CROSS-DOMAIN, 🟠, no outbox.
-- **Pages republished to their existing URLs:** operating picture v17, cheat-sheet v15. Memory twins updated. Gauge markers recomputed on the documented mapping: VIX 39.7%, VVIX 40.7%, SKEW 85.2% (153.55 History), TERM 63.2%.
-- Packets: RED (bars, `AGENTS/RED/inbox/2026-11-09_from-VIOLET_1106-history-and-1109-bars.md`), PROME (dated memo, PRED-10 for the DOCKET row).
+- **VIO-PRED-07 CONFIRMED:** 20.85 / 19.92 = 1.0467 [11/09 History], 72%. PREDICTIONS.tsv, KB-VIO-393, record `research/2026-11-10_cpi/GRADE.md`.
+- **11/09 SETTLE:** `backfill.py --spot-only --spot-days 15` gave 2,766 agreed and 0 corrected. LOW_VOL 11/09 and 33/50 confirmed. COR1M 13.23 matches History. CHEAP_TAIL 11/09 added by `--as-of` against CATALYSTS at `01e44a3f50`: DORMANT 2/4.
+- **CPI interim read (TICK, KB-VIO-394):** SA m/m all items +0.35%, core +0.30% from the published indexes; no 12-month change (October 2025 index blank); consensus not read. 9D/VIX 0.998 → 0.989, 3M/VIX 1.0467 → 1.0275, VVIX 102.54. CATALYSTS and CALENDAR rows marked released and date-verified, with the close read still owed.
+- **WALTER card 011:** info-only in board_log, moved to processed, COR-20261109-11 receipted NO-OP.
+- MEMORY data source: the BLS API works where the pages 403.
+- Packets: RED (`AGENTS/RED/inbox/2026-11-10_from-VIOLET_1109-history-bars.md`), PROME (dated memo).
 
 ## NEXT SESSION
 
-0. **CPI 11/10 08:30 ET post read: NOT DONE, carried to the desktop.** This laptop session sat idle overnight and closed out at 11/10 10:12 ET for Will's laptop → desktop switch (PROME request) without reading the release; the 08:30 move was not captured live. Read it on the 11/10 close instead (and intraday bars if the feed has them). Pre: VIX9D/VIX 0.998, VIX 19.92, VVIX 98.43 [11/09]. Verify the date at bls.gov first (403 twice); date_class SECONDARY. Read VIX9D/VIX and VIX3M/VIX on the close against these.
-1. **VIX History 11/09:** run `backfill.py --spot-only --spot-days 15`, stamp the row SETTLE. Then: **grade VIO-PRED-07** (fails for 11/09 only if History VIX > 20.85; any 11/10–11/13 close at ratio ≥1.000 also resolves it); confirm or revert LOW_VOL (reverts if VIX ≥ 20.00, then re-send the regime row); confirm 33/50; check COR1M 11/09 against History (KB-VIO-365); send RED the 11/09 VIX/SKEW bars; add CHEAP_TAIL 11/09 via `--as-of` with a dated CATALYSTS snapshot; tell PROME the PRED-07 outcome.
-2. **WALTER card SIG-W-20261109-011** (correction to card 004: Huang acknowledged the affair, Nvidia opened its own investigation, FBI report): arrived 20:18 ET while WALTER was still editing it, left untouched. Run step 5a intake on it; VIOLET reads only its transmission into the 11/17 NVIDIA → 11/18 SOQ window.
-3. **November 17:** credit-vol WATCH endpoint (HY 342 [11/06] vs 368bp size condition) and NVIDIA after the close; **November 18** VIX AM SOQ. VIO-PRED-08 grade after 11/20 History; PRED-09 after 12/31.
-4. FXY IV intraday re-pull (2.22x on stale quotes 11/09).
-5. implied_corr.py SETTLE-by-clock defect: not commissioned.
-6. L342 11/26 (not due), December 16 L441.
+0. **CPI post read on the 11/10 CLOSE: OWED.** It was not done because the session launched at 11:09 ET and the instruction was to hold with no timer. When PROME's message arrives (or at the next boot), take the 16:15 ET print, then `backfill.py --spot-only` once History posts. Compare against pre: VIX 19.92, 9D/VIX 0.998, 3M/VIX 1.0467, VVIX 98.43. **If VIX closes ≥ 20.00:** LOW → RISING, re-send the regime row through NEXUS_BRIEF CROSS-DOMAIN, and re-score convergence. Then prune the CPI row from CATALYSTS/CALENDAR into a fired file and add a KB row for the close.
+1. **November 17:** credit-vol WATCH endpoint (HY 342 [11/06] vs the 368bp size condition) and NVIDIA after the close; **November 18** VIX AM SOQ. VIO-PRED-08 grade after 11/20 History; PRED-09 after 12/31.
+2. FXY IV intraday re-pull (2.38x at boot 11/10).
+3. implied_corr.py SETTLE-by-clock defect: not commissioned.
+4. L342 11/26 (not due), December 16 L441.
+5. Thesis-currency advisory: 14 KB rows since v4.1.9 (over the 12 review line, advisory only). Read the thesis headline against KB-VIO-378 to 394 when there is time; no bump is implied.
 
 ## CARRY-FORWARD
 
-- RED owns FT-10 and FT-06 grades. LIQUID owns HY. HENRY owns gamma; the 11/06 map is past shelf life. BRENT owns oil. SAM owns BOJ.
-- Path A: WATCH, no gate (WQ-611 A). The 10/22 episode's unregistered call (VIX ≥29.03 by about 12/07) is context only; Will did not take it.
-- MAINTENANCE.md about 301 lines, cap about 300: trim before the next entry. No structural change this session.
-- Combination watch: 4 themes KB-VIO-383 to 386, review 11/20. Nothing added this session.
-- Outbox SIG 11/05 stays pending at top level: LIQUID replied; HENRY, RED and PROME reads unconfirmed.
-- CHANGELOG body text of the 10/14–10/19 entries still has glued words.
-- Raw ICE HY series live only in a past scratchpad (ICE reproduction notice); re-fetch to rerun `research/2026-11-05_path-a-f2/run_audit.py`.
-- 11/09 VIX_OPTIONS rows carry OI=0 (after-hours pull artifact); do not read OI from them.
+- RED owns FT-10 and FT-06 grades. LIQUID owns HY. HENRY owns gamma and the macro read of CPI; BOND owns rates. BRENT owns oil. SAM owns BOJ. VULCAN owns NVDA key-person (card 011).
+- Path A: WATCH, no gate (WQ-611 A). The unregistered 10/22 call (VIX ≥29.03 by about 12/07) is context only; Will did not take it.
+- MAINTENANCE.md is about 301 lines against a cap of about 300: trim before the next entry. No structural change this session.
+- Combination watch: 4 themes, KB-VIO-383 to 386, review 11/20. Nothing added.
+- The 11/05 outbox SIG stays pending at top level: LIQUID replied; HENRY, RED and PROME reads unconfirmed.
+- The CHANGELOG body text of the 10/14–10/19 entries still has glued words.
+- The raw ICE HY series lives only in a past scratchpad; re-fetch it to rerun `research/2026-11-05_path-a-f2/run_audit.py`.
+- The OVX 11/09 row differs from the 11/10 live read of the 11/09 close (57.37 vs 57.2). The today-only guard did not write it; repair with backfill.py only if the stored row is shown wrong.
 
 ## OPEN HYPOTHESES
 
-**11/05 spike, released 11/09 (exploratory):** Path B (concentration unwind) stays the leading read: correlation did about 83% of the variance rise and fell 36% on 11/09; funding never moved. **Live test:** credit has not followed vol down (342 vs 348 peak). Either credit tightens toward vol by 11/17, or vol re-follows credit: that is the credit-vol WATCH. Hedge-lift remains inference without flow data. Oil-vol leading equity-vol: not observed. RQ8 PARKED.
+**11/05 spike, released 11/09 (exploratory):** Path B (concentration unwind) stays the leading read. **Live test:** credit has not followed vol down (342 vs 348 peak). Either credit tightens toward vol by 11/17, or vol re-follows credit; that is the credit-vol WATCH. CPI day adds one data point: vol re-bid above 20 on the tick while the front stayed under the month. Watch whether that holds into the close. Hedge-lift remains inference without flow data. RQ8 PARKED.

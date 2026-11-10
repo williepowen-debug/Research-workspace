@@ -49,3 +49,4 @@ date	cor1m	cor3m	cor30d	vix	constituent_vol_est	cor1m_prev_close	basis	source_ts
 2026-11-05	22.84	20.93	15.15	28.18	59.0	9.53	SETTLE	2026-11-05T21:48:12+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY; HISTORY-CONFIRMED 11/06: Cboe COR1M, COR3M, COR30D and VIX History match all four cells; SETTLE was stamped by clock (KB-VIO-365), KB-VIO-381
 2026-11-06	20.76	20.47	15.29	25.64	56.3	22.84	SETTLE	2026-11-06T22:10:08+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
 2026-11-09	13.23	14.84	11.32	19.92	54.8	20.76	SETTLE	2026-11-10T01:12:36+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
+2026-11-10	15.14	15.8	11.75	20.95	53.8	13.23	TICK	2026-11-10T16:09:47+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
