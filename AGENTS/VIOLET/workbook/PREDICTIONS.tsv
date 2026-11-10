@@ -8,4 +8,4 @@ F-B	2026-09-16	HELD	RESOLVED 9/17 on the 9/16 close: zero-mean RMS 9.30% ann (4/
 VIO-PRED-07	2026-11-13	OPEN	VIX3M/VIX cash close >=1.000 at least once 11/06-11/13, 72%; base 36 of 42, 12 of 18 if still inverted next close	research/2026-11-06_wake/LETTERS.md
 VIO-PRED-08	2026-11-20	OPEN	VIX close >=30.00 at least once 11/06-11/20, 25%; base 5 of 20 from a day-two fall	research/2026-11-06_wake/LETTERS.md
 VIO-PRED-09	2026-12-31	OPEN	SKEW close <140.00 at least once 11/06-12/31, 45%; base 3 of 7 episodes; not RED-FT-10	research/2026-11-06_wake/LETTERS.md
-VIO-PRED-10	2026-11-20	OPEN	VVIX close <100.00 at least once 11/06-11/20, 55%; base 7 of 13	research/2026-11-06_wake/LETTERS.md
+VIO-PRED-10	2026-11-20	CONFIRMED	RESOLVED 11/09 on Cboe VVIX History: 98.43 [11/09] < 100.00, session 2 of the window; forecast 55%, base 7 of 13; one close is enough, no reset	research/2026-11-09_close/GRADE.md; research/2026-11-06_wake/LETTERS.md
