@@ -91,7 +91,7 @@ Tier 2 FULL closeout, walter-96, before a fresh-context boot. Prior: light 2026-
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-10T20:05:42Z",
+  "as_of": "2026-11-10T20:06:36Z",
   "next_review": "2026-11-11",
   "publication": [
     {
@@ -118,6 +118,11 @@ Tier 2 FULL closeout, walter-96, before a fresh-context boot. Prior: light 2026-
       "commit": "4544c8bb7d4794661061e6780b2c15b8c8f335e9",
       "state": "published",
       "note": "Cards 20261110-008 and -009 from step 7h bookmarks after Will's re-authorize; BM-20261110-03 13/13; anchor note; safe-push CONFIRMED; doorbell brent-e8."
+    },
+    {
+      "commit": "1dff0d8c7f10d67912f9cc312792de57aba2ac6b",
+      "state": "published",
+      "note": "Tier 2 FULL closeout records (REGISTRY, STATUS, MEMORY, anchor rotation, retirement, checks.json); safe-push CONFIRMED."
     }
   ],
   "delivery": {
