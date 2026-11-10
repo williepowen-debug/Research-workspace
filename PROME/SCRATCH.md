@@ -22,7 +22,7 @@
 
 ## Open with Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-09 · 11 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-422 (10/23) · WQ-477 (10/27) · WQ-531 (10/30) · WQ-31 (11/1) · WQ-548 (11/5) · WQ-662 (11/13) · WQ-661 (11/13) · WQ-633 (11/13) · WQ-547 (11/17) · WQ-660 (11/20)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-09 · 12 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-422 (10/23) · WQ-477 (10/27) · WQ-531 (10/30) · WQ-31 (11/1) · WQ-548 (11/5) · WQ-663 (11/13) · WQ-662 (11/13) · WQ-661 (11/13) · WQ-633 (11/13) · WQ-547 (11/17) · WQ-660 (11/20)
 <!-- WILLQ-VIEW END -->
 - Parked (his hands): the HANDS rows above; one line in reports, never per row (WQ-538 A).
 
@@ -34,6 +34,7 @@ Run `python3 PROME/tools/will_brief.py --book-line` and paste its line whole; no
 - Laptop memory: approximately 16 GB physical RAM (15.7 GB read from Windows, 2026-11-09 20:43 ET); WSL capped at 6 GB with 4 GB swap (`.wslconfig`). Measured inside WSL with PROME, ten desk windows and CATO open: 983 MB available at 20:12 ET, 1,356 MB at 20:15 ET, swap 1.4 GB in use. Occupied swap is not by itself a sign of failure; the working figure is available memory, re-measured before any further launch. Raising the WSL cap is Will's hands.
 - Carried conditions, not limits: whether Will's blanket "spawn other due sessions" (12:07 ET 11/9) counts against the four-per-boot due-row cap is NOT RULED; ask before leaning on it. Three NOW-migration result fixes and two handoff-repair fixes are unreviewed (D:L1091).
 - Memory on the desktop is not a laptop fact; measure before launching several desks (playbook spawn checklist).
+- TERRY window live, launched by PROME 22:28 ET on Will's 22:27 ET word (ORCH_LOG row); note delivered f73284f83f; holding idle. PROME's own touch: closeout ask owed (WQ-249). WQ-663 open on the hedge's up-day rule. Outside-review follow-ups record: `proposals/2026-11-09_git-guide-cleanup-RULED.md`; broker export parked on WQ-548; queue review rides D:L1085.
 
 ## Standing words (pointers only)
 `USER.md`: no expiry nagging · quiet mode during desk sweeps · forecast report 1's historical reconstruction stopped · Will's only window is this chat. WQ-653: desks apply the current-state rule through existing files, no new summary file and no launch for it alone; ⚠️ adoption is unconfirmed: four running desks got the rule by message on 11/7 and none has confirmed, and dormant desks are unchanged until they next wake. Quartr: never call, never re-auth (`memory/auto/feedback_quartr_no_subscription_do_not_call.md`). Restrictions: [STATUS § Restrictions](STATUS.md).
