@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-11-09T16:21:55+00:00 (11:21 ET), PROME commission on Will's 11:14 ET word: WALTER lane drained (13 cards), SoftBank 11/10 lookup pre-written; no view moved. **STATUS commit `47678a9017`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
+**As of:** 2026-11-10T00:38:25+00:00 (19:38 ET 11/9), closeout on Will's 19:37 ET machine switch (WQ-249); nothing moved since 11:21 ET, SoftBank 11/10 01:30 ET read handed to the laptop session, lookup unchanged. **STATUS commit `98c113d70e`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
 
 ## VIEW
 
