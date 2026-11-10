@@ -1,6 +1,6 @@
 # HAWK STATUS
 
-**Updated:** November 9, 2026, 13:00 ET (from `date`; trade-clock card 010 applied; prior 10:49 ET), catch-up on Will's word via PROME 10:46 ET, closeout pending; prior stamp November 6, 18:36 ET closeout. Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Root/local instructions explicitly read. No trade book. **No mark, band, score or letter moved; no registered letter required one.**
+**Updated:** November 9, 2026, 19:37 ET (from `date`), **closeout on PROME's WQ-249 ask (desktop → laptop)**; card 010 applied 13:00 ET; catch-up on Will's word via PROME 10:46 ET; prior stamp November 6, 18:36 ET closeout. Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Root/local instructions explicitly read. No trade book. **No mark, band, score or letter moved; no registered letter required one.**
 
 ## Decisions and thresholds (top)
 
@@ -16,7 +16,7 @@
 
 ## Catch-up, November 9 (Will via PROME 10:46 ET; KB-514..521) — supersedes the 11/6 Qeshm block
 
-Mid-session record; full closeout pending PROME's ask. Nothing moved a mark, band, score or letter.
+Closed out 19:37 ET; this block is the current read. Nothing moved a mark, band, score or letter. Next work is SCRATCH § NEXT SESSION, on the laptop.
 
 | Item | Read 11/9 | Limit |
 |---|---|---|

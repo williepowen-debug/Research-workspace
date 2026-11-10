@@ -1,6 +1,6 @@
-# HAWK SCRATCH — November 9, 2026, catch-up (not a closeout)
+# HAWK SCRATCH — November 9, 2026, closeout (desktop → laptop switch)
 
-**As of:** 10:51 ET (from `date`). Claude Code / Opus 5.5; session id UNKNOWN. Catch-up on Will's word via PROME prome-6f 10:46 ET; PROME asked for commit and push at about 10:5x ET and said this is NOT a closeout. The window stays open for PROME's direction.
+**As of:** 19:37 ET (from `date`). Claude Code / Opus 5.5; session id UNKNOWN. Catch-up on Will's word via PROME prome-6f 10:46 ET; **closed out on PROME prome-9c's WQ-249 ask at 19:37 ET (Will: close every desk on the desktop, switch to the laptop).** Tomorrow's work starts on the laptop from these files: pull first, then boot.
 
 ## CURRENT MARKS
 
@@ -17,7 +17,7 @@ Open: HAW-22 (65% UNCALIBRATED; undisclosed damage can produce a misleading CONF
 
 ## WHAT I DID THIS SESSION
 
-Boot; intake 9 WALTER cards + ZHAO packet dispositioned and filed; COR-20261107-02 and COR-20261108-02 APPLIED; KB-514..521; STATUS 11/9 block and bottom line; both aggregates stamped (owner ledgers unchanged since 11/6); FALSIFICATION 11/9 review; derived fingerprints recorded after review. Bounded web catch-up; the search index was thin for November (KB-521).
+Boot; intake 9 WALTER cards + ZHAO packet dispositioned and filed; COR-20261107-02 and COR-20261108-02 APPLIED; KB-514..521; STATUS 11/9 block and bottom line; both aggregates stamped (owner ledgers unchanged since 11/6); FALSIFICATION 11/9 review; derived fingerprints recorded after review. Bounded web catch-up; the search index was thin for November (KB-521). Correction pass 10:56 ET (Rubio quote and IRGC 11/8 date restored; COR-20261109-09; pushed `fcc3c7daf3`). Card 010 at 13:00 ET: all 11/10 trade clocks re-suspended to the 1/9–1/10/2027 cluster (KB-523; six CATALYSTS rows) and OSPREY's Kirishi/Saratov rows consumed, correcting HAWK's own 10:51 aggregate stamp (KB-524; LESSONS 11/9); pushed `94e66088ab`. Closeout 19:37 ET: inbox and BOARD join clear, derived check PASS, no owner input changed since 13:01. LESSONS.md rotated at closeout (25,138 → 10,116 B; seven 7/12–8/20 entries verbatim to `archive/LESSONS_ROTATED_2026-11-09.md`, rules kept). VX and FLOW not touched: no data in them changed.
 
 ## NEXT SESSION
 
@@ -50,4 +50,4 @@ Boot; intake 9 WALTER cards + ZHAO packet dispositioned and filed; COR-20261107-
 
 ## PENDING PUSH / GIT
 
-Committed by exact path and pushed via safe-push this session; receipt in session output. Foreign dirty work (FALCON baghdad_watch_state.json) excluded.
+All HAWK paths committed by exact path and pushed via safe-push; closeout receipt in the closeout commit's session output and PROME reply. No foreign dirty work at closeout.

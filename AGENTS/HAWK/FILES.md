@@ -125,3 +125,5 @@ October 29 additions (existing dated classes, no new tracker): `research/2026-10
 `LAST_COMPLETION.md`: 🧊 FROZEN 2026-10-29. Dated September 21 session record; not maintained. Current completion receipts are dated outbox packets (`outbox/*_to-PROME_*`) and STATUS/SCRATCH. Not retirement-eligible until after November 20 (60-day rule).
 
 October 29 Will-directed checks: `research/2026-10-29_EURMIL_residuals.md` (Europe residual receipt, incl. the Croatia RED (b) defect) and `research/2026-10-29_FLOW21_Q3_TCE.md` (Q3 realized-TCE test; subagent report, DHT figures HAWK-verified). Existing dated-research class.
+
+November 9 closeout: `archive/LESSONS_ROTATED_2026-11-09.md` (read-cap rotation; seven July 12 to August 20 entries moved verbatim, each Rule line and a pointer left in LESSONS.md). Existing rotated-lessons class.
