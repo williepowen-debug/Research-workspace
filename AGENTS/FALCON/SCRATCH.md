@@ -38,7 +38,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-11/9: cards SIG-W-20261109-001 (ladder item 5, hull census) and -006 (Iraq crossings) acted, in processed. Inbox otherwise empty at about 10:55 ET.
+11/9: cards SIG-W-20261109-001 (ladder item 5, hull census), -006 (Iraq crossings) acted and -009 (COR-20261109-09, receipted APPLIED) noted; all in processed. Inbox empty at 19:38 ET closeout.
 
 ## PENDING PUSH / GIT
-Committed locally by pathspec at closeout of this read (STATUS commit, then NEXUS_BRIEF pin commit). Push on PROME's closeout ask via scripts/safe-push.sh; PROME holds unpushed commits on the same branch.
+None. All FALCON commits pushed (9c7c5f946e, 5ea23794c0, f2d2365234; this SCRATCH commit at the 19:38 ET desktop closeout, PROME prome-9c WQ-249). Next session boots on the LAPTOP: git pull --rebase first.
