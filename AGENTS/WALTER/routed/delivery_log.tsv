@@ -6893,3 +6893,5 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-11-10T16:44:02Z	SIG-W-20261110-005	LABOR	INFO	CC	ROUTINE	AGENTS/LABOR/inbox/WALTER/SIG-W-20261110-005.md	delivered	Claude-authored; publication and owner consumption unverified.
 2026-11-10T16:44:02Z	SIG-W-20261110-005	REGINALD	INFO	CC	ROUTINE	AGENTS/REGINALD/inbox/WALTER/SIG-W-20261110-005.md	delivered	Claude-authored; publication and owner consumption unverified.
 2026-11-10T16:44:02Z	SIG-W-20261110-005	BROCK	INFO	CC	ROUTINE	AGENTS/BROCK/inbox/WALTER/SIG-W-20261110-005.md	delivered	Claude-authored; publication and owner consumption unverified.
+2026-11-10T18:14:50Z	SIG-W-20261110-006	LIQUID	INFO	CC	PRIORITY	AGENTS/LIQUID/inbox/WALTER/SIG-W-20261110-006.md	written_not_delivered_pending_push	Claude-authored; publication and owner consumption unverified.
+2026-11-10T18:14:50Z	SIG-W-20261110-006	HENRY	INFO	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261110-006.md	written_not_delivered_pending_push	Claude-authored; publication and owner consumption unverified.
