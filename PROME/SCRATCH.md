@@ -19,7 +19,7 @@
 - **DAEDALUS** (Codex, packet only): READS re-attestation and the D:L490 set.
 - **CATO** (Codex): the one-command card writer and question-only lock for the Decisions app (STATUS § Live Surfaces row).
 - **ZHAO, TERRY:** CATO's 11/10 review findings MC1 (ZHAO's rate check can pass on an older notice, D:L1104) and MC3 (TERRY's HYG rates-not-credit wording) sent to the owners by packet; TERRY also by message.
-- **FERT:** WQ-665 B encoded (beb90f3ef5); WQ-666 RULED A (three clean months); FERT's encode-confirm owed.
+- **FERT:** WQ-665 B encoded (beb90f3ef5); WQ-666 RULED A (three clean months), encoded e1f9def3e2; nothing owed.
 - **OZK, DEWEY:** act on their 11/9 ruling packets at their next wake (WQ-659 A, WQ-645 A); no launch for these alone.
 - **NEXUS weights:** L13 is EXHAUSTED (GATES row RESOLVED 11/9); a third DFII10 window needs Will's word. NEXUS withdrew the M-01, M-05 and M-04 numbers on 11/10 with no successor (5fbaf8fc83); nothing is owed; next weekly wake 11/17 (D:L554). Corrected on CATO's review finding MC2.
 - **Desk windows:** see § This session; returns arrive as PROME/inbox packets and a SendMessage. CATO runs in Codex on the desktop; PROME cannot list or message it.
