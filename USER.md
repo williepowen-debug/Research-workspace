@@ -53,6 +53,8 @@ He thinks about agents as people with characteristic failure modes and designs w
 
 **Trade ideas loosened (2026-10-20 11:50 ET, verbatim):** *"we can loosen rules for trade ideas"*. TERRY may bring trades whose trigger has NOT fired, each labelled NOT-FIRED with trigger state, size and risk in figures; Will decides every one (root rule #5). The $500/card and X1 limits remain the default shown on each card; going past them is his choice per card, never pre-approved (`PROME/STATUS.md` § Restrictions).
 
+**Always look for the trade (2026-11-10 18:03 ET, verbatim):** *"yes we should always be looking to see if something is tradeable"*. A material research finding goes to TERRY for a tradeability read as part of the same work, without asking Will first; NOT-FIRED cards or a reasoned "no card" are both complete answers. Approval is unchanged: root rule #5, the $500 per card and X1 defaults (PROME's wording of the consequence; record `memory/auto/feedback_always_check_whether_a_finding_is_tradeable.md`).
+
 ## Decisions and Attention
 
 Anything requiring Will goes at the top of the message in a blockquote.
