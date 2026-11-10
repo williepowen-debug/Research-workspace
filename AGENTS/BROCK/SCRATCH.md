@@ -13,6 +13,6 @@ Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-
 
 **Thread notes:**
 - EDGAR feed helper: `/tmp/claude-1000/-home-willi-Research-workspace-AGENTS-BROCK/42dff885-74d4-4726-8c51-3df3008fe25e/scratchpad/feed.py <cik> <since-date>` (session scratchpad; rebuild if gone: submissions JSON `https://data.sec.gov/submissions/CIK##########.json`, UA from root `scripts/sec_contact.py`, filter `filings.recent`). CIKs: CRMT 799850, CABO 1632127, ADS 1837532, KBDC 1747172.
-- Wed 11/11 Veterans Day = federal holiday; count it out of every four-business-day window this week (INFERRED, not an SEC notice).
+- Wed 11/11 Veterans Day: EDGAR does not accept filings (CONFIRMED, SEC EDGAR Calendar, read 11/10); count it out of every four-business-day window this week. L928 letter final read after 17:30 ET today on PROME's tap (or unprompted if prompted after 17:30 ET); successors D:L1098 (Thu 11/12) and D:L1099 (Mon 11/16) registered, PROME commit 8970bc48c5.
 - Carried, still live: ADS Q3 10-Q 0001193125-26-449955 unread (NA, PIK, NAV passes, separate, LESSONS #20); ADS "16.8% Q2" search figure unverified, do not use; 39-name discount rerun via `research/2026-11-06_close-refresh/nav39.py`; CABO 11/6 −16.7% cause not established; Experiment A FSK/BXSL/OBDC software FV/par cells owed; CATALYSTS past-dated rows without a prefix (STATUS carried debt).
 - Quartr: never call. corrections receipt: no semicolons in `--scope`. Re-list `inbox/WALTER/` right before `git mv`.
