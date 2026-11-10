@@ -92,22 +92,23 @@ Tier 1 LIGHT closeout after the desktop routing pass; window held open. Prior: l
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-10T18:16:41Z",
+  "as_of": "2026-11-10T19:51:10Z",
   "next_review": "2026-11-11",
   "publication": [
     {"commit": "f0d41c0b252dabeceb15d77290f54c8accef3c5b", "state": "published", "note": "Cards 20261110-001 to -005, handoffs, logs, index, batch manifest, 6c and 7i evidence."},
     {"commit": "050dff4cbee408bd0e0a9aadfaa3943c4e79fef8", "state": "published", "note": "Light closeout for the machine switch; earlier commits in git history."},
     {"commit": "99e66d32cc3b96fb6e5728254d09beb7309950c2", "state": "published", "note": "Card 20261110-006, BOND 10-year grade, on Will's in-session word; safe-push CONFIRMED."},
-    {"commit": "0149876a10a27feb962d1b85d1b3ef5397d8c289", "state": "published", "note": "Card 20261110-007, FERT USDA grade; 006 delivery reconciled; safe-push CONFIRMED."}
+    {"commit": "0149876a10a27feb962d1b85d1b3ef5397d8c289", "state": "published", "note": "Card 20261110-007, FERT USDA grade; 006 delivery reconciled; safe-push CONFIRMED."},
+    {"commit": "4544c8bb7d4794661061e6780b2c15b8c8f335e9", "state": "published", "note": "Cards 20261110-008 and -009 from step 7h bookmarks after Will's re-authorize; BM-20261110-03 13/13; anchor note; safe-push CONFIRMED; doorbell brent-e8."}
   ],
-  "delivery": {"signal_date": "20261110", "total": 33, "delivered": 33, "note": "All 33 rows delivered on origin (006 and 007 reconciled after their pushes) (reconcile_delivery_log --apply after a fresh fetch; commits f0d41c0b25 and 394e673f27 reached origin on another session's push, so safe-push printed no CONFIRMED line of its own); recipient use separate. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."},
+  "delivery": {"signal_date": "20261110", "total": 43, "delivered": 43, "note": "All 43 rows delivered on origin (006 to 009 reconciled after their pushes) (reconcile_delivery_log --apply after a fresh fetch; commits f0d41c0b25 and 394e673f27 reached origin on another session's push, so safe-push printed no CONFIRMED line of its own); recipient use separate. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."},
   "owner_review": {"scope": "manual evidence review; no automatic completion", "evidence": [
     {"path": "AGENTS/WALTER/research/2026-11-10_desktop-boot/THRESHOLD-SCAN.md", "sha256": "45e0d30c83ed2521834502b8c4013553dfa19f9c552793aaef71a15441b29469"},
     {"path": "AGENTS/WALTER/research/2026-11-10_desktop-boot/CALENDAR-RECONCILIATION.tsv", "sha256": "f5488c5f2414a78edfebf90f38dbe259efbc3495e4ca56d6c5687b6edd7f2791"}
   ]},
   "procedure": {"tier": "light", "boot": "PARTIAL: see SESSION_LOG 2026-11-10T16:46:38Z entry.", "session": "walter-96 interactive on the desktop, holding open with no timer or helper."},
   "manual_duties": {
-    "11": "Cards 001 (IMMEDIATE) to 005 published, then 006 (BOND 10-year) and 007 (FERT USDA) while holding, index regenerated, route_log 5 rows, delivery_log rows per (signal, recipient); batch BM-20261110-02 closed 15/15; no correction.",
+    "11": "Cards 001 (IMMEDIATE) to 005 published, then 006 (BOND 10-year), 007 (FERT USDA), 008 and 009 (bookmarks, BM-20261110-03 13/13) while holding, index regenerated, route_log 5 rows, delivery_log rows per (signal, recipient); batch BM-20261110-02 closed 15/15; no correction.",
     "13": "REGISTRY RED, HAWK, CARL, SAM, BROCK Updated/Focus from owner STATUS lead headers; Status column not re-graded.",
     "12": "STATUS Updated line, new bottom-line paragraph, observation row, FILTER POSTURE inflation LOOSE reverted; NETWORK not regenerated (full deferred).",
     "14": "MEMORY untouched (full deferred).",
