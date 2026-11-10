@@ -1,0 +1,41 @@
+# HEARTBEAT 39th base — plan and acceptance record
+
+Tuesday November 10, 2026, PROME prome-07 (desktop, Fable 5.2). Owed on the NOW page since the close: the 38th base is Friday 11/6 with three amendments and is stale on October CPI, Waller, the rate repricing, HY 334, the oil fall, the China clocks and two refunding auctions. DOMAIN change; no process-rule change.
+
+## Proposed artifacts and operation
+Read the complete proposed text at `PROME/reports/2026-11-10_heartbeat-rebase/candidate.md` against `PROME/reports/2026-11-10_heartbeat-rebase/before.md` (the exact pre-edit HEARTBEAT: 38th base + amendments 1–3). Evidence: `sources.md` and `dashboard.txt` in that directory. On acceptance: `before.md` is copied byte-exact to `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-11-10.md`, then the candidate replaces `HEARTBEAT.md` in one write; `PROME/HEARTBEAT_COLD.md` is not touched.
+
+## Assertions and verification
+| Claim | Artifact | Verification | Observed basis | Change |
+|---|---|---|---|---|
+| The 38th base is stale | before.md | read it | levels 11/6; three amendments; CPI listed as upcoming | re-base, chain → 0 |
+| 11/10 was a rates day; Waller moved December before the print | HENRY packets (overnight, CPI grade, close read) | read | 82% → 99% at 04:00 ET; core +0.296%; +28.2 bp at 16:01 ET; 2Y par 4.73 | central judgment, channel 2 |
+| Two soft refunding indirects, no composition failure | BOND and LIQUID packets | read | 3Y 55.48 vs 57.44; 10Y 61.23 vs 65.05; dealers 9.77 | central, channel 2 |
+| VIX under 20 on the print | VIOLET packet; dashboard | read | 19.46 at 16:15:01 ET; Cboe History unposted | channel 5, kill-on-sight |
+| HY retraced | LIQUID, TERRY packets; dashboard | read | 334 [11/9], 342 [11/6], 348 [11/5]; STALLS | channel 3 |
+| Oil lost the deal premium, no barrels | BRENT packet | read | settle 92.57 [11/9] vs 98.32 [11/6] | channel 1 |
+| SoftBank under its ceiling | SAM packets | read | reported 15.9% [9/30]; roll 22.5% at Arm $183.26 | channel 4, central |
+| HYG ×5 up-day condition waived | WILL_QUEUE WQ-663; daily note | read | RULED B 11/9 23:10 ET | thresholds |
+
+## Invariants
+1. No owner threshold, operator, instrument, consequence, score, frozen prediction or restriction changes. X1 CLOSED/DON'T-SIZE, energy STAND DOWN, Kernel INACTIVE persist.
+2. No invented settlement, count, owner grade or trade. Official observations, vendor bars, owner grades and raw prediction-market cells stay distinct.
+3. The generated book line is pasted whole; no positions or dispositions inferred; no expiry reminders.
+4. Full prior bytes preserved in the archive; cold file untouched; every repo pointer resolves after installation.
+5. Hot under 70% of 32,550 B; eight channel paragraphs ≤600 B.
+6. Kill-on-sight carries the 38th base's still-binding items and its amendments' adds, plus today's. Items removed are named below.
+
+## Declared before the plan read
+- Removed from kill-on-sight as overtaken or date-bound (they stay binding for their dates in the archive): "VIX 30 fired" · "payrolls restored December" (replaced by the Waller line) · "the vortex reversal means US cold" · "Russia postponed the diesel exemption again" · "small banks are borrowing through a funding run" · "CoreWeave's 5-year widened on October 30" · "the BOJ read is still secondary or SAM-42 is ungraded" · "the 7,700 wall held" · "$6.3B stolen" and the Tether/Circle line · "Amazon's FCF is −$42.4B" · "Brent $117.70 is a settle" · "the VLO crack crossed the sell line" · "SoftBank's leverage is 13%" and "debt added $40.4B" (replaced by the 15.9% / 22.5% line) · "China killed the ABB deal" · "no comprehensive deal, Qatar said" · "CRE is recovering" on S8a · "transits are 53% of base" · "the UNG card was filled" (card ended).
+- Dropped from the channels: distillate and SPR levels, COT #13, OPEC+ December, the Russia diesel-ban date, the 11/5 and 11/6 equity closes, ORCL CDS levels, Mag-7 share, memory core, Oracle prepayments, Polymarket and Kalshi cells, CENTCOM's Iron Gate item, the Aramco office tower, CREED T-08b, the Florida bank frame line, the vortex line, LME stocks, GLD trust tonnes, CFTC yen positioning, the freeze-thaw score. Each stays in the archive with its date.
+- Dropped from Missing links: Microsoft reassessment → capacity; Diesel low → product cracks; Payrolls → the Fed path (replaced by the two hike-repricing rows).
+- Book state: the Robinhood UNG call note and the D-90 / D-98 gap lines are not carried; FORGE's own D-rows hold them.
+- Not re-read for this base: see `sources.md`. Carried owner lines keep their observation dates.
+- Brent 11/10 settle unread; the vendor bar is carried. The 11/10 VIX is Cboe's delayed print, not History.
+
+## Review and disposition
+reads: 2 of 2 — **plan read** returned 16:43 ET (Sonnet coldreader; ledger copied to `PROME/reports/2026-11-10_heartbeat-rebase/plan-read.md`): 36 of 46 clean, **1 ❌ · 9 ⚠️**. Kill-on-sight diff against before.md and its amendments: no undeclared removal. **❌ fixed (16:43 ET, one cell):** the Thresholds line gave only the 11/9 session read for gate 069 and dropped the gate's standing state; it now reads 2-of-2 FIRED, unchanged, with the session read beside it, matching the GATES row's state cell. Installed 16:43 ET after the fix: archive byte-exact (`cmp`), candidate byte-exact, cold file untouched.
+
+**Residue declared, not fixed (2026-11-10):** ⚠️ the QQQ-card T1 FIRED (October 23) record and the held-VLO RESOLVED line are dropped from Thresholds and were not in the declared removals; both stay in the archive and GATES · ⚠️ 'went from 82% to 99% in that minute' follows HENRY's result line; the reader's tick read is about 96% in the 04:00 ET minute and 99% at the 08:25 ET read · ⚠️ BOND's open reading tension (whether a bare I′ fire is sufficient alone, VX-BND-01 against the WQ-157 pairing) is not carried; it is in BOND's packet §1 · ⚠️ SoftBank: the ABB +1.2 points is omitted; the secondary-transcript caveat is carried in three words only · ⚠️ the 11/9 Brent settle lacks its 'wire, EST' basis label · ⚠️ 'about $29 away' is BRENT's figure at its 14:28 ET window (91.48), printed beside the 16:35 ET vendor bar (91.98, which gives $28.02) · ⚠️ loose wording: Robinhood '$440.86 is derived', the 11/27 China clock 'not addressed', TSMC 'tonight' · ⚠️ HYG ×5: TERRY's caveat that a hawkish Fed gives the spread a second way to pay, and construction rule #23 (no add on a rates-driven gain), are not carried; the card holds them · ⚠️ CHG-RED-045 is cited by date only, without saying it stays open to 11/17 for Will's reopen decision · ⚠️ the kill item on the Russian diesel ban's end date has no supporting channel text in this base. The plan's review section was empty at the read; this entry fills it.
+
+**Result read** returned 16:45 ET (Sonnet coldreader; ledger `PROME/reports/2026-11-10_heartbeat-rebase/result-read.md`): **0 ❌ · 3 ⚠️**; install and archive byte-exact, cold file unchanged, every pointer resolves, book line identical, every dashboard cell matches, eight channels at or under 600 B, twelve figures traced by the reader's own selection with no wrong sign, date, unit or owner. The gate-069 fix reads right; no HEARTBEAT edit was made after this read. **Residue declared, not fixed:** ⚠️ in the 069 cell, 'unchanged' and 'adds no leg' are PROME's inference from LIQUID's 11/9 L1 and L4 grades; the standing 2-of-2 FIRED is the owner's 11/6 grade in GATES, which LIQUID's 11/10 packet does not restate · ⚠️ VULCAN '15/25 [11/9]': the date label is PROME's; VULCAN states the score unchanged since 10/16 · ⚠️ BOJ December 76% from 52% skips the 72% print of 11/9 · the Brent distance item repeats the plan read's. Reads spent; no third read authorized.
