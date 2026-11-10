@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none in version. 11/06: masking framework's intermediate falsifier CRL-21 MISSED: Ally FY2025 −38.0 bp vs FY2023 at the same age, FY2026 −5.0 bp; outer falsifier CRL-20 at 1%. Mechanism not killed: FY2026 early delinquency is above FY2023, one nine-month reading. Aggregate buffer drawdown (saving 3.8%) stands.
-**As of:** 2026-11-09 19:45 ET | STATUS commit: `89650bf9c3`
+**As of:** 2026-11-10 11:17 ET | STATUS commit: `8298f1f17f`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -46,8 +46,9 @@
 - Fuel: EIA regular $4.153 and diesel $6.292 both fell at 11/02, diesel after three rises; distillate stocks 99.3M bbl w/e 10/30, cover 23.8 days, the lowest late-October since 1991 (freight-cost context; no household pass-through coefficient).
 - Corporate credit: 11/05 HY 348bp (318 on 10/27) with CCC−B narrowing to 953bp from 999, reversing the 10/27 split; three sessions, one shock. RED/REGINALD own the thresholds; CARL's L708 found consumer-facing B/CCC names did not lead.
 - Single-name items (True Food Ch.11, JetBlue fuel-driven loss, Carvana unit growth) are context, not breadth evidence.
-- 11/09 screwworm (KB-609): APHIS lists cases in TX, NM and AZ with infested zones (primary); 116 infestations and wild flies in six traps are secondary; USDA has not said established, so DEWEY scenario B is not called. Not in prices: beef CPI Sept 512.606 (+3.5% YoY); October YoY is not computable (October 2025 unpublished).
-- Registered score stays 53/70. Next aggregate reads: October CPI 11/10, BEA income and outlays 11/25.
+- **Q3 HHDC (11/10, KB-610):** card flow into 90+ 6.87% (Q2 6.97, Q3-2025 7.05): CRL-33 MISSED, CRL-30 not fired. Kill rule: RE-SPEC (official) NOT FIRED, 7.10→6.97→6.87 = 23bp vs the 100bp floor; superseded AS-WRITTEN shadow MET (card 90+ share 12.92→12.90, decline 2 of 2). Divergence sent to PROME as a fact; the −2bp share move is inside its 29bp noise and is all denominator growth (card 90+ dollars about +$2.6B). Student 90+ stock 10.92% with 30+ inflow up 7.83→7.95.
+- Screwworm/beef (11/10, KB-611): October beef CPI +0.58% m/m NSA, first rise since July, still below the peak; YoY not computable (October 2025 unpublished); not attributable to screwworm on this evidence. APHIS has not said established; counts did not render at the primary. DEWEY scenario B not called.
+- Registered score stays 53/70. Next aggregate reads: BEA income and outlays 11/25; next HHDC (Q4) ~Feb 2027.
 
 ## CALIBRATION
 
@@ -60,16 +61,15 @@
 
 ## NEXT DECISION POINT
 
-- **What:** grade the Q3 HHDC (official kill verdict on the RE-SPEC row only, fixed before the print by Will's 11/09 instruction; the superseded as-written row recorded beside it, any divergence to PROME as a fact), CRL-30 first grade and CRL-33, and October CPI beef on pre-registered substitute reads.
-- **When:** Tue 11/10, 08:30 ET and 11:00 ET.
-- **What would falsify the trigger:** card flow at or below 6.97% and a falling student-loan stock with the flow would both weaken the credit legs. Neither changes frozen letters.
+- **What:** PROME carries the 11/10 §1 divergence (re-spec NOT FIRED, superseded shadow MET) to Will as a fact; only Will can reopen the 8/16 rule choice. CARL proposes nothing. Then CRL-32 leg 1 at October income and outlays.
+- **When:** PROME's next Will brief; BEA Wed 11/25 08:30 ET.
+- **What would falsify the trigger:** card flow fell a second quarter (6.87%), which already weakens the card-credit leg; the official kill still needs a cumulative 100bp decline. No frozen letter changes.
 
 ## FORWARD CATALYSTS
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
 | 11/25 08:30 ET | October PCE / income (CRL-32 leg 1) | Letter research/2026-10-29_WQ537/LETTER.md; Z.1/DFA cohort read 12/10; final grade 12/23 |
-| 11/10 08:30 ET; 11:00 ET | October CPI; Q3 HHDC | CRL-10 unchanged; CRL-33, CRL-30 first grade, shadow grade |
 | 11/20 10:00 ET | Michigan November final | First interviews after the election and selloff; long-run <3.0% is V12's trigger |
 | 11/30 | EART October 10-Ds | V2 tier read |
 | 12/04 | November payrolls | V16 print 2 of 2 |
