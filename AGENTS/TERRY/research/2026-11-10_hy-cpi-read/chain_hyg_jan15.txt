@@ -1,0 +1,46 @@
+Tue Nov 10 11:42:54 EST 2026
+TERRY live option-chain fetch
+=============================
+Data only — no broker access, no execution recommendation.
+
+Underlying: HYG  Spot: 77.10 (as-of 2026-11-10 11:42)
+Expiry: 2027-01-15  Type: put  Rows: 9
+Greeks (Delta/Theta): N/A — yfinance does not provide them.
+
+Strike   Mny%    T  Bid    Ask    Mark   Sprd%   IV%     Vol    OI     Flag      LastTrade
+-------  ------  -  -----  -----  -----  ------  ------  -----  -----  --------  ----------------
+  73.00    -5.3  P   0.16   0.21   0.18   27.03   10.91  20001  83835  -         2026-11-10 11:18
+  74.00    -4.0  P   0.20   0.27   0.24   29.79    9.72  25003  155185  -         2026-11-09 14:22
+  75.00    -2.7  P   0.32   0.38   0.35   17.14    8.72      1  172063  -         2026-11-09 12:07
+  76.00    -1.4  P   0.51   0.57   0.54   11.11    7.84  20003  274066  -         2026-11-10 11:07
+  77.00    -0.1  P   0.82   0.88   0.85    7.06    7.04      3  205098  -         2026-11-10 10:50
+  78.00     1.2  P   1.28   1.52   1.40   17.14    7.57     46  42085  -         2026-11-10 10:49
+  79.00     2.5  P   1.74   2.87   2.31   49.02   13.17      2  98272  -         2026-11-04 15:00
+  80.00     3.8  P   2.71   3.90   3.30   36.01   15.97      5  65565  NONMONO   2026-11-05 13:47
+  81.00     5.1  P   2.08   3.40   2.74   48.18    0.00     14    271  NONMONO   2026-08-05 15:31
+
+TERRY liquidity flags
+- Wide spread rows >15% of mark: 7
+- Thin OI rows <100 OI: 0
+
+TERRY quote sanity
+  ⚠️  NONMONO    2 row(s)
+     NONMONO base rate: 2/9 rows = 22% of the displayed strip.
+     ⚠️  It flags BOTH sides of an inverted pair and does NOT say which one is wrong — usually the one with the OLDER lastTradeDate. Check that before blaming a strike.
+     (ADVISORY only — adjacent-strike noise is normal in an illiquid strip; it earns its keep as CORROBORATION of a hard flag.)
+
+Freshness: freshest trade in set = 2026-11-10 11:18 (fetch 2026-11-10 11:42).
+
+⚠️  BID/ASK AGE IS UNKNOWN AND UNKNOWABLE FROM THIS FEED.
+   The spot above is Yahoo-declared real-time. The option bid/ask carries NO
+   timestamp and no delay flag, and is NOT proven contemporaneous with it.
+   ⛔ THESE ARE SCREENING MARKS, NOT FIRE-TIME MARKS. Take the price you
+      actually transact on from the BROKER chain. (2026-09-11: this tool read
+      ~10% high on the bid vs the broker, on the side being sold.)
+Trade-card reminder: feed these into a fire card's LIVE-MARKS block; execution still requires Will approval.
+
+TERRY leg gate (--legs)
+  ✓ usable        76.00 P  bid 0.51 / ask 0.57  [-]
+  ✓ usable        73.00 P  bid 0.16 / ask 0.21  [-]
+  ⇒ all requested legs carry usable two-sided quotes.
+rc=0
