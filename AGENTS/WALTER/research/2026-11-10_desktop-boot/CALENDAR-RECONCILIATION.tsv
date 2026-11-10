@@ -1,0 +1,16 @@
+release	period	scheduled	source	outcome	evidence
+(window) 2026-11-10T01:20Z to 2026-11-10T16:44Z (end = date output 16:44:39Z in the writing command)	-	-	PROME/DOCKET.tsv grep 2026-11-10; AGENTS/HENRY/domain/ECON_CALENDAR.md; owner commits since cutoff (git log)	9 releases reconciled	BOARD had no 20261110 card before this boot; all owner grades below were committed before WALTER read them
+SoftBank Group Q2 FY2026 results	Q2 (to Sep 30)	15:30 JST = 06:30Z	LAST_COMPLETION resume 1; SAM	OWNER-COMPLETED; routed SIG-W-20261110-005	SAM bbd8974416 CONFIRMED
+Japan 30-year JGB auction	-	2026-11-10 JST	SAM	OWNER-COMPLETED; routed SIG-W-20261110-005	SAM 6a6c250a62 SOFT
+Governor Waller speech, Bank of England Watchers Conference	-	09:00 GMT = 14:00Z	not on a calendar (found via HENRY)	OWNER-COMPLETED; routed SIG-W-20261110-001	HENRY f3279ab9ac; release absent from DOCKET/ECON_CALENDAR (MEMORY #68 class)
+NFIB small business optimism	Oct	06:00 ET = 11:00Z	CARL docket	OWNER-COMPLETED; routed SIG-W-20261110-005	CARL 11b0f73f87 (97.8, secondary)
+CPI	Oct	08:30 ET = 13:30Z	DOCKET L775; ECON_CALENDAR line 30	OWNER-COMPLETED; routed SIG-W-20261110-001	HENRY add9590e6d HEN-57 NOT FIRED; RED-FT-08 state RED's
+NY Fed Household Debt and Credit	Q3	11:00 ET = 16:00Z	DOCKET L1017, L575	OWNER-COMPLETED; routed SIG-W-20261110-002	CARL 8298f1f17f CRL-33 MISSED; NEXUS 5fbaf8fc83
+China NBS CPI/PPI	Oct	2026-11-09 09:30 Beijing (before cutoff; ZHAO read after)	ZHAO CATALYSTS	OWNER-COMPLETED; routed SIG-W-20261110-005	ZHAO 255bd35408 KB-ZHAO-259
+China GACC trade	Oct	2026-11-10 Beijing	ZHAO CATALYSTS	OWNER-COMPLETED (secondaries); routed SIG-W-20261110-005	KB-ZHAO-260
+US-China 11/10 clocks (L435, L436, L437, L858, L1088)	-	2026-11-10	DOCKET	OWNER-COMPLETED; routed SIG-W-20261110-003 (card 20261109-010 carried the re-suspension)	ZHAO 2cbc0f65d4 ZHA-19, ZHA-20 YES
+CRMT backstop L928	-	2026-11-10	DOCKET L928	OWNER-COMPLETED; routed SIG-W-20261110-004	BROCK 7794582852
+FRED HY OAS Nov 9 cell	Nov 9	about 10:10 ET	LAST_COMPLETION resume 3	READ by WALTER at 6c	HY 334 [Nov 9]; THRESHOLD-SCAN.md
+USDA NASS Crop Production	Nov	2026-11-10 12:00 ET	DOCKET L761 (FERT)	UNKNOWN	no FERT commit today; FERT not live; not DARK
+10-year Treasury auction $42B	-	13:00 ET = 18:00Z	LAST_COMPLETION resume 1 (BOND)	NOT YET ELAPSED at window end	BOND live (bond-f9)
+CoreWeave Q3 results	Q3	after the close	VULCAN carry	NOT YET ELAPSED	VULCAN closed out 10:12 ET
