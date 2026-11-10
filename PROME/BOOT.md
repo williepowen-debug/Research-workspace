@@ -1,6 +1,6 @@
 # PROME Boot
 
-**Owner:** PROME · **Updated:** 2026-11-09 (Will 20:42 ET: step 2 arrival write; `proposals/2026-11-09_boot-handoff-repairs-RULED.md`). Prior stamps → `archive/BOOT_STAMP_CHAIN_2026-10-16.md`; this line keeps the latest and at most ONE prior.
+**Owner:** PROME · **Updated:** 2026-11-10 (WQ-662 B: step 8 delta-brief evidence rule; `proposals/2026-11-10_wq662-RULED.md`). Prior: 2026-11-09 (Will 20:42 ET: step 2 arrival write; `proposals/2026-11-09_boot-handoff-repairs-RULED.md`). Prior stamps → `archive/BOOT_STAMP_CHAIN_2026-10-16.md`; this line keeps the latest and at most ONE prior.
 
 **Context loading:** `PROME/CLAUDE.md` Boot Sequence step 1 governs confirmed injection. Explicitly read `USER.md`; retained-context reuse is decided by `PROME/BOOT_MODULES.md` § Repeat boot. `AGENTS.md` is on-demand for roster/routing.
 
@@ -78,7 +78,7 @@ Read it ONLY when Will says “pick up PROME” (the bounded continuation of an 
    - ⛔ **Urgency is not an interrupt.** Surface dated/overdue items, urgent risks and missing capabilities prominently; urgency never decides whether work proceeds.
    - ⛔ **Anti-scoping:** if ANY authorized next action on the same subject needs Will's answer, the item is an ask, whichever action PROME elects.
    - **Absent a YES, routine authorized maintenance is PROME's to run, not to ask about** — the tier is `PROME/AUTONOMY.md`'s, and Tier 1 already covers follow-up work inside an approved workstream.
-   - **Delta brief (ruling 2026-10-16, A1):** when a WALTER brief to Will the same morning is EVIDENCED (a dated receipt of actual delivery to Will, or Will says he has it; a saved WALTER file alone is not delivery), PROME's brief is the delta — what moved since, corrections, decisions due, the book's exposure to each — with every material uncertainty and action requirement kept (root Operator-surface anti-laundering clause). If the earlier delivery or its content is UNKNOWN, say so and give the full context.
+   - **Delta brief (ruling 2026-10-16, A1; evidence rule WQ-662 B, Will 2026-11-10):** PROME gives the full brief by default. Only when Will says in this chat that he already has WALTER's brief of the same morning is PROME's brief the delta — what moved since, corrections, decisions due, the book's exposure to each — with every material uncertainty and action requirement kept (root Operator-surface anti-laundering clause). No file line, receipt or WALTER record counts as delivery.
    - An owed item gets a DOCKET or WQ row when it arises; a NOW § Next line found with no row and no stated reason gets one before the report.
    - Ruling record + acceptance tests: `PROME/proposals/2026-09-12_wq239-boot-interrupt-contract-RULED.md`.
 9. **Present top proposals** only when useful; max 5, ranked by urgency/position relevance.

@@ -26,7 +26,7 @@
 
 ## Open with Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-10 · 10 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-422 (10/23) · WQ-477 (10/27) · WQ-531 (10/30) · WQ-31 (11/1) · WQ-548 (11/5) · WQ-662 (11/13) · WQ-633 (11/13) · WQ-547 (11/17) · WQ-660 (11/20)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-10 · 9 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-422 (10/23) · WQ-477 (10/27) · WQ-531 (10/30) · WQ-31 (11/1) · WQ-548 (11/5) · WQ-633 (11/13) · WQ-547 (11/17) · WQ-660 (11/20)
 <!-- WILLQ-VIEW END -->
 - Parked (his hands): the HANDS rows above; one line in reports, never per row (WQ-538 A).
 
@@ -38,7 +38,7 @@ Run `python3 PROME/tools/will_brief.py --book-line` and paste its line whole; no
 - **Desk windows observed live at 13:08 ET (ps and ListAgents, same host), each an independent Claude Code Opus window that does not depend on PROME's context; a record, not liveness:** HENRY henry-79, BROCK brock-db, VIOLET violet-05 (launched 11:09 ET under C6; delivered; holding for the timed taps) · WALTER walter-96, RED red-b3, LIQUID liquid-9e, TERRY terry-41, SAM sam-29, BOND bond-f9 (launched 11:39 to 11:40 ET on Will's 11:38 ET word; all delivered, packets filed; holding) · BRENT brent-e8 (launched 11:39 ET; still working) · FERT fert-b2 (launched 13:07 ET under C6, pid 108966; delivered, packet filed; holding). Closed with receipts 11:39 ET on Will's word: CARL, NEXUS, ZHAO. Every live desk is owed the WQ-249 closeout ask at PROME's actual closeout; none was asked to close for this restart.
 - Allowances used: C6 wakes seven (no count cap since WQ-667 B, 13:59 ET; memory is the limit); C9 commissions none of two; two Sonnet cold reads (WQ-667 plan and result); one process change (the WQ-667 and WQ-661 charter encode, PROCESS class, on Will's rulings). Memory about 0.8 GB per fresh desk.
 - Told Will, nothing waiting on him from today: WQ-664 RULED B and encoded. Offered, not registered: a queue row on whether two consecutive refunding I-prime fires should move BOND's auction-health score (BOND packet 11/10 §1); register only on his word. PACER for the Cable One order is ask-first; PROME recommended not paying.
-- Carried conditions, not limits: count caps on due-row wakes are gone (WQ-667 B and WQ-661 A, encoded 11/10; list a blanket-word launch in chat first, due rows only, that boot only); brief-delivery evidence is NOT RULED (WQ-662 open). Ask before leaning on either.
+- Carried conditions, not limits: count caps on due-row wakes are gone (WQ-667 B and WQ-661 A, encoded 11/10; list a blanket-word launch in chat first, due rows only, that boot only); brief delivery: full brief unless Will says he has WALTER's (WQ-662 RULED B 11/10, encoded in BOOT step 8).
 - Laptop memory facts live in `MACHINE_LOCAL.md`; they are not desktop facts. Measure before launching several desks.
 - Queue review by decision type rides the autonomy review row D:L1085 (Will 11/9); broker export is parked on WQ-548.
 
