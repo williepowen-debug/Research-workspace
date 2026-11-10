@@ -16,3 +16,8 @@ Dated history, not instructions: the ` Prior:` clauses that followed the **Updat
  Prior (dropped from the live header 2026-11-09): 2026-11-07 (step 8 Continuation; `proposals/2026-11-06_wq648-RULED.md` § Addendum 2).
 
  Step-2 provenance phrases (dropped from the live text 2026-11-09 for bytes): "WQ-578 batch 2:" before the calendar-regeneration rule; "moved out of SCRATCH 2026-10-20 on Will's word" after "the generated DOCKET calendar view".
+
+**Moved 2026-11-09 20:43 ET (step 2 arrival-write edit, to stay under the rotation tier; no instruction removed):**
+- Prior header stamp, verbatim: **Updated:** 2026-11-09 (WQ-658 A: step 1 retired, step 2 reads the NOW page; `proposals/2026-11-09_wq656-657-658-RULED.md`; Will same evening: step 2 disposition clause, step 8 delivery evidence).
+- Step 3 provenance phrase, verbatim, cut from after "by DIGEST": (change 2026-10-16; acceptance `PROME/tools/tests/ACCEPTANCE_active_decisions_digest_2026-10-16.md`)
+- Step 3 provenance phrase, verbatim, cut from the GATES clause: "; ruling 2026-10-16, B2"

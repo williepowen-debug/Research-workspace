@@ -298,8 +298,8 @@ def write_view(prose_path, docket_path, as_of, dry_run=False, budget=6000, **kw)
         text = f.read()
     new = splice(text, block)
     if len(block.encode()) > budget:
-        print(f"DOCKET-VIEW ⚠️ block is {len(block.encode())} B > --budget {budget} B — the OVERDUE count is usually why; "
-              f"resolve/tombstone rows or pass --budget (advisory, still written)")
+        print(f"DOCKET-VIEW ⚠️ block is {len(block.encode())} B > --budget {budget} B — the generated block is over its size budget; "
+              f"size only, no row is judged; never close an open obligation to shrink it (advisory, still written)")
     if new == text:
         print(f"DOCKET-VIEW ✓ unchanged — block byte-identical ({len(block.encode())} B) in {os.path.relpath(prose_path, ROOT)}")
         return 0, block

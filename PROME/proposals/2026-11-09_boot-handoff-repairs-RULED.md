@@ -53,3 +53,14 @@ Two fixes made AFTER the read (unreviewed):
 - **What the NOW page did not carry:** the ARGUS residue list (found in the daily note it points to) and WALTER's routing need for 11/10 (its `LAST_COMPLETION.md`). Both were one pointer away; neither blocked the boot.
 - **Defects met:** the pre-CPI brief draft § 1 China row was stale (ARGUS had flagged it) and is corrected this boot. `fetch.py price` returned empty tables on a ten-ticker loop and worked on single retries; cause UNKNOWN (vendor or load). The header's model name ("Fable 5.2") does not match this runtime's model id (`claude-fable-5-1`); left as the prior session's record.
 - **State of W1, W4, the cap question:** W1's method is now recorded here; W4 and the cap question stay STILL UNRESOLVED as written.
+
+## W1 closed: arrival write added to BOOT step 2 (2026-11-09 20:44 ET, PROME prome-1e, on Will's instruction pasted in chat 20:42 ET, under the approval above)
+
+**Changed:** `PROME/BOOT.md` step 2 gains one sentence: ownership established, the booting session writes its identity, OPEN disposition, time from `date` and evidence pointer into the NOW header before other work. Boot runner pointer added in both skill copies. Byte offset: the prior header stamp and two step-3 provenance phrases moved verbatim to `PROME/archive/BOOT_STAMP_CHAIN_2026-10-16.md`; no instruction removed. Same sitting, separate corrections: `scripts/docket_view.py` over-budget message now names the block size only and warns against closing open obligations to shrink it; `PROME/MACHINE_LOCAL.md` and the NOW page record approximately 16 GB physical RAM with WSL capped at 6 GB; the NOW page keeps individually authorized, blanket-instruction and autonomous launches apart, the blanket-instruction cap question NOT RULED.
+
+**Review:** one bounded diff read (Sonnet cold reader, its own three counterexamples): four conditions MET, ❌ 0, ⚠️ 5.
+
+**Declared residue (not fixed):** no explicit rule for a session meeting its own OPEN header after a context reset (W5 above, same item) · what a session may do while ownership is unresolved is not stated · the runner pointer omits the `date` and evidence detail (pointer only, by design) · the next reader is not told to verify the evidence pointer · the reader did not open this record.
+
+**State:** IMPLEMENTED · TESTED (read-cap rotation_due=0, skill copies identical, docket_view compiles and runs) · INDEPENDENTLY VERIFIED for the diff as read · STILL UNRESOLVED: W4 and the due-row cap question; the six OVERDUE COVERED rows await reconciliation on completion evidence, not started.
+
