@@ -53,7 +53,13 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-09 12:09 ET, PROME due-row wake (Will's word 12:07 ET; Claude Code, Opus 5.5). Closed 19:4x ET on PROME's ask (WQ-249, desktop to laptop switch). CPI NOT yet graded.
+### CHANGES SINCE — 2026-11-09 20:11 ET laptop boot (Will's boot ask; Claude Code, Opus 5.5, host WilliePOwen). Closed 10:1x ET 11/10 on PROME's ask (laptop back to desktop). **CPI printed and NOT graded.**
+
+- **The miss, classified:** the boot ended "keep the window open, PROME will message after 08:30". No message came, and an idle session cannot wake itself (timers were forbidden by the wake packet). The next input was the 10:11 closeout ask, which said no new work. So the pre-open map, the CPI grade and the WALTER 011 open read all went unrun. **Next time a boot hands off to "a message will come", say at the boot report that the session cannot wake itself, so Will knows the grade depends on that message arriving.**
+- WALTER 011 (Huang affair acknowledged, Nvidia probe, FBI remark) was logged as deferred and moved to processed. COR-20261109-11 receipted NO-OP. AP's −11% checked at −10.7% (178.67 vs 200.13, vendor).
+- Laptop dependencies: api.bls.gov works (September control matched); bls.gov web 403; Treasury CSV slow (17s) but 200; GitHub DNS failed once, then fetched.
+
+### PRIOR SESSION (11/9 desktop, 12:09–19:4x ET; detail in git log and STATUS_COLD)
 
 - **Inbox drained:** 15 WALTER cards and ZHAO's 11/8 packet, all in `board_log.tsv` and `git mv`'d. WALTER 053 moved too. 3 corrections receipted (COR-20261107-02 APPLIED on the NEXUS Qeshm line). `--scope` text for a NO-OP receipt may not contain `;`.
 - **11/9 midday map published:** SPX flip ~7,660/~7,661, put 7,500 and call 7,700 clean at both horizons; QQQ walls WITHHELD with `NONE` value rows (that closes last session's item 4: consumer_check reads the latest row, so `NONE` is how to say none published). NDX put 28,000 sits overhead.
@@ -62,10 +68,10 @@
 - **11/9 close (vendor):** SPX 7,549.94 +2.35%, VIX 19.92, 2Y par 4.56% (+5bp) with oil down: the front end is trading the hike path into CPI. HEN-60, -61, -62 not resolved.
 - **Slips:** ran an absence grep with `2>/dev/null` (LESSONS forbids); re-ran unsuppressed with a positive control. Boot consumer sweep timed out at 180s again. `git pull --rebase` refused all session on other desks' dirty files; a non-ff after the brief commit was another session already carrying mine to origin (`merge-base --is-ancestor`).
 
-### NEXT SESSION (laptop; full list in STATUS § CROSS-DESK "Laptop pickup")
+### NEXT SESSION (desktop; full list in STATUS § CROSS-DESK "Desktop pickup")
 
-1. **11/10 pre-open:** pull, `gamma_flip.py --both --publish`, hand-write wall rows (`NONE` where withheld). Not between 09:30 and about 09:47 ET.
-2. **HEN-57 / L775: grade October CPI after 08:30 ET** from the grade sheet. Log release row, KB row, PREDICTIONS HEN-57, reaction (2Y, SPX vs map, KRE). ZQZ26 hike rerun 15:00 ET (76% at 11/6). ONE packet to `PROME/inbox/` citing L775 / HEN-57 and SIG-W-20261109-004; then move the PROME wake packet to processed with a board_log row. Quiet mode; no trade proposal except through TERRY.
+1. **Map:** pull, `gamma_flip.py --both --publish` (an intraday read now, after about 09:47 ET), hand-write wall rows (`NONE` where withheld).
+2. **HEN-57 / L775: grade October CPI FIRST, it is late** (a late grade is not NO-VERDICT), from the grade sheet. Then WALTER 011: NVDA against SMH, QQQ and RSP on the session tape. Log release row, KB row, PREDICTIONS HEN-57, reaction (2Y, SPX vs map, KRE). ZQZ26 hike rerun 15:00 ET (76% at 11/6). ONE packet to `PROME/inbox/` citing L775 / HEN-57 and SIG-W-20261109-004; then move the PROME wake packet to processed with a board_log row. Quiet mode; no trade proposal except through TERRY.
 3. FRED 11/9 HY and CCC into MARKET_DATA (USD/JPY 11/9 left blank: vendor bar already stamped 11/10). HEN-58 PPI 11/13 (L776); NVDA 11/17 after the close (L926); HEN-60 and HEN-62 resolve 11/30, HEN-61 12/31; HEN-63 12/9.
 4. Row 9 collapse leg: grade at the 11/18 close after 16:15 ET (WQ-635 A, letter in STATUS). ECON_CALENDAR rebuild before 11/20.
 5. Unrun from Will's list: breadth rerun on closes, options volume by strike, top-name point attribution. Operating Dashboard still 10/22, same URL.

@@ -1,43 +1,38 @@
-# HENRY — 2026-11-09: PROME due-row wake, CPI prepared, closed for the laptop switch — CLOSED (CPI NOT YET GRADED)
+# HENRY — 2026-11-09 20:11 ET to 2026-11-10 10:1x ET: laptop boot, closed for the switch back to desktop — CLOSED (CPI NOT GRADED)
 
-**RESULT:** Stocks recovered most of last Wednesday's (11/5) fall: the S&P 500 closed +2.35% at 7,549.94 (vendor), broadly, not just chips. Dealers still amplify moves (the S&P sits about 110 points under the ~7,660 level where that stops), and two-year Treasury yields rose to 4.56% on a day oil fell, so the rate-hike path is what the bond market is trading into Tuesday's inflation report. The inflation report (October CPI, Tue 11/10 08:30 ET) is prepared and not yet graded: my frozen call is core +0.2%, under the 0.4% that would count as hot.
+**RESULT:** October CPI printed at 08:30 ET today and HENRY has **not graded it**. The laptop session booted last night and was told to stay open for PROME's message after the print. No message came, and the next instruction was the 10:11 ET closeout ask, which said to start no new work. The grade, the dealer map and the Nvidia read move to the desktop session. The letter says a late grade still counts.
 
-**CHANGED:** `STATUS.md`, `STATUS_COLD.md`, `NEXUS_BRIEF.md`, `MEMORY.md`, this file, `board_log.tsv`, `registry/corrections_receipts.tsv`, `workbook/MARKET_DATA.tsv`, `workbook/PUBLISHED.tsv`, `workbook/KB.tsv` (ML-HEN-208), `research/2026-11-09_cpi-wake/`, 16 inbox items moved to processed.
+**CHANGED:** `STATUS.md` (header, CPI line, "Desktop pickup"), `MEMORY.md`, this file, `NEXUS_BRIEF.md` (CPI line), `board_log.tsv`, `registry/corrections_receipts.tsv`, WALTER 011 moved to processed.
 
 ## Session work
 
 | Item | Outcome |
 |---|---|
-| Inbox | 15 WALTER cards and ZHAO's 11/8 packet dispositioned and moved; WALTER 053 moved. 3 corrections receipted, rc 0 at close |
-| WALTER 004 (Citi to Neutral, ACTION HENRY) | Acted: index tape and Citi read in VIEW; the "Nasdaq about 5% more" is a strategist view, logged ML-HEN-208, not adopted |
-| WALTER 010 (US–China clocks) | Every 11/10 clock moved to January 9–11, 2027, one row per instrument; WALTER confirmed closed |
-| Gamma map 11/9 midday | SPX flip ~7,660, put 7,500 and call 7,700 clean; QQQ walls WITHHELD (`NONE` rows); NDX put 28,000 overhead. Published with `--both` |
-| Credit 11/6 (FRED) | HY 342bp YELLOW, CCC 1,317, CCC−BB 1,109 |
-| CPI grade sheet | Grading via api.bls.gov (bls.gov web 403s this box); control matches September 0.3 |
-| 11/9 close (closeout) | SPX 7,549.94 +2.35%, VIX 19.92, 2Y par 4.56%. HEN-60, -61, -62 not resolved |
+| Boot on laptop (host WilliePOwen) | Repo matched origin; boot.py rc 0; inboxes clear apart from PROME's wake packet; corrections check passed; nothing overdue |
+| WALTER 011 (Huang affair acknowledged, Nvidia probe, FBI remark; ACTION HENRY: the open's tape read) | Deferred, logged, moved. COR-20261109-11 receipted NO-OP: HENRY never carried card 004's "unconfirmed" wording. AP's "about 11% since Wednesday" checked: −10.7% (vendor closes $178.67 on 11/9 vs $200.13 on 11/4) |
+| Dependencies on the laptop | api.bls.gov works (September core matched the published 0.3); bls.gov web pages 403; Treasury slow but reachable; GitHub DNS failed once then fetched; fleet consumer sweep timed out (third session running) |
 
 ## GAPS / still pending
 
-- **HEN-57 CPI not graded** (prints 08:30 ET 11/10); the PROME packet is owed after grading. PROME wake packet stays in `inbox/` until then.
-- 11/9 map not re-run on the close; 11/9 VIX and SPX vendor, not confirmed at Cboe or FRED; 11/9 HY and CCC publish 11/10; USD/JPY 11/9 cell blank (vendor bar already stamped 11/10).
-- The Citi note itself is unread. Brent and gas cells blank; BRENT owns the settle.
-- Operating Dashboard still 10/22; breadth rerun and options volume by strike unrun. Boot consumer sweep timed out (180s).
-- `git pull --rebase` refused on other desks' dirty files all session; commits path-scoped.
+- **HEN-57 CPI not graded** (DOCKET L775). PROME packet owed after grading; the PROME wake packet stays in `inbox/` until then.
+- Pre-open dealer map not run; WALTER 011 open read not done (now a session-tape read).
+- ⚠️ Why it happened: an idle session cannot wake itself, and the boot report did not tell Will that the grade depended on PROME's message arriving. Recorded in MEMORY.
+- December hike-odds rerun at 15:00 ET today; FRED 11/9 HY and CCC into MARKET_DATA.
 
 ## COMMITS
 
-`36783e7f97` wake catch-up, `b4dd952095` brief fold, `2b5b993645` WALTER 010, `472d85a8e2` brief fold; this closeout carries "HENRY: closeout 11/9 for laptop switch, 11/9 close, CPI pending".
+`a5f7679bb1` HENRY: laptop boot, WALTER 011 deferred to the 11/10 open, COR-20261109-11 NO-OP. This closeout carries "HENRY: closeout 11/10 for desktop switch, CPI not graded".
 
 ## NEXT SESSION FOLLOW-UP
 
-Pre-open map Tue 11/10; **CPI 08:30 ET Tue 11/10, grade and packet to PROME**; December hike odds rerun 15:00 ET 11/10; PPI Fri 11/13; Nvidia Tue 11/17 after the close; row 9 collapse leg at the 11/18 close; FOMC Wed 12/9.
+**Grade CPI first (late), today.** Then the map, the Nvidia tape read, and the December hike odds at 15:00 ET. PPI Fri 11/13; Nvidia results Tue 11/17 after the close; Palo Alto Networks row 9 at the 11/18 close; regional banks vs Nasdaq grade 11/19 (DOCKET L823); FOMC Wed 12/9.
 
-## THESIS SNAPSHOT (frozen at close)
+## THESIS SNAPSHOT (frozen at close; unchanged from 11/9, no new data read this session)
 
-Dealer gamma NEGATIVE on all three chains; SPX flip ~7,660 [11/9 midday]. HY 342bp YELLOW [FRED 11/6], one lower print, not a peak. December hike about 76% priced [11/6 15:00 ET]; 2Y par rose 5bp on 11/9. A hot core print is the case where hike repricing and dealer amplification point the same way.
+Dealer gamma NEGATIVE; SPX flip about 7,652 on the evening chain [boot.py 20:11 ET 11/9, 14d, not published]. HY 342bp YELLOW [FRED 11/6]. December hike about 76% priced [11/6 15:00 ET]. HEN-57 expectation core +0.2, NOT FIRED; fires at 0.4+.
 
 ## WILL_NEEDS
 
 None from this desk.
 
-*Honest scope: free delayed Cboe chains, vendor bars and Treasury par. The 11/9 close figures are vendor and unconfirmed; walls and dollar sizes are the fragile parts of the map; CPI consensus came through an X relay of a Bloomberg survey.*
+*Honest scope: no market data was read after 20:11 ET 11/9, so this file says nothing about the CPI print or today's tape.*
