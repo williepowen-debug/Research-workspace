@@ -312,10 +312,20 @@ def append_daily_log(row: dict, supersede: bool = False) -> str:
       'skip-weekend'         Sat/Sun — markets closed, would just dup Friday (6/6 phantom)
       'skip-exists'          row present, --supersede not set
       'skip-tick-vs-settle'  existing row is SETTLE, incoming is TICK — never downgrade
+      'skip-orphan-vix'      VIX present, VIX9D/VIX3M/VIX6M/VVIX all empty — a
+                             weekday NYSE holiday (Cboe publishes a VIX bar on
+                             closures, D:L342) or a pre-open quote; not a session
 
     NOTE: this only ever targets the row whose date == row['date'] (always
     "today" from build_report). It CANNOT repair a stale PRIOR-date row — use
     backfill.py (dated-row repair) for that (VIOLET 6/13, Orc).
+
+    ORPHAN RULE (D:L342, 2026-11-10): the weekend check above misses weekday
+    closures (Thanksgiving 11/26, Labor Day 9/7 = VIX 15.30 on Cboe History).
+    Same discriminator backfill.py already uses: a real session publishes the
+    companions, a phantom publishes VIX alone. Refusing is recoverable
+    (backfill.py creates any real session's row from History); a written
+    phantom row would advance every count read from this ledger.
     """
     if not DAILY_LOG.exists():
         return "skip-no-file"
@@ -325,6 +335,9 @@ def append_daily_log(row: dict, supersede: bool = False) -> str:
             return "skip-weekend"
     except (KeyError, ValueError):
         pass
+    if str(row.get("vix", "")).strip() and not any(
+            str(row.get(c, "")).strip() for c in ("vix9d", "vix3m", "vix6m", "vvix")):
+        return "skip-orphan-vix"
     with open(DAILY_LOG) as f:
         header = f.readline().strip().split("\t")
         lines = f.readlines()
@@ -675,6 +688,7 @@ def print_report(rep: dict):
             "skip-exists": f"row for {row['date']} already present — pass --supersede to replace a TICK with the SETTLE",
             "skip-tick-vs-settle": f"row for {row['date']} is already SETTLE — a TICK never overwrites it",
             "skip-no-file": "VX_DAILY.tsv not found",
+            "skip-orphan-vix": "VIX printed with no companion index — NYSE-closed day or pre-open, not a session (D:L342)",
         }.get(status, f"not written ({status})")
         print(f"  · skip ({status}): {reason}")
         if status in ("skip-weekend", "skip-exists", "skip-tick-vs-settle"):

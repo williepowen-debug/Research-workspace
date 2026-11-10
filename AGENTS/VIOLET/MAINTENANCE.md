@@ -9,6 +9,14 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## November 10, 2026 — D:L342: thresholds.py refuses an orphan-VIX row; cap trim
+
+**Trigger:** PROME prome-07, D:L342 (Cboe publishes a VIX bar on NYSE closures; Thanksgiving 11/26). `append_daily_log()` skipped Sat/Sun only, so a boot on a weekday closure could write a phantom VX_DAILY row that every count read from this ledger would include.
+**What changed:** the new status `skip-orphan-vix` (VIX present, VIX9D/VIX3M/VIX6M/VVIX all empty) is not written. This is the same discriminator backfill.py uses. Acceptance was written first and passed: Labor Day 9/07 (VIX 15.30) refused with the ledger byte-identical; 9/08 still appends; SPY has no 9/07 bar; 8 suites, 52 checks green. MAINTENANCE trimmed: the 2026-09-06 (PM) entry moved verbatim to `archive/MAINTENANCE_ARCHIVE.md`.
+**Files touched:** `scripts/thresholds.py`, `research/2026-11-10_L342/` (ACCEPTANCE.md, REPORT.md), `MAINTENANCE.md`, `archive/MAINTENANCE_ARCHIVE.md`.
+**Boot-impact:** a pre-open or holiday boot prints `skip (skip-orphan-vix)` and writes no row; the next in-session boot or backfill.py writes the real session.
+**Lessons:** a refusal that backfill can repair beats a write that nothing removes.
+
 ## November 6, 2026 — combination watch charter line (WQ-622 A)
 **Trigger:** root USER.md and `PROME/COMBINATION_WATCH.md`, Will 2026-11-05.
 **What changed:** one sentence added to step 5a of `CLAUDE.md`. Class C4, moves no authority, route or threshold; PROME verifies. Four themes live as KB rows, KB-VIO-383 to 386.
@@ -212,35 +220,6 @@ Log material structural changes only — not routine content edits. Template ado
 - 🔑 **ASK OF ANY FRAMEWORK/SPEC DOC WHICH STATEMENTS ARE *STATE* AND WHICH ARE *STRUCTURE*. Only state rots — and no staleness instrument watches a file that isn't a ledger.** Every check ran green over a sign inversion for four days. → KB-VIO-259
 - ⚠️ **THE 9/4 SWEEP HAD ALREADY BEEN IN THIS FILE and fixed the TAIL, leaving the identical defect in the HEADER.** Flag's scope ≠ defect's scope — **n=3 in seven days** (KB-VIO-250). **Sweep the file's whole CLASS of blocks, not the named block.**
 - ⚠️ **A DETECTOR CAN BE CORRECT AND STILL NOT SEE THE THING.** `thesis_bump_check.py` counts rows; it cannot see a **sign flip**. It correctly said *look*. **The read is the instrument; the counter is only the alarm clock.**
-
----
-
-## 2026-09-06 (PM) — WQ-188: yfinance stripped of write authority over the six CBOE columns; `cheap_tail.py` re-pointed to the publisher of record
-
-**Trigger:** Codex reviewed **this morning's own repair** at the artifact and returned one HIGH (routed PROME → VIOLET; Will ruled WQ-188 *"approve WQ-188 with your rec"* 10:58 ET, fixes before the thesis read). `backfill.py` **failed OPEN**: `main()` ran the yfinance pass first, then CBOE; on a CBOE failure the CBOE pass printed *"CBOE pass SKIPPED (yfinance stands)"*, `write_merged()` saved, and the run **exited 0**. Codex's case — ledger `skew` 151.58 `basis=SETTLE`, yfinance 149.00, CBOE 503 ⇒ **149.00 written with the SETTLE stamp retained, rc=0.**
-
-**What changed:**
-1. **`backfill.py` — write authority scoped, not checked.** CBOE is now fetched **first**, and yfinance's authority over the six spot columns is decided per-column against what CBOE confirmed **this run**: series failed ⇒ **no write at all** (the verified value is preserved) · CBOE has a value ⇒ yfinance defers · CBOE OK but publishes nothing for that cell ⇒ yfinance may write it **provisionally**, never stamped `SETTLE`. `main()` returns **2** and names the failed series.
-2. **`fetch_cboe_history()` returns `(data, ok)`.** It signalled failure with `{}` — the same value a successful empty fetch returns — so the caller gated on truthiness and could not tell *"CBOE publishes nothing"* from *"CBOE did not answer."* `requests.RequestException` is now caught rather than propagating.
-3. **`basis=SETTLE` is gated on a fully-confirmed row.** `basis` is a row-level claim, so a row holding even one unverified column is not stamped. **That stamp is what made the defect dangerous rather than merely wrong.**
-4. **NEW `scripts/test_backfill_authority.py`** — 12 contracts, no network, both sources stubbed. Codex's exact case is test [1]. rc=0.
-5. **`cheap_tail.py` `pull()` re-pointed to CBOE** (fix ②) — the 🟣 OPEN 4/4 operator-decision surface was reading `^VIX`/`^VVIX`/`^SKEW` from yfinance at **run time**, which repairing the ledger did not touch. yfinance survives only as a fallback that marks `source=yfinance-PROVISIONAL` in stdout, the returned dict **and** the `CHEAP_TAIL.tsv` note column.
-
-**Files touched:** `scripts/backfill.py` · `scripts/cheap_tail.py` · **NEW** `scripts/test_backfill_authority.py` · `workbook/KB.tsv` (KB-VIO-252→255) · `workbook/VX_DAILY.tsv` (m1m2 side-effect, below) · `STATUS.md` · `SCRATCH.md` · `NEXUS_BRIEF.md` · `board_log.tsv`.
-
-**Boot-impact:** none to the boot sequence. `backfill.py` is not on the boot path; `cheap_tail.py --boot` is, and its output gains a source marker **only when provisional**. A future CBOE outage now makes `backfill.py` exit 2 where it previously exited 0 — **that is the intended new behaviour, not a regression.**
-
-**Verification (each falsified by running, not by reading):** CBOE 503 on `skew` alone ⇒ 151.58 preserved · all six fail ⇒ every column byte-identical · a `TICK` row is not promoted to `SETTLE` on an incomplete run · **control:** live run vs the reconciled ledger = **2,496 cells agreed, 0 corrected, 0 filled** · `cheap_tail` on CBOE = VIX 14.53 / VVIX 84.42 / SKEW 151.58, **identical to the cent**, 4/4 🟣 OPEN unchanged · stubbed 503 on SKEW ⇒ output labelled PROVISIONAL in all three places. Closeout guard **8/8 blocking contracts green**.
-
-**Side-effect recorded, not hidden:** the control run's ledger md5 changed. The **spot** columns are provably identical (0 corrected, 0 filled); the delta is entirely the **m1m2 path** — untouched by this fix — filling four blank cells on 8/28 · 8/31 · 9/1 · 9/3, the four sessions restored this morning, each properly stamped with its own `m1m2_settle_date`. Kept: stamped values beat blanks.
-
-**Lessons:**
-- 🔑 **A CORRECTION PASS THAT REPAIRS VALUES BUT LEAVES THE BAD WRITER IN PLACE HAS A HALF-LIFE.** I fixed 476 cells this morning and left the write order alone. The next source outage would have restored the defect — **and the `SETTLE` stamp would have made the restored value look verified.** Fixing data is not fixing the mechanism. → KB-VIO-252
-- 🔑 **REMOVE A WRITER, DON'T ADD A CHECKER.** A checker runs after the damage and has to be believed; scoped authority means the bad write cannot occur. This desk has already paid for the other pattern (`[[finding_a_check_that_only_advises_is_overridden_the_control_is_downstream]]`).
-- ⚠️ **A SENTINEL THAT COLLIDES WITH A LEGITIMATE VALUE CANNOT CARRY A DISTINCTION.** `{}` meant both "nothing here" and "no answer," and every consumer inherited the collision. Ask of any fetch helper what it returns when the source is **down**, and whether that is distinguishable from a real answer. → KB-VIO-253
-- ⚠️ **THE VALUES AGREEING IS NOT REASSURANCE — IT IS THE CONDITION UNDER WHICH WIRING DEFECTS SURVIVE.** `cheap_tail`'s CBOE numbers came back identical to the cent, exactly as RED's yfinance-graded FT-10 agreed with CBOE for four days while printing a false FIRING. The fix is justified by the **source of record**, never by a delta. → KB-VIO-254
-- ⚠️ **AND THE FIRST DRAFT OF MY OWN TEST FAILED A CORRECT FIX.** It grepped the whole source for `"yfinance stands"` — which still appears, correctly, in three docstrings recording *why* the branch was removed. **A test may not force the code to forget its own history.** Replaced with an AST walk over `print()` literals, which asks the question that actually matters. → `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`
-- ⚠️ **RESIDUAL, NAMED SO IT IS NOT READ AS CLOSED:** `thresholds.py` still writes the daily row from yfinance at every boot, so the six columns are authoritative in **history** and provisional at the **leading edge**. Four more scripts read `^SKEW` from yfinance. → KB-VIO-255
 
 ---
 

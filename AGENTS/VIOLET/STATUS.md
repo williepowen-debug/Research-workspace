@@ -97,8 +97,8 @@ Position truth is off-repo (Will/broker), with the separately dated FORGE mirror
 2. **November 17:** credit-vol WATCH endpoint and NVIDIA after the close; **November 18** VIX AM SOQ. VIO-PRED-08 grade after 11/20 History; PRED-09 after 12/31.
 3. FXY IV intraday re-pull before any IV/RV read (2.38x at boot 11/10).
 4. **Open tool defect (KB-VIO-365, KB-VIO-370):** implied_corr.py stamps SETTLE by clock. Not commissioned.
-5. L342 11/26 holiday-bar defect (not due), December 16 L441 M1:M2 recheck.
+5. **D:L342 (11/26 holiday bar): VIOLET side FIXED 11/10** (KB-VIO-395). `thresholds.py` refuses an orphan-VIX row, tested on Labor Day 9/07; no other count of VIOLET's can be advanced. Credit twin named to PROME for LIQUID (FRED HY carries forward on closures). On 11/27, confirm that no 11/26 row exists in VX_DAILY. December 16 L441 M1:M2 recheck.
 6. Path A F2 audit CLOSED 11/05, WQ-611 A encoded (KB-VIO-372/373); Regime Shift size line withdrawn WQ-614 A (KB-VIO-376).
 7. Historical FXY IV/OI and old VIX option-chain snapshots stay unfilled by design; Deck PAUSED WQ-460, Helm RETIRED WQ-461.
 
-**Persistence / coordination (11/10 11:1x ET):** Launched by PROME prome-07 (task: CPI before/after on the close, PRED-07 grade D:L1030, card 011; limits $0 moved, no threshold/gate/band/card change, quiet mode). WALTER card SIG-W-20261109-011 logged info-only, correction COR-20261109-11 receipted NO-OP (owners VULCAN and HENRY). 11/09 bars to RED. Dated memo to PROME. The window holds open for PROME's message; the close read is not yet done.
+**Persistence / coordination (11/10 11:1x ET):** Launched by PROME prome-07 (task: CPI before/after on the close, PRED-07 grade D:L1030, card 011; limits $0 moved, no threshold/gate/band/card change, quiet mode). D:L342 worked on PROME's ask 11:27 ET (thresholds.py orphan-VIX refusal, `research/2026-11-10_L342/`). WALTER card SIG-W-20261109-011 logged info-only, correction COR-20261109-11 receipted NO-OP (owners VULCAN and HENRY). 11/09 bars to RED. Dated memo to PROME. The window holds open for PROME's message; the close read is not yet done.

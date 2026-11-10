@@ -24,14 +24,14 @@
 1. **November 17:** credit-vol WATCH endpoint (HY 342 [11/06] vs the 368bp size condition) and NVIDIA after the close; **November 18** VIX AM SOQ. VIO-PRED-08 grade after 11/20 History; PRED-09 after 12/31.
 2. FXY IV intraday re-pull (2.38x at boot 11/10).
 3. implied_corr.py SETTLE-by-clock defect: not commissioned.
-4. L342 11/26 (not due), December 16 L441.
+4. **D:L342 VIOLET side FIXED 11/10** (KB-VIO-395, `research/2026-11-10_L342/REPORT.md`): `thresholds.py` now refuses an orphan-VIX row (`skip-orphan-vix`). **On 11/27, check that VX_DAILY has no 11/26 row.** If a boot prints `skip-orphan-vix` pre-open on a normal day, that is expected; boot again after 09:30 or let backfill write the row. December 16 L441.
 5. Thesis-currency advisory: 14 KB rows since v4.1.9 (over the 12 review line, advisory only). Read the thesis headline against KB-VIO-378 to 394 when there is time; no bump is implied.
 
 ## CARRY-FORWARD
 
 - RED owns FT-10 and FT-06 grades. LIQUID owns HY. HENRY owns gamma and the macro read of CPI; BOND owns rates. BRENT owns oil. SAM owns BOJ. VULCAN owns NVDA key-person (card 011).
 - Path A: WATCH, no gate (WQ-611 A). The unregistered 10/22 call (VIX ≥29.03 by about 12/07) is context only; Will did not take it.
-- MAINTENANCE.md is about 301 lines against a cap of about 300: trim before the next entry. No structural change this session.
+- MAINTENANCE.md trimmed to 280 lines 11/10 (the 9/06 PM entry was archived) and the L342 entry added.
 - Combination watch: 4 themes, KB-VIO-383 to 386, review 11/20. Nothing added.
 - The 11/05 outbox SIG stays pending at top level: LIQUID replied; HENRY, RED and PROME reads unconfirmed.
 - The CHANGELOG body text of the 10/14–10/19 entries still has glued words.
