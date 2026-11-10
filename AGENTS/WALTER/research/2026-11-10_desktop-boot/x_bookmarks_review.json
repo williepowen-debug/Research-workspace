@@ -1,0 +1,98 @@
+{
+  "schema": 2,
+  "staged_at": 1794340036.0288746,
+  "items": [
+    {
+      "id": "2120230973111427427",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2120169745949561334",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2120147296587251740",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2119812400920543356",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261110-009-Small-items-bookmarks-Nov-9-10-VVIX-realized-vol-record-QQQ-drawdown-base-rates-Megaspeed-halt-claim-indeterminate-Florida-29-counties.md",
+      "ask_user": null
+    },
+    {
+      "id": "2119879763615731859",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261110-009-Small-items-bookmarks-Nov-9-10-VVIX-realized-vol-record-QQQ-drawdown-base-rates-Megaspeed-halt-claim-indeterminate-Florida-29-counties.md",
+      "ask_user": null
+    },
+    {
+      "id": "2119826521955209231",
+      "disposition": "KILL",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2119944123335778465",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2119897573234524202",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2119808229236699466",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261110-009-Small-items-bookmarks-Nov-9-10-VVIX-realized-vol-record-QQQ-drawdown-base-rates-Megaspeed-halt-claim-indeterminate-Florida-29-counties.md",
+      "ask_user": null
+    },
+    {
+      "id": "2119835693165793293",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2119843426967654669",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2119791620111699982",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261110-009-Small-items-bookmarks-Nov-9-10-VVIX-realized-vol-record-QQQ-drawdown-base-rates-Megaspeed-halt-claim-indeterminate-Florida-29-counties.md",
+      "ask_user": null
+    },
+    {
+      "id": "2119823631463395545",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    }
+  ],
+  "stage_id": "d556025aa4544c46b4dfaf4791cd804a"
+}
