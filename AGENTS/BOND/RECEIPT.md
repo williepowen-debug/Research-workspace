@@ -1,15 +1,16 @@
-# BOND receipt — 2026-11-09 PROME due-row wake + standard closeout
+# BOND receipt — 2026-11-10 PROME prome-07 launch (10Y grade, CPI/Waller read, owner-lane leg)
 
-Task: PROME due-row wake (Will 12:07 ET): grade DOCKET L924 / BND-33 on the 3Y; then closeout on prome-9c's ask (Will 19:37 ET). Runtime Claude Code, model `claude-opus-5-5`. Tools: bash, repo `.venv` python, background poll. Failed to connect: mtnewswire, Definite. Not called: Quartr.
+Task: Will's 11:38 ET word via PROME prome-07 (desktop, after the machine switch): CPI and Waller read on the curve, grade the 10Y at 13:00 ET, state the owner-lane coverage+hygiene leg. Runtime Claude Code, model `claude-opus-5-5`. Tools: bash, repo `.venv` python, background poll, SendMessage. Failed to connect: mtnewswire, Definite. Not called: Quartr.
 
 | Item | Result | Evidence |
 |---|---|---|
-| Boot | corrections rc=0; docket_check rc=0 through 11/19; WALTER lane empty | boot outputs |
-| ICE 11/6 | HY 342, CCC 1317, IG 93; BND-34 not TRUE | KB-BND-561 |
-| 3Y `91282CRW3` | REGISTERED: indirect 55.48 vs I′ 57.44 → FIRE; dealer 9.48; BTC 2.53 | KB-BND-562; `analysis/2026-11-09_refunding/grade_91282CRW3.txt` |
-| BND-33 / L924 | ✅ TRUE 11/9 | `thesis/PREDICTIONS.tsv`; PROME packet |
-| Counter / score | counter 3 → 0; auction health held 3; composite 17 | VX-BND-01 |
-| Treasury 11/9 close | 2Y 4.56, 10Y 4.88, 30Y 5.26, real 10Y 2.66 | KB-BND-563 |
-| Packets | PROME (L924), LIQUID, ZHAO (🟠 FYI) | commit cf19bacf7e |
+| Boot | pull no-op (HEAD = origin + 2 PROME commits); corrections rc=0; docket_check rc=0 through 11/19; WALTER lane empty; boot_recompute rc=1 (5Y5Y distance drift 33→31, fixed; VX-BND-17 review already scored) | boot outputs |
+| ICE 11/9 | HY 334, CCC 1311, IG 91; BND-34 not TRUE | KB-BND-564 |
+| CPI/Waller curve read | front-led bear flattener; long-end sale after 08:40 cause not established | KB-BND-565; `analysis/2026-11-10_cpi-10y/PRE_AUCTION_READ.md` |
+| 10Y `91282CRX1` | REGISTERED: indirect 61.23 vs I′ 65.05 → FIRE; dealer 9.77; BTC 2.46 | KB-BND-566; `analysis/2026-11-10_cpi-10y/grade_91282CRX1.txt` |
+| Counter / score | counter stays 0; auction health held 3; composite 17 | VX-BND-01 |
+| WALTER lane (landed after boot) | SIG-W-20261110-001, -005 noted; JGB 30Y soft logged combo:long-end-demand | KB-BND-567; board_log; `inbox/WALTER/processed/` |
+| Owner-lane leg | BOND part DONE (HERMES refs gone; VX-17/18/19 live; KB-BND-082) | PROME packet §3 |
+| Packets | PROME only (one-packet brief); ZHAO/LIQUID routing left to PROME | `PROME/inbox/2026-11-10_from-BOND_L859-10Y-graded-I-prime-fire-CPI-read.md` |
 
-Pending for the laptop: 10Y grade 11/10 13:00 ET, 30Y grade 11/12 (counter only). Details → SCRATCH NEXT.
+Pending: 30Y grade 11/12 (I′ 63.89). Details → SCRATCH NEXT.

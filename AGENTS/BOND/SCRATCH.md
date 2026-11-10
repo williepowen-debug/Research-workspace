@@ -1,39 +1,41 @@
-# BOND SCRATCH — 2026-11-09 standard closeout (desktop → laptop)
+# BOND SCRATCH — 2026-11-10 standard closeout (desktop, PROME prome-07 launch; window HELD open after)
 
-> STATE AT WRITING (19:4x ET): Composite **17/35** (5+3+2+3+1+1+2, unchanged). **Clean-nominal counter 0** (reset 11/9 by the registered 3Y I′ fire); auction health 3. **OPEN predictions 4 (BND-34 to 37), none due; BND-33 ✅ TRUE 11/9.** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.56/4.88/5.26 [11/9]; real 10Y 2.66 [11/9]; 5Y5Y 2.17 [11/6]; Bund 3.29 [11/6]; HY/CCC/IG 342/1317/93 [11/6]; SOFR−IORB +2 [11/5]; FR2004 long-end $146.946B [as-of 10/28]; PMMS 7.18 [11/5]. ACM 0.6428 [11/6]. THESIS v1.2.13, token unchanged.
+> STATE AT WRITING (13:1x ET): Composite **17/35** (5+3+2+3+1+1+2, unchanged). **Clean-nominal counter 0** (3Y 11/9 and 10Y 11/10 registered I′ fires); auction health 3. **OPEN predictions 4 (BND-34 to 37), earliest resolution 12/17.** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.56/4.88/5.26 [11/9]; real 10Y 2.66 [11/9]; 5Y5Y 2.19 [11/9]; Bund 3.29 [11/6]; HY/CCC/IG 334/1311/91 [11/9]; SOFR−IORB +2 [11/5]; FR2004 long-end $146.946B [as-of 10/28]; PMMS 7.18 [11/5]; ACM 0.6428 [11/6]. THESIS v1.2.13, token unchanged.
 
 ## WHAT I DID
 
-PROME due-row wake (Will 12:07 ET word, prome packet `inbox/2026-11-09_from-PROME_due-rows-wake.md`), then this closeout on PROME prome-9c's ask (Will 19:37 ET: close every desk, switch to the laptop).
+PROME prome-07 launch on Will's 11:38 ET word (desktop after the machine switch). Limits: $0, no threshold/gate/band/card change, live prices, quiet mode.
 
-- **Boot 12:56 ET:** tree held only other desks' dirty files, HEAD = origin; corrections rc=0; docket_check rc=0 (verified through 11/19); WALTER lane empty; boot_recompute rc=1 = VX-BND-17 spread-leg re-arm review (already scored 2 on 11/5, no new PMMS).
-- **ICE 11/6:** HY 342 (−6), CCC 1317, IG 93; BND-34 not TRUE (needs 352). KB-BND-561. Commit d1d329d283.
-- **3Y `91282CRW3` REGISTERED grade 13:04 ET:** indirect 55.48 / direct 35.04 / dealer 9.48, BTC 2.53. I′ 57.44 → FIRE (−1.96pp); indirect min 56.50 → below; dealer max 19.50 → not above (OLD not met); BTC min 2.54 → cover marker by 0.01. **BND-33 TRUE.** Counter 3 → 0; health held 3 (9/15 precedent); no kill (paired; flat). KB-BND-562, VX-BND-01, docket row. Packets PROME (L924), LIQUID, ZHAO (🟠 FYI). Commit cf19bacf7e, pushed.
-- **Close refresh 19:4x ET:** Treasury 11/9 par/real: 2Y +5, 3Y −1, 10Y +2, 30Y 0; real 5Y +7, real 10Y 2.66; 2s30s 70. KB-BND-563. KB-BND-434 flipped STALE (past Stale_By).
+- **Boot 11:40 ET:** tree clean, pull no-op (local = origin + 2 unpushed PROME commits); corrections rc=0; docket_check rc=0 (verified through 11/19, blind span 11/20–12/1); WALTER lane empty; boot_recompute rc=1 = T5YIFR distance drift (STATUS 33bp → 31bp, fixed) + VX-BND-17 review (already 2).
+- **ICE 11/9:** HY 334, CCC 1311, IG 91; BND-34 not TRUE. KB-BND-564.
+- **CPI/Waller read (before the print, file unchanged after):** front-led bear flattener; Waller 04:00 ET = 29% of the 2Y future's move, 8–9% of bond/ultra; CPI ~30% everywhere; bond/ultra 55–60% after 08:40, cause not established. KB-BND-565.
+- **10Y `91282CRX1` REGISTERED grade 13:04 ET:** indirect 61.23 / direct 29.00 / dealer 9.77, BTC 2.46, high 5.020. I′ 65.05 → FIRE (−3.82pp); min 63.95 → below; dealer max 13.38 → not above (OLD not met); BTC min 2.39 → no cover marker. Lowest 10Y indirect in corpus since 10/2023. Counter stays 0; health held 3; no kill. KB-BND-566, VX-BND-01, docket rows (CPI + 10Y).
+- **Owner-lane leg:** BOND part DONE; asked PROME to close it (packet §3).
+- **WALTER lane at closeout (landed 11:45 ET, after boot):** SIG-W-20261110-001 (CPI/Waller, matches KB-BND-565) and -005 (JGB 30Y auction soft, BTC 3.356, tail 2.4bp, SAM; combo:long-end-demand, price leg only) → KB-BND-567, board_log ×2, moved to `inbox/WALTER/processed/`.
 
 ## NOT MOVED
 
-No score, band, gate or threshold. Composite 17. Token unchanged.
+No score, band, gate or threshold. Composite 17. Token unchanged. ⚠️ VX-BND-01 Threshold_Red text (8/27) vs the 9/15 practice: carried, flagged to PROME, not re-ruled.
 
 ## UNPUBLISHED OR UNREAD
 
-ICE 11/9 (about 10:10 ET 11/10) · SOFR, EFFR 11/6 and 11/9 · 5Y5Y/breakeven 11/9 · Bund 11/9 · KW after 10/30 · FR2004 as-of 11/4 (11/12) · fed funds path not re-read after 12:56 ET.
+Treasury par/real 11/10 (evening) · ICE 11/10 (11/11) · SOFR/EFFR 11/6–11/10 · Bund after 11/6 · KW after 10/30 · FR2004 as-of 11/4 (11/12).
 
-## NEXT SESSION (dated) — laptop
+## NEXT SESSION (dated)
 
-1. **11/10:** CPI 08:30 ET. **10Y `91282CRX1` 13:00 ET**, registered grade: `.venv/bin/python monitors/grade_auction.py --cusip 91282CRX1 --frozen-bars AGENTS/BOND/registry/auction_bars/2026-11-10_91282CRX1.json` (from AGENTS/BOND). Bars: OLD indirect<63.95 AND dealer>13.38; BTC<2.39; I′ indirect<65.05. Results post about 13:04 ET; a PRE-PRINT line after the print means NOT GRADED. Grade feeds the counter only (BND-33 already TRUE). UK 5⅜% 2056 same day (HANS). ICE 11/9 cell: BND-34 check (352).
-2. **11/12:** **30Y `912810UY2`** registered grade, bars 59.95 / 14.74 · BTC 2.29 · I′ 63.89, file `registry/auction_bars/2026-11-12_912810UY2.json`. PMMS re-scores VX-BND-17; FR2004 as-of 11/4.
+1. **11/10 evening (if the window is still held):** Treasury 11/10 par/real close: confirm the intraday read on official cells; real 10Y on a CPI/hike-repricing day.
+2. **11/12:** **30Y `912810UY2`** registered grade: `.venv/bin/python monitors/grade_auction.py --cusip 912810UY2 --frozen-bars AGENTS/BOND/registry/auction_bars/2026-11-12_912810UY2.json` (from AGENTS/BOND); bars 59.95 / 14.74 · BTC 2.29 · I′ 63.89. PMMS re-scores VX-BND-17; FR2004 as-of 11/4.
 3. 11/11 VX-20 review; 11/12–11/17 freeze 20Y (11/18) and 10Y TIPS (11/19) bars; 11/13 FHLB CFR, L226, FRBNY FX report; 11/17 F2 op 20–30Y; 11/19 freeze month-end bars.
-4. Before 12/2: register any 12/9 curve-shape row with a base rate. Bring R1, R5 and the shared-HEAD digest defect (11/6 addendum) to Will / CATO-DAEDALUS.
+4. Before 12/2: register any 12/9 curve-shape row with a base rate. R1, R5 and the shared-HEAD digest defect still to Will / CATO-DAEDALUS.
 5. Check BND-34 and BND-37 for early TRUE at each read. 12/17 BND-36; 12/31 BND-34, 35, 37.
 
 ## OPEN THREADS
 
-L226 FHLB retune waits on 11/13. 7Y reopening handling before April 2027. Same-day runner re-run reads its own transcript; tree digest hashes shared HEAD (FREEZE MOVED when desks close together). True CDX, pulled-deal census, private funding, event-time TIPS unchanged. WQ291 funding window UNGRADED. FR2004 confirmation leg for the 3Y fire not graded (3Y settles 11/16; position flat, so no capital consequence). BLS 403 here.
+Whether two consecutive refunding I′ fires should move auction health is Will's ruling if he wants it (packet §1 ⚠️). L226 FHLB retune waits on 11/13. 7Y reopening handling before April 2027. True CDX, pulled-deal census, private funding, event-time TIPS unchanged. WQ291 funding window UNGRADED. FR2004 confirmation legs for the 3Y/10Y fires not graded (settle 11/16; position flat). BLS 403 here.
 
 ## CLOSEOUT STEPS (standard)
 
-C1 STATUS done (top line, rates, dashboard, gates, matrix, catalysts, bottom line) · C2 KB 561, 562, 563, 434 → STALE; VX-BND-01; FLOW no-op · C3 BND-33 resolved TRUE; none else due; no owed row registered · C4 no-op, no thesis-level change, token unchanged · C5 3Y row marked graded; STATUS twin updated · C6 TRADE no-op, no gate or position change · C7 this file · C8 RECEIPT rewritten; board_log no-op, no WALTER signal consumed · C9 no new lesson promoted · C11 NEXUS_BRIEF re-pinned last.
+C1 STATUS done (top line, frontiers, auctions + rates paragraphs, dashboard 5Y5Y/HY, auction table, gates, matrix, catalysts, bottom line) · C2 KB 564, 565, 566, 567; VX-BND-01; FLOW no-op; no row past Stale_By flipped (none newly due found) · C3 no-op, none due, no owed row · C4 no-op, token unchanged · C5 CPI and 10Y rows marked; STATUS twin updated · C6 TRADE no-op, no gate or position change · C7 this file · C8 RECEIPT rewritten; board_log 2 rows (SIG-W-20261110-001, -005) · C9 no new lesson · C11 NEXUS_BRIEF re-pinned last.
 
 ## POSITION
 
@@ -41,4 +43,4 @@ FLAT on this thesis. BOND executes nothing; no expiry reminders.
 
 ## MAIL / DELIVERY
 
-Wake packet processed (moved to `inbox/processed/`). Sent: PROME `PROME/inbox/2026-11-09_from-BOND_L924-BND-33-TRUE-on-3Y.md`; LIQUID and ZHAO `..._3Y-refunding-cover-marker-mechanism-held.md` (committed cf19bacf7e; delivery = commit, consumption not verified). Reply to prome-9c with the push receipt.
+Sent: `PROME/inbox/2026-11-10_from-BOND_L859-10Y-graded-I-prime-fire-CPI-read.md` (carve-out ①). No ZHAO/LIQUID packets (one-packet brief; PROME asked to route). One-line SendMessage to prome-07 with the push receipt.
