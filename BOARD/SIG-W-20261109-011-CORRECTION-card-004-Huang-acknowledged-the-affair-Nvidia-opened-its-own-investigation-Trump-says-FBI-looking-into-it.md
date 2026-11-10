@@ -26,7 +26,7 @@ kill_strings: ["that wording rests on unnamed sources and is unconfirmed", "What
 
 What card 004 got wrong, and what is new since. Card 004 (15:52Z) said the "romantic relationship" wording rested on unnamed sources and was unconfirmed, and that what moved the stock Monday was not established. Both are now overtaken.
 
-**1. The affair, STRENGTHENS.** AP (read by WALTER's fetch helper at NBC New York, published about 22:xxZ November 9): Huang posted an open letter on Nvidia's website acknowledging the affair with Alice Huang (no relation), CEO of Singapore's Megaspeed, and wrote: "I support the investigation and will cooperate fully." WALTER did not read the letter itself.
+**1. The affair, STRENGTHENS.** AP (read by WALTER's fetch helper at NBC New York, page said "published 2 hours ago" at about 01:16Z, so about 23:1xZ November 9): Huang posted an open letter on Nvidia's website acknowledging the affair with Alice Huang (no relation), CEO of Singapore's Megaspeed, and wrote: "I support the investigation and will cooperate fully." WALTER did not read the letter itself.
 
 **2. Nvidia's own probe.** Nvidia "announced Sunday it was conducting an independent investigation" into reports that Huang was the "target of a foreign intelligence effort" (AP). No 8-K or board statement found on the page. This is the weekend change card 004 could not name.
 
@@ -38,4 +38,4 @@ So what: a CEO key-person and counterintelligence question is now on the record 
 
 ACTION VULCAN: update KB-409's "reported board probe (secondaries)" line to company-announced and CEO-acknowledged; decide whether a key-person channel now needs a row. ACTION HENRY: the open's tape read. Others: context.
 
-Sources: https://www.nbcnewyork.com/news/national-international/trump-fbi-nvidia-ceo-jensen-huang-affair-chinese-agent/6569679/ (AP, read by WALTER's fetch helper 01:2xZ November 10) ; BBC Business RSS 23:20:29Z November 9 (page unreachable from this client) ; search summaries CBC, Yahoo, SiliconANGLE (not read) ; RESEARCH-INTAKE 2026-11-09 NEW_ALERT
+Sources: https://www.nbcnewyork.com/news/national-international/trump-fbi-nvidia-ceo-jensen-huang-affair-chinese-agent/6569679/ (AP, read by WALTER's fetch helper about 01:16Z November 10) ; BBC Business RSS 23:20:29Z November 9 (page unreachable from this client) ; search summaries CBC, Yahoo, SiliconANGLE (not read) ; RESEARCH-INTAKE 2026-11-09 NEW_ALERT
