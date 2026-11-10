@@ -69,6 +69,6 @@ Competitive bids ¥1,512.6B, accepted ¥450.7B → **BTC 3.356×**. Lowest-price
 
 Weakest 30Y since June; tail second-largest of the 15 in the ledger (since 9/2025). The average yield (3.847%) is 26bp below October's (4.109%): demand was thinner at the lower yield, consistent with insurers treating ~4% as the attractive level (Meiji Yasuda, REPORTED 10/2026), not proven by it. Sold the same morning the hawkish Summary of Opinions came out. **No failure (BTC well above 2.0), no cross-agent signal fires, no gate or prediction moves**; SAM-33 concerns BOJ operations, not auctions. Evidence for THESIS Pillar 2 (mixed super-long sponsorship), descriptive only.
 
-## 7. Still to come in this session
+## 7. SoftBank Group Q2 FY2026, graded (read 10:04–10:11 ET 11/10; the 02:47 ET pass fired late, laptop asleep)
 
-- SoftBank Group results (tanshin 01:30 ET, deck 02:30 ET): graded against `../2026-11-06_softbank/2026-11-10_RESULTS_LOOKUP.md` as written.
+**✅ ESTIMATE CONFIRMED.** SoftBank reported **15.9% at 9/30** (net debt ¥11.30T ÷ value ¥71.14T). Rolled to Arm $183.26 (10:06 ET, vendor) that is **22.5%**, against my A figure of 21.6% at the same price (+0.9, inside ±1.5). The SVF2 $10B OpenAI-shares loan is **inside** SoftBank's ratio (I had guessed outside), the OpenAI mark was **unchanged**, and SoftBank's pro forma (11/9 prices) implies **20.2% before the October $10B tranche**, 22.4% after. Arm for 25% on SoftBank's basis: **$145**. Full grade, §6 list and sources → `../2026-11-06_softbank/2026-11-10_RESULTS_GRADE.md`.

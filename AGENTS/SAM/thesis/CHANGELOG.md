@@ -8,6 +8,11 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-11-10 — TIMELINE: 11/10 branch RESOLVED (SoftBank graded CONFIRMED, December 72%, 30Y SOFT, 8/3 op day); v1.7 unchanged
+
+**TIMELINE:** new 2026-11-10 block. SoftBank 9/30 LTV 15.9% reported; 22.5% rolled to Arm $183.26 vs pre-registered 21.6% → CONFIRMED; SVF2 loan inside the ratio; OpenAI mark flat. Totan December 52 → 72 (11/9). Summary of Opinions hawkish, no date. MOF Q3: 8/3 an op day (¥1,871.4B). 30Y auction SOFT (BTC 3.356×, tail 2.4bp).
+**Old view → new view:** forward risk 'December skip with the yen near 160' → December live again; the yen-near-160 leg unchanged. No fresh Japan-led carry unwind → unchanged. **THESIS.md not edited:** no thesis-level change, no prediction, gate or mark moved. Detail → `research/outputs/2026-11-10_overnight/OVERNIGHT_READ.md`, `research/outputs/2026-11-06_softbank/2026-11-10_RESULTS_GRADE.md`.
+
 ## 2026-11-06 — TIMELINE: Tokyo −5.96%, carry graded no unwind, December repriced; v1.7 unchanged
 
 **TIMELINE:** new 2026-11-06 block. Card 003 graded NOT a Japan-led carry unwind; Totan December 82 → 52; SoftBank's reduced check immaterial; leverage estimate about 22% on SoftBank's definition, about 24% counting its guaranteed loan, vs the quoted 6/30 13%; bridge repaid; no SoftBank–Oracle credit tie found. Offshore funding unmeasured.

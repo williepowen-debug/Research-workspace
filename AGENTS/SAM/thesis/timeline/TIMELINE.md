@@ -1,5 +1,13 @@
 # SAM TIMELINE
 
+## 2026-11-10 — ✅ RESOLVED: the 11/10 branch. SoftBank under its ceiling, December live again, the 30Y soft
+
+The 11/6 forward branch named Tuesday 11/10. SoftBank reported **15.9% LTV at 9/30**, the flattering headline expected (Arm $289.66, before the October $10B tranche). Rolled to Arm $183.26 on 11/10 it is about **22.5% on SoftBank's own basis**, which confirms the desk's pre-registered estimate (21.6%, within ±1.5) and leaves it under the 25% normal-times ceiling until Arm falls to about $145. The OpenAI loan SoftBank guarantees sits **inside** its ratio, the OpenAI mark did not move, and SoftBank's own pro forma, about 20%, leaves out the October tranche. No bank or household break was found.
+
+December recovered before the Board's words arrived: Totan's December equivalent went 52 (11/6) → **72 (11/9)** as Tokyo rebounded, so the 11/6 drop was mostly risk-off, not a change in the BOJ's reaction function. The Summary of Opinions (released 11/10) was hawkish, as expected, with no date. MOF's quarterly record showed **8/3 was an intervention day** (¥1,871.4B), resolving an old ambiguity. The **30Y auction was SOFT** (BTC 3.356×, tail 2.4bp), the weakest since June: thinner demand at a lower yield, not a failure.
+
+**Thesis consequence:** none. v1.7 retired-to-LOW, no successor, book FLAT. The 11/6 'December skip' branch weakens; the yen-near-160 leg stays open (USD/JPY 158.6, vendor 11/10). [Overnight read](../../research/outputs/2026-11-10_overnight/OVERNIGHT_READ.md) · [SoftBank grade](../../research/outputs/2026-11-06_softbank/2026-11-10_RESULTS_GRADE.md) · STATUS for levels.
+
 ## 2026-11-06 — Tokyo falls 6%, the yen weakens, and December is what moved
 
 The AI selloff reached Tokyo: the Nikkei fell 5.96%, TOPIX 5.90% and SoftBank 10.83%, with its credit default swaps as wide as 466bp. It did not look like August 2024. The yen weakened through the session, the two-session yen range stayed at 1.40, and speculators were net long going in (+102,321 at 11/3). What moved was the BOJ: Totan's December equivalent went from 82 on 10/29 to 52 on 11/6, front-end yields led the rally, and the 30Y fell only 4bp. Then US payrolls beat and Fed December hike odds rose to about 77–79%, pushing the yen weaker in New York. Both policy legs now point the same way, so the branch to watch is a December skip with the yen near 160, not a hike-led unwind.
