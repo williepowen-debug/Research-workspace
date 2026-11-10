@@ -26,12 +26,12 @@
 
 ## Open with Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-10 · 7 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-477 (10/27) · WQ-31 (11/1) · WQ-548 (11/5) · WQ-633 (11/13) · WQ-547 (11/17) · WQ-660 (11/20)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-10 · 5 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-477 (10/27) · WQ-31 (11/1) · WQ-633 (11/13) · WQ-547 (11/17)
 <!-- WILLQ-VIEW END -->
 - Parked (his hands): the HANDS rows above; one line in reports, never per row (WQ-538 A).
 
 ## Book
-Run `python3 PROME/tools/will_brief.py --book-line` and paste its line whole; nothing is stored here. Positions, closed trades and record gaps: `FORGE/STATUS.md` and its D-rows. Latest broker evidence: the 11/10 captures (`data/2026-11-10_broker-capture-TRANSCRIPTION.md`), reconciled by ANVIL and committed c4022901e8; vintage in FORGE's own header. FORGE is at 91% of its read cap after the rotation: the next reconcile rotates again or splits the discrepancy section cold. Owed by PROME: re-review of the `FORGE/position_management.tsv` mappings (FORGE D-70; the new QQQ lines are unmapped). Open reconcile item: D:L1090 (HBAN, WQ-302).
+Run `python3 PROME/tools/will_brief.py --book-line` and paste its line whole; nothing is stored here. Positions, closed trades and record gaps: `FORGE/STATUS.md` and its D-rows. Latest broker evidence: the 11/10 captures (`data/2026-11-10_broker-capture-TRANSCRIPTION.md`), reconciled by ANVIL and committed c4022901e8; vintage in FORGE's own header. FORGE is at 91% of its read cap after the rotation: the next reconcile rotates again or splits the discrepancy section cold. Will DECLINED the 8/8 history export (WQ-548, 11/10): at the next reconcile ANVIL marks D-76 and the gaps that waited on it as permanently unsupplied, realized before 11/2 stays DERIVED, and nobody asks him again. Owed by PROME: re-review of the `FORGE/position_management.tsv` mappings (FORGE D-70; the new QQQ lines are unmapped). Open reconcile item: D:L1090 (HBAN, WQ-302).
 
 ## This session
 - prome-07 (desktop) OPEN since 11:06 ET 11/10; boot run directory `/tmp/prome-boot-a874f4d9` (gate PASS; boot was PARTIAL at first, the skipped reads were completed about 11:27 ET and reported). Picked up 13:17 ET after Will's /clear ("pick up Prome"): same process, fresh context, gate refresh PASS in the same run directory. Session reminders (15:02, 16:21, 17:36 ET) re-created; they are session-only.
@@ -40,7 +40,7 @@ Run `python3 PROME/tools/will_brief.py --book-line` and paste its line whole; no
 - Told Will, nothing waiting on him from today: WQ-664 RULED B and encoded. Offered, not registered: a queue row on whether two consecutive refunding I-prime fires should move BOND's auction-health score (BOND packet 11/10 §1); register only on his word. PACER for the Cable One order is ask-first; PROME recommended not paying.
 - Carried conditions, not limits: count caps on due-row wakes are gone (WQ-667 B and WQ-661 A, encoded 11/10; list a blanket-word launch in chat first, due rows only, that boot only); brief delivery: full brief unless Will says he has WALTER's (WQ-662 RULED B 11/10, encoded in BOOT step 8).
 - Laptop memory facts live in `MACHINE_LOCAL.md`; they are not desktop facts. Measure before launching several desks.
-- Queue review by decision type rides the autonomy review row D:L1085 (Will 11/9); broker export is parked on WQ-548.
+- Queue review by decision type rides the autonomy review row D:L1085 (Will 11/9); the 8/8 broker export was declined by Will 11/10 (WQ-548).
 
 ## Standing words (pointers only)
 `USER.md`: no expiry nagging · quiet mode during desk sweeps · forecast report 1's historical reconstruction stopped · Will's only window is this chat. WQ-653: desks apply the current-state rule through existing files, no new summary file and no launch for it alone; ⚠️ adoption is unconfirmed: four running desks got the rule by message on 11/7 and none has confirmed, and dormant desks are unchanged until they next wake. Quartr: never call, never re-auth (`memory/auto/feedback_quartr_no_subscription_do_not_call.md`). Restrictions: [STATUS § Restrictions](STATUS.md).
