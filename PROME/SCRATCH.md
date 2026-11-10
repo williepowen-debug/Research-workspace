@@ -31,7 +31,7 @@
 - Parked (his hands): the HANDS rows above; one line in reports, never per row (WQ-538 A).
 
 ## Book
-Run `python3 PROME/tools/will_brief.py --book-line` and paste its line whole; nothing is stored here. Positions, closed trades and record gaps: `FORGE/STATUS.md` and its D-rows. Latest broker evidence: the 11/5 captures (`data/2026-11-05_broker-capture-TRANSCRIPTION.md`, `data/2026-11-05_robinhood-close-capture-TRANSCRIPTION.md`), vintage in FORGE's own header. Next reconcile on Will's next capture (ANVIL; rotate FORGE first, D:L1097). Open reconcile item: D:L1090 (HBAN, WQ-302).
+Run `python3 PROME/tools/will_brief.py --book-line` and paste its line whole; nothing is stored here. Positions, closed trades and record gaps: `FORGE/STATUS.md` and its D-rows. Latest broker evidence: the 11/10 captures (`data/2026-11-10_broker-capture-TRANSCRIPTION.md`), reconciled by ANVIL and committed c4022901e8; vintage in FORGE's own header. FORGE is at 91% of its read cap after the rotation: the next reconcile rotates again or splits the discrepancy section cold. Owed by PROME: re-review of the `FORGE/position_management.tsv` mappings (FORGE D-70; the new QQQ lines are unmapped). Open reconcile item: D:L1090 (HBAN, WQ-302).
 
 ## This session
 - prome-07 (desktop) OPEN since 11:06 ET 11/10; boot run directory `/tmp/prome-boot-a874f4d9` (gate PASS; boot was PARTIAL at first, the skipped reads were completed about 11:27 ET and reported). Picked up 13:17 ET after Will's /clear ("pick up Prome"): same process, fresh context, gate refresh PASS in the same run directory. Session reminders (15:02, 16:21, 17:36 ET) re-created; they are session-only.
