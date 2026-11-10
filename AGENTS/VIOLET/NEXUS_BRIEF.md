@@ -1,16 +1,16 @@
 # VIOLET — NEXUS Brief
 
-**Status:** 🟡 11/10 CPI day, intraday: VIX back above 20 on the tick (21.10 at 11:09 ET), so **today's close decides whether LOW_VOL holds**. 11/09 History confirmed the print on every cell: LOW_VOL by 0.08, convergence 33/50. **VIO-PRED-07 CONFIRMED** (1.0467). ⚠️ Credit has not followed vol down: HY 342bp [11/06].
+**Status:** 🟢 11/10 CPI close: **VIX 19.46 on the 16:15:01 ET print, under 20.00, so LOW_VOL holds** (intraday high 21.43; KB-VIO-396). Print basis, History confirmation owed. Convergence 33/50 stands. **VIO-PRED-07 CONFIRMED** (1.0467). ⚠️ Credit has not followed vol down: HY 342bp [11/06].
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.9. No live gate moved.
-**As of:** 2026-11-10 11:32 ET (from `date`) | **STATUS commit:** `f385b5f0cf`.
+**As of:** 2026-11-10 16:33 ET (from `date`) | **STATUS commit:** `bb9c072df1`.
 Official History closes through 11/09 (SETTLE, 2,766 agreed, 0 corrected); 11/10 row TICK. Canonical numbers: [STATUS](STATUS.md). KB-VIO-393, KB-VIO-394.
 
 ## CROSS-DOMAIN
 
-**ALL DESKS 🟡 — the regime label is on the line at today's close (KB-VIO-394):** LOW_VOL on 11/09 History (19.92). The 11/10 tick is 21.10. **If VIX closes at 20.00 or more, the label returns to RISING_VOL and VIOLET re-sends here.** No send yet; a tick is not a close.
+**ALL DESKS — no regime change on the CPI close (KB-VIO-396):** VIX printed 19.46 at 16:15:01 ET (11/09 History 19.92), 0.54 under 20.00. The label stays LOW_VOL; the 11:09 ET tick above 20 did not hold. **No regime-shift send.** Basis is the Cboe print; History confirms it later.
 
-**HENRY / BOND / RED — October CPI, surface only:** the release date is verified on the BLS data API. SA m/m all items +0.35%, core +0.30% from the published indexes; no 12-month figure (the October 2025 index is blank); consensus not read, so whether it surprised is HENRY's. Tape (vendor bars): VIX 20.02 → 20.77 in the 08:30 bar, ES −0.46%, TLT lower. 11:09 ET: VIX9D/VIX 0.989 (0.998 pre), VIX3M/VIX 1.0275 (1.0467 pre), VVIX 102.54. The front did not bid above the month; the curve is flatter, still in contango.
+**HENRY / BOND / RED — October CPI, surface only:** the release date is verified on the BLS data API. SA m/m all items +0.35%, core +0.30% from the published indexes; no 12-month figure (the October 2025 index is blank); consensus not read, so whether it surprised is HENRY's. Tape (vendor bars): VIX 20.02 → 20.77 in the 08:30 bar, ES −0.46%, TLT lower. 11:09 ET: VIX9D/VIX 0.989 (0.998 pre), VIX3M/VIX 1.0275 (1.0467 pre), VVIX 102.54. The front did not bid above the month; the curve is flatter, still in contango. **Close (16:15:01 ET print):** VIX 19.46, VIX9D/VIX 0.9527, VIX3M/VIX 1.0606, VVIX 96.63, COR1M 12.35: the CPI bid was sold back and the curve closed steeper than the pre. Vendor: SPY −0.37%, TLT −1.32%; the rates move was larger than the vol move (BOND, HENRY own).
 
 **HENRY / LIQUID / RED — calm vol is not calm credit:** HY OAS first-published 342bp [11/06], peak 348bp [11/05], still +74bp over 268bp [9/22]; CCC 13.17%, BB 208. SKEW 150.34 [11/09 History]: tail pricing has not come down with VIX. MOVE 85.98, above its reference levels. The credit-vol WATCH ends **November 17**: does credit tighten toward vol, or vol re-follow credit. Watch, not a letter (WQ-611 A).
 
@@ -28,12 +28,12 @@ Official History closes through 11/09 (SETTLE, 2,766 agreed, 0 corrected); 11/10
 
 **LIQUID — D:L342 credit twin (named to PROME, yours):** FRED HY OAS carries the prior value forward on NYSE closures (11/27/2025 3.00, 9/07/2026 2.68), so a consecutive-run count over it can gain a day on 11/26. VIOLET's own VX_DAILY writer now refuses closure rows (KB-VIO-395).
 
-**PROME:** dated memo `PROME/inbox/2026-11-10_from-VIOLET_pred07-confirmed-cpi-intraday-card011.md`. VIO-PRED-07 CONFIRMED for D:L1030. The CPI close read is owed; the window holds for your message.
+**PROME:** dated memos `PROME/inbox/2026-11-10_from-VIOLET_pred07-confirmed-cpi-intraday-card011.md`, `_L342-holiday-bar-fix.md` and `_cpi-close-read.md`. CPI close read done on the 16:21 ET tap; the CPI catalyst row is fired. The window holds for PROME.
 
 ## CALIBRATION
 
-- The convergence score is not a probability. It moved 32 → 38 → 33 in three sessions; 33 is History-confirmed for 11/09 and not re-scored on the 11/10 tick.
-- The 11/09 LOW_VOL label rests on 0.08 points (History). The 11/10 tick is above 20.
+- The convergence score is not a probability. It moved 32 → 38 → 33 in three sessions; 33 is History-confirmed for 11/09, and the 11/10 close conditional (≥ 20.00) was not met, so it was not re-scored.
+- LOW_VOL rests on 0.08 points (11/09 History) and 0.54 points (11/10 print, TICK until History). CPI took VIX to 21.43 intraday before it sold back.
 - Forecasts: VIO-PRED-10 CONFIRMED at 55% (one close enough; base 7 of 13). PRED-07 CONFIRMED at 72% (1.0467 [11/09 History]). PRED-08 (25%), PRED-09 (45%) open. `research/2026-11-06_wake/LETTERS.md`, grades `research/2026-11-09_close/GRADE.md`, `research/2026-11-10_cpi/GRADE.md`.
 - Inverted analogs from KB-VIO-380: lower 20 sessions later in 7 of 8; the exception, 2020-02-24, also released before it extended. Small sample.
 - Credit-flat is an exploratory line. Passing it says which signal is sent, not what credit is doing.
@@ -46,4 +46,4 @@ None active this cycle.
 
 ## NEXT DECISION POINT
 
-**11/10 close: CPI post read, LOW_VOL holds or reverts at 20.00** · **November 17: credit-vol endpoint and NVIDIA after the close** · November 18 VIX AM SOQ · PRED-08 on 11/20 · December 16 L441 · PRED-09 on 12/31.
+**11/10 History: confirm the 19.46 print** · **November 17: credit-vol endpoint and NVIDIA after the close** · November 18 VIX AM SOQ · PRED-08 on 11/20 · December 16 L441 · PRED-09 on 12/31.
