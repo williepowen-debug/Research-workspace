@@ -1,6 +1,6 @@
 # VIOLET — session handoff
 
-**As of:** November 9, 2026 20:2x ET (session opened 20:11 ET from `date`). Will's "go" 20:16 ET on the boot report: SETTLE 11/06, grade forecasts, broadcast the regime return, refresh both pages, commit locally. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **33/50** (print basis). ⚠️ github.com does not resolve from this box: no pull at boot, push blocked, commits local only.
+**As of:** November 9, 2026 20:2x ET (session opened 20:11 ET from `date`). Will's "go" 20:16 ET on the boot report: SETTLE 11/06, grade forecasts, broadcast the regime return, refresh both pages, commit locally. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **33/50** (print basis). github.com did not resolve at boot (no pull); it resolved by 20:23 ET and the session pushed: receipt HEAD 3ce0a1b70f.
 
 ## CHANGES SINCE (11/06 18:05 ET → 11/09 20:11 ET)
 
@@ -23,7 +23,7 @@
 
 0. **CPI 11/10 08:30 ET post read.** Pre: VIX9D/VIX 0.998, VIX 19.92, VVIX 98.43 [11/09]. Verify the date at bls.gov first (403 twice); date_class SECONDARY. Read VIX9D/VIX and VIX3M/VIX on the close against these.
 1. **VIX History 11/09:** run `backfill.py --spot-only --spot-days 15`, stamp the row SETTLE. Then: **grade VIO-PRED-07** (fails for 11/09 only if History VIX > 20.85; any 11/10–11/13 close at ratio ≥1.000 also resolves it); confirm or revert LOW_VOL (reverts if VIX ≥ 20.00, then re-send the regime row); confirm 33/50; check COR1M 11/09 against History (KB-VIO-365); send RED the 11/09 VIX/SKEW bars; add CHEAP_TAIL 11/09 via `--as-of` with a dated CATALYSTS snapshot; tell PROME the PRED-07 outcome.
-2. **Push** once github.com resolves: `scripts/safe-push.sh` and keep the receipt line.
+2. **WALTER card SIG-W-20261109-011** (correction to card 004: Huang acknowledged the affair, Nvidia opened its own investigation, FBI report): arrived 20:18 ET while WALTER was still editing it, left untouched. Run step 5a intake on it; VIOLET reads only its transmission into the 11/17 NVIDIA → 11/18 SOQ window.
 3. **November 17:** credit-vol WATCH endpoint (HY 342 [11/06] vs 368bp size condition) and NVIDIA after the close; **November 18** VIX AM SOQ. VIO-PRED-08 grade after 11/20 History; PRED-09 after 12/31.
 4. FXY IV intraday re-pull (2.22x on stale quotes 11/09).
 5. implied_corr.py SETTLE-by-clock defect: not commissioned.

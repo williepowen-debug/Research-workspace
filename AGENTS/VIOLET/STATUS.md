@@ -1,6 +1,6 @@
 # VIOLET STATUS
 
-**As of:** November 9, 2026 20:2x ET (session opened 20:11 ET from `date`), Will's "go" 20:16 ET. Official History closes through **11/06, row SETTLE** (0 corrected). **11/09: VIX3M, VIX9D and VVIX posted at History; VIX History has not, so the row stays TICK.** Credit through HY 11/06 first-published. Claude Code, Opus 5.5. **Last real data refresh: 2026-11-09.** Thesis **v4.1.9**. ⚠️ github.com did not resolve from this box at 20:11 ET: no pull, push blocked.
+**As of:** November 9, 2026 20:2x ET (session opened 20:11 ET from `date`), Will's "go" 20:16 ET. Official History closes through **11/06, row SETTLE** (0 corrected). **11/09: VIX3M, VIX9D and VVIX posted at History; VIX History has not, so the row stays TICK.** Credit through HY 11/06 first-published. Claude Code, Opus 5.5. **Last real data refresh: 2026-11-09.** Thesis **v4.1.9**. github.com did not resolve at 20:11 ET boot (no pull); it resolved by 20:23 ET and the session pushed (safe-push receipt HEAD 3ce0a1b70f).
 
 ## BOTTOM LINE
 
@@ -98,4 +98,4 @@ Position truth is off-repo (Will/broker), with the separately dated FORGE mirror
 7. Path A F2 audit CLOSED 11/05, WQ-611 A encoded (KB-VIO-372/373); Regime Shift size line withdrawn WQ-614 A (KB-VIO-376).
 8. Historical FXY IV/OI and old VIX option-chain snapshots stay unfilled by design; Deck PAUSED WQ-460, Helm RETIRED WQ-461.
 
-**Persistence / coordination (11/09 20:2x ET):** Will's "go" 20:16 ET on the boot report: 11/06 SETTLE, grade the forecasts, broadcast the regime return, refresh both pages, commit locally. WALTER card SIG-W-20261109-004 (NVDA / Citi) logged info-only, owners VULCAN and HENRY. Corrections check rc 0. Bars to RED, dated memo to PROME. ⚠️ Push blocked: github.com does not resolve from this box; commits stay local until it does.
+**Persistence / coordination (11/09 20:2x ET):** Will's "go" 20:16 ET on the boot report: 11/06 SETTLE, grade the forecasts, broadcast the regime return, refresh both pages, commit locally. WALTER card SIG-W-20261109-004 (NVDA / Citi) logged info-only, owners VULCAN and HENRY. Corrections check rc 0. Bars to RED, dated memo to PROME. Pushed: safe-push receipt HEAD 3ce0a1b70f on origin/master (fresh fetch). WALTER card SIG-W-20261109-011 (card 004 correction: Huang acknowledged the affair, Nvidia investigation, FBI report) arrived mid-session while WALTER was still editing it: left untouched, intake next session.
