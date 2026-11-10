@@ -245,7 +245,67 @@ def _hk_peg_watch(yf):
     return 1 if hit else 0
 
 
-def section_key_ages():
+PBOC_OMO_LIST = "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/index.html"
+
+
+def _curl(url):
+    import subprocess
+    r = subprocess.run(["curl", "-s", "--max-time", "20", "-A", "Mozilla/5.0",
+                        "-w", "\n%{http_code}", url], capture_output=True, text=True, timeout=30)
+    body, _, code = r.stdout.rpartition("\n")
+    if code.strip() != "200":
+        raise RuntimeError(f"HTTP {code.strip() or 'none'}")
+    return body
+
+
+def _pboc_omo_latest(list_url=PBOC_OMO_LIST, fetch=_curl):
+    """Newest PBOC 公开市场业务交易公告 reporting a FIXED-RATE reverse-repo operation (the main
+    policy rate). Returns (notice, date, tenor, rate). Raises on anything unreadable."""
+    import html as _h
+    from urllib.parse import urljoin
+    links = re.findall(r'href="([^"]+)"[^>]*>\s*(公开市场业务交易公告\s*\[\d{4}\]第\d+号)', fetch(list_url))
+    if not links:
+        raise RuntimeError("no notices on list page")
+    for href, title in links[:5]:
+        t = re.sub(r"<script.*?</script>|<style.*?</style>", "", fetch(urljoin(list_url, href)), flags=re.S)
+        s = re.sub(r"\s+", " ", _h.unescape(re.sub(r"<[^>]+>", " ", t)))
+        if "固定利率" not in s:
+            continue                        # multi-rate / interest-rate tenders are not the anchor
+        # pre-11/02 notices render the table cell as "7 天 1. 40 %": tolerate inner spaces
+        m = re.search(r"(隔夜|\d+\s*天)\s+(\d+)\s*\.\s*(\d+)\s*%", s)
+        d = re.search(r"(\d{4}-\d{2}-\d{2})\s+\d{2}:\d{2}", s)
+        if m:
+            tenor = "overnight" if m.group(1) == "隔夜" else re.sub(r"\s*天", "d", m.group(1))
+            return (title.replace(" ", ""), d.group(1) if d else "?", tenor,
+                    float(f"{m.group(2)}.{m.group(3)}"))
+    raise RuntimeError("no fixed-rate operation in newest 5 notices")
+
+
+def _stored_rate(value):
+    """Leading '<rate> <tenor>' of VX-ZHAO-6.06, e.g. '1.25 overnight', '1.4 (7d repo)'."""
+    m = re.match(r"\s*(\d+(?:\.\d+)?)\s*\(?\s*(overnight|\d+\s*d)", value, re.I)
+    return (m.group(2).lower().replace(" ", ""), float(m.group(1))) if m else None
+
+
+def _pboc_source_verdict(stored_value, quick, list_url=PBOC_OMO_LIST, fetch=_curl):
+    """KB-ZHAO-262: the age test graded ZHAO's own stamp and missed the 11/02 anchor change for
+    4 days. Returns (decided, alert, text): decided=False ⇒ the age test decides, as before."""
+    if quick:
+        return False, 0, "(source check skipped, --quick), age test only"
+    try:
+        notice, date, tenor, rate = _pboc_omo_latest(list_url, fetch)
+    except Exception as e:
+        return False, 0, f"⚠️ PBOC notice UNREACHABLE ({type(e).__name__}: {str(e)[:40]}), age test only"
+    st = _stored_rate(stored_value)
+    if st is None:
+        return True, 1, f"🔴 MISMATCH: stored cell unparseable vs PBOC {notice} {date} ({tenor} {rate}%)"
+    if st[0] == tenor and abs(st[1] - rate) <= 0.001:
+        return True, 0, f"✓ matches PBOC {notice} {date} ({tenor} {rate}%)"
+    return True, 1, (f"🔴 MISMATCH vs PBOC {notice} {date}: live {tenor} {rate}% "
+                     f"≠ stored {st[0]} {st[1]}%")
+
+
+def section_key_ages(quick=False):
     print(f"\n[2] KEY-FIGURE AGE  (🔴 if > {KEY_STALE_DAYS}d)")
     idx, _ = _vx_index()
     alerts = 0
@@ -255,6 +315,14 @@ def section_key_ages():
             print(f"    {label:12s} — 🔴 VX id {vid} MISSING")
             alerts += 1
             continue
+        if label == "PBOC rate":            # source check, this one line only (acceptance doc 11/10)
+            decided, a, text = _pboc_source_verdict(row["value"], quick)
+            if decided:
+                alerts += a
+                print(f"    {label:12s} {row['value'][:14]:14s} "
+                      f"upd {row['updated']} ({_age_days(row['updated'])}d) {text}")
+                continue
+            print(f"    {label:12s} {text}")
         age = _age_days(row["updated"])
         # D4 fix 8/21: an unparseable vintage used to read as NOT stale — fail-OPEN, silent,
         # forever. VX-ZHAO-7.02 literally contained the word STALE in its date cell, which is
@@ -444,7 +512,7 @@ def main():
     print("=" * 60)
     legs = [
         ("live pull",       section_live(quick)),
-        ("key-figure age",  section_key_ages()),
+        ("key-figure age",  section_key_ages(quick)),
         ("TIC watch",       section_tic_watch()),
         ("catalysts",       section_catalysts()),
         ("predictions",     section_predictions()),
