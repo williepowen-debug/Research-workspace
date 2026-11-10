@@ -35,4 +35,4 @@
 ## MAIL STATE
 
 `inbox/` top-level: empty (`.gitkeep` only) · `inbox/WALTER/`: empty at 12:12 ET after consuming SIG-W-20261109-008 (noted: Jacksonville $300M budget hole after Amendment 3, press via X, basis unstated → ML-CORAL-154 under the ML-CORAL-142 revenue theme; no score moves) · outbound: PROME (`PROME/inbox/2026-11-09_from-CORAL_MSI13-catchup.md`).
-**Closed 12:1x ET on PROME's WQ-249 ask, then reopened 12:55 ET on Will's direct ask (flooding + Amendment 3 implications) → § AE, ML-CORAL-155/156, STATUS flood and fiscal rows re-based. PROME told the window stays open.**
+**Closed 12:1x ET on PROME's WQ-249 ask, then reopened 12:55 ET on Will's direct ask (flooding + Amendment 3 implications) → § AE, ML-CORAL-155/156, STATUS flood and fiscal rows re-based.** **Final close 19:3x ET 11/09 on PROME prome-9c WQ-249 ask (desktop → laptop switch); nothing new arrived after 13:0x ET. Laptop resumes from NEXT/OWED above; first dated items: flood watch this week, 11/15 grade.**
