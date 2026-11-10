@@ -52,7 +52,7 @@ Both input gaps are consistent with what the model said it could not see ("SVF a
 | 6 | **$11.9B "senior term loan borrowing"** listed under debt financing, not asset-backed, so **inside** net debt; borrower and collateral not stated. Apollo appears as a lender in the OpenAI-shares loan; no separate Apollo loan found in the deck. The 18.8% "if outside" branch is moot |
 | 7 | **Cash position ¥5.0T ($32B) vs ¥1.6T of bond redemptions over the next two years** (6/30: ¥2.3T vs ¥1.5T) |
 | 8 | ABB robotics: still upcoming, **$5.4B "Q3 onwards"**, about $1.8B of it from LBO finance. ⚠️ Not in my roll: if it closes debt-funded at cost, about +1.2 points on SoftBank's basis (rough SAM arithmetic; the LBO portion may sit outside) |
-| 9 | Guarantees: the financial report names the SBG guarantee of the SVF2 OpenAI-shares loan. **No SBG guarantee of SB Energy obligations found** (zero "SB Energy" hits in the financial report). Deck: SBG committed $3.0B to SB Energy ($1.5B funded); the PORTS-Pike credit support is NVIDIA's. **Musk turbine claim (card 20261109-005): no route to SoftBank's leverage found in these documents** |
+| 9 | Guarantees: the financial report names the SBG guarantee of the SVF2 OpenAI-shares loan. **No SBG guarantee of SB Energy obligations found** (zero "SB Energy" hits in the financial report). Deck: SBG committed $3.0B to SB Energy ($1.5B funded); the PORTS-Pike credit support is NVIDIA's. **Musk turbine claim (card 20261109-005): CORRECTED 11/10 17:20 ET, see § Correction below.** A route exists through Silver Bands 7 (SB7, a subsidiary of SBG and SVF2, "a separate entity from SB Energy"): a ¥597.2B loss on power-equipment procurement, already inside the 9/30 15.9%. The SB Energy guarantee finding stands, narrowed to SB Energy |
 | 10 | $1.25T round: nothing new found in the deck. VULCAN owns terms |
 | 11 | Gotō: transcript not read (above) |
 
@@ -65,3 +65,48 @@ Unchanged. SoftBank's own basis is under its 25% normal-times ceiling at today's
 ## Kill-on-sight check
 
 This write-up does not say "SoftBank reported 22%": SoftBank reported **15.9% at 9/30**; 22.5% is **SAM's roll-forward** of SoftBank's figures to Arm $183.26. "Leverage is 13%" appears only as the 6/30 print. No "$40B bridge wall" (repaid 9/15; facility terminated 9/30, deck Finance 8). The 9/30 15.9% is not presented as today's leverage.
+
+## Correction, 2026-11-10 17:20 ET (WALTER card SIG-W-20261110-010; PROME tap 17:17 ET)
+
+**What line 55 said:** "Musk turbine claim (card 20261109-005): no route to SoftBank's leverage found in these documents."
+
+**Why that was wrong:** my 10:04 ET search keyed on "SB Energy" and on guarantees. It never searched for the procurement entity. The financial report I had already downloaded (same SHA c3fa95f8) carries the route under Silver Bands 7.
+
+**Re-read:** at the primary, using the same files and SHA prefixes as above, plus the accounting deck `investor-accounting_q2fy2026_01_en.pdf` (2945557a). Page numbers are given as PDF page / printed page.
+
+| Item | SoftBank's own text | Where |
+|---|---|---|
+| Q2 net loss | Net income attributable to owners **−¥1,115.3B** for Q2 alone (Q1 +¥347.3B; six months −¥768.0B) | data sheet p.2 |
+| Power-equipment loss | **¥597,248M ($3.73B)**, booked in "Other gain (loss)": ¥457,030M of non-refundable advance payments written off, plus ¥140,218M for contract modifications and settlements | financial report p.7/5 and p.75/73 note 1 |
+| Who and what | SB7, a subsidiary of SBG and SVF2, procuring "power generation-related equipment ... for AI data center projects in the U.S., including the PORTS-Pike Technology Campus in Pike County, Ohio". Cumulative payments FY2025 through 9/30: **¥1,500.9B ($9.48B)**. Of that, **$6.6B** is allocated to purchases still in the plan and **$2.9B** is written off | financial report p.7/5; accounting deck p.8 |
+| Ohio framing | **"The loss of $3.7B is completely unrelated to PORTS-Pike"**: the written-off payments are for equipment "no longer in the revised procurement plans" | accounting deck p.8 |
+| Still to pay | "Cash payments for (2) expected from Q3 onward", i.e. the ¥140.2B settlement | accounting deck p.8 |
+| Rebates | Up to $2.1B over 10 years on future purchases, conditional; **not recognised as an asset** | financial report p.7/5 |
+| Left on the balance sheet | Advance payments for US power-generation and AI data-center assets: **¥1,065.1B** at 9/30 (+¥386.4B in the half) | financial report p.29 |
+| Intel collar | **¥321,891M derivative loss** on prepaid forwards (collars) that raised $7.35B in August against all Intel shares held, recorded "as Intel's share price increased by the second quarter-end" | financial report p.9/7 and p.13/11; deck p.15 |
+| Intel shares | Q2 valuation loss **−¥270.1B**; Q1 gain +¥1,332.9B; six months **+¥1,062.8B** | deck p.14; financial report p.13/11 |
+
+**Effect on the leverage ratio** (definition: deck p.82; SAM reading):
+
+- **Power equipment:**
+  - The 15.9% is a 9/30 figure, so it already contains the loss and the cash already paid.
+  - SBG's stand-alone Q2 cash bridge shows a line, "Data center and power generation-related expenditures −¥0.4T" (deck p.79).
+  - The remaining **¥140.2B** settlement is future cash. If SBG pays it from stand-alone cash, net debt goes 11.30 → 11.44, which is **about +0.2 points**: 15.9% → about 16.1%, and the roll 22.5% → about 22.8% (SAM arithmetic).
+  - The rebates are not in.
+  - Whether SB7's equity sits in "Others (b)" unlisted holdings is not stated. If it does, the write-down is already inside the 9/30 value.
+- **Intel:**
+  - Holdings value counts Intel shares "net of the settlement amount of the prepaid forward contracts" (deck p.82 item a).
+  - The prepaid-forward liability is deducted from net debt (deck p.82 item i).
+  - So the derivative loss is the accounting mirror of the collar and is already inside Intel's net value. **No separate LTV effect.** My roll used SoftBank's 11/9 pro forma, which includes Intel.
+
+**Lines:**
+- **Line 55: CORRECTED.**
+  - A route exists, to earnings and to SBG stand-alone cash and net debt. It is already counted in the 9/30 figures, plus about 0.2 points still to come.
+  - What SoftBank describes is a write-off on a revised procurement plan, not a default. The deck states the loss is unrelated to PORTS-Pike.
+- **"No SBG guarantee of SB Energy found": STANDS, narrowed.**
+  - It is true for SB Energy, but SB7 is a different entity.
+  - No SBG guarantee of SB7's obligations was found either: the financial report's guarantee hits are the SVF2 OpenAI loan and Son-related receivables only.
+
+**Grade: CONFIRMED is NOT touched.**
+- The letter of the rule compares SoftBank's reported 9/30 LTV, rolled forward, with my estimate. The reported 15.9% is unchanged.
+- Even with the ¥140.2B pending settlement added, 22.8% against my 21.6% is +1.2 points, still inside ±1.5. That is sensitivity only, not a re-grade.
