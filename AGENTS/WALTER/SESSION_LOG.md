@@ -1,6 +1,6 @@
 ## 2026-11-10T16:46:38Z LIGHT CLOSEOUT — full deferred — desktop boot and routing pass, walter-96, window HOLDING
 
-Addendum 2026-11-10T18:14:50Z, same session and same breadcrumb (no new deferral): card 006, BOND 10-year grade (99d32a6dad), routed on Will's in-session word; no closeout re-run beyond the receipt.
+Addendum 2026-11-10T18:14:50Z, same session and same breadcrumb (no new deferral): card 006, BOND 10-year grade (99d32a6dad), routed on Will's in-session word; no closeout re-run beyond the receipt. Card 007 at 18:16:10Z, FERT USDA grade (fe00b8dfcf), the step 7i UNKNOWN row.
 
 PROME prome-07 launch on Will's 11:38 ET word after the machine switch. Boot PARTIAL on DESKTOP-BC6EF81: sync clean, doctor no HIGH, STATUS, IRAN_WAR, MEMORY, LAST_COMPLETION, ROUTING_TABLE and ROUTING_OVERLAYS whole, THRESHOLD_SCAN whole, RED scan view hash verified, FRED/vendor pulls, intake pull and scan (0 NEW), dropzone 0, corrections rc 0, read-cap rc 0, step 7i, REGISTRY 5 rows. Not done: REGINALD, CREED, HANS registries whole; X bookmarks; LIAISON; HANS dailies; ORCH_INFLIGHT whole read. Cards 20261110-001 (IMMEDIATE, CPI and Waller) to -005; batch BM-20261110-02 15/15; dispatch f0d41c0b25; doorbells red-b3, liquid-9e; packet PROME/inbox/2026-11-10_from-WALTER_11-10-releases-routed-cards-001-005.md. FILTER POSTURE inflation LOOSE reverted. Full deferred: 2 breadcrumbs.
 

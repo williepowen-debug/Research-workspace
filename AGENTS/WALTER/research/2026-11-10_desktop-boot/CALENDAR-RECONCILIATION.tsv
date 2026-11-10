@@ -14,3 +14,5 @@ FRED HY OAS Nov 9 cell	Nov 9	about 10:10 ET	LAST_COMPLETION resume 3	READ by WAL
 USDA NASS Crop Production	Nov	2026-11-10 12:00 ET	DOCKET L761 (FERT)	UNKNOWN	no FERT commit today; FERT not live; not DARK
 10-year Treasury auction $42B	-	13:00 ET = 18:00Z	LAST_COMPLETION resume 1 (BOND)	NOT YET ELAPSED at window end	BOND live (bond-f9)
 CoreWeave Q3 results	Q3	after the close	VULCAN carry	NOT YET ELAPSED	VULCAN closed out 10:12 ET
+USDA NASS Crop Production (addendum)	Nov	2026-11-10 12:00 ET	DOCKET L761 (FERT)	OWNER-COMPLETED; routed SIG-W-20261110-007	FERT fe00b8dfcf, e883ae6873 pushed after the 16:44Z cutoff
+10-year Treasury auction $42B (addendum)	-	13:00 ET = 18:00Z	LAST_COMPLETION resume 1 (BOND)	OWNER-COMPLETED; routed SIG-W-20261110-006	BOND 99d32a6dad, b1c2939595 (KB-BND-566)
