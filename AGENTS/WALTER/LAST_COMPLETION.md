@@ -98,7 +98,7 @@ Tier 1 LIGHT closeout after the desktop routing pass; window held open. Prior: l
     {"commit": "f0d41c0b252dabeceb15d77290f54c8accef3c5b", "state": "published", "note": "Cards 20261110-001 to -005, handoffs, logs, index, batch manifest, 6c and 7i evidence."},
     {"commit": "050dff4cbee408bd0e0a9aadfaa3943c4e79fef8", "state": "published", "note": "Light closeout for the machine switch; earlier commits in git history."}
   ],
-  "delivery": {"signal_date": "20261110", "total": 29, "delivered": 0, "note": "Rows written_not_delivered_pending_push until safe-push and reconcile_delivery_log --apply; recipient use separate. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."},
+  "delivery": {"signal_date": "20261110", "total": 29, "delivered": 29, "note": "All 29 rows delivered on origin (reconcile_delivery_log --apply after a fresh fetch; commits f0d41c0b25 and 394e673f27 reached origin on another session's push, so safe-push printed no CONFIRMED line of its own); recipient use separate. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."},
   "owner_review": {"scope": "manual evidence review; no automatic completion", "evidence": [
     {"path": "AGENTS/WALTER/research/2026-11-10_desktop-boot/THRESHOLD-SCAN.md", "sha256": "45e0d30c83ed2521834502b8c4013553dfa19f9c552793aaef71a15441b29469"},
     {"path": "AGENTS/WALTER/research/2026-11-10_desktop-boot/CALENDAR-RECONCILIATION.tsv", "sha256": "10b97d7e2c053cdd2883e3dcf2deed9d2fb8ca7e26d8e1147d7ae7d31fe5bdc4"}
