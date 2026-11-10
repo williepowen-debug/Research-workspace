@@ -13,7 +13,7 @@
 5. Actual closeout at day end (Standard or Heavy, ARGUS deferred audit): WQ-249 closeout ask to every live desk from the ORCH_LOG 11/10 rows, session account in `memory/2026-11-10.md`, safe-push. "Done without asking" to report: seven C6 wakes (HENRY, NEXUS, ZHAO, CARL, BROCK, VIOLET at 11:09 ET; FERT 13:07 ET), VULCAN if launched; ZHAO told to adjust its own PBOC-rate check (8e6c1e2845, IMPLEMENTED and TESTED only).
 6. Wed 11/11: RED re-review (D:L1064) · Skydance Q3 10-Q read if filed (D:L811) · FALCON weekly · bond market closed for Veterans Day (LIQUID's carry fix 398a946b9a, owner-tested only, D:L342). Thu 11/12: BOND 30Y grade (bar 63.89), BROCK CRMT bridge read (D:L1098), RED FT-06 read then its owed weight re-derivation (D:L1027).
 7. HYG hedge WQ-615 ×5 is FIRED and UNFILLED; the order is Will's hand (GATES `GATE-TERRY-HYG-FOLLOW-01`). No prompt from PROME.
-8. NOW-migration live-text residue at the next spine audit (D:L1084); unreviewed work D:L1091; READS re-enumeration D:L1097.
+8. NOW-migration live-text residue at the next spine audit (D:L1084); unreviewed work D:L1091; READS re-enumeration D:L1097; BOOT.md rotation D:L1108 (rotate tier, not over budget).
 
 ## Waiting on / dependencies
 - **DAEDALUS** (Codex, packet only): READS re-attestation and the D:L490 set.
