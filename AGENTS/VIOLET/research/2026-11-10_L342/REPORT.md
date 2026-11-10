@@ -1,6 +1,6 @@
 # D:L342: VIOLET's exposure to Cboe holiday bars, and the one fix (2026-11-10)
 
-**Stamp:** 2026-11-10 11:2x–11:5x ET. Commissioned by PROME prome-07, time-boxed at about 30 minutes. Acceptance condition written first: [ACCEPTANCE.md](ACCEPTANCE.md). $0 moved; no threshold, gate letter, band or card changed.
+**Stamp:** 2026-11-10 11:27–11:31 ET (from `date`; corrected from a hand-typed 11:5x). Commissioned by PROME prome-07, time-boxed at about 30 minutes. Acceptance condition written first: [ACCEPTANCE.md](ACCEPTANCE.md). $0 moved; no threshold, gate letter, band or card changed.
 
 ## Inventory: VIOLET reads that take VIX from Cboe History, FRED or yfinance
 
