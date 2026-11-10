@@ -3,7 +3,7 @@
 **Status:** 🟠 **29/60 ELEVATED (11/06 close; +1 on Vector 5).** ✅ **Every 11/10 clock was re-suspended on paper on 11/9:** MOFCOM+GAC 公告**2026**年第58号 continues the export-control package suspension 11/11 to 2027-01-10, scope identical to 公告70 (KB-246); BIS stay in the 11/9 FR to 1/10 (KB-242); USTR ships fees through 1/9 23:59 ET (KB-248); Hanwha countermeasures and China's port fees to ~1/10 (KB-247, 249). Forecasts **ZHA-19 65% / ZHA-20 85%** both look like hits, graded 11/10 and 11/11 as lookups. **PBOC main rate moved to overnight at 1.25% on 11/02; China 10Y 1.59%.** October activity fell back under 50.
 **Domain:** China macro → U.S. transmission — SAFE-reported Treasury-line selling (Belgium proxy falsified 8/21), PBOC/CNY, property·LGFV·fiscal, HK peg, trade war, Taiwan (econ), Korea contagion, India oil. Edges: **→LIQUID** (UST demand hole), **→SAM** (Korea/Asia flows), **→HAWK/BRENT** (energy), **→HENRY** (10Y/term premium), **→HANS** (Euroclear custody).
 **Thesis framing:** China-macro-transmission (no version stamp; no position — research/signal agent). **Pivot history 2026-07-04→08-21 (superseded figures) → `archive/NEXUS_BRIEF_PIVOT_HISTORY_20260919.md`; the `Status:` line above is canonical.**
-**As of:** **2026-11-09 19:38 ET (by `date`)** — closeout for the laptop switch, no content change since 15:23; ZHA-19 lookup 11/10, ZHA-20 lookup 11/11. 15:23 ET: key-file refresh: 11/09 live FX/HK values, SAFE October reserves $3,405.2B (+$4.9B, valuation) and gold 78.30 Moz (+0.83 Moz ≈ 25.8 t, largest 2026 add), KB-251..254; earlier 12:14 ET the four 11/10 clocks were read re-suspended, KB-246..250. No score moved. || STATUS commit: NONE (folded in the same commit as STATUS) || Prior as-of: 2026-11-09 15:23 ET.
+**As of:** **2026-11-10 11:15 ET (by `date`)** — PROME prome-07 due-row session: the four 11/10 clocks graded at their primaries after both windows closed (KB-255); ZHA-19 and ZHA-20 RESOLVED YES; China's Transport Ministry port-fee notice read at source (交通运输部公告2026年第90号, KB-257). No score moved. || STATUS commit: NONE (folded in the same commit as STATUS) || Prior as-of: 2026-11-09 19:38 ET.
 
 ---
 
@@ -24,7 +24,7 @@
 
 - **11/06:** ZHA-21 NO at 12%, Brier 0.0144. ZHA-19 not re-marked after the filing, by design. ZHA-22..25 registered with computed base rates: 60 / 68 / 12 / 18%.
 - **Record (graded rows):** ZHA-16 MISS (Brier 0.20) · ZHA-17 NO (0.30) · ZHA-18 NO at 40% (0.16; $172M from the boundary, not banked as skill) · ZHA-11/12 YES (0.10/0.04). **The base rate beat my narrative on ZHA-18** (narrative 60%, base rate 33%).
-- **Open, registered before the events (10/29):** ZHA-19 US clock instrumented by 11/9 **65%** · ZHA-20 MOFCOM by 11/10 **85%** (re-marked 11/06; correlated: ~1.3 calls, not 2) · ZHA-21 NPCSC RMB fiscal figure resolved NO 11/06. ZHA-24 closed VOID 11/06 (its 7-day anchor had gone on 11/02), replaced by ZHA-26: PBOC overnight rate cut from 1.25% by 12/31, **12%** (KB-241). ⛔ ZHA-05 STUCK 10/29 (anchor was a segment NPL, letter can't discriminate). Letter: `reports/2026-10-29_PREREGISTRATION_ZHA-19-20-21_nov-clocks-and-npcsc.md`.
+- **Registered before the events (10/29), ✅ RESOLVED 11/10:** ZHA-19 US clock instrumented by 11/9 **YES at 65%, Brier 0.1225** · ZHA-20 MOFCOM by 11/10 **YES at 85%, Brier 0.0225** (re-marked 11/06 before the outcome; 0.09 at the as-made 70%; correlated: ~1.3 calls, not 2) · ZHA-21 NPCSC RMB fiscal figure resolved NO 11/06. ZHA-24 closed VOID 11/06 (its 7-day anchor had gone on 11/02), replaced by ZHA-26: PBOC overnight rate cut from 1.25% by 12/31, **12%** (KB-241). ⛔ ZHA-05 STUCK 10/29 (anchor was a segment NPL, letter can't discriminate). Letter: `reports/2026-10-29_PREREGISTRATION_ZHA-19-20-21_nov-clocks-and-npcsc.md`.
 - **Conviction — China UST selling: MEDIUM, DECELERATING.** Three straight months of coupon selling, each about half the last (LT −15.8 / −7.7 / −4.8B). 6-month total net −$71.5B. Aug level fall overstates it: −$12.25B is non-transaction residual, cause UNKNOWN.
 - **Conviction — where the money went: LOW, said plainly.** Belgium proxy falsified (rho +0.067, n=43), Agency rotation refuted three times, entity-shifting untestable from TIC. Belgium is now **out of the thesis kill** (replaced by a China flow leg, KB-219).
 - **Conviction — China domestic demand: weak at home, booming abroad.** Exports +36.3% (Sep), PPI +5.0% (energy-led), RatingDog 52.0 (Oct); but construction new orders 40.0, CGB 1.59% on 11/06 (credit demand weak, funding cheaper). The deflation-export read is REFUTED at the aggregate.
@@ -62,7 +62,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** **11/10 ZHA-19 lookup → 11/11 ZHA-20 lookup (公告2026年第58号)** → 11/18 September TIC (ZHA-22; Q3 anchor total needs ≈ −$28B more for the >$50B route) → 11/30 Nov PMI (ZHA-23).
+- **What:** ✅ ZHA-19/20 graded 11/10 → 11/18 September TIC (ZHA-22; Q3 anchor total needs ≈ −$28B more for the >$50B route) → 11/30 Nov PMI (ZHA-23).
 - **What would change my view:** a MOFCOM 公告 withdrawing or changing 公告2026年第58号, or a deal text before the 1/10 cluster. ⛔ Statements re-date nothing. **HKMA market activity < 0** ⇒ the peg channel wakes (V7 rescore, LIQUID, ZHA-25).
 - **Standing kill-lines (re-specified 10/29, KB-219):** thesis killed only when **F** China 6-month TIC net ≥ +$2B on 2 consecutive releases (now −$71.5B) AND **L** China >$700B ×3 consecutive (now $590.7B) AND **S** fiscal >5% GDP with LGFV backstop. Noise tripwire: China >$680B ×2.
 
@@ -74,7 +74,7 @@
 |------|-------|--------------------|
 | Sat Nov 7 | SAFE Oct reserves + PBOC gold | fall beyond valuation = intervention; gold ≥10 t (MIDAS WQ-451) |
 | ✅ Mon Nov 9 | All four 11/10 clocks re-suspended (BIS, MOFCOM, USTR ships, MoT, Hanwha) | KB-246..249 |
-| 🟠 Tue–Wed Nov 10–11 | ZHA-19 / ZHA-20 lookups | YES branches appear satisfied |
+| ✅ Tue Nov 10 | ZHA-19 / ZHA-20 graded YES at the primaries | KB-255 |
 | Tue Nov 10 · ~Nov 10–16 | GACC Oct trade (11/10; exports consensus +33.5%), CPI/PPI, credit, activity data | property investment vs the V5 re-raise |
 | 🔴 Wed Nov 18 | **September TIC** (Treasury-confirmed) | China Q3 net ≤ −$50B ⇒ LIQUID+PROME; Aug residual revision? |
 | Fri Nov 27 | MOFCOM 公告2024年第46号 clause 2 ends | content UNVERIFIED (B2) |
