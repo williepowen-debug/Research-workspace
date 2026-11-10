@@ -1,23 +1,23 @@
-# Inbox Processing Receipt — 2026-11-09 18:05 UTC
+# Inbox Processing Receipt — 2026-11-10 18:14 UTC
 ## Agent: FERT
 
 ### Signals Processed
 | # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
 |---|-------------|--------|-------------------|-----------------|
-| 1 | 2026-11-06_from-PROME_WQ629-A-note-on-G3.md | INTEGRATE (mirror) | none; KB-FERT-006 Notes carries the WQ-629 note verbatim | none |
-| 2 | WALTER/SIG-W-20261106-033.md | LOG | none; KB-FERT-135 (combo:under-application-yield) gains one headline member + counterevidence | none |
-| 3 | 2026-11-09_from-PROME_due-rows-wake.md | INTEGRATE (task) | D:L761 T8 prep; grade after the 11/10 release | none yet |
+| 1 | WALTER/SIG-W-20261110-001.md | LOG (acted as context) | none from the signal; FERT read food at home itself at BLS → KB-FERT-138 | none from the signal |
 
-Census by PROME/tools/inbox_census.py before the drain: top-level 3 (2 packets + PROTOCOL.md + RECEIPT.md; the WQ-629 packet + two standing files at PROME's count), WALTER/ 1. After: packets 0. All three rows in `board_log.tsv` (agent root). Correction COR-20261106-35 (put/call) receipted NO-OP: FERT never carried the figure.
+Census before the drain: top-level packets 0 (PROTOCOL.md + RECEIPT.md are standing files), WALTER/ 1. After: 0. Row in `board_log.tsv` (agent root). The signal's "food +0.47%" is total food (SAF1), not food at home.
 
 ### STATUS.md Changes
-- none at drain; STATUS moves at the T8 grade
+- T8 NASS + T3 October CPI graded (D:L761; T3 for D:L579): V6 1 → 2 per frozen card, convergence 16/40, transmission rail live distance, BOTTOM LINE.
 
 ### Outbox Signals Written
-- none at drain (quiet mode: one PROME packet at the grade)
+- PROME/inbox/2026-11-10_from-FERT_L761-T8-NASS-graded-T3-October-CPI-L579.md
+- AGENTS/CARL/inbox/ and AGENTS/HENRY/inbox/ 2026-11-10_from-FERT_october-food-at-home-at-transmission-line.md (charter send row, food at home ≥ +0.4% m/m)
 
 ### Files Modified
-KB.tsv, board_log.tsv, registry/corrections_receipts.tsv, inbox moves
+STATUS.md, workbook/KB.tsv, workbook/FLOW.tsv, workbook/TRIGGERS.tsv, workbook/GRADING_CARD_2026-11-10_NASS-CPI.md, board_log.tsv, inbox moves
 
 ### Skipped / Issues
-- OSPREY Rosneft gasoline / Russian diesel combo items: not routed to FERT; not logged here
+- BLS API v1/v2 refused (daily request threshold reached on this box); curl to bls.gov 403; WebFetch reached the release pages (HTTP 200).
+- Shell `grep` wrapper returned nothing on a scratchpad file; counts taken with `command grep` and Python.
