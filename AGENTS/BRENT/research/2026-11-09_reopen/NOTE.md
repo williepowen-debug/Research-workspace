@@ -43,6 +43,7 @@ This line does revert on its letter (fire history on the row: fired 9/14, un-fir
 | 11/4 | 88.12 | below | DTN, CNBC |
 | 11/5 | 90.52 | below | wire |
 | 11/6 | 90.83 | below | CNBC; Bloomberg via Rigzone |
+| 11/9 | 86.85 | below | added 2026-11-10 11:4x EST: wire relay (Invezz/OilPrice search summary) and the vendor daily row agree; one lineage, no exchange page |
 
 **Grade: UN-FIRED at the 11/2 settle ($96.46) and below on every settle since, through 11/6 ($90.83).** The 10/27 settle ($99.90) was a one-session un-fire, re-crossed 10/28; recorded, it changes nothing today. ⚠️ None of the settles after 10/23 is an exchange read (CME blocks this machine); they are secondary publishers sharing the exchange feed, one lineage. The answer does not depend on any single settle: every settle from 11/2 is at least $3.54 under the line. Today's settle is added in section 6.
 
@@ -95,3 +96,5 @@ Claim, relayed: JPMorgan estimates a global surplus of 1.1 mb/d in September wid
 **TANKER-LIVENESS (REGISTRY gate, graded ONCE at/after 14:00 ET, no re-poll):** graded 14:47 EST (from `date`), vendor one-minute last print against the 11/6 close, all three legs stamped 14:47, skew under 5 minutes [EST vendor]. STNG 80.7600 → 79.6850, −1.331%; FRO 45.4200 → 44.4100, −2.224%; DHT 20.6800 → 20.5600, −0.580%. max(|·|) = 2.224% > 1.0% ⇒ **LIVE, not BLOCK.** Diagnostic only: no entry spec is armed, no TRADE action, no proposal.
 
 **Closeout check, 19:38 EST (from `date`):** 11/9 wire settles for BZF27 and CLZ26 still not indexed (one web search, no Reuters/ICE/CME-derived settle found); not read from vendor daily rows (a daily bar read after the 18:00 evening open belongs to the next session). GASREGW: FRED and the EIA API both return 2026-11-02 4.153 as newest; the 11/9 print is not published yet. Both carried to the next session (laptop); no grade in this note depends on them.
+
+**11/9 settles, added 2026-11-10 11:4x EST (desktop pickup, SCRATCH item 2):** BZF27 **$92.57** (−$5.75, −5.85%), CLZ26 **$86.85** (−$3.98) [EST: one wire relay found by search and the vendor daily row agree; one lineage, no ICE or CME page]. BZH27 vendor daily row $88.78, so daily-row M1−M3 +$3.79, not a window observation. Neither BRT-33 nor F-a nor MKT-CL-F-ABOVE-100 depends on these; the CL un-fire grade in section 3 stands, now with 11/9 at $13.15 under the line.
