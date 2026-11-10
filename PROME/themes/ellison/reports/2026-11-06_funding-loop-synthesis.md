@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-06, PROME prome-51, for Will's 15:40 ET question. **Status:** synthesis of owner reads, no independent reader. Owner reports win on any difference.
 
-**Answer:** not one loop. Oracle and SoftBank share one exposure, OpenAI's ability to pay. Microsoft's reported reassessment sits beside that. Filings show no SoftBank-Oracle credit tie and no funding link in CDS, on a partial view. No loss, refused financing, or named deferral has been read.
+**Answer:** not one loop. Oracle and SoftBank share one exposure, OpenAI's ability to pay. Microsoft's reported reassessment sits beside that. Filings show no SoftBank-Oracle credit tie and no funding link in CDS, on a partial view. A loss has been read since this page was written: SoftBank's $3.7B write-off and rework of power-equipment orders at Silver Bands 7 (Q2 results, 11/10; `2026-11-10_softbank-loss-investigation.md`). No refused financing or named lease or campus deferral has been read. (Sentence replaced 2026-11-10 by PROME prome-07; the original read "No loss, refused financing, or named deferral".)
 
 **Working sentence (RED):** AI funding has not failed on anything we have read. It costs more for everyone in the chain, and the cheap money depends on a few tenants. Selection or rationing stays open until the dated tests.
 
