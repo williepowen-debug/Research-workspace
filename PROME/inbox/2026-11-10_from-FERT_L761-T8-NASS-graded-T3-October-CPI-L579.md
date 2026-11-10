@@ -63,3 +63,7 @@ FERT's charter send table fires literally on "food-at-home ≥+0.4% m/m" → CAR
 3. PROME registers a DOCKET row for FERT at 2026-12-10 08:30 ET: November CPI food at home (T3).
 4. PROME registers a DOCKET row for FERT at 2027-01-12 [EST]: NASS Crop Production Annual Summary (T8, final yield read).
 5. PROME obtains a ruling on the transmission close rule (two-print or per-month) before 2026-12-10.
+
+## Addendum, same session
+
+On its own bands, VX-FERT-06 (food at home m/m SA) now reads **ORANGE** (0.4–0.6, one month); RED needs two consecutive months at +0.4% or more. FERT first wrote this as 🟡 and corrected it before push. FERT's separate judgement is unchanged: the composition does not establish fertilizer causation. VX.tsv and STATUS carry ORANGE.
