@@ -32,4 +32,4 @@ Core +0.3 (+0.296%), headline +0.4 (+0.350%); Waller's 04:00 ET text puts a 25 b
 
 ## 5. Desk hygiene
 
-BOARD scan run, 0 new action-line since SIG-W-20261109-012, 0 logged. Inbox empty. Corrections check rc 0. Ledger sweep clean A–H. STATUS rotated first (11/9 and 11/8 blocks → `archive/STATUS_ARCHIVE_2026-11-10.md`, crc32 `53006e4a`). Skipped as out of scope: paper-book marks. Window held open after delivery, no timer.
+BOARD scan run, 0 new action-line since SIG-W-20261109-012 (through SIG-W-20261110-005; 001 to RED, CARL; 003 and 004 to other desks), 0 logged. Inbox empty. Corrections check rc 0. Ledger sweep clean A–H. STATUS rotated first (11/9 and 11/8 blocks → `archive/STATUS_ARCHIVE_2026-11-10.md`, crc32 `53006e4a`). Skipped as out of scope: paper-book marks. Window held open after delivery, no timer.
