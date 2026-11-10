@@ -1,51 +1,43 @@
-# HENRY — 2026-11-06: refreshed through the 11/6 close on Will's word via PROME — CLOSED
+# HENRY — 2026-11-09: PROME due-row wake, CPI prepared, closed for the laptop switch — CLOSED (CPI NOT YET GRADED)
 
-**RESULT:** October payrolls moved rates and left stocks where they opened: the S&P 500 closed +0.31% at 7,376.86, level with its open and 7 points above the day's low. Chips bounced and most of the index did not. Dealers still amplify moves, and I withdrew the S&P 500 put wall I published this morning, so no clean S&P support is published.
+**RESULT:** Stocks recovered most of last Wednesday's (11/5) fall: the S&P 500 closed +2.35% at 7,549.94 (vendor), broadly, not just chips. Dealers still amplify moves (the S&P sits about 110 points under the ~7,660 level where that stops), and two-year Treasury yields rose to 4.56% on a day oil fell, so the rate-hike path is what the bond market is trading into Tuesday's inflation report. The inflation report (October CPI, Tue 11/10 08:30 ET) is prepared and not yet graded: my frozen call is core +0.2%, under the 0.4% that would count as hot.
 
-**CHANGED:** `STATUS.md`, `STATUS_COLD.md`, `NEXUS_BRIEF.md`, `MEMORY.md`, this file, `board_log.tsv`, `registry/corrections_receipts.tsv`, `workbook/MARKET_DATA.tsv`, `PUBLISHED.tsv`, `KB.tsv`, `research/2026-11-06_close/`, WALTER 042 consumed; one packet to PROME.
+**CHANGED:** `STATUS.md`, `STATUS_COLD.md`, `NEXUS_BRIEF.md`, `MEMORY.md`, this file, `board_log.tsv`, `registry/corrections_receipts.tsv`, `workbook/MARKET_DATA.tsv`, `workbook/PUBLISHED.tsv`, `workbook/KB.tsv` (ML-HEN-208), `research/2026-11-09_cpi-wake/`, 16 inbox items moved to processed.
 
 ## Session work
 
 | Item | Outcome |
 |---|---|
-| 11/6 close | SPX 7,376.86 (+0.31%), NDX 26,989.99 (+1.35%), QQQ 656.10 (+1.40%), SMH +3.62%, RSP −0.38%, Dow −0.46%, IWM +0.99%, KRE −0.15% (vendor) |
-| Rates | Treasury par 2Y 4.51% (+5bp), 10Y 4.86% (+2bp), 30Y 5.26% (+1bp) |
-| HEN-59 reaction note | Closed. KRE flat against a higher 2Y: neither the rate story nor the credit story, no call |
-| Map on the close | Negative on three chains; SPX flip ~7,654 / ~7,658; SPX put WITHHELD, the 09:55 ET clean 7,500 withdrawn; QQQ call now 670, band 670–680 |
-| Thresholds | Re-based. VIX ORANGE to YELLOW, 30Y YELLOW to ORANGE. No level, band, gate or trade changed |
-| December hike | 76% stands; futures last unchanged through 16:45 ET. ORACLE owns priced odds |
-| MARKET_DATA | 11/6 row added; 10/23, 10/26, 10/27 backfilled; HY and CCC filled on 10/21, 10/22, 10/28 and re-dated on 10/29, 10/30 |
-| Correction of my own | SPX under its 50-day is the sixth straight close; my 11/5 line said second |
-| Inbox | WALTER 042 noted, COR-20261106-42 NO-OP. Inbox and WALTER lane empty at 17:1x ET |
-| Closeout 18:3x ET, Will via PROME | WALTER 047 (Qeshm reports, FALCON grades), 053 (corrects 047's odds line, never carried here, COR-20261106-53 NO-OP) and 049 (Michigan preliminary, CARL owns) noted, ML-HEN-207 logged. `STATUS.md` rotated verbatim to 22.8 KB. Card 053 stays in the WALTER lane file-wise: WALTER had not committed it, so it moves at next boot |
-| Withdrawn 7,500 wall, consumer check | Scoped run: 6 hits, all dated history or PROME's plan-read line from before the withdrawal. No packet owed |
+| Inbox | 15 WALTER cards and ZHAO's 11/8 packet dispositioned and moved; WALTER 053 moved. 3 corrections receipted, rc 0 at close |
+| WALTER 004 (Citi to Neutral, ACTION HENRY) | Acted: index tape and Citi read in VIEW; the "Nasdaq about 5% more" is a strategist view, logged ML-HEN-208, not adopted |
+| WALTER 010 (US–China clocks) | Every 11/10 clock moved to January 9–11, 2027, one row per instrument; WALTER confirmed closed |
+| Gamma map 11/9 midday | SPX flip ~7,660, put 7,500 and call 7,700 clean; QQQ walls WITHHELD (`NONE` rows); NDX put 28,000 overhead. Published with `--both` |
+| Credit 11/6 (FRED) | HY 342bp YELLOW, CCC 1,317, CCC−BB 1,109 |
+| CPI grade sheet | Grading via api.bls.gov (bls.gov web 403s this box); control matches September 0.3 |
+| 11/9 close (closeout) | SPX 7,549.94 +2.35%, VIX 19.92, 2Y par 4.56%. HEN-60, -61, -62 not resolved |
 
 ## GAPS / still pending
 
-- **Unread or missing for 11/6:** FRED and Cboe had not posted, so VIX 25.64 is vendor and unconfirmed and SPX is a vendor close. HY and CCC 11/6 land about 10:10 ET Monday 11/9. SKEW 11/6 is not published. CME settlement not read.
-- **This map carries 11/5 trading.** Sampled open interest matches the morning chain; 11/6 trading first appears Monday.
-- Brent and gas cells stay blank in MARKET_DATA; BRENT owns the settle.
-- HY and CCC backfill cells are FRED as served 11/6, not first-published vintage.
-- Member breadth not rerun, so "narrow" rests on RSP, Dow and IWM. 35d profile not re-run at the close.
-- Operating Dashboard not refreshed, outside this bounded wake; breadth and options volume still unrun. Fleet consumer sweep timed out at boot; a scoped run found 30 candidates, zero certified stale.
-- Pull refused on other desks' dirty files at 17:12 ET.
-- `PUBLISHED.tsv`: `put_wall` now resolves to 7,600 [11/5], withheld that day and broken at the close, because the ledger has no row meaning none published. Read the WITHHELD row; the tool fix is unbuilt.
-- Weekend gap: the Qeshm reports came after the US close and neither oil nor equities have traded them; FALCON owns the grade.
+- **HEN-57 CPI not graded** (prints 08:30 ET 11/10); the PROME packet is owed after grading. PROME wake packet stays in `inbox/` until then.
+- 11/9 map not re-run on the close; 11/9 VIX and SPX vendor, not confirmed at Cboe or FRED; 11/9 HY and CCC publish 11/10; USD/JPY 11/9 cell blank (vendor bar already stamped 11/10).
+- The Citi note itself is unread. Brent and gas cells blank; BRENT owns the settle.
+- Operating Dashboard still 10/22; breadth rerun and options volume by strike unrun. Boot consumer sweep timed out (180s).
+- `git pull --rebase` refused on other desks' dirty files all session; commits path-scoped.
 
 ## COMMITS
 
-`git log --since=2026-11-06 -- AGENTS/HENRY`; close refresh `bffb341209`, packet `9de4cf8b29`, morning wall rows `a135ad8d88`; this closeout carries the subject "HENRY: closeout 11/6, WALTER 047 and 049 consumed, STATUS rotated".
+`36783e7f97` wake catch-up, `b4dd952095` brief fold, `2b5b993645` WALTER 010, `472d85a8e2` brief fold; this closeout carries "HENRY: closeout 11/9 for laptop switch, 11/9 close, CPI pending".
 
 ## NEXT SESSION FOLLOW-UP
 
-Monday 11/9 pre-open map and the 11/6 HY cell; CPI Tue 11/10; PPI Fri 11/13; Nvidia Tue 11/17 after the close; row 9 collapse leg at the 11/18 close; PCE Wed 11/25; payrolls Fri 12/4; FOMC and SEP Wed 12/9.
+Pre-open map Tue 11/10; **CPI 08:30 ET Tue 11/10, grade and packet to PROME**; December hike odds rerun 15:00 ET 11/10; PPI Fri 11/13; Nvidia Tue 11/17 after the close; row 9 collapse leg at the 11/18 close; FOMC Wed 12/9.
 
 ## THESIS SNAPSHOT (frozen at close)
 
-Dealer gamma NEGATIVE on all three chains; SPX flip ~7,654 / ~7,658 [11/6 17:1x ET]. HY 348bp YELLOW [11/5]. December hike about 76% priced [11/6 last trade]. Labor no longer argues for an equity bid break; it supports the hike side.
+Dealer gamma NEGATIVE on all three chains; SPX flip ~7,660 [11/9 midday]. HY 342bp YELLOW [FRED 11/6], one lower print, not a peak. December hike about 76% priced [11/6 15:00 ET]; 2Y par rose 5bp on 11/9. A hot core print is the case where hike repricing and dealer amplification point the same way.
 
 ## WILL_NEEDS
 
 None from this desk.
 
-*Honest scope: free delayed Cboe chains, vendor bars and Treasury par. 11/6 VIX and SPX await FRED and Cboe confirmation, and the walls, dollar sizes and one-tick futures odds are the fragile parts.*
+*Honest scope: free delayed Cboe chains, vendor bars and Treasury par. The 11/9 close figures are vendor and unconfirmed; walls and dollar sizes are the fragile parts of the map; CPI consensus came through an X relay of a Bloomberg survey.*

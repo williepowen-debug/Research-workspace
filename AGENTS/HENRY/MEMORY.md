@@ -53,27 +53,20 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-06 from 09:49 ET, WQ-626 A wake (Claude Code, Opus 5.5). Closed about 10:2x ET on PROME's ask; the 11/6 session had not closed.
+### CHANGES SINCE — 2026-11-09 12:09 ET, PROME due-row wake (Will's word 12:07 ET; Claude Code, Opus 5.5). Closed 19:4x ET on PROME's ask (WQ-249, desktop to laptop switch). CPI NOT yet graded.
 
-- **Closeout 18:3x ET, Will via PROME:** WALTER 047 and 049 noted, STATUS rotated under its stop (ROT-11/06-EVE, -2 in `STATUS_COLD.md`). `consumer_check` prints its 🔴 list above the 🟠 hits, so a tail shows only noise and the counts: read the 🔴 block. Closeout scoped runs must cover every superseded figure: the boot run took the flip and missed the 7,500 wall until this pass.
-- **Fourth close 17:2x ET, Will's close-refresh via PROME:** SPX 7,376.86, gain all in the opening gap. Clean SPX 7,500 put wall withdrawn on unchanged open interest: a wall published "clean" on a live spot can dissolve by the close, so say the spot it depends on. My 11/5 line said second close under the 50-day; it was the fifth (now sixth): compute the run from the bars, do not count from memory. `--publish` replaces same-day flip and GEX rows but never wall rows, so a second same-day map must clear the earlier wall rows by hand, or the withdrawn wall stays latest. MARKET_DATA backfilled 10/23, 10/26, 10/27 and HY/CCC re-dated. Cboe `cdn.cboe.com` files need `curl -L` (307 redirect), and `ugrep` context patterns failed again on this box: use Python for long cells.
-- **Third close 16:4x ET, Will's fresh-window reboot via PROME:** SoftBank 21.5% replaced with SAM's about 22% to 24% (STATUS, ML-HEN-200), WALTER 039 and 041, SAM and ISHM packets consumed, 5 named corrections receipted. My closeout at 15:3x ET left those five unreceipted: run `corrections_boot_check.py HENRY` before every close, not only at boot.
-- **Second turn 15:26 ET, Will via PROME:** December hike read and WALTER 028–034. Futures 76% (15:00 ET, own calc), December restored, path not (June 2027 3.0 of 14.0bp back). HEN-63 hike at 12/9, 0.70. My HEN-62 at 0.60 now reads rich: 2Y needs more than a full return to its 11/3–11/4 level while the far strip stayed down; the row is frozen, grade it as written. Grade the 11/6 close next session.
-- **Logged a chart-read figure that fell within hours:** put/call 1.05 from WALTER 033 went into STATUS and KB and was 0.89 at the Cboe file (WALTER 035). When a card says chart read and a primary file exists, read the file before carrying the figure. Also cited ORACLE's 11/5 read as latest until `workbook/ODDS_LOG.tsv` showed 15:26 ET; check the log, not STATUS. Fixed before commit.
+- **Inbox drained:** 15 WALTER cards and ZHAO's 11/8 packet, all in `board_log.tsv` and `git mv`'d. WALTER 053 moved too. 3 corrections receipted (COR-20261107-02 APPLIED on the NEXUS Qeshm line). `--scope` text for a NO-OP receipt may not contain `;`.
+- **11/9 midday map published:** SPX flip ~7,660/~7,661, put 7,500 and call 7,700 clean at both horizons; QQQ walls WITHHELD with `NONE` value rows (that closes last session's item 4: consumer_check reads the latest row, so `NONE` is how to say none published). NDX put 28,000 sits overhead.
+- **CPI prep:** `research/2026-11-09_cpi-wake/CPI_GRADE_SHEET.md`. bls.gov web 403s this box; api.bls.gov v1 serves SA indexes, so compute m/m from them (September core control 338.896/337.765 = +0.335% → 0.3). Grade on the BLS one-decimal figure; a late grade is not NO-VERDICT.
+- **WALTER 010:** every 11/10 US–China clock moved to January 9–11, 2027, one row per instrument in STATUS. 公告2026年第58号 (the suspension) is not 公告2025年第58号 (the battery package).
+- **11/9 close (vendor):** SPX 7,549.94 +2.35%, VIX 19.92, 2Y par 4.56% (+5bp) with oil down: the front end is trading the hike path into CPI. HEN-60, -61, -62 not resolved.
+- **Slips:** ran an absence grep with `2>/dev/null` (LESSONS forbids); re-ran unsuppressed with a positive control. Boot consumer sweep timed out at 180s again. `git pull --rebase` refused all session on other desks' dirty files; a non-ff after the brief commit was another session already carrying mine to origin (`merge-base --is-ancestor`).
 
-- **11/5 graded:** SPX 7,353.73, NDX 26,629.81, QQQ 647.05, VIX 28.18; all published walls closed broken; QQQ and NDX under their 200-days, first since 4/7/2026. HY 348bp, the 2026 high, modest for the equity fall.
-- **HEN-59 MISSED:** +165K, NOT FIRED. I priced a bare base rate of a revised run and set aside claims and ISM employment. Next payroll call starts from consensus and live inputs and states a number.
-- **Reaction read drifted inside 20 minutes:** RSP and KRE were down at 09:58 ET and up by 10:17 ET. An intraday breadth claim on a bounce day needs a re-read before it goes in a packet.
-- **`gamma_flip.py --help` runs a default read.** It has no argparse; harmless without `--publish`. Vendor minute volume is unusable on a heavy day: 107.6M QQQ shares stamped on one minute.
-- **11/6 map walls were all "clean" and most are useless as support:** SPX 7,500 and NDX 28,000 sit above spot, SPX call 7,000 below it. A clean wall needs its side of spot stated.
-- **Registered HEN-60, -61, -62; combination themes ML-HEN-200 to -203.**. Pull refused all session on other desks' dirty files.
+### NEXT SESSION (laptop; full list in STATUS § CROSS-DESK "Laptop pickup")
 
-### NEXT SESSION
-
-0. **At boot:** `git mv` WALTER 053 to `inbox/WALTER/processed/` once tracked. It is dispositioned in `board_log.tsv` and receipted, but WALTER had not committed it at closeout.
-1. **Monday 11/9:** pre-open `gamma_flip.py --both --publish`, first chain carrying 11/6 trading, and write the wall rows by hand. After 10:10 ET fill MARKET_DATA 11/6 HY and CCC, confirm VIX 25.64 and SPX 7,376.86 at FRED and Cboe, read SKEW 11/6. HEN-60, -61, -62 windows open. **December pricing:** rerun ZQZ26 at 15:00 ET on 11/10 after CPI; HEN-63 resolves 12/9.
-2. HEN-57 CPI 11/10 (L775); HEN-58 PPI 11/13 (L776); NVDA 11/17 after the close (L926). HEN-60 and HEN-62 resolve 11/30, HEN-61 12/31; keep the row current if a close resolves one early.
-3. Row 9 collapse leg: RULED WQ-635 A, grade at the 11/18 close after 16:15 ET against `AGENTS/CYPHER/workbook/ESCALATION_WATCH.tsv` row 9 (letter in STATUS). Bank leg unsized, needs its own ruling. ECON_CALENDAR rebuild before 11/20.
-4. **`PUBLISHED.tsv` has no way to say none published:** `put_wall` resolves to 7,600 [11/5]; the parser honours a `status` column (RETIRED/RETRACTED on the latest row) that this ledger lacks. Add it or a `put_wall NONE` row at the next map, and keep the withdrawn 7,500 visible to the check.
-5. Unrun from Will's list: breadth rerun on closes, options volume by strike, top-name point attribution. Operating Dashboard still 10/22, same URL. QQQ short interest 10/30 settlement not posted.
-6. Review combination themes: 11/13 (`risk-off-bid-vs-hike-path`, first answer in ML-HEN-202 and -205, counterevidence ML-HEN-207, `narrow-rebound-or-broadening`), 11/18 (`ai-chips-sold-without-a-capex-cut`), 11/20 (`levered-and-close-flows`).
+1. **11/10 pre-open:** pull, `gamma_flip.py --both --publish`, hand-write wall rows (`NONE` where withheld). Not between 09:30 and about 09:47 ET.
+2. **HEN-57 / L775: grade October CPI after 08:30 ET** from the grade sheet. Log release row, KB row, PREDICTIONS HEN-57, reaction (2Y, SPX vs map, KRE). ZQZ26 hike rerun 15:00 ET (76% at 11/6). ONE packet to `PROME/inbox/` citing L775 / HEN-57 and SIG-W-20261109-004; then move the PROME wake packet to processed with a board_log row. Quiet mode; no trade proposal except through TERRY.
+3. FRED 11/9 HY and CCC into MARKET_DATA (USD/JPY 11/9 left blank: vendor bar already stamped 11/10). HEN-58 PPI 11/13 (L776); NVDA 11/17 after the close (L926); HEN-60 and HEN-62 resolve 11/30, HEN-61 12/31; HEN-63 12/9.
+4. Row 9 collapse leg: grade at the 11/18 close after 16:15 ET (WQ-635 A, letter in STATUS). ECON_CALENDAR rebuild before 11/20.
+5. Unrun from Will's list: breadth rerun on closes, options volume by strike, top-name point attribution. Operating Dashboard still 10/22, same URL.
+6. Combination themes review: 11/13 (`risk-off-bid-vs-hike-path`, `narrow-rebound-or-broadening`, ML-HEN-208 added), 11/18 (`ai-chips-sold-without-a-capex-cut`), 11/20 (`levered-and-close-flows`).

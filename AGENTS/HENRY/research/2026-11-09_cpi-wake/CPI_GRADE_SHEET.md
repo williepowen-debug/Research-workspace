@@ -36,7 +36,7 @@
 | Read | Pre-print reference | Where |
 |---|---|---|
 | December hike odds, fed funds futures own calc | 76% at 15:00 ET 11/6 (ZQZ26 95.985, vendor last). **Rerun at 15:00 ET 11/10** | `research/2026-11-06_nfp/DECEMBER_HIKE_READ.md` method |
-| 2Y par | 4.51% [Treasury 11/6]; HEN-62 needs >4.60 by 11/30 | Treasury par, evening |
+| 2Y par | 4.56% [Treasury 11/9] (4.51% on 11/6); HEN-62 needs >4.60 by 11/30 | Treasury par, evening |
 | SPX vs map | gamma NEGATIVE on both horizons, flip ~7,660; **put wall 7,500 clean**, call wall 7,700 clean (11/9 ~12:1x ET, chain carries 11/6 trading) | `gamma_flip.py --both`, pre-open 11/10 |
 | KRE direction | rate story = KRE up, credit story = KRE down (6/6 finding) | vendor |
 | HY OAS | 342bp [FRED 11/6]; the 11/10 cell publishes 11/11 | FRED |
