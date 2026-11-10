@@ -1,6 +1,6 @@
 # ZHAO STATUS
 
-**Updated:** 2026-11-09 15:23 ET (by `date`) — **Key-file refresh on Will's word (15:19 ET): dashboard to 11/09 live values, SAFE October reserves and gold, FLOW-15 deferred, KB-251..254.** Earlier today 12:14 ET: PROME due-row wake, the four 11/10 clocks read at their sources, KB-246..250. No score moved. Cells not named here are as of the 11/06 close. Prior: 2026-11-08 12:09 ET.
+**Updated:** 2026-11-09 19:38 ET (by `date`) — **Closeout for the laptop switch; pending lookups listed in RESUME NOTES, no figure changed since 15:23.** **Key-file refresh on Will's word (15:19 ET): dashboard to 11/09 live values, SAFE October reserves and gold, FLOW-15 deferred, KB-251..254.** Earlier today 12:14 ET: PROME due-row wake, the four 11/10 clocks read at their sources, KB-246..250. No score moved. Cells not named here are as of the 11/06 close. Prior: 2026-11-08 12:09 ET.
 📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① ✅ **Both governments filed paper on 11/9: every 11/10 clock is re-suspended to about 1/10/2027.** China: MOFCOM+GAC 公告2026年第58号 continues the export-control package suspension 11/11 to 1/10 (KB-246); Hanwha countermeasures 2 more months (KB-247); MoT port fees to 1/10 (KB-249, secondaries). US: BIS stay in the 11/9 FR (KB-242); USTR ships fees suspended through 1/9 23:59 ET (KB-248). ZHA-19 and ZHA-20 grade 11/10 and 11/11 as lookups. **Next cliff: the 1/9 to 1/11 cluster, four separate texts.** ② **🔴 The PBOC moved its main policy rate to overnight at 1.25% on 11/02, and this desk missed it for 4 days (KB-238).** ZHA-26 replaces ZHA-24 (KB-241). ③ **China 10Y 1.59%, through the 1.60 Orange line** (KB-239). ④ **October activity under 50:** mfg 49.3, construction new orders 40.0 ⇒ **V5 4→5, total 29** (KB-227). ⑤ NPCSC no fiscal figure, ZHA-21 NO (KB-224). ⑥ HK off the weak edge (7.84), spread −135.9bp YELLOW. ⑦ Tomorrow: China Oct CPI/PPI (~), 11/27 公告2024年第46号 clause 2 still open.
 🧊 **Header lines + bottom lines through 11/02 moved VERBATIM → `archive/STATUS_COLD_20261106.md` §ⓐ–ⓖ** (earlier → `…_20261029.md`, `…_20261022.md`).
 **Overall Status:** 🟠 ELEVATED — **29/60** (+1 on 11/06, V5; two-sided shadow 32). **August TIC: China $590.7B; LT −$4.8B, a third month of selling at half the prior pace; 6-month net −$71.5B.** Thesis kill re-specified 10/29 (Belgium leg retired → China flow leg F). Proxy falsified (rho +0.067, n=43); rotation refuted three times.
@@ -24,12 +24,13 @@
 
 ---
 
-## ▶️ RESUME NOTES (2026-11-09 15:23 ET, key-file refresh after the PROME due-row wake)
+## ▶️ RESUME NOTES (2026-11-09 19:38 ET, CLOSED OUT on the desktop for the laptop switch, PROME WQ-249 ask relaying Will 19:37 ET)
 
-No job running. Session stays open until PROME asks for closeout.
+No job running. Desktop session closed. **Laptop picks up these, all lookups, none graded early:**
 - **Tue 11/10 lookups:** ZHA-19 (confirm federalregister.gov/d/2026-22793) · L858 (FR 2026-22867 published) · L1088 (令2026年第4号 still up) · L435 re-date to 1/10.
 - **Wed 11/11 (after 11/10 23:59 Beijing):** ZHA-20 — confirm 公告2026年第58号 still up and unwithdrawn, then YES at 85%. Packet WATT on the T1 re-date.
 - ✅ SAFE Oct reserves and gold read (KB-251). **GACC Oct trade publishes Tue 11/10** (KB-252), and China Oct CPI/PPI date is still a placeholder.
+- **Still open, carried:** MoT and GACC primaries unread (sites block this box) · 11/27 公告2024年第46号 clause 2 untouched · NEXT ACTIONS 12 (VX row for the Chinese clock) owed · STATUS at 79% of read budget, rotation (~2.9 KB verbatim to archive/) due next session.
 - **Needs Will's word, not a peer's:** WQ-622 charter line and NEXUS's B24 change at `CLAUDE.md:37` (NEXT ACTIONS 9).
 
 ---
