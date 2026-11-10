@@ -36,7 +36,7 @@ Good to about ±10 bp, not to one. Probe default figures (r 4%) are in the scrat
 
 ### 1b. Dollar bonds
 
-**No free primary price reached.** TRACE (FINRA) is unreachable from this box, and SoftBank's dollar notes are 144A/Reg S. Secondary only: Bloomberg, 11/6 (headline and snippet, article not read): SoftBank "led declines in Asian dollar bonds"; its **2032 notes fell 1.5 cents, a record drop**; insuring its debt cost the most in four years. **No report of a dollar-bond move on 11/10 after the results was found** (searches 17:2x ET).
+**No free primary price reached.** TRACE (FINRA) is unreachable from this box, and SoftBank's dollar notes are 144A/Reg S. Secondary only: Bloomberg, 11/6 (headline and snippet, article not read): SoftBank "led declines in Asian dollar bonds"; its **2032 notes fell 1.5 cents, a record drop**; insuring its debt cost the most in four years. **No report of a dollar-bond move on 11/10 after the results was found** (searches 17:2x ET). **Primary context (SoftBank deck, "Finance 19"):** the September $11.1B senior issue (144A/Reg S, rated S&P and Fitch) was $10B in 3.5, 5.5 and 7.5 years at a **9.4% weighted-average coupon** (6.6% yen-equivalent) and €1B at 7.6%, about 4x covered, about 500 investors.
 
 ### 1c. Yen bonds
 
@@ -44,13 +44,16 @@ Good to about ±10 bp, not to one. Probe default figures (r 4%) are in the scrat
 
 ## 2. Ratings: no action found since the results
 
+> **Corrected 2026-11-10 17:3x ET (PROME relayed SAM's read, checked at the artifact):** this section first gave S&P as BB+/Negative since 3/3 from news relays. SoftBank's own deck, as of 11/10, shows the outlook went back to **Stable on 7/16**, and adds **Fitch BB+/Stable** (new 9/11), which I had missed. The relays were stale; the deck governs. SAM cites the slide as p.71; in the file I read it is PDF page 60.
+
 | Agency | Rating | Last action | Source, read 17:2x ET 11/10 |
 |---|---|---|---|
 | JCR | **A / Negative**, J-1; subordinated BBB+ | Affirmed 4/30/2026. Bond assignments 7/29 and 9/4. **Nothing after 9/4** | JCR rating page (EN and JP), primary |
-| S&P | **BB+ / Negative** | Outlook to negative from stable on 3/3/2026 (OpenAI investment); S&P's path back runs through asset sales to bring adjusted LTV under 35% | Bloomberg and MarketScreener relays; SoftBank's IR ratings table (as of 9/11, per search summary; page body did not render). S&P's own text not read |
+| S&P | **BB+ / Stable** | Outlook to negative 3/3/2026 (OpenAI investment), **revised Negative → Stable on 7/16/2026** | **SoftBank Q2 FY2026 investor briefing, slide "Finance 32" (PDF page 60 of 118, SHA-256 prefix a9c2649e), "As of Nov 10, 2026"**, read 17:3x ET. The 3/3 action is from Bloomberg and MarketScreener relays |
+| Fitch | **BB+ / Stable** | **Newly assigned 9/11/2026** (with the $11.1B dollar and euro senior issue, rated S&P and Fitch) | Same slide; issue terms slide "Finance 19" (PDF page 47) |
 | Moody's | Ba2, **unsolicited** (upgraded from Ba3 Sept 2025, outlook stable) | SoftBank published a "Comment on Moody's Release Related to Unsolicited Ratings" on 8/28/2026; **its content did not render and is not read** | SoftBank press page; Moody's news 450633 |
 
-At 17:2x ET 11/10 it is 07:2x JST 11/11, before Tokyo business hours. A JCR or S&P comment on the results would most likely come in Tokyo hours.
+At 17:2x ET 11/10 it is 07:2x JST 11/11, before Tokyo business hours. A JCR, S&P or Fitch comment on the results would most likely come in Tokyo hours.
 
 ## 3. Yen retail bond channel: no pulled or repriced deal found
 
@@ -91,13 +94,13 @@ SAM holds these from SoftBank's own filings; cited, not re-derived (`SOFTBANK_FU
 | T-Mobile collars | ¥265.6B | T-Mobile shares; non-recourse; T-Mobile's value nets to zero in SoftBank's LTV ("collared out") | not read | Collar strikes not read |
 | SVF2 OpenAI-shares loan | ¥1,543.7B ($10B) outstanding, guaranteed by SBG | OpenAI shares **not pledged**; margining references OpenAI's fair value | not read | **Undisclosed trigger on an unlisted mark** |
 
-**Arm price that stresses:** SAM's arithmetic puts SoftBank's own LTV at 25% (its normal-times ceiling) at **Arm $145**, and 35% (S&P's stated line) at about **$44**. Arm's raw close 11/10 is **$181.49**, 25% above $145. No source I reached states a loan-to-value or price at which the Arm lenders call margin.
+**Arm price that stresses:** SAM's arithmetic puts SoftBank's own LTV at 25% (its normal-times ceiling) at **Arm $145**, and 35% (SoftBank's own upper threshold "even in extraordinary circumstances", deck; also the adjusted-LTV line in S&P's March rationale, per relays) at about **$44**. Arm's raw close 11/10 is **$181.49**, 25% above $145. No source I reached states a loan-to-value or price at which the Arm lenders call margin.
 
 ## 6. Known-unknowns
 
 1. **After-results CDS:** DTCC 11/10 file (about 20:15 ET); then Tokyo-hours prints 11/11. Most of the market does not disseminate.
 2. **After-results bond prices, dollar and yen:** no free primary. TRACE unreachable; JSDA rate-limited this box (HTTP 429); first after-results JSDA file 11/11.
-3. **Rating comment:** JCR and S&P act in Tokyo hours; none found by 07:2x JST 11/11. S&P's own March text and Moody's August release not read.
+3. **Rating comment:** JCR, S&P or Fitch; none found by 07:2x JST 11/11. The agencies' own texts and Moody's August release not read.
 4. **Margin-call levels** on the Arm, SoftBank Corp and SVF2 facilities, and **T-Mobile collar strikes**: not disclosed in anything reached.
 5. **Whether the 11/9 CDS widening was positioning ahead of results** or a reaction to 11/6 bond losses: the data cannot say.
 6. The relayed claim that the remaining $6.5B of the equipment order was Nvidia GPUs redirected to Oracle (card 010, @rdd147): no source; not mine to chase (VULCAN).
