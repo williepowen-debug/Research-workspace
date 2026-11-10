@@ -54,7 +54,21 @@ Current account **+¥2,372.3B** (−45.8% y/y; August +¥3,993.1B revised; Sept-
 
 Tokyo open 11/10 (~10:20 JST): Nikkei 60,350.94, SoftBank Group (9984.T) ¥3,783 (+11.3% intraday, before results), USD/JPY 157.97. Arm closed 11/9 at $186.30 (+6.69%). Brent BZ=F $92.32 (evening session, not a settle). MOF 11/9 curve: 2Y 1.778 / 5Y 2.115 / 10Y 2.724 / 20Y 3.604 / 30Y 3.911 / 40Y 3.941.
 
-## 6. Still to come in this session
+## 6. JGB 30Y auction 11/10, #92 reopening, 4.2% coupon (PRIMARY, MOF `eresul20261110.htm`, read 22:41 ET 11/9)
 
-- JGB 30Y auction 11/10 (results ~12:35 JST = ~22:35 ET 11/9): frozen bars.
+Competitive bids ¥1,512.6B, accepted ¥450.7B → **BTC 3.356×**. Lowest-price yield 3.871%, average 3.847% → **tail 2.4bp**. Non-price-competitive I ¥148.8B.
+
+**Grade under the frozen bars: SOFT, on both legs** (SOFT = BTC < 3.5 OR tail > 2.0bp): BTC 0.144× below 3.5, tail 0.4bp above 2.0. Trip margin above 0.1bp, so **no PRECISION-LIMITED tag**. `jgb_auctions.py` labels it "Orderly", which is its failure test (BTC < 2.0), not the frozen bars.
+
+| 30Y auction | BTC | Tail bp | Frozen grade |
+|---|---|---|---|
+| 6/10 | 2.936 | 2.8 | SOFT |
+| 9/3 | 3.788 | 2.1 | SOFT (tail) |
+| 10/8 | 3.877 | 1.2 | NEITHER |
+| **11/10** | **3.356** | **2.4** | **SOFT** |
+
+Weakest 30Y since June; tail second-largest of the 15 in the ledger (since 9/2025). The average yield (3.847%) is 26bp below October's (4.109%): demand was thinner at the lower yield, consistent with insurers treating ~4% as the attractive level (Meiji Yasuda, REPORTED 10/2026), not proven by it. Sold the same morning the hawkish Summary of Opinions came out. **No failure (BTC well above 2.0), no cross-agent signal fires, no gate or prediction moves**; SAM-33 concerns BOJ operations, not auctions. Evidence for THESIS Pillar 2 (mixed super-long sponsorship), descriptive only.
+
+## 7. Still to come in this session
+
 - SoftBank Group results (tanshin 01:30 ET, deck 02:30 ET): graded against `../2026-11-06_softbank/2026-11-10_RESULTS_LOOKUP.md` as written.
