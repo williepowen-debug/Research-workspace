@@ -1,0 +1,5 @@
+# FROZEN - rows rotated VERBATIM from board_log.tsv by scripts/board_log_append.py --rotate; read-only history. boot.py section 5 reads this file.
+timestamp_read	signal_id	disposition	source	notes
+2026-10-28T21:08	2026-10-26_from-ISHM_first-session-boundary	acted	INBOX_GENERAL	ASK answered by packet: RED holds no joint freight/HY episode set; recession range 4-12pct not re-marked
+2026-10-28T21:08	2026-10-26_from-ISHM_freight-breadth-and-tonnage	acted	INBOX_GENERAL	Sept carloads up 17/20: Managed +2 activity input S57
+2026-10-28T21:08	2026-10-26_from-NEXUS_full-review-real-contradictions	noted	INBOX_GENERAL	no US funding bridge from Brazil/France; consumed in the S57 narrative
