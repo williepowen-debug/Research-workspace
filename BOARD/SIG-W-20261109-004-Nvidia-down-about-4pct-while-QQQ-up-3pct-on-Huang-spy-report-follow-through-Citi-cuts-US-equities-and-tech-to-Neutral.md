@@ -19,6 +19,7 @@ entities: ["Nvidia", "Jensen Huang", "Alice Huang", "Megaspeed", "Citi", "QQQ", 
 word_count: 256
 dispatch_note: "Will asked whether bookmarks were processed; X bookmark batch read 15:50Z. Prices from WALTER's vendor pull. NYT and Citi originals unread."
 ---
+> **Correction, November 9 — SIG-W-20261109-011:** Jensen Huang has acknowledged the affair in an open letter on Nvidia's website, and Nvidia announced Sunday its own independent investigation (AP); Trump said Monday the FBI is "looking into it in terms of something else". The "romantic relationship" line below is no longer unnamed-source only, and the weekend change is now named. The rest of this card holds. Original text preserved below.
 # Nvidia down about 4% while QQQ is up about 3% on the Jensen Huang spy-report story; Citi cuts US equities and global tech to Neutral
 
 Vendor intraday 10:51 ET November 9, not closes: NVDA 179.40 (−3.88%), QQQ 676.62 (+3.13%), S&P 500 7,531.12 (+2.09%), CRWV 49.82 (+7.37%). Nvidia is lagging the index by about 7 points on a day the AI tape is up.
