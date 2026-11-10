@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated November 9, 2026, recent-commit review delivered. Orient and await Will.** [Assessment](runs/2026-11-09_2016_recent-commit-review.md): FLG S1 correction verified and closed; REGINALD S2–S5 remain unchanged owner work. Fleet-view tests 12/12 pass; no fleet-adoption or repaired-boot acceptance claimed. No remaining CATO task from this review. WQ-607 remains closed. [CHARTER](CHARTER.md) governs authority; [TASK_INDEX](TASK_INDEX.md) retains topic details and surviving approvals.
+**Updated November 9, 2026, review and boot advice delivered. Orient and await Will.** [Assessment](runs/2026-11-09_2016_recent-commit-review.md): FLG S1 closed; REGINALD S2–S5 remain owner work. [Boot advice](runs/2026-11-09_2016_recent-commit-review.md#november-9--advice-on-promes-boot-friction-account): laptop about 16 GB physical RAM, WSL capped at 6 GB; no imminent failure established by the short sample. Six overdue entries do not cause the calendar-size excess; no blanket tombstoning. Recommend the bounded OPEN-header sentence under existing approval. No machine change or owner work performed; no remaining CATO task. WQ-607 stays closed. [CHARTER](CHARTER.md) governs authority; [TASK_INDEX](TASK_INDEX.md) retains surviving approvals.
 
 ## Resume point
 
