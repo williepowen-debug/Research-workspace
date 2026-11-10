@@ -4,6 +4,11 @@
 
 ---
 
+## S62-b — 2026-11-10 17:47 ET (from `date`; PROME prome-07 on Will's 17:18 ET word) — **NO WEIGHT MOVED. No registered-trigger STATE changed.**
+
+- **CHG-RED-057:** graded a day early under the tree. Old view (11/06): Attack 6, SoftBank capacity, FAILED. New view: it SUCCEEDS ON CAPACITY, not on cause. On SoftBank's own basis with its disclosed ABB and settlement, 24.05%; one more $10B debt-funded check breaches 25%. Attack 4 net 0. CoreWeave raised its capex floor, so not STRONG. Grade MODERATE unchanged, re-review 11/19.
+- **SoftBank working read:** challenged; nothing BROKEN, five lines WEAKENED (ML-RED-330: a ratio that nets secured debt against collateral falls when the issuer pledges more). No weight moves; it feeds the post-11/12 re-derivation once, as AI-funding evidence.
+
 ## S62 — 2026-11-10 11:48 ET (from `date`; desktop, PROME prome-07 on Will's word 11:38 ET, SCRATCH items 0 to 9) — **NO WEIGHT MOVED. HOLD 72 · net-bear 68 unchanged. No registered-trigger STATE changed. Two challenges closed.**
 
 - **FT-08 (Oct CPI):** core +0.3 Table A (+0.296% unrounded), window 0.3/0.3/0.3 = 3.66 (index 3.75). Old view: "the fire very likely stands (exit P≈5%)." New view: "it stands; November must print ≤0.0 for an exit at 12/10 (RED-28)."

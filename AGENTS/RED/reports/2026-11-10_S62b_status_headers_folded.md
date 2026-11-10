@@ -1,0 +1,6 @@
+# RED STATUS header folded VERBATIM at S62-b, 2026-11-10 17:46 ET
+
+Folded text below the rule: 1069 B, crc32 4060234633 (the bytes after the '---' line and its newline, to end of file).
+
+---
+**S61 2026-11-10 10:13 ET (from `date`; closeout on PROME prome-1e's relay of Will 10:11 ET, laptop → desktop switch; booted 11/09 20:11 ET, status-only on Will's task): **HOLD 72 · net-bear 68, NO WEIGHT MOVED. One registered exit COUNT moved: FT-06 1 → 3 of 5** (VIXCLS 25.64 [11/06], 19.92 [11/09], both ≥18; 11/10 and 11/11 still needed, read 11/12; RED-29 50% held). FT-02 exit 0 of 3 (HY 342 [11/06]; 11/09 cell unpublished at 10:12 ET) · FT-10 exit 0 of 4 (SKEW 153.55 [11/06], 150.34 [11/09], Cboe) · 5y5y 2.19 [11/09]. Brent vendor 92.33 [11/09] and 90.59 [11/10 10:12, intraday], under WL-11's 95 price line, display only; reported Iran acceptance of Qatari terms is unconfirmed by either government (FALCON 11/09). **NOT DONE, owed at the next boot:** Oct CPI (printed 08:30 today) graded per the tree, SoftBank (SAM graded it, packet to PROME), household debt 11:00 ET, CoreWeave 17:00, CHG-054 OZK 10-Q review (due 11/09), CHG-045 canon cell fix (PROME packet in inbox), 4 corrections DEFERRED to 11/11. Pickup → `SCRATCH.md` § NEXT SESSION.**
