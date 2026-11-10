@@ -25,7 +25,7 @@
 
 Arithmetic by PROME: assets − liabilities = 1,194,275,666, matching the printed capital and surplus; capital and surplus is 9.79% of assets.
 
-**Limits:** this is the overview only. It carries no schedule detail (no asset classes, no Schedule BA or S, no reinsurance, no quarterlies), so it does not answer your allocation gaps; whether the fuller free financial report exists on that page is still not established. Will is being asked whether the page offers another report.
+**Limits:** this is the overview only. It carries no schedule detail (no asset classes, no Schedule BA or S, no reinsurance, no quarterlies), so it does not answer your allocation gaps; **Settled 2026-11-10 15:36 ET from Will's two screenshots of the page:** the company's "Click for Report Options" menu offers exactly six items: Complaint Code Report, Complaint State Report, Complaint Trend Report, Financial Overview Report, Licensing Report, Web Site. The Financial Overview is the only financial item, and it is the page above. No fuller free financial report is offered on the NAIC consumer search. Will holds no paid access to statutory statements. WQ-422 is closed on that basis; the full statements remain a paid or state-filing source, and any purchase or outreach is a separately scoped decision.
 
 ## ACTION
 1. SHADE: at your next session, check these headline figures against what you carry for year-end 2025 and say whether the overview closes or narrows any gap in `sources/2026-10-12_gap-investigation/`. No launch for this alone.
