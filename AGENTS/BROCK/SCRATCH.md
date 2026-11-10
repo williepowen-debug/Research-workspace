@@ -1,27 +1,20 @@
-# BROCK SCRATCH — 2026-11-06 handoff (closed on Will's 18:33 ET word via PROME; cards through 052)
+# BROCK SCRATCH — 2026-11-09 handoff (closed on PROME prome-9c's WQ-249 ask; Will 19:37 ET, desktop → laptop)
 
-Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-06.md`. Close read: KB-BRK-463, -464; data `research/2026-11-06_close-refresh/`.
+Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-09.md`. New KB rows: KB-BRK-466 to 471.
 
-**Close refresh DONE 11/06.** Inbox and WALTER lane empty at the commit. Cards 042 and 052 NO-OP, 051 APPLIED. No score moved.
+**Closed today:** inbox (FLG, OZK packets) and WALTER lane (SIG-W-20261109-002) drained. ADS Q3 FINAL graded, R2 (b) NOT FIRED. L927 RESOLVED as no filing, nothing graded (CRMT feed read 17:31 ET). Packet to PROME committed (`PROME/inbox/2026-11-09_from-BROCK_L927-no-filing-nothing-graded.md`). No score moved.
 
-**Next-boot first moves:**
-1. **Mon 11/09 ~10:10 ET:** the 11/6 HY cell, first-published. Series is LIQUID's. HY stays 348 [11/5] until then. Refresh CCC/BB, X1 own grade.
-2. **Mon 11/09 after ~16:30 ET or Tue 11/10 AM:** CRMT tenth-bridge STD, whole feed from 11/05 08:01 ET, every form, INDEX acceptance time. Feed read to 17:17 ET 11/06 was empty. Covers L927; backstop #7 L928 Tue 11/10.
-3. **Tue 11/10 17:00 ET:** CoreWeave Q3 (VULCAN's date).
-4. **Fri 11/13:** CABO hearing. Read the feed for Item 3.01, GTCR intervention, financing. Outcome press or 8-K only.
-5. **Mon 11/16:** BRK-11 re-run · R2 review if PROME moved it. **Tue 11/17 AMC:** GBDC, BRK-36.
-6. **~12/04:** BCRED Q4 letter; offer expires 12/1 11:59 pm ET, read from the feed; BRK-34 grades it at 55.0%. Apply P13 at NH/OCIC Q4 figures.
+**Next-boot first moves (laptop):**
+1. **Tue 11/10 AM: DOCKET L928**, CRMT Item 1.01 backstop #7 (any OTHER agreement dated ≤11/04). Same read also checks for an eleventh bridge or anything signed 11/09: full feed for CIK 0000799850 from 11/05 08:01 ET, every form incl. 1.03, 2.04 and Nasdaq 3.01, INDEX acceptance time. An agreement signed 11/09 is due on an 8-K by Fri 11/13. Silence grades nothing. Grade → KB, STATUS CRMT row, CATALYSTS 11/10 row, one packet to PROME.
+2. **Tue 11/10 08:30 ET:** CPI (HENRY's). **17:00 ET:** CoreWeave Q3 (VULCAN's date); read for the lender side only (DDTL draws, KB-BRK-425/457 holders).
+3. **Fri 11/13:** CABO hearing (L1058). Feed for Item 3.01, GTCR intervention, financing; outcome press or 8-K only. CourtListener 403; PACER ask-first.
+4. **Mon 11/16:** BRK-11 re-run · R2 review if PROME moves it. **Tue 11/17 AMC:** GBDC, BRK-36.
+5. **~12/04:** BCRED Q4 letter (offer expires 12/1). P13 applies at NH/OCIC Q4 figures.
 
 **Thread notes:**
-- 39-name discount: rerun `research/2026-11-06_close-refresh/nav39.py` from repo root. Nine June NAVs remain (PNNT CCAP BCSF PFLT WHF OCSL GLAD GBDC GAIN). Always split price from NAV refresh before quoting a move. A read below 25 touches VX-BRK-010's red floor; it does not move a score alone, and the RJ reading is unrefreshed.
-- CABO -16.7% and IREN +20.0% on 11/6: cause not established. One search each, nothing dated. Do not write a cause without a dated source.
-- Theme rows KB-BRK-445–449: update in the session an item arrives; review dates in Stale_By. Logging is not scoring.
-- Cable One call: replay listed to 12/03; last about 20% unread. Fool page's summary tail is unreliable. Quartr: never call.
-- 10-Q text extraction lives only in the session scratchpad; refetch by accession.
-- EDGAR: `from sec_contact import sec_ua` (scripts/). A browser-style UA gets 403. OTF CIK 1747777, MFIC 1278752, CABO 1632127.
-- corrections receipt: no semicolons in `--scope`, they are the field delimiter.
-- WALTER keeps delivering during a session: re-list `inbox/WALTER/` immediately before `git mv`.
-- MFIC: MD&A and SOI fn 14 read, call not. ARCC deal watch: Thomas, Heniff, Magnate carry 0.81 of cost on non-accrual (inference, REPORT §2).
-- Hertz Class B (KB-BRK-465): all $300M refusers sign through Oaktree, including ABF Rental Car Holdings. OSCF $85.71M at 99.49 [6/30/26]. Read OSCF's 9/30 schedule when its fiscal-year 10-K lands: marks predate the 11/02 amendment. 12/31 is the Class B funding date; a miss resets the commitment date to 8/31/2027 and the paydown to 6/28/2027; OTTO reads that as not an Amortization Event. Credit read is LIQUID's. EDGAR hit 'HVF III' at Apollo is Hybrid Value Fund, not Hertz. OSCF ($4.28B net assets, quarterly SC TO-I, NAV $22.32 [6/30] from $23.09 [9/30/25]) is not in PC_REDEMPTION_REGISTER; not added, no study run.
-- IE Mackenzie = IREN GPU 2.0, four Blue Owl funds; deep dive `research/2026-11-06_iren-mackenzie/REPORT.md` (KB-BRK-456, 459–461). Quote 99.15 of commitment, never FV/funded. Checkpoints: PIMCO Asset-Based Lending 10-Q ~11/16, N-PORTs ~11/29, last funding request 12/28, 12/31, IREN December 10-Q ~early Feb. Rows live in `docket/CATALYSTS.tsv`; no PROME wake is registered for them beyond the 11/16 and 12/31 rows.
-- Experiment A software FV/par cells for FSK, BXSL, OBDC owed; need a SOI parse.
+- EDGAR feed helper lives only in this session's scratchpad. Rebuild: submissions JSON `https://data.sec.gov/submissions/CIK##########.json` with `from sec_contact import sec_ua` (scripts/), filter `filings.recent` by filingDate, print acceptanceDateTime. CIKs: CRMT 799850, CABO 1632127, ADS 1837532, KBDC 1747172.
+- ADS Q3 10-Q 0001193125-26-449955 is unread (NA, PIK, NAV pass owed; separate passes, LESSONS #20).
+- ADS "16.8% Q2" in a search summary is unverified and equals OCIC's Q3 figure; do not use.
+- The 11/09 background watcher was killed by the harness at low system memory; a one-shot timed read after the 17:30 ET window worked.
+- Carried from 11/06, still live: 39-name discount rerun via `research/2026-11-06_close-refresh/nav39.py` (split price from NAV refresh before quoting a move); CABO 11/6 -16.7% cause not established; Hertz Class B / OSCF note in KB-BRK-465; IREN checkpoints in `docket/CATALYSTS.tsv`; Experiment A FSK/BXSL/OBDC software FV/par cells owed (SOI parse); CATALYSTS past-dated rows without a prefix (STATUS carried debt).
+- Quartr: never call. corrections receipt: no semicolons in `--scope`. Re-list `inbox/WALTER/` right before `git mv`.
