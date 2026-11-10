@@ -36,9 +36,11 @@ HEN-63 and the curve are HENRY's and BOND's; venue odds are ORACLE's. Not re-und
 | ORCL Dec-18 115/100P | NOT FIRED | ORCL $118.29 −1.25%, T2 (≥ $120) fails | None |
 | QQQ Dec-18 670/680C (not approved) | NOT FIRED | QQQ $671.83 −1.11%; VIX 20.60 / VIX3M 21.42 = 0.96 | None |
 
-**The point that matters for the hedge:** today HYG fell on **rates**, not on credit spreads. The 10-year rose about 13 bp; HYG carries roughly three to four years of Treasury duration, which by itself accounts for most of −0.54% (rough, not a fitted sensitivity; the WQ-513 card's "Rate leg" row makes the same point). The HY spread for 11/10 is not published until about 11/11. A hawkish Fed is a second way for this spread to make money that the card did not underwrite. **Construction rule #23 applies: profit from a mechanism the card did not underwrite is evidence against the card, so no add on a rates-driven gain.** It does not touch entry: the card's job (credit follows equities) is unchanged, and the entry rule is price, not colour, under WQ-663 B.
+**The point that matters for the hedge:** rate sensitivity plausibly explains most of today's HYG move; same-day credit attribution is unmeasured until the 11/10 HY spread prints. *(Narrowed 2026-11-10 13:2x ET on CATO MC3 via PROME; the first wording said HYG fell on rates, not on credit spreads, which the evidence here cannot show.)* The 10-year rose about 13 bp; HYG carries roughly three to four years of Treasury duration, which by itself accounts for most of −0.54% (rough, not a fitted sensitivity; the WQ-513 card's "Rate leg" row makes the same point). The HY spread for 11/10 is not published until about 11/11. A hawkish Fed is a second way for this spread to make money that the card did not underwrite. **Construction rule #23 applies: profit from a mechanism the card did not underwrite is evidence against the card, so no add on a rates-driven gain.** It does not touch entry: the card's job (credit follows equities) is unchanged, and the entry rule is price, not colour, under WQ-663 B.
 
 The pair condition stands as written: if WQ-513 fires while the hedge is filled, the pair risks up to $711.70 and needs Will's word.
+
+**Measured read, owed:** HY OAS for 11/10 (FRED, about 10:10 ET 11/11 or later around the Veterans Day holiday). Added here when it publishes: the change from 334 [11/9] is the credit part of the day; the rest is the estimate above.
 
 ## 4. New idea from the CPI / Waller read: NO CARD
 
