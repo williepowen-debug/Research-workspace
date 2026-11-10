@@ -366,3 +366,21 @@ Historical text below preserves the size incident and findings28/29/41/43. Curre
 38. **ROTATED 2026-10-08 (laptop Tier-2) verbatim → [`MEMORY_PROMOTED.md`](MEMORY_PROMOTED.md)**: owning surfaces are the sizing records `research/2026-10-01_R3/*-sizing.md`.
 45. **ROTATED 2026-10-29 (read-cap) verbatim → [`MEMORY_PROMOTED.md`](MEMORY_PROMOTED.md)**: owning surface = root CLAUDE.md closeout step 1e (claim_check weekday; run before first commit).
 46–47. **ROTATED 2026-10-10 PM (walter-66) verbatim → [`MEMORY_PROMOTED.md`](MEMORY_PROMOTED.md)**: both acquired owning surfaces this session — #46 `design/SIGNAL_PROCESSING_CHECKLIST.md` v0.51 rule 1b; #47 `design/X_BOOKMARKS_ACCEPTANCE.md` LIVE UPDATE 2026-10-10.
+
+## Rotation 2026-11-10T20:02:51Z — read-cap (MEMORY at 24,418 B > 75% trigger, walter-96 Tier 2 closeout); preserved verbatim
+
+42. **A capacity add inside a disciplined oligopoly is material even with no capex guide.** 10/02: WALTER killed the TrendForce 'Toshiba doubles HDD capacity, $380M' lane row at 12:33 ET as a single-vendor capacity add; STX/WDC fell ~10% on it by 15:58 ET (`-024`, kill re-opened). **Before a materiality kill, ask: does the market leaders' story rest on SUPPLY RESTRAINT? If yes, any new unit is the story.** → kill_log re-open row 10/02
+
+**✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
+
+Session-note text:
+
+November 6 night: walter-e1 on the laptop WilliePOwen, X token refresh fails here, `last` shows no boot 09:04 to 19:27 ET, so prior sessions labelled laptop today were likely the desktop; check `hostname` before writing a machine label. November 6 FULL CLOSED on Will's 18:33 ET word via PROME; window stays reachable for WQ-646 through Sunday. LAST_COMPLETION owns duties. Laptop: X token working this session; sec.gov Archives document fetch 403 from this client, data.sec.gov submissions works, never evade; TE pages no parseable level; `bdata` absent; HANS screen is ideal-investisseur.fr/en/markets/oat-bund-spread.html. A live blog stamp is not the event date (card 018).
+
+Size-trigger history clause from MEMORY.md line 4, verbatim:
+
+Calendar check done 2026-10-29 FULL; 2026-10-29 midday the 75% trigger fired (24,734 B after #57) and #33/#35–#37/#45 rotated verbatim to MEMORY_PROMOTED.md; calendar check done 2026-11-05 (22.6 KB, no rotation); 2026-11-05 closeout 24,614 B over the trigger, rotated; next 2026-11-12.
+
+Feedback line (owning surface: CLAUDE.md step 1), verbatim:
+
+- [2026-05-21] **Read domain-agent STATUS at boot, not just at LIAISON setup.** Domain agents have continuous-monitoring inputs WALTER doesn't subscribe to (the Iran-anchor re-verify missed the Barakah 5/17 strike; BRENT's STATUS had it). Make "read the relevant domain-agent STATUS" a standard input for any anchor re-verify. *(2nd validation 6/10: domain reads contribute FRAMING, not just missed events. 3rd 6/20: ≥3 owners triangulating from multiple primaries can SUBSTITUTE for a redundant independent WebSearch — but only if they applied symmetric skepticism; a one-sided fleet read → spawn the sweep anyway per `[[feedback_verify_existence_external_primaries]]`.)*
