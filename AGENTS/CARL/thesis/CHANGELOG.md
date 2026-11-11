@@ -8,6 +8,16 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-11 — Catch-up: October CPI and Waller read for consumer credit; gas below $4.00; no version, score or mark change
+
+- **CRL-34:** Notes only. Leg 1 of 2 met (GASREGW 11/09 $3.995); leg 2 = 11/16 print. Mark held at 72%.
+- **CRL-36:** Notes only. RED's press accepted: 70% is not defended (2-of-3 base rate gives 60% small-sample corrected; both named risks lean NO). Mark held because it was registered under WQ-596 on 11/06; re-mark to 60% offered to PROME, not executed.
+- **V5:** AAA below $4.00 on 11/10 and 11/11; registered downgrade clock day 2 of 14 (earliest 11/24). No score move.
+- **V12:** Waller's 50bp text reinforces; un-fire 0 of 2; score 5 unchanged.
+- Record: `research/2026-11-11_catchup/READ.md`; KB-CARL-615 to 618.
+
+---
+
 ## 2026-11-10 — Q3 HHDC graded: CRL-33 MISSED; re-spec kill NOT FIRED, superseded shadow MET (divergence to PROME); beef read (no version or score change)
 
 **What:** NY Fed Q3-2026 HHDC (11/10 11:00 ET), Q3 vintage, 0 revisions vs the Q2 file on Pages 12 and 14 CC. PROME DOCKET D:L1017 and D:L797, PROME prome-07 wake.
