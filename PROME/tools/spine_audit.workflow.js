@@ -85,8 +85,11 @@ const GROUPS = [
   // /spineaudit point at an agent def and this script). Adding those three would
   // buy 2 readers/week of coverage over a near-zero divergence surface — the
   // "more work for little benefit" test. Add them IF they ever grow a manual.
-  // 8 readers / 16 files (+ 1 DOCKET anchor sampler).
   ['PROME/.claude/skills/boot/SKILL.md', 'PROME/.claude/skills/closeout/SKILL.md'],
+  // Companion coverage (spine audit 19 residue, D:L1084, 2026-11-11): the rotations
+  // moved live closeout and boot procedure into these two files and no reader
+  // owned them. 9 readers / 18 files (+ 1 DOCKET anchor sampler).
+  ['PROME/CLOSEOUT_PROCEDURES.md', 'PROME/BOOT_MODULES.md'],
 ]
 
 const CANON = `CANON ANCHORS (read these FIRST; they win on any conflict):
