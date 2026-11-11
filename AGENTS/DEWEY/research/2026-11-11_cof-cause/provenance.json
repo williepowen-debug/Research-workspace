@@ -1,0 +1,22 @@
+[
+  {
+    "key": "q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000089/cof-20260630.htm",
+    "sha256": "85fc94dc1012112de2aa8dccd2726ce03be16ab640d90612d44bc82a9facfd5b",
+    "bytes": 8330696,
+    "retrieved_at": "2026-11-11T17:20:32.812960+00:00"
+  },
+  {
+    "key": "q3",
+    "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm",
+    "sha256": "d0b65eea195f9879e1d32986b0b4b297257034e8e90e7b19f8ea6b9909a02e04",
+    "bytes": 8264004,
+    "retrieved_at": "2026-11-11T17:20:35.881346+00:00"
+  },
+  {
+    "key": "deck",
+    "url": "https://investor.capitalone.com/static-files/36a3bfb0-0fb4-4a31-b153-bedfa4b9cbdd",
+    "retrieval_error": "HTTP 403 for https://investor.capitalone.com/static-files/36a3bfb0-0fb4-4a31-b153-bedfa4b9cbdd\n  sec.gov wants a DECLARED-CONTACT User-Agent ('Research NAME email'); a browser UA is 403'd here",
+    "fallback": "web tool opened full issuer deck; no local byte hash"
+  }
+]
