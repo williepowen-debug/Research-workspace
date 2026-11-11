@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Read-only runtime evidence beside due rows. Never a global census or spawn grant."""
+"""Read-only runtime evidence beside due rows. Never a global census or spawn grant.
+
+LIMIT (D:L901, recorded 2026-11-11): a desk run as an in-session agent of a PROME session is
+listed under PROME and its own desk row shows no session. A launch preflight never relies on
+this tool's desk row for such a desk; ListAgents and the host process list see it.
+"""
 import argparse
 import datetime as dt
 import json
