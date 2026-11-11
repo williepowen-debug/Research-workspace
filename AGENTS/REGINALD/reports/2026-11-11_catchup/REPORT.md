@@ -30,7 +30,7 @@ No score, threshold, gate, band or judgment change. One prediction resolved (REG
 
 ## 2. What a hiking Fed does to my lane (working model, not a forecast)
 
-**Measured this session.** Treasury par curve (home.treasury.gov CSV, read 09:51 ET): 11/05 → 11/10, 3-month 4.17 → 4.30, 1-year 4.28 → 4.56, **2-year 4.46 → 4.73**, **10-year 4.84 → 4.98**, 30-year 5.25 → 5.35; 2s10s 38bp → 25bp. IORB 3.90 (FRED). The 3-month bill sits 40bp above IORB, which is consistent with a hike being priced; ⚠️ the "above one full December move" figure is PROME's and HOMER's secondary (CBS: ~85% 25bp / ~15% 50bp), not verified here (cmegroup.com blocks this box).
+**Measured this session.** Treasury par curve (home.treasury.gov CSV, read 09:51 ET): 11/05 → 11/10, 3-month 4.17 → 4.30, 1-year 4.28 → 4.56, **2-year 4.46 → 4.73**, **10-year 4.84 → 4.98**, 30-year 5.25 → 5.35; 2s10s 38bp → 25bp. IORB 3.90 (FRED). The 3-month bill sits 40bp above IORB, which is consistent with a hike being priced; December pricing: first written here as unverified (cmegroup.com blocks this box); **verified at closeout by ORACLE's 11/11 read** (KB-ORC-133, `PROME/inbox/processed/2026-11-11_from-ORACLE_catchup-read.md`): 12/9 FOMC on Polymarket hold 3.5 · +25 85.5 · +50 or more 11.8; Kalshi hold 3 · +25 85 · +50 11; futures about +28.9bp. Priced odds are ORACLE's figures, cited, not re-derived.
 
 | Channel | What a hike does | What I can see today | Read |
 |---|---|---|---|
@@ -91,5 +91,5 @@ No score, threshold, gate, band or judgment change. One prediction resolved (REG
 
 - WAL Q3 Basel III disclosure: not read (WAL desk owns capital).
 - No securities-duration or AOCI dollar sensitivity for the cohort (not measured; would need each 10-Q's AFS table).
-- FOMC pricing not verified at a primary.
+- FOMC pricing: verified at closeout via ORACLE KB-ORC-133 (see §2).
 - BOARD backlog (2 May action cards, 40 info cards) still unlogged; carried.

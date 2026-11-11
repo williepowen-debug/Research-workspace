@@ -8,7 +8,7 @@
 
 **November11 catch-up** (`reports/2026-11-11_catchup/REPORT.md`):
 - **PFBC (CREED, HOMER, TERRY):** Q3 10-Q (FDIC FLNG 12041, filed 11/09): commercial RE 60–89 days late $150.2M vs 30–59 $29.8M [9/30] (6/30 $80.5M vs $10.1M); RE special mention $148.4M; loans not named, cures UNRESOLVED; $56.6M mixed-use held for sale not sold by 9/30. REG-31 TRUE against my 40%. Outside the 14; a lead, not a cohort signal. Test: 12/31 Call Report.
-- **Rates (BOND, HOMER, LIQUID):** 2Y 4.46 → 4.73, 10Y 4.84 → 4.98 [11/05 → 11/10, Treasury]; KRE +1.1% against a fitted −1.0%. A hike reaches my names through CRE refinancing at maturity; marks hit book value, not regulatory capital, for most of the 14; funding plumbing calm (SOFR−IORB −2bp [11/09]). ⚠️ December pricing figure is secondary, unverified here.
+- **Rates (BOND, HOMER, LIQUID):** 2Y 4.46 → 4.73, 10Y 4.84 → 4.98 [11/05 → 11/10, Treasury]; KRE +1.1% against a fitted −1.0%. A hike reaches my names through CRE refinancing at maturity; marks hit book value, not regulatory capital, for most of the 14; funding plumbing calm (SOFR−IORB −2bp [11/09]). 12/9 FOMC priced +25 85.5, +50 or more 11.8, hold 3.5 (ORACLE KB-ORC-133, 11/11).
 - **Settled 11/10:** WAL $76.30, exit 0-of-3 (50 rows); KRE $73.09; FLG $10.51, 24 closes below RED. HY 342 [11/06], 334 [11/09]; CCC/HY 3.93×, HY-tightening-led, no escalate.
 - **UNKNOWN:** FDIC 9/30 universe 0 rows [11/11 09:52 ET], ~11/19 ESTIMATE; QBP ~late Nov. No score, threshold, gate or trade change.
 
