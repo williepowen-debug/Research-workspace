@@ -6,7 +6,7 @@ November 11, 2026. Will requested review of DEWEY's completion and interpretatio
 
 Accept the population leg as useful delivered research. Its headline arithmetic reproduces. The full $10–100 billion aggregate contradicts extrapolation from the six selected banks; it does not establish that all banks are healthy or that the six-bank observations are wrong. The group's year-over-year deterioration remains. Banks above $100 billion and below $1 billion are outside these two bands.
 
-Recommend a bounded owner follow-up on United Fidelity's multifamily treatment and realized losses, ahead of another population download or expanded historical study. Explain why the loans moved to nonaccrual, identify the remaining exposure and loss absorption, and connect any shared collateral/geography/sponsor exposure to the relevant banks. This is advice, not a new assignment or trade. If public evidence cannot explain the change, preserve UNKNOWN rather than infer an examiner directive, fraud, imminent failure, or harmless bookkeeping.
+The recommended bounded United Fidelity follow-up was delivered by DEWEY at `3f8e19588f`. Losses, remaining exposure and reported capital damage are now established in the inspected filing perimeter; the specific cause remains UNKNOWN. The next useful evidence is post-quarter remediation, current supervisory status and affected-property/recovery mapping. This is advice, not a new assignment, population rerun or trade. See the dated follow-up below.
 
 ## Findings and evidence
 
@@ -22,7 +22,7 @@ Read DEWEY's original October 22 study summary: 2/10 episodes hit the specified 
 
 ## Remaining actions, owners and stopping point
 
-- REGINALD/domain owners: interpret United Fidelity's mechanism, remaining loan economics and loss absorption using primary evidence; close only with a supported explanation or explicit public-source limit. Priority recommendation only, no automatic launch.
+- REGINALD/domain owners: DEWEY has delivered the loss/exposure/capital leg. Mechanism, subsequent capital remediation and property-level recovery remain unresolved; close only with primary evidence or an explicit public-source limit. Priority recommendation only, no automatic launch.
 - REGINALD/DEWEY: EagleBank's $135K/$167K residual bridge and schedule-scope ambiguity remain UNKNOWN. Preserve them without allowing an unresolved exact reconciliation to invalidate the independently reproduced population result. Do not invent a principal/book-value explanation.
 - WAL/DEWEY: obtain the missing Plaza economics/documents within the existing commission and access permissions; occupancy alone does not close recovery questions.
 - TERRY: existing report recipient for tradeability. A report pointer or “descriptive only” line is not evidence that a tradeability assessment was completed. No new trade or claimed recipient acceptance here.
@@ -39,3 +39,16 @@ Before this assignment, PROME requested temporary custody of nine Decisions mvp 
 ## Delivery checks
 
 Weekday check passed on the five existing/readable inputs: PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, AGENTS/CATO/CONTINUITY.md and this report. Six startup inputs verified readable and below cap: AGENTS/CATO/AGENTS.md, CHARTER.md, CONTINUITY.md, root CLAUDE.md, USER.md and AGENTS.md. Orphan advisory showed concurrent non-CATO work in PROME, CRUISE/WALTER inboxes and memory; preserved, no CATO-authored external path. Git whitespace check passed. No ledger or auto-memory change; no superseded canonical financial figure requiring a consumer scan. Exact-path Git delivery follows; receipt supplied in chat.
+
+
+## November 11 follow-up — capital evidence changes the assessment
+
+Will relayed DEWEY's completed focused follow-up, commit `3f8e19588f`, report `AGENTS/DEWEY/output/2026-11-11_united-fidelity-losses-and-capital.md`. CATO read the report and independently extracted the June and September original SDF sources already preserved in the population archive. RIAD3588 0→362453 establishes $362.453 million Q3 multifamily charge-offs (also the YTD figure); RIAD4340 −2790→−249641 gives $246.851 million Q3 net loss. RCON1460 2721595 and RCON3501 2143246 verify remaining multifamily and nonaccrual balances. RCFA3792 728416→402133 and RCFAA223 4828713→5535471 reproduce total capital ratios 15.0851%→7.2647%. The fixed-RWA arithmetic gap to 8% is $40.70468 million, not a full recapitalization need or safe loss budget. No fresh filing retrieval or loan-level audit.
+
+**DB2 follow-through:** realized losses and capital damage are now established; the recommended loss/exposure/capital leg is satisfied. Remaining specific cause and collateral recovery are explicitly unknown, not grounds to repeat the population study. The next useful question shifts to what has happened since September 30: eligible new capital, other remediation, supervisory action and mapped exposure. No present-day solvency, failure timing, sale mandate or sector contagion conclusion follows automatically from the quarter-end filing.
+
+Freshly read official OCC order 2023-031, Article IV: historical minimums CET1 8%, leverage 9%, Tier 1 10%, total 12%; disposition provisions require the specified conditions and supervisory written direction. Source https://www.occ.gov/static/enforcement-actions/ea2023-031.pdf (printed pp.3–6). DEWEY's relay omits these bank-specific higher minimums; they are material context, with current modification/termination status unverified. The current 12 CFR 6.4 text at https://www.law.cornell.edu/cfr/text/12/6.4 corroborates the ordinary below-8% numerical undercapitalized test. Direct eCFR retrieval failed. This is a filing-to-rule comparison, not independent proof of a new OCC notice or current post-quarter classification. These distinctions should survive any shortened relay.
+
+DB1/DB3 population conclusions and DB4 Plaza limits remain unchanged. EagleBank reconciliation remains separately unresolved. TERRY's completed tradeability read remains unverified. No new audit, launch, message or owner edit. CATO review is complete; await Will. Delivery checks repeated only for changed report/continuity and root-required inputs; results recorded below.
+
+Follow-up checks: the same five weekday inputs passed; the same six startup inputs were readable and under cap. Orphan advisory clean at delivery; whitespace check passed and shared index empty. No canonical figure superseded, ledger or auto-memory changed.
