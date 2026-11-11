@@ -27,15 +27,19 @@
 | Wed Nov 4 | 10:00 | ISM Services | Oct | ISM (printed 11/4, 54.5, per WALTER SIG-W-20261104-005) | Prices vs demand |
 | Thu Nov 5 | 8:30 | Productivity and Costs (prelim) | Q3 | BLS | Unit labor cost |
 | **Fri Nov 6** | 8:30 | **Employment Situation (NFP)** | Oct | BLS | LABOR owns; HENRY logs market reaction |
+| Fri Nov 6 | 10:00 | U. Michigan consumer sentiment, preliminary | Nov | UMich 2026 release-date PDF | Inflation expectations (1-yr, 5–10-yr); CARL owns the consumer read |
 | **Tue Nov 10** | 8:30 | **CPI** + Real Earnings | Oct | BLS | Headline vs core, energy share |
 | Wed Nov 11 | — | Veterans Day, no BLS releases | — | BLS | — |
 | **Fri Nov 13** | 8:30 | **PPI** | Oct | BLS | FD m/m >0.4/>0.5/>0.6 |
 | Tue Nov 17 | 8:30 | Retail sales (advance) + Import/Export prices | Oct | Census / BLS | Consumer demand |
 | Wed Nov 18 | 8:30 | Housing starts | Oct | Census | — |
 | Fri Nov 20 | 10:00 | State employment | Oct | BLS | Florida read (CORAL/MARCO) |
+| Fri Nov 20 | 10:00 | U. Michigan consumer sentiment, final | Nov | UMich 2026 release-date PDF + sca.isr.umich.edu "next data release" note (read 11/11) | Inflation expectations; CARL owns the consumer read |
 | **Wed Nov 25** | 8:30 | **GDP second + corporate profits; Personal Income and Outlays (PCE)** | Q3 / Oct | BEA | Core PCE; profits |
 | Wed Nov 25 | 8:30 / 10:00 | Durable goods; new home sales | Oct | Census | — |
 | Thu Nov 26 | — | Thanksgiving, no releases | — | — | — |
+
+**University of Michigan consumer sentiment, 10:00 ET, added 2026-11-11 (WALTER packet a34c796f9d: the 11/6 preliminary went uncarded about 8 hours because it was not listed here).** Dates read 11/11 13:4x ET from UMich's own release-date PDFs (data.sca.isr.umich.edu, survey-info page, "2026 Release Dates" docid 79628 and "2027 Release Dates" docid 81621); 10:00 ET from the sca.isr.umich.edu next-release note. Beyond this window: **Dec 4 (Fri) December preliminary · Dec 18 (Fri) December final · 2027: Jan 8 prelim, Jan 22 final, Feb 12 prelim, Feb 26 final, Mar 12 prelim, Mar 25 final (a THURSDAY, flagged in UMich's PDF).** UMich notes November and December interviewing runs off its normal pattern for holidays. CARL owns the consumer read; HENRY reads the inflation-expectations leg for the rate path.
 
 **Senior Loan Officer Survey (SLOOS), quarterly, 2:00 PM ET, added 2026-11-05 (WALTER 031: the October survey posted 11/2 and went unrouted because it was not listed here).** Next: January 2027 survey, **ESTIMATED Mon Feb 1, 2027**, the Monday after the Jan 26–27 FOMC. The Fed has not published this date; its 2027 monthly calendar pages returned 404 on 11/5. The pattern held on all four 2026 releases (Feb 2, May 4, Aug 3, Nov 2, read at the Fed's calendar, survey pages and FOMC page 11/5). Confirm at the Fed's February 2027 calendar when it posts. REGINALD and LIQUID hold the read; HENRY reads the equity consequence.
 
