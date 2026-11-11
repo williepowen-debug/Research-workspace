@@ -40,3 +40,17 @@ Runtime: Claude Code, Opus 5.5 (`claude-opus-5-5`), launched from AGENTS/HENRY. 
 | HEN-58 | PPI 11/13 | OPEN, untouched |
 | CYPHER ESCALATION_WATCH row 9, collapse leg (WQ-635 A; my price read, CYPHER's row) | PANW ≤ $289.24 AND ≥10.0 points behind HACK, 2 consecutive adjusted closes, graded at the 11/18 close | NOT BREACHED on the 11/10 close: PANW 326.36 (−4.09% from 340.28), HACK 115.29 (−2.61% from 118.38), PANW 1.48 points behind (yfinance adjusted). Bank leg unsized |
 | RED-FT-06 / RED-29 (RED's rows, not mine) | VIXCLS ≥ 18 | VIX 18.33 pre-open; RED grades 11/12 |
+
+## 4. Opening re-run, 09:48–09:49 ET (live vendor spot; Cboe chain spot lagged at 7,600.23 and 687.55, so the publish uses vendor spot)
+
+| Chain | Spot (vendor 09:48 ET) | Flip 14d / 35d | Net GEX per 1% 14d / 35d | Walls | Spot vs flip |
+|---|---:|---:|---:|---|---|
+| SPX | 7,575.26 (+0.72%) | ~7,621 / ~7,624 | **−$17.7B / −$22.4B** | put 7,500, call 7,700, clean both | ~46–49 pts (0.6%) UNDER → NEGATIVE, deeper than pre-open |
+| QQQ | 684.44 (+1.43%) | ~690 / ~691 | −$0.9B / −$1.1B | put 680 (14d band 680–685), call 700 | ~6 pts UNDER → NEGATIVE |
+| NDX | 28,140.36 (+1.44%) | ~27,970 / ~28,118 | +$0.3B / +$0.0B | put 28,000, call 29,675, clean both | 22–170 pts ABOVE → POSITIVE but at zero on 35d |
+
+**The gap did not reach the flip.** The S&P traded near 7,600 around the open (Cboe chain spot) and faded to 7,575 by 09:48, about 0.6% under the flip, where the negative book is larger than at the pre-open implied level. That is the behaviour the map predicts for a move that stalls under the flip: hedging adds to the fade as readily as it added to the gap. The next concentration below is 7,500, about 1.0% down. NDX is at its 35d flip (net zero), so Nasdaq hedging is neutral and gives no damping either way.
+
+**Breadth narrowed after the open (vendor 09:48 ET):** SPY +0.71% vs RSP +0.23%; IWM +0.48%; DIA −0.16%; SMH +3.04%; NVDA +1.78% (from +3.4% premarket); CRWV +12.37%. VIX 18.19, VIX9D 16.92.
+
+**Rates firmed further (Treasury futures 09:38 ET vendor last vs the vendor 11/10 bar, not settlement):** ZT 101.934 (2Y about +4–5bp), ZN 106.016 (10Y about +3–4bp), ZB 106.813 (30Y about +3bp). ZQZ26 95.920 = +28.2bp, the same as Tuesday's 16:01 ET last trade (the 08:51 ET 95.915 was one tick firmer). Conversions from futures price to yield use approximate durations (2Y ~1.9, 10Y ~6, 30Y ~11.5): signs robust, basis points approximate.
