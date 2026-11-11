@@ -1,0 +1,92 @@
+card-desktop [{"name": "Versioned card shows exact question and choices", "pass": true}, {"name": "Locked conditions visible", "pass": true}, {"name": "Explicit recommended option enabled", "pass": true}, {"name": "Matching chat confirmation retained", "pass": true}, {"name": "Review keeps conditions", "pass": true}, {"name": "No answer fabricated", "pass": true}, {"name": "Fits viewport", "pass": true}]
+card-narrow [{"name": "Versioned card shows exact question and choices", "pass": true}, {"name": "Locked conditions visible", "pass": true}, {"name": "Explicit recommended option enabled", "pass": true}, {"name": "Matching chat confirmation retained", "pass": true}, {"name": "Review keeps conditions", "pass": true}, {"name": "No answer fabricated", "pass": true}, {"name": "Fits viewport", "pass": true}]
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53458)
+Traceback (most recent call last):
+  File "/tmp/cato-wq639-20261111/AGENTS/CATO/prototypes/decisions/mvp/server.py", line 45, in do_GET
+    return self.send(200, store.display())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-20261111/AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py", line 61, in send
+    return original(handler, status, value, mime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-20261111/AGENTS/CATO/prototypes/decisions/mvp/server.py", line 29, in send
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/tmp/cato-wq639-20261111/AGENTS/CATO/prototypes/decisions/mvp/server.py", line 53, in do_GET
+    return self.send(503, {"error": f"Source/store unavailable: {type(error).__name__}. No empty inbox or permission is inferred."})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-20261111/AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py", line 61, in send
+    return original(handler, status, value, mime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-20261111/AGENTS/CATO/prototypes/decisions/mvp/server.py", line 28, in send
+    self.end_headers()
+  File "/usr/lib/python3.12/http/server.py", line 538, in end_headers
+    self.flush_headers()
+  File "/usr/lib/python3.12/http/server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 35738)
+Traceback (most recent call last):
+  File "/tmp/cato-wq639-20261111/AGENTS/CATO/prototypes/decisions/mvp/server.py", line 45, in do_GET
+    return self.send(200, store.display())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-20261111/AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py", line 61, in send
+    return original(handler, status, value, mime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-20261111/AGENTS/CATO/prototypes/decisions/mvp/server.py", line 29, in send
+    self.wfile.write(body)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/tmp/cato-wq639-20261111/AGENTS/CATO/prototypes/decisions/mvp/server.py", line 53, in do_GET
+    return self.send(503, {"error": f"Source/store unavailable: {type(error).__name__}. No empty inbox or permission is inferred."})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-20261111/AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py", line 61, in send
+    return original(handler, status, value, mime)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-20261111/AGENTS/CATO/prototypes/decisions/mvp/server.py", line 28, in send
+    self.end_headers()
+  File "/usr/lib/python3.12/http/server.py", line 538, in end_headers
+    self.flush_headers()
+  File "/usr/lib/python3.12/http/server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+real-pilot [{"name": "Real pilot has integrated receipt", "pass": true}, {"name": "No current clarification demand", "pass": true}, {"name": "No resend or answer button for recorded pilot", "pass": true}, {"name": "Exact saved history remains accessible", "pass": true}]
+RESULT_FILE /mnt/c/Users/willi/AppData/Local/Temp/cato-wq639-browser-3ephk125/results.json

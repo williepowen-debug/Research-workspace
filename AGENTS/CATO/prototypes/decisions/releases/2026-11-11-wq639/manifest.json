@@ -1,0 +1,17 @@
+{
+  "base": "9cc3bfd7bf8f5a9898f206ca8f8e537ea97a8315",
+  "status": "AUTHOR_TESTED_NOT_INSTALLED",
+  "changed_files": {
+    "AGENTS/CATO/prototypes/decisions/mvp/app.py": "0158069165fe0e9dac23419e2ee4942402bf0a10f09c7fd7f03672b03b2bd8af",
+    "AGENTS/CATO/prototypes/decisions/mvp/desk.html": "2ab2a7cee10f497806db5153cac9103db82c645d19ac226c37460c23b0597f4c",
+    "AGENTS/CATO/prototypes/decisions/mvp/options.py": "09383f1fc05fecf16f242a9819b09bdd31b6e7f1ac9a7301ff38ed788cc46509",
+    "AGENTS/CATO/prototypes/decisions/mvp/queue_store.py": "2739032d36f49d232886d3098a754d90b8de0c8b421c4f4eaa6a3a4fc9125f16",
+    "AGENTS/CATO/prototypes/decisions/mvp/author_card.py": "7a70e9d936d22cf192fa20acfc9bd1ccfda6900288558b5e3da9039c5a941ca4",
+    "AGENTS/CATO/prototypes/decisions/mvp/WQ639.md": "4ee35725089a8a81b31474541d190bf707dea6a219b469906ed9830e8d59cfe9",
+    "AGENTS/CATO/prototypes/decisions/mvp/test_wq639.py": "21a52c54d028a9d8f608db4c98f198b5e08b4b3125eb0a09464b113b2266e5e7",
+    "AGENTS/CATO/prototypes/decisions/mvp/test_wq639_browser.py": "56cef3f81ec067c0b39ee90e14ff3b0f601b92e89f605594fbe7218cb9b451a7",
+    "AGENTS/CATO/prototypes/decisions/mvp/fixtures/wq639-real-producer.json": "e5755186982ef35a22a485e431beceaa2a9fd535fef36cec89c5dcd64230ecb1"
+  },
+  "candidate_patch_sha256": "60813c6bdd02b9281ff1b1f36c9b6c3fab344f084b50a0ddea3157439039ada5",
+  "live_acceptance_sha256": "8a49d2a6f40f670d28f421b20d5d6063aa722bd13e2bc3727fb484f0b43e2e4c"
+}

@@ -1,0 +1,89 @@
+{
+  "card-desktop": {
+    "checks": [
+      {
+        "name": "Versioned card shows exact question and choices",
+        "pass": true
+      },
+      {
+        "name": "Locked conditions visible",
+        "pass": true
+      },
+      {
+        "name": "Explicit recommended option enabled",
+        "pass": true
+      },
+      {
+        "name": "Matching chat confirmation retained",
+        "pass": true
+      },
+      {
+        "name": "Review keeps conditions",
+        "pass": true
+      },
+      {
+        "name": "No answer fabricated",
+        "pass": true
+      },
+      {
+        "name": "Fits viewport",
+        "pass": true
+      }
+    ],
+    "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-wq639-browser-3ephk125/card-desktop.png"
+  },
+  "card-narrow": {
+    "checks": [
+      {
+        "name": "Versioned card shows exact question and choices",
+        "pass": true
+      },
+      {
+        "name": "Locked conditions visible",
+        "pass": true
+      },
+      {
+        "name": "Explicit recommended option enabled",
+        "pass": true
+      },
+      {
+        "name": "Matching chat confirmation retained",
+        "pass": true
+      },
+      {
+        "name": "Review keeps conditions",
+        "pass": true
+      },
+      {
+        "name": "No answer fabricated",
+        "pass": true
+      },
+      {
+        "name": "Fits viewport",
+        "pass": true
+      }
+    ],
+    "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-wq639-browser-3ephk125/card-narrow.png"
+  },
+  "real-pilot": {
+    "checks": [
+      {
+        "name": "Real pilot has integrated receipt",
+        "pass": true
+      },
+      {
+        "name": "No current clarification demand",
+        "pass": true
+      },
+      {
+        "name": "No resend or answer button for recorded pilot",
+        "pass": true
+      },
+      {
+        "name": "Exact saved history remains accessible",
+        "pass": true
+      }
+    ],
+    "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-wq639-browser-3ephk125/real-pilot.png"
+  }
+}

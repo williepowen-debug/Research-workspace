@@ -1,0 +1,12 @@
+usage: python3 -m unittest [-h] [--check | --supervised] [--open-browser]
+                           [--pause] [--store STORE]
+python3 -m unittest: error: argument --supervised: not allowed with argument --check
+WQ-558 preview — answers disabled: http://127.0.0.1:12345/
+Keep this window open. Ctrl+C stops the app. Saving is local export, not delivery or acknowledgment.
+A real answer also needs your matching confirmation in PROME's chat.
+Decisions could not open: No acceptance
+Card not prepared: [Errno 17] File exists: '/tmp/cato-desk-test-spfjqcz0/prepared'
+----------------------------------------------------------------------
+Ran 239 tests in 117.563s
+
+OK
