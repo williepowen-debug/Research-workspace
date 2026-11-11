@@ -53,4 +53,8 @@ File before: 22387 B. After: 22387 B minus the two lines; the stamp line changes
 - ⚠️ 7a: invariant 5 names no command. Checked at the move with `grep -rn` over `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/BOOT.md` and `HEARTBEAT.md` for the two row titles and their WQ numbers pointing into the index: no hit.
 - The plan was written against HEAD 5f8f7790a1; the index did not change between that commit and the move.
 
-**Result read:** pending at this commit.
+**Result read, 2026-11-11 11:36 ET: Sonnet cold reader on commit 3a782b8689, SCORE 6 of 7 ok · ⚠️ 1 · ❌ 0. Episode read count: 2, the episode's last.** Both rows and the stamp text reproduce bytes and crc32 from the pre-change file; every other index line is unchanged; the digest returns rc 0 with nine rows and 0 ACTIONABLE. Ledger: the session scratchpad file `coldread_result_ad.md`. No edit to the index or the archive after this read. Residue, declared:
+
+- ⚠️ The reader's pointer search covered four files. PROME widened it after the read, as a check and not an edit: `grep` over `PROME/DOCKET.tsv` and `PROME/GATES.tsv` for a row that cites `ACTIVE_DECISIONS` together with WQ-386, VLO, WQ-428, WQ-429 or either TERRY card name returned nothing; the two TERRY setup files that mention the index are other cards (the TLT WQ-339 card and a VIOLET call-spread card). No live pointer to either moved row was found.
+
+**State: IMPLEMENTED · TESTED (author's mechanical checks) · INDEPENDENTLY VERIFIED at 3a782b8689 (result read ❌ 0).**
