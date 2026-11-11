@@ -1,3 +1,7 @@
+## Session closed at Will’s request
+
+Research and six delivery pointers committed in `3f8e19588f`, with safe-push fresh-fetch confirmation on origin/master. Recipient consumption remains unverified. No session-owned research process or subagent remains running. Do not restart research on this closeout. Preserve the unresolved United Fidelity cause/property mapping and enforcement-status questions; EagleBank and Plaza remain separate. Other desks’ work was preserved.
+
 # Latest focused follow-up — United Fidelity
 
 Will authorized this follow-up after CATO review. Complete within available public evidence: `output/2026-11-11_united-fidelity-losses-and-capital.md`. Q3 MF charge-offs $362.453M; net loss $246.851M; total capital ratio 7.2647%; remaining MF $2.722B. Specific cause and affected-property mapping UNKNOWN. Historical OCC higher minimums found; later modification/current enforcement status unverified. Six create-only delivery pointers prepared; consumption unverified. No broad download, subagents or watcher. EagleBank and Plaza remain separate.
