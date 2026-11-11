@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-11-10T22:50:00Z (17:50 ET 11/10), RED S62b leverage figures checked on PROME prome-07's 17:50 ET tap. **STATUS commit `09464c7478`** (Amendment 11). Folded after the final owner-state commit.
+**As of:** 2026-11-11T00:33:00Z (19:33 ET 11/10), night closeout on Will's word via PROME prome-07 19:32 ET; no view change since 17:50 ET. Next: the 11/11 Tokyo 9984.T read (carried, not ordered). **STATUS commit `884e38e432`** (Amendment 11). Folded after the final owner-state commit.
 
 ## VIEW
 
