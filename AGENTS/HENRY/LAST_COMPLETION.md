@@ -1,45 +1,44 @@
-# HENRY — 2026-11-10 11:09–16:2x ET, desktop: CPI graded, December hike odds traced and rerun, close read — CLOSED 19:3x ET on PROME's closeout ask (Will: close for the night)
+# HENRY — 2026-11-11 09:06–15:1x ET, desktop: why futures were up, gamma at the pre-open, the open and 15:12 — CLOSED 15:1x ET on Will's ask
 
-**RESULT:** October CPI did not trip my 0.4 core line: core rose 0.3%, headline 0.4% (HEN-57 NOT FIRED, graded about 2h40m late, disclosed). The rate market moved; stocks mostly did not. The 2-year Treasury yield jumped 17bp to 4.73%, which settles my forecast that it would top 4.60% by 11/30 (HEN-62, 60%) as a **hit**. Markets now fully price a quarter-point Fed hike on December 9, plus about a 10–13% chance of a half point. Most of that move came at 04:00 ET, before the CPI print, from Governor Waller's speech in London. The S&P 500 closed −0.38% at 7,520.93, and VIX fell to 19.46.
+**RESULT:** The rally was chip and AI-infrastructure led: CoreWeave after its results, and Nvidia rebounding after Tuesday's 5.5% fall. Rates did not help: Treasury futures sold off, and the December Fed meeting still prices a near-certain hike (ORACLE's read: 85.5% quarter point, 11.8% half point or more). The S&P opened just under its gamma flip, the level above which dealer hedging calms moves. It faded to 7,575 by 09:48, then rallied to 7,624 (+1.38%) by 15:12, 4–7 points under a 7,628–7,632 flip where dealer hedging is roughly neutral. None of my forecasts or thresholds fired.
 
-**CHANGED:** `STATUS.md` (VIEW, map, vol, thresholds, releases, pickup; rotated to 70% of budget), `STATUS_COLD.md` (ROT-11/10, ROT-11/10-CLOSE), `MEMORY.md`, this file, `NEXUS_BRIEF.md`, `workbook/PREDICTIONS.tsv` (HEN-57, HEN-62), `workbook/KB.tsv` (ML-HEN-209 to 214), `workbook/MARKET_DATA.tsv` (11/9 credit, 11/10 row), `workbook/PUBLISHED.tsv` (SPX, QQQ, NDX 11/10), `board_log.tsv`, `research/2026-11-10_cpi-grade/` (CPI_GRADE, CITI_NOTE_READ, OVERNIGHT_HIKE_REPRICING, HIKE_RERUN_1500, CLOSE_READ, 8 BLS pulls, the Fed feed). Five packets to `PROME/inbox/`.
+**CHANGED:** `STATUS.md` (two 11/11 VIEW blocks, GAMMA MAP, December pricing repointed to ORACLE, pickup list), `STATUS_COLD.md` (ROT-11/11, the 11/10 map verbatim), `MEMORY.md`, this file, `NEXUS_BRIEF.md`, `workbook/KB.tsv` (ML-HEN-215, 216), `workbook/PUBLISHED.tsv` (pre-open and opening maps, wall rows), `board_log.tsv` (23 rows), `registry/corrections_receipts.tsv` (4), `domain/ECON_CALENDAR.md` (UMich sentiment), `research/2026-11-11_futures-up/PREOPEN_READ.md`, inbox moves. One packet to `PROME/inbox/`.
 
 ## Session work
 
 | Item | Outcome |
 |---|---|
-| HEN-57 / DOCKET L775, October CPI | NOT FIRED: core +0.3% (+0.296%), headline +0.4% (+0.350%), BLS index data. My expectation was right on the verdict and 0.1 too low on the level (third straight 0.3 core) |
-| Headline vs core | 0.05pp apart; energy (+0.70%, seasonally adjusted gasoline +1.04%) and food (+0.47%) about equal shares |
-| Overnight hike repricing (82% → 99%) | Timed to the minute to Waller's speech, released 04:00 ET; SoftBank, Tokyo, UK data and oil ruled out on timing. His text: a half point "should be considered" if core is around 0.3, and it printed 0.3 |
-| December hike odds | 15:00 ET +27.5bp; last trade 16:01 ET +28.2bp. HEN-63 (70%) not re-marked: its letter has no re-mark clause; the market sits about 30 points above it |
-| HEN-62 (2Y par above 4.60 by 11/30) | **RESOLVED-HIT**: Treasury par 4.73% on 11/10 |
-| Dealer gamma map (11:1x ET) | Negative on SPX, QQQ and NDX; SPX flip ~7,635; SPX walls withheld (7,500 is both the largest put and call strike, at spot) |
-| Nvidia (WALTER 011) | −5.47% on the close vs chip index −0.78%: its own story, second day |
-| Citi note (WALTER 004) | UNREACHABLE (client note); press coverage read, view logged, not adopted |
+| Pre-open map (09:09 ET) | SPX implied ~7,593, 30 pts under the 7,622–7,625 flip, shallow negative; walls 7,500 / 7,700 published (the 11/10 withheld walls superseded). QQQ just under its flip, NDX just over |
+| Opening map (09:49 ET) | SPX 7,575, 46–49 pts under the flip, −$18B / −$22B per 1%: the gap faded where hedging amplifies |
+| 15:12 ET check (not published) | SPX 7,624, at the 7,628–7,632 flip, net about zero; QQQ 691.20 at its flip, horizons split, no regime called |
+| Drivers | Chips +5.2% vs equal weight +0.8% at 15:12; 2Y Treasury futures about +4–5bp at 09:38; December pricing unchanged |
+| Rows graded on their letter | HEN-57 resolved; HEN-58, 60, 61, 63 open, not fired; CYPHER row 9 collapse leg not breached (PANW 1.48 pts behind HACK on 11/10) |
+| WQ-671 A | December Fed pricing on my surfaces now cites ORACLE KB-ORC-133 |
+| Inbox | Drained in three passes; four corrections receipted |
+| UMich sentiment | Dates added to my release calendar from the university's own schedule (WALTER ask) |
 
 ## GAPS / still pending
 
-- ⚠️ CPI grade was about 2h40m late: the laptop session could not wake itself after the print.
-- Hike odds are my calculation from vendor last trades, not the exchange's settlement; the CME site is blocked here.
-- Closes are vendor bars; FRED and Cboe confirmations for 11/10 not yet posted or read. Credit (HY, CCC) for 11/10 publishes tomorrow.
-- SPX map not re-run on the close; the options chain carries today's trading only from tomorrow morning.
-- Inbox not drained this session: WALTER 20261110-003, -005, -006 (10-year auction, BOND's marker fired), -009 and a FERT food-at-home packet. None asks HENRY to act.
-- Operating Dashboard not refreshed; HEN-57 and HEN-62 resolved today and are not on it.
+- ⚠️ The 11/11 close was not read. The last tape is 15:12 ET, and whether the S&P closed above or below its flip is unknown.
+- The packet to PROME carried the 09:48 "faded" read. My 15:12 message to prome-2b supersedes that line.
+- Attribution to CoreWeave and Nvidia is the press account plus the cross-section of moves, not a flow measurement. CoreWeave's release was not read.
+- FRED credit for 11/10 did not post today (LIQUID); it moves to Thursday.
+- Operating Dashboard not refreshed. Calendar rebuild owed before 11/20.
 
 ## COMMITS
 
-`add9590e6d` CPI grade · `d30f9522c3` packet L775/HEN-57 · `fdd5c075ac` + `8d8b2c5988` QQQ/NDX maps, Citi · `f3279ab9ac` + `f5610300b2` Waller timing · `1924996c9e` 15:00 ET rerun · this close-read commit carries "HENRY: 11/10 close read, HEN-62 RESOLVED-HIT at 2Y par 4.73".
+`18608dfb0c` pre-open map, drivers, inbox · `a97040e5b3` HENRY → PROME packet, opening map · `be5344bf2f` WQ-671 A · `e0b82b5066` six cards, corrections · `02c120e9cb` FRED fill moved · `56414eeaa6` + `b8e037bc1e` UMich calendar · closeout commit "HENRY: 11/11 closeout".
 
 ## NEXT SESSION FOLLOW-UP
 
-Carried items, dated: pre-open map Wed 11/11; FRED credit for 11/10 (posts 11/11); dashboard refresh; inbox drain; **producer prices Fri 11/13 (HEN-58)**; Nvidia results Tue 11/17 after the close; Palo Alto Networks row 9 at the 11/18 close; FOMC Wed 12/9 (HEN-63).
+FRED credit Thu 11/12 about 10:10 ET; **producer prices Fri 11/13 08:30 ET (HEN-58)**; Nvidia results Tue 11/17 after the close; Palo Alto Networks row 9 at the 11/18 close; calendar rebuild before 11/20; FOMC Wed 12/9 (HEN-63; market price is ORACLE's).
 
-## THESIS SNAPSHOT (frozen at close 11/10)
+## THESIS SNAPSHOT (frozen at close 11/11, 15:12 ET tape)
 
-Rates leg hot: core CPI 0.3% three months running, 2Y par 4.73% (RED on my band), 10Y 4.98% (2bp under red), December hike fully priced. Equity absorbed it: SPX −3.81% from its 10/6 peak, 2.6% above its 200-day, under its 50-day; dealer gamma NEGATIVE, flip ~7,635. HY 334bp YELLOW [FRED 11/9], CCC 1,311bp RED. VIX 19.46, contango.
+Rates leg hot: core CPI 0.3% three months running, 2Y par 4.73% [11/10] (RED on my band), no par print 11/11 (Veterans Day), December hike near-certain per ORACLE. Equity: SPX 7,624 intraday, −2.5% from its 10/6 peak, 4.0% above its 200-day, under its 50-day 7,672.91; gamma at the flip, about neutral. HY 334bp YELLOW [FRED 11/9], CCC 1,311bp RED. VIX 17.45 intraday.
 
 ## WILL_NEEDS
 
 None from this desk. No money moved; no threshold, gate letter, band or card changed.
 
-*Honest scope: the CPI figures come from BLS index data and the release wording as quoted in press (bls.gov blocks this box). Hike odds are my calculation, not CME's. All closes are vendor prices read at 16:22 ET.*
+*Honest scope: all equity and futures quotes are vendor or Cboe delayed, not settlements; the gamma map is a free-tier estimate (sign and flip reliable, dollar sizes not); nothing was read after 15:12 ET.*
