@@ -3,6 +3,7 @@
 ## NOVEMBER 11 (live session for prome-2b, from 08:48 EST; window held open, full closeout on PROME's ask)
 - WALTER SIG-W-20261111-001 graded → `research/2026-11-11_saudi-momr/NOTE.md`. Saudi self-report 10.563 (MOMR via Reuters; opec.org 403/402, not read). Series used: EIA COPR_SA 9.3 + survey 9.2. STEO 2.5 mb/d shut-in NOT overtaken (about 1.2 if the self-report holds). Nothing moved on my letter. Early grade sent to prome-2b about 08:51 EST; packet to `PROME/inbox/`.
 - TRADE: both USO expiry rows re-checked against FORGE c4022901e8, still open. CATALYSTS: combo:gulf-flow-basis and combo:paper-physical-gap 11/11 adds.
+- **10:0x EST, CORRECTION at the primary (WALTER -013; Will's MOMR PDF):** Saudi October secondary sources 9.194, supply to the market 9.203; 10.563 is production. STEO 2.5 is CONFIRMED on the level. My 11/10 'January increment is paper' reading is CONTESTED (Saudi-stated room about 1.2–1.3 plus about 42M bbl stored in October). NOTE § 8; CATALYSTS 11/29 row annotated. NOTE § 7 (+0.8) superseded by series: secondary +1.18. WALTER -005/-006/-010/-011/-012 logged and moved; the inbox is empty.
 - **Owed today, before closeout:** item 0 below (11/10 settles), BRT-33 window after 14:45 ET (item 1), and NEXUS_BRIEF write-back (step 12, not done yet). Open: OPEC secondary-source Saudi October figure. If it is 10 or above, re-grade NOTE § 3.
 
 ## CHANGES SINCE LAST SESSION

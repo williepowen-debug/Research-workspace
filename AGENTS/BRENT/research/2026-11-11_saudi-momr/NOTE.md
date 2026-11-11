@@ -20,6 +20,8 @@
 
 ## 2. Which Saudi series I use, and why
 
+> ⛔ **SUPERSEDED 10:0x EST by § 8 (OPEC primary via Will's PDF, WALTER SIG-W-20261111-013).** 10.563 is Saudi PRODUCTION; Saudi supply to the market is 9.203 and OPEC secondary sources are 9.194. Use § 8. The 09:00 text below is kept as the record of what was graded before the primary was read.
+
 **I use the independent estimates: EIA's 9.3 (primary) alongside Bloomberg's survey at 9.2. Saudi's self-report of 10.563 is recorded as an upper-side challenge, not adopted.** OPEC's own secondary-source Saudi figure would be my first choice. It is unread, and I do not infer it.
 
 | Reason | Detail |
@@ -30,6 +32,8 @@
 | Motive (context, not evidence of error) | The November 29 OPEC+ meetings face the 2027 baseline question. A high self-reported month supports a capacity claim. This is a reason to wait for secondary sources. It does not show the figure is false. |
 
 ## 3. Is the STEO shut-in figure overtaken?
+
+> ⛔ **SUPERSEDED by § 8:** the STEO figure is now CONFIRMED on the level, not just "not overtaken". The "about 1.2 if the self-report holds" row below compares a production figure with EIA's production series and does not describe supply to the market.
 
 **No, not on any evidence that is verified at a primary.** EIA's 2.5 mb/d of Middle East crude shut-ins in October already assumes Saudi at **9.3**, which agrees with the independent survey to within 0.1.
 
@@ -86,6 +90,37 @@ The OPEC secondary-source Saudi October figure. If it prints 10 or above, the EI
 | Question | Answer from this record |
 |---|---|
 | Months compared | **September against October.** Kpler's October figure is **partial, October 1–25** (5.52 mb/d; the analyst's full-month estimate is about 5.8). The 6.70 for September is the sum of Kpler's two September terminal figures (Ras Tanura 4.16 + Yanbu 2.54). NEXUS added them; this note never printed 6.70. Vortexa is a full-month comparison, 6.6 to about 6.5. |
-| Production change | **+0.8 mb/d (EIA COPR_SA 8.5 to 9.3)** is the primary figure to use. "About 1" is Bloomberg's survey (+0.97), and +2.19 is the self-report. Name the series beside the number. |
+| Production change | ⛔ **Superseded by § 8:** month-on-month change by series, September to October: OPEC secondary sources **+1.182** (8.012 to 9.194), Saudi supply to the market +1.215, Bloomberg survey +0.97, EIA +0.8 (8.5 to 9.3), Saudi-stated production +2.191. Levels agree near 9.2–9.3; the size of the change depends on the series. *(09:46 text: '+0.8 on EIA is the figure to use'. EIA's September 8.5 sat 0.49 above OPEC's secondary 8.012.)* |
 | The phrasing | "Saudi crude production rose about 0.8 mb/d from September to October on EIA's estimate, while seaborne exports fell on Kpler's partial-month count (about 6.7 to about 5.8) or were about flat on Vortexa (6.6 to 6.5)." Correct as long as both vendors and the partial month are named. HAWK's "recovering, not shrinking" is a production statement, and it agrees with this. The export side does not show the extra barrels reaching the market in October. |
-| Where the difference goes (ranked; none measured) | (1) **Measurement**: a partial month, and vendors that disagree by up to 1.5 mb/d (Blas/Vortexa over 7). This alone could close most of the gap. (2) **Domestic refining**: SATORP (460 kb/d) back at 100% "since early October" (TotalEnergies CEO 10/12, INCIDENTS RF-018; CATALYSTS row 10/29) is a real new domestic crude sink in October. (3) **Storage swing, a hypothesis**: September's exports (about 6.6–6.7) against 8.5 of production leave only about 1.8 for domestic use, below normal Saudi refinery runs. That points to a September stock draw that October may have refilled. Unmeasured; JODI Saudi stocks would test it. (4) **The East-West pipeline is not a sink.** Barrels piped to Yanbu are counted when they load there, so they appear in exports, except for crude run at the Yanbu-area refineries. (5) **Seasonal crude burn** falls after summer, so it goes the wrong way to absorb the gap. |
+| Where the difference goes (ranked; none measured) | (1) **Measurement**: a partial month, and vendors that disagree by up to 1.5 mb/d (Blas/Vortexa over 7). This alone could close most of the gap. (2) **Domestic refining**: SATORP (460 kb/d) back at 100% "since early October" (TotalEnergies CEO 10/12, INCIDENTS RF-018; CATALYSTS row 10/29) is a real new domestic crude sink in October. (3) **Storage swing, a hypothesis; corrected by § 8: Saudi's own figures show August a draw (production 6.238, supply 7.122) and September a FILL (8.372 against 7.988), not a September draw**: September's exports (about 6.6–6.7) against 8.5 of production leave only about 1.8 for domestic use, below normal Saudi refinery runs. That points to a September stock draw that October may have refilled. Unmeasured; JODI Saudi stocks would test it. (4) **The East-West pipeline is not a sink.** Barrels piped to Yanbu are counted when they load there, so they appear in exports, except for crude run at the Yanbu-area refineries. (5) **Seasonal crude burn** falls after summer, so it goes the wrong way to absorb the gap. |
+
+## 8. Correction at the primary: OPEC November MOMR Tables 5-7 and 5-8 (WALTER SIG-W-20261111-013, ACTION, 10:0x EST)
+
+**Source:** Will downloaded the PDF from opec.org (opec.org blocks this machine). WALTER extracted pages 54–55 verbatim (`AGENTS/WALTER/research/2026-11-11_boot/MOMR-NOV-2026-EXCERPT.md`, commit 8035b539e9, sha256 389aa7ae…). I read the excerpt; I did not read the PDF myself. ⚠️ The excerpt prints the Saudi direct-communication row with asterisks (7,122* · 7,988* · 9,203*) but **not the footnote text**. The production figures (October 10.563, August 6.238) are WALTER's reading of that footnote. They agree with Reuters' "pumped 10.563", but the footnote is not in the committed excerpt.
+
+| Saudi crude, kb/d | Aug | Sep | Oct | Oct/Sep |
+|---|---|---|---|---|
+| OPEC secondary sources (Table 5-7) | 7,257 | 8,012 | **9,194** | **+1,182** |
+| Saudi direct communication, supply to the market (Table 5-8 row) | 7,122 | 7,988 | **9,203** | +1,215 |
+| Saudi direct communication, production (footnote, via WALTER) | 6,238 | 8,372 | 10,563 | +2,191 |
+| Production minus supply (own arithmetic) | **−0.884 (stock draw)** | **+0.384 (fill)** | **+1.360 (fill)** | |
+| EIA STEO COPR_SA (primary, 11/11) | 6,350 | 8,500 | 9,300 | +800 |
+| Bloomberg survey | | | 9,200 | +970 |
+
+**Grade.** Every measure of Saudi crude reaching the market agrees near 9.2 mb/d in October. The 1.36 mb/d gap on card 001 was production against supply, not one source against another. **Series used from now on: OPEC secondary sources, 9.194**, the compliance basis and now read at the primary. EIA's 9.3 sits 0.11 above it.
+
+**STEO shut-in figure: CONFIRMED on the level, not just "not overtaken".** EIA's 2.5 mb/d of Middle East shut-ins assumes Saudi at 9.3, and OPEC's own independent estimate is 9.194. Saudi's October figure is still 0.28 below its 2025 average (9.471 secondary) and below EIA's undisrupted level of about 10.63, so EIA's 1.33 mb/d of Saudi disruption is not contradicted. **Withdrawn:** "about 1.2 if the self-report holds" (§ 3). That compared a production figure with a supply series.
+
+**Rest of the Gulf, October (secondary / EIA):** Iraq 4.491 (+0.496) / 4.4; Kuwait 1.998 (+0.232) / 1.99; Iran 1.914 (−0.044) / 2.02; UAE 4.008 (+0.091), above its 2025 average of 3.167 (no EIA series exposed). Iraq and Kuwait agree within 0.1; Iran within 0.11. Total OPEC 27.164 (+1.965) against EIA's +1.315 (different perimeters, direction only), so secondary sources still see more October supply than the STEO does. Saudi accounts for about 0.38 and Iraq about 0.23 of that difference. **The Q4 build stands; if anything it is understated.**
+
+**Does the 1.36 mb/d produced-but-not-supplied matter to my balance? Yes, in two ways. It does not change the count of October supply to buyers.**
+
+| Channel | Effect |
+|---|---|
+| October supply to buyers | **None.** Buyers saw about 9.2; EIA's balance uses 9.3. |
+| World stocks / paper-physical gap | If Saudi's production figure is right, about **42M bbl** went into storage in October (1.360 × 31), plus 11.5M in September, after a 27.4M draw in August: about **+26M bbl net from August to October** (own arithmetic; location not stated in the excerpt). These are real barrels in a **producer-held** stock that EIA's production series (9.3) does not count. This is a mechanism by which a balance surplus and a tight physical market coexist: the surplus sits in the seller's tanks and does not press prompt cargoes. Logged on combo:paper-physical-gap as an explanatory member. It is self-reported and unverified (secondary sources measure supply, not this split). |
+| Spare capacity / the 11/29 OPEC+ letter | **This changes my 11/10 statement.** On 11/10 I wrote that with EIA's COPS_OPEC at 0.01, "any January increment is paper, not barrels" (2026-11-10 NOTE § 3). Saudi's stated production of 10.563 implies effective capacity of at least 10.56, against EIA's 9.3 with zero spare: about **1.2–1.3 mb/d more room than EIA carries, plus the stored barrels.** That statement is now **CONTESTED**: on Saudi's own figures, a January increment could be real barrels, from production or from storage. Single self-report; the IEA OMR is still the second agency owed before 11/29. |
+
+**§ 7 production-export gap, revised:** supply rose about 1.2 (secondary +1.18) while exports fell (Kpler, part month) or held flat (Vortexa). Supply of 9.2 minus exports of 5.8–6.5 leaves 2.7–3.4 mb/d for domestic use, which is plausible with SATORP back at full runs. Most of the gap is domestic refining plus measurement. Saudi's extra *produced* barrels went to storage, by its own account.
+
+**What moves on my letter:** still nothing. The boundaries, BRT-07/32/33/34, BG-02 and THESIS v5.13 all stand; Path A stays record-only. **Contested, not moved:** the 11/10 "January increment is paper" reading. **Strengthened:** the STEO's 2.5 shut-in and the Q4 build.
