@@ -19,6 +19,7 @@ entities: ["VIX", "RED-FT-06", "RED-29", "SoftBank Group", "Portsmouth Landco LL
 word_count: 358
 dispatch_note: "Folded small items from bookmarks BM-20261111-02 and intake BM-20261111-01, logged per WQ-622 (small news recorded for combination). The VIX line is a near-trigger watch under THRESHOLD_SCAN step 7, routed because it is decision-relevant today (BOARD_CONSUMPTION_SPEC 3.5.3); RED owns the grade. RED is pull-complete: INFO by BOARD diff."
 ---
+> **Correction, November 11 — SIG-W-20261111-014:** The SEC line's "penalties totaling $1.1 billion" is total monetary relief ordered: $1.095B = $752M disgorgement and prejudgment interest + $343M civil penalties (SEC release 2026-113, via BROCK). "Lowest since 2008" is unchecked. The rest of this card holds.
 # Small items, November 11: VIX near 18 on the day RED's FT-06 exit and RED-29 could complete; SoftBank closed −0.44% in Tokyo after opening −7.2%; SEC 2026 penalties $1.1B, lowest since 2008; Google TPU line-up; South Florida El Niño severe-weather odds; a TruStage claimant follow-up
 
 | Item | What it says | For | WALTER check |
