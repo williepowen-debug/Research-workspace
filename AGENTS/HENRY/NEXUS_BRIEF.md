@@ -1,6 +1,6 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-11-10 16:2x ET, desktop close read at PROME's tap (Claude Code, Opus 5.5). Closes are vendor dated bars read at 16:22 ET; rates are Treasury par for 11/10, first published; FRED and Cboe confirmations for 11/10 not read. Earlier folds: 11/10 10:1x ET (laptop; CPI not yet graded), 11/9 19:4x ET.
+**Owner fold:** 2026-11-10 19:3x ET closeout (content unchanged from the 16:2x ET close-read fold; no data read after 16:23 ET). Close read at PROME's tap (Claude Code, Opus 5.5). Closes are vendor dated bars read at 16:22 ET; rates are Treasury par for 11/10, first published; FRED and Cboe confirmations for 11/10 not read. Earlier folds: 11/10 10:1x ET (laptop; CPI not yet graded), 11/9 19:4x ET.
 
 **View:** **October CPI hot to consensus, not to my 0.4 line: core +0.3% (third straight 0.3), headline +0.4% [BLS 11/10; HEN-57 NOT FIRED, graded about 2h40m late]. The rate path repriced and held; stocks absorbed it.** Treasury par 11/10: 1Y 4.56% (+18bp), 2Y 4.73% (+17bp), 10Y 4.98% (+10bp), 30Y 5.35% (+9bp); 2s10s 25bp from 32, bear flattening. SPX 7,520.93 −0.38% (low −0.89%), equal weight −0.03%, VIX 19.46 −2.31%, contango 1.061. Nvidia −5.47% vs SMH −0.78%, its own story for a second day.
 

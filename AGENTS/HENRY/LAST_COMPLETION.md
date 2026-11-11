@@ -1,4 +1,4 @@
-# HENRY — 2026-11-10 11:09–16:2x ET, desktop: CPI graded, December hike odds traced and rerun, close read — DELIVERED (window held open for PROME, not closed out)
+# HENRY — 2026-11-10 11:09–16:2x ET, desktop: CPI graded, December hike odds traced and rerun, close read — CLOSED 19:3x ET on PROME's closeout ask (Will: close for the night)
 
 **RESULT:** October CPI did not trip my 0.4 core line: core rose 0.3%, headline 0.4% (HEN-57 NOT FIRED, graded about 2h40m late, disclosed). The rate market moved; stocks mostly did not. The 2-year Treasury yield jumped 17bp to 4.73%, which settles my forecast that it would top 4.60% by 11/30 (HEN-62, 60%) as a **hit**. Markets now fully price a quarter-point Fed hike on December 9, plus about a 10–13% chance of a half point. Most of that move came at 04:00 ET, before the CPI print, from Governor Waller's speech in London. The S&P 500 closed −0.38% at 7,520.93, and VIX fell to 19.46.
 
@@ -32,7 +32,7 @@
 
 ## NEXT SESSION FOLLOW-UP
 
-Pre-open map 11/11; FRED credit for CPI day; **producer prices Fri 11/13 (HEN-58)**; Nvidia results Tue 11/17 after the close; Palo Alto Networks row 9 at the 11/18 close; FOMC Wed 12/9 (HEN-63).
+Carried items, dated: pre-open map Wed 11/11; FRED credit for 11/10 (posts 11/11); dashboard refresh; inbox drain; **producer prices Fri 11/13 (HEN-58)**; Nvidia results Tue 11/17 after the close; Palo Alto Networks row 9 at the 11/18 close; FOMC Wed 12/9 (HEN-63).
 
 ## THESIS SNAPSHOT (frozen at close 11/10)
 

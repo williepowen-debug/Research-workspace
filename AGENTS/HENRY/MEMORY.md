@@ -53,7 +53,7 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-10 desktop, 11:09–16:2x ET (PROME prome-07 launch and three taps; Claude Code, Opus 5.5). Window held open at the end on PROME's word, not closed out.
+### CHANGES SINCE — 2026-11-10 desktop, 11:09–16:2x ET (PROME prome-07 launch and three taps; Claude Code, Opus 5.5). Closed 19:3x ET on PROME's closeout ask (Will: close for the night); no data read after 16:23 ET.
 
 - **HEN-57 / L775 graded late (about 2h40m), NOT FIRED:** core +0.3 (+0.296%), headline +0.4 (+0.350%), from api.bls.gov SA indexes (bls.gov web 403). Expectation HIT on the verdict, level 0.1 low. MISS LINE: next CPI expectation starts from the three-month core run rate (0.3, 0.3, 0.3), not the nowcast alone.
 - **HEN-62 RESOLVED-HIT 11/10:** 2Y par 4.73 (11/9 4.56). The Treasury par CSV had the same-day print at 16:21 ET.
