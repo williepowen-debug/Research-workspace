@@ -9,6 +9,8 @@
 - **SoftBank:** 5Y 475 after the Tokyo session (one trade), 3Y flat; yen seniors +2.2 bp, about 1.5 bp over peers; no rating action. **Skydance:** legacy CDS 529 [11/9], leverage 4.51x covenant basis versus 6.16x / 7.6x economic (estimates). **CoreWeave/Oracle:** no after-results CDS print yet.
 - **Method:** DTCC intraday slices (`ppd/api/report/intraday/sec/SEC_SLICE_CREDITS_<date>_<n>.zip`) give same-day rows before the 20:15 ET cumulative file (KB-LIQ-160). JSDA served again with one request per file.
 - **WQ-671 A:** December Fed-meeting pricing is ORACLE's; cite its dated read.
+- **Added 12:33 ET:** TERRY's Skydance re-open lines (CDS ≥614, second-lien below 93.58 to 96.88, downgrade below BB/Ba3/BB) recorded as a STATUS §3 reader duty; 529 [11/9] not crossed.
+- **Closed on Will's 15:11 ET word** with the 11/10 ICE cell still unposted; the poll ended with the session. **NEXT:** Thursday about 10:10 ET grade the 11/10 cell and message PROME first; DTCC 11/11 cumulative file for late CoreWeave/Oracle/Paramount prints; 30-year auction; 076 W2. STATUS rotated to 70% (`archive/status_snapshots/STATUS_rotated_2026-11-11.md`).
 
 ### PRIOR SESSION — 2026-11-10 (PROME prome-07 launch on Will's word 11:38 ET, desktop, Claude Code / Opus 5.5)
 
