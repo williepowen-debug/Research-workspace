@@ -232,3 +232,21 @@ qqq_put_wall	NONE	2026-11-10	WITHHELD, none published: put wall 680 equals the c
 qqq_call_wall	680	2026-11-10	PUBLISHED at both horizons (14d clean +25%, 35d near-tie band 680-700); spot 674.24 under it, overhead; SUPERSEDES NONE [11/9]; 11/10 post-CPI intraday run 11:19 ET, live vendor spot, chain carries 11/9 trading
 ndx_put_wall	28000	2026-11-10	clean at both horizons (14d +16%, 35d +37%); spot 27718.83 UNDER it, overhead not support; 11/10 post-CPI intraday run 11:19 ET, live vendor spot, chain carries 11/9 trading
 ndx_call_wall	29675	2026-11-10	clean at both horizons (14d +51%, 35d +46%), PUBLISHED; 11/10 post-CPI intraday run 11:19 ET, live vendor spot, chain carries 11/9 trading
+gamma_flip_14d	7622	2026-11-11	cboe 4920 contracts (11/11 pre-open run 09:1x ET; spot implied from ESZ26 7,617 less the 11/10 close basis (~24 pts); chain asof 11/11 carries 11/10 trading)
+net_gex_14d_Bn	-11.0	2026-11-11	$B per 1% (11/11 pre-open run 09:1x ET; spot implied from ESZ26 7,617 less the 11/10 close basis (~24 pts); chain asof 11/11 carries 11/10 trading)
+gamma_flip_35d	7625	2026-11-11	cboe 8276 contracts (11/11 pre-open run 09:1x ET; spot implied from ESZ26 7,617 less the 11/10 close basis (~24 pts); chain asof 11/11 carries 11/10 trading)
+net_gex_35d_Bn	-14.6	2026-11-11	$B per 1% (11/11 pre-open run 09:1x ET; spot implied from ESZ26 7,617 less the 11/10 close basis (~24 pts); chain asof 11/11 carries 11/10 trading)
+qqq_gamma_flip_14d	690.20	2026-11-11	cboe 2120 contracts (11/11 pre-open run 09:1x ET; Cboe premarket spot; chain asof 11/11 carries 11/10 trading)
+qqq_net_gex_14d_Bn	-0.5	2026-11-11	$B per 1% (11/11 pre-open run 09:1x ET; Cboe premarket spot; chain asof 11/11 carries 11/10 trading)
+qqq_gamma_flip_35d	690.60	2026-11-11	cboe 3272 contracts (11/11 pre-open run 09:1x ET; Cboe premarket spot; chain asof 11/11 carries 11/10 trading)
+qqq_net_gex_35d_Bn	-0.6	2026-11-11	$B per 1% (11/11 pre-open run 09:1x ET; Cboe premarket spot; chain asof 11/11 carries 11/10 trading)
+ndx_gamma_flip_14d	27887	2026-11-11	cboe 2190 contracts (11/11 pre-open run 09:1x ET; spot implied from NQZ26 +1.91% on the 11/10 NDX close 27,740.79; chain asof 11/11 carries 11/10 trading)
+ndx_net_gex_14d_Bn	0.8	2026-11-11	$B per 1% (11/11 pre-open run 09:1x ET; spot implied from NQZ26 +1.91% on the 11/10 NDX close 27,740.79; chain asof 11/11 carries 11/10 trading)
+ndx_gamma_flip_35d	28026	2026-11-11	cboe 3215 contracts (11/11 pre-open run 09:1x ET; spot implied from NQZ26 +1.91% on the 11/10 NDX close 27,740.79; chain asof 11/11 carries 11/10 trading)
+ndx_net_gex_35d_Bn	0.6	2026-11-11	$B per 1% (11/11 pre-open run 09:1x ET; spot implied from NQZ26 +1.91% on the 11/10 NDX close 27,740.79; chain asof 11/11 carries 11/10 trading)
+put_wall	7500	2026-11-11	clean at both horizons (14d +16%, 35d +15%), PUBLISHED; implied spot ~7,593 ABOVE it (support side); SUPERSEDES NONE [11/10]; 11/11 pre-open run 09:09 ET, chain asof 11/11 carries 11/10 trading
+call_wall	7700	2026-11-11	clean at both horizons (14d +30%, 35d +30%), PUBLISHED; implied spot ~7,593 under it; SUPERSEDES NONE [11/10]; 11/11 pre-open run 09:09 ET, chain asof 11/11 carries 11/10 trading
+qqq_put_wall	680	2026-11-11	PUBLISHED at both horizons (35d clean +18%, 14d near-tie band 680-685); premarket spot 687.31 above it; SUPERSEDES NONE [11/10]; 11/11 pre-open run 09:09 ET, chain asof 11/11 carries 11/10 trading
+qqq_call_wall	700	2026-11-11	clean at both horizons (14d +26%, 35d +37%), PUBLISHED; premarket spot 687.31 under it; SUPERSEDES 680 [11/10]; 11/11 pre-open run 09:09 ET, chain asof 11/11 carries 11/10 trading
+ndx_put_wall	28000	2026-11-11	clean at both horizons (14d +32%, 35d +48%), PUBLISHED; implied spot ~28,270 ABOVE it (was overhead 11/10); 11/11 pre-open run 09:09 ET, chain asof 11/11 carries 11/10 trading
+ndx_call_wall	29675	2026-11-11	clean at both horizons (14d +63%, 35d +62%), PUBLISHED; 11/11 pre-open run 09:09 ET, chain asof 11/11 carries 11/10 trading

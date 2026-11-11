@@ -702,3 +702,19 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 ### CREDIT MONITOR: LIQUID 11/4 paragraph
 
 **LIQUID 11/4 (owner adjudication, SIG-W-20261104-076):** renewed >320 persistence MET 11/2, fourth observation 11/3; existing tier rule BROADENS (IG 94/94/93 fails strict >94). Price repricing is demonstrated; a generalized funding restriction is not (funding NOT ARMED through 11/3). REGINALD's strict >350 ×3 stays 0 of 3. `credit_monitor.py` at boot 11/9: gap 1,109bp, +246bp over about 3 months (CCC +294 vs BB +48), HYG/LQD 5-session −0.19%, no fund-flow flag.
+
+## ROT-11/11 — GAMMA MAP 11/10 POST-CPI, moved VERBATIM out of STATUS 2026-11-11 09:1x ET (superseded by the 11/11 pre-open map; historical only, do not cite walls or flip as current)
+
+## GAMMA MAP — 11/10 POST-CPI (`gamma_flip.py --both --publish`, about 11:1x ET; live vendor spot ~7,490; chain carries 11/9 trading)
+
+| Chain (Cboe) | Flip 14d / 35d | Net GEX per 1% 14d / 35d | Put wall | Call wall |
+|---|---:|---:|---|---|
+| SPX (4,924 / 8,333 contracts) | ~7,633 / ~7,636 | **−$47.9B / −$57.3B** | **WITHHELD:** 14d #1 put strike 7,500 equals the 14d #1 call strike; 35d 7,500 clean (+36%); spot UNDER 7,500 | **WITHHELD:** 14d 7,500 vs 35d 7,700 (both near-tie bands 7,500–7,700) |
+| QQQ (2,165 / 3,300; 11:19 ET), spot 674.24 | ~689 / ~690 | −$2.3B / −$2.7B | **WITHHELD:** equals the call wall at 680 on both horizons | **680 at both** (35d near-tie band 680–700); spot UNDER it, overhead |
+| NDX (2,439 / 3,429; 11:19 ET), spot 27,718.83 | ~28,020 / ~28,186 | −$0.5B / −$0.9B | 28,000 at both, clean; spot UNDER it: overhead, not support | 29,675 at both, clean |
+
+**Gamma NEGATIVE on both horizons, flip ~7,635 about 1.9% overhead, and the largest gamma strike on both sides is 7,500, where SPX is trading.** The 7,500 put wall published 11/9 is superseded: it is a concentration at spot, not support, at this read. QQQ's largest strike on both sides is 680, 0.9% over spot, so the published 680 call wall is the same concentration, overhead. `PUBLISHED.tsv` carries `NONE` rows for SPX put, SPX call and QQQ put [11/10].
+
+⚠️ Intraday marks and live spot. Free-tier proxy: sign and flip robust, $B assumption-dependent, walls the fragile part.
+
+**Levels (SPX, 11/10 bar basis, own calc):** 200-day 7,331.08 · 50-day 7,672.91 · yellow 7,200 · orange 7,100 · red 7,037.04 (−10% from the 10/6 peak 7,818.93, WQ-609 A).
