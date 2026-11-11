@@ -1,0 +1,10 @@
+HTTP/2 200 
+content-type: application/x-zip-compressed
+last-modified: Tue, 10 Nov 2026 16:41:44 GMT
+accept-ranges: bytes
+etag: "d97cbe5e3271dd1:0"
+strict-transport-security: max-age=31536000;includeSubdomains;preload
+x-content-type-options: nosniff
+date: Wed, 11 Nov 2026 14:38:21 GMT
+content-length: 2872991
+

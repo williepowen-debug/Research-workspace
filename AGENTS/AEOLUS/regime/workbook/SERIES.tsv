@@ -118,3 +118,6 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-10-31	nino12_monthly	5.25	degC	CPC-sstoi.indices	2026-11-05 10:08 ET	Oct 2026 Nino-1+2 (SST 26.12), from Sep +4.69. THE FIGURE MISQUOTED AS 3.4 - check region
 2026-09-10	p_roni_ge20_ond	98	pct	CPC-roni-strengths	2026-11-05 10:14 ET	Backfill from DOSSIER Strength Outlook table; instrument registered 2026-11-05 per KB-AEO-229; no splice with verystrong_prob_ond
 2026-10-08	p_roni_ge20_ond	100	pct	CPC-roni-strengths	2026-11-05 10:14 ET	Backfill from DOSSIER Strength Outlook table (October issue); instrument registered 2026-11-05 per KB-AEO-229
+2026-11-04	nino34_weekly	3.3	degC	CPC-wksst9120.for	2026-11-11 09:45 ET	week centred 04NOV2026; from +3.4 (28OCT). Nino-1+2 +5.6, Nino-3 +4.4, Nino-4 +1.5
+2026-11-11	u10_60n_gfs_anl_00z	-1.92	m/s	NOMADS-GFS-0p25-anl	2026-11-11 09:45 ET	zonal mean exact 60N, 1,440 lon; 30 hPa +2.95, 50 +6.18, 100 +9.31; sha256 13b40564736a20a0; 00Z 11/7-11/10 = +2.53/+1.74/+2.16/+0.69 at 10 hPa
+2026-11-11	u10_60n_gfs_anl_06z	-2.71	m/s	NOMADS-GFS-0p25-anl	2026-11-11 09:45 ET	zonal mean exact 60N; 30 hPa +1.84, 50 +5.67, 100 +9.74; GFS 06Z f120 +4.73, f240 +21.13 at 10 hPa

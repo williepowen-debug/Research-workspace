@@ -63,3 +63,5 @@ date	event	detail	source	pulled_at	routed_to
 2026-11-06	spv_forecast_persistence	ECMWF ENS 11/6 00Z: -1.92 [11/11], -2.20 [11/12] (50/50 below 0), +0.37 [11/13], +12.64 [11/21]. GFS 06Z +19.21 [11/22]. FORECAST, grades nothing. KB-AEO-258	ECMWF,NOAA-GFS	2026-11-06 07:40 ET	TERRY,WATT,BRENT,PROME
 2026-11-06	ao_surface_read	CPC AO -0.10 [11/3]; GEFS init 11/5 mean low -0.95 [11/12]; CPC 8-14 day above normal nearly all lower 48, near normal immediate East Coast. KB-AEO-259	CPC	2026-11-06 07:40 ET	TERRY,WATT,BRENT,PROME
 2026-11-06	roni_oni_read_for_AEO-17	RONI ASO 1.97, ONI ASO 2.46, Oct monthly 3.25, weekly 3.4 [28OCT]; no new print. Read to price AEO-17	CPC	2026-11-06 07:40 ET	
+2026-11-11	vortex_read	GFS anl 10 hPa 60N: -1.92 [11/11 00Z], -2.71 [11/11 06Z], deepest of the event; 30 hPa +2.95/+1.84, never below 0; forecast rebuild +21 by 11/21. KB-AEO-271. Done directly by AEOLUS	NOMADS GFS	2026-11-11 09:45 ET	
+2026-11-11	enso_weekly	Nino-3.4 +3.3 week 04NOV (from +3.4). KB-AEO-272	CPC wksst9120.for	2026-11-11 09:45 ET	

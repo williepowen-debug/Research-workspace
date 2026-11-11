@@ -89,3 +89,10 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T15:11Z	SIG-W-20261104-056	acted	INBOX_WALTER	All three WALTER figures reproduced on f000. Accepted as data; owner read logged on the anl basis alongside f000. KB-AEO-245/246.
 2026-11-05T15:11Z	SIG-W-20261104-063	noted	INBOX_WALTER	Seven title-only leads; no body recovered; no figure or score changed. KB-AEO-244.
 2026-11-05T18:50Z	SIG-W-20261105-019	info-only	INBOX_WALTER	EIA storage 3,801 Bcf week ending 10/30, +1.4% vs 5-yr; context for C3, no band input. UNG live $9.31, NGZ26 $2.97 re-pulled 11/05.
+2026-11-11T14:45Z	SIG-W-20261106-006	acted	INBOX_WALTER	Georgia + insurance channel: Georgia flood logged KB-AEO-277 (no insured loss, no federal declaration through 11/11; NFIP/uninsured channel, no band input). Broward 13.49 carried as basis (3) in KB-AEO-275. Rooftop video not cited.
+2026-11-11T14:45Z	SIG-W-20261106-009	noted	INBOX_WALTER	Eastern cold-blast line checked at CPC 11/10 6-10: coldest before 11/16, then mostly above normal. KB-AEO-278.
+2026-11-11T14:45Z	SIG-W-20261106-046	noted	INBOX_WALTER	Polk County TN video = same flood as 006; Blue Ridge Dam release halt unverified, carried as unverified in KB-AEO-277.
+2026-11-11T14:45Z	SIG-W-20261109-008	noted	INBOX_WALTER	El Nino record subtropical jet (Polymarket relay, unverified) logged to combo:el-nino-winter-rain, KB-AEO-277.
+2026-11-11T14:45Z	SIG-W-20261110-007	info-only	INBOX_WALTER	NASS corn 179.6, no fertilizer cause; US context only for C2 (the El Nino band is SA/Aus). KB-AEO-273.
+2026-11-11T14:45Z	SIG-W-20261111-004	noted	INBOX_WALTER	NWS Miami strong El Nino winters ~3x severe reports in South Florida; logged to combo:el-nino-winter-rain, KB-AEO-277.
+2026-11-11T14:45Z	SIG-W-20261111-008	acted	INBOX_WALTER	24.69 in max reconciled as basis (1) in KB-AEO-275: same figure WPC list names near Malabar; CORAL packet 11/11 for the FL one number. 9 vs 3.16 severe reports logged KB-AEO-277.

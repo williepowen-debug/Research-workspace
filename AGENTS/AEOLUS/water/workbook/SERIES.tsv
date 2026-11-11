@@ -1144,3 +1144,31 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-11-03	usda_barge_rate_pct	452.5	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 13:37 ET	Cairo-Memphis; = $14.21/ton (benchmark 3.14)
 2026-11-05	kaub_stage	19.0	cm	WSV-PEGELONLINE-KAUB	2026-11-06 07:40 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 19.260; AT/BELOW live C5 key 40 by -20.740 (WQ-562 key since 10/31)
 2026-11-05	duisburg_ruhrort_stage	152.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-06 07:40 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 151.802; AT/BELOW live C5 key 180 by -28.198 (WQ-562 key since 10/31)
+2026-11-06	kaub_stage	22	cm	WSV-PEGELONLINE-KAUB	2026-11-11 09:45 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 21.500; AT/BELOW live C5 key 40 by -18.500 (WQ-562 key since 10/31)
+2026-11-07	kaub_stage	15	cm	WSV-PEGELONLINE-KAUB	2026-11-11 09:45 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 15.167; AT/BELOW live C5 key 40 by -24.833 (WQ-562 key since 10/31)
+2026-11-08	kaub_stage	10	cm	WSV-PEGELONLINE-KAUB	2026-11-11 09:45 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 10.479; AT/BELOW live C5 key 40 by -29.521 (WQ-562 key since 10/31)
+2026-11-09	kaub_stage	12	cm	WSV-PEGELONLINE-KAUB	2026-11-11 09:45 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 12.333; AT/BELOW live C5 key 40 by -27.667 (WQ-562 key since 10/31)
+2026-11-10	kaub_stage	14	cm	WSV-PEGELONLINE-KAUB	2026-11-11 09:45 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 13.542; AT/BELOW live C5 key 40 by -26.458 (WQ-562 key since 10/31)
+2026-11-06	duisburg_ruhrort_stage	152	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-11 09:45 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 152.396; AT/BELOW live C5 key 180 by -27.604 (WQ-562 key since 10/31)
+2026-11-07	duisburg_ruhrort_stage	151	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-11 09:45 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 151.042; AT/BELOW live C5 key 180 by -28.958 (WQ-562 key since 10/31)
+2026-11-08	duisburg_ruhrort_stage	150	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-11 09:45 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 149.531; AT/BELOW live C5 key 180 by -30.469 (WQ-562 key since 10/31)
+2026-11-09	duisburg_ruhrort_stage	145	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-11 09:45 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 144.792; AT/BELOW live C5 key 180 by -35.208 (WQ-562 key since 10/31)
+2026-11-10	duisburg_ruhrort_stage	142	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-11 09:45 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 142.260; AT/BELOW live C5 key 180 by -37.740 (WQ-562 key since 10/31)
+2026-11-05	mead_elev	1039.41	ft	USBR-921-49	2026-11-11 09:45 ET	end-of-day elevation; 4.41 ft above Hoover 1,035
+2026-11-06	mead_elev	1039.46	ft	USBR-921-49	2026-11-11 09:45 ET	end-of-day elevation; 4.46 ft above Hoover 1,035
+2026-11-07	mead_elev	1039.55	ft	USBR-921-49	2026-11-11 09:45 ET	end-of-day elevation; 4.55 ft above Hoover 1,035
+2026-11-08	mead_elev	1039.66	ft	USBR-921-49	2026-11-11 09:45 ET	end-of-day elevation; 4.66 ft above Hoover 1,035
+2026-11-09	mead_elev	1039.86	ft	USBR-921-49	2026-11-11 09:45 ET	end-of-day elevation; 4.86 ft above Hoover 1,035
+2026-11-10	mead_elev	1040.21	ft	USBR-921-49	2026-11-11 09:45 ET	end-of-day elevation; 5.21 ft above Hoover 1,035
+2026-11-05	powell_elev	3537.11	ft	USBR-919-49	2026-11-11 09:45 ET	end-of-day elevation; 27.11 ft above ROD 3,510
+2026-11-06	powell_elev	3538.11	ft	USBR-919-49	2026-11-11 09:45 ET	end-of-day elevation; 28.11 ft above ROD 3,510
+2026-11-07	powell_elev	3538.56	ft	USBR-919-49	2026-11-11 09:45 ET	end-of-day elevation; 28.56 ft above ROD 3,510
+2026-11-08	powell_elev	3538.84	ft	USBR-919-49	2026-11-11 09:45 ET	end-of-day elevation; 28.84 ft above ROD 3,510
+2026-11-09	powell_elev	3539.1	ft	USBR-919-49	2026-11-11 09:45 ET	end-of-day elevation; 29.10 ft above ROD 3,510
+2026-11-10	powell_elev	3539.3	ft	USBR-919-49	2026-11-11 09:45 ET	end-of-day elevation; 29.30 ft above ROD 3,510
+2026-11-05	memphis_stage	-3.926	ft	NOAA-NWPS-MEMT1	2026-11-11 09:45 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-06	memphis_stage	-3.569	ft	NOAA-NWPS-MEMT1	2026-11-11 09:45 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-07	memphis_stage	-3.424	ft	NOAA-NWPS-MEMT1	2026-11-11 09:45 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-08	memphis_stage	-3.251	ft	NOAA-NWPS-MEMT1	2026-11-11 09:45 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-09	memphis_stage	-2.54	ft	NOAA-NWPS-MEMT1	2026-11-11 09:45 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-10	memphis_stage	-2.295	ft	NOAA-NWPS-MEMT1	2026-11-11 09:45 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
