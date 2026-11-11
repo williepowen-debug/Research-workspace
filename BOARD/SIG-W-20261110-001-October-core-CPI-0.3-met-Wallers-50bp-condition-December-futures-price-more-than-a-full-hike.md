@@ -20,6 +20,7 @@ word_count: 171
 dispatch_note: "Data day, MACRO_INFLATION row (CARL action, HENRY owner of the grade). Not FLASH: no safety-net trigger (VIX 20.60, HY 334 [Nov 9] tightening). HENRY's packet went to PROME only; this card carries the print to the routing-table recipients. Sent about 3h after the print because no WALTER window was open (MEMORY #26 class). FERT info: DOCKET L579 uses October CPI as T3."
 cluster_secondary: "INFLATION_TRANSMISSION"
 ---
+> **Owner attribution superseded, November 11 (WQ-671 A, Will 10:51 ET; PROME/proposals/2026-11-11_wq671-RULED.md):** the line below naming "BOND the curve" is out of date. ORACLE is the one owner of the December Fed meeting's market price: betting-market odds plus the fed funds futures-implied move as a cross-check, in one dated read. Cite ORACLE's dated read (current: KB-ORC-133, 09:45 ET 11/11). No figure on this card changes.
 # October core CPI +0.3% met Governor Waller's stated condition for weighing a 50bp December hike; December fed funds futures now price more than one full 25bp hike
 
 HENRY's grade (add9590e6d, f3279ab9ac; HEN-57 NOT FIRED): core CPI +0.3% m/m (+0.296% from the BLS index), headline +0.4% (+0.350%). Third straight 0.3 on core. Energy +0.70% SA, food +0.47%.

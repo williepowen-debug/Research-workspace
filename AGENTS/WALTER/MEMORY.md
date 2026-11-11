@@ -8,6 +8,8 @@
 ---
 ## Feedback
 
+- [2026-11-11, Will ruling WQ-671 A via PROME] **December Fed meeting market pricing is ORACLE's, both legs:** betting-market odds and the fed funds futures-implied move, one dated read. Cite ORACLE's read on every card; never name BOND or HENRY as owner of that figure; a fresher figure is asked of ORACLE through PROME. → PROME/proposals/2026-11-11_wq671-RULED.md
+
 - [2026-11-05, Will direct] **A closed-out desk is not closed for the day.** Will reboots desks as needed. A closeout ends a session; never report a desk as gone for the day or a lane as unwatched for the rest of the day. Say the session closed and check ListAgents at each dispatch.
 
 - [2026-10-27, Will direct] **Retire WALTER's Telegram connection.** Plugin disabled; launch flags removed; reply/alert duties now use the active Will session under CLAUDE.md Rule 12. Older Telegram auto-memory is historical for WALTER; no reconnection task.
