@@ -1,0 +1,14 @@
+timestamp_utc	url	http	bytes	note
+2026-11-11T14:37:49Z	http://publication.pravo.gov.ru/documents/block/president?index=1&pageSize=30	200	102348	browser UA; saved pravo-president-p1.html; publications 02.11 → 10.11 (newest Указ №845 of 10.11)
+2026-11-11T14:37:51Z	http://publication.pravo.gov.ru/documents/block/president?index=2&pageSize=30	200	105310	saved pravo-president-p2.html; 23.10 → 02.11
+2026-11-11T14:37:51Z	http://publication.pravo.gov.ru/documents/block/president?index=3&pageSize=30	200	103982	saved pravo-president-p3.html; 15.10 → 23.10, overlaps №738–№752 baseline; parsed list pravo-president-list-p1-3.tsv
+2026-11-11T14:38:16Z	http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202611050002	200	167027	Указ №817 of 05.11, 3/3 pages read visually (pdftoppm render; no text layer)
+2026-11-11T14:38:18Z	http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202611060040	200	122084	Указ №832 of 06.11, 2/2 pages read visually
+2026-11-11T14:38:19Z	http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202611060014	200	72637	Указ №827 of 06.11, page 1/2 read (operative text; page 2 = member list, unread)
+2026-11-11T14:38:20Z	http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202611020034	200	238613	Указ №799 of 02.11, page 1/3 read (title and ¶1¹ start only)
+2026-11-11T14:38:21Z	http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202611020036	200	568960	Указ №801 of 02.11, page 1/7 read (scope: escheated deposits of dead Russian citizens)
+2026-11-11T14:39:05Z	http://kremlin.ru/acts/news	200	48664	browser UA; acts 02.11 → 10.11; 81186 (№817) and 81193 (№832) list-amendment stories, 81191 (№827)
+2026-11-11T14:39:06Z	http://kremlin.ru/events/president/news/page/1 and /page/2	200	65387 / 63035	newest 81237 CSTO 11.11; parsed kremlin-listings-2026-11-11.txt
+2026-11-11T14:39:40Z	http://kremlin.ru/{acts,events/president}/news/{81193,81186,81191,81166,81187,81192,81185,81227,81237,81190}	200 ×10	-	saved kremlin/; term scan (gas, mobilisation, Japan, ceasefire, diesel, talks, Iran, sanctions)
+2026-11-11T14:40:56Z	http://government.ru/docs/ and /news/	200	92654 / 89258	browser UA; docs listing 23.10 → 10.11
+2026-11-11T14:41Z	http://government.ru/docs/{60327,60329,60376,60377}/	200 ×4	-	№1443 (31.10 petrochemical export ban) · 3170-р (31.10 energy strategy plan) · №1457 (05.11 fertilizer quotas) · 3207-р (unrelated)
