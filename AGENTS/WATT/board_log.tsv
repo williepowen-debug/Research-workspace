@@ -128,3 +128,16 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T18:38:17-05:00	2026-11-05_from-AEOLUS_vortex-12Z-sign-split	noted	INBOX	Winter gate HELD; combo:winter-cushion KB-200.
 2026-11-05T18:38:17-05:00	2026-11-05_from-AEOLUS_vortex-ECMWF-12Z-below-zero	noted	INBOX	ECMWF -0.279 m/s, step one of three; no US cold shown; KB-200.
 2026-11-05T18:38:17-05:00	2026-11-05_from-VULCAN_texas-promise-and-cme-review-extended	acted	INBOX	Reply packet to VULCAN with the grid read; KB-201; WATT-17.
+2026-11-11T09:40:30-05:00	SIG-W-20261106-009	noted	WALTER	Mississippi Entergy rate claim logged, article unread, outside PJM; KB-211.
+2026-11-11T09:40:30-05:00	SIG-W-20261109-002	noted	WALTER	Anthropic gas-power headline, body unread; combo:power-delay-execution KB-209.
+2026-11-11T09:40:30-05:00	SIG-W-20261109-005	noted	WALTER	Musk turbine claim; SoftBank one root with 010/012; KB-209.
+2026-11-11T09:40:30-05:00	SIG-W-20261109-010	acted	WALTER	ACTION done: B1 T1 re-dated to 2027-01-10/11 Beijing, T2 unfired; KB-210.
+2026-11-11T09:40:30-05:00	SIG-W-20261110-003	acted	WALTER	ACTION: WATT holds no row on the 11/27 clock, graphite noted only; KB-210.
+2026-11-11T09:40:30-05:00	SIG-W-20261110-010	noted	WALTER	Ohio line superseded by card 012; KB-209.
+2026-11-11T09:40:30-05:00	SIG-W-20261110-012	acted	WALTER	COR-20261110-12 NO-OP receipted; corrected wording at KB-209.
+2026-11-11T09:40:30-05:00	SIG-W-20261110-013	noted	WALTER	CoreWeave capex low end raised, counterevidence in KB-209.
+2026-11-11T09:40:30-05:00	SIG-W-20261111-002	acted	WALTER	Siemens deck read by WATT (sha matches VULCAN); grid-equipment figure refreshed KB-208.
+2026-11-11T09:40:30-05:00	2026-11-06_from-AEOLUS_vortex-persistence-descent-read	noted	INBOX	No PJM cold signal; combo:winter-cushion member; winter gate HELD; KB-211.
+2026-11-11T09:40:30-05:00	2026-11-06_from-VULCAN_jupiter-date-on-KB-WATT-202	acted	INBOX	Reconciled to one date: 12/7 hearing; KB-202 annotated, KB-209.
+2026-11-11T09:40:30-05:00	2026-11-06_from-ZHAO_us-affiliates-stay-filed-china-clock-still-open	noted	INBOX	Superseded by card 20261109-010; KB-210.
+2026-11-11T09:40:30-05:00	2026-11-08_from-ZHAO_11-10-clocks-instrument-check	noted	INBOX	Superseded by card 20261109-010; KB-210.
