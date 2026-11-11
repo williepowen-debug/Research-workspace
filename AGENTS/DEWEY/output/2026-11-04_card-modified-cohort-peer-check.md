@@ -1,5 +1,7 @@
 # Is the Capital One modified-card move shared? Peer check at JPMorgan, Bank of America and American Express
 
+> **November 11 continuation:** Citi is now read. `output/2026-11-11_citi-modified-card-peer-completion.md` completes the pending leg: North America modified-card delinquent share 18.59% to 19.08%. The November 4 text below retains its original vintage.
+
 **Date:** 2026-11-04 | **Mode:** Thesis | **Commission:** Will's go in the DEWEY window, 2026-11-04 20:59 ET; follow-on to `output/2026-11-04_carl-dr1-cof-q3-fdm-three-issuer-final.md`. **Confidence:** High on disclosed amounts; Medium on comparability (issuers define these tables differently); cause of the Capital One move still UNKNOWN. Citi NOT READ.
 
 ## Key finding

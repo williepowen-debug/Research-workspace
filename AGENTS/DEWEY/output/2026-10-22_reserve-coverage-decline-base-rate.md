@@ -1,5 +1,7 @@
 # Rising bad loans with falling reserve coverage: does it predict bank losses?
 
+> **November 11 continuation:** `output/2026-11-11_003R-six-bank-refresh-partial.md` verifies Q3 for the original six banks and updates the EGBN/VLY definition discussion. The old approximate VLY 131% to 117% relay is not reproduced and must not be reused as a verified series. Full-band rerun and exact EGBN residual remain open. Historical Q2 tables below retain their vintage.
+
 **Date:** 2026-10-22 | **Mode:** Thesis | **Confidence:** (a) hit rate: Medium on the data, Low on generalising it (n ≈ 10 episodes from about 3 real loss cycles) · (b) size of the rise: Medium · (c) cross-section: Medium-High for 2007–10, Low for 2015–16 · today's placement: Medium (Q2-2026 call reports only; Q3 not yet filed; CECL break) · collateral record: Medium (based on failed banks) | **Request:** REQ-DEWEY-20261022-003 (WALTER) | **Recipients:** REGINALD (action); GIBBS, CREED, WAL, OZK, FLG, RED, PROME (info)
 
 ## Key Finding

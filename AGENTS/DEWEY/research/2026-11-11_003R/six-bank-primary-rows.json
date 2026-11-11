@@ -1,0 +1,310 @@
+[
+  {
+    "bank": "EGBN",
+    "rssd": 2652092,
+    "period": "6/30/2026",
+    "sha256": "2b4a941f68e290b750e98c5f543c6a8412917acdeec8a1f07bae3a40ad102a7a",
+    "retrieved_at": "2026-11-11T15:29:14.919127+00:00",
+    "fields": {
+      "RCON1403": 136915,
+      "RCON1407": 0,
+      "RCON2122": 6672098,
+      "RCON2170": 9618012,
+      "RCON3123": 121141,
+      "RCONC410": 97665,
+      "RCONC411": 93854,
+      "RIAD3123": 121141
+    },
+    "rows": [
+      "20260630;2652092;RCON1403;136915;20260902;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260630;2652092;RCON1407;0;20260902;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260630;2652092;RCON2122;6672098;20260902;Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260630;2652092;RCON2170;9618012;20260902;Total balance sheet assets;RCRII;11",
+      "20260630;2652092;RCON3123;121141;20260902;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260630;2652092;RCONC410;97665;20260902;Additions to nonaccrual assets during the previous six months;RCN;M7",
+      "20260630;2652092;RCONC411;93854;20260902;Nonaccrual assets sold during the previous six months;RCN;M8",
+      "20260630;2652092;RIAD3123;121141;20260902;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7"
+    ]
+  },
+  {
+    "bank": "EGBN",
+    "rssd": 2652092,
+    "period": "9/30/2026",
+    "sha256": "a4b07063cc10f7ba0cb0c19b8dc0e84f30e36455ab2cb39e8dce90904df3f991",
+    "retrieved_at": "2026-11-11T15:29:16.027213+00:00",
+    "fields": {
+      "RCON1403": 179722,
+      "RCON1407": 0,
+      "RCON2122": 6576888,
+      "RCON2170": 9424196,
+      "RCON3123": 120781,
+      "RIAD3123": 120781
+    },
+    "rows": [
+      "20260930;2652092;RCON1403;179722;20261029;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260930;2652092;RCON1407;0;20261029;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260930;2652092;RCON2122;6576888;20261029;Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260930;2652092;RCON2170;9424196;20261029;Total balance sheet assets;RCRII;11",
+      "20260930;2652092;RCON3123;120781;20261029;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260930;2652092;RIAD3123;120781;20261029;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7"
+    ]
+  },
+  {
+    "bank": "ZION",
+    "rssd": 276579,
+    "period": "6/30/2026",
+    "sha256": "5418792a7b827b8a3b2ef5f6589701cbce492db7abe39758c7c283aaad1050d6",
+    "retrieved_at": "2026-11-11T15:29:17.222390+00:00",
+    "fields": {
+      "RCON1403": 292385,
+      "RCON1407": 3066,
+      "RCON2122": 62557386,
+      "RCON2170": 89041284,
+      "RCON3123": 662241,
+      "RCONC410": 89250,
+      "RCONC411": 0,
+      "RIAD3123": 662241
+    },
+    "rows": [
+      "20260630;276579;RCON1403;292385;20260729;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260630;276579;RCON1407;3066;20260729;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260630;276579;RCON2122;62557386;20260729;Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260630;276579;RCON2170;89041284;20260729;Total balance sheet assets;RCRII;11",
+      "20260630;276579;RCON3123;662241;20260729;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260630;276579;RCONC410;89250;20260729;Additions to nonaccrual assets during the previous six months;RCN;M7",
+      "20260630;276579;RCONC411;0;20260729;Nonaccrual assets sold during the previous six months;RCN;M8",
+      "20260630;276579;RIAD3123;662241;20260729;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7"
+    ]
+  },
+  {
+    "bank": "ZION",
+    "rssd": 276579,
+    "period": "9/30/2026",
+    "sha256": "7dc7a996708da29bfd418d376e921106e5fe84b1960243a4a6dc1558a28a64a8",
+    "retrieved_at": "2026-11-11T15:29:18.397323+00:00",
+    "fields": {
+      "RCON1403": 311226,
+      "RCON1407": 4981,
+      "RCON2122": 62521079,
+      "RCON2170": 90920537,
+      "RCON3123": 645948,
+      "RIAD3123": 645948
+    },
+    "rows": [
+      "20260930;276579;RCON1403;311226;20261030;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260930;276579;RCON1407;4981;20261030;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260930;276579;RCON2122;62521079;20261030;Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260930;276579;RCON2170;90920537;20261030;Total balance sheet assets;RCRII;11",
+      "20260930;276579;RCON3123;645948;20261030;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260930;276579;RIAD3123;645948;20261030;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7"
+    ]
+  },
+  {
+    "bank": "SSB",
+    "rssd": 1929247,
+    "period": "6/30/2026",
+    "sha256": "4c97d979ee3de8cbe35dafbffdf57a1243bcd9524aa98c7c147f3c7498e09ba9",
+    "retrieved_at": "2026-11-11T15:29:18.161889+00:00",
+    "fields": {
+      "RCON1403": 270615,
+      "RCON1407": 3796,
+      "RCON2122": 51252313,
+      "RCON2170": 68794317,
+      "RCON3123": 586664,
+      "RCONC410": 97520,
+      "RCONC411": 0,
+      "RIAD3123": 586664
+    },
+    "rows": [
+      "20260630;1929247;RCON1403;270615;20260820;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260630;1929247;RCON1407;3796;20260820;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260630;1929247;RCON2122;51252313;20260820;Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260630;1929247;RCON2170;68794317;20260820;Total balance sheet assets;RCRII;11",
+      "20260630;1929247;RCON3123;586664;20260820;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260630;1929247;RCONC410;97520;20260820;Additions to nonaccrual assets during the previous six months;RCN;M7",
+      "20260630;1929247;RCONC411;0;20260820;Nonaccrual assets sold during the previous six months;RCN;M8",
+      "20260630;1929247;RIAD3123;586664;20260820;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7"
+    ]
+  },
+  {
+    "bank": "SSB",
+    "rssd": 1929247,
+    "period": "9/30/2026",
+    "sha256": "88142f5c6a8563157d34545fa491631bb19a761b38cbd03e099be6458d480c35",
+    "retrieved_at": "2026-11-11T15:29:19.334027+00:00",
+    "fields": {
+      "RCON1403": 284335,
+      "RCON1407": 10629,
+      "RCON2122": 52349928,
+      "RCON2170": 70316517,
+      "RCON3123": 588918,
+      "RIAD3123": 588918
+    },
+    "rows": [
+      "20260930;1929247;RCON1403;284335;20261029;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260930;1929247;RCON1407;10629;20261029;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260930;1929247;RCON2122;52349928;20261029;Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260930;1929247;RCON2170;70316517;20261029;Total balance sheet assets;RCRII;11",
+      "20260930;1929247;RCON3123;588918;20261029;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260930;1929247;RIAD3123;588918;20261029;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7"
+    ]
+  },
+  {
+    "bank": "BKU",
+    "rssd": 3938186,
+    "period": "6/30/2026",
+    "sha256": "1efb4d22f362a1670a57125639d3367d46b02f43a4a16aaf0412c3a62e0e143e",
+    "retrieved_at": "2026-11-11T15:29:20.693669+00:00",
+    "fields": {
+      "RCON1403": 227825,
+      "RCON1407": 175882,
+      "RCON2122": 23932973,
+      "RCON2170": 34864976,
+      "RCON3123": 217516,
+      "RCONC410": 27639,
+      "RCONC411": 36137,
+      "RIAD3123": 217516
+    },
+    "rows": [
+      "20260630;3938186;RCON1403;227825;20260730;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260630;3938186;RCON1407;175882;20260730;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260630;3938186;RCON2122;23932973;20260730;Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260630;3938186;RCON2170;34864976;20260730;Total balance sheet assets;RCRII;11",
+      "20260630;3938186;RCON3123;217516;20260730;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260630;3938186;RCONC410;27639;20260730;Additions to nonaccrual assets during the previous six months;RCN;M7",
+      "20260630;3938186;RCONC411;36137;20260730;Nonaccrual assets sold during the previous six months;RCN;M8",
+      "20260630;3938186;RIAD3123;217516;20260730;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7"
+    ]
+  },
+  {
+    "bank": "BKU",
+    "rssd": 3938186,
+    "period": "9/30/2026",
+    "sha256": "5ec65702131f149ea8c236d059ce0b095dd3564bb5239ece5f26761828484192",
+    "retrieved_at": "2026-11-11T15:29:21.886340+00:00",
+    "fields": {
+      "RCON1403": 234912,
+      "RCON1407": 200039,
+      "RCON2122": 23815356,
+      "RCON2170": 34568111,
+      "RCON3123": 221476,
+      "RIAD3123": 221476
+    },
+    "rows": [
+      "20260930;3938186;RCON1403;234912;20261030;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260930;3938186;RCON1407;200039;20261030;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260930;3938186;RCON2122;23815356;20261030;Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260930;3938186;RCON2170;34568111;20261030;Total balance sheet assets;RCRII;11",
+      "20260930;3938186;RCON3123;221476;20261030;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260930;3938186;RIAD3123;221476;20261030;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7"
+    ]
+  },
+  {
+    "bank": "HBAN",
+    "rssd": 12311,
+    "period": "6/30/2026",
+    "sha256": "dcc520913f27d0187c5c4ec7d4616dcbeee5e6587859286fbdb7370c76215a18",
+    "retrieved_at": "2026-11-11T15:29:23.081140+00:00",
+    "fields": {
+      "RCFD1403": 1588963,
+      "RCFD1407": 437635,
+      "RCFD2122": 191186569,
+      "RCFD2170": 283073605,
+      "RCFD3123": 3248583,
+      "RCFDC410": 1139955,
+      "RCFDC411": 23016,
+      "RCON2122": 190184818,
+      "RIAD3123": 3248583
+    },
+    "rows": [
+      "20260630;12311;RCFD1403;1588963;20260821;Total loans and leases (sum of items 1 through 8.b);RCN;9",
+      "20260630;12311;RCFD1407;437635;20260821;Total loans and leases (sum of items 1 through 8.b);RCN;9",
+      "20260630;12311;RCFD2122;191186569;20260821;Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260630;12311;RCFD2170;283073605;20260821;Total balance sheet assets;RCRII;11",
+      "20260630;12311;RCFD3123;3248583;20260821;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260630;12311;RCFDC410;1139955;20260821;Additions to nonaccrual assets during the previous six months;RCN;M7",
+      "20260630;12311;RCFDC411;23016;20260821;Nonaccrual assets sold during the previous six months;RCN;M8",
+      "20260630;12311;RCON2122;190184818;20260821;Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260630;12311;RIAD3123;3248583;20260821;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7"
+    ]
+  },
+  {
+    "bank": "HBAN",
+    "rssd": 12311,
+    "period": "9/30/2026",
+    "sha256": "3037002bcb6cbb2a114629c49cad957866085b0023f4c9fd0960310fba98c4f8",
+    "retrieved_at": "2026-11-11T15:29:24.258464+00:00",
+    "fields": {
+      "RCFD1403": 1696676,
+      "RCFD1407": 471956,
+      "RCFD2122": 192912244,
+      "RCFD2170": 287081435,
+      "RCFD3123": 3222272,
+      "RCON2122": 191849059,
+      "RIAD3123": 3222272
+    },
+    "rows": [
+      "20260930;12311;RCFD1403;1696676;20261030;Total loans and leases (sum of items 1 through 8.b);RCN;9",
+      "20260930;12311;RCFD1407;471956;20261030;Total loans and leases (sum of items 1 through 8.b);RCN;9",
+      "20260930;12311;RCFD2122;192912244;20261030;Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260930;12311;RCFD2170;287081435;20261030;Total balance sheet assets;RCRII;11",
+      "20260930;12311;RCFD3123;3222272;20261030;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260930;12311;RCON2122;191849059;20261030;Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260930;12311;RIAD3123;3222272;20261030;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7"
+    ]
+  },
+  {
+    "bank": "VLY",
+    "rssd": 229801,
+    "period": "6/30/2026",
+    "sha256": "19c15228bc487fd9a97ac1a158d2d46aeaf6b130bf86450b07c375a86ac4646e",
+    "retrieved_at": "2026-11-11T15:29:25.577274+00:00",
+    "fields": {
+      "RCFD1403": 462629,
+      "RCFD1407": 16066,
+      "RCFD2122": 52476084,
+      "RCFD2170": 66227555,
+      "RCFD3123": 590072,
+      "RCFDC410": 94258,
+      "RCFDC411": 0,
+      "RCON2122": 52476084,
+      "RIAD3123": 590072
+    },
+    "rows": [
+      "20260630;229801;RCFD1403;462629;20260729;Total loans and leases (sum of items 1 through 8.b);RCN;9",
+      "20260630;229801;RCFD1407;16066;20260729;Total loans and leases (sum of items 1 through 8.b);RCN;9",
+      "20260630;229801;RCFD2122;52476084;20260729;Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260630;229801;RCFD2170;66227555;20260729;Total balance sheet assets;RCRII;11",
+      "20260630;229801;RCFD3123;590072;20260729;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260630;229801;RCFDC410;94258;20260729;Additions to nonaccrual assets during the previous six months;RCN;M7",
+      "20260630;229801;RCFDC411;0;20260729;Nonaccrual assets sold during the previous six months;RCN;M8",
+      "20260630;229801;RCON2122;52476084;20260729;Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260630;229801;RIAD3123;590072;20260729;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7"
+    ]
+  },
+  {
+    "bank": "VLY",
+    "rssd": 229801,
+    "period": "9/30/2026",
+    "sha256": "37b15f97a6dd668c9a25cdc49bd4f9a359b7d7b05a278a404512207102e4b065",
+    "retrieved_at": "2026-11-11T15:29:26.699661+00:00",
+    "fields": {
+      "RCFD1403": 511390,
+      "RCFD1407": 17332,
+      "RCFD2122": 53199745,
+      "RCFD2170": 67371088,
+      "RCFD3123": 580272,
+      "RCON2122": 53199745,
+      "RIAD3123": 580272
+    },
+    "rows": [
+      "20260930;229801;RCFD1403;511390;20261027;Total loans and leases (sum of items 1 through 8.b);RCN;9",
+      "20260930;229801;RCFD1407;17332;20261027;Total loans and leases (sum of items 1 through 8.b);RCN;9",
+      "20260930;229801;RCFD2122;53199745;20261027;Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260930;229801;RCFD2170;67371088;20261027;Total balance sheet assets;RCRII;11",
+      "20260930;229801;RCFD3123;580272;20261027;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260930;229801;RCON2122;53199745;20261027;Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260930;229801;RIAD3123;580272;20261027;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7"
+    ]
+  }
+]
