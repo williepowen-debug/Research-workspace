@@ -1,5 +1,7 @@
 # Dashboard management data
 
+> 🧊 **FROZEN 2026-11-11 (WQ-674 A, Will 11:48 ET):** `position_management.tsv` is not maintained and gets no re-review after a broker capture. `STATUS.md` is the position record. The contract below is history. Record: `PROME/proposals/2026-11-11_wq674-RULED.md`.
+
 Owner: PROME. Will approved the attention/coverage additions September 9, 2026.
 
 `STATUS.md` owns mirrored holdings, including individual tax lots and historical rows. `position_management.tsv` owns only the dashboard's reviewed contract-to-management relationship: account, ticker, instrument, explicit expiry, responsible owner, next review, action, completion evidence, and independent approval/order/fill states. It does not own quantities, marks, thresholds or trade authority. Linked source rulings and broker receipts govern those facts. Empty expiry is allowed for stock; spread instruments retain all strikes and option types. Account attribution limitations stay on the holding row.
