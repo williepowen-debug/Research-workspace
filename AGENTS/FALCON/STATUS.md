@@ -1,6 +1,6 @@
 # FALCON STATUS
 
-**Updated:** 2026-11-11 about 09:00 ET, weekly review + GATE-FALCON-001 review on date (PROME prome-2b wake, WQ-184) and WALTER card SIG-W-20261110-008; evidence cutoff about 13:45Z 11/11. Report [11/11 weekly](reports/2026-11-11_weekly-review-gate001-card008.md). Runtime Claude Code, Opus 5.5, desktop. Prior: 11/09 about 11:00 ET, catch-up ([report](reports/2026-11-09_catchup-read.md)); 11/08 read 2; 11/07 read 1; 11/06 FAL-06 and EXIT v4. Weekly + gate review 11/04 ([report](reports/2026-11-04_weekly-review-gate001-fal07.md)).
+**Updated:** 2026-11-11 about 08:45 ET, weekly review + GATE-FALCON-001 review on date (PROME prome-2b wake, WQ-184) and WALTER card SIG-W-20261110-008; evidence cutoff about 13:45Z 11/11. Report [11/11 weekly](reports/2026-11-11_weekly-review-gate001-card008.md). Runtime Claude Code, Opus 5.5, desktop. Prior: 11/09 about 11:00 ET, catch-up ([report](reports/2026-11-09_catchup-read.md)); 11/08 read 2; 11/07 read 1; 11/06 FAL-06 and EXIT v4. Weekly + gate review 11/04 ([report](reports/2026-11-04_weekly-review-gate001-fal07.md)).
 
 ## Current marks and authority
 
