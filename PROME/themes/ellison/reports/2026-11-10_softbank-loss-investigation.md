@@ -23,7 +23,7 @@ SoftBank lost ¥1,115.3B in the quarter. Most of it is non-cash and already insi
 | 9 | The ratio falls when SoftBank pledges shares: Q2 "asset monetisation" ¥2.1T (Intel collar ¥1.2T, Arm margin loan +¥0.8T) is netted out of both debt and value. Gross of asset-backed finance (pledged holdings added back) it is 30.6% rolled, about 32.1% with hybrids as full debt. SAM: this measures encumbrance, how much of the best collateral is pledged, not SBG bondholders' claim, since the facilities are non-recourse to SBG. The −2.1 points is SoftBank's own figure | deck p.79, p.82; fr 14/12, 42 | RED; SAM a31785d3e4 |
 | 10 | Cash interest: SBG interest ¥676.4B in H1, +¥407.2B year on year; cash ¥5.0T against ¥1.6T of two-year redemptions; the cash policy covers redemptions, not interest | accounting deck p.7; deck p.23 | RED, SAM |
 | 11 | 5Y CDS 497 [11/9, before results], widest since at least 8/3 (August median 347); Oracle flat, CoreWeave tighter over 11/6–11/9; at 40% recovery about 34% five-year default, single-B pricing on a BB+ rating | DTCC US-nexus sample, ±10 bp | LIQUID ecc68f6a82; RED |
-| 12 | Ratings per SoftBank's deck p.71: JCR A Negative · S&P BB+ Stable (from Negative 7/16) · Fitch BB+ Stable (9/11). No action found since the results. LIQUID's "S&P Negative" is stale against this; sent to LIQUID | deck; relays | SAM, RED; LIQUID to correct |
+| 12 | Ratings per SoftBank's deck p.71: JCR A Negative · S&P BB+ Stable (from Negative 7/16) · Fitch BB+ Stable (9/11). No action found since the results. LIQUID's earlier "S&P Negative" was a stale relay, corrected by LIQUID at c5b2b03243. The September $11.1B senior issue was $10B at a 9.4% weighted-average coupon and €1B at 7.6% (slide Finance 19) | deck | SAM, RED, LIQUID fbee1c954b |
 | 13 | 9984.T's +13.88% on 11/10 came before the results (TDnet 15:30 JST, the close); driver not found. After the results: SFTBY −4.00%, ARM −2.58% (US session, vendor) | TDnet; vendor | SAM, LIQUID |
 | 14 | Musk, 11/6: "SoftBank is defaulting on its turbine orders". Orders cut and suppliers settled: corroborated. "Default": contradicted, negotiated settlements. Turbines: not established | filings | SAM |
 | 15 | Cohort: TSMC October revenue NT$586,890mn, over VULCAN's line; CoreWeave raised its FY2026 capex guide to $37–39B, "deliver sooner"; both grades PROVISIONAL. On 11/10 NVDA −5.47%, IREN −7.85%, NBIS −5.27%, cause not attributed | 6-K; 8-K Ex 99.1; vendor | VULCAN d4b5e4684c; LIQUID |
@@ -48,7 +48,7 @@ SoftBank lost ¥1,115.3B in the quarter. Most of it is non-cash and already insi
 2. Which projects the dropped $2.9B of equipment was for.
 3. Who pays the ¥140.2B settlement (the +0.2 point assumes SBG).
 4. The Intel collar's counterparty, strikes and margining; margin-call levels on the Arm, SoftBank Corp and SVF2 OpenAI-share facilities; T-Mobile collar strikes.
-5. After-results CDS and every after-results bond price, dollar and yen.
+5. After-results credit beyond one print: SoftBank 5Y 496 at 03:01 ET 11/10, flat against 497, n = 1, outside Tokyo hours (LIQUID fbee1c954b; Oracle 300 and CoreWeave about 1,150, flat). How Tokyo priced the results, and every after-results bond price, dollar and yen, are unread.
 6. The Tokyo reaction of 11/11 and what drove the pre-results rally.
 7. Gotō's words at the primary (transcript unposted); the Zero Hedge claim on pledged Intel shares, unchecked.
 
