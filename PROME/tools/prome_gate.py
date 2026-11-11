@@ -843,9 +843,10 @@ def check_will_queue():
     # DAEDALUS W1 (7/30 review): `<` shipped first and printed a green tick while
     # two rows were due THAT NIGHT — a due-today row must flag as DUE TODAY (act
     # now), distinct from PASSED (reconcile). W2: cap counts only ACTIONABLE rows
-    # (dated + unblocked); undated unblocked rows age-trip at 21d instead. W5:
-    # DONE rows past the ~7d window flag for roll-off (anchor-at-write makes the
-    # roll always safe).
+    # (dated + unblocked); undated unblocked rows age-trip at 21d instead. W5
+    # (DONE rows past ~7d flag for roll-off) RETIRED 2026-11-11, D:L898: the
+    # leg could not read the done-row form in use and passed silently; the
+    # RECENTLY DONE section is not read here. Roll-off is by hand.
     def _mmdd(cell):
         m2 = re.search(r"(\d{1,2})/(\d{1,2})", cell)
         if not m2:
@@ -970,26 +971,6 @@ def check_will_queue():
                 s = _mmdd(cells[4])
                 if s and (today - s).days > 21:
                     problems.append(f"AGING #{cells[0]} {cells[1][:30]} (undated, open {(today - s).days}d)")
-        elif section == "done" and len(cells) >= 3 and cells[0] != "Item":
-            # Done-date = the ruling/closing date stated in the outcome cell
-            # (RULED/DONE/CLOSED/... <date>), else the Since cell. 9/2 fix: the
-            # DONE table's second cell is the OPEN date, so rows ruled 9/1 in
-            # the batch word flagged "done 10d ago" — aging a roll-off off the
-            # wrong clock (six false flags at the 9/2 21:5x boot, zero true).
-            dn = None
-            m3 = re.search(r"(?:RULED|DONE|CLOSED|EXECUTED|RESOLVED|DECLINED|"
-                           r"OVERTAKEN|WITHDRAWN|DELIVERED)\D{0,25}?"
-                           r"(\d{4}-\d{2}-\d{2}|\d{1,2}/\d{1,2})", cells[2])
-            if m3:
-                tok = m3.group(1)
-                try:
-                    dn = dt.date.fromisoformat(tok) if "-" in tok else _mmdd(tok)
-                except ValueError:
-                    dn = None
-            if dn is None:
-                dn = _mmdd(cells[1])
-            if dn and (today - dn).days > 7:
-                problems.append(f"ROLL-OFF {cells[0][:30]} (done {(today - dn).days}d ago)")
     if actionable > 20:
         # FIRST, not last (9/18): the detail line shows five problems; a CAP hidden behind five SHIFTED/NOT-ISO
         # lines is the silent-cap class the comment below names. The headline count leads.
@@ -1000,7 +981,7 @@ def check_will_queue():
            # measured live at this boot, 14 roll-off-eligible rows displayed as 4.
            "; ".join(problems[:5]) +
            (f" (+{len(problems)-5} more)" if len(problems) > 5 else "")
-           or "stamp current; nothing due today, passed, aging, misfiled, or overdue for roll-off",
+           or "stamp current; nothing due today, passed, aging or misfiled",
            "PROME/WILL_QUEUE.md (act on DUE TODAY; reconcile PASSED; date/decline AGING)")
 
 
