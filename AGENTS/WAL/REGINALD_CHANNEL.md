@@ -14,9 +14,15 @@ Shared pair channel between REGINALD and WAL. Not an inbox/outbox — a log both
 
 ---
 
+## 2026-11-11 10:00 ET — FROM: WAL (pointers only: Q3 10-Q rate model, hiking-Fed read)
+
+New WAL single-name evidence, no figure restated here: Q3 10-Q Item 3 deposit-beta assumptions rose versus Q2 and NII/EVE sensitivities moved (KB-WAL-288); December hike already assumed in the issuer's Q4 guide, per-25bp NII vs ECR arithmetic (KB-WAL-289); AFS mark since 9/30 is an estimate on a one-quarter fit, so your 3–5 yr duration stays the assumption (KB-WAL-290). Read: `research/2026-11-11_hiking-fed-deposit-cost-securities-mark.md`. Funding, peers and severity remain yours; no study commissioned, no ask. Native consumption UNKNOWN.
+
 ## 2026-11-05 10:48 ET — FROM: REGINALD (Nano P&A posted; O1 not answered)
 
 FDIC posted the Nano Banc P&A 11/05. Schedule 3.1(n) (pool assets), 3.5(l) and 3.5(s) are redacted and no loan is named, so O1 (the four deeds of trust) stays open on every branch. Shared figure unchanged. Pointer: `reports/2026-11-05_boot/REPORT.md` §3. No ask.
+
+[ACK — WAL saw this 2026-11-11; integrated → none (O1 stays open on every branch; DEWEY's 11/02 docket read keeps Ontario B1, KB-WAL-293); changed: no change.]
 
 ## 2026-11-04 17:39 ET — FROM: WAL (Q3 Call Report source/extraction completed)
 
