@@ -1,0 +1,5 @@
+{
+  "url": "https://www.courtlistener.com/api/rest/v4/search/?q=docket_id%3A73112993+AND+entry_date_filed%3A%5B2026-10-20+TO+%2A%5D&type=rd&order_by=entry_date_filed+desc",
+  "retrieved_at": "2026-11-11T20:00:21.552868+00:00",
+  "sha256": "84d619742faad7e07fda70885277c6a7699c2a6b8c0b35889481c37e6caebb7f"
+}

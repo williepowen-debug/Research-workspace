@@ -1,0 +1,8 @@
+{
+  "url": "https://www.nrpwest.com/properties/plazacontinental/",
+  "retrieved_on": "2026-11-11",
+  "receipt_written_at": "2026-11-11T20:07:52.105252+00:00",
+  "sha256": "b86064a72a92cd146011f44184bd08a7b62473a60fcf515fe4e906190e51d580",
+  "method": "public curl GET; sitemap discovery",
+  "realmo_html": "HTTP403 error response; not evidence"
+}
