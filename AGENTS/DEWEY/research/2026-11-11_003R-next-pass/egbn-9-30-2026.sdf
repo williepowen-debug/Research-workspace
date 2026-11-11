@@ -1,0 +1,1690 @@
+Call Date;Bank RSSD Identifier;MDRM #;Value;Last Update;Short Definition;Call Schedule;Line Number
+20260930;2652092;RCOA3792;1338605;20261029;Total capital (sum of items 26 and 46);RCRI;47
+20260930;2652092;RCOA5310;100870;20261029;Adjusted allowances for credit losses (AACL) includable in tier 2 capital;RCRI;42
+20260930;2652092;RCOA5311;100870;20261029;Tier 2 capital (greater of item 44 minus item 45, or zero);RCRI;46
+20260930;2652092;RCOA7204;12.3755%;20261029;Leverage ratio (item 26 divided by 30);RCRI;31
+20260930;2652092;RCOA7205;16.6365%;20261029;Total capital ratio (item 47 divided by item 48);RCRI;51
+20260930;2652092;RCOA7206;15.3829%;20261029;Tier 1 capital ratio (item 26 divided by item 48);RCRI;50
+20260930;2652092;RCOA8274;1237735;20261029;Tier 1 capital (sum of items 19 and 25);RCRI;26
+20260930;2652092;RCOAA223;8046192;20261029;Total risk-weighted assets (from Schedule RC-R, Part II, item 31);RCRI;48
+20260930;2652092;RCOAA224;10001461;20261029;Total assets for the leverage ratio (item 27 minus items 28 and 29);RCRI;30
+20260930;2652092;RCOAB530;-112547;20261029;Accumulated other comprehensive income (AOCI);RCRI;3
+20260930;2652092;RCOAB596;0;20261029;LESS: Other deductions from (additions to) assets for leverage ratio purposes;RCRI;29
+20260930;2652092;RCOAH311;8.6365%;20261029;Capital conservation buffer;RCRI;52a
+20260930;2652092;RCOAJJ29;0;20261029;Does your institution have a CECL transition election in effect as of the quarter-end report date?  (enter "0" for No: enter "1" for Yes with a 3-year CECL transition election: enter "2" for Yes with a 5-year 2020 CECL transition election.);RCRI;2a
+20260930;2652092;RCOAKW00;610614;20261029;Retained earnings;RCRI;2
+20260930;2652092;RCOAKW03;10061800;20261029;Average total consolidated assets;RCRI;27
+20260930;2652092;RCOALB58;0;20261029;LESS: Investments in the capital of unconsolidated financial institutions, net of associated DTLs, that exceed 25 percent of item 12;RCRI;13
+20260930;2652092;RCOALB59;0;20261029;LESS: MSAs, net of associated DTLs, that exceed 25 percent of item 12;RCRI;14
+20260930;2652092;RCOALB60;0;20261029;LESS: DTAs arising from temporary differences that could not be realized through net operating loss carrybacks, net of related valuation allowances and net of DTLs, that exceed 25 percent of item 12;RCRI;15
+20260930;2652092;RCOALE74;0;20261029;Does your institution have a community bank leverage ratio (CBLR) framework election in effect as of the quarter-end report date? (enter "1" for Yes: enter "0" for No);RCRI;31a
+20260930;2652092;RCOAP742;683892;20261029;Common stock plus related surplus, net of treasury stock and unearned employee stock ownership plan (ESOP) shares;RCRI;1
+20260930;2652092;RCOAP793;15.3829%;20261029;Common equity tier 1 capital ratio (item 19 divided by item 48);RCRI;49
+20260930;2652092;RCOAP838;1;20261029;AOCI opt-out election (enter "1" for Yes: enter "0" for No.);RCRI;3a
+20260930;2652092;RCOAP839;0;20261029;Common equity tier 1 minority interest includable in common equity tier 1 capital;RCRI;4
+20260930;2652092;RCOAP840;1181959;20261029;Common equity tier 1 capital before adjustments and deductions (sum of items 1 through 4);RCRI;5
+20260930;2652092;RCOAP841;0;20261029;LESS: Goodwill net of associated deferred tax liabilities (DTLs);RCRI;6
+20260930;2652092;RCOAP842;2;20261029;LESS: Intangible assets (other than goodwill and mortgage servicing assets (MSAs)), net of associated DTLs;RCRI;7
+20260930;2652092;RCOAP843;60337;20261029;LESS: Deferred tax assets (DTAs) that arise from net operating loss and tax credit carryforwards, net of any related valuation allowances and net of DTLs;RCRI;8
+20260930;2652092;RCOAP844;-75559;20261029;LESS:  Net unrealized gains (losses) on available-for-sale debt securities (if a gain, report as a positive value: if a loss, report as a negative value);RCRI;9a
+20260930;2652092;RCOAP846;-14787;20261029;LESS: Accumulated net gains (losses) on cash flow hedges (if a gain, report as a positive value: if a loss, report as a negative value);RCRI;9c
+20260930;2652092;RCOAP847;0;20261029;LESS: Amounts recorded in AOCI attributed to defined benefit postretirement plans resulting from the initial and subsequent application of the relevant GAAP standards that pertain to such plans (if a gain, report as a positive value: if a loss, report as a negative value);RCRI;9d
+20260930;2652092;RCOAP848;-25769;20261029;LESS: Net unrealized gains (losses) on held-to-maturity securities that are included in AOCI (if a gain, report as a positive value: if a loss, report as a negative value);RCRI;9e
+20260930;2652092;RCOAP850;0;20261029;LESS: All other deductions from (additions to) common equity tier 1 capital before threshold-based deductions;RCRI;10b
+20260930;2652092;RCOAP852;1237735;20261029;Subtotal (item 5 minus items 6 through 10.b);RCRI;12
+20260930;2652092;RCOAP857;0;20261029;LESS: Deductions applied to common equity tier 1 capital due to insufficient amounts of additional tier 1 capital and tier 2 capital to cover deductions;RCRI;17
+20260930;2652092;RCOAP858;0;20261029;Total adjustments and deductions for common equity tier 1 capital (sum of items 13 through 17);RCRI;18
+20260930;2652092;RCOAP859;1237735;20261029;Common equity tier 1 capital (item 12 minus item 18);RCRI;19
+20260930;2652092;RCOAP860;0;20261029;Additional tier 1 capital instruments plus related surplus;RCRI;20
+20260930;2652092;RCOAP861;0;20261029;Non-qualifying capital instruments subject to phase out from additional tier 1 capital ;RCRI;21
+20260930;2652092;RCOAP862;0;20261029;Tier 1 minority interest not included in common equity tier 1 capital;RCRI;22
+20260930;2652092;RCOAP863;0;20261029;Additional tier 1 capital before deductions (sum of items 20, 21, and 22);RCRI;23
+20260930;2652092;RCOAP864;0;20261029;LESS: Additional tier 1 capital deductions;RCRI;24
+20260930;2652092;RCOAP865;0;20261029;Additional tier 1 capital (greater of item 23 minus item 24, or zero);RCRI;25
+20260930;2652092;RCOAP866;0;20261029;Tier 2 capital instruments plus related surplus;RCRI;39
+20260930;2652092;RCOAP867;0;20261029;Non-qualifying capital instruments subject to phase-out from tier 2 capital;RCRI;40
+20260930;2652092;RCOAP868;0;20261029;Total capital minority interest that is not included in tier 1 capital;RCRI;41
+20260930;2652092;RCOAP870;100870;20261029;Tier 2 capital before deductions (sum of items 39 through 42);RCRI;44
+20260930;2652092;RCOAP872;0;20261029;LESS: Tier 2 capital deductions;RCRI;45
+20260930;2652092;RCOAP875;60339;20261029;LESS: Deductions from common equity tier 1 capital and additional tier 1 capital (sum of items 6, 7, 8, 10.b, 13 through 15, 17, and certain elements of item 24 - see instructions);RCRI;28
+20260930;2652092;RCOAQ258;0;20261029;LESS: Unrealized net gain (loss) related to changes in the fair value of liabilities that are due to changes in own credit risk (if a gain, report as a positive value: if a loss, report as a negative value);RCRI;10a
+20260930;2652092;RCON0010;542260;20261029;Total;RCA;5
+20260930;2652092;RCON0020;0;20261029;Cash items in process of collection and unposted debits;RCA;1a
+20260930;2652092;RCON0070;0;20261029;Balances due from banks in foreign countries and foreign central banks;RCA;3
+20260930;2652092;RCON0071;528617;20261029;Interest-bearing balances;RC;1b
+20260930;2652092;RCON0080;5207;20261029;Currency and coin;RCA;1b
+20260930;2652092;RCON0081;13643;20261029;Noninterest-bearing balances and currency and coin;RC;1a
+20260930;2652092;RCON0082;55774;20261029;Balances due from depository institutions in the U.S;RCA;2
+20260930;2652092;RCON0090;481279;20261029;Balances due from Federal Reserve Banks;RCA;4
+20260930;2652092;RCON0211;0;20261029;U.S. Treasury securities;RCB;1
+20260930;2652092;RCON0213;0;20261029;U.S. Treasury securities;RCB;1
+20260930;2652092;RCON0352;1896306;20261029;Other savings deposits (excludes MMDAs);RCE;M2a2
+20260930;2652092;RCON0416;20588;20261029;Pledged securities;RCB;M1
+20260930;2652092;RCON1226;0;20261029;Lease financing receivables;RCN;8
+20260930;2652092;RCON1227;0;20261029;Lease financing receivables;RCN;8
+20260930;2652092;RCON1228;0;20261029;Lease financing receivables;RCN;8
+20260930;2652092;RCON1248;0;20261029;Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RC-N, item 1, above);RCN;M3a
+20260930;2652092;RCON1249;0;20261029;Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RC-N, item 1, above);RCN;M3a
+20260930;2652092;RCON1250;0;20261029;Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RC-N, item 1, above);RCN;M3a
+20260930;2652092;RCON1254;0;20261029;Commercial and industrial loans to non-U.S. addressees (domicile) (included in Schedule RC-N, item 4, above);RCN;M3c
+20260930;2652092;RCON1255;0;20261029;Commercial and industrial loans to non-U.S. addressees (domicile) (included in Schedule RC-N, item 4, above);RCN;M3c
+20260930;2652092;RCON1256;0;20261029;Commercial and industrial loans to non-U.S. addressees (domicile) (included in Schedule RC-N, item 4, above);RCN;M3c
+20260930;2652092;RCON1286;0;20261029;U.S. Treasury securities;RCB;1
+20260930;2652092;RCON1287;0;20261029;U.S. Treasury securities;RCB;1
+20260930;2652092;RCON1288;0;20261029;Loans to depository institutions and acceptances of other banks;RCCI;2
+20260930;2652092;RCON1403;179722;20261029;Total loans and leases (sum of items 1 through 8);RCN;9
+20260930;2652092;RCON1406;357;20261029;Total loans and leases (sum of items 1 through 8);RCN;9
+20260930;2652092;RCON1407;0;20261029;Total loans and leases (sum of items 1 through 8);RCN;9
+20260930;2652092;RCON1420;0;20261029;Secured by farmland (including farm residential and other improvements);RCCI;1b
+20260930;2652092;RCON1460;691659;20261029;Secured by multifamily (5 or more) residential properties;RCCI;1d
+20260930;2652092;RCON1545;0;20261029;Loans for purchasing or carrying securities, including margin loans;RCCI;9b1
+20260930;2652092;RCON1583;0;20261029;Loans to finance agricultural production and other loans to farmers (included in Schedule RC-N, item 7, above);RCN;M4
+20260930;2652092;RCON1590;0;20261029;Loans to finance agricultural production and other loans to farmers;RCCI;3
+20260930;2652092;RCON1594;0;20261029;Loans to finance agricultural production and other loans to farmers (included in Schedule RC-N, item 7, above);RCN;M4
+20260930;2652092;RCON1597;0;20261029;Loans to finance agricultural production and other loans to farmers (included in Schedule RC-N, item 7, above);RCN;M4
+20260930;2652092;RCON1606;60;20261029;Commercial and industrial loans;RCN;4
+20260930;2652092;RCON1607;0;20261029;Commercial and industrial loans;RCN;4
+20260930;2652092;RCON1608;13807;20261029;Commercial and industrial loans;RCN;4
+20260930;2652092;RCON1737;69528;20261029;Other domestic debt securities;RCB;6a
+20260930;2652092;RCON1738;67283;20261029;Other domestic debt securities;RCB;6a
+20260930;2652092;RCON1739;2000;20261029;Other domestic debt securities;RCB;6a
+20260930;2652092;RCON1741;1977;20261029;Other domestic debt securities;RCB;6a
+20260930;2652092;RCON1742;5000;20261029;Other foreign debt securities;RCB;6b
+20260930;2652092;RCON1743;4499;20261029;Other foreign debt securities;RCB;6b
+20260930;2652092;RCON1744;0;20261029;Other foreign debt securities;RCB;6b
+20260930;2652092;RCON1746;0;20261029;Other foreign debt securities;RCB;6b
+20260930;2652092;RCON1752;27984;20261029;Equity investments without readily determinable fair values;RCF;4
+20260930;2652092;RCON1754;766698;20261029;Total (sum of items 1 through 7);RCB;8
+20260930;2652092;RCON1763;1320090;20261029;To U.S. addressees (domicile);RCCI;4a
+20260930;2652092;RCON1764;0;20261029;To non-U.S. addressees (domicile);RCCI;4b
+20260930;2652092;RCON1766;1320090;20261029;Commercial and industrial loans;RCCI;4
+20260930;2652092;RCON1771;654702;20261029;Total (sum of items 1 through 7);RCB;8
+20260930;2652092;RCON1772;991993;20261029;Total (sum of items 1 through 7);RCB;8
+20260930;2652092;RCON1773;892030;20261029;Total (sum of items 1 through 7);RCB;8
+20260930;2652092;RCON1797;46006;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCCI;1c1
+20260930;2652092;RCON2107;406237;20261029;Obligations (other than securities and leases) of states and political subdivisions in the U.S.;RCCI;8
+20260930;2652092;RCON2122;6576888;20261029;Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12
+20260930;2652092;RCON2123;17671;20261029;LESS: Any unearned income on loans reflected in items 1-9 above;RCCI;11
+20260930;2652092;RCON2130;0;20261029;Investments in unconsolidated subsidiaries and associated companies;RC;8
+20260930;2652092;RCON2143;2;20261029;Total (sum of items 2.a, 2.b, and 2.c) (must equal Schedule RC, item 10);RCM;2d
+20260930;2652092;RCON2145;41287;20261029;Premises and fixed assets (including right-of-use assets);RC;6
+20260930;2652092;RCON2148;134440;20261029;Net deferred tax assets;RCF;2
+20260930;2652092;RCON2150;0;20261029;Total (sum of items 3.a through 3.e) (must equal Schedule RC, item 7);RCM;3f
+20260930;2652092;RCON2160;680669;20261029;Total (sum of items 1 through 6) (must equal Schedule RC, item 11);RCF;7
+20260930;2652092;RCON2165;0;20261029;Lease financing receivables (net of unearned income);RCCI;10
+20260930;2652092;RCON2166;7766;20261029;Prepaid expenses;RCF;6a
+20260930;2652092;RCON2168;133211;20261029;All other assets (itemize and describe amounts greater than $100,000 that exceed 25% of this item);RCF;6
+20260930;2652092;RCON2170;9424196;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCON2200;8047650;20261029;In domestic offices (sum of totals of columns A and C from Schedule RC-E);RC;13a
+20260930;2652092;RCON2202;0;20261029;U.S. Government;RCE;2
+20260930;2652092;RCON2203;141936;20261029;States and political subdivisions in the U.S.;RCE;3
+20260930;2652092;RCON2210;863126;20261029;Total (sum of items 1 through 6) (sum of columns A and C must equal Schedule RC, item 13.a);RCE;7
+20260930;2652092;RCON2213;0;20261029;Banks in foreign countries;RCE;5
+20260930;2652092;RCON2215;955139;20261029;Total (sum of items 1 through 6) (sum of columns A and C must equal Schedule RC, item 13.a);RCE;7
+20260930;2652092;RCON2216;4206;20261029;Foreign governments and official institutions (including foreign central banks);RCE;6
+20260930;2652092;RCON2236;0;20261029;Banks in foreign countries;RCE;5
+20260930;2652092;RCON2365;807845;20261029;Total brokered deposits;RCE;M1b
+20260930;2652092;RCON2377;5878;20261029;Foreign governments and official institutions (including foreign central banks);RCE;6
+20260930;2652092;RCON2385;7092511;20261029;Total (sum of items 1 through 6) (sum of columns A and C must equal Schedule RC, item 13.a);RCE;7
+20260930;2652092;RCON2520;0;20261029;U.S. Government;RCE;2
+20260930;2652092;RCON2530;343658;20261029;States and political subdivisions in the U.S.;RCE;3
+20260930;2652092;RCON2651;0;20261029;Advances with a remaining maturity of one year or less (included in item 5.a.(1)(a) above);RCM;5a2
+20260930;2652092;RCON2746;174445;20261029;Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B;RCCI;M3
+20260930;2652092;RCON2930;151324;20261029;Total;RCG;5
+20260930;2652092;RCON2938;117666;20261029;All other liabilities (itemize and describe amounts greater than $100,000 that exceed 25 percent of this item);RCG;4
+20260930;2652092;RCON2948;8242236;20261029;Total liabilities (sum of items 13 through 20);RC;21
+20260930;2652092;RCON3000;0;20261029;Noncontrolling (minority) interests in consolidated subsidiaries;RC;27b
+20260930;2652092;RCON3049;0;20261029;Net deferred tax liabilities;RCG;2
+20260930;2652092;RCON3123;120781;20261029;LESS: Allowance for credit losses on loans and leases;RCRII;6
+20260930;2652092;RCON3128;0;20261029;LESS: Allocated transfer risk reserve;RCRII;30
+20260930;2652092;RCON3163;0;20261029;Goodwill;RCM;2b
+20260930;2652092;RCON3164;0;20261029;Mortgage servicing assets;RCM;2a
+20260930;2652092;RCON3190;0;20261029;Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16);RCM;5c
+20260930;2652092;RCON3200;0;20261029;Subordinated notes and debentures;RC;19
+20260930;2652092;RCON3210;1181960;20261029;Total bank equity capital (sum of items 23 through 26.c);RC;27a
+20260930;2652092;RCON3230;4625;20261029;Common stock;RC;24
+20260930;2652092;RCON3300;9424196;20261029;Total liabilities and equity capital (sum of items 21 and 28);RC;29
+20260930;2652092;RCON3353;2;20261029;Federal funds purchased and securities sold under agreements to repurchase;RCK;12
+20260930;2652092;RCON3355;6522;20261029;Other borrowed money (includes mortgage indebtedness and obligations under capitalized leases);RCK;13
+20260930;2652092;RCON3360;6524107;20261029;Total loans;RCK;6a
+20260930;2652092;RCON3365;0;20261029;Federal funds sold and securities purchased under agreements to resell;RCK;5
+20260930;2652092;RCON3368;10061800;20261029;Total assets;RCK;9
+20260930;2652092;RCON3381;1021966;20261029;Interest-bearing balances due from depository institutions;RCK;1
+20260930;2652092;RCON3386;0;20261029;Loans to finance agricultural production and other loans to farmers ;RCK;M1
+20260930;2652092;RCON3387;1219503;20261029;Commercial and industrial loans;RCK;6c
+20260930;2652092;RCON3401;27493;20261029;Trading assets;RCK;7
+20260930;2652092;RCON3411;0;20261029;Commercial and similar letters of credit;RCL;4
+20260930;2652092;RCON3430;0;20261029;All other off-balance sheet liabilities (exclude derivatives) (itemize and describe each component of this item over 25% of Schedule RC, item 27.a, "Total bank equity capital");RCL;9
+20260930;2652092;RCON3432;0;20261029;Securities borrowed;RCL;6b
+20260930;2652092;RCON3433;0;20261029;Securities lent (including customers' securities lent where the customer is indemnified against loss by the reporting bank);RCL;6a
+20260930;2652092;RCON3434;0;20261029;Commitments to purchase when-issued securities;RCL;9b
+20260930;2652092;RCON3435;0;20261029;Commitments to sell when-issued securities;RCL;10a
+20260930;2652092;RCON3450;2373732;20261029;Swaps;RCL;12e
+20260930;2652092;RCON3465;205795;20261029;Loans secured by 1-4 family residential properties;RCK;6b1
+20260930;2652092;RCON3466;4284648;20261029;All other loans secured by real estate;RCK;6b2
+20260930;2652092;RCON3484;0;20261029;Lease financing receivables (net of unearned income);RCK;8
+20260930;2652092;RCON3485;1130018;20261029;Interest-bearing transaction accounts (interest-bearing demand deposits, NOW accounts, ATS accounts, and telephone and preauthorized transfer accounts);RCK;10
+20260930;2652092;RCON3493;0;20261029;Secured by farmland;RCN;1b
+20260930;2652092;RCON3494;0;20261029;Secured by farmland;RCN;1b
+20260930;2652092;RCON3495;0;20261029;Secured by farmland;RCN;1b
+20260930;2652092;RCON3499;0;20261029;Secured by multifamily (5 or more) residential properties;RCN;1d
+20260930;2652092;RCON3500;0;20261029;Secured by multifamily (5 or more) residential properties;RCN;1d
+20260930;2652092;RCON3501;82506;20261029;Secured by multifamily (5 or more) residential properties;RCN;1d
+20260930;2652092;RCON3505;0;20261029;Debt securities and other assets (exclude other real estate owned and other repossessed assets);RCN;10
+20260930;2652092;RCON3506;0;20261029;Debt securities and other assets (exclude other real estate owned and other repossessed assets);RCN;10
+20260930;2652092;RCON3507;0;20261029;Debt securities and other assets (exclude other real estate owned and other repossessed assets);RCN;10
+20260930;2652092;RCON3531;0;20261029;U.S. Treasury securities;RCD;1
+20260930;2652092;RCON3532;0;20261029;U.S. Government agency obligations (exclude mortgage-backed securities);RCD;2
+20260930;2652092;RCON3533;0;20261029;Securities issued by states and political subdivisions in the U.S.;RCD;3
+20260930;2652092;RCON3541;0;20261029;Other trading assets;RCD;9
+20260930;2652092;RCON3543;45333;20261029;Derivative assets;RCQ;5a
+20260930;2652092;RCON3545;45333;20261029;Total trading assets (sum of items 1 through 11) (must equal Schedule RC, item 5);RCD;12
+20260930;2652092;RCON3546;0;20261029;Liability for short positions ;RCD;13a
+20260930;2652092;RCON3547;43262;20261029;Derivative liabilities;RCQ;10a
+20260930;2652092;RCON3548;43262;20261029;Total trading liabilities (sum of items 13.a through 14) (must equal Schedule RC, item 15);RCD;15
+20260930;2652092;RCON3549;61079;20261029;Amount of component;RCF;6h2
+20260930;2652092;RCON3555;0;20261029;Amount of component;RCL;9d2
+20260930;2652092;RCON3556;0;20261029;Amount of component;RCL;9e2
+20260930;2652092;RCON3557;0;20261029;Amount of component;RCL;9f2
+20260930;2652092;RCON3632;610613;20261029;Retained earnings;RC;26a
+20260930;2652092;RCON3645;7200;20261029;Interest accrued and unpaid on deposits;RCG;1a
+20260930;2652092;RCON3646;23129;20261029;Other expenses accrued and unpaid (includes accrued income taxes payable);RCG;1b
+20260930;2652092;RCON3656;0;20261029;Direct and indirect investments in real estate ventures;RC;9
+20260930;2652092;RCON3814;76994;20261029;Revolving, open-end lines secured by 1-4 family residential properties, i.e., home equity lines;RCL;1a
+20260930;2652092;RCON3815;0;20261029;Credit card lines (Sum of items 1.b.(1) and 1.b.(2) must equal item 1.b);RCL;1b
+20260930;2652092;RCON3817;0;20261029;Securities underwriting;RCL;1d
+20260930;2652092;RCON3819;23803;20261029;Financial standby letters of credit;RCL;2
+20260930;2652092;RCON3820;0;20261029;Amount of financial standby letters of credit conveyed to others;RCL;2a
+20260930;2652092;RCON3821;42707;20261029;Performance standby letters of credit;RCL;3
+20260930;2652092;RCON3822;0;20261029;Amount of performance standby letters of credit conveyed to others;RCL;3a
+20260930;2652092;RCON3826;0;20261029;Swaps;RCL;12e
+20260930;2652092;RCON3838;0;20261029;Perpetual preferred stock and related surplus;RC;23
+20260930;2652092;RCON3839;679267;20261029;Surplus (exclude all surplus related to preferred stock);RC;25
+20260930;2652092;RCON5367;255534;20261029;Secured by first liens;RCCI;1c2a
+20260930;2652092;RCON5368;3961;20261029;Secured by junior liens;RCCI;1c2b
+20260930;2652092;RCON5369;13534;20261029;Loans and leases held for sale;RC;4a
+20260930;2652092;RCON5370;1770;20261029;Adjustable rate closed-end loans secured by first liens on 1-4 family residential properties (included in Schedule RC-C, part I, item 1.c.(2)(a), column B);RCCI;M4
+20260930;2652092;RCON5380;0;20261029;Loans to and acceptances of foreign banks (included in Schedule RC-N, item 2, above);RCN;M3b
+20260930;2652092;RCON5381;0;20261029;Loans to and acceptances of foreign banks (included in Schedule RC-N, item 2, above);RCN;M3b
+20260930;2652092;RCON5382;0;20261029;Loans to and acceptances of foreign banks (included in Schedule RC-N, item 2, above);RCN;M3b
+20260930;2652092;RCON5398;0;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCN;1c1
+20260930;2652092;RCON5399;0;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCN;1c1
+20260930;2652092;RCON5400;572;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCN;1c1
+20260930;2652092;RCON5459;0;20261029;All other loans;RCN;7
+20260930;2652092;RCON5460;0;20261029;All other loans;RCN;7
+20260930;2652092;RCON5461;9541;20261029;All other loans;RCN;7
+20260930;2652092;RCON5508;0;20261029;Construction, land development, and other land;RCM;3a
+20260930;2652092;RCON5509;0;20261029;Farmland;RCM;3b
+20260930;2652092;RCON5510;0;20261029;1-4 family residential properties;RCM;3c
+20260930;2652092;RCON5511;0;20261029;Multifamily (5 or more) residential properties;RCM;3d
+20260930;2652092;RCON5512;0;20261029;Nonfarm nonresidential properties;RCM;3e
+20260930;2652092;RCON5564;8;20261029;With original amounts of $100,000 or less;RCCII;3a
+20260930;2652092;RCON5565;240;20261029;With original amounts of $100,000 or less;RCCII;3a
+20260930;2652092;RCON5566;64;20261029;With original amounts of more than $100,000 through $250,000;RCCII;3b
+20260930;2652092;RCON5567;6626;20261029;With original amounts of more than $100,000 through $250,000;RCCII;3b
+20260930;2652092;RCON5568;164;20261029;With original amounts of more than $250,000 through $1,000,000;RCCII;3c
+20260930;2652092;RCON5569;57519;20261029;With original amounts of more than $250,000 through $1,000,000;RCCII;3c
+20260930;2652092;RCON5570;274;20261029;With original amounts of $100,000 or less;RCCII;4a
+20260930;2652092;RCON5571;3116;20261029;With original amounts of $100,000 or less;RCCII;4a
+20260930;2652092;RCON5572;334;20261029;With original amounts of more than $100,000 through $250,000;RCCII;4b
+20260930;2652092;RCON5573;13914;20261029;With original amounts of more than $100,000 through $250,000;RCCII;4b
+20260930;2652092;RCON5574;362;20261029;With original amounts of more than $250,000 through $1,000,000;RCCII;4c
+20260930;2652092;RCON5575;61750;20261029;With original amounts of more than $250,000 through $1,000,000;RCCII;4c
+20260930;2652092;RCON5591;0;20261029;All other off-balance sheet assets (exclude derivatives) (itemize and describe each component of this item over 25% of Schedule RC, item 27.a, "Total bank equity capital");RCL;10
+20260930;2652092;RCON5592;0;20261029;Amount of component;RCL;10b2
+20260930;2652092;RCON5593;0;20261029;Amount of component;RCL;10c2
+20260930;2652092;RCON5594;0;20261029;Amount of component;RCL;10d2
+20260930;2652092;RCON5595;0;20261029;Amount of component;RCL;10e2
+20260930;2652092;RCON5597;2141935;20261029;Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions);RCO;M2
+20260930;2652092;RCON6164;0;20261029;Aggregate amount of all extensions of credit to all executive officers, directors, principal shareholders, and their related interests;RCM;1a
+20260930;2652092;RCON6165;0;20261029;Number of executive officers, directors, and principal shareholders to whom the amount of all extensions of credit by the reporting bank (including extensions of credit to related interests) equals or exceeds the lesser of $500,000 or 5 percent of total capital as defined for this purpose in agency regulations;RCM;1b
+20260930;2652092;RCON6550;242542;20261029;Not secured by real estate;RCL;1c2
+20260930;2652092;RCON6558;0;20261029;Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-N, items 4 and 7, above;RCN;M2
+20260930;2652092;RCON6559;0;20261029;Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-N, items 4 and 7, above;RCN;M2
+20260930;2652092;RCON6560;0;20261029;Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-N, items 4 and 7, above;RCN;M2
+20260930;2652092;RCON6631;1565546;20261029;Noninterest-bearing;RC;13a1
+20260930;2652092;RCON6636;6482104;20261029;Interest-bearing;RC;13a2
+20260930;2652092;RCON6648;968311;20261029;Total time deposits of less than $100,000;RCE;M2b
+20260930;2652092;RCON6810;2425233;20261029;Money market deposit accounts (MMDAs);RCE;M2a1
+20260930;2652092;RCON6835;50416;20261029;Total Individual Retirement Accounts (IRAs) and Keogh Plan accounts;RCE;M1a
+20260930;2652092;RCON6860;false;20261029;Indicate in the appropriate box at the right whether all or substantially all of the dollar volume of your bank's "Loans secured by farmland (including farm residential and other improvements)" reported in Schedule RC-C, part I, item 1.b, and all or substantially all of the dollar volume of your bank's "Loans to finance agricultural production and other loans to farmers" reported in Schedule RC-C, part I, item 3, have original amounts of $100,000 or less;RCCII;5
+20260930;2652092;RCON6979;false;20261029;Comments?;NARR;1
+20260930;2652092;RCON6999;false;20261029;Indicate in the appropriate box at the right whether all or substantially all of the dollar volume of your bank's "Loans secured by nonfarm nonresidential properties" reported in Schedule RC-C, part I, items 1.e.(1) and 1.e.(2), and all or substantially all of the dollar volume of your bank's "Commercial and industrial loans" reported in Schedule RC-C, part I, item 4, have original amounts of $100,000 or less;RCCII;1
+20260930;2652092;RCON8496;106692;20261029;Securities issued by states and political subdivisions in the U.S.;RCB;3
+20260930;2652092;RCON8497;92750;20261029;Securities issued by states and political subdivisions in the U.S.;RCB;3
+20260930;2652092;RCON8498;83289;20261029;Securities issued by states and political subdivisions in the U.S.;RCB;3
+20260930;2652092;RCON8499;82013;20261029;Securities issued by states and political subdivisions in the U.S.;RCB;3
+20260930;2652092;RCON8693;0;20261029;Futures contracts;RCL;12a
+20260930;2652092;RCON8694;0;20261029;Futures contracts;RCL;12a
+20260930;2652092;RCON8695;0;20261029;Futures contracts;RCL;12a
+20260930;2652092;RCON8696;0;20261029;Futures contracts;RCL;12a
+20260930;2652092;RCON8697;0;20261029;Forward contracts;RCL;12b
+20260930;2652092;RCON8698;0;20261029;Forward contracts;RCL;12b
+20260930;2652092;RCON8699;0;20261029;Forward contracts;RCL;12b
+20260930;2652092;RCON8700;0;20261029;Forward contracts;RCL;12b
+20260930;2652092;RCON8701;0;20261029;Written options;RCL;12c1
+20260930;2652092;RCON8702;0;20261029;Written options;RCL;12c1
+20260930;2652092;RCON8703;0;20261029;Written options;RCL;12c1
+20260930;2652092;RCON8704;0;20261029;Written options;RCL;12c1
+20260930;2652092;RCON8705;0;20261029;Purchased options;RCL;12c2
+20260930;2652092;RCON8706;0;20261029;Purchased options;RCL;12c2
+20260930;2652092;RCON8707;0;20261029;Purchased options;RCL;12c2
+20260930;2652092;RCON8708;0;20261029;Purchased options;RCL;12c2
+20260930;2652092;RCON8709;284512;20261029;Written options;RCL;12d1
+20260930;2652092;RCON8710;0;20261029;Written options;RCL;12d1
+20260930;2652092;RCON8711;0;20261029;Written options;RCL;12d1
+20260930;2652092;RCON8712;0;20261029;Written options;RCL;12d1
+20260930;2652092;RCON8713;284512;20261029;Purchased options;RCL;12d2
+20260930;2652092;RCON8714;0;20261029;Purchased options;RCL;12d2
+20260930;2652092;RCON8715;0;20261029;Purchased options;RCL;12d2
+20260930;2652092;RCON8716;0;20261029;Purchased options;RCL;12d2
+20260930;2652092;RCON8719;0;20261029;Swaps;RCL;12e
+20260930;2652092;RCON8720;0;20261029;Swaps;RCL;12e
+20260930;2652092;RCON8723;0;20261029;Total gross notional amount of derivative contracts held for trading;RCL;13
+20260930;2652092;RCON8724;0;20261029;Total gross notional amount of derivative contracts held for trading;RCL;13
+20260930;2652092;RCON8725;990000;20261029;Total gross notional amount of derivative contracts held for purposes other than trading;RCL;14
+20260930;2652092;RCON8726;0;20261029;Total gross notional amount of derivative contracts held for purposes other than trading;RCL;14
+20260930;2652092;RCON8727;0;20261029;Total gross notional amount of derivative contracts held for purposes other than trading;RCL;14
+20260930;2652092;RCON8728;0;20261029;Total gross notional amount of derivative contracts held for purposes other than trading;RCL;14
+20260930;2652092;RCON8733;45333;20261029;Gross positive fair value;RCL;15a1
+20260930;2652092;RCON8734;0;20261029;Gross positive fair value;RCL;15a1
+20260930;2652092;RCON8735;0;20261029;Gross positive fair value;RCL;15a1
+20260930;2652092;RCON8736;0;20261029;Gross positive fair value;RCL;15a1
+20260930;2652092;RCON8737;43262;20261029;Gross negative fair value;RCL;15a2
+20260930;2652092;RCON8738;0;20261029;Gross negative fair value;RCL;15a2
+20260930;2652092;RCON8739;0;20261029;Gross negative fair value;RCL;15a2
+20260930;2652092;RCON8740;0;20261029;Gross negative fair value;RCL;15a2
+20260930;2652092;RCON8741;0;20261029;Gross positive fair value;RCL;15b1
+20260930;2652092;RCON8742;0;20261029;Gross positive fair value;RCL;15b1
+20260930;2652092;RCON8743;0;20261029;Gross positive fair value;RCL;15b1
+20260930;2652092;RCON8744;0;20261029;Gross positive fair value;RCL;15b1
+20260930;2652092;RCON8745;27234;20261029;Gross negative fair value;RCL;15b2
+20260930;2652092;RCON8746;0;20261029;Gross negative fair value;RCL;15b2
+20260930;2652092;RCON8747;0;20261029;Gross negative fair value;RCL;15b2
+20260930;2652092;RCON8748;0;20261029;Gross negative fair value;RCL;15b2
+20260930;2652092;RCON8782;2001;20261029;Amortized cost;RCB;M4a
+20260930;2652092;RCON8783;1989;20261029;Fair value;RCB;M4b
+20260930;2652092;RCON9224;WVM1F03F86RQLLTEVE84;20261029;Legal Entity Identifier (LEI) (Report only if your institution already has an LEI.);ENT;7
+20260930;2652092;RCON9999;20260930;20261029;Reporting date;ENT;1
+20260930;2652092;RCONA126;1952756;20261029;Total gross notional amount of derivative contracts held for trading;RCL;13
+20260930;2652092;RCONA127;0;20261029;Total gross notional amount of derivative contracts held for trading;RCL;13
+20260930;2652092;RCONA130;0;20261029;Other equity capital components;RC;26c
+20260930;2652092;RCONA222;23430;20261029;LESS: Excess AACL;RCRII;29
+20260930;2652092;RCONA247;1936784;20261029;Loans and leases (reported in Schedule RC-C, part I, items 1 through 10, column B, above) with a REMAINING MATURITY of one year or less (excluding those in nonaccrual status);RCCI;M2c
+20260930;2652092;RCONA248;80277;20261029;Debt securities with a REMAINING MATURITY of one year or less (included in Memorandum items 2.a through 2.c above);RCB;M2d
+20260930;2652092;RCONA345;false;20261029;Does the institution have fiduciary powers?  (If "NO," do not complete Schedule RC-T.);RCT;1
+20260930;2652092;RCONA346;false;20261029;Does the institution exercise the fiduciary powers it has been granted?;RCT;2
+20260930;2652092;RCONA545;0;20261029;FDIC Certificate Number;RCO;M3b
+20260930;2652092;RCONA549;27898;20261029;Three months or less;RCB;M2a1
+20260930;2652092;RCONA550;74592;20261029;Over three months through 12 months;RCB;M2a2
+20260930;2652092;RCONA551;245732;20261029;Over one year through three years;RCB;M2a3
+20260930;2652092;RCONA552;101914;20261029;Over three years through five years;RCB;M2a4
+20260930;2652092;RCONA553;169353;20261029;Over five years through 15 years;RCB;M2a5
+20260930;2652092;RCONA554;4497;20261029;Over 15 years;RCB;M2a6
+20260930;2652092;RCONA555;969;20261029;Three months or less;RCB;M2b1
+20260930;2652092;RCONA556;8703;20261029;Over three months through 12 months;RCB;M2b2
+20260930;2652092;RCONA557;8980;20261029;Over one year through three years;RCB;M2b3
+20260930;2652092;RCONA558;32969;20261029;Over three years through five years;RCB;M2b4
+20260930;2652092;RCONA559;330662;20261029;Over five years through 15 years;RCB;M2b5
+20260930;2652092;RCONA560;193463;20261029;Over 15 years;RCB;M2b6
+20260930;2652092;RCONA561;47762;20261029;Three years or less;RCB;M2c1
+20260930;2652092;RCONA562;411234;20261029;Over three years;RCB;M2c2
+20260930;2652092;RCONA564;3804;20261029;Three months or less;RCCI;M2a1
+20260930;2652092;RCONA565;15731;20261029;Over three months through 12 months;RCCI;M2a2
+20260930;2652092;RCONA566;94186;20261029;Over one year through three years;RCCI;M2a3
+20260930;2652092;RCONA567;17442;20261029;Over three years through five years;RCCI;M2a4
+20260930;2652092;RCONA568;12211;20261029;Over five years through 15 years;RCCI;M2a5
+20260930;2652092;RCONA569;107896;20261029;Over 15 years;RCCI;M2a6
+20260930;2652092;RCONA570;3709542;20261029;Three months or less;RCCI;M2b1
+20260930;2652092;RCONA571;422700;20261029;Over three months through 12 months;RCCI;M2b2
+20260930;2652092;RCONA572;1118485;20261029;Over one year through three years;RCCI;M2b3
+20260930;2652092;RCONA573;616501;20261029;Over three years through five years;RCCI;M2b4
+20260930;2652092;RCONA574;211533;20261029;Over five years through 15 years;RCCI;M2b5
+20260930;2652092;RCONA575;84806;20261029;Over 15 years;RCCI;M2b6
+20260930;2652092;RCONA589;0;20261029;Interest rate swaps where the bank has agreed to pay a fixed rate;RCL;14a
+20260930;2652092;RCONA590;0;20261029;Estimated fair value of mortgage servicing assets;RCM;2a1
+20260930;2652092;RCONA591;293586;20261029;Other financial assets (includes home equity lines);RCS;M2c
+20260930;2652092;RCONB528;6563354;20261029;Loans and leases held for investment;RC;4b
+20260930;2652092;RCONB529;6442573;20261029;Loans and leases held for investment, net of allowance (item 4.b minus 4.c);RC;4d
+20260930;2652092;RCONB530;-112545;20261029;Accumulated other comprehensive income;RC;26b
+20260930;2652092;RCONB531;0;20261029;To commercial banks in the U.S.;RCCI;2a
+20260930;2652092;RCONB534;0;20261029;To other depository institutions in the U.S.;RCCI;2b
+20260930;2652092;RCONB535;0;20261029;To banks in foreign countries;RCCI;2c
+20260930;2652092;RCONB538;0;20261029;Credit cards;RCCI;6a
+20260930;2652092;RCONB539;831;20261029;Other revolving credit plans;RCCI;6b
+20260930;2652092;RCONB549;797401;20261029;Individuals, partnerships, and corporations (include all certified and official checks);RCE;1
+20260930;2652092;RCONB550;6664784;20261029;Individuals, partnerships, and corporations (include all certified and official checks);RCE;1
+20260930;2652092;RCONB551;11596;20261029;Commercial banks and other depository institutions in the U.S.;RCE;4
+20260930;2652092;RCONB552;78191;20261029;Commercial banks and other depository institutions in the U.S.;RCE;4
+20260930;2652092;RCONB556;38338;20261029;Accrued interest receivable;RCF;1
+20260930;2652092;RCONB557;3329;20261029;Allowance for credit losses on off-balance sheet credit exposures;RCG;3
+20260930;2652092;RCONB558;321666;20261029;U.S. Treasury securities and U.S. Government agency obligations (excluding mortgage-backed securities);RCK;2
+20260930;2652092;RCONB559;1223719;20261029;Mortgage-backed securities;RCK;3
+20260930;2652092;RCONB560;242930;20261029;All other debt securities and equity securities with readily determinable fair values not held for trading;RCK;4
+20260930;2652092;RCONB561;0;20261029;Credit cards;RCK;6d1
+20260930;2652092;RCONB562;969;20261029;Other (includes revolving credit plans other than credit cards, automobile loans, and other consumer loans);RCK;6d2
+20260930;2652092;RCONB563;4654670;20261029;Savings deposits (includes MMDAs);RCK;11a
+20260930;2652092;RCONB569;false;20261029;Does the reporting bank sell private label or third party mutual funds and annuities?;RCM;6
+20260930;2652092;RCONB570;0;20261029;Assets under the reporting bank's management in proprietary mutual funds and annuities;RCM;7
+20260930;2652092;RCONB571;0;20261029;Other borrowings with a remaining maturity of one year or less (included in item 5.b.(1)(a) above);RCM;5b2
+20260930;2652092;RCONB575;0;20261029;Credit cards;RCN;5a
+20260930;2652092;RCONB576;0;20261029;Credit cards;RCN;5a
+20260930;2652092;RCONB577;0;20261029;Credit cards;RCN;5a
+20260930;2652092;RCONB704;8069622;20261029;Risk-weighted assets before deductions for excess AACL and allocated risk transfer risk reserve;RCRII;28
+20260930;2652092;RCONB705;0;20261029;Outstanding principal balance of assets sold and securitized by the reporting bank with servicing retained or with recourse or other seller-provided credit enhancements;RCS;1
+20260930;2652092;RCONB711;0;20261029;Outstanding principal balance of assets sold and securitized by the reporting bank with servicing retained or with recourse or other seller-provided credit enhancements;RCS;1
+20260930;2652092;RCONB733;0;20261029;30-89 days past due;RCS;4a
+20260930;2652092;RCONB739;0;20261029;30-89 days past due;RCS;4a
+20260930;2652092;RCONB740;0;20261029;90 days or more past due;RCS;4b
+20260930;2652092;RCONB746;0;20261029;90 days or more past due;RCS;4b
+20260930;2652092;RCONB776;0;20261029;Maximum amount of credit exposure arising from credit enhancements provided by the reporting bank to other institutions' securitization structures in the form of standby letters of credit, purchased subordinated securities, and other enhancements;RCS;9
+20260930;2652092;RCONB782;0;20261029;Maximum amount of credit exposure arising from credit enhancements provided by the reporting bank to other institutions' securitization structures in the form of standby letters of credit, purchased subordinated securities, and other enhancements;RCS;9
+20260930;2652092;RCONB783;0;20261029;Reporting bank's unused commitments to provide liquidity to other institutions' securitization structures;RCS;10
+20260930;2652092;RCONB789;0;20261029;Reporting bank's unused commitments to provide liquidity to other institutions' securitization structures;RCS;10
+20260930;2652092;RCONB790;0;20261029;Assets sold with recourse or other seller-provided credit enhancements and not securitized by the reporting bank;RCS;11
+20260930;2652092;RCONB796;0;20261029;Assets sold with recourse or other seller-provided credit enhancements and not securitized by the reporting bank;RCS;11
+20260930;2652092;RCONB797;0;20261029;Maximum amount of credit exposure arising from recourse or other seller-provided credit enhancements provided to assets reported in item 11;RCS;12
+20260930;2652092;RCONB803;0;20261029;Maximum amount of credit exposure arising from recourse or other seller-provided credit enhancements provided to assets reported in item 11;RCS;12
+20260930;2652092;RCONB804;0;20261029;Closed-end 1-4 family residential mortgages serviced with recourse or other servicer-provided credit enhancements;RCS;M2a
+20260930;2652092;RCONB805;277;20261029;Closed-end 1-4 family residential mortgages serviced with no recourse or other servicer-provided credit enhancements;RCS;M2b
+20260930;2652092;RCONB806;0;20261029;Conduits sponsored by the bank, a bank affiliate, or the bank's holding company;RCS;M3a1
+20260930;2652092;RCONB807;0;20261029;Conduits sponsored by other unrelated institutions;RCS;M3a2
+20260930;2652092;RCONB808;0;20261029;Conduits sponsored by the bank, a bank affiliate, or the bank's holding company;RCS;M3b1
+20260930;2652092;RCONB809;0;20261029;Conduits sponsored by other unrelated institutions;RCS;M3b2
+20260930;2652092;RCONB834;0;20261029;Loans to depository institutions and acceptances of other banks;RCN;2
+20260930;2652092;RCONB835;0;20261029;Loans to depository institutions and acceptances of other banks;RCN;2
+20260930;2652092;RCONB836;0;20261029;Loans to depository institutions and acceptances of other banks;RCN;2
+20260930;2652092;RCONB837;0;20261029;Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RC-C, Part I, items 1.a through 1.e, column B);RCCI;M5
+20260930;2652092;RCONB838;0;20261029;Credit card receivables;RCB;M5a
+20260930;2652092;RCONB839;0;20261029;Credit card receivables;RCB;M5a
+20260930;2652092;RCONB840;0;20261029;Credit card receivables;RCB;M5a
+20260930;2652092;RCONB841;0;20261029;Credit card receivables;RCB;M5a
+20260930;2652092;RCONB842;0;20261029;Home equity lines;RCB;M5b
+20260930;2652092;RCONB843;0;20261029;Home equity lines;RCB;M5b
+20260930;2652092;RCONB844;0;20261029;Home equity lines;RCB;M5b
+20260930;2652092;RCONB845;0;20261029;Home equity lines;RCB;M5b
+20260930;2652092;RCONB846;0;20261029;Automobile loans;RCB;M5c
+20260930;2652092;RCONB847;0;20261029;Automobile loans;RCB;M5c
+20260930;2652092;RCONB848;0;20261029;Automobile loans;RCB;M5c
+20260930;2652092;RCONB849;0;20261029;Automobile loans;RCB;M5c
+20260930;2652092;RCONB850;0;20261029;Other consumer loans;RCB;M5d
+20260930;2652092;RCONB851;0;20261029;Other consumer loans;RCB;M5d
+20260930;2652092;RCONB852;0;20261029;Other consumer loans;RCB;M5d
+20260930;2652092;RCONB853;0;20261029;Other consumer loans;RCB;M5d
+20260930;2652092;RCONB854;0;20261029;Commercial and industrial loans;RCB;M5e
+20260930;2652092;RCONB855;0;20261029;Commercial and industrial loans;RCB;M5e
+20260930;2652092;RCONB856;0;20261029;Commercial and industrial loans;RCB;M5e
+20260930;2652092;RCONB857;0;20261029;Commercial and industrial loans;RCB;M5e
+20260930;2652092;RCONB858;0;20261029;Other;RCB;M5f
+20260930;2652092;RCONB859;0;20261029;Other;RCB;M5f
+20260930;2652092;RCONB860;0;20261029;Other;RCB;M5f
+20260930;2652092;RCONB861;0;20261029;Other;RCB;M5f
+20260930;2652092;RCONB867;false;20261029;Does the institution have any fiduciary or related activity (in the form of assets or accounts) to report in this schedule?  (If "NO," do not complete the rest of Schedule RC-T.);RCT;3
+20260930;2652092;RCONB987;0;20261029;Federal funds sold;RC;3a
+20260930;2652092;RCONB989;0;20261029;Securities purchased under agreements to resell;RC;3b
+20260930;2652092;RCONB993;0;20261029;Federal funds purchased;RC;14a
+20260930;2652092;RCONB995;0;20261029;Securities sold under agreements to repurchase;RC;14b
+20260930;2652092;RCONC026;0;20261029;Asset-backed securities (ABS);RCB;5a
+20260930;2652092;RCONC027;0;20261029;Asset-backed securities (ABS);RCB;5a
+20260930;2652092;RCONC219;0;20261029;Gross positive fair value;RCL;7b1
+20260930;2652092;RCONC220;0;20261029;Gross negative fair value;RCL;7b2
+20260930;2652092;RCONC221;0;20261029;Gross positive fair value;RCL;7b1
+20260930;2652092;RCONC222;0;20261029;Gross negative fair value;RCL;7b2
+20260930;2652092;RCONC226;0;20261029;Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above);RCN;M5
+20260930;2652092;RCONC229;4264;20261029;Secured by first liens;RCN;1c2a
+20260930;2652092;RCONC230;71;20261029;Secured by junior liens;RCN;1c2b
+20260930;2652092;RCONC236;297;20261029;Secured by first liens;RCN;1c2a
+20260930;2652092;RCONC237;0;20261029;Secured by first liens;RCN;1c2a
+20260930;2652092;RCONC238;0;20261029;Secured by junior liens;RCN;1c2b
+20260930;2652092;RCONC239;0;20261029;Secured by junior liens;RCN;1c2b
+20260930;2652092;RCONC240;0;20261029;Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above);RCN;M5
+20260930;2652092;RCONC241;0;20261029;Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above);RCN;M5
+20260930;2652092;RCONC968;0;20261029;Credit default swaps;RCL;7a1
+20260930;2652092;RCONC969;0;20261029;Credit default swaps;RCL;7a1
+20260930;2652092;RCONC970;0;20261029;Total return swaps;RCL;7a2
+20260930;2652092;RCONC971;0;20261029;Total return swaps;RCL;7a2
+20260930;2652092;RCONC972;0;20261029;Credit options;RCL;7a3
+20260930;2652092;RCONC973;0;20261029;Credit options;RCL;7a3
+20260930;2652092;RCONC974;0;20261029;Other credit derivatives;RCL;7a4
+20260930;2652092;RCONC975;0;20261029;Other credit derivatives;RCL;7a4
+20260930;2652092;RCONC978;0;20261029;Standby letters of credit issued by another party (e.g., a Federal Home Loan Bank) on the bank's behalf;RCL;9c
+20260930;2652092;RCONC988;0;20261029;Asset-backed securities (ABS);RCB;5a
+20260930;2652092;RCONC989;0;20261029;Asset-backed securities (ABS);RCB;5a
+20260930;2652092;RCOND957;542261;20261029;Cash and balances due from depository institutions;RCRII;1
+20260930;2652092;RCOND958;467947;20261029;Cash and balances due from depository institutions;RCRII;1
+20260930;2652092;RCOND959;74314;20261029;Cash and balances due from depository institutions;RCRII;1
+20260930;2652092;RCOND960;0;20261029;Cash and balances due from depository institutions;RCRII;1
+20260930;2652092;RCOND961;766508;20261029;Held-to-maturity securities;RCRII;2a
+20260930;2652092;RCOND962;165539;20261029;Held-to-maturity securities;RCRII;2a
+20260930;2652092;RCOND963;479185;20261029;Held-to-maturity securities;RCRII;2a
+20260930;2652092;RCOND964;47447;20261029;Held-to-maturity securities;RCRII;2a
+20260930;2652092;RCOND965;74528;20261029;Held-to-maturity securities;RCRII;2a
+20260930;2652092;RCOND967;58401;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCOND968;856592;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCOND969;75000;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCOND970;2000;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCOND971;0;20261029;Federal funds sold;RCRII;3a
+20260930;2652092;RCOND972;0;20261029;Federal funds sold;RCRII;3a
+20260930;2652092;RCOND973;0;20261029;Federal funds sold;RCRII;3a
+20260930;2652092;RCOND974;0;20261029;Federal funds sold;RCRII;3a
+20260930;2652092;RCOND976;45333;20261029;Trading assets;RCRII;7
+20260930;2652092;RCOND977;0;20261029;Trading assets;RCRII;7
+20260930;2652092;RCOND978;0;20261029;Trading assets;RCRII;7
+20260930;2652092;RCOND979;0;20261029;Trading assets;RCRII;7
+20260930;2652092;RCOND980;0;20261029;Trading assets;RCRII;7
+20260930;2652092;RCOND981;721958;20261029;All other assets;RCRII;8
+20260930;2652092;RCOND982;20851;20261029;All other assets;RCRII;8
+20260930;2652092;RCOND983;218977;20261029;All other assets;RCRII;8
+20260930;2652092;RCOND984;279;20261029;All other assets;RCRII;8
+20260930;2652092;RCOND985;324268;20261029;All other assets;RCRII;8
+20260930;2652092;RCOND987;753827;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCOND988;1629902;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCOND989;398274;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCOND990;6271901;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCOND991;23803;20261029;Financial standby letters of credit;RCRII;12
+20260930;2652092;RCOND992;23803;20261029;Financial standby letters of credit;RCRII;12
+20260930;2652092;RCOND993;14590;20261029;Financial standby letters of credit;RCRII;12
+20260930;2652092;RCOND994;0;20261029;Financial standby letters of credit;RCRII;12
+20260930;2652092;RCOND995;0;20261029;Financial standby letters of credit;RCRII;12
+20260930;2652092;RCOND996;9214;20261029;Financial standby letters of credit;RCRII;12
+20260930;2652092;RCOND997;42707;20261029;Performance standby letters of credit and transaction-related contingent items;RCRII;13
+20260930;2652092;RCOND998;21354;20261029;Performance standby letters of credit and transaction-related contingent items;RCRII;13
+20260930;2652092;RCOND999;1611;20261029;Performance standby letters of credit and transaction-related contingent items;RCRII;13
+20260930;2652092;RCONF045;41177;20261029;Amount of retirement deposit accounts of $250,000 or less;RCO;M1c1
+20260930;2652092;RCONF046;575;20261029;Number of retirement deposit accounts of $250,000 or less;RCO;M1c2
+20260930;2652092;RCONF047;9932;20261029;Amount of retirement deposit accounts of more than $250,000;RCO;M1d1
+20260930;2652092;RCONF048;24;20261029;Number of retirement deposit accounts of more than $250,000;RCO;M1d2
+20260930;2652092;RCONF049;3992448;20261029;Amount of deposit accounts (excluding retirement accounts) of $250,000 or less;RCO;M1a1
+20260930;2652092;RCONF050;64233;20261029;Number of deposit accounts (excluding retirement accounts) of $250,000 or less;RCO;M1a2
+20260930;2652092;RCONF051;4050814;20261029;Amount of deposit accounts (excluding retirement accounts) of more than $250,000;RCO;M1b1
+20260930;2652092;RCONF052;4419;20261029;Number of deposit accounts (excluding retirement accounts) of more than $250,000;RCO;M1b2
+20260930;2652092;RCONF055;0;20261029;One year or less;RCM;5a1a
+20260930;2652092;RCONF056;0;20261029;Over one year through three years;RCM;5a1b
+20260930;2652092;RCONF057;0;20261029;Over three years through five years;RCM;5a1c
+20260930;2652092;RCONF058;0;20261029;Over five years;RCM;5a1d
+20260930;2652092;RCONF059;0;20261029;Structured advances (included in items 5.a.(1)(a) - (d) above);RCM;5a3
+20260930;2652092;RCONF060;0;20261029;One year or less;RCM;5b1a
+20260930;2652092;RCONF061;0;20261029;Over one year through three years;RCM;5b1b
+20260930;2652092;RCONF062;0;20261029;Over three years through five years;RCM;5b1c
+20260930;2652092;RCONF063;0;20261029;Over five years;RCM;5b1d
+20260930;2652092;RCONF064;0;20261029;Amount of "Federal funds purchased" that are secured (included in Schedule RC, item 14.a);RCM;10a
+20260930;2652092;RCONF065;0;20261029;Amount of "Other borrowings" that are secured (included in Schedule RC-M, items 5.b.(1)(a) - (d));RCM;10b
+20260930;2652092;RCONF158;34873;20261029;1-4 family residential construction loans;RCCI;1a1
+20260930;2652092;RCONF159;796386;20261029;Other construction loans and all land development and other land loans;RCCI;1a2
+20260930;2652092;RCONF160;1287716;20261029;Loans secured by owner-occupied nonfarm nonresidential properties;RCCI;1e1
+20260930;2652092;RCONF161;1589844;20261029;Loans secured by other nonfarm nonresidential properties;RCCI;1e2
+20260930;2652092;RCONF162;0;20261029;Leases to individuals for household, family, and other personal expenditures (i.e., consumer leases);RCCI;10a
+20260930;2652092;RCONF163;0;20261029;All other leases;RCCI;10b
+20260930;2652092;RCONF164;64750;20261029;1-4 family residential construction loan commitments;RCL;1c1a
+20260930;2652092;RCONF165;381874;20261029;Commercial real estate, other construction loan, and land development loan commitments;RCL;1c1b
+20260930;2652092;RCONF166;0;20261029;Leases to individuals for household, family, and other personal expenditures (included in Schedule RC-N, item 8, above);RCN;M3d
+20260930;2652092;RCONF167;0;20261029;Leases to individuals for household, family, and other personal expenditures (included in Schedule RC-N, item 8, above);RCN;M3d
+20260930;2652092;RCONF168;0;20261029;Leases to individuals for household, family, and other personal expenditures (included in Schedule RC-N, item 8, above);RCN;M3d
+20260930;2652092;RCONF172;0;20261029;1-4 family residential construction loans;RCN;1a1
+20260930;2652092;RCONF173;0;20261029;Other construction loans and all land development and other land loans;RCN;1a2
+20260930;2652092;RCONF174;0;20261029;1-4 family residential construction loans;RCN;1a1
+20260930;2652092;RCONF175;0;20261029;Other construction loans and all land development and other land loans;RCN;1a2
+20260930;2652092;RCONF176;683;20261029;1-4 family residential construction loans;RCN;1a1
+20260930;2652092;RCONF177;17800;20261029;Other construction loans and all land development and other land loans;RCN;1a2
+20260930;2652092;RCONF178;0;20261029;Loans secured by owner-occupied nonfarm nonresidential properties;RCN;1e1
+20260930;2652092;RCONF179;0;20261029;Loans secured by other nonfarm nonresidential properties;RCN;1e2
+20260930;2652092;RCONF180;0;20261029;Loans secured by owner-occupied nonfarm nonresidential properties;RCN;1e1
+20260930;2652092;RCONF181;0;20261029;Loans secured by other nonfarm nonresidential properties;RCN;1e2
+20260930;2652092;RCONF182;3501;20261029;Loans secured by owner-occupied nonfarm nonresidential properties;RCN;1e1
+20260930;2652092;RCONF183;46977;20261029;Loans secured by other nonfarm nonresidential properties;RCN;1e2
+20260930;2652092;RCONF233;19785;20261029;Individual Retirement Accounts (IRAs) and Keogh Plan accounts of $100,000 or more included in Memorandum items 2.c and 2.d above;RCE;M2e
+20260930;2652092;RCONF236;8094371;20261029;Total deposit liabilities before exclusions (gross) as defined in Section 3(l) of the Federal Deposit Insurance Act and FDIC regulations;RCO;1
+20260930;2652092;RCONF237;0;20261029;Total allowable exclusions, including interest accrued and unpaid on allowable exclusions;RCO;2
+20260930;2652092;RCONF240;0;20261029;Nontrading securities at fair value with changes in fair value reported in current earnings (included in Schedule RC-Q, item 5.b, above);RCQ;5b1
+20260930;2652092;RCONF241;0;20261029;Nontrading securities at fair value with changes in fair value reported in current earnings (included in Schedule RC-Q, item 5.b, above);RCQ;5b1
+20260930;2652092;RCONF242;0;20261029;Nontrading securities at fair value with changes in fair value reported in current earnings (included in Schedule RC-Q, item 5.b, above);RCQ;5b1
+20260930;2652092;RCONF252;0;20261029;Deposits;RCQ;8
+20260930;2652092;RCONF253;0;20261029;Deposits;RCQ;8
+20260930;2652092;RCONF254;0;20261029;Deposits;RCQ;8
+20260930;2652092;RCONF576;7951;20261029;Loans secured by 1-4 family residential properties;RCCI;M1b
+20260930;2652092;RCONF577;0;20261029;Loans secured by 1-4 family residential properties in process of foreclosure (included in Schedule RC-C, part I, items 1.c.(1), 1.c.(2)(a), and 1.c.(2)(b));RCCI;M9
+20260930;2652092;RCONF585;0;20261029;Commercial and industrial loans;RCQ;M3b
+20260930;2652092;RCONF589;0;20261029;Other loans;RCQ;M3d
+20260930;2652092;RCONF597;0;20261029;Commercial and industrial loans;RCQ;M4b
+20260930;2652092;RCONF601;0;20261029;Other loans;RCQ;M4d
+20260930;2652092;RCONF614;0;20261029;Commercial and industrial loans;RCD;6b
+20260930;2652092;RCONF618;0;20261029;Other loans;RCD;6d
+20260930;2652092;RCONF624;0;20261029;Other trading liabilities;RCD;13b
+20260930;2652092;RCONF632;0;20261029;Commercial and industrial loans;RCD;M1b
+20260930;2652092;RCONF636;0;20261029;Other loans;RCD;M1d
+20260930;2652092;RCONF661;0;20261029;Loans secured by 1-4 family residential properties;RCN;M1b
+20260930;2652092;RCONF662;0;20261029;Loans secured by 1-4 family residential properties;RCN;M1b
+20260930;2652092;RCONF663;2252;20261029;Loans secured by 1-4 family residential properties;RCN;M1b
+20260930;2652092;RCONF684;0;20261029;Nontrading securities at fair value with changes in fair value reported in current earnings (included in Schedule RC-Q, item 5.b, above);RCQ;5b1
+20260930;2652092;RCONF686;0;20261029;Deposits;RCQ;8
+20260930;2652092;RCONF692;0;20261029;Nontrading securities at fair value with changes in fair value reported in current earnings (included in Schedule RC-Q, item 5.b, above);RCQ;5b1
+20260930;2652092;RCONF694;0;20261029;Deposits;RCQ;8
+20260930;2652092;RCONF699;0;20261029;1-4 family residential mortgages serviced for others that are in process of foreclosure at quarter-end (includes closed-end and open-end loans);RCS;M2d
+20260930;2652092;RCONFT04;0;20261029;1-4 family residential mortgage loans sold during the quarter;RCP;3
+20260930;2652092;RCONFT05;0;20261029;1-4 family residential mortgage loans held for sale or trading at quarter-end (included in Schedule RC, items 4.a and 5);RCP;4
+20260930;2652092;RCONG105;1181960;20261029;Total equity capital (sum of items 27.a and 27.b);RC;28
+20260930;2652092;RCONG300;30154;20261029;Guaranteed by GNMA;RCB;4a1
+20260930;2652092;RCONG301;24656;20261029;Guaranteed by GNMA;RCB;4a1
+20260930;2652092;RCONG302;18077;20261029;Guaranteed by GNMA;RCB;4a1
+20260930;2652092;RCONG303;15961;20261029;Guaranteed by GNMA;RCB;4a1
+20260930;2652092;RCONG304;104661;20261029;Issued by FNMA and FHLMC;RCB;4a2
+20260930;2652092;RCONG305;84705;20261029;Issued by FNMA and FHLMC;RCB;4a2
+20260930;2652092;RCONG306;493767;20261029;Issued by FNMA and FHLMC;RCB;4a2
+20260930;2652092;RCONG307;424970;20261029;Issued by FNMA and FHLMC;RCB;4a2
+20260930;2652092;RCONG308;0;20261029;Other pass-through securities;RCB;4a3
+20260930;2652092;RCONG309;0;20261029;Other pass-through securities;RCB;4a3
+20260930;2652092;RCONG310;0;20261029;Other pass-through securities;RCB;4a3
+20260930;2652092;RCONG311;0;20261029;Other pass-through securities;RCB;4a3
+20260930;2652092;RCONG312;366739;20261029;Issued or guaranteed by U.S. Government agencies or sponsored agencies;RCB;4b1
+20260930;2652092;RCONG313;310235;20261029;Issued or guaranteed by U.S. Government agencies or sponsored agencies;RCB;4b1
+20260930;2652092;RCONG314;37987;20261029;Issued or guaranteed by U.S. Government agencies or sponsored agencies;RCB;4b1
+20260930;2652092;RCONG315;35470;20261029;Issued or guaranteed by U.S. Government agencies or sponsored agencies;RCB;4b1
+20260930;2652092;RCONG316;0;20261029;Collateralized by MBS issued or guaranteed by U.S. Government agencies or sponsored agencies;RCB;4b2
+20260930;2652092;RCONG317;0;20261029;Collateralized by MBS issued or guaranteed by U.S. Government agencies or sponsored agencies;RCB;4b2
+20260930;2652092;RCONG318;0;20261029;Collateralized by MBS issued or guaranteed by U.S. Government agencies or sponsored agencies;RCB;4b2
+20260930;2652092;RCONG319;0;20261029;Collateralized by MBS issued or guaranteed by U.S. Government agencies or sponsored agencies;RCB;4b2
+20260930;2652092;RCONG320;0;20261029;All other residential MBS;RCB;4b3
+20260930;2652092;RCONG321;0;20261029;All other residential MBS;RCB;4b3
+20260930;2652092;RCONG322;0;20261029;All other residential MBS;RCB;4b3
+20260930;2652092;RCONG323;0;20261029;All other residential MBS;RCB;4b3
+20260930;2652092;RCONG348;0;20261029;Trust preferred securities issued by financial institutions;RCB;M6a
+20260930;2652092;RCONG349;0;20261029;Trust preferred securities issued by financial institutions;RCB;M6a
+20260930;2652092;RCONG350;0;20261029;Trust preferred securities issued by financial institutions;RCB;M6a
+20260930;2652092;RCONG351;0;20261029;Trust preferred securities issued by financial institutions;RCB;M6a
+20260930;2652092;RCONG352;0;20261029;Trust preferred securities issued by real estate investment trusts;RCB;M6b
+20260930;2652092;RCONG353;0;20261029;Trust preferred securities issued by real estate investment trusts;RCB;M6b
+20260930;2652092;RCONG354;0;20261029;Trust preferred securities issued by real estate investment trusts;RCB;M6b
+20260930;2652092;RCONG355;0;20261029;Trust preferred securities issued by real estate investment trusts;RCB;M6b
+20260930;2652092;RCONG356;0;20261029;Corporate and similar loans;RCB;M6c
+20260930;2652092;RCONG357;0;20261029;Corporate and similar loans;RCB;M6c
+20260930;2652092;RCONG358;0;20261029;Corporate and similar loans;RCB;M6c
+20260930;2652092;RCONG359;0;20261029;Corporate and similar loans;RCB;M6c
+20260930;2652092;RCONG360;0;20261029;1-4 family residential MBS issued or guaranteed by U.S. government-sponsored enterprises (GSEs);RCB;M6d
+20260930;2652092;RCONG361;0;20261029;1-4 family residential MBS issued or guaranteed by U.S. government-sponsored enterprises (GSEs);RCB;M6d
+20260930;2652092;RCONG362;0;20261029;1-4 family residential MBS issued or guaranteed by U.S. government-sponsored enterprises (GSEs);RCB;M6d
+20260930;2652092;RCONG363;0;20261029;1-4 family residential MBS issued or guaranteed by U.S. government-sponsored enterprises (GSEs);RCB;M6d
+20260930;2652092;RCONG364;0;20261029;1-4 family residential MBS not issued or guaranteed by GSEs;RCB;M6e
+20260930;2652092;RCONG365;0;20261029;1-4 family residential MBS not issued or guaranteed by GSEs;RCB;M6e
+20260930;2652092;RCONG366;0;20261029;1-4 family residential MBS not issued or guaranteed by GSEs;RCB;M6e
+20260930;2652092;RCONG367;0;20261029;1-4 family residential MBS not issued or guaranteed by GSEs;RCB;M6e
+20260930;2652092;RCONG368;0;20261029;Diversified (mixed) pools of structured financial products;RCB;M6f
+20260930;2652092;RCONG369;0;20261029;Diversified (mixed) pools of structured financial products;RCB;M6f
+20260930;2652092;RCONG370;0;20261029;Diversified (mixed) pools of structured financial products;RCB;M6f
+20260930;2652092;RCONG371;0;20261029;Diversified (mixed) pools of structured financial products;RCB;M6f
+20260930;2652092;RCONG372;9917;20261029;Other collateral or reference assets;RCB;M6g
+20260930;2652092;RCONG373;9241;20261029;Other collateral or reference assets;RCB;M6g
+20260930;2652092;RCONG374;113;20261029;Other collateral or reference assets;RCB;M6g
+20260930;2652092;RCONG375;113;20261029;Other collateral or reference assets;RCB;M6g
+20260930;2652092;RCONG376;259550;20261029;Amount of loans that provide for the use of interest reserves (included in Schedule RC-C, part I, item 1.a, column B);RCCI;M13a
+20260930;2652092;RCONG378;4156937;20261029;Pledged loans and leases;RCCI;M14
+20260930;2652092;RCONG379;0;20261029;Residential mortgage pass-through securities issued or guaranteed by FNMA, FHLMC, or GNMA;RCD;4a
+20260930;2652092;RCONG380;0;20261029;Other residential MBS issued or guaranteed by U.S. Government agencies or sponsored agencies (include CMOs, REMICs, and stripped MBS);RCD;4b
+20260930;2652092;RCONG381;0;20261029;All other residential MBS;RCD;4c
+20260930;2652092;RCONG386;0;20261029;All other debt securities;RCD;5b
+20260930;2652092;RCONG391;0;20261029;All other assets;RCQ;6
+20260930;2652092;RCONG392;0;20261029;All other assets;RCQ;6
+20260930;2652092;RCONG395;0;20261029;All other assets;RCQ;6
+20260930;2652092;RCONG396;0;20261029;All other assets;RCQ;6
+20260930;2652092;RCONG401;0;20261029;Sold protection;RCL;7c1a
+20260930;2652092;RCONG402;0;20261029;Purchased protection;RCL;7c1b
+20260930;2652092;RCONG403;0;20261029;Sold protection;RCL;7c2a
+20260930;2652092;RCONG404;0;20261029;Purchased protection that is recognized as a guarantee for regulatory capital purposes;RCL;7c2b
+20260930;2652092;RCONG405;0;20261029;Purchased protection that is not recognized as a guarantee for regulatory capital purposes;RCL;7c2c
+20260930;2652092;RCONG406;0;20261029;Investment grade;RCL;7d1a
+20260930;2652092;RCONG407;0;20261029;Investment grade;RCL;7d1a
+20260930;2652092;RCONG408;0;20261029;Investment grade;RCL;7d1a
+20260930;2652092;RCONG409;0;20261029;Subinvestment grade;RCL;7d1b
+20260930;2652092;RCONG410;0;20261029;Subinvestment grade;RCL;7d1b
+20260930;2652092;RCONG411;0;20261029;Subinvestment grade;RCL;7d1b
+20260930;2652092;RCONG412;0;20261029;Investment grade;RCL;7d2a
+20260930;2652092;RCONG413;0;20261029;Investment grade;RCL;7d2a
+20260930;2652092;RCONG414;0;20261029;Investment grade;RCL;7d2a
+20260930;2652092;RCONG415;0;20261029;Subinvestment grade;RCL;7d2b
+20260930;2652092;RCONG416;0;20261029;Subinvestment grade;RCL;7d2b
+20260930;2652092;RCONG417;0;20261029;Subinvestment grade;RCL;7d2b
+20260930;2652092;RCONG418;60993;20261029;Net current credit exposure;RCL;16a
+20260930;2652092;RCONG422;0;20261029;Net current credit exposure;RCL;16a
+20260930;2652092;RCONG423;0;20261029;Cash - U.S. dollar;RCL;16b1
+20260930;2652092;RCONG427;0;20261029;Cash - U.S. dollar;RCL;16b1
+20260930;2652092;RCONG428;0;20261029;Cash - Other currencies;RCL;16b2
+20260930;2652092;RCONG432;0;20261029;Cash - Other currencies;RCL;16b2
+20260930;2652092;RCONG433;0;20261029;U.S. Treasury securities;RCL;16b3
+20260930;2652092;RCONG437;0;20261029;U.S. Treasury securities;RCL;16b3
+20260930;2652092;RCONG453;0;20261029;All other collateral;RCL;16b7
+20260930;2652092;RCONG457;0;20261029;All other collateral;RCL;16b7
+20260930;2652092;RCONG458;0;20261029;Total fair value of collateral (sum of items 16.b.(1) through (7));RCL;16b8
+20260930;2652092;RCONG462;0;20261029;Total fair value of collateral (sum of items 16.b.(1) through (7));RCL;16b8
+20260930;2652092;RCONG463;false;20261029;Does the bank act as trustee or custodian for Individual Retirement Accounts, Health Savings Accounts, and other similar accounts?;RCM;11
+20260930;2652092;RCONG464;false;20261029;Does the bank provide custody, safekeeping, or other services involving the acceptance of orders for the sale or purchase of securities?;RCM;12
+20260930;2652092;RCONG465;0;20261029;One year or less;RCO;7a
+20260930;2652092;RCONG466;0;20261029;Over one year through three years;RCO;7b
+20260930;2652092;RCONG467;0;20261029;Over three years through five years;RCO;7c
+20260930;2652092;RCONG468;0;20261029;Over five years;RCO;7d
+20260930;2652092;RCONG469;0;20261029;One year or less;RCO;8a
+20260930;2652092;RCONG470;0;20261029;Over one year through three years;RCO;8b
+20260930;2652092;RCONG471;0;20261029;Over three years through five years;RCO;8c
+20260930;2652092;RCONG472;0;20261029;Over five years;RCO;8d
+20260930;2652092;RCONG474;0;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCQ;1
+20260930;2652092;RCONG475;0;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCQ;1
+20260930;2652092;RCONG476;892030;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCQ;1
+20260930;2652092;RCONG477;0;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCQ;1
+20260930;2652092;RCONG483;13534;20261029;Loans and leases held for sale;RCQ;3
+20260930;2652092;RCONG484;0;20261029;Loans and leases held for sale;RCQ;3
+20260930;2652092;RCONG485;0;20261029;Loans and leases held for sale;RCQ;3
+20260930;2652092;RCONG486;13534;20261029;Loans and leases held for sale;RCQ;3
+20260930;2652092;RCONG487;0;20261029;Loans and leases held for sale;RCQ;3
+20260930;2652092;RCONG488;0;20261029;Loans and leases held for investment;RCQ;4
+20260930;2652092;RCONG489;0;20261029;Loans and leases held for investment;RCQ;4
+20260930;2652092;RCONG490;0;20261029;Loans and leases held for investment;RCQ;4
+20260930;2652092;RCONG491;0;20261029;Loans and leases held for investment;RCQ;4
+20260930;2652092;RCONG492;0;20261029;Loans and leases held for investment;RCQ;4
+20260930;2652092;RCONG493;0;20261029;Derivative assets;RCQ;5a
+20260930;2652092;RCONG494;0;20261029;Derivative assets;RCQ;5a
+20260930;2652092;RCONG495;45333;20261029;Derivative assets;RCQ;5a
+20260930;2652092;RCONG496;0;20261029;Derivative assets;RCQ;5a
+20260930;2652092;RCONG497;0;20261029;Other trading assets;RCQ;5b
+20260930;2652092;RCONG498;0;20261029;Other trading assets;RCQ;5b
+20260930;2652092;RCONG499;0;20261029;Other trading assets;RCQ;5b
+20260930;2652092;RCONG500;0;20261029;Other trading assets;RCQ;5b
+20260930;2652092;RCONG501;0;20261029;Other trading assets;RCQ;5b
+20260930;2652092;RCONG502;950897;20261029;Total assets measured at fair value on a recurring basis (sum of items 1 through 5.b plus item 6);RCQ;7
+20260930;2652092;RCONG503;0;20261029;Total assets measured at fair value on a recurring basis (sum of items 1 through 5.b plus item 6);RCQ;7
+20260930;2652092;RCONG504;0;20261029;Total assets measured at fair value on a recurring basis (sum of items 1 through 5.b plus item 6);RCQ;7
+20260930;2652092;RCONG505;950897;20261029;Total assets measured at fair value on a recurring basis (sum of items 1 through 5.b plus item 6);RCQ;7
+20260930;2652092;RCONG506;0;20261029;Total assets measured at fair value on a recurring basis (sum of items 1 through 5.b plus item 6);RCQ;7
+20260930;2652092;RCONG512;0;20261029;Derivative liabilities;RCQ;10a
+20260930;2652092;RCONG513;0;20261029;Derivative liabilities;RCQ;10a
+20260930;2652092;RCONG514;43262;20261029;Derivative liabilities;RCQ;10a
+20260930;2652092;RCONG515;0;20261029;Derivative liabilities;RCQ;10a
+20260930;2652092;RCONG516;0;20261029;Other trading liabilities;RCQ;10b
+20260930;2652092;RCONG517;0;20261029;Other trading liabilities;RCQ;10b
+20260930;2652092;RCONG518;0;20261029;Other trading liabilities;RCQ;10b
+20260930;2652092;RCONG519;0;20261029;Other trading liabilities;RCQ;10b
+20260930;2652092;RCONG520;0;20261029;Other trading liabilities;RCQ;10b
+20260930;2652092;RCONG531;70496;20261029;Total liabilities measured at fair value on a recurring basis (sum of items 8 through 13);RCQ;14
+20260930;2652092;RCONG532;0;20261029;Total liabilities measured at fair value on a recurring basis (sum of items 8 through 13);RCQ;14
+20260930;2652092;RCONG533;0;20261029;Total liabilities measured at fair value on a recurring basis (sum of items 8 through 13);RCQ;14
+20260930;2652092;RCONG534;70496;20261029;Total liabilities measured at fair value on a recurring basis (sum of items 8 through 13);RCQ;14
+20260930;2652092;RCONG535;0;20261029;Total liabilities measured at fair value on a recurring basis (sum of items 8 through 13);RCQ;14
+20260930;2652092;RCONG566;27234;20261029;Nontrading derivative liabilities;RCQ;M2b
+20260930;2652092;RCONG569;27234;20261029;Nontrading derivative liabilities;RCQ;M2b
+20260930;2652092;RCONG603;0;20261029;Performance standby letters of credit and transaction-related contingent items;RCRII;13
+20260930;2652092;RCONG604;0;20261029;Performance standby letters of credit and transaction-related contingent items;RCRII;13
+20260930;2652092;RCONG605;19743;20261029;Performance standby letters of credit and transaction-related contingent items;RCRII;13
+20260930;2652092;RCONG606;0;20261029;Commercial and similar letters of credit with an original maturity of one year or less;RCRII;14
+20260930;2652092;RCONG607;0;20261029;Commercial and similar letters of credit with an original maturity of one year or less;RCRII;14
+20260930;2652092;RCONG608;0;20261029;Commercial and similar letters of credit with an original maturity of one year or less;RCRII;14
+20260930;2652092;RCONG609;0;20261029;Commercial and similar letters of credit with an original maturity of one year or less;RCRII;14
+20260930;2652092;RCONG610;0;20261029;Commercial and similar letters of credit with an original maturity of one year or less;RCRII;14
+20260930;2652092;RCONG611;0;20261029;Commercial and similar letters of credit with an original maturity of one year or less;RCRII;14
+20260930;2652092;RCONG612;0;20261029;Retained recourse on small business obligations sold with recourse;RCRII;15
+20260930;2652092;RCONG613;0;20261029;Retained recourse on small business obligations sold with recourse;RCRII;15
+20260930;2652092;RCONG614;0;20261029;Retained recourse on small business obligations sold with recourse;RCRII;15
+20260930;2652092;RCONG615;0;20261029;Retained recourse on small business obligations sold with recourse;RCRII;15
+20260930;2652092;RCONG616;0;20261029;Retained recourse on small business obligations sold with recourse;RCRII;15
+20260930;2652092;RCONG617;0;20261029;Retained recourse on small business obligations sold with recourse;RCRII;15
+20260930;2652092;RCONG618;0;20261029;All other off-balance sheet liabilities;RCRII;17
+20260930;2652092;RCONG619;0;20261029;All other off-balance sheet liabilities;RCRII;17
+20260930;2652092;RCONG620;0;20261029;All other off-balance sheet liabilities;RCRII;17
+20260930;2652092;RCONG621;0;20261029;All other off-balance sheet liabilities;RCRII;17
+20260930;2652092;RCONG622;0;20261029;All other off-balance sheet liabilities;RCRII;17
+20260930;2652092;RCONG623;0;20261029;All other off-balance sheet liabilities;RCRII;17
+20260930;2652092;RCONG624;726805;20261029;Original maturity exceeding one year;RCRII;18b
+20260930;2652092;RCONG625;363403;20261029;Original maturity exceeding one year;RCRII;18b
+20260930;2652092;RCONG626;0;20261029;Original maturity exceeding one year;RCRII;18b
+20260930;2652092;RCONG627;0;20261029;Original maturity exceeding one year;RCRII;18b
+20260930;2652092;RCONG628;0;20261029;Original maturity exceeding one year;RCRII;18b
+20260930;2652092;RCONG629;363403;20261029;Original maturity exceeding one year;RCRII;18b
+20260930;2652092;RCONG630;770028;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONG631;1682585;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONG632;398274;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONG633;6737733;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONG634;0;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONG635;336517;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONG636;199137;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONG637;6737733;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONG641;8046192;20261029;Total risk-weighted assets (item 28 minus items 29 and 30);RCRII;31
+20260930;2652092;RCONG642;45333;20261029;Current credit exposure across all derivative contracts covered by the regulatory capital rules;RCRII;M1
+20260930;2652092;RCONG803;;20261029;Brokered reciprocal deposits (included in Schedule RC-E, Memorandum item 1.b);RCO;9
+20260930;2652092;RCONG804;0;20261029;All other assets;RCQ;6
+20260930;2652092;RCONG805;27234;20261029;All other liabilities;RCQ;13
+20260930;2652092;RCONG806;0;20261029;All other liabilities;RCQ;13
+20260930;2652092;RCONG807;0;20261029;All other liabilities;RCQ;13
+20260930;2652092;RCONG808;27234;20261029;All other liabilities;RCQ;13
+20260930;2652092;RCONG809;0;20261029;All other liabilities;RCQ;13
+20260930;2652092;RCONH171;0;20261029;Securities purchased under agreements to resell;RCRII;3b
+20260930;2652092;RCONH172;0;20261029;Securities purchased under agreements to resell;RCRII;3b
+20260930;2652092;RCONH173;0;20261029;Residential mortgage exposures;RCRII;4a
+20260930;2652092;RCONH174;0;20261029;High volatility commercial real estate exposures;RCRII;4b
+20260930;2652092;RCONH175;0;20261029;High volatility commercial real estate exposures;RCRII;4b
+20260930;2652092;RCONH176;0;20261029;High volatility commercial real estate exposures;RCRII;4b
+20260930;2652092;RCONH177;0;20261029;High volatility commercial real estate exposures;RCRII;4b
+20260930;2652092;RCONH178;0;20261029;Residential mortgage exposures;RCRII;5a
+20260930;2652092;RCONH179;0;20261029;High volatility commercial real estate exposures;RCRII;5b
+20260930;2652092;RCONH180;0;20261029;High volatility commercial real estate exposures;RCRII;5b
+20260930;2652092;RCONH181;0;20261029;High volatility commercial real estate exposures;RCRII;5b
+20260930;2652092;RCONH182;0;20261029;High volatility commercial real estate exposures;RCRII;5b
+20260930;2652092;RCONH185;0;20261029;All other assets;RCRII;8
+20260930;2652092;RCONH186;0;20261029;Trading assets;RCRII;7
+20260930;2652092;RCONH187;0;20261029;Trading assets;RCRII;7
+20260930;2652092;RCONH188;0;20261029;All other assets;RCRII;8
+20260930;2652092;RCONH191;0;20261029;Unsettled transactions (failed trades);RCRII;22
+20260930;2652092;RCONH193;0;20261029;Unsettled transactions (failed trades);RCRII;22
+20260930;2652092;RCONH194;0;20261029;Unsettled transactions (failed trades);RCRII;22
+20260930;2652092;RCONH195;0;20261029;Unsettled transactions (failed trades);RCRII;22
+20260930;2652092;RCONH196;0;20261029;Unsettled transactions (failed trades);RCRII;22
+20260930;2652092;RCONH197;0;20261029;Unsettled transactions (failed trades);RCRII;22
+20260930;2652092;RCONH198;0;20261029;Unsettled transactions (failed trades);RCRII;22
+20260930;2652092;RCONH199;0;20261029;Unsettled transactions (failed trades);RCRII;22
+20260930;2652092;RCONH200;0;20261029;Unsettled transactions (failed trades);RCRII;22
+20260930;2652092;RCONH271;0;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCONH272;0;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCONH273;0;20261029;Residential mortgage exposures;RCRII;4a
+20260930;2652092;RCONH274;0;20261029;Residential mortgage exposures;RCRII;4a
+20260930;2652092;RCONH275;0;20261029;High volatility commercial real estate exposures;RCRII;4b
+20260930;2652092;RCONH276;0;20261029;High volatility commercial real estate exposures;RCRII;4b
+20260930;2652092;RCONH277;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;4c
+20260930;2652092;RCONH278;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;4c
+20260930;2652092;RCONH279;0;20261029;All other exposures;RCRII;4d
+20260930;2652092;RCONH280;0;20261029;All other exposures;RCRII;4d
+20260930;2652092;RCONH281;0;20261029;Residential mortgage exposures;RCRII;5a
+20260930;2652092;RCONH282;0;20261029;Residential mortgage exposures;RCRII;5a
+20260930;2652092;RCONH283;0;20261029;High volatility commercial real estate exposures;RCRII;5b
+20260930;2652092;RCONH284;0;20261029;High volatility commercial real estate exposures;RCRII;5b
+20260930;2652092;RCONH285;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;5c
+20260930;2652092;RCONH286;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;5c
+20260930;2652092;RCONH287;0;20261029;All other exposures;RCRII;5d
+20260930;2652092;RCONH288;0;20261029;All other exposures;RCRII;5d
+20260930;2652092;RCONH290;0;20261029;Trading assets;RCRII;7
+20260930;2652092;RCONH291;0;20261029;Trading assets;RCRII;7
+20260930;2652092;RCONH292;0;20261029;Trading assets;RCRII;7
+20260930;2652092;RCONH293;77671;20261029;All other assets;RCRII;8
+20260930;2652092;RCONH294;0;20261029;All other assets;RCRII;8
+20260930;2652092;RCONH295;0;20261029;All other assets;RCRII;8
+20260930;2652092;RCONH296;19572;20261029;Separate account bank-owned life insurance;RCRII;8a
+20260930;2652092;RCONH297;19572;20261029;Separate account bank-owned life insurance;RCRII;8a
+20260930;2652092;RCONH298;0;20261029;Default fund contributions to central counterparties;RCRII;8b
+20260930;2652092;RCONH299;0;20261029;Default fund contributions to central counterparties;RCRII;8b
+20260930;2652092;RCONH300;19572;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCONH301;0;20261029;Repo-style transactions;RCRII;16
+20260930;2652092;RCONH302;0;20261029;Repo-style transactions;RCRII;16
+20260930;2652092;RCONH303;0;20261029;Original maturity of one year or less;RCRII;18a
+20260930;2652092;RCONH304;0;20261029;Original maturity of one year or less;RCRII;18a
+20260930;2652092;RCONH307;0;20261029;Original maturity exceeding one year;RCRII;18b
+20260930;2652092;RCONH308;0;20261029;Original maturity exceeding one year;RCRII;18b
+20260930;2652092;RCONH309;0;20261029;Over-the-counter derivatives;RCRII;20
+20260930;2652092;RCONH310;0;20261029;Over-the-counter derivatives;RCRII;20
+20260930;2652092;RCONHJ74;0;20261029;Held-to-maturity securities;RCRII;2a
+20260930;2652092;RCONHJ75;0;20261029;Held-to-maturity securities;RCRII;2a
+20260930;2652092;RCONHJ76;0;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCONHJ77;0;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCONHJ78;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;4c
+20260930;2652092;RCONHJ79;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;4c
+20260930;2652092;RCONHJ80;0;20261029;All other exposures;RCRII;4d
+20260930;2652092;RCONHJ81;0;20261029;All other exposures;RCRII;4d
+20260930;2652092;RCONHJ82;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;5c
+20260930;2652092;RCONHJ83;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;5c
+20260930;2652092;RCONHJ84;0;20261029;All other exposures;RCRII;5d
+20260930;2652092;RCONHJ85;0;20261029;All other exposures;RCRII;5d
+20260930;2652092;RCONHJ86;0;20261029;Trading assets;RCRII;7
+20260930;2652092;RCONHJ87;0;20261029;Trading assets;RCRII;7
+20260930;2652092;RCONHJ88;0;20261029;All other assets;RCRII;8
+20260930;2652092;RCONHJ89;0;20261029;All other assets;RCRII;8
+20260930;2652092;RCONHJ90;0;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCONHJ91;0;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCONHJ92;0;20261029;Financial standby letters of credit;RCRII;12
+20260930;2652092;RCONHJ93;0;20261029;Financial standby letters of credit;RCRII;12
+20260930;2652092;RCONHJ94;0;20261029;Commercial and similar letters of credit with an original maturity of one year or less;RCRII;14
+20260930;2652092;RCONHJ95;0;20261029;Commercial and similar letters of credit with an original maturity of one year or less;RCRII;14
+20260930;2652092;RCONHJ96;0;20261029;Original maturity of one year or less;RCRII;18a
+20260930;2652092;RCONHJ97;0;20261029;Original maturity of one year or less;RCRII;18a
+20260930;2652092;RCONHJ98;0;20261029;Original maturity exceeding one year;RCRII;18b
+20260930;2652092;RCONHJ99;0;20261029;Original maturity exceeding one year;RCRII;18b
+20260930;2652092;RCONHK00;0;20261029;Over-the-counter derivatives;RCRII;20
+20260930;2652092;RCONHK01;0;20261029;Over-the-counter derivatives;RCRII;20
+20260930;2652092;RCONHK05;789225;20261029;Brokered deposits of $250,000 or less (fully insured brokered deposits);RCE;M1c
+20260930;2652092;RCONHK06;529599;20261029;Brokered deposits of $250,000 or less with a remaining maturity of one year or less (included in Memorandum item 1.c above);RCE;M1d1
+20260930;2652092;RCONHK07;439161;20261029;Three months or less;RCE;M3a1
+20260930;2652092;RCONHK08;1215726;20261029;Over three months through 12 months;RCE;M3a2
+20260930;2652092;RCONHK09;225851;20261029;Over one year through three years;RCE;M3a3
+20260930;2652092;RCONHK10;155881;20261029;Over three years;RCE;M3a4
+20260930;2652092;RCONHK11;1654887;20261029;Time deposits of $250,000 or less with a REMAINING MATURITY of one year or less (included in Memorandum items 3.a.(1) and 3.a.(2) above);RCE;M3b
+20260930;2652092;RCONHK12;135051;20261029;Three months or less;RCE;M4a1
+20260930;2652092;RCONHK13;556833;20261029;Over three months through 12 months;RCE;M4a2
+20260930;2652092;RCONHK14;36638;20261029;Over one year through three years;RCE;M4a3
+20260930;2652092;RCONHK15;5831;20261029;Over three years;RCE;M4a4
+20260930;2652092;RCONHK16;1857091;20261029;Time deposits of $250,000 or less;RCK;11b
+20260930;2652092;RCONHK17;781302;20261029;Time deposits of more than $250,000;RCK;11c
+20260930;2652092;RCONHK25;93368;20261029;Total loan modifications to borrowers experiencing financial difficulty that are in compliance with their modified terms (sum of Memorandum items 1.a.(1) through 1.f);RCCI;M1g
+20260930;2652092;RCONHK26;0;20261029;Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, above (sum of items Memorandum item 1.a.(1) through 1.e plus 1.f);RCN;M1g
+20260930;2652092;RCONHK27;0;20261029;Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, above (sum of items Memorandum item 1.a.(1) through 1.e plus 1.f);RCN;M1g
+20260930;2652092;RCONHK28;94993;20261029;Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, above (sum of items Memorandum item 1.a.(1) through 1.e plus 1.f);RCN;M1g
+20260930;2652092;RCONHT50;0;20261029;U.S. Government agency and sponsored agency obligations (exclude mortgage-backed securities);RCB;2
+20260930;2652092;RCONHT51;0;20261029;U.S. Government agency and sponsored agency obligations (exclude mortgage-backed securities);RCB;2
+20260930;2652092;RCONHT52;288615;20261029;U.S. Government agency and sponsored agency obligations (exclude mortgage-backed securities);RCB;2
+20260930;2652092;RCONHT53;270327;20261029;U.S. Government agency and sponsored agency obligations (exclude mortgage-backed securities);RCB;2
+20260930;2652092;RCONHT58;9917;20261029;Structured financial products;RCB;5b
+20260930;2652092;RCONHT59;9241;20261029;Structured financial products;RCB;5b
+20260930;2652092;RCONHT60;113;20261029;Structured financial products;RCB;5b
+20260930;2652092;RCONHT61;113;20261029;Structured financial products;RCB;5b
+20260930;2652092;RCONHT62;0;20261029;Structured financial products;RCD;5a
+20260930;2652092;RCONHT63;0;20261029;Loans secured by 1-4 family residential properties;RCD;6a1
+20260930;2652092;RCONHT64;0;20261029;All other loans secured by real estate;RCD;6a2
+20260930;2652092;RCONHT65;0;20261029;Loans to individuals for household, family, and other personal expenditures (i.e., consumer loans) (includes purchased paper);RCD;6c
+20260930;2652092;RCONHT66;0;20261029;Loans secured by 1-4 family residential properties;RCD;M1a1
+20260930;2652092;RCONHT67;0;20261029;All other loans secured by real estate;RCD;M1a2
+20260930;2652092;RCONHT68;0;20261029;Loans to individuals for household, family, and other personal expenditures (i.e., consumer loans) (includes purchased paper);RCD;M1c
+20260930;2652092;RCONHT80;0;20261029;Interest-only strips receivable (not in the form of a security);RCF;3
+20260930;2652092;RCONHT81;0;20261029;Retail originations during the quarter of 1-4 family residential mortgage loans for sale;RCP;1
+20260930;2652092;RCONHT82;0;20261029;Wholesale originations and purchases during the quarter of 1-4 family residential mortgage loans for sale;RCP;2
+20260930;2652092;RCONHT86;0;20261029;Repurchases and indemnifications of 1-4 family residential mortgage loans during the quarter;RCP;6
+20260930;2652092;RCONHT87;0;20261029;Secured by 1-4 family residential properties;RCQ;M3a1
+20260930;2652092;RCONHT88;0;20261029;All other loans secured by real estate;RCQ;M3a2
+20260930;2652092;RCONHT89;0;20261029;Loans to individuals for household, family, and other personal expenditures (i.e., consumer loans) (includes purchased paper);RCQ;M3c
+20260930;2652092;RCONHT91;0;20261029;Secured by 1-4 family residential properties;RCQ;M4a1
+20260930;2652092;RCONHT92;0;20261029;All other loans secured by real estate;RCQ;M4a2
+20260930;2652092;RCONHT93;0;20261029;Loans to individuals for household, family, and other personal expenditures (i.e., consumer loans) (includes purchased paper);RCQ;M4c
+20260930;2652092;RCONHU09;0;20261029;Maximum amount of credit exposure arising from recourse or other seller-provided credit enhancements provided to structures reported in item 1;RCS;2
+20260930;2652092;RCONHU15;0;20261029;Maximum amount of credit exposure arising from recourse or other seller-provided credit enhancements provided to structures reported in item 1;RCS;2
+20260930;2652092;RCONHU19;0;20261029;Total amount of ownership (or seller's) interest carried as securities or loans;RCS;6
+20260930;2652092;RCONHU20;0;20261029;Securities not held for trading;RCV;1b
+20260930;2652092;RCONHU21;0;20261029;Securities not held for trading;RCV;1b
+20260930;2652092;RCONHU22;0;20261029;Loans and leases held for investment, net of allowance, and held for sale;RCV;1c
+20260930;2652092;RCONHU23;0;20261029;Loans and leases held for investment, net of allowance, and held for sale;RCV;1c
+20260930;2652092;RCONJ451;25559;20261029;All other loans (exclude consumer loans);RCCI;9b2
+20260930;2652092;RCONJ454;135752;20261029;Loans to nondepository financial institutions;RCCI;9a
+20260930;2652092;RCONJ457;759971;20261029;Commercial and industrial loans;RCL;1e1
+20260930;2652092;RCONJ459;104913;20261029;All other unused commitments;RCL;1e4
+20260930;2652092;RCONJ464;25559;20261029;Other loans;RCCI;9b
+20260930;2652092;RCONJ473;1068308;20261029;Total time deposits of $100,000 through $250,000;RCE;M2c
+20260930;2652092;RCONJ474;734353;20261029;Total time deposits of more than $250,000;RCE;M2d
+20260930;2652092;RCONJ981;0;20261029;Cash and balances due from depository institutions;RCV;1a
+20260930;2652092;RCONJA21;892030;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCONJA22;0;20261029;Equity securities with readily determinable fair values not held for trading;RC;2c
+20260930;2652092;RCONJA36;892030;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCQ;1
+20260930;2652092;RCONJF76;2;20261029;All other intangible assets;RCM;2c
+20260930;2652092;RCONJF77;0;20261029;Total assets of asset-backed commercial paper (ABCP) conduit VIEs;RCV;5
+20260930;2652092;RCONJF78;0;20261029;Total liabilities of ABCP conduit VIEs;RCV;6
+20260930;2652092;RCONJF84;0;20261029;Cash and balances due from depository institutions;RCV;1a
+20260930;2652092;RCONJF85;0;20261029;Other borrowed money;RCV;2a
+20260930;2652092;RCONJF86;0;20261029;Other liabilities;RCV;2b
+20260930;2652092;RCONJF87;0;20261029;All other assets of consolidated VIEs (not included in items 1.a. through 1.e above);RCV;3
+20260930;2652092;RCONJF88;0;20261029;All other liabilities of consolidated VIEs (not included in items 2.a and 2.b above);RCV;4
+20260930;2652092;RCONJF89;0;20261029;Other real estate owned;RCV;1d
+20260930;2652092;RCONJF90;0;20261029;Other assets;RCV;1e
+20260930;2652092;RCONJF91;0;20261029;Other assets;RCV;1e
+20260930;2652092;RCONJF92;0;20261029;Other borrowed money;RCV;2a
+20260930;2652092;RCONJF93;0;20261029;Other liabilities;RCV;2b
+20260930;2652092;RCONJH83;1418653;20261029;Total reciprocal deposits (as of the report date);RCE;M1g
+20260930;2652092;RCONJJ03;0;20261029;Allowance for credit losses on other financial assets measured at amortized cost (not included in item 7, above);RIBII;M6
+20260930;2652092;RCONJJ04;829130;20261029;Construction loans;RIC;1a
+20260930;2652092;RCONJJ05;3553398;20261029;Commercial real estate loans;RIC;1b
+20260930;2652092;RCONJJ06;304751;20261029;Residential real estate loans;RIC;1c
+20260930;2652092;RCONJJ07;1875224;20261029;Commercial loans;RIC;2
+20260930;2652092;RCONJJ08;0;20261029;Credit cards;RIC;3
+20260930;2652092;RCONJJ09;851;20261029;Other consumer loans;RIC;4
+20260930;2652092;RCONJJ11;6563354;20261029;Total (sum of items 1.a. through 5);RIC;6
+20260930;2652092;RCONJJ12;10539;20261029;Construction loans;RIC;1a
+20260930;2652092;RCONJJ13;78750;20261029;Commercial real estate loans;RIC;1b
+20260930;2652092;RCONJJ14;3554;20261029;Residential real estate loans;RIC;1c
+20260930;2652092;RCONJJ15;27909;20261029;Commercial loans;RIC;2
+20260930;2652092;RCONJJ16;0;20261029;Credit cards;RIC;3
+20260930;2652092;RCONJJ17;29;20261029;Other consumer loans;RIC;4
+20260930;2652092;RCONJJ18;0;20261029;Unallocated, if any;RIC;5
+20260930;2652092;RCONJJ19;120781;20261029;Total (sum of items 1.a. through 5);RIC;6
+20260930;2652092;RCONJJ20;11;20261029;Securities issued by states and political subdivisions in the U.S.;RIC;7
+20260930;2652092;RCONJJ21;0;20261029;Mortgage-backed securities (MBS) (including CMOs, REMICs, and stripped MBS);RIC;8
+20260930;2652092;RCONJJ23;0;20261029;Asset-backed securities and structured financial products;RIC;9
+20260930;2652092;RCONJJ24;179;20261029;Other debt securities;RIC;10
+20260930;2652092;RCONJJ25;190;20261029;Total (sum of items 7 through 10);RIC;11
+20260930;2652092;RCONJJ30;0;20261029;Loans and leases held for investment;RCRII;M4a
+20260930;2652092;RCONJJ31;0;20261029;Held-to-maturity debt securities;RCRII;M4b
+20260930;2652092;RCONJJ32;0;20261029;Other financial assets measured at amortized cost;RCRII;M4c
+20260930;2652092;RCONJJ34;766508;20261029;Held-to-maturity securities (from Schedule RC-B, column A);RC;2a
+20260930;2652092;RCONK009;0;20261029;Other real estate owned;RCV;1d
+20260930;2652092;RCONK030;0;20261029;All other assets of consolidated VIEs (not included in items 1.a. through 1.e above);RCV;3
+20260930;2652092;RCONK033;0;20261029;All other liabilities of consolidated VIEs (not included in items 2.a and 2.b above);RCV;4
+20260930;2652092;RCONK036;0;20261029;Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:;RCN;11
+20260930;2652092;RCONK037;0;20261029;Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:;RCN;11
+20260930;2652092;RCONK038;46;20261029;Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:;RCN;11
+20260930;2652092;RCONK039;0;20261029;Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans";RCN;11a
+20260930;2652092;RCONK040;0;20261029;Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans";RCN;11a
+20260930;2652092;RCONK041;46;20261029;Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans";RCN;11a
+20260930;2652092;RCONK042;0;20261029;Rebooked "GNMA loans" that have been repurchased or are eligible for repurchase included in item 11 above;RCN;11b
+20260930;2652092;RCONK043;0;20261029;Rebooked "GNMA loans" that have been repurchased or are eligible for repurchase included in item 11 above;RCN;11b
+20260930;2652092;RCONK044;0;20261029;Rebooked "GNMA loans" that have been repurchased or are eligible for repurchase included in item 11 above;RCN;11b
+20260930;2652092;RCONK098;0;20261029;Credit cards;RCCI;M1f4a
+20260930;2652092;RCONK102;0;20261029;Portion of covered loans and leases reported in item 9 above that is protected by loss-sharing agreements with the FDIC;RCN;12
+20260930;2652092;RCONK103;0;20261029;Portion of covered loans and leases reported in item 9 above that is protected by loss-sharing agreements with the FDIC;RCN;12
+20260930;2652092;RCONK104;0;20261029;Portion of covered loans and leases reported in item 9 above that is protected by loss-sharing agreements with the FDIC;RCN;12
+20260930;2652092;RCONK105;0;20261029;1-4 family residential construction loans;RCN;M1a1
+20260930;2652092;RCONK106;0;20261029;1-4 family residential construction loans;RCN;M1a1
+20260930;2652092;RCONK107;0;20261029;1-4 family residential construction loans;RCN;M1a1
+20260930;2652092;RCONK108;0;20261029;Other construction loans and all land development and other land loans;RCN;M1a2
+20260930;2652092;RCONK109;0;20261029;Other construction loans and all land development and other land loans;RCN;M1a2
+20260930;2652092;RCONK110;6850;20261029;Other construction loans and all land development and other land loans;RCN;M1a2
+20260930;2652092;RCONK111;0;20261029;Secured by multifamily (5 or more) residential properties;RCN;M1c
+20260930;2652092;RCONK112;0;20261029;Secured by multifamily (5 or more) residential properties;RCN;M1c
+20260930;2652092;RCONK113;67506;20261029;Secured by multifamily (5 or more) residential properties;RCN;M1c
+20260930;2652092;RCONK114;0;20261029;Loans secured by owner-occupied nonfarm nonresidential properties;RCN;M1d1
+20260930;2652092;RCONK115;0;20261029;Loans secured by owner-occupied nonfarm nonresidential properties;RCN;M1d1
+20260930;2652092;RCONK116;0;20261029;Loans secured by owner-occupied nonfarm nonresidential properties;RCN;M1d1
+20260930;2652092;RCONK117;0;20261029;Loans secured by other nonfarm nonresidential properties;RCN;M1d2
+20260930;2652092;RCONK118;0;20261029;Loans secured by other nonfarm nonresidential properties;RCN;M1d2
+20260930;2652092;RCONK119;8937;20261029;Loans secured by other nonfarm nonresidential properties;RCN;M1d2
+20260930;2652092;RCONK120;0;20261029;To U.S. addressees (domicile);RCN;M1e1
+20260930;2652092;RCONK121;0;20261029;To U.S. addressees (domicile);RCN;M1e1
+20260930;2652092;RCONK122;9448;20261029;To U.S. addressees (domicile);RCN;M1e1
+20260930;2652092;RCONK123;0;20261029;To non-U.S. addressees (domicile);RCN;M1e2
+20260930;2652092;RCONK124;0;20261029;To non-U.S. addressees (domicile);RCN;M1e2
+20260930;2652092;RCONK125;0;20261029;To non-U.S. addressees (domicile);RCN;M1e2
+20260930;2652092;RCONK126;0;20261029;All other loans (include loans to individuals for household, family, and other personal expenditures);RCN;M1f
+20260930;2652092;RCONK127;0;20261029;All other loans (include loans to individuals for household, family, and other personal expenditures);RCN;M1f
+20260930;2652092;RCONK128;0;20261029;All other loans (include loans to individuals for household, family, and other personal expenditures);RCN;M1f
+20260930;2652092;RCONK130;0;20261029;Loans secured by farmland;RCN;M1f1
+20260930;2652092;RCONK131;0;20261029;Loans secured by farmland;RCN;M1f1
+20260930;2652092;RCONK132;0;20261029;Loans secured by farmland;RCN;M1f1
+20260930;2652092;RCONK137;0;20261029;Automobile loans;RCCI;6c
+20260930;2652092;RCONK138;0;20261029;Loans to finance agricultural production and other loans to farmers included in Schedule RC-N, Memorandum item 1.f, above;RCN;M1f5
+20260930;2652092;RCONK139;0;20261029;Loans to finance agricultural production and other loans to farmers included in Schedule RC-N, Memorandum item 1.f, above;RCN;M1f5
+20260930;2652092;RCONK140;0;20261029;Loans to finance agricultural production and other loans to farmers included in Schedule RC-N, Memorandum item 1.f, above;RCN;M1f5
+20260930;2652092;RCONK142;20148;20261029;Issued or guaranteed by FNMA, FHLMC, or GNMA;RCB;4c1a
+20260930;2652092;RCONK143;16902;20261029;Issued or guaranteed by FNMA, FHLMC, or GNMA;RCB;4c1a
+20260930;2652092;RCONK144;64908;20261029;Issued or guaranteed by FNMA, FHLMC, or GNMA;RCB;4c1a
+20260930;2652092;RCONK145;58271;20261029;Issued or guaranteed by FNMA, FHLMC, or GNMA;RCB;4c1a
+20260930;2652092;RCONK146;0;20261029;Other pass-through securities;RCB;4c1b
+20260930;2652092;RCONK147;0;20261029;Other pass-through securities;RCB;4c1b
+20260930;2652092;RCONK148;0;20261029;Other pass-through securities;RCB;4c1b
+20260930;2652092;RCONK149;0;20261029;Other pass-through securities;RCB;4c1b
+20260930;2652092;RCONK150;53859;20261029;Issued or guaranteed by U.S. Government agencies or sponsored agencies;RCB;4c2a
+20260930;2652092;RCONK151;44431;20261029;Issued or guaranteed by U.S. Government agencies or sponsored agencies;RCB;4c2a
+20260930;2652092;RCONK152;3237;20261029;Issued or guaranteed by U.S. Government agencies or sponsored agencies;RCB;4c2a
+20260930;2652092;RCONK153;2928;20261029;Issued or guaranteed by U.S. Government agencies or sponsored agencies;RCB;4c2a
+20260930;2652092;RCONK154;0;20261029;All other commercial MBS;RCB;4c2b
+20260930;2652092;RCONK155;0;20261029;All other commercial MBS;RCB;4c2b
+20260930;2652092;RCONK156;0;20261029;All other commercial MBS;RCB;4c2b
+20260930;2652092;RCONK157;0;20261029;All other commercial MBS;RCB;4c2b
+20260930;2652092;RCONK158;0;20261029;1-4 family residential construction loans;RCCI;M1a1
+20260930;2652092;RCONK159;0;20261029;Other construction loans and all land development and other land loans;RCCI;M1a2
+20260930;2652092;RCONK160;63159;20261029;Secured by multifamily (5 or more) residential properties;RCCI;M1c
+20260930;2652092;RCONK161;3410;20261029;Loans secured by owner-occupied nonfarm nonresidential properties;RCCI;M1d1
+20260930;2652092;RCONK162;8290;20261029;Loans secured by other nonfarm nonresidential properties;RCCI;M1d2
+20260930;2652092;RCONK163;10558;20261029;To U.S. addressees (domicile);RCCI;M1e1
+20260930;2652092;RCONK164;0;20261029;To non-U.S. addressees (domicile);RCCI;M1e2
+20260930;2652092;RCONK165;0;20261029;All other loans (include loans to individuals for household, family, and other personal expenditures);RCCI;M1f
+20260930;2652092;RCONK166;0;20261029;Loans secured by farmland;RCCI;M1f1
+20260930;2652092;RCONK168;0;20261029;Loans to finance agricultural production and other loans to farmers included in Schedule RC-C, part I, Memorandum item 1.f, above;RCCI;M1f5
+20260930;2652092;RCONK192;0;20261029;Portion of covered other real estate owned that is protected by FDIC loss-sharing agreements (included in Schedule RC, item 7);RCM;13
+20260930;2652092;RCONK197;0;20261029;Commercial MBS issued or guaranteed by U.S. Government agencies or sponsored agencies;RCD;4d
+20260930;2652092;RCONK198;0;20261029;All other commercial MBS;RCD;4e
+20260930;2652092;RCONK201;94358;20261029;General account life insurance assets;RCF;5a
+20260930;2652092;RCONK202;232766;20261029;Separate account life insurance assets;RCF;5b
+20260930;2652092;RCONK203;0;20261029;Automobile loans;RCCI;M1f4b
+20260930;2652092;RCONK204;0;20261029;Other (includes revolving credit plans other than credit cards and other consumer loans);RCCI;M1f4c
+20260930;2652092;RCONK207;111;20261029;Other consumer loans (includes single payment and installment loans other than automobile loans and all student loans);RCCI;6d
+20260930;2652092;RCONK213;0;20261029;Automobile loans;RCN;5b
+20260930;2652092;RCONK214;0;20261029;Automobile loans;RCN;5b
+20260930;2652092;RCONK215;0;20261029;Automobile loans;RCN;5b
+20260930;2652092;RCONK216;0;20261029;Other (includes revolving credit plans other than credit cards and other consumer loans);RCN;5c
+20260930;2652092;RCONK217;0;20261029;Other (includes revolving credit plans other than credit cards and other consumer loans);RCN;5c
+20260930;2652092;RCONK218;0;20261029;Other (includes revolving credit plans other than credit cards and other consumer loans);RCN;5c
+20260930;2652092;RCONK220;18619;20261029;Brokered deposits of more than $250,000 with a remaining maturity of one year or less (included in Memorandum item 1.b above);RCE;M1d3
+20260930;2652092;RCONK222;691884;20261029;Time deposits of more than $250,000 with a REMAINING MATURITY of one year or less (included in Memorandum items 4.a.(1) and 4.a.(2) above);RCE;M4b
+20260930;2652092;RCONK223;67183;20261029;Estimated amount of deposits obtained through the use of deposit listing services that are not brokered deposits;RCE;M1f
+20260930;2652092;RCONK256;10558;20261029;Commercial and industrial loans;RCCI;M1e
+20260930;2652092;RCONK257;0;20261029;Commercial and industrial loans;RCN;M1e
+20260930;2652092;RCONK258;0;20261029;Commercial and industrial loans;RCN;M1e
+20260930;2652092;RCONK259;9448;20261029;Commercial and industrial loans;RCN;M1e
+20260930;2652092;RCONK270;19572;20261029;Hybrid account life insurance assets;RCF;5c
+20260930;2652092;RCONK274;0;20261029;Credit cards;RCN;M1f4a
+20260930;2652092;RCONK275;0;20261029;Credit cards;RCN;M1f4a
+20260930;2652092;RCONK276;0;20261029;Credit cards;RCN;M1f4a
+20260930;2652092;RCONK277;0;20261029;Automobile loans;RCN;M1f4b
+20260930;2652092;RCONK278;0;20261029;Automobile loans;RCN;M1f4b
+20260930;2652092;RCONK279;0;20261029;Automobile loans;RCN;M1f4b
+20260930;2652092;RCONK280;0;20261029;Other (includes revolving credit plans other than credit cards and other consumer loans);RCN;M1f4c
+20260930;2652092;RCONK281;0;20261029;Other (includes revolving credit plans other than credit cards and other consumer loans);RCN;M1f4c
+20260930;2652092;RCONK282;0;20261029;Other (includes revolving credit plans other than credit cards and other consumer loans);RCN;M1f4c
+20260930;2652092;RCONK652;10130461;20261029;Average consolidated total assets for the calendar quarter;RCO;4
+20260930;2652092;RCONK653;1;20261029;Averaging method used (for daily averaging, enter 1: for weekly averaging, enter 2);RCO;4a
+20260930;2652092;RCONK654;1279781;20261029;Average tangible equity for the calendar quarter;RCO;5
+20260930;2652092;RCONK655;0;20261029;Holdings of long-term unsecured debt issued by other FDIC-insured depository institutions;RCO;6
+20260930;2652092;RCONK656;false;20261029;Banker's bank certification:  Does the reporting institution meet both the statutory definition of a banker's bank and the business conduct test set forth in FDIC regulations?  If the answer to item 10 is "YES," complete items 10.a and 10.b.;RCO;10
+20260930;2652092;RCONK659;false;20261029;Custodial bank certification:  Does the reporting institution meet the definition of a custodial bank set forth in FDIC regulations?  If the answer to item 11 is "YES," complete items 11.a and 11.b.;RCO;11
+20260930;2652092;RCONK663;;20261029;Special mention;RCO;M6a
+20260930;2652092;RCONK664;;20261029;Substandard;RCO;M6b
+20260930;2652092;RCONK665;;20261029;Doubtful;RCO;M6c
+20260930;2652092;RCONK666;;20261029;Loss;RCO;M6d
+20260930;2652092;RCONK669;0;20261029;Amount of other real estate owned recoverable from the U.S. government under guarantee or insurance provisions (excluding FDIC loss-sharing agreements);RCO;M11
+20260930;2652092;RCONK676;273697;20261029;Total unfunded commitments;RCO;M10a
+20260930;2652092;RCONK677;0;20261029;Portion of unfunded commitments guaranteed or insured by the U.S. government (including the FDIC);RCO;M10b
+20260930;2652092;RCONK678;715733;20261029;Nonbrokered time deposits of more than $250,000 (included in Schedule RC-E, Memorandum item 2.d);RCO;M12
+20260930;2652092;RCONL189;0;20261029;Portion of loan modifications to borrowers experiencing financial difficulty that are in compliance with their modified terms and are guaranteed or insured by the U.S. government (including the FDIC) (included in Schedule RC-C, Part I, Memorandum item 1);RCO;M16
+20260930;2652092;RCONL191;;20261029;For representations and warranties made to U.S. government agencies and government-sponsored agencies;RCP;7a
+20260930;2652092;RCONL192;;20261029;For representations and warranties made to other parties;RCP;7b
+20260930;2652092;RCONLB56;34045;20261029;Operating lease liabilities;RCG;4e
+20260930;2652092;RCONLE75;2650;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit that have converted to non-revolving closed-end status (included in item 1.c.(1) above);RCCI;M16
+20260930;2652092;RCONLG24;;20261029;Number of Section 4013 loans outstanding;RCCI;M17a
+20260930;2652092;RCONLG25;;20261029;Outstanding balance of Section 4013 loans;RCCI;M17b
+20260930;2652092;RCONLG26;0;20261029;Number of PPP loans outstanding;RCM;17a
+20260930;2652092;RCONLG27;0;20261029;Outstanding balance of PPP loans;RCM;17b
+20260930;2652092;RCONLG28;0;20261029;Outstanding balance of PPP loans pledged to the PPPLF;RCM;17c
+20260930;2652092;RCONLL57;0;20261029;Quarterly average amount of PPP loans pledged to the PPPLF and excluded from "Total assets for the leverage ratio" reported in Schedule RC-R, Part I, item 30;RCM;17e
+20260930;2652092;RCONLL59;0;20261029;One year or less;RCM;17d1
+20260930;2652092;RCONLL60;0;20261029;More than one year;RCM;17d2
+20260930;2652092;RCONM288;0;20261029;Total representation and warranty reserves (sum of items 7.a and 7.b);RCP;7c
+20260930;2652092;RCONM963;0;20261029;Non-agency residential mortgage-backed securities;RCO;M13h
+20260930;2652092;RCONM964;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM965;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM966;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM967;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM968;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM969;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM970;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM971;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM972;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM973;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM974;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM975;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM976;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM977;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM978;;20261029;"Nontraditional 1-4 family residential mortgage loans" as defined for assessment purposes only in FDIC regulations;RCO;M18a
+20260930;2652092;RCONM979;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM980;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM981;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM982;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM983;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM984;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM985;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM986;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM987;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM988;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM989;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM990;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM991;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM992;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM993;;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M18b
+20260930;2652092;RCONM994;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONM995;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONM996;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONM997;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONM998;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONM999;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONMG95;0;20261029;Unallocated portfolio layer fair value hedge basis adjustments;RCB;7
+20260930;2652092;RCONMT87;0;20261029;Fully insured, affiliate sweep deposits;RCE;M1h1
+20260930;2652092;RCONMT89;0;20261029;Not fully insured, affiliate sweep deposits;RCE;M1h2
+20260930;2652092;RCONMT91;1115157;20261029;Fully insured, non-affiliate sweep deposits;RCE;M1h3
+20260930;2652092;RCONMT93;0;20261029;Not fully insured, non-affiliate sweep deposits;RCE;M1h4
+20260930;2652092;RCONMT95;955190;20261029;Total sweep deposits that are not brokered deposits;RCE;M1i
+20260930;2652092;RCONN001;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONN002;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONN003;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONN004;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONN005;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONN006;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONN007;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONN008;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONN009;;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties;RCO;M18c
+20260930;2652092;RCONN010;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN011;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN012;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN013;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN014;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN015;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN016;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN017;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN018;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN019;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN020;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN021;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN022;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN023;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN024;;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M18d
+20260930;2652092;RCONN025;;20261029;Nontraditional 1-4 family residential mortgage loans;RCO;M7a
+20260930;2652092;RCONN026;;20261029;Securitizations of nontraditional 1-4 family residential mortgage loans;RCO;M7b
+20260930;2652092;RCONN027;;20261029;Higher-risk consumer loans;RCO;M8a
+20260930;2652092;RCONN028;;20261029;Securitizations of higher-risk consumer loans;RCO;M8b
+20260930;2652092;RCONN029;;20261029;Higher-risk commercial and industrial loans and securities;RCO;M9a
+20260930;2652092;RCONN030;;20261029;Securitizations of higher-risk commercial and industrial loans and securities;RCO;M9b
+20260930;2652092;RCONN040;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN041;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN042;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN043;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN044;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN045;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN046;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN047;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN048;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN049;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN050;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN051;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN052;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN053;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN054;;20261029;Credit cards;RCO;M18e
+20260930;2652092;RCONN055;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN056;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN057;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN058;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN059;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN060;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN061;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN062;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN063;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN064;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN065;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN066;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN067;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN068;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN069;;20261029;Automobile loans;RCO;M18f
+20260930;2652092;RCONN070;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN071;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN072;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN073;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN074;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN075;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN076;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN077;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN078;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN079;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN080;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN081;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN082;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN083;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN084;;20261029;Student loans;RCO;M18g
+20260930;2652092;RCONN085;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN086;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN087;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN088;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN089;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN090;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN091;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN092;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN093;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN094;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN095;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN096;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN097;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN098;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN099;;20261029;Other consumer loans and revolving credit plans other than credit cards;RCO;M18h
+20260930;2652092;RCONN100;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN101;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN102;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN103;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN104;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN105;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN106;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN107;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN108;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN109;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN110;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN111;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN112;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN113;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN114;;20261029;Consumer leases;RCO;M18i
+20260930;2652092;RCONN115;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN116;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN117;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN118;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN119;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN120;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN121;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN122;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN123;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN124;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN125;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN126;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN127;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN128;;20261029;Total;RCO;M18j
+20260930;2652092;RCONN177;0;20261029;Construction, land development, and other land loans secured by real estate;RCO;M13a
+20260930;2652092;RCONN178;0;20261029;Loans secured by multifamily residential and nonfarm nonresidential properties;RCO;M13b
+20260930;2652092;RCONN179;0;20261029;Closed-end loans secured by first liens on 1-4 family residential properties;RCO;M13c
+20260930;2652092;RCONN180;0;20261029;Closed-end loans secured by junior liens on 1-4 family residential properties and revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RCO;M13d
+20260930;2652092;RCONN181;834;20261029;Commercial and industrial loans;RCO;M13e
+20260930;2652092;RCONN182;0;20261029;Credit card loans to individuals for household, family, and other personal expenditures;RCO;M13f
+20260930;2652092;RCONN183;0;20261029;All other loans to individuals for household, family, and other personal expenditures;RCO;M13g
+20260930;2652092;RCONP752;true;20261029;Does your institution offer one or more consumer deposit account products, i.e., transaction account or nontransaction savings account deposit products intended primarily for individuals for personal, household, or family use?;RCE;M5
+20260930;2652092;RCONP753;3093;20261029;Total deposits in those noninterest-bearing transaction account deposit products intended primarily for individuals for personal, household, or family use;RCE;M6a
+20260930;2652092;RCONP754;4699;20261029;Total deposits in those interest-bearing transaction account deposit products intended primarily for individuals for personal, household, or family use;RCE;M6b
+20260930;2652092;RCONP756;91183;20261029;Total deposits in those MMDA deposit products intended primarily for individuals for personal, household, or family use;RCE;M7a1
+20260930;2652092;RCONP757;2061865;20261029;Deposits in all other MMDAs of individuals, partnerships, and corporations;RCE;M7a2
+20260930;2652092;RCONP758;94891;20261029;Total deposits in those other savings deposit account deposit products intended primarily for individuals for personal, household, or family use;RCE;M7b1
+20260930;2652092;RCONP759;1405348;20261029;Deposits in all other savings deposit accounts of individuals, partnerships, and corporations;RCE;M7b2
+20260930;2652092;RCONPU98;9917;20261029;Guaranteed by U.S. Government agencies or sponsored agencies included in Schedule RC-B, item 5.b;RCB;M7
+20260930;2652092;RCONPU99;9241;20261029;Guaranteed by U.S. Government agencies or sponsored agencies included in Schedule RC-B, item 5.b;RCB;M7
+20260930;2652092;RCONPV00;113;20261029;Guaranteed by U.S. Government agencies or sponsored agencies included in Schedule RC-B, item 5.b;RCB;M7
+20260930;2652092;RCONPV01;113;20261029;Guaranteed by U.S. Government agencies or sponsored agencies included in Schedule RC-B, item 5.b;RCB;M7
+20260930;2652092;RCONPV05;135752;20261029;Loans to mortgage credit intermediaries;RCCI;M10a
+20260930;2652092;RCONPV06;0;20261029;Loans to business credit intermediaries;RCCI;M10b
+20260930;2652092;RCONPV07;0;20261029;Loans to private equity funds;RCCI;M10c
+20260930;2652092;RCONPV08;0;20261029;Loans to consumer credit intermediaries;RCCI;M10d
+20260930;2652092;RCONPV09;0;20261029;Other loans to nondepository financial institutions;RCCI;M10e
+20260930;2652092;RCONPV10;0;20261029;Loans to depository financial institutions;RCL;1e2
+20260930;2652092;RCONPV11;29517;20261029;Loans to nondepository financial institutions;RCL;1e3
+20260930;2652092;RCONPV12;29517;20261029;Loans to mortgage credit intermediaries;RCL;1e3a
+20260930;2652092;RCONPV13;0;20261029;Loans to business credit intermediaries;RCL;1e3b
+20260930;2652092;RCONPV14;0;20261029;Loans to private equity funds;RCL;1e3c
+20260930;2652092;RCONPV15;0;20261029;Loans to consumer credit intermediaries;RCL;1e3d
+20260930;2652092;RCONPV16;0;20261029;Other loans to nondepository financial institutions;RCL;1e3e
+20260930;2652092;RCONPV23;0;20261029;Loans to nondepository financial institutions included in Schedule RC-N, item 7;RCN;M9
+20260930;2652092;RCONPV24;0;20261029;Loans to nondepository financial institutions included in Schedule RC-N, item 7;RCN;M9
+20260930;2652092;RCONPV25;9541;20261029;Loans to nondepository financial institutions included in Schedule RC-N, item 7;RCN;M9
+20260930;2652092;RCONS396;0;20261029;Cash and balances due from depository institutions;RCRII;1
+20260930;2652092;RCONS397;0;20261029;Cash and balances due from depository institutions;RCRII;1
+20260930;2652092;RCONS398;0;20261029;Cash and balances due from depository institutions;RCRII;1
+20260930;2652092;RCONS399;-191;20261029;Held-to-maturity securities;RCRII;2a
+20260930;2652092;RCONS400;0;20261029;Held-to-maturity securities;RCRII;2a
+20260930;2652092;RCONS402;-99963;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCONS403;0;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCONS405;0;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCONS406;0;20261029;Available-for-sale debt securities and equity securities with readily determinable fair values not held for trading;RCRII;2b
+20260930;2652092;RCONS410;0;20261029;Federal funds sold;RCRII;3a
+20260930;2652092;RCONS411;0;20261029;Federal funds sold;RCRII;3a
+20260930;2652092;RCONS413;0;20261029;Residential mortgage exposures;RCRII;4a
+20260930;2652092;RCONS414;0;20261029;Residential mortgage exposures;RCRII;4a
+20260930;2652092;RCONS415;0;20261029;Residential mortgage exposures;RCRII;4a
+20260930;2652092;RCONS416;0;20261029;Residential mortgage exposures;RCRII;4a
+20260930;2652092;RCONS417;0;20261029;Residential mortgage exposures;RCRII;4a
+20260930;2652092;RCONS419;0;20261029;High volatility commercial real estate exposures;RCRII;4b
+20260930;2652092;RCONS420;0;20261029;High volatility commercial real estate exposures;RCRII;4b
+20260930;2652092;RCONS421;0;20261029;High volatility commercial real estate exposures;RCRII;4b
+20260930;2652092;RCONS423;13534;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;4c
+20260930;2652092;RCONS424;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;4c
+20260930;2652092;RCONS425;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;4c
+20260930;2652092;RCONS426;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;4c
+20260930;2652092;RCONS427;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;4c
+20260930;2652092;RCONS428;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;4c
+20260930;2652092;RCONS429;13534;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;4c
+20260930;2652092;RCONS431;0;20261029;All other exposures;RCRII;4d
+20260930;2652092;RCONS432;0;20261029;All other exposures;RCRII;4d
+20260930;2652092;RCONS433;0;20261029;All other exposures;RCRII;4d
+20260930;2652092;RCONS434;0;20261029;All other exposures;RCRII;4d
+20260930;2652092;RCONS435;0;20261029;All other exposures;RCRII;4d
+20260930;2652092;RCONS436;0;20261029;All other exposures;RCRII;4d
+20260930;2652092;RCONS437;0;20261029;All other exposures;RCRII;4d
+20260930;2652092;RCONS439;275624;20261029;Residential mortgage exposures;RCRII;5a
+20260930;2652092;RCONS440;0;20261029;Residential mortgage exposures;RCRII;5a
+20260930;2652092;RCONS441;0;20261029;Residential mortgage exposures;RCRII;5a
+20260930;2652092;RCONS442;275548;20261029;Residential mortgage exposures;RCRII;5a
+20260930;2652092;RCONS443;76;20261029;Residential mortgage exposures;RCRII;5a
+20260930;2652092;RCONS445;208756;20261029;High volatility commercial real estate exposures;RCRII;5b
+20260930;2652092;RCONS446;0;20261029;High volatility commercial real estate exposures;RCRII;5b
+20260930;2652092;RCONS447;208756;20261029;High volatility commercial real estate exposures;RCRII;5b
+20260930;2652092;RCONS449;166021;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;5c
+20260930;2652092;RCONS450;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;5c
+20260930;2652092;RCONS451;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;5c
+20260930;2652092;RCONS452;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;5c
+20260930;2652092;RCONS453;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;5c
+20260930;2652092;RCONS454;0;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;5c
+20260930;2652092;RCONS455;166021;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;5c
+20260930;2652092;RCONS457;5912952;20261029;All other exposures;RCRII;5d
+20260930;2652092;RCONS458;0;20261029;All other exposures;RCRII;5d
+20260930;2652092;RCONS459;41089;20261029;All other exposures;RCRII;5d
+20260930;2652092;RCONS460;834;20261029;All other exposures;RCRII;5d
+20260930;2652092;RCONS461;0;20261029;All other exposures;RCRII;5d
+20260930;2652092;RCONS462;5871029;20261029;All other exposures;RCRII;5d
+20260930;2652092;RCONS463;0;20261029;All other exposures;RCRII;5d
+20260930;2652092;RCONS466;45333;20261029;Trading assets;RCRII;7
+20260930;2652092;RCONS467;0;20261029;Trading assets;RCRII;7
+20260930;2652092;RCONS469;60339;20261029;All other assets;RCRII;8
+20260930;2652092;RCONS470;0;20261029;All other assets;RCRII;8
+20260930;2652092;RCONS471;0;20261029;All other assets;RCRII;8
+20260930;2652092;RCONS475;0;20261029;Held-to-maturity securities;RCRII;9a
+20260930;2652092;RCONS476;0;20261029;Held-to-maturity securities;RCRII;9a
+20260930;2652092;RCONS477;0;20261029;Held-to-maturity securities;RCRII;9a
+20260930;2652092;RCONS478;0;20261029;Held-to-maturity securities;RCRII;9a
+20260930;2652092;RCONS479;0;20261029;Held-to-maturity securities;RCRII;9a
+20260930;2652092;RCONS480;0;20261029;Available-for-sale securities;RCRII;9b
+20260930;2652092;RCONS481;0;20261029;Available-for-sale securities;RCRII;9b
+20260930;2652092;RCONS482;0;20261029;Available-for-sale securities;RCRII;9b
+20260930;2652092;RCONS483;0;20261029;Available-for-sale securities;RCRII;9b
+20260930;2652092;RCONS484;0;20261029;Available-for-sale securities;RCRII;9b
+20260930;2652092;RCONS485;0;20261029;Trading assets;RCRII;9c
+20260930;2652092;RCONS486;0;20261029;Trading assets;RCRII;9c
+20260930;2652092;RCONS487;0;20261029;Trading assets;RCRII;9c
+20260930;2652092;RCONS488;0;20261029;Trading assets;RCRII;9c
+20260930;2652092;RCONS489;0;20261029;Trading assets;RCRII;9c
+20260930;2652092;RCONS490;0;20261029;All other on-balance sheet securitization exposures;RCRII;9d
+20260930;2652092;RCONS491;0;20261029;All other on-balance sheet securitization exposures;RCRII;9d
+20260930;2652092;RCONS492;0;20261029;All other on-balance sheet securitization exposures;RCRII;9d
+20260930;2652092;RCONS493;0;20261029;All other on-balance sheet securitization exposures;RCRII;9d
+20260930;2652092;RCONS494;0;20261029;All other on-balance sheet securitization exposures;RCRII;9d
+20260930;2652092;RCONS495;0;20261029;Off-balance sheet securitization exposures;RCRII;10
+20260930;2652092;RCONS496;0;20261029;Off-balance sheet securitization exposures;RCRII;10
+20260930;2652092;RCONS497;0;20261029;Off-balance sheet securitization exposures;RCRII;10
+20260930;2652092;RCONS498;0;20261029;Off-balance sheet securitization exposures;RCRII;10
+20260930;2652092;RCONS499;0;20261029;Off-balance sheet securitization exposures;RCRII;10
+20260930;2652092;RCONS500;-115263;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCONS503;388311;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCONS504;77671;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCONS505;0;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCONS506;0;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCONS507;0;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCONS510;0;20261029;Total balance sheet assets;RCRII;11
+20260930;2652092;RCONS511;0;20261029;Financial standby letters of credit;RCRII;12
+20260930;2652092;RCONS512;0;20261029;Performance standby letters of credit and transaction-related contingent items;RCRII;13
+20260930;2652092;RCONS513;0;20261029;Commercial and similar letters of credit with an original maturity of one year or less;RCRII;14
+20260930;2652092;RCONS514;0;20261029;Retained recourse on small business obligations sold with recourse;RCRII;15
+20260930;2652092;RCONS515;0;20261029;Repo-style transactions;RCRII;16
+20260930;2652092;RCONS516;0;20261029;Repo-style transactions;RCRII;16
+20260930;2652092;RCONS517;0;20261029;Repo-style transactions;RCRII;16
+20260930;2652092;RCONS518;0;20261029;Repo-style transactions;RCRII;16
+20260930;2652092;RCONS519;0;20261029;Repo-style transactions;RCRII;16
+20260930;2652092;RCONS520;0;20261029;Repo-style transactions;RCRII;16
+20260930;2652092;RCONS521;0;20261029;Repo-style transactions;RCRII;16
+20260930;2652092;RCONS522;0;20261029;Repo-style transactions;RCRII;16
+20260930;2652092;RCONS523;0;20261029;Repo-style transactions;RCRII;16
+20260930;2652092;RCONS524;0;20261029;All other off-balance sheet liabilities;RCRII;17
+20260930;2652092;RCONS525;325817;20261029;Original maturity of one year or less;RCRII;18a
+20260930;2652092;RCONS526;65163;20261029;Original maturity of one year or less;RCRII;18a
+20260930;2652092;RCONS527;0;20261029;Original maturity of one year or less;RCRII;18a
+20260930;2652092;RCONS528;0;20261029;Original maturity of one year or less;RCRII;18a
+20260930;2652092;RCONS529;0;20261029;Original maturity of one year or less;RCRII;18a
+20260930;2652092;RCONS530;65163;20261029;Original maturity of one year or less;RCRII;18a
+20260930;2652092;RCONS531;0;20261029;Original maturity of one year or less;RCRII;18a
+20260930;2652092;RCONS539;0;20261029;Original maturity exceeding one year;RCRII;18b
+20260930;2652092;RCONS540;607939;20261029;Unconditionally cancelable commitments;RCRII;19
+20260930;2652092;RCONS541;0;20261029;Unconditionally cancelable commitments;RCRII;19
+20260930;2652092;RCONS542;60993;20261029;Over-the-counter derivatives;RCRII;20
+20260930;2652092;RCONS543;0;20261029;Over-the-counter derivatives;RCRII;20
+20260930;2652092;RCONS544;0;20261029;Over-the-counter derivatives;RCRII;20
+20260930;2652092;RCONS545;52683;20261029;Over-the-counter derivatives;RCRII;20
+20260930;2652092;RCONS546;0;20261029;Over-the-counter derivatives;RCRII;20
+20260930;2652092;RCONS547;8309;20261029;Over-the-counter derivatives;RCRII;20
+20260930;2652092;RCONS548;0;20261029;Over-the-counter derivatives;RCRII;20
+20260930;2652092;RCONS549;887;20261029;Centrally cleared derivatives;RCRII;21
+20260930;2652092;RCONS550;0;20261029;Centrally cleared derivatives;RCRII;21
+20260930;2652092;RCONS551;887;20261029;Centrally cleared derivatives;RCRII;21
+20260930;2652092;RCONS552;0;20261029;Centrally cleared derivatives;RCRII;21
+20260930;2652092;RCONS554;0;20261029;Centrally cleared derivatives;RCRII;21
+20260930;2652092;RCONS555;0;20261029;Centrally cleared derivatives;RCRII;21
+20260930;2652092;RCONS556;0;20261029;Centrally cleared derivatives;RCRII;21
+20260930;2652092;RCONS557;0;20261029;Centrally cleared derivatives;RCRII;21
+20260930;2652092;RCONS558;887;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONS559;0;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONS560;0;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONS561;388311;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONS562;77671;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONS563;0;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONS564;0;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONS565;0;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONS566;0;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONS567;0;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONS568;0;20261029;Total assets, derivatives, off-balance sheet items, and other items subject to risk weighting by risk-weight category (for each of columns C through P, sum of items 11 through 22: for column Q, sum of items 10 through 22);RCRII;23
+20260930;2652092;RCONS569;18;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONS570;0;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONS571;0;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONS572;582467;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONS573;194178;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONS574;0;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONS575;0;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONS576;0;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONS577;0;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONS578;0;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONS579;0;20261029;Risk-weighted assets by risk-weight category (for each column, item 23 multiplied by item 24);RCRII;25
+20260930;2652092;RCONS580;8069622;20261029;Risk-weighted assets base for purposes of calculating the adjusted allowances for credit losses (AACL) 1.25 percent threshold;RCRII;26
+20260930;2652092;RCONS581;0;20261029;Standardized market-risk weighted assets (applicable only to banks that are covered by the market risk capital rule);RCRII;27
+20260930;2652092;RCONS582;79387;20261029;Interest rate;RCRII;M2a
+20260930;2652092;RCONS583;844645;20261029;Interest rate;RCRII;M2a
+20260930;2652092;RCONS584;729896;20261029;Interest rate;RCRII;M2a
+20260930;2652092;RCONS585;0;20261029;Foreign exchange rate and gold;RCRII;M2b
+20260930;2652092;RCONS586;0;20261029;Foreign exchange rate and gold;RCRII;M2b
+20260930;2652092;RCONS587;0;20261029;Foreign exchange rate and gold;RCRII;M2b
+20260930;2652092;RCONS588;0;20261029;Credit (investment grade reference asset);RCRII;M2c
+20260930;2652092;RCONS589;0;20261029;Credit (investment grade reference asset);RCRII;M2c
+20260930;2652092;RCONS590;0;20261029;Credit (investment grade reference asset);RCRII;M2c
+20260930;2652092;RCONS591;0;20261029;Credit (non-investment grade reference asset);RCRII;M2d
+20260930;2652092;RCONS592;0;20261029;Credit (non-investment grade reference asset);RCRII;M2d
+20260930;2652092;RCONS593;0;20261029;Credit (non-investment grade reference asset);RCRII;M2d
+20260930;2652092;RCONS594;0;20261029;Equity;RCRII;M2e
+20260930;2652092;RCONS595;0;20261029;Equity;RCRII;M2e
+20260930;2652092;RCONS596;0;20261029;Equity;RCRII;M2e
+20260930;2652092;RCONS597;0;20261029;Precious metals (except gold);RCRII;M2f
+20260930;2652092;RCONS598;0;20261029;Precious metals (except gold);RCRII;M2f
+20260930;2652092;RCONS599;0;20261029;Precious metals (except gold);RCRII;M2f
+20260930;2652092;RCONS600;0;20261029;Other;RCRII;M2g
+20260930;2652092;RCONS601;0;20261029;Other;RCRII;M2g
+20260930;2652092;RCONS602;0;20261029;Other;RCRII;M2g
+20260930;2652092;RCONS603;1004316;20261029;Interest rate;RCRII;M3a
+20260930;2652092;RCONS604;0;20261029;Interest rate;RCRII;M3a
+20260930;2652092;RCONS605;0;20261029;Interest rate;RCRII;M3a
+20260930;2652092;RCONS606;0;20261029;Foreign exchange rate and gold;RCRII;M3b
+20260930;2652092;RCONS607;0;20261029;Foreign exchange rate and gold;RCRII;M3b
+20260930;2652092;RCONS608;0;20261029;Foreign exchange rate and gold;RCRII;M3b
+20260930;2652092;RCONS609;0;20261029;Credit (investment grade reference asset);RCRII;M3c
+20260930;2652092;RCONS610;0;20261029;Credit (investment grade reference asset);RCRII;M3c
+20260930;2652092;RCONS611;0;20261029;Credit (investment grade reference asset);RCRII;M3c
+20260930;2652092;RCONS612;0;20261029;Credit (non-investment grade reference asset);RCRII;M3d
+20260930;2652092;RCONS613;0;20261029;Credit (non-investment grade reference asset);RCRII;M3d
+20260930;2652092;RCONS614;0;20261029;Credit (non-investment grade reference asset);RCRII;M3d
+20260930;2652092;RCONS615;0;20261029;Equity;RCRII;M3e
+20260930;2652092;RCONS616;0;20261029;Equity;RCRII;M3e
+20260930;2652092;RCONS617;0;20261029;Equity;RCRII;M3e
+20260930;2652092;RCONS618;0;20261029;Precious metals (except gold);RCRII;M3f
+20260930;2652092;RCONS619;0;20261029;Precious metals (except gold);RCRII;M3f
+20260930;2652092;RCONS620;0;20261029;Precious metals (except gold);RCRII;M3f
+20260930;2652092;RCONS621;0;20261029;Other;RCRII;M3g
+20260930;2652092;RCONS622;0;20261029;Other;RCRII;M3g
+20260930;2652092;RCONS623;0;20261029;Other;RCRII;M3g
+20260930;2652092;RIAD0093;74914;20261029;Savings deposits (includes MMDAs);RI;2a2a
+20260930;2652092;RIAD3123;120781;20261029;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7
+20260930;2652092;RIAD3196;10;20261029;Realized gains (losses) on available-for-sale debt securities;RI;6b
+20260930;2652092;RIAD3210;1181960;20261029;Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a);RIA;12
+20260930;2652092;RIAD3217;1149492;20261029;Total bank equity capital most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from amended Reports of Income);RIA;1
+20260930;2652092;RIAD3521;0;20261029;Realized gains (losses) on held-to-maturity securities;RI;6a
+20260930;2652092;RIAD3584;0;20261029;Secured by farmland;RIBI;1b
+20260930;2652092;RIAD3585;0;20261029;Secured by farmland;RIBI;1b
+20260930;2652092;RIAD3588;20282;20261029;Secured by multifamily (5 or more) residential properties;RIBI;1d
+20260930;2652092;RIAD3589;0;20261029;Secured by multifamily (5 or more) residential properties;RIBI;1d
+20260930;2652092;RIAD4010;319392;20261029;Total interest and fee income on loans (sum of items 1.a.(1)(a) through 1.a.(5));RI;1a6
+20260930;2652092;RIAD4012;59756;20261029;Commercial and industrial loans;RI;1a2
+20260930;2652092;RIAD4020;0;20261029;Interest income on federal funds sold and securities purchased under agreements to resell;RI;1f
+20260930;2652092;RIAD4024;0;20261029;Interest and fee income on loans to finance agricultural production and other loans to farmers (included in Schedule RI, item 1.a.(5));RI;M6
+20260930;2652092;RIAD4058;22313;20261029;All other loans;RI;1a5
+20260930;2652092;RIAD4060;4318;20261029;All other securities (includes securities issued by states and political subdivisions in the U.S.);RI;1d3
+20260930;2652092;RIAD4065;0;20261029;Income from lease financing receivables;RI;1b
+20260930;2652092;RIAD4070;0;20261029;Total gross fiduciary and related services income (sum of items 14 through 21) (must equal Schedule RI, item 5.a);RCT;22
+20260930;2652092;RIAD4073;187277;20261029;Total interest expense (sum of items 2.a through 2.d);RI;2e
+20260930;2652092;RIAD4074;193370;20261029;Net interest income (item 1.h minus 2.e);RI;3
+20260930;2652092;RIAD4079;33808;20261029;Total noninterest income (sum of items 5.a through 5.l);RI;5m
+20260930;2652092;RIAD4080;5259;20261029;Service charges on deposit accounts;RI;5b
+20260930;2652092;RIAD4092;55980;20261029;Other noninterest expense;RI;7d
+20260930;2652092;RIAD4093;138055;20261029;Total noninterest expense (sum of items 7.a through 7.d);RI;7e
+20260930;2652092;RIAD4107;380647;20261029;Total interest income (sum of items 1.a.(6) through 1.g);RI;1h
+20260930;2652092;RIAD4115;33286;20261029;Interest income on balances due from depository institutions;RI;1c
+20260930;2652092;RIAD4135;74887;20261029;Salaries and employee benefits;RI;7a
+20260930;2652092;RIAD4146;;20261029;FDIC deposit insurance assessments;RIE;2g
+20260930;2652092;RIAD4150;497;20261029;Number of full-time equivalent employees at end of current period (round to nearest whole number);RI;M5
+20260930;2652092;RIAD4180;2;20261029;Expense of federal funds purchased and securities sold under agreements to repurchase;RI;2b
+20260930;2652092;RIAD4185;1097;20261029;Interest on trading liabilities and other borrowed money;RI;2c
+20260930;2652092;RIAD4200;0;20261029;Interest on subordinated notes and debentures;RI;2d
+20260930;2652092;RIAD4217;7188;20261029;Expenses of premises and fixed assets (net of rental income) (excluding salaries and employee benefits and mortgage interest);RI;7b
+20260930;2652092;RIAD4230;38260;20261029;Provisions for credit losses;RIBII;5
+20260930;2652092;RIAD4266;0;20261029;Lease financing receivables;RIBI;8
+20260930;2652092;RIAD4267;0;20261029;Lease financing receivables;RIBI;8
+20260930;2652092;RIAD4300;52192;20261029;Income (loss) before discontinued operations (item 8.c minus item 9);RI;10
+20260930;2652092;RIAD4301;52668;20261029;Income (loss) before applicable income taxes and discontinued operations (sum of items 8.a and 8.b);RI;8c
+20260930;2652092;RIAD4302;476;20261029;Applicable income taxes (on item 8.c);RI;9
+20260930;2652092;RIAD4313;10370;20261029;Income on tax-exempt loans and leases to states and political subdivisions in the U.S. (included in Schedule RI, items 1.a and 1.b);RI;M3
+20260930;2652092;RIAD4340;52192;20261029;Net income (loss) attributable to bank (must equal Schedule RI, item 14);RIA;4
+20260930;2652092;RIAD4356;0;20261029;Changes incident to business combinations, net;RIA;7
+20260930;2652092;RIAD4415;0;20261029;Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above);RIA;11
+20260930;2652092;RIAD4435;9780;20261029;Loans secured by 1-4 family residential properties;RI;1a1a
+20260930;2652092;RIAD4436;227471;20261029;All other loans secured by real estate;RI;1a1b
+20260930;2652092;RIAD4460;1339;20261029;LESS: Cash dividends declared on common stock;RIA;9
+20260930;2652092;RIAD4461;14772;20261029;Amount of component;RIE;1h2
+20260930;2652092;RIAD4462;2363;20261029;Amount of component;RIE;1i2
+20260930;2652092;RIAD4464;4728;20261029;Amount of component;RIE;2n2
+20260930;2652092;RIAD4467;4433;20261029;Amount of component;RIE;2o2
+20260930;2652092;RIAD4470;0;20261029;LESS: Cash dividends declared on preferred stock;RIA;8
+20260930;2652092;RIAD4498;0;20261029;Amount of component;RIE;5a2
+20260930;2652092;RIAD4499;0;20261029;Amount of component;RIE;5b2
+20260930;2652092;RIAD4507;1562;20261029;Income on tax-exempt securities issued by states and political subdivisions in the U.S. (included in Schedule RI, item 1.d.(3));RI;M4
+20260930;2652092;RIAD4508;25018;20261029;Transaction accounts (interest-bearing demand deposits, NOW accounts, ATS accounts, and telephone and preauthorized transfer accounts);RI;2a1
+20260930;2652092;RIAD4513;4821;20261029;Interest expense incurred to carry tax-exempt securities, loans, and leases acquired after August 7, 1986, that is not deductible for federal income tax purposes;RI;M1
+20260930;2652092;RIAD4518;1390;20261029;Other interest income;RI;1g
+20260930;2652092;RIAD4521;942;20261029;Amount of component;RIE;6b2
+20260930;2652092;RIAD4522;0;20261029;Amount of component;RIE;6c2
+20260930;2652092;RIAD4605;3539;20261029;Recoveries (column A must equal Part I, item 9, column B, above);RIBII;2
+20260930;2652092;RIAD4608;923;20261029;Commercial and industrial loans;RIBI;4
+20260930;2652092;RIAD4618;0;20261029;Commercial and industrial loans to non-U.S. addressees (domicile) (included in Schedule RI-B, part I, item 4, above);RIBI;M2c
+20260930;2652092;RIAD4628;0;20261029;All other loans;RIBI;7
+20260930;2652092;RIAD4635;81565;20261029;Total (sum of items 1 through 8);RIBI;9
+20260930;2652092;RIAD4638;11719;20261029;Commercial and industrial loans;RIBI;4
+20260930;2652092;RIAD4644;3471;20261029;All other loans;RIBI;7
+20260930;2652092;RIAD4646;0;20261029;Commercial and industrial loans to non-U.S. addressees (domicile) (included in Schedule RI-B, part I, item 4, above);RIBI;M2c
+20260930;2652092;RIAD4652;0;20261029;Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RI-B, part I, item 1, above);RIBI;M2a
+20260930;2652092;RIAD4655;0;20261029;Loans to finance agricultural production and other loans to farmers (included in Schedule RI-B, part I, item 7, above);RIBI;M3
+20260930;2652092;RIAD4662;0;20261029;Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RI-B, part I, item 1, above);RIBI;M2a
+20260930;2652092;RIAD4665;0;20261029;Loans to finance agricultural production and other loans to farmers (included in Schedule RI-B, part I, item 7, above);RIBI;M3
+20260930;2652092;RIAD4769;false;20261029;Comments?;RIE;7a
+20260930;2652092;RIAD5409;0;20261029;Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RI-B, part I, items 4 and 7, above;RIBI;M1
+20260930;2652092;RIAD5410;0;20261029;Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RI-B, part I, items 4 and 7, above;RIBI;M1
+20260930;2652092;RIAD5411;0;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RIBI;1c1
+20260930;2652092;RIAD5412;0;20261029;Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit;RIBI;1c1
+20260930;2652092;RIAD5415;222;20261029;Net gains (losses) on sales of other real estate owned;RI;5j
+20260930;2652092;RIAD5416;5841;20261029;Net gains (losses) on sales of loans and leases;RI;5i
+20260930;2652092;RIAD5523;0;20261029;LESS:  Write-downs arising from transfers of financial assets;RIBII;4
+20260930;2652092;RIAD8431;0;20261029;Income from the sale and servicing of mutual funds and annuities (included in Schedule RI, item 8);RI;M2
+20260930;2652092;RIAD9106;00000000;20261029;If the reporting institution has applied pushdown accounting this calendar year, report the date of the institution's acquisition (see instructions);RI;M7
+20260930;2652092;RIADA220;1451;20261029;Trading revenue;RI;5c
+20260930;2652092;RIADA251;0;20261029;Credit losses on derivatives (see instructions);RI;M10
+20260930;2652092;RIADA530;false;20261029;Does the reporting bank have a Subchapter S election in effect for federal income tax purposes for the current tax year?;RI;M11
+20260930;2652092;RIADB485;0;20261029;Credit cards;RI;1a3a
+20260930;2652092;RIADB486;72;20261029;Other (includes revolving credit plans other than credit cards, automobile loans, and other consumer loans);RI;1a3b
+20260930;2652092;RIADB488;4134;20261029;U.S. Treasury securities and U.S. Government agency obligations (excluding mortgage-backed securities);RI;1d1
+20260930;2652092;RIADB489;18127;20261029;Mortgage-backed securities;RI;1d2
+20260930;2652092;RIADB491;0;20261029;Venture capital revenue;RI;5e
+20260930;2652092;RIADB492;69;20261029;Net servicing fees;RI;5f
+20260930;2652092;RIADB493;0;20261029;Net securitization income;RI;5g
+20260930;2652092;RIADB496;0;20261029;Net gains (losses) on sales of other assets;RI;5k
+20260930;2652092;RIADB497;20715;20261029;Other noninterest income;RI;5l
+20260930;2652092;RIADB507;0;20261029;Cumulative effect of changes in accounting principles and corrections of material accounting errors;RIA;2
+20260930;2652092;RIADB508;1149492;20261029;Balance end of previous calendar year as restated (sum of items 1 and 2);RIA;3
+20260930;2652092;RIADB509;5554;20261029;Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions);RIA;5
+20260930;2652092;RIADB510;0;20261029;Treasury stock transactions, net;RIA;6
+20260930;2652092;RIADB511;-23939;20261029;Other comprehensive income;RIA;10
+20260930;2652092;RIADB514;0;20261029;Credit cards;RIBI;5a
+20260930;2652092;RIADB515;0;20261029;Credit cards;RIBI;5a
+20260930;2652092;RIADB522;159605;20261029;Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from amended Reports of Income);RIBII;1
+20260930;2652092;RIADB526;0;20261029;Amount of component;RIE;4a2
+20260930;2652092;RIADB527;0;20261029;Amount of component;RIE;4b2
+20260930;2652092;RIADB747;0;20261029;Charge-offs;RCS;5a
+20260930;2652092;RIADB753;0;20261029;Charge-offs;RCS;5a
+20260930;2652092;RIADB754;0;20261029;Recoveries;RCS;5b
+20260930;2652092;RIADB760;0;20261029;Recoveries;RCS;5b
+20260930;2652092;RIADC014;2352;20261029;Earnings on/increase in value of cash surrender value of life insurance;RIE;1b
+20260930;2652092;RIADC017;7824;20261029;Data processing expenses;RIE;2a
+20260930;2652092;RIADC079;81565;20261029;LESS:  Charge-offs (column A must equal Part I, item 9, column A, above less Schedule RI-B, Part II, item 4, column A);RIBII;3
+20260930;2652092;RIADC216;0;20261029;Goodwill impairment losses;RI;7c1
+20260930;2652092;RIADC217;9;20261029;Secured by first liens;RIBI;1c2a
+20260930;2652092;RIADC218;0;20261029;Secured by junior liens;RIBI;1c2b
+20260930;2652092;RIADC232;0;20261029;Amortization expense and impairment losses for other intangible assets;RI;7c2
+20260930;2652092;RIADC233;942;20261029;Adjustments (see instructions for this schedule);RIBII;6
+20260930;2652092;RIADC234;80;20261029;Secured by first liens;RIBI;1c2a
+20260930;2652092;RIADC235;0;20261029;Secured by junior liens;RIBI;1c2b
+20260930;2652092;RIADC386;0;20261029;Underwriting income from insurance and reinsurance activities;RI;5d4
+20260930;2652092;RIADC387;251;20261029;Income from other insurance activities;RI;5d5
+20260930;2652092;RIADC886;0;20261029;Fees and commissions from securities brokerage;RI;5d1
+20260930;2652092;RIADC887;0;20261029;Fees and commissions from annuity sales;RI;5d3
+20260930;2652092;RIADC888;0;20261029;Investment banking, advisory, and underwriting fees and commissions;RI;5d2
+20260930;2652092;RIADC889;0;20261029;Net gains (losses) on credit derivatives held for trading;RI;M9a
+20260930;2652092;RIADC890;0;20261029;Net gains (losses) on credit derivatives held for purposes other than trading;RI;M9b
+20260930;2652092;RIADC891;3071;20261029;1-4 family residential construction loans;RIBI;1a1
+20260930;2652092;RIADC892;6;20261029;1-4 family residential construction loans;RIBI;1a1
+20260930;2652092;RIADC893;11696;20261029;Other construction loans and all land development and other land loans;RIBI;1a2
+20260930;2652092;RIADC894;0;20261029;Other construction loans and all land development and other land loans;RIBI;1a2
+20260930;2652092;RIADC895;2926;20261029;Loans secured by owner-occupied nonfarm nonresidential properties;RIBI;1e1
+20260930;2652092;RIADC896;1478;20261029;Loans secured by owner-occupied nonfarm nonresidential properties;RIBI;1e1
+20260930;2652092;RIADC897;28320;20261029;Loans secured by other nonfarm nonresidential properties;RIBI;1e2
+20260930;2652092;RIADC898;1122;20261029;Loans secured by other nonfarm nonresidential properties;RIBI;1e2
+20260930;2652092;RIADF185;0;20261029;Leases to individuals for household, family, and other personal expenditures (included in Schedule RI-B, part I, item 8, above);RIBI;M2d
+20260930;2652092;RIADF187;0;20261029;Leases to individuals for household, family, and other personal expenditures (included in Schedule RI-B, part I, item 8, above);RIBI;M2d
+20260930;2652092;RIADF557;8562;20261029;Consulting and advisory expenses;RIE;2i
+20260930;2652092;RIADFT28;0;20261029;Discontinued operations, net of applicable income taxes (Describe on Schedule RI-E - Explanations);RI;11
+20260930;2652092;RIADFT29;0;20261029;Amount of component;RIE;3a2
+20260930;2652092;RIADFT30;0;20261029;Applicable income tax effect;RIE;3a3
+20260930;2652092;RIADFT31;0;20261029;Amount of component;RIE;3b2
+20260930;2652092;RIADFT32;0;20261029;Applicable income tax effect;RIE;3b3
+20260930;2652092;RIADG103;0;20261029;LESS: Net income (loss) attributable to noncontrolling (minority) interests (if net income, report as a positive value: if net loss, report as a negative value);RI;13
+20260930;2652092;RIADG104;52192;20261029;Net income (loss) attributable to bank and noncontrolling (minority) interests (sum of items 10 and 11);RI;12
+20260930;2652092;RIADG377;4479;20261029;Amount of interest capitalized from interest reserves on construction, land development, and other land loans that is included in interest and fee income on loans during the quarter (included in Schedule RI, item 1.a.(1)(a)(2));RCCI;M13b
+20260930;2652092;RIADH032;51;20261029;Consumer overdraft-related service charges levied on those transaction account and nontransaction savings account deposit products intended primarily for individuals for personal, household, or family use;RI;M15a
+20260930;2652092;RIADH033;0;20261029;Consumer account periodic maintenance charges levied on those transaction account and nontransaction savings account deposit products intended primarily for individuals for personal, household, or family use;RI;M15b
+20260930;2652092;RIADH034;0;20261029;Consumer customer automated teller machine (ATM) fees levied on those transaction account and nontransaction savings account deposit products intended primarily for individuals for personal, household, or family use;RI;M15c
+20260930;2652092;RIADH035;5207;20261029;All other service charges on deposit accounts;RI;M15d
+20260930;2652092;RIADHK03;61175;20261029;Time deposits of $250,000 or less;RI;2a2b
+20260930;2652092;RIADHK04;25071;20261029;Time deposits of more than $250,000;RI;2a2c
+20260930;2652092;RIADHT69;52668;20261029;Income (loss) before change in net unrealized holding gains (losses) on equity securities not held for trading, applicable income taxes, and discontinued operations (item 3 plus or minus items 4, 5.m, 6.a, 6.b, and 7.e);RI;8a
+20260930;2652092;RIADHT70;0;20261029;Change in net unrealized holding gains (losses) on equity securities not held for trading;RI;8b
+20260930;2652092;RIADHT85;0;20261029;Noninterest income for the quarter from the sale, securitization, and servicing of 1-4 family residential mortgage loans (included in Schedule RI, items 5.c, 5.f, 5.g, and 5.i);RCP;5
+20260930;2652092;RIADJH88;224;20261029;Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from amended Reports of Income);RIBII;1
+20260930;2652092;RIADJH89;0;20261029;Recoveries (column A must equal Part I, item 9, column B, above);RIBII;2
+20260930;2652092;RIADJH90;-34;20261029;Provisions for credit losses;RIBII;5
+20260930;2652092;RIADJH91;0;20261029;Adjustments (see instructions for this schedule);RIBII;6
+20260930;2652092;RIADJH92;0;20261029;LESS:  Charge-offs (column A must equal Part I, item 9, column A, above less Schedule RI-B, Part II, item 4, column A);RIBII;3
+20260930;2652092;RIADJH93;190;20261029;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7
+20260930;2652092;RIADJH94;0;20261029;Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from amended Reports of Income);RIBII;1
+20260930;2652092;RIADJH95;0;20261029;Recoveries (column A must equal Part I, item 9, column B, above);RIBII;2
+20260930;2652092;RIADJH96;0;20261029;Provisions for credit losses;RIBII;5
+20260930;2652092;RIADJH97;0;20261029;Adjustments (see instructions for this schedule);RIBII;6
+20260930;2652092;RIADJH98;0;20261029;LESS:  Charge-offs (column A must equal Part I, item 9, column A, above less Schedule RI-B, Part II, item 4, column A);RIBII;3
+20260930;2652092;RIADJH99;0;20261029;Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4.c);RIBII;7
+20260930;2652092;RIADJJ00;0;20261029;LESS:  Write-downs arising from transfers of financial assets;RIBII;4
+20260930;2652092;RIADJJ01;0;20261029;LESS:  Write-downs arising from transfers of financial assets;RIBII;4
+20260930;2652092;RIADJJ02;0;20261029;Provisions for credit losses on other financial assets measured at amortized cost (not included in item 5, above);RIBII;M5
+20260930;2652092;RIADJJ27;0;20261029;Initial allowances for credit losses recognized upon the acquisition of purchased credit-deteriorated assets;RIE;6a
+20260930;2652092;RIADJJ33;36465;20261029;Provisions for credit losses;RI;4
+20260930;2652092;RIADK129;0;20261029;Automobile loans;RIBI;5b
+20260930;2652092;RIADK133;1;20261029;Automobile loans;RIBI;5b
+20260930;2652092;RIADK205;0;20261029;Other (includes revolving credit plans other than credit cards and other consumer loans);RIBI;5c
+20260930;2652092;RIADK206;0;20261029;Other (includes revolving credit plans other than credit cards and other consumer loans);RIBI;5c
+20260930;2652092;RIADMG93;-1761;20261029;Provisions for credit losses on off-balance-sheet credit exposures;RIBII;M7
+20260930;2652092;RIADMG94;0;20261029;Estimated amount of expected recoveries of amounts previously written off included within the allowance for credit losses on loans and leases held for investment (included in item 7, column A, "Balance end of current period," above);RIBII;M8
+20260930;2652092;RSSD9017;Eaglebank;20261029;Legal title of bank;ENT;3
+20260930;2652092;RSSD9050;34742;20261029;FDIC certificate number;ENT;2
+20260930;2652092;RSSD9130;Bethesda;20261029;City;ENT;4
+20260930;2652092;RSSD9200;MD;20261029;State abbreviation;ENT;5
+20260930;2652092;RSSD9220;20814;20261029;Zip code;ENT;6
+20260930;2652092;TEXT3549;Income Tax Receivable;20261029;Describe component;RCF;6h1
+20260930;2652092;TEXT4086;;20261029;E-mail Address;CI;1b3
+20260930;2652092;TEXT4087;www.eaglebankcorp.com;20261029;Uniform Resource Locator (URL) of the reporting institution's primary Internet Web site (home page), if any (Example: www.examplebank.com):;RCM;8a
+20260930;2652092;TEXT4461;BOLI Investment Income;20261029;Describe component;RIE;1h1
+20260930;2652092;TEXT4462;Other Loan Income;20261029;Describe component;RIE;1i1
+20260930;2652092;TEXT4464;Licensing Agreement;20261029;Describe component;RIE;2n1
+20260930;2652092;TEXT4467;Valuation Adjustment HFS Loans;20261029;Describe component;RIE;2o1
+20260930;2652092;TEXT4521;Initial ACL recognized upon acquisition of purchased seasoned loans;20261029;Describe component;RIE;6b1
+20260930;2652092;TEXT8902;;20261029;Telephone;CI;1b4
+20260930;2652092;TEXT9116;;20261029;FAX;CI;1b5
+20260930;2652092;TEXTC366;;20261029;Name;CI;3a1
+20260930;2652092;TEXTC367;;20261029;Title;CI;3a2
+20260930;2652092;TEXTC368;;20261029;E-mail Address;CI;3a3
+20260930;2652092;TEXTC369;;20261029;Telephone;CI;3a4
+20260930;2652092;TEXTC370;;20261029;FAX;CI;3a5
+20260930;2652092;TEXTC371;;20261029;Name;CI;3b1
+20260930;2652092;TEXTC372;;20261029;Title;CI;3b2
+20260930;2652092;TEXTC373;;20261029;E-mail Address;CI;3b3
+20260930;2652092;TEXTC374;;20261029;Telephone;CI;3b4
+20260930;2652092;TEXTC375;;20261029;FAX;CI;3b5
+20260930;2652092;TEXTC437;;20261029;Name;CI;4a1
+20260930;2652092;TEXTC438;;20261029;Title;CI;4a2
+20260930;2652092;TEXTC439;;20261029;E-mail Address;CI;4a3
+20260930;2652092;TEXTC440;;20261029;Telephone;CI;4a4
+20260930;2652092;TEXTC442;;20261029;Name;CI;4b1
+20260930;2652092;TEXTC443;;20261029;Title;CI;4b2
+20260930;2652092;TEXTC444;;20261029;E-mail Address;CI;4b3
+20260930;2652092;TEXTC445;;20261029;Telephone;CI;4b4
+20260930;2652092;TEXTC490;;20261029;Name;CI;1a1
+20260930;2652092;TEXTC491;;20261029;Title;CI;1a2
+20260930;2652092;TEXTC492;;20261029;E-mail Address;CI;1a3
+20260930;2652092;TEXTC493;;20261029;Telephone;CI;1a4
+20260930;2652092;TEXTC494;;20261029;FAX;CI;1a5
+20260930;2652092;TEXTC495;;20261029;Name;CI;1b1
+20260930;2652092;TEXTC496;;20261029;Title;CI;1b2
+20260930;2652092;TEXTC870;;20261029;Name;CI;4c1
+20260930;2652092;TEXTC871;;20261029;Title;CI;4c2
+20260930;2652092;TEXTC872;;20261029;E-mail Address;CI;4c3
+20260930;2652092;TEXTC873;;20261029;Telephone;CI;4c4
+20260930;2652092;TEXTFT42;;20261029;Name;CI;5a1
+20260930;2652092;TEXTFT43;;20261029;Telephone;CI;5a3
+20260930;2652092;TEXTFT44;;20261029;E-mail Address;CI;5a2
+20260930;2652092;TEXTFT45;;20261029;FAX;CI;5a4

@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-11T19:22:19.832234+00:00",
+  "ffiec_endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+  "fdic_url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20260930&fields=CERT,ASSET,LNATRES,NCLNLS&limit=10000",
+  "rows": [
+    {
+      "file": "egbn-6-30-2026.sdf",
+      "sha256": "2b4a941f68e290b750e98c5f543c6a8412917acdeec8a1f07bae3a40ad102a7a",
+      "nonaccrual": 136915,
+      "hfi_rcr": 111124,
+      "hfs_rcr": 25656,
+      "hfs_rcn": 0,
+      "residual": 135
+    },
+    {
+      "file": "egbn-9-30-2026.sdf",
+      "sha256": "a4b07063cc10f7ba0cb0c19b8dc0e84f30e36455ab2cb39e8dce90904df3f991",
+      "nonaccrual": 179722,
+      "hfi_rcr": 166021,
+      "hfs_rcr": 13534,
+      "hfs_rcn": 0,
+      "residual": 167
+    }
+  ]
+}
