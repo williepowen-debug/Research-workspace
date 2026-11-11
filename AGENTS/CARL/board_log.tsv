@@ -150,3 +150,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T13:44:44-05:00	SIG-W-20260929-002	deferred	source=INBOX_WALTER	RE-DATED 2026-11-06 to 2026-11-10: the target moved or names a later print (HHDC basis check, or October CPI). Read at that session.
 2026-11-06T18:09:50-05:00	SIG-W-20261106-044	acted	source=INBOX_WALTER	G.19 read at the Fed; figures hold; STATUS row and KB-CARL-603 added; no OPEN row grades it; no score moved.
 2026-11-11T09:34:09-05:00	SIG-W-20261110-001	acted	source=INBOX_WALTER	Consumer read answered: research/2026-11-11_catchup/READ.md, KB-CARL-615; packet to PROME 2026-11-11. No kill rule, CHG-RED-045 or prediction touched.
+2026-11-11T10:46:51-05:00	SIG-W-20261111-016	acted	source=INBOX_WALTER	Airfare read answered: research/2026-11-11_catchup/AIRFARE_CITI.md, KB-CARL-619; no CARL row or kill rule touched; packet to PROME 2026-11-11.
