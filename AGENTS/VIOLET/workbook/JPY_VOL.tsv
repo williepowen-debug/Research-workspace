@@ -48,3 +48,4 @@ date	jpy_close	rv10	rv20	rv10_pctile	p90_watch	p95_fire	fxy_spot	fxy_expiry	atm_
 2026-11-06	158.43	3.13	5.15	6.6	14.15	15.21	57.79	2026-12-18	11.8	3.78	CALM	STALE quotes (off-RTH pull) — confirm intraday before acting on the IV leg	2026-11-06T22:10:03+00:00
 2026-11-09	158.29	5.06	5.8	18.5	14.16	15.22	58.04	2026-12-18	11.2	2.22	CALM	STALE quotes (off-RTH pull) — confirm intraday before acting on the IV leg	2026-11-10T01:12:32+00:00
 2026-11-10	158.73	4.8	5.84	16.0	14.16	15.22	57.72	2026-12-18	11.4	2.38	CALM	-	2026-11-10T16:09:43+00:00
+2026-11-11	159.65	6.99	6.9	35.2	14.16	15.22	57.38	2026-12-18	20.2	2.89	CALM	-	2026-11-11T14:47:31+00:00

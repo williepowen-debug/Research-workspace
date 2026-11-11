@@ -9,6 +9,14 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## November 11, 2026 — jpy_vol.py off-hours stamp starts at 09:30, not 09:00
+
+**Trigger:** the 11/11 09:26 ET boot (PROME prome-2b catch-up) printed "🔴 RV THROUGH IV" on an FXY near-ATM call IV of 2.4% (IV/RV 0.35), read from the pre-open chain. The off-hours test was `9 <= hour < 16`, so 09:00 to 09:29 counted as regular hours and the stale-quote note was not stamped.
+**What changed:** the test is now `(9, 30) <= (hour, minute) < (16, 0)`. No threshold, leg or state logic changed. The 11/11 JPY_VOL row is replaced by an intraday run (`upsert` supersedes by default).
+**Files touched:** `scripts/jpy_vol.py`.
+**Boot-impact:** a boot before 09:30 ET now stamps the IV leg STALE, as it already did before 09:00.
+**Lessons:** an hour-granular clock test is wrong for a market that opens on the half hour.
+
 ## November 10, 2026 — D:L342: thresholds.py refuses an orphan-VIX row; cap trim
 
 **Trigger:** PROME prome-07, D:L342 (Cboe publishes a VIX bar on NYSE closures; Thanksgiving 11/26). `append_daily_log()` skipped Sat/Sun only, so a boot on a weekday closure could write a phantom VX_DAILY row that every count read from this ledger would include.

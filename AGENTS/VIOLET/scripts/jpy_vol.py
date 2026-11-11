@@ -158,7 +158,9 @@ def pull_fxy_iv(rv10: float) -> dict:
                     "iv_rv10": round(best["iv"] / rv10, 2) if rv10 else None})
         # Off-RTH staleness stamp (scope §4: chain trustworthy intraday only)
         now_et = datetime.now(ET)
-        if not (9 <= now_et.hour < 16) or now_et.weekday() >= 5:
+        # 09:30 open, not 09:00: an hour-only test admitted pre-open chains
+        # (11/11 09:26 ET boot: FXY IV 2.4%, IV/RV 0.35, a false "RV through IV").
+        if not ((9, 30) <= (now_et.hour, now_et.minute) < (16, 0)) or now_et.weekday() >= 5:
             out["note"] = "STALE quotes (off-RTH pull) — confirm intraday before acting on the IV leg"
     except Exception as e:
         out["note"] = f"IV leg unavailable: {str(e)[:80]}"
