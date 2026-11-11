@@ -57,6 +57,7 @@ All mail lives in:
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
 2. **Cross-reference workbook** — check your workbook files for related vectors, prior research, or transmission mechanics. Does this signal connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
+3a. **Combination watch (WQ-622 A, Will 2026-11-05; this line WQ-660, Will 2026-11-10 *"660 yes."*):** in the session you read a card, sweep or print, a sub-threshold item that may matter later or in combination goes in a dated `workbook/KB.tsv` row, `combo:<theme>` first in Notes, with its counterevidence and the fact that would make the theme matter (`PROME/COMBINATION_WATCH.md`). Logging is not scoring: a tag moves no band, vector, threshold or route.
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
 6. **Mark processed** — move signal file to `inbox/processed/`. ⛔ **ONE FILE AT A TIME, AND ONLY AFTER YOU HAVE READ THAT FILE. NEVER BULK-MOVE THE DIRECTORY.**
