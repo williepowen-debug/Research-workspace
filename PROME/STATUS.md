@@ -10,7 +10,7 @@ This file holds PROME's STANDING material only: owner-lane instructions, restric
 
 Decisions → [WILL_QUEUE](WILL_QUEUE.md); obligation/owner/date → DOCKET; owner grade and observation vintage → [GATES](GATES.tsv); implementation and independent acceptance → each task's receipt; actual closeout ask/answer → ORCH_LOG. These facts remain separate. Full transaction and current-book verification sits with FORGE's D-rows.
 
-Process/authority sources: [CLAUDE](CLAUDE.md) and [AUTONOMY](AUTONOMY.md). WQ299's freeze LAPSED (WQ-549) and its process ceiling is SUSPENDED by Will (WQ-566, 2026-10-31); WQ348's do-and-report guard remains in force (nine kinds since WQ-538, 2026-10-29: C9 fires a $0 one-desk research commission as encountered, cap two per boot); this index changes none of their terms. T1 brief checker and T2 stamp/heredoc guard remain held at their registered sources.
+Process/authority sources: [CLAUDE](CLAUDE.md) and [AUTONOMY](AUTONOMY.md). WQ299's freeze LAPSED (WQ-549) and its process ceiling is SUSPENDED by Will (WQ-566, 2026-10-31); WQ348's do-and-report guard remains in force (thirteen kinds since WQ-673, 2026-11-11; C9 still fires a $0 one-desk research commission as encountered, cap two per boot); this index changes none of their terms. T1 brief checker and T2 stamp/heredoc guard remain held at their registered sources.
 
 ---
 
