@@ -1,6 +1,6 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-11T15:04:22Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-1e on the desktop. **Tier 2 FULL closeout on Will's 10:01 ET word ("lets close WALTER here so we can reboot with a fresh context window").** Launch: Will, 08:37 ET. Cards SIG-W-20261111-001 to -013. Prior: FULL 2026-11-11T00:34:56Z (walter-96). Before-image of this file: git history (375cbaeebb).
+Updated 2026-11-11T15:04:22Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-1e on the desktop. **Tier 2 FULL closeout on Will's 10:01 ET word ("lets close WALTER here so we can reboot with a fresh context window").** Launch: Will, 08:37 ET. Cards SIG-W-20261111-001 to -015 (014 and 015 after the closeout, on PROME's relay, receipt updated). Prior: FULL 2026-11-11T00:34:56Z (walter-96). Before-image of this file: git history (375cbaeebb).
 
 ## RESUME — do these first
 
@@ -22,11 +22,11 @@ Boot PARTIAL, closeout FULL. Boot done: sync (no incoming, foreign dirty PROME p
 
 ## CHANGED
 
-Cards 001–004 (67caf07dbb), 005 Iran sweep and anchor (a79a8fbcb5), 006 CORRECTION (73466f0392), correction banners on five older cards (b049721a31), LAST_COMPLETION CoreWeave wording (375cbaeebb, on VULCAN's record via PROME), 007 (cd1c5b0c44), 008 (2f9b1d430c), 009–010 (02231284ba), 011–012 (88f428104d), 013 CORRECTION (8035b539e9), gold bookmark DUP (03f7fb9819). Iran anchor: header re-stamped (old header rotated verbatim to IRAN_WAR_HISTORY.md), ladder items 1 and 8, 11/8 Abqaiq line corrected, Saudi line corrected. MOMR excerpt completed with Table 5-8 footnotes at BRENT's flag. REGISTRY 20 rows. STATUS header, bottom line, observation row, NETWORK. MEMORY #43, #52, #65 n+1 and session note. Doorbells: vulcan-10, falcon-7b, brent-e0, terry-ec; messages to prome-2b (boot cards, ranked wake list).
+Cards 001–004 (67caf07dbb), 005 Iran sweep and anchor (a79a8fbcb5), 006 CORRECTION (73466f0392), correction banners on five older cards (b049721a31), LAST_COMPLETION CoreWeave wording (375cbaeebb, on VULCAN's record via PROME), 007 (cd1c5b0c44), 008 (2f9b1d430c), 009–010 (02231284ba), 011–012 (88f428104d), 013 CORRECTION (8035b539e9), gold bookmark DUP (03f7fb9819); after the closeout, 014 CORRECTION of 004 (SEC: $1.1B is total monetary relief, civil penalties $343M; BROCK KB-BRK-482) and 015 ZHAO (a December hike does not make China a forced Treasury seller; Japan near 160 is the live one) at 8c9cb9d1e4. Iran anchor: header re-stamped (old header rotated verbatim to IRAN_WAR_HISTORY.md), ladder items 1 and 8, 11/8 Abqaiq line corrected, Saudi line corrected. MOMR excerpt completed with Table 5-8 footnotes at BRENT's flag. REGISTRY 20 rows. STATUS header, bottom line, observation row, NETWORK. MEMORY #43, #52, #65 n+1 and session note. Doorbells: vulcan-10, falcon-7b, brent-e0, terry-ec; messages to prome-2b (boot cards, ranked wake list).
 
 ## RESULT
 
-Saudi Arabia's oil reaching the market rose about 1.2 mb/d in October to about 9.2 mb/d: Saudi's own supply figure (9.203), OPEC's secondary sources (9.194) and Bloomberg (9.2) agree. The 10.563 headline is production; WALTER's card 001 framed the two as rival readings and card 013 corrected it at the OPEC report Will downloaded. BRENT now confirms the EIA's 2.5 mb/d of Middle East shut-ins on the level. Iran: no ladder item fired in the 11/5 to 11/11 sweep; Hormuz traffic is still about 4% of normal. Siemens Energy guided faster gas-turbine and grid growth (VULCAN: clean negative for a capex cut); an unquantified Nvidia order-slowdown report is unconfirmed. Skydance carries about 6.6B of secured debt. Russia took custody of Japan Tobacco's Russian business. Betting markets price a December hike at about 85% for 25bp and 12% for 50bp. No FLASH, two corrections, no new threshold fire.
+Saudi Arabia's oil reaching the market rose about 1.2 mb/d in October to about 9.2 mb/d: Saudi's own supply figure (9.203), OPEC's secondary sources (9.194) and Bloomberg (9.2) agree. The 10.563 headline is production; WALTER's card 001 framed the two as rival readings and card 013 corrected it at the OPEC report Will downloaded. BRENT now confirms the EIA's 2.5 mb/d of Middle East shut-ins on the level. Iran: no ladder item fired in the 11/5 to 11/11 sweep; Hormuz traffic is still about 4% of normal. Siemens Energy guided faster gas-turbine and grid growth (VULCAN: clean negative for a capex cut); an unquantified Nvidia order-slowdown report is unconfirmed. Skydance carries about 6.6B of secured debt. Russia took custody of Japan Tobacco's Russian business. Betting markets price a December hike at about 85% for 25bp and 12% for 50bp. No FLASH, three corrections, no new threshold fire.
 
 ## GAPS
 
@@ -89,7 +89,7 @@ Tier 2 FULL closeout, walter-1e, before a fresh-context reboot. Prior: FULL 2026
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-11T15:04:22Z",
+  "as_of": "2026-11-11T15:23:59Z",
   "next_review": "2026-11-12",
   "publication": [
     {
@@ -146,13 +146,18 @@ Tier 2 FULL closeout, walter-1e, before a fresh-context reboot. Prior: FULL 2026
       "commit": "03f7fb9819109d4e42e67e61f7552fb8fb03ff0b",
       "state": "published",
       "note": "Gold bookmark DUP disposition; safe-push CONFIRMED"
+    },
+    {
+      "commit": "8c9cb9d1e4e79ecd073d2d4cf7b5fd562e2a9538",
+      "state": "published",
+      "note": "Post-closeout addendum on PROME's 10:2x ET relay: card 014 CORRECTION of 004 (SEC $1.1B is total relief, penalties $343M; R1 COR-20261111-14, banner) and card 015 (ZHAO, China not a forced Treasury seller); safe-push CONFIRMED; delivery reconciled at 5e60d674e7"
     }
   ],
   "delivery": {
     "signal_date": "20261111",
-    "total": 67,
-    "delivered": 67,
-    "note": "All 67 handoff rows for cards 001 to 013 delivered on origin (reconcile_delivery_log --apply after each push); recipient use separate. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
+    "total": 80,
+    "delivered": 80,
+    "note": "All 80 handoff rows for cards 001 to 015 delivered on origin (reconcile_delivery_log --apply after each push); recipient use separate. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -181,7 +186,7 @@ Tier 2 FULL closeout, walter-1e, before a fresh-context reboot. Prior: FULL 2026
     "session": "walter-1e interactive on the desktop; closing on Will's 10:01 ET word for a fresh-context reboot; no timer or helper."
   },
   "manual_duties": {
-    "11": "Cards 001 to 013 published, index regenerated, route_log and delivery_log rows per (signal, recipient); two corrections (006, 013) with R1 rows, banners and INDEX markers in the same commit; five missing banners on older corrected cards added.",
+    "11": "Cards 001 to 015 published, index regenerated, route_log and delivery_log rows per (signal, recipient); three corrections (006, 013, 014) with R1 rows, banners and INDEX markers in the same commit; five missing banners on older corrected cards added.",
     "13": "REGISTRY: 19 rows mirrored at 2026-11-11T15:02:04Z (BRENT STATUS uncommitted at read), WALTER row by hand; Status column not re-graded.",
     "12": "STATUS Updated line, BOTTOM LINE re-cut, November 11 observation row, NETWORK regenerated from REGISTRY and ListAgents 15:02Z, FILTER POSTURE BALANCED unchanged, cluster_mediating today 0; old Updated, BOTTOM LINE and NETWORK paragraphs rotated verbatim to SESSION_LOG; read-cap STATUS 62%.",
     "14": "MEMORY #43, #52, #65 extended n+1; session note replaced (November 10 note's facts carried); 23,432 B, under the 24,412 B trigger. No auto-memory written.",
