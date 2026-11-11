@@ -177,15 +177,18 @@ class TestPerimeterIsDerived(unittest.TestCase):
     """Condition 5 — from the manifest, not a hand-list."""
 
     def test_perimeter_comes_from_READS_tsv(self):
+        import glob
         got = {p.name for p in table_check.perimeter()}
         self.assertIn("STATUS.md", got)
         self.assertIn("HEARTBEAT.md", got)
         declared = {
-            r.split("\t")[2].rsplit("/", 1)[-1]
+            pathlib.Path(p).name
             for r in (ROOT / "PROME/registry/READS.tsv").read_text().split("\n")
             if not r.startswith("#") and r.count("\t") >= 3
             and r.split("\t")[0] == "READ" and r.split("\t")[1] == "PROME"
             and r.split("\t")[3] == "whole"
+            for p in glob.glob(str(ROOT / r.split("\t")[2]), recursive=True)
+            if pathlib.Path(p).is_file()
         }
         self.assertEqual(got, declared)
 

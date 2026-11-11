@@ -42,6 +42,8 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 READS = ROOT / "PROME/registry/READS.tsv"
+sys.path.insert(0, str(ROOT / "scripts"))
+import read_cap_check  # shared READS class expansion and empty-class policy
 
 _ESCAPED = "\x00"          # stand-in for a literal `\|` while we split
 _SEP_RE = re.compile(r"^:?-{1,}:?$")
@@ -136,7 +138,20 @@ def perimeter() -> list[pathlib.Path]:
             continue
         f = raw.split("\t")
         if len(f) >= 4 and f[0] == "READ" and f[1] == "PROME" and f[3] == "whole":
-            out.append(ROOT / f[2])
+            pattern = f[2]
+            if "*" in pattern or "?" in pattern:
+                members = read_cap_check._class_members(pattern, str(ROOT))
+                if members:
+                    out.extend(pathlib.Path(p) for p in members)
+                else:
+                    history = read_cap_check.class_history(pattern, str(ROOT))
+                    if not history:
+                        raise OSError(f"class {pattern}: no current members and "
+                                      "no established committed history")
+                    print(f"· TABLE-CHECK empty class {pattern}: committed history "
+                          "established; zero current files scanned")
+            else:
+                out.append(ROOT / pattern)
     return out
 
 

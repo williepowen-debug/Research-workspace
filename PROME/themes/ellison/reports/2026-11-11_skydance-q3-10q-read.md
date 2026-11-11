@@ -132,7 +132,7 @@ Neither is a sale or a pledge. The $8.01 is the 11/6 NYSE close as stated in the
 - **Claim 4 (personal guarantee)**: the guaranteed equity was funded at close and syndicated. The Ellison cash in is **$14.85B, not ~$46.7B**: about $32B of the commitment went to sovereign and institutional buyers. That shrinks the Ellison-specific exposure to Skydance relative to the thesis's framing. Whether the 3/2 guarantee is extinguished is unread.
 - **Claim 6 (Musk)**: unchanged. The issuer is silent and structurally may stay silent. The resale prospectus (about 12/22) is the next primary test. The Musk falsifier ("filed terms show a market or below-market price") cannot be graded yet. Every disclosed PIPE share went in at $12.00, the collar floor, so any Musk stake bought in the PIPE was at the same $12.00.
 - **Confirmer "Skydance stock added as collateral"**: the filings permit it (the lock-up exempts pledges) but disclose none.
-- **Transmission channel**: Skydance is now about $86.6B secured, with a 5.50x/3.25x covenant set and about $6B of yearly interest. A measurable channel exists on the Skydance side; this read does not test whether Oracle stress transmits into it.
+- **Transmission channel**: Skydance has about $86.6B of total face debt (inferred in §1, before the receivables securitization payoff), with a 5.50x/3.25x covenant set and about $6B of yearly interest. A measurable channel exists on the Skydance side; this read does not test whether Oracle stress transmits into it.
 
 ## Not found / not read
 
