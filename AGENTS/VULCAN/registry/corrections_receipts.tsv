@@ -26,3 +26,4 @@ receipt_date	correction_id	action	note
 2026-11-06T22:17Z	COR-20261106-41	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-404; validation_ref=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-379; 
 2026-11-06T22:17Z	COR-20261106-42	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-405; validation_ref=NONE; 
 2026-11-10T22:21Z	COR-20261109-11	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-414; validation_ref=NONE; 
+2026-11-11T13:39Z	COR-20261110-12	NO-OP	scope=kill string 'including Pike County, Ohio' absent from AGENTS/VULCAN, and KB-VULCAN-419 already records the SB7 booking, the deck's 'completely unrelated to PORTS-Pike' and the 457.0B plus 140.2B yen split from SoftBank's own documents (d4b5e4684c); 
