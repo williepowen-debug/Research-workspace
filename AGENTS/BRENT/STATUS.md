@@ -88,6 +88,7 @@
 | **Thu Nov 12** | COMBO WATCH gulf-access-cost — is the attack pace turning into route exits or cost? | 🟡 |
 | **Fri Nov 13** | NORTHEAST HOME HEATING OIL RESERVE — up to 315,000 bbl exchange deliveries due complete | 🟠 |
 | **Fri Nov 13** | CFTC COT #14 — as-of 11/10, release ~15:30 ET | 🟠 |
+| **Fri Nov 13** | IEA OMR NOVEMBER — second agency on the Q4 balance, spare capacity and Middle East outages before the 11/29 OPEC+ letter | 🟠 |
 | **Wed Nov 18** | ✅ WQ-386 HELD VLO — DISCHARGED 2026-11-05: original share sold, no basis review needed | 🟠 |
 | **Thu Nov 19** | ✅ WQ-386 HELD VLO — DISCHARGED 2026-11-05: no further leg-A observations owed | 🟠 |
 | **~Fri Nov 20** ⌁*modeled* | CHINA GAC OCTOBER PRODUCT EXPORTS — physical sizing of the October quota (successor to the 10/08 halt row) | 🟡 |
@@ -95,15 +96,17 @@
 | **Sun Nov 29** | OPEC+ 69th JMMC — monitoring committee (watch for an ONOMM call / 2027-baseline language) | 🟡 |
 | **Sun Nov 29** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the January 2027 production decision (successor to the 11/1 row) | 🟠 |
 | **Tue Dec 1** | COMBO WATCH us-fuel-policy — will Washington tax or restrict fuel? | 🟡 |
+| **Mon Dec 14** | OPEC MOMR DECEMBER — Tables 5-7 (secondary sources) and 5-8 (direct communication incl. Saudi production/supply footnote) for November | 🟠 |
 | **Mon Dec 21** | BRT-35 — last GASREGW print in the window | 🟠 |
 | **Wed Dec 23** | BRT-34 — WPSR for data week 12/18, last window print | 🟠 |
 | **Thu Dec 31** | BRT-32 — Yanbu loading-halt window ends | 🟠 |
+| **~Thu Jan 14 2027** ⌁*modeled* | OPEC MOMR JANUARY 2027 — first full read of December and OPEC's 2027 balance | 🟡 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 | **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 6 of 40 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 43 rows are modeled.*
 
-*40 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*43 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
