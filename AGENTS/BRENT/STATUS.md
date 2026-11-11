@@ -1,16 +1,14 @@
 # BRENT STATUS
 
-**November 11 Saudi grade (08:48 EST, prome-2b; corrected 10:0x EST at the OPEC primary, WALTER SIG-W-20261111-001 and -013), SCOPED-PARTIAL:** v5.13 / WAIT unchanged; nothing armed. **Saudi October crude to the market agrees near 9.2 on every measure:** OPEC secondary sources **9.194** (+1.182) [CONF MOMR Table 5-7, Will's PDF via WALTER excerpt], Saudi supply to the market 9.203, EIA STEO 9.3 [CONF EIA API], survey 9.2. The 10.563 is Saudi-stated **production** (footnote via WALTER); production minus supply = +1.36 into storage, by Saudi's account. **STEO 2.5 mb/d Middle East shut-in CONFIRMED on the level**; the Q4 build stands (secondary-source OPEC +1.965 against EIA +1.315, direction only). **CONTESTED, not moved:** my 11/10 'a January increment is paper' reading. Saudi-stated production implies about 1.2–1.3 mb/d of room EIA does not carry, plus about 42M bbl stored in October [own arithmetic, self-reported]. Exports October: Kpler Ras Tanura (Hormuz) 2.95, Yanbu (Red Sea) 2.21 to 10/25 [secondary of vendor]; no November print. No boundary, BRT row, gate or version moves; Dated still $107.03 (11/3) [FRED 11/11]. → [Note](research/2026-11-11_saudi-momr/NOTE.md#8-correction-at-the-primary-opec-november-momr-tables-5-7-and-5-8-walter-sig-w-20261111-013-action-100x-est).
+**November 11 (08:48–15:17 EST, prome-2b), SCOPED-PARTIAL:** v5.13 / WAIT unchanged; nothing armed. **Saudi October crude to the market is about 9.2 on every measure:** OPEC secondary sources **9.194** [CONF MOMR Table 5-7, Will's PDF via WALTER], supply 9.203, EIA 9.3, survey 9.2. The 10.563 is Saudi-stated production, with +1.36 stored. **STEO 2.5 mb/d shut-in CONFIRMED**; Q4 build stands. **CONTESTED:** the 11/10 'January increment is paper' read (Saudi-stated room about 1.2–1.3 plus stored barrels). The intraday +3.2% (Reuters: Iran's nuclear line, Gulf attacks) faded. **Window:** M1−M3 **+3.8713**, valid 3 of 4, F-a not crossed; the 11/10 BZF27 settle is 91.49 [EST]. No boundary, BRT row or gate moved → [Note](research/2026-11-11_saudi-momr/NOTE.md).
 
-**November 10 desktop pickup (11:39–14:52 EST, prome-07, Will's word 11:38 ET), SCOPED-PARTIAL:** v5.13 / WAIT unchanged; nothing armed. **Move:** BZF27 settled 92.57 on 11/9, low 89.15 on 11/10 [EST wire, vendor]. Cause: an unconfirmed Qatar report, US de-escalation lines; no barrels back. Boundary #1 not fired, about $29 away. **STEO 11/10:** the Q4-26 balance moves from a 0.69 mb/d draw to a 1.47 mb/d build (supply); COPS_OPEC 0.01 to 3/2027 [CONF EIA estimates]. **BRT-35 CONFIRMED** (GASREGW 3.995). **Window 14:46 EST:** M1−M3 **+3.7552**, valid 2 of 3, F-a not crossed; December crack $87.44 [EST vendor proxy]. **Petroline 11/9:** hit near Madinah, operations unaffected (SPA); BG-02 R1 NOT MET. → [Note](research/2026-11-10_pickup/NOTE.md).
-
-**Rotated 2026-11-10 (two sets):** set 1 → [archive](archive/STATUS_dated_2026-11-10_rotation.md), 2069 B crc32 `14e95759`; set 2 (November 9 block and summary, older receipts, header lines) → [archive](archive/STATUS_dated_2026-11-10b_rotation.md), 7017 B crc32 `7603e4b9`. Graded catalyst rows older than a week → [prune](archive/CATALYSTS_pruned_2026-11-10.tsv).
+**Rotated 2026-11-11:** the November 10 block and its summary for Will → [archive](archive/STATUS_dated_2026-11-11_rotation.md), 1094 B crc32 `ded607eb`. Set b (the November 10 receipts and refresh line) → [archive](archive/STATUS_dated_2026-11-11b_rotation.md), 922 B crc32 `7290f958`; older receipts are reached through it.
 
 **Official boundary:** CME has **IP-blocked this machine** (HTTP 403, terms-of-use message, October 28 23:49 ET); no evasion attempted. Latest authenticated CME pair remains October 23 (CLZ26 103.27 / HOZ26 4.7870, crack 97.7840). No official ICE page read. Vendor and wire values never complete a registered count. **WQ-533 (b), Will 10/29 13:33 ET:** sources (2)/(3) accepted as the crack basis while blocked, with a near-the-line exception → [TRADE](TRADE.md).
 
 **Throughput:** current comparable Gulf volume UNRESOLVED on a measured basis. First agency estimate: EIA STEO 11/10 puts Middle East crude shut-ins at 2.5 mb/d in October (10.9 at the May peak), exports up slightly after the Saudi East-West restart (Vortexa), plus STS along Oman [primary text, agency estimate]. One agency on a vendor feed, not a strait count → [note](research/2026-11-10_pickup/NOTE.md#3). **11/11:** OPEC secondary sources put Saudi October at 9.194 against EIA's 9.3, so the 2.5 is confirmed on the level → [grade](research/2026-11-11_saudi-momr/NOTE.md) § 8.
 
-**Last real market/source refresh:** November 10, 11:39–12:0x EST: vendor bars BZF27/BZG27/BZH27/CLZ26/CLF27/HO/RB, 11/9 settles (wire relay + vendor daily row), GASREGW 11/9 (FRED + EIA API), November STEO (EIA API two vintages + text), FRED Dated Brent (newest still 11/3). Not refreshed: insurance quotes, FINRA USO short interest, COT (next 11/13). JWC index re-fetched 12:07 EST (still JWLA-035). Prior header lines → [rotation](archive/STATUS_dated_2026-11-10b_rotation.md). Positions/receipts → [TRADE](TRADE.md); broker truth off-repo.
+**Last real market/source refresh:** November 11, 08:48–15:17 EST: EIA STEO country series (COPR/PADI/COPC, API), OPEC MOMR Tables 5-7/5-8 at WALTER's verbatim excerpt of Will's PDF (opec.org 403 here), FRED Dated Brent (newest still 11/3), vendor window bars and 11/10 daily rows. Not refreshed: insurance quotes, FINRA USO short interest, COT (next 11/13), EIA weekly (11/12). Positions/receipts → [TRADE](TRADE.md); broker truth off-repo.
 
 **Navigation:** [README](README.md) · [handoff](SCRATCH.md) · [cleanup accepted; warning retained](audits/2026-10-20_organisation-cleanup/REVIEW-CLOSED.md) · [USO](USO/README.md) · [live-routine acceptance still unverified](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et).
 
@@ -47,7 +45,7 @@
 
 ## 📚 ARCHIVE INDEX + OWNER POINTERS — *one line each; narrative lives at the link*
 
-> 📦 **Rotation receipts (every crc32, 2026-08-04 → 2026-09-14) live in [archive/STATUS_DETAIL_2026-09.md](archive/STATUS_DETAIL_2026-09.md) § ROTATED 2026-09-14** — moved there 2026-09-14 because a receipt is PROVENANCE, not state. Older sets: [`workbook/STATUS_archive_*`](workbook/) (8/4 · 8/7 · 8/13 · 8/21 ×2 · 8/27 · 8/28) · [`archive/STATUS_dated_2026-09-09_audit.md`](archive/STATUS_dated_2026-09-09_audit.md) · [`archive/STATUS_dated_2026-09-09_maintenance.md`](archive/STATUS_dated_2026-09-09_maintenance.md). ⛔ **Every rotation was VERBATIM; tombstones and impeachment banners that still BIND live in STANDING STATE above.**
+> 📦 **Older rotation receipts and archive sets (2026-08-04 → 2026-09-14, plus the tombstone rule)** → [archive](archive/STATUS_dated_2026-11-11c_rotation.md), 652 B crc32 `f7c37db2`.
 
 > ➡️ **OWNERS (read these, never a copy here):** thesis stance → [`thesis/THESIS.md`](thesis/THESIS.md) · positions / rules / execution log → [`TRADE.md`](TRADE.md) · predictions → [`thesis/PREDICTIONS.tsv`](thesis/PREDICTIONS.tsv) · registered tests → [`workbook/REGISTRY.tsv`](workbook/REGISTRY.tsv) · operational lines → `demand_destruction/TRACKER.md` · forward items → [`SCRATCH.md`](SCRATCH.md) § NEXT SESSION + `docket/CATALYSTS.tsv` · Saudi dual-route watch (7/21, never executed) → Yanbu/Bab rows in `docket/CATALYSTS.tsv` + `refinery_damage/INCIDENTS.tsv` · convergence matrix: 7/21 score is a point-in-time record, a new read is a fresh scoring pass.
 
@@ -71,7 +69,6 @@
 | **Sat Oct 24** | TEXAS DIESEL WAIVER — existing 20-day window ends | 🟠 |
 | **Mon Oct 26** | USO SHORT INTEREST — October15 settlement snapshot publication | 🟡 |
 | **~Thu Oct 29** ⌁*modeled* | TOTALENERGIES Q3 2026 RESULTS — written SATORP restart confirmation | 🟡 |
-| **Fri Oct 30** | ✅ BZZ26 LAST TRADING DAY — GRADED 2026-11-05: January legs verified, boundary #8 count 0 — boundary #8 (Brent 3:2:1) month switch: Dec legs BZZ26/RBZ26/HOZ26 → Jan BZF27/RBF27/HOF27 from… | 🟡 |
 | **Sun Nov 1** | IRAN PGSA 'LEGAL ACTION' VS ALL SINOKOR VESSELS — effective date | 🟠 |
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Tue Nov 3** | MPC Q3 2026 RESULTS — L689 conditional refiner candidate | 🟠 |
@@ -104,9 +101,9 @@
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 | **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 43 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 42 rows are modeled.*
 
-*43 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*42 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
@@ -115,6 +112,6 @@
 
 ## SUMMARY FOR WILL
 
-**November 10:** Brent fell to about $90 on deal hopes, with no barrels back. EIA now projects a fourth-quarter stock build but still sees products tight, and OPEC has almost no spare capacity for January. US gasoline fell under $4 (BRT-35 confirmed). The spread test BRT-33 has not fired (+3.76 against +3.50). No decision for Will.
+**November 11:** OPEC's own report shows about 9.2 mb/d of Saudi crude reached the market in October, matching EIA, so EIA's count of Gulf supply still offline (2.5 mb/d) stands. Saudi says it produced 10.56 and stored the rest, which means there may be more room to raise supply in January than EIA's "no spare" estimate shows. Oil rose about 3% in the morning on Iran's nuclear statement and Gulf ship attacks, then gave most of it back. The spread test BRT-33 has not fired (+3.87 against +3.50). No decision for Will.
 
 Summaries from November 9 back to October 14 are preserved verbatim in the [November 10 second rotation](archive/STATUS_dated_2026-11-10b_rotation.md) and the archives it points to.
