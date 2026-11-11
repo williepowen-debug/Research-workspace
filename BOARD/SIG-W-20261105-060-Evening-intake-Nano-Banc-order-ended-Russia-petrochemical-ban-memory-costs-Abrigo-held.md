@@ -19,6 +19,7 @@ entities: ["Nano-Banc", "Abrigo", "Sageworks", "QCOM", "ARM"]
 word_count: 144
 dispatch_note: "18 intake breaches dispositioned; Ueno and Boise alerts folded, nothing new. No link between Abrigo and Arkea established; the sentence states that."
 ---
+> **Correction, November 5 — SIG-W-20261105-062:** "Confirmed data incident" overstates Abrigo: the company called it a "data security incident" involving unauthorized access; whether data was taken is not stated. The rest of this card stands, including that nothing ties Abrigo to Arkéa's provider. Banner added November 11 (missed at the original correction).
 # Evening intake: Fed ends Nano Banc action; Russia bans petrochemical feedstock exports; memory costs hit Qualcomm and Arm; Abrigo held by CYPHER
 
 November 5 collector, headlines unless named.

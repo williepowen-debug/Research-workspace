@@ -21,6 +21,7 @@ dispatch_note: "Rule 9 helper plus guards read in full pre-dispatch (ADD#26 five
 verify_research_verdict: "INDETERMINATE on mine and fire claims; CONFIRMED on UKMTO report via relays"
 kill_note: "ABC Hegseth stranglehold is March 13; EnergyNow Morgan Stanley peace deal is June 16; EnergyNow banks hike forecasts is September 11; Anadolu ceasefire wording is kill-on-sight"
 ---
+> **Correction, November 5 — SIG-W-20261105-065:** This card said no source tied the November 5 oil move to the tanker events. Reuters' settle story ties Brent's over-$3 rise to new tanker attacks (one wire, a reported cause). BRENT's [EST] marks replace the vendor reads: January Brent $98.29, December WTI $90.52. Banner added November 11 (missed at the original correction).
 # UKMTO reports a tanker struck north of Qatar; Iranian mine and fire claims remain unconfirmed; no deal or reopening
 
 NEW, relayed, UKMTO primary 403: tanker struck by two unidentified projectiles, event 11/4 23:20Z (03:20 Gulf time 11/5), 50 NM N of Madinat ash Shamal, Qatar; crew and damage unconfirmed; no name, flag or attacker. Gulf, not Hormuz; absent from FALCON's list ending GRIT.

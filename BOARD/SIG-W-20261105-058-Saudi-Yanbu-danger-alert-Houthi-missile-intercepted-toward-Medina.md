@@ -20,6 +20,7 @@ word_count: 173
 dispatch_note: "INTERCEPTED-to-STRUCK and date guards read. Sweep clock unchanged. Latency: same-day headlines sat behind the headline filter; routed about 12 hours late."
 narrative_channel: "houthi"
 ---
+> **Correction, November 5 — SIG-W-20261105-065:** This card said no source tied the November 5 oil move to the tanker events. Reuters' settle story ties Brent's over-$3 rise to new tanker attacks (one wire, a reported cause). BRENT's [EST] marks replace the vendor reads: January Brent $98.29, December WTI $90.52. Banner added November 11 (missed at the original correction).
 # Saudi civil defense warns of danger at Yanbu; coalition intercepts Houthi missile toward Medina; no hit on oil facilities reported
 
 November 5, reports from about 09:44 GMT; collector headlines missed by the morning passes, surfaced in the evening intake. Search summaries of Reuters-relay pieces; bodies unread.

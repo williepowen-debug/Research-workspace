@@ -20,6 +20,7 @@ word_count: 177
 dispatch_note: "Bounded check, sweep clock unchanged. Guards read for this dispatch: mediated-not-bilateral, POTUS channel, ceasefire kill word, negotiating-not-established. No US official voice found."
 narrative_channel: "mfa"
 ---
+> **Correction, November 5 — SIG-W-20261105-065:** This card said no source tied the November 5 oil move to the tanker events. Reuters' settle story ties Brent's over-$3 rise to new tanker attacks (one wire, a reported cause). BRENT's [EST] marks replace the vendor reads: January Brent $98.29, December WTI $90.52. Banner added November 11 (missed at the original correction).
 # Reuters: Iranian official says a nuclear proposal went to the US via Qatar, for discussion only after seven demands; no US confirmation
 
 Middle East Eye, November 5 20:17 GMT, citing Reuters: "Iran has sent the US a nuclear proposal via Qatar, which is to be discussed only after Washington meets its seven demands, a senior Iranian official told Reuters on Thursday." The official adds that Washington is reviewing it. Reuters body unread. Seven demands not listed. No US response found.
