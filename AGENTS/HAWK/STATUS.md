@@ -1,6 +1,6 @@
 # HAWK STATUS
 
-**Updated:** November 11, 2026, 09:30 ET (from `date`; session start 09:25), **catch-up on Will's word via PROME prome-2b (09:24 ET)**; prior: November 9, 19:37 ET closeout on PROME's WQ-249 ask; card 010 applied 13:00 ET; catch-up on Will's word via PROME 10:46 ET; prior stamp November 6, 18:36 ET closeout. Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Root/local instructions explicitly read. No trade book. **No mark, band, score or letter moved; no registered letter required one.**
+**Updated:** November 11, 2026, 09:30 ET (from `date`; session start 09:25), **catch-up on Will's word via PROME prome-2b (09:24 ET), closed out 09:32 ET on prome-2b's WQ-249 ask**; prior: November 9, 19:37 ET closeout on PROME's WQ-249 ask; card 010 applied 13:00 ET; catch-up on Will's word via PROME 10:46 ET; prior stamp November 6, 18:36 ET closeout. Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Root/local instructions explicitly read. No trade book. **No mark, band, score or letter moved; no registered letter required one.**
 
 ## Decisions and thresholds (top)
 

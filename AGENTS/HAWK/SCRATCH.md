@@ -1,6 +1,6 @@
-# HAWK SCRATCH — November 11, 2026, catch-up (window held open for PROME's closeout ask)
+# HAWK SCRATCH — November 11, 2026, closeout
 
-**As of:** 09:30 ET (from `date`; session start 09:25). Claude Code / Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Catch-up on Will's word via PROME prome-2b 09:24 ET ("Lets make sure we get all our agents caught up to the live data and news"). Research only: no trade, card, gate, band, threshold or charter change; no spend; no external send. This is a mid-day write; closeout later today rewrites it.
+**As of:** 09:30 ET (from `date`; session start 09:25). Claude Code / Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Catch-up on Will's word via PROME prome-2b 09:24 ET ("Lets make sure we get all our agents caught up to the live data and news"). Research only: no trade, card, gate, band, threshold or charter change; no spend; no external send. **Closed out 09:32 ET (from `date`) on PROME prome-2b's WQ-249 ask** (packet consumed and filed by PROME; desktop memory needed for the fleet catch-up). Nothing owed today.
 
 ## CURRENT MARKS
 
@@ -22,7 +22,7 @@ Boot (root + desk instructions, STATUS, SCRATCH, LESSONS, both sibling briefs). 
 
 ## NEXT SESSION
 
-1. **Closeout today** on PROME's ask (window held open).
+1. Closeout done 11/11 on PROME's ask; next wake from these files.
 2. **Nov 12: IRAQ / FININFRA / SULPHUR backstops** (due). WPSR 11/12 is BRENT's physical read; BRENT's combo watches gulf-flow-basis and paper-physical-gap 11/12.
 3. **EURMIL native check, OVERDUE from 11/8:** web found no Article 4 request through 11/11 (KB-521, KB-529); not primary-closed; equipment stocks still owed.
 4. **Deal track (FALCON's):** a signed dated text with an on-record US answer; Trump holds off strikes, blockade kept.
