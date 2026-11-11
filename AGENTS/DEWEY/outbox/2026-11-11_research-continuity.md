@@ -1,3 +1,7 @@
+# Latest focused follow-up — United Fidelity
+
+Will authorized this follow-up after CATO review. Complete within available public evidence: `output/2026-11-11_united-fidelity-losses-and-capital.md`. Q3 MF charge-offs $362.453M; net loss $246.851M; total capital ratio 7.2647%; remaining MF $2.722B. Specific cause and affected-property mapping UNKNOWN. Historical OCC higher minimums found; later modification/current enforcement status unverified. Six create-only delivery pointers prepared; consumption unverified. No broad download, subagents or watcher. EagleBank and Plaza remain separate.
+
 # DEWEY research continuity — November 11, 2026
 
 ## Latest research closeout — read this first
