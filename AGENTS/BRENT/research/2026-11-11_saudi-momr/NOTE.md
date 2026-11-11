@@ -96,13 +96,13 @@ The OPEC secondary-source Saudi October figure. If it prints 10 or above, the EI
 
 ## 8. Correction at the primary: OPEC November MOMR Tables 5-7 and 5-8 (WALTER SIG-W-20261111-013, ACTION, 10:0x EST)
 
-**Source:** Will downloaded the PDF from opec.org (opec.org blocks this machine). WALTER extracted pages 54–55 verbatim (`AGENTS/WALTER/research/2026-11-11_boot/MOMR-NOV-2026-EXCERPT.md`, commit 8035b539e9, sha256 389aa7ae…). I read the excerpt; I did not read the PDF myself. ⚠️ The excerpt prints the Saudi direct-communication row with asterisks (7,122* · 7,988* · 9,203*) but **not the footnote text**. The production figures (October 10.563, August 6.238) are WALTER's reading of that footnote. They agree with Reuters' "pumped 10.563", but the footnote is not in the committed excerpt.
+**Source:** Will downloaded the PDF from opec.org (opec.org blocks this machine). WALTER extracted pages 54–55 verbatim (`AGENTS/WALTER/research/2026-11-11_boot/MOMR-NOV-2026-EXCERPT.md`, commit 8035b539e9, sha256 389aa7ae…). I read the excerpt; I did not read the PDF myself. Footnote verified at the excerpt 10:06 EST (WALTER 8986cb6de7, pdftotext lines 5546–5552), verbatim: "* Saudi Arabia's supply to the market was 7,122 tb/d in Aug 26, 7,988 tb/d in Sep 26, and 9,203 tb/d in Oct 26." and "* Saudi Arabia's production was 6,238 tb/d in Aug 26, 8,372 tb/d in Sep 26, and 10,563 tb/d in Oct 26." *(At 10:0x EST the committed excerpt lacked the footnote, and these figures were cited as WALTER's reading.)*
 
 | Saudi crude, kb/d | Aug | Sep | Oct | Oct/Sep |
 |---|---|---|---|---|
 | OPEC secondary sources (Table 5-7) | 7,257 | 8,012 | **9,194** | **+1,182** |
 | Saudi direct communication, supply to the market (Table 5-8 row) | 7,122 | 7,988 | **9,203** | +1,215 |
-| Saudi direct communication, production (footnote, via WALTER) | 6,238 | 8,372 | 10,563 | +2,191 |
+| Saudi direct communication, production (Table 5-8 footnote, verified at the excerpt) | 6,238 | 8,372 | 10,563 | +2,191 |
 | Production minus supply (own arithmetic) | **−0.884 (stock draw)** | **+0.384 (fill)** | **+1.360 (fill)** | |
 | EIA STEO COPR_SA (primary, 11/11) | 6,350 | 8,500 | 9,300 | +800 |
 | Bloomberg survey | | | 9,200 | +970 |
