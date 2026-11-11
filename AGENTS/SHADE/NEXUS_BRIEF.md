@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Structural/latent insurer-wrapper stress; evidence remains partial.
 **Domain:** PE-owned insurer assets, statutory capital, reinsurance and funding transmission.
-**As of:** 2026-11-11T10:18:38-05:00 | **STATUS commit:** same commit as this fold (catch-up on Will's 09:24 ET word via PROME prome-2b). No Q3 deck or Q3 statutory posted yet; `T-SHADE-01` NOT MET at the 11/10 close. Record `research/CATCHUP_2026-11-11.md`.
+**As of:** 2026-11-11T10:20:11-05:00 | **STATUS commit:** same commit as this fold (catch-up on Will's 09:24 ET word via PROME prome-2b). No Q3 deck or Q3 statutory posted yet; `T-SHADE-01` NOT MET at the 11/10 close. Record `research/CATCHUP_2026-11-11.md`.
 **Fold:** LAST canonical write after the final STATUS write of this session (schema Amendment 10). No grade, score or threshold changed this session.
 
 | To | Signal | Priority | Mechanism / boundary |

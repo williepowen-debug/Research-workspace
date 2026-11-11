@@ -8,6 +8,8 @@
 
 **Network note:** github.com DNS failed once at 10:12 ET then resolved; `git pull --rebase` not run because other desks' files are dirty/staged in the shared index (LIQUID renames, PROME SCRATCH). Committed my paths only.
 
+**Closeout 2026-11-11T10:20:11-05:00:** PROME prome-2b's closeout ask received; packet read and filed by PROME; D:L241 re-keyed to a dated 11/20 SVO-count row. Inbox and WALTER lane 0, corrections rc 0, no auto-memory written, no figure superseded (consumer check not needed), retirement scan not rerun (last 11/6, 5 days). Promotion scan: the rotation crc offset defect recurred a third time (+4 vs +5), caught by recompute; already a standing rule in STATUS §0 and MEMORY, no new lesson.
+
 **NEXT SESSION, in order:**
 1. **11/12 Q3 FI deck** (ir.athene.com/presentations): grade the canary (S3, penalty like-for-like and as printed), execute C2 at D:L184, grade SHD-01 (D:L1067).
 2. **`T-SHADE-01`** next eligible endpoint the 11/11 close; read LIQUID's 11/10 HY cell first (about 10:10 ET 11/12). Script `research/tshade01_close_snapshot.py --anchor 2026-09-24 --previous-end 2026-11-10`.
