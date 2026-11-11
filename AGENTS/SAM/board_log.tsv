@@ -321,3 +321,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-10T22:21:11+00:00	SIG-W-20261110-001	noted	INBOX_WALTER	Waller/CPI already read in the 11/10 pickup (PICKUP_READ.md); carry read unchanged
 2026-11-10T22:21:11+00:00	SIG-W-20261110-008	info-only	INBOX_WALTER	Petroline attack, operations unaffected per Saudi ministry; BRENT/FALCON own; no Japan crude-volume change stated
 2026-11-10T22:21:11+00:00	SIG-W-20261110-011	noted	INBOX_WALTER	Japan September household spending -6.8 percent YoY is an unverified relay (MIC release not read); not chased in this scoped pass
+2026-11-11T13:41:55+00:00	SIG-W-20261110-012	noted	INBOX_WALTER	Correction of card 010 relays SAM own 11/10 read (c3e000bc76); nothing new; COR-20261110-12 receipted NO-OP
