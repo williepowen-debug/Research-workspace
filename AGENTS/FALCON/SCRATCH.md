@@ -33,7 +33,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-11/11: SIG-W-20261110-008 acted, SIG-W-20261111-001 noted, both in processed. Inbox empty at closeout. PROME prome-2b consumed and filed my packet; GATES review_by now 2026-11-18.
+11/11: SIG-W-20261110-008 acted, SIG-W-20261111-001 noted, SIG-W-20261111-005 acted after closeout (KB-475, answered to WALTER by message), all in processed. Inbox empty at closeout. PROME prome-2b consumed and filed my packet; GATES review_by now 2026-11-18.
 
 ## PENDING PUSH / GIT
 Closeout 11/11 08:5x ET on PROME prome-2b's ask (WQ-249): all FALCON commits pushed via safe-push. Next session: git pull --rebase first.
