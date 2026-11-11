@@ -21,7 +21,7 @@ from server import make_server
 from store import HERE, identifier, reader
 
 ACCEPTANCE = "PROME/decisions/app-acceptance.json"
-BUILD_FILES = ("app.py", "desk.html", "queue_store.py", "delivery.py", "pilot_files.py", "store.py", "server.py", "owner_receipt.py", "options.py", "history.py", "briefs.py", "authorization.py", "notifications.py", "notification_hook.py")
+BUILD_FILES = ("author_card.py", "app.py", "desk.html", "queue_store.py", "delivery.py", "pilot_files.py", "store.py", "server.py", "owner_receipt.py", "options.py", "history.py", "briefs.py", "authorization.py", "notifications.py", "notification_hook.py")
 PILOT_SOURCE = "PROME/proposals/2026-10-30_wq558-l884-pilot-source.md"
 POWERSHELL = "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe"
 

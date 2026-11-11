@@ -10,7 +10,7 @@ import tempfile
 
 from pilot_files import Repo, chain, fields, read_receipts, strict_json
 from store import HERE, Store, digest, encoded, identifier, reader
-from options import source_for
+from options import source_for, terms_hash, pointer_for
 from authorization import needs_chat
 
 QUEUE = "PROME/WILL_QUEUE.md"
@@ -46,8 +46,8 @@ def open_rows(text):
 def unit_for(row, options=None):
     c = row["cells"]
     return {"id": c[0] + ".queue", "kind": "hands" if row["kind"] == "HANDS" else "decision",
-            "proposal": {"question": c[1], "context": c[6], "choices": options["choices"] if options else [],
-                         "recommendation": {"reason": c[5], "option_id": (options or {}).get("recommended_choice_id")}, "caveats": []},
+            "proposal": {"question": c[1], "context": options["context"] if options and options.get("binding") else c[6], "choices": options["choices"] if options else [],
+                         "recommendation": {"reason": c[5], "option_id": (options or {}).get("recommended_choice_id")}, "caveats": options["conditions"] if options and options.get("binding") else []},
             "timing": {"needed_by": row["due"], "meaning": c[3], "revisit_condition": None},
             "disposition": {"state": "outstanding" if row["kind"] == "HANDS" else "awaiting_answer"},
             "queue_kind": row["kind"], "blocked": row["blocked"]}
@@ -62,17 +62,19 @@ def validate_reply(repo, event, wq):
         raise ValueError("Queue response hash mismatch")
     d, r = event["display"], event["request"]
     expected = {"kind", "record", "source_path", "source_commit", "queue_row", "presentation_sha256"}
-    if d.get("kind") == "decisions-queue-display/2":
+    if d.get("kind") in {"decisions-queue-display/2", "decisions-queue-display/3"}:
         expected.add("options_source")
     fields(d, expected, "Queue snapshot")
     fields(r, {"id", "display_hash", "unit_id", "action", "choice_id", "note", "revisit", "supersedes"}, "Queue request")
-    if d["kind"] not in {"decisions-queue-display/1", "decisions-queue-display/2"} or d["source_path"] != QUEUE:
+    if d["kind"] not in {"decisions-queue-display/1", "decisions-queue-display/2", "decisions-queue-display/3"} or d["source_path"] != QUEUE:
         raise ValueError("Wrong queue source")
     repo.git("merge-base", "--is-ancestor", d["source_commit"], "origin/master")
     row = open_rows(repo.read(QUEUE, d["source_commit"])).get(wq)
-    options = source_for(repo, row, d["source_commit"]) if row and d["kind"].endswith("/2") else None
-    if d["kind"].endswith("/2") and (options is None or d["options_source"] != options):
+    options = source_for(repo, row, d["source_commit"]) if row and d["kind"] in {"decisions-queue-display/2", "decisions-queue-display/3"} else None
+    if d["kind"] in {"decisions-queue-display/2", "decisions-queue-display/3"} and (options is None or d["options_source"] != options):
         raise ValueError("Saved choices differ from published source")
+    if (d["kind"] == "decisions-queue-display/3") != bool(options and options.get("binding")):
+        raise ValueError("Saved binding version differs from published source")
     if row is None or row["row"] != d["queue_row"] or d["record"] != {"wq_id": wq, "units": [unit_for(row, options)]}:
         raise ValueError("Saved queue terms differ from published source")
     if row["blocked"] or r["unit_id"] != wq + ".queue" or r["id"] != event["id"] or r["display_hash"] != digest(d):
@@ -128,13 +130,19 @@ def current_source(repo, wq):
     head = open_rows(repo.read(QUEUE)).get(wq)
     if not published or not current or not head:
         raise ValueError("Published/current queue item unavailable or changed; sync after PROME finishes its update")
-    if not (published["row"] == current["row"] == head["row"]):
-        raise ValueError("Queue terms changed or are not yet published; refresh after PROME finishes")
     import hashlib
-    options = source_for(repo, current, commit, current=True)
-    result = {"kind": "decisions-queue-display/2" if options else "decisions-queue-display/1",
-              "record": {"wq_id": wq, "units": [unit_for(current, options)]},
-              "source_path": QUEUE, "source_commit": commit, "queue_row": current["row"],
+    options = source_for(repo, published, commit, current=True)
+    stable = bool(options and options.get("binding"))
+    if stable:
+        if any(terms_hash(row) != terms_hash(published) or pointer_for(row) != options["path"]
+               for row in (current, head)):
+            raise ValueError("Queue terms changed or are not yet published; refresh after PROME finishes")
+    elif not (published["row"] == current["row"] == head["row"]):
+        raise ValueError("Queue terms changed or are not yet published; refresh after PROME finishes")
+    # Snapshot only published wording, even when operational Notes are dirty.
+    result = {"kind": "decisions-queue-display/3" if stable else "decisions-queue-display/2" if options else "decisions-queue-display/1",
+              "record": {"wq_id": wq, "units": [unit_for(published, options)]},
+              "source_path": QUEUE, "source_commit": commit, "queue_row": published["row"],
               "presentation_sha256": hashlib.sha256((HERE / "desk.html").read_bytes()).hexdigest()}
     if options:
         result["options_source"] = options
@@ -143,7 +151,10 @@ def current_source(repo, wq):
 
 def check_current_snapshot(repo, snapshot):
     d = current_source(repo, snapshot["record"]["wq_id"])
-    if any(snapshot[k] != d[k] for k in ("record", "queue_row", "presentation_sha256")):
+    keys = ("kind", "record", "presentation_sha256")
+    if snapshot["kind"] != "decisions-queue-display/3":
+        keys += ("queue_row",)
+    if any(snapshot[k] != d[k] for k in keys):
         raise ValueError("Terms changed since this answer was saved; review and save again")
     for key in ("path", "text", "choices"):
         if (snapshot.get("options_source") or {}).get(key) != (d.get("options_source") or {}).get(key):
