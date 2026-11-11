@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "recorded_at": "2026-11-09T18:02:21.067299+00:00",
+  "recorded_at": "2026-11-11T14:30:37.834639+00:00",
   "products": {
     "AGENTS/HAWK/domain/energy-strikes/CROSS_WAR_SUMMARY.md": {
-      "sha256": "4351e8abc2a81928588a45138d9cf06a92a8192fb485b19f156debc0be0c7f48",
+      "sha256": "25833fb9a42337ddbf12b8e36c851e217831140455b504fc622a7228c17ced27",
       "inputs": {
         "AGENTS/OSPREY/domain/energy-strikes/STRIKES.tsv": "ed2979201f14a64a466a165926f16c984aae57d5f9f2db645f2d7d8bf497dc42",
-        "AGENTS/FALCON/domain/energy-strikes/STRIKES.tsv": "09b90c510ddb380d6706f1670bc35caf1e572602a6f4415064e0a5ba429fba85",
+        "AGENTS/FALCON/domain/energy-strikes/STRIKES.tsv": "7d4f7a26d94d097beb3493056cad99542059377d9a3ed1859461652bf492b610",
         "AGENTS/OSPREY/research/2026-09-16_cross-war-oil/REPORT.md": "8a64ef06d1983df3b2a8562ec25d5b34216cf53bbb59d775324723547eaa1fd9",
         "AGENTS/FALCON/reports/2026-09-16_cross-war-oil-review.md": "2c461cbb97aaef8bf2a5b98ea859f111ecfed0a49cf222566dd53b250a377480",
-        "AGENTS/FALCON/domain/vessel-incidents/VESSELS.tsv": "a59064a503cce7662ea7f0c3672ccb2d87466c5a340d97c33fd21487eb697cb9",
+        "AGENTS/FALCON/domain/vessel-incidents/VESSELS.tsv": "41fd94439e05107f89befdd50f619b4e6106654a1fb7d0f63e98ef0c191b0b63",
         "AGENTS/OSPREY/NEXUS_BRIEF.md": "2683a30ee5f2747415f380bd1e05c483ffb62a5fd021e2b5954218692090669d",
-        "AGENTS/FALCON/NEXUS_BRIEF.md": "068fb38d589a07bc6cafad0c76d59abe04741d85d58149603baa387948c3a3d2"
+        "AGENTS/FALCON/NEXUS_BRIEF.md": "bae2c0dbbaf29b4ef36668bcebc55a51bf5298244b886c41e7a939eed9324872"
       }
     },
     "AGENTS/HAWK/domain/war-risk/CROSS_THEATER_WAR_RISK.md": {
-      "sha256": "175610139e90c0a0dcfa27a87d0d785a2dba39deec14eb08b4bb47cc8e3c7277",
+      "sha256": "6b0f114837b42f096f50bf77d5ea319877a7eeba6044e64c541fbddc141c9915",
       "inputs": {
         "AGENTS/OSPREY/workbook/WARRISK.tsv": "399952e598b26fe11f76bda7fee438f5034e0878ae96300b1de91741d62f959c",
         "AGENTS/FALCON/workbook/WARRISK.tsv": "5f1e02ba802f93b180f0fb17a86f372ba767f1ef2531b3a5fa031a4f40ad3ba0",
         "AGENTS/OSPREY/NEXUS_BRIEF.md": "2683a30ee5f2747415f380bd1e05c483ffb62a5fd021e2b5954218692090669d",
-        "AGENTS/FALCON/NEXUS_BRIEF.md": "068fb38d589a07bc6cafad0c76d59abe04741d85d58149603baa387948c3a3d2"
+        "AGENTS/FALCON/NEXUS_BRIEF.md": "bae2c0dbbaf29b4ef36668bcebc55a51bf5298244b886c41e7a939eed9324872"
       }
     }
   }

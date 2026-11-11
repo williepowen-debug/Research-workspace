@@ -1,6 +1,6 @@
 # HAWK STATUS
 
-**Updated:** November 9, 2026, 19:37 ET (from `date`), **closeout on PROME's WQ-249 ask (desktop → laptop)**; card 010 applied 13:00 ET; catch-up on Will's word via PROME 10:46 ET; prior stamp November 6, 18:36 ET closeout. Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Root/local instructions explicitly read. No trade book. **No mark, band, score or letter moved; no registered letter required one.**
+**Updated:** November 11, 2026, 09:30 ET (from `date`; session start 09:25), **catch-up on Will's word via PROME prome-2b (09:24 ET)**; prior: November 9, 19:37 ET closeout on PROME's WQ-249 ask; card 010 applied 13:00 ET; catch-up on Will's word via PROME 10:46 ET; prior stamp November 6, 18:36 ET closeout. Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Root/local instructions explicitly read. No trade book. **No mark, band, score or letter moved; no registered letter required one.**
 
 ## Decisions and thresholds (top)
 
@@ -14,7 +14,25 @@
 | **YUR-004 consumer read** | Null: no HAWK band moved (KB-487). L432 RESOLVED by PROME. No public declaration found is not no decision. ⛔ Do not score this as near-term armed-conflict risk. |
 | **WQ-622** | Six themes set up, charter line added, KB-495..500. Logging is not scoring. |
 
-## Catch-up, November 9 (Will via PROME 10:46 ET; KB-514..521) — supersedes the 11/6 Qeshm block
+## Catch-up, November 11 (Will via PROME prome-2b 09:24 ET; KB-525..529) — current read
+
+**What changed in my read:** the Gulf supply side is recovering, not shrinking. Saudi crude rose about 1 mb/d in October on independent series while November's hits (Petroline, Riyadh office, deep-Gulf hulls) stated no lost barrel. That **strengthens the decoupling read on its supply leg** and leaves the willingness leg untested. No mark, band, score, letter or gate moved.
+
+| Item | Read 11/11 | Limit |
+|---|---|---|
+| Saudi October output (BRENT) | Self-report 10.563 mb/d (Sept 8.372); **independent EIA STEO 9.3, Bloomberg survey 9.2**; STEO 2.5 mb/d Middle East shut-in not overtaken (about 1.2 if the self-report held) (KB-525) | OPEC secondary-source figure UNREAD (403); production is not exports; **October predates the November hits** |
+| Petroline 11/9 (FALCON) | Hit, Madinah region, small fire, **operations not affected** (MoE source); attribution NOT ESTABLISHED; rung NOT FIRED (route); BG-02 R1 NOT MET (BRENT) (KB-526) | SPA text unread by anyone |
+| Hulls 11/10 (FALCON) | Limah projectile; **ADNOC L&S vessel damaged inside UAE waters** (operator); a further UKMTO report; unnamed, possible duplicates; census 7; 199-26 = NAVIG8 MACALLISTER | No loss; no mine named |
+| Marks | FALCON B 1 / C 14 / D 85 held, GATE-FALCON-001 leg 2 NOT MET 94.9%; OSPREY 5 / 5 / 3 as of 11/9 (dark since 11/9 noon) | Russia side not refreshed by its owner |
+| Price (BRENT's) | Brent Jan settled 92.57 on 11/9, low 89.15 on 11/10 [EST wire, vendor]; Dated 107.03 on 11/3, no newer | HAWK pulled no price |
+| **FLOW-19 verdict** | **Strengthens, narrowly** (KB-527): branch (a) further from binding; branch (c) UNMEASURED, no hull quote newer than about 10/6; **K1 now harder to read**: a real supply rise is a competing explanation for falling futures | A reading, not a test; mixed vintage |
+| Correction | COR-20261111-06 APPLIED: the 11/8 missile went toward the Eastern Province; Abqaiq had an alert lifted, no intercept there | KB-515 already read so; SCRATCH fixed |
+| Trade | China 11/27 clock (46号 clause 2) also covers **graphite**; ZHA-19/20 YES at primaries; MoT notice No. 90 read at source (KB-528) | TRADE01 ORANGE held; separate from the January cluster |
+| Coverage | No PRC-named Taiwan exercise, Article 4 request, Majlis floor vote, CIT opinion, November hull quote, post-11/9 Russian refinery strike or Abu Dhabi outcome found (KB-529) | Coverage, not negatives; index thin |
+
+**What would falsify the decoupling read next:** (1) a Saudi ministry, Aramco or SPA statement of damage with capacity offline at a production or processing site (Abqaiq class) and crude repricing on supply: K2's conjunction, FALCON's D 85→92 rung, FAL-08; the Houthi target list already names Abqaiq. (2) A Petroline throughput cut stated while Hormuz sits at its floor: the bypass that carries the recovery fails, denial not rerouting (§3; BRENT's R1). (3) Saudi November output falling back in the December STEO and OPEC report (about 12/8–12/11, dates unverified), or the IEA report. (4) A dated Gulf hull quote stepping up after the 11/10 UAE-waters hit with no price response — K1, but only readable if the supply explanation is separated. Strengthener to watch: OPEC's secondary-source Saudi figure at 10 or above (BRENT re-grades).
+
+## Catch-up, November 9 (Will via PROME 10:46 ET; KB-514..521) — superseded by the 11/11 block where they differ
 
 Closed out 19:37 ET; this block is the current read. Nothing moved a mark, band, score or letter. Next work is SCRATCH § NEXT SESSION, on the laptop.
 
@@ -80,4 +98,4 @@ Marks unchanged: VEN GREEN; TWN/TWNMIL/IRAQ/FININFRA YELLOW; TRADE01/TRADE02/COD
 
 ## BOTTOM LINE
 
-Oil fell about 4% more on Monday morning, Brent near $94 on BRENT's intraday figures, on an unconfirmed report that Iran accepted Qatar's interim terms and on Trump calling renewed strikes "highly unlikely" if a strong deal is signed. Both wars kept pressing over the weekend: a Houthi hit on an Aramco office in Riyadh, tanker fires off Khasab, and a fire at Kirishi. Neither war has a measured lost barrel of crude, so the price is moving on diplomacy reports, not supply. The single most important watch is whether the deal report is confirmed or denied by either government; Rubio calls Iran's demands "outrageous and ridiculous" and says no breakthrough is near, and the market still prices a further limited US strike. What changed since 11/6: FALCON now grades Qeshm a US strike (high attribution, not explicit), and Taiwan reports 100+ Chinese navy and coast-guard ships at sea in a possible unannounced isolation exercise, which moves no band because nothing was declared and shipping is untouched.
+Saudi Arabia pumped about 1 mb/d more crude in October on independent counts (EIA 9.3, survey 9.2; its own report to OPEC says 10.56), and none of November's attacks, the pipeline hit near Madinah, the Riyadh office tower or the tanker hits including one inside UAE waters, stated a lost barrel. So the combined read is that the wars are not removing crude: the decoupling of attacks from supply holds and is firmer on supply, while whether insurers and owners are pulling back is unmeasured because no hull quote exists after early October. The single most important watch is a Saudi statement of capacity offline at a production site like Abqaiq, which the Houthis already claim to target; that would bring damage back as the binding constraint. What changed since 11/9: the Saudi recovery figure, the Petroline hit with no effect, and the caveat that October output predates November's hits, so the next agency prints in December are the real test.
