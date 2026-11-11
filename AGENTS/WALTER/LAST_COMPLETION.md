@@ -1,8 +1,10 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-11T15:04:22Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-1e on the desktop. **Tier 2 FULL closeout on Will's 10:01 ET word ("lets close WALTER here so we can reboot with a fresh context window").** Launch: Will, 08:37 ET. Cards SIG-W-20261111-001 to -015 (014 and 015 after the closeout, on PROME's relay, receipt updated). Prior: FULL 2026-11-11T00:34:56Z (walter-96). Before-image of this file: git history (375cbaeebb).
+Updated 2026-11-11T15:04:22Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-1e on the desktop. **Tier 2 FULL closeout on Will's 10:01 ET word ("lets close WALTER here so we can reboot with a fresh context window").** Launch: Will, 08:37 ET. Cards SIG-W-20261111-001 to -015 (014 and 015 after the closeout, on PROME's relay, receipt updated). Prior: FULL 2026-11-11T00:34:56Z (walter-96). Before-image of this file: git history (375cbaeebb). **Reboot after /clear, 2026-11-11T15:40:08Z: Tier 1 light (full deferred); cards 016 to 019, see the light block below RESUME.**
 
 ## RESUME — do these first
+
+0. **Reboot block (2026-11-11T15:40:08Z, light):** cards 016 (IMMEDIATE, MARCO ENR-02 airline fares +23.27% 2-yr; ACTION CARL, REGINALD), 017 (DEWEY Citi 18.59% to 19.08%; ACTION CARL, TERRY — TERRY answered NO CARD unchanged, cdc5c510e8), 018 (DEWEY 003R PARTIAL six-bank Q3; ACTION REGINALD, TERRY; ledger row stays PARTIAL with this delivery), 019 (Anthropic reportedly not extending SpaceX compute past mid-2027, INDETERMINATE; ACTION VULCAN). CARL, REGINALD and VULCAN had no live session at 15:40Z (UNKNOWN, not DARK; each drained this morning); PROME decides wakes. BRENT asked by message (brent-e0) for the driver of oil +3% intraday (BZF27 94.43, 15:33Z vendor); BRENT replied: no driver found, no Iran, Hormuz or tanker item on 11/11; hypothesis only that the bearish 'Saudi output +26%' headline unwound once read at the table, or a bounce after −7.8% in two sessions; relayed 11/10 BZF27 settle about 91.49 (relay only); BRENT NOTE §9 0b805a08c2. No card. Boot not done: step 9 LIAISON/outbox, 9a corrections check.
 
 1. **Owner answers still open on today's cards:** TERRY's USO tradeability read on 001/013 (should use Saudi supply about 9.2 mb/d, not 10.563); LIQUID on 007 (Skydance secured stack, any rating action), launched 10:1x ET; CORAL on 008 (Valkaria 24.69 in; is Brevard in the emergency order?). BRENT answered 013 (0d04288380: graded on 9.194 secondary sources; STEO 2.5 mb/d shut-in CONFIRMED on the level; the 1.36 mb/d produced-not-supplied, about 42M bbl if stored, contests BRENT's "January increment is paper" read before 11/29). VULCAN answered 002 and 003 (72a112145d). FALCON answered 005 (11abbdc7be; routed as 012).
 2. **RED grades RED-29 and the RED-FT-06 exit after 10:30 ET 11/12** (VIXCLS 18 or more on 11/6, 11/9, 11/10, 11/11; Nov 10 close 19.46 per VIOLET; ^VIX 18.35 pre-open 11/11). Watch only; RED owns.
@@ -14,7 +16,7 @@ Updated 2026-11-11T15:04:22Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 8. **WQ-622 combination watch:** WALTER has not set it up; offer stands, Will has not answered.
 9. **X bookmarks:** working on the desktop all session without re-authorization (13 items, last head check 14:31:56Z). Two bookmark posts not opened: the gold chart (no media URL kept) and @OddStats "683.65" (t.co link). Laptop WilliePOwen token state unknown since November 9.
 
-Calendar coverage cutoff: 2026-11-11T13:46:57Z (step 7i at this boot; rows in research/2026-11-11_boot/CALENDAR-RECONCILIATION.tsv: STEO, CoreWeave, TSMC and SoftBank's Tokyo session owner-completed; Siemens Energy and the OPEC MOMR published and routed (002, 001/013); MSCI list, Tricolor 341, FERT DTN not yet elapsed or UNKNOWN). The next boot enumerates from this cutoff. Previous cutoff 2026-11-10T16:44Z.
+Calendar coverage cutoff: 2026-11-11T15:40:08Z (reboot 7i: window from 13:46:57Z, no release published; Tricolor 341 at 16:00Z not yet elapsed; research/2026-11-11_reboot/CALENDAR-RECONCILIATION.tsv). Prior cutoff 2026-11-11T13:46:57Z (step 7i at the 08:37 ET boot; rows in research/2026-11-11_boot/CALENDAR-RECONCILIATION.tsv: STEO, CoreWeave, TSMC and SoftBank's Tokyo session owner-completed; Siemens Energy and the OPEC MOMR published and routed (002, 001/013); MSCI list, Tricolor 341, FERT DTN not yet elapsed or UNKNOWN). The next boot enumerates from this cutoff. Previous cutoff 2026-11-10T16:44Z.
 
 ## STATUS
 
@@ -89,7 +91,7 @@ Tier 2 FULL closeout, walter-1e, before a fresh-context reboot. Prior: FULL 2026
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-11T15:23:59Z",
+  "as_of": "2026-11-11T15:40:08Z",
   "next_review": "2026-11-12",
   "publication": [
     {
@@ -151,13 +153,18 @@ Tier 2 FULL closeout, walter-1e, before a fresh-context reboot. Prior: FULL 2026
       "commit": "8c9cb9d1e4e79ecd073d2d4cf7b5fd562e2a9538",
       "state": "published",
       "note": "Post-closeout addendum on PROME's 10:2x ET relay: card 014 CORRECTION of 004 (SEC $1.1B is total relief, penalties $343M; R1 COR-20261111-14, banner) and card 015 (ZHAO, China not a forced Treasury seller); safe-push CONFIRMED; delivery reconciled at 5e60d674e7"
+    },
+    {
+      "commit": "44cab8abbf986143dcff41a20fc46527b3365b8f",
+      "state": "published",
+      "note": "Reboot cards 016 to 019, handoffs, logs, index, batch BM-20261111-03, bookmark mark, reboot scan and calendar evidence; safe-push CONFIRMED; delivery reconciled at 3a55108b7d"
     }
   ],
   "delivery": {
     "signal_date": "20261111",
-    "total": 80,
-    "delivered": 80,
-    "note": "All 80 handoff rows for cards 001 to 015 delivered on origin (reconcile_delivery_log --apply after each push); recipient use separate. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
+    "total": 88,
+    "delivered": 88,
+    "note": "All 88 handoff rows for cards 001 to 019 delivered on origin (reconcile after each push; 016 to 019 at 3a55108b7d); recipient use separate. DEWEY wrote its own copies for 017 and 018. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -177,6 +184,10 @@ Tier 2 FULL closeout, walter-1e, before a fresh-context reboot. Prior: FULL 2026
       {
         "path": "AGENTS/WALTER/research/2026-11-11_boot/x_bookmarks_review.json",
         "sha256": "d3f7aef8ba20853f0c6611f7d10d15edb4b237218df694edb4148608890794e0"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-11_reboot/THRESHOLD-SCAN.md",
+        "sha256": "d6c8d6f87f92fe8c62c0f2e4ebe792e7f9e271a35b18190fc694c74548281a92"
       }
     ]
   },
@@ -186,8 +197,8 @@ Tier 2 FULL closeout, walter-1e, before a fresh-context reboot. Prior: FULL 2026
     "session": "walter-1e interactive on the desktop; closing on Will's 10:01 ET word for a fresh-context reboot; no timer or helper."
   },
   "manual_duties": {
-    "11": "Cards 001 to 015 published, index regenerated, route_log and delivery_log rows per (signal, recipient); three corrections (006, 013, 014) with R1 rows, banners and INDEX markers in the same commit; five missing banners on older corrected cards added.",
-    "13": "REGISTRY: 19 rows mirrored at 2026-11-11T15:02:04Z (BRENT STATUS uncommitted at read), WALTER row by hand; Status column not re-graded.",
+    "11": "Cards 001 to 015 published, index regenerated, route_log and delivery_log rows per (signal, recipient); three corrections (006, 013, 014) with R1 rows, banners and INDEX markers in the same commit; five missing banners on older corrected cards added. Reboot: cards 016 to 019 (BM-20261111-03 4/4), route_log and delivery rows, index regenerated.",
+    "13": "REGISTRY: 19 rows mirrored at 2026-11-11T15:02:04Z (BRENT STATUS uncommitted at read), WALTER row by hand; Status column not re-graded. Reboot 2026-11-11T15:40:08Z: 9 rows (BROCK, ZHAO, HANS, MARCO, SHADE, CRUISE, OZK, FLG, GIBBS).",
     "12": "STATUS Updated line, BOTTOM LINE re-cut, November 11 observation row, NETWORK regenerated from REGISTRY and ListAgents 15:02Z, FILTER POSTURE BALANCED unchanged, cluster_mediating today 0; old Updated, BOTTOM LINE and NETWORK paragraphs rotated verbatim to SESSION_LOG; read-cap STATUS 62%.",
     "14": "MEMORY #43, #52, #65 extended n+1; session note replaced (November 10 note's facts carried); 23,432 B, under the 24,412 B trigger. No auto-memory written.",
     "15": "This file rewritten; before-image in git history (375cbaeebb).",
