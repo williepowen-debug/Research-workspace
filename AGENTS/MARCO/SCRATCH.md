@@ -15,15 +15,20 @@
 | Amendment 3 | One figure **61.98%** with CORAL; re-carried on STATUS, THESIS, VX 3.03, docket, FIGURES; receipt packet to CORAL. `KB-FLI-08` |
 | Week checks | Slaughter w/e 11/07 cattle −6.15%; OFLC Q3 still newest; no H-2A replacement rule found; CA enforcement reported continuing (secondary). `KB-WFD-28` |
 | Inbox | Drained: CORAL 11/06, SIG-W-20261110-007 → processed |
+| FL voter-reg | Oct new +102.6% YoY appended; relabelled ELECTION-CYCLE CONFOUNDED (midterm deadline month; tool's default 'no inflow-collapse' label overwritten) |
 | STATUS | Rotated to 70% of budget → `domain/sources/_archive/STATUS_rotated_s40_20261111.md` |
 
 ## NEXT SESSION
 11/12 H-2A court checkpoint · 11/13 StatCan October (`ID-01` leg 2) · ~11/15 OFLC Q4 (MAR-11), NTTO Oct, BTS Aug · 11/16 FL Realtors Oct · 11/17 Amendment 3 certified · 11/19 CA second check (needs output or cost, not arrests) · 11/20 state BLS · ~11/21 MIA October traffic report (404 on 11/11) · ~11/30 LVCVA Oct (MAR-30, D:L988) · ~12/1 Banxico Oct (MAR-28, D:L986) · 12/4 Nov CPS (MAR-29, D:L987).
 
 ## OPEN THREADS
+- `tools/fl_migration_proxies.py --append` writes 'no inflow-collapse signal' on voter rows; the ledger convention is ELECTION-CYCLE CONFOUNDED. Overwrite by hand each append until the label is fixed in the tool.
 - FL proxy tool flags FLDOE overdue: the 2026-27 survey publishes ~Dec–Jan, so the flag is cadence, not a missed print.
 - `baselines/mia_airport_reported.tsv` duplicate 2026-07/08 rows (pre-existing). Not touched.
 - Amendment 3 implementing law, special session, court challenge: unread.
 
 ## MAIL
 Inbox empty. Sent: WALTER (ENR-02 signal), TERRY (tradeability), CORAL (one figure), PROME (catch-up packet).
+
+## CLOSEOUT (2026-11-11, on PROME prome-2b's ask)
+Orphan check: nothing of MARCO's (LIQUID's staged files flagged [not yours], not touched). Claim check clean. Ledger nudge answered (voter Oct appended). No auto-memory written; local MEMORY gained the BLS-route line. Consumer check: 62.01→61.98 re-carried on MARCO's live surfaces; no other desk carries it. Skipped: the Oct-2022 matched voter comparison (not computed).
