@@ -1,0 +1,38 @@
+[
+  {
+    "rssd": 2652092,
+    "period": "6-30-2026",
+    "source": "FFIEC RetrieveFacsimile SDF; same live pull saved by preceding November 11 pass",
+    "sha256": "98e79c511454f585d36d414b17d510a0ed2fe72d378a7e0585d097411bd25fee",
+    "rows": [
+      "20260630;2652092;RCON1403;136915;20260902;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260630;2652092;RCON1407;0;20260902;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260630;2652092;RCON2122;6672098;20260902;Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260630;2652092;RCON3123;121141;20260902;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260630;2652092;RCON5369;49663;20260902;Loans and leases held for sale;RC;4a",
+      "20260630;2652092;RCONC226;0;20260902;Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above);RCN;M5",
+      "20260630;2652092;RCONC240;0;20260902;Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above);RCN;M5",
+      "20260630;2652092;RCONC241;0;20260902;Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above);RCN;M5",
+      "20260630;2652092;RCONS423;25656;20260902;Exposures past due 90 days or more or on nonaccrual;RCRII;4c",
+      "20260630;2652092;RCONS449;111124;20260902;Exposures past due 90 days or more or on nonaccrual;RCRII;5c"
+    ]
+  },
+  {
+    "rssd": 2652092,
+    "period": "9-30-2026",
+    "source": "FFIEC RetrieveFacsimile SDF; same live pull saved by preceding November 11 pass",
+    "sha256": "bf231a8ac4f1fca924799a0c29aebd8d2b3dcdcce745d970def6610a393cb43e",
+    "rows": [
+      "20260930;2652092;RCON1403;179722;20261029;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260930;2652092;RCON1407;0;20261029;Total loans and leases (sum of items 1 through 8);RCN;9",
+      "20260930;2652092;RCON2122;6576888;20261029;Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b);RCCI;12",
+      "20260930;2652092;RCON3123;120781;20261029;LESS: Allowance for credit losses on loans and leases;RCRII;6",
+      "20260930;2652092;RCON5369;13534;20261029;Loans and leases held for sale;RC;4a",
+      "20260930;2652092;RCONC226;0;20261029;Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above);RCN;M5",
+      "20260930;2652092;RCONC240;0;20261029;Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above);RCN;M5",
+      "20260930;2652092;RCONC241;0;20261029;Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above);RCN;M5",
+      "20260930;2652092;RCONS423;13534;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;4c",
+      "20260930;2652092;RCONS449;166021;20261029;Exposures past due 90 days or more or on nonaccrual;RCRII;5c"
+    ]
+  }
+]

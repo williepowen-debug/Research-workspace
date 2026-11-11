@@ -1,5 +1,7 @@
 # Q3 reserve-coverage rerun: six banks verified; full-band work remains open
 
+> **Same-day continuation:** `output/2026-11-11_003R-historical-placement-and-bridge.md` delivers the historical-placement leg and narrows the EagleBank arithmetic with exact RC-R cells. RC-N/RC-R definitions differ and the HFS nonaccrual memo is zero; exact reconciliation remains unproved. Full-population Q3 work remains open. The earlier rounded bridge below is not an exact reconciliation.
+
 **Date:** 2026-11-11 | **Mode:** Thesis | **Request:** REQ-DEWEY-20261022-003R | **State:** PARTIAL | **Confidence:** High on retrieved Call Report totals; Medium on the company/bank reconciliation; no updated full-universe result.
 
 ## Key finding

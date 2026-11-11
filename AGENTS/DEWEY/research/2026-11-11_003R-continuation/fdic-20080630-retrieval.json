@@ -1,0 +1,5 @@
+{
+  "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20080630+AND+ASSET%3A%5B1000000+TO+%2A%5D&fields=CERT%2CNAME%2CREPDTE%2CBKCLASS%2CASSET%2CLNATRES%2CNCLNLS%2CNALNLS%2CP9LNLS%2CLNLSGR&limit=10000&sort_by=CERT&sort_order=ASC",
+  "sha256": "29a9abfc1e7a6bd3b3ea98a7d7d805532dddd3abe4505a1e287fb5d73c6216b6",
+  "retrieved_at": "2026-11-11T15:52:00.918386+00:00"
+}

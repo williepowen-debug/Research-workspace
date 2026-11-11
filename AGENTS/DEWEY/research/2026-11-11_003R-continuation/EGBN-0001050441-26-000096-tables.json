@@ -1,0 +1,31 @@
+{
+  "url": "https://www.sec.gov/Archives/edgar/data/1050441/000105044126000096/egbn-20260630.htm",
+  "sha256": "36008b1b77588fefcd126507c1d8bef58dda181f0973409099d0eae6784dab8e",
+  "retrieved_at": "2026-11-11T15:51:53.349191+00:00",
+  "tables": [
+    {
+      "index": 72,
+      "text": "As of June 30, 2026 December\u00a031, 2025 (dollars in thousands) Nonaccrual with No Allowance for Credit Loss Nonaccrual with an Allowance for Credit Losses Total Nonaccrual Loans Nonaccrual with No Allowance for Credit Loss Nonaccrual with an Allowance for Credit Losses Total Nonaccrual Loans Commercial $ 3,120 $ 21,648 $ 24,768 $ 3,397 $ 14,702 $ 18,099 Income producing - commercial real estate 30,872 44,250 75,122 38,275 24,262 62,537 Owner occupied - commercial real estate 5,093 \u2014 5,093 3,199 4,738 7,937 Real estate mortgage - residential 552 \u2014 552 579 \u2014 579 Construction- commercial and residential 4,262 690 4,952 2,074 15,320 17,394 Home equity 450 187 637 333 18 351 Total (1) $ 44,349 $ 66,775 $ 111,124 $ 47,857 $ 59,040 $ 106,897"
+    },
+    {
+      "index": 75,
+      "text": "As of June\u00a030, 2026 (dollars in thousands) Loans 30-59\u00a0Days Past\u00a0Due Loans 60-89\u00a0Days Past\u00a0Due Loans 90\u00a0Days\u00a0or More\u00a0Past Due Total\u00a0Past Due\u00a0Loans Current Loans Nonaccrual Loans Total\u00a0Recorded Investment\u00a0in Loans Commercial $ 1,062 $ 145 $ \u2014 $ 1,207 $ 1,514,791 $ 24,768 $ 1,540,766 Income producing - commercial real estate 42,704 \u2014 \u2014 42,704 2,611,557 75,122 2,729,383 Owner occupied - commercial real estate 176 \u2014 \u2014 176 1,655,479 5,093 1,660,748 Real estate mortgage \u2013 residential \u2014 \u2014 \u2014 \u2014 34,983 552 35,535 Construction - commercial and residential \u2014 \u2014 \u2014 \u2014 518,169 4,952 523,121 Construction - C&I (owner occupied) \u2014 \u2014 \u2014 \u2014 88,458 \u2014 88,458 Home equity \u2014 \u2014 \u2014 \u2014 42,842 637 43,479 Other consumer \u2014 \u2014 \u2014 \u2014 945 \u2014 945 Total $ 43,942 $ 145 $ \u2014 $ 44,087 $ 6,467,224 $ 111,124 $ 6,622,435 As of December\u00a031, 2025 (dollars in thousands) Loans 30-59\u00a0Days Past\u00a0Due Loans 60-89\u00a0Days Past\u00a0Due Loans 90\u00a0Days\u00a0or More\u00a0Past Due Total\u00a0Past Due\u00a0Loans Current Loans Nonaccrual Loans Total\u00a0Recorded Investment\u00a0in Loans Commercial $ 2,942 $ 44 $ \u2014 $ 2,986 $ 1,317,401 $ 18,099 $ 1,338,486 Income producing - commercial real estate 2,688 \u2014 \u2014 2,688 3,285,493 62,537 3,350,718 Owner occupied - commercial real estate 167 12,573 \u2014 12,740 1,581,447 7,937 1,602,124 Real estate mortgage \u2013 residential 4,544 \u2014 \u2014 4,544 31,977 579 37,100 Construction - commercial and residential 26,942 \u2014 \u2014 26,942 751,064 17,394 795,400 Construction - C&I (owner occupied) \u2014 \u2014 \u2014 \u2014 108,468 \u2014 108,468 Home equity \u2014 39 \u2014 39 47,058 351 47,448 Other consumer \u2014 \u2014 \u2014 \u2014 715 \u2014 715 Total $ 37,283 $ 12,656 $ \u2014 $ 49,939 $ 7,123,623 $ 106,897 $ 7,280,459"
+    },
+    {
+      "index": 81,
+      "text": "Payment Status (Amortized Cost Basis) (dollars in thousands) Current 30-89 Days Past Due 90 Days or More Past Due Nonaccrual June\u00a030, 2026 Commercial $ 12,461 $ \u2014 $ \u2014 $ 5,245 Income producing - commercial real estate 86,776 3,510 \u2014 20,526 Owner occupied - commercial real estate 1,547 \u2014 \u2014 \u2014 Real estate mortgage - residential 4,508 \u2014 \u2014 \u2014 Construction - commercial and residential 10,639 \u2014 \u2014 1,087 Total $ 115,931 $ 3,510 $ \u2014 $ 26,858 June\u00a030, 2025 Commercial $ 43,093 $ \u2014 $ \u2014 $ 518 Income producing - commercial real estate 120,646 5,656 \u2014 63,413 Owner occupied - commercial real estate 12,711 \u2014 \u2014 \u2014 Real estate mortgage - residential \u2014 \u2014 \u2014 5,736 Construction - commercial and residential 18,083 \u2014 \u2014 9,831 Total $ 194,533 $ 5,656 $ \u2014 $ 79,498"
+    },
+    {
+      "index": 191,
+      "text": "Table of Contents Management's Discussion and Analysis | Balance Sheet Analysis | Nonperforming Assets"
+    },
+    {
+      "index": 193,
+      "text": "Table of Contents Management's Discussion and Analysis | Balance Sheet Analysis | Nonperforming Assets"
+    },
+    {
+      "index": 194,
+      "text": "As of (dollars in thousands) June 30, 2026 December 31, 2025 Nonaccrual Loans: Commercial $ 24,768 $ 18,099 Income producing - commercial real estate 75,122 62,537 Owner occupied - commercial real estate 5,093 7,937 Real estate mortgage - residential 552 579 Construction - commercial and residential 4,952 17,394 Home equity 637 351 Total nonperforming loans (1) 111,124 106,897 Other real estate owned 1,966 2,059 Total nonperforming assets $ 113,090 $ 108,956 Coverage ratio: allowance for credit losses to total nonperforming loans 109 % 149 % Ratio of nonperforming loans to total loans 1.68 % 1.47 % Ratio of nonperforming assets to total assets 1.17 % 1.04 %"
+    }
+  ]
+}

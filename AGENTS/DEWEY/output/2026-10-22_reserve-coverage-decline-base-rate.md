@@ -159,6 +159,8 @@ The raw energy correlation is the NPL change in disguise. Losses were too small 
 
 ### Table 4: Today's banks against the historical range
 
+> **Placement correction, November 11:** the archived counts 623 / 661 / 1,023 include missing-allowance branches. Valid ratios are 622 / 659 / 1,016. The corrected Q2 comparison and Q3 placement are in `output/2026-11-11_003R-historical-placement-and-bridge.md`; use that continuation for current citation. Original table below is retained as the October calculation. No episode/regression results are revised here.
+
 **4a. Six banks named in REGINALD's flag.** Company-reported figures and call-report figures sit in **separate columns** and are not like-for-like. They differ in period (Q3 vs Q2) and probably in definition. Percentile = share of ≥$1B banks with lower call-report coverage at that date. Banks are listed in REGINALD's order, not ranked.
 
 | Bank (FDIC CERT) | Company-reported coverage, 2Q26 → 3Q26 (company basis; not recomputed by DEWEY) | Call-report coverage 2026-06-30 (LNATRES ÷ NCLNLS) | Call-report NPL 2026Q2 | Pctl vs 2006Q4 | Pctl vs 2008Q2 | Pctl vs 2026Q2 | Call-report coverage path 2024Q2 → 2026Q2 | Definition note |
@@ -178,9 +180,9 @@ The comparison cross-sections, for banks ≥$1B with loans ≥10% of assets:
 
 | Date | n | Median coverage | p25–p75 coverage | Median NPL |
 |---|---|---|---|---|
-| 2006Q4 | 623 | 227.9% | 120.0–463.9% | 0.48% |
-| 2008Q2 | 661 | 96.6% | 56.1–190.5% | 1.23% |
-| 2026Q2 | 1,023 | 196.4% | 104.8–396.2% | 0.57% |
+| 2006Q4 | 622 valid (supersedes 623 denominator incl. missing allowance) | 227.9% | 120.0–463.9% | 0.48% |
+| 2008Q2 | 659 valid (supersedes 661 denominator incl. missing allowance) | 96.6% | 56.1–190.5% | 1.23% |
+| 2026Q2 | 1,016 valid (supersedes 1,023 denominator incl. missing allowance) | 196.4% | 104.8–396.2% | 0.57% |
 
 **The company figures do not match call-report coverage.** EGBN's company Q2 figure (109%) compares with a call-report 88.5%. VLY's (~131%) compares with 123.3%. The likely causes are a different NPL base, inclusion of the unfunded-commitment reserve, or holding-company scope [inference, unverified].
 

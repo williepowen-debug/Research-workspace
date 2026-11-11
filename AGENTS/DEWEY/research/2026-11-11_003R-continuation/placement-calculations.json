@@ -1,0 +1,435 @@
+{
+  "definition": "Percent of comparator banks with strictly lower allowance/noncurrent ratio; assets >= $1B, loans/assets >=10%, noncurrent >0. Missing allowance excluded in corrected calculation.",
+  "comparators": {
+    "20061231": {
+      "eligible_count": 623,
+      "valid_count": 622,
+      "missing_allowance": [
+        {
+          "cert": 33686,
+          "name": "BANK HAPOALIM B M",
+          "class": "OI"
+        }
+      ]
+    },
+    "20080630": {
+      "eligible_count": 661,
+      "valid_count": 659,
+      "missing_allowance": [
+        {
+          "cert": 33682,
+          "name": "STATE BANK OF INDIA",
+          "class": "OI"
+        },
+        {
+          "cert": 33686,
+          "name": "BANK HAPOALIM B M",
+          "class": "OI"
+        }
+      ]
+    },
+    "20260630": {
+      "eligible_count": 1023,
+      "valid_count": 1016,
+      "missing_allowance": [
+        {
+          "cert": 33646,
+          "name": "BANK OF EAST ASIA LTD",
+          "class": "OI"
+        },
+        {
+          "cert": 33653,
+          "name": "BANK OF CHINA",
+          "class": "OI"
+        },
+        {
+          "cert": 33661,
+          "name": "MIZRAHI TEFAHOT BANK LTD",
+          "class": "OI"
+        },
+        {
+          "cert": 33686,
+          "name": "BANK HAPOALIM B M",
+          "class": "OI"
+        },
+        {
+          "cert": 33690,
+          "name": "BANCO BILBAO VIZCAYA SA",
+          "class": "NC"
+        },
+        {
+          "cert": 33692,
+          "name": "STANDARD CHARTERED BANK PLC",
+          "class": "NC"
+        },
+        {
+          "cert": 58339,
+          "name": "BANK OF CHINA",
+          "class": "NC"
+        }
+      ]
+    }
+  },
+  "banks": [
+    {
+      "bank": "EGBN",
+      "period": "6/30/2026",
+      "comparator": "20061231",
+      "coverage_pct": 88.47898331081328,
+      "npl_pct": 2.052053192264262,
+      "lower_count": 99,
+      "old_denominator_pct": 15.890850722311397,
+      "complete_case_pct": 15.916398713826366
+    },
+    {
+      "bank": "EGBN",
+      "period": "9/30/2026",
+      "comparator": "20061231",
+      "coverage_pct": 67.20434893891677,
+      "npl_pct": 2.732629778703849,
+      "lower_count": 68,
+      "old_denominator_pct": 10.914927768860354,
+      "complete_case_pct": 10.932475884244372
+    },
+    {
+      "bank": "ZION",
+      "period": "6/30/2026",
+      "comparator": "20061231",
+      "coverage_pct": 224.14579744187702,
+      "npl_pct": 0.47228795653322214,
+      "lower_count": 306,
+      "old_denominator_pct": 49.11717495987159,
+      "complete_case_pct": 49.19614147909968
+    },
+    {
+      "bank": "ZION",
+      "period": "9/30/2026",
+      "comparator": "20061231",
+      "coverage_pct": 204.28010765100075,
+      "npl_pct": 0.5057606251485199,
+      "lower_count": 282,
+      "old_denominator_pct": 45.26484751203852,
+      "complete_case_pct": 45.337620578778136
+    },
+    {
+      "bank": "SSB",
+      "period": "6/30/2026",
+      "comparator": "20061231",
+      "coverage_pct": 213.79026350984472,
+      "npl_pct": 0.5354119335062986,
+      "lower_count": 291,
+      "old_denominator_pct": 46.70947030497592,
+      "complete_case_pct": 46.78456591639871
+    },
+    {
+      "bank": "SSB",
+      "period": "9/30/2026",
+      "comparator": "20061231",
+      "coverage_pct": 199.65758533244735,
+      "npl_pct": 0.5634468112353469,
+      "lower_count": 277,
+      "old_denominator_pct": 44.46227929373997,
+      "complete_case_pct": 44.533762057877816
+    },
+    {
+      "bank": "BKU",
+      "period": "6/30/2026",
+      "comparator": "20061231",
+      "coverage_pct": 53.87967015682166,
+      "npl_pct": 1.6868234464644238,
+      "lower_count": 48,
+      "old_denominator_pct": 7.704654895666132,
+      "complete_case_pct": 7.717041800643087
+    },
+    {
+      "bank": "BKU",
+      "period": "9/30/2026",
+      "comparator": "20061231",
+      "coverage_pct": 50.91975877742551,
+      "npl_pct": 1.826346832690639,
+      "lower_count": 44,
+      "old_denominator_pct": 7.062600321027287,
+      "complete_case_pct": 7.07395498392283
+    },
+    {
+      "bank": "HBAN",
+      "period": "6/30/2026",
+      "comparator": "20061231",
+      "coverage_pct": 160.29735546960967,
+      "npl_pct": 1.0600106537818563,
+      "lower_count": 218,
+      "old_denominator_pct": 34.99197431781702,
+      "complete_case_pct": 35.048231511254016
+    },
+    {
+      "bank": "HBAN",
+      "period": "9/30/2026",
+      "comparator": "20061231",
+      "coverage_pct": 148.58546770498637,
+      "npl_pct": 1.124154670037429,
+      "lower_count": 203,
+      "old_denominator_pct": 32.58426966292135,
+      "complete_case_pct": 32.636655948553056
+    },
+    {
+      "bank": "VLY",
+      "period": "6/30/2026",
+      "comparator": "20061231",
+      "coverage_pct": 123.26679827447539,
+      "npl_pct": 0.9122155532794711,
+      "lower_count": 161,
+      "old_denominator_pct": 25.84269662921348,
+      "complete_case_pct": 25.884244372990352
+    },
+    {
+      "bank": "VLY",
+      "period": "9/30/2026",
+      "comparator": "20061231",
+      "coverage_pct": 109.74992529155207,
+      "npl_pct": 0.9938431095863336,
+      "lower_count": 138,
+      "old_denominator_pct": 22.150882825040128,
+      "complete_case_pct": 22.186495176848876
+    },
+    {
+      "bank": "EGBN",
+      "period": "6/30/2026",
+      "comparator": "20080630",
+      "coverage_pct": 88.47898331081328,
+      "npl_pct": 2.052053192264262,
+      "lower_count": 295,
+      "old_denominator_pct": 44.62934947049924,
+      "complete_case_pct": 44.764795144157816
+    },
+    {
+      "bank": "EGBN",
+      "period": "9/30/2026",
+      "comparator": "20080630",
+      "coverage_pct": 67.20434893891677,
+      "npl_pct": 2.732629778703849,
+      "lower_count": 215,
+      "old_denominator_pct": 32.526475037821484,
+      "complete_case_pct": 32.62518968133536
+    },
+    {
+      "bank": "ZION",
+      "period": "6/30/2026",
+      "comparator": "20080630",
+      "coverage_pct": 224.14579744187702,
+      "npl_pct": 0.47228795653322214,
+      "lower_count": 528,
+      "old_denominator_pct": 79.87897125567322,
+      "complete_case_pct": 80.12139605462822
+    },
+    {
+      "bank": "ZION",
+      "period": "9/30/2026",
+      "comparator": "20080630",
+      "coverage_pct": 204.28010765100075,
+      "npl_pct": 0.5057606251485199,
+      "lower_count": 510,
+      "old_denominator_pct": 77.15582450832072,
+      "complete_case_pct": 77.38998482549317
+    },
+    {
+      "bank": "SSB",
+      "period": "6/30/2026",
+      "comparator": "20080630",
+      "coverage_pct": 213.79026350984472,
+      "npl_pct": 0.5354119335062986,
+      "lower_count": 517,
+      "old_denominator_pct": 78.21482602118003,
+      "complete_case_pct": 78.45220030349013
+    },
+    {
+      "bank": "SSB",
+      "period": "9/30/2026",
+      "comparator": "20080630",
+      "coverage_pct": 199.65758533244735,
+      "npl_pct": 0.5634468112353469,
+      "lower_count": 506,
+      "old_denominator_pct": 76.55068078668684,
+      "complete_case_pct": 76.78300455235205
+    },
+    {
+      "bank": "BKU",
+      "period": "6/30/2026",
+      "comparator": "20080630",
+      "coverage_pct": 53.87967015682166,
+      "npl_pct": 1.6868234464644238,
+      "lower_count": 159,
+      "old_denominator_pct": 24.05446293494705,
+      "complete_case_pct": 24.127465857359635
+    },
+    {
+      "bank": "BKU",
+      "period": "9/30/2026",
+      "comparator": "20080630",
+      "coverage_pct": 50.91975877742551,
+      "npl_pct": 1.826346832690639,
+      "lower_count": 145,
+      "old_denominator_pct": 21.936459909228443,
+      "complete_case_pct": 22.003034901365705
+    },
+    {
+      "bank": "HBAN",
+      "period": "6/30/2026",
+      "comparator": "20080630",
+      "coverage_pct": 160.29735546960967,
+      "npl_pct": 1.0600106537818563,
+      "lower_count": 466,
+      "old_denominator_pct": 70.49924357034796,
+      "complete_case_pct": 70.71320182094082
+    },
+    {
+      "bank": "HBAN",
+      "period": "9/30/2026",
+      "comparator": "20080630",
+      "coverage_pct": 148.58546770498637,
+      "npl_pct": 1.124154670037429,
+      "lower_count": 441,
+      "old_denominator_pct": 66.71709531013616,
+      "complete_case_pct": 66.9195751138088
+    },
+    {
+      "bank": "VLY",
+      "period": "6/30/2026",
+      "comparator": "20080630",
+      "coverage_pct": 123.26679827447539,
+      "npl_pct": 0.9122155532794711,
+      "lower_count": 391,
+      "old_denominator_pct": 59.152798789712556,
+      "complete_case_pct": 59.332321699544764
+    },
+    {
+      "bank": "VLY",
+      "period": "9/30/2026",
+      "comparator": "20080630",
+      "coverage_pct": 109.74992529155207,
+      "npl_pct": 0.9938431095863336,
+      "lower_count": 365,
+      "old_denominator_pct": 55.21936459909229,
+      "complete_case_pct": 55.386949924127464
+    },
+    {
+      "bank": "EGBN",
+      "period": "6/30/2026",
+      "comparator": "20260630",
+      "coverage_pct": 88.47898331081328,
+      "npl_pct": 2.052053192264262,
+      "lower_count": 185,
+      "old_denominator_pct": 18.084066471163247,
+      "complete_case_pct": 18.208661417322833
+    },
+    {
+      "bank": "EGBN",
+      "period": "9/30/2026",
+      "comparator": "20260630",
+      "coverage_pct": 67.20434893891677,
+      "npl_pct": 2.732629778703849,
+      "lower_count": 110,
+      "old_denominator_pct": 10.75268817204301,
+      "complete_case_pct": 10.826771653543307
+    },
+    {
+      "bank": "ZION",
+      "period": "6/30/2026",
+      "comparator": "20260630",
+      "coverage_pct": 224.14579744187702,
+      "npl_pct": 0.47228795653322214,
+      "lower_count": 561,
+      "old_denominator_pct": 54.83870967741935,
+      "complete_case_pct": 55.21653543307087
+    },
+    {
+      "bank": "ZION",
+      "period": "9/30/2026",
+      "comparator": "20260630",
+      "coverage_pct": 204.28010765100075,
+      "npl_pct": 0.5057606251485199,
+      "lower_count": 529,
+      "old_denominator_pct": 51.71065493646139,
+      "complete_case_pct": 52.06692913385827
+    },
+    {
+      "bank": "SSB",
+      "period": "6/30/2026",
+      "comparator": "20260630",
+      "coverage_pct": 213.79026350984472,
+      "npl_pct": 0.5354119335062986,
+      "lower_count": 541,
+      "old_denominator_pct": 52.883675464320625,
+      "complete_case_pct": 53.24803149606299
+    },
+    {
+      "bank": "SSB",
+      "period": "9/30/2026",
+      "comparator": "20260630",
+      "coverage_pct": 199.65758533244735,
+      "npl_pct": 0.5634468112353469,
+      "lower_count": 518,
+      "old_denominator_pct": 50.635386119257085,
+      "complete_case_pct": 50.98425196850393
+    },
+    {
+      "bank": "BKU",
+      "period": "6/30/2026",
+      "comparator": "20260630",
+      "coverage_pct": 53.87967015682166,
+      "npl_pct": 1.6868234464644238,
+      "lower_count": 79,
+      "old_denominator_pct": 7.722385141739981,
+      "complete_case_pct": 7.775590551181103
+    },
+    {
+      "bank": "BKU",
+      "period": "9/30/2026",
+      "comparator": "20260630",
+      "coverage_pct": 50.91975877742551,
+      "npl_pct": 1.826346832690639,
+      "lower_count": 73,
+      "old_denominator_pct": 7.135874877810362,
+      "complete_case_pct": 7.18503937007874
+    },
+    {
+      "bank": "HBAN",
+      "period": "6/30/2026",
+      "comparator": "20260630",
+      "coverage_pct": 160.29735546960967,
+      "npl_pct": 1.0600106537818563,
+      "lower_count": 413,
+      "old_denominator_pct": 40.37145650048876,
+      "complete_case_pct": 40.6496062992126
+    },
+    {
+      "bank": "HBAN",
+      "period": "9/30/2026",
+      "comparator": "20260630",
+      "coverage_pct": 148.58546770498637,
+      "npl_pct": 1.124154670037429,
+      "lower_count": 384,
+      "old_denominator_pct": 37.5366568914956,
+      "complete_case_pct": 37.79527559055118
+    },
+    {
+      "bank": "VLY",
+      "period": "6/30/2026",
+      "comparator": "20260630",
+      "coverage_pct": 123.26679827447539,
+      "npl_pct": 0.9122155532794711,
+      "lower_count": 311,
+      "old_denominator_pct": 30.40078201368524,
+      "complete_case_pct": 30.61023622047244
+    },
+    {
+      "bank": "VLY",
+      "period": "9/30/2026",
+      "comparator": "20260630",
+      "coverage_pct": 109.74992529155207,
+      "npl_pct": 0.9938431095863336,
+      "lower_count": 271,
+      "old_denominator_pct": 26.490713587487782,
+      "complete_case_pct": 26.673228346456693
+    }
+  ]
+}
