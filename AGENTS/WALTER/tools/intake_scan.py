@@ -168,7 +168,97 @@ def _edgar_route(cid):
     return legacy, "UNTAGGED: no lane row joined (ticker+date) — check lane"
 
 
-def collect_alerts(live):
+_BATCH_RE = re.compile(r"^data/(\d{4}-\d{2}-\d{2})/news\.json$")
+
+
+def _day(path):
+    m = _BATCH_RE.match(path or "")
+    return m.group(1) if m else None
+
+
+def _lane_days():
+    """(sorted date-named day dirs, error or None). Only YYYY-MM-DD names count (review F6)."""
+    try:
+        return sorted(p.name for p in (LANE / "data").iterdir()
+                      if p.is_dir() and re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.name)), None
+    except OSError as e:
+        return [], f"lane data/ unreadable ({type(e).__name__})"
+
+
+def read_batch_items(batch):
+    """(items, error). ONE reader for the scan and --mark (follow-up note 1): valid JSON that is
+    not an object with an `items` list counts as unreadable in both places."""
+    try:
+        d = json.loads((LANE / batch).read_text(encoding="utf-8"))
+        items = d.get("items", []) if isinstance(d, dict) else None
+        if not isinstance(items, list):
+            raise ValueError("no items list")
+        return items, None
+    except Exception as e:
+        return None, type(e).__name__
+
+
+def news_batches(saved, last_marked):
+    """Batches to scan, oldest first: every data/<day>/news.json with day after the marked
+    batch's day and up to the newest (`saved`), always including `saved`. No pointer, an
+    unparseable pointer, a pointer at or after `saved`, or no `saved` = [saved] only (install
+    behaviour, nothing replayed). A parseable pointer whose file has gone still drives catch-up by
+    DATE (follow-up note 2), so no batch after it is skipped; pointer_health says so."""
+    if not saved:
+        return []
+    hi, lo = _day(saved), _day(last_marked)
+    if not hi or not lo or lo >= hi:
+        return [saved]
+    days, err = _lane_days()
+    if err:
+        return [saved]
+    return [f"data/{d}/news.json" for d in days
+            if lo < d < hi and (LANE / "data" / d / "news.json").exists()] + [saved]
+
+
+def pointer_health(last_marked, saved=None):
+    """Health lines whenever catch-up cannot run exactly as stored; silent when absent (install) or valid."""
+    out = []
+    if saved and not _day(saved):
+        out.append(("MED", f"newest batch path {saved!r} not data/YYYY-MM-DD/news.json — news catch-up OFF"))
+    if last_marked is not None:
+        if not _day(last_marked):
+            out.append(("MED", f"last_marked_batch {last_marked!r} unparseable — news catch-up OFF, newest "
+                               "batch only; the next --mark stores the newest batch"))
+        elif _day(saved) and _day(last_marked) > _day(saved):
+            out.append(("MED", f"last_marked_batch {last_marked} is AFTER the newest lane batch {saved} — "
+                               "lane clone behind or rolled back? --mark will not move it back; batches "
+                               "re-published at or before it will not be re-scanned"))
+        elif not (LANE / last_marked).exists():
+            out.append(("LOW", f"last_marked_batch {last_marked} no longer in the lane — catching up by date from it"))
+    if _day(last_marked) and _day(saved):
+        days, err = _lane_days()
+        if err:
+            out.append(("MED", f"{err}: news catch-up OFF, newest batch only"))
+        else:
+            gaps = [d for d in days if _day(last_marked) < d < _day(saved) and not (LANE / "data" / d / "news.json").exists()]
+            if gaps:
+                out.append(("LOW", f"day dir(s) without news.json inside the catch-up range: {', '.join(gaps)}"))
+    return out
+
+
+def mark_pointer(batches, last_marked, through):
+    """Pointer --mark stores (review F3, F4): the last batch of the scanned range that is readable
+    with no unreadable batch before it; never earlier than the stored pointer."""
+    new = last_marked
+    for b in batches:
+        items, err = read_batch_items(b)
+        if err:
+            break
+        new = b
+        if b == through:
+            break
+    if _day(last_marked) and _day(new) and _day(new) < _day(last_marked):
+        return last_marked
+    return new
+
+
+def collect_alerts(live, last_marked=None):
     """Normalize every feed's alert-bearing field into gate records.
     record = dict(feed, key, band, gate, owners, info_cc, precedence, raw)."""
     recs = []
@@ -246,36 +336,53 @@ def collect_alerts(live):
                          precedence="PRIORITY", raw=wid, label="weak auction"))
 
     # newsweep: by_class NEW_ALERT->ACTION / NEW_WATCH->INFO; per-item routing reads data/<date>/news.json
+    # CATCH-UP (WQ-676, Will 2026-11-11 14:16 ET): read EVERY batch newer than the last batch
+    # `--mark` recorded, up to the newest, not only the newest. Before this, a batch replaced
+    # before a WALTER run was never scanned (5 of 30 batches 10/12-11/10, 85 of 610 class items,
+    # upper bound). No pointer (install) or a bad pointer = newest batch only, as before; a bad
+    # pointer is reported in health. Acceptance: research/2026-11-11_intake-catchup/ACCEPTANCE.md.
     nw = jobs.get("newsweep", {})
     byc = nw.get("by_class", {})
-    for cls, gate, prec in (("NEW_ALERT", "ACTION", "PRIORITY"), ("NEW_WATCH", "INFO", "ROUTINE")):
-        n = byc.get(cls, 0)
-        if n:
-            recs.append(dict(feed="newsweep", key=f"news:{cls}:{nw.get('saved','')}", band=None,
-                             gate=gate, owners=["(per-item agents field)"], info_cc=[],
-                             precedence=prec, raw=f"{n} {cls} item(s) — read {nw.get('saved','data/<date>/news.json')}",
-                             label=f"{n} {cls}"))
-
-    # NEW_WATCH_HIT + DEVELOPMENT — PER ITEM, owned by the desk that registered the term.
-    # Added 2026-09-25 (walter-9c): until today this function read only the NEW_ALERT/NEW_WATCH
-    # COUNTS, so every WATCH_FOR hit (the owner-registered wake terms: FLG rent freeze, HENRY,
-    # BROCK, SAM, and the WQ-295 R3 lists) was classified by the lane and NEVER reached WALTER's
-    # worklist. The lane's own alert list (fetch_newsweep.py) already treats these two classes as
-    # alerts; this aligns the consumer with it. Per-item keys, so a dark owner's hit can carry the
-    # rule-6b doorbell recommendation. Onset keys are the title hash (the news feed is deduped
-    # lane-side, so an item is one onset).
     saved = nw.get("saved")
-    if saved and (byc.get("NEW_WATCH_HIT") or byc.get("DEVELOPMENT")):
-        try:
-            items = json.loads((LANE / saved).read_text(encoding="utf-8")).get("items", [])
-        except Exception as e:
-            items = []
-            recs.append(dict(feed="newsweep", key=f"news:UNREADABLE:{saved}", band=None, gate="INFO",
-                             owners=["WALTER"], info_cc=[], precedence="ROUTINE",
-                             raw=f"{saved} unreadable ({type(e).__name__}); watch hits UNKNOWN",
-                             label="news.json unreadable — watch hits UNKNOWN"))
-        import hashlib
-        for it in items:
+    if not saved:  # review F5: keep the pre-repair count records (old key form) when no path is given
+        for cls, gate, prec in (("NEW_ALERT", "ACTION", "PRIORITY"), ("NEW_WATCH", "INFO", "ROUTINE")):
+            n = byc.get(cls, 0)
+            if n:
+                recs.append(dict(feed="newsweep", key=f"news:{cls}:", band=None, gate=gate,
+                                 owners=["(per-item agents field)"], info_cc=[], precedence=prec,
+                                 raw=f"{n} {cls} item(s) — newsweep saved path missing",
+                                 label=f"{n} {cls} (saved path missing)"))
+    for batch in news_batches(saved, last_marked):
+        if batch == saved:
+            counts = byc
+        else:
+            counts = None  # older batch: counted from its own file below
+        items, err = read_batch_items(batch)
+        if err:
+            if batch != saved or byc.get("NEW_WATCH_HIT") or byc.get("DEVELOPMENT"):
+                recs.append(dict(feed="newsweep", key=f"news:UNREADABLE:{batch}", band=None, gate="INFO",
+                                 owners=["WALTER"], info_cc=[], precedence="ROUTINE",
+                                 raw=f"{batch} unreadable ({err}); watch hits UNKNOWN",
+                                 label="news.json unreadable — watch hits UNKNOWN"))
+        if counts is None:
+            counts = {}
+            for it in items or []:
+                c = it.get("classification")
+                counts[c] = counts.get(c, 0) + 1
+        for cls, gate, prec in (("NEW_ALERT", "ACTION", "PRIORITY"), ("NEW_WATCH", "INFO", "ROUTINE")):
+            n = counts.get(cls, 0)
+            if n:
+                recs.append(dict(feed="newsweep", key=f"news:{cls}:{batch}", band=None,
+                                 gate=gate, owners=["(per-item agents field)"], info_cc=[],
+                                 precedence=prec, raw=f"{n} {cls} item(s) — read {batch}",
+                                 label=f"{n} {cls}"))
+
+        # NEW_WATCH_HIT + DEVELOPMENT — PER ITEM, owned by the desk that registered the term.
+        # Added 2026-09-25 (walter-9c): until then this function read only the NEW_ALERT/NEW_WATCH
+        # COUNTS, so every WATCH_FOR hit was classified by the lane and NEVER reached WALTER's
+        # worklist. Per-item keys, so a dark owner's hit can carry the rule-6b doorbell
+        # recommendation. Onset keys are the title hash (the lane dedups titles across runs).
+        for it in items or []:
             cls = it.get("classification")
             if cls not in ("NEW_WATCH_HIT", "DEVELOPMENT"):
                 continue
@@ -568,6 +675,8 @@ def main():
     ap.add_argument("--json", action="store_true", help="machine-readable output")
     ap.add_argument("--cruise-disposition", nargs=3, metavar=("KEY", "DISPOSITION", "REF"),
                     help="close one CRUISE_CAPITAL_REVIEW candidate after review")
+    ap.add_argument("--through", metavar="BATCH",
+                    help="with --mark: the newest batch the routed report showed; refused if the lane moved")
     ap.add_argument("--gpu-disposition", nargs=3, metavar=("KEY", "DISPOSITION", "REF"),
                     help="close one GPU_FINANCE_REVIEW candidate after review")
     args = ap.parse_args()
@@ -586,13 +695,20 @@ def main():
         return 0
 
     seen = load_seen()
-    recs = collect_alerts(live)
+    last_marked = seen.get("last_marked_batch")
+    newest = live.get("jobs", {}).get("newsweep", {}).get("saved")
+    batches = news_batches(newest, last_marked)
+    recs = collect_alerts(live, last_marked)
     for r in recs:
         r["onset"] = r["key"] not in seen["seen"]
     new = [r for r in recs if r["onset"]]
     suppressed = [r for r in recs if not r["onset"]]
-    hz = health(live)
+    hz = health(live) + pointer_health(last_marked, newest)
 
+    if args.mark and args.through and args.through != newest:
+        print(f"REFUSED: --through {args.through} but the newest lane batch is now {newest}; "
+              "re-run the scan, route what it shows, then --mark --through the batch it reports. Nothing written.")
+        return 2
     if args.mark:
         # RECONCILE, don't just add: seen := exactly the currently-true gated keys
         # (preserve first_seen for still-present keys; DROP keys whose alert cleared).
@@ -603,15 +719,22 @@ def main():
         new_seen = {r["key"]: prev.get(r["key"], stamp) for r in recs}
         dropped = [k for k in prev if k not in new_seen]
         seen = {"seen": new_seen, "updated": stamp}
+        ptr = mark_pointer(batches, last_marked, args.through or newest)
+        if ptr:
+            seen["last_marked_batch"] = ptr  # WQ-676: next scan reads every batch after this one
         SEEN.write_text(json.dumps(seen, indent=2) + "\n", encoding="utf-8")
         print(f"reconciled intake_seen.json -> {len(new_seen)} currently-true gated key(s) "
               f"(+{len([r for r in recs if r['key'] not in prev])} new, -{len(dropped)} cleared)")
+        if not args.through:
+            print("WARNING: --mark without --through assumes the newest batch is the one the routed report showed")
+        if ptr:
+            print(f"last_marked_batch -> {ptr}" + ("" if ptr == newest else f" (held before {newest}: unreadable batch or pointer ahead)"))
         return 0
 
     cruise, cruise_errors = cruise_capital_queue()
     gpu, gpu_errors = gpu_finance_queue()
     if args.json:
-        print(json.dumps({"health": hz, "new": new, "suppressed": suppressed,
+        print(json.dumps({"health": hz, "news_batches": batches, "new": new, "suppressed": suppressed,
                           "cruise_capital_review": cruise, "cruise_capital_errors": cruise_errors,
                           "gpu_finance_review": gpu, "gpu_finance_errors": gpu_errors}, indent=2))
         return 0
@@ -621,6 +744,9 @@ def main():
     print("\n[health]")
     for sev, msg in hz:
         print(f"  {sev:<4} {msg}")
+    if batches:
+        print(f"\n[news batches scanned — {len(batches)}: {batches[0].split('/')[1]}..{batches[-1].split('/')[1]}]"
+              f"  (catch-up from last_marked_batch {last_marked or 'none: newest only'})")
     print(f"\n[NEW breaches to ROUTE — {len(new)}]  (onset; push per §3, tag source: RESEARCH-INTAKE)")
     if not new:
         print("  (none — gate quiet)")
@@ -655,7 +781,7 @@ def main():
     print(f"\n[suppressed — still-true, already seen — {len(suppressed)}]  (do NOT re-push)")
     for r in suppressed:
         print(f"  {r['key']}  ({r['raw'][:70]})")
-    print("\nAfter routing the NEW breaches, run:  python3 tools/intake_scan.py --mark")
+    print(f"\nAfter routing the NEW breaches, run:  python3 tools/intake_scan.py --mark --through {newest}")
     return 0
 
 

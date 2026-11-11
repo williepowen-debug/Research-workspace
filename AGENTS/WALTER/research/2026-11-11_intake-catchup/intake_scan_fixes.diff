@@ -1,0 +1,165 @@
+--- /tmp/claude-1000/-home-willi-Research-workspace-AGENTS-WALTER/b4e9bb62-f9c4-4ba4-84fa-464c13b97fe2/scratchpad/reviewed.py	2026-11-11 14:23:33.843417118 -0500
++++ AGENTS/WALTER/tools/intake_scan.py	2026-11-11 14:22:53.673483110 -0500
+@@ -171,36 +171,73 @@
+ _BATCH_RE = re.compile(r"^data/(\d{4}-\d{2}-\d{2})/news\.json$")
+ 
+ 
++def _day(path):
++    m = _BATCH_RE.match(path or "")
++    return m.group(1) if m else None
++
++
++def _lane_days():
++    """(sorted date-named day dirs, error or None). Only YYYY-MM-DD names count (review F6)."""
++    try:
++        return sorted(p.name for p in (LANE / "data").iterdir()
++                      if p.is_dir() and re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.name)), None
++    except OSError as e:
++        return [], f"lane data/ unreadable ({type(e).__name__})"
++
++
+ def news_batches(saved, last_marked):
+     """Batches to scan, oldest first: every data/<day>/news.json with day after the marked
+     batch's day and up to the newest (`saved`), always including `saved`. No pointer, an
+-    unparseable pointer, or no `saved` = [saved] only (install behaviour, nothing replayed)."""
++    unparseable pointer, a pointer whose file is gone (review F2), a pointer at or after
++    `saved`, or no `saved` = [saved] only (install behaviour, nothing replayed)."""
+     if not saved:
+         return []
+-    m_new = _BATCH_RE.match(saved)
+-    m_old = _BATCH_RE.match(last_marked or "")
+-    if not m_new or not m_old:
++    hi, lo = _day(saved), _day(last_marked)
++    if not hi or not lo or not (LANE / last_marked).exists() or lo >= hi:
++        return [saved]
++    days, err = _lane_days()
++    if err:
+         return [saved]
+-    lo, hi = m_old.group(1), m_new.group(1)
++    return [f"data/{d}/news.json" for d in days
++            if lo < d < hi and (LANE / "data" / d / "news.json").exists()] + [saved]
++
++
++def pointer_health(last_marked, saved=None):
++    """MED lines whenever catch-up cannot run as stored; silent when absent (install) or valid."""
+     out = []
+-    try:
+-        for d in sorted(p.name for p in (LANE / "data").iterdir() if p.is_dir()):
+-            rel = f"data/{d}/news.json"
+-            if lo < d < hi and (LANE / rel).exists():
+-                out.append(rel)
+-    except OSError:
+-        pass
+-    return out + [saved]
++    if last_marked is not None:
++        if not _day(last_marked) or not (LANE / last_marked).exists():
++            out.append(("MED", f"last_marked_batch {last_marked!r} unparseable or missing in the lane — "
++                               "news catch-up OFF, newest batch only; the next --mark resets it"))
++        elif _day(saved) and _day(last_marked) > _day(saved):
++            out.append(("MED", f"last_marked_batch {last_marked} is AFTER the newest lane batch {saved} — "
++                               "lane clone behind? (failed 7e(a) pull or the other machine); --mark will not move it back"))
++    if _day(last_marked) and _day(saved):
++        days, err = _lane_days()
++        if err:
++            out.append(("MED", f"{err}: news catch-up OFF, newest batch only"))
++        else:
++            gaps = [d for d in days if _day(last_marked) < d < _day(saved) and not (LANE / "data" / d / "news.json").exists()]
++            if gaps:
++                out.append(("LOW", f"day dir(s) without news.json inside the catch-up range: {', '.join(gaps)}"))
++    return out
+ 
+ 
+-def pointer_health(last_marked):
+-    """MED when a stored pointer cannot drive catch-up; silent when absent (install) or valid."""
+-    if last_marked is None:
+-        return []
+-    if not _BATCH_RE.match(last_marked) or not (LANE / last_marked).exists():
+-        return [("MED", f"last_marked_batch {last_marked!r} unparseable or missing in the lane — "
+-                        "news catch-up OFF, newest batch only; the next --mark resets it")]
+-    return []
++def mark_pointer(batches, last_marked, through):
++    """Pointer --mark stores (review F3, F4): the last batch of the scanned range that is readable
++    with no unreadable batch before it; never earlier than the stored pointer."""
++    new = last_marked
++    for b in batches:
++        try:
++            json.loads((LANE / b).read_text(encoding="utf-8"))
++        except Exception:
++            break
++        new = b
++        if b == through:
++            break
++    if _day(last_marked) and _day(new) and _day(new) < _day(last_marked):
++        return last_marked
++    return new
+ 
+ 
+ def collect_alerts(live, last_marked=None):
+@@ -289,6 +326,14 @@
+     nw = jobs.get("newsweep", {})
+     byc = nw.get("by_class", {})
+     saved = nw.get("saved")
++    if not saved:  # review F5: keep the pre-repair count records (old key form) when no path is given
++        for cls, gate, prec in (("NEW_ALERT", "ACTION", "PRIORITY"), ("NEW_WATCH", "INFO", "ROUTINE")):
++            n = byc.get(cls, 0)
++            if n:
++                recs.append(dict(feed="newsweep", key=f"news:{cls}:", band=None, gate=gate,
++                                 owners=["(per-item agents field)"], info_cc=[], precedence=prec,
++                                 raw=f"{n} {cls} item(s) — newsweep saved path missing",
++                                 label=f"{n} {cls} (saved path missing)"))
+     for batch in news_batches(saved, last_marked):
+         if batch == saved:
+             counts = byc
+@@ -614,6 +659,8 @@
+     ap.add_argument("--json", action="store_true", help="machine-readable output")
+     ap.add_argument("--cruise-disposition", nargs=3, metavar=("KEY", "DISPOSITION", "REF"),
+                     help="close one CRUISE_CAPITAL_REVIEW candidate after review")
++    ap.add_argument("--through", metavar="BATCH",
++                    help="with --mark: the newest batch the routed report showed; refused if the lane moved")
+     ap.add_argument("--gpu-disposition", nargs=3, metavar=("KEY", "DISPOSITION", "REF"),
+                     help="close one GPU_FINANCE_REVIEW candidate after review")
+     args = ap.parse_args()
+@@ -640,8 +687,12 @@
+         r["onset"] = r["key"] not in seen["seen"]
+     new = [r for r in recs if r["onset"]]
+     suppressed = [r for r in recs if not r["onset"]]
+-    hz = health(live) + pointer_health(last_marked)
++    hz = health(live) + pointer_health(last_marked, newest)
+ 
++    if args.mark and args.through and args.through != newest:
++        print(f"REFUSED: --through {args.through} but the newest lane batch is now {newest}; "
++              "re-run the scan, route what it shows, then --mark --through the batch it reports. Nothing written.")
++        return 2
+     if args.mark:
+         # RECONCILE, don't just add: seen := exactly the currently-true gated keys
+         # (preserve first_seen for still-present keys; DROP keys whose alert cleared).
+@@ -652,13 +703,16 @@
+         new_seen = {r["key"]: prev.get(r["key"], stamp) for r in recs}
+         dropped = [k for k in prev if k not in new_seen]
+         seen = {"seen": new_seen, "updated": stamp}
+-        if newest:
+-            seen["last_marked_batch"] = newest  # WQ-676: next scan reads every batch after this one
++        ptr = mark_pointer(batches, last_marked, args.through or newest)
++        if ptr:
++            seen["last_marked_batch"] = ptr  # WQ-676: next scan reads every batch after this one
+         SEEN.write_text(json.dumps(seen, indent=2) + "\n", encoding="utf-8")
+         print(f"reconciled intake_seen.json -> {len(new_seen)} currently-true gated key(s) "
+               f"(+{len([r for r in recs if r['key'] not in prev])} new, -{len(dropped)} cleared)")
+-        if newest:
+-            print(f"last_marked_batch -> {newest}")
++        if not args.through:
++            print("WARNING: --mark without --through assumes the newest batch is the one the routed report showed")
++        if ptr:
++            print(f"last_marked_batch -> {ptr}" + ("" if ptr == newest else f" (held before {newest}: unreadable batch or pointer ahead)"))
+         return 0
+ 
+     cruise, cruise_errors = cruise_capital_queue()
+@@ -711,7 +765,7 @@
+     print(f"\n[suppressed — still-true, already seen — {len(suppressed)}]  (do NOT re-push)")
+     for r in suppressed:
+         print(f"  {r['key']}  ({r['raw'][:70]})")
+-    print("\nAfter routing the NEW breaches, run:  python3 tools/intake_scan.py --mark")
++    print(f"\nAfter routing the NEW breaches, run:  python3 tools/intake_scan.py --mark --through {newest}")
+     return 0
+ 
+ 

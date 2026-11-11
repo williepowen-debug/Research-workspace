@@ -1,0 +1,91 @@
+--- /tmp/claude-1000/-home-willi-Research-workspace-AGENTS-WALTER/b4e9bb62-f9c4-4ba4-84fa-464c13b97fe2/scratchpad/reviewed2.py	2026-11-11 14:25:45.461692029 -0500
++++ AGENTS/WALTER/tools/intake_scan.py	2026-11-11 14:25:38.874649286 -0500
+@@ -185,15 +185,29 @@
+         return [], f"lane data/ unreadable ({type(e).__name__})"
+ 
+ 
++def read_batch_items(batch):
++    """(items, error). ONE reader for the scan and --mark (follow-up note 1): valid JSON that is
++    not an object with an `items` list counts as unreadable in both places."""
++    try:
++        d = json.loads((LANE / batch).read_text(encoding="utf-8"))
++        items = d.get("items", []) if isinstance(d, dict) else None
++        if not isinstance(items, list):
++            raise ValueError("no items list")
++        return items, None
++    except Exception as e:
++        return None, type(e).__name__
++
++
+ def news_batches(saved, last_marked):
+     """Batches to scan, oldest first: every data/<day>/news.json with day after the marked
+     batch's day and up to the newest (`saved`), always including `saved`. No pointer, an
+-    unparseable pointer, a pointer whose file is gone (review F2), a pointer at or after
+-    `saved`, or no `saved` = [saved] only (install behaviour, nothing replayed)."""
++    unparseable pointer, a pointer at or after `saved`, or no `saved` = [saved] only (install
++    behaviour, nothing replayed). A parseable pointer whose file has gone still drives catch-up by
++    DATE (follow-up note 2), so no batch after it is skipped; pointer_health says so."""
+     if not saved:
+         return []
+     hi, lo = _day(saved), _day(last_marked)
+-    if not hi or not lo or not (LANE / last_marked).exists() or lo >= hi:
++    if not hi or not lo or lo >= hi:
+         return [saved]
+     days, err = _lane_days()
+     if err:
+@@ -203,15 +217,20 @@
+ 
+ 
+ def pointer_health(last_marked, saved=None):
+-    """MED lines whenever catch-up cannot run as stored; silent when absent (install) or valid."""
++    """Health lines whenever catch-up cannot run exactly as stored; silent when absent (install) or valid."""
+     out = []
++    if saved and not _day(saved):
++        out.append(("MED", f"newest batch path {saved!r} not data/YYYY-MM-DD/news.json — news catch-up OFF"))
+     if last_marked is not None:
+-        if not _day(last_marked) or not (LANE / last_marked).exists():
+-            out.append(("MED", f"last_marked_batch {last_marked!r} unparseable or missing in the lane — "
+-                               "news catch-up OFF, newest batch only; the next --mark resets it"))
++        if not _day(last_marked):
++            out.append(("MED", f"last_marked_batch {last_marked!r} unparseable — news catch-up OFF, newest "
++                               "batch only; the next --mark stores the newest batch"))
+         elif _day(saved) and _day(last_marked) > _day(saved):
+             out.append(("MED", f"last_marked_batch {last_marked} is AFTER the newest lane batch {saved} — "
+-                               "lane clone behind? (failed 7e(a) pull or the other machine); --mark will not move it back"))
++                               "lane clone behind or rolled back? --mark will not move it back; batches "
++                               "re-published at or before it will not be re-scanned"))
++        elif not (LANE / last_marked).exists():
++            out.append(("LOW", f"last_marked_batch {last_marked} no longer in the lane — catching up by date from it"))
+     if _day(last_marked) and _day(saved):
+         days, err = _lane_days()
+         if err:
+@@ -228,9 +247,8 @@
+     with no unreadable batch before it; never earlier than the stored pointer."""
+     new = last_marked
+     for b in batches:
+-        try:
+-            json.loads((LANE / b).read_text(encoding="utf-8"))
+-        except Exception:
++        items, err = read_batch_items(b)
++        if err:
+             break
+         new = b
+         if b == through:
+@@ -339,14 +357,12 @@
+             counts = byc
+         else:
+             counts = None  # older batch: counted from its own file below
+-        items = None
+-        try:
+-            items = json.loads((LANE / batch).read_text(encoding="utf-8")).get("items", [])
+-        except Exception as e:
++        items, err = read_batch_items(batch)
++        if err:
+             if batch != saved or byc.get("NEW_WATCH_HIT") or byc.get("DEVELOPMENT"):
+                 recs.append(dict(feed="newsweep", key=f"news:UNREADABLE:{batch}", band=None, gate="INFO",
+                                  owners=["WALTER"], info_cc=[], precedence="ROUTINE",
+-                                 raw=f"{batch} unreadable ({type(e).__name__}); watch hits UNKNOWN",
++                                 raw=f"{batch} unreadable ({err}); watch hits UNKNOWN",
+                                  label="news.json unreadable — watch hits UNKNOWN"))
+         if counts is None:
+             counts = {}
