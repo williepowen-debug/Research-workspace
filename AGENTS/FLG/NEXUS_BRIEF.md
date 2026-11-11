@@ -6,9 +6,9 @@
 
 **Thesis version:** v1.0.5 (`THESIS.md`)
 
-**Recent change:** v1.0.5 (11/07) — Q3 10-Q: FLG-02 and FLG-03 HIT, direction unchanged, "nothing is healing" withdrawn as a flat claim after Q3 cures $144M. Rail re-derived, no condition changed. The live signal is the reserve and the exit channel, not the 322.11% ratio.
+**Recent change:** 11/11 catch-up — no change to any graded item: Q3 Call Report re-pulled, unamended (SR 07-1 322.11%); a December hike barely moves NII (+0.68% per +100bp short rates, issuer) and AOCI sits outside regulatory capital; the hike matters through refinancing (5Y 4.81 / 10Y 4.98 [11/10]), no rate relief for $12B of sub-3.9% resets through 2027 (INFERRED). Prior: v1.0.5 (11/07) — Q3 10-Q: FLG-02 and FLG-03 HIT, direction unchanged, "nothing is healing" withdrawn as a flat claim after Q3 cures $144M. Rail re-derived, no condition changed. The live signal is the reserve and the exit channel, not the 322.11% ratio.
 
-**As of:** 2026-11-07 11:1x ET | STATUS commit: `a83cf06805` — event-driven desk; this brief stands until the next print or owner session.
+**As of:** 2026-11-11 10:17 ET | STATUS commit: `fa9e28efe4` — event-driven desk; this brief stands until the next print or owner session.
 
 ---
 
@@ -27,7 +27,7 @@
 |------|-------|-------------|----------------|------------------------|
 | EDGAR (issuer) | FY2026 10-K | ~2027-03-01 (FY2025 filed 2/27) | Grades FLG-01; Q4 roll-forward; default full-year row | Q4 cures back under 10% of outflow → Q3 was a lump; second high quarter → repair read opens, cure cause still needed |
 | FFIEC | Q4 Call Report Memo 10, 1763, J457 | ~2027-02-14 | Narrows the private-credit recode question | All rising again argues against recoding |
-| NY Supreme Court (Will's browser via PROME) | Kenilworth v. RGB merits ruling | Open — judge said "before the end of the year" | Freeze vacated = mechanism input reverses | Vacatur → lowers the 2027–28 DSCR stress; upheld → the 2028-Q2 fuse (T-11) stands |
+| NY Supreme Court, via press or filings only (docket read dropped by Will 11/10, WQ-477) | Kenilworth v. RGB merits ruling | Open — judge said "before the end of the year" | Freeze vacated = mechanism input reverses | Vacatur → lowers the 2027–28 DSCR stress; upheld → the 2028-Q2 fuse (T-11) stands |
 | REGINALD | Cohort read on Q3 problem-loan / coverage pattern | Open — its 11/07 re-score | Whether FLG is an outlier or the cohort's leading edge | Cohort-wide → the stance is a sector call, not single-name |
 
 ---
