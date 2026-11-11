@@ -21,7 +21,7 @@ Usage:
   recap_pull.py doc URL --case 8:26-bk-10986 --entry 88     # verify + cache
   recap_pull.py text <sha256|URL> --grep "Nano Banc"        # page-numbered
   recap_pull.py status        # budget windows, blocked-until, cache size
-  recap_pull.py usage         # CourtListener Usage API (token required)
+  recap_pull.py usage         # CourtListener /api-usage/ (token required)
 
 Scope (deliberately narrow, not a research platform):
   * Cache: search JSON and PDFs persist on disk across restarts. Identical
@@ -513,7 +513,9 @@ def cmd_usage(a):
         print("Usage API requires authentication (anonymous requests get HTTP 401). "
               "Set COURTLISTENER_TOKEN. `status` shows the local shared budget instead.")
         return 2
-    data = _http(f"{API_BASE}/usage/", metered=True)
+    # Official route: https://wiki.free.law/c/courtlistener/help/api/rest/v4/api-usage
+    # Keep conservative local pacing; this is not the server's usage accounting.
+    data = _http(f"{API_BASE}/api-usage/", metered=True)
     print(data.decode("utf-8", "replace"))
     return 0
 

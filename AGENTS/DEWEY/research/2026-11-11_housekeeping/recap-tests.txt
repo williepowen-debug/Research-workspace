@@ -1,0 +1,19 @@
+PASS  T1 concurrent identical requests share one retrieval  — server hits=1, rcs=[0, 0]
+PASS  T1b identity VERIFIED from the page-1 header  — VERIFIED: header 8:26-bk-10986 Doc 88 Filed 09/08/26 · ⚠ body is mostly image (11 words / 
+PASS  T2 restart preserves cache (0 new server hits)  — hits=1 rc=0
+PASS  T3a budget full → the call WAITS, then succeeds  — waited 3.0s rc=0
+PASS  T3b wait > RECAP_MAX_WAIT → exit 3 THROTTLED immediately  — rc=3 0.1s THROTTLED: shared budget full; next slot in 3s (> RECAP_MAX_WAIT=0s). Retry late
+PASS  T3c 429 Retry-After honored (slept ≥2s, 2 server hits, success)  — rc=0 2.1s hits=2
+PASS  T5 non-JSON body → exit 6, NOT cached; the retry re-fetches and succeeds  — rc1=6 rc2=0 hits=2
+PASS  T4 wrong-case document REJECTED (exit 4) and quarantined  — MISMATCH: header says 8:26-bk-11647 Doc 77; expected 8:26-bk-10986 Doc 77 · ⚠ body is mostly image (
+PASS  T4b unreadable header → UNVERIFIED (exit 5), not accepted  — UNVERIFIED: page-1 header unreadable (0 words extracted; image-only scan?). Render it (pdftoppm -r 8
+PASS  T4c attachment number must match exactly (88 ≠ 88-1)  — MISMATCH: header says 8:26-bk-10986 Doc 88; expected 8:26-bk-10986 Doc 88-1 · ⚠ body is mostly image
+PASS  T4d manifest records identity fields on every document  — 6 records
+PASS  quotes carry a page number  — p.1: …Case 8:26-bk-10986-MH Doc 88 Filed 09/08/26 Entered 09
+PASS  T6 anonymous 401 → exit 7 TOKEN REQUIRED, 'NOT no results', not cached (2 hits)  — rc=7 hits=2 AUTH: TOKEN REQUIRED: HTTP 401, CourtListener refuses anonymous API requests. Set COURTLIS
+PASS  T6b 401 with a token set → exit 7 TOKEN REJECTED  — AUTH: TOKEN REJECTED: HTTP 401 with COURTLISTENER_TOKEN set. The token may be wrong or rev
+PASS  T7 feed below cap: count + oldest date + 'not verified', 3 rows  — # FEED WINDOW: 3 entries, oldest 2026-10-10 — http://127.0.0.1:33409/docket/123/feed/
+PASS  T7b Atom feed (the live format) at the 30 cap → oldest date + 'older entries are NOT in this feed'  — # ⚠ AT THE 30-ENTRY CAP: older entries are NOT in this feed. 'Not found here' covers only 
+PASS  T7c feed always fetches fresh (2 server hits for 2 runs on docket 123)  — hits=2
+
+ALL PASS

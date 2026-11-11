@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-11-11T18:05:45.700073+00:00",
+  "command": "python3 scripts/recap_pull.py usage",
+  "exit_code": 0,
+  "authenticated": true,
+  "url": "https://www.courtlistener.com/api/rest/v4/api-usage/",
+  "response_keys": [
+    "current_usage",
+    "historical_usage",
+    "membership"
+  ],
+  "usage_row_count": 7,
+  "expected_schema_present": true
+}
