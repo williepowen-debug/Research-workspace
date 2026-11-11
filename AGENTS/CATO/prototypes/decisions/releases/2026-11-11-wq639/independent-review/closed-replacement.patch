@@ -1,0 +1,39 @@
+--- a/PROME/proposals/fixture-options.md
++++ b/PROME/proposals/fixture-options.md
+@@ -1,3 +1,35 @@
++# WQ-901 — explicit decision card
++
++Question, options, context and conditions are decision terms. Queue Notes are operational; put changed conditions here or in the question, not only in Notes.
++
+ ```decisions-options
+-{"schema_version": "decisions-options/1", "wq_id": "901", "queue_row_sha256": "2a651ecf7da6c315047d3288853f27e6b994c9ea457538342ff844872c23e139", "choices": [{"id": "A", "label": "Do the task", "meaning": "Only this task, with the caveat.", "consequence": "One task; no new schedule."}, {"id": "B", "label": "Decline", "meaning": "Do not do this task.", "consequence": "No change."}]}
++{
++  "schema_version": "decisions-options/3",
++  "wq_id": "901",
++  "queue_terms_sha256": "492aac483f6030cb82a78b4f5e9a3886f846ada2d11e8b35a06b2342a0b9cbdf",
++  "choices": [
++    {
++      "id": "A",
++      "label": "Do it",
++      "meaning": "One bounded task.",
++      "consequence": "No ongoing job."
++    },
++    {
++      "id": "B",
++      "label": "Decline",
++      "meaning": "Do not do it.",
++      "consequence": "No change."
++    }
++  ],
++  "recommended_choice_id": "A",
++  "context": "Exact source explanation.",
++  "conditions": [
++    "Only after review."
++  ],
++  "confirmation": {
++    "mode": "chat",
++    "scope": "other",
++    "reason": "Matching PROME-chat confirmation remains required under the installed fallback."
++  }
++}
+ ```

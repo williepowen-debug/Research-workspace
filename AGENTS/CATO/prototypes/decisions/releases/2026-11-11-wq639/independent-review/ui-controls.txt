@@ -1,0 +1,4 @@
+integrated PASS
+received PASS
+no receipt PASS
+received read-only buttons remain disabled PASS

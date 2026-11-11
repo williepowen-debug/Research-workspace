@@ -1,0 +1,14 @@
+test_disjoint_notes_edit_roundtrip_and_closed_history (__main__.Independent.test_disjoint_notes_edit_roundtrip_and_closed_history) ... ok
+test_material_notes_are_not_semantically_inferred (__main__.Independent.test_material_notes_are_not_semantically_inferred) ... ok
+test_migration_patch_after_question_change (__main__.Independent.test_migration_patch_after_question_change) ... STALE_REPLACEMENT_APPLY_EXIT 0
+ok
+test_notes_with_binding_lookalike_and_hold (__main__.Independent.test_notes_with_binding_lookalike_and_hold) ... ok
+test_old_pointer_restored_in_worktree_cannot_hide_head_swap (__main__.Independent.test_old_pointer_restored_in_worktree_cannot_hide_head_swap) ... ok
+test_publish_only_source_then_only_queue (__main__.Independent.test_publish_only_source_then_only_queue) ... ok
+test_replacement_after_closed_row (__main__.Independent.test_replacement_after_closed_row) ... CLOSED_REPLACEMENT_APPLY_EXIT 0
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.752s
+
+OK

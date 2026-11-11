@@ -1,6 +1,6 @@
 # WQ-639 — prepared release, not installed
 
-**Status:** author implementation and tests complete; independent review and owner-controlled activation remain. Will directed CATO to work without burdening PROME on November 11. No live application, queue, options source, acceptance, hook, response or receipt was changed, and no desk was launched/notified. The installed chat-required fallback remains live.
+**Status:** independent review completed with **BLOCK (IR-639-1)**: replacement patches lack an enforced queue precondition. [Unedited review and closure condition](independent-review/report.md). Candidate remains uninstalled; bounded correction and focused independent recheck precede activation. Will directed CATO to work without burdening PROME on November 11. No live application, queue, options source, acceptance, hook, response or receipt was changed, and no desk was launched/notified. The installed chat-required fallback remains live.
 
 ## Result
 

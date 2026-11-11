@@ -1,0 +1,64 @@
+======================================================================
+ERROR: test_real_desk_shows_closed_pilot_and_current_queue_without_new_answers (test_desk.DeskTests.test_real_desk_shows_closed_pilot_and_current_queue_without_new_answers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/cato-wq639-independent-review/tree/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py", line 326, in test_real_desk_shows_closed_pilot_and_current_queue_without_new_answers
+    desk = app.Desk(Repo(reader.ROOT), Path(self.tmp.name) / "actual-read", False)
+                    ^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-independent-review/tree/AGENTS/CATO/prototypes/decisions/mvp/pilot_files.py", line 58, in __init__
+    actual = Path(self.git("rev-parse", "--show-toplevel").strip()).resolve()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-independent-review/tree/AGENTS/CATO/prototypes/decisions/mvp/pilot_files.py", line 63, in git
+    return subprocess.check_output(["git", "--no-replace-objects", *args], cwd=self.root,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', '--no-replace-objects', 'rev-parse', '--show-toplevel']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: test_real_desk_shows_closed_pilot_and_current_queue_without_new_answers (test_desk.DeskTests.test_real_desk_shows_closed_pilot_and_current_queue_without_new_answers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/cato-wq639-independent-review/tree/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py", line 326, in test_real_desk_shows_closed_pilot_and_current_queue_without_new_answers
+    desk = app.Desk(Repo(reader.ROOT), Path(self.tmp.name) / "actual-read", False)
+                    ^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-independent-review/tree/AGENTS/CATO/prototypes/decisions/mvp/pilot_files.py", line 58, in __init__
+    actual = Path(self.git("rev-parse", "--show-toplevel").strip()).resolve()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-independent-review/tree/AGENTS/CATO/prototypes/decisions/mvp/pilot_files.py", line 63, in git
+    return subprocess.check_output(["git", "--no-replace-objects", *args], cwd=self.root,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', '--no-replace-objects', 'rev-parse', '--show-toplevel']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: test_real_desk_shows_closed_pilot_and_current_queue_without_new_answers (test_desk.DeskTests.test_real_desk_shows_closed_pilot_and_current_queue_without_new_answers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/cato-wq639-independent-review/tree/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py", line 326, in test_real_desk_shows_closed_pilot_and_current_queue_without_new_answers
+    desk = app.Desk(Repo(reader.ROOT), Path(self.tmp.name) / "actual-read", False)
+                    ^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-independent-review/tree/AGENTS/CATO/prototypes/decisions/mvp/pilot_files.py", line 58, in __init__
+    actual = Path(self.git("rev-parse", "--show-toplevel").strip()).resolve()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/cato-wq639-independent-review/tree/AGENTS/CATO/prototypes/decisions/mvp/pilot_files.py", line 63, in git
+    return subprocess.check_output(["git", "--no-replace-objects", *args], cwd=self.root,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', '--no-replace-objects', 'rev-parse', '--show-toplevel']' returned non-zero exit status 128.
+
+----------------------------------------------------------------------
+Ran 130 tests in 69.273s
+
+FAILED (errors=3)
