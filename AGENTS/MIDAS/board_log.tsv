@@ -51,3 +51,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T07:38:46-05:00	SIG-W-20261104-074	acted	INBOX_WALTER	KB-250; WGC September 61 t re-read at PRIMARY, reported perimeter. Theme combo:official-gold-bid.
 2026-11-06T07:38:46-05:00	SIG-W-20261105-055	acted	INBOX_WALTER	KB-253; used for the 11/05 stress-day read in L2 count, VIX 26.86 superseded by 057.
 2026-11-06T07:38:46-05:00	SIG-W-20261105-057	acted	INBOX_WALTER	KB-253; COR-20261105-57 receipted NO-OP, 26.86 never entered a MIDAS file. Yahoo VIX 28.18 matches.
+2026-11-11T09:29:21-05:00	SIG-W-20261109-010	noted	INBOX_WALTER	KB-270; INFO, context for copper China-demand read; no MIDAS row on the 11/10 or January clocks.
+2026-11-11T09:29:21-05:00	SIG-W-20261110-003	noted	INBOX_WALTER	KB-270; ACTION add graphite to any 11/27-clock row: MIDAS holds none, NO-OP. No score.

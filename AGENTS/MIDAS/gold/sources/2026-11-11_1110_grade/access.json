@@ -1,0 +1,173 @@
+[
+  {
+    "file": "GLD.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:53.911550+00:00",
+    "status": 200,
+    "bytes": 51168,
+    "sha256": "57882fdf9d114277b3eec0f218b89ac8787b4a5ac81f77b72ca9770ef6adefa4",
+    "received_utc": "2026-11-11T14:26:54.189639+00:00"
+  },
+  {
+    "file": "SLV.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SLV?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:53.912083+00:00",
+    "status": 200,
+    "bytes": 51695,
+    "sha256": "a97ad948ad2a33b839b883f62078e0d5caee5be343b76ef824ac9080f6c8bd6d",
+    "received_utc": "2026-11-11T14:26:54.895791+00:00"
+  },
+  {
+    "file": "PPLT.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PPLT?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:53.912552+00:00",
+    "status": 200,
+    "bytes": 52617,
+    "sha256": "c4216f5e99363c6a5ee28226257ccec14c4b92bd1c5cfe976478293db2f81c01",
+    "received_utc": "2026-11-11T14:26:54.205987+00:00"
+  },
+  {
+    "file": "PALL.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PALL?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:53.912867+00:00",
+    "status": 200,
+    "bytes": 52525,
+    "sha256": "eb19d02d7419617f0d3e68d619bf853a29db35543f2835fb41624fa3af0b6c93",
+    "received_utc": "2026-11-11T14:26:54.191548+00:00"
+  },
+  {
+    "file": "CPER.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CPER?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:54.189688+00:00",
+    "status": 200,
+    "bytes": 51071,
+    "sha256": "9f96fc5d4b02a2db3e57522e238bf5798af4f201f603c2ffd7172b1ca02a5c6a",
+    "received_utc": "2026-11-11T14:26:54.443658+00:00"
+  },
+  {
+    "file": "GCZ26.CMX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GCZ26.CMX?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:54.191583+00:00",
+    "status": 200,
+    "bytes": 41718,
+    "sha256": "18fd5078d0c0e025050af23fb7eaeb815e76bb222394858c2181deb7d84b7747",
+    "received_utc": "2026-11-11T14:26:54.406934+00:00"
+  },
+  {
+    "file": "SIZ26.CMX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SIZ26.CMX?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:54.206006+00:00",
+    "status": 200,
+    "bytes": 49230,
+    "sha256": "f73a35f2c6c1545b0cf1a384b56d8844240b21eab24d2276a0f678f3eac31732",
+    "received_utc": "2026-11-11T14:26:55.188403+00:00"
+  },
+  {
+    "file": "PLF27.NYM.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PLF27.NYM?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:54.406962+00:00",
+    "status": 200,
+    "bytes": 43671,
+    "sha256": "2d53fb4c33033b504c05c3d7f446c170913902fb5be00e180cba7e702ba4678b",
+    "received_utc": "2026-11-11T14:26:54.602973+00:00"
+  },
+  {
+    "file": "PAZ26.NYM.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PAZ26.NYM?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:54.443686+00:00",
+    "status": 200,
+    "bytes": 40125,
+    "sha256": "c1b44170305cbd112ef6cfe63bace2ddc010423cd12939711d8722c2ec100d23",
+    "received_utc": "2026-11-11T14:26:54.694315+00:00"
+  },
+  {
+    "file": "HGZ26.CMX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HGZ26.CMX?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:54.603003+00:00",
+    "status": 200,
+    "bytes": 50420,
+    "sha256": "563d86bc8e265a2e0bd750a56752c32424da7198dea98b65140d7df12867ed44",
+    "received_utc": "2026-11-11T14:26:54.841858+00:00"
+  },
+  {
+    "file": "DX-Y.NYB.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:54.694358+00:00",
+    "status": 200,
+    "bytes": 52783,
+    "sha256": "a028ff43522062714d49830ff9198979c3317910d8b31f1ef664db8dab23a755",
+    "received_utc": "2026-11-11T14:26:54.883286+00:00"
+  },
+  {
+    "file": "GSPC.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:54.841884+00:00",
+    "status": 200,
+    "bytes": 48227,
+    "sha256": "a9362b804dcf9102a998bbca618c148bb88b6b6220f71ce0005ea8e6667c3858",
+    "received_utc": "2026-11-11T14:26:55.817079+00:00"
+  },
+  {
+    "file": "VIX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:54.883325+00:00",
+    "status": 200,
+    "bytes": 50612,
+    "sha256": "b7118e3aaaf7fb77ef34e4b91ee5cca919a72065e2c2d0816f3baca093d7c972",
+    "received_utc": "2026-11-11T14:26:55.069594+00:00"
+  },
+  {
+    "file": "TNX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:54.895839+00:00",
+    "status": 200,
+    "bytes": 49243,
+    "sha256": "f1d545a1c5a5eedaa3697e25360992c30e3c5dd9ffaf369eedbec62b735c21b7",
+    "received_utc": "2026-11-11T14:26:55.880868+00:00"
+  },
+  {
+    "file": "GC=F.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?period1=1735689600&period2=1794407213&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-11-11T14:26:55.069623+00:00",
+    "status": 200,
+    "bytes": 43498,
+    "sha256": "0abf557fafaf0579229c20d2a642ffb1bb4f0770a25f322e36aa73a52e71247a",
+    "received_utc": "2026-11-11T14:26:55.387339+00:00"
+  },
+  {
+    "file": "GLD_issuer_archive.xlsx",
+    "url": "https://api.spdrgoldshares.com/api/v1/historical-archive?exchange=NYSE&lang=en&product=gld",
+    "requested_utc": "2026-11-11T14:26:55.188451+00:00",
+    "status": 200,
+    "bytes": 543694,
+    "sha256": "85c8770862db5a1411e29e2021d81e0f42240832ab7fdfd3f2a63d9ff66ccd04",
+    "received_utc": "2026-11-11T14:26:55.379090+00:00"
+  },
+  {
+    "file": "treasury_real.csv",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "requested_utc": "2026-11-11T14:26:55.379160+00:00",
+    "status": 200,
+    "bytes": 7818,
+    "sha256": "70b971639be02b087263ae2f18a8e21bfc6aeb360223558a63e4cd9dfff25494",
+    "received_utc": "2026-11-11T14:26:55.678313+00:00"
+  },
+  {
+    "file": "westmetall_2026.html",
+    "url": "https://www.westmetall.com/en/markdaten.php?action=table&field=LME_Cu_stock",
+    "requested_utc": "2026-11-11T14:26:55.387366+00:00",
+    "status": 200,
+    "bytes": 31184,
+    "sha256": "f0795cb45339c632f2710fec3e02dc15944c54457eacfc55376a20dfa1ec9342",
+    "received_utc": "2026-11-11T14:26:56.066056+00:00"
+  },
+  {
+    "file": "treasury_nominal.csv",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "requested_utc": "2026-11-11T14:26:55.678340+00:00",
+    "status": 200,
+    "bytes": 17606,
+    "sha256": "782e0953ac34dd4c9751bc061feae3b1a2e18f0be8c7c181a3d2a472d1bdcbe5",
+    "received_utc": "2026-11-11T14:26:55.987755+00:00"
+  }
+]
