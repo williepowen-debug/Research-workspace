@@ -56,6 +56,7 @@ No WALTER decision open. Will-gated when WALTER proposes it: the CLAUDE.md read-
 1. Thursday 11/12: WPSR, claims, 30-year auction, Car-Mart, MEMORY calendar check, staleness sweep, UNG reversal deadline. 11/13: WQ-556 C remeasurement and REG-T-06 CFR grade. 11/18: next full Iran sweep and anchor size check. Mid-December ERCOT audit and WATT EO 14421 before December 24 unchanged. About 12/22: Skydance resale registration naming PIPE holders (PROME's theme).
 2. FLG M3 allocation waits for T-02/10-Q; REGINALD filing and cause questions survive. Sinokor, dated Iran answer, Qatar draft and LIQUID October issuance retain normal owner review; no new commissioned study.
 3. Idea, not installed: show prior-day change for key instruments in the boot scan, labelled unverified when the vendor withholds it; needs Will's word.
+4. Idea, HELD by Will 11/11 10:20 ET ("lets hold off for now"): a checkpoint and "pick up WALTER" pair. Staged: (1) checkpoint = Tier 1 light plus a checkpoint block in RESUME, never checkpoint with a helper running, tell PROME WALTER is down, write lessons to MEMORY at the checkpoint; (2) fix boot_basis_check attestation (REVIEW REQUIRED at every boot); (3) pick-up with a hash change check and diff-only reads of unchanged rule files, one full boot and one full closeout a day, folded into the CLAUDE.md size cut. Quick WALTER was retired 6/26 with the VPS/OpenClaw cut (087d1bacb1), not for failing. Not drafted; needs Will's word to start.
 
 ## SOURCE-SEARCH DISPOSITION — approved October 16, retained
 
