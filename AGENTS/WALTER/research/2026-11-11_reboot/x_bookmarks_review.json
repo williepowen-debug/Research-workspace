@@ -1,0 +1,14 @@
+{
+ "schema": 2,
+ "staged_at": 1794411313.068754,
+ "items": [
+  {
+   "id": "2120493963467505740",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261111-019-Anthropic-reportedly-told-analysts-it-will-not-extend-SpaceX-Colossus-compute-contract-past-mid-2027-unconfirmed-analyst-notes-relay.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "97fb20099f724284a4c8ba7cdef103c0"
+}

@@ -1,25 +1,25 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-11T14:32:15Z",
+  "checked_at": "2026-11-11T15:38:17Z",
   "items": 1,
   "scan": {
-    "checked_at": "2026-11-11T14:31:56Z",
-    "head_checked_at": "2026-11-11T14:31:56Z",
+    "checked_at": "2026-11-11T15:35:13Z",
+    "head_checked_at": "2026-11-11T15:35:12Z",
     "head_checked_this_run": true,
     "incomplete": false,
     "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "partly_read": 1
+    "fully_read": 1
   },
   "dispositions": {
-    "DUP": 1
+    "DISPATCH": 1
   },
   "follow_ups": [
     {
-      "id": "2120523414066618774",
-      "ref": "BOARD/SIG-W-20261104-050-WGC-Q3-estimated-gold.md"
+      "id": "2120493963467505740",
+      "ref": "BOARD/SIG-W-20261111-019-Anthropic-reportedly-told-analysts-it-will-not-extend-SpaceX-Colossus-compute-contract-past-mid-2027-unconfirmed-analyst-notes-relay.md"
     }
   ],
   "requests": []
