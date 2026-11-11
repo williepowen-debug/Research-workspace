@@ -1,4 +1,4 @@
-# Status: LIVE. Last real data refresh: 2026-11-06 (content-derived — newest asof cell in this file). Two-clock header per PAT-044; scripts/ledger_staleness.py reads THIS line first, never mtime.
+# Status: LIVE. Last real data refresh: 2026-11-11 (content-derived — newest asof cell in this file). Two-clock header per PAT-044; scripts/ledger_staleness.py reads THIS line first, never mtime.
 # HANS PUBLISHED.tsv — the numbers THIS desk publishes that other desks consume. Read by scripts/consumer_check.py --agent HANS --from-ledger.
 # CREATED 2026-09-05. Until today this desk had NO published-figure ledger, so every consumer_check run needed the superseded value passed by hand — which means a figure I retired and forgot was structurally un-checkable. Append-only; NEVER edit or delete a prior row (the superseded values ARE the instrument).
 # `vectors` (added 2026-09-05) declares which VX row is the METRIC SURFACE for each metric. It exists because doc_audit.py C2 matched on the BARE VALUE and flagged VX-HANS-4.08 (UK CPI 2.9%) against EA_FLASH_HICP_YOY_PCT 2.9% — two different series, same digits. An unqualified identifier is a defect waiting for a reader [[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]. An EMPTY vectors cell means 'no VX surface declared' and C2 skips the row rather than guessing.
@@ -178,3 +178,16 @@ ITALY_10Y_BTP_PCT	4.3503	2026-11-06	CURRENT - TE 11/06 late read. Supersedes 4.3
 TTF_FRONT_MONTH_EUR_MWH	85.98	2026-11-06	CURRENT - NAMED TTFZ26.NYM 11/06 vendor close, not an ICE Endex settle; TE CFD 86.79. L3 exit clock 1/5. Supersedes 90.68 [11/05].	VX-HANS-8.01
 EU_STORAGE_FILL_PCT	73.03	2026-11-06	CURRENT - gas day 2026-11-06, AGSI+ primary, status E (estimate). Supersedes 73.75 [gas day 11/04, since revised to 73.74].	VX-HANS-8.02
 EU_STORAGE_GAP_TO_5YR_NORM_PP	-16.56	2026-11-06	CURRENT - asof = pull date; figure REFERS TO gas day 2026-11-06, status E. Median basis -21.38. Supersedes -16.02 [gas day 11/04].	VX-HANS-8.07
+FRANCE_GERMANY_10Y_SPREAD_BP	142.4	2026-11-10	CURRENT - i-i 11/10 (GOVERNING), OAT 4.66 / Bund 3.24; 152.9 [11/09]. T-10 OPEN, exit 0/5; HNS-10 needs +32.6. Supersedes 153.9 [11/06]. Published to PROME 11/11.	VX-HANS-3.02
+OAT_BUND_SPREAD_BP	142.4	2026-11-10	CURRENT - same series as FRANCE_GERMANY_10Y_SPREAD_BP, i-i 11/10. Supersedes 153.9 [11/06].	VX-HANS-3.02
+FRANCE_10Y_OAT_PCT	4.66	2026-11-10	CURRENT - i-i 11/10; TE 4.786 [11/11 intraday]. Supersedes 4.76 [11/06].	VX-HANS-3.07
+GERMAN_10Y_BUND_PCT	3.3202	2026-11-11	CURRENT - TE 11/11 ~10:20 ET intraday, not a close; i-i 3.24 [11/10]; ECB AAA 3.331 [11/10]. Supersedes 3.2521 [11/06].	VX-HANS-3.05
+UK_10Y_GILT_PCT	5.2344	2026-11-11	CURRENT - TE 11/11 intraday. ~27bp under T-06. Supersedes 5.1559 [11/06].	VX-HANS-3.06
+UK_30Y_GILT_PCT	5.653	2026-11-11	CURRENT - TE 11/11 intraday. ~35bp under T-13. Supersedes 5.614 [11/06].	VX-HANS-3.08
+ITALY_10Y_BTP_PCT	4.366	2026-11-11	CURRENT - TE 11/11 intraday. Supersedes 4.3503 [11/06].	VX-HANS-3.09
+ITALY_GERMANY_10Y_SPREAD_BP	104.6	2026-11-11	CURRENT - TE-derived 11/11 intraday (4.366 - 3.3202). Supersedes 109.8 [11/06].	VX-HANS-3.01
+UK_GILT_UST_10Y_SPREAD_BP	25.4	2026-11-11	CURRENT - 5.2344 (TE 11/11 intraday) minus 4.98 US 10Y 11/10 Treasury close (PROME shared context; US bond market shut 11/11). Supersedes 29.7 [11/06].	VX-HANS-3.04
+TTF_FRONT_MONTH_EUR_MWH	84.73	2026-11-10	CURRENT - NAMED TTFZ26.NYM 11/10 vendor close, not an ICE Endex settle; 82.50 [11/09]; 11/11 intraday 86.95. L3 exit clock 3/5. Vendor restated 11/06 85.98 -> 85.59. Supersedes 85.98 [11/06].	VX-HANS-8.01
+EU_STORAGE_FILL_PCT	72.00	2026-11-11	CURRENT - gas day 2026-11-09, AGSI+ primary, status E. Germany 58.50 C. Supersedes 73.03 [gas day 11/06].	VX-HANS-8.02
+EU_STORAGE_GAP_TO_5YR_NORM_PP	-17.24	2026-11-11	CURRENT - asof = pull date; REFERS TO gas day 2026-11-09, status E. Median basis -21.53. Supersedes -16.56 [gas day 11/06].	VX-HANS-8.07
+EURUSD	1.110	2026-11-11	CURRENT - Yahoo 11/11 intraday. Supersedes 1.1143 [11/06].	VX-HANS-2.01
