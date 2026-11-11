@@ -1,0 +1,9 @@
+# WQ-639 repair 1 — prepared, not installed
+
+Addresses independent finding IR-639-1. The original candidate and BLOCK report remain unchanged in the parent release directory. This directory contains a complete replacement candidate patch against the same pinned base, final changed-file hashes and full runtime map.
+
+Only `author_card.py`, `test_wq639.py` and `WQ639.md` changed since the original review. The supported `--apply PREPARED_DIRECTORY` workflow enforces complete queue/source preimages and patch integrity before application. Replacement patches also include an unchanged target-row hunk. Refusal preserves both files. Apply does not stage, commit, publish or send; the owner must hold exclusive write custody during this short operation. No cross-process lock is claimed.
+
+Author validation: 13 focused CardTests pass, including the real preserved producer migration, changed question/closure/pointer/source and appended content, unchanged replacement, raw-patch target-row refusal, fresh-card application and tampered-patch refusal. An initial no-context target-row hunk also refused unchanged replacements; adding ordinary unified-diff context fixed it. Final test log is `author-tests.txt`. No runtime edits followed that passing run. Original broader 239 Python/18 browser evidence applies only to unchanged areas; no new full-suite or browser run is claimed.
+
+Reproduction: reconstruct manifest base, apply `candidate.patch`, and run `python3 -m unittest -q test_wq639.CardTests` from mvp. The owner-facing application workflow is in [OWNER_GUIDE.md](OWNER_GUIDE.md); raw `git apply` alone does not enforce manifest preimages. The original reviewer independently reconstructed these exact bytes and returned **PASS / nonblocking**, closing IR-639-1. Its ten independent tests and independent rerun of the 13 focused author tests passed. [Unedited closure report](independent-recheck/report.md). No installation/acceptance update or PROME involvement.

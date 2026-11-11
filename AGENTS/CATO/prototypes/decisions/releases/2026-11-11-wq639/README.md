@@ -1,6 +1,6 @@
 # WQ-639 — prepared release, not installed
 
-**Status:** independent review completed with **BLOCK (IR-639-1)**: replacement patches lack an enforced queue precondition. [Unedited review and closure condition](independent-review/report.md). Candidate remains uninstalled; bounded correction and focused independent recheck precede activation. Will directed CATO to work without burdening PROME on November 11. No live application, queue, options source, acceptance, hook, response or receipt was changed, and no desk was launched/notified. The installed chat-required fallback remains live.
+**Status:** original candidate below was blocked by IR-639-1; [repair-1](repair-1/README.md) supersedes it and passed the focused independent recheck. Finding closed; candidate remains uninstalled pending accepted activation. Original frozen files and [BLOCK report](independent-review/report.md) remain unchanged. Will directed CATO to work without burdening PROME on November 11. No live application, queue, options source, acceptance, hook, response or receipt was changed, and no desk was launched/notified. The installed chat-required fallback remains live.
 
 ## Result
 

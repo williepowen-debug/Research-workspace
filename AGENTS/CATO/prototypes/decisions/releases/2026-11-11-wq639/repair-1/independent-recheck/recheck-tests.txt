@@ -1,0 +1,15 @@
+test_changed_patch_refuses (__main__.Recheck.test_changed_patch_refuses) ... ok
+test_fresh_card_stale_and_unchanged_success (__main__.Recheck.test_fresh_card_stale_and_unchanged_success) ... ok
+test_missing_source_refuses (__main__.Recheck.test_missing_source_refuses) ... ok
+test_new_source_collision_refuses (__main__.Recheck.test_new_source_collision_refuses) ... ok
+test_question_closure_pointer_and_row_removal_refuse (__main__.Recheck.test_question_closure_pointer_and_row_removal_refuse) ... ok
+test_queue_append_and_other_row_change_refuse (__main__.Recheck.test_queue_append_and_other_row_change_refuse) ... ok
+test_raw_replacement_patch_target_guard (__main__.Recheck.test_raw_replacement_patch_target_guard) ... ok
+test_real_cli_prepare_apply (__main__.Recheck.test_real_cli_prepare_apply) ... ok
+test_source_edits_and_remote_append_refuse (__main__.Recheck.test_source_edits_and_remote_append_refuse) ... ok
+test_success_preserves_unrelated_staging_and_commits (__main__.Recheck.test_success_preserves_unrelated_staging_and_commits) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.597s
+
+OK

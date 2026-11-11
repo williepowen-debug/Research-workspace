@@ -1,0 +1,737 @@
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/app.py b/AGENTS/CATO/prototypes/decisions/mvp/app.py
+index 805d49e78c..b7f9e1b0d8 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/app.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/app.py
+@@ -21,7 +21,7 @@ from server import make_server
+ from store import HERE, identifier, reader
+ 
+ ACCEPTANCE = "PROME/decisions/app-acceptance.json"
+-BUILD_FILES = ("app.py", "desk.html", "queue_store.py", "delivery.py", "pilot_files.py", "store.py", "server.py", "owner_receipt.py", "options.py", "history.py", "briefs.py", "authorization.py", "notifications.py", "notification_hook.py")
++BUILD_FILES = ("author_card.py", "app.py", "desk.html", "queue_store.py", "delivery.py", "pilot_files.py", "store.py", "server.py", "owner_receipt.py", "options.py", "history.py", "briefs.py", "authorization.py", "notifications.py", "notification_hook.py")
+ PILOT_SOURCE = "PROME/proposals/2026-10-30_wq558-l884-pilot-source.md"
+ POWERSHELL = "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe"
+ 
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/desk.html b/AGENTS/CATO/prototypes/decisions/mvp/desk.html
+index 0a17d92dd0..7c7bbc17ea 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/desk.html
++++ b/AGENTS/CATO/prototypes/decisions/mvp/desk.html
+@@ -28,7 +28,7 @@ function hasRecommendation(c){return c.unit.queue_kind==='DECISION'&&c.receipt?.
+ function confirmationText(c){return c.requires_confirmation!==false?'Chat confirmation required: confirm this same answer in PROME’s chat.':'No chat repeat required for this internal decision. PROME reviews your conditions and reads the ruling back to you. Consequential changes still require chat.';}
+ function recommendedChoice(c){if(c.brief?.recommendation.status==='NONE_YET'||c.brief_notice)return null;return (c.unit.proposal.choices||[]).find(x=>x.id===c.unit.proposal.recommendation?.option_id)||null;}
+ function openRecommendation(c,approve){const option=recommendedChoice(c);if(!option||!c.can_respond)return;openReply(c);$('note').value=inlineConditions[c.unit.id]||'';if(approve){setVerdict(null);$('action').value='choose';chooseOption(option.id);$('reply-title').textContent='Approve PROME’s recommendation';}else{setVerdict(false);$('verdict-scope').value='PROME’s recommendation '+option.id+' · '+option.label;$('action').value='reply';chosen=null;$('reply-title').textContent='Disapprove PROME’s recommendation';}actionFields();remember();$('note').focus();}
+-function recommendationButtons(c,parent){const option=recommendedChoice(c);if(!option)return false;const box=add('div',null,parent,'recommendation-response');const label=add('label','Conditions or changes (optional)',box);const note=add('textarea',null,box);note.id='conditions-'+c.unit.id;label.htmlFor=note.id;note.value=inlineConditions[c.unit.id]||'';note.placeholder='For example: close it, but record the miss.';note.oninput=()=>inlineConditions[c.unit.id]=note.value;const buttons=add('div',null,box,'actions');for(const [label,approve] of [['Approve PROME’s recommendation',true],['Disapprove',false]]){const b=add('button',label,buttons,approve?'primary':'');b.dataset.recommendation=approve?'approve':'disapprove';b.disabled=!c.can_respond;b.onclick=()=>openRecommendation(c,approve);}add('p','Approval selects '+option.id+' · '+option.label+'. Disapproval does not select another option.',box,'small');return true;}
++function recommendationButtons(c,parent){if(c.receipt?.state==='integrated')return false;const option=recommendedChoice(c);if(!option)return false;const box=add('div',null,parent,'recommendation-response');const label=add('label','Conditions or changes (optional)',box);const note=add('textarea',null,box);note.id='conditions-'+c.unit.id;label.htmlFor=note.id;note.value=inlineConditions[c.unit.id]||'';note.placeholder='For example: close it, but record the miss.';note.oninput=()=>inlineConditions[c.unit.id]=note.value;const buttons=add('div',null,box,'actions');for(const [label,approve] of [['Approve PROME’s recommendation',true],['Disapprove',false]]){const b=add('button',label,buttons,approve?'primary':'');b.dataset.recommendation=approve?'approve':'disapprove';b.disabled=!c.can_respond;b.onclick=()=>openRecommendation(c,approve);}add('p','Approval selects '+option.id+' · '+option.label+'. Disapproval does not select another option.',box,'small');return true;}
+ function verdictWords(approve,scope){return (approve?'I approve: ':'I disapprove: ')+scope;}
+ function canVerdict(c){return hasRecommendation(c)&&!c.unit.proposal.choices?.length;}
+ function setVerdict(value){verdict=value;$('verdict-panel').hidden=value===null;$('verdict-label').textContent=value===true?'Approve only the decision you name below.':value===false?'Disapprove only the decision you name below.':'';}
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/options.py b/AGENTS/CATO/prototypes/decisions/mvp/options.py
+index 73f57d31e9..6c7848a700 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/options.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/options.py
+@@ -1,32 +1,50 @@
+ """Explicit supplemental choices; the existing queue remains authoritative."""
+ import hashlib
++import json
+ import re
+ 
+ from pilot_files import fields, record_block
+ from authorization import validate_policy
+ 
+ 
+-def source_for(repo, row, commit, current=False):
++def terms_hash(row):
++    """Versioned opt-in: Notes are operational; their WAIT state still binds."""
++    value = {"cells": row["cells"][:6], "blocked": row["blocked"]}
++    return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True,
++                                     separators=(",", ":")).encode()).hexdigest()
++
++
++def pointer_for(row):
+     marker = re.findall(r"<!-- decisions-options: (PROME/proposals/[A-Za-z0-9_.-]+\.md) -->", row["row"])
+     if not marker and "decisions-options" not in row["row"]:
+         return None
+     if len(marker) != 1 or row["row"].count("decisions-options") != 1:
+         raise ValueError("Expected one explicit decisions-options source pointer")
++    return marker[0]
++
++
++def source_for(repo, row, commit, current=False):
++    path = pointer_for(row)
++    if path is None:
++        return None
+     if row["kind"] != "DECISION":
+         raise ValueError("Options require one DECISION row; mixed/task rows need owner reconciliation")
+-    path = marker[0]
+     text = repo.read(path, commit, prefix="PROME/proposals")
+     if current and repo.read(path, clean=True, prefix="PROME/proposals") != text:
+         raise ValueError("Option source is not published; refresh after PROME finishes")
+     record = record_block(text, "decisions-options")
+     version = record.get("schema_version") if isinstance(record, dict) else None
+-    expected = {"schema_version", "wq_id", "queue_row_sha256", "choices"}
+-    if version == "decisions-options/2":
++    stable = version == "decisions-options/3"
++    binding = "queue_terms_sha256" if stable else "queue_row_sha256"
++    expected = {"schema_version", "wq_id", binding, "choices"}
++    if stable:
++        expected |= {"context", "conditions"}
++    if version in {"decisions-options/2", "decisions-options/3"}:
+         expected |= {"recommended_choice_id", "confirmation"}
+     fields(record, expected, "Options")
+-    if (version not in {"decisions-options/1", "decisions-options/2"} or type(record["wq_id"]) not in (str, int)
++    if (version not in {"decisions-options/1", "decisions-options/2", "decisions-options/3"} or type(record["wq_id"]) not in (str, int)
+             or str(record["wq_id"]) != row["n"]
+-            or record["queue_row_sha256"] != hashlib.sha256(row["row"].encode()).hexdigest()):
++            or record[binding] != (terms_hash(row) if stable else hashlib.sha256(row["row"].encode()).hexdigest())):
+         raise ValueError("Options do not bind this exact queue row")
+     choices = record["choices"]
+     if not isinstance(choices, list) or not 2 <= len(choices) <= 20:
+@@ -40,9 +58,16 @@ def source_for(repo, row, commit, current=False):
+             raise ValueError("Option IDs must be unique and unambiguous")
+         ids.add(choice["id"])
+     result = {"path": path, "commit": commit, "text": text, "choices": choices}
+-    if version == "decisions-options/2":
++    if version in {"decisions-options/2", "decisions-options/3"}:
+         recommended = record["recommended_choice_id"]
+         if recommended is not None and (not isinstance(recommended, str) or recommended not in ids):
+             raise ValueError("Recommendation must identify an explicit choice or be null")
+         result.update(recommended_choice_id=recommended, confirmation=validate_policy(record["confirmation"]))
++    if stable:
++        context, conditions = record["context"], record["conditions"]
++        if (not isinstance(context, str) or not context.strip() or len(context) > 20000
++                or not isinstance(conditions, list) or len(conditions) > 30
++                or any(not isinstance(c, str) or not c.strip() or len(c) > 10000 for c in conditions)):
++            raise ValueError("Stable cards require explicit bounded context and conditions")
++        result.update(binding="question-options/1", context=context, conditions=conditions)
+     return result
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/queue_store.py b/AGENTS/CATO/prototypes/decisions/mvp/queue_store.py
+index a6b8317645..d36505fe89 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/queue_store.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/queue_store.py
+@@ -10,7 +10,7 @@ import tempfile
+ 
+ from pilot_files import Repo, chain, fields, read_receipts, strict_json
+ from store import HERE, Store, digest, encoded, identifier, reader
+-from options import source_for
++from options import source_for, terms_hash, pointer_for
+ from authorization import needs_chat
+ 
+ QUEUE = "PROME/WILL_QUEUE.md"
+@@ -46,8 +46,8 @@ def open_rows(text):
+ def unit_for(row, options=None):
+     c = row["cells"]
+     return {"id": c[0] + ".queue", "kind": "hands" if row["kind"] == "HANDS" else "decision",
+-            "proposal": {"question": c[1], "context": c[6], "choices": options["choices"] if options else [],
+-                         "recommendation": {"reason": c[5], "option_id": (options or {}).get("recommended_choice_id")}, "caveats": []},
++            "proposal": {"question": c[1], "context": options["context"] if options and options.get("binding") else c[6], "choices": options["choices"] if options else [],
++                         "recommendation": {"reason": c[5], "option_id": (options or {}).get("recommended_choice_id")}, "caveats": options["conditions"] if options and options.get("binding") else []},
+             "timing": {"needed_by": row["due"], "meaning": c[3], "revisit_condition": None},
+             "disposition": {"state": "outstanding" if row["kind"] == "HANDS" else "awaiting_answer"},
+             "queue_kind": row["kind"], "blocked": row["blocked"]}
+@@ -62,17 +62,19 @@ def validate_reply(repo, event, wq):
+         raise ValueError("Queue response hash mismatch")
+     d, r = event["display"], event["request"]
+     expected = {"kind", "record", "source_path", "source_commit", "queue_row", "presentation_sha256"}
+-    if d.get("kind") == "decisions-queue-display/2":
++    if d.get("kind") in {"decisions-queue-display/2", "decisions-queue-display/3"}:
+         expected.add("options_source")
+     fields(d, expected, "Queue snapshot")
+     fields(r, {"id", "display_hash", "unit_id", "action", "choice_id", "note", "revisit", "supersedes"}, "Queue request")
+-    if d["kind"] not in {"decisions-queue-display/1", "decisions-queue-display/2"} or d["source_path"] != QUEUE:
++    if d["kind"] not in {"decisions-queue-display/1", "decisions-queue-display/2", "decisions-queue-display/3"} or d["source_path"] != QUEUE:
+         raise ValueError("Wrong queue source")
+     repo.git("merge-base", "--is-ancestor", d["source_commit"], "origin/master")
+     row = open_rows(repo.read(QUEUE, d["source_commit"])).get(wq)
+-    options = source_for(repo, row, d["source_commit"]) if row and d["kind"].endswith("/2") else None
+-    if d["kind"].endswith("/2") and (options is None or d["options_source"] != options):
++    options = source_for(repo, row, d["source_commit"]) if row and d["kind"] in {"decisions-queue-display/2", "decisions-queue-display/3"} else None
++    if d["kind"] in {"decisions-queue-display/2", "decisions-queue-display/3"} and (options is None or d["options_source"] != options):
+         raise ValueError("Saved choices differ from published source")
++    if (d["kind"] == "decisions-queue-display/3") != bool(options and options.get("binding")):
++        raise ValueError("Saved binding version differs from published source")
+     if row is None or row["row"] != d["queue_row"] or d["record"] != {"wq_id": wq, "units": [unit_for(row, options)]}:
+         raise ValueError("Saved queue terms differ from published source")
+     if row["blocked"] or r["unit_id"] != wq + ".queue" or r["id"] != event["id"] or r["display_hash"] != digest(d):
+@@ -128,13 +130,19 @@ def current_source(repo, wq):
+     head = open_rows(repo.read(QUEUE)).get(wq)
+     if not published or not current or not head:
+         raise ValueError("Published/current queue item unavailable or changed; sync after PROME finishes its update")
+-    if not (published["row"] == current["row"] == head["row"]):
+-        raise ValueError("Queue terms changed or are not yet published; refresh after PROME finishes")
+     import hashlib
+-    options = source_for(repo, current, commit, current=True)
+-    result = {"kind": "decisions-queue-display/2" if options else "decisions-queue-display/1",
+-              "record": {"wq_id": wq, "units": [unit_for(current, options)]},
+-              "source_path": QUEUE, "source_commit": commit, "queue_row": current["row"],
++    options = source_for(repo, published, commit, current=True)
++    stable = bool(options and options.get("binding"))
++    if stable:
++        if any(terms_hash(row) != terms_hash(published) or pointer_for(row) != options["path"]
++               for row in (current, head)):
++            raise ValueError("Queue terms changed or are not yet published; refresh after PROME finishes")
++    elif not (published["row"] == current["row"] == head["row"]):
++        raise ValueError("Queue terms changed or are not yet published; refresh after PROME finishes")
++    # Snapshot only published wording, even when operational Notes are dirty.
++    result = {"kind": "decisions-queue-display/3" if stable else "decisions-queue-display/2" if options else "decisions-queue-display/1",
++              "record": {"wq_id": wq, "units": [unit_for(published, options)]},
++              "source_path": QUEUE, "source_commit": commit, "queue_row": published["row"],
+               "presentation_sha256": hashlib.sha256((HERE / "desk.html").read_bytes()).hexdigest()}
+     if options:
+         result["options_source"] = options
+@@ -143,7 +151,10 @@ def current_source(repo, wq):
+ 
+ def check_current_snapshot(repo, snapshot):
+     d = current_source(repo, snapshot["record"]["wq_id"])
+-    if any(snapshot[k] != d[k] for k in ("record", "queue_row", "presentation_sha256")):
++    keys = ("kind", "record", "presentation_sha256")
++    if snapshot["kind"] != "decisions-queue-display/3":
++        keys += ("queue_row",)
++    if any(snapshot[k] != d[k] for k in keys):
+         raise ValueError("Terms changed since this answer was saved; review and save again")
+     for key in ("path", "text", "choices"):
+         if (snapshot.get("options_source") or {}).get(key) != (d.get("options_source") or {}).get(key):
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/author_card.py
+@@ -0,0 +1,167 @@
++#!/usr/bin/env python3
++"""Prepare one explicit card and queue-pointer patch; never publish or answer.
++
++The output directory must be new. Apply with --apply PREPARED_DIRECTORY,
++then commit/publish the two named source paths together.
++"""
++import argparse
++import difflib
++import hashlib
++import json
++from pathlib import Path
++import re
++import subprocess
++
++from options import pointer_for, source_for, terms_hash
++from pilot_files import fields, strict_json
++from queue_store import QUEUE, open_rows
++from store import reader
++
++
++def read_exact(path):
++    with Path(path).open(encoding='utf-8', newline='') as stream:
++        return stream.read()
++
++
++def prepare(root, wq, specification, *, replace_source=False):
++    root = Path(root).resolve()
++    if not re.fullmatch(r'[1-9][0-9]*[a-z]?', wq):
++        raise ValueError('Expected one WQ number')
++    fields(specification, {'choices', 'recommended_choice_id', 'context', 'conditions'}, 'Card input')
++    queue_path = root / QUEUE
++    if queue_path.is_symlink() or not queue_path.resolve().is_relative_to(root):
++        raise ValueError('Queue must be a regular file inside the repository')
++    before = read_exact(queue_path)
++    row = open_rows(before).get(wq)
++    if not row or row['kind'] != 'DECISION' or row['blocked']:
++        raise ValueError('Card authoring requires an open, unblocked DECISION row')
++    old_pointer = pointer_for(row)
++    path = old_pointer or f'PROME/proposals/wq{wq}-app-options.md'
++    target = root / path
++    if target.is_symlink() or not target.resolve().is_relative_to(root):
++        raise ValueError('Source must stay inside the repository without a symlink')
++    if target.exists() and not replace_source:
++        raise ValueError('Existing source preserved; review it and use --replace-source explicitly')
++    if old_pointer and not target.is_file():
++        raise ValueError('Existing pointer has no source; reconcile it before authoring')
++    previous_source = read_exact(target) if target.exists() else ''
++    if not before.endswith('\n') or (previous_source and not previous_source.endswith('\n')):
++        raise ValueError('Source files must end in a newline before preparing a patch')
++    if old_pointer:
++        updated = row['row']
++    else:
++        updated = row['row'].rstrip()
++        if not updated.endswith('|'):
++            raise ValueError('Queue row must have its closing table delimiter')
++        updated = updated[:-1].rstrip() + f' <!-- decisions-options: {path} --> |'
++    lines = before.splitlines(keepends=True)
++    hits = [i for i, line in enumerate(lines) if line.rstrip('\r\n') == row['row']]
++    if len(hits) != 1:
++        raise ValueError('Queue row is ambiguous; no patch generated')
++    ending = '\r\n' if lines[hits[0]].endswith('\r\n') else '\n'
++    lines[hits[0]] = updated + ending
++    after = ''.join(lines)
++    updated_row = open_rows(after)[wq]
++    record = dict(schema_version='decisions-options/3', wq_id=wq,
++                  queue_terms_sha256=terms_hash(updated_row), **specification,
++                  confirmation={'mode': 'chat', 'scope': 'other',
++                                'reason': 'Matching PROME-chat confirmation remains required under the installed fallback.'})
++    source = ('# WQ-' + wq + ' — explicit decision card\n\n'
++              'Question, options, context and conditions are decision terms. Queue Notes are operational; '
++              'put changed conditions here or in the question, not only in Notes.\n\n'
++              '```decisions-options\n' + json.dumps(record, ensure_ascii=False, indent=2) + '\n```\n')
++    class Source:
++        def read(self, *args, **kwargs):
++            return source
++    source_for(Source(), updated_row, 'candidate')  # Use the installed reader's full validation.
++    patch = ''
++    for name, old, new, exists in ((QUEUE, before, after, True), (path, previous_source, source, target.exists())):
++        if old == new:
++            if name == QUEUE:
++                # A replacement still needs the exact target row as a patch precondition.
++                start, end = max(0, hits[0] - 3), min(len(lines), hits[0] + 4)
++                number, count = start + 1, end - start
++                patch += (f'--- a/{QUEUE}\n+++ b/{QUEUE}\n'
++                          f'@@ -{number},{count} +{number},{count} @@\n')
++                for i in range(start, end):
++                    patch += ('-' + lines[i] + '+' + lines[i]) if i == hits[0] else ' ' + lines[i]
++            continue
++        patch += ''.join(difflib.unified_diff(old.splitlines(keepends=True), new.splitlines(keepends=True),
++                         fromfile='a/' + name if exists else '/dev/null', tofile='b/' + name))
++    return {'wq': wq, 'source_path': path, 'source': source, 'patch': patch,
++            'patch_sha256': hashlib.sha256(patch.encode()).hexdigest(),
++            'queue_preimage_sha256': hashlib.sha256(before.encode()).hexdigest(),
++            'source_preimage_sha256': hashlib.sha256(previous_source.encode()).hexdigest() if target.exists() else None,
++            'queue_terms_sha256': record['queue_terms_sha256']}
++
++
++def apply_prepared(root, directory):
++    """Owner-controlled apply: verify both full preimages, then apply without staging.
++
++    The owner must have exclusive write custody of queue/source during this short
++    operation, as for ordinary Git application. This is not a cross-process lock.
++    """
++    root, directory = Path(root).resolve(), Path(directory).resolve()
++    manifest = strict_json((directory / 'manifest.json').read_text())
++    fields(manifest, {'wq', 'source_path', 'queue_preimage_sha256',
++                     'source_preimage_sha256', 'queue_terms_sha256', 'patch_sha256'}, 'Prepared card')
++    source = manifest['source_path']
++    if not isinstance(source, str) or not source.startswith('PROME/proposals/') or '..' in Path(source).parts:
++        raise ValueError('Invalid prepared source path')
++    patch = directory / 'card.patch'
++    patch_bytes = patch.read_bytes()
++    if hashlib.sha256(patch_bytes).hexdigest() != manifest['patch_sha256']:
++        raise ValueError('Prepared patch changed; prepare it again')
++
++    def check_preimages():
++        for name, expected in ((QUEUE, manifest['queue_preimage_sha256']),
++                               (source, manifest['source_preimage_sha256'])):
++            path = root / name
++            if path.is_symlink() or not path.resolve().is_relative_to(root):
++                raise ValueError('Owner path must stay inside the repository without a symlink')
++            actual = hashlib.sha256(path.read_bytes()).hexdigest() if path.exists() else None
++            if actual != expected:
++                raise ValueError('Owner file changed since preparation: ' + name)
++
++    check_preimages()
++    for arguments in (['--check'], []):
++        check_preimages()
++        result = subprocess.run(['git', 'apply', *arguments, '-'], input=patch_bytes,
++                                cwd=root, capture_output=True)
++        if result.returncode:
++            raise ValueError('Prepared patch refused: ' + result.stderr.decode(errors='replace').strip())
++    return {'applied': str(directory), 'source': source,
++            'next': 'Owner reviews and publishes queue/source together; nothing was staged or sent.'}
++
++
++def main(argv=None):
++    parser = argparse.ArgumentParser(description=__doc__)
++    parser.add_argument('--root', type=Path, default=reader.ROOT)
++    parser.add_argument('--apply', type=Path, help='Apply a prepared directory after checking both owner-file preimages')
++    parser.add_argument('--wq')
++    parser.add_argument('--input', type=Path, help='JSON: choices, recommended_choice_id, context, conditions')
++    parser.add_argument('--output', type=Path, help='New artifact directory; existing directories are refused')
++    parser.add_argument('--replace-source', action='store_true')
++    args = parser.parse_args(argv)
++    try:
++        if args.apply:
++            if args.wq or args.input or args.output or args.replace_source:
++                raise ValueError('--apply cannot be combined with preparation arguments')
++            print(json.dumps(apply_prepared(args.root, args.apply)))
++            return 0
++        if not (args.wq and args.input and args.output):
++            raise ValueError('Preparation requires --wq, --input and --output')
++        result = prepare(args.root, args.wq, strict_json(args.input.read_text()), replace_source=args.replace_source)
++        args.output.mkdir(parents=True, exist_ok=False)
++        (args.output / 'source.md').write_text(result.pop('source'))
++        (args.output / 'card.patch').write_text(result.pop('patch'))
++        (args.output / 'manifest.json').write_text(json.dumps(result, indent=2) + '\n')
++        print(json.dumps({'prepared': str(args.output), 'source': result['source_path'],
++                          'next': 'Owner uses --apply on this directory, then publishes queue/source together; nothing was applied or sent.'}))
++        return 0
++    except (ValueError, OSError) as error:
++        parser.exit(2, f'Card operation refused: {error}\n')
++
++
++if __name__ == '__main__':
++    main()
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/WQ639.md
+@@ -0,0 +1,52 @@
++# WQ-639 candidate — not installed
++
++Approved work: owner card-authoring command and a question/options binding that tolerates running Notes edits. Runtime changes stay in an isolated candidate until the required independent acceptance and owner activation. Existing chat confirmation remains mandatory; no notification hooks or real responses.
++
++Acceptance before implementation:
++- Generate an explicit card source, pointer and binding from a named open DECISION row, supplied choices/recommendation, locked context/conditions and chat policy. No inferred choice, condition or authority.
++- Preparation outputs a reviewable two-file patch without owner mutations. The supported --apply operation must check both complete owner-file preimages and patch integrity before mutation; stale inputs refuse. It does not stage, publish, answer or change acceptance. Existing owner text is preserved and replacing an authored source requires explicit opt-in.
++- New schema only: running Notes changes do not invalidate it. Question, type, date, recommendation, blocked status, pointer, choices, confirmation policy, context, conditions and explanation changes still block a pending answer. A closed/missing row always blocks.
++- Save snapshots retain exact published provenance; unpublished notes cannot be relabelled as published. Existing /1 and /2 sources, answers and receipts retain their original strict binding and historical replay.
++- Preserve a real producer row and test Notes before/after publication, stale patches, duplicate/missing/wrong identities, meaningful changes, hidden WAIT declarations, parallel owner edits and history replay/delivery with fake repositories.
++- Do not manufacture a repair for WQ-558: inspect its current integrated receipt/UI first, and preserve superseded history. A current recorded answer must not demand clarification again.
++
++Scope excludes owner policy/queue application, live notification proof, new app-only authority and agent launches. Single-owner publication of generated patches remains PROME's normal Git responsibility; patch creation does not publish or execute a decision.
++
++## Owner usage after acceptance
++
++Create an input JSON with exactly these fields (all wording is owner-authored):
++
++```json
++{
++  "choices": [
++    {"id": "A", "label": "Do the bounded task", "meaning": "Only the named task.", "consequence": "No recurring work."},
++    {"id": "B", "label": "Decline", "meaning": "Do not do the task.", "consequence": "No change."}
++  ],
++  "recommended_choice_id": "A",
++  "context": "The full explanation needed to understand the decision.",
++  "conditions": ["Preserve the important restriction."]
++}
++```
++
++Use `null` for an explicit absence of recommendation. Empty conditions are allowed only when the owner determines there are none. This is a source-authoring tool, not a semantic completeness checker: the owner must carry material caveats from the queue into context/conditions, choices or the question. Changes to a material condition belong there, never solely in operational Notes.
++
++```sh
++python3 AGENTS/CATO/prototypes/decisions/mvp/author_card.py \
++  --wq 123 --input /tmp/card-input.json --output /tmp/prepared-wq123
++```
++
++Preparation creates `source.md`, `card.patch` and a preimage/binding/patch-integrity manifest in a new directory. Preparation neither changes the queue nor stages/commits/pushes. A missing/closed/mixed/blocked row or bad/ambiguous input refuses. Existing source replacement requires `--replace-source` after the owner reads the original. At an ordinary owner touch, use `python3 AGENTS/CATO/prototypes/decisions/mvp/author_card.py --apply /tmp/prepared-wq123`, then use existing exact-path publication for its two files. This checks the complete queue and source preimages, including appends and existing-pointer replacements, and patch integrity before application; any change requires regeneration. Raw `git apply` is not the supported application workflow: it cannot enforce the manifest preimages. The owner must hold exclusive write custody of these files during the short apply operation, as for ordinary Git application; this command does not lock out arbitrary external writers. No index, commit or publication change occurs during apply. Do not apply /3 sources before installing the matching accepted reader. The runtime refuses partial publication; existing /1 and /2 cards continue working.
++
++## Binding and history
++
++Only new `decisions-options/3` cards opt in. The binding covers the first six queue columns plus declared blocked state; the pointer and full option-source text are independently compared. The source includes explicit locked context and conditions. Running Notes do not become new decision terms, and the exact historical row still travels in the immutable snapshot. An unpublished Notes edit is never recorded as published wording. Old /1-/2 sources/answers remain strict; do not rewrite old responses or receipts to opt them in.
++
++Changing question, options, recommendation, deadline, type, hold state, pointer, locked explanation, conditions or confirmation policy still invalidates an unsent answer. Closing/removing the row prevents a new answer or delivery. A replaced old source needs a fresh answer, not retroactive approval. The legacy pilot's integrated answer remains historical; recorded cards no longer offer disabled recommendation controls.
++
++## Deployment boundary
++
++The candidate changes the runtime hash map and the HTML presentation hash. Installation must preserve the reviewed acceptance contract: independent review without blocking findings, exact accepted build hashes and owner-controlled published acceptance. Existing unsent responses may require a fresh review because the HTML hash changes; preserve their words/history. Do not hand-commit `decisions/queue-responses` files. Keep `app_only_enabled: false`; no hooks or live-alert authority are included. Notification proof remains a separate real-session observation with PROME.
++
++## IR-639-1 repair acceptance
++
++Replacement apply must refuse question change, closure, pointer swap, source edits/appends and queue appends, preserving both current files. Unchanged replacement and fresh-card apply must succeed without staging. Changed patch bytes refuse. Replacement patches also retain an exact target-row hunk even when the pointer is unchanged. Original historical review and its BLOCK remain evidence for the superseded candidate; a focused independent recheck must assess these repaired bytes.
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_wq639.py
+@@ -0,0 +1,248 @@
++"""WQ-639 authoring, versioned binding and concurrent-change counterexamples."""
++import json
++from pathlib import Path
++import subprocess
++import unittest
++import io
++from contextlib import redirect_stderr
++
++import author_card
++import delivery
++from options import terms_hash
++from pilot_files import record_block
++from queue_store import QUEUE, QueueStore, check_current_snapshot, open_rows, validate_reply
++from store import HERE, digest
++from test_desk import DeskTests
++
++
++class CardTests(unittest.TestCase):
++    setUp = DeskTests.setUp
++    git = DeskTests.git
++    put = DeskTests.put
++    commit = DeskTests.commit
++    request = DeskTests.request
++    install_options = DeskTests.install_options
++
++    def spec(self):
++        return dict(choices=[dict(id='A', label='Do it', meaning='One bounded task.', consequence='No ongoing job.'),
++                             dict(id='B', label='Decline', meaning='Do not do it.', consequence='No change.')],
++                    recommended_choice_id='A', context='Exact source explanation.', conditions=['Only after review.'])
++
++    def install(self):
++        result = author_card.prepare(self.root, '901', self.spec())
++        before = self.git('status', '--porcelain')
++        self.assertEqual(before, '')
++        patch = Path(self.tmp.name) / 'card.patch'; patch.write_text(result['patch'])
++        self.git('apply', '--check', str(patch)); self.git('apply', str(patch))
++        self.commit(publish=True)
++        self.display = self.store.display()
++        self.assertEqual(self.display['snapshot']['kind'], 'decisions-queue-display/3')
++        self.assertTrue(self.display['requires_confirmation'])
++        self.path = result['source_path']
++        return result
++
++    def notes(self, *, publish=False, commit=False):
++        old = self.repo.path(QUEUE).read_text()
++        self.put(QUEUE, old.replace('Exact caveat', 'Owner progress updated; no change to decision terms'))
++        if publish or commit:
++            self.commit(publish=publish)
++
++    def test_author_patch_preserves_other_rows_and_pins_conditions(self):
++        before = open_rows(self.text)['902']['row']
++        result = self.install()
++        self.assertEqual(open_rows(self.repo.path(QUEUE).read_text())['902']['row'], before)
++        self.assertEqual(self.display['unit']['proposal']['caveats'], ['Only after review.'])
++        self.assertEqual(self.display['unit']['proposal']['context'], 'Exact source explanation.')
++        self.assertEqual(result['queue_terms_sha256'], terms_hash(open_rows(self.repo.path(QUEUE).read_text())['901']))
++        with self.assertRaisesRegex(ValueError, 'Existing source'):
++            author_card.prepare(self.root, '901', self.spec())
++        self.assertEqual(self.git('status', '--porcelain'), '')
++
++    def test_notes_dirty_committed_published_preserve_saved_answer_and_provenance(self):
++        self.install()
++        snapshot = self.display['snapshot']
++        self.notes()
++        event = self.store.save(self.request(action='choose', choice_id='A'))
++        self.assertEqual(event['display'], snapshot)  # unpublished notes are not laundered into history
++        check_current_snapshot(self.repo, event['display'])
++        self.commit()
++        check_current_snapshot(self.repo, event['display'])
++        self.git('push', '-q')
++        check_current_snapshot(self.repo, event['display'])
++        validate_reply(self.repo, event, '901')
++        delivery.deliver(self.repo, event)
++        self.assertEqual(delivery.delivery_state(self.repo, event), 'delivered')
++        restored = QueueStore(Path(self.tmp.name)/'restored.sqlite3', self.repo, '901', True).display()
++        self.assertEqual(restored['last'], event)
++        self.assertTrue(restored['can_respond'])
++
++    def test_question_date_recommendation_kind_and_hold_still_block(self):
++        self.install()
++        original = self.repo.path(QUEUE).read_text()
++        variants = [('A: one task', 'A: two tasks'), ('2026-11-06', '2026-11-07'),
++                    ('A with a condition', 'B instead'), ('| DECISION |', '| HANDS |'),
++                    ('Exact caveat', '⛔ waits: owner; Exact caveat')]
++        for old, new in variants:
++            with self.subTest(change=old):
++                self.put(QUEUE, original.replace(old, new, 1))
++                with self.assertRaises(ValueError):
++                    self.store.save(self.request(action='choose', choice_id='A'))
++                self.assertEqual(self.store.responses()['events'], [])
++        self.put(QUEUE, original)
++        self.put(QUEUE, original.replace('A: one task', 'CLOSED A: one task'))
++        with self.assertRaises(ValueError): check_current_snapshot(self.repo, self.display['snapshot'])
++
++    def test_source_changes_and_pointer_changes_block(self):
++        self.install()
++        original = self.repo.path(self.path).read_text()
++        record = record_block(original, 'decisions-options')
++        for key, value in [('recommended_choice_id','B'), ('conditions',['New condition']),
++                           ('context','New explanation'), ('choices', self.spec()['choices'][::-1]),
++                           ('confirmation', dict(mode='chat', scope='security', reason='Different scope'))]:
++            with self.subTest(key=key):
++                changed = {**record, key:value}
++                self.put(self.path, '```decisions-options\n'+json.dumps(changed)+'\n```\n')
++                with self.assertRaises(ValueError): check_current_snapshot(self.repo,self.display['snapshot'])
++                self.commit(publish=True)
++                with self.assertRaises(ValueError): check_current_snapshot(self.repo,self.display['snapshot'])
++                self.put(self.path, original); self.commit(publish=True)
++        self.put(QUEUE,self.repo.path(QUEUE).read_text().replace(self.path,'PROME/proposals/different.md'))
++        with self.assertRaises(ValueError): check_current_snapshot(self.repo,self.display['snapshot'])
++
++    def test_legacy_notes_binding_and_history_unchanged(self):
++        self.install_options()
++        event = self.store.save(self.request(action='choose',choice_id='A'))
++        self.notes()
++        with self.assertRaises(ValueError): check_current_snapshot(self.repo,event['display'])
++        self.commit(publish=True)
++        with self.assertRaises(ValueError): check_current_snapshot(self.repo,event['display'])
++        validate_reply(self.repo,event,'901')
++
++    def test_forged_version_or_context_does_not_reclassify_old_answer(self):
++        self.install()
++        event = self.store.save(self.request(action='choose',choice_id='A'))
++        for change in ('kind','context'):
++            bad = json.loads(json.dumps(event))
++            if change=='kind': bad['display']['kind']='decisions-queue-display/2'
++            else: bad['display']['record']['units'][0]['proposal']['context']='Invented'
++            bad['request']['display_hash']=digest(bad['display'])
++            bad['sha256']=digest({k:v for k,v in bad.items() if k!='sha256'})
++            with self.assertRaises(ValueError): validate_reply(self.repo,bad,'901')
++
++    def test_stale_generated_patch_refuses_without_overwriting_owner(self):
++        result=author_card.prepare(self.root,'901',self.spec())
++        patch=Path(self.tmp.name)/'stale.patch';patch.write_text(result['patch'])
++        self.notes(); before=self.repo.path(QUEUE).read_bytes()
++        with self.assertRaises(subprocess.CalledProcessError): self.git('apply',str(patch))
++        self.assertEqual(self.repo.path(QUEUE).read_bytes(),before)
++        self.assertFalse(self.repo.path(result['source_path']).exists())
++
++    def prepared_directory(self, result):
++        directory = Path(self.tmp.name) / 'replacement'
++        directory.mkdir()
++        (directory/'card.patch').write_text(result['patch'])
++        (directory/'manifest.json').write_text(json.dumps({k:v for k,v in result.items() if k not in ('source','patch')}))
++        return directory
++
++    def test_replacement_apply_checks_both_preimages_and_preserves_owner(self):
++        path = self.install_options()
++        queue, source = self.repo.path(QUEUE), self.repo.path(path)
++        original_queue, original_source = queue.read_bytes(), source.read_bytes()
++        result = author_card.prepare(self.root, '901', self.spec(), replace_source=True)
++        directory = self.prepared_directory(result)
++        variants = [original_queue.replace(b'A: one task', b'A: TEN tasks'),
++                    original_queue.replace(b'A: one task', b'CLOSED A: one task'),
++                    original_queue.replace(path.encode(), b'PROME/proposals/swapped.md'),
++                    original_queue + b'Owner appended another row.\n']
++        for changed in variants:
++            queue.write_bytes(changed)
++            with self.assertRaisesRegex(ValueError, 'Owner file changed'):
++                author_card.apply_prepared(self.root, directory)
++            self.assertEqual(queue.read_bytes(), changed)
++            self.assertEqual(source.read_bytes(), original_source)
++        queue.write_bytes(original_queue)
++        for changed in (original_source.replace(b'```', b'Changed\n```', 1), original_source+b'Owner new condition.\n'):
++            source.write_bytes(changed)
++            with self.assertRaisesRegex(ValueError, 'Owner file changed'):
++                author_card.apply_prepared(self.root, directory)
++            self.assertEqual(source.read_bytes(), changed)
++            self.assertEqual(queue.read_bytes(), original_queue)
++        source.write_bytes(original_source)
++        author_card.apply_prepared(self.root, directory)
++        self.assertEqual(queue.read_bytes(), original_queue)
++        self.assertEqual(source.read_text(), result['source'])
++        self.assertEqual(self.git('diff','--cached','--name-only'), '')
++
++    def test_replacement_raw_patch_also_guards_changed_target_row(self):
++        path = self.install_options()
++        result = author_card.prepare(self.root, '901', self.spec(), replace_source=True)
++        directory = self.prepared_directory(result)
++        source = self.repo.path(path).read_bytes()
++        queue = self.repo.path(QUEUE)
++        original = queue.read_bytes()
++        for changed in (original.replace(b'A: one task', b'A: TEN tasks'),
++                        original.replace(b'A: one task', b'CLOSED A: one task'),
++                        original.replace(path.encode(), b'PROME/proposals/other.md')):
++            queue.write_bytes(changed)
++            with self.assertRaises(subprocess.CalledProcessError): self.git('apply', str(directory/'card.patch'))
++            self.assertEqual(queue.read_bytes(),changed)
++            self.assertEqual(self.repo.path(path).read_bytes(),source)
++
++    def test_apply_cli_and_patch_integrity(self):
++        result = author_card.prepare(self.root, '901', self.spec())
++        directory = self.prepared_directory(result)
++        original = self.repo.path(QUEUE).read_bytes()
++        patch = directory/'card.patch'
++        patch.write_text(result['patch']+'\n')
++        with self.assertRaisesRegex(ValueError, 'patch changed'):
++            author_card.apply_prepared(self.root, directory)
++        self.assertEqual(self.repo.path(QUEUE).read_bytes(), original)
++        self.assertFalse(self.repo.path(result['source_path']).exists())
++        patch.write_text(result['patch'])
++        from contextlib import redirect_stdout
++        with redirect_stdout(io.StringIO()):
++            self.assertEqual(author_card.main(['--root',str(self.root),'--apply',str(directory)]),0)
++        self.assertEqual(self.repo.path(result['source_path']).read_text(),result['source'])
++
++    def test_invalid_author_inputs_never_touch_sources(self):
++        original=self.repo.path(QUEUE).read_bytes()
++        for wq in ('902','903','../901'):
++            with self.assertRaises(ValueError): author_card.prepare(self.root,wq,self.spec())
++        for change in [dict(recommended_choice_id='C'),dict(conditions='none'),dict(context=''),dict(choices=[]),dict(extra='x')]:
++            with self.assertRaises(ValueError): author_card.prepare(self.root,'901',{**self.spec(),**change})
++        self.assertEqual(self.repo.path(QUEUE).read_bytes(),original)
++        self.assertFalse(self.repo.path('PROME/proposals/wq901-app-options.md').exists())
++
++    def test_cli_prepares_artifacts_without_queue_or_index_writes(self):
++        import io
++        from contextlib import redirect_stdout
++        source=Path(self.tmp.name)/'input.json';source.write_text(json.dumps(self.spec()))
++        output=Path(self.tmp.name)/'prepared'
++        args=['--root',str(self.root),'--wq','901','--input',str(source),'--output',str(output)]
++        with redirect_stdout(io.StringIO()): self.assertEqual(author_card.main(args),0)
++        self.assertTrue((output/'card.patch').is_file())
++        self.assertEqual(self.git('status','--porcelain'),'')
++        self.assertEqual(self.git('diff','--cached','--name-only'),'')
++        with redirect_stderr(io.StringIO()), self.assertRaises(SystemExit): author_card.main(args)
++
++    def test_real_preserved_producer_can_be_explicitly_migrated(self):
++        fixture=json.loads((HERE/'fixtures/wq639-real-producer.json').read_text())
++        row=fixture['row']
++        self.put(QUEUE,'## OPEN\n\n| # | Item | Type | Needed by | Since | PROME rec | Notes |\n|---|---|---|---|---|---|---|\n'+row+'\n\n## RECENTLY DONE\n')
++        parsed=open_rows(self.repo.path(QUEUE).read_text())['639']
++        from options import pointer_for
++        self.put(pointer_for(parsed),fixture['options_source'])
++        self.commit(publish=True)
++        producer=record_block(fixture['options_source'],'decisions-options')
++        spec=dict(choices=producer['choices'],recommended_choice_id=producer.get('recommended_choice_id','A'),
++                  context=parsed['cells'][6],conditions=['Every answer still requires matching chat confirmation.'])
++        result=author_card.prepare(self.root,'639',spec,replace_source=True)
++        patch=Path(self.tmp.name)/'real.patch';patch.write_text(result['patch'])
++        self.git('apply',str(patch));self.commit(publish=True)
++        store=QueueStore(Path(self.tmp.name)/'real.sqlite3',self.repo,'639',True)
++        card=store.display()
++        self.assertEqual(card['unit']['proposal']['choices'],producer['choices'])
++        self.assertEqual(card['snapshot']['kind'],'decisions-queue-display/3')
++        self.assertTrue(card['requires_confirmation'])
++
++if __name__ == '__main__': unittest.main()
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_wq639_browser.py
+@@ -0,0 +1,56 @@
++"""Opt-in native browser test. Fixtures only; never sends an operator answer."""
++import json
++from pathlib import Path
++import tempfile
++from unittest.mock import patch
++
++import app
++from pilot_files import Repo
++from test_wq639 import CardTests
++from test_desk_browser import run_browser
++
++SCRIPT = r'''<script>(async()=>{
++for(let i=0;!model&&i<150;i++)await new Promise(r=>setTimeout(r,50));
++const checks=[];const check=(name,pass)=>checks.push({name,pass:!!pass});
++let c=model.cards.find(c=>c.wq_id==='901');let a=document.querySelector('[data-unit="901.queue"]');
++check('Versioned card shows exact question and choices',c.snapshot.kind==='decisions-queue-display/3'&&a.textContent.includes(c.unit.proposal.question)&&c.unit.proposal.choices.every(x=>a.textContent.includes(x.meaning)&&a.textContent.includes(x.consequence)));
++check('Locked conditions visible',a.textContent.includes('Only after review.'));
++check('Explicit recommended option enabled',recommendedChoice(c)?.id==='A'&&c.can_respond);
++check('Matching chat confirmation retained',c.requires_confirmation&&a.textContent.includes('confirm this same answer'));
++openReply(c);
++check('Review keeps conditions',document.getElementById('reply-terms').textContent.includes('Only after review.'));
++$('cancel').click();
++check('No answer fabricated',!c.last);
++check('Fits viewport',document.documentElement.scrollWidth<=innerWidth);
++const out=document.createElement('pre');out.id='test-results';out.hidden=true;out.textContent=JSON.stringify(checks);document.body.append(out);
++})();</script>'''
++PILOT = r'''<script>(async()=>{
++for(let i=0;!model&&i<150;i++)await new Promise(r=>setTimeout(r,50));
++view='History';render();const c=model.cards.find(c=>c.wq_id==='558');const a=document.querySelector('[data-unit="558.L884"]');
++const checks=[{name:'Real pilot has integrated receipt',pass:c?.receipt?.state==='integrated'},
++{name:'No current clarification demand',pass:!!a&&!a.textContent.includes('PROME needs clarification')&&a.textContent.includes('No further answer is needed')},
++{name:'No resend or answer button for recorded pilot',pass:!!a&&!a.querySelector('button')},
++{name:'Exact saved history remains accessible',pass:a?.textContent.includes('Saved history and receipt')}];
++const out=document.createElement('pre');out.id='test-results';out.hidden=true;out.textContent=JSON.stringify(checks);document.body.append(out);
++})();</script>'''
++
++
++def main():
++    work=Path(tempfile.mkdtemp(prefix='cato-wq639-browser-',dir='/mnt/c/Users/willi/AppData/Local/Temp'))
++    results={}
++    for label,width in [('card-desktop',1440),('card-narrow',620)]:
++        f=CardTests();f.setUp()
++        try:
++            f.install()
++            with patch('app.accepted',return_value=(True,'')):
++                desk=app.Desk(f.repo,Path(f.tmp.name)/'browser',True)
++                results[label]=run_browser(desk,SCRIPT,work,label,width)
++        finally:f.doCleanups()
++    # Real published history, disposable local state, responses disabled.
++    desk=app.Desk(Repo(Path('/home/willi/Research-workspace')),work/'real-preview',False)
++    results['real-pilot']=run_browser(desk,PILOT,work,'real-pilot',1440)
++    result=work/'results.json';result.write_text(json.dumps(results,indent=2))
++    print('RESULT_FILE',result)
++    return 0 if all(c['pass'] for run in results.values() for c in run['checks']) else 1
++
++if __name__=='__main__':raise SystemExit(main())
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/fixtures/wq639-real-producer.json
+@@ -0,0 +1,8 @@
++{
++  "provenance": {
++    "event": "53873e90a4a141a4b0691e7bf4d04626",
++    "commit": "5c59e216cf8ef2249ca2777f4c09a3c5e58c57a7"
++  },
++  "row": "| 639 | **How should a decision get into the Decisions app?** **A:** every new decision gets a card in the same step I register it, with its options and my marked recommendation, and that step publishes at once; I backfill the 5 open decisions and split the decision buried in WQ-495 into its own row; CATO gives me one command that writes the card and ties it to the question rather than to my running notes; my boot and pick-up read the app's answers \u00b7 **B:** keep today's way, cards only at normal touches \u00b7 **C:** something else. | DECISION | 2026-11-13 | 11/06 | **Rec: A.** Today no open decision has a card, no PROME manual mentions the app, and a card breaks whenever I add a note to its row. No new check is added. | Registered 2026-11-06 13:3x ET by PROME prome-51 from Will's question in chat. Boot and pick-up lines are PROME-manual edits, in scope of A. Pairs with WQ-638. <!-- decisions-options: PROME/proposals/2026-11-06_wq639-app-options.md --> |",
++  "options_source": "# WQ-639 \u2014 explicit app options\n\nPROME queue options and recommendation transcribed by CATO for button connection. The exact queue row remains authoritative, including all caveats. This card is not an approval or ruling.\n\n```decisions-options\n{\n  \"schema_version\": \"decisions-options/2\",\n  \"wq_id\": \"639\",\n  \"queue_row_sha256\": \"a0c3903d97ec058187d913dee8991c01fd58ccd857e92d08f1fc58cdf7ba3bc8\",\n  \"recommended_choice_id\": \"A\",\n  \"confirmation\": {\n    \"mode\": \"chat\",\n    \"scope\": \"other\",\n    \"reason\": \"The installed fallback requires matching confirmation in PROME\u2019s chat for every answer.\"\n  },\n  \"choices\": [\n    {\n      \"id\": \"A\",\n      \"label\": \"Create a card with each decision\",\n      \"meaning\": \"every new decision gets a card in the same step I register it, with its options and my marked recommendation, and that step publishes at once; I backfill the 5 open decisions and split the decision buried in WQ-495 into its own row; CATO gives me one command that writes the card and ties it to the question rather than to my running notes; my boot and pick-up read the app's answers\",\n      \"consequence\": \"PROME records this choice against the complete proposal and conditions shown on the card. The app executes no action; added changes require your words.\"\n    },\n    {\n      \"id\": \"B\",\n      \"label\": \"Keep cards at normal touches\",\n      \"meaning\": \"keep today's way, cards only at normal touches\",\n      \"consequence\": \"PROME records this choice against the complete proposal and conditions shown on the card. The app executes no action; added changes require your words.\"\n    },\n    {\n      \"id\": \"C\",\n      \"label\": \"Something else\",\n      \"meaning\": \"something else.\",\n      \"consequence\": \"PROME records this choice against the complete proposal and conditions shown on the card. The app executes no action; added changes require your words.\"\n    }\n  ]\n}\n```\n"
++}

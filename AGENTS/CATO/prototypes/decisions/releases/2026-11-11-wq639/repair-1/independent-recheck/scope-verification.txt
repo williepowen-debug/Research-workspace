@@ -1,0 +1,3 @@
+AGENTS/CATO/prototypes/decisions/mvp/author_card.py
+AGENTS/CATO/prototypes/decisions/mvp/WQ639.md
+AGENTS/CATO/prototypes/decisions/mvp/test_wq639.py

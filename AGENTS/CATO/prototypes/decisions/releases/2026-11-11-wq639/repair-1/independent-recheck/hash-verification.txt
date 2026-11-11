@@ -1,0 +1,1 @@
+Verified manifest patch and changed paths; all runtime hashes verified.
