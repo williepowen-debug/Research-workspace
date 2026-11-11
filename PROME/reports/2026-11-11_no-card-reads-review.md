@@ -2,7 +2,7 @@
 
 **By:** PROME prome-2b, 2026-11-11 12:33 ET (from `date`), from TERRY's seven return packets in `PROME/inbox/processed/2026-11-11_from-TERRY_*` read whole. **Why:** CATO's morning review (`AGENTS/CATO/runs/2026-11-11_1150_morning-work-review.md`) asked whether a no-card answer finishes the work or leaves a finding stranded between desks. **Scope:** one day, eleven reads, existing records only. Not a grade of TERRY's construction judgment, not a trade proposal, and not a claim about returns.
 
-**Result: 4 finished, 5 with a next question that has an owner and a date, 2 stranded.** The two stranded ones now have an owner.
+**Result: 4 finished, 5 with a next question that has an owner and a date, 2 stranded.** *(Update 13:05 ET: Capital One finished the same afternoon, so 5 finished, 4 owned, 2 stranded and re-owned.)* The two stranded ones now have an owner.
 
 | # | Read | TERRY's main reason | What would change it | Class | Owner of the next question |
 |---|---|---|---|---|---|
@@ -11,7 +11,7 @@
 | 3 | Siemens Energy | datum ambiguous, market read it bullish | GE Vernova Q4 shows the same stall | OWNED | VULCAN row, about 1/27/2027 |
 | 4 | Japan Tobacco | fall about equals a full write-off; "loss not definable" | JT's own profit-share figure; a buyer; listed options | **STRANDED** | see below |
 | 5 | Multifamily special servicing | purest carrier already repriced; no owner criterion | a carrier not yet repriced; a loan-to-lender map | **STRANDED** | see below |
-| 6 | Capital One | resembles a card-lender group move | a Capital One-specific fact | OWNED | DEWEY, WQ-672 (Discover book) |
+| 6 | Capital One | resembles a card-lender group move | a Capital One-specific fact | FINISHED (13:05 ET update) | DEWEY answered WQ-672: NO SOURCED CAUSE, whole-book delinquency and charge-offs better than a year earlier; TERRY: NO CARD stands (d054224aff); stopped |
 | 7 | Cable One | down 63.5%, no options, short only | options return; a sale or support agreement | FINISHED | BROCK holds the 11/13 hearing row |
 | 8 | Airfares (MARCO) | cuts both ways, no owner direction | none named | FINISHED | none needed |
 | 9 | Polar vortex (AEOLUS) | owner sees no cold signal | none named | FINISHED | none needed |

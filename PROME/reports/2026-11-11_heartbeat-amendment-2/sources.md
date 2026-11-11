@@ -35,3 +35,9 @@ Not carried into the amendment, on purpose: intraday index and oil levels (not o
 | W6 the conditional Japan Tobacco long is not in the memo | RESIDUE, left out on purpose: no card exists and one unread primary figure decides it |
 | W8 the triage file shows 9 covered rows and "batches from 10/11" where WALTER's card and message say 13 and 10/10 | RESIDUE: the candidate attributes the counts to WALTER; the row-level mapping is WALTER's and was by hand |
 | W3 remainder (n = 3, 3-year flat, yen bonds +1.5 bp) | RESIDUE: detail stays in LIQUID's packet |
+
+**Result read (Sonnet, diff-bounded, on commit 49efa83a32; ledger `coldread_hb_amend2_result.md`; recorded 13:12 ET from `date`): 11 ok, 2 warnings, 0 failures.** Three files only; the memo's word diff is the chain counter and the inserted paragraph; the paragraph is byte-identical to `candidate.md`; every SoftBank figure matches SAM's table and each old figure is paired like for like; no unnamed SoftBank contradiction remains; the Capital One, BROCK-unread and CDS wordings match their sources. No edit was made after this read.
+
+**Residue from the result read, not fixed:** (1) channel 4 pairs 22.5% with Arm $183.26 (the 11/10 base's intraday price) while the amendment's 22.5% is at $181.49; the two are different calculations that land on the same rounded figure, and channel 4's SoftBank line is superseded by name. (2) Amendment 1's own header still says "(22.5%)" while its body says 22.9% and 22.7%; read alone it shows three figures. Both go away at the next re-base, which is also when this file rotates (74% of its read budget after this amendment).
+
+**States:** IMPLEMENTED (49efa83a32) · TESTED: not applicable, text · INDEPENDENTLY VERIFIED (candidate read, then the diff-bounded result read, 0 failures) · STILL UNRESOLVED: nothing in the amendment; the two residue items above are in the older text.
