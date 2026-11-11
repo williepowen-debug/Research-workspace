@@ -1,0 +1,17 @@
+# ACTIVE_DECISIONS rotation — 2026-11-11 (`prome-2b`, mid-session housekeeping on Will's word 11:29 ET, 2026-11-11 11:34 ET)
+**Pass manifest:** ① ONE finished row (VLO held-share December basis, WQ-386: EXECUTED 2026-11-05, `GATE-TERRY-VLO-HELD-01` RESOLVED) verbatim, crc32 3474124666 · ② ONE finished row (OZK Nov-20 $40P ×4 and WAL Dec-18 $65P ×4 pre-print sells, WQ-428 / WQ-429: EXPIRED 2026-10-31, DOCKET L709 RESOLVED) verbatim, crc32 1584353037 · ③ the stamp text that left the index's `Updated:` line, verbatim, crc32 3036261603 · no standing-guard bytes retained (neither row carries a never-rotate clause). Plan and reads: `PROME/proposals/2026-11-11_active-decisions-rotation-PLAN.md`. History, not instruction: positions are read from `FORGE/STATUS.md`, never from this file.
+
+## ① VLO held-share December basis (WQ-386)
+<!-- ROW BEGIN -->
+| **VLO held-share December basis (WQ-386)** | `WILL_APPROVED` 2026-10-07; **TERRY ENCODED 76c75516b (card § 2-bis, byte-identical to the ruling at 5d978cf73); PROME receipt 22:51 ET 10/7** | TERRY grades at its touches; PROME consumes | WQ-420 prospective precision/window wording APPROVED 10/11; encoding independently ACCEPTED October 14 and owner acknowledgment verified (`PROME/reports/2026-10-14_TERRY-acceptance/disposition.json`). **EXECUTED 2026-11-05: Will sold the original share at $366.665, realized −$45.33 (TERRY 42b47b6b8); GATE-TERRY-VLO-HELD-01 RESOLVED; grade stands on $89.2472 [11/2], no exchange settle read. The 2 added shares carry no TERRY rule (D-78).** | none; L613 RESOLVED; rotate at the next rotation | `PROME/proposals/2026-10-07_VLO-december-management-RULED.md` · `PROME/GATES.tsv` GATE-TERRY-VLO-HELD-01 · DOCKET L471 |
+<!-- ROW END -->
+
+## ② OZK and WAL pre-print sells (WQ-428 / WQ-429)
+<!-- ROW BEGIN -->
+| **OZK Nov-20 $40P ×4 and WAL Dec-18 $65P ×4 — SELL before their prints (WQ-428 / WQ-429)** | `EXPIRED` 2026-10-31 (closed 19:04 ET in PROME's backlog pass 35357c88b, DOCKET L709 RESOLVED; this row written at the 19:2x ET closeout): both card windows (WAL Mon 10/19 15:30 ET; OZK backstop Tue 10/20 15:30 ET) and both prints passed with no sale on file; the 10/30 13:21 ET capture (FORGE 3064691ae, ANVIL-1030) still shows OZK Nov-20 40P ×4 and WAL Dec-18 65P ×4 held, so the lines ride — nothing inferred, no reminder (USER.md § No expiry nagging); a later sale is booked from Will's capture (TERRY, root rule #10). The ruling stands as given: Will approved the sells 10/14 21:32 ET, verbatim *"Approve 428, 429 and 430"* (`PROME/proposals/2026-10-14_wq428-430-RULED.md`). | Will (orders) · TERRY (books from his capture, root rule #10; packet `AGENTS/TERRY/inbox/processed/2026-10-14_from-PROME_WQ428-429-RULED-book-the-fills.md`) · ANVIL (mirror at the next reconcile) · PROME (records) | none — terminal; rotate this row out at the next ACTIVE_DECISIONS rotation | DOCKET L709 (RESOLVED 10/31); RED's tail-hold branch on the OZK card returns to Will only if HY ≥320 ×3 AND LIQ-07 S1 at the 10/16 read | `PROME/proposals/2026-10-14_wq428-430-RULED.md` · TERRY cards `OZK40P_nov20-sell-or-roll_preprint_2026-10-14.md` · `WAL65P_dec18-preprint-management_2026-10-14.md` |
+<!-- ROW END -->
+
+## ③ Prior `Updated:` stamp text
+<!-- STAMP BEGIN -->
+Prior: 2026-10-30 19:1x ET (end-of-day Standard closeout, prome-c5: byte-flow rotation — the CLOSED TRY-FIRE-004 row moved verbatim to the archive; the OZK/WAL sell row carries the 10/30 capture note; no gate or authority change). Prior stamps → `PROME/archive/ACTIVE_DECISIONS_ROTATION_2026-10-30.md` ②.
+<!-- STAMP END -->

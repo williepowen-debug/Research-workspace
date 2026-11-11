@@ -37,6 +37,20 @@ File before: 22387 B. After: 22387 B minus the two lines; the stamp line changes
 4. The archive file names the plan and gives each row's crc32.
 5. No live PROME file points at either moved row as living in the index (a pointer to the DOCKET or GATES row is fine).
 
+## FINAL, as executed (2026-11-11 11:34 ET)
+
+- Archive title line: `# ACTIVE_DECISIONS rotation — 2026-11-11 (\`prome-2b\`, mid-session housekeeping on Will's word 11:29 ET, 2026-11-11 11:34 ET)`.
+- Stamp text moved to section ③: 310 B, crc32 3036261603 (the sentence beginning `Prior: 2026-10-30 19:1x ET` and the pointer sentence after it).
+- Measured at the move: the index diff is four changed lines (the stamp line replaced, two rows deleted); digest and size by `python3 PROME/tools/active_decisions_digest.py`.
+
 ## Residue (filled after each read)
 
-*(empty before the plan read)*
+**Plan read, 2026-11-11 11:34 ET: Sonnet cold reader, SCORE 8 of 12 ok · ⚠️ 4 · ❌ 0; measurements reproduced. Episode read count: 1.** Ledger: the session scratchpad file `coldread_plan_ad.md`. Residue, declared, none fixed in the drafts above:
+
+- ⚠️ 3a: the Measurements table says R1's "Next" cell reads "none; L613 RESOLVED; rotate at the next rotation". In the row that text is the BACKSTOP cell; R1's State cell still leads with `WILL_APPROVED`, a non-terminal token, which is why the digest classed a finished row ACTIONABLE. The row's own later text (EXECUTED 2026-11-05; the gate RESOLVED) is what makes it finished. The mislabel is the plan's; the move is unaffected.
+- ⚠️ 5a: the new stamp mentions the intake-lane alert wording correction. That edit was already committed earlier the same day (0e5a42e19c); this rotation makes no second edit to that row.
+- ⚠️ 6a: the archive title line and the stamp crc32 were not in the draft; they are in FINAL above.
+- ⚠️ 7a: invariant 5 names no command. Checked at the move with `grep -rn` over `PROME/SCRATCH.md`, `PROME/STATUS.md`, `PROME/BOOT.md` and `HEARTBEAT.md` for the two row titles and their WQ numbers pointing into the index: no hit.
+- The plan was written against HEAD 5f8f7790a1; the index did not change between that commit and the move.
+
+**Result read:** pending at this commit.
