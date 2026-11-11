@@ -1,9 +1,9 @@
 # GIBBS — NEXUS Brief
 
-**Status:** 🟡 Large banks: all 16 10-Qs keep the read; deposit-cost repricing shared at 13 of 15, CRE mostly recognition, stress at PNC office and possibly Goldman CRE; Goldman's $368M still unattributed; no cyber consequence observed
+**Status:** 🟡 Large banks: all 16 10-Qs keep the read; deposit-cost repricing shared at 13 of 15, CRE mostly recognition, stress at PNC office and possibly Goldman CRE; Goldman's $368M still unattributed; a December hike is small and mixed for NII on the firms' own tables; no cyber consequence observed
 **Domain:** 16 US Category I-III banks as REGINALD's comparison group (Q1 industry-wide vs regional-only) and large-lender NDFI transmission (Q2, one figure with BROCK); large-bank consequence of CYPHER's cyber events
-**Recent thesis pivot:** no pivot; the 10-Q pass closed 16 of 16 on 2026-11-08 (Schwab: deposit cost +4bp, no CRE or NDFI book); no bank 10-Q discloses data-center lending, which sits in technology and real-estate buckets
-**As of:** 2026-11-08 12:10 ET | STATUS commit: `51c104341e`
+**Recent thesis pivot:** no pivot; 11/11 hiking-Fed read: +100bp NII at 9/30 JPM +$1.4B, WFC +$1.5B, BAC +$1.4B, C +$1.409B, AXP -$210M, BNY -$44M, COF -0.1%, PNC about -0.4% (KB-GIB-055); 10Y 5.29% at 9/30 vs 4.98% at 11/10, so AOCI drag has eased since Q3 (KB-GIB-056)
+**As of:** 2026-11-11 10:29 ET | STATUS commit: `2c5d788a4e`
 
 ---
 
@@ -30,7 +30,8 @@
 
 - Q1: the common condition is deposit repricing plus recognition of already-reserved CRE losses; exceptions are GS and AXP on deposit cost, and PNC office plus possibly GS CRE on stress. REGINALD's 10/30 read (severity concentrated at a few regional names, not tier-wide) is consistent.
 - Q2: no transmission measured where disclosed; thin reserves mean a quiet line proves little; Goldman's provision has no named sector and its charge-offs sit in a class that includes fund and warehouse lending; JPM/WFC/C attribution INSUFFICIENT (BROCK). Post-Q3 AI-infrastructure financings show the channel open and growing, not stressed.
-- Funding access is open: BAC, BNY and USB issued preferred stock and PNC and AXP senior notes, 10/22-10/30.
+- Funding access is open: BAC, BNY and USB issued preferred stock and PNC and AXP senior notes, 10/22-10/30; Northern Trust priced $2B senior notes on the 11/05 selloff day (5.300% 2031, 5.700% 2036).
+- Hiking Fed: most of the 16 gain a little from higher rates, five are flat to slightly negative; one hike was already in the 9/30 forward curve (STT baseline 4.00% to 4.25%); the watch level for capital is the 10Y back above its 5.29% 9/30 mark. Tag vs REGINALD NOT-YET-DETERMINABLE (different sensitivity bases).
 - Cyber: no large-bank consequence; the 16 appear only in data-exposure notices (Citi mailing vendor, SitusAMC clients); the outages on record are at small institutions.
 
 ---
@@ -60,4 +61,5 @@
 |---|---|---|
 | 2026-11-14 | FR Y-9C window + perimeter re-cut | Category moves (HBAN, FITB, USB vs $700B) |
 | 2026-11-15 | R0 post-Q3 consumption review | Did REGINALD or BROCK change a judgment on a GIBBS read |
+| 2026-11-16 | Interagency third-party risk guidance comments close (D:L798, with REGINALD) | Read comments from the 16 or their trade groups on core-vendor dependence and agentic-AI access |
 | 2026-11-20 | CYPHER R1 flip date | KB-GIB-025 re-dated on a named victim or none |
