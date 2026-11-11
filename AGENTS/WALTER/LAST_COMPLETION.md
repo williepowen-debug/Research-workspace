@@ -1,10 +1,11 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-11T15:04:22Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-1e on the desktop. **Tier 2 FULL closeout on Will's 10:01 ET word ("lets close WALTER here so we can reboot with a fresh context window").** Launch: Will, 08:37 ET. Cards SIG-W-20261111-001 to -015 (014 and 015 after the closeout, on PROME's relay, receipt updated). Prior: FULL 2026-11-11T00:34:56Z (walter-96). Before-image of this file: git history (375cbaeebb). **Reboot after /clear, 2026-11-11T15:40:08Z: Tier 1 light (full deferred); cards 016 to 019, see the light block below RESUME.**
+Updated 2026-11-11T19:53:35Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-1e on the desktop. **Tier 2 FULL closeout on Will's 10:01 ET word ("lets close WALTER here so we can reboot with a fresh context window").** Launch: Will, 08:37 ET. Cards SIG-W-20261111-001 to -015 (014 and 015 after the closeout, on PROME's relay, receipt updated). Prior: FULL 2026-11-11T00:34:56Z (walter-96). Before-image of this file: git history (375cbaeebb). **Reboot after /clear, 2026-11-11T15:40:08Z: Tier 1 light (full deferred); cards 016 to 019, see the light block below RESUME.**
 
 ## RESUME — do these first
 
-0. **Reboot block (2026-11-11T15:40:08Z, light):** cards 016 (IMMEDIATE, MARCO ENR-02 airline fares +23.27% 2-yr; ACTION CARL, REGINALD), 017 (DEWEY Citi 18.59% to 19.08%; ACTION CARL, TERRY — TERRY answered NO CARD unchanged, cdc5c510e8), 018 (DEWEY 003R PARTIAL six-bank Q3; ACTION REGINALD, TERRY; ledger row stays PARTIAL with this delivery), 019 (Anthropic reportedly not extending SpaceX compute past mid-2027, INDETERMINATE; ACTION VULCAN). CARL, REGINALD and VULCAN had no live session at 15:40Z (UNKNOWN, not DARK; each drained this morning); PROME decides wakes. BRENT asked by message (brent-e0) for the driver of oil +3% intraday (BZF27 94.43, 15:33Z vendor); BRENT replied: no driver found, no Iran, Hormuz or tanker item on 11/11; hypothesis only that the bearish 'Saudi output +26%' headline unwound once read at the table, or a bounce after −7.8% in two sessions; relayed 11/10 BZF27 settle about 91.49 (relay only); BRENT NOTE §9 0b805a08c2. No card. Boot steps 9 and 9a done after the reboot (Will 11:42 ET "Okay yes proceed"): LIAISON CARL and RED dormant (last turns May and June); outbox REQ-PROME-20261016-vulcan-intake-design is 26 days open and PARTLY deployed (GPU-collateral/obsolescence rows live at Research-Intake 5a3b083; the AI-financing collection and the Korean-locale collection not found in newsweep_config.py), owner PROME/Research-Intake, surfaced to Will; 9a corrections rc 0. Tricolor 341 (Real Estate Services entity) elapsed, outcome UNKNOWN, OTTO owns, no card. AI_INFRA_CAPEX coherence review DONE: design/AI_CAPEX_AXIS_CHECK_2026-11-11.md (KEEP; limb (a) no; limb (b) obsolescence 1, now a framing artifact since intake collects the subject; Will ADOPTED VULCAN's 5-axis re-cut 11:51 ET ("okay yes adopt vulcan rec"): CLUSTER_TAXONOMY v0.9, STATE.md row; VULCAN ratification asked by packet AGENTS/VULCAN/inbox/2026-11-11_from-WALTER_five-axis-recut-adopted-ratify.md (objection reverts to v0.8); misclustered: Oracle layoffs 20260929-010 re-filed to CONSUMER_STAGFLATION on Will's 11:58 ET word, 3 cyber cards kept by the v0.8 substance decision, 3 industrial cards kept (no cluster; 9 INDUSTRIAL_CYCLE cards scattered, revisit about 11/25); Ares lead read and routed as card 020, BROCK action). Open for PROME: the lane's gpu-obsolescence rows collected about 130 headlines WALTER's intake scan never surfaced (alert items only); whether the lane hands them to VULCAN and BROCK directly is unchecked.
+00. **Light closeout 2026-11-11T19:53:35Z (Will 14:52 ET), carry first:** five inbox packets UNPROCESSED, to step 7d and 7g at the next boot. (a) OTTO `inbox/SIG-OTTO-WALTER-20261111-tricolor-341-continued-to-2027-03-17.md`: Tricolor 341 continued to 2027-03-17 (Verita Dkt 1496), which answers the reboot calendar row; it also flags that card SIG-W-20261110-002 cites a non-existent path `…/2026-11-09_owed-rows/raw/…` (correct path `AGENTS/CARL/research/2026-11-09_HHDC_prep/raw/HHD_C_Report_2026Q3.xlsx`) and is a correction candidate under §3.6. (b) to (e) DEWEY `inbox/DEWEY/`: 003R placement continuation and 003R source/definition check (003R stays PARTIAL), L517 Plaza pre-read, WQ-672 Capital One cause (NO SOURCED CAUSE; PROME relays). DEWEY wrote its owner pointers; WALTER verifies them, runs the 2.8b quality gate and routes or logs. Owner answers open: CARL and REGINALD on 016; REGINALD and TERRY on 018; VULCAN on 019, 023 and the five-axis ratify; BROCK on 020, 021; CYPHER on 022 (N-able, most time-sensitive; CYPHER not live, PROME's wake). Calendar cutoff unchanged from the reboot. Light closeout checks (research/2026-11-11_light-closeout/checks.json): receipt, read-cap, archives, weekdays, static PASS; orphans advisory clean; ledger-nudge REVIEW: kill_log not written for today's lane triage, by design (dispositions of stale and no-action headlines live in research/2026-11-11_aicapex-review/BACKLOG-TRIAGE.md and research/2026-11-11_intake-catchup/REREAD.md, not credibility-map kills); REGISTRY last refreshed at the reboot.
+0. Reboot block of 15:40Z moved verbatim to research/2026-11-11_light-closeout/LC-ROTATED.md; its open owner answers are restated in item 00.
 
 1. **Owner answers still open on today's cards:** TERRY's USO tradeability read on 001/013 (should use Saudi supply about 9.2 mb/d, not 10.563); LIQUID on 007 (Skydance secured stack, any rating action), launched 10:1x ET; CORAL on 008 (Valkaria 24.69 in; is Brevard in the emergency order?). BRENT answered 013 (0d04288380: graded on 9.194 secondary sources; STEO 2.5 mb/d shut-in CONFIRMED on the level; the 1.36 mb/d produced-not-supplied, about 42M bbl if stored, contests BRENT's "January increment is paper" read before 11/29). VULCAN answered 002 and 003 (72a112145d). FALCON answered 005 (11abbdc7be; routed as 012).
 2. **RED grades RED-29 and the RED-FT-06 exit after 10:30 ET 11/12** (VIXCLS 18 or more on 11/6, 11/9, 11/10, 11/11; Nov 10 close 19.46 per VIOLET; ^VIX 18.35 pre-open 11/11). Watch only; RED owns.
@@ -67,23 +68,7 @@ The full approved ruling and six exact reopen conditions were moved verbatim to 
 
 ## OPEN DESIGN DECISIONS
 
-Authorized first cleanup pass implemented; results at research/2026-10-31_process-cleanup/REVIEW.md. Burst-window retirement approved and implemented; central transcription and publication verified complete. Outbox archive pass complete with reference-protected/uncertain records retained. Registrar and legacy VPS gaps closed at owner evidence; remaining bridge work retains its owner. Existing approvals below are preserved.
-
-Reconciled October 31 at current artifacts: research/2026-10-31_design-backlog/REVIEW.md. Completed components are removed from the active queue: CYPHER supplier WATCH_FOR adoption/configuration (51 phrases); CRUISE filing-watchlist and seven WATCH_FOR phrases; the claimed absence of a VULCAN useful-life instrument (live owner gate exists). These completions do not establish recall, source availability or recipient consumption.
-
-**Verdict F1/F2 COMPLETE:** approved by Will and implemented in CHECKLIST v0.57; evidence at research/2026-10-31_verdict-amendment/REVIEW.md. F3 remains fixed; F4 observation creates no new obligation.
-
-**Coverage fixes, WQ-598 RULED A (Will November 4 20:59 ET):** calendar catch-up (step 7i) and CRUISE_CAPITAL_REVIEW (step 7e(g)) installed at 05d47a8c8e, unrun until the next launched boot; PROME deploys the two supplier queries. No scheduler, unattended run or wake authority.
-- P2 lifecycle-candidate narrowing still rides the next regular sweep; no extra sweep commissioned in this maintenance pass.
-
-**Owner dependencies and retained decisions:**
-- PROME L730 advisory build is PENDING and explicitly KEPT under WQ-577. After its actual acceptance receipt, apply WQ-401’s approved forward-only due/template conditions and bounded diagnostic integration. Keep present delivery protections; doorbell-leg 3b retirement is separately Will-gated.
-- VULCAN intake-expansion design/sizing is complete, deployment deferred to PROME/Research-Intake. Article-dateline provenance flag is a separate lane candidate, not a promised build or automatic old-article kill.
-- AI cluster financing split and five-axis review re-cut are distinct unapproved structural questions. Latest October 10 review says KEEP; assess post-fetch evidence at the next existing coherence review before any axis fold. Current VULCAN useful-life gate remains at its owner.
-
-**Optional ideas, not assigned build debt:** VX-CYP channel citations (no mandatory tag/schema approved); the offered October 29 NEXUS cross-theme card (freshness review required before use). Retained as options, not silently declared implemented or retired.
-
-Boundary 8’s registered fallback and missing official-settlement execution remain in GAPS/FOLLOW-UP; do not carry a second vague “new fallback design” task. Any broader scan-coverage change requires a specific proposal. Existing approvals, including WQ-401, WQ-508 and current routing/checklist rules, remain intact.
+Section moved verbatim 2026-11-11T19:54:09Z to research/2026-11-11_light-closeout/LC-ROTATED.md § OPEN DESIGN DECISIONS; unchanged and still binding (WQ-598 A installs, L730/WQ-577/WQ-401 conditions, optional ideas).
 
 ## CLOSEOUT RECEIPT
 
@@ -92,80 +77,110 @@ Tier 2 FULL closeout, walter-1e, before a fresh-context reboot. Prior: FULL 2026
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-11T15:40:08Z",
+  "as_of": "2026-11-11T19:53:35Z",
   "next_review": "2026-11-12",
   "publication": [
     {
-      "commit": "67caf07dbb05203bf8663dbef5274a8d2baeccd2",
+      "commit": "8986cb6de77232d88556db16df5625215b9bca0b",
       "state": "published",
-      "note": "Cards 20261111-001 to -004, handoffs, logs, index, batches BM-20261111-01 13/13 and -02 12/12, 6c and 7i evidence; safe-push CONFIRMED"
-    },
-    {
-      "commit": "a79a8fbcb584e1dfc1030a4022172870b7db9287",
-      "state": "published",
-      "note": "Card 005 full Iran sweep, SWEEP.md, anchor header and ladder items; safe-push CONFIRMED"
-    },
-    {
-      "commit": "73466f0392b5f8def13c2031d617d6a7c4d7125c",
-      "state": "published",
-      "note": "Card 006 CORRECTION of 20261108-002, R1 COR-20261111-06, banners; safe-push CONFIRMED"
-    },
-    {
-      "commit": "b049721a317ab493534f24bc9c9a4dc42a9a9adf",
-      "state": "published",
-      "note": "Correction banners on 20261105-007, -056, -058, -060; safe-push CONFIRMED"
-    },
-    {
-      "commit": "375cbaeebbbfd26e58afcdba23fb55b35e1400da",
-      "state": "published",
-      "note": "LAST_COMPLETION CoreWeave guide wording; safe-push CONFIRMED"
-    },
-    {
-      "commit": "cd1c5b0c448d467a7e851789c481f87a987efdb1",
-      "state": "published",
-      "note": "Card 007 Skydance; on origin"
-    },
-    {
-      "commit": "2f9b1d430c2a598d685367cf4441fab1e6517327",
-      "state": "published",
-      "note": "Card 008 Florida rain; safe-push CONFIRMED"
-    },
-    {
-      "commit": "02231284baa2b5b94afbc47d5c0a569c0c35be7b",
-      "state": "published",
-      "note": "Cards 009 and 010 (YURI catch-up); safe-push CONFIRMED"
-    },
-    {
-      "commit": "88f428104dacaff8230ffc0e954350d0fc60a89c",
-      "state": "published",
-      "note": "Cards 011 (ORACLE) and 012 (FALCON grade); safe-push CONFIRMED"
-    },
-    {
-      "commit": "8035b539e98bf9caa09e29d6edac5e9887e8f076",
-      "state": "published",
-      "note": "Card 013 CORRECTION of 001 at the OPEC MOMR, R1 COR-20261111-13, banner, MOMR excerpt; safe-push CONFIRMED"
-    },
-    {
-      "commit": "03f7fb9819109d4e42e67e61f7552fb8fb03ff0b",
-      "state": "published",
-      "note": "Gold bookmark DUP disposition; safe-push CONFIRMED"
-    },
-    {
-      "commit": "8c9cb9d1e4e79ecd073d2d4cf7b5fd562e2a9538",
-      "state": "published",
-      "note": "Post-closeout addendum on PROME's 10:2x ET relay: card 014 CORRECTION of 004 (SEC $1.1B is total relief, penalties $343M; R1 COR-20261111-14, banner) and card 015 (ZHAO, China not a forced Treasury seller); safe-push CONFIRMED; delivery reconciled at 5e60d674e7"
+      "note": "Twelve morning publication entries (cards 001 to 015, 67caf07dbb to 8c9cb9d1e4) moved verbatim to research/2026-11-11_light-closeout/LC-ROTATED.md; this commit is the 15:03Z FULL closeout that recorded them"
     },
     {
       "commit": "44cab8abbf986143dcff41a20fc46527b3365b8f",
       "state": "published",
       "note": "Reboot cards 016 to 019, handoffs, logs, index, batch BM-20261111-03, bookmark mark, reboot scan and calendar evidence; safe-push CONFIRMED; delivery reconciled at 3a55108b7d"
+    },
+    {
+      "commit": "784691a969223bd880b5bbce7185a3127a3237e8",
+      "state": "published",
+      "note": "WQ-671 A attribution note; safe-push CONFIRMED"
+    },
+    {
+      "commit": "d633894f4b6fd748f26e79c9952d588ed45f948b",
+      "state": "published",
+      "note": "intake HY label strictly above 280; safe-push CONFIRMED"
+    },
+    {
+      "commit": "a7652b1ff8e483fdd5c3b92ff1d9b0057f146f8b",
+      "state": "published",
+      "note": "AI_INFRA_CAPEX review, boot 9/9a; safe-push CONFIRMED"
+    },
+    {
+      "commit": "82e086b2baece8824f6d63e33a0354d82bfb348e",
+      "state": "published",
+      "note": "CLUSTER_TAXONOMY v0.9 five-axis, VULCAN packet; safe-push CONFIRMED"
+    },
+    {
+      "commit": "deb1adcde7afd0fb076e48b0d74652932b521222",
+      "state": "published",
+      "note": "card 020 Ares; safe-push CONFIRMED"
+    },
+    {
+      "commit": "c20545f4013bc2b89a1f0c9ff8615e725cd84244",
+      "state": "published",
+      "note": "Oracle layoffs re-file; safe-push CONFIRMED"
+    },
+    {
+      "commit": "f5e4ddd5c5d6c800756abfe598ee9ee154be76ec",
+      "state": "published",
+      "note": "review wording per CATO MW3; safe-push CONFIRMED"
+    },
+    {
+      "commit": "a3e13d48b08b433e57a03770f43f021f7f61c20c",
+      "state": "published",
+      "note": "lane GPU headline list; safe-push CONFIRMED"
+    },
+    {
+      "commit": "51f93609ffeb80e265378aa45b6770ae146c6f69",
+      "state": "published",
+      "note": "GPU_FINANCE_REVIEW queue; safe-push CONFIRMED"
+    },
+    {
+      "commit": "dc4524b8a15eb7b5e00a0420b1b1480f47dbc6b9",
+      "state": "published",
+      "note": "card 021 GPU loans in ABS, backlog triage; safe-push CONFIRMED"
+    },
+    {
+      "commit": "a34c796f9df12a9c4afef017d246fbed8ee6288e",
+      "state": "published",
+      "note": "card 022 N-able, calendar flags; safe-push CONFIRMED"
+    },
+    {
+      "commit": "7c7c5083d98f93faef8e0d03521350ae3e95b4b4",
+      "state": "published",
+      "note": "bank and vendor retrospective record; safe-push CONFIRMED"
+    },
+    {
+      "commit": "4d8eabff5cb48fbc72b7363c34c64eac90ad2531",
+      "state": "published",
+      "note": "retrospective completion packet to PROME; safe-push CONFIRMED"
+    },
+    {
+      "commit": "9d505448bbff93c99abcc1a126f1ae8db5009070",
+      "state": "published",
+      "note": "card 023 fiber, five-batch re-read; safe-push CONFIRMED"
+    },
+    {
+      "commit": "8bf3227a2599dba10b1a2e4b7a3e1d3e03769e04",
+      "state": "published",
+      "note": "news catch-up repair, FINAL: PASS; safe-push CONFIRMED"
+    },
+    {
+      "commit": "90507fdf16fba374e258f019c56fbed421c54836",
+      "state": "published",
+      "note": "WQ-676 completion packet; safe-push CONFIRMED"
+    },
+    {
+      "commit": "82a09ce4233de582c1f070b8e1f3d1978c72d55e",
+      "state": "published",
+      "note": "CLAUDE.md 7e(e) --mark --through; safe-push CONFIRMED"
     }
   ],
   "delivery": {
     "signal_date": "20261111",
-    "total": 88,
-    "delivered": 88,
-    "note": "All 88 handoff rows for cards 001 to 019 delivered on origin (reconcile after each push; 016 to 019 at 3a55108b7d); recipient use separate. DEWEY wrote its own copies for 017 and 018. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
+    "total": 100,
+    "delivered": 100,
+    "note": "All 100 handoff rows for cards 001 to 023 delivered on origin (reconcile after each push); recipient use separate. DEWEY wrote its own copies for 017 and 018. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -193,15 +208,15 @@ Tier 2 FULL closeout, walter-1e, before a fresh-context reboot. Prior: FULL 2026
     ]
   },
   "procedure": {
-    "tier": "full",
+    "tier": "light",
     "boot": "PARTIAL: see LAST_COMPLETION STATUS.",
-    "session": "walter-1e interactive on the desktop; closing on Will's 10:01 ET word for a fresh-context reboot; no timer or helper."
+    "session": "walter-1e reboot after /clear on the desktop; Tier 1 light closeout on Will's 14:52 ET word; full deferred (2 breadcrumbs since the 15:03Z FULL); no timer or helper running."
   },
   "manual_duties": {
-    "11": "Cards 001 to 015 published, index regenerated, route_log and delivery_log rows per (signal, recipient); three corrections (006, 013, 014) with R1 rows, banners and INDEX markers in the same commit; five missing banners on older corrected cards added. Reboot: cards 016 to 019 (BM-20261111-03 4/4), route_log and delivery rows, index regenerated.",
+    "11": "Cards 001 to 015 published, index regenerated, route_log and delivery_log rows per (signal, recipient); three corrections (006, 013, 014) with R1 rows, banners and INDEX markers in the same commit; five missing banners on older corrected cards added. Reboot: cards 016 to 019 (BM-20261111-03 4/4), route_log and delivery rows, index regenerated. Afternoon: cards 020 to 023, index regenerated after each.",
     "13": "REGISTRY: 19 rows mirrored at 2026-11-11T15:02:04Z (BRENT STATUS uncommitted at read), WALTER row by hand; Status column not re-graded. Reboot 2026-11-11T15:40:08Z: 9 rows (BROCK, ZHAO, HANS, MARCO, SHADE, CRUISE, OZK, FLG, GIBBS).",
-    "12": "STATUS Updated line, BOTTOM LINE re-cut, November 11 observation row, NETWORK regenerated from REGISTRY and ListAgents 15:02Z, FILTER POSTURE BALANCED unchanged, cluster_mediating today 0; old Updated, BOTTOM LINE and NETWORK paragraphs rotated verbatim to SESSION_LOG; read-cap STATUS 62%.",
-    "14": "MEMORY #43, #52, #65 extended n+1; session note replaced (November 10 note's facts carried); 23,432 B, under the 24,412 B trigger. No auto-memory written.",
+    "12": "Light: STATUS Updated line (old one rotated verbatim to SESSION_LOG), BOTTOM LINE afternoon paragraph, reboot observation row; NETWORK not regenerated (light).",
+    "14": "MEMORY #69 added (lane rows with no alert have no reader); WQ-671 feedback line; 24,159 B under the 24,412 B trigger.",
     "15": "This file rewritten; before-image in git history (375cbaeebb).",
     "16": "Exact paths; safe-push; reconcile after publication.",
     "gaps": "boot_basis_check REVIEW REQUIRED (pre-existing, not re-attested); reads_check UNKNOWN (attestation date passed, pre-existing); doctor MEDs carried in RESUME 6."
