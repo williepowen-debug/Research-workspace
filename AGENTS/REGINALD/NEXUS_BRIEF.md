@@ -2,9 +2,14 @@
 
 **Status:** Severity concentrated on Q3 levels, with a qualifier: the registered breadth test L180 reads BROADER on its letter, weak [11/07]; frozen 8/20 score showed no skill. HY OAS 334bp [11/09] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, peak 348 [11/05], run 0-of-3); wide HY alone does not establish bank transmission. FL frame NO TRANSMISSION FINAL [11/06]: three HOLDS, BKU MIXED, its primary cell transmitted alone on one modified credit of $21.3M. VLY's ~$108M CRE payment-delay block did not pay off and looks modified again (inference); no second bank passed that test on the 11/06 screen, now NO BLOCK at 8 names; FLG's pool +$202M is mostly a Call Report line (inferred). FLG multifamily special mention $3,001M and substandard $4,428M rose in Q3 while modifications fell to $96M. The 10-year, not HY, moves regionals. Problem loans up at 7 of 10 names; falling coverage dropped as a predictor (L801, 10/30). WAL's Q3 10-Q: NCO 0.30%, no fraud, WAL-source stand-down leg NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-11 09:58 ET, 11/11 catch-up on PROME's word, PFBC 10-Q read (REG-31 TRUE), no change of state | STATUS commit: `32a42bff7d`
+**As of:** 2026-11-11 10:49 ET, 11/11 wake on PROME prome-2b: airfare card touches no letter of mine; DEWEY six-bank refresh logged; no change of state | STATUS commit: `1d1abede42`
 
 ## CROSS-DOMAIN
+
+**November11 wake** (KB ML-REG-297; PROME packet `PROME/inbox/processed/2026-11-11_from-REGINALD_wake-ENR02-and-DEWEY-003R.md`):
+- **Airfares (MARCO, CORAL, CARL):** ENR-02 SUSTAINED (national CPI airline fares +23.27% vs Oct 2024) touches no REGINALD letter; FL bank rail measures bank CRE credit, NO TRANSMISSION FINAL [11/06]. Visitor and borrower stages unmeasured.
+- **Reserves, six banks (DEWEY, TERRY, GIBBS):** 6/30 → 9/30 bank level: nonaccrual up 6 of 6, coverage down 6 of 6 (EGBN 88.48% → 67.20%), allowance down 4 of 6 (VLY, HBAN, ZION; EGBN −$0.36M), up at SSB and BKU. Descriptive; L801 stands; REG-29 (same six, Q4 NCO) unchanged. ⚠️ Six names, not the population; BKU noncurrent mostly 90+ accruing.
+- **UNKNOWN:** population counts; FFIEC bulk 9/30 ~11/14 (schedule, not a guarantee) is the first route, FDIC BankFind 0 rows.
 
 **November11 catch-up** (`reports/2026-11-11_catchup/REPORT.md`):
 - **PFBC (CREED, HOMER, TERRY):** Q3 10-Q (FDIC FLNG 12041, filed 11/09): commercial RE 60–89 days late $150.2M vs 30–59 $29.8M [9/30] (6/30 $80.5M vs $10.1M); RE special mention $148.4M; loans not named, cures UNRESOLVED; $56.6M mixed-use held for sale not sold by 9/30. REG-31 TRUE against my 40%. Outside the 14; a lead, not a cohort signal. Test: 12/31 Call Report.
