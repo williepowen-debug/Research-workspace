@@ -30,3 +30,13 @@ On the figures available, the fall already equals losing the whole Russian profi
 ## Small items logged (WQ-622)
 
 Recorded here only: no live `combo:` theme covers Japan single names or Russian asset seizures. Logging is not scoring.
+
+## Addendum 12:3x ET — PROME's three questions (what Will's browser read of JT's PDFs would decide)
+
+**Correction to reason 2 (made here, not by rewriting it):** "the loss cannot be defined" binds a **short** and a **stop-sized long**; it does **not** bind a **long sized at its whole stake**. At the $500 default, about 28 JAPAY ADRs at $17.75 (vendor, 11/11), the most that can be lost is the $500. A repeat of the two limit-down gaps (−19.3% then −16.0%, about −32% compounded) would cost about $160. So the instrument objection falls away for a long. The NO CARD rested on reasons 1, 3 and 4 as well, and those turn on the profit-share figure.
+
+**(1) Long, defined loss:** yes, as above. Stake-sized, no stop, max loss = the stake.
+
+**(2) At about 15%: yes, I would build a NOT-FIRED long.** Overshoot ratio = value lost ÷ (Russia's profit share × pre-decree market value): 0.98× at 25% on the 11/4 basis, which scales to 0.987 × 25 / s. **TERRY's line (a construction line, not a gate): at or below about 17.5% share the ratio is at least 1.4× on the 11/4 basis (1.6× on 11/5),** enough room over a full write-off to pay for the dividend-cut and trapped-cash risks. At 15% it is 1.64× (1.89×). Shape I would put to Will: JAPAY shares, $500 stake (≤ X1 default, stake = max loss), NOT-FIRED until JT's own impact statement is out and does not cut FY2026 dividend guidance; enter on a red JAPAY session (root rule #6, shares long); invalidation: JT cuts the dividend, or Russia names a buyer at a nominal price (YUR-C01 inverted); time stop 11/28 (DAEDALUS grades YUR-F02), re-priced then. **The one figure Will should read: Russia's share of JT's adjusted operating profit**, as JT itself states it in the FY2026 forecast (Q3 release) or the 11/9 "Update on JT Group's Business in Russia". The dividend line is the second read, and it is the trigger, not the gate to building.
+
+**(3) If JT's own figure is near 25%:** NO CARD stands, because the fall is then about a full write-off (0.98–1.14×) and a long buys no margin over it. So the read is worth Will's time only to settle that one number.
