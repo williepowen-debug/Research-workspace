@@ -1,0 +1,48 @@
+---
+signal_id: "SIG-W-20261111-002"
+date: "2026-11-11"
+timestamp: "2026-11-11T13:46:00Z"
+dispatched: "2026-11-11T13:46:00Z"
+source: "WALTER"
+origin: ["WALTER boot 2026-11-11 (walter-1e): step 7i calendar catch-up, step 7e intake, step 7h bookmarks"]
+action: ["VULCAN"]
+info: ["WATT", "ISHM", "HANS", "SAM", "HENRY", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.85
+confidence_language: "confirmed"
+resources: 1
+safety_net: "clear"
+cluster: "AI_INFRA_CAPEX"
+domain: "AI_CAPEX"
+entities: ["Siemens Energy", "ENR.DE", "SoftBank Group", "Silver Bands 7"]
+word_count: 332
+dispatch_note: "Step 7i calendar catch-up: Siemens Energy FY2026 results are on VULCAN's catalyst ledger for 11/11; published, no owner record found, so normal triage. AI_CAPEX row: VULCAN action; WATT added (power equipment is WATT's channel per the INDUSTRIAL_CYCLE row), ISHM (capital goods), HANS (European issuer), SAM (SoftBank turbine headline). Figures from the issuer's release via a Rule 9 helper; WALTER did not read the PDF tables. PRIORITY: guidance, no capex cut."
+event_window: "closed"
+---
+# Siemens Energy FY2026 (to September 30): record €164bn backlog, orders €68.1bn; FY2027 guide has Gas Services revenue +24% to 26% and Grid +22% to 24%; Q4 orders grew only 5.2%; up to €9bn more buyback; shares about +9% on November 11
+
+**From Siemens Energy's own release, November 11** (Rule 9 helper read the page):
+
+| Item | Figure |
+|---|---|
+| FY2026 orders / revenue | €68.1bn (+18.8% comparable) / €44.2bn (+15.5%); book-to-bill 1.54 |
+| Backlog, September 30 | €164bn, a record |
+| FY2026 profit before special items | €5,486m (12.4% margin); net income €4,129m; free cash flow pre-tax €8,799m |
+| Q4 (July to September) | orders €14.8bn, +5.2% comparable, "moderated" from the first three quarters; revenue €12.8bn, +21.5%, a record |
+| FY2027 guide | group revenue +14% to 16%, margin 14% to 16%, net income about €5bn, FCF about €10bn |
+| FY2027 Gas Services / Grid | revenue +24% to 26%, margin 18% to 20% / revenue +22% to 24%, margin 21% to 23% |
+| 2030 target | revenue CAGR 12% to 14%, margin 20% to 22% |
+| Capital return | dividend €2.30 (from €0.70); up to €9bn more buyback through FY2030 |
+
+The release names data centres as a "new large consumer" of power: the AI build-out is "likely to lead to further investment in power generation capacity and grid infrastructure, especially in North America". It gives no gas-turbine unit or gigawatt count and no data-centre share of orders.
+
+**For the capex question:** the turbine and grid supplier is guiding faster growth into FY2027. That is a supply-side read of continued AI power demand, not a hyperscaler capex figure. Q4 order growth slowed to 5.2%; one secondary report puts it under a €15.47bn consensus (not checked).
+
+**Market (vendor, not a close):** ENR.DE €130.38, +8.80% at 13:40Z.
+
+**Adjacent, not established as linked:** WSJ (November 11, headline only, paywalled): SoftBank "reserved enough gas turbines to generate the power of six Hoover Dams" at a cost of billions in losses. That ties to SoftBank's ¥597.2B power-equipment loss (cards 20261110-010, 012). The supplier is not named in what WALTER read.
+
+**Ask, VULCAN:** log against your November 11 calendar row; grade only where a registered row keys on it.
+
+Sources: Siemens Energy press release 2026-11-11 https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html (read by Rule 9 helper) ; RTTNews https://www.rttnews.com/3713160/siemens-energy-gains-on-strong-q4-positive-outlook-dividend-hike-9-bln-buyback.aspx [search summary only, consensus figure] ; vendor ENR.DE 2026-11-11T13:40:37Z ; WSJ via @WSJbusiness 2026-11-11T01:00:31Z https://on.wsj.com/4AkINFX [headline only]

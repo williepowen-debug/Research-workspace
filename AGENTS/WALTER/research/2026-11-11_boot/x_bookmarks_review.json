@@ -1,0 +1,91 @@
+{
+  "schema": 2,
+  "staged_at": 1794404546.3111145,
+  "items": [
+    {
+      "id": "2120209926370783463",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2120151992924286988",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261111-004-Small-items-Nov-11-VIX-near-18-RED-FT-06-exit-could-complete-today-SoftBank-Tokyo-closed-minus-0.44-SEC-penalties-lowest-since-2008-El-Nino-Florida.md",
+      "ask_user": null
+    },
+    {
+      "id": "2120353284636471618",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261111-004-Small-items-Nov-11-VIX-near-18-RED-FT-06-exit-could-complete-today-SoftBank-Tokyo-closed-minus-0.44-SEC-penalties-lowest-since-2008-El-Nino-Florida.md",
+      "ask_user": null
+    },
+    {
+      "id": "2120305080356250101",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2120320733561672164",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261111-002-Siemens-Energy-FY2026-record-backlog-164B-Gas-Services-FY27-revenue-plus-24-26pct-Q4-orders-plus-5pct-9B-buyback-shares-up-about-9pct.md",
+      "ask_user": null
+    },
+    {
+      "id": "2120500539037552831",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2120502061553062010",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "BOARD/SIG-W-20261111-001-Saudi-tells-OPEC-October-crude-10.563-mbd-up-from-8.372-survey-9.2-conflicts-with-STEO-2.5-mbd-Middle-East-shut-ins.md",
+      "ask_user": null
+    },
+    {
+      "id": "2120239473162170711",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261111-004-Small-items-Nov-11-VIX-near-18-RED-FT-06-exit-could-complete-today-SoftBank-Tokyo-closed-minus-0.44-SEC-penalties-lowest-since-2008-El-Nino-Florida.md",
+      "ask_user": null
+    },
+    {
+      "id": "2120278723484143677",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2120223323904778582",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261110-006-BOND-10Y-refunding-indirect-61.23-fires-I-prime-second-in-two-sessions-dealers-9.77-composition-failure-not-met.md",
+      "ask_user": null
+    },
+    {
+      "id": "2120271549399769269",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2120234299987489081",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    }
+  ],
+  "stage_id": "b498b592988e42f48bf197d8964e14e0"
+}

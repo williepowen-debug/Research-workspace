@@ -1,42 +1,48 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-10T22:15:44Z",
+  "checked_at": "2026-11-11T13:46:44Z",
   "items": 12,
   "scan": {
-    "checked_at": "2026-11-10T22:13:24Z",
-    "head_checked_at": "2026-11-10T22:13:23Z",
+    "checked_at": "2026-11-11T13:42:26Z",
+    "head_checked_at": "2026-11-11T13:42:26Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 3
+    "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "partly_read": 5,
-    "fully_read": 7
+    "fully_read": 5,
+    "partly_read": 7
   },
   "dispositions": {
-    "DISPATCH": 12
+    "DUP": 3,
+    "DISPATCH": 7,
+    "NO-ACTION": 2
   },
   "follow_ups": [
     {
-      "id": "2119896073560834060",
-      "ref": "BOARD/SIG-W-20261110-011-Small-items-bookmarks-Nov-10-evening-NVDA-168.89-down-5.5pct-CoreWeave-Q3-headline-10Y-4.98-Japan-spending-minus-6.8-COR1M-BofA-claim-unconfirmed.md"
+      "id": "2120151992924286988",
+      "ref": "BOARD/SIG-W-20261111-004-Small-items-Nov-11-VIX-near-18-RED-FT-06-exit-could-complete-today-SoftBank-Tokyo-closed-minus-0.44-SEC-penalties-lowest-since-2008-El-Nino-Florida.md"
     },
     {
-      "id": "2120269470862082304",
-      "ref": "BOARD/SIG-W-20261110-011-Small-items-bookmarks-Nov-10-evening-NVDA-168.89-down-5.5pct-CoreWeave-Q3-headline-10Y-4.98-Japan-spending-minus-6.8-COR1M-BofA-claim-unconfirmed.md"
+      "id": "2120353284636471618",
+      "ref": "BOARD/SIG-W-20261111-004-Small-items-Nov-11-VIX-near-18-RED-FT-06-exit-could-complete-today-SoftBank-Tokyo-closed-minus-0.44-SEC-penalties-lowest-since-2008-El-Nino-Florida.md"
     },
     {
-      "id": "2120205029433081965",
-      "ref": "BOARD/SIG-W-20261110-010-SoftBank-Q2-net-loss-1.12T-yen-597B-power-equipment-advance-payment-loss-Ohio-Intel-prepaid-forward-loss-322B.md"
+      "id": "2120320733561672164",
+      "ref": "BOARD/SIG-W-20261111-002-Siemens-Energy-FY2026-record-backlog-164B-Gas-Services-FY27-revenue-plus-24-26pct-Q4-orders-plus-5pct-9B-buyback-shares-up-about-9pct.md"
     },
     {
-      "id": "2120164357740929436",
-      "ref": "BOARD/SIG-W-20261110-011-Small-items-bookmarks-Nov-10-evening-NVDA-168.89-down-5.5pct-CoreWeave-Q3-headline-10Y-4.98-Japan-spending-minus-6.8-COR1M-BofA-claim-unconfirmed.md"
+      "id": "2120502061553062010",
+      "ref": "BOARD/SIG-W-20261111-001-Saudi-tells-OPEC-October-crude-10.563-mbd-up-from-8.372-survey-9.2-conflicts-with-STEO-2.5-mbd-Middle-East-shut-ins.md"
     },
     {
-      "id": "2120236047791689993",
-      "ref": "BOARD/SIG-W-20261110-011-Small-items-bookmarks-Nov-10-evening-NVDA-168.89-down-5.5pct-CoreWeave-Q3-headline-10Y-4.98-Japan-spending-minus-6.8-COR1M-BofA-claim-unconfirmed.md"
+      "id": "2120239473162170711",
+      "ref": "BOARD/SIG-W-20261111-004-Small-items-Nov-11-VIX-near-18-RED-FT-06-exit-could-complete-today-SoftBank-Tokyo-closed-minus-0.44-SEC-penalties-lowest-since-2008-El-Nino-Florida.md"
+    },
+    {
+      "id": "2120223323904778582",
+      "ref": "BOARD/SIG-W-20261110-006-BOND-10Y-refunding-indirect-61.23-fires-I-prime-second-in-two-sessions-dealers-9.77-composition-failure-not-met.md"
     }
   ],
   "requests": []

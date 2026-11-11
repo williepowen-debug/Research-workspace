@@ -1,0 +1,13 @@
+release	period	scheduled	source	outcome	evidence
+(window) 2026-11-10T16:44Z to 2026-11-11T13:46:57Z (end = date output in the writing command)	-	-	PROME/DOCKET.tsv grep 2026-11-10/11; AGENTS/HENRY/domain/ECON_CALENDAR.md (11/11 Veterans Day, no BLS); owner CATALYSTS ledgers grep 2026-11-10/11; owner commits since cutoff	11 rows	Two 11/10 rows (USDA, 10-year) already reconciled as addenda on the 11/10 file
+EIA Short-Term Energy Outlook	Nov	2026-11-10 12:00 ET	AGENTS/BRENT/docket/CATALYSTS.tsv	OWNER-COMPLETED; BRENT graded and sent to PROME (9d2f187f38); cited on SIG-W-20261111-001	no separate card; WALTER duty discharged by 001
+CoreWeave Q3 results	Q3	2026-11-10 after close	VULCAN carry	OWNER-COMPLETED (capex) on SIG-W-20261110-013; revenue/EPS not graded by VULCAN	card 20261110-011 headline
+TSMC October revenue	Oct	2026-11-10	DOCKET VULCAN-188	OWNER-COMPLETED; SIG-W-20261110-013	VULCAN d4b5e4684c
+SoftBank first Tokyo session after Q2 results	-	2026-11-11 Tokyo session	AGENTS/VULCAN/docket/CATALYSTS.tsv; DOCKET D:L1110	OWNER-COMPLETED by SAM (STATUS 08:5x ET); routed on SIG-W-20261111-004	vendor 9984.T 3,855 -0.44%
+Siemens Energy FY2026 results	FY to Sep 30	2026-11-11 morning CET	AGENTS/VULCAN/docket/CATALYSTS.tsv (third-party date)	PUBLISHED, no owner record found: triaged and routed SIG-W-20261111-002	issuer release read by Rule 9 helper
+OPEC Monthly Oil Market Report	Nov	2026-11-11 (no calendar row found)	none; arrived via bookmark 13:01Z	PUBLISHED, no owner record found: routed SIG-W-20261111-001	MEMORY #68 class: release on no calendar
+MSCI non-operating-company final constituent list	-	2026-11-11	AGENTS/LIQUID/workbook/CATALYSTS.tsv	NOT YET ELAPSED or UNKNOWN (announcement time not stated)	LIQUID owns
+Tricolor / Verita section 341 continued meeting	-	2026-11-11 10:00 CT	DOCKET (OTTO); AGENTS/OTTO/docket/CATALYSTS.tsv	NOT YET ELAPSED at window end	OTTO owns
+FERT DTN retail fertilizer print and India tender check	weekly	2026-11-11	DOCKET FERT 11/15 row inputs	UNKNOWN (publication time not stated); FERT live (fert-31)	FERT owns
+BOND VX-BND-20 mandate review	-	2026-11-11	AGENTS/BOND/docket/CATALYSTS.tsv	owner review, not a release	-
+Ellison theme checkpoint	-	2026-11-11	PROME/DOCKET.tsv	PROME-owned, not a release	-
