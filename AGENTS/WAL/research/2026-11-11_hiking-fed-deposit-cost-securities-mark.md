@@ -1,6 +1,6 @@
 # WAL — what a hiking Fed does to deposit cost and the securities mark (2026-11-11)
 
-**Desk:** WAL · **Written:** 2026-11-11 ~09:55 ET · **Task:** PROME catch-up wake (prome-2b, Will 09:24 ET). Research only; no score, weight, EV, gate, threshold or card change.
+**Desk:** WAL · **Written:** 2026-11-11, committed 09:56:38 ET (c42411f512) · **Task:** PROME catch-up wake (prome-2b, Will 09:24 ET). Research only; no score, weight, EV, gate, threshold or card change.
 
 ## Bottom line
 

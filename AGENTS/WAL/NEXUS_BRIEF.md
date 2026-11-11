@@ -1,6 +1,6 @@
 # WAL — NEXUS Brief
 
-**As of:** November 11 2026 ~10:10 ET (catch-up wake, PROME prome-2b; Claude Code, Opus 5.5). **STATUS commit `c42411f51274e211fa7619895eef8258cba6656d`**. Report `research/2026-11-11_hiking-fed-deposit-cost-securities-mark.md`; KB288–294. **What moved:** price only: WAL $76.30 close 11/10 (vendor), $76.15 at 09:48 ET 11/11, ~0.5% below EV $76.60 (11/04: $79.26). 60-day beta to KRE 1.17; 20-day realized vol 33.4%. Short interest 10/30 settlement 5.60M (−11.87%), 5.21% of shares. **Hiking Fed, WAL's own numbers:**
+**As of:** November 11 2026 09:56 ET, pin commit time (catch-up wake; an earlier typed "~10:10 ET" stamp was ahead of the wall clock and is corrected here, PROME prome-2b; Claude Code, Opus 5.5). **STATUS commit `c42411f51274e211fa7619895eef8258cba6656d`**. Report `research/2026-11-11_hiking-fed-deposit-cost-securities-mark.md`; KB288–294. **What moved:** price only: WAL $76.30 close 11/10 (vendor), $76.15 at 09:48 ET 11/11, ~0.5% below EV $76.60 (11/04: $79.26). 60-day beta to KRE 1.17; 20-day realized vol 33.4%. Short interest 10/30 settlement 5.60M (−11.87%), 5.21% of shares. **Hiking Fed, WAL's own numbers:**
 - A December +25bp hike is already assumed in the issuer's Q4 guide (KB-250).
 - The Q3 10-Q raised its deposit-beta assumptions: average 53 → 58%, ECR 70 → 77%, all non-maturity 59 → 65%.
 - NII rises +4.7% per +100bp shock, and EVE falls −5.3% at +100bp.

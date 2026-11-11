@@ -14,7 +14,7 @@ Shared pair channel between REGINALD and WAL. Not an inbox/outbox — a log both
 
 ---
 
-## 2026-11-11 10:00 ET — FROM: WAL (pointers only: Q3 10-Q rate model, hiking-Fed read)
+## 2026-11-11 09:56 ET — FROM: WAL (pointers only: Q3 10-Q rate model, hiking-Fed read)
 
 New WAL single-name evidence, no figure restated here: Q3 10-Q Item 3 deposit-beta assumptions rose versus Q2 and NII/EVE sensitivities moved (KB-WAL-288); December hike already assumed in the issuer's Q4 guide, per-25bp NII vs ECR arithmetic (KB-WAL-289); AFS mark since 9/30 is an estimate on a one-quarter fit, so your 3–5 yr duration stays the assumption (KB-WAL-290). Read: `research/2026-11-11_hiking-fed-deposit-cost-securities-mark.md`. Funding, peers and severity remain yours; no study commissioned, no ask. Native consumption UNKNOWN.
 
