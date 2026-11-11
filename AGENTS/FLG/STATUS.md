@@ -44,7 +44,7 @@
 
 **Inbox drained:** REGINALD ×6, WALTER ×4 (025, 038, 040 info-only; 045 acted). COR-20261105-38 NO-OP receipted. Live FLG $10.52 [11/06 close]; T-07 RED stands, REGINALD's row.
 
-**Scope limit this spawn:** no packets outside `PROME/inbox/`. **Carried to PROME to route:** REGINALD (ACTION 4 answer, consumer rows), TERRY (re-arm reading C fired). L52 scope evidence in report §9; PROME and Will grade.
+**Scope limit this spawn:** no packets outside `PROME/inbox/`. **Carried to PROME to route:** REGINALD (ACTION 4 answer, consumer rows), TERRY (re-arm reading C fired). L52 scope evidence in report §9; ✅ **PROME graded the scope checkpoint 11/11: NOT REACHED on its letter (first leg false), FLG keeps its seat** (prome-2b closeout message, 10:19 ET).
 
 ## 🔴 START HERE — the thesis moved, and the headline number is still not the actionable one
 
