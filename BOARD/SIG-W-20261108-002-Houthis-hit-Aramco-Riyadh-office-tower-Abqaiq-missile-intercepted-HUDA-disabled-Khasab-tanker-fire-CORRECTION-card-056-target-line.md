@@ -23,6 +23,7 @@ corrects: ["SIG-W-20261106-056", "SIG-W-20261107-002"]
 corrects_direction: "WEAKENS card 056's oil-and-gas target line: not in NBC's open text, one relay, no second source; WEAKENS card 20261107-002's statement that the target line holds; the window limb is CONFIRMED at NBC's page"
 kill_strings: ["The target line holds"]
 ---
+> **Correction, November 11 — SIG-W-20261111-006:** The title's "Abqaiq missile intercepted" and the ask's "the Abqaiq intercept" overstate the target: the sources (FALCON KB-446/475) say a Houthi ballistic missile toward the Eastern Province was intercepted, with civil-defence alerts at Dammam, Al-Ahsa and Abqaiq later lifted. The body below already says so. The intercept, the no-damage finding, Riyadh, HUDA and Khasab hold.
 # Houthis hit Aramco's Riyadh office tower, minor damage, Abqaiq missile intercepted; US aircraft disabled M/V HUDA; tanker fire off Khasab. CORRECTION: card 056's oil-and-gas target line rests on one relay
 
 FALCON's grades, read 2 to about 17:05Z November 8. No rung fired, no score moved. BRENT owns the oil read.

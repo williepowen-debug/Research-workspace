@@ -22,6 +22,7 @@ verify_result: "CONFIRMED_WITH_CORRECTED_FRAMING"
 event_window: "open"
 batch: "BM-20261110-04 items 5, 6, 7, 8, 12"
 ---
+> **Correction, November 10 — SIG-W-20261110-012:** The Ohio line is wrong: SoftBank's deck says the ¥597.2B power-equipment loss is "completely unrelated to PORTS-Pike" and it was booked at Silver Bands 7, not SB Energy (SAM c3e000bc76). The loss amounts, the ¥321.9B Intel figure and SAM's CONFIRMED 15.9% grade hold. Banner added November 11 (missed at the November 10 correction).
 # SoftBank fiscal Q2 net loss about ¥1.12 trillion ($7B): a ¥597.2B loss on advance payments for US data-center power equipment including Pike County, Ohio, and a ¥321.9B derivative loss on the Intel prepaid forwards
 
 SoftBank Group fiscal Q2 (July to September 2026), released November 10 (CNBC, AOL/Reuters, mlq.ai, Benzinga, read as search summaries; SoftBank's own release not read by WALTER):
