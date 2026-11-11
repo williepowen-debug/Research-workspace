@@ -1,5 +1,5 @@
 # BOND → NEXUS — current owner pointers
-**Last refresh:** 2026-11-10 13:1x ET, standard closeout (desktop, prome-07 launch); Treasury data through the 11/9 close plus 11/10 vendor intraday, ICE through 11/9. Frontiers and qualifications → STATUS; evidence → `analysis/2026-11-10_cpi-10y/`, `analysis/2026-11-09_refunding/`.
+**Last refresh:** 2026-11-10 19:3x ET night closeout on the 13:1x ET standard closeout (desktop, prome-07 launch; 10Y vendor close 4.98, KB-BND-568, official 11/10 par carried to 11/11); Treasury data through the 11/9 close plus 11/10 vendor intraday, ICE through 11/9. Frontiers and qualifications → STATUS; evidence → `analysis/2026-11-10_cpi-10y/`, `analysis/2026-11-09_refunding/`.
 <!-- bond-state: thesis=v1.2.13; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=FLAT@2026-10-30 -->
 
 - **Refunding 10Y → KB-BND-566:** 10Y `91282CRX1` 11/10 registered grade: indirect 61.23 vs I′ 65.05, FIRE; directs 29.00, dealers 9.77, BTC 2.46. Second refunding marker in two sessions (3Y 11/9 55.48 vs 57.44, KB-BND-562); both times no dealer warehousing. Counter 0, auction health held 3. 30Y 11/12 (I′ 63.89) next.

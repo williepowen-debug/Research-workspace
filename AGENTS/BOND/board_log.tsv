@@ -112,3 +112,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T18:34:39-05:00	SIG-W-20261106-049	noted	INBOX_WALTER	Michigan preliminary, long-run 3.4% from 3.5%; interviews end 11/2; CARL owns; KB-BND-560; no score moved.
 2026-11-10T13:08:16-05:00	SIG-W-20261110-001	noted	INBOX_WALTER	CPI core +0.3 met Waller's 50bp condition; matches BOND's own read KB-BND-565; HENRY owns the path; no score moved.
 2026-11-10T13:08:16-05:00	SIG-W-20261110-005	noted	INBOX_WALTER	JGB 30Y soft (BTC 3.356, tail 2.4bp, SAM): combo:long-end-demand, price leg only per BOND JGB rule; KB-BND-567; no score moved.
+2026-11-10T19:32:58-05:00	SIG-W-20261110-011	noted	INBOX_WALTER	10Y 4.98 vendor close relay consistent with KB-BND-565/566; official 11/10 par carried to 11/11 boot; other items not BOND; KB-BND-568; no score moved.

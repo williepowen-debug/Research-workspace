@@ -10,6 +10,7 @@ Task: Will's 11:38 ET word via PROME prome-07 (desktop, after the machine switch
 | 10Y `91282CRX1` | REGISTERED: indirect 61.23 vs I′ 65.05 → FIRE; dealer 9.77; BTC 2.46 | KB-BND-566; `analysis/2026-11-10_cpi-10y/grade_91282CRX1.txt` |
 | Counter / score | counter stays 0; auction health held 3; composite 17 | VX-BND-01 |
 | WALTER lane (landed after boot) | SIG-W-20261110-001, -005 noted; JGB 30Y soft logged combo:long-end-demand | KB-BND-567; board_log; `inbox/WALTER/processed/` |
+| Night closeout 19:3x ET (PROME ask) | SIG-W-20261110-011 noted: 10Y 4.98 vendor close, consistent; official par carried to 11/11 boot | KB-BND-568; board_log; `inbox/WALTER/processed/` |
 | Owner-lane leg | BOND part DONE (HERMES refs gone; VX-17/18/19 live; KB-BND-082) | PROME packet §3 |
 | Packets | PROME only (one-packet brief); ZHAO/LIQUID routing left to PROME | `PROME/inbox/2026-11-10_from-BOND_L859-10Y-graded-I-prime-fire-CPI-read.md` |
 
