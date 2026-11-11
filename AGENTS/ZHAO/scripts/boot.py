@@ -274,10 +274,11 @@ def _pboc_omo_latest(list_url=PBOC_OMO_LIST, fetch=_curl):
         # pre-11/02 notices render the table cell as "7 天 1. 40 %": tolerate inner spaces
         m = re.search(r"(隔夜|\d+\s*天)\s+(\d+)\s*\.\s*(\d+)\s*%", s)
         d = re.search(r"(\d{4}-\d{2}-\d{2})\s+\d{2}:\d{2}", s)
-        if m:
-            tenor = "overnight" if m.group(1) == "隔夜" else re.sub(r"\s*天", "d", m.group(1))
-            return (title.replace(" ", ""), d.group(1) if d else "?", tenor,
-                    float(f"{m.group(2)}.{m.group(3)}"))
+        if not m:   # CATO MC1 (11/10): never fall through to an OLDER notice; newest fixed-rate rules
+            raise RuntimeError(f"newest fixed-rate notice unparseable ({title.replace(' ', '')})")
+        tenor = "overnight" if m.group(1) == "隔夜" else re.sub(r"\s*天", "d", m.group(1))
+        return (title.replace(" ", ""), d.group(1) if d else "?", tenor,
+                float(f"{m.group(2)}.{m.group(3)}"))
     raise RuntimeError("no fixed-rate operation in newest 5 notices")
 
 
@@ -295,7 +296,7 @@ def _pboc_source_verdict(stored_value, quick, list_url=PBOC_OMO_LIST, fetch=_cur
     try:
         notice, date, tenor, rate = _pboc_omo_latest(list_url, fetch)
     except Exception as e:
-        return False, 0, f"⚠️ PBOC notice UNREACHABLE ({type(e).__name__}: {str(e)[:40]}), age test only"
+        return False, 0, f"⚠️ PBOC source UNAVAILABLE ({type(e).__name__}: {str(e)[:60]}), age test only"
     st = _stored_rate(stored_value)
     if st is None:
         return True, 1, f"🔴 MISMATCH: stored cell unparseable vs PBOC {notice} {date} ({tenor} {rate}%)"
