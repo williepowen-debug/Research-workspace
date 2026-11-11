@@ -21,3 +21,4 @@ Dated history, not instructions: the ` Prior:` clauses that followed the **Updat
 - Prior header stamp, verbatim: **Updated:** 2026-11-09 (WQ-658 A: step 1 retired, step 2 reads the NOW page; `proposals/2026-11-09_wq656-657-658-RULED.md`; Will same evening: step 2 disposition clause, step 8 delivery evidence).
 - Step 3 provenance phrase, verbatim, cut from after "by DIGEST": (change 2026-10-16; acceptance `PROME/tools/tests/ACCEPTANCE_active_decisions_digest_2026-10-16.md`)
 - Step 3 provenance phrase, verbatim, cut from the GATES clause: "; ruling 2026-10-16, B2"
+- Header prior stamp, verbatim, rotated out of the BOOT.md header 2026-11-11 (rotation #4): Prior: 2026-11-09 (Will 20:42 ET: step 2 arrival write; `proposals/2026-11-09_boot-handoff-repairs-RULED.md`).

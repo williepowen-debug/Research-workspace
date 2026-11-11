@@ -190,7 +190,7 @@ Default to compact tool output so long sessions don't bloat the transcript. *(Re
 - For generated reports/artifacts, write to file and summarize rather than pasting full content into chat.
 - For agent freshness checks, read **content vintage first** — the file's own `Updated:`/two-clock header — never mtime-first (git sync restamps mtimes toward false-fresh, `[[finding_mtime_is_corrupted_by_git_sync]]`; bullet re-based 8/9, audit #8); deep-read only when decision-relevant.
 - Escalate freely to full reads/diffs when correctness, safety, or editing requires it. This is a default, not a blind constraint.
-- Desk decision-surface alert receipt: `PROME/BOOT.md` step 6 owns the instruction.
+- Desk decision-surface alert receipt: `PROME/BOOT_MODULES.md` § Desk decision-surface alerts owns the instruction (pointer at `PROME/BOOT.md` step 6).
 
 ---
 

@@ -90,6 +90,23 @@ stale agents<unit D verbatim>
 - The desk decision-surface alert rule keeps its one-sentence duty in the pointer; its history and scope sentence move.
 - The stale-agents source moves; the pointer names where it is.
 
+## FINAL texts as executed (2026-11-11 11:07 ET; supersede the drafts above where they differ)
+
+- **Pointer A:** `   - **Reading those four verdicts (CAPABILITY · position agreement · fire-time · 5b corrections; rules the gate's printed lines do not carry) → \`PROME/BOOT_MODULES.md\` § Gate verdict rules (moved verbatim 2026-11-11, rotation #4); open it on any CAPABILITY, position-agreement or 5b corrections line that is not ✅, and before any fire-time check.**`
+- **Pointer D:** ` (source → \`PROME/BOOT_MODULES.md\` § Stale-agents source; open it when filling this field)`
+- **Pointers B and C:** as drafted.
+- **Header stamp:** `**Updated:** 2026-11-11 (rotation #4, D:L1108; plan \`proposals/2026-11-11_boot-rotation-4-PLAN.md\`). Prior: 2026-11-10 (WQ-662 B: step 8 delta-brief evidence rule; \`proposals/2026-11-10_wq662-RULED.md\`).` (shorter than the draft, to keep the margin under 70%).
+- **Stamp-chain archive, one appended line:** `- Header prior stamp, verbatim, rotated out of the BOOT.md header 2026-11-11 (rotation #4): Prior: 2026-11-09 (Will 20:42 ET: step 2 arrival write; \`proposals/2026-11-09_boot-handoff-repairs-RULED.md\`).`
+- **Module section intro:** "byte-identical to its BOOT.md span at the move, list indentation and bullet marker included".
+- **Measured after the move:** `python3 PROME/tools/measure.py PROME/BOOT.md` and `scripts/read_cap_check.py --agent PROME` (below the rotate tier at the move).
+
 ## Residue (filled after each read)
 
-*(empty before the plan read)*
+**Plan read, 2026-11-11 11:07 ET: Sonnet cold reader, SCORE 5 of 8 ok · ⚠️ 3 (four items listed) · ❌ 0; every byte, crc32 and size figure reproduced. Episode read count: 1.** Ledger: the session scratchpad file `coldread_plan_boot4.md` (not kept in the repo). Dispositions:
+
+- ⚠️ 2, pointer D named no trigger, which would have failed this plan's own Invariant 2 by construction: FIXED before execution (pointer D now says when to open it). Pointer A's "those four verdicts" had no antecedent: FIXED in the same pointer by naming the four.
+- ⚠️ 5, unit A holds the fire-time clause, and pointer A's trigger did not cover it: FIXED before execution because it bears on an instruction (pointer A now names fire-time and says to open the section before any fire-time check). Added to the "loses at boot" list here: the fire-time clause (no boot scan since 2026-10-31; `scripts/firetime_check.py` on demand, and at closeout on artifacts citing a changed DOCKET row) leaves the boot-read path; its closeout leg is homed in `PROME/CLOSEOUT_PROCEDURES.md`, which the clause itself cites.
+- ⚠️ 7, RESIDUE, not fixed: the boot runner (`.claude/skills/boot/SKILL.md`, both copies) still says "the rest of BOOT.md step 5 in full (… four-verdict rules, 5b corrections)" and "step 6 owns the board-scan re-run rule". Both now lead to a pointer in that step, not to the rule itself. Left untouched on purpose: the runner is an index, the step still owns the pointer, and editing both runner copies would widen this change. The stamp-chain line, not given in the draft, is given above.
+- ⚠️ 8, RESIDUE by restatement: Invariant 3 reads as "no byte of BOOT.md changes outside the four pointer sites and the header stamp line". Verified mechanically at the move: the diff has exactly five changed lines (the header line, three bullets, and the one step-8 accounting line that holds the stale-agents clause).
+
+**Result read:** pending at this commit.
