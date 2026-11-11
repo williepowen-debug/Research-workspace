@@ -6964,7 +6964,7 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-11-11T14:27:24Z	SIG-W-20261111-007	BROCK	INFO	CC	PRIORITY	AGENTS/BROCK/inbox/WALTER/SIG-W-20261111-007.md	delivered	Claude-authored; publication and owner consumption unverified.
 2026-11-11T14:27:24Z	SIG-W-20261111-007	NEXUS	INFO	CC	PRIORITY	AGENTS/NEXUS/inbox/WALTER/SIG-W-20261111-007.md	delivered	Claude-authored; publication and owner consumption unverified.
 2026-11-11T14:27:24Z	SIG-W-20261111-007	VULCAN	INFO	CC	PRIORITY	AGENTS/VULCAN/inbox/WALTER/SIG-W-20261111-007.md	delivered	Claude-authored; publication and owner consumption unverified.
-2026-11-11T14:36:25Z	SIG-W-20261111-008	CORAL	ACTION	CC	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20261111-008.md	written_not_delivered_pending_push	Claude-authored; publication and owner consumption unverified.
-2026-11-11T14:36:25Z	SIG-W-20261111-008	AEOLUS	INFO	CC	PRIORITY	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261111-008.md	written_not_delivered_pending_push	Claude-authored; publication and owner consumption unverified.
-2026-11-11T14:36:25Z	SIG-W-20261111-008	HOMER	INFO	CC	PRIORITY	AGENTS/HOMER/inbox/WALTER/SIG-W-20261111-008.md	written_not_delivered_pending_push	Claude-authored; publication and owner consumption unverified.
-2026-11-11T14:36:25Z	SIG-W-20261111-008	SHADE	INFO	CC	PRIORITY	AGENTS/SHADE/inbox/WALTER/SIG-W-20261111-008.md	written_not_delivered_pending_push	Claude-authored; publication and owner consumption unverified.
+2026-11-11T14:36:25Z	SIG-W-20261111-008	CORAL	ACTION	CC	PRIORITY	AGENTS/CORAL/inbox/WALTER/SIG-W-20261111-008.md	delivered	Claude-authored; publication and owner consumption unverified.
+2026-11-11T14:36:25Z	SIG-W-20261111-008	AEOLUS	INFO	CC	PRIORITY	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261111-008.md	delivered	Claude-authored; publication and owner consumption unverified.
+2026-11-11T14:36:25Z	SIG-W-20261111-008	HOMER	INFO	CC	PRIORITY	AGENTS/HOMER/inbox/WALTER/SIG-W-20261111-008.md	delivered	Claude-authored; publication and owner consumption unverified.
+2026-11-11T14:36:25Z	SIG-W-20261111-008	SHADE	INFO	CC	PRIORITY	AGENTS/SHADE/inbox/WALTER/SIG-W-20261111-008.md	delivered	Claude-authored; publication and owner consumption unverified.
