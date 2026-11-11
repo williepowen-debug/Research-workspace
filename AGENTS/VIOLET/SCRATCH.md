@@ -20,7 +20,7 @@
 
 ## NEXT SESSION
 
-0. **Today's close (if PROME keeps the window to the close):** read the 16:15 ET print; RED-29's 11/11 leg needs ≥ 18.00 (tick 18.19 at 09:32). Supersede the VX_DAILY 11/11 row with `thresholds.py --supersede` after 16:15.
+0. **Closed out 09:5x ET 11/11 on PROME prome-2b's ask (desktop memory for the fleet catch-up); the window was not held to the close.** The VX_DAILY 11/11 row is the 09:47 ET TICK (VIX and SKEW null); backfill fills it from History at the next boot. RED-29's 11/11 leg needs ≥ 18.00 (tick 18.19 at 09:32).
 1. **Next boot:** confirm 11/11 on Cboe History (`backfill.py --spot-only`). Send RED the 11/10 and 11/11 SKEW and VIX bars (11/10 SKEW 151.12). If investing.com printed an 11/11 MOVE bar, mark it a non-observation (cash Treasuries closed on Veterans Day).
 2. **November 17:** credit-vol WATCH endpoint (HY 334 [11/09] vs the 368bp size condition) and NVIDIA after the close; **November 18** VIX AM SOQ. Watch the VX/X6 over VX/Z6 inversion into 11/18: X6's window holds the 12/9 FOMC. VIO-PRED-08 grade after 11/20 History; PRED-09 after 12/31.
 3. FXY IV intraday re-pull after 10:30 ET, not before (2.4% pre-open, 20.2% at 09:47).
