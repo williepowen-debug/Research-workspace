@@ -1,60 +1,44 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Last updated:** 2026-11-09 (Mon) 10:5x ET (hook clock 10:50) · **Box:** desktop `DESKTOP-BC6EF81`, Kalshi SIGNED (`status` rc=0) · Session: Claude Code, Opus 5.5, window oracle-8f, booted 10:42 ET on PROME's commission (Will "go" 10:41 ET). **Closeout on prome-6f's WQ-249 ask (10:5x ET), after PROME accepted the fix.** Prior closeout: 2026-11-08 12:04 ET (oracle-e5, laptop).
+**Last updated:** 2026-11-11 (Wed) 09:5x ET (`date` 09:52 at the closeout ask) · **Box:** desktop `DESKTOP-BC6EF81`, Kalshi SIGNED (`status` rc=0) · Session: Claude Code, Opus 5.5, booted 09:44 ET on prome-2b's catch-up wake (Will 09:24 ET, "get all our agents caught up to the live data and news"). Closeout on prome-2b's WQ-249 ask. Prior closeout: 2026-11-09 10:5x ET (oracle-8f).
 
-## THIS SESSION (oracle-8f, 11/09 10:42 ET to closeout) — scope: the sync-first fix only
+## THIS SESSION (11/11 09:44 ET to closeout)
 
-- **Boot:** git clean, 8 ahead / 0 behind (others' unpushed); ran-check OK (11/09 READ, routine 10:15 ET on the desktop, 166f9c649e); corrections rc 0; Kalshi signed rc 0. Inbox: only PROME's brief.
-- **`tools/daily_pull.sh` sync-first, 45a7701876:** local read check first (no git if already read), then skip on a rebase/merge in progress, fetch (skip on failure), pull --rebase only when behind on a clean tree (abort + skip on failure), re-check, then read. Skips write no tracked file: one SKIP line to `~/.local/state/oracle_daily_pull.log`, exit 3. Read-first ordering was my deviation from the brief; PROME agreed.
-- **Tests:** `tools/test_daily_pull_sync.sh` (055188d9af), 9 cases, 26/26; the pre-fix script fails 12. PROME reran it 10:49:59 ET, 26/0. Live no-op run under `env -i`: exit 0, state unchanged. A cron-environment fetch works on the desktop (credential helper `store`).
-- **`SCHEDULED_RUNS.md`:** Contract 2, Known limits (residues a to d; PROME's cloud-push rebase note folded into c), Tests. Return packet `PROME/inbox/2026-11-09_from-ORACLE_daily-pull-sync-first.md` (f4d652ea39) + SendMessage; PROME ACCEPTED.
-- **Process:** WALTER's 811962c856 committed my staged `git mv` of the brief from the shared index (R100; PROME: nothing to fix).
-- **Not done this session (out of scope):** no market pulls, no grading. The 11/09 routine read is logged and ungraded.
-
-## CHANGES SINCE 11/06 17:4x ET (oracle-e5, carried)
-
-- **READ 2 (11/08 16:58Z): a NEW forward market.** PM "US x Iran Effective Ceasefire begins by...? (2 week pause)" was created 02:48Z 11/08. Legs: by 11/8 23.5 (about 76 for another qualifying strike on Iran's land within 14 days) · 11/15 36.0 · 11/22 48.5 · 11/30 62.5 · 12/31 80.0. Depth is thin. The rule differs from the old event: never difference the two. By-11/8 and by-11/30 are pinned. KB-ORC-132.
-- **Read 2, other rows:** old legs through 11/05 and 11/06 firmed to 99.7/99.8 and 99.0/99.3 and are still open; their windows close 20:29Z 11/08 and 20:29Z 11/09 (my reading of the rule). Resolver evidence is still unreadable. WTI $110 17.0 (17.0), invade 10.5, war 2.0, Hormuz 12/31 8.5, Kalshi Brent 47.0 / 52.0 on thin books, spread +74.5. Fed Dec hike PM 76.5, Kalshi 76.0.
-
-- **Effective ceasefire legs RESOLVED NO 11/07:** through 11/08 · 11/15 · 11/30 · 12/31, closed 03:20Z · 12:40Z · 03:31Z · 12:40Z (Gamma closed record; WALTER re-read, matches). Through 11/05 and 11/06 still open at 99.2/99.4 and 97.6/98.0 (13:46Z 11/07). KB-ORC-131.
-- **The path:** 23:34Z 48.0 · 35.5 · 22.5 → second fall from 00:05Z to about 1 → pause, book 25.0/27.4 · 20.9/26.9 · 6.2/8.9 at 00:51:40Z → 0.1 by 03:30Z. My 00:51Z "snapback" was a pause (KB-ORC-130 SUPERSEDED).
-- **Cause as far as established:** Trump, Friday evening: "We do minor strikes", an anti-aircraft device "knocked out" (relay 01:02:54Z). He named neither Qeshm nor Friday (card SIG-W-20261107-002). Spoken time, resolver's evidence and which strike qualified are not established.
-- **Oil and escalation did not follow (13:43Z 11/07):** WTI $110 Nov 17.0 (19.5) · invade 10.5 · war 2.2 · Hormuz 12/31 9.5. Thin Kalshi Brent rungs rose 44.0 → 48.0, 47.0 → 56.0.
-- **CENTCOM 08:30 ET 11/07 = Task Force Iron Gate**, a staff task force, not a strike (card 001). No visible price move around it.
-
-## WHAT I DID (oracle-e5, 11/06 19:4x ET to 11/08 07:1x ET)
-
-- **Boot (11/06):** full boot from files; `git pull --rebase` refused on other desks' dirty files, stayed on checkout; inbox drained (cards 053 to 056, then 11/07 001 to 003); COR-20261106-53 APPLIED; boot report to prome-bf.
-- **11/06 evening, not a log row:** second spike read from the CLOB book; packet to WALTER (7de38dd855), research note section, KB-ORC-130 (029c4c7aec, 7a3d033080). NBC timing corrected after WALTER's note (c0e8f8bfd9).
-- **WQ-646 A read 1 (11/07 08:43 ET, prome-bf):** pulls 13:43Z (PM 49 rows of 52 pins, the three legs closed; Kalshi 9/9 UNSIGNED; spread +73.5). Breaking packet to WALTER (8c8c3df300; fixes 5016daf67c, a87b7092d3), consumed as card 002. Read written: research note, KB-ORC-131, STATUS alert 00 (9b03984679). Sunday scope recorded (3678565270).
-- **My own errors, caught and fixed before routing:** Brent "+3 and +5" took Kalshi's previous-price field instead of my 22:15Z log; one unsupported timing sentence. WALTER told; card 002 carries the right figures.
-- **Closeout (11/08):** STATUS current state reconciled under WQ-653 (alerts 00 to 3, Iran and oil rows, matrix, bottom line, tensions, catalysts); resolved pins retired from `watchlist.tsv`; cards 001 to 003 processed; this SCRATCH; NEXUS_BRIEF.
-- **WQ-646 A read 2 (11/08 16:58Z, pulled forward on prome-bf's message, Will's word 11:57 ET):** record 519ecd3d04 (research note read-2 section, KB-ORC-132, STATUS alert 000); WALTER packet 9b6404ed12 plus SendMessage; result to prome-bf. Second closeout: new legs pinned, STATUS reconciled, this SCRATCH, NEXUS_BRIEF.
-- **Not done:** `TRADE.md` tables, coverage sweep, CENTCOM page or wire bodies (FALCON's), on-chain resolver text.
+- **Boot:** origin 5 ahead / 0 behind (others' unpushed), nothing to pull; a first `git fetch` failed DNS once and then worked. Ran-check OK (11/10 READ on the laptop). Corrections rc 1 → COR-20261109-09 and COR-20261111-06 receipted NO-OP (my records never carried those limbs). Kalshi SIGNED rc 0.
+- **Inbox drained:** WALTER cards 20261109-001, -009, 20261111-006 → processed. PROME's brief said 4 cards; 3 were delivered. BOARD 20261110-001 names ORACLE in its body only, read anyway.
+- **Gate read 2026-11-11T14:45Z** (PM 51 rows, Kalshi 9/9, spread +84.5pp). Graded the routine reads of 11/09 and 11/10 too.
+- **KB-ORC-133 (12/9 FOMC):** PM hold 3.5 / +25 85.5 / +50 11.8; Kalshi 3 / 85 / 11; futures ZQZ26 95.915 ⇒ +28.9bp (EFFR 3.88, 11/09); ZQF27 +30.5bp. HENRY's relay confirmed in size. 11/10 timing: hold fell at Waller's text, +50 rose at the CPI print.
+- **KB-ORC-134 (Iran/oil):** pause by 11/15 54.5 (41.5 on 11/08); WTI $110 Nov 7.0 (17.0); Kalshi Brent rungs 25 / 30 (48 / 56 on 11/07).
+- **KB-ORC-135 (Nvidia/AI, combo:ai-unwind-read):** Huang out by 12/31 PM 15.5, Kalshi 17.0; Kalshi by 7/1/27 39.0 (+10); AI bubble 7.0; no SoftBank or capex contract (Kalshi search NOT CERTIFIED).
+- **Gates:** VX-ORC-12 Alert held (77.5, 84.5, 85.5); VX-ORC-07 🟠 Alert (Fed hold −18.35 on a deep book; thin yield-ladder moves over 20 excluded); VX-ORC-04 none (11.5, 7.5, 7.0); V5_NOV110 rows 9 to 11.
+- **Record bd6bf9d89c; packet `PROME/inbox/2026-11-11_from-ORACLE_catchup-read.md` 465e9ba6b7; SendMessage to prome-2b delivered.** PROME consumed and filed it and sent the routing table to WALTER to card.
+- **Closeout:** coverage sweep run (495 hits; pinned the Dec +50 leg, nominated blockade-end by 12/31 33.9); Hormuz weekly rolled to week-of-11/9 ($511, nomination-grade); STATUS bottom line, tensions and catalysts reconciled; NEXUS_BRIEF rewritten.
+- **Not done:** October CPI YoY check (BLS API daily limit); Huang source reports; `TRADE.md` tables; full STATUS dashboard re-base (alerts 0000 to 0002 carry today; the tier tables are 11/06).
 
 ## NEXT SESSION (dated, priority-flagged)
 
-- **✅ WQ-646 A done: four reads spent (prome-bf 11/08 12:03 ET); no timed read owed.** Hold the window idle, with no timer, until PROME asks.
-- **🔴 New pins (11/08):** `us-x-iran-effective-ceasefire-by-november-8-20261108` has a nominal endDate of 20:29Z 11/08, but its 14-day period cannot complete before about 11/24, so it may stay open or drop from the plain query. If `pull` prints it RESOLVED, read the Gamma closed record before believing it: a NO means a qualifying strike landed after 02:48Z 11/08. Old 11/05 leg window closes 20:29Z 11/08; 11/06 leg closes 20:29Z 11/09. Check both outcomes.
-- **🔴 Every boot:** `tools/routine_check.py`, then grade the routine rows into `V5_NOV110_READS.tsv` and VX-ORC-12. Next ledger row is ET Mon 11/09: the routine's 10:15 ET desktop pull (166f9c649e, spread +77.0pp), logged and NOT graded.
-- **🟠 Sync-first, first real exercise Tue 11/10 10:15 ET:** read `~/.local/state/oracle_daily_pull.log` on each box for `SKIP` lines and their reasons. If "behind ... tracked files are modified" recurs, the date goes NOT READ for a live session to take (Known limits b). The laptop has not run the new script yet; its first run will be at its next slot after it pulls.
-- **🔴 Mon 11/09:** did oil follow at Sunday's reopen? Unknowns to close: spoken time of Trump's remark, the resolver's evidence, which strike qualified. VX-ORC-07's 48h pair window ends 11/08 22:15Z with its leg closed; state unchanged until a registered step says otherwise. Re-test a second-venue strike market (`kalshi.py search "Iran strike"` was NOT CERTIFIED).
-- **🟠 Rolls:** Hormuz weekly → wk-of-11/9 at 11/09 · Hormuz on-date · December $110 at listing (expect ~11/25 by prior pattern; bump REGIME, one edit) · R3 switch 2026-11-17T01:00Z (INFERRED) resets the arming run.
-- **🟠 Kalshi CPI:** `KXCPIYOY-26OCT` 404; decide on pinning `KXCPIYOY-26NOV` rungs near the mode (November data, closes 12/10; OI 57.4K on `T3.8`) after HENRY's view. October CPI grade (KB-ORC-124) then rests on PM's thin book.
+- **🔴 Every boot:** `tools/routine_check.py`, then grade the routine rows into `V5_NOV110_READS.tsv`, VX-ORC-04 and VX-ORC-12. Next gate read Thu 11/12 (the routine may take it at 10:15 ET).
+- **🔴 Grade the October CPI market at resolution** (PM 3.7% leg 94.6 at 11/11, 92.5 at 11/09 before the print): KB-ORC-124's third point. Read the BLS YoY when the API limit resets.
+- **🟠 Full STATUS rewrite:** re-base the tier tables and matrix to a current pull (they are 11/06 vintage under the 11/11 alerts).
+- **🟠 Pause legs:** watch the by-11/8 leg (25.5) for resolution; if NO, read which strike the resolver used. By-11/15 crossed 50 on 11/11.
+- **🟠 Nomination to VULCAN via PROME:** pin the Huang CEO legs (PM 12/31, Kalshi 1/1/27) only if VULCAN wants a CEO-risk gauge. Blockade-end by 12/31 (33.9, liq $335.6K) is a nomination beside the pinned 3/31/27 leg.
+- **🟠 Rolls:** Hormuz on-date · December $110 at listing (expect ~11/25; bump REGIME) · R3 switch 2026-11-17T01:00Z (INFERRED) resets the arming run. New pins (Dec +50, Hormuz week-of-11/9) first log at the next pull.
+- **🟠 Kalshi CPI:** decide on pinning `KXCPIYOY-26NOV` rungs after HENRY's view.
 - **🟠 `TRADE.md`:** regenerate tables from `TRADE_MARKS.tsv`; rendered tables are as of 11/04.
 - **🟠 Russian diesel nomination** (BRENT/OSPREY). Do not pin without the owner's read.
-- **🟠 Next coverage sweep due ≤11/11.**
-- **🟠 Daily grading owner:** WQ-599, was on Will's Sat 11/07 list; outcome not read. Routine unchanged.
-- **🟡 Combination reviews:** 11/12 bank-book-depth, ai-unwind-read, print-miss-direction · 11/16 strike-vs-oil, diplomacy-drift · 11/19 polymarket-integrity · 11/20 venue-legal-risk.
+- **🟠 Sync-first check:** read `~/.local/state/oracle_daily_pull.log` on each box for SKIP lines (the 11/10 laptop run read OK).
+- **🟡 Next coverage sweep due ≤11/18.**
+- **🟡 Combination reviews:** 11/12 bank-book-depth, ai-unwind-read (now with KB-ORC-135), print-miss-direction · 11/16 strike-vs-oil, diplomacy-drift · 11/19 polymarket-integrity · 11/20 venue-legal-risk.
 - **🟡 2026-12-15: Kalshi gap-fill quarterly re-check** (WQ-305).
-- **🟡 Carried:** DAEDALUS F-1 Brier (bank-failure family) · NEH PDF unread · KB-ORC-086 sweep · WQ-295 WATCH_FOR check.
+- **🟡 Carried:** DAEDALUS F-1 Brier (bank-failure family) · NEH PDF unread · KB-ORC-086 sweep · WQ-295 WATCH_FOR check · WQ-599 daily grading owner outcome not read.
 
 ## CARRY-FORWARD
 
-- **Push state:** oracle-8f's commits 45a7701876, 055188d9af, f4d652ea39 and this closeout commit go by `scripts/safe-push.sh` at 11/09 closeout; the CONFIRMED receipt is in the reply to prome-6f. (11/08 closeout pushed via the laptop; receipt in the reply to prome-bf.)
+- **Push state:** this session's commits bd6bf9d89c (record), 465e9ba6b7 (PROME packet) and the 11/11 closeout commit go by `scripts/safe-push.sh` at closeout; the CONFIRMED receipt is in the reply to prome-2b.
 - **Combination themes (`combo:` in KB Notes):** strike-vs-oil · diplomacy-drift · polymarket-integrity · bank-book-depth · ai-unwind-read · print-miss-direction · venue-legal-risk.
 - **Cadence settled:** PROME 11/04: one read per weekday stands. The letter has no halt rule, and I did not propose one (Will 10/31: fewer rules).
 - **`TRADE.md` refresh:** rerun `tools/trade_marks.py --write`, then regenerate the tables; never hand-type a vintage.
+- **Fed futures method (verified 11/11, same as HENRY's):** Dec average = 100 − ZQZ26; post = (31 × avg − 9 × EFFR) / 22; unit check ZQX26 = EFFR. Full precision via `.venv/bin/python` yfinance (fetch.py rounds to 2 dp). One 0.005 tick = 0.7bp. NY Fed EFFR API `markets.newyorkfed.org/api/rates/unsecured/effr/last/3.json`. BLS API has a daily request limit shared on this box.
 - **Standing framing (do not re-derive):**
   - **In a fast move read the CLOB book, not Gamma:** Gamma showed 3.75 at 00:48Z 11/07 against CLOB 21/34 (KB-ORC-130). Take several book reads and quote ranges; `liq` overstates near-touch depth.
   - **A closed market drops out of the plain Gamma slug query** (IndexError); `polymarket.py pull` finds it through its `closed=true` fallback and prints RESOLVED. A pin gone missing may be the event firing.
@@ -77,6 +61,7 @@
 ## OPEN HYPOTHESES
 
 - **Possibly the crowd separates limited strikes from a supply shock (UNPROVEN).** First test 11/07: a confirmed minor strike resolved the legs while WTI $110 fell 19.5 → 17.0 and invade and war stayed flat; two thin Kalshi Brent rungs rose. Futures were shut, so Sunday's reopen is the real test. Read 2 (11/08 16:58Z): the new pause market priced about 76 for another strike in 14 days, while WTI $110 held 17.0 and invade held 10.5. The crowd prices more strikes but no supply shock. HAWK and BRENT own the reality.
+- **Fed size (11/11):** venues price +50 at 11 to 12, futures about 16 to 19 by conversion. Inside the conversion's error; watch whether the gap persists past the 12/4 jobs print before calling it a divergence.
 - **The 11/05 Fed fall may be a risk-off reflex, not a Fed read (UNPROVEN).** Five markets moved together 10:40–10:50 ET; odds rebounded 11/06, 6 points before the print and 8 after. No driver found. LIQUID and HENRY own the reality.
 - **Deal hopes may explain the 11/04 oil drop (cause NOT established).** Blockade-end 3/31/27 69.5 (11/07) is the check; deal top component 11.5.
 - **Bank-failure crowd = the 2024-25 prior, not 2026 data.** Test in F-1 (Brier). Book stayed dead through a −2.46% KRE day ($2.2K liq 11/06).
