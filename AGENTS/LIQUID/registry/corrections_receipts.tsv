@@ -56,3 +56,4 @@ receipt_date	correction_id	action	note
 2026-11-06T22:14Z	COR-20261106-42	APPLIED	artifact=AGENTS/LIQUID/STATUS.md#AI financing; validation_ref=NONE; 
 2026-11-06T23:20Z	COR-20261106-51	NO-OP	scope=grep of REPORT section 17, KB-LIQ-159, STATUS, NEXUS_BRIEF: card restates LIQUID's own Hertz read, no figure changes; 
 2026-11-06T23:35Z	COR-20261106-52	APPLIED	artifact=AGENTS/LIQUID/workbook/KB.tsv#KB-LIQ-159; validation_ref=AGENTS/LIQUID/research/2026-11-05_live-catchup/REPORT.md#Correction; 
+2026-11-11T15:06Z	COR-20261110-12	NO-OP	scope=No LIQUID record carried card 010's Ohio or Silver Bands 7 attribution. The 11/10 SoftBank report names Ohio only as VULCAN's lane. LIQUID's leg reads credit prices and ratings only.; 

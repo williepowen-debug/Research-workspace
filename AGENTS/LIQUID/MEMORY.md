@@ -2,7 +2,15 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-10 (PROME prome-07 launch on Will's word 11:38 ET, desktop, Claude Code / Opus 5.5)
+### CURRENT SESSION — 2026-11-11 (PROME prome-2b, WQ-184 and Will's 09:24 ET word, Veterans Day, desktop, Claude Code / Opus 5.5)
+
+- **Context:** four items in order: 11/10 HY cell, D:L1110 SoftBank Tokyo credit, WALTER 007 Skydance, CoreWeave against Oracle; then the inbox. Research only; nothing moved.
+- **HY cell PENDING:** not on FRED by 10:53 ET though FRED itself updated (VIXCLS, T10Y2Y 11/10); the whole ICE family stops at 11/9. Told prome-2b at 10:06 and 10:53; TERRY and HENRY released from waiting. Poll to 17:00 ET; else Thursday about 10:10 ET. Veterans Day handling matches 398a946b9a.
+- **SoftBank:** 5Y 475 after the Tokyo session (one trade), 3Y flat; yen seniors +2.2 bp, about 1.5 bp over peers; no rating action. **Skydance:** legacy CDS 529 [11/9], leverage 4.51x covenant basis versus 6.16x / 7.6x economic (estimates). **CoreWeave/Oracle:** no after-results CDS print yet.
+- **Method:** DTCC intraday slices (`ppd/api/report/intraday/sec/SEC_SLICE_CREDITS_<date>_<n>.zip`) give same-day rows before the 20:15 ET cumulative file (KB-LIQ-160). JSDA served again with one request per file.
+- **WQ-671 A:** December Fed-meeting pricing is ORACLE's; cite its dated read.
+
+### PRIOR SESSION — 2026-11-10 (PROME prome-07 launch on Will's word 11:38 ET, desktop, Claude Code / Opus 5.5)
 
 - **Context:** three items in order: D:L342 holiday-carry ruling, Tuesday row, 10-year auction grade. No trade, card, threshold, letter or band moved.
 - **D:L342 EXPOSED, fixed and pushed (398a946b9a) before the November 11 cell:** FRED repeats the prior HY value on bond-market (SIFMA) closures, Veterans and Columbus Day included while NYSE trades, so tomorrow was the first exposure, not Thanksgiving; month-end weekend rows too. Five readers now read session rows from one `BOND_CLOSED` list in `gate069_legs.py` (extend before 2027-12-31). No past grade since registration changes. REPORT §19.1.
@@ -11,7 +19,7 @@
 - **SoftBank credit leg (PROME prome-07, 17:19 ET, on Will's 17:18 word):** SBG 5Y CDS on DTCC 497 median 11/9, pre-results, widest since August; Oracle flat, CoreWeave tighter; ratings and retail channel unchanged; `research/2026-11-10_softbank-credit/REPORT.md`. **Method:** the probe's default 4% rate reads about 30 bp high on yen CDS; 1% matched the disseminated 438 and Reuters 466. JSDA 429s this box; TRACE unreachable.
 - **Method note:** a "carry" test by value equality cannot separate a holiday from a flat day; the calendar decides. VIOLET framed it as NYSE closures; the data showed the bond calendar, which moved the deadline 15 days earlier.
 
-### PRIOR SESSION — 2026-11-09T20:20:43-05:00 (Will boot 20:11 ET, "yes please update LIQUID go ahead" 20:15 ET, laptop, Claude Code / Opus 5.5)
+### EARLIER SESSION — 2026-11-09T20:20:43-05:00 (Will boot 20:11 ET, "yes please update LIQUID go ahead" 20:15 ET, laptop, Claude Code / Opus 5.5)
 
 - **Context:** startup recovery, then a bounded Monday catch-up. No new thread, spawn, trade or card. No gate, band or score moved.
 - **Delivered:** November 6 first-published grades (HY 342, −6; >320 run 7; tier rule BROADENS on the 15-session clause only); 069 L1 and L4, 072, 079 (+7), HY-REKILL, 076 window; DTCC November 6 full file (Oracle 305 disseminated, 306 to 314 converted; Microsoft about 47 or 156 bp, payer undisclosed); 3Y auction row resolved from BOND's grade; three WALTER cards and the GIBBS and BOND packets consumed; KB-LIQ-153, 156, 158 updated; packet to PROME. → `research/2026-11-05_live-catchup/REPORT.md` §18.
