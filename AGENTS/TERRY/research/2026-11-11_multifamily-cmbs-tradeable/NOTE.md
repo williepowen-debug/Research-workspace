@@ -26,6 +26,19 @@ Trepp CMBS multifamily special servicing 9.22% in October, +69 bp, a new 2026 hi
 2. **A named loan-to-lender map** for the Blackjack portfolio or the October maturity defaults (which REIT or bank holds the B-piece or the bridge loan).
 3. **HOMER's 11/20 formal grade** setting a criterion on special servicing or a new PMMS rung (A2 has none above Red).
 
+## Addendum 10:0x ET — REGINALD names a carrier (Preferred Bank, PFBC): NO CARD STANDS
+
+PROME prome-2b relayed REGINALD's catch-up (`PROME/inbox/processed/2026-11-11_from-REGINALD_catchup-live-data.md`): PFBC Q3 10-Q (FDIC, 11/09, primary): CRE loans 60–89 days late $150.2M vs $29.8M at 30–59 [9/30] (6/30: $80.5M vs $10.1M); real-estate special mention $148.4M from $19.6M at year-end; nonaccrual $103.2M held for investment + $56.6M held for sale; NPAs 2.27% of assets; REG-31 resolved TRUE.
+
+| # | Why it does not change the answer | Figures (vendor, 10:0x ET) |
+|---|---|---|
+| 1 | **Only half the re-open condition arrived.** Condition 1 was an AND: the Trepp November print missing HOM-05 *and* a carrier not already repriced. PFBC supplies the carrier; the November print is still about 12/01–05. | this note § What would change |
+| 2 | **PFBC has no usable option vehicle.** 3 expiries (Dec-18, Mar-19, Jun-17); the Mar-19 put chain returned no strikes within ±20% of spot. REGINALD's 11/05 record already rates its options not tradeable for Will. Shares-short is outside this book. | `chain_fetch.py PFBC` |
+| 3 | **The name is not repriced, but the cohort is rising, not following.** PFBC $103.40, −1.7% over 30 bars (−6.1% vs KRE), mid-range two days after the filing; CATY +9.0%, HAFC +5.6%, KRE $73.06 +4.4% near its 30-bar high. A cohort put (KRE) would be a call that one bank's aging spreads, against a tape that says it has not. | `snapshot.py` |
+| 4 | **The cohort expression is already in Will's book, by hand.** Bank/credit put cluster 41 contracts across 14 lines, basis $6,644.24, value $1,110.00 [FORGE mirror, 11/10 intraday], including KRE Nov-27 68P ×10 and KRE Dec-31 65P ×2. Another cohort put stacks on the same falsifier (the 9/11 shared-falsifier grouping: nothing caps the cluster). | `FORGE/STATUS.md` D-74 |
+
+**Would change:** the Trepp November miss lands *and* PFBC (or a named peer) shows the aging in its price, with a listed option chain that quotes; or REGINALD maps the PFBC late loans to a cohort mechanism (a shared maturity wall) that a broker-quoted KRE structure, sized against the existing cluster, expresses better than the lines Will already holds.
+
 ## Small item logged (WQ-622)
 
 `SIGNALS.tsv` `COMBO-CREDIT-FOLLOWING` gains the special-servicing print and the ABR / mortgage-REIT tape, counterevidence included. Logging is not scoring.

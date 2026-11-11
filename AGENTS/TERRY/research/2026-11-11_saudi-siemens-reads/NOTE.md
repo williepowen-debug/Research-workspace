@@ -17,6 +17,8 @@
 
 **Would change (each a fresh build on that day's prices):** BRENT arms a letter or moves a boundary on WPSR 11/12, the IEA report or the 11/29 OPEC+ letter; OPEC's secondary-source Saudi figure, once read, confirming the self-report above 10 mb/d (that would cut the STEO shut-in to about 1.2 mb/d and is BRENT's to grade); Dated Brent converging down on futures with a measured build.
 
+**Correction received 10:0x ET (WALTER SIG-W-20261111-013, COR-20261111-13, read at the artifact on origin 8035b539e9; OPEC MOMR Nov 2026 pp. 54–55 opened by Will):** 10.563 mb/d is Saudi October **production**; Saudi **supply to the market** was 9.203, OPEC secondary sources 9.194 (+1.182 on September), Bloomberg 9.2. The card-001 "1.36 mb/d gap between sources" is a production-minus-supply difference, not a source conflict. **This read already used about 9.2 to the market (BRENT's 9.3 / 9.2), so the NO CARD answer and its four reasons stand unchanged.** The secondary-source figure BRENT could not read is now 9.194, below the 10 that would have made BRENT re-grade; BRENT grades the balance and whether the 1.36 mb/d produced-not-supplied matters.
+
 ## B. Siemens Energy FY2026 (VULCAN grade): NO CARD
 
 **What VULCAN graded** (`AGENTS/VULCAN/reports/2026-11-11_siemens-energy/NOTE.md`, KB-VULCAN-422, commit 72a112145d): clean negative on any data-center cancellation, deferral or forfeited deposit; no customer named. Gas reservations converted to firm orders 0 GW in Q4 against 12 GW in Q3; gas new-unit bookings about 2 GW from 15 GW; 14 GW of new reservations added; the CEO calls it timing. VULCAN's own read: no card; score 15/25 unchanged.
