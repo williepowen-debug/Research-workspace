@@ -21,6 +21,7 @@ dispatch_note: "OIL_ENERGY row: BRENT action, info HAWK and RED; FALCON added be
 anchor_unverified_as_of: "2026-11-05"
 event_window: "open"
 ---
+> **Correction, November 11 — SIG-W-20261111-013:** At OPEC's report itself, 10.563 mb/d is Saudi PRODUCTION. Saudi's own supply to the market was 9.203 mb/d and OPEC's secondary sources say 9.194, matching Bloomberg's 9.2. The "1.36 mb/d difference between readings" below is production against supply, not one source against another. The October rise of about 1.2 mb/d to the market holds.
 # Saudi Arabia told OPEC it pumped 10.563 mb/d of crude in October, up from 8.372 mb/d in September (+26%, highest since February); Bloomberg's survey says 9.2 mb/d; this sits against EIA's November 10 STEO, which counted 2.5 mb/d of Middle East shut-ins in October
 
 **What was published.** OPEC's November Monthly Oil Market Report (November 11), direct communication table, relayed by @financialjuice at 13:01Z and by Bloomberg, Investing.com and Business Recorder the same morning:
