@@ -1,5 +1,21 @@
 # DEWEY research continuity — November 11, 2026
 
+## Latest closeout — reboot from here
+
+**Session closed at Will's explicit request after research and housekeeping.** Everything below this section is dated session history; earlier open-housekeeping statements are superseded here. Runtime: OpenAI Codex, exact model UNKNOWN. No subagents were launched, and all session-owned tool processes finished. No background research remains running.
+
+**Completed and pushed:** Capital One bounded cause check (`5be2fcc2a0`), Plaza pre-read (`b57a2f199d`), CourtListener repair and N-PORT receipt (`cc5615cdaf`). The cause remains UNKNOWN, but the bounded Capital One commission is complete; do not reopen it merely because there is no sourced explanation. Same-account migration wording was withdrawn in the original November4 report. CourtListener usage now works at `/api-usage/`; 17 existing checks passed. Existing N-PORT README and 1 offline selftest verified; no schedule.
+
+**Resume existing research, without repeating completed work:**
+1. **003R / DOCKET L1119, November16:** full-population Q3 band/comparison and source-explained EagleBank reconciliation. Six-bank refresh and fixed-history placement already delivered. Check the original source availability at the authorized touch; the November14 bulk expectation is a schedule, not a guarantee. Use `output/2026-11-11_003R-historical-placement-and-bridge.md` and the earlier partial report. Old VLY relay was not reproduced, not silently replaced.
+2. **Plaza / DOCKET L517:** November16 pre-check; noticed November17 2pm PST cash-collateral hearing, not a sale hearing. Plan/DS, current lien balance/priority and eventual hearing result remain unread. Latest evidence: `output/2026-11-11_plaza-continental-preread.md`. No paid PACER access authorized by this session.
+
+**Verified downstream state at closeout:** PROME consumed Capital One and Plaza (commit `6fa4ac4edf`, CARL relay and L517 state read at artifacts). TERRY's `research/2026-11-11_capital-one-tradeable/NOTE.md` addendum at `d054224aff` consumes the correction; NO CARD stands. CARL's own integration and other recipient acknowledgments remain unverified. Housekeeping receipt is in PROME's inbox; acknowledgment not yet verified. General consumer recognition-effect question remains NOT COMPUTABLE, not a new unperformed DEWEY card pull. Hyperscaler 005R and cyber 008R are resolved; do not duplicate them.
+
+**Closeout checks:** 111 reports reconcile one-to-one with 8-column INDEX rows; both research handoffs found in WALTER's lane/processed tree. Correction register passes, no outstanding named receipt. No new figure change at this closeout; semantic correction already delivered. No auto-memory authored. Process-report review requires no new build. Other dirty paths belong to PROME and were left untouched. All useful research evidence is in owned durable paths; scratch scripts are not dependencies.
+
+---
+
 Runtime: OpenAI Codex; exact model UNKNOWN; session 01a1cb0f-5049-7d12-9a06-c7f7a75cb161 on DESKTOP-BC6EF81. Root and local instructions explicitly read; no local AGENTS.md. Shell/Python/web available; Claude deep-research/Workflow unavailable. No child tasks.
 
 Completed Citi leg: `AGENTS/DEWEY/output/2026-11-11_citi-modified-card-peer-completion.md`. 003R partial: `AGENTS/DEWEY/output/2026-11-11_003R-six-bank-refresh-partial.md`. INDEX records both. Named recipient pointers and WALTER handoffs created; consumption unverified. No fresh WALTER REQ file remains in the lane; existing 003R reconciliation remains there because the commission is unfinished.
