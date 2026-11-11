@@ -44,3 +44,8 @@ N-able is a candidate member of CYPHER's existing supplier-route theme (KB-CYP-0
 - Unread sources: CF call read by FERT (KB-FERT-136); BoE 11/5 decision held by HANS (KB-HANS-164); STWD, ACRE and RC filings read by CREED (KB-CREED-113, -117, VX-CREED-10.01). WALTER rereads none.
 - 11/4 ISHM and LIQUID packets: retrospective consume declarations added from WALTER's own moving commits (f3152bf6ac, baa25ef70e); read times stay unrecorded.
 - DOORBELL_LOG rows for November 2–4: no evidence found to reconstruct them; left UNKNOWN rather than invented.
+
+## Addendum (owners closed the calendar gaps the same hour)
+- HENRY added the Michigan sentiment dates to ECON_CALENDAR.md (56414eeaa6, b8e037bc1e), read at UMich's release-date PDFs: November 20 final 10:00 ET, then December 4 and 18, and 2027 dates.
+- BRENT added the OPEC MOMR to docket/CATALYSTS.tsv (4194d19c66): Monday 2026-12-14 about 13:00 GMT on three agreeing listings (opec.org 403 here); 2027-01-14 MODELED. BRENT also added the IEA Oil Market Report, Friday 2026-11-13 04:00 ET.
+- The two 11/4 retrospective declarations now carry an evidence pointer; the doctor's filed-not-consumed flags cleared (cd3860d7d8). The doctor still counts CATO's 10/19 card as unconsumed because no receipt exists. That is the corrected description, left as is.
