@@ -2,7 +2,7 @@
 
 **Current-use reconciliation2026-10-25:** this is a DATED verification log. July31 §1–3 and subsequent dated blocks preserve past checks, not a claim all carried/unavailable rows are current. Supersessions: MCO unblocked8/21/MAR22 resolved; September voter proxies inMIG-09; CBO2025 range withdrawn/UNSCORED(WFD-24), including prior “correct” endorsement; current migration/proxy and source states inVX/STATUS. Latest bounded source receipt: `research/2026-10-25_stale-file-sweep-phase2/source_checks.md`. October25 new observations: Sepemploymentgap−0.78pp, L&HFL23.87/US23.90, fixedZHVIspread4.48pp, Austin−4.31%/44months,DOM81/+7.05%,JanOct border+5.77%,BEATTM−$3.125B. No historical verification date rewritten. Section5 frozen snapshot/rebuild language is historical; current border-terminus authority is the completed9/24 v3.2 rebuild, not a new rebuild task.
 
-**Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-10-28 (session 38 — MIA Sep, OFLC re-check, TX months of inventory, DR-1 retraction; see top block). PRIOR: 2026-10-21 (session 33 — PROME wave-3 catch-up: state AHE, FL months of supply, CPS population controls, Section 338 scope; see §1 10/21 s33). PRIOR: 2026-09-24 (session 30 — stale-row sweep: remittances, IRS, StatCan Q2 BOP, state AHE, voter-reg cycle; see §1 9/24 s30). PRIOR: 2026-09-24 (session 29 — airfares, TX border receipts, border-muni credit; see §1 9/24 s29). PRIOR: 2026-09-17 (session 26 — enrollment + Canadian perimeter rows; the 7/31 pass rows stand as dated)
+**Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-11-11 (session 40 — Oct airfares, Oct CPS, Oct F&V, Amendment 3 one figure). PRIOR: 2026-10-28 (session 38 — MIA Sep, OFLC re-check, TX months of inventory, DR-1 retraction; see top block). PRIOR: 2026-10-21 (session 33 — PROME wave-3 catch-up: state AHE, FL months of supply, CPS population controls, Section 338 scope; see §1 10/21 s33). PRIOR: 2026-09-24 (session 30 — stale-row sweep: remittances, IRS, StatCan Q2 BOP, state AHE, voter-reg cycle; see §1 9/24 s30). PRIOR: 2026-09-24 (session 29 — airfares, TX border receipts, border-muni credit; see §1 9/24 s29). PRIOR: 2026-09-17 (session 26 — enrollment + Canadian perimeter rows; the 7/31 pass rows stand as dated)
 
 > ## ⚠️ THIS IS A VERIFICATION LOG, NOT A SOURCE OF TRUTH
 > Every figure below has a named **canonical owner**. **If this file and the owner disagree, the OWNER WINS and the row here is stale — re-run it.** This file exists to answer one question the owner files cannot: **"when was this number last checked against a primary source, and by what method?"**
@@ -15,6 +15,13 @@
 `VERIFIED-PRIMARY` pulled from the issuing source this pass · `CARRIED` asserted on a prior pull, not re-checked this pass · `FROZEN` deliberately not maintained, do not cite as current · `RETRACTED` withdrawn, replacement named · `NO PRIMARY` no live instrument exists
 
 ---
+
+## November 11, session 40 — catch-up verification
+- **VERIFIED-PRIMARY:** BLS `CUUR0000SETG01` Oct-26 327.822 vs Oct-24 265.939 = **+23.27% 2-yr** (Sep 315.948 and Aug 309.736 reproduce carried +26.36% / +27.46%). Read at data.bls.gov via WebFetch; BLS API daily limit hit from this box.
+- **VERIFIED-PRIMARY:** BLS `LNU01073395` Oct-26 **33,121k**; identity exact with 137,785 + 170,906; 2-yr +686K vs Oct-24 32,435. Monthly-move history from the DBnomics BLS mirror (vintage to Jan-2025), not BLS direct.
+- **VERIFIED-PRIMARY:** BLS `CUUR0000SAF1131` Oct-26 422.604 vs Oct-24 400.509 = **+5.52% 2-yr** (Sep +5.13% reproduces).
+- **ADOPTED FROM OWNER:** Amendment 3 **61.98%** (4,917,796 vs 3,016,195), CORAL's 11/06 state-page read; supersedes the SECONDARY 62.01% below. Certification Tue 11/17.
+- **VERIFIED-PRIMARY (boot):** USDA w/e 11/07 cattle 534K, hogs 2,664K; OFLC FY2026_Q3 still newest (349,867).
 
 ## November 5, session 39 — catch-up verification
 

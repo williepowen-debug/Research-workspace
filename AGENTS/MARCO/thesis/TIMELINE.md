@@ -100,3 +100,5 @@ Miami-Dade Sep 2026: −1.82% YoY (2-yr −5.85%) after Aug −5.69% ⇒ charter
 - **11/5 Banxico September:** count −6.27% YoY, 2-yr −9.63%; run 6 months (`KB-REM-12`).
 - **11/5 AZ-01 first scored print:** October +35.3pp CRITICAL (`KB-AZ-04`).
 - **11/5 California persistence:** nothing dated after 10/21 found; NOT ESTABLISHED (`KB-WFD-25`).
+- **11/6 October CPS (context, no grade):** foreign-born labor force 33,121k, +842K in one month (largest Sep→Oct 2007–2026), 2-yr +686K vs Oct-2024; Oct-25 missing so no YoY; the 12/4 November print grades `SDL-01` (`KB-WFD-27`).
+- **11/10 `ENR-02` leg 2 PASSED ⇒ SUSTAINED:** October airline fares 2-yr +23.27% (index 327.822 vs 265.939) after September +26.36%; fare stage live into winter 2026-27; Spirit co-driver; FL demand stage ungraded (`KB-ENR-38`).

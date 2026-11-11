@@ -1,10 +1,10 @@
 # MARCO — NEXUS Brief
 
-**Status:** 🟠 v3.2 — Amendment 3 passed 11/3 (62.01% unofficial): letter MET, net migration sign not identified. Las Vegas room-dollar decline survives Labor Day; remittance run 6 months; `AZ-01` CRITICAL.
+**Status:** 🟠 v3.2 — `ENR-02` SUSTAINED 11/11 (Oct airfares 2-yr +23.27%, Sep +26.36%): fare stage live into winter, Florida demand ungraded. October jobs survey (context): immigrant labor force +842K m/m, a record. Amendment 3 one figure 61.98% with CORAL.
 **Domain:** Population movement — international visitors, workforce displacement and internal migration; Florida primary.
 **Thesis version:** v3.2, unchanged; position none.
 **Recent thesis pivot:** Channel 4 MED-LOW → LOW (9/24); s35 material evidence correction: MIA is Spirit-exposed, not a clean control.
-**As of:** 2026-11-05 18:22 ET (session 39, WQ-623 catch-up). **STATUS commit:** folded in the same commit as this brief.
+**As of:** 2026-11-11 10:31 ET (session 40, catch-up wake via PROME prome-2b). **STATUS commit:** folded in the same commit as this brief.
 
 ---
 
@@ -14,6 +14,10 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| **WALTER → REGINALD, CARL** | **SENT 11/11 s40 — `ENR-02` SUSTAINED** (Oct airfares 2-yr +23.27%), Spirit confound verbatim; WALTER routes | 🟠 | Fare stage live into the winter booking window; no Florida visitor or dollar decline established |
+| **TERRY** | **SENT 11/11 s40 — airfares tradeability read** (MARCO sees no clean expression) | 🟡 | NO CARD is a complete answer |
+| **CORAL** | **SENT 11/11 s40 — Amendment 3 one figure 61.98% adopted**, certification 11/17 | 🟡 | One Florida figure on both desks |
+| **PROME** | **SENT 11/11 s40 — catch-up packet** (D:L986–L988 not pulled forward; MAR-29 70→90%) | 🟡 | DOCKET L987 confidence note |
 | **CORAL** | **SENT 11/5 s39 — Amendment 3 enrolled text: 12/31/2026 residency line, $50K to the fifth exemption year; polls were at or over the bar on decided share** | 🟠 | Any Q4-2026 Florida inflow read carries a pull-forward confound (INFERRED); CORAL keeps result and fiscal |
 | **PROME** | **SENT 11/5 s39 — delivery memo; L785 ready to close; MAR-28..31; six combination themes** | 🟡 | Registers DOCKET rows, verifies the charter line |
 | **REGINALD, CARL** | **SENT 10/28 s38 — MIA negative 2 consecutive months (airport-own: Aug −5.69%, Sep −1.82%)**, direct packets + SIGNALS.md row | 🟠 | Charter trigger MET; domestic −4.33% on flat seats; threshold-MET / mechanism CONFOUNDED (Spirit, fares +22%) — not a demand verdict |
@@ -54,7 +58,9 @@
 
 ## VIEW
 
-- **Amendment 3 changes the Florida question, not the Florida score.** Passed 62.01% unofficial, not certified. New residents after 12/31/2026 wait to the fifth exemption year for the larger exemption. Pull-forward and retention are both INFERRED and pull net migration in opposite directions; Channel 3 stays MED-LOW.
+- **Energy → fares (`ENR-02`) SUSTAINED 11/11:** Oct 327.822 vs Oct-24 265.939 = +23.27% 2-yr (Sep +26.36%). Fare stage transmitting into the winter booking window; Spirit co-driver; national series; FL demand stage NOT graded.
+- **October jobs survey, context only:** foreign-born labor force 33,121k, +842K in one month (largest Sep→Oct 2007–2026), +686K vs Oct-2024. Two record months in a noisy survey; the split against remittances widens; 12/4 November grades `SDL-01` (MAR-29 now 90%).
+- **Amendment 3 changes the Florida question, not the Florida score.** Passed 61.98% unofficial (one figure with CORAL), certification 11/17. New residents after 12/31/2026 wait to the fifth exemption year for the larger exemption. Pull-forward and retention are both INFERRED and pull net migration in opposite directions; Channel 3 stays MED-LOW.
 - **Las Vegas:** Aug+Sep RevPAR −9.02%, visitors −2.09%; mostly price, YTD RevPAR still +0.6%. Total LAS, not Canadian.
 - **Remittances:** Sep count −6.27%, 2-yr −9.63%, run 6 months, no high base behind it. Fewer senders versus consolidation still open. The split with the September jobs survey stands until 12/4.
 - **`AZ-01`:** October +35.3pp CRITICAL, first scored print; any-cause stress, not snowbird attribution.
@@ -78,15 +84,14 @@
 
 ## NEXT DECISION POINT
 
-- **What:** `ENR-02` leg 2, October airfares (2-yr ≥ +20.0% = SUSTAINED).
-- **When:** 11/10.
-- **What would falsify the trigger:** either month below +15.0% = FADED; October needs an index fall of −3.20% MoM to get there.
+- **What:** `ID-01` leg 2, StatCan October Canadian land-vs-air 2-yr gap (decides `ID-01`).
+- **When:** ~11/13 (est.).
+- **What would falsify the trigger:** October common-mode (land and air move together) or land improving against air; IDENTIFIED needs an October gap move ≤ −2.5pp from the August −4.72 baseline (September met, −7.69pp).
 
 ## FORWARD CATALYSTS (next 2–4 weeks)
 
 | Date | Catalyst | Link to the view |
 |------|----------|------------------|
-| 11/10 | October CPI airline fares | NEXT DECISION POINT; Spirit co-driver/national scope retained |
 | 11/12–13 | H-2A court-status checkpoint / StatCan October | Later procedural state; raw and calendar-adjusted ID-01 legs separate |
 | ~11/15 | OFLC Q4 / existing BTS release read | FY certification resolver; inspect LAS filing backfills if available, no new tracker |
 | ~11/17–19 | Amendment 3 certification / CA second check | Official count; local persistence |

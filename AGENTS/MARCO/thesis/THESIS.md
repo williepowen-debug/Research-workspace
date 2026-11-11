@@ -36,7 +36,7 @@ Annual CensusV2025 Florida domestic net+22,517 and international+178,674 remain 
 
 September FL condo/TH supply7.7 months CRITICAL, SF4.4 ELEVATED (CORAL owns; verifiedOctober21). Citizens September exposure $69.61B / PIF 254,836 (CORAL, 9/30) is takeout-driven and differs from household premiums. Matched premium ratio2.95x remains the carried basis until a compatible newer source is verified. Do not substitute the old4.5x or ~385K policies. Existing monthly ZHVI/DOM checks retain their baskets and same-month definitions.
 
-**Amendment 3 passed (11/3, 62.01% unofficial).** From 2027 anyone without a Florida permanent residence as of 12/31/2026 stays at a $50,000 non-school exemption until the fifth exemption year, while existing residents go to $250,000 by 2028. The docket letter is MET; the mechanism is untested. INFERRED and unmeasured: a pull-forward into Q4 2026 that would inflate inflow proxies, and lower outflow from existing homesteaders with more to lose. Net direction is not identified, so Channel 3 conviction does not move. `KB-MARCO-FLI-06`.
+**Amendment 3 passed (11/3, 61.98% unofficial, one figure with CORAL 11/11; certification 11/17).** From 2027 anyone without a Florida permanent residence as of 12/31/2026 stays at a $50,000 non-school exemption until the fifth exemption year, while existing residents go to $250,000 by 2028. The docket letter is MET; the mechanism is untested. INFERRED and unmeasured: a pull-forward into Q4 2026 that would inflate inflow proxies, and lower outflow from existing homesteaders with more to lose. Net direction is not identified, so Channel 3 conviction does not move. `KB-MARCO-FLI-06`.
 
 ## Channel 4 — remittance flow MEDIUM; fiscal terminus LOW verified
 

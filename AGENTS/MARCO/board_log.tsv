@@ -90,3 +90,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-29T03:38Z	SIG-W-20261029-009	info-only	INBOX_WALTER	RCL Q3 adj EPS 6.57, FY guide raised, fuel offset. CRUISE/BRENT lane. No MARCO vector.
 2026-10-29T03:38Z	SIG-W-20261029-011	info-only	INBOX_WALTER	EU gas storage record low for date (73.94% 10/12, secondary). HANS/BRENT lane. No MARCO vector; ENR-02 is airfare stage only.
 2026-11-05T23:03Z	SIG-W-20261031-005	info-only	INBOX_WALTER	Belarus potash transit report (UNN relaying Politico unnamed officials; Lithuania PM denies pressure). FERT triage-only lane, default copy. No MARCO vector.
+2026-11-11T15:29Z	SIG-W-20261110-007	info-only	INBOX_WALTER	FERT NASS Nov corn 179.6 unattributed; Oct food at home +0.4% beef-led. Context folded into KB-MARCO-PRD-40 (Oct fresh F&V 2-yr +5.52%). No MARCO vector moved.

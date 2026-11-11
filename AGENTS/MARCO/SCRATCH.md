@@ -1,42 +1,29 @@
-# MARCO SCRATCH — session 39 catch-up
-**Last Updated:** 2026-11-05 18:22 ET — bounded session under WQ-623, Will's word "go". Desk was dark 10/29 → 11/5.
+# MARCO SCRATCH — session 40 catch-up
+**Last Updated:** 2026-11-11 10:31 ET — catch-up wake on Will's 09:24 ET word ("get all our agents caught up to the live data and news"), relayed by PROME prome-2b. Window held open; PROME asks for closeout later today.
 
-## CHANGES SINCE (10/29 → 11/5)
-- Florida Amendment 3 passed 11/3. WALTER routed it to CORAL, not MARCO, so no signal reached this inbox.
-- LVCVA September posted about 10/28; the reports page lags, the PDF link lives on lvcva.com/research/ and /stats/.
-- Banxico September arrived; boot fetched it.
-- LABOR answered the population-control question. CORAL sent two Citizens packets.
-- WQ-622 A (combination watch) and the prediction brief (WQ-596) landed for every desk.
+## CHANGES SINCE (11/6 → 11/11)
+- BLS October jobs (11/6) and October CPI (11/10) published. BLS API hit its daily limit from this box (other desks); data.bls.gov series pages read via WebFetch instead.
+- CORAL sent the Amendment 3 one figure (61.98%, certification 11/17). WALTER card SIG-W-20261110-007 (FERT NASS/CPI, info).
+- Fleet context (PROME, unverified by MARCO): Fed hike priced for 12/9; 10Y 4.98% at 11/10. Not a MARCO instrument.
 
 ## WHAT I DID
 | Item | Result |
 |---|---|
-| Amendment 3 | PASSED 62.01% unofficial. Enrolled text read: $50K until the fifth exemption year for anyone not resident by 12/31/2026. Letter MET, net sign not identified, no conviction move. `KB-FLI-06`; packet to CORAL |
-| Las Vegas | Aug+Sep RevPAR −9.02%, visitors −2.09%: decline survives Labor Day, ES-07 reading not met. Mostly price. `KB-NV-07` |
-| Banxico Sep | Count −6.27%, 2-yr −9.63%, 3-yr −9.64%, run 6 months, $ +1.55%, avg $426. VX-2.08 CRITICAL. `KB-REM-12` |
-| AZ-01 | First scored print October +35.3pp CRITICAL. `KB-AZ-04` |
-| California | Nothing after 10/21 found. NOT ESTABLISHED, re-check 11/19. `KB-WFD-25` |
-| Citizens | Re-based to CORAL: 254,836 @ 9/30; 10/23 fall was the 10/20 takeout round. `KB-FLI-07` |
-| LABOR return | Consumed, `KB-WFD-26`; L785 ready to close |
-| Combination watch | Charter line 3b; six themes `KB-COMBO-01..06` |
-| Predictions | MAR-28 to MAR-31 registered; PROME packet |
-| Docket | Five rows pruned to TIMELINE, six added, file date-sorted |
-| Lesson | Supermajority bar: read polls on decided share. MEMORY |
+| `ENR-02` leg 2 | Oct airfares 2-yr **+23.27%** (327.822 vs 265.939) ⇒ **SUSTAINED** with Sep +26.36%. FLOW-ENR-01 updated. Signal to WALTER for REGINALD + CARL; TERRY tradeability packet. `KB-ENR-38` |
+| Oct CPS (context) | Foreign-born LF **33,121k, +842K m/m** (record Sep→Oct), 2-yr +686K. MAR-29 70→90%. `KB-WFD-27` |
+| Oct fresh F&V | 2-yr +5.52%; YoY not computable. MAR-14 6% unchanged. `KB-PRD-40` |
+| Amendment 3 | One figure **61.98%** with CORAL; re-carried on STATUS, THESIS, VX 3.03, docket, FIGURES; receipt packet to CORAL. `KB-FLI-08` |
+| Week checks | Slaughter w/e 11/07 cattle −6.15%; OFLC Q3 still newest; no H-2A replacement rule found; CA enforcement reported continuing (secondary). `KB-WFD-28` |
+| Inbox | Drained: CORAL 11/06, SIG-W-20261110-007 → processed |
+| STATUS | Rotated to 70% of budget → `domain/sources/_archive/STATUS_rotated_s40_20261111.md` |
 
 ## NEXT SESSION
-11/6 CPS context (level only; below ~32.0M argues Sep was noise) · 11/10 ENR-02 leg 2 (needs +1.01% MoM) · 11/12 H-2A court status · 11/13 ID-01 leg 2 · ~11/15 OFLC Q4 (MAR-11), NTTO, BTS Aug · 11/16 FL Realtors · ~11/17 Amendment 3 certified · 11/19 CA second check · 11/20 state BLS · ~11/30 LVCVA Oct (MAR-30) · ~12/1 Banxico Oct (MAR-28) · 12/4 Nov CPS (MAR-29, SDL-01), AZ-01 second print.
+11/12 H-2A court checkpoint · 11/13 StatCan October (`ID-01` leg 2) · ~11/15 OFLC Q4 (MAR-11), NTTO Oct, BTS Aug · 11/16 FL Realtors Oct · 11/17 Amendment 3 certified · 11/19 CA second check (needs output or cost, not arrests) · 11/20 state BLS · ~11/21 MIA October traffic report (404 on 11/11) · ~11/30 LVCVA Oct (MAR-30, D:L988) · ~12/1 Banxico Oct (MAR-28, D:L986) · 12/4 Nov CPS (MAR-29, D:L987).
 
 ## OPEN THREADS
-- STATUS at 81% of read budget, rotate-tier: rotate before it grows.
-- Amendment 3 implementing law, special session, court challenge: unread; only touch when a print or filing lands.
-- `baselines/mia_airport_reported.tsv` carries duplicate 2026-07/08 rows (pre-existing). Not touched.
-- Six STALE BY DESIGN rows: clear the tag when each next print lands.
+- FL proxy tool flags FLDOE overdue: the 2026-27 survey publishes ~Dec–Jan, so the flag is cadence, not a missed print.
+- `baselines/mia_airport_reported.tsv` duplicate 2026-07/08 rows (pre-existing). Not touched.
+- Amendment 3 implementing law, special session, court challenge: unread.
 
 ## MAIL
-Inbox empty after processing (2 CORAL, 1 LABOR, 1 WALTER). Sent: CORAL (Amendment 3 text), PROME (delivery memo). Other desks' dirty files left alone.
-
-## PUSH
-Resolved: the 11/5 GitHub rejection (`commit_refs_rules`) cleared overnight; session commits verified on origin/master at 2026-11-06 08:00 ET. Cause not established here. PROME consumed the delivery 11/5: L785 RESOLVED, MAR-28..31 on DOCKET, charter step 3b verified.
-
-## CLOSEOUT (2026-11-06 08:00 ET)
-Will closed the session. Inbox empty, no research or wait running. Skipped: consumer check (no figure of MARCO's own superseded); STATUS rotation (81% of budget, carried in OPEN THREADS). 11/6 CPS context print lands 08:30, after this close, and is unread.
+Inbox empty. Sent: WALTER (ENR-02 signal), TERRY (tradeability), CORAL (one figure), PROME (catch-up packet).
