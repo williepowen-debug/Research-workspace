@@ -48,3 +48,9 @@ Strict OTHER groups with 2 or more: data-center local opposition 4 (20261023-004
 - Angle assignment is judgment, not measurement; counts depend on the reader's 162 calls (WALTER spot-checked 4) and WALTER's folds.
 - WALTER's intake scan surfaces only alert-flagged lane items; the ~130 obsolescence-row headlines were collected, not each reviewed by WALTER. 0 kill-log rows on the subject since 10/10, so none were filtered out; most simply never became WALTER inputs. Whether the lane hands these rows to VULCAN and BROCK directly was not checked.
 - Headline count includes reposts; it shows presence, not volume.
+
+## 7. Addendum 2026-11-11 (Will, 11:51 and 11:58 ET)
+
+- **Rec 1 ADOPTED** (11:51 ET, "okay yes adopt vulcan rec"): CLUSTER_TAXONOMY v0.9; VULCAN ratification asked by packet.
+- **Rec 2 narrowed and done** (11:58 ET, "ok yes go ahead"): only 20260929-010 (Oracle layoffs) re-filed to CONSUMER_STAGFLATION via `registry/CLUSTER_RECATEGORIZATIONS.tsv`. The three CYBER-domain cards stay: v0.8 (10/29) kept them in AI_INFRA_CAPEX by substance on purpose, which the reader did not know. The three INDUSTRIAL_CYCLE cards stay: no industrial cluster exists. Watch: 9 INDUSTRIAL_CYCLE cards since 10/23 sit in four clusters (3 AI_INFRA_CAPEX, 3 CONSUMER_STAGFLATION, 2 INFLATION_TRANSMISSION, 1 BANK_COLLATERAL), the shape CYBER had before v0.8; revisit in about two weeks before proposing a cluster.
+- **Rec 4 routed** as SIG-W-20261111-020 (Ares CEO on the 10/29 call, Semafor 11/9), BROCK action.
