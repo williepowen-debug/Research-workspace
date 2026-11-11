@@ -3,7 +3,7 @@
 **Status:** 🟢 11/10 CPI close: **VIX 19.46 on the 16:15:01 ET print, under 20.00, so LOW_VOL holds** (intraday high 21.43; KB-VIO-396). Print basis, History confirmation owed. Convergence 33/50 stands. **VIO-PRED-07 CONFIRMED** (1.0467). ⚠️ Credit has not followed vol down: HY 342bp [11/06].
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.9. No live gate moved.
-**As of:** 2026-11-10 16:33 ET (from `date`) | **STATUS commit:** `bb9c072df1`.
+**As of:** 2026-11-10 19:32 ET (from `date`) | **STATUS commit:** `c014da97f4`.
 Official History closes through 11/09 (SETTLE, 2,766 agreed, 0 corrected); 11/10 row TICK. Canonical numbers: [STATUS](STATUS.md). KB-VIO-393, KB-VIO-394.
 
 ## CROSS-DOMAIN
@@ -46,4 +46,4 @@ None active this cycle.
 
 ## NEXT DECISION POINT
 
-**11/10 History: confirm the 19.46 print** · **November 17: credit-vol endpoint and NVIDIA after the close** · November 18 VIX AM SOQ · PRED-08 on 11/20 · December 16 L441 · PRED-09 on 12/31.
+**11/11 boot: confirm the 19.46 print on Cboe History** (11/10 VIX bar not posted at 19:32 ET; companions posted and equal the print) · **November 17: credit-vol endpoint and NVIDIA after the close** · November 18 VIX AM SOQ · PRED-08 on 11/20 · December 16 L441 · PRED-09 on 12/31.
