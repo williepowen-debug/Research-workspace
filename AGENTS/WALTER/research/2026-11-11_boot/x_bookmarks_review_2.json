@@ -1,0 +1,14 @@
+{
+  "schema": 2,
+  "staged_at": 1794407516.8021843,
+  "items": [
+    {
+      "id": "2120523414066618774",
+      "disposition": "DUP",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261104-050-WGC-Q3-estimated-gold.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "6cdae02fd1f6437195453eca584deec5"
+}

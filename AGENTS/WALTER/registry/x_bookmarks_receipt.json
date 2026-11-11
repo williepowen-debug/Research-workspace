@@ -1,13 +1,26 @@
 {
-  "kind": "fetched",
-  "checked_at": "2026-11-11T14:06:27Z",
-  "items": 0,
+  "kind": "marked",
+  "checked_at": "2026-11-11T14:32:15Z",
+  "items": 1,
   "scan": {
-    "checked_at": "2026-11-11T14:06:27Z",
-    "head_checked_at": "2026-11-11T14:06:27Z",
+    "checked_at": "2026-11-11T14:31:56Z",
+    "head_checked_at": "2026-11-11T14:31:56Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 1
+    "attempts": 2
   },
-  "review_recorded": false
+  "review_recorded": true,
+  "read_counts": {
+    "partly_read": 1
+  },
+  "dispositions": {
+    "DUP": 1
+  },
+  "follow_ups": [
+    {
+      "id": "2120523414066618774",
+      "ref": "BOARD/SIG-W-20261104-050-WGC-Q3-estimated-gold.md"
+    }
+  ],
+  "requests": []
 }
