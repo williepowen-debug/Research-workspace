@@ -4,7 +4,9 @@
 
 **Overall B: useful research, uneven delivery.** Will asked CATO to review/grade the morning's commits. The strongest work corrected beliefs and resolved specific questions: CPI versus pre-CPI repricing; improving card-delinquency flows despite rising overdue dollars; IREN's actual financing links; and withdrawing NEXUS numbers whose tests were exhausted. This is materially more useful than counting commits. It does not demonstrate profitable positioning or a fleet forecasting edge.
 
-The assigned review is complete. Recommend three bounded owner corrections: ZHAO's newest-notice parser failure (MC1); PROME's stale NEXUS dependency (MC2); and TERRY's overly certain rates-versus-credit attribution (MC3). The morning's release coverage delay is a demonstrated operating limitation (MC4), not a new automation assignment. No desk implementation, message, launch, score change or trading action performed. CATO awaits Will after delivery; prior approvals survive.
+**November 11 follow-up: MC1, MC2 and MC3 are CLOSED on independent checks in [the next morning review](2026-11-11_1150_morning-work-review.md#prior-findings-reconciled). MC4 retains its future observation. The original November 10 assessment and evidence below are preserved.**
+
+The assigned review is complete. At the November 10 cutoff, recommended three bounded owner corrections: ZHAO's newest-notice parser failure (MC1); PROME's stale NEXUS dependency (MC2); and TERRY's overly certain rates-versus-credit attribution (MC3). The morning's release coverage delay is a demonstrated operating limitation (MC4), not a new automation assignment. No desk implementation, message, launch, score change or trading action performed. CATO awaits Will after delivery; prior approvals survive.
 
 ## Scope and method
 
