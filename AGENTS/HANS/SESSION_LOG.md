@@ -263,3 +263,13 @@ CATO reviewed the day's work and produced counterexamples against several of thi
 - T-07: 11/06 bar 85.98 counts, clock 1/5, no band moved. TE's -4.29 percent on 86.79 implies a prior of 90.68, which settles my doubt about the 11/05 reset on a second vendor, not at ICE.
 - AGSI now publishes gas day 11/06 as status E before that gas day ends; figures carry the E. 11/04 revised 73.75 to 73.74.
 - Unread or unpublished: ICE settles, ECB AAA 11/06, BoE IADB 11/05 and 11/06, S&P PMI primaries. TE figures are late reads, not official closes.
+
+## 2026-11-11 10:22 ET, hans-1111: catch-up wake (PROME prome-2b, Will 09:24 ET)
+
+- Boot rc1 10:12 ET. Not pulled: git refused on LIQUID and PROME dirty files; fetch showed origin nothing ahead. R1 rc0.
+- Inbox: PROME WQ-660 (Will "660 yes") encoded as CLAUDE.md Inbox step 3a. WALTER -002 Siemens Energy -> KB-186, no row. WALTER -009 JTI custody -> new theme russia-custody-eu-holders KB-187, no row.
+- HNS-09: four rows filled from own releases (ING, Santander, BBVA, Intesa), read by pdftotext from PDFs a web-fetch reader saved but could not parse. Frozen grader: HIT on 5 graded, locked arithmetically. BBVA's Q3-25 euros are derived from its printed % changes; its CoR basis is EUR because it prints only a YtD bp. Santander's bp is its own trailing-12m ratio. Grade held to 11/30, not resolved early.
+- UniCredit: unicreditgroup.eu 403, emarketstorage pages 1-3 had no 3Q26 item; secondary only, row left PENDING.
+- France: i-i 152.9 [11/09], 142.4 [11/10]. Fitch negative outlook 10/30 found (secondary), new to this desk. The S&P "11/27" date: the only source found is a 2025 article about the 2025 review; the date likely came from that calendar. Not confirmed for 2026.
+- T-07: 3/5. Vendor restated the 11/06 bar 85.98 -> 85.59 (still counts); identical 115-lot volume on 11/09 and 11/10 flagged as a possible carry.
+- Unread: ICE settles, Fitch and S&P primaries, UniCredit and Credit Agricole releases, TE figures are intraday reads.
