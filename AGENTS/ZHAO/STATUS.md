@@ -25,7 +25,7 @@ All re-suspended 11/9 and graded at the primaries 11/10 (KB-255): ZHA-19/20 YES;
 
 ---
 
-## ▶️ RESUME NOTES (2026-11-11, PROME prome-2b catch-up; HOLDING the window for PROME's closeout ask)
+## ▶️ RESUME NOTES (2026-11-11, PROME prome-2b catch-up; CLOSED OUT 2026-11-11 10:23 ET on PROME's ask; packet consumed and filed by PROME, charter diff verified, outbox signal handed to WALTER. Next wake: September TIC + ZHA-22, 11/18)
 
 - ✅ **Done 11/11:** inbox 5/5 drained and filed (KB-264, `board_log.tsv`); MC1 fixed + `scripts/test_pboc_omo.py` 5/5 (pre-fix control 3/5, MC1 reproduced); two charter lines on Will's WQ-660 / 660 A; DAEDALUS B24 receipt (D:L490); live refresh (KB-265); Fed/yen read (KB-266); combo themes `official-ust-demand` (new) and `chip-control-leakage` (KB-267, 268). Memo `PROME/inbox/2026-11-11_from-ZHAO_catchup-read.md`.
 - **Still owed:** NEXT ACTIONS 12 (VX row for the Chinese clock) · V5b rescore on the October data · Vector 1 rescore question at September TIC (11/18).
