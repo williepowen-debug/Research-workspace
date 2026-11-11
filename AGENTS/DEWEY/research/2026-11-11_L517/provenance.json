@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://www.courtlistener.com/api/rest/v4/search/?q=docket_id%3A73112993+AND+entry_date_filed%3A%5B2026-09-29+TO+%2A%5D&type=rd&order_by=entry_date_filed+desc",
+    "sha256": "b9eb9d74e03e8c573afbf7905d1956b6b663a5270da761f373391b28d76764cd",
+    "retrieved_at": "2026-11-11T17:31:27.526212+00:00",
+    "file": "search-page-1.json"
+  },
+  {
+    "url": "https://www.courtlistener.com/api/rest/v4/search/?cursor=cz0xMzQ2ODExOTAwMDAwMC4wJnM9NDk3NzIwNzgxJnQ9cmQmZD0yMDI2LTExLTExJnA9Mg%3D%3D&order_by=entry_date_filed+desc&q=docket_id%3A73112993+AND+entry_date_filed%3A%5B2026-09-29+TO+%2A%5D&type=rd",
+    "sha256": "ad601fd74f6159a006fb350fef0680a733708859369025923863b50ceaab8404",
+    "retrieved_at": "2026-11-11T17:31:32.010247+00:00",
+    "file": "search-page-2.json"
+  },
+  {
+    "url": "https://www.courtlistener.com/api/rest/v4/search/?cursor=cz0xMzQ2NjgyMzAwMDAwMC4wJnM9NDk1Njk1NjA2JnQ9cmQmZD0yMDI2LTExLTExJnA9Mw%3D%3D&order_by=entry_date_filed+desc&q=docket_id%3A73112993+AND+entry_date_filed%3A%5B2026-09-29+TO+%2A%5D&type=rd",
+    "sha256": "e52be7959fa41f565d5974066f59b72a6ef3db50cf49dd88a5728ffea9bbf9df",
+    "retrieved_at": "2026-11-11T17:31:35.356754+00:00",
+    "file": "search-page-3.json"
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/73112993/feed/",
+    "file": "feed.xml",
+    "sha256": "1fd60dc8a2a53b595d7c6b2bb563e735a8702c6c1dfe2f55dc3ae06262949562",
+    "retrieved_at": "2026-11-11T17:32:04.435726+00:00"
+  },
+  {
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.cacb.2042304/gov.uscourts.cacb.2042304.108.0.pdf",
+    "pdf_sha256": "bfaae1faafe9d47a6e0d4df6aeaebbe867c4ade1a9ac2f6a8f4e96c10935bf45",
+    "bytes": 337189,
+    "text_artifact": "doc-108-text.txt",
+    "verified_header_case": "8:26-bk-10986-MH",
+    "verified_header_entry": 108,
+    "read_on": "2026-11-11",
+    "note": "No paid retrieval. Text page counter includes trailing blank formfeed; stamped pages are 7 for Doc 108 and 4 for Doc 116."
+  },
+  {
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.cacb.2042304/gov.uscourts.cacb.2042304.116.0_1.pdf",
+    "pdf_sha256": "2e5a95ae7319e7697f68fe9ca5b2e49cfd6d26565d5aef32b57e97306b7a6f6a",
+    "bytes": 1048626,
+    "text_artifact": "doc-116-text.txt",
+    "verified_header_case": "8:26-bk-10986-MH",
+    "verified_header_entry": 116,
+    "read_on": "2026-11-11",
+    "note": "No paid retrieval. Text page counter includes trailing blank formfeed; stamped pages are 7 for Doc 108 and 4 for Doc 116."
+  }
+]
