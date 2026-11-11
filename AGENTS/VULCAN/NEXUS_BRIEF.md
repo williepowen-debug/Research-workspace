@@ -2,13 +2,15 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-11-10T19:33:17-05:00 | **STATUS commit:** 87f5935513
-**Variant:** FULL. Desktop session 11/10 (PROME prome-07 launch): VULCAN-188 HIT, VULCAN-191 MISS; SoftBank investigation, AI-buildout leg, on Will's word 17:18 ET (`reports/2026-11-10_softbank/REPORT.md`). No letter fired.
+**As of:** 2026-11-11T09:27:06-05:00 | **STATUS commit:** 72a112145d
+**Variant:** FULL. Session 11/11 (PROME prome-2b wake, WQ-184): Siemens Energy FY2026 graded clean negative [KB-422]; Nvidia order-slowdown report INDETERMINATE [KB-423]. No letter fired. Prior session 11/10: VULCAN-188 HIT, VULCAN-191 MISS, SoftBank report.
 
 ## CROSS-DOMAIN
 
 | Desk | Material finding and limit | Source |
 |---|---|---|
+| PROME / SAM / WATT / LIQUID | 🆕 **Siemens Energy FY2026: no data-center cancellation, deferral, settlement or forfeited-deposit wording; no customer named.** Q4 gas ~2 GW booked, **0 GW converted from slot reservations** (Q3 12 GW), 14 GW added, commitments 104 GW (65 backlog, 39 reservations); CEO calls it 'a timing effect' and says lapsed reservations come back to Siemens, so a walk-away shows as a returned slot, not a cancellation. SoftBank's SB7 supplier stays UNKNOWN; do not name one. Call quotes T2 (third-party transcript). | KB-422; release p.1-2, deck p.10, p.35 fn 4 |
+| VIOLET / HENRY / ZHAO | 🆕 Commercial Times via TrendForce: Nvidia 'may slow chip orders', unquantified, same article says orders unchanged. INDETERMINATE; would confirm at TSMC's November 6-K (~12/10), Nvidia's 11/17 guide and 10-Q, or a named statement. | KB-423; WALTER card 003 |
 | PROME / SAM / LIQUID / WATT / HENRY | 🆕 **SoftBank's $3.7B is a re-plan of power-equipment orders, not a default and not a cancelled campus.** Silver Bands 7 (SoftBank and SVF2, separate from SB Energy) wrote off $2.9B of non-refundable deposits for equipment 'no longer in the revised procurement plans' and $0.9B for contract modifications; $6.6B kept for 'PORTS-Pike power generation project and others'; supplier rebates up to $2.1B. **No supplier named** anywhere; GE Vernova's Q3 books show no cancellation. Outside records (AEP 10-Q 10/28, OPSB hearing 12/10, FERC comments 11/3) show the Ohio campus on track. S1 leading indicator: one filed observation, stays ARMED. Do not say default or Ohio write-off. | KB-419..421; report 2026-11-10_softbank |
 | WATT | 🆕 PORTS-Pike: AEP's three 765 kV lines (2028–30, about $5B) are in effect and the customer must fully collateralize AEP's equipment buying; 9.2 GW gas plants are a non-subsidiary SoftBank affiliate's (Portsmouth Gas DevCo, owner UNKNOWN); SB Energy's S-1 names generation delay as a lease-termination risk. The CFO's 'thorough reassessment' of Ohio equipment buying and one unverified 'buy power externally' account are the grid questions. | KB-420; AEP 10-Q acc 0000004904-26-000072 |
 | BROCK / LIQUID / TERRY | 🆕 **CoreWeave Q3, own 8-K Ex 99.1:** FY2026 capex $37–39B (low end raised, 'deliver sooner'), backlog $132.5B, about $9B prepayments expected in three months, DDTL 5.5 $2.6B closed, ATM up to 35M shares. VULCAN-191 MISS. Nothing pulled or flexed. The 10-Q (~11/12) carries the VULCAN-13 leg (b)/(c) terms. | KB-417; acc 0001769628-26-000461 |
@@ -29,7 +31,7 @@
 
 ## VIEW
 
-The suppliers that report first show no slowdown: TSMC's October beat its own guide's pace and CoreWeave raised the floor of its 2026 spending. The first filed equipment-order cancellation in the chain came from SoftBank, a developer-side buyer re-planning power equipment with supplier rebates, not a payer cutting capex; outside records show the Ohio campus still moving. The market keeps pricing a slowdown in chips (NVDA $168.89 −5.47%, GE Vernova $797.04 −3.89%, 11/10 vendor closes) that no letter on this desk has seen. 15/25.
+The suppliers that report first show no slowdown: TSMC's October beat its own guide's pace and CoreWeave raised the floor of its 2026 spending. The first filed equipment-order cancellation in the chain came from SoftBank, a developer-side buyer re-planning power equipment with supplier rebates, not a payer cutting capex; outside records show the Ohio campus still moving. Siemens Energy's books (11/11) show no data-center cancellation, though its reservations converted nothing in Q4, which it calls timing. The market keeps pricing a slowdown in chips (NVDA $168.89 −5.47%, GE Vernova $797.04 −3.89%, 11/10 vendor closes) that no letter on this desk has seen. 15/25.
 
 ## CALIBRATION
 
@@ -37,7 +39,7 @@ The suppliers that report first show no slowdown: TSMC's October beat its own gu
 
 ## NEXT DECISION POINT
 
-11/11: Siemens Energy results and SoftBank's first Tokyo session and transcript (Gotō's exact words on Ohio). 11/12: Nebius Q3 and CoreWeave's 10-Q window. 11/13: slot 10, GPU 10, S2. 11/15: VULCAN-13 and -15 (developer form). 11/17 and ~11/19: NVIDIA results and the 10-Q guarantee line, the first outside test of PORTS-Pike. 12/10: OPSB hearing on the Ohio gas plant. ~12/15: Oracle's 10-Q, the decisive prepayment test.
+11/12: Nebius Q3 and CoreWeave's 10-Q window. 11/13: slot 10, GPU 10, S2, and SoftBank's Q2 transcript (Gotō's exact words on Ohio; not posted 11/11). 11/15: VULCAN-13 and -15 (developer form). 11/17 and ~11/19: NVIDIA results and the 10-Q guarantee line, the first outside test of PORTS-Pike. 12/10: OPSB hearing on the Ohio gas plant. ~2027-01-27: GE Vernova Q4, the next supplier tell for SB7. ~12/15: Oracle's 10-Q, the decisive prepayment test.
 
 ## WATCH (next 2–4 weeks and beyond) — ⏱️ THE CLOCK
 
@@ -45,8 +47,8 @@ Exact event set generated from `docket/CATALYSTS.tsv` at this write; the registe
 
 | When | What | Whose |
 |---|---|---|
-| 2026-11-11 | Siemens Energy FY2026 results (third-party calendars; not issuer-confirmed) and SoftBank's first Tokyo session and transcript on the SB7 loss | VULCAN, SAM, WATT |
 | 2026-11-12 | Nebius Q3 2026 results — issuer-confirmed Thursday, before the open, call 8:00 AM ET | VULCAN, BROCK |
+| 2026-11-13 | SoftBank Q2 FY2026 earnings-call transcript posted? (re-homed from the swept 11/11 row) | VULCAN, SAM |
 | 2026-11-13 | GPU-rental panel reading 10 — cadence extension (registered 2026-09-29, before the original cadence's last slot) | VULCAN, PROME, WATT |
 | 2026-11-13 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 10 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-11-15 | EXIT_PROTOCOL rewrite HARD BACKSTOP and VULCAN-13/-15 grading — self-set November15, not the FERC response deadline | WATT,LIQUID,BROCK,PROME |
@@ -74,6 +76,7 @@ Exact event set generated from `docket/CATALYSTS.tsv` at this write; the registe
 | 2027-01-08 | CFTC Reg 40.3 review period ENDS for NYMEX Submission 26-370/370S (Silicon Data H100 + B200 Rental Index Futures, GPU1/GPU2) — extended by NYMEX consent to 2027-01-08 (was 2026-11-09) | VULCAN, WATT, DEWEY, PROME |
 | 2027-01-10 | MOFCOM/GAC 公告2026年第58号 suspension ends — 公告2025年第55/56/57/58号 and 公告2025年第61/62号 would reactivate from 2027-01-11 Beijing (rare earths, superhard materials, Li-battery incl. LFP cathode, and 公告2025年第61号's 0.1%-by-value de minimis) | VULCAN; ZHAO(owner); HAWK; HENRY; WATT (LFP = grid storage) |
 | 2027-01-10 | BIS AFFILIATES RULE stay ends — FR Doc. 2026-22793 stays it 'until January 10, 2027', summary 'through'; reimposition day not stated, treat 1/10 to 1/11 as the window | VULCAN; ZHAO(owner of the rule); HAWK; PROME |
+| 2027-01-27 | GE Vernova Q4 2026 results (date ESTIMATED from last year's late-January cadence; re-date when announced) — the later supplier tell for SoftBank's SB7 write-off (re-homed from the swept 11/11 row) | VULCAN, WATT |
 | 2027-01-29 | Microsoft Q2 FY27 10-Q, leases not yet commenced vs $364.6B — ESTIMATED, late January, not set | VULCAN, LIQUID |
 | 2027-02-05 | HYPERSCALER Q4 2026 CLUSTER (MSFT · GOOGL · META · AMZN) — successor bidirectional flip EXIT_PROTOCOL §4c | VULCAN, VIOLET, HENRY |
 | 2027-02-05 | EXIT_PROTOCOL next dated REWRITE — FIRST of {§4c resolves at the Q4 2026 cluster · 2027-02-15 (VULCAN-10 / thesis-kill leg 1)} | PROME |
