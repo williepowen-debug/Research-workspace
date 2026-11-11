@@ -1,6 +1,6 @@
 # VIOLET — session handoff
 
-**As of:** November 10, 2026 16:3x ET (close read 16:31 ET from `date`; session opened 11:09 ET). Launched by PROME prome-07 on the desktop after the 11/10 laptop → desktop switch. Task: CPI before/after read on the close, PRED-07 grade (DOCKET L1030), WALTER card 011. Limits: $0 moved; no threshold, gate letter, band or card changed without Will; live prices only; quiet mode. **Close read done on PROME's 16:21 ET tap; the window holds open for PROME, not closed out.** Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **33/50** (History-confirmed for 11/09).
+**As of:** November 10, 2026 16:3x ET (close read 16:31 ET from `date`; session opened 11:09 ET). Launched by PROME prome-07 on the desktop after the 11/10 laptop → desktop switch. Task: CPI before/after read on the close, PRED-07 grade (DOCKET L1030), WALTER card 011. Limits: $0 moved; no threshold, gate letter, band or card changed without Will; live prices only; quiet mode. **Close read done on PROME's 16:21 ET tap; full closeout 19:3x ET on PROME's 19:32 ET ask (Will closing for the night).** Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **33/50** (History-confirmed for 11/09).
 
 ## CHANGES SINCE (11/09 20:2x ET → 11/10 11:09 ET)
 
@@ -22,7 +22,7 @@
 
 ## NEXT SESSION
 
-0. **Confirm 11/10 on Cboe History:** run `backfill.py --spot-only` once History posts. The VX_DAILY 11/10 row is the 16:15:01 ET print, basis TICK: VIX 19.46, 9D 18.54, 3M 20.64, 6M 21.99, VVIX 96.63, SKEW blank (not printed at 16:31 ET). If History puts VIX ≥ 20.00 (needs a +0.54 correction, never seen), the label flips and the regime row is owed. Send the 11/10 SKEW bar to RED with the next bars.
+0. **(11/11 boot) Confirm 11/10 on Cboe History.** At 19:32 ET 11/10, History had VIX9D/VIX3M/VIX6M/VVIX for 11/10, every one equal to the print, but no VIX or SKEW bar yet. run `backfill.py --spot-only` once History posts. The VX_DAILY 11/10 row is the 16:15:01 ET print, basis TICK: VIX 19.46, 9D 18.54, 3M 20.64, 6M 21.99, VVIX 96.63, SKEW blank (not printed at 16:31 ET). If History puts VIX ≥ 20.00 (needs a +0.54 correction, never seen), the label flips and the regime row is owed. Send the 11/10 SKEW bar to RED with the next bars.
 1. **November 17:** credit-vol WATCH endpoint (HY 342 [11/06] vs the 368bp size condition) and NVIDIA after the close; **November 18** VIX AM SOQ. VIO-PRED-08 grade after 11/20 History; PRED-09 after 12/31.
 2. FXY IV intraday re-pull (2.38x at boot 11/10).
 3. implied_corr.py SETTLE-by-clock defect: not commissioned.

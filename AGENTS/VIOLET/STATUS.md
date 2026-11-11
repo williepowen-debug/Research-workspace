@@ -93,7 +93,7 @@ Position truth is off-repo (Will/broker), with the separately dated FORGE mirror
 
 ## RESEARCH QUEUE AND OPERATING LIMITS
 
-1. **11/10 CPI close read DONE 16:31 ET** (KB-VIO-396): VIX 19.46 print, LOW_VOL holds, row pruned. **Owed:** confirm the 11/10 row on Cboe History with `backfill.py --spot-only` (row basis TICK; SKEW 11/10 not printed at read).
+1. **11/10 CPI close read DONE 16:31 ET** (KB-VIO-396): VIX 19.46 print, LOW_VOL holds, row pruned. **Owed, carried to 11/11 boot:** confirm the 11/10 row on Cboe History with `backfill.py --spot-only` (row basis TICK). At 19:32 ET History had posted VIX9D 18.54, VIX3M 20.64, VIX6M 21.99, VVIX 96.63 (all equal the print) but **not VIX or SKEW for 11/10**.
 2. **November 17:** credit-vol WATCH endpoint and NVIDIA after the close; **November 18** VIX AM SOQ. VIO-PRED-08 grade after 11/20 History; PRED-09 after 12/31.
 3. FXY IV intraday re-pull before any IV/RV read (2.38x at boot 11/10).
 4. **Open tool defect (KB-VIO-365, KB-VIO-370):** implied_corr.py stamps SETTLE by clock. Not commissioned.
@@ -101,4 +101,4 @@ Position truth is off-repo (Will/broker), with the separately dated FORGE mirror
 6. Path A F2 audit CLOSED 11/05, WQ-611 A encoded (KB-VIO-372/373); Regime Shift size line withdrawn WQ-614 A (KB-VIO-376).
 7. Historical FXY IV/OI and old VIX option-chain snapshots stay unfilled by design; Deck PAUSED WQ-460, Helm RETIRED WQ-461.
 
-**Persistence / coordination (11/10 11:1x ET):** Launched by PROME prome-07 (task: CPI before/after on the close, PRED-07 grade D:L1030, card 011; limits $0 moved, no threshold/gate/band/card change, quiet mode). D:L342 worked on PROME's ask 11:27 ET (thresholds.py orphan-VIX refusal, `research/2026-11-10_L342/`). WALTER card SIG-W-20261109-011 logged info-only, correction COR-20261109-11 receipted NO-OP (owners VULCAN and HENRY). 11/09 bars to RED. Dated memo to PROME. Close read on PROME's 16:21 ET tap: 16:15 print 19.46, conditional not met, CPI row pruned, record committed and packet to PROME. Holding for PROME; not closed out.
+**Persistence / coordination (11/10 11:1x ET):** Launched by PROME prome-07 (task: CPI before/after on the close, PRED-07 grade D:L1030, card 011; limits $0 moved, no threshold/gate/band/card change, quiet mode). D:L342 worked on PROME's ask 11:27 ET (thresholds.py orphan-VIX refusal, `research/2026-11-10_L342/`). WALTER card SIG-W-20261109-011 logged info-only, correction COR-20261109-11 receipted NO-OP (owners VULCAN and HENRY). 11/09 bars to RED. Dated memo to PROME. Close read on PROME's 16:21 ET tap: 16:15 print 19.46, conditional not met, CPI row pruned, record committed and packet to PROME. Closed out 19:3x ET on PROME's 19:32 ET ask (Will closing for the night).
