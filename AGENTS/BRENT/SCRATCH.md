@@ -6,6 +6,7 @@
 - GASREGW 3.995 for 11/9, under $4 for the first time in this run.
 
 ## WHAT I DID THIS SESSION
+- **Closeout 2026-11-10 19:32 EST** on PROME prome-07's ask (Will closing for the night). No BRENT inbox or WALTER arrival since the 14:52 EST Petroline grade, and nothing incoming for BRENT on origin. STATUS, NEXUS_BRIEF and TRACKER are unchanged since then and accurate. The 11/10 settles were not read.
 - Wrote the owner read of the oil move, boundary #1 (not fired, about $29 away) and BRT-33 in `research/2026-11-10_pickup/NOTE.md` section 1. PROME's 97.84 base is not the 11/6 settle (98.32).
 - OSPREY's diverted US-bound Russian diesel (NEXUS 11/10 record § 3b): about 1M bbl across three cargoes, no confirmed US delivery. No change to the distillate read or BRT-34 (45%); logged on combo:diesel-buffer (NOTE § 2).
 - STEO graded and COPS_OPEC re-pulled from two API vintages (NOTE § 3). CATALYSTS STEO row graded; the 11/29 OPEC+ row and three combo rows updated.
@@ -16,6 +17,7 @@
 - WALTER lane: SIG-W-20261109-012 noted, SIG-W-20261110-005 info-only (arrived after the drain), SIG-W-20261110-008 acted (3 moved, 3 rows). Step 6c: both USO expiry rows CHECKED-AT-ARTIFACT-AND-STILL-OPEN (FORGE/STATUS 6db8d1d6f7 unchanged).
 
 ## NEXT SESSION (dated, future-verifiable)
+0. **Wednesday 11/11:** read the 11/10 settles (BZF27, CLZ26, BZH27) into the NOTE as a record; nothing grades on them.
 1. **Every session through Friday 11/27, BRT-33:** run a copy of `research/2026-11-10_pickup/pull.py` with the date changed, after about 14:45 ET. Valid count is 2 of 3; 8 are needed or the result is NO-VERDICT. Read the Thanksgiving 11/26–11/27 schedule when near.
 2. **Thursday 11/12:** WPSR week 11/6. Covers BRT-31 week five, the first BRT-34 print (under 95,000 kb, 45%), a test of the STEO build against a measured print, and a review of the five combination themes dated 11/12.
 3. **Friday 11/13:** COT #14, as-of 11/10, `cot_grade.py --expect 2026-11-10`.
