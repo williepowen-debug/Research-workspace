@@ -5,7 +5,7 @@
 
 ## Answer
 
-Tokyo's first verdict on the loss was a sell-off that failed. SoftBank opened **7.2% down** and hit **¥3,465 by 09:15 JST**, then recovered all session to close **¥3,855, −0.44%**, on volume **27.5% above** the prior day. The ¥3,400 line held by ¥65 at the low. No new SoftBank filing on TDnet, no new Arm filing at the SEC, and the call transcript is still not posted. Leverage on SoftBank's own basis is unchanged at **22.7% (22.9% with the settlement)**, because Arm has not traded since its 11/10 close. PROME's dated "wrong if" line (close below ¥3,400 on volume above 64.8M) did **not** fire: volume leg yes, price leg no.
+Tokyo's first verdict on the loss was a sell-off that failed. SoftBank opened **7.2% down** and hit **¥3,465 by 09:15 JST**, then recovered all session to close **¥3,855, −0.44%**, on volume **27.5% above** the prior day. The ¥3,400 line held by ¥65 at the low. No new SoftBank filing on TDnet, no new Arm filing at the SEC, and the call transcript is still not posted. Leverage on SoftBank's own basis is **22.5% (22.8% with the settlement) on full revaluation**; the morning figure here, 22.7% / 22.9%, was the lookup convention and is corrected in § Follow-up. Arm has not traded since its 11/10 close. PROME's dated "wrong if" line (close below ¥3,400 on volume above 64.8M) did **not** fire: volume leg yes, price leg no.
 
 ## Session (completed 11/11 session, TSE 09:00–15:30 JST = 19:00 ET 11/10 – 01:30 ET 11/11)
 
