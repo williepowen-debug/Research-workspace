@@ -504,7 +504,7 @@ class InstallerTests(unittest.TestCase):
         return installer.shortcut_files(self.root, self.home, self.desktop, 'Ubuntu', 'willi')
 
     def test_gui_upgrade_backs_up_only_the_known_menu_and_is_idempotent(self):
-        for suffix in ('.py', '.ps1'):
+        for suffix in ('.py', '.ps1', '_bootstrap.ps1'):
             (self.root / ('scripts/agents_gui' + suffix)).write_text('fixture')
         old = self.plans()
         new = installer.shortcut_files(self.root, self.home, self.desktop, 'Ubuntu', 'willi', gui=True)

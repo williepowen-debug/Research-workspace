@@ -1,4 +1,4 @@
-param([Parameter(Mandatory=$true)][string]$DataFile, [switch]$SmokeTest)
+param([Parameter(Mandatory=$true)][string]$DataFile, [switch]$SmokeTest, [string]$ActivationEvent)
 $ErrorActionPreference = 'Stop'
 trap {
     if (-not $SmokeTest -and -not $data.test_mode) {[void][System.Windows.Forms.MessageBox]::Show($_.Exception.Message,'Agent Launcher')}
@@ -37,6 +37,25 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 public class LauncherAgentList : CheckedListBox {
+    [DllImport("user32.dll")] public static extern IntPtr SendMessage(IntPtr h, int message, IntPtr w, IntPtr l);
+    public void TestMouseClick(int x, int y) {
+        IntPtr point = new IntPtr((y << 16) | (x & 65535));
+        SendMessage(Handle, 0x201, new IntPtr(1), point);
+        SendMessage(Handle, 0x202, IntPtr.Zero, point);
+    }
+    // CheckedListBox also toggles through native selection notifications.
+    // Own row mouse input before that native path; keyboard behavior stays native.
+    protected override void WndProc(ref Message m) {
+        if (m.Msg == 0x201 || m.Msg == 0x203 || m.Msg == 0x202) {
+            long point = m.LParam.ToInt64();
+            int x = (short)(point & 65535), y = (short)((point >> 16) & 65535);
+            if (IndexFromPoint(x, y) >= 0) {
+                if (m.Msg != 0x202) OnMouseDown(new MouseEventArgs(MouseButtons.Left, 1, x, y, 0));
+                return;
+            }
+        }
+        base.WndProc(ref m);
+    }
     public override int ItemHeight { get { return Math.Max(66, Font.Height * 3 + 10); } set { } }
     public System.Collections.Generic.HashSet<int> SectionRows = new System.Collections.Generic.HashSet<int>();
     public System.Collections.Generic.HashSet<int> ChildRows = new System.Collections.Generic.HashSet<int>();
@@ -52,6 +71,13 @@ public class LauncherAgentList : CheckedListBox {
         int index = IndexFromPoint(e.Location);
         if (e.Button == MouseButtons.Left && SectionRows.Contains(index)) {
             SelectedIndex = index; ToggleSection(); return;
+        }
+        if (e.Button == MouseButtons.Left && index >= 0) {
+            SelectedIndex = index;
+            int indent = ChildRows.Contains(index) ? 16 : 0;
+            if (e.X >= 6 + indent && e.X <= 6 + indent + Math.Max(12, Font.Height - 1))
+                SetItemChecked(index, !GetItemChecked(index));
+            Focus(); return;
         }
         base.OnMouseDown(e);
     }
@@ -374,6 +400,12 @@ Place $editInstructions $pages.Agents 576 422 492 32 'Top,Left,Right'
 Place $start $pages.Agents 576 462 236 32
 Place $resume $pages.Agents 828 462 240 32 'Top,Right'
 Place $hint $pages.Agents 576 498 492 30 'Top,Left,Right'
+Style-Button $start $true
+$specialistsButton=Button 'Show specialists' 0 0 1
+Place $specialistsButton $pages.Agents 576 144 492 44 'Top,Left,Right'
+Style-Button $specialistsButton $true
+$specialistsButton.Visible=$false
+$specialistsButton.Add_Click({Toggle-Specialists})
 
 Place $savedLabel $pages.Selected 16 16 500 26
 Place $savedGroups $pages.Selected 16 50 500 32
@@ -1092,6 +1124,19 @@ function Update-Buttons {
     $batch.Enabled=($script:checked.Count -gt 0 -and -not $script:busy -and $null -eq $script:refreshProcess)
     $noun=' agents'; if ($script:checked.Count -eq 1) {$noun=' agent'}
     $batch.Text='Review & launch '+$script:checked.Count+$noun
+    $batch.Visible=($script:checked.Count -gt 0)
+    $start.Text='Start agent'; $resume.Text='Resume...'
+    if ($script:selected) {$start.Text='Start '+$script:selected.name; $resume.Text='Resume '+$script:selected.name+'...'}
+    $instructionStart.Text=$start.Text; $instructionResume.Text=$resume.Text
+    $sectionSelected=($null -ne $list.SelectedItem -and $null -ne $list.SelectedItem.SectionParent)
+    $specialistsButton.Visible=$sectionSelected
+    $specialistsButton.Enabled=-not $script:busy
+    foreach ($control in @($recentDetails,$runtimeLabel,$runtime,$taskSummary,$editInstructions,$start,$resume,$hint,$editAllAgents)) {$control.Visible=-not $sectionSelected}
+    if ($sectionSelected) {
+        $childCount=@($data.agents | Where-Object {$_.parent -eq $list.SelectedItem.SectionParent}).Count
+        $verb='Show'; if ($script:expandedParents.ContainsKey($list.SelectedItem.SectionParent)) {$verb='Hide'}
+        $specialistsButton.Text=$verb+' '+$childCount+' specialists'
+    }
     $clear.Enabled=($script:checked.Count -gt 0 -and -not $script:busy)
     $clear.Visible=-not $script:busy; $stop.Visible=$script:busy
     $stop.Enabled=($script:queue.Count -gt 0)
@@ -1200,7 +1245,7 @@ function Select-Agent {
         $runtime.Items.Clear()
         if ($null -eq $list.SelectedItem -or $null -eq $list.SelectedItem.Entry) {
             $script:selected=$null; $name.Text='No matching agents'; $purpose.Text='Try another name or category.'
-            if ($list.SelectedItem.SectionParent) {$name.Text='Consumer specialists'; $purpose.Text='Click this section or press Enter to expand or collapse it.'}
+            if ($list.SelectedItem.SectionParent) {$name.Text='Consumer specialists'; $purpose.Text='Specialists cover individual consumer sectors. Show the group, then choose an agent to start or check agents for a batch.'}
             elseif ($categories.SelectedItem.Name -eq '__favorites__' -and -not $search.Text.Trim()) {
                 $name.Text='Your favorites'; $purpose.Text='Choose an agent in All agents, then Add favorite to pin it here.'
                 if (-not $script:favoritesHealthy) {$purpose.Text='Favorites could not be read. Your file is preserved; use Reload favorites after repairing it.'}
@@ -1439,7 +1484,7 @@ $ageSource.Add_SelectedIndexChanged({Filter-Agents})
 $reloadActivity.Add_Click({Reload-Activity})
 $refreshEvidence.Add_Click({Start-EvidenceRefresh})
 $categories.Add_SelectedIndexChanged({Filter-Agents})
-$list.Add_SelectedIndexChanged({Select-Agent})
+$list.Add_SelectedIndexChanged({if (-not $script:filtering) {$script:editAll=$false}; Select-Agent})
 $list.Add_SectionToggle({Toggle-Specialists})
 $favoriteButton.Add_Click({Toggle-Favorite})
 $reloadFavorites.Add_LinkClicked({Reload-Favorites; Filter-Agents})
@@ -1546,6 +1591,11 @@ if ($SmokeTest) {
             $section=@($list.SectionRows)[0]; $list.SelectedIndex=$section
             $list.SetItemChecked($section,$true)
             if ($start.Enabled -or $resume.Enabled -or $list.GetItemChecked($section) -or $script:checked.Count -ne 0) {throw 'Section header can launch or enter selection'}
+            if (-not $specialistsButton.Visible -or $specialistsButton.Text -ne 'Show 6 specialists' -or $runtime.Visible -or $batch.Visible) {throw 'Specialist view exposes blank controls or empty batch'}
+            $specialistsButton.PerformClick()
+            if (@($list.Items | Where-Object {$_.Entry.parent -eq 'CARL'}).Count -ne 6) {throw 'Specialist button did not expand group'}
+            $list.SelectedIndex=@($list.SectionRows)[0]; $specialistsButton.PerformClick()
+            $section=@($list.SectionRows)[0]; $list.SelectedIndex=$section
             $keys=New-Object Windows.Forms.KeyEventArgs([Windows.Forms.Keys]::Enter)
             $keyMethod=[LauncherAgentList].GetMethod('OnKeyDown',([Reflection.BindingFlags]::Instance -bor [Reflection.BindingFlags]::NonPublic))
             [void]$keyMethod.Invoke($list,@($keys.PSObject.BaseObject))
@@ -1555,6 +1605,15 @@ if ($SmokeTest) {
             $mouseMethod=[LauncherAgentList].GetMethod('OnMouseDown',([Reflection.BindingFlags]::Instance -bor [Reflection.BindingFlags]::NonPublic))
             [void]$mouseMethod.Invoke($list,@($mouse.PSObject.BaseObject))
             if (@($list.Items | Where-Object {$_.Entry.parent}).Count -ne 0 -or $script:checked.Count -ne 0) {throw 'Mouse collapse checked a section or kept children visible'}
+            Focus-Agent 'CARL' 'Agents'
+            $rect=$list.GetItemRectangle($list.SelectedIndex)
+            $list.TestMouseClick(($rect.Left+100),($rect.Top+10))
+            $list.TestMouseClick(($rect.Left+100),($rect.Top+10))
+            if ($script:checked.Count -ne 0 -or -not $start.Enabled -or $start.Text -ne 'Start CARL' -or $batch.Visible) {throw 'Repeated row click changed batch or disabled single launch'}
+            $list.TestMouseClick(($rect.Left+10),($rect.Top+10))
+            if ($script:checked.Count -ne 1 -or -not $batch.Visible) {throw 'Checkbox click did not create batch'}
+            $list.TestMouseClick(($rect.Left+10),($rect.Top+10))
+            if ($script:checked.Count -ne 0 -or $batch.Visible) {throw 'Checkbox click did not clear batch'}
             Focus-Agent 'STUE' 'Agents'
             $list.SetItemChecked($list.SelectedIndex,$true); $task.Text='Preserve this specialist task'
             Select-Category 'Consumers & housing'; $search.Clear()
@@ -2030,6 +2089,24 @@ if ($SmokeTest) {
         } finally {$form.Close()}
     })
 }
-[void]$form.ShowDialog()
+$activationTimer=$null; $activationSignal=$null
+if ($ActivationEvent) {
+    $activationSignal=[Threading.EventWaitHandle]::OpenExisting($ActivationEvent)
+    $activationTimer=New-Object Windows.Forms.Timer
+    $activationTimer.Interval=150
+    $activationTimer.Add_Tick({
+        if ($activationSignal.WaitOne(0)) {
+            if ($form.WindowState -eq 'Minimized') {$form.WindowState='Normal'}
+            $area=[Windows.Forms.Screen]::FromPoint([Windows.Forms.Cursor]::Position).WorkingArea
+            $form.Location=New-Object Drawing.Point(($area.Left+[Math]::Max(0,($area.Width-$form.Width)/2)),($area.Top+[Math]::Max(0,($area.Height-$form.Height)/2)))
+            $form.Show(); $form.Activate(); $form.BringToFront()
+        }
+    })
+    $activationTimer.Start()
+}
+try {[void]$form.ShowDialog()} finally {
+    if ($activationTimer) {$activationTimer.Stop(); $activationTimer.Dispose()}
+    if ($activationSignal) {$activationSignal.Dispose()}
+}
 $form.Dispose()
 if ($testDeadline) {$testDeadline.Dispose()}

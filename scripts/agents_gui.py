@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import base64
 from datetime import datetime, timezone
 import getpass
@@ -230,27 +231,43 @@ def launch_request(request: Path) -> int:
         return 2
 
 
+def prepare_gui(request: Path) -> int:
+    context = json.loads(request.read_text())
+    os.environ['PATH'] = context['path']
+    data = {'agents': catalogue(Path(context['config'])),
+            'captured_at': datetime.now(timezone.utc).isoformat(),
+            'directory': windows_path(request.parent), 'linux_directory': str(request.parent),
+            'distro': context['distro'], 'user': context['user'], 'python': sys.executable,
+            'bridge': str(Path(__file__).resolve())}
+    request.with_name('catalogue.json').write_text(json.dumps(data))
+    return 0
+
+
 def start_gui(config: Path, smoke_test: bool = False) -> int:
     ps = shutil.which('powershell.exe')
     distro = os.environ.get('WSL_DISTRO_NAME')
     if not ps or not distro:
         raise agents.LaunchError('The desktop app needs Windows with WSL. Use agents for the terminal menu.')
-    rows = catalogue(config)
     directory = agents.cache_folder() / 'gui' / uuid.uuid4().hex
     directory.mkdir(parents=True, mode=0o700)
-    context = {'config': str(config.resolve()), 'path': os.environ.get('PATH', '')}
-    (directory / 'context.json').write_text(json.dumps(context))
-    data = {'agents': rows, 'captured_at': datetime.now(timezone.utc).isoformat(),
-            'directory': windows_path(directory), 'linux_directory': str(directory),
-            'distro': distro, 'user': getpass.getuser(), 'python': sys.executable,
-            'bridge': str(Path(__file__).resolve())}
-    snapshot = directory / 'catalogue.json'
-    snapshot.write_text(json.dumps(data))
-    command = [ps, '-NoLogo', '-NoProfile', '-STA', '-ExecutionPolicy', 'Bypass',
-               '-File', windows_path(Path(__file__).with_suffix('.ps1')), '-DataFile', windows_path(snapshot)]
+    context = {'config': str(config.resolve()), 'path': os.environ.get('PATH', ''),
+               'distro': distro, 'user': getpass.getuser()}
+    request = directory / 'context.json'
+    context['prepare_arguments'] = subprocess.list2cmdline(
+        ['-d', distro, '-u', getpass.getuser(), '--exec', sys.executable,
+         str(Path(__file__).resolve()), '--prepare', str(request)])
+    identity = '\0'.join((distro, getpass.getuser(), str(config.resolve())))
+    context['instance'] = hashlib.sha256(identity.encode()).hexdigest()[:24]
+    request.write_text(json.dumps(context))
+    command = [ps, '-NoLogo', '-NoProfile', '-STA', '-ExecutionPolicy', 'Bypass']
     if smoke_test:
-        command += ['-SmokeTest']
+        prepare_gui(request)
+        command += ['-File', windows_path(Path(__file__).with_suffix('.ps1')),
+                    '-DataFile', windows_path(directory / 'catalogue.json'), '-SmokeTest']
         print(f'UI test artifacts: {directory}', flush=True)
+    else:
+        command += ['-File', windows_path(Path(__file__).with_name('agents_gui_bootstrap.ps1')),
+                    '-ContextFile', windows_path(request)]
     # The desktop shortcut has no interactive input. Do not pass its inherited
     # console/input handle through WSL into the Windows PowerShell GUI host.
     code = subprocess.call(command, stdin=subprocess.DEVNULL)
@@ -269,17 +286,20 @@ def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--config', type=Path, default=agents.CONFIG)
     operation = parser.add_mutually_exclusive_group()
+    operation.add_argument('--prepare', type=Path, help=argparse.SUPPRESS)
     operation.add_argument('--launch', type=Path, help=argparse.SUPPRESS)
     operation.add_argument('--refresh', type=Path, help=argparse.SUPPRESS)
     parser.add_argument('--smoke-test', action='store_true', help=argparse.SUPPRESS)
     args = parser.parse_args(argv)
     try:
+        if args.prepare:
+            return prepare_gui(args.prepare)
         if args.refresh:
             return refresh_snapshot(args.refresh)
         return launch_request(args.launch) if args.launch else start_gui(args.config, args.smoke_test)
     except (agents.LaunchError, OSError, subprocess.SubprocessError) as exc:
         print(f'Agent Launcher: {exc}', file=sys.stderr)
-        if not args.launch and not args.refresh and not args.smoke_test and shutil.which('powershell.exe'):
+        if not args.prepare and not args.launch and not args.refresh and not args.smoke_test and shutil.which('powershell.exe'):
             message = str(exc).replace("'", "''")
             script = ("Add-Type -AssemblyName System.Windows.Forms;"
                       f"[void][System.Windows.Forms.MessageBox]::Show('{message}','Agent Launcher')")

@@ -49,7 +49,7 @@ def shortcut_files(root: Path, home: Path, desktop: Path | None,
                  'if errorlevel 1 (\r\n  echo.\r\n  echo Agent Launcher exited with an error.\r\n  pause\r\n)\r\n')
         files.append((desktop / 'Agent Launcher.cmd', batch, 0o644))
     if gui:
-        for suffix in ('.py', '.ps1'):
+        for suffix in ('.py', '.ps1', '_bootstrap.ps1'):
             if not (root / 'scripts' / ('agents_gui' + suffix)).is_file():
                 raise ValueError('Desktop app files are missing. Sync the repository first.')
         gui_script = root / 'scripts/agents_gui.py'
