@@ -64,3 +64,48 @@ At cutoff, PROME's NOW page still lists CATO's card writer/question lock as wait
 Useful next work is to finish the existing Capital One and Skydance questions and publish their conclusions with the actual uncertainties intact. The uncommitted Skydance draft already addresses add-backs; do not commission the same read again. No demonstrated trading return, reduced attention burden or full fleet adoption is claimed. All four findings are advice for the named owners, not CATO implementation assignments or sent packets. Await Will after delivery; surviving approvals, parked forecast pilot and other owner obligations remain unchanged.
 
 Delivery checks: all 11 distinct intended inputs existed and were readable. Read-cap PASS on CATO AGENTS/CHARTER/CONTINUITY and root CLAUDE/USER/AGENTS. Weekday PASS on PROME DOCKET/GATES/WILL_QUEUE, CATO CONTINUITY and both November 10/11 review reports. Orphan advisory found concurrent PROME/FORGE work; all preserved, no CATO-authored packet outside its directory. No STATUS, ledger, auto-memory or canonical numerical-source changes; corresponding conditional checks do not trigger. Only this report, the November 10 closure annotation and CONTINUITY are in the delivery. Commit/push receipt is delivered in-session; no new commit solely to store its own hash.
+
+
+## November 11 follow-up — WALTER backlog advice
+
+Will supplied PROME/SLOANE responses reporting MW1–MW4 corrected or mitigated, then asked for help with WALTER's broader backlog proposal. Those earlier closure reports were acknowledged as reported verification, not a fresh CATO audit. A warning satisfies MW2's mitigation condition without repairing the old model; MW3's wording repair does not establish downstream coverage. No duplicate general review is warranted.
+
+**New bounded assessment:** targeted backlog triage is reasonable, but the quoted “roughly 290 surfaced / 5,770 unseen” count does not measure the actual consumer. Correct that basis before deciding the permanent daily workload. This is advice, not authorization to edit WALTER/Research-Intake or launch desks.
+
+Scope: workspace `d054224aff2fe8fc147ead1b9e2e1245d3a9f5c2`, Research-Intake `599481597c60c0290f6cb6ef8fc20552f825df57`; current intake_scan.py read-only inspection and 30 saved news.json batches October 12–November 10. No remote source queries, feed mutation, --mark or historical live-worklist replay. PROME's HEARTBEAT amendment directory is concurrent work, preserved.
+
+### WB1 — medium: alert/watch level is not the scan's full inclusion rule
+
+Independently reproduced 6,060 normalized unique titles (last observed row per stripped/casefolded title): levels normal 5,774, alert 52, watch 234; classifications KNOWN 347, NEW 5,128, NEW_WATCH_HIT 272, NEW_ALERT 52, NEW_WATCH 226, DEVELOPMENT 35. `AGENTS/WALTER/tools/intake_scan.py:250` handles NEW_ALERT/NEW_WATCH and `:263` onward separately handles NEW_WATCH_HIT/DEVELOPMENT. **299 normal-level titles belong to those latter handled classes.** Thus normal does not mean excluded. The four handled classes total 585 under this dedup convention, not 286. Existing cruise and newly installed GPU review queues are additional surfaces, not included in that 585.
+
+| Search | Unique titles | Alert/watch level | Four handled classes |
+|---|---:|---:|---:|
+| position-banks | 49 | 0 | 9 |
+| bdc-names | 13 | 0 | 7 |
+| bank-vendor-incidents-core | 46 | 1 | 17 |
+| bank-vendor-incidents-msp | 52 | 0 | 19 |
+| aramco-osp | 27 | 0 | 0 |
+| flg-rent-freeze-litigation | 36 | 0 | 1 |
+| fertilizer | 20 | 0 | 1 |
+| ai-dc-force-majeure | 17 | 0 | 1 |
+| nano-banc | 26 | 1 | 5 |
+
+**These are eligibility counts, not proof WALTER actually saw or routed the items.** The scanner reads a liveness-referenced batch and applies state/dedup; absence of a session, earlier batch replacement, state and source errors may affect actual presentation. Conversely, owner research can discover an item by another route. Need to separate collected → eligible → actually reviewed → routed → consumed. No new logging scheme is proposed: use existing records and retain UNKNOWN where they cannot establish a step.
+
+WALTER should recount the proposed searches using the actual consumer logic and existing GPU/cruise queues, deduplicate reposts/overlapping searches and distinguish previously covered owner work. Its quoted table sums to roughly 580 headlines, versus the narrative's roughly 450; overlap might explain this but was not stated. Neither count supports the claimed one-to-two-hour estimate without a defined residual. Narrow targeted searches remain plausible candidates for routine review, but their names alone do not demonstrate materiality.
+
+Closure: corrected count/method and a deduplicated residual worklist; evidence of meaningful exclusions distinguishes a genuine gap from an erroneous zero-surface claim. Then use the existing review-list mechanism for justified targeted families, with ordinary human review and no automatic urgent dispatch. Start with held-name banks and bank-vendor incidents as WALTER proposed; broaden across the remaining targeted families in the bounded catch-up. Broad archive review and new per-family scripts are not needed.
+
+### WB2 — low: CATO's historical receipt gap is described as an unread assignment
+
+Delivery log `AGENTS/WALTER/routed/delivery_log.tsv`, SIG-W-20261019-012, already says CATO's October 19 follow-up incorporated the Ally amendment, forecast 55% → 25% and scoring/timing limits, with exact signal receipt absent. It also explicitly states this historical copy creates no routine obligation or wake under WQ-255. The signal requests incorporation into existing work, not a new study. CATO's `runs/2026-10-19_1322_otto-readiness-review.md` preserves the substantive independent follow-up; WALTER's November 6 rotated gaps file also says “substantive evidence without exact receipt.”
+
+Action/owner: WALTER should describe this as an exact-receipt evidence gap, not “CATO has one action item unread for 23 days.” Do not invent an October 19 read timestamp. The packet was actually opened in this follow-up on November 11; that does not prove its historical receipt. No new CATO research assignment follows. Closure is an accurate backlog description using the already-recorded evidence, not a forced retrospective receipt.
+
+### Recommended direction to Will
+
+Proceed with a bounded targeted triage after correcting the measurement, using existing dispositions. Add targeted searches to ordinary review where evidence shows useful excluded material; preserve deduplication and do not turn every hit into an urgent alert. Rank smaller backlog items by current decision value and existing owner coverage: do not reread earnings calls merely because a source is marked unread. Calendar omissions deserve owner reconciliation. Historical receipt/doorbell repairs should use available evidence, with unknowns retained; never backdate or fabricate delivery. No owner sends or edits were made by CATO.
+
+Stopping point: advice and evidence delivered; WALTER owns any authorized implementation and corrected backlog assessment. No new CATO assignment remains. Delivery checks are recorded below.
+
+Follow-up delivery checks: all 10 inputs existed/readable; read-cap PASS on the six required startup files; weekday PASS on PROME DOCKET/GATES/WILL_QUEUE plus CATO CONTINUITY and this report. Orphan advisory found concurrent DEWEY and PROME work, preserved. No canonical numeric-source, STATUS/ledger or auto-memory mutation. Only this continuing report and CONTINUITY are committed; no receipts or other-owner files changed.
