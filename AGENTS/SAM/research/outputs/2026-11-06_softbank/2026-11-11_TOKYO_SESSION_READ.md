@@ -68,3 +68,44 @@ The roll did not move because Arm has not traded since. The next dated Arm print
 | Official words 11/11 | none found (one secondary search; not evidence of absence) | — |
 
 **Grade:** 160 **not crossed**; closer than any day since 9/1. It is an investigation level, not an automatic trigger, and the speed that preceded past intervention is absent. The 160 / Ministry of Finance leg stays the live risk side of the carry read, as written 11/10; no unwind signature (the yen is weakening, not jumping).
+
+## Follow-up 09:14 ET (PROME prome-2b, Will asking the Japan angle): how sensitive is the roll to USD/JPY?
+
+**Answer:** a yen rally RAISES SoftBank's leverage, about **+0.04 point per yen** of yen strength. 160 → 155 (intervention-size) is about +0.2 point; 15 yen is about +0.6 point, the same as a **$10 fall in Arm**. The danger is the two together: an intervention day is usually risk-off for Arm.
+
+**Why:** holdings are 95% dollar (Arm, OpenAI, T-Mobile, the Vision Funds), but only about 60% of net debt is foreign. A stronger yen shrinks yen-measured assets by more than it shrinks debt.
+
+⚠️ **`ltv_lookup.py` cannot vary the rate.** Its `--fx` converts only the post-9/30 Arm move and October tranche and holds the 9/30 base at ¥157.35. Run across rates it gives the **wrong sign** (21.9% at 145). Its docstring is corrected. Full revaluation → `ltv_fx_sensitivity.py`.
+
+**Correction to my own figure:** on full revaluation, own basis at USD/JPY 158.81 and Arm $181.49 is **22.5%**, not the lookup's 22.7%. The frozen base overstates it by about 0.2 point (the conservative direction). The ABB-inclusive range is likewise **23.4–23.9%** on full revaluation, against 23.6–24.0% on the lookup convention.
+
+**Currency split relied on** (SoftBank finance deck `investor-finance_q2fy2026_01_en.pdf`, primary, 9/30/2026 at $1 = ¥157.35, read 11/11):
+
+| Item | Split | Page |
+|---|---|---|
+| Holdings ¥71.1T, net of asset-backed finance | USD 95 / JPY 5 | p.45 |
+| Interest-bearing debt ¥22.5T (excludes prepaid-forward liabilities ¥1.40T and "Others"; = ¥23.95T total on p.28 less those) | USD 55 / JPY 38 / EUR 7 | p.45, p.28 |
+| Cash ¥5.4T | USD 72, subsidiaries mostly USD 9, EUR etc. 9, JPY 10 | p.45 |
+| Q2 FX effect (yen about 3.3% stronger, Jun → Sep) | LTV **+0.2 point**, NAV **−¥2.0T** | p.46 |
+
+**Not disclosed:** the currency split of the ratio's own net debt (¥11.30T). I used **62% foreign** (the gross-debt split). SoftBank's p.46 attribution implies 46–66% (from the LTV leg, ±0.05 rounding) and 55–81% (from the NAV leg); 62% sits inside both. My model gives +0.17 point for the Q2 move against SoftBank's +0.2. The 6/30 rate is my ledger close (162.605), not SoftBank's TTM rate.
+
+**Ratio at Arm $181.49 (11/10 close), full revaluation, 62% foreign net debt** (`ltv_fx_sensitivity.py`):
+
+| USD/JPY | Own basis | With SB7 settlement | ABB-inclusive |
+|---|---|---|---|
+| 158.81 (Tokyo close 11/11) | 22.5% | 22.8% | 23.4–23.9% |
+| 160 | 22.5% | 22.7% | 23.4–23.9% |
+| 155 | 22.7% | 22.9% | 23.6–24.1% |
+| 150 | 22.9% | 23.1% | 23.8–24.3% |
+| 145 | 23.1% | 23.4% | 24.0–24.5% |
+
+- **Arm price that puts leverage at 25%, own basis:** about $143 at 158.81 and about $152 at 145. ABB-inclusive: $156–164, rising to $165–173.
+- **At 145 with other net-debt splits:** 23.3% (50% foreign) or 23.0% (70% foreign) on own basis.
+
+**December BOJ hike and funding cost:** small, and only an upper bound can be sized.
+- JPY debt is about **¥8.6T** (38% of ¥22.5T).
+- **¥6.2T of it is domestic bonds** (senior ¥4,110.5B, subordinated ¥1,024.4B, hybrid ¥1,083.0B; p.28), which carry fixed coupons.
+- The other roughly ¥2.3T (yen bank loans, CP ¥285.8B, hybrid loan ¥185.7B, the SBKK-share margin loan ¥1,197.5B) has a rate basis **not disclosed**. If all of it floats, +25bp is at most about **¥6B a year**, against ¥676.4B of interest in H1.
+- Otherwise the hike reaches only new yen issuance. The last retail deal was **4.75%, 7-year** (9/17, p.21), mostly credit spread.
+- Nothing further can be sized from the filings.

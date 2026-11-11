@@ -11,7 +11,9 @@ v   = equity value of holdings at 9/30, yen trillions (reported)
 Roll-forward moves only: Arm (923M shares, 9/30 $289.66) and the October OpenAI tranche
 ($10B into both debt and value). T-Mobile, SoftBank Corp, SVF listed marks, the OpenAI mark,
 new borrowing or sales after 9/30 are NOT moved: add them by hand from the deck.
-FX: 9/30 USD/JPY 157.43 (own ledger) vs about 158 now; ignored, under 0.1pt on the ratio.
+FX: --fx converts ONLY the post-9/30 Arm move and October tranche; the 9/30 base stays at 157.35.
+CORRECTED 2026-11-11: this is NOT "under 0.1pt" -- at 158.81 the full revaluation is 22.5% vs 22.7% here,
+and across rates this script gives the WRONG SIGN. For any FX sensitivity use ltv_fx_sensitivity.py.
 """
 import argparse
 
