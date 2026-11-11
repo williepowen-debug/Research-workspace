@@ -1,49 +1,13 @@
 {
-  "kind": "marked",
-  "checked_at": "2026-11-11T13:46:44Z",
-  "items": 12,
+  "kind": "fetched",
+  "checked_at": "2026-11-11T14:06:27Z",
+  "items": 0,
   "scan": {
-    "checked_at": "2026-11-11T13:42:26Z",
-    "head_checked_at": "2026-11-11T13:42:26Z",
+    "checked_at": "2026-11-11T14:06:27Z",
+    "head_checked_at": "2026-11-11T14:06:27Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 2
+    "attempts": 1
   },
-  "review_recorded": true,
-  "read_counts": {
-    "fully_read": 5,
-    "partly_read": 7
-  },
-  "dispositions": {
-    "DUP": 3,
-    "DISPATCH": 7,
-    "NO-ACTION": 2
-  },
-  "follow_ups": [
-    {
-      "id": "2120151992924286988",
-      "ref": "BOARD/SIG-W-20261111-004-Small-items-Nov-11-VIX-near-18-RED-FT-06-exit-could-complete-today-SoftBank-Tokyo-closed-minus-0.44-SEC-penalties-lowest-since-2008-El-Nino-Florida.md"
-    },
-    {
-      "id": "2120353284636471618",
-      "ref": "BOARD/SIG-W-20261111-004-Small-items-Nov-11-VIX-near-18-RED-FT-06-exit-could-complete-today-SoftBank-Tokyo-closed-minus-0.44-SEC-penalties-lowest-since-2008-El-Nino-Florida.md"
-    },
-    {
-      "id": "2120320733561672164",
-      "ref": "BOARD/SIG-W-20261111-002-Siemens-Energy-FY2026-record-backlog-164B-Gas-Services-FY27-revenue-plus-24-26pct-Q4-orders-plus-5pct-9B-buyback-shares-up-about-9pct.md"
-    },
-    {
-      "id": "2120502061553062010",
-      "ref": "BOARD/SIG-W-20261111-001-Saudi-tells-OPEC-October-crude-10.563-mbd-up-from-8.372-survey-9.2-conflicts-with-STEO-2.5-mbd-Middle-East-shut-ins.md"
-    },
-    {
-      "id": "2120239473162170711",
-      "ref": "BOARD/SIG-W-20261111-004-Small-items-Nov-11-VIX-near-18-RED-FT-06-exit-could-complete-today-SoftBank-Tokyo-closed-minus-0.44-SEC-penalties-lowest-since-2008-El-Nino-Florida.md"
-    },
-    {
-      "id": "2120223323904778582",
-      "ref": "BOARD/SIG-W-20261110-006-BOND-10Y-refunding-indirect-61.23-fires-I-prime-second-in-two-sessions-dealers-9.77-composition-failure-not-met.md"
-    }
-  ],
-  "requests": []
+  "review_recorded": false
 }

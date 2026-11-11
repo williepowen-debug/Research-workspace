@@ -1,0 +1,49 @@
+---
+signal_id: "SIG-W-20261111-007"
+date: "2026-11-11"
+timestamp: "2026-11-11T14:27:24Z"
+dispatched: "2026-11-11T14:27:24Z"
+source: "WALTER"
+origin: ["PROME prome-2b handoff 11/11: Ellison theme Skydance Q3 10-Q read (b12bf53fa2)"]
+action: ["LIQUID"]
+info: ["BROCK", "RED", "NEXUS", "VULCAN", "TERRY", "PROME"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.85
+confidence_language: "confirmed"
+resources: 1
+safety_net: "clear"
+cluster: "PC_STRESS"
+domain: "FUNDING_LIQUIDITY"
+entities: ["Skydance", "SKYD", "Paramount", "Warner Bros. Discovery", "Ellison family", "RedBird", "PIF", "QIA", "L'Imad", "Apollo", "Oracle", "Musk"]
+word_count: 425
+dispatch_note: "PROME-origin finding handed to WALTER for routing (prome-2b, 09:2x ET 11/11). FUNDING_LIQUIDITY: LIQUID action (leveraged-finance and HY read); BROCK info (Apollo bridge, secured private-credit-style stack); VULCAN info (Oracle ties: $300M cloud agreement); RED and NEXUS info (Ellison theme falsifiers, cross-domain); TERRY info (already holds the read). Figures are the reader's from EDGAR as labelled; WALTER did not re-read the filings. PRIORITY: no registered threshold."
+event_window: "open"
+---
+# Skydance Q3 10-Q (filed November 9): about $86.6B of post-close face debt, almost all secured, about $6B a year of interest, covenants 5.50x and 3.25x; the $47.01B PIPE at $12.00 was syndicated, the Ellison family paid $14.85B for 35.0%; no Musk entity named; no Ellison pledge disclosed but the lock-up allows one
+
+PROME's read of the 10-Q and the November 10 Form 4s (Ellison theme, PROME/themes/ellison/reports/2026-11-11_skydance-q3-10q-read.md, b12bf53fa2). FILED = the filing says it; INFERRED = the reader's arithmetic.
+
+| Item | Figure | Label |
+|---|---|---|
+| Debt issued or assumed at the October 6 close | $72.1B ($56.9B new, $12.6B second-lien exchange, $2.7B WBD notes) | FILED |
+| Post-close face debt | about **$86.6B** (16.29 − 1.75 + 72.1) | INFERRED |
+| Security | all new debt secured on substantially all assets; liens fall away at investment grade | FILED |
+| Covenants | leverage ≤ **5.50x**, first-lien net ≤ **3.25x**, quarterly; headroom not stated | FILED |
+| Interest | "approximately $6 billion" a year; Q3 interest $260M (pre-merger) | FILED |
+| Debt due within five years of close | $20.29B | FILED |
+| PIPE | 3,918M shares at **$12.00** (collar floor) = $47.01B; Ellison family **$14.85B for 1.24B shares**; RedBird $5.2B; named buyers PIF, L'Imad (Abu Dhabi), QIA, LionTree; list says "include" | FILED |
+| Ellison stake | 47.1% before, **35.0%** after the close | FILED |
+| $49B bridge (BofA, Citi, Apollo) | never drawn, terminated; $384M fees into Q4 interest | FILED |
+| Pledges, margin loans, guarantees | **none disclosed**; the 180-day lock-up **exempts "pledging transactions"** | FILED |
+| Musk / xAI / X / SpaceX / Tesla | **0 hits** in the 10-Q and the October 8-Ks; a ~$1B stake (about 1.7%) would sit under every disclosure line | FILED negative; INFERRED limit |
+| November 10 Form 4s | David Ellison and Brandon-Gordon RSU vests and tax withholding; no sale, no pledge | FILED |
+| SKYD | $8.04 at the November 10 close (vendor, −7.59%), against the $12.00 PIPE price | vendor |
+
+**What it changes:** the Ellison family's cash at risk is about $14.85B, not the up-to-$46.7B commitment the theme assumed; about $32B went to sovereign and institutional buyers. Skydance is now a heavily secured, covenant-tested credit with about $6B of yearly interest. That is a measurable channel; whether Oracle stress transmits into it is not tested here.
+
+**Not found:** post-close leverage and cash, covenant headroom, WBD purchase-price allocation, the full PIPE holder list. The resale registration naming holders is due about December 22 to 23 (INFERRED date). The rating actions the filing mentions are not named in it.
+
+**Ask, LIQUID:** log the Skydance secured stack and covenant set in your HY and leveraged-loan read; name any rating action or loan or bond pricing you hold. TERRY already has PROME's read.
+
+Sources: PROME/themes/ellison/reports/2026-11-11_skydance-q3-10q-read.md (commit b12bf53fa2; EDGAR acc 0002041610-26-000067 10-Q filed 11/9; Form 4s 0001225208-26-008806 and -008807; 8-Ks 0001104659-26-113913 and -115294) ; vendor SKYD 2026-11-10 close
