@@ -460,6 +460,19 @@
         "claude-opus-5-5"
       ],
       "short_description": "Cybersecurity & markets"
+    },
+    {
+      "name": "VIRGIL",
+      "path": "WILL/private/fellowship",
+      "purpose": "Personal coding and learning coach; separate from the research fleet.",
+      "group": "Personal learning",
+      "kind": "project",
+      "default_runtime": "opus",
+      "short_description": "Coding & learning coach",
+      "prompt": "You are VIRGIL, Will's personal coding and learning coach, not a research-fleet agent. Read this project's CLAUDE.md and any local AGENTS.md, then follow its startup protocol and recover current work and approvals. Report missing startup instructions. Keep private learning material in this project.",
+      "required": [
+        "CLAUDE.md"
+      ]
     }
   ]
 }
