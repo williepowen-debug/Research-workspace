@@ -183,7 +183,7 @@ At build, stages 1–2 had no instrument, and the desk therefore held a credit-q
 
 | Row | What it adds |
 |---|---|
-| KB-071 / 073 / 096 | The freeze took force 10/1 with no stay. No injunction as of 10/1; merits expected before year-end; later docket entries unread (NYSCEF needs a browser) |
+| KB-071 / 073 / 096 | The freeze took force 10/1 with no stay. No injunction as of 10/1; merits expected before year-end; later docket entries NOT OBTAINED, the read dropped by Will 2026-11-10 (WQ-477, KB-118); no ruling at reachable sources 11/11 |
 | KB-081 / 090 | Provision guidance halved 4/24, then raised 10/23 to $160–170M for FY2026 and $175–225M for FY2027. **The issuer's 2027 provision rise concedes the wall costs more** |
 | KB-082 | Refinance is priced off Treasuries plus CRE spread, not high yield. Borrower coupon ~+35bp, about 5% smaller refi on DSCR-limited loans (CREED estimate) |
 | KB-086 / 087 / 088 | Criticized + classified +$670M in Q3, first rise across five charted quarter-ends. Par payoffs $1.2B, 35% substandard. NYC ≥50% RR ACL on the criticized book rose to 5.00% |

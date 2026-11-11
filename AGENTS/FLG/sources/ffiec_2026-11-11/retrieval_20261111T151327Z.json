@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "period": "2026-09-30",
+      "rssd": 694904,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-11-11T15:13:26.480659+00:00",
+      "http_status": 200,
+      "status": "VERIFIED",
+      "path": "AGENTS/FLG/sources/ffiec_2026-11-11/694904_09-30-2026_call.sdf",
+      "rows": 1934,
+      "bytes": 195001,
+      "sha256": "8cf81ff12e2bad75b58273e4d8702a29d0823a94d393bf5b0ab61d9cc0c82e12",
+      "last_update_min": "20261030",
+      "last_update_max": "20261030"
+    }
+  ]
+}
