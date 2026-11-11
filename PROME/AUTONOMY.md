@@ -72,7 +72,7 @@ When unsure, ask yourself:
 This doc should get MORE permissive over time. As patterns emerge (in the Change Log below + HANDOFF / daily `memory/` records):
 - If Will approves the same type of proposal 5+ times → consider moving to Tier 1
 - If Will rejects a category consistently → note it here as "don't propose"
-- Review quarterly (or when it feels stale) — **last full review: 2026-07-01 — the quarterly review has been OVERDUE since 2026-10-01. The 10/25 candidate sitting passed without completing it; the obligation remains outstanding at the next PROME process pass. No review completion is inferred.**
+- Review quarterly (or when it feels stale) — **last full review: 2026-11-11 (the queue read by decision type, D:L1085; report `PROME/reports/2026-11-11_queue-review-by-decision-type.md`; the permissions it suggests wait on WQ-673 and none is granted by the review itself). Prior: 2026-07-01; the review was overdue from 2026-10-01 to 2026-11-11. Next due 2027-02-11.**
 - **Behavior-changing grants/revokes also propagate to the auto-loaded `PROME/CLAUDE.md` Ask-First section** (that's what's actually read every boot) — log here, mirror there.
 
 **Trust goes both ways.** Track demotions too — if Prome screws up a Tier 1 action and it should've been Tier 2, log it. Accountability builds trust faster than optimism.
