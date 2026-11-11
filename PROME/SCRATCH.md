@@ -2,7 +2,7 @@
 
 **Session:** prome-2b · desktop DESKTOP-BC6EF81 · Claude Code (Fable 5.2, model id claude-fable-5-2). **Disposition: OPEN** since 2026-11-11 08:34 ET (from `date`), full boot on Will's word. Took over from prome-07 (same desktop), whose CLOSED OUT disposition is proven by commits 9f1eed7e6a and 5be6d542fd on origin/master. Takeover checks at boot: same hostname, `git fetch` then 0/0 against origin/master, tree clean, ListAgents shows no other session, process list shows one Claude process (this one) and no Codex window. Run directory `/tmp/prome-boot-8d99d22d`.
 **Prior session’s recorded disposition (prome-07):** CLOSED OUT 19:45 ET 2026-11-10 by prome-07, end-of-day Standard closeout on Will's word ("PRome lets close up for the night.  Can you direct all spawned agents to close out and save their work"). Evidence: the session account in `memory/2026-11-10.md`, the ORCH_LOG 11/10 CLOSE rows and the closeout commit on origin/master. Same session earlier: desktop boot 11:06 ET, restart checkpoints 13:12 and 16:12 ET, pickups 13:17 and 16:15 ET. This line is a record, not liveness: before taking over, establish ownership per BOOT step 2.
-**Page last edited:** 2026-11-11 09:55 ET (from `date`). This dates the page only; it refreshes no market or book observation, and none is stored here.
+**Page last edited:** 2026-11-11 10:02 ET (from `date`). This dates the page only; it refreshes no market or book observation, and none is stored here.
 **This page references ledgers; it never copies their state.** Obligations live in DOCKET, decisions in WILL_QUEUE, gate state in GATES, positions in FORGE, standing rules in [STATUS](STATUS.md). History is the daily note and git. Rebuilt 2026-11-09 under WQ-658 A; the page it replaced is `archive/NOW_MIGRATION_2026-11-09/SCRATCH.md`.
 
 ## Next, in order
@@ -27,7 +27,7 @@
 
 ## Open with Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-11 · 2 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-31 (11/1) · WQ-669 (11/16)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-11 · 1 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-31 (11/1)
 <!-- WILLQ-VIEW END -->
 - Parked (his hands): the HANDS rows above; one line in reports, never per row (WQ-538 A).
 
@@ -36,7 +36,7 @@ Run `python3 PROME/tools/will_brief.py --book-line` and paste its line whole; no
 
 ## This session
 - prome-2b (desktop) OPEN since the 08:34 ET boot on 11/11, gate PASS, boot reported PARTIAL on one control (the boot manual was read with the plain file reader). No closeout yet. Interim account: `memory/2026-11-11.md`.
-- **Asked of Will, unanswered, none blocking:** how wide the catch-up runs · a look at his Claude usage · optional reads only he can make (OPEC's November report, the Saudi row of the secondary-sources table; Japan Tobacco's 11/6 and 11/9 statements) · WATT's winter demand test (a threshold review that is his to open). Told, no answer owed: CARL's CRL-36 re-mark offer was declined by PROME (stays 70% as registered).
+- **Asked of Will, unanswered, none blocking:** how wide the catch-up runs · a look at his Claude usage · one optional read only he can make (Japan Tobacco's 11/6 and 11/9 statements; he opened OPEC's report at 09:58 ET and WALTER carded it, SIG-W-20261111-013: Saudi supply to market 9.203, secondary sources 9.194, production 10.563) · WATT's winter demand test (a threshold review that is his to open). Told, no answer owed: CARL's CRL-36 re-mark offer was declined by PROME (stays 70% as registered).
 - **Carried conditions, not limits:** no count cap on due-row wakes (WQ-667 B, WQ-661 A) · full brief unless Will says he has WALTER's (WQ-662 B) · material findings go to TERRY for a tradeability read unasked (Will 11/10 18:03 ET) · quiet mode during desk sweeps.
 - **Desk memory on the desktop, measured 11/11:** WSL has 11 GB and 16 GB swap; a desk window is one process of 300 to 500 MB and an in-session agent pane is the same size, so panes save nothing; about twelve concurrent desk processes left 2.9 GB available. PROME ends a desk's window after its push receipt is verified (`MACHINE_LOCAL.md` memory row).
 - **Carried from prome-07, still true:** told Will, his to do, no prompt owed: delete the two token text files from his Windows Desktop and wipe the thumb drive after the laptop is set up (WQ-31). Offered 11/10 and not opened: unattended runs for 08:30 ET releases (CATO MC4) · a queue row on whether two consecutive refunding I′ fires should move BOND's auction-health score. PACER for the Cable One order is ask-first; PROME recommended not paying. Queue review by decision type rides D:L1085.
