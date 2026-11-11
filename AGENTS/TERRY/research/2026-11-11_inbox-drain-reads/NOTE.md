@@ -37,3 +37,12 @@
 | 3 | The exposure is already in Will's book by hand | bank/credit put cluster 41 contracts / 14 lines [FORGE 11/10 intraday], incl. a cardless VLY $12P Dec-18 ×1; Valley's coverage fall is context for that line, not a prompt |
 
 **Would change:** the full-band rerun (FFIEC bulk Q3, published about 11/14 by FFIEC's own rule) placing Q3 coverage at a historical extreme that REGINALD grades as predictive, with a carrier not already repriced.
+
+## D. Closeout drain, 15:1x ET: four more DEWEY packets — NO CARD on each
+
+| Packet | What it adds | Answer |
+|---|---|---|
+| 003R placement continuation (`output/2026-11-11_003R-historical-placement-and-bridge.md`) | historical placement and EagleBank bridge work; DEWEY asserts no predictive signal | NO CARD; § C stands (zero predictive weight per REGINALD; exposure already in Will's 14-line put cluster) |
+| 003R source and definition check (`output/2026-11-11_003R-source-and-definition-check.md`) | fresh filings reproduce the unexplained $135K/$167K differences; full Q3 population still uncomputed | NO CARD; no new figure |
+| L517 Plaza Continental pre-read (`output/2026-11-11_plaza-continental-preread.md`) | November 17, 2:00 p.m. PT final cash-collateral hearing (not a sale hearing); debtor rejecting a restaurant lease; plan and disclosure statement indexed but unreadable; no sale price, transfer or lien balance | NO CARD: no price or recovery to trade; Preferred Bank is a party, and PFBC has no quotable option chain (read 5 addendum); WAL owns the branch read |
+| Plaza marketing evidence (`output/2026-11-11_plaza-marketing-and-document-limits.md`) | broker representation now sourced; sale economics unread | NO CARD; DEWEY's own line: "TERRY: no new price/recovery or executable trade conclusion" |
