@@ -1,11 +1,11 @@
 # OTTO MEMORY
 
-**Updated:** 2026-11-06, s043. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
+**Updated:** 2026-11-11, s044. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
 
 ## Desk boundaries
 - OTTO owns auto-fraud mechanisms, collateral evidence and identification of exposed counterparties. REGINALD owns bank sizing; BROCK owns CRMT financing grades and BDC marks; TERRY constructs trades and Will decides.
 - Root/desk charter owns routing and evidence conventions. Use WALTER for new signals; a peer's own ask may receive a direct answer, with a parallel WALTER drop for any firing/new dated fact. Never edit a peer's canonical record.
-- Runtime varies by session: s039 ran on Codex, s040 to s043 on Claude Code (Opus 5.5). Identify it at boot; explicitly read startup files and do not assume another runtime's memory auto-loads. Technical permissions do not change research, trade, spending or external-send approvals.
+- Runtime varies by session: s039 ran on Codex, s040 to s044 on Claude Code (Opus 5.5). Identify it at boot; explicitly read startup files and do not assume another runtime's memory auto-loads. Technical permissions do not change research, trade, spending or external-send approvals.
 
 ## Reading traps and canonical homes
 - `LESSONS.md` is the single desk mistake-pattern reference. Do not recreate its rules here. Calibration and source limitations: `thesis/PREDICTIONS_ARCHIVE.md`; original probabilities come from git first appearance.
@@ -29,15 +29,18 @@
 - Tricolor auction instrument: Holman files a sworn monthly application by the 10th (¶13: vehicles sold, net sale proceeds); trustee's quarterly Form 1 has asset 52. Verita list dates are unpadded (11/6/2026), the POST takes `DocketNumber` alone, a `/tricolor/document/<id>` link sits in each `court-docket` card. `curl -L` the Go Daddy G2 cert (the plain http URL now redirects, leaving an empty file). Running pdfminer over a Holman PDF whole stalls on the vehicle exhibit, so cap `maxpages=9` or Read the page range.
 - James memo endorsements can sit in an encoded font: `(cid:N)` decodes as chr(N+29). `pypdfium2` is not in `.venv`; the Read tool renders PDF pages. `shelf_halt_monitor.py` can exceed 60 s under EFTS limits; give it 180 s.
 
-## LAST SESSION — s043, 2026-11-06 after the close (Claude Code, Opus 5.5), PROME relay of Will's 17:08 ET word
-- Close refresh. No score, band, gate, threshold or prediction moved. Convergence 32/50.
-- Tricolor auction row refreshed from a May vintage: 9,082 vehicles, $63.09M net through 10/31. Sum ties to the old row at 4/30 to the dollar. Trustee Form 1: $53.78M received at 9/30, $65.0M estimated, ~2,000 cars left. $2.53M gap between the two at 9/30 is unexplained.
-- Hertz Q3 10-Q read: 2021-2 $1,000M at 9/30, reason not stated; not fired, not closed. Row's $1,893M was capacity. Routed to LIQUID via WALTER. LIQUID then found OTTO's "extended" left out that all $300M of Class B holders refused (card 051); confirmed at Ex. 10.2, ML-373; refusers all sign through Oaktree, at most one credit decision, ML-374. Check 12/31: a miss is a scheduled-amortization reset, not the watch's fire.
-- James government response due 11/09. Inbox 1/1. Evidence: `research/2026-11-06_close-refresh/READOUT.md`; ML-369–372.
+- NY Fed HHDC workbook map (Q3-2026 file): p.3 balances by type; p.8 auto originations by riskscore (<620 bucket is NOT OTTO-10's Equifax share); p.12 share of balance 90+ by type; p.14 flow into 90+ by type, rounded; p.26 auto flow into 90+ by age with an 'all' column, four-quarter sum, full precision. CARL saves the file under `AGENTS/CARL/research/<date>_HHDC_prep/raw/`; a card's cited path can be wrong, so `find` before calling a source missing.
+- Verita: `DocketNumber` blank plus a date range lists every entry newest first; the docket number and `/tricolor/document/<id>` link sit in the HTML card above each `Document Name:` block. The G2 cert fetch must be plain `http://` with `-L`; `https://certificates.godaddy.com` fails its own name check.
+
+## LAST SESSION — s044, 2026-11-11 (Claude Code, Opus 5.5), PROME task from prome-2b, D:L133 + catch-up
+- Tricolor §341 set for 11/11 not held: continued to Wed 2027-03-17 10:00 CT (Verita Dkt 1496, filed 11/09, PDF read). PROME registered the successor as DOCKET L1121. WALTER drop committed.
+- NY Fed Q3 auto flow into 90+ 3.0232%, series high by 2bp; balance $1.734T; non-contradiction passed, 🟡 held. CRMT eleventh bridge to 11/12 (BROCK). James: government opposition ECF 166/167 filed, titles only, no ruling.
+- Fed-hike read (ORACLE's odds): touches no OTTO row, band or prediction. ML-375–382 incl. three combo updates. Inbox 2/2. No score, band, gate, threshold or prediction moved. Convergence 32/50.
+- Closeout: research retirement scan run (owed since s043): 15 files to `archive/research_retired_2026-11-11/`. STATUS rotated under 70%, originals cold §23. Consumer check's two 🔴 were false (dated WALTER snapshot; unrelated MKC number in a HENRY CSV).
 
 ## NEXT SESSION — keep last
-1. BROCK CRMT 11/09, James response 11/09 (read the PDF), NY Fed 11/10 (non-contradiction check only; G.19's $1,589.8B is a different perimeter), Tricolor §341 11/11, EART 2026-5 window 11/12, Chu check ~11/13.
+1. **11/12:** CRMT relief expiry (BROCK grades) · EART 2026-5 window closes (OTTO-07; combo:funding-cost review) · WINTERKORN due (7 days). **~11/13** Chu suppression check (sealed 11/06 entry). Read James ECF 166/167 bodies.
 2. **~11/15 SDT:** run with Manheim +2, record the second observation (expect NO VERDICT); decide then whether to propose a redesign, stated openly, no credit.
-3. **~11/30:** EART October 10-Ds resolve OTTO-36, OTTO-34 path; Ares response (OTTO-33); Tricolor sales deadline. **By 12/10:** Holman November application, add to `HOLMAN_MONTHLY.tsv`.
-4. **12/07 Manheim November.** Before any mid-month forecast, use `MID_TO_FINAL.tsv` and add the new pair.
-5. WINTERKORN PENDING 11/05: Dkt 1297 Ex. B facility map; WALTER may already hold the Weil wind-down. Hertz item closed by s043. OTTO-10 ~12/15 and OTTO-11 STUCK keep their follow-ups. WQ-531 still limits court negatives.
+3. **11/16–11/21:** First Brands hearings 11/16, 11/17, 11/18; SDART/BLAST October 10-Ds; trustee's first operating report 11/21.
+4. **~11/30:** EART October 10-Ds resolve OTTO-36 (PROME's grade deadline 12/04, DOCKET L990), OTTO-34 path; Ares response (OTTO-33); Tricolor sales deadline. **By 12/10:** Holman November application into `HOLMAN_MONTHLY.tsv`.
+5. **12/07 Manheim November** (use `MID_TO_FINAL.tsv` before any mid-month forecast). OTTO-10 ~12/15, OTTO-11 STUCK keep their follow-ups. WINTERKORN PENDING: Dkt 1297 Ex. B facility map. Tricolor §341 3/17/27. WQ-531 still limits court negatives.
