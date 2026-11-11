@@ -162,23 +162,34 @@ def collect_alerts(live):
     recs = []
     jobs = live.get("jobs", {})
 
-    def fred_owner(series, band):
+    def fred_owner(series, band, raw=""):
         owners = FRED_OWNER.get(series, ["PROME"])  # unknown series -> PROME to triage
         info = FRED_INFO.get(series, [])
-        # HY OAS named thresholds (7/1 addendum): >=280 X1-breach / re-kill = IMMEDIATE
+        # HY OAS X1 operator (WQ-363; LIQUID KILL_MEMO_HY_OAS_260 line 62): STRICTLY above 280.0 bp,
+        # three consecutive; a reading at or below 280.0 resets. One reading above 280 is an
+        # IMMEDIATE observation, not the fire (charter 7e(d)); exactly 280 is PRIORITY at-line.
         prec = "PRIORITY" if band == "red" else "ROUTINE"
         label = ""
         if series == "BAMLH0A0HYM2":
             info = ["HENRY"]
             if band == "red":
-                prec, label = "IMMEDIATE", "X1-trigger breach (credit-bear arm)"
+                m = re.search(r"=\s*([0-9]+(?:\.[0-9]+)?)", raw)
+                val = float(m.group(1)) if m else None
+                if val is not None and val < 50:  # lane printed percent (e.g. 3.34) -> bp
+                    val *= 100
+                if val is not None and round(val, 6) > 280.0:
+                    prec, label = "IMMEDIATE", "X1 reading strictly above 280 (credit-bear arm; one reading, the trigger needs three consecutive)"
+                elif val is not None and round(val, 6) == 280.0:
+                    label = "AT the X1 line (280.0), NOT a qualifying reading"
+                else:
+                    label = "HY red band, value not parsed or at/below 280: read the raw line"
         return owners, info, prec, label
 
     # fred: alerts[] of "SERIES desc=val [band]"
     for a in jobs.get("fred", {}).get("alerts", []):
         series = a.split(" ", 1)[0]
         band = _band(a) or "orange"
-        owners, info, prec, label = fred_owner(series, band)
+        owners, info, prec, label = fred_owner(series, band, a)
         recs.append(dict(feed="fred", key=f"fred:{series}:{band}", band=band,
                          gate=_gate_for_band(band), owners=owners, info_cc=info,
                          precedence=prec, raw=a, label=label))
