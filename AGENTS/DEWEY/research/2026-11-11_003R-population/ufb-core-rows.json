@@ -1,0 +1,522 @@
+[
+  [
+    "20260930",
+    "391575",
+    "RCFD1403",
+    "2159092",
+    "20261030",
+    "Total loans and leases (sum of items 1 through 8.b)",
+    "RCN",
+    "9"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1407",
+    "1704",
+    "20261030",
+    "Total loans and leases (sum of items 1 through 8.b)",
+    "RCN",
+    "9"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD2081",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions (including foreign central banks)",
+    "RCCI",
+    "7"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD3123",
+    "6323",
+    "20261030",
+    "LESS: Allowance for credit losses on loans and leases",
+    "RCRII",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5389",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions",
+    "RCN",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5390",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions",
+    "RCN",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5391",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions",
+    "RCN",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDB558",
+    "4945",
+    "20261030",
+    "U.S. Treasury securities and U.S. Government agency obligations (excluding mortgage-backed securities)",
+    "RCK",
+    "2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDG312",
+    "0",
+    "20261030",
+    "Issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCB",
+    "4b1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDG313",
+    "0",
+    "20261030",
+    "Issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCB",
+    "4b1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDG314",
+    "460",
+    "20261030",
+    "Issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCB",
+    "4b1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDG315",
+    "428",
+    "20261030",
+    "Issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCB",
+    "4b1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDG316",
+    "0",
+    "20261030",
+    "Collateralized by MBS issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCB",
+    "4b2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDG317",
+    "0",
+    "20261030",
+    "Collateralized by MBS issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCB",
+    "4b2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDG318",
+    "0",
+    "20261030",
+    "Collateralized by MBS issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCB",
+    "4b2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDG319",
+    "0",
+    "20261030",
+    "Collateralized by MBS issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCB",
+    "4b2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDHT50",
+    "0",
+    "20261030",
+    "U.S. Government agency and sponsored agency obligations (exclude mortgage-backed securities)",
+    "RCB",
+    "2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDHT51",
+    "0",
+    "20261030",
+    "U.S. Government agency and sponsored agency obligations (exclude mortgage-backed securities)",
+    "RCB",
+    "2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDHT52",
+    "0",
+    "20261030",
+    "U.S. Government agency and sponsored agency obligations (exclude mortgage-backed securities)",
+    "RCB",
+    "2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDHT53",
+    "0",
+    "20261030",
+    "U.S. Government agency and sponsored agency obligations (exclude mortgage-backed securities)",
+    "RCB",
+    "2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK036",
+    "0",
+    "20261030",
+    "Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:",
+    "RCN",
+    "11"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK037",
+    "0",
+    "20261030",
+    "Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:",
+    "RCN",
+    "11"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK038",
+    "0",
+    "20261030",
+    "Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:",
+    "RCN",
+    "11"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK150",
+    "0",
+    "20261030",
+    "Issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCB",
+    "4c2a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK151",
+    "0",
+    "20261030",
+    "Issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCB",
+    "4c2a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK152",
+    "2889",
+    "20261030",
+    "Issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCB",
+    "4c2a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK153",
+    "2571",
+    "20261030",
+    "Issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCB",
+    "4c2a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDPU98",
+    "0",
+    "20261030",
+    "Guaranteed by U.S. Government agencies or sponsored agencies included in Schedule RC-B, item 5.b",
+    "RCB",
+    "M7"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDPU99",
+    "0",
+    "20261030",
+    "Guaranteed by U.S. Government agencies or sponsored agencies included in Schedule RC-B, item 5.b",
+    "RCB",
+    "M7"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDPV00",
+    "0",
+    "20261030",
+    "Guaranteed by U.S. Government agencies or sponsored agencies included in Schedule RC-B, item 5.b",
+    "RCB",
+    "M7"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDPV01",
+    "0",
+    "20261030",
+    "Guaranteed by U.S. Government agencies or sponsored agencies included in Schedule RC-B, item 5.b",
+    "RCB",
+    "M7"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDS449",
+    "2160804",
+    "20261030",
+    "Exposures past due 90 days or more or on nonaccrual",
+    "RCRII",
+    "5c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDS455",
+    "2156486",
+    "20261030",
+    "Exposures past due 90 days or more or on nonaccrual",
+    "RCRII",
+    "5c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON2081",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions (including foreign central banks)",
+    "RCCI",
+    "7"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON2202",
+    "0",
+    "20261030",
+    "U.S. Government",
+    "RCEI",
+    "2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON2216",
+    "0",
+    "20261030",
+    "Foreign governments and official institutions (including foreign central banks)",
+    "RCEI",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON2377",
+    "0",
+    "20261030",
+    "Foreign governments and official institutions (including foreign central banks)",
+    "RCEI",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON2520",
+    "4750",
+    "20261030",
+    "U.S. Government",
+    "RCEI",
+    "2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON3501",
+    "2143246",
+    "20261030",
+    "Secured by multifamily (5 or more) residential properties in domestic offices",
+    "RCN",
+    "1d"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON8492",
+    "0",
+    "20261030",
+    "U.S. Government agency obligations (exclude mortgage-backed securities)",
+    "RCH",
+    "11"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON8495",
+    "0",
+    "20261030",
+    "U.S. Government agency obligations (exclude mortgage-backed securities)",
+    "RCH",
+    "11"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONG393",
+    "0",
+    "20261030",
+    "Issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCH",
+    "13b1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONG394",
+    "2999",
+    "20261030",
+    "Issued or guaranteed by U.S. Government agencies or sponsored agencies",
+    "RCH",
+    "13b1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONL191",
+    "",
+    "20261030",
+    "For representations and warranties made to U.S. government agencies and government-sponsored agencies",
+    "RCP",
+    "7a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4056",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions",
+    "RI",
+    "1a1e"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4230",
+    "287070",
+    "20261030",
+    "Provisions for credit losses",
+    "RIBII",
+    "5"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4605",
+    "15",
+    "20261030",
+    "Recoveries (column A must equal Part I, item 9, column B, above)",
+    "RIBII",
+    "2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4627",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions",
+    "RIBI",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4635",
+    "362608",
+    "20261030",
+    "Total (sum of items 1 through 8)",
+    "RIBI",
+    "9"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4643",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions",
+    "RIBI",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADB488",
+    "36",
+    "20261030",
+    "U.S. Treasury securities and U.S. Government agency obligations (excluding mortgage-backed securities)",
+    "RI",
+    "1d1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADJJ33",
+    "319000",
+    "20261030",
+    "Provisions for credit losses",
+    "RI",
+    "4"
+  ]
+]

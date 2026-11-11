@@ -1,0 +1,7 @@
+{
+  "url": "https://api.fdic.gov/banks/institutions?filters=ACTIVE%3A1&fields=CERT%2CNAME%2CACTIVE%2CBKCLASS%2CINSAGNT%2CDATEUPDT%2CESTYMD&limit=10000",
+  "retrieved_at": "2026-11-11T20:09:44.135960+00:00",
+  "sha256": "0eb8771165b1bd118a700f6d325b15eed2a379b49a2c36f392bed46cf5c0d95e",
+  "saved_file_sha256": "0eb8771165b1bd118a700f6d325b15eed2a379b49a2c36f392bed46cf5c0d95e",
+  "hash_note": "sha256 is original HTTP response payload; saved_file_sha256 is the preserved file (some responses were JSON-reserialized)."
+}

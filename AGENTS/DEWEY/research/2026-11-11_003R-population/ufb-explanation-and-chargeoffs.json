@@ -1,0 +1,462 @@
+[
+  [
+    "20260930",
+    "391575",
+    "RIAD3584",
+    "0",
+    "20261030",
+    "Secured by farmland in domestic offices",
+    "RIBI",
+    "1b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD3585",
+    "0",
+    "20261030",
+    "Secured by farmland in domestic offices",
+    "RIBI",
+    "1b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD3588",
+    "362453",
+    "20261030",
+    "Secured by multifamily (5 or more) residential properties in domestic offices",
+    "RIBI",
+    "1d"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD3589",
+    "0",
+    "20261030",
+    "Secured by multifamily (5 or more) residential properties in domestic offices",
+    "RIBI",
+    "1d"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4617",
+    "10",
+    "20261030",
+    "To U.S. addressees (domicile)",
+    "RIBI",
+    "4a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4618",
+    "0",
+    "20261030",
+    "To non-U.S. addressees (domicile)",
+    "RIBI",
+    "4b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4627",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions",
+    "RIBI",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4628",
+    "0",
+    "20261030",
+    "All other loans",
+    "RIBI",
+    "7"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4635",
+    "362608",
+    "20261030",
+    "Total (sum of items 1 through 8)",
+    "RIBI",
+    "9"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4643",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions",
+    "RIBI",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4644",
+    "0",
+    "20261030",
+    "All other loans",
+    "RIBI",
+    "7"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4645",
+    "40",
+    "20261030",
+    "To U.S. addressees (domicile)",
+    "RIBI",
+    "4a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4646",
+    "0",
+    "20261030",
+    "To non-U.S. addressees (domicile)",
+    "RIBI",
+    "4b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4652",
+    "0",
+    "20261030",
+    "Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RI-B, part I, item 1, above)",
+    "RIBI",
+    "M2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4655",
+    "0",
+    "20261030",
+    "Loans to finance agricultural production and other loans to farmers",
+    "RIBI",
+    "3"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4662",
+    "0",
+    "20261030",
+    "Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RI-B, part I, item 1, above)",
+    "RIBI",
+    "M2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4665",
+    "0",
+    "20261030",
+    "Loans to finance agricultural production and other loans to farmers",
+    "RIBI",
+    "3"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD5409",
+    "0",
+    "20261030",
+    "Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RI-B, part I, items 4 and 7, above",
+    "RIBI",
+    "M1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD5410",
+    "0",
+    "20261030",
+    "Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RI-B, part I, items 4 and 7, above",
+    "RIBI",
+    "M1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD5411",
+    "0",
+    "20261030",
+    "Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit",
+    "RIBI",
+    "1c1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD5412",
+    "0",
+    "20261030",
+    "Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit",
+    "RIBI",
+    "1c1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADB512",
+    "0",
+    "20261030",
+    "In foreign offices",
+    "RIBI",
+    "1f"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADB513",
+    "0",
+    "20261030",
+    "In foreign offices",
+    "RIBI",
+    "1f"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADB514",
+    "0",
+    "20261030",
+    "Credit cards",
+    "RIBI",
+    "5a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADB515",
+    "0",
+    "20261030",
+    "Credit cards",
+    "RIBI",
+    "5a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC217",
+    "0",
+    "20261030",
+    "Secured by first liens",
+    "RIBI",
+    "1c2a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC218",
+    "0",
+    "20261030",
+    "Secured by junior liens",
+    "RIBI",
+    "1c2b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC234",
+    "30",
+    "20261030",
+    "Secured by first liens",
+    "RIBI",
+    "1c2a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC235",
+    "0",
+    "20261030",
+    "Secured by junior liens",
+    "RIBI",
+    "1c2b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC880",
+    "0",
+    "20261030",
+    "All other leases",
+    "RIBI",
+    "8b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC891",
+    "0",
+    "20261030",
+    "1-4 family residential construction loans",
+    "RIBI",
+    "1a1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC892",
+    "0",
+    "20261030",
+    "1-4 family residential construction loans",
+    "RIBI",
+    "1a1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC893",
+    "0",
+    "20261030",
+    "Other construction loans and all land development and other land loans",
+    "RIBI",
+    "1a2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC894",
+    "0",
+    "20261030",
+    "Other construction loans and all land development and other land loans",
+    "RIBI",
+    "1a2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC895",
+    "0",
+    "20261030",
+    "Loans secured by owner-occupied nonfarm nonresidential properties",
+    "RIBI",
+    "1e1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC896",
+    "0",
+    "20261030",
+    "Loans secured by owner-occupied nonfarm nonresidential properties",
+    "RIBI",
+    "1e1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC897",
+    "0",
+    "20261030",
+    "Loans secured by other nonfarm nonresidential properties",
+    "RIBI",
+    "1e2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADC898",
+    "0",
+    "20261030",
+    "Loans secured by other nonfarm nonresidential properties",
+    "RIBI",
+    "1e2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADF185",
+    "0",
+    "20261030",
+    "Leases to individuals for household, family, and other personal expenditures",
+    "RIBI",
+    "8a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADF187",
+    "0",
+    "20261030",
+    "Leases to individuals for household, family, and other personal expenditures",
+    "RIBI",
+    "8a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADF188",
+    "0",
+    "20261030",
+    "All other leases",
+    "RIBI",
+    "8b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADK129",
+    "0",
+    "20261030",
+    "Automobile loans",
+    "RIBI",
+    "5b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADK133",
+    "0",
+    "20261030",
+    "Automobile loans",
+    "RIBI",
+    "5b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADK205",
+    "85",
+    "20261030",
+    "Other (includes revolving credit plans other than credit cards and other consumer loans)",
+    "RIBI",
+    "5c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADK206",
+    "5",
+    "20261030",
+    "Other (includes revolving credit plans other than credit cards and other consumer loans)",
+    "RIBI",
+    "5c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "TEXT4769",
+    "(1) Included in nonaccrual loans reported in Schedule RC-N \"Secured by multifamily (5 or more) residential properties in domestic offices\" are loans of $2.14 billion accounted for on a nonaccrual cash-basis method. Although reported as nonaccrual, interest income is recognized when cash payments are received. These loans were current prior to being placed on nonaccrual status and may continue to contribute interest income to the Consolidated Report of Income through cash collections.    (2) Other noninterest income in item 5.l of Schedule RI included rent and lease income of $6.9 million.",
+    "20261030",
+    "Other explanations",
+    "RIE",
+    "7b"
+  ]
+]

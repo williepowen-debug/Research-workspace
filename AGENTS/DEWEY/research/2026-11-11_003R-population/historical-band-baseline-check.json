@@ -1,0 +1,70 @@
+{
+  "G1": {
+    "all": {
+      "n": 146,
+      "lower": 58,
+      "percentile": 39.726027397260275
+    },
+    "pre": {
+      "n": 120,
+      "lower": 57,
+      "percentile": 47.5
+    },
+    "post": {
+      "n": 26,
+      "lower": 1,
+      "percentile": 3.8461538461538463
+    }
+  },
+  "G1x": {
+    "all": {
+      "n": 146,
+      "lower": 66,
+      "percentile": 45.205479452054796
+    },
+    "pre": {
+      "n": 120,
+      "lower": 65,
+      "percentile": 54.166666666666664
+    },
+    "post": {
+      "n": 26,
+      "lower": 1,
+      "percentile": 3.8461538461538463
+    }
+  },
+  "G1r": {
+    "all": {
+      "n": 146,
+      "lower": 70,
+      "percentile": 47.945205479452056
+    },
+    "pre": {
+      "n": 120,
+      "lower": 66,
+      "percentile": 55.0
+    },
+    "post": {
+      "n": 26,
+      "lower": 4,
+      "percentile": 15.384615384615385
+    }
+  },
+  "G2": {
+    "all": {
+      "n": 146,
+      "lower": 77,
+      "percentile": 52.73972602739726
+    },
+    "pre": {
+      "n": 120,
+      "lower": 75,
+      "percentile": 62.5
+    },
+    "post": {
+      "n": 26,
+      "lower": 2,
+      "percentile": 7.6923076923076925
+    }
+  }
+}

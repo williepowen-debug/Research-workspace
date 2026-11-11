@@ -1,10 +1,14 @@
 # Rising bad loans with falling reserve coverage: does it predict bank losses?
 
+> **Latest November 11 continuation:** `output/2026-11-11_003R-full-population-refresh.md` completes the full Q3 population and current-placement leg. Larger-band QoQ trigger OFF; smaller-band result requires the United Fidelity cash-basis/concentration qualification. Exact EagleBank bridge remains UNKNOWN. Historical tables below retain their stated vintage.
+
 > **November 11 continuation:** `output/2026-11-11_003R-six-bank-refresh-partial.md` verifies Q3 for the original six banks and updates the EGBN/VLY definition discussion. The old approximate VLY 131% to 117% relay is not reproduced and must not be reused as a verified series. Full-band rerun and exact EGBN residual remain open. Historical Q2 tables below retain their vintage.
 
 **Date:** 2026-10-22 | **Mode:** Thesis | **Confidence:** (a) hit rate: Medium on the data, Low on generalising it (n ≈ 10 episodes from about 3 real loss cycles) · (b) size of the rise: Medium · (c) cross-section: Medium-High for 2007–10, Low for 2015–16 · today's placement: Medium (Q2-2026 call reports only; Q3 not yet filed; CECL break) · collateral record: Medium (based on failed banks) | **Request:** REQ-DEWEY-20261022-003 (WALTER) | **Recipients:** REGINALD (action); GIBBS, CREED, WAL, OZK, FLG, RED, PROME (info)
 
 ## Key Finding
+
+**Historical snapshot:** “today,” “live” and “unresolved” below describe the original October 22 research vintage, ending at June 2026. The November 11 continuation linked above supplies the current Q3 population update; the original tables are retained for reproducibility.
 
 From 1984 to 2026, in the $10–100B bank band, the combined pattern (problem-loan ratio up while allowance ÷ noncurrent loans falls, year over year) was followed by a material charge-off rise (≥25bp annualised) within 4 quarters in **2 of 10 episodes. Across all quarters, the rate was 41/166 (25%)**. So the pattern shows no lift at the 2–4 quarter horizon asked about. It shows modest lift only at 8 quarters: 5/10 vs 36% for charge-offs, and 7/10 vs 49% for provisions. Every one of those charge-off hits came from a pre-CECL episode, and the result rests on about 3 loss cycles. At the bank level in 2007–10 (n = 373), the banks whose coverage fell most did **not** take the largest later losses (ρ = −0.064, p ≈ 0.21). The largest-decline quintile had the *lowest* failure rate, 5.6%. The rise in problem loans carried the signal instead (ρ ≈ +0.46). Today the aggregate trigger has been on for **10 straight quarters (2024Q1–2026Q2) while charge-offs stayed flat (0.35% → 0.36%)**. That episode is unresolved. CECL, the 2020-era reserve standard, lifts every post-2020 coverage level, so comparisons with pre-2020 history overstate today's cushion.
 

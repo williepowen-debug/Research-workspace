@@ -1,6 +1,20 @@
 # DEWEY research continuity — November 11, 2026
 
-## Latest closeout — reboot from here
+## Latest research closeout — read this first
+
+The full Q3 population research is complete and the download has stopped normally. Canonical report: `output/2026-11-11_003R-full-population-refresh.md`. All 4,267 filed reporters reconciled; raw-source integrity and archive checks passed. The 146-quarter historical comparison reproduces the original benchmarks. No subagents, live collection process or new watcher remains.
+
+**What changed:** G1 ($10–100 billion) QoQ trigger OFF, YoY ON. G2 ($1–10 billion) weakens, but United Fidelity accounts for 69.1% of its noncurrent dollar increase. Its TEXT4769 says the roughly $2.14 billion multifamily portfolio was current before entering nonaccrual cash-basis treatment; significant multifamily charge-offs are also reported. Both facts and the exclusion sensitivity must travel. Exact underlying reason for the treatment change remains UNKNOWN. Full current-Q3 six-bank placement now uses 1,012 eligible banks.
+
+**Still unknown:** the exact EagleBank RC-N / RC-R / issuer reconciliation; the prior $135K/$167K residual and zero HFS memo remain unresolved. Do not revive the old Valley relay. The full-population residual is delivered; do not rerun it merely because EagleBank's undisclosed bridge remains unknown. No new deadline or monitoring proposal.
+
+**Plaza additional work is complete:** `output/2026-11-11_plaza-marketing-and-document-limits.md`, pushed in `0fc52a1968`. Broker reports 31% occupancy / 114,505 SF / Best Offer. No sale price, current NOI, recovery, or plan/DS text obtained. The existing November 16 pre-check / November 17 cash-collateral hearing remain distinct. Earlier Capital One/Citi and helper-maintenance closeouts remain complete.
+
+Named Q3 recipient pointers plus WALTER/PROME packets are written. PROME has a verified idle Codex task for a post-commit coordination pointer; other presence and all consumption remain unverified. Final Git receipt and closeout checks are recorded below after commit/push. The evidence is under `research/2026-11-11_003R-population/`, with a durable method and verified compressed source archives; scratch scripts are not report dependencies.
+
+---
+
+## Earlier closeout — historical session record
 
 **Session closed at Will's explicit request after research and housekeeping.** Everything below this section is dated session history; earlier open-housekeeping statements are superseded here. Runtime: OpenAI Codex, exact model UNKNOWN. No subagents were launched, and all session-owned tool processes finished. No background research remains running.
 
@@ -57,3 +71,11 @@ Will requested boot only. Runtime OpenAI Codex (GPT-6 family; exact model UNKNOW
 ## Subsequent research authorized by Will
 
 Will requested the next research. Resumed 003R: fresh bulk/FDIC checks and two EagleBank filings, current reporting instructions and issuer-category comparison. Result: output/2026-11-11_003R-source-and-definition-check.md. No figure change or exact bridge; full-population Q3 remains uncomputed. November 16 obligations remain; no new watcher or schedule. Raw responses preserved in research/2026-11-11_003R-next-pass/.
+
+## Active full-population pass — 2026-11-11, supersedes earlier closed-process status
+
+Will asked to investigate remaining obtainable evidence. Plaza additional report `output/2026-11-11_plaza-marketing-and-document-limits.md` is delivered and pushed in `0fc52a1968`: broker directly reports31% occupancy /114505SF /Best Offer; no economics or plan/DS text. Named pointers committed; no verified live recipient / consumption.
+
+**Research RUNNING:** full FFIEC Q3 extraction launched at20:00UTC, shell session21164, `/tmp/dewey_population_pull.py`. 4267 filed banks,1.55sec request spacing; raw compressed SDF and manifest in `research/2026-11-11_003R-population/`. At20:11UTC >400 retrieved. Do not call the population complete or launch a duplicate. Current helper stops on HTTP failure and caches successfully retrieved RSSDs. No subagents.
+
+Fresh FDIC Q2/Q3-2025 and preceding-quarter baselines saved; June G1/G1x/G1r/G2 figures reproduce original. Analysis scratch `/tmp/dewey_analyze_population.py`; raw integrity check `/tmp/dewey_validate_sdf.py`. These scratch paths are recovery aids, not permanent report dependencies. Formula detail must be preserved in final report. Use RIADJJ33 for FDIC ELNATR; EagleBank June proves4230 differs. G1x retains zero-loan/zero-card bank so count122 reproduces. Current-quarter aggregate and placement files are emitted ONLY when all filed RSSDs reconcile. New uninsured trust bank classifications checked with NIC/OCC; Paxos is sole unfiled, uninsured. Still verify final eligibility/flow exclusions and all-source integrity before claiming completion. Compress/package evidence before pathspec commit; manifest may grow large. No automatic watcher or new helper build authorized.

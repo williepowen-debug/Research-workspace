@@ -1,0 +1,1482 @@
+[
+  [
+    "20260930",
+    "391575",
+    "RCFD1248",
+    "0",
+    "20261030",
+    "Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RC-N, item 1, above)",
+    "RCN",
+    "M3"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1249",
+    "0",
+    "20261030",
+    "Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RC-N, item 1, above)",
+    "RCN",
+    "M3"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1250",
+    "0",
+    "20261030",
+    "Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RC-N, item 1, above)",
+    "RCN",
+    "M3"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1251",
+    "11968",
+    "20261030",
+    "To U.S. addressees (domicile)",
+    "RCN",
+    "4a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1252",
+    "0",
+    "20261030",
+    "To U.S. addressees (domicile)",
+    "RCN",
+    "4a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1253",
+    "83",
+    "20261030",
+    "To U.S. addressees (domicile)",
+    "RCN",
+    "4a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1254",
+    "0",
+    "20261030",
+    "To non-U.S. addressees (domicile)",
+    "RCN",
+    "4b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1255",
+    "0",
+    "20261030",
+    "To non-U.S. addressees (domicile)",
+    "RCN",
+    "4b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1256",
+    "0",
+    "20261030",
+    "To non-U.S. addressees (domicile)",
+    "RCN",
+    "4b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1403",
+    "2159092",
+    "20261030",
+    "Total loans and leases (sum of items 1 through 8.b)",
+    "RCN",
+    "9"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1406",
+    "16030",
+    "20261030",
+    "Total loans and leases (sum of items 1 through 8.b)",
+    "RCN",
+    "9"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1407",
+    "1704",
+    "20261030",
+    "Total loans and leases (sum of items 1 through 8.b)",
+    "RCN",
+    "9"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1583",
+    "0",
+    "20261030",
+    "Loans to finance agricultural production and other loans to farmers",
+    "RCN",
+    "3"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1594",
+    "0",
+    "20261030",
+    "Loans to finance agricultural production and other loans to farmers",
+    "RCN",
+    "3"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD1597",
+    "0",
+    "20261030",
+    "Loans to finance agricultural production and other loans to farmers",
+    "RCN",
+    "3"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD2122",
+    "3059390",
+    "20261030",
+    "Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)",
+    "RCCI",
+    "12"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD3123",
+    "6323",
+    "20261030",
+    "LESS: Allowance for credit losses on loans and leases",
+    "RCRII",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD3505",
+    "0",
+    "20261030",
+    "Debt securities and other assets (exclude other real estate owned and other repossessed assets)",
+    "RCN",
+    "10"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD3506",
+    "0",
+    "20261030",
+    "Debt securities and other assets (exclude other real estate owned and other repossessed assets)",
+    "RCN",
+    "10"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD3507",
+    "0",
+    "20261030",
+    "Debt securities and other assets (exclude other real estate owned and other repossessed assets)",
+    "RCN",
+    "10"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD3529",
+    "0",
+    "20261030",
+    "Derivative contracts: Fair value of amounts carried as assets",
+    "RCN",
+    "M6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD3530",
+    "0",
+    "20261030",
+    "Derivative contracts: Fair value of amounts carried as assets",
+    "RCN",
+    "M6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5377",
+    "0",
+    "20261030",
+    "To U.S. banks and other U.S. depository institutions",
+    "RCN",
+    "2a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5378",
+    "0",
+    "20261030",
+    "To U.S. banks and other U.S. depository institutions",
+    "RCN",
+    "2a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5379",
+    "0",
+    "20261030",
+    "To U.S. banks and other U.S. depository institutions",
+    "RCN",
+    "2a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5380",
+    "0",
+    "20261030",
+    "To foreign banks",
+    "RCN",
+    "2b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5381",
+    "0",
+    "20261030",
+    "To foreign banks",
+    "RCN",
+    "2b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5382",
+    "0",
+    "20261030",
+    "To foreign banks",
+    "RCN",
+    "2b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5389",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions",
+    "RCN",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5390",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions",
+    "RCN",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5391",
+    "0",
+    "20261030",
+    "Loans to foreign governments and official institutions",
+    "RCN",
+    "6"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5459",
+    "0",
+    "20261030",
+    "All other loans",
+    "RCN",
+    "7"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5460",
+    "0",
+    "20261030",
+    "All other loans",
+    "RCN",
+    "7"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD5461",
+    "0",
+    "20261030",
+    "All other loans",
+    "RCN",
+    "7"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD6558",
+    "11968",
+    "20261030",
+    "Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-N, items 4 and 7, above",
+    "RCN",
+    "M2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD6559",
+    "0",
+    "20261030",
+    "Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-N, items 4 and 7, above",
+    "RCN",
+    "M2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFD6560",
+    "0",
+    "20261030",
+    "Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-N, items 4 and 7, above",
+    "RCN",
+    "M2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDB575",
+    "0",
+    "20261030",
+    "Credit cards",
+    "RCN",
+    "5a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDB576",
+    "0",
+    "20261030",
+    "Credit cards",
+    "RCN",
+    "5a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDB577",
+    "0",
+    "20261030",
+    "Credit cards",
+    "RCN",
+    "5a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDC226",
+    "0",
+    "20261030",
+    "Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)",
+    "RCN",
+    "M5"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDC240",
+    "0",
+    "20261030",
+    "Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)",
+    "RCN",
+    "M5"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDC241",
+    "0",
+    "20261030",
+    "Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)",
+    "RCN",
+    "M5"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDF166",
+    "0",
+    "20261030",
+    "Leases to individuals for household, family, and other personal expenditures",
+    "RCN",
+    "8a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDF167",
+    "0",
+    "20261030",
+    "Leases to individuals for household, family, and other personal expenditures",
+    "RCN",
+    "8a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDF168",
+    "0",
+    "20261030",
+    "Leases to individuals for household, family, and other personal expenditures",
+    "RCN",
+    "8a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDF169",
+    "0",
+    "20261030",
+    "All other leases",
+    "RCN",
+    "8b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDF170",
+    "0",
+    "20261030",
+    "All other leases",
+    "RCN",
+    "8b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDF171",
+    "0",
+    "20261030",
+    "All other leases",
+    "RCN",
+    "8b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDHK26",
+    "0",
+    "20261030",
+    "Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, above (sum of items Memorandum item 1.a.(1) through Memorandum item 1.f)",
+    "RCN",
+    "M1g"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDHK27",
+    "0",
+    "20261030",
+    "Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, above (sum of items Memorandum item 1.a.(1) through Memorandum item 1.f)",
+    "RCN",
+    "M1g"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDHK28",
+    "11325",
+    "20261030",
+    "Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, above (sum of items Memorandum item 1.a.(1) through Memorandum item 1.f)",
+    "RCN",
+    "M1g"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK036",
+    "0",
+    "20261030",
+    "Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:",
+    "RCN",
+    "11"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK037",
+    "0",
+    "20261030",
+    "Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:",
+    "RCN",
+    "11"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK038",
+    "0",
+    "20261030",
+    "Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:",
+    "RCN",
+    "11"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK039",
+    "0",
+    "20261030",
+    "Guaranteed portion of loans and leases included in item 11 above, excluding rebooked \"GNMA loans\"",
+    "RCN",
+    "11a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK040",
+    "0",
+    "20261030",
+    "Guaranteed portion of loans and leases included in item 11 above, excluding rebooked \"GNMA loans\"",
+    "RCN",
+    "11a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK041",
+    "0",
+    "20261030",
+    "Guaranteed portion of loans and leases included in item 11 above, excluding rebooked \"GNMA loans\"",
+    "RCN",
+    "11a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK042",
+    "0",
+    "20261030",
+    "Rebooked \"GNMA loans\" that have been repurchased or are eligible for repurchase included in item 11 above",
+    "RCN",
+    "11b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK043",
+    "0",
+    "20261030",
+    "Rebooked \"GNMA loans\" that have been repurchased or are eligible for repurchase included in item 11 above",
+    "RCN",
+    "11b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK044",
+    "0",
+    "20261030",
+    "Rebooked \"GNMA loans\" that have been repurchased or are eligible for repurchase included in item 11 above",
+    "RCN",
+    "11b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK102",
+    "0",
+    "20261030",
+    "Portion of covered loans and leases reported in item 9 above that is protected by loss-sharing agreements with the FDIC",
+    "RCN",
+    "12"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK103",
+    "0",
+    "20261030",
+    "Portion of covered loans and leases reported in item 9 above that is protected by loss-sharing agreements with the FDIC",
+    "RCN",
+    "12"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK104",
+    "0",
+    "20261030",
+    "Portion of covered loans and leases reported in item 9 above that is protected by loss-sharing agreements with the FDIC",
+    "RCN",
+    "12"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK120",
+    "0",
+    "20261030",
+    "To U.S. addressees (domicile)",
+    "RCN",
+    "M1e1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK121",
+    "0",
+    "20261030",
+    "To U.S. addressees (domicile)",
+    "RCN",
+    "M1e1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK122",
+    "0",
+    "20261030",
+    "To U.S. addressees (domicile)",
+    "RCN",
+    "M1e1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK123",
+    "0",
+    "20261030",
+    "To non-U.S. addressees (domicile)",
+    "RCN",
+    "M1e2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK124",
+    "0",
+    "20261030",
+    "To non-U.S. addressees (domicile)",
+    "RCN",
+    "M1e2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK125",
+    "0",
+    "20261030",
+    "To non-U.S. addressees (domicile)",
+    "RCN",
+    "M1e2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK126",
+    "0",
+    "20261030",
+    "All other loans (include loans to individuals for household, family, and other personal expenditures)",
+    "RCN",
+    "M1f"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK127",
+    "0",
+    "20261030",
+    "All other loans (include loans to individuals for household, family, and other personal expenditures)",
+    "RCN",
+    "M1f"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK128",
+    "11325",
+    "20261030",
+    "All other loans (include loans to individuals for household, family, and other personal expenditures)",
+    "RCN",
+    "M1f"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK138",
+    "0",
+    "20261030",
+    "Loans to finance agricultural production and other loans to farmers",
+    "RCN",
+    "M1f3"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK139",
+    "0",
+    "20261030",
+    "Loans to finance agricultural production and other loans to farmers",
+    "RCN",
+    "M1f3"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK140",
+    "0",
+    "20261030",
+    "Loans to finance agricultural production and other loans to farmers",
+    "RCN",
+    "M1f3"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK213",
+    "1",
+    "20261030",
+    "Automobile loans",
+    "RCN",
+    "5b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK214",
+    "2",
+    "20261030",
+    "Automobile loans",
+    "RCN",
+    "5b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK215",
+    "0",
+    "20261030",
+    "Automobile loans",
+    "RCN",
+    "5b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK216",
+    "12",
+    "20261030",
+    "Other (includes revolving credit plans other than credit cards and other consumer loans)",
+    "RCN",
+    "5c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK217",
+    "0",
+    "20261030",
+    "Other (includes revolving credit plans other than credit cards and other consumer loans)",
+    "RCN",
+    "5c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK218",
+    "0",
+    "20261030",
+    "Other (includes revolving credit plans other than credit cards and other consumer loans)",
+    "RCN",
+    "5c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK274",
+    "0",
+    "20261030",
+    "Credit cards",
+    "RCN",
+    "M1f4a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK275",
+    "0",
+    "20261030",
+    "Credit cards",
+    "RCN",
+    "M1f4a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK276",
+    "0",
+    "20261030",
+    "Credit cards",
+    "RCN",
+    "M1f4a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK277",
+    "0",
+    "20261030",
+    "Automobile loans",
+    "RCN",
+    "M1f4b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK278",
+    "0",
+    "20261030",
+    "Automobile loans",
+    "RCN",
+    "M1f4b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK279",
+    "0",
+    "20261030",
+    "Automobile loans",
+    "RCN",
+    "M1f4b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK280",
+    "0",
+    "20261030",
+    "Other (includes revolving credit plans other than credit cards and other consumer loans)",
+    "RCN",
+    "M1f4c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK281",
+    "0",
+    "20261030",
+    "Other (includes revolving credit plans other than credit cards and other consumer loans)",
+    "RCN",
+    "M1f4c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDK282",
+    "0",
+    "20261030",
+    "Other (includes revolving credit plans other than credit cards and other consumer loans)",
+    "RCN",
+    "M1f4c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDPV23",
+    "0",
+    "20261030",
+    "Loans to nondepository financial institutions included in Schedule RC-N, item 7",
+    "RCN",
+    "M9"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDPV24",
+    "0",
+    "20261030",
+    "Loans to nondepository financial institutions included in Schedule RC-N, item 7",
+    "RCN",
+    "M9"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFDPV25",
+    "0",
+    "20261030",
+    "Loans to nondepository financial institutions included in Schedule RC-N, item 7",
+    "RCN",
+    "M9"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFNB572",
+    "1357",
+    "20261030",
+    "In foreign offices",
+    "RCN",
+    "1f"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFNB573",
+    "300",
+    "20261030",
+    "In foreign offices",
+    "RCN",
+    "1f"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCFNB574",
+    "12745",
+    "20261030",
+    "In foreign offices",
+    "RCN",
+    "1f"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON3493",
+    "3",
+    "20261030",
+    "Secured by farmland in domestic offices",
+    "RCN",
+    "1b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON3494",
+    "0",
+    "20261030",
+    "Secured by farmland in domestic offices",
+    "RCN",
+    "1b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON3495",
+    "0",
+    "20261030",
+    "Secured by farmland in domestic offices",
+    "RCN",
+    "1b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON3499",
+    "0",
+    "20261030",
+    "Secured by multifamily (5 or more) residential properties in domestic offices",
+    "RCN",
+    "1d"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON3500",
+    "0",
+    "20261030",
+    "Secured by multifamily (5 or more) residential properties in domestic offices",
+    "RCN",
+    "1d"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON3501",
+    "2143246",
+    "20261030",
+    "Secured by multifamily (5 or more) residential properties in domestic offices",
+    "RCN",
+    "1d"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON5398",
+    "0",
+    "20261030",
+    "Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit",
+    "RCN",
+    "1c1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON5399",
+    "0",
+    "20261030",
+    "Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit",
+    "RCN",
+    "1c1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCON5400",
+    "0",
+    "20261030",
+    "Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit",
+    "RCN",
+    "1c1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONC229",
+    "1236",
+    "20261030",
+    "Secured by first liens",
+    "RCN",
+    "1c2a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONC230",
+    "58",
+    "20261030",
+    "Secured by junior liens",
+    "RCN",
+    "1c2b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONC236",
+    "2673",
+    "20261030",
+    "Secured by first liens",
+    "RCN",
+    "1c2a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONC237",
+    "1336",
+    "20261030",
+    "Secured by first liens",
+    "RCN",
+    "1c2a"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONC238",
+    "0",
+    "20261030",
+    "Secured by junior liens",
+    "RCN",
+    "1c2b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONC239",
+    "48",
+    "20261030",
+    "Secured by junior liens",
+    "RCN",
+    "1c2b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF172",
+    "0",
+    "20261030",
+    "1-4 family residential construction loans",
+    "RCN",
+    "1a1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF173",
+    "0",
+    "20261030",
+    "Other construction loans and all land development and other land loans",
+    "RCN",
+    "1a2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF174",
+    "0",
+    "20261030",
+    "1-4 family residential construction loans",
+    "RCN",
+    "1a1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF175",
+    "0",
+    "20261030",
+    "Other construction loans and all land development and other land loans",
+    "RCN",
+    "1a2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF176",
+    "0",
+    "20261030",
+    "1-4 family residential construction loans",
+    "RCN",
+    "1a1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF177",
+    "0",
+    "20261030",
+    "Other construction loans and all land development and other land loans",
+    "RCN",
+    "1a2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF178",
+    "16",
+    "20261030",
+    "Loans secured by owner-occupied nonfarm nonresidential properties",
+    "RCN",
+    "1e1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF179",
+    "0",
+    "20261030",
+    "Loans secured by other nonfarm nonresidential properties",
+    "RCN",
+    "1e2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF180",
+    "0",
+    "20261030",
+    "Loans secured by owner-occupied nonfarm nonresidential properties",
+    "RCN",
+    "1e1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF181",
+    "18",
+    "20261030",
+    "Loans secured by other nonfarm nonresidential properties",
+    "RCN",
+    "1e2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF182",
+    "723",
+    "20261030",
+    "Loans secured by owner-occupied nonfarm nonresidential properties",
+    "RCN",
+    "1e1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF183",
+    "1001",
+    "20261030",
+    "Loans secured by other nonfarm nonresidential properties",
+    "RCN",
+    "1e2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF661",
+    "0",
+    "20261030",
+    "Loans secured by 1-4 family residential properties in domestic offices",
+    "RCN",
+    "M1b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF662",
+    "0",
+    "20261030",
+    "Loans secured by 1-4 family residential properties in domestic offices",
+    "RCN",
+    "M1b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONF663",
+    "0",
+    "20261030",
+    "Loans secured by 1-4 family residential properties in domestic offices",
+    "RCN",
+    "M1b"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK105",
+    "0",
+    "20261030",
+    "1-4 family residential construction loans",
+    "RCN",
+    "M1a1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK106",
+    "0",
+    "20261030",
+    "1-4 family residential construction loans",
+    "RCN",
+    "M1a1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK107",
+    "0",
+    "20261030",
+    "1-4 family residential construction loans",
+    "RCN",
+    "M1a1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK108",
+    "0",
+    "20261030",
+    "Other construction loans and all land development and other land loans",
+    "RCN",
+    "M1a2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK109",
+    "0",
+    "20261030",
+    "Other construction loans and all land development and other land loans",
+    "RCN",
+    "M1a2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK110",
+    "0",
+    "20261030",
+    "Other construction loans and all land development and other land loans",
+    "RCN",
+    "M1a2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK111",
+    "0",
+    "20261030",
+    "Secured by multifamily (5 or more) residential properties in domestic offices",
+    "RCN",
+    "M1c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK112",
+    "0",
+    "20261030",
+    "Secured by multifamily (5 or more) residential properties in domestic offices",
+    "RCN",
+    "M1c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK113",
+    "0",
+    "20261030",
+    "Secured by multifamily (5 or more) residential properties in domestic offices",
+    "RCN",
+    "M1c"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK114",
+    "0",
+    "20261030",
+    "Loans secured by owner-occupied nonfarm nonresidential properties",
+    "RCN",
+    "M1d1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK115",
+    "0",
+    "20261030",
+    "Loans secured by owner-occupied nonfarm nonresidential properties",
+    "RCN",
+    "M1d1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK116",
+    "0",
+    "20261030",
+    "Loans secured by owner-occupied nonfarm nonresidential properties",
+    "RCN",
+    "M1d1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK117",
+    "0",
+    "20261030",
+    "Loans secured by other nonfarm nonresidential properties",
+    "RCN",
+    "M1d2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK118",
+    "0",
+    "20261030",
+    "Loans secured by other nonfarm nonresidential properties",
+    "RCN",
+    "M1d2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK119",
+    "0",
+    "20261030",
+    "Loans secured by other nonfarm nonresidential properties",
+    "RCN",
+    "M1d2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK130",
+    "0",
+    "20261030",
+    "Loans secured by farmland in domestic offices",
+    "RCN",
+    "M1f1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK131",
+    "0",
+    "20261030",
+    "Loans secured by farmland in domestic offices",
+    "RCN",
+    "M1f1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RCONK132",
+    "0",
+    "20261030",
+    "Loans secured by farmland in domestic offices",
+    "RCN",
+    "M1f1"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4605",
+    "15",
+    "20261030",
+    "Recoveries (column A must equal Part I, item 9, column B, above)",
+    "RIBII",
+    "2"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIAD4635",
+    "362608",
+    "20261030",
+    "Total (sum of items 1 through 8)",
+    "RIBI",
+    "9"
+  ],
+  [
+    "20260930",
+    "391575",
+    "RIADJJ33",
+    "319000",
+    "20261030",
+    "Provisions for credit losses",
+    "RI",
+    "4"
+  ]
+]

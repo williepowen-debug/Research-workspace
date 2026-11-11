@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-11-11T22:07:58.522601+00:00",
+  "call_report_members": 4267,
+  "historical_members": 146,
+  "manifest_roundtrip": true,
+  "all_original_content_hashes_match": true,
+  "archives": {
+    "call-reports-sdf.tar.gz": {
+      "bytes": 64005017,
+      "sha256": "9681db7a6331adaaabbcf409203392422f7862557c06a911617bf114ea17b960"
+    },
+    "manifest.jsonl.gz": {
+      "bytes": 8685012,
+      "sha256": "74981dba1dafc4d7a160e2672a39e82112de8ee318116ba93cc76a673af69e67"
+    },
+    "history-json.tar.gz": {
+      "bytes": 5021726,
+      "sha256": "f7f9587abfc1276754714ed7331f7f5f96f461163bd81272d35b37ba8aa9c55b"
+    }
+  }
+}

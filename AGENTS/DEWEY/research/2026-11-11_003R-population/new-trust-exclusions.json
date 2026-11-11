@@ -1,0 +1,52 @@
+[
+  {
+    "rssd": 6057323,
+    "cert": 91407,
+    "name": "First National Digital Currency Bank",
+    "source": "https://www.ffiec.gov/npw/Institution/Profile/6057323",
+    "accessed": "2026-11-11",
+    "observed_institution_type": "Non-deposit Trust Company",
+    "observed_insurance": "NOT INSURED OR NOT AVAIL.",
+    "analytical_exclusion": "NC-equivalent uninsured trust; absent from active insured FDIC institution population"
+  },
+  {
+    "rssd": 6060819,
+    "cert": 91403,
+    "name": "BitGo",
+    "source": "https://www.ffiec.gov/npw/Institution/Profile/6060819",
+    "accessed": "2026-11-11",
+    "observed_institution_type": "Non-deposit Trust Company",
+    "observed_insurance": "NOT INSURED OR NOT AVAIL.",
+    "analytical_exclusion": "NC-equivalent uninsured trust; absent from active insured FDIC institution population"
+  },
+  {
+    "rssd": 6075626,
+    "cert": 91405,
+    "name": "OneSource Virtual Trust",
+    "source": "https://www.ffiec.gov/npw/Institution/Profile/6075626",
+    "accessed": "2026-11-11",
+    "observed_institution_type": "Non-deposit Trust Company",
+    "observed_insurance": "NOT INSURED OR NOT AVAIL.",
+    "analytical_exclusion": "NC-equivalent uninsured trust; absent from active insured FDIC institution population"
+  },
+  {
+    "rssd": 6099154,
+    "cert": 91406,
+    "name": "Fidelity Digital Assets",
+    "source": "https://www.ffiec.gov/npw/Institution/Profile/6099154",
+    "accessed": "2026-11-11",
+    "observed_institution_type": "Non-deposit Trust Company",
+    "observed_insurance": "NOT INSURED OR NOT AVAIL.",
+    "analytical_exclusion": "NC-equivalent uninsured trust; absent from active insured FDIC institution population"
+  },
+  {
+    "rssd": 6099145,
+    "cert": 91404,
+    "name": "Paxos",
+    "source": "https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-125e.pdf",
+    "accessed": "2026-11-11",
+    "source_date": "2025-12-12",
+    "evidence": "OCC conversion approval: bank will not take deposits and will not be FDIC insured; charter25379 matches current FFIEC panel",
+    "analytical_exclusion": "sole unfiled; outside insured-bank universe"
+  }
+]

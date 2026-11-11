@@ -1,0 +1,18 @@
+{
+  "reporting_period": "2026-09-30",
+  "filed_reporters": 4267,
+  "first_file_retrieved_at": "2026-11-11T20:00:04.911293+00:00",
+  "last_file_retrieved_at": "2026-11-11T22:02:15.471797+00:00",
+  "panel_saved_sha256": "c734d03233a3de786aa7eb098827c41db7875b14e689e4a9229bdd42292cbc7b",
+  "source": "https://ffieccdr.azure-api.us/public",
+  "api_methods": [
+    "RetrievePanelOfReporters",
+    "RetrieveFacsimile"
+  ],
+  "format": "SDF",
+  "minimum_spacing_seconds": 1.55,
+  "fdic_q3_rows": 0,
+  "fred_source": "https://fred.stlouisfed.org/series/GDPDEF",
+  "fred_retrieved_on": "2026-11-11",
+  "fred_saved_sha256": "4186b5bab0ca1bc8258dbbaf4d4d1197f26618a1afd5e984e899060e861b2bcf"
+}

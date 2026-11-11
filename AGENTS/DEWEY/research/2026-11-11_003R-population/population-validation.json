@@ -1,0 +1,24 @@
+{
+  "run_at": "2026-11-11T22:02:21.062114+00:00",
+  "panel": 4268,
+  "filed": 4267,
+  "retrieved": 4267,
+  "unique": 4267,
+  "missing": [],
+  "unexpected": [],
+  "issues": [],
+  "field_sources": {
+    "RCON2170": 4186,
+    "RCON2122": 4186,
+    "RCON3123": 4186,
+    "RCON1403": 4186,
+    "RCON1407": 4186,
+    "RCONB538": 4186,
+    "RCFD2170": 81,
+    "RCFD2122": 81,
+    "RCFD3123": 81,
+    "RCFD1403": 81,
+    "RCFD1407": 81,
+    "RCFDB538": 81
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20250930&fields=CERT%2CNAME%2CREPDTE%2CBKCLASS%2CASSET%2CLNATRES%2CNCLNLS%2CNALNLS%2CP9LNLS%2CNTLNLS%2CNTLNLSQ%2CELNATR%2CELNATQ%2CLNLSGR%2CLNCRCD&limit=10000",
+  "retrieved_at": "2026-11-11T20:02:15.246731+00:00",
+  "sha256": "b7badfc012630afef6ed484b9e0d244b152af6c254077ed5840cf6cc87ce2261",
+  "total": 4452,
+  "saved_file_sha256": "23426d020aacf2b4a95cf6d555fcc96992a90f048b5c39c9c0eaa45099718141",
+  "hash_note": "sha256 is original HTTP response payload; saved_file_sha256 is the preserved file (some responses were JSON-reserialized)."
+}

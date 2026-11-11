@@ -1,5 +1,7 @@
 # Q3 bank comparison: source check and EagleBank definition test
 
+> **Latest November 11 continuation:** `output/2026-11-11_003R-full-population-refresh.md` completes the full Q3 population and current-placement leg. Larger-band QoQ trigger OFF; smaller-band result requires the United Fidelity cash-basis/concentration qualification. Exact EagleBank bridge remains UNKNOWN. Historical tables below retain their stated vintage.
+
 **Date:** 2026-11-11 | **Mode:** Thesis | **Commission:** REQ-DEWEY-20261022-003R / L1119 | **State:** PARTIAL | **Confidence:** High on retrieved cells; UNKNOWN on unexplained difference.
 
 ## Key finding

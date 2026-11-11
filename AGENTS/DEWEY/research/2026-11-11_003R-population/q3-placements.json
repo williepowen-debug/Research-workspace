@@ -1,0 +1,50 @@
+[
+  {
+    "cert": 33555,
+    "name": "SOUTHSTATE BANK, N.A.",
+    "coverage_pct": 199.65758533244735,
+    "n": 1012,
+    "lower": 512,
+    "percentile": 50.59288537549407
+  },
+  {
+    "cert": 9396,
+    "name": "VALLEY NATIONAL BANK",
+    "coverage_pct": 109.74992529155207,
+    "n": 1012,
+    "lower": 271,
+    "percentile": 26.778656126482215
+  },
+  {
+    "cert": 6560,
+    "name": "HUNTINGTON NATIONAL BANK, THE",
+    "coverage_pct": 148.58546770498637,
+    "n": 1012,
+    "lower": 401,
+    "percentile": 39.62450592885376
+  },
+  {
+    "cert": 34742,
+    "name": "EAGLEBANK",
+    "coverage_pct": 67.20434893891677,
+    "n": 1012,
+    "lower": 125,
+    "percentile": 12.351778656126482
+  },
+  {
+    "cert": 58979,
+    "name": "BANKUNITED, NATIONAL ASSOCIATION",
+    "coverage_pct": 50.91975877742551,
+    "n": 1012,
+    "lower": 74,
+    "percentile": 7.312252964426878
+  },
+  {
+    "cert": 2270,
+    "name": "ZIONS BANCORPORATION, NATIONAL ASSOCIATION",
+    "coverage_pct": 204.28010765100075,
+    "n": 1012,
+    "lower": 523,
+    "percentile": 51.6798418972332
+  }
+]
