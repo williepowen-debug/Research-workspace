@@ -2,7 +2,7 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-11-10T17:38:23-05:00 | **STATUS commit:** 87f5935513
+**As of:** 2026-11-10T19:33:17-05:00 | **STATUS commit:** 87f5935513
 **Variant:** FULL. Desktop session 11/10 (PROME prome-07 launch): VULCAN-188 HIT, VULCAN-191 MISS; SoftBank investigation, AI-buildout leg, on Will's word 17:18 ET (`reports/2026-11-10_softbank/REPORT.md`). No letter fired.
 
 ## CROSS-DOMAIN
