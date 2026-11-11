@@ -56,4 +56,13 @@ Kuwait                              2,411      2,470      2,105       926      1
 Libya                               1,136      1,372      1,322     1,389      1,393      1,397       1,391       1,402         11
 Nigeria                             1,345      1,432      1,388     1,525      1,512      1,500       1,530       1,513        -16
 Saudi Arabia                        8,955      9,480      9,298     6,844      7,504     7,122*      7,988*      9,203*      1,215
+UAE                                 2,916      3,119      2,877     2,644          ..         ..          ..          ..         ..
+Venezuela                             921      1,081      1,013     1,167      1,202      1,201       1,206       1,224         19
+Total OPEC                              ..         ..         ..        ..         ..         ..          ..          ..         ..
+Notes: .. Not available. Totals may not add up due to independent rounding.
+      * Saudi Arabia's supply to the market was 7,122 tb/d in Aug 26, 7,988 tb/d in Sep 26, and 9,203 tb/d in Oct 26.
+      * Saudi Arabia's production was 6,238 tb/d in Aug 26, 8,372 tb/d in Sep 26, and 10,563 tb/d in Oct 26.
+Source: OPEC.
 ```
+
+Added 2026-11-11T15:0xZ at BRENT's flag: the first save stopped at the Saudi row and omitted the rest of Table 5-8 and its two footnotes (pdftotext lines 5546 to 5552, verbatim).

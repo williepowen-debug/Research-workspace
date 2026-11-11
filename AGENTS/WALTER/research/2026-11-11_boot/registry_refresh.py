@@ -15,7 +15,7 @@ for r in rows[1:]:
             if d<=TODAY and (best is None or d>best): best=d; bl=ln
     if not best or best<=r[iU]: continue
     s=re.sub(r'[*>#`]|★','',bl).strip(); s=re.sub(r'\s+',' ',s)[:220].rstrip()
-    old=r[iU]; r[iU]=best; r[iF]=s+' … Mirror from owner header, refreshed 2026-11-11T13:43:29Z.'
+    old=r[iU]; r[iU]=best; r[iF]=s+' … Mirror from owner header, refreshed 2026-11-11T15:02:04Z.'
     changed.append(f'{a}: {old} -> {best}')
 if '--write' in sys.argv:
     with (W/'REGISTRY.tsv').open('w', newline='') as fh:
