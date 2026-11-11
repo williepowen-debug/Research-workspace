@@ -34,7 +34,14 @@ def arm_for(target, l2, v2, arm, fx):
     return arm + (need_v - v2) * 1e12 / (ARM_SH * fx)
 
 
+WARNING = ("WARNING: lookup convention, NOT a current estimate and NOT an FX sensitivity. The 9/30 base stays at "
+           "USD/JPY 157.35; --fx converts only the post-9/30 Arm move and October tranche, so across rates this "
+           "shows the WRONG SIGN (a stronger yen appears to LOWER the ratio). Full revaluation, including any FX "
+           "question: python3 ltv_fx_sensitivity.py (own basis 22.5% at 158.81, Arm $181.49).")
+
+
 def report(nd, v, arm, fx, oct_in_nd, svf2_inside):
+    print(WARNING)
     print(f"Reported 9/30: net debt {nd:.2f}T / value {v:.2f}T = {nd / v * 100:.1f}%")
     l2, v2 = roll(nd, v, arm, fx, oct_in_nd)
     s = SVF2_USD * fx / 1e12
@@ -42,7 +49,7 @@ def report(nd, v, arm, fx, oct_in_nd, svf2_inside):
     if not svf2_inside:
         views["plus guaranteed SVF2 loan (view C)"] = (l2 + s, v2 + s)
     for name, (l, vv) in views.items():
-        print(f"  {name:38s} Arm ${arm:.2f}: {l:.2f}/{vv:.2f} = {l / vv * 100:.1f}%"
+        print(f"  {name + ' [lookup convention]':38s} Arm ${arm:.2f}: {l:.2f}/{vv:.2f} = {l / vv * 100:.1f}%"
               f"   Arm for 25%: ${arm_for(0.25, l, vv, arm, fx):.0f}"
               f"   for 35%: ${arm_for(0.35, l, vv, arm, fx):.0f}")
 
