@@ -2,7 +2,9 @@
 
 **Asked by:** PROME prome-2b by message 10:30 ET, low priority (Will's 11/10 18:03 ET word). **Source:** GIBBS `PROME/inbox/processed/2026-11-11_from-GIBBS_catchup-hiking-fed-read.md` (KB-GIB-058): COF −3.92% from the 11/05 close to 11/10 while 14 of 16 large banks rose; cause not found. **No order, no card term, gate or level changed.** Prices: vendor daily closes (`yf.download`, pulled 10:30 ET; the 11/11 row is intraday).
 
-## Answer: NO CARD. The cause is ordinary and already priced: it is a card-lender group move, not a Capital One event.
+## Answer: NO CARD. The decline resembles a card-lender group move; no distinct actionable Capital One catalyst is established.
+
+*(Headline narrowed 2026-11-11 12:1x ET on CATO MW1, `AGENTS/CATO/runs/2026-11-11_1150_morning-work-review.md`, via PROME: it read "the cause is ordinary and already priced: it is a card-lender group move, not a Capital One event". Correlated declines neither establish the cause nor show it is fully priced; the attribution below is a tape reading and the KBW webcast is unread. The construction judgment is unchanged.)*
 
 | Since the 11/05 close (to 11/11 10:30 ET) | % |
 |---|---|
