@@ -422,6 +422,15 @@
       "short_description": "Iran & Gulf"
     },
     {
+      "name": "YURI",
+      "path": "AGENTS/YURI",
+      "purpose": "Russian state decisions and intent across channels; cites dated state instruments.",
+      "group": "Geopolitics & cyber",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Russian state decisions"
+    },
+    {
       "name": "OSPREY",
       "path": "AGENTS/OSPREY",
       "purpose": "Russia and Ukraine war theater.",
