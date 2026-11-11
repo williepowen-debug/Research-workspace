@@ -41,7 +41,7 @@
 **At the CREDIBILITY gate (FILTER_SPEC v0.7):**
 10. **The source-credibility map is PER-ACCOUNT-PER-TOPIC, never a blanket prior** (6 accounts; Amit Tal = sign-inversion on Fed-plumbing). → §Credibility (1)
 11. **Sign-inversion is the most pernicious framing-error class** — on any registered-threshold metric, verify-research must EXPLICITLY confirm the sign convention. → §Credibility (2)
-12. **The most kill-prone SHAPE can wrap an official primary** — verify the core against the primary the artifact implicitly cites, not against the wrapper. → §Credibility (3)
+12. **The most kill-prone SHAPE can wrap an official primary** — verify the core against the primary the artifact implicitly cites, not against the wrapper. → §Credibility (3) n+1 11/10: card 010 carried "including Pike County, Ohio" from four agreeing news summaries of SoftBank's results; SoftBank's own deck says the write-off is unrelated to PORTS-Pike (correction 012). Agreeing secondaries share a frame: check a location or attribution detail at the issuer's deck before carrying it.
 13. **On a quote-post the wrapper and the quoted post are TWO sources with TWO verdicts** — `kill_log` is the substrate of the credibility map, so a misattribution down-weights an account for something it never said. → §The Kill Log
 
 **Cross-fleet (auto-memory) findings #14–23 — ROTATED 2026-10-03 to [`MEMORY_PROMOTED.md`](MEMORY_PROMOTED.md) (verbatim; they are `[[slug]]` duplicates of fleet auto-memory, which auto-loads for every desk — exactly what PROMOTED is for). Grep PROMOTED on demand; the slugs still auto-load fleet-wide.**
