@@ -2,3 +2,4 @@ release	period	scheduled	source	outcome	evidence
 (window) 2026-11-11T13:46:57Z to 2026-11-11T15:38:34Z (end = date output in the writing command)	-	-	PROME/DOCKET.tsv grep 2026-11-11/12; HENRY ECON_CALENDAR (11/11 Veterans Day: no BLS, bond market closed per SIFMA); owner commits since cutoff	2 rows	Veterans Day: no federal data releases in the window
 Tricolor / Verita section 341 continued meeting	-	2026-11-11 10:00 CT (16:00Z)	DOCKET (OTTO); AGENTS/OTTO/docket/CATALYSTS.tsv	NOT YET ELAPSED at window end	OTTO owns
 SoftBank 9984.T first Tokyo session after results	-	11/11 JST	DOCKET (SAM WAKE)	OWNER-COMPLETED (prior window)	SAM header 11/11 08:5x ET; reconciled at 13:46Z boot
+Tricolor / Verita section 341 continued meeting (Tricolor Real Estate Services LLC, 3:25-bk-33514, Zoom, trustee Anne Burns)	-	2026-11-11 10:00 CT (16:00Z)	DOCKET (OTTO); inforuptcy docket via search 16:4xZ	ELAPSED, outcome UNKNOWN (no report found)	OTTO owns; no card

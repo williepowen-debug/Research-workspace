@@ -1,0 +1,163 @@
+signal_id	date	angle	confidence	reason
+SIG-W-20260914-007	2026-09-14	roi_capex_guidance	low	SoftBank fall attributed to OpenAI shelving its 2026 IPO and both lab CEOs calling for a slowdown, contagion "shaped like an AI story" (AI-slowdown demand read; IPO leg is financing-adjacent)
+SIG-W-20260914-011	2026-09-14	OTHER:ai_capability_claims	medium	Card verifies a "DeepMind reached RSI" rumor and Reuters-confirmed RSI resource push; subject is frontier-capability claims, not capex, financing or supply
+SIG-W-20260914-018	2026-09-14	financing	high	Morgan Stanley count of "$3.1 TRILLION of DISCLOSED OFF-BALANCE-SHEET" commitments, leases, backstops and vendor financing across seven names
+SIG-W-20260914-026	2026-09-14	memory_input_cost	high	"Memory cost inputs and foundry capacity move together": NOR Flash +90-110%, DRAM/NAND BOM pressure, TSMC 2nm/3nm price step-up
+SIG-W-20260915-003	2026-09-15	financing	medium	Data-center CMBS issuance ($17B since 2025) and wider AAA spreads; securitized financing of data centers (CREED action, BANK_CRE domain)
+SIG-W-20260921-011	2026-09-21	financing	high	Nippon Life ¥2 trillion infrastructure project-finance plan, "not $13bn of data-centre money now"
+SIG-W-20260921-017	2026-09-21	financing	high	Correction to the Nippon Life project-finance card: two overstatements not three, balance vs flow for SAM
+SIG-W-20260924-006	2026-09-24	financing	high	SoftBank prices a record ~$11.1B junk bond at up to 9.875% "to fund OpenAI"
+SIG-W-20260924-012	2026-09-24	financing	high	Correction to SoftBank junk-bond card: final pricing 8.625%/9.25%/9.75% plus euro tranches
+SIG-W-20260925-007	2026-09-25	financing	high	"Oracle's bond selloff framed as a financing loop": modelled refinancing cost, record CDS
+SIG-W-20260927-001	2026-09-27	financing	high	GATE-LIQ-069 AI-HY re-arm gate 2-of-2: CoreWeave 5Y CDS much wider, AI-funded BB cohort has not followed
+SIG-W-20260928-012	2026-09-28	roi_capex_guidance	medium	WSJ: AI build-out estimated at 3.63% of GDP a year 2025-32; routed to VULCAN "for AI-capex scale"
+SIG-W-20260928-013	2026-09-28	power	high	Crusoe drops its $1.25B Boom turbine order; Morgan Stanley US data-center power shortfall 5 to 12 to 33 GW
+SIG-W-20260928-022	2026-09-28	financing	medium	Situational Awareness AI hedge fund forced to sell its book on margin calls; dispatch note: "the forced unwind is AI FINANCING (leverage/margin)"
+SIG-W-20260929-010	2026-09-29	MISCLUSTERED	medium	Oracle layoff round; LABOR action on "white-collar layoffs", VULCAN only info; belongs to LABOR/white-collar (secondary CONSUMER_STAGFLATION)
+SIG-W-20260929-016	2026-09-29	financing	high	PGIM anchored a CLO with a novel 15% cap on AI-related debt: "a lender-side limit on AI borrowers"
+SIG-W-20261001-030	2026-10-01	financing	high	CleanSpark's $2.2B junk bond for a Meta-leased data center, "the first Meta-linked high-yield deal"
+SIG-W-20261002-012	2026-10-02	financing	high	Amazon in talks to move ~$8B of Nvidia chips into a debt-funded SPV and lease them back (off-balance-sheet structure)
+SIG-W-20261002-024	2026-10-02	memory_input_cost	medium	Toshiba doubles hard-drive capacity, breaking the HDD "no new units" supply discipline; Seagate/WDC fall ~10% (storage supply/pricing)
+SIG-W-20261002-031	2026-10-02	power	medium	Viral delayed-data-center table killed; surviving facts are ERCOT Batch Zero interconnection dates and paused energization (WATT action on ERCOT dates)
+SIG-W-20261003-006	2026-10-03	financing	high	Oracle 5Y CDS ~230bp record, "AI-infra credit stress data point"
+SIG-W-20261003-007	2026-10-03	roi_capex_guidance	medium	Tencent leases 100,000 AI chips from Oracle for five years; a compute contract/demand data point
+SIG-W-20261003-018	2026-10-03	financing	high	"AI-infra FINANCING stress": Oracle/OpenAI NM data-center debt ~84c and Meta's $628B off-balance-sheet footnote
+SIG-W-20261004-009	2026-10-04	memory_input_cost	high	Micron Q4 FY26 "record AI-memory super-cycle"; FQ1-27 guide; VULCAN's S2 memory-cycle channel
+SIG-W-20261007-010	2026-10-07	memory_input_cost	medium	Reported TDK HDD-head bidding (Toshiba/Seagate) "adds a supply-control question" over storage components
+SIG-W-20261007-011	2026-10-07	memory_input_cost	high	TrendForce HBM configuration-cost forecast: 8-Hi premium 10-20% per gigabit
+SIG-W-20261008-006	2026-10-08	financing	high	Anthropic $125.2B TPU lease part-financed by up to $42B Broadcom convertible notes; ~$60B syndicate; Ares $573B circular financing
+SIG-W-20261008-024	2026-10-08	financing	high	Broadcom seeks >$50B financing for OpenAI's chip; Oracle talks with Apollo/Goldman on off-balance-sheet chip vehicle
+SIG-W-20261008-038	2026-10-08	roi_capex_guidance	high	OpenAI annualized revenue ~$50B vs ~$70B circulating; a revenue-basis gap the market traded as weakness
+SIG-W-20261008-044	2026-10-08	financing	high	Broadcom early talks to arrange $30B-50B+ of debt for OpenAI chips (lead item; power forecast secondary)
+SIG-W-20261008-045	2026-10-08	financing	high	Resolves basis question: Broadcom agreed to lend Anthropic up to $42B in convertible notes, separate from the $60B bank package
+SIG-W-20261009-009	2026-10-09	financing	high	Firmus withdrew its ASX IPO: "the public market refused AI data-centre equity at ~US$30B"
+SIG-W-20261009-012	2026-10-09	power	high	Oracle trucking natural gas to AI data centres while pipelines lag; dispatch note "power and siting, not financing"
+SIG-W-20261010-009	2026-10-10	obsolescence	medium	Banks underwrite GPUs over 3-4 years "against Nvidia's up to 10" and Burry on chip-value slide; dispatch note: "the useful-life fight is capex substance" (GPU-loan guarantee leg is financing)
+SIG-W-20261012-012	2026-10-12	roi_capex_guidance	medium	Brookings $10.3T AI investment estimate "is a scenario, not committed spending"
+SIG-W-20261012-014	2026-10-12	roi_capex_guidance	high	Compute pricing chart of annual revenue per GW and a modeled 15% return hurdle; Nebius duration gap (compute ROI)
+SIG-W-20261012-036	2026-10-12	OTHER:custom_silicon_competition	medium	Microsoft Maia 300 inference deployments for 2027 (40% more tokens per MW vs GPU systems) plus RTX5090 halt rumor
+SIG-W-20261012-037	2026-10-12	power	medium	Data-center tracker: "61GW is not connected load" - stated build-out capacity vs power load (VULCAN/WATT)
+SIG-W-20261012-038	2026-10-12	roi_capex_guidance	high	Hock Tan "questions AI investment and enterprise economics"; "not a measured capex cut"
+SIG-W-20261013-007	2026-10-13	power	medium	PJM DOE emergency order and demand-response call; diesel-shortage framing unsupported (grid reliability, large-load backup generation)
+SIG-W-20261013-013	2026-10-13	financing	high	"Volta financing reports shift underwriting risk"; Apollo order not an insurer exposure
+SIG-W-20261013-014	2026-10-13	financing	high	"AI-credit screenshots and thread claims lack matched instruments" (LIQUID AI-credit cohort)
+SIG-W-20261013-027	2026-10-13	roi_capex_guidance	low	Anthropic internal code-growth post; "paid inference economics remain unmeasured" - adoption/ROI counterweight, no capex content
+SIG-W-20261014-005	2026-10-14	roi_capex_guidance	medium	"ASML Q3 sales and full-year guidance supply AI-capex counterevidence" (equipment order/demand read)
+SIG-W-20261014-010	2026-10-14	roi_capex_guidance	medium	Anthropic blended token-price index falls 47% over 30 days; AI pricing/revenue question
+SIG-W-20261014-013	2026-10-14	power	high	PJM PORTS-Pike filing separates proposed 9,570MW load, payment commitments and connection rights
+SIG-W-20261014-018	2026-10-14	financing	high	"AI-infrastructure credit scare": CoreWeave 2032 unsecured notes near 14.5% yield, CRWV -15.5%
+SIG-W-20261014-020	2026-10-14	roi_capex_guidance	high	TrendForce lifts 9-CSP capex to $957B (2026) and >$1.5T (2027)
+SIG-W-20261014-021	2026-10-14	OTHER:lab_valuation_mark	medium	"Anthropic below $2 trillion" is a synthetic Hyperliquid perpetual price, not a valuation; last round $965B
+SIG-W-20261015-005	2026-10-15	financing	high	Correction: CRWV 2032 notes YTW 15.83% and model CDS ~1,059-1,120bp
+SIG-W-20261015-014	2026-10-15	memory_input_cost	high	TrendForce OCP cluster: DRAM revenue +59.5% QoQ, supply expansion lagging demand, HBM/HBF/CXL
+SIG-W-20261015-017	2026-10-15	financing	high	Two framings on an NVDA backstop of CoreWeave and CRWV's cost of capital (vendor credit support)
+SIG-W-20261015-018	2026-10-15	roi_capex_guidance	high	Anthropic quarterly revenue +45% QoQ to $16.8B, slowing; GAAP vs adjusted margins
+SIG-W-20261015-023	2026-10-15	financing	high	GATE-LIQ-069 L4 FIRED: CRWV -15.46% with HY OAS +9bp (AI-credit gate)
+SIG-W-20261016-005	2026-10-16	financing	high	Volta ~$5B loan priced at 95c, S+650; listings pulled; Oracle CDS record
+SIG-W-20261016-008	2026-10-16	financing	high	Anthropic June BB+ rating; junior exposure in the $35B chip-financing structure
+SIG-W-20261016-011	2026-10-16	power	medium	August electric utility utilization 70.4% "is not evidence that regional grid capacity exceeds demand" (WATT)
+SIG-W-20261016-013	2026-10-16	memory_input_cost	medium	IDC Q3 smartphone shipments -22% YoY, attributed by IDC to memory/component costs and supply
+SIG-W-20261016-014	2026-10-16	OTHER:insider_sales	medium	CoreWeave founder sales total $3.3B since IPO; "does not establish anticipatory exit timing"
+SIG-W-20261016-017	2026-10-16	financing	high	Bloomberg: Volta loan sold at benchmark +650bp and 95 cents
+SIG-W-20261016-040	2026-10-16	roi_capex_guidance	high	BofA "AI boom is starting to look like a classic boom-and-bust cycle"; "sell-side view against capex durability"
+SIG-W-20261018-001	2026-10-18	power	medium	Microsoft drops out as Nscale UK anchor tenant and "the reported reason is grid power, not demand"; "not a hyperscaler capex cut"
+SIG-W-20261019-011	2026-10-19	financing	high	CoreWeave October 16 bond valuations by tenor; CDS model outputs (LIQUID credit read)
+SIG-W-20261020-002	2026-10-20	roi_capex_guidance	low	Epoch study: ~13-fold annual decline in cost of fixed benchmark performance; VULCAN asked to assess against "inference economics/obsolescence work" (model-efficiency pricing, not hardware useful life)
+SIG-W-20261020-003	2026-10-20	supply_chain_geopol	medium	Polar Semiconductor supplier rationing helium amid the Iran war; "fab shutdown remains conditional"
+SIG-W-20261020-007	2026-10-20	roi_capex_guidance	medium	CoreWeave contract economics: HSBC $12M/MW revenue and a 200MW contract IRR model (15.3% vs 6.3%)
+SIG-W-20261020-009	2026-10-20	OTHER:insider_sales	high	CoreWeave insider sale screenshot "mixes tax withholding, plans and proposed sales" (Forms 4)
+SIG-W-20261020-010	2026-10-20	financing	high	Data-center bond charts: G-spreads for CRWV and EDGCOM bonds by tenant cohort
+SIG-W-20261020-011	2026-10-20	financing	high	Lambda-linked ~$301M CMBS needs dated execution and senior-class evidence
+SIG-W-20261020-012	2026-10-20	roi_capex_guidance	medium	Amazon early rack-receipt program: cash out before productive deployment; VULCAN asked on "capex sustainability" (power-readiness leg to WATT)
+SIG-W-20261020-022	2026-10-20	financing	high	Farr CDS cohort chart; "financing claims unverified"
+SIG-W-20261020-023	2026-10-20	financing	medium	Data-center list mixing delays, withdrawals and funded IPOs; "Vitro, Elice and Nscale financing leads"
+SIG-W-20261020-027	2026-10-20	supply_chain_geopol	medium	DeepSeek reportedly working with Huawei on future AI-chip design (China domestic chip ecosystem)
+SIG-W-20261021-005	2026-10-21	memory_input_cost	high	TrendForce newsroom: roughly 20% Q4 DRAM contract-price growth
+SIG-W-20261021-015	2026-10-21	roi_capex_guidance	high	Meta Q3: capex $34.91B, 2026 capex $135-145B low end raised, FCF -$2.12B
+SIG-W-20261021-018	2026-10-21	financing	medium	SoftBank -25% framed as a "debt crisis" with $164B debt (AI-financing vehicle stress)
+SIG-W-20261021-020	2026-10-21	memory_input_cost	low	Jefferies iPhone 18 Pro demand weakening, framed as "the handset-demand leg feeding memory demand" (consumer-device subject)
+SIG-W-20261021-023	2026-10-21	roi_capex_guidance	low	AI-infra tape bundle: Anthropic draft-IPO figures, Super Micro pre-announce beat on AI demand, NextDC guidance cut, CoreWeave bonds
+SIG-W-20261022-001	2026-10-22	financing	medium	Correction to SoftBank price card: ¥4,505 was intraday, close ¥4,305 (same SoftBank stress thread)
+SIG-W-20261022-006	2026-10-22	financing	low	AI tape bundle led by Meta -6.7% on non-voting shares "to help fund" AI and record Meta CDS; also Lam supply constraint and Tesla capex cut
+SIG-W-20261022-022	2026-10-22	financing	medium	DEWEY: five hyperscalers spend more than they generate after payouts, "filled by about $237.5B of bonds" (funding gap / IG capacity)
+SIG-W-20261022-024	2026-10-22	financing	high	DEWEY: ~$58-61B data-center ABS and CMBS outstanding; who holds non-IG AI risk
+SIG-W-20261022-027	2026-10-22	financing	high	Correction: DEWEY data-center securitization study v2 (BDC junior class, Lambda CMBS)
+SIG-W-20261022-037	2026-10-22	MISCLUSTERED	high	Railway cloud-host intrusion and customer secrets; CYPHER action, CYBER domain - belongs to the cyber cluster
+SIG-W-20261022-045	2026-10-22	MISCLUSTERED	high	Oracle Java CVE / eMudhra certificates and breach count; CYPHER action - belongs to the cyber cluster
+SIG-W-20261022-047	2026-10-22	MISCLUSTERED	high	DEWEY five reports on the cyber wave (AI tripling software flaws); CYPHER action - belongs to the cyber cluster
+SIG-W-20261023-002	2026-10-23	supply_chain_geopol	low	SOX -6.72% "after Lam Research said supply constraints continue into 2027"; dispatch note names the Lam supply constraint as driver (equity-tape card)
+SIG-W-20261023-004	2026-10-23	OTHER:dc_local_opposition	medium	Amazon drops Ashburn data-center plan in a Loudoun County deal: "a siting settlement after county opposition, not a capex cut"
+SIG-W-20261023-008	2026-10-23	roi_capex_guidance	medium	Apollo's Slok: heaviest AI spenders are VC-backed, "so the heaviest AI demand depends on venture funding"
+SIG-W-20261023-027	2026-10-23	financing	high	"AI credit tape": NVDA 5Y CDS claim, Meta CDS record, CoreWeave bonds 15-16%
+SIG-W-20261023-037	2026-10-23	financing	high	OpenAI cut its funding-round target to $1.25T pre-money; dispatch note "OpenAI is financing, not capex substance"
+SIG-W-20261025-007	2026-10-25	MISCLUSTERED	medium	a16z chart of hardware imports vs domestic output; ISHM action, INDUSTRIAL_CYCLE domain - belongs to industrial cycle
+SIG-W-20261025-009	2026-10-25	roi_capex_guidance	low	Oracle $1B partner-program commitment "over four years, not a new $1B quarterly cash outflow" (spend-framing correction)
+SIG-W-20261025-018	2026-10-25	financing	high	AI-linked CDS trading volume reportedly up fourfold since July
+SIG-W-20261025-023	2026-10-25	MISCLUSTERED	medium	Follow-up on the a16z hardware import chart; ISHM action, INDUSTRIAL_CYCLE domain
+SIG-W-20261025-029	2026-10-25	roi_capex_guidance	medium	Meta -$1.2bn and -$2.12bn free-cash-flow figures reconcile through finance-lease principal (FCF definition)
+SIG-W-20261025-031	2026-10-25	financing	high	Follow-up: AI CDS volume basket and comparison months recovered
+SIG-W-20261026-001	2026-10-26	financing	high	Meta launches a $35B financing package (forward common plus mandatory convertible preferred)
+SIG-W-20261026-002	2026-10-26	financing	high	SpaceX ~$40B committed GPU master finance lease through Apollo
+SIG-W-20261026-003	2026-10-26	financing	high	Anthropic publicly files for its Nasdaq IPO; proceeds and valuation unset (equity raise)
+SIG-W-20261027-003	2026-10-27	financing	high	Anthropic S-1: $108.6B convertible notes at fair value, noncash charges, pre-IPO conversion
+SIG-W-20261027-004	2026-10-27	OTHER:lab_operational_delay	medium	Anthropic S-1 discloses delaying frontier pre-training more than a month for model-weight security
+SIG-W-20261027-005	2026-10-27	OTHER:ai_capability_claims	medium	OpenAI publishes an Exponential Time Hypothesis disproof claim; "practical implications remain open"
+SIG-W-20261027-008	2026-10-27	OTHER:semis_mna	medium	Intel agreement to acquire quantum-software provider Classiq; no price disclosed
+SIG-W-20261027-025	2026-10-27	financing	high	"Data-center bond dispersion may expose AI financing risk hidden by the broad index"
+SIG-W-20261027-026	2026-10-27	power	medium	Texas suit over Vantage/VoltaGrid permits for 405 MW dedicated gas generation plus diesel backup
+SIG-W-20261027-029	2026-10-27	financing	medium	$63B Anthropic SPV with first/second-lien financing; Broadcom residual value support presented as a financing structure (BROCK action), not a valuation study
+SIG-W-20261027-038	2026-10-27	roi_capex_guidance	medium	OpenAI models on Google Cloud Marketplace; VULCAN to integrate "within existing AI demand and capex sustainability coverage"
+SIG-W-20261027-061	2026-10-27	roi_capex_guidance	high	Gartner: 13% of CIOs report significant AI value so far while AI funding rises
+SIG-W-20261027-063	2026-10-27	roi_capex_guidance	low	Site Selectors Guild: 35% report fewer announcements reaching groundbreaking; power availability top factor (buildout execution friction)
+SIG-W-20261027-067	2026-10-27	OTHER:outdoor_storage_cre	low	Industrial outdoor-storage rents linked to AI construction staging; CREED/VULCAN action (CRE rent story)
+SIG-W-20261027-068	2026-10-27	financing	medium	Blackstone data-center platform ($165B incl. construction) vs pipeline vs equity check - private-capital deployment measures
+SIG-W-20261029-012	2026-10-29	supply_chain_geopol	medium	DEWEY: Polar Semiconductor on helium allocation; DOE lists helium as critical (input supply disruption)
+SIG-W-20261029-025	2026-10-29	financing	high	"AI financing: the $200B in one day is about $37.5B priced" (Meta stock, Broadcom/Anthropic vehicle)
+SIG-W-20261029-041	2026-10-29	financing	low	Non-binding House resolution: no federal bailout for failing AI firms; dispatch note "financing-leg policy signal (who absorbs an AI bust)"
+SIG-W-20261029-050	2026-10-29	roi_capex_guidance	high	Amazon capex HELD at $220B for 2026, FCF -$42.4B, AWS +39%; "not a capex cut"
+SIG-W-20261029-051	2026-10-29	financing	medium	Banks shelve the $5-7B junk bond for the $15B Hubbard data center and keep the bridge loan, after Texas paused approvals pending an ERCOT audit
+SIG-W-20261030-001	2026-10-30	supply_chain_geopol	medium	EO 14421 grid-equipment security order: foreign-entity equipment restrictions leave data-centre generators and batteries conditionally in scope
+SIG-W-20261030-006	2026-10-30	financing	high	Blackstone tells investors Anthropic may not secure an investment-grade rating after its IPO
+SIG-W-20261031-006	2026-10-31	memory_input_cost	high	NAND wafer spot -9.19%; Kioxia price growth slows; Sandisk data-center revenue rises
+SIG-W-20261104-006	2026-11-04	MISCLUSTERED	high	Census September factory orders and trade (M3); ISHM action, INDUSTRIAL_CYCLE domain
+SIG-W-20261104-009	2026-11-04	OTHER:semis_mna	medium	Marvell-Lumentum all-stock agreement, ~$115B implied EV
+SIG-W-20261104-010	2026-11-04	supply_chain_geopol	high	HBM smuggled to China inside lower-performance server packages (export-control evasion; ZHAO action)
+SIG-W-20261104-021	2026-11-04	financing	high	Oracle prices ~$10B equity and $10B of notes
+SIG-W-20261104-022	2026-11-04	roi_capex_guidance	medium	Anthropic S-1/A: Q3 revenue $16.956B, operating loss, $5B short-term compute costs and purchase commitments
+SIG-W-20261104-037	2026-11-04	power	medium	Talen monetizes future capacity cash flows and guides higher 2027 EBITDA (power producer; WATT action, OIL_ENERGY domain)
+SIG-W-20261104-040	2026-11-04	financing	high	Reported Nvidia construction-credit support for Nscale's West Virginia project remains unsigned
+SIG-W-20261104-049	2026-11-04	power	high	PJM amended backstop procurement proposal; power procurement and storage commitment states
+SIG-W-20261104-057	2026-11-04	memory_input_cost	medium	Residual chip and memory headlines: NAND/DRAM shortage, HBM base dies at Samsung Taylor, AMD GDDR6 price rises
+SIG-W-20261104-064	2026-11-04	power	medium	"Remaining power-sector headlines are ungraded proposals and company leads" (WATT)
+SIG-W-20261104-065	2026-11-04	OTHER:apple_earnings_residual	low	Single residual headline: Apple's iPhone and Mac sales offset weaker China; no AI-capex subject stated
+SIG-W-20261104-072	2026-11-04	memory_input_cost	medium	Solidigm proposed two NAND fabs in New York, up to $100B (NAND supply)
+SIG-W-20261104-073	2026-11-04	power	medium	TrendForce cuts Lighthouse/Port Washington 2027 capacity forecast 650MW to 310MW with "power approval lagging"
+SIG-W-20261105-005	2026-11-05	OTHER:dc_local_opposition	medium	AI selling after the midterms; "the hard leg is Texas": promised data-center moratorium and ballot backlash; no capex cut
+SIG-W-20261105-010	2026-11-05	financing	high	CoreWeave secured notes trade at 15-16% yield; no bankruptcy or acceleration filing
+SIG-W-20261105-011	2026-11-05	roi_capex_guidance	high	Citrini calls "peak capex growth" and higher US data-center costs
+SIG-W-20261105-034	2026-11-05	OTHER:dc_local_opposition	high	Data-center ballot votes: 40 of 41 measures rejected development; moratorium expectations
+SIG-W-20261105-042	2026-11-05	OTHER:dc_local_opposition	medium	Correction to the data-center ballot card: $100B at-risk figure is pre-vote, NYT and Bloomberg counts may share one base
+SIG-W-20261105-045	2026-11-05	memory_input_cost	medium	Micron all but halts its $3-4.5B Taoyuan memory plant over a labor dispute (memory supply; dispatch note also names Taiwan chokepoint)
+SIG-W-20261105-047	2026-11-05	financing	high	"AI financing leads": SpaceX $40B marketing, Partners Group gates, site-delay claims
+SIG-W-20261106-004	2026-11-06	financing	high	"23 of 24 high-yield data center bonds widened"; ING loan auction; BoE asks about tenantless projects
+SIG-W-20261106-013	2026-11-06	financing	high	LIQUID Gate 069 L4 fired November 5; index credit moved with the AI cohort
+SIG-W-20261106-029	2026-11-06	roi_capex_guidance	high	Microsoft lets a 2023 Oracle rental lapse and asks IREN for a network upgrade; "deals falling apart" overreach (contract demand)
+SIG-W-20261106-030	2026-11-06	financing	high	OpenAI round cut by at least a third; SoftBank in talks for more after ~$65B
+SIG-W-20261106-031	2026-11-06	financing	high	ECB supervisors weigh a review of bank data-center lending
+SIG-W-20261106-034	2026-11-06	roi_capex_guidance	high	Correction: Oracle wind-down sits inside Microsoft's broader reassessment of cloud partnerships
+SIG-W-20261106-036	2026-11-06	financing	high	Correction: SoftBank leverage 13% was June 30; ~21.5% now against its 25% ceiling
+SIG-W-20261106-037	2026-11-06	financing	high	Correction: Oracle CDS 305bp on November 5; IREN "funded" covers only 0.3 GW
+SIG-W-20261106-040	2026-11-06	financing	high	Athene states $12.9B of AI infrastructure funded; SoftBank-linked paper $4.8B
+SIG-W-20261106-041	2026-11-06	financing	medium	Correction: SoftBank leverage ~22-24%, $40B bridge repaid; China ABB ban scope
+SIG-W-20261106-042	2026-11-06	financing	high	Correction: Oracle CDS traded through 3.25% on October 20
+SIG-W-20261109-002	2026-11-09	financing	low	Headline-only bundle: Anthropic $3.4bn gas-power deal, a $500M seller of data-centre loans, Broadcom $43B guarantee (two of three items financing)
+SIG-W-20261109-004	2026-11-09	OTHER:nvda_ceo_controversy	medium	Nvidia lags QQQ on the Jensen Huang spy-report story; Citi cuts global tech to Neutral
+SIG-W-20261109-005	2026-11-09	financing	low	SoftBank -4.2% before results; Musk claims SoftBank "defaulting" on turbine orders; card frames it via SAM's loan-to-value estimates
+SIG-W-20261109-011	2026-11-09	OTHER:nvda_ceo_controversy	medium	Correction: Huang acknowledged the affair in an open letter; Nvidia investigation; FBI comment
+SIG-W-20261110-010	2026-11-10	financing	medium	SoftBank fiscal Q2 net loss ~¥1.12T incl. ¥597.2B power-equipment advance-payment loss and Intel forward loss; SAM leverage grade
+SIG-W-20261110-011	2026-11-10	OTHER:mixed_bookmark_digest	low	Small-items digest: Nvidia -5.47%, CoreWeave Q3 headline, 10-year 4.98%, Japan spending, COR1M, BofA claim
+SIG-W-20261110-012	2026-11-10	financing	medium	Correction to SoftBank Q2 card: power-equipment loss booked at Silver Bands 7, "unrelated to PORTS-Pike"
+SIG-W-20261110-013	2026-11-10	roi_capex_guidance	high	CoreWeave kept 2026 capex guide $37-39B with low end raised; TSMC October revenue beat
+SIG-W-20261111-002	2026-11-11	power	high	Siemens Energy record €164bn backlog, Gas Services FY27 revenue +24-26%, Grid +22-24% (power equipment)
+SIG-W-20261111-003	2026-11-11	roi_capex_guidance	low	Nvidia "may slow chip orders" to TSMC/ASE amid the Huang controversy; same report says orders unchanged
+SIG-W-20261111-019	2026-11-11	roi_capex_guidance	high	Anthropic reportedly will not extend its SpaceX Colossus compute contract beyond mid-2027 (contract renewal as demand question)
