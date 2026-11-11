@@ -12,14 +12,14 @@
     {
       "id": "2120151992924286988",
       "disposition": "DISPATCH",
-      "read_state": "partly_read",
+      "read_state": "fully_read",
       "follow_up": "BOARD/SIG-W-20261111-004-Small-items-Nov-11-VIX-near-18-RED-FT-06-exit-could-complete-today-SoftBank-Tokyo-closed-minus-0.44-SEC-penalties-lowest-since-2008-El-Nino-Florida.md",
       "ask_user": null
     },
     {
       "id": "2120353284636471618",
       "disposition": "DISPATCH",
-      "read_state": "partly_read",
+      "read_state": "fully_read",
       "follow_up": "BOARD/SIG-W-20261111-004-Small-items-Nov-11-VIX-near-18-RED-FT-06-exit-could-complete-today-SoftBank-Tokyo-closed-minus-0.44-SEC-penalties-lowest-since-2008-El-Nino-Florida.md",
       "ask_user": null
     },
@@ -61,7 +61,7 @@
     {
       "id": "2120278723484143677",
       "disposition": "NO-ACTION",
-      "read_state": "partly_read",
+      "read_state": "fully_read",
       "follow_up": null,
       "ask_user": null
     },

@@ -1,0 +1,42 @@
+---
+signal_id: "SIG-W-20261111-008"
+date: "2026-11-11"
+timestamp: "2026-11-11T14:36:25Z"
+dispatched: "2026-11-11T14:36:25Z"
+source: "WALTER"
+origin: ["Will's bookmarks BM-20261111-02 items 2 and 3, images opened 09:35 ET on Will's question"]
+action: ["CORAL"]
+info: ["AEOLUS", "HOMER", "SHADE", "PROME"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.8
+confidence_language: "reports"
+resources: 1
+safety_net: "clear"
+cluster: "CLIMATE_MACRO"
+domain: "CLIMATE_MACRO"
+entities: ["Florida", "Valkaria Airport", "Brevard County", "Broward County", "NOAA", "NWS Miami", "FDEM", "El Nino"]
+word_count: 291
+dispatch_note: "Bookmark images first skipped (partly_read) and opened at Will's question, 09:35 ET. Florida carve-out: CORAL action; AEOLUS info (climate-macro owner); HOMER (housing collateral) and SHADE (insurance) info. Update, not a correction: card 006's Broward figures were NWS Miami's preliminary county totals and stand; this adds the statewide maximum. PRIORITY: Florida is a top-priority geography for Will."
+updates: ["SIG-W-20261106-006"]
+event_window: "closed"
+---
+# UPDATE to card 20261106-006: a NOAA/NWS/NCEP rainfall map of the October 31 to November 3 Florida event puts the statewide maximum at 24.69 inches at Valkaria Airport (Brevard County, Space Coast), far above the 13.49-inch Broward top on card 006; the 10-inch-plus area runs from Brevard south to Palm Beach and inland
+
+**What the map shows** (image in Will's bookmark of @DRmetwatch, posted November 11 03:09Z; NOAA, NWS and NCEP logos; "Contours based on 1305 observations"; opened by WALTER):
+
+| Item | October 31 to November 3, 2026 | November 14 to 17, 2023 (same post, for comparison) |
+|---|---|---|
+| Maximum | **24.69 in, Valkaria Airport, FL** | 15.07 in, John Pennekamp State Park |
+| Observations | 1,305 | 918 |
+| Footprint | 5 to 10 inches across most of the peninsula east of about 82°W; 10 inches or more along the Brevard to St. Lucie coast, inland around Lake Okeechobee's north side and patches toward Palm Beach and Broward | heaviest on the upper east coast and the far south |
+
+WALTER read the contours from the image; county assignments are WALTER's reading of the map, not labels on it. Valkaria is in south Brevard County.
+
+**Why it matters:** card 20261106-006 carried NWS Miami's preliminary Broward 72-hour totals (5.62 to 13.49 inches, top at Sunrise) and said Broward was outside the state emergency order 26-227. This map says the event's heaviest rain fell further north, on the Space Coast, at nearly twice the Broward top, over a wider area. Damage, insured-loss and flood-claim figures are not on the map.
+
+**Same bookmark set, also opened now:** NWS Miami with the Florida Division of Emergency Management: South Florida severe-weather reports average 9 per strong El Niño winter against 3.16 in neutral winters (NWS Miami area, November to April, 1950 to 2026), about 2.8 times. This firms up the "about 3x" line on card 20261111-004.
+
+**Ask, CORAL:** add the 24.69-inch Valkaria maximum and the Brevard to St. Lucie footprint to the flood record; say whether the emergency order's county list covers Brevard.
+
+Sources: @DRmetwatch 2026-11-11T03:09:51Z (x.com status 2120353284636471618), images pbs.twimg.com/media/HW0CEvMXcAA5bx8.jpg and HW0CEvCW0AAHvk_.jpg (NOAA/NWS/NCEP rainfall maps, opened by WALTER) ; @NWSMiami 2026-11-10T13:50:00Z, image pbs.twimg.com/media/HWnVsu6XMAADCvp.jpg (NWS Miami and FDEM, opened by WALTER) ; BOARD/SIG-W-20261106-006
