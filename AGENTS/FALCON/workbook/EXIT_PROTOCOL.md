@@ -27,7 +27,7 @@
 | # | Kill condition | Status |
 |---|---|---|
 | 1 | Ceasefire signed AND credibly held 72h+ (a pause is not a ceasefire) | ❌ No ceasefire: US struck Qeshm 11/2; VELOS SAPPHIRE hit 11/4 23:20Z, one killed; Iran claims more tanker hits 11/5; proposals in mediation, no signed text |
-| 2 | Hormuz verifiably reopened: mine clearance complete AND transits >50% of 88/day for 10 days | ❌ PortWatch 2/88 (newest print 10/25, own run 11/06, DEEPENING, 12 days old). IRGC mine claims unverified; clearance not complete |
+| 2 | Hormuz verifiably reopened: mine clearance complete AND transits >50% of 88/day for 10 days | ❌ PortWatch 3/88 (newest print 11/08, own run 11/11, DEEPENING). Iranian mine claims unverified; clearance not complete. ⚠️ "88/day" names no instrument; it is PortWatch's pre-crisis baseline by construction (flagged to PROME 11/11, letter unchanged) |
 | 3 | War-risk normalized: Hormuz hull premium back toward 1–3% | ❌ 6–10% (FT brokers ~10/06, WARRISK row, EXPIRED); WC-Saudi ~3% vs 0.1% baseline (9/24, EXPIRED). No newer quote; cannot show normalization |
 | 4 | Brent sustained below $80 (BRENT's number; "sustained" duration bar still owed) | ❌ January $98.29 11/5 [EST] per BRENT; BRENT owns the number and the duration bar |
 | 5 | Blockade lifted | ❌ In effect; Tehran still demands it end (Gulf News 11/5) |
