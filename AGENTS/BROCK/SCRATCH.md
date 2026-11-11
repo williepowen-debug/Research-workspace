@@ -1,13 +1,13 @@
-# BROCK SCRATCH — 2026-11-10 handoff (D:L928 session, PROME prome-07 launch, desktop; window HELD open for PROME's message)
+# BROCK SCRATCH — 2026-11-10 handoff (D:L928 session, PROME prome-07 launch, desktop; closed out 2026-11-10T19:32:25-05:00 on Will's close-for-the-night via PROME)
 
 Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-10.md`. New KB rows: KB-BRK-472 to 476.
 
 **Done today:** L928 read 11:10 ET: CRMT ELEVENTH BRIDGE (8-K 0001171843-26-007312, agreed 11/09, STD → Thu 11/12, +3 days); no other agreement dated ≤11/04, FINAL at the 17:36 ET re-read on PROME's tap (KB-BRK-476; CRMT $0.87, -23.46%, first print under $1). WALTER lane 1/1 (SIG-W-20261109-007 noted). Packet to PROME asks for two successor DOCKET rows (11/12 STD, 11/16 backstop #8). No score moved.
 
 **Next-boot first moves:**
-1. **Thu 11/12 after ~16:30 ET (or Fri 11/13 AM): CRMT eleventh-bridge STD.** Full feed for CIK 0000799850 from 11/10 08:01 ET, every form incl. 1.03, 2.04, Nasdaq 3.01; INDEX acceptance time. Bridges 9–11 were all filed the morning after at 08:00 ET: a silent evening is not a lapse.
+1. **Thu 11/12 after ~16:30 ET (or Fri 11/13 AM): CRMT eleventh-bridge STD (D:L1098).** Full feed for CIK 0000799850 from 11/10 08:01 ET, every form incl. 1.03, 2.04, Nasdaq 3.01; INDEX acceptance time. Bridges 9–11 were all filed the morning after at 08:00 ET: a silent evening is not a lapse.
 2. **Mon 11/16:** CRMT backstop #8 (other agreement dated ≤11/09) · BRK-11 re-run · R2 review if PROME moves it.
-3. **Tue 11/10 17:00 ET:** CoreWeave Q3 (VULCAN's date); lender side only (DDTL draws, KB-BRK-425/457 holders).
+3. **CoreWeave Q3 (VULCAN's date, Tue 11/10 17:00 ET): NOT read by BROCK this session, carried.** Lender side only (DDTL draws, KB-BRK-425/457 holders); read the 10-Q/release when next booted.
 4. **Fri 11/13:** CABO hearing (L1058). Feed for Item 3.01, GTCR intervention, financing; outcome press or 8-K only. CourtListener 403; PACER ask-first.
 5. **Tue 11/17 AMC:** GBDC, BRK-36. **~12/04:** BCRED Q4 letter (offer expires 12/1).
 

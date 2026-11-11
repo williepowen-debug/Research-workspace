@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-11-10T17:37:38-05:00 — prome-07: D:L928 FINAL (KB-BRK-472/476) · D:L1071 IREN and D:L1058 CABO reads (KB-BRK-474/475) · WALTER lane 1/1 · no score moved. Prior stamps, narrative → `catchups/2026-11-10.md`.
+**Updated:** 2026-11-10T19:32:25-05:00 — prome-07: D:L928 FINAL (KB-BRK-472/476) · D:L1071 IREN and D:L1058 CABO reads (KB-BRK-474/475) · WALTER lane 1/1 · no score moved. Prior stamps, narrative → `catchups/2026-11-10.md`.
 
 ---
 
