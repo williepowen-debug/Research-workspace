@@ -1,3 +1,7 @@
+## 2026-11-11T00:34:56Z FULL CLOSEOUT for the night — walter-96 on DESKTOP-BC6EF81, on PROME prome-07's 19:32 ET relay of Will's close-for-the-night word
+
+Clears the 22:15:24Z full-deferred breadcrumb. Cards 012 CORRECTION of 010 (SoftBank deck: ¥597.2B write-off unrelated to PORTS-Pike, booked at Silver Bands 7; SAM grade CONFIRMED; COR-20261110-12) and 013 (VULCAN: CoreWeave 2026 capex $37B to $39B, VULCAN-191 MISS; TSMC October VULCAN-188 HIT) published at 8304189a70. REGISTRY re-run 0 rows newer; STATUS bottom line and NETWORK re-cut (ListAgents 00:34Z); doctor 00:34:08Z same three MEDs; MEMORY #12 n+1; LAST_COMPLETION rewritten; checks in research/2026-11-10_desktop-boot/closeout-night/checks.json (basis, reads, doctor REVIEW carried). Closeout commit a8d7eaabb0. Delivery 63/63 for 20261110.
+
 ## 2026-11-10T22:15:24Z light-closeout — full deferred (walter-96, desktop, after the 20:05Z full closeout)
 
 Will: "I added some new bookmarks". X scan 12 staged 22:13:24Z; BM-20261110-04 12/12. Cards 010 PRIORITY SoftBank Q2 (¥1.12T net loss; ¥597.2B power-equipment advance-payment loss incl. Pike County, Ohio; ¥321.9B Intel prepaid-forward loss; ACTION SAM; info VULCAN, WATT, NEXUS, LIQUID, HENRY, PROME) and 011 ROUTINE small items (info VULCAN, HENRY, BOND, SAM, VIOLET, PROME). Rule 9: SoftBank figures CONFIRMED, turbine-default framing CORRECTED; Bank of America top-picks removal and GPU-to-Oracle claims INDETERMINATE. STATUS, REGISTRY, MEMORY not re-cut (full deferred, 1 breadcrumb).
