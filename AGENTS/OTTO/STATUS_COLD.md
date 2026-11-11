@@ -866,3 +866,35 @@ Rows superseded by s043.
 | Tricolor Auction Recovery | **$39.5M on 5,857 sold (~62%); projects ~3% of debt** | 🔴🔴 |
 | ~2026-12-01 (Tue) | Hertz fleet-disposal watch: $200M notes and HVF III 2021-2 $2,000M fleet ABS mature 12/2026 | 🟡 modeled; credit read is LIQUID, OTTO reads the fleet consequence; Q3 10-Q unread |
 | ~2026-11-13 (Fri) | Chu suppression-ruling check (ECF 108) | 🟠 OTTO check date, not a court date. Reserved since 10/9; no ruling in feeds through 10/29; UNOBSERVED |
+
+## 23. November11 s044 rotation (verbatim; hot STATUS wins)
+
+> **s043 (11/06, after the close):** No score, band, gate, threshold or prediction moved. **Tricolor auction row was six months stale, now 9,082 vehicles and $63.09M net through 10/31** (Holman's ten sworn applications, which tie to the old row to the dollar at 4/30); trustee's Form 1 at 9/30 shows $53.78M received of a $65.0M estimate, ~2,000 cars left, sales deadline 11/30; ~3% of debt stands. **Hertz Q3 10-Q read:** HVF III 2021-2 is $1,000M at 9/30, not $2,000M, no amortization-event language, watch not fired, and the row's $1,893M was capacity, not availability. James: government's response due 11/09. Inbox 1/1. `research/2026-11-06_close-refresh/READOUT.md`; ML-369–372; s042 pointer cold §22.
+> **Next:** BROCK grades CRMT 11/09 · James response 11/09 · NY Fed 11/10 11:00 ET · Tricolor §341 11/11 · EART 2026-5 window 11/12 · Chu ruling check ~11/13 · SDT ~11/15 · Tricolor sales deadline, EART October 10-Ds (OTTO-36) and Ares response, all 11/30 · Manheim November 12/07. Court checks use the Atom feed (newest 30 entries) until WQ-531. History → STATUS_COLD §20–22.
+| 2026-11-09 (Mon) | CRMT tenth-bridge relief expiry | 🔴 BROCK; not maturity. Backstop #7 11/10 |
+| 2026-11-10 (Tue) | NY Fed Q3 Household Debt and Credit, 11:00 ET | 🟠 confirmed, advisory 11/04; non-contradiction check only |
+| 2026-11-11 (Wed) | Tricolor §341 continued | 🟠 confirmed; 10:00 CT; re-verified at Verita 11/05 |
+| **Total Auto Loans (NY Fed Q2 2026)** `[CONF HHDC 2026Q2, pub 2026-08-11]` | **$1.713T** (+1.66% QoQ, accelerating from +1.08%; ATH) while total household debt FELL ($18.784T → $18.771T). Q3 release 11/10 11:00 ET (advisory 11/04) | 🟠 |
+| **Auto transition-to-90+ (Q2 2026)** `[CONF HHDC 2026Q2]` | **3.0028%** (+3.3bp QoQ, +6.8bp YoY; first 3.00%+ print); ages 18-29 4.835%. Pct-of-balance 90+ FELL to 5.49% (faster charge-off) — `[EST]` consistent with skip→charge-off but NOT separable from seasonal timing | 🟡 |
+| **CRMT — tenth bridge through 11/09** `[CONF 8-K 0001171843-26-007147; BROCK KB-BRK-419, 11/05]` | Agreed 11/04, filed 11/05. +5 days, no new money, no exhibit or sale agreement. Bridge-8 terms stand. Relief expiry, not maturity. Not a fraud case; BROCK grades | 🔴 |
+
+## LENDER WATCHLIST
+
+> Old Feb–Mar rows: cold §15; October25 five-name dispositions: cold §19 (verbatim). No current rating colour assigned.---|---|
+| Bridgecrest / Carvana | Old GT watch superseded by May5 retention; July/October ABS terms known, no corporate-fraud adjudication |
+| Exeter | Old eight-ECNL-raises claim lacks a current same-deal action tie-out; accessible primary body incomplete. Continued issuance is separate |
+| CPS | Old19.75% lacks deal/vintage basis. Q2 issuer Note8 reports no material proceedings as then measured; not current universal absence of class actions |
+| Lendbuzz | Current S&P watch outcome not established; another agency’s indexed actions cannot resolve it |
+| SAFCO | S&P’s indexed December19,2025 action says2025-1 removed from CreditWatch with downgrades. Full body/current later surveillance unavailable; old watch not current status |
+
+---
+| 2026-10-20 (Tue) | First Brands D&O insurer hearing (Dkt 3669/3800) | 🟠 held; no order; reset to 11/18. One party's account (ECF 160) says the court will not act while the appeal is pending; transcript restricted to 1/25/27 |
+| ~2026-12-01 (Tue) | Hertz fleet-disposal watch: $199M notes and HVF III 2021-2 mature 12/2026; 2021-2 $1,000M at 9/30, was $2,000M at 6/30, reason not stated | 🟡 modeled; 10-Q and Ex. 10.2 read 11/06: no Amortization Event, Q3 disposals flat, not fired, not closed. All $300M Class B holders refused, replaced at 12.46%; a 12/31 miss resets it to 8/31/27, not a fire. Credit is LIQUID |
+BOTTOM LINE clauses (s041, s042): s041: Carvana is DORMANT; borrower exit is an unverified hypothesis; the recovery drop is real at the filing but one noisy month; the SDT's noise floor is withdrawn; Credit Acceptance widens the loss story past 2022; Ares and AllianceBernstein are on file as Tricolor lenders under Rule 2004, not accused. s042: Manheim October 206.8 missed OTTO-37 by 0.2; the hinge did not move.
+| Subprime ABS shelf activity `[CONF SEC EDGAR, run 2026-10-25]` | **8/8 tracked shelves have a 2026 vintage**; prior-year controls passed. Does not prove uninterrupted current access or absence of a later halt. EART through2026-4; -5 window closes 11/12. New run `research/2026-10-25_catchup/SHELF_OUTPUT.txt`; historical ledger FROZEN | 🟢 |
+| Wilmington Trust | Narrow Tricolor resignation9/20/2025 confirmed; broad exit allegation corporate-denied; OTTO-31 8%. Full row cold §19 | 🟠 |
+| Carvana 10-K delayed or GT resigns | ❌ 10-K filed; Q3 10-Q filed on time 10/28 with earnings; no auditor change disclosed |
+| First Brands | Invoice fab + Ponzi | 🔴🔴 **Ch.7 — order ENTERED 9/1 (Dkt 3748)**; trustee **Eva S. Engelhart**, no §702 election (Dkt 4027); §721 operation GRANTED 11/02 (Dkt 4022) to 3/31/27, limited wind-down; DIP 22.8¢ (BROCK); criminal trial **2/9/27** (US v. James), reassigned to Judge Caproni 11/03, Patrick James moved 11/05 to adjourn to 6/21/27, government opposes |
+| 2026-11-17 (Tue) | First Brands Evolution turnover motions, 13:00 CT (Dkt 3997) | 🟠 date unconfirmed after a textless 11/02 clerk entry; §721 already decided 11/02 |
+| Tricolor | Double-pledging + falsified delinquency data (charged) | ~3% recovery; $113M gridlock; superseding 8-count indictment 6/24 (§225); COO Goodgame guilty + cooperating; **trial 1/25/27** (Chu only); trustee's Rule 2004 campaign ~24 motions incl. Ares (Dkt 1297) and AllianceBernstein (Dkt 1356) |
+| Tricolor Auction Recovery `[CONF Verita Dkt 1494, 1482, read 11/06]` | **9,082 sold, $63.09M net, 1/11 to 10/31** (Holman, sworn, summed; ties to the old 5,857 and $39.5M at 4/30). **Trustee at 9/30: $53.78M received, $65.0M estimated, ~2,000 cars left**; Holman's own 9/30 sum is $2.53M higher, unexplained, different bases. **3.2% of ~$2B so far; ~3% stands.** Sales deadline 11/30 (Dkt 1467); October's 7.4% of cars failing to cover sale costs is the highest yet, tail mix. Detail `research/2026-11-06_close-refresh/READOUT.md` §1 | 🔴🔴 |
