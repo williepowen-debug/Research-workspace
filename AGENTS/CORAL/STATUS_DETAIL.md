@@ -1995,3 +1995,88 @@ KRE $72.20 −0.15% · SSB $104.11 −0.58% · SBCF $33.54 −0.18% · BKU $44.0
 **Last Updated:** 2026-11-09 10:5x ET (Mon, **coral-ae**, catch-up on Will's ask via PROME prome-6f 10:46 ET): **MSI reading #13 (data 11/08): 4-of-5, Cape Coral 5.84 series low ⇒ re-fire fails, leg 🟠.** Avidia 10-Q, FEMA DR-4955 notice, OIR, Citizens weekly all unchanged since 11/06; Amendment 3 not re-read (state site unreachable). **No colour moved.** Evidence § AD; prior header → § AD0.
 | Coastal flooding + fall rain | King tide 10/25–10/29: record / near-record water on SE-FL gauges (levels = AEOLUS), no tally. **Rain 10/31–11/5: state emergency in 14 counties incl. Palm Beach, not Broward (EO 26-227, 26-228)**; six rainfall bases kept apart (Riviera Beach "over 19 inches" in 12 h is the Governor's order; PBI gauge 11.67 in 2-day). No insured-loss figure, no FEMA declaration. Flood = NFIP and uninsured channel. Evidence § AB5 | 🟡 |
 | **State fiscal (9)** | **Amendment 3 PASSED on unofficial returns: Yes 61.98% (4,917,796 of 7,933,991; state page 11/06); certification 11/17.** My "leaning FAIL" was wrong. Local revenue (Revenue Estimating Conference): **−$4.95B FY27-28 · −$8.78B FY28-29 · −$11.86B recurring** — one estimate, so the carried −$4.9B and the press $12B agree; not a realized loss. Who fills it and muni credit UNREAD. Amendment 1 (BSF cap) **failed, 40.9%**. **FEMA cost shift (L784):** reserves $16.2B FY26-27; soft spot = EPR Fund ($163.1M at 9/1) and counties carrying the match. Full row → § AB0 | 🟠 |
+
+## AF. 2026-11-11 (Wed, 09:47–) — coral-af: catch-up on Will's word via PROME prome-2b ("get all our agents caught up to the live data and news") — evidence
+
+### AF0. Header rotated from STATUS 2026-11-11, verbatim
+**Last Updated:** 2026-11-09 13:0x ET (Mon, **coral-ae**, Will's direct ask 12:55 ET: flooding + Amendment 3 implications): **floods re-based — epicentre Brevard/Space Coast, not Palm Beach; ~2,000 damage registrations; AccuWeather $3–5B total economic; 16% of FL households flood-insured (AM Best); no federal declaration and no state request yet (OpenFEMA 12:5x ET).** Amendment 3: rating agencies negative, S&P 90-issuer average −14% revenue by end-2028; nothing bites before FY27-28. MSI #13 4-of-5, leg 🟠. **No colour moved.** Evidence § AE; prior header → § AE0 (§ AD for the morning).
+
+
+**Bottom line rotated from STATUS 2026-11-11, verbatim:**
+
+**11/06: no new household-strain print, the big fiscal unknown resolved against my read, and the bank bridge is still unbuilt.** Amendment 3 passed at 61.98% on unofficial returns, which costs local governments $4.95B in FY27-28 rising to $11.86B a year; I had it leaning fail. MSI reading #12 is 4-of-5 and Cape Coral at a series low 5.85, so the supply leg stays 🟠; that is one leg, not an all-clear. Seven bank 10-Qs show no association-loan disclosure; the frozen bank frame closed at no transmission, three HOLDS and BankUnited MIXED on a $21.3M modified CRE balance of unknown location. ⛔ Correction: household aid is flagged in all 8 Panhandle counties Florida asked for; my 10/29 "no household aid" no longer stands. Rain put 14 counties under a state emergency; on 11/09 the epicentre is Brevard, with no insured-loss figure and no federal declaration request yet (§ AE1). Isaias insured losses reached $735.5M at 11/06, +12.8% in ten days. ⚠️ Single-family prices +1.18% YoY in September. ⛔ None of this is a bank-loss signal; overall 🟠 unchanged. Prior bottom line → § AB0.
+
+### AF1. Parcl MSI reading #14 (data date 2026-11-10), taken early
+**Route (unchanged, § AD1):** `GET …/v1/msi/metrics/session` HTTP 200 09:5x ET 11/11 → metrics tile `msi-metrics/20261111T100957Z/free/all/msa.json` (`built_at` 2026-11-11T10:09:57Z; 927 metros) + bundles `msi-bundles/20261111T101326Z/free/<parcl_id>.json`. Tile summary MSI == each bundle's daily `all` series LAST point, dated **2026-11-10** for all five; tile `context_as_of` 2026-11-10; `as_of_week` 2026-11-02 (weekly series, not this instrument). One build carries all five ⇒ one reading (WQ-475 (a)). The 11/10 build (if any) was not read; this is the first build CORAL read carrying 11/10.
+
+| Metro | **#14 MSI (data 11/10)** | Listings | % cutting | #13 as recorded (data 11/08) | 11/08 in the 11/11 build |
+|---|---:|---:|---:|---:|---:|
+| Tampa | **7.24** | 26,031 | 51.7% | 7.23 | 7.24 |
+| Punta Gorda | **6.20** | 4,360 | 43.2% | 6.19 | 6.19 |
+| North Port | **6.22** | 11,898 | 44.6% | 6.22 | 6.22 |
+| Cape Coral | **5.82** | 13,605 | 42.2% | 5.84 | 5.84 |
+| Lakeland | **6.27** | 8,050 | 47.6% | 6.30 | 6.31 |
+
+- **Grade (amended letter WQ-241, basis WQ-475 A):** 4-of-5 > 6.00; Cape Coral 5.82 ⇒ **re-fire reading FAILS, clock at zero**; stand-down N/A (leg already 🟠). Leg 🟠. **Next reading #15 by 2026-11-19 (GATES review_by unchanged).**
+- **Level facts, this build (2/1→11/10):** Cape Coral ≤ 6.00 on 24 days, 10/18→11/10 unbroken; < 5.90 every day 11/04→11/10; **5.82 on 11/10 = series low** (5.84 → 5.83 → 5.82 over 11/08–11/10). Punta Gorda low 6.18 (11/06; 6.17 in the 11/09 build), North Port low 6.20 (11/06). Lakeland drifted 6.31 → 6.27 in three days; still > 6.00.
+- **Revision fact:** vs the 11/09 build, every changed historical value moved **+0.01** and only +0.01, across many days in all five metros (Punta Gorda ~48 days, Cape Coral ~45). Upward-only revisions n=4 readings. #13 stands as recorded (WQ-475 (c)).
+- **Inference audit (13a):** no causal claim. ⛔ Not an all-clear, not bank evidence. CORAL-01 (Cape Coral first print > 6.00 by data date 12/15, 15%) unresolved and further away; not re-priced.
+- Extract: `sources/parcl/parcl_msi_daily_5metros_build20261111T101326Z.csv` (daily 8/1 → 11/10).
+
+### AF2. Florida rain — ONE figure, read at the WPC primary (answers AEOLUS 11/11 and WALTER SIG-W-20261111-008)
+**Primary:** WPC Storm Summaries for "Florida Heavy Rainfall and Flash Flooding" (storm22), `wpc.ncep.noaa.gov/storm_summaries/storm22/stormsum_1..3.html`, read 09:5x ET 11/11. #3 is the **final** summary (10 PM EST Tue 11/03): *"Selected preliminary Storm Total Rainfall in inches where the event has ended"*, storm total "since early Sunday" (11/01).
+
+| Station (WPC #3) | Inches | County (CORAL's assignment) |
+|---|---:|---|
+| **MALABAR 1.9 SE** | **24.69** | Brevard |
+| **WEST PALM BEACH 2.4 N** | **22.83** | **Palm Beach** |
+| GRANT-VALKARIA 2 NE | 22.75 | Brevard |
+| PALM BAY 0.7 N | 22.00 | Brevard |
+| MELBOURNE BEACH 1.1 S | 20.84 | Brevard |
+| BAYSIDE LAKES 2 E | 20.33 | Brevard |
+| THE ACREAGE 2 NE | 19.27 | Palm Beach |
+| PORT SAINT LUCIE RIVER 2 W | 16.70 | St. Lucie |
+| RIVIERA BEACH 2.4 WNW | 15.47 | Palm Beach |
+| SUNRISE 1.3 NW · DAVIE 2.6 WSW | 10.28 · 10.17 | Broward |
+
+- **One figure: 24.69 in, MALABAR 1.9 SE, WPC preliminary storm total (11/01–11/03).** The NOAA/NWS/NCEP contour map labels the same value "Valkaria Airport"; one value, one gauge, two names (AEOLUS's reading) — accepted, not proven: the WPC list does not print coordinates.
+- ⛔ **Corrects my own ML-CORAL-155 / § AE1 "24 in in 24 h, Malabar"** (Wikipedia aggregator): the 24.69 is a **multi-day storm total**, not a 24-hour amount. The "24 h" phrasing is withdrawn.
+- ⛔ **Corrects the Palm Beach figure both AEOLUS and CORAL carried:** Palm Beach County's top WPC gauge is **22.83 in (West Palm Beach 2.4 N)**, not PBI 11.67 (airport, 2-day) or 15.5 (city, 12 h). Those stay true on their own bases (§ AB5) but are not the county maximum. EO 26-228's "over 19 inches" now has gauge support (22.83, 19.27).
+- ⛔ **Correction to my 11/09 framing "epicentre Brevard, not Palm Beach":** rainfall had **two cores**, south Brevard (five gauges 20.3–24.7) and Palm Beach (22.83, 19.27). Damage reports (2 deaths Palm Bay, ~2,000 registrations) still concentrate in Brevard. The 11/09 sentence over-corrected the rain; it stands for damage.
+- **Do not merge:** Grant-Valkaria **1 N 23.69** (WPC #2, 10 AM 11/03) is absent from #3, which lists Grant-Valkaria **2 NE 22.75** — different station locations; 23.69 appears in no final list. Broward: WPC 10.28 (to 11/03 evening) vs NWS Miami PNS 13.49 at Sunrise (72 h, 11/04) — different windows; Broward got more rain the night of 11/03.
+- **WALTER's ask — does the emergency order cover Brevard?** **Yes.** EO 26-227 (11/02) names Brevard first, with DeSoto, Hardee, Highlands, Indian River, Martin, St. Lucie; EO 26-228 (11/04) adds seven to 14 (§ AB5, primary). The Brevard-to-St. Lucie footprint is corroborated by WPC (Vero Beach 14.27, Fort Pierce South 13.73, Port St. Lucie 14.29–16.70).
+- **Federal aid:** OpenFEMA FL declarations ≥ 10/25 at 09:5x ET 11/11 = 15 rows, all DR-4955 (Isaias). **Still no flood declaration**, eight days after § AE1.
+
+### AF3. Re-checked since 11/09 (reads 09:47–09:52 ET 11/11)
+| Row | Result |
+|---|---|
+| FEMA DR-4955 FR notice | FR API, FEMA documents ≥ 11/01: 11/03 consolidated amendments notice (covers declarations amended 9/2–9/24; no 4955, no Florida in the text), the six routine 11/06 notices, an 11/10 OMB collection. **FEMA's own 4955 notice still unpublished ⇒ cost share UNKNOWN.** CORAL-04 open. |
+| OIR Isaias | Page still "Data as of November 6, 2026": **68,071 claims / $735,515,012**, 58.2% closed. CORAL-03 $64.5M short. |
+| Citizens | **215,397 policies at 11/06** (news page) vs 216,432 at 10/30 ⇒ **−1,035 on the week**, no takeout named. October month-end not checked. |
+| Avidia (CIK 2058758) | EDGAR 10-Q list: last 10-Q filed 8/13/2026; prior-year Q3 10-Q filed 11/14/2025. **Q3 10-Q not filed.** Row N waits. |
+| Fiscally constrained counties | Department of Revenue list page 404 from this box ⇒ WALTER card's "29 counties" stays unverified (ML-CORAL-159). |
+| Prices | boot.py 09:47 ET (Yahoo intraday, not a close): KRE $72.73 −0.49% · SSB $105.41 · SBCF $33.82 · BKU $44.03 · VLY $14.15 · USCB $20.09. Context only. |
+| NHC | not re-read; season ends 11/30. |
+
+### AF4. Rates: a December hike priced above one full move — what it does to CORAL's Florida mortgage and condo-financing read
+**Inputs are the owners' figures, not re-derived:** December fed funds future 95.920 at last trade 16:01 ET 11/10 = **+28.2bp** (HENRY; 95.925 = +27.5bp in the settlement window; CME settlement unread) ⇒ slightly more than one 25bp hike, a tail of 50bp. Treasury par 11/10: 2Y 4.73% (+17bp), **10Y 4.98% (+10bp)** (HENRY). PMMS **7.18% wk 11/05** (third straight fall), MND daily **7.30% 11/10, +12bp after CPI** (HOMER). ORACLE's pre-CPI prediction-market read 11/08: hike at December PM 76.5, Kalshi 78.0 (ORACLE's lane).
+
+**CORAL's read, on its own letters (inference marked):**
+1. **CORAL-02 (resolves 11/16) is untouched by the repricing.** October closings were contracted and locked in Aug–Sep, while PMMS fell 7.40 → 7.18. October is the **cleanest** month the L227 leg (a) instrument will get: falling rates, first full month under GSE Full Review. Probability not re-priced (60%).
+2. ⚠️ **From November the instrument is confounded.** A common rate shock is a RIVAL that moves the condo-vs-SF financed gap without any warrantability effect. Its SIGN is not known: financed condo buyers carry HOA dues in the debt-to-income test and skew first-time (more payment-sensitive ⇒ condo financed falls faster, the SAME direction as warrantability); SF volume is more finance-dependent (⇒ SF financed could fall faster, the opposite). **Either sign contaminates.** A Nov–Dec gap is not warrantability evidence unless a control separates them: candidates are the national condo-vs-SF financed gap (rates hit everywhere, warrantability bites FL's older stock hardest) or the non-warrantable/portfolio share of FL condo loans. Not proposed as a rule here (L227 leg (a) still has none; limits of this session).
+3. **Refuter for the GSE leg, stated:** if October condo financed units do NOT fall faster than SF financed (CORAL-02 FALSE), the first full Full-Review month shows no financing gap and the GSE leg weakens for now.
+4. **Association loans (inference; no lender discloses terms):** repair loans and lines to associations are commonly priced off prime, which moves one-for-one with fed funds; a December hike passes into debt service and so into assessments in 2027. Avidia's segment ($491.9M, quality unsplit) is the only disclosed book.
+5. **MSI and prices:** higher mortgage rates thin the financed buyer pool into the winter season, which pushes toward MORE motivated sellers; one day of rates does not move CORAL-01 (15%). Cape Coral is falling, not rising.
+6. **Banks:** rate-shock reclassification of CRE is the criticized-loan story already graded as not loss content; a higher front end extends it. Bank rail unchanged: NOT met, NOT armed. REGINALD owns "the 10-year moves regionals".
+7. **Tradeability (USER.md 11/10):** no material new finding for TERRY; the rate move is HENRY/HOMER's and the FL consequence is a confound note, not a signal. No route.
+
+### AF5. Inbox dispositions (whole inbox, every sender)
+| Item | Disposition |
+|---|---|
+| PROME 11/10 DBPR closed (clarification unanswered) | **acted:** three events recorded in `sources/condo/DBPR_request_W212505-100226_log.md`; STATUS row X and CALENDAR corrected. |
+| PROME 11/10 WQ-668 B DBPR dropped | **acted:** recorded CLOSED BY THE DEPARTMENT, NOT RESUBMITTED; nine associations' filings NOT OBTAINED; no replacement drafted. |
+| PROME 11/10 WQ-547 three dockets dropped | **acted:** Dockside 6:25-bk-04636-GER, Grande Isle Towers 2:26-bk-00951-FMR, FIHPNP/Brightline 26-20876 recorded NOT READ, DROPPED BY WILL 2026-11-10, outcomes UNKNOWN (CALENDAR rows). No grade depends on them. Not re-raised. |
+| AEOLUS 11/11 rain one number | **acted:** adopt 24.69 in, read at WPC myself; packet back with the Palm Beach 22.83 correction (§ AF2). |
+| WALTER SIG-W-20261111-008 (ACTION) | **acted:** § AF2; Brevard is in EO 26-227. |
+| WALTER SIG-W-20261111-004 | **noted:** only the NWS Miami El Niño line and @DRmetwatch are ours → ML-CORAL-160 (combo, water on collateral). Rest other desks'. |
+| WALTER SIG-W-20261110-009 | **noted:** only the 29 fiscally constrained counties line is ours → ML-CORAL-159 (combo, local revenue squeeze), unverified. Rest other desks'. |

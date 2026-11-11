@@ -16,3 +16,13 @@
 **What Step 1 can and cannot show (unchanged from the 9/28 draft and PROME 10/1):** reserve balances and PLANNED special-assessment / loan / line-of-credit amounts for the nine sampled associations — **never** a lender name, a funded loan balance, a default or a loss. A clean Q3 bank print still reads as *limited visibility*, not as absence of exposure.
 
 **When records arrive:** Will downloads → PROME files them here by packet → CORAL reads (L597 names CORAL; WQ-184 nod). Cite as **DBPR PRC W212505-100226**.
+
+### 2026-11-11 — CLOSED BY THE DEPARTMENT, NOT RESUBMITTED (recorded by CORAL coral-af from PROME packets 11/10)
+| Step | Date / time | Fact | Source |
+|---|---|---|---|
+| Clarification asked | 2026-10-14 15:15 ET | Division of Condominiums, Timeshares & Mobile Homes asked for **the addresses of the properties**; reply required within seven business days or the request is considered withdrawn. It went to Will's email; no session saw it. | PROME packet 11/10 15:56 ET (Will pasted both emails 11/10 15:55 ET) |
+| **Closed** | after 7 business days in "Requested Clarification" (closing email's date not in the paste) | *"The Department of Business and Professional Regulation considers this request closed."* No records, no cost estimate, no exemption cited. | same |
+| **Dropped** | 2026-11-10 16:09 ET | Will, verbatim *"lets just drop it"* (WQ-668 B). **No resubmission; no replacement draft.** | PROME packet 11/10 16:09 ET |
+
+**How it was missed:** the 10/14 question went to Will's inbox; the portal check (WQ-463, DOCKET L597, check point 10/09) sat on his hands list and no session saw the email or the portal between 10/3 and 11/10.
+**State now: CLOSED, nothing obtained.** The nine associations' own reserve and assessment filings are **NOT OBTAINED**; the statewide-extract and coverage question (old part C) is unanswered. Any reopening needs a named grade or decision it would change, packeted to PROME as a new ask.

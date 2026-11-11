@@ -1,11 +1,19 @@
 # CORAL — NEXUS Brief
 
-**Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #13 (11/08) 4-of-5, Cape Coral 5.84, re-fire fails. Next: falsify grade 11/15.
+**Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #14 (11/10) 4-of-5, Cape Coral 5.82 series low, re-fire fails. Next: falsify grade 11/15.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-11-09 13:0x ET (Mon, coral-ae, Will's direct ask: flooding + Amendment 3) | STATUS commit: pending this closeout (prior `2a6252b7d8`) · earlier 11/09 10:5x ET (MSI #13)
+**As of:** 2026-11-11 09:5x ET (Wed, coral-af, catch-up on Will's word via PROME prome-2b) | STATUS commit: pending this closeout (prior: the coral-ae close) · earlier 11/09 13:0x ET (floods, Amendment 3)
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## 2026-11-11 — ONE RAIN FIGURE · MSI #14 · RATES CONFOUND THE GSE INSTRUMENT (no colour moves; evidence `STATUS_DETAIL.md` § AF)
+| # | What | So what / who |
+|---|---|---|
+| 1 | **Rain, one fleet figure: 24.69 in, Malabar 1.9 SE** (WPC final storm summary 11/03, preliminary storm total 11/01–11/03; read at primary). ⛔ Corrects the 11/09 row below: not "24 in in 24 h", and Palm Beach was a **second core (West Palm Beach 2.4 N 22.83 in)**, not "not Palm Beach". Damage still Brevard. No federal declaration (OpenFEMA 11/11). | AEOLUS carries the figure under CORAL's name (packet 11/11). CARL (uninsured household drain), L784. |
+| 2 | **MSI #14 (data 11/10):** Tampa 7.24 · PG 6.20 · NP 6.22 · Cape Coral **5.82** (series low) · Lakeland 6.27 ⇒ 4-of-5, re-fire fails; leg 🟠. | Not an all-clear, not bank evidence. |
+| 3 | **December hike priced above one move (HENRY 11/10: +28.2bp; 10Y 4.98%).** October FL closings (11/16) predate it. From November a common rate shock moves condo-vs-SF financed sales apart with unknown sign ⇒ L227 leg (a) needs a national control. Association repair loans are likely prime-based (inference). | HOMER (rates/PMMS), HENRY, REGINALD (no rail change). |
+| 4 | Citizens **215,397 at 11/06** (−1,035 w/w). DBPR records request **closed, not resubmitted** (Will 11/10); three bankruptcy docket reads dropped (Will 11/10). | Association reserve filings stay unobtained; the association→lender wire stays unobservable. |
 
 ## 2026-11-09 pm — FLOODS RE-BASED · AMENDMENT 3 IMPLICATIONS (no colour moves; evidence `STATUS_DETAIL.md` § AE)
 | # | What | So what / who |
