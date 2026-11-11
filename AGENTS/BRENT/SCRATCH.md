@@ -1,5 +1,10 @@
 # BRENT SCRATCH — November 10 desktop pickup (launched by PROME prome-07 on Will's word 11:38 ET; Petroline addendum 2026-11-10 14:52 EST; first written 2026-11-10 14:47 EST, from `date`)
 
+## NOVEMBER 11 (live session for prome-2b, from 08:48 EST; window held open, full closeout on PROME's ask)
+- WALTER SIG-W-20261111-001 graded → `research/2026-11-11_saudi-momr/NOTE.md`. Saudi self-report 10.563 (MOMR via Reuters; opec.org 403/402, not read). Series used: EIA COPR_SA 9.3 + survey 9.2. STEO 2.5 mb/d shut-in NOT overtaken (about 1.2 if the self-report holds). Nothing moved on my letter. Early grade sent to prome-2b about 08:51 EST; packet to `PROME/inbox/`.
+- TRADE: both USO expiry rows re-checked against FORGE c4022901e8, still open. CATALYSTS: combo:gulf-flow-basis and combo:paper-physical-gap 11/11 adds.
+- **Owed today, before closeout:** item 0 below (11/10 settles), BRT-33 window after 14:45 ET (item 1), and NEXUS_BRIEF write-back (step 12, not done yet). Open: OPEC secondary-source Saudi October figure. If it is 10 or above, re-grade NOTE § 3.
+
 ## CHANGES SINCE LAST SESSION
 - Brent January (BZF27) settled 92.57 on 11/9 and touched 89.15 at 08:40 ET on 11/10 [EST wire, vendor]. Causes: an unconfirmed Qatar interim-terms report and US de-escalation lines. No barrels returned and the blockade stands.
 - EIA November STEO released 11/10 (forecast completed 11/5): the Q4-26 world balance flips to a 1.47 mb/d build on supply, and COPS_OPEC is 0.01 mb/d from October 2026 to March 2027.
