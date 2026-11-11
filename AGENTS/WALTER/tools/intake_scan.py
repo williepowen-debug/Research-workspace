@@ -25,6 +25,8 @@ each carries an item id, and news is already deduped lane-side (news_seen.json).
   $ python3 tools/intake_scan.py --json     # machine-readable worklist
   $ python3 tools/intake_scan.py --cruise-disposition KEY DISPOSITION REF
                                             # close ONE CRUISE_CAPITAL_REVIEW candidate after review
+  $ python3 tools/intake_scan.py --gpu-disposition KEY DISPOSITION REF
+                                            # close ONE GPU_FINANCE_REVIEW candidate after review
 
 CRUISE_CAPITAL_REVIEW (WQ-598 A, Will 2026-11-04): a human-review queue of KNOWN cruise-issuer
 capital headlines, not an alert and not an automatic dispatch. It lives in its own namespace and
@@ -80,6 +82,16 @@ CRUISE_CAPITAL_RE = re.compile(
     r"|debt financ\w*|loan|stake|joint venture|acquisition|tender offer|debt exchange)\b", re.I)
 # Same tokens as tools/batch_manifest.py, so a queue close reads like any other disposition.
 CRUISE_DISPOSITIONS = ("DISPATCH", "KILL", "NOTE", "FOLD", "DUP", "NO-ACTION")
+
+# GPU_FINANCE_REVIEW (Will 2026-11-11 12:36 ET, "can we fix it now"): the lane's gpu-obsolescence-1..4
+# rows (Research-Intake 5a3b083, VULCAN/BROCK) were collected but never surfaced, because this scan
+# showed alert items only (~115 unique titles 10/10 -> 11/10 sat unread; the Ares CEO remark reached
+# the BOARD 13 days late as SIG-W-20261111-020). Same design as CRUISE_CAPITAL_REVIEW: a ROUTINE
+# human-review list in its own namespace and state file, never an alert, never closed by --mark.
+# Baseline 2026-11-11: the backlog before it was triaged by hand (research/2026-11-11_aicapex-review/).
+GPU_STATE = WALTER / "registry" / "gpu_finance_review.json"
+GPU_BASELINE_DAY = "2026-11-11"
+GPU_LABEL_PREFIX = "gpu-obsolescence"
 
 
 def _now_utc():
@@ -388,6 +400,86 @@ def cruise_disposition(key, disposition, ref):
     return 0
 
 
+def _gpu_key(title):
+    norm = re.sub(r"\s+", " ", title).strip().casefold()
+    return "gpu:" + hashlib.sha1(norm.encode("utf-8")).hexdigest()[:12]
+
+
+def _load_gpu_state():
+    """(state, error). Missing = empty install state; unreadable = error, never read as empty."""
+    if not GPU_STATE.exists():
+        return {"baseline_day": GPU_BASELINE_DAY, "consumed": {}}, None
+    try:
+        state = json.loads(GPU_STATE.read_text(encoding="utf-8"))
+        if not isinstance(state.get("consumed"), dict):
+            raise ValueError("consumed is not a mapping")
+        return state, None
+    except (OSError, ValueError) as e:
+        return None, f"{GPU_STATE.name} unreadable ({type(e).__name__}); queue UNKNOWN, nothing consumed"
+
+
+def gpu_finance_queue():
+    """(open candidates, errors): every lane news row whose label starts gpu-obsolescence, from the
+    baseline day, not yet dispositioned. Identical titles fold into one candidate. Read-only."""
+    state, err = _load_gpu_state()
+    if err:
+        return [], [err]
+    errors, by_key = [], {}
+    try:
+        days = sorted(p for p in (LANE / "data").iterdir() if p.is_dir())
+    except OSError as e:
+        return [], [f"lane data/ unreadable ({type(e).__name__}); queue UNKNOWN"]
+    for d in days:
+        if d.name < state.get("baseline_day", GPU_BASELINE_DAY):
+            continue
+        p = d / "news.json"
+        if not p.exists():
+            continue
+        try:
+            items = json.loads(p.read_text(encoding="utf-8")).get("items", [])
+        except (OSError, ValueError, AttributeError) as e:
+            errors.append(f"{d.name}/news.json unavailable ({type(e).__name__}); that day UNKNOWN, nothing consumed")
+            continue
+        for i, it in enumerate(items):
+            if not str(it.get("label", "")).startswith(GPU_LABEL_PREFIX) or not it.get("title"):
+                continue
+            key = _gpu_key(it["title"])
+            if key in state["consumed"]:
+                continue
+            c = by_key.setdefault(key, dict(key=key, namespace="GPU_FINANCE_REVIEW", precedence="ROUTINE",
+                                            title=it["title"], owner="VULCAN,BROCK", rows=[]))
+            c["rows"].append(dict(day=d.name, index=i, date=it.get("date"), link=it.get("link"),
+                                  source=it.get("source"), label=it.get("label")))
+    return sorted(by_key.values(), key=lambda c: (c["rows"][0]["day"], c["rows"][0]["index"])), errors
+
+
+def gpu_disposition(key, disposition, ref):
+    """Close one GPU_FINANCE_REVIEW candidate. Refuses a key not currently open."""
+    if disposition not in CRUISE_DISPOSITIONS:
+        print(f"REFUSED: disposition must be one of {', '.join(CRUISE_DISPOSITIONS)}")
+        return 2
+    if not ref.strip():
+        print("REFUSED: REF must name the card, kill row or reason")
+        return 2
+    state, err = _load_gpu_state()
+    if err:
+        print(f"REFUSED: {err}")
+        return 2
+    queue, _ = gpu_finance_queue()
+    match = [c for c in queue if c["key"] == key]
+    if not match:
+        print(f"REFUSED: {key} is not an open candidate")
+        return 2
+    c = match[0]
+    state.setdefault("baseline_day", GPU_BASELINE_DAY)
+    state["consumed"][key] = dict(title=c["title"], disposition=disposition, ref=ref.strip(),
+                                  days=sorted({r["day"] for r in c["rows"]}),
+                                  closed=_now_utc().strftime("%Y-%m-%dT%H:%M:%SZ"))
+    GPU_STATE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"closed {key} {disposition} -> {ref.strip()}")
+    return 0
+
+
 def health(live):
     out = []
     lr = _parse_iso_z(live.get("last_run_utc", ""))
@@ -476,10 +568,14 @@ def main():
     ap.add_argument("--json", action="store_true", help="machine-readable output")
     ap.add_argument("--cruise-disposition", nargs=3, metavar=("KEY", "DISPOSITION", "REF"),
                     help="close one CRUISE_CAPITAL_REVIEW candidate after review")
+    ap.add_argument("--gpu-disposition", nargs=3, metavar=("KEY", "DISPOSITION", "REF"),
+                    help="close one GPU_FINANCE_REVIEW candidate after review")
     args = ap.parse_args()
 
     if args.cruise_disposition:
         return cruise_disposition(*args.cruise_disposition)
+    if args.gpu_disposition:
+        return gpu_disposition(*args.gpu_disposition)
 
     live, err = load_liveness()
     if err:
@@ -513,9 +609,11 @@ def main():
         return 0
 
     cruise, cruise_errors = cruise_capital_queue()
+    gpu, gpu_errors = gpu_finance_queue()
     if args.json:
         print(json.dumps({"health": hz, "new": new, "suppressed": suppressed,
-                          "cruise_capital_review": cruise, "cruise_capital_errors": cruise_errors}, indent=2))
+                          "cruise_capital_review": cruise, "cruise_capital_errors": cruise_errors,
+                          "gpu_finance_review": gpu, "gpu_finance_errors": gpu_errors}, indent=2))
         return 0
 
     print(f"RESEARCH-INTAKE scan — {_now_utc().strftime('%Y-%m-%d %H:%M')}Z")
@@ -543,6 +641,17 @@ def main():
         if c["edgar_overlap"]:
             print(f"      EDGAR same issuer in batch window: {'; '.join(c['edgar_overlap'])} "
                   "(if this is the same event, the existing route stands: no second dispatch)")
+    print(f"\n[GPU_FINANCE_REVIEW — {len(gpu)} open]  (ROUTINE human review of GPU depreciation / collateral / "
+          "GPU-backed loan / residual-value headlines, owners VULCAN and BROCK; never auto-dispatch; read the source, "
+          "date the event (reposts carry fresh dates), check BOARD and owner KB, then --gpu-disposition)")
+    for e in gpu_errors:
+        print(f"  ERROR {e}")
+    if not gpu and not gpu_errors:
+        print("  (none open)")
+    for c in gpu:
+        days = sorted({r["day"] for r in c["rows"]})
+        print(f"  {c['key']}  {len(c['rows'])} row(s), {days[0]}..{days[-1]}\n      {c['title'][:150]}"
+              f"\n      {c['rows'][0]['link']}")
     print(f"\n[suppressed — still-true, already seen — {len(suppressed)}]  (do NOT re-push)")
     for r in suppressed:
         print(f"  {r['key']}  ({r['raw'][:70]})")

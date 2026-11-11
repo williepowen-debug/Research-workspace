@@ -86,6 +86,7 @@
 66. **A peer's "unsupported" carries the window it tested; ask for the window before relaying the negative.** 11/06: LIQUID called Oracle CDS 3.25% unsupported through November 5 having tested only November files; October 20 printed 342.5. WALTER carried the line on card 037, then corrected it on 042. Same class as #28. → BOARD 042
 67. **"X said it failed" is the outlet's verb until you read X's words; find the quote, the venue and any denial before carrying it.** 11/06: card 043 carried "no comprehensive deal" from two paraphrases; the remark was at Oxford and Qatar's media office denied the failed-deal reports within hours. Re-read a live page once before committing a diplomacy card. → BOARD 048
 68. **A release on no calendar is invisible to step 7i, however clean the pass.** 11/06: Michigan's November preliminary sat uncarded for eight hours; CARL caught it. An all-reviewed calendar proves only the rows it holds. → BOARD 049
+69. **A lane row with no alert has no reader.** 11/11: the gpu-obsolescence searches collected ~115 titles in a month; the scan showed alerts only and no desk reads the lane, so the Ares CEO's GPU remark reached the BOARD 13 days late. At boot, clear every open GPU_FINANCE_REVIEW and CRUISE_CAPITAL_REVIEW item in the intake scan. → BOOT_PROTOCOL 7e(g2)
 Retired 2026-09-01 placement record rotated verbatim to MEMORY_PROMOTED.md § Rotation 2026-11-10T20:02:51Z.
 
 ## References
