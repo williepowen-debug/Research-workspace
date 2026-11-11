@@ -3,7 +3,7 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD (11/11 weekly review, on date; no letter met through about 13:45Z 11/11); losses 7; FAL-08..12 OPEN to 12/31, FAL-09 0 of 5. GATE-FALCON-001 LIVE, leg 2 NOT MET (94.9% vs ≤65%), next review 11/18. Petroline hit 11/9 and kept flowing: rung not fired. Trump holding off strikes, hulls hit 11/10: no halt started.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); v3.1 November 6 moves the live test to FAL-08, a STATED loss; no new pivot.
-**As of:** 2026-11-11 08:47 ET | STATUS commit: `8290c92b32` | Evidence cutoff about 13:45Z 11/11; centcom.mil, UKMTO (403) unreachable; SPA, Reuters direct, CTP 11/10 unread; CNBC, Anadolu, Arab News, IMO, TankerMap, PortWatch reachable
+**As of:** 2026-11-11 08:47 ET | STATUS commit: `aecb93dcf7` | Evidence cutoff about 13:45Z 11/11; centcom.mil, UKMTO (403) unreachable; SPA, Reuters direct, CTP 11/10 unread; CNBC, Anadolu, Arab News, IMO, TankerMap, PortWatch reachable
 
 ## CROSS-DOMAIN
 
