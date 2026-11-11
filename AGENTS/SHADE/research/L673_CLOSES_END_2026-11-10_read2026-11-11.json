@@ -1,0 +1,191 @@
+{
+  "retrieved_at": "2026-11-11T10:13:29-05:00",
+  "completed_at": "2026-11-11T10:13:30-05:00",
+  "source": "Yahoo Finance via yfinance; vendor vintage served at retrieval",
+  "source_urls": {
+    "ARCC": "https://finance.yahoo.com/quote/ARCC/history/",
+    "FSK": "https://finance.yahoo.com/quote/FSK/history/",
+    "OBDC": "https://finance.yahoo.com/quote/OBDC/history/",
+    "BIZD": "https://finance.yahoo.com/quote/BIZD/history/",
+    "APO": "https://finance.yahoo.com/quote/APO/history/",
+    "ARES": "https://finance.yahoo.com/quote/ARES/history/"
+  },
+  "owner_anchor_ref": "LIQUID STATUS L8 (HY 334 first-published through 11/9, graded 11/10; run above 280 since 9/24 per SHADE 11/6 read)",
+  "primary_window": [
+    "2026-09-24",
+    "2026-11-10"
+  ],
+  "since_last_read_window": [
+    "2026-11-06",
+    "2026-11-10"
+  ],
+  "basis": "RAW split-adjusted close; ADJ vendor dividend-adjusted close beside it",
+  "prices": {
+    "ARCC": {
+      "2026-09-24": {
+        "raw_close": 19.1299991607666,
+        "adjusted_close": 19.1299991607666,
+        "dividend": 0.0
+      },
+      "2026-11-06": {
+        "raw_close": 19.1299991607666,
+        "adjusted_close": 19.1299991607666,
+        "dividend": 0.0
+      },
+      "2026-11-10": {
+        "raw_close": 19.440000534057617,
+        "adjusted_close": 19.440000534057617,
+        "dividend": 0.0
+      }
+    },
+    "FSK": {
+      "2026-09-24": {
+        "raw_close": 11.170000076293945,
+        "adjusted_close": 11.170000076293945,
+        "dividend": 0.0
+      },
+      "2026-11-06": {
+        "raw_close": 11.699999809265137,
+        "adjusted_close": 11.699999809265137,
+        "dividend": 0.0
+      },
+      "2026-11-10": {
+        "raw_close": 11.970000267028809,
+        "adjusted_close": 11.970000267028809,
+        "dividend": 0.0
+      }
+    },
+    "OBDC": {
+      "2026-09-24": {
+        "raw_close": 10.800000190734863,
+        "adjusted_close": 10.490286827087402,
+        "dividend": 0.0
+      },
+      "2026-11-06": {
+        "raw_close": 10.9399995803833,
+        "adjusted_close": 10.9399995803833,
+        "dividend": 0.0
+      },
+      "2026-11-10": {
+        "raw_close": 11.15999984741211,
+        "adjusted_close": 11.15999984741211,
+        "dividend": 0.0
+      }
+    },
+    "BIZD": {
+      "2026-09-24": {
+        "raw_close": 12.899999618530273,
+        "adjusted_close": 12.462660789489746,
+        "dividend": 0.0
+      },
+      "2026-11-06": {
+        "raw_close": 12.529999732971191,
+        "adjusted_close": 12.529999732971191,
+        "dividend": 0.0
+      },
+      "2026-11-10": {
+        "raw_close": 12.6899995803833,
+        "adjusted_close": 12.6899995803833,
+        "dividend": 0.0
+      }
+    },
+    "APO": {
+      "2026-09-24": {
+        "raw_close": 120.69000244140625,
+        "adjusted_close": 120.69000244140625,
+        "dividend": 0.0
+      },
+      "2026-11-06": {
+        "raw_close": 116.75,
+        "adjusted_close": 116.75,
+        "dividend": 0.0
+      },
+      "2026-11-10": {
+        "raw_close": 122.73999786376953,
+        "adjusted_close": 122.73999786376953,
+        "dividend": 0.0
+      }
+    },
+    "ARES": {
+      "2026-09-24": {
+        "raw_close": 120.11000061035156,
+        "adjusted_close": 120.11000061035156,
+        "dividend": 0.0
+      },
+      "2026-11-06": {
+        "raw_close": 133.97999572753906,
+        "adjusted_close": 133.97999572753906,
+        "dividend": 0.0
+      },
+      "2026-11-10": {
+        "raw_close": 139.41000366210938,
+        "adjusted_close": 139.41000366210938,
+        "dividend": 0.0
+      }
+    }
+  },
+  "errors": {},
+  "scope": "Close arithmetic only. No HY series/count and no trigger-fire grade.",
+  "windows": {
+    "primary": {
+      "RAW": {
+        "per_name_pct": {
+          "ARCC": 1.6204986246250996,
+          "FSK": 7.16204284038191,
+          "OBDC": 3.333330095550213,
+          "BIZD": -1.6279073205964778,
+          "APO": 1.6985627482761334,
+          "ARES": 16.06860623901658
+        },
+        "wrappers_pct": 2.6219910599901866,
+        "managers_pct": 8.883584493646357,
+        "wrapper_minus_manager_pp": -6.26159343365617,
+        "cohort_pattern": "wrappers_not_down"
+      },
+      "ADJ": {
+        "per_name_pct": {
+          "ARCC": 1.6204986246250996,
+          "FSK": 7.16204284038191,
+          "OBDC": 6.384124965920024,
+          "BIZD": 1.824159340718623,
+          "APO": 1.6985627482761334,
+          "ARES": 16.06860623901658
+        },
+        "wrappers_pct": 4.247706442911414,
+        "managers_pct": 8.883584493646357,
+        "wrapper_minus_manager_pp": -4.635878050734942,
+        "cohort_pattern": "wrappers_not_down"
+      }
+    },
+    "since_last_read": {
+      "RAW": {
+        "per_name_pct": {
+          "ARCC": 1.6204986246250996,
+          "FSK": 2.307696257822678,
+          "OBDC": 2.0109714393709455,
+          "BIZD": 1.2769341645801457,
+          "APO": 5.130619155262983,
+          "ARES": 4.052849759461652
+        },
+        "wrappers_pct": 1.8040251215997172,
+        "managers_pct": 4.591734457362318,
+        "wrapper_minus_manager_pp": -2.7877093357626004,
+        "cohort_pattern": "wrappers_not_down"
+      },
+      "ADJ": {
+        "per_name_pct": {
+          "ARCC": 1.6204986246250996,
+          "FSK": 2.307696257822678,
+          "OBDC": 2.0109714393709455,
+          "BIZD": 1.2769341645801457,
+          "APO": 5.130619155262983,
+          "ARES": 4.052849759461652
+        },
+        "wrappers_pct": 1.8040251215997172,
+        "managers_pct": 4.591734457362318,
+        "wrapper_minus_manager_pp": -2.7877093357626004,
+        "cohort_pattern": "wrappers_not_down"
+      }
+    }
+  }
+}

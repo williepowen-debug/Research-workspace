@@ -285,3 +285,8 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 - Rotated STATUS §0t, §0s, §0m ① → `archive/STATUS_ROTATED_SECTIONS_2026-11-06.md` (crc32 `0fe75ab2`, recomputed).
 - Rotated MEMORY 8/28 lessons → `archive/MEMORY_lessons_rotated_2026-11-06.md` (crc32 `33e552b9`, recomputed). MEMORY now under the 22,785 B stop.
 - Retirement scan 11/6: 15 research files older than 60 days, 12 live or tied to a pending dated read; `2026-08-13_NEWS_SWEEP_PLAN.md`, `2026-08-13_NEWS_SWEEP_RESULTS.md`, `BMA_EGAN_JONES_RECOGNITION_2026-08-13.md` moved to `archive/`.
+
+## 2026-11-11 — Catch-up rotation
+
+- Rotated STATUS §0u and §0m items ②, ②b, ③, ⑥ → `archive/STATUS_ROTATED_SECTIONS_2026-11-11.md` (crc32 `5fcf94c5`, `tail -n +5`, recomputed; the first pointer was written with `+4` and the recompute caught it). STATUS 25,141 → 22,498 B, under the 22,785 B stop.
+- New research record `research/CATCHUP_2026-11-11.md` and snapshot `research/L673_CLOSES_END_2026-11-10_read2026-11-11.json`. Retirement scan not rerun (last run 11/6).

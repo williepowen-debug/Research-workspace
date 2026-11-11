@@ -1,30 +1,25 @@
 # SHADE SCRATCH — restart handoff
 
-## Q3 read / L185 / drain — 2026-11-06 (PROME assignment, Claude Code, Opus 5.5, session 08fba91f; waiting for the closeout ask)
+## Catch-up — 2026-11-11 (PROME prome-2b assignment on Will's 09:24 ET word, Claude Code, Opus 5.5, session d7af05d7; window held open for the closeout ask)
 
-**Authority:** Will's word 2026-11-06 15:24 ET in PROME's chat. $0, no paid data, no trade. Moved no score, band, gate or threshold.
+**Authority:** research only, $0, no trade, card, gate, band, threshold or charter change. Moved nothing.
 
-**Done:** Inbox 3 + 17 → 0; board_log +20 plus 4 `COMBO-` theme rows; COR-20261105-39, -52, 20261106-15 NO-OP receipted. ACTION cards were three, not one: 036 cyber, 007 Apollo, 012 Delaware Life. L185 legs: L3 pinned, pledged extracted, BMA walked, X1 position sent to BROCK. `T-SHADE-01` NOT MET at the 11/5 close. AI cards answered. F-SHADE-01 falsifier written, DAEDALUS replied. SHD-01 to 03 registered. MEMORY and STATUS rotated. AAIA Key Ratio #1 recorded CRITICAL BY LETTER. Record `research/L185_Q3_INSURER_READ_2026-11-06.md`.
+**Done:** Inbox 3 → 0 (PROME Clear Spring overview acted; WALTER 20261109-007 noted under `combo:ai-credit-in-wrapper`; 20261111-008 info-only). Corrections rc 0. `T-SHADE-01` NOT MET at the 11/10 close (+2.62% vs +8.88%, both up). Hiking-Fed read on my letters. Clear Spring YE2025 C&S $1,194.3M, affiliated ≈4.94× surplus. F-SHADE-01 gate: 30 sessions >300 through 11/9 on today's FRED, confirm on LIQUID's series. STATUS rotated (§0u + four §0m items, crc `5fcf94c5`, `tail -n +5`). Record `research/CATCHUP_2026-11-11.md`. Packet `PROME/inbox/2026-11-11_from-SHADE_catchup-live-data.md`.
+
+**Network note:** github.com DNS failed once at 10:12 ET then resolved; `git pull --rebase` not run because other desks' files are dirty/staged in the shared index (LIQUID renames, PROME SCRATCH). Committed my paths only.
 
 **NEXT SESSION, in order:**
-1. **~11/12 Q3 FI deck:** grade the canary (S1 ~$2.3B, S2 34.2% in hand; S3 and penalty from the deck), execute C2 (L184, S2 leg already fails), grade SHD-01. Compute the penalty like-for-like and quote both.
-2. **~11/15 DLIC Q3** (`delawarelife.com/content/business-highlights`): Note 10 and subsequent events for gross TWG completion, then SHD-02. Exhibit 1 + SoO L15 flows. Rungs (1)–(6).
-3. **AAIA Q3 statutory** (ir.athene.com statutory page): name-level lines for SVF II Finco, SoftBank, Oracle CMLs, Big Sky; what share sits at AAIA vs ACRA.
-4. **BMA:** ACRA 1A/2A FY2025 Level 3 and related-party notes; Catalina FY2025.
-5. X1 reconcile: BROCK CONCUR in hand, PROME carries it to Will. `T-SHADE-01` next eligible endpoint 11/9 close, reading LIQUID's HY cell for 11/6 first (due about 10:10 ET Monday 11/9). Snapshot script `research/tshade01_close_snapshot.py`, anchor 2026-09-24, previous end 2026-11-06.
-6. Still owed by 11/20: declared-flat TRADE surface, ARI DEFM14A annex, SVO count. Guggenheim Universe lead waits on WALTER's document. WQ-422 Clear Spring documents are Will's hands; never chase.
+1. **11/12 Q3 FI deck** (ir.athene.com/presentations): grade the canary (S3, penalty like-for-like and as printed), execute C2 at D:L184, grade SHD-01 (D:L1067).
+2. **`T-SHADE-01`** next eligible endpoint the 11/11 close; read LIQUID's 11/10 HY cell first (about 10:10 ET 11/12). Script `research/tshade01_close_snapshot.py --anchor 2026-09-24 --previous-end 2026-11-10`.
+3. **BMA deeper walk for D:L185 by 11/18:** ACRA 1A/2A FY2025 Level 3 and related-party notes; Catalina FY2025.
+4. **DLIC Q3** index on or after 11/15 (D:L240, SHD-02): Note 10 and subsequent events for gross TWG completion; Exhibit 1 + SoO L15 flows.
+5. **AAIA Q3 statutory:** name-level SVF II Finco, SoftBank, Oracle CMLs, Big Sky; FHLB collateral (the hike's most direct link).
+6. **NAIC Fall meeting readouts** (Dallas, Life RBC 11/15): vector #4 watch only.
+7. Still owed by 11/20: SVO override count (all that remains of D:L241), declared-flat TRADE surface, ARI DEFM14A annex. Guggenheim Universe waits on WALTER.
 
-**Open unknowns that matter:** SVF II Finco = Vision Fund 2 NAV loan is INFERRED. $1.4B SoftBank-guaranteed loan = 14% of SoftBank's $10B loan is INFERRED from arithmetic (not an "OpenAI-share margin loan", card 041: cash collateral account, SoftBank Group guarantor, drawdown unconfirmed). $1,749M vs $1.4B ($349M) and $845M vs $0.94B ($95M) unreconciled. O on the WHCO guarantee still unstated. Issuer's rate attribution of the mortgage loss is unaudited in the quarter. `2026 Asset Risk Stress Considerations` deck fetched, not read. Apollo 10-Q read only for the WHCO note.
+**Open unknowns that matter:** prior list (11/6) unchanged: SVF II Finco identity and the SoftBank loan share INFERRED; WHCO guarantee base O unstated; mortgage-loss rate attribution unaudited. New: the hike's FHLB effect needs haircuts that are not public.
 
-**Closeout 2026-11-06T15:44:46-05:00:** PROME's ask received. BROCK's packet landed during the push and is taken in: X1 CONCUR, carried by PROME to Will; IREN Mackenzie has no insurer established as a holder (no-insurer finding logged under `ai-credit-in-wrapper`). Retirement scan run, 3 files archived.
-
-**Second closeout 2026-11-06T16:48:53-05:00:** Will's restart order via PROME, 16:46 ET. Card 041 landed after the first closeout and is taken in, COR-20261106-41 APPLIED, one loan label corrected, no Athene figure changed.
-
-**Close refresh 2026-11-06T17:23:10-05:00:** Will's 17:08 ET word via PROME. Inbox and WALTER lane 0, corrections rc 0, cards 043-046 route nothing to SHADE. `T-SHADE-01` NOT MET at the 11/6 close (+0.79% vs +4.14%, both up); level MET on 30 published sessions through 11/5, the missing 11/6 cell cannot change the grade. AAIA Q3, Q3 FI deck and DLIC Q3 not posted. No score, band, gate or threshold moved. `git pull --rebase` refused on other desks' dirty files, HEAD equalled origin/master, nothing was stashed. Same-day retirement scan not rerun. Record `research/L673_CLOSE_READ_2026-11-06.md`.
-
-**Raw sources** were in session scratch only; accession numbers and hashes are in the research record. Re-fetch from SEC and ir.athene.com.
-
-**Prior handoff** (10/29 L781) → `git show cf97c133c:AGENTS/SHADE/SCRATCH.md`.
+**Prior handoff** (11/6 Q3 read) → `git show 5b514d55e4:AGENTS/SHADE/SCRATCH.md`.
 
 ## Saved research and accepted qualifications
 

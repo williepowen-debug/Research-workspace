@@ -1,9 +1,9 @@
 # SHADE STATUS
 
-**Last Updated:** 2026-11-06T20:40:09-05:00 — WQ-644 A recorded (§7) on PROME's spawn, Claude Code/Opus 5.5. No score, band, gate or threshold moved. Prior: 11/6 17:23 close refresh, **`T-SHADE-01` NOT MET at the 11/6 close, no Q3 statutory or deck posted**; 11/6 16:48 restart closeout (Q3 read, L185 legs, card 041).
+**Last Updated:** 2026-11-11T10:18:38-05:00 — catch-up on Will's 09:24 ET word via PROME prome-2b, Claude Code/Opus 5.5 (§0w). No score, band, gate or threshold moved. Prior: 11/6 20:40 WQ-644 A recorded; 11/6 17:23 close refresh, **`T-SHADE-01` NOT MET at the 11/6 close, no Q3 statutory or deck posted**; 11/6 16:48 restart closeout (Q3 read, L185 legs, card 041).
 **Prior sessions:** 10/21 L726/L727 proposals; 10/15 L673 first grade; 10/10 L0 drain; 10/1 W1/ARI; 8/28 Delaware Life pause. Historical chain → `archive/STATUS_PRE-ROTATION_2026-10-01.md` (32,462 B, crc32 `8f171d07`, `tail -n +5`) / `archive/STATUS_PRE-ROTATION_2026-08-28.md`.
 
-**Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` NOT MET (read 11/6, endpoint 11/6 close):** 9/24→11/6 RAW wrappers +0.79% vs managers +4.14%, both up; no dig. 10/10 owner fire stays PROVISIONAL, unconfirmed. HY 348 [11/5] (LIQUID), environment band YELLOW, 2bp under RED; the 11/6 cell is unpublished, due about 10:10 ET Monday 11/9. SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.
+**Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` NOT MET (read 11/11, endpoint 11/10 close):** 9/24→11/10 RAW wrappers +2.62% vs managers +8.88%, both up; no dig. 10/10 owner fire stays PROVISIONAL, unconfirmed. HY 334 [11/9] (LIQUID; 2026 high 348 [11/5]), environment band YELLOW; 11/10 cell due about 10:10 ET 11/12. SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.
 **⚠️ KB WARNING:** `domain/sources/` 01–08 are Mar'26 vintage — check `LAST_REVIEWED` before citing.
 
 ---
@@ -22,6 +22,18 @@
 
 ---
 
+## 0w. 2026-11-11 — CATCH-UP (LIVE RAIL)
+
+**Record:** `research/CATCHUP_2026-11-11.md`. Inbox 3 → 0. **Nothing posted yet:** Athene Q3 FI deck (call 11/12), AAIA Q3 and DLIC Q3 statutory all absent at 10:1x ET.
+
+| Read | Result |
+|---|---|
+| `T-SHADE-01`, 11/10 close | Level MET (31 published sessions >280 since 280 [9/24]); sign **NOT MET**, +2.62% vs +8.88% both up. ⚠️ vendor ADJ revised BIZD's dividend under the 11/6 read; RAW unchanged |
+| Hiking Fed (2Y 4.73, +22bp from 11/6, verified Treasury) | Tightens FHLB room ($3.9B) and S2 (34.2%), adds a surrender push at DLIC; FABN band is a spread, untouched by construction; **biases the sign leg toward NOT MET** (BDC income rises). INFERRED, unmeasured until the deck/statutory |
+| Clear Spring NAIC overview (YE2025) | C&S **$1,194.3M**; affiliated $5,895M ≈ **4.94× surplus** (cross-document). Closes the free-report gap; marker (5) stays open |
+| F-SHADE-01 gate | **30 sessions >300 through 11/9** on today's FRED, to confirm on LIQUID's series ⇒ the test will likely grade, not NO-VERDICT |
+| SHD-03 | A-/A-/A- unchanged, no downgrade found (secondary search) |
+
 ## 0v. 2026-11-06 — Q3 READ (LIVE RAIL)
 
 **Record:** `research/L185_Q3_INSURER_READ_2026-11-06.md`. PRIMARY = 10-Q filed 11/5, deck 10/30, unless marked.
@@ -38,9 +50,9 @@
 
 **Also:** AAIA Key Ratio #1 (1,635.7%, FY25) recorded **CRITICAL BY LETTER**, no score tied, no rescore · X1 reconcile: BROCK CONCUR 11/6, RULED two named tests (WQ-644 A, §7) · BMA holds FY2025 statements for ALRe, AARe, ALReI and each ACRA vehicle, unread · Delaware Life ladder unchanged, sale exploration attributed only, Q3 not posted · cyber: no change.
 
-## 0u. 2026-10-29 — L781: RATIOS ENCODED, FIRST READINGS (LIVE RAIL)
+## 0u / 0m ②②b③⑥ — ROTATED 2026-11-11
 
-**Charter:** Key Ratio #2 = adopted GA Illiquidity Ratio, Key Ratio #4 = TSR UNAVAILABLE + SHADE-R v1 / SHADE-T v1 (no band, never summed). Governing verbatim text `instruments/KEY_RATIOS_2_4_ADOPTED_LETTER.md`. **DLIC FY25 Key Ratio #2: FLOOR 9.7507% · PROXY-INCL 16.5806% · CEILING 28.6844% ⇒ NOT RED** (C $0: no `R` code, no T(b)/R/E documents; L1 agency $1,749.9M > $1,146.0M needed; margin $604M). ⚠️ **Grade rests on L1 (category rule, INFERRED); with L1 struck it is INDETERMINATE.** Encumbrance companion `CF` $1,781.3M / `C` $307.5M. **SHADE-R v1:** DLIC 321.9% · AAIA 2,460.4%. **SHADE-T v1:** DLIC 1.62% · AAIA 4,452.3% (T1 1,635.7% + modco T2 2,816.6%; ⚠️ affiliate cessions to AARe are largely funds-withheld, $66.7B of assets stay at AAIA). AAIA T1/surplus 1,636% reads above Key Ratio #1's >100% critical marker — **read-across flagged, not re-scored** (structure already in the charter's $70.79B figure; composite 20/30 unchanged). **L784:** FHCF $0 / Citizens $0 / FL munis DLIC $9.2M, AAIA $22.9M (+ Space Florida $97.3M, Orlando Health $24.7M outside muni lines) → CORAL. WQ-422 Clear Spring documents not in inbox. Record → `research/L781_RATIO_ENCODE_AND_FIRST_READINGS_2026-10-29.md`.
+Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-11.md` (crc32 `5fcf94c5`, `tail -n +5`). L781 10/29 ratio readings (DLIC Key Ratio #2 NOT RED on L1; SHADE-R/T v1 first readings) and the 10/1 ARI/DLIC/coordination rails.
 
 ## 0t / 0s / 0m ① — ROTATED 2026-11-06
 
@@ -52,15 +64,7 @@ Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-06.md` (crc32 `0fe75ab2`, 
 
 ## 0m. 2026-10-01 — LIVE RAILS
 
-**② §2.8 — DAMAGED, identity UNDETERMINED (10/1).** AAIA 62 loans dated 4/24 cost **$7,405,267,470 ≈85% of $8.7B BY DATE**, not identity proof. Strict match **16/62, $2,328,729,691 =31.4%**; economic AARe/ACRA/~20% holder split unresolved. Non-accruing ARI cohort **$265.6M**, bought at 102–103% of ARI impaired marks. Never difference statutory cost against consolidated FV QoQ **+$6,897M**. Exact derivation → `research/ARI_ATTRIBUTION_MATCH_2026-10-01.md`; prior full rail `git show 46230aa04:AGENTS/SHADE/STATUS.md` §0m.
-
-**②b DLIC FY2025 (L241 PARTIAL):** affiliate reserve credit/surplus1.62% GREEN retained. Same corrected audit now reconciles GA floor9.7507/conditional37.2419% vs total6.9179/26.4223%. Affiliate bond proxy exceeds formalABS; no illiquidity grade. GA/evidencedABS proposal delivered for ruling, SVO countmissing. Sources→`research/GAP_INVESTIGATION_2026-10-12.md`; original Oct1 report retained.
-
-**③ `T-SHADE-01` (10/1) — superseded by §0n ①** (10/1 reading NOT ARMED, 4 of 5; its RAW figures corrected in §0n ②).
-
 **④ Delaware Life remediation — PRIMARY plan (issuer 9/11, read 10/12):** Aug17 agreement exchanges **up to $6.5B** for equivalent unaffiliated assets from TWG; approval required, target before Q3 filing. **Plan ≠ completed exchange or forced market sale**; issuer disclaims external reduction mandate. Marker(4) remains PARTIAL: amount/target sourced, execution unverified. Bases and pro forma interpretation → targeted freshness research.
-
-**⑥ POST-DELIVERY rails:** W1 tally→**WQ364** (all legs in 10/2; no 10/16 SHADE enumeration). L241 DLIC ratios done in part. Cadence WEEKLY. WATCH_FOR 10 phrases + **8 lane queries deployed 5b47424, 10/10 13:00:25 ET**, actual config checked 10/12; one SIG003 retrieval does not certify recall. Declined `Delaware Life downgrade`/`Guggenheim subpoena`/`Guggenheim probe`. **ARI≈85% BY DATE and31.4% identity match are different metrics.** Full prior coordination proof→`git show 46230aa04:AGENTS/SHADE/STATUS.md` §0m; source evidence→§0r.
 
 **⑤ Carried primary figures (8/28, DLIC Q2 statutory — basis → `REFERENCE.md` §2Q):** 1H-26 direct premiums + deposit-type **$6,726M (+13.9%)** · surrenders **$2,061M (+44.6%)** · ratio **24.1% → 30.6%** · affiliate-contingent **$16,822M = 32.82% of $51,249M GA** (12/31/25 **$16,372M = 35.67%** — quote the PAIR) · C&S **$4,028M** · Illiquidity **10.05% GA FLOOR; charter denominator unresolved** · going concern NEGATIVE · no permitted practices · FHLBI **#2 borrower $4,963M, flat two quarters** `[CONF BROCK 8/28]`.
 
@@ -113,9 +117,10 @@ Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-06.md` (crc32 `0fe75ab2`, 
 | Date / Window | Item | SHADE read | Status |
 |---|---|---|---|
 | **Ongoing — SHADE-OWNED** | 🔴 **Delaware Life / Clear Spring — SDNY + SEC probes: ESCALATION LADDER** | **(0) COUNTERPARTY/DISTRIBUTION — ✅ MET 8/28** (Truist + Fifth Third paused; n=2, share unsized) · **(1)** charges/Wells · **(2)** further rating action (S&P A- NEG) · **(3)** Delaware DOI action · **(4)** remediation forced-sale size/timetable — 🆕 **PARTIAL: up to $6.5B/target before Q3 filing (issuer9/11); approval/closing unverified** · **(5)** Clear Spring own restatement — issuer table read,83607 verified; full statutory capital/funding bridge owed · **(6)** probe widens to Guggenheim AM. Rungs are INDEPENDENT unless ordering is sourced. | **Live — (0) MET, (4) PARTIAL** |
-| ✅ **GRADED 11/6** | **`T-SHADE-01`, endpoint 11/6 close** | Level MET on published sessions through 11/5, sign NOT MET (+0.79% vs +4.14%, both up) ⇒ **NOT MET, no dig**, whatever the unpublished 11/6 HY cell prints. Next eligible endpoint 11/9 close. | Done |
-| **~2026-11-15** | **Delaware Life Q3-2026 statutory** (issuer page, free) | Exhibit 1 + SoO L15 vs the 1H-26 baseline. 🆕 **Also: gross completed TWG transfers/assets/marks in Note10/subsequent events, then reconcile affiliate dollars vs$16,822M; net decline alone cannot prove execution.** ⚠️ ≤1 of 3 months post-pause; first clean read FY2026 annual ~2027-03-01. | Forward — dated |
-| **11/12 → 11/18** | **Athene FI call 11/12 and Q3 deck** + **AAIA Q3 statutory (same IR page, not posted 17:23 ET 11/6)** | 10-Q read 11/6 (§0v). First GRADED canary needs the deck for S3 and the penalty. **AAIA Sch B/D Pt 2-4 cross-checks landing claims and AI names.** | Forward |
+| ✅ **GRADED 11/11** | **`T-SHADE-01`, endpoint 11/10 close** | Level MET through 334 [11/9], sign NOT MET (+2.62% vs +8.88%, both up) ⇒ **NOT MET, no dig**. Next eligible endpoint 11/11 close. | Done |
+| **2026-11-15** | **NAIC Fall National Meeting, Dallas** (Life RBC WG 11/15, GOES governance; offshore-reinsurance and private-credit agenda) | SECONDARY (previews; NAIC PDF 403s this box). Vector #4 watch, no letter. | Forward |
+| **~2026-11-15** | **Delaware Life Q3-2026 statutory** (issuer page, free) | Exhibit 1 + SoO L15 vs the 1H-26 baseline. **Not posted 11/11** (index shows Q1/Q2 2026). 🆕 **Also: gross completed TWG transfers/assets/marks in Note10/subsequent events, then reconcile affiliate dollars vs$16,822M; net decline alone cannot prove execution.** ⚠️ ≤1 of 3 months post-pause; first clean read FY2026 annual ~2027-03-01. | Forward — dated |
+| **11/12 → 11/18** | **Athene FI call 11/12 and Q3 deck** + **AAIA Q3 statutory (same IR page, not posted 11/11 10:1x ET; newest deck is Q2)** | 10-Q read 11/6 (§0v). First GRADED canary needs the deck for S3 and the penalty. **AAIA Sch B/D Pt 2-4 cross-checks landing claims and AI names.** | Forward |
 | **Standing / source gap** | **AG55 final2026 template / VAWG findings** | Adopted text + final2025YE template recovered10/12. Blanket public L3/PIK/PLR mandate unsupported. Final2026 revision and completed submissions unverified. | Final2026/submissions not obtained |
 | **2026-11-18** | **C2 withdrawal test — SELF-EXECUTING** | penalty ≤+48bp AND S1 ≥$2.0B AND S2 ≥36.2% ⇒ withdraw C2. 🆕 S2 34.2% fails, so no withdrawal absent a restatement. | DOCKET row live |
 | **2026-11-30** | **W3 deterioration test** (BROCK grades) | ≥3 of 4 channels reversing ⇒ deterioration read withdrawn. | Forward |
@@ -157,12 +162,14 @@ Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-06.md` (crc32 `0fe75ab2`, 
 5. **AG55 residual:** adopted text/final2025YE template recovered10/12; final2026 revision/completed filings unverified. Blanket public L3/PIK/PLR premise unsupported; re-spec belongs to PROME/Will.
 6. **Clear Spring fullstatutory** (marker5);83607 verified, freefinancialsummary notobtained; own correctedFY25/Q1/Q2 needed.
 7. **Apollo Q2 Retirement Services cross-check COMPLETE10/12** (Notes4/16/17); AMAPSfloor/ACRA/guarantees/collateral reconciled. Loan/tranche allocation and netloss remainmissing; no historicalgrade changed.
-8. **L673 — GRADED 11/6, endpoint 11/6 close: NOT MET, no dig** (first grade 10/15, same result). Next assessment re-reads both legs fresh on the latest completed close; 🆕 design question (10/23 slot): an eligible endpoint that passes unassessed — prospective only. Historical 10/10 owner fire PROVISIONAL, unconfirmed. **If a later eligible assessment is MET:** (a) AAIA FY2025 Schedule BA → ADS equity holding · (b) ADS facility counterparties · (c) F&G > Brighthouse > Corebridge Schedule BA · (d) BROCK cross-check. Other standing dig triggers retain their existing letter (FABN >250bp, RBC breach, enforcement escalation). **No dig absent a qualifying trigger.**
+8. **L673 — GRADED 11/11, endpoint 11/10 close: NOT MET, no dig** (10/15, 11/5, 11/6 same result). Next assessment re-reads both legs fresh on the latest completed close; 🆕 design question (10/23 slot): an eligible endpoint that passes unassessed — prospective only. Historical 10/10 owner fire PROVISIONAL, unconfirmed. **If a later eligible assessment is MET:** (a) AAIA FY2025 Schedule BA → ADS equity holding · (b) ADS facility counterparties · (c) F&G > Brighthouse > Corebridge Schedule BA · (d) BROCK cross-check. Other standing dig triggers retain their existing letter (FABN >250bp, RBC breach, enforcement escalation). **No dig absent a qualifying trigger.**
 9. **Watch:** a THIRD named distributor pausing · the next public FABN syndication · 🆕 **Blue Owl's insurance mandate push** (FT 10/7 relay; no insurer purchase).
 
 ---
 
 ## BOTTOM LINE
+
+**[2026-11-11] Nothing new has posted for the insurers I follow, and my trigger still reads not met.** Athene's Q3 investor deck (call 11/12) and the Q3 statutory statements for Athene's US insurer and Delaware Life were not up this morning. Through the 11/10 close, private-credit funds rose 2.62% and their managers 8.88% since 9/24, so no dig. A hiking Fed (2-year Treasury 4.73%, up 0.22 points since 11/6) squeezes the two links I already called thinnest, Athene's remaining Federal Home Loan Bank room ($3.9B) and its shift to secured funding, and adds surrender pressure at Delaware Life; my funding-spread band does not see a base-rate move, and my trigger gets harder to fire because private-credit funds earn more at higher rates. Clear Spring's affiliated book was about five times its surplus at year-end 2025.
 
 **[2026-11-06] Athene's Q3 filing shows more secured funding, more hard-to-value assets and more AI credit, but no recognized credit loss of size yet.** Unsecured funding fell to 34.2% of the funding-agreement stack, and room at the Federal Home Loan Bank fell to $3.9B. Level 3 assets rose $14.9B, just under my line. The GAAP loss is mostly rate marks, though seriously delinquent mortgage principal nearly doubled this year. The AI cards reach Athene through SoftBank ($4.8B) and Oracle ($2.4B), plus $6.2B of unfunded Anthropic-chip commitments. Nothing moved a score. Who holds the SoftBank paper's risk after ACRA, and what the 11/12 deck says about public issuance, are the next two reads. At the 11/6 close my trigger for the statutory dig still reads not met: private-credit funds rose 0.79% and their managers 4.14% since 9/24, and no Q3 statutory filing or deck had posted.
 
