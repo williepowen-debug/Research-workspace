@@ -1,37 +1,29 @@
-# HOMER SCRATCH — 2026-11-05 catch-up (Will-launched, homer-66)
+# HOMER SCRATCH — 2026-11-11 catch-up wake (PROME prome-2b, Will's word 09:24 ET)
 
-**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), session 2911531d. Will's word: "yes go" 18:07 ET. Ten other desks live on the host; DAEDALUS, MARCO and REGINALD had dirty files, so no pull was run.
+**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), session 622a827e. Launched from `AGENTS/HOMER/`; root CLAUDE.md, AGENTS.md, USER.md, COMPLETION_SPEC and the desk charter were read explicitly. The tree was dirty with other desks' files (CARL, FERT, TERRY, VIOLET, PROME, scripts), so no pull was run; origin had nothing new at 09:33 ET. Three read-only Opus retrieval helpers pulled sources; load-bearing figures were re-read at the issuer files (NY Fed workbook, LDI 8-K, ICE PDF, Trepp RSS, Treasury CSV). **Window held open: PROME asks for closeout later today.**
 
-## Done 2026-11-05
+## Done 2026-11-11
 
 | Item | Result |
 |---|---|
-| WQ-622 A | Charter step 9a; five themes KB-HOMER-043–047; review 12/01 docket row; list in the PROME memo |
-| WQ-596 / WQ-619 | HOM-03–06 committed bd2d915cb 18:14 ET, before their prints; PROME memo carries IDs and dates; charter CLOSEOUT 3 has the miss line |
-| Trepp MF Oct | 8.09% at issuer PDF; PREREG §5 graded NEW HIGH; Cove caveat recorded; packets in REGINALD and CREED inboxes |
-| Prints | `reports/2026-11-05_catchup.md`; ledger rows dated 2026-11-05; THRESHOLDS HB-03 7.18; THESIS §9 entry, 0/5 |
-| Intake | 16 WALTER signals logged (7 actioned, 9 info), 3 packets filed; inbox 0. CREED S2 corrections applied by append |
-| Corrections | COR-20261029-43 and COR-20261105-38 NO-OP, committed e8a5ac3e8 |
-| Fannie 0.62% | Verified MF at the 10-Q; SF is also 0.62%, a coincidence |
+| Intake | 5 WALTER cards → board_log + `processed/`; inbox 0. 007 (ACTION) already discharged 11/05 (CREED cases 176, 177) |
+| Prints | `reports/2026-11-11_catchup.md`; 20 ledger rows dated 2026-11-11 (PIPELINE 4, MULTIFAMILY 4, RATES 4, PRICING 3, STATE_HSG 5) |
+| Trepp MF SS | **9.22% Oct, NEW 2026 HIGH**; PREREG §4 grading appended; THESIS §9 entry, 0/5 |
+| Cure band | HB-08 still UNGRADED (Nov Monitor did not print the all-loans YoY); reading_as_of → 9/30 |
+| WQ-622 | members appended to KB-HOMER-043, 044, 045 |
+| Docket | 14 row keys re-keyed; non-bank Q3 prints RESOLVED |
+| PROME | packet `PROME/inbox/2026-11-11_from-HOMER_catchup-live-data.md` |
 
 ## Open / next
 
-- **Fri 11/06:** loanDepot Q3 (no 8-K at 11/05) · Las Vegas Realtors (429 on 11/05).
-- **Tue 11/10:** NY Fed Q3 (issuer-stated). **Thu 11/12:** HOM-03 grade, PMMS. **~11/13:** Trepp Oct SS, ICE Monitor window.
-- **Still unobtained:** ATTOM Sept/Q3 · Fannie Sept monthly (403) · TX Nov list and Oct MF subtotal · GDP RFI −3.3% is secondary, confirm 11/25 · MBA Q3 needs a secondary or Will's hands (mba.org 403).
-- **PROME owes:** four DOCKET rows for HOM-03–06; READS.tsv HOMER row.
-- ⚠️ LESSONS.md near its rotation trigger: rotate before the next lesson. Candidate lesson held, not written: a batch `git mv` filed unread signal 063; list the inbox again immediately before any batch move.
-- THESIS D2 and D4 CLOSED 11/05 from issuer history; D3 open (mba.org 403); D11 logged: ICE October lands after 11/20, grade on September and update mechanically. Grade worksheet in `reports/2026-11-05_catchup.md`. A2 upgrade rung stays for 11/20. Held lesson not written: Will wants fewer rules, and the membership grep already caught it. Formal grade **2026-11-20**; HOM-02 decider MBA Q3 NDS ~mid-Nov.
-- ATTOM path is `/news/market-trends/foreclosures/` (plural); singular 404s prove nothing.
-
-- **Push:** GitHub rejected pushes about 18:20–18:30 ET 2026-11-05 (`fatal error in commit_refs_rules`, cause unknown, MARCO hit it too). Cleared by 18:38 when BRENT's push landed; 3238c184b is on origin. The 11/20-prep commit and this note are local until PROME's closeout push or the next HOMER closeout.
-
-**Closeout 2026-11-06 07:5x ET (Will: "Lets close out here").** Inbox 0 at closeout; next session starts with loanDepot Q3 and Las Vegas Realtors. Will's repo-traffic question went to no desk: it is PROME's. The credential check never ran (Will stopped it, redirecting HOMER to housing).
+- **Thu 11/12:** NAR EHS Oct 10:00 = **HOM-03** grade (<3.90M) · PMMS noon (spread must use **Tue 11/10 10Y 4.98%**, no Wed print, and say so) · MBA apps wk 11/06 (likely).
+- **~11/12–14:** MBA Q3 NDS = **HOM-02 decider** (not out 11/11) · Redfin Oct sellers/buyers gap.
+- **11/17:** NAHB HMI = HOM-04. **11/20:** thesis formal grade (C2 neighbourhood note now carries the SS new high).
+- **Still unobtained:** ATTOM Sept/Q3 (feed newest 10/29) · Fannie Sept summary (403) · GSE Oct monthlies (404) · LVR primary (429; secondary used) · ICE NV/CA appendix read from a chart image (LOW confidence; re-read at zoom).
+- **TERRY:** the SS new high + rate rebound is flagged in the PROME packet for PROME to route for a tradeability read (this wake's return was one packet to PROME). HOMER sent no TERRY packet.
+- **CORAL:** FL statewide NY Fed / ICE values not published here; addresses in the report § Boundaries and the NEXUS brief.
+- **HOM-05 tension:** October SS jump on maturity defaults leans against "Nov MF DQ below 8.09%"; recorded, not re-weighted.
+- Preferred Bank 10-Q (~11/09) is REGINALD's; not read by HOMER.
+- ⚠️ LESSONS.md is near its rotation trigger: rotate before the next lesson (none written this session).
 
 No Will decision required.
-
----
-
-## Prior session (2026-10-29 L851 wake) — retained for one session
-
-L851's four asks were overtaken by the 10/28 session. DHI FQ4 added (GM 19.5%). PMMS one figure 7.32% [10/22]. PMMS 10/29 was not integrated then; done 11/05. Full handoff: `git log -p -- AGENTS/HOMER/SCRATCH.md`.

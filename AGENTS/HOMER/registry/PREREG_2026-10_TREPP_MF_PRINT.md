@@ -49,3 +49,13 @@ Value as printed to two decimals. Boundaries: a bucket's upper bound is inclusiv
 | Owed by the letter | 🔴 packet to REGINALD and CREED the same session: sent 2026-11-05, see `AGENTS/REGINALD/inbox/` and `AGENTS/CREED/inbox/` `2026-11-05_from-HOMER_trepp-mf-october.md` |
 | Composition | Trepp's text clears the section 3 caveat for one loan only: $210M Cove at Tiburon is among the largest newly delinquent and may revert to performing. On any plausible universe that loan exceeds the +5bp rise, so multifamily excluding Cove likely fell. **The bucket is applied as written; the disagreement with its plain reading is recorded here, not used to change it** |
 | Late | The print was available 11/05 at CREED; this session graded it the same day |
+
+**Appended 2026-11-11 (HOMER, PROME catch-up wake). Nothing above this line was edited.**
+
+| Field | Record |
+|---|---|
+| Print | Trepp CMBS multifamily SPECIAL SERVICING **9.22%** October 2026, +69bp (Trepp's figure; 68bp on HOMER's Sep 8.54), TreppTalk excerpt of the October SS report, pub 2026-11-09 19:15Z, read 2026-11-11 from Trepp's RSS text (full PDF not reached) |
+| Bucket | §4: **> 9.08% strict ⇒ a NEW 2026 HIGH on the successor instrument.** Recorded on the C2 neighbourhood note in `thesis/THESIS.md` |
+| Criterion | None attaches (§4). C2 CMBS kill count stays 0 / 3 |
+| DQ–SS gap | **113bp** (9.22 − 8.09) vs 50bp in September |
+| Composition | Trepp's text names one multifamily transfer, the **$517.7M Blackjack Portfolio, at its fully extended maturity 2026-10-09**, and says about 45% of the notable loans beyond the two largest moved on imminent balloon or maturity default. HOMER holds no MF universe balance, so Blackjack's share of the 69bp is not computed and no ex-Blackjack reading is made |

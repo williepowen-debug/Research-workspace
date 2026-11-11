@@ -140,3 +140,8 @@ SIG-W-20261001-013	2026-10-02	noted-off-domain	electricity price = ENERGY/BLS; H
 2026-11-05T23:17:35Z	SIG-W-20261105-038	INFO-LOGGED	WALTER	Correction to 025 and 028; COR-20261105-38 NO-OP receipted; KB-HOMER-043 uses the corrected figures.
 2026-11-05T23:17:35Z	SIG-W-20261105-040	INFO-LOGGED	WALTER	Flagstar rebound not new high; KB-HOMER-043.
 2026-11-05T23:18:02Z	SIG-W-20261105-063	INFO-LOGGED	WALTER	Ready Capital Q3, CREED row; $954M non-performing is all CRE, MF share unread, so not a KB-HOMER-043 member until split. Arrived mid-session; read 2026-11-05 after filing.
+2026-11-11T14:35:09Z	SIG-W-20261106-007	ACTION-DISCHARGED-EARLIER	WALTER	Cove at Tiburon and Beaudry: both already on CREED's ledger (CASE-CREED-176, 177, 11/05) and cited in HOMER's 11/05 Trepp packet to CREED; Wolf Street relay adds nothing new for HOMER. Cove stays the swing loan for HOM-05 (Trepp Nov MF DQ). No new figure, no new packet.
+2026-11-11T14:35:09Z	SIG-W-20261106-009	INFO-LOGGED	WALTER	Reventure: South and West listings 15% above pre-pandemic. Vendor claim, unverified, no theme row fits; check against Realtor.com regional active listings at the next monthly pull.
+2026-11-11T14:35:09Z	SIG-W-20261106-046	INFO-LOGGED	WALTER	LGI Homes Q3 (8-K 11/03) already consumed 2026-11-05 into BUILDER.tsv (GM 20.2%). Duplicate for HOMER.
+2026-11-11T14:35:09Z	SIG-W-20261109-008	INFO-LOGGED	WALTER	No housing item; Jacksonville budget hole is CORAL's. No HOMER row.
+2026-11-11T14:35:09Z	SIG-W-20261110-009	INFO-LOGGED	WALTER	Young adults living with a parent 37/43/49% (Hedgeye, series unnamed, unverified): structural demand context, too unsourced for a row. No HOMER row.

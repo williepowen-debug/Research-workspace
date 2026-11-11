@@ -231,3 +231,16 @@ No other newly resolving print was integrated: **0/5 legs killed**, no criterion
 | **A3** | no HMI (next 11/17). Builder 8-Ks and DHI call are context, not the criterion: DHI Q1 GM guide 18–18.5%, LGIH 20.2%, DFH 14.9% | **0 / 3** | NOT FIRED | pending |
 
 **LITERAL FIRED-COUNT: 0 of 5 legs ⇒ 🔴 holds.** No criterion, level or confidence moved. Evidence: `reports/2026-11-05_catchup.md`; ledger rows dated 2026-11-05.
+
+### 2026-11-11 — PROME catch-up wake (prints released 11/06–11/10; mechanical update only)
+
+| Leg | First print integrated | Fired count | Verdict | Frozen cleanest-flip check (§3) |
+|---|---|---|---|---|
+| **C1** | none — ICE First Look October due ~11/23–30. Context, not the criterion: ICE Monitor Sept FC starts 40,400 (−3% YoY), FC sales 8,200 (+14% YoY); NY Fed Q3 mortgage 90+ 1.13% (0.83% a year ago), foreclosure notations 61,900 (+13% YoY) | **0 / 3** | NOT FIRED | pending |
+| **C2 · CMBS** | none on the DQ criterion (Trepp November ~12/01–05). **C2 neighbourhood note:** MF special servicing **9.22% October, +69bp = NEW 2026 HIGH** (> 9.08 strict, PREREG §4); DQ–SS gap 113bp; $517.7M Blackjack transferred at maturity | **0 / 3** | NOT FIRED | No criterion attaches to SS (§4) |
+| **C2 · GSE** | none — Fannie and Freddie October monthlies not out (404 at 11/11) | **0 / 3** | NOT FIRED | unchanged |
+| **A1** | ICE Mortgage Monitor November: **all-loans cure YoY NOT PRINTED (second edition)**; FHA cures −46% YoY (FHA-only, does not grade). MBA Q3 NDS not out | **½ of the first conjunct** (unchanged) | NOT FIRED | pending |
+| **A2** | no PMMS since 11/05. Context: MND 7.30% [11/10], +12bp after CPI; 10Y 4.98% | **0 / 4** | NOT FIRED | 68bp above the kill line on the last PMMS; moving further off |
+| **A3** | none (HMI 11/17) | **0 / 3** | NOT FIRED | pending |
+
+**LITERAL FIRED-COUNT: 0 of 5 legs ⇒ 🔴 holds.** No criterion, level or confidence moved. Evidence: `reports/2026-11-11_catchup.md`; ledger rows dated 2026-11-11.
