@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-11-11T10:19:04-05:00 — prome-2b catch-up wake on Will's 09:24 ET word: WALTER 5/5 · hiking-Fed read on own letters (KB-BRK-477/478/483) · CoreWeave Q3 lender side (KB-BRK-479) · CABO committee (KB-BRK-480) · no score moved. Prior stamps, narrative → `catchups/2026-11-11.md`.
+**Updated:** 2026-11-11T10:23:21-05:00 — closeout on prome-2b's ask: catch-up wake on Will's 09:24 ET word, WALTER 5/5 · hiking-Fed read (KB-BRK-477/478/483) · CoreWeave Q3 (KB-BRK-479) · CABO committee (KB-BRK-480) · no score moved. Narrative → `catchups/2026-11-11.md`.
 
 ---
 
