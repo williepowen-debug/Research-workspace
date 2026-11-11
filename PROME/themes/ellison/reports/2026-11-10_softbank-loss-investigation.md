@@ -6,7 +6,7 @@
 
 ## Answer
 
-SoftBank lost ¥1,115.3B in the quarter. Most of it is non-cash and already inside the leverage SoftBank reported for September 30 (15.9%). It is not a default and no campus is cancelled on any outside record. The comfort is thinner than the headline ratio: counting what SoftBank itself says is coming, leverage is about 23.6 to 24.0% once the ABB purchase closes, against its 25% ceiling (RED's arithmetic, confirmed by SAM a31785d3e4), and the ratio was held down in Q2 by borrowing against shares. Credit priced SoftBank like a single-B issuer before the results. After-results credit and the Tokyo session are unread at this cut.
+SoftBank lost ¥1,115.3B in the quarter. Most of it is non-cash and already inside the leverage SoftBank reported for September 30 (15.9%). It is not a default and no campus is cancelled on any outside record. The comfort is thinner than the headline ratio: counting what SoftBank itself says is coming, leverage is about 23.6 to 24.0% once the ABB purchase closes, against its 25% ceiling (RED's arithmetic, confirmed by SAM a31785d3e4), and the ratio was held down in Q2 by borrowing against shares. Credit priced SoftBank like a single-B issuer before the results. After-results credit is one flat print (SoftBank 5Y 496 at 03:01 ET 11/10, n = 1, outside Tokyo hours; LIQUID fbee1c954b); how Tokyo priced the results is unread at this cut.
 
 ## Findings
 
@@ -26,7 +26,7 @@ SoftBank lost ¥1,115.3B in the quarter. Most of it is non-cash and already insi
 | 12 | Ratings per SoftBank's deck p.71: JCR A Negative · S&P BB+ Stable (from Negative 7/16) · Fitch BB+ Stable (9/11). No action found since the results. LIQUID's earlier "S&P Negative" was a stale relay, corrected by LIQUID at c5b2b03243. The September $11.1B senior issue was $10B at a 9.4% weighted-average coupon and €1B at 7.6% (slide Finance 19) | deck | SAM, RED, LIQUID fbee1c954b |
 | 13 | 9984.T's +13.88% on 11/10 came before the results (TDnet 15:30 JST, the close); driver not found. After the results: SFTBY −4.00%, ARM −2.58% (US session, vendor) | TDnet; vendor | SAM, LIQUID |
 | 14 | Musk, 11/6: "SoftBank is defaulting on its turbine orders". Orders cut and suppliers settled: corroborated. "Default": contradicted, negotiated settlements. Turbines: not established | filings | SAM |
-| 15 | Cohort: TSMC October revenue NT$586,890mn, over VULCAN's line; CoreWeave raised its FY2026 capex guide to $37–39B, "deliver sooner"; both grades PROVISIONAL. On 11/10 NVDA −5.47%, IREN −7.85%, NBIS −5.27%, cause not attributed | 6-K; 8-K Ex 99.1; vendor | VULCAN d4b5e4684c; LIQUID |
+| 15 | Cohort: TSMC October revenue NT$586,890mn, over VULCAN's line; CoreWeave raised its FY2026 capex guide to $37–39B, "deliver sooner"; both graded final at the primaries. On 11/10 NVDA −5.47%, IREN −7.85%, NBIS −5.27%, cause not attributed | 6-K; 8-K Ex 99.1; vendor | VULCAN d4b5e4684c; LIQUID |
 
 ## What the challenge did to the working read (RED, CHG-RED-057 stays MODERATE, re-review 11/19)
 
