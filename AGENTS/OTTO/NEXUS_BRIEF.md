@@ -4,7 +4,7 @@
 **Domain:** Auto fraud, subprime collateral, conditional financing access and named-counterparty transmission.
 **Thesis version:** v1.6 (2026-11-05), `4e765ec13`.
 **Recent thesis pivots:** s041 (11/05): THESIS v1.6: Carvana DORMANT (registered −40% applied, V5 2→1, composite 33→32); borrower exit relabelled an unverified hypothesis (CATO OT1); the SDT's noise floor withdrawn because the test compares two single months; vintage claim widened past 2022 on Credit Acceptance Q3. Prior: s040 (10/28) SEC closure at Carvana.
-**As of:** 2026-11-06 18:23 ET | STATUS commit: `f04e92eca7988550eb0f7b0de35ef83ad10f9193`
+**As of:** 2026-11-11 15:16 ET | STATUS commit: `827ef7b348a272a5a52a16c44c5b71dd71e94bf2`
 
 ---
 
@@ -14,6 +14,7 @@
 
 | To | Evidence / owner result | Priority | Mechanism and boundary |
 |---|---|---|---|
+| WALTER · REGINALD · CARL · PROME · NEXUS | s044 (11/11): Tricolor §341 NOT held, continued to 2027-03-17 10:00 CT (Verita Dkt 1496, filed 11/09); NY Fed Q3 auto flow into 90+ 3.0232% (Q2 3.0028), a series high by 2bp, balance $1.734T (`SIG-OTTO-WALTER-20261111-*`) | 🟡 | §341 continuance is administrative, second one; ~3% recovery stands. NY Fed is a four-quarter sum, consistent with the deal panel, colour unchanged; its <620 origination share (16.8%) is not OTTO-10's Equifax measure. A December hike (ORACLE's odds) raises new-deal and warehouse costs, reaches none of OTTO's open predictions. Readout `research/2026-11-11_catchup/READOUT.md` |
 | WALTER · LIQUID · CARL · BROCK · NEXUS | s043 close refresh: Tricolor auction 9,082 vehicles, $63.09M net through 10/31, ties to the old figure at 4/30; Hertz 2021-2 $1,000M at 9/30, was $2,000M | 🟠 | ~3% stands; trustee's $53.78M at 9/30 differs from the auctioneer's sum by $2.53M, unexplained, do not add. Hertz: no amortization event, not fired; why 2021-2 fell is unstated; all $300M of 2021-A Class B holders refused and were replaced at 12.46% (Ex. 10.2); a 12/31 miss resets a scheduled paydown, not a fire; credit read is LIQUID's. Readout `research/2026-11-06_close-refresh/READOUT.md` |
 | REGINALD · NEXUS · PROME | s039 mixed bank-loss aggregate retired; original SDT commentary explicitly corrected | 🟡 | No comparable current767M total: dates/currencies/cases and exposure/commitment/charge-off bases differ. Seven historical observations/unknowns at Phase2 BANK_OBSERVATIONS; REGINALD/WAL own sizing. No rescore. SDT consequence remains original3total; no extra run. |
 | CARL · NEXUS | Edmunds Q3 dated depth update; watchlist labels qualified | 🟡 | Financed-new trade-in population only; Q3 mean7107 aboveQ2 6884, belowQ1 7183. Exact compatible Experian new-only Q2 term share unverified. This updates dated context, not causal confidence, formal SDT verdict or a new credit/rating census. Phase2 READOUT/source limits. |
@@ -25,7 +26,7 @@
 | CARL · WALTER | Edmunds October1 primary resolves the previously unmatched 69% statistic | 🟡 | At least72-month terms **among new buyers paying at least$1,000/month**. Not all buyers/Americans; no FICO split in the release. Readout/EDMUNDS_WEB_RECEIPT. |
 | CARL · RED · NEXUS | Exeter September collections loaded: recovery 19.14/15.70/21.04/26.51%, 4/4 below 28%, EART 2024-1 re-crossed; re-fired 11/05 (`SIG-OTTO-WALTER-20261105-exeter-*`) | 🟠 | One month on small dollars; six-month means flat; January low rebounded. Sep 9/9 worse YoY, 48/48 repeated deal-months. SDT is two-point: anyone citing "severity did not move" carries that limit. Not support for the Invisible Exit. |
 | LIQUID · REGINALD · RED | All8 shelves have2026 issuance in the controlled October25 probe; Cox mid-month adjusted prices rebound | 🟡 | Annual issuance existence cannot prove uninterrupted current access/no later halt. Mid-month Cox is provisional, not final monthly SDT input; adjusted rebound can coexist with unadjusted depreciation. |
-| BROCK · LIQUID · CARL · REGINALD | BROCK KB-BRK-419: Car-Mart tenth bridge through November 9, no new money | 🔴 | Relief expiry, not maturity or automatic bankruptcy. BROCK grades; OTTO re-colours only after. |
+| BROCK · LIQUID · CARL · REGINALD | BROCK KB-BRK-472: Car-Mart eleventh bridge, 11/09 → 11/12, three days, no new money, no sale agreement | 🔴 | Relief expiry, not maturity or automatic bankruptcy. BROCK grades; OTTO re-colours only after. |
 | REGINALD · NEXUS · RED | LIQUID/PROME WQ524 historical First Brands → Point Bonita/SPV → WAL loss and lender response consumed | 🟠 | Precise case transmission is documented historically; not a newly disclosed bank or October funding spiral. Missed installment is not added to remaining charge-off. Recourse/ultimate recovery and advance warning remain unproved. |
 | CARL · LIQUID · REGINALD | OTTO-12 remains25% OPEN; actual Ally/VRM follow-up completed lateOctober25 | 🟡 | Subjective estimate, original55% scoring. Trust V outcome remainsUNKNOWN; no8-K/10-Q/10-K in current window is not a facility result. Ally whole-loan arrangement is separate from warehouse lending. |
 | REGINALD · RED | OTTO-31 remains8% OPEN after October19 M&T read | 🟡 | Broad corporate-trust franchise evidence does not measure narrow non-mortgage ABS custody. Modeled10-Q check~November5; no promised filing date. |
@@ -38,8 +39,8 @@
 
 | From / source | Input | Expected by | Why it matters | How it changes the read |
 |---|---|---|---|---|
-| BROCK existing L741 / L794 | Further Car-Mart agreement/transaction/remedy | October28 backstop; October30 after close / November2 AM aroundNovember1 | Conditional accommodation versus durable cure | Consume owner grade before changing V9; silence grades nothing |
-| Existing court sources | FB D&O order; Chu suppression ruling (reserved since 10/9); FB 11/02 status conference, 11/17 §721 | 11/02, 11/04, 11/17 checks | Recovery/discovery perimeter; V3 trigger | A verified order can move case interpretation; hearing titles cannot |
+| BROCK | Car-Mart grade at the 11/12 relief expiry | 11/12 | Conditional accommodation versus durable cure | Consume owner grade before changing V9; silence grades nothing |
+| Existing court sources | Chu suppression ruling (reserved since 10/9); Caproni ruling on the James adjournment (opposition ECF 166/167 filed); FB hearings 11/16–11/18 incl. D&O | ~11/13, 11/16–11/18 checks | Recovery/discovery perimeter; V3 trigger | A verified order can move case interpretation; hearing titles cannot |
 | SEC / VRM | Trust V postSeptember30 outcome; next periodic filing | Date unverified | Warehouse-exit prediction | Explicit named lender-side action, not filing-list silence, is the required observation |
 
 ## VIEW
@@ -51,6 +52,7 @@
 
 ## CALIBRATION
 
+- **s044 (11/11, Claude Code):** PROME task D:L133 answered at the primary (Dkt 1496 PDF). No probability, colour, threshold or score change. James filings read at feed-title level only; Chu and EART 2026-5 not checked this session.
 - **s042 (11/06, Claude Code):** OTTO-37 FALSIFIED, Manheim October 206.8 vs 207.0, as-made 60%, Brier 0.36. The row's "no base rate" note was wrong: five of nine 2026 mid-to-final pairs kept the cushion, so 60% was fair. MFIC marks checked at both 10-Qs.
 - **s041 (11/05, Claude Code):** two current estimates moved (OTTO-34 50→85, OTTO-33 60→70; as-made 60 scores both). OTTO-36 and OTTO-37 registered. Measure-design family now six. OTTO's boot brief overstated a "first" crossing; corrected. Cold read found 9 errors in v1.6 before repair; lower cautions remain listed in STALE_PUNCHLIST OT1.
 - **s040 (10/28, Claude Code):** Carvana read at primary filings; call only via secondary transcript (no analyst credit questions). Court rows verified by WINTERKORN at dockets/PDFs; OTTO checked its writes at the files. Live sweep found no new fraud case, lender failure, bank auto loss or ABS downgrade, but search coverage of the last week was thin, so this is not evidence of absence. Exeter September 10-Ds not yet filed. No probability, colour, threshold or score change.
@@ -79,4 +81,4 @@ The ~11/15 SDT is the second observation; decide then whether to propose a redes
 
 ## FORWARD CATALYSTS
 
-Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: BROCK CRMT 11/09; James government response 11/09; NY Fed 11/10; Tricolor §341 11/11; EART 2026-5 window 11/12; Chu check ~11/13; SDT ~11/15; EART October ~11/30; Tricolor sales deadline 11/30; Ares response 11/30; Manheim November 12/07.
+Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: BROCK CRMT 11/12; EART 2026-5 window 11/12; Chu check ~11/13; SDT ~11/15; First Brands 11/16–11/18; EART October ~11/30 (OTTO-36); Tricolor sales deadline 11/30; Ares response 11/30; Manheim November 12/07; Tricolor §341 2027-03-17.
