@@ -30,9 +30,19 @@ Good to about ±10 bp, not to one. Probe default figures (r 4%) are in the scrat
 
 **Daily, last week before results:** 11/2 434 · 11/4 438 · 11/5 448 · 11/6 470 · **11/9 496 to 513, median 497 (7 prints, 02:57Z to 07:45Z)**.
 
-**Read:** the 11/9 prints are the widest of the 71-file window, about 150 bp over the August median, and widened about 27 bp from 11/6 to 11/9. All of it came **before** the results. **After the results:** the 11/10 file publishes about 20:15 ET; §1d.
+**Read:** the 11/9 prints are the widest of the 71-file window, about 150 bp over the August median, and widened about 27 bp from 11/6 to 11/9. All of it came **before** the results. **After the results:** one print, 496, flat (§1d).
 
 ⚠️ Limits: DTCC disseminates only trades with a US-person reporting nexus. Most SoftBank CDS trades in Tokyo and Hong Kong between non-US dealers and do not appear. This is a sample of the market, not the market. One 10/20 pair disseminated "0.0357" on the June 2031 contract (357 bp) at the same minute; it is out of line with the converted prints either side (442, 456) and is not used.
+
+### 1d. After the results: DTCC November 10 file (read 19:18 ET; 1,853 SEC credit rows, last execution 23:17Z; the file may still update)
+
+| Name | Print(s) on 11/10 | vs 11/9 | Basis |
+|---|---|---|---|
+| **SoftBank 5Y (Dec 2031)** | **496**, one print, 08:01:47Z (03:01 ET, 90 minutes after the results; 17:01 JST, after the Tokyo close), ¥250M, UTSL | 497 median: **flat** | yen, 100 coupon, converted r 1% R 40% |
+| Oracle 5Y (Dec 2031) | **300 disseminated** (TPSB ×2), 302.0 GSBS, 302 converted (BILT ×2) | 301.5: flat | USD |
+| CoreWeave 5Y (Dec 2031) | 1,143 to 1,166, median about **1,150** (7 prints, 16:49Z to 20:41Z) | about 1,136 (one print): about +14, inside conversion error | USD, 500 coupon, probe default |
+
+**Read:** one disseminated SoftBank print after the results sits where the market closed before them. **n = 1, a US-nexus sample, taken outside Tokyo hours: it does not show how the Tokyo market priced the results.** The first Tokyo session after the results is 11/11 (19:00 ET 11/10 onward); its prints, if any disseminate, arrive in the 11/11 file. Oracle and CoreWeave were flat on the US session after the results.
 
 ### 1b. Dollar bonds
 
@@ -69,9 +79,9 @@ At 17:2x ET 11/10 it is 07:2x JST 11/11, before Tokyo business hours. A JCR, S&P
 
 | Name | 11/9 | 11/10 (US session, after results) | Source |
 |---|---|---|---|
-| SoftBank 5Y CDS | 497 median | 11/10 file pending (§1d) | DTCC, converted |
-| Oracle 5Y CDS (Dec 2031) | **301.5 disseminated** ×2; 305 converted | pending | DTCC 11/9; 11/6 was 305 disseminated |
-| CoreWeave 5Y CDS (Dec 2031, 500 coupon) | **about 1,136** (one 19:59Z print) | pending | DTCC 11/9, probe conversion (r 4%; USD); 11/6 about 1,227 to 1,252 |
+| SoftBank 5Y CDS | 497 median | **496** (one print, 03:01 ET) | DTCC, converted |
+| Oracle 5Y CDS (Dec 2031) | **301.5 disseminated** ×2; 305 converted | **300** disseminated | DTCC 11/9; 11/6 was 305 disseminated |
+| CoreWeave 5Y CDS (Dec 2031, 500 coupon) | **about 1,136** (one 19:59Z print) | **about 1,150** (7 prints) | DTCC 11/9, probe conversion (r 4%; USD); 11/6 about 1,227 to 1,252 |
 | IREN | −1.06% | **−7.85%** (19.73) | yfinance raw close |
 | NBIS | +9.24% | −5.27% (134.00) | same |
 | CRWV | +5.56% | −0.51% (48.73) | same |
@@ -98,7 +108,7 @@ SAM holds these from SoftBank's own filings; cited, not re-derived (`SOFTBANK_FU
 
 ## 6. Known-unknowns
 
-1. **After-results CDS:** DTCC 11/10 file (about 20:15 ET); then Tokyo-hours prints 11/11. Most of the market does not disseminate.
+1. **After-results CDS:** one print so far (496, flat, §1d). The Tokyo session's pricing of the results comes in the 11/11 file, if it disseminates at all; most of the market does not.
 2. **After-results bond prices, dollar and yen:** no free primary. TRACE unreachable; JSDA rate-limited this box (HTTP 429); first after-results JSDA file 11/11.
 3. **Rating comment:** JCR, S&P or Fitch; none found by 07:2x JST 11/11. The agencies' own texts and Moody's August release not read.
 4. **Margin-call levels** on the Arm, SoftBank Corp and SVF2 facilities, and **T-Mobile collar strikes**: not disclosed in anything reached.
