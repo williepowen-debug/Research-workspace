@@ -1,0 +1,41 @@
+# DEWEY bank population and Plaza review
+
+November 11, 2026. Will requested review of DEWEY's completion and interpretation thread. Review starting HEAD `4cf0b2cc4b`; population report commit `0013861e7e`. Independent CATO review of DEWEY work; CATO's additional arithmetic is author analysis, not independently reviewed. Concurrent PROME, memory and later CRUISE edits preserved. No owner files changed, messages sent, agents launched or new research commissioned.
+
+## Assessment and decision
+
+Accept the population leg as useful delivered research. Its headline arithmetic reproduces. The full $10–100 billion aggregate contradicts extrapolation from the six selected banks; it does not establish that all banks are healthy or that the six-bank observations are wrong. The group's year-over-year deterioration remains. Banks above $100 billion and below $1 billion are outside these two bands.
+
+Recommend a bounded owner follow-up on United Fidelity's multifamily treatment and realized losses, ahead of another population download or expanded historical study. Explain why the loans moved to nonaccrual, identify the remaining exposure and loss absorption, and connect any shared collateral/geography/sponsor exposure to the relevant banks. This is advice, not a new assignment or trade. If public evidence cannot explain the change, preserve UNKNOWN rather than infer an examiner directive, fraud, imminent failure, or harmless bookkeeping.
+
+## Findings and evidence
+
+**DB1 — headline arithmetic verified in the inspected perimeter; no correction required.** Independently regrouped the archived June FDIC rows and Q3 extracted bank TSV using nominal asset bands and OI/NC exclusions. G1 coverage 115.9692% → 116.7606%; G2 150.7792% → 126.7218%; G2 excluding United Fidelity 150.4094% → 143.5348%. Contribution 69.1128%. Counts and numerator/denominator sums reproduce. Read the actual United Fidelity Q3 SDF member from the preserved archive, verifying nonaccrual, 90-day accruing, gross loans, allowance, multifamily charge-offs and TEXT4769. The 4,267-file validation is DEWEY's receipt; CATO did not rerun every source hash or semantic check. Archived evidence may differ from subsequent amendments.
+
+**DB2 — interpretation qualification, not a finding that DEWEY called the loans harmless.** TEXT4769 says the loans were current before nonaccrual and cash receipts may produce interest income. It does not explain the underlying cause or establish future collectability. General supervisory guidance permits nonaccrual before missed payments and cash-basis income after partial charge-offs where the remaining book balance is deemed collectible. Therefore cash-paying and impaired can coexist. The $362.453 million YTD multifamily charge-offs merit more attention than the label change alone. DEWEY already explicitly warns against calling this harmless accounting; carry that warning into any shortened relay. Source: Federal Reserve BHC Supervision Manual §2065.1.4–.6, PDF pages 1–2 (printed section pages 2–3), https://www.federalreserve.gov/publications/files/bhc-2065-2093.pdf, read November 11. This is general guidance, not evidence of United Fidelity's particular reason.
+
+**DB3 — aggregate deterioration is not a breadth measure.** A bounded diagnostic from the existing same-bank data finds 873 common G2 banks excluding United Fidelity: noncurrent dollars increased at 435, decreased at 411 and were unchanged at 27. This is a nearly split dollar-direction count, not a credit-adjusted severity or causal test; mergers, guarantees, loan mix and portfolio growth remain unadjusted. It does not establish contagion or benign quality. Outside United Fidelity, the group's allowance dollars actually rose from $22.998097 billion to $23.322331 billion while noncurrent loans rose faster, from $15.290329 billion to $16.248550 billion. Thus falling coverage here is not literally reserve dollars being cut. DEWEY's aggregate result survives; “wider weakening” should mean beyond one institution, not uniform deterioration. No new recurring breadth checker proposed.
+
+**DB4 — Plaza remains an evidence-limited recovery question.** Archived direct broker text contains 31%, ±114,505 SF and Best Offer. Report correctly distinguishes marketing representation from audited operating occupancy and recovery. Fresh web-reader access failed; no independent live page confirmation or court-document retrieval claimed. Missing plan/disclosure documents, price, debt/priority and NOI prevent a recovery conclusion. Preserve WAL's existing branch and dates. No paid access or broker contact undertaken.
+
+Read DEWEY's original October 22 study summary: 2/10 episodes hit the specified four-quarter charge-off outcome versus 41/166 quarters; limited cycles and CECL differences constrain generalization. CATO did not rerun historical regressions. Lack of standalone predictive lift for this coverage pattern does not imply rising problem loans have no information.
+
+## Remaining actions, owners and stopping point
+
+- REGINALD/domain owners: interpret United Fidelity's mechanism, remaining loan economics and loss absorption using primary evidence; close only with a supported explanation or explicit public-source limit. Priority recommendation only, no automatic launch.
+- REGINALD/DEWEY: EagleBank's $135K/$167K residual bridge and schedule-scope ambiguity remain UNKNOWN. Preserve them without allowing an unresolved exact reconciliation to invalidate the independently reproduced population result. Do not invent a principal/book-value explanation.
+- WAL/DEWEY: obtain the missing Plaza economics/documents within the existing commission and access permissions; occupancy alone does not close recovery questions.
+- TERRY: existing report recipient for tradeability. A report pointer or “descriptive only” line is not evidence that a tradeability assessment was completed. No new trade or claimed recipient acceptance here.
+- CATO: this bounded review is complete. No implementation defect established in checked headline calculations; no broad audit, data rerun, new checker or study recommended. Await Will.
+
+## Evidence and verification limits
+
+Primary local inputs: `AGENTS/DEWEY/research/2026-11-11_003R-population/{fdic-20260630.json,current-bank-rows.tsv,call-reports-sdf.tar.gz,population-validation.json,population-calculations.json,g2-sensitivity.json,ufb-explanation-and-chargeoffs.json,METHOD.md}`; broker witness `AGENTS/DEWEY/research/2026-11-11_L517-remaining/broker.txt`. Reviewed both November 11 reports supplied by Will, the source-definition report and original October 22 study summary. Calculation results and exact selected raw cells: [CATO check](2026-11-11_1821_dewey-bank-population-check.json). CATO used fresh arithmetic over saved inputs, not DEWEY's output ratios. Not a fresh retrieval of 4,267 filings, full source/field audit, historical-model replication, loan-level audit or capital adequacy determination. No financial price or executable positioning advice.
+
+## Earlier Decisions coordination receipt
+
+Before this assignment, PROME requested temporary custody of nine Decisions mvp installation paths; CATO confirmed no in-progress edits and later acknowledged returned custody. PROME reports runtime/review `87c94c7f77`, acceptance `45e4a3c95e`, 13 focused tests and seven-card app check passing, with publication later relayed by Will at `eefa90c585`. These are owner reports, not CATO installation verification. Chat confirmation remains required, no hooks/app-only enablement, first genuine /3 card remains unexercised pending an open decision. Coordination is complete; this review did not reopen it.
+
+## Delivery checks
+
+Weekday check passed on the five existing/readable inputs: PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, AGENTS/CATO/CONTINUITY.md and this report. Six startup inputs verified readable and below cap: AGENTS/CATO/AGENTS.md, CHARTER.md, CONTINUITY.md, root CLAUDE.md, USER.md and AGENTS.md. Orphan advisory showed concurrent non-CATO work in PROME, CRUISE/WALTER inboxes and memory; preserved, no CATO-authored external path. Git whitespace check passed. No ledger or auto-memory change; no superseded canonical financial figure requiring a consumer scan. Exact-path Git delivery follows; receipt supplied in chat.

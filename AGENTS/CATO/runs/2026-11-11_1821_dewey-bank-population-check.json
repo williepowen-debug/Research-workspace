@@ -1,0 +1,85 @@
+{
+  "G1": [
+    {
+      "n": 126,
+      "sums": {
+        "LNLSGR": 2505031798,
+        "NCLNLS": 29161474,
+        "LNATRES": 33818317
+      },
+      "coverage": 115.96916191547794,
+      "npl_share": 1.1641159215337034
+    },
+    {
+      "n": 124,
+      "sums": {
+        "LNLSGR": 2418639540.0,
+        "NCLNLS": 28120918.0,
+        "LNATRES": 32834147.0
+      },
+      "coverage": 116.76058014891264,
+      "npl_share": 1.1626750301121762
+    }
+  ],
+  "G2": [
+    {
+      "n": 890,
+      "sums": {
+        "LNLSGR": 1766587612,
+        "NCLNLS": 15307020,
+        "LNATRES": 23079804
+      },
+      "coverage": 150.7792111070607,
+      "npl_share": 0.86647386724684
+    },
+    {
+      "n": 889,
+      "sums": {
+        "LNLSGR": 1785404382.0,
+        "NCLNLS": 18409346.0,
+        "LNATRES": 23328654.0
+      },
+      "coverage": 126.72179663525255,
+      "npl_share": 1.0311023197656743
+    }
+  ],
+  "G2_ex_UFB": [
+    {
+      "n": 889,
+      "sums": {
+        "LNLSGR": 1763151546,
+        "NCLNLS": 15290329,
+        "LNATRES": 22998097
+      },
+      "coverage": 150.40943200110345,
+      "npl_share": 0.8672158122022258
+    },
+    {
+      "n": 888,
+      "sums": {
+        "LNLSGR": 1782344992.0,
+        "NCLNLS": 16248550.0,
+        "LNATRES": 23322331.0
+      },
+      "coverage": 143.53484464767627,
+      "npl_share": 0.9116388843310981
+    }
+  ],
+  "breadth_diagnostic": {
+    "common_ex_ufb": 873,
+    "noncurrent_dollars_up": 435,
+    "down": 411,
+    "flat": 27,
+    "note": "dollar changes, not credit-adjusted severity; mergers/guarantees unadjusted; diagnostic only"
+  },
+  "ufb_contribution_pct": 69.11282050951448,
+  "ufb_raw_selected": {
+    "RCFD1403": "2159092",
+    "RCFD1407": "1704",
+    "RCFD2122": "3059390",
+    "RCFD3123": "6323",
+    "RIAD3588": "362453",
+    "TEXT4769": "(1) Included in nonaccrual loans reported in Schedule RC-N \"Secured by multifamily (5 or more) residential properties in domestic offices\" are loans of $2.14 billion accounted for on a nonaccrual cash-basis method. Although reported as nonaccrual, interest income is recognized when cash payments are received. These loans were current prior to being placed on nonaccrual status and may continue to contribute interest income to the Consolidated Report of Income through cash collections.    (2) Other noninterest income in item 5.l of Schedule RI included rent and lease income of $6.9 million."
+  },
+  "scope": "Independent arithmetic from archived June FDIC rows and Q3 extracted TSV; direct Q3 UFB SDF witness. Not a fresh retrieval or full 4267-file semantic audit."
+}
