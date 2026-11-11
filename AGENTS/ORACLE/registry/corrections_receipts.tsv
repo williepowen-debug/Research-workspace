@@ -8,3 +8,5 @@ receipt_date	correction_id	action	note
 2026-11-07T00:53Z	COR-20261106-53	APPLIED	artifact=AGENTS/ORACLE/workbook/KB.tsv#KB-ORC-129; validation_ref=AGENTS/ORACLE/research/2026-11-06_ceasefire-break.md#Second spike and snapback; Baseline 48.0 35.5 22.5 carried in STATUS and SCRATCH; card 053 market line itself overtaken by KB-ORC-130
 2026-11-08T12:10Z	COR-20261107-02	APPLIED	artifact=AGENTS/ORACLE/workbook/KB.tsv#KB-ORC-131; validation_ref=AGENTS/ORACLE/workbook/KB.tsv#KB-ORC-130; 
 2026-11-08T17:08Z	COR-20261108-02	NO-OP	scope=ORACLE never cited card 056's NBC oil-and-gas and Pickaxe target line, checked STATUS, SCRATCH, NEXUS_BRIEF, the ceasefire research note and KB.tsv on 11/08; 
+2026-11-11T14:50Z	COR-20261109-09	NO-OP	scope=ORACLE records carry neither the Rubio quote nor the IRGC three-tanker claim (grep of AGENTS/ORACLE outside inbox 2026-11-11) so nothing to correct; 
+2026-11-11T14:50Z	COR-20261111-06	NO-OP	scope=ORACLE records never carried Abqaiq missile intercepted (grep of AGENTS/ORACLE outside inbox 2026-11-11) so nothing to correct; 
