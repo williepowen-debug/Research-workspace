@@ -1,6 +1,6 @@
 # FERT — Registered gate grade history
 
-**LIVE — Last real data refresh: 2026-11-05** (G5 November 4 DTN grade and G3 7th re-read recorded below). **Hygiene: 2026-11-05.**
+**LIVE — Last real data refresh: 2026-11-11** (G5 November 11 DTN grade recorded below). Prior: 2026-11-05 (G5 November 4 grade, G3 7th re-read). **Hygiene: 2026-11-11.**
 **Split out of `STATUS.md` 2026-09-15** (read-cap remedy, hot/cold split). STATUS carries the **current** grade and the rate; this file carries the **print-by-print history**. GATE letters are never restated here. **Letter homes:** `GATE-FERT-G5` → `workbook/TRIGGERS.tsv` row **T4** (`Why_It_Wakes_You` cell, encoded 2026-10-09 verbatim from the GATES cell — closes the circular pointer DAEDALUS Gate-Basis #2 ② found; PROME re-points the GATES cell); `GATE-FERT-G3` → `PROME/GATES.tsv` (unchanged).
 
 ## GATE-FERT-G5 — DTN retail DAP **or** MAP > $1,000/ton ($/ton, DTN Progressive Farmer weekly)
@@ -28,6 +28,7 @@
 | **10/21/26** | **Oct 12–16** | **$937** | **$981** | **MAP** | **$19 · +1.94%** | **NOT FIRED** (10 of 10 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-21 08:56 ET (`KB-FERT-079`); strictly-greater, whole-dollar, US national average as printed. 11-print pace MAP ~+0.99%/mo → ~1.9 months to the line |
 | **10/28/26** | **Oct 19–23** | **$939** | **$983** | **MAP** | **$17 · +1.73%** | **NOT FIRED** (11 of 11 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-28 22:17 ET (JSON-LD datePublished 2026-10-28T09:50Z; `KB-FERT-097`); strictly-greater, whole-dollar, US national average as printed. 12-print pace MAP ~+0.98%/mo → ~1.75 months to the line |
 | **11/4/26** | **Oct 26–30** | **$941** | **$987** | **MAP** | **$13 · +1.32%** | **NOT FIRED** (12 of 12 graded) — PRIMARY, first-party curl at dtnpf.com 2026-11-05 (datePublished 2026-11-04T10:50Z; `KB-FERT-113`); graded one day past review_by 11/04; strictly-greater, whole-dollar, US national average as printed. 13-print pace MAP ~+1.04%/mo → first firing print ≈ 12/16 at the mean step ($2.33/wk), 11/25 at the fastest step seen ($5/wk) |
+| **11/11/26** | **Nov 2–6** | **$950** | **$991** | **MAP** | **$9 · +0.91%** | **NOT FIRED** (13 of 13 graded) — PRIMARY, first-party curl at dtnpf.com 2026-11-11 09:31 ET (JSON-LD datePublished 2026-11-11T13:44Z, byline 7:44 AM CST, monthly-format article 'Retail Fertilizer Prices Mixed During First Week of November'; `KB-FERT-141`); graded on review_by; strictly-greater, whole-dollar, US national average as printed. MAP +$4 (ninth straight rise), DAP +$9 (largest DAP step in the 14-print series). 14-print pace MAP ~+1.10%/mo (log); a fire needs $1,001 (+$10): first firing print ≈ **12/16** at the mean step (+$2.46/wk), **12/02** at the last two steps (+$4/wk), **11/25** at the fastest step seen (+$5) |
 
 🔑 **The APPROACH RATE is the finding, and it is stated here as a rate — a gate row shows distance, never rate.**
 
