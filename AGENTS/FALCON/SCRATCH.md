@@ -13,15 +13,14 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 ## WHAT I DID
 - Boot 08:38 ET: all checks run (transit 3/88 DEEPENING to 11/8; bypass HOLDING to 11/6; Baghdad QUIET backstop; WARRISK 5 rows EXPIRED, WQ-298 CANNOT-FIRE; corrections PASS; strike ledger 8 days behind → swept to 11/10).
 - Report reports/2026-11-11_weekly-review-gate001-card008.md. KB-462..474; 8 combo rows updated (review 11/18). VESSELS VI-0097 named, VI-0100..0102 added. STRIKES row added, ANALYSIS_2026-11-11 regenerated, 9/11 file bannered. STATUS 11/7–8 section rotated verbatim to domain/sources/STATUS_archive_2026-11-11_reads-1-2.md (grep-verified). EXIT thesis-kill #2 state cell re-stamped (letter unchanged). Bars domain/tankermap/2026-11-11_bab_daily_bars.csv.
-- Cards: SIG-W-20261110-008 acted (moved to processed); SIG-W-20261111-001 noted in board_log but **left in inbox/WALTER/**: WALTER had not yet committed it (untracked), so not moved.
+- Cards: SIG-W-20261110-008 acted, SIG-W-20261111-001 noted; both in processed (001 moved at closeout once WALTER had committed it).
 - Packet to PROME: PROME/inbox/2026-11-11_from-FALCON_weekly-gate-review-card008.md.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **First:** `git mv` inbox/WALTER/SIG-W-20261111-001.md to processed once WALTER has committed it (already logged `noted` in board_log).
 2. November 18: weekly + GATE-FALCON-001 review; combo themes; DAEDALUS items 6, 7, 8, 10–13 (carried; some touch the charter, need PROME/Will word).
 3. Name the 11/10 hulls (IMO, NAVAREA IX); Petroline attribution; any Saudi statement on Abqaiq (IN class).
 4. December 31 late ET: dated searches FAL-08, 09, 10, 12; FAL-11 and FAL-12 IMO table read. A search after that date = NO-VERDICT.
-5. Band proposal (11/04 report §6) and thesis-kill #2 "88/day" instrument naming await PROME.
+5. Band proposal (11/04 report §6) awaits PROME. **Thesis-kill #2 "88/day" instrument naming: PROME DOCKET row dated 11/18 — I draft the wording at the 11/18 weekly, PROME takes it to Will.**
 
 ## OPEN THREADS / WATCHES
 - Qatar track: a written text both governments confirm is FAL-10; a new draft reportedly went to Iran (one official).
@@ -34,7 +33,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-11/11: SIG-W-20261110-008 acted → processed; SIG-W-20261111-001 noted, file still in inbox/WALTER (untracked, WALTER's). Top-level inbox empty.
+11/11: SIG-W-20261110-008 acted, SIG-W-20261111-001 noted, both in processed. Inbox empty at closeout. PROME prome-2b consumed and filed my packet; GATES review_by now 2026-11-18.
 
 ## PENDING PUSH / GIT
-This session's commits pushed at closeout unless PROME retains push custody; window held open for PROME's closeout ask later today.
+Closeout 11/11 08:5x ET on PROME prome-2b's ask (WQ-249): all FALCON commits pushed via safe-push. Next session: git pull --rebase first.
