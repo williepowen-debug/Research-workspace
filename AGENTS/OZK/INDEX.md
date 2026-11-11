@@ -1,16 +1,16 @@
 # OZK — Agent Index
 **Start here on cold boot.**
 
-**Last updated:** 2026-11-07 — thesis **v1.7** (conviction 🟡 LOW, WQ-483), KB **274 / 37**; Q3 10-Q and Call Report graded 11/7 → `reports/2026-11-07_Q3_10Q_READ.md`; Q3 print graded (Stage-1 10/21, Stage-2 10/22); housekeeping sweep → `reports/2026-10-22_self-sweep.md`.
+**Last updated:** 2026-11-11 — thesis **v1.7** (conviction 🟡 LOW, WQ-483), KB **278 / 37**; 11/11 catch-up: OZK-09 re-marked 45% → 5% (WQ-659 A) → `reports/2026-11-11_CATCHUP_READ.md`; Q3 10-Q and Call Report graded 11/7 → `reports/2026-11-07_Q3_10Q_READ.md`; Q3 print graded (Stage-1 10/21, Stage-2 10/22); housekeeping sweep → `reports/2026-10-22_self-sweep.md`.
 
 **State snapshot** *(numbers live in `STATUS.md` — this is orientation only)*:
 - **Thesis v1.7 RESERVOIR — conviction 🟡 LOW** (re-graded from 🔴🔴 HIGH 10/22, Will-approved WQ-483): RaDD catalyst removed (Dec-2029 extension, fresh $100M); Q2 adverse-selection did not repeat in Q3; residual = OREO/Boston marks untested by sales, an earnings drag not a capital event. → `THESIS.md`, `CHANGELOG.md`
-- **RaDD outcome established:** multi-year extension/new capital executed 10/9, disclosed 10/12. Current terms → `IQHQ_PLAYBOOK.md`; **OZK-09 OPEN/STUCK** only on recognition attribution. 45% scoring prior and old model are not refreshed forecasts. → `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`
+- **RaDD outcome established:** multi-year extension/new capital executed 10/9, disclosed 10/12. Current terms → `IQHQ_PLAYBOOK.md`; **OZK-09 OPEN at 5% [2026-11-11]** (re-marked from 45% under WQ-659 A); FALSE effectively undecidable on recognition attribution → expected STUCK. Old scenario model is not a refreshed forecast. → `research/threads/2026-10-12_RADD_BRIDGE_OUTCOME.md`
 - **Second pillar = the RESG debt-on-debt book** (Will-ruled 8/23, as SUBJECT): $1.20B → $0.43B in 12 months (6/25 → 6/26), then **$42.4M charge-offs H1-26** (first in 18 qtrs). L181 verdict 9/24: reported decline OBSERVED, runoff INFERRED, reclassification NOT EXCLUDED. → `MI3_2025Q3_ADJUDICATION.md` §6
 - **⚠️ Two facts cold spawns get wrong:** (1) **OZK files Form 10-Q with the FDIC (cert #110), not the SEC** — there is no *SEC* 10-Q, and the FDIC 10-Qs (`raw/Q*_10Q.pdf`) are this desk's best primary. (2) **The 37.6% MI3 "worst in screen" figure is dead** (live 9.35%, rank 5th/14) — never cite it.
 - **Positions: one line** — Fidelity OZK Nov-20 $40P ×4, still held at 10/22 11:01 ET although Will approved selling 10/14 (WQ-428; order status UNKNOWN). TERRY owns the card, Will the order. The Aug-21 puts expired worthless 8/21. ⛔ D1/OZK-salvage ruled closed. → `STATUS.md` §Positions, `POSITIONS.md`
 - **Next dates:** FINRA short interest ~Tue 11/10 (10/30 settlement); sub-notes call-notice window to 12/22; Boston land matures Dec 2026; Q4 print ~Jan 16–20 2027. Q3 10-Q (filed 11/6) and Call Report graded 11/7 → `reports/2026-11-07_Q3_10Q_READ.md`.
-- **KB.tsv: 274 rows / 37 groups** (11/7).
+- **KB.tsv: 278 rows / 37 groups** (11/11).
 
 ---
 
@@ -65,14 +65,14 @@ For deeper cold-boot orientation after that:
 | `POSITIONS.md` / `TRADE.md` | Option positions (Nov-20 $40P ×4 held at 10/22 11:01 ET) / trade ideas — **LIVE since 10/22** (§Now + candidate-idea route → TERRY, NOT-FIRED labelled) |
 | `scripts/boot.py` | Boot kit v0.2 — prices, FDIC filings watch, catalysts, standing watch, inbox, staleness |
 | `scripts/flng_watch.py` | FDIC filings watch (cert 110) — rc 0 quiet / 1 new / 2 unknown; `--selftest` |
-| `workbook/KB.tsv` | Evidence database (274 rows / 37 groups as of 2026-11-07) |
+| `workbook/KB.tsv` | Evidence database (278 rows / 37 groups as of 2026-11-11) |
 | `workbook/CALL_REPORT_SERIES.tsv` | **FFIEC Call Report series, 18 quarters** (RSSD 107244) — MI3 both bases, past-due decomposition, NCO, CRE NCO, OREO/NPA. LOG-ONLY source (Z6 never re-grades off it). |
 | `MI3_2025Q3_ADJUDICATION.md` | **L181 verdict** (2025Q3 MI3 step = debt-on-debt book decline; §6.5 layers OBSERVED / INFERRED / NOT EXCLUDED) |
 | `SWEEP_2026-08-28.md` | Will-directed data-integrity sweep (22 findings) |
 | `REGINALD_CHANNEL.md` | REGINALD ↔ OZK pair log |
 | `CALL_REPORT_2026Q2_LOG.md` | Q2-2026 Call Report working: MI3 baseline contradiction, kill-§1 adjudication, basis-fork check, frame-spec check, proposals P-OZK-1..5. |
 | `workbook/KB_INDEX.md` | KB cluster navigator |
-| `workbook/PREDICTIONS.tsv` | Pre-registered falsifiable reads OZK-01→09 — Q2 cycle graded (5 resolved, Brier 0.1987); OZK-02/03/04 resolve at the Q4'26 print; **OZK-09 open at 45%** |
+| `workbook/PREDICTIONS.tsv` | Pre-registered falsifiable reads OZK-01→09 — Q2 cycle graded (5 resolved, Brier 0.1987); OZK-02/03/04 resolve at the Q4'26 print; **OZK-09 open at 5% [2026-11-11]** (was 45%, WQ-659 A) |
 
 ### Active deep dives (read on-demand)
 | File | When to Read |
@@ -154,7 +154,7 @@ For deeper cold-boot orientation after that:
 ### Workbook
 | File | Content |
 |------|---------|
-| `workbook/KB.tsv` | Evidence database — 274 rows / 37 groups (as of 2026-11-07) |
+| `workbook/KB.tsv` | Evidence database — 278 rows / 37 groups (as of 2026-11-11) |
 | `workbook/KB_INDEX.md` | Cluster navigator (all 37 groups indexed; verified 9/24) |
 | `workbook/CALL_REPORT_SERIES.tsv` | FFIEC 18-quarter series (see Core) |
 | `workbook/Q2_2026_SCORING_CARD.md` | Q2'26 Stage-1/Stage-2 grades |

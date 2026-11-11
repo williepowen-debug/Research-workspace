@@ -67,7 +67,7 @@
 
 ## 5. Standing
 
-- **Short interest** — refresh at each FINRA settlement (Nasdaq API) [KB-214]. Last: **18.89M / ~18.6% float, DTC 9.2 @ 10/15** (pulled 10/28, KB-266; STATUS carries the token). Next: the 10/30 settlement publishes ~11/10 — the first post-print read.
+- **Short interest** — refresh at each FINRA settlement (Nasdaq API) [KB-214]. Last: **17.56M / ~17.3% float, DTC 9.1 @ 10/30** (pulled 11/11, KB-278; −7.1% vs 10/15, fits the covering inference, INFERRED; STATUS carries the token). Next: the 11/13 settlement (~11/24).
 - **NDFI-contagion regime** — consume REGINALD/BROCK reads; OZK trades as a beta name (C8).
 - **FDIC filings** — `scripts/flng_watch.py` runs in every boot.
 

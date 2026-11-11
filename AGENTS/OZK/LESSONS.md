@@ -37,6 +37,10 @@
 
 ## B. Analysis
 
+### A "scoring prior" is not a reason to keep a mark your own falsifier has ruled out
+**Mistake (10/12 → 11/7, ruled 11/9 by Will, WQ-659):** OZK-09's 7/23 mark listed its own falsifier: "DOWN to ≤25: executed extension with disclosed new capital". The extension executed on 10/9 with $100M of new capital. On three later touches (10/12, 10/22, 11/7) the desk wrote "45% retained scoring prior, not a refreshed forecast", using the WQ-112 scoring rule (the latest mark governs) as a reason not to mark at all. Re-marked to 5% on 11/11.
+**Rule:** when a pre-registered falsifier on a confidence fires, re-mark that day, in the machine field, built from the evidence and not cut from the old number. Keep resolvability out of it: a row that may end STUCK changes its status, never its confidence.
+
 ### OZK CIB/NDFI is not monolithic
 **Mistake pattern:** treating CIB or NDFI as one bucket. Fund Finance, Lender Finance, Indirect and the RESG debt-on-debt book have different collateral, credit and competitive dynamics (Q1'26: Munn said OZK is *pulling back* from Fund Finance while written Mgmt Comments showed it growing $210M → $1.275B YoY; Q3'25: PE-fund NDFI loans −$213M in one quarter).
 **Rule 1:** decompose by sub-segment (Call Report Memo-10 `PV05-09` ≡ the 10-Q's NDFI breakdown) before assessing risk.

@@ -49,6 +49,7 @@
 - [2026-07-06] **Square Mile Capital = Affinius Capital** (2023 rebrand); OZK holds $95M of the Affinius-originated 777 Industrial note. [KB-203]
 - [2026-07-06] **LLM-sourced KB rows can garble primary figures** (KB-117 vs Atrium primary) — treat Conf one notch worse when Source is an LLM output. **Date a third-party report by its citations, not its label** (Atrium said "2026"; citations stop Sep-2025).
 - [2026-11-07] **OZK's 10-Q deadline is 40 days after quarter-end** (large accelerated filer; Form 10-Q Gen. Instr. A.1.a, carried to FDIC filers by 12 CFR 335.101(b)): Q3 2026 = Mon 11/9. The 11/5 dates are habit, not deadlines; Q3-26 filed 11/6. Before calling a filing late, compute the deadline. `sec.gov/files/form10-q.pdf` 403s a browser UA, 200s with a contact UA.
+- [2026-11-11] **Interest-reserve Call Report codes:** `RCONG376` = construction loans providing for interest reserves (RC-C Memo 13.a, balance); `RIADG377` = interest capitalized from reserves **in the quarter** (Memo 13.b, not YTD). Construction total = `RCONF158`+`RCONF159`. KBRA pages 302-redirect (use `curl -L`); date from the JSON `publishDate`.
 - [2026-11-07] **Call Report recoveries codes:** RI-B 1.e(1) C895/C896, 1.e(2) C897/C898 (charge-off, recovery). CRE_NCO reproduces only with those pairs; pairing C896 as a charge-off gives a negative number. **FFIEC token exp claim 2027-01-31.**
 - [2026-11-07] **Grep the 8-K bundle before calling a 10-Q item new:** Q3 OREO expense $9.8M and liquidity $17.6B were in the 10/20 bundle. The bundle's OREO writedown differs from the 10-Q by $172K (reclass from Other); the 10-Q wins. **A snippet with no date: read the page's JSON-LD `datePublished`** (WALTER's TD Cowen item was the 7/6 action).
 - [2026-10-22] **Transcripts:** Quartr MCP needs a **Pro subscription** on this account (not a re-auth). TradingKey `tradingkey.com/news/transcripts/<id>` returns full HTML to curl; Investing.com blocks curl (3-byte reply). **Never store a full third-party transcript in the tree** — URL + sha256 + short quotes (Will option A, 10/21). ⚠️ That ruling was made on the belief "the repo is public"; `gh repo view` reported **PRIVATE** on 10/22 — the ruling stands until Will says otherwise; visibility question raised to Will 10/22. OZK Q3 10-Qs land **~Nov 5** (11/5/2024, 11/5/2025 per FDIC `instflng` index).
@@ -62,23 +63,21 @@
 
 ## Session Notes
 
-⚠️ **Open question:** does any RESG OREO asset sell before the Q4 print, and at what price against carrying? That is now the whole thesis (invalidation 7, OZK-11).
+⚠️ **Open question:** does any RESG OREO asset sell before the Q4 print, and at what price against carrying? It is still the whole thesis (invalidation 7, OZK-11), and KBRA's 10/29 path to Stable names the same thing. Rising long rates (10Y 4.98 [11/10]) push bids the wrong way.
 
 **CHANGES SINCE:**
 
-### LAST SESSION (2026-11-07 — OZK, Opus, spawned in-session by PROME prome-bf; session id not exposed)
-- **Q3 10-Q read pp.1-70** (FDIC FLNG 12040, filed 11/6, deadline 11/9, stored `raw/Q3_2026_10Q.pdf`) and **Q3 Call Report pulled** (11:55 ET) → `reports/2026-11-07_Q3_10Q_READ.md`. Will's added terms (12:07 ET via PROME) answered there: §0 filing status, §9 new vs known, §10 predictions as registered, §11 consequence.
-- **Grades, own letters only:** invalidation 8 FIRED · OZK-10 RESOLVED FALSE (Brier 0.1225) · invalidation 6 UNKNOWN on the letter, benign on the arithmetic (at least $208.1M took no adverse route) · invalidation 7 not fired · OZK-09 OPEN/STUCK, 45% · WQ-318 INCONCLUSIVE stands. Conviction LOW, v1.7, no weight or score moved.
-- Inbox drained, all 4: REGINALD, WAL, two WALTER. WAL's point applied to `GEOGRAPHY/REGULATORY_DISTRICTS.md`. REGINALD 11/5 entry ACKed in the channel.
-- Current state reconciled (WQ-653): STATUS, THESIS state table, CALENDAR, TODO, INDEX, subdomain stamps. `flng_watch.py` baseline 12040; boot.py rows updated. KB 270–274; Call Report ledger Q3 row.
-- Not pushed, per spawn. No outside-desk edits except the PROME packet.
+### LAST SESSION (2026-11-11 — OZK, Opus 5.5, Claude Code; catch-up wake from PROME prome-2b on Will's 09:24 ET word; session id not exposed)
+- **WQ-659 A executed: OZK-09 re-marked 45% → 5% [2026-11-11]** in the machine field (`5% [2026-11-11] (was 68% [2026-07-04])`), with the derivation on the row. Question, guard, window, threshold and scenario tree untouched. FALSE is effectively undecidable under the attribution guard → expected STUCK; Will's options (close as ungradeable / prospective resolver) were stated, not applied.
+- Live: OZK $50.20 −1.12% (10:27 ET; 11/10 close $50.77); SI 10/30 17.56M −7.1%; EFR none after 8/14; FLNG none after 12040; sub-notes press check empty.
+- New to the record: **KBRA 10/29 affirmation, Negative outlook** (KB-276; CET1 11.8% vs 10-Q 11.45%, unexplained). Q3 Call Report interest-reserve series pulled (KB-277): $6,049.4M on reserves, $87.1M capitalized in Q3; +25bp ≈ +$15.1M/yr.
+- Inbox drained (1, PROME). Files: report `reports/2026-11-11_CATCHUP_READ.md`, STATUS, CALENDAR, TODO, INDEX, IQHQ_PLAYBOOK, PREDICTIONS, KB 275-278, REGINALD_CHANNEL. One packet to PROME. Not pushed (PROME closes out later).
 
 ### NEXT SESSION — existing obligations
-1. **Tue 11/10 short interest**, 10/30 settlement, vs 18.89M (STATUS, CALENDAR).
-2. Sub-notes call-notice window to 12/22: `flng_watch.py` at every boot, press check mid-Dec.
-3. **Boston land $105.9M matures Dec 2026:** payoff, extension or title. Watch the special-mention condo credit.
-4. **Q4 print ~1/19/27:** OZK-02/03/04/11/12, invalidation 7, OZK-09 window. Refresh OZK-04 roster first (R6).
-5. Optional sweep remediation: `reports/2026-11-02_data_staleness_sweep.md`.
-6. Owed, not urgent: INSIDERS body rebuild · reserve-build re-derivation (R1) · G4 PREDICTIONS_ARCHIVE seed · BROCK to learn of invalidation 8 (not sent, path limit; flagged to PROME).
+1. Sub-notes call-notice window to 12/22: `flng_watch.py` at every boot, press check mid-Dec (a holder notice need not be public).
+2. **Boston land $105.9M matures Dec 2026:** payoff, extension or title. Watch the special-mention condo credit.
+3. **Q4 print ~1/19/27:** OZK-02/03/04/11/12, invalidation 7, OZK-09 (expect STUCK). Read Q4 RESG repayments as the hike test (KB-277). Refresh OZK-04 roster first (R6).
+4. Short interest 11/13 settlement (~11/24).
+5. Owed, not urgent: INSIDERS body rebuild · reserve-build re-derivation (R1) · G4 PREDICTIONS_ARCHIVE seed · BROCK to learn of invalidation 8 (flagged to PROME) · optional sweep remediation (`reports/2026-11-02_data_staleness_sweep.md`).
 
 ⛔ D1/OZK-salvage remains RULED-CLOSED. TERRY builds any existing authorized card; Will owns orders. No expiry nagging (Will 10/20). Prediction OPEN is not holding/rolling advice.

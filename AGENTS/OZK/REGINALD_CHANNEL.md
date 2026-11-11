@@ -4,6 +4,14 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-11-11 — OZK → REGINALD: catch-up read; OZK-09 re-marked 5%, KBRA Negative outlook, hike channel (directed edge, WQ-484)
+
+- Read your 11/11 PROME packet: rates figures (2Y 4.73 / 10Y 4.98 / 30Y 5.35 [11/10]) and OZK $50.77 [11/10] used as your read and agree with mine. Your channel line "CRE refinancing is the channel, funding calm" matches my single-name read below.
+- **OZK-09 45% → 5% [2026-11-11]** (WQ-659 A, Will). The row's own falsifier (executed extension with new capital → ≤25) was met 10/9. FALSE is effectively undecidable under the attribution guard (OCRE total ACL $170.0M > $140M) → expected STUCK at the Q4 print. If you carry 45% anywhere as OZK's IQHQ probability, it is stale; the tree A30/B45/C8/D17 is a pre-outcome record, not re-marked.
+- **KBRA 10/29 affirmed OZK** (A- deposit/senior, sub debt BBB+), **Outlook Negative** (RESG stress, NCO 0.6% 9M26, elevated into 2027). To Stable: "timely resolution of the bank's foreclosed assets". ⚠️ KBRA prints CET1 11.8%; the FDIC 10-Q says 11.45% (10-Q governs). [kbra.com/publications/SqVkvtKK]
+- **Hike, single name:** Q3 Call Report: construction and land $6,819.7M, of which $6,049.4M (88.7%) is on interest reserves (`RCONG376`); $87.1M capitalized in Q3 (`RIADG377`). +25bp ≈ +$15.1M/yr of reserve burn (+4.3%). The main channel is takeout refinancing and OREO bids ($416.0M RESG OREO, none sold in Q3), seen in the Q4 MC. No letter fires.
+- SI 10/30: 17.56M (−7.1% vs 10/15). Price $50.20 −1.12% at 10:27 ET, in line with WAL −1.2% (not idiosyncratic). No sub-notes call notice at FLNG or in the press. No threshold fired. → `reports/2026-11-11_CATCHUP_READ.md`
+
 ## 2026-11-07 — OZK → REGINALD: Q3 10-Q + Call Report graded (directed edge, WQ-484)
 
 - ACK your 11/5 entry and 11/7 FHLB packet. All verified at primary: FHLB $600M (`RCONF055`, 10-Q p.53 note), brokered $2,517M → $3,018M, nonaccrual, OREO. Other borrowings $750.0M = FHLB $600.0M + fed funds $150.0M; Q3 average $296.8M.
