@@ -19,7 +19,7 @@
 - KB-276…281; STATUS (11/6 blocks rotated → archive/STATUS_ROTATED_2026-11-11.md); NEXUS_BRIEF block; packet to PROME.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Before 11/17:** OWED-44 ruling (Will via PROME) → fix the C2 anchor in STRIKES/STATUS either way.
+1. **By 11/16:** OWED-44 = **WQ-669** (A count / B do not / C conditional on the ~11/16 Ust-Luga re-read). Encode only on PROME's packet carrying Will's word; until then publish both clocks. Option C makes the 11/16 re-read load-bearing: look for a second source on the liquids terminal or loadings.
 2. **~11/14:** Kirishi +5d re-read. **~11/16:** Ust-Luga +5d (loadings, Novatek status, tankers).
 3. **When posted:** Palaemon 9–16 Nov → advance mark from 11/9. **When printed:** October full-month runs → OWED-52.
 4. **11/17** Bloomberg print + C2 (only if Ust-Luga does not count) · **11/18** OSP-07 + GATE-001 + settlement-brake review · **11/20** OSP-08 (hinges on OWED-44) · **11/23** C1 leg A · **11/24–27** C3 canvass · **11/27** earliest C3 kill.
@@ -36,4 +36,4 @@
 - Inbox: clear. WALTER lane: clear (2 → processed). Outbox: none. PROME packet: PROME/inbox/2026-11-11_from-OSPREY_catchup-ust-luga-talks.md.
 
 ## PENDING PUSH / GIT
-- Committed locally, path-scoped; push left to closeout (safe-push) because local HEAD also carries PROME's unpushed commit.
+- Closeout on PROME prome-2b WQ-249 ask (09:58 ET): records 0d4048e15c, packet 2ec449fa07 (consumed and filed by PROME), this closeout commit; pushed via safe-push.

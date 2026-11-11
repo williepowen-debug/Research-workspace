@@ -68,7 +68,7 @@
 | **✅ 11/6** | **+5d re-reads RUN, all three UNRESOLVED (KB-257):** Novokuibyshevsk all CDUs?, Ufa Novoil identity, Kstovo identity/halt | Rolls into OWED-43. |
 | **~11/8–11/10** | **+5d re-reads: YANOS 11/3 (halt, units), Ryazan 11/5 (CDU-6, damage)** · Afipsky ~11/11 | Mine. |
 | **✅ 11/11** | **Bloomberg weekly print (3.63 to 11/8, KB-278) + Abu Dhabi outcome (no moratorium, KB-279)** | Read. Settlement-brake review 11/18. |
-| **before 11/17** | **⚖ OWED-44 BINDING: does the Ust-Luga 11/11 port-zone row (Novatek condensate section per OSINT) count for C2?** Precedent says yes (9/1); it favours my mark | **Will's, via PROME.** Both clocks published until ruled. |
+| **before 11/17** | **⚖ OWED-44 BINDING: does the Ust-Luga 11/11 port-zone row (Novatek condensate section per OSINT) count for C2?** Precedent says yes (9/1); it favours my mark | **Will's: registered WQ-669 by PROME, needed by 11/16 (A count / B do not / C count only if the ~11/16 re-read finds a second source on the liquids terminal or disrupted loadings).** Both clocks published until his word arrives by packet; do not encode before. |
 | **~11/16** | **+5d re-read: Ust-Luga 11/11** (loading halt, Novatek status, tankers) | Mine. |
 | **after October print** | **OWED-52: re-derive the band** on the October full-month runs print, again on the first November read, then present to Will via PROME | Mine; band Will-gated. |
 | **✅ 11/6** | **§5 30-day EXIT RULES re-read DONE (KB-258), no fire.** Next by 12/6. | Mine. |
