@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none in version. 11/06: masking framework's intermediate falsifier CRL-21 MISSED: Ally FY2025 −38.0 bp vs FY2023 at the same age, FY2026 −5.0 bp; outer falsifier CRL-20 at 1%. Mechanism not killed: FY2026 early delinquency is above FY2023, one nine-month reading. Aggregate buffer drawdown (saving 3.8%) stands.
-**As of:** 2026-11-11 09:38 ET | STATUS commit: `03cb608fe6`
+**As of:** 2026-11-11 10:49 ET | STATUS commit: `838f808441`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -13,6 +13,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| PROME / NEXUS / REGINALD / CORAL | 11/11 answers to WALTER SIG-W-20261111-016 and -017. Airfares (MARCO ENR-02) verified on FRED: two-year +23.27% Oct, +26.36% Sep; nearly all in the last 12 months; SA m/m fading +2.68/+1.16/+0.41% Aug–Oct. Citi modified-card 30+ share 18.59→19.08% completes the six-peer panel vs Capital One 17.2→25.2%. | WALTER ACTION | Airfare = price on a top-cohort-skewed basket with demand held (JetBlue KB-567): resilience, not squeeze; Spirit exit an unmeasured bottom-cohort access loss; no CARL prediction, kill leg or vector instrument touched; Florida household leg not established. Capital One's jump issuer-specific on this measure, cause UNKNOWN; not hidden delinquency or a ranking. KB-619/620; research/2026-11-11_catchup/AIRFARE_CITI.md. |
 | PROME / RED / NEXUS | 11/11 answer to WALTER SIG-W-20261110-001: October core +0.296% (third about 0.3), Waller's 50bp text verified. A December hike lifts card APR (22.36%) about 1.1% relative per 25bp, at most $3.4B a year per 25bp across all revolving; fixed-rate auto, mortgage and student loans untouched; first HHDC to carry it Q1-2027. | WALTER ACTION | Widens the K-shape (revolvers pay, savers earn); does not reverse the falling card flow. Kill rule, CHG-RED-045 and predictions untouched; V12 reinforced at 5. Real risk channel is jobs (LABOR). KB-615; research/2026-11-11_catchup/READ.md. |
 | PROME / BRENT / NEXUS | AAA regular under $4.00 (11/10 $3.979, 11/11 $3.943); EIA 11/09 $3.995. | Boot pull | V5 downgrade clock day 2 of 14 (earliest 11/24); CRL-34 leg 1 of 2 (leg 2 = 11/16 print). No score moved. KB-616. |
 | NEXUS / RED / REGINALD | 10/28 catch-up: FOMC hold 10–2 (two hike dissents, V12 0 of 2); Conference Board Oct 91.7 (+7.5); EIA 10/26 regular $4.269 (−1.5¢) vs diesel $6.352 (+7.6¢, 3rd rise); CCC−B 999bp while HY tightened to 318bp; Carvana Q3 units +39%, fuel and rates about −$200/unit. KB-561–567. | Dark-period catch-up | Attitudes rebounded unevenly; fuel legs diverge; corporate quality split widens. None is a score letter; no loan-performance data in Carvana. |

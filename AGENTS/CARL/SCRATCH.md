@@ -1,34 +1,28 @@
 # CARL SCRATCH
-**Last session:** 2026-11-11 09:28–09:39 ET; Claude Code, Opus 5.5 (claude-opus-5-5), desktop, woken by PROME prome-2b on Will's 09:24 ET word ("Lets make sure we get all our agents caught up to the live data and news"). Closed on PROME's 09:37 ET closeout ask (WQ-249).
-**Type:** catch-up wake: boot, drain inbox, refresh instruments, answer WALTER SIG-W-20261110-001. Research only; no score, mark, band, threshold, gate or card moved.
+**Last session:** 2026-11-11 10:43–10:49 ET (second wake today; end = closeout start by `date`); Claude Code, Opus 5.5 (claude-opus-5-5), desktop, woken by PROME prome-2b on WALTER IMMEDIATE card SIG-W-20261111-016. Closed on PROME's closeout ask (WQ-249). Earlier today: 09:28–09:39 ET catch-up wake (`research/2026-11-11_catchup/READ.md`, packet d0afbe9df0).
+**Type:** card wake: airfare card (-016) + DEWEY Citi completion (-017). Research only; no score, mark, band, threshold, gate or card moved.
 
 **PRIORITY-1:** **Tue 11/17: grade CRL-34 leg 2 on the EIA 11/16 regular-gasoline print (FRED GASREGW; below $4.000 = YES, leg 1 was 11/09 $3.995). Then Tue 11/24: V5 downgrade check (AAA below $4.00 every day 11/10 → 11/24 = registered 4→3 trigger met; record it, do not pre-execute). Both are docket rows.** Own docket before that: Thu 11/12 PHAN successor gate and ICSA; Fri 11/13 ES-02 / CRL-28 (STUE).
 
 ---
 
 ## CHANGES SINCE LAST SESSION
-- 11/10 after CARL closed: WALTER SIG-W-20261110-001 (IMMEDIATE, ACTION CARL) delivered; FERT and RED packets landed 11/10 13:14 and 11:51 ET.
-- AAA gas fell under $4.00 (11/10 $3.979, 11/11 $3.943); EIA 11/09 $3.995.
-- 11/10 close: consumer lenders and builders fell more than SPY on the hike repricing (SYF −2.08%, ALLY −2.23%, LEN −5.37%; vendor).
+- 10:38 ET WALTER cards 20261111-016 to -019 (44cab8abbf): -016 (MARCO ENR-02 airfares) and -017 (DEWEY Citi) carried action:[CARL]; DEWEY's Citi pointer landed in `inbox/`.
+- Boot (quotes stamped 10:44 ET): market leg red on the day (SYF −1.48%, LEN −2.98%, builders −2%; vendor intraday). No new print in CARL's lane.
 
 ## WHAT HAPPENED
-1. **WALTER 20261110-001 answered** (`research/2026-11-11_catchup/READ.md`, KB-615): core +0.296%, headline +0.350% (FRED mirrors; BLS API at daily limit); Waller's 50bp text verified at federalreserve.gov. Consumer read: card APR 22.36% moves about +1.1% relative per 25bp, at most $3.4B a year per 25bp across all revolving; fixed-rate auto, mortgage and student loans untouched; first HHDC to carry a December hike is Q1-2027. Kill rule, CHG-RED-045 and all predictions untouched; V12 reinforced at 5.
-2. **Gas:** V5 downgrade clock day 2 of 14; CRL-34 leg 1 of 2 (KB-616). Docket rows 11/17 and 11/24 added.
-3. **RED packet:** presses 1–3 accepted; FY2026 line is "unrefuted, untested until CRL-36". CRL-36 70% not defended (sentence on the row); re-mark to 60% offered, **PROME DECLINED 09:37 ET: 70% stands as registered (WQ-596), scored as registered.** Vintage ask answered: not separable, leans seasoning, neutral datum.
-4. **FERT packet:** food at home +0.443% confirmed, not grain-led; KB-618 combo:goods-price-pipeline.
-5. **BOARD:** 7 dispositions incl. Car-Mart (KB-617 combo:deep-subprime-loss-recognition) and the four deferrals dated 11/10 (discharged, acted). 0 owed.
-6. Packet to PROME `PROME/inbox/2026-11-11_from-CARL_catchup-fed-hike-consumer-read-gas-under-4.md` (d0afbe9df0), consumed by PROME.
+1. **Airfares (-016) answered, nothing of CARL's touched** (`research/2026-11-11_catchup/AIRFARE_CITI.md`, KB-619): verified on FRED mirrors, October +23.27% / September +26.36% over two years, nearly all in the last 12 months (Sep 2025 vs 2024 +3.20%); seasonally adjusted m/m fading (Aug +2.68%, Sep +1.16%, Oct +0.41%). Price on a top-cohort-skewed basket, demand held (JetBlue KB-567). Spirit exit = unmeasured bottom-cohort access loss. No OPEN prediction, kill leg, fast trigger or V5/V7/V8 instrument uses airfares. combo:florida-household-squeeze (fare stage only).
+2. **Citi (-017) acted** (KB-620): North America modified-card 30+ share 18.59→19.08% (+0.49 pp), buckets re-added; six peers within about 1 pt vs Capital One about +8 pt, so issuer-specific on this measure; cause UNKNOWN. STATUS Capital One row updated; DR-1 PARTIAL; CRL-20/31 unchanged.
+3. Packet to PROME `PROME/inbox/2026-11-11_from-CARL_airfare-ENR02-citi-peer.md` (71e8ba22d3), read and filed by PROME.
+4. **Self-correction:** the answer file and KB-619 first carried made-up times ("10:43–11:15", "~11:00 ET") while the clock read 10:48; both corrected at closeout with the error stated. Stamp from `date`, never narrative.
 
 ## STATUS CHANGES
 | Item | Change |
 |---|---|
-| Gas row | AAA $3.943; V5 clock day 2/14; CRL-34 leg 1/2 |
-| CPI row | September → October composition; real hourly pay flat |
-| Fed/V12 row | Waller 50bp text + consumer transmission read |
-| Close read, HY OAS, diesel | refreshed to 11/10–11/11 |
-| Current judgment | 11/11 line added |
-| KB | +615 to 618 |
-| Predictions | CRL-34, CRL-36 notes only; 14 OPEN; no mark moved |
+| Capital One modified cards row | "Citi unread" → Citi 18.59→19.08%, issuer-specific on this measure |
+| CPI composition October row | airline-fare clause added (+0.41% SA m/m; two-year +23.27% NSA) |
+| KB | +619, +620 |
+| Predictions | none touched; 14 OPEN |
 | Score | 53/70 v2.6.6 unchanged |
 
 ---
@@ -56,18 +50,19 @@
 
 ---
 
-## OUTBOX (1 item)
+## OUTBOX (2 items today)
 | File | To | Summary |
 |---|---|---|
-| `PROME/inbox/2026-11-11_from-CARL_catchup-fed-hike-consumer-read-gas-under-4.md` | PROME | Catch-up; every row key; consumed by PROME 09:37 ET |
+| `PROME/inbox/2026-11-11_from-CARL_airfare-ENR02-citi-peer.md` | PROME | Airfare + Citi answers, every row key; read and filed by PROME 11/11 |
+| `PROME/inbox/2026-11-11_from-CARL_catchup-fed-hike-consumer-read-gas-under-4.md` | PROME | Morning catch-up; consumed 09:37 ET |
 
 ## INBOX (0 live)
-FERT and RED 11/10 packets → `inbox/processed/`; WALTER SIG-W-20261110-001 → `inbox/WALTER/processed/`.
+WALTER SIG-W-20261111-016 → `inbox/WALTER/processed/`; DEWEY Citi pointer → `inbox/processed/`.
 
 ## WORKBOOK HEALTH
 | TSV | Note |
 |---|---|
-| KB.tsv | LIVE; KB-615 to 618 added 11/11 |
+| KB.tsv | LIVE; 617 lines; KB-615 to 620 added 11/11 |
 | PREDICTIONS.tsv | 14 OPEN; header refresh 2026-11-11 |
 | Docket | CATALYSTS 30 = CALENDAR 30 |
 
@@ -75,20 +70,21 @@ FERT and RED 11/10 packets → `inbox/processed/`; WALTER SIG-W-20261110-001 →
 - CRL-36 stays 70% as registered (PROME 11/11); do not re-mark without Will's word.
 - The HHDC card stays frozen: addenda only.
 
-## CLOSEOUT RECEIPT (2026-11-11)
+## CLOSEOUT RECEIPT (2026-11-11, second session)
 | Obligation | Result | Evidence |
 |---|---|---|
 | Consistency (no --warn-only) | PASS | rc 0; 0 hard, 6 soft (carried) |
 | Corrections boot check | PASS | rc 0, 0 unreceipted named rows |
-| BOARD assertion (WQ-227) | rc 0 | "BOARD scan run, 14 new since SIG-W-20261110-007, 1044 logged" — a receipt count, not review; 0 action:[CARL] unrecorded |
-| Read cap | PASS | rc 0, 7 reads under budget; rotation_due=1 noted |
-| Orphan | RUN | own files committed; others' [not yours] untouched |
-| Claim weekday | PASS | STATUS, CATALYSTS, CALENDAR, READ.md clean |
-| Ledger nudge | RUN | KB and PREDICTIONS changed and committed; sub-agent ledgers unchanged in data (no session work) |
+| BOARD assertion (WQ-227) | rc 0 | "BOARD scan run, 2 new since SIG-W-20261111-017, 1046 logged" — a receipt count, not review; -016 and -017 acted |
+| Read cap | PASS | rc 0, 7 reads under budget; rotation_due=1 carried |
+| Orphan | RUN | own files committed; LIQUID registry and research [not yours] untouched |
+| Claim weekday | PASS | STATUS, CATALYSTS, CALENDAR, SCRATCH, AIRFARE_CITI.md clean |
+| Ledger nudge | RUN | KB changed and committed; 26 sub-agent ledgers flagged behind, none had data changed this session (no sub-agent work) |
 | Roadmap index | PASS | `--check` rc 0; no thread edited |
-| Research retirement | RUN | 4 candidates >60d, all retained (cited by CRL-12/CRL-29 rows, KB, COUNTER_LOG; CRL-29 registration artifact exempt); 0 moved |
-| Consumer check | NOT APPLICABLE | no figure superseded; no mark moved |
-| Memory | NOT APPLICABLE | no new transferable lesson |
-| ABS monitor | NOT RUN | boot used `--quick` (EDGAR closed Veterans Day) |
-| Brief pin | PASS | brief_pin_check OK-PINNED 03cb608fe6 = STATUS HEAD |
+| Docket | NO CHANGE | no new catalyst; CATALYSTS 30 = CALENDAR 30 |
+| Research retirement | RUN | 3 files >60d, all retained (SYF_COF_Q1 cited by PREDICTIONS; HHDC Q1 brief by the HHDC grading card; ally reclassification audit by COUNTER_LOG); 0 moved |
+| Consumer check | NOT APPLICABLE | no figure superseded |
+| Memory | NOT APPLICABLE | the made-up stamp is an instance of the fleet finding on narrative stamps (not CARL-authored, not extended) |
+| ABS monitor | NOT RUN | boot used `--quick` (scope: card wake) |
+| Brief pin | see commit | brief_pin_check against STATUS HEAD 838f808441 |
 | Push | see final report | safe-push receipt |

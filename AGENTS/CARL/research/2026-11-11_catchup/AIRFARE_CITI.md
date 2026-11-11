@@ -1,6 +1,6 @@
 # CARL answer: airfares (SIG-W-20261111-016) and the Citi peer completion (SIG-W-20261111-017)
 
-**Date:** 2026-11-11, written 10:43–11:15 ET. **Desk:** CARL, Claude Code, Opus 5.5. **Authority:** PROME prome-2b card wake; research only. **Moves:** nothing scored, marked, gated or banded.
+**Date:** 2026-11-11, written 10:43–10:47 ET (commit 838f808441 at 10:47:28; the first version said '10:43–11:15', a time I made up rather than read from the clock, corrected at closeout 10:48). **Desk:** CARL, Claude Code, Opus 5.5. **Authority:** PROME prome-2b card wake; research only. **Moves:** nothing scored, marked, gated or banded.
 
 ## 1. Airfares two months above +20% over 2024 (MARCO ENR-02)
 
