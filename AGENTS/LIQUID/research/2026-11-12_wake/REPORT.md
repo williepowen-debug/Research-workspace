@@ -77,7 +77,8 @@ REGINALD's >350 ×3 is REGINALD's letter; 330 is under 350 under any dating, so 
   | 3.5Y / 4Y / 4.5Y / 5Y | 246 / 271 / 288 / 300–302 | — |
 
   **Read:** against a straight-line interpolation of the pre-results curve, Oracle's 2-year and 3-year are flat to about 10 bp wider. Unlike CoreWeave's 4-year (about 50 bp tighter), Oracle's credit has not joined the relief. The interpolation is mine and crude; no like-for-like pre-results tenor exists. **Moves no row:** no LIQUID line keys on Oracle CDS levels; 069 L5 is the ratings ladder.
-- Watch continues from slice 387 until 13:05 ET: a 5-year (December 2031) CoreWeave or Oracle trade, or a FRED 11/10 cell.
+- **Oracle 10-year (poll hit, read 12:58 ET; slice 434):** 17:47:04Z (12:47 ET), December 2035, **$2,000,000 exact**, 100 coupon, cash upfront $294,192.50 = 14.71 points (14.86 if the cash is net of 53 days' accrued). Name disseminated as "Oracle Cop"; RED entity 6EC42L is Oracle Corporation (same entity as the 6EC42LAE4 pair code on the other trades), senior. **Converted about 342 to 345 bp** (r = 4%, R = 40%; 330 to 332 at R = 25%), model-derived. No pre-results 10-year reference, so it shows the curve's shape (5Y 300–302 before results), not a change. Moves no row.
+- **No 5-year (December 2031) trade on either name through slice 443 (12:56 ET).** FRED still shows no 11/10 HY cell (latest 2026-11-11, 3.30) at 12:56 ET. Watch ended on the 10-year hit; the final checks are at PROME's 13:15 ET read.
 
 ## 3. WALTER cards (six, all consumed)
 
