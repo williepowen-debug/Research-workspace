@@ -1,3 +1,7 @@
+## Latest closeout — 2026-11-12 (read this first)
+
+See `outbox/2026-11-12_session-closeout.md`. Plaza L517 pre-check run early: no objection filed before the Nov 17 cash hearing (`output/2026-11-12_plaza-continental-no-opposition-check.md`, 8af08575e8). Still owed 11/16: L517 late-filing/tentative check and the 11/17 result; 003R EagleBank bridge. CXMT item closed. United Fidelity extension not assigned.
+
 ## Session closed at Will’s request
 
 Research and six delivery pointers committed in `3f8e19588f`, with safe-push fresh-fetch confirmation on origin/master. Recipient consumption remains unverified. No session-owned research process or subagent remains running. Do not restart research on this closeout. Preserve the unresolved United Fidelity cause/property mapping and enforcement-status questions; EagleBank and Plaza remain separate. Other desks’ work was preserved.
