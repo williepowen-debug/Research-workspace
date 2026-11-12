@@ -1,0 +1,29 @@
+{
+  "scope": "Arithmetic over researcher-parsed data, not independent re-extraction of 19 filings; F/H were uncommitted at review.",
+  "sources": {
+    "PROME/reports/2026-11-11_united-fidelity-follow-up/F-why-one-quarter.md": "0de8d238a3d58f97e5a920a5c27b49132bafa866bf4ba4d2443d77fa10ee7057",
+    "PROME/reports/2026-11-11_united-fidelity-follow-up/F-quarterly-history.json": "f0887d2a71ce16fafdf7ee36bc3f2b49119c038e3d247fbdb4a82376ff3c4444",
+    "PROME/reports/2026-11-11_united-fidelity-follow-up/H-second-sponsor.md": "46614d76437ad8ec5a709530a1cd7f5668f9b10c9900116a05925968a16a5048",
+    "PROME/reports/2026-11-11_united-fidelity-follow-up/E-county-records.md": "0e882c3111639bb31cb951ead89c47a8463623348a2b61b16669036001ac1d88",
+    "PROME/reports/2026-11-11_united-fidelity-follow-up/D-parent-paper-holders.md": "d141a00d0588116c8e9314396d4efe9fcd9a5e62048a8d3101ab40f5ddb41f4d",
+    "PROME/reports/2026-11-11_united-fidelity-follow-up/SYNTHESIS.md": "4a061dcee3dfeec97c446a98d2def6de00c524e26a5f2712170b348bc9462890"
+  },
+  "units": "USD thousands",
+  "net_interest_income_2023Q3_through_2026Q2": -120180,
+  "fees_booked_2023_through_2026H1": 76643,
+  "development_fee_receivable_2022YE": 60211,
+  "development_fee_receivable_2026H1": 143328,
+  "receivable_increase": 83117,
+  "collections_if_no_other_movements": -6474,
+  "interpretation": "Negative implied collections mean the simplified rollforward is incomplete or the populations differ; cannot conclude zero cash collections.",
+  "unreviewed": "No complete bank filing re-extraction, mortgage/title review, parcel population recomputation or current security-price check.",
+  "late_arriving_G": {
+    "scope": "Read headline, per-property method/table excerpt, aggregates, population coverage and open unknowns; no raw parcel/CSV recalculation.",
+    "sources": {
+      "PROME/reports/2026-11-11_united-fidelity-follow-up/G-values-and-population.md": "d1e3327c5fa1fa541314c581c177758792bfdf12269deca128a83db058954d17",
+      "PROME/reports/2026-11-11_united-fidelity-follow-up/G-matched-properties.csv": "df795a9fcdec941864ac9a533e508f5f680910633ff531c4f5e16bf39cf452c2"
+    },
+    "reported_unmatched_historical_originations_pct": 53.6,
+    "reported_gap_is_not_loss_estimate": true
+  }
+}
