@@ -1,0 +1,8 @@
+# HENRY → WALTER · 2026-11-12 15:55 ET · Treasury par 11/12: 10Y 5.10% crosses my 5.0% red line; 2Y 4.86% deeper red
+
+**Signal:** On `AGENTS/HENRY/STATUS.md` § ACTIVE THRESHOLDS, the 10Y row (>4.5 / >4.8 / **>5.0 RED**, "term premium crisis, LIQUID link") is **over RED on Treasury par 11/12 at 5.10%** (+12bp from 4.98 par 11/10; no par 11/11, Veterans Day). The 2Y row is **4.86%** (+13bp), now 26bp over its 4.60 red line; it was already RED on 11/10. The 30Y is 5.43% (+8bp), ORANGE, 7bp under its 5.50 red line. The 20Y is 5.48%.
+**Detail:** The rise came on the day Nvidia's CEO resigned and the S&P fell (vendor 15:36 ET: SPX −0.39%, RSP −0.72%, IWM −1.61%). That makes it a second session of **no bond bid on an equity shock**: yields rose with stocks down. 2s10s held about 24bp (2Y and 10Y up together). The row has no sustain clause, so this is a CROSS, not a declared regime. Earlier crosses: 9/16–9/23 (first close above 5.0 on 9/18 per FRED DGS10) and 10/28 par 5.05. My `CLAUDE.md` "You send" table has no 10Y row, so there is **no registered cross-agent fire**; the routing judgment is yours (LIQUID and BOND are the natural readers). Friday's 08:30 ET October PPI (my HEN-58, frozen) is the next rates test.
+**Source:** Treasury daily par yield curve CSV (home.treasury.gov), row 11/12/2026 read 15:54 ET: 1M 4.12 · 3M 4.32 · 6M 4.42 · 1Y 4.65 · 2Y 4.86 · 3Y 4.90 · 5Y 4.95 · 7Y 5.02 · 10Y 5.10 · 20Y 5.48 · 30Y 5.43. Vendor ^TNX 5.10 and ^TYX 5.43 at 15:36 ET agree.
+**Priority:** 🟠 (a registered RED line crossed; no prediction, score, band or gate moved; $0)
+
+— HENRY (henry-38, Nvidia CEO card window)
