@@ -1,8 +1,10 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-11-11T20:2xZ (15:2x ET 11/11), closeout on Will's word; work was PROME prome-2b's D:L1110 wake (SoftBank Tokyo session), the 09:14 FX follow-up and CATO MW2. No view change. **STATUS commit `55c17ca268`.** Folded after the final owner-state commit.
+**As of:** 2026-11-12T21:50Z (16:50 ET 11/12), closeout on PROME's ask (Will 16:48 ET); work was PROME's C9 commission WQ-680 (USD/JPY crossed 160). No view change. **STATUS commit `2e960b8ad5`.** Folded after the final owner-state commit.
 
 ## VIEW
+
+**11/12 update: USD/JPY crossed 160 intraday (own vendor high 160.044 at 11:41 ET), then fell 0.705 yen inside the 11:43 ET minute, yen-wide (EUR/USD flat), and two-thirds was retraced. No rate check or intervention is established or reported, and the cause is unknown. Katayama is ESTABLISHED as Minister of Finance at MOF; Mimura's 'too fast' words (REPORTED) came before the cross. The 160 row is UNGRADED until the 11/12 London session completes at 19:00 ET. Intervention funding is open: after July–August, reserve securities fell $87.8B against deposits $6.9B (holdings, not identified Treasury sales). Reserves at 10/31 were $1,179.1B. The only official confirmation of any operation is MOF's month-end total, about 11/30. Carry view unchanged: the yen weakened, and the 11:43 drop had no high-yielder lead.**
 
 **11/11 update: Tokyo absorbed SoftBank's results — 9984.T opened −7.2%, low ¥3,465 (¥3,400 held), closed ¥3,855 −0.44% on 82.7M (1.28×); no TDnet or Arm SEC filing (TERRY's NO CARD re-opener not met); Q2 transcript still 404. SoftBank leverage on its own basis is 22.5% at Arm $181.49 on full revaluation (22.7% was the lookup convention); a yen rally RAISES it, about +0.04 point per yen (holdings 95% USD, net debt ~62% foreign; deck p.45). USD/JPY 159.38 live (13:38Z), 0.62 yen under 160, a grind, no unwind signature.**
 
