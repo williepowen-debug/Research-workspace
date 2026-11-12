@@ -5,7 +5,7 @@
   "review_scope": "Boot input/mode/invocation coverage; not a full implementation or closeout dependency audit. See runs/2026-10-09_BOOT_RELIABILITY.md. Hashes identify versions, not correctness.",
   "publication_at_capture": "PROME live registry delta pending owner application",
   "sha256": {
-    "CLAUDE.md": "a14aa52636de7441467ca47548504e4a1c70c689e2ae1a8ad8c1504ceed8115a",
+    "CLAUDE.md": "6ef76a671371d9ea72755ebaa3df49aa70a7446d2c6ac0493bcd56266158e5a5",
     "AGENTS/DAEDALUS/CLAUDE.md": "e747099530530f350adf19719e6ca3a0655fe8cec597c52a07073c79edfb6555",
     "AGENTS/DAEDALUS/scripts/sweeps_due.py": "e0a8d9b0ca193e6133096e1a4f0245c20aa477d53755213cf8fd8d3b8f2bc5d1",
     "scripts/corrections_boot_check.py": "0c01347df227938c66ac72b3b5b064a9787f14587f1858aa0fa2e5b83f31bc7f",
@@ -16,14 +16,14 @@
     "AGENTS/DAEDALUS/scripts/render_directory.py": "666110836dee09c1ba7b9c3d1ed9fd2490013a5ed3e273978cea33db0e313a00",
     "AGENTS/DAEDALUS/scripts/regen_patterns_hot.py": "5271d0b4ca5070f4ce24ae3fc6edca18504254201e47e45fb05fc45ebf3892a1",
     "PROME/ROSTER.md": "95fac42caf9b350ffe75be78e66eaa3a010a7d688a602551c044f58f06aa18a1",
-    "AGENTS.md": "929ee5d2c16968b4f257024d3625e366b55bd9212e7138e15ee2588e66619e64",
-    "USER.md": "6da4539d0c8337869b98c13da7d76b300f64e01b4072e5e675fe2f5d2760bf92",
+    "AGENTS.md": "873bf5665c6a7987a6a779cf78504bb960184f6e5b61b620a0a44c1f172865da",
+    "USER.md": "81610c100547d22eb1a80e912bf367ee3ebadaba14ca819a96b2d9ac4ca8fbb0",
     "PROME/COMPLETION_SPEC.md": "0995dabd1626a75f93ffec001aeee5ef8162a3a18725a2474310030748f1e481",
-    "PROME/ORCHESTRATION_PLAYBOOK.md": "4dd7d1dff74b42805ecbbbefc3569badb3f49b7bb8bf8c2bd5140b1edc56b8f6",
+    "PROME/ORCHESTRATION_PLAYBOOK.md": "9a813437b95a8a8165f623340b1fc9c2058d84349faee74e6e5152c59ab78659",
     "AGENTS/DAEDALUS/scripts/docket_owed.py": "684eb8968d162a07da7fc2ab2a3bde5ef1fc077bef1bbac77248f8f7c58ee0e4",
     "scripts/docket_view.py": "1112e9b3db0d8cec163b8f8133fc8cc9078131f8102866dd326a6f581fcf13fe",
     "AGENTS/DAEDALUS/OPERATIONS.md": "77a634bc435f37e4eb424f6ab78172776c35930b5ec8bcfae8210688e6c7bf73",
-    "docs/GIT_WORKTREE_PROCEDURES.md": "3b2f593bd2fb30ce53afe4c03bdc275db444fefd28514484d1cf90a4c1e49904"
+    "docs/GIT_WORKTREE_PROCEDURES.md": "db95ffa73abf7f7724a35e628b40e863eaaa00f3fda8c7757398fa7c395b2cdf"
   },
   "charter_identity_update": "2026-10-09: Will-approved preservation split into mandatory CLAUDE.md and OPERATIONS.md; only these instruction identities refreshed/added. Other hashes retain their prior reviewed snapshots. Additive owner delta: registry/2026-10-09_READS_SPLIT_DELTA.tsv; live application not inferred.",
   "wq654_update": "2026-11-09: only sweeps_due/profile_clock/daedalus_gate identities refreshed for WQ-654 invocation relocation; profile_clock code unchanged. Other hashes remain historical. PROME READS application pending owner receipt; implementation review in runs/2026-11-09_WQ654_IMPLEMENTATION.md. Post-initial-review correction: CLAUDE.md SPAWN5 stale profile-clock phrase removed; charter identity refreshed, A09 spec lines retained.",
@@ -34,5 +34,6 @@
     }
   },
   "reattestation_2026-11-12": "Full re-enumeration at HEAD 72c4e7b4f (method: runs/2026-11-12_HOUSEKEEPING.md §2). All identities refreshed; docs/GIT_WORKTREE_PROCEDURES.md added (root CLAUDE.md requires it whole before commit/pull). Hashes identify versions, not correctness. PROME transcription pending owner application.",
-  "wq678_update": "2026-11-12: CLAUDE.md:93 and OPERATIONS.md:14 citation fixes (WQ-678 A18); only these two identities refreshed; no boot read added or removed. Later 2026-11-12: OPERATIONS.md lines 14 and 16 pre-approval text removed (WQ-678 addendum); identity refreshed."
+  "wq678_update": "2026-11-12: CLAUDE.md:93 and OPERATIONS.md:14 citation fixes (WQ-678 A18); only these two identities refreshed; no boot read added or removed. Later 2026-11-12: OPERATIONS.md lines 14 and 16 pre-approval text removed (WQ-678 addendum); identity refreshed.",
+  "wq679_update": "2026-11-12 ~10:55 ET: identities refreshed after PROME 212347d3a2 (WQ-678 A3-A7/A16) and 9d43dd3cdc (WQ-679 A root rows): CLAUDE.md, AGENTS.md, USER.md, PROME/ORCHESTRATION_PLAYBOOK.md, docs/GIT_WORKTREE_PROCEDURES.md. Path-token diff vs dc6e26e3d2 adds only a ruling-record pointer; no boot read added or removed, attestation stands."
 }
