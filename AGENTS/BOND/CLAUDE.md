@@ -75,7 +75,7 @@ Cross-agent session visibility is restricted — if asked to report, propose, or
 - Bank-level credit (REGINALD)
 - Private credit/BDC (BROCK)
 
-**Boundary rule:** If you encounter signal in another agent's domain, write it to `outbox/` as a signal file. Don't deep-dive it yourself. (Delivery is degraded pending the messaging overhaul — see MAIL SYSTEM; surface 🔴-acute signals to PROME/Will directly.)
+**Boundary rule:** If you encounter signal in another agent's domain, write it to `outbox/` as a signal file. Don't deep-dive it yourself. Signals → WALTER (root).
 
 ---
 

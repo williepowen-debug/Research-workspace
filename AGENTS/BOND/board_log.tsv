@@ -113,3 +113,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-10T13:08:16-05:00	SIG-W-20261110-001	noted	INBOX_WALTER	CPI core +0.3 met Waller's 50bp condition; matches BOND's own read KB-BND-565; HENRY owns the path; no score moved.
 2026-11-10T13:08:16-05:00	SIG-W-20261110-005	noted	INBOX_WALTER	JGB 30Y soft (BTC 3.356, tail 2.4bp, SAM): combo:long-end-demand, price leg only per BOND JGB rule; KB-BND-567; no score moved.
 2026-11-10T19:32:58-05:00	SIG-W-20261110-011	noted	INBOX_WALTER	10Y 4.98 vendor close relay consistent with KB-BND-565/566; official 11/10 par carried to 11/11 boot; other items not BOND; KB-BND-568; no score moved.
+2026-11-12T13:09:41-05:00	SIG-W-20261111-011	noted	INBOX_WALTER	ORACLE Dec 9 FOMC read (hold 3.5 / +25 85.5 / +50 11.8; futures +28.9bp); with WQ-671 A ORACLE owns this figure; STATUS owner corrected; KB-BND-572; no score moved.
+2026-11-12T13:09:41-05:00	SIG-W-20261111-015	noted	INBOX_WALTER	ZHAO: China not a forced seller; Japan near 160 the live Asian official-seller risk; soft refunding indirect is not a foreign-official measure; combo:foreign-official; KB-BND-571; no score moved.
+2026-11-12T13:09:41-05:00	SIG-W-20261112-005	noted	INBOX_WALTER	Small items: USD/JPY 159.88, Mimura warning headline (SAM owns); rest not BOND; KB-BND-571; no score moved.
