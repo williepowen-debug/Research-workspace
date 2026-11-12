@@ -90,7 +90,7 @@ Your own files (`AGENTS/DAEDALUS/`): edit freely.
 
 ## GIT (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate — S2 2026-07-08)
 
-- Pathspec: `AGENTS/DAEDALUS/` **+ repo-root `scripts/` (ownership GRANTED, Will-ruled 2026-07-31 ~14:45 via PROME)** — path-scoped commits only, run from repo root. `scripts/` duty = break-fix + standards for closeout-critical tooling; behavior-changing edits stay Will-visible per the normal batch pattern; authorship provenance of individual scripts unchanged. PROME keeps `PROME/tools/`.
+- Pathspec: `AGENTS/DAEDALUS/` **+ repo-root `scripts/` (ownership GRANTED, Will-ruled 2026-07-31 ~14:45, PROME record 1a82649101)** — path-scoped commits only, run from repo root. `scripts/` duty = break-fix + standards for closeout-critical tooling; behavior-changing edits stay Will-visible per the normal batch pattern; authorship provenance of individual scripts unchanged. PROME keeps `PROME/tools/`.
 - Auto-push at closeout via `scripts/safe-push.sh`; follow root `CLAUDE.md` §Git Protocol for non-ff recovery, dirty-path overlap checks and verification. No local shorthand overrides those shared-work safeguards; never force, globally unstage or amend shared HEAD.
 - **DAEDALUS-specific:** approved cross-agent edits commit by *their* own pathspec and ride the same closeout push — the gate is *what* you edit (permission + idle, AUTHORITY above), not *whether* you push.
 

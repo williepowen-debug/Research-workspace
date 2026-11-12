@@ -1,4 +1,10 @@
-# Current continuation — housekeeping, November 12, 2026
+# Current continuation — Harness re-test, November 12, 2026
+
+Provider-switch re-test done on Will's "okay do harness re-test" (09:07 ET): `runs/2026-11-12_HARNESS_RETEST.md`, ledgers `runs/harness_audit_2026-11-12/`. WQ-678 A ruled 09:59 ET in PROME's chat; 41 packets (40 desks + PROME) committed 6a43711d27, A18 applied in own CLAUDE.md:93 and OPERATIONS.md:14. Owners apply at next ordinary wake; no launches. Own 28 optional trims (incl. RAV charter) deferred. A17 (USER.md :50 vs :52) and retiring the dormant-freeze pre-approval wait for Will. Harness last_run stays 2026-10-04 until applied.
+
+---
+
+# Earlier continuation — housekeeping, November 12, 2026
 
 Will's "ok go" (08:53 ET) authorized a bounded pass; done and recorded in `runs/2026-11-12_HOUSEKEEPING.md`. Claude Code Opus 5.5 on the desktop (session daedalus-f1). Small items closed: READS delta sent for PROME transcription (`registry/2026-11-12_READS_REATTEST_DELTA.tsv`), SHADE ledger row, SURFACES AGENTS.md row, L816 accepted, B6 tie clause NO-OP, ZHAO B24 closed, 9 packets filed. Staleness #7 and four Production Review sub-queues ran and their clocks advanced; independent cold read 23/5/0 with all five fixed (my MARCO "false alarm" call was wrong; packet rewritten to ask about row SFE-03). Next, not started: weekly scorecard 11/13 (apply WQ-656 B: CRL-15 ungradeable, no Brier), D:L490 11/15, Production Review #10 by 11/16, provider-switch Harness re-test (separate session, Will's scheduling). PROME applied the READS delta (ea2771bfff, verified ATTESTED) and ruled wiring_census/validate_all on-demand (applied). Earlier continuations below are history.
 

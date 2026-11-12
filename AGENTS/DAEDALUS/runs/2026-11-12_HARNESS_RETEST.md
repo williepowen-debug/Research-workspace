@@ -68,4 +68,8 @@ History inside steps, duplicates of root and stale pointers across all 74 files;
 
 ## 5. Status
 
+**Ruled:** WQ-678 A, Will in PROME's chat 2026-11-12 09:59 ET, verbatim "677 B and 678 A" (`PROME/proposals/2026-11-12_wq678-RULED.md`, efb80255b4, verified). **Executed 10:1x ET:** 40 desk packets plus one PROME packet in commit 6a43711d27 (Changelist A 20 desk rows across 14 desks; B 447 optional; PROME A3–A7/A16 10 rows, 73 optional, 11 root rows left to PROME's judgment as Will-gated, 5 USER.md rows for the record only). Generated mechanically from the ledgers; one ID collision (reader S and reader P2 both use `S-nn`) was caught and fixed before commit. A18 applied in own `CLAUDE.md:93` and `OPERATIONS.md:14`. Own 28 B rows (DAEDALUS files and RAV charter) deferred to a later own session. **Not decided:** A17 and retiring the dormant-freeze pre-approval (Will's word). No desk launched.
+
+**Before the ruling:**
+
 Detection complete; **no harness file edited** (all edits approval-gated). Changelist goes to Will as one decision via a PROME-registered WILL_QUEUE row. Clock: `last_run` stays 2026-10-04 until the approved changes are applied; this run is recorded as the provider-switch review.
