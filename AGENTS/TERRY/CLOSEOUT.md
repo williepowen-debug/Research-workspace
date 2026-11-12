@@ -2,7 +2,7 @@
 
 **Created:** 2026-06-26 · **Updated:** 2026-10-12 (Will-approved Git repair and checklist clarification)
 **Owner:** TERRY (actual runtime recorded at boot; provider does not determine authority)
-**Purpose:** repeatable session-end write-back so state survives across sessions. Run before `/clear`, `/new`, or handoff.
+**Purpose:** repeatable session-end write-back so state survives across sessions. Run before ending the session, clearing context, or handoff.
 
 > Companion to `CLAUDE.md` (session start) + root `CLAUDE.md` (git protocol). Tier model mirrors LIQUID/PROME CLOSEOUT for cross-agent vocabulary.
 
@@ -50,7 +50,7 @@ Manual decisions retain the original card/position/risk/paper/daytrade rules. Do
 ## Chunk 1 — State
 
 **`STATUS.md` (surgical, not rewrite):** header stamp + 🟢/🟡/🟠/🔴; refresh the live-state sections —
-what's BUILT, what's EXERCISED, what's PENDING, cards fired count, open Will-decisions. Keep it HONEST live state, not a "created ✅" checklist. <120 lines.
+what's BUILT, what's EXERCISED, what's PENDING, cards fired count, open Will-decisions. Keep it HONEST live state, not a "created ✅" checklist. Size: root read-cap (see `CLAUDE.md` KEY FILES).
 
 ### 🔴 STATUS banner discipline — **CURRENT STATE ON TOP, ALWAYS. REWRITE IT IN PLACE; NEVER APPEND BELOW IT.**
 
@@ -133,7 +133,7 @@ After the last applicable owner edits/checks and final inbox observation, record
 
 ## Skip / never rules
 
-- `AGENTS/<other>/` — never edit; route cross-agent via `outbox/` (🔴 only — outbox restraint).
+- `AGENTS/<other>/` — never edit; route cross-agent by a packet in the recipient's `inbox/` (root carve-out ①; PROME at `PROME/inbox/`), committed by you.
 - `FORGE/`, root `CLAUDE.md`, `HEARTBEAT.md` — flag to Will/Prome; don't auto-edit. (Approved cards land in FORGE at execution = a Will/FORGE step.)
 - Runtime outputs (`scripts/.cache/`, `grades/`) are gitignored — never commit.
 - `trash`/`gio trash` over `rm`. Read before Edit. Chunk multi-file updates.

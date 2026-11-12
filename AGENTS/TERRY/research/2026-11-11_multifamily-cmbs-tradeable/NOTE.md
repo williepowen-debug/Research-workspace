@@ -42,3 +42,16 @@ PROME prome-2b relayed REGINALD's catch-up (`PROME/inbox/processed/2026-11-11_fr
 ## Small item logged (WQ-622)
 
 `SIGNALS.tsv` `COMBO-CREDIT-FOLLOWING` gains the special-servicing print and the ABR / mortgage-REIT tape, counterevidence included. Logging is not scoring.
+
+## Addendum 2026-11-12 12:1x EST — HOMER's WQ-675 answer (Arbor cause, one-loan holder map): NO CARD STANDS
+
+Source: PROME relay of `PROME/inbox/processed/2026-11-12_from-HOMER_wake-HOM03-PMMS-WQ675.md` (HOMER 4ff19c7ac7; ledger `AGENTS/HOMER/workbook/MULTIFAMILY.tsv`). HOMER's figures and grades; TERRY answers only "is there a trade".
+
+| # | Point | Basis |
+|---|---|---|
+| 1 | **Price basis corrected.** § 2's "$1.44, bottom of its $1.44–$3.71 range" was an intraday vendor read on 11/11, not a close; HOMER's vendor has the 11/11 close at $1.39. Now **ABR $1.31, −5.76%** (vendor, 12:11 ET 11/12). The answer did not rest on the exact level. | `fetch.py price ABR` |
+| 2 | **Half the fall now has a dated, issuer-stated cause** (10/30 Q3 8-K: GAAP loss $(85.4)M, dividend suspended, non-performing $647.6M, stock −29.1% that day). That makes it a REALIZED, priced event, not a pending one: a put now still buys the mark after it is realized. | HOMER, 8-K Ex 99.1 |
+| 3 | **Red day:** a put today breaks root rule #6, and there is still one put strike (Jan-15 $1.50, 0.10 / 0.35, OI 265, last trade 11/10, screening marks 12:11 ET), a 100%+ wide market. | `chain_fetch.py ABR 2027-01-15` |
+| 4 | **Re-open condition 2 (a named loan-to-lender map) is met for ONE loan only**, and it lands on CMBS bondholders of a single-borrower Blackstone deal (deal name INFERRED, tranche holders not found), with no listed carrier and no Arbor link. Condition 1 (Trepp November print plus an unrepriced carrier) is still about 12/01–05. | HOMER rows |
+
+**United Fidelity:** `TRY-NOTRADE-UFB-NOV12` did not use the illustrative debt ratio PROME corrected (1.09× → 1.05×–1.09×); no change.
