@@ -1,6 +1,6 @@
 # OTTO MEMORY
 
-**Updated:** 2026-11-11, s044. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
+**Updated:** 2026-11-12, s045. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
 
 ## Desk boundaries
 - OTTO owns auto-fraud mechanisms, collateral evidence and identification of exposed counterparties. REGINALD owns bank sizing; BROCK owns CRMT financing grades and BDC marks; TERRY constructs trades and Will decides.
@@ -18,7 +18,7 @@
 - Tricolor Ch.7 Verita: October25 verified augmented TLS thenHTTP403; current access unavailable. Historical working recipe is POST `/document/list/6384` with PageSize2000 and the Go Daddy G2 intermediate added to a CA bundle. WebFetch's certificate failure is not absence of the docket. Never disable TLS verification.
 - Kroll and CourtListener docket/REST pages were blocked in the9/30 session. CourtListener SEARCH works unauthenticated through DEWEY's read-only `recap_pull.py search`; use the case number and verify document identity. Tricolor trial is a future docket event in the calendar, not the old October2026 date.
 - Equifax edition URLs use full month names. A guessed URL404 does not establish a missing edition. OTTO-10 remains NEEDS_VERIFY until the covering September edition, with its12/15 check.
-- CourtListener SEARCH API now 401s anonymously (first seen 10/28; worked through 10/25), so DEWEY's `recap_pull.py search` is dead without a token. Working route: per-docket RSS `https://www.courtlistener.com/docket/<id>/feed/` (newest 30 entries only, so older filings can be missed) + public RECAP storage PDFs. Verita POST worked again 10/28 (space retries). Details: WINTERKORN_MEMORY 10/28, ML-OTTO-344.
+- CourtListener SEARCH API now 401s anonymously (first seen 10/28; worked through 10/25), so DEWEY's `recap_pull.py search` needs a token: restored 11/11 with PROME's desktop token (DEWEY packet, no token in repo). Working route: per-docket RSS `https://www.courtlistener.com/docket/<id>/feed/` (newest 30 entries only, so older filings can be missed) + public RECAP storage PDFs. Verita POST worked again 10/28 (space retries). Details: WINTERKORN_MEMORY 10/28, ML-OTTO-344.
 - `panel_10d.py` has no argparse: `--help` runs a full refresh. Use `--dry-run`.
 - M&T official IR direct requests returned403 on10/19, while the web tool read its official deck/quarterly index and SEC supplied the filed release. Official webcast403; third-party transcript is labelled secondary. Do not claim a primary audio read.
 - Fitch paid/full index access was declined10/14; no new account or paid-data authority. March aggregate values retired from hot STATUS; deal-level panel is a different instrument, not a replacement Fitch index.
@@ -32,15 +32,13 @@
 - NY Fed HHDC workbook map (Q3-2026 file): p.3 balances by type; p.8 auto originations by riskscore (<620 bucket is NOT OTTO-10's Equifax share); p.12 share of balance 90+ by type; p.14 flow into 90+ by type, rounded; p.26 auto flow into 90+ by age with an 'all' column, four-quarter sum, full precision. CARL saves the file under `AGENTS/CARL/research/<date>_HHDC_prep/raw/`; a card's cited path can be wrong, so `find` before calling a source missing.
 - Verita: `DocketNumber` blank plus a date range lists every entry newest first; the docket number and `/tricolor/document/<id>` link sit in the HTML card above each `Document Name:` block. The G2 cert fetch must be plain `http://` with `-L`; `https://certificates.godaddy.com` fails its own name check.
 
-## LAST SESSION — s044, 2026-11-11 (Claude Code, Opus 5.5), PROME task from prome-2b, D:L133 + catch-up
-- Tricolor §341 set for 11/11 not held: continued to Wed 2027-03-17 10:00 CT (Verita Dkt 1496, filed 11/09, PDF read). PROME registered the successor as DOCKET L1121. WALTER drop committed.
-- NY Fed Q3 auto flow into 90+ 3.0232%, series high by 2bp; balance $1.734T; non-contradiction passed, 🟡 held. CRMT eleventh bridge to 11/12 (BROCK). James: government opposition ECF 166/167 filed, titles only, no ruling.
-- Fed-hike read (ORACLE's odds): touches no OTTO row, band or prediction. ML-375–382 incl. three combo updates. Inbox 2/2. No score, band, gate, threshold or prediction moved. Convergence 32/50.
-- Closeout: research retirement scan run (owed since s043): 15 files to `archive/research_retired_2026-11-11/`. STATUS rotated under 70%, originals cold §23. Consumer check's two 🔴 were false (dated WALTER snapshot; unrelated MKC number in a HENRY CSV).
+## LAST SESSION — s045, 2026-11-12 (Claude Code, Opus 5.5), PROME wake prome-e8, D:L1125 (held open after delivery)
+- CRMT: BROCK NOT GRADED (no 8-K after 11/10 through 16:36 ET). V9 rule acts only on a grade, so V9 held 🔴 4 UNGRADED-PENDING; BROCK re-reads Fri ~08:05 ET.
+- EART 2026-5 window 10/20–11/12 graded ABSENT (FTS 0 vs control 2026-4 = 69, index current, EFCAR quiet since 10/19, no ABS-15G). Halt candidate, not a halt; OTTO-07 unmoved 15%. combo:funding-cost-by-issuer condition met, logged not scored. Next check ~11/30.
+- Chu: no public suppression ruling through ECF 198 (11/10); sealed 11/06 entries unread; next ~11/20. Inbox 5/5; WQ-678 A applied, 13 B trims deferred. WINTERKORN run (0 date changes; 12/04 row added; escalations ML-387).
 
 ## NEXT SESSION — keep last
-1. **11/12:** CRMT relief expiry (BROCK grades) · EART 2026-5 window closes (OTTO-07; combo:funding-cost review) · WINTERKORN due (7 days). **~11/13** Chu suppression check (sealed 11/06 entry). Read James ECF 166/167 bodies.
-2. **~11/15 SDT:** run with Manheim +2, record the second observation (expect NO VERDICT); decide then whether to propose a redesign, stated openly, no credit.
-3. **11/16–11/21:** First Brands hearings 11/16, 11/17, 11/18; SDART/BLAST October 10-Ds; trustee's first operating report 11/21.
-4. **~11/30:** EART October 10-Ds resolve OTTO-36 (PROME's grade deadline 12/04, DOCKET L990), OTTO-34 path; Ares response (OTTO-33); Tricolor sales deadline. **By 12/10:** Holman November application into `HOLMAN_MONTHLY.tsv`.
-5. **12/07 Manheim November** (use `MID_TO_FINAL.tsv` before any mid-month forecast). OTTO-10 ~12/15, OTTO-11 STUCK keep their follow-ups. WINTERKORN PENDING: Dkt 1297 Ex. B facility map. Tricolor §341 3/17/27. WQ-531 still limits court negatives.
+1. **Fri 11/13:** consume BROCK's CRMT re-read before any V9 re-colour. **~11/15 SDT:** run with Manheim +2, record the second observation (expect NO VERDICT); decide then whether to propose a redesign, stated openly, no credit. Read James ECF 166/167 bodies.
+2. **11/16–11/21:** First Brands hearings 11/16, 11/17, 11/18; SDART/BLAST October 10-Ds; trustee's first operating report 11/21. **~11/20** Chu re-check.
+3. **~11/30:** EART October 10-Ds resolve OTTO-36 (PROME's grade deadline 12/04, DOCKET L990), OTTO-34 path; EART 2026-5 re-check (OTTO-07 candidate); Ares response (OTTO-33); Tricolor sales deadline. **By 12/10:** Holman November application into `HOLMAN_MONTHLY.tsv`.
+4. **12/07 Manheim November** (use `MID_TO_FINAL.tsv` before any mid-month forecast). OTTO-10 ~12/15, OTTO-11 STUCK keep their follow-ups. WINTERKORN PENDING: Dkt 1297 Ex. B facility map. Tricolor §341 3/17/27. WQ-678 B deferred trims (S-14, S-18, S-21–S-31) at a non-bounded session.

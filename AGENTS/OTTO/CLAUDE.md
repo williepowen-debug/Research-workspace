@@ -147,10 +147,10 @@ reconstructing how a view, or the architecture, evolved; NEXUS_BRIEF is read by 
    (score = the local colour's mapping, never a fresh judgment), and rewrite the composite as
    arithmetic (`4+5+… = N`). A vector whose local state did not move keeps its score.
    **Byte cap, not line cap (root read-cap rule, 32,550 B):** run
-   `python3 scripts/read_cap_check.py --agent OTTO`. At ≥75% of budget, rotate settled rows,
+   `python3 "$(git rev-parse --show-toplevel)/scripts/read_cap_check.py" --agent OTTO`. At ≥75% of budget, rotate settled rows,
    old session pointers and superseded rows VERBATIM into `STATUS_COLD.md` (a new dated §)
    until under 70%. A line count can read green while the file is over the byte cap.
-1a. **Log thesis pivots to `CHANGELOG.md`** — if OTTO's view moved this session (conviction
+1a. **Log thesis pivots to `thesis/CHANGELOG.md`** — if OTTO's view moved this session (conviction
    shift, mechanism reframe, case-status escalation, notable prediction-confidence move,
    new transmission row), add a dated **Was → Is + Trigger + Touches** entry. This is the
    trajectory record STATUS-pruning destroys. Routine dashboard refreshes do NOT belong
@@ -176,21 +176,21 @@ reconstructing how a view, or the architecture, evolved; NEXUS_BRIEF is read by 
 5. **Update `MEMORY.md`** *(mirror of boot 3)* — rewrite Session Notes (CHANGES SINCE / LAST
    SESSION / NEXT SESSION). Add new Feedback/Findings. Prune stale entries. Cap ~100 lines.
    **Promotion scan (do this before pruning):** route each durable item to its right home —
-   - **thesis-level** finding → STATUS (thesis block) and/or `CHANGELOG.md`;
+   - **thesis-level** finding → STATUS (thesis block) and/or `thesis/CHANGELOG.md`;
    - **transferable cross-agent lesson** (process/calibration/workflow that another agent
-     could use) → **auto-memory** at `~/.claude/projects/-home-willi-Research-workspace/memory/`
+     could use) → **fleet auto-memory** at repo path `memory/auto/` (root carve-out ③)
      with a one-line index entry in that dir's `MEMORY.md`;
    - **OTTO-specific durable learning** → stays in local `MEMORY.md`.
-   **After promoting to auto-memory, DELETE the local copy** — auto-memory loads at every boot
-   via the harness, so keeping both just bloats MEMORY and creates drift. (OTTO's local
+   **After promoting to `memory/auto/` and committing it, DELETE the local copy** — the
+   committed repo file is the durable home, so keeping both just bloats MEMORY and creates drift. (OTTO's local
    Feedback/Findings backlog has several auto-memory-grade entries — drain them as you touch them.)
 6. **Update `LAST_COMPLETION.md`** *(mirror of boot 2)* — STATUS / CHANGED / RESULT / GAPS /
    WILL_NEEDS / FOLLOW-UP (terse, one line per field). This is the hand-off the next boot reads
    right after STATUS.
 7. **Route cross-agent signals via WALTER** — drop `SIG-OTTO-WALTER-YYYYMMDD-[topic].md` into
    `AGENTS/WALTER/inbox/` with proper frontmatter (`to: WALTER (ACTION)`, `info: [target]`). Do
-   not write directly into other agents' inboxes.
-7a. **Write-back `NEXUS_BRIEF.md`** — ⚠️ **ORDERING (NEXUS schema Amendment 10, RATIFIED 2026-07-31 Will-approved; propagated to OTTO 8/4, encoded 8/27): the brief fold is the session's LAST write-back — after your final STATUS write, immediately before git commit.** **Checkable form (NEXUS Amendment 11, ruled 2026-10-08, supersedes Amendment 10's timestamp comparison): `python3 scripts/brief_pin_check.py OTTO` prints OK, i.e. the brief's pinned `STATUS commit:` hash equals STATUS's last commit.** Commit STATUS first, then pin and commit the brief. *(Why an ORDERING rule and not a reminder: the 7/31 fleet audit found 5-of-5 content-stale briefs had refreshed and then kept working — **zero** had skipped the refresh. "Refresh every closeout" cannot fix a brief that is written mid-session and then outrun by the session's own later findings. Objections route to NEXUS, which owns the schema — not PROME.)* — the cross-agent synthesis brief (schema:
+   not write directly into other agents' inboxes, except an answer to a desk's own ASK (§ How to Signal).
+7a. **Write-back `NEXUS_BRIEF.md`** — ⚠️ **ORDERING (NEXUS schema Amendment 10, RATIFIED 2026-07-31 Will-approved; propagated to OTTO 8/4, encoded 8/27): the brief fold is the session's LAST write-back — after your final STATUS write, immediately before git commit.** **Checkable form (NEXUS Amendment 11, ruled 2026-10-08, supersedes Amendment 10's timestamp comparison): `python3 "$(git rev-parse --show-toplevel)/scripts/brief_pin_check.py" OTTO` prints OK, i.e. the brief's pinned `STATUS commit:` hash equals STATUS's last commit.** Commit STATUS first, then pin and commit the brief. *(Why an ORDERING rule and not a reminder: the 7/31 fleet audit found 5-of-5 content-stale briefs had refreshed and then kept working — **zero** had skipped the refresh. "Refresh every closeout" cannot fix a brief that is written mid-session and then outrun by the session's own later findings. Objections route to NEXUS, which owns the schema — not PROME.)* — the cross-agent synthesis brief (schema:
    `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`). **Mandatory every session, even no-change** —
    minimum is refreshing the `As of:` stamp + `STATUS commit:` hash so staleness self-corrects.
    Material STATUS change → brief content updates same session. **Protect CROSS-DOMAIN +
@@ -339,7 +339,7 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 |------|---------|------|---------------|
 | **WINTERKORN** | FASTOW-style scoped owner (busy-work, no judgment) | `docket/CATALYSTS.tsv` + `docket/WINTERKORN_MEMORY.md`. Verifies forward dates against court dockets (Tricolor SDNY criminal — full discovery scope since 7/25; Tricolor Ch.7; First Brands Ch.7 since 9/1; Carvana DE Chancery), SEC EDGAR / IR calendars (MTB + ALLY earnings; 10-D cycles), Manheim, NY Fed HDC, rating agencies (S&P/KBRA/Moody's on-event; Fitch declined 10/14), ABS pricing windows (modeled). | Every OTTO session with ≥7 days since its last run, plus T-3 pre-hearing (was "weekly Tue": it lapsed 81 days while OTTO was dark) |
 
-Spawn pattern: Agent tool with prompt pointing to `AGENTS/OTTO/docket/WINTERKORN.md` (spec) then `AGENTS/OTTO/docket/WINTERKORN_MEMORY.md` (state). Sub-agent returns categorized summary block; OTTO applies any flagged-for-OTTO escalations (STATUS sync / PREDICTIONS sync / docket ambiguities). Sub-agents never commit or push.
+Spawn pattern: the runtime's verified sub-agent method (`PROME/ORCHESTRATION_PLAYBOOK.md`), prompt pointing to `AGENTS/OTTO/docket/WINTERKORN.md` (spec) then `AGENTS/OTTO/docket/WINTERKORN_MEMORY.md` (state). Sub-agent returns categorized summary block; OTTO applies any flagged-for-OTTO escalations (STATUS sync / PREDICTIONS sync / docket ambiguities). Sub-agents never commit or push.
 
 **Naming convention:** identity-named (auto-domain reference per `[[finding_subagent_naming_identity_over_functional]]`). Future sub-agents follow the same convention.
 
@@ -383,17 +383,7 @@ Review predictions weekly. Update on new data.
 
 ## Trade Flow
 
-```
-OTTO research insight
-    ↓
-thesis/PREDICTIONS.tsv (if predictive)
-    ↓
-TRADE.md (position ideas)
-    ↓
-PROME consolidates across agents
-    ↓
-Will decides
-```
+Trade ideas → TERRY card; Will approves (root rule #5); record per root rule #10.
 
 OTTO's job: Generate signal. Not position sizing.
 
@@ -428,7 +418,7 @@ OTTO's job: Generate signal. Not position sizing.
    - TERRY owns holding/exit construction; Will approves trades. Research timing does not create a holding instruction
 
 3. **Alert Triggers:**
-   - Any mention of company by known short-seller → 🔴 ALERT PROME
+   - Any mention of company by known short-seller → 🔴 SIG-OTTO-WALTER drop (§ How to Signal)
    - Short interest spike >20% → Note in STATUS.md
    - Unusual put volume → Cross-check with short-seller chatter
 
@@ -524,7 +514,7 @@ AGENTS/OTTO/
 ├── NEXUS_BRIEF.md      # Cross-agent synthesis brief (Tier-2 opt-in; refreshed every closeout)
 ├── MEMORY.md           # Cross-session memory (feedback/findings/references)
 ├── LAST_COMPLETION.md  # Prior session hand-off
-├── TRADE.md            # Position ideas
+├── TRADE.md            # FROZEN 2026-07-04 — history only
 ├── RESEARCH_STATUS.md  # What's been researched
 ├── STALE_PUNCHLIST.md  # Standing stale-doc inventory + ordered refresh plan (re-audit each major session)
 ├── thesis/

@@ -15,6 +15,10 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 ---
 
 
+### 2026-11-12 s045 — WQ-678 instruction-file lines (DAEDALUS harness re-test)
+
+**Trigger:** Will ruled WQ-678 A (2026-11-12 09:59 ET), DAEDALUS packet `inbox/processed/2026-11-12_from-DAEDALUS_WQ678-harness-lines.md`. **Changelist A applied (3):** S-12 auto-memory promotion now names repo path `memory/auto/` (carve-out ③) and no longer claims harness loading; S-13 WINTERKORN spawn uses the runtime's verified sub-agent method; S-17 Trade Flow diagram replaced by one line (TERRY card, root rule #5, root rule #10), file-tree TRADE.md marked FROZEN. **Changelist B applied (4):** S-15 closeout step 7 carries the own-ASK exception; S-16 short-seller alert routes by WALTER drop; S-19 `thesis/CHANGELOG.md` path; S-20 root-resolved script paths. **Deferred (13), none declined:** S-14, S-18, S-21 to S-31 (history strikes and the CATALYSTS editor question) to a non-bounded session. Text removed or replaced only; no rule, check or step added. No version bump. **Files:** `CLAUDE.md`. **Boot-impact:** none. **Lessons:** none structural.
+
 ### 2026-11-05 s041 — combination watch added to inbox processing
 
 **Trigger:** Will WQ-622 A, every desk, `PROME/COMBINATION_WATCH.md`. **Changes:** new step 3a in the INBOX Processing Protocol; seven `combo:` theme rows at ML-OTTO-350 to 356; charter v3.1. ML has no Notes or Review column, so the tag and review date sit first and last in the Observation, with Category also carrying the tag. No new file, schema, script or checker. **Files:** `CLAUDE.md`, `workbook/ML.tsv`. **Boot-impact:** none. **Lessons:** none structural.
