@@ -15,7 +15,7 @@
 | C5 | READ_CAP rule 15 owner-field wording | L530 patch installed b0db526d7; residue is wording only, nothing misfires |
 | C6 | β read-cap ≥95% headroom line (L530) | New output line = addition |
 | C7 | D7 `--closure` | Unbuilt, never authorized |
-| C8 | L733 writer/resolver post-review changes, unreviewed | **Rationale corrected 2026-11-12 (CATO review, relayed by PROME 12:38 ET):** L734's Decision Deck trigger does NOT cover this; L733 is the separate orchestration-log writer/resolver. DOCKET L733 is RESOLVED, owner PROME, DAEDALUS informed only. The unreviewed post-read edits stay a qualification with PROME as owner; what closes here is only DAEDALUS's uncommissioned review seat. Will told of the changed rationale 2026-11-12. |
+| C8 | L733 writer/resolver post-review changes, unreviewed | **Rationale corrected 2026-11-12 (CATO review, relayed by PROME 12:38 ET):** L734's Decision Deck trigger does NOT cover this; L733 is the separate orchestration-log writer/resolver. DOCKET L733 is RESOLVED, owner PROME, DAEDALUS informed only. The unreviewed post-read edits stay a qualification with PROME as owner; what closes here is only DAEDALUS's uncommissioned review seat. Will told of the changed rationale 2026-11-12; Will 16:23 ET, verbatim "Okay lets leave it and close out": review stays dropped, post-review edits stay unreviewed on PROME's record. |
 | C9 | brief_pin independent read (L423 group) | Review nobody asked for |
 | C10 | validate_all rebaseline (C2=1750 vs 1345; D1 AEOLUS) | validate_all is MANUAL-BY-DESIGN since PROME's ruling ea2771bfff; a baseline for a manual tool is set when someone runs it |
 | C11 | WQ-288 killed-prediction census | New census = addition |
