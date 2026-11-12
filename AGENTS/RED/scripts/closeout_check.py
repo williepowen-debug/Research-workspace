@@ -401,11 +401,15 @@ def new_deliveries(now, base):
     """Packets in `now` that are a delivery made SINCE the base (CATO M12-3, 2026-11-12).
     Identity is the CONTENT (blob id), not the path: PROME's `git mv` to processed/ makes a
     new path that holds old bytes, and a moved old packet must not count. A packet counts
-    when its bytes match no base packet — new, or edited while still unconsumed — except an
-    edit to a packet already filed under processed/ at the base: PROME will not re-read it."""
+    when its bytes match no base packet — new, or edited while still unconsumed. A packet
+    whose CURRENT path is under processed/ is excluded when its filename appears anywhere in
+    the base (inbox or processed): PROME filed an existing packet, possibly stamping it, and
+    a stamp is not a delivery (read 1 row 1). A packet in the inbox is judged on its bytes
+    alone, so a new one named like a filed one still counts (read 1 row 2)."""
     old = set(base.values())
-    filed = {Path(p).name for p in base if '/processed/' in p}
-    return sorted(p for p, b in now.items() if b not in old and Path(p).name not in filed)
+    names = {Path(p).name for p in base}
+    return sorted(p for p, b in now.items()
+                  if b not in old and not ('/processed/' in p and Path(p).name in names))
 
 
 def check_state_change(v, F, today):

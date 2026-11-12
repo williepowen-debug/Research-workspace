@@ -65,6 +65,22 @@ processed/<name> is a new path holding old bytes.
              change. Probe at 506e6e2951 vs its parent -> e FAIL. Found 14:26 ET (from date) while
              measuring --at ebe839ffe0, after the conditions above were written; added at 14:27 ET.
              OPEN, not this defect: no pre-freeze date limit on that branch.
+  READ-1 FIXES (S64, 14:35 ET from date, before the script edit; PROME packet 14:35 ET, reader ledger
+  PROME/reports/2026-11-12_red-closeout-check-read/LEDGER-read-1.md rows 1-2):
+  R1  an EARLIER same-day packet in the inbox at the base, moved to processed/ WITH a byte
+      change (PROME's consumption stamp, e.g. aae1d0ba75 on 10-16), uncommitted -> FAIL
+  R2  a NEW inbox packet whose filename equals a packet already in processed/ at the base
+      -> PASS. Rule after the fix: a packet whose CURRENT path is under processed/ is
+      excluded when its filename appears anywhere in the base (inbox or processed); a
+      packet in the inbox is judged on its bytes alone. 3a, 3b, 3c keep their results.
+  DECLARED RESIDUE from read 1, not fixed (reader rows 3-8, all run by the reader):
+      yesterday's packet renamed to today's date counts as new · an earlier packet edited
+      in place by someone else counts as new (bytes cannot name the editor; manual read) ·
+      a packet committed in its own commit BEFORE the state change does not count · across
+      midnight, --at a commit dated 00:05 with a packet dated the day before FAILS · an
+      unreadable processed/ directory gives FAIL where UNKNOWN is due (never a false PASS)
+      · legacy OUTBOX: a one-character edit to the old top heading passes, a new entry whose
+      heading repeats an older one is rejected, and there is still no freeze-date limit.
   NOT TESTABLE BY THIS CHECK (stays a manual read): whether the new packet COVERS the
   change. A blob test proves the packet's bytes are new, not what they say.
 
@@ -232,6 +248,16 @@ case('3b OLD packet moved by a staged git mv (concurrent) -> FAIL',
      'FAIL', old_at=OLD_INBOX)
 case('3c edit to a packet already filed in processed/ -> FAIL',
      lambda d: (change_state(d), put(d, OLD_PROC, 'Addendum: FT-01 fired\n', append=True)), 'FAIL')
+def moved_old_with_stamp(d):
+    change_state(d)
+    git_mv_old_to_processed(d)
+    put(d, OLD_INBOX.replace('inbox/', 'inbox/processed/'), '**CONSUMED by PROME 14:30 ET**\n', append=True)
+
+
+case('R1 OLD inbox packet moved to processed/ WITH a consumption stamp -> FAIL',
+     moved_old_with_stamp, 'FAIL', old_at=OLD_INBOX)
+case('R2 NEW inbox packet named like one already filed in processed/ -> PASS',
+     lambda d: (change_state(d), put(d, OLD_INBOX, 'S64 packet: FT-01 fired\n')), 'PASS')
 case('ordinary: no state change, no new packet -> no finding', lambda d: None, 'PASS')
 case('wrong owner: from-PROME / from-REDWOOD / RED dated yesterday -> FAIL',
      lambda d: (change_state(d), put(d, 'PROME/inbox/2026-11-12_from-PROME_x.md', 'a\n'),
