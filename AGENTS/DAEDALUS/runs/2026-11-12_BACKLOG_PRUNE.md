@@ -15,11 +15,11 @@
 | C5 | READ_CAP rule 15 owner-field wording | L530 patch installed b0db526d7; residue is wording only, nothing misfires |
 | C6 | β read-cap ≥95% headroom line (L530) | New output line = addition |
 | C7 | D7 `--closure` | Unbuilt, never authorized |
-| C8 | L733 writer/resolver post-review changes, unreviewed | Review nobody asked for; the Decision Deck is paused; L734's resume trigger already covers it |
+| C8 | L733 writer/resolver post-review changes, unreviewed | **Rationale corrected 2026-11-12 (CATO review, relayed by PROME 12:38 ET):** L734's Decision Deck trigger does NOT cover this; L733 is the separate orchestration-log writer/resolver. DOCKET L733 is RESOLVED, owner PROME, DAEDALUS informed only. The unreviewed post-read edits stay a qualification with PROME as owner; what closes here is only DAEDALUS's uncommissioned review seat. Will told of the changed rationale 2026-11-12. |
 | C9 | brief_pin independent read (L423 group) | Review nobody asked for |
 | C10 | validate_all rebaseline (C2=1750 vs 1345; D1 AEOLUS) | validate_all is MANUAL-BY-DESIGN since PROME's ruling ea2771bfff; a baseline for a manual tool is set when someone runs it |
 | C11 | WQ-288 killed-prediction census | New census = addition |
-| C12 | L380 rule-5 capacity re-derivation | Not an open DAEDALUS DOCKET row (docket_owed 2026-11-12 lists 13; L380 absent) |
+| C12 | L380 rule-5 capacity re-derivation | DOCKET L380 RESOLVED-REFUTED 2026-10-08 (PROME prome-7c): BRENT 21,805 B and REGINALD 21,138 B STATUS both measured under the rule-5 stop 22,785 B; DAEDALUS withdrew 5b and 5a(iii). Rationale corrected 2026-11-12 per CATO |
 | C13 | Optional seats: L556 B6 blueprint suggestion, L661 N3 token, L417 reader offer, WQ-374 helper | Optional and never commissioned |
 | C14 | Retained confirm-reads (HANS appendix, FALCON PAT-054, WATT EEA2, AEOLUS C5, byte-tier BOND/SAM/WALTER/TERRY, WAL charter-window, fence②/REG-15/RAV-QC-002, CREED push wiring, BOND/OTTO/REGINALD flags, OSPREY rotation, CARL mark rationale, SAM-28/31, RED CH-009/012, HAWK senses) | Status already says these are unresolved questions, not live failures; any that recurs will surface in a sweep |
 | C15 | L796 delivery-check repair "not certified by DAEDALUS" | Not commissioned; PROME owns the repair |
