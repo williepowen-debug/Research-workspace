@@ -17,3 +17,4 @@ receipt_date	correction_id	action	note
 2026-11-12T13:50Z	COR-20261111-13	APPLIED	artifact=AGENTS/NEXUS/STATUS.md#R2; validation_ref=AGENTS/WALTER/research/2026-11-11_boot/MOMR-NOV-2026-EXCERPT.md#Table-5-8; scope=STATUS R2 Saudi cell and RECORD 2026-11-11 section 6; 
 2026-11-12T13:50Z	COR-20261111-24	APPLIED	artifact=AGENTS/NEXUS/research/2026-11-11_catchup-contradictions/RECORD.md#post-record-corrections; validation_ref=PROME/themes/ellison/reports/2026-11-11_skydance-q3-10q-read.md#1; scope=board_log row of 11/11 kept as history, no live NEXUS row carried the secured claim; 
 2026-11-12T13:50Z	COR-20261111-25	NO-OP	scope=no NEXUS file cites the wrong CARL workbook path, PRED-41 6.87 unchanged; 
+2026-11-12T17:29Z	COR-20261112-03	NO-OP	scope=NEXUS record 2026-11-12 bounded catch-up already dates the first report WSJ 11/11 after hours from card 003; 
