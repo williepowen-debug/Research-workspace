@@ -30,3 +30,12 @@ RESUME item 7 moved verbatim at 2026-11-12T20:57:42Z (walter-42 second light clo
 RESUME item 6 moved verbatim at 2026-11-12T20:57:42Z (same rotation):
 
 6. **Doctor MEDs at this closeout (2026-11-12T01:08:02Z):** one left, CATO's SIG-W-20261019-012 receipt: not an unread assignment; CATO's 10/19 run incorporated its substance (AGENTS/CATO/runs/2026-10-19_1322_otto-readiness-review.md @ 566c749dc); ROSTER WQ-255 bars routine CATO routing; no new assignment or invented receipt (Will 11/11 13:33 ET). Cleared tonight: REQ-DEWEY-20261022-003R (RESOLVED, card 027; EagleBank bridge carried at PROME D:L1119, 11/16 review); intake lane stale (the clone was behind; collector ran 11/10 21:08Z and 11/11 21:41Z); OTTO registry lag. LOW: ISHM and LIQUID packets of 11/4 filed without a .consumed.tsv line (retro-declared 11/11).
+
+
+RESUME items 2, 3 and 4 moved verbatim at 2026-11-12T21:34:15Z (walter-42 third light closeout, read-cap headroom):
+
+2. **RED grades RED-29 and the RED-FT-06 exit after 10:30 ET 11/12** (VIXCLS 18 or more on 11/6, 11/9, 11/10, 11/11; Nov 10 close 19.46 per VIOLET; ^VIX 18.35 pre-open 11/11). Watch only; RED owns.
+
+3. **HY:** 334 [Nov 9] first-published; REG-T-04 strict >350 x3 0/3, 16 bp, near-trigger watch. November 11 is a non-session for ICE BofA OAS (bridge). The 11/10 cell is due on FRED 11/12. RED and REGINALD grade.
+
+4. **Next scheduled:** Thursday 11/12: EIA WPSR (BRT-31 week five, first BRT-34 print, first measured test of the STEO build), weekly claims, the 30-year auction 912810UY2 (BOND's frozen bars: I′ 63.89; composition failure needs indirect below 59.95 AND dealers above 14.74; bid-to-cover min 2.29), Car-Mart relief deadline (BROCK). HENRY's pre-open gamma packet (PROME said it would land in PROME/inbox) was not seen by WALTER: route it if it is there. Iran full sweep next ~11/18.
