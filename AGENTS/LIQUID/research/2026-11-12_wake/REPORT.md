@@ -59,7 +59,15 @@ REGINALD's >350 ×3 is REGINALD's letter; 330 is under 350 under any dating, so 
 - Paramount: latest stays 529 [11/9]; TERRY's 614 re-open line not crossed (no print).
 - **First Oracle prints after CoreWeave's results (poll hit, read 10:21 ET; slices 273–274):** three new trades executed 15:08:32–15:08:40Z (10:08 ET), all senior, 100 bp coupon, notional disseminated only as "5,000,000+", upfront-fee rows (`UFRO`), no spread field. December 2026 maturity: upfront $8,026.47, twice (one cleared, one uncleared, same second: most likely one trade and its clearing leg). June 2027 maturity: upfront $9,809.91. **No spread recoverable:** the notional is capped, so the fee cannot be put on a per-cent basis, and the payer side is not disseminated. Neither is the 5-year point. **Moves no row:** 069 is 2 of 2 FIRED already; no LIQUID line keys on short-dated Oracle CDS. Context only: an upfront paid on a 100 coupon fits a short-dated spread above 100 bp, if the protection buyer paid (not established).
 - **CoreWeave rows in the same slices (263) are not new trades:** two `CORR` corrections to May and July records on the CoreWeave delayed-draw loan total-return lines (`COREWEAVE FINANCING-DDTL`, `COREWEAVE (7/26) TRS-DDTL`). No CoreWeave CDS trade through slice 278.
-- Watch continues from slice 279 until 13:05 ET: 5-year or spread-carrying Oracle trades, any new CoreWeave trade, or a FRED 11/10 cell.
+- **First CoreWeave CDS after its results (poll hit, read 10:50 ET; slice 306):** one new trade 15:46:42Z (10:46 ET), senior, **4-year (December 2030)**, **$3,000,000 exact** (not capped), 500 bp coupon, cleared-intent, BILT. Cash upfront $427,916.664 = 3,000,000 × (0.15 − 53/360 × 0.05): **quoted 15.00 points upfront**, net of the coupon accrued from September 21. The quote is above zero on a 500 coupon, so the protection buyer paid; a seller-pays reading would need a spread under 100 bp. **Converted (flat hazard, r = 4%, R = 40%, the probe default): about 1,047 bp** (about 1,009 at R = 25%), model-derived, not executable.
+
+  | CoreWeave 4Y (Dec 2030) | Level | Basis |
+  |---|---|---|
+  | November 10, before results | 1,093 to 1,105 | DTCC 11/10 final file, same method (REPORT 2026-11-11 §4) |
+  | **November 12, after results** | **about 1,047 (one trade, 10:46 ET)** | DTCC slice 306 |
+
+  **Read:** about 50 bp tighter at the same tenor on one trade. Credit's first verdict agrees with the equity bounce (CRWV +24.71% on 11/11), modestly. One print is not a level. The 5-year (December 2031; 1,154 median before results) has not traded yet. **Moves no row:** 069 L2 is a re-widening of more than 100 bp on the 5-year from two quotes; the gate is already 2 of 2 FIRED, and this is a tightening on another tenor. KB-LIQ-073 has no numeric line.
+- Watch continues from slice 307 until 13:05 ET: 5-year CoreWeave or Oracle (December 2031), any Oracle trade with a disseminated spread, or a FRED 11/10 cell.
 
 ## 3. WALTER cards (six, all consumed)
 
