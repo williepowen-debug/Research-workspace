@@ -4,3 +4,13 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-28T21:08	2026-10-26_from-ISHM_freight-breadth-and-tonnage	acted	INBOX_GENERAL	Sept carloads up 17/20: Managed +2 activity input S57
 2026-10-28T21:08	2026-10-26_from-NEXUS_full-review-real-contradictions	noted	INBOX_GENERAL	no US funding bridge from Brazil/France; consumed in the S57 narrative
 2026-11-04T20:44	SIG-W-20261104-042	acted	INBOX_WALTER	ACTION consumed: HY 344/343/340 and VIX 19.42/21.15/20.83 and SKEW 150.01 reconciled to RED exit ledgers at FRED and Cboe; FT-02 0 of 3, FT-06 3 of 5, FT-10 0 of 4; no duplicate fire
+2026-11-04T20:44	SIG-W-20261104-038	noted	BOARD	reported Democratic control of both chambers; chamber control not certified; input for the next re-derivation, no weight
+2026-11-04T20:44	SIG-W-20261104-002	noted	BOARD	US strikes on Qeshm dated 11/2; FALCON grades; War input only, no weight
+2026-11-04T20:44	SIG-W-20261104-019	noted	BOARD	AFP: Trump acknowledged the 11/2 strike; counter-witness to the WH no-strike-before-midterms line; FALCON grades
+2026-11-04T20:44	SIG-W-20261104-029	noted	BOARD	contested Iran intent and conditional diplomacy; FALCON/HAWK own
+2026-11-04T20:44	SIG-W-20261102-011	noted	BOARD	Hormuz two-day proposal conditional; no reopening date; WL-11 Hormuz leg stays UNREAD
+2026-11-04T20:44	SIG-W-20261030-002	noted	BOARD	10/30 tech sell-off; SPX under the 7,700 put wall; intraday figures superseded by the 10/31 close correction
+2026-11-04T20:44	SIG-W-20261030-004	noted	BOARD	VIX +5 intraday touch; close 19.42 per COR-20261031-02
+2026-11-04T20:44	SIG-W-20261029-004	info-only	BOARD	COR receipted NO-OP
+2026-11-04T20:44	SIG-W-20261029-007	info-only	BOARD	COR receipted NO-OP
+2026-11-04T20:44	SIG-W-20261029-043	info-only	BOARD	COR receipted NO-OP

@@ -4,6 +4,12 @@
 
 ---
 
+## S63 — 2026-11-12 09:5x ET (from `date`; desktop, Will's word 08:53 ET "ok go") — **ONE DISCRETIONARY MOVE: Stag −1 / Managed +1, net-bear 68 → 67. HOLD 72 unchanged. One registered-trigger state changed: FT-06 exit run broke (4 of 5 → 0 of 5); no fire, no exit.**
+
+- **FT-06 / RED-29:** VIXCLS 17.49 [11/11], FRED first-published 09:48 ET, equal to Cboe. Old view: "4 of 5 at 19.46 [11/10]; one more close ≥18 executes Stag +2 / Managed −2." New view: "the run broke on its last day; exit 0 of 5; a later run is a new clock." RED-29 (50pct) WRONG, EVENT FALSE. No mechanical move.
+- **Post-CPI discretionary re-derivation (owed since 11/10):** Old view (S57 10/28): Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3. New view: **Stag 32 · Managed 26**, others held. Why: 5y5y 2.15 [11/10] (lowest since 4/22) and January Brent 91.49 [11/10 settle] vs ~110 at S57 cut Stag's spiral and input-cost legs; the third 0.3 core and a Fed weighing 50bp (ORACLE +25 85.5 / +50 11.8) hold the cut at 1. Managed gets the offset on payrolls, claims 200K and household card flow easing, counted once. Acute held (AI-funding items already graded MODERATE in CHG-057; credit tightening is the exits' job); War held (FALCON marks held; ORACLE pause 54.5 vs continuing Gulf infrastructure attacks; oil fall used once, on Stag). Pre-stated CPI moves both did not land (bear add needed CHG-028's leg; anti-spiral landed S57). Report → `reports/2026-11-12_S63_weight_rederivation.md`.
+- **Bull steelman re-checked:** points 1, 3, 4 stronger; 2 holds narrower; 5 split (price recovered, flow not).
+
 ## S62-b — 2026-11-10 17:47 ET (from `date`; PROME prome-07 on Will's 17:18 ET word) — **NO WEIGHT MOVED. No registered-trigger STATE changed.**
 
 - **CHG-RED-057:** graded a day early under the tree. Old view (11/06): Attack 6, SoftBank capacity, FAILED. New view: it SUCCEEDS ON CAPACITY, not on cause. On SoftBank's own basis with its disclosed ABB and settlement, 24.05%; one more $10B debt-funded check breaches 25%. Attack 4 net 0. CoreWeave raised its capex floor, so not STRONG. Grade MODERATE unchanged, re-review 11/19.

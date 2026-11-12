@@ -1,15 +1,5 @@
 # ROTATED FOUR TIMES - boot-read surface (boot 1.5 / 5.5), kept in the two-state regime. ARCHIVES, all FROZEN, all the place to grep when asking 'has RED already seen this?': rows before 2026-09-06 -> archive/board_log_pre-2026-09-06.tsv; rows 2026-09-06..2026-09-09 -> archive/board_log_pre-2026-09-10.tsv; rows 2026-09-10..2026-09-14 -> archive/board_log_pre-2026-09-14.tsv (rotated 2026-09-18 S46). rows 2026-09-15..2026-09-24 -> archive/board_log_pre-2026-09-25.tsv (rotated 2026-10-01 S49 closeout, at 82pct of budget - rotate-tier, before a breach this time; the pre-append gate is still unbuilt). ⚠️ S46 BREACHED THIS FILE A THIRD TIME, at 33,522 B = 103.0pct of the 32,550 B BUDGET, on a 19-row L0-drain append - and it did so having READ THIS BANNER at boot. S44 predicted the breach in writing; S45 breached anyway and installed the two-state rule as the remedy; S46 read the rule and breached anyway. 🔑 THE REMEDY FAILED FOR A NAMEABLE REASON: the two-state rule tells you what to do AFTER you measure, and NOTHING FORCES A MEASUREMENT BEFORE THE APPEND. A rule that only binds at the moment you happen to look is not a control (ML-RED-246, ML-RED-257). THE FIX IS A PRE-APPEND SIZE GATE IN THE WRITE PATH, not a shorter-rows resolution and not a fourth banner. Root CLAUDE.md Data Hygiene; BLUEPRINTS/READ_CAP.md rule 5 (rotate at >=75pct of budget, stop at <70pct).
 timestamp_read	signal_id	disposition	source	notes
-2026-11-04T20:44	SIG-W-20261104-038	noted	BOARD	reported Democratic control of both chambers; chamber control not certified; input for the next re-derivation, no weight
-2026-11-04T20:44	SIG-W-20261104-002	noted	BOARD	US strikes on Qeshm dated 11/2; FALCON grades; War input only, no weight
-2026-11-04T20:44	SIG-W-20261104-019	noted	BOARD	AFP: Trump acknowledged the 11/2 strike; counter-witness to the WH no-strike-before-midterms line; FALCON grades
-2026-11-04T20:44	SIG-W-20261104-029	noted	BOARD	contested Iran intent and conditional diplomacy; FALCON/HAWK own
-2026-11-04T20:44	SIG-W-20261102-011	noted	BOARD	Hormuz two-day proposal conditional; no reopening date; WL-11 Hormuz leg stays UNREAD
-2026-11-04T20:44	SIG-W-20261030-002	noted	BOARD	10/30 tech sell-off; SPX under the 7,700 put wall; intraday figures superseded by the 10/31 close correction
-2026-11-04T20:44	SIG-W-20261030-004	noted	BOARD	VIX +5 intraday touch; close 19.42 per COR-20261031-02
-2026-11-04T20:44	SIG-W-20261029-004	info-only	BOARD	COR receipted NO-OP
-2026-11-04T20:44	SIG-W-20261029-007	info-only	BOARD	COR receipted NO-OP
-2026-11-04T20:44	SIG-W-20261029-043	info-only	BOARD	COR receipted NO-OP
 2026-11-04T20:44	SIG-W-20261031-001	info-only	BOARD	COR receipted NO-OP
 2026-11-04T20:44	SIG-W-20261031-002	noted	BOARD	COR receipted NO-OP; RED reads 10/30 VIX at FRED and Cboe 19.42
 2026-11-04T20:44	SIG-W-20261031-022	info-only	BOARD	COR receipted NO-OP
@@ -125,3 +115,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-10T11:48	SIG-W-20261110-002	info-only	BOARD	Info-cc; title read; same CARL figures RED graded at S62 (CHG-045 re-spec NOT FIRED, CHG-049 closed)
 2026-11-10T11:48	SIG-W-20261110-004	deferred	BOARD	Info-cc; title read, body unread; BROCK IREN Mackenzie loan read is a CHG-057 / RED-31 input for the 11/11 re-review
 2026-11-10T17:47:10-05:00	SIG-W-20261110-004	acted	BOARD	Re-disposition S62-b: body read at the CHG-057 graded re-review; a Microsoft cut is not a default on IREN GPU loan (BROCK KB-BRK-474); supports not-failing, RED-31 unaffected
+2026-11-12T08:53:50-05:00	2026-11-11_from-DEWEY_003R-full-population-refresh	noted	INBOX_GENERAL	S63 read; pointer to DEWEY 003R full-population report; any smaller-bank relay carries the United Fidelity qualification and leave-one-out; not uniform bank deterioration; EGBN bridge UNKNOWN
+2026-11-12T08:53:50-05:00	2026-11-11_from-DEWEY_003R-placement-continuation	noted	INBOX_GENERAL	S63 read; cite six-bank placement only with DEWEY comparator dates and corrected denominators; do-not-relay list honoured
+2026-11-12T08:53:50-05:00	2026-11-11_from-DEWEY_003R-six-bank-partial	info-only	INBOX_GENERAL	S63 read; information only per DEWEY, no assignment
+2026-11-12T08:53:50-05:00	2026-11-11_from-SAM_softbank-roll-full-revaluation-22.5	acted	INBOX_GENERAL	S63 read; 22.7 to 22.5 own basis, ABB-incl 23.4-23.9; carried into the S63 re-derivation and NEXUS refresh; dated S62-b records left as history; conclusions unchanged
+2026-11-12T09:49:16-05:00	SIG-W-20261111-029	acted	INBOX_WALTER	S63 graded on FRED VIXCLS 17.49 [11/11], published 09:48 ET, equal to Cboe; FT-06 exit run broke at 4 of 5, exit 0 of 5; RED-29 WRONG EVENT FALSE; no weight; re-derivation ran same day

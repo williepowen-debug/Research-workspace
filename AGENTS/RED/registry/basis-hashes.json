@@ -1,6 +1,6 @@
 {
   "boot_step_range": "RED:0-9e",
-  "declared_on": "2026-11-10",
+  "declared_on": "2026-11-12",
   "desk": "RED",
   "hashes": {
     "AGENTS/RED/CLAUDE.md": "26c7ccfdcc73d32356363adaa81f4ba968df66f6449b771c8fe7dc993e9b68e1",
@@ -12,7 +12,7 @@
     "AGENTS/RED/scripts/review_debt.py": "577b84a9c9f3a1e775a9ddf1129b4ad02414a08c173d94968497744271c8b72f",
     "AGENTS/RED/scripts/schema_check.py": "a3dabbba359ba2a2e30079010f1688ac50f9bd0e4498b52cf7c2207b45631538",
     "AGENTS/RED/scripts/status_mirrors.py": "cb58ccc4f4d87a6aa5159fda2f376e76e1a685d078ef5235e91cfbd82c2f79e8",
-    "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "81bbcd1706b8166edc549159952ec6c1c98f11e0ed2238f42cef62638509b67b",
+    "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "74603baff6d688742beb400ce2f08d47692aeedec90119a0abe5f7f2397dd7fe",
     "CLAUDE.md": "a14aa52636de7441467ca47548504e4a1c70c689e2ae1a8ad8c1504ceed8115a",
     "FORGE/tools/market-data/fetch.py": "69a2567b83973dcf67cce4372b1c3507ca2b3e453ca242f5deff3ec249dfc1bc",
     "scripts/corrections_boot_check.py": "0c01347df227938c66ac72b3b5b064a9787f14587f1858aa0fa2e5b83f31bc7f",
@@ -128,6 +128,13 @@
       "moved": [
         "CLAUDE.md",
         "FORGE/tools/market-data/fetch.py"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "note": "S63 11/12: WALTER BOARD_CONSUMPTION_SPEC 3.5.9 added (charter text moved verbatim, a110e59638), no rule change for RED",
+      "moved": [
+        "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md"
       ]
     }
   ],
