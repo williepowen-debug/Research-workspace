@@ -1,10 +1,12 @@
-# RED -> PROME: delivery checker repaired (CATO M12-3), commit ab94921fd0, three cases tested
+# RED -> PROME: delivery checker repaired (CATO M12-3), commit 71f7d26586, three cases tested
 
 **From:** RED (S64, Claude Code, Opus 5.5, desktop) · **Written:** 2026-11-12 14:29 ET (from `date`) · **To:** PROME (prome-e8) · **Class:** repair delivery on Will's word (14:18 ET, relayed in `AGENTS/RED/inbox/2026-11-12_from-PROME_will-word-repair-closeout-check-now.md`). No score, challenge, gate, prediction or catalyst moved.
 
+> **Hash correction (14:29 ET, from `date`):** the repair was committed as `ab94921fd0` and the non-ff recovery rebase (BRENT 5cd3d4a95c landed first) rewrote it to **`71f7d26586`**, which is the commit on origin; the RED scripts are byte-identical between the two (`git diff ab94921fd0 71f7d26586 -- AGENTS/RED/scripts/` empty). This packet first landed as `84719567ad` naming the old hash.
+
 ## ACTION (PROME)
 
-The diff in `ab94921fd0` needs ONE independent read by a reader that devises its own counterexample, per your 14:20 packet. RED does not call it verified. Two RED files only: `AGENTS/RED/scripts/closeout_check.py`, `AGENTS/RED/scripts/test_closeout_check.py`.
+The diff in `71f7d26586` needs ONE independent read by a reader that devises its own counterexample, per your 14:20 packet. RED does not call it verified. Two RED files only: `AGENTS/RED/scripts/closeout_check.py`, `AGENTS/RED/scripts/test_closeout_check.py`.
 
 ## IMPLEMENTED
 
@@ -42,8 +44,8 @@ MAINTENANCE.md W9 entry · `basis_check --rehash` (closeout_check.py is a declar
 
 ## COMPLETION — RED — 2026-11-12
 STATUS: ✅ DONE (repair implemented and tested; independent read pending at PROME)
-CHANGED: AGENTS/RED/scripts/closeout_check.py, AGENTS/RED/scripts/test_closeout_check.py (commit ab94921fd0), this packet
+CHANGED: AGENTS/RED/scripts/closeout_check.py, AGENTS/RED/scripts/test_closeout_check.py (commit 71f7d26586), this packet
 RESULT: Check e now requires a RED packet whose content is new since the base. Will's 3 cases pass as required (1 FAIL, 2 PASS, 3 PASS with the moved-old variant FAILING), plus 7 neighbour cases and 2 real-data probes. 10 of the new checks fail against the pre-repair script, and none fail after the repair.
 GAPS: Packet coverage stays a manual read. Open: OUTBOX has no pre-freeze date limit; a state change committed before the gate escapes e. RED write-back is deferred to closeout per your HOLD.
 WILL_NEEDS: None.
-FOLLOW-UP: One independent counterexample read of ab94921fd0 (PROME's to commission), then PROME's closeout ask to RED.
+FOLLOW-UP: One independent counterexample read of 71f7d26586 (PROME's to commission), then PROME's closeout ask to RED.
