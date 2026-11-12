@@ -2,7 +2,7 @@
 
 **Written 12:1x EST 11/12 (clock).** TERRY, Claude Code, Claude Opus 5.5, session 770019b5. This session is CLOSING: route material changes to the next TERRY session (by packet to `AGENTS/TERRY/inbox/`); routine notifications can stop.
 
-**Coverage cutoff:** 12:15 EST 11/12. Incorporated: every PROME prome-e8 relay through the HOMER WQ-675 Arbor message (about 12:11 ET), SAM's yen full packet with correction 3607f04e92, DAEDALUS WQ-678 packet, BOARD COR-20261112-03. Nothing unconsumed in `AGENTS/TERRY/inbox/`.
+**Coverage cutoff:** 12:14 EST 11/12 (corrected from a hand-typed 12:15, which was ahead of the clock). Incorporated: every PROME prome-e8 relay through the HOMER WQ-675 Arbor message (about 12:11 ET), SAM's yen full packet with correction 3607f04e92, DAEDALUS WQ-678 packet, BOARD COR-20261112-03. Nothing unconsumed in `AGENTS/TERRY/inbox/`.
 
 ## State
 - **No order by the desk. $0.** Closeout commit `0789ee79cc` (TERRY); earlier today 104ed3f45d, d61aabb29d, 020eb9a403 and the morning commits.
