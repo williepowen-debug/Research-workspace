@@ -21,3 +21,12 @@ RESUME items 00, 5 and 6b moved verbatim at 2026-11-12T18:47:41Z (read-cap rotat
 RESUME item 9 moved verbatim at the same rotation (X bookmarks also confirmed working on the desktop 2026-11-12T17:00:03Z):
 
 9. **X bookmarks:** working on both machines as of 11/11 evening (prior text: research/2026-11-11_evening/LC-ROTATED.md).
+
+
+RESUME item 7 moved verbatim at 2026-11-12T20:57:42Z (walter-42 second light closeout, read-cap headroom):
+
+7. **Backlog review 11/11 (Will 13:33 ET, research/2026-11-11_backlog-review/REVIEW.md):** two lane families, one real miss (N-able, card 022, CYPHER action, CYPHER not live, PROME decides wake); no new recurring review. CF call (FERT), BoE (HANS), STWD/ACRE/RC (CREED) covered by owners, not reread; Michigan and MOMR calendar rows flagged to HENRY and BRENT; DOORBELL_LOG rows for November 2–4 left UNKNOWN (no evidence to reconstruct); bookmark links behind 403 unread; HOMER and FERT wake recommendations with PROME need a fresh read; Michigan monthly dates need a calendar home (flag to HENRY at next touch). OPEC MOMR has no calendar row (MEMORY #68 class): flag to BRENT or PROME.
+
+RESUME item 6 moved verbatim at 2026-11-12T20:57:42Z (same rotation):
+
+6. **Doctor MEDs at this closeout (2026-11-12T01:08:02Z):** one left, CATO's SIG-W-20261019-012 receipt: not an unread assignment; CATO's 10/19 run incorporated its substance (AGENTS/CATO/runs/2026-10-19_1322_otto-readiness-review.md @ 566c749dc); ROSTER WQ-255 bars routine CATO routing; no new assignment or invented receipt (Will 11/11 13:33 ET). Cleared tonight: REQ-DEWEY-20261022-003R (RESOLVED, card 027; EagleBank bridge carried at PROME D:L1119, 11/16 review); intake lane stale (the clone was behind; collector ran 11/10 21:08Z and 11/11 21:41Z); OTTO registry lag. LOW: ISHM and LIQUID packets of 11/4 filed without a .consumed.tsv line (retro-declared 11/11).
