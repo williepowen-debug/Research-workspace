@@ -4,7 +4,7 @@ Updated 2026-11-12T01:08:02Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 
 ## RESUME — do these first
 
-00. **Evening FULL closeout 2026-11-12T01:08:02Z (walter-b2), carry first:** inbox empty (all nine packets consumed and declared). Owner answers open on tonight's cards: LIQUID on 024 (Skydance: change any "almost all secured" to about $69.5B secured of about $86.6B); FALCON on 026 (grade the Houthi Yanbu pumping-station claim; is No. 11 on the East-West line?); REGINALD and TERRY on 027 (TERRY's United Fidelity tradeability read, also asked by DEWEY and PROME). Still open from the afternoon: CARL and REGINALD on 016; REGINALD and TERRY on 018 (superseded in substance by 027); VULCAN on 019, 023 and the five-axis ratify; BROCK on 020, 021 (BROCK's Thursday wake); CYPHER on 022 (N-able, CYPHER's Thursday wake per PROME). **Done after the closeout (Will "continue working" 20:11 ET):** 6c scan (card 029: VIX 17.49 close, FT-06 exit run likely resets; RED grades VIXCLS 11/12 after 10:30 ET) and 7i calendar (card 030: MSCI deleted Strategy; LIQUID and TERRY asked). **7h X bookmarks BLOCKED: token refresh failed on the laptop; needs Will's browser (`x_bookmarks_scan.py --authorize`).** **WALTER error, carried:** commit 3b4070afcf swept PROME's untracked `PROME/reports/2026-11-11_united-fidelity-follow-up/D-parent-paper-holders.md` (path list built from git status); PROME told by message; PROME (prome-22) acked 20:16 ET: the committed bytes are its final version, no revert wanted, it names the landing in its next commit body. Closed. Still not done: REGISTRY whole read, agent STATUS lead lines beyond LIQUID and OTTO, step 9 LIAISON and outbox REQ reads. Evidence: research/2026-11-11_evening/.
+00. **Evening FULL closeout 2026-11-12T01:08:02Z (walter-b2), carry first:** inbox empty (all nine packets consumed and declared). Owner answers open on tonight's cards: LIQUID on 024 (Skydance: change any "almost all secured" to about $69.5B secured of about $86.6B); FALCON on 026 (grade the Houthi Yanbu pumping-station claim; is No. 11 on the East-West line?); REGINALD and TERRY on 027 (TERRY's United Fidelity tradeability read, also asked by DEWEY and PROME). Still open from the afternoon: CARL and REGINALD on 016; REGINALD and TERRY on 018 (superseded in substance by 027); VULCAN on 019, 023 and the five-axis ratify; BROCK on 020, 021 (BROCK's Thursday wake); CYPHER on 022 (N-able, CYPHER's Thursday wake per PROME). **Done after the closeout (Will "continue working" 20:11 ET):** 6c scan (card 029: VIX 17.49 close, FT-06 exit run likely resets; RED grades VIXCLS 11/12 after 10:30 ET) and 7i calendar (card 030: MSCI deleted Strategy; LIQUID and TERRY asked). 7h X bookmarks: re-authorized by Will 20:2x ET on the laptop; 6 routed as cards 031 to 033 (BM-20261112-03 6/6, review research/2026-11-11_evening/x_bookmarks_review.json, marked). Owner answers open: HANS and TERRY on 031, FALCON on 032, VULCAN and TERRY on 033. **WALTER error, carried:** commit 3b4070afcf swept PROME's untracked `PROME/reports/2026-11-11_united-fidelity-follow-up/D-parent-paper-holders.md` (path list built from git status); PROME told by message; PROME (prome-22) acked 20:16 ET: the committed bytes are its final version, no revert wanted, it names the landing in its next commit body. Closed. Still not done: REGISTRY whole read, agent STATUS lead lines beyond LIQUID and OTTO, step 9 LIAISON and outbox REQ reads. Evidence: research/2026-11-11_evening/.
 0. Reboot block of 15:40Z moved verbatim to research/2026-11-11_light-closeout/LC-ROTATED.md; its open owner answers are restated in item 00.
 
 1. **Owner answers still open on today's cards:** TERRY's USO tradeability read on 001/013 (should use Saudi supply about 9.2 mb/d, not 10.563); LIQUID on 007 (Skydance secured stack, any rating action), launched 10:1x ET; CORAL on 008 (Valkaria 24.69 in; is Brevard in the emergency order?). BRENT answered 013 (0d04288380: graded on 9.194 secondary sources; STEO 2.5 mb/d shut-in CONFIRMED on the level; the 1.36 mb/d produced-not-supplied, about 42M bbl if stored, contests BRENT's "January increment is paper" read before 11/29). VULCAN answered 002 and 003 (72a112145d). FALCON answered 005 (11abbdc7be; routed as 012).
@@ -76,9 +76,14 @@ Tier 2 FULL closeout, walter-b2, evening on the laptop. Prior: FULL 2026-11-11T1
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-12T01:16:38Z",
+  "as_of": "2026-11-12T01:32:34Z",
   "next_review": "2026-11-12",
   "publication": [
+    {
+      "commit": "ce9c5eb73950aebc994cd44294c1d398eb714162",
+      "state": "published",
+      "note": "bookmark cards 031 to 033, 12 handoffs, review and mark; safe-push CONFIRMED on retry after a DNS failure"
+    },
     {
       "commit": "3b4070afcf87f37bde8553d1ccc73a66c67f3adc",
       "state": "published",
@@ -107,9 +112,9 @@ Tier 2 FULL closeout, walter-b2, evening on the laptop. Prior: FULL 2026-11-11T1
   ],
   "delivery": {
     "signal_date": "20261111",
-    "total": 122,
-    "delivered": 122,
-    "note": "100 handoff rows for cards 001 to 023 plus 16 for 024 to 028 and 6 for 029 and 030, all delivered on origin (reconcile after f5a0e02520: 16 flipped); recipient use separate. 027 is BOARD and route_log only: DEWEY and PROME wrote every recipient copy. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
+    "total": 134,
+    "delivered": 134,
+    "note": "100 handoff rows for cards 001 to 023 plus 16 for 024 to 028 6 for 029 and 030, and 12 for 031 to 033, all delivered on origin (reconcile after f5a0e02520: 16 flipped); recipient use separate. 027 is BOARD and route_log only: DEWEY and PROME wrote every recipient copy. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -154,13 +159,13 @@ Tier 2 FULL closeout, walter-b2, evening on the laptop. Prior: FULL 2026-11-11T1
     "session": "walter-b2 evening boot on the laptop; routing pass on Will's 19:56 ET go-ahead; Tier 2 FULL closeout; no timer or helper running."
   },
   "manual_duties": {
-    "11": "Cards 024 to 028 published at f5a0e02520; two corrections (024, 025) with R1 rows, banners and derived INDEX markers in the same commit; index regenerated; route_log 5 rows, delivery_log 16 rows, one per (signal, recipient). After the closeout: cards 029 and 030 at 3b4070afcf, 6 delivery rows, index regenerated.",
+    "11": "Cards 024 to 028 published at f5a0e02520; two corrections (024, 025) with R1 rows, banners and derived INDEX markers in the same commit; index regenerated; route_log 5 rows, delivery_log 16 rows, one per (signal, recipient). After the closeout: cards 029 and 030 at 3b4070afcf, 6 delivery rows, index regenerated. Bookmark cards 031 to 033 at ce9c5eb739, 12 delivery rows.",
     "13": "REGISTRY: LIQUID and OTTO mirrored from owner headers by script at the closeout stamp; WALTER row by hand; no other owner header newer than its row; Status column not re-graded.",
     "12": "Full: Updated line, BOTTOM LINE evening paragraph (morning paragraph rotated verbatim), NETWORK paragraph regenerated from the refreshed REGISTRY, six November 5 observation rows rotated verbatim to SESSION_LOG, SESSION_LOG entry prepended.",
     "14": "MEMORY #51 n+1 (rename-target pathspec); 24,365 B under the 24,412 B trigger; session notes unchanged.",
     "15": "This file rewritten; replaced blocks rotated verbatim to research/2026-11-11_evening/LC-ROTATED.md; before-image in git history (0d46d973a8).",
     "16": "Exact paths; safe-push; reconcile after publication.",
-    "gaps": "Boot PARTIAL (no threshold scan, calendar, bookmarks); checks runner research/2026-11-11_evening/closeout/checks.json: receipt, read-cap, archives, weekdays, local-memory-lines PASS (MEMORY blank spacer lines removed, 96 lines); orphans advisory clean; REVIEW: basis (boot_basis_check REVIEW REQUIRED, pre-existing, not re-attested), reads (UNKNOWN, attestation date passed, pre-existing), doctor (one MED, CATO receipt, ruled by Will 11/11), ledger-nudge (event-driven logs, absence expected by declaration; kill_log not written: tonight's four kills are date-trap recirculations recorded in BM-20261112-01, not credibility-map kills). After the closeout: X bookmarks blocked (token); commit 3b4070afcf swept one PROME untracked file (PROME acked: its final version, no revert)."
+    "gaps": "Boot PARTIAL (no threshold scan, calendar, bookmarks); checks runner research/2026-11-11_evening/closeout/checks.json: receipt, read-cap, archives, weekdays, local-memory-lines PASS (MEMORY blank spacer lines removed, 96 lines); orphans advisory clean; REVIEW: basis (boot_basis_check REVIEW REQUIRED, pre-existing, not re-attested), reads (UNKNOWN, attestation date passed, pre-existing), doctor (one MED, CATO receipt, ruled by Will 11/11), ledger-nudge (event-driven logs, absence expected by declaration; kill_log not written: tonight's four kills are date-trap recirculations recorded in BM-20261112-01, not credibility-map kills). After the closeout: X bookmarks re-authorized and routed; commit 3b4070afcf swept one PROME untracked file (PROME acked: its final version, no revert)."
   }
 }
 END_CLOSEOUT_RECEIPT -->
