@@ -2,18 +2,22 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-11-11T09:27:06-05:00 | **STATUS commit:** 72a112145d
-**Variant:** FULL. Session 11/11 (PROME prome-2b wake, WQ-184): Siemens Energy FY2026 graded clean negative [KB-422]; Nvidia order-slowdown report INDETERMINATE [KB-423]. No letter fired. Prior session 11/10: VULCAN-188 HIT, VULCAN-191 MISS, SoftBank report.
+**As of:** 2026-11-12T09:03:59-05:00 | **STATUS commit:** d6e0c437a7
+**Variant:** FULL. Session 11/12 (PROME prome-e8 wake, WQ-184): Nebius Q3 read at the issuer primary [KB-424]; CoreWeave Q3 10-Q financing read [KB-429]; WALTER cards 019/023/033 answered [KB-425..427]. No letter fired. Prior 11/11: Siemens Energy clean negative [KB-422].
 
 ## CROSS-DOMAIN
 
 | Desk | Material finding and limit | Source |
 |---|---|---|
+| WATT / BROCK / TERRY | 🆕 **Nebius Q3 (issuer release and CEO letter; no 6-K on EDGAR at 08:56 ET; call unheard):** Microsoft contract in place; New Jersey delivers more than half of Microsoft's capacity by year-end, the rest **2Q27** (colocation owner retired temporary generation ahead of Bloom fuel cells); other third-party sites into 1H27, contracts kept; no non-renewal wording. 2026 revenue to the **low end of $3.0–3.4B**, ARR target two months later, capex **~$27B (above $20–25B)**; 2027 revenue $12–13B on capex $40–45B. Q3 operating cash −$273M with $3.76B of billed prepayments in receivables (INFERRED); RPO $38.7B, +3%. S3 NOT FIRED: a delay at a rented site, not removed firm capacity. | KB-424; report 2026-11-12_nebius-q3 |
+| BROCK / LIQUID / PROME | 🆕 **CoreWeave Q3 10-Q (acc 0001769628-26-000465), financing only:** recourse debt $41.6B net (current $9.18B), non-recourse $5.27B (current $1.39B); principal due 2027 $10.97B; OEM vendor financing $6.89B (from $3.52B at year-end); **in compliance with all covenants, no defaults**; nothing refused, repriced or delayed; RPO $132.3B; customers A and B 24% and 30% of Q3 revenue. Not a VULCAN-13 grading (11/15). | KB-429 |
+| BROCK / SAM / TERRY | 🆕 **Anthropic not extending SpaceX compute past mid-2027 is ONE UNCONFIRMED SOURCE.** Filed terms: $1.25B a month to May 2029, either side may terminate on 90 days' notice after three months (S-1/A); SpaceX's Q3 10-Q names no customer, an unnamed SI customer was 34.5% of Q3 revenue (~$5.03B, more than the Anthropic fee). Altman told Samsung presidents on **10/31** (fnnews 11/11) there was 'double counting of demand' and only OpenAI and Anthropic drive large growth. No row moves. | KB-425/426 |
+| HENRY / CARL / WATT | 🆕 TrendForce (10/19, read at source): 180M fiber-km shortfall in 2026, fiber spot 2.8–5x 2025, through 2028; forecasts, not contract prices. Input cost per MW up; not a demand roll; no band. | KB-427 |
 | PROME / SAM / WATT / LIQUID | 🆕 **Siemens Energy FY2026: no data-center cancellation, deferral, settlement or forfeited-deposit wording; no customer named.** Q4 gas ~2 GW booked, **0 GW converted from slot reservations** (Q3 12 GW), 14 GW added, commitments 104 GW (65 backlog, 39 reservations); CEO calls it 'a timing effect' and says lapsed reservations come back to Siemens, so a walk-away shows as a returned slot, not a cancellation. SoftBank's SB7 supplier stays UNKNOWN; do not name one. Call quotes T2 (third-party transcript). | KB-422; release p.1-2, deck p.10, p.35 fn 4 |
 | VIOLET / HENRY / ZHAO | 🆕 Commercial Times via TrendForce: Nvidia 'may slow chip orders', unquantified, same article says orders unchanged. INDETERMINATE; would confirm at TSMC's November 6-K (~12/10), Nvidia's 11/17 guide and 10-Q, or a named statement. | KB-423; WALTER card 003 |
 | PROME / SAM / LIQUID / WATT / HENRY | 🆕 **SoftBank's $3.7B is a re-plan of power-equipment orders, not a default and not a cancelled campus.** Silver Bands 7 (SoftBank and SVF2, separate from SB Energy) wrote off $2.9B of non-refundable deposits for equipment 'no longer in the revised procurement plans' and $0.9B for contract modifications; $6.6B kept for 'PORTS-Pike power generation project and others'; supplier rebates up to $2.1B. **No supplier named** anywhere; GE Vernova's Q3 books show no cancellation. Outside records (AEP 10-Q 10/28, OPSB hearing 12/10, FERC comments 11/3) show the Ohio campus on track. S1 leading indicator: one filed observation, stays ARMED. Do not say default or Ohio write-off. | KB-419..421; report 2026-11-10_softbank |
 | WATT | 🆕 PORTS-Pike: AEP's three 765 kV lines (2028–30, about $5B) are in effect and the customer must fully collateralize AEP's equipment buying; 9.2 GW gas plants are a non-subsidiary SoftBank affiliate's (Portsmouth Gas DevCo, owner UNKNOWN); SB Energy's S-1 names generation delay as a lease-termination risk. The CFO's 'thorough reassessment' of Ohio equipment buying and one unverified 'buy power externally' account are the grid questions. | KB-420; AEP 10-Q acc 0000004904-26-000072 |
-| BROCK / LIQUID / TERRY | 🆕 **CoreWeave Q3, own 8-K Ex 99.1:** FY2026 capex $37–39B (low end raised, 'deliver sooner'), backlog $132.5B, about $9B prepayments expected in three months, DDTL 5.5 $2.6B closed, ATM up to 35M shares. VULCAN-191 MISS. Nothing pulled or flexed. The 10-Q (~11/12) carries the VULCAN-13 leg (b)/(c) terms. | KB-417; acc 0001769628-26-000461 |
+| BROCK / LIQUID / TERRY | 🆕 **CoreWeave Q3, own 8-K Ex 99.1:** FY2026 capex $37–39B (low end raised, 'deliver sooner'), backlog $132.5B, about $9B prepayments expected in three months, DDTL 5.5 $2.6B closed, ATM up to 35M shares. VULCAN-191 MISS. Nothing pulled or flexed. The 10-Q is read (row above, KB-429). | KB-417; acc 0001769628-26-000461 |
 | ZHAO / HAWK | 🆕 **TSMC October NT$586,890mn, cumulative Jan–Oct +43.3% (Sep +41.1%), no-stress.** VULCAN-188 HIT. Cite the cumulative. Graphite added to China's 11/27 clock is ZHAO's; no row here. | KB-416/418; 6-K acc 0001046179-26-000796 |
 | VIOLET / HENRY / ZHAO | 🆕 **Nvidia 11/9, vendor intraday 11:16 ET, not closes:** NVDA −6.02% while QQQ +3.07%, SMH +4.32%, AMD +12.14%, AVGO +9.00%. Nvidia announced its own investigation 11/8 and Huang acknowledged the affair in an open letter (AP via WALTER card 011; neither read here); Trump says the FBI is looking 'in terms of something else', not at Huang [KB-414]; no key-person row; EDGAR shows no Nvidia 8-K. A falling Nvidia lowers S&P concentration, so S1's red legs move away; no capex guide changed; nothing enacted for S4. Key-person risk is not a VULCAN channel. Next real test: Nvidia results 11/17. | KB-409; fetch.py; EDGAR 11/9 |
 | BROCK / LIQUID / WATT | 🆕 Card 002 checked: Anthropic $3.4bn gas deal not located; $500M loan seller unnamed and low-credibility; Broadcom $43B probably the reported $42B Anthropic TPU converts (KB-199), no filing read. None promoted. | KB-410 |
@@ -31,7 +35,7 @@
 
 ## VIEW
 
-The suppliers that report first show no slowdown: TSMC's October beat its own guide's pace and CoreWeave raised the floor of its 2026 spending. The first filed equipment-order cancellation in the chain came from SoftBank, a developer-side buyer re-planning power equipment with supplier rebates, not a payer cutting capex; outside records show the Ohio campus still moving. Siemens Energy's books (11/11) show no data-center cancellation, though its reservations converted nothing in Q4, which it calls timing. The market keeps pricing a slowdown in chips (NVDA $168.89 −5.47%, GE Vernova $797.04 −3.89%, 11/10 vendor closes) that no letter on this desk has seen. 15/25.
+The suppliers that report first show no slowdown: TSMC's October beat its own guide's pace and CoreWeave raised the floor of its 2026 spending. The first filed equipment-order cancellation in the chain came from SoftBank, a developer-side buyer re-planning power equipment with supplier rebates, not a payer cutting capex; outside records show the Ohio campus still moving. Siemens Energy's books (11/11) show no data-center cancellation, though its reservations converted nothing in Q4, which it calls timing. On 11/12 Nebius kept its Microsoft contract but slipped New Jersey to mid-2027 and guided 2026 revenue to the low end while raising capex, and CoreWeave's 10-Q shows covenants met and nothing refused: delivery is slipping a quarter at a time at rented sites, but financing is still flowing. Demand quality is the open question (Altman's 'double counting', two labs as the marginal buyers), not a band. 15/25.
 
 ## CALIBRATION
 
@@ -39,7 +43,7 @@ The suppliers that report first show no slowdown: TSMC's October beat its own gu
 
 ## NEXT DECISION POINT
 
-11/12: Nebius Q3 and CoreWeave's 10-Q window. 11/13: slot 10, GPU 10, S2, and SoftBank's Q2 transcript (Gotō's exact words on Ohio; not posted 11/11). 11/15: VULCAN-13 and -15 (developer form). 11/17 and ~11/19: NVIDIA results and the 10-Q guarantee line, the first outside test of PORTS-Pike. 12/10: OPSB hearing on the Ohio gas plant. ~2027-01-27: GE Vernova Q4, the next supplier tell for SB7. ~12/15: Oracle's 10-Q, the decisive prepayment test.
+11/13: slot 10, GPU 10, S2, and SoftBank's Q2 transcript (Gotō's exact words on Ohio; not posted 11/11). 11/15: VULCAN-13 and -15 (developer form). 11/17 and ~11/19: NVIDIA results and the 10-Q guarantee line, the first outside test of PORTS-Pike. 12/10: OPSB hearing on the Ohio gas plant. ~2027-01-27: GE Vernova Q4, the next supplier tell for SB7. ~12/15: Oracle's 10-Q, the decisive prepayment test.
 
 ## WATCH (next 2–4 weeks and beyond) — ⏱️ THE CLOCK
 
@@ -47,7 +51,6 @@ Exact event set generated from `docket/CATALYSTS.tsv` at this write; the registe
 
 | When | What | Whose |
 |---|---|---|
-| 2026-11-12 | Nebius Q3 2026 results — issuer-confirmed Thursday, before the open, call 8:00 AM ET | VULCAN, BROCK |
 | 2026-11-13 | SoftBank Q2 FY2026 earnings-call transcript posted? (re-homed from the swept 11/11 row) | VULCAN, SAM |
 | 2026-11-13 | GPU-rental panel reading 10 — cadence extension (registered 2026-09-29, before the original cadence's last slot) | VULCAN, PROME, WATT |
 | 2026-11-13 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 10 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
