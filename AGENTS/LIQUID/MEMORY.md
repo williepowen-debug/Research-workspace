@@ -2,13 +2,14 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-12T09:08:38-05:00 (PROME prome-e8, WQ-184 due-row class C6, D:L1124, desktop, Claude Code / Opus 5.5)
+### CURRENT SESSION — 2026-11-12T09:08:38-05:00, closed 2026-11-12T16:12:28-05:00 (PROME prome-e8, WQ-184 due-row class C6, D:L1124, desktop, Claude Code / Opus 5.5)
 
 - **Context:** grade LIQUID rows on the HY cell; 079; 076 if ready; drain inbox. Research only; nothing moved.
 - **Found:** FRED's ICE family carries a row dated 11/11 (HY 330, CCC 1,330, BB 193) and none dated 11/10; every tier moved, so not a carry; first missing session row since 2023-11. Likely ICE's 11/10 valuation under the holiday date (HY yield +11 bp fits the 11/10 Treasury sell-off); not established.
 - **Graded by D:L342 (calendar-keyed):** the 11/11 row is not an observation, 11/10 unpublished ⇒ >320 run stays 8 (DOCKET expected 9), HY-REKILL 0 of 2, tier rule no new grade, 069 L1 NOT FIRED [11/9], L4 11/10 UNGRADEABLE-PENDING (equity half fails anyway, IREN −7.85%), 11/11 and 11/12 UNGRADEABLE, 072 NOT FIRED, 079 NOT ARMED +7 [11/10]. 076 not graded: W2 as-of 11/4 unpublished at 09:05 ET. Re-dating a row = Will's call; no grade depends on it today.
 - **Cards:** six consumed; MSTR read-through (unsecured converts, unencumbered BTC, nothing reaches HY or funding rows); two corrections receipted NO-OP. DTCC: no CoreWeave, Oracle or Paramount prints; SoftBank 5Y 473 flat. → `research/2026-11-12_wake/REPORT.md`.
-- **Open:** 11/10 cell if posted; 30-year auction 13:00; 076 W2/W1; PROME closes the window.
+- **Held window (PROME's word) to 13:15 ET:** first CDS after CoreWeave's results. CoreWeave 4Y about 1,047 bp (one $3M trade 10:46 ET, 15.00 points on 500; −50 bp against 11/10 same tenor). Oracle 2Y 175 / 3Y 222 disseminated (flat to +10 against an interpolated pre-results curve), 10Y about 342 converted. No 5-year trade on either through slice 462. Lesson: DTCC `UFRO` cash = quoted points less accrued since the IMM roll date; when it lands on a round number the quote and the payer side are recovered. 30-year auction BTC 2.36, indirect 68.11% (lines not crossed). FRED: no 11/10 cell at 13:13 ET. WALTER 004 consumed as already ruled. DAEDALUS WQ-678 B trims deferred (peer packet ≠ Will's word for an instruction-file edit). No row, count or gate moved all day.
+- **Open:** DTCC 11/12 cumulative file and the 11/10 cell (STATUS §3, Friday); 076 W2/W1 (Friday, PROME review).
 
 ### PRIOR SESSION — 2026-11-11 (PROME prome-2b, WQ-184 and Will's 09:24 ET word, Veterans Day, desktop, Claude Code / Opus 5.5)
 
@@ -80,4 +81,4 @@
 
 ### NEXT SESSION
 
-**STATUS §3 is the list.** Wednesday November 11 is Veterans Day: FRED's 11/11 cell is a carry and counts for nothing (fix in place); 069 L4 UNGRADEABLE for the 11/11 and 11/12 sessions. SoftBank (PROME investigation): DTCC November 11 file for Tokyo-hours CDS after the results, JSDA November 11 yen file if the 429 cleared, any agency comment. The November 10 ICE cell grades at its first FRED publication (11/11 or 11/12; check). Thursday November 12: the 30-year auction; 076 W2 as-of November 4. Friday November 13: 076 W1 as-of November 10, PROME review. Then State Street Oracle bond point and the DTCC probe repair. Sessions from October 29 and earlier, with the prior NEXT SESSION text → `archive/MEMORY_before-2026-11-05-closeout.md` (verbatim copy).
+**STATUS §3 is the list.** Friday November 13 (PROME launches for GATE-LIQ-076): 076 W2 as-of November 4 and W1 as-of November 10; then the DTCC November 12 cumulative file for any 5-year CoreWeave or Oracle print after the results; the November 10 ICE cell if FRED posts it. The 11/11-dated ICE row is NOT a carry (every tier moved) but is still never counted (D:L342 is calendar-keyed); re-dating it is Will's call. 069 L4 is UNGRADEABLE for the 11/11 and 11/12 sessions. DAEDALUS WQ-678 optional trims wait in `inbox/` (STATUS §3). Then the State Street Oracle bond point and the DTCC probe repair. Sessions from October 29 and earlier, with the prior NEXT SESSION text → `archive/MEMORY_before-2026-11-05-closeout.md` (verbatim copy).

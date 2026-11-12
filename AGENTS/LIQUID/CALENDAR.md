@@ -65,7 +65,7 @@ Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior f
 | 2026-10-27 | Brazil buyback settlement and retained LFT placement — existing follow-through | ESTIMATED: exact criteria/outcome/source limits in machine row |
 | 2026-11-09 | ✅ RESOLVED 2026-11-09 — 3-year note auction, $58B (refunding, 13:00 ET close) | CONFIRMED: exact criteria/outcome/source limits in machine row |
 | 2026-11-10 | ✅ RESOLVED 2026-11-10 — 10-year note auction, $42B (refunding, 13:00 ET close) | CONFIRMED: exact criteria/outcome/source limits in machine row |
-| 2026-11-12 | 30-year bond auction, $25B (refunding, 13:00 ET close) | CONFIRMED: exact criteria/outcome/source limits in machine row |
+| 2026-11-12 | ✅ RESOLVED 2026-11-12: BOND CLEAN (BTC 2.36, indirect 68.11%); LIQUID lines not crossed — 30-year bond auction, $25B (refunding, 13:00 ET close) | CONFIRMED: exact criteria/outcome/source limits in machine row |
 | 2026-11-13 | GATE-LIQ-076 review — W2 as-of November 4 about November 12, W1 as-of November 10 about November 13 | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
 | 2026-11-18 | TIC release, 16:00 ET (September data) | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
 | 2026-12-09 | December FOMC decision (December 8-9) | CONFIRMED: exact criteria/outcome/source limits in machine row |
