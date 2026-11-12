@@ -1,48 +1,13 @@
 {
-  "kind": "marked",
-  "checked_at": "2026-11-12T01:31:52Z",
-  "items": 6,
+  "kind": "fetched",
+  "checked_at": "2026-11-12T13:56:04Z",
+  "items": 0,
   "scan": {
-    "checked_at": "2026-11-12T01:28:58Z",
-    "head_checked_at": "2026-11-12T01:28:57Z",
+    "checked_at": "2026-11-12T13:56:04Z",
+    "head_checked_at": "2026-11-12T13:56:04Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 2
+    "attempts": 1
   },
-  "review_recorded": true,
-  "read_counts": {
-    "fully_read": 3,
-    "partly_read": 3
-  },
-  "dispositions": {
-    "FOLD": 2,
-    "DISPATCH": 4
-  },
-  "follow_ups": [
-    {
-      "id": "2120584489558790619",
-      "ref": "BOARD/SIG-W-20261111-033-Altman-to-Samsung-AI-demand-double-counted-only-OpenAI-and-Anthropic-drive-growth-fnnews-exclusive-QQQ-2000-pattern-did-not-complete-Mercedes-China-quote-unfound.md"
-    },
-    {
-      "id": "2120300724424990725",
-      "ref": "BOARD/SIG-W-20261111-031-Orlen-terminates-one-of-two-QatarEnergy-LNG-contracts-1-Mtpa-oil-linked-to-2034-over-force-majeure-first-known-buyer-exit-QatarEnergy-silent.md"
-    },
-    {
-      "id": "2120575492742897781",
-      "ref": "BOARD/SIG-W-20261111-032-Houthis-push-south-in-Lahij-toward-Bab-al-Mandab-camps-DropSite-map-claim-only-and-USS-Theodore-Roosevelt-projected-to-Arabian-Sea-Nov-15-16-OSINT-projection.md"
-    },
-    {
-      "id": "2120550135029506317",
-      "ref": "BOARD/SIG-W-20261111-032-Houthis-push-south-in-Lahij-toward-Bab-al-Mandab-camps-DropSite-map-claim-only-and-USS-Theodore-Roosevelt-projected-to-Arabian-Sea-Nov-15-16-OSINT-projection.md"
-    },
-    {
-      "id": "2120506035626729895",
-      "ref": "BOARD/SIG-W-20261111-033-Altman-to-Samsung-AI-demand-double-counted-only-OpenAI-and-Anthropic-drive-growth-fnnews-exclusive-QQQ-2000-pattern-did-not-complete-Mercedes-China-quote-unfound.md"
-    },
-    {
-      "id": "2120544579736780986",
-      "ref": "BOARD/SIG-W-20261111-033-Altman-to-Samsung-AI-demand-double-counted-only-OpenAI-and-Anthropic-drive-growth-fnnews-exclusive-QQQ-2000-pattern-did-not-complete-Mercedes-China-quote-unfound.md"
-    }
-  ],
-  "requests": []
+  "review_recorded": false
 }

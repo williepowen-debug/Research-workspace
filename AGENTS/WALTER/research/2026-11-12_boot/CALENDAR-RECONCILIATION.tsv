@@ -1,0 +1,2 @@
+release	period	scheduled	source	outcome	evidence
+DOL initial jobless claims (FRED ICSA)	week ending 2026-11-07	2026-11-12 08:30 ET	PROME/DOCKET.tsv; FRED ICSA	PUBLISHED AND UNREVIEWED: 200,000 (prior week revised 191,000); no BOARD card 20261112 at 2026-11-12T13:51:23Z; RED-FT-05 (>250k) not near; CHECKLIST triage owed, CARL action per ROUTING_TABLE LABOR row	fetch.py fred ICSA pulled 2026-11-12T13:51:23Z
