@@ -1,5 +1,7 @@
 # United Fidelity Bank: who is the second sponsor (8902 N Meridian St Ste 205 "New ___ LLC" group)?
 
+> ⚠️ **Read with the corrections of 2026-11-12:** `SYNTHESIS.md` in this folder, the paragraphs headed "Correction 2026-11-12" and "Correction 2026-11-12, second". The text below is the researcher's original of 2026-11-11, unchanged; no figure was altered. One point. Answer 4, "no outside party sharing the loss": this is a statement about a limited search of property-level filings (SEARCH-NOT-FOUND, not absence). Outside holders of the parent's notes and preferred exist (report D). Containment is NOT ESTABLISHED. Banner added 2026-11-12 14:21 ET by PROME on Will's word (PROME's chat, 2026-11-12 14:18 ET: future use of the unchanged researcher reports carries the corrections). It restates the synthesis corrections and adds no finding.
+
 Researcher: read-only public-source agent for PROME. All sources read 2026-11-11, about 20:25 to 20:55 ET.
 Tags: VERIFIED (read at source) · INFERRED · SEARCH-NOT-FOUND (a statement about my search, not proof of absence) · UNKNOWN.
 Nothing in the repository was edited. Working files: `ufbH/dl/` (Form D XML, KY PDF, prospectus text), `ufbH/img/` (UCC images), `ufbH/scripts/match.py`.
