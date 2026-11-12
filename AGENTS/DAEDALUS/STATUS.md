@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-11-12 — housekeeping, Harness re-test, own WQ-678 B trims (12:2x ET); backlog prune proposed to Will.**
+**Last Updated: 2026-11-12 16:12 ET — housekeeping, Harness re-test, own WQ-678 B trims, backlog prune approved and applied, C8/C12 rationale corrected (L1133 own leg).**
 
 **Current judgment:** Owed small items are closed: READS re-attestation delta sent for PROME transcription (missing `docs/GIT_WORKTREE_PROCEDURES.md` dependency found), SHADE ledger registered, SURFACES AGENTS.md row re-cut, L816 narrowing accepted, NEXUS B6 tie clause NO-OP (STRICT_TEXT rule 7 already carries it), ZHAO B24 closed. Staleness #7 found 6 ledger and 2 trade flags, one real (MARCO VX row SFE-03, oldest live row, routed by packet), 0 freezes; four CHECKS rows were stale after PROME's 10/31 WQ-578 retirements and are corrected. The provider-switch Harness re-test then ran (9 Opus readers, 74 charters, 599 rows); Will ruled WQ-678 A and 41 owner packets went out (6a43711d27). DAEDALUS L4/M retained, no L5 adjudication. Record `runs/2026-11-12_HOUSEKEEPING.md`.
 
@@ -62,10 +62,11 @@
 | Work | Next action and limits |
 |---|---|
 | **Backlog prune (Will-approved 2026-11-12 12:28 ET)** | 16 carry lines CLOSED: scanner, vocabulary and census additions, unasked reviews, the validate_all rebaseline, the retained confirm-reads and two stale lines. Nothing built or read. `runs/2026-11-12_BACKLOG_PRUNE.md`. |
-| **H2 as-made / L490** | HENRY historical backfill is owner work; PROME asked 11/12 to close L490 for DAEDALUS. |
+| **H2 as-made / L490** | DAEDALUS legs CLOSED by PROME 11/12 on packet 72291e1b40; HENRY's H2 backfill is owner work. |
 | **L188** | Vocabulary pass on its own trigger only. |
 | **L263** | Draft review DONE 11/04, NOT READY TO ENCODE; Will/PROME disposition. |
 | **`AGENTS/SIGNALS.md` SURFACES row** | Add at Production Review #10 (register fact only, no rule). |
+| **L1133 (CATO 11/12 review, own leg)** | Prune item C8 rationale corrected at a14a53a3c7 (C12 strengthened); Will told in-window; PROME doorbelled. Own leg DONE; PROME verifies at the artifact by 11/16. |
 | **TERRY moved-narrative consumer check** | OPEN (omitted from the 11/12 prune list; caught by PROME). Bounded: grep consumers of TERRY's five changed KEY FILES entries and moved spans, exercise only an identified script consumer; no TERRY re-audit. Rides Production Review #10, by 11/16. Spec `runs/2026-11-07_DISPOSITION_PLAN.md:26`. |
 
 ## Conditional seats and other owners
@@ -87,5 +88,5 @@
 - **WORK:** Housekeeping pass, provider-switch Harness re-test and own WQ-678 B trims complete (25 of 28 applied 11/12, 2 done earlier, S-56 RAV "add checks" held for Will; prior text `archive/2026-11-12_HARNESS_TRIMS/`). Backlog prune approved by Will 12:28 ET and applied (`runs/2026-11-12_BACKLOG_PRUNE.md`). Scorecard and Production Review #10 not started.
 - **CHECKS:** Housekeeping cold read 23 ✅ / 5 ⚠️ / 0 ❌, all fixed (`runs/2026-11-12_HOUSEKEEPING.md` § 6). Trim diff cold read (Sonnet) 1 ❌ / 7 ⚠️: the ❌ (basename rule) and the RAV cross-run routing line restored before commit; the rest accepted as history drops or intended changes. read_cap_check rc 0.
 - **DELIVERY:** One PROME packet (READS delta, SHADE, two unwired rows) and one MARCO packet; PROME doorbelled in-session; consumption unverified.
-- **HARNESS (11/12):** provider-switch re-test done (`runs/2026-11-12_HARNESS_RETEST.md`); WQ-678 A ruled 09:59 ET; 41 packets 6a43711d27; A18 applied in own files; own 28 optional trims deferred; A17 done by PROME; dormant-freeze pre-approval RETIRED on Will's word and removed from own playbooks/OPERATIONS.
-- **OPEN:** Owners apply WQ-678 lines at next wake (PROME A3–A7/A16 done 212347d3a2; WQ-679 root rows 9d43dd3cdc); backlog prune APPROVED by Will 12:28 ET and applied; scorecard 11/13; D:L490 11/15; Production Review #10 by 11/16; YUR-F02 11/28.
+- **HARNESS (11/12):** provider-switch re-test done (`runs/2026-11-12_HARNESS_RETEST.md`); WQ-678 A ruled 09:59 ET; 41 packets 6a43711d27; A18 applied in own files; own 28 optional trims applied 11/12 (see WORK); A17 done by PROME; dormant-freeze pre-approval RETIRED on Will's word and removed from own playbooks/OPERATIONS.
+- **OPEN:** Owners apply WQ-678 lines at next wake (PROME A3–A7/A16 done 212347d3a2; WQ-679 root rows 9d43dd3cdc); backlog prune APPROVED by Will 12:28 ET and applied; L1133 own leg DONE (a14a53a3c7), PROME's consumer read by 11/16; scorecard 11/13; Production Review #10 by 11/16; YUR-F02 11/28.
