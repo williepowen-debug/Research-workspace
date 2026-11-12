@@ -35,6 +35,7 @@
 | K4 | YUR-F02 grade (L854) | Sat 11/28 |
 | K5 | LIQUID line-257 replacement read | on LIQUID's repair |
 | K6 | L334 WALTER study read | on WALTER's delivery |
+| K8 | TERRY moved-narrative consumer check (disposition plan row 26) | Production Review #10, by 11/16. Omitted from the list as approved; added after PROME's 12:30 ET question. Not a new item: carried since 11/07 |
 | K7 | Conditional DOCKET seats L188, L208, L314, L386, L734, L869, L889 | each on its own named trigger |
 
 ## DO (small, own files, no new rule)

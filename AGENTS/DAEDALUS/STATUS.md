@@ -66,6 +66,7 @@
 | **L188** | Vocabulary pass on its own trigger only. |
 | **L263** | Draft review DONE 11/04, NOT READY TO ENCODE; Will/PROME disposition. |
 | **`AGENTS/SIGNALS.md` SURFACES row** | Add at Production Review #10 (register fact only, no rule). |
+| **TERRY moved-narrative consumer check** | OPEN (omitted from the 11/12 prune list; caught by PROME). Bounded: grep consumers of TERRY's five changed KEY FILES entries and moved spans, exercise only an identified script consumer; no TERRY re-audit. Rides Production Review #10, by 11/16. Spec `runs/2026-11-07_DISPOSITION_PLAN.md:26`. |
 
 ## Conditional seats and other owners
 
