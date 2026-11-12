@@ -24,7 +24,9 @@ CHECKS (letters are the spec's):
      (A4->W8). Repaired 2026-11-12 S64 (CATO M12-3): an earlier same-day packet, in the
      inbox or filed under processed/, no longer satisfies a later change; identity is the
      git blob, so PROME's move to processed/ neither erases a new delivery nor makes an
-     old one new. OUTBOX.md FROZEN 2026-11-12, still accepted for vintages before the freeze
+     old one new. RED's delivery rule: a W8 delivery for a state change is a NEW packet
+     file, never an addendum to an earlier one (an addendum counts only while the packet
+     is unfiled; once PROME files it the gate FAILs, read 2 N1). OUTBOX.md FROZEN 2026-11-12, still accepted for vintages before the freeze
      when its top entry is new since the base (OPEN: that branch has no pre-freeze date
      limit, so a new OUTBOX entry written after the freeze would still pass)
   f  NEXUS_BRIEF and CALENDAR headers carry the same HOLD / net-bear as STATUS
@@ -401,7 +403,8 @@ def new_deliveries(now, base):
     """Packets in `now` that are a delivery made SINCE the base (CATO M12-3, 2026-11-12).
     Identity is the CONTENT (blob id), not the path: PROME's `git mv` to processed/ makes a
     new path that holds old bytes, and a moved old packet must not count. A packet counts
-    when its bytes match no base packet — new, or edited while still unconsumed. A packet
+    when its bytes match no base packet — new, or edited while it is still in the inbox at
+    the gate (RED's own rule is stricter: a NEW file, never an addendum). A packet
     whose CURRENT path is under processed/ is excluded when its filename appears anywhere in
     the base (inbox or processed): PROME filed an existing packet, possibly stamping it, and
     a stamp is not a delivery (read 1 row 1). A packet in the inbox is judged on its bytes
@@ -560,7 +563,7 @@ MANUAL = [
     ('W3', 'the CHANGELOG entry EXPLAINS old view -> new view (e only proves one exists)'),
     ('W6', 'workbook rows carry dated evidence; Flip_If graded against this session\'s data'),
     ('W7', 'transferable lesson -> memory/auto/ + index row (then re-run with --memory-slug)'),
-    ('W8', 'the NEW RED packet in PROME/inbox/ actually covers this state change (e proves only that its bytes are new since the base); NEXUS_BRIEF refreshed LAST before the commit'),
+    ('W8', 'a NEW RED packet file in PROME/inbox/ (never an addendum to an earlier one) actually covers this state change (e proves only that its bytes are new since the base); NEXUS_BRIEF refreshed LAST before the commit'),
     ('W9', 'any file/schema/tool/protocol change recorded in MAINTENANCE.md'),
     ('W10', 'safe-push receipt line "Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch)." — the only proof of PUSHED'),
 ]

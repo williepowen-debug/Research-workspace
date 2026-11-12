@@ -38,8 +38,10 @@ no RED packet dated today at the base. A path test fails on PROME's git mv, beca
 processed/<name> is a new path holding old bytes.
   1   counterexample: state change; only an EARLIER same-day packet, (1a) in processed/,
       (1b) still in the inbox                                           -> e FAIL
-  2   valid delivery: (2a) a new untracked packet; (2b) the unconsumed earlier packet
-      edited, so new bytes; (2c) --at a commit adding the state change and the packet
+  2   valid delivery: (2a) a new untracked packet; (2b) the earlier packet edited while it
+      is still in the inbox, so new bytes (the check accepts it; RED's own rule is a NEW
+      file, never an addendum, see read 2 N1); (2c) --at a commit adding the state change
+      and the packet
                                                                         -> e PASS
   3   consumption: (3a) a new packet already moved to processed/ before the gate -> PASS;
       (3b) an OLD packet moved by PROME's staged git mv at gate time -> FAIL (the move
@@ -81,6 +83,16 @@ processed/<name> is a new path holding old bytes.
       unreadable processed/ directory gives FAIL where UNKNOWN is due (never a false PASS)
       · legacy OUTBOX: a one-character edit to the old top heading passes, a new entry whose
       heading repeats an older one is rejected, and there is still no freeze-date limit.
+  READ 2 (PROME 14:39 ET; ledger LEDGER-read-2.md): R1, R1b, R2 fixed; every other case
+  unchanged. No further code change. DECLARED RESIDUE from read 2 (recorded 14:39 ET from date):
+      N1  created by the read-1 fix, fails closed: an addendum to RED's own unconsumed
+          earlier packet, filed by PROME with a plain git mv before the gate, no longer
+          counts (bytes cannot tell it from a consumption stamp). Removed by RED's rule: a
+          W8 delivery is a NEW packet file, never an addendum to an earlier one.
+      N2  both versions, false PASS: PROME renames AND stamps an old packet in one filing
+          move (renames seen 11/6, stamps 10/16, no single move doing both since 9/1).
+      N3  both versions, false FAIL: the name-collision packet forced over processed/X with
+          git mv -f.
   NOT TESTABLE BY THIS CHECK (stays a manual read): whether the new packet COVERS the
   change. A blob test proves the packet's bytes are new, not what they say.
 
@@ -238,7 +250,7 @@ case('2a new untracked packet (+ earlier one present) -> PASS',
      lambda d: (change_state(d), put(d, NEW, 'S64 packet: FT-01 fired\n')), 'PASS')
 case('2a\' new packet, no earlier one -> PASS',
      lambda d: (change_state(d), put(d, NEW, 'S64 packet: FT-01 fired\n')), 'PASS', old_at=None)
-case('2b unconsumed earlier packet edited (new bytes) -> PASS',
+case('2b earlier packet edited while still in the inbox (accepted; RED rule: new file) -> PASS',
      lambda d: (change_state(d), put(d, OLD_INBOX, 'Addendum: FT-01 fired\n', append=True)), 'PASS', old_at=OLD_INBOX)
 case('2c --at a commit carrying state change + packet -> PASS',
      lambda d: (change_state(d), put(d, NEW, 'S64 packet: FT-01 fired\n'), commit_all(d))[-1], 'PASS')
