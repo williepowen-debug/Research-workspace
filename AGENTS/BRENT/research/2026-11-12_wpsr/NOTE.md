@@ -2,7 +2,7 @@
 
 **Run:** 2026-11-12, release read 12:10:59 EST, files saved 12:11:01 EST (from `date`, `capture.txt`). Session brent, Claude Code, Opus 5.5, woken by PROME on Will's word (11:53 ET). No trade, no card, no gate, band or threshold changed. Release-day bytes and sha256 in this folder; arithmetic in `evaluate.py` → `evaluation.json`.
 
-**Release time:** EIA schedule page (read 11:54 EST): data week November 6, 2026 → Thursday November 12, **12:00 p.m.** (Veterans Day). The page lists no 14:00 ET release; PROME's second time is unconfirmed here. The 12:00 files were complete at 12:11 (psw01 carries week 11/6). A 14:00 re-read compares hashes only.
+**Release time:** EIA schedule page (read 11:54 EST): data week November 6, 2026 → Thursday November 12, **12:00 p.m.** (Veterans Day). The page lists no 14:00 ET release; PROME's second time is unconfirmed here. The 12:00 files were complete at 12:11 (psw01 carries week 11/6). A discretionary 14:00 re-read (not a second release; PROME's 14:00 time was PROME's error) compares hashes only.
 
 ## Bottom line
 
@@ -31,7 +31,7 @@ US stocks built across the board in the week to November 6: commercial crude **+
 | 5 | SPR | **279.535M, −2.649M** | Record only. Largest weekly SPR fall in this run's recent prints; consistent with scheduled exchange deliveries (not verified as the cause) |
 | 6 | Gasoline 4-week YoY | −1.0% (EIA rounded); exact −1.0346% | BRT-31 week five above |
 
-**Context, record only:** crude production 14.013 mb/d (+10 kb/d); crude imports 6.698 (+325); crude exports **3.455 (−220)**, 4-week 3.857; product exports 7.543 (+347); weekly distillate product supplied 3.411 (−1,028; holiday-week noise likely, 4-week +4.2% YoY); jet four-week +1.8% YoY; crude adjustment −466 kb/d. Distillate now 8% below the five-year average (13% last week).
+**Context, record only:** crude production 14.013 mb/d (+10 kb/d); crude imports 6.698 (+325); crude exports **3.455 (−220)**, 4-week 3.857; product exports 7.543 (+347); weekly distillate product supplied 3.411 (−1,028; ordinary weekly volatility, 4-week +4.2% YoY); jet four-week +1.8% YoY; crude adjustment −466 kb/d. Distillate now 8% below the five-year average (13% last week).
 
 ## Theme logs reviewed (WQ-622 A; logging only, nothing moves)
 
@@ -45,4 +45,4 @@ US stocks built across the board in the week to November 6: commercial crude **+
 
 ## Limits
 
-Primary EIA files only (ir.eia.gov, eia.gov retail workbook). No consensus read. Holiday-shortened week can distort weekly product supplied. The 14:00 ET time named by PROME is not on EIA's schedule page.
+Primary EIA files only (ir.eia.gov, eia.gov retail workbook). No consensus read. Weekly product supplied is volatile; single-week moves carry little weight. **Corrected 11/12 12:4x EST (CATO M12-4 via PROME):** an earlier version called week 11/6 holiday-shortened; Veterans Day (11/11) fell after the data week and delayed only the release, so no holiday effect on that week's demand is evidenced. The 14:00 ET time named by PROME is not on EIA's schedule page.
