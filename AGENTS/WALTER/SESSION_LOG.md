@@ -1,6 +1,6 @@
 ## 2026-11-12T21:34:15Z light-closeout — full deferred (walter-42, desktop; third of the session)
 
-Will news sweep 16:28 ET: manual intake run 43310587626, X bookmarks, dropzone (0). Cards SIG-W-20261112-009 and -010 (e787ced6f2); batches BM-20261112-06 and -07 closed. Car-Mart EDGAR watch running in session (no filing). LAST_COMPLETION items 2–4 rotated verbatim. Full closeout still owed.
+Will news sweep 16:28 ET: manual intake run 43310587626, X bookmarks, dropzone (0). Cards SIG-W-20261112-009 and -010 (e787ced6f2); batches BM-20261112-06 and -07 closed. Car-Mart EDGAR watch running in session (no filing). LAST_COMPLETION items 2–4 rotated verbatim. Full closeout still owed. Addendum 2026-11-12T21:48:51Z: card 011 (OTTO EART packet, f515ab80ff), same light closeout.
 
 ## 2026-11-12T20:57:42Z light-closeout — full deferred (walter-42, desktop; second of the session)
 
