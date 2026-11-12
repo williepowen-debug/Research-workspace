@@ -4,7 +4,7 @@ Updated 2026-11-12T01:08:02Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 
 ## RESUME — do these first
 
-00. **Evening FULL closeout 2026-11-12T01:08:02Z (walter-b2), carry first:** inbox empty (all nine packets consumed and declared). Owner answers open on tonight's cards: LIQUID on 024 (Skydance: change any "almost all secured" to about $69.5B secured of about $86.6B); FALCON on 026 (grade the Houthi Yanbu pumping-station claim; is No. 11 on the East-West line?); REGINALD and TERRY on 027 (TERRY's United Fidelity tradeability read, also asked by DEWEY and PROME). Still open from the afternoon: CARL and REGINALD on 016; REGINALD and TERRY on 018 (superseded in substance by 027); VULCAN on 019, 023 and the five-axis ratify; BROCK on 020, 021 (BROCK's Thursday wake); CYPHER on 022 (N-able, CYPHER's Thursday wake per PROME). **Not done this boot, first at the next one:** step 6c threshold scan (HY 11/10 cell due on FRED 11/12; RED-29 and the FT-06 exit graded by RED after 10:30 ET), step 7i calendar from the cutoff below (the Tricolor 341 row is answered: continued to 2027-03-17, card 028), step 7h bookmarks, REGISTRY whole read and agent STATUS lead lines beyond LIQUID and OTTO. Evidence: research/2026-11-11_evening/.
+00. **Evening FULL closeout 2026-11-12T01:08:02Z (walter-b2), carry first:** inbox empty (all nine packets consumed and declared). Owner answers open on tonight's cards: LIQUID on 024 (Skydance: change any "almost all secured" to about $69.5B secured of about $86.6B); FALCON on 026 (grade the Houthi Yanbu pumping-station claim; is No. 11 on the East-West line?); REGINALD and TERRY on 027 (TERRY's United Fidelity tradeability read, also asked by DEWEY and PROME). Still open from the afternoon: CARL and REGINALD on 016; REGINALD and TERRY on 018 (superseded in substance by 027); VULCAN on 019, 023 and the five-axis ratify; BROCK on 020, 021 (BROCK's Thursday wake); CYPHER on 022 (N-able, CYPHER's Thursday wake per PROME). **Done after the closeout (Will "continue working" 20:11 ET):** 6c scan (card 029: VIX 17.49 close, FT-06 exit run likely resets; RED grades VIXCLS 11/12 after 10:30 ET) and 7i calendar (card 030: MSCI deleted Strategy; LIQUID and TERRY asked). **7h X bookmarks BLOCKED: token refresh failed on the laptop; needs Will's browser (`x_bookmarks_scan.py --authorize`).** **WALTER error, carried:** commit 3b4070afcf swept PROME's untracked `PROME/reports/2026-11-11_united-fidelity-follow-up/D-parent-paper-holders.md` (path list built from git status); PROME told by message; PROME (prome-22) acked 20:16 ET: the committed bytes are its final version, no revert wanted, it names the landing in its next commit body. Closed. Still not done: REGISTRY whole read, agent STATUS lead lines beyond LIQUID and OTTO, step 9 LIAISON and outbox REQ reads. Evidence: research/2026-11-11_evening/.
 0. Reboot block of 15:40Z moved verbatim to research/2026-11-11_light-closeout/LC-ROTATED.md; its open owner answers are restated in item 00.
 
 1. **Owner answers still open on today's cards:** TERRY's USO tradeability read on 001/013 (should use Saudi supply about 9.2 mb/d, not 10.563); LIQUID on 007 (Skydance secured stack, any rating action), launched 10:1x ET; CORAL on 008 (Valkaria 24.69 in; is Brevard in the emergency order?). BRENT answered 013 (0d04288380: graded on 9.194 secondary sources; STEO 2.5 mb/d shut-in CONFIRMED on the level; the 1.36 mb/d produced-not-supplied, about 42M bbl if stored, contests BRENT's "January increment is paper" read before 11/29). VULCAN answered 002 and 003 (72a112145d). FALCON answered 005 (11abbdc7be; routed as 012).
@@ -18,7 +18,7 @@ Updated 2026-11-12T01:08:02Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 8. **WQ-622 combination watch:** WALTER has not set it up; offer stands, Will has not answered.
 9. **X bookmarks:** working on the desktop all session without re-authorization (13 items, last head check 14:31:56Z). Two bookmark posts not opened: the gold chart (no media URL kept) and @OddStats "683.65" (t.co link). Laptop WilliePOwen token state unknown since November 9.
 
-Calendar coverage cutoff: 2026-11-11T15:40:08Z (unchanged: step 7i did not run at the walter-b2 evening boot; the next boot enumerates from here. reboot 7i: window from 13:46:57Z, no release published; Tricolor 341 at 16:00Z not yet elapsed; research/2026-11-11_reboot/CALENDAR-RECONCILIATION.tsv). Prior cutoff 2026-11-11T13:46:57Z (step 7i at the 08:37 ET boot; rows in research/2026-11-11_boot/CALENDAR-RECONCILIATION.tsv: STEO, CoreWeave, TSMC and SoftBank's Tokyo session owner-completed; Siemens Energy and the OPEC MOMR published and routed (002, 001/013); MSCI list, Tricolor 341, FERT DTN not yet elapsed or UNKNOWN). The next boot enumerates from this cutoff. Previous cutoff 2026-11-10T16:44Z.
+Calendar coverage cutoff: 2026-11-12T01:15:19Z (step 7i at the walter-b2 evening session: window from 15:40:08Z, MSCI list routed as 030, Tricolor answered, rest owner rows; research/2026-11-11_evening/CALENDAR-RECONCILIATION.tsv). Prior cutoff 2026-11-11T15:40:08Z (reboot 7i: window from 13:46:57Z, no release published; Tricolor 341 at 16:00Z not yet elapsed; research/2026-11-11_reboot/CALENDAR-RECONCILIATION.tsv). Prior cutoff 2026-11-11T13:46:57Z (step 7i at the 08:37 ET boot; rows in research/2026-11-11_boot/CALENDAR-RECONCILIATION.tsv: STEO, CoreWeave, TSMC and SoftBank's Tokyo session owner-completed; Siemens Energy and the OPEC MOMR published and routed (002, 001/013); MSCI list, Tricolor 341, FERT DTN not yet elapsed or UNKNOWN). The next boot enumerates from this cutoff. Previous cutoff 2026-11-10T16:44Z.
 
 ## STATUS
 
@@ -35,10 +35,7 @@ Evening: the larger regional-bank group did not follow the six banks that worsen
 ## GAPS
 
 - Card 001 framed production against supply as a source disagreement (corrected by 013, MEMORY #43 n+1). Card 20261108-002's title overstated Abqaiq (corrected by 006). Bookmark images were skipped and opened only at Will's question; card 008 came two hours late (MEMORY #52 n+1). Five earlier corrections were missing their banners (fixed; MEMORY #65 n+1).
-- Card 002 figures from the issuer's release via a Rule 9 helper; PDF tables not read; the Q4 consensus miss is a search-summary figure. Card 003 rests on TrendForce; Commercial Times original unread. Card 007 relays PROME's reader; filings not re-read by WALTER. Card 009 market-share and MoF-stake figures are press relays. Card 011 odds are ORACLE's; futures are vendor last trades, not settlements.
 - Iran sweep access limits: ukmto.org, opec.org, sabq.org and Bloomberg 403; UKMTO 192-26 to 200-26 mostly unseen; SPA original unread. Abqaiq intercept wording settled by FALCON's Anadolu reads, not WALTER's.
-- WALTER typed approximate-minute stamps (15:0xZ) in REGISTRY, STATUS and the MOMR excerpt note: the known convention, date part from commands.
-- DEWEY: 003R PARKED by DEWEY November 4; row stays PARTIAL and the doctor MED stays until it runs (FDIC BankFind 0 Q3 rows against June control 4,313; FFIEC 4,259 of 4,268 is DEWEY's measurement).
 - Final CME certification, direct ICE Brent/TTF settlements and full matched persistence chains remain unavailable. Boundary 8 switches to January November 2 with count restarted. January prices dated October 30 cannot become November 2 observations. WQ-533 vendor permission cannot be extended to WALTER boundary counts.
 - Energy-OAS BAMLH0A0E2Y is an invalid series, confirmed with authenticated positive control; no verified energy feed, not a transient fetch fault. Historical ICE H0EN is a lead only. Worldscale boundary 5 is an uninstrumented/retired lane requiring new registration; HANS T12 is registered non-live, with swapline proxy shelved by WQ-534. CME XEURBI public-history lead still needs retrieval and basis adjudication. No silent broad-HY, ETF or futures proxy.
 
@@ -47,6 +44,8 @@ Six older limit bullets (UNG WQ-573, owner grading, boundary 7, Codex messaging,
 
 
 Fifteen earlier GAPS bullets (November 2 to 9) moved verbatim to research/2026-11-09_laptop-boot/LC-ROTATED.md; they remain binding.
+Three GAPS bullets (morning card 002/003/007/009/011 source limits, typed stamps, DEWEY 003R parked, now RESOLVED) moved verbatim to research/2026-11-11_evening/LC-ROTATED.md at 2026-11-12T01:16:47Z; they remain binding.
+
 
 ## WILL_NEEDS
 
@@ -77,9 +76,14 @@ Tier 2 FULL closeout, walter-b2, evening on the laptop. Prior: FULL 2026-11-11T1
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-12T01:08:02Z",
+  "as_of": "2026-11-12T01:16:38Z",
   "next_review": "2026-11-12",
   "publication": [
+    {
+      "commit": "3b4070afcf87f37bde8553d1ccc73a66c67f3adc",
+      "state": "published",
+      "note": "cards 029 (VIX close under 18) and 030 (MSCI deletes Strategy), evening scan and calendar; safe-push CONFIRMED; also swept PROME's untracked D-parent-paper-holders.md in error (PROME told)"
+    },
     {
       "commit": "f5a0e02520cfcd42eec097574bb0a8e7a53bc19b",
       "state": "published",
@@ -98,99 +102,14 @@ Tier 2 FULL closeout, walter-b2, evening on the laptop. Prior: FULL 2026-11-11T1
     {
       "commit": "44cab8abbf986143dcff41a20fc46527b3365b8f",
       "state": "published",
-      "note": "Reboot cards 016 to 019, handoffs, logs, index, batch BM-20261111-03, bookmark mark, reboot scan and calendar evidence; safe-push CONFIRMED; delivery reconciled at 3a55108b7d"
-    },
-    {
-      "commit": "784691a969223bd880b5bbce7185a3127a3237e8",
-      "state": "published",
-      "note": "WQ-671 A attribution note; safe-push CONFIRMED"
-    },
-    {
-      "commit": "d633894f4b6fd748f26e79c9952d588ed45f948b",
-      "state": "published",
-      "note": "intake HY label strictly above 280; safe-push CONFIRMED"
-    },
-    {
-      "commit": "a7652b1ff8e483fdd5c3b92ff1d9b0057f146f8b",
-      "state": "published",
-      "note": "AI_INFRA_CAPEX review, boot 9/9a; safe-push CONFIRMED"
-    },
-    {
-      "commit": "82e086b2baece8824f6d63e33a0354d82bfb348e",
-      "state": "published",
-      "note": "CLUSTER_TAXONOMY v0.9 five-axis, VULCAN packet; safe-push CONFIRMED"
-    },
-    {
-      "commit": "deb1adcde7afd0fb076e48b0d74652932b521222",
-      "state": "published",
-      "note": "card 020 Ares; safe-push CONFIRMED"
-    },
-    {
-      "commit": "c20545f4013bc2b89a1f0c9ff8615e725cd84244",
-      "state": "published",
-      "note": "Oracle layoffs re-file; safe-push CONFIRMED"
-    },
-    {
-      "commit": "f5e4ddd5c5d6c800756abfe598ee9ee154be76ec",
-      "state": "published",
-      "note": "review wording per CATO MW3; safe-push CONFIRMED"
-    },
-    {
-      "commit": "a3e13d48b08b433e57a03770f43f021f7f61c20c",
-      "state": "published",
-      "note": "lane GPU headline list; safe-push CONFIRMED"
-    },
-    {
-      "commit": "51f93609ffeb80e265378aa45b6770ae146c6f69",
-      "state": "published",
-      "note": "GPU_FINANCE_REVIEW queue; safe-push CONFIRMED"
-    },
-    {
-      "commit": "dc4524b8a15eb7b5e00a0420b1b1480f47dbc6b9",
-      "state": "published",
-      "note": "card 021 GPU loans in ABS, backlog triage; safe-push CONFIRMED"
-    },
-    {
-      "commit": "a34c796f9df12a9c4afef017d246fbed8ee6288e",
-      "state": "published",
-      "note": "card 022 N-able, calendar flags; safe-push CONFIRMED"
-    },
-    {
-      "commit": "7c7c5083d98f93faef8e0d03521350ae3e95b4b4",
-      "state": "published",
-      "note": "bank and vendor retrospective record; safe-push CONFIRMED"
-    },
-    {
-      "commit": "4d8eabff5cb48fbc72b7363c34c64eac90ad2531",
-      "state": "published",
-      "note": "retrospective completion packet to PROME; safe-push CONFIRMED"
-    },
-    {
-      "commit": "9d505448bbff93c99abcc1a126f1ae8db5009070",
-      "state": "published",
-      "note": "card 023 fiber, five-batch re-read; safe-push CONFIRMED"
-    },
-    {
-      "commit": "8bf3227a2599dba10b1a2e4b7a3e1d3e03769e04",
-      "state": "published",
-      "note": "news catch-up repair, FINAL: PASS; safe-push CONFIRMED"
-    },
-    {
-      "commit": "90507fdf16fba374e258f019c56fbed421c54836",
-      "state": "published",
-      "note": "WQ-676 completion packet; safe-push CONFIRMED"
-    },
-    {
-      "commit": "82a09ce4233de582c1f070b8e1f3d1978c72d55e",
-      "state": "published",
-      "note": "CLAUDE.md 7e(e) --mark --through; safe-push CONFIRMED"
+      "note": "18 afternoon publication entries (reboot cards 016 to 019 through the CLAUDE.md 7e(e) change, 44cab8abbf to 82a09ce423) moved verbatim to research/2026-11-11_evening/LC-ROTATED.md at 2026-11-12T01:16:38Z; this is the first of them"
     }
   ],
   "delivery": {
     "signal_date": "20261111",
-    "total": 116,
-    "delivered": 116,
-    "note": "100 handoff rows for cards 001 to 023 plus 16 for 024 to 028, all delivered on origin (reconcile after f5a0e02520: 16 flipped); recipient use separate. 027 is BOARD and route_log only: DEWEY and PROME wrote every recipient copy. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
+    "total": 122,
+    "delivered": 122,
+    "note": "100 handoff rows for cards 001 to 023 plus 16 for 024 to 028 and 6 for 029 and 030, all delivered on origin (reconcile after f5a0e02520: 16 flipped); recipient use separate. 027 is BOARD and route_log only: DEWEY and PROME wrote every recipient copy. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -218,6 +137,14 @@ Tier 2 FULL closeout, walter-b2, evening on the laptop. Prior: FULL 2026-11-11T1
       {
         "path": "AGENTS/WALTER/research/2026-11-11_evening/INTAKE-SCAN.txt",
         "sha256": "a4ab597c9595e59de67677c24cf8b4caf14f915a16acb7f69fac7d56c1157f37"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-11_evening/THRESHOLD-SCAN.md",
+        "sha256": "9312b0673e2911901112e453635bf82c7ea27ed8eda6302ebe3d8427ef978dae"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-11_evening/CALENDAR-RECONCILIATION.tsv",
+        "sha256": "fcbbe8148d658519b51e91d831478677966c05bfacbac611cf765f4c27e7f290"
       }
     ]
   },
@@ -227,13 +154,13 @@ Tier 2 FULL closeout, walter-b2, evening on the laptop. Prior: FULL 2026-11-11T1
     "session": "walter-b2 evening boot on the laptop; routing pass on Will's 19:56 ET go-ahead; Tier 2 FULL closeout; no timer or helper running."
   },
   "manual_duties": {
-    "11": "Cards 024 to 028 published at f5a0e02520; two corrections (024, 025) with R1 rows, banners and derived INDEX markers in the same commit; index regenerated; route_log 5 rows, delivery_log 16 rows, one per (signal, recipient).",
+    "11": "Cards 024 to 028 published at f5a0e02520; two corrections (024, 025) with R1 rows, banners and derived INDEX markers in the same commit; index regenerated; route_log 5 rows, delivery_log 16 rows, one per (signal, recipient). After the closeout: cards 029 and 030 at 3b4070afcf, 6 delivery rows, index regenerated.",
     "13": "REGISTRY: LIQUID and OTTO mirrored from owner headers by script at the closeout stamp; WALTER row by hand; no other owner header newer than its row; Status column not re-graded.",
     "12": "Full: Updated line, BOTTOM LINE evening paragraph (morning paragraph rotated verbatim), NETWORK paragraph regenerated from the refreshed REGISTRY, six November 5 observation rows rotated verbatim to SESSION_LOG, SESSION_LOG entry prepended.",
     "14": "MEMORY #51 n+1 (rename-target pathspec); 24,365 B under the 24,412 B trigger; session notes unchanged.",
     "15": "This file rewritten; replaced blocks rotated verbatim to research/2026-11-11_evening/LC-ROTATED.md; before-image in git history (0d46d973a8).",
     "16": "Exact paths; safe-push; reconcile after publication.",
-    "gaps": "Boot PARTIAL (no threshold scan, calendar, bookmarks); checks runner research/2026-11-11_evening/closeout/checks.json: receipt, read-cap, archives, weekdays, local-memory-lines PASS (MEMORY blank spacer lines removed, 96 lines); orphans advisory clean; REVIEW: basis (boot_basis_check REVIEW REQUIRED, pre-existing, not re-attested), reads (UNKNOWN, attestation date passed, pre-existing), doctor (one MED, CATO receipt, ruled by Will 11/11), ledger-nudge (event-driven logs, absence expected by declaration; kill_log not written: tonight's four kills are date-trap recirculations recorded in BM-20261112-01, not credibility-map kills)."
+    "gaps": "Boot PARTIAL (no threshold scan, calendar, bookmarks); checks runner research/2026-11-11_evening/closeout/checks.json: receipt, read-cap, archives, weekdays, local-memory-lines PASS (MEMORY blank spacer lines removed, 96 lines); orphans advisory clean; REVIEW: basis (boot_basis_check REVIEW REQUIRED, pre-existing, not re-attested), reads (UNKNOWN, attestation date passed, pre-existing), doctor (one MED, CATO receipt, ruled by Will 11/11), ledger-nudge (event-driven logs, absence expected by declaration; kill_log not written: tonight's four kills are date-trap recirculations recorded in BM-20261112-01, not credibility-map kills). After the closeout: X bookmarks blocked (token); commit 3b4070afcf swept one PROME untracked file (PROME acked: its final version, no revert)."
   }
 }
 END_CLOSEOUT_RECEIPT -->

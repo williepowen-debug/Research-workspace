@@ -166,3 +166,106 @@ Boot PARTIAL, closeout FULL. Boot done: sync (no incoming, foreign dirty PROME p
   }
 }
 
+## Receipt publication entries moved at 2026-11-12T01:16:38Z, verbatim
+
+```json
+[
+  {
+    "commit": "44cab8abbf986143dcff41a20fc46527b3365b8f",
+    "state": "published",
+    "note": "Reboot cards 016 to 019, handoffs, logs, index, batch BM-20261111-03, bookmark mark, reboot scan and calendar evidence; safe-push CONFIRMED; delivery reconciled at 3a55108b7d"
+  },
+  {
+    "commit": "784691a969223bd880b5bbce7185a3127a3237e8",
+    "state": "published",
+    "note": "WQ-671 A attribution note; safe-push CONFIRMED"
+  },
+  {
+    "commit": "d633894f4b6fd748f26e79c9952d588ed45f948b",
+    "state": "published",
+    "note": "intake HY label strictly above 280; safe-push CONFIRMED"
+  },
+  {
+    "commit": "a7652b1ff8e483fdd5c3b92ff1d9b0057f146f8b",
+    "state": "published",
+    "note": "AI_INFRA_CAPEX review, boot 9/9a; safe-push CONFIRMED"
+  },
+  {
+    "commit": "82e086b2baece8824f6d63e33a0354d82bfb348e",
+    "state": "published",
+    "note": "CLUSTER_TAXONOMY v0.9 five-axis, VULCAN packet; safe-push CONFIRMED"
+  },
+  {
+    "commit": "deb1adcde7afd0fb076e48b0d74652932b521222",
+    "state": "published",
+    "note": "card 020 Ares; safe-push CONFIRMED"
+  },
+  {
+    "commit": "c20545f4013bc2b89a1f0c9ff8615e725cd84244",
+    "state": "published",
+    "note": "Oracle layoffs re-file; safe-push CONFIRMED"
+  },
+  {
+    "commit": "f5e4ddd5c5d6c800756abfe598ee9ee154be76ec",
+    "state": "published",
+    "note": "review wording per CATO MW3; safe-push CONFIRMED"
+  },
+  {
+    "commit": "a3e13d48b08b433e57a03770f43f021f7f61c20c",
+    "state": "published",
+    "note": "lane GPU headline list; safe-push CONFIRMED"
+  },
+  {
+    "commit": "51f93609ffeb80e265378aa45b6770ae146c6f69",
+    "state": "published",
+    "note": "GPU_FINANCE_REVIEW queue; safe-push CONFIRMED"
+  },
+  {
+    "commit": "dc4524b8a15eb7b5e00a0420b1b1480f47dbc6b9",
+    "state": "published",
+    "note": "card 021 GPU loans in ABS, backlog triage; safe-push CONFIRMED"
+  },
+  {
+    "commit": "a34c796f9df12a9c4afef017d246fbed8ee6288e",
+    "state": "published",
+    "note": "card 022 N-able, calendar flags; safe-push CONFIRMED"
+  },
+  {
+    "commit": "7c7c5083d98f93faef8e0d03521350ae3e95b4b4",
+    "state": "published",
+    "note": "bank and vendor retrospective record; safe-push CONFIRMED"
+  },
+  {
+    "commit": "4d8eabff5cb48fbc72b7363c34c64eac90ad2531",
+    "state": "published",
+    "note": "retrospective completion packet to PROME; safe-push CONFIRMED"
+  },
+  {
+    "commit": "9d505448bbff93c99abcc1a126f1ae8db5009070",
+    "state": "published",
+    "note": "card 023 fiber, five-batch re-read; safe-push CONFIRMED"
+  },
+  {
+    "commit": "8bf3227a2599dba10b1a2e4b7a3e1d3e03769e04",
+    "state": "published",
+    "note": "news catch-up repair, FINAL: PASS; safe-push CONFIRMED"
+  },
+  {
+    "commit": "90507fdf16fba374e258f019c56fbed421c54836",
+    "state": "published",
+    "note": "WQ-676 completion packet; safe-push CONFIRMED"
+  },
+  {
+    "commit": "82a09ce4233de582c1f070b8e1f3d1978c72d55e",
+    "state": "published",
+    "note": "CLAUDE.md 7e(e) --mark --through; safe-push CONFIRMED"
+  }
+]
+```
+
+## GAPS bullets moved at 2026-11-12T01:16:47Z, verbatim
+
+- Card 002 figures from the issuer's release via a Rule 9 helper; PDF tables not read; the Q4 consensus miss is a search-summary figure. Card 003 rests on TrendForce; Commercial Times original unread. Card 007 relays PROME's reader; filings not re-read by WALTER. Card 009 market-share and MoF-stake figures are press relays. Card 011 odds are ORACLE's; futures are vendor last trades, not settlements.
+- WALTER typed approximate-minute stamps (15:0xZ) in REGISTRY, STATUS and the MOMR excerpt note: the known convention, date part from commands.
+- DEWEY: 003R PARKED by DEWEY November 4; row stays PARTIAL and the doctor MED stays until it runs (FDIC BankFind 0 Q3 rows against June control 4,313; FFIEC 4,259 of 4,268 is DEWEY's measurement).
+
