@@ -45,9 +45,18 @@ Tape 09:48 ET (vendor): Nvidia $160.97 (−7.34%; Cboe delayed low $148.80), SPY
 
 **So what:** **the put walls held the opening test and the market bounced off them.** QQQ printed a low of $679.83 in the first minutes (Cboe delayed, $0.17 under the 680 wall) and NDX about 28,019 at 09:33 ET; by 09:48 Nvidia had recovered from −12.8% to −7.3% and the S&P was down only 0.23%. **The Nasdaq now sits at its boundary:** NDX just over its flip (dealers damping), QQQ 5 points under its own (amplifying), so I call no Nasdaq regime. The S&P stays in shallow negative gamma about 0.3% under ~7,626: a move through it switches dealer hedging to damping, with 7,700 the next concentration; a return to the open low reopens the test of 7,500 (1.3% down) and the Nasdaq walls. ⚠️ An opening map is a snapshot (11/11's morning fade reversed by the afternoon). Same-day options flow is not in the open interest, so the bounce itself may be partly 0DTE hedging the map cannot see.
 
-## 3. WALTER lane
+## 3. WALTER lane (drained 09:16 ET; rows in `AGENTS/HENRY/board_log.tsv`, cards in `inbox/WALTER/processed/`)
 
-(pending)
+| Card | Disposition | What I did |
+|---|---|---|
+| 20261112-002 (this card, ACTION) | acted | §§ 1–2 above; STATUS § VIEW 11/12 and § GAMMA MAP; KB ML-HEN-217, ML-HEN-218 |
+| 20261112-003 (correction to 002) | acted | Receipted COR-20261112-03 NO-OP: my read never carried 002's timeline. Read-through: the 11/11 close and the 11/11 open interest both predate the after-hours report, so the whole gap is the news |
+| 20261111-030 (MSCI deletes Strategy) | **deferred** | The card asks for the index-rebalance flow at the 11/30 close. I have no sourced passive-assets figure for Strategy in MSCI USA, and JPMorgan's ~$2.8B was calculated for MSCI's earlier proposal, so any number from me would be invented. I will look again the week of 11/23 if MSCI or a vendor publishes an estimate. It is not an S&P 500 or gamma-map event; LIQUID owns the funding read |
+| 20261111-033 (Altman, QQQ May-2000 pattern) | info-only | My vendor close agrees with WALTER that the pattern did not complete on 11/11 (QQQ 690.38, +2.31%, one +3% day, not two). Altman is VULCAN's and TERRY's |
+| 20261112-001 (claims 200K) | noted | In LABOR's band B. No HENRY row moved |
+| 20261111-029 (VIX 17.49 vendor close) | noted | RED grades FT-06 and RED-29 at VIXCLS. My VIX kill leg (<17) was not fired: 17.49 is 0.49 above |
+
+**Also recorded (no ask):** FRED 11/11 credit, first published: HY 330bp, BB 193bp, **CCC 1,330bp (+19bp), CCC−BB 1,137bp (+26bp)**. The tiers split: the broad index and BB tightened while CCC widened. This is not a high (CCC was 1,356bp on 10/23), and it predates the Nvidia news. FRED has no 11/10 cell. The owners grade it (LIQUID, RED, REGINALD, TERRY, VIOLET).
 
 ## Needs Will
 
