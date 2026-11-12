@@ -67,7 +67,17 @@ REGINALD's >350 ×3 is REGINALD's letter; 330 is under 350 under any dating, so 
   | **November 12, after results** | **about 1,047 (one trade, 10:46 ET)** | DTCC slice 306 |
 
   **Read:** about 50 bp tighter at the same tenor on one trade. Credit's first verdict agrees with the equity bounce (CRWV +24.71% on 11/11), modestly. One print is not a level. The 5-year (December 2031; 1,154 median before results) has not traded yet. **Moves no row:** 069 L2 is a re-widening of more than 100 bp on the 5-year from two quotes; the gate is already 2 of 2 FIRED, and this is a tightening on another tenor. KB-LIQ-073 has no numeric line.
-- Watch continues from slice 307 until 13:05 ET: 5-year CoreWeave or Oracle (December 2031), any Oracle trade with a disseminated spread, or a FRED 11/10 cell.
+- **First Oracle trades with a disseminated spread after CoreWeave's results (poll hit, read 11:58 ET; slices to 386):** 16:47:34Z and 16:47:47Z, **2-year (December 2028) 175 bp** twice (same $66,389 upfront: likely one trade and its clearing leg); 16:47:59Z, **3-year (December 2029) 222 bp**, upfront $161,267. Notional "5,000,000+" (capped). The upfronts are consistent with about $5M at those spreads over the 100 coupon (implied annuity 1.77 and 2.64). Disseminated spreads, no conversion.
+
+  | Oracle | Before results [11/10, REPORT 2026-11-11 §4] | November 12, 11:47 ET |
+  |---|---|---|
+  | 1Y | 108 | — |
+  | 2Y | — (about 163 interpolated, 1Y–3.5Y line) | **175** |
+  | 3Y | — (about 218 interpolated) | **222** |
+  | 3.5Y / 4Y / 4.5Y / 5Y | 246 / 271 / 288 / 300–302 | — |
+
+  **Read:** against a straight-line interpolation of the pre-results curve, Oracle's 2-year and 3-year are flat to about 10 bp wider. Unlike CoreWeave's 4-year (about 50 bp tighter), Oracle's credit has not joined the relief. The interpolation is mine and crude; no like-for-like pre-results tenor exists. **Moves no row:** no LIQUID line keys on Oracle CDS levels; 069 L5 is the ratings ladder.
+- Watch continues from slice 387 until 13:05 ET: a 5-year (December 2031) CoreWeave or Oracle trade, or a FRED 11/10 cell.
 
 ## 3. WALTER cards (six, all consumed)
 
