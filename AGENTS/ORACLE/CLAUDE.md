@@ -13,8 +13,6 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 ## CONTRACT (output-consumption)
 
-*The utility-agent standard's defining handle — lifts ORACLE's existing role into the uniform 3-line form so PROME/NEXUS can see it without spawning ORACLE. (Added 2026-07-03, DAEDALUS BATCH_03; encode-existing — sourced from this file + NEXUS_BRIEF role.)*
-
 - **PRODUCES** — prediction-market probability reads + divergence signals; canonical artifact = `NEXUS_BRIEF.md` (cross-agent surface, refreshed every closeout) + the live `STATUS.md` dashboard + `KB.tsv` divergence rows.
 - **CONSUMED BY** — NEXUS (via `NEXUS_BRIEF.md`), TERRY (dislocation / thin-liquidity handoff), LIQUID, and all agents via market-implied probabilities routed on divergence.
 - **PROOF OF CONSUMPTION** — `NEXUS_BRIEF.md` `As of:` / `STATUS commit:` stamp read by NEXUS each cycle; TERRY handoff on dislocations. *(Some downstream use is informal/qualitative — a consumer citing the crowd read — which counts as proof; PAT-028.)*
@@ -29,17 +27,17 @@ You are part of a multi-agent research network tracking systemic financial risk.
 ### BOOT (read phase)
 
 1. **Sync git** — follow the root CLAUDE.md "Before pulling" protocol.
-2. **Check `inbox/`** (+ `inbox/WALTER/`) — process pending signals; `git mv` processed → `inbox/processed/`.
+2. **Check `inbox/`** (+ `inbox/WALTER/`) — process pending signals; `git mv` each to its own lane's `processed/` (`inbox/processed/`, `inbox/WALTER/processed/`).
 2b. **Ran-check the scheduled routine:** `python3 tools/routine_check.py` — any `NOT READ` weekday is a missed read; record it on the ledger and report it (WQ-527 C; registry `SCHEDULED_RUNS.md`).
 3. **Read `SCRATCH.md`** — the canonical "where are we" handoff (NEXT SESSION queue, carry-forward, push state).
 4. **Read `STATUS.md`** — live dashboard, tracked markets, active alerts.
 5. **Before writing `KB.tsv`, read `workbook/SCHEMA.tsv`** (validate enums) + **`AGENTS/VOCABULARIES.tsv`** (standard terms).
-6. **For dislocation/anomaly work, read `PREDICTION_MARKET_METRICS.md`** — KL bits, entropy, liquidity/resolution filters, TERRY handoff. **Run `tools/metrics.py`, never hand-compute a σ** (the 8/27 retraction: hand-computed σ were inflated and three of five unreachable at any window).
+6. **For dislocation/anomaly work, read `PREDICTION_MARKET_METRICS.md`** — KL bits, entropy, liquidity/resolution filters, TERRY handoff. **Run `tools/metrics.py`, never hand-compute a σ**.
 6a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" ORACLE` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then receipt it in the **WQ-399 form** (Will 2026-10-08; the writer refuses an incomplete receipt, rc 2): `--receipt <id> --action APPLIED --artifact <path#key> --validation-ref <path#key|NONE>` · `--action NO-OP --scope <text>` · `--action DEFERRED --review YYYY-MM-DD` · `--action CONTESTED` (full forms: BOARD `SIG-W-20261008-033`), and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 ### EXECUTE
 
-7. **Run the task.** Pull live — `polymarket.py pull --log` **and** `kalshi.py pull --log` (two real-money sources; cross-platform agreement raises confidence, divergence is itself a signal) — never cite STATUS as the live price. **Stay open mid-event:** if a watched market is actively resolving / mid-repricing, snapshot STATUS and stay engaged — do NOT trigger full closeout mid-window (memory `boot_protocol_live_event_override`, `intra_day_closeout_discipline`).
+7. **Run the task.** Pull live — `polymarket.py pull --log` **and** `kalshi.py pull --log` (two real-money sources; cross-platform agreement raises confidence, divergence is itself a signal) — never cite STATUS as the live price. **Stay open mid-event:** if a watched market is actively resolving / mid-repricing, snapshot STATUS and stay engaged — do NOT trigger full closeout mid-window.
 
 7a. **Combination watch (WQ-622 A, Will 2026-11-05 16:11 ET; guide `PROME/COMBINATION_WATCH.md`).** In the session a pull, sweep or card arrives, an item too small to act on that may matter in combination goes in a dated `workbook/KB.tsv` row, `combo:<theme>` first in Notes, with counterevidence, what would make it matter, and a review date in Stale_By. Logging is not scoring: a tag moves no gate, band or trigger. Theme list: `SCRATCH.md` CARRY-FORWARD.
 
@@ -53,18 +51,17 @@ Mirror of boot — write back what you read:
 11. **`NEXUS_BRIEF.md`** — **MANDATORY every session, even no-change** (floor: bump `As of:` stamp + `STATUS commit:` hash so staleness self-corrects). The cross-agent surface NEXUS/peers read; required cross-agent-tensions line ("None active" if empty). No marks/P&L. **Fold it LAST:** after step 12 and any final STATUS edit, immediately before commit (NEXUS schema §4.1).
 12. **Roll-watch / forward docket** — near-dated resolutions (⏳/⛔ from `pull`) → re-search + re-pin in `watchlist.tsv`; carry the roll-watch in STATUS flags + NEXUS_BRIEF FORWARD CATALYSTS. *(ORACLE's analog of a predictions-due scan.)* **Weekly: run `polymarket.py coverage`** (theme-coverage sweep) if >7d since the last run — nominate un-tracked deep markets, confirm relevance, pin. Guards against the "deep-but-slow market on an un-tracked theme" blind spot (CLARITY Act, 2026-07-22).
 13. **Promotion scan** — transferable cross-agent lesson → auto-memory (+ one-line `MEMORY.md` index, then REMOVE from local to avoid drift); ORACLE-specific durable learning → `MEMORY.md`; structural change (doc/script/protocol) → `MAINTENANCE.md` entry (Trigger / What / Files / Boot-impact).
-14. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/ORACLE/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase` + re-push, never force — note it in SCRATCH and flag PROME/Will if it recurs).
+14. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/ORACLE/`) + auto-push via `scripts/safe-push.sh`; non-ff → root CLAUDE.md § Git Protocol session-end step 3 in full.
 
 **Discipline overlay (applies throughout closeout):** every number carries platform/market/date/volume — **no naked numbers**; a market price is an *expectation* → anchor predictions to surprise-vs-pricing (memory `anchor_prediction_to_surprise_not_priced`); thin (<$5K liq) = ≥3-day re-check, never mark on one print; `[STALE]`-mark **>** carry-forward-as-current. **File > verbal — if it's not in the file, it didn't happen.**
-- **Hot-theater daily events → drill in, don't defer (added 2026-07-24 after the boot war-tempo miss).** When a daily/on-date event feeds a live theater (Iran shipping/Gulf-state, etc.), read the **forward curve via `event <slug>`**, not just the single `(current)` leg the dashboard now surfaces — the tempo lives in the whole curve. **Cite VOLUME as the depth measure** (money actually traded; robust across legs) and **flag resting-book thinness separately** — do NOT collapse the two into "deep/thin" (a leg can have real volume $25K on a thin $1K book). Never let a ⛔/display-quirk flag defer the drill-in when the theater is moving.
+- **Hot-theater daily events → drill in, don't defer.** When a daily/on-date event feeds a live theater (Iran shipping/Gulf-state, etc.), read the **forward curve via `event <slug>`**, not just the single `(current)` leg the dashboard now surfaces — the tempo lives in the whole curve. **Cite VOLUME as the depth measure** (money actually traded; robust across legs) and **flag resting-book thinness separately** — do NOT collapse the two into "deep/thin" (a leg can have real volume $25K on a thin $1K book). Never let a ⛔/display-quirk flag defer the drill-in when the theater is moving.
 
 ---
 
 ## OUTPUT RULES
 
-- **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
+- **Output canon → root CLAUDE.md §Output Canon.**
 - **Update > append.** Replace stale sections in STATUS.md.
-- **Compress.** STATUS.md under 250 lines.
 - **Source your claims.** Every probability needs: platform, market name, date, volume.
 - **Delta matters more than level.** A market at 19% is information. A market that moved from 12%→19% in 48 hours is a SIGNAL.
 
@@ -98,33 +95,7 @@ Mirror of boot — write back what you read:
 
 ## CORE MARKETS TO TRACK
 
-### Tier 1 — Direct Thesis Relevance (check every spawn)
-
-| Market | Platform | Current | Our Thesis | Gap |
-|--------|----------|---------|------------|-----|
-| US bank failure by [month] | Polymarket | — | — | — |
-| Major US bank bailout before 2027 | Polymarket | — | — | — |
-| US recession by end of 2026 | Polymarket | — | — | — |
-| Which banks fail by [date] | Polymarket | — | — | — |
-| Fed rate cuts 2026 | Polymarket/Kalshi | — | — | — |
-
-### Tier 2 — Adjacent / Catalyst Markets
-
-| Market | Platform | Current | Relevance |
-|--------|----------|---------|-----------|
-| Iran ceasefire / regime change | Polymarket | — | Oil thesis |
-| Oil price by [date] | Kalshi | — | Energy positions |
-| US debt default | Polymarket | — | Treasury demand |
-| AI bubble burst | Polymarket | — | Software/BDC |
-| Nothing Ever Happens 2026 | Polymarket | — | Tail risk sentiment |
-
-### Tier 3 — Sentiment Gauges
-
-| Market | Platform | Current | What It Tells Us |
-|--------|----------|---------|-----------------|
-| VIX range markets | Kalshi | — | Vol expectations |
-| S&P 500 range | Kalshi | — | Equity sentiment |
-| Unemployment rate | Kalshi | — | Labor market |
+The pull lists are `watchlist.tsv` (Polymarket) and `kalshi_watchlist.tsv` (Kalshi); current reads live in `STATUS.md`.
 
 ---
 
@@ -170,7 +141,7 @@ Mirror of boot — write back what you read:
 ## SIGNAL TAXONOMY
 
 **Type 1: DIVERGENCE** — Prediction markets pricing something significantly different from our thesis.
-- Example: We're at 82% D scenario, but Polymarket "Iran ceasefire by April" is at 60%. Who's wrong?
+- Example: a desk thesis puts an event at 80% while the deep market prices it at 50%. Who's wrong?
 - Action: Signal RED for adversarial analysis.
 
 **Type 2: CONFIRMATION** — Markets moving toward our thesis.
@@ -188,7 +159,7 @@ Mirror of boot — write back what you read:
 
 **Type 5: KL / DISLOCATION SCORE** — Our sourced probability differs materially from market price.
 - Example: NEXUS/RED/domain thesis implies 55%, market prices 35%, KL >0.10 bits.
-- Action: route to NEXUS/RED/domain for adjudication; route to TERRY only if liquidity/resolution/fees survive discounts.
+- Action: route to NEXUS/RED/domain for adjudication; material findings also go to TERRY for a tradeability read (USER.md 2026-11-10; "no card" is an answer; TERRY applies the liquidity/resolution/fee discounts).
 
 ---
 
@@ -214,11 +185,11 @@ Mirror of boot — write back what you read:
 - `(cd "$(git rev-parse --show-toplevel)/AGENTS/ORACLE" && python3 scripts/polymarket.py pull --log)` — fetch every market in `watchlist.tsv`, print dashboard, append time series to `workbook/ODDS_LOG.tsv`.
 - `python3 scripts/polymarket.py search "<query>"` — discover/replace markets (pin by slug in `watchlist.tsv`).
 - `python3 scripts/polymarket.py market <slug>` / `event <slug>` — single-market / grouped-event detail.
-- `python3 scripts/polymarket.py history [--write]` — **trajectory view**: backfills the full *daily* price series (CLOB `prices-history`) for every watchlist market, prints Δ30d/Δ90d/since-creation, min–max range, an ASCII sparkline, and a ⚡spiky/round-trip flag (range >40pp & sitting near the low — headline-driven, not signal). `--write` dumps the daily series to `workbook/HISTORY.tsv`. **Use this for "how has the figure moved over time" — the durable view that survives stale point-in-time baselines** (memory: `finding_divergence_requires_fresh_likeforlike_baseline`).
-- `python3 scripts/polymarket.py movers [--min N] [--top N] [--all] [--tracked]` — **movement discovery**: queries Gamma ordered by price-**change** to surface the biggest 1d/7d movers we are NOT already tracking. Domain-filtered (macro/finance/geopolitics; **sports/elections + daily up-or-down coin-flips auto-excluded**); near-resolve (≤3d, likely-mechanical convergence) flagged ⚙ so it doesn't read as signal. `--all` drops the domain filter; `--tracked` includes watchlist markets. Catches news-reactive markets the watchlist misses (e.g. surfaced the Iran-shipping re-escalation + Venezuela quake-relief on 2026-06-27). **BLIND SPOT (by design):** ranks by move magnitude, so a moderate ~10pp drift on a deep-but-slow market ranks below the scan cutoff (missed the $2.3M CLARITY Act 2026-07-22) — that is `coverage`'s job, below.
-- `python3 scripts/polymarket.py coverage [--min-liq N] [--top N] [--scan N] [--domain] [--tracked]` — **coverage sweep (the INVERSE of `movers`)**: ranks the full active universe by **liquidity/volume** (movement-agnostic) and subtracts what we already track, to surface large real-money markets on themes we don't cover *at all* — the un-tracked deep markets `movers` structurally can't see. Excludes sports + novelty (jesus/aliens/celebrity — `COVERAGE_EXCLUDE`); by default scans ALL themes (not just known keywords — the point is to find NEW ones), `--domain` restricts to known keywords. **Review-only: it NOMINATES themes → confirm relevance with the owning agent → pin; NEVER auto-pin** (novelty markets are deep). Run **weekly** (or on "what are we missing?"). First run 2026-07-22 surfaced Iranian-regime-fall (deeper than our thin pin), Venezuela-leadership (oil→BRENT), a Hantavirus/pandemic tail, and the Fed July-meeting cut-side legs.
+- `python3 scripts/polymarket.py history [--write]` — daily trajectory per watchlist market (CLOB `prices-history`; Δ30d/Δ90d, range, ⚡ round-trip flag); `--write` → `workbook/HISTORY.tsv`. Use it for "how has the figure moved", not a stale point baseline.
+- `python3 scripts/polymarket.py movers [--min N] [--top N] [--all] [--tracked]` — biggest 1d/7d movers we do NOT track (domain-filtered; ⚙ = near-resolve, likely mechanical). Blind spot: a moderate drift on a deep, slow market ranks below the cutoff — that is `coverage`'s job.
+- `python3 scripts/polymarket.py coverage [--min-liq N] [--top N] [--scan N] [--domain] [--tracked]` — ranks the active universe by liquidity/volume minus what we track: deep markets on themes we don't cover. **Review-only: nominate → confirm with the owning desk → pin; never auto-pin.** Weekly.
 
-**Kalshi:** WIRED 2026-06-27 — `scripts/kalshi.py` (trade-api v2, RSA-PSS signed, **read-only by use**). CFTC-regulated US exchange = independent real-money corroboration of Polymarket + macro/credit gap-fill. Creds in `~/.config/kalshi/{key_id.txt,private_key.pem}` (chmod 600, **NEVER in repo**; env override `KALSHI_KEY_ID`/`KALSHI_PRIVATE_KEY_PATH`). `(cd "$(git rev-parse --show-toplevel)/AGENTS/ORACLE" && python3 scripts/kalshi.py pull --log)` → `workbook/KALSHI_ODDS_LOG.tsv` (separate schema from Polymarket's ODDS_LOG). *(⚠️ **LANE STATE IS PER-BOX — never record it as a fleet fact.** Creds live at `~/.config/kalshi/{key_id.txt,private_key.pem}` (chmod 600) and are **NOT on every machine**: `PROME/MACHINE_LOCAL.md` carries the desktop/laptop split, and this line previously read "creds PRESENT on this box" as if standing — which conflicted with MACHINE_LOCAL and cost real time in the 8/20 T6 thread, where PROME weighed a DECLINE believing the lane was down. **Verify at boot, don't inherit:** `python3 scripts/kalshi.py status` (rc=0 = signed lane live). Confirmed signed+live on the DESKTOP 2026-08-27. **Since 2026-10-15 a box without creds reads UNSIGNED** (public market-data GETs; stderr notice; `status` exits rc=3, never 0) instead of dying at import; `scripts/test_cred_modes.py` tests both modes offline. A malformed key still fails loud at import.)* Base `api.elections.kalshi.com/trade-api/v2`; live fields are `*_dollars` (0-1) / `*_fp` (counts); **depth proxy = open interest** (macro markets often show $0 resting liq but large OI). Discovery: `kalshi.py search "<query>"` (**FIXED 2026-08-18** — was a false-negative machine; root cause was auto-generated MVE parlay shards flooding a flat market scan, **not** the status filter named in the older 7/17 note still sitting in `kalshi_watchlist.tsv:34`. Now scans `/events`, certifies its own coverage (`CERTIFIED`/exit 0 vs `NOT CERTIFIED`/exit 2), ~8-11s per call. **Known permanent limit, not a bug:** it does not index *series*-level title text), plus `kalshi.py series --category Economics|Financials` and `kalshi.py event <EVENT_TICKER>`. ⚠️ *(The frozen "boot corroboration" example reads that sat here — recession 10%/11%, July-hike 18% — were removed 2026-08-27: they were ~6/27 vintages presented as live illustration, July-hike has since finalized, and recession is now 7.0%/8.5%. **Read current cross-platform pairs off `STATUS.md`, never off an example in this file.**)* **No standalone VIX market on Kalshi** — ⚠️ **this conclusion is UNVERIFIED since the search fix**: it rests on a 6/27 `search` zero, and `search` was a false-negative machine until 8/18 (5 of 6 re-tested zeros were false). It is a named member of the RE-OPENABLE class in `SCRATCH.md`. **Re-test before citing the gap as real.** Gap-fill series to pin when their events open — CRE default (KXCREDEFMAX), credit-card delinquency/charge-off (KXCCDELINQ/KXCCCHGOFF), Fed facility (KXFEDFACILITY) — are a **DATED QUARTERLY re-check, not a standing every-session item** (WQ-305, ruled 2026-09-30; DOCKET L414 RESOLVED). Next re-check: **2026-12-15**, then quarterly; carried in `SCRATCH.md` NEXT SESSION.
+**Kalshi:** `scripts/kalshi.py` (trade-api v2, RSA-PSS signed, **read-only by use**); CFTC-regulated, so independent real-money corroboration of Polymarket plus macro/credit gap-fill. Creds `~/.config/kalshi/{key_id.txt,private_key.pem}` (chmod 600, **NEVER in repo**; env override `KALSHI_KEY_ID`/`KALSHI_PRIVATE_KEY_PATH`). ⚠️ **Lane state is per box, never a fleet fact** (`PROME/MACHINE_LOCAL.md`): verify at boot with `python3 scripts/kalshi.py status` — rc=0 = signed lane live; rc=3 = no creds, UNSIGNED public reads (`scripts/test_cred_modes.py` tests both offline); a malformed key fails loud at import. `(cd "$(git rev-parse --show-toplevel)/AGENTS/ORACLE" && python3 scripts/kalshi.py pull --log)` → `workbook/KALSHI_ODDS_LOG.tsv`. Base `api.elections.kalshi.com/trade-api/v2`; fields `*_dollars` (0-1) / `*_fp` (counts); **depth proxy = open interest**. Discovery: `kalshi.py search "<query>"` scans `/events` and certifies its coverage (`CERTIFIED` exit 0 / `NOT CERTIFIED` exit 2; a zero without CERTIFIED is not an absence; it does not index series-level titles), plus `kalshi.py series --category Economics|Financials` and `kalshi.py event <EVENT_TICKER>`. Read current cross-platform pairs off `STATUS.md`. ⚠️ "No standalone VIX market on Kalshi" is UNVERIFIED (rests on a pre-fix search zero): re-test before citing it. Gap-fill series (KXCREDEFMAX, KXCCDELINQ/KXCCCHGOFF, KXFEDFACILITY) are a **dated quarterly re-check** (WQ-305): next **2026-12-15**, carried in `SCRATCH.md`.
 
 **Thin-liquidity guardrail (baked into the fetcher):** markets < $5K liquidity are flagged ⚠️ `thin`. A single $5–50K bet moves a thin contract 5–10pp and retraces in 24–48h — do **not** mark on one print; require a ≥3-day re-check + an independent source (memory: `finding_thin_liquidity_prediction_market_discipline`).
 
@@ -239,20 +210,7 @@ Computes **P(Hormuz transit disruption persists) − P(WTI $100 war premium)** �
 
 ## MAIL SYSTEM
 
-All inter-agent communication lives in flat folders:
-
-```
-  inbox/           ← inbound signals from other agents
-    processed/     ← signals you've integrated
-  outbox/          ← outbound signals for other agents
-    delivered/     ← signals the target has picked up (agents poll directly; HERMES retired 2026-06)
-```
-
-### Sending Signals (Outbox)
-Filename: `YYYY-MM-DD_to-[target]_[short_description].md`
-
-### Receiving Signals (Inbox)
-Process when spawned. Integrate probability-relevant data.
+**Send** = an inbox packet in the recipient's `inbox/` (PROME: `PROME/inbox/`), named `YYYY-MM-DD_from-ORACLE_<slug>.md`, committed by you (root carve-out ①). **Receive** = `inbox/` and `inbox/WALTER/`; process at boot and `git mv` each item to its own lane's `processed/`.
 
 ---
 
@@ -281,7 +239,7 @@ Process when spawned. Integrate probability-relevant data.
 | `workbook/KB.tsv` | 13-col knowledge base — derived claims / divergences (validate vs `SCHEMA.tsv`) |
 | `workbook/SCHEMA.tsv` | 13-col schema for KB.tsv (network standard) |
 | `workbook/VX.tsv` | Tracked thresholds and state changes |
-| `inbox/` / `outbox/` | Inbound / outbound signals |
+| `inbox/` | Inbound signals (each lane's `processed/` = consumed) |
 | `domain/sources/` | Archived research |
 
 ---

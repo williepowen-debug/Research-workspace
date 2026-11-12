@@ -369,3 +369,11 @@ Polymarket slugs **rot**: markets resolve at their end-date and drop off. Every 
 - **`SCHEDULED_RUNS.md`:** Contract 2, Known limits (collision fixed for pushed reads; four residues incl. PROME's cloud-push rebase note), Tests section.
 - **Not changed:** cron line (so `PROME/MACHINE_LOCAL.md` untouched), never-push rule, the four committed files.
 - **Boot-impact:** none (ran-check unchanged).
+
+### 2026-11-12 — charter trims under WQ-678 A (DAEDALUS harness re-test; Will "Lets handle this now" 10:05 ET in this window)
+- **Trigger:** `inbox/processed/2026-11-12_from-DAEDALUS_WQ678-harness-lines.md`; ruling `PROME/proposals/2026-11-12_wq678-RULED.md` (Will 09:59 ET, "677 B and 678 A").
+- **Applied, Changelist A:** A1 (step 14 push-rejection shorthand → root session-end step 3 in full).
+- **Applied, Changelist B:** U-O02 (MAIL SYSTEM → carve-out ① inbox packet; FILES row), U-O03 (each lane's own `processed/`), U-O04 (Kalshi paragraph: incident histories cut; creds, `status` rc, OI depth, search certification, VIX-gap caveat, 12/15 re-check kept), U-O05 (empty Tier tables → pointer to the watchlists), U-O06 (polymarket subcommand docs to one line each; movers blind spot and coverage never-auto-pin kept), U-O07 (TERRY tradeability read unasked, USER.md 11/10), U-O08 (duplicate 250-line rule), U-O09 except the T6 row, U-O10, U-O11.
+- **Declined:** U-O09's `tools/t6_pin.py` FILES row: the tool and ledger still exist and its candle-timestamp caveat applies to any re-point.
+- **Files:** `CLAUDE.md` 29,289 → 24,179 B. No rule, band, threshold or route changed.
+- **Boot-impact:** shorter charter; boot steps unchanged except step 2 now names `inbox/WALTER/processed/`.
