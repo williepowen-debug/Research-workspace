@@ -57,3 +57,10 @@ Top-level `inbox/` held no packets. Corrections check rc 0 after the receipt.
 ## 5. Not read
 
 HENRY's in-flight gamma read and VIOLET's vol read (not in the folder at 09:39 ET; VIOLET's files uncommitted); LIQUID, BOND, ORACLE 11/11 work (none committed); any packet landing after the 9c re-scan in the commit body.
+
+## 6. Post-record corrections (added 2026-11-12T08:49:58-05:00; the rows above are kept as written on 11/11)
+
+- **C3 Saudi:** OPEC MOMR Tables 5-7/5-8 (WALTER card 20261111-013, COR-20261111-13): 10.563 mb/d is Saudi-reported October PRODUCTION; Saudi-reported supply to market 9.203, OPEC secondary sources 9.194, EIA 9.3. The three supply measures agree near 9.2; the C3 split was production versus supply, not two sources disagreeing. BRENT owns which figure travels.
+- **C8 SoftBank:** SAM revalued in full at USD/JPY 158.81 (packet 2026-11-11, commit d346a52192): 22.5% (22.8% with the SB7 settlement), not 22.7%; ABB-inclusive 23.4–23.9%. Nothing crosses 25%; the C8 conclusion is unchanged.
+- **C1 / U1 December pricing owner:** settled by Will, WQ-671 A (2026-11-11 10:51 ET): ORACLE owns venue odds and the futures cross-check. ORACLE's 09:45 ET read: futures +28.9 bp (vendor last trade), Polymarket +25 bp 85.5.
+- **U5 / card 007 Skydance:** about $86.6B is INFERRED total face debt; filed secured instruments about $69.5B, about 80% (WALTER card 20261111-024, PROME report §1, COR-20261111-24). board_log.tsv row of 11/11 for card 007 is retained as history.
