@@ -2125,7 +2125,7 @@ SIG-W-20261109-010-US-China-11-10-clocks-all-re-suspended-to-about-January-10-20
 SIG-W-20261109-011-CORRECTION-card-004-Huang-acknowledged-the-affair-Nvidia-opened-its-own-investigation-Trump-says-FBI-looking-into-it	I	cda99bd7e2b35d10ac22fcfe7c4cec7f416ee4d6
 SIG-W-20261109-012-Small-items-WAL-Q3-Basel-III-disclosure-Russia-diesel-drones-Paraguay-teachers-strike-tungsten-drill-bits-Wyoming-trona-layoffs	O	a9c73a1563d6584797cce0e681877d77324808d8
 SIG-W-20261110-001-October-core-CPI-0.3-met-Wallers-50bp-condition-December-futures-price-more-than-a-full-hike	I	b9f70804184bb0fb9782866b6bf18416bb6c06e2
-SIG-W-20261110-002-NY-Fed-Q3-household-debt-card-flow-into-90-plus-6.87-CRL-33-missed-student-loan-90-plus-10.92	I	1d0d09a10b5285d2c02a3e9d7e32ffb878e48c49
+SIG-W-20261110-002-NY-Fed-Q3-household-debt-card-flow-into-90-plus-6.87-CRL-33-missed-student-loan-90-plus-10.92	I	4832c9b62b8b9b1ba00a47520da24c69618038ca
 SIG-W-20261110-003-China-11-27-export-control-clock-read-at-source-covers-graphite-and-11-10-clocks-graded-YES	I	1905b5dd42630aba10968d4e633de7b8dd5ec9e5
 SIG-W-20261110-004-BROCK-IREN-Mackenzie-loan-a-Microsoft-cut-is-not-a-default-CRMT-eleventh-bridge-to-Nov-12-Cable-One	I	029457c6e28ed3648610c658695d89bc3bbd46c8
 SIG-W-20261110-005-Small-items-November-10-SoftBank-LTV-confirmed-NFIB-97.8-China-PPI-5.7-JGB-30Y-auction-soft-PRED-38-miss	I	bd27f47e288e3426e2259725911a9dafb6628c31
@@ -2143,7 +2143,7 @@ SIG-W-20261111-003-Commercial-Times-via-TrendForce-Nvidia-may-slow-chip-orders-a
 SIG-W-20261111-004-Small-items-Nov-11-VIX-near-18-RED-FT-06-exit-could-complete-today-SoftBank-Tokyo-closed-minus-0.44-SEC-penalties-lowest-since-2008-El-Nino-Florida	I	6645a73660da2e35f8f177887f0702761eeeb596
 SIG-W-20261111-005-Iran-full-sweep-Nov-11-no-ladder-fire-Petroline-targeted-not-shut-Qeshm-hits-Nov-6-and-8-UKMTO-3-sank-unnamed-Hormuz-27-transits-floor-Abqaiq-intercept-not-refound	I	4b3c2a96152a9582d000b6f722c58c0586246b9c
 SIG-W-20261111-006-CORRECTION-card-20261108-002-title-and-ask-said-Abqaiq-missile-intercepted-missile-was-toward-the-Eastern-Province-Abqaiq-had-an-alert-lifted	I	c7165e5adfb62cc96ba3a90508c409cc1554f828
-SIG-W-20261111-007-Skydance-Q3-10Q-post-close-debt-about-86.6B-secured-6B-yearly-interest-covenants-5.50x-3.25x-Ellison-paid-14.85B-for-35pct-no-Musk-entity-named	I	09c7291e26c6d2722c90774ff569de78a89bf4a1
+SIG-W-20261111-007-Skydance-Q3-10Q-post-close-debt-about-86.6B-secured-6B-yearly-interest-covenants-5.50x-3.25x-Ellison-paid-14.85B-for-35pct-no-Musk-entity-named	I	db5ef69b373b2002bc1913d1ff086c84e1db9111
 SIG-W-20261111-008-UPDATE-Florida-Oct-31-Nov-3-rain-statewide-maximum-24.69-inches-Valkaria-Airport-Brevard-NOAA-map-larger-than-Broward-13.49-on-card-1106-006	I	f02a59b97fe082d225c49d90fef2ebb6bab23a6b
 SIG-W-20261111-009-Russia-puts-all-seven-Japan-Tobacco-JTI-companies-under-state-temporary-management-decrees-817-and-832-no-sale-clause-JT-2914-down-28.4pct	I	b5392ab6b6a1a9ff0c228bdff914af410ba7bb5b
 SIG-W-20261111-010-Russia-export-controls-decree-1443-three-month-ban-benzene-toluene-xylenes-phenol-outside-EAEU-and-1457-fertilizer-export-quotas-above-18.8-Mt-Dec-to-May	I	e40de21e8d75713e63150527f032b5fdf31aa55f
@@ -2160,3 +2160,13 @@ SIG-W-20261111-020-Ares-CEO-on-Q3-call-does-not-know-how-to-underwrite-GPU-depre
 SIG-W-20261111-021-GPU-backed-lending-reaches-equipment-ABS-Wingspire-Blue-Owl-OBDC-18pct-AI-cloud-obligors-Stonebriar-Cirrascale-Korean-banks-have-no-GPU-collateral-model-83.1B-not-111B	O	aa14f7ac4d2615d520b0f35a3e845b008db1acf4
 SIG-W-20261111-022-N-able-took-N-central-RMM-offline-worldwide-Nov-9-after-33-alleged-zero-days-Able2Shell-no-exploitation-confirmed-hotfix-pending-missed-by-intake	O	06de8d3ce5d1407e2d91ebe9c760c63a0943e82a
 SIG-W-20261111-023-TrendForce-Oct-19-optical-fiber-shortfall-180M-fiber-km-2026-through-2028-spot-prices-2.8x-to-5x-HDD-shortage-timeline-unsettled-found-in-skipped-batch	O	5f77ca4cf7ccf4e2efac31d5c13182f609e64992
+SIG-W-20261111-024-CORRECTION-card-007-Skydance-86.6B-is-inferred-total-face-debt-not-almost-all-secured-filed-secured-instruments-69.5B-about-80pct	I	c5e8b5c624a9c2df8a3931ee250762837bfbf869
+SIG-W-20261111-025-ERRATUM-card-20261110-002-source-path-for-NY-Fed-HHDC-workbook-is-CARL-2026-11-09_HHDC_prep-figures-unchanged	I	1d8af22815f01c8fe7255323c2f7b3cde813b754
+SIG-W-20261111-026-Houthis-claim-drone-hit-on-a-Yanbu-area-pumping-station-Nov-11-no-Saudi-confirmation-Saudi-intercepts-3-cruise-missiles-2-drones-2-ballistic-alerts-lifted	O	df8bbd61d77e01f8c6e640db431cfbc458f58851
+SIG-W-20261111-027-DEWEY-003R-population-leg-done-larger-band-coverage-up-QoQ-trigger-OFF-smaller-band-down-but-United-Fidelity-69pct-of-it-UFB-capital-7.26pct-Plaza-broker-31pct	I	83d649fbefc5593e2bf4c8ebbaf91fbe5094dbda
+SIG-W-20261111-028-Small-items-evening-Tricolor-341-continued-to-March-17-NY-Fed-auto-90-plus-flow-3.02pct-series-high-Korea-card-delinquency-3.7pct-memory-lead-times-stale-reposts-logged	I	2aba07b4ecdb5578c815b1de4a122913861bc054
+SIG-W-20261111-029-VIX-closed-17.49-on-Nov-11-vendor-below-18-RED-FT-06-exit-run-likely-resets-from-4-of-5-RED-29-likely-fails-VIXCLS-decides-Nov-12	O	3c8455495eb4a2cea0d8e5a85a379f8a70bf7fd7
+SIG-W-20261111-030-MSCI-final-list-Nov-11-deletes-Strategy-from-Large-Cap-plus-Yellow-Cake-Metaplanet-and-3-micro-small-19-on-watchlist-effective-November-review	O	ae6ac94446c1b368b6abb84b0475dd54db50d3ab
+SIG-W-20261111-031-Orlen-terminates-one-of-two-QatarEnergy-LNG-contracts-1-Mtpa-oil-linked-to-2034-over-force-majeure-first-known-buyer-exit-QatarEnergy-silent	O	e24a5567a52f15a3738974174ea12a19989beab1
+SIG-W-20261111-032-Houthis-push-south-in-Lahij-toward-Bab-al-Mandab-camps-DropSite-map-claim-only-and-USS-Theodore-Roosevelt-projected-to-Arabian-Sea-Nov-15-16-OSINT-projection	O	9da91d541aa0ff7eceebfe28c994b96bb82f5df2
+SIG-W-20261111-033-Altman-to-Samsung-AI-demand-double-counted-only-OpenAI-and-Anthropic-drive-growth-fnnews-exclusive-QQQ-2000-pattern-did-not-complete-Mercedes-China-quote-unfound	O	adbd6b6fd5c32cd9fca3f562a6ffa9f8d1fb75e3
