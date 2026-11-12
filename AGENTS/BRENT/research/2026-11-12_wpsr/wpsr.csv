@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Information Administration - Access Restricted</title>
+    <meta name="description" content="Access to this resource is restricted. It may not yet be available or may be outside of a release window.">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #333;
+            background-color: #f7f7f7;
+            -webkit-text-size-adjust: 100%;
+            text-rendering: optimizeLegibility;
+        }
+
+        article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+            display: block;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0 0 0.8em;
+            line-height: 1.2;
+            color: #333;
+        }
+        h1 { font-size: 2em; }
+        h2 { font-size: 1.4em; }
+        h3 { font-size: 1.2em; }
+
+        p {
+            margin: 0 0 1em;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            color: #0066CC;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .content-wrapper {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .eia-banner {
+            background-color: #189BD7;
+            color: #FFFFFF;
+            font-weight: bold;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 1.8em;
+            width: 100%;
+            display: block;
+        }
+
+        .header {
+            padding: 10px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            border: none;
+            margin-left: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .page-content {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .main-column {
+            flex: 2;
+            min-width: 300px;
+        }
+
+        .side-column {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .no-border {
+            border: none !important;
+        }
+
+        .helpful-links li {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+        .helpful-links small {
+            display: block;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .release-info-box {
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .release-info-box p {
+            margin-bottom: 5px;
+        }
+        .release-info-box p strong {
+            font-weight: bold;
+        }
+        .release-info-box #countdown {
+            font-weight: bold;
+            color: #189BD7;
+        }
+
+        @media (max-width: 768px) {
+            .page-content {
+                flex-direction: column;
+                gap: 0;
+            }
+            .main-column, .side-column {
+                flex: none;
+                width: 100%;
+                min-width: unset;
+            }
+            .header img {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-wrapper">
+
+        <header class="header">
+            <a href="https://www.eia.gov">
+                <img src="/eia_logo_print.png" alt="EIA Logo"/>
+            </a>
+        </header>
+
+        <main class="page-content">
+            <div class="main-column">
+                <h1>Access Forbidden</h1>
+                <p><strong>Sorry, access to the page or file you were looking for is forbidden.</strong></p>
+                <p>The content you are trying to access may not yet be available, or it may only be accessible during a specific release window. Please return during an official release period for access.</p>
+
+                <div id="releaseInfoBox" class="release-info-box" style="display:none;">
+                    <h2>Release Countdown</h2>
+                    <p id="releaseTimeET"></p>
+                    <p id="countdown"></p>
+                </div>
+
+                <h2>Helpful Links</h2>
+                <ul class="helpful-links">
+                    <li>
+                        <a href="/index.html">IR Homepage</a>
+                        <small>Return to the main Information Releases website.</small>
+                    </li>
+                    <li>
+                        <a href="/ngs/schedule.html">Weekly Natural Gas Storage Report (WNGSR) Release Schedule</a>
+                        <small>Consult this schedule to determine release dates and times for the WNGSR data and reports.</small>
+                    </li>
+                    <li>
+                        <a href="https://www.eia.gov/petroleum/supply/weekly/schedule.php">Weekly Petroleum Status Report (WPSR) Release Schedule</a>
+                        <small>Consult this schedule to determine release dates and times for the WPSR data and reports.</small>
+                    </li>
+                </ul>
+            </div>
+
+            <aside class="side-column"></aside>
+        </main>
+    </div>
+
+    <script>
+        (function() {
+            function getUrlParameter(name) {
+                name = name.replace(/[\[\]]/g, '\\$&');
+                var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+                var results = regex.exec(location.search);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, ' '));
+            }
+
+            var policyParam = getUrlParameter('Policy');
+            var releaseInfoBox = document.getElementById('releaseInfoBox');
+            var releaseTimeETElement = document.getElementById('releaseTimeET');
+            var countdownElement = document.getElementById('countdown');
+            var releaseStartTimeEpoch = null;
+            var releaseEndTimeEpoch = null;
+
+            if (policyParam) {
+                try {
+                    if (!/^[A-Za-z0-9+/=]+$/.test(policyParam)) {
+                        throw new Error("Invalid Base64 string for policy parameter.");
+                    }
+                    var decodedPolicy = atob(policyParam);
+                    var policyJson = JSON.parse(decodedPolicy);
+
+                    if (policyJson.Statement && policyJson.Statement.length > 0 && policyJson.Statement[0].Condition) {
+                        if (policyJson.Statement[0].Condition.DateGreaterThan && policyJson.Statement[0].Condition.DateGreaterThan['AWS:EpochTime']) {
+                            releaseStartTimeEpoch = parseInt(policyJson.Statement[0].Condition.DateGreaterThan['AWS:EpochTime'], 10);
+                        }
+                        if (policyJson.Statement[0].Condition.DateLessThan && policyJson.Statement[0].Condition.DateLessThan['AWS:EpochTime']) {
+                            releaseEndTimeEpoch = parseInt(policyJson.Statement[0].Condition.DateLessThan['AWS:EpochTime'], 10);
+                        }
+                    }
+
+                    if (releaseStartTimeEpoch && releaseEndTimeEpoch) {
+                        var currentTimeMs = Date.now();
+                        var releaseStartTimeMs = releaseStartTimeEpoch * 1000;
+                        var releaseEndTimeMs = releaseEndTimeEpoch * 1000;
+
+                        if (currentTimeMs >= releaseEndTimeMs) {
+                            releaseInfoBox.style.display = 'none';
+                            return;
+                        }
+
+                        if (currentTimeMs < releaseStartTimeMs) {
+                            releaseInfoBox.style.display = 'block';
+
+                            var releaseStartDateET = new Date(releaseStartTimeMs);
+                            var options = {
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric',
+                                hour: 'numeric',
+                                minute: 'numeric',
+                                second: 'numeric',
+                                timeZone: 'America/New_York',
+                                timeZoneName: 'short'
+                            };
+                            releaseTimeETElement.innerHTML = "<strong>Estimated Release Time (ET): " + releaseStartDateET.toLocaleString('en-US', options) + "</strong>";
+
+                            function updateCountdown() {
+                                var now = Date.now();
+                                var timeDifference = releaseStartTimeMs - now;
+
+                                if (timeDifference > 0) {
+                                    var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+                                    var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                    var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+                                    var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+                                    countdownElement.textContent = "Time until release: " + days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+                                } else {
+                                    clearInterval(countdownInterval);
+                                    countdownElement.textContent = "Release window activated. Refreshing browser in 2 seconds...";
+                                    setTimeout(function() {
+                                        window.location.reload(true);
+                                    }, 2000);
+                                }
+                            }
+
+                            updateCountdown();
+                            var countdownInterval = setInterval(updateCountdown, 1000);
+
+                        } else if (currentTimeMs >= releaseStartTimeMs && currentTimeMs < releaseEndTimeMs) {
+                            releaseInfoBox.style.display = 'block';
+                            releaseTimeETElement.innerHTML = "<strong>Release Window (ET): Open</strong>";
+                            countdownElement.textContent = "The resource is currently available. If you encountered an error accessing it, please refresh your screen.";
+                        }
+                    } else {
+                        releaseInfoBox.style.display = 'none';
+                    }
+
+                } catch (e) {
+                    console.error("Error processing policy:", e);
+                    releaseInfoBox.style.display = 'none';
+                }
+            } else {
+                releaseInfoBox.style.display = 'none';
+            }
+        })();
+    </script>
+</body>
+</html>

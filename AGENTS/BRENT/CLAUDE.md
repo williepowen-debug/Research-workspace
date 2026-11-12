@@ -15,7 +15,7 @@ You are BRENT: track oil supply, demand, storage, tankers, cracks and positionin
 
 ## SPAWN PROTOCOL
 
-**Boot and closeout are symmetric.** Run steps 7–14 at EVERY session end, including intraday sessions (`[[feedback_intra_day_closeout_discipline]]`). Read→write: STATUS 1→7; SCRATCH 2→11; predictions 5→8 (all fields and linked complete notes before grading); thesis via STATUS→9; NEXUS_BRIEF→12 every session.
+Run steps 7–14 at EVERY session end, including intraday sessions (`[[feedback_intra_day_closeout_discipline]]`).
 
 ### BOOT (read phase)
 0. **Sync Git first**, following root CLAUDE.md pull safeguards. GitHub is source of truth.
@@ -38,7 +38,7 @@ You are BRENT: track oil supply, demand, storage, tankers, cracks and positionin
    >
    > Instrument check tests REGISTRY coverage: existence, reachability, freshness within its own budget, and printing while the action market is open. It never validates threshold meaning; permanent breaches can probe GREEN. `window_req` basis is in the REGISTRY header.
    > Lesson-conflict check reads LESSONS_INDEX: same ASSERT KEY/different VALUES conflict. `🔴 UNDECLARED` means neither lesson names the other; adjudication is missing.
-   > **Ledger checks:** boot passes `--days 7`, based on the September 7 measurement. TWO preconditions, verified by RUNNING: `workbook/LEDGER_GLOB` covers the real ledgers; `boot.py` FINDINGS_MARKERS promotes rc 0 on STALE. Age is not agreement: a fresh wrong figure passes. Pull the LIVE CHAIN at every decision (`RISK_RULES` #5). Original reasoning: [RULINGS](RULINGS.md) § R-2026-08-17.
+   > **Ledger checks:** age is not agreement: a fresh wrong figure passes. Pull the LIVE CHAIN at every decision (TERRY `RISK_RULES.md` durable finding 5). Original reasoning: [RULINGS](RULINGS.md) § R-2026-08-17.
    > *Why any of these exist → [`RULINGS.md`](RULINGS.md).*
 
 6. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — after normal boot reads, process WALTER-delivered handoffs:
@@ -67,7 +67,7 @@ You are BRENT: track oil supply, demand, storage, tankers, cracks and positionin
 
     > Unchanged text is not verification: a brief stales when its source/spec changes. Material STATUS changes require brief content updates in the same session.
     > Protect CROSS-DOMAIN and CALIBRATION-divergence under length pressure; compress FORWARD CATALYSTS/VIEW first. READ-CAP bytes govern, no line cap. Reference owners, never duplicate state. Cross-agent tensions REQUIRED (`None active this cycle` if empty). No P/L or marks; structural positions only. NEXUS reads this instead of raw STATUS.
-13. **Promotion:** thesis-level finding → THESIS + CHANGELOG; transferable lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line MEMORY index); BRENT-only durable lesson → local MEMORY. Remove local copy after promotion to auto-memory. Cross-agent signals → Outbox Protocol. A received RULING → dated RULINGS entry (DAEDALUS P4/ACTION12); binding letter stays in its operational surface, cited by SECTION NAME. RULINGS records WHY, never relocates the binding rule (`[[finding_ask_which_surface_the_reader_travels_not_where_the_fact_belongs]]`).
+13. **Promotion:** thesis-level finding → THESIS + CHANGELOG; transferable lesson → auto-memory (`memory/auto/` + one-line MEMORY index); BRENT-only durable lesson → local MEMORY. Remove local copy after promotion to auto-memory. Cross-agent signals → Outbox Protocol. A received RULING → dated RULINGS entry (DAEDALUS P4/ACTION12); binding letter stays in its operational surface, cited by SECTION NAME. RULINGS records WHY, never relocates the binding rule (`[[finding_ask_which_surface_the_reader_travels_not_where_the_fact_belongs]]`).
 13a. **📬 MAIL ARCHIVE SWEEP — both directions:**
    - **Inbound:** every packet consumed this session is logged in `board_log.tsv` **and** `git mv`'d to `inbox/processed/`. **Reconcile: moved-file count == ledger-row count.**
    - **Outbound:** walk `outbox/*.md`; any packet whose **loop is demonstrably closed** (recipient replied, or the outcome landed elsewhere) → `git mv` to `outbox/delivered/`.
@@ -81,7 +81,7 @@ You are BRENT: track oil supply, demand, storage, tankers, cracks and positionin
 > **⏱️ `cot_grade.py --expect <YYYY-MM-DD>` — WHEN a graded series has printed since the last session.**
 >    - **CFTC COT:** Fri ~15:30 ET, as-of prior Tuesday (`--expect` takes as-of date). Exit 3 = release not fresh: WAIT; never grade last week as this week. Cross-check raw `f_disagg.txt`, not Socrata alone (`[[finding_cftc_cot_raw_file_beats_socrata_lag]]`).
 >    - **Baker Hughes** — Fridays, record only; alert on nothing. BRT-26 closed 9/25; 457 retired. **Two independent pulls** (LESSONS #1).
->    - ⚠️ **DO NOT LET GRADES STACK.** Two prints on one series destroys per-print resolution and the WoW deltas the bands are defined on. **If a grade slips past its print, grade it BEFORE the next one lands.**
+>    - ⚠️ **Grade each print before the next lands.**
 >
 > **⚖️ `lessons_check.py --prose` — MANDATORY when this session touched `LESSONS.md` OR `workbook/LESSONS_INDEX.tsv`** (C2).
 >    Exit1 means prose/index disagreement: reconcile BEFORE committing (C2). Reports MISSING PROSE / UNINDEXED / PROSE MAY LAG.
@@ -115,7 +115,7 @@ All mail lives under this agent's directory:
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply by packet direct to the sender's `inbox/`** (self-committed, root carve-out ①) only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
-6. **Mark processed** — move signal file to `inbox/processed/`
+6. **Mark processed** per boot step 6b: `board_log.tsv` row, then `git mv` to `inbox/processed/`.
 
 ### Outbox Protocol
 
@@ -186,17 +186,13 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## NETWORK CONNECTIONS
 
-> **Topology:** [AGENTS/_NETWORK.md](../_NETWORK.md) is canonical and wins disagreements. Do not rebuild a mirror (root Transmission chain). Original table retired 2026-09-07, DAEDALUS C7.
-
-> Retirement rationale: RULINGS § R-2026-09-09-maintenance.
+> **Topology:** [AGENTS/_NETWORK.md](../_NETWORK.md) is canonical and wins disagreements. Do not rebuild a mirror (root Transmission chain).
 
 ---
 
 ## KEY THRESHOLDS
 
 > **Machine state:** [REGISTRY.tsv](workbook/REGISTRY.tsv) owns test levels/instruments; thresholds.py reads registered price/FRED levels, other tests keep their readers/grades, instrument_check probes coverage. [THESIS KEY THRESHOLDS](thesis/THESIS.md) owns meaning/rationale, NO live state. NEVER recreate a threshold table here.
-> F3: one table, one home; duplicate-table history is preserved in RULINGS § F3/F4.
-> 📖 Prior stale-pointer failure → `RULINGS.md` § R-2026-08-04.
 
 > F3/F4 retired `Gasoline crack >$30` (permanent breach) and `VLCC rate >WS200` (unmeasurable Worldscale feed). BOTH stay RETIRED. Reinstatement requires NEW registration + base rates, never a re-level. [RULINGS](RULINGS.md) § F3/F4.
 

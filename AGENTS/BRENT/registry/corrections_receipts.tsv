@@ -36,3 +36,6 @@ receipt_date	correction_id	action	note
 2026-11-08T17:07Z	COR-20261107-02	APPLIED	artifact=AGENTS/BRENT/STATUS.md#November 8 pre-reopen read; validation_ref=AGENTS/FALCON/reports/2026-11-08_wq646-read2.md#1. Qeshm attribution; 
 2026-11-08T17:08Z	COR-20261108-02	APPLIED	artifact=AGENTS/BRENT/reports/2026-11-08_pre-reopen-oil-read.md#Infrastructure-target report; validation_ref=AGENTS/FALCON/reports/2026-11-08_wq646-read2.md#4. WALTER card SIG-W-20261106-056; 
 2026-11-09T17:09Z	COR-20261109-09	NO-OP	scope=BRENT never adopted card 001 wrong limbs. monday_2026-11-09 routine file already carried the Rubio quote as reported and the IRGC claim dated 11/8. No STATUS THESIS or TRACKER line used card 001. Checked 12:1x ET 11/9; 
+2026-11-12T16:55Z	COR-20261111-13	APPLIED	artifact=AGENTS/BRENT/research/2026-11-11_saudi-momr/NOTE.md#8-correction-at-the-primary; validation_ref=NONE; 
+2026-11-12T16:56Z	COR-20261111-06	NO-OP	scope=BRENT live surfaces already carry Eastern Province intercept and Abqaiq alert lifted (combo yanbu-bypass member, board_log 11/11). The 11/8 pre-reopen report is a dated record and its fired-at-Abqaiq wording is superseded by this receipt; 
+2026-11-12T16:56Z	COR-20261112-03	NO-OP	scope=card 20261112-002 chronology (Nvidia CEO exit) was never carried on any BRENT surface. Nvidia is outside the oil domain; 

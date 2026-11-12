@@ -1,0 +1,87 @@
+{
+ "data_week": "2026-11-06",
+ "release": "2026-11-12 12:00 ET (EIA schedule page, Veterans Day)",
+ "capture": "release seen (summary.txt week ending November 06, 2026) at 2026-11-12 12:10:59 EST; poller grep missed the zero-padded day\nfiles saved 2026-11-12 12:11:01 EST",
+ "BRT31": {
+  "basis": {
+   "file": "psw01.xls",
+   "sheet": "Data 2",
+   "column": 27,
+   "series": "WGFUPUS2",
+   "title": "Weekly U.S. Product Supplied of Finished Motor Gasoline  (Thousand Barrels per Day)"
+  },
+  "current_rows": {
+   "2026-11-06": "8767.0",
+   "2026-10-30": "8808.0",
+   "2026-10-23": "8358.0",
+   "2026-10-16": "8982.0"
+  },
+  "base_rows": {
+   "2025-11-07": "9028.0",
+   "2025-10-31": "8874.0",
+   "2025-10-24": "8924.0",
+   "2025-10-17": "8454.0"
+  },
+  "current_avg": "8728.75",
+  "base_avg": "8820.0",
+  "yoy_pct": "-1.034580498866213151927437641723356009070",
+  "qualifying_week_le_-1.5": false,
+  "above_-1.0": false,
+  "revisions_vs_10_28_capture": {},
+  "price_basis": {
+   "file": "eia-retail.xls",
+   "sheet": "Data 3",
+   "column": 1,
+   "series": "EMM_EPMR_PTE_NUS_DPG",
+   "title": "Weekly U.S. Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)"
+  },
+  "price_current": {
+   "2026-11-09": "3.995"
+  },
+  "price_base": {
+   "2025-11-10": "3.056"
+  },
+  "price_yoy_pct": "30.72643979057591623036649214659685863870",
+  "price_below_20": false,
+  "latest_retail_date": "2026-11-09"
+ },
+ "BRT34": {
+  "basis": {
+   "file": "psw01.xls",
+   "sheet": "Data 1",
+   "column": 10,
+   "series": "WDISTUS1",
+   "title": "Weekly U.S. Ending Stocks of Distillate Fuel Oil  (Thousand Barrels)"
+  },
+  "print": "103330.0",
+  "prior_week": "99259.0",
+  "below_95000": false,
+  "distance_to_line": "8330.0"
+ },
+ "context": {
+  "commercial_crude_WCESTUS1": {
+   "level": "414417.0",
+   "wow": "4657.0"
+  },
+  "SPR_WCSSTUS1": {
+   "level": "279535.0",
+   "wow": "-2649.0"
+  },
+  "total_gasoline_WGTSTUS1": {
+   "level": "210757.0",
+   "wow": "1799.0"
+  }
+ },
+ "sha256": {
+  "capture.txt": "809a21a09c0741c8e66170ea650ed084706e672d48b04b25c53be7ce43362d4e",
+  "eia-retail.xls": "397d5495463ada80a8dfc45f0ca29b42c6685cbde6e4a2aa921d0d1a808b853f",
+  "psw01.xls": "429654ca4e1e856fd97d9850ca63efd82b3c7970ffed50df3c8193562a8b98a8",
+  "psw09.xls": "cf25ffbb238971cf1ece9bba4dee2d3383064baf7394e5119ba92fbb6c852956",
+  "summary.txt": "497d821c44dabb51427d07928a6d5a4eb250d319b634edad2215db1b5c345ae5",
+  "table1.csv": "4006615d5fca270dce52f54c42e091ba400ca25e8972ec6449ed2e0ba011fbe1",
+  "table2.csv": "5ab883b5b411326bcc5189ac89bf9df8062d06b44400e841f3e07e8480517eeb",
+  "table4.csv": "7cb750a77c80820fee002a65c579d1067293a3676024dcaae45452e5f2f3294d",
+  "table9.csv": "acedd9b417b1fa5c22db523c4a875bf94504c35506a212820933711e35ad1687",
+  "wpsr.csv": "70fc674ff32291e76f487638c73c0e6ffb3af44c6648b8e39539a54ee29061d5"
+ }
+}
