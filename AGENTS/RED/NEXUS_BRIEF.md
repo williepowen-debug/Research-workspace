@@ -8,7 +8,7 @@
 - ⚠️ **Non-session cells:** FRED carries ICE OAS cells dated 11/11 (HY 330, CCC 1,330, BB 193) on a SIFMA full close with 11/10 absent. RED does not count or cite them as 11/11 sessions; LIQUID owns the 11/10 cell.
 - **Carried from vS62-b:** Oct CPI core +0.3, FT-08 HOLDS (3.66; exits 12/10 only on Nov core ≤0.0); household debt re-spec NOT FIRED (23bp of 100bp), CHG-045 open to 11/17 for Will only (RED: do not reopen); CHG-057 MODERATE, re-review 11/19; CHG-054 MODERATE, 11/30.
 
-**Domain:** Adversarial cross-cutting counter-signal. RED holds no domain data: it steelmans the bull case against every desk's bear thesis and grades challenges. It RECEIVES every desk's STATUS and outbox; it SENDS to PROME (`OUTBOX.md`) and to desks (`challenges/` + inbox packets).
+**Domain:** Adversarial cross-cutting counter-signal. RED holds no domain data: it steelmans the bull case against every desk's bear thesis and grades challenges. It RECEIVES every desk's STATUS and outbox; it SENDS to PROME (`PROME/inbox/` packets) and to desks (`challenges/` + inbox packets).
 **Thesis version:** S63 (2026-11-12, discretionary re-derivation) on S57 (2026-10-28, discretionary) on S56 (pre-stated bank +1) on S55 (FT-02 mechanical). Next discretionary re-derivation: after the 12/04 payrolls or any registered fire.
 
 ---
@@ -41,7 +41,7 @@
 
 | To | Signal | Priority | Mechanism in recipient's domain |
 |----|--------|----------|----------------------------------|
-| **PROME** | S63: FT-06 broke, RED-29 WRONG, net-bear 67 (from 68) | 🟡 | packet `PROME/inbox/2026-11-12_from-RED_S63-ft06-rederivation.md`; OUTBOX -079 |
+| **PROME** | S63: FT-06 broke, RED-29 WRONG, net-bear 67 (from 68) | 🟡 | packet `PROME/inbox/2026-11-12_from-RED_S63-ft06-rederivation.md` |
 
 **WAITING FOR [2026-11-12]:**
 

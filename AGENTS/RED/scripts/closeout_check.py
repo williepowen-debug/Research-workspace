@@ -20,7 +20,8 @@ CHECKS (letters are the spec's):
   d  SCRATCH carries a stamp within 60 min of STATUS's newest stamp (addendum floor A2)
   e  if registry state / VX_HISTORY / STATUS weights changed vs the base ->
      thesis/CHANGELOG.md changed vs the base with its top entry dated today (A4->W3),
-     and OUTBOX.md changed vs the base with its newest entry dated today (A4->W8)
+     and a RED packet in PROME/inbox/ dated today (A4->W8; OUTBOX.md FROZEN 2026-11-12,
+     still accepted for vintages before the freeze)
   f  NEXUS_BRIEF and CALENDAR headers carry the same HOLD / net-bear as STATUS
   g  the existing instruments, delegated: schema_check · gen_trigger_scan --check ·
      read_cap_check --agent RED · STATUS <= 200 lines · review_debt --quiet ·
@@ -361,6 +362,18 @@ def weights_table(status):
     return out
 
 
+def prome_packets(v, today):
+    """RED-authored packets in PROME/inbox/ (any depth: PROME files consumed ones under
+    processed/) whose filename starts with `today` and names RED as sender."""
+    pat = re.compile(r'(^|/)%s_from-RED[_-]' % re.escape(today))
+    if v.at is None:
+        hits = [str(p.relative_to(ROOT)) for p in (ROOT / 'PROME' / 'inbox').rglob('%s_from-RED*' % today)]
+    else:
+        rc, out = git('ls-tree', '-r', '--name-only', v.at, 'PROME/inbox')
+        hits = out.split('\n') if rc == 0 else []
+    return [h for h in hits if pat.search(h)]
+
+
 def check_state_change(v, F, today):
     changed = []
     reg_now, reg_base = v.read('registry/FALSIFICATION_TRIGGERS.tsv'), v.read_base('registry/FALSIFICATION_TRIGGERS.tsv')
@@ -383,13 +396,16 @@ def check_state_change(v, F, today):
         F.append(('e', 'FAIL', '%s changed vs %s but thesis/CHANGELOG.md %s (A4 -> W3 is mandatory)'
                   % (' + '.join(changed), v.base,
                      'is unchanged' if cl_now == cl_base else 'top entry is not dated %s: %r' % (today, (top.group(0)[:70] if top else '')))))
+    # W8 routes to PROME/inbox/ (WQ-678 U-R02, 2026-11-12); OUTBOX.md is FROZEN and is read
+    # only so that vintages before the freeze still grade as they did.
+    pkts = prome_packets(v, today)
     ob_now, ob_base = v.read('OUTBOX.md'), v.read_base('OUTBOX.md')
     first = re.search(r'^## .*$', ob_now or '', flags=re.M)
     ymd = today.replace('-', '')
-    if ob_now is None or ob_now == ob_base or not first or ymd not in first.group(0):
-        F.append(('e', 'FAIL', '%s changed vs %s but OUTBOX.md %s (A4 -> W8 is mandatory; "they already know" is not routing)'
-                  % (' + '.join(changed), v.base,
-                     'is unchanged' if ob_now == ob_base else 'newest entry is not dated %s: %r' % (ymd, (first.group(0)[:70] if first else '')))))
+    legacy_ok = ob_now is not None and ob_now != ob_base and first and ymd in first.group(0)
+    if not pkts and not legacy_ok:
+        F.append(('e', 'FAIL', '%s changed vs %s but no RED packet in PROME/inbox/ is dated %s (A4 -> W8 is mandatory; "they already know" is not routing)'
+                  % (' + '.join(changed), v.base, today)))
     return 'changed vs %s: %s' % (v.base, ', '.join(changed))
 
 
@@ -493,7 +509,7 @@ MANUAL = [
     ('W3', 'the CHANGELOG entry EXPLAINS old view -> new view (e only proves one exists)'),
     ('W6', 'workbook rows carry dated evidence; Flip_If graded against this session\'s data'),
     ('W7', 'transferable lesson -> memory/auto/ + index row (then re-run with --memory-slug)'),
-    ('W8', 'OUTBOX content is routable; NEXUS_BRIEF refreshed LAST before the commit'),
+    ('W8', 'a RED packet in PROME/inbox/ carries the state change; NEXUS_BRIEF refreshed LAST before the commit'),
     ('W9', 'any file/schema/tool/protocol change recorded in MAINTENANCE.md'),
     ('W10', 'safe-push receipt line "Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch)." — the only proof of PUSHED'),
 ]
@@ -545,7 +561,7 @@ def main():
         print('  b  prediction tally x3            %s%s' % (state_of('b'), '   derived %dC/%dW/%dA of %d rows, ACTIVE %s' % (tally[0] + (tally[2], ', '.join(tally[1]))) if tally else ''))
         print('  c  trigger states + header counts %s' % state_of('c'))
         print('  d  SCRATCH addendum floor         %s' % state_of('d'))
-        print('  e  state change -> CHANGELOG+OUTBOX %s   %s' % (state_of('e'), e_note or ''))
+        print('  e  state change -> CHANGELOG+PROME packet %s   %s' % (state_of('e'), e_note or ''))
         print('  f  NEXUS/CALENDAR HOLD, net-bear  %s%s' % (state_of('f'), '   STATUS HOLD %s / net-bear %s' % hb if hb else ''))
         if g_rows:
             print('  g  delegated instruments:')

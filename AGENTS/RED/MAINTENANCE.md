@@ -4,6 +4,15 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S63-b — 2026-11-12 12:10 ET (from `date`; Will 12:08 ET "ok i approve your recs. go ahead")
+
+- **Trigger:** DAEDALUS WQ-678 Changelist B (8 optional trims, Will ruled WQ-678 A 09:59 ET; packet `inbox/processed/2026-11-12_from-DAEDALUS_WQ678-harness-lines.md`). RED recommended 7 apply / 1 decline; Will approved the recommendation.
+- **Applied:** U-R01 boot step 0 reads `git pull --rebase`. U-R02 PROME routing → dated `PROME/inbox/` packet (CONTRACT, W8, WHAT YOU OWN, CROSS-AGENT); also the CONSUMED BY / PROOF lines the packet did not list; `OUTBOX.md` FROZEN with a banner (grep found no reader of it). U-R03 bounce checkpoint: RED's W10 gate skipped, root § Before committing still applies; message file in the scratchpad, not `/tmp`. U-R04 position implications → TERRY as a tradeability read; challenge Action set and COMPELLING row no longer carry Reduce/Exit (line 108 added beyond the packet). U-R05 positions → `FORGE/STATUS.md`. U-R06 200-line cap kept only in W1; root rule #4 and Output Canon restatements struck. U-R08 subagent models → `PROME/ORCHESTRATION_PLAYBOOK.md` § Model tiering (verified L92 carries the rule).
+- **Declined:** U-R07 (the boot→write-back map is navigation, not a rule; it is the one place the read/write-back pairing can be checked at a glance).
+- **Tool:** `scripts/closeout_check.py` (e) now passes A4→W8 on a RED packet in `PROME/inbox/` (any depth) dated today; a changed `OUTBOX.md` with a today entry is still accepted so pre-freeze vintages grade as before. `test_closeout_check.py` +2 assertions pinned to ebe839ffe0. All five `test_*.py` pass.
+- **Files:** `CLAUDE.md`, `OUTBOX.md`, `NEXUS_BRIEF.md`, `STATUS.md`, `scripts/closeout_check.py`, `scripts/test_closeout_check.py`, `registry/basis-hashes.json`, `board_log.tsv`, `MAINTENANCE.md`, `SCRATCH.md`.
+- **Boot-impact:** none to the step set or order. W8 writes a `PROME/inbox/` packet (already practice) instead of an OUTBOX entry.
+
 ## S59 — 2026-11-05 15:07 ET (from `date`; PROME ask on forecast report 1)
 
 - **Trigger:** PROME excluded 23 resolved rows because CORRECT and WRONG could not be read as the event happening.

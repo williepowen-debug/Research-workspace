@@ -87,6 +87,10 @@ T(hn('S53: **net-bear 65 / HOLD 70**, unch. Prior S50: **NO WEIGHT MOVED: HOLD 7
 st = ns['newest_stamp']
 s = st('x 2026-10-14 21:3x ET y 2026-10-15 10:59 ET z 2027-01-11 (horizon)')
 T(s is not None and s.strftime('%Y-%m-%d %H:%M') == '2026-10-15 10:59', 'newest stamp ignores date-only horizons, reads x-minutes', str(s))
+pp, V = ns['prome_packets'], ns['Vintage']
+T(pp(V('ebe839ffe0'), '2026-11-12') == ['PROME/inbox/2026-11-12_from-RED_S63-ft06-rederivation.md'],
+  'prome_packets: S63 packet found at ebe839ffe0 (W8 since WQ-678)')
+T(pp(V('ebe839ffe0'), '2026-11-13') == [], 'prome_packets: no packet for a date without one')
 
 print('— vintages —')
 rc, out = run('--at', '75e1b12b3', '--quiet')

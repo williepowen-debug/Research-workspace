@@ -1,5 +1,7 @@
 # RED OUTBOX
 
+**FROZEN 2026-11-12 — not maintained; nothing reads this file. RED routes to PROME by dated packet in `PROME/inbox/` (CLAUDE.md W8, WQ-678 U-R02, Will-approved 12:08 ET). Entries below are history.**
+
 Write signals here for other agents. *(HERMES retired — the deprecated mail-carrier is gone; delivery is now auto-push + BOARD consumption / recipient `inbox/` lanes. Corrected 2026-07-03, DAEDALUS.)*
 
 ---
