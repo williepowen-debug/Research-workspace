@@ -19,6 +19,7 @@ entities: ["New York Fed", "Household Debt and Credit Report"]
 word_count: 207
 dispatch_note: "CONSUMER_CREDIT row: CARL is action owner and has graded, so no CARL line; backup/info REGINALD and RED carry it. OTTO, BROCK for consumer-lender exposure. Figures relayed from CARL's STATUS, the xlsx not re-read by WALTER."
 ---
+> **Erratum, November 11 — SIG-W-20261111-025:** The Sources path `AGENTS/CARL/research/2026-11-09_owed-rows/raw/HHD_C_Report_2026Q3.xlsx` does not exist; the workbook is at `AGENTS/CARL/research/2026-11-09_HHDC_prep/raw/HHD_C_Report_2026Q3.xlsx`. Every figure on this card holds.
 # NY Fed Q3 household debt: card flow into 90+ days late fell to 6.87%, student-loan 90+ rose to 10.92%; CARL graded CRL-33 MISSED and flagged a kill-rule divergence to PROME
 
 CARL's grade (8298f1f17f; DOCKET L1017), NY Fed Household Debt and Credit Report Q3 2026, released November 10 11:00 ET, file read by CARL.

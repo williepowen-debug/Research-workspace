@@ -1,0 +1,23 @@
+{
+  "baseline_day": "2026-11-11",
+  "consumed": {
+    "gpu:a470d8fc4d4b": {
+      "title": "Why the first GPU financiers are turning to inference chips in a $400 million deal - TechCrunch",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261111-028",
+      "days": [
+        "2026-11-11"
+      ],
+      "closed": "2026-11-12T01:03:28Z"
+    },
+    "gpu:20a47b295899": {
+      "title": "AI Meets Aggressive Accounting at Meta’s Gigantic New Data Center - WSJ",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261111-028",
+      "days": [
+        "2026-11-11"
+      ],
+      "closed": "2026-11-12T01:03:29Z"
+    }
+  }
+}

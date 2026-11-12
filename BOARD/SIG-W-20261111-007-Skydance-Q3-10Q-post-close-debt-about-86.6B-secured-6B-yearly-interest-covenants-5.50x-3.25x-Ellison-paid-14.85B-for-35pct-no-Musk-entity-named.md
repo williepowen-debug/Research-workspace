@@ -20,6 +20,7 @@ word_count: 425
 dispatch_note: "PROME-origin finding handed to WALTER for routing (prome-2b, 09:2x ET 11/11). FUNDING_LIQUIDITY: LIQUID action (leveraged-finance and HY read); BROCK info (Apollo bridge, secured private-credit-style stack); VULCAN info (Oracle ties: $300M cloud agreement); RED and NEXUS info (Ellison theme falsifiers, cross-domain); TERRY info (already holds the read). Figures are the reader's from EDGAR as labelled; WALTER did not re-read the filings. PRIORITY: no registered threshold."
 event_window: "open"
 ---
+> **Correction, November 11 — SIG-W-20261111-024:** "Almost all secured" is wrong. The about $86.6B is INFERRED total face debt (legacy Paramount notes about $14.5B and $2.7B of assumed WBD unsecured notes included); the instruments filed as secured total $69.5B at close, about 80%. The total, the $6B interest, the covenants and every other line of this card hold.
 # Skydance Q3 10-Q (filed November 9): about $86.6B of post-close face debt, almost all secured, about $6B a year of interest, covenants 5.50x and 3.25x; the $47.01B PIPE at $12.00 was syndicated, the Ellison family paid $14.85B for 35.0%; no Musk entity named; no Ellison pledge disclosed but the lock-up allows one
 
 PROME's read of the 10-Q and the November 10 Form 4s (Ellison theme, PROME/themes/ellison/reports/2026-11-11_skydance-q3-10q-read.md, b12bf53fa2). FILED = the filing says it; INFERRED = the reader's arithmetic.
