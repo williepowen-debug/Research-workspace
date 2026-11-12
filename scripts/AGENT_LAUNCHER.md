@@ -305,10 +305,14 @@ new model choices and history format. Agent terminal sessions can remain open.
   New and resumed sessions launch without Telegram channel flags.
 - CARL's specialists use their nested folders. Project folders and startup files
   are checked; the launcher never creates missing desks or substitutes another.
-- The configuration contains 49 launch targets, including GIBBS (Banks & credit),
-  ISHM (Industry & technology), and CYPHER (Geopolitics & cyber). ARCHITECT, CAREER, ZION, and VIRGIL
-  have been removed from the menu; their folders and saved sessions are untouched.
-  Separate projects and Legacy reference are absent from the current categories.
+- The configuration contains 51 launch targets, including GIBBS (Banks & credit),
+  ISHM (Industry & technology), CYPHER and YURI (Geopolitics & cyber), and VIRGIL
+  (Personal learning). ARCHITECT, CAREER and ZION remain removed from the menu;
+  their folders and saved sessions are untouched. Legacy reference is absent.
+  VIRGIL needs its private project at `WILL/private/fellowship/` on each machine.
+  That folder is gitignored: syncing the launcher does not install or transfer
+  VIRGIL's instructions, learning history or conversations. A fresh project starts
+  with **Start**; **Resume** only selects conversations available on that machine.
   Reopen the app after configuration changes to load the updated list.
   It is a personal menu, not a new fleet roster, schedule,
   or grant of launch authority. Existing restrictions, including CREED's manual
