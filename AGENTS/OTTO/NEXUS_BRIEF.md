@@ -4,7 +4,7 @@
 **Domain:** Auto fraud, subprime collateral, conditional financing access and named-counterparty transmission.
 **Thesis version:** v1.6 (2026-11-05), `4e765ec13`.
 **Recent thesis pivots:** s041 (11/05): THESIS v1.6: Carvana DORMANT (registered −40% applied, V5 2→1, composite 33→32); borrower exit relabelled an unverified hypothesis (CATO OT1); the SDT's noise floor withdrawn because the test compares two single months; vintage claim widened past 2022 on Credit Acceptance Q3. Prior: s040 (10/28) SEC closure at Carvana.
-**As of:** 2026-11-11 15:16 ET | STATUS commit: `827ef7b348a272a5a52a16c44c5b71dd71e94bf2`
+**As of:** 2026-11-12 16:54 ET | STATUS commit: `fa7277191c55c1237504febab5092f3e067fcb7a`
 
 ---
 
@@ -14,6 +14,7 @@
 
 | To | Evidence / owner result | Priority | Mechanism and boundary |
 |---|---|---|---|
+| WALTER · CARL · LIQUID · PROME · NEXUS | s045 (11/12): EART 2026-5 absent from its 10/20–11/12 launch window (EDGAR FTS 0 vs control 69); Exeter's ESART 2026-2 launched 9/17 (`SIG-OTTO-WALTER-20261112-*`) | 🟡 | One shelf off its own rhythm, a halt candidate; not lost market access; OTTO-07 unmoved 15%; next check ~11/30. |
 | WALTER · REGINALD · CARL · PROME · NEXUS | s044 (11/11): Tricolor §341 NOT held, continued to 2027-03-17 10:00 CT (Verita Dkt 1496, filed 11/09); NY Fed Q3 auto flow into 90+ 3.0232% (Q2 3.0028), a series high by 2bp, balance $1.734T (`SIG-OTTO-WALTER-20261111-*`) | 🟡 | §341 continuance is administrative, second one; ~3% recovery stands. NY Fed is a four-quarter sum, consistent with the deal panel, colour unchanged; its <620 origination share (16.8%) is not OTTO-10's Equifax measure. A December hike (ORACLE's odds) raises new-deal and warehouse costs, reaches none of OTTO's open predictions. Readout `research/2026-11-11_catchup/READOUT.md` |
 | WALTER · LIQUID · CARL · BROCK · NEXUS | s043 close refresh: Tricolor auction 9,082 vehicles, $63.09M net through 10/31, ties to the old figure at 4/30; Hertz 2021-2 $1,000M at 9/30, was $2,000M | 🟠 | ~3% stands; trustee's $53.78M at 9/30 differs from the auctioneer's sum by $2.53M, unexplained, do not add. Hertz: no amortization event, not fired; why 2021-2 fell is unstated; all $300M of 2021-A Class B holders refused and were replaced at 12.46% (Ex. 10.2); a 12/31 miss resets a scheduled paydown, not a fire; credit read is LIQUID's. Readout `research/2026-11-06_close-refresh/READOUT.md` |
 | REGINALD · NEXUS · PROME | s039 mixed bank-loss aggregate retired; original SDT commentary explicitly corrected | 🟡 | No comparable current767M total: dates/currencies/cases and exposure/commitment/charge-off bases differ. Seven historical observations/unknowns at Phase2 BANK_OBSERVATIONS; REGINALD/WAL own sizing. No rescore. SDT consequence remains original3total; no extra run. |
@@ -39,8 +40,8 @@
 
 | From / source | Input | Expected by | Why it matters | How it changes the read |
 |---|---|---|---|---|
-| BROCK | Car-Mart grade at the 11/12 relief expiry | 11/12 | Conditional accommodation versus durable cure | Consume owner grade before changing V9; silence grades nothing |
-| Existing court sources | Chu suppression ruling (reserved since 10/9); Caproni ruling on the James adjournment (opposition ECF 166/167 filed); FB hearings 11/16–11/18 incl. D&O | ~11/13, 11/16–11/18 checks | Recovery/discovery perimeter; V3 trigger | A verified order can move case interpretation; hearing titles cannot |
+| BROCK | Car-Mart grade after the 11/12 relief expiry (NOT GRADED 11/12, nothing filed through 16:36 ET) | Fri 11/13 ~08:05 ET re-read | Conditional accommodation versus durable cure | Consume owner grade before changing V9; silence grades nothing, so V9 held |
+| Existing court sources | Chu suppression ruling (reserved since 10/9; none public through ECF 198, 11/10); Caproni ruling on the James adjournment (opposition ECF 166/167 filed); FB hearings 11/16–11/18 incl. D&O and the DIP sweep | ~11/20, 11/16–11/18 checks | Recovery/discovery perimeter; V3 trigger | A verified order can move case interpretation; hearing titles cannot |
 | SEC / VRM | Trust V postSeptember30 outcome; next periodic filing | Date unverified | Warehouse-exit prediction | Explicit named lender-side action, not filing-list silence, is the required observation |
 
 ## VIEW
@@ -52,6 +53,7 @@
 
 ## CALIBRATION
 
+- **s045 (11/12, Claude Code):** PROME wake D:L1125. EART 2026-5 graded ABSENT from its modeled window, positive-controlled (0 vs 69); scored as a halt candidate only, OTTO-07 unmoved 15%. CRMT ungraded by BROCK, so V9 held by rule. No probability, colour, threshold or score change.
 - **s044 (11/11, Claude Code):** PROME task D:L133 answered at the primary (Dkt 1496 PDF). No probability, colour, threshold or score change. James filings read at feed-title level only; Chu and EART 2026-5 not checked this session.
 - **s042 (11/06, Claude Code):** OTTO-37 FALSIFIED, Manheim October 206.8 vs 207.0, as-made 60%, Brier 0.36. The row's "no base rate" note was wrong: five of nine 2026 mid-to-final pairs kept the cushion, so 60% was fair. MFIC marks checked at both 10-Qs.
 - **s041 (11/05, Claude Code):** two current estimates moved (OTTO-34 50→85, OTTO-33 60→70; as-made 60 scores both). OTTO-36 and OTTO-37 registered. Measure-design family now six. OTTO's boot brief overstated a "first" crossing; corrected. Cold read found 9 errors in v1.6 before repair; lower cautions remain listed in STALE_PUNCHLIST OT1.
@@ -81,4 +83,4 @@ The ~11/15 SDT is the second observation; decide then whether to propose a redes
 
 ## FORWARD CATALYSTS
 
-Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: BROCK CRMT 11/12; EART 2026-5 window 11/12; Chu check ~11/13; SDT ~11/15; First Brands 11/16–11/18; EART October ~11/30 (OTTO-36); Tricolor sales deadline 11/30; Ares response 11/30; Manheim November 12/07; Tricolor §341 2027-03-17.
+Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: BROCK CRMT re-read 11/13; SDT ~11/15; First Brands 11/16–11/18; Chu check ~11/20; EART October ~11/30 (OTTO-36; EART 2026-5 re-check); OTTO-36 grade 12/04; Tricolor sales deadline 11/30; Ares response 11/30; Manheim November 12/07; Tricolor §341 2027-03-17.
