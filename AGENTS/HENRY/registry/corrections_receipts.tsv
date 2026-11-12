@@ -67,3 +67,4 @@ receipt_date	correction_id	action	note
 2026-11-11T14:09Z	COR-20261111-06	NO-OP	scope=HENRY carried no Abqaiq intercept claim on STATUS, STATUS_COLD, KB or NEXUS_BRIEF. Grep hits only in board_log and a 10/19 research intake note, neither card 20261108-002; 
 2026-11-11T15:53Z	COR-20261111-13	APPLIED	artifact=AGENTS/HENRY/board_log.tsv#SIG-W-20261111-013; validation_ref=NONE; 
 2026-11-11T15:53Z	COR-20261111-14	NO-OP	scope=HENRY carried no SEC penalties figure on any surface. Its board_log row for card 004 covers only the VIX and RED item; 
+2026-11-12T14:16Z	COR-20261112-03	NO-OP	scope=HENRY open read and PROME packet 11/12 did not carry card 002 chronology. Quotes are own Cboe and vendor reads against the 11/11 close, which predates the after-hours report; 
