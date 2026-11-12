@@ -21,7 +21,7 @@
 ## NEXT SESSION (dated, future-verifiable)
 1. **Friday 11/13, 04:00 ET:** IEA OMR November, the second agency. Grade its Q4 balance and January spare against EIA (build 1.47; COPS_OPEC 0.01) and Saudi's stated room (`research/2026-11-11_saudi-momr/NOTE.md` § 8) before the 11/29 OPEC+ letter. Review combo:gulf-flow-basis and combo:paper-physical-gap.
 2. **Friday 11/13:** COT #14, as-of 11/10, `cot_grade.py --expect 2026-11-10`.
-3. **Every session through Friday 11/27, BRT-33:** copy `research/2026-11-11_saudi-momr/pull.py` with the date changed, after about 14:45 ET. Valid 3 of 4; 8 are needed or NO-VERDICT. No window read was taken on 11/12. Read the Thanksgiving 11/26–11/27 schedule when near.
+3. **Every session through Friday 11/27, BRT-33:** copy `research/2026-11-11_saudi-momr/pull.py` with the date changed, after about 14:45 ET. Valid 4 of 5 (11/12 +4.2394, read at closeout from saved bars); 8 are needed or NO-VERDICT. Read the Thanksgiving 11/26–11/27 schedule when near.
 4. **Wednesday 11/18 (modeled; verify at eia.gov):** WPSR week 11/13.
    - BRT-31 week six qualifies if the weekly print is at or under 8,890 kb/d. Week 11/20 then needs 11/13 + 11/20 summed at or under 17,054.
    - BRT-34 second print.

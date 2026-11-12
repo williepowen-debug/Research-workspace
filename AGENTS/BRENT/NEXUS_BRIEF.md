@@ -74,7 +74,7 @@ Rotated: four October 23–26 SENDING rows → [archive](archive/NEXUS_BRIEF_sen
 
 ## NEXT DECISION POINT
 
-IEA OMR Friday 11/13, 04:00 ET: the second agency on spare capacity before the 11/29 OPEC+ letter. COT #14 Friday 11/13. WPSR week 11/13, Wednesday 11/18 (modeled): BRT-31 week six (qualifying at or under 8,890 kb/d) and BRT-34's second print. BRT-33 window every session through 11/27, valid 3 of 4 (8 needed). OPEC MOMR 12/14 (PDF via Will).
+IEA OMR Friday 11/13, 04:00 ET: the second agency on spare capacity before the 11/29 OPEC+ letter. COT #14 Friday 11/13. WPSR week 11/13, Wednesday 11/18 (modeled): BRT-31 week six (qualifying at or under 8,890 kb/d) and BRT-34's second print. BRT-33 window every session through 11/27, valid 4 of 5 (11/12 +4.2394, F-a not crossed; 8 needed). OPEC MOMR 12/14 (PDF via Will).
 
 ## FORWARD CATALYSTS (next 2–4 weeks)
 

@@ -43,6 +43,10 @@ US stocks built across the board in the week to November 6: commercial crude **+
 | gulf-flow-basis | No new member. Next review 11/13 (IEA OMR) |
 | gulf-access-cost | No new member (Black Sea war-risk headline is not the Gulf). Next review 11/19 |
 
+## BRT-33 window, November 12 (taken at closeout on PROME's ask)
+
+`brt33/pull.py` (the 11/11 script with the date changed; raw at `brt33/raw/c1_*.json`, `brt33/window_c1.json`): BZF27 95.8278 − BZH27 91.5884 = **+4.2394** (both legs 2 of 2 bars with positive volume) [EST vendor proxy], read after the window at 15:35:44 EST from saved one-minute bars (the letter settles on bars saved inside the vendor's reach of about 8 days). Not under +3.5000. **Valid session; the count is 4 of 5** (11/6 not measurable; 11/9–11/12 valid). Eight are needed, or NO-VERDICT. F-a not crossed. M1−M2 +2.2877; January 3:2:1 $36.60; December HO−CL crack $91.33 [EST vendor proxy].
+
 ## Limits
 
 Primary EIA files only (ir.eia.gov, eia.gov retail workbook). No consensus read. Weekly product supplied is volatile; single-week moves carry little weight. **Corrected 11/12 12:4x EST (CATO M12-4 via PROME):** an earlier version called week 11/6 holiday-shortened; Veterans Day (11/11) fell after the data week and delayed only the release, so no holiday effect on that week's demand is evidenced. The 14:00 ET time named by PROME is not on EIA's schedule page.
