@@ -16,7 +16,7 @@ No listed instrument carries this exposure in a size worth a card, and the only 
 | 5 | Brokered and retail depositors | FDIC-insured up to limits; brokered roll-over limit is a funding channel for the BANK, not a market | n/a | no instrument |
 | 6 | Other regional banks / KRE | transmission NOT shown (PROME: no outside lender on any filing read; DEWEY 003R: larger band does not follow the six-bank sample, concentration caveat required) | KRE puts exist, but this event gives them no new premise | no card from this event; Will's bank/credit put cluster is already 14 lines (11/11 note) |
 
-**Why the answer is not close.** The bank is the lender, developer, owner and fee-earner inside one family group, with a second sponsor (Birge & Held) that shares its address history. Every layer found so far sits inside that circle. A trade needs a listed party that loses when this goes worse; the two found hold under 1% each, and one is already marked down 40%.
+**Why the answer is not close.** The bank is the lender, developer, owner and fee-earner inside one family group, with a second sponsor (Birge & Held) that shares its address history. Most layers found so far sit inside that circle, but containment is NOT established: 53.6% of origination dollars are unmatched and outside funds hold the parent's notes and preferred (PROME synthesis, "Correction 2026-11-12, second"; reworded here 2026-11-12 evening on that correction and Will's word). No card is a finding about listed instruments, not a finding that the risk is contained. A trade needs a listed party that loses when this goes worse; the two found hold under 1% each, and one is already marked down 40%.
 
 ## What would change it (dated where a date exists)
 
@@ -27,4 +27,4 @@ No listed instrument carries this exposure in a size worth a card, and the only 
 
 ## Logged, not scored
 
-Added to `SIGNALS.tsv` `COMBO-BEAR-PREMISE-EROSION` as a member with both directions: a real multifamily credit loss ($362.5M charge-offs, total capital 7.26% [9/30 Call Report, DEWEY]), and an isolated one (in-house concentration, no outside lender shown [PROME synthesis, INFERRED]). Logging is not scoring. No card, gate, level or threshold changed.
+Added to `SIGNALS.tsv` `COMBO-BEAR-PREMISE-EROSION` as a member with both directions: a real multifamily credit loss ($362.5M charge-offs, total capital 7.26% [9/30 Call Report, DEWEY]), and counterevidence that the loss may sit mostly in-house (concentration, no outside lender shown [PROME synthesis, INFERRED]); containment itself is not established (53.6% of origination dollars unmatched; wording narrowed 2026-11-12 evening on PROME's second correction). Logging is not scoring. No card, gate, level or threshold changed.
