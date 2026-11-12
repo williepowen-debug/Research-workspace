@@ -20,6 +20,8 @@ word_count: 520
 dispatch_note: "Issuer primary read for the resignation (0.95 on the fact; the cause is NOT stated by Nvidia, so any 'affair' or 'spy' link stays the outlets'). Pre-market levels are relays, not certified. Decays at the 09:30 ET open, so routed before it. Iran line is a relayed POTUS post, tape only, carried for FALCON/BRENT. TERRY BOARD-only; RED, PROME pull-complete."
 event_window: "open"
 ---
+> **Correction, November 12 — SIG-W-20261112-003:** the first ouster report was WSJ after hours Wednesday November 11 (Nvidia about 9% lower after hours), not Thursday morning; the 06:00 ET Yahoo entry was a relay. The resignation, the tape and the asks on this card hold.
+
 # Nvidia's board says Jensen Huang has resigned as President, CEO and director, effective immediately; CFO Colette Kress is interim CEO; Q3 results still Tuesday November 17; Nvidia about 10% lower pre-market, Nasdaq futures about 1.2% lower
 
 **What Nvidia itself says** (NVIDIA Newsroom, "NVIDIA Announces CEO Transition", dated November 12, 2026, no clock time; read by WALTER's fetch helper): "NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately." Colette Kress (EVP and CFO) is interim CEO and stays CFO; the board will search internal and external candidates; Harvey C. Jones becomes the first Chair. Chair's line: "we expect the company's operations, customer commitments and product roadmap to continue without interruption." Q3 fiscal 2027 results stay **Tuesday November 17, about 1:20 pm PT**. **No reason is given; the release does not mention the affair, the spy allegation or any investigation; no 8-K is cited; no guidance is reaffirmed.**
