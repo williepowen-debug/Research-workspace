@@ -1,44 +1,45 @@
-# HENRY — 2026-11-11 09:06–15:1x ET, desktop: why futures were up, gamma at the pre-open, the open and 15:12 — CLOSED 15:1x ET on Will's ask
+# HENRY — 2026-11-12 09:0x–16:1x ET: Nvidia CEO resignation, the index and dealer-gamma read through the day — CLOSED 16:1x ET on PROME's ask (Will 16:11 ET)
 
-**RESULT:** The rally was chip and AI-infrastructure led: CoreWeave after its results, and Nvidia rebounding after Tuesday's 5.5% fall. Rates did not help: Treasury futures sold off, and the December Fed meeting still prices a near-certain hike (ORACLE's read: 85.5% quarter point, 11.8% half point or more). The S&P opened just under its gamma flip, the level above which dealer hedging calms moves. It faded to 7,575 by 09:48, then rallied to 7,624 (+1.38%) by 15:12, 4–7 points under a 7,628–7,632 flip where dealer hedging is roughly neutral. None of my forecasts or thresholds fired.
+**RESULT:** Nvidia's CEO resigned before the open, and the S&P took a one-stock hole that broadened by the close. The S&P opened −0.68%, bounced above its dealer flip at 11:08, then gave it back and closed 7,592.40 (−0.35%, vendor 16:06 ET). The average stock fell more (equal weight −0.85%, small caps −1.64%); Nvidia closed −4.34%. **The official 10-year closed at 5.10% (+12bp), over my 5.0% red line,** on a day stocks fell. At the close dealer hedging amplifies moves (about −$20B per 1%) going into Friday's 08:30 PPI. None of my predictions moved. No index line fired: the S&P is 392 pts over its 7,200 yellow line.
 
-**CHANGED:** `STATUS.md` (two 11/11 VIEW blocks, GAMMA MAP, December pricing repointed to ORACLE, pickup list), `STATUS_COLD.md` (ROT-11/11, the 11/10 map verbatim), `MEMORY.md`, this file, `NEXUS_BRIEF.md`, `workbook/KB.tsv` (ML-HEN-215, 216), `workbook/PUBLISHED.tsv` (pre-open and opening maps, wall rows), `board_log.tsv` (23 rows), `registry/corrections_receipts.tsv` (4), `domain/ECON_CALENDAR.md` (UMich sentiment), `research/2026-11-11_futures-up/PREOPEN_READ.md`, inbox moves. One packet to `PROME/inbox/`.
+**CHANGED:** `STATUS.md` (11/12 VIEW and close, GAMMA MAP to the close, rate rows graded on par 11/12, Fri 11/13 pickup, 11/11 blocks rotated) · `STATUS_COLD.md` (§ ROT-11/12-CLOSE) · `MEMORY.md` · this file · `NEXUS_BRIEF.md` · `workbook/PUBLISHED.tsv` (maps at 09:14, 09:48, 11:09, 15:36, 16:06 ET; wall rows) · `workbook/KB.tsv` (ML-HEN-217 to 219) · `workbook/MARKET_DATA.tsv` (11/12 row) · `research/2026-11-12_nvda-ceo/OPEN_READ.md` and `PPI_SCENARIO_MAP.md` · dashboard source and page (v6, same URL) · `memory/auto/reference_henry_operating_dashboard.md`. Packets to `PROME/inbox/` (four) and `AGENTS/WALTER/inbox/` (one, consumed).
 
 ## Session work
 
 | Item | Outcome |
 |---|---|
-| Pre-open map (09:09 ET) | SPX implied ~7,593, 30 pts under the 7,622–7,625 flip, shallow negative; walls 7,500 / 7,700 published (the 11/10 withheld walls superseded). QQQ just under its flip, NDX just over |
-| Opening map (09:49 ET) | SPX 7,575, 46–49 pts under the flip, −$18B / −$22B per 1%: the gap faded where hedging amplifies |
-| 15:12 ET check (not published) | SPX 7,624, at the 7,628–7,632 flip, net about zero; QQQ 691.20 at its flip, horizons split, no regime called |
-| Drivers | Chips +5.2% vs equal weight +0.8% at 15:12; 2Y Treasury futures about +4–5bp at 09:38; December pricing unchanged |
-| Rows graded on their letter | HEN-57 resolved; HEN-58, 60, 61, 63 open, not fired; CYPHER row 9 collapse leg not breached (PANW 1.48 pts behind HACK on 11/10) |
-| WQ-671 A | December Fed pricing on my surfaces now cites ORACLE KB-ORC-133 |
-| Inbox | Drained in three passes; four corrections receipted |
-| UMich sentiment | Dates added to my release calendar from the university's own schedule (WALTER ask) |
+| Pre-open and opening maps | Published 09:14 and 09:48 ET; Nasdaq put walls held the opening test (QQQ low $0.17 under 680) |
+| Flip cross 11:08 ET | Watcher fired; S&P map turned marginal POSITIVE; packet and doorbell to PROME |
+| Close hour 15:36 ET (Will asked) | Back under the flip, NEGATIVE −$21B / −$25B; selling broadened; packet and doorbell to PROME, routed to TERRY |
+| Close 16:06 ET | Published: flip 7,635 / 7,630, −$19.9B / −$21.5B; put wall 7,500 and call wall 7,700 clean at both horizons |
+| Treasury par 11/12 | 10Y 5.10 RED crossed, 2Y 4.86 (RED, 26bp over), 30Y 5.43 ORANGE; to WALTER → SIG-W-20261112-008, ACTION BROCK |
+| PPI scenario map (PROME ask) | Computed gamma at each level 7,200–7,750, hot and cool cases, judgment marked, a falsifier per case |
+| WATCH_FOR | ADOPTED the 64-phrase megacap CEO/CFO-change set (PROME lands it) |
+| Dashboard | v5 at midday, v6 at the close, same URL |
+| Correction | I told you the put wall "tends to act as a floor". On my own model it is where hedging pushes hardest with the move; walls holding is a tendency, not a computed floor. Fixed everywhere |
 
 ## GAPS / still pending
 
-- ⚠️ The 11/11 close was not read. The last tape is 15:12 ET, and whether the S&P closed above or below its flip is unknown.
-- The packet to PROME carried the 09:48 "faded" read. My 15:12 message to prome-2b supersedes that line.
-- Attribution to CoreWeave and Nvidia is the press account plus the cross-section of moves, not a flow measurement. CoreWeave's release was not read.
-- FRED credit for 11/10 did not post today (LIQUID); it moves to Thursday.
-- Operating Dashboard not refreshed. Calendar rebuild owed before 11/20.
+- The VIX close is not logged: the index settles 16:15 ET and my last read was 18.87 at 16:12. FRED VIXCLS confirms it Friday.
+- The S&P close is a vendor quote after the cash close, not FRED-confirmed yet.
+- The gamma map is 11/11 open interest at today's prices (before the Nvidia news). Same-day and closing-auction flow are not in it; the dollar sizes are free-tier estimates.
+- Nvidia's index weight (~7.5%) is assumed, not read from an index provider.
+- D:L490 (Confidence backfill) not started: carried to Friday after PPI, as PROME directed.
 
 ## COMMITS
 
-`18608dfb0c` pre-open map, drivers, inbox · `a97040e5b3` HENRY → PROME packet, opening map · `be5344bf2f` WQ-671 A · `e0b82b5066` six cards, corrections · `02c120e9cb` FRED fill moved · `56414eeaa6` + `b8e037bc1e` UMich calendar · closeout commit "HENRY: 11/11 closeout".
+`16f961e17d` first read and pre-open maps · `655510e4b3` WALTER lane · `b4f1664f19` + `2792724681` + `ae91bd2029` opening packet · `4cc438b9eb` + `cbe75a8e24` flip cross · `54e9318d26` dashboard v5 · `4064c4153d` L490 carry · `ef6595caf0` WATCH_FOR · `791bfc6caa` + `1b2655b223` close-hour read · `1addf906ff` 10Y signal to WALTER · `4caa5af5fe` PPI scenario map · `021592ba4d` dashboard v6 · closeout commit "HENRY: 11/12 closeout".
 
 ## NEXT SESSION FOLLOW-UP
 
-FRED credit Thu 11/12 about 10:10 ET; **producer prices Fri 11/13 08:30 ET (HEN-58)**; Nvidia results Tue 11/17 after the close; Palo Alto Networks row 9 at the 11/18 close; calendar rebuild before 11/20; FOMC Wed 12/9 (HEN-63; market price is ORACLE's).
+**Fri 11/13: pre-open map about 08:00 ET and producer prices (PPI) at 08:30 ET (HEN-58)**; D:L490 by 11/15; Nvidia results Tue 11/17 after the close; Palo Alto row 9 at the 11/18 close; release calendar rebuild before 11/20; FOMC Wed 12/9 (HEN-63; market price is ORACLE's).
 
-## THESIS SNAPSHOT (frozen at close 11/11, 15:12 ET tape)
+## THESIS SNAPSHOT (frozen at close 11/12)
 
-Rates leg hot: core CPI 0.3% three months running, 2Y par 4.73% [11/10] (RED on my band), no par print 11/11 (Veterans Day), December hike near-certain per ORACLE. Equity: SPX 7,624 intraday, −2.5% from its 10/6 peak, 4.0% above its 200-day, under its 50-day 7,672.91; gamma at the flip, about neutral. HY 334bp YELLOW [FRED 11/9], CCC 1,311bp RED. VIX 17.45 intraday.
+Rates are the pressure: 10Y par 5.10% (RED crossed), 2Y 4.86% (RED), 30Y 5.43% (ORANGE), and yields rose on an equity-down day. Equity: S&P 7,592.40, −2.9% from its 10/6 record, 3.4% over its 200-day, under its 50-day; dealer gamma NEGATIVE, 7,500 put wall 1.2% below. Credit (FRED 11/11): HY 330bp YELLOW, CCC 1,330bp RED. VIX about 18.9. AI capex: leadership shock at Nvidia; Q3 results 11/17.
 
 ## WILL_NEEDS
 
-None from this desk. No money moved; no threshold, gate letter, band or card changed.
+None from this desk. No money moved; no threshold, gate, band, prediction or card changed. Tradeability of the negative-gamma read before PPI is TERRY's (PROME routed it).
 
-*Honest scope: all equity and futures quotes are vendor or Cboe delayed, not settlements; the gamma map is a free-tier estimate (sign and flip reliable, dollar sizes not); nothing was read after 15:12 ET.*
+*Honest scope: equity quotes are vendor or Cboe delayed, not settlements; Treasury yields are official par; the gamma map is a free-tier estimate (sign and flip reliable, dollar sizes not); the PPI cases are judgment where marked.*

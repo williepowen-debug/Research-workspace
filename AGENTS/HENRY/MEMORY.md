@@ -53,21 +53,21 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-11 desktop, 09:06–15:1x ET (PROME prome-2b ask, then taps; Claude Code, Opus 5.5). Closed 15:1x ET on Will's ask; last tape 15:12 ET, no close read.
+### CHANGES SINCE — 2026-11-12, 09:0x–16:1x ET (PROME prome-e8 C8 wake, Nvidia CEO card SIG-W-20261112-002, then Will in-session; Claude Code, Opus 5.5, henry-38). Closed 16:1x ET on PROME's ask (Will 16:11 ET).
 
-- **Pre-open map (09:09 ET) and opening map (09:49 ET) published** for SPX, QQQ and NDX; all six walls passed `--both` (SPX 7,500 / 7,700; QQQ 680 / 700; NDX 28,000 / 29,675). The pre-open spot was implied from futures: ES minus the prior-close basis (ES prior = ES / (1 + % change)). Cboe chain spot LAGS after the open (it read 7,600 while vendor read 7,575), so pass `--spot` from vendor at the open.
-- **Story of the day:** a chip and AI-infrastructure rebound (CoreWeave, NVDA). The 09:48 fade under the flip REVERSED by 15:12 (SPX 7,624, at the 7,628–7,632 flip, net about zero; QQQ at its flip with signs split). Lesson: an opening-map "so what" is a snapshot. Say so in the packet, and re-read before closing.
-- **Cboe delayed quotes JSON** (`cdn.cboe.com/api/global/delayed_quotes/quotes/<T>.json`, field `current_price`) gives premarket single-name and ETF prices when yfinance shows 11/10 as stale.
-- **WQ-671 A (Will 10:51 ET 11/11): ORACLE is the one owner of the December Fed meeting market price.** Cite ORACLE's dated read (KB-ORC-133); never publish my own ZQ arithmetic as the price. HEN-63 stays my event row.
-- Inbox drained across three passes (20 WALTER cards, FERT, PROME, WALTER packets); 4 corrections receipted (12, 06, 13 APPLIED, 14). `corrections_boot_check.py --scope` refuses `;`.
-- UMich sentiment added to ECON_CALENDAR (WALTER ask), read at UMich's own PDFs (data.sca.isr.umich.edu, survey-info, docids 79628 and 81621).
-- FRED 11/10 ICE credit did NOT post 11/11 (LIQUID); fill moves to Thu 11/12 about 10:10 ET.
-- Slips: a ugrep complexity error on a HEARTBEAT context pattern (caught: the LESSONS rule applies, so use a plain fixed-string grep).
+- **Four published S&P maps in one day:** pre-open 09:14, open 09:48, flip cross 11:09 (watcher-fired), close-hour 15:36, close 16:06. The read went NEGATIVE → marginal POSITIVE → NEGATIVE (−$20B per 1% at the 7,592 close). Lesson repeated from 11/11: a midday "so what" is a snapshot; say so, and re-read before the close.
+- **Self-correction, Will-facing:** I told Will the put wall "tends to act as a floor". On the free-tier model, dealers are short puts, so near 7,500 hedging pushes WITH the move (computed −$50B / −$61B there, trough −$58B to −$78B at 7,350–7,450). Walls holding is an observed tendency and my judgment, never a computed floor. Corrected in PPI_SCENARIO_MAP.md, dashboard v6 and to Will.
+- **Spot-grid profile:** loop `gamma_flip.py --both --spot X` over levels to get a computed gamma-by-level table (about 3 s per level). It holds IV and open interest fixed, so the far levels are the least reliable.
+- **Treasury par 11/12: 10Y 5.10% crossed RED.** Routed as a fact packet to WALTER (precedent 9/24: no "You send" row, so no registered fire); WALTER made it SIG-W-20261112-008, ACTION BROCK (its VX-BRK-020 rung). 2Y 4.86, 30Y 5.43.
+- **WATCH_FOR ADOPTED (14:3x ET):** WALTER's 64-phrase megacap CEO/CFO-change set, keyed to my put-wall row. This departs from my 11/5 empty-list basis, and the departure is stated in STATUS. PROME lands it.
+- Background pollers worked: the Treasury par CSV loop (10 min) and the SPX price watcher (120 s). Both ended; none running at close.
+- Consumer check: the band 7,500–7,600 is clean fleet-wide and in my own dir; flip 7,632/7,634 → 7,635/7,630 gives only 🟠 bare-needle candidates, inside estimator noise, so no packets.
+- Slip: I estimated 15 min for the dashboard refresh and it took about 45; disclosed.
 
-### NEXT SESSION
+### NEXT SESSION (Fri 11/13, PROME launches fresh about 08:00 ET)
 
-1. **FRED 11/10 and 11/11 HY, BB, CCC Thu 11/12 about 10:10 ET** into the credit table and MARKET_DATA. FRED SP500 and VIXCLS 11/10 and 11/11. The 11/11 close is unread (vendor 15:12 ET SPX 7,624).
-2. **HEN-58 PPI Fri 11/13 08:30 ET (L776)**; expect NONE ≤0.4. Confirm PROME's wake row.
-3. Map pre-open 11/12: the first chain carrying 11/11 trading. SPX is at the flip, so the sign is the question.
-4. ECON_CALENDAR window rebuild before 11/20 (BLS, BEA, Census, Fed, ISM).
-5. HEN-60, HEN-61, HEN-63 (December price = ORACLE's). NVDA results 11/17 after the close; row 9 collapse leg at the 11/18 close. Operating Dashboard stale (HEN-57 and HEN-62 not on it); refresh the SAME URL.
+1. **Pre-open map ~08:00 ET** (implied spot from ES), publish, wall rows by hand. The chain will carry 11/12 open interest.
+2. **HEN-58 PPI 08:30 ET (D:L776)**: grade on the letter (≤0.4 NONE expected, frozen). Read `research/2026-11-12_nvda-ceo/PPI_SCENARIO_MAP.md` first; check each case's falsifier against the tape.
+3. **D:L490** (dated 11/15): do, decline or re-date the H2 Confidence backfill; state it in the Friday packet to PROME citing D:L490. After PPI.
+4. FRED 11/12 SP500, VIXCLS (MARKET_DATA VIX cell blank), HY/BB/CCC. Confirm PROME landed the WATCH_FOR set.
+5. ECON_CALENDAR rebuild before 11/20; NVDA results 11/17 after the close; row 9 at the 11/18 close; MSCI card 030 week of 11/23; FOMC 12/9 (HEN-63; price is ORACLE's).
