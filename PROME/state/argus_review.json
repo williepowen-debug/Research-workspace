@@ -2,8 +2,8 @@
   "schema": 3,
   "verdict": "FROZEN",
   "baseline": "8ac7c902b39ffbf293c870889e2270c8e7cd95d5",
-  "head": "f6bc61ade7da0ec40748024bcf0793a8ff43c6d7",
-  "recorded_at": "2026-11-12T22:08:15.635788+00:00",
+  "head": "32847d7329374c5ba8219799dce5c8667824ad75",
+  "recorded_at": "2026-11-12T22:10:11.888826+00:00",
   "contract": {
     "policy": {
       "language": "argus-path-v1",
@@ -172,7 +172,7 @@
       ]
     },
     "baseline": "8ac7c902b39ffbf293c870889e2270c8e7cd95d5",
-    "anchor": "f6bc61ade7da0ec40748024bcf0793a8ff43c6d7",
+    "anchor": "32847d7329374c5ba8219799dce5c8667824ad75",
     "delivered": {
       ".claude/skills/boot/SKILL.md": {
         "sha256": "5a3f94d9ec619095efe80b9d994a243dbb6eb8ba6723687aa81301365cd5fbb5",
@@ -657,7 +657,7 @@
       },
       "PROME/DOCKET.tsv": {
         "sha256": "d7683e532cf45e3a26c8a651e5177c6dfbdf372763da4099c78a2ed1d5b599af",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; be0cd9ff0 PROME: boot on the laptop, file DEWEY United Fidelity packet, register; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; eb704660c PROME: United Fidelity plan legs B and C returned; Phase 2 not run; da; +31 more PROME commits; pending at freeze",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; be0cd9ff0 PROME: boot on the laptop, file DEWEY United Fidelity packet, register; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; eb704660c PROME: United Fidelity plan legs B and C returned; Phase 2 not run; da; +32 more PROME commits",
         "versions": {
           "db20d63ab7c862cd1ae8e07beefc67ccda4b10bf": "92a3a99ab77c185267fd014775716eff6b78f2c6f92c5f7ee854cc42f8d80999",
           "be0cd9ff0dc89522115d1d5c92aa78d0b461b50e": "b2cab4c58988cf16db8a3cdb186a4f9806e53b4211b3475eb031d97acc3c17ae",
@@ -693,7 +693,8 @@
           "a06779e2d1d1c5b7b91681a183dc73f7b776db24": "4228a2976304e51779c0ee88733b0f23265883ecaa52592e8d13faa7d1158386",
           "a363046b30932cf9be37586a457865a7f6c43634": "a1c22ff9b1f586dd40fd03ad68e975a94cda959b3102a2c651ebd6a4ccca5b84",
           "bf62395313b547e474643b041428fec57558ad88": "82fdc1850182bdd5842b90495faf35a5394cb7caee4f057b70bbdf4e7a6071a9",
-          "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28": "e649ed93dd7e7a1a5da979f4cc9331f506a910ab52ec96ef6b5be09f9a9c5a51"
+          "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28": "e649ed93dd7e7a1a5da979f4cc9331f506a910ab52ec96ef6b5be09f9a9c5a51",
+          "32847d7329374c5ba8219799dce5c8667824ad75": "d7683e532cf45e3a26c8a651e5177c6dfbdf372763da4099c78a2ed1d5b599af"
         }
       },
       "PROME/GATES.tsv": {
@@ -712,7 +713,7 @@
       },
       "PROME/SCRATCH.md": {
         "sha256": "54dc6fe0a04cf94ebd4f5f9e064fb02bad588152273537a17a75c9d327cf4e58",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): c548b66bc PROME: record verified Standard delivery and closeout continuity; db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; be0cd9ff0 PROME: boot on the laptop, file DEWEY United Fidelity packet, register; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; +55 more PROME commits; pending at freeze",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): c548b66bc PROME: record verified Standard delivery and closeout continuity; db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; be0cd9ff0 PROME: boot on the laptop, file DEWEY United Fidelity packet, register; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; +56 more PROME commits",
         "versions": {
           "c548b66bca5b6aa313117c88a06b7bdfcb9958d1": "45dd8135b70bb8399326f4367216d4ef2243671682618fe38adf9dd22a505c89",
           "db20d63ab7c862cd1ae8e07beefc67ccda4b10bf": "89001a8dc36961f3cc8fd8dd7e88e1d9dab6e8b965ebf584fa873c2cbf704e5b",
@@ -772,7 +773,8 @@
           "8f2228d21435025f20a51b152ebe50a5876316c2": "9ae6e5de388584f6a4d170d03d04ce2cb5909d0cff7bb6079e8ce035b6b59177",
           "0efbf1a47b7fa8313b1d4c84bd10a04e1dbe2a34": "62bbcf299c2ca68e2e75bd0ab0dd788a6c043a771c7db6a787326ca313769452",
           "4bb9a60489ca7879b3ca2475298b4cab33790eb6": "afa670e74c6518e59bbf2a1b32ad3bb51a8edf777cff6389d00ba3c5d47eeca3",
-          "8b1b89a9d75362ad321a6295e600d3a074340457": "188a4ccbf7dd17a9b92a7621b5f4e463833a3017ca00ccd227fbdc3ccd12988c"
+          "8b1b89a9d75362ad321a6295e600d3a074340457": "188a4ccbf7dd17a9b92a7621b5f4e463833a3017ca00ccd227fbdc3ccd12988c",
+          "32847d7329374c5ba8219799dce5c8667824ad75": "54dc6fe0a04cf94ebd4f5f9e064fb02bad588152273537a17a75c9d327cf4e58"
         }
       },
       "PROME/STATUS.md": {
@@ -1718,7 +1720,7 @@
       },
       "PROME/state/CALENDAR.md": {
         "sha256": "b926eb9642e63fccf14eacb68d895b097c32f70c34c9066a09b2776aaf882ef0",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; eb704660c PROME: United Fidelity plan legs B and C returned; Phase 2 not run; da; 332ebd0c8 PROME: laptop closeout 11/12 (intra-day, audit deferred): NOW page, se; +27 more PROME commits; pending at freeze",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; eb704660c PROME: United Fidelity plan legs B and C returned; Phase 2 not run; da; 332ebd0c8 PROME: laptop closeout 11/12 (intra-day, audit deferred): NOW page, se; +28 more PROME commits",
         "versions": {
           "db20d63ab7c862cd1ae8e07beefc67ccda4b10bf": "5b2bc101e907105d2132a57210b603b4afdca8480af42eef047d6411d93f0eaa",
           "e871d4f77e65de811a9217cf29a37a121594801f": "74236f8b497a48f7d571cc1e71bde6bbad3594b7f7ca9f4a65a95568ae251b94",
@@ -1750,7 +1752,8 @@
           "c61d08ab56045a679727be1a1182ce7f7f1bd8d1": "c2bf5fb22379ee62125969114cbd58bfc41aad07a1db6dc3a5aed7acc2f16dbc",
           "a06779e2d1d1c5b7b91681a183dc73f7b776db24": "fa9cf13dea431d8c7da047d1b739dd4e9226cd24e76b542f0b1408ee56ccb547",
           "bf62395313b547e474643b041428fec57558ad88": "991585a99b3ef914e7c4d1bb39606b4e1ff36a403d7dc41fbec980af5cb8ce9a",
-          "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28": "39f347ef68cb438f2820c3faa6ba5afbcb7d25b0da996263a1b432800607db41"
+          "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28": "39f347ef68cb438f2820c3faa6ba5afbcb7d25b0da996263a1b432800607db41",
+          "32847d7329374c5ba8219799dce5c8667824ad75": "b926eb9642e63fccf14eacb68d895b097c32f70c34c9066a09b2776aaf882ef0"
         }
       },
       "PROME/state/ORCH_INFLIGHT.md": {
@@ -1907,7 +1910,8 @@
           "07fbc899567cf1ba43b0cabfc75a9da4938e048c": "4f55da3a312867c0ced9e4a9a8c3b62a01efab4e826090d3902d15f7918e35ba",
           "2ce24c7c3e5c6c71777f774ad8324200eacee984": "f02803f77fe055bd7671ca67d1ded693accf7b8fcb80ed0390d2927b20be0e71",
           "24bc64a8a44d8697129ea6ecad5a8e74b9cf1eff": "5a676fa7787bc25d92aaced96d63099ecddd5906f97e7bb5664f04ed4b057c3a",
-          "b1b1395a79b5c4108bf52b30e12ef87a0f41d76f": "1a143187d87bcbc268932121e312947a11623caed73d901f3ac8d06e85b6987f"
+          "b1b1395a79b5c4108bf52b30e12ef87a0f41d76f": "1a143187d87bcbc268932121e312947a11623caed73d901f3ac8d06e85b6987f",
+          "32847d7329374c5ba8219799dce5c8667824ad75": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9"
         }
       },
       "memory/2026-11-11.md": {
@@ -1917,6 +1921,21 @@
           "c548b66bca5b6aa313117c88a06b7bdfcb9958d1": "2ce5f4e729359200cc69d3eccffaafc5c4a11e9872574de866ff2b1053d0319c",
           "db20d63ab7c862cd1ae8e07beefc67ccda4b10bf": "96f8808eb36b47e5a9448d479ec516f05155f504a937c014821445944ed9381e",
           "332ebd0c860169f2014024a4ae4d32723d745e24": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159"
+        }
+      },
+      "PROME/inbox/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": {
+        "sha256": null,
+        "provenance": "WALTER's packet (WALTER 6d6e8e2b4f), consumed by PROME at this closeout and moved byte-identical to processed/ (origin leg)",
+        "versions": {
+          "6d6e8e2b4f89e22d83d2a9b9c58394438b3852d4": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b",
+          "32847d7329374c5ba8219799dce5c8667824ad75": null
+        }
+      },
+      "PROME/inbox/processed/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": {
+        "sha256": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b",
+        "provenance": "WALTER's packet (WALTER 6d6e8e2b4f), consumed by PROME at this closeout and moved byte-identical to processed/ (destination leg); its three asks are the DOCKET row dated 2026-11-16",
+        "versions": {
+          "32847d7329374c5ba8219799dce5c8667824ad75": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b"
         }
       }
     },
@@ -2221,7 +2240,7 @@
     },
     "reused": {}
   },
-  "contract_sha256": "b399c8c61ac2da231e0b247eb3d9bad048dcc807b97b43fdf77e471f9a555827",
+  "contract_sha256": "0520f091329ffa64e30647d8e7f2c37c935672bc610212d6bb12182bf1179e4d",
   "observed": {},
   "inventory": {
     ".claude/skills/boot/SKILL.md": {
@@ -9251,13 +9270,12 @@
         "a06779e2d1d1c5b7b91681a183dc73f7b776db24",
         "a363046b30932cf9be37586a457865a7f6c43634",
         "bf62395313b547e474643b041428fec57558ad88",
-        "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28"
+        "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28",
+        "32847d7329374c5ba8219799dce5c8667824ad75"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "d7683e532cf45e3a26c8a651e5177c6dfbdf372763da4099c78a2ed1d5b599af",
-      "commit_sha256": "e649ed93dd7e7a1a5da979f4cc9331f506a910ab52ec96ef6b5be09f9a9c5a51"
+      "commit_sha256": "d7683e532cf45e3a26c8a651e5177c6dfbdf372763da4099c78a2ed1d5b599af"
     },
     "PROME/GATES.tsv": {
       "commits": [
@@ -9335,13 +9353,12 @@
         "8f2228d21435025f20a51b152ebe50a5876316c2",
         "0efbf1a47b7fa8313b1d4c84bd10a04e1dbe2a34",
         "4bb9a60489ca7879b3ca2475298b4cab33790eb6",
-        "8b1b89a9d75362ad321a6295e600d3a074340457"
+        "8b1b89a9d75362ad321a6295e600d3a074340457",
+        "32847d7329374c5ba8219799dce5c8667824ad75"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "54dc6fe0a04cf94ebd4f5f9e064fb02bad588152273537a17a75c9d327cf4e58",
-      "commit_sha256": "188a4ccbf7dd17a9b92a7621b5f4e463833a3017ca00ccd227fbdc3ccd12988c"
+      "commit_sha256": "54dc6fe0a04cf94ebd4f5f9e064fb02bad588152273537a17a75c9d327cf4e58"
     },
     "PROME/STATUS.md": {
       "commits": [
@@ -9742,13 +9759,12 @@
     },
     "PROME/inbox/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": {
       "commits": [
-        "6d6e8e2b4f89e22d83d2a9b9c58394438b3852d4"
+        "6d6e8e2b4f89e22d83d2a9b9c58394438b3852d4",
+        "32847d7329374c5ba8219799dce5c8667824ad75"
       ],
-      "pending": [
-        " D"
-      ],
+      "pending": [],
       "working_sha256": null,
-      "commit_sha256": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b"
+      "commit_sha256": null
     },
     "PROME/inbox/2026-11-12_from-WALTER_intake-gap-owner-answer.md": {
       "commits": [
@@ -10082,12 +10098,12 @@
       "commit_sha256": "926d9d0a029160c9e07c60b5f4771a2a80ae20567ab09f8ce6d785c32b78bad8"
     },
     "PROME/inbox/processed/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": {
-      "commits": [],
-      "pending": [
-        "R "
+      "commits": [
+        "32847d7329374c5ba8219799dce5c8667824ad75"
       ],
+      "pending": [],
       "working_sha256": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b",
-      "commit_sha256": null
+      "commit_sha256": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b"
     },
     "PROME/inbox/processed/2026-11-12_from-WALTER_intake-gap-owner-answer.md": {
       "commits": [
@@ -10456,13 +10472,12 @@
         "c61d08ab56045a679727be1a1182ce7f7f1bd8d1",
         "a06779e2d1d1c5b7b91681a183dc73f7b776db24",
         "bf62395313b547e474643b041428fec57558ad88",
-        "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28"
+        "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28",
+        "32847d7329374c5ba8219799dce5c8667824ad75"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "b926eb9642e63fccf14eacb68d895b097c32f70c34c9066a09b2776aaf882ef0",
-      "commit_sha256": "39f347ef68cb438f2820c3faa6ba5afbcb7d25b0da996263a1b432800607db41"
+      "commit_sha256": "b926eb9642e63fccf14eacb68d895b097c32f70c34c9066a09b2776aaf882ef0"
     },
     "PROME/state/ORCH_INFLIGHT.md": {
       "commits": [
@@ -10613,13 +10628,12 @@
         "07fbc899567cf1ba43b0cabfc75a9da4938e048c",
         "2ce24c7c3e5c6c71777f774ad8324200eacee984",
         "24bc64a8a44d8697129ea6ecad5a8e74b9cf1eff",
-        "b1b1395a79b5c4108bf52b30e12ef87a0f41d76f"
+        "b1b1395a79b5c4108bf52b30e12ef87a0f41d76f",
+        "32847d7329374c5ba8219799dce5c8667824ad75"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9",
-      "commit_sha256": "1a143187d87bcbc268932121e312947a11623caed73d901f3ac8d06e85b6987f"
+      "commit_sha256": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9"
     },
     "memory/auto/INDEX_COLD.md": {
       "commits": [
@@ -13384,32 +13398,7 @@
       ]
     ]
   },
-  "foreign_at_freeze": {
-    "PROME/inbox/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": {
-      "lane": "EXCLUDED",
-      "snapshot": {
-        "commits": [
-          "6d6e8e2b4f89e22d83d2a9b9c58394438b3852d4"
-        ],
-        "pending": [
-          " D"
-        ],
-        "working_sha256": null,
-        "commit_sha256": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b"
-      }
-    },
-    "PROME/inbox/processed/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": {
-      "lane": "EXCLUDED",
-      "snapshot": {
-        "commits": [],
-        "pending": [
-          "R "
-        ],
-        "working_sha256": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b",
-        "commit_sha256": null
-      }
-    }
-  },
+  "foreign_at_freeze": {},
   "paths": {
     ".claude/skills/boot/SKILL.md": "5a3f94d9ec619095efe80b9d994a243dbb6eb8ba6723687aa81301365cd5fbb5",
     "AGENTS.md": "873bf5665c6a7987a6a779cf78504bb960184f6e5b61b620a0a44c1f172865da",
@@ -13615,10 +13604,12 @@
     "memory/auto/feedback_persistent_desk_windows_tap_not_relaunch.md": "e0498312fb2e24c2316ce60466f4f0943c26de268286e406ea0c7da0d5f04406",
     "memory/auto/feedback_will_sells_or_rolls_before_expiry.md": "7110789c429954ce80aafde46be763573ed56a08c0dfe3a58d7cd08dc9eb627a",
     "memory/2026-11-12.md": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9",
-    "memory/2026-11-11.md": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159"
+    "memory/2026-11-11.md": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159",
+    "PROME/inbox/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": null,
+    "PROME/inbox/processed/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b"
   },
   "candidate": {
-    "sha": "f9c786cd0d0f7dd3551416cd0383404f9a84d34b",
+    "sha": "1d4d74a16880d44262bf1d882bdd8900d04cc12a",
     "ref": "refs/prome/argus-candidate",
     "paths": {
       ".claude/skills/boot/SKILL.md": "5a3f94d9ec619095efe80b9d994a243dbb6eb8ba6723687aa81301365cd5fbb5",
@@ -13825,7 +13816,9 @@
       "memory/auto/feedback_persistent_desk_windows_tap_not_relaunch.md": "e0498312fb2e24c2316ce60466f4f0943c26de268286e406ea0c7da0d5f04406",
       "memory/auto/feedback_will_sells_or_rolls_before_expiry.md": "7110789c429954ce80aafde46be763573ed56a08c0dfe3a58d7cd08dc9eb627a",
       "memory/2026-11-12.md": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9",
-      "memory/2026-11-11.md": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159"
+      "memory/2026-11-11.md": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159",
+      "PROME/inbox/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": null,
+      "PROME/inbox/processed/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b"
     }
   }
 }
