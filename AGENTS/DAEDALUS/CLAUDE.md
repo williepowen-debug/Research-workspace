@@ -38,13 +38,13 @@ When spawned with a task:
 
 0. **Read `OPERATIONS.md` whole** — active charter companion, mandatory at every boot before executing any task.
 1. **Read `STATUS.md`** — your current state, open builds, standing structural debt.
-2. **Read `FLEET_DIRECTORY.md`** — the GENERATED hot index of the maturity map: per agent class · level · confidence · last-scored · what it does · missing/next. **`FLEET_MAP.tsv` is the COLD full register** — it owns the complete Gaps/Next_upgrade text; read it **per-agent on demand** (`grep -P '^AGENT\t' FLEET_MAP.tsv`) when you work that agent, and **whole at a Production Review**. **Cold ≠ unwatched:** `sweeps_due.py`'s SELF-ROW line, the Production Review and the co-registration guard all read FLEET_MAP. ⚠️ **Never hand-edit `FLEET_DIRECTORY.md`; regenerate on every row change (step 7).** *(Story → `archive/CLAUDE_ARCHIVE_2026-09.md` block 4; the EVOLUTION (c) entry it cites now lives at `archive/EVOLUTION_ARCHIVE_2026-09.md` block 1.)*
-3. **Read `PATTERNS_HOT.md`** — the generated one-line index of design lessons dated within a **rolling 45-day window** (+ `[HOT]`-tagged rows). *Apply them; don't re-learn them.* Older rows sit in `PATTERNS_COLD_INDEX.md` (generated, grep on demand, NOT a boot read); full rows from `PATTERNS.tsv` by ID. The byte guard on every boot read is `read_cap_check.py` at closeout (step 9), never this line's promise. *(Story → archive block 5.)*
-3b. **Read `inbox/`** — every packet present, whole; disposition each before idling. *(Encoded 2026-09-17: the read was practice at every session, not a numbered step — a declared perimeter must name it.)*
+2. **Read `FLEET_DIRECTORY.md`** — the GENERATED hot index of the maturity map: per agent class · level · confidence · last-scored · what it does · missing/next. **`FLEET_MAP.tsv` is the COLD full register** — it owns the complete Gaps/Next_upgrade text; read it **per-agent on demand** (`grep -P '^AGENT\t' FLEET_MAP.tsv`) when you work that agent, and **whole at a Production Review**. **Cold ≠ unwatched:** `sweeps_due.py`'s SELF-ROW line, the Production Review and the co-registration guard all read FLEET_MAP. ⚠️ **Never hand-edit `FLEET_DIRECTORY.md`; regenerate on every row change (step 7).**
+3. **Read `PATTERNS_HOT.md`** — the generated one-line index of design lessons dated within a **rolling 45-day window** (+ `[HOT]`-tagged rows). *Apply them; don't re-learn them.* Older rows sit in `PATTERNS_COLD_INDEX.md` (generated, grep on demand, NOT a boot read); full rows from `PATTERNS.tsv` by ID.
+3b. **Read `inbox/`** — every packet present, whole; disposition each before idling.
 4. *(conditional)* **`EVOLUTION.md`** — read only when the task touches the standard itself (blueprint work, gradings against a changed rubric, roadmap questions); skip on routine sweeps/reads.
 5. **Cadence-check** — `python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/daedalus_gate.py" boot` runs steps 5, 5b and 5c (plus git-state and the inbox listing) and records each as CLEAN · DUE · ADVISORY · BLOCKING · UNKNOWN with a receipt (`design/2026-09-17_DAEDALUS_GATE_SPEC.md`); the steps it wraps stay written here as its spec. Bare form: `python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/sweeps_due.py"` (cwd-proof, read-only; also carries the SELF-ROW and DIRECTORY-STALE lines). If a sweep is **DUE**, surface it to Will/PROME. *Detection autonomous; dispositions approval-gated.* Registry: `sweeps/REGISTRY.tsv`; playbooks: `sweeps/`.
-5b. **R1 corrections check** — `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" DAEDALUS` (§9 rc 0/1/2; rc=1 = a NAMED correction is unreceipted: read the pointer, then `--receipt <id> --action <A>` with the fields WQ-399 requires per action (APPLIED `--artifact <path#key> --validation-ref <path#key|NONE>` · NO-OP `--scope <text>` · DEFERRED `--review YYYY-MM-DD`; the writer refuses an incomplete receipt) + commit your receipts file).
-5c. **DOCKET hop check** (gate step B5, added 2026-10-01) — `python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/docket_owed.py"`: every OPEN `PROME/DOCKET.tsv` row whose owner cell names DAEDALUS (past-due, session-keyed, or ≤30d ahead) must be cited `L<n>` in `STATUS.md` (a row whose DAEDALUS owner segment says "informed" is listed, never gating). rc 1 = put each uncited row on the board (act · date · or say why not); a citation is acknowledgement, never completion. *(Why: four rows assigned 9/28–9/29 never reached STATUS — `runs/2026-10-01_DOCKET_OWED_BUILD.md`.)*
+5b. **R1 corrections check** — `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" DAEDALUS`; rc 1 = a named correction is unreceipted: read its pointer, write the receipt with `--receipt <id> --action APPLIED|NO-OP|DEFERRED` (the writer refuses an incomplete receipt), then commit your receipts file.
+5c. **DOCKET hop check** — `python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/docket_owed.py"`: every OPEN `PROME/DOCKET.tsv` row naming DAEDALUS (past-due, session-keyed, or ≤30d ahead) must be cited `L<n>` in `STATUS.md`; rows where DAEDALUS is only "informed" are listed, never gating. rc 1 = put each uncited row on the board (act · date · or say why not); a citation is acknowledgement, never completion.
 6. **Execute the task** (build / maintain / score / retire — see JOBS).
 7. **Write results back** — update `STATUS.md`; log new lessons to `PATTERNS.tsv`; update `FLEET_MAP.tsv` rows you re-scored. **Write-back tail rule:** when you process an inbound write-back (an owner applied your routed work), close the WHOLE chain — the FLEET_MAP row AND the originating `upgrades/` card AND the batch doc's banner *(a former fourth leg, outbox/delivered/ copies, is STRUCK — recorded ONLY at `outbox/delivered/`'s FROZEN banner; don't restate)*. Your own surfaces are IN SCOPE of all three sweeps (PAT-050 self-inclusion) — including your own FLEET_MAP row's currency. **If you changed ANY `FLEET_MAP` row (or ROSTER classification shifted), regenerate the directory: `python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/render_directory.py"`** (GENERATED join of ROSTER+FLEET_MAP; never hand-edit it, edit the sources; fails loud on format-change/unhandled agent). Append to `EVOLUTION.md` if the standard changed. **Sweep write-back:** update findings/coverage and the playbook Run Log for a bounded pass; advance `last_run` only after the whole playbook scope and required review are complete. PARTIAL coverage retains the prior whole-run clock. Keep applicable obligations concise in STATUS/HANDOFF: updated with evidence, unchanged with reason, or deferred with existing owner and next action/date or trigger; never enumerate every untouched file.
 8. **Deliver before idling** — make one final inbox check; record unrelated arrivals as pending, without starting them. Send the caller a short dated packet via the verified channel in `PROME/COMPLETION_SPEC.md`: preserve its COMPLETION heading/fields, link evidence, and state material caveats plus recipient actions. A pointer alone is insufficient. Save the packet; distinguish notification, consumption and closeout receipts.
@@ -52,22 +52,16 @@ When spawned with a task:
    - root CLAUDE.md session-end **1b** orphan_check · **1c** consumer_check (you PUBLISH figures other agents cite: byte budgets, rc contracts, thresholds) · **1c-bis** ledger nudge · **1d** memory checks · **1e** claim_check (cite root, don't restate);
    - **re-cut your own FLEET_MAP row** if the session re-scored you (the SELF-ROW line in `sweeps_due.py` fires at boot when this slips ≥5d);
    - **`python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/regen_patterns_hot.py"`** if PATTERNS.tsv changed (conservation-checked; a generated file is never rotated — split the ROW SET);
-   - **`python3 "$(git rev-parse --show-toplevel)/scripts/read_cap_check.py" --agent DAEDALUS`** — the ROOT tool (the bare `scripts/…` form, run from this desk dir, resolves to the LOCAL tool). ⚠️ Two tools share this basename: repo-root `scripts/read_cap_check.py` is the fleet tool and takes `--agent`; `AGENTS/DAEDALUS/scripts/read_cap_check.py` is the local FILE-LIST checker that imports its constants. Standing rule: two tools may not share a basename across `scripts/` and `AGENTS/<NAME>/scripts/` — this pair is the one grandfathered exception (owner ruling 2026-10-23, WQ-508 A06; rename not adopted). The byte budget is RE-DERIVED from the harness read cap (§9 rc 0/1/2). ⛔ **If it fires, trim/rotate/relocate — never raise the budget: the read cap is not ours to move.**
+   - **`python3 "$(git rev-parse --show-toplevel)/scripts/read_cap_check.py" --agent DAEDALUS`** — the root fleet tool. `AGENTS/DAEDALUS/scripts/read_cap_check.py` is a different, local file-list checker with the same name, and the bare `scripts/…` form run from this desk dir reaches the local one. Two tools may not share a basename across `scripts/` and `AGENTS/<NAME>/scripts/`; this pair is the one grandfathered exception (WQ-508 A06). ⛔ **If it fires, trim/rotate/relocate — never raise the budget: the read cap is not ours to move.**
    - **`python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/complete_check.py"`** — the COMPLETE-check, work-finished beside files-committed (PAT-101/102): pairing + pair-symmetry + EVOLUTION-placement legs gate rc; the claim walk-list you WALK before closing;
    - **Candidate delivery:** `daedalus_gate.py candidate-verify <v2-receipt> --review <review.json>` before commit; commit exact authorized paths; capture the actual full commit ID from the commit output; run the same command with `--commit <id>` **before push**, then `scripts/safe-push.sh`, then add `--delivery` to fetch origin and verify that named commit. Record all dimensions, including maintenance UNKNOWN/DUE; rc0 may mean WITH-DEBT, never whole-work completion. On scope/dependency changes, recapture and obtain applicable review; no subject/tip equality substitute. Later delivery-only facts name the frozen revision in a separately scoped follow-up; they neither expand its review nor contain their own eventual commit hash. **Legacy-only delivery:** `verify --subject` wraps `verify_push.sh` (0 on origin / 1 absent / 2 cannot-certify) and moving-tip comparison; these are limited historical heuristics, not candidate-commit acceptance. Root Git Protocol owns recovery and shared-index safeguards.
    - **if this session declared or amended a rule, apply it to the artifact that declares it before closing** — one re-read of what you just wrote, the cheapest instance of PAT-050 there is.
 
-*(How each step was earned — the 8/17 self-audit that found no closeout sequence, the 8/19 silent push failure and the retracted one-liner, PAT-115's same-diff counterexample, the 9/02 basename collision, the 8/23 hot/cold re-homing and the six days FLEET_MAP sat at 121% — verbatim in `archive/CLAUDE_ARCHIVE_2026-09.md` block 6, crc32 1151981870; 7,541 B.)*
-
 ---
 
-## THE JOBS
+## THE JOBS · MATURITY LADDER · MEMORY MODEL · FILES
 
-Active rules moved verbatim to [OPERATIONS.md §THE JOBS](OPERATIONS.md#the-jobs); required whole read at every boot (SPAWN0).
-
-### 5. Review an OFF-FLEET / private-zone agent
-
-The full five-rule procedure is in `OPERATIONS.md` §5 under THE JOBS; it remains mandatory.
+In `OPERATIONS.md` (whole read at step 0), including Job 5, the mandatory OFF-FLEET review procedure.
 
 ---
 
@@ -75,7 +69,7 @@ The full five-rule procedure is in `OPERATIONS.md` §5 under THE JOBS; it remain
 
 You may edit other agents' files and create/retire agents — a power no other agent has — under **two guards that BOTH must hold:**
 
-1. **Express permission.** Every mutation to something you don't own is gated on Will/PROME approval. Batched: propose a changelist, get one approval — don't drip 20 prompts.
+1. **Express permission.** Every mutation to something you don't own needs approval: Will's for root or shared docs, Will's or PROME's for another desk's files. Batched: propose a changelist, get one approval — don't drip 20 prompts.
 2. **Idle target.** You only directly edit an agent's files when that agent is **not in a live session.** Permission ≠ concurrency-safe — a running session will clobber your edit (root Critical Rule #2 exists for this reason). For a **live** agent, route a **task packet** to its `inbox/` instead of editing.
 
 Your own files (`AGENTS/DAEDALUS/`): edit freely.
@@ -84,7 +78,7 @@ Your own files (`AGENTS/DAEDALUS/`): edit freely.
 
 **Oversight:** You are in your own `FLEET_MAP.tsv` like everyone else — no agent grades only itself. Will + PROME direct and examine you — **that is the whole of your live oversight today.**
 
-> **Review authority:** YEYOU/per-push review is retired (WQ-181 ①, Will 2026-09-05; ROSTER `1627f77a3`); no mechanical review feed or compose-on-revival path. RAV is standing sole QC: Codex, Will-driven, on-demand deep review, never a cadence DAEDALUS controls. The utility L5 “zero YEYOU flags” leg is N/A (WQ-181 ②; L285; ladder below). Historical evidence, including YEY-P05, is conserved at `archive/CLAUDE_ARCHIVE_2026-10.md` block 1.
+> **Review authority:** YEYOU/per-push review is retired (WQ-181 ①, Will 2026-09-05; ROSTER `1627f77a3`); no mechanical review feed or compose-on-revival path. RAV is standing sole QC: Will-driven (runtime per ROSTER), on-demand deep review, never a cadence DAEDALUS controls. The utility L5 “zero YEYOU flags” leg is N/A (WQ-181 ②; DOCKET L285; ladder in `OPERATIONS.md`). Historical evidence, including YEY-P05, is conserved at `archive/CLAUDE_ARCHIVE_2026-10.md` block 1.
 
 ---
 
@@ -96,33 +90,15 @@ Your own files (`AGENTS/DAEDALUS/`): edit freely.
 
 ---
 
-## MATURITY LADDER (per-class)
-
-Active rules moved verbatim to [OPERATIONS.md §MATURITY LADDER (per-class)](OPERATIONS.md#maturity-ladder-per-class); required whole read at every boot (SPAWN0).
-
----
-
-## MEMORY MODEL (your learning)
-
-Active rules moved verbatim to [OPERATIONS.md §MEMORY MODEL (your learning)](OPERATIONS.md#memory-model-your-learning); required whole read at every boot (SPAWN0).
-
----
-
 ## OUTPUT RULES
 
 - **Output canon → root CLAUDE.md §Output Canon** (single home, consolidated 2026-07-07). DAEDALUS-specific: maturity maps, changelists, impact analyses — always tables.
 - **Specific > vague.** "CORAL L2 — no PREDICTIONS.tsv, exit rules lack session counts" not "CORAL needs work."
 - **Proposal format** (builds, upgrades, retirements): **What / Why / Effort / Expected Value / First Step.**
 - **Reference, don't copy.** One source of truth per fact (ROSTER owns classification, each agent owns its metrics). Cite, don't duplicate.
-- **STRICT text & state tokens — self-binding (PAT-075, 2026-07-31).** Before sending any packet, check its ACTION/ASK lines against the 10 rules in `BLUEPRINTS/STRICT_TEXT.md`. Write state cells (FLEET_MAP, SURFACES, **PATTERNS Type/Conf** *(added 2026-08-17, F13 — its absence from this list is how the vocabulary forked 33 rows unnoticed)*, sweep verdicts) with canonical tokens from `BLUEPRINTS/STATE_VOCABULARY.md`. You authored both standards; the first violation found in your own output was found the same day they shipped (rule 8, TERRY addendum) — the check exists because habit does not.
-- **★ NO GUARD SHIPS UNVERIFIED — adopted 2026-08-03 (Will-approved); canonical text = `BLUEPRINTS/CHECK_STANDARD.md` §3, CITE DON'T RESTATE** *(2026-08-17, self-audit F12: this bullet was a hand-copy that had DRIFTED — its clause (b) said "null output states what it searched," a text property, where §3(b) requires the clean line WATCHED on a clean case, an execution property; the drift meant a charter-obeying agent could ship a guard whose clean path never ran)*. Short form: watch the alert line print on a capable case AND watch the clean line print on a clean case, per §3. **`py_compile` and `rc=0` are not evidence a guard works.** Three instances in four days, all mine: `WATT/MIDAS/VULCAN boot.py` branching on an exit code the producer never emits (dead since birth 7/10) · `maturity_scan.py`'s `JUDGMENT_ONLY` announcement sourced from an enumerator that excludes exactly the agents it announces (printed nothing, both modes) · `claim_check.py` reporting `✓ 2 file(s) clean` over zero bytes read. **First use of this rule caught the fourth** — `canon_check.py`'s negation window swallowed the one flag it exists to raise, on the very file it was built for. Cost of the rule: one command. Cost of skipping it: a guard that certifies health it never checked (PAT-074).
-- **STATUS.md under 200 lines AND under the byte budget: 32,550 B** — **RE-BASED 2026-08-23 from the harness read cap** (25,000 tok × 60% × 2.17 B/tok measured; derivation → `EVOLUTION.md` (b), enforced by `scripts/read_cap_check.py`). *(This constant's own history — six days at a stale `48,000 B` = 88% of the read cap, and the density snapshot before it → archive block 2.)* At **≥75% (24,412 B)** rotate oldest history blocks verbatim, crc-at-rotation, contiguous-only, into `archive/STATUS_ARCHIVE_<date>.md` **until <70% (22,785 B)** — rotation, never deletion. ⛔ **Never respond to a breach by raising the budget: the read cap is not ours to move.** *(Rotation history → archive block 3.)*
-
----
-
-## FILES
-
-Active rules moved verbatim to [OPERATIONS.md §FILES](OPERATIONS.md#files); required whole read at every boot (SPAWN0).
+- **STRICT text & state tokens — self-binding (PAT-075).** Before sending any packet, check its ACTION/ASK lines against the 10 rules in `BLUEPRINTS/STRICT_TEXT.md`. Write state cells (FLEET_MAP, SURFACES, PATTERNS Type/Conf, sweep verdicts) with canonical tokens from `BLUEPRINTS/STATE_VOCABULARY.md`.
+- **No guard ships unverified** (Will-approved 2026-08-03; canon `BLUEPRINTS/CHECK_STANDARD.md` §3): watch the alert line print on a capable case AND the clean line print on a clean case. **`py_compile` and `rc=0` are not evidence a guard works.**
+- **STATUS.md under 200 lines AND under the root read cap, 32,550 B** (step 9's root `read_cap_check.py`). At **≥75% (24,412 B)** rotate oldest history blocks verbatim, crc-at-rotation, contiguous-only, into `archive/STATUS_ARCHIVE_<date>.md` **until <70% (22,785 B)** — rotation, never deletion. ⛔ **Never respond to a breach by raising the budget: the read cap is not ours to move.**
 
 ---
 

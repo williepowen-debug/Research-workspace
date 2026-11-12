@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-11-12 — housekeeping pass on Will's "ok go" (08:53 ET); Staleness #7 and four review queues run.**
+**Last Updated: 2026-11-12 — housekeeping, Harness re-test, own WQ-678 B trims (12:2x ET); backlog prune proposed to Will.**
 
 **Current judgment:** Owed small items are closed: READS re-attestation delta sent for PROME transcription (missing `docs/GIT_WORKTREE_PROCEDURES.md` dependency found), SHADE ledger registered, SURFACES AGENTS.md row re-cut, L816 narrowing accepted, NEXUS B6 tie clause NO-OP (STRICT_TEXT rule 7 already carries it), ZHAO B24 closed. Staleness #7 found 6 ledger and 2 trade flags, one real (MARCO VX row SFE-03, oldest live row, routed by packet), 0 freezes; four CHECKS rows were stale after PROME's 10/31 WQ-578 retirements and are corrected. The provider-switch Harness re-test then ran (9 Opus readers, 74 charters, 599 rows); Will ruled WQ-678 A and 41 owner packets went out (6a43711d27). DAEDALUS L4/M retained, no L5 adjudication. Record `runs/2026-11-12_HOUSEKEEPING.md`.
 
@@ -87,8 +87,8 @@
 
 ## BOTTOM LINE — 2026-11-12
 
-- **WORK:** Housekeeping pass complete at bounded scope: small owed items, own map row, Staleness Sweep #7, four Production Review sub-queues (check-registry, invocation-mapping, unwired-checks, roster-health). Production Review #10 whole pass, scorecard and Harness re-test not started. Session stopping after delivery.
-- **CHECKS:** Scorecard selftest 27/27 and dry render read SHADE; render_directory rc 0; independent cold read of the run record 23 ✅ / 5 ⚠️ / 0 ❌, all five fixed before commit, including my wrong MARCO "false alarm" call (record § 6). Closeout gate receipt in `runs/GATE_LOG.tsv`.
+- **WORK:** Housekeeping pass, provider-switch Harness re-test and own WQ-678 B trims complete (25 of 28 applied 11/12, 2 done earlier, S-56 RAV "add checks" held for Will; prior text `archive/2026-11-12_HARNESS_TRIMS/`). Backlog prune PROPOSED, awaiting Will (`runs/2026-11-12_BACKLOG_PRUNE.md`). Scorecard and Production Review #10 not started.
+- **CHECKS:** Housekeeping cold read 23 ✅ / 5 ⚠️ / 0 ❌, all fixed (`runs/2026-11-12_HOUSEKEEPING.md` § 6). Trim diff cold read (Sonnet) 1 ❌ / 7 ⚠️: the ❌ (basename rule) and the RAV cross-run routing line restored before commit; the rest accepted as history drops or intended changes. read_cap_check rc 0.
 - **DELIVERY:** One PROME packet (READS delta, SHADE, two unwired rows) and one MARCO packet; PROME doorbelled in-session; consumption unverified.
 - **HARNESS (11/12):** provider-switch re-test done (`runs/2026-11-12_HARNESS_RETEST.md`); WQ-678 A ruled 09:59 ET; 41 packets 6a43711d27; A18 applied in own files; own 28 optional trims deferred; A17 done by PROME; dormant-freeze pre-approval RETIRED on Will's word and removed from own playbooks/OPERATIONS.
-- **OPEN:** READS transcribed by PROME ea2771bfff and verified (ATTESTED 2026-11-12); two unwired checks now MANUAL-BY-DESIGN on PROME's ruling; owners apply WQ-678 lines at next wake (PROME A3–A7/A16 by 11/16); scorecard 11/13; D:L490 11/15; Production Review #10 by 11/16; YUR-F02 11/28.
+- **OPEN:** Owners apply WQ-678 lines at next wake (PROME A3–A7/A16 done 212347d3a2; WQ-679 root rows 9d43dd3cdc); backlog prune awaiting Will; scorecard 11/13; D:L490 11/15; Production Review #10 by 11/16; YUR-F02 11/28.
