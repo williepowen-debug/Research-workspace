@@ -302,6 +302,11 @@ TERRY boots ~15 days in 38; an action line it cannot clear at that cadence is no
 
 ---
 
+#### 3.5.9 Charter Rule 10 exemption and NOTE detail — moved verbatim from `CLAUDE.md` 2026-11-12 (Will-approved charter cut, record `AGENTS/WALTER/research/2026-11-11_evening/PROPOSAL-charter-cut-and-wq622.md`; no rule change)
+
+    **Exemptions:** pull-complete recipients (currently CARL, RED, PROME, TERRY) get INFO by complete BOARD ID-diff, no handoff/row. ACTION: CARL/RED handoffs+rows; PROME fail-safe-only scanner rejects ACTION; TERRY BOARD-only/inbox closed. Restore TERRY without another ask only on canonical third-party-found missed ACTION/falsely claimed read trigger; read ruling first. An inbox drain is not a BOARD disposition.
+    Every directed ask goes on ACTION. Decision-changing threshold/grade/watch/catalyst/content, or uncertainty about actionability: full dispatch. Notes non-actionable only; non-BOARD create-only notes still reach exempt desks with explanation, no BOARD/route/delivery row. Review at roughly one/week sustained or any missed note; retain old NOTE rows as history, not precedent.
+
 ### 3.6 🔴 CORRECTION LIFECYCLE — who owns which half (added v0.13, 2026-08-07; encodes Will-accepted RAV roster-plan Ruling #4 via PROME 2026-08-05)
 
 **The split, stated so it is written rather than remembered:**

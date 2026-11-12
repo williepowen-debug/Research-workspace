@@ -269,3 +269,12 @@ Boot PARTIAL, closeout FULL. Boot done: sync (no incoming, foreign dirty PROME p
 - WALTER typed approximate-minute stamps (15:0xZ) in REGISTRY, STATUS and the MOMR excerpt note: the known convention, date part from commands.
 - DEWEY: 003R PARKED by DEWEY November 4; row stays PARTIAL and the doctor MED stays until it runs (FDIC BankFind 0 Q3 rows against June control 4,313; FFIEC 4,259 of 4,268 is DEWEY's measurement).
 
+## GAPS bullets moved at 2026-11-12T02:08:13Z, verbatim
+
+- Final CME certification, direct ICE Brent/TTF settlements and full matched persistence chains remain unavailable. Boundary 8 switches to January November 2 with count restarted. January prices dated October 30 cannot become November 2 observations. WQ-533 vendor permission cannot be extended to WALTER boundary counts.
+- Energy-OAS BAMLH0A0E2Y is an invalid series, confirmed with authenticated positive control; no verified energy feed, not a transient fetch fault. Historical ICE H0EN is a lead only. Worldscale boundary 5 is an uninstrumented/retired lane requiring new registration; HANS T12 is registered non-live, with swapline proxy shelved by WQ-534. CME XEURBI public-history lead still needs retrieval and basis adjudication. No silent broad-HY, ETF or futures proxy.
+
+## RESUME item 9 replaced at 2026-11-12T02:08:20Z, verbatim
+
+9. **X bookmarks:** working on the desktop all session without re-authorization (13 items, last head check 14:31:56Z). Two bookmark posts not opened: the gold chart (no media URL kept) and @OddStats "683.65" (t.co link). Laptop WilliePOwen token state unknown since November 9.
+

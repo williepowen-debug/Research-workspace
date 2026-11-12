@@ -1,10 +1,19 @@
 # WALTER Threshold Scan v0.57
 
-**This file is the authoritative CHECKLIST Phase 2 step 7 procedure. Read it WHOLE at boot step 6c and when executing Phase 2 step 7 at dispatch.** The registry-loading step is CLAUDE.md 6b; current instrument basis, sustain, state and exit come from the owner registries, not dated examples below. Read current values on their registered observation schedules and label each observation date. Boot includes the four registered owner families and Cushing as specified by CLAUDE.md 6b/6c.
+**This file is the authoritative CHECKLIST Phase 2 step 7 procedure. Read it WHOLE at boot step 6b (before the registries; moved from 6c on 2026-11-12, Will-approved charter cut) and when executing Phase 2 step 7 at dispatch.** The registry-loading step is CLAUDE.md 6b; current instrument basis, sustain, state and exit come from the owner registries, not dated examples below. Read current values on their registered observation schedules and label each observation date. Boot includes the four registered owner families and Cushing as specified by CLAUDE.md 6b/6c.
 
 Split 2026-09-08 from `SIGNAL_PROCESSING_CHECKLIST.md`, Phase 2 step 7, verbatim. The dated August 22 example below is historical, including its "LIVE NOW" sentence; it is not today's WAL grade. The STATE RULE governs exit-carrying triggers, rather than suppression by elapsed sessions alone. Proximity alone is not an automatic fire dispatch; decision-changing information follows BOARD_CONSUMPTION_SPEC §3.5.3 as before.
 
 Size re-trigger: measure after any append and every Tier-2; calendar check done 2026-11-05 at 16,788 B; next at the next Tier-2. Keep the procedure and all active obligations on this read path; place new incident narrative in `history/`, with an evidence pointer here. Version stays in lockstep with the parent CHECKLIST.
+
+## Registry loading (charter 6b) — moved verbatim from `CLAUDE.md` 2026-11-12 (Will-approved charter cut, record `research/2026-11-11_evening/PROPOSAL-charter-cut-and-wq622.md`)
+
+Charter step 6b reads this file WHOLE first, then loads the four families by these rules:
+
+   - RED: read AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv; verify banner hash against canonical FALSIFICATION_TRIGGERS.tsv. If stale, flag RED and read the canonical header plus EVERY complete ID row; verify full set, never truncate. Canon governs load-bearing fires/citations/rulings, weights/exits and historical conflicts.
+   - REGINALD: read AGENTS/REGINALD/registry/THRESHOLDS.tsv. Suppression: read WALTER registry/FALSIFICATION_FIRED_LOG.tsv and REG_THRESHOLDS_FIRED_LOG.tsv.
+   - CREED: read AGENTS/CREED/registry/THRESHOLDS.tsv with band_status/sustain_window/source_of_truth and approved amendments. Numeric is not gradable; date monthly prints, require owner event/cohort evidence. Read CREED_T_FIRED_LOG.tsv there; never mirror/edit owner bands, grades or fire record.
+   - HANS: read AGENTS/HANS/registry/THRESHOLDS.tsv; derive daily/monthly/event/compound eligibility from fields. Date last-known monthly prints; both compound legs required. Qualitative feeds remain judgment-trippable. T-12 unfed: no scan/clean-board credit. T-02 post-hoc status lowers evidentiary weight, never suppresses a fire. Read HANS_T_FIRED_LOG.tsv there; never mirror it.
 
 7. **Falsification-trigger auto-fire scan.** Before final dispatch session-end, scan `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv` for any thresholds that crossed during the current session per JOINT_PROPOSAL_2026-05-06_red_walter §2 eval logic (read-loop step 6b in WALTER spawn-protocol; sustain-window check, threshold evaluation, last-fired suppression via `AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv`). For each sustained cross: auto-generate falsification-derived signal with:
    - `signal_type: threshold-crossed`

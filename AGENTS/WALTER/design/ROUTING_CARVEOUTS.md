@@ -424,6 +424,10 @@ The previously-bundled `MARKET_VOL` row is split into two routing lines (single 
 
 **Filed:** Sep 29 2026 — WALTER, as owner-of-record for routing, on Will's in-session approval (RULE 8 structural: it adds a recipient to a class of signals).
 
+#### Charter step 10.8 — moved verbatim from `CLAUDE.md` 2026-11-12 (Will-approved charter cut, record `AGENTS/WALTER/research/2026-11-11_evening/PROPOSAL-charter-cut-and-wq622.md`; no rule change)
+
+10.8. Named CRE property/loan distress (default/servicing/foreclosure/receivership/REO/note-sale/distressed-modification/below-loan sale/payoff): case entry per property+CREED INFO if absent; preserve owner ACTION. Exclude anonymous/aggregate loans; company/bank/fund expansion needs ruling. Follow FORMAT case/CARVEOUTS named-case/CHECKLIST 4.5; never edit CREED ledger; patterns carry selection bias.
+
 ### Large-bank multi-name routing — GIBBS (Oct 14 2026)
 
 **GIBBS registered 2026-10-14 on DAEDALUS's packet** (`inbox/2026-10-14_from-DAEDALUS_GIBBS-routing.md`, `08d273fca`; WQ-426 RULED by Will 10/14, *"Approve 426 and 427"* / *"yes, build it"*, record `PROME/proposals/2026-10-14_wq426-427-RULED.md`). **Tier-2, event-driven multi-name comparison desk** over the **16 US top-tier firms in Fed Categories I–III**; charter `AGENTS/GIBBS/CLAUDE.md`; **membership = `AGENTS/GIBBS/workbook/PERIMETER.tsv` (canonical; re-cut quarterly), never an asset line.** Two questions only: (Q1) is regional-bank stress industry-wide or regional-only — GIBBS is REGINALD's comparison group; (Q2) is the large lenders' book to non-bank finance (NDFI / private credit) transmitting stress. First live session Mon 2026-10-19 (PROME spawn, DOCKET L704). **No new domain code** — this follows the WAL / FLG / OZK / CRUISE single-name seam (a desk keyed on named tickers is a carve-out, not a vocabulary entry). Delivery: GIBBS is NOT pull-complete-exempt, so it receives `AGENTS/GIBBS/inbox/WALTER/` handoffs (its charter boot step 3 reads that lane).

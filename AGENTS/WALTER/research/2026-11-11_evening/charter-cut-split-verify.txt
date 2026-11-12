@@ -1,0 +1,16 @@
+source      : HEAD:AGENTS/WALTER/CLAUDE.md
+destinations: AGENTS/WALTER/CLAUDE.md, AGENTS/WALTER/design/THRESHOLD_SCAN.md, AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md, AGENTS/WALTER/design/ROUTING_CARVEOUTS.md, AGENTS/WALTER/design/BOOT_PROTOCOL.md
+source lines: 106 (106 distinct)  [blank lines ignored]
+output lines: 1,037
+added (scaffolding, expected): 933
+
+✔ ADJUDICATED EDITS — 2 line(s) the caller verified as in-place changes:
+  [1x, 86% match]
+    was …6b. Read all four threshold families; carry complete …
+    now …6b. Read design/THRESHOLD_SCAN.md WHOLE first (its § Registry loading holds the per-desk rules), then all four threshold families; carry complete …
+  [1x, 98% match]
+    was …6c. Read design/THRESHOLD_SCAN.md WHOLE; execute its …
+    now …6c. Using design/THRESHOLD_SCAN.md (read at 6b), execu…
+    (2 differing region(s); showing the first)
+
+✅ CONSERVED: every source line is present verbatim, or covered by a caller-adjudicated in-place edit (2 adjudicated).
