@@ -1,7 +1,7 @@
 # TRADE CARD — NVDA — long call spread, bought AFTER the 11/17 print, on the CEO-exit gap
 **Date:** 2026-11-12 (written 09:14 to 09:1x EST from `date`)
 **Setup ID:** IDEA-NVDA-CEOGAP-NOV12
-**Thesis owner:** VULCAN (AI demand, grades the 11/17 print) for leg T1; the tape read (a governance shock priced before demand is known) is TERRY's own, labelled as such. HENRY owns dealer flow at the open.
+**Thesis owner:** VULCAN (AI demand; states what the 11/17 release and CFO commentary say, does not grade) supplies leg T1's evidence, TERRY applies the test; the tape read (a governance shock priced before demand is known) is TERRY's own, labelled as such. HENRY owns dealer flow at the open.
 **Thesis reference:** WALTER `BOARD/SIG-W-20261112-002` (IMMEDIATE, Nvidia newsroom "NVIDIA Announces CEO Transition", read by WALTER's helper); prior board cards 20261109-004, -011, 20261111-003.
 **Terry verdict:** CONDITIONAL — NOT-FIRED
 **Confidence in trade structure:** Medium (structure). Low (edge): the overreaction read is unproven and has no owner.
@@ -12,17 +12,17 @@
 - [ ] Option chain: CONDITIONAL, priced on the 11/18 open-session chain at fire, broker quote for the fill (finding 5b)
 - [x] Existing position truth: none in the FORGE mirror; Will to confirm if he holds NVDA or a QQQ/SMH call line
 - [x] Catalyst date: Q3 FY2027 results Tue 11/17 about 1:20 pm PT (Nvidia release, via WALTER)
-- [ ] Thesis owner current: VULCAN has not yet graded the resignation or the print
+- [ ] Thesis owner current: VULCAN's post-print statement is due after the 11/17 print (PROME launches the session that evening or before the 11/18 open)
 - ⚠️ **The cause is not stated by Nvidia.** Press links it to reported affairs, and prior cards carry an FBI "looking into it" relay (Megaspeed). A legal, export-control or disclosure problem that surfaces before or after the print is the fat tail this card does NOT survive cheaply.
 
 ## 1. One-line setup
-If Nvidia's 11/17 print shows the business unchanged by the CEO exit (VULCAN's grade) and the stock has not already recovered half the gap, buy a two-month call spread on 11/18, after the event premium is gone, betting the governance discount narrows.
+If Nvidia's 11/17 print states no lower outlook and no cut (VULCAN's statement, TERRY's test) and the stock has not already recovered half the gap, buy a two-month call spread on 11/18, after the event premium is gone, betting the governance discount narrows.
 
 ## 2. Preconditions
-- **Thesis precondition (T1):** VULCAN writes, in a committed artifact, that the 11/17 print and guide show no demand or order impact (no data-center guide cut, no order slowdown stated).
+- **Thesis precondition (T1), reworded 2026-11-12 09:2x EST on PROME packet 0e6d4cd7f9 (VULCAN states, it does not grade):** VULCAN commits its post-print KB row (the statement promised on its CATALYSTS 2026-11-17 row, 837af20b1b), quoting the 8-K Ex 99.1 release and the CFO commentary. **TERRY judges T1 on the fire day by reading that row, by this test; all three must hold:** (a) a Q4 revenue outlook is GIVEN and its midpoint is at or above Q3 actual revenue; (b) no data-center cut or reduction is stated in the outlook wording (no data-center line counts as none stated; Nvidia guides TOTAL revenue); (c) the row reads "none stated in the documents read" for order cuts, deferrals, slowdowns and customer changes. **T1 fails, and the card is void, on any of:** a withheld outlook; an outlook midpoint below Q3 actual; any stated cut, deferral, slowdown or customer change. If VULCAN's row is not committed before an entry, no entry that day. ⚠️ **A T1 pass means no cut was STATED, not that there was no impact** (VULCAN's caveat; it travels with the card).
 - **Tape precondition (T2):** NVDA trades below **$163.60** at fire (the midpoint between the $173.73 close and the $153.47 pre-market print: less than half the gap recovered). At or above it the rebound is priced: do not enter.
 - **Day colour (T3):** NVDA red on the fire session (root rule #6, calls on red days). A break needs the refuting chain measurement written here before the fill.
-- **Do NOT trade if:** any filing or official statement before entry discloses a legal, regulatory or export-control liability tied to the resignation; or VULCAN grades an order or guide impact; or no fire by the Fri 11/20 close (card void).
+- **Do NOT trade if:** any filing or official statement before entry discloses a legal, regulatory or export-control liability tied to the resignation; or VULCAN's statement records a withheld or lower outlook or any stated cut, deferral, slowdown or customer change (T1 fails); or no fire by the Fri 11/20 close (card void).
 
 ## 3. Chart / tape read
 | Item | Read |
@@ -54,7 +54,7 @@ If Nvidia's 11/17 print shows the business unchanged by the CEO exit (VULCAN's g
 ### 6a. EFFECTIVE-N
 | Field | Entry |
 |---|---|
-| Claimed corroborating legs | 2: VULCAN's demand grade, and the tape read that a governance shock overshoots |
+| Claimed corroborating legs | 2: VULCAN's statement of no stated cut, and the tape read that a governance shock overshoots |
 | Shared antecedent(s) | **the AI and tech rebound.** The same falsifier sits under the QQQ Dec-18 670/680C card (NOT approved, WQ-617 C) and the RSP call paper row (PB-0009). Inside this card, both legs die if the print shows a demand problem |
 | EFFECTIVE N | **1.** One view: the stock overshot because of governance, not demand |
 | Sizing reference | ×1, single view |
@@ -78,15 +78,15 @@ If Nvidia's 11/17 print shows the business unchanged by the CEO exit (VULCAN's g
 ## 8. Why not / counter-trade
 - **The stock was already falling hard:** −28.6% over 65 bars before this news. A governance shock on a falling stock may not mean-revert; "the market overreacted" is a common story that is often wrong.
 - **The cause is unstated.** If the resignation is tied to the Megaspeed relationship and an FBI interest (relayed on earlier cards), the liability could be real and arrive after the fill.
-- **No owner holds the overreaction view.** VULCAN grades demand only; the tape read is TERRY's.
+- **No owner holds the overreaction view.** VULCAN states what the documents say and grades nothing; the tape read is TERRY's.
 - **Prediction markets (ORACLE KB-ORC-137, 6ac1fce7f3, read 11/12 09:15 ET; ORACLE's figures, not TERRY's):** Polymarket "AI bubble" 12.3 vs 7.0 on 11/11, so the crowd moved toward the bear story overnight; permanent successor open (Kress PM 30.9 / Kalshi 33, Ian Buck 27.5 / 27), so a second leadership headline can land inside the card's window; the 11/17 earnings markets are thin ($2.3K, $8.2K) and give no read. The exit markets are settled: no edge there. ORACLE's own answer is NO CARD from the market side.
 - **Crowding:** the bounce trade will be widely discussed; a fade that everyone sees is priced quickly, and T2 may never fire.
 
 ## 8b. Trigger forecast (WQ-493 A)
-- **Trigger event:** VULCAN grades the 11/17 print as showing no demand or order impact (T1) AND NVDA trades below $163.60 on a red NVDA session (T2, T3) on 11/18, 11/19 or 11/20.
+- **Trigger event:** VULCAN's committed post-print statement passes TERRY's T1 test (outlook given, midpoint at or above Q3 actual, no data-center cut stated, "none stated" for cuts, deferrals, slowdowns, customer changes) AND NVDA trades below $163.60 on a red NVDA session (T2, T3) on 11/18, 11/19 or 11/20.
 - **Deadline:** 2026-11-20 16:00 ET.
-- **Resolution basis:** VULCAN's committed grade of the print; NVDA regular-session prices and day colour from `fetch.py price NVDA`.
-- **Probability:** 0.20, subjective TERRY (no base rate for this event type). CALIBRATION row CAL-0008.
+- **Resolution basis:** VULCAN's committed post-print KB row (per its CATALYSTS 11/17 row, 837af20b1b), tested by TERRY as in § 2 T1; NVDA regular-session prices and day colour from `fetch.py price NVDA`.
+- **Probability:** **0.15** (was 0.20 at 09:1x; lowered at the T1 rewording, before any outcome, because a withheld outlook under an interim CEO who is also the CFO now fails T1 explicitly), subjective TERRY, no base rate. CALIBRATION row CAL-0008.
 
 ## 9. Decision
 - [ ] APPROVE
