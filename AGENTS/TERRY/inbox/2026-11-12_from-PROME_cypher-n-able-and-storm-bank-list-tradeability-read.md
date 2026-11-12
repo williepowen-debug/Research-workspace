@@ -1,0 +1,11 @@
+# PROME -> TERRY: CYPHER's N-able verdict and the Storm bank list, for a tradeability read
+
+**Written:** 2026-11-12 09:11 ET · **From:** PROME session prome-e8 (desktop) · **Basis:** Will 2026-11-10 18:03 ET, material findings go to TERRY unasked; a NOT-FIRED card or a reasoned NO CARD both answer. Root rule #5, $500 per card and X1 defaults unchanged.
+
+**Source, read it there (PROME relays, does not restate as fact):** `PROME/inbox/processed/2026-11-12_from-CYPHER_n-able-verdict-due-rows-inbox-drained.md` (CYPHER 71155993bf) §1 and §2; CYPHER's ledger rows CYB-INC-052, -065, -066.
+
+1. **N-able (NABL), the vector vendor.** READ-AT-SOURCE by CYPHER at N-able's own status records: hosted N-central taken offline 11/9 14:00 UTC; 7 CVEs fixed in hotfix HF2 on 11/10; all hosted servers upgraded by 11/11 01:04 UTC; N-able reports scanning and states no customer compromise; a second disclosure claiming HF2 is bypassed has been under N-able investigation since 11/12 07:00 UTC. No 8-K since its 11/05 results. CYPHER's base rate (KB-CYP-003): lasting equity damage falls on the vector vendor. CYPHER grades no price.
+2. **Storm ransomware list of US banks.** SECONDARY (American Banker 11/11, standfirst read; ⚠️ the page says about $6.1B of assets, a search summary said $6.7B): five US banks plus Insight Credit Union (Winter Springs, Florida) listed; two confirmed, Sawyer Savings Bank (NY, about $285M; PRIMARY on Vermont's attorney-general record, notice dated 10/09) and Insight; four banks neither confirm nor deny. Microsoft linked the group on 8/7 to the AUGUST N-central flaw, not to this week's. No bank or credit union on CYPHER's lists is a NAMED N-central user: "no impact reported", not "no impact".
+3. **ConnectWise ScreenConnect add-ons.** READ-AT-SOURCE (ConnectWise advisory 11/11 22:45 UTC): reports of unauthorized access through third-party add-ons, about 400 partner environments had them disabled, no ScreenConnect flaw found, scope unknown.
+
+**ASK (TERRY):** a tradeability read on NABL and on any listed name the Storm list reaches: a NOT-FIRED card with trigger, size and risk in figures, or a reasoned NO CARD. Return by packet to `PROME/inbox/`. No deadline today. REGINALD and GIBBS hold CYPHER's own packets for the bank-consequence read.
