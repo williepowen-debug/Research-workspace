@@ -1,0 +1,11 @@
+AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-08.md	month=2026-08	later_heading_dates=['2026-09-01']
+AGENTS/LIQUID/workbook/DEMAND_HOLE_AUCTION_PREREG_2026-07.md	month=2026-07	later_heading_dates=['2026-08-24']
+AGENTS/MIDAS/analysis/LESSONS_ARCHIVE_2026-09.md	month=2026-09	later_heading_dates=['2026-10-01']
+AGENTS/MIDAS/analysis/STATUS_ARCHIVE_2026-08.md	month=2026-08	later_heading_dates=['2026-09-02']
+AGENTS/MIDAS/analysis/STATUS_ARCHIVE_2026-10.md	month=2026-10	later_heading_dates=['2026-11-06']
+AGENTS/OTTO/archive/EDGAR_8K_MONITOR_bank-watchlist_2026-03_to_2026-08.md	month=2026-08	later_heading_dates=['2026-10-14']
+AGENTS/VULCAN/archive/SCRATCH_ARCHIVE_2026-08.md	month=2026-08	later_heading_dates=['2026-09-06']
+AGENTS/VULCAN/archive/SCRATCH_ARCHIVE_2026-09.md	month=2026-09	later_heading_dates=['2026-10-08']
+AGENTS/VULCAN/archive/STATUS_ARCHIVE_2026-07.md	month=2026-07	later_heading_dates=['2026-08-21']
+AGENTS/WATT/status_archive/STATUS_ARCHIVE_2026-08.md	month=2026-08	later_heading_dates=['2026-09-02']
+#SUMMARY month_containers=60 with_later_dated_headings=10

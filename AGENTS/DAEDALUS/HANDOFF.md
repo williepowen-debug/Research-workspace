@@ -1,3 +1,9 @@
+# Current continuation — housekeeping, November 12, 2026
+
+Will's "ok go" (08:53 ET) authorized a bounded pass; done and recorded in `runs/2026-11-12_HOUSEKEEPING.md`. Claude Code Opus 5.5 on the desktop (session daedalus-f1). Small items closed: READS delta sent for PROME transcription (`registry/2026-11-12_READS_REATTEST_DELTA.tsv`), SHADE ledger row, SURFACES AGENTS.md row, L816 accepted, B6 tie clause NO-OP, ZHAO B24 closed, 9 packets filed. Staleness #7 and four Production Review sub-queues ran and their clocks advanced; independent cold read 23/5/0 with all five fixed (my MARCO "false alarm" call was wrong; packet rewritten to ask about row SFE-03). Next, not started: weekly scorecard 11/13 (apply WQ-656 B: CRL-15 ungradeable, no Brier), D:L490 11/15, Production Review #10 by 11/16, provider-switch Harness re-test (separate session, Will's scheduling). PROME applied the READS delta (ea2771bfff, verified ATTESTED) and ruled wiring_census/validate_all on-demand (applied). Earlier continuations below are history.
+
+---
+
 # Current continuation — WQ-657 B, November 9, 2026
 
 Bounded trim implemented; tests 12 PASS, independent review ACCEPTED; closeout 20261109T225233Z rc0 with existing ledger nudge DUE. Implementation df9430b596 published; verify 20261109T225301Z rc0. One return packet WQ657-trim-complete; recipient consumption unverified. Record `runs/2026-11-09_WQ657_TRIM.md`. Opening routine entries counted, details preserved with --full; inbox presence asserts no work/consumption state. Stop after one PROME packet. WQ655 two packets consumed/filed; WQ654 READS changes applied, own re-attestation still stale for next separate session. WQ656 B governs next scoring report: CRL-15 design failure/ungradeable, no Brier/hit including withdrawn 10%; no scoring work now. Spawn-slate stays. Earlier Phase 1 consumption-pending text below is historical, superseded by these receipts.

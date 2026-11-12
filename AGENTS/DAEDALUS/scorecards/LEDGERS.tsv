@@ -28,6 +28,7 @@ AGENTS/OZK/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
 AGENTS/RED/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
 AGENTS/REGINALD/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
 AGENTS/SAM/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/SHADE/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
 AGENTS/VULCAN/workbook/PREDICTIONS.tsv	status	NONE	INLINE-FIRST-ISO	resolution	LIVE
 AGENTS/WAL/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
 AGENTS/WATT/workbook/PREDICTIONS.tsv	status	NONE	INLINE-FIRST-ISO	resolution	LIVE

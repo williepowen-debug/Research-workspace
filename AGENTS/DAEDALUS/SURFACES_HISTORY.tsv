@@ -49,3 +49,7 @@ HEARTBEAT.md	State	2026-11-02	PARTIAL
 HEARTBEAT.md	Gap	2026-11-02	🔴 check_heartbeat_chain is BLIND to the 35th-base format (6a3e1e364, 2026-10-26): its block regex requires a line starting `> **AMENDMENT #N` and the live file writes `**Amendment 1 —`; its declared-chain cross-check regex (`**Amendments append … Chain: N`) has matched NOTHING in the last 8 versions, so counted 0 vs declared None and the check passes at any chain length. Same failure class its own 8/04 docstring records. Owner: PROME (packeted 2026-10-28)
 HEARTBEAT.md	Last_reviewed	2026-11-02	2026-10-28
 HEARTBEAT.md	Notes	2026-11-02	16,567 B = 51% of budget / 31% of cap; 35th base 2026-10-26, chain 1; last commit 2026-10-27 (ef7b600c2). DAEDALUS verified the blindness at the artifact (regex counts per version: 83e9572de 4, 6a3e1e364 0, ef7b600c2 0 with one amendment present)
+AGENTS.md	State	2026-11-12	UNMECHANIZED
+AGENTS.md	Gap	2026-11-12	AGENTS.md:27-41 carries the compact transmission-chain table (owned there per _NETWORK.md:230) beside the canonical topology in AGENTS/_NETWORK.md; nothing checks that the two agree (WQ-507 updated both by hand in one commit). The 9/24 'no copy to drift' claim was false
+AGENTS.md	Last_reviewed	2026-11-12	2026-10-28
+AGENTS.md	Notes	2026-11-12	5,756 B (11% of cap). The per-agent roster table is retired (WQ-128); AGENTS.md:20/:25 point to PROME/ROSTER.md

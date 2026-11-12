@@ -1,8 +1,8 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-11-09 — WQ-657 B bounded fleet-view trim; published; stopped.**
+**Last Updated: 2026-11-12 — housekeeping pass on Will's "ok go" (08:53 ET); Staleness #7 and four review queues run.**
 
-**Current judgment:** The separate twelve profile deltas and fourteen-proposal dispositions are complete, L889 reading-copy repair independently accepted, and HOMER now independently L4/H. Thirty map rows re-cut; thirty-seven live profile deltas preserve old whole vintages. This is bounded review completion, not fleet-wide clearance: WQ-654 retires the completed profile queue and re-bases the retained Harness detection clock; unimplemented tool/owner work and runtime review remain open. DAEDALUS L4/M retained, no L5 adjudication.
+**Current judgment:** Owed small items are closed: READS re-attestation delta sent for PROME transcription (missing `docs/GIT_WORKTREE_PROCEDURES.md` dependency found), SHADE ledger registered, SURFACES AGENTS.md row re-cut, L816 narrowing accepted, NEXUS B6 tie clause NO-OP (STRICT_TEXT rule 7 already carries it), ZHAO B24 closed. Staleness #7 found 6 ledger and 2 trade flags, one real (MARCO VX row SFE-03, oldest live row, routed by packet), 0 freezes; four CHECKS rows were stale after PROME's 10/31 WQ-578 retirements and are corrected. The provider-switch Harness re-test is owed and not started. DAEDALUS L4/M retained, no L5 adjudication. Record `runs/2026-11-12_HOUSEKEEPING.md`.
 
 ## Current work and next actions
 
@@ -85,9 +85,9 @@
 - **Weekly scorecard COMPLETE:** `runs/2026-11-07_SCORECARD_2026-11-06_DELIVERY.md`. One day late; unchanged v1.3, 27 selftests pass, production rc 0. Later snapshot/prior partial-Friday limits retained; activity counts are not demonstrated improvement.
 - **Disposition plan DELIVERED:** `runs/2026-11-07_DISPOSITION_PLAN.md`. Credits nine whole profiles, PR9 deltas, L817, C17, root rotation and CATO result. B24 token already applied; ZHAO charter awaits Will/owner. TERRY consumer check remains narrow. PROME counterpart delivered; WQ-654 A retires the completed queue and A09 closure leg but retains the narrowed 90-day Harness review across all charters. Implementation: `runs/2026-11-09_WQ654_IMPLEMENTATION.md`.
 
-## BOTTOM LINE — 2026-11-09
+## BOTTOM LINE — 2026-11-12
 
-- **WORK:** WQ-657 B trim implemented: routine counts, full details on demand, neutral inbox presence. Only bounded fleet-view changes. WQ655 consumed by PROME; WQ654 READS applied receipt read.
-- **CHECKS:** 12 tests PASS; live dual rendering checked. Independent reviewer found exceptional citation uncertainty hidden in count; fixed and tests rerun, exact final result ACCEPTED. Closeout 20261109T225233Z rc0, existing ledger nudge DUE; no BLOCKING/UNKNOWN. See `runs/2026-11-09_WQ657_TRIM.md`.
-- **DELIVERY:** Implementation df9430b596 on origin, verify 20261109T225301Z rc0. One PROME packet WQ657-trim-complete; recipient consumption unverified.
-- **OPEN:** Phase 1 activity/substance coverage UNKNOWN retained; spawn-slate unchanged. READS re-attestation next separately scoped session; CRL-15 ungradeable design failure/no score or hit at next scoring run. Other unrelated work remains pending; stop after this delivery.
+- **WORK:** Housekeeping pass complete at bounded scope: small owed items, own map row, Staleness Sweep #7, four Production Review sub-queues (check-registry, invocation-mapping, unwired-checks, roster-health). Production Review #10 whole pass, scorecard and Harness re-test not started. Session stopping after delivery.
+- **CHECKS:** Scorecard selftest 27/27 and dry render read SHADE; render_directory rc 0; independent cold read of the run record 23 ✅ / 5 ⚠️ / 0 ❌, all five fixed before commit, including my wrong MARCO "false alarm" call (record § 6). Closeout gate receipt in `runs/GATE_LOG.tsv`.
+- **DELIVERY:** One PROME packet (READS delta, SHADE, two unwired rows) and one MARCO packet; PROME doorbelled in-session; consumption unverified.
+- **OPEN:** READS transcribed by PROME ea2771bfff and verified (ATTESTED 2026-11-12); two unwired checks now MANUAL-BY-DESIGN on PROME's ruling; provider-switch Harness re-test (Codex 11/09, Claude 11/12) owed; scorecard 11/13; D:L490 11/15; Production Review #10 by 11/16; YUR-F02 11/28.
