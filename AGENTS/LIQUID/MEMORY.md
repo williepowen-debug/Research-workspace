@@ -2,7 +2,15 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-11 (PROME prome-2b, WQ-184 and Will's 09:24 ET word, Veterans Day, desktop, Claude Code / Opus 5.5)
+### CURRENT SESSION — 2026-11-12T09:08:38-05:00 (PROME prome-e8, WQ-184 due-row class C6, D:L1124, desktop, Claude Code / Opus 5.5)
+
+- **Context:** grade LIQUID rows on the HY cell; 079; 076 if ready; drain inbox. Research only; nothing moved.
+- **Found:** FRED's ICE family carries a row dated 11/11 (HY 330, CCC 1,330, BB 193) and none dated 11/10; every tier moved, so not a carry; first missing session row since 2023-11. Likely ICE's 11/10 valuation under the holiday date (HY yield +11 bp fits the 11/10 Treasury sell-off); not established.
+- **Graded by D:L342 (calendar-keyed):** the 11/11 row is not an observation, 11/10 unpublished ⇒ >320 run stays 8 (DOCKET expected 9), HY-REKILL 0 of 2, tier rule no new grade, 069 L1 NOT FIRED [11/9], L4 11/10 UNGRADEABLE-PENDING (equity half fails anyway, IREN −7.85%), 11/11 and 11/12 UNGRADEABLE, 072 NOT FIRED, 079 NOT ARMED +7 [11/10]. 076 not graded: W2 as-of 11/4 unpublished at 09:05 ET. Re-dating a row = Will's call; no grade depends on it today.
+- **Cards:** six consumed; MSTR read-through (unsecured converts, unencumbered BTC, nothing reaches HY or funding rows); two corrections receipted NO-OP. DTCC: no CoreWeave, Oracle or Paramount prints; SoftBank 5Y 473 flat. → `research/2026-11-12_wake/REPORT.md`.
+- **Open:** 11/10 cell if posted; 30-year auction 13:00; 076 W2/W1; PROME closes the window.
+
+### PRIOR SESSION — 2026-11-11 (PROME prome-2b, WQ-184 and Will's 09:24 ET word, Veterans Day, desktop, Claude Code / Opus 5.5)
 
 - **Context:** four items in order: 11/10 HY cell, D:L1110 SoftBank Tokyo credit, WALTER 007 Skydance, CoreWeave against Oracle; then the inbox. Research only; nothing moved.
 - **HY cell PENDING:** not on FRED by 10:53 ET though FRED itself updated (VIXCLS, T10Y2Y 11/10); the whole ICE family stops at 11/9. Told prome-2b at 10:06 and 10:53; TERRY and HENRY released from waiting. Poll to 17:00 ET; else Thursday about 10:10 ET. Veterans Day handling matches 398a946b9a.
@@ -12,7 +20,7 @@
 - **Added 12:33 ET:** TERRY's Skydance re-open lines (CDS ≥614, second-lien below 93.58 to 96.88, downgrade below BB/Ba3/BB) recorded as a STATUS §3 reader duty; 529 [11/9] not crossed.
 - **Closed on Will's 15:11 ET word** with the 11/10 ICE cell still unposted; the poll ended with the session. **NEXT:** Thursday about 10:10 ET grade the 11/10 cell and message PROME first; DTCC 11/11 cumulative file for late CoreWeave/Oracle/Paramount prints; 30-year auction; 076 W2. STATUS rotated to 70% (`archive/status_snapshots/STATUS_rotated_2026-11-11.md`).
 
-### PRIOR SESSION — 2026-11-10 (PROME prome-07 launch on Will's word 11:38 ET, desktop, Claude Code / Opus 5.5)
+### EARLIER SESSION — 2026-11-10 (PROME prome-07 launch on Will's word 11:38 ET, desktop, Claude Code / Opus 5.5)
 
 - **Context:** three items in order: D:L342 holiday-carry ruling, Tuesday row, 10-year auction grade. No trade, card, threshold, letter or band moved.
 - **D:L342 EXPOSED, fixed and pushed (398a946b9a) before the November 11 cell:** FRED repeats the prior HY value on bond-market (SIFMA) closures, Veterans and Columbus Day included while NYSE trades, so tomorrow was the first exposure, not Thanksgiving; month-end weekend rows too. Five readers now read session rows from one `BOND_CLOSED` list in `gate069_legs.py` (extend before 2027-12-31). No past grade since registration changes. REPORT §19.1.

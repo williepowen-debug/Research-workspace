@@ -56,7 +56,7 @@ Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior f
 | 2026-11-06 | ✅ RESOLVED S2 2026-10-16 — LIQ-07 window closes | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
 | 2026-11-10 | ✅ RESOLVED S2 2026-10-16 — LIQ-07 Resolve_By | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
 | 2026-11-13 | Q3 BDC 10-Q window — Q3 card graded FINAL 2026-11-06 | ESTIMATED: exact criteria/outcome/source limits in machine row |
-| 2026-11-11 | MSCI non-operating-company rule — final constituent list (effective 11/30 close) | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
+| 2026-11-11 | ✅ RESOLVED 2026-11-12: DELETED; read-through done, nothing reaches HY or funding rows (research/2026-11-12_wake/REPORT.md §4) — MSCI non-operating-company rule — final constituent list (effective 11/30 close) | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
 | 2026-10-21 | ✅ GRADED 2026-10-21 — Treasury20Y reopening — $13B,CUSIP912810UX4: high yield 5.469%, cover 2.73x, indirect 58.16% competitive accepted (TreasuryDirect); no failure, tail UNGRADED | CONFIRMED: exact criteria/outcome/source limits in machine row |
 | 2026-10-22 | ✅ GRADED 2026-10-22 — Treasury5Y TIPS — $26B,CUSIP91282CRR4: real yield2.367%,cover2.41x,indirect62.04%;no failure,tail UNGRADED | CONFIRMED: exact criteria/outcome/source limits in machine row |
 | 2026-11-01 | Car-Mart temporary relief through November1 — continuation read (extended 10/20 per 8-K filed 10/21, accession 0001171843-26-006742; was 10/22) | CONFIRMED: exact criteria/outcome/source limits in machine row |
