@@ -79,6 +79,7 @@ If Nvidia's 11/17 print shows the business unchanged by the CEO exit (VULCAN's g
 - **The stock was already falling hard:** −28.6% over 65 bars before this news. A governance shock on a falling stock may not mean-revert; "the market overreacted" is a common story that is often wrong.
 - **The cause is unstated.** If the resignation is tied to the Megaspeed relationship and an FBI interest (relayed on earlier cards), the liability could be real and arrive after the fill.
 - **No owner holds the overreaction view.** VULCAN grades demand only; the tape read is TERRY's.
+- **Prediction markets (ORACLE KB-ORC-137, 6ac1fce7f3, read 11/12 09:15 ET; ORACLE's figures, not TERRY's):** Polymarket "AI bubble" 12.3 vs 7.0 on 11/11, so the crowd moved toward the bear story overnight; permanent successor open (Kress PM 30.9 / Kalshi 33, Ian Buck 27.5 / 27), so a second leadership headline can land inside the card's window; the 11/17 earnings markets are thin ($2.3K, $8.2K) and give no read. The exit markets are settled: no edge there. ORACLE's own answer is NO CARD from the market side.
 - **Crowding:** the bounce trade will be widely discussed; a fade that everyone sees is priced quickly, and T2 may never fire.
 
 ## 8b. Trigger forecast (WQ-493 A)
