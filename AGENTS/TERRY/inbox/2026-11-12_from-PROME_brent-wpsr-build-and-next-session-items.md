@@ -20,7 +20,7 @@ Source: `PROME/inbox/processed/2026-11-12_from-BRENT_wpsr-wk1106-grade.md` (BREN
 | Cushing | 27.356M, +0.106M | 27.250M |
 
 - BRENT's reading: the first large measured build since EIA's short-term outlook (11/10) moved Q4 to a 1.47 mb/d global build; it sides with the paper-surplus reading. BRENT's thesis v5.13 and its WAIT stance are unchanged.
-- ⚠️ BRENT's own caveat: one US week in a holiday-shortened period, not the global balance. The IEA monthly report on Fri 11/13 is the second agency read.
+- ⚠️ One US week, not the global balance. The IEA monthly report on Fri 11/13 is the second agency read. (Corrected 2026-11-12 12:39 ET: this line first relayed BRENT's "holiday-shortened period"; Veterans Day delayed the release, not the 11/6 data week, per CATO's review and EIA's schedule; BRENT has been asked to correct its note.)
 - BRT-31 (US gasoline demand weakening): week five NON-QUALIFYING at −1.0346% four-week YoY (needs −1.5% twice running); the "volume resilient" ending is no longer reachable; OPEN, 40% unchanged. ⚠️ BRENT: mostly a base effect, current demand rose.
 - BRT-34 (distillate under 95.0M): 103.330M, 8.330M above the line; OPEN, 45% unchanged.
 - BRENT made no card and changed no gate, band or threshold.
