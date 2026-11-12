@@ -22,15 +22,15 @@ Canonical agent paths stay flat as `AGENTS/<NAME>/`. Do not reorganize agent dir
 | Grouped directory navigation | `AGENTS/_INDEX.md` |
 | Orchestration and spawn contract | `PROME/ORCHESTRATION_PLAYBOOK.md` · `PROME/COMPLETION_SPEC.md` |
 
-Do not recreate roster membership or responsibility classes here; when another surface disagrees with `PROME/ROSTER.md`, the roster wins. *(The per-agent routing table that lived here through 2026-08-29 was retired under WQ-128 (`PROME/WILL_QUEUE.md` row 128, 2026-08-29) — every fact in it lives at its owner; history → `docs/CANON_PROVENANCE.md` `key: agents-routing-table`.)*
+Do not recreate roster membership or responsibility classes here; when another surface disagrees with `PROME/ROSTER.md`, the roster wins.
 
 ## Transmission chains
 
 Transmission chains and their routes live in `AGENTS/_NETWORK.md`, which is canonical: § Chain summary plus the map body. They are not restated here.
 
-Potash routes to FERT at **triage depth** — log it and flag PROME, no deep-dive; full rule in `AGENTS/FERT/CLAUDE.md` §POTASH. ⛔ "potash is UNOWNED" is kill-on-sight fleet-wide.
+Potash is triage-only at FERT (root `CLAUDE.md`; full rule `AGENTS/FERT/CLAUDE.md` §POTASH). ⛔ "potash is UNOWNED" is kill-on-sight fleet-wide.
 
-**Cross-chain roles:** NEXUS synthesizes across domains · RED challenges every thesis and hunts falsifiers · TERRY converts thesis into trade construction (entry, structure, sizing, invalidation, roll rules, postmortems) and never executes · WALTER owns signal and news routing · PROME coordinates priorities, decisions and operator-facing synthesis · MARCO feeds immigration / labor supply into LABOR, BRENT and CORAL · ORACLE supplies prediction-market evidence as an independent calibration signal · DAEDALUS is the on-demand fleet architect (launched by PROME or Will).
+**Cross-chain roles:** NEXUS synthesizes across domains · RED challenges every thesis and hunts falsifiers · TERRY converts thesis into trade construction (entry, structure, sizing, invalidation, roll rules, postmortems) and never executes · MARCO feeds immigration / labor supply into LABOR, BRENT and CORAL · ORACLE supplies prediction-market evidence as an independent calibration signal · DAEDALUS is the on-demand fleet architect (launched by PROME or Will).
 
 ## Coordination and authority
 
