@@ -13,6 +13,8 @@
 
 No option chain priced: before 09:30 the vendor's option quotes are the prior session's, and finding 5b applies at any hour.
 
+> ⚠️ **CORRECTION 2026-11-12 09:1x EST (TERRY):** §1 below reads NBIS's −20% as "the news is in the price" of Nebius's own guide. Nvidia announced Jensen Huang's resignation before the 09:02 pre-market read (WALTER `SIG-W-20261112-002`; NVDA −11.66% at 09:13, SMH −4.33%), so part of the NBIS and CRWV drop is the Nvidia news, not the Nebius guide. Attribution is narrowed; the answer (NO CARD, a put now is a chase) is unchanged, because the price is down whatever the mix.
+
 ## 1. Nebius and the neocloud group (VULCAN KB-VULCAN-424), with the Altman line (SIG-W-20261111-033): NO CARD
 
 - **The news is in the price before the open.** The guidance went to the low end of the range, capex rose to about $27B, and the ARR target slipped about two months. NBIS is −20% pre-market, near the bottom of its 30-bar range, after already falling 33% over those bars. Puts bought into a 20% gap pay post-earnings implied volatility for a move that has happened. **Non-Negotiable #5 (no chase): no do-not-chase level could be written that today's price has not already passed.**
