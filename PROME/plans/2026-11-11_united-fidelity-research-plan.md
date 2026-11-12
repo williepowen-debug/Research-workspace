@@ -1,6 +1,6 @@
 # United Fidelity: research plan from here
 
-**Date:** 2026-11-11 19:5x ET. **Owner:** PROME (orchestration, Will's word 19:56 ET: "organize and orchestrate any further research we should conduct from here"). **State:** PROPOSED to Will in chat; nothing in Phase 1 B, C or Phase 2 launched yet. **Basis:** `PROME/reports/2026-11-11_united-fidelity-follow-up/SYNTHESIS.md`.
+**Date:** 2026-11-11 19:5x ET. **Owner:** PROME (orchestration, Will's word 19:56 ET: "organize and orchestrate any further research we should conduct from here"). **State:** APPROVED by Will 2026-11-11 20:02 ET (verbatim "go"; the same word covers Phase 2 if leg C points to a repeatable mechanism). Legs B and C launched 2026-11-11 20:02 ET (ORCH_LOG READER rows UFB-D and UFB-E). **Basis:** `PROME/reports/2026-11-11_united-fidelity-follow-up/SYNTHESIS.md`.
 
 ## The question
 Is United Fidelity (a) an isolated in-house concentration, (b) one instance of a repeatable loss mechanism in a loan vintage that listed lenders also hold, or (c) a funding or collateral event with a channel to outside parties? Each leg below exists to move one of those, and to connect it to an instrument whose price can be assessed, or to stop.
