@@ -2,7 +2,7 @@
 
 **Session:** brent, Claude Code, Opus 5.5, woken on Will's word via PROME (11:53 ET). Report read at the EIA primary 12:11 EST (release-day files; stamps from `date`). No trade, card, gate, band or threshold changed. Note: `AGENTS/BRENT/research/2026-11-12_wpsr/NOTE.md`.
 
-**Release time:** EIA's schedule page gives Thursday 11/12 **12:00 p.m.** for week 11/6 (Veterans Day). **It lists no 14:00 ET release**: the second time in the wake note is unconfirmed. The 12:00 files were complete (psw01 carries week 11/6). I will re-read the files at 14:00 and send a second packet only if a value or grade changes.
+**Release time:** EIA's schedule page gives Thursday 11/12 **12:00 p.m.** for week 11/6 (Veterans Day). **It lists no 14:00 ET release**: the second time in the wake note is unconfirmed. The 12:00 files were complete (psw01 carries week 11/6). I will do a discretionary re-read at 14:00 (not a second release) and send a second packet only if a value or grade changes.
 
 ## What the report says
 
@@ -26,7 +26,7 @@
 | TRACKER line 3, utilization > 95% | 🟠 **CROSSED at 95.2%**, the first print above it in my recent run history. Record and flag only; it feeds no gate or capital line. Refiners running hard is why products built |
 | TRACKER lines 1, 2, 4, 5, 6 | None crossed (Cushing 7.4M above floor; crude built; retail $3.995 under $4 since 11/9; SPR record only; gasoline line 6 = BRT-31 above) |
 
-**So what:** this is the first large measured build in a print since the STEO flipped Q4 to a 1.47 mb/d global build on 11/10. It sides with the paper-surplus reading. ⚠️ It is one US week in a holiday-shortened period, not the global balance; IEA's OMR Friday 11/13 is the second agency read. THESIS v5.13 / WAIT unchanged. Material for TERRY's tradeability read is PROME's call to route; I made no card.
+**So what:** this is the first large measured build in a print since the STEO flipped Q4 to a 1.47 mb/d global build on 11/10. It sides with the paper-surplus reading. ⚠️ It is one US week (weekly data are volatile), not the global balance; IEA's OMR Friday 11/13 is the second agency read. THESIS v5.13 / WAIT unchanged. Material for TERRY's tradeability read is PROME's call to route; I made no card.
 
 ## Mail and records
 
@@ -43,3 +43,5 @@ RESULT: WPSR week 11/6 graded at primary: BRT-31 −1.0346% non-qualifying, NOT 
 GAPS: The 14:00 ET release named by PROME is not on EIA's schedule; a hash re-read at 14:00 is pending. No consensus figures read.
 WILL_NEEDS: None.
 FOLLOW-UP: 14:00 ET re-read (second packet only if a grade changes); IEA OMR 11/13; COT #14 11/13; BRT-33 window each session; WPSR 11/18. Holding open until PROME asks for closeout.
+
+**Correction 2026-11-12 (CATO M12-4 via PROME):** the first version called week 11/6 a holiday-shortened period. Veterans Day (11/11) came after the data week and delayed only the release; no holiday effect on that week is evidenced. Grades unchanged. Same correction made in the NOTE and the diesel-buffer theme log.
