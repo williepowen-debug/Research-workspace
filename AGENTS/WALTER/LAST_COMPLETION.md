@@ -78,7 +78,7 @@ Tier 2 FULL closeout, walter-b2, evening on the laptop. Prior: FULL 2026-11-11T1
     {
       "commit": "4b085ad9a5",
       "state": "published",
-      "note": "card 20261112-008 Treasury par 10Y 5.10% (HENRY doorbell), 7 handoffs; push and reconcile at this light closeout"
+      "note": "card 20261112-008 Treasury par 10Y 5.10% (HENRY doorbell), 7 handoffs; safe-push CONFIRMED at 58c86ae8b7; reconciled 7 rows delivered"
     },
     {
       "commit": "c3c65621ce",
