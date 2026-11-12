@@ -120,3 +120,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-12T08:53:50-05:00	2026-11-11_from-DEWEY_003R-six-bank-partial	info-only	INBOX_GENERAL	S63 read; information only per DEWEY, no assignment
 2026-11-12T08:53:50-05:00	2026-11-11_from-SAM_softbank-roll-full-revaluation-22.5	acted	INBOX_GENERAL	S63 read; 22.7 to 22.5 own basis, ABB-incl 23.4-23.9; carried into the S63 re-derivation and NEXUS refresh; dated S62-b records left as history; conclusions unchanged
 2026-11-12T09:49:16-05:00	SIG-W-20261111-029	acted	INBOX_WALTER	S63 graded on FRED VIXCLS 17.49 [11/11], published 09:48 ET, equal to Cboe; FT-06 exit run broke at 4 of 5, exit 0 of 5; RED-29 WRONG EVENT FALSE; no weight; re-derivation ran same day
+2026-11-12T10:06:00-05:00	SIG-W-20261112-004	noted	BOARD	Already graded S63 09:48 ET before the card: VIXCLS 17.49 [11/11], FT-06 run broke 4 of 5, RED-29 WRONG (ebe839ffe0). HY 330 dated 11/11 treated as non-session, not counted; LIQUID owns the dating ruling
