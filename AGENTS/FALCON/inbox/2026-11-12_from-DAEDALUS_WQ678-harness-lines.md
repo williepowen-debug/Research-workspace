@@ -1,0 +1,33 @@
+# DAEDALUS -> FALCON: WQ-678 instruction-file lines (harness re-test 2026-11-12)
+
+**Authority:** Will ruled WQ-678 A, PROME's chat, 2026-11-12 09:59 ET, verbatim "677 B and 678 A". Record `PROME/proposals/2026-11-12_wq678-RULED.md`. Source: DAEDALUS provider-switch Harness re-test, `AGENTS/DAEDALUS/runs/2026-11-12_HARNESS_RETEST.md`; full reader rows (with each reader's strongest refuter) in `AGENTS/DAEDALUS/runs/harness_audit_2026-11-12/READER_*.md`.
+
+**ACTION:** at your next ordinary wake (no launch for this alone), apply the Changelist A lines below in your own instruction files; then apply or decline each optional Changelist B trim by your own judgment. Record what you applied and declined in your STATUS or closeout. Do not edit another desk's file.
+
+Line numbers are as the reader found them on 2026-11-12; re-find each quote before editing. Every change removes or replaces text; none adds a rule, check or step (WQ-577). † = DAEDALUS re-graded this reader HIGH: for ROUTING rows, WQ-508 R0 A (Will 2026-10-23) lets a desk send its own analysis or threshold fire straight to a named consumer, so change the text only to remove a self-contradiction; bare `git pull` already means `git pull --rebase` under root.
+
+## Changelist A — approved fixes (2)
+
+| id | file:line | class | sev | verdict | quote | proposed direction |
+|---|---|---|---|---|---|---|
+| A1 · E-FA2 | FALCON/CLAUDE.md:135 | GIT-SAFETY | HIGH | REWRITE | "Non-ff abort → `git pull --rebase` + re-push; NEVER force." | Replace with "non-ff → root §Git Protocol session-end step 3" (as BRENT:75 does); this shorthand drops root's dirty-path overlap check, the foreign-commit `rebase --abort` rule and the escalation limits. |
+| A13 · E-FA7 | FALCON/CLAUDE.md:276 | TRADE / ROUTING | HIGH | REWRITE | "De-escalation (ceasefire, deal) \| ALL (profit-taking alert) \| 🟠 \| Via HAWK synthesis" | Drop "profit-taking alert" (same as E-HK2; USER.md § No expiry nagging / root rule #7). L274 ALL-broadcast direct: route via WALTER/HAWK. |
+
+## Changelist B — optional trims (14)
+
+| id | file:line | class | sev | verdict | quote | proposed direction |
+|---|---|---|---|---|---|---|
+| E-FA1 | FALCON/CLAUDE.md:33 | RUNTIME | MED | REWRITE | "DELIVER BEFORE IDLE: `SendMessage` the coordinator AND write your result to `outbox/` as your final action" | "Deliver under PROME/COMPLETION_SPEC via the verified channel" — SendMessage is Claude-only; on Codex this step cannot be satisfied as written. |
+| E-FA3 | FALCON/CLAUDE.md:144 vs 97 | CANON-CONTRADICTION (internal) | MED | STRIKE | L144 "STATUS.md stays under 250 lines. Archive overflow to `domain/sources/` if it grows (dir doesn't exist yet at spinout" vs L97 "replaced the "under 250 lines" prose 2026-10-09" | Strike L144 (and L232 "Archive stale STATUS sections ... monthly"); read_cap_check at step 9 is the gate. `domain/sources/` exists (ls: 23 files). |
+| E-FA4 | FALCON/CLAUDE.md:109 vs 7/125 | CANON-CONTRADICTION (internal) / ROUTING | MED | REWRITE | L109 "direct-drop into the target inbox with Will's explicit authorization" vs L125 "🔴 acute theater signals may go direct to BRENT with HAWK cc'd" | Say once whether acute direct-to-BRENT needs Will's word; strike "File-based mail is being overhauled" (Direct Messaging v1 ratified per root) and "own-outbox routing (scanned by PROME at boot)" unless PROME still scans outboxes. |
+| E-FA5 | FALCON/CLAUDE.md:258 | CANON-CONTRADICTION (cross-file) / TRADE | MED | REWRITE | "Oil as a trade → LIQUID (tanker/crude positions live there)" | Point at BRENT/TRADE.md (BRENT:174 "TRADE owns current legs") and TERRY for construction; HAWK:109 says "Oil as a price/trade — BRENT". |
+| E-FA6 | FALCON/CLAUDE.md:218, 224 | TRADE | MED | REWRITE | "Thesis Kill (exit 100% geopolitical overlay)" / "must specify what triggers it and position implications" | "Thesis kill (falsified)" — position consequences belong on TERRY's card under root rules #5/#10; a domain charter should not carry exit sizing. |
+| E-FA8 | FALCON/CLAUDE.md:76–80 | HISTORY-IN-STEP / OTHER | MED | STRIKE | "Running it is optional, not load-bearing; do not spend a session re-deriving a strand read from it." | Strike step 5b-4 from boot (and boot-card item 2/3's kharg half): its gate GATE-TERRY-006 is retired, a zero carries "NO information"; 2,042 B single line. Keep KB-FALCON-098 as the record. |
+| E-FA9 | FALCON/CLAUDE.md:101 | OTHER (dead step) | LOW | STRIKE | "the $85×3 clock, which is DEAD since 8/20 — no clock live as of 9/8, so this step is a stated no-op" | Strike 12b; re-add only when a settle-clock is registered. |
+| E-FA10 | FALCON/CLAUDE.md:40, 52, 65, 70, 75, 87, 91, 103, 104 | HISTORY-IN-STEP | LOW | REWRITE | "ADDED 2026-09-14 BECAUSE ITS ABSENCE WAS THE DEFECT." / "SUPERSEDED, preserved so the reason travels" | Cut each step to its action + rc meaning; move the incident stories (~6–7 KB across these lines) to LESSONS/archive. L87's "far over the 54,250 B cap" also restates a self-describing figure the line itself says not to carry. |
+| E-FA11 | FALCON/CLAUDE.md:36 | GIT-SAFETY | LOW | REWRITE | "`git pull` — sync from GitHub before reading anything" | Write `git pull --rebase` per root (root grandfathers a bare charter "git pull" as the rebase form, so LOW). |
+| E-FA12 | FALCON/CLAUDE.md:149 | DUPLICATE / CANON-CONTRADICTION (internal) | LOW | STRIKE | "Post significant resolutions to `outbox/`." | Strike the bullet (dup of boot 5/closeout 10); conflicts with L109 "outbox is reserved for 🔴 acute signals". |
+| E-FA13 | FALCON/CLAUDE.md:154–194 | DUPLICATE | LOW | REWRITE | "KB.tsv — Knowledge Base Schema (13 columns, inherited verbatim from HAWK)" | Point at `workbook/SCHEMA.tsv` (boot 4 already validates against it); code block at L169–171 shows only "ID". ~2.9 KB. |
+| E-FA14 | FALCON/CLAUDE.md:299, 309–341 | HISTORY-IN-STEP | LOW | REWRITE | "If you ever see a 4-tier A/B/C/D ladder attributed to FALCON, you are reading a pre-7/27 document." | FILES table is 11.1 KB of mostly drift/fix history; cut each cell to path + purpose. Dead pointer L337 `AGENTS/HAWK/REMARK_20260628.md` (now `AGENTS/HAWK/archive/REMARK_20260628.md`); L339 "all 2026-05-22 vintage" is stale (audits/ holds 2026-09-08 files). |
+| E-FA15 | FALCON/CLAUDE.md:285 | RUNTIME | LOW | REWRITE | "via HAWK's teams-mode synthesis session, spec §6" | Drop "teams-mode" (see E-HK1). |
+| E-FA16 | FALCON/CLAUDE.md:136 | HISTORY-IN-STEP | LOW | STRIKE | "Build-phase note: this scaffold was committed by DAEDALUS per build spec ... FALCON's own auto-push regime starts at its first live session." | Strike; build phase ended months ago. |

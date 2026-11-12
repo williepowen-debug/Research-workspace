@@ -1,0 +1,25 @@
+# DAEDALUS -> OSPREY: WQ-678 instruction-file lines (harness re-test 2026-11-12)
+
+**Authority:** Will ruled WQ-678 A, PROME's chat, 2026-11-12 09:59 ET, verbatim "677 B and 678 A". Record `PROME/proposals/2026-11-12_wq678-RULED.md`. Source: DAEDALUS provider-switch Harness re-test, `AGENTS/DAEDALUS/runs/2026-11-12_HARNESS_RETEST.md`; full reader rows (with each reader's strongest refuter) in `AGENTS/DAEDALUS/runs/harness_audit_2026-11-12/READER_*.md`.
+
+**ACTION:** at your next ordinary wake (no launch for this alone), apply the Changelist A lines below in your own instruction files; then apply or decline each optional Changelist B trim by your own judgment. Record what you applied and declined in your STATUS or closeout. Do not edit another desk's file.
+
+Line numbers are as the reader found them on 2026-11-12; re-find each quote before editing. Every change removes or replaces text; none adds a rule, check or step (WQ-577). † = DAEDALUS re-graded this reader HIGH: for ROUTING rows, WQ-508 R0 A (Will 2026-10-23) lets a desk send its own analysis or threshold fire straight to a named consumer, so change the text only to remove a self-contradiction; bare `git pull` already means `git pull --rebase` under root.
+
+## Changelist A — none for this desk
+
+## Changelist B — optional trims (11)
+
+| id | file:line | class | sev | verdict | quote | proposed direction |
+|---|---|---|---|---|---|---|
+| E-OS1 | OSPREY/CLAUDE.md:40 | STALE-INVOKER (dead path) | MED | REWRITE | "Read the `## Cluster overview` ToC at the top of `/BOARD/INDEX.md` (~3 KB, bounded by construction) ... `grep -n 'OSPREY' /BOARD/INDEX.md`" | Use repo-relative `BOARD/INDEX.md` (`ls /BOARD/INDEX.md` → no such file; repo `BOARD/INDEX.md` exists); drop the "~501 KB ... ~9×" figure (file now 1,123,400 B) and the SIG-W history. |
+| E-OS2 | OSPREY/CLAUDE.md:30 vs 54 | CANON-CONTRADICTION (internal) | LOW | REWRITE | L30 "Read `SCRATCH.md` ... (Mirror of closeout step 12.)" vs L54 "13. Rewrite `SCRATCH.md`" (L53 step 12 = Falsification check) | Strike the "(Mirror of closeout step N)" parentheticals (L29, L30, L50, L54) — they are the retired boot/closeout-symmetry bookkeeping and one is wrong. |
+| E-OS3 | OSPREY/CLAUDE.md:50 vs 89 | DUPLICATE / CANON-CONTRADICTION | LOW | REWRITE | "Keep under 250 lines AND under the 32,550 B read cap — check with ... `PROME/tools/measure.py`" | One gate, root's: `scripts/read_cap_check.py --agent OSPREY` (as HAWK/FALCON use); strike L89's repeat of the 250-line rule. |
+| E-OS4 | OSPREY/CLAUDE.md:37 (iv) | OTHER (cwd-dependent) | LOW | REWRITE | "run `python3 scripts/strike_feed.py`" | Write the cwd-proof form used elsewhere in the file (`"$(git rev-parse --show-toplevel)/AGENTS/OSPREY/scripts/strike_feed.py"`); from repo root `scripts/strike_feed.py` does not exist. |
+| E-OS5 | OSPREY/CLAUDE.md:60 | STALE / DUPLICATE | LOW | STRIKE | "File-based mail is being overhauled (auto-memory `project_messaging_overhaul`)." | Strike the status sentence (Direct Messaging v1 is ratified per root); keep "outbox reserved for 🔴 acute" if still meant — but L65 says packets go direct to recipient inbox, so say one thing. |
+| E-OS6 | OSPREY/CLAUDE.md:144–224 | HISTORY-IN-STEP | LOW | REWRITE | "R2 superseded text: ... R3: no mark moved. Direction: ..." / "Will, 2026-09-08 ~23:0x ET, in-session, verbatim: "all approved go ahead"" | EXIT RULES (L144–225) is 27,650 B (measured) of which most is ruling provenance (verbatim quotes, superseded text, back-tests, expired 7-day objection window L182 "to 2026-09-15"). Keep each in-force letter; move R1/R2/R3 riders and quotes to the cited ruling records. |
+| E-OS7 | OSPREY/CLAUDE.md:174 vs 146 | CANON-CONTRADICTION (internal) | LOW | REWRITE | L174 "`GATES.tsv:9` states OSPREY's Channel-2 path is" vs L146 "Cite the SECTION, not the line — a line anchor in a file that edits itself is a dangling pointer" | Cite GATE id, not `:9`. |
+| E-OS8 | OSPREY/CLAUDE.md:25 | OTHER (wrong pointer) | LOW | REWRITE | "(root CLAUDE.md `feedback_intra_day_closeout_discipline`)" | Root CLAUDE.md has 0 matches; the slug is `memory/auto/feedback_intra_day_closeout_discipline.md`. Or strike — "run at every session end" stands alone. |
+| E-OS9 | OSPREY/CLAUDE.md:36 | HISTORY-IN-STEP / DUPLICATE | LOW | REWRITE | "it does not exist until this desk's first receipt — none owed as of 2026-10-08" | Strike the clause (registry/corrections_receipts.tsv now exists) and the wiring history. |
+| E-OS10 | OSPREY/CLAUDE.md:261, 266 | RUNTIME / TRADE | LOW | REWRITE | "FALCON: none routine (separate theaters); teams-mode only for a cross-war event" | Drop "teams-mode" (see E-HK1). L261 De-escalation → ALL is "via HAWK synthesis" — no profit-taking wording here, KEEP. |
+| E-OS11 | OSPREY/CLAUDE.md:97–134, 7, 19, 81, 298 | DUPLICATE / HISTORY-IN-STEP | LOW | REWRITE | "KB.tsv — Knowledge Base Schema (13 columns, verbatim from HAWK/fleet standard)" | Point at workbook/SCHEMA.tsv (~2.5 KB); strike founding-lesson narrative (L19, LESSONS item 1 holds it), C4 fix history (L81), build/acceptance history (L298). |
