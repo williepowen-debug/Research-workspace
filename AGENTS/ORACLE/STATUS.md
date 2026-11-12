@@ -108,7 +108,7 @@
 | Axis | Crowd says | Our thesis | Gap | State |
 |---|---|---|---|---|
 | Bank failure | any-bank 70.5 (⚠️ $2.2K liq); named top 3.4 | REGINALD | book too thin to mark | 🟠 thin instrument |
-| Fed path | Dec hike PM 76.5 / Kalshi 78.0; futures about 76–80 | LIQUID/HENRY own | no gap worth flagging | 🟠 repriced twice in two days |
+| Fed path (row as of 11/11 14:45Z) | Dec PM hold 3.5 / +25 85.5 / +50 11.8; Kalshi 3 / 85 / 11; futures +28.9bp (⚠️ Yahoo last trades, not settlements; size, not odds) | **ORACLE owns the December priced path (WQ-671 A, 11/11)**; other desks cite ORACLE's dated read | size only: venues +50 at 11–12 vs futures about 16–19 by conversion, inside its error | 🟠 KB-ORC-133 |
 | Rates (10Y) | Nov rungs thin; not re-read | BOND/TERRY own | par==DGS10 unconfirmed | 🟡 |
 | Inflation | Oct CPI modal at 86.0 ⚠️ thin | HENRY owns the print | no Kalshi October YoY event | 🟡 |
 | Recession 2026 | PM 4.5 / Kalshi 4.0 | RED 4–12% (NBER-dated) | structural definitional gap | 🟡 |

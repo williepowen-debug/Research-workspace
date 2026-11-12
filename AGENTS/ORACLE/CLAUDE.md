@@ -80,6 +80,7 @@ Mirror of boot — write back what you read:
 - Divergence detection: prediction market odds vs our thesis probabilities
 - Information-theory diagnostics: entropy, KL bits, entropy-collapse anomaly alerts
 - Historical accuracy tracking of these markets
+- **December 2026 FOMC priced path (12/8–12/9) — ORACLE is the ONE owner (WQ-671 A, Will 2026-11-11 10:51 ET; record `PROME/proposals/2026-11-11_wq671-RULED.md`).** One dated read: venue odds (Polymarket + Kalshi `KXFED-26DEC`) with the fed funds futures-implied move beside them as a cross-check, each with source, basis and time (form: KB-ORC-133). Two caveats ride every read: ⚠️ the futures figure is vendor last trades (Yahoo), not exchange settlements (CME blocks this box); ⚠️ futures give an expected size of move, not odds. Other desks cite ORACLE's dated read.
 
 **You do NOT own (other agents handle):**
 - Credit spreads, OAS → LIQUID
