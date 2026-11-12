@@ -75,3 +75,15 @@ All six walls passed the cross-horizon check and are published (`workbook/PUBLIS
 (Published values; a first unpublished run 30 s earlier read SPX flip 7,632 / 7,633, +$3.7B / +$3.6B. Contract counts move between pulls.)
 
 **Read change:** the S&P map turned from shallow NEGATIVE (09:48) to marginal POSITIVE: dealer hedging now damps moves rather than amplifying them. **It is only just:** spot is about 0.1% over an estimated level; a 10-point dip reverses it. The put wall at 7,500 lost its clean margin at this spot (gamma at a strike depends on spot), so the support quote is now a band. The recovery is cap-weighted with Nvidia still −4% and equal weight −0.13%: large names other than Nvidia carried it (combo: narrow-rebound-or-broadening). No HENRY line is near firing; no prediction, score or band moved.
+
+## 4. Close-hour re-read (Will asked 15:35 ET; gamma 15:36 ET, published)
+
+**15:36 ET (vendor):** SPX 7,589.31 (−0.39%), NDX 28,229.42 (−0.51%), QQQ $686.63 (−0.54%), NVDA $163.31 (−6.00%), RSP −0.72%, IWM −1.61%, SMH −1.61%, KRE $72.46 (−0.68%), HYG −0.42%, VIX 18.65 (+6.63%), VIX3M 20.02 (contango), 10Y 5.10%, 30Y 5.43%, USD/JPY 159.84 (+0.06%). Open-low watcher (≤7,570) had not fired.
+
+| Chain (`--both --publish`, 15:36 ET, vendor spot) | Spot | Flip 14d / 35d | Regime, net GEX per 1% | Walls |
+|---|---:|---:|---|---|
+| SPX | 7,589.3 | 7,632 / 7,634 | **NEGATIVE** both, −$20.7B / −$25.4B, 43–45 pts under | 7,500 put **clean #1 again** (14d +21%, 35d +17%); 7,700 call clean both |
+| QQQ | 686.63 | 692.92 / 693.17 | **NEGATIVE** both, −$1.4B / −$1.6B, about 6 pts under | 680 put, 700 call, clean both |
+| NDX | 28,229 | 28,173 / 28,271 | **SIGN SPLIT** (14d +$0.1B, 35d −$0.1B): inside the flip band, no regime called | 28,000 put, 29,675 call, clean both |
+
+**Read change vs 11:09:** the S&P map went from marginal POSITIVE (+$3.6B, 6–8 pts over) to clearly NEGATIVE (−$21B to −$25B, about 0.6% under the flip). Dealer hedging amplifies into the close and tomorrow's PPI open. The 7,500 put wall is clean again at this spot, so it is a strike rather than a band: 89 pts (1.2%) below, with the 7,567 open low in between. **Breadth turned:** at 11:09 cap weight led equal weight; now RSP −0.72% and IWM −1.61% trail SPX −0.39%. The selling has spread past Nvidia (combo theme narrow-rebound-or-broadening now reads broadening DOWN). **Caveats:** $B is assumption-dependent; the map is 11/11 open interest at today's price; MOC flow is not in it. No HENRY line is near firing (SPX 389 pts over its 7,200 yellow line); no prediction, score or band moved.
