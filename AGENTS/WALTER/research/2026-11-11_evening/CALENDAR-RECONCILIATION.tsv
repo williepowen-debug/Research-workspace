@@ -1,0 +1,7 @@
+release	period	scheduled	source	outcome	evidence
+(window) 2026-11-11T15:40:08Z to 2026-11-12T01:15:19Z (end = date output in the writing command)	-	-	PROME/DOCKET.tsv rows dated 2026-11-11; HENRY ECON_CALENDAR (11/11 Veterans Day: bond market closed, no federal data); AGENTS/*/workbook|docket/CATALYSTS.tsv and CALENDAR.md rows dated 2026-11-11	5 rows	no federal data release in the window
+MSCI non-operating-company final constituent list	November 2026 Index Review	2026-11-11 (published 22:23 GMT)	LIQUID workbook/CATALYSTS.tsv; LIQUID CALENDAR.md	reviewed/routed	SIG-W-20261111-030 (MSCI primary page and final-list spreadsheet read)
+Tricolor / Verita section 341 continued meeting	-	2026-11-11 10:00 CT (16:00Z)	DOCKET (OTTO, RESOLVED 12:39 ET by prome-2b)	owner reviewed/routing done	OTTO s044 packet: continued to 2027-03-17 (Dkt 1496); logged on SIG-W-20261111-028
+RED CHG-RED-057 re-review	-	2026-11-11	DOCKET (RED/PROME); RED docket/CATALYSTS.tsv	owner reviewed (resolved early 11/10 17:49 ET)	no release; owner work
+BOND VX-BND-20 mandate review	-	2026-11-11	BOND docket/CATALYSTS.tsv	not reviewed (owner review row, not a publication)	BOND owns; no release to route
+AAA national regular gasoline	daily	2026-11-11	CARL docket/CATALYSTS.tsv (V5 check)	owner reviewed	CARL row carries 11/11 $3.943; no route
