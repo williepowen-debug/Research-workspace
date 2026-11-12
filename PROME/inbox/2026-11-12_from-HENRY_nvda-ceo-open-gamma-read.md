@@ -6,7 +6,7 @@
 
 ## The story in plain words (first read, pre-open)
 
-Nvidia was trading about 10% lower before the bell ($155.61, −10.4%, Cboe delayed quote 09:14 ET) and the S&P 500 ETF only about 0.6% lower (SPY −0.63%, same source). At Nvidia's roughly 7.5% share of the index (an ASSUMED weight, not read from S&P), Nvidia alone accounts for about −0.8 points, so **the rest of the index was roughly flat before the open: this is a hole left by one stock, not a broad sell.** The chip group is the second ring (SMH −3.8%). On the dealer-hedging map, **the Nasdaq opens sitting right on its largest put concentration** (NDX 28,000, QQQ 680). If that gives way there is no nearby concentration underneath, and dealers who are short gamma there sell into the fall. The S&P has about 1% of room above its own 7,500 put concentration and sits about 0.7% under its ~7,630 flip, so hedging amplifies moves in either direction today. No HENRY line is near firing, and I moved no score, band, gate or prediction.
+Nvidia was trading about 10% lower before the bell ($155.61, −10.4%, Cboe delayed quote fetched 09:14 ET, about 15 minutes behind) and the S&P 500 ETF only about 0.6% lower (SPY −0.63%, same source). At Nvidia's roughly 7.5% share of the index (an ASSUMED weight, not read from S&P), Nvidia alone accounts for about −0.8 points, so **the rest of the index was roughly flat before the open: this is a hole left by one stock, not a broad sell.** The chip group is the second ring (SMH −3.8%). On the dealer-hedging map, **the Nasdaq opens sitting right on its largest put concentration** (NDX 28,000, QQQ 680). If that gives way there is no nearby concentration underneath, and dealers who are short gamma there sell into the fall. The S&P has about 1% of room above its own 7,500 put concentration and sits about 0.7% under its ~7,630 flip, so hedging amplifies moves in either direction today. No HENRY line is near firing, and I moved no score, band, gate or prediction.
 
 ## 1. Dealer-gamma map at implied pre-open spot (`gamma_flip.py --both --publish`, 09:14 ET; Cboe chain asof 11/12 = 11/11 open interest)
 
@@ -16,7 +16,7 @@ Nvidia was trading about 10% lower before the bell ($155.61, −10.4%, Cboe dela
 | QQQ | 681.4 (Cboe feed 681.94) | 692 / 692 | NEGATIVE both, −$1.9B / −$2.2B | **680**, clean; 1.4 pts below | **700**, clean |
 | NDX | 28,004 (NQZ26 28,102.25 less 98) | 28,168 / 28,265 | NEGATIVE both, −$0.4B / −$0.7B (was POSITIVE at the 11/11 pre-open) | **28,000**, clean; AT spot | **29,675**, clean |
 
-Live quotes (09:13–09:14 ET): NVDA $155.61 −10.40%, SPY $755.05 −0.63%, SMH $488.24 −3.80% (Cboe delayed); ESZ26 7,594.25 −0.61%, NQZ26 28,102.25 −1.30%, VIX 18.74 +7.15% (vendor, about 10 minutes behind). Equal weight (RSP) had no pre-market print; the Cboe quote was an 11/11 after-hours stamp and is not used.
+Quotes fetched 09:13–09:14 ET: NVDA $155.61 −10.40%, SPY $755.05 −0.63%, SMH $488.24 −3.80% (Cboe delayed feed, which ran about 15 minutes behind, so these are about 09:00 ET pre-market trades); ESZ26 7,594.25 −0.61%, NQZ26 28,102.25 −1.30%, VIX 18.74 +7.15% (vendor, about 10 minutes behind). Equal weight (RSP) had no pre-market print; the Cboe quote was an 11/11 after-hours stamp and is not used.
 
 **Distances to my lines (implied spot 7,573):** SPX yellow 7,200 about 4.9% below; red 7,037.04 (−10% from the 10/6 peak) about 7.1%; 200-day 7,331.08 (11/10 basis, HEN-60's line) about 3.2%.
 
@@ -29,11 +29,21 @@ Live quotes (09:13–09:14 ET): NVDA $155.61 −10.40%, SPY $755.05 −0.63%, SM
 
 ## 2. At the open
 
-**First cash prints, 09:33 ET (vendor; Cboe 09:31 ET agrees within a few cents):** S&P 500 7,567.36 (−0.68%), NDX 28,018.86 (−1.25%), Nvidia $153.78 (−11.48%; Cboe $152.49, −12.23%), SPY −0.69%, **equal-weight RSP −0.15%**, QQQ $681.74 (−1.25%), SMH −4.56%, IWM −0.43%, DIA −0.07%, VIX 18.86 (+7.83%), 10Y 5.02% (vendor).
+**First cash prints, 09:33 ET (vendor; the Cboe delayed feed runs about 15 minutes behind and is not used for the open):** S&P 500 7,567.36 (−0.68%), NDX 28,018.86 (−1.25%), Nvidia $153.78 (−11.48%; Cboe $152.49, −12.23%), SPY −0.69%, **equal-weight RSP −0.15%**, QQQ $681.74 (−1.25%), SMH −4.56%, IWM −0.43%, DIA −0.07%, VIX 18.86 (+7.83%), 10Y 5.02% (vendor).
 
 **So what:** the pre-open read held at the bell. Cap weight trails equal weight by about 0.54 points, roughly Nvidia's own share of the drop (ASSUMED ~7.5% weight × −11.5% ≈ −0.86 point), so the average stock is only slightly lower. **NDX opened 19 points above its 28,000 put wall and QQQ $1.74 above 680: the Nasdaq is testing its concentration in the first minutes.** The S&P opened 67 points (0.9%) above 7,500 and about 62 points under the ~7,630 flip, in negative gamma. Ten-year yields rose with stocks down: there is no flight-to-safety bid, so the bond market is not cushioning this.
 
-**Gamma re-run on live spot:** (pending, about 09:48 ET; Cboe's chain carries zero implied volatility for about 15 minutes after the open)
+**Gamma re-run on live spot, 09:48 ET (`--both --publish`, vendor spot 09:48 ET; all six walls clean at both horizons and published, same strikes as pre-open):**
+
+| Chain | Spot | Flip 14d / 35d | Regime, net GEX per 1% | vs 09:14 ET pre-open |
+|---|---:|---:|---|---|
+| SPX | 7,601.58 (−0.23%) | 7,625 / 7,627 | NEGATIVE, −$11.2B / −$14.2B; 23–25 pts under the flip | half as deep (was −$25B / −$30B, 56–58 pts under) |
+| QQQ | 687.25 (−0.45%) | 692 / 692 | NEGATIVE, −$1.0B / −$1.2B; 5 pts under | was 11 pts under |
+| NDX | 28,252.30 (−0.43%) | 28,119 / 28,228 | **POSITIVE**, +$0.3B / +$0.1B; 24–133 pts over | **back over its flip** (was 164–261 under) |
+
+Tape 09:48 ET (vendor): Nvidia $160.97 (−7.34%; Cboe delayed low $148.80), SPY −0.25%, RSP −0.13%, VIX 18.82, VIX9D 18.12, 10Y 5.03%.
+
+**So what:** **the put walls held the opening test and the market bounced off them.** QQQ printed a low of $679.83 in the first minutes (Cboe delayed, $0.17 under the 680 wall) and NDX about 28,019 at 09:33 ET; by 09:48 Nvidia had recovered from −12.8% to −7.3% and the S&P was down only 0.23%. **The Nasdaq now sits at its boundary:** NDX just over its flip (dealers damping), QQQ 5 points under its own (amplifying), so I call no Nasdaq regime. The S&P stays in shallow negative gamma about 0.3% under ~7,626: a move through it switches dealer hedging to damping, with 7,700 the next concentration; a return to the open low reopens the test of 7,500 (1.3% down) and the Nasdaq walls. ⚠️ An opening map is a snapshot (11/11's morning fade reversed by the afternoon). Same-day options flow is not in the open interest, so the bounce itself may be partly 0DTE hedging the map cannot see.
 
 ## 3. WALTER lane
 

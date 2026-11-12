@@ -9,9 +9,9 @@
 
 | Instrument | Level | Change vs 11/11 close | Source, time |
 |---|---:|---:|---|
-| Nvidia (NVDA) | $155.61 | −10.40% (from $173.73) | Cboe delayed quote, stamp 14:14:14Z = 09:14 ET |
-| SPY | $755.05 | −0.63% | Cboe delayed, 09:14 ET |
-| SMH (chip ETF) | $488.24 | −3.80% | Cboe delayed, 09:14 ET |
+| Nvidia (NVDA) | $155.61 | −10.40% (from $173.73) | Cboe delayed quote fetched 09:14 ET (feed about 15 min behind: about 09:00 ET trades) |
+| SPY | $755.05 | −0.63% | Cboe delayed, fetched 09:14 ET (about 15 min behind) |
+| SMH (chip ETF) | $488.24 | −3.80% | Cboe delayed, fetched 09:14 ET (about 15 min behind) |
 | QQQ | $681.94 | −1.22% (own calc on $690.38) | Cboe chain feed price, 09:14 ET |
 | ES Dec (ESZ26) | 7,594.25 | −0.61% | vendor, read 09:13 ET, runs about 10 min behind |
 | NQ Dec (NQZ26) | 28,102.25 | −1.30% | vendor, read 09:13 ET, about 10 min behind |
@@ -48,6 +48,16 @@ All six walls passed the cross-horizon check and are published (`workbook/PUBLIS
 - Cboe's chain carries IV = 0 for about 15 minutes after 09:30 ET; the opening re-run waits until about 09:47 ET.
 - **"HEN-57" on the card is not a map row.** HEN-57 is my October core CPI forecast, resolved 11/10 (NOT FIRED, core +0.3%). The gamma map has no prediction ID; I answered the map.
 
-## 2. Opening re-run
+## 2. At the open (09:33 ET prints, 09:48 ET gamma re-run)
 
-(pending: after about 09:47 ET)
+**09:33 ET (vendor; the Cboe delayed feed is about 15 minutes behind and not used for the open):** SPX 7,567.36 (−0.68%), NDX 28,018.86 (−1.25%), NVDA $153.78 (−11.48%; Cboe $152.49), SPY −0.69%, RSP −0.15%, QQQ $681.74, SMH −4.56%, IWM −0.43%, DIA −0.07%, VIX 18.86, 10Y 5.02%. Cap weight trailed equal weight by about 0.54pt, roughly Nvidia's own share (ASSUMED weight). NDX opened 19 pts over its 28,000 put wall.
+
+**09:48 ET (vendor):** SPX 7,601.58 (−0.23%), NDX 28,252.30 (−0.43%), QQQ 687.25, NVDA $160.97 (−7.34%), SPY −0.25%, RSP −0.13%, VIX 18.82, VIX9D 18.12, 10Y 5.03%. Cboe delayed lows in the first minutes: QQQ 679.83, NVDA 148.80, SPY 753.67. Note: Cboe "delayed" quotes ran about 15 minutes behind after the open (last trade 09:31 at a 09:46 stamp); the pre-open Cboe quotes are delayed the same way.
+
+| Chain (`--both --publish`, 09:48 ET) | Spot | Flip 14d / 35d | Regime, net GEX per 1% | Walls |
+|---|---:|---:|---|---|
+| SPX | 7,601.6 | 7,625 / 7,627 | NEGATIVE, −$11.2B / −$14.2B, 23–25 pts under | 7,500 put (+19% / +15%), 7,700 call, clean both |
+| QQQ | 687.25 | 692 / 692 | NEGATIVE, −$1.0B / −$1.2B, 5 pts under | 680 put, 700 call, clean both |
+| NDX | 28,252 | 28,119 / 28,228 | POSITIVE, +$0.3B / +$0.1B, 24–133 pts over | 28,000 put, 29,675 call, clean both |
+
+**Read:** the put walls held the opening test (QQQ $0.17 under 680 at the low) and the tape bounced; Nvidia halved its loss. Nasdaq at the boundary (NDX over its flip, QQQ under): no regime called. S&P shallow negative, about 0.3% under the flip. Snapshot caveat: the 11/11 opening read reversed by the afternoon. Wall rows hand-written to `PUBLISHED.tsv` (the script writes flips and GEX only, and overwrote the 09:14 ET flip rows with the 09:48 ET run; the pre-open figures live in § 1 and KB ML-HEN-217).
