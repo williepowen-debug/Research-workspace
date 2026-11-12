@@ -1,7 +1,7 @@
 # ORACLE STATUS
 
 **Live dashboard: prediction-market probabilities, divergences, alerts.**
-**11/11 READ FOLDED 2026-11-11 09:4x ET (desktop, Kalshi SIGNED, PROME catch-up wake): alerts 0000 to 0002 carry the 2026-11-11 14:45Z gate read (first pull of the ET date); everything below them is older and is re-based at the next full rewrite.** **FULL REWRITE 2026-11-06 (desktop, Kalshi SIGNED); CURRENT-STATE RECONCILED 2026-11-08 07:08 ET (laptop `WilliePOwen`, Kalshi UNSIGNED public read) after the 11/07 resolution; READ 2 FOLDED 2026-11-08 12:1x ET.** Alert 000, the Iran row, bottom line, tension #2 and catalysts reflect the **11/08 16:58Z** pull (Sunday, WQ-646 A read 2, context only). Alerts 00 to 3, the Iran and oil rows, the matrix, bottom line, tensions and catalysts reflect the **11/07 13:43Z** pull (Saturday, WQ-646 A read 1, context only). Every other figure is the **11/06 22:15Z** pull, a later same-date pull and so CONTEXT, never a gate read (letter O3); the 11/06 gate read is the routine's 10:15 ET pull. Next gate reads Mon 11/09.
+**11/12 READ FOLDED 2026-11-12 10:2x ET (desktop, Kalshi SIGNED, live session oracle-a6): alerts 0000 and 0001 carry the 2026-11-12 15:15Z gate read (routine e8c69052e6); alert 0002 the 14:1xZ Huang resolution read; everything below them is older and is re-based at the next full rewrite.** **FULL REWRITE 2026-11-06 (desktop, Kalshi SIGNED); CURRENT-STATE RECONCILED 2026-11-08 07:08 ET (laptop `WilliePOwen`, Kalshi UNSIGNED public read) after the 11/07 resolution; READ 2 FOLDED 2026-11-08 12:1x ET.** Alert 000, the Iran row, bottom line, tension #2 and catalysts reflect the **11/08 16:58Z** pull (Sunday, WQ-646 A read 2, context only). Alerts 00 to 3, the Iran and oil rows, the matrix, bottom line, tensions and catalysts reflect the **11/07 13:43Z** pull (Saturday, WQ-646 A read 1, context only). Every other figure is the **11/06 22:15Z** pull, a later same-date pull and so CONTEXT, never a gate read (letter O3); the 11/06 gate read is the routine's 10:15 ET pull. Next gate reads Mon 11/09.
 
 > **Prices here are a LOG, not a live quote.** Never cite this file as the current price; re-pull. Every figure carries platform/date/depth. Thin books (<$5K liq) are flagged ⚠️ and never marked on one print. Kalshi depth proxy = open interest. "PM" = Polymarket.
 
@@ -9,9 +9,9 @@
 
 ## 🔴 Alerts (read first)
 
-**0000. 🟠 DECEMBER FOMC NOW PRICED AS A HIKE FOR SURE, WITH ABOUT 1 IN 8 FOR A HALF POINT (11/11 14:45Z read).** PM hold **3.5** · +25 **85.5** (liq $681.2K) · +50 or more **11.8** (liq $367.8K) · cut 0.6. Kalshi `KXFED-26DEC`: above 4.00 97.0 (OI 140.1K) · above 4.25 12.0 (OI 161.0K) · above 4.50 1.0 ⇒ hold 3 · +25 85 · +50 11. Both about +27bp. Futures `ZQZ26` 95.915 (Yahoo last trade 09:30 ET, not a settlement), EFFR 3.88 (11/09) ⇒ **+28.9bp**; `ZQF27` +30.5bp. Futures lean about 2bp more hawkish than the venues: inside the conversion's error, not routed as a divergence. On 11/10 the hold leg fell mostly at Waller's 04:00 ET text (18.5 → 6.5), the +50 leg rose mostly at the 08:30 CPI (4.3 → 11.8). Since my last read (11/08): hold 22.5 → 3.5, +25 76.5 → 85.5, +50 0.5 → 11.8. VX-ORC-12 Alert held (reads 77.5 · 84.5 · 85.5); VX-ORC-07 🟠 on the hold pair (−18.35 in 24h). ⚠️ A later fall in the +25 leg may be a move to +50, not a collapse. → HENRY, LIQUID, BOND, CARL, PROME · KB-ORC-133
+**0000. 🟠 DECEMBER FOMC: A QUARTER-POINT HIKE AT ABOUT 90; HALF-POINT ODDS HALVED; VENUES AND FUTURES NOW AGREE (11/12 15:15Z read). ORACLE owns this figure (WQ-671 A).** PM hold **3.4** · +25 **90.5** (liq $727.8K) · +50 or more **6.2** (11.8 at 11/11). Kalshi `KXFED-26DEC` above 4.00 95.0 (OI 138.8K) · above 4.25 7.0 ⇒ hold 5 · +25 88 · +50 7. Venues about +25.6bp. Futures `ZQZ26` 95.93 (⚠️ Yahoo last trade 10:05 ET, not a settlement), EFFR 3.88 (11/10) ⇒ **+26.8bp** (⚠️ a size of move, not odds); `ZQF27` +29bp. The 11/11 size gap closed from both sides. Cause of the +50 fall not established. VX-ORC-12 Alert held (reads 84.5 · 85.5 · 90.5). → HENRY, LIQUID, BOND, CARL · KB-ORC-138 (supersedes KB-ORC-133)
 
-**0001. 🟡 IRAN: THE CROWD LEANS TOWARD A QUIET TWO WEEKS STARTING SOON, AND THE OIL WAR PREMIUM IS MOSTLY GONE (11/11 14:45Z).** Pause begins by 11/15 **54.5** (41.5 at 11/08) · 11/22 65.0 · 11/30 68.5 · 12/31 82.5; by-11/8 leg 25.5. WTI $110 Nov **7.0** (17.0 at 11/08) · invade 7.5 (10.5) · war 1.5 · Hormuz normal 12/31 8.5 · blockade end 3/31/27 64.5 (−4.0 1d) · Kalshi Brent over $97.99 / $95.99 at 11/30 25.0 / 30.0 (48.0 / 56.0 at 11/07). Spread +84.5pp (widening = the oil leg falling). VX-ORC-04 none (reads 11.5 · 7.5 · 7.0). → HAWK, BRENT, FALCON · KB-ORC-134
+**0001. 🟡 IRAN / OIL: OIL WAR PREMIUM NEARLY GONE (11/12 15:15Z).** WTI $110 Nov **5.5** (7.0 at 11/11, liq $37.7K) · invade 7.5 · war 1.6 · Hormuz normal 12/31 6.5 · blockade end announced 63.0 · Kalshi Brent over $97.99 / $95.99 at 11/30 25 / 30 (unchanged). 2-week pause by 11/30 66.5; the by-11/8 leg rose 21.5 → 32.5 in 48h (liq $28.5K), so the crowd leans to a pause already under way. ⚠️ Oil itself rose this morning (WTI above $87, Brent above $94, CNBC via card 20261112-002); the $110 tail did not. Spread +88.0pp. VX-ORC-04 none (reads 7.5 · 7.0 · 5.5). → HAWK, BRENT, FALCON · KB-ORC-134
 
 **0002. 🔴 NVIDIA: HUANG EXIT RESOLVED YES ON BOTH VENUES (11/12 14:1xZ); THE CROWD MOVED ON PUBLIC NEWS, NOT AHEAD OF IT.** Nvidia's release 11/12: Huang resigned as CEO and director, Kress interim (card SIG-W-20261112-002). Kalshi `KXCEONVDA` every leave-before leg determined YES at 14:11:04Z (before 1/1/27 was 17.0 on 11/11). PM legs 11/12 to 12/31/27 at 99.95, UMA "proposed", not yet final ($22.2M event). Path of the PM 12/31 leg: 16.5 (20:00Z 11/11) → 77.0 (22:30Z, after the WSJ after-hours ouster report and NVDA about −9% after hours) → faded to 74.0 overnight → 99.5 at 13:50Z. ⚠️ WSJ exact publish time not read. **Successor (interim does not count):** Kress PM 30.9 / Kalshi 33 · Ian Buck 27.5 / 27 · Haas 4.1 / 8. AI bubble burst 12.3 (7.0 on 11/11). Earnings markets thin, not marked. VX-ORC-07 Critical on the 12/31 pair (news-driven, resolving). → VULCAN, BROCK, SAM, TERRY, PROME · KB-ORC-137 (supersedes the 11/11 read, KB-ORC-135)
 
@@ -108,7 +108,7 @@
 | Axis | Crowd says | Our thesis | Gap | State |
 |---|---|---|---|---|
 | Bank failure | any-bank 70.5 (⚠️ $2.2K liq); named top 3.4 | REGINALD | book too thin to mark | 🟠 thin instrument |
-| Fed path (row as of 11/11 14:45Z) | Dec PM hold 3.5 / +25 85.5 / +50 11.8; Kalshi 3 / 85 / 11; futures +28.9bp (⚠️ Yahoo last trades, not settlements; size, not odds) | **ORACLE owns the December priced path (WQ-671 A, 11/11)**; other desks cite ORACLE's dated read | size only: venues +50 at 11–12 vs futures about 16–19 by conversion, inside its error | 🟠 KB-ORC-133 |
+| Fed path (row as of 11/12 15:15Z) | Dec PM hold 3.4 / +25 90.5 / +50 6.2; Kalshi 5 / 88 / 7; futures +26.8bp (⚠️ Yahoo last trades, not settlements; size, not odds) | **ORACLE owns the December priced path (WQ-671 A, 11/11)**; other desks cite ORACLE's dated read | none: venues about +25.6bp, futures +26.8bp | 🟠 KB-ORC-138 |
 | Rates (10Y) | Nov rungs thin; not re-read | BOND/TERRY own | par==DGS10 unconfirmed | 🟡 |
 | Inflation | Oct CPI modal at 86.0 ⚠️ thin | HENRY owns the print | no Kalshi October YoY event | 🟡 |
 | Recession 2026 | PM 4.5 / Kalshi 4.0 | RED 4–12% (NBER-dated) | structural definitional gap | 🟡 |
@@ -139,13 +139,13 @@
 
 ## BOTTOM LINE
 
-**As of the 11/11 14:45Z gate read, the December Fed meeting prices as a near-certain hike with about a 1-in-8 chance of a half point.** PM hold 3.5 / +25 85.5 / +50 or more 11.8; Kalshi 3 / 85 / 11; futures +28.9bp, about 2bp more hawkish and inside the conversion's error. The hold odds fell mostly at Waller's 11/10 text and the +50 odds rose mostly at the CPI print (KB-ORC-133). **Iran:** the crowd leans toward a two-week pause starting by 11/15 (54.5) and has taken most of the oil war premium out (WTI $110 Nov 7.0, from 17.0 on 11/08). **Nvidia:** CEO-tenure odds rose (Huang out by year-end about 15 to 17 on both venues) while the AI-downturn binary held at 7.0. Recession 2.5 PM / 1.0 Kalshi; bank-failure books stay too thin to read. Everything below the 0000 to 0002 alerts is older and gets re-based at the next full rewrite.
+**As of the 11/12 15:15Z gate read, the December Fed meeting prices a quarter-point hike at about 90, with the half-point odds halved to about 6 to 7; venues (about +25.6bp) and futures (+26.8bp) now agree** (KB-ORC-138). **Nvidia:** Huang's exit resolved YES on both venues after Nvidia's 11/12 release; the crowd moved on public after-hours reporting, not ahead of it; successor Kress 31 to 33, Buck 27; AI bubble 11.5 to 12.3 (7.0 on 11/11) (KB-ORC-137). **Iran / oil:** the $110 November tail is 5.5 and the pause legs lean to a pause under way. **October CPI** market prices its fallback rule (September's 3.7), not October inflation (KB-ORC-136). Recession 2.1 PM / 3.0 Kalshi; bank-failure books stay too thin to read. Everything below alerts 0000 to 0002 is older and gets re-based at the next full rewrite.
 
 ---
 
 ## Cross-agent tensions
 
-1. 🟠 **ORACLE ↔ LIQUID/HENRY/BOND/CARL: December size, not direction.** All three sources price a hike; they differ on the half point (venues 11 to 12, futures about 16 to 19 by conversion). Inside the conversion's error, so open, not routed as a divergence (KB-ORC-133, 11/11).
+1. 🟡 **ORACLE ↔ LIQUID/HENRY/BOND/CARL: December size gap closed (11/12).** Venues about +25.6bp, futures +26.8bp (KB-ORC-138); the 11/11 half-point gap closed from both sides. Kept open one more read.
 2. 🟠 **ORACLE ↔ BRENT/HAWK/FALCON: pause priced, oil premium gone.** Pause by 11/15 54.5 and WTI $110 Nov 7.0 at 11/11, against continuing hull reports and a reported 11/08 Qeshm hit (card SIG-W-20261111-005). FALCON's event grades are open (KB-ORC-134).
 3. 🟠 **ORACLE ↔ BOND/TERRY: 10Y resolution basis.** The ladder resolves on the Treasury par "10 Yr"; gates key on DGS10. Equivalence unconfirmed since 9/17.
 4. 🟠 **ORACLE ↔ RED: recession definitions.** Kalshi GDP-rule vs PM GDP-or-NBER is structural (KB-ORC-099).
@@ -156,8 +156,9 @@
 
 | Date | Event | Instrument | Note |
 |---|---|---|---|
-| Thu 11/12 | Next gate read (routine may take it) | all pins | combination reviews due 11/12 |
-| Wed 11/11 | October CPI market end | PM 3.7% leg 94.6 (92.5 before the print, liq $6.5K) | grade at resolution → HENRY |
+| Fri 11/13 | Next gate read (routine 10:15 ET) | all pins | — |
+| Tue 11/17 | Nvidia Q3 results (about 1:20 pm PT) | PM successor, AI bubble; earnings markets thin | → VULCAN, BROCK, TERRY |
+| ~12/10 | October CPI market fallback resolution (next CPI release, INFERRED) | PM 3.7% leg 94.9 (11/12) prices September's 3.7 | KB-ORC-136 → HENRY |
 | 2026-11-17T01:00Z | Nov $110 Active-Month switch Dec26→Jan27 (INFERRED) | v5 Nov | R3 reset |
 | 11/30 | Hormuz normal · Kalshi Brent month-end · pause by 11/30 | PM 2.2 · `>$97.99` 25.0 · pause 68.5 (11/11) | → BRENT, FALCON |
 | 12/04 | November jobs | Kalshi `KXU3-26NOV` | → LABOR, HENRY |
