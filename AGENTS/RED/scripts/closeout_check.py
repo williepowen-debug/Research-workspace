@@ -20,8 +20,13 @@ CHECKS (letters are the spec's):
   d  SCRATCH carries a stamp within 60 min of STATUS's newest stamp (addendum floor A2)
   e  if registry state / VX_HISTORY / STATUS weights changed vs the base ->
      thesis/CHANGELOG.md changed vs the base with its top entry dated today (A4->W3),
-     and a RED packet in PROME/inbox/ dated today (A4->W8; OUTBOX.md FROZEN 2026-11-12,
-     still accepted for vintages before the freeze)
+     and a RED packet in PROME/inbox/ dated today whose CONTENT is new since the base
+     (A4->W8). Repaired 2026-11-12 S64 (CATO M12-3): an earlier same-day packet, in the
+     inbox or filed under processed/, no longer satisfies a later change; identity is the
+     git blob, so PROME's move to processed/ neither erases a new delivery nor makes an
+     old one new. OUTBOX.md FROZEN 2026-11-12, still accepted for vintages before the freeze
+     when its top entry is new since the base (OPEN: that branch has no pre-freeze date
+     limit, so a new OUTBOX entry written after the freeze would still pass)
   f  NEXUS_BRIEF and CALENDAR headers carry the same HOLD / net-bear as STATUS
   g  the existing instruments, delegated: schema_check · gen_trigger_scan --check ·
      read_cap_check --agent RED · STATUS <= 200 lines · review_debt --quiet ·
@@ -362,16 +367,45 @@ def weights_table(status):
     return out
 
 
-def prome_packets(v, today):
-    """RED-authored packets in PROME/inbox/ (any depth: PROME files consumed ones under
-    processed/) whose filename starts with `today` and names RED as sender."""
+def prome_packets(v, today, side='now'):
+    """{path: git blob id} of RED-authored packets in PROME/inbox/ (any depth: PROME files
+    consumed ones under processed/) whose filename starts with `today` and names RED as
+    sender — at the vintage (side='now') or at its comparison base (side='base').
+    None when the listing cannot be read (fail closed: e reports UNKNOWN, never a pass)."""
     pat = re.compile(r'(^|/)%s_from-RED[_-]' % re.escape(today))
-    if v.at is None:
-        hits = [str(p.relative_to(ROOT)) for p in (ROOT / 'PROME' / 'inbox').rglob('%s_from-RED*' % today)]
-    else:
-        rc, out = git('ls-tree', '-r', '--name-only', v.at, 'PROME/inbox')
-        hits = out.split('\n') if rc == 0 else []
-    return [h for h in hits if pat.search(h)]
+    rev = v.base if side == 'base' else v.at
+    if rev is None:                                   # the working tree, untracked files included
+        rc, _ = git('rev-parse', '--git-dir')
+        if rc:
+            return None
+        paths = [str(p.relative_to(ROOT)) for p in (ROOT / 'PROME' / 'inbox').rglob('%s_from-RED*' % today)
+                 if p.is_file()]
+        paths = sorted(p for p in paths if pat.search(p))
+        if not paths:
+            return {}
+        rc, out = git('hash-object', '--', *paths)    # same clean filters as a commit would apply
+        ids = out.split()
+        return dict(zip(paths, ids)) if rc == 0 and len(ids) == len(paths) else None
+    rc, out = git('ls-tree', '-r', '-z', rev, '--', 'PROME/inbox')   # -z: paths unquoted
+    if rc:
+        return None
+    hits = {}
+    for line in out.split('\0'):
+        meta, _, path = line.partition('\t')
+        if path and pat.search(path):
+            hits[path] = meta.split()[2]
+    return hits
+
+
+def new_deliveries(now, base):
+    """Packets in `now` that are a delivery made SINCE the base (CATO M12-3, 2026-11-12).
+    Identity is the CONTENT (blob id), not the path: PROME's `git mv` to processed/ makes a
+    new path that holds old bytes, and a moved old packet must not count. A packet counts
+    when its bytes match no base packet — new, or edited while still unconsumed — except an
+    edit to a packet already filed under processed/ at the base: PROME will not re-read it."""
+    old = set(base.values())
+    filed = {Path(p).name for p in base if '/processed/' in p}
+    return sorted(p for p, b in now.items() if b not in old and Path(p).name not in filed)
 
 
 def check_state_change(v, F, today):
@@ -398,15 +432,28 @@ def check_state_change(v, F, today):
                      'is unchanged' if cl_now == cl_base else 'top entry is not dated %s: %r' % (today, (top.group(0)[:70] if top else '')))))
     # W8 routes to PROME/inbox/ (WQ-678 U-R02, 2026-11-12); OUTBOX.md is FROZEN and is read
     # only so that vintages before the freeze still grade as they did.
-    pkts = prome_packets(v, today)
+    # W8 is owed at EVERY state-changing ending, so the packet must be new since the base:
+    # an earlier same-day packet, filed or not, does not deliver a later change (CATO M12-3).
+    pk_now, pk_base = prome_packets(v, today), prome_packets(v, today, side='base')
     ob_now, ob_base = v.read('OUTBOX.md'), v.read_base('OUTBOX.md')
     first = re.search(r'^## .*$', ob_now or '', flags=re.M)
     ymd = today.replace('-', '')
-    legacy_ok = ob_now is not None and ob_now != ob_base and first and ymd in first.group(0)
-    if not pkts and not legacy_ok:
-        F.append(('e', 'FAIL', '%s changed vs %s but no RED packet in PROME/inbox/ is dated %s (A4 -> W8 is mandatory; "they already know" is not routing)'
-                  % (' + '.join(changed), v.base, today)))
-    return 'changed vs %s: %s' % (v.base, ', '.join(changed))
+    # Same defect in the legacy branch: an edit elsewhere in OUTBOX (the 12:10 freeze banner at
+    # 506e6e2951) left the morning's -079 entry on top and passed. The top entry must be new.
+    legacy_ok = (ob_now is not None and ob_now != ob_base and first and ymd in first.group(0)
+                 and first.group(0).rstrip() not in {l.rstrip() for l in (ob_base or '').splitlines()})
+    if pk_now is None or pk_base is None:
+        F.append(('e', 'UNKNOWN', '%s changed vs %s but the PROME/inbox/ packet listing could not be read at %s'
+                  % (' + '.join(changed), v.base, v.label if pk_now is None else v.base)))
+        return 'changed vs %s: %s' % (v.base, ', '.join(changed))
+    fresh = new_deliveries(pk_now, pk_base)
+    if not fresh and not legacy_ok:
+        earlier = sorted(Path(p).name for p in pk_now)
+        F.append(('e', 'FAIL', '%s changed vs %s but no RED packet in PROME/inbox/ dated %s is new or changed since %s%s (A4 -> W8 is mandatory at every state-changing ending; "they already know" is not routing)'
+                  % (' + '.join(changed), v.base, today, v.base,
+                     ('; earlier packet(s) %s do not deliver a later change' % ', '.join(earlier)) if earlier else '')))
+    return 'changed vs %s: %s%s' % (v.base, ', '.join(changed),
+                                    ('; delivered by %s' % ', '.join(Path(p).name for p in fresh)) if fresh else '')
 
 
 # ─────────────────────────────── f ───────────────────────────────
@@ -509,7 +556,7 @@ MANUAL = [
     ('W3', 'the CHANGELOG entry EXPLAINS old view -> new view (e only proves one exists)'),
     ('W6', 'workbook rows carry dated evidence; Flip_If graded against this session\'s data'),
     ('W7', 'transferable lesson -> memory/auto/ + index row (then re-run with --memory-slug)'),
-    ('W8', 'a RED packet in PROME/inbox/ carries the state change; NEXUS_BRIEF refreshed LAST before the commit'),
+    ('W8', 'the NEW RED packet in PROME/inbox/ actually covers this state change (e proves only that its bytes are new since the base); NEXUS_BRIEF refreshed LAST before the commit'),
     ('W9', 'any file/schema/tool/protocol change recorded in MAINTENANCE.md'),
     ('W10', 'safe-push receipt line "Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch)." — the only proof of PUSHED'),
 ]
