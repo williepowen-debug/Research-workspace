@@ -52,3 +52,18 @@ The pair condition stands as written: if WQ-513 fires while the hedge is filled,
 
 - Vendor volume, HYG Jan-15-2027 puts: 73P 20,001 and 76P 20,003 today (last trades 11:18 and 11:07 ET), 74P 25,003 on 11/9. Size far above the strip's norm; **buyer or seller unknown**, vendor feed, not exchange time-and-sales. A 20,000-lot 76/73 is the same structure as the hedge card, 4,000 times its size.
 - Counterevidence: HYG −0.54% on a rates day, not a measured spread move.
+
+## 6. The owed read, 2026-11-12 08:55 EST (TERRY; clock from `date`)
+
+| Series (FRED, ICE BofA) | 11/9 | 11/10 | 11/11 | Change |
+|---|---:|---:|---:|---:|
+| HY OAS `BAMLH0A0HYM2` | 334 | no cell | **330** | −4 bp |
+| CCC `BAMLH0A3HYC` | 1,311 | no cell | 1,330 | +19 bp |
+| BB `BAMLH0A1HYBB` | 200 | no cell | 193 | −7 bp |
+| IG `BAMLC0A0CM` | 91 | no cell | 90 | −1 bp |
+
+FRED page stamp: updated Nov 12, 2026 07:51 AM CST. The 11/10 cell is absent across the whole family, and an 11/11 (Veterans Day) cell is present that does NOT repeat the 11/9 value. Whether that cell is the 11/10 close carried under a holiday date is unknown here; it is REGINALD's letter for REG-T-04 and changes nothing below.
+
+- **HYG ×4 (WQ-513 A): NOT FIRED; cannot fire in its window.** 330 is not above 350, run 0 of 3. No three consecutive cells above 350 can publish before Fri 11/13, the card's last entry day, so it lapses unfired at the 11/13 close by its own terms. No REGINALD flag (rule: only if above 350). Void count 1 of 5.
+- **The § 3 question (how much of 11/10's HYG drop was credit):** not answerable cleanly. There is no 11/10 cell, and the 11/9 to 11/11 move is −4 bp, tighter. The headline spread did not widen with the 11/10 rate move. Underneath it, CCC widened 19 bp while BB tightened 7 bp. Logged to `COMBO-CREDIT-FOLLOWING`; logging is not scoring.
+- **HYG ×5 hedge (WQ-615 A + WQ-663 B):** unchanged. FIRED, unfilled as far as the desk knows, entry through 12/4 at broker net ≤ $0.60.
