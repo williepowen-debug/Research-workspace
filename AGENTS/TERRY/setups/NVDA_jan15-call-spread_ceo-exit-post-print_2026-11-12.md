@@ -3,6 +3,8 @@
 **Setup ID:** IDEA-NVDA-CEOGAP-NOV12
 **Thesis owner:** VULCAN (AI demand; states what the 11/17 release and CFO commentary say, does not grade) supplies leg T1's evidence, TERRY applies the test; the tape read (a governance shock priced before demand is known) is TERRY's own, labelled as such. HENRY owns dealer flow at the open.
 **Thesis reference:** WALTER `BOARD/SIG-W-20261112-002` (IMMEDIATE, Nvidia newsroom "NVIDIA Announces CEO Transition", read by WALTER's helper); prior board cards 20261109-004, -011, 20261111-003.
+> **RULING 2026-11-12 09:59 ET — WQ-677 RULED B (decide when it fires), Will in PROME's chat, verbatim "677 B and 678 A"; record `PROME/proposals/2026-11-12_wq677-RULED.md`. NOT approved.** If T1, T2 and T3 all hold on 11/18, 11/19 or 11/20, TERRY brings the card back THAT DAY by packet to `PROME/inbox/` plus doorbell, with the live chain (`chain_fetch.py --legs --no-cache`) and the broker-debit check; Will answers yes or no. Otherwise TERRY records it VOID at the 11/20 close. Ruled on the 18fc6922ad wording (T1 test, p 0.15).
+
 **Terry verdict:** CONDITIONAL — NOT-FIRED
 **Confidence in trade structure:** Medium (structure). Low (edge): the overreaction read is unproven and has no owner.
 **Data freshness:** NVDA 11/11 close $173.73; pre-market $153.47 (−11.66%, vendor, 09:13 ET); 3-month range 165.89–243.37 (65 daily bars). Option chain NOT priced (pre-open quotes are the prior session's, and the card prices at fire on 11/18 anyway, construction rule #14). Position truth: no NVDA line in `FORGE/STATUS.md` (grep, 09:13 ET) `[POSITION_STATE_UNKNOWN]` beyond the mirror.
