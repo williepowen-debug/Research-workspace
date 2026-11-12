@@ -29,7 +29,7 @@
 
 ## Open with Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-12 · 2 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-31 (11/1) · WQ-681 (11/13)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-12 · 1 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-31 (11/1)
 <!-- WILLQ-VIEW END -->
 - Parked (his hands): the HANDS rows above; one line in reports, never per row (WQ-538 A).
 
