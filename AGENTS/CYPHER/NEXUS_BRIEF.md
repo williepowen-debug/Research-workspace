@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), no named victim; rows 1, 3-9 NOT-FIRED at the 11/12 re-check. Off-wave, the managed-IT-provider route is busy: N-able N-central Able2Shell (33 alleged zero-days, hosted offline 11/09-11/11, fixed, scanning seen, no compromise stated, bypass claim under investigation 11/12); ConnectWise ScreenConnect add-on abuse under investigation; Storm-1175 lists five US banks and one Florida CU, two confirmed. Arkéa provider still unnamed.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-12 09:30 EST (PROME C6 wake, N-able card first; no score, band, gate or prediction moved; 052 Sawyer CONFIRMED by ledger enum) | STATUS commit: `bcdce0a71c570b6c132a191058acf64ef2906a4f`
+**As of:** 2026-11-12 09:08 EST (stamp corrected 11/12 from a hand-typed 09:30 to the brief commit time; PROME C6 wake, N-able card first; no score, band, gate or prediction moved; 052 Sawyer CONFIRMED by ledger enum) | STATUS commit: `bcdce0a71c570b6c132a191058acf64ef2906a4f`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
