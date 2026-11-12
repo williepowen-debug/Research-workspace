@@ -144,3 +144,26 @@ Current **1,718,000** [w/e Oct 24]; `1,750,000 − 1,718,000 = 32,000` inside.
 ## §9 — GRADE (write 2026-11-12 off this frozen card — never re-read a band)
 
 *Blank until print. Order: ① regenerate the four §4 quantities on the as-published vintage · ② grade §2 · §5a · §5b · §5c · §5d separately · ③ write into `STATUS.md` (KEY THRESHOLDS, matrix v13 if band C+ or R13-a, score, calendar) · ④ `git mv` to `docket/graded/` and build the 11/19 card the same session.*
+
+**GRADED 2026-11-12 (session start 08:51 ET, PROME wake prome-e8, WQ-184 C6).** Primary: DOL/ETA advance release, embargo line *"8:30 A.M. (Eastern) Thursday, November 12, 2026"*, fetched by `fetch_primary.py` (bare curl, 655,463 B PDF, sha256 `28b7ce89fb1b954a`), text-extracted; **200,000 and 1,697,000 FOUND in the text.** FRED ICSA / IC4WSA / CCSA agree.
+
+**Print:** initial claims **200,000** (w/e Nov 7, +9,000) · w/e Oct 31 revised **189,000 → 191,000** · MA **195,250, unchanged** (prior MA revised 194,750 → 195,250) · CC **1,697,000** (w/e Oct 31, −20,000; w/e Oct 24 revised 1,718,000 → 1,717,000) · CC MA 1,707,750 · IUR 1.1% · NSA 206,982 (+28,870; seasonal factors expected +19,663) vs 238,729 a year earlier.
+
+**① Four quantities regenerated (as-published vintage):**
+- `ΔMA = (X − R)/4 = (200,000 − 200,000)/4 = 0` ✅ — `R` did not revise; published "unchanged" agrees.
+- `MA_next`: retained trio now `195,000 + 195,000 + 191,000 = 581,000` ⇒ `(581,000 + 200,000)/4 = 781,000/4 = 195,250` = DOL. The card's column said 194,750: **rotted +500 on the w/e Oct 31 revision, exactly as §3 warned (L-31)**; `ΔMA` stayed exact.
+- T-01 bound re-solved: `X > 1,000,000 − 581,000 = 419,000` (frozen 421,000 void).
+- R13-c minimum: FRED IC4WSA, 52 obs w/e 2025-11-08 to 2026-10-31 ⇒ min **195,250 (w/e Oct 31, revised)**.
+
+**② Grades:**
+
+| Axis | Value | Row | Assignment |
+|---|---|---|---|
+| §2 bands | 200,000 | **B** (186,000–229,000) | **NO ACTION** |
+| §5a T-01 | 200,000 ≤ 419,000; MA 195,250 | **T01-a** | T-01 does not fire (`250,000 − 195,250 = 54,750` away) |
+| §5b v13 run | 200,000 ≥ 200,000 | **V13-b** | run **ends at 3** — record only |
+| §5c CC | 1,697,000 < 1,750,000 | **CC-1** | run **8 → 9** on the revised run (w/e Oct 24 1,717,000 still inside) — record only |
+| §5d R13-c | `195,250 / 195,250 = 1.0000` | **R13-b** | no action |
+| Kill B | 200,000 > 185,000 | — | 0 of 5 |
+
+**No score, band, gate or prediction moves.** Routing per §7: bands A/B ⇒ STATUS only. **What it does not say (§4):** a zero-change MA on a zero-change print is arithmetic, not a signal; MA 195,250 equals w/e 1969-10-11 on FRED's current vintage (last lower: 1969-09-27, 194,750) — a level, no band; the 11/5 "194,750" is superseded by revision. No WARN cohort was registered for this week; Oracle ~800 lands in w/e Nov 14 (next card).
