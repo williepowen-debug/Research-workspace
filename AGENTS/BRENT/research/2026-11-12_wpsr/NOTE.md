@@ -2,7 +2,7 @@
 
 **Run:** 2026-11-12, release read 12:10:59 EST, files saved 12:11:01 EST (from `date`, `capture.txt`). Session brent, Claude Code, Opus 5.5, woken by PROME on Will's word (11:53 ET). No trade, no card, no gate, band or threshold changed. Release-day bytes and sha256 in this folder; arithmetic in `evaluate.py` → `evaluation.json`.
 
-**Release time:** EIA schedule page (read 11:54 EST): data week November 6, 2026 → Thursday November 12, **12:00 p.m.** (Veterans Day). The page lists no 14:00 ET release; PROME's second time is unconfirmed here. The 12:00 files were complete at 12:11 (psw01 carries week 11/6). A discretionary 14:00 re-read (not a second release; PROME's 14:00 time was PROME's error) compares hashes only.
+**Release time:** EIA schedule page (read 11:54 EST): data week November 6, 2026 → Thursday November 12, **12:00 p.m.** (Veterans Day). The page lists no 14:00 ET release; PROME's second time is unconfirmed here. The 12:00 files were complete at 12:11 (psw01 carries week 11/6). A discretionary 14:00 re-read (not a second release; PROME's 14:00 time was PROME's error) compares hashes only. **Re-read done 14:01:21 EST (from `date`):** psw01.xls, table1/2/4.csv and summary.txt re-fetched from ir.eia.gov are all byte-identical (sha256) to the 12:11 files. No grade changes, so no second packet.
 
 ## Bottom line
 
