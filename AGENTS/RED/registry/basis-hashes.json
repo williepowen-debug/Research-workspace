@@ -3,11 +3,11 @@
   "declared_on": "2026-11-12",
   "desk": "RED",
   "hashes": {
-    "AGENTS/RED/CLAUDE.md": "2dd4a24dbceff9ebaa05c5f6c6e27addc2a9ff7f706ee81c3a4f8ccb4c14517f",
+    "AGENTS/RED/CLAUDE.md": "7f7fa82a3513412b87fb2edfcb87fcd3994bab375c43caaa5b0f3fa715dc5884",
     "AGENTS/RED/scripts/base_rate_review.py": "c8d2f42f66c238830a5b7509816dae4074eac344904616e549e7adec5c5f027c",
     "AGENTS/RED/scripts/basis_check.py": "c22af3735180995842d0a4d11f79c7b2bbd345ebe8be0cf4105bb0d6a66ce7ad",
     "AGENTS/RED/scripts/boot.py": "91654fe01b7b01ee11486bbe8746bee34f89d72d52412c4ee5443c4b3f6ae1b0",
-    "AGENTS/RED/scripts/closeout_check.py": "27be97a2a393ae2bc642f3af975b4dc764e3706063a5a6e4663af0f4f0ed1ad8",
+    "AGENTS/RED/scripts/closeout_check.py": "e52eedf28e57c497ae7aa2dc0eceb2d90796ccb0b219a6e1e2e63f3ce63ab47a",
     "AGENTS/RED/scripts/gen_trigger_scan.py": "e9d1fa7655e849d92890e6c109fd5c914944924c6f665ee92c5eb7e40ca29467",
     "AGENTS/RED/scripts/review_debt.py": "577b84a9c9f3a1e775a9ddf1129b4ad02414a08c173d94968497744271c8b72f",
     "AGENTS/RED/scripts/schema_check.py": "a3dabbba359ba2a2e30079010f1688ac50f9bd0e4498b52cf7c2207b45631538",
@@ -144,6 +144,14 @@
         "AGENTS/RED/CLAUDE.md",
         "AGENTS/RED/scripts/closeout_check.py",
         "CLAUDE.md"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "note": "S64: CLAUDE.md W8 new-file rule + check e limits (Will 14:45 ET); closeout_check.py e repaired (CATO M12-3), both RED's own edits, diffs read",
+      "moved": [
+        "AGENTS/RED/CLAUDE.md",
+        "AGENTS/RED/scripts/closeout_check.py"
       ]
     }
   ],

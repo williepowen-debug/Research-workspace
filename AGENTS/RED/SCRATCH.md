@@ -38,3 +38,10 @@ See the closeout message. Shared tree holds other desks' dirty files (CYPHER, DA
 - Will 12:08 ET approved RED's recommendation on DAEDALUS WQ-678 trims: 7 applied, U-R07 declined (→ `MAINTENANCE.md` S63-b). `OUTBOX.md` FROZEN; W8 = dated `PROME/inbox/` packet; `closeout_check.py` (e) reads it.
 - No weight, trigger, prediction or catalyst change. 11/10 ICE OAS cell still absent on FRED at 12:05 ET (HY 334 [11/09], 330 dated 11/11 non-session).
 - Next entry point unchanged: NEXT SESSION item 1 (Fri 11/13 KB wave).
+
+## ADDENDUM S64 — 2026-11-12 15:34 ET (from `date`)
+- Repair-only session on Will's word (14:18 ET, via PROME prome-e8): `closeout_check.py` e no longer lets an earlier same-day packet pass a later state change. Commits 71f7d26586 · f5994abb89 · f7494c4f88 · this closeout. Two independent reads (PROME reader); residue in `scripts/test_closeout_check.py` docstring.
+- Will 14:45 ET: accepted with limits; provisionally repaired until this closeout reconciled charter W8, delivery instructions and e. Done here. **New rule for every later ending: a state change gets a NEW `PROME/inbox/` packet file (never an addendum), committed after the gate or with its state.**
+- No weight, trigger, prediction, challenge or catalyst change. 5 PROME packets logged + filed; board_log rotated (7 rows).
+- Next entry point unchanged: NEXT SESSION item 1 (Fri 11/13 KB wave).
+

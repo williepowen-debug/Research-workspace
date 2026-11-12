@@ -26,7 +26,11 @@ CHECKS (letters are the spec's):
      git blob, so PROME's move to processed/ neither erases a new delivery nor makes an
      old one new. RED's delivery rule: a W8 delivery for a state change is a NEW packet
      file, never an addendum to an earlier one (an addendum counts only while the packet
-     is unfiled; once PROME files it the gate FAILs, read 2 N1). OUTBOX.md FROZEN 2026-11-12, still accepted for vintages before the freeze
+     is unfiled; once PROME files it the gate FAILs, read 2 N1). e never proves a change
+     was DELIVERED: packet coverage is a manual read; a state change committed before the
+     gate is invisible to e; known false passes = an old packet PROME renames and stamps in
+     one move, yesterday's packet renamed to today, an earlier packet edited in place by
+     someone else (charter W8; residue list in test_closeout_check.py). OUTBOX.md FROZEN 2026-11-12, still accepted for vintages before the freeze
      when its top entry is new since the base (OPEN: that branch has no pre-freeze date
      limit, so a new OUTBOX entry written after the freeze would still pass)
   f  NEXUS_BRIEF and CALENDAR headers carry the same HOLD / net-bear as STATUS
@@ -460,7 +464,7 @@ def check_state_change(v, F, today):
                   % (' + '.join(changed), v.base, today, v.base,
                      ('; earlier packet(s) %s do not deliver a later change' % ', '.join(earlier)) if earlier else '')))
     return 'changed vs %s: %s%s' % (v.base, ', '.join(changed),
-                                    ('; delivered by %s' % ', '.join(Path(p).name for p in fresh)) if fresh else '')
+                                    ('; new RED packet bytes in %s (coverage = manual read)' % ', '.join(Path(p).name for p in fresh)) if fresh else '')
 
 
 # ─────────────────────────────── f ───────────────────────────────
@@ -563,7 +567,7 @@ MANUAL = [
     ('W3', 'the CHANGELOG entry EXPLAINS old view -> new view (e only proves one exists)'),
     ('W6', 'workbook rows carry dated evidence; Flip_If graded against this session\'s data'),
     ('W7', 'transferable lesson -> memory/auto/ + index row (then re-run with --memory-slug)'),
-    ('W8', 'a NEW RED packet file in PROME/inbox/ (never an addendum to an earlier one) actually covers this state change (e proves only that its bytes are new since the base); NEXUS_BRIEF refreshed LAST before the commit'),
+    ('W8', 'a NEW RED packet file in PROME/inbox/ (never an addendum) actually covers this state change; e shows only new bytes since the base, misses a change committed before the gate, and passes a renamed+stamped old packet; NEXUS_BRIEF refreshed LAST'),
     ('W9', 'any file/schema/tool/protocol change recorded in MAINTENANCE.md'),
     ('W10', 'safe-push receipt line "Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch)." — the only proof of PUSHED'),
 ]

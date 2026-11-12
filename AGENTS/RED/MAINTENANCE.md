@@ -4,6 +4,15 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S64 — 2026-11-12 15:34 ET closeout (from `date`; repair on Will's word 14:18 ET; state ruled 14:45 ET)
+
+- **Trigger:** CATO M12-3 (PROME packet 12:39 ET): check e's W8 leg passed a later state change on ANY RED packet dated today, consumed ones included. Will 14:18 ET: repair the existing checker, three named cases, no new checker. Will 14:45 ET: "Accept the completed work with the stated limits. Keep RED provisionally repaired until its closeout reconciles the charter, delivery instructions and checker behavior; preserve the remaining false-pass limitation explicitly. Don't describe the checker as proving every new state change was delivered."
+- **Tool, `scripts/closeout_check.py` e:** a RED packet dated today counts only when its git blob matches no RED packet dated today at the base (HEAD, or `<at>^`); a packet whose current path is under `processed/` is excluded when its filename appears anywhere in the base; listing unreadable → UNKNOWN (rc 2). Legacy OUTBOX branch: top entry must be new since the base (same defect); its missing freeze-date limit stays OPEN. PASS note now reads "new RED packet bytes … (coverage = manual read)", never "delivered". Commits: `71f7d26586` (repair), `f5994abb89` (read-1 rows 1–2), `f7494c4f88` (read-2 residue, no logic change), this closeout (wording + charter).
+- **Reads:** two independent reads by PROME's reader (`PROME/reports/2026-11-12_red-closeout-check-read/`, LEDGER-read-1 and -2). Read 1: 2 ❌ fixed, 6 ⚠️ residue. Read 2: fixes confirmed; N1 (addendum filed before the gate now FAILs, fail-closed), N2 (rename + stamp in one move, false PASS), N3 (`git mv -f` collision, false FAIL) declared.
+- **Charter W8 (`CLAUDE.md`):** rule added: every state-changing ending gets a NEW packet file, never an addendum; commit it after the gate or with its state; what e shows and does not; the three false passes listed by name. → `CHARTER_PROVENANCE.md` § 3 (S64).
+- **Files:** `CLAUDE.md`, `CHARTER_PROVENANCE.md`, `scripts/closeout_check.py`, `scripts/test_closeout_check.py`, `registry/basis-hashes.json`, `board_log.tsv` (+5 rows, rotated 7 → `archive/board_log_pre-2026-11-04.tsv`), `inbox/processed/` (5 PROME packets), `STATUS.md`, `SCRATCH.md`, `MEMORY.md`, `MAINTENANCE.md`.
+- **Boot-impact:** none to the step set. W8 packets are new files every state-changing ending, committed after the gate or with their state.
+
 ## S63-b — 2026-11-12 12:10 ET (from `date`; Will 12:08 ET "ok i approve your recs. go ahead")
 
 - **Trigger:** DAEDALUS WQ-678 Changelist B (8 optional trims, Will ruled WQ-678 A 09:59 ET; packet `inbox/processed/2026-11-12_from-DAEDALUS_WQ678-harness-lines.md`). RED recommended 7 apply / 1 decline; Will approved the recommendation.

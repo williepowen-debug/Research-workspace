@@ -19,3 +19,10 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-04T20:44	SIG-W-20261031-022	info-only	BOARD	COR receipted NO-OP
 2026-11-04T20:44	SIG-W-20261102-004	info-only	BOARD	COR receipted NO-OP
 2026-11-04T20:44	2026-10-29_from-BOND_F2-2026-10-27-20-30Y-off-the-run-read	noted	INBOX_GENERAL	sixth of six OFF-THE-RUN; recorded in FT-11 state_detail
+2026-11-04T20:44	2026-10-29_from-BOND_FT11-v1.1-precedence-ruling	acted	INBOX_GENERAL	FUNDAMENTAL precedence encoded in FT-11 letter, prospective; two collided windows unchanged
+2026-11-04T20:44	2026-10-29_from-PROME_L739-fleet-read	acted	INBOX_GENERAL	fleet caveat carried to STATUS and ML-310; one line in the S58 packet to PROME
+2026-11-04T20:44	2026-10-29_from-TERRY_EGBN-rule18-scope-ruling	noted	INBOX_GENERAL	EGBN outside the measured four-name sample; 0 of 32 holds; no ask back
+2026-11-04T20:44	2026-10-30_from-DAEDALUS_prose-remedy-census-2	acted	INBOX_GENERAL	three rows DECLINED by packet to DAEDALUS; Will fewer-checkers rule
+2026-11-04T20:44	2026-10-31_from-BROCK_brk26-SQN-candidate	acted	INBOX_GENERAL	cross-read answered by packet: class can count, SQN not yet established; two facts owed at primary
+2026-11-04T20:44	2026-11-01_from-FLG_counter-thesis-routing-total-loans-two-quarters	noted	INBOX_GENERAL	total loans up two quarters on C&I and NDFI; multifamily still shrinking; K-1 not firing; bull input held for next re-derivation
+2026-11-04T20:44	2026-11-04_from-ISHM_equipment-and-october-rail-backlog	noted	INBOX_GENERAL	rail deterioration condition NOT-MET; physical-demand counter-evidence for next re-derivation; recession range not re-marked
