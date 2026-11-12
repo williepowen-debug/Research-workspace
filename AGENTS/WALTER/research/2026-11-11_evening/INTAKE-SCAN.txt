@@ -1,0 +1,50 @@
+RESEARCH-INTAKE scan — 2026-11-12 00:36Z
+================================================================
+
+[health]
+  OK   last_run 2026-11-11T21:41:11Z (1 missed weekday runs, 0 calendar days)
+  OK   news search items saved: 182 (trailing median 193 over 10 batches)
+
+[news batches scanned — 1: 2026-11-11..2026-11-11]  (catch-up from last_marked_batch none: newest only)
+
+[NEW breaches to ROUTE — 9]  (onset; push per §3, tag source: RESEARCH-INTAKE)
+  PRIORITY  ACTION -> (per-item agents field)  [2 NEW_ALERT]
+      2 NEW_ALERT item(s) — read data/2026-11-11/news.json
+  ROUTINE   INFO   -> (per-item agents field)  [10 NEW_WATCH]
+      10 NEW_WATCH item(s) — read data/2026-11-11/news.json
+  PRIORITY  ACTION -> BRENT  [WATCH_HIT [BRENT:'Trump diesel export']]
+      Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions - CNBC
+  PRIORITY  ACTION -> BRENT  [WATCH_HIT [BRENT:'U.S. diesel export']]
+      How a ban of diesel exports could lead to higher prices — even in the U.S. - The Washington Post
+  PRIORITY  ACTION -> BRENT  [WATCH_HIT [BRENT:'US diesel export']]
+      Goldman Sees Gasoline-Price Blowback If US Bans Diesel Exports - Bloomberg.com
+  PRIORITY  ACTION -> BRENT  [WATCH_HIT [BRENT:'Trump diesel export'; BRENT:'U.S. diesel export']]
+      Why Trump banning diesel exports would upset the U.S. oil sector and upend global fuel markets - Fortune
+  ROUTINE   INFO   -> BROCK,SHADE  [DEVELOPMENT [known entity Apollo + escalation qualifier]]
+      Athene provides winter coats, boots to 2,600 Des Moines students - Business Record
+  ROUTINE   INFO   -> HENRY,BRENT  [DEVELOPMENT [known entity OPEC + escalation qualifier]]
+      Saudis Tell OPEC Production Surged to Highest Since War Began - Rigzone
+  PRIORITY  ACTION -> CYPHER  [WATCH_HIT [CYPHER:'ConnectWise breach']]
+      October 2026: Binance Heist, ConnectWise Breach, and More - SOCRadar
+
+[CRUISE_CAPITAL_REVIEW — 0 open]  (ROUTINE human review, never auto-dispatch; read the source, date the event, check BOARD/EDGAR/CRUISE overlap)
+  (none open)
+
+[GPU_FINANCE_REVIEW — 2 open]  (ROUTINE human review of GPU depreciation / collateral / GPU-backed loan / residual-value headlines, owners VULCAN and BROCK; never auto-dispatch; read the source, date the event (reposts carry fresh dates), check BOARD and owner KB, then --gpu-disposition)
+  gpu:a470d8fc4d4b  1 row(s), 2026-11-11..2026-11-11
+      Why the first GPU financiers are turning to inference chips in a $400 million deal - TechCrunch
+      https://news.google.com/rss/articles/CBMitwFBVV95cUxNOFRXMS1uVHppeGtWV1ljeWNkTm0ycVdHT3hvQ25mVjczRjRmc3gyeEFuTy1QaTlBM2U4d2ZCemYzMGZTMi1XWUFhRnJPbDdFSnI3Q2EzSnZQQUpLWmotd1BIUGpNWW1ublZlY0tFTk5XYUFDTXVHdExXZmlkM0c2aDNxaU5fb05fejlvdi1UMEFNRjllOXJQbXdCRzBPZ3hrYzVkVE9qb1BET1VlaDh2UmNBYXd3Uzg?oc=5
+  gpu:20a47b295899  1 row(s), 2026-11-11..2026-11-11
+      AI Meets Aggressive Accounting at Meta’s Gigantic New Data Center - WSJ
+      https://news.google.com/rss/articles/CBMib0FVX3lxTE81OHZjSlRvWFN1TXp6NkVQQVdXdUlMdnRCenFlWVVFRTRmaFIzWkotQmpVdE43eXlRSjQ5V0o3TlkxMTdia192cGpidUhWd1huYl9rY2hqRExBTGVVUGF5ZGlsWElJN0g5QXQ1cmI1NA?oc=5
+
+[suppressed — still-true, already seen — 7]  (do NOT re-push)
+  fred:UMCSENT:orange  (UMCSENT UMich sentiment=48.1 [orange])
+  fred:MORTGAGE30US:red  (MORTGAGE30US 30yr mortgage rate %=7.18 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS bps=334.0 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS=334bps [red] >280 X1-trigger reading (strictly abo)
+  edgar:MU_2026_11_05_5_02_9_01_  (MU 2026-11-05 ['5.02', '9.01'])
+  edgar:MSFT_2026_11_05_5_02_  (MSFT 2026-11-05 ['5.02'])
+  edgar:CCL_2026_11_04_1_01_2_03_9_01_  (CCL 2026-11-04 ['1.01', '2.03', '9.01'])
+
+After routing the NEW breaches, run:  python3 tools/intake_scan.py --mark --through data/2026-11-11/news.json
