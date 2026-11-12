@@ -145,3 +145,4 @@ SIG-W-20261001-013	2026-10-02	noted-off-domain	electricity price = ENERGY/BLS; H
 2026-11-11T14:35:09Z	SIG-W-20261106-046	INFO-LOGGED	WALTER	LGI Homes Q3 (8-K 11/03) already consumed 2026-11-05 into BUILDER.tsv (GM 20.2%). Duplicate for HOMER.
 2026-11-11T14:35:09Z	SIG-W-20261109-008	INFO-LOGGED	WALTER	No housing item; Jacksonville budget hole is CORAL's. No HOMER row.
 2026-11-11T14:35:09Z	SIG-W-20261110-009	INFO-LOGGED	WALTER	Young adults living with a parent 37/43/49% (Hedgeye, series unnamed, unverified): structural demand context, too unsourced for a row. No HOMER row.
+2026-11-12T16:56:38Z	SIG-W-20261111-008	INFO-LOGGED	WALTER	FL Oct 31-Nov 3 rain max 24.69 in at Valkaria (Brevard), NOAA map read by WALTER: flood and insured-loss record is CORAL/AEOLUS. Brevard to St. Lucie is not a HOMER metro; no damage or flood-claim figure, so no HOMER row. Re-check if NFIP claims or FL foreclosure/forbearance data name these counties.

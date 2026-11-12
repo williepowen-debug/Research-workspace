@@ -34,7 +34,7 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 - FL migration/tourism — **MARCO**. Whole-FL climate/insurance/coastal — **CORAL**. Reconcile-to-one-figure rule applies where metrics overlap.
 >   **★ HOMER PUBLISHES NO STATEWIDE FLORIDA FIGURE. CORAL RULES.** Standing since 2026-07-17, re-affirmed 8/22. **FL statewide foreclosure rate → CORAL-canonical, HOMER cites**; **FL statewide condo inventory/median → CORAL** (HOMER's condo figure is the **Miami-Dade** cut); **FL migration/tourism → MARCO.** **HOMER-owned inside Florida: METRO-level foreclosure rates** (Punta Gorda, Lakeland, Cape Coral, Jacksonville, Ocala) **and the Miami-Dade condo cut** — sub-statewide only. ⇒ **If a Florida figure is statewide, it is not mine to publish; route it to CORAL and cite CORAL.**
 
-**CRL-06 / CRL-23 ★ ruling:** Both predictions stay on **CARL's `thesis/PREDICTIONS.tsv`** (parent-retain) — they are CARL convergence-matrix thesis-scoring instruments (V10 foreclosure-acceleration / Vector #10 tariff-transmission), not raw domain facts. **HOMER is the data owner**, feeding ATTOM/builder-earnings data upstream; HOMER opens its own `thesis/PREDICTIONS.tsv` (HOM-xx ledger) for new, HOMER-native predictions. CRL-06 was **RESOLVED CONFIRMED at CARL 2026-07-16** on HOMER's data, metric ruled = foreclosure **STARTS** (see CARL Cross-References).
+**CRL-06 / CRL-23 ★ ruling:** Both predictions stay on **CARL's `thesis/PREDICTIONS.tsv`** (parent-retain) — they are CARL convergence-matrix thesis-scoring instruments (V10 foreclosure-acceleration / Vector #10 tariff-transmission), not raw domain facts. **HOMER is the data owner**, feeding ATTOM/builder-earnings data upstream; HOMER opens its own `thesis/PREDICTIONS.tsv` (HOM-xx ledger) for new, HOMER-native predictions. CRL-06 was **RESOLVED CONFIRMED at CARL 2026-07-16** on HOMER's data, metric ruled = foreclosure **STARTS** (see `archive/CLAUDE_carl-cross-references_2026-11-12.md`).
 
 ## Key Signals to Monitor
 
@@ -189,7 +189,7 @@ Housing is the largest asset and largest liability for most American households,
 
 ## BOOT (standalone — root `CLAUDE.md` owns the fleet-wide protocol; this is HOMER's sequence through it)
 
-1. **Before pulling** — exactly per root `CLAUDE.md` §Git Protocol "Before pulling": run `git status` from the repo root. **If any other agent's files are modified: STOP, do not pull** — work locally, commit locally, defer the push and note it. Only if the tree is clean outside `AGENTS/HOMER/`: `git stash push -- AGENTS/HOMER/` → `git pull --rebase` → `git stash pop`.
+1. **Before pulling** — read and execute `docs/GIT_WORKTREE_PROCEDURES.md` § Before pulling in full (root `CLAUDE.md` §Git Protocol).
    > ⚠️ **Working directory:** every relative path and command below assumes the launch dir `AGENTS/HOMER/`. Git commands run from the repo root (`cd "$(git rev-parse --show-toplevel)"`), per root canon — **then return to `AGENTS/HOMER/`** before any other step (the root has no `docket/` or `STATUS.md`, so the `awk` and byte checks fail there).
 2. Read `STATUS.md` (dashboard + BOTTOM LINE).
 3. Read `SCRATCH.md` (last session handoff).
@@ -274,19 +274,6 @@ The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAW
 | `workbook/RENT_BREADTH_ROSTER.tsv` + `workbook/rent_breadth_inputs/` | Frozen 100-city roster + monthly roster extracts |
 | `outbox/` | **Copies/record only — NOT a delivery channel** (2026-09-24). Packets go INTO the recipient's `inbox/` (carve-out ①). `delivered/` holds actioned items |
 
-## CARL Cross-References (parent-era provenance, preserved)
+## CARL Cross-References — moved 2026-11-12
 
-**KB Migration (Apr 13 2026):** 40 housing entries were delegated from CARL → HOMER pre-promotion. `workbook/KB.tsv` (FROZEN) remains the canonical record of that delegation, CARL_ID column intact for traceability. **New rows post-promotion go to `workbook/KB_LIVE.tsv`.**
-
-**CARL entries still relevant (not in HOMER KB, stay at CARL):**
-- KB-CARL-014: HUD ended repeat partial claims Oct 2025
-- KB-CARL-031: State diffusion model (TX #2, FL #1)
-- KB-CARL-058: Utility/insurance surge (cross-domain, stays in CARL)
-- KB-CARL-066: FL triple squeeze (cross-agent, stays in CARL)
-
-**VX/FLOW vectors (CARL `workbook/VX.tsv` and `workbook/FLOW.tsv` are FROZEN 2026-06-26):** provenance pointers only — for live vector state, read **CARL `STATUS.md`**.
-
-**Predictions (CARL `thesis/PREDICTIONS.tsv`, parent-retained per ★ ruling):**
-- CRL-03: Fannie MF DQ >0.80% (Q2 2026) — **RESOLVED MISSED 2026-07-02.** Fannie MF May 0.58% = 2nd consecutive month <0.65%; gap to 0.80% GFC peak widened to 22bps. Mechanism note survives (Trepp CMBS MF diverges — different book). V3 4→3.
-- CRL-06: Foreclosures >70K/qtr (78%, Q2 2026) — ✅ **RESOLVED CONFIRMED at CARL 2026-07-16** on HOMER's data package; **metric RULED = foreclosure STARTS** (Q1 82,631). KB-HOMER-005. Informs (does not set) the STARTS basis under the National Foreclosure STARTS band (re-armed 2026-09-29 at 100K/130K/175K; CRL-06's 70K is a different instrument). HOMER remains data owner.
-- CRL-23: FY27 builder GM compression (DHI Q1 FY27 ≤17.5% OR PHM Q1 FY27 ≤22.0% AND tariff ≥10% sustained) — **OPEN at CARL**, resolution Jan/Apr 2027 (DHI Q1 FY27 / PHM Q1 FY27 prints). HOMER is data owner (builder-earnings feed).
+Parent-era provenance (KB migration, CARL entries still relevant, VX/FLOW pointers, CRL-03/06/23 history) → `archive/CLAUDE_carl-cross-references_2026-11-12.md` (DAEDALUS WQ-678 trim F57; text unchanged).

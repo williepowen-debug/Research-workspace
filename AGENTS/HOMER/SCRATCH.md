@@ -1,29 +1,27 @@
-# HOMER SCRATCH — 2026-11-11 catch-up wake (PROME prome-2b, Will's word 09:24 ET)
+# HOMER SCRATCH — 2026-11-12 wake (PROME, Will's word 11:53 ET: "okay go ahead with HOMER and BRENT wakes")
 
-**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), session 622a827e. Launched from `AGENTS/HOMER/`; root CLAUDE.md, AGENTS.md, USER.md, COMPLETION_SPEC and the desk charter were read explicitly. The tree was dirty with other desks' files (CARL, FERT, TERRY, VIOLET, PROME, scripts), so no pull was run; origin had nothing new at 09:33 ET. Three read-only Opus retrieval helpers pulled sources; load-bearing figures were re-read at the issuer files (NY Fed workbook, LDI 8-K, ICE PDF, Trepp RSS, Treasury CSV). **Closed out 2026-11-11 09:4x ET on PROME's WQ-249 ask** (packet consumed and filed by PROME; PROME is routing the SS + rates finding to TERRY).
+**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), session b77ada3f. Launched from `AGENTS/HOMER/`; root CLAUDE.md, AGENTS.md, USER.md, COMPLETION_SPEC and the desk charter read explicitly. No pull: other desks' files modified (CATO at boot; BRENT, DEWEY later); origin had nothing new at 11:54 ET. One read-only Opus helper (Arbor/Blackjack); Arbor figures re-read by HOMER at EDGAR. **HOLDING OPEN after delivery on PROME's instruction; not closed out.**
 
-## Done 2026-11-11
+## Done 2026-11-12
 
 | Item | Result |
 |---|---|
-| Intake | 5 WALTER cards → board_log + `processed/`; inbox 0. 007 (ACTION) already discharged 11/05 (CREED cases 176, 177) |
-| Prints | `reports/2026-11-11_catchup.md`; 20 ledger rows dated 2026-11-11 (PIPELINE 4, MULTIFAMILY 4, RATES 4, PRICING 3, STATE_HSG 5) |
-| Trepp MF SS | **9.22% Oct, NEW 2026 HIGH**; PREREG §4 grading appended; THESIS §9 entry, 0/5 |
-| Cure band | HB-08 still UNGRADED (Nov Monitor did not print the all-loans YoY); reading_as_of → 9/30 |
-| WQ-622 | members appended to KB-HOMER-043, 044, 045 |
-| Docket | 14 row keys re-keyed; non-bank Q3 prints RESOLVED |
-| PROME | packet `PROME/inbox/2026-11-11_from-HOMER_catchup-live-data.md` |
+| HOM-03 | ✅ RESOLVED HIT: NAR Oct EHS 3.75M (< 3.90M). PREDICTIONS row graded with the WQ-619 surprise line |
+| PMMS | 7.11% [11/12], −7bp, 4th fall; spread ~213bp (Tue 10Y). My 11/11 "likely stops falling" was wrong; THESIS §9 corrected |
+| WQ-675 | Arbor: half the fall = 10/30 Q3 loss + dividend suspension (issuer); pre-earnings slide no single cause. Blackjack holder = BX 2021-21M SASB bondholders (INFERRED). MULTIFAMILY rows + KB-HOMER-043/044 members |
+| United Fidelity | Different animal, same vintage (MULTIFAMILY row). Correction: PROME's 22% index = Green Street 19–22% |
+| READS | `reports/2026-11-12_READS.proposed.tsv`; charter declared whole at 41,649 B, over cap → STATUS A12 |
+| WQ-678 | F19, F57 applied; F58 declined |
+| Intake | WALTER SIG-W-20261111-008 logged + processed; 5 packets consumed → `inbox/processed/` |
+| Packets | CREED (Blackjack deal ID) · PROME (`PROME/inbox/2026-11-12_from-HOMER_wake-HOM03-PMMS-WQ675.md`) |
 
 ## Open / next
 
-- **Thu 11/12:** NAR EHS Oct 10:00 = **HOM-03** grade (<3.90M) · PMMS noon (spread must use **Tue 11/10 10Y 4.98%**, no Wed print, and say so) · MBA apps wk 11/06 (likely).
-- **~11/12–14:** MBA Q3 NDS = **HOM-02 decider** (not out 11/11) · Redfin Oct sellers/buyers gap.
-- **11/17:** NAHB HMI = HOM-04. **11/20:** thesis formal grade (C2 neighbourhood note now carries the SS new high).
-- **Still unobtained:** ATTOM Sept/Q3 (feed newest 10/29) · Fannie Sept summary (403) · GSE Oct monthlies (404) · LVR primary (429; secondary used) · ICE NV/CA appendix read from a chart image (LOW confidence; re-read at zoom).
-- **TERRY:** PROME is routing the SS new high + rate rebound to TERRY (prome-2b message 09:47 ET). HOMER sent no TERRY packet.
-- **CORAL:** FL statewide NY Fed / ICE values not published here; addresses in the report § Boundaries and the NEXUS brief.
-- **HOM-05 tension:** October SS jump on maturity defaults leans against "Nov MF DQ below 8.09%"; recorded, not re-weighted.
-- Preferred Bank 10-Q (~11/09) is REGINALD's; not read by HOMER.
-- ⚠️ LESSONS.md is near its rotation trigger: rotate before the next lesson (none written this session).
+- **A12 (next wake):** split the charter under the 32,550 B cap (band derivation text → cold reference). Flag PROME if not done by the 11/20 grade.
+- **~11/13–14:** MBA Q3 NDS = **HOM-02 decider** · Redfin Oct sellers/buyers gap · MBA weekly wk 11/06 (no 2026 source found yet).
+- **11/17:** NAHB HMI = HOM-04 (cutters 43%, Red >45%). **11/18:** Census starts. **11/20:** thesis formal grade.
+- **Unresolved:** Arbor 6/30 REO $545.9M (Q2 10-Q) vs $498.9M (Q3 release comparative) — basis question, read the Q3 10-Q REO note.
+- **TERRY:** PROME routes. HOMER sent no TERRY packet. The Arbor finding is company-specific and the stock already fell ~62%; the holder map names a CMBS trust, not a listed carrier.
+- Still unobtained from 11/11: ATTOM Sept/Q3 · GSE Oct monthlies · Fannie Sept summary (403).
 
 No Will decision required.

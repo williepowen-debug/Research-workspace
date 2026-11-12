@@ -244,3 +244,13 @@ No other newly resolving print was integrated: **0/5 legs killed**, no criterion
 | **A3** | none (HMI 11/17) | **0 / 3** | NOT FIRED | pending |
 
 **LITERAL FIRED-COUNT: 0 of 5 legs ⇒ 🔴 holds.** No criterion, level or confidence moved. Evidence: `reports/2026-11-11_catchup.md`; ledger rows dated 2026-11-11.
+
+### 2026-11-12 — between-grade integration (HOMER wake, PROME WQ-675 session)
+
+| Leg | First print integrated | Fired count | Verdict | Frozen cleanest-flip check (§3) |
+|---|---|---|---|---|
+| **A2** | PMMS **7.11% [11/12]** (issuer CSV), −7bp, fourth straight weekly fall, lowest in seven weeks (Freddie) | **0 / 4** | NOT FIRED | **61bp above the kill line (≤ 6.50%)**. ⚠️ Correction to the 11/11 entry: "moving further off" was an inference from MND and Treasury moves; the survey moved 7bp CLOSER. |
+| **C2 · CMBS / GSE** | no criterion print. Context only (WQ-675): Arbor Q3 non-performing 32 loans $647.6M (19 / $428.8M at 6/30), dividend suspended (8-K 10/30, issuer); Blackjack held by a Blackstone single-borrower CMBS trust (INFERRED); United Fidelity Bank $2.14B MF nonaccrual on current, non-maturing loans (PROME report, relayed) | **0 / 3 · 0 / 3** | NOT FIRED | No criterion attaches |
+| **C1 · A1 · A3** | none (MBA Q3 NDS not out at 12:00 ET; HMI 11/17) | unchanged | NOT FIRED | pending |
+
+**LITERAL FIRED-COUNT: 0 of 5 legs ⇒ 🔴 holds.** Existing-home sales 3.75M October (NAR, issuer) is band and prediction evidence (HB-12, HOM-03 HIT), not a thesis-leg criterion. No criterion, level or confidence moved. Evidence: `reports/2026-11-12_wake.md`.

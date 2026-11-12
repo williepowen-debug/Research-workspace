@@ -1,0 +1,29 @@
+row_kind	reader	path	mode	source_boot_step	declared_by	declared_on	notes
+ATTESTATION	HOMER	AGENTS/HOMER/CLAUDE.md	manifest-complete	HOMER:CLAUDE.md-BOOT	HOMER	2026-11-12	Desk-attested by HOMER (Claude Code, Opus 5.5) after walking BOOT 1-11 and CLOSEOUT 1-6 of the charter as edited 2026-11-12 (WQ-678 trims F19, F57). Modes describe actual context entry. ⚠️ SELF-FLAG: the charter itself is a whole read at 41,649 B, OVER the 32,550 B budget; declared whole, not scoped, because the session reads all of it.
+BASIS	HOMER	AGENTS/HOMER/CLAUDE.md	boot-defining	HOMER:CLAUDE.md-BOOT	HOMER	2026-11-12	Re-attest after any boot-defining charter change.
+BASIS	HOMER	PROME/COMPLETION_SPEC.md	boot-defining	HOMER:spawn-brief	HOMER	2026-11-12	Runtime/delivery contract named in every PROME spawn brief; re-attest on change.
+READ	HOMER	CLAUDE.md	whole	HOMER:spawn-brief	HOMER	2026-11-12	Root charter; explicit whole read per COMPLETION_SPEC brief (also auto-loaded by Claude Code).
+READ	HOMER	AGENTS.md	whole	HOMER:spawn-brief	HOMER	2026-11-12	Explicit whole read.
+READ	HOMER	USER.md	whole	HOMER:spawn-brief	HOMER	2026-11-12	Explicit whole read.
+READ	HOMER	AGENTS/HOMER/CLAUDE.md	whole	HOMER:spawn-brief	HOMER	2026-11-12	Own charter, 41,649 B at 2026-11-12: OVER the read cap. Owner remedy pending (hot/cold split); flagged to PROME 2026-11-12.
+READ	HOMER	PROME/COMPLETION_SPEC.md	whole	HOMER:spawn-brief	HOMER	2026-11-12	Delivery rules; read when a PROME task packet names it (every PROME wake so far).
+READ	HOMER	PROME/ORCHESTRATION_PLAYBOOK.md	scoped	HOMER:spawn-brief	HOMER	2026-11-12	§ Runtime mechanics only, when a capability is needed.
+READ	HOMER	docs/GIT_WORKTREE_PROCEDURES.md	scoped	HOMER:CLAUDE.md-BOOT-1	HOMER	2026-11-12	§ Before pulling at boot; § Before committing before each commit.
+READ	HOMER	AGENTS/HOMER/STATUS.md	whole	HOMER:CLAUDE.md-BOOT-2	HOMER	2026-11-12	Hot surface; soft 22,785 B target.
+READ	HOMER	AGENTS/HOMER/SCRATCH.md	whole	HOMER:CLAUDE.md-BOOT-3	HOMER	2026-11-12	Session handoff.
+READ	HOMER	AGENTS/HOMER/LESSONS.md	whole	HOMER:CLAUDE.md-BOOT-4	HOMER	2026-11-12	Hot index over LESSONS_COLD*.md; cold registers opened only per row.
+READ	HOMER	AGENTS/HOMER/LESSONS_COLD.md	scoped	HOMER:CLAUDE.md-BOOT-4	HOMER	2026-11-12	Conditional: Opened by section only when an index row is acted on.
+READ	HOMER	AGENTS/HOMER/LESSONS_COLD_2.md	scoped	HOMER:CLAUDE.md-BOOT-4	HOMER	2026-11-12	Conditional: Same as LESSONS_COLD.md.
+READ	HOMER	AGENTS/HOMER/docket/CATALYSTS.tsv	grep	HOMER:CLAUDE.md-BOOT-5	HOMER	2026-11-12	awk enumeration of unresolved rows, columns 1-2 only; file ~131 KB never read whole. Output is cap-relevant if the row count grows (about 50 rows now).
+READ	HOMER	AGENTS/HOMER/workbook/*.tsv	summary	HOMER:CLAUDE.md-BOOT-6	HOMER	2026-11-12	scripts/ledger_staleness.py HOMER --quiet header/vintage scan.
+READ	HOMER	AGENTS/HOMER/registry/THRESHOLDS.tsv	summary	HOMER:CLAUDE.md-BOOT-6b	HOMER	2026-11-12	tools/threshold_scan.py bounded output (12 band rows).
+READ	HOMER	AGENTS/WALTER/registry/CORRECTIONS.tsv	summary	HOMER:CLAUDE.md-BOOT-6a	HOMER	2026-11-12	Via scripts/corrections_boot_check.py HOMER with AGENTS/HOMER/registry/corrections_receipts.tsv.
+READ	HOMER	AGENTS/HOMER/workbook/*.tsv	grep	HOMER:CLAUDE.md-BOOT-7	HOMER	2026-11-12	Header line per ledger (two-clock LIVE/FROZEN banner) eyeballed; rows read by grep when a print is consumed.
+READ	HOMER	AGENTS/HOMER/thesis/PREDICTIONS.tsv	grep	HOMER:CLAUDE.md-BOOT-8	HOMER	2026-11-12	Scoped awk of open rows (ID, status, resolve_by first 60 chars); file ~41 KB over cap, declared scoped 2026-10-28; due rows opened individually.
+READ	HOMER	AGENTS/HOMER/inbox/*.md	whole	HOMER:CLAUDE.md-BOOT-9	HOMER	2026-11-12	Conditional: each packet read whole when processed.
+READ	HOMER	AGENTS/HOMER/inbox/WALTER/*.md	whole	HOMER:CLAUDE.md-BOOT-9	HOMER	2026-11-12	Conditional: each unlogged signal read whole, then logged and git-mv to processed/.
+READ	HOMER	AGENTS/HOMER/board_log.tsv	grep	HOMER:CLAUDE.md-BOOT-9	HOMER	2026-11-12	Membership test by grep -F per signal id; never read whole (~79 KB, COLD-class); appended at intake.
+READ	HOMER	AGENTS/HOMER/workbook/KB_LIVE.tsv	grep	HOMER:CLAUDE.md-BOOT-9a	HOMER	2026-11-12	Combination-watch theme rows located by grep when a small item is logged.
+READ	HOMER	AGENTS/HOMER/thesis/THESIS.md	whole	HOMER:docket-THESIS-KILL-RAIL	HOMER	2026-11-12	Conditional: Not boot-read; read at the formal grade (next 2026-11-20) or when a leg is touched.
+READ	HOMER	AGENTS/HOMER/NEXUS_BRIEF.md	whole	HOMER:CLAUDE.md-CLOSEOUT-5	HOMER	2026-11-12	Closeout write-back; read whole to rewrite (17 KB).
+READ	HOMER	AGENTS/HOMER/MEMORY.md	whole	HOMER:CLAUDE.md-FILES	HOMER	2026-11-12	Conditional: Not boot-read by the charter; opened when a preference or do-not-touch note is needed.
