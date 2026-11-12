@@ -1,27 +1,15 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-11-08 12:07 EST — Arkéa provider and shared-reach check, pulled forward from the 11/09 row (PROME prome-bf spawn on Will's word in PROME's chat 11:59 ET, a relay; $0). Runtime Claude Code, Opus 5.5. No score, band, gate, prediction or escalation state moved; no row fired.**
-- **Arkéa (059): unchanged, shared reach still UNKNOWN.** The provider is unnamed everywhere read: the bank's press list holds only its two 11/04 statements; BleepingComputer (11/07) got no answer; AFP, Security Affairs and Armees.com name none. No second institution, no rail statement. CERT-FR alerts and avis carry no banking or payment product; ACPR's press list ends 10/22; ECB list unreadable, Banque de France 403 (UNKNOWN). No US bank, US-dollar rail or Abrigo link in any source. FL-CYP-22 UNTESTED with one more dated null; VX-05 and VX-02 held at 3; CYP-05 (35%) and CYP-06 (12%) not re-marked. No HANS trigger met, so no packets. Row re-dated weekly to 11/16, P2. `research/2026-11-05_arkea/RECORD.md` §9, KB-CYP-107.
-- **Abrigo (060):** no report dated 11/07-11/08 found; whether borrower data was taken still unstated. Next look 11/12 as registered.
-- **Inbox:** PROME's 11/07 carve-out ④ packet LOGGED (KB-CYP-108) and filed; the charter pointer edit it asks for is NOT made (this spawn said not to edit the charter): resume item (3).
-- **Not worked this session:** boot leg 5 flags 023, 024, 028, 029 past their 14-day re-check (last 10/23); carried to the 11/12 claim pass.
+**Last Updated: 2026-11-12 09:05 EST — PROME wake, due-row class C6 (WQ-184), session prome-e8; N-able card first on Will's 11/11 14:06 ET word (relayed by PROME packet). Runtime Claude Code, Opus 5.5. $0. No score, band, gate or prediction moved; no escalation row fired; one ledger state upgraded by the ledger's own enum (CYB-INC-052 Sawyer → CONFIRMED on a state AG record).**
+- **N-able Able2Shell (CYB-INC-065, new, off-wave, ATTEMPTS-ONLY):** read at N-able's own status records. Hosted N-central was offline in all regions from 11/09 14:00 UTC; the fix (HF2, 7 CVEs) shipped 11/10; all hosted servers were upgraded by 11/11 01:04 UTC. On-premises servers must upgrade themselves. N-able says it sees scanning tied to the public exploit code; it has not said any customer was compromised. The researcher's repo holds 33 exploit scripts; N-able has published 7 CVEs and promised a further fix. **New today (11/12 07:00 UTC):** a second disclosure claims the fix is bypassed; N-able says that needs a non-default setting (Legacy API exposed) and is investigating. None of the 7 CVEs is in KEV (v2026.11.10). No bank, credit union or bank vendor is named as a user. The evidence supports "no impact reported", not "no impact". Verdict: leaves WAVE-2026-10 intact (off-wave, no watch row); one follow-up registered (catalyst 11/19, one look).
+- **Found while assessing it:** American Banker (11/11) reports the Storm ransomware group (Storm-1175, which Microsoft linked to the AUGUST N-central flaw) has listed five US banks (~$6.1B assets) and Insight Credit Union (Florida); two confirmed breaches: Sawyer Savings Bank (052, now CONFIRMED on Vermont's AG record; 16,069 people per Indiana's) and Insight (067, REPORTED). Sawyer's notice reportedly says the breach began at its IT provider. ⚠️ CYP-03 is not resolved by it: the notice is dated 10/09, before CYP-03's 10/24 window, so the forecast's event had already happened, unseen, when CYP-03 was registered. Flagged to PROME; not re-marked.
+- **ConnectWise:** a separate ScreenConnect investigation opened 11/11 22:45 UTC (CYB-INC-066, REPORTED): reports of unauthorized access to partner environments through third-party "RMM+" extensions; ~400 partner environments had them disabled; ConnectWise found no ScreenConnect flaw. Cloud Backup (018) still not fully restored (advisory unchanged since 11/04).
+- **Due rows:** wave 7-day pass done, rows 1 and 3-9 NOT-FIRED as of 11/12; Abrigo borrower features still off (day 13), data loss unstated; cluster watch 0 new at its supplier list since 11/05; Keystone erasure unconfirmed, row retired; claim pass (023, 024, 028, 029, 038, 040, 042, 045): nothing confirmed or denied. Re-dated 11/19.
+- **Own-control fix:** boot leg 10 missed N-able (one 21-name query saturated; no "zero-day"/"offline"). Now 6 chunked queries; 113 items vs 28; N-able headlines listed; drills 36/36 (KB-CYP-112).
+- **Inbox drained:** 6 WALTER cards + 2 PROME packets. WQ-660 charter line added (CLAUDE.md step 3a). COR-20261111-14 NO-OP. Watch notes rotated verbatim to `archive/ESCALATION_WATCH_NOTES_2026-11-12.md` (now 58% of budget).
+- **Resume list:** (1) charter GIT pointer for carve-out ④ (PROME 11/07 packet, KB-CYP-108): still waiting on PROME's authorisation. Items (2) watch rotation and (3) WQ-660 line: done 11/12.
 
-**Earlier 11/06, 17:30 EST — close refresh on PROME prome-51's 17:08 ET relay of Will's word (a relay, not his word here); runtime Claude Code, Opus 5.5. No score, band, gate or escalation state moved; no row fired; inbox and WALTER lane empty at boot.**
-- **SonicWall (063, new, off-wave):** CISA listed SonicOS SSLVPN CVE-2026-19868 as exploited on 11/06, due 11/20: valid credentials can bypass SAML and maybe MFA. No victim named. CHK-32 noted; CHK-10 POSSIBLE (weak), not a finding of exposure. ⚠️ SonicWall's own advisory unread (page will not render to curl).
-- **SecurCommunity FCU (064, new, off-wave, not cyber):** $88.5M Memphis credit union, debit and online banking problems since its 11/02 conversion. VX-02 held at 3; PROME agreed 11/06, class C3, no change, reported to Will by PROME.
-- **Row 9 at the close:** PANW $313.84 (-7.77%), HACK $110.84 (-6.37%), gap -1.40; $24.60 above the $289.24 line. HACK's +12.79% peak gain has reversed; SPY -4.39%.
-- **Machine legs:** KEV v2026.11.06, no Item 1.05 8-K since 10/30, leg 10 quiet. Revolve flag is CYB-INC-058, read 10/30. Wave rows not re-stamped: instrument pass due 11/12. Arkéa: feed-level only, no provider named through 11/06; press page not re-read (11/09 row).
-
-**Earlier 11/06, 15:27 EST (PROME prome-51, Will's word relayed; inbox cleared, WQ-635 A encoded):**
-- **Capcom (030): desk error corrected.** Not FALSE. Capcom confirmed 11,774,247 records on 10/22, before the desk's 10/23 "likely recirculation" read; that read and its do-not-relay line are withdrawn. Off-wave, no financial channel. WALTER told.
-- **Kiteworks:** no organisation names it as a route at disclosure +16 days; advisory unchanged since 10/27, no exploitation statement. ⚠️ Weak evidence: AG leg was a search, extortion sites not read. Next 11/13.
-- **GMO (032):** customer contact began 11/06; amount cannot yet be calculated; next the 11/13 briefing. Threshold not met.
-- **Row 9 collapse size: RULED, in force.** WQ-635 A, Will in this session 11:22 ET, verbatim "A approved go ahead". PANW at or below $289.24 (-15.0% from the 10/20 close) AND 10.0 points behind HACK on 2 consecutive closes, through the 11/18 close; PANW only; HENRY grades. Letter in the row's Instrument cell. Not breached at write: PANW -6.1% intraday, worst close -7.5%. Cyber-gain and bank legs stay unsized.
-- **Shinkin Kyodo Center (062, card 005):** 128 Japanese credit co-ops down about 5.5 hours 11/06; operators think not cyber, a same-day view. Row 8 not applicable by letter; cluster duration limb not met. No fire.
-- **Intake clear:** cards 062, 005 and 015, GIBBS's answer (no consequence at the 16, KB-CYP-092), LIQUID's rail answer (no effect on its surfaces, cannot see a European rail, not a clearance, KB-CYP-103), COR-20261105-62 and COR-20261106-15 NO-OP. 005 and 019 re-checked at search level. HANS answered 11/06; SHADE has not filed its 11/05 packet.
-- **Second turn, 15:2x ET:** HANS's Arkéa read logged (one-bank earnings event, conditional on shared reach, KB-CYP-104; its three re-read triggers on the 11/09 row). Card 026: shinkin 3,430 branches UNVERIFIED, noted on 062. Card 033: EFS read at franceinfo, three sites, no loss, noted on 061. No score, band, gate or state moved.
-- **WQ-622:** 3 themes logged in KB (`supplier-route-to-banks`, `japan-october-cluster`, `ai-tooling-entry`). The charter line is NOT added: on the resume list until Will gives it directly.
-- **Resume list:** (1) WQ-622 charter line, Will's direct word. (2) `workbook/ESCALATION_WATCH.tsv` at 79% of read budget (25,780 B): rotate dated notes verbatim to `archive/` to under 22,785 B, not done today. (3) Charter GIT line: point carve-out ④ at root `CLAUDE.md` (PROME packet 11/07, KB-CYP-108); a pointer edit, when PROME authorises it. (11/08: items 1-3 still open.)
+Earlier session blocks (11/06, 11/08) rotated verbatim 2026-11-12 to `archive/STATUS_ARCHIVE_2026-11-12.md`.
 
 > ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** Normal boot.
 
@@ -38,11 +26,11 @@
 
 | Gauge | Reading | Canonical |
 |---|---|---|
-| Escalation rows, WAVE-2026-10 | **1 FIRED (row 2, KEV 10/26) · 8 NOT-FIRED**, all re-checked 2026-11-05 (row 2 terminal); next clock 11/12 | `workbook/ESCALATION_WATCH.tsv` |
+| Escalation rows, WAVE-2026-10 | **1 FIRED (row 2, KEV 10/26) · 8 NOT-FIRED**, all re-checked 2026-11-12 (row 2 terminal); next clock 11/19 | `workbook/ESCALATION_WATCH.tsv` |
 | Convergence composite | **24/40 raw · 15/40 shared-root-adjusted** (VX-01/02/03/06 PHP2Shell cluster counted once at max 4). VX-01 corrected to 3; VX-08 graded 4 ORANGE on the FBI attribution; VX-02 held at 3; VX-06 held at 4 | `workbook/VX.tsv` |
 | Transmission map | 22 mechanisms: 8 CONFIRMED, 7 NOT-OBSERVED, 2 MODELED, 5 UNTESTED. New FL-CYP-21 (vendor access to theft of a bank's own funds, CONFIRMED) and FL-CYP-22 (one vendor, several banks, UNTESTED) | `workbook/FLOW.tsv` |
-| Incident ledger | 64 rows. 11/06: 063 SonicWall, 064 SecurCommunity and 062 shinkin outage opened; 030 Capcom corrected to CONFIRMED. 11/05: 059 Arkéa, 060 Abrigo, 061 European refrigeration wave opened; 037 Finzly and 047 Dream → CONFIRMED; 055 owner → CYPHER (WQ-589). 11/02: 055 re-classed STATE-CAMPAIGN (FBI). 10/30: 055 Binance, 056 Fiserv/Cl0p claim (Aug, denied), 057 Polymarket halt. 10/29: 046 credit-union PHP pause; 047; 048 Jack Henry; 049 Central Bank of India; 050 Sharetec; 051 N-central; 052 NY bank closure; 053 Citizens; 054 US commissary freezers | `workbook/INCIDENTS.tsv` |
-| Chokepoint map | 41 rows: CHK-10 POSSIBLE (weak), CHK-32 noted (SonicWall, 11/06); CHK-41 Abrigo (11/05); CHK-33 Finzly CONFIRMED-OFF-WAVE; CHK-40 USD stablecoin issuers (LIQUID keeps the figure); CHK-34/35 Treasury nodes; CHK-36 Sharetec, CHK-37 print/mail, CHK-38 N-able, CHK-39 SitusAMC. Arkéa reaches no row: provider unnamed | `workbook/CHOKEPOINTS.tsv` |
+| Incident ledger | 69 rows. 11/12: 065 N-central Able2Shell (ATTEMPTS-ONLY), 066 ScreenConnect partner access (REPORTED), 067 Insight CU (REPORTED), 068 Suncoast CU and 069 Vanguard (law-firm claims only) opened; 052 Sawyer → CONFIRMED. 11/06: 063 SonicWall, 064 SecurCommunity and 062 shinkin outage opened; 030 Capcom corrected to CONFIRMED. 11/05: 059 Arkéa, 060 Abrigo, 061 European refrigeration wave opened; 037 Finzly and 047 Dream → CONFIRMED; 055 owner → CYPHER (WQ-589). 11/02: 055 re-classed STATE-CAMPAIGN (FBI). 10/30: 055 Binance, 056 Fiserv/Cl0p claim (Aug, denied), 057 Polymarket halt. 10/29: 046 credit-union PHP pause; 047; 048 Jack Henry; 049 Central Bank of India; 050 Sharetec; 051 N-central; 052 NY bank closure; 053 Citizens; 054 US commissary freezers | `workbook/INCIDENTS.tsv` |
+| Chokepoint map | 41 rows: CHK-10 POSSIBLE (weak), CHK-32 noted (SonicWall, 11/06); CHK-41 Abrigo (11/05); CHK-33 Finzly CONFIRMED-OFF-WAVE; CHK-40 USD stablecoin issuers (LIQUID keeps the figure); CHK-34/35 Treasury nodes; CHK-36 Sharetec, CHK-37 print/mail, CHK-38 N-able (third emergency since August, 11/12 note), CHK-39 SitusAMC; CHK-16 ConnectWise (ScreenConnect note 11/12). Arkéa reaches no row: provider unnamed | `workbook/CHOKEPOINTS.tsv` |
 | Predictions | CYP-01 30% · CYP-02 15% · CYP-03 15% · CYP-04 35% · **new 11/05 (WQ-596):** CYP-05 Arkéa provider named 35% · CYP-06 second institution 12% · CYP-07 named PHP2Shell victim 45% (contrarian) · CYP-08 KEV count ≥50 45% on HIT (contrarian lean is MISS); all OPEN, none due | `workbook/PREDICTIONS.tsv` |
 | R1 two-way flip | Toward MOVEit: row 1 or 3 FIRES on or before 2026-11-20 (a named organisation). Toward Log4Shell: rows 1, 3 and 4 all NOT-FIRED at 11/20, with re-checks dated 11/13–11/20 | `workbook/EXIT_PROTOCOL.md` |
 
@@ -62,33 +50,36 @@
 | Post-mortem and outreach (11/05) | Began June with malicious software installed for an AI coding tool, plus fake recruiter interviews; no vendor, supplier or bank named. North Korea denies. Fed and OCC supervisors called banks 11/02 (Reuters, anonymous): outreach, no finding, no bank named; never "probe" or "contagion" | SECONDARY |
 | Do not relay | "$5B hack" · "$6.3B stolen" · "largest bank heist" · "CZ confirms" · "North Korea did it" · "user funds lost" (first-read RECORD §9) · "COIN down 10× bitcoin" · "Binance halted trading" · "Tether and Circle said they froze $2.36B" (leg-1 RECORD §6) | — |
 
-## Open wave — WAVE-2026-10 (all rows State_As_Of 2026-11-05 except row 2, terminal 10/26)
+## Open wave — WAVE-2026-10 (all rows State_As_Of 2026-11-12 except row 2, terminal 10/26)
 
-| Row | Sign | State | 11/05 reading |
+| Row | Sign | State | 11/12 reading |
 |---|---|---|---|
-| 1 | Named successful PHP2Shell compromise | NOT-FIRED | Palo Alto verified Dream's compromises, ~.02% of base impacted, no organisation named. NCSC unchanged since 10/23. PROME ruled: naming required |
-| 2 | KEV listing of both CVEs | **FIRED 10/26** | KEV v2026.11.04 still lists both |
-| 3 | Named US bank / CU / core-vendor victim | NOT-FIRED | None tied to PHP2Shell. Finzly and Abrigo are off-wave on all evidence; a PHP2Shell root cause at either fires this |
-| 4 | Bank/vendor 8-K Item 1.05 | NOT-FIRED | None since 10/29, control 17 in 120d |
-| 5 | Regulator supervisory concern | NOT-FIRED | NYDFS 10/22 still the latest cyber letter; nothing else found |
-| 6 | PCS designation / loss estimate | NOT-FIRED | No figure; CyberCube long-tail, Marsh Re closer to routine patching |
-| 7 | Government state attribution | NOT-FIRED | Still private only for this wave |
-| 8 | Bank/payment outage outside Japan | NOT-FIRED | Arkéa off-wave and under one business day on its word |
-| 9 | Sustained equity move | NOT-FIRED | HENRY's grade; test 11/18. Collapse leg ruled 11/06 (WQ-635 A): PANW at or below $289.24 AND 10.0 points behind HACK, 2 closes. 11/06 close since 10/20: PANW -7.77%, HACK -6.37% |
+| 1 | Named successful PHP2Shell compromise | NOT-FIRED | No named victim at any source (search-level); Unit 42's government-victim attribution stays retracted; Palo Alto's verified ~.02% stays unnamed |
+| 2 | KEV listing of both CVEs | **FIRED 10/26** | Terminal |
+| 3 | Named US bank / CU / core-vendor victim | NOT-FIRED | Storm's bank and CU claims run through the AUGUST N-central flaw where a route is stated, not PHP2Shell |
+| 4 | Bank/vendor 8-K Item 1.05 | NOT-FIRED | None since 11/05 (leg 8 live); control 16 in 120d |
+| 5 | Regulator supervisory concern | NOT-FIRED | NYDFS 10/22 still the latest cyber letter (list read 11/12) |
+| 6 | PCS designation / loss estimate | NOT-FIRED | No figure found |
+| 7 | Government state attribution | NOT-FIRED | Private only (CYFIRMA: Korean-speaking, possibly Lazarus-linked; Dream: Chinese-speaking cluster) |
+| 8 | Bank/payment outage outside Japan | NOT-FIRED | None tied to the wave; this week's outages are MSP tools, off-wave |
+| 9 | Sustained equity move | NOT-FIRED | HENRY grades 11/18. 11/11 close vs 10/20: PANW $334.47 (-1.71%), HACK $117.51 (-0.73%), gap -0.98 pts; PANW $45.23 above $289.24 |
 
 ## Incidents worth knowing (canonical: `workbook/INCIDENTS.tsv`)
 
 | ID | Event | State | Why it matters |
 |---|---|---|---|
+| CYB-INC-065 | N-able N-central Able2Shell: 33 alleged zero-days published 11/08-09; hosted offline 11/09-11/11; HF2 (7 CVEs) 11/10; bypass claim under N-able investigation 11/12 | ATTEMPTS-ONLY · PRIMARY-VERIFIED (vendor statements) | MSP route into banks that outsource IT; no FI named; none of the 7 CVEs in KEV yet |
+| CYB-INC-052 / 067 | Storm-1175 lists five US banks (~$6.1B) and Insight CU (FL); Sawyer confirmed (notice 10/09, MSP origin per its notice, SECONDARY), Insight confirmed per American Banker | CONFIRMED · PRIMARY (Sawyer, VT AG) / REPORTED · SECONDARY (Insight) | The August N-central route reaching US banks; four banks neither confirm nor deny |
+| CYB-INC-066 | ConnectWise ScreenConnect: reports of partner-environment access via third-party RMM+ extensions; ~400 environments disabled | REPORTED · PRIMARY-VERIFIED (advisory) | Second MSP-tool event in the same week; no FI named |
 | CYB-INC-007 | PHP2Shell root CVEs in KEV since 10/26 | CONFIRMED (flaw level) · PRIMARY-VERIFIED | The wave root |
 | CYB-INC-030 | Capcom: 11,774,247 records (email, account data), no cards, method unpublished | CONFIRMED · PRIMARY-VERIFIED | Corrects the desk's own 10/23 read; no financial channel |
 | CYB-INC-062 | Shinkin Kyodo Center: 128 Japanese credit co-ops down about 5.5 hours 11/06 | CONFIRMED · SECONDARY (operators quoted) | Widest institution count in the ledger; operators think not cyber |
 | CYB-INC-059 | Crédit Mutuel Arkéa: own-account theft through an unnamed provider, about EUR 100M provisional | CONFIRMED · PRIMARY-VERIFIED (figure not) | First own-funds theft through a vendor in this ledger; reach unknown |
-| CYB-INC-060 | Abrigo: unauthorized access behind Sageworks shutdown 10/30-11/02; data loss unstated | CONFIRMED · SECONDARY | Bank and CU loan documents; >2,400 institutions across all products |
+| CYB-INC-060 | Abrigo: unauthorized access behind Sageworks shutdown 10/30-11/02; borrower features still off 11/12; data loss unstated | CONFIRMED · SECONDARY | Bank and CU loan documents; >2,400 institutions across all products |
 | CYB-INC-047 | Dream: PHP2Shell + Fragnesia rooted 24-25 firewalls; US government-affiliated network had credentials extracted; Palo Alto verified | CONFIRMED · PRIMARY-VERIFIED (victims unnamed) | MOVEit-shape risk if a name surfaces |
 | CYB-INC-046 | A US credit union ($8.9B) paused its in-house PHP website and digital banking ~24h on 10/21; payments up; no member impact stated | REPORTED · SECONDARY (operator quoted) | First US FI service pause for this wave; the row 8 band boundary case |
 | CYB-INC-027 | Node2Shell CVE-2026-111497: CISA KEV 10/27 (listed under Google Brotli); AI-found (OpenAI Codex Security) | CONFIRMED (flaw level) · PRIMARY-VERIFIED | Off-root; AI-found flaw exploited within 6 days of the fix; VULCAN told |
-| CYB-INC-018 | ConnectWise / Storm-0940 supply chain: phases 1-2 complete, 3-4 partial, billing and platform dashboard open (advisory 11/04 18:55 UTC); **not restored** | CONFIRMED · PRIMARY-VERIFIED | MSP channel; no FI named |
+| CYB-INC-018 | ConnectWise / Storm-0940 supply chain: phases 1-2 complete, 3-4 partial, billing and platform dashboard open (advisory unchanged since 11/04 18:55 UTC, read 11/12); **not restored** | CONFIRMED · PRIMARY-VERIFIED | MSP channel; no FI named |
 | CYB-INC-037 | Finzly: company confirms one backup-site device accessed; firewall keys and a map of the clients' Fed link published; Fed "not impacted"; keys untested | CONFIRMED · SECONDARY (company statement) | Strongest financial-supplier lead; first-access date unknown |
 | CYB-INC-043 | Park24: ~1.46M accounts eligible for JPY 3,000 (~JPY 4.4B); JPY 5.5B loss; net forecast cut 44.0B → 38.5B | REPORTED · SECONDARY | Listed-company earnings channel (SAM/OTTO); issuer notice unread |
 | CYB-INC-015 / 017 | River Financial (off-wave ransomware, 8-K) · TruStage (CU vendor outage since 7/11) | CONFIRMED · PRIMARY-VERIFIED | Off-wave US financial victims; TruStage answer window 11/15 |
@@ -108,7 +99,7 @@ Rotated verbatim 2026-11-06 to `archive/STATUS_ARCHIVE_2026-11-06.md`; its facts
 - **Recorded disagreement:** DEWEY recommended a WALTER watch, not a desk; Will chose a desk. R0 review on 2026-12-17.
 - **Guardrails:** no scanning or probing of institutions. Packets carry counts; names stay in research files.
 - **No book** (`TRADE.md`, FROZEN).
-- **Approvals:** Tier-2 event ownership and the existing watch. CYP-01..04 registered on Will's word. WQ-500 (no healthcare owner) and WQ-501 (CYBER group) ruled. WQ-589 B-narrow: crypto-venue and stablecoin-issuer hacks, dollar-system reach only. This session ran on WQ-618 A (no trade, no threshold or gate change). No capital authority.
+- **Approvals:** Tier-2 event ownership and the existing watch. CYP-01..04 registered on Will's word. WQ-500 (no healthcare owner) and WQ-501 (CYBER group) ruled. WQ-589 B-narrow: crypto-venue and stablecoin-issuer hacks, dollar-system reach only. The 11/12 session ran on PROME's C6 wake (WQ-184) and Will's 11/11 word on the N-able card (no broad backlog expansion, no new recurring review). No capital authority.
 
 ## Data walls and runtime
 
@@ -132,17 +123,19 @@ Rotated verbatim 2026-11-06 to `archive/STATUS_ARCHIVE_2026-11-06.md`; its facts
 - **Charter rotated** to 67% of budget: build history to `CHARTER_PROVENANCE.md`, file guide to `FILES.md`, both verbatim.
 - **MCP connections:** mtnewswire and definite returned "endpoint not found" and Prisma timed out (10/29). Will disabled unused plugins at 14:42 ET; which ones was not verified by CYPHER. CYPHER depends on none of them; its routes are in `DATA_ROUTES.md`.
 - **Leg 10 miss 11/05:** quiet while Finzly and Abrigo were live. Finzly's headline said "bank vendor" (body match, unlisted by design); Abrigo was not on the list (added). Leg 10 quiet does not mean no incident.
+- **Leg 10 rebuilt 11/12** (KB-CYP-112): the single 21-name query saturated and missed N-able 11/09-11/11. Now 6 chunked queries with "zero-day"/"exploited"/"offline"; drills cover the file path only, the chunked path was witnessed live (113 items, N-able listed).
+- **Not done 11/12 (carried, skipped):** SonicWall advisory re-read (063) and SecurCommunity check (064) from the 11/12 list; AG breach portals for Abrigo; Insight CU's own notice.
 - **Search lesson:** a re-check of row 8 must search trade press (American Banker, Banking Dive, CU Times) for "offline"/"precaution", not only operator pages.
 
 ## Dated next
 
 | Date | Check |
 |---|---|
-| 11/12 | SonicWall advisory · SecurCommunity · Open-wave 7-day clock · bank-vendor cluster watch · Abrigo · ConnectWise · claim pass 038, 040, 042, 045 · overdue re-checks 023, 024, 028, 029 · Keystone last look |
-| 11/16 | Arkéa weekly look (P2; checked 11/08, nothing moved) |
 | 11/13 | GMO results briefing · Kiteworks second look |
-| 11/15 · 11/18 · 11/20 | TruStage answer window · row 9 equity test · **R1 flip test (P1)** |
+| 11/15 · 11/16 | TruStage answer window · Arkéa weekly look |
+| 11/18 · 11/19 | row 9 equity test (HENRY) · wave 7-day clock, cluster watch, Abrigo, ConnectWise, **Able2Shell/MSP one look** (incl. Insight notice for CYP-03), SonicWall 063, SecurCommunity 064 |
+| 11/20 | **R1 flip test (P1)** |
 
 ## BOTTOM LINE
 
-The October PHP2Shell wave is still open with one trigger fired (CISA's exploitation listing, 10/26) and no bank, credit union or banking vendor named as its victim; Kiteworks, the product most shaped like MOVEit, has no named victim at +16 days, which is weak evidence because Kiteworks has neither confirmed nor denied exploitation. The most important unconfirmed lead is still who Crédit Mutuel Arkéa's provider is and whether it serves other banks; at the 11/08 re-check it was still unnamed, with no second institution, no supervisory alert and no US link. Row 9's collapse size is ruled (WQ-635 A), not met at the 11/06 close, and HENRY grades it at the 11/18 close. CISA listed a separate SonicWall flaw as exploited on 11/06, with no victim named. Next wakes: 11/12 wave clock and vendor watch, 11/13 GMO and Kiteworks, 11/16 Arkéa weekly look, 11/18 row 9, 11/20 flip test; these wake CYPHER through PROME's summons check.
+The October PHP2Shell wave is still open with one trigger fired (CISA's exploitation listing, 10/26); the 11/12 re-check found no bank, credit union or banking vendor named as its victim, so nothing else has fired. The week's real movement is in the managed-IT-provider channel, off-wave: N-able's N-central had 33 alleged zero-days published and went offline worldwide for about 35 hours (fixed, scanning seen, no compromise stated, a bypass claim under investigation today), ConnectWise is investigating abuse of ScreenConnect add-ons, and a ransomware group tied to the August N-central flaw has listed five US banks and a Florida credit union, two of them confirmed. The most important unconfirmed lead is whether any bank or credit union names N-central or ScreenConnect as its way in during this window (that would resolve CYP-03); Arkéa's provider is still unnamed. Next wakes: 11/13 GMO and Kiteworks, 11/16 Arkéa, 11/18 row 9, 11/19 MSP one look and wave clock, 11/20 flip test, through PROME's summons check.

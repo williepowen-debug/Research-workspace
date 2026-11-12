@@ -113,10 +113,14 @@ SEC_ARCHIVE = "https://www.sec.gov/Archives/edgar/data"
 NEWS_URL = "https://news.google.com/rss/search"
 BANK_VENDORS = ['"Jack Henry"', 'Fiserv', '"FIS Global"', '"Computer Services Inc"', 'Corelation', '"Q2 Holdings"',
                 'Alkami', 'Candescent', 'Finastra', 'TruStage', '"Marquis Software"', 'Sharetec', 'Finzly',
-                '"N-central"', 'ConnectWise', 'Kaseya', 'Sefas', 'SitusAMC', 'Abrigo', 'Sageworks', '"core processor"']
-NEWS_TERMS = '(cyberattack OR breach OR outage OR "cybersecurity incident" OR ransomware)'
+                '"N-central"', '"N-able"', 'ConnectWise', 'Kaseya', 'Sefas', 'SitusAMC', 'Abrigo', 'Sageworks', '"core processor"']
+# 2026-11-12 (N-able Able2Shell miss, WALTER card SIG-W-20261111-022): the one 21-name OR query saturated at ~28 items
+# per 30 days while "N-central" alone had 46 in 7 days, and the terms lacked the words the headlines used. Fix: query
+# the names in chunks of NEWS_CHUNK and merge; add "zero-day" / exploited / offline to the query and the title test.
+NEWS_TERMS = '(cyberattack OR breach OR outage OR "cybersecurity incident" OR ransomware OR "zero-day" OR exploited OR offline)'
+NEWS_CHUNK = 4
 NEWS_CONTROL_DAYS = 30
-NEWS_TITLE_INCIDENT_RE = re.compile(r"cyber|breach|outage|ransomware|hack|incident|attack|offline|disrupt|extortion|compromis", re.I)
+NEWS_TITLE_INCIDENT_RE = re.compile(r"cyber|breach|outage|ransomware|hack|incident|attack|offline|disrupt|extortion|compromis|zero-day|exploit", re.I)
 NEWS_TITLE_VENDOR_RE = re.compile("|".join(re.escape(v.strip('"')) for v in BANK_VENDORS), re.I)
 import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
 sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
@@ -573,19 +577,27 @@ def edgar_801():
 def bank_vendor_news():
     if OFFLINE:
         return 1, ["  ⚠️ NOT RUN (--offline): bank-vendor news sweep unchecked — a skipped control is not a pass"]
-    query = f"({' OR '.join(BANK_VENDORS)}) {NEWS_TERMS} when:{NEWS_CONTROL_DAYS}d"
     path = os.environ.get("CYPHER_NEWS_FILE")
     try:
-        if path:
-            raw, src = Path(path).read_text(encoding="utf-8"), f"DRILL FILE {path}"
-        else:
-            full = NEWS_URL + "?" + urllib.parse.urlencode({"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"})
-            req = urllib.request.Request(full, headers={"User-Agent": "Mozilla/5.0 (CYPHER boot leg 10)"})
-            with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
-                raw = resp.read().decode("utf-8", errors="ignore")
-            src = "LIVE news.google.com/rss/search"
         import xml.etree.ElementTree as ET
-        items = ET.fromstring(raw).findall(".//item")
+        if path:
+            items = ET.fromstring(Path(path).read_text(encoding="utf-8")).findall(".//item")
+            src = f"DRILL FILE {path}"
+        else:
+            items, titles_seen = [], set()
+            chunks = [BANK_VENDORS[i:i + NEWS_CHUNK] for i in range(0, len(BANK_VENDORS), NEWS_CHUNK)]
+            for chunk in chunks:   # any chunk failing fails the leg (rc 2): a partial sweep is not certified
+                query = f"({' OR '.join(chunk)}) {NEWS_TERMS} when:{NEWS_CONTROL_DAYS}d"
+                full = NEWS_URL + "?" + urllib.parse.urlencode({"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"})
+                req = urllib.request.Request(full, headers={"User-Agent": "Mozilla/5.0 (CYPHER boot leg 10)"})
+                with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+                    raw = resp.read().decode("utf-8", errors="ignore")
+                for it in ET.fromstring(raw).findall(".//item"):
+                    t = (it.findtext("title") or "").strip()
+                    if t not in titles_seen:
+                        titles_seen.add(t)
+                        items.append(it)
+            src = f"LIVE news.google.com/rss/search, {len(chunks)} chunked queries"
     except Exception as e:  # noqa: BLE001
         return 2, [f"  🔴 bank-vendor news: fetch/parse FAILED ({type(e).__name__}: {e}) — cannot certify; "
                    f"do NOT read as 'no stories'. Search trade press by hand"]
