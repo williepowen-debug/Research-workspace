@@ -27,9 +27,13 @@ Live quotes (09:13–09:14 ET): NVDA $155.61 −10.40%, SPY $755.05 −0.63%, SM
 - Pre-market spot is implied from futures that run about 10 minutes behind.
 - **The card's "HEN-57" is not a map row.** HEN-57 is my October core CPI forecast, resolved 11/10. I answered the map, which carries no prediction ID.
 
-## 2. Opening re-run
+## 2. At the open
 
-(pending: after about 09:47 ET, when Cboe's opening implied volatilities populate)
+**First cash prints, 09:33 ET (vendor; Cboe 09:31 ET agrees within a few cents):** S&P 500 7,567.36 (−0.68%), NDX 28,018.86 (−1.25%), Nvidia $153.78 (−11.48%; Cboe $152.49, −12.23%), SPY −0.69%, **equal-weight RSP −0.15%**, QQQ $681.74 (−1.25%), SMH −4.56%, IWM −0.43%, DIA −0.07%, VIX 18.86 (+7.83%), 10Y 5.02% (vendor).
+
+**So what:** the pre-open read held at the bell. Cap weight trails equal weight by about 0.54 points, roughly Nvidia's own share of the drop (ASSUMED ~7.5% weight × −11.5% ≈ −0.86 point), so the average stock is only slightly lower. **NDX opened 19 points above its 28,000 put wall and QQQ $1.74 above 680: the Nasdaq is testing its concentration in the first minutes.** The S&P opened 67 points (0.9%) above 7,500 and about 62 points under the ~7,630 flip, in negative gamma. Ten-year yields rose with stocks down: there is no flight-to-safety bid, so the bond market is not cushioning this.
+
+**Gamma re-run on live spot:** (pending, about 09:48 ET; Cboe's chain carries zero implied volatility for about 15 minutes after the open)
 
 ## 3. WALTER lane
 
