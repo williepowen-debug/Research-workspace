@@ -22,7 +22,7 @@
     "PROME/ORCHESTRATION_PLAYBOOK.md": "4dd7d1dff74b42805ecbbbefc3569badb3f49b7bb8bf8c2bd5140b1edc56b8f6",
     "AGENTS/DAEDALUS/scripts/docket_owed.py": "684eb8968d162a07da7fc2ab2a3bde5ef1fc077bef1bbac77248f8f7c58ee0e4",
     "scripts/docket_view.py": "1112e9b3db0d8cec163b8f8133fc8cc9078131f8102866dd326a6f581fcf13fe",
-    "AGENTS/DAEDALUS/OPERATIONS.md": "2d48676e2651ee51bb1da6688674b23e063556adc27e07a6c1412c9e6bfb6a7a",
+    "AGENTS/DAEDALUS/OPERATIONS.md": "77a634bc435f37e4eb424f6ab78172776c35930b5ec8bcfae8210688e6c7bf73",
     "docs/GIT_WORKTREE_PROCEDURES.md": "3b2f593bd2fb30ce53afe4c03bdc275db444fefd28514484d1cf90a4c1e49904"
   },
   "charter_identity_update": "2026-10-09: Will-approved preservation split into mandatory CLAUDE.md and OPERATIONS.md; only these instruction identities refreshed/added. Other hashes retain their prior reviewed snapshots. Additive owner delta: registry/2026-10-09_READS_SPLIT_DELTA.tsv; live application not inferred.",
@@ -34,5 +34,5 @@
     }
   },
   "reattestation_2026-11-12": "Full re-enumeration at HEAD 72c4e7b4f (method: runs/2026-11-12_HOUSEKEEPING.md §2). All identities refreshed; docs/GIT_WORKTREE_PROCEDURES.md added (root CLAUDE.md requires it whole before commit/pull). Hashes identify versions, not correctness. PROME transcription pending owner application.",
-  "wq678_update": "2026-11-12: CLAUDE.md:93 and OPERATIONS.md:14 citation fixes (WQ-678 A18); only these two identities refreshed; no boot read added or removed."
+  "wq678_update": "2026-11-12: CLAUDE.md:93 and OPERATIONS.md:14 citation fixes (WQ-678 A18); only these two identities refreshed; no boot read added or removed. Later 2026-11-12: OPERATIONS.md lines 14 and 16 pre-approval text removed (WQ-678 addendum); identity refreshed."
 }

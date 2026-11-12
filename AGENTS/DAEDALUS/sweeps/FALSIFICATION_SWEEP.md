@@ -29,8 +29,8 @@
 
 - **Detection: autonomous, read-only.**
 - **Write-back check (added run #4, after run #3's §6 asks to HANS/ZHAO/CREED never left the desk): every owner a run record names as owing a fix appears in a packet that carries that ask, by name — checked before the registry row is advanced.**
-- **STALE-FLAGGED on a live/active agent → task packet to owner** (never direct-edit a falsification surface: re-scoping kill criteria is DOMAIN judgment, not hygiene — the one sweep where the dormant-freeze pre-approval class does NOT extend, because a wrong "fix" here silently changes what would falsify a thesis).
-- **Retired-but-unfrozen kill tree → FROZEN banner** is the ONLY pre-approvable mutation class (mechanical, reversible, PAT-023 form) — and only idle-verified.
+- **STALE-FLAGGED on a live/active agent → task packet to owner** (never direct-edit a falsification surface: re-scoping kill criteria is DOMAIN judgment, not hygiene).
+- **Retired-but-unfrozen kill tree → FROZEN banner** is surfaced for approval (mechanical, reversible, PAT-023 form), idle-verified first.
 - Cross-agent consumed-doc staleness → flag BOTH sides (owner + consumer).
 
 ## Run Log

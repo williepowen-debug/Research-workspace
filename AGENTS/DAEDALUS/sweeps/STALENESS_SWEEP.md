@@ -39,18 +39,9 @@ Staleness is measured **vs each agent's own STATUS.md** (default 30d threshold).
 - **A stale row is where to LOOK for a wrong row** *(CRUISE 2026-09-02, run #4 write-back — PAT-062 n+2)*: the FLOW.tsv refresh found FL-CRU-06 ~2.7× wrong against CCL's own published sensitivity, unsourced since a 3/20 boot thesis — wrong the whole time it was fresh. The staleness clock cannot find this; the REFRESH is the audit. When an owner reports a refresh, ask for the rows whose VALUE changed, not just the stamp.
 
 ### 3. Disposition & authority
-- **Detection is autonomous** (read-only). **All mutations are approval-gated** unless standing pre-approval exists (see below).
-- **Dormant freezes: STANDING PRE-APPROVED (Will, 2026-07-04) — autonomous under the gate below.** idle-verify (`git log`: no *self-authored* commits + STATUS older than cadence) → prepend a `FROZEN` banner **(condition-cited form per the §2 template / PAT-057 — never lifecycle-cited)** → commit by pathspec → **log + report.** Ambiguous idle-verify → fall back to surface-for-approval (don't freeze on a maybe).
+- **Detection is autonomous** (read-only). **All mutations are approval-gated**, freezes included.
 - **Live/owner surfaces:** consolidate to one PROME rollout packet or per-owner task-packet (outbox-restraint — don't spray).
 - **New mechanism gaps** (a surface the script doesn't cover, a banner vocabulary it misses): patch `scripts/ledger_staleness.py` **additively/non-breaking** + validate the default mode is byte-identical for existing callers (PAT-035).
-
-> **Standing pre-approval — GRANTED 2026-07-04 (Will), tightly scoped.** DAEDALUS may **freeze dormant surfaces autonomously** each sweep and report, under ALL of:
-> - **(a) freeze-only** — prepend a condition-cited "FROZEN <date> — <surface-level reason>; not maintained" banner (§2 template, PAT-057); **never** delete or content-refresh.
-> - **(b) idle-verification passes** — the surface is script-flagged stale **AND** the agent has **zero *self-authored* commits** within the cadence window (WALTER/PROME routing commits do **not** count — check `git log` author + content) **AND** STATUS.md predates the cadence.
-> - **(c) always logged** in the Run Log + reported to Will each run.
-> - **(d) reversible** — it's a banner; removed on revival.
->
-> **Everything else stays gated:** live-agent surfaces are **routed, never direct-edited**; `ledger_staleness.py` patches need approval. **If idle-verification is ambiguous, fall back to surface-for-approval — do not freeze on a maybe.** *(This pre-grant covers "permission" for the bounded class; the per-action idle guard still runs — PAT-036.)*
 
 ### 3b. Run #4 SCOPE ADD (Will-approved 2026-08-20 — staleness-cadence proposal rollout step 3; registered here so the ~9/1 session inherits it regardless of who runs)
 - Run the **(a)+(c) CANDIDATES pass**: `--all --writes` and `--all --abs-floor` beside the default pass. **CANDIDATES, not defects** (PROME 8/4 item 2 verbatim): a flagged ledger is a prompt for the OWNER to confirm its real cadence — route per-owner notes, never freeze on the writes/abs read alone. Seed context: the 8/4 backlog framing measured ~32 ledgers ≥12 STATUS-writes behind.

@@ -1,6 +1,6 @@
 # Current continuation — Harness re-test, November 12, 2026
 
-Provider-switch re-test done on Will's "okay do harness re-test" (09:07 ET): `runs/2026-11-12_HARNESS_RETEST.md`, ledgers `runs/harness_audit_2026-11-12/`. WQ-678 A ruled 09:59 ET in PROME's chat; 41 packets (40 desks + PROME) committed 6a43711d27, A18 applied in own CLAUDE.md:93 and OPERATIONS.md:14. Owners apply at next ordinary wake; no launches. Own 28 optional trims (incl. RAV charter) deferred. A17 (USER.md :50 vs :52) and retiring the dormant-freeze pre-approval wait for Will. Harness last_run stays 2026-10-04 until applied.
+Provider-switch re-test done on Will's "okay do harness re-test" (09:07 ET): `runs/2026-11-12_HARNESS_RETEST.md`, ledgers `runs/harness_audit_2026-11-12/`. WQ-678 A ruled 09:59 ET in PROME's chat; 41 packets (40 desks + PROME) committed 6a43711d27, A18 applied in own CLAUDE.md:93 and OPERATIONS.md:14. Owners apply at next ordinary wake; no launches. Own 28 optional trims (incl. RAV charter) deferred. Will decided both open items ~10:10 ET: A17 done by PROME; dormant-freeze pre-approval retired and removed from own files. Harness last_run stays 2026-10-04 until applied.
 
 ---
 
