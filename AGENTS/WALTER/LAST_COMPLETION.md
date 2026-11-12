@@ -67,6 +67,11 @@ Tier 2 FULL closeout, walter-42, desktop. Prior: FULL 2026-11-12T01:06:49Z (walt
   "next_review": "2026-11-13",
   "publication": [
     {
+      "commit": "6cd98d669b",
+      "state": "published",
+      "note": "Tier 2 closeout files (STATUS, SESSION_LOG, MEMORY and rotation, REGISTRY, CLAUDE.md and BOOT_PROTOCOL WQ-678 B trims, basis hashes, kill_log, this file, checks.json); PROME packet 6d6e8e2b4f; safe-push CONFIRMED"
+    },
+    {
       "commit": "f515ab80ff",
       "state": "published",
       "note": "card 20261112-011 OTTO EART, 1 handoff (LIQUID); safe-push CONFIRMED at 2f81dd0282; reconciled 1 row delivered"
