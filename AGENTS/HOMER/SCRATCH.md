@@ -1,6 +1,6 @@
 # HOMER SCRATCH — 2026-11-12 wake (PROME, Will's word 11:53 ET: "okay go ahead with HOMER and BRENT wakes")
 
-**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), session b77ada3f. Launched from `AGENTS/HOMER/`; root CLAUDE.md, AGENTS.md, USER.md, COMPLETION_SPEC and the desk charter read explicitly. No pull: other desks' files modified (CATO at boot; BRENT, DEWEY later); origin had nothing new at 11:54 ET. One read-only Opus helper (Arbor/Blackjack); Arbor figures re-read by HOMER at EDGAR. **HOLDING OPEN after delivery on PROME's instruction; not closed out.**
+**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), session b77ada3f. Launched from `AGENTS/HOMER/`; root CLAUDE.md, AGENTS.md, USER.md, COMPLETION_SPEC and the desk charter read explicitly. No pull: other desks' files modified (CATO at boot; BRENT, DEWEY later); origin had nothing new at 11:54 ET. One read-only Opus helper (Arbor/Blackjack); Arbor figures re-read by HOMER at EDGAR. Held open after delivery on PROME's instruction; narrowed the United Fidelity and Arbor wording at PROME's ask (a5608acfe2). **CLOSED OUT 2026-11-12 15:3x ET on PROME's ask (Will's word 15:32 ET). No timers or pollers were running.**
 
 ## Done 2026-11-12
 
