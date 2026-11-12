@@ -61,3 +61,17 @@ All six walls passed the cross-horizon check and are published (`workbook/PUBLIS
 | NDX | 28,252 | 28,119 / 28,228 | POSITIVE, +$0.3B / +$0.1B, 24–133 pts over | 28,000 put, 29,675 call, clean both |
 
 **Read:** the put walls held the opening test (QQQ $0.17 under 680 at the low) and the tape bounced; Nvidia halved its loss. Nasdaq at the boundary (NDX over its flip, QQQ under): no regime called. S&P shallow negative, about 0.3% under the flip. Snapshot caveat: the 11/11 opening read reversed by the afternoon. Wall rows hand-written to `PUBLISHED.tsv` (the script writes flips and GEX only, and overwrote the 09:14 ET flip rows with the 09:48 ET run; the pre-open figures live in § 1 and KB ML-HEN-217).
+
+## 3. Flip cross (watcher fired 11:08:48 ET; gamma 11:09 ET, published)
+
+**Trigger:** background watcher on vendor ^GSPC (120 s poll) fired `FLIP-CROSS SPX 7637.08 at 11:08:48`. **11:09 ET (vendor):** SPX 7,639.62 (+0.27%), NDX 28,477.24 (+0.36%), QQQ $692.77 (+0.35%), NVDA $166.74 (−4.02%), SPY +0.25%, RSP −0.13%, VIX 17.86 (+2.12%).
+
+| Chain (`--both --publish`, 11:09 ET) | Spot | Flip 14d / 35d | Regime, net GEX per 1% | Walls |
+|---|---:|---:|---|---|
+| SPX | 7,639.6 | 7,632 / 7,634 | **POSITIVE** both, +$3.6B / +$3.5B, 6–8 pts over | 7,500 put still #1 at both but a NEAR-TIE (14d +4%, 35d +1%): band **7,500–7,600**; 7,700 call clean both |
+| QQQ | 692.77 | 693 / 693 | **SIGN SPLIT** (14d +$0.0B, 35d −$0.1B): on the flip, no regime called | 680 put, 700 call, clean both |
+| NDX | 28,477 | 28,176 / 28,274 | **POSITIVE** both, +$0.8B / +$0.6B, 203–301 pts over | 28,000 put, 29,675 call, clean both |
+
+(Published values; a first unpublished run 30 s earlier read SPX flip 7,632 / 7,633, +$3.7B / +$3.6B. Contract counts move between pulls.)
+
+**Read change:** the S&P map turned from shallow NEGATIVE (09:48) to marginal POSITIVE: dealer hedging now damps moves rather than amplifying them. **It is only just:** spot is about 0.1% over an estimated level; a 10-point dip reverses it. The put wall at 7,500 lost its clean margin at this spot (gamma at a strike depends on spot), so the support quote is now a band. The recovery is cap-weighted with Nvidia still −4% and equal weight −0.13%: large names other than Nvidia carried it (combo: narrow-rebound-or-broadening). No HENRY line is near firing; no prediction, score or band moved.
