@@ -322,3 +322,17 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-10T22:21:11+00:00	SIG-W-20261110-008	info-only	INBOX_WALTER	Petroline attack, operations unaffected per Saudi ministry; BRENT/FALCON own; no Japan crude-volume change stated
 2026-11-10T22:21:11+00:00	SIG-W-20261110-011	noted	INBOX_WALTER	Japan September household spending -6.8 percent YoY is an unverified relay (MIC release not read); not chased in this scoped pass
 2026-11-11T13:41:55+00:00	SIG-W-20261110-012	noted	INBOX_WALTER	Correction of card 010 relays SAM own 11/10 read (c3e000bc76); nothing new; COR-20261110-12 receipted NO-OP
+2026-11-12T16:50:09+00:00	SIG-W-20261111-002	info-only	INBOX_WALTER	Siemens Energy FY2026 backlog; VULCAN/BRENT own power-equipment; no Japan channel
+2026-11-12T16:50:09+00:00	SIG-W-20261111-004	info-only	INBOX_WALTER	Small items 11/11; SoftBank line relays SAM's own 11/11 read; nothing new
+2026-11-12T16:50:09+00:00	SIG-W-20261111-005	info-only	INBOX_WALTER	Iran sweep, no ladder item fired; BRENT/HAWK own; no Japan crude-volume change stated
+2026-11-12T16:50:09+00:00	SIG-W-20261111-006	info-only	INBOX_WALTER	Correction of card 20261108-002 (intercept not at Abqaiq); no SAM row cites it
+2026-11-12T16:50:09+00:00	SIG-W-20261111-009	noted	INBOX_WALTER	Russia put JT's Russian units under state temporary management; MOF owns 37.55% of JT; Katayama protest 11/6 REPORTED; no JGB/yen/insurer channel; no combo theme fits, logged here only
+2026-11-12T16:50:09+00:00	SIG-W-20261111-011	info-only	INBOX_WALTER	ORACLE Fed December odds 85.5 hike; context for differential; ORACLE owns priced odds
+2026-11-12T16:50:09+00:00	SIG-W-20261111-012	info-only	INBOX_WALTER	FALCON hull census update; no Japan channel
+2026-11-12T16:50:09+00:00	SIG-W-20261111-014	info-only	INBOX_WALTER	Correction of card 004 SEC figure; no SAM row
+2026-11-12T16:50:09+00:00	SIG-W-20261111-015	noted	INBOX_WALTER	ZHAO: Japan not China is the live Asian official Treasury seller near 160; mechanism, no observed sale; folded into WQ-680 full packet ask 3
+2026-11-12T16:50:09+00:00	SIG-W-20261111-026	info-only	INBOX_WALTER	Houthi Yanbu claim, unconfirmed; BRENT/HAWK own
+2026-11-12T16:50:09+00:00	SIG-W-20261111-030	noted	INBOX_WALTER	MSCI deletes Metaplanet (Japan, Small Cap, 0.80B USD); no SAM channel; index flow is HENRY's
+2026-11-12T16:50:09+00:00	SIG-W-20261111-032	info-only	INBOX_WALTER	Houthi Lahij push claim and CVN-71 projected track; HAWK owns
+2026-11-12T16:50:09+00:00	SIG-W-20261112-003	info-only	INBOX_WALTER	Correction: Huang ouster first reported 11/11 after hours; HENRY/TERRY own
+2026-11-12T16:50:09+00:00	SIG-W-20261112-005	acted	INBOX_WALTER	Yen item (USD/JPY 159.88, Mimura 'too early to forget') is the WQ-680 commission; first read 62d87fd10c, full packet follows; other items not SAM's
