@@ -1,10 +1,11 @@
 # BROCK catch-ups — INDEX
 
-**CURRENT:** `catchups/2026-11-11.md` (prome-2b catch-up wake on Will's 09:24 ET word: WALTER 5/5 · hiking-Fed read on own letters, KB-BRK-477/478/483 · CoreWeave Q3 lender side · CABO 10/30 committee missed then caught · Skydance/Apollo · SEC FY2026; no score change).
+**CURRENT:** `catchups/2026-11-12.md` (prome-e8 due-row wake D:L1098: CRMT feed empty through 16:36 ET, NOT GRADED · GPU-financing verdict ONE FOLLOW-UP (TRIN 10-K marks), KB-BRK-485–487 · VX-BRK-020 red rung met at 5.10, no rescore · WALTER 12/12 · WQ-678 A applied; no score change).
 
 **Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 
 ## Superseded catch-ups
+- `catchups/2026-11-11.md` (prome-2b catch-up wake on Will's 09:24 ET word: WALTER 5/5 · hiking-Fed read on own letters, KB-BRK-477/478/483 · CoreWeave Q3 lender side · CABO 10/30 committee missed then caught · Skydance/Apollo · SEC FY2026; no score change).
 - `catchups/2026-11-10.md` (D:L928 on PROME prome-07's launch, desktop: CRMT ELEVENTH BRIDGE to Thu 11/12, KB-BRK-472 · no other agreement dated ≤11/04, PROVISIONAL · WALTER 1/1 · no score change).
 - `catchups/2026-11-09.md` (boot + catch-up on Will's word via PROME prome-6f: inbox 2/2 + WALTER 1/1 drained · ADS Q3 FINAL 33.89% derived, R2 (b) NOT FIRED, promissory notes, third vehicle · KBDC NA 3.6% FV · banks cooling on AI deals (secondary) · HY 342 [11/6], CCC/BB 6.33 up on a tightening day · L927 interim, feed empty to 10:47 ET; no score change).
 - `catchups/2026-11-06.md` (WQ-626 A wake, L965: HY 348 [11/5], row 10 NOT FIRED, CCC/BB fell, not my signal · L876 BLOCKED-BY-ORDER FINAL, NYSE non-compliance stated · call PARTIAL · BRK-37/38 · five combo themes · drain 9/9 after Will's 11:18 ET word, 067 answered, inbox empty · 17:08 ET close refresh: 39-name median 26.15% on NAV refresh, Cable One -16.7% cause not established, card 042 NO-OP; no score change · cards 050, 051: Hertz Class B refusers all sign through Oaktree, KB-BRK-465).

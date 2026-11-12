@@ -34,3 +34,7 @@ receipt_date	correction_id	action	note
 2026-11-06T22:22Z	COR-20261106-42	NO-OP	scope=BROCK carries no Oracle CDS level on any live surface, the 3.25 percent and 288 bp lines were never on STATUS, KB, VX, docket or brief, corrected DTCC read logged as one KB-BRK-445 theme member, LIQUID figure; 
 2026-11-06T23:24Z	COR-20261106-51	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-465; artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-448; validation_ref=NONE; 
 2026-11-06T23:34Z	COR-20261106-52	NO-OP	scope=Card 052 restates BROCK's own Exhibit 10.2 read already in KB-BRK-465, no BROCK surface carried the two-refuser framing as a current claim beyond the KB-BRK-465 correction itself, OTTO paydown date noted in SCRATCH; 
+2026-11-12T21:36Z	COR-20261111-14	NO-OP	scope=KB-BRK-482 already carries the primary split 752M disgorgement plus 343M penalties, BROCK never carried penalties 1.1B or lowest since 2008; 
+2026-11-12T21:36Z	COR-20261111-24	NO-OP	scope=KB-BRK-481 carries no secured share for Skydance, nothing of mine to change; 
+2026-11-12T21:36Z	COR-20261111-25	NO-OP	scope=BROCK never cited the HHDC workbook path from card 20261110-002; 
+2026-11-12T21:36Z	COR-20261112-03	NO-OP	scope=BROCK had not carried card 002 chronology, KB-BRK-488 states the 11/11 after-hours first report; 
