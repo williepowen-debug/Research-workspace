@@ -9,7 +9,7 @@ metadata:
 symptoms: "HENRY dashboard shows July data" · "which URL is the HENRY dashboard" · "dashboard stale"
 ---
 
-**HENRY — Operating Dashboard** (built 2026-07-23, Will-requested): https://claude.ai/artifact/W7ALXXxkW4mGJHLHjrbeyr — the same page as `claude.ai/code/artifact/ebb53cd8-c46a-4edd-b278-068791225a35` (artifact read 2026-10-21 confirms id ebb53cd8). **Last refreshed 2026-10-21 (version 2), after sitting 89 days stale (7/24 → 10/21)** — the living cadence below was not being run; check the artifact list date at boot.
+**HENRY — Operating Dashboard** (built 2026-07-23, Will-requested): https://claude.ai/artifact/W7ALXXxkW4mGJHLHjrbeyr — the same page as `claude.ai/code/artifact/ebb53cd8-c46a-4edd-b278-068791225a35` (artifact read 2026-10-21 confirms id ebb53cd8). **Last refreshed 2026-11-12 12:1x ET (version 5, midday Nvidia-CEO-day tape)**; before that 10/22, so it sat 21 days stale through two resolved predictions (HEN-57, HEN-62). Earlier it sat 89 days (7/24 → 10/21). The living cadence below keeps slipping; check the artifact list date at boot.
 
 Will-facing reading surface for "what is HENRY tracking / working on." Source now lives in the repo: `AGENTS/HENRY/dashboard/` (`dashboard_tpl.html` content + `build_dashboard.py`, which places every rail and gamma mark from data with one scale per rail; run `python3 build_dashboard.py <out.html> dashboard_tpl.html`, then publish with `url`); **canonical state stays in `AGENTS/HENRY/STATUS.md` + `workbook/PREDICTIONS.tsv`** — the page is a view, never the source of truth.
 
