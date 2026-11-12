@@ -1,4 +1,6 @@
-# DAEDALUS backlog prune — 2026-11-12 (proposal, awaiting Will)
+# DAEDALUS backlog prune — 2026-11-12 (APPROVED)
+
+**Ruled:** Will, DAEDALUS window, 2026-11-12 12:28 ET, verbatim "approve go ahead". Applied: CLOSE lines removed from `STATUS.md`; D1 packet `PROME/inbox/2026-11-12_from-DAEDALUS_L490-close.md`; D2 rides Production Review #10. S-56 (RAV "add checks") not raised by Will, so RAV's scope stays as approved.
 
 **Commissioned:** Will, DAEDALUS window, 2026-11-12 12:10 ET, "Can you look into these next?" (the undated own backlog, own Changelist B trims, the step-5 reference). **Basis:** `STATUS.md` sections "Delivered work and remaining owner dependencies", "Maintenance and design work still owed", "Conditional seats and other owners", read 2026-11-12. **Rule applied:** WQ-577 (no additions unless Will asks) and USER.md 2026-10-31 (fewer checkers and rules). DOCKET rows stay PROME's to close; this list closes only DAEDALUS's own carry lines.
 
