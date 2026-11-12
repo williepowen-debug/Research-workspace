@@ -1,13 +1,29 @@
 {
-  "kind": "fetched",
-  "checked_at": "2026-11-12T17:00:03Z",
-  "items": 0,
+  "kind": "marked",
+  "checked_at": "2026-11-12T21:33:39Z",
+  "items": 4,
   "scan": {
-    "checked_at": "2026-11-12T17:00:03Z",
-    "head_checked_at": "2026-11-12T17:00:03Z",
+    "checked_at": "2026-11-12T21:28:36Z",
+    "head_checked_at": "2026-11-12T21:28:36Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 2
+    "attempts": 3
   },
-  "review_recorded": false
+  "review_recorded": true,
+  "read_counts": {
+    "fully_read": 3,
+    "partly_read": 1
+  },
+  "dispositions": {
+    "DUP": 1,
+    "KILL": 2,
+    "FOLD": 1
+  },
+  "follow_ups": [
+    {
+      "id": "2120699809648525398",
+      "ref": "BOARD/SIG-W-20261112-010-Small-items-afternoon-sweep-USDJPY-160.04-to-159.30-in-15-minutes-suspected-intervention-unconfirmed-SAM-WSJ-Nvidia-Singapore-disclosure-VULCAN-ConnectWise-extensions-CYPHER-Athene-call-two-stale-bank-items-killed.md"
+    }
+  ],
+  "requests": []
 }
