@@ -80,3 +80,28 @@ Chain: Cboe, asof 11/13 = **11/12 open interest** (the first chain carrying post
 - No sizing of the PPI reaction (map caveat 4 stands).
 
 Sources: BLS public API v1 (series above, pulled 10:17 ET); home.treasury.gov par CSV (10:18 ET); FRED fredgraph.csv SP500, VIXCLS, BAMLH0A0HYM2, BAMLH0A1HYBB, BAMLH0A3HYC (10:2x ET); vendor `FORGE/tools/market-data/fetch.py` and yfinance 5-minute and 1-minute bars (10:16–10:20 ET); Cboe chain via `AGENTS/HENRY/scripts/gamma_flip.py`; press via web search (stocktitan.net/articles/october-2026-ppi-report; mlq.ai; cnbc.com/2026/11/13/treasury-yields-fed-rates.html); letter `research/2026-10-29_catchup/PREREG_nov-releases.md`.
+
+## 6. Hold-window reads (PROME asked me to hold for the close read)
+
+**11:30 ET checkpoint, S&P map** (`gamma_flip.py --both --spot 7525.35`, not published): flip 7,632–7,634; net gamma −$39.5B (14d) / −$54.3B (35d) per 1%, negative at both; 14d put wall 7,500 clean (+29%), call 7,700 near-tie (band 7,600–7,700); 35d 7,000 = 7,000, put side unresolved; **both walls withheld**. No material change from 10:19. S&P last 7,525.35; day low 7,499.40 unchanged.
+
+**12:06 ET, QQQ map, first run today** (`gamma_flip.py --both --underlying QQQ --spot 675.98`, chain asof 11/13 = 11/12 open interest; not published). Asked by PROME relaying Will's question "do we think QQQ will rebound? What is our base case?"
+
+| Read | 14d | 35d | Cross-horizon guard |
+|---|---|---|---|
+| Flip | ~693 | ~690 | band 690–693 |
+| Net dealer gamma at spot | −$1.9B per 1% | −$2.4B per 1% | NEGATIVE both |
+| Put wall | 680, clean (+59%) | 680, clean (+52%) | passes at both |
+| Call wall | 700, clean (+22%) | 700, clean (+38%) | passes at both |
+
+**QQQ is under its own put wall** (675.98 vs 680; vendor 676.85 at 12:06). Live 12:06 ET (vendor): S&P 7,534.86 (−0.76%), QQQ $676.85 (−1.64%), NVDA $161.04 (−3.10%), VIX 20.40, 10Y (vendor ^TNX) 5.13%.
+
+**Base case into Nvidia results (Tue 11/17), my judgment:** no direction call on level. The in-line PPI removed the rates catalyst without removing the rates pressure (vendor 10Y 5.13 on a soft print). Both the S&P and QQQ sit under their flips, so dealers amplify whichever way the next move goes; the skew of that is downside while QQQ stays under 680. Into a binary event I would not call a rebound before it; the result decides.
+
+| Toward rebound | Toward a further leg down |
+|---|---|
+| QQQ back over 680 and holding (back inside its put wall) | S&P close under 7,500 (last published put wall) |
+| QQQ through 690–693 / S&P through 7,631–7,634 (regime flips to dampening) | QQQ holding under 680 into Tuesday with chips still leading |
+| 10Y par back under 5.0 | 10Y par holding over 5.10 (11/12 par) |
+
+**Cannot see:** today's open interest (chain carries 11/12's); NDX not run; no spot-grid below 680 for QQQ or a re-grid below 7,500 for the S&P on today's open interest; the gamma $B are a free-tier proxy (sign and flip robust, magnitude assumption-dependent); Nvidia's result itself.
