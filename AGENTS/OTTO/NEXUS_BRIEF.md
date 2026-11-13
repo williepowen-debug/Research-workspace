@@ -4,7 +4,7 @@
 **Domain:** Auto fraud, subprime collateral, conditional financing access and named-counterparty transmission.
 **Thesis version:** v1.6 (2026-11-05), `4e765ec13`.
 **Recent thesis pivots:** s041 (11/05): THESIS v1.6: Carvana DORMANT (registered −40% applied, V5 2→1, composite 33→32); borrower exit relabelled an unverified hypothesis (CATO OT1); the SDT's noise floor withdrawn because the test compares two single months; vintage claim widened past 2022 on Credit Acceptance Q3. Prior: s040 (10/28) SEC closure at Carvana.
-**As of:** 2026-11-12 16:54 ET | STATUS commit: `fa7277191c55c1237504febab5092f3e067fcb7a`
+**As of:** 2026-11-13 10:28 ET | STATUS commit: `4dfdf0f923642c08492cac886b909f164aa8b817`
 
 ---
 
@@ -40,7 +40,7 @@
 
 | From / source | Input | Expected by | Why it matters | How it changes the read |
 |---|---|---|---|---|
-| BROCK | Car-Mart grade after the 11/12 relief expiry (NOT GRADED 11/12, nothing filed through 16:36 ET) | Fri 11/13 ~08:05 ET re-read | Conditional accommodation versus durable cure | Consume owner grade before changing V9; silence grades nothing, so V9 held |
+| BROCK | Car-Mart grade after the twelfth-bridge relief expiry Mon 11/16 (11/13 graded: twelfth bridge agreed 11/12, 8-K Item 1.01 only, KB-BRK-489) | Mon 11/16 after ~16:30 ET or Tue 11/17 AM (D:L1139); backstop #9 Wed 11/18 | Conditional accommodation versus durable cure | Consume owner grade before changing V9; another short bridge holds V9 🔴 4; silence grades nothing |
 | Existing court sources | Chu suppression ruling (reserved since 10/9; none public through ECF 198, 11/10); Caproni ruling on the James adjournment (opposition ECF 166/167 filed); FB hearings 11/16–11/18 incl. D&O and the DIP sweep | ~11/20, 11/16–11/18 checks | Recovery/discovery perimeter; V3 trigger | A verified order can move case interpretation; hearing titles cannot |
 | SEC / VRM | Trust V postSeptember30 outcome; next periodic filing | Date unverified | Warehouse-exit prediction | Explicit named lender-side action, not filing-list silence, is the required observation |
 
@@ -53,6 +53,7 @@
 
 ## CALIBRATION
 
+- **s046 (11/13, Claude Code):** PROME wake D:L1098. BROCK graded Car-Mart a twelfth bridge (relief to 11/16); OTTO verified at the 8-K and held V9 🔴 4 by its written rule. No probability, colour, threshold or score change.
 - **s045 (11/12, Claude Code):** PROME wake D:L1125. EART 2026-5 graded ABSENT from its modeled window, positive-controlled (0 vs 69); scored as a halt candidate only, OTTO-07 unmoved 15%. CRMT ungraded by BROCK, so V9 held by rule. No probability, colour, threshold or score change.
 - **s044 (11/11, Claude Code):** PROME task D:L133 answered at the primary (Dkt 1496 PDF). No probability, colour, threshold or score change. James filings read at feed-title level only; Chu and EART 2026-5 not checked this session.
 - **s042 (11/06, Claude Code):** OTTO-37 FALSIFIED, Manheim October 206.8 vs 207.0, as-made 60%, Brier 0.36. The row's "no base rate" note was wrong: five of nine 2026 mid-to-final pairs kept the cushion, so 60% was fair. MFIC marks checked at both 10-Qs.
@@ -83,4 +84,4 @@ The ~11/15 SDT is the second observation; decide then whether to propose a redes
 
 ## FORWARD CATALYSTS
 
-Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: BROCK CRMT re-read 11/13; SDT ~11/15; First Brands 11/16–11/18; Chu check ~11/20; EART October ~11/30 (OTTO-36; EART 2026-5 re-check); OTTO-36 grade 12/04; Tricolor sales deadline 11/30; Ares response 11/30; Manheim November 12/07; Tricolor §341 2027-03-17.
+Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: SDT ~11/15; BROCK CRMT standstill 11/16; First Brands 11/16–11/18; Chu check ~11/20; EART October ~11/30 (OTTO-36; EART 2026-5 re-check); OTTO-36 grade 12/04; Tricolor sales deadline 11/30; Ares response 11/30; Manheim November 12/07; Tricolor §341 2027-03-17.
