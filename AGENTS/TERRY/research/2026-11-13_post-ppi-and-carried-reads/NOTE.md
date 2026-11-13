@@ -73,3 +73,31 @@ TRIN $17.60 (near its 30-day high 18.03). BROCK frames it as concentration, not 
 ## 7. OTTO (carried 11/12) — Exeter EART 2026-5 absent from its window → **NO CARD, agree with OTTO**
 
 Exeter is private; its ABS is not reachable at Will's broker. A halt candidate on one shelf, with the sister shelf launched 9/17. OTTO-07 unmoved at 15%.
+
+## 8. Part two, after the close (written 2026-11-13 16:05 EST from `date`)
+
+**Data:** vendor closes and quotes via `fetch.py` / yfinance 16:01–16:04 EST; chains via `chain_fetch.py --no-cache` 16:01–16:02 EST (post-close quotes, SCREENING marks only); FRED HY OAS CSV re-read 16:01 EST.
+
+| Row | Result |
+|---|---|
+| **D:L1132** NVDA 11/12 regular-session low | **$148.80** (yfinance daily bar for 11/12, re-pulled 16:01 EST: open $150.99, high $167.14, close $166.19), unchanged from the 11/12 16:03 ET read. On the card's invalidation line and in the SETUPS invalidation cell. |
+| **D:L830** HYG Jan-15 77/74P ×4 (WQ-513 A) | **LAPSED UNFIRED at the 11/13 close by its own terms. Consumer read: NOT FIRED.** REG-T-04 (HY OAS > 350 ×3 consecutive first-published closes) never fired: 334 [11/9] · no 11/10 cell · 330 [11/11] · 320 [11/12]; window peak 348 [11/5]. With no T1 there was no green-day entry; HYG closed $76.93 vs $76.98 [11/12], −0.06%, red. The 11/13 cell (publishes 11/16) cannot change it. Reference screen only: 77P 0.84/0.97 · 74P 0.24/0.26, outer $0.73. |
+
+**Closing tape (vendor):** S&P 7,561.79 −0.40% (above the 7,500 wall; under the ~7,632 flip) · QQQ 679.89, −1.20% vs 688.17 [11/12] · RSP 221.18 +0.21% · VIX 19.19 / VIX3M 20.59 ⇒ 1.073 · HYG 76.93 · NVDA 162.85 −2.01% · USD/JPY 159.64 · Brent $96.08 +0.27% (vendor futures run ~10 min behind).
+
+**QQQ 200-day card at the close:** T1 MET (ratio 1.073 on a red QQQ session). Debit FAILS: 670C 27.73/27.85 · 680C 21.62/21.73 ⇒ outer **$6.23** vs $4.90 ⇒ no order (card §4). At $6.23 the spread risks $623 + fees, over the $500 default, to make $377. QQQ closed 0.15% under its 200-day (680.94), so the move the card was built for is nearly spent. Window open on its own terms through 11/20.
+
+**Part-one reads re-checked at the close: none changes.**
+- HENRY post-PPI: S&P closed back above 7,500, so the morning break did not hold. NO CARD stands.
+- LIQUID HY 320: no new cell until 11/16. HYG ×5 void clock still 2 of 5. ×5 close screen 76P 0.53/0.60 · 73P 0.15/0.20 ⇒ outer $0.45 ≤ $0.60; at $0.45 ×5 the most it can lose is $225 + fees. Order is Will's hand; broker price governs.
+- BROCK CRMT $0.94 / CABO $2.97: still no chains. NO CARD.
+- CYPHER NABL $4.86 / CHKP $147.18: no reaction worth chasing. NO CARD.
+- SAM USD/JPY 159.64, FXY +0.20% (green; a call breaks root rule #6). NO CARD.
+- BROCK TRIN $17.71: NO CARD.
+- OTTO Exeter: NO CARD.
+
+**Two packets arrived after the part-one drain:**
+- **HENRY, QQQ under its 680 put wall (12:1x ET) → NO CARD.** HENRY owns no direction ("no direction into Nvidia results Tue 11/17"). The amplifying regime and downside skew argue for QQQ puts, but buying puts on a red QQQ day breaks root rule #6, and no measurement refutes it. The book's built QQQ expression is the 200-day call card above, and it fails its limit. QQQ closed at the wall (679.89).
+- **FALCON, Saudi East-West / Yanbu claims → NO CARD, agree with FALCON.** One confirmed event (11/9, limited fire, operations not affected); the 11/11 and 11/12 items are claims only. No operational effect is stated, and Brent closed +0.27%. BRENT owns loadings and the oil price. No open oil card exists to move; a new oil call would need an owner's direction. FALCON's own known-unknown (no Yanbu loadings reader) gates any re-open. Re-open: a Saudi or Aramco statement of an operational hit, a crude force majeure, or BRENT's loadings read.
+
+**Defaults on every line:** $500 per card, X1 CLOSED / DON'T-SIZE (LIQUID), Will decides every card (root rule #5). $0 moved.

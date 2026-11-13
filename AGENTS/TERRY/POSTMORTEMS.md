@@ -570,3 +570,15 @@ Management-only lines (construction rule #20); C5 reminders paused by Will 10/20
 | Will's execution | Not graded: this desk grades its own rules and construction. |
 
 **Lesson:** the card's rules did not produce this result, so it earns the desk no credit, and it stays outside GATE-OP-SCALE-01's N. **Tags:** none; recorded. Whole-line realized is booked here once if the row is supplied.
+
+## 2026-11-13 — IDEA-CREDIT-HYG-BDC-OCT23 HYG Jan-15 77/74P ×4 (WQ-513 A) — **LAPSED UNFIRED at the 11/13 close. Never entered, $0.**
+
+**Record:** approved NOT-FIRED 10/23 21:15 ET, leg (a) only, ×4 ≤ $1.00, max loss $405.20. T1 was REGINALD's REG-T-04 (HY OAS > 350 on 3 consecutive first-published closes), then the first green HYG day, by Fri 11/13. HY peaked at 348 [11/5] and ended the window at 320 [11/12] (FRED, re-read 11/13 16:01 EST). DOCKET L830.
+
+| Leg | Grade |
+|---|---|
+| Thesis | REGINALD's, DEWEY's and BROCK's; not graded here. |
+| Trigger | Never reached: 2 bp short at the peak. The 11/5 episode was caught by the separate ×5 hedge card at its lower line (344), so the book was not left without an expression. |
+| Structure | Not tested. Vendor screens stayed inside the $1.00 limit on every dated read: outer $0.67 [11/5], $0.68 [11/10], $0.73 [11/13 close]. |
+
+**Lesson:** nothing new; a gate that does not fire costs nothing. **Tags:** none; recorded.

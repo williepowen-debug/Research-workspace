@@ -31,7 +31,7 @@ If Nvidia's 11/17 print states no lower outlook and no cut (VULCAN's statement, 
 |---|---|
 | Current price | $153.47 pre-market 09:13 ET (vendor), −11.66% vs $173.73 |
 | Trend | Down: $243.37 high to $173.73 over 65 bars (−28.6%) before today; today's print is under the 3-month low ($165.89) |
-| Key support | none inside the 65-bar window below $165.89; 11/12 session low **$148.80** (daily bar, pulled 16:03 ET; see § 6 Invalidation) |
+| Key support | none inside the 65-bar window below $165.89; 11/12 session low **$148.80** (daily bar, pulled 11/12 16:03 ET, confirmed 11/13 16:01 EST; see § 6 Invalidation) |
 | Key resistance | $165.89 (old 3-month low), $173.73 (pre-news close) |
 | Relative strength | SMH −4.33%, QQQ −1.40% pre-market: NVDA-specific |
 | Vol / gap risk | Event vol into 11/17 on top of the governance shock; the card buys after both |
@@ -65,7 +65,7 @@ If Nvidia's 11/17 print states no lower outlook and no cut (VULCAN's statement, 
 - **Edge:** small and unproven, labelled subjective. The case: the board says operations, customers and the roadmap continue unchanged; the market prices a governance discount before the print says anything about demand. The case against is in § 8.
 - **Kelly reference:** not computed; no measured edge.
 - **Sizing proposal:** ×1 at a debit of $4.00 or less.
-- **Invalidation:** after the fill, NVDA closes below the 11/12 session low, **$148.80** (yfinance daily bar for 11/12, regular session, pulled 2026-11-12 16:03 ET via `fetch.py`/yfinance; open $150.99, high $167.14, close $166.19, −4.34%), or any official disclosure of a liability tied to the resignation: close at the bid, Will's order. ⚠️ The same vendor's 1-minute bars give a regular-session low of $149.27 (09:30 bar); the $0.47 gap is most likely an opening-cross print the minute bars omit. The daily bar is the figure of record; re-pull once on 11/13 to confirm it held. ⚠️ **Recorded 11/12 16:0x, not changed:** the § 4 entry zone ($140–163.60) reaches below this line; a fill under $148.80 would sit past its own invalidation. Raised for Will at fire (WQ-677 B), no condition moved tonight.
+- **Invalidation:** after the fill, NVDA closes below the 11/12 session low, **$148.80** (yfinance daily bar for 11/12, regular session, pulled 2026-11-12 16:03 ET via `fetch.py`/yfinance; open $150.99, high $167.14, close $166.19, −4.34%), or any official disclosure of a liability tied to the resignation: close at the bid, Will's order. ⚠️ The same vendor's 1-minute bars give a regular-session low of $149.27 (09:30 bar); the $0.47 gap is most likely an opening-cross print the minute bars omit. The daily bar is the figure of record. **Re-pulled 2026-11-13 16:01 EST (yfinance daily bar, 11/12 regular session): low $148.80, open $150.99, high $167.14, close $166.19, unchanged; the line stands at $148.80 (DOCKET L1132).** ⚠️ **Recorded 11/12 16:0x, not changed:** the § 4 entry zone ($140–163.60) reaches below this line; a fill under $148.80 would sit past its own invalidation. Raised for Will at fire (WQ-677 B), no condition moved tonight.
 - **Gap/event risk:** a disclosure gap can take the spread to near zero overnight; the loss is capped at the debit.
 - **Liquidity:** `chain_fetch.py NVDA 2027-01-15 --legs <long>,<short> --no-cache` must return rc 0 at fire.
 - **Execution block:** Will's approval of this card; T1, T2, T3 at fire; broker debit ≤ $4.00.
