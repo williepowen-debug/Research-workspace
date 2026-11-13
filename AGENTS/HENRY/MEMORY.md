@@ -53,21 +53,19 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-12, 09:0x–16:1x ET (PROME prome-e8 C8 wake, Nvidia CEO card SIG-W-20261112-002, then Will in-session; Claude Code, Opus 5.5, henry-38). Closed 16:1x ET on PROME's ask (Will 16:11 ET).
+### CHANGES SINCE — 2026-11-13, 10:16–16:2x ET (PROME prome-72 due-row wake D:L776, then held for the close read; Claude Code, Opus 5.5, henry-f1). Closed 16:2x ET on PROME's ask.
 
-- **Four published S&P maps in one day:** pre-open 09:14, open 09:48, flip cross 11:09 (watcher-fired), close-hour 15:36, close 16:06. The read went NEGATIVE → marginal POSITIVE → NEGATIVE (−$20B per 1% at the 7,592 close). Lesson repeated from 11/11: a midday "so what" is a snapshot; say so, and re-read before the close.
-- **Self-correction, Will-facing:** I told Will the put wall "tends to act as a floor". On the free-tier model, dealers are short puts, so near 7,500 hedging pushes WITH the move (computed −$50B / −$61B there, trough −$58B to −$78B at 7,350–7,450). Walls holding is an observed tendency and my judgment, never a computed floor. Corrected in PPI_SCENARIO_MAP.md, dashboard v6 and to Will.
-- **Spot-grid profile:** loop `gamma_flip.py --both --spot X` over levels to get a computed gamma-by-level table (about 3 s per level). It holds IV and open interest fixed, so the far levels are the least reliable.
-- **Treasury par 11/12: 10Y 5.10% crossed RED.** Routed as a fact packet to WALTER (precedent 9/24: no "You send" row, so no registered fire); WALTER made it SIG-W-20261112-008, ACTION BROCK (its VX-BRK-020 rung). 2Y 4.86, 30Y 5.43.
-- **WATCH_FOR ADOPTED (14:3x ET):** WALTER's 64-phrase megacap CEO/CFO-change set, keyed to my put-wall row. This departs from my 11/5 empty-list basis, and the departure is stated in STATUS. PROME lands it.
-- Background pollers worked: the Treasury par CSV loop (10 min) and the SPX price watcher (120 s). Both ended; none running at close.
-- Consumer check: the band 7,500–7,600 is clean fleet-wide and in my own dir; flip 7,632/7,634 → 7,635/7,630 gives only 🟠 bare-needle candidates, inside estimator noise, so no packets.
-- Slip: I estimated 15 min for the dashboard refresh and it took about 45; disclosed.
+- **HEN-58 graded NONE (PPI +0.3%, unrounded +0.348%), expectation HIT, about 1h50m late** because the 08:00 ET launch did not happen. bls.gov release, PDF and catalog all 403; api.bls.gov v1 index data works and was the basis. Series names came from my own knowledge of the PPI IDs (catalog 403), disclosed.
+- **Tape: soft print, then the S&P sold to 7,499.40 (~10:22 ET)**, under the last published 7,500 put wall. Signal to WALTER (WALTER holds it for Will's go). Closed 7,561.67, still under the 7,630 flip. QQQ closed $0.11 under its 680 put wall. 10Y par 5.10 → 5.15, a second close over 5.0. Leadership: chips down (SMH −2.99%), equal-weight RSP up (+0.20%).
+- **The scenario map's in-line case gave no direction, and the tape took Case A's downside path without Case A's hot print.** Lesson: a release map keyed only on the print misses a rates-plus-chips drift that needs no catalyst. Next time, add a "no-catalyst drift" row.
+- **First QQQ map (`--underlying QQQ`)**, run for Will's "will QQQ rebound?" via PROME at 12:06 ET: walls 680 / 700 clean at both horizons, flip 690–693. Fast (under a minute); run it with the S&P map on any tech-led day.
+- **Hold-window pattern that worked:** `watch_hold.sh HHMM` in the scratchpad (90 s polls, exits on S&P <7,450, >flip, or the checkpoint), re-armed at 11:30 / 13:00 / 14:30 / 16:16. That was cheap; no message was sent unless a trigger fired.
+- **Walls passed the guard at the close but were NOT published** (wake rule "no new level"). The next wake offers them; it does not assume them.
+- Most of my commits rode other desks' pushes; verify ancestry with `git merge-base --is-ancestor`. index.lock contention on one commit; I waited and retried.
 
-### NEXT SESSION (Fri 11/13, PROME launches fresh about 08:00 ET)
+### NEXT SESSION (Mon 11/16 or the next PROME wake)
 
-1. **Pre-open map ~08:00 ET** (implied spot from ES), publish, wall rows by hand. The chain will carry 11/12 open interest.
-2. **HEN-58 PPI 08:30 ET (D:L776)**: grade on the letter (≤0.4 NONE expected, frozen). Read `research/2026-11-12_nvda-ceo/PPI_SCENARIO_MAP.md` first; check each case's falsifier against the tape.
-3. **D:L490** (dated 11/15): do, decline or re-date the H2 Confidence backfill; state it in the Friday packet to PROME citing D:L490. After PPI.
-4. FRED 11/12 SP500, VIXCLS (MARKET_DATA VIX cell blank), HY/BB/CCC. Confirm PROME landed the WATCH_FOR set.
-5. ECON_CALENDAR rebuild before 11/20; NVDA results 11/17 after the close; row 9 at the 11/18 close; MSCI card 030 week of 11/23; FOMC 12/9 (HEN-63; price is ORACLE's).
+1. Re-run the S&P and QQQ maps on Monday's chain (carries 11/13 open interest). **Offer** the walls to PROME before publishing; they were held back 11/13.
+2. FRED 11/13: SP500, VIXCLS (confirm vendor 7,561.67 / 19.03) and HY/BB/CCC (post 11/16). Fill the blank MARKET_DATA cells. HY was at the 320 line on 11/12.
+3. TERRY reads my close packet at its Mon 11/16 pre-open wake (PROME registered it). WALTER still holds the 7,500 signal.
+4. NVDA results Tue 11/17 after the close; row 9 at the 11/18 close; ECON_CALENDAR rebuild before 11/20; L490 backfill 11/20; DAEDALUS K38–K52; MSCI card 030 week of 11/23; FOMC 12/9 (HEN-63, price is ORACLE's); dashboard v6 is stale.
