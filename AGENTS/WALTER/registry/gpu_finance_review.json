@@ -36,6 +36,15 @@
         "2026-11-12"
       ],
       "closed": "2026-11-12T16:00:30Z"
+    },
+    "gpu:83dfdce3c3f9": {
+      "title": "Nvidia Signs $500B Wall Street GPU Bond Deal; Rating Standard Unresolved - Tech Times",
+      "disposition": "KILL",
+      "ref": "SIG-W-20261113-004: Tech Times dated Aug 11 2026; 500B is Nvidia's financing alliance, the June bond was about 25B; no new GPU-collateral fact",
+      "days": [
+        "2026-11-13"
+      ],
+      "closed": "2026-11-13T16:47:36Z"
     }
   }
 }

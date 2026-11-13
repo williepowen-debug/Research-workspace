@@ -1,28 +1,49 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-12T21:33:39Z",
-  "items": 4,
+  "checked_at": "2026-11-13T16:47:51Z",
+  "items": 6,
   "scan": {
-    "checked_at": "2026-11-12T21:28:36Z",
-    "head_checked_at": "2026-11-12T21:28:36Z",
+    "checked_at": "2026-11-13T15:18:06Z",
+    "head_checked_at": "2026-11-13T15:18:06Z",
     "head_checked_this_run": true,
     "incomplete": false,
     "attempts": 3
   },
   "review_recorded": true,
   "read_counts": {
-    "fully_read": 3,
+    "fully_read": 5,
     "partly_read": 1
   },
   "dispositions": {
-    "DUP": 1,
-    "KILL": 2,
+    "DUP": 2,
+    "DISPATCH": 1,
+    "NOTE": 2,
     "FOLD": 1
   },
   "follow_ups": [
     {
-      "id": "2120699809648525398",
-      "ref": "BOARD/SIG-W-20261112-010-Small-items-afternoon-sweep-USDJPY-160.04-to-159.30-in-15-minutes-suspected-intervention-unconfirmed-SAM-WSJ-Nvidia-Singapore-disclosure-VULCAN-ConnectWise-extensions-CYPHER-Athene-call-two-stale-bank-items-killed.md"
+      "id": "2121234981469167679",
+      "ref": "BOARD/SIG-W-20261113-004-Small-items-Nov-13-midday-US-July-31-yen-intervention-was-500M-per-Treasury-ESF-statement-SAM-Volgograd-refinery-fire-photo-unverified-TruStage-into-2027-Wake-County-hiring-freeze-27-dups-and-kills.md"
+    },
+    {
+      "id": "2121065716652900531",
+      "ref": "BOARD/SIG-W-20261113-004-Small-items-Nov-13-midday-US-July-31-yen-intervention-was-500M-per-Treasury-ESF-statement-SAM-Volgograd-refinery-fire-photo-unverified-TruStage-into-2027-Wake-County-hiring-freeze-27-dups-and-kills.md"
+    },
+    {
+      "id": "2120992457630326841",
+      "ref": "BOARD/SIG-W-20261113-003-DePue-forensic-report-six-Chinese-frontier-models-since-Apr-2026-DeepSeek-Moonshot-MiniMax-Ant-carry-Nvidia-Blackwell-weight-fingerprints-access-shown-not-location-or-violation-VULCAN.md"
+    },
+    {
+      "id": "2120996367376023796",
+      "ref": "BOARD/SIG-W-20261113-004-Small-items-Nov-13-midday-US-July-31-yen-intervention-was-500M-per-Treasury-ESF-statement-SAM-Volgograd-refinery-fire-photo-unverified-TruStage-into-2027-Wake-County-hiring-freeze-27-dups-and-kills.md"
+    },
+    {
+      "id": "2120998208688292286",
+      "ref": "BOARD/SIG-W-20261113-003-DePue-forensic-report-six-Chinese-frontier-models-since-Apr-2026-DeepSeek-Moonshot-MiniMax-Ant-carry-Nvidia-Blackwell-weight-fingerprints-access-shown-not-location-or-violation-VULCAN.md"
+    },
+    {
+      "id": "2120938282204688468",
+      "ref": "BOARD/SIG-W-20261113-004-Small-items-Nov-13-midday-US-July-31-yen-intervention-was-500M-per-Treasury-ESF-statement-SAM-Volgograd-refinery-fire-photo-unverified-TruStage-into-2027-Wake-County-hiring-freeze-27-dups-and-kills.md"
     }
   ],
   "requests": []
