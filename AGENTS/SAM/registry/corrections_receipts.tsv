@@ -29,3 +29,6 @@ receipt_date	correction_id	action	note
 2026-11-09T16:20Z	COR-20261108-02	NO-OP	scope=grep of AGENTS/SAM md and tsv 2026-11-09 finds the corrected cards cited only in board_log, and FALCON, ORACLE and BRENT own the theatre, odds and oil reads; 
 2026-11-09T16:20Z	COR-20261109-09	NO-OP	scope=grep of AGENTS/SAM md and tsv 2026-11-09 finds the corrected cards cited only in board_log, and FALCON, ORACLE and BRENT own the theatre, odds and oil reads; 
 2026-11-11T13:41Z	COR-20261110-12	NO-OP	scope=relays SAM own 11/10 SB7 correction c3e000bc76, already carried in SAM records; 
+2026-11-13T01:12Z	COR-20261111-06	NO-OP	scope=SAM live files grepped for the card kill strings 2026-11-12 20:2x ET with zero hits, SAM never carried the corrected line; 
+2026-11-13T01:12Z	COR-20261111-14	NO-OP	scope=SAM live files grepped for the card kill strings 2026-11-12 20:2x ET with zero hits, SAM never carried the corrected line; 
+2026-11-13T01:12Z	COR-20261112-03	NO-OP	scope=SAM live files grepped for the card kill strings 2026-11-12 20:2x ET with zero hits, SAM never carried the corrected line; 
