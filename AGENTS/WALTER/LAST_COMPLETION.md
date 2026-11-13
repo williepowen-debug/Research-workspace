@@ -1,38 +1,39 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-12T22:00:57Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-42 on the desktop. **Tier 2 FULL closeout** on Will's word 16:54 ET; clears the three light closeouts since 2026-11-12T01:06:49Z. Prior header and before-image: git history; replaced blocks verbatim at research/2026-11-12_full-closeout/LC-ROTATED.md.
+Updated 2026-11-13T19:31:36Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-d4 on the desktop. **Tier 1 light closeout, full deferred**, on Will's word 14:29 ET. Prior: FULL 2026-11-12T22:00:57Z (walter-42). Replaced header, STATUS, CHANGED, RESULT and GAPS verbatim at research/2026-11-13_light-closeout/LC-ROTATED.md; prior receipt in git history (f6bc61ade7).
 
 ## RESUME — do these first
 
+0. **Microsoft outage under-captured (found on Will's question 14:2x ET, 11/13):** the 11/12 Microsoft outage (Outlook, Teams, Copilot; reported global and hours long) reached BOARD only as card 20261113-004 item 3, a one-line NOTE from the MSFT365Status bookmark (EX1550543, Exchange Online access, Americas, 11/12 17:54Z, "service incident, no attack claimed", INFO CYPHER). Seven intake headlines sat as ordinary NEW items and were marked unread: TBBW 11/12 21:32Z (Tampa Bay); American Banker 11/13 00:25Z "Microsoft Struggles to Fix Outlook, Copilot, Hours Into Outage"; Nacionale 02:24Z (Microsoft blamed failing servers, not staffing); explainers 11:43Z, 14:21Z, 15:03Z ("races to restore services after global outage"); Fast Company 13:16Z (layoffs angle). Headlines only, no article read: duration, restoration and any named bank customer effect UNKNOWN. WALTER offered a follow-up card (read American Banker and one explainer first; ACTION CYPHER, INFO REGINALD and VULCAN; R1 correction link to 004 item 3; cause recorded as Microsoft's own statement only). **Not routed: Will has not answered.** Class gap: the 7e scan surfaces only flagged items; the 179 ordinary headlines in the 11/13 batch were not read, so other material stories can slip the same way. Name it to PROME as a lane design question at the next full closeout; no WALTER rule change without Will.
 1. **WQ-681 A first qualifying run DONE at the walter-d4 boot, 2026-11-13 (PROME verifies at GitHub, D:L1134):** (a) GitHub run 43450867615 (workflow_dispatch), created 2026-11-13T15:16:03Z, completed 15:18:16Z, conclusion success; (b) collected through 2026-11-13T15:18Z (Research-Intake commit e1bd850, last_run 15:18:12Z); (c) uncollected interval: no collector run between 2026-11-12T21:41Z (scheduled run 43312366985, commit cb07a16) and 2026-11-13T15:16Z, about 17.6 h; (d) the collector ran, but each feed returns only its own recent window, so this run does not establish that the lane covered every story published in that 17.6 h gap. Prior text of this item: **WQ-681 A, first qualifying run still owed (Will 14:18 ET via PROME; DOCKET L1134, PROME verifies):** at the first boot or return with the lane over about 12 h old, run the 7e(a) exception (`gh workflow run collect -R williepowen-debug/Research-Intake`), wait, pull, and put four facts in that brief and here: the GitHub run ID and completion time; the collected-through time; any uncollected interval (from, to); one sentence keeping "the collector ran" apart from "the lane covered that interval's stories". No second schedule, no unattended service (WQ-388 stands). Not satisfied by run 43310587626 (Will's 16:28 ET sweep request; done 21:30:19Z; the lane was then 5.5 h old). Lane collected through 2026-11-12T21:30Z.
 2. **Megacap leadership query (Research-Intake c851a1e, label megacap-leadership-event, 64 phrases under WATCH_FOR["HENRY"]):** first live run 21:30Z caught 15 Nvidia CEO items after the fact (DUP of card 002): collection works; early coverage not shown. Stale items are killed on the ordinary date check, with NO separate count or report (Will 14:45 ET via PROME: "Use ordinary run evidence for the November 19 filter decision—no separate study or recurring reporting requirement"). PROME decides the age filter 11/19. Known false classes: subsidiary chiefs, other companies' chiefs in a headline naming one of the eight.
-3. **Owner grades open (unverified at this closeout):** BROCK on VX-BRK-020 vs 10Y par 5.10% (card 008); FALCON and BRENT on the Houthi pipeline claim (009); SAM on the yen spike, VULCAN on the Nvidia Singapore disclosure, CYPHER on ConnectWise (010); VULCAN, HENRY, TERRY and ORACLE on 002 (records not re-read). RED graded 004 (ebe839ffe0); BOND graded 007 CLEAN.
-4. **Car-Mart (DOCKET L1098):** eleventh-bridge standstill date 11/12; no CRMT EDGAR filing after the 11/10 8-K through the closeout. Recent bridge 8-Ks were accepted 08:00 ET the next morning. BROCK reads; WALTER routes any 8-K (ACTION BROCK and OTTO, INFO LIQUID, CARL, PROME; Item 1.03 IMMEDIATE). The in-session EDGAR watch ends with this session.
-5. **Staleness sweep NOT RUN** (due Thursday 11/12): `tools/staleness_sweep.py --before 20261106` gives 392 candidate lines; adjudicate at the next routing session with time, tags under SIGNAL_FORMAT_SPEC.
-6. **Next scheduled:** Friday 11/13: October PPI 08:30 ET (HENRY HEN-58, frozen), IEA OMR, WQ-556 C remeasurement and REG-T-06 CFR grade, PROME spine audit. About 11/18: full Iran sweep and anchor size check. 11/19: MEMORY calendar check; PROME's megacap age-filter decision. Mid-December ERCOT audit and WATT EO 14421 before December 24. About 12/22: Skydance resale registration naming PIPE holders (PROME's theme).
+3. **Owner grades open (unverified at this closeout):** 11/13 cards: PROME consumed 001 (b64ed4eee7); RED, REGINALD and HENRY on 002; VULCAN on 003; SAM on 004 (records not re-read). 11/12 cards: BROCK on VX-BRK-020 vs 10Y par 5.10% (card 008); FALCON and BRENT on the Houthi pipeline claim (009); SAM on the yen spike, VULCAN on the Nvidia Singapore disclosure, CYPHER on ConnectWise (010); VULCAN, HENRY, TERRY and ORACLE on 002 (records not re-read). RED graded 004 (ebe839ffe0); BOND graded 007 CLEAN.
+4. **Car-Mart (DOCKET L1098):** 11/13: twelfth bridge recorded on card 005 (INFO LIQUID, OTTO, NEXUS; BROCK consumed at baba1b83b5; delivery_log rows 7018, 7022, 7110 corrected). Prior text: eleventh-bridge standstill date 11/12; no CRMT EDGAR filing after the 11/10 8-K through the closeout. Recent bridge 8-Ks were accepted 08:00 ET the next morning. BROCK reads; WALTER routes any 8-K (ACTION BROCK and OTTO, INFO LIQUID, CARL, PROME; Item 1.03 IMMEDIATE). The in-session EDGAR watch ends with this session.
+5. **Staleness sweep NOT RUN** (due Thursday 11/12; still not run at the 11/13 light closeout): `tools/staleness_sweep.py --before 20261106` gives 392 candidate lines; adjudicate at the next routing session with time, tags under SIGNAL_FORMAT_SPEC.
+6. **Next scheduled:** 11/13 outcomes: WQ-556 C remeasurement DONE (417f1087b1; PROME closed D:L334 at a9741c80db); October PPI and IEA OMR elapsed with no step 7i row (UNKNOWN at WALTER); REG-T-06 CFR grade is REGINALD's/BOND's (BOND: Q3 CFR not posted, f2437ff524). Original list: Friday 11/13: October PPI 08:30 ET (HENRY HEN-58, frozen), IEA OMR, WQ-556 C remeasurement and REG-T-06 CFR grade, PROME spine audit. About 11/18: full Iran sweep and anchor size check. 11/19: MEMORY calendar check; PROME's megacap age-filter decision. Mid-December ERCOT audit and WATT EO 14421 before December 24. About 12/22: Skydance resale registration naming PIPE holders (PROME's theme).
 7. **Earlier carries, verbatim and binding where open:** research/2026-11-12_reboot/LC-ROTATED.md (items 00, 0, 1, 2 to 4, 5, 6, 6b, 7, 9 of 11/11 and 11/12) and research/2026-11-12_full-closeout/LC-ROTATED.md.
 8. **WQ-622 router role (Will 2026-11-12):** step 10.6 tags small-items lines `combo:<OWNER>/<theme>` or `combo:none`; recurring `combo:none` subjects named to PROME at this closeout (PROME/inbox/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md).
 
-Calendar coverage cutoff: 2026-11-12T18:47:41Z (step 7i at walter-42: window from 01:15:19Z; claims, HY cell, VIXCLS routed by walter-03; WPSR and 30-year auction routed (006, 007) and owner-graded; Car-Mart standstill and EART window not yet elapsed for grading; research/2026-11-12_reboot/CALENDAR-RECONCILIATION.tsv). Prior calendar coverage cutoff: 2026-11-12T01:15:19Z (step 7i at the walter-b2 evening session: window from 15:40:08Z, MSCI list routed as 030, Tricolor answered, rest owner rows; research/2026-11-11_evening/CALENDAR-RECONCILIATION.tsv). Prior cutoff 2026-11-11T15:40:08Z (reboot 7i: window from 13:46:57Z, no release published; Tricolor 341 at 16:00Z not yet elapsed; research/2026-11-11_reboot/CALENDAR-RECONCILIATION.tsv). Prior cutoff 2026-11-11T13:46:57Z (step 7i at the 08:37 ET boot; rows in research/2026-11-11_boot/CALENDAR-RECONCILIATION.tsv: STEO, CoreWeave, TSMC and SoftBank's Tokyo session owner-completed; Siemens Energy and the OPEC MOMR published and routed (002, 001/013); MSCI list, Tricolor 341, FERT DTN not yet elapsed or UNKNOWN). The next boot enumerates from this cutoff. Previous cutoff 2026-11-10T16:44Z. Unchanged at this closeout: step 7i did not run after 18:47:41Z (Car-Mart standstill elapsed with no filing; OTTO graded the EART window, card 011).
+Calendar coverage cutoff: 2026-11-12T18:47:41Z (unchanged at the walter-d4 light closeout 11/13: step 7i did not run, October PPI 08:30 ET and the IEA OMR elapsed without a 7i row; step 7i at walter-42: window from 01:15:19Z; claims, HY cell, VIXCLS routed by walter-03; WPSR and 30-year auction routed (006, 007) and owner-graded; Car-Mart standstill and EART window not yet elapsed for grading; research/2026-11-12_reboot/CALENDAR-RECONCILIATION.tsv). Prior calendar coverage cutoff: 2026-11-12T01:15:19Z (step 7i at the walter-b2 evening session: window from 15:40:08Z, MSCI list routed as 030, Tricolor answered, rest owner rows; research/2026-11-11_evening/CALENDAR-RECONCILIATION.tsv). Prior cutoff 2026-11-11T15:40:08Z (reboot 7i: window from 13:46:57Z, no release published; Tricolor 341 at 16:00Z not yet elapsed; research/2026-11-11_reboot/CALENDAR-RECONCILIATION.tsv). Prior cutoff 2026-11-11T13:46:57Z (step 7i at the 08:37 ET boot; rows in research/2026-11-11_boot/CALENDAR-RECONCILIATION.tsv: STEO, CoreWeave, TSMC and SoftBank's Tokyo session owner-completed; Siemens Energy and the OPEC MOMR published and routed (002, 001/013); MSCI list, Tricolor 341, FERT DTN not yet elapsed or UNKNOWN). The next boot enumerates from this cutoff. Previous cutoff 2026-11-10T16:44Z. Unchanged at this closeout: step 7i did not run after 18:47:41Z (Car-Mart standstill elapsed with no filing; OTTO graded the EART window, card 011).
 
 ## STATUS
 
-Boot PARTIAL (midday reboot; detail in the rotated STATUS block). Closeout FULL: owed items cleared: basis re-attestation (intake_scan.py, fetch.py, COMPLETION_SPEC, ORCHESTRATION_PLAYBOOK reviewed by diff and commit; then CLAUDE.md and BOOT_PROTOCOL re-hashed after the WQ-678 B trims; boot_basis_check MATCH, 28 paths); step 9 LIAISON (CARL and RED channels dormant since May and June) and outbox REQ (one over 14 days, sent to PROME); ORCH_INFLIGHT read whole; REGISTRY 21 rows; STATUS; MEMORY; this file. Doctor --spec-changed: no HIGH, MED CATO receipt (ruled by Will 11/11) and ISHM 1 INFO 3 days.
+Boot PARTIAL (walter-d4, desktop, boot commit 0d3bd96696 at 10:18 ET): threshold scan (research/2026-11-13_boot/THRESHOLD-SCAN.md), step 7g (three packets consumed: HENRY put wall, CYPHER ConnectWise grade, LIQUID HY 320 reset), step 7e with the WQ-681 A collector run, step 7h bookmarks. Not done: step 7i, step 8 REGISTRY refresh, step 9 LIAISON and outbox REQ, step 9b ORCH_INFLIGHT, FILTER_SPEC boot context, staleness sweep. Closeout LIGHT on Will's word 14:29 ET; full deferred.
 
 ## CHANGED
 
-Midday to closeout (walter-42): cards 006 to 011; charter 7e(a) WQ-681 A exception (4133465c23) and Research-Intake workflow comment (64a2f34); megacap query flood test and LAND WITH CHANGES (8d9c266ae2); WQ-678 Changelist B: U-W02, U-W14, U-W15, U-W17 applied, 17 declined (research/2026-11-12_full-closeout/WQ678-B-DECISIONS.md); MEMORY finding 70 plus verbatim rotation; Iran anchor 11/12 note; batches BM-20261112-06 (4/4) and -07 (25/25); intake marked through data/2026-11-12/news.json; bookmarks marked (4). Morning (walter-03): cards 001 to 005 (98ec10e411 to 46c41102e5).
+walter-d4 (11/13): card 001 (4d3cfd1e5a; handoff bodies restored 0748e3e938), 002 with the 7g packet moves (2817295413), 003 and 004 (a9789676d7), 005 with delivery_log corrections (6ea651a830); D:L334 report and PROME packet (417f1087b1); boot record (0d3bd96696); intake marked through data/2026-11-13/news.json; bookmarks marked; batch manifests closed; 23 delivery rows reconciled at this closeout.
 
 ## RESULT
 
-Nvidia's CEO resigned (002). Long rates rose on an equity-down day for a second session: the 10-year closed 5.10% at Treasury par, crossing HENRY's red line and BROCK's duration red rung (008). The Houthis claim strikes on Saudi Arabia's East-West pipeline and Yanbu, unconfirmed, with Aramco silent; Brent vendor 96.04, up 3.5% (009). The yen briefly hit 160.04 and fell 0.7 yen in 15 minutes; intervention unconfirmed (010). The 30-year auction cleared every frozen bar (007). EIA crude and product stocks built (006). Exeter's next subprime auto deal missed its window; nothing moved (011). No FLASH, one IMMEDIATE (002), one correction (003).
+S&P 500 printed 7,499.40 under HENRY's 7,500 put wall (001, ACTION PROME). FRED HY 320 [Nov 12] resets LIQUID's above-320 run; no registered fire or exit (002). DePue's Blackwell fingerprints read at the primary: single source, unreplicated, confidence 0.6 (003, VULCAN). Small items, 27 dups and kills (004, SAM). Car-Mart twelfth bridge recorded (005, INFO). D:L334: lever (a) did not lower per-signal INFO copies at HENRY, LIQUID or SAM; 0 late adds; no change proposed. No FLASH, no IMMEDIATE, no correction card. Microsoft outage under-captured (RESUME 0).
 
 ## GAPS
 
-- Card 007 went out about 1h45m late (the watcher keyed on an empty API field); an unquoted heredoc blanked a backtick command in 007, fixed before commit. Card 008's first LAST_COMPLETION stamp was typed ahead of the clock and fixed before commit (MEMORY #34 class).
-- Brent move on 009 not attributed; vendor last, not settlement, contract month unknown. ConnectWise article not found by WALTER's search (headline only). WSJ Nvidia article read only through the quoted passage.
-- Staleness sweep, step 7i after 18:47:41Z, a closing threshold-registry scan and FILTER_SPEC boot context not done.
-- Earlier GAPS bullets remain binding at research/2026-11-06_closeout/LC-GAPS-ROTATED.md, research/2026-11-09_laptop-boot/LC-ROTATED.md, research/2026-11-11_evening/LC-ROTATED.md and research/2026-11-12_full-closeout/LC-ROTATED.md.
+- Card 001 handoffs first shipped header-only (a sed range deleted the body); fixed in 0748e3e938 because git_guard blocks --amend. Card 004 first titled "21 dups and kills"; trashed and re-dispatched as 27 before commit. Domain token and written_state token on 001 corrected before commit.
+- Microsoft outage under-captured and the ordinary-headline blind spot in 7e (RESUME 0).
+- Not done: step 7i, step 8, step 9, step 9b, FILTER_SPEC boot context, staleness sweep, closing threshold scan, research retirement review. PROME doorbelled twice; other ACTION owners' doorbells not audited.
+- Earlier GAPS bullets remain binding at research/2026-11-13_light-closeout/LC-ROTATED.md and the files it names.
 
 ## WILL_NEEDS
 
@@ -58,106 +59,81 @@ Section moved verbatim 2026-11-11T19:54:09Z to research/2026-11-11_light-closeou
 
 ## CLOSEOUT RECEIPT
 
-Tier 2 FULL closeout, walter-42, desktop. Prior: FULL 2026-11-12T01:06:49Z (walter-b2), then three light closeouts today. Operational coverage PARTIAL. Publication is not consumption.
+Tier 1 light closeout, walter-d4, desktop. Prior: FULL 2026-11-12T22:00:57Z (walter-42). Operational coverage PARTIAL. Publication is not consumption.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-12T22:00:57Z",
-  "next_review": "2026-11-13",
+  "as_of": "2026-11-13T19:31:36Z",
+  "next_review": "2026-11-16",
   "publication": [
     {
-      "commit": "6cd98d669b",
+      "commit": "417f1087b1",
       "state": "published",
-      "note": "Tier 2 closeout files (STATUS, SESSION_LOG, MEMORY and rotation, REGISTRY, CLAUDE.md and BOOT_PROTOCOL WQ-678 B trims, basis hashes, kill_log, this file, checks.json); PROME packet 6d6e8e2b4f; safe-push CONFIRMED"
+      "note": "D:L334 remeasurement packet to PROME; PROME consumed a9741c80db"
     },
     {
-      "commit": "f515ab80ff",
+      "commit": "6ea651a830",
       "state": "published",
-      "note": "card 20261112-011 OTTO EART, 1 handoff (LIQUID); safe-push CONFIRMED at 2f81dd0282; reconciled 1 row delivered"
+      "note": "card 20261113-005 Car-Mart twelfth bridge, 3 handoffs; delivery_log rows 7018, 7022, 7110 corrected"
     },
     {
-      "commit": "e787ced6f2",
+      "commit": "a9789676d7",
       "state": "published",
-      "note": "cards 20261112-009 and -010, 11 handoffs; safe-push CONFIRMED at 67e5bddaee; reconciled 11 rows delivered"
+      "note": "cards 20261113-003 (3 handoffs) and -004 (5 handoffs)"
     },
     {
-      "commit": "4b085ad9a5",
+      "commit": "2817295413",
       "state": "published",
-      "note": "card 20261112-008 Treasury par 10Y 5.10% (HENRY doorbell), 7 handoffs; safe-push CONFIRMED at 58c86ae8b7; reconciled 7 rows delivered"
+      "note": "card 20261113-002 HY 320, 9 handoffs; step 7g packet moves and .consumed.tsv rows"
     },
     {
-      "commit": "c3c65621ce",
+      "commit": "0748e3e938",
       "state": "published",
-      "note": "card 20261112-007 30-year auction, 5 handoffs; safe-push CONFIRMED; reconciled 5 rows delivered"
+      "note": "card 001 handoff bodies restored"
     },
     {
-      "commit": "95d952b39d",
+      "commit": "4d3cfd1e5a",
       "state": "published",
-      "note": "card 20261112-006 EIA weekly (BRENT-graded), 3 handoffs; safe-push CONFIRMED at 5becbedb2a; reconciled 3 rows delivered"
+      "note": "card 20261113-001 S&P under 7,500 put wall, 3 handoffs"
     },
     {
-      "commit": "4133465c23",
+      "commit": "0d3bd96696",
       "state": "published",
-      "note": "charter 7e(a) WQ-681 A exception and basis re-attestation (4 files); safe-push CONFIRMED"
-    },
-    {
-      "commit": "46c41102e5",
-      "state": "published",
-      "note": "walter-03 morning cards 20261112-001 to -005 (98ec10e411, 0e21aa0404, c685960f00, 65613d5084, 46c41102e5), 38 delivery rows delivered; recorded at this closeout"
-    },
-    {
-      "commit": "ce9c5eb73950aebc994cd44294c1d398eb714162",
-      "state": "published",
-      "note": "bookmark cards 031 to 033, 12 handoffs, review and mark; safe-push CONFIRMED on retry after a DNS failure"
-    },
-    {
-      "commit": "3b4070afcf87f37bde8553d1ccc73a66c67f3adc",
-      "state": "published",
-      "note": "cards 029 (VIX close under 18) and 030 (MSCI deletes Strategy), evening scan and calendar; safe-push CONFIRMED; also swept PROME's untracked D-parent-paper-holders.md in error (PROME told)"
-    },
-    {
-      "commit": "f5a0e02520cfcd42eec097574bb0a8e7a53bc19b",
-      "state": "published",
-      "note": "Evening cards 024 to 028, 16 handoffs, route and delivery rows, R1 rows COR-20261111-24/-25, banners on 007 and 1110-002, index, batches BM-20261112-01/-02, intake mark, 003R flag RESOLVED, Iran anchor note; safe-push CONFIRMED"
+      "note": "walter-d4 boot, WQ-681 A run record, threshold scan"
     }
   ],
   "delivery": {
-    "signal_date": "20261112",
-    "total": 65,
-    "delivered": 65,
-    "note": "handoff rows for cards 001 to 011 (65); all delivered on origin at reconcile; recipient use separate. TERRY and PROME BOARD-only; CARL and RED INFO by BOARD diff."
+    "signal_date": "20261113",
+    "total": 23,
+    "delivered": 23,
+    "note": "handoff rows for cards 001 to 005; reconciled to delivered at this closeout (origin carried the commits via a later PROME push); recipient use separate. TERRY BOARD-only; CARL, RED, PROME INFO by BOARD diff."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-11-12_reboot/THRESHOLD-SCAN.md",
-        "sha256": "1f84496b569e68d3b4273a248a37c9d7c1a32164d85182505af2b802b488095c"
+        "path": "AGENTS/WALTER/research/2026-11-13_boot/THRESHOLD-SCAN.md",
+        "sha256": "09fd890d4ea448271ef561b5c3b0990aa1e5c9840a9045d3bebc5a59a7dc740c"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-12_reboot/CALENDAR-RECONCILIATION.tsv",
-        "sha256": "2ba9d62158da558fe2d2d8f4d150ba9c3dbf2139f2ca724a15de6827f4f949e5"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-12_full-closeout/WQ678-B-DECISIONS.md",
-        "sha256": "c84b52b4ce1b1dbba816fc529ff9800e53659b943202516fddbc67eab6e657e1"
+        "path": "AGENTS/WALTER/research/2026-11-13_L334-remeasure/REPORT.md",
+        "sha256": "bc0bcd7307c61307be0b2226d2df1056566d968838ffe5af1d28ac1dc0dc403a"
       }
     ]
   },
   "procedure": {
-    "tier": "full",
-    "boot": "PARTIAL: midday reboot; see STATUS section.",
-    "session": "walter-42 desktop, Will launch about 11:57 ET; Tier 2 FULL closeout on Will's word 16:54 ET; one in-session Car-Mart EDGAR watch (ends with the session); no helper."
+    "tier": "light",
+    "boot": "PARTIAL: steps 7i, 8, 9, 9b, FILTER_SPEC boot context not run; see STATUS section.",
+    "session": "walter-d4 desktop, boot 10:18 ET; light closeout on Will's word 14:29 ET; no helper."
   },
   "manual_duties": {
-    "11": "Cards 008 to 011 since the midday light closeout (4b085ad9a5, e787ced6f2, f515ab80ff); 19 delivery rows; index regenerated each time; no correction.",
-    "13": "REGISTRY: 21 rows mirrored from owner lead headers at the closeout; RAV, DARWIN, BARON, HERMES, DEWEY (no STATUS), SENTRY (header older), ATHENA (dormant) not refreshed; CATO directory without a mirror row (WQ-255, unchanged); Status column not re-graded.",
-    "12": "Updated line; BOTTOM LINE re-cut for the full day (11/11 reboot and afternoon paragraphs rotated verbatim to SESSION_LOG); one observation row (partial: no registry scan); NETWORK regenerated; SESSION_LOG entry.",
-    "14": "MEMORY finding 70 (BOND no-tail); findings 39, 40, 53, 54 and the 11/11 session note rotated verbatim to MEMORY_PROMOTED.md; new session note; 22,047 B, under the stop.",
-    "15": "This file rewritten; replaced blocks verbatim at research/2026-11-12_full-closeout/LC-ROTATED.md.",
-    "16": "Exact paths; safe-push; reconcile after publication.",
-    "gaps": "Staleness sweep due 11/12 NOT RUN (392 candidate lines before 11/06), carried. Step 7i not run this afternoon (calendar cutoff unchanged). No full threshold-registry scan at closeout. FILTER_SPEC boot context not read. Today's doorbells not re-audited. Retirement: 12 research directories older than 60 days counted, reference check not done, none moved. kill_log: 4 afternoon kills logged; walter-03's morning kills (card 005) not logged. Checks runner research/2026-11-12_full-closeout/checks.json: receipt, read-cap, archives, weekdays, basis, memory lines PASS; orphans advisory (own PROME packet, committed here); ledger-nudge REVIEW (kill_log, now written); reads UNKNOWN (READS attestation dated 11/04, told PROME); doctor REVIEW (CATO receipt ruled; ISHM INFO; breadcrumb MED cleared by this closeout)."
+    "11": "Cards 001 to 005 (23 handoffs, route rows, index regenerated each time); no correction card; Microsoft outage under-capture recorded at RESUME 0, not routed.",
+    "Tier1": "STATUS Updated line, November 13 BOTTOM LINE paragraph and a boot observation row refreshed; SESSION_LOG breadcrumb prepended; REGISTRY, NETWORK, MEMORY narratives deferred.",
+    "15": "Header, STATUS, CHANGED, RESULT, GAPS rewritten (before-images at research/2026-11-13_light-closeout/LC-ROTATED.md); RESUME items 0, 3, 4, 5, 6 updated; calendar cutoff unchanged.",
+    "root.retirement": "Not assessed at this light closeout; deferred to the next full closeout.",
+    "16": "Exact paths; safe-push at closeout; reconcile ran first (23 rows delivered, 0 orphans) because origin already held every routing commit.",
+    "gaps": "Step 7i, 8, 9, 9b, FILTER_SPEC boot context, staleness sweep, closing threshold scan, retirement review not done; doorbells not audited."
   }
 }
 END_CLOSEOUT_RECEIPT -->
