@@ -1,7 +1,7 @@
 # BOND Monitor — Dealer Capacity / Absorption
 
 **Owner:** BOND
-**Last Updated:** 2026-11-05 — latest read as-of 10/28 is in the body below (next as-of 11/4 due about 11/12). Full pre-refresh record: `domain/sources/2026-10-05_monitors_DEALER_CAPACITY.md_pre-live-refresh`.
+**Last Updated:** 2026-11-13 — latest read as-of 11/4 (published 11/12, KB-BND-574) is the first body line below; the 10/28-week read follows it (next as-of 11/12 due about 11/19). Full pre-refresh record: `domain/sources/2026-10-05_monitors_DEALER_CAPACITY.md_pre-live-refresh`.
 
 > ## ✅ RESOLVED 2026-07-28 — it was never an access problem
 >
@@ -61,7 +61,9 @@
 
 ## Current Read — 2026-11-05
 
-PRIMARY NY Fed, series break SBN2024, latest common as-of 2026-10-28: long-end total $146.946B (−$3.870B w/w); 7–11Y $37.747B (−0.475), 11–21Y $67.734B (+5.035, highest since 9/23), >21Y $41.465B (−8.430); 3–6Y $44.974B (−3.012). **No build, so the upgrade leg did not fire; VX-BND-04 holds at 2.** Most of the 10/14 >21Y jump (+$12.203B) is gone two weeks later, which fits a short-lived position better than warehoused supply, though net stock cannot separate them. The 11–21Y rose for a second week; that sub-bucket is not the trigger. ⚠️ This print is two weeks old and predates the 11/5 selloff. Evidence `../analysis/2026-11-05_catchup/raw/close/fr2004_asof_1028.txt`, KB-BND-545.
+PRIMARY NY Fed, series break SBN2024, as-of 2026-11-04 (published 11/12): long-end total $150.760B (+$3.814B w/w); 7–11Y $37.315B (−0.432), 11–21Y $71.419B (+3.685, highest since 7/8), >21Y $42.026B (+0.561); 3–6Y $58.500B (+13.526). One build after two falls; the upgrade leg needs two consecutive builds, so VX-BND-04 holds at 2. Predates the refunding settlement (11/16). KB-BND-574.
+
+Prior: week of 2026-10-28: long-end total $146.946B (−$3.870B w/w); 7–11Y $37.747B (−0.475), 11–21Y $67.734B (+5.035, highest since 9/23), >21Y $41.465B (−8.430); 3–6Y $44.974B (−3.012). **No build, so the upgrade leg did not fire; VX-BND-04 holds at 2.** Most of the 10/14 >21Y jump (+$12.203B) is gone two weeks later, which fits a short-lived position better than warehoused supply, though net stock cannot separate them. The 11–21Y rose for a second week; that sub-bucket is not the trigger. ⚠️ This print is two weeks old and predates the 11/5 selloff. Evidence `../analysis/2026-11-05_catchup/raw/close/fr2004_asof_1028.txt`, KB-BND-545.
 
 *Prior: read of 2026-11-02, dated history:* series break SBN2024, 2026-10-21: long-end total $150.816B (−$0.580B w/w); 7–11Y $38.222B (−2.475), 11–21Y $62.699B (+2.953, highest since as-of 9/23), >21Y $49.895B (−1.058); 3–6Y $47.986B (−1.402). **Build streak broken, inventory off the 10/14 high: VX-BND-04 3→2 on the THESIS letter**, with the disagreement recorded (a 0.4% dip; the 11–21Y rose). Evidence `../analysis/2026-11-02_update/raw/fr2004.json`, KB-BND-523.
 

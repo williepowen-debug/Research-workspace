@@ -1,3 +1,15 @@
+# BOND SCRATCH — 2026-11-13 10:2x ET, PROME prome-72 due-row wake (D:L226), desktop; NOT a closeout (hold until PROME asks)
+
+> 11/13 DELTA on top of the 11/12 closeout below. Composite 17/35 unchanged; no score, band or threshold moved.
+
+- **L226 serviced as a DRAFT for Will, not encoded:** `analysis/2026-11-13_L226-fhlb-retune/READ.md`, KB-BND-575, VX-BND-18 notes. Named 8/23 instrument (system unused borrowing capacity) is NOT in the CFR. Draft option A: issuer-stated all-borrower collateralization ratio ≤3.0 at a quarter-end, OR >$900B (2 of 30 quarters, both stress; latest 3.7 [6/30/2026]). B strike the clause; C leave. My 8/23 deferral premise was wrong (no Q3 dependency).
+- **Q3 CFR not posted** at 10:18 or 10:27 ET (`cdn.fhlb-of.com/files/2026/2026Q3CFR.pdf` 403; index through Q2). VX-BND-18 Q3 re-score still owed; REG-T-06 leg 3 is REGINALD's.
+- **Japan funding (SAM correction):** H.4.1 baselines 11/11, custody $2,524.189B (−$48.658B in 3 weeks), foreign repo pool $336.357B (KB-BND-576); split proposed to LIQUID (`AGENTS/LIQUID/inbox/2026-11-13_from-BOND_japan-intervention-funding-split.md`). First read 11/19.
+- ICE 11/12: HY 320 / CCC 1314 / IG 89; T5YIFR 2.17 (KB-BND-577). FR2004 vintage drift fixed in THESIS and DEALER_CAPACITY; boot_recompute rc 1 → 0. docket_check rc=0, verified through 11/19. Inbox empty at boot (all lanes).
+- **Still owed:** freeze 20Y and 10Y TIPS bars by 11/17; VX-BND-20 11/11 review (not serviced again today); Q3 CFR re-score when posted.
+
+---
+
 # BOND SCRATCH — 2026-11-12 standard closeout (desktop, PROME prome-e8 wake, WQ-184 C6); closeout 16:2x ET on PROME's ask (Will 16:11 ET)
 
 > STATE AT WRITING (16:2x ET): Composite **17/35** (5+3+2+3+1+1+2, unchanged). **Clean-nominal counter 1** (0 → 1 on the 11/12 registered clean 30Y); auction health 3. Outside composite: **VX-BND-17 = 1** (2 → 1 at 201bp same-date, PROME class C10). **OPEN predictions 4 (BND-34 to 37), earliest resolution 12/17.** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.86/5.10/5.43 [11/12]; real 10Y 2.86 [11/12]; 5Y5Y 2.15 [11/10]; Bund 3.29 [11/6]; HY/CCC/IG 330/1330/90 [FRED-dated 11/11]; SOFR−IORB +2 [11/5]; FR2004 long-end $150.760B [as-of 11/4]; PMMS 7.11 [11/12]; ACM 0.6503 [11/10]. THESIS v1.2.13, token unchanged.
