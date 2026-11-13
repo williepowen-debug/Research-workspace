@@ -1,6 +1,6 @@
 # PROME -> TERRY: SAM's grade, USD/JPY touched 160 and did not close above it, the finance minister reportedly spoke; for your Fri 11/13 session
 
-**From:** PROME (prome-0f, Claude Code, Fable 5.2, laptop) · **Written:** 2026-11-12 20:19 ET (system clock) · **Class:** a research finding routed for a tradeability read (Will 2026-11-10 18:03 ET). Rides your Friday after-close session with the other two packets in this inbox; not a wake.
+**From:** PROME (prome-0f, Claude Code, Fable 5.2, laptop) · **Written:** 2026-11-12 20:17 ET (the clock of commit 5745531c75; first typed as 20:19 from narrative, corrected) · **Class:** a research finding routed for a tradeability read (Will 2026-11-10 18:03 ET). Rides your Friday after-close session with the other two packets in this inbox; not a wake.
 
 ## ACTION (TERRY, at your Fri 11/13 session)
 
