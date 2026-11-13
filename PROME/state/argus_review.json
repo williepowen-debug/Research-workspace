@@ -2,8 +2,8 @@
   "schema": 3,
   "verdict": "FROZEN",
   "baseline": "8ac7c902b39ffbf293c870889e2270c8e7cd95d5",
-  "head": "32847d7329374c5ba8219799dce5c8667824ad75",
-  "recorded_at": "2026-11-12T22:10:11.888826+00:00",
+  "head": "895c63dbc9838dc5472f86df8dd509b765d66709",
+  "recorded_at": "2026-11-13T14:22:18.271415+00:00",
   "contract": {
     "policy": {
       "language": "argus-path-v1",
@@ -172,7 +172,7 @@
       ]
     },
     "baseline": "8ac7c902b39ffbf293c870889e2270c8e7cd95d5",
-    "anchor": "32847d7329374c5ba8219799dce5c8667824ad75",
+    "anchor": "895c63dbc9838dc5472f86df8dd509b765d66709",
     "delivered": {
       ".claude/skills/boot/SKILL.md": {
         "sha256": "5a3f94d9ec619095efe80b9d994a243dbb6eb8ba6723687aa81301365cd5fbb5",
@@ -389,10 +389,18 @@
         }
       },
       "AGENTS/SAM/inbox/2026-11-12_from-PROME_usdjpy-160-cross-c9-commission.md": {
-        "sha256": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296",
-        "provenance": "auto (WQ-583 AC6, PROME commit subject): d60c2d9ad PROME -> SAM: USD/JPY crossed 160, one bounded session (class C9, WQ-6",
+        "sha256": null,
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): d60c2d9ad PROME -> SAM: USD/JPY crossed 160, one bounded session (class C9, WQ-6; 1 non-PROME commit(s)",
         "versions": {
-          "d60c2d9ada5412576a9931dc4bda433d453b1c63": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296"
+          "d60c2d9ada5412576a9931dc4bda433d453b1c63": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296",
+          "669524e2fdb358535de1e38965aed9f7519ed716": null
+        }
+      },
+      "AGENTS/SAM/inbox/processed/2026-11-12_from-PROME_usdjpy-160-cross-c9-commission.md": {
+        "sha256": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296",
+        "provenance": "auto (WQ-583 AC6, from-PROME filename): 1 non-PROME commit(s)",
+        "versions": {
+          "669524e2fdb358535de1e38965aed9f7519ed716": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296"
         }
       },
       "AGENTS/TERRY/inbox/2026-11-11_from-PROME_united-fidelity-addendum-2-five-unknowns.md": {
@@ -480,6 +488,14 @@
         "provenance": "auto (WQ-583 AC6, PROME commit subject): 3a7ccb3a0 PROME -> TERRY: OTTO's Exeter finding routed; OTTO's delivery consumed",
         "versions": {
           "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28": "f3e12cc99dd3eac51770cc6235bdccd45b1728e2c4ac01974a5b58481930afc1"
+        }
+      },
+      "AGENTS/TERRY/inbox/2026-11-12_from-PROME_sam-usdjpy-160-touch-no-close-katayama.md": {
+        "sha256": "9869a14ce1812ae1ee870503d1b52f615d07bfdb4fa75b6ccb286e67f453ca38",
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): 5745531c7 PROME -> TERRY: SAM's USD/JPY 160 grade routed; SAM packet filed, D:L1; 895c63dbc PROME: SAM window closed with receipt; TERRY packet stamp corrected to",
+        "versions": {
+          "5745531c7517d591799bc6dbe11d56d294484c96": "92f283b95c0226b328c960bfe97b32447b99d50d73c1feb76fcb365ab3643534",
+          "895c63dbc9838dc5472f86df8dd509b765d66709": "9869a14ce1812ae1ee870503d1b52f615d07bfdb4fa75b6ccb286e67f453ca38"
         }
       },
       "AGENTS/TERRY/inbox/2026-11-12_from-PROME_vulcan-nebius-q3-tradeability-read.md": {
@@ -656,8 +672,8 @@
         }
       },
       "PROME/DOCKET.tsv": {
-        "sha256": "d7683e532cf45e3a26c8a651e5177c6dfbdf372763da4099c78a2ed1d5b599af",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; be0cd9ff0 PROME: boot on the laptop, file DEWEY United Fidelity packet, register; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; eb704660c PROME: United Fidelity plan legs B and C returned; Phase 2 not run; da; +32 more PROME commits",
+        "sha256": "91dd5777df8e529d6b7f63b0128b20bb7d925c29dd58da8ba4cf2d276e38cd68",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; be0cd9ff0 PROME: boot on the laptop, file DEWEY United Fidelity packet, register; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; eb704660c PROME: United Fidelity plan legs B and C returned; Phase 2 not run; da; +33 more PROME commits; pending at freeze",
         "versions": {
           "db20d63ab7c862cd1ae8e07beefc67ccda4b10bf": "92a3a99ab77c185267fd014775716eff6b78f2c6f92c5f7ee854cc42f8d80999",
           "be0cd9ff0dc89522115d1d5c92aa78d0b461b50e": "b2cab4c58988cf16db8a3cdb186a4f9806e53b4211b3475eb031d97acc3c17ae",
@@ -694,7 +710,8 @@
           "a363046b30932cf9be37586a457865a7f6c43634": "a1c22ff9b1f586dd40fd03ad68e975a94cda959b3102a2c651ebd6a4ccca5b84",
           "bf62395313b547e474643b041428fec57558ad88": "82fdc1850182bdd5842b90495faf35a5394cb7caee4f057b70bbdf4e7a6071a9",
           "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28": "e649ed93dd7e7a1a5da979f4cc9331f506a910ab52ec96ef6b5be09f9a9c5a51",
-          "32847d7329374c5ba8219799dce5c8667824ad75": "d7683e532cf45e3a26c8a651e5177c6dfbdf372763da4099c78a2ed1d5b599af"
+          "32847d7329374c5ba8219799dce5c8667824ad75": "d7683e532cf45e3a26c8a651e5177c6dfbdf372763da4099c78a2ed1d5b599af",
+          "5745531c7517d591799bc6dbe11d56d294484c96": "1f208b0b626a6f17291392ba5e6d2651b3b35bcb71a52cbedcda4b3ce6107a59"
         }
       },
       "PROME/GATES.tsv": {
@@ -712,8 +729,8 @@
         }
       },
       "PROME/SCRATCH.md": {
-        "sha256": "54dc6fe0a04cf94ebd4f5f9e064fb02bad588152273537a17a75c9d327cf4e58",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): c548b66bc PROME: record verified Standard delivery and closeout continuity; db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; be0cd9ff0 PROME: boot on the laptop, file DEWEY United Fidelity packet, register; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; +56 more PROME commits",
+        "sha256": "7729bd3490dcf0ae33856ba69e5f6307f60b08d1d70fe2734bf2067d6e459f38",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): c548b66bc PROME: record verified Standard delivery and closeout continuity; db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; be0cd9ff0 PROME: boot on the laptop, file DEWEY United Fidelity packet, register; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; +57 more PROME commits; pending at freeze",
         "versions": {
           "c548b66bca5b6aa313117c88a06b7bdfcb9958d1": "45dd8135b70bb8399326f4367216d4ef2243671682618fe38adf9dd22a505c89",
           "db20d63ab7c862cd1ae8e07beefc67ccda4b10bf": "89001a8dc36961f3cc8fd8dd7e88e1d9dab6e8b965ebf584fa873c2cbf704e5b",
@@ -774,7 +791,8 @@
           "0efbf1a47b7fa8313b1d4c84bd10a04e1dbe2a34": "62bbcf299c2ca68e2e75bd0ab0dd788a6c043a771c7db6a787326ca313769452",
           "4bb9a60489ca7879b3ca2475298b4cab33790eb6": "afa670e74c6518e59bbf2a1b32ad3bb51a8edf777cff6389d00ba3c5d47eeca3",
           "8b1b89a9d75362ad321a6295e600d3a074340457": "188a4ccbf7dd17a9b92a7621b5f4e463833a3017ca00ccd227fbdc3ccd12988c",
-          "32847d7329374c5ba8219799dce5c8667824ad75": "54dc6fe0a04cf94ebd4f5f9e064fb02bad588152273537a17a75c9d327cf4e58"
+          "32847d7329374c5ba8219799dce5c8667824ad75": "54dc6fe0a04cf94ebd4f5f9e064fb02bad588152273537a17a75c9d327cf4e58",
+          "5745531c7517d591799bc6dbe11d56d294484c96": "51e65ef5cb30ed20286cd327ef90e69c46ea66855ddb718ae0ebcf9e37386d54"
         }
       },
       "PROME/STATUS.md": {
@@ -1058,6 +1076,15 @@
           "40e63567752ea83b59f895d2f919b450671c3191": null
         }
       },
+      "PROME/inbox/2026-11-12_from-SAM_usdjpy-160-grade.md": {
+        "sha256": null,
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): 5745531c7 PROME -> TERRY: SAM's USD/JPY 160 grade routed; SAM packet filed, D:L1; 2 non-PROME commit(s)",
+        "versions": {
+          "5549b8461eecbf05232396abfe9fb9cf96825c42": "5ae4ec8f8892838a1d38afdcb80b3b219a58f467b2a0eb18918f5efaf37ce895",
+          "f406c51d0253fa988b141464220078ca261b48f4": "ec7ba8f68a44bd6e0958098691d69f53305e0694a417796425cb7e0e12f5e514",
+          "5745531c7517d591799bc6dbe11d56d294484c96": null
+        }
+      },
       "PROME/inbox/2026-11-12_from-TERRY_closeout.md": {
         "sha256": null,
         "provenance": "auto (WQ-583 AC6, PROME commit subject): 97cd05185 PROME -> TERRY: BRENT oil report for a tradeability read; TERRY and BR; 2 non-PROME commit(s)",
@@ -1129,6 +1156,14 @@
         "versions": {
           "dece3921bdb6caaf7240ba5a637dc8cab85f68ac": "926d9d0a029160c9e07c60b5f4771a2a80ae20567ab09f8ce6d785c32b78bad8",
           "22fae18f1b1f3cb84eae5b61c9117eb3cf5e7514": null
+        }
+      },
+      "PROME/inbox/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": {
+        "sha256": null,
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): 32847d732 PROME: intra-day Standard closeout 11/12, audit deferred; SAM grade wa; 1 non-PROME commit(s)",
+        "versions": {
+          "6d6e8e2b4f89e22d83d2a9b9c58394438b3852d4": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b",
+          "32847d7329374c5ba8219799dce5c8667824ad75": null
         }
       },
       "PROME/inbox/2026-11-12_from-WALTER_intake-gap-owner-answer.md": {
@@ -1358,6 +1393,13 @@
           "40e63567752ea83b59f895d2f919b450671c3191": "02a3305a2ef41fdecee57100858a16c6c07ed958a6305a54375e71fa57b988f4"
         }
       },
+      "PROME/inbox/processed/2026-11-12_from-SAM_usdjpy-160-grade.md": {
+        "sha256": "ec7ba8f68a44bd6e0958098691d69f53305e0694a417796425cb7e0e12f5e514",
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): 5745531c7 PROME -> TERRY: SAM's USD/JPY 160 grade routed; SAM packet filed, D:L1",
+        "versions": {
+          "5745531c7517d591799bc6dbe11d56d294484c96": "ec7ba8f68a44bd6e0958098691d69f53305e0694a417796425cb7e0e12f5e514"
+        }
+      },
       "PROME/inbox/processed/2026-11-12_from-TERRY_closeout.md": {
         "sha256": "637b259286bf1b41062bf661015e3602718d3fb27ce8e76aabe7b48c42421f79",
         "provenance": "auto (WQ-583 AC6, PROME commit subject): 97cd05185 PROME -> TERRY: BRENT oil report for a tradeability read; TERRY and BR",
@@ -1419,6 +1461,13 @@
         "provenance": "auto (WQ-583 AC6, PROME commit subject): 22fae18f1 PROME: VULCAN's Nvidia card answer consumed and filed; HENRY brief def",
         "versions": {
           "22fae18f1b1f3cb84eae5b61c9117eb3cf5e7514": "926d9d0a029160c9e07c60b5f4771a2a80ae20567ab09f8ce6d785c32b78bad8"
+        }
+      },
+      "PROME/inbox/processed/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": {
+        "sha256": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b",
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): 32847d732 PROME: intra-day Standard closeout 11/12, audit deferred; SAM grade wa",
+        "versions": {
+          "32847d7329374c5ba8219799dce5c8667824ad75": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b"
         }
       },
       "PROME/inbox/processed/2026-11-12_from-WALTER_intake-gap-owner-answer.md": {
@@ -1719,8 +1768,8 @@
         }
       },
       "PROME/state/CALENDAR.md": {
-        "sha256": "b926eb9642e63fccf14eacb68d895b097c32f70c34c9066a09b2776aaf882ef0",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; eb704660c PROME: United Fidelity plan legs B and C returned; Phase 2 not run; da; 332ebd0c8 PROME: laptop closeout 11/12 (intra-day, audit deferred): NOW page, se; +28 more PROME commits",
+        "sha256": "8d885c6bc1e4f8d9c9cce4164d306e4b93ab3d9278541eb549a2c50afc0b00e8",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; eb704660c PROME: United Fidelity plan legs B and C returned; Phase 2 not run; da; 332ebd0c8 PROME: laptop closeout 11/12 (intra-day, audit deferred): NOW page, se; +29 more PROME commits; pending at freeze",
         "versions": {
           "db20d63ab7c862cd1ae8e07beefc67ccda4b10bf": "5b2bc101e907105d2132a57210b603b4afdca8480af42eef047d6411d93f0eaa",
           "e871d4f77e65de811a9217cf29a37a121594801f": "74236f8b497a48f7d571cc1e71bde6bbad3594b7f7ca9f4a65a95568ae251b94",
@@ -1753,7 +1802,8 @@
           "a06779e2d1d1c5b7b91681a183dc73f7b776db24": "fa9cf13dea431d8c7da047d1b739dd4e9226cd24e76b542f0b1408ee56ccb547",
           "bf62395313b547e474643b041428fec57558ad88": "991585a99b3ef914e7c4d1bb39606b4e1ff36a403d7dc41fbec980af5cb8ce9a",
           "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28": "39f347ef68cb438f2820c3faa6ba5afbcb7d25b0da996263a1b432800607db41",
-          "32847d7329374c5ba8219799dce5c8667824ad75": "b926eb9642e63fccf14eacb68d895b097c32f70c34c9066a09b2776aaf882ef0"
+          "32847d7329374c5ba8219799dce5c8667824ad75": "b926eb9642e63fccf14eacb68d895b097c32f70c34c9066a09b2776aaf882ef0",
+          "5745531c7517d591799bc6dbe11d56d294484c96": "e8539d932cdd9b3c53b884ee97a5b0b3eb3b6239f2c0fd798bea380c28ecee89"
         }
       },
       "PROME/state/ORCH_INFLIGHT.md": {
@@ -1791,8 +1841,8 @@
         }
       },
       "PROME/state/ORCH_LOG.tsv": {
-        "sha256": "1fe98ef99d058eed1244e785ac5176fa7193e804d58b919040dc8ea049f4f046",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): c548b66bc PROME: record verified Standard delivery and closeout continuity; be0cd9ff0 PROME: boot on the laptop, file DEWEY United Fidelity packet, register; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; 51787f228 PROME: United Fidelity plan approved by Will; legs B and C launched; +40 more PROME commits",
+        "sha256": "8a638e135c3e5baf7b2a44ad6983c4d8b80a5fdb07b685015f659825bbfee47b",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): c548b66bc PROME: record verified Standard delivery and closeout continuity; be0cd9ff0 PROME: boot on the laptop, file DEWEY United Fidelity packet, register; e871d4f77 PROME: United Fidelity follow-up synthesis; D:L1126 resolved; 51787f228 PROME: United Fidelity plan approved by Will; legs B and C launched; +42 more PROME commits; pending at freeze",
         "versions": {
           "c548b66bca5b6aa313117c88a06b7bdfcb9958d1": "925a7b8ebcab8c17ccf4870b301f867bac8096364cf4c181a78185baab9322dd",
           "be0cd9ff0dc89522115d1d5c92aa78d0b461b50e": "6893bed4a52025c83f7ff886657102609655f7f467e00db32ac07ebbb013b878",
@@ -1837,21 +1887,25 @@
           "0efbf1a47b7fa8313b1d4c84bd10a04e1dbe2a34": "03a539ad714d93fbc5ccd6622807563c4c05bb18b4f981aa732169dffebfdac1",
           "4bb9a60489ca7879b3ca2475298b4cab33790eb6": "f2e1ffda47e8d55a36de0227a8924bbfaa0190c8503f2d5869af07dd4e6742dd",
           "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28": "dbeda5493a752421b935c220360efb1c54cccb3777c4524e75c3d96881366ece",
-          "8b1b89a9d75362ad321a6295e600d3a074340457": "1fe98ef99d058eed1244e785ac5176fa7193e804d58b919040dc8ea049f4f046"
+          "8b1b89a9d75362ad321a6295e600d3a074340457": "1fe98ef99d058eed1244e785ac5176fa7193e804d58b919040dc8ea049f4f046",
+          "5745531c7517d591799bc6dbe11d56d294484c96": "ace1cd1d80c18580386bf8017d80e378d9434d9d1ec8db50335979f06ccf0864",
+          "895c63dbc9838dc5472f86df8dd509b765d66709": "ae68d0c3a21d3ed7c4b6597675589b00502ee54b0c94e3be4f6b62e4e233072e"
         }
       },
       "PROME/state/board_consumed.tsv": {
-        "sha256": "504bb34f04b74c40ed68b27cec1f3031d9778a76f3157a848b708272144cb1a9",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): b42a7293f PROME: desktop boot 11/12, session header, two correction receipts, th",
+        "sha256": "7feeb7c7251f8a64efeb5d7e66346f15771676d2a2727848434b324afb4e127d",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): b42a7293f PROME: desktop boot 11/12, session header, two correction receipts, th; 5745531c7 PROME -> TERRY: SAM's USD/JPY 160 grade routed; SAM packet filed, D:L1",
         "versions": {
-          "b42a7293f20105817a9ef61251f1f9554b1bd086": "504bb34f04b74c40ed68b27cec1f3031d9778a76f3157a848b708272144cb1a9"
+          "b42a7293f20105817a9ef61251f1f9554b1bd086": "504bb34f04b74c40ed68b27cec1f3031d9778a76f3157a848b708272144cb1a9",
+          "5745531c7517d591799bc6dbe11d56d294484c96": "7feeb7c7251f8a64efeb5d7e66346f15771676d2a2727848434b324afb4e127d"
         }
       },
       "PROME/state/board_cursor.txt": {
-        "sha256": "d1e4e519ea9e3f90575e31e1ca95d052214821a30a76a078e26415153216cbf0",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): b42a7293f PROME: desktop boot 11/12, session header, two correction receipts, th",
+        "sha256": "10ec6235b7a2bdc88928dbb41e42b0beba753ea828f99649b7dd9636cfd58375",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): b42a7293f PROME: desktop boot 11/12, session header, two correction receipts, th; 5745531c7 PROME -> TERRY: SAM's USD/JPY 160 grade routed; SAM packet filed, D:L1",
         "versions": {
-          "b42a7293f20105817a9ef61251f1f9554b1bd086": "d1e4e519ea9e3f90575e31e1ca95d052214821a30a76a078e26415153216cbf0"
+          "b42a7293f20105817a9ef61251f1f9554b1bd086": "d1e4e519ea9e3f90575e31e1ca95d052214821a30a76a078e26415153216cbf0",
+          "5745531c7517d591799bc6dbe11d56d294484c96": "10ec6235b7a2bdc88928dbb41e42b0beba753ea828f99649b7dd9636cfd58375"
         }
       },
       "PROME/tools/forecast_report.py": {
@@ -1882,6 +1936,26 @@
           "9d43dd3cdcde6339f91fd9a3ae4e50f78981432e": "db95ffa73abf7f7724a35e628b40e863eaaa00f3fda8c7757398fa7c395b2cdf"
         }
       },
+      "memory/2026-11-11.md": {
+        "sha256": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159",
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): c548b66bc PROME: record verified Standard delivery and closeout continuity; db20d63ab PROME: prioritize United Fidelity follow-up after Will reboots; 332ebd0c8 PROME: laptop closeout 11/12 (intra-day, audit deferred): NOW page, se",
+        "versions": {
+          "c548b66bca5b6aa313117c88a06b7bdfcb9958d1": "2ce5f4e729359200cc69d3eccffaafc5c4a11e9872574de866ff2b1053d0319c",
+          "db20d63ab7c862cd1ae8e07beefc67ccda4b10bf": "96f8808eb36b47e5a9448d479ec516f05155f504a937c014821445944ed9381e",
+          "332ebd0c860169f2014024a4ae4d32723d745e24": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159"
+        }
+      },
+      "memory/2026-11-12.md": {
+        "sha256": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9",
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): 07fbc8995 PROME: restart checkpoint 11/12 10:0x ET (NOW page current, daily note; 2ce24c7c3 PROME: restart checkpoint 2, NOW page and daily note current; 24bc64a8a PROME: restart checkpoint 3, NOW page and daily note current; b1b1395a7 PROME: restart checkpoint 4, NOW page and daily note current; BOND clo; +1 more PROME commits",
+        "versions": {
+          "07fbc899567cf1ba43b0cabfc75a9da4938e048c": "4f55da3a312867c0ced9e4a9a8c3b62a01efab4e826090d3902d15f7918e35ba",
+          "2ce24c7c3e5c6c71777f774ad8324200eacee984": "f02803f77fe055bd7671ca67d1ded693accf7b8fcb80ed0390d2927b20be0e71",
+          "24bc64a8a44d8697129ea6ecad5a8e74b9cf1eff": "5a676fa7787bc25d92aaced96d63099ecddd5906f97e7bb5664f04ed4b057c3a",
+          "b1b1395a79b5c4108bf52b30e12ef87a0f41d76f": "1a143187d87bcbc268932121e312947a11623caed73d901f3ac8d06e85b6987f",
+          "32847d7329374c5ba8219799dce5c8667824ad75": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9"
+        }
+      },
       "memory/auto/INDEX_COLD.md": {
         "sha256": "0fe7fb68d1a1310142dc4a0ad152e5159c72d931ae7467cacf28ff1a909091bd",
         "provenance": "auto (WQ-583 AC6, PROME commit subject): 882769554 PROME: USER.md expiry paragraphs replaced by one line; 7/4 dormant-fre",
@@ -1903,40 +1977,10 @@
           "8827695541b5f98a47ecefb945b2655f602bcf7d": "7110789c429954ce80aafde46be763573ed56a08c0dfe3a58d7cd08dc9eb627a"
         }
       },
-      "memory/2026-11-12.md": {
-        "sha256": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9",
-        "provenance": "PROME's daily session account for 2026-11-12 (desktop session prome-e8, five parts), written by PROME this session at each checkpoint and at this closeout",
-        "versions": {
-          "07fbc899567cf1ba43b0cabfc75a9da4938e048c": "4f55da3a312867c0ced9e4a9a8c3b62a01efab4e826090d3902d15f7918e35ba",
-          "2ce24c7c3e5c6c71777f774ad8324200eacee984": "f02803f77fe055bd7671ca67d1ded693accf7b8fcb80ed0390d2927b20be0e71",
-          "24bc64a8a44d8697129ea6ecad5a8e74b9cf1eff": "5a676fa7787bc25d92aaced96d63099ecddd5906f97e7bb5664f04ed4b057c3a",
-          "b1b1395a79b5c4108bf52b30e12ef87a0f41d76f": "1a143187d87bcbc268932121e312947a11623caed73d901f3ac8d06e85b6987f",
-          "32847d7329374c5ba8219799dce5c8667824ad75": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9"
-        }
-      },
-      "memory/2026-11-11.md": {
-        "sha256": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159",
-        "provenance": "PROME's daily session account for 2026-11-11 (sessions prome-2b, Codex 01a1cc47 and the laptop session 99ea8d53), written by PROME; in the window since baseline 8ac7c902b3",
-        "versions": {
-          "c548b66bca5b6aa313117c88a06b7bdfcb9958d1": "2ce5f4e729359200cc69d3eccffaafc5c4a11e9872574de866ff2b1053d0319c",
-          "db20d63ab7c862cd1ae8e07beefc67ccda4b10bf": "96f8808eb36b47e5a9448d479ec516f05155f504a937c014821445944ed9381e",
-          "332ebd0c860169f2014024a4ae4d32723d745e24": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159"
-        }
-      },
-      "PROME/inbox/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": {
-        "sha256": null,
-        "provenance": "WALTER's packet (WALTER 6d6e8e2b4f), consumed by PROME at this closeout and moved byte-identical to processed/ (origin leg)",
-        "versions": {
-          "6d6e8e2b4f89e22d83d2a9b9c58394438b3852d4": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b",
-          "32847d7329374c5ba8219799dce5c8667824ad75": null
-        }
-      },
-      "PROME/inbox/processed/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": {
-        "sha256": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b",
-        "provenance": "WALTER's packet (WALTER 6d6e8e2b4f), consumed by PROME at this closeout and moved byte-identical to processed/ (destination leg); its three asks are the DOCKET row dated 2026-11-16",
-        "versions": {
-          "32847d7329374c5ba8219799dce5c8667824ad75": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b"
-        }
+      "memory/2026-11-13.md": {
+        "sha256": "887013ec63f37593b53f433862bf1d09df25b5a972e95dded52131344288f7bc",
+        "provenance": "Authored in this session (prome-0f): the laptop session account",
+        "versions": {}
       }
     },
     "evidence": [],
@@ -2240,7 +2284,7 @@
     },
     "reused": {}
   },
-  "contract_sha256": "0520f091329ffa64e30647d8e7f2c37c935672bc610212d6bb12182bf1179e4d",
+  "contract_sha256": "df93aa7930f264666c5dd568fc8d00c75ed6af155f75ed97be23965c843424c0",
   "observed": {},
   "inventory": {
     ".claude/skills/boot/SKILL.md": {
@@ -6824,52 +6868,63 @@
     },
     "AGENTS/SAM/MEMORY.md": {
       "commits": [
-        "2e960b8ad53113fa83b626a650959e80619843a4"
+        "2e960b8ad53113fa83b626a650959e80619843a4",
+        "669524e2fdb358535de1e38965aed9f7519ed716",
+        "aadac2268fdfa73487b18b0463a071223a39467a",
+        "8996cd579c38f3be8bc2ef04551b6e10980a485b"
       ],
       "pending": [],
-      "working_sha256": "f20720ffbb40aa7be52c51021d6655b07b6088968a40a2a866ae6a7ce6d48ba9",
-      "commit_sha256": "f20720ffbb40aa7be52c51021d6655b07b6088968a40a2a866ae6a7ce6d48ba9"
+      "working_sha256": "cefac5365a4ed222aa309542c8677787a3149ca7cd1ddaf9bd7f8cc748058e3f",
+      "commit_sha256": "cefac5365a4ed222aa309542c8677787a3149ca7cd1ddaf9bd7f8cc748058e3f"
     },
     "AGENTS/SAM/NEXUS_BRIEF.md": {
       "commits": [
-        "7cdbce78eda031fb3f22af69160c66b3d8bc3240"
+        "7cdbce78eda031fb3f22af69160c66b3d8bc3240",
+        "fa22aa593e9f6a98eb0194824a0c863db22cd22d",
+        "45f55278b2cceda65c8ceef06ed2a67cd8c40387"
       ],
       "pending": [],
-      "working_sha256": "271457eef3ae9b98a5d07e0de6d01718f14ca6e7035588a317f75958d9182c68",
-      "commit_sha256": "271457eef3ae9b98a5d07e0de6d01718f14ca6e7035588a317f75958d9182c68"
+      "working_sha256": "07c3626e1dddcf3751f487c340a648c61bcba3d0ae356bf6929689d9673ba88a",
+      "commit_sha256": "07c3626e1dddcf3751f487c340a648c61bcba3d0ae356bf6929689d9673ba88a"
     },
     "AGENTS/SAM/STATUS.md": {
       "commits": [
         "3607f04e925bf85c57957f0e980a58a8f51a17f2",
-        "2e960b8ad53113fa83b626a650959e80619843a4"
+        "2e960b8ad53113fa83b626a650959e80619843a4",
+        "669524e2fdb358535de1e38965aed9f7519ed716",
+        "aadac2268fdfa73487b18b0463a071223a39467a"
       ],
       "pending": [],
-      "working_sha256": "6ecafb590b11f1c395d09e1bd4a82f3658012ac1607d856b83d9401a000dda44",
-      "commit_sha256": "6ecafb590b11f1c395d09e1bd4a82f3658012ac1607d856b83d9401a000dda44"
+      "working_sha256": "e4c2e8c80c3e18a9e546775816f978197779549b78d74b52aa254528d8134c32",
+      "commit_sha256": "e4c2e8c80c3e18a9e546775816f978197779549b78d74b52aa254528d8134c32"
     },
     "AGENTS/SAM/board_log.tsv": {
       "commits": [
-        "3607f04e925bf85c57957f0e980a58a8f51a17f2"
+        "3607f04e925bf85c57957f0e980a58a8f51a17f2",
+        "669524e2fdb358535de1e38965aed9f7519ed716"
       ],
       "pending": [],
-      "working_sha256": "91ab38dd8c8316e7e13c9f47a811af57591e2ef630eada77b844524b4e6fa63d",
-      "commit_sha256": "91ab38dd8c8316e7e13c9f47a811af57591e2ef630eada77b844524b4e6fa63d"
+      "working_sha256": "72167221625fb458fee528e8b138d6926b468069f7344704984619c638a07a8e",
+      "commit_sha256": "72167221625fb458fee528e8b138d6926b468069f7344704984619c638a07a8e"
     },
     "AGENTS/SAM/docket/CALENDAR.md": {
       "commits": [
-        "2e960b8ad53113fa83b626a650959e80619843a4"
+        "2e960b8ad53113fa83b626a650959e80619843a4",
+        "669524e2fdb358535de1e38965aed9f7519ed716",
+        "aadac2268fdfa73487b18b0463a071223a39467a"
       ],
       "pending": [],
-      "working_sha256": "54b7ec4f66972dac47c51d7c37dc70be46f94fd7de796be800766809ba161993",
-      "commit_sha256": "54b7ec4f66972dac47c51d7c37dc70be46f94fd7de796be800766809ba161993"
+      "working_sha256": "00651e37ff4433a53bca916f4545fb41aa2155bcd865594ac6021dabcf224753",
+      "commit_sha256": "00651e37ff4433a53bca916f4545fb41aa2155bcd865594ac6021dabcf224753"
     },
     "AGENTS/SAM/docket/CATALYSTS.tsv": {
       "commits": [
-        "2e960b8ad53113fa83b626a650959e80619843a4"
+        "2e960b8ad53113fa83b626a650959e80619843a4",
+        "669524e2fdb358535de1e38965aed9f7519ed716"
       ],
       "pending": [],
-      "working_sha256": "9b100f519fbe3de86554abbeaabfab033170e4146a9421f20927a2ff3bffd4f9",
-      "commit_sha256": "9b100f519fbe3de86554abbeaabfab033170e4146a9421f20927a2ff3bffd4f9"
+      "working_sha256": "95da5b4ce2721ad21b7556ada35304cd5b20cbc2c8b116bb0581a85a020d1ef0",
+      "commit_sha256": "95da5b4ce2721ad21b7556ada35304cd5b20cbc2c8b116bb0581a85a020d1ef0"
     },
     "AGENTS/SAM/inbox/2026-11-12_from-DAEDALUS_WQ678-harness-lines.md": {
       "commits": [
@@ -6882,11 +6937,12 @@
     },
     "AGENTS/SAM/inbox/2026-11-12_from-PROME_usdjpy-160-cross-c9-commission.md": {
       "commits": [
-        "d60c2d9ada5412576a9931dc4bda433d453b1c63"
+        "d60c2d9ada5412576a9931dc4bda433d453b1c63",
+        "669524e2fdb358535de1e38965aed9f7519ed716"
       ],
       "pending": [],
-      "working_sha256": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296",
-      "commit_sha256": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296"
+      "working_sha256": null,
+      "commit_sha256": null
     },
     "AGENTS/SAM/inbox/WALTER/SIG-W-20261111-002.md": {
       "commits": [
@@ -7007,27 +7063,30 @@
     },
     "AGENTS/SAM/inbox/WALTER/SIG-W-20261112-007.md": {
       "commits": [
-        "c3c65621ce4ea09feb65096499a5591041ae2263"
+        "c3c65621ce4ea09feb65096499a5591041ae2263",
+        "669524e2fdb358535de1e38965aed9f7519ed716"
       ],
       "pending": [],
-      "working_sha256": "de4990c79139079461d50a7c606bb91b8ddee383dda347cef64b251fedd8bed9",
-      "commit_sha256": "de4990c79139079461d50a7c606bb91b8ddee383dda347cef64b251fedd8bed9"
+      "working_sha256": null,
+      "commit_sha256": null
     },
     "AGENTS/SAM/inbox/WALTER/SIG-W-20261112-009.md": {
       "commits": [
-        "e787ced6f21ec570c4ed68b60537dca301f8c0a5"
+        "e787ced6f21ec570c4ed68b60537dca301f8c0a5",
+        "669524e2fdb358535de1e38965aed9f7519ed716"
       ],
       "pending": [],
-      "working_sha256": "dd59481768ae33811254aee5955c02ec2077f938172de668890f13dd52a4e633",
-      "commit_sha256": "dd59481768ae33811254aee5955c02ec2077f938172de668890f13dd52a4e633"
+      "working_sha256": null,
+      "commit_sha256": null
     },
     "AGENTS/SAM/inbox/WALTER/SIG-W-20261112-010.md": {
       "commits": [
-        "e787ced6f21ec570c4ed68b60537dca301f8c0a5"
+        "e787ced6f21ec570c4ed68b60537dca301f8c0a5",
+        "669524e2fdb358535de1e38965aed9f7519ed716"
       ],
       "pending": [],
-      "working_sha256": "19159428fda6b901c563ee193d60ae03628cb43e26c6eece303b789036d5e2b4",
-      "commit_sha256": "19159428fda6b901c563ee193d60ae03628cb43e26c6eece303b789036d5e2b4"
+      "working_sha256": null,
+      "commit_sha256": null
     },
     "AGENTS/SAM/inbox/WALTER/processed/SIG-W-20261111-002.md": {
       "commits": [
@@ -7141,6 +7200,30 @@
       "working_sha256": "9260adaa8b73202b2712919272b14505cc56404e21454af4c802f3e4c1523cd3",
       "commit_sha256": "9260adaa8b73202b2712919272b14505cc56404e21454af4c802f3e4c1523cd3"
     },
+    "AGENTS/SAM/inbox/WALTER/processed/SIG-W-20261112-007.md": {
+      "commits": [
+        "669524e2fdb358535de1e38965aed9f7519ed716"
+      ],
+      "pending": [],
+      "working_sha256": "de4990c79139079461d50a7c606bb91b8ddee383dda347cef64b251fedd8bed9",
+      "commit_sha256": "de4990c79139079461d50a7c606bb91b8ddee383dda347cef64b251fedd8bed9"
+    },
+    "AGENTS/SAM/inbox/WALTER/processed/SIG-W-20261112-009.md": {
+      "commits": [
+        "669524e2fdb358535de1e38965aed9f7519ed716"
+      ],
+      "pending": [],
+      "working_sha256": "dd59481768ae33811254aee5955c02ec2077f938172de668890f13dd52a4e633",
+      "commit_sha256": "dd59481768ae33811254aee5955c02ec2077f938172de668890f13dd52a4e633"
+    },
+    "AGENTS/SAM/inbox/WALTER/processed/SIG-W-20261112-010.md": {
+      "commits": [
+        "669524e2fdb358535de1e38965aed9f7519ed716"
+      ],
+      "pending": [],
+      "working_sha256": "19159428fda6b901c563ee193d60ae03628cb43e26c6eece303b789036d5e2b4",
+      "commit_sha256": "19159428fda6b901c563ee193d60ae03628cb43e26c6eece303b789036d5e2b4"
+    },
     "AGENTS/SAM/inbox/processed/2026-11-12_from-DAEDALUS_WQ678-harness-lines.md": {
       "commits": [
         "3607f04e925bf85c57957f0e980a58a8f51a17f2"
@@ -7148,6 +7231,22 @@
       "pending": [],
       "working_sha256": "34178f3672c74d24d10b13f4b9c7c7b6f0397da197e0240e6c9c0c32f7c8ac7f",
       "commit_sha256": "34178f3672c74d24d10b13f4b9c7c7b6f0397da197e0240e6c9c0c32f7c8ac7f"
+    },
+    "AGENTS/SAM/inbox/processed/2026-11-12_from-PROME_usdjpy-160-cross-c9-commission.md": {
+      "commits": [
+        "669524e2fdb358535de1e38965aed9f7519ed716"
+      ],
+      "pending": [],
+      "working_sha256": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296",
+      "commit_sha256": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296"
+    },
+    "AGENTS/SAM/registry/corrections_receipts.tsv": {
+      "commits": [
+        "669524e2fdb358535de1e38965aed9f7519ed716"
+      ],
+      "pending": [],
+      "working_sha256": "af989ebdcc08c5289e7350176e9f99bd2d08935e89eae233b926f00627f43f34",
+      "commit_sha256": "af989ebdcc08c5289e7350176e9f99bd2d08935e89eae233b926f00627f43f34"
     },
     "AGENTS/SAM/reports/boot-runs/20261112T164317Z_9e993545.jsonl": {
       "commits": [
@@ -7189,6 +7288,15 @@
       "working_sha256": "8e7de8a7ff92c68b74e3077aa27f1559cdfacca69abb9f552e1cee41a8ad377e",
       "commit_sha256": "8e7de8a7ff92c68b74e3077aa27f1559cdfacca69abb9f552e1cee41a8ad377e"
     },
+    "AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/GRADE_160_20261112.md": {
+      "commits": [
+        "669524e2fdb358535de1e38965aed9f7519ed716",
+        "aadac2268fdfa73487b18b0463a071223a39467a"
+      ],
+      "pending": [],
+      "working_sha256": "8d54608394188f84cbcff689abc97c79aa92847dcf24532ab53b02bb33aef2ba",
+      "commit_sha256": "8d54608394188f84cbcff689abc97c79aa92847dcf24532ab53b02bb33aef2ba"
+    },
     "AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/HANDOFF_160_GRADE.md": {
       "commits": [
         "2e960b8ad53113fa83b626a650959e80619843a4"
@@ -7196,6 +7304,14 @@
       "pending": [],
       "working_sha256": "489b0e2fa8f2187924d21d088563d5f9fc427e138fddcaa5028d090de17d5e5f",
       "commit_sha256": "489b0e2fa8f2187924d21d088563d5f9fc427e138fddcaa5028d090de17d5e5f"
+    },
+    "AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/USDJPY_1h_london_20261112_completed.csv": {
+      "commits": [
+        "669524e2fdb358535de1e38965aed9f7519ed716"
+      ],
+      "pending": [],
+      "working_sha256": "37d58f064feb209cafe6dbf28bbd2ce5f06eae475e1df2d51d583dc01768ecdf",
+      "commit_sha256": "37d58f064feb209cafe6dbf28bbd2ce5f06eae475e1df2d51d583dc01768ecdf"
     },
     "AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/USDJPY_1h_london_20261112_partial.csv": {
       "commits": [
@@ -7212,6 +7328,14 @@
       "pending": [],
       "working_sha256": "92fba3f3fd9ea4cd377af62645e4aedaead63f375c022840876cc1652fa2abe4",
       "commit_sha256": "92fba3f3fd9ea4cd377af62645e4aedaead63f375c022840876cc1652fa2abe4"
+    },
+    "AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/USDJPY_1m_1640-2010ET_gap.csv": {
+      "commits": [
+        "669524e2fdb358535de1e38965aed9f7519ed716"
+      ],
+      "pending": [],
+      "working_sha256": "b714403a5ad44ace8cbeeec68c195476d4b4a70ef00a09a94b0a5c9a76f99793",
+      "commit_sha256": "b714403a5ad44ace8cbeeec68c195476d4b4a70ef00a09a94b0a5c9a76f99793"
     },
     "AGENTS/SAM/workbook/JGB_AUCTIONS.tsv": {
       "commits": [
@@ -7247,11 +7371,12 @@
     },
     "AGENTS/SAM/workbook/USDJPY.tsv": {
       "commits": [
-        "3607f04e925bf85c57957f0e980a58a8f51a17f2"
+        "3607f04e925bf85c57957f0e980a58a8f51a17f2",
+        "669524e2fdb358535de1e38965aed9f7519ed716"
       ],
       "pending": [],
-      "working_sha256": "44a353d613bc6c9aab5a97bf9b89e98cd3697ea85a64f210fb1faefe14bfd01d",
-      "commit_sha256": "44a353d613bc6c9aab5a97bf9b89e98cd3697ea85a64f210fb1faefe14bfd01d"
+      "working_sha256": "4c1bd5193afd99f7caaf262ed1db9262e97c12506da4c36f8b1f8df47434870a",
+      "commit_sha256": "4c1bd5193afd99f7caaf262ed1db9262e97c12506da4c36f8b1f8df47434870a"
     },
     "AGENTS/SHADE/inbox/2026-11-12_from-DAEDALUS_WQ678-harness-lines.md": {
       "commits": [
@@ -7522,6 +7647,15 @@
       "pending": [],
       "working_sha256": "f3e12cc99dd3eac51770cc6235bdccd45b1728e2c4ac01974a5b58481930afc1",
       "commit_sha256": "f3e12cc99dd3eac51770cc6235bdccd45b1728e2c4ac01974a5b58481930afc1"
+    },
+    "AGENTS/TERRY/inbox/2026-11-12_from-PROME_sam-usdjpy-160-touch-no-close-katayama.md": {
+      "commits": [
+        "5745531c7517d591799bc6dbe11d56d294484c96",
+        "895c63dbc9838dc5472f86df8dd509b765d66709"
+      ],
+      "pending": [],
+      "working_sha256": "9869a14ce1812ae1ee870503d1b52f615d07bfdb4fa75b6ccb286e67f453ca38",
+      "commit_sha256": "9869a14ce1812ae1ee870503d1b52f615d07bfdb4fa75b6ccb286e67f453ca38"
     },
     "AGENTS/TERRY/inbox/2026-11-12_from-PROME_vulcan-nebius-q3-tradeability-read.md": {
       "commits": [
@@ -9271,11 +9405,14 @@
         "a363046b30932cf9be37586a457865a7f6c43634",
         "bf62395313b547e474643b041428fec57558ad88",
         "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28",
-        "32847d7329374c5ba8219799dce5c8667824ad75"
+        "32847d7329374c5ba8219799dce5c8667824ad75",
+        "5745531c7517d591799bc6dbe11d56d294484c96"
       ],
-      "pending": [],
-      "working_sha256": "d7683e532cf45e3a26c8a651e5177c6dfbdf372763da4099c78a2ed1d5b599af",
-      "commit_sha256": "d7683e532cf45e3a26c8a651e5177c6dfbdf372763da4099c78a2ed1d5b599af"
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "91dd5777df8e529d6b7f63b0128b20bb7d925c29dd58da8ba4cf2d276e38cd68",
+      "commit_sha256": "1f208b0b626a6f17291392ba5e6d2651b3b35bcb71a52cbedcda4b3ce6107a59"
     },
     "PROME/GATES.tsv": {
       "commits": [
@@ -9354,11 +9491,14 @@
         "0efbf1a47b7fa8313b1d4c84bd10a04e1dbe2a34",
         "4bb9a60489ca7879b3ca2475298b4cab33790eb6",
         "8b1b89a9d75362ad321a6295e600d3a074340457",
-        "32847d7329374c5ba8219799dce5c8667824ad75"
+        "32847d7329374c5ba8219799dce5c8667824ad75",
+        "5745531c7517d591799bc6dbe11d56d294484c96"
       ],
-      "pending": [],
-      "working_sha256": "54dc6fe0a04cf94ebd4f5f9e064fb02bad588152273537a17a75c9d327cf4e58",
-      "commit_sha256": "54dc6fe0a04cf94ebd4f5f9e064fb02bad588152273537a17a75c9d327cf4e58"
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "7729bd3490dcf0ae33856ba69e5f6307f60b08d1d70fe2734bf2067d6e459f38",
+      "commit_sha256": "51e65ef5cb30ed20286cd327ef90e69c46ea66855ddb718ae0ebcf9e37386d54"
     },
     "PROME/STATUS.md": {
       "commits": [
@@ -9670,6 +9810,16 @@
       "commits": [
         "3607f04e925bf85c57957f0e980a58a8f51a17f2",
         "40e63567752ea83b59f895d2f919b450671c3191"
+      ],
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "PROME/inbox/2026-11-12_from-SAM_usdjpy-160-grade.md": {
+      "commits": [
+        "5549b8461eecbf05232396abfe9fb9cf96825c42",
+        "f406c51d0253fa988b141464220078ca261b48f4",
+        "5745531c7517d591799bc6dbe11d56d294484c96"
       ],
       "pending": [],
       "working_sha256": null,
@@ -10024,6 +10174,14 @@
       "pending": [],
       "working_sha256": "02a3305a2ef41fdecee57100858a16c6c07ed958a6305a54375e71fa57b988f4",
       "commit_sha256": "02a3305a2ef41fdecee57100858a16c6c07ed958a6305a54375e71fa57b988f4"
+    },
+    "PROME/inbox/processed/2026-11-12_from-SAM_usdjpy-160-grade.md": {
+      "commits": [
+        "5745531c7517d591799bc6dbe11d56d294484c96"
+      ],
+      "pending": [],
+      "working_sha256": "ec7ba8f68a44bd6e0958098691d69f53305e0694a417796425cb7e0e12f5e514",
+      "commit_sha256": "ec7ba8f68a44bd6e0958098691d69f53305e0694a417796425cb7e0e12f5e514"
     },
     "PROME/inbox/processed/2026-11-12_from-TERRY_closeout.md": {
       "commits": [
@@ -10473,11 +10631,14 @@
         "a06779e2d1d1c5b7b91681a183dc73f7b776db24",
         "bf62395313b547e474643b041428fec57558ad88",
         "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28",
-        "32847d7329374c5ba8219799dce5c8667824ad75"
+        "32847d7329374c5ba8219799dce5c8667824ad75",
+        "5745531c7517d591799bc6dbe11d56d294484c96"
       ],
-      "pending": [],
-      "working_sha256": "b926eb9642e63fccf14eacb68d895b097c32f70c34c9066a09b2776aaf882ef0",
-      "commit_sha256": "b926eb9642e63fccf14eacb68d895b097c32f70c34c9066a09b2776aaf882ef0"
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "8d885c6bc1e4f8d9c9cce4164d306e4b93ab3d9278541eb549a2c50afc0b00e8",
+      "commit_sha256": "e8539d932cdd9b3c53b884ee97a5b0b3eb3b6239f2c0fd798bea380c28ecee89"
     },
     "PROME/state/ORCH_INFLIGHT.md": {
       "commits": [
@@ -10559,27 +10720,33 @@
         "0efbf1a47b7fa8313b1d4c84bd10a04e1dbe2a34",
         "4bb9a60489ca7879b3ca2475298b4cab33790eb6",
         "3a7ccb3a0f68760d15da26c2b03c22c3684a0f28",
-        "8b1b89a9d75362ad321a6295e600d3a074340457"
+        "8b1b89a9d75362ad321a6295e600d3a074340457",
+        "5745531c7517d591799bc6dbe11d56d294484c96",
+        "895c63dbc9838dc5472f86df8dd509b765d66709"
       ],
-      "pending": [],
-      "working_sha256": "1fe98ef99d058eed1244e785ac5176fa7193e804d58b919040dc8ea049f4f046",
-      "commit_sha256": "1fe98ef99d058eed1244e785ac5176fa7193e804d58b919040dc8ea049f4f046"
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "8a638e135c3e5baf7b2a44ad6983c4d8b80a5fdb07b685015f659825bbfee47b",
+      "commit_sha256": "ae68d0c3a21d3ed7c4b6597675589b00502ee54b0c94e3be4f6b62e4e233072e"
     },
     "PROME/state/board_consumed.tsv": {
       "commits": [
-        "b42a7293f20105817a9ef61251f1f9554b1bd086"
+        "b42a7293f20105817a9ef61251f1f9554b1bd086",
+        "5745531c7517d591799bc6dbe11d56d294484c96"
       ],
       "pending": [],
-      "working_sha256": "504bb34f04b74c40ed68b27cec1f3031d9778a76f3157a848b708272144cb1a9",
-      "commit_sha256": "504bb34f04b74c40ed68b27cec1f3031d9778a76f3157a848b708272144cb1a9"
+      "working_sha256": "7feeb7c7251f8a64efeb5d7e66346f15771676d2a2727848434b324afb4e127d",
+      "commit_sha256": "7feeb7c7251f8a64efeb5d7e66346f15771676d2a2727848434b324afb4e127d"
     },
     "PROME/state/board_cursor.txt": {
       "commits": [
-        "b42a7293f20105817a9ef61251f1f9554b1bd086"
+        "b42a7293f20105817a9ef61251f1f9554b1bd086",
+        "5745531c7517d591799bc6dbe11d56d294484c96"
       ],
       "pending": [],
-      "working_sha256": "d1e4e519ea9e3f90575e31e1ca95d052214821a30a76a078e26415153216cbf0",
-      "commit_sha256": "d1e4e519ea9e3f90575e31e1ca95d052214821a30a76a078e26415153216cbf0"
+      "working_sha256": "10ec6235b7a2bdc88928dbb41e42b0beba753ea828f99649b7dd9636cfd58375",
+      "commit_sha256": "10ec6235b7a2bdc88928dbb41e42b0beba753ea828f99649b7dd9636cfd58375"
     },
     "PROME/tools/forecast_report.py": {
       "commits": [
@@ -10634,6 +10801,14 @@
       "pending": [],
       "working_sha256": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9",
       "commit_sha256": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9"
+    },
+    "memory/2026-11-13.md": {
+      "commits": [],
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "887013ec63f37593b53f433862bf1d09df25b5a972e95dded52131344288f7bc",
+      "commit_sha256": null
     },
     "memory/auto/INDEX_COLD.md": {
       "commits": [
@@ -12328,23 +12503,34 @@
       "e787ced6f21ec570c4ed68b60537dca301f8c0a5"
     ],
     "AGENTS/SAM/MEMORY.md": [
-      "2e960b8ad53113fa83b626a650959e80619843a4"
+      "2e960b8ad53113fa83b626a650959e80619843a4",
+      "669524e2fdb358535de1e38965aed9f7519ed716",
+      "aadac2268fdfa73487b18b0463a071223a39467a",
+      "8996cd579c38f3be8bc2ef04551b6e10980a485b"
     ],
     "AGENTS/SAM/NEXUS_BRIEF.md": [
-      "7cdbce78eda031fb3f22af69160c66b3d8bc3240"
+      "7cdbce78eda031fb3f22af69160c66b3d8bc3240",
+      "fa22aa593e9f6a98eb0194824a0c863db22cd22d",
+      "45f55278b2cceda65c8ceef06ed2a67cd8c40387"
     ],
     "AGENTS/SAM/STATUS.md": [
       "3607f04e925bf85c57957f0e980a58a8f51a17f2",
-      "2e960b8ad53113fa83b626a650959e80619843a4"
+      "2e960b8ad53113fa83b626a650959e80619843a4",
+      "669524e2fdb358535de1e38965aed9f7519ed716",
+      "aadac2268fdfa73487b18b0463a071223a39467a"
     ],
     "AGENTS/SAM/board_log.tsv": [
-      "3607f04e925bf85c57957f0e980a58a8f51a17f2"
+      "3607f04e925bf85c57957f0e980a58a8f51a17f2",
+      "669524e2fdb358535de1e38965aed9f7519ed716"
     ],
     "AGENTS/SAM/docket/CALENDAR.md": [
-      "2e960b8ad53113fa83b626a650959e80619843a4"
+      "2e960b8ad53113fa83b626a650959e80619843a4",
+      "669524e2fdb358535de1e38965aed9f7519ed716",
+      "aadac2268fdfa73487b18b0463a071223a39467a"
     ],
     "AGENTS/SAM/docket/CATALYSTS.tsv": [
-      "2e960b8ad53113fa83b626a650959e80619843a4"
+      "2e960b8ad53113fa83b626a650959e80619843a4",
+      "669524e2fdb358535de1e38965aed9f7519ed716"
     ],
     "AGENTS/SAM/inbox/2026-11-12_from-DAEDALUS_WQ678-harness-lines.md": [
       "6a43711d27494139dab9f1e66c56d59f140c5aad",
@@ -12398,13 +12584,16 @@
       "3607f04e925bf85c57957f0e980a58a8f51a17f2"
     ],
     "AGENTS/SAM/inbox/WALTER/SIG-W-20261112-007.md": [
-      "c3c65621ce4ea09feb65096499a5591041ae2263"
+      "c3c65621ce4ea09feb65096499a5591041ae2263",
+      "669524e2fdb358535de1e38965aed9f7519ed716"
     ],
     "AGENTS/SAM/inbox/WALTER/SIG-W-20261112-009.md": [
-      "e787ced6f21ec570c4ed68b60537dca301f8c0a5"
+      "e787ced6f21ec570c4ed68b60537dca301f8c0a5",
+      "669524e2fdb358535de1e38965aed9f7519ed716"
     ],
     "AGENTS/SAM/inbox/WALTER/SIG-W-20261112-010.md": [
-      "e787ced6f21ec570c4ed68b60537dca301f8c0a5"
+      "e787ced6f21ec570c4ed68b60537dca301f8c0a5",
+      "669524e2fdb358535de1e38965aed9f7519ed716"
     ],
     "AGENTS/SAM/inbox/WALTER/processed/SIG-W-20261111-002.md": [
       "3607f04e925bf85c57957f0e980a58a8f51a17f2"
@@ -12448,8 +12637,20 @@
     "AGENTS/SAM/inbox/WALTER/processed/SIG-W-20261112-005.md": [
       "3607f04e925bf85c57957f0e980a58a8f51a17f2"
     ],
+    "AGENTS/SAM/inbox/WALTER/processed/SIG-W-20261112-007.md": [
+      "669524e2fdb358535de1e38965aed9f7519ed716"
+    ],
+    "AGENTS/SAM/inbox/WALTER/processed/SIG-W-20261112-009.md": [
+      "669524e2fdb358535de1e38965aed9f7519ed716"
+    ],
+    "AGENTS/SAM/inbox/WALTER/processed/SIG-W-20261112-010.md": [
+      "669524e2fdb358535de1e38965aed9f7519ed716"
+    ],
     "AGENTS/SAM/inbox/processed/2026-11-12_from-DAEDALUS_WQ678-harness-lines.md": [
       "3607f04e925bf85c57957f0e980a58a8f51a17f2"
+    ],
+    "AGENTS/SAM/registry/corrections_receipts.tsv": [
+      "669524e2fdb358535de1e38965aed9f7519ed716"
     ],
     "AGENTS/SAM/reports/boot-runs/20261112T164317Z_9e993545.jsonl": [
       "3607f04e925bf85c57957f0e980a58a8f51a17f2"
@@ -12466,14 +12667,24 @@
     "AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/GBPJPY_1m_1130-close.csv": [
       "2e960b8ad53113fa83b626a650959e80619843a4"
     ],
+    "AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/GRADE_160_20261112.md": [
+      "669524e2fdb358535de1e38965aed9f7519ed716",
+      "aadac2268fdfa73487b18b0463a071223a39467a"
+    ],
     "AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/HANDOFF_160_GRADE.md": [
       "2e960b8ad53113fa83b626a650959e80619843a4"
+    ],
+    "AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/USDJPY_1h_london_20261112_completed.csv": [
+      "669524e2fdb358535de1e38965aed9f7519ed716"
     ],
     "AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/USDJPY_1h_london_20261112_partial.csv": [
       "2e960b8ad53113fa83b626a650959e80619843a4"
     ],
     "AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/USDJPY_1m_1130-close.csv": [
       "2e960b8ad53113fa83b626a650959e80619843a4"
+    ],
+    "AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/USDJPY_1m_1640-2010ET_gap.csv": [
+      "669524e2fdb358535de1e38965aed9f7519ed716"
     ],
     "AGENTS/SAM/workbook/JGB_AUCTIONS.tsv": [
       "3607f04e925bf85c57957f0e980a58a8f51a17f2"
@@ -12488,7 +12699,8 @@
       "3607f04e925bf85c57957f0e980a58a8f51a17f2"
     ],
     "AGENTS/SAM/workbook/USDJPY.tsv": [
-      "3607f04e925bf85c57957f0e980a58a8f51a17f2"
+      "3607f04e925bf85c57957f0e980a58a8f51a17f2",
+      "669524e2fdb358535de1e38965aed9f7519ed716"
     ],
     "AGENTS/SHADE/inbox/2026-11-12_from-DAEDALUS_WQ678-harness-lines.md": [
       "6a43711d27494139dab9f1e66c56d59f140c5aad"
@@ -13429,7 +13641,8 @@
     "AGENTS/REGINALD/inbox/2026-11-11_from-PROME_united-fidelity-addendum-2-five-unknowns.md": "2a0582de5fe3993c5b13302d6cc655fb0c04521e6278234ebb208db9623c7dee",
     "AGENTS/REGINALD/inbox/2026-11-11_from-PROME_united-fidelity-follow-up.md": "f0dde8e1964a7162df74f6816f11f6f25239a5e7f72ac86db4657ac8245820fa",
     "AGENTS/REGINALD/inbox/2026-11-12_from-PROME_united-fidelity-addendum-2-corrections.md": "96e35b4d1493b6493310ffb36d5cd8373721c42dcaccbca440f015349c963c2b",
-    "AGENTS/SAM/inbox/2026-11-12_from-PROME_usdjpy-160-cross-c9-commission.md": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296",
+    "AGENTS/SAM/inbox/2026-11-12_from-PROME_usdjpy-160-cross-c9-commission.md": null,
+    "AGENTS/SAM/inbox/processed/2026-11-12_from-PROME_usdjpy-160-cross-c9-commission.md": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296",
     "AGENTS/TERRY/inbox/2026-11-11_from-PROME_united-fidelity-addendum-2-five-unknowns.md": null,
     "AGENTS/TERRY/inbox/2026-11-11_from-PROME_united-fidelity-addendum-debt-holders-and-borrowers.md": null,
     "AGENTS/TERRY/inbox/2026-11-11_from-PROME_united-fidelity-follow-up.md": null,
@@ -13441,6 +13654,7 @@
     "AGENTS/TERRY/inbox/2026-11-12_from-PROME_henry-negative-gamma-into-friday-ppi.md": null,
     "AGENTS/TERRY/inbox/2026-11-12_from-PROME_nvda-card-T1-needs-rewording-vulcan-states-not-grades.md": null,
     "AGENTS/TERRY/inbox/2026-11-12_from-PROME_otto-exeter-2026-5-absent-from-launch-window.md": "f3e12cc99dd3eac51770cc6235bdccd45b1728e2c4ac01974a5b58481930afc1",
+    "AGENTS/TERRY/inbox/2026-11-12_from-PROME_sam-usdjpy-160-touch-no-close-katayama.md": "9869a14ce1812ae1ee870503d1b52f615d07bfdb4fa75b6ccb286e67f453ca38",
     "AGENTS/TERRY/inbox/2026-11-12_from-PROME_vulcan-nebius-q3-tradeability-read.md": null,
     "AGENTS/TERRY/inbox/2026-11-12_from-PROME_will-word-incorporate-the-two-wording-corrections.md": null,
     "AGENTS/TERRY/inbox/processed/2026-11-11_from-PROME_united-fidelity-addendum-2-five-unknowns.md": "07d6e6c63c3a4d1abb5e0deae49b4d2060dc2a06c9d7fa46cd9b3fdcbe11b8cd",
@@ -13465,10 +13679,10 @@
     "PROME/BOOT_MODULES.md": "649a5cf03754776784998607a52f9834f5443b7e6a9acb1c3bbeb357f2a37a24",
     "PROME/CLAUDE.md": "baaadd4c2363bb7a0d41ddba593602b81e6657133e0c38c62d42882eec9907f9",
     "PROME/CLOSEOUT_PROCEDURES.md": "7a4dd66a08dde86f4353df9638e613f27d0bf706c6d94b2942cc94e1ebc2ed04",
-    "PROME/DOCKET.tsv": "d7683e532cf45e3a26c8a651e5177c6dfbdf372763da4099c78a2ed1d5b599af",
+    "PROME/DOCKET.tsv": "91dd5777df8e529d6b7f63b0128b20bb7d925c29dd58da8ba4cf2d276e38cd68",
     "PROME/GATES.tsv": "417428242ca64cacd03d0b3c575c93004bd757fb6912397869c312f148dae8e8",
     "PROME/ORCHESTRATION_PLAYBOOK.md": "9a813437b95a8a8165f623340b1fc9c2058d84349faee74e6e5152c59ab78659",
-    "PROME/SCRATCH.md": "54dc6fe0a04cf94ebd4f5f9e064fb02bad588152273537a17a75c9d327cf4e58",
+    "PROME/SCRATCH.md": "7729bd3490dcf0ae33856ba69e5f6307f60b08d1d70fe2734bf2067d6e459f38",
     "PROME/STATUS.md": "11732439f5d15897c32e6280d125eb3f3d6f8b6ee321ada02e5b8d743134c9dc",
     "PROME/WILL_QUEUE.md": "86f073a208182d2a21e58226c64fcc6758afc32efb552bf3e34267a621480839",
     "PROME/archive/BOOT_STAMP_CHAIN_2026-10-16.md": "2258b25ce7795d57c99fc2b46d13d5a6e61068ce427e239ab10aa2222adabd7f",
@@ -13503,6 +13717,7 @@
     "PROME/inbox/2026-11-12_from-RED_read-1-two-failures-fixed.md": null,
     "PROME/inbox/2026-11-12_from-SAM_usdjpy-160-first-read.md": null,
     "PROME/inbox/2026-11-12_from-SAM_usdjpy-160-full-packet.md": null,
+    "PROME/inbox/2026-11-12_from-SAM_usdjpy-160-grade.md": null,
     "PROME/inbox/2026-11-12_from-TERRY_closeout.md": null,
     "PROME/inbox/2026-11-12_from-TERRY_n-able-storm-no-card.md": null,
     "PROME/inbox/2026-11-12_from-TERRY_nebius-mstr-orlen-no-card.md": null,
@@ -13512,6 +13727,7 @@
     "PROME/inbox/2026-11-12_from-TERRY_united-fidelity-no-card-and-hy-cell.md": null,
     "PROME/inbox/2026-11-12_from-VULCAN_nebius-q3-and-card-drain.md": null,
     "PROME/inbox/2026-11-12_from-VULCAN_nvidia-ceo-exit-card-002.md": null,
+    "PROME/inbox/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": null,
     "PROME/inbox/2026-11-12_from-WALTER_intake-gap-owner-answer.md": null,
     "PROME/inbox/2026-11-12_from-WALTER_megacap-query-LAND-WITH-CHANGES.md": null,
     "PROME/inbox/processed/2026-11-11_from-DEWEY_united-fidelity-losses-and-capital.md": "b61e2328ef35ac003774c2273418b9506c414aea0ec4a4798c58912df51b67c0",
@@ -13544,6 +13760,7 @@
     "PROME/inbox/processed/2026-11-12_from-RED_read-1-two-failures-fixed.md": "be40a1fb1b07b66808b9f70e653a652c1e2c5273aa8315aa60e7720ec351130c",
     "PROME/inbox/processed/2026-11-12_from-SAM_usdjpy-160-first-read.md": "2341c7d946706df301f93319be7747544d213545edb2788371ccb7b03c3e03da",
     "PROME/inbox/processed/2026-11-12_from-SAM_usdjpy-160-full-packet.md": "02a3305a2ef41fdecee57100858a16c6c07ed958a6305a54375e71fa57b988f4",
+    "PROME/inbox/processed/2026-11-12_from-SAM_usdjpy-160-grade.md": "ec7ba8f68a44bd6e0958098691d69f53305e0694a417796425cb7e0e12f5e514",
     "PROME/inbox/processed/2026-11-12_from-TERRY_closeout.md": "637b259286bf1b41062bf661015e3602718d3fb27ce8e76aabe7b48c42421f79",
     "PROME/inbox/processed/2026-11-12_from-TERRY_n-able-storm-no-card.md": "dc2f96736928e164808d9fa0d7f8b8858c1e15c3aed4dc630a33754e41fbdc90",
     "PROME/inbox/processed/2026-11-12_from-TERRY_nebius-mstr-orlen-no-card.md": "1efa6afb3505421a87f8bae8a74f5ded5018a4757c6771cadedb185d0c1b13d0",
@@ -13553,6 +13770,7 @@
     "PROME/inbox/processed/2026-11-12_from-TERRY_united-fidelity-no-card-and-hy-cell.md": "ea617e24304a8536e5dc0553250b0547ebd52183f2f15a9eb3d222e3b2e121ee",
     "PROME/inbox/processed/2026-11-12_from-VULCAN_nebius-q3-and-card-drain.md": "4a148ea54443607becac82c6399ec7c9f0fca6779d0d5032e79aa4e90e77728d",
     "PROME/inbox/processed/2026-11-12_from-VULCAN_nvidia-ceo-exit-card-002.md": "926d9d0a029160c9e07c60b5f4771a2a80ae20567ab09f8ce6d785c32b78bad8",
+    "PROME/inbox/processed/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b",
     "PROME/inbox/processed/2026-11-12_from-WALTER_intake-gap-owner-answer.md": "ab46e0d8192b6d2d57427024438d6224ef8c1f5f777eca1490b036536e55019f",
     "PROME/inbox/processed/2026-11-12_from-WALTER_megacap-query-LAND-WITH-CHANGES.md": "886099f2c54ed910bc6131934c8def94ce221b8c1bda7a76907cf5120e566907",
     "PROME/plans/2026-11-11_united-fidelity-research-plan.md": "e4bbe4ba59ae0ffc8b43cf717c458a8be23d5415d3d5cad6e2ce87f098a8d50f",
@@ -13591,25 +13809,24 @@
     "PROME/reports/2026-11-12_red-closeout-check-read/LEDGER-read-2.md": "17bc793e06533c1ad7806edded9b5d1bfe8695629f8a2f4f4fe6d36ea5e4b08f",
     "PROME/reports/2026-11-12_red-closeout-check-read/reader_cases.py": "ecb0661aafbd14905e60d7570ce50f41274d9817a3019675594bec2fce585900",
     "PROME/reports/2026-11-12_red-closeout-check-read/reader_cases_read2.py": "e7328fbf9b67a3f0fcd159edab0df3b5b9be2dbe72fcc58bc7f2e6dc31d034b1",
-    "PROME/state/CALENDAR.md": "b926eb9642e63fccf14eacb68d895b097c32f70c34c9066a09b2776aaf882ef0",
+    "PROME/state/CALENDAR.md": "8d885c6bc1e4f8d9c9cce4164d306e4b93ab3d9278541eb549a2c50afc0b00e8",
     "PROME/state/ORCH_INFLIGHT.md": "19893be3e38188c8279f5ec4d842c555131e8ad39422fe5ab37544f37f8b2b55",
-    "PROME/state/ORCH_LOG.tsv": "1fe98ef99d058eed1244e785ac5176fa7193e804d58b919040dc8ea049f4f046",
-    "PROME/state/board_consumed.tsv": "504bb34f04b74c40ed68b27cec1f3031d9778a76f3157a848b708272144cb1a9",
-    "PROME/state/board_cursor.txt": "d1e4e519ea9e3f90575e31e1ca95d052214821a30a76a078e26415153216cbf0",
+    "PROME/state/ORCH_LOG.tsv": "8a638e135c3e5baf7b2a44ad6983c4d8b80a5fdb07b685015f659825bbfee47b",
+    "PROME/state/board_consumed.tsv": "7feeb7c7251f8a64efeb5d7e66346f15771676d2a2727848434b324afb4e127d",
+    "PROME/state/board_cursor.txt": "10ec6235b7a2bdc88928dbb41e42b0beba753ea828f99649b7dd9636cfd58375",
     "PROME/tools/forecast_report.py": "d5e378854cffd9e0e122565675721ef6a930a496dff9a50b53cecec2606c92a7",
     "PROME/tools/tests/ACCEPTANCE_table_check_manifest_classes_2026-11-11.md": "2ebc6a8307588eae3b0dd8f03ecd7fb7ca2f5bcebd2ff820cf7acc8de90d718d",
     "USER.md": "81610c100547d22eb1a80e912bf367ee3ebadaba14ca819a96b2d9ac4ca8fbb0",
     "docs/GIT_WORKTREE_PROCEDURES.md": "db95ffa73abf7f7724a35e628b40e863eaaa00f3fda8c7757398fa7c395b2cdf",
+    "memory/2026-11-11.md": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159",
+    "memory/2026-11-12.md": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9",
     "memory/auto/INDEX_COLD.md": "0fe7fb68d1a1310142dc4a0ad152e5159c72d931ae7467cacf28ff1a909091bd",
     "memory/auto/feedback_persistent_desk_windows_tap_not_relaunch.md": "e0498312fb2e24c2316ce60466f4f0943c26de268286e406ea0c7da0d5f04406",
     "memory/auto/feedback_will_sells_or_rolls_before_expiry.md": "7110789c429954ce80aafde46be763573ed56a08c0dfe3a58d7cd08dc9eb627a",
-    "memory/2026-11-12.md": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9",
-    "memory/2026-11-11.md": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159",
-    "PROME/inbox/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": null,
-    "PROME/inbox/processed/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b"
+    "memory/2026-11-13.md": "887013ec63f37593b53f433862bf1d09df25b5a972e95dded52131344288f7bc"
   },
   "candidate": {
-    "sha": "1d4d74a16880d44262bf1d882bdd8900d04cc12a",
+    "sha": "989db94679f4be14f3256094af8d53fe2ca0baeb",
     "ref": "refs/prome/argus-candidate",
     "paths": {
       ".claude/skills/boot/SKILL.md": "5a3f94d9ec619095efe80b9d994a243dbb6eb8ba6723687aa81301365cd5fbb5",
@@ -13641,7 +13858,8 @@
       "AGENTS/REGINALD/inbox/2026-11-11_from-PROME_united-fidelity-addendum-2-five-unknowns.md": "2a0582de5fe3993c5b13302d6cc655fb0c04521e6278234ebb208db9623c7dee",
       "AGENTS/REGINALD/inbox/2026-11-11_from-PROME_united-fidelity-follow-up.md": "f0dde8e1964a7162df74f6816f11f6f25239a5e7f72ac86db4657ac8245820fa",
       "AGENTS/REGINALD/inbox/2026-11-12_from-PROME_united-fidelity-addendum-2-corrections.md": "96e35b4d1493b6493310ffb36d5cd8373721c42dcaccbca440f015349c963c2b",
-      "AGENTS/SAM/inbox/2026-11-12_from-PROME_usdjpy-160-cross-c9-commission.md": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296",
+      "AGENTS/SAM/inbox/2026-11-12_from-PROME_usdjpy-160-cross-c9-commission.md": null,
+      "AGENTS/SAM/inbox/processed/2026-11-12_from-PROME_usdjpy-160-cross-c9-commission.md": "19e2c8153588106018399a68646d664a8c8603705a03a1461745c6510c427296",
       "AGENTS/TERRY/inbox/2026-11-11_from-PROME_united-fidelity-addendum-2-five-unknowns.md": null,
       "AGENTS/TERRY/inbox/2026-11-11_from-PROME_united-fidelity-addendum-debt-holders-and-borrowers.md": null,
       "AGENTS/TERRY/inbox/2026-11-11_from-PROME_united-fidelity-follow-up.md": null,
@@ -13653,6 +13871,7 @@
       "AGENTS/TERRY/inbox/2026-11-12_from-PROME_henry-negative-gamma-into-friday-ppi.md": null,
       "AGENTS/TERRY/inbox/2026-11-12_from-PROME_nvda-card-T1-needs-rewording-vulcan-states-not-grades.md": null,
       "AGENTS/TERRY/inbox/2026-11-12_from-PROME_otto-exeter-2026-5-absent-from-launch-window.md": "f3e12cc99dd3eac51770cc6235bdccd45b1728e2c4ac01974a5b58481930afc1",
+      "AGENTS/TERRY/inbox/2026-11-12_from-PROME_sam-usdjpy-160-touch-no-close-katayama.md": "9869a14ce1812ae1ee870503d1b52f615d07bfdb4fa75b6ccb286e67f453ca38",
       "AGENTS/TERRY/inbox/2026-11-12_from-PROME_vulcan-nebius-q3-tradeability-read.md": null,
       "AGENTS/TERRY/inbox/2026-11-12_from-PROME_will-word-incorporate-the-two-wording-corrections.md": null,
       "AGENTS/TERRY/inbox/processed/2026-11-11_from-PROME_united-fidelity-addendum-2-five-unknowns.md": "07d6e6c63c3a4d1abb5e0deae49b4d2060dc2a06c9d7fa46cd9b3fdcbe11b8cd",
@@ -13677,10 +13896,10 @@
       "PROME/BOOT_MODULES.md": "649a5cf03754776784998607a52f9834f5443b7e6a9acb1c3bbeb357f2a37a24",
       "PROME/CLAUDE.md": "baaadd4c2363bb7a0d41ddba593602b81e6657133e0c38c62d42882eec9907f9",
       "PROME/CLOSEOUT_PROCEDURES.md": "7a4dd66a08dde86f4353df9638e613f27d0bf706c6d94b2942cc94e1ebc2ed04",
-      "PROME/DOCKET.tsv": "d7683e532cf45e3a26c8a651e5177c6dfbdf372763da4099c78a2ed1d5b599af",
+      "PROME/DOCKET.tsv": "91dd5777df8e529d6b7f63b0128b20bb7d925c29dd58da8ba4cf2d276e38cd68",
       "PROME/GATES.tsv": "417428242ca64cacd03d0b3c575c93004bd757fb6912397869c312f148dae8e8",
       "PROME/ORCHESTRATION_PLAYBOOK.md": "9a813437b95a8a8165f623340b1fc9c2058d84349faee74e6e5152c59ab78659",
-      "PROME/SCRATCH.md": "54dc6fe0a04cf94ebd4f5f9e064fb02bad588152273537a17a75c9d327cf4e58",
+      "PROME/SCRATCH.md": "7729bd3490dcf0ae33856ba69e5f6307f60b08d1d70fe2734bf2067d6e459f38",
       "PROME/STATUS.md": "11732439f5d15897c32e6280d125eb3f3d6f8b6ee321ada02e5b8d743134c9dc",
       "PROME/WILL_QUEUE.md": "86f073a208182d2a21e58226c64fcc6758afc32efb552bf3e34267a621480839",
       "PROME/archive/BOOT_STAMP_CHAIN_2026-10-16.md": "2258b25ce7795d57c99fc2b46d13d5a6e61068ce427e239ab10aa2222adabd7f",
@@ -13715,6 +13934,7 @@
       "PROME/inbox/2026-11-12_from-RED_read-1-two-failures-fixed.md": null,
       "PROME/inbox/2026-11-12_from-SAM_usdjpy-160-first-read.md": null,
       "PROME/inbox/2026-11-12_from-SAM_usdjpy-160-full-packet.md": null,
+      "PROME/inbox/2026-11-12_from-SAM_usdjpy-160-grade.md": null,
       "PROME/inbox/2026-11-12_from-TERRY_closeout.md": null,
       "PROME/inbox/2026-11-12_from-TERRY_n-able-storm-no-card.md": null,
       "PROME/inbox/2026-11-12_from-TERRY_nebius-mstr-orlen-no-card.md": null,
@@ -13724,6 +13944,7 @@
       "PROME/inbox/2026-11-12_from-TERRY_united-fidelity-no-card-and-hy-cell.md": null,
       "PROME/inbox/2026-11-12_from-VULCAN_nebius-q3-and-card-drain.md": null,
       "PROME/inbox/2026-11-12_from-VULCAN_nvidia-ceo-exit-card-002.md": null,
+      "PROME/inbox/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": null,
       "PROME/inbox/2026-11-12_from-WALTER_intake-gap-owner-answer.md": null,
       "PROME/inbox/2026-11-12_from-WALTER_megacap-query-LAND-WITH-CHANGES.md": null,
       "PROME/inbox/processed/2026-11-11_from-DEWEY_united-fidelity-losses-and-capital.md": "b61e2328ef35ac003774c2273418b9506c414aea0ec4a4798c58912df51b67c0",
@@ -13756,6 +13977,7 @@
       "PROME/inbox/processed/2026-11-12_from-RED_read-1-two-failures-fixed.md": "be40a1fb1b07b66808b9f70e653a652c1e2c5273aa8315aa60e7720ec351130c",
       "PROME/inbox/processed/2026-11-12_from-SAM_usdjpy-160-first-read.md": "2341c7d946706df301f93319be7747544d213545edb2788371ccb7b03c3e03da",
       "PROME/inbox/processed/2026-11-12_from-SAM_usdjpy-160-full-packet.md": "02a3305a2ef41fdecee57100858a16c6c07ed958a6305a54375e71fa57b988f4",
+      "PROME/inbox/processed/2026-11-12_from-SAM_usdjpy-160-grade.md": "ec7ba8f68a44bd6e0958098691d69f53305e0694a417796425cb7e0e12f5e514",
       "PROME/inbox/processed/2026-11-12_from-TERRY_closeout.md": "637b259286bf1b41062bf661015e3602718d3fb27ce8e76aabe7b48c42421f79",
       "PROME/inbox/processed/2026-11-12_from-TERRY_n-able-storm-no-card.md": "dc2f96736928e164808d9fa0d7f8b8858c1e15c3aed4dc630a33754e41fbdc90",
       "PROME/inbox/processed/2026-11-12_from-TERRY_nebius-mstr-orlen-no-card.md": "1efa6afb3505421a87f8bae8a74f5ded5018a4757c6771cadedb185d0c1b13d0",
@@ -13765,6 +13987,7 @@
       "PROME/inbox/processed/2026-11-12_from-TERRY_united-fidelity-no-card-and-hy-cell.md": "ea617e24304a8536e5dc0553250b0547ebd52183f2f15a9eb3d222e3b2e121ee",
       "PROME/inbox/processed/2026-11-12_from-VULCAN_nebius-q3-and-card-drain.md": "4a148ea54443607becac82c6399ec7c9f0fca6779d0d5032e79aa4e90e77728d",
       "PROME/inbox/processed/2026-11-12_from-VULCAN_nvidia-ceo-exit-card-002.md": "926d9d0a029160c9e07c60b5f4771a2a80ae20567ab09f8ce6d785c32b78bad8",
+      "PROME/inbox/processed/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b",
       "PROME/inbox/processed/2026-11-12_from-WALTER_intake-gap-owner-answer.md": "ab46e0d8192b6d2d57427024438d6224ef8c1f5f777eca1490b036536e55019f",
       "PROME/inbox/processed/2026-11-12_from-WALTER_megacap-query-LAND-WITH-CHANGES.md": "886099f2c54ed910bc6131934c8def94ce221b8c1bda7a76907cf5120e566907",
       "PROME/plans/2026-11-11_united-fidelity-research-plan.md": "e4bbe4ba59ae0ffc8b43cf717c458a8be23d5415d3d5cad6e2ce87f098a8d50f",
@@ -13803,22 +14026,21 @@
       "PROME/reports/2026-11-12_red-closeout-check-read/LEDGER-read-2.md": "17bc793e06533c1ad7806edded9b5d1bfe8695629f8a2f4f4fe6d36ea5e4b08f",
       "PROME/reports/2026-11-12_red-closeout-check-read/reader_cases.py": "ecb0661aafbd14905e60d7570ce50f41274d9817a3019675594bec2fce585900",
       "PROME/reports/2026-11-12_red-closeout-check-read/reader_cases_read2.py": "e7328fbf9b67a3f0fcd159edab0df3b5b9be2dbe72fcc58bc7f2e6dc31d034b1",
-      "PROME/state/CALENDAR.md": "b926eb9642e63fccf14eacb68d895b097c32f70c34c9066a09b2776aaf882ef0",
+      "PROME/state/CALENDAR.md": "8d885c6bc1e4f8d9c9cce4164d306e4b93ab3d9278541eb549a2c50afc0b00e8",
       "PROME/state/ORCH_INFLIGHT.md": "19893be3e38188c8279f5ec4d842c555131e8ad39422fe5ab37544f37f8b2b55",
-      "PROME/state/ORCH_LOG.tsv": "1fe98ef99d058eed1244e785ac5176fa7193e804d58b919040dc8ea049f4f046",
-      "PROME/state/board_consumed.tsv": "504bb34f04b74c40ed68b27cec1f3031d9778a76f3157a848b708272144cb1a9",
-      "PROME/state/board_cursor.txt": "d1e4e519ea9e3f90575e31e1ca95d052214821a30a76a078e26415153216cbf0",
+      "PROME/state/ORCH_LOG.tsv": "8a638e135c3e5baf7b2a44ad6983c4d8b80a5fdb07b685015f659825bbfee47b",
+      "PROME/state/board_consumed.tsv": "7feeb7c7251f8a64efeb5d7e66346f15771676d2a2727848434b324afb4e127d",
+      "PROME/state/board_cursor.txt": "10ec6235b7a2bdc88928dbb41e42b0beba753ea828f99649b7dd9636cfd58375",
       "PROME/tools/forecast_report.py": "d5e378854cffd9e0e122565675721ef6a930a496dff9a50b53cecec2606c92a7",
       "PROME/tools/tests/ACCEPTANCE_table_check_manifest_classes_2026-11-11.md": "2ebc6a8307588eae3b0dd8f03ecd7fb7ca2f5bcebd2ff820cf7acc8de90d718d",
       "USER.md": "81610c100547d22eb1a80e912bf367ee3ebadaba14ca819a96b2d9ac4ca8fbb0",
       "docs/GIT_WORKTREE_PROCEDURES.md": "db95ffa73abf7f7724a35e628b40e863eaaa00f3fda8c7757398fa7c395b2cdf",
+      "memory/2026-11-11.md": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159",
+      "memory/2026-11-12.md": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9",
       "memory/auto/INDEX_COLD.md": "0fe7fb68d1a1310142dc4a0ad152e5159c72d931ae7467cacf28ff1a909091bd",
       "memory/auto/feedback_persistent_desk_windows_tap_not_relaunch.md": "e0498312fb2e24c2316ce60466f4f0943c26de268286e406ea0c7da0d5f04406",
       "memory/auto/feedback_will_sells_or_rolls_before_expiry.md": "7110789c429954ce80aafde46be763573ed56a08c0dfe3a58d7cd08dc9eb627a",
-      "memory/2026-11-12.md": "46152bb343b861782e56c708e88c626812fe867508cc93e293d87ec8016809e9",
-      "memory/2026-11-11.md": "5943a651fe557a5e4f112066eb6c55a7d1ec3017da3884b46d8cb57a752eb159",
-      "PROME/inbox/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": null,
-      "PROME/inbox/processed/2026-11-12_from-WALTER_combo-none-recurring-and-stale-REQ.md": "0c8c1f976a3dce22f25123265d2bd9e78c8216535514fd878d19959a6f48153b"
+      "memory/2026-11-13.md": "887013ec63f37593b53f433862bf1d09df25b5a972e95dded52131344288f7bc"
     }
   }
 }
