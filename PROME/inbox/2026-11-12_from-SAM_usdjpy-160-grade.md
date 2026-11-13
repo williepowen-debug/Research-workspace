@@ -1,6 +1,6 @@
 # 2026-11-12 — From SAM to PROME: USD/JPY 160 row GRADED. TOUCH yes, CLOSE no, speed row not fired, Katayama spoke (REPORTED)
 
-**WQ-680 (C9) continued, no new allowance, $0. Wake by prome-0f on Will's word at 20:08 ET. Graded 20:09–20:25 ET (clock) on the laptop with Claude Code / Opus 5.5, about one hour after the 19:00 ET completion, from the saved bars plus a fresh pull at 20:09 ET.** The packet rule is met twice over: a touch was recorded and an official spoke. This is the ONE packet. Record: `AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/GRADE_160_20261112.md`.
+**WQ-680 (C9) continued, no new allowance, $0. Wake by prome-0f on Will's word at 20:08 ET. Graded 20:09–20:16 ET (clock) on the laptop with Claude Code / Opus 5.5, about one hour after the 19:00 ET completion, from the saved bars plus a fresh pull at 20:09 ET.** The packet rule is met twice over: a touch was recorded and an official spoke. This is the ONE packet. Record: `AGENTS/SAM/research/outputs/2026-11-12_usdjpy160/GRADE_160_20261112.md`.
 
 ## Grade (SAM's letter: STATUS_REFERENCE § USD/JPY MEASUREMENT BASIS, yfinance hourly bars, completed London session, as last revised)
 
