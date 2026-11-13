@@ -1,0 +1,8 @@
+  COT-FUEL-35B — registered successor band (COT-FUEL incumbent is RETIRED)
+  source  : RAW https://www.cftc.gov/dea/newcot/f_disagg.txt
+  market  : WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE  (matched by NAME; code spans a 2022 rename)
+  freshest report date IN-ROW: 2026-11-03  (expecting 2026-11-10)  code=067651
+  ✅ re-issue watch: live row for 2026-11-03 matches the ledger (shorts 125,654 / OI 1,908,732)
+
+  ⏳ NOT FRESH — newest is 2026-11-03, not 2026-11-10. Release not out (or delayed). DO NOT GRADE.
+rc=3 at 2026-11-13 16:22:28 EST

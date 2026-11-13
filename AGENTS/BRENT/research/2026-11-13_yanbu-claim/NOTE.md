@@ -39,7 +39,7 @@ WALTER's card read 96.04 / +3.5%: that is the 16:15 ET vendor last, after the 14
 
 ## 4. Bypass-risk read (combo:yanbu-bypass)
 
-Moves in **weight, not in state**: fourth claim or attack on the bypass system in five days (11/9 confirmed hit near Madinah, small fire, operations unaffected; 11/11 Pumping Station 11 claim; 11/12 Pumping Station 7 and Yanbu claim), and on 11/12 the settle priced it. Still no confirmed loss of flow, no loading change, no Aramco word. Logged as a member on the theme row in `docket/CATALYSTS.tsv`; review date 11/19 unchanged. A move in state needs a qualifying halt report (BRT-32) or a Saudi statement that the line or a station is out.
+Moves in **weight, not in state**: third claim or hit on the bypass system in four days (11/9 confirmed hit near Madinah, limited fire, operations unaffected, attacker NOT ESTABLISHED per FALCON 98b4473ff7; 11/11 Pumping Station 11 claim; 11/12 Pumping Station 7 and Yanbu claim; both claims CLAIM ONLY per FALCON). *Corrected 11/13 ~12:50 EST: the 12:45 text said "fourth ... in five days", a miscount against its own list.*, and on 11/12 the settle priced it. Still no confirmed loss of flow, no loading change, no Aramco word. Logged as a member on the theme row in `docket/CATALYSTS.tsv`; review date 11/19 unchanged. A move in state needs a qualifying halt report (BRT-32) or a Saudi statement that the line or a station is out.
 
 ## 5. Tradeability
 
