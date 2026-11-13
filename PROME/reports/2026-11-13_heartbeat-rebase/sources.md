@@ -3,7 +3,9 @@
 Written 2026-11-13 by PROME prome-72. Each line is a file PROME read for this base. "Whole" means the packet body was read to its completion block; "figures" means the cited figures were matched in the packet by search and the rest came from PROME's own daily note of the day it was first read whole (`memory/2026-11-12.md`).
 
 ## Market levels
-- `dashboard.txt` in this directory: `FORGE/tools/market-data/dashboard.py`. ⟦PULL TIME AND fetch.py NAMES, filled after the 16:00 ET close⟧
+- `dashboard.txt` in this directory: `FORGE/tools/market-data/dashboard.py`. One pull, stamped 2026-11-13 16:17:03 ET at its head.
+- `fetch_prices.txt` in this directory: `FORGE/tools/market-data/fetch.py price` for ^GSPC, SPY, QQQ, SMH, RSP, NVDA, ^VIX, ^VIX3M, GLD, HYG, BZF27.NYM and JPY=X, 16:18 ET. Vendor quotes minutes after the close; the VIX figure there (19.36) differs from HENRY's 19.03 and the dashboard's 19.07, and FRED is unposted.
+- Treasury par yield curve CSV (home.treasury.gov), read by PROME 2026-11-13 16:20 ET: 11/13 2Y 4.88, 10Y 5.15, 30Y 5.47; 11/12 2Y 4.86, 10Y 5.10, 30Y 5.43. Not saved to a file; HENRY's `workbook/MARKET_DATA.tsv` row 11/13 carries the same 10Y.
 
 ## Owner returns, November 13 (PROME/inbox/processed/), whole
 - HENRY: `2026-11-13_from-HENRY_ppi-graded-post-print-gamma.md`; the 11/12 close 7,592.40 [FRED] at `AGENTS/HENRY/STATUS.md` line 80
@@ -16,7 +18,8 @@ Written 2026-11-13 by PROME prome-72. Each line is a file PROME read for this ba
 - CYPHER: `2026-11-13_from-CYPHER_due-rows-kiteworks-gmo-ncentral.md`
 - BOND: `2026-11-13_from-BOND_WQ682-encoded.md`
 - ISHM: `2026-11-13_from-ISHM_due-rows.md` (completion block only)
-- ⟦AFTER THE CLOSE: HENRY close read, TERRY part two, BRENT part two, VULCAN⟧
+- After the close, whole: HENRY `2026-11-13_from-HENRY_close-read.md`; TERRY `2026-11-13_from-TERRY_part-two-due-rows-L1132-L830.md` and `2026-11-13_from-TERRY_closeout.md` (its 16:12 ET re-read of the closes); VULCAN `2026-11-13_from-VULCAN_slot10-gpu10-softbank-cards.md`.
+- BRENT part two (positioning gate, COT vintage 14): ⟦BRENT⟧
 
 ## Owner returns, November 12, figures
 - BOND: `2026-11-12_from-BOND_30Y-graded-clean-refunding-closed-11-10-close-inbox-drained.md`, `_addendum-fr2004-11-4-and-vx17-same-date.md`
