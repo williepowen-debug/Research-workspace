@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-11-13T10:21:56-05:00 — prome-72 due-row wake: D:L1098 CRMT GRADED, a twelfth bridge to Mon 11/16 (KB-BRK-489) · D:L1058 CABO hearing NOT GRADED, no outcome, press says adjourned to 12/4 (KB-BRK-490/491) · WALTER 008/020/021 already consumed 11/12 · no score moved. Narrative → `catchups/2026-11-13.md`.
+**Updated:** 2026-11-13T10:24:57-05:00 — closeout on prome-72's ask: D:L1098 CRMT GRADED, a twelfth bridge to Mon 11/16 (KB-BRK-489) · D:L1058 CABO NOT GRADED, press says adjourned to 12/4 (KB-BRK-490/491) · no score moved. Narrative → `catchups/2026-11-13.md`.
 
 ---
 

@@ -1,4 +1,4 @@
-# BROCK SCRATCH — 2026-11-13 handoff (prome-72 due-row wake D:L1058 + D:L1098, desktop; HOLDING for PROME's closeout ask, not closed out)
+# BROCK SCRATCH — 2026-11-13 handoff (prome-72 due-row wake D:L1058 + D:L1098, desktop; CLOSED OUT 10:24 ET on PROME's ask; Mon 11/16 gets a fresh launch)
 
 Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-13.md`. New KB rows: KB-BRK-489 to 491.
 
