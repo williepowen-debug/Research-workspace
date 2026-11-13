@@ -3,7 +3,7 @@
 **Status:** 🟡 — Physical equipment buying well supported; factory upturn strong but slowing, durability unproved.
 **Domain:** US manufacturing cycle, domestic/imported equipment and freight; downstream owners retain thesis judgments.
 **Recent thesis pivot:** WQ-643 A, November 6 20:31 ET: R1 re-pointed to the November S&P final, December 1, date PRIMARY at the issuer calendar. November 6 close: October truck orders fell sharply (ACT preliminary 13,500, -45% y/y) on what both issuers call EPA 2027 uncertainty; factory payrolls +19K. Earlier the same day, the original S&P October final moved R1 toward-real from CANNOT-FIRE to NOT-MET. No flip fired, and no score, band, gate or threshold changed.
-**As of:** 2026-11-13 10:22 ET | STATUS commit: `94b2ff4bef0150c7d34bea72786ebe628223779c`
+**As of:** 2026-11-13 10:22 ET | STATUS commit: `3d8032dd68bc22ad16cdc1656fe6299dd82c8719`
 **November 13 due-row wake:** Cass October not published at 10:21 ET (re-dated November 16, nothing graded); J2 sample gained the matured July forward window, +47.9 bp, forward 28/33 at ≤25 bp; Deere Q4 call November 25 confirmed at the issuer. No score, band, gate or threshold changed.
 
 ## CROSS-DOMAIN
