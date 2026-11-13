@@ -180,11 +180,15 @@ CONTEXT: the weekly spine audit checks PROME's boot-read docs AGAINST ${REPO}/PR
 Return ONE files[] entry with file "PROME/DOCKET.tsv (anchor sample)". Verdict CLEAN only if zero blocking issues. Severity "blocking" = a date/state/owner a boot reader would act on wrongly when the row comes due; "minor" = pointer or wording drift. In the entry's "sample" property record N, STEP, R, and each sampled row's date + first ~40 chars of description, so the sample itself is auditable. Do not pad — an all-CLEAN sample is a valid and useful result. Your final action: return the structured output.`
 }
 
+// READER MODEL (2026-11-13): readers never inherit the session model. Will's standing rule
+// (WQ-447 A, 2026-10-15): Fable is PROME-only; multi-file auditors run on Opus.
+const READER_MODEL = 'opus'
+
 phase('Audit')
 const results = await parallel([
   ...GROUPS.map(pair => () =>
-    agent(prompt(pair), { label: 'spine:' + pair.map(p => p.split('/').pop()).join('+'), schema: SCHEMA })),
-  () => agent(anchorPrompt(), { label: 'anchor:DOCKET-tail', schema: SCHEMA }),
+    agent(prompt(pair), { label: 'spine:' + pair.map(p => p.split('/').pop()).join('+'), schema: SCHEMA, model: READER_MODEL })),
+  () => agent(anchorPrompt(), { label: 'anchor:DOCKET-tail', schema: SCHEMA, model: READER_MODEL }),
 ])
 
 const files = results.filter(Boolean).flatMap(r => r.files)
