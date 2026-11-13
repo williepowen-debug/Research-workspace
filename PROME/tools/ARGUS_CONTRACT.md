@@ -1,6 +1,6 @@
 # Explicit delivery contract (ARGUS schema 3)
 
-**Installed November 4, 2026 under Will’s separate cutover approval; L835 OPEN.** Source candidate `5a2edeec2c7414c612478d59e32883bb527cef40` passed independent acceptance. Operational review remains a separate requirement; installation receipt and migration/rollback: `PROME/reports/2026-11-04_L835-installation/REPORT.md` and `PROME/proposals/2026-11-04_L835-phase2-MIGRATION.md`.
+**Installed November 4, 2026 under Will’s separate cutover approval; DOCKET line 835 CLOSED 2026-11-11 (WQ-674 A).** Source candidate `5a2edeec2c7414c612478d59e32883bb527cef40` passed independent acceptance. Operational review remains a separate requirement; installation receipt and migration/rollback: `PROME/reports/2026-11-04_L835-installation/REPORT.md` and `PROME/proposals/2026-11-04_L835-phase2-MIGRATION.md`.
 
 Schema 3 binds `contract.policy = {language: "argus-path-v1", source_sha256, rules}` inside the reviewed contract hash. The top-level perimeter mirror must agree exactly. Freeze parses and hashes one byte read; verification uses only the pinned rules. Missing, malformed, unsupported and schema-1/schema-2/unversioned manifests return CANNOT-EVALUATE / rc 2; no legacy operational verifier or no-contract freeze remains. Historical approvals stay historical; re-freeze produces FROZEN and requires an actual authorized review.
 

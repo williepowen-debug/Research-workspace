@@ -13,7 +13,7 @@ This doc is the live coordination surface (vs the archived `AGENTS/PROME/` tree)
 ## Hard Rules
 
 - Run repo-state checks before sync or write work: `git status --short`, staged paths, and ahead/behind.
-- Never use broad index operations: no `git add .`, no `git add -A`, no `git reset HEAD`, no force-push, no broad checkout. **Never `git commit --amend`** (root Git Protocol 4b: amend rewrites whoever holds HEAD, which may not be you). Write EVERY message via quoted-heredoc `git commit -F <file>`, never inline `-m`; an inline `-m` in any recipe is subject-line shorthand.
+- Never use broad index operations: no `git add .`, no `git add -A`, no `git reset HEAD`, no force-push, no broad checkout. **Never `git commit --amend`** (`docs/GIT_WORKTREE_PROCEDURES.md` § Before committing, 4b: amend rewrites whoever holds HEAD, which may not be you). Write EVERY message via quoted-heredoc `git commit -F <file>`, never inline `-m`; an inline `-m` in any recipe is subject-line shorthand.
 - Dirty tree means inspect and triage. Do not stash, reset, or pull to make the dirt disappear.
 - Use explicit pathspecs for adds and commits.
 - Local scoped commits use explicit pathspecs; **push is automated at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; serial multi-machine predicate). **Auto-push exceptions (full list, root canon):** TERRY self-sweeps · WALTER architectural per `BOARD_CONSUMPTION_SPEC` §7 (see Push Discipline).
@@ -45,7 +45,7 @@ Someone else's work outside `PROME/` remains strictly off-limits. Root `CLAUDE.m
 
 **Session-end orphan check (root canon step 1b, adopted 2026-07-23):** before the closeout commit batch, run `bash scripts/orphan_check.sh PROME` — read-only advisory (~5s, exit 0 always). `[likely YOURS]` = packets PROME authored → commit under carve-out ①; `[not yours]` = **for files under `AGENTS/<other>/`**, someone else's work → flag, never sweep. ⚠️ **Exception the label cannot see: `memory/auto/` files.** `orphan_check` classifies by PATH, so every memory file reads `[not yours]` regardless of authorship — for memories PROME wrote, that label is NOT an authorship verdict and carve-out ③ makes committing them mandatory. Use `memory_index_check --strict --slug` as the authorship-scoped gate there.
 
-**Subject ≤100 chars, receipts in the body (root Git Protocol 4d, WQ-171, 2026-09-03); `commit_check.py` enforces it.** Commit commands: § Commit cookbook below.
+**Subject ≤100 chars, receipts in the body (`docs/GIT_WORKTREE_PROCEDURES.md` § Before committing, 4d; WQ-171, 2026-09-03); `commit_check.py` enforces it.** Commit commands: § Commit cookbook below.
 
 ## Commit cookbook
 
