@@ -3,6 +3,8 @@
 
 ## Latest evidence — observation dates retained
 
+**November 13 review (PROME-set review_by), 10:2x ET:** NOT MET, 1 of 3 (W3), window October 31→November 13. W2 as-of November 4 NOT MET: G10 −7,845, G5L10 +477, first read 10:19 ET 11/13 (predates November 5). W1 as-of November 10 not published at read time. No re-arm since October 22, so no write-up is owed whatever W1 prints. Current grade: STATUS§2; evidence `research/2026-11-13_076-review/REPORT.md` §1.
+
 **November 5, 16:19 ET:** W2 as-of October 28 NOT MET: G10 −9,739, G5L10 −379 (prior −1,861), as first published. The print predates the November 5 selloff and says nothing about it. W3 does not meet on November 5, VIX about 28.17 vendor 16:22 ET (card 057, Cboe history not yet posted) is not under 20. Window October 23→November 5: 1 of 3 (W3 witnesses October 26–29, November 4). Current grade: STATUS§2.
 
 **November 4 checkpoint:** current available-observation conjunction and pending November 5 inputs are in STATUS§2 and `research/2026-11-04_credit-followthrough/REPORT.md` §3. Old W2 aged out of the window; that is not evidence of improved capacity. No reset/new write-up. Actionable-life denominator remains CANNOT-CERTIFY, not a new firing prohibition. The October reads below retain their dates.

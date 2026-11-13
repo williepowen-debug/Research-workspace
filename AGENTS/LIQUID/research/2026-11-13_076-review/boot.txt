@@ -1,0 +1,52 @@
+
+####################################################################
+#               LIQUID BOOT — 3-dashboard live sweep               #
+#                 Friday, November 13, 2026  10:17                 #
+####################################################################
+
+  Dashboard 1 — Credit Spreads
+    🔴 HY OAS       320bps               HY >300 — approaching the 320 confirmation (0bp); X1 level leg TAGGED (letter: >280 SUSTAINED): X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)  (obs 2026-11-12)
+    🔴 CCC OAS      1314bps              CCC tail >1000 trip  (obs 2026-11-12)
+    🟢 CCC-BB gap   1131bps              pin INTACT — quality bifurcation wide (KB-LIQ-058)  [both 2026-11-12]  (obs 2026-11-12)
+    🟠 APO          $122.08 (+0.60%)     BROKE <$130 — alts-crack DEEPENING (PC→public transmission); recovery co-trigger moot, NOT all-clear  (obs 2026-11-13)
+
+  Dashboard 2 — Domestic Plumbing
+    🟠 10Y (DGS10)  4.98%                ABOVE 4.50 pivot  (obs 2026-11-10)
+    🟠 30Y (DGS30)  5.35%                ABOVE 5.00 — duration regime re-establishing (need ≥5 closes)  (obs 2026-11-10)
+    ⚪ 076 W3 MOVE/VIX 100.21 / 19.57       EDGE — within 1.00pt of a line: VIOLET's figure required, NOT graded off the witness (MOVE>85 while VIX<20) · yfinance WITNESS — VIOLET's figure governs  (obs 2026-11-13)
+    ⚪ GATE-LIQ-076 INDETERMINATE (1 met, 1 ungraded: W1) window 2026-10-31→2026-11-13 · W1 met — · W3 met 2026-11-04, 2026-11-12 · W2 not met · W3 EDGE (ungraded) 2026-11-03, 2026-11-09, 2026-11-10, 2026-11-13 · W1 ungraded 2026-11-10. MET ⇒ WRITE-UP (PROME + NEXUS/HENRY via WALTER), NEVER a position. Window read, not a latch: a 2nd write-up needs 10 business days with no leg met (letter 9/29)  (obs 2026-11-13)
+
+  Dashboard 3 — Foreign Official
+    🟢 USD/JPY      159.81 (-0.03%)      below 160  (obs 2026-11-13)
+
+  Catalyst Countdown (workbook/CATALYSTS.tsv, 60d horizon)
+    🟠  2026-11-13 Fri    0d cal /  0d trd  Q3 BDC 10-Q window — Q3 card graded FINAL 2026-11-  ⏰ IMMINENT
+    🟠  2026-11-13 Fri    0d cal /  0d trd  GATE-LIQ-076 review — W2 as-of November 4 about No  ⏰ IMMINENT
+    🟡  2026-11-18 Wed    5d cal /  3d trd  TIC release, 16:00 ET (September data)  ⏰ IMMINENT
+    🟠  2026-12-09 Wed   26d cal / 18d trd  December FOMC decision (December 8-9)
+    🟡  2026-12-15 Tue   32d cal / 22d trd  TIC release, 16:00 ET (October data)
+    🟡 ~2026-12-31 Thu   48d cal / 34d trd  Warsh Balance-Sheet Policy review outcome
+    MED  2026-12-31 Thu   48d cal / 34d trd  NAIC CLO RBC charges BITE (insurer capital treatme
+    🟡  2026-12-31 Thu   48d cal / 34d trd  Updated tentative Treasury buyback SCHEDULE releas
+    🟠  2026-12-31 Thu   48d cal / 34d trd  Year-end funding turn
+
+  Predictions Due-Scan (workbook/PREDICTIONS.tsv)
+    🟡 LIQ-04: due 2026-12-31 (48d) — US BSL new-issue CLO AAA monthly average exceeds SOF
+    🟡 LIQ-08: due 2026-12-31 (48d) — HY TAIL. FRED BAMLH0A0HYM2 first-published value, bp
+    🟡 LIQ-09: due 2026-12-31 (48d) — HY TIGHTER, CONTRARIAN CALL against this desk's own 
+    🟡 LIQ-10: due 2026-12-29 (46d) — FUNDING DOES NOT ARM. SOFR99 minus IORB, same-date, 
+    🟡 LIQ-11: due 2026-12-31 (48d) — YEAR-END BACKSTOP USE. NY Fed Standing Repo total ac
+
+  Unattended Watcher (AGENTS/LIQUID/alerts/HY_OAS_STATE)
+    🔴 HY OAS last red 330bps (obs 2026-11-11, checked 2026-11-12 13:00 )  ⚠️ ELEVATED — check alerts/HY_OAS_ALERTS.log
+
+  ==================================================================
+  BOOT SUMMARY   🔴 2   🟠 3   🟡 0   ⏰ 3 imminent   📋 0 overdue-pred   (30 series, 0 fetch errors, 22.4s)
+  Headline: HY OAS 320bps — HY >300 — approaching the 320 confirmation (0bp); X1 level leg TAGGED (letter: >280 SUSTAINED): X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)
+    🔴 HY OAS: HY >300 — approaching the 320 confirmation (0bp); X1 level leg TAGGED (letter: >280 SUSTAINED): X1 half ONLY, never 'X1 MET' (conjunctive with BROCK's wrapper-leads half; live state → KILL_MEMO header + §D; RED-FT-01 ≥280 is RED's count)
+    🔴 CCC OAS: CCC tail >1000 trip
+
+  ⚠️  Basis: FRED prints lag T+1 (latest may be 1-2 sessions back, more on a weekend);
+      yfinance = last close; Brent BZ=F ≠ ICE settle; USD/JPY ≠ 5pm-ET NY close.
+      Declare the basis when citing any figure downstream.
+
