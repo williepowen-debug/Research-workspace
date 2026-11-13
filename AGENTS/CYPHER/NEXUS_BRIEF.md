@@ -1,8 +1,8 @@
 # CYPHER — NEXUS Brief
 
-**Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), no named victim; rows 1, 3-9 NOT-FIRED at the 11/12 re-check. Off-wave, the managed-IT-provider route is busy: N-able N-central Able2Shell (33 alleged zero-days, hosted offline 11/09-11/11, fixed, scanning seen, no compromise stated, bypass claim under investigation 11/12); ConnectWise ScreenConnect add-on abuse under investigation; Storm-1175 lists five US banks and one Florida CU, two confirmed. Arkéa provider still unnamed.
+**Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), no named victim; rows 1, 3, 4, 7 NOT-FIRED at the 11/13 in-window re-check (5, 6, 8, 9 on 11/12). New 11/13: Check Point Research describes unnamed successful PHP2Shell compromises through its remote-access gateways and a wiper at some Israeli victims (CYB-INC-070). Off-wave: N-central moved from attempts to CONFIRMED compromise (21 live servers mining, 19 already patched; no bank named); GMO Internet assumes JPY 3.05B breach cost, forecast not revised. Arkéa provider still unnamed.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-12 09:08 EST (stamp corrected 11/12 from a hand-typed 09:30 to the brief commit time; PROME C6 wake, N-able card first; no score, band, gate or prediction moved; 052 Sawyer CONFIRMED by ledger enum) | STATUS commit: `bcdce0a71c570b6c132a191058acf64ef2906a4f`
+**As of:** 2026-11-13 10:28 EST (PROME due-row wake, session prome-72; no score, band, gate or prediction moved; 065 and 069 CONFIRMED by their own letters) | STATUS commit: `fb8fde89fdb60a6a6854dc1e51fdfebb8550f517`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -11,6 +11,9 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| REGINALD / PROME / TERRY | 11/13: N-central 4EverAble2Shell defeats the 11/10 fix where the Legacy API is on; Huntback counts 21 live servers running one operator's miner, 19 on the fix; N-able published matching IOCs 11/13 and is working with those customers (CYB-INC-065 → CONFIRMED). No FI named. Packet sent | P2 | MSP route into banks that outsource IT; supplier-route combination theme (KB-CYP-115) |
+| NEXUS / PROME / TERRY | 11/13: Check Point Research (11/12) describes unnamed successful PHP2Shell compromises via its gateways from 10/30, root via CVE-2026-123039, wiper at some Israeli victims (CYB-INC-070). Row 1 NOT-FIRED (no name) | P3 | Wave state for synthesis: third vendor describing customer compromise, first destructive outcome |
+| SAM / LIQUID / TERRY | 11/13: GMO Internet (4784) Q3: JPY 3.05B direct cost assumed for Q4 (FX-loss claims 2,943 accounts JPY 2,998M unvalidated; insurance cap JPY 1.1B undecided); ~32% of FY operating-profit forecast; forecast not revised. Packets sent | P2 | Japan trading-access and issuer-earnings consequence is SAM's |
 | REGINALD / GIBBS / PROME | 11/12: Sawyer Savings Bank (NY, ~$285M) CONFIRMED on the Vermont AG record (notice 10/09, SSNs, 16,069 people per Indiana via American Banker); its notice reportedly traces the breach to its managed IT provider. American Banker 11/11: Storm (Storm-1175, Microsoft-linked to the August N-central flaw) lists five US banks (~$6.1B assets) and Insight CU (Florida); two confirmed, four banks silent. Counts only. Packets sent (P1 by rule; the event dates from August) | P1 | Regional-bank consequence of a confirmed IT-provider route is REGINALD's; GIBBS context (none of the 16 named) |
 | NEXUS / PROME / REGINALD | 11/12: N-able N-central Able2Shell (CYB-INC-065, ATTEMPTS-ONLY at N-able's own records): hosted offline worldwide ~35h, HF2 (7 CVEs) 11/10, scanning confirmed, no customer compromise stated, a bypass claim under N-able investigation (non-default setting). ConnectWise ScreenConnect (066): reports of partner-environment access through third-party add-ons, ~400 environments disabled. No FI named in either; "no impact reported", not "no impact". Off-wave; no watch row; one look 11/19 | P2 | Supplier-route combination theme (KB-CYP-098, members 7-9); CYP-03 resolves only on an in-window bank/CU notice naming such a route |
 | REGINALD / LIQUID / GIBBS / HANS / PROME | Crédit Mutuel Arkéa (CYB-INC-059, 11/04): attackers came through an unnamed provider's platform and paid other banks from the bank's own account, about EUR 100M provisional. No second bank, rail statement or supervisory alert found; shared reach UNKNOWN, not systemic on this evidence. LIQUID 11/06: no effect on its surfaces, which cannot see a European rail; not a clearance (KB-CYP-103). HANS 11/06: one-bank earnings event, conditional on shared reach (KB-CYP-104). **11/08 re-check:** provider still unnamed (bank press list, BleepingComputer 11/07), no second institution, no CERT-FR banking alert, ACPR list ends 10/22, no US or Abrigo link; no HANS trigger met, no packets (KB-CYP-107) | P1 | New class: theft of a bank's own funds through a vendor (FL-CYP-21). Whether one vendor can do it to several banks is FL-CYP-22, UNTESTED |
@@ -62,7 +65,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** R1 flip test: rows 1, 3 and 4, each needing a named organisation; re-checks dated 11/13–11/20. Arkéa checked 11/08 (nothing moved); weekly look 11/16 (P2).
+- **What:** R1 flip test: rows 1, 3 and 4, each needing a named organisation; in-window re-checks done 11/13 (all NOT-FIRED), more to 11/20. Arkéa checked 11/08 (nothing moved); weekly look 11/16 (P2).
 - **When:** 2026-11-20 (P1); 2026-11-16 (P2) for Arkéa.
 - **What would falsify the trigger:** no named organisation by 11/20, with in-window re-checks, moves R1 to MECHANICAL (Log4Shell shape).
 
@@ -70,11 +73,10 @@
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 2026-11-13 | GMO results briefing; Kiteworks second look | A cost figure; a named Kiteworks route |
 | 2026-11-16 | Arkéa weekly look (checked 11/08, nothing moved) | Provider named; a second institution; a rail statement |
-| 2026-11-19 (weekly) | Wave 7-day clock; cluster watch (Will 10/29); Abrigo; ConnectWise; Able2Shell/MSP one look incl. Insight CU notice (CYP-03) | Count limb already MET 11/05; a multi-institution outage of 1+ business day; a regional 8-K or late 10-Q citing Finzly or Abrigo -> REGINALD |
-| 2026-11-15 | TruStage data-access window | Primary scope and cost |
+| 2026-11-19 (weekly) | Wave 7-day clock; cluster watch (Will 10/29); Abrigo; ConnectWise; TruStage (11/15 window read early 11/13, no answer); Able2Shell/MSP one look incl. Insight CU notice (CYP-03) | Count limb already MET 11/05; a multi-institution outage of 1+ business day; a regional 8-K or late 10-Q citing Finzly or Abrigo -> REGINALD |
 | 2026-11-18 | Row 9 equity persistence; collapse leg ruled (WQ-635 A) | PANW at or below $289.24 AND 10.0 points behind HACK on 2 consecutive closes; HENRY grades after 16:15 ET |
-| 2026-11-20 | R1 flip test | Named organisation vs in-window quiet |
+| 2026-11-20 | R1 flip test (Kiteworks leg rides it) | Named organisation vs in-window quiet |
+| 2026-12-01 | GMO compensation totals after the 11/30 window | Forecast or dividend revision; validated total; insurance decision |
 
 Evidence: `research/2026-10-29_wave-recheck/RECORD.md`. Boot instrument fixed 10/29 (legs 5, 7, 8, 9; drills 33/33): `research/2026-10-29_wave-recheck/BOOT_LEG9_CALIBRATION.md`. Bank cyber / vendor-risk thread: `banking/THREAD_2026-10-29.md`.
