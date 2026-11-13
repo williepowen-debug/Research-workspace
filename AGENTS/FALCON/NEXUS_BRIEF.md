@@ -1,14 +1,16 @@
 # FALCON — NEXUS Brief
 
-**Status:** 🔴 B 1 / C 14 / D 85 HELD (11/11 weekly review, on date; no letter met through about 13:45Z 11/11); losses 7; FAL-08..12 OPEN to 12/31, FAL-09 0 of 5. GATE-FALCON-001 LIVE, leg 2 NOT MET (94.9% vs ≤65%), next review 11/18. Petroline hit 11/9 and kept flowing: rung not fired. Trump holding off strikes, hulls hit 11/10: no halt started.
+**Status:** 🔴 B 1 / C 14 / D 85 HELD (re-read 11/13 against the 11/11 and 11/12 Houthi claims on the East-West line and Yanbu: CLAIM ONLY, no letter met; weekly review 11/11 on date); losses 7; FAL-08..12 OPEN to 12/31, FAL-09 0 of 5. GATE-FALCON-001 LIVE, leg 2 NOT MET (94.9% vs ≤65%), next review 11/18. Only the 11/9 Petroline attack is confirmed; it kept flowing and has no established attacker.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); v3.1 November 6 moves the live test to FAL-08, a STATED loss; no new pivot.
-**As of:** 2026-11-11 08:47 ET | STATUS commit: `aecb93dcf7` | Evidence cutoff about 13:45Z 11/11; centcom.mil, UKMTO (403) unreachable; SPA, Reuters direct, CTP 11/10 unread; CNBC, Anadolu, Arab News, IMO, TankerMap, PortWatch reachable
+**As of:** 2026-11-13 12:5x ET | STATUS commit: `619c5f75ff` | Evidence cutoff about 17:45Z 11/13; SPA unreadable (JavaScript shell), Aramco and MoE sites time out, USNI 403, Reuters direct 403 (read via relays); New Arab, JPost, House of Saud, Maritime Executive, TWZ, The National, Al Jazeera, PortWatch reachable
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
+| BRENT / HAWK / TERRY / RED / WALTER / PROME | **Houthi claims on the Saudi bypass route, graded 11/13: CLAIM ONLY.** 11/11 'Pumping Station No. 11' Yanbu area; 11/12 Pumping Station No. 7 + 'Yanbu oil facility' + Aramco Riyadh (claimant gave no date). Coalition reports intercepts; no Energy Ministry, SPA or Aramco statement to 17:45Z 11/13. Only 11/9 Madinah is confirmed (state, operations unaffected, attacker not established). Rung cannot fire on pumping stations, terminals or refineries. ⚠️ No Yanbu loadings reader here. What would confirm damage: MoE/SPA/Aramco statement of an operational effect, Aramco buyer notices or crude force majeure, a named refinery or berth outage, a dark-fleet-capable loadings read (BRENT), a stated production shut-in (FAL-08 b). KB-476..482 | 🟠 | Report reports/2026-11-13_wq538-saudi-bypass-claims-grade.md; TERRY packet |
+| HAWK / WALTER | Lahij push toward the Bab camps CLAIM ONLY (one map; government claims gains 11/4, 11/7); territorial, GATE-FALCON-001 override NOT TRIGGERED. USS Theodore Roosevelt third carrier NOT ESTABLISHED: Changi 11/5, join vs relieve George Washington unresolved (KB-479) | 🟡 | NEXUS brief |
 | BRENT / HAWK / RED / WALTER / PROME | **East-West pipeline HIT, Madinah region, 11/9, state-confirmed** (Energy Ministry source): small fire out, no casualties, **operations not affected**. Attacker not named; Houthis deny Madinah and claim Riyadh-area pumping stations, Abqaiq, King Khalid airport (CLAIM-ONLY). Coalition intercepted missiles toward Riyadh 11/10; Aramco Tower damage on several floors | P0 | **D 85→92 NOT FIRED: a pipeline is a route, OUT of class.** Indicator #2 already fired 9/11. FAL-08 not engaged (no stated loss). Attribution NOT ESTABLISHED. ⚠️ SPA text unread. Petroline R1 is BRENT's. KB-463..465 |
 | HAWK / RED / PROME / ORACLE / BRENT | Qatar PM met Trump 11/9: Trump holds off new strikes after Gulf appeals, keeps the blockade; "fairly soon", "quite unlikely", "docked and loaded". Araghchi 11/10: US must accept the two-day proposal; Rezaei: "imaginary talks". CBS: new Qatari draft to Iran (one official) | P0 | **FAL-10 and ladder item 5 NOT MET** (no written text); Diplomacy 3. FAL-09 0 of 5. A one-sided pause starts no D→C clock. KB-470/471 |
 | BRENT / SAM / HAWK / RED / WALTER | Hulls 11/10: UKMTO tanker hit by unidentified projectile about 19 NM NE of Limah 13:38Z, crew safe; **ADNOC L&S says its own vessel was damaged in an attack in UAE territorial waters** (operator); UKMTO late: a further tanker incident, details unknown. Iranian mine claims 11/10–11/11. IMO 133 / 25 as at 10 Nov: 199-26 is **NAVIG8 MACALLISTER** (the NAVIG8 MESSI OSINT ID below was wrong) | P1 | All unnamed, possible duplicates; no loss: census 7. Projectile, not mine: FAL-12 untouched. KB-466..469 |
@@ -70,16 +72,16 @@ FAL-07 CONFIRMED at 65%, on a limited strike, not the campaign my posture eviden
 
 ## NEXT DECISION POINT
 
-- November 11: weekly scenario + GATE-FALCON-001 review; combination themes review.
+- November 18: weekly scenario + GATE-FALCON-001 review; combination themes review.
 - December 31: FAL-08..12 resolve.
 
 ## FORWARD CATALYSTS
 
 | Date | Event | Evidence needed |
 |---|---|---|
-|2026-11-11| Scenario + GATE-FALCON-001 review | Current TankerMap bars, enforcement events |
+|2026-11-18| Scenario + GATE-FALCON-001 review | Current TankerMap bars, enforcement events |
 |2026-12-31| FAL-08..11 resolve | Dated searches late ET; IMO table read |
 
 ## WATCH
 
-Dated text and US answer; verified production-class hostile hit; RITI status; Sinokor detentions; further US strikes; IRGC-claimed mine hits (no hull named); UKMTO originals. Covered this session: Iraq via CTP 11/2–11/3; cyber by scoped search only.
+Dated text and US answer; Saudi or Aramco statement on Pumping Station No. 7 / No. 11 or Yanbu; verified production-class hostile hit; RITI status; Sinokor detentions; further US strikes; IRGC-claimed mine hits (no hull named); UKMTO originals. Covered this session: Iraq via CTP 11/2–11/3; cyber by scoped search only.
