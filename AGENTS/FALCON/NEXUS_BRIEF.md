@@ -3,7 +3,7 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD (re-read 11/13 against the 11/11 and 11/12 Houthi claims on the East-West line and Yanbu: CLAIM ONLY, no letter met; weekly review 11/11 on date); losses 7; FAL-08..12 OPEN to 12/31, FAL-09 0 of 5. GATE-FALCON-001 LIVE, leg 2 NOT MET (94.9% vs ≤65%), next review 11/18. Only the 11/9 Petroline attack is confirmed; it kept flowing and has no established attacker.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); v3.1 November 6 moves the live test to FAL-08, a STATED loss; no new pivot.
-**As of:** 2026-11-13 12:5x ET | STATUS commit: `619c5f75ff` | Evidence cutoff about 17:45Z 11/13; SPA unreadable (JavaScript shell), Aramco and MoE sites time out, USNI 403, Reuters direct 403 (read via relays); New Arab, JPost, House of Saud, Maritime Executive, TWZ, The National, Al Jazeera, PortWatch reachable
+**As of:** 2026-11-13 12:49 ET | STATUS commit: `bc12910e46` | Evidence cutoff about 17:45Z 11/13; SPA unreadable (JavaScript shell), Aramco and MoE sites time out, USNI 403, Reuters direct 403 (read via relays); New Arab, JPost, House of Saud, Maritime Executive, TWZ, The National, Al Jazeera, PortWatch reachable
 
 ## CROSS-DOMAIN
 
