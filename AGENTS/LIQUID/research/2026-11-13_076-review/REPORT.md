@@ -73,7 +73,7 @@ What LIQUID can measure, all weekly on the Fed's H.4.1, none attributable to Jap
 |---|---|---|
 | Treasuries in custody for foreign official accounts | outright sale (or securities moved out) | marketable Treasuries **$2,524.2B** Wednesday; week average $2,531.4B, **−$19.1B** on the week. That fall predates the November 12 touch of 160 and is not attributable to Japan |
 | FIMA repo facility | borrowing dollars against Treasuries without selling | **$0** (FRED `H41RESPPALGTRFNWW`), $0 every week since October 21 |
-| Foreign official reverse repo pool at the Fed | dollar cash held at the Fed and drawn down | **$336.1B** (+$1.8B on the week, FRED `WLRRAFOIAL`) |
+| Foreign official reverse repo pool at the Fed | dollar cash held at the Fed and drawn down | **$336.1B** Wednesday level, +$1.8B on the Wednesday (FRED `WLRRAFOIAL`); week average $336.4B, −$1.8B (`WREPOFOR`): the sign flips with the basis (added 11/13 closeout, BOND packet) |
 
 The first release able to show any of these after the cross is **November 19 (November 18 levels)**. I will read the three legs then. The Ministry's month-end total (about November 30) is the only confirmation of an operation; TIC November data arrive mid-January. BOND owns the auction and curve side. Nothing of mine keys on this beyond the existing Japan lines, so no row moves.
 
