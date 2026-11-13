@@ -2,7 +2,13 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-12T09:08:38-05:00, closed 2026-11-12T16:12:28-05:00 (PROME prome-e8, WQ-184 due-row class C6, D:L1124, desktop, Claude Code / Opus 5.5)
+### CURRENT SESSION — 2026-11-13T10:16 ET, closed 2026-11-13T10:28:06-05:00 (PROME prome-72, G:GATE-LIQ-076 due-row wake, WQ-184 / WQ-667 B, desktop, Claude Code / Opus 5.5)
+
+- **Context:** grade 076 at its review date; verify the 11/12 HY/CCC cells; DTCC 11/12 file; SAM's Japan funding line; drain inbox.
+- **Delivered:** 076 NOT MET 1 of 3 (W2 as-of 11/4 G10 −7,845, G5L10 +477; W3 met; W1 as-of 11/10 unpublished); no re-arm since 10/22, so no write-up possible; PROME set review_by 11/20. **HY 320.0 [11/12, first-published] RESET the WQ-444 >320 run** after 8 observations; re-kill 0 of 2 (60 above); tier rule STALLS (CCC +3, BB −17; CCC−BB 1,131). DTCC 11/12: CoreWeave 5Y ~1,065 (−90), Oracle 5Y ~295 (flat); 069 L2 not fired. Japan funding OPEN; H.4.1 11/11 baseline (custody $2,524.2B, FIMA $0, foreign RRP $336.1B). Six WALTER cards drained; reset routed via WALTER and to TERRY; packet to PROME consumed. → `research/2026-11-13_076-review/REPORT.md`.
+- **Open:** W1 as-of 11/10; H.4.1 11/19 read; 11/10 ICE cell; DAEDALUS WQ-678 B trims (charter, deferred).
+
+### PRIOR SESSION — 2026-11-12T09:08:38-05:00, closed 2026-11-12T16:12:28-05:00 (PROME prome-e8, WQ-184 due-row class C6, D:L1124, desktop, Claude Code / Opus 5.5)
 
 - **Context:** grade LIQUID rows on the HY cell; 079; 076 if ready; drain inbox. Research only; nothing moved.
 - **Found:** FRED's ICE family carries a row dated 11/11 (HY 330, CCC 1,330, BB 193) and none dated 11/10; every tier moved, so not a carry; first missing session row since 2023-11. Likely ICE's 11/10 valuation under the holiday date (HY yield +11 bp fits the 11/10 Treasury sell-off); not established.
@@ -11,7 +17,7 @@
 - **Held window (PROME's word) to 13:15 ET:** first CDS after CoreWeave's results. CoreWeave 4Y about 1,047 bp (one $3M trade 10:46 ET, 15.00 points on 500; −50 bp against 11/10 same tenor). Oracle 2Y 175 / 3Y 222 disseminated (flat to +10 against an interpolated pre-results curve), 10Y about 342 converted. No 5-year trade on either through slice 462. Lesson: DTCC `UFRO` cash = quoted points less accrued since the IMM roll date; when it lands on a round number the quote and the payer side are recovered. 30-year auction BTC 2.36, indirect 68.11% (lines not crossed). FRED: no 11/10 cell at 13:13 ET. WALTER 004 consumed as already ruled. DAEDALUS WQ-678 B trims deferred (peer packet ≠ Will's word for an instruction-file edit). No row, count or gate moved all day.
 - **Open:** DTCC 11/12 cumulative file and the 11/10 cell (STATUS §3, Friday); 076 W2/W1 (Friday, PROME review).
 
-### PRIOR SESSION — 2026-11-11 (PROME prome-2b, WQ-184 and Will's 09:24 ET word, Veterans Day, desktop, Claude Code / Opus 5.5)
+### EARLIER SESSION — 2026-11-11 (PROME prome-2b, WQ-184 and Will's 09:24 ET word, Veterans Day, desktop, Claude Code / Opus 5.5)
 
 - **Context:** four items in order: 11/10 HY cell, D:L1110 SoftBank Tokyo credit, WALTER 007 Skydance, CoreWeave against Oracle; then the inbox. Research only; nothing moved.
 - **HY cell PENDING:** not on FRED by 10:53 ET though FRED itself updated (VIXCLS, T10Y2Y 11/10); the whole ICE family stops at 11/9. Told prome-2b at 10:06 and 10:53; TERRY and HENRY released from waiting. Poll to 17:00 ET; else Thursday about 10:10 ET. Veterans Day handling matches 398a946b9a.
@@ -81,4 +87,4 @@
 
 ### NEXT SESSION
 
-**STATUS §3 is the list.** Friday November 13 (PROME launches for GATE-LIQ-076): 076 W2 as-of November 4 and W1 as-of November 10; then the DTCC November 12 cumulative file for any 5-year CoreWeave or Oracle print after the results; the November 10 ICE cell if FRED posts it. The 11/11-dated ICE row is NOT a carry (every tier moved) but is still never counted (D:L342 is calendar-keyed); re-dating it is Will's call. 069 L4 is UNGRADEABLE for the 11/11 and 11/12 sessions. DAEDALUS WQ-678 optional trims wait in `inbox/` (STATUS §3). Then the State Street Oracle bond point and the DTCC probe repair. Sessions from October 29 and earlier, with the prior NEXT SESSION text → `archive/MEMORY_before-2026-11-05-closeout.md` (verbatim copy).
+**STATUS §3 is the list.** Next: CFTC W1 as-of 11/10 for 076 (cannot move the consequence; review_by 11/20, W2 as-of 11/11 about 11/19); H.4.1 on 11/19 (custody, FIMA repo, foreign RRP against the 11/11 baseline); the 11/10 ICE cell if FRED posts it (cannot undo the 11/12 >320 reset). The >320 run is 0 of 3 from 11/12. DAEDALUS WQ-678 optional trims wait in `inbox/` (charter edits; an ordinary wake). Then the State Street Oracle bond point and the DTCC probe repair. Earlier NEXT SESSION text → `git log -p -- AGENTS/LIQUID/MEMORY.md`.
