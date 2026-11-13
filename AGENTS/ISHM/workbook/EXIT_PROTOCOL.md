@@ -41,7 +41,7 @@ LIQUID and RED own spread/funding and recession judgments. Instruments: Cass shi
 
 Current Cass September +1.9% y/y, AAR week ending October 17 carloads +3.5% / intermodal +12.6% y/y, ACT September final net orders −7% y/y. Mixed equipment demand, recovering carried volumes; no broad freight-collapse finding.
 
-Base rate completed on the available sample, with scope restriction: **26/30** negative-freight months had trailing-three-month HY monthly-mean widening ≤25bp; **28/32** had forward-three-month widening ≤25bp. Strict non-widening alternatives **18/30** and **19/32**. Complete joint monthly sample November 2023–September 2026, chiefly one freight episode; endpoint overlap, publication lags and excluded GFC/COVID prohibit an independent-cycle recession probability. sources/ snapshots, BASE_RATES.json and J2_monthly_sample.csv reproduce counts.
+Base rate completed on the available sample, with scope restriction: **26/30** negative-freight months had trailing-three-month HY monthly-mean widening ≤25bp; **28/33** had forward-three-month widening ≤25bp (28/32 at October 26, superseded November 13 when the July 2026 window matured at +47.9bp). Strict non-widening alternatives **18/30** and **19/33**. Complete joint monthly sample November 2023–September 2026, chiefly one freight episode; endpoint overlap, publication lags and excluded GFC/COVID prohibit an independent-cycle recession probability. sources/ snapshots, BASE_RATES.json and J2_monthly_sample.csv reproduce counts.
 
 **FROM recovering volumes:** the proposed deterioration test is negative Cass y/y for two consecutive monthly releases, alongside a negative four-week AAR volume comparison. Exact weekly band/base rate remains owed; this is not registered. A measured downturn routes a volume-warning packet, not a credit-event assertion. LIQUID must separately document financing transmission; RED decides probability consequence. Positive Cass and rail do not clear unrelated offshore/private funding channels. Review wider existing spread history with owners November 13; no new collector authorized.
 
@@ -85,3 +85,7 @@ J1: Census history reproduces the quarter pairing on one vintage (Q3 vs Q2 +28.6
 ## November 6 close refresh — J2 annotation, rails unchanged
 
 October Class 8 preliminary: ACT 13,500, -45% y/y; FTR 15,600, -36% y/y, both tying it to EPA 2027 uncertainty, with FTR calling the earlier pre-buy complete. Class 8 is a qualified input, not a leg of the proposed deterioration test, so no condition fires and rail deterioration stays NOT-MET. Cass November 13 is the next leg. No credit or probability verdict; LIQUID and RED hold those. Detail: research/2026-11-06_close-refresh/NOTE.md (desk-root relative).
+
+## November 13 due-row wake — J2 annotation, rails unchanged
+
+Cass October was not published at 10:21 ET November 13 (report page 404), so no J2 leg was graded; recheck November 16. One matured window added to the base-rate sample: July 2026 (Cass −4.84% y/y) forward three-month HY widening +47.9bp, July 2.743% to October 3.222% monthly mean. Counts above updated; Cass had turned positive in August and September before the widening, so it is not read as freight-led. No band, threshold or credit verdict. Detail: research/2026-11-13_due-rows/REPORT.md (desk-root relative).
