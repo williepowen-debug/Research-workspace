@@ -105,3 +105,59 @@ Sources: BLS public API v1 (series above, pulled 10:17 ET); home.treasury.gov pa
 | 10Y par back under 5.0 | 10Y par holding over 5.10 (11/12 par) |
 
 **Cannot see:** today's open interest (chain carries 11/12's); NDX not run; no spot-grid below 680 for QQQ or a re-grid below 7,500 for the S&P on today's open interest; the gamma $B are a free-tier proxy (sign and flip robust, magnitude assumption-dependent); Nvidia's result itself.
+
+**13:00 and 14:30 ET checkpoints:** S&P 7,535.58 and 7,556.70; day low 7,499.40 never re-broken. QQQ $676.63 at 13:00, $679.77 at 14:30 (under 680 both times). No trigger; no message.
+
+## 7. Close read, 11/13 (asked by PROME 16:01 ET; data pulled 16:16–16:17 ET)
+
+**The S&P closed back above 7,500 but still under its flip; QQQ closed $0.11 under its 680 put wall. Rates did not ease: 10Y par 5.15%, 15bp over my 5.0 red line, a second straight par close over it. No registered row or score moves.**
+
+### Close tape
+
+| Item | Close 11/13 | Change | Basis |
+|---|---:|---:|---|
+| S&P 500 | **7,561.67** | −0.40% (11/12 7,592.40) | vendor ^GSPC 16:16 ET, yfinance daily bar agrees; FRED SP500 11/13 not posted |
+| S&P day range | low **7,499.40** (~10:22 ET), high 7,621.78 (09:30–09:35 ET) | close 62 pts over 7,500, 68 under the flip | yfinance daily and 1-minute bars |
+| QQQ | **$679.89** | −1.20% | vendor 16:16 ET; day low $671.71, high $688.75 (yfinance) |
+| SPY / RSP (equal weight) / IWM | $754.21 / $221.16 / $277.54 | −0.38% / **+0.20%** / −0.32% | vendor 16:16 ET |
+| SMH / NVDA | $486.75 / **$162.85** | **−2.99%** / −2.01% | vendor 16:16 ET |
+| KRE | $72.74 | +0.30% | vendor 16:16 ET |
+| VIX / VIX3M | **19.03** / 20.51 | +1.8% / +2.2% | yfinance daily bars at 16:16 ET (vendor 19.02 / 20.50), one minute after the 16:15 index close; FRED VIXCLS 11/13 not posted |
+| VIX3M / VIX | **1.078, contango** | 11/12: 20.06 / 18.70 = 1.073 | own arithmetic on the row above |
+| 10Y Treasury par | **5.15%** | +5bp (11/12 5.10) | home.treasury.gov par CSV, 11/13 first published, read 16:17 ET; 2Y 4.88, 20Y 5.52, 30Y 5.47 |
+| USD/JPY | 159.75 | −0.07% | vendor 16:16 ET, live, not a close |
+
+**Breadth and leadership:** the selling was concentrated in chips and the Nasdaq-100; the average stock rose. SMH −2.99% and QQQ −1.20% against equal-weight RSP +0.20%. The S&P recovered 62 points off the 10:22 ET low (+0.83%), and QQQ recovered $8.18 (+1.22%) off its low, but neither got back to the flip. Intraday (10:20 ET) the gap was wider: SMH −4.73%, QQQ −2.01%, RSP −0.52%.
+
+### Gamma maps at the close (not published; chain asof 11/13 = 11/12 open interest)
+
+| Chain | Spot | Flip 14d / 35d | Net gamma 14d / 35d ($B per 1%) | Put wall | Call wall |
+|---|---|---|---|---|---|
+| SPX (16:16 ET) | 7,561.67 | **7,630 / 7,630** | **NEGATIVE −30.9 / −40.8**, 68 pts (0.9%) under the flip | **⛔ WITHHELD:** 14d 7,500 clean (+17%) vs 35d 7,000 near-tie (band 7,000–7,600) | 7,700 at both horizons (14d clean +12%; 35d near-tie, band 7,700–8,000): **passes the guard** |
+| QQQ (16:17 ET) | 679.89 | **692 / 691** | **NEGATIVE −1.6 / −2.1** | **680 at both (clean, +56% / +50%)** | **700 at both (clean, +29% / +42%)** |
+
+**What changed since 10:19 ET (S&P):** the flip moved 1–3 points; negative gamma at both horizons is 29–33% smaller (−43.7 → −30.9, −60.6 → −40.8) because spot is 51 points higher on the same profile. **The S&P call wall now passes the guard at 7,700** (at 10:19 the 14d call side was a 7,600 near-tie against a 35d 7,000). The put side is still withheld, now because the 35d put side resolved to a 7,000–7,600 band, not because it equaled the call wall. Last published S&P put wall: 7,500 [11/12].
+
+**QQQ:** the 12:06 ET map is superseded by the 16:17 ET re-run, which says the same thing: walls 680 / 700 clean at both horizons, flip 691–692, negative gamma. QQQ closed **$0.11 under** its put wall, so it did not reclaim 680. One of the rebound signs I gave PROME at 12:06 (QQQ back over 680 and holding) is **not met**, by a margin smaller than the vendor spread.
+
+**Not published, and why:** PROME's wake rules this session are "no new level, band or threshold." Publishing the S&P 7,700 call wall or the QQQ 680 / 700 walls would put new levels in `PUBLISHED.tsv`, where consumers pick them up. They pass my guard; publishing is mine to do at a normal wake and is offered. The 10:19 ET S&P flip and net-gamma rows remain the last published.
+
+### Registered rows and scores on today's close
+
+| Row | Today | Moves? |
+|---|---|---|
+| HEN-60, S&P close under its own 200-session average by 11/30 | close 7,561.67 vs 200-session average **7,340.32** (own calc, yfinance closes through 11/13), 221 over | No (OPEN) |
+| HEN-61, record close over 7,818.93 by 12/31 | 7,561.67, 3.29% under | No (OPEN) |
+| HEN-63, December FOMC hike | not a close-driven row | No (OPEN) |
+| SPX yellow / orange / red (7,200 / 7,100 / 7,037.04) | 7,561.67; −3.29% from the 7,818.93 peak | NOT FIRED |
+| VIX >23 / >28 / >30 | 19.03 | NOT FIRED (VIOLET owns the broadcast) |
+| VIX kill leg <17 | 19.03 | NOT FIRED |
+| KRE <$65 / <$62 / <$60 | $72.74 | NOT FIRED |
+| 10Y >4.5 / >4.8 / >5.0 | **5.15% par 11/13** | **RED, already crossed on 11/12 (5.10)**; no sustain clause, so the second close over is a fact, not a new fire |
+| HY OAS >320 | 11/13 not posted (FRED publishes Mon 11/16) | unknown today; 11/12 was 320, at the line |
+| Put wall tested / broken (signal row) | printed 7,499.40 at ~10:22 ET (signal routed to WALTER 10:2x ET); closed 7,561.67 | already signalled; no new signal |
+| USD/JPY velocity ±2% / day | −0.07% | NOT FIRED (SAM owns the call) |
+
+**Base case into Nvidia results (Tue 11/17), unchanged from 12:06 ET:** no direction call. Both maps are in negative gamma, so dealers amplify the next move either way; the downside skew holds while QQQ is under 680 and the 10Y is over 5.10. **Toward rebound:** QQQ back over 680 and holding; S&P through 7,630 or QQQ through 691–692; 10Y par under 5.0. **Toward a further leg down:** S&P close under 7,500; QQQ under 680 into Tuesday with chips leading; 10Y par holding over 5.10.
+
+**Cannot see:** today's open interest (Cboe's chain carries 11/12's; 11/13's arrives with Monday's chain); NDX not run; no spot-grid re-run below 7,500 or 680 on today's open interest; gamma $B are a free-tier proxy (sign and flip robust, magnitude assumption-dependent); VIX and S&P closes are vendor until FRED posts; HY and CCC 11/13 until FRED posts Monday; Nvidia's result.
