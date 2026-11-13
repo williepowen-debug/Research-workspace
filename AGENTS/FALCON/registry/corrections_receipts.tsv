@@ -20,3 +20,6 @@ receipt_date	correction_id	action	note
 2026-11-08T17:07Z	COR-20261107-02	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-441; validation_ref=AGENTS/FALCON/reports/2026-11-07_wq646-read1.md#2; 
 2026-11-08T17:07Z	COR-20261108-02	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-449; validation_ref=AGENTS/FALCON/reports/2026-11-08_wq646-read2.md#4; 
 2026-11-09T15:56Z	COR-20261109-09	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-454; validation_ref=AGENTS/FALCON/reports/2026-11-09_catchup-read.md#corrections-to-relays; 
+2026-11-13T17:45Z	COR-20261111-13	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-481; validation_ref=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-474; 
+2026-11-13T17:45Z	COR-20261111-06	NO-OP	scope=KB-FALCON-446 and KB-FALCON-475 already read Eastern Province intercept with Abqaiq alert lifted, no FALCON surface carries Abqaiq missile intercepted; 
+2026-11-13T17:45Z	COR-20261112-03	NO-OP	scope=Nvidia CEO timing is outside FALCON domain, no FALCON surface cites card 20261112-002; 
