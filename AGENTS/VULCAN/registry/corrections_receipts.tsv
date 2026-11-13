@@ -29,3 +29,4 @@ receipt_date	correction_id	action	note
 2026-11-11T13:39Z	COR-20261110-12	NO-OP	scope=kill string 'including Pike County, Ohio' absent from AGENTS/VULCAN, and KB-VULCAN-419 already records the SB7 booking, the deck's 'completely unrelated to PORTS-Pike' and the 457.0B plus 140.2B yen split from SoftBank's own documents (d4b5e4684c); 
 2026-11-12T13:58Z	COR-20261111-24	APPLIED	artifact=AGENTS/VULCAN/board_log.tsv#SIG-W-20261111-024; validation_ref=NONE; 
 2026-11-12T13:58Z	COR-20261111-14	NO-OP	scope=VULCAN never cited card 004's SEC FY2026 figure, its 11/11 board_log row for card 004 names only SoftBank and Google; 
+2026-11-13T21:07Z	COR-20261112-03	NO-OP	scope=VULCAN KB-430 never carried card 002 chronology (06:00 ET Yahoo or 08:35 ET Reuters) and no VULCAN record repeats it; 

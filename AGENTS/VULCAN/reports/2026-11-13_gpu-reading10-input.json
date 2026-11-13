@@ -1,0 +1,11 @@
+{
+  "tier_a": [
+    {"vendor": "CoreWeave", "tier": "on_demand", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "spot", "price": 6.155, "vintage": "2026-11-13", "url": "https://www.coreweave.com/pricing", "num_gpus": 8, "divisor": 8, "node_price": 49.24, "_note": "HGX H100 node On-Demand $49.24/hr -> /8, re-read at slot 16:03 ET 11/13 (curl, page sha256 e242f99e)."},
+    {"vendor": "Nebius", "tier": "on_demand", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "spot", "price": 4.50, "vintage": "2026-11-13", "url": "https://nebius.com/prices", "_note": "HGX H100 on-demand $4.50, re-read at slot 16:03 ET 11/13 (page sha256 e4c0a01c)."},
+    {"vendor": "Crusoe", "tier": "on_demand", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "spot", "price": 3.90, "vintage": "2026-11-13", "url": "https://crusoe.ai/cloud/pricing/", "_note": "Column 'Current on-demand' H100 80GB HGX $3.90, re-read at slot 16:03 ET 11/13 (page sha256 66c5d03c). Same table: new on-demand $4.50 starting Dec 1, 2026, not used. Managed-inference table ($5.50 now, $6.30 Dec 1) is a different product, not used."}
+  ],
+  "tier_d": [
+    {"vendor": "SDH100RT", "tier": "index", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "term_normalized", "price": 3.10, "segment": "neo-cloud", "vintage": "2026-11-13", "url": "https://www.silicondata.com/products/silicon-index/h100", "_note": "Header 'As of Nov 13, 2026 3.10, 10.3% (7D)'; dated table agrees (Nov 6 2.99, Nov 12 3.06, Nov 13 3.10). Re-read 16:03 ET 11/13 (page sha256 e75ebf3f)."},
+    {"vendor": "OCPI-H100", "tier": "index", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "term_normalized", "price": 3.39, "segment": "all", "vintage": "2026-11-12", "url": "https://data.ornn.com/preview", "_note": "Settled November 12, 2026 $3.39, +4.31% day, +6.27% 1M; 13 Nov settle not yet posted at the slot. Re-read 16:03 ET 11/13 (page sha256 bc07775e)."}
+  ]
+}

@@ -48,12 +48,11 @@ Count the AI-demand root ONCE: a capex disappointment can drive S1, S3 and S5 to
    **Content-bound reconciliation:** after covered writes, run `python3 tools/closeout_check.py --reconciliation-key` from this desk (same `--base` as the final check). In the top SCRATCH block record three lines: `RECONCILE <key> STATUS UNCHANGED: <reason>`, likewise `THESIS` and `EXIT`; `UPDATED` means this work required an analytical change, now incorporated; `UNCHANGED` means reviewed against this work with no further change needed. Earlier edits that day do not determine the label. Explain the disposition; the checker still requires an UPDATED file to differ from the chosen base. Review source caveats, material corrections/consumer propagation and unresolved obligations before choosing UNCHANGED. A prior STATUS edit is insufficient: later covered content changes invalidate the key. The key covers changed tracked/untracked, non-ignored desk files and deletions, excluding only SCRATCH and NEXUS_BRIEF. Substantive findings must have a covered record, never only those two continuity outputs. Hashes establish scope, not semantic correctness.
 4b. **Self-check THIS file** if the session changed a channel scope, threshold, instrument, routing owner, boot/closeout step, cadence or catalyst date — or Will RULED on how a rule reads: ① THRESHOLDS match STATUS's bands? ② FILES table names every tool/ledger that exists? ③ any date/figure here since corrected?
 5. **`NEXUS_BRIEF.md` = the LAST write before the commit.** Header `Status:` · `Domain:` · `As of: <date from \`date\`> | STATUS commit: <hash>` — the hash MUST equal `STATUS.md`'s HEAD (re-pin after any later STATUS commit). FULL variant; order `CROSS-DOMAIN → VIEW → CALIBRATION → NEXT DECISION POINT → WATCH`; **no `Thesis version:` line**; the 100-line ceiling is not enforced (position is). Schema questions → NEXUS.
-6. **Git** (root § Git Protocol) — path-scoped commits; root 1b orphan · 1c consumers (checker greps the old composite; packet each OWNER) · 1c-bis ledger nudge · 1d memory (if written) · 1e claim check; then `scripts/safe-push.sh` and quote the `CONFIRMED` receipt — **or**, if a coordinator offers its push train, write `push delegated to PROME <time>` in SCRATCH; the next boot (leg 10) verifies it landed. Spawned by a coordinator ⇒ do NOT push.
+6. **Git** (root § Git Protocol) — path-scoped commits; root 1b orphan · 1c consumers (checker greps the old composite; packet each OWNER) · 1c-bis ledger nudge · 1d memory (if written) · 1e claim check; then `scripts/safe-push.sh` and quote the `CONFIRMED` receipt — **or**, if a coordinator retains push custody, write `push delegated to PROME <time>` in SCRATCH; the next boot (leg 10) verifies it landed.
 7. **Delivery:** write and commit the dated PROME delivery memo under COMPLETION_SPEC (optional sender copy in outbox). Discover/notify through a verified runtime channel when available; record unavailable discovery/notification and unverified consumption honestly. Do not infer fleet presence from thread-local tools; no raw socket workaround. A spawned session delivers before idling.
 
 **Record rules (checked):** a `FIXED`/`DONE` claim carries the commit sha that did it (a sha cannot exist before the fix) · a "pre-stated / pre-registered before the outcome" claim carries `first public: <time | none found after search>` — the claim is about the WORLD, not my knowledge [L-43] · stamps come from `date`, never typed.
 
-> **Boot↔Closeout symmetry:** what you read at boot (SCRATCH, STATUS, **PREDICTIONS — SCANNED by boot leg 2, not read whole**), you reconcile at closeout, writing only necessary changes and recording unchanged dispositions at step 4; `THESIS.md` and this file are closed by steps 2b and 4b. When a file rots, ask which loop it was missing from.
 ---
 
 ## DOMAIN SCOPE
@@ -69,7 +68,7 @@ Count the AI-demand root ONCE: a capex disappointment can drive S1, S3 and S5 to
 - **China macro / capital flows** → **ZHAO**; **geopolitical / military (Taiwan kinetic)** → **HAWK**. You own the *semiconductor* consequence of their events.
 - **Private-credit / AI-infra debt** → **BROCK** (you flag the exposure; BROCK owns the credit).
 
-**Boundary rule:** signal in another agent's domain → write to `outbox/` as a task packet. Don't deep-dive it. On any shared metric, VULCAN is canonical for the semi/AI-capex mechanism; neighbors reference.
+**Boundary rule:** signal in another agent's domain → write a packet to the owner's `inbox/` (committed under root carve-out ①). Don't deep-dive it. On any shared metric, VULCAN is canonical for the semi/AI-capex mechanism; neighbors reference.
 
 ---
 
@@ -130,7 +129,7 @@ Durable banded rules here; the live read lives in STATUS with `[src M/D]` + as-o
 
 **2026-10-20 scoped WQ-441 disposition:** Will chose and retained **B for Volta** (verbatim record: `outbox/2026-10-20_wq441-B-ruling-score-proposal.md`, 2bb3f6474). Final SOFR+650 vs earlier +500 = +150bp ⇒ second S5 event. Preserve the original formal-launch A test as NOT RED and label B as selected after pricing. **No general future-deal baseline change, original forecast HIT, score 5 or capital approval is implied.** S5's score and the WQ-464 decision state live in STATUS; verify the canonical queue before applying any ruling.
 
-*Preserve each registered Boolean: S1 fires on the concentration/breadth AND conjunction OR a capex cut. Do not add a concentration requirement to the capex-cut branch. KILL_MEMO for any cascade trigger.*
+*Preserve each registered Boolean: S1 fires on the concentration/breadth AND conjunction OR a capex cut. Do not add a concentration requirement to the capex-cut branch. Kill conditions: `workbook/EXIT_PROTOCOL.md`.*
 
 ---
 
@@ -168,7 +167,6 @@ Route to the **domain owner**, not the transmission-adjacent agent. Outbox = cri
 
 - **Mechanism-vs-thermometer (MARCO):** the AI-capex-concentration *mechanism* is high-confidence; any single earnings print's stock reaction is a confounded *thermometer*. The thesis survives a noisy quarter.
 - **EXPECTED_SIGNALS (MARCO):** if the concentration-fragility thesis holds, capex decel + memory roll + breadth divergence should co-appear — their absence is data.
-- **Boot↔Closeout symmetry:** reconcile what you read; update changed records and record reasoned unchanged dispositions at closeout.
 
 ---
 
