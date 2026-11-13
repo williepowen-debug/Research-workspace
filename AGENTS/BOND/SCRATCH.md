@@ -1,55 +1,39 @@
-# BOND SCRATCH — 2026-11-13 10:2x ET, PROME prome-72 due-row wake (D:L226), desktop; NOT a closeout (hold until PROME asks)
+# BOND SCRATCH — 2026-11-13 standard closeout (desktop, PROME prome-72 due-row wake D:L226, WQ-184 / WQ-667 B); closeout 10:3x ET on PROME's ask
 
-> 11/13 DELTA on top of the 11/12 closeout below. Composite 17/35 unchanged; no score, band or threshold moved.
-
-- **L226 serviced as a DRAFT for Will, not encoded:** `analysis/2026-11-13_L226-fhlb-retune/READ.md`, KB-BND-575, VX-BND-18 notes. Named 8/23 instrument (system unused borrowing capacity) is NOT in the CFR. Draft option A: issuer-stated all-borrower collateralization ratio ≤3.0 at a quarter-end, OR >$900B (2 of 30 quarters, both stress; latest 3.7 [6/30/2026]). B strike the clause; C leave. My 8/23 deferral premise was wrong (no Q3 dependency).
-- **Q3 CFR not posted** at 10:18 or 10:27 ET (`cdn.fhlb-of.com/files/2026/2026Q3CFR.pdf` 403; index through Q2). VX-BND-18 Q3 re-score still owed; REG-T-06 leg 3 is REGINALD's.
-- **Japan funding (SAM correction):** H.4.1 baselines 11/11, custody $2,524.189B (−$48.658B in 3 weeks), foreign repo pool $336.357B (KB-BND-576); split proposed to LIQUID (`AGENTS/LIQUID/inbox/2026-11-13_from-BOND_japan-intervention-funding-split.md`). First read 11/19.
-- ICE 11/12: HY 320 / CCC 1314 / IG 89; T5YIFR 2.17 (KB-BND-577). FR2004 vintage drift fixed in THESIS and DEALER_CAPACITY; boot_recompute rc 1 → 0. docket_check rc=0, verified through 11/19. Inbox empty at boot (all lanes).
-- **Still owed:** freeze 20Y and 10Y TIPS bars by 11/17; VX-BND-20 11/11 review (not serviced again today); Q3 CFR re-score when posted.
-
----
-
-# BOND SCRATCH — 2026-11-12 standard closeout (desktop, PROME prome-e8 wake, WQ-184 C6); closeout 16:2x ET on PROME's ask (Will 16:11 ET)
-
-> STATE AT WRITING (16:2x ET): Composite **17/35** (5+3+2+3+1+1+2, unchanged). **Clean-nominal counter 1** (0 → 1 on the 11/12 registered clean 30Y); auction health 3. Outside composite: **VX-BND-17 = 1** (2 → 1 at 201bp same-date, PROME class C10). **OPEN predictions 4 (BND-34 to 37), earliest resolution 12/17.** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.86/5.10/5.43 [11/12]; real 10Y 2.86 [11/12]; 5Y5Y 2.15 [11/10]; Bund 3.29 [11/6]; HY/CCC/IG 330/1330/90 [FRED-dated 11/11]; SOFR−IORB +2 [11/5]; FR2004 long-end $150.760B [as-of 11/4]; PMMS 7.11 [11/12]; ACM 0.6503 [11/10]. THESIS v1.2.13, token unchanged.
+> STATE AT WRITING (10:3x ET 11/13): Composite **17/35** (5+3+2+3+1+1+2, unchanged). **Clean-nominal counter 1**; auction health 3. Outside composite unchanged: VX-BND-15=2, 16=4, 17=1, **18=2** (thresholds unchanged; retune draft with Will as WQ-682), 19=3, **20=2** (held on the 11/13 review). **OPEN predictions 4 (BND-34 to 37), earliest resolution 12/17.** Position **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.86/5.10/5.43 [11/12]; real 10Y 2.86 [11/12]; 5Y5Y 2.17 [11/12]; HY/CCC/IG 320/1314/89 [FRED-dated 11/12]; FR2004 long-end $150.760B [as-of 11/4]; PMMS 7.11 [11/12]; FHLB all-borrower collateralization 3.7 [6/30/2026]; H.4.1 Wednesday levels 11/11: custody $2,524.189B, foreign repo pool $336.101B (+$1.823B). THESIS v1.2.13, token unchanged.
 
 ## WHAT I DID
 
-PROME prome-e8 due-row wake (WQ-184 C6, not a new word from Will). Limits: quiet mode, no trade construction, no gate/band/score/threshold change without Will (PROME later clarified: a score by its own existing letter is class C10).
+PROME prome-72 due-row wake (D:L226), task words PROME's. Limits: no level set or encoded, no trade, no Will-gated surface.
 
-- **Boot:** root CLAUDE.md, AGENTS.md, USER.md, COMPLETION_SPEC, local CLAUDE.md read explicitly (no local AGENTS.md). `AGENTS/BOND/.venv` absent; repo-root `.venv` used. docket_check rc=2 (TreasuryDirect timeout) then rc=0 (verified through 11/19). boot_recompute rc=1: T5YIFR distance 31 → 35bp (fixed); VX-BND-17 watcher GAP (no FRED DGS10 11/10).
-- **30Y `912810UY2` REGISTERED grade 13:05 ET (first run rc=2 timeout):** indirect 68.11 / direct 20.50 / dealer 11.39, BTC 2.36, high 5.441. I′ 63.89 NO (+4.22pp); OLD NO; cover NO. CLEAN. Counter 0 → 1; health held 3. BND-33 30Y leg recorded, not regraded: TRUE stands (2 of 3 legs). KB-BND-569; `analysis/2026-11-12_30y/`.
-- **Yen attribution (SAM + PROME packets read first):** result ordinary; indirect not country-identified; cannot show Japan buying, selling or absent; first evidence H.4.1 custody 11/19, MOF month-end ~11/30. KB-BND-571.
-- **Treasury 11/10 close** KB-BND-570 (curve cells superseded) → **11/12 close** KB-BND-573: 2Y 4.86, 10Y 5.10, 30Y 5.43 (+13/+12/+8 vs 11/10); real 10Y 2.86; 30Y ≥5.00 run 90 (106 of 217); real 10Y ≥2.50 run 44.
-- **VX-BND-17 2 → 1:** PMMS 7.11 − 10Y 5.10 [both 11/12] = 201bp, applied under PROME class C10 (cross-session). Mixed-date 213bp held at 2 earlier, superseded.
-- **FR2004 as-of 11/4** KB-BND-574: long end $150.760B (+3.814); 11–21Y 71.419, highest since 7/8. VX-BND-04 held 2 (one build after two falls).
-- **Inbox:** PROME yen packet, SAM correction, WQ-671 ruling (ORACLE owns December pricing, KB-BND-572), DAEDALUS WQ-678 (A14 applied to CLAUDE.md; M52–M65 deferred, not declined) → processed. WALTER 11/11-011, -015, 11/12-005, -007 (tail declined), -008 (matches KB-BND-573) → processed, board_log rows.
+- **Boot:** root CLAUDE.md, AGENTS.md, USER.md, COMPLETION_SPEC, BOND CLAUDE.md read explicitly (no BOND AGENTS.md). Claude Code `claude-opus-5-5`. `git pull` not run (tree dirty with PROME files; fetch showed nothing new). docket_check rc=0 (verified through 11/19, blind span 11/20–12/4); corrections rc=0; boot_recompute rc=1 → 0 after the FR2004 vintage fix in THESIS, DEALER_CAPACITY, CATALYSTS (T5YIFR distance fixed in STATUS). Inbox empty, every lane.
+- **L226 retune → DRAFT for Will (WQ-682), not encoded:** `analysis/2026-11-13_L226-fhlb-retune/READ.md`, KB-BND-575. The 8/23 candidate (system unused borrowing capacity) is not in the CFR. 30 CFRs (2019Q1–2026Q2): all-borrower collateralization ratio ≤3.0 in 2 of 30 quarters (3/31/2020 3.0, 3/31/2023 2.8), latest 3.7. Option A (≤3.0 OR >$900B) recommended; B strike; C leave. Four caveats travel (n=2; lags ~6 weeks; aggregate can't see one bank; gross collateral). Large-borrower sub-series breaks at 12/31/2023 (1.9). My 8/23 premise corrected twice.
+- **Q3 CFR not posted** at 10:18 or 10:27 ET; re-score waits for a fresh launch (PROME).
+- **Japan funding (SAM correction, with LIQUID):** H.4.1 baselines KB-BND-576; split proposal packet to LIQUID (committed f2437ff524 — PROME relayed LIQUID saying it was uncommitted; it is tracked and on origin). **LIQUID agreed (reply 11/13) and corrected my basis: `WREPOFOR` is the WEEK AVERAGE ($336.357B, −$1.848B); the Wednesday level `WLRRAFOIAL` is $336.101B, +$1.823B — the sign flips. KB-BND-576 corrected in place; FIMA repo $0 since 10/21 is LIQUID's third route.** Reply → processed.
+- **VX-BND-20 review owed 11/11 → serviced 11/13 on PROME's ask:** one bounded pass on its own rule; NBIM's September letter still a proposal, no Ministry ruling, no second holder; absence unproven (regjeringen.no 403); score 2 held (KB-BND-578). Next 11/25.
+- ICE 11/12 HY 320, CCC 1314, IG 89 (KB-BND-577). KB-BND-537 → STALE, 543 and 544 → SUPERSEDED (past Stale_By).
 
 ## NOT MOVED
 
-No gate, band or threshold. Composite 17. Token unchanged. VX-BND-04 held 2. ⚠️ VX-BND-01 Threshold_Red text (8/27) vs the 9/15 practice: carried, not re-ruled.
-
-## UNPUBLISHED OR UNREAD
-
-FRED DGS10/T5YIFR/T10YIE/ACM 11/12 rows · ICE 11/12 (FRED ~11/13) · SOFR/EFFR 11/6 onward · Bund after 11/6 · KW after 11/6.
+No score, gate, band or threshold. Composite 17. Token unchanged. VX-BND-18 thresholds unchanged until Will rules WQ-682; BOND encodes at the wake after his word.
 
 ## NEXT SESSION (dated)
 
 1. **By 11/17: freeze bars** for the 20Y new issue (11/18, $16B) and 10Y TIPS reopening (11/19, $19B): `grade_auction.py --cusip <X>` pre-print, write `registry/auction_bars/`.
-2. **VX-BND-20 11/11 review: NOT serviced** (owed; do it at next boot).
-3. 11/13 FHLB CFR (L226), FRBNY FX report, ICE 11/12; 11/17 F2 op 20–30Y; 11/19 H.4.1 custody (first yen-related evidence), freeze month-end bars; FR2004 as-of 11/18 is the first to show the refunding settlement (11/16).
-4. Before 12/2: register any 12/9 curve-shape row with a base rate. R1, R5 and the shared-HEAD digest defect still with Will / CATO-DAEDALUS.
-5. Check BND-34 and BND-37 for early TRUE at each read. 12/17 BND-36 (now $6.040B short); 12/31 BND-34, 35, 37.
-6. Quiet session: WQ-678 Changelist B trims M52–M65; `monitors/rates_context.py` still labels HENRY as December owner (ORACLE per WQ-671; code with selftest, left for a quiet session).
+2. **On Will's WQ-682 ruling:** encode the chosen VX-BND-18 red leg (VX.tsv, CLAUDE.md thresholds table if any, STATUS); A means the Q3 stated ratio is its first evaluation.
+3. **Q3 CFR (fresh launch when posted):** VX-BND-18 Q3 re-score; path `cdn.fhlb-of.com/files/2026/2026Q3CFR.pdf`; REG-T-06 leg 3 is REGINALD's.
+4. 11/17 F2 op 20–30Y; **11/19 H.4.1** (11/18 levels) custody vs foreign repo pool, cite ZHAO/LIQUID reads; freeze month-end bars; FR2004 as-of 11/18 first to show the refunding settlement.
+5. 11/25 VX-BND-20 bounded review. Before 12/2: register any 12/9 curve-shape row with a base rate.
+6. Check BND-34 (HY 352) and BND-37 (PMMS 6.97) for early TRUE at each read. 12/17 BND-36; 12/31 BND-34, 35, 37.
+7. Quiet session: WQ-678 Changelist B trims M52–M65; `rates_context.py` HENRY→ORACLE label; closeout_run self-scan should exclude `registry/closeout_runs/`.
 
 ## OPEN THREADS
 
-Whether two refunding I′ fires (3Y, 10Y) should move auction health is Will's if he wants it. L226 FHLB retune waits on 11/13. True CDX, pulled-deal census, private funding unchanged. WQ291 funding window UNGRADED. BLS 403 here.
+WQ-682 (VX-BND-18 red leg) with Will. Whether two refunding I′ fires should move auction health is Will's if he wants it. True CDX, pulled-deal census, private funding unchanged. WQ291 funding window UNGRADED. H.4.1 split agreed with LIQUID (LIQUID: repo pool + FIMA; BOND: custody).
 
 ## CLOSEOUT STEPS (standard)
 
-C1 STATUS done (top line, frontiers, dashboard curves/real/spreads/PMMS/FR2004, gates, matrix row 1, outside-composite line, falsifier, catalysts, bottom line) · C2 KB 569–574 (568 SUPERSEDED; 570 curve cells superseded by 573, credit cells current; 497 STALE); VX-BND-01, -04, -17; FLOW no-op · C3 no row DUE; BND-33 30Y leg noted, not regraded · C4 no-op, token unchanged (VX-BND-17 is outside the token) · C5 30Y, BND-33, FR2004 rows marked; STATUS twin updated · C6 TRADE no-op, no gate or position change · C7 this file · C8 RECEIPT rewritten; board_log 5 rows · C9 no new lesson · C11 NEXUS_BRIEF re-pinned last. · C12 root 1c: consumer scan RAN with `--superseded 213bp 201bp` (16:23 ET runs): cross 🔴 = HOMER's own mixed-date 10Y-FRM spread (packeted, `AGENTS/HOMER/inbox/2026-11-12_from-BOND_10Y-FRM-spread-same-date-201bp.md`) and HENRY STATUS:46 (BB OAS, different series, no packet); self 🔴 KB-BND-570 fixed in place (marker beside 201bp). ⚠️ RUNNER DEFECT, carried: on any second same-day run the `--self` scan reads the runner's own `registry/closeout_runs/<date>.transcript.md`, which quotes the old figure, so it can never clear; the passing run is therefore WITHOUT `--superseded` (consumer step NOT-APPLICABLE on that row), stated here, not hidden. Fix = exclude `registry/closeout_runs/` from the self scan (quiet session).
+C1 STATUS done (header, frontiers, credit, 5Y5Y, gates T5YIFR, catalysts twin, bottom line) · C2 KB 575–578, 537 STALE, 543/544 SUPERSEDED; VX-BND-18 and -20 notes/state, no threshold or score; FLOW no-op · C3 no row DUE, no-op · C4 no-op, token unchanged (THESIS body FR2004 vintage only, not thesis-level, no version bump) · C5 L226 FHLB row and VX-BND-20 row (re-dated 11/25) updated; STATUS twin matches · C6 TRADE no-op, no gate or position change · C7 this file · C8 RECEIPT rewritten; board_log no-op (no WALTER signals) · C9 one BOND-local lesson to MEMORY (deferral checks) · C11 NEXUS_BRIEF re-pinned last · C12 runner below.
 
 ## POSITION
 
@@ -57,4 +41,4 @@ FLAT on this thesis. BOND executes nothing; no expiry reminders.
 
 ## MAIL / DELIVERY
 
-Sent: `PROME/inbox/2026-11-12_from-BOND_30Y-graded-clean-refunding-closed-11-10-close-inbox-drained.md` (753a23b0dd) and `..._addendum-fr2004-11-4-and-vx17-same-date.md` (9bdd57186c), both consumed by PROME. SendMessage doorbells to prome-e8; replies to walter-42.
+Sent: `PROME/inbox/2026-11-13_from-BOND_L226-fhlb-retune-draft-for-will.md` (f2437ff524), consumed by PROME as WQ-682; `AGENTS/LIQUID/inbox/2026-11-13_from-BOND_japan-intervention-funding-split.md` (same commit). SendMessage notices to prome-72. No TERRY packet: nothing tradeable (stated in the PROME packet).
