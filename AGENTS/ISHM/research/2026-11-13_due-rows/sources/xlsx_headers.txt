@@ -1,0 +1,32 @@
+HTTP/2 200 
+date: Fri, 13 Nov 2026 15:17:55 GMT
+content-type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+content-length: 123327
+cf-ray: a59ebf000ae6cc25-MIA
+cf-cache-status: HIT
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 153467
+cache-control: s-maxage=2592000, max-age=1209600, stale-while-revalidate=900
+etag: "ffde3908f2012a45c6395b295af1dbd3"
+last-modified: Mon, 12 Oct 2026 20:39:21 GMT
+server: cloudflare
+strict-transport-security: max-age=3628800
+vary: accept-encoding
+via: 1.1 7e7c0e091d51e41eb443c86daaab753c.cloudfront.net (CloudFront)
+access-control-allow-methods: GET
+edge-cache-tag: F-66226755120,P-4727104,FLS-ALL
+timing-allow-origin: d8fk70yj6xfhx.cloudfront.net
+x-amz-cf-id: 6CiAIzt3GFFF_UuDFcR-zajewClExZ2jZGplcf5-9PoTD037DlUIfQ==
+x-amz-cf-pop: MCI50-P1
+x-cache: Miss from cloudfront
+x-hs-alternate-content-type: text/plain
+x-robots-tag: all
+cache-tag: F-66226755120,P-4727104,FLS-ALL
+x-hs-cfworker-meta: {"resolver":"HubFsResolver"}
+x-hs-portal-id: 4727104
+set-cookie: __cf_bm=n75qbo1fZBZNyFuMXUKsfx7jWnYp_RuvxfJuvL_1tgM-1794583075.8494213-1.0.1.1-y1y1KvaeW4S8tjT31IK33_dCM4Sf7w1_47yDyeoGrc8nvh1dMn_wnVobghBeY11FmSrBCs6IchO90FbTGwQZyKK9S6b63fmyOUw4AlnqOeIx_IMVZkgBc.wKJQlXWXOz; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=www.cassinfo.com; Expires=Fri, 13 Nov 2026 15:47:55 GMT
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yN8yQpyaI8s60V7Pc4%2Ffo1mdp6r2gp9ogdnG%2Bv6hlb%2Ff6hXrbMwJ32hZaQueEwqm26fOwI9mtovXopguY%2BGz3Ke8Hk7%2FCXsarqsOdPHJwPq%2FZgFmJFNgDnq5oa7GmxUd5JE%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+
