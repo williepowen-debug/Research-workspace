@@ -15,7 +15,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 
 ## NEXT SESSION (dated, future-verifiable)
 1. November 18: weekly + GATE-FALCON-001 review (DOCKET L1112); combo themes; DAEDALUS items 6, 7, 8, 10–13.
-2. **Apply DAEDALUS WQ-678 Changelist A (A1 line 135 non-ff wording, A13 drop "profit-taking alert") at the next ordinary wake** — deferred 11/13 because PROME's commission put charters out of scope. Packet still in inbox/. Decide each Changelist B trim then.
+2. **Apply DAEDALUS WQ-678 Changelist A (A1 line 135 non-ff wording, A13 drop "profit-taking alert") at the next ordinary wake** — RULED (verified 11/13 at `PROME/proposals/2026-11-12_wq678-RULED.md`, desk lines A1, A2, A8–A15). Deferred 11/13: commission fenced charters; PROME lifted the fence by cross-session message, and a peer message is not a basis for editing my own CLAUDE.md. Packet still in inbox/. Decide each Changelist B trim then.
 3. Watch for any Saudi or Aramco statement on Pumping Station No. 7 / No. 11 or Yanbu (KB-482 observable list). Name the 11/10 hulls; Petroline attribution; Abqaiq counting source.
 4. December 31 late ET: dated searches FAL-08, 09, 10, 12; FAL-11 and FAL-12 IMO table read.
 5. Band proposal (11/04 report §6) awaits PROME. Thesis-kill #2 "88/day" instrument wording drafted at the 11/18 weekly for PROME.

@@ -100,7 +100,7 @@
 
 ## 5. TIME-BASED REVIEW (the reader of every date below = closeout step 11, which compares each date to today)
 
-- **Scenario review every 7 days.** Last full review: **2026-11-04, on date, HELD B 1 / C 14 / D 85** (`reports/2026-11-04_weekly-review-gate001-fal07.md`). **Next due 2026-11-11.**
+- **Scenario review every 7 days.** Last full review: **2026-11-11, on date, HELD B 1 / C 14 / D 85** (`reports/2026-11-11_weekly-review-gate001-card008.md`); re-read 2026-11-13 on the WQ-538 commission, HELD (`reports/2026-11-13_wq538-saudi-bypass-claims-grade.md`). **Next due 2026-11-18.** *(State cell re-stamped 2026-11-13 at closeout step 11; it still read 11/04 and 'next due 11/11'.)*
 - **Rewrite trigger (DATED):** FAL-08 resolving (by **2026-12-31**) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework · a third class-(iii) hull loss · or **2026-12-31**, whichever is first. *(Discharged 2026-11-06: the prior trigger fired on 11/05 on the dated limb and on FAL-06 resolving; this v4 is the rewrite. Prior checks are in the v3 archive. Census 7, class (iii) 2. **Reader:** closeout step 11 compares these dates to today.)*
 - **Cap discipline:** this file is a boot-adjacent reference; keep it under the read cap by moving resolved detail to `archive/`. Do not amend it in place past the cap (the v2 failure).
 

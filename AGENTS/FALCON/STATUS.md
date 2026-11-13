@@ -1,6 +1,6 @@
 # FALCON STATUS
 
-**Updated:** 2026-11-13 12:46 ET, WQ-538 commission (PROME prome-72): WALTER cards 026, 032, 009 graded; evidence cutoff about 17:45Z 11/13. Report [11/13 commission](reports/2026-11-13_wq538-saudi-bypass-claims-grade.md). Runtime Claude Code, Opus 5.5, desktop. Prior: 11/11 about 08:45 ET, weekly + gate review ([report](reports/2026-11-11_weekly-review-gate001-card008.md)); 11/09 about 11:00 ET, catch-up ([report](reports/2026-11-09_catchup-read.md)); 11/08 read 2; 11/07 read 1; 11/06 FAL-06 and EXIT v4. Weekly + gate review 11/04 ([report](reports/2026-11-04_weekly-review-gate001-fal07.md)).
+**Updated:** 2026-11-13 12:49 ET (closeout; delivery 12:46 ET), WQ-538 commission (PROME prome-72): WALTER cards 026, 032, 009 graded; evidence cutoff about 17:45Z 11/13. Report [11/13 commission](reports/2026-11-13_wq538-saudi-bypass-claims-grade.md). Runtime Claude Code, Opus 5.5, desktop. Prior: 11/11 about 08:45 ET, weekly + gate review ([report](reports/2026-11-11_weekly-review-gate001-card008.md)); 11/09 about 11:00 ET, catch-up ([report](reports/2026-11-09_catchup-read.md)); 11/08 read 2; 11/07 read 1; 11/06 FAL-06 and EXIT v4. Weekly + gate review 11/04 ([report](reports/2026-11-04_weekly-review-gate001-fal07.md)).
 
 ## Current marks and authority
 
@@ -30,7 +30,7 @@ Report: [11/13 commission](reports/2026-11-13_wq538-saudi-bypass-claims-grade.md
 | Confirming observables | MoE/SPA or Aramco statement of a hit with an operational effect; Aramco buyer notices or crude force majeure; a named SAMREF/YASREF/Luberef or berth outage; a dark-fleet-capable Yanbu loadings read (BRENT); a Saudi statement of crude production shut in. ⚠️ Yanbu loadings: no reader (PortWatch blind, KB-168 unbuilt) |
 | Bab / carrier | Lahij push CLAIM ONLY (DropSite map; government claims gains 11/4, 11/7). Override NOT TRIGGERED: territorial, not enforcement. Leg 2 stands on the 11/11 read. Roosevelt third carrier NOT ESTABLISHED, projection: Changi 11/5; join vs relieve George Washington unresolved (KB-479) |
 | Sensors | Transit newest 11/8 unchanged, DEEPENING. Bypass newest 11/6, 118,948 t/d vs floor 35,998, HOLDING |
-| Inbox | All 10 WALTER cards dispositioned; corrections 006 and 003 NO-OP, 013 APPLIED (KB-474 CORRECTED, KB-481). Orlen exit KB-480. **DAEDALUS WQ-678 Changelist A DEFERRED, left in inbox: charter edits out of scope for this commission; apply at the next ordinary wake** |
+| Inbox | All 10 WALTER cards dispositioned; corrections 006 and 003 NO-OP, 013 APPLIED (KB-474 CORRECTED, KB-481). Orlen exit KB-480. **DAEDALUS WQ-678 Changelist A (A1, A13) DEFERRED, left in inbox.** PROME later lifted its fence by cross-session message; I verified the ruling (`PROME/proposals/2026-11-12_wq678-RULED.md` covers desk lines A1, A2, A8–A15, so both FALCON items are ruled) but did not edit my own CLAUDE.md on a peer message; apply at the next wake whose operator task carries it, or on the operator's word in-session. Changelist B stays optional |
 
 ## November 11, weekly + gate review
 
