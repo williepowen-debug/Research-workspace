@@ -1,10 +1,10 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-11-12T21:50Z (16:50 ET 11/12), closeout on PROME's ask (Will 16:48 ET); work was PROME's C9 commission WQ-680 (USD/JPY crossed 160). No view change. **STATUS commit `2e960b8ad5`.** Folded after the final owner-state commit.
+**As of:** 2026-11-13T01:15Z (20:15 ET 11/12), prome-0f wake (WQ-680 C9 continued): USD/JPY 160 row GRADED, touch yes and no close. No view change. **STATUS commit `669524e2fd`.** Folded after the final owner-state commit.
 
 ## VIEW
 
-**11/12 update: USD/JPY crossed 160 intraday (own vendor high 160.044 at 11:41 ET), then fell 0.705 yen inside the 11:43 ET minute, yen-wide (EUR/USD flat), and two-thirds was retraced. No rate check or intervention is established or reported, and the cause is unknown. Katayama is ESTABLISHED as Minister of Finance at MOF; Mimura's 'too fast' words (REPORTED) came before the cross. The 160 row is UNGRADED until the 11/12 London session completes at 19:00 ET. Intervention funding is open: after July–August, reserve securities fell $87.8B against deposits $6.9B (holdings, not identified Treasury sales). Reserves at 10/31 were $1,179.1B. The only official confirmation of any operation is MOF's month-end total, about 11/30. Carry view unchanged: the yen weakened, and the 11:43 drop had no high-yielder lead.**
+**11/12 update: USD/JPY crossed 160 intraday (own vendor high 160.044 at 11:41 ET), then fell 0.705 yen inside the 11:43 ET minute, yen-wide (EUR/USD flat), and two-thirds was retraced. No rate check or intervention is established or reported, and the cause is unknown. Katayama is ESTABLISHED as Minister of Finance at MOF; Mimura's 'too fast' words (REPORTED) came before the cross. **GRADED 20:2x ET on the completed session (H 160.044 / C 159.873): TOUCH ✅, NO CLOSE above 160 ❌, speed row not fired. Gap 16:48–20:10 ET quiet (no 160 reprint, widest hour 0.138 yen). Katayama 11/13 09:47 JST: 'one-sided, rapid moves', 'close coordination with the US Treasury' (REPORTED, transcript not posted); words, ladder unmoved.** Intervention funding is open: after July–August, reserve securities fell $87.8B against deposits $6.9B (holdings, not identified Treasury sales). Reserves at 10/31 were $1,179.1B. The only official confirmation of any operation is MOF's month-end total, about 11/30. Carry view unchanged: the yen weakened, and the 11:43 drop had no high-yielder lead.**
 
 **11/11 update: Tokyo absorbed SoftBank's results — 9984.T opened −7.2%, low ¥3,465 (¥3,400 held), closed ¥3,855 −0.44% on 82.7M (1.28×); no TDnet or Arm SEC filing (TERRY's NO CARD re-opener not met); Q2 transcript still 404. SoftBank leverage on its own basis is 22.5% at Arm $181.49 on full revaluation (22.7% was the lookup convention); a yen rally RAISES it, about +0.04 point per yen (holdings 95% USD, net debt ~62% foreign; deck p.45). USD/JPY 159.38 live (13:38Z), 0.62 yen under 160, a grind, no unwind signature.**
 
@@ -34,13 +34,12 @@ SoftBank estimate test (not a PREDICTIONS row): **CONFIRMED** on the total; the 
 
 ## NEXT DECISION POINT
 
-No Will ruling needed. Next: 11/13 (CFTC, FRBNY), 11/16 GDP, 11/18 20Y auction (frozen bars). December MPM 12/17–18.
+No Will ruling needed. 160 row graded 11/12 (touch, no close); SAM proposes NO CARD, tradeability is TERRY's via PROME. Next: 11/13 (CFTC, FRBNY), 11/16 GDP, 11/18 20Y auction (frozen bars). December MPM 12/17–18.
 
 ## FORWARD CATALYSTS
 
 | When | What |
 |---|---|
-| Nov-12 | 5Y auction |
 | Nov-13 | FRBNY Q3 FX report (est.); CFTC 11/10 print; GMO Internet briefing |
 | Nov-16 | Japan Q3 GDP |
 | Nov-18 | 20Y auction (frozen bars); October trade balance |
