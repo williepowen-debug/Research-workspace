@@ -4,7 +4,11 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current pickup — 2026-11-12 12:1x EST
+## Current pickup — 2026-11-13 16:13 EST
+
+Claude Code, Opus 5.5, session d39139ae, PROME assignment prome-72 (two parts, closed on PROME's ask). HYG ×4 WQ-513 LAPSED UNFIRED at the 11/13 close; NVDA 11/12 low $148.80 confirmed on its card; QQQ 200-day card T1 met but debit $6.23 > $4.90, no order; 11 NO CARD reads. Read STATUS CURRENT STATE first; next dated work is the NVDA fire window 11/18–11/20.
+
+## Prior pickup — 2026-11-12 12:1x EST
 
 Claude Code, Opus 5.5, session 770019b5, Will-launched boot + "ok go", closed on Will's 12:10 ET word. One NOT-FIRED NVDA card (WQ-677 B, NOT approved), 10 NO CARD reads, WQ-678 trims 6 applied / 6 declined. Read STATUS CURRENT STATE first; its 🔴 OWED line (NVDA 11/12 session low) is the first task.
 
@@ -78,7 +82,7 @@ Publication and exactcloseoutcommit proof are recorded in dateddelivery; prior s
 
 ## Next Session — start here
 
-000. **2026-11-12 closeout (STATUS CURRENT STATE is canonical):** (a) record NVDA's 11/12 regular-session low on the NVDA card's invalidation line (daily bar read after 16:00 ET); (b) after the Fri 11/13 close mark HYG ×4 WQ-513 lapsed on card, SETUPS, INDEX, TRADE_BOOK together, then the ledger sweep; (c) 11/18–11/20 test NVDA T1/T2/T3 and bring it back THAT DAY or record VOID at the 11/20 close; (d) HYG ×5 hedge FIRED, UNFILLED, through 12/4. Items 00–0b2 below are older history.
+000. **2026-11-13 closeout (STATUS CURRENT STATE is canonical):** (a) HYG ×5 hedge (WQ-615 A + WQ-663 B) FIRED, no fill known, entry through 12/4 ≤ $0.60; void clock 2 of 5, count the 11/13, 11/16, 11/17 HY cells as they publish; (b) QQQ 200-day card (WQ-617 C, NOT approved): bring to Will on T1 + broker debit ≤ $4.90 by 11/20, else close at the 11/20 window end; (c) 11/18–11/20 test NVDA T1/T2/T3 and bring it back THAT DAY or record VOID at the 11/20 close; (d) combo reviews due 11/20. Read closes after about 16:30 ET (0b2): the 11/13 part-two closes were first read at 16:01 and VIX moved by 16:12. Done 11/13: HYG ×4 lapse and NVDA low (old 000 items a, b). Items 00–0b2 below are older history.
 00. **WQ-650 FINALIZED 2026-11-09 09:34 EST** (`research/2026-11-08_wq650-pass/IDEAS.md` §§ 4a, 4b): no new card. HYG ×5 hedge (WQ-615 A) FIRED with a green HYG day 11/9, but vendor legs DEAD, so no debit; Will's broker chain decides (≤ $0.60, max loss $306.50, window to 12/4). **Owed:** HY 11/6 cell (about 10:10 ET 11/9) against WQ-513's 350 count (0 of 3); book an HYG ×5 fill only on Will's word; re-pull HYG legs if asked.
 0a. **UNG card CLOSED** 2026-11-08 on Will's 11/7 09:22 ET word, never filled, $0; § 7a test no longer operates; PB-0010 stays OPEN as the ghost. Will's Robinhood Dec-24 $10.5 call ×1 (NOTE-UNG105C-DEC24) is his own position: no sell rule, no prompts.
 0b1. **HYG hedge (WQ-615):** T1(a) FIRED on 348 [11/5], order stands, first green HYG day through 12/4, no fill known. **QQQ (WQ-617):** bring to Will on live VIX3M/VIX ≥ 1.00 on a red QQQ day by 11/20, else close. CAL-0003 11/12.

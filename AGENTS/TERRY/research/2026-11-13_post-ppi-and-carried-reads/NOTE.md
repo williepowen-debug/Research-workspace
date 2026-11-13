@@ -101,3 +101,13 @@ Exeter is private; its ABS is not reachable at Will's broker. A halt candidate o
 - **FALCON, Saudi East-West / Yanbu claims → NO CARD, agree with FALCON.** One confirmed event (11/9, limited fire, operations not affected); the 11/11 and 11/12 items are claims only. No operational effect is stated, and Brent closed +0.27%. BRENT owns loadings and the oil price. No open oil card exists to move; a new oil call would need an owner's direction. FALCON's own known-unknown (no Yanbu loadings reader) gates any re-open. Re-open: a Saudi or Aramco statement of an operational hit, a crude force majeure, or BRENT's loadings read.
 
 **Defaults on every line:** $500 per card, X1 CLOSED / DON'T-SIZE (LIQUID), Will decides every card (root rule #5). $0 moved.
+
+## 9. Closeout additions (written 2026-11-13 16:13 EST from `date`)
+
+**Close figures, dated correction.** § 8's closes were read 16:01–16:04 EST, before this desk's own note to read a close after about 16:30 ET (VIX family prints to about 16:15). Re-read 16:12:52 EST (yfinance daily bars): VIX 18.92 (was 19.19 at 16:01), VIX3M 20.42 (was 20.59), ratio **1.079** (was 1.073); S&P 7,561.67 (was 7,561.79). QQQ 679.89, HYG 76.93, NVDA 162.85 unchanged. **No conclusion changes:** the QQQ card's T1 ratio stays above 1.00 on either read; the debit failure is independent of it; the HYG ×4 lapse does not depend on any close.
+
+**VULCAN 16:10 ET packet (Nvidia geography, Blackwell report, Mag-7 slot 10; commit 7c43f86696) → NO CARD.** Read against `IDEA-NVDA-CEOGAP-NOV12`:
+- **Blackwell fingerprints in six Chinese models (relay, single author, not peer-reviewed):** VULCAN grades it as showing chip ACCESS only; no enacted rule, no S4 move. The card's do-not-trade clause needs a filing or official statement disclosing a liability tied to the resignation. A third-party report is neither, and it is not tied to the resignation. Policy risk (a remote-access or transshipment rule) belongs to ZHAO and has no enacted form to price. **No card condition moves.**
+- **Singapore line:** a disclosed method change at EDGAR (billing location → customer headquarters), not diversion evidence. Latest China incl. Hong Kong ,880M of 6,221M (8.2%). Descriptive; no card input.
+- **Mag-7 slot 10:** 32.6020%, NOT FIRED, 11/12 prices. No TERRY card keys on it.
+- **Card state unchanged:** CONDITIONAL, NOT-FIRED, NOT approved (WQ-677 B). T1 still waits on VULCAN's committed post-print row after 11/17; fire window 11/18–11/20; NVDA closed $162.85 [11/13], under T2's $163.60, which counts only on a fire day. $0.
