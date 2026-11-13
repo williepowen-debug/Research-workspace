@@ -32,7 +32,7 @@
 - NY Fed HHDC workbook map (Q3-2026 file): p.3 balances by type; p.8 auto originations by riskscore (<620 bucket is NOT OTTO-10's Equifax share); p.12 share of balance 90+ by type; p.14 flow into 90+ by type, rounded; p.26 auto flow into 90+ by age with an 'all' column, four-quarter sum, full precision. CARL saves the file under `AGENTS/CARL/research/<date>_HHDC_prep/raw/`; a card's cited path can be wrong, so `find` before calling a source missing.
 - Verita: `DocketNumber` blank plus a date range lists every entry newest first; the docket number and `/tricolor/document/<id>` link sit in the HTML card above each `Document Name:` block. The G2 cert fetch must be plain `http://` with `-L`; `https://certificates.godaddy.com` fails its own name check.
 
-## LAST SESSION — s046, 2026-11-13 (Claude Code, Opus 5.5), PROME wake prome-72, D:L1098
+## LAST SESSION — s046, 2026-11-13 (Claude Code, Opus 5.5), PROME wake prome-72, D:L1098 (closed on PROME ask 10:30 ET)
 - CRMT GRADED by BROCK (KB-BRK-489, df2b2508e5): twelfth bridge agreed 11/12, relief to Mon 11/16; 8-K 0001171843-26-007415 Item 1.01 only, accepted 09:15:15 ET. OTTO re-read it at EDGAR (submissions JSON + Item 1.01 text). Rule "another short bridge = standstill continues" ⇒ V9 held 🔴 4, graded. ML-388 (grade), ML-389 (combo:lender-standstills member). CATALYSTS 11/13 annotated, 11/16 successor added. Inbox empty. Pull not run (other desks' dirty files); HEAD 7 ahead, 0 behind origin.
 - s045 (11/12): CRMT NOT GRADED, EART 2026-5 ABSENT (halt candidate, OTTO-07 15%), no public Chu ruling. Detail in ML-383–387.
 
