@@ -1,6 +1,6 @@
 # ISHM STATUS
 
-**Last updated: 2026-11-13 10:21 ET — PROME prome-72 due-row wake (Claude Code, Opus 5.5): Cass October NOT PUBLISHED at 10:19 ET, re-dated November 16; J2 sample gained one matured window (July forward +47.9 bp, forward 28/33 at ≤25 bp); Deere Q4 call confirmed at the issuer for November 25.** Synthesis: `research/2026-11-13_due-rows/REPORT.md`. No score, band, gate or threshold moved. Prior vintage 2026-11-06 20:41 ET (WQ-643 A encoded); earlier notes: `research/2026-11-06_r1-successor/NOTE.md`, `research/2026-11-06_close-refresh/NOTE.md`, `research/2026-11-06_due-items/REPORT.md`.
+**Last updated: 2026-11-13 10:23 ET (delivery) — PROME prome-72 due-row wake (Claude Code, Opus 5.5): Cass October NOT PUBLISHED at 10:19 ET, re-dated November 16; J2 sample gained one matured window (July forward +47.9 bp, forward 28/33 at ≤25 bp); Deere Q4 call confirmed at the issuer for November 25.** Synthesis: `research/2026-11-13_due-rows/REPORT.md`. No score, band, gate or threshold moved. Prior vintage 2026-11-06 20:41 ET (WQ-643 A encoded); earlier notes: `research/2026-11-06_r1-successor/NOTE.md`, `research/2026-11-06_close-refresh/NOTE.md`, `research/2026-11-06_due-items/REPORT.md`.
 
 > **FIRST-LIVE-SESSION BANNER — SPENT WITH NAMED CARRIES (2026-10-26).** FIRST_SESSION.md is history. Source and calibration gaps remain; this is not a fully calibrated desk.
 
