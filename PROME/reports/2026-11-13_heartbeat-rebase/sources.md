@@ -19,7 +19,7 @@ Written 2026-11-13 by PROME prome-72. Each line is a file PROME read for this ba
 - BOND: `2026-11-13_from-BOND_WQ682-encoded.md`
 - ISHM: `2026-11-13_from-ISHM_due-rows.md` (completion block only)
 - After the close, whole: HENRY `2026-11-13_from-HENRY_close-read.md`; TERRY `2026-11-13_from-TERRY_part-two-due-rows-L1132-L830.md` and `2026-11-13_from-TERRY_closeout.md` (its 16:12 ET re-read of the closes); VULCAN `2026-11-13_from-VULCAN_slot10-gpu10-softbank-cards.md`.
-- BRENT part two (positioning gate, COT vintage 14): ⟦BRENT⟧
+- BRENT part two, whole: `2026-11-13_from-BRENT_cot14-not-gradeable-part-two.md` (COT vintage 14 not gradeable, CFTC release Mon 11/16; BRT-33; the 11/13 settle proxy).
 
 ## Owner returns, November 12, figures
 - BOND: `2026-11-12_from-BOND_30Y-graded-clean-refunding-closed-11-10-close-inbox-drained.md`, `_addendum-fr2004-11-4-and-vx17-same-date.md`
@@ -32,7 +32,7 @@ Written 2026-11-13 by PROME prome-72. Each line is a file PROME read for this ba
 - BROCK: `2026-11-12_from-BROCK_L1098-crmt-not-graded-gpu-one-follow-up-drain12.md`
 
 ## Ledgers read
-- `PROME/GATES.tsv` state, last_checked and review_by cells for GATE-LIQ-069, GATE-LIQ-076, GATE-FALCON-001, GATE-BRK-R2, GATE-BRENT-COT-35B (read 2026-11-13 about 13:45 ET).
+- `PROME/GATES.tsv` state, last_checked and review_by cells for GATE-LIQ-069, GATE-LIQ-076, GATE-FALCON-001, GATE-BRK-R2, GATE-BRENT-COT-35B (read 2026-11-13 about 13:45 ET; GATE-HY-REKILL and GATE-BRENT-COT-35B updated by PROME later the same day).
 - `PROME/state/CALENDAR.md`, regenerated 2026-11-13 13:38 ET, for the near-term calendar.
 
 ## Carried from the 39th base and its amendments, not re-read

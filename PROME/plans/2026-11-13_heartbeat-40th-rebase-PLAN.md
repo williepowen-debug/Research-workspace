@@ -18,6 +18,7 @@ Read the complete proposed text at `PROME/reports/2026-11-13_heartbeat-rebase/ca
 | Yen touched 160, no close above, no action established | SAM 11/12 packet | read (figures) | high 160.044; close 159.873 | central, channel 4 |
 | Oil rose on claims, not barrels | BRENT and FALCON 11/13 packets | read | Jan Brent 95.82 [11/12]; claims CLAIM ONLY | central, channels 1 and 7 |
 | HYG ×4 lapsed unfired; QQQ card met its trigger and failed its price | TERRY part-two packet | read | REG-T-04 never fired; $6.23 vs $4.90 | thresholds |
+| Oil held its premium on 11/13; positioning gate not gradeable | BRENT part-two packet; GATES row GATE-BRENT-COT-35B | read | settle proxy 95.79 vs 95.82; M1−M3 +4.99; CFTC release 11/16 | channel 1, thresholds |
 | Mag-7 slot 10 below yellow | VULCAN 11/13 packet | read | 32.60% [holdings 11/12], breadth +1.72pp | channel 6 |
 
 ## Invariants
@@ -30,11 +31,11 @@ Read the complete proposed text at `PROME/reports/2026-11-13_heartbeat-rebase/ca
 
 ## Declared before the plan read
 - Removed from kill-on-sight as overtaken or date-bound (they stay binding for their dates in the archive): "December +28.2 bp is a settlement" · "VIX closed above 20" · "HY widened on CPI" · "the oil fall means supply returned" (replaced by "the oil rise means barrels were lost") · "SoftBank rose 13.88% on the results". Amendment 1's "SoftBank has 22.7% leverage" item is carried at 22.5%, the figure Amendment 2 put in its place. "CoreWeave raised its FY2026 capex guide to $37–39B" was Amendment 1 text, not a kill item; the kill item on the guide is carried.
-- Dropped from the channels, each staying in the archive with its date: the 11/10 December-meeting pricing and Waller detail (kept in one kill item), the 3Y and 10Y auction figures, TSMC October revenue, the SoftBank results detail beyond the leverage range and the CDS print, the 11/10 oil-fall detail, China's clocks (ZHAO, carried by pointer), Nebius's guide, Trinity Capital's $179.0M, the OCPI index, SoftBank's missing Q2 transcript, the third-carrier line, the 30Y bid-to-cover, SAM's speed row.
+- Dropped from the channels, each staying in the archive with its date: the 11/10 December-meeting pricing and Waller detail (kept in one kill item), the 3Y and 10Y auction figures, TSMC October revenue, the SoftBank results detail beyond the leverage range and the CDS print, the 11/10 oil-fall detail, China's clocks (ZHAO, carried by pointer), Nebius's guide, Trinity Capital's $179.0M, the OCPI index, SoftBank's missing Q2 transcript, the third-carrier line, the 30Y bid-to-cover, SAM's speed row, the 11/6-week distillate build.
 - HENRY's close walls are not quoted: HENRY did not publish them under its no-new-level rule; the memo carries the flip, the sign and "walls not published".
 - VIX at the 11/13 close is HENRY's 19.03 (vendor bar one minute after the index close); the dashboard cell reads 19.07 and `fetch_prices.txt` 19.36; FRED is unposted. The memo names HENRY's figure in channel 5 and the dashboard's in the table.
 - The dashboard's 10Y cell is 5.10 [11/12]; Treasury's 11/13 par (5.15) is named beside it.
-- Brent 11/13 is a vendor quote at 16:18 ET, not a settle. BRENT's positioning grade (COT vintage 14) is carried as BRENT's packet states it, or as not delivered at this cut.
+- Brent 11/13 is BRENT's settle proxy 95.79 (its 14:28 ET vendor window), not an exchange settle; the vendor's 96.19 at 16:18 ET is a post-settle last and sits in the dashboard table with that label. BRENT's positioning gate could not be graded: the CFTC report as-of 11/10 is delayed to Mon 11/16, so the memo carries the 11/3 vintage and the new review date.
 - Not re-read for this base: see `sources.md`. Carried owner lines keep their observation dates.
 
 ## Review and disposition
