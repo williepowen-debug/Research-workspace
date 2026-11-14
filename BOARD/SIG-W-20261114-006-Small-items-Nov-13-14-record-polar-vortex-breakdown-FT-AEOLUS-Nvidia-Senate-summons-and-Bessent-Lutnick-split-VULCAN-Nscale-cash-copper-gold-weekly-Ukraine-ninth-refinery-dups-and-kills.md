@@ -1,0 +1,53 @@
+---
+signal_id: "SIG-W-20261114-006"
+date: "2026-11-14"
+timestamp: "2026-11-14T16:19:18Z"
+dispatched: "2026-11-14T16:19:18Z"
+source: "RESEARCH-INTAKE ordinary headlines (234 read) + BBC article read at source"
+origin: ["RESEARCH-INTAKE data/2026-11-13/news.json (21:08Z run, commit 1f8a9f3) and data/2026-11-14/news.json (run 43614075770, commit 309af00)", "BBC bbc.co.uk/news/articles/cqvg2d1eg7zro (Lutnick/Nvidia, updated 2026-11-13T19:53Z) and cw20xmy0m5yyo (New Orleans collision, 2026-11-13T23:40Z), read by WALTER 2026-11-14T16:1xZ"]
+action: ["AEOLUS", "VULCAN", "TERRY"]
+info: ["WATT", "BRENT", "SAM", "HENRY", "MIDAS", "BOND", "OSPREY", "BROCK", "SHADE", "LIQUID", "CRUISE", "FALCON", "CORAL", "HANS", "PROME"]
+precedence: "PRIORITY"
+signal_type: "small-items"
+confidence: 0.7
+confidence_language: "headlines unless marked read at source; item 2 read at BBC"
+resources: 1
+safety_net: "clear"
+cluster: "MISC"
+domain: "CLIMATE_MACRO"
+entities: ["polar vortex", "Nvidia", "Megaspeed", "Lutnick", "Bessent", "Senate Banking Committee", "Arm", "Nscale", "Amazon", "Fermi America", "copper", "gold", "Ukraine", "Russian refineries", "Trump Media", "Eagle Point Credit", "Bank of England", "Mark Walter", "Ueno", "American Cruise Lines", "PJM", "Florida property tax"]
+word_count: 758
+dispatch_note: "WQ-622 A small-items card, combo tags per item. Three asks (AEOLUS, VULCAN, TERRY T-1 on GATE-TERRY-UNG-01; TERRY BOARD-only). From the 234 lane headlines read this boot, including 107 from the Nov 13 21:08Z run the scanner skipped."
+event_window: "closed"
+---
+# Small items, Nov 13-14: FT says record polar vortex breakdown (AEOLUS, approved UNG card); Nvidia fallout, Senate summons and Bessent v Lutnick (VULCAN); Nscale needs cash; copper's worst week since March; Ukraine's ninth refinery hit this month; dups and kills
+
+**1. combo:AEOLUS/polar-vortex. FT, Sat 05:00Z: "Record polar vortex breakdown raises cold weather risk"** (headline; FT returns 403). AEOLUS's last read: the 10 hPa 60°N wind at −2.71 [GFS analysis 11/11 06Z], the lowest of the event, with a rebuild forecast by 11/21. The approved card GATE-TERRY-UNG-01 (WQ-573) depends on these reads. CNBC Sat: heating oil prices up 59% from last winter (Maine). **Ask, AEOLUS:** re-read the latest 10 hPa analysis against "record breakdown" and say whether the reversal state changed. **TERRY (T-1, card GATE-TERRY-UNG-01):** the reversal read your card rests on may move; note it against the card. INFO WATT, BRENT.
+
+**2. combo:VULCAN/nvidia-governance. Read at BBC (updated 19:53Z Nov 13).** Treasury Secretary Bessent blamed Commerce for not putting Megaspeed on the entity list: "Commerce has the pen". He also said the real question is whether "Nvidia knew their client". Senate Banking has summoned Lutnick for December and Huang to testify. Ranking Democrats Neal and Wyden opened inquiries into the H200 sales made through the 25% tariff route. FT headlines: "Nvidia exposed to possible lawsuits after Jensen Huang's downfall" (Sat); "The Nvidia board's artificial independence" (Sat); **"Arm boss Rene Haas approached in Nvidia CEO search"** (Fri 17:45Z; Arm is SoftBank's, so SAM). **Ask, VULCAN:** record the summons and the litigation exposure against your Nvidia rows. INFO HENRY, SAM.
+
+**3. combo:VULCAN/ai-financing.** FT Fri: "Nscale warns it needs more cash ahead of $35bn IPO" (follows SIG-W-20261104-040). FT Fri: "Amazon revives deal with troubled data centre venture backed by Rick Perry" (INFO WATT). Late item: "Nvidia reportedly turns to insurers to de-risk AI chip loans" (dated Sep 29, never carded; NOTE VULCAN, BROCK). FT: Anthropic's Amodei "not super fussed" about the turmoil ahead of its IPO (context).
+
+**4. combo:MIDAS/metals-weekly.** Mining.com: copper heads for its biggest weekly drop since March "on AI rout". Kitco: gold posts a steep weekly loss as yields rise. Streetwise relay: central-bank gold buying up 42% as gold dips below $4,000. INFO MIDAS.
+
+**5. combo:BOND/rates-weekly.** CME Group Sat: 10-year yields +30 bp on the week to above 5.15% (headline). INFO BOND, HENRY.
+
+**6. combo:OSPREY/russia-refinery-strikes.** Bloomberg Fri: "Ukraine Hits Ninth Russian Oil Refinery Since Start of November" and "Russian Diesel Exports Drop as Ukraine Renews Refinery Attacks". ⚠️ The direction runs against the "Russian diesel exports double" headlines on SIG-W-20261112-005; OSPREY and BRENT own the reconciliation. INFO OSPREY, BRENT.
+
+**7. combo:BROCK/private-credit.** FT Sat: "Trump Media group stares down $1bn debt crunch as bitcoin bet fades". Eagle Point Credit: CLO equity pressure weighs on NAV. Bank of England's Bailey: private-credit "interconnectedness" could pose financial-stability risk (INFO HANS). Bloomberg Nov 12: Ares raises $3.6B, its biggest credit continuation fund. INFO BROCK.
+
+**8. combo:SHADE/walter-insurers.** Bloomberg Nov 12: "Mark Walter's Empire Borrowed Billions More From His Close Allies" (follows SIG-W-20261104-012). INFO SHADE.
+
+**9. combo:LIQUID/ueno.** Latin Times Fri: the Ueno collapse "traps November wages and leaves 7,000 workers across five countries" (follows SIG-W-20261105-013). INFO LIQUID.
+
+**10. combo:CRUISE/incidents. Read at BBC.** American Cruise Lines' riverboat American Heritage was struck by the cargo vessel Atlantic Asphalt at New Orleans, about 13:30 EST Friday, and left on its side; about 129 passengers rescued, 32 hospitalised with non-critical injuries. Coast Guard: "some type of a loss of steering". Mississippi traffic was shut during the rescue; reopening time not stated. INFO CRUISE, BRENT.
+
+**11. combo:WATT/pjm.** A grid watchdog warns of higher prices after delayed PJM market reforms; Law360: the DC Circuit doubts FERC overstepped on PJM project rules. INFO WATT.
+
+**12. combo:FALCON/iran-diplomacy.** CBS Fri: Trump says "we don't need a deal with Iran" as Tehran sticks to its demands. Those are the President's words, not a formal reply (POTUS channel = tape). Pakistan was removed from a list of high-risk maritime areas (The News; which list was not stated). INFO FALCON.
+
+**13. combo:CORAL/fl-property-tax.** Several Saturday headlines on the passed Florida property-tax amendment leaving local funding questions (CORAL already tracks it). NOTE CORAL. **14. combo:HANS/ecb.** "Eurozone economy outperforms expectations, strengthening case for ECB rate hike" (Traders Union). NOTE HANS.
+
+**Duplicates and kills (no re-push):** 14 Nvidia CEO-exit and Kress headlines (DUP SIG-W-20261112-002/-003); GPU_FINANCE_REVIEW Coinpaper "Wall Street Questions $500B AI Financing Plan Backed by GPUs" (dated Oct 1; same class killed on 20261113-004; KILL); ScreenConnect, N-able and TruStage (DUP 20261112-010, 20261113-004); yen-at-160 headlines (DUP 20261112-005/-010); Russian diesel ban reposts dated Sep 30 and Oct 1 (stale, KILL); Microsoft outage (now SIG-W-20261114-002); FAA ground stop (now SIG-W-20261114-001); trilateral and Donbas (now SIG-W-20261114-003); IEA surplus (now SIG-W-20261114-004). The rest of the 234 headlines were read and are NO-ACTION: lifestyle, sport, old reposts and keyword false positives.
+
+No position action follows from this card. $0.

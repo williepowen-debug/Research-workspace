@@ -45,6 +45,24 @@
         "2026-11-13"
       ],
       "closed": "2026-11-13T16:47:36Z"
+    },
+    "gpu:f3e74fab2a9d": {
+      "title": "Nvidia Reportedly Turns To Insurers To De-Risk AI Chip Loans As Jensen Huang Pushes Beyond Big Tech — Could This Unlock Billions For Smaller Cloud Players? - TradingView",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261114-006",
+      "days": [
+        "2026-11-13"
+      ],
+      "closed": "2026-11-14T16:20:01Z"
+    },
+    "gpu:b0ee406e4c9d": {
+      "title": "Nvidia Stock: Wall Street Questions $500B AI Financing Plan Backed by GPUs - Coinpaper",
+      "disposition": "KILL",
+      "ref": "SIG-W-20261114-006",
+      "days": [
+        "2026-11-14"
+      ],
+      "closed": "2026-11-14T16:20:01Z"
     }
   }
 }

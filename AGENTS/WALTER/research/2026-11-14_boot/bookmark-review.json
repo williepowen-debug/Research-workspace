@@ -1,0 +1,56 @@
+{
+ "schema": 2,
+ "staged_at": 1794673205.2632742,
+ "items": [
+  {
+   "id": "2090447097405341851",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261114-007-Will-bookmarks-Nov-13-Bloomberg-chart-IG-tech-bond-yield-highest-since-2009-about-6.1pct-AI-funding-LIQUID-FAA-ATC-contractor-Peraton-context-for-ground-stop-Volgograd-second-witness-France-on-Houthis.md",
+   "ask_user": null
+  },
+  {
+   "id": "2121234688391942348",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2121357702093763022",
+   "disposition": "DUP",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2121288467581632703",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261114-007-Will-bookmarks-Nov-13-Bloomberg-chart-IG-tech-bond-yield-highest-since-2009-about-6.1pct-AI-funding-LIQUID-FAA-ATC-contractor-Peraton-context-for-ground-stop-Volgograd-second-witness-France-on-Houthis.md",
+   "ask_user": null
+  },
+  {
+   "id": "2121272129404522614",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261114-007-Will-bookmarks-Nov-13-Bloomberg-chart-IG-tech-bond-yield-highest-since-2009-about-6.1pct-AI-funding-LIQUID-FAA-ATC-contractor-Peraton-context-for-ground-stop-Volgograd-second-witness-France-on-Houthis.md",
+   "ask_user": null
+  },
+  {
+   "id": "2121272114493768168",
+   "disposition": "DUP",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2121013324192137653",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261114-007-Will-bookmarks-Nov-13-Bloomberg-chart-IG-tech-bond-yield-highest-since-2009-about-6.1pct-AI-funding-LIQUID-FAA-ATC-contractor-Peraton-context-for-ground-stop-Volgograd-second-witness-France-on-Houthis.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "5596c0418a9547cf8796f8d34572faed"
+}

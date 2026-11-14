@@ -1,0 +1,12 @@
+release	period	scheduled	source	board_or_owner_record	outcome	note
+PPI final demand	October 2026	2026-11-13 08:30 ET	HENRY ECON_CALENDAR; DOCKET D:L776	HENRY graded HEN-58 NONE (56b1ee32c6); no WALTER card Friday	OWNER-COMPLETED; routing duty done by SIG-W-20261114-005	CARL/LIQUID/RED had no card until this boot
+IEA Oil Market Report	November 2026	2026-11-13 09:00 GMT	BRENT STATUS calendar row	BRENT SCRATCH: UNREAD; no BOARD card	PUBLISHED-UNREVIEWED; routed SIG-W-20261114-004	IEA page 403 from this box; headlines only
+30-year auction	Nov 12	2026-11-12	BOND/DOCKET	SIG-W-20261112-007; BOND graded CLEAN	ROUTED-EARLIER	before cutoff window edge, carried for completeness
+Car-Mart standstill	eleventh bridge	2026-11-12	DOCKET L1098	SIG-W-20261113-005; BROCK graded twelfth bridge	ROUTED-EARLIER	next standstill Mon Nov 16
+EART 2026-5 window	launch window	2026-11-12	DOCKET (OTTO)	SIG-W-20261112-011; OTTO graded	ROUTED-EARLIER	
+USD/JPY 160 row	Nov 12 London close	2026-11-12 19:00 ET	DOCKET (SAM)	SAM graded (45f55278b2, 8996cd579c)	OWNER-COMPLETED	no routing duty left
+BCRED Q3 10-Q tender final value	Q3 2026	2026-11-13	DOCKET (BROCK)	no BROCK or BOARD record found	UNKNOWN	not checked at EDGAR this boot
+CFTC COT	as-of Nov 10	2026-11-13	BRENT	BRENT: CFTC release delayed to Mon Nov 16	NOT-YET-PUBLISHED	
+FLG Q3 Call Report	Q3 2026	~2026-11-14	DOCKET (FLG T-01)	no record	UNKNOWN	FFIEC posting not checked; FLG owns
+CRU-11 window close	ratio grade	2026-11-14	DOCKET (CRUISE)	cruise-b3 live this morning	UNKNOWN	owner grading; no routing duty
+MOHELA CFPB re-pull	n/a	2026-11-14	DOCKET (CARL/STUE)	untracked CARL file CFPB_MOHELA_daily_vintage-2026-11-14.json present	OWNER-IN-PROGRESS	carl-6a live
