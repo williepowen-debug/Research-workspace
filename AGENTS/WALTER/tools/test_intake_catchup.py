@@ -271,5 +271,40 @@ class CatchUp(unittest.TestCase):
         self.assertNotIn(now, out)
 
 
+    # 2026-11-14 independent read 2 (PROME LEDGER_read2.md) M1: readability inside --mark comes from the
+    # receipt's own read, so a batch missing or unreadable at the scan cannot be passed by a repair in the gap.
+    def race_mark(self, change, *extra):
+        read = self.receipt()
+        real = s.mark_pointer
+
+        def racing(*a, **k):
+            change()
+            return real(*a, **k)
+        with mock.patch.object(s, 'mark_pointer', racing):
+            return self.mark(*extra, receipt=read)
+
+    def test_R9_newest_missing_at_scan_appears_inside_mark_pointer_holds(self):
+        self.seen.write_text(json.dumps({'seen': {}, 'updated': None, 'last_marked_batch': 'data/2026-11-03/news.json',
+                                         'last_marked_sha': s.batch_sha('data/2026-11-03/news.json')}))
+        (self.lane / 'data' / '2026-11-04' / 'news.json').unlink()
+        rc, _ = self.race_mark(lambda: self.rewrite('2026-11-04', [item('hidden hit', 'NEW_WATCH_HIT', hits=[['CYPHER', 'h']])]),
+                               '--through', 'data/2026-11-04/news.json')
+        self.assertEqual(rc, 0)
+        st = json.loads(self.seen.read_text())
+        self.assertEqual(st['last_marked_batch'], 'data/2026-11-03/news.json')
+        self.assertIsNotNone(st['last_marked_sha'])
+        self.assertIn(key_hit('hidden hit'), self.keys(st['last_marked_batch']))
+
+    def test_R10_unreadable_middle_repaired_inside_mark_pointer_holds(self):
+        self.seen.write_text(json.dumps({'seen': {}, 'updated': None, 'last_marked_batch': 'data/2026-11-02/news.json'}))
+        (self.lane / 'data' / '2026-11-03' / 'news.json').write_text('{broken')
+        rc, _ = self.race_mark(lambda: self.rewrite('2026-11-03', [item('repaired hit', 'NEW_WATCH_HIT', hits=[['BROCK', 'r']])]),
+                               '--through', 'data/2026-11-04/news.json')
+        self.assertEqual(rc, 0)
+        st = json.loads(self.seen.read_text())
+        self.assertEqual(st['last_marked_batch'], 'data/2026-11-02/news.json')
+        self.assertIn(key_hit('repaired hit'), self.keys(st['last_marked_batch']))
+
+
 if __name__ == '__main__':
     unittest.main()

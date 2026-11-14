@@ -190,13 +190,18 @@ def read_batch_items(batch):
     """(items, error). ONE reader for the scan and --mark (follow-up note 1): valid JSON that is
     not an object with an `items` list counts as unreadable in both places."""
     try:
-        d = json.loads((LANE / batch).read_text(encoding="utf-8"))
-        items = d.get("items", []) if isinstance(d, dict) else None
-        if not isinstance(items, list):
-            raise ValueError("no items list")
-        return items, None
+        return _items_from_bytes((LANE / batch).read_bytes()), None
     except Exception as e:
         return None, type(e).__name__
+
+
+def _items_from_bytes(raw):
+    """The one readability rule, applied to bytes already in hand (read 2 M1)."""
+    d = json.loads(raw.decode("utf-8"))
+    items = d.get("items", []) if isinstance(d, dict) else None
+    if not isinstance(items, list):
+        raise ValueError("no items list")
+    return items
 
 
 def batch_sha(batch):
@@ -228,17 +233,26 @@ def scan_receipt(batches, recs):
     """Fingerprint of what a scan PRESENTED (CATO N14-1, Will 2026-11-14 14:28 ET): every scanned batch's
     bytes plus every gated alert's key AND reading. --mark must quote it; a lane or liveness change between
     the scan and the mark changes it, and the mark is refused with nothing written instead of acknowledging
-    unread bytes. Returns (receipt, {batch: sha}): --mark stores the sha THIS check verified, never a second
-    read (independent read 1 L1, 2026-11-14: a rewrite between two reads was stored as acknowledged)."""
+    unread bytes. Returns (receipt, {batch: sha}, {batch: readable}) from ONE read per batch: --mark stores
+    the sha and advances the pointer only over batches readable in THESE bytes, never on a second read
+    (independent reads 1 L1 and 2 M1, 2026-11-14: a rewrite or repair between two reads was acknowledged)."""
     h = hashlib.sha1()
-    shas = {}
+    shas, readable = {}, {}
     for b in batches:
-        shas[b] = batch_sha(b)
+        try:
+            raw = (LANE / b).read_bytes()
+        except (OSError, TypeError):
+            raw = None
+        shas[b] = hashlib.sha1(raw).hexdigest()[:12] if raw is not None else None
+        try:
+            readable[b] = raw is not None and _items_from_bytes(raw) is not None
+        except Exception:
+            readable[b] = False
         h.update(f"B {b} {shas[b]}\n".encode())
     for r in sorted(recs, key=lambda r: (r["key"], str(r.get("raw", "")))):
         raw = str(r.get("raw", "")).replace("\n", " ")
         h.update(f"K {r['key']} {raw}\n".encode())
-    return h.hexdigest()[:12], shas
+    return h.hexdigest()[:12], shas, readable
 
 
 def news_batches(saved, last_marked, marked_sha=None):
@@ -289,13 +303,13 @@ def pointer_health(last_marked, saved=None):
     return out
 
 
-def mark_pointer(batches, last_marked, through):
+def mark_pointer(batches, last_marked, through, readable):
     """Pointer --mark stores (review F3, F4): the last batch of the scanned range that is readable
-    with no unreadable batch before it; never earlier than the stored pointer."""
+    with no unreadable batch before it; never earlier than the stored pointer. Readability comes from
+    the receipt's own read of each batch (read 2 M1), never from a fresh read here."""
     new = last_marked
     for b in batches:
-        items, err = read_batch_items(b)
-        if err:
+        if not readable.get(b, False):
             break
         new = b
         if b == through:
@@ -761,7 +775,7 @@ def main():
         hz.append(("MED", f"{rb} was rewritten by the collector after --mark (fingerprint {marked_sha} -> "
                           f"{batch_sha(rb)}): re-scanning it whole; read its ordinary headlines too"))
 
-    receipt, receipt_shas = scan_receipt(batches, recs)
+    receipt, receipt_shas, receipt_readable = scan_receipt(batches, recs)
     if args.mark and not args.receipt:
         print("REFUSED: --mark needs --receipt, the fingerprint of the scan you read. Run the scan, route what "
               "it shows, then run the exact mark command it prints. Nothing written.")
@@ -784,7 +798,7 @@ def main():
         new_seen = {r["key"]: prev.get(r["key"], stamp) for r in recs}
         dropped = [k for k in prev if k not in new_seen]
         seen = {"seen": new_seen, "updated": stamp}
-        ptr = mark_pointer(batches, last_marked, args.through or newest)
+        ptr = mark_pointer(batches, last_marked, args.through or newest, receipt_readable)
         if ptr in receipt_shas:
             seen["last_marked_batch"] = ptr  # WQ-676: next scan reads every batch after this one
             seen["last_marked_sha"] = receipt_shas[ptr]  # the receipt-verified bytes, not a second read (L1)
