@@ -1,0 +1,10 @@
+{
+  "scenario": "rewrite after operator read, before mark; unchanged pathname",
+  "mark_rc": 2,
+  "mark_output": "REFUSED: the lane or its alerts changed since the scan you read (receipt 647f514c6ee4 no longer matches). Re-run the scan, read what changed, then run the mark command it prints. Nothing written.\n",
+  "stored_sha_is_unread_rewrite": false,
+  "next_day_scanned_batches": [
+    "data/2026-11-05/news.json"
+  ],
+  "unread_rewrite_replayed": false
+}

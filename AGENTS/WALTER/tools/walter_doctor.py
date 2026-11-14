@@ -319,7 +319,7 @@ def check_intake_liveness():
         out.append((MED, f"feed(s) degraded: {', '.join(degraded)}"))
     if not seen.exists():
         out.append((LOW, "intake_seen.json missing — onset-dedup baseline not seeded "
-                        "(run tools/intake_scan.py --mark; first boot would push all still-true conditions)"))
+                        "(run the intake scan, then the exact --mark --receipt command it prints; first boot would push all still-true conditions)"))
     if not out:
         nfeeds = len(live.get("jobs", {}))
         out.append((INFO, f"lane live (last_run {lr}, {age}d / {missed} missed weekday run(s), "

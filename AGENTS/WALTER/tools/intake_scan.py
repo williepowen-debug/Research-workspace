@@ -226,14 +226,19 @@ def rewritten_marked(saved, last_marked, marked_sha):
 
 def scan_receipt(batches, recs):
     """Fingerprint of what a scan PRESENTED (CATO N14-1, Will 2026-11-14 14:28 ET): every scanned batch's
-    bytes plus every gated key. --mark must quote it; a lane or liveness change between the scan and the
-    mark changes it, and the mark is refused with nothing written instead of acknowledging unread bytes."""
+    bytes plus every gated alert's key AND reading. --mark must quote it; a lane or liveness change between
+    the scan and the mark changes it, and the mark is refused with nothing written instead of acknowledging
+    unread bytes. Returns (receipt, {batch: sha}): --mark stores the sha THIS check verified, never a second
+    read (independent read 1 L1, 2026-11-14: a rewrite between two reads was stored as acknowledged)."""
     h = hashlib.sha1()
+    shas = {}
     for b in batches:
-        h.update(f"B {b} {batch_sha(b)}\n".encode())
-    for k in sorted(r["key"] for r in recs):
-        h.update(f"K {k}\n".encode())
-    return h.hexdigest()[:12]
+        shas[b] = batch_sha(b)
+        h.update(f"B {b} {shas[b]}\n".encode())
+    for r in sorted(recs, key=lambda r: (r["key"], str(r.get("raw", "")))):
+        raw = str(r.get("raw", "")).replace("\n", " ")
+        h.update(f"K {r['key']} {raw}\n".encode())
+    return h.hexdigest()[:12], shas
 
 
 def news_batches(saved, last_marked, marked_sha=None):
@@ -756,14 +761,14 @@ def main():
         hz.append(("MED", f"{rb} was rewritten by the collector after --mark (fingerprint {marked_sha} -> "
                           f"{batch_sha(rb)}): re-scanning it whole; read its ordinary headlines too"))
 
-    receipt = scan_receipt(batches, recs)
+    receipt, receipt_shas = scan_receipt(batches, recs)
     if args.mark and not args.receipt:
         print("REFUSED: --mark needs --receipt, the fingerprint of the scan you read. Run the scan, route what "
               "it shows, then run the exact mark command it prints. Nothing written.")
         return 2
     if args.mark and args.receipt != receipt:
-        print(f"REFUSED: the lane or its alerts changed since the scan you read (receipt {args.receipt}, now "
-              f"{receipt}). Re-run the scan, read what changed, then run the mark command it prints. Nothing written.")
+        print(f"REFUSED: the lane or its alerts changed since the scan you read (receipt {args.receipt} no longer "
+              "matches). Re-run the scan, read what changed, then run the mark command it prints. Nothing written.")
         return 2
     if args.mark and args.through and args.through != newest:
         print(f"REFUSED: --through {args.through} but the newest lane batch is now {newest}; "
@@ -780,9 +785,16 @@ def main():
         dropped = [k for k in prev if k not in new_seen]
         seen = {"seen": new_seen, "updated": stamp}
         ptr = mark_pointer(batches, last_marked, args.through or newest)
-        if ptr:
+        if ptr in receipt_shas:
             seen["last_marked_batch"] = ptr  # WQ-676: next scan reads every batch after this one
-            seen["last_marked_sha"] = batch_sha(ptr)  # 2026-11-14: detects a same-day rewrite of the marked batch
+            seen["last_marked_sha"] = receipt_shas[ptr]  # the receipt-verified bytes, not a second read (L1)
+        elif ptr and ptr == last_marked:
+            seen["last_marked_batch"] = ptr  # pointer held (unreadable next batch or pointer ahead): keep its sha
+            if marked_sha:
+                seen["last_marked_sha"] = marked_sha
+        elif ptr:
+            print(f"REFUSED: pointer {ptr} is not a batch this scan fingerprinted. Nothing written.")
+            return 2
         SEEN.write_text(json.dumps(seen, indent=2) + "\n", encoding="utf-8")
         print(f"reconciled intake_seen.json -> {len(new_seen)} currently-true gated key(s) "
               f"(+{len([r for r in recs if r['key'] not in prev])} new, -{len(dropped)} cleared)")
@@ -843,10 +855,12 @@ def main():
     print(f"\n[suppressed — still-true, already seen — {len(suppressed)}]  (do NOT re-push)")
     for r in suppressed:
         print(f"  {r['key']}  ({r['raw'][:70]})")
+    print(f"\n[batch fingerprints — {len(batches)}]  (bound into the receipt below)")
     for b in batches:
-        print(f"  batch {b}  fingerprint {batch_sha(b)}")
-    print(f"\nAfter routing the NEW breaches, run:  python3 tools/intake_scan.py --mark --through {newest} "
-          f"--receipt {receipt}")
+        print(f"  {b}  {receipt_shas[b]}")
+    thru = f" --through {newest}" if newest else ""
+    print(f"\nAfter the 7e(d) to 7e(h) dispositions, run (from the repository root):\n"
+          f"  python3 AGENTS/WALTER/tools/intake_scan.py --mark{thru} --receipt {receipt}")
     return 0
 
 

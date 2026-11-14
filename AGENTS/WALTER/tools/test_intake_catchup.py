@@ -235,5 +235,41 @@ class CatchUp(unittest.TestCase):
         self.assertEqual(self.seen.read_text() if self.seen.exists() else None, before)
 
 
+    # 2026-11-14 independent read 1 (PROME LEDGER_read1.md): L1 CX1, L10, L9.
+    def test_R6_rewrite_inside_mark_is_not_stored_as_read(self):
+        self.seen.write_text(json.dumps({'seen': {}, 'updated': None, 'last_marked_batch': 'data/2026-11-03/news.json'}))
+        read = self.receipt()
+        read_sha = s.batch_sha('data/2026-11-04/news.json')
+        real = s.mark_pointer
+
+        def racing(*a, **k):  # collector rewrite lands after the receipt check, before the state write
+            self.rewrite('2026-11-04', [item('unread late headline', 'NEW')])
+            return real(*a, **k)
+        with mock.patch.object(s, 'mark_pointer', racing):
+            rc, _ = self.mark('--through', 'data/2026-11-04/news.json', receipt=read)
+        self.assertEqual(rc, 0)
+        self.assertEqual(json.loads(self.seen.read_text())['last_marked_sha'], read_sha)
+        st = json.loads(self.seen.read_text())
+        self.assertIn('data/2026-11-04/news.json',
+                      s.news_batches('data/2026-11-04/news.json', st['last_marked_batch'], st['last_marked_sha']))
+
+    def test_R7_reading_change_under_same_key_is_refused(self):
+        before = self.seen.read_text() if self.seen.exists() else None
+        read = self.receipt()
+        self.live['jobs']['newsweep']['by_class'] = {'NEW_WATCH_HIT': 1, 'NEW_WATCH': 2}
+        (self.lane / 'liveness.json').write_text(json.dumps(dict(self.live, last_run_utc='2026-11-04T21:00:00Z')))
+        rc, out = self.mark('--through', 'data/2026-11-04/news.json', receipt=read)
+        self.assertEqual(rc, 2)
+        self.assertEqual(self.seen.read_text() if self.seen.exists() else None, before)
+
+    def test_R8_refusal_does_not_hand_over_the_current_receipt(self):
+        read = self.receipt()
+        self.rewrite('2026-11-04', [item('late', 'NEW')])
+        now = self.receipt()
+        rc, out = self.mark('--through', 'data/2026-11-04/news.json', receipt=read)
+        self.assertEqual(rc, 2)
+        self.assertNotIn(now, out)
+
+
 if __name__ == '__main__':
     unittest.main()
