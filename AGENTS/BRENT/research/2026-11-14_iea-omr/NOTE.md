@@ -1,6 +1,6 @@
 # November 14: IEA November OMR graded at secondaries; FAA ground stop against jet demand; inbox drain (PROME prome-fe commission, C9 / WQ-538 A)
 
-Session started 11:25 EST, note written 11:29–11:4x EST (from `date`). Brief from PROME (prome-fe), not Will's own words. $0, no trade construction, no change to any level, operator, instrument or consequence.
+Session started 11:25 EST, note written 11:29–11:31 EST (from `date`; corrected at closeout from a narrative "11:4x"). Brief from PROME (prome-fe), not Will's own words. $0, no trade construction, no change to any level, operator, instrument or consequence.
 
 ## 0. Access, stated first
 

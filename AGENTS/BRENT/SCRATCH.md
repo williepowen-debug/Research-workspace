@@ -1,46 +1,67 @@
-# BRENT SCRATCH — November 13 (live session for PROME prome-72, 12:40–16:3x EST; closed on PROME's ask 16:24 ET, from `date`)
+# BRENT SCRATCH — November 14 (live session for PROME prome-fe, 11:25–11:37 EST Saturday; closed on PROME's ask, from `date`)
 
 ## CHANGES SINCE LAST SESSION
-- 11/12: Houthi claim of strikes on East-West Pumping Station 7 and the Yanbu oil facility (WALTER SIG-W-20261112-009). FALCON graded it CLAIM ONLY (98b4473ff7); Aramco and SPA silent; the 11/9 Madinah hit is confirmed, attacker NOT ESTABLISHED.
-- Brent settle proxy 11/12: BZF27 95.82 (+3.30%), M1−M3 +4.24, Brent over WTI +0.80; 11/13 window 95.7853, flat [EST vendor, CME 403].
-- CFTC COT #14 (as-of 11/10) is delayed by Veterans Day to **Monday 11/16**; #16 (as-of 11/24) to Monday 11/30 (CFTC 2026 schedule).
+- IEA November OMR published 11/13: "back in surplus" headlines (WALTER SIG-W-20261114-004).
+- FAA nationwide ground stop Fri 11/13, 15:54 to about 20:15 EST: 9,132 cancelled Friday, 4,000+ Saturday (SIG-W-20261114-001).
+- Trump–Putin–Xi trilateral announced for APEC Shenzhen; Xi bilateral Thu 11/19 (SIG-W-20261114-003).
+- Dated Brent (FRED) had already fallen to 91.84 on 11/4 and sat under BZF27 through 11/11; the prints posted after my 11/11 pull.
 
 ## WHAT I DID THIS SESSION
-- Part one: graded card 009 on the settle basis → `research/2026-11-13_yanbu-claim/NOTE.md`. No registered row moves (BRT-32 20%, BRT-33, BG-02, gates, INCIDENTS). combo:yanbu-bypass member logged. Correction applied after FALCON's grade: "third claim or hit in four days", not "fourth in five".
-- Drained the WALTER lane: 009 (acted) and SIG-W-20261113-004 (noted; Volgograd fire photo, unverified, on combo:diesel-buffer). 2 board_log rows = 2 moves.
-- Part two: G:GATE-BRENT-COT-35B #14 NOT GRADEABLE: `cot_grade.py` rc 3 from 15:31 to 16:22 EST (newest 11/3), a second raw pull agrees → `research/2026-11-13_cot14/NOTE.md`. State stays #13 JOINT NOT-SPENT. PROME set the GATES review_by to 11/16.
-- My CATALYSTS COT row was dated 11/13 and was wrong; re-dated to 11/16 with the 11/30 delay noted.
-- BRT-33 window 11/13: +4.9903, valid 5 of 6 → `research/2026-11-13_brt33/NOTE.md`.
-- Two packets to `PROME/inbox/` (both consumed by PROME): commits 621f061103 and 2e96a1b555.
-- Closeout: STATUS rotated (3 verbatim archive sets, crc receipts); NEXUS_BRIEF November 13 row and As-of rotation; TRACKER alert-line stamp SCOPED-PARTIAL; combo reviews gulf-flow-basis and paper-physical-gap re-dated to 11/18 with reasons.
+- **Graded the IEA OMR at five secondaries.** iea.org returns 403 here per WALTER, so I did not attempt it. Write-up: `research/2026-11-14_iea-omr/NOTE.md`.
+  - The Q4 +1.7 mb/d surplus is a **forecast**, matching EIA's +1.47.
+  - October's **observed** build was +52 mb, but it is **at sea**: oil on water rose 86 mb, so land stocks fell about 34 mb (own arithmetic) to the lowest since at least 2016.
+  - OPEC is the outlier on demand (+0.18). IEA spare capacity was NOT FOUND.
+  - Dated Brent was −0.62 under BZF27 on 11/11. My "Dated newest 107.03" lines of 11/8–11/11 are overtaken.
+  - No registered row moves.
+- **Folded in the FAA ground stop.** The upper-bound jet dent is about 0.39 mb, about 0.056 mb/d on the week to 11/13, inside WPSR noise. It is not an oil signal and not BRT-09 evidence.
+  - TSA 11/13 and 11/14 had not posted.
+  - TSA 11/12 = 2,484,345 came from one WebFetch extraction, because this machine gets 403 from tsa.gov.
+- **Drained the inbox.** Five WALTER cards: 004 and 001 acted; 003, 006 and 007 noted. 5 board_log rows = 5 `git mv`.
+- **Combo members logged** on paper-physical-gap, gulf-flow-basis and diesel-buffer. paper-physical-gap now has both what_to_check conditions met; that is logging only.
+- **Delivery:** packet to PROME/inbox, commit 64b6dd7088. PROME verified it at the artifact and re-pulled FRED itself. PROME sent TERRY six facts for a read before Monday's open.
+- **Closeout:**
+  - STATUS rotated: 6 verbatim sets to `archive/STATUS_dated_2026-11-14_rotation.md`, now 70% of budget.
+  - TRADE rotated: 4 sets to `archive/TRADE_rotation_2026-11-14.md` (WQ-386 discharged record, 7 resolved October receipts, the superseded 10/26 evidence line, the VOID leg-(b) bullet), now 70% of budget. This finished the carried housekeeping.
+  - 5 graded CATALYSTS rows pruned verbatim to `archive/CATALYSTS_pruned_2026-11-14.tsv`.
+  - TRACKER stamped SCOPED-PARTIAL.
+  - Standing rows re-stamped 11/14 after a re-read; none changed.
 
 ## NEXT SESSION (dated, future-verifiable)
 1. **Monday 11/16 after 15:30 ET: G:GATE-BRENT-COT-35B, vintage #14.** Run `cot_grade.py --expect 2026-11-10`, cross-check the raw `f_disagg.txt`, and **cite the row key in the commit subject**. A due-row wake at PROME's Monday boot.
-2. **IEA OMR November (released 11/13, UNREAD):** grade its Q4 balance and January spare against EIA (build 1.47; COPS_OPEC 0.01) and Saudi's stated room (`research/2026-11-11_saudi-momr/NOTE.md` § 8) before the 11/29 OPEC+ letter. Then review combo:gulf-flow-basis and combo:paper-physical-gap (re-dated to 11/18).
-3. **Every session through Friday 11/27, BRT-33:** copy `research/2026-11-13_brt33/pull.py` with the date changed, after about 14:45 ET. Valid 5 of 6; 8 needed or NO-VERDICT. Read the Thanksgiving 11/26–11/27 schedule when near.
+2. **Monday 11/16: BRT-33 window and TSA.**
+   - BRT-33 window after about 14:45 ET: copy `research/2026-11-13_brt33/pull.py` with the date changed. Valid 5 of 6; 8 needed by 11/27, or NO-VERDICT.
+   - TSA 11/13–11/15 should have posted (TSA updates Monday to Friday by 9 a.m.). Record Friday's against the 11/12 figure of 2,484,345; that figure is single-source.
+3. **Every session through Friday 11/27, BRT-33:** same pull. Read the Thanksgiving 11/26–11/27 schedule when near.
 4. **Wednesday 11/18 (modeled; verify at eia.gov):** WPSR week 11/13.
    - BRT-31 week six qualifies if the weekly print is at or under 8,890 kb/d.
    - BRT-34 second print.
-   - Retail gasoline Monday 11/16 print.
-   - Review combo:yanbu-bypass, diesel-buffer, gulf-access-cost (11/19).
-5. **Monday 12/14:** OPEC December MOMR; ask Will for the PDF.
-6. Any session: a Saudi statement of a pumping-station, line or Yanbu loading outage → BRT-32 read, INCIDENTS row (primary-verified), TERRY packet the same session. A laden-tanker loss with cargo confirmed → BG-02 report, flag, stop.
-7. Carried housekeeping (SKIPPED 11/12 and 11/13, scoped wakes): **TRADE at 90% of budget: rotate dated records verbatim to under 70% (remove about 6,608 B).** USO/observations.tsv freeze or refresh. Rows dated 11/13 still unresolved in CATALYSTS: Northeast heating-oil reserve deliveries, IEA OMR.
+   - Jet product supplied: the ground-stop dent is about 0.056 mb/d, inside noise; record it, do not grade it.
+   - Combo reviews: gulf-flow-basis and paper-physical-gap (11/18); yanbu-bypass, diesel-buffer and gulf-access-cost (11/19).
+5. **Before Sunday 11/29 (OPEC+ January letter):** the IEA spare-capacity figure is still missing. Will's browser could read it at iea.org/reports/oil-market-report-november-2026 (Highlights; the table is in the paid report). OPEC's call on OPEC+ is in MOMR Table 11-1 (Will's 11/11 PDF). The spare read stays CONTESTED: EIA 0.01 against Saudi-implied 1.2–1.3.
+6. **Thursday 11/19:** after the Trump–Xi bilateral and the trilateral, check for any Hormuz or Iran-export statement (SIG-W-20261114-003). Record only.
+7. **Monday 12/14:** OPEC December MOMR; ask Will for the PDF. **Friday 12/11:** IEA December OMR.
+8. **Any session:** a Saudi statement of a pumping-station, line or Yanbu loading outage → BRT-32 read, an INCIDENTS row (primary-verified) and a TERRY packet the same session. A laden-tanker loss with the cargo confirmed → BG-02 report, flag, stop.
+9. **Housekeeping:**
+   - USO/observations.tsv: freeze or refresh.
+   - The 11/13 Northeast heating-oil reserve row in CATALYSTS is still unresolved.
+   - INCIDENTS: 7 ACTIVE rows are past the 60-day re-verify budget (boot flag).
 
 ## OPEN THREADS / WATCHES
-- 🟠 Yanbu bypass: three claims or hits in four days, the settle priced it, nothing confirmed. Known-unknown: neither BRENT nor FALCON reads Yanbu loadings directly; BRT-32 settles on statements and wires.
-- 🟠 Spare capacity before 11/29: EIA 0.01 against Saudi-stated 10.563; IEA OMR adjudicates (unread).
-- 🟠 Paper-physical gap: the curve priced risk on 11/12 in a US build week.
-- 🟠 BRT-31 end states left: MET, NO-VERDICT, NOT-FIRED-PRECONDITION or CONTAMINATED.
-- 🟡 Dashboard re-pin and L925 `fetch.py` roots are PROME's.
+- 🟠 **Paper-physical gap.** Both conditions are now met. The balance surplus is real but sits at sea, and Dated is under the futures. What remains is location, not existence; the 11/18 review should say whether to close the theme.
+- 🟠 **Spare capacity before 11/29:** CONTESTED; the IEA figure is missing.
+- 🟠 **Yanbu bypass:** three claims or hits in four days, nothing confirmed. Neither BRENT nor FALCON reads Yanbu loadings directly.
+- 🟠 **BRT-31 end states left:** MET, NO-VERDICT, NOT-FIRED-PRECONDITION or CONTAMINATED.
+- 🟡 The dashboard re-pin and the L925 `fetch.py` roots are PROME's.
 
 ## POSITION DECISIONS PENDING
-- None from BRENT. Positions are TRADE's and Will's; no reminders (USER.md). FORGE D-98 elapsed-expiry rows are Will/PROME's. No TERRY card from 11/13 (FALCON asked TERRY on the claims, a1cab82b06).
+- None from BRENT. Positions are TRADE's and Will's; no reminders (USER.md).
+- PROME sent TERRY the IEA facts for a read before Monday's open. FORGE D-98 elapsed-expiry rows are Will's and PROME's.
 
 ## MAIL STATE
-- Inbox: clear (top-level and WALTER lane; 2 consumed 11/13, 2 rows = 2 moves).
-- Outbox: no undelivered BRENT packets; both 11/13 PROME packets consumed.
+- Inbox: clear in both lanes (5 consumed 11/14; 5 rows = 5 moves).
+- Outbox: no undelivered BRENT packets. The 11/14 PROME packet was consumed and verified by PROME.
 
 ## WORKBOOK HEALTH
-- COT_VINTAGES.tsv flagged +21d by ledger staleness; it refreshes at the #14 grade on 11/16 (no print to add today).
-- No background process of mine is running (grader retry loop stopped 16:23 EST; BRT-33 pull finished 14:47 EST).
+- COT_VINTAGES.tsv: refreshes at the #14 grade on 11/16.
+- LESSONS_INDEX.tsv: +35 days, no lesson change owed.
+- No background process of mine is running.

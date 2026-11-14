@@ -2,29 +2,13 @@
 
 **Newer broker evidence, read November 5 evening:** [FORGE/STATUS](../../FORGE/STATUS.md) carries ANVIL's reconcile to Will's Fidelity captures posted November 5 10:01 ET and the Robinhood capture after the close. It supersedes the October 22 and October 30 quantities below where a row says so; originals not viewed here. Marks there are intraday, not closes.
 
-**Position evidence reconciled October 26:** latest positions capture is October 22, 11:01 ET per Will, as secondarily transcribed by PROME; October 23 Pending/activity evidence and TERRY’s booking are subsequently available. Original images were not independently viewed here. Fidelity IRA account continuity is INFERRED (identifier obscured); quote/fill clocks, unseen orders and later events remain UNKNOWN. [October 22 source](../../PROME/data/2026-10-22_broker-capture-TRANSCRIPTION.md), [October 23 activity](../../PROME/data/2026-10-23_broker-activity-TRANSCRIPTION.md), [TERRY booking](../TERRY/research/2026-10-23_broker-booking/NOTE.md). Quantities after activity below are DERIVED, not a new broker capture. Earlier October 19-only header is superseded; receipts are reconciled, never rebooked into FORGE/TERRY.
+**Position evidence reconciled October 26:** superseded by the November 5 line above; verbatim → [rotation](archive/TRADE_rotation_2026-11-14.md) set a.
 
 **Authority recovered:** WQ192 STAND DOWN remains. WQ386/420 cover only the original VLO share, December observations October15–November19; prior established exits survive. Two added shares' management scope remains UNKNOWN; former scale instruction TERMINAL. The [WQ420 Approved exact insert](../../PROME/proposals/2026-10-11_wq418-420-RULED.md#approved-exact-insert) governs precision and [14:28,14:30) proxy selection; read it completely before any grade. PROME L684 installation acceptance was already complete October14 ([receipt](audits/2026-10-14_consistency-sweep/owner-acceptance-receipt.json)), not a holding grade. Complete decision read paths below remain binding; no new source/holding grade made. October14 USO December screen remains dated research only. [Startup receipt](audits/2026-10-20_startup/receipt.json).
 
 ### WQ-386 — approved amendment applied to original held VLO ×1
 
-**✅ DISCHARGED November 5 (TERRY, FORGE):** Will sold the original share at the regular session, November 5, at $366.665, realized −$45.33 against the $412.00 fill. No further leg-A observation or basis review is owed; the November 18–19 catalyst rows are closed. The December letter below stays as the record of the rule.
-
-**🔴 EXIT ESTABLISHED by TERRY, graded 2026-11-04 20:36 EST (TERRY owns; BRENT records):** accepted November 2 reading **$89.2472**, source (2) within $0.0328 of source (3), $0.9128 below $90.16. November 3 $94.1952 does not cancel under the letter; November 4 $88.5451 is a source (3) ESTIMATE. October 29 $90.6750 and October 30 $92.2762 did not fire, which discharges the BRENT October 29–30 items in SCRATCH. TERRY's SELL recommendation covers the ONE original share only, at the Thursday November 5 regular session; Will executes, no desk order. ⚠️ CME settlements unread (blocked); a final November 2 settle at or above $90.16 reverses the grade. BRENT could not reach a settlement by any other route on November 4 (one web search, none found). Vendor controls: daily row equalled CME FINAL on October 23 and CME preliminary on October 30, so a reversal needs the vendor HOZ26 row to be about 2.2 cents per gallon wrong, or CLZ26 about $0.91 wrong. [TERRY note](../TERRY/research/2026-11-04_vlo-leg-a/NOTE.md); `PROME/GATES.tsv` mirrors FIRED-UNEXECUTED. Vendor November 4 daily rows read HOZ26 4.2055 and CLZ26 88.12 on November 5, but each repeats the November 3 volume, so the letter rejects them; TERRY's source (3) estimate stands for that date.
-
-**October 15–30 December observations rotated, discharged:** [verbatim archive](archive/TRADE_wq386-observations_2026-11-05.md), 2326 UTF-8 payload bytes, crc32 `a82a3865`.
-
-Canonical ruling: [PROME § Approved amendment](../../PROME/proposals/2026-10-07_VLO-december-management-RULED.md#approved-amendment). TERRY owns canonical card integration and grades; Will executes. Exact approved operational letter reproduced for this reader path; rationale at [RULINGS](RULINGS.md#r-2026-10-07-wq-386--held-share-month-extension).
-
-> For GATE-TERRY-VLO-HELD-01 leg A only, November matched HOX26×42−CLX26 governs through the October 14, 2026 settlement. December matched HOZ26×42−CLZ26 governs the settlement observations dated October 15 through November 19, 2026, inclusive. Verify named-contract identity on each pull; a continuous ticker or wrong delivery month is rejected. No automatic January roll is authorized.
->
-> The held-share thresholds remain strictly below $95 per barrel for notice only and strictly below $90.16 per barrel for TERRY's SELL recommendation. The stock price is not the crack and is not a new stop. The switch is unconditional on the two months agreeing: an accepted December reading below $90.16 may trigger the exit even if November remains above it. No offset, persistence requirement, roll-window suppression or threshold recalibration is adopted.
->
-> Preserve the existing source order and observation standard: (1) CME settlement; (2) the vendor daily row dated to that session, finalized and accepted only within $0.15 of (3); (3) 14:28–14:30 ET one-minute volume-weighted settlement-window proxy, labelled ESTIMATE. Reject duplicated-volume/provisional daily rows. If only (3) is available within ±$0.15 of $90.16, or a required leg/window/identity is missing, the observation is UNKNOWN, not a fire. Do not substitute a later session's value or a stale expired-contract value. Re-read at the next touch under the existing missing-data rule. This extension creates no automatic monitor or guaranteed touch cadence.
->
-> An exit established under the prior governing November observation remains owed after the switch; an outstanding exit is not cancelled by a higher December reading, missing data or the end of the observation window. TERRY writes the recommendation at its next touch; Will executes at the next regular session under the existing card. No order is placed by the desk.
->
-> Review the next basis by November 18, 2026. If no further ruling is made, new leg-A observations become SUSPENDED/UNKNOWN after the November 19 settlement. An already-established exit still remains owed. Policy legs B1–B3 and their existing execution limitations continue unchanged until sale or withdrawal. This is authority to maintain the existing share's management rule, not to buy or re-enter.
+**✅ DISCHARGED November 5 (TERRY, FORGE):** original share sold; nothing owed. Full record verbatim → [rotation](archive/TRADE_rotation_2026-11-14.md) set b.
 
 
 ## CURRENT STANCE (THESIS v5.13; v5.8 numerical calibration retained)
@@ -65,10 +49,7 @@ Ideas, not proposals: no size, strike, order or authority. TERRY constructs any 
   - Reasons (the vendor baseline spread of 0.8 mb/d exceeds the 0.7 floor; AIS-dark error is correlated with the trigger) are in the [before-image](archive/2026-09-28_cleanup/TRADE.md) § FRAME-BREAKER.
 - **Successor Saudi-restart resolver: ABANDONED as designed (WQ-533 (a), Will 2026-10-29 13:33 ET).** PROPOSAL `setups/2026-09-18_saudi-restart-resolver-PROPOSAL.md`; its WQ-264 shadow run ended October 24 with 3 of about 30 reads. **WQ-331 P4 (Will 9/28 18:36)** made it the ONLY Saudi-relief grader, so **no Saudi-relief grader is registered**; Yanbu reports remain record-only ([THESIS § TWO PHASES](thesis/THESIS.md)). BG-02 R1/R4 are untouched. Nothing is armed. A replacement is a new proposal to Will. [RULINGS](RULINGS.md) § R-2026-10-29-WQ-533.
 - **WQ-420 crack basis while CME blocks this box (WQ-533 (b), Will 2026-10-29):** sources (2)/(3) accepted; no unblock attempt. Within roughly $1–2 of $90.16, report NOT MEASURABLE where vendor-vintage spread exceeds the margin (LESSONS #5) and ask Will for the CME settlement from his own device. TERRY still grades.
-- **Staged leg-(b) structure (USO Nov-20 165/180, 9/10 pricing) and its `$4.95` breach-branch refusal: VOID as priced.** The Nov-20 eligibility window closed 9/21, and every figure was keyed to USO 158.38. Any future leg (b) is re-cut from scratch under BG-03/BG-04. **Two principles carry forward:**
-  - a refusal debit is pre-registered BEFORE the fire;
-  - the fire-time debit comes from the **broker chain, never `chain_fetch.py`** (it read ~10% optimistic on the transacting side, n=1).
-  - Verbatim text: before-image.
+- **Staged leg-(b) structure (USO Nov-20 165/180): VOID as priced** → [rotation](archive/TRADE_rotation_2026-11-14.md) set d.
 - **Three gates, all required at any fire:** (i) BG-02 head clause met on the letter · (ii) **WQ-192 lifted in Will's own words** (a relayed recommendation is not an approval) · (iii) **Will's [Approve] at the fill.**
 
 ## POSITIONS (live)
@@ -131,14 +112,8 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 | 2026-10-30 | **USO Nov11 $172C BOUGHT OPEN 1**, net 532.66 | FORGE November 5 Activity, broker-verified; fill price not shown. receipt_status=RESOLVED |
 | 2026-10-30 | **USO Oct30 $163C SOLD CLOSE 1**, fill 8.01, net 800.32 | FORGE October 30 ledger, broker-verified; DERIVED realized +441.66 versus 358.66 basis. No duplicate booking. receipt_status=RESOLVED |
 | 2026-10-27 | **USO Nov20 $170C BOUGHT OPEN 1**, net 627.66 | FORGE October 30 ledger, broker-verified; fill price not shown. Will's own hand. receipt_status=RESOLVED |
-| 2026-10-23 | **USO 5 shares SOLD**, fill 168.595, net 842.96 | Secondary Pending view + TERRY booking; 35→30 DERIVED, no new capture. Lot-specific realized not adopted here. receipt_status=RESOLVED |
-| 2026-10-23 | **USO Oct30 $165C SOLD CLOSE 1 of 2**, fill 7.15, net 714.32 | TERRY booking matches activity; remaining 1 DERIVED, lot allocation UNKNOWN; no duplicate booking. receipt_status=RESOLVED |
-| 2026-10-23 | **USO Oct23 $163C SOLD CLOSE 1**, fill 4.36, net 435.34 | Matched TERRY CLOSED card; DERIVED realized +145.68 versus 289.66 basis. Separate 4.50 limit canceled. receipt_status=RESOLVED |
-| 2026-10-21 | **USO Oct30 $163C BOUGHT OPEN 1**, net 358.66 | October 22 positions+ledger; gross fill/time UNKNOWN; distinct from October23 contract. receipt_status=RESOLVED |
-| 2026-10-20 | **USO Oct30 $165C BOUGHT OPEN 1**, fill 3.15, net 315.66 | October 20 Filled 3.17-limit order; separate 3.15-limit order canceled; quantity 2 confirmed October 22 before October 23 sale. receipt_status=RESOLVED |
-| 2026-10-14 | **USO Oct14$150C ×2 SOLD CLOSE**, net **$760.68** | October15 Fidelity Activity two exact-contract sales354.34+406.34; original basis375.33 gives DERIVED realized+$385.35. Secondary transcription and TERRY closed card matched; times UNKNOWN; no duplicate booking. receipt_status=RESOLVED |
-| 2026-10-19 | **USO Oct23 163C / Oct28 165C / Oct30 165C BTO ×1 each** | October19 secondary Activity rows2/3/18: fills2.89/3.35/2.70, net debits289.66/335.66/270.66. No roll linkage or management approval inferred. receipt_status=RESOLVED |
 **Resolved October 9–12 receipts:** [verbatim before-image](audits/2026-10-26_key-file-review/before/TRADE.md) § EXECUTION LOG; no unresolved receipt moved. Whole-file byte/hash receipt at [manifest](audits/2026-10-26_key-file-review/before-manifest.json).
+| — | **2026-10-14 to 2026-10-23 rows (7), all RESOLVED** | Moved verbatim → [rotation](archive/TRADE_rotation_2026-11-14.md) set c |
 
 **Closed October1–September15 execution receipts:** [verbatim archive](archive/TRADE_closed_receipts_2026-10-13.md), 2417 UTF-8 payload bytes, crc32 `d35c6727`; payload after first standalone separator, outer whitespace stripped. Unresolved broker facts stay above.
 

@@ -2,15 +2,13 @@
 
 **November 14 (11:25 EST start, PROME commission prome-fe, C9 / WQ-538 A), SCOPED-PARTIAL:** v5.13 / WAIT unchanged; nothing armed. **IEA November OMR (11/13) graded at five secondaries** (iea.org 403 per WALTER, not attempted): the **+1.7 mb/d Q4 surplus is a FORECAST** (Q4 supply 105.0), against EIA STEO +1.47 forecast, so two agencies agree within 0.23. The **observed** part is October: world stocks **+52 mb**, first rise since June, but oil on water **+86 mb**, so land stocks fell about 34 mb (own arithmetic) to the lowest since at least 2016: **the surplus is at sea.** OPEC is the outlier on demand (2026 +0.18 mb/d against IEA −2.7) [EST Argus via search]. **IEA spare capacity NOT FOUND**: the 11/29 spare read stays CONTESTED (EIA 0.01 vs Saudi-implied 1.2–1.3). **Dated Brent is under the future:** FRED DCOILBRENTEU 92.14 on 11/11 vs BZF27 92.76 (−0.62), −1.54 on 11/9; Dated fell 107.03 → 91.84 on 11/4. My "newest $107.03 (11/3)" lines of 11/8–11/11 are overtaken. combo:paper-physical-gap has both what_to_check conditions met (logging only). **FAA ground stop 11/13** (15:54 to about 20:15 EST): 9,132 cancelled Friday, 4,000+ Saturday [FlightAware via ABC/Yahoo]; upper-bound jet dent about 0.39 mb, about 0.056 mb/d on the week to 11/13 (own arithmetic on 1.777 mb/d [CONF EIA]), inside weekly noise; not fuel-driven, not BRT-09 evidence. TSA 11/13–11/14 not posted. **No registered row moves** (BRT-07/32/33/34, BG-02, F-a, price lines) → [note](research/2026-11-14_iea-omr/NOTE.md). Inbox drained: 5 WALTER cards (2 acted, 3 noted).
 
-**November 13 (12:40 EST start, PROME assignment prome-72; part one delivered 12:5x EST; part two delivered 16:3x EST), SCOPED-PARTIAL:** v5.13 / WAIT unchanged; nothing armed. **COT #14 (as-of 11/10) NOT GRADEABLE today:** `cot_grade.py` rc 3 to 16:22 EST (newest 11/3) and a second raw pull agrees; the CFTC schedule delays it to **Monday 11/16, 15:30 ET** (Veterans Day); my calendar's 11/13 date was wrong, re-dated. The COT row below stays #13, JOINT NOT-SPENT → [note](research/2026-11-13_cot14/NOTE.md). **BRT-33 11/13:** +4.9903, valid 5 of 6, not under +3.50 → [note](research/2026-11-13_brt33/NOTE.md). **11/13 settle proxy** BZF27 95.7853 (window VWAP), flat on 11/12; the 96.23 daily bar at 16:23 is a post-settle last. FALCON 98b4473ff7: claims CLAIM ONLY. **Houthi claim on East-West Pumping Station 7 and Yanbu (11/12, WALTER SIG-W-20261112-009):** claim only, Aramco and SPA silent; FALCON grades the claim. **Settle basis (vendor proxy, CME blocked):** BZF27 92.76 → **95.82 (+3.30%)**, M1−M3 window +3.8713 → +4.2394, Brent−WTI Jan +0.80; front-led, held flat 11/13 midday (95.80). **No registered row moves:** BRT-32 letter not met (20%), BRT-33 further from +3.50, BG-02 nothing, no INCIDENTS row. combo:yanbu-bypass weight up, state unchanged → [note](research/2026-11-13_yanbu-claim/NOTE.md).
-
-**Rotated 2026-11-13:** the November 12 block and its summary for Will → [archive](archive/STATUS_dated_2026-11-13_rotation.md), 2081 B crc32 `bad73ee7`. Older receipts (the November 12 and 11 rotations, set b and everything they reach) → [archive](archive/STATUS_dated_2026-11-13b_rotation.md), 485 B crc32 `6668abf8`.
+**Rotated 2026-11-14:** the November 13 block and its receipts, the November 12 and 10 reconciliation receipts, the November 13 refresh segment, the November 13 summary for Will, and the 9/07 dated-detail pointer with the older-receipts index line → [archive](archive/STATUS_dated_2026-11-14_rotation.md), six verbatim sets, bytes and crc32 per set in its header.
 
 **Official boundary:** CME has **IP-blocked this machine** (HTTP 403, terms-of-use message, October 28 23:49 ET); no evasion attempted. Latest authenticated CME pair remains October 23 (CLZ26 103.27 / HOZ26 4.7870, crack 97.7840). No official ICE page read. Vendor and wire values never complete a registered count. **WQ-533 (b), Will 10/29 13:33 ET:** sources (2)/(3) accepted as the crack basis while blocked, with a near-the-line exception → [TRADE](TRADE.md).
 
-**Throughput:** current comparable Gulf volume UNRESOLVED on a measured basis. First agency estimate: EIA STEO 11/10 puts Middle East crude shut-ins at 2.5 mb/d in October (10.9 at the May peak), exports up slightly after the Saudi East-West restart (Vortexa), plus STS along Oman [primary text, agency estimate]. One agency on a vendor feed, not a strait count → [note](research/2026-11-10_pickup/NOTE.md#3). **11/11:** OPEC secondary sources put Saudi October at 9.194 against EIA's 9.3, so the 2.5 is confirmed on the level → [grade](research/2026-11-11_saudi-momr/NOTE.md) § 8.
+**Throughput:** current comparable Gulf volume UNRESOLVED on a measured basis. Agency estimates only (EIA 2.5 mb/d shut in, October; IEA Gulf exports excluding Oman 18.4 mb/d, 26% below pre-war) → [archive set f](archive/STATUS_dated_2026-11-14_rotation.md) and combo:gulf-flow-basis.
 
-**Last real market/source refresh:** November 14, 11:25–11:45 EST: IEA OMR 11/13 at five secondaries (report itself not read); FRED DCOILBRENTEU and DJFUELUSGULF (newest 11/11); FlightAware via ABC/Yahoo; TSA 11/12 (WebFetch extraction, this machine 403). Before that, November 13, 12:40–16:23 EST: vendor one-minute and daily bars BZF27/BZG27/BZH27/CLF27/CLZ26 (11/12 settle proxy 95.82; 11/13 window 95.7853; [EST vendor, CME 403]); raw CFTC f_disagg.txt (newest 11/3) and the CFTC 2026 release schedule; FALCON's claim grade 98b4473ff7 read at its commit. The superseded line (November 12 and 11 refreshes) → [archive](archive/STATUS_dated_2026-11-13c_rotation.md), 686 B crc32 `58062422`. Not refreshed: insurance quotes, FINRA USO short interest, COT #14 (Mon 11/16), EIA weekly (week 11/13, Wednesday 11/18, modeled). Positions/receipts → [TRADE](TRADE.md); broker truth off-repo.
+**Last real market/source refresh:** November 14, 11:25–11:31 EST (from `date`): IEA OMR 11/13 at five secondaries (report itself not read); FRED DCOILBRENTEU and DJFUELUSGULF (newest 11/11); FlightAware via ABC/Yahoo; TSA 11/12 (WebFetch extraction, this machine 403). Not refreshed: insurance quotes, FINRA USO short interest, COT #14 (Mon 11/16), EIA weekly (week 11/13, Wednesday 11/18, modeled). Positions/receipts → [TRADE](TRADE.md); broker truth off-repo.
 
 **Navigation:** [README](README.md) · [handoff](SCRATCH.md) · [cleanup accepted; warning retained](audits/2026-10-20_organisation-cleanup/REVIEW-CLOSED.md) · [USO](USO/README.md) · [live-routine acceptance still unverified](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et).
 
@@ -24,7 +22,6 @@
 
 > ⚑ **CREATED 2026-09-07 — first application site of READ_CAP rule 19** (Will-ruled; DAEDALUS P1 ACTIONs 1–4).
 > **Reconciliation November 14:** all 8 rows re-read against the IEA OMR grade ([note](research/2026-11-14_iea-omr/NOTE.md)): none changes. No COT, rig, JWC, export or owner-file fact is touched; sentinel ⑤ applied (the "Gulf exports recover" headline is not a Hormuz throughput figure); stance v5.13 / WAIT unchanged. Archive payloads not re-hashed this pass (last reproduced November 10).
-> **Reconciliation November 12:** all 8 rows re-read after the WPSR week 11/6 grade: only the export row's figures change (updated); no COT, rig, JWC, sentinel, stance or owner-file fact is touched by the print (no new COT until 11/13; THESIS v5.13 and TRADE unchanged). **November 10:** all 8 rows re-read after the 11/6 COT and 11/10 STEO grades: COT row matches the ledger tail (125,654 / 6.5831%, as-of 11/3); export row matches week 10/30 (3.675M b/d), STEO changes neither; both archive payloads reproduce (88,876 B `4bb7aad6`, 9,970 B `d82761d3`, leading and trailing newline stripped); BRT-26 CONFIRMED 9/25 matches PREDICTIONS; JWC index re-fetched, still JWLA-035; stance WAIT, no arm (TRADE); owner files present. Earlier receipts → [rotation](archive/STATUS_dated_2026-11-10b_rotation.md).
 > **The rows below are STANDING, not dated** — extracted verbatim, each carrying `⏱ as-of` (data vintage) and `✓ reconciled` (last checked against its canonical record). 📖 *(how the extraction was scoped, and the stale line-number near-miss: `archive/STATUS_DETAIL_2026-09.md` § repairs)*
 
 | | |
@@ -40,15 +37,7 @@
 
 ---
 
-## 📦 DATED DETAIL 9/07 → [archive](archive/STATUS_DETAIL_2026-09.md) (50,350 B, crc32 `645c5ded`); its still-live list → [archive](archive/STATUS_dated-detail-pointer_2026-09-07.md) (1710 B, crc32 `fa53ae4a`)
-
-> **Still live, each at its owner:** BG-02 letter (Will 9/7, WQ-189; prospective-only) → `setups/SPECS_GATES.md` · WQ-189/192 RULED and CLOSED, do not re-open → TRADE · **BRT-30 CONFIRMED 10/26 on the JWLA-034 baseline** → PREDICTIONS + the JWC row above · Russia diesel carve-out Q1 UNKNOWN-AT-PRIMARY → CATALYSTS 9/1 row · FALCON GATE 2 fired on its letter; descriptive, no capital trigger.
-
----
-
 ## 📚 ARCHIVE INDEX + OWNER POINTERS — *one line each; narrative lives at the link*
-
-> 📦 **Older rotation receipts and archive sets (2026-08-04 → 2026-09-14, plus the tombstone rule)** → [archive](archive/STATUS_dated_2026-11-11c_rotation.md), 652 B crc32 `f7c37db2`.
 
 > ➡️ **OWNERS (read these, never a copy here):** thesis stance → [`thesis/THESIS.md`](thesis/THESIS.md) · positions / rules / execution log → [`TRADE.md`](TRADE.md) · predictions → [`thesis/PREDICTIONS.tsv`](thesis/PREDICTIONS.tsv) · registered tests → [`workbook/REGISTRY.tsv`](workbook/REGISTRY.tsv) · operational lines → `demand_destruction/TRACKER.md` · forward items → [`SCRATCH.md`](SCRATCH.md) § NEXT SESSION + `docket/CATALYSTS.tsv` · Saudi dual-route watch (7/21, never executed) → Yanbu/Bab rows in `docket/CATALYSTS.tsv` + `refinery_damage/INCIDENTS.tsv` · convergence matrix: 7/21 score is a point-in-time record, a new read is a fresh scoring pass.
 
@@ -76,19 +65,14 @@
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Tue Nov 3** | MPC Q3 2026 RESULTS — L689 conditional refiner candidate | 🟠 |
 | **~Tue Nov 3** ⌁*modeled* | ARAMCO Q3 2026 RESULTS and US MIDTERM ELECTION | 🟠 |
-| **Wed Nov 4** | ✅ EIA WPSR — week ending 10/30 GRADED 2026-11-05: BRT-31 week four −0.4351%, NON-QUALIFYING | 🟠 |
-| **Thu Nov 5** | ✅ BRENT M1−M3 SETTLEMENT WINDOW — GRADED 2026-11-05: window NOT MEASURABLE (BZH27 no bars), F-a not crossed | 🟠 |
-| **Fri Nov 6** | ✅ CFTC COT #13 — GRADED 2026-11-06 15:34 ET: JOINT NOT-SPENT, 7th, 125,654 / 6.5831% | 🟠 |
 | **Tue Nov 10** | ✅ EIA NOVEMBER STEO — GRADED 2026-11-10: released, Q4 world balance flipped from a 0.69 mb/d draw to a 1.47 mb/d build; COPS_OPEC 0.01 mb/d through Q1 2027 | 🟡 |
 | **Thu Nov 12** | ✅ EIA WPSR — week ending 11/6 GRADED 2026-11-12: BRT-31 week five −1.0346% NON-QUALIFYING (NOT MET no longer reachable); BRT-34 103,330 not below; utilization 95.2% crossed line 3 | 🟠 |
 | **Fri Nov 13** | NORTHEAST HOME HEATING OIL RESERVE — up to 315,000 bbl exchange deliveries due complete | 🟠 |
 | **Fri Nov 13** | ✅ IEA OMR NOVEMBER — GRADED 2026-11-14 at secondaries: Q4 surplus +1.7 mb/d is a FORECAST (EIA +1.47); October observed build +52 mb is at sea (water +86); spare NOT FOUND | 🟠 |
 | **Mon Nov 16** | CFTC COT #14 — as-of 11/10, release Monday ~15:30 ET (Veterans Day delay) | 🟠 |
-| **Wed Nov 18** | ✅ WQ-386 HELD VLO — DISCHARGED 2026-11-05: original share sold, no basis review needed | 🟠 |
 | **~Wed Nov 18** ⌁*modeled* | EIA WPSR — week ending 11/13, standard Wednesday release | 🟠 |
 | **Wed Nov 18** | COMBO WATCH gulf-flow-basis — do the tracker reads converge on one Gulf export figure? | 🟡 |
 | **Wed Nov 18** | COMBO WATCH paper-physical-gap — is the paper curve pricing a surplus the physical market does not show? | 🟡 |
-| **Thu Nov 19** | ✅ WQ-386 HELD VLO — DISCHARGED 2026-11-05: no further leg-A observations owed | 🟠 |
 | **Thu Nov 19** | COMBO WATCH yanbu-bypass — is the Red Sea bypass at risk of a real loading loss? | 🟡 |
 | **Thu Nov 19** | COMBO WATCH diesel-buffer — is the world diesel buffer thinner than the US stock print shows? | 🟡 |
 | **Thu Nov 19** | COMBO WATCH gulf-access-cost — is the attack pace turning into route exits or cost? | 🟡 |
@@ -105,9 +89,9 @@
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 | **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 8 of 43 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 8 of 38 rows are modeled.*
 
-*43 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*38 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
@@ -118,6 +102,4 @@
 
 **November 14:** The International Energy Agency says the oil market is back in surplus, but read closely, the 1.7 million barrel-a-day surplus is a forecast for the October-to-December quarter, and it matches what the US Energy Information Administration said on November 10. What has actually been measured is October: world oil stocks rose for the first time since June, but more than all of that rise is oil sitting on tankers at sea on longer routes; oil stored on land fell to its lowest since at least 2016. At the same time the physical price of North Sea crude has dropped under the futures price since November 4, so the extra premium buyers were paying for prompt barrels is gone. OPEC still disagrees, because it thinks demand grows this year. ⚠️ The agency report itself was blocked to us; I graded it from five news accounts that agree with each other, and the one number I most wanted, how much spare production capacity the Saudis really have before the 11/29 OPEC+ decision, was not in any of them. Friday's nationwide flight grounding cost at most about 0.4 million barrels of jet fuel, too small to show in Wednesday's government data, and it is not an oil signal. No forecast or gate of mine moves. No decision for Will.
 
-**November 13:** A Yemeni militia (the Houthis) claimed new strikes on the Saudi pipeline that lets oil bypass the Strait of Hormuz, and on its Red Sea port, Yanbu. Nothing is confirmed: Saudi Aramco and the Saudi government said nothing, and FALCON graded the claims unconfirmed. Brent still rose 3.3% at Thursday's settlement, to $95.82, with near months rising most, which is how a supply-risk premium looks; it held flat Friday. No forecast or gate of mine moves. The weekly speculator-positioning report I was due to grade today is delayed by Veterans Day to Monday 11/16; my calendar had the wrong date. No decision for Will.
-
-Summaries from November 12 back to October 14 are preserved verbatim in the [November 13 rotation](archive/STATUS_dated_2026-11-13_rotation.md), the [November 12 rotation](archive/STATUS_dated_2026-11-12_rotation.md), the [November 10 second rotation](archive/STATUS_dated_2026-11-10b_rotation.md) and the archives it points to.
+Earlier summaries → [November 14 rotation](archive/STATUS_dated_2026-11-14_rotation.md) set d and the archives it points to.
