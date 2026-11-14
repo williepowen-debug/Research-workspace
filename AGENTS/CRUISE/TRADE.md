@@ -32,7 +32,7 @@ Source and arithmetic: `research/2026-10-25_catchup/RESULT.md`, `calculations.js
 |---|---|---|
 | ✅ RCL Q3 October 27 (L713) — **GRADED 10/28, L713 RESOLVED** | Beat (adj EPS $6.57) and raised (FY CC yield ~+2.1%, EPS $17.85–17.95); ladder 32.58% | Exit rule 1 limb 2 NOT FIRED. Strengthens dispersion; no trade change. KB-CRU-203..205. |
 | NCLH Q3 October 29, release 06:30 ET / call 08:30 ET (L714) | `WATCHLIST_NCLH_Q3.md` A–E plus October 25 note: yield/mix, deposits, operating cash, actual liquidity, commitments and implied Q4 | 10-Q may be needed for detail; never fabricate missing release fields. October 15 transaction is subsequent to September 30. |
-| CRU-11 November 14 / nearest preceding session (L606) | Frozen NCLH-minus-RCL cumulative total-return endpoint | No result grade from earnings or an interim stock move. |
+| ✅ CRU-11 (L606) — **GRADED FAILED 2026-11-14** | 11/13 close: NCLH +18.63% vs RCL +16.39% cumulative TR from 10/2, spread **+2.23pp** vs ≤ −5pp needed (KB-CRU-253) | Evidence against row 1's bear read on the tape: NCLH outran RCL after its Q3 raise. Conviction stays Will's (WQ-628 A, 2); no card asked; TERRY tradeability read routed via PROME. |
 | NCLH November 17 (L715) | Existing contractual springing-maturity conditions | June liquidity does not certify November compliance. |
 | Florida port FY26 counts, October–November | Existing physical-volume read | Capacity, passenger movements and local spending remain distinct; no new program. |
 

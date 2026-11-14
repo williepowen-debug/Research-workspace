@@ -1,6 +1,15 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-11-11 10:2x ET** — catch-up wake (PROME prome-2b, Will 09:24 ET). Closes through 11/10, rates read, no score moved; one GREEN reading asked of PROME.*
+*Last updated: **2026-11-14 11:2x ET** — due-row wake (PROME prome-fe, L606). CRU-11 graded FAILED; WQ-670 A encoded; WQ-678 lines applied; L715 not yet gradeable. Desk total 9/20, unchanged.*
+
+## November 14 — CRU-11 graded, WQ-670 encoded
+
+| Item | Result | Consequence / limit |
+|---|---|---|
+| **CRU-11 (L606) — FAILED** | 11/13 close (11/14 a Saturday): NCLH $15.14 → $17.96 **+18.63%**, RCL $277.74 → $323.27 **+16.39%** cumulative TR; spread **+2.23pp** vs ≤ −5pp needed. Pinned yfinance Adj Close and FORGE fetch.py identical (same vendor); no ex-dividend for either in window | NCLH outran RCL after its Q3 raise; no close in the window reached −5pp (widest −2.52pp, 10/27). Record now 6 CONFIRMED / 5 FAILED of 11. KB-CRU-253, `research/2026-11-14_cru11-grade/` |
+| **WQ-670 A encoded** (Will 2026-11-11 10:25 ET, "670 A aoorived go with your rec") | GREEN cell now reads "a fall of less than 10% from $33.99: any close above $30.591; one close is enough". Other cells unchanged | Re-read: 11/9–11/11 GREEN(1); **11/12 $29.34 (−13.68%) and 11/13 $29.23 (−14.00%) YELLOW(2)**. State at latest close YELLOW(2), total stays 9/20. 11/12: all three names fell about 4% on an S&P −0.35% day, cause not checked. KB-CRU-254 |
+| **L715 (11/17 springing test)** | Not gradeable today: the test is the 11/17 state; EDGAR shows no NCLH filing after the 10/30 8-K | Grade on or after 11/17. KB-CRU-255 |
+| **WQ-678 lines** | Both Changelist A fixes and all six B trims applied in `CLAUDE.md`; none declined | Text removed or replaced only; no rule added. KB-CRU-256 |
 
 ## November 11 — catch-up to live data (no score moved)
 
@@ -51,11 +60,11 @@ Full read: `research/2026-11-11_catchup/RESULT.md`. Ladder memo archived (CADENC
 
 | Metric | Value | State | Source |
 |--------|-------|-------|--------|
-| **CCL price** | **$30.74**, November 10 raw close (−0.23%); **−9.56%** versus fixed raw February 6 reference $33.99 (11/9 $30.81, −9.36%). **Above the −10% line $30.591 two sessions**: GREEN reading asked of PROME (SF13 cell), held YELLOW. RED $22.0935 | 🟡 | Yahoo yfinance + FORGE, retrieved November 11; KB-CRU-244 |
-| **RCL price** | **$339.85**, November 10 raw close (+0.85%) | 🟢 | Same-vendor sources; KB-CRU-244 |
-| **NCLH price** | **$18.51**, November 10 raw close (+0.43%); **−26.02%** versus held raw February 26 peak $25.02. Print day 10/28 $16.06 → 10/29 $18.22 (**+13.45%**) | 🔴 | Same-vendor sources; KB-CRU-244 |
+| **CCL price** | **$29.23**, November 13 raw close; **−14.00%** versus fixed raw February 6 reference $33.99 ⇒ YELLOW(2). GREEN(1) on 11/9–11/11 (above $30.591, WQ-670 A); back below on 11/12 $29.34. RED $22.0935 | 🟡 | Yahoo yfinance + FORGE, retrieved November 14 11:12 ET; KB-CRU-254 |
+| **RCL price** | **$323.27**, November 13 raw close (11/12 −3.94%) | 🟢 | Same-vendor sources, retrieved November 14; KB-CRU-253 |
+| **NCLH price** | **$17.96**, November 13 raw close (11/12 −4.04%); **−28.22%** versus held raw February 26 peak $25.02. Print day 10/28 $16.06 → 10/29 $18.22 (**+13.45%**) | 🔴 | Same-vendor sources; KB-CRU-244 |
 | **RCL Q3 / FY26** | Adj EPS **$6.57** vs $6.26–6.36 · Q3 CC yield **+0.6%** · FY CC yield guide **~+2.1%** (was 1.75–2.25%) · FY adj EPS **$17.85–17.95** (was 17.73–17.87) · occupancy 112.4% on capacity +8.4% · 2027 "ahead of historical levels at higher rates" | 🟢 | [CONF A1] 8-K …-000042 Ex-99.1, 10/27 |
-| **CRU-11 spread** (NCLH − RCL cumulative adjusted TR from October 2) | **−0.10pp at November 10 close** (NCLH +22.26%, RCL +22.36%), **interim observation only**; CONFIRMED needs ≤ −5pp. Frozen endpoint November 14 / nearest preceding session (Fri 11/13); resolver not run | 🟡 | [CONF MIRROR] pinned yfinance Adj Close pull November 11; KB-CRU-245 |
+| **CRU-11 spread** (NCLH − RCL cumulative adjusted TR from October 2) | **+2.23pp at the November 13 window close** (NCLH +18.63%, RCL +16.39%) ⇒ **FAILED** (needed ≤ −5pp) | ❌ | [CONF A1] pinned yfinance Adj Close + fetch.py, November 14; KB-CRU-253 |
 | Tape 10/14 | Big-3 −2.6% to −2.9% on a down day: SPY −1.08%, XLY −0.77%, VIX 16.87 (+10.5%). **No cruise-specific cause found** | — | [CONF] yfinance 10/14 |
 | **CCL Q3 / FY26** | Adj EPS **$1.43** vs ~$1.35 guide · FY CC net yield **~+2.3%** (was ~+1.75%) · FY adj EPS ~$2.24 · deposits **$7.6B, +~7%** on flat capacity · 2027 occupancy + pricing **at records**. ⚠️ 10-Q: **North America ticket prices −$40M YoY**, cause unnamed — not CRU-09 evidence, not the Norwegian channel | 🟢 | [CONF A1] 8-K …-000104 + 10-Q …-000107 |
 | **Fuel cost — OBSERVATION** (`VX-CRU-02`, no colour/weight since WQ-532 A 10/29) | Q3 actual **$826/mt** vs $812 guide; fuel hit **$0.007/sh**; **Q4 guide $896/mt**; FY raised through a ~$150M fuel headwind. **Exit rule 2 FIRED** ⇒ cost line only. NCLH Q3 **$819/mt** net of hedges, Q4 guide $803; 2027 42% hedged at $559. Brent BZZ26 ~$105.3 (bar labelled 10/14, may include the evening session — context; **BRENT owns it**) | — | [CONF A1] CCL 9/29; yfinance BZZ26.NYM |
@@ -77,7 +86,7 @@ Full read: `research/2026-11-11_catchup/RESULT.md`. Ladder memo archived (CADENC
 |---|--------------|-------|--------|------------|-----------------|
 | 1 | NCLH leverage and deposits against capacity (`VX-CRU-05`) | 3 | 🟠 | **RED(4) → ORANGE(3) 11/6, WQ-640 A**: leverage **5.5x** ORANGE, deposit gap **−5.59pp** ORANGE (9/30 prints). Rule outcome; funding leg clean through 2027 on an endpoint test | Q4 print: leverage ≥6.0x or gap ≤−8.01pp, either alone → RED(4). Outside the row: 11/17 springing test fails (L715); NCLH guides down (`VX-CRU-03`) |
 | 2 | Consumer demand K-shape (`VX-CRU-03`) | 2 | 🟡 | ⛔ **Exit rule 1 limb 1 FIRED 10/29** — NCLH raised; all three Big-3 raised FY26. **RED(4) → YELLOW(2)**. Soft points remain: NCLH ticket revenue per capacity day −9.98%, CCL North America ticket −$40M | −20% booking-pace print · a Big-3 FY yield guide-down |
-| 3 | CCL stock stress (`VX-CRU-01`) | 2 | 🟡 | November 10 **−9.56%** on fixed raw basis, above the −10% line on 11/9 and 11/10; **held YELLOW**, GREEN reading asked of PROME (SF13 cell). ORANGE → YELLOW 10/27 | Close ≤ $27.192 → ORANGE; ≤ $22.0935 → RED; no new inclusivity |
+| 3 | CCL stock stress (`VX-CRU-01`) | 2 | 🟡 | November 13 **−14.00%** on fixed raw basis. GREEN cell ruled 11/11 (WQ-670 A): GREEN(1) 11/9–11/11, YELLOW(2) again from 11/12 | Close > $30.591 → GREEN(1); ≤ $27.192 → ORANGE; ≤ $22.0935 → RED |
 | 4 | Fuel cost line (`VX-CRU-02`) | — | — | **OBSERVATION line since WQ-532 A (10/29)**: no colour, no weight. CCL Q3 $826/mt actual, $0.007/sh fuel hit; NCLH Q3 $819/mt | — (any future fuel trigger is a new registration through PROME) |
 | 5 | Gulf/Red Sea → Big 3 (`VX-CRU-04`) | 2 | 🟡 | **One identified NCL Sky itinerary**, cancellation reported August 5, detected October 25; operator guest statement read through trade press (B2); total-basket completeness/denominator unmeasured | Existing1–5 band; one cancellation trigger FIRED |
 
@@ -92,13 +101,13 @@ Full read: `research/2026-11-11_catchup/RESULT.md`. Ladder memo archived (CADENC
 1. **K-shape kill (`VX-CRU-03`):** NCLH raises its guide at Q3, **or** CCL and RCL both guide FY yields DOWN. ⛔ **FIRED 2026-10-29 on limb 1**: NCLH raised FY26 (Adj EBITDA ~$2.5B → ~$2.55B, Adj EPS ~$1.50 → ~$1.70, CC yield ~−5% → ~−4.4%; 8-K acc 0001171843-26-006957, KB-CRU-209). **Applied 10/29:** `VX-CRU-03` 4 → 2. ⚠️ The headline and the composition disagree: the raise is smaller than the Q3 beat (implied Q4 ~−$13M), ticket revenue per capacity day −9.98%, deposits flat on +5.43% capacity. The rule is applied on its letter and the disagreement recorded. Limb 2 NOT FIRED (CCL raised 9/29, RCL raised 10/27). ⛔ The old yield-level confirm/refute rule stays **SUPERSEDED**; `FL-CRU-10` caveats stay caveats, not a test.
 2. **Fuel-channel kill (`VX-CRU-02`):** CCL Q3 fuel/mt ≤ $812, **or** above it with a fuel-attributable EPS hit ≤ $0.10. **FIRED 2026-09-29** on the second disjunct ($826; $0.007). **Applied 10/14:** score 4 → 2; only the cost line survives.
 3. **Sector-vs-name kill (`VX-CRU-06`, WQ-222, total-return basis, Will-ruled):** CCL excess drawdown over RCL ≤ 5pp on every close from 9/03 through the print. **CONDITION HELD** — max **1.8387pp** (9/10); at the 9/29 close CCL **+6.94%** vs RCL **−1.25%**. ⇒ **no CCL-specific fuel trade, only a sector view.** With `CRU-08` CONFIRMED, the **WQ-164 retirement of the fuel ladder survives both of its registered falsifiers.** `VX-CRU-06` retired.
-4. **Time-based:** the 9/29 CCL print **DONE** (CRU-07/08/10 ✅, CRU-09 ❌ 10/3). RCL Q3 **DONE 10/28**. NCLH Q3 release **DONE 10/29**. NCLH 10-Q **DONE 11/5**. Next mandatory checks: **CRU-11 grade 11/14 · NCLH revolver springing test 11/17.**
+4. **Time-based:** the 9/29 CCL print **DONE** (CRU-07/08/10 ✅, CRU-09 ❌ 10/3). RCL Q3 **DONE 10/28**. NCLH Q3 release **DONE 10/29**. NCLH 10-Q **DONE 11/5**. CRU-11 **GRADED FAILED 11/14**. Next mandatory check: **NCLH revolver springing test 11/17.**
 
 ---
 
 ## Predictions
 
-**Open: `CRU-11`, plus `CRU-12..14` registered 11/5 (CCL first FY27 yield guide ≥ +2.5%, 45% · NCLH 12/31 deposits ≥ $3,264.6M, 40% · CCL 11/30 deposits ≥ +5% YoY, 60%).** `CRU-11`: NCLH under RCL by ≥ 5pp cumulative TR from the 10/2 close at the 11/14 close, 50%, **approved WQ-242**, frozen (PREDICTIONS line 12). Ten rows graded: CRU-01/04/06/07/08/10 CONFIRMED · CRU-02/03/05/09 FAILED.
+**`CRU-11` GRADED FAILED 2026-11-14 (+2.23pp vs ≤ −5pp; KB-CRU-253). Open: `CRU-12..14` registered 11/5 (CCL first FY27 yield guide ≥ +2.5%, 45% · NCLH 12/31 deposits ≥ $3,264.6M, 40% · CCL 11/30 deposits ≥ +5% YoY, 60%).** Eleven rows graded: CRU-01/04/06/07/08/10 CONFIRMED · CRU-02/03/05/09/11 FAILED.
 
 ## Fuel ladder
 
@@ -108,7 +117,7 @@ Full read: `research/2026-11-11_catchup/RESULT.md`. Ladder memo archived (CADENC
 
 ## Cadence
 
-**ACTIVE / EVENT-DRIVEN** (Will-ruled 8/21). Live wake set: **`CADENCE.md`**. **Nearest future:** ① **CRU-11 grade at the 11/13 close (L606, 11/14 is a Saturday)** · ② NCLH springing test **11/17** · ③ CCL Q4 print, late December · ④ FL port FY2026 passenger counts (Oct–Nov). RCL Q3 graded 10/28.
+**ACTIVE / EVENT-DRIVEN** (Will-ruled 8/21). Live wake set: **`CADENCE.md`**. **Nearest future:** ① NCLH springing test **11/17** (L715) · ② CRU-11 graded 11/14 · ③ CCL Q4 print, late December · ④ FL port FY2026 passenger counts (Oct–Nov). RCL Q3 graded 10/28.
 
 ---
 
@@ -132,4 +141,4 @@ Full read: `research/2026-11-11_catchup/RESULT.md`. Ladder memo archived (CADENC
 
 ## BOTTOM LINE
 
-All three big operators have raised this year, so this desk's split-operator demand thesis is dead on its own rule, and the fuel thesis died in September. The Norwegian 10-Q, read 11/5, also removes the liquidity leg through 2027: actual cash and revolver room were about $1.4B, ratings held, and the November 17 test should pass by about $0.5B even on a harsh case, though nothing certifies it until the date. What remains is a narrower Norwegian read on ticket price per day, deposit quality and 5.5x leverage. Will lowered NCLH to WATCH 2 with no trade card on 11/6. He also adopted new leverage and deposit cells for the Norwegian row, which moved it from RED(4) to ORANGE(3) and the desk to 9/20. That is a rule change, not a calmer company: on this desk's arithmetic the row returns to RED(4) at the Q4 print, as leverage passes 6.0x on the company's own earnings guide. As of 11/11, a hiking Fed changes none of this through interest cost: floating debt is 6 to 15% of each company's borrowing, and one quarter-point hike costs Norwegian about $4.6M a year. Carnival's stock has recovered to within 10% of its February level; whether that reads GREEN on its band is a question put to PROME, not a move this desk made.
+All three big operators have raised this year, so this desk's split-operator demand thesis is dead on its own rule, and the fuel thesis died in September. The Norwegian 10-Q, read 11/5, also removes the liquidity leg through 2027: actual cash and revolver room were about $1.4B, ratings held, and the November 17 test should pass by about $0.5B even on a harsh case, though nothing certifies it until the date. What remains is a narrower Norwegian read on ticket price per day, deposit quality and 5.5x leverage. Will lowered NCLH to WATCH 2 with no trade card on 11/6. He also adopted new leverage and deposit cells for the Norwegian row, which moved it from RED(4) to ORANGE(3) and the desk to 9/20. That is a rule change, not a calmer company: on this desk's arithmetic the row returns to RED(4) at the Q4 print, as leverage passes 6.0x on the company's own earnings guide. As of 11/11, a hiking Fed changes none of this through interest cost: floating debt is 6 to 15% of each company's borrowing, and one quarter-point hike costs Norwegian about $4.6M a year. On 11/14 the desk's last open stock-market forecast failed: from 10/2 to 11/13 Norwegian's stock rose 18.6% against Royal Caribbean's 16.4%, so the bet that the weak operator would lag the strong one by 5 points or more was wrong. Carnival read GREEN for three days under Will's 11/11 ruling, then fell back to YELLOW on 11/12, when all three cruise stocks dropped about 4%; the desk stays at 9/20.

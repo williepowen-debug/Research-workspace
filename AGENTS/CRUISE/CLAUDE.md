@@ -44,7 +44,7 @@ When spawned with a task:
     - `DEFERRED`: `--receipt <COR-id> --action DEFERRED --review YYYY-MM-DD [--scope <text>] [--note "<text>"]` (review date today or later)
     - `CONTESTED`: `--receipt <COR-id> --action CONTESTED [--scope <text>] [--artifact <path#key>] [--note "<text>"]`
     - `path#key` = repo path + `#` + a stable key, e.g. `AGENTS/CRUISE/workbook/KB.tsv#KB-CRU-146`. No `;`, tab or line break in any value. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①; receipt form updated 2026-10-14 per SIG-W-20261008-033 / WQ-399.)*
-3d. **Ledger staleness check:** `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" CRUISE` — every workbook ledger must be in one of two states, never the silent middle: **FROZEN** with a first-line banner, or **LIVE** with a `# Last real data refresh: YYYY-MM-DD` header line. A `⚠️ STALE` line is a freeze-or-refresh decision owed **this session**, not a note for later. *(Wired 2026-09-02 after DAEDALUS Staleness Sweep #4 found `workbook/FLOW.tsv` +43d behind STATUS with no banner and no clock, carrying two July-direction rows into September. The 7/4 fleet rollout of this boot line predates this desk — born 7/2, dark 7/3→8/14 — so no alarm had ever printed here.)*
+3d. **Ledger staleness check:** `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" CRUISE` — every workbook ledger must be in one of two states, never the silent middle: **FROZEN** with a first-line banner, or **LIVE** with a `# Last real data refresh: YYYY-MM-DD` header line. A `⚠️ STALE` line is a freeze-or-refresh decision owed **this session**, not a note for later.
 
 ### WALTER signal intake (inbox/WALTER delivery lane)
 
@@ -59,7 +59,7 @@ When spawned with a task:
 
 4. **Execute the task**
 5. **Write results back to your files** — update `STATUS.md`, log to workbook (KB/VX/FLOW) when appropriate
-6. **If your findings are relevant to another agent's domain, write to `outbox/`**
+6. **If your findings are relevant to another agent's domain, deliver them per § MAIL SYSTEM**
 7. **If the task changes your thesis or key numbers, update STATUS.md before finishing**
 
 ⚠️ **Critical:** Always WRITE to STATUS.md. Do not just report findings back to PROME verbally. If it's not in the file, it doesn't persist.
@@ -97,7 +97,7 @@ When spawned with a task:
 - Consumer discretionary spending broadly (CARL)
 - Gulf theater (FALCON)
 - Macro employment data (LABOR)
-- Trade execution or portfolio sizing (PROME)
+- Trade construction → TERRY; approval → Will (root rule #5)
 
 **Boundary rule:** If you encounter signal in another agent's domain, don't deep-dive it yourself — hand it off. **A SIGNAL goes to WALTER**, which owns routing judgment across the fleet. **An ANALYSIS or a packet aimed at one named desk** goes direct into that desk's `inbox/`, self-committed under carve-out ①. ⛔ There is no mail carrier: HERMES was retired 2026-06-30.
 
@@ -105,7 +105,7 @@ When spawned with a task:
 
 ## CROSS-AGENT SIGNALS
 
-> ⚠️ **Read the routing rule in § MAIL SYSTEM before using this table.** The "Interested desk" column says **who cares**, not who you deliver to. **A SIGNAL is routed via WALTER** — WALTER owns dedupe, archive and routing judgment, and owns the semantics of what counts as a signal. Naming a desk here has never been authority to hand it a signal directly. *(Corrected 2026-09-02, DAEDALUS route-around census leg B — the structural form: a recipient-named trigger table reads as a delivery instruction even when no sentence says so.)* **ANALYSIS or a packet aimed at one named desk still goes direct**, self-committed per carve-out ①.*
+> ⚠️ **Read the routing rule in § MAIL SYSTEM before using this table.** The "Interested desk" column says **who cares**, not who you deliver to. **A SIGNAL is routed via WALTER** — WALTER owns dedupe, archive and routing judgment, and owns the semantics of what counts as a signal. Naming a desk here has never been authority to hand it a signal directly. **ANALYSIS or a packet aimed at one named desk still goes direct**, self-committed per carve-out ①.*
 
 **Conditions worth raising, and the desk whose read they change:**
 
@@ -122,7 +122,7 @@ When spawned with a task:
 
 | Source | What reaches you |
 |--------|------------------|
-| **WALTER** | The delivery lane: `inbox/WALTER/` → log to `board_log.tsv`. ⚠️ As of 2026-09-02 this lane has **never received a signal** — if that persists, flag PROME rather than assuming quiet. |
+| **WALTER** | The delivery lane: `inbox/WALTER/` → log to `board_log.tsv`. |
 | BRENT | Fuel price changes, bunker cost data. ⛔ Every Brent figure NAMES the CONTRACT and BASIS (e.g. `BZX26` = Nov-26 front); `BZ=F` is not a citable identifier and is banned for deltas. |
 | **FALCON** | Hormuz / Gulf theater, war-risk, tanker incidents. *(HAWK = parent synthesis; OSPREY = Russia/Ukraine.)* |
 | CARL | Consumer discretionary and affordability trends |
@@ -162,8 +162,6 @@ See STATUS.md for the live convergence matrix.
 
 ## MAIL SYSTEM
 
-*October 25 SF10 implementation limit: WQ508 R0A is APPROVED (October 23): external news/data via WALTER; own analysis, threshold fire or consequence handoff to a named consumer as PACKET. PROME has not verified the separately required root insertion. This note records approval versus pending implementation; it does not install or replace the operative rule below. SF10 stays open pending PROME's controlling record. Existing authorized named analysis packets and external-news WALTER routing remain available under current root rules.*
-
 ⛔ **HERMES was retired 2026-06-30 — there is no mail carrier.** Everything below was written for one and was corrected 2026-09-02 (DAEDALUS fleet census, 10 desks; CRUISE's three rows were the **DEAD-ROUTER** class — they named a router that had not existed for 64 days, so a signal written per this file would have been delivered to nobody and nothing would have reported the failure).
 
 > ### 🚦 The routing rule, and it has two lanes — do not over-correct in either direction
@@ -195,14 +193,14 @@ When you discover something relevant to another agent's domain, write a single `
 **Priority:** 🔴/🟠/🟡
 ```
 
-**Delivery is yours — nothing sweeps your outbox.** For a **SIGNAL**, route it to WALTER. For **ANALYSIS or a PACKET**, write the file directly into the recipient's `AGENTS/<THEM>/inbox/`, then `git add` and commit that exact path yourself (carve-out ①). Keep your own copy in `outbox/` so the work exists in your dir too. At packet-commit with an ASK of a named agent, `ListAgents` and doorbell a live recipient (messaging rule 6); recipient DARK → rule 6b.
+**Delivery is yours — nothing sweeps your outbox.** For a **SIGNAL**, route it to WALTER. For **ANALYSIS or a PACKET**, write the file directly into the recipient's `AGENTS/<THEM>/inbox/`, then `git add` and commit that exact path yourself (carve-out ①). Keep your own copy in `outbox/` so the work exists in your dir too. At packet-commit with an ASK of a named agent, apply messaging rule 6; rule 6b only when its owner-status condition is established.
 
 **When to send:** Threshold breaches, state changes, new evidence that crosses domain boundaries. Don't send routine updates — only things that would change another agent's assessment.
 
-**Sending to WILL (the human):** Use `To: WILL` for items that need human decision-making — position changes, threshold breaches requiring action, or time-sensitive approvals. Trade ideas go to TERRY as a packet in its `inbox/`, never `To: WILL`; Will approves the card TERRY builds. Don't send routine analysis; only things Will needs to see or act on.
+**Decisions for Will** go via PROME (a packet in `PROME/inbox/`); trades reach him only as TERRY cards — trade ideas go to TERRY as a packet in its `inbox/`. Don't send routine analysis; only things Will needs to see or act on.
 
 ### Receiving Signals (Inbox)
-When spawned for inbox processing: **read `inbox/PROTOCOL.md` first and follow it exactly.** It contains the full processing steps, outbox format, and receipt template.
+At every spawn (SPAWN PROTOCOL step 1): **read `inbox/PROTOCOL.md` first and follow it exactly.** It contains the full processing steps, outbox format, and receipt template.
 
 ---
 
@@ -255,13 +253,13 @@ See `workbook/SCHEMA.tsv` for full field specifications.
 - At session boot, scan for entries whose Timeframe has passed
 - Update Status to CONFIRMED, FAILED, PARTIALLY, or EXPIRED
 - Log resolution to KB.tsv as evidence
-- Post significant confirmations/failures to `outbox/`
+- Deliver significant confirmations/failures per § MAIL SYSTEM
 
 ---
 
 ## TRADE.md (Required)
 
-See `TRADE.md` in agent root. Agent surfaces trade ideas from its domain with domain-specific evidence. PROME synthesizes across agents.
+See `TRADE.md` in agent root: the desk's domain conviction, with domain-specific evidence. Construction is TERRY's.
 
 **Required sections:** Active Recommendations, Domain Catalysts, Cross-Agent Dependencies, Rejected/Exited.
 
@@ -280,7 +278,7 @@ Every STATUS.md must end with a `## BOTTOM LINE` section — 2-4 sentences, plai
 | File | Purpose |
 |------|---------|
 | `STATUS.md` | Live state — dashboard, active situations, predictions. **Primary memory. Gets rewritten.** |
-| `TRADE.md` | Position ideas and active trades |
+| `TRADE.md` | Domain conviction (construction is TERRY's) |
 | `workbook/KB.tsv` | Knowledge base — 13-column factual claims. **Permanent record.** |
 | `workbook/SCHEMA.tsv` | Data dictionary — defines every KB column. Read before writing to KB.tsv. |
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds and state. |
