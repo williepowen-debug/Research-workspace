@@ -1,0 +1,87 @@
+BAMLC0A0CMSYTW     2026-11-12  5.97 | last >= this before: 2026-10-13 | window max 6.05 on 2026-10-05
+BAMLC0A0CMEY       2026-11-12  5.96 | last >= this before: 2026-10-13 | window max 6.03 on 2026-10-05
+BAMLC0A4CBBBEY     2026-11-12  6.18 | last >= this before: 2026-10-07 | window max 6.23 on 2026-10-05
+BAMLC0A3CAEY       2026-11-12  5.79 | last >= this before: 2026-10-14 | window max 5.88 on 2026-10-05
+BAMLC4A0C710YEY    2026-11-12  6.09 | last >= this before: 2026-10-21 | window max 6.24 on 2026-10-05
+BAMLC7A0C1015YEY   2026-11-12  6.29 | last >= this before: 2026-10-19 | window max 6.43 on 2026-10-05
+BAMLC8A0C15PYEY    2026-11-12  6.53 | last >= this before: 2026-10-19 | window max 6.69 on 2026-10-05
+BAMLC0A0CM         2026-11-12  0.89 | last >= this before: 2026-11-11 | window max 1.23 on 2023-11-14
+DGS10              2026-11-12  5.10 | last >= this before: 2026-10-21 | window max 6.79 on 2000-01-21
+DGS30              2026-11-12  5.43 | last >= this before: 2026-10-19 | window max 6.75 on 2000-01-18
+DBAA               2026-11-12  6.58 | last >= this before: 2026-10-19 | window max 9.54 on 2008-10-31
+DAAA               2026-11-12  6.12 | last >= this before: 2026-10-14 | window max 8.12 on 2000-05-18
+
+HQMCB10YR Oct-2026 6.02 last month >= before: 2023-10-01
+HQMCB30YR Oct-2026 6.81 last month >= before: 2009-05-01
+
+IG EY 2026 min (4.71, '2026-02-23')
+
+IG all
+   2025-11-12: yield 4.82->5.96 = +114 bp | spread 83->89 = +6 | rate leg (yield−spread) +108 | spread share 5%
+   2025-12-31: yield 4.84->5.96 = +112 bp | spread 79->89 = +10 | rate leg (yield−spread) +102 | spread share 9%
+   2026-02-23: yield 4.71->5.96 = +125 bp | spread 80->89 = +9 | rate leg (yield−spread) +116 | spread share 7%
+   2026-09-30: yield 6.02->5.96 = -6 bp | spread 84->89 = +5 | rate leg (yield−spread) -11 | spread share -83%
+   2026-10-30: yield 5.79->5.96 = +17 bp | spread 94->89 = -5 | rate leg (yield−spread) +22 | spread share -29%
+   2026-11-05: yield 5.71->5.96 = +25 bp | spread 93->89 = -4 | rate leg (yield−spread) +29 | spread share -16%
+
+IG 7-10y
+   2025-11-12: yield 4.93->6.09 = +116 bp | spread 98->106 = +8 | rate leg (yield−spread) +108 | spread share 7%
+   2025-12-31: yield 4.96->6.09 = +113 bp | spread 91->106 = +15 | rate leg (yield−spread) +98 | spread share 13%
+   2026-02-23: yield 4.83->6.09 = +126 bp | spread 95->106 = +11 | rate leg (yield−spread) +115 | spread share 9%
+   2026-09-30: yield 6.21->6.09 = -12 bp | spread 102->106 = +4 | rate leg (yield−spread) -16 | spread share -33%
+   2026-10-30: yield 5.96->6.09 = +13 bp | spread 113->106 = -7 | rate leg (yield−spread) +20 | spread share -54%
+   2026-11-05: yield 5.87->6.09 = +22 bp | spread 113->106 = -7 | rate leg (yield−spread) +29 | spread share -32%
+
+IG 10-15y
+   2025-11-12: yield 5.23->6.29 = +106 bp | spread 100->107 = +7 | rate leg (yield−spread) +99 | spread share 7%
+   2025-12-31: yield 5.30->6.29 = +99 bp | spread 94->107 = +13 | rate leg (yield−spread) +86 | spread share 13%
+   2026-02-23: yield 5.16->6.29 = +113 bp | spread 96->107 = +11 | rate leg (yield−spread) +102 | spread share 10%
+   2026-09-30: yield 6.40->6.29 = -11 bp | spread 101->107 = +6 | rate leg (yield−spread) -17 | spread share -55%
+   2026-10-30: yield 6.15->6.29 = +14 bp | spread 112->107 = -5 | rate leg (yield−spread) +19 | spread share -36%
+   2026-11-05: yield 6.07->6.29 = +22 bp | spread 110->107 = -3 | rate leg (yield−spread) +25 | spread share -14%
+
+IG 15y+
+   2025-11-12: yield 5.64->6.53 = +89 bp | spread 101->107 = +6 | rate leg (yield−spread) +83 | spread share 7%
+   2025-12-31: yield 5.76->6.53 = +77 bp | spread 96->107 = +11 | rate leg (yield−spread) +66 | spread share 14%
+   2026-02-23: yield 5.63->6.53 = +90 bp | spread 100->107 = +7 | rate leg (yield−spread) +83 | spread share 8%
+   2026-09-30: yield 6.65->6.53 = -12 bp | spread 102->107 = +5 | rate leg (yield−spread) -17 | spread share -42%
+   2026-10-30: yield 6.42->6.53 = +11 bp | spread 113->107 = -6 | rate leg (yield−spread) +17 | spread share -55%
+   2026-11-05: yield 6.37->6.53 = +16 bp | spread 111->107 = -4 | rate leg (yield−spread) +20 | spread share -25%
+
+BBB
+   2025-11-12: yield 5.02->6.18 = +116 bp | spread 105->111 = +6 | rate leg (yield−spread) +110 | spread share 5%
+   2025-12-31: yield 5.04->6.18 = +114 bp | spread 101->111 = +10 | rate leg (yield−spread) +104 | spread share 9%
+   2026-02-23: yield 4.90->6.18 = +128 bp | spread 101->111 = +10 | rate leg (yield−spread) +118 | spread share 8%
+   2026-09-30: yield 6.22->6.18 = -4 bp | spread 103->111 = +8 | rate leg (yield−spread) -12 | spread share -200%
+   2026-10-30: yield 6.01->6.18 = +17 bp | spread 116->111 = -5 | rate leg (yield−spread) +22 | spread share -29%
+   2026-11-05: yield 5.93->6.18 = +25 bp | spread 116->111 = -5 | rate leg (yield−spread) +30 | spread share -20%
+
+A
+   2025-11-12: yield 4.68->5.79 = +111 bp | spread 68->73 = +5 | rate leg (yield−spread) +106 | spread share 5%
+   2025-12-31: yield 4.69->5.79 = +110 bp | spread 65->73 = +8 | rate leg (yield−spread) +102 | spread share 7%
+   2026-02-23: yield 4.57->5.79 = +122 bp | spread 65->73 = +8 | rate leg (yield−spread) +114 | spread share 7%
+   2026-09-30: yield 5.88->5.79 = -9 bp | spread 72->73 = +1 | rate leg (yield−spread) -10 | spread share -11%
+   2026-10-30: yield 5.62->5.79 = +17 bp | spread 78->73 = -5 | rate leg (yield−spread) +22 | spread share -29%
+   2026-11-05: yield 5.54->5.79 = +25 bp | spread 77->73 = -4 | rate leg (yield−spread) +29 | spread share -16%
+
+Treasuries
+  2025-11-12 DGS7 3.86->5.02 (+116) DGS10 4.08->5.10 (+102) DGS30 4.67->5.43 (+76)
+  2025-12-31 DGS7 3.94->5.02 (+108) DGS10 4.18->5.10 (+92) DGS30 4.84->5.43 (+59)
+  2026-02-23 DGS7 3.79->5.02 (+123) DGS10 4.03->5.10 (+107) DGS30 4.70->5.43 (+73)
+  2026-09-30 DGS7 5.19->5.02 (-17) DGS10 5.29->5.10 (-19) DGS30 5.64->5.43 (-21)
+  2026-10-31 DGS7 4.80->5.02 (+22) DGS10 4.94->5.10 (+16) DGS30 5.31->5.43 (+12)
+  2026-11-05 DGS7 4.70->5.02 (+32) DGS10 4.84->5.10 (+26) DGS30 5.25->5.43 (+18)
+
+recent daily
+2026-10-27 IG EY 5.82 OAS 0.88 15+EY 6.37 OAS15+ 1.06 DGS10 4.99 DBAA 6.44
+2026-10-28 IG EY 5.83 OAS 0.86 15+EY 6.41 OAS15+ 1.04 DGS10 5.05 DBAA 6.48
+2026-10-29 IG EY 5.79 OAS 0.89 15+EY 6.4 OAS15+ 1.08 DGS10 4.98 DBAA 6.47
+2026-10-30 IG EY 5.79 OAS 0.94 15+EY 6.42 OAS15+ 1.13 DGS10 4.94 DBAA 6.47
+2026-11-02 IG EY 5.79 OAS 0.94 15+EY 6.42 OAS15+ 1.13 DGS10 4.91 DBAA 6.44
+2026-11-03 IG EY 5.82 OAS 0.93 15+EY 6.45 OAS15+ 1.12 DGS10 4.95 DBAA 6.49
+2026-11-04 IG EY 5.74 OAS 0.91 15+EY 6.37 OAS15+ 1.09 DGS10 4.9 DBAA 6.42
+2026-11-05 IG EY 5.71 OAS 0.93 15+EY 6.37 OAS15+ 1.11 DGS10 4.84 DBAA 6.41
+2026-11-06 IG EY 5.73 OAS 0.93 15+EY 6.38 OAS15+ 1.11 DGS10 4.86 DBAA 6.42
+2026-11-09 IG EY 5.73 OAS 0.91 15+EY 6.35 OAS15+ 1.08 DGS10 4.88 DBAA 6.39
+2026-11-11 IG EY 5.84 OAS 0.9 15+EY 6.44 OAS15+ 1.08 DGS10 None DBAA None
+2026-11-12 IG EY 5.96 OAS 0.89 15+EY 6.53 OAS15+ 1.07 DGS10 5.1 DBAA 6.58

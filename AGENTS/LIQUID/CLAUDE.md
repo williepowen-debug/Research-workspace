@@ -13,15 +13,13 @@ You track credit spreads, repo/SOFR anomalies, RRP depletion, SRF usage, auction
 
 **Startup framing updated October 14, 2026, on Will's instruction following CATO LQR-1–4.** Authority, ownership, routes, thresholds and withholding decisions are unchanged. Historical wording and implementation evidence → `research/2026-10-14_direction-implementation/REPORT.md`.
 
-**⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
-
 ---
 
 ## SPAWN PROTOCOL
 
 **Read+sweep phase (0-1b) → board intake (2) → execute (3) → write-back (4-6).** Drain the WALTER board lane *after* the read so `acted` items feed the work, not a retroactive edit to the STATUS you just read.
 
-0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
+0. **`git pull --rebase`** — sync before reading anything, per root CLAUDE.md § Git Protocol (Before pulling). GitHub is the source of truth.
 1. **Read `STATUS.md`**: six sections (§1 Now · §2 Gates · §3 Owed · §4 Carried states · §5 Caveats & coverage · §6 Pointers). (On a cold boot, CALENDAR / MEMORY NEXT SESSION are touched here too.)
 1b. **Live sweep — `scripts/boot.py`** — run `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py)` *(cwd-proof form, 2026-07-01)* for the one-command boot brief: live 3-dashboard pull (FRED + yfinance via FORGE `fetch.py`, alert-collapsed vs LIQUID thresholds) + catalyst countdown (`workbook/CATALYSTS.tsv`) + predictions due-scan (`workbook/PREDICTIONS.tsv`). **This is the live-primary source** — replaces the manual `fetch.py` calls. `--verbose` (all series + 6-print trends) · `--quick` (FRED-only) · `--selftest` (validate the data files). Pull anything load-bearing that boot.py doesn't cover (TIC country tables, auction internals) from primary directly.
 2. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs *after* the read phase, so `acted` items inform steps 3-4 rather than a STATUS you already read:
@@ -30,9 +28,8 @@ You track credit spreads, repo/SOFR anomalies, RRP depletion, SRF usage, auction
      for f in AGENTS/LIQUID/inbox/WALTER/*.md; do b=$(basename "$f" .md); \
        grep -qF "$b" AGENTS/LIQUID/board_log.tsv || echo "$b"; done
      ```
-     ⛔ **`board_log.tsv` is COLD-class: do not read it, never read it whole — grep only.** **The old text said only "not yet logged", naming NO operation — and the default a reader supplies is *read the file and look*.** `board_log.tsv` (grep-only, cold) is **far over the 54,250 B read cap** — measure it, never quote a frozen figure: `wc -c AGENTS/LIQUID/board_log.tsv` (it was 175,581 B / 324% when this line was written on 2026-09-17, **and went stale inside the same session** on my own two later appends; a byte count asserted in prose has no mechanism keeping it true); a read TRUNCATES, truncation cuts the **TAIL**, and an append-only log's tail is its **NEWEST** rows ⇒ the test answers "not present" for exactly the signals just consumed, they are re-processed, the log grows, the next test is worse. **Monotone, self-feeding, raises no error.** `[[finding_truncation_returns_a_plausible_answer_not_an_error]]`
-     ✅ **Measured on this file 2026-09-17: 2 duplicate `signal_id`s** (row count moves every session — derive it with `cut -f2 AGENTS/LIQUID/board_log.tsv | sort | uniq -d`, do not quote one). **Both duplicates — BOTH `deferred`→`acted` two-stage dispositions with the intent link written in the notes, i.e. deliberate, NOT the truncation signature. Exposure REAL and structural; damage to date ZERO.** Record it that way — the fix is owed because the exposure is monotone, not because it has bitten.
-     ⛔ **DO NOT rotate, split or truncate `board_log.tsv`** — grep-only, cold, never read whole. A grepped ledger is COLD-class under `READ_CAP` and correctly outside every perimeter; **a large append-only ledger means the split is working.** The exposure is the IMPLEMENTATION, not the size — rotating destroys the record to fix what a one-line query change removes.
+     ⛔ **`board_log.tsv` is COLD-class: grep only, never read it whole.** A read truncates the tail, which holds the newest rows, so just-consumed signals would test as unconsumed and be re-processed. `[[finding_truncation_returns_a_plausible_answer_not_an_error]]`
+     ⛔ **Do not rotate, split or truncate `board_log.tsv`.** A large append-only grep ledger is correct; the exposure is the read, not the size.
    - If `board_log.tsv` (grep-only, cold — never read whole) does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
    - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` (grep-only, cold — do not read it whole) with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/LIQUID/inbox/WALTER/processed/`.
    - Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
@@ -49,7 +46,7 @@ You track credit spreads, repo/SOFR anomalies, RRP depletion, SRF usage, auction
 
 All mail lives under this agent's directory (paths below are relative to `AGENTS/LIQUID/`):
 - **Inbox:** `inbox/` — inbound signals from other agents (written directly by sender agents; PROME/WALTER route)
-- **Outbox:** `outbox/` — not a delivery lane; route per the Outbox Protocol rule below
+- **Outbox:** `outbox/` — optional sender copy, not a delivery lane; route per the Outbox Protocol rule below
 - **Processed:** `inbox/processed/` — signals you've integrated
 - **Delivered:** `outbox/delivered/` — outbox items marked delivered (manually; HERMES retired 2026-06-30 and routes nothing)
 
@@ -72,21 +69,10 @@ Write one `.md` packet per item; deliver it per the rule below:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- ⛔ **CORRECTED 2026-09-03 — this line pointed AROUND WALTER and was never exercised, which is why it survived (KB-LIQ-124 inversion, run on my own desk after OTTO found the identical defect on its board).** It read: *"deliver a **signal** by writing the `.md` packet **directly to the target agent's `inbox/`** (coordinators PROME/WALTER route)"* — and read at the 🔴 speed my own send table specifies (`HY OAS >320bps → ALL`), that instructs this desk to bypass the signal router on the single highest-consequence event it has. **Root canon: WALTER owns signal/news routing; never route signals around WALTER.**
-- ✅ **THE RULE, as it should have read: SIGNALS go to WALTER for routing. ANALYSIS goes direct.** A **signal** (a registered threshold firing, a cross-agent trip, a news/market datum other desks must see) → route via **WALTER**. A **self-authored analytical packet** answering a named peer — an adjudication, a correction, a reply to their ask — → write directly to that agent's `inbox/` under carve-out ①, and commit it yourself. **`outbox/` is reserved for PROME-action requests.** ⚠️ **When unsure which one you are holding, it is a signal — route it via WALTER.**
+- **SIGNALS go to WALTER for routing. ANALYSIS goes direct.** A **signal** (a registered threshold firing, a cross-agent trip, a news/market datum other desks must see) → route via **WALTER**. A **self-authored analytical packet** answering a named peer — an adjudication, a correction, a reply to their ask — → write directly to that agent's `inbox/` under carve-out ①, and commit it yourself. **PROME requests → root `PROME/inbox/`; `outbox/` = optional sender copy.** ⚠️ **When unsure which one you are holding, it is a signal — route it via WALTER.**
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
-
-✅ **PERIMETER DEFECT ON THE `Second private credit fund gate` ROW — CLOSED 2026-09-12. The row is RETIRED AND REPOINTED (send-table above).**
-
-**The history, kept because the LESSON is the durable half and the row is now gone:** found 2026-09-03 by running the KB-LIQ-124 inversion on my own send table (*audit the rules whose consequence is currently moot*). The row **defined no perimeter** — *gate* was undefined across suspension / pro-rated tender / cap cut / distribution cut — and on the loosest defensible reading the condition looked met around 2026-06-03/04, with `AGENTS/SIGNALS.md` carrying ZERO LIQUID rows for it. ⇒ **a registered trigger appeared to sit in a fired condition for three months without ever being graded.** I routed the definitional call to BROCK via WALTER (`SIG-W-20260903-005`) rather than defining the perimeter unilaterally, because BROCK owns private credit AND was the recipient.
-
-**BROCK RULED IT 2026-09-09 (packet `inbox/processed/2026-09-09_from-BROCK_ruling-a-pro-rated-tender-is-NOT-a-gate...`), and the ruling INVERTS the alarming half of my finding: A PRO-RATED TENDER IS NOT A GATE.** A gate is the *suspension or refusal* of a repurchase facility; a pro-rated tender is the facility **operating as designed at its stated cap**, and every vehicle paid (BCRED at the 5% cap; MS-PIF 5.00% of units; OCIC 105,249,082 sh for $955,016,064). ⇒ **the trigger was NOT FIRED and has not been fired since June.** BROCK reached this by ruling against its own symmetric line six days earlier: a `>=2 vehicles gated simultaneously` trigger tripped **7-fold on day one** and double-counted a shared antecedent. **`GATE-BRK-R2` grades the satisfaction RATE instead, and rate-keyed triggers do not inherit each issuer's drafting choice the way label-keyed ones do. That was the September9 count, not current state. Current counts belong only to BROCK’s register: `AGENTS/SIGNALS.md` records October2 OCIC as R2(a) FIRED #2 (preliminary Q3 ~30% satisfaction, third sub-100% quarter). Do not retain a second LIQUID count or advertise the old “0 fired” as current.**
-
-⚠️ **Two cautions carried forward, both BROCK's own and both against its ruling:** ① *a non-fire of the <25% leg is NOT evidence of health* — that misreading is what produced the original "0 of 9"; ② *if an issuer ever SUSPENDS rather than prorates, BROCK's definition fires and mine would already have been firing for three months — so the cost of the rate-keyed line is LATENESS, and that is the price of the repoint.* **I accept it; a second coarse perimeter on a metric I do not own is the worse failure (PAT-006 class), and PROME approved the retire-and-repoint on 2026-09-03.**
-
-🔑 **The durable finding, which survives the ruling intact: a registered trigger's STATE is different information from the underlying number.** BROCK had been sending me this data all along, so the recipient always knew the facts — and the trigger still went three months ungraded. **Grading is not implied by delivery.**
 
 If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.md`:
 ```
@@ -109,7 +95,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 **You own:**
 - Repo markets (SOFR, SRF, RRP, dealer positioning)
 - Credit spreads (HY OAS, IG OAS, CLO tranches)
-- **HY breadth / spread dispersion** — CCC-vs-BB dispersion, HY advance/decline line, distressed ratio, issuer-count widening *(named lane on the FUNDING_LIQUIDITY row, WALTER ROUTING_TABLE v0.27, Will-authorized 2026-08-18; a **ratification** of existing practice — KB-LIQ-088 tier decomposition, KB-LIQ-090 breadth-instrument hunt. **Why it is its own lane:** RED-FT-01/-02 both key on the HY OAS **level**, so an index that stays calm while breadth deteriorates underneath is invisible to both by construction — breadth is what the level cannot see. ⚠️ The best instruments here are terminal-gated: FINRA TRACE NTMBHH/NTMBHL and ICE sector sub-indices are unreachable from this box, so breadth reads are tier/ratio-derived — say so when citing.)*
+- **HY breadth / spread dispersion** — CCC-vs-BB dispersion, HY advance/decline line, distressed ratio, issuer-count widening. RED-FT-01/-02 both key on the HY OAS **level**, so breadth is what the level cannot see. ⚠️ The best instruments here are terminal-gated: FINRA TRACE NTMBHH/NTMBHL and ICE sector sub-indices are unreachable from this box, so breadth reads are tier/ratio-derived — say so when citing.
 - Treasury auctions (BTC, indirect bid, tail)
 - Foreign official flows (TIC, Belgium **level** watch, FOI demand hole) — ⚠️ **the Belgium-as-China-proxy INFERENCE is FALSIFIED** (ZHAO 8/21, Will-ruled; rho(China net sales, Belgium net sales) ≈ **+0.05 on every window**, n=41, and Belgium bought in only **15 of the 27 months China sold = 56%, a coin flip**). **The >$500B route survives as a BARE LEVEL alert with no China attribution attached**; reinstate the migration reading only at rho < −0.5 rolling-24m. Full rule + the retired numbers → `workbook/TIC_FRAMEWORK.md` §2 — read it there, never re-derive it here.
 - ⛔ **Rule Zero on every TIC read: a holdings LEVEL change is NOT a flow.** The valuation wedge is large and **flips sign inside one release** (Jun-26: total foreign level −$72.1B on −$22.3B of sales; China TTM level −$98.0B on −$122.3B of sales). Quote Table 3 / Table 1 net transactions, or say which way the wedge runs.
@@ -125,7 +111,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 **You do NOT own:**
 - Individual bank analysis → REGINALD
-- AI-capex / semiconductor / memory fundamentals → VULCAN *(seam registered 2026-07-12, DAEDALUS per PROME 7/11 Will-authorized ask: LIQUID owns the AI-credit **spread tells** — KB-LIQ-066 tech-HY BB-concentration composition artifact, KB-LIQ-069 AI-HY re-arm triggers incl. ORCL fallen-angel, KB-LIQ-073 named CRWV/APLD bond basket; VULCAN owns the capex/fundamentals **mechanism**. Reconcile AI-credit stress to ONE figure — CORAL↔MARCO pattern.)*
+- AI-capex / semiconductor / memory fundamentals → VULCAN. LIQUID owns the AI-credit **spread tells** (KB-LIQ-066 tech-HY BB-concentration composition, KB-LIQ-069 AI-HY re-arm triggers incl. ORCL fallen-angel, KB-LIQ-073 named CRWV/APLD bond basket); VULCAN owns the capex/fundamentals **mechanism**. Reconcile AI-credit stress to ONE figure.
 - BDC/private credit fundamentals → BROCK
 - Japan macro/BOJ → SAM (but you track Japan's UST selling)
 - Equity market structure → HENRY
@@ -144,7 +130,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | Auction failure (BTC <2.0x) | ALL | 🔴 |
 | Reserves <$2.8T | PROME | 🟠 |
 | Belgium >$500B — **bare level, NO China-exit inference** (see §DOMAIN SCOPE) | SAM, PROME | 🟠 |
-| ⛔ ~~Second private credit fund gate~~ **RETIRED-AND-REPOINTED 2026-09-12.** This desk no longer holds a private-credit-gate count. **The registered instrument is BROCK's `GATE-BRK-R2`** (definition surface `AGENTS/BROCK/workbook/PC_REDEMPTION_REGISTER.tsv` header): ≥3 consecutive sub-100% satisfaction quarters at ONE vehicle, OR single-quarter satisfaction <25% (Σaccepted÷Σsubmitted). **Read BROCK's count; do not keep a second, coarser one here.** | *(no LIQUID send — BROCK owns and routes)* | — |
+| Private-credit gate count: **none kept here.** Read BROCK's `GATE-BRK-R2` (`AGENTS/BROCK/workbook/PC_REDEMPTION_REGISTER.tsv` header); do not keep a second, coarser count. | *(no LIQUID send — BROCK owns and routes)* | — |
 | AI-HY re-arm trigger fires (KB-LIQ-069 set) or KB-LIQ-073 basket stress | VULCAN (S1/S5), VIOLET (Path-B) | 🟠 |
 
 **You receive from:**
@@ -152,10 +138,6 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - BROCK: BDC stress (dividend cuts, NAV, gates) → feeds credit spreads
 - SAM: BOJ/yen → Japan repatriation trigger
 - HAWK: Oil/war → war risk insurance, Gulf sovereign spreads, flight to safety
-
----
-
-
 
 ---
 
@@ -195,12 +177,12 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing parag
 | `USER.md` | Will profile and communication preferences. Boot doc. |
 | `STRATEGY.md` | Decision playbook — escalation triggers, position framework. |
 | `CREDIT_THRESHOLDS.md` | Feb 28 historical threshold-framework analysis (squeeze-resolution path overtook it; framework still useful). |
-| `thesis/THESIS.md` | THESIS v2.0 (5/19) — core frame, three structural failure legs, transmission channels, bilateral credit framework, cross-agent interfaces. |
+| `thesis/THESIS.md` | Core thesis frame: structural failure legs, transmission channels, bilateral credit framework, cross-agent interfaces. |
 | `thesis/CHANGELOG.md` | Versioned thesis revision log — what changed v1.0→v2.0 and why. |
-| `thesis/TIMELINE.md` | Forward-only Active Branch Points (8 decision windows, Jun 20 → YE: HY/30Y/USD-JPY/Brent rolling + BCRED Q2 / 7-25 BDC marks / July FOMC / YE balance-sheet review). |
+| `thesis/TIMELINE.md` | Forward-only active branch points (dated decision windows). |
 | `workbook/KB.tsv` | Durable knowledge entries (KB-LIQ-NNN). Primary durable findings track. |
 | `workbook/KILL_MEMO_HY_OAS_260.md` | Pre-written trigger ladder when HY OAS approaches 260 kill. |
-| `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | BDC mark watch; Q1 in (FSK NAV -9.9%), **Q2 marks ~7/25 = NEXUS R3 credit-bifurcation transmission test**. |
+| `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | BDC mark watch across quarterly marks (NEXUS R3 credit-bifurcation transmission test). |
 | `workbook/AUCTION_FRAMEWORK.md` | Treasury auction grading framework (BTC, indirect bid, tail). Active for 20Y/2Y/5Y/7Y cycles. |
 | `workbook/EXPECTED_SIGNALS_TRACKER.md` | Absence-is-data expected-signals tracker (ES-LIQ-01..05: FHLB / sponsored-repo / MMF WAM / FTD / CCY-basis; bands + response protocol). Born 7/11 (DAEDALUS ask-8). |
 | `workbook/TIC_FRAMEWORK.md` | Monthly TIC release interpretation (Japan, China/Belgium proxy, FOI demand hole). |
@@ -212,4 +194,4 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing parag
 | `domain/sources/` | Foundational research, resolved playbooks, framework archives. Empirical bedrock under THESIS v2 legs. |
 | `archive/` | Retired files: handoffs, legacy methodology, resolved episodes, prior STATUS snapshots (`status_snapshots/`). |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | PROME-action requests ONLY. ⛔ **CORRECTED 2026-09-03 (DAEDALUS route-around census, `walter_route_check.py`): this row read *"HERMES retired — cross-agent signals go directly to the target agent's `inbox/`"* — a ROUTE-AROUND instruction that survived the 9/2 prose fix because a table row is where a correction lands last.** **SIGNALS (a registered threshold firing, a cross-agent trip, a market/news datum another desk must act on) → WALTER (`AGENTS/WALTER/inbox/`, self-committed, carve-out ①). ANALYSIS and self-authored PACKETS answering a named peer → direct to that agent's `inbox/`, self-committed per carve-out ①.** |
+| `outbox/` | Optional sender copy. **PROME requests → root `PROME/inbox/`. SIGNALS → WALTER (`AGENTS/WALTER/inbox/`, carve-out ①). ANALYSIS answering a named peer → that agent's `inbox/` (carve-out ①).** |

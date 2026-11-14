@@ -27,7 +27,7 @@ Skip for casual one-off exchanges with no artifacts. **Live-event override:** if
    - **Did any threshold breach?** → cross-agent signal candidate (CLAUDE.md table)
    - **Did a prediction resolve?** → PREDICTIONS.tsv update
    - **Did I produce a durable finding?** → KB.tsv entry candidate
-   - **Did I touch positions/proposals?** → STATUS Active Positions/Proposals
+   - **Did I touch positions/proposals?** → STATUS §3 OWED
    - **Did this session add a non-obvious lesson?** → auto-memory candidate
 4. Decide closeout tier:
 
@@ -48,7 +48,7 @@ End-of-day always runs at least Standard so the audit trail catches up.
 
 ### `STATUS.md` — surgical update (not rewrite)
 
-*(Aligned 2026-09-29 to the six-section STATUS layout; the old "3 dashboards / thresholds table / danger windows" list described the pre-restructure file. Full prior file → `archive/status_snapshots/STATUS_FULL_2026-09-29_pre-restructure.md`.)* **Each fact lives in ONE section; never add a second copy.**
+**Each fact lives in ONE section; never add a second copy.**
 - **Header:** `Last Updated:` stamp taken from `date` in the same command, plus a one-line session summary.
 - **§1 NOW:** replace readings with newer ones, each keeping its OWN observation date. Keep the Credit / Funding / Duration / Foreign reads in their own paragraphs (do not mix categories).
 - **§2 GATES:** the current-state home. Update the touched gate cells (reading, count, next test, pointer); history goes to the analysis file or archive, not the cell. Verify `grep -c '^| \*\*GATE' STATUS.md` = 5.
@@ -59,7 +59,7 @@ End-of-day always runs at least Standard so the audit trail catches up.
 
 ### `NEXUS_BRIEF.md` — final state fold
 
-**L836 repair, 2026-10-25 (PROME's existing Will-directed packet):** at every committed closeout, including Light, refresh the brief from the final STATUS findings. Replace superseded live claims; preserve observation dates, publication vintage, source limits and qualifications. Follow `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1/§4.4 for ordering and the STATUS pin; no new schema or review rule is introduced here.
+At every committed closeout, including Light, refresh the brief from the final STATUS findings. Replace superseded live claims; preserve observation dates, publication vintage, source limits and qualifications. Follow `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1/§4.4 for ordering and the STATUS pin; no new schema or review rule is introduced here.
 
 Complete the remaining MEMORY/calendar/workbook/report writes below and commit the final STATUS first. Then fold the brief as the session's **last write-back**, immediately before its own path-scoped commit, using `STATUS commit: \`<hash>\`` with that STATUS commit. If STATUS changes again, fold again before delivery. For a no-change session, refresh the As-of stamp and pin. This subsection is placed beside STATUS to make the dependency visible; its execution comes after the other write-back chunks. NEXUS consumption and PROME verification remain separate from the owner commit.
 
@@ -86,7 +86,7 @@ Touch only the rows below that this session actually changed.
 | `workbook/PREDICTIONS.tsv` | A prediction resolved (achieved, falsified, expired) | Update Status / Date_Resolved / Outcome / Notes |
 | `workbook/CATALYSTS.tsv` | A dated catalyst was added, resolved, or its date shifted | Add/update/retire the row; keep `CALENDAR.md` (human twin) in sync by hand — compare event sets; validate CATALYSTS via `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/LIQUID/scripts/boot.py --selftest)` (cwd-proof; it never reads `CALENDAR.md`) |
 | `workbook/KILL_MEMO_HY_OAS_260.md` | Trigger ladder thresholds changed or a trigger fired | Update tier rows; mark fired triggers |
-| `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Q1 BDC marks landed or new mark divergence | Update OBDC/ARCC/BXSL/MAIN rows |
+| `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | A quarter's BDC marks landed or new mark divergence | Update OBDC/ARCC/BXSL/MAIN rows |
 | `workbook/FLOW.tsv` / `workbook/VX.tsv` | FROZEN 2026-07-11 | No update; record the change in STATUS/KB |
 | `workbook/AUCTION_FRAMEWORK.md` / `TIC_FRAMEWORK.md` | Methodology changed (rare) | Surgical edit |
 
@@ -99,7 +99,7 @@ Touch only the rows below that this session actually changed.
 If a 🔴 or 🟠 cross-agent threshold breached this session (per CLAUDE.md CROSS-AGENT SIGNALS table):
 
 1. **Write the packet** using the standard format (headline / detail / source / priority), filename `YYYY-MM-DD_to-[target]_[short_description].md`.
-2. **Route it via WALTER** — write the packet to `AGENTS/WALTER/inbox/YYYY-MM-DD_from-LIQUID_ROUTE-<slug>.md` and self-commit it (carve-out ①); WALTER publishes the BOARD row and delivers the per-recipient handoff. ⛔ **CORRECTED 2026-09-03 (DAEDALUS route-around census; the 9/2 `CLAUDE.md` fix had not reached this file):** this step read *"Deliver it to the target agent's `inbox/` directly"* — itself a 7/23 correction of a dead-HERMES line, so the 7/23 fix replaced a dead router with a bypass of the live one. **Root canon: never route signals around WALTER.** Direct inbox delivery stays correct for ANALYSIS packets (an adjudication, a correction, a reply to a named peer's ask) — never for a signal. **PROME requests → `PROME/inbox/`; `outbox/` = optional sender copy.**
+2. **Route it via WALTER** — write the packet to `AGENTS/WALTER/inbox/YYYY-MM-DD_from-LIQUID_ROUTE-<slug>.md` and self-commit it (carve-out ①); WALTER publishes the BOARD row and delivers the per-recipient handoff. **Root canon: never route signals around WALTER.** Direct inbox delivery stays correct for ANALYSIS packets (an adjudication, a correction, a reply to a named peer's ask) — never for a signal. **PROME requests → `PROME/inbox/`; `outbox/` = optional sender copy.**
 3. **Commit self-authored recipient inbox packets explicitly under root Git carve-out①.** Shared/root files outside the named carve-outs remain PROME-owned; never sweep another desk’s changes.
 4. **Append to `AGENTS/SIGNALS.md`:** `| DATE | LIQUID | TARGET | 🔴/🟠 | Description |` row.
 
@@ -157,11 +157,9 @@ One short message:
 
 ## Cross-session behavioral rules
 
-- **Behavior-language over hash-pinning** in state files (hashes go stale within 48h)
+- **Behavior-language over hash-pinning** in state files (hashes go stale within 48h); the NEXUS_BRIEF `STATUS commit:` pin is the one exception
 - **Verify state before propagating** — check ground truth, don't restate from prior surface text
-- **Read before editing** — never `Edit` without `Read` in the same turn
 - **Chunked updates** — sequence with checkpoints; don't batch 4–5 file edits in one pass
-- **`trash` over `rm`** for deletions
 
 ---
 
@@ -179,7 +177,7 @@ One short message:
 | `workbook/PREDICTIONS.tsv` | Only if a prediction resolved |
 | `workbook/CATALYSTS.tsv` | Sync `CALENDAR.md` by hand on any dated-catalyst add/resolve (boot countdown reads CATALYSTS); `--selftest` (Chunk 2) never reads CALENDAR |
 | `workbook/KILL_MEMO_HY_OAS_260.md` | Only if trigger ladder changed |
-| `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Only if Q1 marks landed |
+| `workbook/BDC_MARK_CONVERGENCE_MONITOR.md` | Only if a quarter's BDC marks landed |
 | `workbook/FLOW.tsv` / `workbook/VX.tsv` | FROZEN 2026-07-11 — no update; record changes in STATUS/KB |
 | `workbook/AUCTION_FRAMEWORK.md` / `TIC_FRAMEWORK.md` | Only if methodology changed (rare) |
 | `outbox/` | Optional sender copy only; PROME requests → `PROME/inbox/`; other delivery per Chunk 3 / Skip rules |

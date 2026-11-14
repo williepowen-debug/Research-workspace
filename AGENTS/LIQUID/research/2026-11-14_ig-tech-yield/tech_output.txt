@@ -1,0 +1,45 @@
+Group | n bonds | MV $B | wavg maturity yrs | yield clean-conv | yield dirty-conv | spread clean-conv | spread dirty-conv
+All holdings | 6216 | 8.99 | 6.0 | 5.80 | 6.18 | 84 | 121
+Tech basket | 551 | 1.23 | 6.6 | 5.99 | 6.32 | 101 | 134
+AI builders (ORCL META GOOGL AMZN MSFT) | 156 | 0.52 | 7.8 | 6.25 | 6.57 | 124 | 156
+Other tech | 395 | 0.71 | 5.6 | 5.79 | 6.13 | 84 | 118
+Non-tech | 5665 | 7.76 | 6.0 | 5.78 | 6.16 | 81 | 119
+
+By issuer (tech)
+AMAZON | 33 | 0.16 | 7.2 | 67 | 99
+ORACLE | 53 | 0.13 | 7.3 | 273 | 296
+META PLATFORMS | 27 | 0.10 | 8.9 | 111 | 161
+ALPHABET | 25 | 0.09 | 7.7 | 62 | 92
+BROADCOM | 28 | 0.08 | 5.4 | 117 | 143
+APPLE INC | 37 | 0.07 | 5.9 | 26 | 33
+NVIDIA | 10 | 0.06 | 5.5 | 76 | 131
+SALESFORCE | 13 | 0.05 | 6.6 | 89 | 114
+DELL | 25 | 0.05 | 5.0 | 101 | 132
+INTEL | 27 | 0.05 | 7.2 | 117 | 153
+IBM | 29 | 0.04 | 5.6 | 70 | 127
+MICROSOFT | 18 | 0.03 | 10.3 | 46 | 51
+CISCO | 11 | 0.03 | 7.0 | 52 | 83
+QUALCOMM | 16 | 0.02 | 5.9 | 66 | 116
+
+Bucket-matched spread, tech minus non-tech (clean / dirty conv)
+1-3y: tech 67 vs non-tech 61 => +6 ; AI builders 94 (+33) | dirty -7 / AI +11 | n 116/21/1285
+3-5y: tech 90 vs non-tech 78 => +11 ; AI builders 103 (+25) | dirty +11 / AI +26 | n 113/23/1246
+5-7y: tech 111 vs non-tech 86 => +25 ; AI builders 127 (+41) | dirty +28 / AI +47 | n 88/20/798
+7-10y: tech 127 vs non-tech 99 => +28 ; AI builders 149 (+49) | dirty +27 / AI +53 | n 80/19/1030
+10-20y: tech 154 vs non-tech 107 => +46 ; AI builders 179 (+72) | dirty +51 / AI +80 | n 56/24/536
+20-40y: tech 159 vs non-tech 108 => +51 ; AI builders 181 (+73) | dirty +53 / AI +76 | n 92/47/731
+
+Oracle new notes (Nov 4 issue)
+ORACLE CORP SR UNSECURED 11/31 7.45 | mark 98.826 | reoffer 99.942 | Nov5 mark 100.206 | spread clean-conv 279 dirty-conv 283 | pricing spread 275 | Nov5 281 | accrued 0.185 | y 7.74
+ORACLE CORP SR UNSECURED 11/33 7.85 | mark 99.159 | reoffer 99.995 | Nov5 mark 100.894 | spread clean-conv 299 dirty-conv 303 | pricing spread 305 | Nov5 298 | accrued 0.195 | y 8.01
+ORACLE CORP SR UNSECURED 11/29 7 | mark 99.563 | reoffer 99.835 | Nov5 mark 100.535 | spread clean-conv 227 dirty-conv 233 | pricing spread 240 | Nov5 228 | accrued 0.174 | y 7.16
+ORACLE CORP SR UNSECURED 11/46 8.65 | mark 99.046 | reoffer 99.84 | Nov5 mark 100.594 | spread clean-conv 327 dirty-conv 330 | pricing spread 335 | Nov5 332 | accrued 0.215 | y 8.75
+
+Bucket-matched, clean conv: AI builders ex-Oracle and Oracle alone, minus non-tech
+1-3y: ex-ORCL builders -26 (n 13) | ORCL +149 (n 8)
+3-5y: ex-ORCL builders -20 (n 16) | ORCL +186 (n 7)
+5-7y: ex-ORCL builders -5 (n 14) | ORCL +203 (n 6)
+7-10y: ex-ORCL builders -7 (n 12) | ORCL +201 (n 7)
+10-20y: ex-ORCL builders +17 (n 12) | ORCL +204 (n 12)
+20-40y: ex-ORCL builders +28 (n 34) | ORCL +213 (n 13)
+ex-ORCL builders all: spread 75 yield 5.77 mat 8.0
