@@ -1,39 +1,30 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-14T16:21:10Z",
-  "items": 7,
+  "checked_at": "2026-11-14T17:28:19Z",
+  "items": 2,
   "scan": {
-    "checked_at": "2026-11-14T16:20:05Z",
-    "head_checked_at": "2026-11-14T16:20:04Z",
+    "checked_at": "2026-11-14T17:27:55Z",
+    "head_checked_at": "2026-11-14T17:27:55Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 3
+    "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "partly_read": 6,
+    "partly_read": 1,
     "fully_read": 1
   },
   "dispositions": {
-    "DISPATCH": 4,
-    "DUP": 3
+    "DISPATCH": 2
   },
   "follow_ups": [
     {
-      "id": "2090447097405341851",
-      "ref": "BOARD/SIG-W-20261114-007-Will-bookmarks-Nov-13-Bloomberg-chart-IG-tech-bond-yield-highest-since-2009-about-6.1pct-AI-funding-LIQUID-FAA-ATC-contractor-Peraton-context-for-ground-stop-Volgograd-second-witness-France-on-Houthis.md"
+      "id": "2121649532475695533",
+      "ref": "BOARD/SIG-W-20261114-008-UPDATE-card-001-Duffy-says-ground-stop-caused-by-bad-equipment-or-an-error-replacing-old-copper-telecom-lines-at-a-remote-FAA-facility-AFP-more-than-16000-US-flights-cancelled-Fri-and-Sat-BRENT.md"
     },
     {
-      "id": "2121288467581632703",
-      "ref": "BOARD/SIG-W-20261114-007-Will-bookmarks-Nov-13-Bloomberg-chart-IG-tech-bond-yield-highest-since-2009-about-6.1pct-AI-funding-LIQUID-FAA-ATC-contractor-Peraton-context-for-ground-stop-Volgograd-second-witness-France-on-Houthis.md"
-    },
-    {
-      "id": "2121272129404522614",
-      "ref": "BOARD/SIG-W-20261114-007-Will-bookmarks-Nov-13-Bloomberg-chart-IG-tech-bond-yield-highest-since-2009-about-6.1pct-AI-funding-LIQUID-FAA-ATC-contractor-Peraton-context-for-ground-stop-Volgograd-second-witness-France-on-Houthis.md"
-    },
-    {
-      "id": "2121013324192137653",
-      "ref": "BOARD/SIG-W-20261114-007-Will-bookmarks-Nov-13-Bloomberg-chart-IG-tech-bond-yield-highest-since-2009-about-6.1pct-AI-funding-LIQUID-FAA-ATC-contractor-Peraton-context-for-ground-stop-Volgograd-second-witness-France-on-Houthis.md"
+      "id": "2121651285913117020",
+      "ref": "BOARD/SIG-W-20261114-008-UPDATE-card-001-Duffy-says-ground-stop-caused-by-bad-equipment-or-an-error-replacing-old-copper-telecom-lines-at-a-remote-FAA-facility-AFP-more-than-16000-US-flights-cancelled-Fri-and-Sat-BRENT.md"
     }
   ],
   "requests": []

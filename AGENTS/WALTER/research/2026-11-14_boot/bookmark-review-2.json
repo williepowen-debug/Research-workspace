@@ -1,0 +1,21 @@
+{
+ "schema": 2,
+ "staged_at": 1794677275.3515313,
+ "items": [
+  {
+   "id": "2121649532475695533",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261114-008-UPDATE-card-001-Duffy-says-ground-stop-caused-by-bad-equipment-or-an-error-replacing-old-copper-telecom-lines-at-a-remote-FAA-facility-AFP-more-than-16000-US-flights-cancelled-Fri-and-Sat-BRENT.md",
+   "ask_user": null
+  },
+  {
+   "id": "2121651285913117020",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261114-008-UPDATE-card-001-Duffy-says-ground-stop-caused-by-bad-equipment-or-an-error-replacing-old-copper-telecom-lines-at-a-remote-FAA-facility-AFP-more-than-16000-US-flights-cancelled-Fri-and-Sat-BRENT.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "6c46cb61b0da4c20a439eea8722b38af"
+}
