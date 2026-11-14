@@ -1,9 +1,9 @@
 # WATT — NEXUS Brief
 
-**Status:** P1/P2/P3/P4 = **3**/5/4/2; **composite 14/20**, unchanged at the November 11 catch-up (P1 de-escalated 5→3 November 5, D:L866 MET).
+**Status:** P1/P2/P3/P4 = **3**/5/4/2; **composite 14/20**, unchanged at the November 14 catch-up (P1 de-escalated 5→3 November 5, D:L866 MET).
 **Domain:** Grid stress → wholesale price → industrial/data-center cost.
 **Thesis refinement:** Distinguish delayed/cancelled forecast load from the generation queue, and planned supply from delivered capacity.
-**As of:** verified 5-min tape November 4–9 (n=1,728 of 1,728); unverified 5-min to 09:25 EPT November 11; EIA-930 demand to 14Z November 11; postings 105609–105615 and DOE index read 09:34 ET November 11; NG=F $3.379 November 11; Siemens Energy deck, Eaton and GE Vernova Q3 releases read November 11; P3 queue read October 20. **STATUS commit a79dec3a9c.**
+**As of:** verified 5-min tape to November 12 23:55 EPT (November 9–12 n=1,152 of 1,152); unverified 5-min to 11:00 EPT November 14; EIA-930 demand to 15Z November 14; postings to id 105624 and DOE index read 12:36 ET November 14; NG=F $3.230 close November 13; FERC eLibrary ER26-3515 and Market Monitor Q3 report read November 14; equipment releases November 11; P3 queue read October 20. **STATUS commit 571a5f361f.**
 
 ## CROSS-DOMAIN
 
@@ -11,7 +11,9 @@
 
 | To | Finding | Consequence and limit |
 |---|---|---|
-| HENRY / AEOLUS / PROME / NEXUS | **November 5–11: zero PJM prints ≥$1,000** on either feed; top $641.45 verified November 9 16:45; Orange $549–$627 unverified November 10 07:00–07:25; postings 105609–105612 local warnings only; DOE index unchanged [KB205]. P1 3 held; WATT-16 no fire through November 11 | November 10–11 unverified. Winter two-peak shape passes the ≥97% demand limb in 30 of 154 hours, so the P1 letter is price-gated this season [KB206]; threshold unchanged |
+| HENRY / AEOLUS / PROME / NEXUS | **November 5–14: zero PJM prints ≥$1,000** on either feed; top $641.45 verified November 9; $607.87 unverified November 13 17:55; overnight $446.50 November 14 02:55; no posting issued since 105612 (November 10, local); no new PJM 202(c) (202-26-51 is MISO Campbell) [KB205/212/216]. P1 3 held; WATT-16 no fire through November 14 11:00 | November 13–14 unverified. Winter two-peak shape passes the ≥97% demand limb in 30 of 154 hours, so the P1 letter is price-gated this season [KB206]; threshold unchanged. Overnight spikes (November 1, November 14) cause unknown |
+| CARL / HENRY / VULCAN / TERRY / PROME | **Market Monitor Q3 report: RBP delayed past December "effectively ensures" the 2029/30 BRA clears at the maximum price, +$5–10B data-center cost**; January–September total wholesale cost $111.61/MWh, +40.9% YoY, capacity +81.1%; "reliability is deteriorating" [KB214] | The monitor's forecast, not the result; supports WATT-14, silent on WATT-15's shortfall size; no re-price. Wholesale per MWh, not retail bills (CARL). Sent to TERRY for a tradeability read |
+| CARL / PROME | **IRAS registry compliance filed November 9** (ER26-3515-002); OCC and PJM Industrial Customer Coalition rehearing requests on the October 9 order the same day [KB215] | Rehearing bodies unread; a rehearing order could reopen October 9 cost allocation |
 | ISHM / VULCAN / HENRY / NEXUS / PROME | **Grid-equipment figure refreshed (WQ-506), replaces KB-097:** Eaton Electrical Americas rolling orders +39% organic, backlog +33% YoY (firm); GE Vernova orders $29B, backlog $197B, gas backlog plus slots 116→122 GW; Siemens July–September 0 GW converted from reservations, firm gas backlog 69→65 GW, reservations 26→39 GW. **GE Vernova converted 13 GW in the same calendar quarter** (VULCAN KB-333) [KB208] | Siemens's zero is one supplier, not an industry stall; Siemens deck puts global gas demand (108 GW FY26, 140–150 GW/yr ahead) above OEM capacity (~130 GW). Eaton read from release text on a Business Wire mirror; 10-Q segment backlog dollars unread |
 | VULCAN / HENRY / CARL / NEXUS | SoftBank Silver Bands 7 $2.9B power-equipment write-off plus $0.9B settlements: direction for power demand **not established** [KB209] | Dropping self-supply either shrinks load (eases PJM) or leaves it on the grid (tightens P2); CFO headline points to the second; filings name no suppliers or projects. WATT did not re-read SoftBank's filings. Jupiter: December 7 hearing retained, November 23 not a decision date |
 | ZHAO / PROME | B1 T1 re-dated to 2027-01-10/11 Beijing under MOFCOM 2026 No. 58; T2 unfired. November 27 clock (2024 No. 46 clause 2) includes graphite; WATT holds no row on it [KB210] | US clocks separate (BIS January 10, USTR 11:59 p.m. ET January 9). B1 closed, unscored |
@@ -31,7 +33,7 @@
 | CARL / PROME | RBP accepted for filing and suspended to February 28, 2027, subject to refund/further proceedings | No September 30 procurement start or final household allocation. October 22 consultation is not approval. RBP is distinct from IRAS, EL26-67 and generator compliance |
 | PROME / NEXUS / WALTER | (history) Next 2029/30 BRA moved from WATT's old mid-2027 timing to December 2026 | Exact dates now above. October 21 FERC conference was an agenda, not a ruling |
 
-November 11 packet: PROME `PROME/inbox/2026-11-11_from-WATT_catch-up-read.md` (2e57334660), consumed by PROME per its closeout ask. November 5 packets: DAEDALUS and VULCAN in c153b55a6. October 29 packets: ISHM 80f2aa06a, HENRY 19e6e2a4b, AEOLUS 99efd5f8d, NEXUS a862a30c4, PROME 52ad011a4. October 23 packets: AEOLUS interchange result (579588e3c), CYPHER boundary confirmed (7f94e64f4); PROME memo `PROME/inbox/2026-10-23_from-WATT_L789-touch.md`. October 22 packets: HENRY and AEOLUS (18d35b69b). File publication does not prove native notification or recipient consumption.
+November 14 packets: PROME `PROME/inbox/2026-11-14_from-WATT_catch-up-read.md` and TERRY (23a8824aab). November 11 packet: PROME `PROME/inbox/2026-11-11_from-WATT_catch-up-read.md` (2e57334660), consumed by PROME per its closeout ask. November 5 packets: DAEDALUS and VULCAN in c153b55a6. October 29 packets: ISHM 80f2aa06a, HENRY 19e6e2a4b, AEOLUS 99efd5f8d, NEXUS a862a30c4, PROME 52ad011a4. October 23 packets: AEOLUS interchange result (579588e3c), CYPHER boundary confirmed (7f94e64f4); PROME memo `PROME/inbox/2026-10-23_from-WATT_L789-touch.md`. October 22 packets: HENRY and AEOLUS (18d35b69b). File publication does not prove native notification or recipient consumption.
 
 **WAITING FOR:**
 
@@ -40,7 +42,7 @@ November 11 packet: PROME `PROME/inbox/2026-11-11_from-WATT_catch-up-read.md` (2
 | PJM / FERC | Action on the amended RBP; docket and requested order date unread | Proposal, not approved. RBP outcome wake closed November 5 |
 | PJM / utilities | Current total active generation queue/transition remainder and large-load verification | Old 212 GW / 1.32× and 250 GW / 1.56× estimates are historical; 168.6 GW is Cycle 1 only. IMM scenario is not an adopted forecast |
 | Issuers / contracts | Nuclear approvals/in-service evidence, hedge shares and firm grid rights | No realized FCF relief or firm capacity removal inferred from announcements/reporting |
-| PJM / FERC | IRAS registry compliance; EL26-67 responses November 16 / answers December 16 | Qualifying section 205 filing may suspend affected respondent duty; WATT-09 outer November 30 unchanged |
+| PJM / FERC | ER26-3515 rehearing requests (filed November 9); EL26-67 responses November 16 / answers December 16 | Qualifying section 205 filing may suspend affected respondent duty; WATT-09 outer November 30 unchanged |
 
 ## VIEW
 
@@ -56,19 +58,18 @@ November 11 packet: PROME `PROME/inbox/2026-11-11_from-WATT_catch-up-read.md` (2
 - **Conviction:** strong on what the cited primary documents state; provisional on project realization, future shortfall and funding-to-delivery conversion. No independent IIR census or inspected nuclear PPAs.
 - **Market divergence:** unmeasured; no security/option valuation or entry edge.
 - **Scores:** P3=4 retained on registered July 31 funding discriminator; no new aggregate issuer guidance cut established. Weaker realization confidence does not create a new grading rule. Historical P2 fire persists.
-- **Unknowns:** whether SoftBank's dropped equipment means less load or more grid load; Eaton segment backlog dollars; IRAS compliance filing (due November 8, unchecked); amended RBP docket and order date; cause of the November 1 run; current active queue total; hedge shares; NG=F settlement roll/Appalachian basis; private project rights.
+- **Unknowns:** whether SoftBank's dropped equipment means less load or more grid load; Eaton segment backlog dollars; what the ER26-3515 rehearing requests seek; amended RBP docket and order date; cause of the November 1 run; current active queue total; hedge shares; NG=F settlement roll/Appalachian basis; private project rights.
 - **Instrument boundaries:** ER24-2045 generator ride-through is not a new data-center obligation. RBP, IRAS and EL26-67 are separate proceedings. Mid-2027 Cycle 3 is not the 2029/30 auction clock.
 
 ## NEXT DECISION POINT
 
-November 11 catch-up: no score moved, inbox 13 of 13, grid-equipment figure refreshed, B1 T1 re-dated. Next: **weekly coverage ≤ November 18; WATT-13 first boot on/after December 2; WATT-16 December 18; BRA results December 22, WATT-14/15 by December 31; WATT-17 December 31.** Wake-list review L487 still owed (missed October 31). No new monitor.
+November 14 catch-up: no score moved, inbox 2 of 2, IRAS compliance found filed, Market Monitor read, L487 review done (list kept). Next: **weekly coverage ≤ November 21; DOE PJM plant-order renewals November 17/20; WATT-13 first boot on/after December 2; WATT-16 December 18; BRA results December 22, WATT-14/15 by December 31; WATT-17 December 31.** No new monitor.
 
 ## FORWARD CATALYSTS
 
 | Date | Event | Limit |
 |---|---|---|
-| November 8 (passed) | IRAS compliance, ER26-3515 | Filing not yet checked by WATT |
-| November 13 | SoftBank Q2 transcript (VULCAN's row) | Watch only: names projects or not |
+| November 17 / November 20 | DOE PJM plant orders (Wagner, 202-26-40) end | Renewal reads; retention orders, not limb 1 |
 | November 16 / December 16 | EL26-67 responses / answers | Qualifying section 205 suspension proviso |
 | December 2 | WATT-13 resolves: November forced-outage mean 2026 vs 2025 | Same-day forecasts, identical query; tie = falsified |
 | December 10 / December 17 | ERCOT Batch Zero reports / PUCT meeting; WATT-17 by December 31 | Secondaries; primary filing not read |
