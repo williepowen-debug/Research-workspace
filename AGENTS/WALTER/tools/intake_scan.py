@@ -198,22 +198,51 @@ def read_batch_items(batch):
         return None, type(e).__name__
 
 
-def news_batches(saved, last_marked):
+def batch_sha(batch):
+    """12-hex fingerprint of a batch file's bytes, or None if unreadable."""
+    try:
+        return hashlib.sha1((LANE / batch).read_bytes()).hexdigest()[:12]
+    except (OSError, TypeError):
+        return None
+
+
+def rewritten_marked(saved, last_marked, marked_sha):
+    """The marked batch, if its bytes changed since --mark; else None.
+
+    WALTER 2026-11-14 (walter-72, Will's word 12:16 ET): the collector rewrites a day's
+    news.json on every run that day. The 11/13 batch was marked at 15:18Z and replaced by the
+    21:08Z run; catch-up starts the day AFTER the marked day, so those 107 headlines were never
+    scanned. And when the rewrite lands while that day is still the newest, its count keys
+    (news:<cls>:<batch>) were already seen and were suppressed. No stored fingerprint (older
+    seen files) = None: behaviour unchanged until the next --mark stores one."""
+    if not marked_sha or not _day(last_marked) or not (LANE / last_marked).exists():
+        return None
+    if _day(saved) and _day(last_marked) > _day(saved):
+        return None
+    sha = batch_sha(last_marked)
+    return last_marked if sha and sha != marked_sha else None
+
+
+def news_batches(saved, last_marked, marked_sha=None):
     """Batches to scan, oldest first: every data/<day>/news.json with day after the marked
     batch's day and up to the newest (`saved`), always including `saved`. No pointer, an
     unparseable pointer, a pointer at or after `saved`, or no `saved` = [saved] only (install
     behaviour, nothing replayed). A parseable pointer whose file has gone still drives catch-up by
-    DATE (follow-up note 2), so no batch after it is skipped; pointer_health says so."""
+    DATE (follow-up note 2), so no batch after it is skipped; pointer_health says so.
+    The marked batch itself is re-scanned whole when its fingerprint changed since --mark
+    (rewritten_marked)."""
     if not saved:
         return []
+    rb = rewritten_marked(saved, last_marked, marked_sha)
     hi, lo = _day(saved), _day(last_marked)
     if not hi or not lo or lo >= hi:
         return [saved]
     days, err = _lane_days()
     if err:
-        return [saved]
-    return [f"data/{d}/news.json" for d in days
-            if lo < d < hi and (LANE / "data" / d / "news.json").exists()] + [saved]
+        return ([rb] if rb and rb != saved else []) + [saved]
+    out = [f"data/{d}/news.json" for d in days
+           if lo < d < hi and (LANE / "data" / d / "news.json").exists()] + [saved]
+    return ([rb] if rb and rb not in out else []) + out
 
 
 def pointer_health(last_marked, saved=None):
@@ -258,7 +287,7 @@ def mark_pointer(batches, last_marked, through):
     return new
 
 
-def collect_alerts(live, last_marked=None):
+def collect_alerts(live, last_marked=None, marked_sha=None):
     """Normalize every feed's alert-bearing field into gate records.
     record = dict(feed, key, band, gate, owners, info_cc, precedence, raw)."""
     recs = []
@@ -352,7 +381,9 @@ def collect_alerts(live, last_marked=None):
                                  owners=["(per-item agents field)"], info_cc=[], precedence=prec,
                                  raw=f"{n} {cls} item(s) — newsweep saved path missing",
                                  label=f"{n} {cls} (saved path missing)"))
-    for batch in news_batches(saved, last_marked):
+    rb = rewritten_marked(saved, last_marked, marked_sha) if saved else None
+    for batch in news_batches(saved, last_marked, marked_sha):
+        sfx = f"@{batch_sha(batch)}" if batch == rb else ""  # rewritten marked batch: fresh count keys
         if batch == saved:
             counts = byc
         else:
@@ -372,7 +403,7 @@ def collect_alerts(live, last_marked=None):
         for cls, gate, prec in (("NEW_ALERT", "ACTION", "PRIORITY"), ("NEW_WATCH", "INFO", "ROUTINE")):
             n = counts.get(cls, 0)
             if n:
-                recs.append(dict(feed="newsweep", key=f"news:{cls}:{batch}", band=None,
+                recs.append(dict(feed="newsweep", key=f"news:{cls}:{batch}{sfx}", band=None,
                                  gate=gate, owners=["(per-item agents field)"], info_cc=[],
                                  precedence=prec, raw=f"{n} {cls} item(s) — read {batch}",
                                  label=f"{n} {cls}"))
@@ -697,13 +728,18 @@ def main():
     seen = load_seen()
     last_marked = seen.get("last_marked_batch")
     newest = live.get("jobs", {}).get("newsweep", {}).get("saved")
-    batches = news_batches(newest, last_marked)
-    recs = collect_alerts(live, last_marked)
+    marked_sha = seen.get("last_marked_sha")
+    batches = news_batches(newest, last_marked, marked_sha)
+    recs = collect_alerts(live, last_marked, marked_sha)
     for r in recs:
         r["onset"] = r["key"] not in seen["seen"]
     new = [r for r in recs if r["onset"]]
     suppressed = [r for r in recs if not r["onset"]]
     hz = health(live) + pointer_health(last_marked, newest)
+    rb = rewritten_marked(newest, last_marked, marked_sha) if newest else None
+    if rb:
+        hz.append(("MED", f"{rb} was rewritten by the collector after --mark (fingerprint {marked_sha} -> "
+                          f"{batch_sha(rb)}): re-scanning it whole; read its ordinary headlines too"))
 
     if args.mark and args.through and args.through != newest:
         print(f"REFUSED: --through {args.through} but the newest lane batch is now {newest}; "
@@ -722,6 +758,7 @@ def main():
         ptr = mark_pointer(batches, last_marked, args.through or newest)
         if ptr:
             seen["last_marked_batch"] = ptr  # WQ-676: next scan reads every batch after this one
+            seen["last_marked_sha"] = batch_sha(ptr)  # 2026-11-14: detects a same-day rewrite of the marked batch
         SEEN.write_text(json.dumps(seen, indent=2) + "\n", encoding="utf-8")
         print(f"reconciled intake_seen.json -> {len(new_seen)} currently-true gated key(s) "
               f"(+{len([r for r in recs if r['key'] not in prev])} new, -{len(dropped)} cleared)")

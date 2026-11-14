@@ -160,6 +160,43 @@ class CatchUp(unittest.TestCase):
         (self.lane / 'data' / '2026-11-02_rerun' / 'news.json').write_text(json.dumps({'items': [item('rerun hit', 'NEW_WATCH_HIT', hits=[['X', 'y']])]}))
         self.assertNotIn(key_hit('rerun hit'), self.keys('data/2026-11-01/news.json'))
 
+    # 2026-11-14 (walter-72, Will 12:16 ET): the collector rewrites a day's news.json on every run.
+    def rewrite(self, day, items):
+        (self.lane / 'data' / day / 'news.json').write_text(json.dumps({'items': items}))
+
+    def test_R1_marked_batch_rewritten_after_day_moved_on_is_rescanned(self):
+        # 11/13 instance: marked 11/03 at 15:18Z; 21:08Z run replaced 11/03; next scan's newest is 11/04
+        self.seen.write_text(json.dumps({'seen': {}, 'updated': None,
+                                         'last_marked_batch': 'data/2026-11-03/news.json',
+                                         'last_marked_sha': s.batch_sha('data/2026-11-03/news.json')}))
+        self.rewrite('2026-11-03', [item('late hit', 'NEW_WATCH_HIT', hits=[['CYPHER', 'q']]),
+                                    item('late alert', 'NEW_ALERT')])
+        sha = s.batch_sha('data/2026-11-03/news.json')
+        self.assertEqual(s.news_batches('data/2026-11-04/news.json', 'data/2026-11-03/news.json', 'stale'),
+                         ['data/2026-11-03/news.json', 'data/2026-11-04/news.json'])
+        k = {r['key'] for r in s.collect_alerts(self.live, 'data/2026-11-03/news.json',
+                                                 json.loads(self.seen.read_text())['last_marked_sha'])}
+        self.assertIn(key_hit('late hit'), k)
+        self.assertIn(f'news:NEW_ALERT:data/2026-11-03/news.json@{sha}', k)
+
+    def test_R2_same_day_rewrite_is_not_suppressed(self):
+        # marked newest 11/04, then the collector rewrites 11/04 before the next scan
+        rc, _ = self.mark()
+        st = json.loads(self.seen.read_text())
+        self.assertEqual(st['last_marked_sha'], s.batch_sha('data/2026-11-04/news.json'))
+        self.rewrite('2026-11-04', [item('D4 later', 'NEW_WATCH')])
+        out = io.StringIO()
+        with mock.patch.object(sys, 'argv', ['intake_scan.py', '--json']), contextlib.redirect_stdout(out):
+            s.main()
+        new = {r['key'] for r in json.loads(out.getvalue())['new']}
+        self.assertIn(f"news:NEW_WATCH:data/2026-11-04/news.json@{s.batch_sha('data/2026-11-04/news.json')}", new)
+
+    def test_R3_unchanged_or_unfingerprinted_marked_batch_not_reread(self):
+        self.assertEqual(s.news_batches('data/2026-11-04/news.json', 'data/2026-11-03/news.json',
+                                        s.batch_sha('data/2026-11-03/news.json')), ['data/2026-11-04/news.json'])
+        self.assertEqual(s.news_batches('data/2026-11-04/news.json', 'data/2026-11-03/news.json', None),
+                         ['data/2026-11-04/news.json'])
+
 
 if __name__ == '__main__':
     unittest.main()

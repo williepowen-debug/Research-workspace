@@ -15,5 +15,6 @@
     "news:WATCH_HIT:37538a775673": "2026-11-14T16:20:01Z"
   },
   "updated": "2026-11-14T16:20:01Z",
-  "last_marked_batch": "data/2026-11-14/news.json"
+  "last_marked_batch": "data/2026-11-14/news.json",
+  "last_marked_sha": "bbc2b5f2175e"
 }
