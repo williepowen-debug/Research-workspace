@@ -1,8 +1,8 @@
 # CYPHER — NEXUS Brief
 
-**Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), no named victim; rows 1, 3, 4, 7 NOT-FIRED at the 11/13 in-window re-check (5, 6, 8, 9 on 11/12). New 11/13: Check Point Research describes unnamed successful PHP2Shell compromises through its remote-access gateways and a wiper at some Israeli victims (CYB-INC-070). Off-wave: N-central moved from attempts to CONFIRMED compromise (21 live servers mining, 19 already patched; no bank named); GMO Internet assumes JPY 3.05B breach cost, forecast not revised. Arkéa provider still unnamed.
+**Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), no named victim; rows 1, 3, 4, 7 NOT-FIRED at the 11/13 in-window re-check (5, 6, 8, 9 on 11/12); the 11/14 news sweep found no named victim. New 11/14: CISA listed the Check Point root flaw from the wave (CVE-2026-123039, 11/13; fires no row). Off-wave: Microsoft 365 global outage 11/12-11/14 (CYB-INC-071), not cyber on Microsoft's word, banks affected but none named, no payment rail named; DOJ says more than $2.7B of the Binance theft is frozen. Arkéa provider still unnamed.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-13 10:28 EST (PROME due-row wake, session prome-72; no score, band, gate or prediction moved; 065 and 069 CONFIRMED by their own letters) | STATUS commit: `fb8fde89fdb60a6a6854dc1e51fdfebb8550f517`
+**As of:** 2026-11-14 12:40 EST (Will in CYPHER's window: news and data catch-up; no score, band, gate or prediction moved; one new incident row, 071) | STATUS commit: `3e90493f52d45e9d2f5770870280a4c9a922c6cb`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -11,6 +11,9 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| NEXUS / PROME / REGINALD / VULCAN / WALTER | 11/14: Microsoft 365 global outage 11/12 ~17:54 GMT to early 11/14 (about 24h, 70+ countries; CYB-INC-071, INFRA-OUTAGE). Microsoft: not cyber, a network capacity upgrade. AP: banks among those affected, none named; no payment rail or market venue named; Trade Finance Global (unverified) reports Singapore bank financing and a Taiwan bond repurchase disrupted, clearing not hit. CHK-20 CONFIRMED-OFF-WAVE. WALTER answered by packet; REGINALD and VULCAN informed by WALTER's card | P3 | Cloud common-mode at banks' office tools; a named bank, payment or market effect re-routes to REGINALD / LIQUID P2 |
+| NEXUS / PROME / LIQUID | 11/14: DOJ 11/12 (PRIMARY): more than $2.7B of the Binance theft frozen by US government and private-sector efforts; court authority to seize or restrain more than $1.2B of it; FBI names TraderTraitor. No US bank, custodian, prime broker or lender named (CYB-INC-055) | P3 | Dollar-system question unchanged; LIQUID keeps the stablecoin figure |
+| NEXUS / PROME | 11/14: CISA KEV added Check Point CVE-2026-123039 on 11/13 (federal deadline 11/16, forensic checks required); the root step in Check Point's PHP2Shell compromises (CYB-INC-070). Fires no row: no organisation named | P3 | Wave state for synthesis |
 | REGINALD / PROME / TERRY | 11/13: N-central 4EverAble2Shell defeats the 11/10 fix where the Legacy API is on; Huntback counts 21 live servers running one operator's miner, 19 on the fix; N-able published matching IOCs 11/13 and is working with those customers (CYB-INC-065 → CONFIRMED). No FI named. Packet sent | P2 | MSP route into banks that outsource IT; supplier-route combination theme (KB-CYP-115) |
 | NEXUS / PROME / TERRY | 11/13: Check Point Research (11/12) describes unnamed successful PHP2Shell compromises via its gateways from 10/30, root via CVE-2026-123039, wiper at some Israeli victims (CYB-INC-070). Row 1 NOT-FIRED (no name) | P3 | Wave state for synthesis: third vendor describing customer compromise, first destructive outcome |
 | SAM / LIQUID / TERRY | 11/13: GMO Internet (4784) Q3: JPY 3.05B direct cost assumed for Q4 (FX-loss claims 2,943 accounts JPY 2,998M unvalidated; insurance cap JPY 1.1B undecided); ~32% of FY operating-profit forecast; forecast not revised. Packets sent | P2 | Japan trading-access and issuer-earnings consequence is SAM's |
@@ -41,6 +44,7 @@
 | ConnectWise | Cloud Backup restoration; ScreenConnect investigation scope | Check 11/19 | Cloud Backup advisory unchanged since 11/04; ScreenConnect access method unknown | MSP availability verdict; a named FI re-routes P1 |
 | N-able | Outcome of the HF2-bypass investigation (event 202609); KEV listing of any of 7 CVEs | One look 11/19 | Scanning confirmed, compromise not | Confirmed compromise -> 065 CONFIRMED, REGINALD P2 |
 | Abrigo | Whether data was taken; root cause | Check 11/19 (borrower features still off 11/12) | Bank and CU loan documents | PHP2Shell root cause fires row 3 |
+| Microsoft | Post-incident report on the 11/12-11/14 outage | ~11/27 (estimated) | Cause stated only as a network change so far | A cyber or identity cause re-classes 071; a named bank or rail effect routes P2 |
 | HENRY | Equity persistence grade incl. PANW as vector vendor (VULCAN declined the price leg; scope with PROME) | 2026-11-18 | Row 9 | Owner-graded thermometer |
 
 ## VIEW
@@ -77,6 +81,7 @@
 | 2026-11-19 (weekly) | Wave 7-day clock; cluster watch (Will 10/29); Abrigo; ConnectWise; TruStage (11/15 window read early 11/13, no answer); Able2Shell/MSP one look incl. Insight CU notice (CYP-03) | Count limb already MET 11/05; a multi-institution outage of 1+ business day; a regional 8-K or late 10-Q citing Finzly or Abrigo -> REGINALD |
 | 2026-11-18 | Row 9 equity persistence; collapse leg ruled (WQ-635 A) | PANW at or below $289.24 AND 10.0 points behind HACK on 2 consecutive closes; HENRY grades after 16:15 ET |
 | 2026-11-20 | R1 flip test (Kiteworks leg rides it) | Named organisation vs in-window quiet |
+| 2026-11-27 | Microsoft 365 post-incident report (date estimated) | A cyber or identity-system cause, or a named bank, payment or market effect |
 | 2026-12-01 | GMO compensation totals after the 11/30 window | Forecast or dividend revision; validated total; insurance decision |
 
 Evidence: `research/2026-10-29_wave-recheck/RECORD.md`. Boot instrument fixed 10/29 (legs 5, 7, 8, 9; drills 33/33): `research/2026-10-29_wave-recheck/BOOT_LEG9_CALIBRATION.md`. Bank cyber / vendor-risk thread: `banking/THREAD_2026-10-29.md`.
