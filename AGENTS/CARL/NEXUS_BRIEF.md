@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none in version. 11/06: masking framework's intermediate falsifier CRL-21 MISSED: Ally FY2025 −38.0 bp vs FY2023 at the same age, FY2026 −5.0 bp; outer falsifier CRL-20 at 1%. Mechanism not killed: FY2026 early delinquency is above FY2023, one nine-month reading. Aggregate buffer drawdown (saving 3.8%) stands.
-**As of:** 2026-11-11 10:49 ET | STATUS commit: `838f808441`
+**As of:** 2026-11-14 11:25 ET | STATUS commit: `17fba50e9f`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -36,7 +36,7 @@
 | BEA | October income/outlays (CRL-32 leg 1, KILL check on September revision); then November 12/23 (final grade) | Wed 11/25 08:30 ET | First grade of the household-buffer letter | First-published saving rate; revisions logged separately; no cohort inference from aggregates |
 | OTTO / SEC | EART October collection month (+ SDART/BLAST) | ~11/30 | Existing V2 tiers | September deep 0/4, broad 0/3; October can at most be qualifying month 1 |
 | STUE / court | AFT v. ED next conference (the 10/28 docket date was wrong; held 10/14) | Mon 11/23 11:00 ET | CRL-13 denominator | Backlog count UNAVAILABLE today; status reports cover IDR/PSLF, not SAVE non-selection |
-| STUE | ES-02 / CRL-28 final MOHELA complaint grade | ~11/13–11/16 | Student-loan servicing stress | Interim 24.8/day below band; NO VERDICT if boundary placements split bands |
+| STUE | ES-02 / CRL-28 MOHELA complaint read after the payment wave | 2027-01-15 | Student-loan servicing stress | GRADED 11/14 DID_NOT_APPEAR: 60-day avg 23.3/day vs frozen 55; CRL-28 50 → 20%, OPEN |
 | Fed | December meeting | Dec 8–9 | V12 un-fire count | Presser 10/28 read: no easing signal, 0 of 2 |
 | ALLY Q4 print / FY2026 10-K | CRL-35 retail auto NCO 2.19%+; CRL-36 FY2026 30+ above 2.46% | Jan / Feb 2027 | Prospective vintage test | Named prints |
 | BLS / LABOR | November payrolls | Fri 12/04 | V16 drop-back print 2 of 2 | October counted print 1 (+165K, R +84K). S>0 AND R>0 sends a 4→3 candidate to Will; anything else resets to 0 |
