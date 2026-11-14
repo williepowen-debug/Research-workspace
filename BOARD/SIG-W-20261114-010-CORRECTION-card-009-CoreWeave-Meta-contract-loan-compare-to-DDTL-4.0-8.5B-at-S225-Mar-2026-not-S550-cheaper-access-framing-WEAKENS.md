@@ -19,7 +19,8 @@ entities: ["CoreWeave", "Meta", "DDTL 4.0", "DDTL 5.5", "Bloomberg", "FT"]
 word_count: 430
 dispatch_note: "Correction of WALTER's own card 009 (R1 COR-20261114-10 same commit, BOARD_CONSUMPTION_SPEC 3.6; direction stated per 3.6.2). Recipients = card 009's (corrected); correcting party is WALTER. VULCAN carve-out: financing leg FUNDING_LIQUIDITY, LIQUID action."
 event_window: "closed"
-updates: "SIG-W-20261114-009"
+corrects: ["SIG-W-20261114-009"]
+corrects_direction: "HOLDS card 009's headline facts; WEAKENS its 'much cheaper access' framing: the like-for-like comparison is DDTL 4.0 ($8.5B, S+225, non-recourse, Mar 2026), not DDTL 5.5 (S+550, recourse)"
 kill_strings: ["would mean much cheaper access"]
 ---
 # CORRECTION to SIG-W-20261114-009 (CoreWeave $4B high-grade loan): the like-for-like comparison is CoreWeave's own March DDTL 4.0, $8.5B non-recourse at SOFR+225, not the recourse S+550 August loan; the card's 'much cheaper access' framing WEAKENS. Plus afternoon lane titles: no launch confirmed, CRWV about -6% on Nov 13

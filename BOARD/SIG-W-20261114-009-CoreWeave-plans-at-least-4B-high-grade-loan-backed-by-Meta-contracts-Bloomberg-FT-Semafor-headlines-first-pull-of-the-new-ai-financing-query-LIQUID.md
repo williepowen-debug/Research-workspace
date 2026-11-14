@@ -19,6 +19,9 @@ entities: ["CoreWeave", "Meta", "Bloomberg", "FT", "Semafor"]
 word_count: 308
 dispatch_note: "Not on BOARD (grep -i coreweave over November cards) and not in VULCAN, LIQUID or BROCK records. VULCAN carve-out: the financing leg routes FUNDING_LIQUIDITY, so LIQUID action and VULCAN info. Relayed titles are labelled unverified (quiet-mode rule)."
 event_window: "closed"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-14
+status_ref: "SIG-W-20261114-010 — compared with DDTL 5.5 S+550; like-for-like is DDTL 4.0 $8.5B S+225 non-recourse (VULCAN KB-075); headline facts hold"
 ---
 # CoreWeave plans to raise at least $4 billion in a high-grade loan backed by its Meta contracts (Bloomberg, FT, Semafor headlines, about Nov 11 to 13); its last facility priced at S+550. Headlines only, from the first pull of the new ai-financing intake query
 
