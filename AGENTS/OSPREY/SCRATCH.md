@@ -1,39 +1,39 @@
-# OSPREY SCRATCH — 2026-11-11 (Wed) 09:55 ET (from `date`) · osprey-1111 · catch-up on PROME prome-2b (Will 09:24 ET), window held open for PROME's closeout ask
+# OSPREY SCRATCH — 2026-11-14 (Sat) · osprey-1114 · drain wake on PROME prome-fe's brief (WQ-206, C6), then prome-fe's follow-up ask (sweep + Kirishi re-read), then closeout
 
-*Rewritten in full (template). The 11/9 SCRATCH is in git history.*
+*Rewritten in full (template). The 11/11 SCRATCH is in git history.*
 
 ## CURRENT MARKS (one line)
-- Refineries/products **5** · crude-export terminals **5** (C2 clock provisional, OWED-44) · shadow-fleet tankers **3** · band ~30% [EST] unmoved, proxy back inside it on one estimate (KB-277) · Brent → BRENT.
+- Refineries/products **5** · crude-export terminals **5** · shadow-fleet tankers **3** · band ~30% [EST] unmoved · Brent → BRENT.
 
-## CHANGES SINCE LAST SESSION (11/9 close → 11/11)
-- Ust-Luga port zone struck 11/11 during the talks; OSINT: Novatek condensate processing section (KB-276).
-- Abu Dhabi: prisoner swap, no energy or maritime moratorium; strikes continued both ways (KB-279).
-- Reuters 11/10 (two industry sources): ~30% capacity disrupted, processing ~700k → ~500k t/d (KB-277).
-- Bloomberg 4-wk crude 3.63 to 11/8, Kozmino paused (KB-278). №1443 aromatics ban confirmed at primary (KB-280).
-- No refinery strike found 11/10–11 (HAWK's bounded read confirmed).
+## CHANGES SINCE LAST SESSION (11/11 close → 11/14)
+- Will ruled WQ-669 A (11/11 10:01 ET): Ust-Luga 11/11 counts for C2 (KB-282).
+- Omsk 11/11 and Volgograd 11/13 refineries hit (KB-287); Samara LPDS 11/13 (companion watch).
+- Trump, Putin and Xi meeting after the Xi bilateral 11/19, Ukraine off the agenda; US raised Donbas-for-NATO (KB-283).
+- Conflicting diesel-export headlines; IEA says Russian crude output rebounded (KB-285). "Unprecedented" Black Sea war-risk headline, no figure (KB-286).
 
 ## WHAT I DID THIS SESSION
-- Boot: root, AGENTS, USER, COMPLETION_SPEC, desk files; corrections check PASS; WARRISK quiet (event-driven); git: no incoming commits (local HEAD carries one unpushed PROME commit; not pulled, tree dirty with other desks' work).
-- WALTER lane 2/2 → processed (board_log). Inbox root empty. BOARD HYDROCARBON_INFRA scanned to 11/11.
-- strike_feed 11/11 25/25 dispositioned; Palaemon 2–9 Nov read; +1 STRIKES row; Saratov note; mark 11/2 → 11/9 BOUNDED.
-- KB-276…281; STATUS (11/6 blocks rotated → archive/STATUS_ROTATED_2026-11-11.md); NEXUS_BRIEF block; packet to PROME.
+- Boot: root CLAUDE/AGENTS/USER, desk CLAUDE, STATUS, SCRATCH; corrections check PASS; WARRISK quiet (declared event-driven). `git pull --rebase` refused (other desks' dirty files); fetch showed origin had nothing new.
+- Encoded WQ-669 A: STRIKES row, KB-282, STATUS (one C2 clock); OWED-44 closed. Commit fe4554736a; packet 4b831de1b5.
+- Drained inbox 2/2 (DAEDALUS WQ-678 B deferred) and WALTER lane 5/5 → board_log + processed.
+- Follow-up: strike_feed 11/14 (26/26 dispositioned), name-free EN/RU queries, 7 article fetches (all HTTP 200); +3 rows; Kirishi +5d re-read unresolved; KB-287…289 (284 superseded). Commit 5a1b7f27ed; packet ac1e9fdae1.
+- §12 falsification check: no §1 kill fires (C1 1/30, C2 3/30; C3 limb 1 39/21 but limb-2 window 8/21, earliest 11/27); §2 theater clock not running; §3 not fired.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **By 11/16:** OWED-44 = **WQ-669** (A count / B do not / C conditional on the ~11/16 Ust-Luga re-read). Encode only on PROME's packet carrying Will's word; until then publish both clocks. Option C makes the 11/16 re-read load-bearing: look for a second source on the liquids terminal or loadings.
-2. **~11/14:** Kirishi +5d re-read. **~11/16:** Ust-Luga +5d (loadings, Novatek status, tankers).
-3. **When posted:** Palaemon 9–16 Nov → advance mark from 11/9. **When printed:** October full-month runs → OWED-52.
-4. **11/17** Bloomberg print + C2 (only if Ust-Luga does not count) · **11/18** OSP-07 + GATE-001 + settlement-brake review · **11/20** OSP-08 (hinges on OWED-44) · **11/23** C1 leg A · **11/24–27** C3 canvass · **11/27** earliest C3 kill.
-5. **11/12–11/30:** combination-watch reviews (KB-260…266, 274, 275, 279, 280).
+1. **~11/16:** Ust-Luga +5d re-read (loadings, Novatek status, tankers).
+2. **~11/18:** Omsk and Volgograd re-reads (halt; the General Staff's four-unit claim). **11/18:** OSP-07 grade (pre-registered sweep first) + GATE-OSPREY-001 review + settlement-brake review (after the trilateral).
+3. **11/20:** OSP-08 grade (mechanism-level sweep first; expected FAILED on WQ-669 A).
+4. **When posted:** Palaemon 9–16 Nov → advance the mark from 11/9. **When printed:** October full-month runs → OWED-52.
+5. **Next ordinary wake:** DAEDALUS WQ-678 Changelist B (11 optional CLAUDE.md trims): apply or decline each, record which. Read Bloomberg's "ninth refinery" list if reachable (one-row gap).
+6. **11/24–27:** C3 limb-2 canvass (enumerated set + outlet-free query; include the finway lead). **11/27:** C1 leg A earliest; earliest C3 kill. **12/11:** earliest C2 re-kill.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Refinery tempo after the talks (two quiet nights so far). 🟠 Ust-Luga damage/loadings. 🟠 OWED-44. 🟠 Kirishi damage. 🟡 Afipsky backfill; carried OWED 41–51.
+- 🔴 Refinery tempo (Omsk 11/11, Volgograd 11/13). 🟠 Ust-Luga loadings. 🟠 Kirishi, Omsk and Volgograd halts. 🟡 OWED 41–52 carried.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- Not due: OSP-07 (≥11/18, letter appears met), OSP-08 (≥11/20; Ust-Luga would FAIL it if it counts). Open: OSP-09, -10, -11.
-- Will: OWED-44 (C2 class of the Ust-Luga row), via PROME. C1 leg-B question on the Reuters industry-source print flagged, not binding before 11/23.
+- None due today. OSP-07 ≥11/18; OSP-08 ≥11/20; OSP-09, -10, -11 open. No Will decision pending from this desk.
 
 ## MAIL STATE (one line per surface)
-- Inbox: clear. WALTER lane: clear (2 → processed). Outbox: none. PROME packet: PROME/inbox/2026-11-11_from-OSPREY_catchup-ust-luga-talks.md.
+- Inbox: clear (2 → processed). WALTER lane: clear (5 → processed). Outbox: none. PROME packets: 2026-11-14_from-OSPREY_wq669-encoded-drain.md, 2026-11-14_from-OSPREY_followup-sweep-omsk-volgograd.md.
 
 ## PENDING PUSH / GIT
-- Closeout on PROME prome-2b WQ-249 ask (09:58 ET): records 0d4048e15c, packet 2ec449fa07 (consumed and filed by PROME), this closeout commit; pushed via safe-push.
+- Closeout commit then `scripts/safe-push.sh`; receipt in the PROME reply.
