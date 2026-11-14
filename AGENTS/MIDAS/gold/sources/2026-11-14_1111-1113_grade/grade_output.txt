@@ -1,0 +1,31 @@
+issuer last row 2026-11-12 real last 2026-11-13 nominal last 2026-11-13 spx last 2026-11-13 dxy last 2026-11-13
+=== daily classes 11/10 -> last issuer date (frozen classifier)
+      date    gld  gld_pct  real10  d_real_bp  implied     e  e_sd  d_nom2y_bp  d_nom10y_bp  nom2y  nom10y  spx_pct  dvix    dxy  dxy_pct  stress   d_t       t    gcz              cls  treasury_print
+2026-11-11 365.17    -1.13    2.78          0    -0.00 -1.13 -0.81           0            0   4.73    4.98     1.31 -1.97 102.91     0.67   False -1.14 1041.08 4000.5             RATE           False
+2026-11-12 354.89    -2.82    2.86          8    -1.22 -1.59 -1.14          13           12   4.86    5.10    -0.35  1.21 103.17     0.25   False -0.38 1040.70 3885.3 UNEXPLAINED-DOWN            True
+last day share of GLD move explained by real-rate beta: -1.22/-2.82 = 43%  (residual -1.59, -1.14 sd; RATE band +/-1.402)
+L2 stress days after 10/22 (incl 11/06-file rows): 2 GLD up on 1 dates ['2026-10-30', '2026-11-05']
+DE-DOLLAR proxy days since 10/22: ['2026-11-04', '2026-11-09'] tonnes 10/22->last -4.94
+=== WQ-451 section 5 lines
+GLD last 354.89 1m down line 360.71 crossed now? True 1m up line 391.08 crossed since 10/23? False
+tonnes last 1040.7 vs 3m line 1035.70; min since 10/22 1037.66
+real 10Y >=3.00 count since 10/22 0 max 2.91 2026-11-13
+DXY >=105 closes since 10/22 0 max 103.41
+=== MIDAS-11/13/17 progress (NOT graded; resolve 11/20)
+MIDAS-11 baseline 379.69; GLD now 354.89 side NONPOSITIVE
+MIDAS-13 target 378.95; max issuer close 10/26.. 379.53 2026-11-09 HIT condition met already? True
+MIDAS-17 running residual at 2026-11-12 -0.47 (GLD -3.82 %, real 2.86 )
+=== bands d200 / dd252 (MIRROR closes)
+SLV last 2026-11-12 45.12 {'2026-11-09': -23.66, '2026-11-10': -25.99, '2026-11-11': -25.39, '2026-11-12': -27.49} dd252 -57.27
+PPLT last 2026-11-12 13.71 {'2026-11-09': -15.62, '2026-11-10': -17.13, '2026-11-11': -17.13, '2026-11-12': -17.99} dd252 -45.65
+PALL last 2026-11-12 18.02 {'2026-11-09': -25.31, '2026-11-10': -25.59, '2026-11-11': -25.15, '2026-11-12': -27.67} dd252 -51.54
+=== named futures (MIRROR vendor Close, uncertified)
+GCZ26.CMX {'2026-11-10': 4030.2, '2026-11-11': 4000.5, '2026-11-12': 3885.3, '2026-11-13': 3886.3}
+SIZ26.CMX {'2026-11-10': 51.225, '2026-11-11': 52.002, '2026-11-12': 50.065, '2026-11-13': 49.121}
+PLF27.NYM {'2026-11-10': 1538.4, '2026-11-11': 1538.5, '2026-11-12': 1520.4, '2026-11-13': 1489.7}
+PAZ26.NYM {'2026-11-10': 1020.8, '2026-11-11': 1046.1, '2026-11-12': 991.5, '2026-11-13': 1007.6}
+HGZ26.CMX {'2026-11-10': 6.234, '2026-11-11': 6.29, '2026-11-12': 6.196, '2026-11-13': 6.09}
+GC=F {'2026-11-10': 4030.2, '2026-11-11': 4000.5, '2026-11-12': 3885.3, '2026-11-13': 3886.3}
+=== PROVISIONAL Fri 11/13: issuer row not yet posted; GLD MIRROR close, tonnes unknown (cannot test LIQUIDATION/HAVEN)
+GLD MIRROR 355.45 vs issuer 354.89 = +0.16%; real 2.86->2.91 (+5 bp); implied -0.76; e +0.92 (+0.66 band units); S&P -0.40%; dVIX +0.60; DXY 103.410 (+0.23%); 2Y 4.86->4.88; class RATE (provisional)
+two days 11/10->11/12: GLD -3.92%, real +8 bp, implied -1.22%, residual -2.70%, DXY +0.92%, 2Y +13 bp, tonnes -1.52

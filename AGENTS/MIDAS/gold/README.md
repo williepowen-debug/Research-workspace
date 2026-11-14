@@ -88,3 +88,6 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [BEA/Census gold trade check](sources/2026-10-29_net-exports/) — Jan–Aug 2026 nonmonetary gold exports $86.6B / imports $15.4B; dollars, not tonnes, outside GDP (KB-237).
 
 - [Prediction post-mortems MIDAS-01..08](../analysis/2026-10-29_MIDAS-01-08-postmortems.md) — record and design rules.
+
+- [November 11: the 11/10 gold fall graded](research/2026-11-11_1110-gold-move-grade.md) — RATE on the frozen WQ-451 classifier (KB-267).
+- [November 14: the 11/11–11/13 gold fall graded](research/2026-11-14_1111-1113-gold-move-grade.md) — 11/12 UNEXPLAINED-DOWN, not liquidation; real 10Y 9 bp from the 3.00% line (KB-278).

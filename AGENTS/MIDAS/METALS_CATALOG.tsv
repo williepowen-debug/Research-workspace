@@ -135,3 +135,7 @@ shared	gold,silver,platinum,palladium,copper	sources	shared/sources/2026-11-06_p
 shared	gold,silver,platinum,palladium,copper	sources	shared/sources/2026-11-06_contract_map	Weekly contract-map review	Mapped vs next listed month, vendor volume.
 gold	gold	research	gold/research/2026-11-08_WQ451-L3-SAFE-grade.md	November 8 WQ-451 L3-SAFE grade (L820)	PBoC October +25.82 t, SUPPORTS; PRIMARY SAFE table stamped 2026-11-07.
 gold	gold	sources	gold/sources/2026-11-08_L820_SAFE	L820 SAFE October reserve gold bundle	PRIMARY SAFE page capture, sha256, ounces-to-tonnes calculation.
+gold	gold	research	gold/research/2026-11-11_1110-gold-move-grade.md	November 11 grade of the 11/10 gold fall	11/10 RATE on the frozen WQ-451 classifier; MIDAS-13 HIT condition met.
+gold	gold	sources	gold/sources/2026-11-11_1110_grade	11/10 grade bundle	Raw captures, sha256, grade.py and output.
+gold	gold	research	gold/research/2026-11-14_1111-1113-gold-move-grade.md	November 14 grade of the 11/11-11/13 gold fall	11/12 UNEXPLAINED-DOWN, not liquidation; real 10Y 2.91% 9 bp from the 3.00% line; MIDAS-17 to MISS side.
+gold	gold	sources	gold/sources/2026-11-14_1111-1113_grade	11/11-11/13 grade bundle	Raw captures, sha256, grade.py (holiday carry-forward, same-date MIDAS-17 fix) and output.
