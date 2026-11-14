@@ -1,3 +1,15 @@
+## 2026-11-14T17:19:21Z FULL CLOSEOUT — walter-72 on the desktop, Will's word 12:16 ET (Sat)
+
+Saturday boot 11:04 ET. Cards 20261114-001 to -007 (48 handoffs), WQ-684 A encoded (charter 7e(h)), intake scanner rewrite fix (ee86bf5fb4), PROME packet. Done: threshold scan, step 7i (PPI, IEA OMR found uncarded), 7e with the WQ-681 A collector run, 7h bookmarks, 7d/7g/7f empty, 9a, REGISTRY 7 rows, doorbells CYPHER and CARL. Not done: staleness sweep, CARL-DR-1, whole ORCH_INFLIGHT read, agent STATUS head reads for FILTER_SPEC boot context (registry used instead), LIAISON turns (all dormant), retirement review.
+
+STATUS Updated line replaced; prior line verbatim:
+
+**Updated:** 2026-11-14T00:10:18Z — walter-d4 on the desktop (boot 10:18 ET); **Tier 2 FULL closeout** on Will's word 19:07 ET, clears the 14:31 ET light closeout. Boot coverage PARTIAL. Duties: LAST_COMPLETION.md.
+
+STATUS NETWORK AWARENESS line replaced; prior line verbatim:
+
+REGISTRY refreshed before NETWORK at 2026-11-14T00:10:18Z: 13 rows' Updated and Focus mirrored from owner STATUS lead headers to 11/13 (PROME, BROCK, BRENT, LIQUID, HENRY, WALTER, OTTO, BOND, TERRY, VULCAN, FALCON, CYPHER, ISHM); Status column not re-graded. Not refreshed (owner header not newer than the row, or no dated header): the other 33 rows, including RAV, DARWIN, BARON, HERMES, DEWEY (no STATUS file); CATO has a directory and no mirror row (ROSTER WQ-255, unchanged). ListAgents 00:0xZ 11/14: only prome-72 (interactive, idle, started about 8 hours ago). Not listed is not DARK. Doorbells this session: PROME twice; other ACTION owners (RED, REGINALD, HENRY on 002; VULCAN on 003; SAM on 004) not doorbelled and not audited. ORCH_INFLIGHT read whole at this closeout (generated 11/13): 267 IN-FLIGHT rows, none a doorbell basis; last drained>0 touches today: BOND, BRENT, CYPHER, FALCON, HENRY, ISHM, LIQUID, TERRY, VULCAN. Doctor 00:0xZ 11/14: no HIGH; MED CATO SIG-W-20261019-012 receipt (Will ruled 11/11: no new assignment) and staleness sweep 1 day past its 14-day cadence. cluster_mediating cards today: 0.
+
 ## 2026-11-14T00:10:18Z FULL CLOSEOUT — walter-d4 on the desktop, Will's word 19:07 ET
 
 Clears the 14:31 ET light closeout. No cards since it. Done: REGISTRY refresh (13 rows), NETWORK regenerated, ORCH_INFLIGHT whole, ListAgents, doctor, MEMORY finding 69 n+1 and session note (11/12 note rotated verbatim to MEMORY_PROMOTED.md), PROME packet on unread ordinary intake headlines, BOTTOM LINE re-cut. Not done: step 7i (October PPI and IEA OMR unreviewed), FILTER_SPEC boot context, staleness sweep (1 day past cadence), research retirement move review.

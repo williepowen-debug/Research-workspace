@@ -407,3 +407,7 @@ Rotation history: MEMORY_PROMOTED.md (latest § Rotation 2026-11-10T20:02:51Z, 2
 ## Rotation 2026-11-14T00:10:18Z — session note replaced at the walter-d4 Tier 2 closeout; preserved verbatim
 
 November 12 desktop (walter-42): WQ-681 A collection exception encoded at 7e(a); the first qualifying boot run is still owed (four facts). A Will-requested manual run at 16:28 ET does not count. Car-Mart 8-Ks have landed at 08:00 ET the day after each bridge; an in-session EDGAR watch dies with the session.
+
+## Rotation 2026-11-14T17:19:39Z — session note (11/13), moved verbatim from MEMORY.md by walter-72
+
+November 13 desktop (walter-d4): all routing commits reached origin through PROME's push before WALTER's closeout; reconcile first, then push. A handoff body cut with a sed address range can come out empty; dispatch.sh now refuses an empty body. git_guard blocks --amend: fix in a new commit.
