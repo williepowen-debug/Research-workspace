@@ -1,3 +1,7 @@
+## 2026-11-14T17:33:23Z POST-CLOSEOUT LEG 2 — walter-72, PROME's ai-financing deployment and CoreWeave lead
+
+Card SIG-W-20261114-009 (CoreWeave >=$4B high-grade loan, headlines via PROME), LIQUID action. LAST_COMPLETION receipt to 57 rows.
+
 ## 2026-11-14T17:28:41Z POST-CLOSEOUT LEG — walter-72, Will's question on the bookmark reader
 
 Reader working; 2 bookmarks routed as SIG-W-20261114-008 (update of 001), published 3c05f56a66, 5 rows delivered. LAST_COMPLETION receipt updated (53 rows, 3c05f56a66). No other state changed.

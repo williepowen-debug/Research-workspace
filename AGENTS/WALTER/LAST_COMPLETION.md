@@ -4,6 +4,7 @@ Updated 2026-11-14T17:19:45Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 
 ## RESUME — do these first
 
+000. **Second post-closeout leg 2026-11-14T17:33:23Z:** PROME deployed the ai-financing query (Research-Intake 8a4e1e5, C7); WALTER's two-week observation read is a DOCKET row near 11/30. From PROME's first pull, card SIG-W-20261114-009: CoreWeave plans at least $4B high-grade loan backed by Meta contracts (headlines only, unverified relay), LIQUID action, 4 handoffs.
 00. **Post-closeout leg 2026-11-14T17:28:41Z (Will asked whether the bookmark reader works):** reader working (scan 17:27:55Z fetched 2). Card SIG-W-20261114-008, UPDATE of 001: Duffy says bad equipment or an error replacing old copper telecom lines at a remote FAA facility (Washington Post post; article not read); AFP via FirstSquawk: more than 16,000 US cancellations Fri and Sat. BRENT action, 5 handoffs, published 3c05f56a66, reconciled delivered.
 0. **Microsoft outage under-capture: CLOSED.** Routed as SIG-W-20261114-002 (UPDATE of 20261113-004 item 3; CYPHER consumed and logged it against CHK-20 as INFRA-OUTAGE, accidental). Will: "The Microsoft card was fine to send." CYPHER's refinement, AP via WHEC/CP24 11/14: the outage affected "governments, courts, healthcare services, businesses, airlines and banks in many places"; no bank, payment system or venue is named; the only named payment effect is a Colorado sheriff's online bond payments. "No bank named" holds; "no bank effect" would overstate. American Banker's 00:25Z 11/13 story is still unread (CYPHER could not reach it either).
 1. **WQ-684 RULED A (Will 2026-11-14 12:16 ET):** charter step 7e(h), the title skim: read every headline title in each scanned batch; card or fold only titles touching a held position, a live gate or a watched theme; the rest NO-ACTION in aggregate on the manifest. PROME verified the encode at ee86bf5fb4 (ruling record PROME/proposals/2026-11-14_wq684-RULED.md; DOCKET row for the December 14 check, which drops the step without asking if no card came from it). First run, before the ruling: 234 titles in about 10 minutes (WALTER's estimate, not timed); cards 001, 003, 004 and 006 item 1 came only from unflagged headlines.
@@ -88,8 +89,8 @@ Tier 2 FULL closeout, walter-72, desktop. Prior: FULL 2026-11-14T00:10:18Z (walt
   ],
   "delivery": {
     "signal_date": "20261114",
-    "total": 53,
-    "delivered": 53,
+    "total": 57,
+    "delivered": 57,
     "note": "rows reconciled to delivered at this closeout (origin carried 86b6af7849 via a PROME push); CYPHER and CARL consumption shown by their replies; TERRY BOARD-only; CARL, RED, PROME INFO by BOARD diff."
   },
   "owner_review": {
