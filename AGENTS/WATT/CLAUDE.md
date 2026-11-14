@@ -58,7 +58,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 - **Consumer retail energy pass-through to CPI** → **CARL** (when capacity cost hits residential bills). WATT owns wholesale/industrial.
 - **Geopolitical energy** → **HAWK**; **regional-bank / utility credit** exposure → **REGINALD**.
 
-**Boundary rule:** signal in another agent's domain → write to `outbox/` as a task packet. Don't deep-dive it. On any shared metric, WATT is canonical for power; neighbors reference (reconcile-to-one-figure, don't silo).
+**Boundary rule:** signal in another agent's domain → write a packet directly to the owner's `inbox/` and commit it by exact path (root carve-out ①); `outbox/` is crisis-only. Don't deep-dive it. On any shared metric, WATT is canonical for power; neighbors reference (reconcile-to-one-figure, don't silo).
 
 ---
 
@@ -131,8 +131,7 @@ Durable banded rules live here; the live read lives in STATUS with `[src M/D]` +
 
 Power/grid events (emergency episodes, LMP spikes, auction clears) resolve on a **fixed clock** — good for calibration, like AEOLUS weather. `workbook/PREDICTIONS.tsv` live; resolved rows → archive with post-mortems; failure-pattern synthesis fed back into THESIS as rules gating future calls.
 - Prediction ID format: `WATT-NN`.
-- Every prediction carries an **if-falsified action** (`→ trim / extend duration / −conf`), a **confidence tier** (EMPIRICAL / PROVISIONAL / ASSUMPTION), and resolution criteria.
-- **Boot resolution:** scan past-trigger rows at boot; resolve HIT/MISS/FALSIFIED; never leave OPEN-but-stale.
+- Every prediction carries an **if-falsified action** (`→ −conf / route to TERRY`; position actions are TERRY's card and Will's approval, root rules #5 and #7), a **confidence tier** (EMPIRICAL / PROVISIONAL / ASSUMPTION), and resolution criteria.
 
 ## CROSS-AGENT ROUTING
 
@@ -151,7 +150,6 @@ Route to the **domain owner**, not the transmission-adjacent agent. Outbox = cri
 
 - **Mechanism-vs-thermometer (MARCO):** the structural capacity shortfall (auctions at cap, 27/28 short of reliability req) = high-confidence *mechanism*; any single hot day's LMP print = confounded *thermometer*. The thesis survives a mild week.
 - **EXPECTED_SIGNALS (MARCO):** if the data-center-load thesis holds, interconnection queues + BRA clears + IPP load-growth guidance all rise — their absence is data.
-- **Boot↔Closeout symmetry:** what you read at boot, you write back at closeout.
 
 ---
 
@@ -178,7 +176,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `STATUS.md` | Live state — convergence matrix, live channel reads, exit triad, BOTTOM LINE. **Primary memory.** Byte budget = the fleet read-cap **32,550 B** (root `CLAUDE.md` §Data Hygiene; canon `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md`), enforced by `boot.py` leg 3. At **≥24,412 B (75%)** rotate the oldest history blocks **verbatim** into `status_archive/` until **<22,785 B (70%)**. **Rotation, never deletion; never trim live state to hit the number.** *(The old "<64,000 B / 48,000 / 44,800" tier was retired 2026-09-25 → STATUS archive Block BG; this line replaced 2026-10-09, DAEDALUS Prose-Remedy #1.)* |
 | `CLOSEOUT.md` | Active closeout procedure; mandatory boot read and every-ending reference. Checkpoint/standard/heavy modes, dependency map, final brief order and receipt reconciliation. |
 | `THESIS.md` | Per-channel transmission-stage tables (where the richness lives). |
-| `TRADE.md` | Domain trade ideas (IPP equities, power-event calls) feeding PROME synthesis. Carry a FROZEN banner, or stay LIVE with a content-derived vintage alert (root Data Hygiene: never key freshness on mtime). |
+| `TRADE.md` | Research triggers for TERRY (IPP equities, power-event calls); the TRADE.md banner governs. Carry a FROZEN banner, or stay LIVE with a content-derived vintage alert (root Data Hygiene: never key freshness on mtime). |
 | `boot.py` | Boot instrument: `power_watch.py` (rc **OR** alert-marker) + ledger staleness (`--days 7`) + **STATUS byte budget** + predictions-due. cwd-proof; self-locating. |
 | `power_watch.py` | PJM instrument, **5 legs**: ① emergency postings · ② EIA-930 demand vs 24h peak · ③ retail backdrop · ④ EIA ICE wholesale proxy + spark spread (**backdrop only — ~12-day lag**) · ⑤ official **Data Miner 2** 5-min LMP (`PJM_API_KEY`). ⚠️ **DM2 verified hourly (`rt_hrl_lmps`) lags ~4 DAYS, not 1 business day** — measured 8/17 (KB-WATT-081). Imports the shared FORGE `fetch.py`. |
 | `KILL_MEMO.md` | Pre-written cascade ladder — what to do WHEN a conjunction trigger fires, written cold and **decoupled from STATUS rewrites** (CLAUDE.md THRESHOLDS clause). |
