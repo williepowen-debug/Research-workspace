@@ -403,3 +403,7 @@ November 11 desktop (walter-1e): X token refreshed without a prompt all session.
 Size-trigger history clause from MEMORY.md line 4, verbatim:
 
 Rotation history: MEMORY_PROMOTED.md (latest § Rotation 2026-11-10T20:02:51Z, 24,418 B over the trigger, rotated below the stop). Next calendar check 2026-11-12.
+
+## Rotation 2026-11-14T00:10:18Z — session note replaced at the walter-d4 Tier 2 closeout; preserved verbatim
+
+November 12 desktop (walter-42): WQ-681 A collection exception encoded at 7e(a); the first qualifying boot run is still owed (four facts). A Will-requested manual run at 16:28 ET does not count. Car-Mart 8-Ks have landed at 08:00 ET the day after each bridge; an in-session EDGAR watch dies with the session.

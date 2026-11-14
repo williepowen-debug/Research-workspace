@@ -1,10 +1,10 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-13T19:31:36Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-d4 on the desktop. **Tier 1 light closeout, full deferred**, on Will's word 14:29 ET. Prior: FULL 2026-11-12T22:00:57Z (walter-42). Replaced header, STATUS, CHANGED, RESULT and GAPS verbatim at research/2026-11-13_light-closeout/LC-ROTATED.md; prior receipt in git history (f6bc61ade7).
+Updated 2026-11-14T00:10:18Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-d4 on the desktop. **Tier 2 FULL closeout** on Will's word 19:07 ET; clears the 14:31 ET light closeout. Replaced header, STATUS and GAPS verbatim at research/2026-11-13_full-closeout/LC-ROTATED.md (light-closeout before-images at research/2026-11-13_light-closeout/LC-ROTATED.md); prior receipt in git history (05929db523).
 
 ## RESUME — do these first
 
-0. **Microsoft outage under-captured (found on Will's question 14:2x ET, 11/13):** the 11/12 Microsoft outage (Outlook, Teams, Copilot; reported global and hours long) reached BOARD only as card 20261113-004 item 3, a one-line NOTE from the MSFT365Status bookmark (EX1550543, Exchange Online access, Americas, 11/12 17:54Z, "service incident, no attack claimed", INFO CYPHER). Seven intake headlines sat as ordinary NEW items and were marked unread: TBBW 11/12 21:32Z (Tampa Bay); American Banker 11/13 00:25Z "Microsoft Struggles to Fix Outlook, Copilot, Hours Into Outage"; Nacionale 02:24Z (Microsoft blamed failing servers, not staffing); explainers 11:43Z, 14:21Z, 15:03Z ("races to restore services after global outage"); Fast Company 13:16Z (layoffs angle). Headlines only, no article read: duration, restoration and any named bank customer effect UNKNOWN. WALTER offered a follow-up card (read American Banker and one explainer first; ACTION CYPHER, INFO REGINALD and VULCAN; R1 correction link to 004 item 3; cause recorded as Microsoft's own statement only). **Not routed: Will has not answered.** Class gap: the 7e scan surfaces only flagged items; the 179 ordinary headlines in the 11/13 batch were not read, so other material stories can slip the same way. Name it to PROME as a lane design question at the next full closeout; no WALTER rule change without Will.
+0. **Microsoft outage under-captured (found on Will's question 14:2x ET, 11/13):** the 11/12 Microsoft outage (Outlook, Teams, Copilot; reported global and hours long) reached BOARD only as card 20261113-004 item 3, a one-line NOTE from the MSFT365Status bookmark (EX1550543, Exchange Online access, Americas, 11/12 17:54Z, "service incident, no attack claimed", INFO CYPHER). Seven intake headlines sat as ordinary NEW items and were marked unread: TBBW 11/12 21:32Z (Tampa Bay); American Banker 11/13 00:25Z "Microsoft Struggles to Fix Outlook, Copilot, Hours Into Outage"; Nacionale 02:24Z (Microsoft blamed failing servers, not staffing); explainers 11:43Z, 14:21Z, 15:03Z ("races to restore services after global outage"); Fast Company 13:16Z (layoffs angle). Headlines only, no article read: duration, restoration and any named bank customer effect UNKNOWN. WALTER offered a follow-up card (read American Banker and one explainer first; ACTION CYPHER, INFO REGINALD and VULCAN; R1 correction link to 004 item 3; cause recorded as Microsoft's own statement only). **Not routed: Will has not answered.** Class gap: the 7e scan surfaces only flagged items; the 179 ordinary headlines in the 11/13 batch were not read, so other material stories can slip the same way. Named to PROME at the full closeout (PROME/inbox/2026-11-13_from-WALTER_intake-unflagged-headlines-have-no-reader.md); MEMORY finding 69 n+1; no WALTER rule change without Will.
 1. **WQ-681 A first qualifying run DONE at the walter-d4 boot, 2026-11-13 (PROME verifies at GitHub, D:L1134):** (a) GitHub run 43450867615 (workflow_dispatch), created 2026-11-13T15:16:03Z, completed 15:18:16Z, conclusion success; (b) collected through 2026-11-13T15:18Z (Research-Intake commit e1bd850, last_run 15:18:12Z); (c) uncollected interval: no collector run between 2026-11-12T21:41Z (scheduled run 43312366985, commit cb07a16) and 2026-11-13T15:16Z, about 17.6 h; (d) the collector ran, but each feed returns only its own recent window, so this run does not establish that the lane covered every story published in that 17.6 h gap. Prior text of this item: **WQ-681 A, first qualifying run still owed (Will 14:18 ET via PROME; DOCKET L1134, PROME verifies):** at the first boot or return with the lane over about 12 h old, run the 7e(a) exception (`gh workflow run collect -R williepowen-debug/Research-Intake`), wait, pull, and put four facts in that brief and here: the GitHub run ID and completion time; the collected-through time; any uncollected interval (from, to); one sentence keeping "the collector ran" apart from "the lane covered that interval's stories". No second schedule, no unattended service (WQ-388 stands). Not satisfied by run 43310587626 (Will's 16:28 ET sweep request; done 21:30:19Z; the lane was then 5.5 h old). Lane collected through 2026-11-12T21:30Z.
 2. **Megacap leadership query (Research-Intake c851a1e, label megacap-leadership-event, 64 phrases under WATCH_FOR["HENRY"]):** first live run 21:30Z caught 15 Nvidia CEO items after the fact (DUP of card 002): collection works; early coverage not shown. Stale items are killed on the ordinary date check, with NO separate count or report (Will 14:45 ET via PROME: "Use ordinary run evidence for the November 19 filter decision—no separate study or recurring reporting requirement"). PROME decides the age filter 11/19. Known false classes: subsidiary chiefs, other companies' chiefs in a headline naming one of the eight.
 3. **Owner grades open (unverified at this closeout):** 11/13 cards: PROME consumed 001 (b64ed4eee7); RED, REGINALD and HENRY on 002; VULCAN on 003; SAM on 004 (records not re-read). 11/12 cards: BROCK on VX-BRK-020 vs 10Y par 5.10% (card 008); FALCON and BRENT on the Houthi pipeline claim (009); SAM on the yen spike, VULCAN on the Nvidia Singapore disclosure, CYPHER on ConnectWise (010); VULCAN, HENRY, TERRY and ORACLE on 002 (records not re-read). RED graded 004 (ebe839ffe0); BOND graded 007 CLEAN.
@@ -18,7 +18,7 @@ Calendar coverage cutoff: 2026-11-12T18:47:41Z (unchanged at the walter-d4 light
 
 ## STATUS
 
-Boot PARTIAL (walter-d4, desktop, boot commit 0d3bd96696 at 10:18 ET): threshold scan (research/2026-11-13_boot/THRESHOLD-SCAN.md), step 7g (three packets consumed: HENRY put wall, CYPHER ConnectWise grade, LIQUID HY 320 reset), step 7e with the WQ-681 A collector run, step 7h bookmarks. Not done: step 7i, step 8 REGISTRY refresh, step 9 LIAISON and outbox REQ, step 9b ORCH_INFLIGHT, FILTER_SPEC boot context, staleness sweep. Closeout LIGHT on Will's word 14:29 ET; full deferred.
+Boot PARTIAL (walter-d4, desktop, boot commit 0d3bd96696 at 10:18 ET): threshold scan, step 7g (three packets), step 7e with the WQ-681 A run, step 7h bookmarks. Light closeout 14:31 ET (05929db523). Tier 2 FULL closeout on Will's word 19:07 ET: REGISTRY 13 rows to 11/13, NETWORK regenerated, ORCH_INFLIGHT read whole, ListAgents, doctor (no HIGH; MED CATO receipt and staleness sweep), MEMORY finding 69 n+1 with the 11/12 session note rotated verbatim, BOTTOM LINE re-cut, PROME packet. Step 9: LIAISON channels unchanged (CARL, RED, REGINALD, BRENT dormant or closed); one outbox REQ over 14 days (REQ-PROME-20261016-vulcan-intake-design), already raised to PROME 11/12. Still not run: step 7i, FILTER_SPEC boot context, staleness sweep.
 
 ## CHANGED
 
@@ -30,10 +30,10 @@ S&P 500 printed 7,499.40 under HENRY's 7,500 put wall (001, ACTION PROME). FRED 
 
 ## GAPS
 
-- Card 001 handoffs first shipped header-only (a sed range deleted the body); fixed in 0748e3e938 because git_guard blocks --amend. Card 004 first titled "21 dups and kills"; trashed and re-dispatched as 27 before commit. Domain token and written_state token on 001 corrected before commit.
-- Microsoft outage under-captured and the ordinary-headline blind spot in 7e (RESUME 0).
-- Not done: step 7i, step 8, step 9, step 9b, FILTER_SPEC boot context, staleness sweep, closing threshold scan, research retirement review. PROME doorbelled twice; other ACTION owners' doorbells not audited.
-- Earlier GAPS bullets remain binding at research/2026-11-13_light-closeout/LC-ROTATED.md and the files it names.
+- Card 001 handoffs first shipped header-only (a sed range deleted the body); fixed in 0748e3e938 because git_guard blocks --amend. Card 004 first titled "21 dups and kills"; re-dispatched as 27 before commit. Domain and written_state tokens on 001 corrected before commit.
+- Microsoft outage under-captured; ordinary-headline blind spot in 7e (RESUME 0, PROME packet).
+- Not done: step 7i (October PPI and IEA OMR elapsed, no row), FILTER_SPEC boot context, staleness sweep (doctor: 1 day past 14-day cadence; 392 candidate lines before 11/06), closing threshold scan. Retirement: not assessed beyond the doctor; no research directory moved. Doorbells for ACTION owners other than PROME not sent or audited (MEMORY #64).
+- Earlier GAPS bullets remain binding at research/2026-11-13_full-closeout/LC-ROTATED.md, research/2026-11-13_light-closeout/LC-ROTATED.md and the files they name.
 
 ## WILL_NEEDS
 
@@ -59,14 +59,19 @@ Section moved verbatim 2026-11-11T19:54:09Z to research/2026-11-11_light-closeou
 
 ## CLOSEOUT RECEIPT
 
-Tier 1 light closeout, walter-d4, desktop. Prior: FULL 2026-11-12T22:00:57Z (walter-42). Operational coverage PARTIAL. Publication is not consumption.
+Tier 2 FULL closeout, walter-d4, desktop. Prior: light 2026-11-13T19:31:36Z (walter-d4), FULL 2026-11-12T22:00:57Z (walter-42). Operational coverage PARTIAL. Publication is not consumption.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-13T19:31:36Z",
+  "as_of": "2026-11-14T00:10:18Z",
   "next_review": "2026-11-16",
   "publication": [
+    {
+      "commit": "05929db523",
+      "state": "published",
+      "note": "light closeout files; safe-push CONFIRMED; 23 rows reconciled"
+    },
     {
       "commit": "417f1087b1",
       "state": "published",
@@ -119,21 +124,29 @@ Tier 1 light closeout, walter-d4, desktop. Prior: FULL 2026-11-12T22:00:57Z (wal
       {
         "path": "AGENTS/WALTER/research/2026-11-13_L334-remeasure/REPORT.md",
         "sha256": "bc0bcd7307c61307be0b2226d2df1056566d968838ffe5af1d28ac1dc0dc403a"
+      },
+      {
+        "path": "PROME/state/ORCH_INFLIGHT.md",
+        "sha256": "4823cd6d4c1f4cba65292449076b9a8927f37f54b7a4aebe55646ee4ff06d546"
       }
     ]
   },
   "procedure": {
-    "tier": "light",
-    "boot": "PARTIAL: steps 7i, 8, 9, 9b, FILTER_SPEC boot context not run; see STATUS section.",
-    "session": "walter-d4 desktop, boot 10:18 ET; light closeout on Will's word 14:29 ET; no helper."
+    "tier": "full",
+    "boot": "PARTIAL: steps 7i and FILTER_SPEC boot context not run; see STATUS section.",
+    "session": "walter-d4 desktop, boot 10:18 ET; light closeout 14:31 ET; Tier 2 FULL closeout on Will's word 19:07 ET; no helper."
   },
   "manual_duties": {
-    "11": "Cards 001 to 005 (23 handoffs, route rows, index regenerated each time); no correction card; Microsoft outage under-capture recorded at RESUME 0, not routed.",
-    "Tier1": "STATUS Updated line, November 13 BOTTOM LINE paragraph and a boot observation row refreshed; SESSION_LOG breadcrumb prepended; REGISTRY, NETWORK, MEMORY narratives deferred.",
-    "15": "Header, STATUS, CHANGED, RESULT, GAPS rewritten (before-images at research/2026-11-13_light-closeout/LC-ROTATED.md); RESUME items 0, 3, 4, 5, 6 updated; calendar cutoff unchanged.",
-    "root.retirement": "Not assessed at this light closeout; deferred to the next full closeout.",
-    "16": "Exact paths; safe-push at closeout; reconcile ran first (23 rows delivered, 0 orphans) because origin already held every routing commit.",
-    "gaps": "Step 7i, 8, 9, 9b, FILTER_SPEC boot context, staleness sweep, closing threshold scan, retirement review not done; doorbells not audited."
+    "11": "Cards 001 to 005 (23 handoffs, route rows, index regenerated each time); no correction card; Microsoft outage under-capture at RESUME 0, not routed (Will has not answered).",
+    "13": "REGISTRY: 13 rows mirrored from owner lead headers to 11/13; 33 rows unchanged (header not newer or undated); CATO no mirror row (WQ-255); Status column not re-graded.",
+    "12(a,b)": "Updated line, November 13 paragraph and boot observation row; NETWORK AWARENESS regenerated from the fresh REGISTRY, ListAgents, ORCH_INFLIGHT and doctor; cluster_mediating today 0.",
+    "12(c)": "FILTER POSTURE read: BALANCED baseline unchanged; no change made; the 72-hour pre-catalyst calendar for next week was not re-checked.",
+    "12(d,e)": "SESSION_LOG full-closeout entry with verbatim before-images; BOTTOM LINE re-cut (11/11 evening paragraph rotated verbatim); one earlier full-deferred breadcrumb (14:31 ET) cleared.",
+    "14": "MEMORY finding 69 n+1 (Microsoft outage); session note replaced, 11/12 note rotated verbatim to MEMORY_PROMOTED.md; no promotion owed.",
+    "15": "This file rewritten (before-images at research/2026-11-13_full-closeout/LC-ROTATED.md); calendar cutoff unchanged.",
+    "root.retirement": "Not assessed beyond the doctor; no research directory moved; carried.",
+    "16": "Exact paths; safe-push at closeout; reconcile after publication.",
+    "gaps": "Step 7i, FILTER_SPEC boot context, staleness sweep, closing threshold scan, retirement review not done; ACTION doorbells other than PROME not sent or audited. Checks runner research/2026-11-13_full-closeout/checks.json: receipt, read-cap, archives, weekdays, memory lines PASS; orphans advisory (own PROME packet, committed here); ledger-nudge REVIEW (event-driven logs, no new fire, doorbell-log or correction event this session); basis REVIEW resolved: PROME/COMPLETION_SPEC.md changed at 02b308000a (one line, HANDOFF pointer to the NOW page; no WALTER duty change), re-hashed, boot_basis_check MATCH 28 paths; reads UNKNOWN (READS attestation dated 11/04, carried, told PROME 11/12); doctor REVIEW (MED CATO receipt ruled 11/11; MED staleness sweep carried)."
   }
 }
 END_CLOSEOUT_RECEIPT -->
