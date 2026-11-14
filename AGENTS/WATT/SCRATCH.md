@@ -11,7 +11,7 @@
 
 ## CURRENT PICKUP — November 14, 2026, 12:39 EST; Will-directed catch-up in WATT's own window, research only
 
-**Current state:** P1/P2/P3/P4 = 3/5/4/2, composite **14/20**, unchanged. Tape November 11–14 11:00: zero prints ≥$1,000, top $607.87 November 13 (unverified), overnight $446.50 November 14; no posting since 105612 [KB212]. Spark +$48.43 [KB213]. Market Monitor Q3: 2029/30 BRA "effectively" ensured at cap, +$5–10B [KB214]. IRAS registry compliance filed November 9; two rehearing requests [KB215]. DOE 202-26-51 is MISO Campbell, no new PJM order [KB216]. Fermi/Amazon 600 MW and vortex/DC Circuit headlines logged, not scored [KB217/218]. Inbox 2 of 2; L487 review done, list kept; DAEDALUS WQ-678 B: five CLAUDE.md trims applied, four declined [KB219].
+**Current state (closed 15:10 EST; card SIG-W-20261114-011 filed, no WATT item):** P1/P2/P3/P4 = 3/5/4/2, composite **14/20**, unchanged. Tape November 11–14 11:00: zero prints ≥$1,000, top $607.87 November 13 (unverified), overnight $446.50 November 14; no posting since 105612 [KB212]. Spark +$48.43 [KB213]. Market Monitor Q3: 2029/30 BRA "effectively" ensured at cap, +$5–10B [KB214]. IRAS registry compliance filed November 9; two rehearing requests [KB215]. DOE 202-26-51 is MISO Campbell, no new PJM order [KB216]. Fermi/Amazon 600 MW and vortex/DC Circuit headlines logged, not scored [KB217/218]. Inbox 2 of 2; L487 review done, list kept; DAEDALUS WQ-678 B: five CLAUDE.md trims applied, four declined [KB219].
 
 **Remaining:** Read the two ER26-3515 rehearing requests (what they seek). Verified feed for November 13–14 at next P1 touch. Eaton 10-Q segment backlog dollars unread (SEC archive refuses this box's client).
 
