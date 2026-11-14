@@ -92,6 +92,13 @@ Full obligations `OPEN_ITEMS.md`; mechanisms `THESIS.md`; today's audit `analysi
 
 ## Bottom line
 
+**November 14 (data refresh to the Friday 11/13 close; web sweep MEDIA):** Gold had its worst week in a while. GLD fell 4.6% (11/06 → 11/13) and closed $354.89 on 11/12, its lowest close since early October 2025. News coverage blames hot US inflation data, a dollar at a 19-month high and bets on a December Fed hike (those odds are ORACLE's figure). The real 10Y rose to 2.86% on 11/12, 14 bp from my 3.00% line. On rough arithmetic the rate rise covers only about a third of GLD's 11/10 → 11/12 drop; I have not graded it on the frozen classifier. Silver led the fall to a one-year low. Composite 13/20, no band level changed (PPLT 1.0 pt from moving to 4, which would not change I2).
+
+Gold: **GCZ26 Dec2026 $3,886.30/oz [Nov13 MIRROR, uncertified]**, −$143.90 vs the Nov10 bar. GLD $355.45. Driver: inflation data, a strong dollar and higher yields (MEDIA); 10 down weeks in 12.
+Silver: **SIZ26 Dec2026 $49.12/oz [Nov13 MIRROR]**, −$2.11 vs Nov10. SLV $44.13, d200 −28.73%, level 4. Driver: same macro selling plus weaker industrial hopes (MEDIA); one-year low.
+Platinum: **PLF27 Jan2027 $1,489.70/oz [Nov13 MIRROR]**, −$48.70 vs Nov10. PPLT $13.50, d200 −19.00%, level 3. No sourced driver; WPIC reports 11/18.
+Palladium: **PAZ26 Dec2026 $1,007.60/oz [Nov13 MIRROR]**, −$13.20 vs Nov10, +1.62% on Friday against the complex. PALL $18.13, d200 −26.96%, level 4. No new supply disruption reported.
+
 **November 11:** Gold's 2.7% drop on Tuesday was an ordinary interest-rate day, not a panic or a forced sale. October core inflation came in at +0.3%, the 10-year real yield jumped 12 bp to 2.78%, and my frozen model says that alone should cost GLD about 1.8%; the rest is inside normal noise, stocks were calm and the GLD trust barely moved. Since 11/05 gold has traded on real yields again, after the unexplained late-October selling. The level to watch is the real 10-year at 3.00%: five prints there withdraw my positive three-month lean, and it is 22 bp away. Composite 13/20, nothing moves a score.
 
 Gold: **GCZ26 Dec2026 $4,030.20/oz [Nov10 MIRROR, uncertified]**, −$83.30 vs the Nov5 bar; about $4,038 live 11/11. GLD $369.36. Driver: October CPI (core +0.3%) and the +12 bp real-yield jump; Monday +1.88% came with a weaker dollar and trust additions.
