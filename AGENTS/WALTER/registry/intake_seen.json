@@ -3,14 +3,14 @@
     "fred:UMCSENT:orange": "2026-10-22T19:20:42Z",
     "fred:MORTGAGE30US:red": "2026-10-22T19:20:42Z",
     "fred:BAMLH0A0HYM2:red": "2026-10-22T19:20:42Z",
-    "news:NEW_ALERT:data/2026-11-14/news.json@5e0b36a5cb21": "2026-11-14T19:33:45Z",
-    "news:NEW_WATCH:data/2026-11-14/news.json@5e0b36a5cb21": "2026-11-14T19:33:45Z",
+    "news:NEW_ALERT:data/2026-11-14/news.json": "2026-11-14T19:48:26Z",
+    "news:NEW_WATCH:data/2026-11-14/news.json": "2026-11-14T19:48:26Z",
     "news:WATCH_HIT:a865790d53d0": "2026-11-14T19:33:45Z",
     "news:WATCH_HIT:c1359902819d": "2026-11-14T19:33:45Z",
     "news:WATCH_HIT:a8f96f6638af": "2026-11-14T19:33:45Z",
     "news:WATCH_HIT:de32e0971e00": "2026-11-14T19:33:45Z"
   },
-  "updated": "2026-11-14T19:33:45Z",
+  "updated": "2026-11-14T19:48:26Z",
   "last_marked_batch": "data/2026-11-14/news.json",
   "last_marked_sha": "5e0b36a5cb21"
 }
