@@ -77,6 +77,11 @@ Tier 2 FULL closeout, walter-72, desktop. Prior: FULL 2026-11-14T00:10:18Z (walt
   "next_review": "2026-11-16",
   "publication": [
     {
+      "commit": "3548962686",
+      "state": "published",
+      "note": "post-closeout leg 3 (Will 'okay go' 14:28 ET): 4b590d0c0d scanner receipt binding (CATO N14-1), 07fa672590 cards -010 CORRECTION and -011 small items (13 handoffs, COR-20261114-10, BM-20261114-02, receipt mark), 08226d420d corrects:/status tags, a314cf9c12 staleness sweep and CARL-DR-1 roll and CARL packet, 3548962686 records; safe-push CONFIRMED"
+    },
+    {
       "commit": "3c05f56a66",
       "state": "published",
       "note": "post-closeout card 20261114-008 (ground-stop cause and two-day count), 5 handoffs; safe-push CONFIRMED"
@@ -94,8 +99,8 @@ Tier 2 FULL closeout, walter-72, desktop. Prior: FULL 2026-11-14T00:10:18Z (walt
   ],
   "delivery": {
     "signal_date": "20261114",
-    "total": 57,
-    "delivered": 57,
+    "total": 70,
+    "delivered": 70,
     "note": "rows reconciled to delivered at this closeout (origin carried 86b6af7849 via a PROME push); CYPHER and CARL consumption shown by their replies; TERRY BOARD-only; CARL, RED, PROME INFO by BOARD diff."
   },
   "owner_review": {
