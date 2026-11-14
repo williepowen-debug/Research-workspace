@@ -110,9 +110,14 @@ ETF_PROXIES = {"GLD": "Gold ETF", "SLV": "Silver ETF", "CPER": "Copper ETF",
 #      GCG27 9,773 · SIZ26 33,192 vs SIH27 3,108 · HGZ26 37,443 vs HGH27 8,700 · PLF27
 #      17,237 vs PLJ27 1,283 · PAZ26 6,880 vs PAH27 377 -> map unchanged. Dec contracts
 #      roll before late-November first notice; watch HG (lead only 4.3x).
+#      REVIEW 2026-11-14 (prior row 11/12; the 11/13 row repeats 11/12 volume, rule 1):
+#      GCZ26 229,442 vs GCG27 45,739 (5.0x) · SIZ26 60,860 vs SIH27 18,309 (3.3x) ·
+#      HGZ26 70,493 vs HGH27 36,956 (1.9x) · PLF27 15,579 vs PLJ27 1,280 (12.2x) ·
+#      PAZ26 10,704 vs PAH27 4,135 (2.6x) -> map unchanged. December leads narrowing
+#      (GC 15x -> 5x since 10/22); HG, PA and SI may cross before the next review.
 FRONT_MONTHS = {"GC=F": "GCZ26.CMX", "SI=F": "SIZ26.CMX", "HG=F": "HGZ26.CMX",
                 "PL=F": "PLF27.NYM", "PA=F": "PAZ26.NYM"}
-FRONT_MONTHS_REVIEW_ON = "2026-11-13"  # chosen weekly maintenance date, not an expiry
+FRONT_MONTHS_REVIEW_ON = "2026-11-20"  # chosen weekly maintenance date, not an expiry
 MAX_PRIOR_BAR_AGE_DAYS = 7  # source freshness bound, not a market alarm level
 # A pointer carrying under this share of the explicit month's volume is DYING.
 DYING_VOL_SHARE = 0.05
