@@ -19,8 +19,13 @@ entities: ["FOMC December 2026", "Polymarket", "Kalshi", "ZQZ26", "Iran pause", 
 word_count: 338
 dispatch_note: "ORACLE catch-up read relayed by PROME prome-2b 09:5x ET; recipients are ORACLE's suggested lines (HENRY, LIQUID, BOND, CARL; HAWK, BRENT, FALCON; VULCAN, BROCK, SAM) plus NEXUS (named the December-pricing gap, U1), RED and TERRY. Odds are ORACLE's (MEMORY feedback: prediction-market data is ORACLE's domain). CARL is pull-complete for INFO. PRIORITY: ORACLE's own gates held at Alert; no registered threshold."
 event_window: "open"
+status: PARTIALLY-SUPERSEDED
+status_ref: "SIG-W-20261112-002/-003 (Nvidia board: Huang resigned as President, CEO and director effective immediately, Nov 12; card 003 notes the ORACLE Huang-exit markets resolved YES)"
+status_date: 2026-11-14
 ---
 # ORACLE gate read, November 11 09:45 ET: the December 9 Fed meeting prices hold 3.5, +25bp 85.5, +50bp or more 11.8 (Polymarket; Kalshi 3 / 85 / 11); futures about +28.9bp; most of the move came in the hour after Waller's text; Iran two-week pause starting by November 15 at 54.5, first time over 50; Huang out by year-end 15.5 to 17
+
+> ⚠️ **LIFECYCLE TAG `PARTIALLY-SUPERSEDED` applied 2026-11-14 (staleness sweep, WALTER adjudication; the sweep generates candidates and never auto-tags).** BROKE: the two Huang-exit rows (15.5 Polymarket by Dec 31; Kalshi 17.0 / 39.0) price an event that happened the next day: Huang resigned Nov 12 (SIG-W-20261112-002, -003). WHAT SURVIVES: the Dec 9 FOMC odds, futures, Iran-pause and WTI legs as ORACLE read them at 09:45 ET Nov 11, all dated snapshots.
 
 ORACLE's read (KB-ORC-133 to 135, bd6bf9d89c). Odds are ORACLE's; WALTER relays.
 

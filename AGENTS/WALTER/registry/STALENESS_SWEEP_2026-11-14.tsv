@@ -1,0 +1,21 @@
+# BOARD staleness sweep + adjudication record — 2026-11-14 (CADENCE run, 2d overdue; FORMAT_SPEC Signal Lifecycle)
+# Trigger: walter_doctor staleness_sweep_overdue (16d since 2026-10-29; cadence 14d). Run on Will's "okay go", 2026-11-14 14:28 ET.
+# Sweep: AGENTS/WALTER/tools/staleness_sweep.py -> 412 candidates of 2196 signals (unscoped; already-tagged skipped). New since the 10/29 sweep (dated >= 20261029): 49 (P3 24 · P2 13 · P1 6 · P1+P3 3 · P2+P3 2 · P1+P2 1).
+#
+# ADJUDICATION BASIS + DISCIPLINE (same as 09-03 / 09-24 / 10-10 / 10-29): only actively-misleading signals get tagged; dated snapshots are covered by the INDEX preamble rule.
+# THE ADJUDICATED CLASS WAS CHOSEN BY MECHANISM — world-state changes since 10/29 that could make an earlier signal assert a now-false CURRENT state:
+#   (1) Nvidia: Huang resigned Nov 12 (SIG-W-20261112-002/-003). Pre-resignation cards 20261109-004, -011, 20261110-009, 20261111-003 are dated reports of the controversy: NO TAG. 20261111-011 (ORACLE) prices "Huang out by Dec 31" at 15.5 as a live probability, resolved YES the next day -> TAGGED.
+#   (2) Iran / Hormuz (13 P2 'reopening' candidates, 11/02-11/14): the anchor (full sweep 11/11, notes to 11/12) still records blockade enforcement and no reopening; 20261102-011's two-day proposal lapsed with no deal (Trump 11/13 'no deal', card 20261114-006 item 12). Cards say 'no reopening established' as of their dates: consistent. NO TAG.
+#   (3) Russia diesel exports 'double' (20261112-005) vs Bloomberg 'drop' (20261114-006 item 6): owner reconciliation open at OSPREY/BRENT; WALTER does not adjudicate the direction. NO TAG; carried.
+#   (4) CoreWeave -009 framing: corrected same day by -010 (corrects: + backward status tag on -009). Not a sweep tag.
+#   (5) Forward items still ahead: BCRED Q4 offer to Dec 1 (1105-032); Tricolor sales and Ares response deadline Nov 30 (1106-021, -050); Plaza Continental hearing Nov 17 (1112-001); EO 14421 before Dec 24 (1030-001); OpenAI second part, VULCAN KB-404 'unclosed' (1106-030). Not passed. NO TAG.
+#   (6) Passed but owner-overtaken, not misleading: TTF X26 settle (1029-023; HANS has since run T-07 on later closes); ICE Endex expiry calendar (1031-021); BOND refunding 'reopening' (1110-006) is a Treasury-reopening false positive. NO TAG.
+#   EACH TAG = YAML status + status_ref + status_date, a file banner, and the generated INDEX back-marker.
+#
+# LEG 1 -- LIFECYCLE TAGS APPLIED (1).
+signal_id	status	status_ref	basis_verified_at	what_survives
+SIG-W-20261111-011	PARTIALLY-SUPERSEDED	SIG-W-20261112-002/-003	BOARD SIG-W-20261112-002 (Nvidia board statement) and -003 title 'ORACLE Huang exit markets resolved YES', read this session	Dec 9 FOMC odds, futures, Iran-pause and WTI legs as ORACLE read them 09:45 ET Nov 11. BROKE: the two Huang-exit rows priced an event that happened Nov 12.
+#
+# LEG 3 -- P3 (24 new plus 5 mixed) NOT INDIVIDUALLY ADJUDICATED: dominated by signals that CITE a RED-FT/REG-T identifier or the word 'threshold' rather than assert a current state (same finding as 9/03, 9/24, 10/10, 10/29).
+# CARRIED: (a) P2 narrower-pattern proposal to Will STILL NOT MADE ('reopening' matches Treasury reopenings and Iran lines alike: 13 of 49 new candidates); (b) row-by-row pre-9/03 P1 pass still not done; (c) unverified outcomes: -0908-007 (PJM), -0921-001 (Japan window), -0925-004 (CRMT), -0929-014 (trucker strike), Car-Mart standstill (Mon 11/16), Micron Taoyuan dispute (1105-045, outcome not checked), Russia diesel direction (OSPREY/BRENT).
+# NEXT SWEEP DUE ~2026-11-28.
