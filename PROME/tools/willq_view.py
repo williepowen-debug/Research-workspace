@@ -15,7 +15,7 @@ one-line projection of that table into PROME/SCRATCH.md between markers, replaci
   --selftest        fixture drills: first-run replace · idempotence · needed-by change shows in the
                     block (the acceptance test) · check flags drift · marker-count refusal · zero-row refusal
 
-rc: 0 ok · 1 drift (--check) · 2 refused (markers / unparseable / zero rows / a shifted row / a non-ISO
+rc: 0 ok · 1 drift (--check) · 2 refused (markers / unparseable / zero rows beside an unnumbered line / a shifted row / a non-ISO
 needed-by) — never pads, never guesses.
 2026-09-18 (scratchrot7cold ❌1/❌2, WQ-229 repair): cells split on UNESCAPED pipes only — a `\|` inside a cell
 (markdown's literal pipe) is never a column break; a row whose cell count differs from the header's is REFUSED
@@ -86,15 +86,22 @@ def parse_open(text):
     if "## OPEN" not in text:
         raise WillqError("no '## OPEN' section")
     section = text.split("## OPEN", 1)[-1].split("\n## ", 1)[0]
-    rows, problems, hdr = [], [], None
+    rows, problems, hdr, unnumbered = [], [], None, []
+    hdr_first, sep_after_hdr, offset_lines, table_lines = "", False, 0, 0
     for line in section.splitlines():
         if not line.startswith("|"):
+            if "|" in line:                           # ANY unread line holding a pipe (indented, quoted, no leading pipe, a stray character first): counted for the zero-row case
+                offset_lines += 1
             continue
         c = split_cells(line)
+        table_lines += 1
         if is_separator(c):
+            if hdr is not None and table_lines == 2:
+                sep_after_hdr = True                  # the separator sits directly under the header
             continue
         if hdr is None:
             hdr = len(c)                              # B2: the FIRST table row is the header, whatever its first cell says
+            hdr_first = c[0]
             if hdr != 7:                              # B8: this file's table is 7 columns; a different width is refused, never indexed
                 raise WillqError(f"§ OPEN header has {hdr} columns — the WILL_QUEUE table is 7 (# · Item · Type · Needed by · Since · PROME rec · Notes); refusing to guess which column is needed-by")
             continue
@@ -103,6 +110,7 @@ def parse_open(text):
             problems.append(f"SHIFTED WQ-{name}: {len(c)} cells vs header {hdr} — an unescaped `|` inside a cell shifts every column; write it `\\|`")
             continue
         if not re.match(r"\d", c[0]):
+            unnumbered.append(c[0][:24] or "<blank>")   # skipped as before; decides the zero-row case below
             continue
         lead = re.sub(r"^(?:~~[^~]+~~\s*)+", "", c[1])
         lead = re.sub(r"^[\*\s]+", "", lead)
@@ -121,8 +129,17 @@ def parse_open(text):
         raise WillqError("no table header row in § OPEN — refusing to guess the columns")
     if problems:
         raise WillqError("; ".join(problems))
-    if not rows:
-        raise WillqError("OPEN table parsed to zero rows — refusing to write an empty block")
+    if not rows and unnumbered:                       # zero open rows AND a line the parser could not number: a parse failure, never "0 open"
+        raise WillqError(f"OPEN table parsed to zero rows but holds {len(unnumbered)} table line(s) whose first cell is not a WQ number "
+                         f"(first: '{unnumbered[0]}') — refusing to render it as an empty queue; the first cell is the bare number")
+    if not rows:                                      # zero rows is "0 open" ONLY for a table proven well-formed (reader ❌1/❌2, 2026-11-14)
+        if table_lines < 2 or not sep_after_hdr or re.search(r"\d", hdr_first):
+            raise WillqError(f"OPEN table parsed to zero rows and its first table line ('{hdr_first[:24] or '<blank>'}') is not a header "
+                             "followed by its separator row — a data row may have been read as the header; refusing to render it as an empty queue")
+        if offset_lines:
+            raise WillqError(f"OPEN table parsed to zero rows but holds {offset_lines} line(s) with a pipe that do not start with `|` (indented, quoted "
+                             "or missing the leading pipe), which the parser does not read — refusing to render it as an empty queue; a row starts with `|` in the first column")
+        return []                                     # a true empty queue: header, separator, nothing open (2026-11-14)
     rows.sort(key=lambda r: (r["blocked"], r["due"] or "9999-99-99", -int(re.match(r"\d+", r["n"]).group(0))))
     return rows
 
@@ -144,7 +161,7 @@ def render(rows, as_of):
         items.append(("⛔ " + cell) if r["blocked"] else cell)
     line = (f"- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `{TOOL}` · as-of {as_of.isoformat()} · "
             f"{n_open} open, {n_blk} blocked — dated first, blocked last; never hand-edit inside the markers):** "
-            + " · ".join(items))
+            + (" · ".join(items) if items else "none"))
     return "\n".join([BEGIN, line, END])
 
 
@@ -252,11 +269,53 @@ def selftest():
             do_write(str(s), str(q), as_of, False); ok(False, "marker-count refusal")
         except WillqError:
             ok(True, "marker-count refusal")
-        q.write_text("# fixture\n## OPEN\n| # | Item | Type | Needed by | Since | rec | Notes |\n|---|---|---|---|---|---|---|\n## RECENTLY DONE\n")
-        try:
-            parse_open(q.read_text()); ok(False, "zero-row refusal")
-        except WillqError:
-            ok(True, "zero-row refusal")
+        # 2026-11-14 — a true empty queue renders; an unreadable one still refuses (ACCEPTANCE_willq_view_empty_queue_2026-11-14.md)
+        EMPTY = "# fixture\n## OPEN\n\n| # | Item | Type | Needed by | Since | rec | Notes |\n|---|---|---|---|---|---|---|\n\n\n## RECENTLY DONE\n"
+        ONE = EMPTY.replace("|---|---|---|---|---|---|---|\n", "|---|---|---|---|---|---|---|\n| 31 | **one open** | HANDS | 2026-11-01 | 8/7 | rec | note |\n")
+        ok(parse_open(EMPTY) == [], "A1 header and no rows parses to an empty list")
+        q.write_text(ONE); s.write_text(FIX_S); do_write(str(s), str(q), as_of, False); t_one = s.read_text()
+        ok("1 open, 0 blocked" in t_one and "WQ-31 (11/1)" in t_one, "A6 setup: one open row renders")
+        q.write_text(EMPTY)
+        ok(do_check(str(s), str(q)) == 1, "A6 a block saying 1 open over an empty queue is DRIFT")
+        do_write(str(s), str(q), as_of, False); t_zero = s.read_text()
+        ok("0 open, 0 blocked" in t_zero and t_zero[t_zero.index(BEGIN):t_zero.index(END)].rstrip().endswith(":** none") and "WQ-31" not in t_zero, "A1 empty queue renders 0 open and the word none")
+        ok(do_check(str(s), str(q)) == 0, "A1 check clean on the empty render")
+        q.write_text(ONE)
+        ok(do_check(str(s), str(q)) == 1, "A6 a block saying 0 open over one open row is DRIFT")
+        closed_only = EMPTY.replace("|---|---|---|---|---|---|---|\n", "|---|---|---|---|---|---|---|\n| 9 | ✅ **Closed in place** | RULE | 2026-09-01 | 9/1 | rec | done |\n| 7 | **DECLINED by Will** | RULE | — | 9/1 | rec | done |\n")
+        ok(parse_open(closed_only) == [], "A2 only closed-in-place rows is 0 open")
+        for qtext, name in [
+            (EMPTY.replace("|---|---|---|---|---|---|---|\n", "|---|---|---|---|---|---|---|\n| WQ-684 | **prefixed number** | DECISION | — | 11/14 | rec | note |\n"), "A3 a row numbered `WQ-684` with nothing else open is REFUSED, never 0 open"),
+            (EMPTY.replace("|---|---|---|---|---|---|---|\n", "|---|---|---|---|---|---|---|\n| **684** | **bold number** | DECISION | — | 11/14 | rec | note |\n"), "A3 a row numbered `**684**` with nothing else open is REFUSED"),
+            (closed_only.replace("| 7 |", "| seven |"), "OVERLAP a closed-in-place row beside an unnumbered row, nothing open: REFUSED"),
+        ]:
+            try:
+                parse_open(qtext); ok(False, name)
+            except WillqError as e:
+                ok("not a WQ number" in str(e), name)
+        ROW = "| 684 | **the only open decision** | DECISION | — | 11/14 | rec | note |\n"
+        HDR = "| # | Item | Type | Needed by | Since | rec | Notes |\n"; SEP = "|---|---|---|---|---|---|---|\n"
+        for qtext, want, name in [
+            ("# f\n## OPEN\n\n" + SEP + ROW + "\n## RECENTLY DONE\n", "not a header", "READER ❌1 header line lost, separator kept, one open row: REFUSED (the row was read as the header)"),
+            ("# f\n## OPEN\n\n" + ROW + "\n## RECENTLY DONE\n", "not a header", "READER ❌1 header and separator lost, one open row: REFUSED"),
+            ("# f\n## OPEN\n\n" + ROW.replace("| 684 |", "| **684** |") + "\n## RECENTLY DONE\n", "not a header", "SAME CLASS a lone bold-numbered row read as the header: REFUSED (no separator under it)"),
+            ("# f\n## OPEN\n\n" + HDR + "\n## RECENTLY DONE\n", "not a header", "SAME CLASS a header with no separator row and nothing else: REFUSED"),
+            (EMPTY.replace(SEP, SEP + " " + ROW), "do not start with", "READER ❌2 the only open row led by a space: REFUSED"),
+            (EMPTY.replace(SEP, SEP + "\u00a0" + ROW), "do not start with", "READER ❌2 the only open row led by a non-breaking space: REFUSED"),
+            (EMPTY.replace(SEP, SEP + "> " + ROW), "do not start with", "READER ❌2 the only open row on a quote line: REFUSED"),
+            (EMPTY.replace(SEP, SEP + ROW[2:]), "do not start with", "READER ❌F1 the only open row written without its leading pipe: REFUSED"),
+            (EMPTY.replace(SEP, SEP + "\u200b" + ROW), "do not start with", "READER F2 a zero-width space before the only open row: REFUSED"),
+            (EMPTY.replace(SEP, SEP + "\ufeff" + ROW), "do not start with", "READER F2 a byte-order mark before the only open row: REFUSED"),
+            (EMPTY.replace(SEP, SEP + "- " + ROW), "do not start with", "READER F2 the only open row as a list item: REFUSED"),
+        ]:
+            try:
+                parse_open(qtext); ok(False, name)
+            except WillqError as e:
+                ok(want in str(e), name)
+        ok(parse_open(EMPTY) == [] and parse_open(closed_only) == [], "A1/A2 still render after the reader's fixes")
+        ok([r["n"] for r in parse_open(EMPTY.replace(SEP, SEP + " " + ROW + ROW.replace("684", "685")))] == ["685"], "A7 with a recognised row present, an indented line is skipped as before")
+        mixed = ONE.replace("| 31 |", "| note |", 1).replace("## RECENTLY DONE", "| 12 | **real** | RULE | 2026-09-12 | 9/6 | rec | note |\n## RECENTLY DONE")
+        ok([r["n"] for r in parse_open(mixed)] == ["12"], "A7 with a recognised row present, an unnumbered line is skipped as before")
         # 2026-09-18 — scratchrot7cold ❌1/❌2 and their neighbours (WQ-229: ordinary rows = the fixture above)
         def rows_of(extra):
             return parse_open(FIX_Q.replace("## RECENTLY DONE", extra + "\n## RECENTLY DONE"))
