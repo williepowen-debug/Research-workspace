@@ -1,3 +1,7 @@
+## 2026-11-14T17:28:41Z POST-CLOSEOUT LEG — walter-72, Will's question on the bookmark reader
+
+Reader working; 2 bookmarks routed as SIG-W-20261114-008 (update of 001), published 3c05f56a66, 5 rows delivered. LAST_COMPLETION receipt updated (53 rows, 3c05f56a66). No other state changed.
+
 ## 2026-11-14T17:19:21Z FULL CLOSEOUT — walter-72 on the desktop, Will's word 12:16 ET (Sat)
 
 Saturday boot 11:04 ET. Cards 20261114-001 to -007 (48 handoffs), WQ-684 A encoded (charter 7e(h)), intake scanner rewrite fix (ee86bf5fb4), PROME packet. Done: threshold scan, step 7i (PPI, IEA OMR found uncarded), 7e with the WQ-681 A collector run, 7h bookmarks, 7d/7g/7f empty, 9a, REGISTRY 7 rows, doorbells CYPHER and CARL. Not done: staleness sweep, CARL-DR-1, whole ORCH_INFLIGHT read, agent STATUS head reads for FILTER_SPEC boot context (registry used instead), LIAISON turns (all dormant), retirement review.
