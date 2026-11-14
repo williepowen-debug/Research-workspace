@@ -157,9 +157,14 @@ class Disposition(Base):
         self.day('2026-11-03', [row('Royal Caribbean Sandals loan')])
         seen = Path(self.tmp.name) / 'seen.json'
         live = {'jobs': {}, 'last_run_utc': '2026-11-04T21:01:17Z', 'status': 'ok'}
-        with mock.patch.object(s, 'SEEN', seen), mock.patch.object(s, 'load_liveness', return_value=(live, None)), \
-                mock.patch.object(sys, 'argv', ['intake_scan.py', '--mark']), redirect_stdout(io.StringIO()):
-            s.main()
+        with mock.patch.object(s, 'SEEN', seen), mock.patch.object(s, 'load_liveness', return_value=(live, None)):
+            out = io.StringIO()  # 2026-11-14 CATO N14-1: --mark quotes the receipt of the scan it read
+            with mock.patch.object(sys, 'argv', ['intake_scan.py', '--json']), redirect_stdout(out):
+                s.main()
+            fp = json.loads(out.getvalue())['receipt']
+            with mock.patch.object(sys, 'argv', ['intake_scan.py', '--mark', '--receipt', fp]), \
+                    redirect_stdout(io.StringIO()):
+                s.main()
         self.assertTrue(seen.exists())
         self.assertFalse(self.state.exists())
         self.assertEqual(len(self.queue()[0]), 1)

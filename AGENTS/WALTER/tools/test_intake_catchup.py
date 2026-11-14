@@ -81,7 +81,8 @@ class CatchUp(unittest.TestCase):
     def test_5_mark_advances_pointer_and_reconciles(self):
         self.seen.write_text(json.dumps({'seen': {'news:WATCH_HIT:gone000000': 'x'}, 'updated': None,
                                          'last_marked_batch': 'data/2026-11-01/news.json'}))
-        with mock.patch.object(sys, 'argv', ['intake_scan.py', '--mark']), contextlib.redirect_stdout(io.StringIO()):
+        with mock.patch.object(sys, 'argv', ['intake_scan.py', '--mark', '--receipt', self.receipt()]), \
+                contextlib.redirect_stdout(io.StringIO()):
             s.main()
         st = json.loads(self.seen.read_text())
         self.assertEqual(st['last_marked_batch'], 'data/2026-11-04/news.json')
@@ -114,9 +115,17 @@ class CatchUp(unittest.TestCase):
             s.main()
         self.assertIn('news batches scanned — 3: 2026-11-02..2026-11-04', out.getvalue())
 
-    def mark(self, *extra):
+    def receipt(self):
+        """What the operator copies from the scan it read (CATO N14-1, 2026-11-14)."""
         out = io.StringIO()
-        with mock.patch.object(sys, 'argv', ['intake_scan.py', '--mark', *extra]), contextlib.redirect_stdout(out):
+        with mock.patch.object(sys, 'argv', ['intake_scan.py', '--json']), contextlib.redirect_stdout(out):
+            s.main()
+        return json.loads(out.getvalue())['receipt']
+
+    def mark(self, *extra, receipt=None):
+        out = io.StringIO()
+        argv = ['intake_scan.py', '--mark', *extra, '--receipt', receipt or self.receipt()]
+        with mock.patch.object(sys, 'argv', argv), contextlib.redirect_stdout(out):
             rc = s.main()
         return rc, out.getvalue()
 
@@ -196,6 +205,34 @@ class CatchUp(unittest.TestCase):
                                         s.batch_sha('data/2026-11-03/news.json')), ['data/2026-11-04/news.json'])
         self.assertEqual(s.news_batches('data/2026-11-04/news.json', 'data/2026-11-03/news.json', None),
                          ['data/2026-11-04/news.json'])
+
+
+    # 2026-11-14 (CATO N14-1, Will 14:28 ET): the acknowledgment binds to the bytes the scan presented.
+    def test_R4_rewrite_between_scan_and_mark_is_refused_and_state_unmoved(self):
+        self.seen.write_text(json.dumps({'seen': {}, 'updated': None, 'last_marked_batch': 'data/2026-11-03/news.json'}))
+        before = self.seen.read_text()
+        read = self.receipt()  # the operator reads this version
+        self.rewrite('2026-11-04', [item('late ordinary headline', 'NEW')])
+        rc, out = self.mark('--through', 'data/2026-11-04/news.json', receipt=read)
+        self.assertEqual(rc, 2)
+        self.assertIn('REFUSED', out)
+        self.assertEqual(self.seen.read_text(), before)
+        rc, _ = self.mark('--through', 'data/2026-11-04/news.json')  # re-scan, then mark what it printed
+        self.assertEqual(rc, 0)
+        self.assertEqual(json.loads(self.seen.read_text())['last_marked_sha'], s.batch_sha('data/2026-11-04/news.json'))
+
+    def test_R5_mark_without_receipt_or_after_new_alert_key_is_refused(self):
+        before = self.seen.read_text() if self.seen.exists() else None
+        with mock.patch.object(sys, 'argv', ['intake_scan.py', '--mark', '--through', 'data/2026-11-04/news.json']), \
+                contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(s.main(), 2)
+        read = self.receipt()
+        self.live['jobs']['newsweep']['by_class'] = {'NEW_WATCH_HIT': 1, 'NEW_WATCH': 1, 'NEW_ALERT': 1}
+        (self.lane / 'liveness.json').write_text(json.dumps(dict(self.live, last_run_utc='2026-11-04T22:00:00Z')))
+        self.rewrite('2026-11-04', self.days['2026-11-04'] + [item('D4 alert', 'NEW_ALERT')])
+        rc, _ = self.mark('--through', 'data/2026-11-04/news.json', receipt=read)
+        self.assertEqual(rc, 2)
+        self.assertEqual(self.seen.read_text() if self.seen.exists() else None, before)
 
 
 if __name__ == '__main__':

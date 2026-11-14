@@ -20,8 +20,9 @@ Event feeds (edgar critical[], treasury weak[], newsweep) are naturally onset �
 each carries an item id, and news is already deduped lane-side (news_seen.json).
 
   $ python3 tools/intake_scan.py            # report: health + NEW breaches + suppressed
-  $ python3 tools/intake_scan.py --mark     # record all currently-true gated keys as seen
-                                            #   (seed once at wiring; re-run after routing)
+  $ python3 tools/intake_scan.py --mark --through BATCH --receipt FP
+                                            # record all currently-true gated keys as seen; copy the exact
+                                            #   command the scan prints (refused if the lane changed since)
   $ python3 tools/intake_scan.py --json     # machine-readable worklist
   $ python3 tools/intake_scan.py --cruise-disposition KEY DISPOSITION REF
                                             # close ONE CRUISE_CAPITAL_REVIEW candidate after review
@@ -221,6 +222,18 @@ def rewritten_marked(saved, last_marked, marked_sha):
         return None
     sha = batch_sha(last_marked)
     return last_marked if sha and sha != marked_sha else None
+
+
+def scan_receipt(batches, recs):
+    """Fingerprint of what a scan PRESENTED (CATO N14-1, Will 2026-11-14 14:28 ET): every scanned batch's
+    bytes plus every gated key. --mark must quote it; a lane or liveness change between the scan and the
+    mark changes it, and the mark is refused with nothing written instead of acknowledging unread bytes."""
+    h = hashlib.sha1()
+    for b in batches:
+        h.update(f"B {b} {batch_sha(b)}\n".encode())
+    for k in sorted(r["key"] for r in recs):
+        h.update(f"K {k}\n".encode())
+    return h.hexdigest()[:12]
 
 
 def news_batches(saved, last_marked, marked_sha=None):
@@ -708,6 +721,8 @@ def main():
                     help="close one CRUISE_CAPITAL_REVIEW candidate after review")
     ap.add_argument("--through", metavar="BATCH",
                     help="with --mark: the newest batch the routed report showed; refused if the lane moved")
+    ap.add_argument("--receipt", metavar="FP",
+                    help="with --mark (required): the receipt the scan you read printed; refused if it changed")
     ap.add_argument("--gpu-disposition", nargs=3, metavar=("KEY", "DISPOSITION", "REF"),
                     help="close one GPU_FINANCE_REVIEW candidate after review")
     args = ap.parse_args()
@@ -741,6 +756,15 @@ def main():
         hz.append(("MED", f"{rb} was rewritten by the collector after --mark (fingerprint {marked_sha} -> "
                           f"{batch_sha(rb)}): re-scanning it whole; read its ordinary headlines too"))
 
+    receipt = scan_receipt(batches, recs)
+    if args.mark and not args.receipt:
+        print("REFUSED: --mark needs --receipt, the fingerprint of the scan you read. Run the scan, route what "
+              "it shows, then run the exact mark command it prints. Nothing written.")
+        return 2
+    if args.mark and args.receipt != receipt:
+        print(f"REFUSED: the lane or its alerts changed since the scan you read (receipt {args.receipt}, now "
+              f"{receipt}). Re-run the scan, read what changed, then run the mark command it prints. Nothing written.")
+        return 2
     if args.mark and args.through and args.through != newest:
         print(f"REFUSED: --through {args.through} but the newest lane batch is now {newest}; "
               "re-run the scan, route what it shows, then --mark --through the batch it reports. Nothing written.")
@@ -771,7 +795,8 @@ def main():
     cruise, cruise_errors = cruise_capital_queue()
     gpu, gpu_errors = gpu_finance_queue()
     if args.json:
-        print(json.dumps({"health": hz, "news_batches": batches, "new": new, "suppressed": suppressed,
+        print(json.dumps({"health": hz, "news_batches": batches, "receipt": receipt, "new": new,
+                          "suppressed": suppressed,
                           "cruise_capital_review": cruise, "cruise_capital_errors": cruise_errors,
                           "gpu_finance_review": gpu, "gpu_finance_errors": gpu_errors}, indent=2))
         return 0
@@ -818,7 +843,10 @@ def main():
     print(f"\n[suppressed — still-true, already seen — {len(suppressed)}]  (do NOT re-push)")
     for r in suppressed:
         print(f"  {r['key']}  ({r['raw'][:70]})")
-    print(f"\nAfter routing the NEW breaches, run:  python3 tools/intake_scan.py --mark --through {newest}")
+    for b in batches:
+        print(f"  batch {b}  fingerprint {batch_sha(b)}")
+    print(f"\nAfter routing the NEW breaches, run:  python3 tools/intake_scan.py --mark --through {newest} "
+          f"--receipt {receipt}")
     return 0
 
 
