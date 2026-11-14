@@ -32,7 +32,9 @@ Started 09:28 ET (from `date`). Claude Code, Opus 5.5. Research only; no trade, 
 | New-car 48-month rate at banks | 7.47% (August) | FRED TERMCBAUTO48NS |
 | Revolving credit outstanding | $1,368.5B (September, SA) | FRED REVOLSL |
 
-**Not verified by CARL:** December futures pricing (more than one full 25bp hike, HENRY's calculation on vendor last trades, not CME settlements). ORACLE owns venue odds, BOND the curve. Carried as HENRY's figure.
+**Not verified by CARL:** December futures pricing (more than one full 25bp hike, HENRY's calculation on vendor last trades, not CME settlements).
+
+> Correction 2026-11-14 (WQ-671 A, Will 11/11): ORACLE is the one owner of December Fed-meeting pricing, odds and futures cross-check. The HENRY figure above is kept as history; cite ORACLE's dated read (KB-ORC-133, 11/11 09:45 ET) instead. ORACLE owns venue odds, BOND the curve. Carried as HENRY's figure.
 
 ### CARL's consumer-credit transmission read
 

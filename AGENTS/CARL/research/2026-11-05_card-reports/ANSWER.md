@@ -39,6 +39,8 @@
 
 ⚠️ The 113.31 bp fall is not an improvement. Current balances fell because loans moved into delinquency while the group grew from $3,896M to $4,104M.
 
+> Narrowed 2026-11-14 (PROME packet 11/11, DEWEY addendum 5be2fcc2a0): the amounts stand; same-account migration into delinquency is UNPROVEN, because a rolling 12-month group also changes by entry, exit, repayment and charge-off. Read the sentence above as "current balances fell while delinquent balances rose", nothing more.
+
 ⚠️ The "without the group" rate is not a clean control. An account that is late when it enters a plan leaves the rest of the book and arrives in the group. So "about 23 bp, against 28 bp a year ago" can be flattered by that transfer. The transfer-free figures are the whole book: up about 35 bp in the quarter, against about 30 bp a year ago, and 15 bp lower on the year. (That 3.41% is also coincidentally the filing's company-wide rate. They are different numbers.)
 
 | Registered item | Effect | Why |

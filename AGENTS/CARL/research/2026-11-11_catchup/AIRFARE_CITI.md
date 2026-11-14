@@ -43,7 +43,9 @@ Logged for combination only: KB-619, `combo:florida-household-squeeze`, upstream
 
 DEWEY (primary: Citi Q2 and Q3 10-Q, Note 12): Citi North America modified card group, 30+ day delinquent share **18.59% → 19.08% (+0.49 pp)**, $289M of $1,555M to $311M of $1,630M. CARL re-added the buckets: 1,266 + 185 + 104 = 1,555 and 1,319 + 210 + 101 = 1,630. Six peers are now within about 1 point of June, against Capital One 17.2% → 25.2% (KB-583).
 
-**CARL's causal read (retained by CARL):** Capital One's jump is **specific to Capital One on this measure**. An industry-wide hardship wave is now a less likely explanation. The cause stays **UNKNOWN**. One unverified candidate is Discover loans entering the reported group after the deal closed (only the June row is free of them, KB-583). Citi's new modifications rose +15.8% y/y ($541M), a mild sign that more borrowers need help. It is not delinquency.
+**CARL's causal read (retained by CARL):** Capital One's jump is **specific to Capital One on this measure**. An industry-wide hardship wave is now a less likely explanation. The cause stays **UNKNOWN**. One unverified candidate is Discover loans entering the reported group after the deal closed (only the June row is free of them, KB-583).
+
+> Narrowed 2026-11-14 (PROME packet 11/11, DEWEY addendum 5be2fcc2a0, Capital One Q2 and Q3 10-Q Note 4): the filings show Discover already inside the group at 6/30 with no separate legacy series, and no note, MD&A or deck attributes the jump to Discover, a definition change or a conversion. Cause: NONE SOURCED. Discover is neither the cause nor ruled out. Citi's new modifications rose +15.8% y/y ($541M), a mild sign that more borrowers need help. It is not delinquency.
 
 **Do not relay as:** hidden delinquency, a credit break caused by modification, or a ranking of issuers (the perimeters differ).
 

@@ -8,6 +8,15 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-14 — DOCKET L150: ES-02 final look DID_NOT_APPEAR; CRL-28 re-marked 50 → 20 (no version or score change)
+
+- **CRL-28:** 50% → **20% dated 2026-11-14**, OPEN. STUE's pull (vintage 11/14, commit 4337b83cff), recomputed by CARL from the saved file: settled boundary Sun 11/08 on the pre-registered completeness test, rule and eyeball agree, band stable at ±3 days. Window Oct 1–Nov 8 22.5/day; 60-day rolling average 23.3/day = 42% of the frozen 55/day; after notice completion 19.2/day. Third null and the first inside the window, after MOHELA's notices finished (the ES-02 row's registered STUCK→MISSED decision point). Not cut further because the payment-wave and auto-enrolment paths are still ahead and the refute leg cannot resolve before 9/30/2027.
+- **Not moved:** the 55/day and 41/day bars, the instrument, every other prediction, vector V4 (score 4), matrix 53/70. Instrument note (unchanged): the Prediction text says student-loan products; the registered query has no product filter, so the null is conservative.
+- **CRL-10:** Notes only via KB-621 (October PPI food +1.7% y/y NSA); stays 1%.
+- Record: `research/2026-11-14_L150/READ.md`; KB-CARL-621, KB-CARL-622.
+
+---
+
 ## 2026-11-11 — Catch-up: October CPI and Waller read for consumer credit; gas below $4.00; no version, score or mark change
 
 - **CRL-34:** Notes only. Leg 1 of 2 met (GASREGW 11/09 $3.995); leg 2 = 11/16 print. Mark held at 72%.

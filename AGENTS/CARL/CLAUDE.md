@@ -59,7 +59,7 @@ When new consumer data arrives, always disaggregate:
 **Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** The CLOSEOUT phase (write-back tail) is **not optional** — run it at **EVERY session end, not just end-of-day** (`[[feedback_intra_day_closeout_discipline]]`). Read→write pairings: STATUS (read 2 → write 9), SCRATCH (read 1 → rewrite 14), predictions (surface 7b → resolve 10), docket (read 7a → prune 13), ROADMAP (read 6 → update 13), TEAM (read 4 → update 13), NEXUS_BRIEF (cross-agent twin of SCRATCH → write 14b, mandatory every session).
 
 ### BOOT (read phase)
-0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
+0. **`git pull --rebase`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `SCRATCH.md`** — ephemeral handoff from last session (what happened, what to do next, urgent items)
 1b. **Read `MEMORY.md`** — persistent feedback / findings / references. Will-given guidance + CARL-discovered lessons not yet promoted to global auto-mem. Load-bearing context for how to behave this session; not session-specific handoff (SCRATCH owns that).
 2. **Read `STATUS.md`** — signal dashboard, K-shape evidence, danger window
@@ -134,7 +134,7 @@ Finding bigger than SCRATCH → route by type: **thesis-level** (mechanism/thres
 ## MESSAGING & STALE DATA RULES
 
 **Inbox / Outbox:**
-- **Inbox:** `inbox/` — inbound signals. Process only when spawned for it. Do NOT process on normal spawns.
+- **Inbox:** `inbox/` — the `inbox/WALTER/` lane is processed at every boot (step 5b); other inbox packets when tasked.
   - ⛔ **COUNT IT WITH THE LANE-DESCENDING FORM, NEVER `ls inbox/`:** `find inbox -maxdepth 2 -name "*.md" -not -path "*/processed/*"`. **`inbox/` has SUB-LANES** (`inbox/WALTER/`, each with its own `processed/`), so `ls inbox/*.md` returns a number that silently excludes a whole live lane. *(2026-09-02: boot reported "inbox at 1" and SCRATCH had claimed "INBOX AT ZERO" on 9/1 — both measured on `inbox/*.md` while `inbox/WALTER/` held two PRIORITY signals. Both had in fact been consumed via the BOARD route on 8/15; what was wrong was the COUNT, not the work. `[[finding_instrument_reports_clean_against_the_wrong_reference]]`.)*
   - **A consumed WALTER lane packet must be `git mv`'d to `inbox/WALTER/processed/`** — the packets say so in their own delivery-handoff line. **An unmoved delivery copy is indistinguishable from an unconsumed signal**, so it costs a re-derivation every boot until someone files it; disposition in `board/BOARD_LOG.tsv` does NOT file the lane copy.
 - **Outbox:** `outbox/` — reserved for PROME-action requests. ⛔ **A SIGNAL is routed by WALTER, not by CARL** (`AGENTS/WALTER/inbox/`); **analysis and packets** go direct to the target agent's `inbox/`, self-committed per carve-out ①. Move integrated inbound items to `inbox/processed/` (WALTER-lane copies to `inbox/WALTER/processed/`) with `git mv`, never bash `mv`.
@@ -147,7 +147,7 @@ Finding bigger than SCRATCH → route by type: **thesis-level** (mechanism/thres
 
 **Stale Data Rules:**
 - **VX.tsv:** FROZEN 2026-06-26; don't read rows as current. STATUS is canonical.
-- **STATUS.md values >24h old:** Pull live data via web_search before citing. Never present stale dashboard values as current.
+- **STATUS.md values >24h old:** Pull live data with an available fetch tool before citing. Never present stale dashboard values as current.
 
 ---
 
@@ -175,7 +175,7 @@ Finding bigger than SCRATCH → route by type: **thesis-level** (mechanism/thres
 
 **Mirror pairs (canonical → mirror):**
 - THESIS matrix/score → STATUS matrix section *(machine-checked: consistency_check Check B)*
-- PREDICTIONS.tsv OPEN IDs → **`PREDICTIONS_MIRROR.md`** *(machine-checked: Check A)* — ⚠️ **MOVED OUT OF STATUS.md 2026-09-01** under the read-cap remedy (STATUS was 119% of the 54,250 B whole-read cap; the section was 23.7% of it). **Check B still reads STATUS.md** — the convergence matrix did NOT move.
+- PREDICTIONS.tsv OPEN IDs → **`PREDICTIONS_MIRROR.md`** *(machine-checked: Check A)* — ⚠️ **MOVED OUT OF STATUS.md 2026-09-01** under the read-cap remedy. **Check B still reads STATUS.md** — the convergence matrix did NOT move.
 - CATALYSTS.tsv → CALENDAR.md (event set) — **HAND-VERIFY ONLY: Check C was evaluated and DECLINED (reasoning in `scripts/CONSISTENCY_CHECK_SPEC.md`); no script checks this pair.** *(Claim corrected 7/31 — PROME audit found the prior wording asserted machine coverage that does not exist.)*
 
 ---
