@@ -30,7 +30,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 1. **Sync from GitHub** — follow root CLAUDE.md §Git Protocol "Before pulling".
 2. **Read `SCRATCH.md`** — where you left off; the single most important "pick up here."
 3. **Read `STATUS.md`** — convergence matrix, live channel reads, exit triad, BOTTOM LINE.
-3b. **Read `OPEN_ITEMS.md`** — the standing open-items register, split out of `STATUS.md` 2026-09-02. ⛔ **ADDED TO THE BOOT PATH 2026-09-02 because the split had taken it OFF one:** STATUS carried only a pointer, and *a pointer passes a presence audit while starving the surface it points at*. The register holds the blocking flags (e.g. *"the amendment rule is NOT canon, WQ-161 due 9/15"*) and the standing grader instructions. **Cost named honestly: this raises total boot bytes — the split fixed a per-surface cap breach, it did not make the reading free.**
+3b. **Read `OPEN_ITEMS.md`** — the standing open-items register (blocking flags and grader instructions).
 
 4. **Run `boot.py`** — `python3 "$(git rev-parse --show-toplevel)/AGENTS/MIDAS/boot.py"` — **five legs: metals watch · ledger staleness (including metal KB content freshness) · predictions-due · gold COT freshness · Ag/Pt/Pd COT freshness.** rc 0 = quiet · 1 = REVIEW (the verdict line NAMES the leg) · 2 = a leg failed / cannot certify. `metals_watch.py` (leg 0, built 2026-07-12) pulls real-yield + gold/silver/copper/PGM spot + GSR + the M1 divergence classifier. **Leg 3 (wired 2026-09-05, DAEDALUS F-2) asks CFTC whether a gold COT vintage is public that this desk has not consumed** — it imports `cot_gold.py` as a module and grades against `sources/cot_vintages_consumed.tsv`; **clear its flag by APPENDING a row after reading the vintage, never by editing the flag away.** ⛔ `grade_cot3.py`, `grade_midas07.py` and `settle_check.py` are deliberately NOT boot-wired — each is a one-shot instrument bound to a CLOSED question, and running one every boot would re-grade a consumed letter on new data. The rationale is in `boot.py`'s docstring; read it before "fixing" them in.
 4b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" MIDAS` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` with WQ-399 fields: APPLIED needs `--artifact <path#key> --validation-ref <path#key|NONE>`; NO-OP needs `--scope <text>`; DEFERRED needs `--review YYYY-MM-DD`; CONTESTED may carry scope/artifact and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
@@ -51,13 +51,11 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 
 1. **Update `STATUS.md`** — matrix scores, live reads (sourced + dated), exit triad fired-count, refreshed BOTTOM LINE.
 2. **Log to workbook** — new facts → `KB.tsv`; vector state changes → `VX.tsv`; new/confirmed pathways → `FLOW.tsv`; new forecasts → `PREDICTIONS.tsv` (MIDAS-NN).
-3. **Writeback `NEXUS_BRIEF.md`** — curated cross-agent sync (every closeout). `outbox/` only for 🔴 crisis (async).
+3. **Writeback `NEXUS_BRIEF.md`** — curated cross-agent sync (every closeout).
 4. **Continuity** — append a dated note to `SCRATCH.md`; add any new durable lesson **in BOTH places: the full row to `analysis/LESSONS_ARCHIVE_2026-08.md`, one hook line to `LESSONS.md`.** (Index-only since the 8/27 split; a body with no hook is invisible, a hook with no body is a dead link.)
-4b. ⛔ **If this session SPLIT or ROTATED a boot-read surface: state WHICH cost the split chose and MEASURE it, in the SAME commit.** One question answers both — **"where did the cut material go, and is that destination on the reading path?"** **ON the path** ⇒ report the new **boot-read TOTAL** and stop claiming a saving. **OFF the path** ⇒ enumerate every obligation that moved and re-home each. *(Added 2026-09-02. My own split commit `8cd57673f` fails this: it led with the per-surface win, `STATUS 32,554 → 25,258 B`, and never stated the total — which rose ~30 KB. **A fix that only reports its win is a claim, not a fix.** → KB-108, L-48)*
+4b. ⛔ **If this session SPLIT or ROTATED a boot-read surface: state WHICH cost the split chose and MEASURE it, in the SAME commit.** One question answers both — **"where did the cut material go, and is that destination on the reading path?"** **ON the path** ⇒ report the new **boot-read TOTAL** and stop claiming a saving. **OFF the path** ⇒ enumerate every obligation that moved and re-home each. *(L-48.)*
 
-5. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/MIDAS/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force).
-
-> **Boot↔Closeout symmetry:** what you read at boot (SCRATCH, STATUS, PREDICTIONS), you write back at closeout. The anti-rot force.
+5. **Git** — per §GIT PROTOCOL below.
 
 ---
 
@@ -75,7 +73,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 - **Geopolitical / military** → **HAWK**. You own the PGM-supply consequence of SA/Russia events.
 - **Macro velocity / growth thesis** → **HENRY**. You supply the metal read; HENRY owns the macro thesis.
 
-**Boundary rule:** signal in another agent's domain → write to `outbox/` as a task packet. Don't deep-dive it. On any shared metric, MIDAS is canonical for the metal; neighbors reference.
+**Boundary rule:** signal in another agent's domain → route it (see §MAIL / MESSAGING); don't deep-dive it. On any shared metric, MIDAS is canonical for the metal; neighbors reference.
 
 ---
 
@@ -138,9 +136,9 @@ Durable banded rules here; the live read lives in STATUS with `[src M/D]` + as-o
 
 *Conjunction triggers (LIQUID): fire on `A AND B` (e.g. copper −20% AND LME inventory +100% = confirmed demand collapse, not a positioning wobble). KILL_MEMO for any cascade trigger.*
 
-### Silver / Pt / Pd standalone bands — ADOPTED, LIVE-BUT-UNSCORED (WQ-352, Will-ruled 2026-10-01 21:40 ET, verbatim *"all with your recs"*, PROME rec = MIDAS's §A4 amendment)
+### Silver / Pt / Pd standalone bands — ADOPTED and SCORED (WQ-352 ruled 2026-10-01 21:40 ET; WQ-368 CROSSING approved 2026-10-12; unscored floor ended 2026-11-01 21:40 ET)
 
-**The letter in Will's own grant:** *"adopt the bands but leave them unscored for one month: they print a level, and it does not enter the composite until a line is crossed on data that arrives after approval."* **No score moves from the ruling.** M2 stays `1 ⚪ BAND-BLIND` and I2 stays `2 🟡` on the composite; silver's would-be 1 → 3 move is **held back by rule**, and the composite 8/20 reflects that. The three legs below print a level on every close from 2026-10-01 forward; a score enters the composite only when a line is first crossed on a close **dated after 2026-10-01 21:40 ET**. On no-roll ETF closes (SLV / PPLT / PALL); no line was re-fitted on 9/30 (ADDENDUM A2); the lines are **DESIGN-FIXED, not TIME-FIXED** — fitted on history that includes the 2026 collapse they are meant to catch (§5 limit, WQ-H4). Draft of record: `analysis/2026-09-25_silver-pgm-bands-DRAFT.md`.
+A leg enters the composite only with a qualifying crossing on a close **dated after 2026-10-01 21:40 ET**; the calendar alone does not promote pre-approval levels. State legs use their current level and do not latch a recovered score. Current scores live in STATUS. Rulings: `analysis/2026-10-12_WQ-368-CROSSING-APPROVAL.md`. On no-roll ETF closes (SLV / PPLT / PALL); no line was re-fitted on 9/30 (ADDENDUM A2); the lines are **DESIGN-FIXED, not TIME-FIXED** — fitted on history that includes the 2026 collapse they are meant to catch (§5 limit, WQ-H4). Draft of record: `analysis/2026-09-25_silver-pgm-bands-DRAFT.md`.
 
 | Metal | Band | Leg T — d200 below (state) | Leg C — dd252 below (event, 21-session decay) | Leg S — d200 above (state, upside) |
 |---|---|---|---|---|
@@ -158,12 +156,6 @@ Durable banded rules here; the live read lives in STATUS with `[src M/D]` + as-o
 - **Crash leg mechanics:** scores for 21 sessions after first crossing a level on post-approval data, then decays one level per 21 sessions unless a deeper level fires.
 - **Shared-root rule:** when M2 and I2 bands fire within 15 sessions of each other, note *"one root"* and set the composite's shared-root flag; it is not a second independent signal (SLV–PPLT 0.82, PPLT–PALL 0.82 last 120 sessions).
 - **Positioning (COT) is context only, NOT a band** — Pt/Pd are regime-shifted since 2022; carry as a context sub-vector until a regime-aware design is base-rated.
-
-**Unscored window (Will-ruled):** 2026-10-01 21:40 ET → **2026-11-01 21:40 ET**. During the window, every leg prints its level in STATUS and NEXUS_BRIEF, scored **as if** the bands were live, so the counterfactual is visible; **the actual composite does not move**. If no line is crossed on post-approval data by the window end, the bands **remain unscored** until a crossing arrives (CROSSING reading, below).
-
-**Day-31 reading — CROSSING APPROVED October 12, 2026 (WQ-368):** Will replied *"Okay approved go ahead"* to MIDAS's sit-rep recommending CROSSING. Authority/disposition: `analysis/2026-10-12_WQ-368-CROSSING-APPROVAL.md`. The operative rule remains: after the November 1 21:40 ET unscored floor, a leg may enter the composite only with a qualifying crossing on data after October 1 21:40 ET. The calendar alone does not promote pre-approval levels. State legs use their current level; prior crossings do not latch a recovered trend score. No numerical band or actual score changed. PROME owns recording the approval on the shared queue row; the old CROSSING/CALENDAR question is resolved on MIDAS's approved recommendation.
-
-**Historical September 30 example — superseded by STATUS's dated October 9 crossing read:** at 9/30, Silver `3 🟠` (Leg T −17.3%; Leg C decayed), Platinum `2 🟡` (Leg T −12.9%; Leg C decayed), Palladium `2 🟡` (Leg T −19.0%, **1.0pt from orange**; Leg C decayed). The 9/30 trend crossings happened on **pre-approval** data (SLV first crossed −12% on 6/24; PALL −12% on 6/3; PPLT −10% on ~6/23 — ADDENDUM A1/A2), so **nothing scores yet.** A post-approval close that first breaches a drafted level (e.g. SLV through −20% on Leg T, or PALL through −20% on Leg T) is the first scoring event.
 
 ---
 
@@ -191,19 +183,18 @@ Real-rate divergence, copper inflections, and GSR moves resolve against a fixed 
 | PGM supply disruption (SA/Russia) | HAWK (geopol) + HENRY (auto/industrial) | 🟠 |
 | Cross-agent synthesis (every closeout) | NEXUS_BRIEF writeback | curated |
 
-Route to the **domain owner**, not the transmission-adjacent agent. Outbox = crisis-only (🔴 async); NEXUS_BRIEF = curated sync every closeout.
+Route to the **domain owner**, not the transmission-adjacent agent. NEXUS_BRIEF = curated sync every closeout.
 
 ## STANDING DISCIPLINES
 
 - **Mechanism-vs-thermometer (MARCO):** the debasement *mechanism* (fiscal trajectory + CB buying) is high-confidence; the daily gold *price* is a confounded *thermometer* (positioning, USD, real-rate noise). The thesis survives a noisy tape.
 - **EXPECTED_SIGNALS (MARCO):** if the debasement thesis holds, gold should hold/rise even as real yields rise, CB buying should persist, and ETF flows should turn — their absence is data. If the growth-worry thesis holds, copper down + LME inventory up should co-appear.
-- **Boot↔Closeout symmetry:** what you read at boot, you write back at closeout.
 
 ---
 
 ## MAIL / MESSAGING
 
-Flat-folder model: `inbox/` (inbound), `inbox/processed/` (integrated), `outbox/` (outbound, one `.md` per signal). *(HERMES deprecated — write packets directly to the target's `inbox/`.)*
+`inbox/` (inbound), `inbox/processed/` (integrated). **Routing, one line:** domain signals and news go via WALTER; send your own analysis, answer or threshold fire directly as a packet into the named recipient's `inbox/` (WQ-508 R0 A), committed by you (root carve-out ①); `outbox/` holds only the sender's optional copy.
 
 Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2–3 sentences) / Source / Priority 🔴🟠🟡.
 
@@ -212,14 +203,14 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 ## GIT PROTOCOL (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 
 - Pathspec: `AGENTS/MIDAS/` — path-scoped commits only, run from repo root.
-- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
+- Auto-push at closeout via `scripts/safe-push.sh`; non-ff recovery follows root session-end step 3, never force.
 - **Note:** `metals_watch.py` (built 2026-07-12, live) imports the shared FORGE client (`FORGE/tools/market-data/fetch.py`) by self-location — don't fork it; if you extend `fetch.py`, that's a FORGE edit → flag to PROME.
 
 ---
 
 ## Metal folders and filing policy
 
-Will requested metal buckets on October 20, 2026. Start navigation at `README.md`: `gold/`, `silver/`, `platinum/`, `palladium/`, `copper/`, and `shared/` for multi-metal material. Each metal's `README.md` indexes its existing evidence. Put new single-metal reports in `<metal>/research/` and captures/calculations in `<metal>/sources/YYYY-MM-DD_topic/`; put inseparable shared work in `shared/` and link it from each relevant metal. Update `METALS_CATALOG.tsv` and the topic index when adding research or a source bundle. Existing dated artifact paths remain canonical; do not move frozen references or duplicate shared datasets. Desk state, ledgers and scripts keep their current homes. These indexes are on-demand navigation, not added whole-file boot reads or separate live state. Each metal now has a generated `KB.tsv` view; `shared/KB.tsv` covers multi-metal rows and desk-only records. `workbook/KB.tsv` remains the permanent authority. Classify every new KB ID in `KB_METALS.tsv`, then run `refresh_metal_kbs.py --refresh`. Never edit generated views directly. Boot leg 1 runs `--check` against source content and tags; missing/stale outputs require REVIEW and invalid/unclassified inputs fail. See `README.md` for the workflow; views are on-demand, not mandatory whole-file boot reads.
+Will requested metal buckets on October 20, 2026. Start navigation at `README.md`: `gold/`, `silver/`, `platinum/`, `palladium/`, `copper/`, and `shared/` for multi-metal material. Each metal's `README.md` indexes its existing evidence. Put new single-metal reports in `<metal>/research/` and captures/calculations in `<metal>/sources/YYYY-MM-DD_topic/`; put inseparable shared work in `shared/` and link it from each relevant metal. Update `METALS_CATALOG.tsv` and the topic index when adding research or a source bundle. Existing dated artifact paths remain canonical; do not move frozen references or duplicate shared datasets. Desk state, ledgers and scripts keep their current homes. Each metal now has a generated `KB.tsv` view; `shared/KB.tsv` covers multi-metal rows and desk-only records. `workbook/KB.tsv` remains the permanent authority. Classify every new KB ID in `KB_METALS.tsv`, then run `refresh_metal_kbs.py --refresh`. Never edit generated views directly. Boot leg 1 runs `--check` against source content and tags; missing/stale outputs require REVIEW and invalid/unclassified inputs fail. See `README.md` for the workflow; views are on-demand, not mandatory whole-file boot reads.
 
 ## FILES
 
