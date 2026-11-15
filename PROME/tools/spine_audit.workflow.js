@@ -13,7 +13,7 @@
 // (checked at boot step 8 / closeout Chunk 3). Update the stamp after each run.
 // OUTPUT: consolidated per-file verdicts; PROME applies fixes same-session
 // (pathspec commits; shared docs Will-gated) and re-stamps STATUS.
-// COST: ~9 agents (8 paired + 1 anchor), roughly 1/4 of the 7/1 verify round.
+// COST: ~10 agents (9 paired + 1 anchor), roughly 1/4 of the 7/1 verify round.
 //
 // FIX-ROUND GUIDANCE (added 8/16, audit-#9 process review, Will-approved): prefer
 // DELETE-AND-POINT over annotate-and-accrete. Dated correction parentheticals are
@@ -46,7 +46,7 @@
 export const meta = {
   name: 'spine-audit',
   description: 'Weekly reconciliation of PROME boot-read/protocol docs against canon anchors',
-  phases: [{ title: 'Audit', detail: '8 paired readers x 2 spine files + 1 DOCKET anchor sampler vs canon anchors' }],
+  phases: [{ title: 'Audit', detail: '9 paired readers x 2 spine files + 1 DOCKET anchor sampler vs canon anchors' }],
 }
 
 // args must be a JSON OBJECT ({ today: "YYYY-MM-DD", repo?: "/abs/path" }). The

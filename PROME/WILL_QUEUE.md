@@ -52,6 +52,7 @@
 
 | # | Item | Type | Needed by | Since | PROME rec | Notes |
 |---|---|---|---|---|---|---|
+| 687 | **Your hands, laptop only, no hurry: install the GitHub command-line token and the CourtListener token on the laptop.** The check on Sun 11/15 found the laptop's `gh` command token invalid (401) and no CourtListener token file. Pushing and pulling still work on the laptop, because the stored git credential is valid. What does not work there: the `gh` command, and DEWEY's court-docket search if a desk runs it on the laptop. | HANDS | — | 2026-11-15 | Do it the next time the thumb drive and the laptop are together: `gh auth login --with-token` from the token file, and copy the CourtListener token to `~/.config/courtlistener/token`. Nothing waits on it. | Opened at the 11/15 closeout because `PROME/MACHINE_LOCAL.md`'s laptop check said to open a row if the check failed (ARGUS 11/15). Follows row 31, closed 11/13 on Will's word that the laptop token was already fixed; that word was not confirmed by the check. No prompt owed (parked, his hands). |
 
 
 
