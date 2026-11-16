@@ -677,10 +677,19 @@ def _board_action_ids(board_dir, desk="TERRY"):
         # back 19 against PROME's 20 and the difference was chased instead of shrugged
         # off (the one that differed: SIG-W-20260820-003, `id:`-form).
         # `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`
-        sid = _re.search(r"^(?:signal_id|id):\s*(SIG-W-\d{8}-\d{3})", head, _re.M)
+        # ⚠️ 2026-11-16: WALTER's front matter QUOTES its values since about 10/20
+        # (`date: "2026-11-13"`, 500 files on 11/16). The unquoted-only date pattern
+        # dropped every one SILENTLY (no date => neither counted nor skipped), so this
+        # gate read PASS over three unlogged signals PROME's census caught. Optional
+        # quote accepted; a found id with no parseable date is now SKIPPED, surfaced.
+        sid = _re.search(r"^(?:signal_id|id):\s*[\"']?(SIG-W-\d{8}-\d{3})", head, _re.M)
         if not sid:                       # last resort: the filename itself
             sid = _re.search(r"(SIG-W-\d{8}-\d{3})", f.name)
-        d = _re.search(r"^date:\s*(\d{4})-(\d{2})-(\d{2})", head, _re.M)
+        d = _re.search(r"^date:\s*[\"']?(\d{4})-(\d{2})-(\d{2})", head, _re.M)
+        if not d:                         # 5 live files carry only `timestamp:` (UTC date)
+            d = _re.search(r"^timestamp:\s*[\"']?(\d{4})-(\d{2})-(\d{2})", head, _re.M)
+        if sid and not d:
+            skipped.append(f.name)
         if sid and d:
             # ⚠️ ONE MALFORMED FILE MUST NOT KILL THE WHOLE SCAN. Found 2026-09-11 when
             # a test fixture carried `date: 2026-05-00` and the ValueError propagated
@@ -752,6 +761,8 @@ _BOARD_FM_CASES = [
     ("---\nsignal_id: SIG-W-20260505-001\ndate: 2026-05-05\nto: [TERRYX]\n", False),
     # the 34-file early-April schema: no routing line at all -> not addressed
     ("---\nsignal_id: SIG-W-20260419-014\ndate: 2026-04-19\nprecedence: PRIORITY\nsource: WALTER\n", False),
+    # the quoted form WALTER writes since about 10/20 (2026-11-16 fail-open, PROME census)
+    ("---\nsignal_id: \"SIG-W-20261113-002\"\ndate: \"2026-11-13\"\naction: [\"RED\", \"TERRY\"]\n", True),
     # The most complex shape that is actually LIVE — 125 files carry an em-dash
     # annotation INSIDE the parens. The paren-strip already covers these, but they
     # are pinned because "already covered" is a claim, not a test.
