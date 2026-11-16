@@ -3,7 +3,7 @@
 **Status:** 🟡 Large banks: Q3 read unchanged (deposit repricing shared, CRE mostly recognition, stress at PNC office and possibly Goldman CRE, Goldman's $368M unattributed); desk premise test (R0) 11/16 found 0 judgments moved at REGINALD or BROCK, dormancy recommended to Will via PROME; 9/30 re-cut puts HBAN over the $250B Category III line (DERIVED)
 **Domain:** 16 US Category I-III banks as REGINALD's comparison group (Q1 industry-wide vs regional-only) and large-lender NDFI transmission (Q2, one figure with BROCK); large-bank consequence of CYPHER's cyber events
 **Recent thesis pivot:** no analytical pivot; desk-level: R0 0 cites (KB-GIB-067) → dormancy recommendation pending Will. Re-cut 11/16 on the rule's basis (quarterly average assets, 12 CFR 252.2): HBAN about $260-264B over $250B, USB about $691-694B under $700B, FITB Category III (KB-GIB-065)
-**As of:** 2026-11-16 13:05 ET | STATUS commit: `20c7c2a648`
+**As of:** 2026-11-16 13:05 ET | STATUS commit: `e0d6f6a5cd`
 
 ---
 
