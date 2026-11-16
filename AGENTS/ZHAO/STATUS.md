@@ -13,7 +13,7 @@
 
 ---
 
-## ▶️ RESUME NOTES (2026-11-16, PROME prome-6f; HOLDING open on PROME's instruction, not closed out)
+## ▶️ RESUME NOTES (2026-11-16, PROME prome-6f; CLOSED OUT 2026-11-16 14:17 ET on PROME's ask; packet consumed and filed by PROME, KB finding withdrawn by PROME, READS row on DOCKET L1138 for PROME to add. Next wake: Wed 11/18, September TIC + ZHA-22 + BIS re-check)
 
 - ✅ **Done 11/16:** read-cap finding + charter fix (KB-269) · inbox 7/7 (KB-277; DAEDALUS WQ-678 B: M27, M32 applied, rest deferred) · October credit and activity graded (KB-270, 271) · NFRA re-dated (KB-272) · Trump–Xi 11/19 registered (KB-273) · combo members (KB-274 to 276). Memo `PROME/inbox/2026-11-16_from-ZHAO_examination-items.md`.
 - **Still owed:** V5b rescore on the October cluster (no written letter yet) · household-loan split and 70-city prices · NEXT ACTIONS 12 (VX row for the Chinese clock) · Vector 1 rescore question at September TIC (11/18).
