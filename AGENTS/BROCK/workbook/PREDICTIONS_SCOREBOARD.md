@@ -1,16 +1,18 @@
 # BROCK Predictions Scoreboard
 
-**Updated:** 2026-10-30 17:16 ET — RE-SCORED on all 15 resolved predictions (DAEDALUS profile refresh item 2; recomputed by BROCK from the two ledgers, reproducing the 7/09 n=10 figures exactly). **The 7/09 calibration read below is SUPERSEDED: its sign has flipped.** Resolved rows through 7/09 live in `PREDICTIONS_ARCHIVE.tsv`; later resolutions (BRK-02, 10, 22, 27, 30) stay in place in `PREDICTIONS.tsv` (the archive move is retired, not owed). Update this file at every resolution (closeout 7a).
+**Updated:** 2026-11-16 10:17 ET — RE-SCORED on BRK-11 RESOLVED-TRUE (n=16; recomputed by BROCK from the per-row Brier terms of both ledgers, reproducing the 10/30 n=15 sums 2.160 + 1.655 exactly). Prior header (10/30): RE-SCORED on all 15 resolved predictions (DAEDALUS profile refresh item 2). **The 7/09 calibration read below is SUPERSEDED: its sign has flipped.** Resolved rows through 7/09 live in `PREDICTIONS_ARCHIVE.tsv`; later resolutions (BRK-02, 10, 11, 22, 27, 30) stay in place in `PREDICTIONS.tsv` (the archive move is retired, not owed). Update this file at every resolution (closeout 7a).
 
-## SCORE — CURRENT (n=15, 2026-10-30)
+## SCORE — CURRENT (n=16, 2026-11-16)
 
 | Set | Came true | Brier (mean) | Baseline |
 |---|---|---|---|
-| **All resolved (n=15)** | **8 / 15 = 53%** | **0.254** | 0.25 (coin-flip) |
+| **All resolved (n=16)** | **9 / 16 = 56%** | **0.251** | 0.25 (coin-flip) |
 | Through 7/09 (n=10) | 7 / 10 = 70% | 0.216 | 0.25 |
-| Since 7/09 (n=5) | 1 / 5 = 20% | 0.331 | 0.25 |
+| Since 7/09 (n=6) | 2 / 6 = 33% | 0.310 | 0.25 |
 
-**Since 7/09:** BRK-27 FALSE-on-letter (60%) · BRK-30 TRUE (65%, calibration ≈0, LESSONS #32) · BRK-02 FALSE (75%) · BRK-22 FALSE (60%) · BRK-10 FALSE (50%). All four misses were bearish calls at ≥50%.
+**Since 7/09:** BRK-27 FALSE-on-letter (60%) · BRK-30 TRUE (65%, calibration ≈0, LESSONS #32) · BRK-02 FALSE (75%) · BRK-22 FALSE (60%) · BRK-10 FALSE (50%) · **BRK-11 TRUE (55%, graded 11/16; calibration ≈0: the condition PRE-EXISTED the forecast — ICMB 149.5% at 12/31/2025, public 3/31/2026; KB-BRK-493/494, LESSONS #44).** All four misses were bearish calls at ≥50%.
+
+**What the n=16 move means:** the overall Brier goes 0.254 → 0.251 on a hit that carries no forecasting skill. **Read it as unchanged.** Both TRUEs since 7/09 were already true when registered, so the honest since-7/09 skill record is 0 of 4 on calls that were live when made.
 
 **Current calibration read:** overall Brier is now slightly WORSE than a coin flip. The 7/09 advice to "lean into" structural bear calls and not anchor them low (CALIBRATION READ first bullet, TAKEAWAYS #1) is **WITHDRAWN**: the later sample went the other way on exactly those calls. n=15 is still small; the honest read is "no demonstrated edge on dated bear calls", and new bearish predictions at ≥60% need a named instrument and an inversion test at registration (STANDING TRAPS 7). BRK-06 PARTIAL is excluded from both counts.
 
