@@ -3,6 +3,10 @@
 
 Metadata-only inventory; explicit local RPC; durable no-auto-retry doorbells;
 cooperative capacity reservations. CLI inventory never starts a Codex daemon.
+
+The Codex app-server control socket speaks WebSocket over a Unix socket; WsRpc
+reads it, read-only, and needs the repository .venv (websockets). Rpc.unix keeps
+the newline-JSON form. Loaded threads on one server are never an absent-desk verdict.
 """
 from __future__ import annotations
 
@@ -28,6 +32,16 @@ def now():
 
 class BridgeError(RuntimeError):
     pass
+
+
+class BridgeUnavailable(BridgeError):
+    """A local prerequisite is missing; the message is ours and safe to print."""
+
+
+MAX_FRAME = 4_000_000
+# The only traffic the WebSocket transport may originate (DOCKET L907: read-only).
+READ_ONLY_METHODS = frozenset({"initialize", "thread/loaded/list", "thread/read"})
+READ_ONLY_NOTIFICATIONS = frozenset({"initialized"})
 
 
 class Rpc:
@@ -76,7 +90,7 @@ class Rpc:
     def receive(self, timeout=30):
         end = time.monotonic() + timeout
         while b"\n" not in self.buffer:
-            if len(self.buffer) > 4_000_000:
+            if len(self.buffer) > MAX_FRAME:
                 raise BridgeError("Oversized RPC frame")
             left = end - time.monotonic()
             if left <= 0 or not self.selector.select(left):
@@ -151,6 +165,75 @@ class Rpc:
             except subprocess.TimeoutExpired:
                 self.process.kill()
                 self.process.wait()
+
+
+class WsRpc(Rpc):
+    """WebSocket over a Unix socket (the Codex control socket). Read-only by construction.
+
+    Sends only READ_ONLY_METHODS, the `initialized` notification and error replies to
+    requests the server initiates. Never starts a daemon; never delivers input.
+    """
+
+    read_only = True
+
+    def __init__(self, connection, endpoint):
+        self.connection, self.endpoint = connection, endpoint
+        self.process = None
+        self.events = deque()
+        self.responses = {}
+        self.serial = 0
+
+    @classmethod
+    def unix(cls, path):
+        path = Path(path)
+        if not path.is_absolute():
+            raise BridgeError("An explicit absolute local socket path is required")
+        try:
+            from websockets.sync.client import unix_connect
+        except ImportError as exc:
+            raise BridgeUnavailable(
+                "WebSocket client unavailable in this Python; run with the repository "
+                ".venv/bin/python3 (websockets). Codex coverage UNKNOWN") from exc
+        connection = unix_connect(path=str(path), open_timeout=10, max_size=MAX_FRAME,
+                                  ping_interval=None, close_timeout=2)
+        return cls(connection, "unix+ws://" + str(path))
+
+    def send(self, value):
+        if "method" in value and "id" in value:
+            allowed = value["method"] in READ_ONLY_METHODS
+        elif "method" in value:
+            allowed = value["method"] in READ_ONLY_NOTIFICATIONS
+        else:  # a reply to a server-initiated request: a refusal only, never a result
+            allowed = "id" in value and "error" in value and "result" not in value
+        if not allowed:
+            raise BridgeError("Read-only transport refuses to send this message")
+        self.connection.send(json.dumps(value, separators=(",", ":")))
+
+    def receive(self, timeout=30):
+        from websockets.exceptions import ConnectionClosed
+        try:
+            message = self.connection.recv(timeout=max(0, timeout))
+        except TimeoutError:
+            raise TimeoutError("RPC response deadline; sent request outcome UNKNOWN") from None
+        except ConnectionClosed as exc:
+            raise BridgeError("RPC disconnected; sent request outcome UNKNOWN") from exc
+        if not isinstance(message, str):
+            raise BridgeError("Binary RPC frame")
+        if len(message) > MAX_FRAME:
+            raise BridgeError("Oversized RPC frame")
+        try:
+            value = json.loads(message)
+        except ValueError as exc:
+            raise BridgeError("Malformed RPC frame") from exc
+        if not isinstance(value, dict):
+            raise BridgeError("RPC frame is not an object")
+        return value
+
+    def close(self):
+        try:
+            self.connection.close()
+        except Exception:  # noqa: BLE001 - closing an already-broken connection changes nothing
+            pass
 
 
 def local_context(proc_root=Path("/proc")):
@@ -284,6 +367,8 @@ class Journal:
 
 
 def doorbell(rpc, journal, envelope):
+    if getattr(rpc, "read_only", False):
+        raise BridgeError("Read-only transport cannot deliver a doorbell")
     required = ("message_id", "task_id", "sender", "thread_id", "cwd", "artifact", "mode")
     if any(not envelope.get(k) for k in required) or envelope["sender"] != "PROME":
         raise BridgeError("Explicit PROME peer envelope required")
@@ -397,22 +482,32 @@ def inventory():
     return result
 
 
+def codex_observation(socket_path, transport="websocket"):
+    """Read-only loaded-thread inventory of one existing app server, or UNKNOWN. Never raises."""
+    rpc = None
+    try:
+        rpc = (WsRpc if transport == "websocket" else Rpc).unix(socket_path)
+        rpc.initialize()
+        return codex_inventory(rpc)
+    except BridgeUnavailable as exc:
+        return {"state": "UNKNOWN", "error": type(exc).__name__, "reason": str(exc)}
+    except Exception as exc:  # noqa: BLE001 - every failure is UNKNOWN, never a partial list
+        return {"state": "UNKNOWN", "error": type(exc).__name__}
+    finally:
+        if rpc:
+            rpc.close()
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--codex-socket", help="Optional explicit existing local socket; never starts a daemon")
+    parser.add_argument("--codex-transport", choices=("websocket", "jsonl"), default="websocket",
+                        help="websocket: the Codex control socket (read-only; needs the repository .venv). "
+                             "jsonl: the earlier newline-JSON form")
     args = parser.parse_args()
     result = inventory()
     if args.codex_socket:
-        rpc = None
-        try:
-            rpc = Rpc.unix(args.codex_socket)
-            rpc.initialize()
-            result["codex"] = codex_inventory(rpc)
-        except Exception as exc:
-            result["codex"] = {"state": "UNKNOWN", "error": type(exc).__name__}
-        finally:
-            if rpc:
-                rpc.close()
+        result["codex"] = codex_observation(args.codex_socket, args.codex_transport)
     else:
         result["codex"] = {"state": "UNKNOWN", "reason": "No explicit app-server endpoint supplied"}
     print(json.dumps(result, indent=2))
