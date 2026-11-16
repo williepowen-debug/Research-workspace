@@ -1,0 +1,15 @@
+HTTP/2 200 
+content-type: application/pdf
+content-length: 195834
+pragma: no-cache
+request-context: appId=cid-v1:d281620b-6b44-4d2e-86f2-662eb5529a0e
+cache-control: no-cache, no-store
+expires: Mon, 16 Nov 2026 15:19:34 GMT
+date: Mon, 16 Nov 2026 15:19:34 GMT
+server-timing: cdn-cache; desc=HIT
+server-timing: edge; dur=60
+server-timing: origin; dur=0
+alt-svc: h3=":443"; ma=93600
+strict-transport-security: max-age=31536000 ; includeSubDomains
+server-timing: ak_p; desc="1794842374089_389152655_378672956_5931_17564_9_35_15";dur=1
+

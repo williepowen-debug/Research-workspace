@@ -1,0 +1,100 @@
+{
+  "added_month": "2026-10",
+  "cass_ship_oct26": 1.056,
+  "cass_ship_oct25": 0.997,
+  "cass_yoy_pct": 5.917753259779346,
+  "freight_down": false,
+  "hy_oct_mean_pct": 3.222272727272727,
+  "hy_trailing_3m_bp": 47.8794466403162,
+  "cass_revision_check": {
+    "months_compared": 35,
+    "max_abs_yoy_diff_pp": 4.995754920855688e-10
+  },
+  "filled_forward_windows": [],
+  "results": [
+    {
+      "window": "hy_change_3m_bp",
+      "freight": "freight_down",
+      "cut_bp": 0,
+      "count": 18,
+      "den": 30
+    },
+    {
+      "window": "hy_change_3m_bp",
+      "freight": "freight_down",
+      "cut_bp": 25,
+      "count": 26,
+      "den": 30
+    },
+    {
+      "window": "hy_change_3m_bp",
+      "freight": "freight_down",
+      "cut_bp": 50,
+      "count": 28,
+      "den": 30
+    },
+    {
+      "window": "hy_change_3m_bp",
+      "freight": "three_down",
+      "cut_bp": 0,
+      "count": 18,
+      "den": 30
+    },
+    {
+      "window": "hy_change_3m_bp",
+      "freight": "three_down",
+      "cut_bp": 25,
+      "count": 26,
+      "den": 30
+    },
+    {
+      "window": "hy_change_3m_bp",
+      "freight": "three_down",
+      "cut_bp": 50,
+      "count": 28,
+      "den": 30
+    },
+    {
+      "window": "hy_forward_3m_bp",
+      "freight": "freight_down",
+      "cut_bp": 0,
+      "count": 19,
+      "den": 33
+    },
+    {
+      "window": "hy_forward_3m_bp",
+      "freight": "freight_down",
+      "cut_bp": 25,
+      "count": 28,
+      "den": 33
+    },
+    {
+      "window": "hy_forward_3m_bp",
+      "freight": "freight_down",
+      "cut_bp": 50,
+      "count": 31,
+      "den": 33
+    },
+    {
+      "window": "hy_forward_3m_bp",
+      "freight": "three_down",
+      "cut_bp": 0,
+      "count": 19,
+      "den": 33
+    },
+    {
+      "window": "hy_forward_3m_bp",
+      "freight": "three_down",
+      "cut_bp": 25,
+      "count": 28,
+      "den": 33
+    },
+    {
+      "window": "hy_forward_3m_bp",
+      "freight": "three_down",
+      "cut_bp": 50,
+      "count": 31,
+      "den": 33
+    }
+  ]
+}
