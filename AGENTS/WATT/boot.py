@@ -15,6 +15,11 @@ Boot step 4 in CLAUDE.md. Three legs:
   3. predictions-due  — workbook/PREDICTIONS.tsv rows past their resolve date
                         still marked OPEN/ACTIVE.
 
+  1b. tape_scan.py   — PJM-RTO 5-min tape from the STATUS tape cutoff to now
+                        (added 2026-11-16, L-59): finds P1 price-limb runs in
+                        days the desk did not run. rc 0 quiet / 1 REVIEW /
+                        2 UNKNOWN (cutoff unreadable, API refused, span unread).
+
 Combined exit: 0 = all quiet · 1 = something needs REVIEW (emergency posting,
 stale ledger, or a prediction due) · 2 = a leg failed to run (never assume quiet).
 """
@@ -28,6 +33,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 POWER_WATCH = HERE / "power_watch.py"
+TAPE_SCAN = HERE / "tape_scan.py"
 STALENESS = ROOT / "scripts" / "ledger_staleness.py"
 PREDICTIONS = HERE / "workbook" / "PREDICTIONS.tsv"
 
@@ -226,7 +232,7 @@ def status_byte_budget():
 
 def main():
     print("=" * 72)
-    print("  WATT BOOT — power_watch · ledger staleness · predictions-due")
+    print("  WATT BOOT — power_watch · tape scan · ledger staleness · read cap · predictions-due")
     print("=" * 72)
     rcs = []
 
@@ -235,6 +241,14 @@ def main():
     # cases it knows about; the marker test catches anything it warns about
     # outside that contract. DAEDALUS SFG sweep §8 rule 5.
     rcs.append(("power_watch", run_rc_and_marker([str(POWER_WATCH)])))
+
+    print("\n--- 1b. tape scan since the STATUS tape cutoff (L-59) ---")
+    # power_watch reads only today. This leg reads every 5-min print since the
+    # last interval this desk read, so a fire on a day WATT was not running is
+    # found at the next boot (10/27 fire, seen only 10/29). 1-2 DM2 calls; with
+    # power_watch's 2 the boot stays <= 4 of the 6/min limit. Acceptance:
+    # proposals/2026-11-16_TAPE_SCAN_ACCEPTANCE.md.
+    rcs.append(("tape_scan", run_rc_and_marker([str(TAPE_SCAN)])))
 
     print("\n--- 2. ledger staleness (workbook + TRADE.md vs STATUS) ---")
     # --days 7, NOT the shared script's 30-day default. That default is tuned for

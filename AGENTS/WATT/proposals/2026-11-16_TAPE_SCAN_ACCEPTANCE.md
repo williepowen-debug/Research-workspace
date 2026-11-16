@@ -1,0 +1,29 @@
+# Tape scan since the STATUS cutoff: acceptance conditions
+
+**Written:** 2026-11-16 14:20 EST, before any code edit. **Owner:** WATT. **Task:** PROME assignment on Will's word 2026-11-16 13:45 ET (`PROME/ideas/list.tsv` row of 2026-10-29). **Lesson closed:** L-59.
+
+## The gap, in its own terms
+
+On October 29 the boot printed "all quiet" (max $81.18 that day) while the 5-minute tape held a P1 RED-letter fire on October 27, 18:50 to 19:00 EPT ($2,026.73 / $1,970.77 / $2,297.21 on the unverified feed; demand 97.9% and 99.8% of the trailing 24-hour peak). WATT was not running from October 24 to 28. `power_watch.py` reads only the current EPT day, so the fire was found two days late, by the weekly coverage pass. The boot was right about its own day and silent about the days it never read.
+
+## What must be true (acceptance conditions)
+
+| # | Condition | How it is shown |
+|---|---|---|
+| A1 | **Ordinary case.** At boot, the scan reads the PJM-RTO 5-minute LMP tape (Data Miner 2, pnode 1) from the STATUS tape cutoff to the latest published print, in **one** API call when the gap sits inside the unverified feed's retention (about 15 days, L-44). | Replay 10/24 to 10/28; live run today |
+| A2 | **Finds the fires the existing letter defines, and nothing new.** It finds every run of 2 or more consecutive 5-minute prints at or above $1,000 (the P1 price limb, THESIS.md and STATUS EXIT row P1). For each run it computes the demand limb exactly as `power_watch.py` does: EIA-930 hourly demand divided by the peak of the 24 hours before that hour, rounded to 1 decimal, met at 97.0% or more. Because the 10/29 grade tested both hour-stamp conventions, the scan reports both. The posting limb and EEA2-alone are **not read**: the postings board shows current postings only, and the scan says so. | Replay finds 10/27 18:50 to 19:00 with the demand limb met |
+| A3 | **No threshold, gate letter, score or prediction moves.** The $1,000 and $500 levels are imported from `power_watch.py` (LMP_RED, LMP_ORANGE), not retyped. The scan only pre-grades: a found run is REVIEW (rc 1), and the desk grades it by the letter. It never writes STATUS, VX or PREDICTIONS. | Diff review: no edit to THRESHOLDS, KILL_MEMO, PREDICTIONS, VX or any level |
+| A4 | **Gap longer than one call can cover.** If the unverified feed does not reach back to the scan start, the scan spends **one** more call on the verified feed (`rt_fivemin_hrl_lmps`, retained at least 49 days, KB-194) for the uncovered span. Whatever neither call covers is printed as an **UNKNOWN span with its dates**, and the scan exits 2. It never reports a span it did not read as quiet. At most 2 DM2 calls per scan; with `power_watch.py`'s 2 calls, a boot spends at most 4 of the 6-per-minute limit. | Replay with cutoff 10/10: head span 10/10 to 10/22 printed UNKNOWN, rc 2, and the 10/27 run still found |
+| A5 | **Cutoff unreadable ⇒ fail loud.** The cutoff comes from exactly one machine-read line in STATUS.md: `**Tape cutoff (machine-read):** YYYY-MM-DDTHH:MM EPT`. If the line is missing or duplicated, cannot be parsed, or lies in the future, the scan makes **no API call**, prints that P1 since the last session is UNKNOWN, and exits 2. It **never** falls back to scanning one day. | Tests: missing line, two lines, garbage, future stamp |
+| A6 | **API refusal or rate limit ⇒ UNKNOWN, never clean.** HTTP errors (401, 429 or any other), timeouts, an empty payload, a key missing on this box, or a payload whose `totalRows` exceeds the rows returned (silent truncation) all print UNKNOWN for the affected span and exit 2. | Tests: 401, 429, truncation; live 401 observed today |
+| A7 | **A fire that began before the cutoff, or is still running.** The scan starts 60 minutes before the cutoff. A run whose first print is the first print read is labelled "BEGAN AT OR BEFORE SCAN START (true start not measured)". A run that includes the latest print is labelled "RUNNING AT LATEST PRINT". Both are REVIEW. | Replays with cutoff 10/27 18:55, and with now 10/27 19:02 |
+| A8 | **Missing 5-minute stamps cannot hide a run.** Two or more consecutive missing stamps are a span that could hold a whole run, so they count as UNKNOWN. A single missing stamp next to a print at or above $1,000 makes that run's status UNKNOWN (REVIEW). A single missing stamp between two prints under $1,000 cannot complete a run, so it is counted and printed, not escalated. The tail is UNKNOWN if the latest print is more than 60 minutes before now. | Test: 18:55 removed from the 10/27 tape |
+| A9 | **What a null result means is printed.** "0 runs" is a claim about the covered span on the feed read, never about postings, EEA declarations or UNKNOWN spans. Unverified prints are an operational read; grades re-read the verified feed (existing practice, KB-192: the feeds disagree interval by interval). | Output text |
+| A10 | **Boot wiring.** `boot.py` runs the scan as its own leg with rc and alert-marker handling; its rc joins the combined verdict (0 quiet, 1 REVIEW, 2 failed or UNKNOWN). | Boot run today |
+
+## Limits stated up front
+
+- Daylight-saving fall-back hour: the scan requests only fields proven in saved captures (`datetime_beginning_ept`, `total_lmp_rt`) and derives UTC from EPT. In the repeated 01:00 to 01:55 hour it cannot tell which duplicate is which; prices could swap between the two hours. A run inside that hour is still found, but its clock time may be off by one hour.
+- The scan does not read posting history or DOE orders. The desk does that by hand for any found run (KILL_MEMO step order unchanged).
+- Tested offline against saved API payloads plus mock failures. The live path cannot be shown working today if DM2 keeps refusing the key (HTTP 401 since 14:12 ET).
+- Not independently verified. PROME arranges a reader only if the change touches a gate or threshold; this build is designed not to.
