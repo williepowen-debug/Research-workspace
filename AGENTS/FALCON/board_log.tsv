@@ -344,3 +344,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-13T12:45:36-05:00	SIG-W-20261112-002	skipped	WALTER	Nvidia CEO exit: outside FALCON domain.
 2026-11-13T12:45:36-05:00	SIG-W-20261112-003	skipped	WALTER	Nvidia correction: outside domain. Receipt COR-20261112-03 NO-OP.
 2026-11-13T12:45:36-05:00	SIG-W-20261112-005	noted	WALTER	Houthi Riyadh-airport claim folds into the 11/12 claim set, CLAIM ONLY (KB-477). Other items outside domain.
+2026-11-16T13:55:12-05:00	SIG-W-20261116-001	acted	WALTER	IMMEDIATE. Bahrain 11/15 ATTEMPT intercepted per Bahrain (KB-484); card's 'US shot down two drones' line is CENTCOM's 11/13 statement, not 11/15 (correction). Friday 11/13 attempt VERIFIED (CENTCOM: 2 drones down, no damage; KB-483). Bab pullback VERIFIED in substance: territorial, override NOT TRIGGERED, leg 2 NOT MET 72.5% lowest (KB-486/487). Rung OUT, marks hold (KB-485). Roosevelt still NOT ESTABLISHED. Iraq smuggling story not read.
+2026-11-16T13:55:12-05:00	SIG-W-20261114-003	noted	WALTER	Trilateral 11/19, Iran 'may' be discussed: not a US-Iran channel; FAL-10 untouched (KB-492).
+2026-11-16T13:55:12-05:00	SIG-W-20261114-004	noted	WALTER	IEA OMR 'Gulf exports recover': BRENT graded 11/14; not a Hormuz reopening (KB-492).
+2026-11-16T13:55:12-05:00	SIG-W-20261114-006	noted	WALTER	Item 12 Trump 'we don't need a deal': President's words, Diplomacy 3 unchanged (KB-492). Other items outside domain.
+2026-11-16T13:55:12-05:00	SIG-W-20261114-007	noted	WALTER	Item 4 France on Houthis: folded into combo:bab-shore-control (KB-491). Other items outside domain.

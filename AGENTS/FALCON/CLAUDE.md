@@ -132,7 +132,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 ### Git (fleet standard — root CLAUDE.md §Git Protocol owns the rules; cite, don't restate)
 
 - Pathspec: `AGENTS/FALCON/` — path-scoped commits only, run from repo root.
-- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
+- Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → root §Git Protocol session-end step 3 (overlap check first); NEVER force.
 - **FALCON-specific:** self-authored recipient inbox packets must be committed by exact path under root Git Protocol carve-out ①. The former untracked-packet instruction is superseded by root canon and Will's explicit committed-handoff instruction (2026-09-16). **Build-phase note:** this scaffold was committed by DAEDALUS per build spec `AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md` §7 (DAEDALUS AUTHORITY — new-agent wiring requires explicit Will/PROME approval, granted 2026-07-12); FALCON's own auto-push regime starts at its first live session.
 
 ---
@@ -273,7 +273,7 @@ Full falsification detail (thesis-kill 7-condition table, scenario downgrade/upg
 | VIX spike trigger (strike, escalation) | HENRY | 🔴 | Direct + HAWK cc |
 | Hormuz physically blocked / Gulf production shutdown | ALL | 🔴 | Direct + HAWK cc |
 | Flight to safety / risk-off event | LIQUID | 🟠 | Via HAWK synthesis |
-| De-escalation (ceasefire, deal) | ALL (profit-taking alert) | 🟠 | Via HAWK synthesis |
+| De-escalation (ceasefire, deal) | ALL | 🟠 | Via HAWK synthesis |
 | Gulf storage crisis / production curtailments | CARL, SAM, LIQUID | 🔴 | Direct + HAWK cc |
 | Routine scenario re-marks, convergence updates | HAWK (synthesis reconciliation) | — | NEXUS_BRIEF write-back (HAWK reads at its boot) |
 
