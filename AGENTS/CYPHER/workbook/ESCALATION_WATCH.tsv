@@ -1,5 +1,5 @@
 # LIVE — Last real data refresh: 2026-11-16 | Staleness sweep: 2026-11-12 | Next: re-check every non-terminal row within 7 days while the wave is open (by 2026-11-19)
-# Cadence: EVENT-DRIVEN | Last re-pull ATTEMPTED: 2026-11-13
+# Cadence: EVENT-DRIVEN | Last re-pull ATTEMPTED: 2026-11-16
 # Nine rows per wave, from DEWEY REQ-008 §5 (AGENTS/DEWEY/output/2026-10-22_cyber-wave-systemic-base-rates.md). States = STATE_VOCABULARY Class 2: ARMED | NOT-FIRED | FIRED | STOOD-DOWN | UNOBSERVABLE | CANNOT-FIRE. Trigger ∈ SCHEDULED | EVENT | MANUAL; Adjudicator ∈ MACHINE | OWNER (Class 2 companions).
 # MACHINE rows are checked by boot.py (row 2 KEV via Watch_Keys; row 4 SEC 8-K Item 1.05). The machine FLAGS; CYPHER sets State. A FIRED row = P1 packet to its Consequence_Owner the same session.
 # WAVE-2026-10 = the PHP2Shell / 'Black October' wave ('Black October' is a social-media label, no official body uses it). Seeded at build by DAEDALUS; RE-VERIFIED by CYPHER 2026-10-22 at its first live session (machine legs re-run live; owner rows read against DEWEY's 10/22 watch-legs report and CYPHER's own primary reads, each named in Source/Notes).
