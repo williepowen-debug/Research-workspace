@@ -73,3 +73,8 @@ Packet `inbox/processed/2026-11-16_from-BROCK_brk11-icmb-coverage-breach-tradeab
 - Shorting BCIC after a 20% drop is a chase.
 - The move happened on 11/12, so the read is late by construction; the delay to today changed nothing.
 - **What would change it:** someone reads the exchange ratio and the closing conditions in the DEF 14A (filed 11/12) and the spread is wide relative to deal risk. Even then, the size that fits $500 is small, and borrow on BCIC is unknown.
+
+## 7. Addendum 10:3x ET — VULCAN's Nvidia items against `IDEA-NVDA-CEOGAP-NOV12`'s do-not-trade line
+
+Packet `inbox/processed/2026-11-16_from-PROME_VULCAN-nvidia-items-against-CEOGAP-do-not-trade-line.md` (VULCAN KB-440 `0ca3e0e9b0`; source WALTER SIG-W-20261114-006 item 2).
+**Reading: LINE NOT MET.** The line needs a filing or official statement that discloses a legal, regulatory or export-control liability tied to the resignation. The Senate summons and the Neal and Wyden inquiries are official but investigative, not a disclosed liability. The FT lawsuit item is a headline about a possibility. Bessent assigns no liability. Nothing official ties any of it to the resignation, whose cause is still unstated. What would meet it, the T1 baseline and the caveat raised for Will at a fire are written on the card. NVDA $159.92 at 10:30 ET (vendor). No condition moved; card NOT-FIRED, NOT approved; fire window 11/18–11/20.
