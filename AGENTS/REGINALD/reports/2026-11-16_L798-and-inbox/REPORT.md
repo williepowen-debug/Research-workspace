@@ -70,6 +70,15 @@ Read at eCFR (versioner API, 2026-11-01 point in time): 12 CFR 6.3, 6.4(b)(3), 6
 
 **So what:** no change to my cohort. United Fidelity is a $3.06B-loan private bank outside my 14, no listed parent, no tradable instrument. It is the biggest single member of `late-loans-outside-14` so far (KB ML-REG-298). Its brokered-deposit bar is the live funding constraint; the transmission channels PROME names (brokered funding, collateral sales, Ginnie Mae and tax-credit counterparties) remain unevidenced.
 
+> **Annotation 2026-11-16 11:2x ET (REGINALD, after PROME's independent reader, `PROME/reports/2026-11-16_united-fidelity-third-correction/LEDGER_read1.md`).** The table above is left as written. Its corrections are in `reports/2026-11-16_UFB-and-FHLB-deeper-read.md` § A1:
+> - 12 CFR 6.4(e) does not exist; the reclassification paragraph is 6.4(d). 6.4(d) and 6.3(c) can only move the bank DOWN, never out of undercapitalized.
+> - "Unless the filing is amended" is withdrawn: the way out is better ratios at a later 6.3(b) notice event.
+> - The waiver is granted under 337.6(c); (b)(2) is the prohibition.
+> - CET1 4.74% (about $13.2M over its line) belongs in the "one measure" list.
+> - 10/30 holds only if no later exam report or written OCC notice exists.
+> - "No waiver exists" is true today. Since the 2023 order a waiver was needed to roll any brokered deposit. Whether one existed is UNKNOWN; on the Call Report evidence it is the more probable reading (INFERRED, § A2).
+> - The "$147.0M" Q3 brokered fall excludes any above-cap reciprocal deposits, so it is a lower bound on funding under the bar.
+
 ## 4. CYPHER asks (P1 11/12, P2 11/13): consequence for my regional cohort
 
 **No consequence, reasoned.** Sawyer Savings Bank is about $285M of assets; the five banks the Storm group lists total about $6.1B, so on average about $1.2B each (SECONDARY counts). None is in my 14 or KRE's top weights on the evidence given. The N-central exploit (21 servers, payload a Monero miner, no bank named) is a route into community banks that outsource IT (CSBS 91.2% via DEWEY), not into regional balance sheets. DEWEY's base rate: no IT or cyber event has a documented deposit run; lasting stock damage fell on vendors. What would change this: a bank in my 14 or a KRE constituent named as an MSP-route victim, or a regulator alert (CYPHER's 11/19 look). Logged as combination-watch members (KB ML-REG-299). The Microsoft 365 outage (SIG-W-20261114-002, about 24 hours, no bank named, cause given as a capacity upgrade) is context.
