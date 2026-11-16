@@ -100,3 +100,17 @@ Packet `inbox/processed/2026-11-16_from-PROME_VULCAN-nvidia-items-against-CEOGAP
 **Live:** HBAN $15.67, −0.95% (vendor, 13:03 EST, intraday); 30-day range 15.10–16.06, mid-range; −0.69% relative to KRE over 30 days.
 
 **Read: NO CARD.** The crossing is size-driven, rule-automatic and anticipated: Fitch cut HBAN's senior rating to BBB+ in September on this basis (GIBBS). Category III costs (liquidity coverage and capital phase-ins) arrive over quarters, not on a date the tape can be timed against. There is no catalyst, no owner direction and no defined trigger. A put entry today would also be a red-day entry (root rule #6). The only thing that would reopen it is REGINALD reading a compliance cost or a capital action large enough to move earnings, with a date.
+
+## 10. Addendum 13:45 EST — WALTER SIG-W-20261116-002 (PRIORITY): NVDA and the S&P break before Tuesday's print: NO CARD
+
+**Doorbell:** walter-5a, 13:4x ET. **Read in full:** `BOARD/SIG-W-20261116-002-*.md` (Bessent's quote via Will's bookmark; Axios and Al Jazeera summaries not opened; FT, CNBC and ABC titles only). Logged `board_log.tsv` (acted).
+
+**Live (vendor, intraday, about 15 minutes delayed for the VIX indexes):** NVDA $155.92 −4.26% · QQQ $662.49 −2.56% · S&P 500 7,419.09 · VIX 23.18 · VIX3M 23.01 (13:30 ET bars) ⇒ **VIX3M/VIX 0.993**.
+
+| Question | Read |
+|---|---|
+| Does Bessent's demand meet `IDEA-NVDA-CEOGAP-NOV12`'s do-not-trade line? | **NO.** The line needs a filing or official statement that DISCLOSES a liability tied to the resignation. A question ("were they pressing these seemingly illicit sales"), a 10-day deadline (about 11/25) and a wish for an outside CEO assign no liability and name no violation. Trump backing Huang (FT title) pulls the other way. ⚠️ Raised for Will at any fire: the ~11/25 deadline sits inside a fill's hold; post-fill liability risk is larger again. Card unchanged, NOT-FIRED, fire window 11/18–11/20 only. |
+| Trade NVDA before the print? | **NO.** The card exists to wait for VULCAN's post-print statement; buying before it is a bet on the release, with a governance shock and a Treasury deadline on top. Puts would be a red-day entry (root rule #6). NVDA is $7.12 above the $148.80 line, which governs only after a fill. |
+| The S&P under 7,500 (HENRY's put wall) | **NO.** No owner direction; a downside entry now is a put on a red day (root rule #6) into the event. HENRY grades the wall and flip at the close. |
+| `IDEA-QQQ-200D-NOV05` | **T1 NOT MET NOW**: VIX3M/VIX 0.993 < 1.00 (was 1.034 at 09:57). The curve inverted as the selloff deepened. Order-time test, so it can re-qualify on a red session through 11/20, still under the $4.90 debit. No order. |
+| `IDEA-HYG-FOLLOW-NOV05` (approved, fired) | Unchanged by this card; void clock 3 of 5 rests on FRED cells, next is 11/16's, published tomorrow. |
