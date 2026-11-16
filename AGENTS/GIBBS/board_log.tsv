@@ -67,3 +67,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T23:03:00Z	SIG-W-20261105-060	noted	INBOX_WALTER	Abrigo already in KB-GIB-034 via CYPHER; Nano Banc is CREED; rest not GIBBS lane.
 2026-11-06T12:36:00Z	SIG-W-20261105-062	noted	INBOX_WALTER	Correction to card 060: KB-GIB-034 wording already correct; COR-20261105-62 receipted NO-OP.
 2026-11-08T17:09:05Z	SIG-W-20261106-004	noted	INBOX_WALTER	LOG: member (6) of new theme combo:ai-datacenter-lending, KB-GIB-053; ING is non-US (HANS); no default, no score change.
+2026-11-16T18:00:00Z	SIG-W-20261111-017	noted	INBOX_WALTER	LOG KB-GIB-063: Citi modified-card 30+ share 18.59% to 19.08%; CARL's figure, context only; no tag moved.
+2026-11-16T18:00:00Z	SIG-W-20261111-020	noted	INBOX_WALTER	LOG KB-GIB-064: Ares GPU-underwriting remark, Semafor GPU loan discounts (no price); combo:ai-datacenter-lending member 7; no bank named.
