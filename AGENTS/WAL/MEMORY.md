@@ -1,4 +1,28 @@
-## Session Notes — current handoff, November 11 2026 (catch-up wake, PROME prome-2b)
+## Session Notes — current handoff, November 16 2026 (PROME prome-6f wake: inbox, due rows, extension funders, read cap)
+
+**⚠️ Open question:** the $99M secured-office credit is still NO-VERDICT, carried to the Q4 call. New today: the one fact suggesting a third party is paying to carry it (the sponsor brought it current at end-June, as relayed in the 10/30 prior) is thin and unrefreshed; the next filing that could show a change is the Q4 print or the FY2026 10-K.
+
+**LAST SESSION (11/16 14:01–~15:00 ET, Claude Code, Opus 5.5, desktop):**
+- Will's word via PROME prome-6f at 13:45 ET: drain the inbox, due rows, "who is paying to extend", read cap. No pull and no push today (GitHub lookups failing); HEAD 2 ahead at boot; foreign PROME/state dirt untouched.
+- Live price 14:02 ET: WAL $73.22 (−2.10%), 4.41% under EV $76.60; KRE $71.90 (−1.15%). No WAL filing since 11/11.
+- Inbox: 8 loose packets drained (7 DEWEY, 1 DAEDALUS). KB-295 (Plaza Continental 11/11–11/16, H1–H11 no move) and KB-296 (DEWEY 003R Q3 bank population, with the United Fidelity caveat). DAEDALUS WQ-678: C13 and C20 applied, the other 8 optional trims declined with reasons. Record: `research/2026-11-16_inbox-drain-and-due-rows.md`.
+- Due rows: **WAL-03 to WAL-07 registered** (forward Q4 predictions, one day late). KB-228 OZK pointer re-read and extended with reason.
+- Extension funders (logging only): `research/2026-11-16_who-pays-to-extend.md`, 8 credits.
+- Read cap: charter split to `CHARTER_REFERENCE.md` (L810 WAL leg); STATUS and MEMORY rotated verbatim to `archive/*_rotation_2026-11-16.md`.
+- Unchanged: v2.5 weights, EV, PT, scores, frozen grades, positions.
+
+**NEXT SESSION:**
+1. **Plaza Continental 11/17 hearing result** (DEWEY reads it; L517 check-by 11/18): apply the H1–H11 sheet to what lands.
+2. **KB expiry backlog:** 97 of 197 ACTIVE rows past Stale_By. Judge row by row, never in bulk.
+3. **Re-pin WAL-03 and WAL-06** when the Q4 print date is announced (expected-event anchors).
+4. **Basel III disclosure** (KB-294, review 11/25): retry or find another route.
+5. **Combination-watch charter line** (`PROME/COMBINATION_WATCH.md` step 3) if PROME or Will clears it.
+6. **Carried:** the evidence-based vector/composite review, the hotel franchise finance read, the mid-December FOMC against KB-289, FINRA 11/14 settlement (publishes ~11/24).
+7. **Rotations done today:** the 11/04 and older handoffs → `archive/MEMORY_rotation_2026-11-16.md`; the 10/19 earnings caveat and the carried proposals (#2–#4, Will's go needed) are there too.
+
+**Will-only dependencies → STATUS § OPERATOR DEPENDENCIES** (unchanged today; none re-asked). Older archives: `archive/MEMORY_rotation_2026-11-16.md` lists them.
+
+## Prior session notes — November 11 2026 (catch-up wake, PROME prome-2b)
 
 **⚠️ Open question:** the $99M secured-office appraisal is still NO-VERDICT, carried to the Q4 call. New since 11/04: how far a hiking Fed goes past the one December hike already in the issuer's Q4 guide (KB-289).
 
@@ -25,116 +49,3 @@
 5. **Basel III disclosure:** retry it or find another route (KB-294, review 11/25).
 6. **Carried:** the evidence-based vector/composite review, the hotel franchise finance read, and the mid-December FOMC result against KB-289.
 
-## Prior session notes — November 4 2026 (Q3 extraction completed)
-
-**⚠️ Open question:** the $99M secured-office appraisal/disposition remains NO-VERDICT, carried to Q4; NDFI borrower/loss and parent mortgage/hedge bridges remain unknown. **Q3 Call Report source/extraction is COMPLETE**, not blocked.
-
-**Latest follow-up — Will requested files and workbook reflect the synthesis qualifications:** updated current STATUS/THESIS/WEAKNESSES/INDEX/report, KB282–287 notes and MI3 comments. June-to-September period only; internal thesis threshold, not regulatory; residual fast-bear 2%; overlapping bank disclosures not separate improvements; unchanged scores/weights are scope preservation, not a fresh full-thesis endorsement. Full reassessment remains owed. No new facts, observations, expiry extensions, score/weight or data-clock changes.
-
-**LAST SESSION:** Will supplied CATO's full Q3 SDF/receipt and directed completion. WAL independently verified full Q2/Q3 source bytes/hash/row count/RSSD/period/unique MDRMs; Q3 matches WALTER's original hash, Q2 matches accepted WAL source. Exact copies/provenance at `sources/ffiec_2026-11-04_verified/`. Extraction reproducer `scripts/ffiec_wal_extract_20261104.py`: 70 approved fields + assets per quarter, 68 Q3 reported + 2 expected semiannual omissions, 2,159 supporting schedule rows, 12 validations. All Q2 fields reproduce accepted extraction. Q3 MI3 **19.8072%** (Q2 21.2042%), below existing 25% threshold; prior kill remains, no new firing. NDFI nonaccrual **$122.497M** nearly flat, unused **$5.900B** (+20.8%); capacity not observed stress. Modifications improve on balance; mortgage bank income up despite sales down; bank CET1 ratio 11.4458% vs 11.5823%. Report `research/2026-11-04_Q3-independent-extraction.md`; KB282–287, MI3 Q3 row, current summaries and evidence-only THESIS/CHANGELOG folded. v2.5 weights/EV/PT/scores, completed grades, positions and resolved predictions unchanged. Earlier failures retained as dated history. Source success does not certify cross-machine token installation or close all WQ-31 tasks.
-
-**NEXT SESSION:**
-1. No remaining Q3 source/extraction work; use the preserved complete originals and extraction. No repeated 10-Q grading or prior prediction reopening. Next quarterly MI3 pull remains the standing assignment.
-2. Other carried work is unchanged: evidence-based vector/composite review, hotel franchise finance read and forward Q4 predictions by 11/15. No broader rotation/research program launched.
-3. NDFI borrower/loss attribution, unused capacity draw evidence, modification cure bridge, parent mortgage/hedge/capital reconciliation and the $99M loan remain separate unknowns. REGINALD owns funding/peers/severity; TERRY owns trade construction, Will approval required.
-
-## Prior session notes — November 4 2026 (earlier source-blocked Call Report attempt)
-
-**⚠️ Open question:** complete Q3 FFIEC source remains unavailable; MI3 and bank-level extraction UNCHECKED. The $99M loan separately remains NO-VERDICT after the completed 10/30 10-Q grade.
-
-**LAST SESSION:** Will requested the existing retrieval/extraction and narrow current-summary repairs, then closeout. WALTER's 11/04 retained-source recovery NOT RECOVERED was read and integrated; no full Q3 WAL source found in existing AGENTS/FORGE inventory. Q3 curl/config and header-stdin returned 500; urllib 403. Q2 and reporting-period controls also 500: no inference of Q3 filing absence. Safe receipts and a 70-field missing-input catalog preserved under `sources/ffiec_2026-11-04/`; 45 distinct selected MDRMs survive, but RCON1766 and 54 of 70 named codes are absent even from those extracts (2 are semiannual, not expected at Q3). No Q3 source/ratio/data row fabricated; MI3 data clock unchanged. Configured desktop token expires 11/05 19:02:19 UTC; PROME's 11/01 renewal receipt applies to the laptop (2027-01-31), desktop installation not established. Current NEXUS labels reconciled against the existing 10/30 grade; historical snapshot identified, frozen records and weights unchanged. Result: `research/2026-11-04_Q3-call-report-result.md`.
-
-**NEXT SESSION:**
-1. Source-blocked remainder: complete durable SDF, period 20260930 / RSSD 3138146, with endpoint/format, timestamp, row count and SHA-256. Restore verified retrieval access or accept another desk's full verified source, then independently extract. WQ-31 already owns the desktop credential condition; no duplicate ask.
-2. Other previously carried work remains separate: vector/composite assessment, hotel read and forward Q4 predictions by 11/15. No broader rotation or research program started.
-
-## Prior session notes — November 4 2026 (startup recovery)
-
-**⚠️ Open question:** the $99M life-science loan remains NO-VERDICT; Q3 Call Report extraction remains UNCHECKED. Latest boot filer-list request: HTTP 500; FFIEC JWT expires 11/05. No ratio inferred.
-
-**LAST SESSION:** Will requested startup, recovery of work/approvals, and a short status only; no unassigned work. Root/local instructions explicitly read. Runtime OpenAI Codex; exact model/session ID UNKNOWN. Shell, Git and Python verified; no verified cross-runtime peer transport/presence. Git pull refused foreign dirty work; fetch succeeded, HEAD 4 ahead / 0 behind at observation; pull/push deferred. Boot checks: 39 expired ACTIVE KB rows, 21 separately awaiting scheduled carriers; MI3 ledger held stale; predictions check silent; corrections rc 0; 0 new drift identities; 2 loose packets queued, no unrowed WALTER-lane signals. No new REGINALD request at channel top. Detail: `reports/2026-11-04_startup-recovery.md`.
-
-**NEXT SESSION:**
-1. Suggested first action: existing Q3 Call Report retrieval, independently parsing a complete durable source with provenance/hash. This startup did not execute the retrieval assignment beyond the required boot availability check.
-2. Existing carried work remains: vector/composite reassessment by evidence, hotel franchise finance read, forward Q4 predictions by 11/15. Current v2.5 weights/EV, frozen records and positions unchanged.
-3. Loose inbox processing, evidence-row review and proposed archive rotations were not started. Operator dependencies remain in STATUS; WQ-31 already registers credential renewal, WQ-553 is closed. No new decision requested.
-
-## Session Notes — current handoff, November 2 2026 (Kimi Code)
-
-**⚠️ Open question:** where the $99M life-science loan went. The Q3 10-Q graded NO-VERDICT; ask management directly at the Q4 call. Q3 Call Report MI3 is separately still ungraded because WAL's direct FFIEC retrieval is unavailable.
-
-**THIS SESSION:**
-- Bounded boot cleanup committed `fdfaee04b`: charter current state now points to THESIS/STATUS; loose inbox and WALTER lanes are distinct; all 11 drift occurrences classified (10 valid history, one KB-provenance error fixed); filing alerts distinguish DETECTED from grading. 25 regression tests pass; drift check has zero new claim identities. The queued DEWEY loose packet remains intentionally untouched.
-- Q3 Call Report source preservation: WALTER's receipt identifies a complete 1,792-row SDF retrieved 11/01 (SHA-256 `2e04cc7b…c60a4`), but no durable copy survives at its `/tmp` path or in the repo. Its selected rows omit RCON1766, and its synthesis is not WAL's extraction. Q3 MI3/NDFI remain UNCHECKED; no ratio or series data row was created. Latest WAL failure receipt `sources/ffiec_2026-11-02/retrieval_20261102T161526805643Z.json`; MI3 data clock unchanged.
-- `research/2026-11-02_Q3-source-preservation-and-bear-review.md` records the minimum acceptable cross-desk provenance, the exact proposed STATUS/MEMORY/CLAUDE archive sections and live obligations (proposal only, not implemented), and the Q3 bear review. Observed adverse evidence is separated from missing evidence. No new queue, checker or cadence.
-- Thesis weights, frozen grades, predictions, positions and historical evidence unchanged.
-
-**NEXT SESSION:**
-1. Retry the existing Q3 FFIEC facsimile assignment, or independently parse a complete durable SDF retrieved by another desk only after its period/RSSD, endpoint, timestamp, row count and SHA-256 verify. Extract RCON2746/RCON1766 and RCONJ454 plus the approved fields; a summary or selected rows alone do not suffice.
-2. Re-judge V1b-magnitude, V3, V4 and composite by evidence; register forward Q4 predictions by 11/15; complete the hotel franchise finance read. These prior approved/carried items were not advanced by the bounded cleanup or synthesis.
-3. The 33 expired KB rows and queued DEWEY loose packet remain visible. Hot-state archive rotations remain proposals only, with live obligations enumerated in the 11/02 research record.
-
-## Prior session notes — October 30 2026 evening (PROME relay)
-
-**⚠️ Open question:** where the $99M life-science loan went. The Q3 10-Q (acc 0001628280-26-068599, 16:38 ET) does not mention it at all, so it graded **NO-VERDICT** (never C). Put it to management directly at the Q4 call: status at 9/30, appraisal received, value vs carrying.
-
-**LAST SESSION (10/30 17:30–17:4x ET, Claude Opus 5.5, Claude Code; PROME `prome-c5` relayed Will's request for the filing):**
-- **Q3 10-Q graded verbatim** → `research/2026-10-30_Q3_10Q_GRADE.md`. $99M NO-VERDICT (F2: Other CRE-NOO nonaccrual 279 → 173, all no-allowance; Level-3 specific ACL 23 → 5; no below-book tell). WAL-01 cross-check PASS (926 + 165 = 1,091) ⇒ **RESOLVED-INVALIDATED final**; WAL-02 **10-Q-confirmed** 0.30%. Coverage 118.4% MET. OREO 22 → 27 (one office property taken, $36M). NDFI 25.7% with $ up ⇒ MIXED. Buyback $92.1M on track. Cantor NARROWED (Q2 "no additional charge-offs" sentence dropped); $64M PCD UNTIED. Hotel O1–O8 logged: **HFF criticized $75M → $185M**, still $0 nonaccrual/charge-offs.
-- **v2.5 re-score applied verbatim** (rule §2 NO-VERDICT row; no §3 override; §4 Tail unchanged): **2 / 12 / 49 / 30 / 7, EV $76.60, PT $52–77.** THESIS/SCENARIOS/CHANGELOG/STATUS/INDEX/WEAKNESSES/NEXUS folded; PREDICTIONS written (PAT-053); KB-277–281; frame §8 filing-clock pin only.
-- **8-K 10/30 17:18 ET = dividend declaration:** common $0.42 → $0.46; Series A $0.5225/depositary share = **8.36% reset** (closes KB-275's coupon question).
-- Packets: PROME memo; REGINALD (WAL-01 final, v2.5).
-
-**NEXT SESSION (numbered, checkable):**
-1. **Re-judge scores by evidence** (rule §5; not done tonight): V1b-magnitude (OREO count up, SM +81, HFF criticized 2.5× vs accruing restructured down), V3 (MIXED ⇒ hold 3/5 unless an A1 stress datum), V4, composite. Separate dated edit.
-2. **Register forward Q4 predictions by 11/15** (Bear CONFIRM lost its last carrier at this 10-Q), each with dated Resolve_By + anchor type. Candidates: the $99M disposition at the Q4 call/10-K; HFF nonaccrual > $0 by 12/31; OREO count.
-3. **Hotel franchise finance read** (new): criticized $185M across 7 loans; classified +$31M = the Q2 SM credit (candidate). Worth a short desk read before Q4.
-4. Q3 Call Report / MI3 (unchanged, see item 3 below), JWT dies Thu 11/5.
-5. The 10/30 afternoon NEXT list below still stands for items 2b–7 (items 1–2 there are done by this session).
-
-**PRIOR — 10/30 afternoon handoff (kept):**
-
-**LAST SESSION (10/30 13:04–15:43 ET, Claude Opus 5.5 on the laptop, interactive; Will: boot + status, then WQ-553):**
-- Boot: not behind origin (ahead 1 = PROME's unpushed commit), no pull. Checks: corrections rc 0; `boot.py` rc 1 (FFIEC token 6d, Q3 Call Report not filed at 13:04, 3,484 banks filed); KB expiry 8 rows overdue (untouched, see NEXT 4).
-- **WQ-553 RULED.** The 10-Q frame had no letter for a below-carrying appraisal with $0 charge-off and zero/undisclosed reserve; literally B, so 16 → 12 on adverse news (DAEDALUS 10/30 refresh). Will: principle "yes approve go ahead" 13:05 ET; WAL drafted §6 Amendment 1 (B′₀/B′ᵤ graded on the A′ row: Bear-medium held 16, EV $75.96, never B); PROME verified the cells at `41d3eb9ef`; Will text "yes approved" 13:16 ET (`df8b27000`). EDGAR checked at both moments: no 10-Q.
-- Inbox drained: PROME (8/23 packet consumed → outbox/delivered), REGINALD (WAL owns its own debt/preferred spreads and holdco uninsured/brokered; REGINALD frozen bank-level baseline 6/30 uninsured 38.09%, cite `[CONF REGINALD FUNDING_COHORT_2026Q2 6/30/26, frozen]`, never difference vs 10-Q), TERRY (IV/skew are TERRY's, no standing series: ask for a pull), DAEDALUS (B′ done; owner items replied DEFERRED). WALTER SIG-W-20261029-020 acted: Carvana SEC investigation closed, no enforcement rec → `FRAUD/AUDITOR_NEXUS.md` rows corrected with limits + RETIRED_CLAIMS row; also fixed RETIRED_CLAIMS:46 `$` expansion.
-- **Will 14:07 ET "okay lets do 1 through 3"** (from the brainstorm: 1 frame dry run, 2 appraisal prior, 3 Call Report). (1) DONE: `research/2026-10-30_10Q-frame-dry-run.md` + frame §8 reader note F1–F5 (non-gating). (2) DONE by an Opus subagent, reviewed by the desk: 440 Bedford St, Lexington MA = strong collateral CANDIDATE (WAL $168M construction lender, B&T 7/10/2026 re-fetched; town records match). KB-271 (candidate, never an identification under §4) + KB-272 (Boston lab market). Forecast NO-VERDICT 45 / B 22 / A′ 15 / C 10 / A 5 / B′ 3. (3) Call Report still NOT filed at 14:18 ET.
-
-- **Will 14:21 ET "update your workbook … look for available updates":** 8 expired KB rows judged (092/102/194/196 SUPERSEDED; 093/095 → 10-Q; 251 → 2027-01-31; 227 → 12/9, stay state unverified). Added KB-273 (Q3 NDFI peer slide), KB-274 (Q3 deposits/LTD), KB-275 (Series A preferred not called at 9/30; WAL-PA $24.33; reset coupon UNKNOWN: read it from the next preferred dividend 8-K). MI3 attention line re-dated. News search and EDGAR: nothing after 10/28. KB 275 rows / 20 groups.
-
-- **After closeout (16:32–16:40 ET):** 10/30 close $76.29 (−1.94%, KRE −1.17%) to STATUS; base-case Q&A (neutral, beta ~1 to KRE, 2-week 1-sd range ~$73–80 from realized vol); short interest Q&A. **Will: "we should track metrics like this"** → built `workbook/MARKET_TRACKER.tsv` + `scripts/market_tracker.py` (FINRA series since 1/2025, % of shares from SEC cover counts, weekly price/vol/beta snapshot); boot.py wired; 23 tests pass. FINRA readings now go to the tracker, not new KB rows (KB only for a notable reading).
-- **Core-file fold (16:56 ET, Will "update WAL core files and workbook"):** THESIS October 30 dated evidence addition + CHANGELOG 2026-10-30 (v2.4 unchanged); WEAKNESSES $99M row; INDEX map; REGINALD channel pointer; KB-276 (258 superseded). SCENARIOS/POSITIONS/PREDICTIONS deliberately unchanged.
-**PRIOR SESSION (10/28 22:36–~22:55 ET, Claude Opus 5.5 on the laptop `WilliePOwen`, interactive; Will: "get caught up on any owed tasks or updating data"):**
-- Boot: not behind origin, so no pull; foreign dirty paths (CARL/PHAN, REGINALD) left untouched. Corrections check rc 0. 10/28 close $75.96 = EV exactly.
-- **EDGAR 9/24 → 10/28:** only the 10/19 8-K and ten 10/19 Form 4s; no 10-Q, 144, 13D/G or open-market trade. Three routes agree; the Form 144 route was positive-controlled (12 historical WAL 144s, newest 6/15) → KB-259.
-- **Q3 Call Report not filed yet:** RSSD 3138146 is absent from FFIEC's 2,643-bank filer list for 9/30; the 9/30 facsimile returns HTTP 500; a 6/30 control re-pull is byte-identical, so the credential works on the laptop. `workbook/MI3_SERIES.tsv` got a `Last attention check` line (data clock not advanced).
-- **First Eagle Private Credit Fund SPV:** Western Alliance Bank joined as a lender with a $100M commitment (amendment 10/1, 8-K 10/5) → KB-260. V3 exposure direction, no score change. Same sweep: Western Alliance Trust Co. custody roles (KKR ×2, Fidus) are fee roles, not lending.
-- FINRA 10/15 short interest 6,353,689 (+2.15%, third straight rise) → KB-258.
-- **KB expiry:** all 9 expired rows judged one by one (223–226 SUPERSEDED post-print; 193/229 SUPERSEDED by 259/258; 228/246/247 extended with reasons). 0 expired after the pass.
-- Inbox: DEWEY legacy-tech (info), DEWEY Nano passive records (info: all four recorder routes human-only; CourtListener 401), DAEDALUS WQ-508 (applied to the charter by DAEDALUS `d3488e641` on 10/23; reviewed, not contested) → `inbox/processed/`.
-- Drift-check history review: the 2 new identities are the WAL-01 row's dated "Schedule O" void-and-strike record (history, not a live claim; the anchor hash changed with the 10/19 and 10/22 cell edits). Recorded in `workbook/DRIFT_HISTORY_2026-10-14.json`; review_by re-dated to 11/9.
-- **Built `scripts/boot.py`** (Will: "yes build the boot script", 22:53 ET) and wired it as charter step 5 (charter bytes 28,824 → 28,765). It reads EV, the exit level, the last MI3 quarter and the last logged FINRA settlement from their owner files at run time; rc 2 = UNCHECKED, never clean. Tests `scripts/test_boot.py` (9) + the existing suite (10) pass. First run: rc 1 on one ATTENTION, the FFIEC JWT expiring in 8 days with the Q3 pull still owed.
-- **Quartr: Will 22:53 ET, "We cannot use QUARTR no need to try. No subscription."** Fleet memory `feedback_quartr_no_subscription_do_not_call` written (carve-out 3).
-- **Housekeeping (Will 23:02 ET "do all housekeeping now"):** credit-ratings baseline (KB-265–267, Opus subagent, A1 rows re-read by the desk); LEADERSHIP.md refreshed from the 2026 proxy + 5.02/5.07 8-Ks + 71 Form 4s (KB-261–264; March "Boyd 11.54%" retired); 19 March KB rows re-verified (Opus subagent; Nevada split, PCAOB tables, FIBK and BROCK retraction re-verified by the desk; 13 superseded, KB-268–270 added, three RETIRED_CLAIMS guards, AUDITOR_NEXUS corrected inline); outbox 26/27 filed to delivered (8/23 PROME packet held, delivery unverified); 3/25 charts archived. Packets: REGINALD (dashboard $1.54T), OZK (SF-district basis).
-- Could not do: Makhijani dates (CourtListener now refuses anonymous access); Quartr transcript check (Pro subscription required; Will declined Quartr, WQ-220). STATUS and the old 10/22 notes are preserved verbatim under `archive/*_before-10-28_2026-10-28.md`.
-
-*Closeout 15:43 ET: 10-Q and Call Report both still unfiled (3,555 filers); WAL $76.03 intraday (+0.09% vs EV). All work pushed.*
-
-**NEXT SESSION (numbered, checkable):**
-1. **Q3 10-Q (D:L171)** — run `Q3_10Q_GRADING_FRAME_2026-09-24.md` verbatim: subsequent events first; $99M (§4, incl. the B′ᵤ/B′₀ split); WAL-01 cross-check vs classified loans + OREO (expected ~$926M + $165M); WAL-02 confirm; full NPL; OREO roll-forward/valuation on the 7 Q2 additions (WQ-313 ④); NDFI 25.9% test; Cantor tie-out and legal paragraphs; hotel O1–O8. Write PREDICTIONS.tsv explicitly (PAT-053).
-2. **Post-Q3 re-score** right after the 10-Q grade: apply `Q3_10Q_RESCORE_RULE_2026-10-22.md` verbatim, then re-judge V1b-magnitude, V3 (now with KB-195/260), V4 and composite on evidence. Versioned THESIS/SCENARIOS/CHANGELOG edit. Then register forward Q4 predictions with dated Resolve_By.
-2b. **$99M follow-ups (optional, cheap):** a Middlesex South Registry lookup on 440 Bedford St (book 84347 p.101; WAL mortgage, assignment, foreclosure notice) settles the JHM Bedford $1 deed and maybe the $168M vs $99M question, but needs a browser (Will or DEWEY). Watch for a CBRE sale or a lease. At the 10-Q, read the F2 aggregates.
-3. **Q3 Call Report / MI3:** `scripts/boot.py` reports when RSSD 3138146 appears in the filer list. Retry from Sat 10/31 and before the JWT expires Thu 11/5 (or after the WQ-31 renewal). From `AGENTS/WAL/scripts`: `python3 -I -c "import sys; sys.path.insert(0,'.'); import ffiec_wal_retrieve_20261014 as m; m.OUT=m.WAL/'sources/ffiec_YYYY-MM-DD'; sys.argv=['x','2026-09-30','--curl']; raise SystemExit(m.main())"` — OUT must sit under the repo or the script's relative-path step labels a good pull INVALID. Check `RetrieveFilersSinceDate` first (recipe in `sources/edgar_sweep_2026-10-28/SWEEP_RECEIPT.md`). Append the Q3 row to MI3_SERIES (RCON2746/RCON1766; NDFI RCONJ454). Semiannual June/December fields are not expected at Q3; never read missing as zero.
-3b. **DAEDALUS 10/30 owner items (replied DEFERRED):** 8 KB rows past Stale_By (092, 093, 095, 102, 194, 196, 251, 227: judge each, never bulk re-date); charter 88% of read cap (hot/cold split, DOCKET L810); glued words in INDEX/SCENARIOS/POSITIONS/RETIRED_CLAIMS:39-41 and channel entries; no REGINALD_CHANNEL entry since 10/19; `derived_drift_check.py` always exits 0; Bear CONFIRM loses its last carrier at the 10-Q (Q4 predictions by 11/15). Disposition each DONE/DECLINED/CONTESTED and reply to DAEDALUS.
-4. **NYSCEF index numbers** (WAL v. Jefferies, Point Bonita v. WAL) — Will-side browser search offered 10/22, unanswered; if he pastes them, read the case pages.
-5. **Makhijani dates** (11/30 status conference, 1/12/2027 trial) — needs a CourtListener token, DEWEY's PACER route, or a browser check.
-6. **Coverage gaps — owners answered 10/29:** WAL owns its own debt/preferred spreads and holdco uninsured/brokered figures (REGINALD keeps no series; build them from the 10-Q when needed); IV/skew = TERRY, by card-time pull only. Q3 13F (~11/16). Closed 10/28: ratings, leadership, Form 144, short interest.
-6b. **New leads from housekeeping:** Moody's own downgrade-trigger capital measure ("below 11.0%" vs Q3 CET1 10.9% preliminary; read Moody's text when reachable, never call it a breach before); the Fitch deposit-rating conflict; the Circa facility (KB-042) maturity, re-check by year-end; post-6/10 committee rosters; the 8/23 PROME outbox packet whose delivery is unverified.
-7. `boot.py` v0.1 is a first increment: if a source changes shape, fix the reader and add a test, never loosen a check to quiet it.
-
-**Earnings caveat that must travel (from 10/19):** the Q3 release reclassifies customer derivatives/FX from FV into commercial fees, with no income effect. Q2 FV is now 8.3 vs 12.8 in the old October 14 screen. The new Q3 comparative PPNR less security sale/FV (401.8 vs 401.1) is a diagnostic, not issuer-adjusted EPS nor the old 8.98 annual screen; hedge/persistence unknown. REGINALD retains funding/cohort/severity.
-
-**Carried proposals, unstarted (Will's go needed):** `research/2026-10-19_next-understanding-options.md` #2 credit-cleanup bridge + $99M, #3 capital retention after marks/buybacks, #4 price vs earnings expectations (#1 earnings bridge is done).
-
-**Will-only dependencies → STATUS § OPERATOR DEPENDENCIES** (Moreno Valley recorder, FFIEC renewal, NYSCEF, CourtListener). Quartr is closed (declined, WQ-220). Do not repeat an ask already answered.
-
-**Archive:** the 10/22 session notes, verbatim → `archive/MEMORY_before-10-28_2026-10-28.md` (sha256 cbf37934…f917). Earlier: `archive/MEMORY_before-cleanup_2026-10-22.md`, `archive/MEMORY_before-Q3-stage1_2026-10-19.md`, `MEMORY_ARCHIVE.md`.
