@@ -2,11 +2,12 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-16T10:07 ET (PROME prome-6f due-row wake, WQ-184, D:L1149, desktop, Claude Code / Opus 5.5; HOLD open on PROME's word)
+### CURRENT SESSION — 2026-11-16T10:07 ET closed 2026-11-16T10:15:38-05:00 (PROME prome-6f due-row wake, WQ-184, D:L1149, desktop, Claude Code / Opus 5.5; closed on PROME's ask, D:L1149 RESOLVED)
 
 - **Context:** correct and narrow the 11/14 IG tech yield read (CATO N14-2); grade my lines on the November 13 HY cell; packet TERRY the first-published cell; drain inbox (1 packet, WALTER 009/010).
 - **Delivered:** HY 323 [11/13, first-published, 10:09 ET] ⇒ >320 run 1 of 3 (earliest MET November 17 cell); re-kill 0 of 2; REG-T-04 witness 0 of 3; tier rule CONTINUES (B +5, CCC +2, upper tiers flat). 076 unchanged NOT MET 1 of 3, W1 as-of 11/10 not in CFTC API (holiday week). N14-2 applied in REPORT, STATUS, NEXUS_BRIEF, KB-LIQ-153, MEMORY. CoreWeave $4B plan graded against DDTL 4.0 (S+225, A3): NOT SHOWN stands. → `research/2026-11-16_due-row/REPORT.md`.
 - **Open:** W1 as-of 11/10 (likely today 15:30 ET); November 16 cell about 10:10 ET 11/17; CoreWeave loan terms when they print.
+- **Defect (PROME caught at consumption):** my PROME packet lost "$4B" and "$8.5B" to an unquoted heredoc (shipped "at least B", "(.5B"); PROME recorded the correct figures on D:L1149; filed packet not edited. TERRY packet, REPORT, STATUS, KB intact (grep 11/16). Fleet memory instance appended.
 
 ### PRIOR SESSION — 2026-11-14T11:25 ET, closed 2026-11-14T11:35:28-05:00 (PROME prome-fe, C9 research commission WQ-538 A, card SIG-W-20261114-007 item 1, Saturday, desktop, Claude Code / Opus 5.5)
 
@@ -99,4 +100,4 @@
 
 ### NEXT SESSION
 
-**STATUS §3 is the list.** Next: the 11/13 ICE HY cell (publishes Mon 11/16 about 10:10 ET; run counts stand until then) and the 11/10 cell if FRED posts it; CFTC W1 as-of 11/10 for 076 (review_by 11/20; W2 as-of 11/11 about 11/19); H.4.1 on 11/19 (foreign RRP and FIMA against the 11/11 baseline; BOND reads custody); ING data-centre loan bids 11/19 (KB-LIQ-153, nearest named test of an AI financing constraint). Then the DTCC probe repair. Earlier NEXT SESSION text → `git log -p -- AGENTS/LIQUID/MEMORY.md`.
+**STATUS §3 is the list.** Next: the 11/16 ICE HY cell (about 10:10 ET Tue 11/17; >320 run 2 of 3 if above 320.0) and the 11/10 cell if FRED posts it; CFTC W1 as-of 11/10 for 076 (likely posted 11/16 15:30 ET) (review_by 11/20; W2 as-of 11/11 about 11/19); H.4.1 on 11/19 (foreign RRP and FIMA against the 11/11 baseline; BOND reads custody); ING data-centre loan bids 11/19 (KB-LIQ-153, nearest named test of an AI financing constraint). Then the DTCC probe repair. Earlier NEXT SESSION text → `git log -p -- AGENTS/LIQUID/MEMORY.md`.
