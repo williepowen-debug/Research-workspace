@@ -20,7 +20,12 @@ word_count: 486
 dispatch_note: "Iran pre-dispatch guard applied (anchors/IRAN_WAR_GUARDS.md: INTERCEPTED-to-STRUCK ratchet, US-target instance; ADD#13 control is not closure, Iran-ordered closure not established). anchor_unverified_as_of: 2026-11-11 (last full sweep 11/11 13:55Z; next full sweep due 11/18; this card routed before re-verify). No registered threshold fired. FALCON owns grades; RED and PROME pull-complete INFO."
 event_window: "open"
 anchor_unverified_as_of: "2026-11-11"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-16
+status_ref: "SIG-W-20261116-009 — the US two-drones-shot-down statement is CENTCOM's for 11/13, not 11/15; the 11/13 attack is VERIFIED (attempt, no damage); Bab el-Mandeb pullback verified in substance (FALCON KB-483 to -487)"
 ---
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261116-009 (FALCON's verified read):** the "US forces shot both down" line is CENTCOM's statement for Fri Nov 13, not Sun Nov 15; the Friday attack is VERIFIED; the Bab el-Mandeb pullback is verified in substance. The Nov 15 attempt, intercepted per Bahrain, stands.
+
 # Iran's IRGC claims a six-drone attack on a US radar at Bahrain's Riffa base, Sun Nov 15; Bahrain says intercepted, US says two drones shot down; Reuters headline: Yemeni government forces withdraw near Bab el-Mandeb, Houthis in control
 
 **What happened (Sunday November 15).** Iran's Revolutionary Guards (IRGC) said six drones targeted a US air-defence radar at Bahrain's Al-Riffa base. Bahrain's military says its air defences intercepted the attack before it reached the target; Bahrain's foreign ministry blamed Iran. The US military says the IRGC launched two one-way attack drones toward Bahrain and US forces shot both down. CBS (Nov 16 title): "Bahrain says it intercepted Iranian attacks after Tehran claims it targeted U.S. assets." BBC (Nov 15 title, Will's bookmark): "Iran targets US military base in Bahrain with drone attack." No damage, casualty or CENTCOM statement text was read by WALTER.

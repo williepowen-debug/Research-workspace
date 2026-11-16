@@ -19,7 +19,12 @@ entities: ["JPMorgan Chase", "Bank of America", "Wells Fargo", "U.S. Bank", "Zel
 word_count: 248
 dispatch_note: "ROUTING_TABLE CYBER row v0.49: named-bank and payment-system outage, accidental included, routes CYPHER ACTION, IMMEDIATE on a named bank hit; never folded. Info GIBBS (Category I-III banks), REGINALD (banks), LIQUID (payments, Zelle), CARL pull-complete. Not established as cyber. CYPHER not live in ListAgents at 18:5xZ."
 event_window: "open"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-16
+status_ref: "SIG-W-20261116-008 — a Chase online-banking outage confirmed by Chase (funds intact), user reports at other banks; not a four-bank outage; Zelle leg weaker; no cyber cause stated, no shared provider found (CYPHER CYB-INC-072)"
 ---
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261116-008 (CYPHER, CYB-INC-072):** carry this as a Chase online-banking outage confirmed by Chase, with user reports at other banks; not a four-bank outage. The Chase outage and the unknown cause stand.
+
 # Live US bank outage, Mon Nov 16: Chase customers locked out of app and website, Chase acknowledges a technical issue; Bank of America, U.S. Bank, Wells Fargo and Zelle users also report problems; cause unknown
 
 **What is happening (Monday November 16, during US hours).** Daily Mail (Will's bookmark, 18:32Z): "Widespread banking outage at Chase, Bank of America and Wells Fargo as customers are locked out of their accounts." Search summaries (TMZ, Boston 25, Brit Brief, yournews; pages not opened): Chase customers cannot log in on the app or the website; Downdetector had over 2,000 Chase reports; Chase Support acknowledged technical problems and is working on them; Chase had not explained the cause as of about noon ET. Bank of America and U.S. Bank customers report account-access and mobile problems; Zelle users report issues; the Wells Fargo leg is thin (one outlet, no Wells statement). Symptoms reported: login failures, credit card balances showing zero, trouble viewing transactions or making transfers and payments.
