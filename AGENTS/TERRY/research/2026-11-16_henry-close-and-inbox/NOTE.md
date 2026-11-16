@@ -92,3 +92,11 @@ Packet `inbox/processed/2026-11-16_from-PROME_VULCAN-nvidia-items-against-CEOGAP
 | Monroe Capital Income Plus | private BDC | nothing listed |
 
 **Agree with BROCK:** no new instrument with a clean line. The tells to watch are the Q4 finals, BCRED letter about 12/03–12/07 and Monroe SC TO-I/A about 12/04–12/07. They would be a third leg (a) fire on the same wave, not a new one, and they move no score. Monroe's thin line (cash plus undrawn $531.5M vs $876.0M unfunded) is the item to read if its Q4 final shows a cap cut or a facility amendment. Logged in `SIGNALS.tsv` `COMBO-CREDIT-FOLLOWING`, both directions.
+
+## 9. Addendum 13:03 EST — GIBBS: Huntington (HBAN) over the $250B Category III line: NO CARD
+
+**Pointer:** PROME prome-6f by message. **Read:** `PROME/inbox/processed/2026-11-16_from-GIBBS_R0-recut-inbox-L798.md` §2 (GIBBS 20c7c2a648, KB-GIB-065). HBAN four-quarter average assets are about $260B to $264B at 9/30. ⚠️ That figure is DERIVED from HBAN's 10-Q average-balance tables, not the FR Y-9C; the rule basis is 12 CFR 252.2. REGINALD owns the name.
+
+**Live:** HBAN $15.67, −0.95% (vendor, 13:03 EST, intraday); 30-day range 15.10–16.06, mid-range; −0.69% relative to KRE over 30 days.
+
+**Read: NO CARD.** The crossing is size-driven, rule-automatic and anticipated: Fitch cut HBAN's senior rating to BBB+ in September on this basis (GIBBS). Category III costs (liquidity coverage and capital phase-ins) arrive over quarters, not on a date the tape can be timed against. There is no catalyst, no owner direction and no defined trigger. A put entry today would also be a red-day entry (root rule #6). The only thing that would reopen it is REGINALD reading a compliance cost or a capital action large enough to move earnings, with a date.
