@@ -6,9 +6,9 @@
 
 **Thesis version:** v1.0.5 (`THESIS.md`)
 
-**Recent change:** 11/11 catch-up — no change to any graded item: Q3 Call Report re-pulled, unamended (SR 07-1 322.11%); a December hike barely moves NII (+0.68% per +100bp short rates, issuer) and AOCI sits outside regulatory capital; the hike matters through refinancing (5Y 4.81 / 10Y 4.98 [11/10]), no rate relief for $12B of sub-3.9% resets through 2027 (INFERRED). Prior: v1.0.5 (11/07) — Q3 10-Q: FLG-02 and FLG-03 HIT, direction unchanged, "nothing is healing" withdrawn as a flat claim after Q3 cures $144M. Rail re-derived, no condition changed. The live signal is the reserve and the exit channel, not the 322.11% ratio.
+**Recent change:** 11/16 — no change to any graded item. Logged (logging only, KB-FLG-120..124) who is paying to extend the stressed loans: mostly Flagstar itself — $1,548M of non-accrual carried with no reserve on appraised values re-tested each Q2, and 2026 multifamily modifications whose added 1.2–1.5 years run out about late 2027 to early 2028 (43.9% of the $471M modified stock already past due); who carries the 2027 fixed maturities ($1,581M) and the $3.0B rent-regulated resets is UNKNOWN. Prior: 11/11 catch-up — Q3 Call Report re-pulled, unamended (SR 07-1 322.11%); a December hike barely moves NII (+0.68% per +100bp short rates, issuer) and AOCI sits outside regulatory capital; the hike matters through refinancing (5Y 4.81 / 10Y 4.98 [11/10]), no rate relief for $12B of sub-3.9% resets through 2027 (INFERRED). Prior: v1.0.5 (11/07) — Q3 10-Q: FLG-02 and FLG-03 HIT, direction unchanged, "nothing is healing" withdrawn as a flat claim after Q3 cures $144M. Rail re-derived, no condition changed. The live signal is the reserve and the exit channel, not the 322.11% ratio.
 
-**As of:** 2026-11-11 10:17 ET | STATUS commit: `fa9e28efe4` — event-driven desk; this brief stands until the next print or owner session.
+**As of:** 2026-11-16 14:08 ET | STATUS commit: `34d6a74649` — event-driven desk; this brief stands until the next print or owner session.
 
 ---
 
