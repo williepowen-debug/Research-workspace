@@ -1,13 +1,13 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-11-12.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-11-14.
 
 > ⚑ **THIS IS THE BOOT-READ HOT INDEX (SPAWN PROTOCOL step 2, re-homed 2026-08-23).** `FLEET_MAP.tsv` is the COLD full register — it holds the complete Gaps/Next_upgrade text and is read PER-AGENT on demand (`grep -P '^AGENT\t' FLEET_MAP.tsv`) or whole at a Production Review. Why: FLEET_MAP hit **121% of the harness single-read token cap** and had been truncating at every boot for ~6 days (PAT-111 recurring on its third file). Rotating the accumulated Gaps narrative to `FLEET_MAP_HISTORY.tsv` cut it 65,725 → 43,006 B, which is **not enough** — squeezing it under the budget would have meant deleting live gap content from the rich rows. So the register went cold and this generated view became the read, the same hot/cold split `PATTERNS_HOT.md` uses. ⛔ Never answer a cap breach by raising the budget: the read cap is not ours to move.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **Cf** (confidence: H=read-verified, M=read+mechanical, L=mechanical-only) + **Scored** (last-scored date) + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. Dormant agents are un-graded → blank grade cells; an ACTIVE/TIER-2 agent missing its FLEET_MAP row renders ⚠️ UNGRADED and the generator exits nonzero — a blank there is never by-design. PROME graded 2026-07-28 (Will-ratified, judgment-read only — the scripted floor cannot see a root-level agent).*
 
 **WF:** configured phrase-list entries at render time, not hits or routing health. `0` = explicit empty list; `—` = no list; `n/a` = owner-declared non-query desk; `UNKNOWN` = source unavailable/unsupported. Regenerate after lane edits; the existing directory-age guard watches ROSTER/FLEET_MAP only.
-WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `558b5ce471a8c500b401161e6e5ac4a069e5397064bb566aa8bcd5b0bfd7a2ba`.
+WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `28ed7a58ba11be08d3c125b55e31bea4a81b145ae83977839dac1ac1c37acdb0`.
 
 ## 🟢 ACTIVE — persistent domain owners
 
@@ -21,7 +21,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `5
 | LIQUID | Market | L4 | H | 2026-10-21 | HY / credit spreads / liquidity | Verify current structural-leg/local-form judgment and clean/current clo… | 7 |
 | VIOLET | Market | L4 | M | 2026-10-21 | VIX / vol term structure / vol-of-vol | L5 candidate after KB.tsv gains its two-clock header and a clean closeo… | 7 |
 | BRENT | Market | L5 | M | 2026-10-21 | Oil — Brent / WTI | Conf M-to-H after version-consistency check is wired and observed on ca… | 15 |
-| HENRY | Market | L4 | H | 2026-10-21 | Macro velocity / market trends | Whole relevant-section read decides existing prose local form before an… | 0 |
+| HENRY | Market | L4 | H | 2026-10-21 | Macro velocity / market trends | Whole relevant-section read decides existing prose local form before an… | 64 |
 | CARL | Market | L4 | H | 2026-10-21 | Consumer & credit-transmission macro | CARL responds through PROME to the two mark-rationale contests | 4 |
 | LABOR | Market | L5 | H | 2026-10-21 | Labor market (claims / JOLTS / NFP) | November 3 JOLTS updates LEG C before November 6 NFP | 12 |
 | BROCK | Market | L4 | H | 2026-10-30 | Private credit / BDC / non-traded credit | Remaining L5 adjudication needs full clean/current owner closeout and s… | 8 |
