@@ -56,3 +56,20 @@ All three read in full this session and logged in `board_log.tsv`:
 ## 5. Combination log (WQ-622; logging is not scoring)
 - `combo:credit-following`: HY 323 [11/13] +3, CCC 1,316 +2, BB 186 +3 (FRED first-published); WALTER small items: Trump Media "$1bn debt crunch" (FT headline), Eagle Point Credit CLO-equity NAV pressure, BoE Bailey on private-credit interconnectedness (headlines). Counterevidence: HYG $76.93 −0.01% on a −1.3% S&P morning; the index is 25 bp under its 348 peak.
 - `combo:rebound-breadth`: 11/16 10:12 ET, QQQ −2.20% and SMH −4.60% vs RSP −0.48% (chips lead down; equal weight holds); S&P back under 7,500. Counterevidence to a rebound: QQQ about 2.3% under its 200-day.
+
+## 6. Addendum 10:2x ET — BROCK BRK-11: ICMB below the 150% asset-coverage floor, merging into BCIC
+
+Packet `inbox/processed/2026-11-16_from-BROCK_brk11-icmb-coverage-breach-tradeability.md` (BROCK `c832cabe28`), read with BROCK's KB-BRK-493 and KB-BRK-494 (EDGAR primaries: ICMB 10-Q for 9/30, 8-K of 11/12 with the merger agreement as Ex-2.1).
+
+| Item | Live / dated | Read |
+|---|---|---|
+| ICMB (Investcorp Credit Management BDC) | $1.06 at 10:25 ET; daily closes $0.618 [11/11] → $1.06 [11/12] on 67.7M shares → $1.04 [11/13] (vendor) | The merger news was priced on 11/12, +71% in a day, before BROCK's finding. NAV $3.02 at 9/30; net assets $43.6M |
+| BCIC (BCP Investment Corp, the acquirer) | $5.25 at 10:22 ET; $6.57 [11/11] → $5.55 [11/12] → $5.13 [11/13] | Acquirer down about 20% since the deal: also priced |
+| Read-through to large BDCs | ARCC $19.17 flat vs 11/13; BIZD $12.47 −0.24% | None, as BROCK says: a long-tail name whose breach was already there |
+
+**Answer: NO CARD.**
+- The only structural trade here would be merger arbitrage (long ICMB against short BCIC at the exchange ratio). The ratio is set by a net-asset-value calculation (§2.5) that nobody has read, so the spread can't be computed and no card can state its loss.
+- Both are micro-caps (ICMB about $1). Options are listed on both, but chains were not pulled because there is no view to express.
+- Shorting BCIC after a 20% drop is a chase.
+- The move happened on 11/12, so the read is late by construction; the delay to today changed nothing.
+- **What would change it:** someone reads the exchange ratio and the closing conditions in the DEF 14A (filed 11/12) and the spread is wide relative to deal risk. Even then, the size that fits $500 is small, and borrow on BCIC is unknown.
