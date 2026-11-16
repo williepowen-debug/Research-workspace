@@ -78,7 +78,7 @@
 | 11/05–18 | SHADE joint reconcile (L185) | Distinct instruments until normalization agreed. |
 | 11/17 AMC | GBDC annual results (issuer 10/6 8-K) | Resolves BRK-36. Revisit post-maturity funding and named draw disclosure; June arithmetic is historical. |
 | ✅ 11/16 | Q3 10-Q deadline · R2 review | DONE: BRK-11 TRUE (ICMB 141.6%, pre-existing); R2 HELD, Monroe run 2, next 12/07. |
-| ~11/30 | Monroe Q4 tender final | Sub-100% FIRES R2 (a) at Monroe (third vehicle). Expiry INFERRED. |
+| ~12/04-12/07 | Monroe Q4 tender final | Sub-100% FIRES R2 (a) at Monroe (third vehicle). Offer expires 11/30 (verified 11/16, KB-BRK-498). 9/30 liquidity: orderly proration at BCRED and Monroe, Monroe thinner (KB-BRK-499). |
 | ~12/03 | BCRED Q4 tender letter | Third consecutive sub-100% FIRES R2 (a) at BCRED. |
 
 *FULL schema R3 + amendments 7/9/10/11/12. Content repair replaces the 10/15 live claims; historical observations remain dated in catchups/ and Git. Owner fold completed after final STATUS commit 84e7a03c1; NEXUS consumption remains unverified. Source dates and instrument boundaries survive this summary.*
