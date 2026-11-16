@@ -11,6 +11,8 @@
 - **SHD-01:** NO-VERDICT by its letter, `thesis/PREDICTIONS.tsv` updated.
 - **D:L185 BMA:** ACRA 1A/2A FY2025 read; ~90% funds withheld, so the Level 3 split must come from the cedants.
 
+**Closeout 2026-11-16T10:20:23-05:00:** prome-6f's closeout ask received (D:L240 re-dated 11/18, D:L184 and D:L1067 resolved, D:L185 pending, packet filed). Inbox and WALTER lane 0, corrections rc 0, no auto-memory written, no figure superseded (consumer check not needed), retirement scan SKIPPED (last 11/6, 10 days). Promotion scan: the issuer dropping its own syndication count is an instance of the 8/4 absence lesson already in MEMORY; no new lesson. No MAINTENANCE entry (no structural change). NEXUS brief folded last.
+
 **Git:** no pull needed (local not behind origin; PROME's two state files dirty in the shared index). Committed my paths only.
 
 **NEXT SESSION, in order:**
