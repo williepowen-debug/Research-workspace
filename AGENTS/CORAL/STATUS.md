@@ -17,7 +17,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 
 | Channel | Level (dated) | Status |
 |---|---|---|
-| **🟠 MSI supply-side leg** | **Reading #14 (Parcl data date 11/10; current series, WQ-475 A): 4-of-5 > 6.00** — Tampa 7.24 · Punta Gorda 6.20 · North Port 6.22 · Lakeland 6.27 · **Cape Coral 5.82** (series low; ≤ 6.00 every day 10/18→11/10, < 5.90 since 11/04) ⇒ re-fire fails, clock at zero. Revisions +0.01 only, upward (n=4). ⛔ Not an all-clear, not bank evidence. Letter → OQ §A / §A2; evidence § AF1 | 🟠 |
+| **🟠 MSI supply-side leg** | **Reading #15 (Parcl data date 11/15; build 11/16; current series, WQ-475 A): 4-of-5 > 6.00** — Tampa 7.16 · Punta Gorda 6.12 · North Port 6.14 · Lakeland 6.26 · **Cape Coral 5.74** (new series low; ≤ 6.00 every day since 10/18) ⇒ re-fire fails, clock at zero. All five metros fell 11/08→11/15 (−0.06 to −0.12). Revisions still upward only, now up to +0.03 (n=5). ⛔ Not an all-clear, not bank evidence. Letter → OQ §A / §A2; evidence § AG1 | 🟠 |
 | FL foreclosure — H1 cumulative | #1 of 50, **0.27%** (ATTOM, 7/17) — ⚠️ not refreshed since 7/17 | 🔴 |
 | FL REO completions | FL Q1 **1,014, +108% YoY**; nat'l H1 +33% | 🟠 |
 | Condo/TH median (**mix**) | **$293.5K, −1.8% YoY (Sep)**; avg **$470.5K, +8.6%** (right tail fattening); sales **7,179, −0.1%**; 3Q median $295K flat, sales +3.1% | 🟡 |
@@ -86,7 +86,7 @@ Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo st
 > **Scope:** the supply-side price-discovery leg ONLY. The bank-transmission rail and CORAL's overall colour are untouched whether it fires or stands down.
 > **Ruling:** Will, 2026-09-28 ~15:1x ET, verbatim record `PROME/WILL_QUEUE.md` WQ-241 (PROME commit `c0cfe7ba6`). Proposal history (incl. the measured-move table, not part of this letter): `PROME/inbox/processed/…WQ-241-and-WQ-321-tightened-letters.md` (`9655ceaf3`).
 
-**State:** leg **🟠 since 2026-09-13** (stood down on a COUNT, not because Florida improved). **Reading #14 (data date 11/10, current series): 4-of-5 > 6.00, Cape Coral 5.82 ⇒ re-fire fails, clock at zero; stand-down N/A.** #10–#13 stand as recorded despite later revisions (WQ-475 (c)). **Next reading #15 by 2026-11-19.** Prior paragraph → § AA0; pull evidence § AF1 (#13 § AD1).
+**State:** leg **🟠 since 2026-09-13** (stood down on a COUNT, not because Florida improved). **Reading #15 (data date 11/15, build 11/16, current series): 4-of-5 > 6.00, Cape Coral 5.74 ⇒ re-fire fails, clock at zero; stand-down N/A.** #10–#14 stand as recorded despite later revisions (WQ-475 (c)). **Next reading #16 by 2026-11-26.** Prior paragraph → § AA0; pull evidence § AG1 (#14 § AF1).
 
 **A2. ✅ INSTRUMENT BASIS — RULED (Will 2026-10-21 22:46 ET, verbatim "Approve 472 A, 473 A, 474 A, 475 A, 476 A" = WQ-475 option A; packet `inbox/processed/2026-10-21_from-PROME_WQ475-RULED-A.md`). The ruled letter for identity and series:**
 > **(a) Reading identity** = the **data date of one Parcl build carrying all five metros** (the retired page stamp is gone for good). Two pulls of one build are one reading.

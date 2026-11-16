@@ -2080,3 +2080,31 @@ KRE $72.20 −0.15% · SSB $104.11 −0.58% · SBCF $33.54 −0.18% · BKU $44.0
 | WALTER SIG-W-20261111-008 (ACTION) | **acted:** § AF2; Brevard is in EO 26-227. |
 | WALTER SIG-W-20261111-004 | **noted:** only the NWS Miami El Niño line and @DRmetwatch are ours → ML-CORAL-160 (combo, water on collateral). Rest other desks'. |
 | WALTER SIG-W-20261110-009 | **noted:** only the 29 fiscally constrained counties line is ours → ML-CORAL-159 (combo, local revenue squeeze), unverified. Rest other desks'. |
+
+### AG1. Parcl MSI reading #15 (data date 2026-11-15), taken early (coral-ag, 2026-11-16)
+**Route (unchanged, § AF1):** `GET …/v1/msi/metrics/session` HTTP 200 10:14 ET 11/16 → metrics tile `msi-metrics/20261116T100942Z/free/all/msa.json` (`built_at` 2026-11-16T10:09:42Z; 927 metros) + bundles `msi-bundles/20261116T101245Z/free/<parcl_id>.json`. Tile summary MSI == each bundle's daily `all` series LAST point, dated **2026-11-15** for all five; tile `context_as_of` 2026-11-15; `as_of_week` 2026-11-09 (weekly series, not this instrument). One build carries all five ⇒ one reading (WQ-475 (a)). Builds between 11/11 and 11/16 were not read. Extract: `sources/parcl/parcl_msi_daily_5metros_build20261116T101245Z.csv`.
+
+| Metro | **#15 MSI (data 11/15)** | Listings | % cutting | #14 as recorded (data 11/10) | 11/10 in the 11/16 build |
+|---|---:|---:|---:|---:|---:|
+| Tampa | **7.16** | 25,926 | 51.1% | 7.24 | 7.25 |
+| Punta Gorda | **6.12** | 4,342 | 42.9% | 6.20 | 6.21 |
+| North Port | **6.14** | 11,946 | 43.8% | 6.22 | 6.25 |
+| Cape Coral | **5.74** | 13,834 | 42.1% | 5.82 | 5.84 |
+| Lakeland | **6.26** | 7,978 | 47.8% | 6.27 | 6.29 |
+
+- **Grade (amended letter WQ-241, basis WQ-475 A):** 4-of-5 > 6.00; Cape Coral 5.74 ⇒ **re-fire reading FAILS, clock at zero**; stand-down N/A (leg already 🟠). Leg 🟠. **Next reading #16 by 2026-11-26** (weekly cadence; GATES `review_by` is PROME's to re-date).
+- **Level facts, this build:** Cape Coral ≤ 6.00 every day 10/18→11/15; 5.74 on 11/15 = series low (5.86 → 5.74 over 11/08–11/15). **All five fell 11/08→11/15:** Tampa −0.10, Punta Gorda −0.09, North Port −0.11, Cape Coral −0.12, Lakeland −0.06. Punta Gorda 6.12 and North Port 6.14 are now within 0.15 of the 6.00 line.
+- **Revisions vs the 11/11 build:** upward only on every revised day, 44–74 days per metro since 8/01, sizes +0.01 to +0.03 (North Port max +0.03). Prior pattern was +0.01 only (n=4); now n=5, still all upward, larger. No rule change; #14 stands as recorded (WQ-475 (c)).
+- **Reading, not a claim:** a falling MSI means fewer motivated-seller signals (cut share 51.7% → 51.1% Tampa, 43.2% → 42.9% Punta Gorda). Rival readings (sellers withdrawing listings vs fewer new cuts) move this index the same way; listings counts are mixed (Cape Coral 13,605 → 13,834 up, Tampa 26,031 → 25,926 down) ⇒ no mechanism asserted. ⛔ Not an all-clear, not bank evidence.
+
+### AG2. Inbox dispositions (whole inbox, 8 of 8: 3 top-level + 5 WALTER lane), coral-ag 2026-11-16
+| Item | Disposition |
+|---|---|
+| MARCO 11/11 Amendment 3 one figure | **info-only:** MARCO adopted 61.98% (4,917,796 vs 3,016,195, unofficial); one number on both desks already (STATUS reconcile row). Certification Tue 11/17 8 a.m. No reply. |
+| PROME 11/11 United Fidelity follow-up (DOCKET L1126) | **noted:** HMDA about $598M Florida multifamily originations 2021–2025 (Escambia $147M, Leon $94M, Lee $86M; researcher's split, relayed, not re-read). Impaired-loan identity UNKNOWN; transmission not shown. Lee County = Cape Coral-Fort Myers metro. → ML-CORAL-166. No watchlist change. |
+| DAEDALUS 11/12 WQ-678 harness lines | **acted.** Changelist A10 APPLIED (CLAUDE.md Stale Data Rules: prices always live, never from STATUS, root rule #4). Optional B: **F39 APPLIED** (read-cap re-trigger: expired 10/02 date and stale 9/02 byte figure dropped; invoker made cwd-proof). **Declined for now:** F11 (waits on PROME's routing ruling, as DAEDALUS says) · F14 · F37 · F38 · F41 · F42 · F43 · F44 — text trims with no behaviour change, deferred to a quieter session to keep this due-row wake inside its scope. |
+| WALTER SIG-W-20261111-014 (correction) | **info-only:** CORAL carries no SEC enforcement figure (grep). COR-20261111-14 receipted NO-OP. |
+| WALTER SIG-W-20261111-016 | **noted:** MARCO ENR-02 sustained, CPI airfares +23.27% 2-yr Oct (national). → ML-CORAL-165 (visitor frictions). Airport demand stays CONFOUNDED. |
+| WALTER SIG-W-20261111-022 | **info-only:** N-able (CYPHER's). Suncoast Credit Union (Florida) class-action investigation 11/3, no figure. |
+| WALTER SIG-W-20261114-006 | **noted:** item 13 Amendment 3 local funding headlines → ML-CORAL-163. Item 5 10Y +30bp week above 5.15% (CME headline, BOND/HENRY own the level) = more of the November rate confound on the GSE instrument (§ AF4); October untouched. |
+| WALTER SIG-W-20261114-011 | **noted:** item 4 one condo owner facing foreclosure over about $18K in assessments after about $10K help (title only) → ML-CORAL-164. |
