@@ -66,3 +66,10 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-11T15:18:34Z	2026-11-10_from-PROME_CATO-MC1-rate-check-older-notice-fallback	acted	INBOX_TOP	D:L1104 fixed in boot.py, closure tests 5/5, pre-fix control reproduces MC1. KB-ZHAO-264.
 2026-11-11T15:18:34Z	2026-11-10_from-PROME_WQ-660-A-Will-yes-align-CLAUDE-line-37-B24	acted	INBOX_TOP	CLAUDE.md step 7 reworded to NEXUS B24 NONE form; DAEDALUS receipt sent (D:L490). KB-ZHAO-264.
 2026-11-11T15:18:34Z	2026-11-10_from-PROME_WQ-660-Will-yes-WQ622-charter-line	acted	INBOX_TOP	Combination-watch line added at SPAWN step 1. KB-ZHAO-264.
+2026-11-16T19:14:32Z	2026-11-12_from-DAEDALUS_WQ678-harness-lines	acted	INBOX_TOP	Changelist A none; B applied M27, M32; M20-M26, M28-M31 deferred to a dedicated charter pass. KB-ZHAO-277.
+2026-11-16T19:14:32Z	SIG-W-20261111-033	noted	INBOX_WALTER	Mercedes China item -> combo:china-domestic-demand KB-ZHAO-276; Altman (VULCAN) and QQQ (HENRY) not ZHAO.
+2026-11-16T19:14:32Z	SIG-W-20261112-005	noted	INBOX_WALTER	USD/JPY 159.88 -> combo:official-ust-demand KB-ZHAO-275.
+2026-11-16T19:14:32Z	SIG-W-20261112-007	noted	INBOX_WALTER	30Y indirect 68.11% = counterevidence member, KB-ZHAO-275; BOND grades.
+2026-11-16T19:14:32Z	SIG-W-20261113-003	noted	INBOX_WALTER	Blackwell fingerprints -> combo:chip-control-leakage KB-ZHAO-274; not an instrument.
+2026-11-16T19:14:32Z	SIG-W-20261114-003	acted	INBOX_WALTER	Trump-Xi bilateral 11/19 Shenzhen registered in docket/CATALYSTS.tsv; KB-ZHAO-273.
+2026-11-16T19:14:32Z	SIG-W-20261116-005	noted	INBOX_WALTER	Copper four-month low on weak China data -> KB-ZHAO-276.

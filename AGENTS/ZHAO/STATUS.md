@@ -1,34 +1,22 @@
 # ZHAO STATUS
 
-**Updated:** 2026-11-11 10:19 ET (by `date`) — **PROME prome-2b catch-up on Will's 09:24 ET word.** Inbox drained, 5 of 5 (KB-264): CATO MC1 FIXED in boot.py, closure tests 5/5 · WQ-660 combination-watch line and WQ-660 A brief-pin line in `CLAUDE.md` (32,509 B) · live refresh (KB-265) · Fed-hike and yen read (KB-266) · two combination-watch logs (KB-267, 268). **No score, band, threshold, prediction or card moved.** Prior: 2026-11-10 11:27 ET.
-📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① **A December Fed hike is now priced** (ORACLE 11/11: +25bp 85.5, +50bp or more 11.8; US 2Y +17bp on 11/10) **and USD/JPY sits at 159.4. Neither raises China's Treasury selling:** the yuan FIRMED against the rising dollar and the PBOC still sets its fix weaker than the market, so the currency-defence channel that would force sales is shut (KB-266). Japan, not China, is the live forced-seller risk near 160 (SAM's call). Higher yields will cut China's reported LEVEL on price in the November data, not its flows. ② **HK:** USD/HKD 7.8455, 0.0045 from the weak edge; a hike HIBOR does not follow leans toward ZHA-25 (held 18%). ③ **China 10Y 1.61%, back above 1.60 ⇒ YELLOW by the letter** (secondary carrier, oscillating on the line). ④ The 11/10 clocks are all re-suspended to about 1/10 (graded 11/10). ⑤ **Next:** October credit and NFRA Q3 (~11/14), October activity (~11/16), **September TIC + ZHA-22 + BIS re-check 11/18**, LPR 11/20, 公告2024年第46号 clause 2 on 11/27.
-🧊 **11/10 header, cluster table, resume notes, bottom line and ✅ calendar rows moved VERBATIM → `archive/STATUS_COLD_20261111.md` §ⓐ–ⓔ** · through 11/02 → `archive/STATUS_COLD_20261106.md` §ⓐ–ⓖ (earlier → `…_20261029.md`, `…_20261022.md`).
+**Updated:** 2026-11-16 14:15 ET (by `date`) — **PROME prome-6f assignment on Will's 13:45 ET word.** ① KB read-cap flag was a FALSE breach (checker matched "item read on a card"; no boot step reads KB.tsv whole). Split measured and declined: PROME's hot criteria select 109 rows, 222,310 B, 6.8× the budget. Charter wording fixed instead; checker now rc 0 (KB-269). ② Inbox drained 7 of 7 (KB-277). ③ Due rows graded: October credit (KB-270), October activity (KB-271); NFRA Q3 not out, re-dated 11/20 (KB-272). ④ Nvidia/Treasury item read against the record (KB-274). **No score, band, threshold or prediction moved.** Prior: 2026-11-11 10:19 ET.
+📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① **October was weak at home:** bank loans SHRANK about RMB 100B in the month, retail sales +0.4%, investment −8.1% YTD and worsening, property investment −21.6% YTD (NBS primary 11/16). Exports and producer prices are the strength; households and firms are not borrowing. V5b rescore (now 3) is owed with this data. ② **Trump meets Xi in Shenzhen Thu 11/19** (trilateral with Putin after; China silent on it). Only an instrument counts, never a readout. ③ **September TIC + ZHA-22 + BIS re-check Wed 11/18** (not pre-graded). ④ HK peg calm: aggregate balance moves 11/9–11/16 were discount-window flows, HKMA market activity +0 every day. ⑤ LPR 11/20, 公告2024年第46号 clause 2 ends 11/27. **Live 11/16 14:09 ET (boot.py, intraday):** USD/CNY 6.65 · fix 6.7141 · USD/KRW 1,336.20 · Brent $92.43 (`BZ=F`) · USD/HKD 7.8457 · aggregate balance HK$54,055M · 1M HIBOR 2.66327%.
+🧊 **11/11 header, 11/10 cluster table, 11/11 resume notes, NOV 11 bottom line and two graded calendar rows moved VERBATIM → `archive/STATUS_COLD_20261116.md` §ⓐ–ⓕ** · 11/10 blocks → `archive/STATUS_COLD_20261111.md` §ⓐ–ⓔ · through 11/02 → `…_20261106.md`.
 **Overall Status:** 🟠 ELEVATED — **29/60** (+1 on 11/06, V5; two-sided shadow 32). **August TIC: China $590.7B; LT −$4.8B, a third month of selling at half the prior pace; 6-month net −$71.5B.** Thesis kill re-specified 10/29 (Belgium leg retired → China flow leg F). Proxy falsified (rho +0.067, n=43); rotation refuted three times.
 
-> 🧊 **READ-CAP rotations (verbatim moves, nothing deleted):** #1 `archive/STATUS_COLD_20260902.md` · #2 `…_20260917.md` · #3 `…_20260918.md` (§①–㉚) · **#4 `…_20260918b.md` (§ⓐ–ⓚ)**. · **#7 `…_20260925.md` (§ⓐ–ⓖ)** · **#8 `…_20261016.md` (§ⓐ–ⓒ)** · **#9 `…_20261106.md` (§ⓐ–ⓘ)** · **#10 `…_20261111.md` (§ⓐ–ⓔ)**
+> 🧊 **READ-CAP rotations (verbatim moves, nothing deleted):** #1 `archive/STATUS_COLD_20260902.md` · #2 `…_20260917.md` · #3 `…_20260918.md` (§①–㉚) · **#4 `…_20260918b.md` (§ⓐ–ⓚ)**. · **#7 `…_20260925.md` (§ⓐ–ⓖ)** · **#8 `…_20261016.md` (§ⓐ–ⓒ)** · **#9 `…_20261106.md` (§ⓐ–ⓘ)** · **#10 `…_20261111.md` (§ⓐ–ⓔ)** · **#11 `…_20261116.md` (§ⓐ–ⓕ)**
 
 ---
 
-## 📌 THE 11/10 CLUSTER — closed
-
-All re-suspended 11/9 and graded at the primaries 11/10 (KB-255): ZHA-19/20 YES; L435, L437, L858, L1088 closed. Table → `archive/STATUS_COLD_20261111.md` §ⓑ (verbatim). **Next cliff 1/9–1/11/2027: four texts, four wordings, ⛔ DO-NOT-MERGE; always write the year (2026年第58号 ≠ 2025年第58号).** Separate clock: 公告2024年第46号 clause 2 至2026-11-27 (Ga/Ge/Sb/superhard + graphite; D:L483, not pulled forward).
-
----|---|---|---|
-| US perimeter | BIS stay FR 2026-22793, 91 FR 70789, published 11/9 (KB-242) | "until January 10, 2027" | L435 ✅ · ZHA-19 **YES** 11/10 |
-| China perimeter | **商务部、海关总署公告2026年第58号**, 11/9 16:00 Beijing: 2025 Nos. 55-58, 61, 62 继续暂停实施 自11/11起至2027-01-10. Scope = 公告70's word for word (KB-246) | 至2027-01-10 | L437 ✅ · ZHA-20 **YES** 11/10 (00:11 Beijing 11/11) |
-| US s.301 ships | **USTR FR 2026-22867**, PI 11/9 08:45 ET, pub 11/10, effective 11/9 (KB-248) | through 11:59 p.m. ET 2027-01-09 | L858 ✅ · published 11/10, 91 FR 72608 · fees did NOT resume; FR-before-deadline leg NO by letter |
-| China ships mirror | **交通运输部公告2026年第90号** (11/9): 2025 Nos. 54, 55 + 交办水〔2025〕59号 continued (KB-257, A1 primary 11/10) | 至2027-01-10 | (beside L858) |
-| Hanwha | **商务部令2026年第4号**: 令2025年第6号 measures suspended 2 more months from 11/10 Beijing (KB-247) | ~2027-01-10 | L1088 ✅ · **RE-SUSPENDED**. Order numbers settled: 令2025年第6号 = countermeasures, 令2025年第7号 = last year's suspension (the row's clock), 令2026年第4号 = this one |
-| China (separate) | 公告2024年第46号 clause 2 (suspended by 公告2025年第72号, primary read 11/10, KB-261): Ga/Ge/Sb/superhard presumption of denial **+ graphite** end-user review; clause 1 military ban never suspended | 至2026-11-27 | 🟠 L483 · date ✅, scope corrected · no extension yet |
-
-⚠️ **2026年第58号 (the suspension) ≠ 2025年第58号 (the battery package). Always write the year.** ⛔ DO-NOT-MERGE carries forward: four texts, four wordings ("until 1/10", "through 1/9 23:59 ET", 至1/10, "2 months"). MOFCOM list read: unit API WITH `parseType=bulidstatic` (count 2,358). Successor rows in `docket/CATALYSTS.tsv` at 2027-01-09 and 2027-01-10. WATT T1 re-dates to 1/10 by its own clause and does not open 11/11.
+## 📌 THE 11/10 CLUSTER — closed (graded 11/10; table → `archive/STATUS_COLD_20261116.md` §ⓑ). Next cliff 1/9–1/11/2027: four texts, four wordings, ⛔ DO-NOT-MERGE; always write the year (2026年第58号 ≠ 2025年第58号). Separate clock: 公告2024年第46号 clause 2 至2026-11-27.
 
 ---
 
-## ▶️ RESUME NOTES (2026-11-11, PROME prome-2b catch-up; CLOSED OUT 2026-11-11 10:23 ET on PROME's ask; packet consumed and filed by PROME, charter diff verified, outbox signal handed to WALTER. Next wake: September TIC + ZHA-22, 11/18)
+## ▶️ RESUME NOTES (2026-11-16, PROME prome-6f; HOLDING open on PROME's instruction, not closed out)
 
-- ✅ **Done 11/11:** inbox 5/5 drained and filed (KB-264, `board_log.tsv`); MC1 fixed + `scripts/test_pboc_omo.py` 5/5 (pre-fix control 3/5, MC1 reproduced); two charter lines on Will's WQ-660 / 660 A; DAEDALUS B24 receipt (D:L490); live refresh (KB-265); Fed/yen read (KB-266); combo themes `official-ust-demand` (new) and `chip-control-leakage` (KB-267, 268). Memo `PROME/inbox/2026-11-11_from-ZHAO_catchup-read.md`.
-- **Still owed:** NEXT ACTIONS 12 (VX row for the Chinese clock) · V5b rescore on the October data · Vector 1 rescore question at September TIC (11/18).
+- ✅ **Done 11/16:** read-cap finding + charter fix (KB-269) · inbox 7/7 (KB-277; DAEDALUS WQ-678 B: M27, M32 applied, rest deferred) · October credit and activity graded (KB-270, 271) · NFRA re-dated (KB-272) · Trump–Xi 11/19 registered (KB-273) · combo members (KB-274 to 276). Memo `PROME/inbox/2026-11-16_from-ZHAO_examination-items.md`.
+- **Still owed:** V5b rescore on the October cluster (no written letter yet) · household-loan split and 70-city prices · NEXT ACTIONS 12 (VX row for the Chinese clock) · Vector 1 rescore question at September TIC (11/18).
 
 ---
 
@@ -129,15 +117,14 @@ All re-suspended 11/9 and graded at the primaries 11/10 (KB-255): ZHA-19/20 YES;
 
 | Date | Event | P |
 |------|-------|---|
-| ~Sat Nov 14 (modeled day) | China October credit (loans / TSF / M1-M2) · NFRA Q3 bank indicators (rural NPL vs 2.83%) | 🟠 |
-| ~Mon Nov 16 | China October activity (IP, retail, FAI, property, 70-city prices) | 🟠 |
 | Wed Nov 18 | **September TIC** (Treasury-confirmed) — **ZHA-22** resolves; Q3 anchor total; Aug residual revision? · BIS Entity-List re-check | 🔴 |
-| Fri Nov 20 | LPR fixing (only a CUT is a signal) | 🟡 |
+| Thu Nov 19 | Trump–Xi bilateral, Shenzhen (instrument only; KB-273) | 🟠 |
+| ~Fri Nov 20 (modeled) | NFRA Q3 bank indicators (rural NPL vs 2.83%) — not out at 11/16 · LPR fixing (only a CUT is a signal) | 🟠 |
 | Fri Nov 27 | MOFCOM 公告2024年第46号 clause 2 ends (first uncovered day 11/28; D:L483) · then ZHA-23 Mon Nov 30, ZHA-25/26 to 12/31 | 🟠 |
 
 *(The old November-window paragraph, overtaken on its US leg by the 11/05 stay, moved VERBATIM → `archive/STATUS_COLD_20261106.md` §ⓗ. WATT's channel keys on the MOFCOM instrument, not the date.)*
 
-## PREDICTIONS (status Nov 11)
+## PREDICTIONS (status Nov 16)
 
 *(**OPEN rows only** — resolved rows live in `workbook/PREDICTIONS.tsv`.)*
 
@@ -157,11 +144,11 @@ All re-suspended 11/9 and graded at the primaries 11/10 (KB-255): ZHA-19/20 YES;
 
 **OWED — in priority order; full rationale per item → COLD_20260918b §ⓠ + §ⓝ.**
 
-2. 🟠 **11/10 clocks all re-suspended 11/9 and ✅ GRADED 11/10 (KB-255, 257): ZHA-19/20 YES; L435, L437, L858, L1088 closed to PROME. WATT T1 re-date sent in the 11/09 outbox signal.** Next cluster 1/9 to 1/11/2027 (CATALYSTS successor rows). Blind spots: GAC (412). 公告2025年第72号 and 11/27 clause 2 ✅ read 11/10 (KB-261). MoT primary ✅ via the mot.gov.cn home-page link (KB-257).
+2. ✅ 11/10 clocks graded (moved → `archive/STATUS_COLD_20261116.md` §ⓔ). Next cluster 1/9 to 1/11/2027 (CATALYSTS rows).
 5. 🟠 **Primaries owed on the two NEW rows:** ChinaBond for `VX-2.08` (currently a secondary carrier) · **a single-source matched-basis figure for `VX-2.09`** — today's legs are mixed carriers/dates/conventions and **only the DIRECTION is quotable** (KB-171).
 6. 🟠 **PBOC central-parity SERIES** — ✅ first primary read 10/29 (CFETS via Xinhua: 6.7147 vs market 6.6607, KB-212); still owed: a series from `chinamoney.com.cn`, since **the gap between fix and market IS the signal** and one day is not a series.
 9-bis. 🟠 **Residue of items 3, 4, 8 (full text → COLD_20261111 §ⓖ):** explain the Aug −$12.25B China / +$19.85B Belgium holdings residuals · Vector 1 rescore question · refresh `VX-1.04`/`VX-7.01` · CFETS 16:30 close as the primary market leg · GACC tables, Sep credit + activity data.
-9. 🟠 **Owed from 11/06:** V5b rescore on the October cluster · ✅ **WQ-622 charter line and B24 `CLAUDE.md:37` DONE 11/11 on Will's WQ-660 / 660 A** (KB-264; charter 32,509 B, 41 B of cap room) · read SoftBank's and ABB's own text (KB-236 is WALTER's read) · Vector 8 4→5 question · rural NPL base rate → ZHA-05 successor · ZHA-10 `Date_Made` defect. History → COLD_20261106 §ⓕ-2.
+9. 🟠 **Owed from 11/06:** V5b rescore on the October cluster (data now in: KB-270, 271) · ✅ **WQ-622 charter line and B24 `CLAUDE.md:37` DONE 11/11 on Will's WQ-660 / 660 A** (KB-264; charter 32,509 B, 41 B of cap room) · read SoftBank's and ABB's own text (KB-236 is WALTER's read) · Vector 8 4→5 question · rural NPL base rate → ZHA-05 successor · ZHA-10 `Date_Made` defect. History → COLD_20261106 §ⓕ-2.
 10. 🟡 Low-priority carries (ag channel KB-170 · Korea caveats · DAEDALUS 10/14 items · ZHA-10 `Date_Made` · HK $9.33B June sale KB-140) → `archive/STATUS_COLD_20261111.md` §ⓗ.
 11. 🟡 **HK peg watch (new 10/29, KB-216):** USD/HKD 7.846 at the 7.85 weak edge, HIBOR-SOFR YELLOW. Tell = HKMA `market_activities` ≠ +0 / Aggregate Balance falling ⇒ rescore Vector 7, route LIQUID+PROME. Check at each boot (HKMA API, ~1 call).
 12. 🟠 **`VX` row owed for the Chinese clock** — `FLOW-15` exists, no vector tracks it. ⛔ next free id (8.01 is FROZEN).
@@ -169,7 +156,7 @@ All re-suspended 11/9 and graded at the primaries 11/10 (KB-255): ZHA-19/20 YES;
 
 ## BOTTOM LINE
 
-**NOV 11 — catch-up.** The US repriced hard after October inflation and Governor Waller: markets now expect a December rate rise of more than a quarter point, and the 2-year yield jumped 0.17 points on 11/10. For China's dollar holdings this changes less than it looks. Beijing would only be forced to sell Treasuries if it had to prop up the yuan, and it doesn't: the yuan got stronger against a rising dollar this week and the central bank is still holding it back from rising. The real pressure point in Asia is Japan, where the yen is a hair from 160, the level at which Tokyo spent about ¥15 trillion defending it in the summer (SAM's read). Two smaller effects: higher US yields will shrink the reported value of China's holdings in the November data without any selling, and a Fed hike puts mild pressure on the Hong Kong dollar peg (7.8455, near the 7.85 edge; no intervention yet). China's 10-year yield ticked back up to 1.61%. Nothing moved a score or a forecast. *(NOV 10 and NOV 9 paragraphs → `archive/STATUS_COLD_20261111.md` §ⓓ, verbatim.)*
+**NOV 16 — October data and housekeeping.** China's October numbers show demand at home still shrinking: banks lent less than they were repaid (about RMB 100B net contraction), shoppers barely spent more than a year ago (+0.4%), and investment kept falling, led by property (−21.6% so far this year). What is growing is exports and factory prices, not household or business borrowing. This does not change the Treasury story: China is not being forced to sell dollars, because the yuan is strong and the central bank is holding it back. The next tests are September Treasury holdings on Wednesday (ZHA-22, 60% that China sold long-term Treasuries again) and the Trump–Xi meeting Thursday, where anything on chip export controls counts only if it is written into an official document. No score or forecast moved. *(NOV 11 paragraph → `archive/STATUS_COLD_20261116.md` §ⓕ, verbatim.)*
 
 
 ---

@@ -26,10 +26,10 @@ When spawned with a task:
    - **AT EVERY BOOT — TRIAGE ONLY (~60s, no KB writes):** scan inbox **titles** (top level + `inbox/WALTER/`). **Pull and read now** anything that (a) names one of your live vectors/thresholds, (b) is a fleet RULE or spec change, or (c) carries an ACTION addressed to ZHAO. **Everything else stays queued** — do not process, do not move.
    - **BULK PROCESSING stays a dedicated spawn** (log each to KB.tsv, `git mv` to `processed/`) — unchanged.
    - **If triage pulls something that bears on a live vector, say so in STATUS** even if you don't act on it. An unconsumed refutation is worse than an unread one.
-   - **Combination watch (Will, WQ-622 A; WQ-660):** a sub-threshold item read on a card, sweep or print that may matter later or in combination → a dated `KB.tsv` row, `combo:<theme>` first in Notes, with read state, counterevidence and what would make it matter. Logging is not scoring (`PROME/COMBINATION_WATCH.md`).
+   - **Combination watch (Will, WQ-622 A; WQ-660):** a sub-threshold item seen on a card, sweep or print that may matter later or in combination → a dated `KB.tsv` row, `combo:<theme>` first in Notes, with read state, counterevidence and what would make it matter. Logging is not scoring (`PROME/COMBINATION_WATCH.md`).
 1b. **Run the boot brief** — `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python AGENTS/ZHAO/scripts/boot.py)` (root-relative wrap so it works from an own-dir launch too; use `.venv/bin/python`, **NOT** system `python3` — yfinance lives in the venv, this requirement is load-bearing). Gives live FX/Brent + band check, key-figure staleness flags, TIC-release watch, catalyst docket, and open predictions. **Refresh anything flagged 🔴 STALE before trusting STATUS.md.** (`--quick` skips the network pull.)
 2. **Read `STATUS.md`** — your current state, dashboard, active situations
-3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
+3. **Before writing to KB.tsv (never read whole at boot; search it by id), read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
 3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
 3c. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" ZHAO` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <A>` + the WQ-399 fields the rc=1 line prints (field-less = refused, rc 2) and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS sweep ①, Will-approved.)*
 4. **Execute the task** — then run the CLOSEOUT PROTOCOL below. Boot and closeout are one sequence; steps 5-7 are the head of the write-back tail, not the whole of it.
@@ -38,8 +38,6 @@ When spawned with a task:
 7. **If the task changes your thesis or key numbers, update STATUS.md AND refresh `NEXUS_BRIEF.md` before finishing** (As-of stamp always; content on material change — this is ZHAO's primary cross-agent intake surface for NEXUS). **Brief pin (NEXUS §4.4, B24 11/06; Will WQ-660 A):** the brief's As-of line carries `STATUS commit: NONE (folded in the same commit as STATUS)`; folded in a separate commit ⇒ the STATUS hash or `NONE (true reason)`. Elsewhere "as-of <date>", never a SHA (rebases churn hashes).
 
 ⚠️ **File > verbal (root canon).** Always WRITE to STATUS.md — a finding reported only verbally does not persist. ⚠️ **And write it where the READER travels, not merely where it belongs:** four times on 2026-09-02 this desk filed a correct fix on a surface no boot reader consults — including the *"do not cite as canon"* flag, filed in `KB.tsv`, the file this desk had documented the same session as having no reader. **Ask which surface the reader consults, never which surface the item belongs to** (KB-ZHAO-136/139).
-
-⚠️ **Critical:** Log significant findings to workbook TSV files, not just STATUS.md. STATUS gets rewritten; workbook entries are permanent.
 
 **MAIL:** **BULK inbox processing** is a separate task — wait to be spawned for it. **But boot-time TRIAGE is mandatory, not optional — see SPAWN step 1**, which owns the rule and its cost history. Triage = scan titles, pull what bears on live vectors/rules/ACTIONs, leave the rest queued. ⚠️ **A bulk `git mv inbox/*.md` treats a live inbox as a snapshot; re-list immediately before moving** (2026-09-02: two mid-session arrivals swept unread, caught at the pre-commit check).
 
@@ -254,7 +252,7 @@ When spawned for inbox processing: **check inbox/ for pending signals**, log eac
 |------|---------|
 | `STATUS.md` | Live dashboard — ≤250 lines. Signal dashboard, convergence matrix, situations, exit rules, calendar, bottom line. |
 | `scripts/boot.py` | Boot brief — live FX/Brent pull + band check, key-figure staleness flags, TIC-release watch, catalyst docket, open predictions. Run at boot via `.venv/bin/python`. |
-| `NEXUS_BRIEF.md` | Standing brief NEXUS consumes for cross-agent synthesis (VIEW/CALIBRATION/CROSS-DOMAIN/NEXT/FORWARD CATALYSTS, ≤100ln). Schema: NEXUS `templates/NEXUS_BRIEF_TEMPLATE.md`. Refresh every closeout. |
+| `NEXUS_BRIEF.md` | Standing brief NEXUS consumes for cross-agent synthesis (VIEW/CALIBRATION/CROSS-DOMAIN/NEXT/FORWARD CATALYSTS, ≤100ln). Schema: NEXUS `templates/NEXUS_BRIEF_SCHEMA.md`. Refresh every closeout. |
 | `workbook/KB.tsv` · `VX.tsv` · `FLOW.tsv` | Permanent 13-col factual record · vectors with Y/O/R thresholds · transmission pathways |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts (ZHA-NN) with Invalidation criteria. Grade only after the registered window expires. |
 | `workbook/SCHEMA.tsv` | KB data dictionary — **read before writing KB rows** (validates enums). *(`VX_HISTORY.tsv` 🧊 archived 10/29, unappended since 2/13.)* |
