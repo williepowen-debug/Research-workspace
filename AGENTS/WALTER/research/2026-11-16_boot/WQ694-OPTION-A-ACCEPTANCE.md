@@ -51,3 +51,16 @@ Suites: versions 13/13, catch-up 26/26, cruise 15/15, GPU 3/3, boot repairs 15/1
 | N-a, N-b, N-c, CE9b | Carried, not in this diff. | ledger |
 
 Suites: versions 14/14, catch-up 26/26, cruise 15/15, GPU 3/3, boot repairs 15/15. Live read-only scan unchanged.
+
+## Response to read 3, the last read (`PROME/reports/2026-11-16_wq694-scanner-versions-read/LEDGER-read3.md`)
+
+| Finding | Disposition | Evidence |
+|---|---|---|
+| B-1: any non-zero HEAD-check exit was read as an empty repository, so a broken git went silent (a regression from f1c4b98198's side change) | **FIXED, IMPLEMENTED AND TESTED BY WALTER, NOT INDEPENDENTLY VERIFIED** (the read budget is spent). Only exit 1 means empty; any other non-zero exit is a history error, which gives the UNKNOWN line and the HELD pointer. | V15 (garbage HEAD, rev-parse exit 128) FAILS on f1c4b98198 (no UNKNOWN) and passes now |
+| B-2: a headline shown NEW during a hold can be shown NEW once more after repair | **DECLARED LIMIT.** It repeats and loses nothing, and needs an unreadable history plus a later same-day run while the hold lasts. | ledger R3 |
+| B-3: no pointer plus unreadable history: no UNKNOWN line, and the pointer is stored by sha only | **DECLARED LIMIT.** It predates this work and needs a missing seen file and an unreadable clone at the same time. The live seen file has a pointer, and gets a commit at its next mark. | ledger |
+| N-1 to N-4 | Carried. | ledger |
+
+Suites: versions 15/15, catch-up 26/26, cruise 15/15, GPU 3/3, boot repairs 15/15. Live read-only scan unchanged.
+
+**Readiness for two collector runs a day: YES** (walter-5a, 2026-11-16 18:0x ET), on a full linear clone with a seen file that stores `last_marked_commit` (the live file gains it at its next mark). Until that mark the scanner resumes by bytes, with 0 empty versions among 128 live versions. Carried follow-ups: read 1 N2 to N4, follow-up read N-a to N-c, read 3 B-2, B-3 and N-1 to N-4, and B2 (an unreadable committed version holds the pointer).

@@ -200,9 +200,12 @@ def _lane_history():
         try:
             if not (LANE / ".git").exists():
                 raise OSError("lane is not a git clone")
-            if _git("rev-parse", "--verify", "-q", "HEAD").returncode:
-                _HIST[k] = ({}, None)
+            rc = _git("rev-parse", "--verify", "-q", "HEAD").returncode
+            if rc == 1:  # read 3 B-1: only exit 1 is an empty repository; 128 (corrupt HEAD, refused
+                _HIST[k] = ({}, None)  # repository) is a history error, loud
                 return _HIST[k]
+            if rc:
+                raise OSError(f"git rev-parse HEAD exit {rc}")
             sh = _git("rev-parse", "--is-shallow-repository").stdout.decode().strip()
             if sh == "true" or _git("config", "--get", "extensions.partialClone").returncode == 0:
                 raise OSError("lane clone is shallow or partial, so its history is incomplete")  # read B3

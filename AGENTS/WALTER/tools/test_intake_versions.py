@@ -292,5 +292,22 @@ class Versions(unittest.TestCase):
         self.assertTrue(any(b.startswith(P('2026-11-20') + '@') for b in d['news_batches']), d['news_batches'])
 
 
+    # Read 3 of f1c4b98198, B-1: a broken HEAD (exit 128) is a history error, not an empty repository.
+    def test_V15_B1_broken_head_is_loud_and_holds(self):
+        self.run_collector('2026-11-19', [item('D19', 'NEW')])
+        self.mark()
+        before = json.loads(self.seen.read_text())
+        self.run_collector('2026-11-20', [item('r1 hit', 'NEW_WATCH_HIT', hits=[['CYPHER', 'r']])])
+        self.run_collector('2026-11-20', [item('r2', 'NEW')])
+        (self.lane / '.git' / 'HEAD').write_text('garbage\n')   # corrupt HEAD: rev-parse exits 128
+        self.assertEqual(subprocess.run(['git', '-C', str(self.lane), 'rev-parse', '--verify', '-q', 'HEAD'],
+                                        capture_output=True).returncode, 128)
+        d = self.scan()
+        self.assertTrue(any('UNKNOWN' in h[1] for h in d['health']), d['health'])
+        rc, out = self.mark()
+        self.assertIn('HELD', out)
+        self.assertEqual(json.loads(self.seen.read_text()).get('last_marked_commit'), before['last_marked_commit'])
+
+
 if __name__ == '__main__':
     unittest.main()
