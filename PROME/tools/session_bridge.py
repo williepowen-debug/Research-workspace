@@ -39,9 +39,13 @@ class BridgeUnavailable(BridgeError):
 
 
 MAX_FRAME = 4_000_000
-# The only traffic the WebSocket transport may originate (DOCKET L907: read-only).
-READ_ONLY_METHODS = frozenset({"initialize", "thread/loaded/list", "thread/read"})
-READ_ONLY_NOTIFICATIONS = frozenset({"initialized"})
+# The only traffic the WebSocket transport may originate (DOCKET L907: read-only):
+# these requests with these parameter names, and the bare `initialized` notification.
+READ_ONLY_METHODS = {"initialize": frozenset({"clientInfo", "capabilities"}),
+                     "thread/loaded/list": frozenset({"cursor", "limit"}),
+                     "thread/read": frozenset({"threadId", "includeTurns"})}
+INVENTORY_BUDGET_SECONDS = 60.0
+INVENTORY_MAX_PAGES = 50
 
 
 class Rpc:
@@ -170,8 +174,10 @@ class Rpc:
 class WsRpc(Rpc):
     """WebSocket over a Unix socket (the Codex control socket). Read-only by construction.
 
-    Sends only READ_ONLY_METHODS, the `initialized` notification and error replies to
-    requests the server initiates. Never starts a daemon; never delivers input.
+    Sends only the READ_ONLY_METHODS requests (metadata reads; `includeTurns` false) and the
+    bare `initialized` notification. A request the server initiates is never answered, not
+    even with a refusal: on a shared control socket a reply could settle another session's
+    pending approval. It stops the read instead (UNKNOWN). Never starts a daemon.
     """
 
     read_only = True
@@ -199,15 +205,19 @@ class WsRpc(Rpc):
         return cls(connection, "unix+ws://" + str(path))
 
     def send(self, value):
-        if "method" in value and "id" in value:
-            allowed = value["method"] in READ_ONLY_METHODS
-        elif "method" in value:
-            allowed = value["method"] in READ_ONLY_NOTIFICATIONS
-        else:  # a reply to a server-initiated request: a refusal only, never a result
-            allowed = "id" in value and "error" in value and "result" not in value
-        if not allowed:
+        request = (isinstance(value, dict) and set(value) == {"id", "method", "params"}
+                   and type(value["id"]) is int and isinstance(value["method"], str)
+                   and value["method"] in READ_ONLY_METHODS and isinstance(value["params"], dict)
+                   and set(value["params"]) <= READ_ONLY_METHODS[value["method"]]
+                   and (value["method"] != "thread/read" or value["params"].get("includeTurns") is False))
+        if not request and value != {"method": "initialized"}:
             raise BridgeError("Read-only transport refuses to send this message")
         self.connection.send(json.dumps(value, separators=(",", ":")))
+
+    def route(self, value):
+        if "method" in value and "id" in value:
+            raise BridgeError("Server-initiated request left unanswered on a read-only transport; coverage UNKNOWN")
+        super().route(value)
 
     def receive(self, timeout=30):
         from websockets.exceptions import ConnectionClosed
@@ -423,15 +433,27 @@ def doorbell(rpc, journal, envelope):
     return {"status": "ACCEPTED", "result": result, "duplicate": False}
 
 
-def codex_inventory(rpc):
-    threads, cursor, seen = [], None, set()
+def codex_inventory(rpc, budget=INVENTORY_BUDGET_SECONDS, max_pages=INVENTORY_MAX_PAGES):
+    """One bounded read: an overall deadline and a page limit; exceeding either is UNKNOWN."""
+    deadline = time.monotonic() + budget
+
+    def call(method, params):
+        left = deadline - time.monotonic()
+        if left <= 0:
+            raise BridgeError("Inventory deadline exceeded; coverage UNKNOWN")
+        return rpc.call(method, params, timeout=min(30, left))
+
+    threads, cursor, seen, pages = [], None, set(), 0
     while True:
-        result = rpc.call("thread/loaded/list", {"cursor": cursor, "limit": 100})
+        pages += 1
+        if pages > max_pages:
+            raise BridgeError("Inventory page limit exceeded; coverage UNKNOWN")
+        result = call("thread/loaded/list", {"cursor": cursor, "limit": 100})
         if (not isinstance(result, dict) or not isinstance(result.get("data"), list)
                 or any(not isinstance(tid, str) or not tid for tid in result["data"])):
             raise BridgeError("Malformed loaded-thread inventory; coverage UNKNOWN")
         for tid in result["data"]:
-            thread = rpc.call("thread/read", {"threadId": tid, "includeTurns": False})["thread"]
+            thread = call("thread/read", {"threadId": tid, "includeTurns": False})["thread"]
             if not isinstance(thread, dict) or thread.get("id") != tid:
                 raise BridgeError("Inventory thread identity mismatch; coverage UNKNOWN")
             threads.append({k: thread.get(k) for k in (

@@ -3,7 +3,7 @@
 Local fixture servers and temporary state only; no Codex daemon is contacted or started.
 Acceptance: PROME/tools/tests/ACCEPTANCE_session_bridge_codex_websocket_2026-11-16.md.
 Run with the repository venv (the fixture server needs `websockets`):
-  PYTHONDONTWRITEBYTECODE=1 .venv/bin/python3 -m unittest discover -s PROME/tests -p 'test_session*.py'
+  PYTHONDONTWRITEBYTECODE=1 .venv/bin/python3 -m unittest discover -s PROME/tests -p 'test_session_bridge*.py'
 """
 import importlib.util
 import json
@@ -121,20 +121,33 @@ class WebSocketInventoryTests(unittest.TestCase):
         self.assertEqual(observed["threads"], [])
         self.assertEqual(observed["scope"], "loaded threads on this server only")
 
-    # A3
-    def test_server_initiated_approval_is_refused_and_does_not_displace_the_response(self):
+    # A3 (amended after independent read 1): a server-initiated request is never answered
+    def test_server_initiated_request_is_left_unanswered_and_reads_unknown(self):
         def read_with_approval(ws, message):
             ws.send(json.dumps({"id": "srv-1", "method": "item/commandExecution/requestApproval", "params": {}}))
+            ws.send(json.dumps({"id": message["id"], "result": {"thread": thread(message["params"]["threadId"])}}))
+
+        def forged(ws, message):  # reuses our pending id and carries a result beside a method
+            ws.send(json.dumps({"id": message["id"], "method": "x/requestApproval",
+                                "result": {"thread": thread(message["params"]["threadId"])}}))
+
+        def at_initialize(ws, message):
+            ws.send(json.dumps({"id": 99, "method": "account/login", "params": {}}))
+            ws.send(json.dumps({"id": message["id"], "result": {}}))
+        for name, overrides in (("during a read", {"thread/read": read_with_approval}),
+                                ("forged pending id", {"thread/read": forged}),
+                                ("during initialize", {"initialize": at_initialize})):
+            with self.subTest(name):
+                fixture, observed = self.observe(overrides)
+                self.assert_unknown(observed)
+                self.assertEqual([m for m in fixture.received if "method" not in m], [])  # no reply of any kind
+
+    def test_notifications_from_the_server_do_not_stop_the_read(self):
+        def read_with_notice(ws, message):
             ws.send(json.dumps({"method": "thread/status/changed", "params": {"threadId": "t9"}}))
             ws.send(json.dumps({"id": message["id"], "result": {"thread": thread(message["params"]["threadId"])}}))
-        fixture, observed = self.observe({"thread/read": read_with_approval})
+        _, observed = self.observe({"thread/read": read_with_notice})
         self.assertEqual([t["id"] for t in observed["threads"]], ["t1", "t2", "t3"])
-        replies = [m for m in fixture.received if "method" not in m]
-        self.assertEqual(len(replies), 3)
-        for message in replies:
-            self.assertEqual(message["id"], "srv-1")
-            self.assertIn("error", message)
-            self.assertNotIn("result", message)
 
     # A2
     def test_only_read_methods_can_be_sent(self):
@@ -152,8 +165,27 @@ class WebSocketInventoryTests(unittest.TestCase):
             rpc.send({"id": "srv-1", "result": {"decision": "approved"}})
         with self.assertRaises(bridge.BridgeError):
             rpc.send({"id": "srv-1", "result": {"decision": "approved"}, "error": {"code": 1}})
-        with self.assertRaises(bridge.BridgeError):
-            rpc.send({})
+        refused = (
+            {},
+            {"id": "srv-1", "error": {"code": -32601, "message": "no"}},  # no replies at all, refusals included
+            {"id": 7, "error": {"code": -32601}, "decision": "approved"},
+            {"id": "srv-1", "method": "thread/read", "result": {"decision": "approved"}},
+            {"id": 7, "method": "thread/read", "params": {"threadId": "t1", "includeTurns": False}, "result": {}},
+            {"id": "7", "method": "thread/read", "params": {"threadId": "t1", "includeTurns": False}},
+            {"id": True, "method": "thread/read", "params": {"threadId": "t1", "includeTurns": False}},
+            {"id": 7, "method": "thread/read", "params": {"threadId": "t1", "includeTurns": True}},
+            {"id": 7, "method": "thread/read", "params": {"threadId": "t1"}},
+            {"id": 7, "method": "thread/read", "params": {"threadId": "t1", "includeTurns": False, "input": []}},
+            {"id": 7, "method": "initialize", "params": {"clientInfo": {}, "capabilities": {}, "extra": 1}},
+            {"id": 7, "method": "thread/loaded/list", "params": ["cursor"]},
+            {"id": 7, "method": ["thread/read"], "params": {}},
+            {"method": "initialized", "params": {"x": 1}},
+            {"method": "initialized", "id": None},
+        )
+        for value in refused:
+            with self.subTest(value=value):
+                with self.assertRaises(bridge.BridgeError):
+                    rpc.send(value)
         rpc.call("thread/loaded/list", {"cursor": None, "limit": 100})  # drains the connection in order
         self.assertEqual(fixture.methods(), ["initialize", "initialized", "thread/loaded/list"])
 
@@ -203,6 +235,29 @@ class WebSocketInventoryTests(unittest.TestCase):
             with self.subTest(name):
                 _, observed = self.observe(overrides)
                 self.assert_unknown(observed)
+
+    def test_endless_fresh_cursors_stop_at_the_page_limit(self):
+        counter = iter(range(10 ** 9))
+        fresh = lambda ws, m: ws.send(json.dumps(  # noqa: E731
+            {"id": m["id"], "result": {"data": [], "nextCursor": "c%d" % next(counter)}}))
+        fixture, observed = self.observe({"thread/loaded/list": fresh})
+        self.assert_unknown(observed)
+        self.assertEqual(fixture.methods().count("thread/loaded/list"), bridge.INVENTORY_MAX_PAGES)
+
+    def test_overall_deadline_bounds_a_slow_server(self):
+        import time
+
+        def slow(ws, message):
+            time.sleep(0.2)
+            ws.send(json.dumps({"id": message["id"], "result": {"thread": thread(message["params"]["threadId"])}}))
+        fixture = WsFixture(self, {"thread/read": slow})
+        rpc = bridge.WsRpc.unix(fixture.path)
+        self.addCleanup(rpc.close)
+        rpc.initialize()
+        started = time.monotonic()
+        with self.assertRaises((bridge.BridgeError, TimeoutError)):
+            bridge.codex_inventory(rpc, budget=0.5)
+        self.assertLess(time.monotonic() - started, 2.0)
 
     def test_response_deadline_is_a_timeout_not_a_result(self):
         fixture = WsFixture(self, {"thread/read": lambda ws, m: None})
