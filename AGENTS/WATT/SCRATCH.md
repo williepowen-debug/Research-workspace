@@ -9,10 +9,11 @@
 
 ---
 
-## CURRENT PICKUP — November 16, 2026, 14:22 EST; PROME assignment (Will's word 13:45 ET), HOLDING for PROME
+## CURRENT PICKUP — November 16, 2026, 14:22 EST; PROME assignment (Will's word 13:45 ET); closed out heavy at PROME's ask
 
 **State:** P1/P2/P3/P4 = 3/5/4/2, composite **14/20**, unchanged. **Built:** `tape_scan.py` boot leg (acceptance `proposals/2026-11-16_TAPE_SCAN_ACCEPTANCE.md`, tests `tests/test_tape_scan.py` 22 of 22; replay 10/24–10/28 finds the 10/27 18:50–19:00 fire as graded 10/29) [KB220]. Charter boot line and FILES rows updated (PROME class C4; PROME verifies). STATUS carries the machine-read line `**Tape cutoff (machine-read):** 2026-11-14T11:00 EPT`; **move it forward whenever a later tape is read**, or the scan rescans (harmless) from the old point.
 **Blocker:** PJM Data Miner 2 refuses the key, HTTP 401 with empty body, every call from 14:12 ET November 16 (worked November 14; key file unchanged since November 5). Live tape scan = UNKNOWN for November 14 10:00 to now; the demand limb was met in 7 of those 52 hours [KB220]. Key holder: Will, via PROME. No new key or account from this desk.
+**Delivery:** packet `PROME/inbox/2026-11-16_from-WATT_tape-scan-build-and-inbox.md` (028eeb1466) consumed by PROME 14:23 ET; key refusal = WILL_QUEUE 695; charter diff accepted under C4; reader decision waits for the key (PROME docket row). PROME asked whether a keyless PJM page shows the 7-hour gap: none I already use or trust (EIA ICE file is a daily on-peak average with ~12-day lag; the postings board shows postings, not prices); the verified 5-min feed (retained at least 49 days) covers the gap once the key works. PROME's closeout push carries these commits.
 **Inbox:** 1 of 1 drained (WALTER SIG-W-20261116-005, KB221; board row).
 **Remaining:** once DM2 answers: run `boot.py` (the scan reads from the cutoff), grade any run by the letter on the verified feed, move the cutoff line. Read the two ER26-3515 rehearing requests. Eaton 10-Q segment backlog dollars unread. Closeout only when PROME asks (heavy mode: tooling change).
 
