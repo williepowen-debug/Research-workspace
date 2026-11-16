@@ -6,6 +6,7 @@ Run: python3 AGENTS/WALTER/tools/test_cruise_capital_review.py
 """
 import io
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -27,6 +28,8 @@ class Base(unittest.TestCase):
         self.tmp = tempfile.TemporaryDirectory()
         self.lane = Path(self.tmp.name) / 'lane'
         self.state = Path(self.tmp.name) / 'state.json'
+        self.lane.mkdir(parents=True)  # WQ-694 (a): a git clone with no commits = empty history, no error
+        subprocess.run(['git', 'init', '-q', str(self.lane)], check=True)
         patches = [mock.patch.object(s, 'LANE', self.lane), mock.patch.object(s, 'CRUISE_STATE', self.state)]
         for p in patches:
             p.start()

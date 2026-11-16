@@ -41,6 +41,7 @@ import datetime as dt
 import hashlib
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 from intake_cadence import missed_weekday_runs
@@ -173,8 +174,103 @@ _BATCH_RE = re.compile(r"^data/(\d{4}-\d{2}-\d{2})/news\.json$")
 
 
 def _day(path):
-    m = _BATCH_RE.match(path or "")
+    """Day of a batch path or of a replaced-version id (`data/<day>/news.json@<sha12>`)."""
+    m = _BATCH_RE.match((path or "").split("@", 1)[0])
     return m.group(1) if m else None
+
+
+# ── Replaced versions (WQ-694 A option (a), PROME 2026-11-16; acceptance research/2026-11-16_boot/
+# WQ694-OPTION-A-ACCEPTANCE.md). The collector names data/<UTC date>/news.json and writes only headlines new
+# since its last run, so a second run the same UTC day REPLACES the file; unless WALTER marked between them
+# the first run's headlines never reached a scan. Every version stays in the lane clone's git history; a
+# replaced version is the batch `<path>@<sha12>`, read with `git show` (committed objects: they cannot change
+# between scan and mark). Read-only: git log and git show only, never pull, fetch or write the lane.
+_HIST, _BYTES, _VER = {}, {}, {}
+
+
+def _git(*args):
+    return subprocess.run(["git", "-C", str(LANE), *args], capture_output=True, timeout=60)
+
+
+def _lane_history():
+    """({news path: [commit, ...] oldest first}, error or None) from ONE `git log` per lane per process.
+    An empty repository (no commits) is an empty history, not an error."""
+    k = str(LANE)
+    if k not in _HIST:
+        try:
+            if not (LANE / ".git").exists():
+                raise OSError("lane is not a git clone")
+            if _git("rev-parse", "--verify", "-q", "HEAD").returncode:
+                _HIST[k] = ({}, None)
+                return _HIST[k]
+            r = _git("log", "--reverse", "--format=C %H", "--diff-filter=AM", "--name-only", "--", "data")
+            if r.returncode:
+                raise OSError(r.stderr.decode("utf-8", "replace").strip()[:120] or f"git log rc {r.returncode}")
+            hist, cur = {}, None
+            for line in r.stdout.decode("utf-8", "replace").splitlines():
+                line = line.strip()
+                if line.startswith("C "):
+                    cur = line[2:]
+                elif cur and _BATCH_RE.match(line):
+                    hist.setdefault(line, []).append(cur)
+            _HIST[k] = (hist, None)
+        except (OSError, subprocess.SubprocessError) as e:
+            _HIST[k] = (None, f"lane history unreadable ({type(e).__name__}: {e})")
+    return _HIST[k]
+
+
+def _show(commit, path):
+    k = (str(LANE), commit, path)
+    if k not in _BYTES:
+        try:
+            r = _git("show", f"{commit}:{path}")
+            _BYTES[k] = r.stdout if r.returncode == 0 else None
+        except (OSError, subprocess.SubprocessError):
+            _BYTES[k] = None
+    return _BYTES[k]
+
+
+def superseded_versions(path, after_sha=None):
+    """(ids, error): committed versions of `path` whose bytes differ from the working-tree file, oldest
+    first, as `<path>@<sha12>`. With after_sha: only versions committed after the LAST version with those
+    bytes, and an error if no version has them (which versions were read is then UNKNOWN)."""
+    hist, err = _lane_history()
+    if err:
+        return [], err
+    vers = []
+    for c in hist.get(path, []):
+        raw = _show(c, path)
+        if raw is None:
+            return [], f"{path} at {c[:10]} unreadable from lane history"
+        vers.append((hashlib.sha1(raw).hexdigest()[:12], c))
+    if after_sha:
+        idx = [i for i, (sh, _) in enumerate(vers) if sh == after_sha]
+        if not idx:
+            return [], f"marked version {after_sha} of {path} not in lane history"
+        vers = vers[idx[-1] + 1:]
+    cur = batch_sha(path)
+    out = []
+    for sh, c in vers:
+        vid = f"{path}@{sh}"
+        if sh in (cur, after_sha) or vid in out:
+            continue
+        _VER[(str(LANE), vid)] = c
+        out.append(vid)
+    return out, None
+
+
+def batch_bytes(batch):
+    """Bytes of a batch: the working-tree file, or a replaced version from lane history (OSError if absent)."""
+    if "@" not in (batch or ""):
+        return (LANE / batch).read_bytes()
+    path, sh = batch.split("@", 1)
+    if (str(LANE), batch) not in _VER:
+        superseded_versions(path)
+    c = _VER.get((str(LANE), batch))
+    raw = _show(c, path) if c else None
+    if raw is None or hashlib.sha1(raw).hexdigest()[:12] != sh:
+        raise OSError(f"version {batch} not in lane history")
+    return raw
 
 
 def _lane_days():
@@ -190,7 +286,7 @@ def read_batch_items(batch):
     """(items, error). ONE reader for the scan and --mark (follow-up note 1): valid JSON that is
     not an object with an `items` list counts as unreadable in both places."""
     try:
-        return _items_from_bytes((LANE / batch).read_bytes()), None
+        return _items_from_bytes(batch_bytes(batch)), None
     except Exception as e:
         return None, type(e).__name__
 
@@ -207,7 +303,7 @@ def _items_from_bytes(raw):
 def batch_sha(batch):
     """12-hex fingerprint of a batch file's bytes, or None if unreadable."""
     try:
-        return hashlib.sha1((LANE / batch).read_bytes()).hexdigest()[:12]
+        return hashlib.sha1(batch_bytes(batch)).hexdigest()[:12]
     except (OSError, TypeError):
         return None
 
@@ -252,7 +348,7 @@ def scan_receipt(batches, recs):
     shas, readable = {}, {}
     for b in batches:
         try:
-            raw = (LANE / b).read_bytes()
+            raw = batch_bytes(b)
         except (OSError, TypeError):
             raw = None
         shas[b] = hashlib.sha1(raw).hexdigest()[:12] if raw is not None else None
@@ -267,26 +363,45 @@ def scan_receipt(batches, recs):
     return h.hexdigest()[:12], shas, readable
 
 
-def news_batches(saved, last_marked, marked_sha=None):
-    """Batches to scan, oldest first: every data/<day>/news.json with day after the marked
-    batch's day and up to the newest (`saved`), always including `saved`. No pointer, an
-    unparseable pointer, a pointer at or after `saved`, or no `saved` = [saved] only (install
-    behaviour, nothing replayed). A parseable pointer whose file has gone still drives catch-up by
-    DATE (follow-up note 2), so no batch after it is skipped; pointer_health says so.
-    The marked batch itself is re-scanned whole when its fingerprint changed since --mark
-    (rewritten_marked)."""
+def _version_plan(saved, last_marked, marked_sha=None):
+    """(batches, version errors). Batches to scan, oldest first: every data/<day>/news.json with day after the
+    marked batch's day and up to the newest (`saved`), always including `saved`. No pointer, an unparseable
+    pointer, a pointer after `saved`, or no `saved` = [saved] only (install behaviour, nothing replayed). A
+    parseable pointer whose file has gone still drives catch-up by DATE (follow-up note 2), so no batch after
+    it is skipped; pointer_health says so. The marked batch itself is re-scanned whole when its fingerprint
+    changed since --mark (rewritten_marked). WQ-694 (a): each day's replaced versions (superseded_versions)
+    come just before that day's file; for the marked day only those committed after the marked version."""
     if not saved:
-        return []
+        return [], []
     rb = rewritten_marked(saved, last_marked, marked_sha)
     hi, lo = _day(saved), _day(last_marked)
+    errs = []
+
+    def sup(path, after=None):
+        ids, err = superseded_versions(path, after)
+        if err:
+            errs.append(err)
+        return ids
+
+    marked_sup = sup(last_marked, marked_sha) if lo and hi and lo <= hi and marked_sha else []
     if not hi or not lo or lo >= hi:
-        return [saved]
+        if lo and hi and lo == hi:
+            return marked_sup + [saved], errs
+        return [saved], errs
     days, err = _lane_days()
     if err:
-        return ([rb] if rb and rb != saved else []) + [saved]
-    out = [f"data/{d}/news.json" for d in days
-           if lo < d < hi and (LANE / "data" / d / "news.json").exists()] + [saved]
-    return ([rb] if rb and rb not in out else []) + out
+        return marked_sup + ([rb] if rb and rb != saved else []) + sup(saved) + [saved], errs
+    out = marked_sup + ([rb] if rb else [])
+    for d in days:
+        p = f"data/{d}/news.json"
+        if lo < d < hi and (LANE / "data" / d / "news.json").exists():
+            out += sup(p) + [p]
+    return out + sup(saved) + [saved], errs
+
+
+def news_batches(saved, last_marked, marked_sha=None):
+    """Batches to scan, oldest first (see _version_plan)."""
+    return _version_plan(saved, last_marked, marked_sha)[0]
 
 
 def pointer_health(last_marked, saved=None):
@@ -518,6 +633,23 @@ def _edgar_overlap(day_dir, tickers):
     return [f"{f.get('ticker')} {f.get('date')} {f.get('items')}" for f in filings if f.get("ticker") in tickers]
 
 
+def _day_versions(d, errors):
+    """[(version label, items)] for a day dir: replaced versions from lane history (WQ-694 (a)), oldest
+    first, then the current file. A history error is appended to `errors` (replaced versions UNKNOWN)."""
+    out = []
+    path = f"data/{d.name}/news.json"
+    ids, err = superseded_versions(path) if (d / "news.json").exists() else ([], None)
+    if err:
+        errors.append(f"{d.name}: {err}; versions replaced by a later same-day run UNKNOWN")
+    for vid in ids:
+        items, e = read_batch_items(vid)
+        if e:
+            errors.append(f"{vid} unavailable ({e}); that version UNKNOWN, nothing consumed")
+        else:
+            out.append((vid.split("@", 1)[1], items))
+    return out
+
+
 def cruise_capital_queue():
     """(open candidates, errors) over every saved day from the baseline, so a missed session loses
     nothing. Identical titles fold into one candidate with all their rows; a changed title is a new
@@ -533,25 +665,31 @@ def cruise_capital_queue():
     for d in days:
         if d.name < state.get("baseline_day", CRUISE_BASELINE_DAY):
             continue
+        versions = _day_versions(d, errors)
         p = d / "news.json"
         try:
-            items = json.loads(p.read_text(encoding="utf-8")).get("items", [])
+            versions.append((None, json.loads(p.read_text(encoding="utf-8")).get("items", [])))
         except (OSError, ValueError, AttributeError) as e:
             errors.append(f"{d.name}/news.json unavailable ({type(e).__name__}); that day UNKNOWN, nothing consumed")
-            continue
-        for i, it in enumerate(items):
-            if not is_cruise_capital_candidate(it):
+            if not versions:
                 continue
-            key = _cruise_key(it["title"])
-            if key in state["consumed"]:
-                continue
-            c = by_key.setdefault(key, dict(
-                key=key, namespace="CRUISE_CAPITAL_REVIEW", precedence="ROUTINE", title=it["title"],
-                entity=it["entity"], owner="CRUISE", rows=[], edgar_overlap=[]))
-            c["rows"].append(dict(day=d.name, index=i, date=it.get("date"), link=it.get("link"), source=it.get("source")))
-            for f in _edgar_overlap(d, CRUISE_TICKERS[it["entity"]]):
-                if f not in c["edgar_overlap"]:
-                    c["edgar_overlap"].append(f)
+        for ver, items in versions:
+            for i, it in enumerate(items):
+                if not is_cruise_capital_candidate(it):
+                    continue
+                key = _cruise_key(it["title"])
+                if key in state["consumed"]:
+                    continue
+                c = by_key.setdefault(key, dict(
+                    key=key, namespace="CRUISE_CAPITAL_REVIEW", precedence="ROUTINE", title=it["title"],
+                    entity=it["entity"], owner="CRUISE", rows=[], edgar_overlap=[]))
+                row = dict(day=d.name, index=i, date=it.get("date"), link=it.get("link"), source=it.get("source"))
+                if ver:
+                    row["version"] = ver
+                c["rows"].append(row)
+                for f in _edgar_overlap(d, CRUISE_TICKERS[it["entity"]]):
+                    if f not in c["edgar_overlap"]:
+                        c["edgar_overlap"].append(f)
     return sorted(by_key.values(), key=lambda c: (c["rows"][0]["day"], c["rows"][0]["index"])), errors
 
 
@@ -617,21 +755,27 @@ def gpu_finance_queue():
         p = d / "news.json"
         if not p.exists():
             continue
+        versions = _day_versions(d, errors)
         try:
-            items = json.loads(p.read_text(encoding="utf-8")).get("items", [])
+            versions.append((None, json.loads(p.read_text(encoding="utf-8")).get("items", [])))
         except (OSError, ValueError, AttributeError) as e:
             errors.append(f"{d.name}/news.json unavailable ({type(e).__name__}); that day UNKNOWN, nothing consumed")
-            continue
-        for i, it in enumerate(items):
-            if not str(it.get("label", "")).startswith(GPU_LABEL_PREFIX) or not it.get("title"):
+            if not versions:
                 continue
-            key = _gpu_key(it["title"])
-            if key in state["consumed"]:
-                continue
-            c = by_key.setdefault(key, dict(key=key, namespace="GPU_FINANCE_REVIEW", precedence="ROUTINE",
-                                            title=it["title"], owner="VULCAN,BROCK", rows=[]))
-            c["rows"].append(dict(day=d.name, index=i, date=it.get("date"), link=it.get("link"),
-                                  source=it.get("source"), label=it.get("label")))
+        for ver, items in versions:
+            for i, it in enumerate(items):
+                if not str(it.get("label", "")).startswith(GPU_LABEL_PREFIX) or not it.get("title"):
+                    continue
+                key = _gpu_key(it["title"])
+                if key in state["consumed"]:
+                    continue
+                c = by_key.setdefault(key, dict(key=key, namespace="GPU_FINANCE_REVIEW", precedence="ROUTINE",
+                                                title=it["title"], owner="VULCAN,BROCK", rows=[]))
+                row = dict(day=d.name, index=i, date=it.get("date"), link=it.get("link"),
+                           source=it.get("source"), label=it.get("label"))
+                if ver:
+                    row["version"] = ver
+                c["rows"].append(row)
     return sorted(by_key.values(), key=lambda c: (c["rows"][0]["day"], c["rows"][0]["index"])), errors
 
 
@@ -786,6 +930,12 @@ def main():
     if rb:
         hz.append(("MED", f"{rb} was rewritten by the collector after --mark (fingerprint {marked_sha} -> "
                           f"{batch_sha(rb)}): re-scanning it whole; read its ordinary headlines too"))
+    vers = [b for b in batches if "@" in b]
+    if vers:
+        hz.append(("MED", f"{len(vers)} version(s) replaced by a later same-day run, read from lane history: "
+                          f"{', '.join(vers)}; read their ordinary headlines too"))
+    for e in _version_plan(newest, last_marked, marked_sha)[1]:
+        hz.append(("MED", f"{e}: versions replaced by a later same-day run are UNKNOWN (not scanned)"))
 
     receipt, receipt_shas, receipt_readable = scan_receipt(batches, recs)
     if args.mark and not args.receipt:
@@ -810,8 +960,9 @@ def main():
         ptr = mark_pointer(batches, last_marked, args.through or newest, receipt_readable)
         state = {}
         if ptr in receipt_shas:
-            state["last_marked_batch"] = ptr  # WQ-676: next scan reads every batch after this one
-            state["last_marked_sha"] = receipt_shas[ptr]  # the receipt-verified bytes, not a second read (L1)
+            state["last_marked_batch"] = ptr.split("@", 1)[0]  # WQ-676: next scan reads every batch after this one
+            state["last_marked_sha"] = receipt_shas[ptr]  # the receipt-verified bytes, not a second read (L1);
+            # for a replaced version (WQ-694 (a)) this sha is that version's, so the next scan resumes after it
         elif ptr and ptr == last_marked:
             state["last_marked_batch"] = ptr  # pointer held (unreadable next batch or pointer ahead): keep its sha
             if marked_sha:

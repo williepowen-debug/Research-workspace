@@ -1,7 +1,7 @@
 """Acceptance cases for GPU_FINANCE_REVIEW (Will 2026-11-11): label-matched rows surface,
 identical titles fold, other labels and pre-baseline days stay out, a disposition consumes
 exactly one open key, a closed or unknown key is refused, an unreadable state is UNKNOWN."""
-import json, tempfile, unittest
+import json, subprocess, tempfile, unittest
 from pathlib import Path
 from unittest import mock
 import intake_scan as s
@@ -23,6 +23,7 @@ class GpuQueue(unittest.TestCase):
         }.items():
             (self.lane / 'data' / day).mkdir(parents=True)
             (self.lane / 'data' / day / 'news.json').write_text(json.dumps({'items': items}))
+        subprocess.run(['git', 'init', '-q', str(self.lane)], check=True)  # WQ-694 (a): no commits = empty history
         self.p = [mock.patch.object(s, 'LANE', self.lane), mock.patch.object(s, 'GPU_STATE', self.state)]
         for x in self.p: x.start()
 
