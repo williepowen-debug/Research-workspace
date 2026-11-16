@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 16 Nov 2026 15:09:41 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+ETag: W/"aG90ZWwuNDkzNTZfM18zNTdtWElrcEJVUHdibmw5TDV2T2pSa2I1OUM2NG8---gziq-D0VOEW88utotWpi9VSONvZ_BJg--gzip--gzip"
+X-SODA2-Fields: ["report_date_as_yyyy_mm_dd","lev_money_positions_long","lev_money_positions_short"]
+X-SODA2-Types: ["floating_timestamp","number","number"]
+X-SODA2-Data-Out-Of-Date: false
+X-SODA2-Truth-Last-Modified: Fri, 06 Nov 2026 20:30:30 GMT
+X-SODA2-Secondary-Last-Modified: Fri, 06 Nov 2026 20:30:30 GMT
+Last-Modified: Fri, 06 Nov 2026 20:30:30 GMT
+Vary: Accept-Encoding
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+X-Socrata-RequestId: 4607387f3337bdd4f8dfcfcb2e58d3ac
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

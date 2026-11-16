@@ -2,13 +2,19 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-14T11:25 ET, closed 2026-11-14T11:35:28-05:00 (PROME prome-fe, C9 research commission WQ-538 A, card SIG-W-20261114-007 item 1, Saturday, desktop, Claude Code / Opus 5.5)
+### CURRENT SESSION — 2026-11-16T10:07 ET (PROME prome-6f due-row wake, WQ-184, D:L1149, desktop, Claude Code / Opus 5.5; HOLD open on PROME's word)
+
+- **Context:** correct and narrow the 11/14 IG tech yield read (CATO N14-2); grade my lines on the November 13 HY cell; packet TERRY the first-published cell; drain inbox (1 packet, WALTER 009/010).
+- **Delivered:** HY 323 [11/13, first-published, 10:09 ET] ⇒ >320 run 1 of 3 (earliest MET November 17 cell); re-kill 0 of 2; REG-T-04 witness 0 of 3; tier rule CONTINUES (B +5, CCC +2, upper tiers flat). 076 unchanged NOT MET 1 of 3, W1 as-of 11/10 not in CFTC API (holiday week). N14-2 applied in REPORT, STATUS, NEXUS_BRIEF, KB-LIQ-153, MEMORY. CoreWeave $4B plan graded against DDTL 4.0 (S+225, A3): NOT SHOWN stands. → `research/2026-11-16_due-row/REPORT.md`.
+- **Open:** W1 as-of 11/10 (likely today 15:30 ET); November 16 cell about 10:10 ET 11/17; CoreWeave loan terms when they print.
+
+### PRIOR SESSION — 2026-11-14T11:25 ET, closed 2026-11-14T11:35:28-05:00 (PROME prome-fe, C9 research commission WQ-538 A, card SIG-W-20261114-007 item 1, Saturday, desktop, Claude Code / Opus 5.5)
 
 - **Context:** Will's bookmark of a Bloomberg chart, IG tech bond yield about 6.1%, "highest since 2009": split spread from Treasuries; set it against the financing-constraint question; drain both inbox lanes.
-- **Delivered:** about 95% Treasuries (broad ICE IG +114 bp over the year, spread +6, 83 to 89 [11/12]; 10Y 5.10% highest since July 2007, 5.15% par 11/13; broad IG 2026 high still October 5, 6.03%). State Street marks [11/12]: Amazon, Alphabet, Meta, Microsoft at or inside non-tech to 10y, Oracle +149 to +213; Oracle new notes below reoffer on rates, spread flat. Financing constraint NOT SHOWN; no gate graded. KB-LIQ-153/157 appended, KB-LIQ-161 (method). Nine inbox items drained; WQ-678 B 16 of 17 trims applied. PROME packet 07b10c3cb5, verified and filed by PROME; TERRY gets it for Monday. → `research/2026-11-14_ig-tech-yield/REPORT.md`.
+- **Delivered (corrected 11/16, CATO N14-2: broad index only, approximate; tech split unmeasured; Oracle 2031 note 4 bp wide of pricing):** about 95% Treasuries (broad ICE IG +114 bp over the year, spread +6, 83 to 89 [11/12]; 10Y 5.10% highest since July 2007, 5.15% par 11/13; broad IG 2026 high still October 5, 6.03%). State Street marks [11/12]: Amazon, Alphabet, Meta, Microsoft at or inside non-tech to 10y, Oracle +149 to +213; Oracle new notes below reoffer mostly on rates, three inside pricing, 2031 4 bp wider. Financing constraint NOT SHOWN; no gate graded. KB-LIQ-153/157 appended, KB-LIQ-161 (method). Nine inbox items drained; WQ-678 B 16 of 17 trims applied. PROME packet 07b10c3cb5, verified and filed by PROME; TERRY gets it for Monday. → `research/2026-11-14_ig-tech-yield/REPORT.md`.
 - **Open:** Bloomberg tech index and any history of name-level marks are unreachable, so the change in the tech premium is unmeasured.
 
-### PRIOR SESSION — 2026-11-13T10:16 ET, closed 2026-11-13T10:28:06-05:00 (PROME prome-72, G:GATE-LIQ-076 due-row wake, WQ-184 / WQ-667 B, desktop, Claude Code / Opus 5.5)
+### EARLIER SESSION — 2026-11-13T10:16 ET, closed 2026-11-13T10:28:06-05:00 (PROME prome-72, G:GATE-LIQ-076 due-row wake, WQ-184 / WQ-667 B, desktop, Claude Code / Opus 5.5)
 
 - **Context:** grade 076 at its review date; verify the 11/12 HY/CCC cells; DTCC 11/12 file; SAM's Japan funding line; drain inbox.
 - **Delivered:** 076 NOT MET 1 of 3 (W2 as-of 11/4 G10 −7,845, G5L10 +477; W3 met; W1 as-of 11/10 unpublished); no re-arm since 10/22, so no write-up possible; PROME set review_by 11/20. **HY 320.0 [11/12, first-published] RESET the WQ-444 >320 run** after 8 observations; re-kill 0 of 2 (60 above); tier rule STALLS (CCC +3, BB −17; CCC−BB 1,131). DTCC 11/12: CoreWeave 5Y ~1,065 (−90), Oracle 5Y ~295 (flat); 069 L2 not fired. Japan funding OPEN; H.4.1 11/11 baseline (custody $2,524.2B, FIMA $0, foreign RRP $336.1B). Six WALTER cards drained; reset routed via WALTER and to TERRY; packet to PROME consumed. → `research/2026-11-13_076-review/REPORT.md`.

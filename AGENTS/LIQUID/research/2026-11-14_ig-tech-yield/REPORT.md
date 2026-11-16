@@ -2,12 +2,14 @@
 
 **LIQUID, 2026-11-14 (Saturday), session started 11:25 ET.** Commission: PROME prome-fe brief under C9 (WQ-538 A), from WALTER card **SIG-W-20261114-007 item 1** (Will's bookmark of 2026-11-13). $0. No gate graded, no level, operator or letter changed.
 
+> **Corrected 2026-11-16 (D:L1149, CATO review N14-2, PROME packet `inbox/processed/2026-11-14_from-PROME_CATO-N14-2-ig-tech-yield-two-corrections.md`).** (1) The Oracle new-note sentence said all four spreads were at or inside pricing; the 2031 note is 4 bp wider, now stated. (2) The "about 95%" figure is narrowed to the broad index it measures, marked approximate, and the §2 conditional and the Oracle-against-BB comparison are weakened. No new data, no study, no gate re-graded; the verdict (financing constraint NOT SHOWN) is unchanged. Original wording: `git log -p` on this file.
+
 ## 0. Answer in four lines
 
-1. **Almost all of it is Treasuries.** Over one year the broad ICE BofA US Corporate index yield rose **+114 bp** (4.82% → 5.96%, November 12, 2025 → November 12, 2026); its spread rose **+6 bp** (83 → 89). **About 95% is the Treasury leg.** Every rating tier and maturity bucket gives 93% to 95% on the same one-year base. Over the last week (November 5 → 12) the spread *tightened* 4 bp while yields rose 25 bp.
+1. **On the broad index, almost all of it is Treasuries; the tech index's own split is unmeasured.** Over one year the broad ICE BofA US Corporate index yield rose **+114 bp** (4.82% → 5.96%, November 12, 2025 → November 12, 2026); its spread rose **+6 bp** (83 → 89). **About 95% is the Treasury leg, approximately** (effective-yield change minus OAS change on an index that rebalances, OAS against a spot Treasury curve: not a constant-composition attribution). Every rating tier and maturity bucket gives 93% to 95% on the same one-year base. Over the last week (November 5 → 12) the spread *tightened* 4 bp while yields rose 25 bp.
 2. **"Highest since 2009" is a Treasury fact first.** The 10-year Treasury (FRED DGS10) at 5.10% [November 12] is its highest since **July 2007**; Treasury's par curve has it at **5.15% on November 13**. Moody's Aaa corporate yield 6.12% [November 12] is its highest since **November 2008**. Any high-grade yield index sits near multi-decade highs when the 10-year does.
 3. **The tech-specific premium is Oracle, not "AI borrowers".** On State Street fund marks [November 12], Amazon, Alphabet, Meta and Microsoft bonds trade **5 to 26 bp inside** non-tech bonds of matched maturity out to 10 years, and **+17 to +28 bp** wide only beyond 10 years. Oracle trades **+149 to +213 bp** wide of non-tech at every maturity.
-4. **Oracle's new notes are below reoffer, but the spread did not move.** The four new notes held in the funds fell 0.97 to 1.74 points from November 5 to November 12, while their spreads moved −5 to +1 bp. The price loss is the Treasury move.
+4. **Oracle's new notes are below reoffer, but the spread barely moved.** The four new notes held in the funds fell 0.97 to 1.74 points from November 5 to November 12, while their spreads moved −5 to +1 bp. Against pricing, three are 6 to 13 bp inside and the 2031 note is 4 bp wider. The price loss is mostly the Treasury move.
 
 ## 1. Sources, observation dates and what I could not reach
 
@@ -41,7 +43,7 @@ Rate leg = change in (effective yield − OAS). This keeps each index's own dura
 
 Treasury check, same dates: 7Y +116, 10Y +102, 30Y +76 bp over the year; 10Y +26 bp November 5 → 12, then +5 more to 5.15% on November 13 (par).
 
-**Where the level sits.** The broad IG yield's 2026 high is **6.03% effective / 6.05% YTW on October 5**; November 12 is 5.96% / 5.97%, the highest since October 13. The 10-year's 2026 high was also October 5 (5.31%). Moody's Aaa 6.30% and Baa 6.77% also peaked October 5. With the November 13 Treasury move (+3 to +5 bp across 7–30 years) and a flat spread, the broad index would sit near **6.0% on November 13** — about at, not clearly above, the October 5 high [INFERENCE; the ICE November 13 cell is unpublished]. ⚠️ So if Bloomberg's tech index really made a new high on November 13 above its own early-October level, the excess over the broad index would be tech-specific spread widening since October. I cannot measure that; the chart read is ±0.1 point.
+**Where the level sits.** The broad IG yield's 2026 high is **6.03% effective / 6.05% YTW on October 5**; November 12 is 5.96% / 5.97%, the highest since October 13. The 10-year's 2026 high was also October 5 (5.31%). Moody's Aaa 6.30% and Baa 6.77% also peaked October 5. With the November 13 Treasury move (+3 to +5 bp across 7–30 years) and a flat spread, the broad index would sit near **6.0% on November 13** — about at, not clearly above, the October 5 high [INFERENCE; the ICE November 13 cell is unpublished]. ⚠️ So if Bloomberg's tech index really made a new high on November 13 above its own early-October level, the excess over the broad index could be tech-specific spread widening since October, or a different duration, Treasury-curve exposure or composition; I cannot separate them, and the chart read is ±0.1 point.
 
 **Is a ~6.1% tech level consistent with the broad index?** Yes. The ICE 7–10 year bucket yields 6.09% and the 10–15 year 6.29% [November 12]. A tech index longer than the broad index (hyperscaler issuance is long-dated) would print about 6.1% with little or no tech premium [INFERENCE].
 
@@ -71,7 +73,7 @@ Matched maturity, spread minus non-tech (bp):
 
 Issuer averages (spread, weighted maturity): Oracle 273 (7.3y), Meta 111 (8.9y), Broadcom 117, Intel 117, Dell 101, Amazon 67, Alphabet 62, Microsoft 46, Apple 26.
 
-**So what.** A tech index that weights Oracle heavily will show a premium. The other four builders pay a small premium only at the long end, where their jumbo long bonds sit. **Read: rising cost driven by rates, plus one name priced like high yield.** Oracle's average spread (273) is 90 bp wide of the ICE BB index (183, November 12) while Oracle is rated investment grade. That is the existing ORCL fallen-angel map's subject, not a new finding.
+**So what.** A tech index that weights Oracle heavily will show a premium. The other four builders pay a small premium only at the long end, where their jumbo long bonds sit. **Read: rising cost driven by rates, plus one name priced like high yield.** Oracle's average spread (273) sits about 90 bp above the ICE BB index (183, November 12) while Oracle is rated investment grade; indicative only, not like for like (a yield-minus-interpolated-par spread on fund marks against an index OAS). That is the existing ORCL fallen-angel map's subject, not a new finding.
 
 **Oracle new notes (issued November 4) against reoffer and against my November 5 read:**
 
@@ -82,21 +84,21 @@ Issuer averages (spread, weighted maturity): Oracle 273 (7.3y), Meta 111 (8.9y),
 | 7.850% 2033 | 99.995 | 100.894 | 99.159 | +305 | +298 | +299 |
 | 8.650% 2046 | 99.840 | 100.594 | 99.046 | +335 | +332 | +327 |
 
-(The 8.000% 2037 is not in either file. Accrued since issue is 0.17 to 0.22 points; under the dirty reading the spreads are +3 to +6 bp higher.) **All four notes are now below reoffer by 0.27 to 1.12 points, and their spreads are at or inside the pricing spread.** Investors who bought the deal are losing money on the Treasury move, not on Oracle credit. This is the second bond point owed in STATUS §3 (closes that row's bond half; the `dtcc_cds_probe.py` fix stays owed).
+(The 8.000% 2037 is not in either file. Accrued since issue is 0.17 to 0.22 points; under the dirty reading the spreads are +3 to +6 bp higher.) **All four notes are now below reoffer by 0.27 to 1.12 points. Three spreads are inside the pricing spread (2029 by 13, 2033 by 6, 2046 by 8 bp); the 2031 note is 4 bp wider (279 against 275; 283 under the dirty convention), though it tightened 2 bp on the week (281 to 279).** Investors who bought the deal are losing money mostly on the Treasury move; Oracle's credit added at most a few basis points on one note. This is the second bond point owed in STATUS §3 (closes that row's bond half; the `dtcc_cds_probe.py` fix stays owed).
 
 ## 4. What this does to the open question: has falling price become a financing constraint for AI builders?
 
 | Evidence | Reading | Date / basis |
 |---|---|---|
-| IG tech yield ~6.1%, "highest since 2009" | Cost is up. ~95% of the broad-index rise is Treasuries | FRED ICE Nov 12; chart read Nov 13 |
+| IG tech yield ~6.1%, "highest since 2009" | Cost is up. About 95% of the broad-index rise is Treasuries (approximate); the tech index's own split is unmeasured | FRED ICE Nov 12; chart read Nov 13 |
 | AI builders excl. Oracle | At or inside non-tech spreads to 10y; +17 to +28 beyond | SSGA marks Nov 12 |
-| Oracle bonds | ~273 avg spread; new notes below reoffer, spread flat | SSGA marks Nov 12 |
+| Oracle bonds | ~273 avg spread; new notes below reoffer, spreads −5 to +1 on the week, three inside pricing, 2031 4 bp wider | SSGA marks Nov 12 |
 | Oracle 5Y CDS | about 295, flat against 300–302 [Nov 10] | DTCC Nov 12 full file (prior read) |
 | CoreWeave 5Y CDS | about 1,065, about 90 tighter than 1,154 [Nov 10] | DTCC Nov 12 full file (prior read) |
 | Oracle's $20B raise | Cleared in 7 days, early November | KB-LIQ-153 |
 | IG OAS / HY−IG basis | 89 (fails >94), 231 | ICE Nov 12; GATE-LIQ-072 price leg NOT FIRED (graded 11/13, not re-graded) |
 
-**Verdict: no change. Not shown.** The bookmark documents a higher cost of borrowing. That cost is mostly Treasuries, and the debt is still being sold and priced. A financing constraint would need a deal pulled, priced wide of talk, or a lender refusing. The Felder quote ("banks are dumping AI loans") is an opinion I could not read at source. The ING loan auction, bids due November 19 (KB-LIQ-153), is the nearest named test of the bank-loan half. The Nscale "needs more cash" headline (SIG-W-20261114-006 item 3) is VULCAN's and is not a refusal. One real effect: a Treasury-led rise raises the coupon on every new AI bond. If the 10-year holds above 5%, the cost of the IG-funded build goes up with no help from credit. That is a cost story, not a constraint [INFERENCE].
+**Verdict: no change. Not shown.** The bookmark documents a higher cost of borrowing. On the broad index that cost is mostly Treasuries, and the debt is still being sold and priced. A financing constraint would need a deal pulled, priced wide of talk, or a lender refusing. The Felder quote ("banks are dumping AI loans") is an opinion I could not read at source. The ING loan auction, bids due November 19 (KB-LIQ-153), is the nearest named test of the bank-loan half. The Nscale "needs more cash" headline (SIG-W-20261114-006 item 3) is VULCAN's and is not a refusal. One real effect: a Treasury-led rise raises the coupon on every new AI bond. If the 10-year holds above 5%, the cost of the IG-funded build goes up with no help from credit. That is a cost story, not a constraint [INFERENCE].
 
 **Gates: none due, none re-graded.** GATE-LIQ-069 (review recommended November 19) and GATE-LIQ-072 (December 31) are unchanged. The HY November 13 cell is out of scope (publishes Monday, November 16).
 
