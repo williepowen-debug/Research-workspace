@@ -68,3 +68,4 @@ receipt_date	correction_id	action	note
 2026-11-11T15:53Z	COR-20261111-13	APPLIED	artifact=AGENTS/HENRY/board_log.tsv#SIG-W-20261111-013; validation_ref=NONE; 
 2026-11-11T15:53Z	COR-20261111-14	NO-OP	scope=HENRY carried no SEC penalties figure on any surface. Its board_log row for card 004 covers only the VIX and RED item; 
 2026-11-12T14:16Z	COR-20261112-03	NO-OP	scope=HENRY open read and PROME packet 11/12 did not carry card 002 chronology. Quotes are own Cboe and vendor reads against the 11/11 close, which predates the after-hours report; 
+2026-11-16T18:50Z	COR-20261114-10	NO-OP	scope=No open HENRY row or STATUS figure keys on CoreWeave loan pricing. CoreWeave appears only in resolved rows HEN-35 HEN-36 HEN-43 (grep 2026-11-16). The S+225 vs S+550 comparison is VULCAN and LIQUID's.; 
