@@ -1,5 +1,7 @@
 # BRENT SCRATCH — November 14 (live session for PROME prome-fe, 11:25–11:37 EST Saturday; closed on PROME's ask, from `date`)
 
+> **INTERIM 2026-11-16 16:2x EST (live session for prome-6f, held open, closeout NOT yet run; this banner is not the closeout rewrite):** NEXT SESSION #1 is DONE: COT #14 graded JOINT NOT-SPENT, 8th consecutive, 122,378 / 6.3823% (`research/2026-11-16_cot14/NOTE.md`). #2 BRT-33 is DONE for 11/16: +4.5200, valid 6 of 7 (`research/2026-11-16_brt33/NOTE.md`). TSA 11/13–11/15 NOT pulled this session. Inbox drained, 6 rows = 6 moves. PortWatch now needs a token: C35 rows UNREADABLE-AT-SOURCE (NEXUS_BRIEF). Next COT #15 is Fri 11/20 ~15:30 ET.
+
 ## CHANGES SINCE LAST SESSION
 - IEA November OMR published 11/13: "back in surplus" headlines (WALTER SIG-W-20261114-004).
 - FAA nationwide ground stop Fri 11/13, 15:54 to about 20:15 EST: 9,132 cancelled Friday, 4,000+ Saturday (SIG-W-20261114-001).
