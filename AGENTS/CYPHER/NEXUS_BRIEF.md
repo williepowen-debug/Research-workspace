@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), no named victim; rows 1, 3, 4, 7 NOT-FIRED at the 11/13 in-window re-check (5, 6, 8, 9 on 11/12); the 11/14 news sweep found no named victim. New 11/14: CISA listed the Check Point root flaw from the wave (CVE-2026-123039, 11/13; fires no row). Off-wave: Microsoft 365 global outage 11/12-11/14 (CYB-INC-071), not cyber on Microsoft's word, banks affected but none named, no payment rail named; DOJ says more than $2.7B of the Binance theft is frozen. Arkéa provider still unnamed.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-14 12:40 EST (Will in CYPHER's window: news and data catch-up; no score, band, gate or prediction moved; one new incident row, 071) | STATUS commit: `3e90493f52d45e9d2f5770870280a4c9a922c6cb`
+**As of:** 2026-11-16 10:25 EST (PROME desk-catalyst summons, prome-6f: Arkéa weekly look; provider press-named, unconfirmed; no score, band, gate or prediction moved; no new incident row) | STATUS commit: `02d4345664f061bd403fe1e8524e4765c542a5e9`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -40,7 +40,7 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
 | Victims / IR firms / CERTs | A NAMED PHP2Shell compromise (incl. behind Dream's firewall finding) | Check 11/04; flip window 11/20 | Row 1 under R1 needs a named organisation | Row 1 FIRES -> R1 toward the MOVEit shape |
-| Arkéa, prosecutors, supervisors | Provider's name; any second institution; any alert | Checked 11/08, nothing; weekly 11/16 | The whole shared-reach question turns on it | A named shared product or a second bank flips FL-CYP-22 |
+| Arkéa, prosecutors, supervisors | Provider's name; any second institution; any alert | 11/16: Les Echos (11/14) named the provider on unnamed sources (asset-management compliance software), unread and unconfirmed; nothing else; weekly 11/23 | The whole shared-reach question turns on it | A named shared product or a second bank flips FL-CYP-22 |
 | ConnectWise | Cloud Backup restoration; ScreenConnect investigation scope | Check 11/19 | Cloud Backup advisory unchanged since 11/04; ScreenConnect access method unknown | MSP availability verdict; a named FI re-routes P1 |
 | N-able | Outcome of the HF2-bypass investigation (event 202609); KEV listing of any of 7 CVEs | One look 11/19 | Scanning confirmed, compromise not | Confirmed compromise -> 065 CONFIRMED, REGINALD P2 |
 | Abrigo | Whether data was taken; root cause | Check 11/19 (borrower features still off 11/12) | Bank and CU loan documents | PHP2Shell root cause fires row 3 |
@@ -69,15 +69,15 @@
 
 ## NEXT DECISION POINT
 
-- **What:** R1 flip test: rows 1, 3 and 4, each needing a named organisation; in-window re-checks done 11/13 (all NOT-FIRED), more to 11/20. Arkéa checked 11/08 (nothing moved); weekly look 11/16 (P2).
-- **When:** 2026-11-20 (P1); 2026-11-16 (P2) for Arkéa.
+- **What:** R1 flip test: rows 1, 3 and 4, each needing a named organisation; in-window re-checks done 11/13 (all NOT-FIRED), more to 11/20. Arkéa checked 11/16 (provider press-named on unnamed sources, unconfirmed; no second institution); weekly look 11/23 (P2).
+- **When:** 2026-11-20 (P1); 2026-11-23 (P2) for Arkéa.
 - **What would falsify the trigger:** no named organisation by 11/20, with in-window re-checks, moves R1 to MECHANICAL (Log4Shell shape).
 
 ## FORWARD CATALYSTS (next 2–4 weeks)
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 2026-11-16 | Arkéa weekly look (checked 11/08, nothing moved) | Provider named; a second institution; a rail statement |
+| 2026-11-23 | Arkéa weekly look (11/16: provider press-named, unconfirmed) | Provider named; a second institution; a rail statement |
 | 2026-11-19 (weekly) | Wave 7-day clock; cluster watch (Will 10/29); Abrigo; ConnectWise; TruStage (11/15 window read early 11/13, no answer); Able2Shell/MSP one look incl. Insight CU notice (CYP-03) | Count limb already MET 11/05; a multi-institution outage of 1+ business day; a regional 8-K or late 10-Q citing Finzly or Abrigo -> REGINALD |
 | 2026-11-18 | Row 9 equity persistence; collapse leg ruled (WQ-635 A) | PANW at or below $289.24 AND 10.0 points behind HACK on 2 consecutive closes; HENRY grades after 16:15 ET |
 | 2026-11-20 | R1 flip test (Kiteworks leg rides it) | Named organisation vs in-window quiet |
