@@ -2114,3 +2114,15 @@ KRE $72.20 −0.15% · SSB $104.11 −0.58% · SBCF $33.54 −0.18% · BKU $44.0
 
 ### AG3. CORAL-02 (DOCKET L1048) — NOT GRADED, source not published
 Florida Realtors' September summary PDF (PRIMARY, read 10:10 ET 11/16): "Data released on Friday, October 16, 2026. Next data release is Monday, November 16, 2026." October files at the September naming pattern (`sites/default/files/2026-11/October-2026-Fla-{condo,single-family}-{summary,data-detail}.pdf`) returned 404 at 10:10, 10:14, 10:16 and 11:26 ET; a background check every 2 minutes from 10:17 ET found nothing; the site timed out twice (HTTP 000) around 10:14–10:16. No secondary used. Per the row's own rule (first print), CORAL-02 grades when the October print is published; Timeframe cell re-dated in `workbook/PREDICTIONS.tsv`, criterion text unchanged. Year-ago base for the read when it lands: Oct-2025 condo closed 7,223 (secondary, search summary; the grade uses the October 2026 PDF's own year-ago column).
+
+### AG4. Falsify grade 2026-11-15 — evidence index (graded 11/16 11:4x ET, one day late)
+Grade of record and cell evidence live in `thesis/THESIS.md` (GRADE OF RECORD — 2026-11-15); this section indexes where each cell's evidence sits, so nothing is restated.
+| # | Grade | Evidence home |
+|---|---|---|
+| 1 | HALF | § AB2 (seven 10-Qs; BKU, USCB rows); REGINALD frame FINAL 11/06; Avidia release § AC3 |
+| 2 | MET | § AB2 BKU limits (criticized $481.3M → $427.4M; non-accrual flat; $21.3M 60-89 in modified loans) |
+| 3 | NOT MET | § V3 (inventory 7.7, median −1.8%, distressed MLS closings); ATTOM H1 row (STATUS, stale 7/17); search 11/16 found no ATTOM October 2026 report |
+| 4 | NOT MET | STATUS Citizens rows; § R8 (condo master layer unmeasured) |
+| 5 | NOT MET | STATUS bankruptcy row; `tools/bkcy/` (F-2 9/30 table, Leg A 0.6pp) |
+| 6 | NOT MET | § AB4, § AE2 (REC figures, certification 11/17, first bills Nov 2027); ML-CORAL-154 |
+Inference audit (CLAUDE.md 13a), C3 clause 3: the rival (forced sales moving off-MLS to auction) moves the MLS distressed count the same way as "no acceleration", so that count is not evidence for the clause; the discriminator is foreclosure filings or completions (ATTOM), which are stale. C1: the rival to "not curing" is one-off rate-shock past-dues that cure next quarter; the 12/31 Call Report separates them.

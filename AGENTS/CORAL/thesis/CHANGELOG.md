@@ -5,7 +5,23 @@
 
 ---
 
-## 2026-11-06 (latest) — WQ-475 A logged; Amendment 3 passed against CORAL's lean; criterion 6 runs on unofficial returns
+## 2026-11-16 (latest) — 11/15 falsify grade run one day late: 1.5 of 6, 🟠 holds
+
+**Trigger:** pre-registered grade date 2026-11-15 (missed; run 11/16 on PROME prome-6f's word).
+
+| Item | Old | New |
+|---|---|---|
+| Score | 1.5 of 6 (8/23) | **1.5 of 6** — C1 HALF, C2 MET, C3–C6 NOT MET (THESIS grade of record 2026-11-15) |
+| Criterion 1 basis | HALF because Q3 had not printed | HALF because Q3 printed with NPLs rising at BKU and USCB (aggregate NO TRANSMISSION) |
+| Criterion 2 | MET | MET, with a named flip risk: BKU CRE 60-89 $21.3M in modified loans, re-read at the 12/31 Call Report |
+| Next grade | 2026-11-15 | none registered; **proposed 2027-02-16**, pending PROME/Will |
+| Rule gap | — | 1.5 sits between the "≤1" and "2–3" bands; flagged for amendment between grades, not applied (both bands hold 🟠) |
+
+**Why:** a grade is a rail event. **Implication:** v1.1 unchanged; overall 🟠, MSI leg 🟠 and the bank rail unchanged.
+
+---
+
+## 2026-11-06 — WQ-475 A logged; Amendment 3 passed against CORAL's lean; criterion 6 runs on unofficial returns
 
 **Trigger:** DAEDALUS sweep #5 (WQ-475 A unlogged since 10/21) and the 11/3 ballot.
 

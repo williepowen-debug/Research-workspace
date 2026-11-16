@@ -14,12 +14,12 @@
 1. **MSI #15 (data 11/15):** 4-of-5, Cape Coral 5.74 series low, all five fell on the week ⇒ re-fire fails, leg 🟠. Revisions now up to +0.03, still upward only. § AG1, ML-CORAL-167, CSV.
 2. **CORAL-02 NOT GRADED:** source not published; re-dated to first print (PREDICTIONS.tsv Timeframe cell; criterion unchanged). § AG3.
 3. **Inbox 8 of 8 drained** (3 top-level, 5 WALTER), KB ML-CORAL-163 to -166, COR-20261111-14 NO-OP. DAEDALUS WQ-678: A10 + F39 applied to CLAUDE.md, rest declined for now. § AG2.
-4. Commits: 8c9ef1ff6b (work) + this record commit; packet to PROME.
+4. Commits: 8c9ef1ff6b (work), 49b6d61109 (records), packet 0e6a355eef. Then on PROME's word: **falsify grade 11/15 run** (§ AG4, THESIS), second packet.
 
 ## NEXT SESSION / OWED
 
 - **CORAL-02: grade on the first Florida Realtors October print** (financed = closed − cash, units, condo vs SF, 0.1pp band; first print; PDF year-ago columns).
-- ⚠️ **11/15 falsify grade OVERDUE** (not run; six criteria, pre-registered rule, no rewording; criterion 6 on unofficial returns, certification 11/17).
+- ✅ **11/15 falsify grade run 11/16: 1.5 of 6, 🟠 holds** (THESIS grade of record). Owed: ATTOM refresh for C3, rule gap at 1.5 (to Will via PROME), next grade date (proposed 2027-02-16).
 - MSI #16 by 11/26 · Avidia 10-Q · FEMA FR notice (CORAL-04, L784 re-date proposed 11/20) · certification 11/17.
 - Still awaiting Will's word (since 11/06): DATA_SOURCES line for sec_contact.py; VX_Vectors catch-up; CLAUDE.md size figure (now dropped by F39 — item (c) moot).
 - DAEDALUS optional trims F14, F37, F38, F41, F42, F43, F44 declined for now; F11 waits on PROME's routing ruling.

@@ -1,7 +1,7 @@
 # CORAL — Florida Real Estate Stress Monitor
 ## Comprehensive Florida Agent | 10 pillars (real estate · insurance · banks · migration · tourism · fiscal · labor · climate)
 
-**Last Updated:** 2026-11-16 11:3x ET (Mon, **coral-ag**, due-row wake by PROME prome-6f): **MSI #15 (data 11/15): 4-of-5, Cape Coral 5.74 new series low, all five fell on the week; leg 🟠.** **CORAL-02 NOT GRADED: Florida Realtors October not posted at 11:26 ET** (publisher's stated date is today); re-dated to the first print. Inbox 8 of 8 drained. ⚠️ 11/15 falsify grade NOT RUN (overdue one day, flagged to PROME). **No colour, gate or grade moved.** Evidence § AG; prior header → § AG0.
+**Last Updated:** 2026-11-16 11:3x ET (Mon, **coral-ag**, due-row wake by PROME prome-6f): **MSI #15 (data 11/15): 4-of-5, Cape Coral 5.74 new series low, all five fell on the week; leg 🟠.** **CORAL-02 NOT GRADED: Florida Realtors October not posted at 11:26 ET** (publisher's stated date is today); re-dated to the first print. Inbox 8 of 8 drained. **11/15 falsify grade run 11/16: 1.5 of 6, 🟠 holds.** **No colour, gate or grade moved.** Evidence § AG; prior header → § AG0.
 
 **File map:** **`STATUS.md`** = state, colours, levels, owed actions (boot-read whole) · **`STATUS_DETAIL.md`** = evidence, sources, vintages + rotated blocks verbatim (latest § AA0) · **`archive/STATUS_SESSIONS_20260721-20260823.md`** = 7/17→8/23 narrative. **State disagreement ⇒ this file wins; provenance ⇒ `STATUS_DETAIL.md` wins; either is a defect.** · **`TRADE.md`** = FLAT (9/28) · **`tools/bkcy/`** = bankruptcy instrument.
 
@@ -9,7 +9,7 @@
 
 ## THESIS RAILS — "The Coral Bleaching"
 
-Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo stress confirmed; bank-loss transmission NOT confirmed.** Falsify grade **2026-11-15**, baseline **1.5 of 6**, pre-registered rule (≥4 ⇒ 🟡 candidate · 2–3 ⇒ hold · ≤1 ⇒ 🟠 unqualified; no rewording at grading). **Directional notes for 11/15 (not grades) → `STATUS_DETAIL.md` § P.**
+Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo stress confirmed; bank-loss transmission NOT confirmed.** **Falsify grade 2026-11-15 RUN 11/16 (one day late): 1.5 of 6 ⇒ 🟠 HOLDS** — C1 HALF (Q3 NPLs up at BKU, USCB), C2 MET (flip risk: BKU $21.3M CRE 60-89), C3 NOT MET (forced-sale clause unobserved, ATTOM stale), C4–C6 NOT MET. Rule gap at 1.5 flagged, not applied. Next grade proposed 2027-02-16, pending PROME/Will. Grade of record → `thesis/THESIS.md`; evidence § AG4.
 
 ---
 
@@ -110,7 +110,7 @@ Consequence: readings #1–#10 stay as recorded; the current series' history is 
 | J | **Condo price-band test — UNITS, never SHARE** | separate report | not run |
 | K | No constant-quality statewide FL **condo** index — every condo composition argument rests on a mix statistic | open | named gap |
 | L | Parcl listings route ✅ (`seo.totalCount`/`nCutting`); residual: did the fields exist on 9/13? (if yes, correct ML-CORAL-079, never delete) | next session (Wayback) | record ⚠️ |
-| M | Falsify grade — ⛔ do not re-derive the rule, do not reword a criterion. **Criterion 6 instrument: state unofficial page (61.98%); certified result is 11/17, after the grade, so 11/15 states it runs on unofficial returns; EDR impact = § AB4** | **2026-11-15** | baseline 1.5 of 6 |
+| M | Falsify grade — ⛔ do not re-derive the rule, do not reword a criterion. **11/15 grade RUN 11/16: 1.5 of 6, 🟠 holds (THESIS grade of record).** Owed: ATTOM refresh (C3 instrument) · rule gap at 1.5 · next date | **next proposed 2027-02-16** | ✅ graded; next pending PROME/Will |
 | N | Bank rail re-test — REGINALD frame **FINAL 11/06: NO TRANSMISSION** (SBCF, SSB, AMTB HOLDS; BKU MIXED). BKU balance re-read at the 12/31 Call Report (REGINALD). CORAL's condo/association grep DONE on seven 10-Qs: zero association-loan disclosure (§ AB2). Remaining: **Avidia 10-Q** (not on EDGAR 10:4x ET 11/09), the only filer disclosing association-loan quality | **Avidia ~mid-Nov** | NOT met, NOT armed |
 | O | Stale rows: **SE-FL vintage $/sf (7/13)** · **blacklist count (Apr-2025)** · **NOAA SIR sargassum (since 7/21)** · **ATTOM foreclosure (7/17)** · **VLY CRE/RBC 329% is Q1** | rolling | STALE-marked in place |
 | P | **NFIP authorization** — extended 9/2 | **2026-12-11** | dated cliff |
@@ -134,6 +134,6 @@ Consequence: readings #1–#10 stay as recorded; the current series' history is 
 
 **What would change the read:** BKU's $21.3M at 90+, non-accrual or charged off at the 12/31 Call Report · any past-due, criticized or charge-off in Avidia's association segment · FEMA FR notice with cost share <75% · FL Realtors Oct (11/16): financed condo units falling faster than SF by a wider margin · Cape Coral >6.00 with the other four held · first county or rating action citing Amendment 3.
 
-**Next (dates → `CALENDAR.md`):** **Nov 26** MSI #16 · Avidia 10-Q ~mid-Nov · ⚠️ **Nov 15 falsify grade OVERDUE** · **FL Realtors Oct: first print, publisher-stated 11/16, not posted at 11:26 ET** (CORAL-02) · **Nov 17** canvassing commission certifies · Citizens October month-end ~mid-Nov · **Dec 11** NFIP. *Earlier bottom lines rotated verbatim → § AF0 / § AB0 / § AA0 / § X0 / § W0 / § V0 / § U0 / § T0.*
+**Next (dates → `CALENDAR.md`):** **Nov 26** MSI #16 · Avidia 10-Q ~mid-Nov · ✅ Nov 15 falsify grade run 11/16 (1.5 of 6) · **FL Realtors Oct: first print, publisher-stated 11/16, not posted at 11:26 ET** (CORAL-02) · **Nov 17** canvassing commission certifies · Citizens October month-end ~mid-Nov · **Dec 11** NFIP. *Earlier bottom lines rotated verbatim → § AF0 / § AB0 / § AA0 / § X0 / § W0 / § V0 / § U0 / § T0.*
 
 *CORAL: tracking the bleaching of Florida's condo market. Evidence → `STATUS_DETAIL.md` · session history → `archive/STATUS_SESSIONS_20260721-20260823.md`.*
