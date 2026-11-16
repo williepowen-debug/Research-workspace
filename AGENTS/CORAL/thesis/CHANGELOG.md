@@ -5,7 +5,19 @@
 
 ---
 
-## 2026-11-16 (latest) — Decision-rule band amended: any score below 2 ⇒ 🟠 unqualified (WQ-690 RULED A)
+## 2026-11-16 (latest) — Decision-rule band amended: 2 up to but below 4 ⇒ hold 🟠 and name which (WQ-691 RULED A)
+
+**Authority:** Will, PROME's chat, 2026-11-16 12:29 ET, verbatim "WQ-691 A.  Hold orange" (`PROME/WILL_QUEUE.md` row 691; relay `inbox/processed/2026-11-16_from-PROME_WQ-691-RULED-A-full-4-for-a-downgrade-candidate.md`).
+
+| Item | Old | New |
+|---|---|---|
+| Middle band of the pre-registered decision rule | "2–3 MET ⇒ HOLD 🟠 and name which" (3.5 fell in no band) | **"any score from 2 up to but below 4 MET ⇒ HOLD 🟠 and name which criteria were met or half met"** |
+
+**Unchanged:** the "≥4 MET ⇒ 🟠→🟡 candidate, route to Will" band, the below-2 band (WQ-690 A), HALF = 0.5, UNGRADED = 0, all six criteria and every threshold. Amended between grades. **Implication:** a downgrade candidate needs a full 4; no colour moves (no grade has scored in this range).
+
+---
+
+## 2026-11-16 — Decision-rule band amended: any score below 2 ⇒ 🟠 unqualified (WQ-690 RULED A)
 
 **Authority:** Will, PROME's chat, 2026-11-16 11:39 ET, verbatim "689 B and 690 A approved" (`PROME/WILL_QUEUE.md` row 690; relay `inbox/processed/2026-11-16_from-PROME_WQ-690-RULED-A-band-under-2.md`).
 
