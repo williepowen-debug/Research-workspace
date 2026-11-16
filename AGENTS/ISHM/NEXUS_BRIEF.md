@@ -3,7 +3,8 @@
 **Status:** 🟡 — Physical equipment buying well supported; factory upturn strong but slowing, durability unproved.
 **Domain:** US manufacturing cycle, domestic/imported equipment and freight; downstream owners retain thesis judgments.
 **Recent thesis pivot:** WQ-643 A, November 6 20:31 ET: R1 re-pointed to the November S&P final, December 1, date PRIMARY at the issuer calendar. November 6 close: October truck orders fell sharply (ACT preliminary 13,500, -45% y/y) on what both issuers call EPA 2027 uncertainty; factory payrolls +19K. Earlier the same day, the original S&P October final moved R1 toward-real from CANNOT-FIRE to NOT-MET. No flip fired, and no score, band, gate or threshold changed.
-**As of:** 2026-11-13 10:22 ET | STATUS commit: `3d8032dd68bc22ad16cdc1656fe6299dd82c8719`
+**As of:** 2026-11-16 10:23 ET | STATUS commit: `c14d3613be2181339f5d37343adf70b7748bdc4c`
+**November 16 due-row wake:** Cass October published (shipments +5.9% y/y, NSA; SA m/m +1.7%), J2 deterioration NOT-MET; Empire November general 7.8 from 25.5, new orders 3.0 from 23.2, employment 18.1, sign positive, no band; J2 sample gained the October month (freight-up), counts unchanged. No score, band, gate or threshold changed.
 **November 13 due-row wake:** Cass October not published at 10:21 ET (re-dated November 16, nothing graded); J2 sample gained the matured July forward window, +47.9 bp, forward 28/33 at ≤25 bp; Deere Q4 call November 25 confirmed at the issuer. No score, band, gate or threshold changed.
 
 ## CROSS-DOMAIN
@@ -16,7 +17,7 @@
 | HENRY | S&P October final 54.9, orders and output slower than September; Parker orders +13% vs +12% rolling 12-month | P3 | Cycle read, not a cycle-turn call. Parker backlog and adjusted EPS raise carry the Filtration Group caveat |
 | CARL | S&P output prices steepest since September 2022; ISM prices 75.2 from 77.9; Parker $27M returns, $6M received | P3 | Inflation read stays CARL's. Refund accounting is not new tariff cost; the two survey measures are different series |
 | LABOR | S&P hiring steepest since April 2021; ISM employment 52.4 from 52.7 | P3 | Survey disagreement in size; LABOR keeps the figure. No trigger; ISM <47 NOT-FIRED |
-| LIQUID, RED | November 13: J2 matured window, July 2026 (Cass -4.84% y/y) followed by +47.9 bp HY widening; forward 28/33 at ≤25 bp. Cass had turned positive in August/September before the widening, so not freight-led. Earlier: October Class 8 preliminary ACT 13,500, -45% y/y | P2 | J2 volume input only, qualified for EPA 2027 order timing; no condition fires. Credit and probability reads stay with them |
+| LIQUID, RED | November 16: Cass October +5.9% y/y, J2 test NOT-MET, counts unchanged. November 13: J2 matured window, July 2026 (Cass -4.84% y/y) followed by +47.9 bp HY widening; forward 28/33 at ≤25 bp. Cass had turned positive in August/September before the widening, so not freight-led. Earlier: October Class 8 preliminary ACT 13,500, -45% y/y | P2 | J2 volume input only, qualified for EPA 2027 order timing; no condition fires. Credit and probability reads stay with them |
 | PROME | Six due items closed; R1 re-pointed under WQ-643 A, December 1 confirmed at the issuer; survey-band recommendation is register none | P2 | R1 test live again at one print; DOCKET's "date secondary" wording is PROME's to update |
 
 Packets dated November 6 at the six owners, plus the receipt at `PROME/inbox/`. No recipient consumption is claimed.
@@ -26,7 +27,7 @@ Packets dated November 6 at the six owners, plus the receipt at `PROME/inbox/`. 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
 | Honeywell, Union Pacific IR | Next earnings dates | December 31 recheck | Pages returned 403, so dates are UNKNOWN, not unannounced | Schedules existing company reads only |
-| Cass | October shipments | November 16 recheck | Not published at 10:21 ET November 13 (report page 404) | Existing J2 volume leg; also adds the October freight month to the J2 sample |
+| Cass | November shipments | December 14 | Issuer rule: the 13th, next business day when it falls on a weekend | Existing J2 volume leg; adds the November month and the August forward window to the J2 sample |
 | AAR | Exact October-edition publication day | December 2 rail batch | Still UNKNOWN; PDF creation is not publication proof | Metadata only; October weekly grade is complete |
 
 ## VIEW
@@ -59,11 +60,11 @@ Packets dated November 6 at the six owners, plus the receipt at `PROME/inbox/`. 
 
 | Date | Event | Threshold / signal |
 |---|---|---|
-| November 16 (desk recheck) | Cass October | Existing J2 volume leg; not published November 13 |
+| November 19 | Philadelphia and Kansas City Fed, November | Regional sign; band OWED; Empire November 7.8 in |
 | November 20 (desk recheck) | ACT Class 8 October final | ACT says mid-November; J2 input, final vs preliminary 13,500 |
 | November 17 / 24 | Fed G.17 October / annual revision | First-published and revised bases separate |
 | November 25 | BEA Q3 second estimate; durables October advance; Deere fiscal Q4 (call 10:00 ET, issuer notice November 11) | J1 revisions without erasing prior vintages; Deere eight-cell checklist |
 | December 1 | S&P final 09:45 ET, ISM 10:00 ET, November | R1 two-branch grade at the S&P final (WQ-643 A); ISM strict <47 |
 | December 2 / 3 / 8 | November rail batch / October full M3 / October FT-900 | Existing successor releases; AAR metadata follow-up |
 
-Evidence: `research/2026-11-06_r1-successor/NOTE.md`, `research/2026-11-06_close-refresh/NOTE.md`, `research/2026-11-06_due-items/REPORT.md` and their source manifests; `workbook/PRINTS.tsv` 89 rows. Prior work remains at `research/2026-11-04_backlog/REPORT.md` and `research/2026-11-02_L899/REPORT.md`.
+Evidence: `research/2026-11-06_r1-successor/NOTE.md`, `research/2026-11-06_close-refresh/NOTE.md`, `research/2026-11-06_due-items/REPORT.md` and their source manifests; `workbook/PRINTS.tsv` 92 rows; November 16 record `research/2026-11-16_due-rows/REPORT.md`. Prior work remains at `research/2026-11-04_backlog/REPORT.md` and `research/2026-11-02_L899/REPORT.md`.
