@@ -229,6 +229,18 @@ def rewritten_marked(saved, last_marked, marked_sha):
     return last_marked if sha and sha != marked_sha else None
 
 
+def settled_key(key, batch, sha):
+    """Follow-up 6 (found 2026-11-14 about 19:45Z; WQ-694 A, Will 2026-11-16 17:18 ET, makes it a precondition
+    of two collector runs a day): a count key fresh-suffixed for a rewritten marked batch
+    (news:<cls>:<batch>@<sha>) is STORED in the plain form when --mark stores that same sha for that same
+    batch, because the next scan finds the batch unchanged and computes the plain key; stored in the @ form
+    it re-alerted once as NEW. Any other key, or a mark that keeps an older sha, is returned unchanged."""
+    suffix = f"@{sha}"
+    if batch and sha and key.startswith("news:") and key.endswith(f":{batch}{suffix}"):
+        return key[: -len(suffix)]
+    return key
+
+
 def scan_receipt(batches, recs):
     """Fingerprint of what a scan PRESENTED (CATO N14-1, Will 2026-11-14 14:28 ET): every scanned batch's
     bytes plus every gated alert's key AND reading. --mark must quote it; a lane or liveness change between
@@ -795,20 +807,25 @@ def main():
         # re-appears is a fresh onset again, not permanently suppressed.
         stamp = _now_utc().strftime("%Y-%m-%dT%H:%M:%SZ")
         prev = seen.get("seen", {})
-        new_seen = {r["key"]: prev.get(r["key"], stamp) for r in recs}
-        dropped = [k for k in prev if k not in new_seen]
-        seen = {"seen": new_seen, "updated": stamp}
         ptr = mark_pointer(batches, last_marked, args.through or newest, receipt_readable)
+        state = {}
         if ptr in receipt_shas:
-            seen["last_marked_batch"] = ptr  # WQ-676: next scan reads every batch after this one
-            seen["last_marked_sha"] = receipt_shas[ptr]  # the receipt-verified bytes, not a second read (L1)
+            state["last_marked_batch"] = ptr  # WQ-676: next scan reads every batch after this one
+            state["last_marked_sha"] = receipt_shas[ptr]  # the receipt-verified bytes, not a second read (L1)
         elif ptr and ptr == last_marked:
-            seen["last_marked_batch"] = ptr  # pointer held (unreadable next batch or pointer ahead): keep its sha
+            state["last_marked_batch"] = ptr  # pointer held (unreadable next batch or pointer ahead): keep its sha
             if marked_sha:
-                seen["last_marked_sha"] = marked_sha
+                state["last_marked_sha"] = marked_sha
         elif ptr:
             print(f"REFUSED: pointer {ptr} is not a batch this scan fingerprinted. Nothing written.")
             return 2
+        new_seen = {}
+        for r in recs:
+            k = settled_key(r["key"], state.get("last_marked_batch"), state.get("last_marked_sha"))
+            new_seen[k] = prev.get(r["key"], prev.get(k, stamp))
+        dropped = [k for k in prev if k not in new_seen and settled_key(k, state.get("last_marked_batch"),
+                                                                         state.get("last_marked_sha")) not in new_seen]
+        seen = {"seen": new_seen, "updated": stamp, **state}
         SEEN.write_text(json.dumps(seen, indent=2) + "\n", encoding="utf-8")
         print(f"reconciled intake_seen.json -> {len(new_seen)} currently-true gated key(s) "
               f"(+{len([r for r in recs if r['key'] not in prev])} new, -{len(dropped)} cleared)")

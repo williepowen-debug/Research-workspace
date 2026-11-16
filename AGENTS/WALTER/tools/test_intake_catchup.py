@@ -306,5 +306,41 @@ class CatchUp(unittest.TestCase):
         self.assertIn(key_hit('repaired hit'), self.keys(st['last_marked_batch']))
 
 
+    # Follow-up 6 (WQ-694 A precondition, Will 2026-11-16 17:18 ET): a same-day second run must not re-alert.
+    def scan_new(self):
+        out = io.StringIO()
+        with mock.patch.object(sys, 'argv', ['intake_scan.py', '--json']), contextlib.redirect_stdout(out):
+            s.main()
+        d = json.loads(out.getvalue())
+        return {r['key'] for r in d['new']}, {r['key'] for r in d['suppressed']}
+
+    def test_R11_marked_rewrite_does_not_realert_after_its_mark(self):
+        b = 'data/2026-11-04/news.json'
+        self.assertEqual(self.mark('--through', b)[0], 0)
+        self.rewrite('2026-11-04', [item('D4 second run', 'NEW_WATCH'), item('D4 second alert', 'NEW_ALERT')])
+        sha2 = s.batch_sha(b)
+        new, _ = self.scan_new()
+        self.assertIn(f'news:NEW_WATCH:{b}@{sha2}', new)        # the rewrite itself still alerts once
+        self.assertEqual(self.mark('--through', b)[0], 0)
+        st = json.loads(self.seen.read_text())
+        self.assertEqual(st['last_marked_sha'], sha2)
+        self.assertIn(f'news:NEW_WATCH:{b}', st['seen'])         # stored plain, the form the next scan computes
+        self.assertNotIn(f'news:NEW_WATCH:{b}@{sha2}', st['seen'])
+        new, sup = self.scan_new()
+        self.assertFalse({k for k in new if k.startswith('news:NEW_')}, new)  # no false NEW on the unchanged batch
+        self.assertIn(f'news:NEW_WATCH:{b}', sup)
+        self.rewrite('2026-11-04', [item('D4 third run', 'NEW_WATCH')])     # a third run is new content again
+        new, _ = self.scan_new()
+        self.assertIn(f'news:NEW_WATCH:{b}@{s.batch_sha(b)}', new)
+
+    def test_R12_settled_key_only_for_the_stored_sha(self):
+        b = 'data/2026-11-04/news.json'
+        self.assertEqual(s.settled_key(f'news:NEW_ALERT:{b}@abc', b, 'abc'), f'news:NEW_ALERT:{b}')
+        self.assertEqual(s.settled_key(f'news:NEW_ALERT:{b}@abc', b, 'old'), f'news:NEW_ALERT:{b}@abc')
+        self.assertEqual(s.settled_key(f'news:NEW_ALERT:{b}@abc', 'data/2026-11-05/news.json', 'abc'),
+                         f'news:NEW_ALERT:{b}@abc')
+        self.assertEqual(s.settled_key('news:WATCH_HIT:abc', b, 'abc'), 'news:WATCH_HIT:abc')
+
+
 if __name__ == '__main__':
     unittest.main()
