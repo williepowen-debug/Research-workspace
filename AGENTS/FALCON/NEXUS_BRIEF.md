@@ -3,7 +3,7 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD (re-read 11/16 against Iran's drone attempts on US sites in Bahrain 11/13 and 11/15, both intercepted, and the Yemeni government pullback from Bab el-Mandeb 11/15: no letter met); losses 7; FAL-08..12 OPEN to 12/31, FAL-09 0 of 5. GATE-FALCON-001 LIVE, leg 2 NOT MET (lowest 72.5% at 11/11, 93.7% at 11/15, vs ≤65%), override NOT TRIGGERED, next review 11/18. ⚠️ Hormuz transit count unreadable (PortWatch now requires a token).
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); v3.1 November 6 moves the live test to FAL-08, a STATED loss; no new pivot.
-**As of:** 2026-11-16 about 14:15 ET | STATUS commit: `0c45b26627` | Evidence cutoff about 19:00Z 11/16; ukmto.org and JMIC PDFs 403; GitHub unreachable from this box (commits local); PortWatch chokepoints 499 Token Required; IMO table, TankerMap, NAVAREA IX, Iran International, ABC/AP, gCaptain reachable
+**As of:** 2026-11-16 13:59 ET | STATUS commit: `f6c07361db` | Evidence cutoff about 18:55Z 11/16; ukmto.org and JMIC PDFs 403; GitHub unreachable from this box (commits local); PortWatch chokepoints 499 Token Required; IMO table, TankerMap, NAVAREA IX, Iran International, ABC/AP, gCaptain reachable
 
 ## CROSS-DOMAIN
 
