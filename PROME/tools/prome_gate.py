@@ -1042,7 +1042,7 @@ def check_owner_unconsumed():
         record(ADVISE, name, False, f"UNKNOWN — {type(e).__name__}: {e}",
                "run by hand: python3 PROME/tools/inbox_census.py <DESK> and git log for the desk's last self-commit")
         return
-    record(ADVISE, name, not r["hits"] and not r["unknown"], detail,
+    record(ADVISE, name, not r["hits"] and not r["unknown"] and not r["undated"], detail,
            "a backlog fact, never a launch authorization: an ACTION item ≥7d at a dark owner is the WQ-206 class "
            "(L0 drain CANDIDATE; same-minute preflight first); untyped backlog: a ⛔ wait row ⇒ WQ-221, else Will's word; "
            "file names: python3 PROME/tools/inbox_census.py <DESK>")

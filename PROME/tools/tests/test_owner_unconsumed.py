@@ -114,7 +114,12 @@ class OwnerUnconsumedTests(unittest.TestCase):
         self.assertEqual((hits["MANUAL"]["tag"], hits["MANUAL"]["action"]), ("SPECIAL", 1))
         line = ic.render_owner_unconsumed(t.run())
         self.assertIn("SLEEPY [DORMANT]", line)
-        self.assertIn("MANUAL [SPECIAL]", line)
+        self.assertIn("MANUAL [SPECIAL, Will-driven] 1 item(s)", line)
+        self.assertIn("1 ACTION ≥7d (not a PROME launch candidate)", line)   # read 1, finding 4
+        self.assertNotIn("CANDIDATE only", line)
+        t.put("ALPHA", f"{day(40)}_from-BETA_z.md", "ACTION: do\n")
+        self.assertIn("ALPHA 1 item(s) · oldest 40d · dark 90d · 1 ACTION ≥7d (WQ-206 class, CANDIDATE only)",
+                      ic.render_owner_unconsumed(t.run()))
         self.assertLess(line.index("MANUAL"), line.index("SLEEPY"))  # ACTION-bearing first
 
     def test_a9_a_live_desk_is_never_named(self):
@@ -125,14 +130,41 @@ class OwnerUnconsumedTests(unittest.TestCase):
         t = Tree(self)
         for name in ("README.md", ".gitkeep", "2026-07-02_BATCH-2_MANIFEST.md", "readme.txt"):
             t.put("ALPHA", name)
-        t.put("ALPHA", "PROTOCOL.md")
+        t.put("ALPHA", "PROTOCOL.md").put("ALPHA", "RECEIPT.md")     # a desk's own standing inbox documents
         r = t.run()
-        self.assertEqual((names(r), r["skipped"], r["items"]), ([], 4, 1))
+        self.assertEqual((names(r), r["skipped"], r["items"], r["undated"]), ([], 6, 0, []))
+        self.assertTrue(ic.render_owner_unconsumed(r).startswith("none — "))
+        t.put("ALPHA", "request-with-no-date.md", "ACTION: do this\n")
         t.put("ALPHA", f"{day(8)}_from-BETA_x.md")
-        hit = t.run()["hits"][0]
+        r = t.run()
+        hit = r["hits"][0]
         self.assertEqual((hit["items"], hit["oldest"]), (2, (8, f"{day(8)}_from-BETA_x.md")))
-        u = Tree(self).put("ALPHA", "2026-13-45_from-BETA_not-a-day.md")
-        self.assertEqual(names(u.run()), [])
+        self.assertEqual(r["undated"], [("ALPHA", 1)])
+
+    def test_undated_items_at_a_dark_desk_are_named_never_silent(self):   # read 1, finding 2
+        for text in ("ACTION: do this\n", "an old request in other words\n"):
+            u = Tree(self).put("ALPHA", "request-with-no-date.md", text, dark=400)
+            u.put("ALPHA", "2026-13-45_from-BETA_not-a-day.md")
+            r = u.run()
+            self.assertEqual((names(r), r["undated"]), ([], [("ALPHA", 2)]))
+            self.assertIn("undated item(s), age UNKNOWN, at dark desks: ALPHA 2", ic.render_owner_unconsumed(r))
+        live = Tree(self).put("ALPHA", "request-with-no-date.md", dark=2)
+        self.assertEqual(live.run()["undated"], [])                       # the owner is awake: its own boot shows it
+        err = Tree(self).put("ALPHA", "request-with-no-date.md")
+        err.live["ALPHA"] = ("!ERR", "index.lock")
+        self.assertEqual((err.run()["undated"], err.run()["unknown"]), ([], ["ALPHA"]))
+
+    def test_direct_messaging_files_are_dated_and_typed_by_their_name(self):   # read 1, finding 1
+        stamp = (TODAY - dt.timedelta(days=32)).strftime("%Y%m%d")
+        t = Tree(self).put("ALPHA", f"MSG-PROME-{stamp}-001__ACTION__re-score.md", "no action form in the body\n")
+        hit = t.run()["hits"][0]
+        self.assertEqual((hit["oldest"][0], hit["action"]), (32, 1))
+        u = Tree(self).put("ALPHA", f"MSG-PROME-{stamp}-002__INFO__datum.md", "ACTION: the name says INFO and the name wins\n")
+        self.assertEqual((u.run()["hits"][0]["oldest"][0], u.run()["hits"][0]["action"]), (32, 0))
+        fresh = (TODAY - dt.timedelta(days=3)).strftime("%Y%m%d")
+        self.assertEqual(names(Tree(self).put("ALPHA", f"MSG-PROME-{fresh}-001__ACTION__x.md").run()), [])
+        bad = Tree(self).put("ALPHA", "MSG-PROME-20261345-001__ACTION__x.md")
+        self.assertEqual(bad.run()["undated"], [("ALPHA", 1)])
 
     def test_a11_directories_off_the_roster_are_never_hits(self):
         t = Tree(self)
@@ -175,7 +207,15 @@ class OwnerUnconsumedTests(unittest.TestCase):
         w = Tree(self).put("ALPHA", "SIG-W-20261101-008.md", "---\naction: [ALPHABET]\ninfo: [ALPHA]\n---\n", lane="WALTER")
         self.assertEqual(w.run()["hits"][0]["action"], 0)
         forms = {"**ACTION (ALPHA):** do": 1, "ACTION: do": 1, "## ACTION": 1, "## Requested action": 1,
-                 "**Ask:** do": 0, "No ACTION: here": 0, "  ACTION: indented": 0, "x" * 4100 + "\nACTION: too late": 0}
+                 "**Ask:** do": 0, "No ACTION: here": 0, "  ACTION: indented": 0, "x" * 4100 + "\nACTION: too late": 0,
+                 # read 1, finding 3: a line in the ACTION form that names no work is not an ask
+                 "**ACTION:** none owed": 0, "ACTION: none": 0, "**ACTION (yours):** none required. Read this at next boot": 0,
+                 "ACTION: none owed by PROME; receipt only.": 0, "**ACTION/ASK:** none for Will. No order": 0,
+                 "**ACTION:** None. No reply needed.": 0, "ACTION: nothing owed": 0, "ACTION: N/A": 0,
+                 "**ACTION:** not required": 0, "ACTION: no action": 0,
+                 "ACTION: nonessential cleanup, do it": 1, "ACTION: use it if it bears on your scores. No reply needed.": 1,
+                 "**ACTION (ALPHA):** nothing else moves; re-grade the row": 1, "ACTION: nothing.": 0, "ACTION: note the change and re-grade": 1,
+                 "ACTION: none owed\nACTION: but do re-grade row 7": 1}
         for text, expected in forms.items():
             x = Tree(self).put("ALPHA", f"{day(10)}_from-BETA_x.md", text + "\n")
             with self.subTest(text[:24]):

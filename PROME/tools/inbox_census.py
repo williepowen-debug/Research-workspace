@@ -43,13 +43,19 @@ MIN_DAYS = 7
 ACTION_FORMS = ("**ACTION", "ACTION:", "## ACTION", "## Requested action")
 
 
+STANDING_DOCS = {"PROTOCOL.md", "RECEIPT.md"}  # a desk's own inbox protocol and processing receipt, never a packet
+
+
 def _scaffold(name):
-    return name.startswith(".") or name.upper().startswith("README") or ("MANIFEST" in name.upper() and name.lower().endswith(".md"))
+    return (name.startswith(".") or name.upper().startswith("README") or name in STANDING_DOCS
+            or ("MANIFEST" in name.upper() and name.lower().endswith(".md")))
 
 
 def item_date(name):
-    """The clock in the FILE NAME (never mtime): a YYYY-MM-DD prefix or SIG-W-YYYYMMDD. None if absent or not a real day."""
-    m = _re.match(r"(\d{4})-(\d{2})-(\d{2})", name) or _re.match(r"SIG-W-(\d{4})(\d{2})(\d{2})", name)
+    """The clock in the FILE NAME (never mtime): a YYYY-MM-DD prefix, SIG-W-YYYYMMDD, or a Direct Messaging id
+    MSG-<SENDER>-YYYYMMDD-NNN. None if absent or not a real day."""
+    m = (_re.match(r"(\d{4})-(\d{2})-(\d{2})", name) or _re.match(r"SIG-W-(\d{4})(\d{2})(\d{2})", name)
+         or _re.match(r"MSG-[A-Z0-9]+-(\d{4})(\d{2})(\d{2})-", name))
     if not m:
         return None
     try:
@@ -70,12 +76,27 @@ def due_date(text):
     return None
 
 
-def action_typed(text, desk, lane):
-    """Top-level packet: a line starting with one of ACTION_FORMS in the first 4,000 bytes.
+_NO_ASK = _re.compile(r"(none\b|n/a\b|not required\b|no action\b|no reply\b|nothing (owed|required|needed|to do)\b|nothing[.;]?$)", _re.I)
+
+
+def _asks(line):
+    """A line in an ACTION form that asks for something. `ACTION: none owed` and its kin name no work."""
+    if not line.startswith(ACTION_FORMS):
+        return False
+    _, colon, rest = line.partition(":")
+    return not (colon and _NO_ASK.match(rest.strip(" *")))
+
+
+def action_typed(text, desk, lane, name=""):
+    """A Direct Messaging file states its role in its name (`MSG-…__ACTION__…`, `__INFO__`), and the name wins.
+    Top-level packet: a line starting with one of ACTION_FORMS in the first 4,000 bytes that asks for something.
     Lane file (fallback when the delivery log lacks it): `Role: ACTION`, or front matter `action:` naming the desk."""
+    role = _re.match(r"MSG-[A-Z0-9]+-\d{8}-\d+__([A-Z]+)__", name)
+    if role:
+        return role.group(1) == "ACTION"
     head = text[:4000]
     if not lane:
-        return any(line.startswith(ACTION_FORMS) for line in head.splitlines())
+        return any(_asks(line) for line in head.splitlines())
     for line in head.splitlines()[:15]:
         if _re.match(r"Role:\s*ACTION\b", line):
             return True
@@ -161,7 +182,7 @@ def desk_backlog(repo, desk, today, delivery):
         r["aged"] += 1
         if r["oldest"] is None or age > r["oldest"][0]:
             r["oldest"] = (age, (lane + "/" if lane else "") + f.name)
-        if (logged[1] == "ACTION") if logged else action_typed(text, desk, lane):
+        if (logged[1] == "ACTION") if logged else action_typed(text, desk, lane, f.name):
             r["action"] += 1
     return r
 
@@ -180,7 +201,8 @@ def owner_unconsumed(repo, today, last_self_commit, roster_text, delivery=None):
     roster = perimeter(roster_text)
     if not roster:
         raise ValueError("no ACTIVE, TIER-2, DORMANT or SPECIAL desk parsed from the roster")
-    out = dict(hits=[], unknown=[], outside=[], searched=0, items=0, skipped=0, excluded=0, log_read=log_read, as_of=today.isoformat())
+    out = dict(hits=[], unknown=[], undated=[], outside=[], searched=0, items=0, skipped=0, excluded=0, log_read=log_read,
+               as_of=today.isoformat())
     for d in sorted((repo / "AGENTS").iterdir()):
         desk = d.name
         if not d.is_dir() or not _re.fullmatch(r"[A-Z][A-Z0-9_-]*", desk):
@@ -194,7 +216,7 @@ def owner_unconsumed(repo, today, last_self_commit, roster_text, delivery=None):
             continue
         out["searched"] += 1
         out["items"] += b["items"]; out["skipped"] += b["skipped"]; out["excluded"] += b["excluded"]
-        if not b["aged"]:
+        if not b["aged"] and not b["undated"]:
             continue
         live = last_self_commit(desk)
         if not live or live[0] == "!ERR":
@@ -207,6 +229,10 @@ def owner_unconsumed(repo, today, last_self_commit, roster_text, delivery=None):
             continue
         if dark < MIN_DAYS:
             continue
+        if b["undated"]:  # no clock in the name: the age is unknown, so say so instead of staying silent
+            out["undated"].append((desk, b["undated"]))
+        if not b["aged"]:
+            continue
         tag = roster[desk]
         out["hits"].append(dict(desk=desk, tag=tag, items=b["items"], aged=b["aged"], oldest=b["oldest"], dark=dark,
                                 last=live, action=0 if tag == "DORMANT" else b["action"]))
@@ -218,13 +244,18 @@ def render_owner_unconsumed(r, shown=8):
     """ONE line. ACTION-bearing desks first; at most `shown` desks named, the rest counted."""
     parts = []
     for h in r["hits"][:shown]:
-        tag = f" [{h['tag']}]" if h["tag"] else ""
-        act = f" · {h['action']} ACTION ≥{MIN_DAYS}d (WQ-206 class, CANDIDATE only)" if h["action"] else ""
+        tag = {"": "", "DORMANT": " [DORMANT]", "SPECIAL": " [SPECIAL, Will-driven]"}[h["tag"]]
+        act = ""
+        if h["action"]:  # a SPECIAL desk is never PROME's to launch: no candidate label for it
+            label = "not a PROME launch candidate" if h["tag"] == "SPECIAL" else "WQ-206 class, CANDIDATE only"
+            act = f" · {h['action']} ACTION ≥{MIN_DAYS}d ({label})"
         parts.append(f"{h['desk']}{tag} {h['items']} item(s) · oldest {h['oldest'][0]}d · dark {h['dark']}d{act}")
     if len(r["hits"]) > shown:
         parts.append(f"+{len(r['hits']) - shown} more desk(s)")
     tail = (f"searched {r['searched']} desks · {r['items']} items · {r['skipped']} scaffold file(s) skipped · "
             f"{r['excluded']} excluded by a due: date")
+    if r["undated"]:
+        tail += " · undated item(s), age UNKNOWN, at dark desks: " + ", ".join(f"{d} {n}" for d, n in r["undated"])
     if r["unknown"]:
         tail += " · liveness UNKNOWN (git error or no self-commit found): " + ", ".join(r["unknown"])
     if r["outside"]:
