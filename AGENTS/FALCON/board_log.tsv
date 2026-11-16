@@ -349,3 +349,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-16T13:55:12-05:00	SIG-W-20261114-004	noted	WALTER	IEA OMR 'Gulf exports recover': BRENT graded 11/14; not a Hormuz reopening (KB-492).
 2026-11-16T13:55:12-05:00	SIG-W-20261114-006	noted	WALTER	Item 12 Trump 'we don't need a deal': President's words, Diplomacy 3 unchanged (KB-492). Other items outside domain.
 2026-11-16T13:55:12-05:00	SIG-W-20261114-007	noted	WALTER	Item 4 France on Houthis: folded into combo:bab-shore-control (KB-491). Other items outside domain.
+2026-11-16T14:01:55-05:00	SIG-W-20261116-009	noted	WALTER	Correction of card 001 built from FALCON's own 11/16 read (KB-483..487). Receipt COR-20261116-09 NO-OP: no FALCON surface changes.

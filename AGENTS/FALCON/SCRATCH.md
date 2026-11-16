@@ -33,7 +33,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-11/16: inbox empty (top-level and WALTER/). Delivery consumed by PROME prome-6f; closed out on its request 13:59 ET.
+11/16: inbox empty (top-level and WALTER/); correction card SIG-W-20261116-009 arrived at closeout, noted, receipt COR-20261116-09 NO-OP. Delivery consumed by PROME prome-6f; closed out on its request 13:59 ET.
 
 ## PENDING PUSH / GIT
 Commits are local only: GitHub unreachable from this box today; safe-push not attempted or failed (see PROME packet). Next session: git pull --rebase first, then confirm these commits are on origin.

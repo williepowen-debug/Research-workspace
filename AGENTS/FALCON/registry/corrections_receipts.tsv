@@ -23,3 +23,4 @@ receipt_date	correction_id	action	note
 2026-11-13T17:45Z	COR-20261111-13	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-481; validation_ref=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-474; 
 2026-11-13T17:45Z	COR-20261111-06	NO-OP	scope=KB-FALCON-446 and KB-FALCON-475 already read Eastern Province intercept with Abqaiq alert lifted, no FALCON surface carries Abqaiq missile intercepted; 
 2026-11-13T17:45Z	COR-20261112-03	NO-OP	scope=Nvidia CEO timing is outside FALCON domain, no FALCON surface cites card 20261112-002; 
+2026-11-16T19:01Z	COR-20261116-09	NO-OP	scope=Correction originates from FALCON's own 11/16 read. KB-FALCON-483 to 487, STATUS and the NEXUS brief already carry the 11/13 attribution and the verified Friday attempt. No FALCON surface changes; 
