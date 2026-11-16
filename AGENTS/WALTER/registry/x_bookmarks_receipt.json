@@ -1,30 +1,71 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-14T17:28:19Z",
-  "items": 2,
+  "checked_at": "2026-11-16T18:43:36Z",
+  "items": 12,
   "scan": {
-    "checked_at": "2026-11-14T17:27:55Z",
-    "head_checked_at": "2026-11-14T17:27:55Z",
+    "checked_at": "2026-11-16T18:34:38Z",
+    "head_checked_at": "2026-11-16T18:34:38Z",
     "head_checked_this_run": true,
     "incomplete": false,
     "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "partly_read": 1,
-    "fully_read": 1
+    "partly_read": 8,
+    "fully_read": 4
   },
   "dispositions": {
-    "DISPATCH": 2
+    "DISPATCH": 11,
+    "DUP": 1
   },
   "follow_ups": [
     {
-      "id": "2121649532475695533",
+      "id": "2122333883022577998",
+      "ref": "BOARD/SIG-W-20261116-003-Russia-Ukraine-weekend-BBC-Crimean-Bridge-hit-in-record-drone-attack-Ukraine-refinery-campaign-Russian-diesel-exports-drop-three-ships-hit-near-Romanian-canal-Estonia-closes-border.md"
+    },
+    {
+      "id": "2122334986225287256",
+      "ref": "BOARD/SIG-W-20261116-003-Russia-Ukraine-weekend-BBC-Crimean-Bridge-hit-in-record-drone-attack-Ukraine-refinery-campaign-Russian-diesel-exports-drop-three-ships-hit-near-Romanian-canal-Estonia-closes-border.md"
+    },
+    {
+      "id": "2122316283848835251",
+      "ref": "BOARD/SIG-W-20261116-001-Iran-IRGC-claims-drone-attack-on-US-radar-at-Bahrain-Riffa-base-Nov-15-Bahrain-and-US-say-intercepted-Houthis-reported-in-control-near-Bab-el-Mandeb.md"
+    },
+    {
+      "id": "2121984706258616491",
+      "ref": "BOARD/SIG-W-20261116-005-Small-items-Nov-15-16-SoftBank-11B-junk-bonds-for-OpenAI-gold-1-year-low-UK-2-year-gilt-5pct-Nagel-hike-likely-TWG-probe-Egan-Jones-DRAM-suit-proceeds-dups-and-kills.md"
+    },
+    {
+      "id": "2122060722788270226",
+      "ref": "BOARD/SIG-W-20261116-002-Bessent-gives-Nvidia-board-10-days-on-seemingly-illicit-sales-wants-outside-CEO-Trump-backs-Huang-return-NVDA-down-4.7pct-SP500-7425-under-7500-VIX-22-before-Tuesday-earnings.md"
+    },
+    {
+      "id": "2121962740554027476",
+      "ref": "BOARD/SIG-W-20261116-001-Iran-IRGC-claims-drone-attack-on-US-radar-at-Bahrain-Riffa-base-Nov-15-Bahrain-and-US-say-intercepted-Houthis-reported-in-control-near-Bab-el-Mandeb.md"
+    },
+    {
+      "id": "2122014275027833110",
+      "ref": "BOARD/SIG-W-20261116-003-Russia-Ukraine-weekend-BBC-Crimean-Bridge-hit-in-record-drone-attack-Ukraine-refinery-campaign-Russian-diesel-exports-drop-three-ships-hit-near-Romanian-canal-Estonia-closes-border.md"
+    },
+    {
+      "id": "2122011908383326645",
       "ref": "BOARD/SIG-W-20261114-008-UPDATE-card-001-Duffy-says-ground-stop-caused-by-bad-equipment-or-an-error-replacing-old-copper-telecom-lines-at-a-remote-FAA-facility-AFP-more-than-16000-US-flights-cancelled-Fri-and-Sat-BRENT.md"
     },
     {
-      "id": "2121651285913117020",
-      "ref": "BOARD/SIG-W-20261114-008-UPDATE-card-001-Duffy-says-ground-stop-caused-by-bad-equipment-or-an-error-replacing-old-copper-telecom-lines-at-a-remote-FAA-facility-AFP-more-than-16000-US-flights-cancelled-Fri-and-Sat-BRENT.md"
+      "id": "2121990105875312658",
+      "ref": "BOARD/SIG-W-20261116-002-Bessent-gives-Nvidia-board-10-days-on-seemingly-illicit-sales-wants-outside-CEO-Trump-backs-Huang-return-NVDA-down-4.7pct-SP500-7425-under-7500-VIX-22-before-Tuesday-earnings.md"
+    },
+    {
+      "id": "2121885934463406332",
+      "ref": "BOARD/SIG-W-20261116-001-Iran-IRGC-claims-drone-attack-on-US-radar-at-Bahrain-Riffa-base-Nov-15-Bahrain-and-US-say-intercepted-Houthis-reported-in-control-near-Bab-el-Mandeb.md"
+    },
+    {
+      "id": "2122005537323716861",
+      "ref": "BOARD/SIG-W-20261116-001-Iran-IRGC-claims-drone-attack-on-US-radar-at-Bahrain-Riffa-base-Nov-15-Bahrain-and-US-say-intercepted-Houthis-reported-in-control-near-Bab-el-Mandeb.md"
+    },
+    {
+      "id": "2121802444694823263",
+      "ref": "BOARD/SIG-W-20261116-003-Russia-Ukraine-weekend-BBC-Crimean-Bridge-hit-in-record-drone-attack-Ukraine-refinery-campaign-Russian-diesel-exports-drop-three-ships-hit-near-Romanian-canal-Estonia-closes-border.md"
     }
   ],
   "requests": []

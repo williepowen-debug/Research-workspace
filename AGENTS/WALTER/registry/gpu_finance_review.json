@@ -63,6 +63,51 @@
         "2026-11-14"
       ],
       "closed": "2026-11-14T16:20:01Z"
+    },
+    "gpu:13e5a76beb05": {
+      "title": "GMI Cloud seeks $635M GPU-backed loan with Nvidia support - Crypto Briefing",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261116-005",
+      "days": [
+        "2026-11-15"
+      ],
+      "closed": "2026-11-16T18:43:10Z"
+    },
+    "gpu:a06bfa4007ad": {
+      "title": "Google Needs More Money - Bloomberg",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261116-005",
+      "days": [
+        "2026-11-15"
+      ],
+      "closed": "2026-11-16T18:43:10Z"
+    },
+    "gpu:c38ce286af37": {
+      "title": "Michael Dell Says H100 Rents Rose 58%: “So Much for GPU Depreciation” - Yahoo Finance",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261116-005",
+      "days": [
+        "2026-11-16"
+      ],
+      "closed": "2026-11-16T18:43:10Z"
+    },
+    "gpu:8d6b76e1a723": {
+      "title": "Nvidia’s $500B AI data center plan hinges on a secondary market for aging GPUs - CryptoRank",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261116-005",
+      "days": [
+        "2026-11-16"
+      ],
+      "closed": "2026-11-16T18:43:10Z"
+    },
+    "gpu:aad66adf42f5": {
+      "title": "FT: Big Tech issued up to $300B in guarantees for AI infrastructure - ForkLog",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261116-005",
+      "days": [
+        "2026-11-16"
+      ],
+      "closed": "2026-11-16T18:43:10Z"
     }
   }
 }

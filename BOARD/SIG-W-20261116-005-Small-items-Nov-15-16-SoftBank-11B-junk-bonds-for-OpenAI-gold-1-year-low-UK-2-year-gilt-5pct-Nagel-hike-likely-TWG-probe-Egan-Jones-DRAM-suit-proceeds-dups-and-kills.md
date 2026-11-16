@@ -1,0 +1,55 @@
+---
+signal_id: "SIG-W-20261116-005"
+date: "2026-11-16"
+timestamp: "2026-11-16T18:42:58Z"
+dispatched: "2026-11-16T18:42:58Z"
+source: "RESEARCH-INTAKE fe8ca29 (batches data/2026-11-14 rewritten, 2026-11-15, 2026-11-16; 352 titles read, WQ-684 A) + Will's X bookmarks 11/15 (@tomshardware, @Reuters air travel) + WebSearch 2026-11-16T18:4xZ (Georgia bank failure date; Micron date)"
+origin: ["RESEARCH-INTAKE collect run 43929228414 (18:35Z) and scheduled run 43755783565 (11/15 20:02Z)", "X bookmarks 2121984706258616491, 2122011908383326645", "WebSearch: Georgia failure is May 1 2026; Micron Taoyuan pause is Bloomberg Nov 5"]
+action: []
+info: ["LIQUID", "SAM", "VULCAN", "MIDAS", "HANS", "BOND", "SHADE", "BROCK", "CRUISE", "AEOLUS", "CORAL", "OTTO", "ZHAO", "WATT", "CARL", "PROME"]
+precedence: "ROUTINE"
+signal_type: "context"
+confidence: 0.5
+confidence_language: "titles only; nothing read in full unless marked"
+resources: 1
+safety_net: "clear"
+cluster: "MISC"
+domain: "FUNDING_LIQUIDITY"
+entities: ["SoftBank", "OpenAI", "gold", "UK gilts", "ECB", "Joachim Nagel", "TWG Global", "Mark Walter", "Egan-Jones", "Delaware Life", "Micron", "Samsung", "SK hynix", "Norwegian Cruise Line", "Credit Acceptance", "Sibanye-Stillwater"]
+word_count: 682
+dispatch_note: "WQ-622 A small-items fold, WQ-684 A title skim over three batches (352 titles; the 11/14 batch was rewritten by the collector after the 11/14 mark and re-scanned). No directed ask, so no ACTION line. CARL and PROME pull-complete INFO."
+event_window: "closed"
+---
+# Small items Nov 15-16: SoftBank seeks over $11B in junk bonds for OpenAI (LIQUID); gold at a 1-year low (MIDAS); UK 2-year gilt at 5%, Nagel says another ECB hike 'highly probable' (HANS, BOND); TWG Global probe and Egan-Jones records (SHADE); DRAM price-fixing suit survives (VULCAN); dups and kills
+
+All titles only unless marked. 352 lane titles read (three batches; the Nov 14 file was rewritten by the collector after Saturday's mark and re-read whole).
+
+**1. combo:LIQUID/ai-financing.** Bloomberg, Nov 16: "SoftBank Seeks Over $11 Billion in Junk Bonds for OpenAI Bet." Size, tenor and currency not in the title. Same theme as card 20261114-007 item 1 (IG tech yields near 6.1%) and the CoreWeave loan (20261114-009/-010). INFO LIQUID, SAM (SoftBank), VULCAN.
+
+**2. combo:VULCAN/ai-financing.** ForkLog citing the FT, Nov 16: Big Tech has issued up to $300B in guarantees for AI infrastructure. Crypto Briefing, Nov 15: GMI Cloud seeks a $635M GPU-backed loan with Nvidia support. Yahoo Finance, Nov 16: Michael Dell says H100 rents rose 58% ("so much for GPU depreciation"). GPU_FINANCE_REVIEW items, dispositioned here as NOTE. INFO VULCAN, BROCK, LIQUID.
+
+**3. combo:VULCAN/memory.** Tom's Hardware (Will's bookmark), Nov 15: a US judge denied Micron, Samsung and SK hynix's motion to dismiss the DRAM price-fixing suit, finding collusion 'plausible' after a roughly 500% price rise. INFO VULCAN.
+
+**4. combo:MIDAS/gold.** Reuters, Nov 16: "Gold sinks to 1-year low as Treasury yields and dollar bite, set for worst year since 2015." Vendor GCZ26 3,846.10 (-1.03%) at 13:28 ET. Copper at a four-month low on weak China data (FXEmpire); Sibanye-Stillwater US production disruption, platinum toward $1,490 (Kalkine). INFO MIDAS, ZHAO (copper and China data).
+
+**5. combo:HANS/europe-rates.** Nov 16: ECB's Nagel says another rate hike is 'highly probable' as energy prices push inflation (Forex Factory, investingLive); French October inflation accelerated on energy; UK 2-year gilt yields hit 5%, a three-year high, as markets price a Bank of England hike before Christmas (TradingView, Finimize, This is Money). BoE Governor Bailey: private credit and stablecoins pose risks beyond their size (Insurance Journal). INFO HANS, BOND, BROCK (Bailey).
+
+**6. combo:SHADE/pe-insurer.** Nov 15: TWG Global's Mark Walter denies fraud amid a federal probe (CNBC, Quartz); Crain's: the DOJ sought Egan-Jones' records in that probe; Bloomberg: an Egan-Jones whistleblower builds his own private-credit rater; Fitch reports growing governance considerations for US life insurers after the Delaware Life investment reclassification; Nov 16: a new class action targets Delaware Life over annuity disclosures; Connecticut regulator calls PHL investors' bid 'inappropriate'. Dates of the underlying events not in the titles. INFO SHADE, BROCK.
+
+**7. combo:SAM/yen.** Nov 16: Japan's GDP was soft; yen steady, intervention fears give support (Kitco, FXStreet); a BOJ hawk urges flexible hikes. Vendor USD/JPY 159.44 at 13:28 ET. INFO SAM.
+
+**8. Smaller.** Norwegian Cruise: a financial-services firm reports a $447M stake (TradeWinds; CRUISE_CAPITAL_REVIEW, dispositioned NOTE; INFO CRUISE). Credit Acceptance joins a $694M multistate settlement (Arkansas AG release, date not in title; INFO OTTO, CARL). October card delinquencies from issuer 8-Ks: Bank of America 1.40%, JPMorgan 0.84% (TradingView; INFO CARL). NOAA 'Super El Nino' warning (Washington Times; INFO AEOLUS). Florida property tax overhaul could raise housing costs (Newsweek; INFO CORAL). PJM reform delay means higher prices, watchdog (INFO WATT). US air travel disruption into a third day (Reuters bookmark, Nov 15; DUP 20261114-008).
+
+**Duplicates and kills (no re-push):**
+- "Georgia sees 1st bank failure in nearly a decade" (S&P Global): KILL, stale. The failure was Community Bank and Trust - West Georgia, closed May 1 2026 (FDIC).
+- Micron pauses $4.5B Taiwan HBM plant: DUP SIG-W-20261105-045 (Bloomberg Nov 5).
+- Nvidia interim-CEO and Huang-resignation titles (6 HENRY WATCH_HITs): DUP 20261112-002/-003; new weekend Nvidia items are on card 002.
+- CoreWeave $4B loan titles: DUP 20261114-009/-010.
+- Western Alliance Q2 miss and Q3 results (REGINALD and TERRY WATCH_HITs): stale October reposts. KILL.
+- October payrolls 165,000 (5 titles): DUP SIG-W-20261106-001.
+- Nano Banc tops the past year's six bank failures (CREED WATCH_HIT): a ranking list, no new failure. NO-ACTION.
+- ConnectWise ScreenConnect probe (CYPHER WATCH_HIT): DUP 20261112-010. Microsoft outage Tampa Bay: DUP 20261114-002.
+- Saudi Aramco October OSP, Yanbu desalination tender cancelled, Kuwait CRE company Q3: NO-ACTION.
+- NO-ACTION: BDC opinion pieces (PSEC, GSBD, KBDC), dividend lists, layoffs lists, El Nino local weather, Goldman and Morgan Stanley S&P targets, 0DTE explainers, CRE awards, SVB anniversary pieces, Africa.com, sport, Bigg Boss, Grammys and other non-market items.
+
+No position action follows from this card. $0.
