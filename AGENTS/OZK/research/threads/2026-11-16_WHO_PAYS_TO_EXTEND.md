@@ -1,6 +1,6 @@
 # OZK — who is paying to extend each stressed credit, and for how long (2026-11-16)
 
-**Owner:** OZK · **Written:** 2026-11-16 ~14:20 ET · **Assignment:** PROME prome-6f item 3, on Will's word (PROME chat 13:45 ET). **Logging only: it moves no score, band, gate, trigger, weight or conviction.** Sources are the desk's existing primaries; no new pull except the Q3 Management Comments (MC) text re-extracted from `raw/Q3_2026_8K_bundle.pdf` (FDIC FLNG 12022) for Figs 23 and 25 and p.28.
+**Owner:** OZK · **Written:** 2026-11-16, before 14:07 ET by the wall clock (first stamped "~14:20 ET" from narrative; corrected 14:07 ET) · **Assignment:** PROME prome-6f item 3, on Will's word (PROME chat 13:45 ET). **Logging only: it moves no score, band, gate, trigger, weight or conviction.** Sources are the desk's existing primaries; no new pull except the Q3 Management Comments (MC) text re-extracted from `raw/Q3_2026_8K_bundle.pdf` (FDIC FLNG 12022) for Figs 23 and 25 and p.28.
 
 "Who pays" = the party funding the delay (sponsor equity, lender modification or forbearance, interest reserve, rescue or preferred tranche, parent). "How long" = the evidence I hold (reserve balance, maturity, covenant date). UNKNOWN is an answer.
 

@@ -70,6 +70,7 @@
 ### LAST SESSION (2026-11-16 — OZK, Opus 5.5, Claude Code; woken by PROME prome-6f on Will's 13:45 ET word; session id not exposed; no pull, no push on PROME's instruction — GitHub name lookups failing today)
 - **Inbox drained (4):** DEWEY 003R ×3 (information; OZK not in the six-bank sample; relay rule: any smaller-bank figure carries the United Fidelity caveat; changed nothing) · DAEDALUS WQ-678: A1 applied; B trims C24–C32 all applied in `CLAUDE.md` (22,832 → ~21,190 B), plus the stale "OZK-09 45%" inside line 16 cut to "OZK-09".
 - **Who pays to extend** (logging only) → `research/threads/2026-11-16_WHO_PAYS_TO_EXTEND.md`: the bank funds ~$480M (Baltimore, Lake Tahoe, foreclosed); sponsors fund RaDD to Dec-2029; Boston land and the SM pair UNKNOWN.
+- PROME consumed the packet (14:07 ET). ⚠️ Its date line says ~14:30 ET; the wall clock at delivery was 14:07 ET (narrative stamp, `[[finding_a_stamp_written_from_narrative_drifts_from_the_wall_clock]]`). The packet is PROME's and stays as filed; the who-pays thread stamp is corrected. Next time, run `date` in the same command as the stamp.
 - Due rows: none due by my rule (L588 open to 12/22; L810 OZK leg done 10/28). Sub-notes window re-swept, empty. STATUS rotated verbatim → `archive/STATUS_HISTORY_2026-11-16.md` (23,843 → ~21,280 B). Price $50.46 −0.59% (~14:03 ET).
 
 ### NEXT SESSION — existing obligations
