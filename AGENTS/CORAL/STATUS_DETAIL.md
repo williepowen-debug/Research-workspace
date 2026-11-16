@@ -2126,3 +2126,4 @@ Grade of record and cell evidence live in `thesis/THESIS.md` (GRADE OF RECORD �
 | 5 | NOT MET | STATUS bankruptcy row; `tools/bkcy/` (F-2 9/30 table, Leg A 0.6pp) |
 | 6 | NOT MET | § AB4, § AE2 (REC figures, certification 11/17, first bills Nov 2027); ML-CORAL-154 |
 Inference audit (CLAUDE.md 13a), C3 clause 3: the rival (forced sales moving off-MLS to auction) moves the MLS distressed count the same way as "no acceleration", so that count is not evidence for the clause; the discriminator is foreclosure filings or completions (ATTOM), which are stale. C1: the rival to "not curing" is one-off rate-shock past-dues that cure next quarter; the 12/31 Call Report separates them.
+- **Watch closed 12:46 ET 11/16: NOT POSTED.** Condo and single-family October summary PDFs still 404 (checks every 2 minutes 10:17–12:46 ET, plus manual checks at 11:27, 11:31, 11:44 and 12:34). D:L1048 stays at Tue 11/17 (PROME); CORAL-02 grades on the first print.
