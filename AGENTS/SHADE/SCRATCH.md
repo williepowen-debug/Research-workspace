@@ -1,27 +1,28 @@
 # SHADE SCRATCH — restart handoff
 
-## Catch-up — 2026-11-11 (PROME prome-2b assignment on Will's 09:24 ET word, Claude Code, Opus 5.5, session d7af05d7; window held open for the closeout ask)
+## Due rows — 2026-11-16 (PROME prome-6f, WQ-184; Claude Code, Opus 5.5; window HELD open for PROME's closeout ask)
 
 **Authority:** research only, $0, no trade, card, gate, band, threshold or charter change. Moved nothing.
 
-**Done:** Inbox 3 → 0 (PROME Clear Spring overview acted; WALTER 20261109-007 noted under `combo:ai-credit-in-wrapper`; 20261111-008 info-only). Corrections rc 0. `T-SHADE-01` NOT MET at the 11/10 close (+2.62% vs +8.88%, both up). Hiking-Fed read on my letters. Clear Spring YE2025 C&S $1,194.3M, affiliated ≈4.94× surplus. F-SHADE-01 gate: 30 sessions >300 through 11/9 on today's FRED, confirm on LIQUID's series. STATUS rotated (§0u + four §0m items, crc `5fcf94c5`, `tail -n +5`). Record `research/CATCHUP_2026-11-11.md`. Packet `PROME/inbox/2026-11-11_from-SHADE_catchup-live-data.md`.
+**Done:** Record `research/L240_L184_L185_Q3_READS_2026-11-16.md`. Inbox 4 → 0 (DAEDALUS WQ-678 noted, Changelist B deferred; WALTER 20261112-005 noted, 20261113-002 info-only, 20261114-006 noted with two combo rows). Corrections rc 0.
+- **D:L240:** DLIC Q3 NOT POSTED at the index 11/16 10:09 ET. Measured CDN lag +2/+3 days ⇒ re-dated **11/18**.
+- **D:L184:** C2 NOT WITHDRAWN (penalty +25.25 bp ✅, S1 ~$2.3B ✅, S2 34.2% ❌). Vendor changed between decks (J.P. Morgan → Bloomberg).
+- **Canary Q3:** mixed quarter, no reading; S3 UNAVAILABLE (deck dropped the syndication count).
+- **SHD-01:** NO-VERDICT by its letter, `thesis/PREDICTIONS.tsv` updated.
+- **D:L185 BMA:** ACRA 1A/2A FY2025 read; ~90% funds withheld, so the Level 3 split must come from the cedants.
 
-**Network note:** github.com DNS failed once at 10:12 ET then resolved; `git pull --rebase` not run because other desks' files are dirty/staged in the shared index (LIQUID renames, PROME SCRATCH). Committed my paths only.
-
-**Closeout 2026-11-11T10:20:11-05:00:** PROME prome-2b's closeout ask received; packet read and filed by PROME; D:L241 re-keyed to a dated 11/20 SVO-count row. Inbox and WALTER lane 0, corrections rc 0, no auto-memory written, no figure superseded (consumer check not needed), retirement scan not rerun (last 11/6, 5 days). Promotion scan: the rotation crc offset defect recurred a third time (+4 vs +5), caught by recompute; already a standing rule in STATUS §0 and MEMORY, no new lesson.
+**Git:** no pull needed (local not behind origin; PROME's two state files dirty in the shared index). Committed my paths only.
 
 **NEXT SESSION, in order:**
-1. **11/12 Q3 FI deck** (ir.athene.com/presentations): grade the canary (S3, penalty like-for-like and as printed), execute C2 at D:L184, grade SHD-01 (D:L1067).
-2. **`T-SHADE-01`** next eligible endpoint the 11/11 close; read LIQUID's 11/10 HY cell first (about 10:10 ET 11/12). Script `research/tshade01_close_snapshot.py --anchor 2026-09-24 --previous-end 2026-11-10`.
-3. **BMA deeper walk for D:L185 by 11/18:** ACRA 1A/2A FY2025 Level 3 and related-party notes; Catalina FY2025.
-4. **DLIC Q3** index on or after 11/15 (D:L240, SHD-02): Note 10 and subsequent events for gross TWG completion; Exhibit 1 + SoO L15 flows.
-5. **AAIA Q3 statutory:** name-level SVF II Finco, SoftBank, Oracle CMLs, Big Sky; FHLB collateral (the hike's most direct link).
-6. **NAIC Fall meeting readouts** (Dallas, Life RBC 11/15): vector #4 watch only.
-7. Still owed by 11/20: SVO override count (all that remains of D:L241), declared-flat TRADE surface, ARI DEFM14A annex. Guggenheim Universe waits on WALTER.
+1. **DLIC Q3** index re-read 11/17 after 11:00 ET, then 11/18 (D:L240, SHD-02): verify jurat 79065·2026·3 first; Exhibit 1 + SoO L15 vs the 1H-26 baseline; Note 10 and subsequent events for gross TWG completion. If absent 11/18, re-date 11/20.
+2. **D:L185 by 11/18:** Catalina FY2025 (BMA, posted 11/4); ACRA 1A Note 12 and 2A related-party notes (PDFs re-fetchable, URLs and sha256 in the record §5).
+3. **AAIA Q3 statutory** (posted 11/13): name-level SVF II Finco, SoftBank, Oracle CMLs, Big Sky; FHLB collateral.
+4. **`T-SHADE-01`** fresh assessment on the latest close (LIQUID's HY cell first). Script `research/tshade01_close_snapshot.py --anchor 2026-09-24 --previous-end <last end>`.
+5. By 11/20: SVO override count (D:L241), declared-flat TRADE surface, ARI DEFM14A annex. WQ-678 Changelist B trims at a quiet session.
 
-**Open unknowns that matter:** prior list (11/6) unchanged: SVF II Finco identity and the SoftBank loan share INFERRED; WHCO guarantee base O unstated; mortgage-loss rate attribution unaudited. New: the hike's FHLB effect needs haircuts that are not public.
+**Open unknowns that matter:** whether any public FABN syndication priced in Q3 (issuer no longer says); the cedants' Level 3 split of ACRA's withheld assets; prior list (11/6) unchanged.
 
-**Prior handoff** (11/6 Q3 read) → `git show 5b514d55e4:AGENTS/SHADE/SCRATCH.md`.
+**Prior handoff** (11/11 catch-up) → `git show df073440d7:AGENTS/SHADE/SCRATCH.md`.
 
 ## Saved research and accepted qualifications
 
