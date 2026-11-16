@@ -31,3 +31,29 @@ Verbatim, contiguous: STATUS.md lines 3-10 as of commit HEAD before the 2026-11-
 - **Inbox:** no packet to drain. The one top-level file in PROME's census is `inbox/PROTOCOL.md` (the standing protocol); `inbox/WALTER/` is empty.
 - **Git:** `git pull --rebase` refused on other desks' dirty files; origin had no new commits (fetched 10:18 ET), so the checkout is current. Push held: PROME asked this session to stay open.
 - **Resume list:** (1) charter GIT pointer for carve-out ④ (PROME 11/07 packet, KB-CYP-108): still waiting on PROME's authorisation. (2) WQ-678 Changelist B trims E-CY1..E-CY5 (optional, next ordinary wake).
+
+---
+
+## Third rotation 2026-11-16 (16:08 ET)
+
+Verbatim, contiguous: STATUS.md lines 37-53 as of commit 0f676c46d5 plus the 16:00 re-check edits above it (the Binance 10/29 section). crc32 fa879066 · 3167 B.
+
+---
+
+## Binance, 10/29 (OFF-WAVE · CYPHER-owned class from 11/02, WQ-589 · canonical CYB-INC-055)
+
+| Item | Reading (2026-10-30) | Basis |
+|---|---|---|
+| What happened | Unauthorized withdrawals from hot wallets; Binance points to a compromised DevOps engineer laptop that reached a service container, and says it found "no evidence of any wallet private key leak". Its CEO later said "additional points of breach" | Notice PRIMARY-VERIFIED; CEO SECONDARY |
+| Size | Binance: ~$6.3B estimated total IMPACT and ~$3B frozen, so about $3.3B is not frozen. Arkham: $6.01B taken, $2.80B frozen | OWNER-ASSERTED / SECONDARY |
+| Issuer freezes | On Ethereum: USDC $823.00M and USDT $1,350.46M traced (+$30M probable), frozen 37–41 min after the first drain; none destroyed. **Unchanged at 14:54Z re-tally.** Tron not checked | PRIMARY-VERIFIED on-chain |
+| Withdrawals | Off on all pairs from ~22:33Z 10/29 (all of Fri 10/30). Phase one reopened Sun 11/01 06:00–09:00Z; **29 of 1,448 pairs on at 13:48Z 11/02**; next phase "tomorrow". Net outflows $4.72B since reopening (Binance via Reuters) | ARTIFACT-VERIFIED / PRIMARY / SECONDARY |
+| Attribution | **FBI: North Korea (TraderTraitor), alert 10/31, "more than $6 billion"**; 628 addresses to block. CYB-INC-055 class STATE-CAMPAIGN | SECONDARY (fbi.gov 403) |
+| US freeze and court action (11/12) | DOJ: more than $2.7B frozen by US government and private-sector efforts; court authority to seize or restrain more than $1.2B of it; laundering continues | PRIMARY-VERIFIED (justice.gov, read 11/14) |
+| Leg 2 (11/02) | Cover ~95% (OWNER-ASSERTED); freezes intact; no redemption surge; COIN within beta at the 10/30 close; no bank named. VX-02 YELLOW held at 3 on the letter; re-cut drafted; no standing owner recommended | leg-2 RECORD |
+| Transmission (WQ-550 leg 1) | No other exchange halted; Aave froze its affected markets. Market makers Wintermute (<20% of net equity) and GSR (<5%) are exposed; no bank, prime broker or lender is named. US crypto stocks move with bitcoin and the Nasdaq on the equity clock. COIN's residual overlaps its own earnings | SECONDARY / ARTIFACT-VERIFIED (prices) |
+| Map | Not a CHK event: the issuers were the control that worked. New class row CHK-40 (USD stablecoin issuers, NONE-KNOWN) | desk judgment |
+| Watch / vectors | No escalation row (OFF-WAVE). VX-02 YELLOW at 3 stands; re-cut encoded 11/05 for later events. VX-08 graded 4 ORANGE 11/05 on the FBI attribution, composition noted | desk judgment |
+| Post-mortem and outreach (11/05) | Began June with malicious software installed for an AI coding tool, plus fake recruiter interviews; no vendor, supplier or bank named. North Korea denies. Fed and OCC supervisors called banks 11/02 (Reuters, anonymous): outreach, no finding, no bank named; never "probe" or "contagion" | SECONDARY |
+| Do not relay | "$5B hack" · "$6.3B stolen" · "largest bank heist" · "CZ confirms" · "North Korea did it" · "user funds lost" (first-read RECORD §9) · "COIN down 10× bitcoin" · "Binance halted trading" · "Tether and Circle said they froze $2.36B" (leg-1 RECORD §6) · "DOJ seized $1.2B" · "$2.7B recovered" (11/14) | — |
+

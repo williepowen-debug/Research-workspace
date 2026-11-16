@@ -98,3 +98,15 @@ No source mentions a cyberattack and none denies one. Chase's only stated cause 
 - Status pages: akamaistatus.com, cloudflarestatus.com, azure.status.microsoft/en-us/status, status.cloud.google.com, health.aws.amazon.com (empty), fiserv.com service-status (404), zelle.com
 - Bank home pages (static GET, no login): chase.com, wellsfargo.com, bankofamerica.com, usbank.com/index.html, truist.com
 - Not readable: downdetector.com (fetch refused), mensjournal.com (403), tradersunion.com (403), sfchronicle.com (bot challenge), x.com (not attempted directly)
+
+## 7. Re-check 16:00 ET (PROME prome-6f ask: restored? second bank or rail in own words? cyber stated or denied?)
+
+| Question | Answer at 16:00 ET | Source (read 16:00-16:03 ET) |
+|---|---|---|
+| Chase restored? | **No bank announcement.** One unnamed Chase branch teller (Washington, D.C.) told Fox Business in-store and online issues "had been resolved just after 3 p.m." — an anecdote, not a statement | Fox Business (updated 13:58 ET; the teller line is in the read text) |
+| Cyber cause stated or denied? | **Denied by Chase:** "This is a technical issue, not cyber-related" (Chase spokesperson to Fox Business). CBS paraphrase: "a technical bug issue, not a cyber issue" | Fox Business; CBS News (updated 15:58 ET) |
+| Second bank in own words? | **Wells Fargo:** website statement that online banking features were not working, now reported by NBC Chicago and Fox ("only Chase and Wells Fargo have confirmed they were having an issue"); still not read at source. **U.S. Bank:** "U.S. Bank systems are not directly impacted"; Zelle payments with another institution "may experience transaction delays" (knock-on). **PNC:** not impacted. **Bank of America, Truist:** no statement | Fox Business; CBS News |
+| Payment rail in own words? | **Zelle denies an outage:** "Zelle is not down. Zelle is operating as it should." "This is a Chase issue" is reported as a Zelle spokesman's line to NBC News (search summary only; NBC News page not read) — this corrects §1, which tentatively gave the line to Chase | Fox Business; CBS News; search summary |
+| Size | Nearly 4,800 Chase reports at 14:00 ET (CBS). Search summary, page 403: Bank of America >2,000, Wells Fargo >1,000, U.S. Bank 1,060 at ~13:55 ET (UNVERIFIED) | CBS News; Yahoo (403) |
+
+**Re-class triggers: none fired.** Cause denied as cyber; no shared provider named; the one rail named (Zelle) denies an outage; no second bank's operator-confirmed outage has run into Tue 11/17; no wrong balances confirmed. Not read: Tom's Guide live blog (entries did not load), Forbes and Detroit News (402), Yahoo Finance (403).
