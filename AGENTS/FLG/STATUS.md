@@ -1,12 +1,23 @@
 # FLG STATUS
 
-**Last Updated:** 2026-11-11 Wednesday — **catch-up wake (PROME prome-2b): Q3 Call Report re-pulled, no amendment; hiking-Fed read on the issuer's own rate tables; WQ-477 docket read dropped by Will. Nothing graded moved.** Prior: 11/07 Q3 10-Q read (FLG-02, FLG-03 HIT) · 11/02 freshness audit · 11/01 Q3 Call Report ingested · 10/28 owner catch-up (Q3 call, filings, FFIEC Q1/Q2 pull; block rotated 11/01, crc32 `922ec28a`) · 10/23 Q3 print graded · 10/22 fix pass + 8-K sweep · 10/01 T-08 fire · 08/28 first live session.
+**Last Updated:** 2026-11-16 Monday — **inbox drain and examination items (PROME prome-6f): five who-is-paying-to-extend lines logged; read-cap rotation; WQ-678 charter trims. Nothing graded moved.** Prior: 11/11 catch-up wake (Q3 Call Report re-pulled, no amendment; hiking-Fed read; WQ-477 dropped) · 11/07 Q3 10-Q read (FLG-02, FLG-03 HIT) · 11/02 freshness audit · 11/01 Q3 Call Report ingested · 10/28 owner catch-up (Q3 call, filings, FFIEC Q1/Q2 pull; block rotated 11/01, crc32 `922ec28a`) · 10/23 Q3 print graded · 10/22 fix pass + 8-K sweep · 10/01 T-08 fire · 08/28 first live session.
 
 ✅ **FIRST-LIVE-SESSION BANNER STRUCK.** The build banner said every figure here was MIRROR-grade — extracted from REGINALD, never pulled by FLG. **That is no longer true.** FLG pulled its own EDGAR primary this session (10-Q Q2-2026, Flagstar Bank N.A., acc `0000910073-26-000068`, filed 2026-08-06) and re-verified the load-bearing figures first-hand. `CLAUDE.md § FIRST LIVE SESSION` is **SPENT 2026-08-28**. ✅ **The one residual is CLOSED 2026-10-28:** FLG pulled the FFIEC CDR Call Report facsimiles itself; the 2026Q1 and 2026Q2 MI3 rows match to the dollar and SR 07-1 reproduces at **327.52%** (KB-FLG-098). The ten earlier MI3 rows stay MIRROR — `MI3_FLG.tsv` marks this per row.
 
 **Class:** Market domain — print-driven single-name specialist · **Level:** L3 (DAEDALUS bank review 10/22: "L3/M — holds") · **Thesis:** `THESIS.md` **v1.0.5 — THESIS OF RECORD** (v1.0 authored 8/28; Q3 10-Q fold-in 11/07)
 
 ---
+
+## 🟡 SESSION 2026-11-16 — inbox drain, who is paying to extend, read cap (PROME prome-6f, on Will's 13:45 ET word)
+
+**No threshold, kill condition, prediction, trigger date or thesis direction moved. No trade.** No pull and no push (GitHub name lookups failing today, PROME's instruction); worked on the local checkout.
+
+| Item | Result | KB |
+|---|---|---|
+| **Inbox (4)** | DEWEY 003R ×3: LOG, one row, no FLG figure moved. FLG's $10–100B band: QoQ trigger OFF (coverage 115.97% → 116.76%); the $1–10B jump is 69.1% one bank (United Fidelity, about $2.14B of multifamily placed on nonaccrual while current, its own text). DAEDALUS WQ-678: Changelist A none; all 7 Changelist B trims applied to `CLAUDE.md`, C36 in part (boot-card retelling struck, the provenance pointer kept) | 119 |
+| **Due rows** | None due: predictions, triggers and quarter-due clean at boot; every DOCKET row naming FLG is RESOLVED or a tombstone except L810 (charter leg, below) and L554 (NEXUS's, due 11/17) | — |
+| **Who is paying to extend** (logging only) | ① Non-accrual book: Flagstar, holding $1,548M unreserved at appraised value, plus about 42% of NALs still performing; clock = the Q2 review each year; capacity total capital $9,804M (9/30) · ② MF modifications: Flagstar, 1.2–1.5 years added term, runs out about H2-2027 to early 2028; 43.9% of the $471M stock already past due · ③ Rent-regulated option resets: the borrower's cash flow, capacity UNKNOWN; $3.0B resets by about 9/30/27 · ④ 2027 fixed maturities $1,581M: payer UNKNOWN · ⑤ Flagstar itself: 2024 rescue equity ($1.05B, Liberty 77); no outside payer now, it is buying back stock | 120–124 |
+| **Read cap** | `workbook/TRIGGERS.tsv` 86% → 66% of budget, 6 segments moved verbatim with crc32 to `archive/TRIGGERS_NOTES_ARCHIVE_2026-11-16.md`; charter 70% → 67% by the WQ-678 trims (DOCKET L810 FLG leg); the 11/07 STATUS block rotated (pointer below) | — |
 
 ## 🟡 SESSION 2026-11-11 — catch-up wake to live data (PROME prome-2b, on Will's 09:24 ET word)
 
@@ -21,30 +32,6 @@
 | **T-12 litigation** | ⛔ **WQ-477 dropped by Will 11/10**: docket doc 244 and entries after 253 NOT OBTAINED; emergency-relief and merits risks UNREADABLE from this system. Reachable sources 11/11: no ruling | 118 |
 
 **Price:** $10.45 intraday 11/11 (`fetch.py`); settled $10.51 [11/10]. Report packet: `PROME/inbox/2026-11-11_from-FLG_catchup-live-data.md`.
-
-## 🟠 SESSION 2026-11-07 — T-02/T-13: the Q3 10-Q read at the primary, L522 10-Q leg (PROME prome-bf spawn)
-
-**FLG-02 and FLG-03 HIT on their frozen letters. No threshold, band, score, kill condition or prediction letter moved. No trade.** Primary: 10-Q acc `0000910073-26-000084`, filed 11/06. Full read `reports/2026-11-07_Q3-2026_10Q_LEG.md`.
-
-| Read | Q2 → Q3 | KB |
-|---|---|---|
-| **FLG-02** coverage | 31.04% → **30.85%**, HIT (margin 0.19pp), from the denominator | 104 |
-| **FLG-03** MF HFI | $26,931M → **$25,948M** (−3.65%), HIT; K-1 0 of 2 | 104 |
-| 🟠 **Exit mix** | Q3 *derived*: **cures $144M = 56.3%**, **payoffs $76M = 29.7%**, charge-offs $35M, formation **$273M**. 9M: cures 13.1%, payoffs 75.3%. Frame row FIRES, AGAINST | 105 |
-| **Specific reserve** | $163M → **$155M = 5.5%**; no allowance $1,571M → **$1,548M**; +$17M NAL is all C&I | 106 |
-| **MF migration** | Criticized + classified $9,071M → **$9,554M** (33.7% → 36.8%) while the book fell $983M | 106 |
-| **Reserve mix** | ACL flat $869M: MF + CRE −$24M, C&I +$20M. CO/provision 1.13× whole-bank, **1.67× MF + CRE** | 108 |
-| **WQ-313 ①** | $29M/$286M, now $19M/$143M: **unreconciled / not cohort-identifiable**, four bases tested, none fits. T-13 RETIRED | 107 |
-| **MF modified stock** | $471M, 43.9% past due (46.9% at 6/30); aggregate, not a cohort rate. Q3 MF modifications $79M (Q2 $259M) | 107 |
-| **Private credit** | $1,069M → $2,139M: **new lending better supported, not settled**; ~$0.5B recode from C&I open | 109 |
-| **M3 step** | Not disclosed, not resolvable from public filings; stopped per T-02 | 110 |
-| **Wall** | 2027 $8,519M (+$16M); $3.0B NY rent-regulated option loans reprice within 12 months | 111 |
-
-**Thesis → v1.0.5.** Direction unchanged; "nothing is healing" withdrawn as a flat claim. The cure's class and cause are undisclosed, and a cure after a 9%-to-5% rate cut is a concession, not a recovery (INFERRED, untested). **Rail re-derived 11/07**, both directions, no condition changed, K-3 UNSET re-justified, the registered 31.04% confirm level is now spent. REGINALD's tie and runway corrections applied at source.
-
-**Inbox drained:** REGINALD ×6, WALTER ×4 (025, 038, 040 info-only; 045 acted). COR-20261105-38 NO-OP receipted. Live FLG $10.52 [11/06 close]; T-07 RED stands, REGINALD's row.
-
-**Scope limit this spawn:** no packets outside `PROME/inbox/`. **Carried to PROME to route:** REGINALD (ACTION 4 answer, consumer rows), TERRY (re-arm reading C fired). L52 scope evidence in report §9; ✅ **PROME graded the scope checkpoint 11/11: NOT REACHED on its letter (first leg false), FLG keeps its seat** (prome-2b closeout message, 10:19 ET).
 
 ## 🔴 START HERE — the thesis moved, and the headline number is still not the actionable one
 
@@ -168,8 +155,10 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 ## SESSIONS 2026-11-02 (freshness audit) + 2026-11-01 (Q3 Call Report) → rotated verbatim to `archive/STATUS_ARCHIVE_2026-11-07.md` (crc32 `1961fa7e`)
 
+## SESSION 2026-11-07 (T-02/T-13: the Q3 10-Q read, FLG-02 and FLG-03 HIT) → rotated verbatim to `archive/STATUS_ARCHIVE_2026-11-16.md` (crc32 `ce872535`); full read `reports/2026-11-07_Q3-2026_10Q_LEG.md`
+
 ---
 
 ## BOTTOM LINE
 
-**Nothing in this week's news changes Flagstar's read: the bear case is still a thin specific reserve ($155M, 5.5% of a $2.8B non-accrual book) leaning on a refinance market the bank does not control.** The Q3 Call Report has not been amended, and Flagstar's own rate tables show a December hike barely moves its income (+0.68% per 100bp of short rates) and does not touch regulatory capital. The hike matters through refinancing: 5- and 10-year yields sit 28–31bp below the quarter-end peak but well above midyear, so there is no rate relief coming for the $12B of sub-3.9% loans resetting through 2027. **Next wake: the FY2026 10-K around 3/1/27, where the single most important read is whether Q4 cures stay high; the rent-freeze ruling (expected by year-end) is now readable only through press or filings.**
+**Nothing this session changes Flagstar's read: the bear case is still a thin specific reserve ($155M, 5.5% of a $2.8B non-accrual book) leaning on a refinance market the bank does not control.** The new logging lines name who is carrying the delay, and it is mostly Flagstar itself: it holds $1,548M of non-accrual loans with no reserve on appraised values re-tested each second quarter, and its 2026 multifamily modifications added 1.2 to 1.5 years of term that run out around late 2027 to early 2028, with 43.9% of those modified loans already past due. Who carries the 2027 fixed-rate maturities ($1,581M) and whether borrowers can pay the reset rate on $3.0B of rent-regulated loans are both UNKNOWN from the filings. **Next wake: the FY2026 10-K around 3/1/27, where the single most important read is whether Q4 cures stay high; the rent-freeze ruling (expected by year-end) is readable only through press or filings.**

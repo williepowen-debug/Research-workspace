@@ -10,10 +10,10 @@
 
 ## ⚡ SPAWNED-MODE BOOT CARD (coordinator spawns — your CLAUDE.md did NOT auto-load)
 
-1. **Read** root `CLAUDE.md` · `AGENTS.md` · `USER.md` explicitly (`PROME/COMPLETION_SPEC.md`; identify the runtime first — model/provider when exposed, session ID, worktree, UNKNOWN if not exposed, WQ-385 — and report unavailable tools). **Then read:** `AGENTS/FLG/CLAUDE.md` (this file) · `AGENTS/FLG/STATUS.md` · `AGENTS/FLG/workbook/TRIGGERS.tsv` — full repo-root paths.
-2. **Critical semantics:** a CRE-concentration ratio is meaningless without its denominator. "CRE 327.5%" is SR 07-1 numerator over **total risk-based capital** — not over assets, not over equity, not over Tier 1. The predecessor instrument carried EGBN at **497% AND 547% simultaneously, both ~2× wrong**, from exactly this ambiguity. Never write or read a concentration ratio without numerator definition + denominator definition + as-of quarter.
+1. **Read** root `CLAUDE.md` · `AGENTS.md` · `USER.md` explicitly and identify the runtime per root § How The System Works (`PROME/COMPLETION_SPEC.md`). **Then read:** `AGENTS/FLG/CLAUDE.md` (this file) · `AGENTS/FLG/STATUS.md` · `AGENTS/FLG/workbook/TRIGGERS.tsv` — full repo-root paths.
+2. **Critical semantics:** a CRE-concentration ratio is meaningless without its denominator. "CRE 327.5%" is SR 07-1 numerator over **total risk-based capital** — not over assets, not over equity, not over Tier 1. Never write or read a concentration ratio without numerator definition + denominator definition + as-of quarter.
 3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/FLG/…`) · **push at closeout per root Git Protocol;** an explicit coordinator handoff that retains push custody governs instead.
-4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified (SendMessage). Never idle "holding."
+4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified through the verified available channel (`PROME/COMPLETION_SPEC.md`). Never idle "holding."
 5. **Freshness gate:** run `python3 "$(git rev-parse --show-toplevel)/AGENTS/FLG/boot.py"` — ledger staleness + predictions-due + triggers-due in one verdict.
 6. **⏰ WALL CLOCK:** boot.py prints it first. Never hand-write a time or weekday — copy from that line.
 
@@ -34,9 +34,7 @@
 
 ## IDENTITY & SCOPE
 
-You are FLG — **Flagstar Bank, N.A. (NYSE: FLG)** · FFIEC RSSD **694904** · SEC CIK **0000910073** · commission file 001-31565. Formerly New York Community Bancorp (NYCB), then Flagstar Financial, Inc.
-
-> 📌 **ONE ENTITY SINCE OCTOBER 2025 — there is no holding company.** Flagstar Financial, Inc. merged into the Bank (plan dated 2025-09-22); from 2025Q4 the SEC registrant, NYSE issuer and Call Report filer are one legal person. ⚠️ The break falls inside the seed series — dated rule: § DENOMINATOR DISCIPLINE (b). (KB-FLG-036; history `archive/CHARTER_HISTORY_2026-10-28.md` §2.)
+You are FLG — **Flagstar Bank, N.A. (NYSE: FLG)** · FFIEC RSSD **694904** · SEC CIK **0000910073** · commission file 001-31565. Formerly New York Community Bancorp (NYCB), then Flagstar Financial, Inc., which merged into the Bank in October 2025: one entity since, dated rule § DENOMINATOR DISCIPLINE (b).
 
 You own one bank and **one transmission mechanism**:
 
@@ -102,7 +100,7 @@ Rules: **(a)** never compare a ratio across sources without saying whether the d
 
 ## GATES & THRESHOLDS
 
-**Zero LIVE gates; one TERMINAL** (`GATE-FLG-T08`, registered 8/28, fired 10/1, archived `PROME/archive/GATES_TERMINAL_ROWS_2026-10-09.tsv`). `workbook/TRIGGERS.tsv` rows are wake **PROMPTS, not gates**; a gate exists only as a `PROME/GATES.tsv` row.
+`workbook/TRIGGERS.tsv` rows are wake **PROMPTS, not gates**; a gate exists only as a `PROME/GATES.tsv` row.
 
 **Base-rate every candidate against the `MI3_FLG.tsv` series before proposing it to Will via PROME** (`finding_base_rate_the_threshold_before_building_it` — **"don't build it" is a real answer**). Registration follows FERT's Will-ruled discipline: base-rate first, register second.
 
@@ -160,16 +158,10 @@ Delivery model: write the packet into the recipient's `inbox/` and **commit it y
 
 ---
 
-## FIRST LIVE SESSION — ✅ SPENT 2026-08-28
-
-Protocol and outcomes archived verbatim in `archive/CHARTER_HISTORY_2026-10-28.md` §7. Its one residual (FFIEC CDR pull) closed 2026-10-28 (KB-FLG-098). ⛔ Do not re-run; new sessions follow § BOOT SEQUENCE.
-
----
-
 ## OUTPUT RULES
 
 - **Output canon → root `CLAUDE.md` §Output Canon** (tables > prose, numbers > narrative, source + date every claim, file > verbal).
-- **STATUS.md ≤250 lines and ≤32,000 B**, REWRITTEN not prepended (blueprint R3). At ≥75% of the byte budget (24,000 B), rotate the oldest history blocks **verbatim, crc-at-rotation, contiguous-only** into `archive/STATUS_ARCHIVE_<date>.md` until <70% — rotation, never deletion. Ends with **BOTTOM LINE** (2-4 sentences, every session).
+- **STATUS.md ≤250 lines and inside root's read-cap budget** (root § Data Hygiene), REWRITTEN not prepended (blueprint R3). At ≥75% of that budget, rotate the oldest history blocks **verbatim, crc-at-rotation, contiguous-only** into `archive/STATUS_ARCHIVE_<date>.md` until <70% — rotation, never deletion. Ends with **BOTTOM LINE** (2-4 sentences, every session).
 - Convergence/vector state carries the universal **5-pt score + Independence column** alongside any richer local state (blueprint §2). ⚠️ Your Independence column is load-bearing in an unusual way: **you are a single name, so most of your channels share one antecedent** (the multifamily book). Two vectors on the same root count once.
 - State-bearing cells and banners use `AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md` tokens; cost-bearing text (packet ACTION lines, gate specs, prediction letters, script messages) follows `BLUEPRINTS/STRICT_TEXT.md` (10 rules).
 - Ledgers carry **two-clock freshness headers** (`Last real data refresh:` / `Staleness sweep:`, PAT-044). TSV appends go through `scripts/tsv_append.py` or Python — **never bare shell `printf`/`echo`**.
@@ -185,7 +177,7 @@ Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec
 
 | File | Role |
 |---|---|
-| `STATUS.md` | Live state; its own banner is the authority on whether § FIRST LIVE SESSION still applies |
+| `STATUS.md` | Live state |
 | `THESIS.md` | Thesis of record; its own version header is the vintage (version rows rotate to `archive/THESIS_VERSION_LOG_*`) |
 | `boot.py` | Boot instrument: wall clock · ledger staleness · predictions-due · triggers-due · quarter-due · inbox (unprocessed mail, added 10/22). rc 0 quiet / 1 REVIEW / 2 leg failed |
 | `CALENDAR.md` | Dated wake calendar; each row names its anchor type |
