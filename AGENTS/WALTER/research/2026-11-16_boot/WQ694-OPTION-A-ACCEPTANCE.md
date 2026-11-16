@@ -41,3 +41,13 @@ Written BEFORE the code (PROME ask, prome-6f message 2026-11-16 17:2x ET; WQ-694
 | N1 to N4 | Carried as follow-ups, not in this diff (the follow-up read covers the fix diff only). | ledger |
 
 Suites: versions 13/13, catch-up 26/26, cruise 15/15, GPU 3/3, boot repairs 15/15. Live read-only scan: lane HEAD, lane status and `intake_seen.json` unchanged.
+
+## Response to the follow-up read (`PROME/reports/2026-11-16_wq694-scanner-versions-read/LEDGER-followup.md`)
+
+| Finding | Disposition | Evidence |
+|---|---|---|
+| F1: a mark taken while history is unreadable drops the commit field, and the bytes fallback reopens B1. Also read 1 N1: such a mark clears the UNKNOWN warning. | **FIXED (one door, as PROME suggested).** While the scan's replaced-version plan has any error, --mark keeps the old pointer (batch, sha, commit) and prints `last_marked_batch HELD ... UNKNOWN`. Keys still reconcile. A path with no committed version returns no versions and no error, because nothing can have been replaced. That is why the catch-up fixture lane is now `git init` with no commits. | V14 FAILS on 6d51f78978 (pointer moved, no HELD) and passes now |
+| F2: a side-branch version dated before the marked commit and merged in is never listed | **DECLARED LIMIT.** The lane has 0 merges in 230 commits. The collector runs one job at a time (`concurrency: group: collect`) and commits linearly. A merge into `data/` needs a hand-made branch in the collection repository, which nobody operates. | follow-up ledger CE12 |
+| N-a, N-b, N-c, CE9b | Carried, not in this diff. | ledger |
+
+Suites: versions 14/14, catch-up 26/26, cruise 15/15, GPU 3/3, boot repairs 15/15. Live read-only scan unchanged.

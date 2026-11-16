@@ -245,6 +245,8 @@ def superseded_versions(path, after_sha=None, after_commit=None):
     hist, err = _lane_history()
     if err:
         return [], err
+    if not hist.get(path):
+        return [], None  # no committed version of this path: nothing can have been replaced
     vers = []
     for c in hist.get(path, []):
         raw = _show(c, path)
@@ -1007,6 +1009,15 @@ def main():
         elif ptr:
             print(f"REFUSED: pointer {ptr} is not a batch this scan fingerprinted. Nothing written.")
             return 2
+        version_errs = _version_plan(newest, last_marked, marked_sha, marked_commit)[1]
+        if version_errs and last_marked:
+            # Follow-up read F1 and read 1 N1 (2026-11-16): a mark while replaced versions are UNKNOWN moved the
+            # pointer past them (and stored no commit, reopening B1). Keep the old pointer; keys still reconcile.
+            state = {"last_marked_batch": last_marked}
+            if marked_sha:
+                state["last_marked_sha"] = marked_sha
+            if marked_commit:
+                state["last_marked_commit"] = marked_commit
         new_seen = {}
         for r in recs:
             k = settled_key(r["key"], state.get("last_marked_batch"), state.get("last_marked_sha"))
@@ -1019,7 +1030,10 @@ def main():
               f"(+{len([r for r in recs if r['key'] not in prev])} new, -{len(dropped)} cleared)")
         if not args.through:
             print("WARNING: --mark without --through assumes the newest batch is the one the routed report showed")
-        if ptr:
+        if version_errs and last_marked:
+            print(f"last_marked_batch HELD at {last_marked}: versions replaced by a later same-day run are UNKNOWN "
+                  f"({version_errs[0]}); repair the lane clone, then scan and mark again")
+        elif ptr:
             print(f"last_marked_batch -> {ptr}" + ("" if ptr == newest else f" (held before {newest}: unreadable batch or pointer ahead)"))
         return 0
 

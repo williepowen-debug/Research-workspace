@@ -266,5 +266,31 @@ class Versions(unittest.TestCase):
         self.assertIn(hit('MERGED ONLY'), self.new_keys(d))
 
 
+    # Follow-up read of 6d51f78978, F1 (and read 1 N1): no mark moves the pointer while history is UNKNOWN.
+    def test_V14_F1_mark_while_history_unknown_holds_the_pointer(self):
+        self.run_collector('2026-11-19', [item('D19', 'NEW')])
+        self.mark()
+        before = json.loads(self.seen.read_text())
+        self.assertIn('last_marked_commit', before)
+        self.run_collector('2026-11-20', [])
+        self.run_collector('2026-11-20', [item('MID HIT', 'NEW_WATCH_HIT', hits=[['CYPHER', 'm']])])
+        self.run_collector('2026-11-20', [])
+        real_git = s._git
+        def broken(*a):
+            if a and a[0] == 'log':
+                raise subprocess.TimeoutExpired('git', 60)
+            return real_git(*a)
+        with mock.patch.object(s, '_git', side_effect=broken):
+            rc, out = self.mark()
+        self.assertEqual(rc, 0, out)
+        self.assertIn('HELD', out)
+        after = json.loads(self.seen.read_text())
+        for k in ('last_marked_batch', 'last_marked_sha', 'last_marked_commit'):
+            self.assertEqual(after.get(k), before.get(k), k)
+        d = self.scan()                                               # history readable again
+        self.assertIn(hit('MID HIT'), {r['key'] for r in d['new']} | {r['key'] for r in d['suppressed']})
+        self.assertTrue(any(b.startswith(P('2026-11-20') + '@') for b in d['news_batches']), d['news_batches'])
+
+
 if __name__ == '__main__':
     unittest.main()

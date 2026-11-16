@@ -1,6 +1,6 @@
 """Acceptance cases for the news catch-up repair (WQ-676, Will 2026-11-11 14:16 ET).
 Source: research/2026-11-11_intake-catchup/ACCEPTANCE.md, cases 1-9 (8 = existing suites)."""
-import contextlib, hashlib, io, json, sys, tempfile, unittest
+import contextlib, hashlib, io, json, subprocess, sys, tempfile, unittest
 from pathlib import Path
 from unittest import mock
 import intake_scan as s
@@ -39,6 +39,8 @@ class CatchUp(unittest.TestCase):
                                            'by_class': {'NEW_WATCH_HIT': 1, 'NEW_WATCH': 1}}}}
         (self.lane / 'liveness.json').write_text(json.dumps(dict(self.live, last_run_utc='2026-11-04T21:00:00Z')))
         self.seen = Path(self.tmp.name) / 'intake_seen.json'
+        # a git clone with no commits = empty history (WQ-694 (a)); a lane that is not a clone now holds the pointer
+        subprocess.run(['git', 'init', '-q', str(self.lane)], check=True)
         self.p = [mock.patch.object(s, 'LANE', self.lane), mock.patch.object(s, 'SEEN', self.seen),
                   mock.patch.object(s, 'LIVENESS', self.lane / 'liveness.json')]
         for x in self.p: x.start()
