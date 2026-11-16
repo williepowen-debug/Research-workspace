@@ -124,3 +124,14 @@ Packet `inbox/processed/2026-11-16_from-PROME_VULCAN-nvidia-items-against-CEOGAP
 ## 12. Addendum 14:16 EST — CREED Trepp October special servicing (4ed90daf56): NO CARD
 
 The rate is 11.74% overall (+25bp, Trepp's highest since 12/2012), led by lodging and multifamily; office special servicing fell to 16.60% (−25bp) while office delinquency rose (CREED, Trepp PDF, PRIMARY). No CREED trigger fired, and CREED states no direction. **NO CARD:** there is no owner direction, and the instruments behind it (CMBS conduit and single-asset bonds) are not reachable at the broker. Project Prime ($745.7M, 84 hotels, THPT 2023-THL, specially serviced for imminent monetary default, matures 2026-12-06) goes on file as a dated tell only. Its sponsor and any listed exposure were not read here, so no name is assumed. OZK, FLG and WAL "who funds the delay" packets: file only, per PROME; not read for a trade. Logged `SIGNALS.tsv` `COMBO-BEAR-PREMISE-EROSION`, both directions.
+
+## 13. Addendum 16:21 EST — WALTER SIG-W-20261116-011: S&P first close under HENRY's 7,500 put wall: NO CARD
+
+**Read in full:** `BOARD/SIG-W-20261116-011-*.md` (action PROME; TERRY not on the action line, so no board_log row is owed; routed by PROME). S&P 500 closed 7,416.59 (−1.92%; Cboe delayed 7,416.61), the first close under 7,500. Dealer gamma is negative at both horizons, with the flip about 7,607 to 7,613 (free-tier proxy: the sign and flip are reliable, dollar sizes are not). QQQ $661.75 is a second close under 680. Chip-led: SMH −5.11%, RSP −1.0%.
+
+**WQ-696 handoff line:** HENRY's stated implication is that dealer hedging adds to moves until a close over about 7,610, and that close is also the invalidation. **No direction and no horizon were stated by HENRY** beyond that regime test. Unknowns: dollar gamma sizes; the Nvidia print Tue after the close.
+
+**Read: NO CARD.**
+- **A downside card** would be a put after a −1.92% red close with no owner direction. That is root rule #6 with no refuting measurement.
+- **A volatility card** (a long straddle on the regime implication) needs the event premium to be cheap. The only measurement on file (11/12, PPI days, n = 47) found no premium to harvest, and the negative-gamma conditional is unmeasured. Into Nvidia's print the premium is if anything richer. No measured edge.
+- **`IDEA-QQQ-200D-NOV05`, informational only:** vendor last bars VIX3M 23.37 (15:59) / VIX 23.14 (16:05) = 1.010, so the curve is back at or above 1.00 at the close, on mismatched timestamps. T1 is an order-time test and the session is over, so it is graded live at the next red session through 11/20, still under the $4.90 debit.
