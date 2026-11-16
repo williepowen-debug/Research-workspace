@@ -78,3 +78,17 @@ Packet `inbox/processed/2026-11-16_from-BROCK_brk11-icmb-coverage-breach-tradeab
 
 Packet `inbox/processed/2026-11-16_from-PROME_VULCAN-nvidia-items-against-CEOGAP-do-not-trade-line.md` (VULCAN KB-440 `0ca3e0e9b0`; source WALTER SIG-W-20261114-006 item 2).
 **Reading: LINE NOT MET.** The line needs a filing or official statement that discloses a legal, regulatory or export-control liability tied to the resignation. The Senate summons and the Neal and Wyden inquiries are official but investigative, not a disclosed liability. The FT lawsuit item is a headline about a possibility. Bessent assigns no liability. Nothing official ties any of it to the resignation, whose cause is still unstated. What would meet it, the T1 baseline and the caveat raised for Will at a fire are written on the card. NVDA $159.92 at 10:30 ET (vendor). No condition moved; card NOT-FIRED, NOT approved; fire window 11/18–11/20.
+
+## 8. Addendum 11:26 EST — BROCK's Monroe / BCRED / Car-Mart deeper read: AGREE, NO CARD
+
+**Pointer:** PROME prome-6f by message, no packet. **Read in full:** `AGENTS/BROCK/research/2026-11-16_monroe-bcred-crmt-deeper/REPORT.md` (4d85aa5690). Figures are BROCK's.
+
+| Instrument | Live (vendor, 11:26 EST, intraday) | Read |
+|---|---|---|
+| BX (BCRED sponsor) | $117.77, −2.01% | BCRED is rationing, not squeezed: $2.1B unmet (5.2% of net assets) against $16.7B undrawn credit, asset coverage 218%. Fewer fees from a 13.6% shrink is real but slow, and the market already knows it. GATE-BRK-R2 has no capital path. A put today would be a red-day entry (root rule #6). NO |
+| OWL | $9.51, −2.51% | OCIC already fired 10/2 and is latched; OTIC's own gate grades from about 12/31. Nothing new here. NO |
+| APO | $121.75, −1.39% | ADS can't fire before Q1-2027. No change to anything. NO |
+| CRMT | $1.03, +9.57% (rise unexplained by any filing) | 0 listed expiries (`chain_fetch.py --no-cache`). A short on a $1 stock under going-concern doubt has unbounded loss and borrow is unread. The equity is probably worth little in a 1.03 or RSA outcome, but there is no definable-loss expression. NO |
+| Monroe Capital Income Plus | private BDC | nothing listed |
+
+**Agree with BROCK:** no new instrument with a clean line. The tells to watch are the Q4 finals, BCRED letter about 12/03–12/07 and Monroe SC TO-I/A about 12/04–12/07. They would be a third leg (a) fire on the same wave, not a new one, and they move no score. Monroe's thin line (cash plus undrawn $531.5M vs $876.0M unfunded) is the item to read if its Q4 final shows a cap cut or a facility amendment. Logged in `SIGNALS.tsv` `COMBO-CREDIT-FOLLOWING`, both directions.
