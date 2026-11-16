@@ -102,16 +102,19 @@ class SessionPanelTests(unittest.TestCase):
     def test_cli_passes_optional_file_to_build_with_temp_outputs_only(self):
         self.path.write_text('{}')
         output, state = self.root / "output.html", self.root / "state.json"
+        receipt = self.root / "dashboard_build.json"  # the build receipt is a tracked file; keep the run in temp
         def fixture_build(today, stamp, sessions_json=None):
             return dashboard.render_session_panel(sessions_json, self.reference), {"fixture": True, "heartbeat_errors": []}
         with mock.patch.object(dashboard, "build", side_effect=fixture_build) as build, \
              mock.patch.object(dashboard, "STATE_PATH", str(state)), \
+             mock.patch.object(dashboard, "BUILD_PATH", str(receipt)), \
              mock.patch("sys.argv", ["fleet_dashboard.py", "--sessions-json", str(self.path), "-o", str(output)]), \
              contextlib.redirect_stdout(io.StringIO()):
             self.assertEqual(dashboard.main(), 0)
         self.assertEqual(build.call_args.args[2], str(self.path))
         self.assertIn("runtime-sessions", output.read_text())
         self.assertEqual(json.loads(state.read_text()), {"fixture": True, "heartbeat_errors": []})
+        self.assertIs(json.loads(receipt.read_text())["ok"], True)
 
 
 if __name__ == "__main__":

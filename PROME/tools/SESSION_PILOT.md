@@ -61,4 +61,4 @@ Validation:
 PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s PROME/tests -p 'test_session*.py' -v
 ```
 
-The WebSocket cases (`test_session_bridge_ws.py`) need the repository venv: run the same command with `.venv/bin/python3`; under the system Python they are skipped. ⚠️ The `test_session_panel.py` cases rewrite the stamp in `PROME/tools/dashboard_build.json`; restore that file from git after a run, or narrow the pattern to `test_session_bridge*.py`. Socket and multiprocessing cases require an environment that permits local sockets and semaphores. No model calls, accounts or market writes are needed for these tests.
+The WebSocket cases (`test_session_bridge_ws.py`) need the repository venv: run the same command with `.venv/bin/python3`; under the system Python they are skipped. (Until 2026-11-16 one `test_session_panel.py` case rewrote the tracked `PROME/tools/dashboard_build.json`; it now writes its receipt to a temporary directory.) Socket and multiprocessing cases require an environment that permits local sockets and semaphores. No model calls, accounts or market writes are needed for these tests.
