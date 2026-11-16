@@ -2,7 +2,7 @@
 
 Updated 2026-10-20T12:51:51-04:00. STATUS.md owns scores, bands and firing state; this file owns causal stages and disconfirming evidence. S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = 15/25. Scores unchanged. The prior 65,358-byte thesis is conserved VERBATIM in three parts listed in archive/THESIS_ARCHIVE_2026-10-20.README.md. Dated stage-state histories below are replaced on 2026-10-20; original wording, corrections and pre-print baselines remain in those frozen parts, not silently deleted.
 
-The thesis: AI buildout concentrates market exposure, creates large contractual financing obligations, and depends on power and concentrated semiconductor supply. Evidence of more obligations is not itself proof of a failed funding market. An AI-demand disappointment drives S1/S3/S5 together: count that root once. S4 is the clean independent root. S5's rating/tariff/contract-structure leg is partly independent; its ROI leg is not.
+The thesis: AI buildout concentrates market exposure, creates large contractual financing obligations, and depends on power and concentrated semiconductor supply. Evidence of more obligations is not itself proof of a failed funding market. An AI-demand disappointment drives S1/S3/S5 together: count that root once. S4 is the clean independent root. S5's rating/tariff/contract-structure leg is partly independent; its ROI leg is not. (2026-11-16: VULCAN-13, the test of that independence, graded MISS; whether the claim stands is with PROME for Will [KB-437]. Not changed here until he rules.)
 
 ## S1 — AI-capex concentration
 
@@ -100,7 +100,7 @@ Illustrative HSBC/independent contract models are not observed marginal contract
 
 $105B SB Energy cap plus~$3.5B existing guarantees=$108.5B max gross. It is NOT an exposure estimate. Guaranteed-minimum schedule was omitted by election under RegS-K601; 'satisfactory credit rating' termination definition remains non-public. Filing the exhibit did not unredact it. No claim these terms must arrive later. The~3.8GW option is load with no dollar cap disclosed. $500B financing-platform MOUs are targets, not raised/committed capital.
 
-VULCAN-17: first Q3FY27 filing~November19, level baseline$108,529M; UP means build phase. The first FLAT/DOWN quarter with no successor is the signal; CLASSIFY transfer/termination/call/withdrawal before interpretation (a write-off is not de-risking). VULCAN-13 asks recurrence; VULCAN-17 asks level. A filing can inform both without one mechanically grading the other. Share of financed revenue is NOT COMPUTABLE and no haircut is registered. VULCAN-17's successor becomes VULCAN-18 at grading; do not rewrite the active letter. OpenAI obtaining a rating remains a watch without a bounded forecast date.
+VULCAN-17: first Q3FY27 filing~November19, level baseline$108,529M; UP means build phase. The first FLAT/DOWN quarter with no successor is the signal; CLASSIFY transfer/termination/call/withdrawal before interpretation (a write-off is not de-risking). ~~VULCAN-13 asks recurrence;~~ (struck 2026-11-16: VULCAN-13 graded MISS, no recurrence on its letter; IREN GPU 2.0 vs 1.0 recorded as a disagreement [KB-437].) VULCAN-17 asks level. A filing can inform both without one mechanically grading the other. Share of financed revenue is NOT COMPUTABLE and no haircut is registered. VULCAN-17's successor becomes VULCAN-18 at grading; do not rewrite the active letter. OpenAI obtaining a rating remains a watch without a bounded forecast date.
 
 ## Falsification and next resolvers
 
