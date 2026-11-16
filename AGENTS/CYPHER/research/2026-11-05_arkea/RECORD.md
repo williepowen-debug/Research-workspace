@@ -154,3 +154,47 @@ Carry as: **"about €100M on the bank's provisional word, final figure not give
 | Packets | None due: the row's three HANS triggers (provider serves other euro-area banks, second bank, ACPR/ECB/EBA/CERT-FR alert) did not occur |
 
 **Next look:** weekly, 2026-11-16 (catalyst row re-dated, P2). The resolution searches for CYP-05/06 stay 12/29-12/31.
+
+## 10. Weekly re-check 2026-11-16 (catalyst row 11/16, P2; PROME prome-6f desk-catalyst summons, WQ-184 class)
+
+**Session:** CYPHER, Mon 2026-11-16 10:19-10:3x ET, runtime Claude Code, Opus 5.5. $0, free public sources only.
+**Answer: one real move since 11/08, not a resolution. The bank's chairman gave AFP and Les Echos a detailed account (11/12), and Les Echos (11/14, "EXCLUSIF") put a name to the provider on unnamed sources: a French publisher of compliance software for asset management, entered through one of the bank's subsidiaries. CYPHER could not read the name (Les Echos returns 403). Neither the bank nor the provider has confirmed it. No second institution, no supervisory or rail statement, no US link. Shared reach stays UNKNOWN; the provider's class now points at asset managers, not at a bank payment product.**
+
+| Checklist item (§5 instruments, catalyst row) | Reading 2026-11-16 | Source and basis |
+|---|---|---|
+| 1. Provider named by the bank | **No.** Press list still shows only the two 11/04 statements; newest item is a sailing sponsorship (Route du Rhum). The 11/08 list URL now 404s; the list moved to `/arkea/banque/assurances/c_8757/fr/actualites-/-communiques-de-presse` (curl 10:19 ET, HTTP 200, sha256 dfa4977761ea...) | PRIMARY-VERIFIED (absence on the bank's own list) |
+| 1. Provider named by press | **Yes, on unnamed sources, name not read by CYPHER.** Les Echos 11/14 (Tachdjian), headline "EXCLUSIF - Cyberattaque : ce prestataire externe par lequel les hackeurs ont accédé au coffre-fort d'Arkéa". Its own summary (og:description via the Les Echos link, read 10:2x ET): attackers entered "via un prestataire externe, spécialisé dans les logiciels de conformité, dont le nom était resté secret jusque-là. Une des filiales de la banque a ensuite constitué la porte d'entrée". Sfeir (11/14, citing Les Echos): "un éditeur français de logiciels de conformité (souscription de fonds, vérifications KYC et LCB-FT) destinés à la gestion d'actifs, avec la filiale de capital-investissement de la banque comme porte d'entrée"; "Ni la banque ni l'éditeur ne l'ont confirmé à ce jour" | Les Echos article body 403 (paywall); summary ARTIFACT-VERIFIED; profile SECONDARY (Sfeir). The name itself UNREAD |
+| 1. Why the bank will not name it | Carmona to Les Echos (via Notebookcheck 11/15): not naming it was "a collective decision by the banks, since naming it could expose similar providers to attack". Sfeir: "Arkéa a communiqué le nom du prestataire aux autres banques, pas au public" | SECONDARY (two outlets citing Les Echos) |
+| 2. Provider's own statement | None found | SEARCH-NOT-FOUND |
+| 3. Second institution, same route | **None.** "Other banks" in every account are either the RECEIVING banks (real accounts opened by the fraudsters in other European banks) or banks TOLD the provider's name. Neither is a second victim | SEARCH-NOT-FOUND (weak: DORA reports are not public) |
+| 4. Supervisory alert | **None.** CERT-FR alert list (curl 10:20 ET): newest open alert is still OpenSSH (11/05); no banking or payment product. CERT-FR avis 11/13-11/16: Edge, Citrix App Layering, MongoDB, VMware Tanzu, Trend Micro, Git, Kerberos, IBM, Debian, Ubuntu; none banking. ACPR press list 403 to curl today. No ECB or EBA item found by search | CERT-FR PRIMARY-VERIFIED; ACPR UNKNOWN today |
+| 5. Rail | **Named by the chairman: instant payments** ("en utilisant les systèmes de paiement instantanés", which have "par définition, moins de contrôles que sur les virements classiques"). The bank cut its own access to "le système de paiement de place" on 11/03. The rail was USED from a compromised participant, not attacked (the CHK-27 / Bangladesh Bank shape in §5). No rail-operator statement | SECONDARY (AFP interview, Boursorama/Fortuneo copy dated 12/11/2026 20:38; France 3 11/13 08:09) |
+| 6. CVE or advisory on a treasury or payment product | None. Sfeir quotes Carmona to Les Echos: a third-party publisher's software, "une faille exploitée la semaine précédente", and "retards de mises à jour" at providers; the provider used a public cloud. No CVE named | SECONDARY |
+| 7. Prosecutor statement on method | Nothing after the 11/04 opening (Paris, organised-gang intrusion, Office anticybercriminalité) | SEARCH-NOT-FOUND |
+| 8. Rating-agency comment | None found (Fitch upgraded Arkéa to AA- in May 2026 on criteria; nothing on the fraud) | SEARCH-NOT-FOUND |
+| US reach | None. No US bank, custodian or Fed-rail leg in any account | SEARCH-NOT-FOUND |
+
+**Chairman's timeline (AFP interview, read in full on the Fortuneo Bourse AFP copy, 12/11/2026 20:38):**
+
+| Date | Event |
+|---|---|
+| Tue 10/27 | Bank detects signs that a provider's information system was compromised; cuts the link to that provider and notifies the authorities. "Rien ne nous permet de déceler que des éléments ont été récupérés chez ce tiers" |
+| Sun 11/01 | Fraudulent instant payments start from the bank's own account, using generated fake Fortuneo IBANs, to real accounts opened by the fraudsters at other European banks, then to crypto platforms |
+| Tue 11/03 morning | Bank sees the scale; cuts all external access and its access to the interbank payment system; removes fake accounts; resets all authentication |
+| Wed 11/04 | Disclosure |
+| Loss | "une centaine de millions d'euros", "1 % des fonds propres", "l'équivalent d'un trimestre de résultats"; no final figure because recovery continues; some funds frozen by banks and crypto platforms; talks with its insurer |
+| Attribution | No claim received; "groupe criminel très bien organisé"; "très probablement aidée par des intelligences artificielles avancées" (VICTIM CLAIM, no evidence offered; Notebookcheck makes the same point) |
+
+**Grading on this re-check:**
+
+| Surface | Call |
+|---|---|
+| CYB-INC-059 | Unchanged: CONFIRMED, SUPPLY-CHAIN, OFF-WAVE. Notes extended (timeline, rail, provider class). Last_Checked 2026-11-16 |
+| FL-CYP-22 (one vendor, several banks) | Stays UNTESTED; one more dated null. The provider's class (asset-management compliance software) makes a bank-payments shared product less likely, not more; the other banks were TOLD the name, which is not evidence they were hit |
+| VX-CYP-05 / VX-CYP-02 | Held at 3 / 3. The provider's own system was compromised, but no second client is known to have been reached through its product, so the ORANGE boundary ("a poisoned or compromised shared product") is not met on evidence |
+| Chokepoint map | No row reached. Nearest class is CHK-30 (SS&C, fund administration, US), a different firm and market |
+| CYP-05 (provider named on record, 35%) | **Not re-marked; letter issue flagged.** The press name is the letter's NO-VERDICT case, not a HIT. But the MISS branch reads "no name in any source", and a name is now in Les Echos, so MISS can no longer be met as written: the row can now only end HIT (bank, prosecutor or provider confirms) or NO-VERDICT. The chairman's "collective decision" not to name lowers the HIT path. Flagged to PROME; no edit to the letter by CYPHER |
+| CYP-06 (second institution, 12%) | Not re-marked. OPEN |
+| Packets | HANS (P2) and LIQUID (P3) per the catalyst row's threshold (provider named, here by the press). REGINALD and GIBBS not sent: no US link and the name is unconfirmed; read-across only |
+
+**Next look:** weekly, 2026-11-23 (catalyst row re-dated, P2). If the bank, prosecutor or provider confirms a name: read its client base the same session (CYP-05 HIT action).
