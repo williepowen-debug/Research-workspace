@@ -28,3 +28,26 @@ No listed instrument carries this exposure in a size worth a card, and the only 
 ## Logged, not scored
 
 Added to `SIGNALS.tsv` `COMBO-BEAR-PREMISE-EROSION` as a member with both directions: a real multifamily credit loss ($362.5M charge-offs, total capital 7.26% [9/30 Call Report, DEWEY]), and counterevidence that the loss may sit mostly in-house (concentration, no outside lender shown [PROME synthesis, INFERRED]); containment itself is not established (53.6% of origination dollars unmatched; wording narrowed 2026-11-12 evening on PROME's second correction). Logging is not scoring. No card, gate, level or threshold changed.
+
+## RE-LOOK 2026-11-16 11:2x EST: NO CARD STANDS
+
+**Asked by:** PROME prome-6f packet `inbox/processed/2026-11-16_from-PROME_United-Fidelity-funding-and-rule-reads-for-re-look.md` (1cc77b1423), on Will's 11:05 ET "Lets look into these". **Read in full:** DEWEY `output/2026-11-16_ufb-brokered-funding-call-report.md` (a0f5f80727) and REGINALD `reports/2026-11-16_UFB-and-FHLB-deeper-read.md` (dc53393902). Figures and rule readings are theirs; this answers only "is there a trade". Setup id `TRY-NOTRADE-UFB-RELOOK-NOV16`.
+
+**Re-open standard (set 11/12, above):** (a) an OCC action naming a sale, merger or receivership and a listed acquirer; (b) a listed outside lender on a recorded lien; (c) a listed holder above about 5% of net assets. **None is met.**
+
+| New fact (owner, label) | Does it meet (a), (b) or (c)? | Does it put a listed name on the losing side? |
+|---|---|---|
+| Undercapitalized by rule since 10/30, total capital 7.26% vs 8.0% (REGINALD, VERIFIED rule text; 10/30 conditional on no later OCC notice) | No: a category, not an action | No. It was the 11/12 premise |
+| No brokered waiver possible now; about $1.0B brokered under the bar, up to about $1.75B with reciprocal above the cap (REGINALD; waiver history INFERRED) | No | No: depositors are insured; the bar binds the bank's funding, not a market |
+| Brokered CDs due within a year at most about $363.0M vs cash plus unpledged securities about $239.1M at 9/30 (DEWEY; sweep split INFERRED); no FHLB since 12/2024; pledged securities +$293.7M in Q3, pledgee UNKNOWN | No | No. It raises the odds of the outcome (a) watches for, but that outcome is not here and its acquirer is unknown |
+| Capital plan due Mon 12/14; a guarantee of up to about $295.8M by the controlling companies, likely ahead of the parent's notes (REGINALD; 11 USC 507(a)(9) recalled, not opened) | No | Hurts the parent's private notes; the listed holders still hold under 1% |
+| FINS 0.66% and BANX 0.88% of net assets (same as 11/12); NexPoint Capital holds the bank's 7% preferred at a $0.5M mark (REGINALD; NexPoint's listing not checked) | No: all far under 5% | No. A $0.5M mark is immaterial to any fund |
+| REGINALD read-across: none of its 14 banks under a capital-level order or near 8% total capital | — | No regional bank name; no new premise for KRE puts |
+
+**Live check, 11:23 EST (vendor, intraday, not settles):** BANX $19.40 (+0.26%), FINS $11.66 (−0.26%), KRE $72.43 (−0.43%). BANX puts: Dec-18 17.5P 0.00/0.75, OI 2, NOBID · Jan-15 17.5P 0.00/2.00 NOBID, 20P 0.75/1.70 (77.6% spread), OI 16 · Apr-16 17.5P 0.00/2.10 NOBID, 20P DEAD (`chain_fetch.py --no-cache`). FINS: 0 listed expiries. Loss through options is still not definable, and the exposure behind it is still under 1%.
+
+**Why it stands:** the reports make the bank's position worse and the dates sharper, but they do not move the exposure onto any listed instrument. A worse outcome for a private bank is still not a trade. The one path to a card is the same as on 11/12: a resolution that names a listed counterparty. Even then the sign for an acquirer is not obvious, because an FDIC-assisted deal usually helps the buyer. That would be read fresh, not assumed short.
+
+**Dated tells (unchanged path, sharper dates):** OCC monthly enforcement release about Thu 11/19 (INFERRED) · capital plan Mon 12/14 (the OCC may set another date in writing, not public) · OCC plan decision about Fri 2/12/2027 if filed 12/14 · 12/31 Call Report notice event Mon 2/1/2027 · BANX mark about late November, FINS about late December. **A failed or missing plan is a ground for receivership, never automatic (REGINALD, statute recalled).** That is the event most likely to name a listed party.
+
+**Logged, not scored:** added to `SIGNALS.tsv` `COMBO-BEAR-PREMISE-EROSION`, both directions (funding wall and closed waiver route against: no listed transmission, none of REGINALD's 14 banks in the same position).
