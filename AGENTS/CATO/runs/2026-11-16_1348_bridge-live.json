@@ -1,0 +1,19 @@
+{
+  "endpoint": "unix+ws:///home/willi/.codex/app-server-control/app-server-control.sock",
+  "scope": "loaded threads on this server only",
+  "observed_at": "2026-11-16T18:46:59.372181+00:00",
+  "threads": [
+    {
+      "id": "01a1e599-92f0-7f60-afa5-4a996393e854",
+      "sessionId": "01a1e599-92f0-7f60-afa5-4a996393e854",
+      "parentThreadId": null,
+      "cwd": "/home/willi/Research-workspace/AGENTS/CATO",
+      "source": "vscode",
+      "status": {
+        "type": "active",
+        "activeFlags": []
+      },
+      "canAcceptDirectInput": true
+    }
+  ]
+}

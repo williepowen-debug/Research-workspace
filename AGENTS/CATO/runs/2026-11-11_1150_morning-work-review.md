@@ -2,7 +2,7 @@
 
 ## Current assessment
 
-**November 14 session closed; review delivered.** Research is usefully reducing conviction and reaching TERRY. Subsequent owner receipts record the original N14-1 repair with an unresolved during-scan gap and a no-concurrent-lane-write control; whole-repair independent acceptance is not claimed. PROME narrowed N14-2's TERRY packet; LIQUID's source corrections remain pending. [Latest owner receipt and verification limits](#november-14--session-closeout-and-owner-follow-through). No CATO implementation or extra review assigned; orient and await Will.
+**November 14 session closed; review delivered.** Research is usefully reducing conviction and reaching TERRY. Subsequent owner receipts record the original N14-1 repair with an unresolved during-scan gap and a no-concurrent-lane-write control; whole-repair independent acceptance is not claimed. PROME narrowed N14-2's TERRY packet; LIQUID's source corrections were subsequently verified and N14-2 closed by CATO on November 16; see the follow-up below. [Latest owner receipt and verification limits](#november-14--session-closeout-and-owner-follow-through). No CATO implementation or extra review assigned; orient and await Will.
 
 ## November 11 assessment (historical; final disposition below)
 
@@ -294,3 +294,7 @@ Will requested files prepared for transition/reboot and closeout. Both reviews h
 **Other work:** DQ1–DQ4 recommendations remain in the Decisions report; adoption not assessed during closeout. Existing TERRY, ARGUS, November 19 observation and earlier United Fidelity/RED/NEXUS/MC4 obligations retain their owners and limits. No additional task is created by reboot. Forecast pilot stays held, 76 minutes remaining. Next CATO session orients and waits for Will.
 
 **Session-end checks:** 11 intended inputs verified readable. Read-cap PASS on CATO AGENTS.md/CHARTER.md/CONTINUITY.md and root CLAUDE.md/USER.md/AGENTS.md. Weekday PASS on PROME DOCKET.tsv/GATES.tsv/WILL_QUEUE.md, CATO CONTINUITY.md and both continuing reports changed here. Scoped whitespace clean; staged index empty before exact-path commit. Orphan advisory names only DAEDALUS FLEET_DIRECTORY.md, preserved. No auto-memory, ledger or canonical operating-figure changes; conditional checks not triggered. No product or research test repeated. Git receipt delivered in chat; no extra hash-only commit.
+
+## November 16 — N14-2 source correction verified
+
+CATO checked LIQUID's corrected November 14 report, STATUS and NEXUS brief against the two prior counterexamples: the Oracle 2031 note is stated as 4 bp wider than pricing; broad-index attribution is qualified, the tech-index split remains unmeasured, and duration/curve/composition and unlike spread bases are disclosed. **N14-2 CLOSED** for this correction and its sampled active consumers. No fresh market pull or changed financing verdict. Broader system review and its owner actions: [November 16 assessment](2026-11-16_1348_system-status-review.md). N14-1's declared during-scan limit and no-concurrent-write control remain; no scanner rerun or new reader.
