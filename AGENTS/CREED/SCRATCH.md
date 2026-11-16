@@ -1,6 +1,6 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
-**Rewritten:** 2026-11-16 (Mon) ~15:15 ET, at the end of PROME's examination-list assignment (prome-6f, Will's word 13:45 ET). **Record: `catchups/2026-11-16.md`.** In one line: Trepp October SS graded (office 16.60, `T-01b` not fired, `PRED-013` TRUE, F2 not triggered) · 28/45 unchanged · inbox drained, 10 items · who-pays file written · THESIS rotated to 70% · KB 121 · cases 186 · **HOLDING open for PROME; not closed out.** No pull, no push this session (GitHub lookups failing).
+**Rewritten:** 2026-11-16 (Mon) 14:16 ET (from `date`), at closeout on PROME's ask after the examination-list assignment (prome-6f, Will's word 13:45 ET). **Record: `catchups/2026-11-16.md`.** In one line: Trepp October SS graded (office 16.60, `T-01b` not fired, `PRED-013` TRUE, F2 not triggered) · 28/45 unchanged · inbox drained, 10 items · who-pays file written · THESIS rotated to 70% · KB 121 · cases 186 · **HOLDING open for PROME; not closed out.** No pull, no push this session (GitHub lookups failing).
 *PRIOR (11/09): `catchups/2026-11-09.md`.*
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB / research; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
@@ -87,7 +87,7 @@ Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea8
 *Closed 10/30: DAEDALUS profile-refresh items 1–7, 9–12 (record `catchups/2026-10-30.md` §③).* *Closed 10/28: #25, #27, #7 (see `catchups/2026-10-28.md`).*
 
 ## 📬 MAIL STATE (11/16; canonical record `board_log.tsv`)
-- **In:** 10 items read and dispositioned (6 DEWEY, 1 DAEDALUS, 1 HOMER, 2 WALTER), all filed to `processed/`. `inbox/` and `inbox/WALTER/` empty at ~15:10 ET.
+- **In:** 10 items read and dispositioned (6 DEWEY, 1 DAEDALUS, 1 HOMER, 2 WALTER), all filed to `processed/`. `inbox/` and `inbox/WALTER/` empty at 14:13 ET (from the board_log stamp 19:13Z).
 - **Out:** one packet to `PROME/inbox/` (examination-list return) plus a message to prome-6f.
 
 ## 🔵 OWED OUT — none beyond PROME's packet. A launch is needed for the next print; CREED does not self-start.

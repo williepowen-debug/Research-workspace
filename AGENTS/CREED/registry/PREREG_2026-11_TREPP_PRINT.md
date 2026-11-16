@@ -88,7 +88,7 @@ No band, operator, sustain or confidence edit. **No S-score moved by CREED** (a 
 ### RULING ADDENDUM — 2026-11-05 10:32 ET. Terms above unchanged.
 Will in CREED's window, verbatim *"Yes go with your recs"*: **S1 3 → 4, composite 28/45** · **`PRED-CREED-001` graded on CREED's ledger, WQ-304 option B path** (TRUE, MISS, Brier 0.36; Kernel record stays OPEN) · S8a held at 4.
 
-### SS ADDENDUM — graded 2026-11-16 (Mon) ~14:30 ET on the October Special Servicing print. Terms above unchanged.
+### SS ADDENDUM — graded 2026-11-16 (Mon) about 14:05 ET (PDF fetched 14:04 ET per file timestamp) on the October Special Servicing print. Terms above unchanged.
 **Source:** Trepp *CMBS Special Servicing Report, October 2026*, full public PDF `https://www.trepp.com/hubfs/Trepp%20CMBS%20Special%20Servicing%20Report%20October%202026.pdf` (7 pp, 14,082,304 B, sha256 `a75ea563b0c4ecaa385deb4abc1f1aa5dbab4d66a4549c0b04ab6f7d702391c6`, PDF creation stamp 2026-11-09 12:49 EST). **PRIMARY-READ by CREED**, Table 1 read by `pdftotext -layout` and anchored on Sep 16.85, Aug 16.90, 3MO 16.58 and 6MO 17.66, all matching `VX_HISTORY`. Seven days after creation; CREED was dark until PROME's 13:45 ET wake.
 
 | Item | October print | Grade |
