@@ -1026,6 +1026,28 @@ def check_aged_waits():
            "each hit ⇒ register a PENDING DOCKET row naming the blocking desk (L0 drain-only, cap-counted; WQ-221 rule 3) — never a per-item ask")
 
 
+def check_owner_unconsumed():
+    """Boot advisory (S1; DOCKET L730, WQ-401, ONE line by WQ-577): desks with no self-commit for ≥7 days that hold
+    inbox items ≥7 days old. A backlog fact and at most a launch CANDIDATE, never an authorization. Facts come from
+    inbox_census.owner_unconsumed; liveness = spawn_list.Liveness.last_self_commit (a git error reads UNKNOWN)."""
+    name = "owner-unconsumed (S1): desks dark ≥7d holding inbox items ≥7d"
+    try:
+        sys.path.insert(0, str(ROOT / "PROME/tools"))
+        import inbox_census as ic  # noqa: E402
+        import spawn_list as sl    # noqa: E402
+        r = ic.owner_unconsumed(ROOT, dt.date.today(), sl.Liveness(None).last_self_commit,
+                                (ROOT / "PROME/ROSTER.md").read_text(encoding="utf-8"))
+        detail = ic.render_owner_unconsumed(r)
+    except Exception as e:  # never silent: UNKNOWN is a visible advisory
+        record(ADVISE, name, False, f"UNKNOWN — {type(e).__name__}: {e}",
+               "run by hand: python3 PROME/tools/inbox_census.py <DESK> and git log for the desk's last self-commit")
+        return
+    record(ADVISE, name, not r["hits"] and not r["unknown"], detail,
+           "a backlog fact, never a launch authorization: an ACTION item ≥7d at a dark owner is the WQ-206 class "
+           "(L0 drain CANDIDATE; same-minute preflight first); untyped backlog: a ⛔ wait row ⇒ WQ-221, else Will's word; "
+           "file names: python3 PROME/tools/inbox_census.py <DESK>")
+
+
 def check_desk_catalyst_summons(today=None):
     """BD-02 summons half (LABOR ask 2026-08-20). For each registered desk
     catalyst ledger: flag rows dated within SUMMONS_WINDOW_DAYS or past-due.
@@ -1605,6 +1627,7 @@ def mode_boot(advance_board=True):
     guard(check_docket_buried_state_token)
     guard(check_will_queue)
     guard(check_aged_waits)  # WQ-221 instrument — boot only; closeout slates via spawn_list
+    guard(check_owner_unconsumed)  # S1 (L730, WQ-401/WQ-577) — boot only, one advisory line
     # HEARTBEAT amendment-chain check RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #25): read_cap_check meters the file.
     # 2026-09-13: a markdown row with MORE cells than its header has the excess
     # DROPPED at render, silently. PROME/STATUS.md L21 lost two cells that way —
