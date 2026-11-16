@@ -10,6 +10,7 @@
 - Extension funders (logging only): `research/2026-11-16_who-pays-to-extend.md`, 8 credits.
 - Read cap: charter split to `CHARTER_REFERENCE.md` (L810 WAL leg); STATUS and MEMORY rotated verbatim to `archive/*_rotation_2026-11-16.md`.
 - Unchanged: v2.5 weights, EV, PT, scores, frozen grades, positions.
+- Closeout 14:1x ET on PROME's ask: PROME consumed the packet, accepted the L810 leg (charter diff checked), and put WAL-03..07 on the docket as two resolution rows (2027-01-31, 2027-03-01). WAL did not push; PROME's closeout push carries the commits. PROME wakes WAL Wed 11/18 for the Plaza result.
 
 **NEXT SESSION:**
 1. **Plaza Continental 11/17 hearing result** (DEWEY reads it; L517 check-by 11/18): apply the H1–H11 sheet to what lands.
