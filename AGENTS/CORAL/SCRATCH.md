@@ -19,7 +19,7 @@
 ## NEXT SESSION / OWED
 
 - **CORAL-02: grade on the first Florida Realtors October print** (financed = closed − cash, units, condo vs SF, 0.1pp band; first print; PDF year-ago columns).
-- ✅ **11/15 falsify grade run 11/16: 1.5 of 6, 🟠 holds** (THESIS grade of record). Owed: ATTOM refresh for C3, rule gap at 1.5 (to Will via PROME), next grade date (proposed 2027-02-16).
+- ✅ **11/15 falsify grade run 11/16: 1.5 of 6, 🟠 holds** (THESIS grade of record). Owed: ATTOM refresh for C3. Band gap closed by WQ-690 A (any score below 2 ⇒ 🟠 unqualified, encoded 11/16); next grade 2027-02-16 (DOCKET L1156).
 - MSI #16 by 11/26 · Avidia 10-Q · FEMA FR notice (CORAL-04, L784 re-date proposed 11/20) · certification 11/17.
 - Still awaiting Will's word (since 11/06): DATA_SOURCES line for sec_contact.py; VX_Vectors catch-up; CLAUDE.md size figure (now dropped by F39 — item (c) moot).
 - DAEDALUS optional trims F14, F37, F38, F41, F42, F43, F44 declined for now; F11 waits on PROME's routing ruling.

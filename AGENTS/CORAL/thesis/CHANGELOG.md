@@ -5,7 +5,21 @@
 
 ---
 
-## 2026-11-16 (latest) — 11/15 falsify grade run one day late: 1.5 of 6, 🟠 holds
+## 2026-11-16 (latest) — Decision-rule band amended: any score below 2 ⇒ 🟠 unqualified (WQ-690 RULED A)
+
+**Authority:** Will, PROME's chat, 2026-11-16 11:39 ET, verbatim "689 B and 690 A approved" (`PROME/WILL_QUEUE.md` row 690; relay `inbox/processed/2026-11-16_from-PROME_WQ-690-RULED-A-band-under-2.md`).
+
+| Item | Old | New |
+|---|---|---|
+| Lowest band of the pre-registered decision rule | "≤1 MET ⇒ 🟠 holds unqualified" (1.5 fell in no band) | **"any score below 2 MET ⇒ 🟠 holds unqualified"** |
+| 11/15 grade (1.5 of 6) | 🟠, band unassigned | 🟠 unqualified |
+| Next grade | proposed 2027-02-16 | **2027-02-16, DOCKET L1156** |
+
+**Unchanged:** the "2–3" and "≥4" bands, HALF = 0.5, UNGRADED = 0, all six criteria and every threshold. Amended between grades, as the rule requires. **Implication:** no colour moves.
+
+---
+
+## 2026-11-16 — 11/15 falsify grade run one day late: 1.5 of 6, 🟠 holds
 
 **Trigger:** pre-registered grade date 2026-11-15 (missed; run 11/16 on PROME prome-6f's word).
 
@@ -14,7 +28,7 @@
 | Score | 1.5 of 6 (8/23) | **1.5 of 6** — C1 HALF, C2 MET, C3–C6 NOT MET (THESIS grade of record 2026-11-15) |
 | Criterion 1 basis | HALF because Q3 had not printed | HALF because Q3 printed with NPLs rising at BKU and USCB (aggregate NO TRANSMISSION) |
 | Criterion 2 | MET | MET, with a named flip risk: BKU CRE 60-89 $21.3M in modified loans, re-read at the 12/31 Call Report |
-| Next grade | 2026-11-15 | none registered; **proposed 2027-02-16**, pending PROME/Will |
+| Next grade | 2026-11-15 | none registered; proposed 2027-02-16 (registered later the same day, see entry above) |
 | Rule gap | — | 1.5 sits between the "≤1" and "2–3" bands; flagged for amendment between grades, not applied (both bands hold 🟠) |
 
 **Why:** a grade is a rail event. **Implication:** v1.1 unchanged; overall 🟠, MSI leg 🟠 and the bank rail unchanged.

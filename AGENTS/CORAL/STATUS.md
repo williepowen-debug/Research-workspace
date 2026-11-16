@@ -9,7 +9,7 @@
 
 ## THESIS RAILS — "The Coral Bleaching"
 
-Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo stress confirmed; bank-loss transmission NOT confirmed.** **Falsify grade 2026-11-15 RUN 11/16 (one day late): 1.5 of 6 ⇒ 🟠 HOLDS** — C1 HALF (Q3 NPLs up at BKU, USCB), C2 MET (flip risk: BKU $21.3M CRE 60-89), C3 NOT MET (forced-sale clause unobserved, ATTOM stale), C4–C6 NOT MET. Rule gap at 1.5 flagged, not applied. Next grade proposed 2027-02-16, pending PROME/Will. Grade of record → `thesis/THESIS.md`; evidence § AG4.
+Mechanism, rails, timing gates → `thesis/THESIS.md` v1.1. **Household/condo stress confirmed; bank-loss transmission NOT confirmed.** **Falsify grade 2026-11-15 RUN 11/16 (one day late): 1.5 of 6 ⇒ 🟠 HOLDS** — C1 HALF (Q3 NPLs up at BKU, USCB), C2 MET (flip risk: BKU $21.3M CRE 60-89), C3 NOT MET (forced-sale clause unobserved, ATTOM stale), C4–C6 NOT MET. Band gap closed: any score below 2 ⇒ 🟠 unqualified (WQ-690 A, Will 11/16). Next grade 2027-02-16 (DOCKET L1156). Grade of record → `thesis/THESIS.md`; evidence § AG4.
 
 ---
 
@@ -110,7 +110,7 @@ Consequence: readings #1–#10 stay as recorded; the current series' history is 
 | J | **Condo price-band test — UNITS, never SHARE** | separate report | not run |
 | K | No constant-quality statewide FL **condo** index — every condo composition argument rests on a mix statistic | open | named gap |
 | L | Parcl listings route ✅ (`seo.totalCount`/`nCutting`); residual: did the fields exist on 9/13? (if yes, correct ML-CORAL-079, never delete) | next session (Wayback) | record ⚠️ |
-| M | Falsify grade — ⛔ do not re-derive the rule, do not reword a criterion. **11/15 grade RUN 11/16: 1.5 of 6, 🟠 holds (THESIS grade of record).** Owed: ATTOM refresh (C3 instrument) · rule gap at 1.5 · next date | **next proposed 2027-02-16** | ✅ graded; next pending PROME/Will |
+| M | Falsify grade — ⛔ do not re-derive the rule, do not reword a criterion. **11/15 grade RUN 11/16: 1.5 of 6, 🟠 holds (THESIS grade of record).** Band gap closed (WQ-690 A). Owed: ATTOM refresh (C3 instrument) | **next 2027-02-16 (DOCKET L1156)** | ✅ graded |
 | N | Bank rail re-test — REGINALD frame **FINAL 11/06: NO TRANSMISSION** (SBCF, SSB, AMTB HOLDS; BKU MIXED). BKU balance re-read at the 12/31 Call Report (REGINALD). CORAL's condo/association grep DONE on seven 10-Qs: zero association-loan disclosure (§ AB2). Remaining: **Avidia 10-Q** (not on EDGAR 10:4x ET 11/09), the only filer disclosing association-loan quality | **Avidia ~mid-Nov** | NOT met, NOT armed |
 | O | Stale rows: **SE-FL vintage $/sf (7/13)** · **blacklist count (Apr-2025)** · **NOAA SIR sargassum (since 7/21)** · **ATTOM foreclosure (7/17)** · **VLY CRE/RBC 329% is Q1** | rolling | STALE-marked in place |
 | P | **NFIP authorization** — extended 9/2 | **2026-12-11** | dated cliff |

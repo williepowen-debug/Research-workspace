@@ -1,7 +1,7 @@
 # CORAL THESIS — The Coral Bleaching
 
 **Version:** **v1.1** *(bumped 2026-08-23 — two rail changes: a new falsify rail for the 🔴 supply-side leg, and a pre-registered grading rule + first-ever grade for the falsify criteria. Core mechanism UNCHANGED from v1.0.)*  
-**Installed:** 2026-06-20 · **Rails last reviewed:** 2026-08-23 (Will-approved) · **Last falsify grade: 2026-11-15 (graded 11/16, 1.5 of 6, 🟠 holds); next: proposed 2027-02-16, pending PROME/Will**  
+**Installed:** 2026-06-20 · **Rails last reviewed:** 2026-08-23 (Will-approved) · **Last falsify grade: 2026-11-15 (graded 11/16, 1.5 of 6, 🟠 holds); next: 2027-02-16, DOCKET L1156**  
 **State:** 🟠 ELEVATED / thesis split — household + condo stress confirmed; bank-loss transmission not confirmed. **Supply-side price-discovery leg 🟠 — fired 🔴 7/23 (Will-ratified), STOOD DOWN 🔴→🟠 2026-09-13 on its own 8/23 rail; **re-fire condition + level guard INSTALLED 2026-09-28 (Will-ruled, WQ-241; letter in STATUS OQ §A).** Scoped to that leg; bank-transmission rail untouched (0-of-≥2).** **⭐ STAND-DOWN RAIL ADDED 2026-08-23 (Will-ruled): breadth <5-of-5 FL metros with Parcl MSI >6.0 on TWO CONSECUTIVE readings ≥10 DAYS APART ⇒ 🔴→🟠, this leg only. Canonical letter → `STATUS.md` OQ §A. Until 8/23 this leg had a trigger and NO falsifier.**
 **Changelog:** `thesis/CHANGELOG.md`
 
@@ -99,10 +99,10 @@ Bridge / corroborating signals that raise pressure but do **not** alone upgrade 
 - ⚠️ **Ordering discipline, stated because the first grade violated it:** the 2026-08-23 grade below was made *openly, from data already in hand*, and only then was this decision rule written. **That ordering is backwards and is recorded rather than hidden.** From the next grade onward the decision rule is pre-registered and the criteria are frozen, so the ordering weakness does not recur.
 
 **PRE-REGISTERED DECISION RULE (filed 2026-08-23, before the next grading date):**
-> Of the six falsify criteria: **≥4 MET ⇒ 🟠→🟡 candidate, route to Will** · **2–3 MET ⇒ HOLD 🟠 and name which** · **≤1 MET ⇒ 🟠 holds unqualified.**
+> Of the six falsify criteria: **≥4 MET ⇒ 🟠→🟡 candidate, route to Will** · **2–3 MET ⇒ HOLD 🟠 and name which** · **any score below 2 MET ⇒ 🟠 holds unqualified** *(was "≤1 MET"; amended between grades by Will, WQ-690 RULED A, 2026-11-16 11:39 ET, so half-point scores below 2 are covered)*.
 > **A HALF-MET criterion counts as 0.5.** **UNGRADED counts as 0 and obliges an instrument note, not a shrug.**
 > ⛔ **No criterion may be reworded, split or merged at grading time.** A criterion that turns out to be badly specified is flagged for amendment *between* grades, never during one.
-> **Next formal grade: 2026-11-15** (after Nov-3 Amendment 3 and inside the Q3-bank-print aftermath). Earlier only if ≥2 criteria change state on a single print.
+> **Next formal grade: 2027-02-16** (DOCKET L1156; the 2026-11-15 grade ran 11/16, grade of record below). Earlier only if ≥2 criteria change state on a single print.
 
 **GRADE OF RECORD — 2026-08-23 (first ever; see the ordering caveat above):**
 
@@ -130,7 +130,7 @@ Bridge / corroborating signals that raise pressure but do **not** alone upgrade 
 | 5 | Bankruptcy acceleration fades per capita (Leg A scored, WQ-321) | **NOT MET (0)** | AOUSC F-2, 12 months to 9/30/26: M.D.+S.D. Fla **+21.3% YoY** filings, 225.9/100k; Leg A = **0.6pp below the prior-four max** (needs ≥5pp on two consecutive tables). **Leg B (reported only):** FL +21.3% vs US +11.5%, ratio 1.256× (6/30: 1.231×), widening. Next table 12/31 (~late Jan). |
 | 6 | Property-tax relief materially lowers carrying cost **without offsetting fiscal/service backlash** | **NOT MET (0)** | Amendment 3 **passed on unofficial returns, Yes 61.98%** (state page 11/06; **certification Tue 11/17 — grade runs on unofficial returns, as pre-stated**). Relief lowers **no bill before November 2027** (first $150,000 exemption on 2027 assessments; homestead only, school taxes excluded). Backlash clause already moving against: REC local revenue −$4.95B FY27-28 to −$11.86B recurring; Jacksonville $300M hole (press via X); no rating action yet. Neither half holds at 11/15. |
 
-**SCORE: 1.5 of 6 (unchanged from 8/23) ⇒ 🟠 HOLDS. No colour, gate or threshold moves.** Which count: criterion 1 (half) and criterion 2. ⚠️ **Rule gap flagged for amendment BETWEEN grades, not applied:** the pre-registered bands are "≤1" and "2–3"; 1.5 falls in neither. Both bands hold 🟠, so the outcome is the same either way; the 8/23 text called 1.5 "the 2–3 band's lower edge", which was a reading, not the rule. Sent to PROME as a question for Will. **Next formal grade: none registered; proposed Tue 2027-02-16** (after Q4 10-Ks/Call Reports and the 12/31 AOUSC table) — pending PROME/Will.
+**SCORE: 1.5 of 6 (unchanged from 8/23) ⇒ 🟠 HOLDS. No colour, gate or threshold moves.** Which count: criterion 1 (half) and criterion 2. ⚠️ **Rule gap flagged for amendment BETWEEN grades, not applied:** the pre-registered bands are "≤1" and "2–3"; 1.5 falls in neither. Both bands hold 🟠, so the outcome is the same either way; the 8/23 text called 1.5 "the 2–3 band's lower edge", which was a reading, not the rule. Sent to PROME as a question for Will → **RESOLVED: WQ-690 RULED A (Will 2026-11-16 11:39 ET): any score below 2 ⇒ 🟠 unqualified; this grade reads 🟠 unqualified.** **Next formal grade: Tue 2027-02-16** (DOCKET L1156, registered by PROME 2026-11-16).
 ⭐ **Read:** same score, different composition. Criterion 1 slipped from "half because Q3 had not printed" to "half because Q3 printed with NPLs rising at two names"; criterion 2 held but now carries a named flip risk (BKU). The household/collateral half (3–6) is unchanged at zero. The split the 8/23 grade described is still the shape.
 
 ### Falsify / downgrade toward 🟡
