@@ -29,3 +29,15 @@ Written BEFORE the code (PROME ask, prome-6f message 2026-11-16 17:2x ET; WQ-694
 | A9 | PASS: catch-up 26/26, cruise 15/15, GPU 3/3, boot repairs 15/15. The cruise and GPU fixture lanes are now `git init` with no commits, which reads as empty history. |
 | A10 | Live lane, read-only, scratch seen copy. Pointer at the 11/13 e1bd850 version (6673b80564be): batches are 11/13 current (rewritten), 11/14@bbc2b5f2175e, 11/14@5e0b36a5cb21, 11/14, 11/15, 11/16. Pointer at 11/12: the same, plus 11/13@6673b80564be first. Lane HEAD and status are unchanged, and the real `registry/intake_seen.json` is byte-identical. |
 | Found on the live lane | **11/14 has three committed versions** (309af00 16:11Z, 21f97e6 19:30Z, 6fd4b59 19:39Z), and 11/12 has three (6999c2d 15:58Z, f9cd0f7 21:30Z, cb07a16 21:41Z). **The GPU review queue gains 4 candidates, all from the replaced 11/12 version 217375e0a199**, that the old queue never showed (old 0 open, new 4): Steve Hou on GPU rents; Burry's GPU-depreciation bear case; "CoreWeave closes $2.6 billion GPU-backed loan"; Meta's $420B off-balance-sheet debt. They surface for 7e(g) disposition at the next scan. The cruise queue gains none. Whether the 11/12 and 11/14 replaced versions' ordinary headlines were read in the 11/12 to 11/14 sessions is not established here. |
+
+## Response to the independent read (PROME ledger `PROME/reports/2026-11-16_wq694-scanner-versions-read/LEDGER.md`)
+
+| Finding | Disposition | Evidence |
+|---|---|---|
+| B1: an empty run, then a non-empty run, then an empty run hides the middle run | **FIXED.** --mark stores `last_marked_commit` (a replaced version's own commit, or the newest commit of the path when its bytes are the marked bytes), and the scan resumes after that commit. A seen file without the field falls back to bytes (V11). The live seen file gains the field at its next mark. Until then it resumes by bytes, and 0 of 128 live versions are empty. | V10 FAILS on ed237c5450 (the middle version is not listed) and passes now |
+| B2: an unreadable committed version holds the pointer for good | **DECLARED LIMIT.** The collector serializes before writing and writes atomically (`fetch_newsweep.py` L570 write order); 0 of 128 live versions are unreadable. If one ever appears, its `news:UNREADABLE:<id>` key alerts, and every mark prints the held pointer. Advancing past it, and keying counts by content, is follow-up work, not part of this diff. | ledger B2 |
+| B3: a shallow or partial clone hides replaced versions | **FIXED (loud).** History reads as an error, giving the MED UNKNOWN line, when `rev-parse --is-shallow-repository` is true or `extensions.partialClone` is set. | V12 |
+| B4: a version made only by a merge commit is never listed | **FIXED.** The log uses `--diff-merges=first-parent` (git 2.43). | V13 |
+| N1 to N4 | Carried as follow-ups, not in this diff (the follow-up read covers the fix diff only). | ledger |
+
+Suites: versions 13/13, catch-up 26/26, cruise 15/15, GPU 3/3, boot repairs 15/15. Live read-only scan: lane HEAD, lane status and `intake_seen.json` unchanged.

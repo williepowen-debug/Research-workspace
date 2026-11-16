@@ -142,6 +142,7 @@ class Versions(unittest.TestCase):
         self.run_collector('2026-11-04', [item('D4', 'NEW_WATCH')])
         st = json.loads(self.seen.read_text())
         st['last_marked_sha'] = 'feedfacecafe'  # marked version not in history
+        st['last_marked_commit'] = 'deadbeef' * 5  # nor its commit (a history rewritten under the clone)
         self.seen.write_text(json.dumps(st))
         d = self.scan()
         self.assertEqual(d['news_batches'], [P('2026-11-03'), P('2026-11-04')])  # rewritten marked + newest, as before
@@ -205,6 +206,64 @@ class Versions(unittest.TestCase):
         self.assertEqual(errors, [])
         self.assertEqual(len(q), 1)
         self.assertEqual([r.get('version') for r in q[0]['rows']], [v1, None])
+
+
+    # Independent read of ed237c5450 (PROME ledger 2026-11-16_wq694-scanner-versions-read), B1, B3, B4.
+    def test_V10_B1_identical_empty_runs_do_not_hide_the_middle_run(self):
+        self.run_collector('2026-11-19', [item('D19', 'NEW')])
+        self.mark()
+        self.run_collector('2026-11-20', [])                       # empty run, marked
+        self.assertEqual(self.mark(through=P('2026-11-20'))[0], 0)
+        st = json.loads(self.seen.read_text())
+        self.assertEqual(st['last_marked_commit'], self.git('rev-parse', 'HEAD').strip())
+        e1 = st['last_marked_sha']
+        self.run_collector('2026-11-20', [item('LOST HIT', 'NEW_WATCH_HIT', hits=[['CYPHER', 'l']]), item('lost alert', 'NEW_ALERT')])
+        mid = s.batch_sha(P('2026-11-20'))
+        self.run_collector('2026-11-20', [])                       # empty again: same bytes as the marked one
+        self.assertEqual(s.batch_sha(P('2026-11-20')), e1)
+        d = self.scan()
+        self.assertEqual(d['news_batches'], [f"{P('2026-11-20')}@{mid}", P('2026-11-20')])
+        self.assertIn(hit('LOST HIT'), self.new_keys(d))
+        self.assertIn(f"news:NEW_ALERT:{P('2026-11-20')}@{mid}", self.new_keys(d))
+        self.assertEqual(self.mark()[0], 0)
+        self.assertEqual(self.new_keys(self.scan()), set())
+
+    def test_V11_B1_old_seen_without_commit_still_resumes_by_bytes(self):
+        self.run_collector('2026-11-20', [item('a', 'NEW')])
+        self.mark()
+        st = json.loads(self.seen.read_text()); st.pop('last_marked_commit'); self.seen.write_text(json.dumps(st))
+        self.run_collector('2026-11-20', [item('b hit', 'NEW_WATCH_HIT', hits=[['CYPHER', 'b']])])
+        b = s.batch_sha(P('2026-11-20'))
+        self.run_collector('2026-11-20', [item('c', 'NEW')])
+        self.assertEqual(self.scan()['news_batches'], [f"{P('2026-11-20')}@{b}", P('2026-11-20')])
+
+    def test_V12_B3_shallow_clone_says_unknown(self):
+        self.run_collector('2026-11-19', [item('D19', 'NEW')])
+        self.mark()
+        self.run_collector('2026-11-20', [item('r1', 'NEW')])
+        self.run_collector('2026-11-20', [item('r2', 'NEW')])
+        shallow = Path(self.tmp.name) / 'shallow'
+        subprocess.run(['git', 'clone', '-q', '--depth', '1', f'file://{self.lane}', str(shallow)], check=True, env=ENV)
+        with mock.patch.object(s, 'LANE', shallow), mock.patch.object(s, 'LIVENESS', shallow / 'liveness.json'):
+            d = self.scan()
+        self.assertTrue(any('shallow or partial' in h[1] and 'UNKNOWN' in h[1] for h in d['health']), d['health'])
+
+    def test_V13_B4_version_made_only_by_a_merge_is_listed(self):
+        self.run_collector('2026-11-19', [item('D19', 'NEW')])
+        self.mark()
+        base = self.git('rev-parse', '--abbrev-ref', 'HEAD').strip()
+        self.git('checkout', '-q', '-b', 'side')
+        self.run_collector('2026-11-20', [item('side', 'NEW')])
+        self.git('checkout', '-q', base)
+        self.run_collector('2026-11-20', [item('main', 'NEW')])
+        subprocess.run(['git', '-C', str(self.lane), 'merge', '-q', 'side', '-m', 'merge'], capture_output=True, env=ENV)
+        (self.lane / P('2026-11-20')).write_text(json.dumps({'items': [item('MERGED ONLY', 'NEW_WATCH_HIT', hits=[['CYPHER', 'm']])]}))
+        self.git('add', '-A'); self.git('commit', '-q', '-m', 'resolve')
+        merged = s.batch_sha(P('2026-11-20'))
+        self.run_collector('2026-11-20', [item('after', 'NEW')])
+        d = self.scan()
+        self.assertIn(f"{P('2026-11-20')}@{merged}", d['news_batches'])
+        self.assertIn(hit('MERGED ONLY'), self.new_keys(d))
 
 
 if __name__ == '__main__':

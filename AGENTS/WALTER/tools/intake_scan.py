@@ -203,7 +203,12 @@ def _lane_history():
             if _git("rev-parse", "--verify", "-q", "HEAD").returncode:
                 _HIST[k] = ({}, None)
                 return _HIST[k]
-            r = _git("log", "--reverse", "--format=C %H", "--diff-filter=AM", "--name-only", "--", "data")
+            sh = _git("rev-parse", "--is-shallow-repository").stdout.decode().strip()
+            if sh == "true" or _git("config", "--get", "extensions.partialClone").returncode == 0:
+                raise OSError("lane clone is shallow or partial, so its history is incomplete")  # read B3
+            # read B4: --diff-merges=first-parent lists a version that only a merge commit created
+            r = _git("log", "--reverse", "--format=C %H", "--diff-filter=AM", "--diff-merges=first-parent",
+                     "--name-only", "--", "data")
             if r.returncode:
                 raise OSError(r.stderr.decode("utf-8", "replace").strip()[:120] or f"git log rc {r.returncode}")
             hist, cur = {}, None
@@ -230,10 +235,13 @@ def _show(commit, path):
     return _BYTES[k]
 
 
-def superseded_versions(path, after_sha=None):
+def superseded_versions(path, after_sha=None, after_commit=None):
     """(ids, error): committed versions of `path` whose bytes differ from the working-tree file, oldest
-    first, as `<path>@<sha12>`. With after_sha: only versions committed after the LAST version with those
-    bytes, and an error if no version has them (which versions were read is then UNKNOWN)."""
+    first, as `<path>@<sha12>`. With after_commit (read B1, 2026-11-16): only versions committed after that
+    commit, an error if it is not in the history. With after_sha alone (a seen file from before the commit
+    was stored): only versions after the LAST version with those bytes, an error if none has them. Bytes
+    alone cannot place the resume point: every zero-headline run writes identical bytes, so an empty,
+    non-empty, empty day would skip the middle run. Either error means the versions read are UNKNOWN."""
     hist, err = _lane_history()
     if err:
         return [], err
@@ -243,7 +251,12 @@ def superseded_versions(path, after_sha=None):
         if raw is None:
             return [], f"{path} at {c[:10]} unreadable from lane history"
         vers.append((hashlib.sha1(raw).hexdigest()[:12], c))
-    if after_sha:
+    if after_commit:
+        idx = [i for i, (_, c) in enumerate(vers) if c == after_commit]
+        if not idx:
+            return [], f"marked commit {after_commit[:10]} of {path} not in lane history"
+        vers = vers[idx[-1] + 1:]
+    elif after_sha:
         idx = [i for i, (sh, _) in enumerate(vers) if sh == after_sha]
         if not idx:
             return [], f"marked version {after_sha} of {path} not in lane history"
@@ -257,6 +270,19 @@ def superseded_versions(path, after_sha=None):
         _VER[(str(LANE), vid)] = c
         out.append(vid)
     return out, None
+
+
+def version_commit(batch, sha):
+    """Commit id of the batch version a mark stores (read B1): a replaced version's own commit, or for the
+    working-tree file the newest commit of that path if its bytes are those; else None (sha-only resume)."""
+    if "@" in (batch or ""):
+        return _VER.get((str(LANE), batch))
+    hist, err = _lane_history()
+    commits = (hist or {}).get(batch, []) if not err else []
+    if commits and sha and _show(commits[-1], batch) is not None \
+            and hashlib.sha1(_show(commits[-1], batch)).hexdigest()[:12] == sha:
+        return commits[-1]
+    return None
 
 
 def batch_bytes(batch):
@@ -363,7 +389,7 @@ def scan_receipt(batches, recs):
     return h.hexdigest()[:12], shas, readable
 
 
-def _version_plan(saved, last_marked, marked_sha=None):
+def _version_plan(saved, last_marked, marked_sha=None, marked_commit=None):
     """(batches, version errors). Batches to scan, oldest first: every data/<day>/news.json with day after the
     marked batch's day and up to the newest (`saved`), always including `saved`. No pointer, an unparseable
     pointer, a pointer after `saved`, or no `saved` = [saved] only (install behaviour, nothing replayed). A
@@ -383,7 +409,12 @@ def _version_plan(saved, last_marked, marked_sha=None):
             errs.append(err)
         return ids
 
-    marked_sup = sup(last_marked, marked_sha) if lo and hi and lo <= hi and marked_sha else []
+    marked_sup = []
+    if lo and hi and lo <= hi and marked_sha:
+        ids, err = superseded_versions(last_marked, marked_sha, marked_commit)
+        if err:
+            errs.append(err)
+        marked_sup = ids
     if not hi or not lo or lo >= hi:
         if lo and hi and lo == hi:
             return marked_sup + [saved], errs
@@ -399,9 +430,9 @@ def _version_plan(saved, last_marked, marked_sha=None):
     return out + sup(saved) + [saved], errs
 
 
-def news_batches(saved, last_marked, marked_sha=None):
+def news_batches(saved, last_marked, marked_sha=None, marked_commit=None):
     """Batches to scan, oldest first (see _version_plan)."""
-    return _version_plan(saved, last_marked, marked_sha)[0]
+    return _version_plan(saved, last_marked, marked_sha, marked_commit)[0]
 
 
 def pointer_health(last_marked, saved=None):
@@ -446,7 +477,7 @@ def mark_pointer(batches, last_marked, through, readable):
     return new
 
 
-def collect_alerts(live, last_marked=None, marked_sha=None):
+def collect_alerts(live, last_marked=None, marked_sha=None, marked_commit=None):
     """Normalize every feed's alert-bearing field into gate records.
     record = dict(feed, key, band, gate, owners, info_cc, precedence, raw)."""
     recs = []
@@ -541,7 +572,7 @@ def collect_alerts(live, last_marked=None, marked_sha=None):
                                  raw=f"{n} {cls} item(s) — newsweep saved path missing",
                                  label=f"{n} {cls} (saved path missing)"))
     rb = rewritten_marked(saved, last_marked, marked_sha) if saved else None
-    for batch in news_batches(saved, last_marked, marked_sha):
+    for batch in news_batches(saved, last_marked, marked_sha, marked_commit):
         sfx = f"@{batch_sha(batch)}" if batch == rb else ""  # rewritten marked batch: fresh count keys
         if batch == saved:
             counts = byc
@@ -919,8 +950,9 @@ def main():
     last_marked = seen.get("last_marked_batch")
     newest = live.get("jobs", {}).get("newsweep", {}).get("saved")
     marked_sha = seen.get("last_marked_sha")
-    batches = news_batches(newest, last_marked, marked_sha)
-    recs = collect_alerts(live, last_marked, marked_sha)
+    marked_commit = seen.get("last_marked_commit")
+    batches = news_batches(newest, last_marked, marked_sha, marked_commit)
+    recs = collect_alerts(live, last_marked, marked_sha, marked_commit)
     for r in recs:
         r["onset"] = r["key"] not in seen["seen"]
     new = [r for r in recs if r["onset"]]
@@ -934,7 +966,7 @@ def main():
     if vers:
         hz.append(("MED", f"{len(vers)} version(s) replaced by a later same-day run, read from lane history: "
                           f"{', '.join(vers)}; read their ordinary headlines too"))
-    for e in _version_plan(newest, last_marked, marked_sha)[1]:
+    for e in _version_plan(newest, last_marked, marked_sha, marked_commit)[1]:
         hz.append(("MED", f"{e}: versions replaced by a later same-day run are UNKNOWN (not scanned)"))
 
     receipt, receipt_shas, receipt_readable = scan_receipt(batches, recs)
@@ -962,11 +994,16 @@ def main():
         if ptr in receipt_shas:
             state["last_marked_batch"] = ptr.split("@", 1)[0]  # WQ-676: next scan reads every batch after this one
             state["last_marked_sha"] = receipt_shas[ptr]  # the receipt-verified bytes, not a second read (L1);
+            commit = version_commit(ptr, receipt_shas[ptr])  # read B1: resume after this commit, not by bytes
+            if commit:
+                state["last_marked_commit"] = commit
             # for a replaced version (WQ-694 (a)) this sha is that version's, so the next scan resumes after it
         elif ptr and ptr == last_marked:
             state["last_marked_batch"] = ptr  # pointer held (unreadable next batch or pointer ahead): keep its sha
             if marked_sha:
                 state["last_marked_sha"] = marked_sha
+            if marked_commit:
+                state["last_marked_commit"] = marked_commit
         elif ptr:
             print(f"REFUSED: pointer {ptr} is not a batch this scan fingerprinted. Nothing written.")
             return 2
