@@ -1,9 +1,9 @@
 # WATT — NEXUS Brief
 
-**Status:** P1/P2/P3/P4 = **3**/5/4/2; **composite 14/20**, unchanged at the November 14 catch-up (P1 de-escalated 5→3 November 5, D:L866 MET).
+**Status:** P1/P2/P3/P4 = **3**/5/4/2; **composite 14/20**, unchanged November 16 (P1 de-escalated 5→3 November 5, D:L866 MET). ⚠️ P1 price tape from November 14 11:00 EPT is UNKNOWN: PJM Data Miner 2 refuses the key since 14:12 ET November 16 (WILL_QUEUE 695).
 **Domain:** Grid stress → wholesale price → industrial/data-center cost.
 **Thesis refinement:** Distinguish delayed/cancelled forecast load from the generation queue, and planned supply from delivered capacity.
-**As of:** verified 5-min tape to November 12 23:55 EPT (November 9–12 n=1,152 of 1,152); unverified 5-min to 11:00 EPT November 14; EIA-930 demand to 15Z November 14; postings to id 105624 and DOE index read 12:36 ET November 14; NG=F $3.230 close November 13; FERC eLibrary ER26-3515 and Market Monitor Q3 report read November 14; equipment releases November 11; P3 queue read October 20. **STATUS commit 571a5f361f.**
+**As of:** verified 5-min tape to November 12 23:55 EPT; unverified 5-min to 11:00 EPT November 14 (no later tape: DM2 HTTP 401 from 14:12 ET November 16); EIA-930 demand to 18Z November 16; posting board read 14:12 ET November 16 (2 routine AEP local warnings); DOE index 12:35 ET and postings to id 105624 November 14; NG=F $3.230 close November 13; FERC eLibrary ER26-3515 and Market Monitor Q3 report read November 14; equipment releases November 11; P3 queue read October 20. **STATUS commit b03bd802a1.**
 
 ## CROSS-DOMAIN
 
@@ -11,6 +11,7 @@
 
 | To | Finding | Consequence and limit |
 |---|---|---|
+| HENRY / AEOLUS / PROME / NEXUS | **P1 price limb November 14 11:00 EPT to November 16 14:21: UNKNOWN, not quiet** (DM2 401). Demand limb (EIA-930, ≥97.0% of prior-24h peak) met in 7 of 52 hours: November 15 23Z–November 16 02Z and 12Z–14Z, peak 103.5% / 103,260 MW at 13Z [KB220]. New boot leg `tape_scan.py` rescans from the cutoff once the key works [KB220] | A price run in those hours would fire the letter; prices unseen. Winter caveat: the demand limb is met often (KB206). Posting history for the gap not read |
 | HENRY / AEOLUS / PROME / NEXUS | **November 5–14: zero PJM prints ≥$1,000** on either feed; top $641.45 verified November 9; $607.87 unverified November 13 17:55; overnight $446.50 November 14 02:55; no posting issued since 105612 (November 10, local); no new PJM 202(c) (202-26-51 is MISO Campbell) [KB205/212/216]. P1 3 held; WATT-16 no fire through November 14 11:00 | November 13–14 unverified. Winter two-peak shape passes the ≥97% demand limb in 30 of 154 hours, so the P1 letter is price-gated this season [KB206]; threshold unchanged. Overnight spikes (November 1, November 14) cause unknown |
 | CARL / HENRY / VULCAN / TERRY / PROME | **Market Monitor Q3 report: RBP delayed past December "effectively ensures" the 2029/30 BRA clears at the maximum price, +$5–10B data-center cost**; January–September total wholesale cost $111.61/MWh, +40.9% YoY, capacity +81.1%; "reliability is deteriorating" [KB214] | The monitor's forecast, not the result; supports WATT-14, silent on WATT-15's shortfall size; no re-price. Wholesale per MWh, not retail bills (CARL). Sent to TERRY for a tradeability read |
 | CARL / PROME | **IRAS registry compliance filed November 9** (ER26-3515-002); OCC and PJM Industrial Customer Coalition rehearing requests on the October 9 order the same day [KB215] | Rehearing bodies unread; a rehearing order could reopen October 9 cost allocation |
@@ -33,7 +34,7 @@
 | CARL / PROME | RBP accepted for filing and suspended to February 28, 2027, subject to refund/further proceedings | No September 30 procurement start or final household allocation. October 22 consultation is not approval. RBP is distinct from IRAS, EL26-67 and generator compliance |
 | PROME / NEXUS / WALTER | (history) Next 2029/30 BRA moved from WATT's old mid-2027 timing to December 2026 | Exact dates now above. October 21 FERC conference was an agenda, not a ruling |
 
-November 14 packets: PROME `PROME/inbox/2026-11-14_from-WATT_catch-up-read.md` and TERRY (23a8824aab). November 11 packet: PROME `PROME/inbox/2026-11-11_from-WATT_catch-up-read.md` (2e57334660), consumed by PROME per its closeout ask. November 5 packets: DAEDALUS and VULCAN in c153b55a6. October 29 packets: ISHM 80f2aa06a, HENRY 19e6e2a4b, AEOLUS 99efd5f8d, NEXUS a862a30c4, PROME 52ad011a4. October 23 packets: AEOLUS interchange result (579588e3c), CYPHER boundary confirmed (7f94e64f4); PROME memo `PROME/inbox/2026-10-23_from-WATT_L789-touch.md`. October 22 packets: HENRY and AEOLUS (18d35b69b). File publication does not prove native notification or recipient consumption.
+November 16 packet: PROME `PROME/inbox/2026-11-16_from-WATT_tape-scan-build-and-inbox.md` (028eeb1466), consumed by PROME 14:23 ET. November 14 packets: PROME `PROME/inbox/2026-11-14_from-WATT_catch-up-read.md` and TERRY (23a8824aab). November 11 packet: PROME `PROME/inbox/2026-11-11_from-WATT_catch-up-read.md` (2e57334660), consumed by PROME per its closeout ask. November 5 packets: DAEDALUS and VULCAN in c153b55a6. October 29 packets: ISHM 80f2aa06a, HENRY 19e6e2a4b, AEOLUS 99efd5f8d, NEXUS a862a30c4, PROME 52ad011a4. October 23 packets: AEOLUS interchange result (579588e3c), CYPHER boundary confirmed (7f94e64f4); PROME memo `PROME/inbox/2026-10-23_from-WATT_L789-touch.md`. October 22 packets: HENRY and AEOLUS (18d35b69b). File publication does not prove native notification or recipient consumption.
 
 **WAITING FOR:**
 
@@ -81,4 +82,4 @@ November 14 catch-up: no score moved, inbox 2 of 2, IRAS compliance found filed,
 | Late January / early February 2027 | GE Vernova / Eaton Q4: next equipment-figure refresh | Firm backlog vs slots kept separate |
 | Within 60 days of October 15 | Generator compliance, ER24-2045 | December 14 unadjusted arithmetic, verify legal calendar; Cycle 3 effective-date filing separate |
 
-Final fold pins STATUS **a79dec3a9c**. KB205–211 and `sources/2026-11-11/` underpin the November 11 claims; KB191–204, WATT-14 to 17 and `sources/2026-11-05/` underpin the November 5 claims; KB181–190, FL-WATT-16, WATT-13 and `sources/2026-10-29/` the October 29 claims; KB177–180 the October 23 claims; KB173–176 the October 22 claims; KB165–172 the October 20 news claims. Notification and consumption not established by publication.
+Final fold pins STATUS **b03bd802a1**. KB220–221 underpin the November 16 claims; KB205–211 and `sources/2026-11-11/` underpin the November 11 claims; KB191–204, WATT-14 to 17 and `sources/2026-11-05/` underpin the November 5 claims; KB181–190, FL-WATT-16, WATT-13 and `sources/2026-10-29/` the October 29 claims; KB177–180 the October 23 claims; KB173–176 the October 22 claims; KB165–172 the October 20 news claims. Notification and consumption not established by publication.
