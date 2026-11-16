@@ -10,7 +10,9 @@ python3 FORGE/tools/filing-watch/poll_edgar.py --dry-run --lookback-days 14 --ma
 python3 FORGE/tools/filing-watch/poll_edgar.py --dry-run --new-only
 ```
 
-Normal run updates `seen_filings.json`:
+A dry run is read-only (since 2026-11-16): it fetches from the SEC, prints every matching filing and writes no file. Any desk can use it.
+
+Normal run writes `latest.md` / `latest.json` and updates `seen_filings.json`:
 
 ```bash
 python3 FORGE/tools/filing-watch/poll_edgar.py

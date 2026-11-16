@@ -4,6 +4,7 @@
 Dry-run first:
   python3 FORGE/tools/filing-watch/poll_edgar.py --dry-run --lookback-days 14
 
+A dry run is read-only: it fetches, prints every matching filing and writes no file.
 Normal run writes latest.json/latest.md and updates seen_filings.json for newly seen
 filings. It does not route to agent inboxes yet.
 """
@@ -168,7 +169,7 @@ def write_latest(rows: list[dict[str, Any]], dry_run: bool, new_count: int, erro
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Poll SEC EDGAR submissions for watched companies")
-    ap.add_argument("--dry-run", action="store_true", help="Do not update seen_filings.json; still writes latest outputs")
+    ap.add_argument("--dry-run", action="store_true", help="Read-only: print every matching filing; write no file (seen list and latest outputs untouched)")
     ap.add_argument("--lookback-days", type=int, default=14, help="Only show filings within this many days")
     ap.add_argument("--limit-per-entity", type=int, default=8)
     ap.add_argument("--new-only", action="store_true", help="Only print filings not in seen file")
@@ -203,19 +204,24 @@ def main() -> int:
     if new_ids and not args.dry_run:
         seen |= new_ids
         save_seen(seen)
-    write_latest(rows, args.dry_run, len(new_ids), errors)
+    if not args.dry_run:
+        write_latest(rows, args.dry_run, len(new_ids), errors)
 
     print(f"EDGAR Filing Radar: {len(rows)} matching filings ({len(new_ids)} new) across {len(entities)} entities")
     if errors:
         print("Errors:")
         for e in errors:
             print(f"  - {e}")
-    for r in rows[:40]:
+    shown = rows if args.dry_run else rows[:40]  # a dry run writes no file, so stdout carries every row
+    for r in shown:
         tag = "NEW " if r.get("isNew") else ""
         print(f"{priority(r['form'])} {tag}{r['filingDate']} {r['ticker']:<5} {r['form']:<8} -> {','.join(r['agents'])} {r['url']}")
-    if len(rows) > 40:
-        print(f"... {len(rows)-40} more in {LATEST_MD}")
-    print(f"Wrote {LATEST_MD} and {LATEST_JSON}")
+    if args.dry_run:
+        print("Dry run: nothing written (seen list and latest outputs untouched)")
+    else:
+        if len(rows) > 40:
+            print(f"... {len(rows)-40} more in {LATEST_MD}")
+        print(f"Wrote {LATEST_MD} and {LATEST_JSON}")
     return 1 if errors else 0
 
 
