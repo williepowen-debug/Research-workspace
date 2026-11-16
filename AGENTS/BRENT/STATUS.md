@@ -10,7 +10,7 @@
 
 **Throughput:** current comparable Gulf volume UNRESOLVED on a measured basis. Agency estimates only (EIA 2.5 mb/d shut in, October; IEA Gulf exports excluding Oman 18.4 mb/d, 26% below pre-war) → [archive set f](archive/STATUS_dated_2026-11-14_rotation.md) and combo:gulf-flow-basis.
 
-**Last real market/source refresh:** November 14, 11:25–11:31 EST (from `date`): IEA OMR 11/13 at five secondaries (report itself not read); FRED DCOILBRENTEU and DJFUELUSGULF (newest 11/11); FlightAware via ABC/Yahoo; TSA 11/12 (WebFetch extraction, this machine 403). Not refreshed: insurance quotes, FINRA USO short interest, COT #14 (Mon 11/16), EIA weekly (week 11/13, Wednesday 11/18, modeled). Positions/receipts → [TRADE](TRADE.md); broker truth off-repo.
+**Last real market/source refresh:** November 16, 16:22–16:24 EST (from `date`): CFTC raw `f_disagg.txt` (COT #14, two pulls); vendor one-minute bars for the BRT-33 window; `fetch.py` Brent continuous; PortWatch ArcGIS probe (Token Required). The morning routine's 09:46 ET vendor reads stand at [monday_2026-11-16](demand_destruction/data/monday_2026-11-16.md). Not refreshed: insurance quotes, FINRA USO short interest, FRED series (last pulled 11/14, newest 11/11), TSA 11/13–11/15, EIA weekly (week 11/13, Wednesday 11/18, modeled), live WTI (`fetch.py` CL=F failed 16:23 EST). Positions/receipts → [TRADE](TRADE.md); broker truth off-repo.
 
 **Navigation:** [README](README.md) · [handoff](SCRATCH.md) · [cleanup accepted; warning retained](audits/2026-10-20_organisation-cleanup/REVIEW-CLOSED.md) · [USO](USO/README.md) · [live-routine acceptance still unverified](audits/2026-10-04_cato-correction/REPORT.md#live-deployment-follow-up--2026-10-04-2302-et).
 

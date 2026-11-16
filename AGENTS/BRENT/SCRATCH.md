@@ -1,69 +1,72 @@
-# BRENT SCRATCH — November 14 (live session for PROME prome-fe, 11:25–11:37 EST Saturday; closed on PROME's ask, from `date`)
-
-> **INTERIM 2026-11-16 16:2x EST (live session for prome-6f, held open, closeout NOT yet run; this banner is not the closeout rewrite):** NEXT SESSION #1 is DONE: COT #14 graded JOINT NOT-SPENT, 8th consecutive, 122,378 / 6.3823% (`research/2026-11-16_cot14/NOTE.md`). #2 BRT-33 is DONE for 11/16: +4.5200, valid 6 of 7 (`research/2026-11-16_brt33/NOTE.md`). TSA 11/13–11/15 NOT pulled this session. Inbox drained, 6 rows = 6 moves. PortWatch now needs a token: C35 rows UNREADABLE-AT-SOURCE (NEXUS_BRIEF). Next COT #15 is Fri 11/20 ~15:30 ET.
+# BRENT SCRATCH — November 16 (live session for PROME prome-6f, 16:19–16:3x EST Monday; closed on PROME's ask, from `date`)
 
 ## CHANGES SINCE LAST SESSION
-- IEA November OMR published 11/13: "back in surplus" headlines (WALTER SIG-W-20261114-004).
-- FAA nationwide ground stop Fri 11/13, 15:54 to about 20:15 EST: 9,132 cancelled Friday, 4,000+ Saturday (SIG-W-20261114-001).
-- Trump–Putin–Xi trilateral announced for APEC Shenzhen; Xi bilateral Thu 11/19 (SIG-W-20261114-003).
-- Dated Brent (FRED) had already fallen to 91.84 on 11/4 and sat under BZF27 through 11/11; the prints posted after my 11/11 pull.
+- **Oil fell.** BZF27's [14:28,14:30) ET window VWAP was 92.4300 on 11/16, against 95.7853 on 11/13. Brent continuous was $92.16 (−3.84%) at 16:23 ET [vendor, contract UNKNOWN, not a settle]. Reuters' headline (unread) credits recovering Middle East exports and a surplus outlook.
+- **Bahrain and Bab el-Mandeb (FALCON verified).** Iranian drone attempts on US radar sites in Bahrain on 11/13 and 11/15 were both intercepted, with no damage. The Houthis hold the Bab el-Mandeb shore after a government pullback on 11/15. FALCON's gate did not fire: its lowest traffic reading was 72.5%, against a 65% line.
+- **Russia-Ukraine refinery campaign continues.** OSPREY rowed Omsk (11/11) and Volgograd (11/13). Nizhnekamsk was hit 11/15. Bloomberg titled "Russian Diesel Exports Drop" again on 11/16. Ships were hit near a Romanian Black Sea canal.
+- **PortWatch's public ArcGIS feed now requires a token** (error 499).
+- **WQ-696 (Will, today):** a finding sent for a trade assessment must state its implication, horizon, invalidation and unknowns, or say it supports no investment implication.
 
 ## WHAT I DID THIS SESSION
-- **Graded the IEA OMR at five secondaries.** iea.org returns 403 here per WALTER, so I did not attempt it. Write-up: `research/2026-11-14_iea-omr/NOTE.md`.
-  - The Q4 +1.7 mb/d surplus is a **forecast**, matching EIA's +1.47.
-  - October's **observed** build was +52 mb, but it is **at sea**: oil on water rose 86 mb, so land stocks fell about 34 mb (own arithmetic) to the lowest since at least 2016.
-  - OPEC is the outlier on demand (+0.18). IEA spare capacity was NOT FOUND.
-  - Dated Brent was −0.62 under BZF27 on 11/11. My "Dated newest 107.03" lines of 11/8–11/11 are overtaken.
-  - No registered row moves.
-- **Folded in the FAA ground stop.** The upper-bound jet dent is about 0.39 mb, about 0.056 mb/d on the week to 11/13, inside WPSR noise. It is not an oil signal and not BRT-09 evidence.
-  - TSA 11/13 and 11/14 had not posted.
-  - TSA 11/12 = 2,484,345 came from one WebFetch extraction, because this machine gets 403 from tsa.gov.
-- **Drained the inbox.** Five WALTER cards: 004 and 001 acted; 003, 006 and 007 noted. 5 board_log rows = 5 `git mv`.
-- **Combo members logged** on paper-physical-gap, gulf-flow-basis and diesel-buffer. paper-physical-gap now has both what_to_check conditions met; that is logging only.
-- **Delivery:** packet to PROME/inbox, commit 64b6dd7088. PROME verified it at the artifact and re-pulled FRED itself. PROME sent TERRY six facts for a read before Monday's open.
+- **Graded G:GATE-BRENT-COT-35B vintage #14 (as-of 11/10) at the CFTC raw file: JOINT NOT-SPENT, 8th consecutive.**
+  - Shorts 122,378 (−3,276); share 6.3823% (−0.2008 points).
+  - Two pulls matched to the digit. Write-up: `research/2026-11-16_cot14/NOTE.md`.
+  - PROME set review_by to 11/20, and sent the grade and my WQ-696 line to TERRY at 16:30 ET.
+- **BRT-33 window 11/16: +4.5200, valid 6 of 7**, none under +3.50 (`research/2026-11-16_brt33/NOTE.md`).
+- **Drained the inbox:** 6 items, 6 board_log rows = 6 `git mv`.
+  - Diesel-export headlines and the Omsk/Volgograd rows are logged on combo:diesel-buffer as capacity, not barrels; not met.
+  - Bahrain and Bab are logged on combo:yanbu-bypass.
+  - PortWatch is logged on combo:gulf-flow-basis.
+  - COR-20261116-09 receipted NO-OP.
+- **PortWatch:** no registered BRENT read uses it. The NEXUS C35 Aug 31–Sep 1 rows are now UNREADABLE-AT-SOURCE (NEXUS_BRIEF).
+- **Delivered:** record commit 73b48100a2; PROME packet ec5cdee876, consumed by PROME at the artifact.
 - **Closeout:**
-  - STATUS rotated: 6 verbatim sets to `archive/STATUS_dated_2026-11-14_rotation.md`, now 70% of budget.
-  - TRADE rotated: 4 sets to `archive/TRADE_rotation_2026-11-14.md` (WQ-386 discharged record, 7 resolved October receipts, the superseded 10/26 evidence line, the VOID leg-(b) bullet), now 70% of budget. This finished the carried housekeeping.
-  - 5 graded CATALYSTS rows pruned verbatim to `archive/CATALYSTS_pruned_2026-11-14.tsv`.
-  - TRACKER stamped SCOPED-PARTIAL.
-  - Standing rows re-stamped 11/14 after a re-read; none changed.
+  - TRACKER lines 8 and 11 refreshed, stamped SCOPED-PARTIAL.
+  - NEXUS refreshed (MIXED-VINTAGE). The 11/14 as-of line was rotated to `archive/NEXUS_BRIEF_as-of-chain_2026-11-16.md`.
+  - STATUS refresh line updated.
+- **Not done:** TSA 11/13–11/15. The diesel and refining commission (DOCKET line 783) was not touched, by instruction.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Monday 11/16 after 15:30 ET: G:GATE-BRENT-COT-35B, vintage #14.** Run `cot_grade.py --expect 2026-11-10`, cross-check the raw `f_disagg.txt`, and **cite the row key in the commit subject**. A due-row wake at PROME's Monday boot.
-2. **Monday 11/16: BRT-33 window and TSA.**
-   - BRT-33 window after about 14:45 ET: copy `research/2026-11-13_brt33/pull.py` with the date changed. Valid 5 of 6; 8 needed by 11/27, or NO-VERDICT.
-   - TSA 11/13–11/15 should have posted (TSA updates Monday to Friday by 9 a.m.). Record Friday's against the 11/12 figure of 2,484,345; that figure is single-source.
-3. **Every session through Friday 11/27, BRT-33:** same pull. Read the Thanksgiving 11/26–11/27 schedule when near.
-4. **Wednesday 11/18 (modeled; verify at eia.gov):** WPSR week 11/13.
+1. **Every session through Friday 11/27, BRT-33:** copy `research/2026-11-16_brt33/pull.py` with the date changed. Valid 6 of 7; 8 needed by 11/27, or NO-VERDICT. Read the Thanksgiving 11/26–11/27 schedule when near.
+2. **Wednesday 11/18 (modeled; verify at eia.gov):** WPSR week 11/13.
    - BRT-31 week six qualifies if the weekly print is at or under 8,890 kb/d.
    - BRT-34 second print.
-   - Jet product supplied: the ground-stop dent is about 0.056 mb/d, inside noise; record it, do not grade it.
+   - Jet product supplied: the ground-stop dent is about 0.056 mb/d for week 11/13 and about 0.04 for Saturday in week 11/20, both inside noise; record only.
    - Combo reviews: gulf-flow-basis and paper-physical-gap (11/18); yanbu-bypass, diesel-buffer and gulf-access-cost (11/19).
-5. **Before Sunday 11/29 (OPEC+ January letter):** the IEA spare-capacity figure is still missing. Will's browser could read it at iea.org/reports/oil-market-report-november-2026 (Highlights; the table is in the paid report). OPEC's call on OPEC+ is in MOMR Table 11-1 (Will's 11/11 PDF). The spare read stays CONTESTED: EIA 0.01 against Saudi-implied 1.2–1.3.
-6. **Thursday 11/19:** after the Trump–Xi bilateral and the trilateral, check for any Hormuz or Iran-export statement (SIG-W-20261114-003). Record only.
-7. **Monday 12/14:** OPEC December MOMR; ask Will for the PDF. **Friday 12/11:** IEA December OMR.
-8. **Any session:** a Saudi statement of a pumping-station, line or Yanbu loading outage → BRT-32 read, an INCIDENTS row (primary-verified) and a TERRY packet the same session. A laden-tanker loss with the cargo confirmed → BG-02 report, flag, stop.
-9. **Housekeeping:**
-   - USO/observations.tsv: freeze or refresh.
-   - The 11/13 Northeast heating-oil reserve row in CATALYSTS is still unresolved.
-   - INCIDENTS: 7 ACTIVE rows are past the 60-day re-verify budget (boot flag).
+3. **Friday 11/20:**
+   - After 15:30 ET: COT #15 (as-of 11/17). Run `cot_grade.py --expect 2026-11-17`, cross-check the raw file with a browser User-Agent (default curl gets 403), and cite the row key in the commit subject.
+   - Same day: the diesel and refining commission, DOCKET line 783.
+4. **Any session:** TSA 11/13–11/15 against the single-source 11/12 figure of 2,484,345. This machine gets 403 from tsa.gov.
+5. **Thursday 11/19:** after the Trump–Xi bilateral and the trilateral, check for any Hormuz or Iran-export statement. Record only.
+6. **Before Sunday 11/29 (OPEC+ January letter):** the IEA spare-capacity figure is still missing. Will's browser can read iea.org; OPEC's MOMR Table 11-1 is in Will's 11/11 PDF. The spare read stays CONTESTED: EIA 0.01 against Saudi-implied 1.2–1.3.
+7. **Monday 11/30:** COT #16 (Thanksgiving delay; re-verify at the CFTC schedule).
+8. **IEA December OMR Friday 12/11; OPEC MOMR Monday 12/14** (ask Will for the PDF).
+9. **Any session:**
+   - A Saudi statement of a pumping-station, line or Yanbu loading outage → BRT-32 read, an INCIDENTS row (primary-verified) and a TERRY packet the same session.
+   - A laden-tanker loss with the cargo confirmed → BG-02 report, flag, stop.
+   - A Houthi act at Bab against shipping → yanbu-bypass review.
+10. **Housekeeping (carried):**
+    - USO/observations.tsv: freeze or refresh.
+    - The 11/13 Northeast heating-oil reserve CATALYSTS row is unresolved.
+    - 7 INCIDENTS ACTIVE rows are past the 60-day re-verify budget.
+    - The morning routine flagged a DXY basis break (futures page 404, spot used); re-source DXZ6 or re-base.
 
 ## OPEN THREADS / WATCHES
-- 🟠 **Paper-physical gap.** Both conditions are now met. The balance surplus is real but sits at sea, and Dated is under the futures. What remains is location, not existence; the 11/18 review should say whether to close the theme.
-- 🟠 **Spare capacity before 11/29:** CONTESTED; the IEA figure is missing.
-- 🟠 **Yanbu bypass:** three claims or hits in four days, nothing confirmed. Neither BRENT nor FALCON reads Yanbu loadings directly.
+- 🟠 **COT Leg A is 4,052 above the NOT-SPENT floor** and has fallen four weeks running. A fall of 4,053 or more gives NO-VERDICT, which carries the same consequence. SPENT needs shorts at or under about 94,128 at the current OI (Leg B gating).
+- 🟠 **Bab el-Mandeb shore under Houthi control.** This is a risk to Yanbu's Asia-bound exit, not a closure.
+- 🟠 **Paper-physical gap.** Both conditions are met; the 11/18 review should say whether to close the theme.
+- 🟠 **Spare capacity before 11/29:** CONTESTED.
 - 🟠 **BRT-31 end states left:** MET, NO-VERDICT, NOT-FIRED-PRECONDITION or CONTAMINATED.
-- 🟡 The dashboard re-pin and the L925 `fetch.py` roots are PROME's.
+- 🟡 **PortWatch token:** whether to obtain one is noted by PROME for Will. I don't recommend it for C35 alone.
 
 ## POSITION DECISIONS PENDING
-- None from BRENT. Positions are TRADE's and Will's; no reminders (USER.md).
-- PROME sent TERRY the IEA facts for a read before Monday's open. FORGE D-98 elapsed-expiry rows are Will's and PROME's.
+- None from BRENT. Positions are TRADE's and Will's; no reminders (USER.md). TERRY holds the #14 grade.
 
 ## MAIL STATE
-- Inbox: clear in both lanes (5 consumed 11/14; 5 rows = 5 moves).
-- Outbox: no undelivered BRENT packets. The 11/14 PROME packet was consumed and verified by PROME.
+- Inbox: clear in both lanes (6 consumed 11/16; 6 rows = 6 moves).
+- Outbox: no BRENT packets outstanding. The 11/16 PROME packet was consumed by PROME at the artifact.
 
 ## WORKBOOK HEALTH
-- COT_VINTAGES.tsv: refreshes at the #14 grade on 11/16.
-- LESSONS_INDEX.tsv: +35 days, no lesson change owed.
+- COT_VINTAGES.tsv refreshed 11/16 (#14).
+- LESSONS_INDEX.tsv +36 days, no lesson change owed. USO observations and INCIDENTS are stale (boot flag).
 - No background process of mine is running.
