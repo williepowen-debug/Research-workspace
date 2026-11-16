@@ -78,6 +78,7 @@ Read at eCFR (versioner API, 2026-11-01 point in time): 12 CFR 6.3, 6.4(b)(3), 6
 > - 10/30 holds only if no later exam report or written OCC notice exists.
 > - "No waiver exists" is true today. Since the 2023 order a waiver was needed to roll any brokered deposit. Whether one existed is UNKNOWN; on the Call Report evidence it is the more probable reading (INFERRED, § A2).
 > - The "$147.0M" Q3 brokered fall excludes any above-cap reciprocal deposits, so it is a lower bound on funding under the bar.
+> - "$510.5M of brokered deposits maturing within a year" is mislabelled. That item (RCONHK06) also holds all brokered demand and savings balances, so brokered CDs maturing within a year are at most about $363.0M (DEWEY `628e4191a7`; sweep split INFERRED). Relabelled in the deeper read at `670bbd9468`.
 
 ## 4. CYPHER asks (P1 11/12, P2 11/13): consequence for my regional cohort
 
