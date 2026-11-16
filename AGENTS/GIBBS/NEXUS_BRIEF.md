@@ -1,9 +1,9 @@
 # GIBBS — NEXUS Brief
 
-**Status:** 🟡 Large banks: all 16 10-Qs keep the read; deposit-cost repricing shared at 13 of 15, CRE mostly recognition, stress at PNC office and possibly Goldman CRE; Goldman's $368M still unattributed; a December hike is small and mixed for NII on the firms' own tables; no cyber consequence observed
+**Status:** 🟡 Large banks: Q3 read unchanged (deposit repricing shared, CRE mostly recognition, stress at PNC office and possibly Goldman CRE, Goldman's $368M unattributed); desk premise test (R0) 11/16 found 0 judgments moved at REGINALD or BROCK, dormancy recommended to Will via PROME; 9/30 re-cut puts HBAN over the $250B Category III line (DERIVED)
 **Domain:** 16 US Category I-III banks as REGINALD's comparison group (Q1 industry-wide vs regional-only) and large-lender NDFI transmission (Q2, one figure with BROCK); large-bank consequence of CYPHER's cyber events
-**Recent thesis pivot:** no pivot; 11/11 hiking-Fed read: +100bp NII at 9/30 JPM +$1.4B, WFC +$1.5B, BAC +$1.4B, C +$1.409B, AXP -$210M, BNY -$44M, COF -0.1%, PNC about -0.4% (KB-GIB-055); 10Y 5.29% at 9/30 vs 4.98% at 11/10, so AOCI drag has eased since Q3 (KB-GIB-056)
-**As of:** 2026-11-11 10:29 ET | STATUS commit: `2c5d788a4e`
+**Recent thesis pivot:** no analytical pivot; desk-level: R0 0 cites (KB-GIB-067) → dormancy recommendation pending Will. Re-cut 11/16 on the rule's basis (quarterly average assets, 12 CFR 252.2): HBAN about $260-264B over $250B, USB about $691-694B under $700B, FITB Category III (KB-GIB-065)
+**As of:** 2026-11-16 13:05 ET | STATUS commit: `20c7c2a648`
 
 ---
 
@@ -21,7 +21,7 @@
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| REGINALD | Whether its cohort criticized line carries a Q3 direction | open, no date | Needed to tag the large-bank criticized rows | Tags only; otherwise NOT-YET-DETERMINABLE |
+| REGINALD | HBAN named hand-off condition now that HBAN reads over $250B (packet 2026-11-16); its criticized-line question was answered NO 11/11 (32a42bff7d), so those tags stay NOT-YET-DETERMINABLE | no date | Perimeter boundary | HBAN moves only by a named hand-off in both desks' files |
 | CYPHER | Named-victim rows 1/3; Kiteworks victim check; Arkéa and vendor re-checks | 11/06 · 11/09 · 11/12 · R1 flip 11/20 | Turns NOT OBSERVED into a graded consequence | A named perimeter-firm victim or an 8-K Item 1.05 at one of the 16 |
 
 ---
@@ -49,9 +49,9 @@
 
 ## NEXT DECISION POINT
 
-- **What:** Quarterly perimeter re-cut (HBAN, FITB, USB category moves), then the post-Q3 consumption review.
-- **When:** 2026-11-14 and 2026-11-15.
-- **What would falsify the trigger:** a category source not yet published at 11/14 (FR Y-9C via FFIEC NIC is blocked to automation).
+- **What:** Will's ruling on the R0 dormancy recommendation (via PROME); the HBAN named hand-off condition with REGINALD.
+- **When:** at Will's next PROME sitting; no date set by GIBBS.
+- **What would falsify the trigger:** Will keeps the desk into Q4, in which case the Q4 prints (mid-January) are the next read.
 
 ---
 
@@ -59,7 +59,6 @@
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 2026-11-14 | FR Y-9C window + perimeter re-cut | Category moves (HBAN, FITB, USB vs $700B) |
-| 2026-11-15 | R0 post-Q3 consumption review | Did REGINALD or BROCK change a judgment on a GIBBS read |
-| 2026-11-16 | Interagency third-party risk guidance comments close (D:L798, with REGINALD) | Read comments from the 16 or their trade groups on core-vendor dependence and agentic-AI access |
 | 2026-11-20 | CYPHER R1 flip date | KB-GIB-025 re-dated on a named victim or none |
+| 2026-11-23 | Vendor-guidance comment file after the 11/16 close (D:L798) | BPI/ABA substantive letters; any letter by one of the 16 (log only) |
+| 2027-01-13 | Q4 print cluster (CONDITIONAL on the R0 ruling) | Four-item read, tagged against REGINALD |
