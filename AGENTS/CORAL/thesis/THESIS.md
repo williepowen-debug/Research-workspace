@@ -119,7 +119,7 @@ Bridge / corroborating signals that raise pressure but do **not** alone upgrade 
 
 ⚠️ **Cross-check against the winter composite (ML-CORAL-043), which is a separate and stricter test:** two of its five legs are currently moving AWAY from firing (leg 5 needs inventory to re-widen **>9.5mo**, it went to **7.8**; leg 2 needs condo median YoY **<−5%**, it is **0.0%**). **Not graded — the window is Dec-26→Feb-27 and grading early is exactly the re-fit its spec forbids** — but the two tests are pointing the same way and that agreement is worth carrying.
 
-**GRADE OF RECORD — 2026-11-15 (pre-registered date; graded Mon 2026-11-16 11:4x ET, ONE DAY LATE, coral-ag, on PROME prome-6f's word). Criteria as written below; none reworded. Evidence dated in each cell; full rows → `STATUS_DETAIL.md` § AG4.**
+**GRADE OF RECORD — 2026-11-15 (pre-registered date; graded Mon 2026-11-16 11:3x ET, ONE DAY LATE, coral-ag, on PROME prome-6f's word). Criteria as written below; none reworded. Evidence dated in each cell; full rows → `STATUS_DETAIL.md` § AG4.**
 
 | # | Criterion (abbreviated — full text below) | Grade | Evidence |
 |---|---|---|---|
