@@ -137,12 +137,13 @@ How to read Table 2:
 - On DEWEY's reading, which is not a ruling: zero brokered reciprocal while balances sat above $626.9M is consistent with (B), a waiver. The alternatives are misreporting, a different trigger quarter, or a reading of (C) I have missed.
 - **Directional consequence if the bank should have reported all reciprocal as brokered:** its true brokered total would have been up to $739M higher at 9/30/2026, and the reciprocal balance would face the same no-roll bar.
 
-**REGINALD's rule reading, received by message at 11:15 ET.** This is RELAYED. DEWEY has not checked it against REGINALD's committed report, which is still pending. Cite it as "REGINALD 11/16 rule reading, INFERRED".
+**REGINALD's rule reading** (received by message at 11:15 ET). It is now committed at dc53393902, `AGENTS/REGINALD/reports/2026-11-16_UFB-and-FHLB-deeper-read.md` § A2. DEWEY checked the points below against that file at 11:23 ET. Cite it as "REGINALD 11/16 rule reading, INFERRED".
 - **Leading reading:** a waiver is the most probable explanation. It is inferred, not verified.
 - **Later trigger quarter:** if the trigger is Q1 2024, the cap becomes $727.85M. Reciprocal deposits were still above that cap at 10 of the 11 quarter-ends from 3/2024 to 9/2026; the exception is 12/2025. An earlier trigger lowers the cap.
 - **Narrow reading of "receive":** the current 337.6(e)(4) counts growth inside an existing non-maturity reciprocal account as not "received". That paragraph was added by a 2026 amendment, so it supports this reading only from 2026. For 2024 and 2025 the reading is arguable.
 - **Misreporting:** this alternative would also mean a 337.6(b)(2) breach.
 - **One waiver covers both:** a single 337.6(c) waiver would cover the brokered CDs and the reciprocal exception. That makes the 2024 rollover evidence and the reciprocal reporting two independent signs pointing the same way.
+- **No public record either way:** under 12 CFR 303.243(a) a waiver is a letter application, the decision goes only to the bank, nothing is published, and a waiver runs "for a fixed period, generally no longer than two years". A waiver granted in early 2024 would therefore have needed renewal around 2026; whether it was renewed is UNKNOWN.
 - **If a waiver existed:** it stopped working on the 10/30/2026 deemed-notice date. The bar would then reach the $1,006.5M of brokered deposits plus any reciprocal deposits above the cap ($739.1M at 9/30, against a cap of $626.9M or $727.85M).
 
 ## 4. What replaced the brokered funding (VERIFIED cells; composition INFERRED)
