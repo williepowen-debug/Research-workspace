@@ -1,6 +1,6 @@
 # WILL_QUEUE.md — the operator's open-items ledger
 **Owner:** PROME (registers, updates, retires rows; reconciles at every boot/closeout) · **Will edits freely** — anything marked/struck here is reconciled at PROME's next touch.
-**Decision Deck PAUSED by Will, 2026-10-19 (WQ-460):** decisions continue here and in the PROME conversation. Deck-specific upkeep is suspended until Will resumes it; the existing hosted page is not current. Scope and direct instruction: `PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md`.
+**Decision Deck RETIRED by Will, 2026-11-16 (WQ-693; paused 2026-10-19 under WQ-460):** decisions continue here, in the PROME conversation and in the Decisions app. The hosted page is not current and is not maintained; a return is a rebuild on Will's word. Record: `PROME/proposals/2026-11-16_wq693-694-697-RULED.md`.
 **Latest broker reconciliation 2026-10-11:** WQ347/397 CLOSED from supplied Activity; WQ396 corrected to SOLD CLOSE+$0.99, prior tap retained as history.18Fidelity rows tie$33,284.88; quote time UNKNOWN. Below pickup/reconciliation paragraphs are dated history. Source: `PROME/data/2026-10-11_broker-capture-TRANSCRIPTION.md`.
 **Queue reconciliation September 9:** WQ151/159/162/164 and WQ196–199 moved out of OPEN on recorded rulings; evidence and original rows → PROME/reports/2026-09-09_dashboard-attention.md. Pending owner delivery is separate from a new approval.
 

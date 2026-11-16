@@ -4,7 +4,7 @@
 **Created:** 2026-05-18 · **Updated:** 2026-11-04 (L910 hot/cold rotation; detailed audit, generation, gate, delivery and publication procedures moved verbatim to `PROME/CLOSEOUT_PROCEDURES.md`; no rule changed). Prior stamps → `PROME/archive/CLOSEOUT_STAMP_CHAIN_2026-10-16.md`; amendment history → Git.
 **Gate-instruction reconciliation:** 2026-10-25 — end-of-day ARGUS found the pre-WQ-517 step-10 instruction still live in step 8 and both closeout runners. Aligned to the already-approved October 24 rule; no code or policy change.
 **Owner:** Prome
-**Current amendment — 2026-10-19, WQ-460:** Decision Deck upkeep is PAUSED BY WILL until explicit resume and reconciliation. This supersedes WQ-446 and WQ-382(a) Deck duties during the pause, including at a spine audit. Helm routine generation, publication and presentation upkeep are now RETIRED by WQ-461; authority: `PROME/proposals/2026-10-19_wq461-helm-retired-RULED.md`. Authority and implementation record: `PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md`.
+**Current amendment — 2026-11-16, WQ-693:** the Decision Deck is RETIRED (paused 2026-10-19 under WQ-460; retired by Will 2026-11-16, record `PROME/proposals/2026-11-16_wq693-694-697-RULED.md`). This supersedes WQ-446 and WQ-382(a) Deck duties, including at a spine audit. Helm routine generation, publication and presentation upkeep are now RETIRED by WQ-461; authority: `PROME/proposals/2026-10-19_wq461-helm-retired-RULED.md`. Authority and implementation record: `PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md`.
 **Commit-pipeline approval/review:** `PROME/plans/2026-09-09_boot-hardening.md` (on-demand).
 **Purpose:** Repeatable session-end procedure. Run before `/clear`, `/new`, or session handoff.
 
@@ -44,8 +44,8 @@ Before `/clear` or `/new` · before stepping away from a long session · after a
 | **Standard** *(default)* | End-of-thread / end-of-day | § The routine, steps 1–12 (+ auto-memory if earned) + auto-push. **ARGUS only at the day's LAST Standard/Heavy closeout (WQ-485 A); an intra-day Standard freezes and defers the audit, gate `--tier light`** | Yes |
 | **Heavy** | Pattern-discovery session | Standard + design docs + the FULL residual-trigger sweep (`CLOSEOUT_PROCEDURES.md` § Chunk 3) | Yes |
 
-End-of-day runs at least Standard. **Decision Deck Owed and Reference are PAUSED BY WILL (WQ-460), at every tier.** THE HELM is RETIRED (WQ-461), including its spine-audit publication trigger. No routine dashboard publication is owed. Chunk 3 triggers apply at ANY tier. **Bounce:** bring SCRATCH § Next and § This session current (pending, next entry point; what happened goes to the daily note); optional wrapper checkpoint from repo root with message-file subject `PROME: bounce checkpoint` and exact path `PROME/SCRATCH.md`.
-5. **Publication prerequisites (only for a separately requested active deliverable — checked HERE, never at the render; § Delivery):** Helm is RETIRED (WQ-461); Deck is PAUSED BY WILL (WQ-460). Do not maintain dashboard explainers, view/list hosted dashboard files, or prepare dashboard publication. If Will separately requests another deliverable, establish its applicable publication prerequisites now; an unmet active prerequisite is reported and resolved before delivery.
+End-of-day runs at least Standard. **Decision Deck Owed and Reference are RETIRED (WQ-693), at every tier.** THE HELM is RETIRED (WQ-461), including its spine-audit publication trigger. No routine dashboard publication is owed. Chunk 3 triggers apply at ANY tier. **Bounce:** bring SCRATCH § Next and § This session current (pending, next entry point; what happened goes to the daily note); optional wrapper checkpoint from repo root with message-file subject `PROME: bounce checkpoint` and exact path `PROME/SCRATCH.md`.
+5. **Publication prerequisites (only for a separately requested active deliverable — checked HERE, never at the render; § Delivery):** Helm is RETIRED (WQ-461); Deck is RETIRED (WQ-693). Do not maintain dashboard explainers, view/list hosted dashboard files, or prepare dashboard publication. If Will separately requests another deliverable, establish its applicable publication prerequisites now; an unmet active prerequisite is reported and resolved before delivery.
 
 ---
 
@@ -71,7 +71,7 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
 | `HEARTBEAT.md` | regime read; update on a regime-level change or >48h stale in a market week — **answer no-op explicitly, at every tier** | mirroring its base date elsewhere |
 | `memory/auto/` | durable lessons only; index row in `MEMORY.md`; **self-commit mandatory** (root carve-out ③) | activity recaps |
 | **WQ LEDGER** (`PROME/registry/WQ_LEDGER.tsv` + `.crc`) | generated — `wq_ledger.py sync` then `check`, after the WILL_QUEUE write | ⛔ hand-editing; it is sealed and append-only |
-| **THE HELM** · **DECISION DECK** | Helm generation, supporting `docket.html`, BRIEF/HANDBOOK presentation upkeep, change-feed advancement and publication are RETIRED (WQ-461). Deck is PAUSED BY WILL (WQ-460). Preserve history and shared libraries; maintain canonical records in their own rows above | regenerating retired/paused surfaces; presenting old HTML or feed history as current |
+| **THE HELM** · **DECISION DECK** | Helm generation, supporting `docket.html`, BRIEF/HANDBOOK presentation upkeep, change-feed advancement and publication are RETIRED (WQ-461). Deck is RETIRED (WQ-693). Preserve history and shared libraries; maintain canonical records in their own rows above | regenerating retired surfaces; presenting old HTML or feed history as current |
 
 **Generated blocks are written by their generator, never by hand:** the calendar view `PROME/state/CALENDAR.md`'s `DOCKET-VIEW` (`scripts/docket_view.py --write`; moved out of SCRATCH 2026-10-20, Will) and SCRATCH's `Pending Will` (`PROME/tools/willq_view.py --write`), the WQ ledger. **Preserve them; stop restating their contents in prose.**
 
@@ -96,7 +96,7 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
    Concurrent closeouts follow `PROME/tools/ARGUS_CONTRACT.md`. Immediately pre-freeze: `python3 PROME/tools/inbox_census.py PROME`; freeze: `python3 PROME/tools/argus_scope.py --record-review --contract /tmp/prome-delivery-plan.json`; audit, then `python3 PROME/tools/argus_scope.py --mark-reviewed "<one line>"`. Full procedure → `PROME/CLOSEOUT_PROCEDURES.md` § Audit contract details.
    Legacy manifest rules → `PROME/CLOSEOUT_PROCEDURES.md` § Audit contract details.
    Live-fleet and pinned-perimeter rules → `PROME/CLOSEOUT_PROCEDURES.md` § Audit contract details.
-   ⛔ **Freezing is NOT reviewing.** `--record-review` writes verdict `FROZEN`; only `--mark-reviewed` writes `REVIEWED`, and it refuses if the candidate moved in between. ⛔ **A ❌ fix in the WQ-583 classes above (approval or ruling, position or book, obligation, completion state, research conclusion) ⇒ re-review that changed portion, regenerate affected active outputs under step 7 (never retired Helm or paused Deck), `--record-review` again, and re-mark; every other ❌ fix is disclosed in memory as unreviewed and the review is marked (WQ-485 A, 2026-10-22).**
+   ⛔ **Freezing is NOT reviewing.** `--record-review` writes verdict `FROZEN`; only `--mark-reviewed` writes `REVIEWED`, and it refuses if the candidate moved in between. ⛔ **A ❌ fix in the WQ-583 classes above (approval or ruling, position or book, obligation, completion state, research conclusion) ⇒ re-review that changed portion, regenerate affected active outputs under step 7 (never retired Helm or retired Deck), `--record-review` again, and re-mark; every other ❌ fix is disclosed in memory as unreviewed and the review is marked (WQ-485 A, 2026-10-22).**
 9. **FINAL gate, with the tier:**
    `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/prome_gate.py closeout --tier <bounce|light|standard|heavy> (--no-memory | --slug <name> …) (--no-superseded | --superseded <old> <new> …)`
    Tier and return-code handling → `PROME/CLOSEOUT_PROCEDURES.md` § Final gate rules.
@@ -111,24 +111,24 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
     ⛔ **`--push` on the commit wrapper is forbidden at this step.** It pushes inside the same command, so the delivery check would run *after* the bytes were already on origin — detecting an unreviewed delivery once it has shipped is not a control.
     Candidate-delivery rules; intra-day path: `commit_check.py commit --stage -F <msgfile> -- <exact paths>` → `PROME/CLOSEOUT_PROCEDURES.md` § Delivery verification details.
     **Push receipt, verbatim:** `Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch).` A bare `Pushed.` is not a receipt.
-11. **Publish the verified artifacts** only after verified delivery. **Unmet owed publication for a separately requested active deliverable is reported, never waived.** Helm RETIRED; Deck PAUSED. Full rule → `PROME/CLOSEOUT_PROCEDURES.md` § Publication rule.
+11. **Publish the verified artifacts** only after verified delivery. **Unmet owed publication for a separately requested active deliverable is reported, never waived.** Helm RETIRED; Deck RETIRED. Full rule → `PROME/CLOSEOUT_PROCEDURES.md` § Publication rule.
 12. **ARGUS baseline, AFTER successful verified delivery of an AUDITED closeout only:** ⛔ an intra-day closeout that deferred its audit (WQ-485) records NO baseline, because the end-of-day audit covers the whole day's delivered set since the recorded baseline. `python3 PROME/tools/argus_scope.py --record-baseline <DELIVERY_SHA>` (the reviewed commit, not a moving HEAD); it rides the next commit with any `--carry` edits. ⛔ **The baseline record and the review receipt are never part of a reviewed candidate** — they are bookkeeping *about* a review, they change after the commit, and including them would make the next closeout inherit a guaranteed failure.
 
 ---
 
 ## Delivery — say which of the three was reached
 
-⛔ **COMMITTED, PUSHED and PUBLISHED are three different states and the report names them separately.** An owed delivery state not reached makes the closeout **PARTIAL**, with the **concrete blocker** — never a silent waiver because publication became inconvenient. Report **Deck: PAUSED BY WILL (WQ-460)** separately; the authorized pause alone is not PARTIAL and is never PUBLISHED or a current NO-OP. Report **Helm: RETIRED (WQ-461)**; this retirement likewise is not PARTIAL or PUBLISHED. No routine dashboard publication remains owed.
+⛔ **COMMITTED, PUSHED and PUBLISHED are three different states and the report names them separately.** An owed delivery state not reached makes the closeout **PARTIAL**, with the **concrete blocker** — never a silent waiver because publication became inconvenient. Report **Deck: RETIRED (WQ-693)** separately; the retirement alone is not PARTIAL and is never PUBLISHED or a current NO-OP. Report **Helm: RETIRED (WQ-461)**; this retirement likewise is not PARTIAL or PUBLISHED. No routine dashboard publication remains owed.
 
 | State | Established by |
 |---|---|
 | **COMMITTED** | `commit_check` intent↔commit match, exact paths |
 | **PUSHED** | the verbatim receipt above |
-| **PUBLISHED** | an active artifact republished at its own URL; when no active publication is owed, report NOT REQUIRED; report Deck separately as PAUSED BY WILL (WQ-460) and Helm as RETIRED (WQ-461) |
+| **PUBLISHED** | an active artifact republished at its own URL; when no active publication is owed, report NOT REQUIRED; report Deck separately as RETIRED (WQ-693) and Helm as RETIRED (WQ-461) |
 
 Publication prerequisites and active-deliverable restrictions: see Pre-closeout item 5. Discovering an unmet prerequisite only at step 11 remains a process defect.
 
-**Session summary to Will:** apply `PROME/BOOT.md` step 8 **Research-first briefing**. **Required operational accounting:** what landed (commit hashes belong HERE, never in state files — they decay) · the three delivery states · **"Done without asking": each C1–C13 act of the session with its commit, or the word none (WQ-348 guard, `PROME/CLAUDE.md` § Ask First)** · **RETIRED: Helm under WQ-461; PAUSED BY WILL: Deck under WQ-460 (neither is a skipped control)** · **SKIPPED: any active routine step not run, or run by reasoning instead of by the instrument, with its reason — and then the headline is PARTIAL whatever the three delivery states say (`PROME/CLAUDE.md` § Skipped-control reporting)** · what is owed at next boot · open `PROME/WILL_QUEUE.md` rows by number.
+**Session summary to Will:** apply `PROME/BOOT.md` step 8 **Research-first briefing**. **Required operational accounting:** what landed (commit hashes belong HERE, never in state files — they decay) · the three delivery states · **"Done without asking": each C1–C13 act of the session with its commit, or the word none (WQ-348 guard, `PROME/CLAUDE.md` § Ask First)** · **RETIRED: Helm under WQ-461 and Deck under WQ-693 (neither is a skipped control)** · **SKIPPED: any active routine step not run, or run by reasoning instead of by the instrument, with its reason — and then the headline is PARTIAL whatever the three delivery states say (`PROME/CLAUDE.md` § Skipped-control reporting)** · what is owed at next boot · open `PROME/WILL_QUEUE.md` rows by number.
 
 ---
 
