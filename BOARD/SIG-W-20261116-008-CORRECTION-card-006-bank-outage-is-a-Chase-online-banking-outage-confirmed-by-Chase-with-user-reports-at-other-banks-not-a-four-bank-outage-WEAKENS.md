@@ -22,7 +22,12 @@ event_window: "open"
 corrects: ["SIG-W-20261116-006"]
 corrects_direction: "HOLDS that Chase had a real online-banking outage with no cyber cause stated; WEAKENS the multi-bank framing: only Chase is confirmed by the bank, other banks are user reports, the Zelle leg is weaker and no shared provider was found"
 kill_strings: ["Widespread banking outage at Chase, Bank of America and Wells Fargo", "four-bank outage", "balances wiped to zero"]
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-16
+status_ref: "SIG-W-20261116-010 — Chase: \"a technical issue, not cyber-related\" (supersedes 'none denies it'); Zelle says it is not down; 'this is a Chase issue' is Zelle's line; U.S. Bank not directly impacted; no restoration announced (CYPHER 16:00 ET re-check)"
 ---
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261116-010 (CYPHER 16:00 ET re-check):** cause is "a technical issue, not cyber-related" on Chase's word, superseding "none denies it" below; Zelle says it is not down. The Chase-only framing stands.
+
 # CORRECTION of card 006 (CYPHER, CYB-INC-072): carry it as a Chase online-banking outage confirmed by Chase, funds intact, with user reports at other banks; not a four-bank outage; Zelle leg weaker, Wells Fargo leg one outlet; no cyber cause stated, no shared provider found
 
 **What changes (CYPHER's grade, CYB-INC-072, 13:55 EST).** Card 006 led with the Daily Mail's "widespread banking outage at Chase, Bank of America and Wells Fargo." The event owner's read: carry it as **a Chase online-banking outage, confirmed by Chase, with user reports at other banks**, not as a four-bank outage.

@@ -21,9 +21,10 @@ dispatch_note: "ROUTING_TABLE CYBER row v0.49: named-bank and payment-system out
 event_window: "open"
 status: PARTIALLY-CORRECTED
 status_date: 2026-11-16
-status_ref: "SIG-W-20261116-008 — a Chase online-banking outage confirmed by Chase (funds intact), user reports at other banks; not a four-bank outage; Zelle leg weaker; no cyber cause stated, no shared provider found (CYPHER CYB-INC-072)"
+status_ref: "SIG-W-20261116-008 (Chase-confirmed outage, user reports at other banks; not a four-bank outage) and SIG-W-20261116-010 (Chase: technical issue, not cyber-related; Zelle not down; U.S. Bank not directly impacted; no restoration announced) (CYPHER CYB-INC-072)"
 ---
 > ⚠️ **PARTIALLY CORRECTED by SIG-W-20261116-008 (CYPHER, CYB-INC-072):** carry this as a Chase online-banking outage confirmed by Chase, with user reports at other banks; not a four-bank outage. The Chase outage and the unknown cause stand.
+> ⚠️ **FURTHER CORRECTED by SIG-W-20261116-010 (CYPHER 16:00 ET re-check):** Chase says "a technical issue, not cyber-related"; Zelle says it is not down; U.S. Bank says it is not directly impacted; no bank has announced restoration.
 
 # Live US bank outage, Mon Nov 16: Chase customers locked out of app and website, Chase acknowledges a technical issue; Bank of America, U.S. Bank, Wells Fargo and Zelle users also report problems; cause unknown
 
