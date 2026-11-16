@@ -1,30 +1,36 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-16T18:48:28Z",
-  "items": 2,
+  "checked_at": "2026-11-16T22:31:30Z",
+  "items": 3,
   "scan": {
-    "checked_at": "2026-11-16T18:47:23Z",
-    "head_checked_at": "2026-11-16T18:47:23Z",
+    "checked_at": "2026-11-16T22:30:29Z",
+    "head_checked_at": "2026-11-16T22:30:29Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 2
+    "attempts": 3
   },
   "review_recorded": true,
   "read_counts": {
-    "partly_read": 1,
-    "fully_read": 1
+    "fully_read": 1,
+    "partly_read": 2
   },
   "dispositions": {
-    "DISPATCH": 2
+    "KILL": 1,
+    "FOLD": 1,
+    "DUP": 1
   },
   "follow_ups": [
     {
-      "id": "2122397406117466145",
-      "ref": "BOARD/SIG-W-20261116-006-Live-US-bank-login-outage-Chase-acknowledges-technical-issue-Bank-of-America-US-Bank-Wells-Fargo-reported-Zelle-cause-unknown.md"
+      "id": "2122401313887805592",
+      "ref": "BOARD/SIG-W-20261116-012-Small-items-Nov-16-evening-Altman-says-chipmakers-assume-OpenAI-buys-all-their-chips-Semafor-unverified-at-source-repeats-double-counted-theme-McLean-Nvidia-quote-unfound-bank-outage-relay-dup.md"
     },
     {
-      "id": "2122358893011677201",
-      "ref": "BOARD/SIG-W-20261116-007-Will-bookmark-NYT-US-life-insurers-held-85.2B-AI-debt-at-June-30-up-24pct-in-six-months-Athene-Corebridge-Moodys-185B-by-end-2027-Barclays-15pct-of-AI-data-center-debt.md"
+      "id": "2122394630465724469",
+      "ref": "BOARD/SIG-W-20261116-012-Small-items-Nov-16-evening-Altman-says-chipmakers-assume-OpenAI-buys-all-their-chips-Semafor-unverified-at-source-repeats-double-counted-theme-McLean-Nvidia-quote-unfound-bank-outage-relay-dup.md"
+    },
+    {
+      "id": "2122401121662886334",
+      "ref": "BOARD/SIG-W-20261116-010-CORRECTION-cards-006-and-008-Chase-says-technical-issue-not-cyber-related-Zelle-says-it-is-not-down-US-Bank-not-directly-impacted-no-restoration-announced-WEAKENS.md"
     }
   ],
   "requests": []

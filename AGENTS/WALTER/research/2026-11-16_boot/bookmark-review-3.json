@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "staged_at": 1794868229.431412,
+ "items": [
+  {
+   "id": "2122401313887805592",
+   "disposition": "KILL",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261116-012-Small-items-Nov-16-evening-Altman-says-chipmakers-assume-OpenAI-buys-all-their-chips-Semafor-unverified-at-source-repeats-double-counted-theme-McLean-Nvidia-quote-unfound-bank-outage-relay-dup.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122394630465724469",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261116-012-Small-items-Nov-16-evening-Altman-says-chipmakers-assume-OpenAI-buys-all-their-chips-Semafor-unverified-at-source-repeats-double-counted-theme-McLean-Nvidia-quote-unfound-bank-outage-relay-dup.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122401121662886334",
+   "disposition": "DUP",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261116-010-CORRECTION-cards-006-and-008-Chase-says-technical-issue-not-cyber-related-Zelle-says-it-is-not-down-US-Bank-not-directly-impacted-no-restoration-announced-WEAKENS.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "e56ee76c86f14ed794f452b485e4aeae"
+}
