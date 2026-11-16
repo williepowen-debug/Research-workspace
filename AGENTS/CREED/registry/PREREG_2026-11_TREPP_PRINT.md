@@ -87,3 +87,19 @@ No band, operator, sustain or confidence edit. **No S-score moved by CREED** (a 
 
 ### RULING ADDENDUM — 2026-11-05 10:32 ET. Terms above unchanged.
 Will in CREED's window, verbatim *"Yes go with your recs"*: **S1 3 → 4, composite 28/45** · **`PRED-CREED-001` graded on CREED's ledger, WQ-304 option B path** (TRUE, MISS, Brier 0.36; Kernel record stays OPEN) · S8a held at 4.
+
+### SS ADDENDUM — graded 2026-11-16 (Mon) ~14:30 ET on the October Special Servicing print. Terms above unchanged.
+**Source:** Trepp *CMBS Special Servicing Report, October 2026*, full public PDF `https://www.trepp.com/hubfs/Trepp%20CMBS%20Special%20Servicing%20Report%20October%202026.pdf` (7 pp, 14,082,304 B, sha256 `a75ea563b0c4ecaa385deb4abc1f1aa5dbab4d66a4549c0b04ab6f7d702391c6`, PDF creation stamp 2026-11-09 12:49 EST). **PRIMARY-READ by CREED**, Table 1 read by `pdftotext -layout` and anchored on Sep 16.85, Aug 16.90, 3MO 16.58 and 6MO 17.66, all matching `VX_HISTORY`. Seven days after creation; CREED was dark until PROME's 13:45 ET wake.
+
+| Item | October print | Grade |
+|---|---|---|
+| `CREED-T-01b` office SS `> 18`, sustain 2 | **16.60** (−25bp) | **NOT FIRED**, 0 of 2, 140bp from the band |
+| `PRED-CREED-013` (contrarian, 40%) | 16.60 < 16.75 | **RESOLVED-TRUE**, wrong side, Brier 0.36 |
+| **F2** (payoff rate up a second month AND SS transfers below September's $2.65B) | transfers **$3.01B** across 46 loans, **up** 14% | **NOT TRIGGERED** on the transfer leg alone (conjunctive; trap 19). The October payoff rate was still not fetched (searched 11/16: no October figure indexed), so that leg stays unread; it cannot rescue the conjunction |
+| DOCKET **L183** leg 2b (office SS − office DQ ≤ 4.5pp ×2 AND office DQ falling in both) | 16.60 − 12.33 = **4.27pp**, first print at or below 4.5 | **Still NOT REVERSED**: October office DQ rose (12.16 → 12.33), so the DQ conjunct fails; 2b cannot reverse by the 11/30 grade |
+
+**What would inform the thesis:** overall SS **11.74% (+25bp), Trepp's highest since December 2012**. Transfers $3.01B vs exits $1.53B (5 loans $315.0M back to the master servicer; 33 loans $1.22B paid off or liquidated). Lodging +122bp to 10.17 (37% of transfers; largest **Project Prime $745.7M, 84 hotels, THPT 2023-THL, imminent monetary default, matures 12/6/26**); MF +69bp to 9.22 (HOMER's row; second-largest transfer **Blackjack $517.7M, BX 2021-21M**, past its fully extended 10/9/26 maturity); office −25bp to 16.60. ⚠️ Office SS falling is not office relief by itself (trap 13): office DQ rose the same month, and the largest office exit, **225 Bush ($350M, San Francisco)**, left by note sale plus deed-in-lieu, a resolution, not a cure (the servicer says the price materially exceeded the 2025 appraisal of $153M; the price itself is not stated). Named office transfers: **2400 Market $205.4M (Philadelphia)** and **Huntington Center $108M (Columbus)**.
+
+**Combination watch (read at this grade, `grep combo: workbook/KB.tsv`):** KB-106, 107, 108, 117, 118 read. Nothing in this print fits a theme. United Fidelity Bank (DEWEY 11/11) logged separately as `KB-CREED-120` under `outside-cohort-lenders`.
+
+**No band, operator, sustain, confidence or S-score moved.** Convergence stays **28/45**. `PRED-CREED-002` (office SS > 18 by 12/31) stays open, with one print left (November, ~mid-December).

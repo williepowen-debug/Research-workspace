@@ -446,3 +446,11 @@ HENRY's `evals/README.md` draws a distinction no other agent states: **a princip
 **Added:** `scripts/absee_office_screen.py`, `scripts/test_absee_office_screen.py` (34 cases), `research/data/2026-10_absee_office_lease_loans.tsv` and `_summary.json`. Manual tool, not a boot step; no VX, no threshold, no route. Filing cache stays outside the repo. Scope page §7 records what the build corrected.
 **Use, Will 2026-11-05 13:08 ET:** descriptive only, no cadence, no predictive study; two-year window kept apart in a new research page and `KB-105`.
 **Rules if it is ever re-run:** classify by the filing's ABS ASSET CLASS header, never by name · dollars add across notes, only counts merge · a blank status is judged on paid-through and fails closed · run `find_duplicate_tapes()` every time · the Los Angeles MSA control means LA plus Orange counties · no tolerance was set for the aggregate control, so state one before the next comparison, not after.
+
+## 2026-11-16 — charter trims (WQ-678 Changelist B), THESIS rotation, who-pays file
+
+- **`CLAUDE.md` 26,616 → ~24,860 B** under DAEDALUS's WQ-678 Changelist B (Will ruled WQ-678 A 11/12; B trims are desk judgment). Applied C59 (dropped "Claude Code" from the status line), C61 ("both checks" → "all three checks"), C62 (struck §Current Stale-State Warning, duplicate of line 5 and boot step 5), C63 (struck §Current Rails, duplicate of boot step 6.6; STATUS obligation 15 now points at step 6.6), C64 (eight Source Archive bullets → one line naming the directory), C65 (courier provenance dropped, rule kept). **Declined C60:** step 6a keeps Will's verbatim words, because they are the authority for the rule. Removed wording is in git history (`git log -p -- AGENTS/CREED/CLAUDE.md`). No numbered step changed.
+- **`thesis/THESIS.md` 24,482 → 22,758 B** (75% → 70% of budget; read-cap rule 5 stop met): 14 dated blocks moved verbatim to `thesis/THESIS_HISTORY_2026-11-16.md`, crc32 each, pointer left in place.
+- **STATUS header** rotated verbatim to `archive/STATUS_ROTATION_2026-11-16.md` §1.
+- **New research file** `research/2026-11-16_WHO_PAYS_TO_EXTEND.md` (PROME examination-list item 3): one line per live case plus four lender/fund credits. Logging only, no cadence; a dated read, not a maintained surface.
+- **`THRESHOLDS.tsv` T-01b** prior state cells moved verbatim to `registry/THRESHOLDS_NOTES.md`.

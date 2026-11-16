@@ -1,5 +1,9 @@
 # CREED Thesis Changelog
 
+## 2026-11-16 · **October special servicing graded — no score moved, 28/45; THESIS rotated to 70%**
+
+Office SS 16.60 (−25bp) while office DQ rose; overall SS 11.74 (+25bp, highest since Dec 2012), led by lodging and multifamily. `T-01b` not fired, `PRED-013` TRUE (wrong side), F2 not triggered (transfers rose). Current-evidence bullet and Counter-Signals state line refreshed; dated history moved verbatim to `thesis/THESIS_HISTORY_2026-11-16.md` (§1–§14); Discipline on 8b item 3 corrected from the stale 9/26 count to 5 of 11 [11/06]. No regime, base case or band changed.
+
 ## 2026-11-06 · **`T-08b` GRADED NOT FIRED for Q3 on the WQ-620 term — no score moved, 28/45**
 
 1. **Census complete, 10 of 10 reporting names** (RC, STWD, ACRE read at primary 11/06; ARI never reports). `KB-109..112`; `research/2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md` addendum 11/06.

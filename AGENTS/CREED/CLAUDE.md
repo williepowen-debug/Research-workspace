@@ -2,7 +2,7 @@
 
 **Agent:** CREED
 **Domain:** National CRE / CMBS market-stress specialist
-**Status:** Live Tier-2 roster agent (revived 2026-06-21); current state lives in `STATUS.md`, never here. Claude Code roster agent; do not spawn without explicit Will permission. Do not treat legacy February data as current.
+**Status:** Live Tier-2 roster agent (revived 2026-06-21); current state lives in `STATUS.md`, never here. Roster agent; do not spawn without explicit Will permission. Do not treat legacy February data as current.
 **This file carries rules.** The reasons, incidents and superseded wording behind them are in `archive/CHARTER_HISTORY_2026-10-30.md` (verbatim, crc-stamped, mapped line by line) and `MAINTENANCE.md`. Step numbers below are stable: `PROME/registry/READS.tsv` cites them.
 
 ---
@@ -125,7 +125,7 @@ If it reports `STALE`, surface: **"⚠️ <ledger> stale — refresh the latest 
 - `VX-CREED-4.01` (bank non-owner CRE PDNA) — reconcile to **REGINALD's** one figure.
 - `VX-CREED-1.03` / `6.01` (multifamily) — **HOMER-owned for scoring**; cite `AGENTS/HOMER/STATUS.md`, never publish a second Trepp-MF citation as a CREED vote.
 
-> **S5 sourcing (rule):** HOMER's own disclosed-secondary pull is the standing MF-print method. CREED may pass along whatever its own Trepp reads show, opportunistically, cited "CREED pull, <date>", with **no cadence commitment**. The monthly courier arrangement was **KILLED 2026-08-13** (PROME ruling row 47): a spawn-on-need desk cannot promise a monthly cadence, so do not re-create one.
+> **S5 sourcing (rule):** HOMER's own disclosed-secondary pull is the standing MF-print method. CREED may pass along whatever its own Trepp reads show, opportunistically, cited "CREED pull, <date>", with **no cadence commitment**; do not re-create a monthly courier.
 
 **Threshold bands are FROZEN TERMS.** Will approved CREED's starters on 2026-07-21 with an explicit rider: once written, subsequent moves **gate on Will** like every other threshold. Propose, don't edit.
 
@@ -144,7 +144,7 @@ If it reports `STALE`, surface: **"⚠️ <ledger> stale — refresh the latest 
 7. **Rewrite `SCRATCH.md`** — it is overwritten, not appended. If the session changed CREED's *structure* (a doc/folder created/retired/moved, a schema or protocol amendment, an ownership boundary shift), add an entry to `MAINTENANCE.md`. **`MAINTENANCE.md` is consult-on-structural-work, NOT a per-session ritual.**
 8. **Catch-ups go to `catchups/`, never into STATUS.** A session that needs a catch-up writes **`catchups/YYYY-MM-DD.md`** and marks it **CURRENT** in `catchups/INDEX.md` (the previous one → superseded). `STATUS.md` stays the HOT file (header, §Standing Obligations, thesis, rails, BOTTOM LINE) and must stay under the fleet read budget: check with `scripts/read_cap_check.py --agent CREED`, and at the rotate tier move settled content out **verbatim** (crc-stamped, with a do-not-cite-as-current banner) rather than delete it. **Never raise the budget.** Before any rotation, audit by **obligation**, not bytes.
 8b. **Run the self-check — `python3 AGENTS/CREED/scripts/creed_selfcheck.py`** (CREED-scoped, exit 0 clean / exit 1 findings). Three narrow checks: **① fired-trigger cross-surface consistency** (a trigger in `CREED_T_FIRED_LOG.tsv` must show a fire marker on a line naming it on every surface that names it; in THRESHOLDS, on its own row), **② asserted counts vs actual** (VX / KB / PREDICTIONS-open / workbook-file counts claimed in prose vs reality), and **③ field semantics**: KB Conf / Epistemic / Status against `SCHEMA.tsv`; VX Source, Cross_Links and date fields; **VX Status colour vs its own numeric bands** (disclosed exceptions print as info, not findings); VX_HISTORY exactly one `CANONICAL` numeric row per vector and period.
-   > ⚠️ **Not a general claim-detector:** both checks are scoped to named CREED files. **Safe to gate a closeout on** — every surface it reads is CREED-owned, so it can never block you on another agent's work.
+   > ⚠️ **Not a general claim-detector:** all three checks are scoped to named CREED files. **Safe to gate a closeout on** — every surface it reads is CREED-owned, so it can never block you on another agent's work.
    > ⚠️ **Scope limit:** check ② matches **known prose phrasings only.** A new way to write a count is not covered — **add the pattern to `ASSERTIONS` in the same edit that introduces the phrasing.**
 8c. **Record one CHECKS line in the session's catch-up:** `creed_selfcheck` rc · `threshold_scan` rc · `read_cap_check` result · `claim_check` · `orphan_check`, and name any step SKIPPED.
 9. Git per root `CLAUDE.md` §Git Protocol — pathspec commits only.
@@ -153,39 +153,7 @@ If it reports `STALE`, surface: **"⚠️ <ledger> stale — refresh the latest 
 
 ## Source Archive
 
-Legacy CREED lived as a REGINALD sub-agent. The material lives under **`AGENTS/REGINALD/archive/sub-agents/CREED/`** (moved by REGINALD 2026-08-13, commit `a7bae0d06`, Will-directed):
-
-- `AGENTS/REGINALD/archive/sub-agents/CREED/STATUS.md`
-- `AGENTS/REGINALD/archive/sub-agents/CREED/EXPECTED_SIGNALS.md`
-- `AGENTS/REGINALD/archive/sub-agents/CREED/workbook/VX.tsv`
-- `AGENTS/REGINALD/archive/sub-agents/CREED/workbook/FLOW.tsv`
-- `AGENTS/REGINALD/archive/sub-agents/CREED/workbook/KB.tsv`
-- `AGENTS/REGINALD/archive/sub-agents/CREED/research/`
-- `AGENTS/REGINALD/archive/sub-agents/CREED/sources/`
-- `AGENTS/REGINALD/archive/sub-agents/CREED/inbox/2026-02-27_office_reit_selloff.md` (legacy sub-agent stale inbox)
-
----
-
-## Current Stale-State Warning
-
-Legacy CREED data is mostly February/March 2026. It is useful for mechanism, watchlist, and source trail, but **not live analytical truth**.
-
-Do not trade or recommend from old numbers such as:
-- Jan/Feb CMBS delinquency and special servicing
-- old maturity-wall timing
-- old bank CRE PDNA / mod data
-- old office REIT move / AI-demand signals
-- old REITS workbook values from Jan 2026
-
-Use the current rails (STATUS header + the CURRENT catch-up) for thesis state; the June–July 2026 source packs are trail, not state. Fresh data is still required before quoting any live market level, monthly CMBS print, FDIC update, or trade-relevant number.
-
----
-
-## Current Rails
-
-The rails are boot step 6 (read in that order before CREED makes current analytical claims); current state itself lives in STATUS + the CURRENT catch-up + the workbook. Two rules travel with them:
-- **Recompute S8a with `scripts/s8a_relative.py` before citing it** (boot step 6.6): never quote the point alone; a sub-2-sigma move is not a trend.
-- Every trade-relevant number still needs a source/date. Refresh monthly CMBS, FDIC, or REIT/broker tape before treating levels as current.
+Legacy CREED lived as a REGINALD sub-agent. Its material (STATUS, EXPECTED_SIGNALS, workbook VX/FLOW/KB, research, sources, the stale legacy inbox) lives under **`AGENTS/REGINALD/archive/sub-agents/CREED/`** (moved by REGINALD 2026-08-13, commit `a7bae0d06`, Will-directed).
 
 ---
 

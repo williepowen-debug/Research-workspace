@@ -145,3 +145,7 @@ Will, 2026-11-05 15:35 ET, verbatim *"620 A and 621 A"*; record `PROME/proposals
 
 ## CREED-T-08a — 2026-09-29 note (history, not a band edit)
 9/29 close TR -7.89pp, back inside `< -10`. **FIRED state STANDS** (effective 9/24; the sustain term is the 3-month window itself; a later print does not un-fire). `threshold_scan` will now print WAS-FIRED for T-08a: that is this deliberate reconciliation, not a cleared ledger. The S8a score (4, WQ-303) is Will's ruling; the tape's return inside the band is carried to Will as a caveat.
+
+
+### CREED-T-01b prior state cells, moved verbatim from THRESHOLDS.tsv 2026-11-16 (crc32 1d1a74f8)
+*** STATE 2026-10-22: Sep office SS 16.85 [Trepp, PRIMARY-READ, graded 10/21] -- NOT FIRED, 0 of 2 legs, 115bp away, moved AWAY 5bp; October cannot fire it (PREREG_2026-11 §1). Band/op/value/sustain UNTOUCHED. *** PRIOR STATE: *** GRADED 2026-09-26 on the AUGUST print (Trepp SS PDF pub 2026-09-14, PRIMARY-READ): office SS 16.90% (+32bp) vs >18, sustain 2 -- NOT FIRED, 0 of 2 legs, 110bp away; moved TOWARD the band this month (Jul moved away). Band/op/value/sustain UNTOUCHED. Next print ~mid-Oct. ***
