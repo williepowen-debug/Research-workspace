@@ -1,6 +1,6 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-11-16 10:09 → open (Mon) — **coral-ag**, due-row wake by PROME prome-6f (D:L1048 CORAL-02, G:GATE-CORAL-MSI-01, whole inbox). Opus 5.5 in Claude Code on the desktop. Root CLAUDE.md and local CLAUDE.md (harness-injected at session start), AGENTS.md, USER.md, COMPLETION_SPEC read; STATUS and SCRATCH read whole; THESIS, LESSONS, CALENDAR, MEMORY read only where the task touched them (⚠️ partial boot, said so); boot.py NOT run. Corrections rc 1 → receipted → rc 0. Pull NOT run: origin had nothing new; PROME's two files were dirty at boot. **Window held open; PROME asks for close-out.**
+**Session:** 2026-11-16 10:09 → 12:4x ET closeout on PROME's ask (Mon) — **coral-ag**, due-row wake by PROME prome-6f (D:L1048 CORAL-02, G:GATE-CORAL-MSI-01, whole inbox). Opus 5.5 in Claude Code on the desktop. Root CLAUDE.md and local CLAUDE.md (harness-injected at session start), AGENTS.md, USER.md, COMPLETION_SPEC read; STATUS and SCRATCH read whole; THESIS, LESSONS, CALENDAR, MEMORY read only where the task touched them (⚠️ partial boot, said so); boot.py NOT run. Corrections rc 1 → receipted → rc 0. Pull NOT run: origin had nothing new; PROME's two files were dirty at boot. **Closed out 12:4x ET on PROME's ask; next wake = first Florida Realtors October print (likely Tue 11/17).**
 **Previous:** 2026-11-11 coral-af.
 
 ---
@@ -23,6 +23,8 @@
 - MSI #16 by 11/26 · Avidia 10-Q · FEMA FR notice (CORAL-04, L784 re-date proposed 11/20) · certification 11/17.
 - Still awaiting Will's word (since 11/06): DATA_SOURCES line for sec_contact.py; VX_Vectors catch-up; CLAUDE.md size figure (now dropped by F39 — item (c) moot).
 - DAEDALUS optional trims F14, F37, F38, F41, F42, F43, F44 declined for now; F11 waits on PROME's routing ruling.
+
+- Band rulings encoded: WQ-690 A (648ac72436), WQ-691 A (3eaaa6439f). FL Realtors watch ended 12:46 ET, NOT POSTED (ed576ed71e).
 
 ## OPEN THREADS
 
