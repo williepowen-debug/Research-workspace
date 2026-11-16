@@ -38,5 +38,33 @@ for t in tools:
 PY
 ```
 
+## The 11/16 re-run (step 5, DOCKET L735; run 2026-11-16 11:50 ET by PROME prome-6f, the stored command verbatim, then a wider reference check)
+
+**Answer to the row's question: no new standing orphan since 10/15.** One standing tool is still unrouted, and it predates this plan.
+
+| Cohort (tools under PROME/tools and scripts first committed since 9/1) | Total | Named by a manual, runner or agent definition | Named only by another tool | Named by nothing (stored command) |
+|---|---|---|---|---|
+| 10/15 baseline, as recorded above | 37 | 15 | 8 | 14 |
+| The same cohort (first commit on or before 10/15), re-run 11/16 | 37 | 14 | 7 | 16 |
+| First commit after 10/15 | 16 | 1 | 4 | 11 |
+| All, 11/16 | 53 | 15 | 11 | 27 |
+
+⚠️ **The stored command under-counts adoption.** It matches a tool's file name in eight manuals, the skills and the agent definitions, and in other `.py` files. It cannot see a module import (`import argus_policy`), a git hook (`scripts/githooks/pre-commit`), a desk charter, a dated DOCKET row, or a shell wrapper. Most of the rise from 14 to 27 is that blind spot, found by the wider check below, not new orphans. The two tools that left the referenced columns inside the 10/15 cohort were not traced one by one (one is `heartbeat_projection.py`, whose only consumer was retired 10/16).
+
+**The 27 "named by nothing", classified (wider check: `git grep` for the module stem in tools, hooks, settings, manuals and desk charters; DAEDALUS's `AGENTS/DAEDALUS/CHECKS.tsv` wiring column where a row exists):**
+
+| Class | Count | Tools |
+|---|---|---|
+| Invoked indirectly | 12 | imported: `argus_contract.py`, `argus_policy.py`, `boot_reuse.py`, `desk_activity.py`, `session_identity.py`, `orch_time.py`, `session_bridge.py` · pre-commit hook: `account_guard.py`, `docket_line_stability.py` · tool hook `pipeline_rc_block.py`: `pipeline_rc_guard.py` · desk charters (NEXUS boot check and others): `brief_pin_check.py` · `research_reader.ps1`: `research_reader.py` |
+| Deliberately dormant, one-shot, setup or retired | 13 | dated one-shots: `gates_leg2_apply_2026-09-04.py`, `gates_step2_rotation_2026-09-03.py`, `rotation_bundle_2026-10-03.py`, `index_cold_shard.py` · retired with their consumer: `heartbeat_projection.py` (dashboard build, 10/16), `firetime_delta.py` (the fire-time scan left the gate; on demand only) · lapsed: `nisaba_pull.py` (the key lapsed on Will's word 11/13) · single-row probe: `probe_futures_bars.py` (L462) · setup: `install-claude-hooks.py`, `install_agents.py` · on demand by ruling or design: `wiring_census.py` (11/12), `asmade_audit.py` · a test file, not a tool: `test_sec_contact.py` |
+| Routed by a dated row | 1 | `forecast_report.py` (monthly; next run DOCKET L962, 2026-12-04) |
+| Meant for routine use, no entry point | 1 | `rotation_integrity.py` (9/19; a rotation must not lose a section). Intended entry point: the rotation step of a hot/cold split. Run once, at the 9/19 HEARTBEAT re-base; rotations since have used verbatim moves with crc receipts in a plan record instead. |
+
+**After 10/15 only (the cohort the WIRED and OBSERVED states were meant to protect): 16 tools; 0 standing orphans.** Of its 11 "named by nothing": six are invoked indirectly, four are dormant, setup or a test, one is routed by a dated row.
+
+**Disposition of the one unrouted tool:** `rotation_integrity.py` stays ON DEMAND, no invoker added (PROME, class C12, under Will's 2026-10-31 word to limit checkers and rules; reported the same day). A rotation that splices between anchors, the failure it was built for, should run it; a verbatim move with a crc receipt does not need it.
+
+**Limits of this run:** IMPLEMENTED (the measurement), not independently verified. Classification rests on name matches plus a reading of each tool's header and DAEDALUS's wiring column; no tool was executed to prove its invoker runs. "Invoked indirectly" means a live file names it, not that an ordinary workflow was observed using it (the OBSERVED state above).
+
 ## Rules this plan respects
 Root Git Protocol (pathspec commits, subject ≤100); the process ceiling (one process change per session, domain rows first); WQ-229 (acceptance before edit; neighbours considered; completion note with the states above); WQ-178/L511 review budget; the Deck/Helm publication rulings WQ-382 (a)/(b); WQ-226 (ARGUS) unchanged until measured. Anything that changes what a rule MEANS, or how PROME speaks to Will (step 3), goes to Will as a row first.
