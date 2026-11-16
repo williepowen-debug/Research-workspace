@@ -100,7 +100,7 @@ Omitted 173 IN-FLIGHT row(s) (11 explicit resolves links · 162 legacy: highest 
 | 2026-11-14 | BRENT | window | 1-SPAWN | 5 | DELIVERED 2026-11-14 11:32 ET (BRENT 64b | 5 | 0 |
 | 2026-11-16 | BROCK | window | 1-SPAWN | 5 | DELIVERED 2026-11-16 10:22 ET (BROCK 920 | 5 | 0 |
 | 2026-11-14 | CARL | window | 1-SPAWN | 4 | DELIVERED 2026-11-14 11:26 ET (CARL 17fb | 3 | 0 |
-| 2026-11-16 | CORAL | window | 1-SPAWN | 8 | DELIVERED PARTIAL 2026-11-16 about 11:28 | 8 | 0 |
+| 2026-11-16 | CORAL | window | 1-SPAWN | 8 | DELIVERED 2026-11-16 in two parts (CORAL | 8 | 0 |
 | 2026-10-21 | CREED | subagent | 1-RECEIPT | 37 | DELIVERED (WQ-472 A bounded session): in | 37 | 0 |
 | 2026-11-14 | CRUISE | window | 1-SPAWN | 2 | DELIVERED 2026-11-14 11:17 ET (CRUISE 94 | 4 | 2 |
 | 2026-11-13 | CYPHER | window | 1-SPAWN | 3 | DELIVERED 2026-11-13 10:29 ET (CYPHER c3 |  | 0 |
