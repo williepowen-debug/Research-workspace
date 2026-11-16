@@ -58,3 +58,37 @@ Dollar figures are not comparable with Friday's (the 11/13 weekly expiry rolled 
 - **Negative gamma under the 7,500 strike means dealers amplify the move.** My 11/12 spot grid (11/11 open interest, not re-gridded) put the deepest amplification at about 7,350–7,450; spot sits inside that zone now.
 - **Nvidia reports Tuesday 11/17 after the close.** The index has broken a level I published on a stock-specific shock the day before the stock's own event; the close and Tuesday night decide whether this is a level that broke or a level that was pierced twice and held.
 - **Tradeability:** a first close under 7,500 is a material finding; TERRY is already on ACTION for this card. Named in my PROME packet for routing.
+
+## Close read (16:18–16:32 ET 11/16, on PROME's ask prome-6f)
+
+**Sources:** vendor `fetch.py` and yfinance daily bars (16:18 ET); Cboe delayed index quotes (`cdn.cboe.com/.../options/_VIX.json`, `_SPX.json`; 16:18 ET and 16:32 ET; Cboe `_VIX3M` returns 403, so VIX3M is vendor); Treasury par CSV 11/16 (read 16:19 ET); `gamma_flip.py --both` at 16:19 ET (not published). FRED for 11/16 posts on 11/17.
+
+| Instrument | Close | Change |
+|---|---:|---:|
+| S&P 500 | **7,416.59** (Cboe 7,416.61); low 7,400.15, high 7,515.60 | −1.92% |
+| QQQ | **$661.75** | −2.67% |
+| NVDA / SMH | $156.14 / $461.90 | −4.12% / −5.11% |
+| RSP / IWM / KRE | $218.93 / $272.95 / $72.19 | −1.01% / −1.65% / −0.76% |
+| VIX settle | **22.91** (Cboe, last trade 16:15:01 ET); day high 24.52 | +18.70% on 19.30 |
+| VIX3M / VIX9D / VVIX (vendor) | 23.02 / 23.15 / 114.23 | VIX3M/VIX **1.005, flat** |
+| 10Y par (Treasury) | **5.12%**; 2Y 4.83, 30Y 5.46 | −3bp |
+| USD/JPY (vendor) | 159.44 | −0.15% |
+
+⚠️ **The VIX read at 16:03 ET was 23.02 on both the vendor and Cboe, 0.02 over the yellow line. The 16:15 settle is 22.91, 0.09 under.** Grading at 16:18 ET would have called a yellow close that did not happen: the 11/13 error in reverse. The rule "VIX grades at the settle, read after 16:30 ET on the delayed feed" holds.
+
+| Item | Close-test result |
+|---|---|
+| **7,500, last published put wall [11/12]** | **FIRED: first close under, 83.41 points.** One close-confirmed signal to WALTER (`ac69f2ac4c`), routed as SIG-W-20261116-011 (ACTION PROME; VIOLET and HENRY informed; WALTER `9bf8760f24`, re-pull matched 7,416.59). TERRY: NO CARD (`896b7c50ba`, relayed by PROME, not read by me) |
+| **Gamma regime** | **NEGATIVE held.** SPX flip 7,607 / 7,613, net −59.2 / −78.3 $B per 1%, spot 190–197 under; walls withheld (14d put = call at 7,500; 35d put = call at 7,000). A close over about 7,610 reverses it |
+| **QQQ 680** | **Second straight close under**, by $18.25 (2.68%). QQQ flip 688–690, NEGATIVE −3.0 / −4.0; walls withheld (14d put = call at 680; call 680 vs 700). Never published: a level I named |
+| **S&P −10% / yellow 7,200** | NOT FIRED: −5.15% from 7,818.93; 216.59 above 7,200 |
+| **KRE <$65** | NOT FIRED ($72.19) |
+| **VIX >23 yellow** | **NOT a yellow close: settle 22.91.** Over 23 intraday (high 24.52). Curve flat (1.005), not inverted at the settle. VIOLET grades |
+| **Vol-control (VIX >23–24)** | Just under the band at the settle |
+| **Short-term CTA (under the 50-day)** | MET: 249.83 under 7,666.42 |
+| **HEN-60** | **NOT resolved:** close 74.26 over today's 7,342.33. Row stays open to 11/30 |
+| **10Y >5.0 red** | **Third straight par close over 5.0** (5.10, 5.15, 5.12); no sustain clause |
+| **HY OAS** | 11/16 posts 11/17 (323 on 11/13, YELLOW) |
+| **Row 9 (L1051)** | NOT GRADED (11/18 close) |
+
+**What it means (judgment):** the level I published on 11/12 broke on a close, on a chip-specific policy shock, the day before Nvidia's own results. Breadth was not a rout (RSP −1.01%, KRE −0.76%), bonds bid (10Y −3bp), and vol eased into the settle (24.52 high → 22.91). That is a concentrated break, not a broad deleveraging. Dealers stay short gamma under a flip about 190 points away, so Nvidia's numbers on 11/17 meet an amplifying book in either direction. Credit (HY for 11/16, posting 11/17) decides whether this stays an equity-only event.

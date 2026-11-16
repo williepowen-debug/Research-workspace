@@ -44,6 +44,7 @@
 - **[Authority] — When Your Own Instrument Disagrees With a Publisher of Record, Deferring SILENTLY Propagates the Error.** A stronger disclaimer is NOT the fix. Carry BOTH figures with BOTH bases named in the cell, AND route the disagreement back to the publisher the SAME session — a measured discrepancy that stays inside your own file is a caught error you chose not to spend. `[[finding_owner_of_record_means_authoritative_not_correct]]`
 
 - **[Verification] — A Window NET Is Not the Path Inside It.** "ACM TP fell over 9/15→9/23" was true and hid **+7.0bp on 9/23**, the day the claim was about (2026-09-25, caught before PROME acted). Quote the sub-window that carries the claim, not the net around it.
+- **[Data] — Grade VIX Only on the 16:15 ET Settle, and Prove You Have It: Cboe `_VIX` `last_trade_time` ≥ 16:15:00, Read After About 16:30 ET.** "After 16:15" on the clock is not enough: the feeds carry the last pre-settle print for about 15 minutes. 11/13: a 16:16 ET pull gave 19.03, the official close was 19.30. 11/16: a 16:03-stamped 23.02 would have graded a yellow close; the settle was 22.91 (2026-11-16, n=3 with 10/29). Until the stamp shows the settle, write the cell blank or PROVISIONAL.
 ---
 
 ### [Process] — A Session That REVERSES a Regime Must Grep Its Own File for the OLD Regime Before Commit

@@ -1,45 +1,44 @@
-# HENRY — 2026-11-13 10:16–16:2x ET: October PPI graded, the S&P's dip under 7,500, and the close read — CLOSED 16:2x ET on PROME's ask
+# HENRY — 2026-11-16 13:47–16:3x ET: the Nvidia board demand, and the S&P's first close under my 7,500 put wall — CLOSED 16:3x ET on PROME's ask
 
-**RESULT:** October producer prices rose 0.3%, under my 0.4% line, so my call (HEN-58: no fire) was right; I graded it about 1h50m late because the 08:00 ET launch did not happen. The market bought the soft print for 45 minutes in futures, then sold. The S&P touched 7,499.40 at about 10:22 ET, just under the 7,500 level where my dealer map had its put wall, and closed at 7,561.67 (−0.40%). Chips did the selling (SMH −2.99%, Nvidia −2.01%) while the average stock rose (equal weight +0.20%). **The official 10-year closed at 5.15%, the second straight close over my 5.0% red line,** on a soft inflation print. QQQ closed $679.89, 11 cents under its own 680 put wall. Dealer hedging still amplifies moves in both the S&P and QQQ. No prediction or threshold moved.
+**RESULT:** The Treasury Secretary gave Nvidia's board a 10-day demand, and the S&P 500 closed at 7,416.59 (−1.92%). That is its first close under 7,500, the support level my dealer-positioning map last published (11/12). On Friday it only dipped under during the day. I sent WALTER one signal, and it went to PROME as card SIG-W-20261116-011; TERRY's answer was no trade card. Chips did the selling (Nvidia −4.12%, SMH −5.11%) while the average stock fell 1%, regional banks 0.8%, and bonds rallied slightly. So this was a narrow break, not a broad flight from risk. Dealer hedging still amplifies moves, and Nvidia reports Tuesday after the close. The fear gauge (VIX) settled at 22.91, just under my 23 yellow line, after reading 23.02 twelve minutes earlier; I graded only the official settle.
 
-**CHANGED:** `STATUS.md` (PPI VIEW, gamma maps 10:19 ET and close, thresholds on the 11/13 close, credit line, pickup) · `STATUS_COLD.md` (§ ROT-11/13) · `MEMORY.md` · this file · `NEXUS_BRIEF.md` · `board_log.tsv` (9 WALTER cards) · `workbook/PREDICTIONS.tsv` (HEN-58 RESOLVED-HIT) · `workbook/PUBLISHED.tsv` (10:19 ET flip and net gamma; walls withheld) · `workbook/KB.tsv` (ML-HEN-220, 221) · `workbook/MARKET_DATA.tsv` (11/12 filled, 11/13 row) · `research/2026-11-13_ppi/PPI_GRADE.md` (§ 1–7). Packets: WALTER (7,500 signal), TERRY (three), PROME (two).
+**CHANGED:** `STATUS.md` (close VIEW, gamma maps 13:49 and 16:19 ET, thresholds on the 11/16 close, pickup) · `STATUS_COLD.md` (§ ROT-11/16, § ROT-11/16-CLOSE) · `MEMORY.md` · `LESSONS.md` (VIX settle rule) · this file · `NEXUS_BRIEF.md` · `board_log.tsv` (8 WALTER cards) · `inbox/WALTER/` (8 moved to processed) · `registry/corrections_receipts.tsv` (COR-20261114-10 NO-OP) · `workbook/KB.tsv` (ML-HEN-223, 224) · `workbook/MARKET_DATA.tsv` (11/13 filled, 11/16 row) · `research/2026-11-16_nvda-bessent/GRADE.md`. Packets: PROME (one), WALTER (one signal).
 
 ## Session work
 
 | Item | Outcome |
 |---|---|
-| HEN-58 PPI (D:L776) | **NONE, expectation HIT**: final demand +0.3% (+0.348%), services +0.2, foods +1.3, energy −0.1; September revised to +1.4. bls.gov release text 403; graded on BLS API index data |
-| Post-print map 10:19 ET | Published: flip 7,631 / 7,633, NEGATIVE −$43.7B / −$60.6B per 1%; walls withheld |
-| S&P 7,499.40 print ~10:22 ET | Under the last published 7,500 put wall → signal to WALTER (SIG-W-20261113-001; WALTER holds it for your go) and TERRY |
-| Scenario map | Print in the in-line case (no direction); tape took the downside path anyway, on rates and chips |
-| Your QQQ question (12:05 ET, via PROME) | No direction into Nvidia results 11/17; downside skew while QQQ is under 680; rebound and further-leg-down levels given |
-| Hold window | Checkpoints 11:30, 13:00, 14:30; no trigger, no messages |
-| Close read 16:16 ET | S&P under the 7,630 flip; S&P 7,700 call wall and QQQ 680 / 700 walls pass the guard, **not published** (PROME's "no new level" rule this wake) |
-| Inbox | 9 WALTER cards logged; DAEDALUS WQ-678 deferred to an ordinary wake; HY 320 card answered: nothing I hold changes |
+| WALTER card 002 (PRIORITY, ACTION HENRY) | Graded intraday 13:5x ET by my written rules, with what the close had to do for each |
+| Close read 16:18–16:32 ET | **First close under 7,500 → WALTER → card 011, ACTION PROME.** QQQ second close under 680 (never published). HEN-60 not resolved (74 points over today's 7,342.33). −10% line, 7,200 and KRE not fired. 10Y par 5.12%, third close over 5.0% |
+| VIX | **Settle 22.91: not a yellow close.** The 16:03 ET reading 23.02 was not the settle |
+| Gamma | NEGATIVE at both horizons, flip 7,607 / 7,613; every wall withheld by the guard (none published) |
+| Inbox | 7 WALTER cards logged at boot plus card 011; CoreWeave correction receipted NO-OP |
+| Forecast probabilities | Answered: HEN-60 to 63 already carry them; every row from HEN-64 on will; no backfill. PROME closed L490 |
+| Boot step (g) drop | Exact edit given to PROME. **Held for your own word**; PROME registered it as WILL_QUEUE row 697 |
+| Own correction | 11/13 VIX close was 19.30, not the 19.03 I sent; corrected in my files; TERRY corrected; PROME's HEARTBEAT line 16 still carries 19.03 (flagged to PROME) |
 
 ## GAPS / still pending
 
-- **I could not open the BLS release itself** (403). The grade rests on agency index data; series names are from my own knowledge, not the catalog.
-- The PPI was graded late; no pre-open map was run.
-- The S&P and VIX closes are vendor until FRED posts; HY and CCC for 11/13 post Mon 11/16. On 11/12 HY sat exactly at 320.
-- The gamma maps use 11/12 open interest; dollar sizes are free-tier estimates. NDX not run; no grid below 7,500 or 680.
-- TERRY's window closed before my close packet landed; it reads it Mon 11/16 pre-open (PROME registered).
-- Operating Dashboard not refreshed (v6 of 11/12 is stale).
+- Closes are vendor and Cboe delayed quotes; FRED posts 11/16 on 11/17. High-yield credit for 11/16 is unknown until then, and my rule says equity cannot bottom until credit peaks.
+- Gamma maps are free-tier estimates on 11/13 open interest: the sign and the flip are reliable, dollar sizes are not. No wall published.
+- TERRY's NO CARD is relayed by PROME (`896b7c50ba`); I did not read it.
+- GitHub could not be reached at 13:4x ET; PROME says it works again. The push result is in the commit receipt below.
+- The Operating Dashboard (v6, 11/12) was not refreshed.
 
 ## COMMITS
 
-`a7e72ea4db` signal to WALTER · `3e5eaa3d16` PPI grade and map · `72ebb8f8ad` inbox drained · `e0ccebbc05` TERRY packet · `56b1ee32c6` PROME delivery · `e4b1827891` hold-window reads and QQQ map · `d1a5e0edd6` TERRY QQQ packet · `a90431a9d4` close read · `fa19862865` TERRY close packet · `3436387179` PROME close packet · closeout commit "HENRY (orch): 11/13 closeout".
+`64900873de` intraday grade, inbox, records · `d5d6c608a2` PROME packet · `ac69f2ac4c` WALTER close signal · closeout commit "HENRY: 11/16 close read and closeout".
 
 ## NEXT SESSION FOLLOW-UP
 
-Monday 11/16: FRED confirms Friday's closes and posts high-yield spreads. **Nvidia results Tue 11/17 after the close.** Palo Alto row 9 at the 11/18 close; release calendar rebuild before 11/20; D:L490 backfill 11/20; FOMC Wed 12/9 (HEN-63; market price is ORACLE's).
+**Nvidia results Tue 11/17 after the close.** A close back over 7,500 means the break failed; over about 7,610 the dealer regime turns. Palo Alto row 9 at the Wed 11/18 close (D:L1051); D:L823 Thu 11/19; release calendar rebuild before 11/20; FOMC Wed 12/9 (HEN-63; market price is ORACLE's).
 
-## THESIS SNAPSHOT (frozen at close 11/13)
+## THESIS SNAPSHOT (frozen at close 11/16)
 
-Rates are the pressure and inflation is not easing them: 10Y par 5.15% (RED, second close over 5.0), 2Y 4.88%, 30Y 5.47%; producer prices +0.3% in October, +6.5% on the year. Equity: S&P 7,561.67, −3.3% from its 10/6 record, 221 pts over its 200-day; dealer gamma NEGATIVE, 68 pts under the flip. QQQ at its 680 put wall. VIX 19.03, normal term structure. Credit (FRED 11/12): HY 320bp at the line, CCC 1,314bp RED, the gap between the weakest and stronger credits widening. AI capex: Nvidia leadership shock, results 11/17.
+Equity: S&P 7,416.59, −5.15% from its 10/6 record, 74 points over its 200-day; first close under the 7,500 put wall; dealer gamma NEGATIVE, about 190 points under the flip. QQQ $661.75, under 680. Rates: 10Y par 5.12% (RED, third close over 5.0), 2Y 4.83%, 30Y 5.46%. Vol: VIX settle 22.91, curve flat. Credit (FRED 11/13): HY 323bp YELLOW, CCC 1,316bp RED. AI capex: a policy shock on Nvidia's board, results 11/17.
 
 ## WILL_NEEDS
 
-None from this desk. WALTER is holding my 7,500 put-wall signal for your go. No money moved; no threshold, band, card or gate changed; one prediction resolved on its frozen letter.
+One decision, already registered by PROME: **drop boot step (g)** (WILL_QUEUE row 697; PROME recommends A). It removes the fleet consumer scan from my boot (180 of 190 seconds today, timed out with no output). The same check still runs at closeout. I make no edit until PROME relays your word. No money moved; no threshold, band, card or gate changed; no prediction resolved.
 
-*Honest scope: equity quotes are vendor, not settlements; Treasury yields are official par; the gamma maps are free-tier estimates (sign and flip reliable, dollar sizes not); the PPI grade is on BLS index data, not the release text.*
+*Honest scope: equity and VIX closes are vendor and Cboe delayed quotes, not yet FRED; Treasury yields are official par; the gamma maps are free-tier estimates (sign and flip reliable, dollar sizes not); TERRY's NO CARD is relayed, not read.*

@@ -949,3 +949,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-16T13:51:12-05:00	SIG-W-20261114-010	noted	INBOX_WALTER	Correction to 009; COR-20261114-10 receipted NO-OP (no open HENRY row keys on CoreWeave pricing).
 2026-11-16T13:51:12-05:00	SIG-W-20261114-011	info-only	INBOX_WALTER	Small items; rates item 5 same theme as 006 item 5. Nothing I hold changes.
 2026-11-16T13:51:12-05:00	SIG-W-20261116-002	acted	INBOX_WALTER	PRIORITY ACTION HENRY: graded intraday 13:5x ET (S&P 7,426, 74 under the last published 7,500 put wall; flip 7,623-7,626 NEGATIVE; QQQ 663 under 680; VIX 23.26 inverted vs VIX3M 23.09). Close conditions stated in STATUS and PROME packet. Walls withheld by the guard.
+2026-11-16T16:33:54-05:00	SIG-W-20261116-011	info-only	INBOX_WALTER	My own close signal (ac69f2ac4c) routed back: ACTION PROME, INFO VIOLET and HENRY (WALTER 9bf8760f24, re-pull matched 7,416.59). Nothing new to act on; VIX left to VIOLET, settle 22.91 not yellow.

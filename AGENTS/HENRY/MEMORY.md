@@ -37,7 +37,7 @@
 
 - [2026-10-08] **A CHOSEN same-day grading deadline with no registered WAKE is a letter its owner cannot meet.** HEN-48–56 fixed 10/5 16:00 EDT as the grading deadline while stating "no automatic wake or capture"; the desk stayed dark and the grade landed ~64h late, leaving a live ambiguity over whether a late evaluation is NO-VERDICT. **Next time a letter names an evaluation deadline, register the wake in the same edit (a DOCKET row dated AT the release, owner named), and write the late-evaluation disposition into the letter's NO-VERDICT list explicitly.** Cf. `finding_a_warning_dated_on_its_own_event_fires_too_late`.
 
-- [2026-10-29] **Carried from the rotated 10/29 session note:** VIX/VIX9D/VIX3M/VVIX settle at 16:15 ET, not 16:00 (a 16:06 pull is pre-final); key any ledger edit on (metric, date), never metric alone, and `git diff --stat` before moving on; take every stamp from `date` (typed stamps drifted n=3 on 10/29).
+- [2026-10-29] **Carried from the rotated 10/29 session note:** VIX settle rule promoted to LESSONS [Data] 2026-11-16 (check Cboe `last_trade_time` ≥ 16:15); key any ledger edit on (metric, date), never metric alone, and `git diff --stat` before moving on; take every stamp from `date` (typed stamps drifted n=3 on 10/29).
 
 ## References
 
@@ -53,19 +53,18 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-13, 10:16–16:2x ET (PROME prome-72 due-row wake D:L776, then held for the close read; Claude Code, Opus 5.5, henry-f1). Closed 16:2x ET on PROME's ask.
+### CHANGES SINCE — 2026-11-16, 13:47–16:3x ET (PROME prome-6f wake on WALTER PRIORITY card SIG-W-20261116-002, then held for the close read; Claude Code, Opus 5.5). Closed 16:3x ET on PROME's ask.
 
-- **HEN-58 graded NONE (PPI +0.3%, unrounded +0.348%), expectation HIT, about 1h50m late** because the 08:00 ET launch did not happen. bls.gov release, PDF and catalog all 403; api.bls.gov v1 index data works and was the basis. Series names came from my own knowledge of the PPI IDs (catalog 403), disclosed.
-- **Tape: soft print, then the S&P sold to 7,499.40 (~10:22 ET)**, under the last published 7,500 put wall. Signal to WALTER (WALTER holds it for Will's go). Closed 7,561.67, still under the 7,630 flip. QQQ closed $0.11 under its 680 put wall. 10Y par 5.10 → 5.15, a second close over 5.0. Leadership: chips down (SMH −2.99%), equal-weight RSP up (+0.20%).
-- **The scenario map's in-line case gave no direction, and the tape took Case A's downside path without Case A's hot print.** Lesson: a release map keyed only on the print misses a rates-plus-chips drift that needs no catalyst. Next time, add a "no-catalyst drift" row.
-- **First QQQ map (`--underlying QQQ`)**, run for Will's "will QQQ rebound?" via PROME at 12:06 ET: walls 680 / 700 clean at both horizons, flip 690–693. Fast (under a minute); run it with the S&P map on any tech-led day.
-- **Hold-window pattern that worked:** `watch_hold.sh HHMM` in the scratchpad (90 s polls, exits on S&P <7,450, >flip, or the checkpoint), re-armed at 11:30 / 13:00 / 14:30 / 16:16. That was cheap; no message was sent unless a trigger fired.
-- **Walls passed the guard at the close but were NOT published** (wake rule "no new level"). The next wake offers them; it does not assume them.
-- Most of my commits rode other desks' pushes; verify ancestry with `git merge-base --is-ancestor`. index.lock contention on one commit; I waited and retried.
+- **Intraday grade 13:5x ET** of the Nvidia board demand (Treasury Secretary, 10 days): S&P 7,426 through 7,500, close conditions stated per rule; 7 WALTER cards drained; COR-20261114-10 receipted NO-OP; PROME packet with forecast-probability answer (from HEN-64 on, no backfill; L490 closed by PROME) and the exact boot step (g) drop edit.
+- **Close read: S&P 7,416.59, first close under my published 7,500 put wall** → WALTER `ac69f2ac4c` → SIG-W-20261116-011 (ACTION PROME); TERRY NO CARD (relayed). QQQ second close under 680. HEN-60 still open (74 over 7,342.33). 10Y par 5.12, third close over 5.0.
+- **VIX: settle 22.91, not yellow.** The 16:03 ET read was 23.02 on vendor and Cboe; I waited for the Cboe stamp 16:15:01 (read 16:32 ET). Rule promoted to LESSONS [Data]. Also: my 11/13 VIX 19.03 was wrong (official 19.30); corrected everywhere I own; HEARTBEAT.md:16 (PROME's) still carries it, flagged.
+- **Boot step (g) drop: Will's own word required** (his letter said "no charter edit today"); PROME's relay was not that word. PROME registered WILL_QUEUE row 697. No edit made.
+- GitHub could not resolve at 13:4x ET; worked on the local checkout. Boot took 190 s, 180 s of it step (g) timing out.
 
-### NEXT SESSION (Mon 11/16 or the next PROME wake)
+### NEXT SESSION
 
-1. Re-run the S&P and QQQ maps on Monday's chain (carries 11/13 open interest). **Offer** the walls to PROME before publishing; they were held back 11/13.
-2. FRED 11/13: SP500, VIXCLS (confirm vendor 7,561.67 / 19.03) and HY/BB/CCC (post 11/16). Fill the blank MARKET_DATA cells. HY was at the 320 line on 11/12.
-3. TERRY reads my close packet at its Mon 11/16 pre-open wake (PROME registered it). WALTER still holds the 7,500 signal.
-4. NVDA results Tue 11/17 after the close; row 9 at the 11/18 close; ECON_CALENDAR rebuild before 11/20; L490 backfill 11/20; DAEDALUS K38–K52; MSCI card 030 week of 11/23; FOMC 12/9 (HEN-63, price is ORACLE's); dashboard v6 is stale.
+1. FRED 11/16 (posts 11/17): confirm 7,416.59 and 22.91; HY/BB/CCC (323 YELLOW on 11/13). Does credit join the equity break?
+2. **Nvidia results Tue 11/17 after the close.** Re-run the SPX and QQQ maps on the 11/17 chain. A close back over 7,500 = break failed; over ~7,610 = gamma regime turns.
+3. **D:L1051 row 9 Wed 11/18 after 16:15 ET; D:L823 Thu 11/19.**
+4. Boot step (g): edit boot.py, CLAUDE.md (two lines) and MAINTENANCE.md in one commit ONLY after PROME relays Will's ruling on WQ-697 verbatim.
+5. ECON_CALENDAR rebuild before 11/20; DAEDALUS K38–K52; MSCI card 030 week of 11/23; dashboard v6 stale; FOMC 12/9 (HEN-63; price is ORACLE's).
