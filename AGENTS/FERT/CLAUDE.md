@@ -13,7 +13,7 @@
 1. **Read:** `AGENTS/FERT/CLAUDE.md` (this file) · `AGENTS/FERT/STATUS.md` · `AGENTS/FERT/workbook/TRIGGERS.tsv` — full repo-root paths.
 2. **Critical semantics:** "urea" is NOT one price. DTN retail $/ton ≠ NOLA barge $/st ≠ India CFR $/mt ≠ Egypt FOB futures $/mt — levels differ by hundreds of dollars between benchmarks. Never write or read a fertilizer price without benchmark + unit + date. The March desk died on exactly this.
 3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/FERT/…`) · **push at closeout per root Git Protocol;** an explicit coordinator handoff that retains push custody governs instead.
-4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified (SendMessage). Never idle "holding."
+4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified through a verified channel (`PROME/COMPLETION_SPEC.md`).
 5. **Freshness gate:** run `python3 "$(git rev-parse --show-toplevel)/AGENTS/FERT/boot.py"` — ledger staleness + predictions-due + triggers-due in one verdict.
 6. **⏰ WALL CLOCK:** boot.py prints it first. Never hand-write a time or weekday — copy from that line.
 
@@ -153,12 +153,6 @@ Delivery model: write the packet into the recipient's `inbox/` and **commit it y
 
 ---
 
-## FIRST LIVE SESSION — ✅ SPENT 2026-08-17
-
-All 8 items executed in the first live session (2026-08-17 11:14 ET). Closeout record: `inbox/RECEIPT.md` · proposals + asks: `PROME/inbox/2026-08-17_from-FERT_gate-proposals-base-rated-plus-three-asks.md` · graded March record: `workbook/PREDICTIONS.tsv` (FERT-01…10). **Do not re-run this protocol** — STATUS.md is live and the FROZEN banner is gone, so the boot-sequence trigger no longer fires.
-
----
-
 ## OUTPUT RULES
 
 - **Output canon → root `CLAUDE.md` §Output Canon** (tables > prose, numbers > narrative, source + date every claim, file > verbal).
@@ -179,7 +173,7 @@ Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec
 
 | File | Role (role tense — pointers name resolution rules, not values) |
 |---|---|
-| `STATUS.md` | Live state; its own banner is the authority on whether it is live (FROZEN banner ⇒ § FIRST LIVE SESSION applies) |
+| `STATUS.md` | Live state; its own banner is the authority on whether it is live |
 | `boot.py` | Boot instrument: wall clock · ledger staleness · predictions-due · triggers-due. Exit 0 quiet / 1 REVIEW / 2 leg failed |
 | `closeout_check.py` · `test_boot.py` | Closeout runner: runs the mechanical closeout steps and prints PASS / LOOK / FAIL by each tool's own verdict marker, then lists the judgement steps it cannot see (does **not** certify a closeout) · falsification tests for `boot.py` and the runner (`python3 AGENTS/FERT/test_boot.py`) |
 | `workbook/TRIGGERS.tsv` | Wake register — the event-driven cadence lives here; its `Next_Check` cells are the resolution rule |

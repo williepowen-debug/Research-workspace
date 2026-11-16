@@ -1,10 +1,12 @@
 > **🧊 FROZEN — freeze EXTENDED 2026-08-17 after a dated re-look; deliberately NOT revived. Every row below is DEAD, graded history; do not cite any row as current.** Original freeze 2026-07-04 (DAEDALUS TRADE-staleness sweep, PAT-025, Will-approved). `STATUS.md` is canonical for domain state; `workbook/EXIT_PROTOCOL.md` is canonical for kill rails.
 >
-> **Next mandatory re-look: 2026-11-15** (or immediately if the EXIT_PROTOCOL §2 bullish flip fires — a China quota cut or floor reimposition above prevailing international FOB).
+> **Re-looked 2026-11-16 (D:L579, due 11/15, run one day late): freeze EXTENDED again, no row revived, no fresh book.** Record: `reports/2026-11-16_L579-trade-exit-relook.md`.
+>
+> **Next mandatory re-look: 2026-12-16** (or immediately if the EXIT_PROTOCOL §2 bullish flip fires — a China quota cut or floor reimposition above prevailing international FOB — or an India AWARD above $600/mt CFR, or the phosphate channel kill).
 
 # FERT — Trade Recommendations
 
-**Last Updated:** 2026-03-20 · **Re-looked and freeze-extended:** 2026-08-17
+**Last Updated:** 2026-03-20 · **Re-looked and freeze-extended:** 2026-08-17 · 2026-11-16
 
 ---
 
@@ -24,6 +26,16 @@ FERT holds **zero capital and proposes zero trades this session.** Trade constru
 3. A frozen file that says *why* it is frozen and *when* it will be re-looked is a working surface. An un-bannered file with three dead rows is a trap.
 
 ---
+
+## 2026-11-16 Re-look — why the freeze holds
+
+FERT holds zero capital and proposes zero trades; trade construction is TERRY's. Full record with every figure dated: `reports/2026-11-16_L579-trade-exit-relook.md`.
+
+| Question | Answer 2026-11-16 |
+|---|---|
+| Has the nitrogen channel re-opened? | No. No India tender to award (IPL page primary, 11/16 10:09 ET); Pink Sheet urea $420.0/mt Oct vs $856.9/mt Apr |
+| Does the live phosphate leg have a FERT expression? | No FERT-built one. Retail MAP is rising while the international leading edge is flat, so a G5 fire would confirm a lagging series, not start a new move. Mosaic (not CF) is the phosphate single-name; passed to TERRY via PROME for a tradeability read, not recommended by FERT |
+| Does transmission give a trade? | No. October food at home +0.4% was beef- and snacks-led; cereals and bakery 0.0 |
 
 ## Active Recommendations — ⛔ ALL DEAD (see re-look table above). Historical record only.
 

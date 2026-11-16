@@ -4,7 +4,8 @@
 **Definitions tightened: 2026-09-05** — §0 gained *"pre-break plateau level"* and *"stall ≠ reversal"* after the T11 grade found a STATUS paraphrase of Channel B leg 1 sitting above the letter. **The kill rails themselves are UNCHANGED** — this was a definition repair, not a re-derivation, and it does not reset the clock below.
 **Amended 2026-10-01 (`f3a4b8028`, rules UNCHANGED):** §1A "what killed it" distance re-stated against the G2 $600/mt AWARDED line (was an uncanonical ~$500), and an instrument note added that the NOLA leg is ungradeable while T5 is retired — so nitrogen re-opens only through an India AWARD. *(Header line added 2026-10-09 per DAEDALUS Falsification #4 flag 1.)*
 **Amended 2026-11-10 (WQ-665 B, then WQ-666 A; level UNCHANGED):** §1 Channel C QUESTION-CLOSE re-worded to the per-month reading, then given the Will-ruled window Nov 2026–Jan 2027 (ends 2027-02-11); the transmission line below aligned. No level, band, score or card moved.
-**Next mandatory re-derivation: 2026-11-15** — or immediately on any channel state change below.
+**Re-derived 2026-11-16 (D:L579, one day late; rules UNCHANGED):** every rail and both flip reads re-checked against current instruments; no level, leg, count or channel state moved. Record: `reports/2026-11-16_L579-trade-exit-relook.md`.
+**Next mandatory re-derivation: 2026-12-16** — or immediately on any channel state change below.
 
 > This file carries the DURABLE RULES. It deliberately carries **no live values** — the live read lives in `STATUS.md` with `[src M/D]` (anti-drift split, blueprint §3). If you are reading a price here, the file is malformed.
 
@@ -83,18 +84,6 @@ This rule exists because it already failed once: the March `urea NOLA >$800` lin
 
 ---
 
-## Appendix — narrative moved out of `STATUS.md` 2026-09-15 (read-cap split; historical reasoning, not a rule)
+## Appendix — rotated 2026-11-16
 
-*STATUS now carries only the live distances to each leg. The reasoning below was written 9/2–9/9 and is kept verbatim so it is not lost. **The rules above are canonical; nothing here amends them.***
-
-## Exit Rules / Kill Rail
-
-**Kill rail re-derived: 2026-08-17.** Full protocol + bidirectional flip test: `workbook/EXIT_PROTOCOL.md`.
-
-- **Nitrogen channel — already DEAD** (channel-kill, not thesis-kill). Killed by China's quota resumption, not by demand. Migration path: phosphate leg + CF single-name fundamentals.
-- **Phosphate channel — LIVE, but stalled at both ends.** Dies if Pink Sheet phosphate rock prints back at or below **$152.5/mt** — its pre-break plateau level, `EXIT_PROTOCOL.md` §Channel B leg 1 — for **2 consecutive monthly editions** **AND** DTN retail MAP prints **below $900/ton** for 2 consecutive weekly articles. **Neither leg is met, and neither is close:** rock $170.0/mt [Aug] is **11.5% above** the kill level and has moved 0.0% toward it; MAP **$959 [wk Aug 31–Sep 4]** is **6.6% above** its $900 leg and has moved **$0 in 28 days**. ⚠️ **Correction to my own 9/2 wording:** this rail was written here as *"≤$157/mt"*, which is **$4.40 looser than the letter** and would have been satisfied by June's $156.9 — a partial retrace to the break's own starting point reading as a channel kill. The letter is **$152.5**. ⚠️ **And the rail still cannot see what actually happened:** it tests for *reversal*; what occurred at both ends is a *stall*. **"Kill not triggered" is not "thesis intact"** — the honest state is *level held, momentum stopped*. Next root-end read: T11, **2026-10-02** (the World Bank's own stated next update, read 9/5), graded against prediction **FERT-11**.
-- **Transmission question — OPEN, not a carried prediction.** Dies if BLS food-at-home m/m prints <+0.4% in each of Nov 2026, Dec 2026 and Jan 2027 (last release 2027-02-11) with no upward ERS revision citing inputs (§1 Channel C, WQ-666 A).
-- **Timing vs mechanism:** the March *timing* claim is graded MISS; the mechanism is **not** refuted (`finding_market_ignoring_is_not_market_refuting`). It is un-instrumented, and re-opening it requires a fresh input shock, not a re-read of the old one.
-
----
-
+The 9/2–9/9 narrative that sat here carried September live values against this file's no-live-values rule. Moved verbatim to `archive/EXIT_PROTOCOL_appendix_2026-09-15_ROTATED.md`. History only.
