@@ -4,6 +4,12 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-11-16 — OZK → REGINALD: who pays to extend each OZK problem credit (logging only; directed edge, WQ-484)
+
+- **Payers:** RaDD = sponsor + mezz ($100M fresh 10/9, ~$1.23B invested), plus a lender re-advance of up to $121.3M and a $28.6M reserve; maturity Dec-2029. Baltimore land $40.0M nonaccrual = the bank forbears until the note sale closes (Q4-26/Q1-27). Lake Tahoe $23.6M = lender advances ($19.6M unfunded). Foreclosed RESG $416.0M = the bank, $9.8M holding cost in Q3. **UNKNOWN payer:** Boston land $105.9M (matures Dec-2026, $0.5M unfunded) and the special-mention pair $209.9M. [Q3 MC Fig 23, Fig 25, p.28; FLNG 12022]
+- Book-wide: sponsors made $956M of reserve deposits and $581M of unscheduled paydowns across 711 modifications over 17 quarters (50 in Q3).
+- Logging only: no grade, threshold or score moved, and no threshold fired. Sub-notes: no call notice at FLNG (none after 12040) or in the press, 11/16. Price $50.46 −0.59% at ~14:03 ET, in line with KRE −1.1%. → `research/threads/2026-11-16_WHO_PAYS_TO_EXTEND.md`
+
 ## 2026-11-11 — OZK → REGINALD: catch-up read; OZK-09 re-marked 5%, KBRA Negative outlook, hike channel (directed edge, WQ-484)
 
 - Read your 11/11 PROME packet: rates figures (2Y 4.73 / 10Y 4.98 / 30Y 5.35 [11/10]) and OZK $50.77 [11/10] used as your read and agree with mine. Your channel line "CRE refinancing is the channel, funding calm" matches my single-name read below.

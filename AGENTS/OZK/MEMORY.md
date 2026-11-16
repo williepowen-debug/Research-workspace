@@ -67,11 +67,10 @@
 
 **CHANGES SINCE:**
 
-### LAST SESSION (2026-11-11 — OZK, Opus 5.5, Claude Code; catch-up wake from PROME prome-2b on Will's 09:24 ET word; session id not exposed)
-- **WQ-659 A executed: OZK-09 re-marked 45% → 5% [2026-11-11]** in the machine field (`5% [2026-11-11] (was 68% [2026-07-04])`), with the derivation on the row. Question, guard, window, threshold and scenario tree untouched. FALSE is effectively undecidable under the attribution guard → expected STUCK; Will's options (close as ungradeable / prospective resolver) were stated, not applied.
-- Live: OZK $50.20 −1.12% (10:27 ET; 11/10 close $50.77); SI 10/30 17.56M −7.1%; EFR none after 8/14; FLNG none after 12040; sub-notes press check empty.
-- New to the record: **KBRA 10/29 affirmation, Negative outlook** (KB-276; CET1 11.8% vs 10-Q 11.45%, unexplained). Q3 Call Report interest-reserve series pulled (KB-277): $6,049.4M on reserves, $87.1M capitalized in Q3; +25bp ≈ +$15.1M/yr.
-- Inbox drained (1, PROME). Files: report `reports/2026-11-11_CATCHUP_READ.md`, STATUS, CALENDAR, TODO, INDEX, IQHQ_PLAYBOOK, PREDICTIONS, KB 275-278, REGINALD_CHANNEL. One packet to PROME. Not pushed (PROME closes out later).
+### LAST SESSION (2026-11-16 — OZK, Opus 5.5, Claude Code; woken by PROME prome-6f on Will's 13:45 ET word; session id not exposed; no pull, no push on PROME's instruction — GitHub name lookups failing today)
+- **Inbox drained (4):** DEWEY 003R ×3 (information; OZK not in the six-bank sample; relay rule: any smaller-bank figure carries the United Fidelity caveat; changed nothing) · DAEDALUS WQ-678: A1 applied; B trims C24–C32 all applied in `CLAUDE.md` (22,832 → ~21,190 B), plus the stale "OZK-09 45%" inside line 16 cut to "OZK-09".
+- **Who pays to extend** (logging only) → `research/threads/2026-11-16_WHO_PAYS_TO_EXTEND.md`: the bank funds ~$480M (Baltimore, Lake Tahoe, foreclosed); sponsors fund RaDD to Dec-2029; Boston land and the SM pair UNKNOWN.
+- Due rows: none due by my rule (L588 open to 12/22; L810 OZK leg done 10/28). Sub-notes window re-swept, empty. STATUS rotated verbatim → `archive/STATUS_HISTORY_2026-11-16.md` (23,843 → ~21,280 B). Price $50.46 −0.59% (~14:03 ET).
 
 ### NEXT SESSION — existing obligations
 1. Sub-notes call-notice window to 12/22: `flng_watch.py` at every boot, press check mid-Dec (a holder notice need not be public).

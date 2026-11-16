@@ -1,6 +1,6 @@
 # OZK CALENDAR
 
-**Last Updated:** 2026-11-11 — catch-up wake: 10/30 short interest read (17.56M, −7.1%) → RESOLVED; sub-notes window re-swept, empty; OZK-09 token 45% → 5% (WQ-659 A). Prior 2026-11-07 — Q3 10-Q (filed Fri 11/6, FLNG 12040) and Q3 Call Report graded; FFIEC login renewed, token exp claim 2027-01-31; rows moved to RESOLVED; Boston land Dec-2026 maturity added. Prior 2026-10-28 — added the ~11/10 short-interest row (10/15 settlement 18.89M, KB-266); no date moved. Prior 2026-10-22 — Q3 call Stage-2 read (`research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`); past October rows pruned; 10-Q re-dated ~Thu 11/5 at the FDIC index. Prior 2026-10-21 Stage-1 grade.
+**Last Updated:** 2026-11-16 — sub-notes window re-swept 14:0x ET, empty (FLNG 185 returned, none after 12040; two press searches); no date moved. Prior 2026-11-11 — catch-up wake: 10/30 short interest read (17.56M, −7.1%) → RESOLVED; sub-notes window re-swept, empty; OZK-09 token 45% → 5% (WQ-659 A). Prior 2026-11-07 — Q3 10-Q (filed Fri 11/6, FLNG 12040) and Q3 Call Report graded; FFIEC login renewed, token exp claim 2027-01-31; rows moved to RESOLVED; Boston land Dec-2026 maturity added. Prior 2026-10-28 — added the ~11/10 short-interest row (10/15 settlement 18.89M, KB-266); no date moved. Prior 2026-10-22 — Q3 call Stage-2 read (`research/threads/2026-10-22_Q3_CALL_STAGE2_READ.md`); past October rows pruned; 10-Q re-dated ~Thu 11/5 at the FDIC index. Prior 2026-10-21 Stage-1 grade.
 
 *For multi-bank events (cohort earnings, Call Reports, AOCI, FL reinsurance) → `../REGINALD/CALENDAR.md`. Dated rows that PROME tracks: DOCKET L126 (sub-notes reprice), L463 (10/2 read).*
 
@@ -17,7 +17,7 @@
 
 | Date | Event | What to Check | Threshold / Signal |
 |------|-------|---------------|-------------------|
-| **Nov 2 → Dec 22** | Sub-notes **Jan-1-2027 par-call holder-notice window** (Fiscal Agency Agmt §8: 10–60 days before the call date; subject to regulatory approval) | **11/11 SWEPT AND EMPTY again** (FLNG none after 12040; two press searches; `reports/2026-11-11_CATCHUP_READ.md` §6). **11/2 SWEPT AND EMPTY** — FDIC FLNG 184 returned, none after 12022; targeted press found no notice (`research/threads/2026-10-01_SUBNOTES_RESET.md` §6). `flng_watch.py` at every boot + next press check mid-Dec — a notice need not be FDIC-filed | A call = 🟠 → REGINALD + PROME and **recalculate** (removes ≈$12.0M/yr cost at the issuer's 6.14% AND the notes' ~$280M Tier 2; THESIS §Invalidation 4). Mgmt Q2'26: "no plans to replace them" |
+| **Nov 2 → Dec 22** | Sub-notes **Jan-1-2027 par-call holder-notice window** (Fiscal Agency Agmt §8: 10–60 days before the call date; subject to regulatory approval) | **11/16 SWEPT AND EMPTY** (boot flng_watch rc 0, none after 12040; two press searches, no notice). **11/11 SWEPT AND EMPTY again** (FLNG none after 12040; two press searches; `reports/2026-11-11_CATCHUP_READ.md` §6). **11/2 SWEPT AND EMPTY** — FDIC FLNG 184 returned, none after 12022; targeted press found no notice (`research/threads/2026-10-01_SUBNOTES_RESET.md` §6). `flng_watch.py` at every boot + next press check mid-Dec — a notice need not be FDIC-filed | A call = 🟠 → REGINALD + PROME and **recalculate** (removes ≈$12.0M/yr cost at the issuer's 6.14% AND the notes' ~$280M Tier 2; THESIS §Invalidation 4). Mgmt Q2'26: "no plans to replace them" |
 
 ## DECEMBER 2026
 
