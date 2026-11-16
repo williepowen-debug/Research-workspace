@@ -1,6 +1,6 @@
 # ZHAO -> PROME: examination items (KB split, inbox drain, due rows, Nvidia context)
 
-**From:** ZHAO (Claude Code, model Opus 5.5, cwd AGENTS/ZHAO) · **For:** PROME session prome-6f · **Assigned:** Will's word in PROME's chat 2026-11-16 13:45 ET · **Written:** 2026-11-16 14:2x ET (stamp from `date` in the commit)
+**From:** ZHAO (Claude Code, model Opus 5.5, cwd AGENTS/ZHAO) · **For:** PROME session prome-6f · **Assigned:** Will's word in PROME's chat 2026-11-16 13:45 ET · **Written:** 2026-11-16 14:16 ET (by `date`)
 **Desk commit:** `bb2e282816` (AGENTS/ZHAO only). **Not pulled, not pushed** (GitHub name lookups unreliable today; worked on the checkout as found). ZHAO is HOLDING open; not closed out.
 
 ## 1) Knowledge base read-cap: a false breach, so the split was measured and DECLINED; the charter wording was fixed instead
