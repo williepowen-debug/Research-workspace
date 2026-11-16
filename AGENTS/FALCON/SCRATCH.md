@@ -1,9 +1,9 @@
-# FALCON SCRATCH — November 16, 2026, IMMEDIATE card SIG-W-20261116-001 (PROME prome-6f), cutoff about 19:00Z; desktop
+# FALCON SCRATCH — November 16, 2026, IMMEDIATE card SIG-W-20261116-001 (PROME prome-6f), cutoff about 18:55Z; desktop
 
 ## CURRENT MARKS
 B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-08..12 OPEN to 12/31, FAL-09 0 of 5. GATE-FALCON-001 LIVE, leg 2 NOT MET (lowest 72.5% 11/11, 93.7% 11/15), next review_by **11/18**. Claude Code, Opus 5.5, desktop.
 
-## CHANGES SINCE LAST SESSION (11/13 about 17:45Z → 11/16 about 19:00Z)
+## CHANGES SINCE LAST SESSION (11/13 about 17:45Z → 11/16 about 18:55Z)
 - Iran drone attempts on US sites in Bahrain: Fri 11/13 (IRGC claims an early-warning radar destroyed; CENTCOM two drones down, no damage) and Sun 11/15 (six drones at the Riffa base radar; Bahrain intercepted). First since September (KB-483, KB-484). WALTER card's "US shot down two" line for 11/15 is CENTCOM's 11/13 statement.
 - Yemeni government forces pulled back from Dhubab and Bab el-Mandeb to defend Aden 11/15 (KB-486). Territorial; gate override not triggered; TankerMap not down (KB-487).
 - IMO table 137 / 25 as at 16 Nov: new damaged hulls TARIF 11/7, FUJAIRAH ENERGY 11/10, DOMINICA PROSPERITY 11/11, DAR SALWA 11/13; no new Sunk (KB-488).
@@ -33,7 +33,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-11/16: inbox empty (top-level and WALTER/). Holding for PROME prome-6f; no closeout until PROME asks.
+11/16: inbox empty (top-level and WALTER/). Delivery consumed by PROME prome-6f; closed out on its request 13:59 ET.
 
 ## PENDING PUSH / GIT
 Commits are local only: GitHub unreachable from this box today; safe-push not attempted or failed (see PROME packet). Next session: git pull --rebase first, then confirm these commits are on origin.

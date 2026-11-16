@@ -1,6 +1,6 @@
 # FALCON STATUS
 
-**Updated:** 2026-11-16 about 14:10 ET, IMMEDIATE card SIG-W-20261116-001 (PROME prome-6f, WQ-369): Bahrain attempts 11/13 and 11/15, Bab el-Mandeb pullback, inbox drained; evidence cutoff about 19:00Z 11/16. Report [11/16 card](reports/2026-11-16_bahrain-bab-card-grade.md). Runtime Claude Code, Opus 5.5, desktop; GitHub unreachable, no pull. Prior: 11/13 12:49 ET, WQ-538 commission ([report](reports/2026-11-13_wq538-saudi-bypass-claims-grade.md)); 11/11 about 08:45 ET, weekly + gate review ([report](reports/2026-11-11_weekly-review-gate001-card008.md)); 11/09 about 11:00 ET, catch-up ([report](reports/2026-11-09_catchup-read.md)); 11/08 read 2; 11/07 read 1; 11/06 FAL-06 and EXIT v4. Weekly + gate review 11/04 ([report](reports/2026-11-04_weekly-review-gate001-fal07.md)).
+**Updated:** 2026-11-16 13:56 ET (closeout 13:59 ET), IMMEDIATE card SIG-W-20261116-001 (PROME prome-6f, WQ-369): Bahrain attempts 11/13 and 11/15, Bab el-Mandeb pullback, inbox drained; evidence cutoff about 18:55Z 11/16. Report [11/16 card](reports/2026-11-16_bahrain-bab-card-grade.md). Runtime Claude Code, Opus 5.5, desktop; GitHub unreachable, no pull. Prior: 11/13 12:49 ET, WQ-538 commission ([report](reports/2026-11-13_wq538-saudi-bypass-claims-grade.md)); 11/11 about 08:45 ET, weekly + gate review ([report](reports/2026-11-11_weekly-review-gate001-card008.md)); 11/09 about 11:00 ET, catch-up ([report](reports/2026-11-09_catchup-read.md)); 11/08 read 2; 11/07 read 1; 11/06 FAL-06 and EXIT v4. Weekly + gate review 11/04 ([report](reports/2026-11-04_weekly-review-gate001-fal07.md)).
 
 ## Current marks and authority
 
@@ -21,9 +21,9 @@
 
 ## November 16, IMMEDIATE card SIG-W-20261116-001 (current)
 
-Report: [11/16 card](reports/2026-11-16_bahrain-bab-card-grade.md). Window about 17:45Z 11/13 to about 19:00Z 11/16.
+Report: [11/16 card](reports/2026-11-16_bahrain-bab-card-grade.md). Window about 17:45Z 11/13 to about 18:55Z 11/16.
 
-| Object | Reading, cutoff about 19:00Z November 16 |
+| Object | Reading, cutoff about 18:55Z November 16 |
 |---|---|
 | Bahrain 11/13 (Fri) | **ATTEMPT, VERIFIED.** IRGC claims a US early-warning radar destroyed (retaliation for a Sirik tower strike 11/12, attacker NOT ESTABLISHED); CENTCOM: two drones shot down, no injuries or damage; first Iranian targeting of Bahrain since September (KB-483) |
 | Bahrain 11/15 (Sun) | **ATTEMPT, intercepted per Bahrain.** IRGC: six drones at the Riffa base radar; Bahrain MoFA holds Iran responsible. ⚠️ WALTER card's "US shot down two" line is CENTCOM's 11/13 statement; no CENTCOM 11/15 statement found (KB-484) |

@@ -1,6 +1,6 @@
 # FALCON — Bahrain attempts, Bab el-Mandeb pullback, inbox drain (2026-11-16)
 
-**Wake:** PROME prome-6f, IMMEDIATE card SIG-W-20261116-001 (WQ-369 standing class). Runtime Claude Code, Opus 5.5, desktop. Evidence cutoff about 19:00Z November 16. GitHub unreachable all session (fetch: could not resolve host); worked on the local checkout, no pull.
+**Wake:** PROME prome-6f, IMMEDIATE card SIG-W-20261116-001 (WQ-369 standing class). Runtime Claude Code, Opus 5.5, desktop. Evidence cutoff about 18:55Z November 16 (stamp corrected at closeout; first written as 19:00Z, ahead of the clock). GitHub unreachable all session (fetch: could not resolve host); worked on the local checkout, no pull.
 
 ## 1. What changed and what did not
 
