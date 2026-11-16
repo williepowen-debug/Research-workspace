@@ -1,0 +1,21 @@
+{
+ "schema": 2,
+ "staged_at": 1794854843.5568633,
+ "items": [
+  {
+   "id": "2122397406117466145",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261116-006-Live-US-bank-login-outage-Chase-acknowledges-technical-issue-Bank-of-America-US-Bank-Wells-Fargo-reported-Zelle-cause-unknown.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122358893011677201",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261116-007-Will-bookmark-NYT-US-life-insurers-held-85.2B-AI-debt-at-June-30-up-24pct-in-six-months-Athene-Corebridge-Moodys-185B-by-end-2027-Barclays-15pct-of-AI-data-center-debt.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "de4a616501314e8f8e15ca0c617bdc35"
+}
