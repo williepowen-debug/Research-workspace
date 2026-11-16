@@ -1,0 +1,83 @@
+{
+ "checked_at_utc": "2026-11-16T15:1x",
+ "bank": "EagleBank RSSD 2652092",
+ "ffiec_endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile (period 9/30/2026, SDF)",
+ "refetch_sha256": "a4b07063cc10f7ba0cb0c19b8dc0e84f30e36455ab2cb39e8dce90904df3f991",
+ "prior_copy": "research/2026-11-11_003R-next-pass/egbn-9-30-2026.sdf",
+ "prior_sha256": "a4b07063cc10f7ba0cb0c19b8dc0e84f30e36455ab2cb39e8dce90904df3f991",
+ "last_update_field_values": [
+  "20261029"
+ ],
+ "sec_submissions": "https://data.sec.gov/submissions/CIK0001050441.json",
+ "sec_filings_since_2026-11-11": [
+  {
+   "date": "2026-11-16",
+   "form": "SCHEDULE 13G/A",
+   "accession": "0001897612-26-000723"
+  },
+  {
+   "date": "2026-11-13",
+   "form": "SCHEDULE 13G/A",
+   "accession": "0001214659-26-014117"
+  },
+  {
+   "date": "2026-11-13",
+   "form": "4",
+   "accession": "0001628280-26-073661"
+  },
+  {
+   "date": "2026-11-13",
+   "form": "144",
+   "accession": "0001628280-26-073658"
+  },
+  {
+   "date": "2026-11-12",
+   "form": "4",
+   "accession": "0001783612-26-000005"
+  },
+  {
+   "date": "2026-11-12",
+   "form": "4",
+   "accession": "0001441890-26-000007"
+  }
+ ],
+ "candidate_cells_tested": {
+  "Q2": {
+   "residual": 135,
+   "RCRII_5a_100pct_RCONS443": 104,
+   "RCN_guaranteed_portion_RCONK041": 48,
+   "sum": 152
+  },
+  "Q3": {
+   "residual": 167,
+   "RCRII_5a_100pct_RCONS443": 76,
+   "RCN_guaranteed_portion_RCONK041": 46,
+   "sum": 122
+  }
+ },
+ "rcn_1to4_family_nonaccrual": {
+  "Q2": 5641,
+  "Q3": 4907
+ },
+ "coverage_sensitivity": {
+  "Q2": {
+   "ACL": 121141,
+   "noncurrent": 136915,
+   "cov": 88.479,
+   "cov_ex_residual": 88.566
+  },
+  "Q3": {
+   "ACL": 120781,
+   "noncurrent": 179722,
+   "cov": 67.204,
+   "cov_ex_residual": 67.267
+  }
+ },
+ "q3_placement_sensitivity": {
+  "eligible": 1012,
+  "strictly_lower_at_67.204": 125,
+  "other_banks_between_67.204_and_67.267": 0,
+  "percentile_unchanged": 12.4,
+  "source": "research/2026-11-11_003R-population/current-bank-rows.tsv, method METHOD.md"
+ }
+}
