@@ -1,11 +1,11 @@
 # ISHM — NEXUS Brief
 
-**Status:** 🟡 — Physical equipment buying well supported; factory upturn strong but slowing, durability unproved.
+**Status:** 🟡 — Physical equipment buying well supported; factory upturn real but narrow and slowing, durability unproved.
 **Domain:** US manufacturing cycle, domestic/imported equipment and freight; downstream owners retain thesis judgments.
 **Recent thesis pivot:** WQ-643 A, November 6 20:31 ET: R1 re-pointed to the November S&P final, December 1, date PRIMARY at the issuer calendar. November 6 close: October truck orders fell sharply (ACT preliminary 13,500, -45% y/y) on what both issuers call EPA 2027 uncertainty; factory payrolls +19K. Earlier the same day, the original S&P October final moved R1 toward-real from CANNOT-FIRE to NOT-MET. No flip fired, and no score, band, gate or threshold changed.
-**As of:** 2026-11-16 10:23 ET | STATUS commit: `c14d3613be2181339f5d37343adf70b7748bdc4c`
+**As of:** 2026-11-17 09:19 ET | STATUS commit: `25cd59c04493a096431ca17090d866bdf8d287ae`
+**November 17 due-row wake:** Fed G.17 October (PRIMARY, preliminary): total IP −0.4% (utilities −4.3%), manufacturing +0.3% for a second month but −0.1% excluding motor vehicles and parts; business equipment +1.0%; utilization 76.4%. October survey strength has not shown up as broad measured output. VX-ISH-02 unchanged at 2; annual revision November 24 restates levels. No score, band, gate or threshold changed.
 **November 16 due-row wake:** Cass October published (shipments +5.9% y/y, NSA; SA m/m +1.7%), J2 deterioration NOT-MET; Empire November general 7.8 from 25.5, new orders 3.0 from 23.2, employment 18.1, sign positive, no band; J2 sample gained the October month (freight-up), counts unchanged. No score, band, gate or threshold changed.
-**November 13 due-row wake:** Cass October not published at 10:21 ET (re-dated November 16, nothing graded); J2 sample gained the matured July forward window, +47.9 bp, forward 28/33 at ≤25 bp; Deere Q4 call November 25 confirmed at the issuer. No score, band, gate or threshold changed.
 
 ## CROSS-DOMAIN
 
@@ -14,7 +14,7 @@
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
 | VULCAN | September computers plus accessories imports +150.96% y/y, Q3 +28.639% q/q on one Census vintage; S&P names AI-related demand, no measured share | P2 | Existing physical-demand contraction warning stays NOT-MET; mixed-vintage caveat closed. Nominal, not AI-only; timing surge not excluded. VULCAN owns the verdict |
-| HENRY | S&P October final 54.9, orders and output slower than September; Parker orders +13% vs +12% rolling 12-month | P3 | Cycle read, not a cycle-turn call. Parker backlog and adjusted EPS raise carry the Filtration Group caveat |
+| HENRY | November 17: October IP, manufacturing +0.3% but ex autos −0.1%, business equipment +1.0%. Earlier: S&P October final 54.9, orders and output slower than September; Parker orders +13% vs +12% rolling 12-month | P3 | Cycle read, not a cycle-turn call. Parker backlog and adjusted EPS raise carry the Filtration Group caveat |
 | CARL | S&P output prices steepest since September 2022; ISM prices 75.2 from 77.9; Parker $27M returns, $6M received | P3 | Inflation read stays CARL's. Refund accounting is not new tariff cost; the two survey measures are different series |
 | LABOR | S&P hiring steepest since April 2021; ISM employment 52.4 from 52.7 | P3 | Survey disagreement in size; LABOR keeps the figure. No trigger; ISM <47 NOT-FIRED |
 | LIQUID, RED | November 16: Cass October +5.9% y/y, J2 test NOT-MET, counts unchanged. November 13: J2 matured window, July 2026 (Cass -4.84% y/y) followed by +47.9 bp HY widening; forward 28/33 at ≤25 bp. Cass had turned positive in August/September before the widening, so not freight-led. Earlier: October Class 8 preliminary ACT 13,500, -45% y/y | P2 | J2 volume input only, qualified for EPA 2027 order timing; no condition fires. Credit and probability reads stay with them |
