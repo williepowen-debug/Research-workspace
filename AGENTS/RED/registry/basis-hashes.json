@@ -1,6 +1,6 @@
 {
   "boot_step_range": "RED:0-9e",
-  "declared_on": "2026-11-12",
+  "declared_on": "2026-11-17",
   "desk": "RED",
   "hashes": {
     "AGENTS/RED/CLAUDE.md": "7f7fa82a3513412b87fb2edfcb87fcd3994bab375c43caaa5b0f3fa715dc5884",
@@ -13,7 +13,7 @@
     "AGENTS/RED/scripts/schema_check.py": "a3dabbba359ba2a2e30079010f1688ac50f9bd0e4498b52cf7c2207b45631538",
     "AGENTS/RED/scripts/status_mirrors.py": "cb58ccc4f4d87a6aa5159fda2f376e76e1a685d078ef5235e91cfbd82c2f79e8",
     "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "74603baff6d688742beb400ce2f08d47692aeedec90119a0abe5f7f2397dd7fe",
-    "CLAUDE.md": "6ef76a671371d9ea72755ebaa3df49aa70a7446d2c6ac0493bcd56266158e5a5",
+    "CLAUDE.md": "54b133492fe46cadda781b788b1d4d842b0cf69e6c8ff69c9b062a0c2349496f",
     "FORGE/tools/market-data/fetch.py": "69a2567b83973dcf67cce4372b1c3507ca2b3e453ca242f5deff3ec249dfc1bc",
     "scripts/corrections_boot_check.py": "0c01347df227938c66ac72b3b5b064a9787f14587f1858aa0fa2e5b83f31bc7f",
     "scripts/ledger_staleness.py": "bfff9fd5f281e373791bcee230700398a0f4c18fe5cc273d4b12b8ac63f1931e"
@@ -152,6 +152,13 @@
       "moved": [
         "AGENTS/RED/CLAUDE.md",
         "AGENTS/RED/scripts/closeout_check.py"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "note": "S66 11/17: root CLAUDE.md WQ-701 (a68a32d8ca) read: charter ceiling 50000 B for desk charters (RED charter 27.9 KB, the 10/28 revisit trigger of 29295 B was 90 pct of the old 32550 budget), Blocked-sites rule added (RED sources FRED, Cboe cdn, SEC compliant), bare git pull sentence removed (RED boot step 0 already explicit). No RED rule change.",
+      "moved": [
+        "CLAUDE.md"
       ]
     }
   ],

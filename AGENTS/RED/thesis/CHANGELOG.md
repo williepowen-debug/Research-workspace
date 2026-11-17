@@ -4,6 +4,13 @@
 
 ---
 
+## S66 — 2026-11-17 08:45 ET (from `date`; PROME prome-19 due-row wake, not a closeout) — **NO WEIGHT MOVED. HOLD 72 · net-bear 67 unchanged. One registered-trigger exit COUNT moved (FT-06 0 of 5 → 2 of 5); no fire, no exit. One challenge closed.**
+
+- **CHG-RED-045 → RESOLVED.** Old view (11/10): "open to 11/17 only for Will's reopen decision; RED does not recommend reopening." New view: "no reopen word from Will (WILL_QUEUE, PROME SCRATCH and proposals checked 08:39 ET); closed on the governing re-spec, NOT FIRED at Q3 (23bp of 100bp). On the official measure the evidence runs against CARL's thesis; that is CARL's to weigh."
+- **FT-06 exit:** Old view: "run broke at 4 of 5 on 17.49 [11/11]; 0 of 5." New view: "a new run, 2 of 5 on VIXCLS 18.70 [11/12] and 19.30 [11/13]; Cboe 22.91 [11/16] indicates 3; earliest completion the 11/18 close, read 11/19, executing Stag +2 / Managed −2 on the row's letter."
+- **VX-RED-002 (real wages) graded on two vintages:** first-published Jun–Sep negative 4 (MET); current vintage broken at August (+0.01pp after an AHETPI revision; Sep −0.42 → −0.33). Weights 20/80 held by discretion, labelled; the vintage goes into the letter before the 12/10 print. Bull steelman point 2's "four straight months" is corrected in STATUS.
+- **Context, no weight:** a real-rate shock (DFII10 2.66 → 2.91, DGS10 4.88 → 5.15 [11/09 → 11/13]) with 5y5y at 2.15 [11/16]; HY 323, CCC 1,316 [11/13]; SPX 7,416.59 [11/16] under its 50-DMA after an Nvidia governance shock. Feeds the next re-derivation once (after 12/04 payrolls or a registered fire, whichever first).
+
 ## S63 — 2026-11-12 09:5x ET (from `date`; desktop, Will's word 08:53 ET "ok go") — **ONE DISCRETIONARY MOVE: Stag −1 / Managed +1, net-bear 68 → 67. HOLD 72 unchanged. One registered-trigger state changed: FT-06 exit run broke (4 of 5 → 0 of 5); no fire, no exit.**
 
 - **FT-06 / RED-29:** VIXCLS 17.49 [11/11], FRED first-published 09:48 ET, equal to Cboe. Old view: "4 of 5 at 19.46 [11/10]; one more close ≥18 executes Stag +2 / Managed −2." New view: "the run broke on its last day; exit 0 of 5; a later run is a new clock." RED-29 (50pct) WRONG, EVENT FALSE. No mechanical move.
@@ -818,6 +825,8 @@ Net bear: 53% → **53%** (=) | Net managed/rescue: 46% → **44%** | Soft: 3%.
 
 ## 2026-05-21 — MI3 Binary Didn't Print; B1/B3/V4 Fired Separately; REGINALD V2.2 Acceptance; Jun Stack Capitulation; RED-11 RESOLVED CORRECT (Session 13 on Claude Code, 8-day gap from Session 12)
 
+> ⚠️ **ID note added 2026-11-17 (S66, outside-audit item 1; text below left as written):** in this entry the labels RED-11, RED-12, RED-13 and RED-14 name the 4/30 calls that the prediction canon files as **RED-16 (VIX ≥25), RED-17 (Dated Brent <$115), RED-18 (Brent Dec-26 $80–95), RED-19 (US rigs 400–415)** in `workbook/PREDICTIONS.tsv`. Canon RED-11 to RED-14 are different 4/18 calls (WAL/OZK Q1 beats, SOFR below IORB, HY re-widens above 300, Brent paper below $85). Drift found and fixed in the canon 5/21 (ML-RED-068); cite the canon ID.
+
 **Confidence:** 75% → **73%** (-2)
 
 **Competing hypotheses re-balanced — direction holds, quality shifts:**
@@ -890,6 +899,8 @@ Net bear: 52% → **53%** (+1) | Net managed/rescue: 47% → **46%** (-1) | Soft
 
 ## 2026-05-13 — WAL Post-IDay Reassessment + Stagflation Regime Tape-Realization + CHG-RED-025 RESOLVED-CONVERGED (Session 12 on Claude Code, 7-day gap from Session 11)
 
+> ⚠️ **ID note added 2026-11-17 (S66, outside-audit item 1; text below left as written):** in this entry the labels RED-11, RED-12, RED-13 and RED-14 name the 4/30 calls that the prediction canon files as **RED-16 (VIX ≥25), RED-17 (Dated Brent <$115), RED-18 (Brent Dec-26 $80–95), RED-19 (US rigs 400–415)** in `workbook/PREDICTIONS.tsv`. Canon RED-11 to RED-14 are different 4/18 calls (WAL/OZK Q1 beats, SOFR below IORB, HY re-widens above 300, Brent paper below $85). Drift found and fixed in the canon 5/21 (ML-RED-068); cite the canon ID.
+
 **Confidence:** 73% → **75%** (+2)
 
 **Competing hypotheses rebalanced — bear regains lead by +3:**
@@ -945,6 +956,8 @@ Net bear: 49% → **52%** (+3) | Net managed/rescue: 49% → **47%** (-2) | Soft
 ---
 
 ## 2026-05-06 — Apr 21 / Apr 22 Catalyst Reconciliation (Session 8 on Claude Code, after 17-day gap)
+
+> ⚠️ **ID note added 2026-11-17 (S66, outside-audit item 1; text below left as written):** in this entry the labels RED-11, RED-12, RED-13 and RED-14 name the 4/30 calls that the prediction canon files as **RED-16 (VIX ≥25), RED-17 (Dated Brent <$115), RED-18 (Brent Dec-26 $80–95), RED-19 (US rigs 400–415)** in `workbook/PREDICTIONS.tsv`. Canon RED-11 to RED-14 are different 4/18 calls (WAL/OZK Q1 beats, SOFR below IORB, HY re-widens above 300, Brent paper below $85). Drift found and fixed in the canon 5/21 (ML-RED-068); cite the canon ID.
 
 **Confidence:** 70% → **73%** (pre-committed trigger fired: "either miss + tape muted/crushed → +3"; both missed muted, so +3, not +6)
 

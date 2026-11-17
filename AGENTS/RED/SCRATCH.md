@@ -45,3 +45,11 @@ See the closeout message. Shared tree holds other desks' dirty files (CYPHER, DA
 - No weight, trigger, prediction, challenge or catalyst change. 5 PROME packets logged + filed; board_log rotated (7 rows).
 - Next entry point unchanged: NEXT SESSION item 1 (Fri 11/13 KB wave).
 
+
+## ADDENDUM S66 — 2026-11-17 08:45 ET (from `date`; PROME prome-19 due-row wake; NOT a closeout, holding for PROME)
+- Note: S65 (11/16 20:58 ET) was a narrow PROME-relay session (closeout_check read range, FT-02 grade); the 11/13 KB wave in NEXT SESSION item 1 never ran until today.
+- **CHG-RED-045 RESOLVED** (no reopen word from Will; re-spec NOT FIRED stands). CATALYSTS and CALENDAR mirrored.
+- **FT-06 exit 2 of 5** [11/13]; Cboe 22.91 [11/16] indicates 3; FRED VIXCLS for 11/16 publishes about 09:48 ET today. **11/19 read decides it** (11/17 and 11/18 closes ≥18 → Stag +2 / Managed −2 mechanical, net-bear 69).
+- PROME packets drained (2): audit item 1 partly right (CHANGELOG aliases added, no renumber); item 2 disagreed in part; 12 stale KB rows dispositioned (6 refreshed, 4 DATED-HISTORICAL, KB-052 held to 12/15, KB-110 to 11/20). Corrections COR-20261112-03 and COR-20261116-09 receipted NO-OP. Basis re-hashed (root CLAUDE.md WQ-701).
+- **Owed:** VX-002 vintage letter before 12/10 (first-published vs current; Aug now +0.01pp). Four VX rows reviewed 10/14 (006, 012, 015, 017) due by 11/28. CHG-057 11/19 (Nvidia results tonight). Zweig tree by 11/20. KB-110 + combo themes 11/20. board_log at 66.9%, rotate at closeout. The charter revisit trigger (29,295 B = 90% of 32,550) is stale after WQ-701's 50,000 B charter ceiling; re-state at closeout.
+- Next entry point: PROME's word; then FRED 11/16 VIX cell, then NEXT SESSION items 4–6.

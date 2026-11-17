@@ -119,3 +119,11 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-16T20:58:07-05:00	2026-11-16_from-PROME_board-ledger-gap-SIG-W-20261113-002	acted	INBOX_GENERAL	S65 gap closed: SIG-W-20261113-002 logged this session
 2026-11-16T20:58:07-05:00	2026-11-13_from-ISHM_j2-matured-window	noted	INBOX_GENERAL	S65 J2 base rate 28/33 freight-down months <=25bp HY widening; Jul-Oct +47.9bp ran with freight UP, not freight-led per ISHM; no RED weight
 2026-11-16T20:58:07-05:00	2026-11-16_from-ISHM_j2-cass-october	noted	INBOX_GENERAL	S65 Cass Oct shipments +5.9% y/y, J2 deterioration test NOT-MET, counts unchanged; no RED weight
+2026-11-17T08:44:48-05:00	2026-11-16_from-PROME_outside-audit-items-verify-first	acted	INBOX_GENERAL	S66 item 1 PARTLY RIGHT: canon IDs unique, CHANGELOG 5/06-5/21 labels RED-11..14 = canon RED-16..19, dated alias notes added, no renumber. Item 2 DISAGREE in part: VX pin 10/14 inside 45d rule, specs and FROZEN files are not stale data
+2026-11-17T08:44:48-05:00	2026-11-16_from-PROME_stale-KB-rows-retire-or-refresh	acted	INBOX_GENERAL	S66 12 rows: 6 refreshed, 4 re-classed DATED-HISTORICAL, 2 re-dated with reason (KB-052 to 12/15 gate, KB-110 combo to 11/20); review_debt KB 0 past Stale_By
+2026-11-17T08:44:48-05:00	SIG-W-20261116-002	noted	BOARD	S66 Nvidia governance shock context for KB-106 and VX-025 grade, vol rise not a war rung; CHG-057 re-review 11/19 reads it
+2026-11-17T08:44:48-05:00	SIG-W-20261116-011	noted	BOARD	S66 SPX 7416.59 [11/16] matches own yfinance close, VX-007 leg B SPX leg met, VIX leg short by 0.09
+2026-11-17T08:44:48-05:00	SIG-W-20261116-007	noted	BOARD	S66 life insurers 85.2B AI debt: AI root, candidate for AI-funding theme at CHG-057 11/19, not KB-110
+2026-11-17T08:44:48-05:00	SIG-W-20261113-005	noted	BOARD	S66 Car-Mart standstill: listed unread candidate member on combo KB-110, not scored
+2026-11-17T08:44:48-05:00	SIG-W-20261112-003	info-only	BOARD	S66 correction COR-20261112-03 receipted NO-OP, RED never cited
+2026-11-17T08:44:48-05:00	SIG-W-20261116-009	info-only	BOARD	S66 correction COR-20261116-09 receipted NO-OP, RED never cited

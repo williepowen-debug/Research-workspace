@@ -105,3 +105,5 @@ receipt_date	correction_id	action	note
 2026-11-12T13:53Z	COR-20261111-06	NO-OP	scope=RED carries no Abqaiq intercept claim, only Abqaiq refs are the 10/8 FIRMS anomaly in a dated S54 report, a different event; 
 2026-11-12T13:53Z	COR-20261111-13	NO-OP	scope=RED cites no Saudi 10.563 or the 1.36 mb/d gap, BRENT owns which figure travels; 
 2026-11-12T13:53Z	COR-20261111-25	NO-OP	scope=RED graded HHDC from CARL figures with no reference to the wrong path, figures unchanged; 
+2026-11-17T13:44Z	COR-20261112-03	NO-OP	scope=RED never cited the Huang ouster report time or card 002, grep of AGENTS/RED live files 2026-11-17 finds no Huang reference; 
+2026-11-17T13:44Z	COR-20261116-09	NO-OP	scope=RED never cited card 001 or the CENTCOM drone statement date, no Bahrain or Riffa reference in AGENTS/RED live files 2026-11-17; 
