@@ -19,7 +19,12 @@ entities: ["SoftBank", "OpenAI", "gold", "UK gilts", "ECB", "Joachim Nagel", "TW
 word_count: 682
 dispatch_note: "WQ-622 A small-items fold, WQ-684 A title skim over three batches (352 titles; the 11/14 batch was rewritten by the collector after the 11/14 mark and re-scanned). No directed ask, so no ACTION line. CARL and PROME pull-complete INFO."
 event_window: "closed"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-17
+status_ref: "SIG-W-20261117-002 — item 8 Credit Acceptance $694M settlement is the 2026-09-17 event already routed on SIG-W-20260924-005/-013 (OTTO); DUP, not a new settlement"
 ---
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261117-002 (OTTO):** item 8's Credit Acceptance $694M multistate settlement is the September 17 event already routed on SIG-W-20260924-005 (corrected by -013); a DUP, not a new settlement.
+
 # Small items Nov 15-16: SoftBank seeks over $11B in junk bonds for OpenAI (LIQUID); gold at a 1-year low (MIDAS); UK 2-year gilt at 5%, Nagel says another ECB hike 'highly probable' (HANS, BOND); TWG Global probe and Egan-Jones records (SHADE); DRAM price-fixing suit survives (VULCAN); dups and kills
 
 All titles only unless marked. 352 lane titles read (three batches; the Nov 14 file was rewritten by the collector after Saturday's mark and re-read whole).
