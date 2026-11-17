@@ -1,0 +1,13 @@
+BZF27.NYM {'vwap': 93.1479, 'bars': 2, 'pos_bars': 2, 'vol': 303, 'last': '2026-11-17T14:35:00-05:00', 'last_close': 93.13999938964844}
+BZG27.NYM {'vwap': 90.3817, 'bars': 2, 'pos_bars': 2, 'vol': 413, 'last': '2026-11-17T14:34:00-05:00', 'last_close': 90.41000366210938}
+BZH27.NYM {'vwap': 88.0559, 'bars': 2, 'pos_bars': 2, 'vol': 347, 'last': '2026-11-17T14:31:00-05:00', 'last_close': 88.18000030517578}
+CLZ26.NYM {'vwap': 86.03, 'bars': 2, 'pos_bars': 2, 'vol': 7536, 'last': '2026-11-17T14:35:00-05:00', 'last_close': 85.95999908447266}
+HOF27.NYM {'vwap': 3.9666, 'bars': 2, 'pos_bars': 2, 'vol': 1738, 'last': '2026-11-17T14:35:00-05:00', 'last_close': 3.9697000980377197}
+RBF27.NYM {'vwap': 2.5029, 'bars': 2, 'pos_bars': 2, 'vol': 1976, 'last': '2026-11-17T14:35:00-05:00', 'last_close': 2.505000114440918}
+HOZ26.NYM {'vwap': 4.0482, 'bars': 2, 'pos_bars': 2, 'vol': 2227, 'last': '2026-11-17T14:35:00-05:00', 'last_close': 4.051499843597412}
+RBZ26.NYM {'vwap': 2.5354, 'bars': 2, 'pos_bars': 2, 'vol': 906, 'last': '2026-11-17T14:35:00-05:00', 'last_close': 2.537899971008301}
+CLF27.NYM {'vwap': 84.66, 'bars': 2, 'pos_bars': 2, 'vol': 5123, 'last': '2026-11-17T14:35:00-05:00', 'last_close': 84.61000061035156}
+BRT-33 M1-M3 5.092
+M1-M2 2.7662
+Jan 3:2:1 32.4657
+Dec crack HO-CL 83.9944
