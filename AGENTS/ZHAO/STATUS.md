@@ -1,11 +1,11 @@
 # ZHAO STATUS
 
-**Updated:** 2026-11-16 14:15 ET (by `date`) — **PROME prome-6f assignment on Will's 13:45 ET word.** ① KB read-cap flag was a FALSE breach (checker matched "item read on a card"; no boot step reads KB.tsv whole). Split measured and declined: PROME's hot criteria select 109 rows, 222,310 B, 6.8× the budget. Charter wording fixed instead; checker now rc 0 (KB-269). ② Inbox drained 7 of 7 (KB-277). ③ Due rows graded: October credit (KB-270), October activity (KB-271); NFRA Q3 not out, re-dated 11/20 (KB-272). ④ Nvidia/Treasury item read against the record (KB-274). **No score, band, threshold or prediction moved.** Prior: 2026-11-11 10:19 ET.
-📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① **October was weak at home:** bank loans SHRANK about RMB 100B in the month, retail sales +0.4%, investment −8.1% YTD and worsening, property investment −21.6% YTD (NBS primary 11/16). Exports and producer prices are the strength; households and firms are not borrowing. V5b rescore (now 3) is owed with this data. ② **Trump meets Xi in Shenzhen Thu 11/19** (trilateral with Putin after; China silent on it). Only an instrument counts, never a readout. ③ **September TIC + ZHA-22 + BIS re-check Wed 11/18** (not pre-graded). ④ HK peg calm: aggregate balance moves 11/9–11/16 were discount-window flows, HKMA market activity +0 every day. ⑤ LPR 11/20, 公告2024年第46号 clause 2 ends 11/27. **Live 11/16 14:09 ET (boot.py, intraday):** USD/CNY 6.65 · fix 6.7141 · USD/KRW 1,336.20 · Brent $92.43 (`BZ=F`) · USD/HKD 7.8457 · aggregate balance HK$54,055M · 1M HIBOR 2.66327%.
+**Updated:** 2026-11-17 12:06 ET (by `date`) — **C8 wake by PROME prome-19 on WALTER IMMEDIATE card SIG-W-20261117-007** (US remote-access chip rule 11/16; China vows countermeasures). ① **China's answer, read at MOFCOM's own page: a CONDITIONAL threat** — countermeasures 「若美方一意孤行」 (if the US persists), none named, no instrument on the lists (KB-278). Foreign ministry 11/17: "necessary measures", nothing named. Minerals as the target = claim only. ② **Record gap closed:** three 11/9 Chinese two-month suspensions (24% counter-tariff, 16-entity control list, 11-entity unreliable-entity list) were never logged; new CATALYSTS row 2027-01-09 (KB-279). ③ **China confirmed the Shenzhen trilateral 11/16, not the bilateral** (KB-280). ④ **Nothing moved by the letter** (KB-281). ⑤ Inbox 2 of 3 drained; stale-KB-rows packet queued for the next ordinary session. Prior header → `archive/STATUS_COLD_20261117.md` §ⓐ.
+📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① **October was weak at home:** bank loans SHRANK about RMB 100B in the month, retail sales +0.4%, investment −8.1% YTD and worsening, property investment −21.6% YTD (NBS primary 11/16). Exports and producer prices are the strength; households and firms are not borrowing. V5b rescore (now 3) is owed with this data. ② **Trump meets Xi in Shenzhen Thu 11/19** (trilateral with Putin after; **China confirmed the trilateral 11/16, not the bilateral**, KB-280). China threatened conditional countermeasures over the 11/16 US chip rule (KB-278). Only an instrument counts, never a readout. ③ **September TIC + ZHA-22 + BIS re-check Wed 11/18** (not pre-graded). ④ HK peg calm: aggregate balance moves 11/9–11/16 were discount-window flows, HKMA market activity +0 every day. ⑤ LPR 11/20, 公告2024年第46号 clause 2 ends 11/27. **Live 11/16 14:09 ET (boot.py, intraday):** USD/CNY 6.65 · fix 6.7141 · USD/KRW 1,336.20 · Brent $92.43 (`BZ=F`) · USD/HKD 7.8457 · aggregate balance HK$54,055M · 1M HIBOR 2.66327%.
 🧊 **11/11 header, 11/10 cluster table, 11/11 resume notes, NOV 11 bottom line and two graded calendar rows moved VERBATIM → `archive/STATUS_COLD_20261116.md` §ⓐ–ⓕ** · 11/10 blocks → `archive/STATUS_COLD_20261111.md` §ⓐ–ⓔ · through 11/02 → `…_20261106.md`.
 **Overall Status:** 🟠 ELEVATED — **29/60** (+1 on 11/06, V5; two-sided shadow 32). **August TIC: China $590.7B; LT −$4.8B, a third month of selling at half the prior pace; 6-month net −$71.5B.** Thesis kill re-specified 10/29 (Belgium leg retired → China flow leg F). Proxy falsified (rho +0.067, n=43); rotation refuted three times.
 
-> 🧊 **READ-CAP rotations (verbatim moves, nothing deleted):** #1 `archive/STATUS_COLD_20260902.md` · #2 `…_20260917.md` · #3 `…_20260918.md` (§①–㉚) · **#4 `…_20260918b.md` (§ⓐ–ⓚ)**. · **#7 `…_20260925.md` (§ⓐ–ⓖ)** · **#8 `…_20261016.md` (§ⓐ–ⓒ)** · **#9 `…_20261106.md` (§ⓐ–ⓘ)** · **#10 `…_20261111.md` (§ⓐ–ⓔ)** · **#11 `…_20261116.md` (§ⓐ–ⓕ)**
+> 🧊 **READ-CAP rotations (verbatim moves, nothing deleted):** #1 `archive/STATUS_COLD_20260902.md` · #2 `…_20260917.md` · #3 `…_20260918.md` (§①–㉚) · **#4 `…_20260918b.md` (§ⓐ–ⓚ)**. · **#7 `…_20260925.md` (§ⓐ–ⓖ)** · **#8 `…_20261016.md` (§ⓐ–ⓒ)** · **#9 `…_20261106.md` (§ⓐ–ⓘ)** · **#10 `…_20261111.md` (§ⓐ–ⓔ)** · **#11 `…_20261116.md` (§ⓐ–ⓕ)** · **#12 `…_20261117.md` (§ⓐ–ⓒ)**
 
 ---
 
@@ -13,10 +13,12 @@
 
 ---
 
-## ▶️ RESUME NOTES (2026-11-16, PROME prome-6f; CLOSED OUT 2026-11-16 14:17 ET on PROME's ask; packet consumed and filed by PROME, KB finding withdrawn by PROME, READS row on DOCKET L1138 for PROME to add. Next wake: Wed 11/18, September TIC + ZHA-22 + BIS re-check)
+## ▶️ RESUME NOTES (2026-11-17, C8 wake, PROME prome-19; delivered and HOLDING for PROME's closeout ask — no pull or push yet. Next wake: Wed 11/18, September TIC + ZHA-22 + BIS re-check)
 
-- ✅ **Done 11/16:** read-cap finding + charter fix (KB-269) · inbox 7/7 (KB-277; DAEDALUS WQ-678 B: M27, M32 applied, rest deferred) · October credit and activity graded (KB-270, 271) · NFRA re-dated (KB-272) · Trump–Xi 11/19 registered (KB-273) · combo members (KB-274 to 276). Memo `PROME/inbox/2026-11-16_from-ZHAO_examination-items.md`.
-- **Still owed:** V5b rescore on the October cluster (no written letter yet) · household-loan split and 70-city prices · NEXT ACTIONS 12 (VX row for the Chinese clock) · Vector 1 rescore question at September TIC (11/18).
+- ✅ **Done 11/17:** China-side read of the chip rule at primaries (KB-278) · 11/9 clock gap closed (KB-279, CATALYSTS 2027-01-09 row) · trilateral confirmation (KB-280) · letters read, nothing moved (KB-281, combo:us-china-chip-controls) · outbox: VULCAN+HAWK, HANS+YURI, TERRY (proposed routes for PROME) · memo `PROME/inbox/2026-11-17_from-ZHAO_china-chip-countermeasure-read.md`.
+- **Watch to 11/28:** any numbered Chinese measure (MOFCOM 公告/令, 税委会公告, SAMR/CAC on a named firm) · 46号 clause 2 lapses 11/27 unless extended (cheapest countermeasure; first uncovered day 11/28).
+- ⚠️ **Access 11/17:** MOFCOM list API and SAMR both HTTP 403 (left alone; home-page links used). Re-try the API on 11/18; if still 403, tell Will.
+- **Still owed (from 11/16, unchanged):** V5b rescore on the October cluster · household-loan split and 70-city prices · NEXT ACTIONS 12 · Vector 1 rescore question at September TIC (11/18) · **stale KB rows (PROME packet, Will's word; 123 by boot.py vs PROME's 106) at the next ordinary session.** 11/16 notes → COLD_20261117 §ⓑ.
 
 ---
 
@@ -118,7 +120,7 @@
 | Date | Event | P |
 |------|-------|---|
 | Wed Nov 18 | **September TIC** (Treasury-confirmed) — **ZHA-22** resolves; Q3 anchor total; Aug residual revision? · BIS Entity-List re-check | 🔴 |
-| Thu Nov 19 | Trump–Xi bilateral, Shenzhen (instrument only; KB-273) | 🟠 |
+| Thu Nov 19 | Trump–Xi bilateral, Shenzhen (instrument only; KB-273) · countermeasure tell: a numbered Chinese measure, or 若 becoming 决定 (KB-281) | 🟠 |
 | ~Fri Nov 20 (modeled) | NFRA Q3 bank indicators (rural NPL vs 2.83%) — not out at 11/16 · LPR fixing (only a CUT is a signal) | 🟠 |
 | Fri Nov 27 | MOFCOM 公告2024年第46号 clause 2 ends (first uncovered day 11/28; D:L483) · then ZHA-23 Mon Nov 30, ZHA-25/26 to 12/31 | 🟠 |
 
@@ -153,10 +155,11 @@
 11. 🟡 **HK peg watch (new 10/29, KB-216):** USD/HKD 7.846 at the 7.85 weak edge, HIBOR-SOFR YELLOW. Tell = HKMA `market_activities` ≠ +0 / Aggregate Balance falling ⇒ rescore Vector 7, route LIQUID+PROME. Check at each boot (HKMA API, ~1 call).
 12. 🟠 **`VX` row owed for the Chinese clock** — `FLOW-15` exists, no vector tracks it. ⛔ next free id (8.01 is FROZEN).
 13. ⛔ **UNVERIFIED, do not cite:** the claim that China listed MP Materials / USA Rare Earth in June 2026. One secondary; CSIS did not corroborate. **Verify or drop — never repeat as fact.**
+14. 🟠 **Stale KB rows (Will's word via PROME 11/16 packet, still in inbox):** retire or refresh rows past `Stale_By`; boot.py counts 123, PROME 106. Next ordinary session; one line to PROME with counts and commit.
 
 ## BOTTOM LINE
 
-**NOV 16 — October data and housekeeping.** China's October numbers show demand at home still shrinking: banks lent less than they were repaid (about RMB 100B net contraction), shoppers barely spent more than a year ago (+0.4%), and investment kept falling, led by property (−21.6% so far this year). What is growing is exports and factory prices, not household or business borrowing. This does not change the Treasury story: China is not being forced to sell dollars, because the yuan is strong and the central bank is holding it back. The next tests are September Treasury holdings on Wednesday (ZHA-22, 60% that China sold long-term Treasuries again) and the Trump–Xi meeting Thursday, where anything on chip export controls counts only if it is written into an official document. No score or forecast moved. *(NOV 11 paragraph → `archive/STATUS_COLD_20261116.md` §ⓕ, verbatim.)*
+**NOV 17 — China's reply to the new US chip rule is a threat, not a measure.** The US on 11/16 required licences for advanced AI chips going to five countries and to data centres serving Chinese firms. China's commerce ministry answered on 11/17 that it is firmly opposed, that the rule breaks what the two leaders agreed, and that it will retaliate **if the US persists** — naming nothing, and publishing nothing. Beijing has every lever ready: on 11/9 it paused for two more months a 24% tariff, two US blacklists and its rare-earth package, and its gallium-germanium-antimony ban to the US comes back on 11/28 unless renewed. Pulling any of those is what a real countermeasure would look like; until then, nothing in this desk's scores or forecasts moves. Wednesday's Treasury data and Thursday's Trump–Xi meeting are the next tests; only a written instrument counts. *(NOV 16 paragraph → `archive/STATUS_COLD_20261117.md` §ⓒ, verbatim.)*
 
 
 ---
