@@ -33,6 +33,8 @@ Boot PARTIAL (walter-15, desktop):
 - REGISTRY (10 rows), STATUS (light), SESSION_LOG (breadcrumb, Nov 13 paragraph and 3 observation rows rotated verbatim), MEMORY #51 n+3.
 - Replies: HENRY (narrowing accepted for ROUTINE cross-owner cards where WALTER adds HENRY by judgment; table defaults unchanged); REGINALD, BRENT and PROME told of the sweep.
 
+**Post-closeout leg (17:03Z):** CARL corrected card 004 (ex-autos +0.63%, not +0.21%; WALTER used RSXFS, which includes autos). Correction SIG-W-20261117-010, R1 COR-20261117-10, banner on 004; CARL packet consumed; MEMORY #43 n+1.
+
 ## RESULT
 
 Three IMMEDIATE cards: 001 Iran (FALCON's grades plus the Qeshm claim), 004 October retail sales and import prices (released 08:30, uncarded until 11:52 ET because no WALTER session ran), 007 US chip curbs and China's countermeasure threat before Nvidia's results. Cyber: 008 Optimizely compromise across 178 organizations.

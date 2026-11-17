@@ -19,7 +19,12 @@ entities: ["Census Bureau", "BLS", "retail sales", "import prices", "export pric
 word_count: 249
 dispatch_note: "Step 7i catch-up: data-day release, MACRO_INFLATION row (CARL action, HENRY backup, IMMEDIATE on data day). RED pull-complete INFO (FT-08 context only, no fire). LABOR on line for the consumer read. No registered threshold fired."
 event_window: "closed"
+status: CORRECTED
+status_date: 2026-11-17
+status_ref: "SIG-W-20261117-010 — ex-autos is +0.63% m/m (RSFSXMV), not +0.21%; RSXFS is retail ex food services incl. autos; autos -1.60%; control +0.59%; import ex-fuel +0.80% (CARL)"
 ---
+> ⚠️ **CORRECTED by SIG-W-20261117-010 (CARL):** the "ex-autos +0.2%" line used the wrong series (RSXFS = retail trade ex food services, autos included). Ex-autos is **+0.63% m/m**; autos fell 1.60%; control group +0.59%; import prices ex-fuel +0.80%.
+
 # October retail sales (advance) +0.2% m/m to $748.2B, ex-autos +0.2%; September revised to +0.8%; import prices +1.1% m/m, export prices +1.1% (FRED, first published Nov 17); WALTER arithmetic, CARL grades
 
 # October retail sales +0.2% m/m, September revised up; import prices +1.1% m/m (released Tue Nov 17, 08:30 ET)
