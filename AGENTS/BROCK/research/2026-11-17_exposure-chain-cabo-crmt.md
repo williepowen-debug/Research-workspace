@@ -6,7 +6,7 @@
 ## Bottom line
 
 - **Cable One.** Public companies are reached three ways:
-  - **Banks:** 12 named bank lenders on a $1.25B revolver that has been fully drawn since 10/8. Ten are listed (JPM, BAC, WFC, TD, TFC, USB, CFG, FITB, MUFG, BMO), plus Barclays.
+  - **Banks:** 13 named lenders on a $1.25B revolver that has been fully drawn since 10/8. Eleven are listed (JPM, BAC, WFC, TD, TFC, USB, CFG, FITB, MUFG, BMO, Barclays); MidFirst is private and CoBank is a Farm Credit cooperative. *(Count corrected 11/17 12:08 ET on PROME's note; the packet filed in PROME/inbox carries the earlier wording.)*
   - **Listed BDCs:** two Blue Owl BDCs (OBDC, OTF), through a joint-venture loan fund holding the MBI term loan.
   - **Listed closed-end funds:** about ten, holding the 2030 notes, the 2028 converts, Term Loan B-4 or the MBI loan.
   - **Size:** every position found is **0.65% of the holder's net assets or less** at its latest dated report. The largest are abrdn Income Credit Strategies (ACP) at 0.60% (7/31) and Brookfield Real Assets Income (RA) at 0.65% (6/30). Much of the loss is already marked: the 2030 notes at 37 cents (ACP, 7/31), the MBI loan at 49 cents (Blue Owl, 9/30). Bank exposure, even at the full 2023 commitment with no recovery, is at most 0.32% of the smallest listed lender's equity (Citizens).
