@@ -69,6 +69,7 @@ The prompt spreads firmed by about 0.2 and stayed inside the early-November rang
 - A Gulf-ally state or operator stating crude production or exports offline (FALCON FAL-08; BG-02 R1).
 - A fall in US-facilitated transits after 11/16, the route the IRGC warning targets (FALCON's PortWatch and UKMTO counts).
 - M1−M3 moving back above its early-November range of about +5.0 while flat prices rise: front months bid over later ones is how a supply loss gets priced.
+  - ⚠️ **Correction 11/17 14:49 EST:** the early-November range was misstated here and in § 2 ("+3.80 on 11/9 to about +5.0"). My own TRACKER stamps record +6.10 to +6.33 (11/5 bracket), +5.01 to +5.12 (11/6 same-minute) and +5.02 (11/8 daily row). The range is about +3.76 to +6.33, so this item means M1−M3 above about +6.3 while flat prices rise. This is the range as I describe it, not a new registered level. The 14:30 ET window (+5.0920) does not meet it → `research/2026-11-17_brt33/NOTE.md` § Correction.
 
 ## 6. Trade-read handoff line (WQ-696)
 
