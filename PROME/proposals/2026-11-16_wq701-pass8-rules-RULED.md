@@ -1,6 +1,6 @@
 # WQ-701 — the outside pass-8 rules review: eight items, exact text for one batch approval
 
-**Status:** PROPOSAL (not ruled). **Written:** 2026-11-16 22:0x ET by PROME (session prome-d2, laptop).
+**Status:** RULED B, the core set (A2, B, D, G, H2), by Will 2026-11-16 22:07 ET; see § Ruling and as-applied text at the end. Sections A to H below are the proposal as he saw it and are kept as written; where § Ruling's text differs, § Ruling governs. **Written:** 2026-11-16 22:0x ET by PROME (session prome-d2, laptop).
 **Source:** an outside read-only review Will pointed PROME at in chat 21:47 ET, saved as received at `PROME/reports/2026-11-16_pass8-rules-review/REVIEW_as-received.md` (its repository pin 544159ad81fc). PROME's check of its claims: chat 21:5x ET, summarized in § Verification below.
 **Will's word so far:** PROME's chat 2026-11-16 22:01 ET, verbatim: *"can you fix these 8 items now?"* PROME's reading, stated back to him: act on all eight; text that changes what a root rule means, a number, or PROME's own limits is shown to him exactly before it is applied. Under that word PROME already did item H1 below (commit named there). Everything else in this file waits for his word on this text.
 
@@ -85,3 +85,48 @@ VERIFIED at the files: the twelve charter sizes · rule 20's text and date · th
 ## Review plan if ruled
 
 Root canon: this file is the plan-read artifact. ONE blind read of the approved items' text here before the transplant; ONE edit of root `CLAUDE.md` carrying all approved root items; ONE blind read of the result; ❌ only, at most one further edit; residue declared here. `PROME/CLAUDE.md` (item D) the same, in the same two reads. On the word this file is renamed `…-RULED.md`.
+
+## Ruling and as-applied text (added 2026-11-16 22:1x ET, PROME prome-d2)
+
+**Will's word:** PROME's chat 2026-11-16 22:07 ET (prompt clock), verbatim: *"okay go ahead with your recommendations"*, in reply to PROME's block on WQ-701 whose recommendation was B, the core set: A2, B, D, G, H2. **Not approved, not applied:** C (rule sweep), E (shared-tools line), F (precedence line). H3: no change. A1 and A3 were not chosen.
+
+**Plan read:** ONE blind reader (coldreader, Sonnet), ledger `PROME/reports/2026-11-16_pass8-rules-review/plan_read_ledger.md`: 3 blocking, 14 minor, 2 clean. The three blocking findings were fixed in the text BEFORE the transplant; each fix narrows or clarifies what Will approved and none widens it:
+
+| Finding | Fix |
+|---|---|
+| A-1: the 50,000 sentence did not say it replaces 32,550 for charters, so a literal reader held a charter to both | The sentence now says "in place of 32,550 B" and names the path `AGENTS/<NAME>/CLAUDE.md`; the citation of READ_CAP rule 20 is gone from root (which also removes minor A-2) |
+| D-2: a rule could be deleted as a "duplicate" or moved to a file nobody reads | The record must list every sentence deleted or moved and where the same rule still stands on a boot-read path; a sentence that is the only home of a rule, number, level or owner is out of the class |
+| G-2: a refusal caused by a MISSING required client string read as "stop" | Supplying a string the site itself requires is stated as compliance, not evasion; the WQ-600 pointer is dropped from root |
+
+**As applied, root `CLAUDE.md` § Data Hygiene, end of the read-cap bullet (A2):**
+
+> **Desk charters are the one exception: for a desk's `AGENTS/<NAME>/CLAUDE.md` the ceiling is 50,000 B, in place of 32,550 B** (it is read explicitly at every spawn, and one read cuts off near 54,250 B); the owner meets it by moving history out, never by compressing what remains.
+
+**As applied, root `CLAUDE.md` § Data Hygiene, new bullet before Direct Messaging (G):**
+
+> **Blocked sites:** a site that challenges or refuses automated access (a CAPTCHA, a bot challenge, a block on this address) is unusable by automation. Stop, use another source, and tell Will. Never change an identity string, rotate an address or use a proxy to get past a block. Supplying a client or contact string the site itself requires (SEC's is the example) is compliance, not evasion, and a plain client string on an open public endpoint is not evasion.
+
+**As applied, root `CLAUDE.md` Git Protocol, the Never paragraph (H2):** its last sentence, *A desk charter's bare "`git pull`" boot line means this form.*, is deleted. The header's Latest-amendment line names this record.
+
+**As applied, `PROME/CLAUDE.md` § Session Process Controls, end of the Review-budget bullet (D):**
+
+> **Trim batch (WQ-701 D, Will 2026-11-16)** — an edit that only deletes text or moves it out verbatim, in root `CLAUDE.md`, `AGENTS.md` or this charter, is ONE ruling by Will for the batch, ONE blind result read, and a record of at most one page; no plan read. The record lists every sentence deleted or moved and, for each, where the same rule still stands on a boot-read path, or that it stated no rule. A sentence that is the only home of a rule, number, level or owner is not in this class. A trim the reader cannot confirm is meaning-neutral leaves the batch and takes the ordinary path.
+
+`docs/CANON_PROVENANCE.md` gains two reason entries (keys `data-charter-ceiling`, `data-blocked-sites`).
+
+**Declared residue (minor flags NOT fixed, from the plan read):**
+- A-3: sub-agent charters, root `CLAUDE.md` and `PROME/CLAUDE.md` are not named by the ceiling; it covers `AGENTS/<NAME>/CLAUDE.md` only.
+- A-4: no instrument enforces 50,000; `read_cap_check.py` excludes charters by rule 20. CARL (49,162 B) is 838 B under the ceiling.
+- A-5: the byte list in § A was 9 B stale for three desks at the read.
+- D-1: the trim batch is an exception to this charter's own Pre-edit cold read bullet; that bullet is not cross-referenced.
+- D-3: "batch", "one page" and who may be the blind reader are not defined.
+- D-4: the reader's doubt is not required to be written down.
+- G-1, G-3, G-4: "a block on this address" and "a proxy" are not defined; a 429 rate limit or a 5xx is not addressed (PROME's reading: a rate limit is waited out, not a block).
+- G-5: "tell Will" does not say how a desk does it; PROME's reading: a desk flags PROME by packet and PROME tells Will.
+- G-6: existing scripts that send a browser string are not judged by this rule.
+- H-2, H-3: bare `git pull` lines remain in archived copies and in `AGENTS/DAEDALUS/builds/hawk_split/MANIFEST_A_core.md:33` (a planned charter, DAEDALUS's).
+- READ_CAP rule 20 still says charters are never rotated on read-cap grounds until DAEDALUS amends it (packet sent); root governs meanwhile.
+
+**Result read (2026-11-16 22:11 ET):** ONE second blind reader (coldreader, Sonnet; it saw the diff and the two files, not this record or the plan ledger), ledger `PROME/reports/2026-11-16_pass8-rules-review/result_read_ledger.md`: blocking 0, minor 7, clean 3. No further edit was made. Its minor flags, added to the declared residue: the charter exception names desk charters only (as A-3) · READ_CAP rule 20 conflicts until DAEDALUS amends it (as above) · no grace period is stated for charters already over 50,000 B (PROME's reading: the four trim at their next ordinary sessions, packets sent) · a default client string refused with 403 and replaced by a plain one sits between "never change an identity string" and "a plain client string is not evasion" (PROME's reading: a refusal is a block, so stop and flag; the plain-string sentence covers endpoints that are open) · a 429 may be read as a block and "tell Will" names no channel (as G-3, G-5) · "no plan read" in the trim batch is not cross-referenced to the Pre-edit cold read bullet (as D-1) · "only home" is not qualified by "on a boot-read path".
+
+**Completion states:** root and charter text IMPLEMENTED and INDEPENDENTLY READ (plan read 3 blocking, fixed before the transplant; result read 0 blocking; this episode's reads: 2 of 3) · A2 trims (LABOR, OSPREY, FALCON, AEOLUS) NOT DONE, the desks' own work · B (the advisory line on the existing check) NOT BUILT · DAEDALUS's rule 20 sentence NOT DONE.

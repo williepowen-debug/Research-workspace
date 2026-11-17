@@ -85,6 +85,10 @@
   **Retirement two-clause amendment:** Will-ruled 2026-08-21 root batch — deliberately-dormant fire-time artifacts fail the boot-read test by design, and archiving one breaks the gate at fire-time; indexes enumerate everything, so counting them makes every indexed file immortal and the rule dead.
 - `key: data-read-cap` · `root-anchor: 32,550 B`
   **Read-cap byte budget:** Will-approved 2026-08-28, P1 — 60% of the harness single-read cap (25,000 tokens × 2.17 B/token measured on fleet markdown ⇒ ≈54,250 B). Spine audit #11 (8/29) found PROME's own CLOSEOUT/prome_gate still keyed to the retired 51,200 B budget one day later.
+- `key: data-charter-ceiling` · `root-anchor: 50,000 B`
+  **Charter ceiling:** Will-ruled 2026-11-16 (WQ-701 A2). DAEDALUS's READ_CAP rule 20 (2026-09-19) exempted charters because the harness injects them; since WQ-385 (2026-10-05) every spawn reads its charter explicitly and Codex desks get no injection. An outside review found 12 of 45 charters over 32,550 B, two past the ≈54,250 B single-read cut-off. 50,000 is PROME's margin under that cut-off, not a measured threshold.
+- `key: data-blocked-sites` · `root-anchor: Blocked sites`
+  **Blocked sites:** Will-ruled 2026-11-16 (WQ-701 G). Whether a desk may get past a site's bot challenge was being decided desk by desk (GIBBS's charter: unusable, tell Will; cmegroup.com's block of this box, 10/28); the question is reputational and terms-of-service, so it is one fleet rule.
 - `key: data-messaging` · `root-anchor: Direct Messaging v1`
   **Direct Messaging v1 first cohort:** Will-approved 2026-07-14. Cross-session messaging first use 2026-08-16; awareness posture Will-ruled 8/16 late (verbatim word in the ruling packet); pointer line Will-approved 2026-08-16; rule 6b (dark-owner doorbell-PROME branch) added 2026-08-23, Will-approved — "Approve the one-line root CLAUDE.md mirror amendment pointing dark recipients to rule 6b."
 
