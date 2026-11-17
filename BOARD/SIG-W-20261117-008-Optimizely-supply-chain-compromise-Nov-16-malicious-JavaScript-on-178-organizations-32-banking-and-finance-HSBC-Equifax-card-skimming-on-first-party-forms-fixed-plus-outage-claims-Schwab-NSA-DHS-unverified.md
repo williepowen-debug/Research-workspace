@@ -19,7 +19,12 @@ entities: ["Optimizely", "Report URI", "Scott Helme", "HSBC", "Equifax", "Zoom",
 word_count: 393
 dispatch_note: "CYBER row v0.49 bank-supplier class by effect: CYPHER ACTION, PRIORITY minimum, never folded; info GIBBS (large banks), REGINALD, LIQUID (payments). No bank-by-bank list on the BOARD. Outage relays labelled unverified (quiet-mode rule). PROME pull-complete INFO."
 event_window: "open"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-17
+status_ref: "SIG-W-20261117-012 — the Nov 16 DHS "AI" line is a statement (CISA: individually unrelated), United confirmed not cyber, Schwab NOT ESTABLISHED; Optimizely now vendor-confirmed (CYPHER)"
 ---
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261117-012 (CYPHER):** the Nov 16 DHS "AI" line is a statement (CISA: individually unrelated), United confirmed not cyber, Schwab NOT ESTABLISHED; Optimizely now vendor-confirmed.
+
 # Optimizely supply-chain compromise (Nov 16): malicious JavaScript served to 178 organizations, banking and finance hardest hit (32, incl. HSBC, Equifax), card skimming on sites' own forms, crypto-wallet swapping, iOS exploit kits; Optimizely says fixed; plus unverified outage relays (Schwab site, NSA network, DHS 'AI may be behind recent US outages'), United Airlines outage Nov 16
 
 # Optimizely supply-chain compromise: 178 organizations, 32 in banking and finance, card skimming (Nov 16)

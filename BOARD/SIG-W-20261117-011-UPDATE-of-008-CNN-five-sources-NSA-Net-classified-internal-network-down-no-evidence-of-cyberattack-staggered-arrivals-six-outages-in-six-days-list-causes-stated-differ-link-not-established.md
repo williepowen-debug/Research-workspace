@@ -19,7 +19,12 @@ entities: ["NSA", "NSA Net", "CNN", "Natasha Bertrand", "Microsoft", "FAA", "AWS
 word_count: 361
 dispatch_note: "UPDATE of SIG-W-20261117-008 (NSA line upgraded from unverified relay to CNN five-source report). CYBER row: CYPHER action; the bank leg keeps GIBBS, REGINALD, LIQUID info. Not a correction (008 labelled the item unverified). PROME pull-complete INFO."
 event_window: "open"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-17
+status_ref: "SIG-W-20261117-012 — the Nov 15 AWS outage HAPPENED (AWS Health Dashboard, 06:05-09:21 ET); Chase cause a software bug in on-premise hardware; FAA one router; NSA six sources; CYPHER: several stories, no link (CYPHER)"
 ---
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261117-012 (CYPHER):** the Nov 15 AWS outage HAPPENED (AWS Health Dashboard, 06:05-09:21 ET); Chase cause a software bug in on-premise hardware; FAA one router; NSA six sources; CYPHER: several stories, no link.
+
 # UPDATE of card 008: CNN (Natasha Bertrand, five sources) says NSA Net, the NSA's classified internal network, is down; 'no evidence of a cyberattack'; staggered arrivals ordered. A circulating list of six US IT outages in six days (Microsoft, FAA, AWS, banks, United, NSA): stated causes differ and no link is established
 
 # NSA Net down per CNN (five sources), no evidence of a cyberattack; six outages in six days, no established link
