@@ -3,7 +3,7 @@
 **Status:** 🔴 11/17 close print (TICK until History): **VIX 25.46, the cash curve INVERTED (VIX3M/VIX 0.9811), VVIX 121.28**, all before Nvidia reported. The release took about 3% out of the expiring X6, not the premium. Credit is not confirming (HY 334bp [11/16]). RISING_VOL on History from 11/16. Convergence **34/50** on 11/16 History.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.9. No live gate moved.
-**As of:** 2026-11-17 16:5x ET (from `date`) | **STATUS commit:** `079c3d1434`.
+**As of:** 2026-11-17 16:57 ET (from `date`, closeout) | **STATUS commit:** `195a3d6258`.
 Official History closes run through 11/16 (SETTLE, 0 corrected); the 11/17 row is TICK. Canonical numbers: [STATUS](STATUS.md). KB-VIO-400, KB-VIO-401.
 
 ## CROSS-DOMAIN
@@ -44,7 +44,7 @@ Official History closes run through 11/16 (SETTLE, 0 corrected); the 11/17 row i
 - No direction on NVDA.
 - The index-vol premium was not only earnings; two of the 11/16 invalidators hit before the release.
 
-**PROME:** packet `PROME/inbox/2026-11-17_from-VIOLET_nvda-close-watch-endpoint.md`.
+**PROME:** delivery `PROME/inbox/2026-11-17_from-VIOLET_nvda-close-watch-endpoint.md` (consumed) and closeout memo `PROME/inbox/2026-11-17_from-VIOLET_closeout.md`. Wake registered Wed 11/18 at 11:00 ET.
 
 ## CALIBRATION
 

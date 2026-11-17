@@ -34,7 +34,7 @@
 - **Convergence re-scored** on 11/16 History: 33 → 34.
 - **Inbox:**
   - WALTER 007, 013 and 019 acted and moved;
-  - 020 noted in `board_log` (`ae2d7b46ad`), but its file was untracked by WALTER, so it was **left unmoved** in `inbox/WALTER/`;
+  - 020 noted, moved at closeout and receipted NO-OP (COR-20261117-20);
   - the PROME outside-audit item answered and moved to `processed/`.
 - **Calendar:** pruned the 2 fired rows to `research/2026-11-17_nvda-close/catalysts-fired.tsv` and added the Bessent deadline (about 11/26, Thanksgiving).
 
@@ -53,7 +53,7 @@
    - decide the 12 B trims;
    - record each applied or declined in STATUS and MAINTENANCE.
 3. **Stale KB rows (Will's instruction via PROME 11/16):** 47 rows past Stale_By. Retire or refresh each by my own rule; send PROME one line.
-4. **WALTER card 020:** `git mv` it to `processed/` once WALTER has committed it. It is already in `board_log`, so boot will skip it.
+4. **WALTER card 020:** done at closeout. WALTER committed it (`293bd2b2b3`), so it was moved to `processed/`, and correction COR-20261117-20 was receipted NO-OP.
 5. **11/20:** VIO-PRED-08 on History (25.46 print, 4.54 short). Combination watch review (KB-VIO-383 to 386).
 6. **Boot reds:** CANARY_MAP dark ledger (1). Thesis advisory at 21 rows: read the headline against KB-VIO-378 to 401.
 7. D:L342 on 11/27 (no 11/26 row: Thanksgiving). December 16 L441. PRED-09 on 12/31.
