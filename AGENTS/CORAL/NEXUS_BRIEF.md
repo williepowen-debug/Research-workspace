@@ -1,11 +1,18 @@
 # CORAL — NEXUS Brief
 
-**Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #14 (11/10) 4-of-5, Cape Coral 5.82 series low, re-fire fails. Next: falsify grade 11/15.
+**Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #15 (11/15) 4-of-5, Cape Coral 5.74 series low, re-fire fails. Falsify grade 11/15 run 11/16: 1.5 of 6, 🟠 holds. **GSE financing leg: "not yet" — CORAL-02 FALSE (11/17).** Next: MSI #16 by 11/26; FL Realtors Nov 12/16.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-11-16 11:3x ET (Mon, coral-ag, due-row wake; no material change: MSI #15 4-of-5, Cape Coral 5.74, leg 🟠; CORAL-02 waits on Florida Realtors October; 11/15 falsify grade run 11/16: 1.5 of 6, 🟠 holds, bank half C1 HALF + C2 MET, household half 0 of 4) | STATUS commit: 8c9ef1ff6b (prior: 2026-11-11 coral-af) · earlier 11/09 13:0x ET (floods, Amendment 3)
+**As of:** 2026-11-17 08:5x ET (Tue, coral-ah, due-row wake; MATERIAL: CORAL-02 graded FALSE, WQ-704 research delivered) | STATUS commit: aa2ee5f29d (prior: 2026-11-16 coral-ag, 8c9ef1ff6b)
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## 2026-11-17 — GSE FINANCING CHANNEL: NOT YET (no colour moves; evidence `STATUS_DETAIL.md` § AH; research `research/2026-11-17_WQ704_fl-condo-financing-channel.md`)
+| # | What | So what / who |
+|---|---|---|
+| 1 | **CORAL-02 FALSE** at the first Florida Realtors October print: financed (closed − cash) condo **3,266, −8.34%** vs single-family **13,502, −12.43%**. ⚠️ Oct-2025 SF base strong (+12.2%), likely post-Milton rebound (inference). | HOMER (one figure for the FL condo-SF read), REGINALD (no rail change), RED (a CORAL leg tested and not confirmed) |
+| 2 | **WQ-704:** condo financed per 100 SF financed, Aug–Oct: **25.5 (2024) · 23.3 (2025) · 23.3 (2026)**. 12 months to Oct-2026: condo financed **+2.1% = SF +2.1%**; condo cash +9.7%. The step down came in 2024–25 with cash and financed falling together ⇒ condo-wide cost shock, not shown to be financing-specific. Blind spot: non-agency loans count as financed. No investment implication. | TERRY (no card: stated in the research doc), HOMER, NEXUS |
+| 3 | October condo: median $290K −3.3% (mix toward cheaper units; under-$200K closings +5.1%), orig-list 93.3% vs 92.3%, 64 vs 76 days, **8.0 months (9.3)**; SF $420K +2.2%, **4.6 months (5.1)**, pendings −15.7%, short sales 95 vs 48. | MARCO copies months supply from CORAL |
 
 ## 2026-11-11 — ONE RAIN FIGURE · MSI #14 · RATES CONFOUND THE GSE INSTRUMENT (no colour moves; evidence `STATUS_DETAIL.md` § AF)
 | # | What | So what / who |
