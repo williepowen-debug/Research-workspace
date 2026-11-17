@@ -13,9 +13,10 @@
 
 ---
 
-## ▶️ RESUME NOTES (2026-11-17, C8 wake, PROME prome-19; delivered and HOLDING for PROME's closeout ask — no pull or push yet. Next wake: Wed 11/18, September TIC + ZHA-22 + BIS re-check)
+## ▶️ RESUME NOTES (2026-11-17, C8 wake, PROME prome-19; delivery CONSUMED by PROME and routes placed (1e99de828d); CLOSED OUT 11/17 on PROME's ask. Next wake: Wed 11/18, September TIC + ZHA-22 + BIS re-check)
 
 - ✅ **Done 11/17:** China-side read of the chip rule at primaries (KB-278) · 11/9 clock gap closed (KB-279, CATALYSTS 2027-01-09 row) · trilateral confirmation (KB-280) · letters read, nothing moved (KB-281, combo:us-china-chip-controls) · outbox: VULCAN+HAWK, HANS+YURI, TERRY (proposed routes for PROME) · memo `PROME/inbox/2026-11-17_from-ZHAO_china-chip-countermeasure-read.md`.
+- **VULCAN 11/17 packet (f98ddc7b76) processed:** the rule (FR 2026-23529) publishes **11/19, the meeting day**, effective on publication per VULCAN; publication = the US "persisted" (KB-283, CATALYSTS 11/19 row). Moves nothing of mine.
 - **Watch to 11/28:** any numbered Chinese measure (MOFCOM 公告/令, 税委会公告, SAMR/CAC on a named firm) · 46号 clause 2 lapses 11/27 unless extended (cheapest countermeasure; first uncovered day 11/28).
 - ⚠️ **Access 11/17:** MOFCOM list API and SAMR both HTTP 403 (left alone; home-page links used). Re-try the API on 11/18; if still 403, tell Will.
 - **Still owed (from 11/16, unchanged):** V5b rescore on the October cluster · household-loan split and 70-city prices · NEXT ACTIONS 12 · Vector 1 rescore question at September TIC (11/18) · **stale KB rows (PROME packet, Will's word; 123 by boot.py vs PROME's 106) at the next ordinary session.** 11/16 notes → COLD_20261117 §ⓑ.
@@ -120,7 +121,7 @@
 | Date | Event | P |
 |------|-------|---|
 | Wed Nov 18 | **September TIC** (Treasury-confirmed) — **ZHA-22** resolves; Q3 anchor total; Aug residual revision? · BIS Entity-List re-check | 🔴 |
-| Thu Nov 19 | Trump–Xi bilateral, Shenzhen (instrument only; KB-273) · countermeasure tell: a numbered Chinese measure, or 若 becoming 决定 (KB-281) | 🟠 |
+| Thu Nov 19 | **US remote-access rule FR 2026-23529 publishes the same day** (KB-283; published = the US "persisted") · Trump–Xi bilateral, Shenzhen (instrument only; KB-273) · countermeasure tell: a numbered Chinese measure, or 若 becoming 决定 (KB-281) | 🟠 |
 | ~Fri Nov 20 (modeled) | NFRA Q3 bank indicators (rural NPL vs 2.83%) — not out at 11/16 · LPR fixing (only a CUT is a signal) | 🟠 |
 | Fri Nov 27 | MOFCOM 公告2024年第46号 clause 2 ends (first uncovered day 11/28; D:L483) · then ZHA-23 Mon Nov 30, ZHA-25/26 to 12/31 | 🟠 |
 
