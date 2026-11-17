@@ -8,8 +8,8 @@ never edits: every row here is a row `spawn_list.collect()` returned, and the ce
 `spawn_list.render()` itself.
 
 QUESTION IT ANSWERS: for each desk with a due registered row — has the owner returned anything on it and
-WHERE, which rows belong to one wake, what is the assignment text, what else would ride along, what does
-it cost against the cap. spawn_list answers WHO is due; PROME was answering those by hand at every boot.
+WHERE, which rows belong to one wake, what is the assignment text, what else would ride along, and where
+it falls in slate order (no count cap on due-row wakes since WQ-667 B; memory is the limit). spawn_list answers WHO is due; PROME was answering those by hand at every boot.
 
 WHAT IT IS NOT: no spawn authority (advisory; only PROME spawns) · no calendar of its own (DOCKET / GATES /
 ROSTER / ORCH_LOG are the only sources; it keeps no state) · no ranking that hides a row (order is for
