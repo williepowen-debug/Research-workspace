@@ -411,3 +411,7 @@ November 12 desktop (walter-42): WQ-681 A collection exception encoded at 7e(a);
 ## Rotation 2026-11-14T17:19:39Z — session note (11/13), moved verbatim from MEMORY.md by walter-72
 
 November 13 desktop (walter-d4): all routing commits reached origin through PROME's push before WALTER's closeout; reconcile first, then push. A handoff body cut with a sed address range can come out empty; dispatch.sh now refuses an empty body. git_guard blocks --amend: fix in a new commit.
+
+## Rotation 2026-11-17T00:30:02Z — session note (11/14), moved verbatim from MEMORY.md by walter-5a
+
+November 14 Saturday (walter-72): BBC and the Guardian refuse WebFetch, but plain curl from this box reads BBC (200); FT and iea.org return 403 either way. TERRY carve-out: never on an INFO line; T-1 card gates go on ACTION (BOARD-only). Seven cards came mostly from unflagged headlines.
