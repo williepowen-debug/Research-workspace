@@ -40,7 +40,7 @@
 
 ## Open with Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-17 · 3 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-706 (—) · WQ-695 (—) · WQ-687 (—)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-17 · 4 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-707 (—) · WQ-706 (—) · WQ-695 (—) · WQ-687 (—)
 <!-- WILLQ-VIEW END -->
 - The queue-view tool now renders an empty queue as "0 open … none" (D:L1143 RESOLVED 11/14; acceptance and declared residue: `tools/tests/ACCEPTANCE_willq_view_empty_queue_2026-11-14.md`). The live queue went to 0 open at 12:19 ET 11/14 and the tool rendered it (rc 0).
 - Parked (his hands): row 687, the laptop tokens. Told Will, his to do, no prompt owed: delete the two token text files from his Windows Desktop and wipe the thumb drive once the laptop is set up.
