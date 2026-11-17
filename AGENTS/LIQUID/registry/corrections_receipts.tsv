@@ -60,3 +60,5 @@ receipt_date	correction_id	action	note
 2026-11-12T14:08Z	COR-20261111-14	NO-OP	scope=grep of AGENTS/LIQUID for the SEC FY2026 penalties figure: no LIQUID file carried it; 
 2026-11-12T14:08Z	COR-20261111-24	NO-OP	scope=grep of AGENTS/LIQUID for 'almost all secured' and '86.6B secured': no hit outside the card itself; 
 2026-11-16T15:12Z	COR-20261114-10	APPLIED	artifact=AGENTS/LIQUID/research/2026-11-16_due-row/REPORT.md#3; validation_ref=NONE; 
+2026-11-17T01:48Z	COR-20261116-08	NO-OP	scope=LIQUID held an INFO copy only and never relayed or used cards 006 or 008 in any LIQUID artifact. No funding or rail read depends on them; 
+2026-11-17T01:48Z	COR-20261116-10	NO-OP	scope=LIQUID held an INFO copy only and never relayed or used cards 006 or 008 in any LIQUID artifact. No funding or rail read depends on them; 
