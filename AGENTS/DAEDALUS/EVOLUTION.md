@@ -6,6 +6,10 @@
 
 ## Changelog
 
+### 2026-11-16 (a) — READ_CAP rule 20: desk charters get their own 50,000 B ceiling (WQ-701 A2)
+
+Will in PROME's chat 22:07 ET, verbatim "okay go ahead with your recommendations" (WQ-701 B, the core set, which includes A2); record `PROME/proposals/2026-11-16_wq701-pass8-rules-RULED.md`; root `CLAUDE.md` § Data Hygiene holds the canonical sentence. `BLUEPRINTS/READ_CAP.md` rule 20 and its charter table row now agree with root: a desk charter is bound at 50,000 B, not 32,550 B; below that it stays a context-cost watch, above it the owner trims by moving history out, never by compressing what remains. The premise that changed: WQ-385 (2026-10-05) made every spawn read its charter explicitly, and Codex desks get no injection, so one read cuts off near 54,250 B. The 2026-09-19 text is kept as history, with its "no desk rotates its charter" clause struck as superseded above 50,000 B. Not changed: `scripts/read_cap_check.py` still excludes the charter (record residue A-4); an advisory over-ceiling flag is proposed, not built without a separate word. Not ruled: whether the ceiling reaches a sub-agent charter. Same commit: `builds/hawk_split/MANIFEST_A_core.md:33` annotated to `git pull --rebase` (WQ-701 H2).
+
 ### 2026-11-05 (a) — Spawned-mode push rule replaced in two blueprints (WQ-602)
 
 Will 08:38 ET, "WQ-602 approved with your rec"; record `PROME/proposals/2026-11-05_wq602-RULED.md`. `market-agent.md:123` and `utility-agent.md:33` now say root governs; a coordinator handoff that retains push custody is the one exception.
@@ -77,15 +81,7 @@ REVIEW: required — reporting state and declared read boundary change. Independ
 
 *(September 17 entries z/y/x/w moved verbatim October 20 to `archive/EVOLUTION_ARCHIVE_2026-10-20.md` block1; 7961 bytes, crc32 `c103e1d5`. Late-pairing records remain live.)*
 
-### 2026-09-12 (v) — READ_CAP gains a SUB-AGENT row, and SL-5's own instance text carried a figure that reproduces on neither operator (PAIRING, LATE — PAT-101 rule ii, n+7, and the entry is late for the same reason as (r))
-
-**Two standards files changed, in two separate commits, neither carrying this entry.** `complete_check.py` flagged both at closeout — `821fdb1a3` (SPEC_LETTER_STANDARD) and `792965312` (READ_CAP). ⚠️ **Never amended; a damaged history is documentation debt, noted here, not rewritten.** The pattern in (r) was *two edits to one file*; this is *one edit to each of two files*, which is why the "one standards commit" habit did not catch it — **I paired nothing because each commit felt like a single small thing, and the rule is per-FILE not per-batch.** n+7 for a rule I wrote.
-
-**① `BLUEPRINTS/READ_CAP.md` — the "what binds" table gains a SUB-AGENT row.** PHAN reported that `read_cap_check.py --agent PHAN` returned `CANNOT-EVALUATE: no charter at AGENTS/PHAN/CLAUDE.md`, because sub-agents live at `AGENTS/<PARENT>/sub_agents/<NAME>/` and the resolver knew one path template. **PHAN asked the right question, and it is the reason this is a blueprint change rather than a code change:** the exclusion was *an artifact of a path template, not a decision*, so a reader of the blueprint would assume coverage. **RULED: the budget BINDS a sub-agent** (its charter mandates boot reads like any other), `--agent <NAME>` now resolves the second location, and **`--fleet` is deliberately UNCHANGED** — a sub-agent has no ROSTER seat and no FLEET_MAP row, and `render_directory.py`'s co-registration guard exists to keep non-agents out of the map. ⇒ **covered ON DEMAND, never in the fleet denominator; the PARENT desk owns running it.** ⚠️ **PHAN enumerated SEVEN (all CARL's); the sweep for the PATTERN finds EIGHT — `MARCO/sub_agents/TOURISM`** (PAT-136: an enumeration is exhaustive only of its author's search, and PHAN was reading from CARL's tree). Cost while the hole was open: PHAN's `DOSSIER.md`, a boot whole-read, reached **41,078 B = 126% of budget** with no fleet instrument able to flag it.
-
-**② `BLUEPRINTS/SPEC_LETTER_STANDARD.md` SL-5 — a correction to my own instance text, found by the L258 sweep I was running against everyone else.** The line said the FT-11 base rate *"(5.0% / 3.8%, **LR≈34**) was computed on the STRICT cut."* **The RATES reproduce on the strict cut. LR≈34 reproduces on NEITHER** — RED's own artifact measures **LR≈28 strict / LR≈21 non-strict** and states *"Neither reproduces the registered LR ≈ 34"* (`AGENTS/RED/research/2026-09-02_FT11_v1.1_second_path_partition_AND_tie_set.md:75`; **verified at RED's artifact, not taken from the sweep's report**). I had bundled a correct pair of rates and an unreproducible LR into one parenthesis and attributed the whole thing to one operator — **in the canon file whose own rule is that a base rate belongs to exactly one operator.** `finding_exact_level_authenticates_a_wrong_direction`: an exact figure authenticates the claim beside it, so **verify them as TWO claims.** The same imprecision propagated into RED's FT-11 registry cell; RED is packeted, and the row is RED's.
-
-**The standard did NOT change in either case — its INSTANCE TEXT and its SCOPE TABLE did.** Recording that distinction because a future reader grading a letter against SL-5 should know the rule is untouched since 9/3.
+*(Entry 2026-09-12 (v) moved verbatim November 16 to `archive/EVOLUTION_ARCHIVE_2026-11-16.md` block 1; 3448 bytes, crc32 `69bb05e9`.)*
 
 *(Entries 2026-09-12 (u) and 2026-09-08 (a) rotated VERBATIM 2026-10-09 → `archive/EVOLUTION_ARCHIVE_2026-09.md` block 8; crc32 `fe6cc6b0`, 5035 B.)*
 

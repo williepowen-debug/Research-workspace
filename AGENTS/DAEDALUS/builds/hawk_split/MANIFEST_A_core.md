@@ -30,7 +30,7 @@
 **Boot sequence (numbered, exact commands):**
 | Step | Action | Script/command | Inherit note |
 |---|---|---|---|
-| 0 | `git pull` | — | All three inherit verbatim |
+| 0 | `git pull` *(as HAWK's charter read at the time; any charter built from this manifest says `git pull --rebase` — root no longer reads a bare `git pull` as the rebase form, WQ-701 H2, 2026-11-16)* | — | All three inherit, corrected to `git pull --rebase` |
 | 1 | Read `STATUS.md` | — | All three (own STATUS) |
 | 2 | Read `SCRATCH.md` | — | All three (own SCRATCH) |
 | 3 | Read `LESSONS.md` | — | Reader C scope — flagged here only for completeness |

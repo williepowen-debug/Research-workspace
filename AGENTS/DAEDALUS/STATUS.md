@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-11-16 21:30 ET — PROME-relayed tonight list (Will 20:56 ET): scorecard delivered, TERRY check E repaired, Production Review #10 CHECKPOINTED after the 21:11 ET laptop restart.**
+**Last Updated: 2026-11-16 23:30 ET — WQ-701 A2 follow-through (Will "ok go" 23:16 ET in this session): READ_CAP rule 20 amended to root's 50,000 B charter ceiling. Earlier tonight: scorecard delivered, TERRY check E repaired, Production Review #10 CHECKPOINTED after the 21:11 ET laptop restart.**
 
 **Current judgment:** Owed small items are closed: READS re-attestation delta sent for PROME transcription (missing `docs/GIT_WORKTREE_PROCEDURES.md` dependency found), SHADE ledger registered, SURFACES AGENTS.md row re-cut, L816 narrowing accepted, NEXUS B6 tie clause NO-OP (STRICT_TEXT rule 7 already carries it), ZHAO B24 closed. Staleness #7 found 6 ledger and 2 trade flags, one real (MARCO VX row SFE-03, oldest live row, routed by packet), 0 freezes; four CHECKS rows were stale after PROME's 10/31 WQ-578 retirements and are corrected. The provider-switch Harness re-test then ran (9 Opus readers, 74 charters, 599 rows); Will ruled WQ-678 A and 41 owner packets went out (6a43711d27). DAEDALUS L4/M retained, no L5 adjudication. Record `runs/2026-11-12_HOUSEKEEPING.md`.
 
@@ -10,6 +10,7 @@
 - **Scorecard 11/7–11/13 DONE** 84d0cfc509, 3 days late. ⚠️ Column 5 `rulings=0` is an instrument miss: the WILL_QUEUE `Done <date> — RULED X` form is unread (hand count about 31). Parser repair is owed in own lane. `runs/2026-11-16_SCORECARD_2026-11-13_DELIVERY.md`.
 - **TERRY ledger_sweep check E REPAIRED** 4b267200e9: ISO stamps with seconds are now read as HH:MM. Independent review ACCEPT-WITH-RESIDUE; its range false negative is fixed. Residue: local-offset ISO stamps stay unchecked. `runs/2026-11-16_CHECK_E_REPAIR.md`.
 - **Production Review #10 PARTIAL (checkpoint):** detection, 3b checks and the TERRY consumer check are done (no script consumer of the moved text). Readers A and E: 10 desks, all RETAIN, no rows applied. Readers B, C, D and F were lost in the restart. `last_run` stays 11/02. `runs/2026-11-16_PR10/CHECKPOINT.md`.
+- **WQ-701 A2 DONE (L1167, own leg; PROME verifies 11/24):** `BLUEPRINTS/READ_CAP.md` rule 20 and its charter row now say 50,000 B for a desk charter, matching root; 9/19 text kept as history with the conflicting clause struck. No instrument enforces it (residue A-4); an advisory flag in `read_cap_check.py` is recommended, not built without a separate word. `builds/hawk_split/MANIFEST_A_core.md:33` annotated `git pull --rebase` (H2). EVOLUTION entry 2026-11-16 (a); oldest entry rotated verbatim to `archive/EVOLUTION_ARCHIVE_2026-11-16.md` (crc32 `69bb05e9`).
 - **Inbox pending, not started:** BOARD quoted-date fixture test (PROME 10:16 ET) and FLEET_DIRECTORY confirm plus HENRY WF question (PROME 10:06 ET; answered by the assembly re-render). GIBBS dormancy ask was withdrawn (WQ-692 KEEP). Tool census is information only.
 
 **November 7 integration:** CORAL consumer checks pass; GIBBS L2/M; CREED original eleven closed but two new expiries remain. CRUISE unread-filing premise overtaken, NEXUS annotation already applied, L882 closed. Twelve bounded map re-cuts; no whole-review clock reset. CARL requests completed in this continuation.
@@ -91,7 +92,7 @@
 
 ## BOTTOM LINE — 2026-11-16
 
-- **WORK:** PROME's three tonight items, on Will's word: scorecard DONE; check E repair DONE; Production Review #10 PARTIAL (readers A and E only, 10 of 41 desks, no rows applied; four readers lost in the 21:11 ET restart). C8 leg of L1133 DONE (11/12). Session stopping at checkpoint.
+- **WORK:** PROME's three tonight items, on Will's word: scorecard DONE; check E repair DONE; Production Review #10 PARTIAL (readers A and E only, 10 of 41 desks, no rows applied; four readers lost in the 21:11 ET restart). C8 leg of L1133 DONE (11/12). WQ-701 A2 READ_CAP amendment DONE (L1167 own leg). Session stopping.
 - **CHECKS:** check E selftest rc 0, three mutants fail as expected, independent review ACCEPT-WITH-RESIDUE. Scorecard v1.3 27/27, rc 0, with a column-5 instrument miss disclosed. Production Review clock not advanced (PARTIAL).
 - **DELIVERY:** scorecard, check E and the repair record are on origin (84d0cfc509, 4b267200e9, f814623f50). Checkpoint, TERRY notice and PROME packet are in the closeout commit. Consumption unverified.
-- **OPEN:** next session: re-run readers B, C, D and F (two at a time), assemble and apply re-cuts, regenerate the directory, advance last_run. Also owed: BOARD quoted-date fixture test, scorecard parser repair for the `Done <date> — RULED` form, scorecard 11/20, L490 HENRY leg 11/20, YUR-F02 11/28. EVOLUTION.md is 209 B under its rotation trigger.
+- **OPEN:** next session: re-run readers B, C, D and F (two at a time), assemble and apply re-cuts, regenerate the directory, advance last_run. Also owed: BOARD quoted-date fixture test, scorecard parser repair for the `Done <date> — RULED` form, scorecard 11/20, L490 HENRY leg 11/20, YUR-F02 11/28. EVOLUTION.md rotated 11/16 (22,115 B).
