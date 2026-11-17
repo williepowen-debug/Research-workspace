@@ -139,7 +139,7 @@ Position truth is off-repo (Will and the broker), with the separately dated FORG
    - History for 11/17, to confirm the TICK fires.
    - Send RED the 11/11 to 11/17 SKEW and VIX bars.
 2. **11/20:** VIO-PRED-08 on History. PRED-09 after 12/31.
-3. **WQ-678:** the Changelist A line (A15) is HELD. Will ruled WQ-678 A on 11/12 for "next ordinary wake"; my 11/16 record holds it for his go in-window, which never came. A PROME task wake is not an ordinary wake. Apply it at the next ordinary wake; the 12 Changelist B trims are decided then.
+3. **WQ-678:** apply the Changelist A line (A15) at the 11/18 wake. Will ruled WQ-678 A on 11/12, and PROME confirmed on 11/17 that the ruled record is his word and that a wake launched for other work counts. Decide the 12 Changelist B trims at the same wake.
 4. **Inbox items deferred by their own terms ("next ordinary session"):**
    - PROME 11/16 stale KB rows: **47** by my count, the same as PROME's.
    - PROME 11/16 outside-audit item: answered in today's packet; nothing changed.
@@ -147,9 +147,11 @@ Position truth is off-repo (Will and the broker), with the separately dated FORG
 6. Re-pull FXY IV intraday before any IV/RV read. KB-VIO-365 (`implied_corr.py` stamps SETTLE by clock) is not commissioned.
 7. D:L342 on 11/27 (no 11/26 row). December 16: L441.
 8. Combination watch: 4 themes (KB-VIO-383 to 386), review 11/20.
-9. **CATALYSTS/CALENDAR:** prune the two fired 11/17 rows at closeout.
+9. **CATALYSTS/CALENDAR:** the 11/17 rows are pruned to `research/2026-11-17_nvda-close/catalysts-fired.tsv`; the Bessent deadline (about 11/26, Thanksgiving) is added.
 
-**Persistence / coordination (11/17 16:5x ET):** PROME prome-19 task wake at 15:57 ET.
-- **Inbox:** WALTER cards 007, 013 and 019 acted and moved to `processed/`.
-- **Records:** KB-VIO-400 and KB-VIO-401 written; KB-VIO-328 marked STALE.
-- **Delivered:** outbox SIG, a TERRY packet and a PROME packet. HOLD for the closeout ask; no pull or push until PROME asks.
+**Persistence / coordination (11/17 17:0x ET):** PROME prome-19 task wake at 15:57 ET.
+- **Delivered:** `032fc01884`, consumed by PROME; closeout asked at 16:5x ET.
+- **Inbox:** WALTER 007, 013 and 019 acted; 020 noted but left unmoved (WALTER had not committed it).
+- **Records:** KB-VIO-400 and KB-VIO-401.
+- **Calendar:** fired rows pruned; Bessent deadline added.
+- **WQ-678:** PROME confirms Will's ruled record is his word. Apply A15 and decide the B trims at the 11/18 wake.
