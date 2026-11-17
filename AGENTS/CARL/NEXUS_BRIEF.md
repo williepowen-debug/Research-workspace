@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none in version. 11/06: masking framework's intermediate falsifier CRL-21 MISSED: Ally FY2025 −38.0 bp vs FY2023 at the same age, FY2026 −5.0 bp; outer falsifier CRL-20 at 1%. Mechanism not killed: FY2026 early delinquency is above FY2023, one nine-month reading. Aggregate buffer drawdown (saving 3.8%) stands.
-**As of:** 2026-11-14 11:25 ET | STATUS commit: `17fba50e9f`
+**As of:** 2026-11-17 12:07 ET | STATUS commit: `220041a23e`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -13,9 +13,10 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| PROME / WALTER / HENRY / TERRY / RED | 11/17 answer to WALTER SIG-W-20261117-004 (Census CB26-181 primary; BLS import prices via FRED, bls.gov 403): October retail +0.21%, ex-autos +0.63% (the card's +0.21% ex-autos was the wrong series), control +0.59% (about +0.43% real), autos −1.60%; September control revised +0.14 → +0.53%. Gasoline 9.17% of retail dollars vs 7.52% a year ago. Import prices +1.05%, ex-fuel +0.80%, about 70% not fuel; no true October y/y. | WALTER ACTION | Aggregate spending did not break; the squeeze is a wallet-share shift, not falling goods volume. Nominal, no cohort split. Ex-fuel import pipeline is HENRY's rates input. TERRY: no CARL investment implication (WQ-696). T1 2 of 3 against. KB-623/624; research/2026-11-17_retail-imports/READ.md. |
 | PROME / NEXUS / REGINALD / CORAL | 11/11 answers to WALTER SIG-W-20261111-016 and -017. Airfares (MARCO ENR-02) verified on FRED: two-year +23.27% Oct, +26.36% Sep; nearly all in the last 12 months; SA m/m fading +2.68/+1.16/+0.41% Aug–Oct. Citi modified-card 30+ share 18.59→19.08% completes the six-peer panel vs Capital One 17.2→25.2%. | WALTER ACTION | Airfare = price on a top-cohort-skewed basket with demand held (JetBlue KB-567): resilience, not squeeze; Spirit exit an unmeasured bottom-cohort access loss; no CARL prediction, kill leg or vector instrument touched; Florida household leg not established. Capital One's jump issuer-specific on this measure, cause UNKNOWN; not hidden delinquency or a ranking. KB-619/620; research/2026-11-11_catchup/AIRFARE_CITI.md. |
 | PROME / RED / NEXUS | 11/11 answer to WALTER SIG-W-20261110-001: October core +0.296% (third about 0.3), Waller's 50bp text verified. A December hike lifts card APR (22.36%) about 1.1% relative per 25bp, at most $3.4B a year per 25bp across all revolving; fixed-rate auto, mortgage and student loans untouched; first HHDC to carry it Q1-2027. | WALTER ACTION | Widens the K-shape (revolvers pay, savers earn); does not reverse the falling card flow. Kill rule, CHG-RED-045 and predictions untouched; V12 reinforced at 5. Real risk channel is jobs (LABOR). KB-615; research/2026-11-11_catchup/READ.md. |
-| PROME / BRENT / NEXUS | AAA regular under $4.00 (11/10 $3.979, 11/11 $3.943); EIA 11/09 $3.995. | Boot pull | V5 downgrade clock day 2 of 14 (earliest 11/24); CRL-34 leg 1 of 2 (leg 2 = 11/16 print). No score moved. KB-616. |
+| PROME / BRENT / NEXUS | AAA regular under $4.00 (11/10 $3.979, 11/11 $3.943); EIA 11/09 $3.995, 11/16 $3.805. | Boot pull / 11/17 | **CRL-34 CONFIRMED 11/17 at 72%.** V5 downgrade clock runs to 11/24 (AAA letter, separate). No score moved. KB-616. |
 | NEXUS / RED / REGINALD | 10/28 catch-up: FOMC hold 10–2 (two hike dissents, V12 0 of 2); Conference Board Oct 91.7 (+7.5); EIA 10/26 regular $4.269 (−1.5¢) vs diesel $6.352 (+7.6¢, 3rd rise); CCC−B 999bp while HY tightened to 318bp; Carvana Q3 units +39%, fuel and rates about −$200/unit. KB-561–567. | Dark-period catch-up | Attitudes rebounded unevenly; fuel legs diverge; corporate quality split widens. None is a score letter; no loan-performance data in Carvana. |
 | NEXUS / RED | PNC September nominal card spend +6.1% YoY, +5.1% ex gas; lower-income growth faster. Velera credit/debit transaction counts +4.3%/+5.5%. | Will-requested sweep | Selected bank/processor evidence challenges broad collapse. These panels do not measure CARL's assumed bottom 60%; no dismissal of the counterevidence on that basis. KB-546/550/551. |
 | NEXUS / REGINALD | Edmunds Q3 underwater share 29.1% of financed new-car trade-ins versus 28.1% YoY; PNC same-age Gen Z deposit buffer 25 days versus Millennials 32. | Consumer consequence | Financing inflexibility and thin buffers coexist with activity. Different samples/clocks; no matched-vintage default inference, no national fragile share. KB-547–549. |
@@ -54,6 +55,7 @@
 - Screwworm/beef (11/10, KB-611): October beef CPI +0.58% m/m NSA, first rise since July, still below the peak; YoY not computable (October 2025 unpublished); not attributable to screwworm on this evidence. APHIS has not said established; counts did not render at the primary. DEWEY scenario B not called.
 - Registered score stays 53/70. Next aggregate reads: BEA income and outlays 11/25; next HHDC (Q4) ~Feb 2027.
 
+- **11/17:** October control group +0.59% after a September revised up to +0.53%: aggregate spending held; the 10/15 "core goods stalled" read is withdrawn by revision. Import prices ex-fuel +0.80% (goods pipeline, on top of tariffs) vs October core goods CPI +0.16%. No score moved.
 - **11/11:** Fed hike debate (Waller 50bp) is a slow, small cost for indebted households, not a near-term delinquency trigger; gas back under $4.00 starts V5's downgrade clock; October real hourly pay flat. CRL-36 stays 70% as registered (re-mark to 60 offered, PROME declined 11/11; not-defended sentence on the row).
 
 ## CALIBRATION
@@ -67,20 +69,20 @@
 
 ## NEXT DECISION POINT
 
-- **What:** CRL-34 leg 2 (EIA 11/16 print), then the V5 downgrade check (AAA below $4.00 through 11/24), then CRL-32 leg 1 at October income and outlays. The 11/10 kill-rule divergence sits with Will via PROME (RED's CHG-RED-045 re-review 11/17); CARL proposes nothing.
-- **When:** Tue 11/17; Tue 11/24; BEA Wed 11/25 08:30 ET.
+- **What:** the V5 downgrade check (AAA below $4.00 through 11/24), then CRL-32 leg 1 at October income and outlays. The 11/10 kill-rule divergence sits with Will via PROME (RED's CHG-RED-045 re-review 11/17); CARL proposes nothing.
+- **When:** Tue 11/24; BEA Wed 11/25 08:30 ET.
 - **What would falsify the trigger:** card flow fell a second quarter (6.87%), which already weakens the card-credit leg; the official kill still needs a cumulative 100bp decline. No frozen letter changes.
 
 ## FORWARD CATALYSTS
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 11/17 | EIA regular gasoline 11/16 print | CRL-34 leg 2 (<$4.000) |
 | 11/24 | AAA <$4.00 two weeks | V5 4→3 registered trigger |
 | 11/25 08:30 ET | October PCE / income (CRL-32 leg 1) | Letter research/2026-10-29_WQ537/LETTER.md; Z.1/DFA cohort read 12/10; final grade 12/23 |
 | 11/20 10:00 ET | Michigan November final | First interviews after the election and selloff; long-run <3.0% is V12's trigger |
 | 11/30 | EART October 10-Ds | V2 tier read |
 | 12/04 | November payrolls | V16 print 2 of 2 |
 | 12/09 | FOMC | V12 un-fire count |
+| 12/16 | November retail | Does the control group hold? |
 
-**Closeout (11/11, WQ-249, PROME prome-2b):** see SCRATCH closeout receipt. Score 53/70 unchanged; no mark moved.
+**Closeout (11/17, PROME prome-19):** see SCRATCH closeout receipt. Score 53/70 unchanged; no mark moved.
