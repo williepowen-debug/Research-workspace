@@ -1,23 +1,26 @@
-# Inbox Processing Receipt — 2026-11-14 16:15 UTC
+# Inbox Processing Receipt — 2026-11-17 13:4x UTC
 ## Agent: CRUISE
 
 ### Signals Processed
 | # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
 |---|-------------|--------|-------------------|-----------------|
-| 1 | 2026-11-11_from-PROME_WQ-670-RULED-A-green-cell-reading.md | INTEGRATE | KB-CRU-254 | VX-CRU-01 GREEN cell rewritten; GREEN(1) 11/9–11/11, YELLOW(2) at 11/12 and 11/13 closes |
-| 2 | 2026-11-12_from-DAEDALUS_WQ678-harness-lines.md | INTEGRATE | KB-CRU-256 | none (CLAUDE.md text: A11, A15, F13, F16, F17, F36, F50, F51 applied; none declined) |
-
-WALTER lane `inbox/WALTER/`: empty at the top level.
+| 1 | 2026-11-16_from-PROME_stale-KB-rows-retire-or-refresh.md | INTEGRATE | 28 rows → STALE, KB-CRU-175 refreshed; KB-CRU-263 | none |
+| 2 | WALTER/SIG-W-20261114-001.md | LOG | KB-CRU-259 | none |
+| 3 | WALTER/SIG-W-20261114-006.md | LOG (item 10 only) | KB-CRU-260 | none |
+| 4 | WALTER/SIG-W-20261114-008.md | LOG (folded into KB-CRU-259) | — | none |
+| 5 | WALTER/SIG-W-20261114-011.md | DISCARD (duplicate of 006 item 10) | — | none |
+| 6 | WALTER/SIG-W-20261116-005.md | LOG (item 8, verified at the 13G) | KB-CRU-261 | none |
 
 ### STATUS.md Changes
-- CRU-11: OPEN → FAILED (+2.23pp vs ≤ −5pp, KB-CRU-253)
-- VX-CRU-01: YELLOW(2) held → GREEN(1) 11/9–11/11 under WQ-670 A → YELLOW(2) at 11/12–11/13; desk total 9/20 unchanged
+- L715: due → GRADED NOT SPRUNG, provisional (KB-CRU-258)
+- Prices: 11/13 closes → 11/16 closes; VX-CRU-01 YELLOW(2) unchanged
 
 ### Outbox Signals Written
-- PROME/inbox/2026-11-14_from-CRUISE_L606-CRU-11-graded-WQ-670-encoded.md (packet, carve-out ①)
+- (none) — delivery packet to PROME only
 
 ### Files Modified
-CLAUDE.md, CADENCE.md, STATUS.md, TRADE.md, workbook/KB.tsv, workbook/VX.tsv, workbook/PREDICTIONS.tsv, research/2026-11-14_cru11-grade/
+KB.tsv, STATUS.md, TRADE.md, CADENCE.md, board_log.tsv, research/2026-11-17_l715/
 
 ### Skipped / Issues
-- None.
+- PROTOCOL.md and RECEIPT.md are scaffold files, not signals; left in place.
+- Entity `US_aviation` (KB-CRU-259) is not in CANONICAL_ENTITIES; closest free text used.

@@ -19,7 +19,7 @@ All money below is **USD millions**. October 15 closing 8-K and amended contract
 | Bank commitments | 2,486 → 2,801, +315; revolver repayment 376.3 | Nominal unused room +691.3 before other draws/FX/L/C usage. Commitment and borrowing capacity are not cash. |
 | Drawable capacity | ARCA §4.01(b)/(c)/(f); Amendment3 §1.05(a)/(b) | Draws require representations/default tests; aggregate exposure above 2,486 also requires specified mortgage/guarantor steps. Completion evidence unresolved; no breach inferred. |
 | Free Liquidity | Unrestricted cash plus qualifying drawable general-purpose facilities; amounts must not be mandatorily repayable within six months | Full nominal commitment cannot simply be substituted into a covenant certificate. Actual current cash/availability/compliance unresolved. |
-| November 17 spring | Relevant 2027 exchangeables unrefinanced beyond April 23 2030 **and** Free Liquidity below 800 | Conditional acceleration test; not a certified pass or failure. Floor 250; separate debt-service exception needs 300 throughout preceding four quarters. |
+| November 17 spring | Relevant 2027 exchangeables unrefinanced beyond April 23 2030 **and** Free Liquidity below 800 | **11/17: NOT SPRUNG, provisional pass** (KB-CRU-258): issuer 9/30 liquidity ~1,400 and ~1,318 to ~1,731 estimates vs 800; certification at the FY26 10-K. Floor 250; separate debt-service exception needs 300 throughout preceding four quarters. |
 | Cost | FY26 net-interest guide approximately 705; FY27 860–880 (September 30) | +155–175; not all attributable to this transaction. Same 525 principal coupon increment 13.781/year; neither whole-deal net cost nor credit spread. |
 | Current funding case (11/5) | Re-run on 9/30 actuals: 760 left at 12/31/27 at flat cash flow excluding the conditional 315; breakeven −12.7%/yr. The 10-Q gives the revolver repayment as 380.0, against 376.3 in the Proceeds and uses row | Endpoint test, not a low-point schedule. `research/2026-11-05_nclh-10q/RESULT.md`. |
 | Old funding cases | September 19: 695 draw, 605 unused, ~8% OCF-decline breakeven; October 14: ~14–16% decline scenario | **Historical scenarios, superseded as current rationale.** Later case incorporated 376.3 paydown, not 315 extra commitments. No current endpoint liquidity forecast asserted. |
@@ -33,7 +33,7 @@ Source and arithmetic: `research/2026-10-25_catchup/RESULT.md`, `calculations.js
 | ✅ RCL Q3 October 27 (L713) — **GRADED 10/28, L713 RESOLVED** | Beat (adj EPS $6.57) and raised (FY CC yield ~+2.1%, EPS $17.85–17.95); ladder 32.58% | Exit rule 1 limb 2 NOT FIRED. Strengthens dispersion; no trade change. KB-CRU-203..205. |
 | NCLH Q3 October 29, release 06:30 ET / call 08:30 ET (L714) | `WATCHLIST_NCLH_Q3.md` A–E plus October 25 note: yield/mix, deposits, operating cash, actual liquidity, commitments and implied Q4 | 10-Q may be needed for detail; never fabricate missing release fields. October 15 transaction is subsequent to September 30. |
 | ✅ CRU-11 (L606) — **GRADED FAILED 2026-11-14** | 11/13 close: NCLH +18.63% vs RCL +16.39% cumulative TR from 10/2, spread **+2.23pp** vs ≤ −5pp needed (KB-CRU-253) | Evidence against row 1's bear read on the tape: NCLH outran RCL after its Q3 raise. Conviction stays Will's (WQ-628 A, 2); no card asked; TERRY tradeability read routed via PROME. |
-| NCLH November 17 (L715) | Existing contractual springing-maturity conditions | June liquidity does not certify November compliance. |
+| NCLH November 17 (L715) | Existing contractual springing-maturity conditions | **Graded 11/17: NOT SPRUNG, provisional** (KB-CRU-258); reversal only by an 8-K by 11/23; 10-K certifies. |
 | Florida port FY26 counts, October–November | Existing physical-volume read | Capacity, passenger movements and local spending remain distinct; no new program. |
 
 ## Cross-Agent Dependencies
@@ -43,7 +43,7 @@ Source and arithmetic: `research/2026-10-25_catchup/RESULT.md`, `calculations.js
 | TERRY | Updated existing WATCH rationale; optional construction/valuation remains TERRY's. No card requested by this maintenance. |
 | CARL / MARCO via WALTER | Verified current NCL advertising, AAA volume forecast and secondary UBS booking lead fit dispersion without establishing broad consumer distress or Florida losses. |
 | BRENT / FALCON | Fuel price and theater owners. Fuel remains a cost line; Gulf remains the existing cancellation trigger. No fresh theater absence claim. October 25 bounded operator pass identified one NCL Sky cancellation reported August 5; VX04 is YELLOW(2), with source/coverage limits in the sweep result. |
-| PROME | L713 RESOLVED 10/28; L714 RESOLVED 11/5 (release leg graded 10/29, 10-Q leg 11/5); WQ-628 RULED A and encoded here 11/6; WQ-627 and WQ-640 RULED A, `VX-CRU-05` new cells live 11/6, RED(4) → ORANGE(3), conviction unchanged at 2; L715 (11/17) remains a future obligation; WQ-504 RULED A 10/29, charter corrected 11/5. |
+| PROME | L713 RESOLVED 10/28; L714 RESOLVED 11/5 (release leg graded 10/29, 10-Q leg 11/5); WQ-628 RULED A and encoded here 11/6; WQ-627 and WQ-640 RULED A, `VX-CRU-05` new cells live 11/6, RED(4) → ORANGE(3), conviction unchanged at 2; L715 graded 11/17 NOT SPRUNG, provisional (KB-CRU-258); WQ-504 RULED A 10/29, charter corrected 11/5. |
 
 ## Rejected / Exited
 

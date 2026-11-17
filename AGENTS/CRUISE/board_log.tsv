@@ -51,3 +51,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T23:03:24Z	SIG-W-20261104-075	noted	INBOX_WALTER	NCLH CFO succession duplicates KB-CRU-213; KB-CRU-221
 2026-11-05T23:03:24Z	PROME-20261029-WQ504-RULED	acted	MANUAL	Charter HAWK lines corrected to FALCON (line 4 plus two sibling lines); no route, threshold or trigger moved; _NETWORK.md line 154 verified; return memo to PROME/inbox
 2026-11-05T23:03:24Z	DAEDALUS-20261030-FALSIFICATION-5	acted	MANUAL	Exit-rule heading re-dated; thesis statement added to STATUS; DONE reply to AGENTS/DAEDALUS/inbox
+2026-11-17T13:40:38Z	SIG-W-20261114-001	noted	INBOX_WALTER	FAA ground stop 11/13; cruise embarkation strandings unmeasured; RCL not holding sailings (headline only); KB-CRU-259 combo:cruise-air-access
+2026-11-17T13:40:38Z	SIG-W-20261114-006	noted	INBOX_WALTER	Item 10 American Cruise Lines riverboat collision New Orleans, 32 hospitalised; not Big-3; KB-CRU-260 combo:cruise-incidents; other items not CRUISE
+2026-11-17T13:40:38Z	SIG-W-20261114-008	noted	INBOX_WALTER	Update to -001: cause bad equipment or copper-line error, >16,000 cancellations Fri-Sat; folded into KB-CRU-259
+2026-11-17T13:40:38Z	SIG-W-20261114-011	info-only	INBOX_WALTER	Only CRUISE item is the New Orleans collision, duplicate of -006 item 10 (KB-CRU-260)
+2026-11-17T13:40:38Z	SIG-W-20261116-005	noted	INBOX_WALTER	Item 8 NCLH $447M stake verified at primary: Ameriprise/Columbia 13G 5.5% at 9/30, passive; KB-CRU-261
