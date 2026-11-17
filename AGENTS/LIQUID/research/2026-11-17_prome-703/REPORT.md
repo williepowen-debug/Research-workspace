@@ -63,7 +63,12 @@ Source: BROCK `KB-BRK-503` (8-K 0000950157-26-001261, accepted 2026-11-16 16:41:
 | IG OAS | 90 bp | +1 |
 | HY effective yield | 8.25% | +5 bp |
 | HY−IG | 244 bp | +10 |
-| BBB / BB / B / CCC | **not posted at 10:46 ET** | tier rule PENDING |
+| BBB / BB / B / CCC (first seen 10:50 ET; `fred_first_published_tiers_1050ET.txt`) | 112 / 196 / 357 / **1,310** bp | +1 / +10 / +13 / **−6** |
+| CCC−B · B−BB (`transmission_check_asof_1116.txt`) | 953 · 161 | −19 (1.1st pct daily) · +3; B−BB 15-session +24 (96.8th pct) |
+
+**Tier rule (September 25 §1c, ordered), November 16: BROADENS** on the daily clause: B +13 wider, and BB +10 meets its +9 p95 (96.6th percentile daily); IG +1 and BBB +1 stay under +2. REVERSES fails (CCC −6 against −9). The 15-session clause does not meet (base October 23: IG −1, BBB −1, BB −10). Reading: one print in which the middle of the ladder (BB, B) widened while CCC tightened. It is the opposite of a tail-led move, and one day is not a trend. The grade is descriptive, not a gate; no routing follows from it.
+
+**069 L1, November 16: NOT FIRED.** BB 196 is 24 under 220; CCC 5-session −7 vs November 6 (1,317), flat. Graded by hand from the first-published rows because `gate069_legs.py` still read the November 13 BB (186) at 10:51 ET, one minute after the vintage pull had November 16 (`gate069_legs_1052ET.txt`). Likely a lag in the latest-revised feed the script reads; not chased.
 
 | Rule (letters unchanged) | Grade |
 |---|---|
