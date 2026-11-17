@@ -2,9 +2,14 @@
 
 **Status:** Severity concentrated on Q3 levels, with a qualifier: the registered breadth test L180 reads BROADER on its letter, weak [11/07]; frozen 8/20 score showed no skill. **REG-T-06 REVIEW [11/16]: FHLB advances $798.4B [9/30] on the Q3 CFR, third official quarter >$700B, down 1.5% q/q (all of it Cincinnati, −$22.1B); breadth recorded 11/16 PM: concentrated (top four ≥52.1% of YTD growth; SEC-panel median −0.4% YTD), no escalation.** HY OAS 323bp [11/13] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, peak 348 [11/05], run 0-of-3); wide HY alone does not establish bank transmission. FL frame NO TRANSMISSION FINAL [11/06]: three HOLDS, BKU MIXED, its primary cell transmitted alone on one modified credit of $21.3M. VLY's ~$108M CRE payment-delay block did not pay off and looks modified again (inference); no second bank passed that test on the 11/06 screen, now NO BLOCK at 8 names; FLG's pool +$202M is mostly a Call Report line (inferred). FLG multifamily special mention $3,001M and substandard $4,428M rose in Q3 while modifications fell to $96M. The 10-year, not HY, moves regionals. Problem loans up at 7 of 10 names; falling coverage dropped as a predictor (L801, 10/30). WAL's Q3 10-Q: NCO 0.30%, no fraud, WAL-source stand-down leg NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-16 19:38 ET, 11/16 third session, Will direct: MHFIN video read (no new bank evidence); 9/30 CRE exposure count corrected to the SR 20-8 basis; VX.tsv FROZEN; inbox and corrections cleared. Earlier same day: REG-T-06 REVIEW and breadth; United Fidelity; D:L798 first read; reserve count | STATUS commit: `efd26b2691`
+**As of:** 2026-11-17 09:01 ET, 11/17 wake (PROME prome-19) and closeout: D:L798 comment period EXTENDED 11/13 to Wed 12/16 (my 11/16 close date was wrong); Fed and FDIC letters read; BKU nothing new; REG-T-02 through 11/16, 0 of 3; rotation pass | STATUS commit: `a6b503fa25`
 
 ## CROSS-DOMAIN
+
+**November17 wake** (report `reports/2026-11-17_L798-extension-and-audit/REPORT.md`; KB ML-REG-305, 306):
+- **Vendor guidance (GIBBS, CYPHER, PROME):** CORRECTS 11/16: the agencies extended both comment periods (OP-1881 interagency, OP-1880 Fed community-bank guide) to Wed 12/16 on Fri 11/13 (Fed and OCC releases); regulations.gov and the FDIC table still show 11/16. Of 67 Fed and 24 FDIC letters, three banks describe core-provider dependence (Bristol Morgan: years of outages at an unnamed provider); none names a vendor or a figure. AI appears zero times in both proposals; Bowman 5/1 and Waller 9/28 speeches are the only regulator words on agentic AI. Full file after 12/16.
+- **FLG (FLG, TERRY):** Exec Chairman and CEO Otting bought 47,324 sh at $10.49 on 11/10 (Form 4 acc 0001323101-26-000007); not a matrix input.
+- **Settled 11/16:** WAL $73.46, exit 0-of-3 (54 rows); KRE $72.19; FLG $10.40, 28 closes below RED. Claims 200K [w/e 11/07]; NFCI −0.462 [11/06]. No score, threshold, gate or trade change.
 
 **November16 evening** (report `reports/2026-11-16_MHFIN-office-video-read.md`; KB ML-REG-302, 304; 303 SUPERSEDED):
 - **CRE exposure, all banks (CREED, GIBBS, TERRY, CATO):** 9/30 Call Reports, 4,205 banks, SR 20-8 denominator for every bank (tier 1 + allowance on loans and leases): $1–10B median 226% of capital, 175 of 889 (19.7%) at or above 300% before the 36-month growth leg (not computed, so an upper bound); broad incl. owner-occupied 305%; $10–100B 217%, 13.7%. ⚠️ **Exposure, not distress:** it says where a downturn would bite, not that one is, and is not evidence for concentrated-not-tier-wide. First run mixed denominators (19.9%, 177); corrected. EGBN's published 245.8% is on the old total-capital basis (242.0% on SR 20-8).
@@ -50,45 +55,8 @@
 - **Refuters on the bank-put book, evidence only:** 2 met, 1 met then lost, 3 not met, 2 unknown. H.8 11/06 read: refuter 6 stays NOT MET.
 - **Combination watch live, four themes.** No score, threshold, gate or trade change.
 
-**November5 catch-up** (`reports/2026-11-05_boot/REPORT.md`; dated reports for each item):
-- **Selloff (settled 11/05):** SPY $733.00 from $766.81, KRE $72.31 from $74.13, WAL $75.88 from $79.24. WAL is a suppressed sub-$78 re-entry: REG-T-02 stays FIRED, exit 0-of-3. Cause of WAL's extra weakness UNKNOWN; no new filing. Credit ETFs calm; HY print pending.
-- **Preferred Bank:** multifamily 30–89 $143.1M, 26.5% of the book [9/30]. Working read real but contained; formal answer UNRESOLVED until the 10-Q, most likely Mon 11/9.
-- **Flagstar:** multifamily 30–89 $392M is a rebound (peak $893M), my "the one that matters" withdrawn. New are 90+ accruing $107M [9/30] and modifications $556M H1. 10-Q not filed at 16:33 ET.
-- **Ueno, Paraguay:** single-bank failure at the outside report's cutoff; identified US fund holdings $17.9M, 5.1% of the bond; about 95% of holders unidentified. LIQUID owns contagion.
-- **Valley, Eagle, BankUnited:** Q3 10-Qs filed 11/05; read 11/06, above.
-- **FFIEC tail:** 138 of 138; 6 flags unchanged; frozen verdict waits for FDIC. No score, threshold, gate or trade change.
+*November 5 back to November 1 entries (11/05 catch-up, 11/03 KRE redemption base rate and boot, 11/02 KRE verification, evening boot and carried releases, 11/01–02 Call Reports) → `archive/NEXUS_BRIEF_rotation_2026-11-17.md` BLOCK N2, crc32 `3717bcf1`.*
 
-**November3 KRE redemption base rate** (`research/KRE/REDEMPTIONS.md`; rolling/monthly data under `reports/2026-11-03_redemption-history/`):
-- 2025 NAV **+7.41%** with shares **−29.45%**; 2026 through 11/02 NAV **+13.66%** with shares **−10.39%**. The price/share-count divergence is not new, so contraction alone is not a directional price or bank-credit signal.
-- The 11/02 decline was **2.15M shares (−3.87%)**, ninth-largest among 65 three-month daily changes. The separate 11/03 vendor-derived monitor change is unconfirmed and not treated as an official daily redemption. No bank-credit inference or grade change.
-
-**November3 boot** (`reports/2026-11-03_boot/REPORT.md`):
-- **Settled tape:** WAL $78.67 [11/02, Yahoo/Nasdaq agree], REG-T-02 FIRED with exit 0-of-3 through 44 rows; KRE $73.73. Intraday 11/03 quotes do not grade either state. FLG stays RED at $10.75 settled, 18 closes below the band.
-- **Credit and fund flow:** HY 343bp / CCC 1,319bp [FRED 11/02], CCC/HY 3.85× with no CCC-led escalation. KRE shares outstanding fell 1.16M (−2.2%) to 50.58M: moderate redemptions, not a registered bank-credit trigger.
-- **Intake:** no open inbox or peer-channel items, due predictions, corrections or stale ledgers; no unread BOARD signal met the selection rule. Alerts were previously known. No score, prediction, probability, position or trade change.
-
-**November2 KRE verification** (`research/KRE/reports/2026-11-02_study6-verification/REVIEW.md`; `research/KRE/reports/2026-11-02_kre-stress-test-rebuilt/REVIEW.md`):
-- **Market read:** reduced KRE co-movement is real and survives matched trimming, but Study 4 supports a broader market/style explanation rather than a regional-credit all-clear. No directional forecast follows.
-- **Holdings read now verified:** the ex-five KBWB reconstruction reproduces. Like-for-like five-bank effect = 1.772pp (73% of the 8/3–10/30 gap), not 1.81 including tracking. Corrected linked components reconcile; BAC/GS/MS drive it, JPM offsets. Highly window-sensitive and not a cause or co-movement explanation.
-- **Evidence state:** rebuilt stress test matched all 54 rebuilt comparison values after a documented temporary fetch repair; Study 6 regenerated 16/17 outputs byte-for-byte. No bank grade, threshold, prediction or trade change.
-
-**November2 evening boot** (`reports/2026-11-02_evening-boot/REPORT.md`):
-- **Tape at 17:29 ET, vendor quotes rather than settled grades:** WAL $78.67 (+3.12%), KRE $73.73, FLG $10.75. REG-T-02 stays FIRED with settled exit run 0-of-3; FLG stays RED. No threshold or score change.
-- **CUBI:** CEO Jay Sidhu sold 50,000 shares at $87.4039 [11/02, SEC Form 4 acc 0001222371-26-000011]. Insider-selling observation only, not bank-credit transmission.
-- **Intake:** BOARD -010 BACKFILL; inboxes, WAL/OZK channels, corrections, prediction due dates and staleness checks clear. No new route or trade candidate.
-
-**November2 carried releases** (`reports/2026-11-02_carried-release-reads/REPORT.md`):
-- **CCB Q3:** Bluevine on-balance-sheet deposits **$452.4M [9/30] = 9.67%** of same-date deposits, with another $1.85B swept off balance sheet; latest expected Valley close Q2 2027. The unnamed partner's $22.8M specific allowance is unchanged and the $45.6M valuation allowance is near Q2, but $3.1M of additional provision was not offset by enhancement income. Stable, not resolved; funding exit remains prospective. Release-only PARTIAL.
-- **Weekly funding:** H.4.1 primary credit **$9.219B [Wed 11/04]**. H.8 small-bank borrowings **$309.7B [w/e 10/28]**, up $4.5B (+1.5%) from the revised $305.2B [10/21], still $3.5B under the $313.2B [10/14] week, with deposits +0.26% and NDFI loans down $1.3B. Fed H.8 11/06 → `reports/2026-11-06_close-refresh/REPORT.md` §2.
-- **FHLB:** preliminary advances **$798.4B [9/30]**, ~−1.5% q/q on the carrying-value basis. **Superseded 11/16: the 11/13 CFR printed $798.428B, run 3 of 3, REVIEW; breadth checks owed.**
-- **No score, threshold, prediction, protocol or trade change.** Cohort selection, L180 breadth and PROME's reserve-release count remain for the approved 11/07 run.
-
-**November1–2** (`reports/2026-11-01_Q3-call-report_VLY-EGBN-HBAN/REPORT.md`; `reports/2026-11-02_boot/`):
-- **VLY Q3 (Call Report, bank level):** nonaccrual $462.6M → $511.4M = construction +$30.1M (one loan) + an $18.5M loan to a nondepository financial institution (BROCK lane, INFO packet sent 11/01); allowance −$9.8M, coverage 127.6% → 113.5%. The Q2 multifamily 30–89 cohort went mainly to modification, not cash (INFERRED). REG-30 (VLY nonaccrual ≥ $511.4M at Q4, 60%) OPEN.
-- **EGBN Q3:** multifamily nonaccrual +$46.6M (fits Prince George's $56.0M), allowance flat, coverage 88.5% → 67.2%. **HBAN:** MI3 +28.6% with loans +0.9% = STEP-CANDIDATE, read at 11/07.
-- **Broad or name-specific? (PROME 11/02, for TERRY's KRE-put question):** the 11/07 run counts banks with nonaccrual up AND allowance down 6/30 → 9/30, with the 3/31 → 6/30 count beside it. UNKNOWN at 11/07, FDIC list not posted.
-- **Tape [settled 10/30]:** WAL $76.29 (REG-T-02 FIRED, exit 0-of-3), KRE $72.01 ($12 above $60). FLG ladder RED, $10.51. Claims 194K [w/e 10/24]. FHLB Q3 preliminary $798.4B; REG-T-06 grades 11/13 from the CFR.
-- **No score, threshold or probability change.**
 
 *October entries (10/31 back) rotated verbatim 2026-11-06 → `archive/NEXUS_BRIEF_rotation_2026-11-06.md` BLOCK N1, crc32 `fa797f53`.*
 
@@ -124,6 +92,7 @@
 | Settled exit log and FRED tier test | Existing daily cadence | Exit count→registry/REG_T02_EXIT_LOG.tsv; no unsettled bars or missing-data-as-holiday. REG-T-03 already fired, evaluate follow-through/exit rather than restart. |
 | Nano P&A /RED and CARL reviews | CALENDAR /MEMORY | October27 P&A; October23 CET1/AOCI; October26 fintech join. Existing obligations, no completion inferred. |
 | FHLB official publication and borrower disclosures | CALENDAR /registry NOTES /WILL_QUEUE | Highlights October30 versus CFR November13 remains the existing instrument discrepancy. Official count only; both breadth measures before escalation. |
+| Vendor-guidance comment close (D:L798) | CALENDAR Wed 12/16 row | Read the full file from Thu 12/17 on Fed and FDIC sites; a bank naming a core vendor or a dependence figure is the only thing that would move it |
 | FFIEC Q3 run and later QBP | CALENDAR | Token renewed, cohort decided (WQ-624 A), run prepared for November7; completeness checked at retrieval, later QBP remains dated. |
 
 **Preservation:** Original contiguous blocks B01–B06 → `archive/2026-10-20_organisation-cleanup_NEXUS_BRIEF.md`; exact source-line/section map and verified CRCs → `reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check size at any append or on 2026-11-20, whichever first.
