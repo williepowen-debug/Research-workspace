@@ -1,6 +1,6 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-11-17 08:36 → 08:46 ET (Tue) — **coral-ah**, due-row wake by PROME prome-19 (D:L1048 CORAL-02, whole inbox, WQ-704 research commission). Opus 5.5 in Claude Code on the desktop. Root CLAUDE.md and local CLAUDE.md (harness-injected), AGENTS.md, USER.md, COMPLETION_SPEC read explicitly; STATUS, SCRATCH, THESIS (rails and grading section) read; LESSONS, CALENDAR, MEMORY read only where touched (⚠️ partial boot, said so). boot.py run (--quick, prices skipped); corrections rc 0. **Pull not run and push not run: PROME said hold until asked.** Boot banner: local branch 1 commit ahead of origin at start (not mine).
+**Session:** 2026-11-17 08:36 → 08:46 ET (Tue) — **coral-ah**, due-row wake by PROME prome-19 (D:L1048 CORAL-02, whole inbox, WQ-704 research commission). Opus 5.5 in Claude Code on the desktop. Root CLAUDE.md and local CLAUDE.md (harness-injected), AGENTS.md, USER.md, COMPLETION_SPEC read explicitly; STATUS, SCRATCH, THESIS (rails and grading section) read; LESSONS, CALENDAR, MEMORY read only where touched (⚠️ partial boot, said so). boot.py run (--quick, prices skipped); corrections rc 0. **Pull not run (held on PROME's word); closed out 08:4x ET on PROME prome-19's ask: delivery consumed, D:L1048 resolved by PROME, next wake Wed 12/16 (FL Realtors Nov); FEMA study with AEOLUS due Fri 11/20 (D:L784), read the Amendment 3 certification then.** Boot banner: local branch 1 commit ahead of origin at start (not mine).
 **Previous:** 2026-11-16 coral-ag.
 
 ---
