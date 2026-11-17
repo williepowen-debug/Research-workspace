@@ -19,7 +19,12 @@ entities: ["Nvidia", "NVDA", "Colette Kress", "Jensen Huang", "BIS"]
 word_count: 540
 dispatch_note: "LAST_COMPLETION RESUME 1: card the results if no owner has; at 21:47Z no BOARD card and VULCAN's STATUS last stamp 12:10 ET. AI_CAPEX row: VULCAN action; HENRY, VIOLET, WATT, RED info; ZHAO for the zero-China assumption next to card 007 (BIS rule); PROME pull-complete INFO; TERRY reads the BOARD. Catalyst type, IMMEDIATE. Not cluster_mediating."
 event_window: "open (call 17:00 ET)"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-17
+status_ref: "SIG-W-20261117-020 — figures hold; Kress interim CEO since 11/12 (not tonight); Huang offer on record, board refusal unnamed-source; CFO Commentary splits and guarantees $118.0B, supply commitments $390B added (VULCAN 8-K read)"
 ---
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261117-020: figures hold; Kress interim CEO since 11/12 (not tonight); Huang offer on record, board refusal unnamed-source; CFO Commentary splits and guarantees $118.0B, supply commitments $390B added (VULCAN 8-K read).**
+
 # Nvidia Q3 FY2027 (quarter to Oct 25): revenue $115.8B (+20% q/q, +103% y/y), Data Center $107.6B (+110% y/y); Q4 outlook $130.0B plus or minus 3% including an extra week, no China data-center compute assumed; gross margin guide 71.0 to 72.0% vs 74.8% GAAP in Q3; Colette Kress named interim CEO, CEO search and an independent board committee investigation referenced; read at the Nvidia primary
 
 # Nvidia Q3 FY2027 results, released November 17 after the close (read at nvidianews.nvidia.com)
