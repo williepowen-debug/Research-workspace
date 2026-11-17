@@ -1,0 +1,14 @@
+{
+ "schema": 2,
+ "staged_at": 1794936428.8095553,
+ "items": [
+  {
+   "id": "2122723751880167688",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-011-UPDATE-of-008-CNN-five-sources-NSA-Net-classified-internal-network-down-no-evidence-of-cyberattack-staggered-arrivals-six-outages-in-six-days-list-causes-stated-differ-link-not-established.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "26f5bd1b3a9b4d1381e6463b5f252a80"
+}
