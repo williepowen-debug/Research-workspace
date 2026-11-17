@@ -79,3 +79,4 @@ cusip	original_issue_date	source
 912810UM8	2025-08-15	TreasuryDirect TA_WS securities/search min(issueDate), pulled 2026-09-24
 912810UP1	2025-11-17	TreasuryDirect TA_WS securities/search min(issueDate), pulled 2026-09-24
 912810UR7	2026-02-17	TreasuryDirect TA_WS securities/search min(issueDate), pulled 2026-09-24
+912810UU0	2026-05-15	TreasuryDirect TA_WS securities/search min(issueDate), pulled 2026-11-16

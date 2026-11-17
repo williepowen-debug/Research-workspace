@@ -1,0 +1,14 @@
+{
+  "cusip": "91282CRE3",
+  "auction_date": "2026-11-19",
+  "term": "10-Year",
+  "tips": true,
+  "frozen_on": "2026-11-16",
+  "source": "AGENTS/BOND/analysis/2026-11-16_long-end/grade_91282CRE3.txt (pre-print run 2026-11-16 20:59 ET, .venv python); docket/CATALYSTS.tsv",
+  "n": 12,
+  "ind_min": 56.08,
+  "dlr_max": 17.79,
+  "btc_min": 2.20,
+  "p15": null,
+  "p15_reopen": null
+}

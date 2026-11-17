@@ -1,0 +1,14 @@
+{
+  "cusip": "912810UZ9",
+  "auction_date": "2026-11-18",
+  "term": "20-Year",
+  "tips": false,
+  "frozen_on": "2026-11-16",
+  "source": "AGENTS/BOND/analysis/2026-11-16_long-end/grade_912810UZ9.txt (pre-print run 2026-11-16 20:59 ET, .venv python); docket/CATALYSTS.tsv",
+  "n": 12,
+  "ind_min": 52.47,
+  "dlr_max": 17.59,
+  "btc_min": 2.36,
+  "p15": 57.11,
+  "p15_reopen": 61.71
+}
