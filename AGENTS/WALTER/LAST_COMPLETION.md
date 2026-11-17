@@ -71,11 +71,14 @@ Tier 2 FULL closeout, walter-15, desktop. Prior: LIGHT 2026-11-17T19:13:00Z and 
   "publication": [
     {"commit": "ffce6c5159", "state": "published", "note": "card 019; safe-push CONFIRMED on origin"},
     {"commit": "293bd2b2b3", "state": "published", "note": "correction 020 with banners and R1 row; on origin via other desks' pushes (verified merge-base 23:2xZ)"},
-    {"commit": "65c2e43956", "state": "published", "note": "card 020 flag cleared note; on origin"}
+    {"commit": "65c2e43956", "state": "published", "note": "card 020 flag cleared note; on origin"},
+    {"commit": "3de3126269", "state": "published", "note": "card 021 and the full closeout; safe-push CONFIRMED"}
   ],
   "delivery": {
     "signal_date": "20261117",
-    "note": "card 021 and this closeout commit pushed at closeout via safe-push; reconcile_delivery_log run after push; CARL, RED, PROME INFO by BOARD diff; TERRY BOARD-only"
+    "total": 116,
+    "delivered": 116,
+    "note": "closeout commit 3de3126269 safe-push CONFIRMED; reconcile_delivery_log --apply after push (9 rows flipped); CARL, RED, PROME INFO by BOARD diff; TERRY BOARD-only"
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
