@@ -1,0 +1,154 @@
+{
+ "schema": 2,
+ "staged_at": 1794934633.0835965,
+ "items": [
+  {
+   "id": "2122706156498170122",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-007-US-BIS-extends-AI-chip-licensing-to-five-diversion-risk-countries-and-overseas-data-centers-serving-China-China-vows-countermeasures-Commerce-DOJ-Megaspeed-statement-Nvidia-reports-tonight.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122549568365568504",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-008-Optimizely-supply-chain-compromise-Nov-16-malicious-JavaScript-on-178-organizations-32-banking-and-finance-HSBC-Equifax-card-skimming-on-first-party-forms-fixed-plus-outage-claims-Schwab-NSA-DHS-unverified.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122722758178009436",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-009-Small-items-bookmarks-Nov-17-HSBC-sold-300M-New-Mexico-Stargate-data-center-loan-in-mid-80s-weeks-ago-Deutsche-Bank-minus-6pct-on-leak-pension-and-insurer-AI-exposure-aluminum-minus-2.9pct.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122713878920622342",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-008-Optimizely-supply-chain-compromise-Nov-16-malicious-JavaScript-on-178-organizations-32-banking-and-finance-HSBC-Equifax-card-skimming-on-first-party-forms-fixed-plus-outage-claims-Schwab-NSA-DHS-unverified.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122716134483104214",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-008-Optimizely-supply-chain-compromise-Nov-16-malicious-JavaScript-on-178-organizations-32-banking-and-finance-HSBC-Equifax-card-skimming-on-first-party-forms-fixed-plus-outage-claims-Schwab-NSA-DHS-unverified.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122713165481820326",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-007-US-BIS-extends-AI-chip-licensing-to-five-diversion-risk-countries-and-overseas-data-centers-serving-China-China-vows-countermeasures-Commerce-DOJ-Megaspeed-statement-Nvidia-reports-tonight.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122485996864336094",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-009-Small-items-bookmarks-Nov-17-HSBC-sold-300M-New-Mexico-Stargate-data-center-loan-in-mid-80s-weeks-ago-Deutsche-Bank-minus-6pct-on-leak-pension-and-insurer-AI-exposure-aluminum-minus-2.9pct.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122446058370597070",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261117-008-Optimizely-supply-chain-compromise-Nov-16-malicious-JavaScript-on-178-organizations-32-banking-and-finance-HSBC-Equifax-card-skimming-on-first-party-forms-fixed-plus-outage-claims-Schwab-NSA-DHS-unverified.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122533142137614375",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-007-US-BIS-extends-AI-chip-licensing-to-five-diversion-risk-countries-and-overseas-data-centers-serving-China-China-vows-countermeasures-Commerce-DOJ-Megaspeed-statement-Nvidia-reports-tonight.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122409430243238190",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261117-008-Optimizely-supply-chain-compromise-Nov-16-malicious-JavaScript-on-178-organizations-32-banking-and-finance-HSBC-Equifax-card-skimming-on-first-party-forms-fixed-plus-outage-claims-Schwab-NSA-DHS-unverified.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122706295350329722",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-004-October-retail-sales-plus-0.2pct-m-m-748.2B-ex-autos-plus-0.2pct-September-revised-up-to-plus-0.8pct-import-prices-plus-1.1pct-m-m-export-prices-plus-1.1pct-FRED-first-published-Nov-17-CARL.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122698615722230222",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261117-008-Optimizely-supply-chain-compromise-Nov-16-malicious-JavaScript-on-178-organizations-32-banking-and-finance-HSBC-Equifax-card-skimming-on-first-party-forms-fixed-plus-outage-claims-Schwab-NSA-DHS-unverified.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122668873304695088",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261117-008-Optimizely-supply-chain-compromise-Nov-16-malicious-JavaScript-on-178-organizations-32-banking-and-finance-HSBC-Equifax-card-skimming-on-first-party-forms-fixed-plus-outage-claims-Schwab-NSA-DHS-unverified.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122702795669221812",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-009-Small-items-bookmarks-Nov-17-HSBC-sold-300M-New-Mexico-Stargate-data-center-loan-in-mid-80s-weeks-ago-Deutsche-Bank-minus-6pct-on-leak-pension-and-insurer-AI-exposure-aluminum-minus-2.9pct.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122570042592084015",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261117-009-Small-items-bookmarks-Nov-17-HSBC-sold-300M-New-Mexico-Stargate-data-center-loan-in-mid-80s-weeks-ago-Deutsche-Bank-minus-6pct-on-leak-pension-and-insurer-AI-exposure-aluminum-minus-2.9pct.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122537888072036558",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-009-Small-items-bookmarks-Nov-17-HSBC-sold-300M-New-Mexico-Stargate-data-center-loan-in-mid-80s-weeks-ago-Deutsche-Bank-minus-6pct-on-leak-pension-and-insurer-AI-exposure-aluminum-minus-2.9pct.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122535982591365248",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-008-Optimizely-supply-chain-compromise-Nov-16-malicious-JavaScript-on-178-organizations-32-banking-and-finance-HSBC-Equifax-card-skimming-on-first-party-forms-fixed-plus-outage-claims-Schwab-NSA-DHS-unverified.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122466212147757085",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-009-Small-items-bookmarks-Nov-17-HSBC-sold-300M-New-Mexico-Stargate-data-center-loan-in-mid-80s-weeks-ago-Deutsche-Bank-minus-6pct-on-leak-pension-and-insurer-AI-exposure-aluminum-minus-2.9pct.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122515970275303748",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261117-009-Small-items-bookmarks-Nov-17-HSBC-sold-300M-New-Mexico-Stargate-data-center-loan-in-mid-80s-weeks-ago-Deutsche-Bank-minus-6pct-on-leak-pension-and-insurer-AI-exposure-aluminum-minus-2.9pct.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122422157959471456",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261117-008-Optimizely-supply-chain-compromise-Nov-16-malicious-JavaScript-on-178-organizations-32-banking-and-finance-HSBC-Equifax-card-skimming-on-first-party-forms-fixed-plus-outage-claims-Schwab-NSA-DHS-unverified.md",
+   "ask_user": null
+  },
+  {
+   "id": "2122452329706471824",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261117-008-Optimizely-supply-chain-compromise-Nov-16-malicious-JavaScript-on-178-organizations-32-banking-and-finance-HSBC-Equifax-card-skimming-on-first-party-forms-fixed-plus-outage-claims-Schwab-NSA-DHS-unverified.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "d4db43f92f594ce8b7424eb26c3170ec"
+}
