@@ -35,6 +35,8 @@ Boot PARTIAL (walter-15, desktop):
 
 **Post-closeout leg (17:03Z):** CARL corrected card 004 (ex-autos +0.63%, not +0.21%; WALTER used RSXFS, which includes autos). Correction SIG-W-20261117-010, R1 COR-20261117-10, banner on 004; CARL packet consumed; MEMORY #43 n+1.
 
+**Post-closeout leg 2 (17:27Z, Will's ask):** bookmark reader confirmed working; 1 new bookmark carded as SIG-W-20261117-011 (CNN: NSA Net down, no evidence of cyberattack; six-outage list checked, AWS 11/15 unverified), pushed 490246429a. PROME woke CYPHER (cypher-b3, 12:28 ET) on 008 and 011; OSPREY, HANS and YURI registered for Wed 11/18.
+
 ## RESULT
 
 Three IMMEDIATE cards: 001 Iran (FALCON's grades plus the Qeshm claim), 004 October retail sales and import prices (released 08:30, uncarded until 11:52 ET because no WALTER session ran), 007 US chip curbs and China's countermeasure threat before Nvidia's results. Cyber: 008 Optimizely compromise across 178 organizations.
