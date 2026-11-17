@@ -1,0 +1,56 @@
+RESEARCH-INTAKE scan — 2026-11-17 16:52Z
+================================================================
+
+[health]
+  OK   last_run 2026-11-17T13:35:02Z (0 missed weekday runs, 0 calendar days)
+  OK   news search items saved: 167 (trailing median 126 over 10 batches)
+
+[news batches scanned — 1: 2026-11-17..2026-11-17]  (catch-up from last_marked_batch data/2026-11-16/news.json)
+
+[NEW breaches to ROUTE — 9]  (onset; push per §3, tag source: RESEARCH-INTAKE)
+  PRIORITY  ACTION -> (per-item agents field)  [2 NEW_ALERT]
+      2 NEW_ALERT item(s) — read data/2026-11-17/news.json
+  ROUTINE   INFO   -> (per-item agents field)  [8 NEW_WATCH]
+      8 NEW_WATCH item(s) — read data/2026-11-17/news.json
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Nvidia interim CEO']]
+      Nvidia’s interim CEO Colette Kress to make her debut at first earnings - Financial Times
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Nvidia CEO resigns']]
+      IT industry rattled after philandering Nvidia CEO resigns - Information Age | ACS
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Nvidia CEO resigns']]
+      Nvidia CEO Resigns After Affair With Suspected Spy - The Onion
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Nvidia interim CEO']]
+      Nvidia's interim CEO Colette Kress's Israel link and how she challenged Jensen Huang - The Federal
+  PRIORITY  ACTION -> FALCON  [WATCH_HIT [FALCON:'East-West pipeline']]
+      Hormuz bypass pipelines explained: how much oil the East-West, ADCOP and SUMED lines can carry - Oil & Gas Middle East
+  PRIORITY  ACTION -> HANS  [WATCH_HIT [HANS:'Dutch gas price']]
+      Dutch TTF 1st Line Financial Nov '29 Futures Price History - Barchart.com
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Nvidia interim CEO']]
+      Nvidia’s interim CEO Colette Kress to make her debut at first earnings
+
+[CRUISE_CAPITAL_REVIEW — 1 open]  (ROUTINE human review, never auto-dispatch; read the source, date the event, check BOARD/EDGAR/CRUISE overlap)
+  cruise:72a82e608f3d  Norwegian Cruise  1 row(s), 2026-11-17..2026-11-17
+      Elliott Investment Management L.P. Cuts Share Stake In Hewlett Packard Enterprise, Raises In Norwegian Cruise Line - TradingView
+      https://news.google.com/rss/articles/CBMijwJBVV95cUxPZXBKQTdGeW9mS185MGxFMjFHUGdCZE1mbVl5SVpRQm9sY01iQWc3WGl3N01ndkF3RnV1RVJaNVl4MkhkUF9tQnB3allaVGYtZU1tT2NUMTdzTmprdjZ1bkh6S1pzbngteWk5ZExrM3ZwejRtV0tJcjdKRU9PTHIzT2ZKTFFiMnh3S01rNEN5dk1ZWjg2TmlxXzR6WVNNWEszamg2YXIyV19UbzZhQml4THREc2c0cnptbEdfbXc1SzRkbjFaRTlVbkQ3TGNtek45R3V2S2IzcVRGeDRfUmlFQ0pYZTU3akRNazhPVUx1d1pDMEJGSFMxRi14SUswM1NWQlJUSFFzbkdBUndqQmdF?oc=5
+
+[GPU_FINANCE_REVIEW — 3 open]  (ROUTINE human review of GPU depreciation / collateral / GPU-backed loan / residual-value headlines, owners VULCAN and BROCK; never auto-dispatch; read the source, date the event (reposts carry fresh dates), check BOARD and owner KB, then --gpu-disposition)
+  gpu:d2679e6b9431  1 row(s), 2026-11-17..2026-11-17
+      Nvidia Stocks Rise as $500 Billion Plan Tests GPU Collateral - TradingView
+      https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOFhkLUlSRWdJall5OHcyMkVINHBIT0VGSllEVThoZGhuRWlPS3RrTm9vWEZSc1dlZVNodVMzWDVxVndweExjRS16enZzRGx0Rm55YWttXzFtTVBBMGxXeFpKWHV1Nm5qUTBoblF2V0FhdHpBS0V4cXpacEdUb2ZPYlNia2NlRGZzdVhzaHJUT1VtaXUzZWNRVnhFUTdINWp5MDZneEZXclR1c1VXRERNZHBMczRwRGFFbzM0?oc=5
+  gpu:160f8d67e4e1  1 row(s), 2026-11-17..2026-11-17
+      CoreWeave’s US$8.5b GPU Facility And What It Means For Valuation - Yahoo Finance
+      https://news.google.com/rss/articles/CBMijwFBVV95cUxPbk1VMk9lSXozZFZURmpBcFY3dE9UeWtEMmdHWGlPTEpxbTF4SW9zVVNUdjJDREFTSHBBcjhHd2JtWWdBQmlOdXhGMmcyZVJweWNiTXJEcGw3M1V0UmtSWGR2T0NNQk51c1RtbTlBYXpBc3Q1YTcxU3d4dUJOOVRwZ2t0ZGhFNEVsZmI1Zjg2bw?oc=5
+  gpu:fa9e09f3ecfe  1 row(s), 2026-11-17..2026-11-17
+      AI Chip Giants' $70 Billion in Off-Balance-Sheet Guarantees Alarms Bond Investors - BigGo Finance
+      https://news.google.com/rss/articles/CBMidkFVX3lxTE5CdmMyOEk2NFcza0JhZFhsT3YzRzFvUTJ1di13b2FCeUQ1SkZoNDF2SmJ1a1VKa2JzTC1wWGhwSUF6Tl9ZMi1KY0hUNlFkVnhTWDl0anZXZEpYMzVPWkwybFpoVWFfekZzUUNGbG5TT1ZUOGl6MUE?oc=5
+
+[suppressed — still-true, already seen — 4]  (do NOT re-push)
+  fred:UMCSENT:orange  (UMCSENT UMich sentiment=48.1 [orange])
+  fred:MORTGAGE30US:red  (MORTGAGE30US 30yr mortgage rate %=7.11 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS bps=323.0 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS=323bps [red] >280 X1-trigger reading (strictly abo)
+
+[batch fingerprints — 1]  (bound into the receipt below)
+  data/2026-11-17/news.json  53d9b2c44e4f
+
+After the 7e(d) to 7e(h) dispositions, run (from the repository root):
+  python3 AGENTS/WALTER/tools/intake_scan.py --mark --through data/2026-11-17/news.json --receipt a4421fc42df8

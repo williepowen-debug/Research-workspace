@@ -1,0 +1,204 @@
+Counter({'NEW': 179, 'NEW_WATCH': 8, 'KNOWN': 7, 'NEW_WATCH_HIT': 7, 'NEW_ALERT': 2})
+  1 KNOWN     normal cruise-operators   17 Nov 2026 | Why did Royal Caribbean stop visiting this Caribbean destination? - USA Today
+  2 KNOWN     normal cruise-operators   17 Nov 2026 | Royal Caribbean Cruises Stock Outlook: Is Wall Street Bullish or Bearish? - Barchart.com
+  3 NEW       normal cruise-operators   16 Nov 2026 | Viking Earnings Will Provide an Update on Cruise Demand - Barron's
+  4 NEW       normal cruise-operators   17 Nov 2026 | Asia cruise capacity set to grow as source markets unlock - Seatrade Cruise News
+  5 KNOWN     normal cruise-operators   17 Nov 2026 | Royal Caribbean, Carnival and Norwegian’s Private Caribbean Stops This Winter, With New Pools, Beach Clubs and Overwater Cabanas - Caribbean Journal
+  6 KNOWN     normal cruise-operators   17 Nov 2026 | Royal Caribbean Captain Turns Tense Situation Into A Positive Moment With One Announcement During U.S. Ground Stop - TheTravel
+  7 KNOWN     normal cruise-operators   16 Nov 2026 | Elliott Investment Management L.P. Cuts Share Stake In Hewlett Packard Enterprise, Raises In Norwegian Cruise Line - TradingView
+  8 KNOWN     normal cruise-operators   17 Nov 2026 | Royal Caribbean celebrates Legend of the Seas in Veterans Day Naming Ceremony - Great Travel Philippines
+  9 KNOWN     normal cruise-operators   16 Nov 2026 | Royal Caribbean names Legend of the Seas on Veterans Day - Travel Daily Media
+ 10 NEW       normal diesel-export-poli 16 Nov 2026 | China resumes crude stockpiling, leaving room for fuel exports at 3 times prewar margins - investingLive
+ 11 NEW       normal diesel-export-poli 13 Nov 2026 | China’s Sustainable Aviation Fuel Exports to Face EU Trade Defense Probe, Sources Say - The Capitol Forum
+ 12 NEW       normal diesel-export-poli 17 Nov 2026 | COP31: Australia’s fossil fuel exports set to remain twice domestic emissions - Energy Live News
+ 13 NEW       normal diesel-export-poli 17 Nov 2026 | Govt Hikes Diesel Export Duty to ₹14/Litre, ATF to ₹12.50; Petrol Remains Exempt - APAC Media
+ 14 NEW       normal treasury-moves     17 Nov 2026 | Treasury yields are broadly flat as investors await retail sales data - CNBC
+ 15 NEW       normal treasury-moves     17 Nov 2026 | Is the AI Bond Boom Pushing Up US Treasury Yields? - AMRO ASIA
+ 16 NEW       normal treasury-moves     17 Nov 2026 | Why Gold Loses Appeal When Fed Rate Hikes Lift Treasury Yields - StoneX
+ 17 NEW       normal treasury-moves     16 Nov 2026 | Treasury Yields Fall, German Bunds’ Tick Higher - WSJ
+ 18 NEW       normal treasury-moves     16 Nov 2026 | Which Sectors Do Well Amid 5% 10-Year Treasury Yields? - ETF Database
+ 19 NEW       normal treasury-moves     17 Nov 2026 | Treasury Yields Little Changed as Investors Await U.S. Retail Sales, Fed Speakers - marketscreener.com
+ 20 NEW       normal treasury-moves     16 Nov 2026 | Gold sinks to 1-year low as Treasury yields and dollar bite, set for worst year since 2015 - TradingView
+ 21 NEW       normal treasury-moves     16 Nov 2026 | Treasury yields pause near 1-month highs as traders brace for Fed signals - Yahoo Finance
+ 22 NEW       normal treasury-moves     16 Nov 2026 | AI Stocks Resume Their Slide - WSJ
+ 23 NEW       normal treasury-moves     16 Nov 2026 | Treasury prices catch a small bid as stock market weakens and Warsh says AI might 'disappoint' - CNBC
+ 24 NEW       normal pgm-producers      17 Nov 2026 | [SMM Chromium Flash] Sibanye-Stillwater’s Q3 Chrome Sales Rise 14% to 585 kt on Stock Release as Output Falls 19% YoY - Shanghai Metals Market
+ 25 NEW       normal flg-rent-freeze-li 18 Feb 2026 | Mayor Mamdani Announces Six Appointees to the Rent Guidelines Board - NYC.gov
+ 26 NEW       normal flg-rent-freeze-li 26 Mar 2026 | FPI Testifies to the Rent Guidelines Board: March 26, 2026 - Fiscal Policy Institute
+ 27 NEW       normal flg-rent-freeze-li 08 May 2026 | NYC Rent Guidelines Board proposes potential increases for rent-stabilized apartments - CBS News
+ 28 NEW       normal flg-rent-freeze-li 23 Apr 2026 | Landlords and tenants speak out on proposed increases at Rent Guidelines Board meeting in Lower Manhattan - ABC7 New York
+ 29 NEW       normal flg-rent-freeze-li 08 May 2026 | Rent Guidelines Board Takes Step Toward A Rent Freeze - City Limits
+ 30 NEW       normal private-credit     17 Nov 2026 | Nomura & Aventus Launch Misura Securitized Products, Private Credit Venture - ABF Journal
+ 31 NEW       normal private-credit     17 Nov 2026 | RBNZ Flags Growing Private Credit Risks in Real Estate Finance - Bloomberg.com
+ 32 NEW       normal private-credit     17 Nov 2026 | Golub Capital Stock At $12.40: Private Credit’s First Crack? - Trefis
+ 33 NEW       normal private-credit     17 Nov 2026 | Knighthead enters private credit - InvestmentNews
+ 34 NEW       normal private-credit     17 Nov 2026 | Forward raises $1.5M to route private credit deals to the right funds - Dealroom
+ 35 NEW       normal private-credit     16 Nov 2026 | Wall Street's Big CRE Lenders Are Pulling Back While Private Credit Fights For Deals - Bisnow
+ 36 NEW       normal private-credit     17 Nov 2026 | ASIC To Test Private Credit on Valuations, Liquidity, Conduct - Law360
+ 37 NEW       normal private-credit     16 Nov 2026 | Private Equity and Private Credit Firms Manage Trillions, and $90,000 Across These 3 Pays $3,389 a Year in Dividends - 24/7 Wall St.
+ 38 NEW       normal private-credit     16 Nov 2026 | Private Equity and Private Credit Firms Manage Trillions, and $90,000 Across These 3 Pays $3,389 a Year in Dividends - Yahoo Finance
+ 39 NEW       normal private-credit     17 Nov 2026 | Fidus Investment: My Favorite BDC Right Now With An 11% Yield (NASDAQ:FDUS) - Seeking Alpha
+ 40 NEW       normal shade-D4           26 Aug 2026 | Mark Walter's company, TWG Global, insists Dodgers are not for sale, says team was properly funded when acquired - Yahoo Sports
+ 41 NEW       normal shade-D4           26 Aug 2026 | Mark Walter’s company TWG Global defends Dodgers financing and Lakers sale - Los Angeles Times
+ 42 NEW       normal shade-D5           17 Nov 2026 | ATHU5034779 Bond Profile: Coupon and Redemption - TradingView
+ 43 NEW       normal oil-energy         17 Nov 2026 | Iran attacks US military radar system in Bahrain despite talks with mediators - Reuters
+ 44 NEW       normal oil-energy         17 Nov 2026 | Iran attacks US military radar system in Bahrain despite talks with mediators - Al-Monitor
+ 45 NEW       normal oil-energy         16 Nov 2026 | Oil settles lower as recovering Middle East exports bolster surplus outlook - Reuters
+ 46 NEW       normal gas-supply         17 Nov 2026 | Diesel demand drives US refinery results as global supply tightens - S&P Global
+ 47 NEW       normal gas-supply         17 Nov 2026 | Dangote Refinery to expand IPO by up to 30% to $2.1 billion, sources say - Reuters
+ 48 NEW       normal gas-supply         17 Nov 2026 | Average Gasoline Prices In Illinois Have Fallen 30.6 Cents Per Gallon In The Last Week - Decatur Tribune
+ 49 NEW       normal gas-supply         17 Nov 2026 | Ukrainian Drones Hit Gazprom Refinery in Bashkortostan in Second Record Overnight Attack - The Moscow Times
+ 50 NEW       normal gas-supply         17 Nov 2026 | Mexico's Pemex Plans Maintenance at Dos Bocas Refinery in 2027 - Industrial Info Resources
+ 51 NEW       normal gas-supply         17 Nov 2026 | General Staff confirms strike on Gazprom oil refinery in Bashkortostan - Ukrinform
+ 52 NEW       normal gas-supply         17 Nov 2026 | Guinea's miners stockpile gold after refinery rules halted exports, sources say - TradingView
+ 53 NEW       normal gas-supply         17 Nov 2026 | Dangote Refinery Looks To Upsize Its Nigeria IPO - Finimize
+ 54 NEW       normal japan-boj          16 Nov 2026 | Dollar hits highest since April 2025 as traders bet on rate hikes - Reuters
+ 55 NEW       normal japan-boj          17 Nov 2026 | BoJ Tightening Bets Put Japanese Yen Back in Play. Forecast as of 17.11.2026 - LiteFinance
+ 56 NEW       normal japan-boj          17 Nov 2026 | Dollar Hits 19-Month High; Yen Resists, Stocks Slide - Investing.com
+ 57 NEW       normal japan-boj          17 Nov 2026 | Remember these? Beloved Brevard restaurants that live on in local memories - Florida Today
+ 58 NEW       normal japan-boj          17 Nov 2026 | Yomiuri: Asics Aims for 1.5 Trillion Yen in Net Sales for 2029 - MarketWatch
+ 59 NEW       normal japan-boj          17 Nov 2026 | Japanese Yen remains on front foot vs retreating USD amid intervention risks - FXStreet
+ 60 NEW       normal japan-boj          17 Nov 2026 | FX Daily: King Dollar's Easy Money Has Been Made, and the Yen Is Becoming the Anti-AI Trade - The Dark Side Of The Boom
+ 61 NEW       normal japan-boj          17 Nov 2026 | Mapping the Market: Yen could weaken into danger zone for intervention - TradingView
+ 62 NEW       normal labor-layoffs      17 Nov 2026 | Disney Q4 2026 Earnings: Company Forecasts $3B in Cost Savings by 2029 Including Through Layoffs - Variety
+ 63 NEW       normal labor-layoffs      16 Nov 2026 | City of Toledo confirms 89 layoffs in $373.2M proposed 2027 budget - wtol.com
+ 64 NEW       normal labor-layoffs      17 Nov 2026 | Qantas layoffs draw 'AI washing' scrutiny - HR Executive
+ 65 NEW       normal labor-layoffs      16 Nov 2026 | Illumina announces layoffs at San Diego headquarters - San Diego Union-Tribune
+ 66 NEW       normal labor-layoffs      17 Nov 2026 | Disney is planning more layoffs under CEO Josh D'Amaro's cost-cutting program - Business Insider
+ 67 NEW       normal labor-layoffs      16 Nov 2026 | DOL Proposes Major PERM Overhaul Affecting Recruitment Layoffs, and Schedule A - WR Immigration
+ 68 NEW       normal labor-layoffs      17 Nov 2026 | List: 89 layoffs announced by the city of Toledo - Toledo Blade
+ 69 NEW       normal labor-layoffs      17 Nov 2026 | Why Toledo’s mayor points to the failed safety levy for proposed budget cuts and layoffs - WTVG
+ 70 NEW       normal labor-layoffs      17 Nov 2026 | Allstate planning round of layoffs in restructuring with AI push - Repairer Driven News
+ 71 NEW       normal labor-layoffs      16 Nov 2026 | First Help Financial says second round of layoffs will increase efficiency - Auto Finance News
+ 72 NEW       normal labor-layoffs      17 Nov 2026 | Morton Salt workers sue company over layoffs - FOX 8 News
+ 73 NEW       normal labor-layoffs      17 Nov 2026 | Disney says more layoffs are on the way as company announces double-digit Q4 revenue growth - Fast Company
+ 74 NEW       normal labor-layoffs      16 Nov 2026 | Novato school district set for initial round of layoffs - Marin Independent Journal
+ 75 NEW       normal labor-layoffs      17 Nov 2026 | CSX in violation of federal inspection waiver after safety inspector layoffs, union says - WCHS
+ 76 NEW       normal labor-nfp          17 Nov 2026 | UK’s Latest Jobs Report Is a Mixed Bag With Wage Growth Slowing, Payrolls Cut - Bloomberg.com
+ 77 NEW       normal labor-nfp          17 Nov 2026 | NFP prioritizes results over popularity - FBC News
+ 78 NEW_WATCH watch  credit-spreads     16 Nov 2026 | Junk Bonds, Emerging Markets and Foreign Debt: 3 Monthly Checks and the Risk Behind Them - 24/7 Wall St.
+ 79 NEW       normal funding-stress     16 Nov 2026 | ENVA: Enova International Inc. filed SEC Form 8-K: Entry into a... - Quantisnow
+ 80 NEW       normal cre-stress         17 Nov 2026 | Brokers At Sun Coast Partners Earn AI Designation For Commercial Real Estate - WilmingtonBiz
+ 81 NEW       normal cre-stress         16 Nov 2026 | Midterm election results may mean more of the same for commercial real estate - Scotsman Guide
+ 82 NEW       normal cre-stress         16 Nov 2026 | Commercial Real Estate Debt: Global Asset Management Group CEO & Chairman​ Richard Balles, Live at Nasdaq - Yahoo Finance
+ 83 NEW       normal cre-stress         17 Nov 2026 | Stout Launches Loan-Level, Total Return Commercial Real Estate Debt Index, CREDX™ - PR Newswire
+ 84 NEW       normal cre-stress         16 Nov 2026 | Washington Trust Hires Angela DiPasquale and Brian Kenney as Commercial Real Estate VPs - citybiz
+ 85 NEW       normal cre-stress         15 Nov 2026 | Triangle office market lags, retail thrives - The Business Journals
+ 86 NEW       normal cre-stress         16 Nov 2026 | Manhattan Office Vacancy Hits 10.2%, Lowest of Top 25 Markets - Yahoo Finance
+ 87 NEW_ALERT alert  bank-stress        16 Nov 2026 | Bank outage vs. bank failure: is your money still safe? - qz.com
+ 88 NEW_ALERT alert  bank-stress        01 May 2026 | What Is a Bank Failure? Definition and List of Failed Banks - NerdWallet
+ 89 NEW       normal position-pe        16 Nov 2026 | GAO Urges DOW to Tighten Oversight of F-35 Parts - ExecutiveGov
+ 90 NEW_WATCH watch  memory-cycle       17 Nov 2026 | Enterprise SSD Cuts Pull NAND Price Drop to 2Q27 - TrendForce
+ 91 NEW       normal memory-cycle       16 Nov 2026 | Tiny Corp's refurbished MI300X tinybox packs 768GB of HBM into a desktop box, and the price has already jumped by $29,000 - TechRadar
+ 92 NEW       normal memory-cycle       17 Nov 2026 | Samsung develops custom HBM for Meta, adopts 2nm process - digitimes
+ 93 NEW_WATCH watch  memory-cycle       17 Nov 2026 | [News] NAND Spot Prices Reverse Course, Sliding 20% in 2 Weeks amid Weak Consumer Demand, YMTC Competition - TrendForce
+ 94 NEW       normal memory-cycle       16 Nov 2026 | Hudbay Minerals Inc. 2026 Q3 - Results - Earnings Call Presentation (TSX:HBM:CA) 2026-11-16 - Seeking Alpha
+ 95 NEW       normal memory-cycle       17 Nov 2026 | Memory Shortage Slams Southeast Asia's Phone Market as Q3 Shipments Plunge 36%, Apple Defies the Trend - BigGo Finance
+ 96 NEW       normal memory-cycle       17 Nov 2026 | DDR5 Prices Skyrocket 814% Amid Memory Shortage - eTeknix
+ 97 NEW_WATCH watch  memory-cycle       16 Nov 2026 | [News] U.S. Judge Rejects Samsung, SK hynix, Micron’s DRAM Price-Fixing Dismissal Bid, Citing Plausible Collusion - TrendForce
+ 98 NEW       normal ai-capex           17 Nov 2026 | BofA Survey: Investors Cut Tech Exposure Most Since 2006 as AI Capex Fervor Cools - BigGo Finance
+ 99 NEW       normal ai-capex           15 Oct 2026 | Gartner warns AI data center capex is ‘unsustainable’ as $3.5T write-down risk looms - Fierce Network
+100 NEW       normal megacap-leadership 17 Nov 2026 | Nvidia scandal and CEO's resignation rock Silicon Valley - NPR
+101 NEW_WATCH normal megacap-leadership 17 Nov 2026 | Nvidia’s interim CEO Colette Kress to make her debut at first earnings - Financial Times
+102 NEW       normal megacap-leadership 16 Nov 2026 | ‘A complete evaporation of confidence’ – 6 things have to go right for Nvidia post Jensen, starting with $109 billion in revenue - Fortune
+103 NEW_WATCH normal megacap-leadership 16 Nov 2026 | IT industry rattled after philandering Nvidia CEO resigns - Information Age | ACS
+104 NEW_WATCH normal megacap-leadership 13 Nov 2026 | Nvidia CEO Resigns After Affair With Suspected Spy - The Onion
+105 NEW_WATCH normal megacap-leadership 14 Nov 2026 | Nvidia's interim CEO Colette Kress's Israel link and how she challenged Jensen Huang - The Federal
+106 NEW       normal gpu-obsolescence-2 01 Oct 2026 | Nvidia Stocks Rise as $500 Billion Plan Tests GPU Collateral - TradingView
+107 NEW       normal gpu-obsolescence-3 31 Mar 2026 | CoreWeave’s US$8.5b GPU Facility And What It Means For Valuation - Yahoo Finance
+108 NEW       normal gpu-obsolescence-4 15 Aug 2026 | AI Chip Giants' $70 Billion in Off-Balance-Sheet Guarantees Alarms Bond Investors - BigGo Finance
+109 NEW       normal ai-financing       11 Nov 2026 | CoreWeave targets H1 2028 profitability, cites higher pricing and GPU renewals - TradingView
+110 NEW       normal ai-financing       15 Nov 2026 | Firmus Grid plans $3 billion private fundraising after pulled IPO - Traders Union
+111 NEW       normal ai-financing       11 Nov 2026 | CoreWeave: Things Aren’t The Same (Rating Downgrade) (NASDAQ:CRWV) - Seeking Alpha
+112 NEW       normal power-grid         16 Nov 2026 | Biggest US power grid proposes plan to regulators to cut wait times for data center power - Reuters
+113 NEW       normal power-grid         16 Nov 2026 | PJM Plan Would Cut Interconnection Process Time in Half - PJM Inside Lines
+114 NEW       normal power-grid         17 Nov 2026 | Power Prices Breach $1,000 Per Megawatt-Hour As U.S. Grid Struggles To Match Data Center Demand - www.foreignpolicyjournal.com
+115 NEW       normal power-grid         17 Nov 2026 | PJM announces plan aimed at cutting grid connection times - Delaware Business Now
+116 NEW       normal power-grid         17 Nov 2026 | PJM MIC Briefs: Nov. 4, 2026 - RTO Insider
+117 NEW       normal power-grid         16 Nov 2026 | PJM Proposes Mandatory Grid Ride-Through Rules to FERC for Large Data Centers - CASRAI
+118 NEW       normal power-grid         16 Nov 2026 | PJM Proposes New Rules to Protect Grid Reliability as Data Center Demand Grows - PJM Inside Lines
+119 NEW       normal power-grid         17 Nov 2026 | PJM asks FERC to halve grid studies for data centers to about a year and show states what their upgrades cost - MLQ.ai
+120 NEW       normal power-grid         17 Nov 2026 | Biggest US power grid proposes plan to regulators to cut wait times for data center power - The Business Times
+121 NEW       normal metals             16 Nov 2026 | Copper Price November 17 2026 - Robinhood
+122 NEW       normal metals             17 Nov 2026 | Copper price consolidates near $5.88 support as seller pressure remains in focus - Traders Union
+123 NEW       normal metals             17 Nov 2026 | Copper price slides as AI boom continues to lose momentum - Mining.com.au
+124 NEW       normal climate-macro      17 Nov 2026 | Mirada Bridge El Nino Bluff Protection is Temporarily Suspended Until Week of November 23rd, 2026 as Sandbag Manufacturer Procures Additional Material
+125 NEW       normal climate-macro      16 Nov 2026 | Photos: California residents gather to watch massive El Nino-fuelled waves - Al Jazeera
+126 NEW       normal climate-macro      17 Nov 2026 | El Nino will impact Louisiana's winter. Will it bring snow? - Yahoo
+127 NEW       normal climate-macro      17 Nov 2026 | How to prepare your home for a potentially freezing winter - The Oklahoman
+128 NEW       normal climate-macro      17 Nov 2026 | El Nino is sending giant waves to crash into California, raising water levels - India Today
+129 NEW       normal climate-macro      17 Nov 2026 | Peru appeals for Chinese ‘goodwill’ to help it face El Nino - 102.7 WBOW
+130 NEW       normal climate-macro      17 Nov 2026 | APTOPIX Brazil Amazon El Nino - Bluefield Daily Telegraph
+131 NEW       normal housing            16 Nov 2026 | Mortgage Rates Hold Near 7.50% Despite Tech Stock Slide - The Truth About Mortgage
+132 NEW       normal housing            13 Apr 2026 | The 'biggest mistake' people make when they're falling behind on mortgage payments - PBS
+133 NEW       normal housing            24 Jan 2022 | N.J. rolls out new COVID relief program for homeowners facing foreclosure - WHYY
+134 NEW       normal florida            03 Jun 2026 | The Real November Ballot Question: What Price Are Floridians Willing to Pay to “Save Their Homes?” - Tax Foundation
+135 NEW       normal china-asia         02 Aug 2026 | CSRC unveils measures to deepen mainland-HK capital market ties - chinadailyhk
+136 NEW_WATCH watch  saudi-redsea       17 Nov 2026 | Saudi Water Authority cancels Wabag’s Yanbu desalination award for the second time - Smart Water Magazine
+137 NEW_WATCH watch  saudi-redsea       16 Nov 2026 | Aramco Restores Full November Crude Supply to Europe via Yanbu - https://houseofsaud.com/
+138 NEW_WATCH watch  saudi-redsea       17 Nov 2026 | Hormuz bypass pipelines explained: how much oil the East-West, ADCOP and SUMED lines can carry - Oil & Gas Middle East
+139 NEW_WATCH watch  saudi-redsea       16 Nov 2026 | Holcim restarts fifth line at Ain Sokhna | CemNet - CemNet.com
+140 NEW       normal war-risk-insurance 17 Nov 2026 | Aviation War Risk Premiums Up 50%-500% Since Middle East Conflict Began on 28 February - Avi-Go
+141 NEW       normal war-risk-insurance 16 Nov 2026 | War Risk Insurance: Why Airlines Are Paying Far More - The Aviation Hub
+142 NEW       normal war-risk-insurance 16 Nov 2026 | Shipping costs surge as Iran war disrupts trade routes - 24 News HD
+143 NEW_WATCH watch  memory-pricing     17 Nov 2026 | Micron, Sandisk, SK Hynix in focus as GF Securities cuts NAND price forecast, sees glut (MU:NASDAQ) - Seeking Alpha
+144 NEW       normal memory-pricing     17 Nov 2026 | Samsung, SK hynix and Micron fail to dismiss lawsuit alleging DRAM price fixing - VideoCardz.com
+145 NEW       normal memory-pricing     16 Nov 2026 | U.S. Court Opens Hearing in DRAM Price-Fixing Suit; Samsung Electronics Falls 4.5%, SK Hynix 7.9% - BigGo Finance
+146 NEW       normal nano-banc          13 Nov 2026 | Tagged: FaceStealer - Crowdfund Insider
+147 NEW       normal nano-banc          13 Nov 2026 | Tagged: sequence holdings - Crowdfund Insider
+148 NEW       normal nano-banc          13 Nov 2026 | Tagged: Rinku Sharma - Crowdfund Insider
+149 NEW       normal nano-banc          13 Nov 2026 | Federal Reserve Announces 2027 Payment Service Pricing and Check Service Changes - Blockchain News
+150 NEW       normal homebuilder-earnin 16 Nov 2026 | Toll Brothers Announces New Collection Now Open for Sale at Monterey at Lakewood Ranch in Florida - Quantisnow
+151 NEW       normal homebuilder-earnin 16 Nov 2026 | Toll Brothers Announces New Collection Now Open for Sale at Monterey at Lakewood Ranch in Florida - The Manila Times
+152 NEW       normal homebuilder-earnin 17 Nov 2026 | Can Lennar Stock Jump 40%? - Trefis
+153 NEW       normal homebuilder-earnin 13 Nov 2026 | Toll Brothers Announces Ridge at Granite Highlands Now Open in Washougal, Washington - GlobeNewswire
+154 NEW       normal fertilizer         17 Nov 2026 | Food Security Monitor - October 2026 - ReliefWeb
+155 NEW       normal russia-fuel-export 13 Nov 2026 | A 280,000-barrel-a-day target: Ukraine says it hit Lukoil’s Volgograd refinery - Business Upturn
+156 NEW       normal ai-dc-force-majeur 16 Nov 2026 | HSBC Sold $300 Million Troubled Data Center Loan at Discount - Bloomberg.com
+157 NEW       normal ai-dc-force-majeur 17 Nov 2026 | HSBC sold US$300mil troubled data centre loan at discount - KLSE Screener
+158 NEW       normal ecb-rate-decision  13 Nov 2026 | Eurozone inflation remains stubbornly high as ECB prepares another rate hike - Knews, Kathimerini
+159 NEW       normal ecb-rate-decision  12 Nov 2026 | Euro holds gains against Canadian Dollar despite ECB rate hike doubts, rising oil prices - www.tmgm.com
+160 NEW       normal ecb-rate-decision  13 Nov 2026 | Christophe Barraud: Euro-zone growth remains solid as ECB considers another rate hike - Traders Union
+161 NEW       normal ttf-storage-gilts  16 Nov 2026 | The Toy Foundation Assembles Gift Bags to Bring Holiday Cheer to Chicago Children - The Toy Association
+162 NEW       normal ttf-storage-gilts  16 Nov 2026 | Natgas: TTF retreats sharply as cold snap fears recede - Quantum Commodity Intelligence
+163 NEW_WATCH normal ttf-storage-gilts  12 Nov 2026 | Dutch TTF 1st Line Financial Nov '29 Futures Price History - Barchart.com
+164 NEW       normal ttf-storage-gilts  13 Nov 2026 | Walter’s Watch: Gilt yields rise despite oil price fall - Mortgage Soup
+165 NEW       normal bank-vendor-incide 16 Nov 2026 | Customers turn to WBTV Investigates for help after cyberattack on life insurance company - WBTV
+166 NEW       normal bank-vendor-incide 16 Nov 2026 | FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’ - TechCrunch
+167 NEW       normal bank-vendor-incide 16 Nov 2026 | N-able Takes Platform Offline After 33 Zero-Days Drop - BankInfoSecurity
+168 NEW       normal FT                 17 Nov 2026 | Leak of 15mn Deutsche Bank files exposes systemic failures
+169 NEW       normal FT                 17 Nov 2026 | Epstein’s dealings with Deutsche were far larger than previously known
+170 NEW       normal FT                 17 Nov 2026 | An ‘awful mistake’ that leaked Trump’s tax statements
+171 NEW       normal FT                 17 Nov 2026 | ‘Katastrophe’: inside the chaos at Germany’s biggest bank
+172 NEW       normal FT                 17 Nov 2026 | ‘There was a lot of gaslighting’: Why America’s podcast stars ditched Trump
+173 NEW       normal FT                 17 Nov 2026 | AI grapples with the return of the Antichrist
+174 NEW       normal FT                 17 Nov 2026 | Ukraine destroys section of Crimea bridge in fierce exchange
+175 NEW       normal FT                 17 Nov 2026 | Finland urges European leaders to talk to Putin directly
+176 NEW       normal FT                 17 Nov 2026 | US dollar rally erases ‘liberation day’ losses as rate expectations rise
+177 NEW       normal FT                 17 Nov 2026 | A misty outlook for rates
+178 NEW_WATCH normal FT                 17 Nov 2026 | Nvidia’s interim CEO Colette Kress to make her debut at first earnings
+179 NEW       normal FT                 17 Nov 2026 | Nvidia creates committee to oversee compliance with US chip export controls
+180 NEW       normal FT                 17 Nov 2026 | Oligarch’s ex-wife to claim £600mn for ‘reasonable needs’ in London divorce case
+181 NEW       normal BBC Business       17 Nov 2026 | Speed camera fault may have allowed drivers to escape fines
+182 NEW       normal BBC Business       17 Nov 2026 | Where are the most jobs for 18-24 year-olds?
+183 NEW       normal BBC Business       17 Nov 2026 | Government must act now or lose Royal Mail, former minister warns
+184 NEW       normal BBC Business       17 Nov 2026 | US government confirms investigation into tech firm Megaspeed
+185 NEW       normal BBC Business       16 Nov 2026 | OpenAI sued by California over Hugging Face attack
+186 NEW       normal BBC Business       17 Nov 2026 | We couldn't afford a house alone, so we bought one with strangers
+187 NEW       normal BBC Business       17 Nov 2026 | Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss
+188 NEW       normal BBC Business       17 Nov 2026 | Customers report service outages at major US banks
+189 NEW       normal BBC World          17 Nov 2026 | Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine
+190 NEW       normal BBC World          17 Nov 2026 | Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72
+191 NEW       normal BBC World          17 Nov 2026 | Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says
+192 NEW       normal BBC World          17 Nov 2026 | Nvidia partner Megaspeed being investigated by US government over chip exports
+193 NEW       normal BBC World          17 Nov 2026 | Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed
+194 NEW       normal BBC World          17 Nov 2026 | Imran Khan seeks urgent medical care fearing he 'may not return alive'
+195 NEW       normal BBC World          17 Nov 2026 | Gunmen kill Costa Rican journalist who reported on drugs trade
+196 NEW       normal BBC World          17 Nov 2026 | Body of Melbourne Cup horse found dumped in Sydney skip
+197 NEW       normal BBC World          17 Nov 2026 | Japan sends up jets after alleged Russian incursion of its airspace
+198 NEW       normal BBC World          17 Nov 2026 | Mozambique opposition leader faces trial over deadly 2024 election unrest
+199 NEW       normal BBC World          17 Nov 2026 | Nigerians among 12 suspects arrested in $4.5m Canada luxury car theft syndicate
+200 NEW       normal BBC World          17 Nov 2026 | Inside the Chinese 'AI wonderland' where Xi will host Trump
+201 NEW       normal BBC World          17 Nov 2026 | Will President Trump meet Kim Jong Un?
+202 NEW       normal BBC World          16 Nov 2026 | Street cricket with a legend then metro ride as William and Kate begin India visit
+203 NEW       normal BBC World          16 Nov 2026 | New York teen reunites with cat missing after building collapse

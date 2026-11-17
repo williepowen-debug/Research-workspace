@@ -1,0 +1,2 @@
+reconciled intake_seen.json -> 12 currently-true gated key(s) (+9 new, -18 cleared)
+last_marked_batch -> data/2026-11-17/news.json

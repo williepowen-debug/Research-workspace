@@ -144,6 +144,33 @@
         "2026-11-12"
       ],
       "closed": "2026-11-17T00:22:35Z"
+    },
+    "gpu:d2679e6b9431": {
+      "title": "Nvidia Stocks Rise as $500 Billion Plan Tests GPU Collateral - TradingView",
+      "disposition": "KILL",
+      "ref": "SIG-W-20261117-006",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T16:55:38Z"
+    },
+    "gpu:160f8d67e4e1": {
+      "title": "CoreWeave’s US$8.5b GPU Facility And What It Means For Valuation - Yahoo Finance",
+      "disposition": "KILL",
+      "ref": "SIG-W-20261117-006",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T16:55:39Z"
+    },
+    "gpu:fa9e09f3ecfe": {
+      "title": "AI Chip Giants' $70 Billion in Off-Balance-Sheet Guarantees Alarms Bond Investors - BigGo Finance",
+      "disposition": "KILL",
+      "ref": "SIG-W-20261117-006",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T16:55:39Z"
     }
   }
 }

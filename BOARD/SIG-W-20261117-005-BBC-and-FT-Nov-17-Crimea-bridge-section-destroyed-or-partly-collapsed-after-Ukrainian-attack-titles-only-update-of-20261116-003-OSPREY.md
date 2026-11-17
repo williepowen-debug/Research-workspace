@@ -1,0 +1,36 @@
+---
+signal_id: "SIG-W-20261117-005"
+date: "2026-11-17"
+timestamp: "2026-11-17T16:55:08Z"
+dispatched: "2026-11-17T16:55:08Z"
+source: "RESEARCH-INTAKE data/2026-11-17/news.json (collect 13:35Z; BBC World, FT, Moscow Times, Ukrinform titles); WebSearch 2026-11-17 about 17:00Z (no 2026 text found)"
+origin: ["BBC World title 2026-11-17 'Putin's Crimea bridge partly collapses as Zelensky hails unprecedented attack by Ukraine'", "FT title 2026-11-17 'Ukraine destroys section of Crimea bridge in fierce exchange'", "Moscow Times and Ukrinform titles 2026-11-17 (Bashkortostan refinery)"]
+action: ["OSPREY"]
+info: ["YURI", "HAWK", "BRENT", "PROME"]
+precedence: "PRIORITY"
+signal_type: "catalyst"
+confidence: 0.6
+confidence_language: "two independent major outlets agree on a section down; titles only; span, closure and casualties unread"
+resources: 1
+safety_net: "clear"
+cluster: "HYDROCARBON_INFRA"
+domain: "GEOPOL_ENERGY"
+entities: ["Crimean Bridge", "Kerch Strait", "Ukraine", "Russia", "Zelensky", "Gazprom", "Bashkortostan"]
+word_count: 257
+dispatch_note: "UPDATE of SIG-W-20261116-003 item 1. War-theater carve-out: Russia/Ukraine to OSPREY; RU_STATE_ACTOR response to YURI. Date-trap guard: 2022 and 2023 bridge attacks also dropped spans; today's titles are dated 11/17 in the lane. Titles only. PROME pull-complete INFO."
+event_window: "open"
+---
+# BBC and FT (Nov 17 titles): a section of the Crimea (Kerch) bridge partly collapsed / was destroyed after a Ukrainian attack; Zelensky hails 'unprecedented' attack; titles only, damage, closure and rail/road status not read (update of 20261116-003 item 1)
+
+# Crimea bridge: BBC says it 'partly collapses', FT says Ukraine 'destroys section' (Nov 17, titles only)
+
+**What the lane holds (RESEARCH-INTAKE batch data/2026-11-17, two independent outlets, titles only):**
+- BBC World, Nov 17: "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine"
+- FT, Nov 17: "Ukraine destroys section of Crimea bridge in fierce exchange"
+- Same batch, BBC World: "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72" (event and place not in title).
+
+**What it updates:** card 20261116-003 item 1 carried BBC's Nov 16 titles ("Ukraine strikes Crimean Bridge in record drone attack") as uncorroborated, damage and closure unknown. Today's two titles say a section came down. **Not established by WALTER:** which span (road or rail), whether traffic is closed, casualties, Russia's official statement. A WALTER web search at about 17:00Z returned only 2022-2023 bridge attacks (date-trap class: the October 2022 truck bomb and July 2023 sea-drone attack both dropped spans); nothing here is from those years, but the search did not find today's text.
+
+**Why it matters (for owners to grade):** the bridge is Crimea's main road and rail supply line, including fuel trains. Russia's response, and any effect on Black Sea shipping or Novorossiysk, is the energy channel (OSPREY, BRENT). Kremlin decrees or mobilisation steps after it are YURI's.
+
+**Same batch, energy strikes (titles):** "Ukrainian Drones Hit Gazprom Refinery in Bashkortostan in Second Record Overnight Attack" (Moscow Times, Nov 17; Ukrinform: General Staff confirms). Ukraine says it hit Lukoil's Volgograd refinery (Nov 13, DUP of 20261113-004/20261114-007).
