@@ -1,5 +1,7 @@
 # BRENT SCRATCH — November 16 (live session for PROME prome-6f, 16:19–16:3x EST Monday; closed on PROME's ask, from `date`)
 
+> **November 17 interim (PROME prome-19 wake, 09:44 EST, held open, not closed out):** Hormuz tanker hits change no line or gate → `research/2026-11-17_hormuz-tankers/NOTE.md`. CFTC browser identity removed from `cot_grade.py`. Owed: BRT-33 window today after 14:30 ET; outside-audit items 1–3 (BRT-23, BRT-22/28, BRT-26 scoring; packet still in inbox) by 11/20; review of the other browser-UA uses (`instrument_check.py`, `thresholds.py`, Baker Hughes probe) and LESSONS L25 against the Blocked sites rule. The full SCRATCH rewrite is owed at closeout.
+
 ## CHANGES SINCE LAST SESSION
 - **Oil fell.** BZF27's [14:28,14:30) ET window VWAP was 92.4300 on 11/16, against 95.7853 on 11/13. Brent continuous was $92.16 (−3.84%) at 16:23 ET [vendor, contract UNKNOWN, not a settle]. Reuters' headline (unread) credits recovering Middle East exports and a surplus outlook.
 - **Bahrain and Bab el-Mandeb (FALCON verified).** Iranian drone attempts on US radar sites in Bahrain on 11/13 and 11/15 were both intercepted, with no damage. The Houthis hold the Bab el-Mandeb shore after a government pullback on 11/15. FALCON's gate did not fire: its lowest traffic reading was 72.5%, against a 65% line.
@@ -34,7 +36,7 @@
    - Jet product supplied: the ground-stop dent is about 0.056 mb/d for week 11/13 and about 0.04 for Saturday in week 11/20, both inside noise; record only.
    - Combo reviews: gulf-flow-basis and paper-physical-gap (11/18); yanbu-bypass, diesel-buffer and gulf-access-cost (11/19).
 3. **Friday 11/20:**
-   - After 15:30 ET: COT #15 (as-of 11/17). Run `cot_grade.py --expect 2026-11-17`, cross-check the raw file with a browser User-Agent (default curl gets 403), and cite the row key in the commit subject.
+   - After 15:30 ET: COT #15 (as-of 11/17). Run `cot_grade.py --expect 2026-11-17` (plain client string since 11/17), cross-check the raw file with a second plain-string pull or CFTC Socrata 72hh-3qpy, and cite the row key in the commit subject. ⛔ Never a browser identity: a challenge or block means stop, use Socrata, tell PROME (root Blocked sites rule, WQ-701 G).
    - Same day: the diesel and refining commission, DOCKET line 783.
 4. **Any session:** TSA 11/13–11/15 against the single-source 11/12 figure of 2,484,345. This machine gets 403 from tsa.gov.
 5. **Thursday 11/19:** after the Trump–Xi bilateral and the trilateral, check for any Hormuz or Iran-export statement. Record only.

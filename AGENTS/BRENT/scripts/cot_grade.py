@@ -45,7 +45,9 @@ SOURCING RULES, ALSO FROM THE REGISTERED SPEC:
   * RAW file only: https://www.cftc.gov/dea/newcot/f_disagg.txt   [[finding_cftc_cot_raw_file_beats_socrata_lag]]
   * Match by MARKET NAME, not by contract code — code 067651 spans a 2022 rename.
   * Verify `report_date` IN-ROW against --expect. exit 3 = NOT FRESH, DO NOT GRADE.
-  * Browser User-Agent is load-bearing, see LESSONS L25 (a tarpitted UA reads as an outage).
+  * PLAIN client string only (root CLAUDE.md Data Hygiene, Blocked sites, WQ-701 G, Will 2026-11-16).
+    Changed 2026-11-17 from a browser User-Agent (8/21 to 11/16). A challenge or block page means
+    STOP and read another source (CFTC Socrata 72hh-3qpy), then tell PROME; never a browser identity.
 
 EXIT CODES:  0 graded  |  2 could not grade (fetch/parse/spec problem)  |  3 not fresh, WAIT
              4 graded BUT a RE-ISSUE was detected (see below) — treat the affected prior grade as impeached
@@ -71,8 +73,7 @@ LEDGER_DEFAULT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", 
 
 RAW_URL = "https://www.cftc.gov/dea/newcot/f_disagg.txt"
 MARKET = "WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE"
-BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-              "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+CLIENT_UA = "BRENT-cot-grade/1.0"  # plain client string; verified HTTP 200 on 2026-11-17 09:47 EST
 
 # --- FROZEN SPEC (REGISTRY.tsv :: COT-FUEL-35B). Do not edit without a fresh Will ruling. ---
 LEG_A_BAR = 113745
@@ -101,7 +102,7 @@ I_MM_SHORT = 14
 
 
 def fetch_raw():
-    req = urllib.request.Request(RAW_URL, headers={"User-Agent": BROWSER_UA})
+    req = urllib.request.Request(RAW_URL, headers={"User-Agent": CLIENT_UA})
     with urllib.request.urlopen(req, timeout=90) as r:
         return r.read().decode("utf-8", errors="replace")
 
@@ -193,8 +194,8 @@ def main():
         text = fetch_raw()
     except Exception as e:
         print(f"  🔴 FETCH FAILED: {type(e).__name__}: {e}")
-        print("     ⚠️  If this is a hang/timeout rather than an HTTP error, check the "
-              "User-Agent before concluding the host is down (LESSONS L25).")
+        print("     ⚠️  A challenge, block or 403 here means STOP: do not change the client string. "
+              "Read CFTC Socrata (72hh-3qpy) and tell PROME (root Blocked sites rule).")
         return 2
 
     hits = find_row(text)
