@@ -16,3 +16,5 @@ receipt_date	correction_id	action	note
 2026-11-06T21:35Z	COR-20261106-35	APPLIED	artifact=AGENTS/VIOLET/workbook/KB.tsv#KB-VIO-388; validation_ref=AGENTS/VIOLET/research/2026-11-06_close/putcall_output.txt#rank; 
 2026-11-06T21:35Z	COR-20261106-41	NO-OP	scope=SoftBank leverage, the bridge, the OpenAI loan and ABB were never carried on a VIOLET surface. KB-VIO-386 carries only the share move, CDS and results date, untouched by this correction.; 
 2026-11-10T16:10Z	COR-20261109-11	NO-OP	scope=card 004 correction is NVDA key-person and counterintelligence substance owned by VULCAN and HENRY, VIOLET holds no figure from card 004, context only for the 11/17 NVIDIA and 11/18 SOQ catalyst rows; 
+2026-11-17T01:49Z	COR-20261111-14	NO-OP	scope=VIOLET cites no SEC enforcement totals and used card 20261111-004 in no figure; 
+2026-11-17T01:49Z	COR-20261112-03	NO-OP	scope=VIOLET carries no dated claim on the Huang ouster report timing; 
