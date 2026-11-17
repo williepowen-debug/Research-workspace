@@ -70,7 +70,7 @@ def capture(label):
 class WatcherConsumerTests(unittest.TestCase):
     def setUp(self):
         self.classify, self.hy = watcher._load_config()
-        self.base = {'zone': 'green', 'sev': 0, 'obs_date': '2026-07-01'}
+        self.base = {'zone': 'green', 'sev': 0, 'obs_date': '2026-07-08'}
 
     def assert_kill_meaning(self, text):
         self.assertIn('NOT a kill', text)
@@ -87,15 +87,15 @@ class WatcherConsumerTests(unittest.TestCase):
 
     def test_ordinary_kill_actual_main_consumers_and_repeat(self):
         with isolated_watcher():
-            latest = observations(('2026-07-03', '2.59'))
-            first = {'observations': observations(('2026-07-01', '2.70'),
-                                                 ('2026-07-02', '2.59'), ('2026-07-03', '2.59'))}
+            latest = observations(('2026-07-10', '2.59'))
+            first = {'observations': observations(('2026-07-08', '2.70'),
+                                                 ('2026-07-09', '2.59'), ('2026-07-10', '2.59'))}
             self.assertEqual(run_watcher(latest, first, self.base), 0)
             out = capture('ordinary-kill')
             for text in [out['signals'], out['alert_log'], *out['packets'].values()]:
                 self.assert_kill_meaning(text)
-                self.assertIn('2026-07-03', text)
-            self.assertEqual(out['state']['kill_met_on'], '2026-07-03')
+                self.assertIn('2026-07-10', text)
+            self.assertEqual(out['state']['kill_met_on'], '2026-07-10')
             self.assertEqual(run_watcher(latest, first), 0)
             again = capture('ordinary-kill-repeat')
             for key in ('packets', 'signals', 'alert_log'):
@@ -115,22 +115,22 @@ class WatcherConsumerTests(unittest.TestCase):
     def test_mixed_lost_state_all_consumers_original_event_date(self):
         with isolated_watcher():
             latest = observations(('2026-10-14', '2.90'))
-            first = {'observations': observations(('2026-07-01', '2.59'),
-                                                 ('2026-07-02', '2.58'), ('2026-10-14', '2.90'))}
+            first = {'observations': observations(('2026-07-08', '2.59'),
+                                                 ('2026-07-09', '2.58'), ('2026-10-14', '2.90'))}
             self.assertEqual(run_watcher(latest, first), 0)  # no state: recover terminal event
             out = capture('mixed-current-plus-historical')
             packet = next(iter(out['packets'].values()))
             self.assertIn('zone escalation [2026-10-14]', packet)
-            self.assertIn('recovered historical kill-level event [2026-07-02]', packet)
+            self.assertIn('recovered historical kill-level event [2026-07-09]', packet)
             self.assertIn('**Current quote:** HY OAS 290bps [2026-10-14]', packet)
             self.assertNotIn('HY OAS 290bps — kill level met', packet)
-            self.assertIn('| 2026-07-02 | LIQUID | ALL | 🔴 |', out['signals'])
+            self.assertIn('| 2026-07-09 | LIQUID | ALL | 🔴 |', out['signals'])
             self.assertIn('| 2026-10-14 | LIQUID | PROME | 🟠 |', out['signals'])
             for text in [out['signals'], out['alert_log'], packet]:
                 self.assert_kill_meaning(text)
                 self.assert_widen_meaning(text)
-                self.assertIn('2026-07-02', text)
-            self.assertEqual(out['state']['kill_met_on'], '2026-07-02')
+                self.assertIn('2026-07-09', text)
+            self.assertEqual(out['state']['kill_met_on'], '2026-07-09')
             self.assertEqual(run_watcher(latest, first), 0)
             again = capture('mixed-repeat')
             for key in ('packets', 'signals', 'alert_log'):
@@ -140,20 +140,20 @@ class WatcherConsumerTests(unittest.TestCase):
         with isolated_watcher():
             prev = {'zone': 'red', 'sev': 2, 'obs_date': '2026-10-13'}
             self.assertEqual(run_watcher(observations(('2026-10-14', '2.90')),
-                              {'observations': observations(('2026-07-01', '2.59'),
-                               ('2026-07-02', '2.58'), ('2026-10-14', '2.90'))}, prev), 0)
+                              {'observations': observations(('2026-07-08', '2.59'),
+                               ('2026-07-09', '2.58'), ('2026-10-14', '2.90'))}, prev), 0)
             out = capture('historical-only')
             packet = next(iter(out['packets'].values()))
-            self.assertIn('recovered historical kill-level event [2026-07-02]', packet)
+            self.assertIn('recovered historical kill-level event [2026-07-09]', packet)
             self.assertNotIn('zone escalation [', packet)
-            self.assertIn('| 2026-07-02 | LIQUID | ALL | 🔴 |', out['signals'])
+            self.assertIn('| 2026-07-09 | LIQUID | ALL | 🔴 |', out['signals'])
             self.assert_kill_meaning(out['alert_log'])
 
     def test_first_published_value_distinct_from_latest_quote(self):
         with isolated_watcher():
-            self.assertEqual(run_watcher(observations(('2026-07-03', '2.90')),
-                              {'observations': observations(('2026-07-02', '2.59'),
-                                                           ('2026-07-03', '2.58'))}, self.base), 0)
+            self.assertEqual(run_watcher(observations(('2026-07-10', '2.90')),
+                              {'observations': observations(('2026-07-09', '2.59'),
+                                                           ('2026-07-10', '2.58'))}, self.base), 0)
             out = capture('revision-latest-versus-first-published')
             self.assertIn('first-published HY OAS 258bps < 260', out['signals'])
             self.assertNotIn('HY OAS 290bps < 260', out['signals'])
@@ -161,19 +161,19 @@ class WatcherConsumerTests(unittest.TestCase):
 
     def test_first_published_frontier_behind_latest_keeps_original_date(self):
         with isolated_watcher():
-            self.assertEqual(run_watcher(observations(('2026-07-06', '2.59')),
-                              {'observations': observations(('2026-07-02', '2.59'),
-                                                           ('2026-07-03', '2.58'))}, self.base), 0)
+            self.assertEqual(run_watcher(observations(('2026-07-13', '2.59')),
+                              {'observations': observations(('2026-07-09', '2.59'),
+                                                           ('2026-07-10', '2.58'))}, self.base), 0)
             out = capture('delayed-first-publication-frontier')
-            self.assertEqual(out['state']['kill_met_on'], '2026-07-03')
-            self.assertIn('| 2026-07-03 | LIQUID | ALL | 🔴 |', out['signals'])
-            self.assertIn('recovered historical kill-level event [2026-07-03]',
+            self.assertEqual(out['state']['kill_met_on'], '2026-07-10')
+            self.assertIn('| 2026-07-10 | LIQUID | ALL | 🔴 |', out['signals'])
+            self.assertIn('recovered historical kill-level event [2026-07-10]',
                           next(iter(out['packets'].values())))
 
     def test_guard_not_truncated_and_pipe_safe(self):
-        line = watcher.decide(259, '2026-07-03', self.base, self.hy, self.classify,
-                              [('2026-07-03', 259), ('2026-07-02', 259)])['fired'][0]
-        row = watcher._signals_row(line + ' | extra detail\nnext line', '2026-07-03')
+        line = watcher.decide(259, '2026-07-10', self.base, self.hy, self.classify,
+                              [('2026-07-10', 259), ('2026-07-09', 259)])['fired'][0]
+        row = watcher._signals_row(line + ' | extra detail\nnext line', '2026-07-10')
         self.assert_kill_meaning(row)
         self.assertIn('/ extra detail next line', row)
         self.assertEqual(len(row.splitlines()), 1)
@@ -197,7 +197,7 @@ class WatcherConsumerTests(unittest.TestCase):
     def test_append_preserves_foreign_rows_and_repeat_delivery(self):
         with isolated_watcher():
             fired = watcher.decide(290, '2026-10-14', self.base, self.hy, self.classify,
-                                   late_kill='2026-07-02')['fired']
+                                   late_kill='2026-07-09')['fired']
             prefix = watcher.SIGNALS.read_text()
             state = {}
             watcher._deliver(fired, 290, '2026-10-14', state, {})
@@ -220,7 +220,7 @@ class WatcherConsumerTests(unittest.TestCase):
 
     def test_missing_first_publication_fails_closed(self):
         with isolated_watcher():
-            self.assertEqual(run_watcher(observations(('2026-07-03', '2.59')),
+            self.assertEqual(run_watcher(observations(('2026-07-10', '2.59')),
                                          {'error': 'synthetic unavailable'}, self.base), 0)
             out = capture('vintage-unavailable')
             self.assertFalse(out['packets'])
@@ -229,41 +229,41 @@ class WatcherConsumerTests(unittest.TestCase):
 
     def test_repeated_first_published_date_fails_kill_closed(self):
         # CE1 (WQ-229 read #1; acceptance #8): ONE distinct sub-260 close (07-03) delivered twice.
-        dup = {'observations': observations(('2026-07-01', '2.72'), ('2026-07-02', '2.70'),
-                                             ('2026-07-03', '2.59'), ('2026-07-03', '2.59'))}
+        dup = {'observations': observations(('2026-07-08', '2.72'), ('2026-07-09', '2.70'),
+                                             ('2026-07-10', '2.59'), ('2026-07-10', '2.59'))}
         with isolated_watcher():
-            self.assertEqual(run_watcher(observations(('2026-07-03', '2.59')), dup, self.base), 0)
+            self.assertEqual(run_watcher(observations(('2026-07-10', '2.59')), dup, self.base), 0)
             out = capture('ce1-duplicated-first-published-date')
             self.assertFalse(out['packets'])
             self.assertNotIn('kill_met_on', out['state'])
             self.assertIn('VINTAGE-FETCH-FAIL', out['watch_log'])
-            self.assertNotIn('2026-07-03', out['signals'])
+            self.assertNotIn('2026-07-10', out['signals'])
             self.assertEqual(out['alert_log'], '')
         # Repeated date with DIFFERENT values is refused too (whatever the values).
-        mixed = {'observations': observations(('2026-07-02', '2.59'), ('2026-07-03', '2.59'),
-                                              ('2026-07-03', '2.70'))}
+        mixed = {'observations': observations(('2026-07-09', '2.59'), ('2026-07-10', '2.59'),
+                                              ('2026-07-10', '2.70'))}
         with isolated_watcher():
-            self.assertEqual(run_watcher(observations(('2026-07-03', '2.59')), mixed, self.base), 0)
+            self.assertEqual(run_watcher(observations(('2026-07-10', '2.59')), mixed, self.base), 0)
             self.assertNotIn('kill_met_on', capture('ce1-repeated-date-different-values')['state'])
         # Control: the same closes on DISTINCT dates grade exactly as before (one sub-260 = no fire;
         # two consecutive = the existing terminal fire).
         with isolated_watcher():
-            ctl = {'observations': observations(('2026-07-01', '2.72'), ('2026-07-02', '2.70'),
-                                                 ('2026-07-03', '2.59'))}
-            self.assertEqual(run_watcher(observations(('2026-07-03', '2.59')), ctl, self.base), 0)
+            ctl = {'observations': observations(('2026-07-08', '2.72'), ('2026-07-09', '2.70'),
+                                                 ('2026-07-10', '2.59'))}
+            self.assertEqual(run_watcher(observations(('2026-07-10', '2.59')), ctl, self.base), 0)
             out = capture('ce1-control-distinct-dates')
             self.assertNotIn('kill_met_on', out['state'])
             self.assertNotIn('VINTAGE-FETCH-FAIL', out['watch_log'])
         with isolated_watcher():
-            two = {'observations': observations(('2026-07-01', '2.70'), ('2026-07-02', '2.59'),
-                                                ('2026-07-03', '2.59'))}
-            self.assertEqual(run_watcher(observations(('2026-07-03', '2.59')), two, self.base), 0)
-            self.assertEqual(capture('ce1-control-two-distinct')['state']['kill_met_on'], '2026-07-03')
+            two = {'observations': observations(('2026-07-08', '2.70'), ('2026-07-09', '2.59'),
+                                                ('2026-07-10', '2.59'))}
+            self.assertEqual(run_watcher(observations(('2026-07-10', '2.59')), two, self.base), 0)
+            self.assertEqual(capture('ce1-control-two-distinct')['state']['kill_met_on'], '2026-07-10')
 
     def test_invalid_latest_quote_is_parse_failure_without_grade(self):
         for value in ('not a number', 'nan', 'inf'):
             with self.subTest(value=value), isolated_watcher():
-                self.assertEqual(run_watcher(observations(('2026-07-03', value)),
+                self.assertEqual(run_watcher(observations(('2026-07-10', value)),
                                   {'observations': []}, self.base), 3)
                 out = capture('invalid-latest-'+value)
                 self.assertEqual(out['state'], self.base)
@@ -272,23 +272,23 @@ class WatcherConsumerTests(unittest.TestCase):
 
     def test_polling_gap_and_single_known_observation(self):
         with isolated_watcher():
-            prev = dict(self.base, obs_date='2026-07-01', sub260=1)
-            self.assertEqual(run_watcher(observations(('2026-07-03', '2.59')),
-                       {'observations': observations(('2026-07-01', '2.59'),
-                         ('2026-07-02', '2.70'), ('2026-07-03', '2.59'))}, prev), 0)
+            prev = dict(self.base, obs_date='2026-07-08', sub260=1)
+            self.assertEqual(run_watcher(observations(('2026-07-10', '2.59')),
+                       {'observations': observations(('2026-07-08', '2.59'),
+                         ('2026-07-09', '2.70'), ('2026-07-10', '2.59'))}, prev), 0)
             out = capture('missed-poll-reset')
             self.assertEqual(out['state']['sub260'], 1)
             self.assertNotIn('kill_met_on', out['state'])
-        r = watcher.decide(259, '2026-07-03', self.base, self.hy, self.classify)
+        r = watcher.decide(259, '2026-07-10', self.base, self.hy, self.classify)
         self.assertFalse(r['fired'])
 
     def test_published_boundary_normalization_actual_first_release_and_main(self):
         for value, run in [('2.59', 2), ('2.60', 0), ('2.61', 0),
                            ('2.5999999999999996', 0), ('2.6000000000000005', 0)]:
             with self.subTest(value=value), isolated_watcher():
-                self.assertEqual(run_watcher(observations(('2026-07-03', value)),
-                            {'observations': observations(('2026-07-02', '2.59'),
-                                                          ('2026-07-03', value))}, self.base), 0)
+                self.assertEqual(run_watcher(observations(('2026-07-10', value)),
+                            {'observations': observations(('2026-07-09', '2.59'),
+                                                          ('2026-07-10', value))}, self.base), 0)
                 state = json.loads(watcher.STATE.read_text())
                 self.assertEqual(state['bps'], round(float(value)*100))
                 self.assertEqual(state['sub260'], run)
