@@ -108,6 +108,42 @@
         "2026-11-16"
       ],
       "closed": "2026-11-16T18:43:10Z"
+    },
+    "gpu:3731320ce89a": {
+      "title": "CoreWeave closes $2.6 billion GPU-backed loan - Yahoo Finance",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261114-009 and VULCAN STATUS S5 KB-417 (CoreWeave DDTL 5.5 $2.6B); article dated 2026-08-11, recovered from replaced 11/12 lane version 217375e0a199",
+      "days": [
+        "2026-11-12"
+      ],
+      "closed": "2026-11-17T00:22:35Z"
+    },
+    "gpu:4769de03b006": {
+      "title": "Meta’s $420 Billion Off-Balance-Sheet Debt: Should Investors Be Worried? - NAI500",
+      "disposition": "DUP",
+      "ref": "SIG-W-20260721-002 (Meta $420B off-balance-sheet, Nikkei); article dated 2026-07-22, recovered from replaced 11/12 version 217375e0a199",
+      "days": [
+        "2026-11-12"
+      ],
+      "closed": "2026-11-17T00:22:35Z"
+    },
+    "gpu:f88719ad534b": {
+      "title": "Michael Burry revives bear case for AI chips amid GPU depreciation concerns - Crypto Briefing",
+      "disposition": "KILL",
+      "ref": "stale repost dated 2026-07-02 (cryptobriefing.com/michael-burry-bear-case-ai-chips-gpu); Burry depreciation case already on SIG-W-20260813-012, -20260828-035, GPU depreciation theme on SIG-W-20261111-020; recovered from 217375e0a199",
+      "days": [
+        "2026-11-12"
+      ],
+      "closed": "2026-11-17T00:22:35Z"
+    },
+    "gpu:61b707a8295e": {
+      "title": "Steve Hou: GPU rents, token prices and the AI trade - Opening Bell Daily",
+      "disposition": "NOTE",
+      "ref": "Steve Hou (Silicon Data) interview, Opening Bell Daily 2026-11-12: GPU rents vs token prices commentary; source page readable only to its intro, no figure verified; GPU-economics theme VULCAN/BROCK; no card; recovered from 217375e0a199",
+      "days": [
+        "2026-11-12"
+      ],
+      "closed": "2026-11-17T00:22:35Z"
     }
   }
 }
