@@ -5,16 +5,29 @@ A REPORT, not a gate or checker: always exits 0 on a completed read; edits no le
 Reuses DAEDALUS's ledger registry (scorecards/LEDGERS.tsv) and status map (scorecard.bucket),
 so one mapping serves both surfaces. Desks missing from that registry are listed in EXTRA.
 
-  python3 PROME/tools/forecast_report.py [--write PATH] [--sample N --seed S --sample-out PATH] [--selftest]
+  python3 PROME/tools/forecast_report.py [--write PATH] [--no-history] [--sample N --seed S --sample-out PATH] [--selftest]
+
+Timing and first-logged probability (2026-11-17, acceptance file
+PROME/tools/tests/ACCEPTANCE_forecast_report_timing_archives_2026-11-17.md) come from each row's GIT RECORD:
+every committed version of the desk's prediction ledgers that holds the row. The row's own Date_Made cell
+is never used as a bound or as evidence of timing. Forward only: rows known on or before REPORT1_CUT are
+report 1's closed population and are counted, not classed.
 
 Per-desk Brier is deliberately NOT printed: the first report proves grading consistency,
 no desk ranking (WQ-619 A). Fleet tables carry n, exclusions and a 95% Wilson interval.
 """
-import argparse, csv, datetime as dt, importlib.util, json, math, os, random, re, subprocess, sys
+import argparse, csv, datetime as dt, glob, importlib.util, json, math, os, random, re, subprocess, sys, zoneinfo
 
-ROOT = subprocess.check_output(["git", "rev-parse", "--show-toplevel"], text=True).strip()
+# FORECAST_REPORT_ROOT points the tool at a fixture repository (tests and independent readers); unset, it reads this one.
+ROOT = os.environ.get("FORECAST_REPORT_ROOT") or subprocess.check_output(["git", "rev-parse", "--show-toplevel"], text=True).strip()
 EXTRA = ["AGENTS/CYPHER/workbook/PREDICTIONS.tsv", "AGENTS/GIBBS/workbook/PREDICTIONS.tsv",
          "AGENTS/ISHM/workbook/PREDICTIONS.tsv", "AGENTS/VIOLET/workbook/PREDICTIONS.tsv"]
+# Resolved calls a desk rotated out of its live ledger. Patterns, not file lists: a new archive file is read when it appears.
+ARCHIVE_GLOBS = ["AGENTS/BOND/thesis/archive/PREDICTIONS_resolved_*.tsv", "AGENTS/VULCAN/archive/PREDICTIONS_RESOLVED_*.tsv",
+                 "AGENTS/WATT/workbook/PREDICTIONS_ARCHIVE.tsv"]
+REPORT1_CUT = dt.date(2026, 11, 5)   # report 1's population is closed (Will 2026-11-05); timing classes start after it
+ET = zoneinfo.ZoneInfo("America/New_York")
+ISO = re.compile(r"(20\d\d)-(\d\d)-(\d\d)")
 NOT_READ = "CARL and MARCO sub-agent ledgers, NEXUS markdown monitors, TERRY CALIBRATION.tsv, ORACLE, REGINALD's EGBN research copy"
 PCT = re.compile(r"(?<![\d.])(\d{1,3}(?:\.\d+)?)\s*(?:%|pct\b)")
 # Unambiguous typed forms scorecard.TOKEN_MAP leaves UNMAPPED; a local reading, the owner's map is not edited.
@@ -31,19 +44,31 @@ def load_bucket():
     return m.bucket
 
 
-def registry():
+def registry_full():
+    """[(path, status_col, outcome_col, date_col, date_source, kind)]: DAEDALUS's registry, then EXTRA, then archive patterns."""
     rows = []
     with open(os.path.join(ROOT, "AGENTS/DAEDALUS/scorecards/LEDGERS.tsv"), encoding="utf8") as f:
         for l in f:
             if l.startswith("#") or l.startswith("path\t") or not l.strip():
                 continue
             c = l.rstrip("\n").split("\t")
-            rows.append((c[0], c[1], c[4]))
+            rows.append((c[0], c[1], c[4], c[2], c[3], "registry"))
     have = {r[0] for r in rows}
     for p in EXTRA:
         if p not in have and os.path.exists(os.path.join(ROOT, p)):
-            rows.append((p, "Status", "Outcome"))
+            rows.append((p, "Status", "Outcome", "Date_Resolved", "COLUMN", "extra"))
+            have.add(p)
+    for pat in ARCHIVE_GLOBS:
+        for full in sorted(glob.glob(os.path.join(ROOT, pat))):
+            p = os.path.relpath(full, ROOT)
+            if p not in have:
+                rows.append((p, "Status", "Outcome", "Date_Resolved", "COLUMN", "archive"))
+                have.add(p)
     return rows
+
+
+def registry():
+    return [(r[0], r[1], r[2]) for r in registry_full()]
 
 
 def prob(conf, pred=""):
@@ -70,13 +95,53 @@ def first_call(conf):
     return float(m.group(1)) / 100 if m else None
 
 
-def norm_rows(path):
-    txt = open(os.path.join(ROOT, path), encoding="utf8", errors="replace").read().splitlines()
-    L = [l for l in txt if l.strip() and not l.startswith("#")]
+def oldest_was(conf):
+    """Cells are written newest first, so the LAST '(was X%)' is the oldest mark the cell still carries."""
+    m = re.findall(r"\(was\s+" + PCT.pattern, conf or "", re.I)
+    v = float(m[-1]) / 100 if m else None
+    return v if v is not None and 0 < v <= 1 else None
+
+
+def parse_iso(s):
+    m = ISO.search(s or "")
+    try:
+        return dt.date(*map(int, m.groups())) if m else None
+    except ValueError:
+        return None
+
+
+def full_dates(s):
+    """Full dates only (YYYY-MM-DD, M/D/YY, M/D/YYYY). No lower bound is applied: the caller compares, never Date_Made."""
+    out = set()
+    for y, m, d in ISO.findall(s or ""):
+        try: out.add(dt.date(int(y), int(m), int(d)))
+        except ValueError: pass
+    for m, d, y in re.findall(r"(?<![\d/.$-])(\d{1,2})/(\d{1,2})/(\d{2}|\d{4})(?![\d/%])", s or ""):
+        try: out.add(dt.date(int(y) + (2000 if len(y) == 2 else 0), int(m), int(d)))
+        except ValueError: pass
+    return out
+
+
+def split_ledger(text):
+    L = [l for l in text.splitlines() if l.strip() and not l.startswith("#")]
     if not L:
         return [], []
-    hdr = [h.strip() for h in L[0].split("\t")]
-    return hdr, [l.split("\t") for l in L[1:]]
+    return [h.strip() for h in L[0].split("\t")], [l.split("\t") for l in L[1:]]
+
+
+def classify(st, o, bucket):
+    """(bucket or None, basis) from a status cell and an outcome cell. None = not decided."""
+    b = LOCAL.get(re.sub(r"[-_ ]+", "-", st.upper()).split(" ")[0]) or bucket(st)
+    basis = "status"
+    if b == "RESOLVED-UNTYPED":
+        b2 = bucket(re.sub(r"^[^A-Za-z]+", "", o))
+        if b2 in ("HIT", "MISS", "PARTIAL", "NO-VERDICT", "ANNULLED"):
+            b, basis = b2, "outcome"
+    return b, basis
+
+
+def norm_rows(path):
+    return split_ledger(open(os.path.join(ROOT, path), encoding="utf8", errors="replace").read())
 
 
 def owner_events(path):
@@ -113,7 +178,8 @@ def col(hdr, name, *alts):
 
 def read_all(bucket):
     out, defects = [], []
-    for path, sc, oc in registry():
+    seen = {}
+    for path, sc, oc, dc, dsrc, kind in registry_full():
         if not os.path.exists(os.path.join(ROOT, path)):
             defects.append((path, "missing file"))
             continue
@@ -125,6 +191,7 @@ def read_all(bucket):
         icf = col(hdr, "Confidence", "conf_tier", "conf", "prob")
         imd = col(hdr, "Date_Made", "made", "Date")
         ipr = col(hdr, "Prediction", "prediction")
+        idt = col(hdr, dc, "Date_Resolved", "Resolution_Date") if dsrc == "COLUMN" and dc != "NONE" else None
         if ist is None:
             defects.append((path, "no status column"))
             continue
@@ -137,18 +204,119 @@ def read_all(bucket):
             st, o = g(ist), g(iout)
             if re.match(r"^(ID|Pred_ID|id)$", c[0].strip()):
                 continue
-            b = LOCAL.get(re.sub(r"[-_ ]+", "-", st.upper()).split(" ")[0]) or bucket(st)
-            basis = "status"
-            if b == "RESOLVED-UNTYPED":
-                b2 = bucket(re.sub(r"^[^A-Za-z]+", "", o))
-                if b2 in ("HIT", "MISS", "PARTIAL", "NO-VERDICT", "ANNULLED"):
-                    b, basis = b2, "outcome"
+            b, basis = classify(st, o, bucket)
             if c[0].strip() in stated:
                 b, basis = stated[c[0].strip()], "owner-convention"
+            key = (desk, c[0].strip())
+            if key in seen and seen[key] != path:      # one ID in a live and an archive file: the first file read wins
+                defects.append((path, f"{c[0].strip()} already read from {seen[key]}, counted once"))
+                continue
+            seen.setdefault(key, path)
             out.append({"desk": desk, "id": c[0].strip(), "status": st, "outcome": o, "conf": g(icf),
                         "pred": g(ipr), "made": g(imd), "bucket": b or "OPEN", "basis": basis,
-                        "p": prob(g(icf), g(ipr)), "first": first_call(g(icf))})
+                        "p": prob(g(icf), g(ipr)), "first": first_call(g(icf)), "path": path, "kind": kind,
+                        "resolved": parse_iso(g(idt)) if idt is not None else parse_iso(o)})
     return out, defects
+
+
+def git(*a):
+    return subprocess.run(("git", "-C", ROOT) + a, capture_output=True, text=True, errors="replace").stdout
+
+
+def file_history(path, sc, oc, bucket):
+    """{row id: [(commit time, ET date, probability, decided, oldest-was)]} over every committed version, following renames."""
+    vers, cur = [], None
+    # No --reverse: with --follow, git applies --reverse before following and returns the creation commit alone
+    # (seen 2026-11-17: 1 commit of 49). Read newest first, then turn the list round.
+    for l in git("log", "--follow", "--format=@%H %ct", "--name-only", "--", path).splitlines():
+        if l.startswith("@"):
+            sha, ct = l[1:].split()
+            cur = [sha, int(ct), None]
+            vers.append(cur)
+        elif l.strip() and cur:
+            cur[2] = l.strip()
+    vers.reverse()
+    h = {}
+    if not vers:
+        return h
+    cat = subprocess.Popen(["git", "-C", ROOT, "cat-file", "--batch"], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    for sha, ct, name in vers:
+        cat.stdin.write(f"{sha}:{name or path}\n".encode()); cat.stdin.flush()
+        head = cat.stdout.readline().split()
+        if len(head) < 3 or head[1] != b"blob":
+            continue
+        blob = cat.stdout.read(int(head[2])).decode("utf8", "replace"); cat.stdout.read(1)
+        hdr, rows = split_ledger(blob)
+        if not hdr:
+            continue
+        ist = col(hdr, sc, "status", "state"); iout = col(hdr, oc, "outcome", "result", "resolution")
+        icf = col(hdr, "Confidence", "conf_tier", "conf", "prob"); ipr = col(hdr, "Prediction", "prediction")
+        day = dt.datetime.fromtimestamp(ct, ET).date()
+        for c in rows:
+            g = lambda i: c[i].strip() if i is not None and i < len(c) else ""
+            rid = c[0].strip()
+            if not rid:
+                continue
+            b = classify(g(ist), g(iout), bucket)[0] if ist is not None else None
+            h.setdefault(rid, []).append((ct, day, prob(g(icf), g(ipr)), b is not None, oldest_was(g(icf))))
+    cat.stdin.close(); cat.wait()
+    return h
+
+
+def git_records(bucket):
+    """{(desk, row id): versions oldest first}: the union across every ledger file of the desk, live and archive."""
+    rec = {}
+    for path, sc, oc, _dc, _ds, _k in registry_full():
+        if not os.path.exists(os.path.join(ROOT, path)):
+            continue
+        desk = path.split("/")[1]
+        for rid, v in file_history(path, sc, oc, bucket).items():
+            rec.setdefault((desk, rid), []).extend(v)
+    for v in rec.values():
+        v.sort(key=lambda x: x[0])
+    return rec
+
+
+def timing(versions, p, resolved, outcome=""):
+    """One class per scored row from its git record. Date_Made is not an input.
+    versions: [(commit time, date, probability, decided, oldest-was)] oldest first; p: the probability the report scores with."""
+    out = {"cls": None, "first_record": None, "value_date": None, "known": None, "p0": None, "look": None}
+    if not versions:
+        out["cls"] = "NO-GIT-RECORD"
+        out["known"] = resolved
+        return out
+    out["first_record"] = versions[0][1]
+    for v in versions:
+        if v[2] is not None:
+            out["p0"] = v[4] if v[4] is not None else v[2]
+            break
+    decided = [v[1] for v in versions if v[3]]
+    known = min([d for d in (resolved, decided[0] if decided else None) if d is not None], default=None)
+    out["known"] = known
+    vd = next((v[1] for v in versions if v[2] is not None and p is not None and abs(v[2] - p) < .0015), None)
+    out["value_date"] = vd
+    if versions[0][3]:
+        out["cls"] = "BORN-DECIDED"
+    elif vd is None:
+        out["cls"] = "NO-GIT-RECORD"
+    elif known is None:
+        out["cls"] = "NO-KNOWN-DATE"
+    elif vd > known:
+        out["cls"] = "AFTER"
+    elif vd == known:
+        out["cls"] = "SAME-DAY"
+    else:
+        out["cls"] = "BEFORE"
+        early = [d for d in full_dates(outcome) if d < vd]
+        if early:
+            out["look"] = min(early)
+    return out
+
+
+def unread_ledgers(read_paths):
+    """Prediction-named .tsv files under AGENTS/ that no registry row, EXTRA entry or archive pattern reads."""
+    names = [l for l in git("ls-files", "AGENTS").splitlines() if re.search(r"PREDICTIONS[^/]*\.tsv$", l, re.I)]
+    return sorted(set(names) - set(read_paths))
 
 
 def wilson(y, n, z=1.96):
@@ -161,7 +329,11 @@ def wilson(y, n, z=1.96):
     return (c - h, c + h)
 
 
-def render(rows, defects):
+def brier(pairs):
+    return sum((p - hit) ** 2 for p, hit in pairs) / len(pairs)
+
+
+def render(rows, defects, rec=None, unread=None):
     P = []
     now = dt.datetime.now().strftime("%Y-%m-%d")
     cnt = lambda b: sum(1 for r in rows if r["bucket"] == b)
@@ -173,8 +345,14 @@ def render(rows, defects):
     P.append(f"**Scored:** {len(sc)} of {len(dec)} decided calls carry a usable probability; {len(dec)-len(sc)} do not. "
              f"{sum(1 for r in dec if r['basis']=='outcome')} decided rows took their direction from the Outcome cell, the status alone said RESOLVED.")
     P.append(f"**Not read:** {NOT_READ}.")
+    arch = sorted({r["path"] for r in rows if r.get("kind") == "archive"})
+    if arch:
+        P.append(f"**Archive ledgers read:** {len(arch)} files, {sum(1 for r in rows if r.get('kind') == 'archive')} rows: " + ", ".join(arch) + ".")
+    if unread is not None:
+        P.append(f"**Prediction-named ledger files not read:** {len(unread)}" + (": " + ", ".join(unread) if unread else "")
+                 + ". Snapshots and copies belong in this list; a rotated archive of resolved calls does not, and one found here is a gap in the score.")
     if defects:
-        P.append("**Ledger read defects:** " + " · ".join(f"{a}: {b}" for a, b in defects))
+        P.append("**Ledger read notes:** " + " · ".join(f"{a}: {b}" for a, b in defects))
     if sc:
         br = sum((r["p"] - (r["bucket"] == "HIT")) ** 2 for r in sc) / len(sc)
         hr = sum(r["bucket"] == "HIT" for r in sc) / len(sc)
@@ -199,6 +377,39 @@ def render(rows, defects):
             a, b = wilson(y, len(s))
             ms = sum(r["p"] for r in s) / len(s) if s else 0
             P.append(f"| {lab} | {len(s)} | {ms:.0%} | {(y/len(s) if s else 0):.0%} | {a:.0%} to {b:.0%} |")
+        if rec is None:
+            P.append("\n**Timing table and first-logged score: SKIPPED (--no-history).** Nothing in this report says whether any call was logged before its outcome.")
+        else:
+            T = [(r, timing(rec.get((r["desk"], r["id"]), []), r["p"], r.get("resolved"), r["outcome"])) for r in sc]
+            fwd = [(r, t) for r, t in T if t["known"] is None or t["known"] > REPORT1_CUT]
+            P.append(f"\n## When the probability used entered the record: calls known after {REPORT1_CUT}, forward only\n")
+            P.append("Read from each row's git record: every committed version of the desk's prediction ledgers, live and archive, that holds the row. "
+                     "Value date is the first commit date carrying the probability scored. Known date is the earlier of the owner's resolved date and the first commit in which the row is decided. "
+                     "The row's own Date_Made cell is not used. A commit date is when the text entered the repository, not when the view was formed; a call held first in another file reads later than it was.")
+            P.append(f"{len(T) - len(fwd)} scored calls known on or before {REPORT1_CUT} are report 1's closed population and are not classed here (Will 2026-11-05).")
+            P.append("\n| Class | Calls | Rows |\n|---|---:|---|")
+            lab = {"BEFORE": "BEFORE: value recorded before the known date", "SAME-DAY": "SAME-DAY: value and known date are one day, order not shown",
+                   "AFTER": "AFTER: value first recorded after the known date", "BORN-DECIDED": "BORN-DECIDED: the row's first record is already decided",
+                   "NO-GIT-RECORD": "NO-GIT-RECORD: no committed version holds the row or the value scored", "NO-KNOWN-DATE": "NO-KNOWN-DATE: no resolved date and never decided in a commit"}
+            for cls in ("BEFORE", "SAME-DAY", "AFTER", "BORN-DECIDED", "NO-GIT-RECORD", "NO-KNOWN-DATE"):
+                R = [r for r, t in fwd if t["cls"] == cls]
+                ids = "not listed" if cls == "BEFORE" else (", ".join(f"{r['desk']} {r['id']}" for r in R) or "none")
+                P.append(f"| {lab[cls]} | {len(R)} | {ids} |")
+            look = [(r, t) for r, t in fwd if t["look"]]
+            P.append(f"\n**LOOK, a prompt to read the row, not a verdict:** {len(look)} BEFORE row(s) whose outcome cell names a full date earlier than the value date"
+                     + (": " + ", ".join(f"{r['desk']} {r['id']} ({t['look']} before {t['value_date']})" for r, t in look) if look else "")
+                     + ". An outcome cell may cite an older reference date; an outcome that happened before it was recorded, with no full date in the cell, is not caught.")
+            both = [(r, t) for r, t in T if t["p0"] is not None]
+            if both:
+                cur = brier([(r["p"], r["bucket"] == "HIT") for r, t in both])
+                fst = brier([(t["p0"], r["bucket"] == "HIT") for r, t in both])
+                h2 = sum(r["bucket"] == "HIT" for r, t in both) / len(both)
+                ref2 = h2 * (1 - h2)
+                chg = sum(1 for r, t in both if abs(t["p0"] - r["p"]) >= .0015)
+                P.append(f"\n**First-logged probability beside the scored one, same {len(both)} calls:** Brier at the scored probability {cur:.3f}, at the first-logged probability {fst:.3f}; "
+                         f"the hit-rate baseline on these calls is {ref2:.3f}, so the gain is {ref2 - cur:+.3f} scored and {ref2 - fst:+.3f} first-logged. "
+                         f"{chg} of the {len(both)} were revised between first logging and scoring; {len(T) - len(both)} scored calls have no first-logged value and are in neither figure. "
+                         "First-logged means first in a prediction ledger's git record (or the oldest '(was X%)' mark that first record already carried); a call stated earlier elsewhere is not seen. All history, not forward only: this is a score, no row is re-classed.")
     P.append("\n## Desk counts, alphabetical. Counts only, no desk score, no ranking\n")
     P.append("| Desk | Rows | Open | Decided | With a % | No-verdict | Annulled | Partial | Untyped or unmapped |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|")
     for d in sorted({r["desk"] for r in rows}):
@@ -217,7 +428,34 @@ def selftest():
     assert first_call("5% [2026-07-23] (was 30% [2026-07-02])") == .3
     a, b = wilson(5, 10)
     assert round(a, 2) == .24 and round(b, 2) == .76
-    print("selftest", "FAIL " + str(bad) if bad else "PASS", len(cases) + 3)
+    D = lambda x: dt.date(2026, 11, x)
+    V = lambda ct, day, p, dec, was=None: (ct, D(day), p, dec, was)
+    tc = [  # (name, versions, scored p, resolved, outcome cell, want class, want look)
+        ("A1 born decided, Date_Made irrelevant", [V(1, 10, .6, True)], .6, D(9), "", "BORN-DECIDED", None),
+        ("A1 born decided beats AFTER", [V(1, 12, .6, True)], .6, D(10), "", "BORN-DECIDED", None),
+        ("A2 value after the resolved date", [V(1, 12, .6, False), V(2, 13, .6, True)], .6, D(10), "", "AFTER", None),
+        ("A2 value after the first decided commit", [V(1, 6, .4, False), V(2, 10, .4, True), V(3, 12, .6, True)], .6, None, "", "AFTER", None),
+        ("A3 same day", [V(1, 10, .6, False), V(2, 10, .6, True)], .6, D(10), "", "SAME-DAY", None),
+        ("A4 ordinary before", [V(1, 6, .6, False), V(2, 12, .6, True)], .6, D(12), "", "BEFORE", None),
+        ("A5 no record", [], .6, D(12), "", "NO-GIT-RECORD", None),
+        ("A5 value never committed", [V(1, 6, .5, False), V(2, 12, .5, True)], .6, D(12), "", "NO-GIT-RECORD", None),
+        ("A5 no known date", [V(1, 6, .6, False)], .6, None, "", "NO-KNOWN-DATE", None),
+        ("A6 look, outcome cell date before the value", [V(1, 6, .6, False), V(2, 12, .6, True)], .6, D(12), "printed 2026-11-05: 3.1", "BEFORE", D(5)),
+        ("A6 no look when the date is later", [V(1, 6, .6, False), V(2, 12, .6, True)], .6, D(12), "printed 2026-11-11: 3.1", "BEFORE", None),
+    ]
+    for name, vs, p, res, oc, want, look in tc:
+        t = timing(vs, p, res, oc)
+        if t["cls"] != want or t["look"] != look:
+            bad.append((name, t["cls"], t["look"]))
+    if timing([V(1, 6, .3, False), V(2, 9, .05, False, .3)], .05, D(12))["p0"] != .3: bad.append("A8 first-logged from the first record")
+    if timing([V(1, 6, .3, False, .45), V(2, 9, .05, False, .3)], .05, D(12))["p0"] != .45: bad.append("A8 oldest was in the first record")
+    if timing([V(1, 6, None, False), V(2, 9, .2, False)], .2, D(12))["p0"] != .2: bad.append("A8 first record without a probability")
+    if oldest_was("5% [2026-07-23] (was 30% [2026-07-02]) (was 45% [2026-06-01])") != .45: bad.append("oldest_was")
+    if full_dates("11/5/26, 2026-11-07, 10/31 and $3/4") != {D(5), D(7)}: bad.append(("full_dates", full_dates("11/5/26, 2026-11-07, 10/31 and $3/4")))
+    if classify("RESOLVED", "HIT: printed", lambda x: {"RESOLVED": "RESOLVED-UNTYPED", "HIT: PRINTED": "HIT"}.get(x.upper())) != ("HIT", "outcome"): bad.append("classify")
+    body = render([{"desk": "X", "id": "X-1", "bucket": "HIT", "p": .6, "basis": "status", "conf": "60%", "outcome": "", "resolved": None}], [], None, None)
+    if "SKIPPED (--no-history)" not in body or "| BEFORE" in body: bad.append("A11 skipped history must say so")
+    print("selftest", "FAIL " + str(bad) if bad else "PASS", len(cases) + 3 + len(tc) + 7)
     return 1 if bad else 0
 
 
@@ -225,11 +463,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--write"); ap.add_argument("--sample", type=int); ap.add_argument("--seed", type=int, default=619)
     ap.add_argument("--sample-out"); ap.add_argument("--selftest", action="store_true")
+    ap.add_argument("--no-history", action="store_true", help="skip the git record: no timing table, no first-logged score")
     a = ap.parse_args()
     if a.selftest:
         return selftest()
-    rows, defects = read_all(load_bucket())
-    body = render(rows, defects)
+    bucket = load_bucket()
+    rows, defects = read_all(bucket)
+    rec = None if a.no_history else git_records(bucket)
+    body = render(rows, defects, rec, unread_ledgers([r[0] for r in registry_full()]))
     if a.write:
         open(a.write, "w", encoding="utf8").write(body)
     print(body)
