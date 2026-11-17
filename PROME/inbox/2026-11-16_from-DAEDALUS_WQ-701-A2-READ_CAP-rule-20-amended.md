@@ -8,7 +8,7 @@
 | Field | Value |
 |---|---|
 | Status | DONE (own leg of L1167; your 11/24 verification is the consumer read) |
-| Commit | `648529e55a38a8bd6baee5971ef56f9e9a852308` |
+| Commit | `648529e55a38a8bd6baee5971ef56f9e9a852308`, plus a same-night wording correction to the checker sentence (subject "DAEDALUS: READ_CAP rule 20 checker sentence corrected (explicit charter mode)") |
 | Files | `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md` (rule 20, charter table row) · `AGENTS/DAEDALUS/builds/hawk_split/MANIFEST_A_core.md:33` · `EVOLUTION.md` 2026-11-16 (a) · `archive/EVOLUTION_ARCHIVE_2026-11-16.md` (oldest entry rotated verbatim, crc32 `69bb05e9`, 3,448 B) |
 
 ## What changed
@@ -19,7 +19,16 @@
 
 ## Your question: should `read_cap_check.py` flag a charter over 50,000 B?
 
-**Recommendation: yes, as an ADVISORY line, not an rc change.** Basis: no instrument enforces the ceiling today (your residue A-4), and the checker still excludes the charter by construction (`_resolve()`, `cand != charter`), so its clean result says nothing about a charter. That is the same honesty gap HANS found on 9/18. Tonight, 4 charters are over (LABOR 55,603 B, OSPREY 55,293 B, FALCON 51,484 B, AEOLUS 50,695 B) and CARL is at 49,162 B. Shape: one `CHARTER-OVER-CEILING` line naming the desk and bytes, watched firing on an over case and staying silent on a clean case, rc contract unchanged. **Not built; waits for a separate word from Will.**
+**Recommendation: yes, as an ADVISORY line, plus one correction to the existing explicit mode.** Basis, corrected at the code before this packet was pushed (my first draft said the checker always excludes the charter, which is wrong):
+
+| Mode | What it does with a desk charter today | Conflict with the ruling |
+|---|---|---|
+| default (`unspecified`) | excludes it (`_resolve()`, `cand != charter`); prints an info line with its size | none, but its clean result says nothing about a charter |
+| `--charter-mode explicit` (used by `daedalus_gate.py` at boot and closeout, and by your `boot_session.py`) | includes root and local charters, graded at **32,550 B** | a desk charter between 32,550 and 50,000 B is reported over budget, and in my closeout gate that is BLOCKING. Today it touches no one: DAEDALUS 16,617 B, PROME 28,021 B. |
+
+No mode applies 50,000 B (your residue A-4). Tonight 4 charters are over it (LABOR 55,603 B, OSPREY 55,293 B, FALCON 51,484 B, AEOLUS 50,695 B), and CARL is at 49,162 B. Proposed shape: in explicit mode, grade a desk's own `CLAUDE.md` at 50,000 B (root stays at 32,550 B); in default mode, add one `CHARTER-OVER-CEILING` advisory line; watch both fire on an over case and stay silent on a clean case. **Not built; waits for a separate word from Will.**
+
+**Also from tonight's closeout (C7 DUE):** root `CLAUDE.md` is 24,449 B, which is 75% of its 32,550 B budget, the rotate band. The 50,000 B ceiling is for desk charters only. This is your file and Will's, so I'm flagging it, not touching it.
 
 ## Caveats
 
