@@ -59,7 +59,7 @@ PROME's tasking said *"WAL closed at ~$80.05 today — the $78 trigger is +2.6% 
 > 🔑 **AND THE OWNER OWNED ITS OWN GROUNDS, WHICH IS WHY THIS IS A RULING AND NOT A PREFERENCE.** REGINALD adopted the reading TERRY had flagged as *convenient*, stating why: **it is what the tape says, AND Reading A is the SAFER ERROR** — it alerts more, and on a `V1V3-ACCELERATE` chain **the costly failure is the MISSED signal, not the extra one.** *(TERRY's refusal to self-resolve was endorsed as correct in the same breath: the point was never that A was wrong, it was that **the owner, not the consumer, gets to pick** — `[[finding_owner_of_record_means_authoritative_not_correct]]`.)*
 
 ### 📌 PIN 1 — A `<78` CLOSE FROM 8/21 ONWARD IS THE **FIRST FIRE OF A NEW CYCLE**
-**Fresh signal. Full `V1V3-ACCELERATE` chain — REGINALD + WAL + Will. NO duplicate suppression.** The duplicate risk this procedure raised at build time **does not apply to the cycle-opening close**, because the row exited 6/30.
+**Fresh signal. Full `WAL-PRICE-STRESS` chain (registry token from 2026-11-17, commit 06f187503c; `V1V3-ACCELERATE` is the retired alias, label change only) — REGINALD + WAL + Will. NO duplicate suppression.** The duplicate risk this procedure raised at build time **does not apply to the cycle-opening close**, because the row exited 6/30.
 
 ### 📌 PIN 2 — ⚠️ MY DUPLICATE-SUPPRESSION CONCERN DOES NOT VANISH; IT **MOVES TO AFTER THE FIRE**
 **Precedent from the prior cycle: `9` sub-78 closes in `5/11 → 6/03`.** ⇒ **when WAL enters the band, it STAYS.**
