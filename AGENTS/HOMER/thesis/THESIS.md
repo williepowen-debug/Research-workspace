@@ -124,6 +124,7 @@ The DAEDALUS card (`HOMER_CARD.md` §4) says "five elements per leg" without lis
 | D9 | 2026-11-05 | **D2 CLOSED at quarter-end grain.** Issuer 10-Qs and 10-Ks: both books below 0.50% at 12/23, 3/24, 6/24 (`MULTIFAMILY.tsv` 2026-11-05 history row). Fannie Dec-22 0.24% verified | Month-by-month joint run and Freddie before 6/23 remain unshown; not needed to show satisfiability |
 | D10 | 2026-11-05 | **D4 CLOSED.** NAHB Table 2: last run of three at or above 40 was Sep to Nov 2024; last reading 40 in April 2025 (`BUILDER.tsv` 2026-11-05 history row) | None |
 | D11 | 2026-11-05 | **§4 grade-date input defect.** §4 says the 11/20 grade comes after the ICE October First Look, but ICE publishes about 11/23–30 (September came 10/27). Found by HOMER, no level or criterion affected | Grade 11/20 on the newest print then held, say so, and update C1 mechanically at the October print. D3 stays open: MBA history is 403 to this box |
+| D12 | 2026-11-16 | **A1 second conjunct has no reading at 11/20.** The kill needs the ICE Mortgage Monitor all-loans cure-rate YoY "on the latest issue at that grade"; the October and November editions did not print it (STATUS, HB-08 UNGRADED). The last printed value was −28% (July), worse than the −15% line. FHA-only −46% does not grade it. Found by HOMER in pre-grade prep; no level or criterion moved | At 11/20 grade A1's second conjunct UNGRADED (§4: not NOT-FIRED) and say so; A1 cannot read FIRED on the first conjunct alone. Whether to name a successor statistic is a between-grade amendment, raised to PROME, never made at grading |
 
 ---
 
@@ -254,3 +255,18 @@ No other newly resolving print was integrated: **0/5 legs killed**, no criterion
 | **C1 · A1 · A3** | none (MBA Q3 NDS not out at 12:00 ET; HMI 11/17) | unchanged | NOT FIRED | pending |
 
 **LITERAL FIRED-COUNT: 0 of 5 legs ⇒ 🔴 holds.** Existing-home sales 3.75M October (NAR, issuer) is band and prediction evidence (HB-12, HOM-03 HIT), not a thesis-leg criterion. No criterion, level or confidence moved. Evidence: `reports/2026-11-12_wake.md`.
+
+### 2026-11-16 — pre-grade input check for the 11/20 formal grade (PROME relay of Will's word 20:56 ET; no criterion touched)
+
+No leg can reach its kill count before 11/20 (§7 V5), so there is **no early grade**. What each leg will be graded on:
+
+| Leg | Input the letter needs | In hand 11/16 | Lands before Fri 11/20? | Can it fire at 11/20? |
+|---|---|---|---|---|
+| **C1** | ICE First Look FC sales YoY and FC inventory YoY, 3 prints | ICE September: FC sales 8,200, +14% YoY; FC inventory 303K, +37% YoY (STATUS dashboard; Monitor revised starts) | ❌ October First Look ~11/23–30 (D11) — grade on Sept, say so | No (0 / 3; V5) |
+| **C2 · CMBS** | Trepp MF DQ < 6.00%, 3 prints | **8.09% October** (Trepp issuer PDF) | Nothing new (November data ~12/01–05) | No (0 / 3) |
+| **C2 · GSE** | max(Freddie, Fannie) < 0.50%, 3 prints; Fannie provision pairing | Freddie 0.58%, Fannie 0.62% (Sept); Fannie provision $446M vs $259M Q2 (rose) | ❌ October monthlies ~11/23–30 | No (0 / 3) |
+| **A1** | MBA NDS FHA SA QoQ ↓ ×2 AND ICE all-loans cure YoY better than −15% | Q2 FHA 11.79% (1 of 2 declines); cure YoY NOT PRINTED Oct + Nov editions | MBA Q3 NDS: expected ~11/13–14, **not found 11/16 evening** (one search + MBA Newslink tag page, which is stale; not proof of non-publication). Cure YoY: no edition before 11/20 | **No — the second conjunct is UNGRADED (D12).** A Q3 decline would make the first conjunct 2 of 2 and still not fire |
+| **A2** | PMMS ≤ 6.50% four straight weeks | 7.11% [11/12], 61bp above | ✅ PMMS Thu 11/19 | No (0 / 4; needs four weeks) |
+| **A3** | NAHB HMI ≥ 40, 3 prints | 29 (Oct) | ✅ November HMI Tue 11/17 10:00 ET | No (0 / 3) |
+
+**Expected outcome by the letter: 0 of 5 legs FIRED, 🔴 holds; A1 reported with its UNGRADED conjunct.** Owed at the grade: re-score the §8a handle (it was last scored 9/29), and HOM-02 if the Q3 NDS has printed. CARL (live, named consumer on DOCKET line 545) receives the result through NEXUS_BRIEF at closeout; a same-day packet is owed only on FALSIFIED or PARTIAL, which V5 rules out.
