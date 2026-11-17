@@ -219,12 +219,53 @@ def read_all(bucket):
     return out, defects
 
 
+DECIDED = ("HIT", "MISS", "PARTIAL", "NO-VERDICT", "ANNULLED", "RESOLVED-UNTYPED")
+
+
+def is_decided(b, status):
+    """Decided in a committed version. scorecard.bucket returns UNMAPPED, not None, for open-type statuses outside its
+    six open prefixes (STUCK, AT-RISK, FROZEN-PENDING, NEEDS_VERIFY ...); those are NOT decided. An UNMAPPED status counts
+    as decided only when its token begins RESOLVED."""
+    return b in DECIDED or (b == "UNMAPPED" and (status or "").strip().upper().startswith("RESOLVED"))
+
+
+def norm_text(x):
+    return re.sub(r"\s+", " ", (x or "").lower()).strip()
+
+
+def same_call(a, b):
+    """Two committed versions of one row ID are a DIFFERENT call only when the prediction text changes at its start
+    (word-sequence similarity of the first 12 words under 0.5) AND the probability or the Date_Made date changes with it.
+    Text alone is not enough: owners extend a row's wording, and replace a resolved row's text with an archive pointer.
+    A date alone is not enough: owners correct a mistyped Date_Made. Date_Made is used here only to tell calls apart."""
+    if not (a[6] and b[6]) or a[6] == b[6]:
+        return True
+    import difflib
+    wa, wb = re.findall(r"[a-z0-9]+", a[6])[:12], re.findall(r"[a-z0-9]+", b[6])[:12]   # words, not characters
+    if difflib.SequenceMatcher(None, wa, wb).ratio() >= .5:
+        return True
+    da, db = parse_iso(a[5]), parse_iso(b[5])
+    moved_date = bool(da and db and da != db)
+    moved_p = a[2] is not None and b[2] is not None and abs(a[2] - b[2]) >= .0015
+    return not (moved_date or moved_p)
+
+
+def current_call(versions):
+    """(the trailing run of versions that are the call scored today, True if earlier versions under the same ID were a different call)."""
+    i = len(versions) - 1
+    while i > 0 and same_call(versions[i - 1], versions[i]):
+        i -= 1
+    return versions[i:], i > 0
+
+
 def git(*a):
     return subprocess.run(("git", "-C", ROOT) + a, capture_output=True, text=True, errors="replace").stdout
 
 
 def file_history(path, sc, oc, bucket):
-    """{row id: [(commit time, ET date, probability, decided, oldest-was)]} over every committed version, following renames."""
+    """{row id: [(commit time, ET date, probability, decided, oldest-was, Date_Made cell, prediction text)]} over every
+    committed version, following renames. A version whose header has no status column or no confidence column
+    contributes nothing: no probability and no decided mark."""
     vers, cur = [], None
     # No --reverse: with --follow, git applies --reverse before following and returns the creation commit alone
     # (seen 2026-11-17: 1 commit of 49). Read newest first, then turn the list round.
@@ -251,14 +292,17 @@ def file_history(path, sc, oc, bucket):
             continue
         ist = col(hdr, sc, "status", "state"); iout = col(hdr, oc, "outcome", "result", "resolution")
         icf = col(hdr, "Confidence", "conf_tier", "conf", "prob"); ipr = col(hdr, "Prediction", "prediction")
+        imd = col(hdr, "Date_Made", "made", "Date")
+        if ist is None or icf is None:
+            continue
         day = dt.datetime.fromtimestamp(ct, ET).date()
         for c in rows:
             g = lambda i: c[i].strip() if i is not None and i < len(c) else ""
             rid = c[0].strip()
             if not rid:
                 continue
-            b = classify(g(ist), g(iout), bucket)[0] if ist is not None else None
-            h.setdefault(rid, []).append((ct, day, prob(g(icf), g(ipr)), b is not None, oldest_was(g(icf))))
+            b = classify(g(ist), g(iout), bucket)[0]
+            h.setdefault(rid, []).append((ct, day, prob(g(icf), g(ipr)), is_decided(b, g(ist)), oldest_was(g(icf)), g(imd), norm_text(g(ipr))))
     cat.stdin.close(); cat.wait()
     return h
 
@@ -280,7 +324,9 @@ def git_records(bucket):
 def timing(versions, p, resolved, outcome=""):
     """One class per scored row from its git record. Date_Made is not an input.
     versions: [(commit time, date, probability, decided, oldest-was)] oldest first; p: the probability the report scores with."""
-    out = {"cls": None, "first_record": None, "value_date": None, "known": None, "p0": None, "look": None}
+    out = {"cls": None, "first_record": None, "value_date": None, "known": None, "p0": None, "look": None, "restarted": False}
+    if versions and len(versions[0]) > 6:
+        versions, out["restarted"] = current_call(versions)
     if not versions:
         out["cls"] = "NO-GIT-RECORD"
         out["known"] = resolved
@@ -395,6 +441,10 @@ def render(rows, defects, rec=None, unread=None):
                 R = [r for r, t in fwd if t["cls"] == cls]
                 ids = "not listed" if cls == "BEFORE" else (", ".join(f"{r['desk']} {r['id']}" for r in R) or "none")
                 P.append(f"| {lab[cls]} | {len(R)} | {ids} |")
+            rst = [r for r, t in T if t["restarted"]]
+            P.append(f"\n**Row ID reused or call rewritten:** {len(rst)} scored row(s) carry an ID whose earlier committed versions were a different call (the prediction text changes at its start, together with the probability or the Date_Made date)"
+                     + (": " + ", ".join(f"{r['desk']} {r['id']}" for r in rst) if rst else "")
+                     + ". For these the record starts at the first version of the call scored today; the earlier call's dates and probabilities are not used.")
             look = [(r, t) for r, t in fwd if t["look"]]
             P.append(f"\n**LOOK, a prompt to read the row, not a verdict:** {len(look)} BEFORE row(s) whose outcome cell names a full date earlier than the value date"
                      + (": " + ", ".join(f"{r['desk']} {r['id']} ({t['look']} before {t['value_date']})" for r, t in look) if look else "")
@@ -453,9 +503,29 @@ def selftest():
     if oldest_was("5% [2026-07-23] (was 30% [2026-07-02]) (was 45% [2026-06-01])") != .45: bad.append("oldest_was")
     if full_dates("11/5/26, 2026-11-07, 10/31 and $3/4") != {D(5), D(7)}: bad.append(("full_dates", full_dates("11/5/26, 2026-11-07, 10/31 and $3/4")))
     if classify("RESOLVED", "HIT: printed", lambda x: {"RESOLVED": "RESOLVED-UNTYPED", "HIT: PRINTED": "HIT"}.get(x.upper())) != ("HIT", "outcome"): bad.append("classify")
+    W = lambda ct, day, p, dec, made, pred: (ct, D(day), p, dec, None, made, norm_text(pred))
+    reuse = [W(1, 1, .6, False, "2026-11-01", "OLD call: CPI above 3"), W(2, 12, .6, True, "2026-11-12", "NEW call: payrolls below 100k")]
+    t = timing(reuse, .6, D(10))
+    if t["cls"] != "BORN-DECIDED" or not t["restarted"] or t["p0"] != .6: bad.append(("reused ID must restart the record", t["cls"], t["restarted"]))
+    rew = [W(1, 1, .45, False, "2026-06-01", "Iran strikes a Gulf export terminal before July"), W(2, 3, .7, False, "2026-06-01", "Brent settles above 100 on any session before July"), W(3, 12, .7, True, "2026-06-01", "Brent settles above 100 on any session before July")]
+    t = timing(rew, .7, D(12))
+    if t["p0"] != .7 or not t["restarted"] or t["cls"] != "BEFORE": bad.append(("rewritten call: first-logged is the new call's", t["p0"], t["cls"]))
+    same = [W(1, 1, .6, False, "2026-11-01", "CPI above 3.0 pct in October"), W(2, 5, .6, False, "2026-11-01", "CPI above 3.0% in October (BLS, first print)"), W(3, 12, .6, True, "2026-11-01", "CPI above 3.0% in October (BLS, first print)")]
+    t = timing(same, .6, D(12))
+    if t["restarted"] or t["cls"] != "BEFORE" or t["first_record"] != D(1): bad.append(("a wording edit is the same call", t["restarted"], t["cls"]))
+    ptr = [W(1, 1, .7, False, "2026-10-01", "No net loss of Gulf-ally crude supply to market"), W(2, 6, .7, True, "2026-10-01", "RESOLVED HISTORY, complete immutable row at archive/snapshots")]
+    t = timing(ptr, .7, D(6))
+    if t["restarted"] or t["cls"] != "BEFORE": bad.append(("a resolved row's text replaced by a pointer is the same call", t["restarted"], t["cls"]))
+    fixd = [W(1, 1, .6, False, "2026-02-15", "JGB 30Y stays under 4.0% through Q1"), W(2, 5, .6, False, "2026-02-03", "JGB 30Y stays under 4.0% through Q1"), W(3, 12, .6, True, "2026-02-03", "JGB 30Y stays under 4.0% through Q1")]
+    if timing(fixd, .6, D(12))["restarted"]: bad.append("a corrected Date_Made alone is the same call")
+    for b, st, want in (("UNMAPPED", "STUCK", False), ("UNMAPPED", "AT-RISK", False), ("UNMAPPED", "RESOLVED-DENY", True), ("HIT", "HIT", True), (None, "OPEN", False), ("RESOLVED-UNTYPED", "RESOLVED", True)):
+        if is_decided(b, st) != want: bad.append(("is_decided", b, st))
+    stuck = [V(1, 1, .6, False), V(2, 3, .6, is_decided("UNMAPPED", "STUCK")), V(3, 10, .6, True)]
+    t = timing(stuck, .6, D(10))
+    if t["known"] != D(10) or t["cls"] != "BEFORE": bad.append(("a STUCK version is not decided", t["known"], t["cls"]))
     body = render([{"desk": "X", "id": "X-1", "bucket": "HIT", "p": .6, "basis": "status", "conf": "60%", "outcome": "", "resolved": None}], [], None, None)
     if "SKIPPED (--no-history)" not in body or "| BEFORE" in body: bad.append("A11 skipped history must say so")
-    print("selftest", "FAIL " + str(bad) if bad else "PASS", len(cases) + 3 + len(tc) + 7)
+    print("selftest", "FAIL " + str(bad) if bad else "PASS", len(cases) + 3 + len(tc) + 19)
     return 1 if bad else 0
 
 

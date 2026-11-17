@@ -1,6 +1,6 @@
 # Forecast scorer: timing that does not trust the call's own date, archived calls read, first-logged score shown
 
-Written before the edit, 2026-11-17 (session prome-19, desktop). DOCKET row dated 2026-11-18, "OUTSIDE AUDIT 2026-11-16, PROME'S OWN REPAIRS", items 1 to 3 (the audit's items 3, 4 and 5 in its forward form). `reads: 1` (read 1 commissioned 2026-11-17 on commit 6348385696; result under § Result when it returns).
+Written before the edit, 2026-11-17 (session prome-19, desktop). DOCKET row dated 2026-11-18, "OUTSIDE AUDIT 2026-11-16, PROME'S OWN REPAIRS", items 1 to 3 (the audit's items 3, 4 and 5 in its forward form). `reads: 2` (read 1 returned REJECT with 3 blocking; read 2, on the fix diff only, commissioned 2026-11-17 09:39 ET; § Result).
 
 ## The defects, in their own terms
 
@@ -51,3 +51,27 @@ Required result: selftest extended with A1 to A6, A8 and the overlap case on bui
 - **The history reader returned one commit per ledger.** `git log --follow --reverse` gives the creation commit alone (on this machine today, 1 commit of 49 for BROCK's ledger), so every row read NO-GIT-RECORD or was dated to the ledger's first commit. Fixed by reading newest first and reversing in the tool. The closed one-off `timing_check.py` makes the same call; it is not edited or re-run, and what that means for report 1's labels goes to Will as a caveat, not as a reopening.
 - **Live run at the implementing commit (6348385696), 2026-11-17:** 651 rows (596 before the repair), 272 scored (244 before); 55 archive rows read from 8 files, none double counted; 22 scored calls known after 2026-11-05, all BEFORE, 2 listed under LOOK (both cite older reference dates); first-logged Brier 0.241 against 0.223 scored on the same 272 calls, hit-rate baseline 0.249; 40 of 272 revised between first logging and scoring. Run time about 16 seconds over 44 ledger files and about 1,200 committed versions.
 - **Added for testing:** the environment variable `FORECAST_REPORT_ROOT` points the tool at a fixture repository. Unset, behaviour is unchanged (output compared byte for byte).
+
+## Result
+
+**Read 1** (Agent-tool helper `scorer-reader`, Opus, read-only, its own fixture repositories; ledger copied whole: `PROME/reports/2026-11-17_forecast-scorer-repair/LEDGER_read1.md`), on commit 6348385696: **REJECT, 3 blocking, 7 not blocking.** All three failed in the dangerous direction.
+
+| Blocking finding | What PROME changed |
+|---|---|
+| ❌1 Open-type statuses outside the scorecard's six open prefixes (STUCK, AT-RISK, FROZEN-PENDING, NEEDS_VERIFY ...) came back UNMAPPED and were counted as decided in the git record, pulling known dates early. On the live run CARL CRL-21 was put in report 1's closed population though its owner resolved it 2026-11-06. | `is_decided`: a committed version is decided only on HIT, MISS, PARTIAL, NO-VERDICT, ANNULLED, RESOLVED-UNTYPED, or an UNMAPPED status whose token begins RESOLVED. The forward table now holds 23 calls, not 22. |
+| ❌2 The git record was keyed by row ID alone, so a reused or rewritten ID merged two calls; a new call logged after its outcome under an old ID read BEFORE. Live: BRENT BRT-27 and BRT-28 (rewritten 2026-06-08), LABOR LAB-01 and LAB-02 (reused 2026-03-06). | `same_call` and `current_call`: the record restarts where the prediction text changes at its start (word-sequence similarity of the first 12 words under 0.5) together with the probability or the Date_Made date. Restarted rows are listed in the report. The live run lists exactly those four. |
+| ❌3 A version whose header had no status column still supplied a probability, against this file's own missing-information rule. | A version with no status column or no confidence column is skipped whole. |
+
+PROME's first form of the ❌2 fix (any Date_Made change, or character similarity under 0.5) was wrong in both directions and was caught by PROME's own new cases and a look at the live list before any read: it missed an unrelated rewrite, and it restarted 17 rows, among them a resolved row whose text the owner had replaced with an archive pointer (FALCON FAL-06, which then read BORN-DECIDED) and rows whose Date_Made had been corrected (SAM-04, BRK-03). The form above is the second.
+
+**After the fix, live run 2026-11-17:** selftest 40 of 40; 651 rows, 272 scored; 23 scored calls known after 2026-11-05, all BEFORE; 4 rows listed as reused or rewritten; first-logged Brier 0.241 against 0.223 scored, gain over the hit-rate baseline +0.008 first-logged and +0.027 scored; 38 of 272 revised.
+
+**Declared residue, 2026-11-17 (read 1's flags that are not fixed).**
+- A probability put back to an earlier value after the outcome reads BEFORE and counts as not revised (CARL CRL-03, 04, 07, 08, 09, 11, 16, 21 and BROCK BRK-22; each one the reader opened is a WQ-112 first-call restoration). The tool cannot tell a sanctioned restoration from another post-outcome edit.
+- One ID repeated inside a single file is counted twice (behaviour from before this repair).
+- The number of rows dropped as repeats across files is printed only as notes, never as a count, and nothing is printed when it is 0 (A9 asks for the number).
+- Dates are committer dates; a rebase can move one later. None of 1,024 ledger commits is affected today (the reader's count).
+- Report text a reader with no coding background could misread: the standing line "scored on the latest pre-outcome probability" is not true of restored rows; nothing says a lower Brier is better; nothing says a first-logged value can itself date from after the outcome; BORN-DECIDED is not explained. **These are settled before report 2 is issued** (DOCKET row).
+- The selftest has no built case for an ID in both a live and an archive file or for a row rotated into an archive; the reader ran both in a fixture and they pass.
+- The fixture recipe in PROME's brief was incomplete: a fixture also needs `scripts/orch_*.py` and the tool run from inside the fixture directory.
+- New with the ❌2 fix: a reused ID that keeps both the earlier call's probability and its Date_Made date is not detected; the 12-word window and the 0.5 threshold are PROME's choices, not measured.
