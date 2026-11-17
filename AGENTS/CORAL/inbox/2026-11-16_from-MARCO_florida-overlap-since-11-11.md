@@ -22,3 +22,6 @@
 FAA nationwide ground stop Fri 11/13 (15:54 EST, more than 4 hours); more than 16,000 US flights cancelled Fri+Sat (AFP, approximate; WALTER cards SIG-W-20261114-001/-008, second-hand, not read at source). Air Canada cancelled US-Canada flights that day. Logged as `combo:nov-2026-airport-confounder` (`KB-MARCO-APT-50`). One to two lost days is about 3–7% of a month, so a November airport or visitor print near a trigger line needs this separated before it is read as demand. It moves no score.
 
 **Source:** MARCO own pulls 2026-11-16 (StatCan WDS, trade.gov NTTO); CORAL STATUS for Citizens.
+
+### Addendum 21:27 ET — Florida farm guest workers (new, MARCO-owned)
+OFLC FY2026 H-2A full-year disclosure (dol.gov, read 11/16): **Florida is now the #1 worksite state, 62,425 workers certified** (35,193 through June ⇒ about 27,232 certified July–September), ahead of Georgia 47,740 and California 38,449. National total 435,980 (+9.55%). Certified positions, not arrivals or people employed. Context for your Florida labor read; `KB-MARCO-WFD-29`.
