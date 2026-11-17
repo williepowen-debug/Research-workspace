@@ -1,6 +1,6 @@
 # BROCK catch-ups — INDEX
 
-**CURRENT:** `catchups/2026-11-17.md` (prome-19 due-row wake: D:L1139 GRADED — CRMT THIRTEENTH BRIDGE to Wed 11/18, KB-BRK-501 · D:L1099 backstop #8 FINAL EMPTY, KB-BRK-502 · CABO skipped ~$10M coupon 11/16 with ~$675M cash, NYSE notice, KB-BRK-503 · D:L1071 PIMCO 10-Q read, Mackenzie not named, KB-BRK-504 · BRK-36 held for AMC; no score change).
+**CURRENT:** `catchups/2026-11-17.md` (prome-19 due-row wake: D:L1139 GRADED — CRMT THIRTEENTH BRIDGE to Wed 11/18, KB-BRK-501 · D:L1099 backstop #8 FINAL EMPTY, KB-BRK-502 · CABO skipped ~$10M coupon 11/16 with ~$675M cash, NYSE notice, KB-BRK-503 · D:L1071 PIMCO 10-Q read, Mackenzie not named, KB-BRK-504 · afternoon: CABO cash is revolver-borrowed, KB-BRK-506 · exposure chain CABO/CRMT, no listed holder above 0.65% of NAV, KB-BRK-507 to 509 · Fed FSR at primary, KB-BRK-510/511 · 14:27 file sweep: WALTER 017/018, KB-BRK-512, 20 CATALYSTS rows prefixed · BRK-36 held for AMC; no score change).
 
 **Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 
