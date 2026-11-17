@@ -1,0 +1,28 @@
+matched banks with positive equity and securities lines both quarters: 4257
+
+1. Matched-bank comparison (same institutions)
+  6/30: median pretax 6.8%; >=20% after tax 613 (14.4%); >=20% pretax 861
+  9/30: median pretax 11.5%; >=20% after tax 1113 (26.1%); >=20% pretax 1405
+  banks whose ratio rose: 4013 of 4257 (94.3%); entered >=20%: 505; left: 5
+
+2. AFS versus HTM (matched banks; after-tax share of GAAP equity 3210)
+  6/30: median AFS 4.5%, median HTM 0.0%; banks reporting any HTM mark 1332; of 613 at >=20% total: AFS alone >=20% 521, HTM alone >=20% 49, need both 49; system pretax AFS $108.7B, HTM $216.0B (HTM share 67%)
+  9/30: median AFS 7.6%, median HTM 0.0%; banks reporting any HTM mark 1347; of 1113 at >=20% total: AFS alone >=20% 941, HTM alone >=20% 102, need both 95; system pretax AFS $190.1B, HTM $295.5B (HTM share 61%)
+  6/30: total after tax / (equity + after-tax AFS loss added back): median 5.2%; >=20% 445 of 4256
+  9/30: total after tax / (equity + after-tax AFS loss added back): median 8.4%; >=20% 865 of 4257
+
+3. Aggregate dollars (matched banks, pretax)
+  6/30: unrealized loss $324.7B; equity $2,623.8B; aggregate ratio 12.4%
+  9/30: unrealized loss $485.7B; equity $2,579.3B; aggregate ratio 18.8%
+  6/30 banks under $10B assets (n=4100): loss $38.9B, ratio 9.6%
+  9/30 banks under $10B assets (n=4100): loss $59.1B, ratio 14.7%
+
+4. Rough rate attribution (duration PROXY, stated buckets; hedges, spreads, purchases and sales not modelled)
+  6/30 book x 10Y +85bp: predicted $229.9B vs actual change $161.0B (70% of the proxy)
+  6/30 book x 5Y +90bp: predicted $243.4B vs actual change $161.0B (66% of the proxy)
+
+5. Measures B and D on 6/30 (all 6/30 filers, as in the first run)
+  B 6/30 +100bp shock loss alone >=20% of equity: 492 of 4296
+  B 6/30 +200bp shock loss alone >=20% of equity: 1546 of 4296
+  B 6/30 +300bp shock loss alone >=20% of equity: 2214 of 4296
+  D 6/30 after-tax loss >=20% of CET1: 456 of 4274; of those AOCI opt-out = 1: 455

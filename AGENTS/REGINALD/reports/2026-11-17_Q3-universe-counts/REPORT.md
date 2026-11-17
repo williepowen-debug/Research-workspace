@@ -23,32 +23,45 @@ Script `universe_counts.py` (this folder), output `output.txt`. Values in $ thou
 
 Still absent from the Q3 frame, 11 filers: Raymond James and TFS (September fiscal years), Stifel, Webster, United Community, Consumers, Timberland, Home Federal of Louisiana, First Seacoast, Gouverneur, Monroe Federal. The large ones filed 10-Qs, so their absence is a tagging or frame-selection question, not a missing filing (not chased). **Reading unchanged: borrowing growth is concentrated, not broad; no breadth-supported escalation.** The 11/16 report's −0.4% YTD median is superseded by 0.0% on a three-filer-larger panel; both are "flat".
 
-## 3. (a) The Friedberg "95 of 4,295" test: no candidate measure reproduces it
+## 3. (a) The Friedberg "95 of 4,295" test: none of the four measures reproduces it on 6/30
 
-The claim surfaced 10/13, when 6/30 was the newest universe, so the identification test is on 6/30 (Q1 → Q2 for C). Q3 is shown beside it.
+The claim surfaced 10/13, when 6/30 was the newest universe, so the identification test is on 6/30 (Q1 → Q2 for C). Q3 is shown beside it. *(B and D were first run on 9/30 only; their 6/30 counts were added 11/17 13:4x from `review_checks.py`, §7.)*
 
 | Measure | 6/30 (the claim's quarter) | 9/30 |
 |---|---|---|
 | A. Existing unrealized securities loss ≥ 20% of GAAP equity, pretax / after 21% tax | **872 / 622** of 4,296 (20.3% / 14.5%) | 1,405 / 1,113 of 4,263 (33.0% / 26.1%) |
 | A on tangible equity (3210 − 2143), pretax / after tax | 912 / 665 **of 4,295** | 1,480 / 1,184 of 4,263 |
-| B. Additional loss from a parallel shock alone ≥ 20% of equity (duration PROXY) | not run on 6/30 | +100bp 539 (12.6%) · +200bp 1,518 (35.6%) · +300bp 2,169 (50.9%) |
+| B. Additional loss from a parallel shock alone ≥ 20% of equity (duration PROXY) | +100bp **492** · +200bp 1,546 · +300bp 2,214 of 4,296 | +100bp 539 (12.6%) · +200bp 1,518 (35.6%) · +300bp 2,169 (50.9%) |
 | C. Actual equity decline ≥ 20% in the quarter | **8** of 4,290 (Q1 → Q2) | **109** of 4,260 (2.56%; Q2 → Q3) |
-| D. A (after tax) ≥ 20% of CET1 | not run on 6/30 | 887 of 4,245; **all 887 have opted out of AOCI in capital**, so for them it is not a regulatory capital loss unless sold |
+| D. A (after tax) ≥ 20% of CET1 | **456** of 4,274 (455 opted out of AOCI) | 887 of 4,245; **all 887 have opted out of AOCI in capital**, so the AFS mark is excluded from their regulatory capital (it is still in their GAAP equity, §4) |
 
-**Verdict: UNIDENTIFIED.** The population matches: 4,295 is exactly the 6/30 count of filers with positive tangible equity. No 6/30 count comes near 95 (A gives 622–912, C gives 8). The closest number anywhere is C on Q3 (109 of 4,260, 2.6% vs the claim's 2.2%), a quarter **after** the claim was made. The primary statement is still SEARCH-NOT-FOUND (11/01 report §4). The claim stays unauthenticated and is not cited.
+**Verdict: UNIDENTIFIED.** The population matches: 4,295 is exactly the 6/30 count of filers with positive tangible equity. No 6/30 count comes near 95 (A 622–912, B 492–2,214, C 8, D 456). This covers my four candidate definitions only; a definition I did not think of could still give 95. The closest number anywhere is C on Q3 (109 of 4,260, 2.6% vs the claim's 2.2%), a quarter **after** the claim was made. The primary statement is still SEARCH-NOT-FOUND (11/01 report §4). The claim stays unauthenticated and is not cited.
 B uses stated bucket durations (RC-B Memo 2; script `DUR`), not measured ones; hedges are invisible in Call Report securities lines, so A, B and D overstate for hedged banks.
 
 **What the 109 Q3 equity drops are:** for 93 of them, the largest driver was other comprehensive income (bond losses), 8 a net loss, 6 dividends, 2 other. The biggest by prior equity are mostly trust and specialty charters: Ameriprise Bank −37.0% ($1,489M → $938M), United Fidelity −40.3% (known Q3 loss), First American Trust −41.7%, TIAA Trust −31.9%, Goldman Sachs Trust −36.9%, CB&S Bank −25.7%, Solera −24.9%, Titan −34.4%. None of my 14.
 
-## 4. ★ The finding the test turned up: Q3 bond losses jumped across the whole system
+## 4. ★ The finding the test turned up: Q3 bond losses widened across the whole system
 
 | | 6/30 | 9/30 |
 |---|---:|---:|
-| Median bank: unrealized securities loss / equity, pretax | 6.8% | **11.5%** |
-| Banks at ≥ 20% of equity, after tax | 622 (14.5%) | **1,113 (26.1%)** |
+| Median bank: unrealized securities loss / equity, pretax | 6.8% | **11.5%** (×1.7) |
+| Banks at ≥ 20% of equity, after tax | 622 (14.5%) | **1,113 (26.1%)** (×1.8) |
+| Same 4,257 banks in both quarters: ≥ 20% after tax | 613 (14.4%) | 1,113 (26.1%); 505 crossed in, 5 out; the ratio rose at 4,013 (94%) |
+| System unrealized loss, same 4,257 banks, pretax | $324.7B (12.4% of equity) | **$485.7B (18.8%)** (+50%) |
+| of which available-for-sale (already in GAAP equity) / held-to-maturity (disclosed, not in book equity) | $108.7B / $216.0B | $190.1B / $295.5B |
 | 10Y / 5Y Treasury | 4.44 / 4.19 | 5.29 / 5.09 |
 
-The 85–90bp rise in Q3 yields roughly doubled bank bond losses relative to equity, and it hit about one bank in four at ≥ 20% after tax. This is **broad, not concentrated**, the opposite shape to the credit evidence that holds my live claim (severity concentrated). It is the rate channel STATUS already names ("rates move regionals"; SBCF's ~$1.63 of TBV per share to AOCI), now measured on the whole population. **Limits:** it is a mark, not a cash loss; 4,205 of 4,245 CET1 reporters have opted out, so capital ratios mostly do not see it; it becomes a loss only if a bank must sell (deposit outflow), which is the 2023 mechanism; hedges unmeasured. **Since 9/30:** the 10Y was 4.98 [11/10] and ~5.1 intraday today, so part of the Q3 mark has reversed in Q4 to date. Standing caveat holds: my credit instruments cannot see this; this count does, once a quarter.
+In Q3 the burden of unrealized securities losses relative to equity widened across banks: the median ratio rose about 1.7 times, nearly twice as many banks crossed the 20% after-tax line, and the system's dollar loss rose 50%. It did **not** double in dollars. The result holds on the same banks in both quarters. This is **broad, not concentrated**, the opposite shape to the credit evidence that holds my live claim (severity concentrated). It is the rate channel STATUS already names ("rates move regionals"; SBCF's ~$1.63 of TBV per share to AOCI), now measured on the whole population. **Cause:** the 85–90bp rise in yields is the likely main driver. My rough duration proxy says that move alone would cost about $230–243B on the 6/30 books, against the actual $161B change, so it is large enough to explain the change. The script does not separate it from portfolio changes, spreads or hedges (§7).
+
+**What kind of loss it is (corrected 11/17 13:4x; the first wording, "it becomes a loss only if a bank must sell", was wrong for AFS):**
+- **AFS** securities are carried at fair value. Their unrealized losses already reduce GAAP equity and tangible book through AOCI, with no sale needed.
+- **HTM** securities are carried at amortized cost. Their market-value loss is disclosed but not in book equity. It reaches equity only on a sale or transfer, or through a credit-loss allowance.
+- The AOCI **opt-out** (4,205 of 4,245 CET1 reporters) keeps the AFS mark out of **regulatory capital** ratios. It does not undo the cut to GAAP equity.
+- **At the median bank the burden is AFS**: median HTM is 0.0% (only 1,347 of 4,257 banks report any HTM mark). Of the 1,113 banks at ≥ 20%, 941 cross on AFS alone, so for most of them the cut is already in book equity. **In system dollars HTM is the larger part** (61%), held mostly by large banks, and that part is not in book equity.
+- A **sale** turns either kind into a realized loss through income. For AFS, that moves it from AOCI into retained earnings and, for opt-out banks, into regulatory capital. For HTM, it reaches equity for the first time. Forced selling after deposit outflows (2023) is the liquidity route; I see no deposit event now.
+- Hedges unmeasured.
+
+So this measures a broad, real hit to book value and a vulnerability if banks had to sell. By itself it is not evidence of a liquidity crisis. **Since 9/30:** the 10Y was 4.98 [11/10] and ~5.1 intraday today, so part of the Q3 mark has reversed in Q4 to date. Standing caveat holds: my credit instruments cannot see this; this count does, once a quarter.
 
 ## 5. (e) Modifications up while 30–89 past due down: not broadening
 
@@ -63,4 +76,19 @@ The "cure by modification" shape (VLY's) fell from 8.8% to 6.1% of banks. In agg
 
 - KB rows ML-REG-307 (the Q3 bond-loss breadth) and ML-REG-308 (the (e) count). No score, band, threshold or prediction moved.
 - TERRY: tradeability read of §4 in the WQ-696 form, packet same session.
-- Not reached: 10-Q hedge disclosures for the flagged names; the Q4-to-date mark (needs a rate-path estimate, not a filing); measure B on 6/30.
+- Not reached: 10-Q hedge disclosures for the flagged names; the Q4-to-date mark (needs a rate-path estimate, not a filing).
+
+## 7. Follow-up checks after review (11/17 13:4x ET, Will passed on his reviewer CATO's read)
+
+The reviewer raised three wording errors and asked for two checks. I accept all three. Script `review_checks.py`, output `review_checks_output.txt` (this folder), on the same downloaded files.
+
+| Reviewer point | Verified? | Result |
+|---|---|---|
+| "Becomes a loss only if a bank must sell" is wrong for AFS | **Yes** | Corrected in §4 (AFS already reduces GAAP equity via AOCI; the opt-out affects only regulatory capital; HTM is disclosed and not in book). The same wording was in KB ML-REG-307, STATUS, NEXUS_BRIEF and the TERRY packet; all corrected 11/17, TERRY by a correction packet |
+| "Roughly doubled" overstates | **Yes** | Median ×1.69, count ×1.79, system dollars ×1.50. Now "widened; nearly twice as many banks over 20%" |
+| Friedberg verdict claimed more tests than were run on 6/30 | **Yes** | B and D are now run on 6/30 (492–2,214; 456). None is near 95, so the verdict stands, now on all four measures |
+| Check 1: same banks both quarters | Run | 4,257 matched: 613 → 1,113 at ≥ 20% after tax; median 6.8% → 11.5%; ratio up at 94% of banks. **Unchanged conclusion** |
+| Check 2: AFS vs HTM | Run | §4 bullets. A cleaner basis that adds the after-tax AFS loss back to equity (so the denominator does not already net it) gives 445 → 865 banks at ≥ 20% and a median of 5.2% → 8.4%. **The pattern holds** |
+| Rates as cause not isolated | Partly addressed | Duration proxy × 85–90bp = $230–243B vs actual +$161B (66–70% of the proxy). Rates are large enough to explain it; the proxy uses assumed durations, ignores convexity and hedges, and is not an attribution |
+
+Banks under $10B in assets (n 4,100): $38.9B → $59.1B, ratio 9.6% → 14.7%, the same shape as the system.
