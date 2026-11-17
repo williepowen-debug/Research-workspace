@@ -37,6 +37,8 @@ Boot PARTIAL (walter-15, desktop):
 
 **Post-closeout leg 2 (17:27Z, Will's ask):** bookmark reader confirmed working; 1 new bookmark carded as SIG-W-20261117-011 (CNN: NSA Net down, no evidence of cyberattack; six-outage list checked, AWS 11/15 unverified), pushed 490246429a. PROME woke CYPHER (cypher-b3, 12:28 ET) on 008 and 011; OSPREY, HANS and YURI registered for Wed 11/18.
 
+**Post-closeout leg 3 (17:43Z to 18:20Z):** CYPHER graded 008/011, correction 012 (COR-20261117-12; AWS 11/15 confirmed). Collector run 44145198548 on Will's word (13:11 ET), ce689da 18:14Z; cards 013 (IMMEDIATE, Huang return-offer titles, VULCAN), 014 (Fed FSR 11/13, BROCK; four days late), 015 (Iran plot title, Kataib Hezbollah, FALCON), 016 small items; BM-20261117-02 303/303; lane marked. Bright Data question open with Will (explained in session; no ruling yet).
+
 ## RESULT
 
 Three IMMEDIATE cards: 001 Iran (FALCON's grades plus the Qeshm claim), 004 October retail sales and import prices (released 08:30, uncarded until 11:52 ET because no WALTER session ran), 007 US chip curbs and China's countermeasure threat before Nvidia's results. Cyber: 008 Optimizely compromise across 178 organizations.
