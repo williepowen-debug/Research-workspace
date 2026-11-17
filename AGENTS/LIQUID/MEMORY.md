@@ -2,14 +2,20 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-16T10:07 ET closed 2026-11-16T10:15:38-05:00 (PROME prome-6f due-row wake, WQ-184, D:L1149, desktop, Claude Code / Opus 5.5; closed on PROME's ask, D:L1149 RESOLVED)
+### CURRENT SESSION — 2026-11-17T09:31 ET, closed 2026-11-17T10:54:02-05:00 (PROME prome-19 task 703, Will "703 yes" 09:30 ET, laptop, Claude Code / Opus 5.5; launch task line was empty, task arrived by cross-session message; closed on PROME's ask)
+
+- **Context:** outside-audit items (re-kill tests, signal use), Cable One for my series, November 16 HY cell, funding-microstructure leg status, inbox drain, stale KB rows (Will 11/16 23:16 ET).
+- **Delivered:** re-kill tests: fixtures wrong (July 3 2026 is a bond holiday the 11/10 D:L342 fix drops), watcher right, dates +7 days, 20 of 20 OK, no reading affected. November 16 first-published HY 334 (+11), IG 90 ⇒ >320 run 2 of 3; tiers BBB 112, BB 196 (+10), B 357 (+13), CCC 1,310 (−6) ⇒ tier rule BROADENS (daily clause); REKILL 0 of 2; 069 L1 and L4 NOT FIRED; 072 NOT FIRED. Cable One 0.160% of XCCC, no gate touched. OFR repo volumes reachable (KB-LIQ-162), coverage only. KB: 58 retired, 15 kept. Inbox 4 of 4. Commits 3f8693dcce, 33247b549b. → `research/2026-11-17_prome-703/REPORT.md`.
+- **Open:** November 17 cell (>320 MET if above 320.0; first cell that can show Cable One). `gate069_legs.py` read the November 13 BB at 10:51 ET while the first-published 11/16 row existed (likely feed lag; not chased).
+
+### PRIOR SESSION — 2026-11-16T10:07 ET closed 2026-11-16T10:15:38-05:00 (PROME prome-6f due-row wake, WQ-184, D:L1149, desktop, Claude Code / Opus 5.5; closed on PROME's ask, D:L1149 RESOLVED)
 
 - **Context:** correct and narrow the 11/14 IG tech yield read (CATO N14-2); grade my lines on the November 13 HY cell; packet TERRY the first-published cell; drain inbox (1 packet, WALTER 009/010).
 - **Delivered:** HY 323 [11/13, first-published, 10:09 ET] ⇒ >320 run 1 of 3 (earliest MET November 17 cell); re-kill 0 of 2; REG-T-04 witness 0 of 3; tier rule CONTINUES (B +5, CCC +2, upper tiers flat). 076 unchanged NOT MET 1 of 3, W1 as-of 11/10 not in CFTC API (holiday week). N14-2 applied in REPORT, STATUS, NEXUS_BRIEF, KB-LIQ-153, MEMORY. CoreWeave $4B plan graded against DDTL 4.0 (S+225, A3): NOT SHOWN stands. → `research/2026-11-16_due-row/REPORT.md`.
 - **Open:** W1 as-of 11/10 (likely today 15:30 ET); November 16 cell about 10:10 ET 11/17; CoreWeave loan terms when they print.
 - **Defect (PROME caught at consumption):** my PROME packet lost "$4B" and "$8.5B" to an unquoted heredoc (shipped "at least B", "(.5B"); PROME recorded the correct figures on D:L1149; filed packet not edited. TERRY packet, REPORT, STATUS, KB intact (grep 11/16). Fleet memory instance appended.
 
-### PRIOR SESSION — 2026-11-14T11:25 ET, closed 2026-11-14T11:35:28-05:00 (PROME prome-fe, C9 research commission WQ-538 A, card SIG-W-20261114-007 item 1, Saturday, desktop, Claude Code / Opus 5.5)
+### EARLIER SESSION — 2026-11-14T11:25 ET, closed 2026-11-14T11:35:28-05:00 (PROME prome-fe, C9 research commission WQ-538 A, card SIG-W-20261114-007 item 1, Saturday, desktop, Claude Code / Opus 5.5)
 
 - **Context:** Will's bookmark of a Bloomberg chart, IG tech bond yield about 6.1%, "highest since 2009": split spread from Treasuries; set it against the financing-constraint question; drain both inbox lanes.
 - **Delivered (corrected 11/16, CATO N14-2: broad index only, approximate; tech split unmeasured; Oracle 2031 note 4 bp wide of pricing):** about 95% Treasuries (broad ICE IG +114 bp over the year, spread +6, 83 to 89 [11/12]; 10Y 5.10% highest since July 2007, 5.15% par 11/13; broad IG 2026 high still October 5, 6.03%). State Street marks [11/12]: Amazon, Alphabet, Meta, Microsoft at or inside non-tech to 10y, Oracle +149 to +213; Oracle new notes below reoffer mostly on rates, three inside pricing, 2031 4 bp wider. Financing constraint NOT SHOWN; no gate graded. KB-LIQ-153/157 appended, KB-LIQ-161 (method). Nine inbox items drained; WQ-678 B 16 of 17 trims applied. PROME packet 07b10c3cb5, verified and filed by PROME; TERRY gets it for Monday. → `research/2026-11-14_ig-tech-yield/REPORT.md`.
