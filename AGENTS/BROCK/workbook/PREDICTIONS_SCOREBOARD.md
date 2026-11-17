@@ -1,16 +1,20 @@
 # BROCK Predictions Scoreboard
 
-**Updated:** 2026-11-16 10:17 ET — RE-SCORED on BRK-11 RESOLVED-TRUE (n=16; recomputed by BROCK from the per-row Brier terms of both ledgers, reproducing the 10/30 n=15 sums 2.160 + 1.655 exactly). Prior header (10/30): RE-SCORED on all 15 resolved predictions (DAEDALUS profile refresh item 2). **The 7/09 calibration read below is SUPERSEDED: its sign has flipped.** Resolved rows through 7/09 live in `PREDICTIONS_ARCHIVE.tsv`; later resolutions (BRK-02, 10, 11, 22, 27, 30) stay in place in `PREDICTIONS.tsv` (the archive move is retired, not owed). Update this file at every resolution (closeout 7a).
+**Updated:** 2026-11-17 16:08 ET — RE-SCORED on BRK-36 RESOLVED-TRUE (n=17; since-7/09 sum 1.655 + 0.2025 (BRK-11) + 0.360 (BRK-36) = 2.2175; all 2.160 + 2.2175 = 4.3775). Prior header (11/16): RE-SCORED on BRK-11 RESOLVED-TRUE (n=16; recomputed by BROCK from the per-row Brier terms of both ledgers, reproducing the 10/30 n=15 sums 2.160 + 1.655 exactly). Prior header (10/30): RE-SCORED on all 15 resolved predictions (DAEDALUS profile refresh item 2). **The 7/09 calibration read below is SUPERSEDED: its sign has flipped.** Resolved rows through 7/09 live in `PREDICTIONS_ARCHIVE.tsv`; later resolutions (BRK-02, 10, 11, 22, 27, 30) stay in place in `PREDICTIONS.tsv` (the archive move is retired, not owed). Update this file at every resolution (closeout 7a).
 
-## SCORE — CURRENT (n=16, 2026-11-16)
+## SCORE — CURRENT (n=17, 2026-11-17)
 
 | Set | Came true | Brier (mean) | Baseline |
 |---|---|---|---|
-| **All resolved (n=16)** | **9 / 16 = 56%** | **0.251** | 0.25 (coin-flip) |
+| **All resolved (n=17)** | **10 / 17 = 59%** | **0.2575** | 0.25 (coin-flip) |
 | Through 7/09 (n=10) | 7 / 10 = 70% | 0.216 | 0.25 |
-| Since 7/09 (n=6) | 2 / 6 = 33% | 0.310 | 0.25 |
+| Since 7/09 (n=7) | 3 / 7 = 43% | 0.317 | 0.25 |
 
-**Since 7/09:** BRK-27 FALSE-on-letter (60%) · BRK-30 TRUE (65%, calibration ≈0, LESSONS #32) · BRK-02 FALSE (75%) · BRK-22 FALSE (60%) · BRK-10 FALSE (50%) · **BRK-11 TRUE (55%, graded 11/16; calibration ≈0: the condition PRE-EXISTED the forecast — ICMB 149.5% at 12/31/2025, public 3/31/2026; KB-BRK-493/494, LESSONS #44).** All four misses were bearish calls at ≥50%.
+**What the n=17 move means (11/17):** BRK-36 (Golub 9/30 NAV ≤$14.17, 40%) came TRUE at $14.00 (KB-BRK-513). It is the first hit since 7/09 on a call that was live when made (the figure was not public at registration 11/05), but I had priced it below even odds, so the Brier term is 0.36 and the overall mean worsens 0.251 → 0.2575. Live-when-made record since 7/09: 1 of 5. Within those, the four misses were bearish calls at ≥50% and the hit was a bearish call at 40%: with n=5, no confidence adjustment is supported in either direction.
+
+*n=16 read (11/16), kept as history:*
+
+**Since 7/09:** **BRK-36 TRUE (40%, graded 11/17, live call)** · BRK-27 FALSE-on-letter (60%) · BRK-30 TRUE (65%, calibration ≈0, LESSONS #32) · BRK-02 FALSE (75%) · BRK-22 FALSE (60%) · BRK-10 FALSE (50%) · **BRK-11 TRUE (55%, graded 11/16; calibration ≈0: the condition PRE-EXISTED the forecast — ICMB 149.5% at 12/31/2025, public 3/31/2026; KB-BRK-493/494, LESSONS #44).** All four misses were bearish calls at ≥50%.
 
 **What the n=16 move means:** the overall Brier goes 0.254 → 0.251 on a hit that carries no forecasting skill. **Read it as unchanged.** Both TRUEs since 7/09 were already true when registered, so the honest since-7/09 skill record is 0 of 4 on calls that were live when made.
 
