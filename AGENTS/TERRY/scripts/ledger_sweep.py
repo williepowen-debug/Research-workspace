@@ -786,7 +786,21 @@ FUTURE_EVENT_WORDS = (
     "obligation", "grades on", "will grade", "before the close", "at the close",
     "upcoming", "eta ", "no earlier",
 )
-TIME_RE = re.compile(r"\b([01]?\d|2[0-3]):([0-5]\d)\b")
+# ISO-seconds repair (DAEDALUS 2026-11-16, PROME packet of that date, Will's 13:45 ET
+# word on the examination list): the old `\b..\b` form could not start after the
+# ISO "T" (no word boundary between "T" and "20"), so in "2026-11-16T20:22:46" it
+# matched the MINUTES:SECONDS pair and read 20:22 as 22:46 -- a false future stamp
+# that blocked clean closeouts. Now: a start right after "<digit>T" is allowed, a
+# start right after a word character or ":" is not (so ":46" is never an hour), and
+# the end refuses a following word character as `\b` did ("12:30ET" stays unmatched).
+TIME_RE = re.compile(r"(?:(?<=\dT)|(?<![\w:]))([01]?\d|2[0-3]):([0-5]\d)(?!\w)")
+# An ISO stamp carrying an explicit zone ("...T16:20:05Z", "+00:00", "-05:00") is not
+# compared with the local clock; it is skipped rather than misread. Applied ONLY right
+# after an ISO "T": a spaced range such as "12:20-12:45" must not read "-12:45" as an
+# offset (independent review 2026-11-16 found that false negative). Residue, stated:
+# local-offset ISO stamps (TERRY's board_log "...T13:45:58-05:00") stay unchecked by
+# E; the old regex never checked them correctly either.
+ZONE_AFTER_RE = re.compile(r"(?::[0-5]\d(?:\.\d+)?)?(?:Z|[+-][01]\d:?[0-5]\d)(?![\w])")
 STAMP_SKEW_TOLERANCE_MIN = 2  # a stamp may trail write-lag by a minute or two
 
 # ★ THE STRUCTURAL RULE THAT REPLACED A KEYWORD BLACKLIST.
@@ -831,6 +845,8 @@ def check_future_stamps(surfaces: dict[str, str], now: datetime) -> list[str]:
             for tm in TIME_RE.finditer(line):
                 if not any(0 <= tm.start() - de <= STAMP_ADJACENCY_CHARS for de in date_ends):
                     continue  # a time floating elsewhere in the line is not this date's stamp
+                if line[tm.start() - 1:tm.start()] == "T" and ZONE_AFTER_RE.match(line, tm.end()):
+                    continue  # explicit UTC/offset stamp: not on the local clock (see ZONE_AFTER_RE)
                 h, m = tm.group(1), tm.group(2)
                 if int(h) * 60 + int(m) > cutoff:
                     findings.append(
@@ -1436,6 +1452,27 @@ def selftest() -> int:
            f"TERRY - BRENT's gate, on the close ~16:15. Chain pulled {_d} 11:34."}, _now) == [])
     ok("adjacency is what does the work: same line, time moved NEXT TO the date, fires",
        len(check_future_stamps({"S": f"Chain pulled {_d} 16:15 ET"}, _now)) == 1)
+
+    # -------- check E ISO-seconds repair (DAEDALUS 2026-11-16). The founding defect:
+    # "T20:22:46" was read as 22:46, because the old regex could not start after "T"
+    # and so matched the minutes:seconds pair.
+    ok("★★ NO FP: an ISO stamp WITH SECONDS in the past is silent (was read as MM:SS)",
+       check_future_stamps({"S": f"**Updated:** {_d}T11:22:46 ET"}, _now) == [])
+    _iso = check_future_stamps({"S": f"**Updated:** {_d}T12:20:05 ET"}, _now)
+    ok("★ an ISO stamp WITH SECONDS in the future fires, and reports the HOUR:MINUTE",
+       len(_iso) == 1 and "reads 12:20" in _iso[0])
+    ok("an ISO stamp without seconds is read the same way",
+       len(check_future_stamps({"S": f"**Updated:** {_d}T12:20 ET"}, _now)) == 1)
+    ok("a plain spaced stamp with seconds is read as HH:MM, not MM:SS",
+       check_future_stamps({"S": f"**Updated:** {_d} 11:22:46 ET"}, _now) == [])
+    ok("an explicit-zone ISO stamp (UTC 'Z') is skipped, not compared to the local clock",
+       check_future_stamps({"S": f"**Updated:** {_d}T16:20:05Z"}, _now) == [])
+    ok("an explicit-offset ISO stamp ('+00:00') is skipped likewise",
+       check_future_stamps({"S": f"**Updated:** {_d}T16:20:05+00:00"}, _now) == [])
+    ok("★ a spaced range start still fires: '-12:45' is a range end, not a zone offset",
+       len(check_future_stamps({"S": f"**Updated:** {_d} Tue **12:20-12:45 ET**"}, _now)) == 1)
+    ok("a time glued to letters stays unmatched, as before ('12:30ET')",
+       check_future_stamps({"S": f"**Updated:** {_d} 12:30ET"}, _now) == [])
 
     # -------- check H: contract count (added 2026-08-19) — the doctored pre-fix
     # state IS the test: these are the verbatim strings that stood on the live
