@@ -1,4 +1,5 @@
 # GATE-LIQ-079 calendar-EXCLUDED business days (DAEDALUS ask #5, owner-encoded 2026-09-29). Rule = the letter's own: ±2 business days (SOFR publication days) of each month-end (quarter-ends are month-ends) and of Apr-15 (next business day if Apr-15 is not one). Business day = a day the NY Fed publishes SOFR; holidays = Federal Reserve holidays (Sat holidays NOT moved to Fri, so 2027-06-18 is a business day). Every date NOT listed here in the window is NON-CALENDAR. Extend before 2027-06-30 (review_by carries it).
+# Cadence: SCHEDULED next_due=2027-06-01 — a rule-derived calendar computed through 2027-06-30, not observed data; its data clock is old on purpose and nothing is refreshable until the extension (line 1). Last attention check: 2026-11-16 (PROME stale-ledger packet 11/16; horizon confirmed to 2027-06-30).
 date	weekday	anchor
 2026-09-28	Mon	month-end 2026-09-30
 2026-09-29	Tue	month-end 2026-09-30
