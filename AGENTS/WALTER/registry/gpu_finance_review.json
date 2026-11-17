@@ -171,6 +171,204 @@
         "2026-11-17"
       ],
       "closed": "2026-11-17T16:55:39Z"
+    },
+    "gpu:21548eeb9f9e": {
+      "title": "Michael Burry Says Nvidia’s Biggest Problem Isn’t Jensen Huang - 24/7 Wall St.",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-013",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:30Z"
+    },
+    "gpu:fa33917e94be": {
+      "title": "Weekly Recap: Q3 income growth, wider losses and $4.2B financing - TradingView",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261117-016",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:30Z"
+    },
+    "gpu:c8d475e732f1": {
+      "title": "Burry: Jensen Huang Scandal Is No Fundamental Negative — the Real Damage Is Washington's Antitrust Probe - BigGo Finance",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-013",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:31Z"
+    },
+    "gpu:d3d16a95f83d": {
+      "title": "NVIDIA scrutiny, US selloff challenge India's AI cloud boom - TechGig",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261117-016",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:31Z"
+    },
+    "gpu:2e64463a0a83": {
+      "title": "Hive Digital CEO says its five-year-old Nvidia GPUs still produce cash flow - TheStreet",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261117-016",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:31Z"
+    },
+    "gpu:780b2965bb9b": {
+      "title": "Rumble’s Quake AI Made $68.2M as Depreciation Hit $85.2M - FourWeekMBA",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261117-016",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:31Z"
+    },
+    "gpu:717814b472cf": {
+      "title": "Fed says it's monitoring the data center build-out for risks to the financial system - Yahoo Finance",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-014",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:31Z"
+    },
+    "gpu:918541bc8e12": {
+      "title": "Enjoy the GPUphoria While It Lasts: Why Wall Street's AI Bears Aren't Buying the CoreWeave Rally - The Dark Side Of The Boom",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261117-016",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:31Z"
+    },
+    "gpu:767107f06041": {
+      "title": "Nvidia's $500 Billion AI Financing Vision Survives, but Wall Street Demands More Guarantees for Neoclouds - BigGo Finance",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-014",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:31Z"
+    },
+    "gpu:e13394ba1d18": {
+      "title": "Fed Flags AI Data Center Leverage: $680B Debt, $3T Contingent Obligations - News and Statistics - IndexBox",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-014",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:31Z"
+    },
+    "gpu:992221c2ab76": {
+      "title": "Jensen Huang Leaves Nvidia With $530 Billion in Commitments and Guarantees - Medium",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-014",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:32Z"
+    },
+    "gpu:07f1149a15ee": {
+      "title": "AI Data Center Debt Tops $800 Billion as Fed Flags Financial Risks - Korea IT Times",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-014",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:32Z"
+    },
+    "gpu:8674ee3f2280": {
+      "title": "CoreWeave tunes out Nvidia noise, looks to raise $4B - Yahoo Finance",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261117-016",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:32Z"
+    },
+    "gpu:154fc308035a": {
+      "title": "JPMorgan keeps NVIDIA credit at Underweight, flags GPU financing risk after Huang exit - Blockspace Media",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-014",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:32Z"
+    },
+    "gpu:46304116f831": {
+      "title": "CoreWeave plans $4 billion high-grade loan, Bloomberg reports - Yahoo Finance",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261117-016",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:32Z"
+    },
+    "gpu:2945be4448df": {
+      "title": "“Loans Tighten, Tech Stocks Plunge”: Wall Street Reluctant to Lend Even With Google Guarantees, Casting Clouds Over Anthropic IPO Amid AI Funding Chill - https://economy.ac/",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-014",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:32Z"
+    },
+    "gpu:20cb38cf3c88": {
+      "title": "Why CoreWeave Stock Skyrocketed Today - Yahoo Finance",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261117-016",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:32Z"
+    },
+    "gpu:640772208be6": {
+      "title": "Nvidia Faced Pressure to Boost Its AI Backstop Before Huang Exit - Bloomberg.com",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-013",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:32Z"
+    },
+    "gpu:3b1805f4685c": {
+      "title": "With Jensen Huang’s departure, what becomes of the $500 billion financing platform? The “pillar of trust” underpinning NVIDIA (NVDA.US)’s AI credit facility is crumbling. - Moomoo",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-013",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:33Z"
+    },
+    "gpu:22eb4a3221de": {
+      "title": "Latest Trending News - The Sun Malaysia",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261117-016",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:33Z"
+    },
+    "gpu:a11b789ef946": {
+      "title": "Broadcom's $43 Billion AI Backstop Comes Into Focus as Redburn Cuts to Neutral - ad-hoc-news.de",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-014",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:33Z"
+    },
+    "gpu:ddbd43c9d128": {
+      "title": "Broadcom's $43 Billion Backstop Puts Customer Balance Sheets at the Heart of the AI Trade - ad-hoc-news.de",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261117-014",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-17T18:17:33Z"
     }
   }
 }

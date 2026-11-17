@@ -1,0 +1,304 @@
+303 total; 303 not in the 13:35Z version
+  1 KNOWN     cruise-operators   17 Nov 2026 | Review: Royal Caribbean’s Royal Beach Club Santorini - TravelAge West
+  2 KNOWN     cruise-operators   17 Nov 2026 | Here is What to Know Beyond Why Royal Caribbean Cruises Ltd. (RCL) is a Trending Stock - Yahoo Finance
+  3 KNOWN     cruise-operators   17 Nov 2026 | Morgan Stanley Adjusts Royal Caribbean Group Price Target to $330 From $310 - marketscreener.com
+  4 KNOWN     cruise-operators   17 Nov 2026 | Royal Caribbean Cruises Stock Outlook: Is Wall Street Bullish or Bearish? - Yahoo Finance
+  5 NEW       cruise-fundamental 17 Nov 2026 | Carnival Cruise Dry Dock Schedule (2026-2029) - Cruise Hive
+  6 NEW       aramco-osp         17 Nov 2026 | Saudi Arabia Cuts August Arab Light Asia OSP, Biggest Drop in Over Two Decades - EnergyNow.com
+  7 NEW       aramco-osp         10 Nov 2026 | Aramco Cuts November Arab Light to Asia by $3 to 6-Year Low - https://houseofsaud.com/
+  8 NEW       treasury-moves     17 Nov 2026 | Treasury yields moderate as investors parse retail sales data - CNBC
+  9 NEW       treasury-moves     17 Nov 2026 | Treasury Yields Slipped As Stocks Sank, But The Fed Loomed - Finimize
+ 10 NEW       treasury-moves     17 Nov 2026 | Long Treasury Yields Have Changed Their Reason for Rising - IndraStra Global
+ 11 NEW       treasury-moves     17 Nov 2026 | Treasury Yields Rise Amid Resilient U.S. Sales, Prices -- Market Talk - Moomoo
+ 12 NEW       treasury-moves     17 Nov 2026 | U.S. Treasury yields catch their breath near one-month highs - Investing.com
+ 13 NEW       treasury-moves     17 Nov 2026 | AI borrowing boom could push up global bond yields, posing risks to ASEAN, says AMRO - TNGlobal
+ 14 NEW       pgm-producers      13 Nov 2026 | REG - Valterra Platinum Ld - Interest Payment Notification - TradingView
+ 15 NEW       pgm-producers      14 Nov 2026 | Sibanye Stillwater Ltd (47V.HM) Stock Forum & Discussion - Yahoo Finance - Yahoo! Finance Canada
+ 16 NEW       pgm-producers      12 Nov 2026 | Palladium Bounces Back From a 16-Month Low as Sibanye-Stillwater (NYSE:SBSW) Trims Its US Output Outlook - Kalkine
+ 17 NEW       pgm-producers      17 Nov 2026 | Anglo American warns customers of possible ferronickel supply disruption if deal rejected - Reuters
+ 18 NEW       pgm-producers      10 Nov 2026 | Sibanye Stillwater Limited (SSW) Stake In Generation Mining Falls To ~4.7% - TradingView
+ 19 NEW       pgm-producers      11 Nov 2026 | Valterra Platinum Ltd (RPHA.HM) Seasonal Returns Chart - Yahoo Finance - Yahoo! Finance Canada
+ 20 NEW       pgm-producers      16 Nov 2026 | Gold SWOT: Barrick Mining plans U.S. IPO for new gold spin-off - Kitco
+ 21 NEW       pgm-producers      11 Nov 2026 | Why South Africa's platinum miners are piling into chrome - MiningMX
+ 22 NEW       pgm-producers      17 Nov 2026 | Pressure builds on well-connected Russian businessman who wants to buy Norwegian Arctic copper mine - The Barents Observer
+ 23 NEW       pgm-producers      14 Nov 2026 | Russia US Ambassador Farewell - GazetteXtra
+ 24 NEW       pgm-producers      14 Nov 2026 | Russia US Ambassador Farewell - WV News
+ 25 NEW       flg-rent-freeze-li 13 Nov 2026 | Rent-stabilized stress deepens as Moody’s downgrades 3K-unit housing portfolio again - Crain's New York
+ 26 NEW       private-credit     17 Nov 2026 | New Zealand Central Bank Warns of Rising Global Risks, Rising Private Credit Exposure - Insurance Journal
+ 27 NEW       private-credit     17 Nov 2026 | Money Disrupted: private credit as a source of growth or risk? - OMFIF
+ 28 NEW       private-credit     17 Nov 2026 | Asset Allocators To Boost Private Credit Allocations In 2027 – bfinance - Wealth Briefing
+ 29 NEW       private-credit     17 Nov 2026 | Golub Capital Stock At $12.40: Private Credit's First Crack? - Yahoo Finance
+ 30 NEW       pe-insurance       16 Nov 2026 | Billions in Insurance Money Is Being Bet on AI Debt, and Analysts Are Nervous - The New York Times
+ 31 NEW       pe-insurance       14 Nov 2026 | Little owl - Britannica
+ 32 DEVELOPME pe-insurance       13 Nov 2026 | How Apollo’s SoftBank Ties Unlocked an Unprecedented OpenAI Bet - Bloomberg.com
+ 33 NEW       shade-D1           17 Nov 2026 | Dodgers Owner Mark Walter’s Insurer Misses Target to Reduce Affiliated Assets - WSJ
+ 34 NEW       shade-D1           17 Nov 2026 | Mark Walter’s Largest Insurer Reports Sales Plunge Amid US Probe - Bloomberg.com
+ 35 NEW       shade-D1           17 Nov 2026 | Allianz Life Adds Two New Accumulation-Focused Fixed Index Annuities - Yahoo Finance
+ 36 NEW       shade-D1           12 Nov 2026 | Greater Philadelphia Life Sciences News: INOVIO's $75M Offering, Waters' MOBILion Acquisition & More - BioBuzz
+ 37 NEW       shade-D1           12 Nov 2026 | Mark Walter-linked firms draw $21 billion in loans as insurance scrutiny deepens - Traders Union
+ 38 NEW       shade-D1           17 Nov 2026 | Mark Walter’s Insurer Seeks Nod to Swap $1.2 Billion More Assets - Bloomberg.com
+ 39 NEW       shade-D3           17 Nov 2026 | Josh Kushner Lakers Deal Draws Scrutiny - USA Herald
+ 40 NEW       shade-D4           11 Nov 2026 | Cadillac F1 Can’t Afford a Long Silence on Sale Talk, Whatever the Truth Is - Yahoo Sports
+ 41 NEW       shade-D4           16 Nov 2026 | CADILLAC FORMULA 1® TEAM WELCOMES VIATRIS AS OFFICIAL GLOBAL PHARMACEUTICAL PARTNER - Viatris
+ 42 NEW       shade-D4           16 Nov 2026 | Bob Iger and Josh Kushner to purchase the Los Angeles Lakers - ABC News - Breaking News, Latest News and Videos
+ 43 NEW       shade-D4           14 Nov 2026 | Fenway Sports Group can’t buy Cadillac F1 stake without Brad Keselowski’s approval: Sources - The Athletic - The New York Times
+ 44 NEW       shade-D4           16 Nov 2026 | Mark Walter Exploring Cadillac F1 Sale: Could Dodgers Be Next? - DodgersBeat
+ 45 NEW       shade-D4           14 Nov 2026 | Ferrari Becomes Most Valuable F1 Team In 2026 With $8.2 Billion Valuation - Sportscape Magazine
+ 46 NEW       shade-D4           15 Nov 2026 | Brad Keselowski Emerges as Potential Roadblock to Red Sox Owner's $3B Cadillac F1 Deal - Yahoo Sports
+ 47 NEW       shade-D4           16 Nov 2026 | Jack Nicklaus Reclaims His Brand in $35.7 Million Acquisition of Nicklaus Companies - SSBCrack
+ 48 NEW       shade-D5           12 Jun 2024 | ATHU5080264 Bond Yield and Price — FINRA:ATHU5080264 - TradingView
+ 49 NEW       shade-E2           13 Nov 2026 | Egan-Jones Examines How Falling Development Costs Could Reshape Video Games - Yahoo Finance
+ 50 NEW       oil-energy         17 Nov 2026 | Oil Prices Rebound as Middle East Shipping Risks Persist - WSJ
+ 51 NEW       gas-supply         17 Nov 2026 | Russia Urges Oil Companies to Produce Lower-Grade Gasoline After Refinery Strikes - The Moscow Times
+ 52 NEW       gas-supply         17 Nov 2026 | Gasoline prices fall to lowest level since March - Washington Examiner
+ 53 NEW       gas-supply         17 Nov 2026 | Gasoline prices as of November 17, 2026 - American Journal of Transportation
+ 54 NEW       gas-supply         17 Nov 2026 | Opec-Plus: Output Jumps to 8-Month High, But Is It Sustainable? - Energy Intelligence
+ 55 NEW       gas-supply         17 Nov 2026 | Angola Revives Soyo Refinery Ambitions Through Tansafrica Partnership – OpEd - Eurasia Review
+ 56 NEW       gas-supply         17 Nov 2026 | Refinery margins slump with oil surplus in sight - Quantum Commodity Intelligence
+ 57 NEW       gas-supply         17 Nov 2026 | Russia's crude exports hit highest since July as Ukraine targets refineries - Quartz
+ 58 NEW       gas-supply         17 Nov 2026 | BP Sent Letter To USW Regarding Union’S Recent Correspondence On Whiting Refinery Negotiations - TradingView
+ 59 NEW       japan-boj          17 Nov 2026 | Japanese Yen recovers despite strong US data and hawkish Fed remarks - FXStreet
+ 60 NEW       japan-boj          16 Nov 2026 | Goldman, Morgan Stanley Split on Yen Outlook on Diverging Forces - Bloomberg.com
+ 61 NEW       labor-layoffs      17 Nov 2026 | Disney CEO talks layoffs, theme park success in latest earnings call - Florida Politics
+ 62 NEW_WATCH labor-layoffs      17 Nov 2026 | Civilization Developer Firaxis Games Hit By Mass Layoffs As New XCOM Reportedly Misses Milestone - Kotaku
+ 63 NEW       labor-layoffs      16 Nov 2026 | City of Toledo confirms 89 layoffs in $373.2M proposed 2027 budget - WTOL
+ 64 NEW       labor-layoffs      17 Nov 2026 | More Disney layoffs coming as company targets $3 billion in savings - Human Resources Director
+ 65 NEW       labor-layoffs      17 Nov 2026 | Wash. Sheriff's Command Staff Take Pay Cuts to Avoid Layoffs - Officer
+ 66 NEW       labor-layoffs      17 Nov 2026 | Take-Two lays off Firaxis employees on eve of Grand Theft Auto VI launch - Game Developer
+ 67 NEW       labor-layoffs      17 Nov 2026 | City of Toledo confirms layoffs in proposed budget, elim­i­nation of programs and community staples following failed levy - Spectrum News
+ 68 NEW       labor-layoffs      17 Nov 2026 | 72andSunny Appoints WPP Exec to Lead New York Office After Layoffs - ADWEEK
+ 69 NEW       labor-nfp          12 Nov 2026 | Current Unemployment Rate and Other Jobs Report Findings - NerdWallet
+ 70 NEW       labor-nfp          17 Nov 2026 | Hiring worse than expected in June, but White House says labor market on 'upward trajectory' - ABC News - Breaking News, Latest News and Videos
+ 71 NEW       labor-nfp          17 Nov 2026 | Arizona Fall League Announces Week 6 NFP Pitcher and Hitter of the Week - MLB.com
+ 72 NEW       labor-nfp          16 Nov 2026 | April Jobs Report: Eliminating Persistent Racial Disparities Should be a National Priority - National Urban League
+ 73 NEW       labor-nfp          16 Nov 2026 | S&P 500 Forecast: SPX rebounds after strong NFP led by tech - StoneX
+ 74 NEW       labor-nfp          13 Nov 2026 | NFP: National Financial Partners Corp. Latest Stock Price, Analysis, News and Trading Ideas - Stocktwits
+ 75 NEW       labor-nfp          10 Nov 2026 | US Activity Update: Index Bounces Following Strong Jobs Report - 11/10/2026 - Employ America
+ 76 NEW       labor-nfp          13 Nov 2026 | Dollar forecast: NFP provides dollar, already supported amid tech sell-off, additional boost - FOREX.com
+ 77 NEW       labor-nfp          13 Nov 2026 | Bitcoin Falls Below $80K as Hot Jobs Report Revives Fed Hike Bets - CoinMarketCap
+ 78 NEW       labor-nfp          15 Nov 2026 | January Jobs Report: Economy Continues to Grow in the Midst of Elevated Inflation - National Urban League
+ 79 NEW_WATCH credit-spreads     15 Nov 2026 | Data center junk bonds hit $37B in 2026, nearly half of all issuance - Dealroom
+ 80 NEW       credit-spreads     16 Nov 2026 | Rising Rates, AI Bust, and a Stronger Dollar: Chris Puplava on Risk-Off Markets - Financial Sense
+ 81 NEW       credit-spreads     12 Nov 2026 | Why the 2026 fake foreclosure crisis never happened - HousingWire
+ 82 NEW       credit-spreads     17 Nov 2026 | Citigroup boosting global corporate banking headcount, top banker says - KELO-AM
+ 83 NEW       credit-spreads     13 Nov 2026 | Peter Schiff Warns US Economy is in ‘Final Stages’ of Collapse, Says AI Boom is Masking Broader Recession Risk: 'The Whole Thing Can Implode' - Tradin
+ 84 NEW       credit-spreads     12 Nov 2026 | Buyers of $22 Billion Bank Securities Are Trapped in Losing Bet - Bloomberg.com
+ 85 NEW       credit-spreads     16 Nov 2026 | Global banks face stable credit outlook in 2027, but geopolitical risks and higher borrowing costs remain concerns: Moody's - ANI News
+ 86 NEW       credit-spreads     14 Nov 2026 | Schnabel Set To Leave ECB Board Early For Senior Job At IMF | Industrial Stocks Flash Technical Warn Fidelity Investment Data Breach Lawsuit (Mye1U29F
+ 87 NEW_WATCH credit-spreads     16 Nov 2026 | AI Data Center Junk Bonds Hit $37bn as Credit Risks Rise - Serrari Group
+ 88 NEW       credit-spreads     12 Nov 2026 | SoftBank posts $7B loss amid over $60B OpenAI backstop - NewsBytes
+ 89 NEW       credit-spreads     16 Nov 2026 | Banrisul stock faces credit stress after Q3 net income falls 52% - ad-hoc-news.de
+ 90 NEW       funding-stress     14 Nov 2026 | 30 Day Federal Funds Futures - CME Group
+ 91 NEW       funding-stress     13 Nov 2026 | Trending mortgage rates - firsttuesday Journal
+ 92 NEW       funding-stress     11 Nov 2026 | Goldman Sachs Warns: Bank Reserves Near Critical Threshold, Repo Market Could Face Liquidity Storm in 2027 - finance.biggo.com
+ 93 NEW       funding-stress     10 Nov 2026 | 5-Year T-Note Futures - CME Group
+ 94 NEW       funding-stress     12 Nov 2026 | VICI secures $500M term loan to refinance 2027 notes - Dealroom
+ 95 NEW       funding-stress     16 Nov 2026 | Western Digital secures $1.5 billion revolving credit facility - StreetInsider
+ 96 NEW       funding-stress     17 Nov 2026 | Capstone Energy+ Q2 Earnings Call Highlights - TradingView
+ 97 NEW       funding-stress     13 Nov 2026 | Ultra 10-Year U.S. Treasury Note Futures - CME Group
+ 98 NEW       funding-stress     16 Nov 2026 | WDC: Western Digital Corporation filed SEC Form 8-K: Entry into a... - Quantisnow
+ 99 NEW       funding-stress     16 Nov 2026 | Western Digital lands $1.5B revolving credit line, refinancing early - Dealroom
+100 NEW       cre-stress         17 Nov 2026 | For Bank Lenders in Commercial Real Estate, Higher-for-Longer Rates Are a Test - Commercial Observer
+101 NEW       cre-stress         17 Nov 2026 | MRK Resolutions Addresses Commercial Real Estate Refinancing and Foreclosure Risks - EIN News
+102 NEW       cre-stress         17 Nov 2026 | Institutional capital anchors Apac commercial real estate as Q3 investment falls 13% - AsianInvestor
+103 NEW       bank-stress        16 Nov 2026 | FDIC OIG issues failed bank review of savings bank - JD Supra
+104 NEW       bank-stress        10 Nov 2026 | Ousted Paraguayan president placed under house arrest after bank collapse - reflector.com
+105 NEW       bank-stress        12 Nov 2026 | Paraguay on Watch for Downgrade at Fitch After Bank Collapse - Bloomberg.com
+106 NEW       bank-stress        16 Nov 2026 | Paraguay’s ousted president moved to military prison after reports of gym and suite in custody - Bozeman Daily Chronicle
+107 NEW       bank-stress        17 Nov 2026 | Paraguay’s ousted president moved to military prison after reports of gym and suite in custody - News-Press NOW
+108 NEW       bank-stress        12 Nov 2026 | Ousted Paraguayan president placed under house arrest after bank collapse - Oskaloosa Herald
+109 NEW       bank-stress        16 Nov 2026 | Banco Master’s collapse leaves nearly R$76bn in losses - Valor International
+110 NEW_ALERT bank-stress        10 Nov 2026 | PTSB’s Crowley signals deposit flight risk from proposed digital euro - Business Post
+111 NEW       bank-stress        13 Nov 2026 | US Banking Groups Demand Stronger Stablecoin Yield Limits in Senate Bill - CoinMarketCap
+112 NEW_WATCH consumer-stress    16 Nov 2026 | CITIGROUP INC - CREDIT CARD DELINQUENCY RATE 1.4% AT OCT END - Moomoo
+113 NEW       consumer-stress    12 Nov 2026 | U.S. Credit Card Debt Reaches $1.285 Trillion as USBankruptcyHelp.com Launches Free Credit Card Payoff Calculator - FinancialContent
+114 NEW       consumer-stress    13 Nov 2026 | Jake Sweeney Chevrolet Outlines Auto Financing Options for Buyers with Credit Challenges in Cincinnati - StreetInsider
+115 NEW       consumer-stress    10 Nov 2026 | Vroom Q3 Results: Loss narrows 61% YoY as revenue falls 6% - scanx.trade
+116 NEW       memory-cycle       17 Nov 2026 | Custom HBM as a System: Co-designing the Base Die, Die-to-Die Power and Package Thermals for AI Accelerators - Marvell Technology
+117 NEW       ai-capex           17 Nov 2026 | Fund managers cut tech holdings at the fastest pace since 2006 as AI capex worries spread, BofA survey shows - MLQ.ai
+118 NEW_WATCH megacap-leadership 13 Nov 2026 | Nvidia CEO resigns as stocks pull back. - CME Group
+119 NEW       gpu-obsolescence-1 12 Nov 2026 | Michael Burry Says Nvidia’s Biggest Problem Isn’t Jensen Huang - 24/7 Wall St.
+120 NEW       gpu-obsolescence-1 16 Nov 2026 | Weekly Recap: Q3 income growth, wider losses and $4.2B financing - TradingView
+121 NEW       gpu-obsolescence-1 12 Nov 2026 | Burry: Jensen Huang Scandal Is No Fundamental Negative — the Real Damage Is Washington's Antitrust Probe - BigGo Finance
+122 NEW       gpu-obsolescence-1 11 Nov 2026 | NVIDIA scrutiny, US selloff challenge India's AI cloud boom - TechGig
+123 NEW       gpu-obsolescence-1 16 Nov 2026 | Hive Digital CEO says its five-year-old Nvidia GPUs still produce cash flow - TheStreet
+124 NEW       gpu-obsolescence-1 11 Nov 2026 | Rumble’s Quake AI Made $68.2M as Depreciation Hit $85.2M - FourWeekMBA
+125 NEW       gpu-obsolescence-2 13 Nov 2026 | Fed says it's monitoring the data center build-out for risks to the financial system - Yahoo Finance
+126 NEW       gpu-obsolescence-2 12 Nov 2026 | Enjoy the GPUphoria While It Lasts: Why Wall Street's AI Bears Aren't Buying the CoreWeave Rally - The Dark Side Of The Boom
+127 NEW       gpu-obsolescence-2 17 Nov 2026 | Nvidia's $500 Billion AI Financing Vision Survives, but Wall Street Demands More Guarantees for Neoclouds - BigGo Finance
+128 NEW       gpu-obsolescence-2 13 Nov 2026 | Fed Flags AI Data Center Leverage: $680B Debt, $3T Contingent Obligations - News and Statistics - IndexBox
+129 NEW       gpu-obsolescence-2 14 Nov 2026 | Jensen Huang Leaves Nvidia With $530 Billion in Commitments and Guarantees - Medium
+130 NEW       gpu-obsolescence-2 17 Nov 2026 | AI Data Center Debt Tops $800 Billion as Fed Flags Financial Risks - Korea IT Times
+131 NEW       gpu-obsolescence-3 13 Nov 2026 | CoreWeave tunes out Nvidia noise, looks to raise $4B - Yahoo Finance
+132 NEW       gpu-obsolescence-3 16 Nov 2026 | JPMorgan keeps NVIDIA credit at Underweight, flags GPU financing risk after Huang exit - Blockspace Media
+133 NEW       gpu-obsolescence-3 11 Nov 2026 | CoreWeave plans $4 billion high-grade loan, Bloomberg reports - Yahoo Finance
+134 NEW       gpu-obsolescence-3 11 Nov 2026 | “Loans Tighten, Tech Stocks Plunge”: Wall Street Reluctant to Lend Even With Google Guarantees, Casting Clouds Over Anthropic IPO Amid AI Funding Chil
+135 NEW       gpu-obsolescence-3 12 Nov 2026 | Why CoreWeave Stock Skyrocketed Today - Yahoo Finance
+136 NEW       gpu-obsolescence-4 12 Nov 2026 | Nvidia Faced Pressure to Boost Its AI Backstop Before Huang Exit - Bloomberg.com
+137 NEW       gpu-obsolescence-4 12 Nov 2026 | With Jensen Huang’s departure, what becomes of the $500 billion financing platform? The “pillar of trust” underpinning NVIDIA (NVDA.US)’s AI credit fa
+138 NEW       gpu-obsolescence-4 11 Nov 2026 | Latest Trending News - The Sun Malaysia
+139 NEW       gpu-obsolescence-4 14 Nov 2026 | Broadcom's $43 Billion AI Backstop Comes Into Focus as Redburn Cuts to Neutral - ad-hoc-news.de
+140 NEW       gpu-obsolescence-4 14 Nov 2026 | Broadcom's $43 Billion Backstop Puts Customer Balance Sheets at the Heart of the AI Trade - ad-hoc-news.de
+141 NEW       ai-financing       12 Nov 2026 | Nebius Explained: $582.3M Q2 Revenue, 454% Growth [2026] - shattered.io
+142 NEW       ai-financing       14 Nov 2026 | CoreWeave revenue jumps 168% to $4B in Q3 2026 despite $709M net loss - Crypto Briefing
+143 NEW       vol-regime         13 Nov 2026 | Volatility Regime Meter [Holtermorter99]: indicador de Holtermorter99 - TradingView
+144 NEW       vol-regime         11 Nov 2026 | Global Equity Hedge Funds Stage Sharpest De-Risking in a Decade; Morgan Stanley, Goldman Sachs, JPMorgan Split on Outlook - BigGo Finance
+145 NEW       vol-regime         13 Nov 2026 | 20-Day Game Plan — 13 Nov 2026: Expiry Day, 7500 To 7740 Into The 20 Nov OpEx - Seeking Alpha
+146 NEW       vol-regime         17 Nov 2026 | YieldMax® ETFs Announces Weekly Distributions for Group 1 ETFs - GlobeNewswire
+147 NEW       vol-regime         15 Nov 2026 | QQQI: Time To Stop Buying This 15% Yielder - Seeking Alpha
+148 NEW       power-grid         17 Nov 2026 | PJM Proposes Grid Overhaul to Speed Up Data Center Connections - Bloomberg.com
+149 NEW       power-grid         17 Nov 2026 | West Virginia AG backs Mon Power in $145M PJM dispute - WV News
+150 NEW       power-grid         17 Nov 2026 | PJM Asked FERC to Cut Grid Studies to 12 Months. Data-Center Groups Say It Could Take Longer - Energy News Beat
+151 NEW       power-grid         17 Nov 2026 | Power Prices Breach $1,000 Per Megawatt-Hour As U.S. Grid Struggles To Match Data Center Demand - Foreign Policy Journal
+152 NEW       power-grid         17 Nov 2026 | $325 Per Megawatt-Day, Zero Offers: The Fight Over Who Runs Your State's Virtual Power Plant - Substack
+153 NEW       power-grid         17 Nov 2026 | McCuskey fights to keep $145 million in January storm costs off West Virginians’ power bills - WDTV 5
+154 NEW       power-grid         17 Nov 2026 | Data center builders seek clarity on rules in largest US grid - Reuters
+155 NEW       metals             17 Nov 2026 | Don’t Misread the Gold-Silver Ratio as a Silver Buy Signal - NAI500
+156 NEW       climate-macro      17 Nov 2026 | La Nina 2027-28? What Does U.S. Climate Look Like? - Climate Impact Company
+157 NEW       climate-macro      17 Nov 2026 | China pledges $22.5M to Peru to tackle El Nino effects - Anadolu Ajansı
+158 NEW       climate-macro      17 Nov 2026 | Sentinel Satellites To Monitor Strengthening El Nino - Aviation Week
+159 NEW       climate-macro      17 Nov 2026 | Peru appeals for Chinese ‘goodwill’ to help it face El Nino - 1470 & 100.3 WMBD
+160 NEW       climate-macro      17 Nov 2026 | El Nino will impact Louisiana's winter. Will it bring snow? - Shreveport Times
+161 NEW       climate-macro      17 Nov 2026 | El Nino's sugar price rush set to make sweet treats more expensive - Yahoo Finance
+162 NEW       housing            17 Nov 2026 | Mortgage rates climbed fast last week — here's what moved them - HousingWire
+163 NEW       russia-ukraine-ene 17 Nov 2026 | Hungary gets U.S. sanctions extension for Druzhba oil imports - Pipeline and Gas Journal
+164 NEW       russia-ukraine-ene 17 Nov 2026 | Ukrainian Drones Bring Russia’s Black Sea Container Traffic From 1.1 Million to Zero - UNITED24 Media
+165 NEW       russia-ukraine-ene 14 Nov 2026 | Druzhba vs Moskovskiy Moscow live scores, head to head, schedule, predictions and stats - Sofascore
+166 NEW       russia-ukraine-ene 15 Nov 2026 | Krasnodar 3-1 Druzhba Maikop (15 Nov, 2026) Final Score - ESPN (AU) - ESPN
+167 NEW       russia-ukraine-ene 12 Nov 2026 | Druzhba i sotrudnichestvo turkmenistana i rossiiskoi federacii - Turkmenportal.com
+168 NEW       russia-ukraine-ene 10 Nov 2026 | Ukraine drone strikes disable about 30% of Russia's refinery output - NewsBytes
+169 NEW       russia-ukraine-ene 13 Nov 2026 | New Direct Rail Service Links Southern Russia to Asian Markets via Novorossiysk and Vladivostok - PravdaReport
+170 NEW       gulf-theater       17 Nov 2026 | Iran targets US sites in Bahrain after 2-month pause - The Hill
+171 NEW       gulf-theater       17 Nov 2026 | A 2-month lull ends with Iran’s third strike on US targets in Bahrain - AP News
+172 NEW       gulf-theater       17 Nov 2026 | Bahrain thwarts drone attack; Iran claims targeting US radar - Al Jazeera
+173 NEW       gulf-theater       17 Nov 2026 | Bahrain says it intercepts Iranian air attacks, IRGC says it targeted US radar - Reuters
+174 NEW       gulf-theater       17 Nov 2026 | Iran attacks US air base in Bahrain - Financial Times
+175 NEW       gulf-theater       17 Nov 2026 | Iran claims strike on Bahrain air base as tensions persist - Vatican News
+176 NEW       gulf-theater       17 Nov 2026 | Bahrain intercepts Iranian drones targeting US radar after 2-month lull in Gulf strikes - Fox News
+177 NEW       gulf-theater       17 Nov 2026 | Iran Attacks U.S. Radar Station in Bahrain, Says It Captured U.S. Drone - Democracy Now!
+178 NEW       gulf-theater       17 Nov 2026 | A 2-month lull ends with Iran’s third strike on U.S. targets in Bahrain - NBC News
+179 NEW       gulf-theater-2     15 Nov 2026 | Yemen government forces withdraw from area near Bab el Mandeb strait, Houthis in control - NBC News
+180 NEW       gulf-theater-2     16 Nov 2026 | Houthis edge closer to Aden as Yemeni forces pull out of Bab al-Mandeb - Al Jazeera
+181 NEW       gulf-theater-2     13 Nov 2026 | Explaining Houthi Resilience in Yemen - Arab Center Washington DC
+182 NEW       gulf-theater-2     11 Nov 2026 | Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca - Reuters
+183 NEW       gulf-theater-2     15 Nov 2026 | Saudi-Backed Forces Retreat in Yemen, Leaving Key Strait in Houthi Control - The New York Times
+184 NEW       gulf-theater-2     15 Nov 2026 | Houthis Recapture Positions Overlooking Bab el Mandeb - The Maritime Executive
+185 NEW       gulf-theater-2     16 Nov 2026 | Yemen: Anti-Houthi forces pull back from Bab el-Mandeb Strait as rebels advance towards Aden - DW.com
+186 NEW       gulf-theater-2     16 Nov 2026 | Saudi Arabia strategy challenged by anti-Houthi forces in Yemen - The Guardian
+187 NEW       gulf-theater-2     16 Nov 2026 | Houthis retake Bab al Mandeb and move toward Aden - FDD's Long War Journal
+188 NEW       gulf-theater-2     16 Nov 2026 | How a Houthi Blockade in the Red Sea Tightens Iran’s Grip on Global Energy Supplies - EnergyNow.com
+189 NEW       gulf-theater-2     13 Nov 2026 | London Calling: The Customary Law of Naval Blockade and Contemporary Practice - Lieber Institute West Point
+190 NEW       gulf-theater-2     17 Nov 2026 | A day after Yemen's government announced its retreat from the Bab el-Mandeb strait, Saudi Arabia dismissed the commander of a military coalition it se
+191 NEW       gulf-theater-2     16 Nov 2026 | Saudi Arabia dismisses commander of anti-Houthi coalition as rebels advance - France 24
+192 NEW       gulf-theater-2     15 Nov 2026 | Yemeni government force retreats from strait in major setback in war against Houthis - Reuters
+193 NEW       gulf-theater-2     15 Nov 2026 | Saudi-led coalition intercepts suspected Houthi missiles and drones - Al Jazeera
+194 NEW       gulf-theater-3     16 Nov 2026 | Drones and Mines: Taking Kharg Island Would Pose Risks for US Troops - EnergyNow.com
+195 NEW       gulf-theater-3     15 Nov 2026 | Iraqi PM’s crackdown on oil smuggling raises tensions with Kataib Hezbollah - FDD's Long War Journal
+196 NEW       gulf-theater-3     12 Nov 2026 | UAE says 14 killed, 30 injured in Fujairah traffic accident - Reuters
+197 NEW       gulf-theater-3     16 Nov 2026 | Iraq deploys army to stronghold of Iran-backed Kataib Hezbollah - Al Jazeera
+198 NEW       gulf-theater-3     15 Nov 2026 | Fujairah - Britannica
+199 NEW       gulf-theater-3     15 Nov 2026 | Can Iraq PM rein in Kataib Hezbollah without triggering armed conflict? - Al-Monitor
+200 NEW       gulf-theater-3     15 Nov 2026 | Iraq threatens military action in Kataib Hezbollah stronghold - The New Arab
+201 NEW       gulf-theater-3     13 Nov 2026 | Exclusive: Leak Forced Iraq’s PM to Call Off Raid on Kataib Hezbollah Stronghold, Sources Say | Alhurra - الحرة
+202 NEW       gulf-theater-3     16 Nov 2026 | Iraq confronts Iran-backed Kataib Hezbollah over militia stronghold - The Jerusalem Post
+203 NEW       gulf-theater-3     13 Nov 2026 | Aging Iranian Oil Tanker Moves Toward Kharg Island Amid U.S. Naval Blockade - IranWire
+204 NEW       gulf-theater-3     16 Nov 2026 | Iraq sets deadline for Kataib Hezbollah to leave Jurf al-Nasr amid oil-smuggling probe - Anadolu Ajansı
+205 NEW       gulf-theater-3     16 Nov 2026 | How Will the Showdown Between al-Zaidi and Kataib Hezbollah End? - ASHARQ AL-AWSAT English
+206 NEW       gulf-theater-3     17 Nov 2026 | Iran-backed group warns Iraqi forces against entering its stronghold near Baghdad - ABC News - Breaking News, Latest News and Videos
+207 NEW       gulf-theater-3     12 Nov 2026 | FUJAIRAH DATA: Oil product stockpiles drop for first time in four weeks - S&P Global
+208 NEW       gulf-theater-3     12 Nov 2026 | Watch Dubai City vs. Fujairah Live Stream Online | DAZN US - DAZN
+209 NEW       florida            14 Nov 2026 | Florida property tax amendment passage leaves local funding questions - The Center Square
+210 NEW       florida            16 Nov 2026 | How The New Governor Plans to Upend Florida’s Property Tax System - themortgagepoint.com
+211 NEW       florida            12 Nov 2026 | Florida GOP leaders cool to DeSantis property tax session push - Gainesville Sun
+212 NEW       florida            15 Nov 2026 | The rich are renting: Luxury prices surge as Florida housing market splits - Bradenton Herald
+213 NEW       florida            16 Nov 2026 | Oct. 2026: Prices Hold Firm as Market Shifts - | Florida Realtors
+214 NEW       florida            12 Nov 2026 | Florida Hometown Heroes Program: Who Qualifies and How to Apply - The Mortgage Reports
+215 NEW       florida            11 Nov 2026 | Private equity-backed King Risk targets Fort Myers in Florida push - Insurance Business
+216 NEW       florida            16 Nov 2026 | Florida ranks last in housing affordability, new study finds - WKMG
+217 NEW       florida            14 Nov 2026 | Citizens Insurance and Luxury Condo Buyers in Florida - Haute Living
+218 NEW       florida            13 Nov 2026 | Florida HOA and Condo Boards That Don’t Own Their EV Chargers Can Lose Control of Repairs - Naples Daily News
+219 NEW       china-asia         11 Nov 2026 | China's central bank vows to step up policy support for the economy - Reuters
+220 NEW       china-asia         12 Nov 2026 | Three Questions About China’s Hidden Foreign Exchange Assets - Council on Foreign Relations
+221 NEW       china-asia         16 Nov 2026 | PBOC Drains Medium-Term Funds in Warning Sign to Easing Bets - Bloomberg.com
+222 NEW       china-asia         15 Nov 2026 | The People's Bank of China Data and Cyber Security Measures: Practical Compliance Guide For Financial Institutions - Clifford Chance
+223 NEW       china-asia         12 Nov 2026 | China ETFs to Watch as PBOC Signals to Keep Monetary Policy Loose - Yahoo Finance
+224 NEW       china-asia         12 Nov 2026 | Has China’s latest easing cycle run its course? PBOC report hints at a pause - South China Morning Post
+225 NEW       china-asia         12 Nov 2026 | PBOC backs loans tied to overnight market rates; ICBC, ABC and PICC advance capital raising - The Asian Banker
+226 NEW       china-asia         11 Nov 2026 | PBOC Nudges Yuan Reference Rate Higher Ahead of New Trading Session - TradingPedia
+227 NEW       china-asia         17 Nov 2026 | PBOC sets USD/ CNY central rate at 6.7132 (vs. estimate at 6.6715) - investingLive
+228 NEW       china-asia         16 Nov 2026 | PBOC sets USD/CNY reference rate at 6.7141 vs. 6.7152 previous - FXStreet
+229 NEW       china-asia         11 Nov 2026 | PBOC Says Bond Market Facility Won’t Bail Out Individual Firms - Caixin Global
+230 NEW       china-asia         13 Nov 2026 | PBoC is expected to set USD/CNY midpoint at 6.6756 (prev. 6.7174) - Newsquawk
+231 NEW       china-asia         11 Nov 2026 | PBOC Q3 Report: Loan Pricing to Move Beyond Sole Reliance on LPR Toward Multiple Benchmarks - BigGo Finance
+232 NEW       china-asia         11 Nov 2026 | China Gauges Bond Interest Tax, With Yields Near Record Low - Bloomberg.com
+233 NEW       china-asia         12 Nov 2026 | PBOC sets USD/ CNY reference rate for today at 6.7174 (vs. estimate at 6.6797) - investingLive
+234 NEW       china-asia-2       16 Nov 2026 | A lone protester highlights the pain from China’s property bust - The Economist
+235 NEW       china-asia-2       17 Nov 2026 | China's Property Slump Weighs on Steel as Construction Demand Fades - StoneX
+236 NEW       china-asia-2       13 Nov 2026 | Goldman Sachs Access China Government Bond UCITS ETF USD Acc (CBNX.SW) Seasonal returns chart - Yahoo Finance UK
+237 NEW       china-asia-2       16 Nov 2026 | China's property investment falls 21.6% y/y in first 10 months - TradingView
+238 NEW       china-asia-2       16 Nov 2026 | China's new construction starts fall to lowest October level since 2002 - Lesprom Network
+239 NEW       china-asia-2       12 Nov 2026 | China’s property implosion has further to go, and markets are worried - SMH.com.au
+240 NEW       china-asia-2       16 Nov 2026 | China's Property Development Investment Declines 21.6% in January-October - www.marketscreener.com
+241 NEW       china-asia-2       17 Nov 2026 | China's steel slump leaves iron ore bulls under the pump - FOREX.com
+242 NEW       china-asia-2       12 Nov 2026 | China’s property implosion has further to go, and markets are worried - The Age
+243 NEW       china-asia-2       17 Nov 2026 | Lai Sun to spin off part of Hong Kong Plaza in Shanghai to repay US$315m loan - South China Morning Post
+244 NEW       china-asia-2       16 Nov 2026 | The Zhuhai Flashpoint: How a State-Backed Giant’s Debt Stumble Exposes the Fragility of China’s Property Recovery - Vocal
+245 NEW       china-asia-2       16 Nov 2026 | China's property investment falls 21.6% year on year in first 10 months - Prop News Time
+246 NEW       china-asia-2       16 Nov 2026 | Ganglong China Property Logs Jan-Oct 2026 Contracted Sales RMB1,054.8 Million - TradingView
+247 NEW       china-asia-2       12 Nov 2026 | How one of Beijing’s most luxurious hotels is becoming a premium retirement home - South China Morning Post
+248 NEW       china-asia-3       11 Nov 2026 | The 2026 Election by the Numbers - Council on Foreign Relations
+249 NEW       china-asia-3       17 Nov 2026 | Why Won’t Boomers Grandparent? - The Free Press
+250 NEW       china-asia-3       12 Nov 2026 | Players with most MVP Awards in MLB history - MLB.com
+251 NEW       china-asia-3       11 Nov 2026 | Quick Hits | Bengals-Steelers Throw Bouquets Early In Week; Zac Taylor Won't Rule Out Cashius Howell Return Later This Season - Cincinnati Bengals
+252 NEW       china-asia-3       16 Nov 2026 | Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade - CNBC
+253 NEW       china-asia-3       15 Nov 2026 | The Only Thing Nathan Fielder Won’t Show - The Atlantic
+254 NEW       china-asia-3       14 Nov 2026 | Even Scott Colom’s Backers Were Skeptical. Here’s How He Won in Mississippi. - The New York Times
+255 NEW       china-asia-3       12 Nov 2026 | Why each Western Conference playoff team will (or won't) win MLS Cup - MLSsoccer.com
+256 NEW       china-asia-3       17 Nov 2026 | Pitt’s research-to-startup pipeline won a national innovation award - University of Pittsburgh
+257 NEW       china-asia-3       16 Nov 2026 | Why the Browns should re-sign Deshaun Watson, who’s won back fans with his 6 fourth-quarter winning drives: Mary Kay Cabot - Cleveland.com
+258 NEW       china-asia-3       16 Nov 2026 | Maple Leafs won’t be defined by 0-6-0 homestand, Chayka says - NHL.com
+259 NEW       china-asia-3       16 Nov 2026 | Pochettino won't be drawn on U.S. players he might bring to Manchester United - ESPN
+260 NEW       china-asia-3       16 Nov 2026 | Sen. Dan Sullivan campaign says it won’t concede Alaska Senate race until it’s certified - Democracy Docket
+261 NEW       china-asia-3       12 Nov 2026 | All for one: Unanimous MVP Award winners - MLB.com
+262 NEW       china-asia-3       12 Nov 2026 | Help! A Broken Toilet Grounded My Plane, and the Airline Won’t Cover a Hotel. - The New York Times
+263 NEW_WATCH memory-pricing     17 Nov 2026 | SanDisk and Micron Fall 4% as GF Securities Cuts NAND Price Forecast and Warns of a Glut; SK Hynix Dips - Yahoo Finance
+264 NEW       memory-pricing     17 Nov 2026 | CPI | Samsung, SK Hynix and Micron Must Face US DRAM Price-Fixing Lawsuit - PYMNTS.com
+265 NEW       memory-pricing     17 Nov 2026 | Chipmakers Can't Ditch Buyers' DRAM Price-Fixing Case - Law360
+266 NEW_WATCH memory-pricing     12 Nov 2026 | [News] Replacing the Irreplaceable: NVIDIA’s Next Moves as CEO Jensen Huang Faces Potential Ouster - TrendForce
+267 NEW_WATCH memory-pricing     13 Nov 2026 | [News] NVIDIA without Huang: New Tests Ahead as AMD Eyes Gains, TSMC Finds a Cushion and Memory Giants Weigh Risks - TrendForce
+268 NEW_WATCH memory-pricing     11 Nov 2026 | [News] AMD EPYC Venice CPUs Begin Shipping on TSMC 2nm; Verano Reportedly to Adopt N2P, with A14 Planned for 2028 - TrendForce
+269 NEW_ALERT nano-banc          16 Nov 2026 | Chase outage and 6 bank failures in 2026: what each cost customers - qz.com
+270 NEW       homebuilder-earnin 13 Nov 2026 | Toll Brothers Announces Opening of New Luxury Home Community in Rancho Murieta, California - markets.businessinsider.com
+271 NEW       homebuilder-earnin 16 Nov 2026 | SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC - GlobeNewswire
+272 NEW       homebuilder-earnin 13 Nov 2026 | Securities Class Action Filed Against Lennar Corporation – LEN Investors Encouraged to Contact Kirby McInerney LLP - Business Wire
+273 NEW       homebuilder-earnin 11 Nov 2026 | Lennar Expands New Home Offerings Across Loudoun County, One of Northern Virginia's Most Sought-After Markets - Yahoo Finance
+274 NEW_WATCH homebuilder-earnin 16 Nov 2026 | One manager reports 10.1 million Lennar (LEN) shares, keeping ownership below 5%. - Stock Titan
+275 NEW       russia-fuel-export 17 Nov 2026 | Russian Cargo Shifts to Baltic and Far East After Drone Attacks Halt Southern Container Traffic - The Moscow Times
+276 NEW       russia-fuel-export 17 Nov 2026 | Maker of Russia’s Iconic Alyonka Chocolate Eyes Expansion in China, Morocco and Oman - The Moscow Times
+277 NEW       ai-dc-force-majeur 17 Nov 2026 | HSBC Holdings (LSE:HSBA) Trimmed Its Project Jupiter Loan Exposure - Yahoo Finance Singapore
+278 NEW       ai-dc-force-majeur 17 Nov 2026 | HSBC stock: Bank sells USD 300 million Project Jupiter loan - ad-hoc-news.de
+279 NEW       ecb-rate-decision  12 Nov 2026 | Euro holds gains against Canadian Dollar despite ECB rate hike doubts, rising oil prices - Mitrade
+280 NEW       ecb-rate-decision  16 Nov 2026 | Bets on interest rate hike next year not ‘unreasonable’ – ECB vice president - Business Post
+281 NEW       ecb-rate-decision  11 Nov 2026 | ECB’s Joachim Nagel says December rate hike ‘rather obvious’ - Irish Independent
+282 NEW       ttf-storage-gilts  17 Nov 2026 | Goldman Sachs: TTF Gas Prices Could Reach 150 EUR/MWh in Q1 2027 - News and Statistics - IndexBox
+283 NEW       bank-vendor-incide 17 Nov 2026 | Among those affected by the outages were Bank of America, JPMorgan Chase, and the popular money transfer app Zelle. Link to the full story in the comm
+284 NEW       FT                 17 Nov 2026 | Jensen Huang says he is prepared to return as Nvidia CEO
+285 NEW       FT                 17 Nov 2026 | Nvidia stopped disclosing Singapore sales as revenues hit $104bn
+286 NEW       FT                 17 Nov 2026 | How Jensen Huang’s family shaped Nvidia’s Megaspeed dealings
+287 NEW       FT                 17 Nov 2026 | US tech stocks slide ahead of Nvidia results
+288 NEW       FT                 17 Nov 2026 | AI grapples with the return of the ‘Antichrist’
+289 NEW       FT                 17 Nov 2026 | Fed’s Lisa Cook refuses to attend hearing convened by Trump
+290 NEW       BBC Business       17 Nov 2026 | Jensen Huang pushes Nvidia comeback after board rejects pressure to reinstate ex-boss
+291 NEW       BBC Business       17 Nov 2026 | We can't afford to hire under-25s, say firms. Will Milburn plans help?
+292 NEW       BBC Business       17 Nov 2026 | How new US chip restrictions on South East Asia will hit China
+293 NEW       BBC Business       17 Nov 2026 | US bank services returning to normal after major outage
+294 NEW       BBC World          17 Nov 2026 | Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine
+295 NEW       BBC World          17 Nov 2026 | How the attack on Crimean Bridge unfolded
+296 NEW       BBC World          17 Nov 2026 | Trump lands in Asia ahead of talks with Russian and Chinese presidents
+297 NEW       BBC World          17 Nov 2026 | US loses measles elimination status after 26 years amid record case numbers
+298 NEW       BBC World          17 Nov 2026 | 'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge
+299 NEW       BBC World          17 Nov 2026 | Trump says US taking 'very seriously' any Iranian plot against Washington
+300 NEW       BBC World          17 Nov 2026 | UK sanctions firms over Israeli West Bank settlements
+301 NEW       BBC World          17 Nov 2026 | Carney eyes 'other options' for embattled Canadian auto sector on China trip
+302 NEW       BBC World          17 Nov 2026 | BBC reports from Kyiv bridge hit by Russian attack
+303 NEW       EIA Today in Energ 17 Nov 2026 | How does EIA account for small differences between energy supply and demand data?

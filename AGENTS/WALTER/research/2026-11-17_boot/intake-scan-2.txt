@@ -1,0 +1,106 @@
+RESEARCH-INTAKE scan — 2026-11-17 18:14Z
+================================================================
+
+[health]
+  OK   last_run 2026-11-17T18:14:31Z (0 missed weekday runs, 0 calendar days)
+  OK   news search items saved: 283 (trailing median 126 over 10 batches)
+  MED  data/2026-11-17/news.json was rewritten by the collector after --mark (fingerprint 53d9b2c44e4f -> a180e9e0e9b0): re-scanning it whole; read its ordinary headlines too
+
+[news batches scanned — 1: 2026-11-17..2026-11-17]  (catch-up from last_marked_batch data/2026-11-17/news.json)
+
+[NEW breaches to ROUTE — 6]  (onset; push per §3, tag source: RESEARCH-INTAKE)
+  PRIORITY  ACTION -> (per-item agents field)  [2 NEW_ALERT]
+      2 NEW_ALERT item(s) — read data/2026-11-17/news.json
+  ROUTINE   INFO   -> (per-item agents field)  [7 NEW_WATCH]
+      7 NEW_WATCH item(s) — read data/2026-11-17/news.json
+  ROUTINE   INFO   -> BROCK,SHADE  [DEVELOPMENT [known entity Apollo + escalation qualifier]]
+      How Apollo’s SoftBank Ties Unlocked an Unprecedented OpenAI Bet - Bloomberg.com
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Nvidia CEO resigns']]
+      Nvidia CEO resigns as stocks pull back. - CME Group
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Nvidia oust CEO']]
+      [News] Replacing the Irreplaceable: NVIDIA’s Next Moves as CEO Jensen Huang Faces Potential Ouster - TrendForce
+  PRIORITY  ACTION -> HOMER  [WATCH_HIT [HOMER:'Lennar Reports']]
+      One manager reports 10.1 million Lennar (LEN) shares, keeping ownership below 5%. - Stock Titan
+
+[CRUISE_CAPITAL_REVIEW — 0 open]  (ROUTINE human review, never auto-dispatch; read the source, date the event, check BOARD/EDGAR/CRUISE overlap)
+  (none open)
+
+[GPU_FINANCE_REVIEW — 22 open]  (ROUTINE human review of GPU depreciation / collateral / GPU-backed loan / residual-value headlines, owners VULCAN and BROCK; never auto-dispatch; read the source, date the event (reposts carry fresh dates), check BOARD and owner KB, then --gpu-disposition)
+  gpu:21548eeb9f9e  1 row(s), 2026-11-17..2026-11-17
+      Michael Burry Says Nvidia’s Biggest Problem Isn’t Jensen Huang - 24/7 Wall St.
+      https://news.google.com/rss/articles/CBMipwFBVV95cUxQUXA2MTNjLXVSWVdCRFp1U1VWRjY5UFNBbl9PUmhST18yeHRHXzNUSC0tZUlyamo4TE9Hc2QwZHVDekFlLWVFTzZDZlpOc2gzVUx5M28tV0RZdDFqMlBlM2xsLXQxWVRnSHB5UUJ2ckppVHdYSmx6eXAzSE1qckZ2M1NtelB1bkNYaEVENEk3SWdFandHTWdiTGNWTFoydWdlYTZUajQwVQ?oc=5
+  gpu:fa33917e94be  1 row(s), 2026-11-17..2026-11-17
+      Weekly Recap: Q3 income growth, wider losses and $4.2B financing - TradingView
+      https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYnlsREtGYjdOTjRPMHR4b00tZ05mdEI4UkdHN2xPNjdMVE94MnhqR1VjM0FsT014bk9sTVFSWnZHcmlSdTJ3RmRNdWdlLXpaSTBBVXBiZS1zRDNKZk5KaU9yam9pbHVWd01ZejlEMW8xZjN4bmhHMG1mQjFpTTJlZkJWTjdkaXVNM3c0OHBhWmEzR1U3anh4bU1Bai1TZkgxSjk5MzNPbmpVVWx5SWtTalVXYUpqVUlwM1ZZWXBsa2U?oc=5
+  gpu:c8d475e732f1  1 row(s), 2026-11-17..2026-11-17
+      Burry: Jensen Huang Scandal Is No Fundamental Negative — the Real Damage Is Washington's Antitrust Probe - BigGo Finance
+      https://news.google.com/rss/articles/CBMidkFVX3lxTE56bWxOeXFaOFZxM3JxQUk0dXdLUjhrLVNpVHJEb0FCTE1weXhzTnFMVWQ1WXNWbjJmWmNpZmVHRGpXYnpRQmFNZHFxSUFvQTJCZS1CY1BNdFNKMk9uVW95NEJmRERVSkp3VzRnY3U3eXFQNmxaWGc?oc=5
+  gpu:d3d16a95f83d  1 row(s), 2026-11-17..2026-11-17
+      NVIDIA scrutiny, US selloff challenge India's AI cloud boom - TechGig
+      https://news.google.com/rss/articles/CBMiswFBVV95cUxPVjJreUgyQld2ZjY4TEliSHlha2dxY1VsVFBYUlJjR3RyVzRCN2tsdFRLS1JSVHc3S2lCUmFGYnN4VG03bHMyMDljUXV1bEl2d19XQ1JvODJaZ1FPeHBjN2VBVTJGMFhpOS1fTUhRMktXOXV1dTJNa1VnZU00U1ViaU9BUU5fUWpBaGg1MTRmRHg0R0FjZVp3SUYtSE90bmtqOE41RENYSlYyUnVQSjV2Ql93RQ?oc=5
+  gpu:2e64463a0a83  1 row(s), 2026-11-17..2026-11-17
+      Hive Digital CEO says its five-year-old Nvidia GPUs still produce cash flow - TheStreet
+      https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVFk1emdsVW9TZGZDVnZJT2VCY1dDRklWbHVJek9GUGV1QXZDYXFITzRpV0FBTFR0VkZOeGJuUGlWRFRpZlBubTdvWURwelllVTJ0Z1lCT0VLNVNUeFFoUVFHZGVrUXZ6V2gyYXJZa0I0Ny1NR3BHYkdCSlNyd2RaSmFObnd4MzhOYWh2WEVCeTJqVzlQak5JSXUySjlBSEJkdXFjQjZCenZFbmFOQVFsN2FnTUFfRUN6bkI0?oc=5
+  gpu:780b2965bb9b  1 row(s), 2026-11-17..2026-11-17
+      Rumble’s Quake AI Made $68.2M as Depreciation Hit $85.2M - FourWeekMBA
+      https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY0xpeFhrNTdtOWw5TU9KdFZ5a3A4TmJuT2k0ZEtQZ3NEVEF3cGVZZlMwMjlwa1F5R0o4OHBjaS1jUWltbTRfWFJrcGs0aDRnUEcweTVTVGZOclBKaVFmQlJ3VURzZm0zWmROTE1XVG8tc3Nta2VUMldmaDJkOGh2TVlMX0NkRER4?oc=5
+  gpu:717814b472cf  1 row(s), 2026-11-17..2026-11-17
+      Fed says it's monitoring the data center build-out for risks to the financial system - Yahoo Finance
+      https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb3p5RDVab0lhVGNDZk4xNzd4VWNNQ1kwcER4SnpYNjlFeThGa2gycGdWbk5lRXQ2MVFjdjZvS3ZlaGc5NXk0NVdWUkhPaDhVUTRlekdxcU9MMS1mOHN4ZHhtRDRWckV5Y2FUNzM1dVJKRGJlODQ3OHEtLXhoR3haZjJ6TnlSSGJTcklPdWM2aTlneEdsRkd3emVfcWlwTGJBeS12d3ZnRFl3YVpNa0p6YXN3ZkFNQUJsU2FaR0xmT2NfWWJfNHdKY0wxOGhtbUpSTjJDRnFBVG9pRkRYYnZacg?oc=5
+  gpu:918541bc8e12  1 row(s), 2026-11-17..2026-11-17
+      Enjoy the GPUphoria While It Lasts: Why Wall Street's AI Bears Aren't Buying the CoreWeave Rally - The Dark Side Of The Boom
+      https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ2ZWS2NCWUJ4bmpTc3lsNDYwYlphYU1OREl2bFJISUV6TmZ5LVVRNmFOZTRtdUxyTVFLcUY0SzJwdkY5SHdpMTkxVC0yZEVUQ0hwWUJsWkFqWWtSU3Vsck10bWg0ZW9iN1g5R3BVdmpXdFEtcjFLMVhKbkFPWnBSV3M2V0g?oc=5
+  gpu:767107f06041  1 row(s), 2026-11-17..2026-11-17
+      Nvidia's $500 Billion AI Financing Vision Survives, but Wall Street Demands More Guarantees for Neoclouds - BigGo Finance
+      https://news.google.com/rss/articles/CBMidkFVX3lxTE56OUYzT1E0SnpSZUNBdHI4cHhsLVFNZmRqTTdsQ3NzNktaX1B6LUJkTS1RUHhmdk0wS1h2Q1oyTUU4VGJfMUoyTW85MUFmRHFiRmU1aTdaY1FvdVNXV0pUVS03WUdLRF9oeUYySlFuT3B4RVk4OWc?oc=5
+  gpu:e13394ba1d18  1 row(s), 2026-11-17..2026-11-17
+      Fed Flags AI Data Center Leverage: $680B Debt, $3T Contingent Obligations - News and Statistics - IndexBox
+      https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSTBUQWlUMHJGQWxScFloR1oxTnNxU2U5T0F4ZXJ2YVZYVVVnUXdKYm9QM3EtNWktd25ybFZCUnpYNE40cG5yVWxVN1JYSXh3bE4tVWFZRzloRUd1R1FiWm9FMjJ1T2tfaTc1QzRfME5TeWdfXzRzVFA5NDNGRUdldFVULXJKNXI3LUJvVGhybHduTkNKNE51THdJM21tNmhmR0NhWFBvajNNdjA?oc=5
+  gpu:992221c2ab76  1 row(s), 2026-11-17..2026-11-17
+      Jensen Huang Leaves Nvidia With $530 Billion in Commitments and Guarantees - Medium
+      https://news.google.com/rss/articles/CBMivwFBVV95cUxQNGRRN2p2OFJiMzBFR29ZMS1nYzk1TkJDSzdNbjd0Z2R5Q0tfRHZHVktPdHJ6STdCQUlYY2NEdzI5N3o2MDMzTjhjR3pFdzRNQnRydThCREU1V0FlbHRNZm1YajQ4dG5meWNNVXZQMzV5OVNKSmJxMjh4cmltcjNTMGZWLUZUb1huTjZLbnlEazlHSURJVDRtSEEyamZ0aE96WnY5U2hxVGJnQmtSalQwY2ZVSFRBcEtnLUxTeE0yQQ?oc=5
+  gpu:07f1149a15ee  1 row(s), 2026-11-17..2026-11-17
+      AI Data Center Debt Tops $800 Billion as Fed Flags Financial Risks - Korea IT Times
+      https://news.google.com/rss/articles/CBMicEFVX3lxTE92TlZWYlpKUUJQQS1tbXQtWVJVNHl5S0stcDFvNnAwelBsYUxjRzgwY0lPdERSTFh6b3l3Nl9GemxobTA1cjdlSG1MZ0RWWkstb2xaY3lxa1NRVE1BLVBTNUFiOWpMRjBKTHltZHNraHo?oc=5
+  gpu:8674ee3f2280  1 row(s), 2026-11-17..2026-11-17
+      CoreWeave tunes out Nvidia noise, looks to raise $4B - Yahoo Finance
+      https://news.google.com/rss/articles/CBMioAFBVV95cUxPdjRHOUZibXdUaUhGaEJXMGZBbF9YcEhpMWQ2NmRjbjN1YXhLVWFQYTQ2M0IwaWkycmQwVkktUkFpWjZ2cVpIU0VyQ2lVNmVXcndOX2toU2JXOTMzSGFZbWpvdk9xdVpzektYck5Hbkd1OENudXpoR0JfcDBNOWotREZsUVZVZlJpSlZDM1NMVXI3UmY4M0NGajVIY1gzdGVC?oc=5
+  gpu:154fc308035a  1 row(s), 2026-11-17..2026-11-17
+      JPMorgan keeps NVIDIA credit at Underweight, flags GPU financing risk after Huang exit - Blockspace Media
+      https://news.google.com/rss/articles/CBMif0FVX3lxTE9sRWdvMmVxNXNSMjFyV2FJejNsdzJVQnJoeVprNzBhZFBhZlQ1bzZ3a09iY3FkTXQ0QXhNWW9IRnBpaGctMnk5Yjg1dkxaR2tpWU5ab0hRWmZxQy16aE9wNFBBZGpJZlJvUU9hM2xnc25wZUpfeDBDVGpqN3RKUUE?oc=5
+  gpu:46304116f831  1 row(s), 2026-11-17..2026-11-17
+      CoreWeave plans $4 billion high-grade loan, Bloomberg reports - Yahoo Finance
+      https://news.google.com/rss/articles/CBMimwFBVV95cUxQYWVrem1qVmtfOWlhb0lya05JSVJSSXMtQlgycXpoTmxGWm11aTJxelRKcWJCanhUOGVHcTNuMXh5T3hna255LWJBcmRhSUswSi1UR2ZxcXFRQzF6akJXR3VUak5VczVUUHBPX0FrcmRQMlNpenN5a3FXTzB2T0hDbVlsejBDcjVhMW03WGZLb1NZa0planRORzBCVQ?oc=5
+  gpu:2945be4448df  1 row(s), 2026-11-17..2026-11-17
+      “Loans Tighten, Tech Stocks Plunge”: Wall Street Reluctant to Lend Even With Google Guarantees, Casting Clouds Over Anthropic IPO Amid AI Funding Chil
+      https://news.google.com/rss/articles/CBMiV0FVX3lxTE0zQmQ3UGhodXVFMHF1bF9sQ3AwZHhvekZvSWVNMjJrNXdLWGRRbDAzbVYwVWxybnJ6YUtXOTUxQnRUNFdaWGFQSExJZGNrUEVVOUNKRFFMRQ?oc=5
+  gpu:20cb38cf3c88  1 row(s), 2026-11-17..2026-11-17
+      Why CoreWeave Stock Skyrocketed Today - Yahoo Finance
+      https://news.google.com/rss/articles/CBMipAFBVV95cUxNX0ZPZjl3MW5LQmhZZTJMRUtpX0NKTVY5OVJaNUpjcURaY01LdUVNRk1mclA2eWtLVWJRVTVhQ0lNWXUydDZaeHoxS015QVY0UmE3SjJsR3dzbDBMU1NPdGdHMXpTODZJSTRSMlQyaEZfX3JEdExLU1REWGs5clplckZkOTJDVlVsMlI2ZUJ4dzVCUGhUeVprX1FBbGs3R09qa1BfbA?oc=5
+  gpu:640772208be6  1 row(s), 2026-11-17..2026-11-17
+      Nvidia Faced Pressure to Boost Its AI Backstop Before Huang Exit - Bloomberg.com
+      https://news.google.com/rss/articles/CBMitgFBVV95cUxPR0Ywb2N6Y3pxbWtYQWZzMGFaRFBkMG1xTnRseElxWnI0UUtra3VEQ3BoNEdmb1M0cmJFR2c4cEE4UjViX3l4c29fVWx2VmlDT2VkT1dRcWxfZlo2UXAzZkhPX0VxZWk3TlRiR0dTTmluUk9SS3Q0TGlJQktTQUs0WmRpT0QwVC15TnRpbDJGNzF1bDA3NjZpbXJDeEFKNDAxQi1uV013RE5BMlpab2l3MzBfSk5TQQ?oc=5
+  gpu:3b1805f4685c  1 row(s), 2026-11-17..2026-11-17
+      With Jensen Huang’s departure, what becomes of the $500 billion financing platform? The “pillar of trust” underpinning NVIDIA (NVDA.US)’s AI credit fa
+      https://news.google.com/rss/articles/CBMingFBVV95cUxPaDFYUjhIUXk1TE5tODFQR2JjSFBuby14SVN4SWVTWnJWb29DU3o3V1ExLVI0QWxPLXpfaFZ5LUpmbUhUcEpxcTk2UHJYM2hFa191YkNDOXdhZ1NpeW43c2VhWHZzYUJWOHRjMjNpTl9BYlJodi1xaUlGWERIbjdZQ1pYRHZWTF8xa3ZPRjNVTldybEFuM2hXREpMbldJZw?oc=5
+  gpu:22eb4a3221de  1 row(s), 2026-11-17..2026-11-17
+      Latest Trending News - The Sun Malaysia
+      https://news.google.com/rss/articles/CBMilwFBVV95cUxOTzFENmtWN3QxV3VvUzVfY0tFal9XVC1tczBxU3VYV0UyRWhUSlVrOXhvVGh2MnZVc0VpdUFxR0l2anRZYjV6WkVkVkVDeGkwMUdTNWs0RGhtdkQzcjR0Q24yY0hUQWxVR1QtelJLZmdpcDJKaWZUVThmcUQxRlBfN1lzUFRsYmkwSGkyN2l3dDJ3dmhOQ3ZB?oc=5
+  gpu:a11b789ef946  1 row(s), 2026-11-17..2026-11-17
+      Broadcom's $43 Billion AI Backstop Comes Into Focus as Redburn Cuts to Neutral - ad-hoc-news.de
+      https://news.google.com/rss/articles/CBMi4wFBVV95cUxQd1FCRXNwUGFaRW85NlpJUFlla1dKUDZpY0RMT2RxOEdkTXl3ald2NGFfWmhvbEx2TVhuamxkY1hQQnF3QS05NUNIT3NpT1kwX3JMTGM1Q0RLSGYtQy14eDJmZGpwZThlcTVFOTdkY09hbF9KSHpKYVMzSXVVSEMxSFRLcER5TUFFNXVCMkx2Q1hWNWc5QWdZb0FuNTVOeDRXVWlheHBLZXJzMXpKOUhKTDNvTVN1UzQ2SjVCV1pDOGlzOXBaZVh0c0lVNGM0SElrQ01lX0czMFRZN2VVeXhiOTdfTQ?oc=5
+  gpu:ddbd43c9d128  1 row(s), 2026-11-17..2026-11-17
+      Broadcom's $43 Billion Backstop Puts Customer Balance Sheets at the Heart of the AI Trade - ad-hoc-news.de
+      https://news.google.com/rss/articles/CBMi8gFBVV95cUxNX3lGSFdHdEpKTk1SaDVRZ200MkVjUHpOOGRNWnRmeVhhM1JGckRTeXp5UERmWTNoTXZ1dlZPWTF5NzBEbGdPSE1PdUZGeXJLYnJwRkFBZHItRkNlbXJJUXFCcHk4UnJkRTBwSHZLWi13QU9FYS1XZmtBYTIzMUdoYXNrU0k5dTVuVldObHItOUp6TFhTellwb01vMnhGV0FEQ2lJeWEwV3hPS1k1MGxCTHd5THpSTDNySXFLVDRRLUNaT3hLd2VydzRVUWtxUXkyUVBKYUZhZXc0N2xJNW0tQnJoQTFQd1hFTVJjRVdoNno0dw?oc=5
+
+[suppressed — still-true, already seen — 4]  (do NOT re-push)
+  fred:UMCSENT:orange  (UMCSENT UMich sentiment=48.1 [orange])
+  fred:MORTGAGE30US:red  (MORTGAGE30US 30yr mortgage rate %=7.11 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS bps=334.0 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS=334bps [red] >280 X1-trigger reading (strictly abo)
+
+[batch fingerprints — 1]  (bound into the receipt below)
+  data/2026-11-17/news.json  a180e9e0e9b0
+
+After the 7e(d) to 7e(h) dispositions, run (from the repository root):
+  python3 AGENTS/WALTER/tools/intake_scan.py --mark --through data/2026-11-17/news.json --receipt 7643c9942d3c
