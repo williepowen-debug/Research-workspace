@@ -39,3 +39,12 @@ Twenty desks each got one packet, `AGENTS/<DESK>/inbox/2026-11-16_from-PROME_out
 
 1. His own word on whether the 17:51 ET limit on new decision rows covers this audit. If it does not, PROME registers two rows: owners for the unowned put lines (item 2) and the meaning of a blanket launch word (item 9).
 2. Whether to take up postmortem thesis grading (item 16), the stale knowledge-base entries (item 12) or the research-balance items.
+
+## Update 2026-11-16 23:2x ET — Will took up the held items
+
+- **23:04 ET**, verbatim "I will okay it. we can do new/more": his 17:51 ET limit does not cover this audit. Items 2 and 9 became WQ-702 and WQ-703, both RULED A at 23:09 ET (`PROME/proposals/2026-11-16_wq702-703-RULED.md`; WQ-703's charter text was WITHHELD after three reads and the charter is unchanged).
+- **23:16 ET**, verbatim "yes lets do this", quoting PROME's line naming postmortem thesis grading, the stale knowledge-base entries and the research-balance items.
+  - Item 16: packet to TERRY, `AGENTS/TERRY/inbox/2026-11-16_from-PROME_postmortems-thesis-grades-and-missing-close-prices.md`.
+  - Item 12: packets to 22 desks, `AGENTS/<DESK>/inbox/2026-11-16_from-PROME_stale-KB-rows-retire-or-refresh.md`, with PROME's per-desk counts (1,673 rows in total on PROME's definition).
+  - Research balance: a list of proposed commissions was shown to Will; nothing is commissioned until he says yes to it.
+- Follow-through: the DOCKET row dated 2026-11-24 that names these three.
