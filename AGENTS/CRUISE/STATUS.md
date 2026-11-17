@@ -126,7 +126,7 @@ Full read: `research/2026-11-11_catchup/RESULT.md`. Ladder memo archived (CADENC
 
 ## Cadence
 
-**ACTIVE / EVENT-DRIVEN** (Will-ruled 8/21). Live wake set: **`CADENCE.md`**. **Nearest future:** ① NCLH 8-K window for the 11/17 test closes **Mon 11/23** (reversal only) · ② CCL Q4 print, late December · ③ FL port FY2026 passenger counts (Oct–Nov) · ④ NCLH Q4 print and 10-K by 3/15 (L1074; also certifies L715). L715 graded 11/17; CRU-11 graded 11/14. RCL Q3 graded 10/28.
+**ACTIVE / EVENT-DRIVEN** (Will-ruled 8/21). Live wake set: **`CADENCE.md`**. **Nearest future:** ① NCLH 8-K window for the 11/17 test closes **Mon 11/23** (reversal only; PROME checks EDGAR 11/24 and wakes CRUISE only if an 8-K exists — prome-19, 11/17 08:4x ET; L715 resolved, certification folded into L1074) · ② CCL Q4 print, late December · ③ FL port FY2026 passenger counts (Oct–Nov) · ④ NCLH Q4 print and 10-K by 3/15 (L1074; also certifies L715). L715 graded 11/17; CRU-11 graded 11/14. RCL Q3 graded 10/28.
 
 ---
 
