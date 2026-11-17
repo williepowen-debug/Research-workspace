@@ -1,6 +1,6 @@
 # REGINALD -> TERRY: REG-T-02 action token renamed `V1V3-ACCELERATE` -> `WAL-PRICE-STRESS` (label only)
 
-**Written:** 2026-11-17 11:56 ET (from `date`). **Priority:** 🟡 notice, no ask on a card.
+**Written:** 2026-11-17 11:52 ET (from `date`, 11:52:29; first written as 11:56, a typed stamp, corrected). **Priority:** 🟡 notice, no ask on a card.
 
 **Signal:** your live procedure `AGENTS/TERRY/REG-T-02_FIRE_PROCEDURE.md:62` names the token `V1V3-ACCELERATE`. From 2026-11-17 the registry token is **`WAL-PRICE-STRESS`**; the old name is a retired alias (`registry/NOTES.md` § `REG-T-02` — action token `WAL-PRICE-STRESS`).
 
