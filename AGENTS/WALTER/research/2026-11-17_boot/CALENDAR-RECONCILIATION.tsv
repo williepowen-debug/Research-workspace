@@ -1,0 +1,8 @@
+release	period	scheduled	owner	evidence	outcome
+Retail sales (advance) and import/export prices	Oct 2026	2026-11-17 08:30 ET	CARL	FRED RSAFS/RSXFS/IR/IQ first-published 2026-11-17; no owner record at 16:5xZ; routed SIG-W-20261117-004; CARL woken by PROME (carl-c2) 11:53 ET	PUBLISHED-UNREVIEWED -> ROUTED (late, 08:30 to 11:52 ET)
+CRUISE NCLH revolver springing-maturity check	2026-11-17	2026-11-17	CRUISE	CRUISE STATUS 11/17 08:4x ET: L715 graded NOT SPRUNG, provisional	OWNER-COMPLETED
+RED CHG-RED-045 re-review	2026-11-17	2026-11-17	RED	RED 7bcfd11889 S66 08:45 ET: CHG-RED-045 RESOLVED	OWNER-COMPLETED
+CORAL-02 resolution (Florida Realtors October)	Oct 2026	2026-11-17	CORAL/PROME	DOCKET row: RESOLVED 2026-11-17 08:48 ET prome-19 on the owner grade	OWNER-COMPLETED
+Nvidia Q3 FY27 results	Q3 FY27	2026-11-17 after close	VULCAN/HENRY/VIOLET	not yet due at 17:0xZ	NOT YET DUE
+GBDC 9/30 NAV (BRK-36)	Q3 2026	2026-11-17 after close	BROCK	not yet due	NOT YET DUE
+VIOLET credit-vol WATCH window endpoint	10/13-11/17	2026-11-17	VIOLET/LIQUID	no VIOLET record today found	UNKNOWN (endpoint is end of day)
