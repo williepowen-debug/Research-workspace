@@ -32,7 +32,7 @@ Charter step 6b reads this file WHOLE first, then loads the four families by the
    >
    > ⚠️ **NEITHER board statement was a reading of the tape.** Both were artifacts of a fire-ledger that recorded **neither the fire nor the exit** — and **a ledger that can be simultaneously wrong in both directions will do it again on a different trigger.** ⇒ **the fix is to grade at the instrument, not to correct the summary.**
    >
-   > ✅ **OPERATIONAL CONSEQUENCE, LIVE NOW: a `WAL` close <78 from 8/21 onward is a FIRST FIRE OF A NEW CYCLE — fresh signal, full `V1V3-ACCELERATE` chain (REGINALD / WAL / Will), NO duplicate suppression.** Subsequent re-entries inside that new fired state ARE suppressed. **8/21 close: $79.67 — 2.1% above the line, un-fired.**
+   > ✅ **OPERATIONAL CONSEQUENCE, LIVE NOW: a `WAL` close <78 from 8/21 onward is a FIRST FIRE OF A NEW CYCLE — fresh signal, full `WAL-PRICE-STRESS` chain (retired alias `V1V3-ACCELERATE`, renamed by REGINALD 2026-11-17; fires before that date keep the alias) (REGINALD / WAL / Will), NO duplicate suppression.** Subsequent re-entries inside that new fired state ARE suppressed. **8/21 close: $79.67 — 2.1% above the line, un-fired.**
    >
    > 📌 **Generalises to every exit-carrying row on the board** (`RED-FT-01`/`-06`/`-07`/`-09`/`-10`, `REG-T-*`, `CREED-T-*`): **read the exit column before reporting a state, and report the STATE, not the last event.** `[[finding_record_of_an_action_is_not_the_action]]`
 

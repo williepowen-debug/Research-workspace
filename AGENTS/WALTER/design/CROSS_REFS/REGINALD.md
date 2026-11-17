@@ -225,7 +225,7 @@ Source-of-truth: `AGENTS/REGINALD/registry/THRESHOLDS.tsv` (now 13 columns, 8 ro
 | ID | Metric | Threshold | Sustain (canon unit) | Action | Recipient chain | Exit (canon) |
 |----|--------|-----------|---------|--------|-----------------|------|
 | REG-T-01 | KRE-PRICE | <$60 | 1 daily close | ALL-ALL-ACUTE | REGINALD action / ALL-AGENTS info / Will | ≥$63.00 on 3 consecutive closes |
-| REG-T-02 | WAL-PRICE | <$78 | 1 daily close | V1V3-ACCELERATE | REGINALD action / WAL action / Will | ≥$81.90 on 3 consecutive closes |
+| REG-T-02 | WAL-PRICE | <$78 | 1 daily close | WAL-PRICE-STRESS (alias V1V3-ACCELERATE until 2026-11-17) | REGINALD action / WAL action / Will | ≥$81.90 on 3 consecutive closes |
 | REG-T-03 | HY-OAS (FRED BAMLH0A0HYM2) | >320 bps | 3 consecutive daily closes | CREDIT-CANARY-FIRED | REGINALD action / CARL info | ≤300 on 5 consecutive closes |
 | REG-T-04 | HY-OAS (FRED BAMLH0A0HYM2) | >350 bps | 3 consecutive daily closes | ISSUANCE-FREEZE | REGINALD action / LIQUID action / Will | ≤330 on 5 consecutive closes |
 | REG-T-05 | INITIAL-CLAIMS (FRED ICSA) | >300K | 1 weekly print (first release; revisions do not retro-fire) | ORANGE-TO-RED | REGINALD action / CARL LABOR info | ≤275K on 3 consecutive weekly prints |
