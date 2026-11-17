@@ -1,6 +1,6 @@
 # Forecast scorer: timing that does not trust the call's own date, archived calls read, first-logged score shown
 
-Written before the edit, 2026-11-17 (session prome-19, desktop). DOCKET row dated 2026-11-18, "OUTSIDE AUDIT 2026-11-16, PROME'S OWN REPAIRS", items 1 to 3 (the audit's items 3, 4 and 5 in its forward form). `reads: 0`.
+Written before the edit, 2026-11-17 (session prome-19, desktop). DOCKET row dated 2026-11-18, "OUTSIDE AUDIT 2026-11-16, PROME'S OWN REPAIRS", items 1 to 3 (the audit's items 3, 4 and 5 in its forward form). `reads: 1` (read 1 commissioned 2026-11-17 on commit 6348385696; result under § Result when it returns).
 
 ## The defects, in their own terms
 
@@ -45,3 +45,9 @@ Terms. A row's **git record** is every committed version of every prediction led
 - BOND, VULCAN and WATT have not confirmed their archive layouts or counts. BOND holds the audit packet; VULCAN is told in its 11/17 brief and WATT by packet.
 
 Required result: selftest extended with A1 to A6, A8 and the overlap case on built records (no repository needed); a live run on the repository; one independent reader, Opus, devising at least one counterexample of its own, before the repair is called fixed.
+
+## Found while building (2026-11-17, before any independent read)
+
+- **The history reader returned one commit per ledger.** `git log --follow --reverse` gives the creation commit alone (on this machine today, 1 commit of 49 for BROCK's ledger), so every row read NO-GIT-RECORD or was dated to the ledger's first commit. Fixed by reading newest first and reversing in the tool. The closed one-off `timing_check.py` makes the same call; it is not edited or re-run, and what that means for report 1's labels goes to Will as a caveat, not as a reopening.
+- **Live run at the implementing commit (6348385696), 2026-11-17:** 651 rows (596 before the repair), 272 scored (244 before); 55 archive rows read from 8 files, none double counted; 22 scored calls known after 2026-11-05, all BEFORE, 2 listed under LOOK (both cite older reference dates); first-logged Brier 0.241 against 0.223 scored on the same 272 calls, hit-rate baseline 0.249; 40 of 272 revised between first logging and scoring. Run time about 16 seconds over 44 ledger files and about 1,200 committed versions.
+- **Added for testing:** the environment variable `FORECAST_REPORT_ROOT` points the tool at a fixture repository. Unset, behaviour is unchanged (output compared byte for byte).
