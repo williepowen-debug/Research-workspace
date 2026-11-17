@@ -1,55 +1,34 @@
 # RED SCRATCH — canonical session handoff
-**S63 HANDOFF — written 2026-11-12 09:53 ET (from `date`). Desktop, Claude Code, Opus 5.5. Booted 08:48 ET on Will's status-only task; Will 08:53 ET "ok go" on the proposal: grade FT-06 / RED-29 on the official close, re-derive if 11/11 < 18, do the intake, close out. The S61/S62 handoff and its addenda are in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
+**S66 HANDOFF — written 2026-11-17 08:48 ET (from `date`). Desktop, Claude Code, Opus 5.5. Woken 08:37 ET by PROME prome-19 (due row D:L1101, WQ-184 C6); delivered 7bcfd11889; closed out on PROME's ask 08:47 ET. The S63/S64 handoff and its addenda are in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
 
-## CHANGES SINCE (S62-c closed 11/10 19:33 → S63 11/12 08:48)
-- Official: VIXCLS 19.46 [11/10], **17.49 [11/11]** · HY 334 / CCC 1,311 [11/09]; 11/10 ICE cell absent; FRED cells dated 11/11 (HY 330, CCC 1,330, BB 193, B 347, IG 90) sit on a SIFMA close, not counted · SKEW 151.12 [11/10], 149.09 [11/11] · 5y5y 2.15 [11/10] · claims 200K [w/e 11/07] · January Brent 91.49 settle [11/10, BRENT].
-- ORACLE 11/11: December 9 hold 3.5 / +25 85.5 / +50 11.8; Iran pause by 11/15 54.5. FALCON weekly 11/11: marks 1/14/85 held, census 7. DEWEY 003R delivered (bank population, United Fidelity 69% of the smaller band). SAM: SoftBank own-basis 22.5% (was 22.7%).
+## CHANGES SINCE (S64 closed 11/12 15:34 → S66 11/17 08:37)
+- S65 (11/16 20:58 ET) was a narrow PROME-relay session: closeout_check read range, FT-02 exit 0 of 3 on HY 320 [11/12] / 323 [11/13]. The 11/13 KB wave did not run until today.
+- Tape [FRED unless noted]: VIXCLS 18.70 [11/12], 19.30 [11/13]; Cboe 22.91 [11/16] (FRED cell unpublished at 08:47 ET). HY 323 / CCC 1,316 [11/13]. DGS10 4.88 → 5.15, DGS30 5.26 → 5.47, DFII10 2.66 → 2.91 [11/09 → 11/13]; 5y5y 2.15 [11/16]. SPX 7,416.59 [11/16] under its 50-DMA 7,661. SKEW 146.33 [11/16, Cboe].
+- News (WALTER titles, not graded by RED): Nvidia governance shock (Bessent, Huang exit, SIG-W-20261116-002), Nvidia reports Tue 11/17 after the close; CoreWeave B Meta-backed loan; life insurers $85.2B AI debt; Car-Mart standstill; IEA says oil back in surplus.
 
-## WHAT I DID (S63)
-- Boot in full; boot.py, review_debt, ledger staleness, corrections, basis.
-- Intake: 4 inbox packets (3 DEWEY, 1 SAM) and WALTER card 029 logged and filed; 5 corrections (COR-20261111-06/13/14/24/25) receipted NO-OP; basis drift read (WALTER BOARD_CONSUMPTION_SPEC §3.5.9, moved text, no rule change) and re-hashed.
-- **FT-06 / RED-29 graded:** VIXCLS 17.49 [11/11], FRED 09:48 ET = Cboe; run broke at 4 of 5; exit 0 of 5; RED-29 WRONG (EVENT FALSE). Registry, scan view, PREDICTIONS, CATALYSTS, CALENDAR, STATUS mirrored.
-- **Re-derivation (discretionary):** Stag 33 → 32, Managed 25 → 26, net-bear 68 → 67, HOLD 72 → `reports/2026-11-12_S63_weight_rederivation.md`. Bull steelman re-checked.
-- KB-102 (credit tape) and KB-103 (oil) refreshed; KB-071 reviewed. ML-331 (a lower low cannot inherit the 'since' date) and ML-332 (the non-session clause governs citations too), both caught in my own draft before commit.
-- STATUS current-state reconciliation: stale sections folded verbatim → `reports/2026-11-12_S63_status_folded.md` (17445 B, crc32 2605937422); counter-signal levels table rebuilt [11/12]; trigger table [11/12].
-- Routing: OUTBOX -079; packet `PROME/inbox/2026-11-12_from-RED_S63-ft06-rederivation.md`; NEXUS vS63 (vS62-b rotated).
+## WHAT I DID (S66)
+- **CHG-RED-045 RESOLVED** on the governing rule (no reopen word from Will; re-spec NOT FIRED, 23bp of 100bp). CATALYSTS, CALENDAR, STATUS mirrored.
+- **FT-06 exit run restarted: 2 of 5 [11/13]**; registry state + scan view regenerated.
+- PROME packets (2) drained: audit item 1 partly right (CHANGELOG aliases, no renumber); item 2 disagreed in part; 12 stale KB rows: 6 refreshed (043, 086, 105, 106, 107, 108), 4 DATED-HISTORICAL (067, 046, 082, 083), KB-052 held to 12/15, KB-110 to 11/20.
+- Five VX flip grades dated (002, 007, 010, 021, 025). **VX-002 real wages: run MET on first-published values, BROKEN on the current vintage (Aug +0.01pp); weights 20/80 held by discretion; bull point 2 corrected in STATUS.** ML-RED-333.
+- Corrections COR-20261112-03 / COR-20261116-09 NO-OP; basis re-hashed (WQ-701); board_log rotated (59.5%); charter revisit line re-stated (45,000 B; charter 29,245 B).
+- Routing: packet `PROME/inbox/2026-11-17_from-RED_chg045-closed-inbox-drained.md` (consumed by PROME 08:47 ET); NEXUS vS66 (vS63 rotated).
 
 ## NEXT SESSION (dated, ordered)
-1. 🟠 **Fri 11/13:** KB review wave: KB-107 real wages (re-class; October unreadable, no Oct 2025 base), KB-086, -067, -105, -106, -108; combo theme credit-breadth-outside-ai (KB-110). Daily: FT-02 exit on the 11/10 ICE cell (LIQUID grades the cell's session).
-2. 🟡 **11/14–11/17:** KB-043 (11/14); KB-083, -046, -052, -082 (11/15); KB-104 (11/17).
-3. 🟡 **Tue 11/17:** CHG-045 closes as NOT REOPENED unless Will reopens his 8/16 choice (told in chat 11/12; RED recommends not reopening).
-4. 🟠 **Thu 11/19:** CHG-057 re-review (NVIDIA 10-Q SB Energy guarantee line, ING auction bids, SoftBank Tokyo/CDS/rating; use SAM's 22.5% basis). STRONG → route to TERRY for a tradeability read.
-5. 🟡 **By Fri 11/20:** Zweig thrust decision tree for the 11/27 VX-006 grade; combo themes KB-109, -112, -113; KB-054; Michigan final.
-6. 🟡 **~11/25** FT-10 outcome grade · **11/26** Thanksgiving bar bridged · **11/30** CHG-044, CHG-054 · **12/04** payrolls → next re-derivation · **12/09** FOMC · **12/10** RED-28 · **12/15** CHG-055, RED-31 · **12/31** RED-25/26/27/30.
-7. 🟢 Offered to Will, not assigned: retirement pass, about 8 files over 60 days.
+1. 🟠 **Thu 11/19 (D:L1109, PROME's next wake):** FT-06 exit read first: VIXCLS 11/16, 11/17, 11/18 all ≥18 → 5 of 5 → execute Stag +2 / Managed −2 mechanically (net-bear 67 → 69), CHANGELOG + NEW packet; any close <18 breaks the run. Then **CHG-057 re-review** (Nvidia Q3 results and 10-Q SB Energy guarantee line, ING auction bids, SoftBank Tokyo/CDS/rating; SAM's 22.5% basis; Nvidia governance shock is new input). STRONG → TERRY for a tradeability read.
+2. 🟡 **By Fri 11/20:** Zweig thrust decision tree for the 11/27 VX-006 grade; combo themes KB-109, -110, -112, -113; KB-054; Michigan final.
+3. 🟡 **Before 12/10:** write VX-002's vintage into its Flip_If letter (first-published vs current), pre-data.
+4. 🟡 **By 11/28:** review VX-006, -012, -015, -017 (Last_Reviewed 10/14, 45-day rule).
+5. 🟡 ~11/25 FT-10 outcome grade · 11/26 Thanksgiving bar bridged · 11/30 CHG-044, CHG-054 · 12/04 payrolls → next re-derivation (real-rate shock is input, counted once) · 12/09 FOMC · 12/10 RED-28 · 12/15 CHG-055, RED-31 · 12/31 RED-25/26/27/30.
+6. 🟢 Offered to Will, not assigned: retirement pass, about 8 files over 60 days.
 
 ## OPEN THREADS
 - FT-10's ~11/25 CORRECT must not be read as war or credit foresight (tech and gamma trigger, ML-311).
-- WL-11: price leg met on settle; flow leg is BRENT's; do not resolve by inference.
-- The FRED ICE cells dated 11/11: whether they are the 11/10 session relabelled is LIQUID's call.
+- WL-11 Brent <95: price leg met; flow leg is BRENT's.
+- SOFR 3.93 over IORB 3.90 [11/16] is LIQUID's to grade, not RED's.
 
 ## PENDING WILL-DECISIONS
-- CHG-045 reopen choice by 11/17 (not on WILL_QUEUE; Will told in chat; default = not reopened).
+- None.
 
 ## GIT STATE
-See the closeout message. Shared tree holds other desks' dirty files (CYPHER, DAEDALUS, LABOR, VULCAN, WALTER); RED commits by pathspec only.
-
-## ADDENDUM S63-b — 2026-11-12 12:10 ET (from `date`)
-- Will 12:08 ET approved RED's recommendation on DAEDALUS WQ-678 trims: 7 applied, U-R07 declined (→ `MAINTENANCE.md` S63-b). `OUTBOX.md` FROZEN; W8 = dated `PROME/inbox/` packet; `closeout_check.py` (e) reads it.
-- No weight, trigger, prediction or catalyst change. 11/10 ICE OAS cell still absent on FRED at 12:05 ET (HY 334 [11/09], 330 dated 11/11 non-session).
-- Next entry point unchanged: NEXT SESSION item 1 (Fri 11/13 KB wave).
-
-## ADDENDUM S64 — 2026-11-12 15:34 ET (from `date`)
-- Repair-only session on Will's word (14:18 ET, via PROME prome-e8): `closeout_check.py` e no longer lets an earlier same-day packet pass a later state change. Commits 71f7d26586 · f5994abb89 · f7494c4f88 · this closeout. Two independent reads (PROME reader); residue in `scripts/test_closeout_check.py` docstring.
-- Will 14:45 ET: accepted with limits; provisionally repaired until this closeout reconciled charter W8, delivery instructions and e. Done here. **New rule for every later ending: a state change gets a NEW `PROME/inbox/` packet file (never an addendum), committed after the gate or with its state.**
-- No weight, trigger, prediction, challenge or catalyst change. 5 PROME packets logged + filed; board_log rotated (7 rows).
-- Next entry point unchanged: NEXT SESSION item 1 (Fri 11/13 KB wave).
-
-
-## ADDENDUM S66 — 2026-11-17 08:45 ET (from `date`; PROME prome-19 due-row wake; NOT a closeout, holding for PROME)
-- Note: S65 (11/16 20:58 ET) was a narrow PROME-relay session (closeout_check read range, FT-02 grade); the 11/13 KB wave in NEXT SESSION item 1 never ran until today.
-- **CHG-RED-045 RESOLVED** (no reopen word from Will; re-spec NOT FIRED stands). CATALYSTS and CALENDAR mirrored.
-- **FT-06 exit 2 of 5** [11/13]; Cboe 22.91 [11/16] indicates 3; FRED VIXCLS for 11/16 publishes about 09:48 ET today. **11/19 read decides it** (11/17 and 11/18 closes ≥18 → Stag +2 / Managed −2 mechanical, net-bear 69).
-- PROME packets drained (2): audit item 1 partly right (CHANGELOG aliases added, no renumber); item 2 disagreed in part; 12 stale KB rows dispositioned (6 refreshed, 4 DATED-HISTORICAL, KB-052 held to 12/15, KB-110 to 11/20). Corrections COR-20261112-03 and COR-20261116-09 receipted NO-OP. Basis re-hashed (root CLAUDE.md WQ-701).
-- **Owed:** VX-002 vintage letter before 12/10 (first-published vs current; Aug now +0.01pp). Four VX rows reviewed 10/14 (006, 012, 015, 017) due by 11/28. CHG-057 11/19 (Nvidia results tonight). Zweig tree by 11/20. KB-110 + combo themes 11/20. board_log at 66.9%, rotate at closeout. The charter revisit trigger (29,295 B = 90% of 32,550) is stale after WQ-701's 50,000 B charter ceiling; re-state at closeout.
-- Next entry point: PROME's word; then FRED 11/16 VIX cell, then NEXT SESSION items 4–6.
+S66 commits: 7bcfd11889 (delivery) and this closeout; pushed via safe-push (receipt in the closeout message). Shared tree holds other desks' files; RED commits by pathspec only.

@@ -33,7 +33,7 @@
 ## BULL CASE STEELMAN (re-steelmanned S52 2026-10-14; checked S53 — still the best bull case; the 9/6 vintage is folded → [`reports/2026-10-14_S52_bull_steelman_9-6_vintage_folded.md`](reports/2026-10-14_S52_bull_steelman_9-6_vintage_folded.md))
 
 1. **Expectations didn't move.** 5y5y 2.32–2.36 through a core re-acceleration, two oil shocks and five ship losses; 2.34 [10/14]. The long end **rallied** on CPI day and again on 10/15.
-2. **There is no spiral mechanism.** Core re-accelerated, but not via oil (airfares under the bar). **Real wages are negative four straight months on the registered series (−0.42pp Sep, KB-107)**: prices are outrunning wages, which compresses demand later — the anti-spiral.
+2. **There is no spiral mechanism.** Core re-accelerated, but not via oil (airfares under the bar). **[⚠️ S66 11/17: FIRST-PUBLISHED VINTAGE, not true on current data (Aug +0.01pp, Sep −0.33pp, KB-RED-107); see S63 check below]** **Real wages are negative four straight months on the registered series (−0.42pp Sep, KB-107)**: prices are outrunning wages, which compresses demand later — the anti-spiral.
 3. **Credit is a tail, not breadth — but the 10/14 cell is the first counter-example.** IG 84 flat. 10/13→10/14: B +13, BB +3, CCC +15. Big-bank Q3 benign (BAC NCO 0.44%). OZK's largest problem loan got $100M of fresh equity (8-K 10/12), not a default.
 4. **Vol says hedging, not crash.** SKEW fired (FT-10) while VIX sits 15–17.5 and the curve is in contango. Protection bought ahead of known dates is insurance until VIX confirms (FT-10's own outcome test: VIXCLS ≥20 within 30 obs).
 5. **Oil flows are recovering under fire.** IEA: Gulf crude exports 13.9 Mb/d in Sept (>75% of prewar). Paper Brent ~105 and OVX 48.6 [10/14] are flat through confirmed sinkings.
@@ -108,7 +108,7 @@ Live per-vector weights are `workbook/VX.tsv` (14 live vectors). A full vector r
 1. 🟠 **Fri 11/13:** KB review wave (KB-107 real wages re-class, October unreadable; KB-086/067/105/106/108; combo theme credit-breadth-outside-ai, KB-110). Done 11/12: FT-06 / RED-29 graded (run broke, RED-29 WRONG), post-CPI re-derivation (net-bear 67), intake and corrections.
 2. 🟠 **11/14–11/20:** KB rows due 11/14–11/20 (EGBN, FL banks, BDCs, retail sales, three combo themes) · 11/17 CHG-045 (Will only) · 11/19 CHG-057 re-review (NVIDIA 10-Q, ING bids) · 11/20 combo themes and Michigan final; a decision tree for the 11/27 Zweig thrust grade is due by 11/20.
 3. 🟡 **~11/25** FT-10 outcome grade · **11/30** CHG-044, CHG-054 · **12/10** Nov CPI (RED-28) · **12/15** CHG-055, RED-31 · **12/31** RED-25/26/27/30 · ~1/28 EGBN Q4. Retirement pass owed: about 8 files over 60 days old (13:14 ET sweep).
-4. 🟢 **Charter trim RULED A by Will 2026-10-28 21:43 ET ("ok go with A and record it"): leave CLAUDE.md at 27.9 KB (86% of budget).** Revisit at >29,295 B (90%) OR the next substantive charter edit. DAEDALUS Census #2 declined without spending that trigger. KB-081 stays on review_debt axis ② by design.
+4. 🟢 **Charter trim RULED A by Will 2026-10-28 21:43 ET ("ok go with A and record it"): leave CLAUDE.md at 27.9 KB (86% of budget).** Revisit at >29,295 B (90%) OR the next substantive charter edit. **[S66 2026-11-17 08:47 ET restatement, arithmetic on that ruling, no new rule: WQ-701 (root CLAUDE.md, 11/16) set the desk-charter ceiling at 50,000 B, so the 90% line is 45,000 B; the charter is 29,245 B = 58.5% (it had reached 99.8% of the old 29,295 B line).]** DAEDALUS Census #2 declined without spending that trigger. KB-081 stays on review_debt axis ② by design.
 
 ---
 

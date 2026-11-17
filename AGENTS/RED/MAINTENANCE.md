@@ -4,6 +4,13 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S66 — 2026-11-17 08:47 ET closeout (from `date`; PROME prome-19 due-row wake, closeout on PROME's ask 08:47 ET)
+
+- **Trigger:** outside audit of 2026-11-16 relayed by PROME (items 1 and 2) and Will's stale-KB word (11/16 23:16 ET).
+- **What changed:** `thesis/CHANGELOG.md` gained dated ID-alias notes under three May entries (labels RED-11..14 there = canon RED-16..19); no ID renumbered. `workbook/KB.tsv` 12 rows dispositioned (status and Stale_By cells only for the 4 re-classed; Fact cells prefixed with dated reads for the 6 refreshed). `board_log.tsv` rotated (15 rows → `archive/board_log_pre-2026-11-05.tsv`). `registry/basis-hashes.json` re-hashed on root CLAUDE.md WQ-701.
+- **Files:** thesis/CHANGELOG.md · workbook/KB.tsv · workbook/VX.tsv · board_log.tsv · archive/board_log_pre-2026-11-05.tsv · registry/basis-hashes.json.
+- **Boot-impact:** none. No schema, tool or protocol change.
+
 ## S64 — 2026-11-12 15:34 ET closeout (from `date`; repair on Will's word 14:18 ET; state ruled 14:45 ET)
 
 - **Trigger:** CATO M12-3 (PROME packet 12:39 ET): check e's W8 leg passed a later state change on ANY RED packet dated today, consumed ones included. Will 14:18 ET: repair the existing checker, three named cases, no new checker. Will 14:45 ET: "Accept the completed work with the stated limits. Keep RED provisionally repaired until its closeout reconciles the charter, delivery instructions and checker behavior; preserve the remaining false-pass limitation explicitly. Don't describe the checker as proving every new state change was delivered."
