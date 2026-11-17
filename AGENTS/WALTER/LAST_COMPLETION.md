@@ -1,61 +1,59 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-17T19:13Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-15 on the desktop (Tuesday 11/17, boot 11:44 ET). **Tier 1 LIGHT closeout for a reboot** on Will's word 14:11 ET ("lets do a close out here so we can reboot WALTER"). Full closeout deferred; two stacked full-deferred breadcrumbs today. Prior versions of this file today: research/2026-11-17_boot/LC-ROTATED-2.md (12:01 ET light closeout plus legs 2 to 4) and research/2026-11-17_boot/LC-ROTATED.md (the 11/16 Tier 2 FULL record).
+Updated 2026-11-17T23:26:32Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-15 on the desktop (Tuesday 11/17; boots 11:44 ET, a 14:1x reboot, and a post-close reboot 16:44 ET). **Tier 2 FULL closeout** on Will's word 18:22 ET ("lets close out WALTER here"); clears today's two light breadcrumbs (17:00Z, 19:12Z). Prior versions today, verbatim: research/2026-11-17_boot/LC-ROTATED-3.md (14:13 ET light), LC-ROTATED-2.md (12:01 ET light), LC-ROTATED.md (the 11/16 Tier 2 FULL record).
 
 ## RESUME — do these first
 
 0. **Will's standing asks:**
-   - First `--mark` under the new scanner: DONE 11/17 (PROME packet deff2b8bac).
-   - **November 24 (DOCKET 1164):** PROME measures from existing records; no new WALTER log or study. Records for it: the 04:17Z slot ran at 13:33Z (run 44093858908); the 15:17Z slot had not run by 18:11Z; Will-word run 44145198548 at 18:11Z (ce689da). WALTER's four notes on the new searches are on DOCKET 1164 (PROME fd83e19cbd): Gulf searches work; china-asia-3 floods with sports; a Fed/FSOC search would have caught the FSR; LatAm bank failures have no owner.
-1. **Nvidia Q3 after today's close (call 17:00 ET):** VULCAN (vulcan-ba, in session, holding for the release), HENRY, VIOLET own. Live context: cards 007 (BIS chip curbs, China countermeasures), 013 (FT/BBC titles: Huang says he is prepared to return, board refused; FT on Singapore-sales disclosure and Megaspeed), 018 (Meta bond). At the next boot: card the results if no owner has, check for a named Chinese countermeasure, and check whether the Huang return titles were confirmed or denied.
-2. **WQ-708 RULED A (Will 13:33 ET):** Bright Data retired; §9a step 4 is "stop at a block, other outlet, or ask Will to paste". Done (cff3c24d59, count fix 2ec60ca889); PROME recorded the ruling.
-3. **SEC/EDGAR:** always build the User-Agent with `scripts/sec_contact.py` (WQ-600, contact in FORGE/tools/market-data/.env). MEMORY #59 rewritten.
-4. **Open:**
+   - **November 24 (DOCKET 1164):** PROME measures WQ-694 from existing records; no new WALTER log or study. Records: research/2026-11-17_boot/LC-ROTATED-3.md RESUME 0.
+1. **Wed 11/18:**
+   - **Full Iran sweep (anchor item 8, due ~11/18) and the anchor size check** (23,526 B, 72% of budget). Add a bounded note for cards 20261117-001 and -015 and the Gulf-search fix. FALCON's last grade: 11/17 about 11:58 ET (Qeshm CLAIM ONLY).
+   - **RED-FT-06 near-exit watch:** VIX closes at or above 18 on WALTER's read: VIXCLS 18.70 [11/12], 19.30 [11/13], 22.91 [11/16], vendor/Cboe 25.46 [11/17]. A fifth on 11/18 would meet the exit (>=18, s=5) on WALTER's read. RED grades on VIXCLS; RED's registry said 2 of 5 at [11/13]. Read VIXCLS for 11/17 and 11/18 and send RED the figures; do not grade.
+   - WPSR (Cushing, boundary 3; last 27.356M [w/e Nov 6]); Trump in Shenzhen; OSPREY, HANS and YURI wakes (PROME-registered); VIOLET wake 11:00 ET (PROME's new row).
+   - FRED HY [Nov 17] (REG-T-04 near-trigger watch, 334 [Nov 16] is 16 bp under 350) and SP500 [Nov 17] (HENRY graded HEN-60 on the vendor close and will disclose any FRED difference).
+   - Collector: last run 18:14Z 11/17; next scheduled 04:17Z 11/18. At boot, if the last collection is over about 12 hours old, start one run (WQ-681 A).
+2. **Nvidia follow-ups (VULCAN owns):** card 019 (results) and correction 020 (8-K read) are on the BOARD. Still open from card 013: no named Chinese countermeasure seen; Huang's conditional offer to return is on record and the board's refusal is unnamed-source (KB-VULCAN-451). Card the call (17:00 ET 11/17) only if an owner has not and something decision-changing was said; WALTER did not hear it.
+3. **Open:**
    - REGINALD packet inbox/2026-11-17_from-REGINALD_companion-SIG-W-20260619-008-review-lapsed.md (DOCKET L889, due **Fri 11/20**): renew the signal-read companion after a content review, or decline by packet. Not consumed; left in inbox.
-   - Unconsumed handoffs on recipient evidence: HANS (last own STATUS commit 11/11; 7 WALTER handoffs incl. ACTION 20261111-031, 20261114-003), SAM (11/12; 9, incl. ACTION 20261113-004), YURI (11/11; 5), AEOLUS (11/11; 3). Rule 13 not evaluated. PROME has OSPREY, HANS and YURI registered for Wed 11/18.
-   - CYPHER (cards 008, 011, 012), BROCK (014, 017), CARL (004, 010), FALCON (001) consumed or graded today; VULCAN in session on 007 and 013.
-5. **Next scheduled:** Wed 11/18 full Iran sweep and anchor size check (anchor 23,526 B; add a note for 001, 015 and the Gulf-search fix), WPSR (Cushing, boundary 3), Trump in Shenzhen, OSPREY/HANS/YURI wakes. Thu 11/19 Trump-Xi, ICSA, MEMORY calendar check. Fri 11/20 REGINALD companion. Nov 24 WQ-694 follow-up. Nov 29 OPEC+. Later items: research/2026-11-17_boot/LC-ROTATED.md RESUME 7.
-6. **Earlier carries, verbatim and binding where open:** research/2026-11-17_boot/LC-ROTATED.md (11/16 RESUME, GAPS, FOLLOW-UP, OPEN DESIGN DECISIONS pointer, SOURCE-SEARCH ruling pointer).
+   - Unconsumed handoffs on recipient evidence: HANS (last STATUS commit 11/11; ACTION 20261111-031, 20261114-003; plus INFO 020 tonight), SAM (11/12; ACTION 20261113-004), YURI (11/11), AEOLUS (11/11). Rule 13 not evaluated; PROME has HANS and YURI wakes 11/18.
+4. **Next scheduled:** Thu 11/19 Trump-Xi, ICSA (RED-FT-05, REG-T-05), MEMORY calendar check. Fri 11/20 REGINALD companion. Nov 24 WQ-694 follow-up. Nov 29 OPEC+. Later items: research/2026-11-17_boot/LC-ROTATED.md RESUME 7.
+5. **Earlier carries, verbatim and binding where open:** research/2026-11-17_boot/LC-ROTATED-3.md (FOLLOW-UP 0 to 9, GAPS) and LC-ROTATED.md (11/16 RESUME, GAPS, FOLLOW-UP, OPEN DESIGN DECISIONS pointer, SOURCE-SEARCH ruling pointer).
 
-Calendar coverage cutoff: 2026-11-17T19:13:00Z (step 7i window from 2026-11-17T17:01:20Z: no further scheduled release elapsed; Nvidia and GBDC report after today's close, NOT YET DUE; research/2026-11-17_boot/CALENDAR-RECONCILIATION.tsv). Prior cutoff 2026-11-17T17:01:20Z.
+Calendar coverage cutoff: 2026-11-17T23:22:00Z (step 7i window from 2026-11-17T19:13:00Z: Nvidia Q3 ROUTED as 019; GBDC 9/30 NAV OWNER-COMPLETED by BROCK; VIOLET credit-vol watch endpoint OWNER-COMPLETED; research/2026-11-17_boot/CALENDAR-RECONCILIATION.tsv). Prior cutoff 2026-11-17T19:13:00Z.
 
 ## STATUS
 
-Boot PARTIAL (walter-15, desktop):
-- **Done:** git sync, doctor (7 stale REGISTRY rows refreshed at step 8), boot basis (root CLAUDE.md WQ-701 reviewed; re-hashed with THRESHOLD_SCAN.md and X_BOOKMARKS_ACCEPTANCE.md; MATCH), read-cap rc 0, whole reads of STATUS, anchor, MEMORY, LAST_COMPLETION, REGISTRY, ROUTING_TABLE, ROUTING_OVERLAYS, THRESHOLD_SCAN; 6b registries (RED whole and hash-checked, REGINALD whole, CREED diff, HANS unchanged since its 11/16 whole read); 6c scan; 7, 7d, 7g (9 packets consumed), 7i, 7e (two batches, two marks), 7f (0 drops), 7h (22 bookmarks), 8 (11 rows), 9a PASS.
-- **Not done:** FILTER_SPEC boot-context scoped reads; IRAN_WAR_GUARDS read in targeted blocks only; ORCH_INFLIGHT header only; step 9 REQ re-read; Rule 13; no closing threshold scan (no close pull).
+Post-close boot PARTIAL (walter-15, desktop, 16:44 ET):
+- **Done:** doctor (0 HIGH; MED: CARL REGISTRY row, refreshed; unconsumed handoffs), boot basis MATCH (28 paths), read-cap rc 0, whole reads of STATUS, anchor, MEMORY, LAST_COMPLETION, REGISTRY, ROUTING_TABLE, ROUTING_OVERLAYS, THRESHOLD_SCAN; RED canon hash re-verified (9da587b5, matches the scan view); close threshold scan (research/2026-11-17_boot/THRESHOLD-SCAN-CLOSE.md); 7 (BOARD to 018 known); 7d none; 7g (HENRY HEN-60 packet consumed, card 021); 7i; 7e (lane quiet: no collection after 18:14Z, already marked; 0 NEW, 0 review items); 7f (0 drops); 8 (12 rows); 9a PASS.
+- **Not done / partial:** REGINALD, CREED and HANS registries not re-read whole this leg (no commits since the morning reads; relied on those); HANS daily rows not pulled; Brent contract identity unresolved; reads_check UNKNOWN (attestation older than the boot protocol); FILTER_SPEC boot-context reads; 7h bookmarks not run this leg; ORCH_INFLIGHT read by targeted grep, not whole; step 9 REQ re-read; Rule 13. Post-close news check was two web searches only (no new US-Iran kinetic event found; results thin, not an all-clear).
 
 ## CHANGED
 
-- Cards SIG-W-20261117-001 to -018 (102 delivery rows, all delivered). Corrections 002, 010, 012, 017 with R1 rows COR-20261117-02, -10, -12, -17 and banners on 20261116-005, 004, 008, 011, 014.
-- Manifests BM-20261117-01 (203/203) and -02 (303/303). Intake marked through data/2026-11-17/news.json at ce689da. 22 bookmarks marked. Review items: 1 cruise NOTE; 3 + 22 GPU dispositioned.
-- REG-T-02 token WAL-PRICE-STRESS mirrored (27ee9f525d). WQ-708 A retirement (cff3c24d59, 2ec60ca889). MEMORY #34, #43, #51 n+1 each; #59 rewritten. REGISTRY 11 rows. STATUS, SESSION_LOG (two breadcrumbs; Nov 13 paragraph and three observation rows rotated verbatim).
-- Packets: PROME (first-mark transition, deff2b8bac); HENRY (narrowing reply). Session messages: PROME (wake recommendations, sweep error, search notes, WQ-708), REGINALD, BRENT (sweep), VULCAN, BROCK (doorbells).
+- Post-close leg: cards SIG-W-20261117-019 (IMMEDIATE Nvidia Q3 FY27, VULCAN action), -020 (correction of 019 and 018, R1 COR-20261117-20, banners on both), -021 (HENRY HEN-60 HIT, BOARD record). Today total: 001 to 021, IMMEDIATE 001, 004, 007, 013, 019; corrections 002, 010, 012, 017, 020.
+- research/2026-11-17_boot/: cards and dispatched JSON 019 to 021, THRESHOLD-SCAN-CLOSE.md, CARD-020-FLAG-CLEARED.md (segment split confirmed at KB-VULCAN-455, 5aa35f29e8), intake-scan-3.txt, 4 calendar rows, LC-ROTATED-3.md.
+- REGISTRY: 12 owner rows plus WALTER. STATUS: header, BOTTOM LINE (corrects the 14:12 ET line's correction count), close observation row, NETWORK AWARENESS; Nov 14 paragraph and two observation rows rotated verbatim to SESSION_LOG (STATUS 24,232 to 21,892 B). MEMORY: 9 findings and the 11/16 note rotated verbatim to MEMORY_PROMOTED (24,612 to 22,523 B); #63 and #67 n+1; 11/17 session note. SESSION_LOG: full-closeout entry.
+- Inbox: HENRY HEN-60 packet consumed and moved to processed/, declared in .consumed.tsv.
+- Messages: VULCAN, HENRY, VIOLET doorbells on 019; VULCAN acknowledgment on 020.
 
 ## RESULT
 
-Four IMMEDIATE cards (001 Iran, 004 retail sales, 007 chip curbs, 013 Huang return titles), plus the Fed FSR (014/017) and Meta bond (018) on the AI-debt theme. Owners corrected four WALTER cards the same day; each correction is on the BOARD.
+Nvidia's results reached the BOARD at the issuer primary about 30 minutes after release; VULCAN's 8-K read corrected the card within the hour and added the guarantees ($118.0B) and supply commitments ($390B). The S&P 500 closed under its 200-session average (HENRY HEN-60 HIT). No registered fire or exit.
 
 ## GAPS
 
-- **06f187503c swept four BRENT and REGINALD working-tree paths** (path list from git status). Owners confirmed the content final; no revert. All later commits used explicit lists.
-- **Three WALTER errors corrected by owners or PROME:** card 004 labelled RSXFS as ex-autos (MEMORY #43); '17 requests' typed for 15 (MEMORY #34); the Meta 8-K 403 came from a hand-built SEC header, and WALTER first told Will it needed his permission (MEMORY #59).
-- R1 targets for correction 002 cover item 8's holders only (declared deviation; closeout_check R1-WRITE REVIEW).
-- dispatch_card.py `--check` does not catch an over-long filename (card 006 failed at write, nothing partial). Not fixed.
-- Titles-only cards: 005, 006, 013, 015, 016; 013's return offer and 015's plot title uncorroborated.
+- **WALTER errors today, all owner-corrected the same day:** card 004 RSXFS label (CARL); '17 requests' typed for 15 (PROME); Meta 8-K 403 from a hand-built SEC header; card 019 implied Kress was named tonight (11/12) and called Huang's on-record offer unconfirmed; card 018 dated the underwriting agreement by its closing date (11/4, not 11/12) and missed the coupons in the 8-K body; the 14:12 ET BOTTOM LINE said five corrections when four had been sent. Earlier: 06f187503c swept four BRENT and REGINALD paths (owners confirmed final; no revert).
+- Correction 020 reached origin on other desks' pushes (293bd2b2b3 is on origin/master at 23:2xZ), before Will answered WALTER's push question.
+- Titles-only cards today: 005, 006, 013, 015, 016.
 - Root CLAUDE.md at 75% of its read budget (PROME's file).
 
 ## WILL_NEEDS
 
-None open. WQ-708 ruled today. WQ-694 A, WQ-693 A, WQ-697 A, WQ-684 A, WQ-681 A, WQ-678 A, WQ-622, WQ-600, WQ-573, WQ-556 C, WQ-401/WQ-508, WQ-388 DECLINE and the source-search limits remain binding.
+None open. WQ-708 A, WQ-694 A, WQ-693 A, WQ-697 A, WQ-684 A, WQ-681 A, WQ-678 A, WQ-622, WQ-600, WQ-573, WQ-556 C, WQ-401/WQ-508, WQ-388 DECLINE and the source-search limits remain binding.
 
 ## FOLLOW-UP
 
-0. CYPHER asks and at-dispatch rules: research/2026-11-17_boot/LC-ROTATED.md FOLLOW-UP 0 (unchanged).
-1. WQ-678 U-W03/U-W18 companion: REGINALD's L889 ask (RESUME 4), due 11/20.
-2. to 7. As at research/2026-11-17_boot/LC-ROTATED.md.
-8. Idea, not installed: dispatch_card.py `--check` should refuse a filename over the filesystem limit.
-9. Offered to Will, not started: count bookmarks read headline-only because of paywalls, by outlet, to size a subscription decision.
+0. As at research/2026-11-17_boot/LC-ROTATED-3.md FOLLOW-UP 0 to 9 (CYPHER at-dispatch rules; REGINALD L889 companion; dispatch_card.py over-long filename idea; paywall count offer).
+10. Results cards: read the 8-K exhibits (CFO Commentary) before or right after the release card; the press release lacks the segment splits, guarantees and commitments (MEMORY #63 n+1).
 
 ## OPEN DESIGN DECISIONS
 
@@ -63,36 +61,34 @@ Unchanged; verbatim at research/2026-11-11_light-closeout/LC-ROTATED.md § OPEN 
 
 ## CLOSEOUT RECEIPT
 
-Tier 1 LIGHT closeout for a reboot, walter-15, desktop. Prior: LIGHT 2026-11-17T17:01:20Z (same session); FULL 2026-11-17T00:31:04Z (walter-5a). Publication is not consumption.
+Tier 2 FULL closeout, walter-15, desktop. Prior: LIGHT 2026-11-17T19:13:00Z and 2026-11-17T17:01:20Z (same session); FULL 2026-11-17T00:31:04Z (walter-5a). Publication is not consumption.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-17T19:13:00Z",
+  "as_of": "2026-11-17T23:26:32Z",
   "next_review": "2026-11-18",
   "publication": [
-    {"commit": "d94e19a6ab", "state": "published", "note": "card 018; safe-push CONFIRMED on origin"},
-    {"commit": "693b4b1669", "state": "published", "note": "cards 013 to 016 and the 18:14Z lane mark; safe-push CONFIRMED"},
-    {"commit": "e1e97f47ec", "state": "published", "note": "correction 017; earlier: 015d68acf4 (012), 490246429a (011), 4a940bb84b (010), 57026f41e1 (007-009), 72aeca28dc (001) all CONFIRMED by safe-push"}
+    {"commit": "ffce6c5159", "state": "published", "note": "card 019; safe-push CONFIRMED on origin"},
+    {"commit": "293bd2b2b3", "state": "published", "note": "correction 020 with banners and R1 row; on origin via other desks' pushes (verified merge-base 23:2xZ)"},
+    {"commit": "65c2e43956", "state": "published", "note": "card 020 flag cleared note; on origin"}
   ],
   "delivery": {
     "signal_date": "20261117",
-    "total": 102,
-    "delivered": 102,
-    "note": "reconciled after each push; CARL, RED, PROME INFO by BOARD diff; TERRY BOARD-only"
+    "note": "card 021 and this closeout commit pushed at closeout via safe-push; reconcile_delivery_log run after push; CARL, RED, PROME INFO by BOARD diff; TERRY BOARD-only"
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
-      {"path": "AGENTS/WALTER/research/2026-11-17_boot/THRESHOLD-SCAN.md", "sha256": "5097621f184d9d7ec1236aa2da8212c8e222a0644aff9b438903ba2c4fa97e44"},
-      {"path": "AGENTS/WALTER/research/2026-11-17_boot/CALENDAR-RECONCILIATION.tsv", "sha256": "ee0cb501521e718bf2d9f2707e4d31fac7150d5172761f074efdbbc5def017a6"},
-      {"path": "AGENTS/WALTER/research/2026-11-17_boot/intake-mark-receipt-2.txt", "sha256": "0560fd7c84e2d6b74c7ea48db5008a4dacb3d455bfa9b9419d85531caab03ab3"}
+      {"path": "AGENTS/WALTER/research/2026-11-17_boot/THRESHOLD-SCAN-CLOSE.md", "sha256": "a5aa2e54b9275b3c560431e951a1c01a05d74bae7c070511525589dff1655408"},
+      {"path": "AGENTS/WALTER/research/2026-11-17_boot/CALENDAR-RECONCILIATION.tsv", "sha256": "205a48a944f847c48497e0172bdc0c42a9a3d6d0bbc59caf7523bb997d85894f"},
+      {"path": "AGENTS/WALTER/research/2026-11-17_boot/intake-scan-3.txt", "sha256": "1750ccdf414da489b1ff2e4c985dcd9eaed6dda1877f30f78957cee2e224a7d1"}
     ]
   },
   "procedure": {
-    "tier": "light",
+    "tier": "full",
     "boot": "PARTIAL: see STATUS section",
-    "session": "walter-15 desktop; web searches, one web-fetch helper (CBS); no domain launches; collector run on Will's word"
+    "session": "walter-15 desktop; web searches, one web-fetch helper (Nvidia release); no domain launches"
   }
 }
 END_CLOSEOUT_RECEIPT -->
