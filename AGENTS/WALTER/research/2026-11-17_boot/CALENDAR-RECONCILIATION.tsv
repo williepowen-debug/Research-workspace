@@ -6,3 +6,6 @@ CORAL-02 resolution (Florida Realtors October)	Oct 2026	2026-11-17	CORAL/PROME	D
 Nvidia Q3 FY27 results	Q3 FY27	2026-11-17 after close	VULCAN/HENRY/VIOLET	not yet due at 17:0xZ	NOT YET DUE
 GBDC 9/30 NAV (BRK-36)	Q3 2026	2026-11-17 after close	BROCK	not yet due	NOT YET DUE
 VIOLET credit-vol WATCH window endpoint	10/13-11/17	2026-11-17	VIOLET/LIQUID	no VIOLET record today found	UNKNOWN (endpoint is end of day)
+Nvidia Q3 FY27 results (re-check 21:4xZ)	Q3 FY27	2026-11-17 after close	VULCAN/HENRY/VIOLET	Nvidia release read at primary ~21:46Z; no BOARD card or VULCAN record at 21:47Z; routed SIG-W-20261117-019 (ffce6c5159), VULCAN/HENRY/VIOLET doorbelled	PUBLISHED-UNREVIEWED -> ROUTED
+GBDC 9/30 NAV (BRK-36) (re-check 21:4xZ)	Q3 2026	2026-11-17 after close	BROCK	BROCK 0d61ac9740 16:08 ET: BRK-36 RESOLVED TRUE, NAV $14.00 vs $14.25; packets to PROME and TERRY (6c1f02582e); TERRY NO CARD (7592486192)	OWNER-COMPLETED
+VIOLET credit-vol WATCH window endpoint (re-check 21:4xZ)	10/13-11/17	2026-11-17	VIOLET/LIQUID	violet-a9 live and busy (PROME woke it post-close, 259f40c8f3); its nvda-close research dir uncommitted	UNKNOWN (owner in session; no committed record yet)

@@ -1,0 +1,35 @@
+RESEARCH-INTAKE scan — 2026-11-17 21:48Z
+================================================================
+
+[health]
+  OK   last_run 2026-11-17T18:14:31Z (0 missed weekday runs, 0 calendar days)
+  OK   news search items saved: 283 (trailing median 126 over 10 batches)
+
+[news batches scanned — 1: 2026-11-17..2026-11-17]  (catch-up from last_marked_batch data/2026-11-17/news.json)
+
+[NEW breaches to ROUTE — 0]  (onset; push per §3, tag source: RESEARCH-INTAKE)
+  (none — gate quiet)
+
+[CRUISE_CAPITAL_REVIEW — 0 open]  (ROUTINE human review, never auto-dispatch; read the source, date the event, check BOARD/EDGAR/CRUISE overlap)
+  (none open)
+
+[GPU_FINANCE_REVIEW — 0 open]  (ROUTINE human review of GPU depreciation / collateral / GPU-backed loan / residual-value headlines, owners VULCAN and BROCK; never auto-dispatch; read the source, date the event (reposts carry fresh dates), check BOARD and owner KB, then --gpu-disposition)
+  (none open)
+
+[suppressed — still-true, already seen — 10]  (do NOT re-push)
+  fred:UMCSENT:orange  (UMCSENT UMich sentiment=48.1 [orange])
+  fred:MORTGAGE30US:red  (MORTGAGE30US 30yr mortgage rate %=7.11 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS bps=334.0 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS=334bps [red] >280 X1-trigger reading (strictly abo)
+  news:NEW_ALERT:data/2026-11-17/news.json  (2 NEW_ALERT item(s) — read data/2026-11-17/news.json)
+  news:NEW_WATCH:data/2026-11-17/news.json  (7 NEW_WATCH item(s) — read data/2026-11-17/news.json)
+  news:DEVELOPMENT:ace0d2fa7690  (How Apollo’s SoftBank Ties Unlocked an Unprecedented OpenAI Bet - Bloo)
+  news:WATCH_HIT:ba1bffb37a73  (Nvidia CEO resigns as stocks pull back. - CME Group)
+  news:WATCH_HIT:d576c58f9652  ([News] Replacing the Irreplaceable: NVIDIA’s Next Moves as CEO Jensen )
+  news:WATCH_HIT:46bd123e0603  (One manager reports 10.1 million Lennar (LEN) shares, keeping ownershi)
+
+[batch fingerprints — 1]  (bound into the receipt below)
+  data/2026-11-17/news.json  a180e9e0e9b0
+
+After the 7e(d) to 7e(h) dispositions, run (from the repository root):
+  python3 AGENTS/WALTER/tools/intake_scan.py --mark --through data/2026-11-17/news.json --receipt 83b4bbb2fb77
