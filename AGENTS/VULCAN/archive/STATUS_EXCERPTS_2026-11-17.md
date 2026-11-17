@@ -38,3 +38,30 @@ Nothing on this desk fired: 15/25 (as of 11/16 afternoon). The Treasury Secretar
 ### Bottom line (11/17 noon)
 
 Nothing on this desk fired: 15/25 (as of 11/17 noon). Washington's new chip rule, effective 11/19, requires licences for advanced chips sent to five Southeast Asian countries and Brazil and to any foreign data center renting meaningful computing power to Chinese companies; American cloud companies are exempt if the exporter reports monthly. It tightens the supply-and-geopolitics channel (S4) but matches none of its written tripwires (blacklist additions, equipment bans, a factory cut off), so S4 stays 3. The claim that Nvidia already stopped selling to cloud firms serving China is unconfirmed: one outlet, unnamed sources, and Nvidia has said nothing. Tonight I record what Nvidia's release and CFO commentary actually say, including anything about this rule, without grading it; then its 10-Q around 11/19 and Oracle's 10-Q around 12/15.
+
+
+## Moved 2026-11-17T16:53 ET (closeout rotation), verbatim
+
+### S3 10/28 equipment prints and 10/30 Texas context
+
+**10/28 equipment prints [KB-333]:** GE Vernova gas backlog plus slot reservations 116 → 122 GW (year-end target ≥130 GW), FCF guide $16–17B; Vertiv organic orders >100% YoY, FY26 guide +$650M, bought a behind-the-meter power company (UIG, ~$1.45B) because grid constraints limit AI builds. Equipment orders are not energized MW; no firm capacity removed ⇒ NOT FIRED, S3 stays 3. 10/30 context: Texas data-center permit pause until the ERCOT audit (~mid-December) shelved the Hubbard HY take-out [KB-339] — a financing consequence, not a firm-capacity removal from a contracted build.
+
+### S5 IREN and Oracle/Meta items
+
+**IREN [KB-385/405/418]:** a Microsoft cut is not a GPU 2.0 default (BROCK); $1.5B undrawn lapses 12/31; leg (b) candidate NOT COUNTED; leg (c) compared 11/16, NOT COUNTED [KB-437]. **Oracle and Meta [KB-351..355/408]:** issues cleared inside talk at wider spreads than earlier prints; WQ-608 A: payer notes do not count under leg (b) [KB-366]. OpenAI round reportedly up to $20B at $1.25T, unclosed [KB-404].
+
+### Next research clocks, done items and near clocks (11/17 closeout)
+
+**② Next research clocks:** -188 HIT and -191 MISS 11/10 [KB-416/417]; -189 at the 12/18 slot, -190 by 12/31 (WQ-596 calls, a3da5ec6b); 11/08 DONE early 11/5 (VULCAN-13 perimeter d407abd38, reply to DAEDALUS sent); 11/11 Siemens Energy DONE, clean negative [KB-422]; 11/20 SoftBank Q2 transcript check (absent 11/11 and 11/13; drop if still absent 11/20) [KB-434]; ~2027-01-27 GE Vernova Q4 (later SB7 supplier tell); 11/12 Nebius Q3 DONE at the issuer primary [KB-424]; 11/13 slot 10, GPU 10, S2 DONE [KB-431..433]; 11/15 VULCAN-13 MISS / -15 HIT DONE 11/16 [KB-437/438]; 11/16 FERC responses → WATT's read consumed by 11/30; 11/17 NVDA results; ~11/19 NVDA 10-Q/VULCAN-17; ~11/25 Treasury's 10-day ask to Nvidia's board (descriptive, no letter) [KB-442]; 12/31 IREN GPU 2.0 $1.5B; 2027-01-08 CME review; ~2027-01-10 BIS stay ends;
+
+### Next clocks: done 10/30 list
+
+Done 10/30: Mag7 slot 8, GPU 8, S2 row, WQ-551.HELD encode [KB-341..345]; §4b grade, EXIT rewrite + PROME falsifier, L800 AMZN row, MSFT flex check [KB-334..338].
+
+### S4 11/13 KB-435 item
+
+🆕 **11/13 [KB-435]:** a single-author forensic report finds Blackwell fingerprints in six Chinese frontier models: chip ACCESS (one on a rented GB200), not location, route or violation; Nvidia's Singapore line (22% of Q2 FY26 revenue by billing location) ended in a disclosed switch to headquarters location; filed China-HQ revenue 8.2% of Q2 FY27. Nothing enacted ⇒ no S4 letter; logged as one theme (Nvidia end use and diversion); policy follow-up is ZHAO's.
+
+### S1 slot 10 price caveat
+
+⚠️ Prices are the 11/12 close: the 11/13 chip selloff (vendor about 16:02 ET: SMH −2.99%, NVDA −2.01%, S&P −0.40%, RSP +0.21%; HENRY's 10:2x relay SMH −4.7%) lands in slot 11 (11/20); on my letter it lowers the weight and lifts breadth, away from red [KB-436].
