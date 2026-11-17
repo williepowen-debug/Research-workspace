@@ -1,0 +1,887 @@
+{
+ "run_utc": "2026-11-17T15:14:05.968982+00:00",
+ "rows": [
+  {
+   "label": "cruise-operators",
+   "agents": [
+    "CRUISE"
+   ],
+   "terms": 15,
+   "chars": 343,
+   "when": false,
+   "retrieved": 100,
+   "top15_under48h": 14,
+   "top15_over30d": 0,
+   "top15_median_h": 14.275824717222221,
+   "err": null
+  },
+  {
+   "label": "cruise-fundamentals",
+   "agents": [
+    "CRUISE"
+   ],
+   "terms": 9,
+   "chars": 196,
+   "when": true,
+   "retrieved": 11,
+   "top15_under48h": 2,
+   "top15_over30d": 0,
+   "top15_median_h": 115.83026916166668,
+   "err": null
+  },
+  {
+   "label": "aramco-osp",
+   "agents": [
+    "BRENT"
+   ],
+   "terms": 4,
+   "chars": 114,
+   "when": false,
+   "retrieved": 5,
+   "top15_under48h": 0,
+   "top15_over30d": 5,
+   "top15_median_h": 8359.234991383888,
+   "err": null
+  },
+  {
+   "label": "diesel-export-policy",
+   "agents": [
+    "BRENT",
+    "TERRY",
+    "HENRY"
+   ],
+   "terms": 4,
+   "chars": 75,
+   "when": false,
+   "retrieved": 89,
+   "top15_under48h": 3,
+   "top15_over30d": 0,
+   "top15_median_h": 111.65165805055557,
+   "err": null
+  },
+  {
+   "label": "treasury-moves",
+   "agents": [
+    "BOND",
+    "HENRY"
+   ],
+   "terms": 4,
+   "chars": 78,
+   "when": false,
+   "retrieved": 100,
+   "top15_under48h": 15,
+   "top15_over30d": 0,
+   "top15_median_h": 9.19471360611111,
+   "err": null
+  },
+  {
+   "label": "pgm-producers",
+   "agents": [
+    "MIDAS"
+   ],
+   "terms": 9,
+   "chars": 171,
+   "when": false,
+   "retrieved": 41,
+   "top15_under48h": 3,
+   "top15_over30d": 11,
+   "top15_median_h": 1832.2349913838889,
+   "err": null
+  },
+  {
+   "label": "flg-rent-freeze-litigation",
+   "agents": [
+    "FLG"
+   ],
+   "terms": 6,
+   "chars": 148,
+   "when": false,
+   "retrieved": 54,
+   "top15_under48h": 0,
+   "top15_over30d": 15,
+   "top15_median_h": 3488.234991383889,
+   "err": null
+  },
+  {
+   "label": "private-credit",
+   "agents": [
+    "BROCK"
+   ],
+   "terms": 4,
+   "chars": 62,
+   "when": false,
+   "retrieved": 100,
+   "top15_under48h": 13,
+   "top15_over30d": 0,
+   "top15_median_h": 14.617769161666667,
+   "err": null
+  },
+  {
+   "label": "bdc-names",
+   "agents": [
+    "BROCK"
+   ],
+   "terms": 5,
+   "chars": 62,
+   "when": false,
+   "retrieved": 57,
+   "top15_under48h": 7,
+   "top15_over30d": 3,
+   "top15_median_h": 50.401102494999996,
+   "err": null
+  },
+  {
+   "label": "pe-insurance",
+   "agents": [
+    "BROCK",
+    "SHADE"
+   ],
+   "terms": 4,
+   "chars": 71,
+   "when": false,
+   "retrieved": 23,
+   "top15_under48h": 0,
+   "top15_over30d": 14,
+   "top15_median_h": 10952.23499138389,
+   "err": null
+  },
+  {
+   "label": "shade-D1",
+   "agents": [
+    "SHADE"
+   ],
+   "terms": 1,
+   "chars": 15,
+   "when": false,
+   "retrieved": 35,
+   "top15_under48h": 2,
+   "top15_over30d": 9,
+   "top15_median_h": 1136.2349913838889,
+   "err": null
+  },
+  {
+   "label": "shade-D2",
+   "agents": [
+    "SHADE"
+   ],
+   "terms": 1,
+   "chars": 22,
+   "when": false,
+   "retrieved": 31,
+   "top15_under48h": 0,
+   "top15_over30d": 11,
+   "top15_median_h": 1472.2349913838889,
+   "err": null
+  },
+  {
+   "label": "shade-D3",
+   "agents": [
+    "SHADE"
+   ],
+   "terms": 1,
+   "chars": 19,
+   "when": false,
+   "retrieved": 22,
+   "top15_under48h": 0,
+   "top15_over30d": 15,
+   "top15_median_h": 2192.234991383889,
+   "err": null
+  },
+  {
+   "label": "shade-D4",
+   "agents": [
+    "SHADE"
+   ],
+   "terms": 1,
+   "chars": 12,
+   "when": false,
+   "retrieved": 43,
+   "top15_under48h": 0,
+   "top15_over30d": 14,
+   "top15_median_h": 2000.2349913838889,
+   "err": null
+  },
+  {
+   "label": "shade-D5",
+   "agents": [
+    "SHADE"
+   ],
+   "terms": 1,
+   "chars": 23,
+   "when": false,
+   "retrieved": 7,
+   "top15_under48h": 1,
+   "top15_over30d": 6,
+   "top15_median_h": 2144.234991383889,
+   "err": null
+  },
+  {
+   "label": "shade-D6",
+   "agents": [
+    "SHADE"
+   ],
+   "terms": 1,
+   "chars": 24,
+   "when": false,
+   "retrieved": 10,
+   "top15_under48h": 0,
+   "top15_over30d": 9,
+   "top15_median_h": 8095.234991383889,
+   "err": null
+  },
+  {
+   "label": "shade-E1",
+   "agents": [
+    "SHADE"
+   ],
+   "terms": 1,
+   "chars": 14,
+   "when": false,
+   "retrieved": 43,
+   "top15_under48h": 0,
+   "top15_over30d": 15,
+   "top15_median_h": 4352.234991383889,
+   "err": null
+  },
+  {
+   "label": "shade-E2",
+   "agents": [
+    "SHADE"
+   ],
+   "terms": 6,
+   "chars": 72,
+   "when": false,
+   "retrieved": 39,
+   "top15_under48h": 0,
+   "top15_over30d": 15,
+   "top15_median_h": 2480.234991383889,
+   "err": null
+  },
+  {
+   "label": "oil-energy",
+   "agents": [
+    "HENRY",
+    "BRENT"
+   ],
+   "terms": 4,
+   "chars": 54,
+   "when": false,
+   "retrieved": 100,
+   "top15_under48h": 14,
+   "top15_over30d": 0,
+   "top15_median_h": 5.702769161666666,
+   "err": null
+  },
+  {
+   "label": "gas-supply",
+   "agents": [
+    "HENRY",
+    "BRENT"
+   ],
+   "terms": 4,
+   "chars": 58,
+   "when": false,
+   "retrieved": 100,
+   "top15_under48h": 13,
+   "top15_over30d": 0,
+   "top15_median_h": 3.8416580505555555,
+   "err": null
+  },
+  {
+   "label": "japan-boj",
+   "agents": [
+    "SAM"
+   ],
+   "terms": 5,
+   "chars": 59,
+   "when": false,
+   "retrieved": 100,
+   "top15_under48h": 15,
+   "top15_over30d": 0,
+   "top15_median_h": 7.333046939444444,
+   "err": null
+  },
+  {
+   "label": "labor-layoffs",
+   "agents": [
+    "LABOR"
+   ],
+   "terms": 4,
+   "chars": 70,
+   "when": false,
+   "retrieved": 100,
+   "top15_under48h": 15,
+   "top15_over30d": 0,
+   "top15_median_h": 4.960546939444444,
+   "err": null
+  },
+  {
+   "label": "labor-nfp",
+   "agents": [
+    "LABOR"
+   ],
+   "terms": 4,
+   "chars": 64,
+   "when": false,
+   "retrieved": 58,
+   "top15_under48h": 4,
+   "top15_over30d": 0,
+   "top15_median_h": 114.96082471722222,
+   "err": null
+  },
+  {
+   "label": "credit-spreads",
+   "agents": [
+    "LIQUID"
+   ],
+   "terms": 4,
+   "chars": 66,
+   "when": false,
+   "retrieved": 42,
+   "top15_under48h": 1,
+   "top15_over30d": 12,
+   "top15_median_h": 2816.234991383889,
+   "err": null
+  },
+  {
+   "label": "funding-stress",
+   "agents": [
+    "LIQUID"
+   ],
+   "terms": 4,
+   "chars": 62,
+   "when": false,
+   "retrieved": 30,
+   "top15_under48h": 1,
+   "top15_over30d": 11,
+   "top15_median_h": 12704.23499138389,
+   "err": null
+  },
+  {
+   "label": "cre-stress",
+   "agents": [
+    "REGINALD"
+   ],
+   "terms": 3,
+   "chars": 61,
+   "when": false,
+   "retrieved": 63,
+   "top15_under48h": 9,
+   "top15_over30d": 2,
+   "top15_median_h": 26.73499138388889,
+   "err": null
+  },
+  {
+   "label": "bank-stress",
+   "agents": [
+    "REGINALD",
+    "LIQUID"
+   ],
+   "terms": 4,
+   "chars": 78,
+   "when": false,
+   "retrieved": 40,
+   "top15_under48h": 1,
+   "top15_over30d": 9,
+   "top15_median_h": 2048.234991383889,
+   "err": null
+  },
+  {
+   "label": "consumer-stress",
+   "agents": [
+    "CARL"
+   ],
+   "terms": 3,
+   "chars": 66,
+   "when": false,
+   "retrieved": 22,
+   "top15_under48h": 1,
+   "top15_over30d": 12,
+   "top15_median_h": 1472.2349913838889,
+   "err": null
+  },
+  {
+   "label": "position-banks",
+   "agents": [
+    "REGINALD"
+   ],
+   "terms": 4,
+   "chars": 45,
+   "when": false,
+   "retrieved": 43,
+   "top15_under48h": 4,
+   "top15_over30d": 1,
+   "top15_median_h": 76.15026916166667,
+   "err": null
+  },
+  {
+   "label": "position-pe",
+   "agents": [
+    "BROCK"
+   ],
+   "terms": 3,
+   "chars": 45,
+   "when": false,
+   "retrieved": 100,
+   "top15_under48h": 13,
+   "top15_over30d": 0,
+   "top15_median_h": 17.494713606111112,
+   "err": null
+  },
+  {
+   "label": "memory-cycle",
+   "agents": [
+    "VULCAN"
+   ],
+   "terms": 5,
+   "chars": 85,
+   "when": false,
+   "retrieved": 100,
+   "top15_under48h": 9,
+   "top15_over30d": 1,
+   "top15_median_h": 27.763602495,
+   "err": null
+  },
+  {
+   "label": "ai-capex",
+   "agents": [
+    "VULCAN",
+    "HENRY"
+   ],
+   "terms": 4,
+   "chars": 76,
+   "when": false,
+   "retrieved": 75,
+   "top15_under48h": 4,
+   "top15_over30d": 5,
+   "top15_median_h": 137.4547136061111,
+   "err": null
+  },
+  {
+   "label": "megacap-leadership-event",
+   "agents": [
+    "HENRY",
+    "VULCAN"
+   ],
+   "terms": 15,
+   "chars": 250,
+   "when": true,
+   "retrieved": 31,
+   "top15_under48h": 4,
+   "top15_over30d": 0,
+   "top15_median_h": 89.06443582833334,
+   "err": null
+  },
+  {
+   "label": "gpu-obsolescence-1",
+   "agents": [
+    "VULCAN",
+    "BROCK"
+   ],
+   "terms": 1,
+   "chars": 18,
+   "when": false,
+   "retrieved": 34,
+   "top15_under48h": 1,
+   "top15_over30d": 11,
+   "top15_median_h": 2312.234991383889,
+   "err": null
+  },
+  {
+   "label": "gpu-obsolescence-2",
+   "agents": [
+    "VULCAN",
+    "BROCK"
+   ],
+   "terms": 1,
+   "chars": 16,
+   "when": false,
+   "retrieved": 21,
+   "top15_under48h": 0,
+   "top15_over30d": 13,
+   "top15_median_h": 1280.2349913838889,
+   "err": null
+  },
+  {
+   "label": "gpu-obsolescence-3",
+   "agents": [
+    "VULCAN",
+    "BROCK"
+   ],
+   "terms": 1,
+   "chars": 17,
+   "when": false,
+   "retrieved": 23,
+   "top15_under48h": 0,
+   "top15_over30d": 14,
+   "top15_median_h": 2960.234991383889,
+   "err": null
+  },
+  {
+   "label": "gpu-obsolescence-4",
+   "agents": [
+    "VULCAN",
+    "BROCK"
+   ],
+   "terms": 1,
+   "chars": 26,
+   "when": false,
+   "retrieved": 28,
+   "top15_under48h": 0,
+   "top15_over30d": 15,
+   "top15_median_h": 2120.234991383889,
+   "err": null
+  },
+  {
+   "label": "ai-financing",
+   "agents": [
+    "LIQUID",
+    "BROCK",
+    "VULCAN"
+   ],
+   "terms": 15,
+   "chars": 191,
+   "when": true,
+   "retrieved": 24,
+   "top15_under48h": 1,
+   "top15_over30d": 0,
+   "top15_median_h": 121.99415805055555,
+   "err": null
+  },
+  {
+   "label": "vol-regime",
+   "agents": [
+    "VIOLET"
+   ],
+   "terms": 10,
+   "chars": 190,
+   "when": false,
+   "retrieved": 41,
+   "top15_under48h": 0,
+   "top15_over30d": 12,
+   "top15_median_h": 2912.234991383889,
+   "err": null
+  },
+  {
+   "label": "power-grid",
+   "agents": [
+    "WATT",
+    "VULCAN"
+   ],
+   "terms": 6,
+   "chars": 103,
+   "when": false,
+   "retrieved": 100,
+   "top15_under48h": 10,
+   "top15_over30d": 0,
+   "top15_median_h": 17.167491383888887,
+   "err": null
+  },
+  {
+   "label": "metals",
+   "agents": [
+    "MIDAS"
+   ],
+   "terms": 5,
+   "chars": 92,
+   "when": false,
+   "retrieved": 68,
+   "top15_under48h": 4,
+   "top15_over30d": 0,
+   "top15_median_h": 91.04332471722223,
+   "err": null
+  },
+  {
+   "label": "climate-macro",
+   "agents": [
+    "AEOLUS"
+   ],
+   "terms": 6,
+   "chars": 107,
+   "when": false,
+   "retrieved": 100,
+   "top15_under48h": 11,
+   "top15_over30d": 1,
+   "top15_median_h": 18.46526916166667,
+   "err": null
+  },
+  {
+   "label": "housing",
+   "agents": [
+    "HOMER",
+    "CARL"
+   ],
+   "terms": 14,
+   "chars": 301,
+   "when": false,
+   "retrieved": 31,
+   "top15_under48h": 1,
+   "top15_over30d": 11,
+   "top15_median_h": 3872.234991383889,
+   "err": null
+  },
+  {
+   "label": "russia-ukraine-energy",
+   "agents": [
+    "OSPREY",
+    "BRENT"
+   ],
+   "terms": 5,
+   "chars": 99,
+   "when": false,
+   "retrieved": 55,
+   "top15_under48h": 1,
+   "top15_over30d": 8,
+   "top15_median_h": 1664.2349913838889,
+   "err": null
+  },
+  {
+   "label": "gulf-theater",
+   "agents": [
+    "FALCON",
+    "BRENT"
+   ],
+   "terms": 18,
+   "chars": 298,
+   "when": false,
+   "retrieved": 32,
+   "top15_under48h": 0,
+   "top15_over30d": 14,
+   "top15_median_h": 2984.234991383889,
+   "err": null
+  },
+  {
+   "label": "florida",
+   "agents": [
+    "CORAL",
+    "HOMER"
+   ],
+   "terms": 6,
+   "chars": 143,
+   "when": false,
+   "retrieved": 50,
+   "top15_under48h": 2,
+   "top15_over30d": 5,
+   "top15_median_h": 295.2349913838889,
+   "err": null
+  },
+  {
+   "label": "china-asia",
+   "agents": [
+    "ZHAO"
+   ],
+   "terms": 18,
+   "chars": 318,
+   "when": false,
+   "retrieved": 7,
+   "top15_under48h": 0,
+   "top15_over30d": 7,
+   "top15_median_h": 2576.234991383889,
+   "err": null
+  },
+  {
+   "label": "saudi-redsea",
+   "agents": [
+    "FALCON",
+    "BRENT"
+   ],
+   "terms": 4,
+   "chars": 50,
+   "when": false,
+   "retrieved": 78,
+   "top15_under48h": 6,
+   "top15_over30d": 1,
+   "top15_median_h": 113.36304693944444,
+   "err": null
+  },
+  {
+   "label": "war-risk-insurance",
+   "agents": [
+    "FALCON",
+    "HAWK"
+   ],
+   "terms": 10,
+   "chars": 196,
+   "when": true,
+   "retrieved": 14,
+   "top15_under48h": 5,
+   "top15_over30d": 0,
+   "top15_median_h": 90.15165805055557,
+   "err": null
+  },
+  {
+   "label": "memory-pricing",
+   "agents": [
+    "VULCAN"
+   ],
+   "terms": 5,
+   "chars": 89,
+   "when": false,
+   "retrieved": 96,
+   "top15_under48h": 8,
+   "top15_over30d": 3,
+   "top15_median_h": 33.84165805055556,
+   "err": null
+  },
+  {
+   "label": "nano-banc",
+   "agents": [
+    "CREED",
+    "REGINALD",
+    "WAL",
+    "DEWEY"
+   ],
+   "terms": 1,
+   "chars": 19,
+   "when": true,
+   "retrieved": 8,
+   "top15_under48h": 2,
+   "top15_over30d": 0,
+   "top15_median_h": 110.93221360611112,
+   "err": null
+  },
+  {
+   "label": "homebuilder-earnings",
+   "agents": [
+    "HOMER"
+   ],
+   "terms": 12,
+   "chars": 212,
+   "when": true,
+   "retrieved": 17,
+   "top15_under48h": 5,
+   "top15_over30d": 0,
+   "top15_median_h": 95.06832471722223,
+   "err": null
+  },
+  {
+   "label": "fertilizer",
+   "agents": [
+    "FERT"
+   ],
+   "terms": 11,
+   "chars": 208,
+   "when": true,
+   "retrieved": 5,
+   "top15_under48h": 1,
+   "top15_over30d": 0,
+   "top15_median_h": 127.2349913838889,
+   "err": null
+  },
+  {
+   "label": "russia-fuel-export-ban",
+   "agents": [
+    "HENRY",
+    "OSPREY",
+    "BRENT"
+   ],
+   "terms": 7,
+   "chars": 138,
+   "when": true,
+   "retrieved": 8,
+   "top15_under48h": 3,
+   "top15_over30d": 0,
+   "top15_median_h": 97.25165805055556,
+   "err": null
+  },
+  {
+   "label": "ai-dc-force-majeure",
+   "agents": [
+    "VULCAN",
+    "LIQUID"
+   ],
+   "terms": 3,
+   "chars": 98,
+   "when": true,
+   "retrieved": 6,
+   "top15_under48h": 5,
+   "top15_over30d": 0,
+   "top15_median_h": 13.910546939444444,
+   "err": null
+  },
+  {
+   "label": "eu-sovereign-spreads",
+   "agents": [
+    "HANS"
+   ],
+   "terms": 3,
+   "chars": 72,
+   "when": true,
+   "retrieved": 0,
+   "top15_under48h": 0,
+   "top15_over30d": 0,
+   "top15_median_h": null,
+   "err": null
+  },
+  {
+   "label": "ecb-rate-decision",
+   "agents": [
+    "HANS"
+   ],
+   "terms": 4,
+   "chars": 77,
+   "when": true,
+   "retrieved": 20,
+   "top15_under48h": 3,
+   "top15_over30d": 0,
+   "top15_median_h": 102.56832471722223,
+   "err": null
+  },
+  {
+   "label": "ttf-storage-gilts",
+   "agents": [
+    "HANS"
+   ],
+   "terms": 3,
+   "chars": 52,
+   "when": true,
+   "retrieved": 27,
+   "top15_under48h": 7,
+   "top15_over30d": 0,
+   "top15_median_h": 99.1524913838889,
+   "err": null
+  },
+  {
+   "label": "ai-training-pause",
+   "agents": [
+    "VULCAN"
+   ],
+   "terms": 5,
+   "chars": 130,
+   "when": true,
+   "retrieved": 0,
+   "top15_under48h": 0,
+   "top15_over30d": 0,
+   "top15_median_h": null,
+   "err": null
+  },
+  {
+   "label": "bank-vendor-incidents-core",
+   "agents": [
+    "CYPHER"
+   ],
+   "terms": 13,
+   "chars": 182,
+   "when": true,
+   "retrieved": 4,
+   "top15_under48h": 1,
+   "top15_over30d": 0,
+   "top15_median_h": 124.2349913838889,
+   "err": null
+  },
+  {
+   "label": "bank-vendor-incidents-msp",
+   "agents": [
+    "CYPHER"
+   ],
+   "terms": 7,
+   "chars": 104,
+   "when": true,
+   "retrieved": 30,
+   "top15_under48h": 3,
+   "top15_over30d": 0,
+   "top15_median_h": 114.56332471722223,
+   "err": null
+  }
+ ]
+}
