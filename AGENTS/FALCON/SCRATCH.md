@@ -1,5 +1,9 @@
 # FALCON SCRATCH — November 17, 2026, C8 wake (PROME prome-19), cutoff about 14:40Z; desktop
 
+## SECOND C8 WAKE 11/17 (about 11:50-12:00 ET, PROME prome-19, held for PROME, NOT closed out)
+- WALTER card SIG-W-20261117-001: claimed US strike on Qeshm 11/17 = CLAIM ONLY (KB-503); 11/17 mine claims CLAIM ONLY (KB-504); FAL-09 0 of 5, nothing moved (KB-505). Report reports/2026-11-17_c8b-qeshm-claim-grade.md. Packets BRENT + PROME; no WALTER packet. Card to processed.
+- Watch: a CENTCOM / DoW / White House statement or two wires naming US forces on Qeshm 11/17 (would be FAL-09 day 1); a UKMTO or NAVAREA warning for today's mine claims. NEXUS_BRIEF not refreshed (closeout held by PROME).
+
 ## CURRENT MARKS
 B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-08..12 OPEN to 12/31, FAL-09 0 of 5. GATE-FALCON-001 LIVE, leg 2 NOT MET (last read 11/16: lowest 72.5% 11/11, 93.7% 11/15), next review_by **11/18**. Brent: BRENT's. Claude Code, Opus 5.5, desktop.
 
