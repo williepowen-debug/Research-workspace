@@ -1,0 +1,6 @@
+banks 4205 unmatched files 0
+ALL: n=4205 | CRE ex owner-occ / capital: median 133%, agg 107%, >=300%: 372 (8.8%) | all CRE incl owner-occ: median 200%, agg 135%, >=300%: 27.7% | construction >=100%: 6.3% | all CRE / loss allowance median 30.7x | basis T1+ACL (CBLR) 4205
+<$1B: n=3159 | CRE ex owner-occ / capital: median 102%, agg 145%, >=300%: 180 (5.7%) | all CRE incl owner-occ: median 163%, agg 212%, >=300%: 20.5% | construction >=100%: 5.9% | all CRE / loss allowance median 26.5x | basis T1+ACL (CBLR) 3159
+$1-10B: n=889 | CRE ex owner-occ / capital: median 226%, agg 218%, >=300%: 175 (19.7%) | all CRE incl owner-occ: median 305%, agg 287%, >=300%: 51.9% | construction >=100%: 8.5% | all CRE / loss allowance median 42.8x | basis T1+ACL (CBLR) 889
+$10-100B: n=124 | CRE ex owner-occ / capital: median 217%, agg 196%, >=300%: 17 (13.7%) | all CRE incl owner-occ: median 280%, agg 251%, >=300%: 44.4% | construction >=100%: 1.6% | all CRE / loss allowance median 38.2x | basis T1+ACL (CBLR) 124
+>=$100B: n=33 | CRE ex owner-occ / capital: median 66%, agg 63%, >=300%: 0 (0.0%) | all CRE incl owner-occ: median 83%, agg 75%, >=300%: 3.0% | construction >=100%: 0.0% | all CRE / loss allowance median 14.3x | basis T1+ACL (CBLR) 33
