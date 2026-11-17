@@ -8,7 +8,7 @@ Updated 2026-11-17T17:01Z, Claude Code Opus 5.5 (claude-opus-5-5), session walte
    - First `--mark` under the new scanner: DONE 11/17. Transition completed (intake_seen.json last_marked_commit 5f0dad1), nothing unread marked; packet PROME/inbox/2026-11-17_from-WALTER_first-mark-under-new-scanner-transition-confirmed.md (deff2b8bac).
    - **November 24 (DOCKET 1164):** PROME measures from existing records; WALTER keeps its records accurate, no new log or study. Record for it: the 04:17Z collector slot on 11/17 ran at 13:33Z (run 44093858908), about 9 h late; the 15:17Z slot had not appeared by 16:52Z.
 1. **Nvidia Q3 after today's close (call 17:00 ET):** VULCAN, HENRY, VIOLET own; card 007 (BIS chip curbs, China countermeasures) is the live context. Check at the next leg for results and any China retaliation measure. TERRY is BOARD-only.
-2. **Decision for Will (raised in session, not yet ruled):** root CLAUDE.md's Blocked-sites bullet (WQ-701, 11/16) bars using a proxy to get past a block; WALTER's Bright Data Web Unlocker (WQ-383, X_BOOKMARKS_ACCEPTANCE.md §9a step 4) does exactly that. **Suspended from 11/17 until Will rules.** Fallbacks: fxtwitter for post text, another outlet for a 403'd link.
+2. **Decision for Will (raised in session, not yet ruled):** root CLAUDE.md's Blocked-sites bullet (WQ-701, 11/16) bars using a proxy to get past a block; WALTER's Bright Data Web Unlocker (WQ-383, X_BOOKMARKS_ACCEPTANCE.md §9a step 4) does exactly that. **Suspended from 11/17 until Will rules. Registered as WQ-708 by PROME (card PROME/proposals/wq708-app-options.md; PROME recommends retiring).** Fallbacks: fxtwitter for post text, another outlet for a 403'd link.
 3. **Open, unconsumed or unread:**
    - Meta 8-K (Items 8.01, 9.01, filed 11/12; lane EDGAR list): sec.gov 403 to a plain client string, stopped under the blocked-sites rule. Content UNKNOWN; not dismissed (7e(d.1)). VULCAN or PROME to read via Meta IR or another route.
    - REGINALD packet inbox/2026-11-17_from-REGINALD_companion-SIG-W-20260619-008-review-lapsed.md (DOCKET L889, due 11/20): renew the signal-read companion for SIG-W-20260619-008 after a content review (never renew dates or hashes without one), or decline by packet. Same as FOLLOW-UP 1 (WQ-678 U-W03/U-W18). NOT consumed; left in inbox.
@@ -38,6 +38,8 @@ Boot PARTIAL (walter-15, desktop):
 **Post-closeout leg 2 (17:27Z, Will's ask):** bookmark reader confirmed working; 1 new bookmark carded as SIG-W-20261117-011 (CNN: NSA Net down, no evidence of cyberattack; six-outage list checked, AWS 11/15 unverified), pushed 490246429a. PROME woke CYPHER (cypher-b3, 12:28 ET) on 008 and 011; OSPREY, HANS and YURI registered for Wed 11/18.
 
 **Post-closeout leg 3 (17:43Z to 18:20Z):** CYPHER graded 008/011, correction 012 (COR-20261117-12; AWS 11/15 confirmed). Collector run 44145198548 on Will's word (13:11 ET), ce689da 18:14Z; cards 013 (IMMEDIATE, Huang return-offer titles, VULCAN), 014 (Fed FSR 11/13, BROCK; four days late), 015 (Iran plot title, Kataib Hezbollah, FALCON), 016 small items; BM-20261117-02 303/303; lane marked. Bright Data question open with Will (explained in session; no ruling yet).
+
+**Leg 4 (18:20Z):** BROCK read the Fed FSR at the primary; correction 017 (COR-20261117-17): the ~$1T bank exposure and over $1T leases plus over $2T guarantees are in Box 2.2. PROME recorded the four search notes on DOCKET 1164 (fd83e19cbd); china-asia-3 repair and a Fed/FSOC search are PROME's; PROME will ask whether a scan is open before writing to the lane.
 
 ## RESULT
 
