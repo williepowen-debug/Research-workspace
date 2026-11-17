@@ -1,10 +1,10 @@
 # MARCO — NEXUS Brief
 
-**Status:** 🟠 v3.2 — `ENR-02` SUSTAINED 11/11 (Oct airfares 2-yr +23.27%, Sep +26.36%): fare stage live into winter, Florida demand ungraded. October jobs survey (context): immigrant labor force +842K m/m, a record. Amendment 3 one figure 61.98% with CORAL.
+**Status:** 🟠 v3.2 — `ID-01` IDENTIFIED 11/16: after the 9/8 counter-tariffs Canadian car trips fell further behind flights in Sep and Oct (Canadian 2-yr Oct −26.88%, BREACHED 12th month). `MAR-11` CONFIRMED: H-2A FY2026 435,980 certified, Florida the #1 state. Florida overseas visitors holding (Sep −1.21% vs national −4.33%).
 **Domain:** Population movement — international visitors, workforce displacement and internal migration; Florida primary.
 **Thesis version:** v3.2, unchanged; position none.
 **Recent thesis pivot:** Channel 4 MED-LOW → LOW (9/24); s35 material evidence correction: MIA is Spirit-exposed, not a clean control.
-**As of:** 2026-11-11 10:34 ET (session 40, catch-up wake via PROME prome-2b; closeout). **STATUS commit:** folded in the same commit as this brief.
+**As of:** 2026-11-16 21:28 ET (session 41, PROME doorbell + post-restart recovery; closeout). **STATUS commit:** folded in the same commit as this brief.
 
 ---
 
@@ -14,6 +14,8 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| **CORAL** | **SENT 11/16 s41 — Florida overlap:** Canadian 2-yr Oct −26.88% replaces CORAL's Aug −26.63%; FL overseas Sep −1.21% / YTD −0.68%; Citizens one figure; FAA ground-stop November confounder; FL #1 H-2A state 62,425 | 🟡 | One figure per shared Florida metric; CORAL wakes 11/17 |
+| **PROME** | **SENT 11/16 s41 — doorbell return:** ID-01 IDENTIFIED, MAR-11 CONFIRMED, VX refreshed; WQ-696 lines (no investment implication named, reasons given); WQ-678 held for Will's own word | 🟡 | PROME routes to TERRY or records no card |
 | **WALTER → REGINALD, CARL** | **SENT 11/11 s40 — `ENR-02` SUSTAINED** (Oct airfares 2-yr +23.27%), Spirit confound verbatim; WALTER routes | 🟠 | Fare stage live into the winter booking window; no Florida visitor or dollar decline established |
 | **TERRY** | **SENT 11/11 s40 — airfares tradeability read** (MARCO sees no clean expression) | 🟡 | NO CARD is a complete answer |
 | **CORAL** | **SENT 11/11 s40 — Amendment 3 one figure 61.98% adopted**, certification 11/17 | 🟡 | One Florida figure on both desks |
@@ -58,20 +60,19 @@
 
 ## VIEW
 
+- **Canada tariff test (`ID-01`) IDENTIFIED 11/16** on the pre-committed both-months letter: land−air gap Sep −12.41 / Oct −9.34pp vs Aug −4.72; air improved, land worsened. ⚠️ Oct's move alone is inside the pre-tariff range. Canadian 2-yr Oct −26.88%, BREACHED 12th month.
 - **Energy → fares (`ENR-02`) SUSTAINED 11/11:** Oct 327.822 vs Oct-24 265.939 = +23.27% 2-yr (Sep +26.36%). Fare stage transmitting into the winter booking window; Spirit co-driver; national series; FL demand stage NOT graded.
 - **October jobs survey, context only:** foreign-born labor force 33,121k, +842K in one month (largest Sep→Oct 2007–2026), +686K vs Oct-2024. Two record months in a noisy survey; the split against remittances widens; 12/4 November grades `SDL-01` (MAR-29 now 90%).
 - **Amendment 3 changes the Florida question, not the Florida score.** Passed 61.98% unofficial (one figure with CORAL), certification 11/17. New residents after 12/31/2026 wait to the fifth exemption year for the larger exemption. Pull-forward and retention are both INFERRED and pull net migration in opposite directions; Channel 3 stays MED-LOW.
-- **Las Vegas:** Aug+Sep RevPAR −9.02%, visitors −2.09%; mostly price, YTD RevPAR still +0.6%. Total LAS, not Canadian.
 - **Remittances:** Sep count −6.27%, 2-yr −9.63%, run 6 months, no high base behind it. Fewer senders versus consolidation still open. The split with the September jobs survey stands until 12/4.
-- **`AZ-01`:** October +35.3pp CRITICAL, first scored print; any-cause stress, not snowbird attribution.
+- **`AZ-01`:** October +35.3pp CRITICAL, first scored print; any-cause stress, not snowbird attribution. **Las Vegas:** Aug+Sep RevPAR −9.02%, visitors −2.09%; mostly price, YTD RevPAR still +0.6%. Total LAS, not Canadian.
 - **Attribution correction:** VX2.04’s CBO2025 negative-net-migration range is unsupported/UNSCORED; original history retained and WALTER correction saved, no replacement estimate adopted. This is an evidence correction, not a conviction/forecast-rule change.
-- **Existing-series refresh:** seven comparable series updated; latest BEA nominalSA Travel actual trailing12months throughAugust shows−$3.125B,ELEVATED. Housing/labor/receipts changes and revisions remain in canonical VX/source_checks; no October observation or bank-loss estimate inferred. GTR429/regional-remittance and TOUR05/06 source gaps remain unresolved.
 
-- **FL demand remains unidentified.** Latest BTS source month is July 2026 (live verified 10/25, ~3-month lag). Scheduled outbound domestic seat replacement June→July: MCO 55.84→76.06%, FLL 66.77→107.70%. FLL July domestic seats/passengers grew; MCO remained below 2025. Net other-airline additions neither prove causal backfill nor uniquely separate demand from supply.
+- **FL demand remains unidentified.** Latest BTS source month is July 2026 (live verified 10/25, ~3-month lag). Scheduled outbound domestic seat replacement June→July: MCO 55.84→76.06%, FLL 66.77→107.70%. FLL July domestic seats/passengers grew; MCO remained below 2025. Net other-airline additions neither prove causal backfill nor uniquely separate demand from supply. **Florida overseas visitors are holding:** first-address Sep −1.21% / YTD −0.68% vs national −4.33% / −5.67% (NTTO Prelim).
 - **MIA Spirit-free RETRACTED.** Valid NK/MIA summary query endsFebruary 2023; direct GEE and Miami-Dade's own FY seat report show 2025/May 2026 service. Smaller exposure than FLL/MCO, not an unaffected control. The MIA airport-own two-negative-month rule retains its definition. **10/28: Sep −1.82% (2-yr −5.85%) ⇒ MET.** Domestic −4.33% with domestic seats +0.28% (LF 83.0→79.2%), intl +1.28%. Spirit/fare caveats travel; BTS Sep (~Dec) to show beside.
 - **LAS Canadian leg measured.** Canadian-airline winter 2025–26 seats −33.22%; latest comparable complete May −31.97%, **NV-01 CRITICAL** on existing bands. April −27.85% broke the sustained ≥30% run. June AC / July Porter filings missing: June/July unscored; prior-month July fill −10.59% is explicitly an estimate. Seats on Canadian routes are not Canadian-resident visitors. No new carrier exit inferred.
-- **Channel 1 quantity remains split; price transmission unproved.** September CPS YoY increase versus August remittance-count decline, with survey reweighting and transaction consolidation unresolved. October 21 CA grower reports show local absence/output disruption; no national shortage or price conclusion. H-2A December 30 court deadline and contingent adjustments remain a separate administrative-cost watch.
-- **Channel 2 remains the strongest transmitting channel**, supported by Canadian travel counts, not an asserted national-dollar collapse. Last winter's smaller capacity is measured; winter 2026–27 realization remains a hypothesis. Canadian land-versus-air test still awaits October; raw versus calendar-adjusted counts stay separate. October 23 tariff changes removed AND added lines; no concluded deal inferred.
+- **Channel 1 quantity remains split; price transmission unproved.** September CPS YoY increase versus August remittance-count decline, with survey reweighting and transaction consolidation unresolved. October 21 CA grower reports show local absence/output disruption; no national shortage or price conclusion. H-2A December 30 court deadline and contingent adjustments remain a separate administrative-cost watch. **H-2A FY2026 435,980 certified (+9.55%), MAR-11 CONFIRMED; Florida now the #1 worksite state (62,425).**
+- **Channel 2 remains the strongest transmitting channel**, supported by Canadian travel counts, not an asserted national-dollar collapse. Last winter's smaller capacity is measured; winter 2026–27 realization remains a hypothesis. Canadian land-versus-air test IDENTIFIED 11/16; raw versus calendar-adjusted counts stay separate. October 23 tariff changes removed AND added lines; no concluded deal inferred.
 
 ## CALIBRATION
 
@@ -84,17 +85,16 @@
 
 ## NEXT DECISION POINT
 
-- **What:** `ID-01` leg 2, StatCan October Canadian land-vs-air 2-yr gap (decides `ID-01`).
-- **When:** ~11/13 (est.).
-- **What would falsify the trigger:** October common-mode (land and air move together) or land improving against air; IDENTIFIED needs an October gap move ≤ −2.5pp from the August −4.72 baseline (September met, −7.69pp).
+- **What:** `SDL-01` November jobs survey — does the immigrant labor force stay up (NORMAL) or fall back (Sep was noise)?
+- **When:** 12/4 (BLS schedule).
+- **What would falsify the trigger:** November foreign-born labor force YoY a decline ≥250K ⇒ September's flip was noise and the outflow reading stands (MAR-29 90% says it will not).
 
 ## FORWARD CATALYSTS (next 2–4 weeks)
 
 | Date | Catalyst | Link to the view |
 |------|----------|------------------|
-| 11/12–13 | H-2A court-status checkpoint / StatCan October | Later procedural state; raw and calendar-adjusted ID-01 legs separate |
-| ~11/15 | OFLC Q4 / existing BTS release read | FY certification resolver; inspect LAS filing backfills if available, no new tracker |
-| ~11/17–19 | Amendment 3 certification / CA second check | Official count; local persistence |
-| ~11/30–12/4 | LVCVA Oct / Banxico Oct / Nov CPS / `AZ-01` | MAR-30, MAR-28, MAR-29 |
+| 11/17–21 | Amendment 3 certification / CA second check / state BLS / MIA October report | Official count; local persistence; `VX-2.06`; MIA trigger (November carries the ground stop) |
+| 12/3 | H-2A court reports (11/12 + 12/3) | Administrative-cost watch |
+| ~11/30–12/4 | NTTO Oct / BTS Aug / LVCVA Oct / Banxico Oct / Nov CPS / `AZ-01` | `VX-1.02`; MAR-30, MAR-28, MAR-29 |
 
 Canonical records: `STATUS.md`; `thesis/THESIS.md` and `PREDICTIONS.tsv`; `docket/CATALYSTS.tsv`; latest repairs/source limits `research/2026-10-25_stale-file-sweep-phase2/completion.md`; capacity source/calculations `domain/sources/TOURISM/2026-10-25_spirit-seat-replacement_LAS.md` + `research/2026-10-25_capacity/`. All prior SENDING rows retained; CROSS-DOMAIN first under schema amendment 12.

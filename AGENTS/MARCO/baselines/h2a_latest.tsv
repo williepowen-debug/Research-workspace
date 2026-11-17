@@ -1,79 +1,81 @@
-# MARCO H-2A aggregate | source=H-2A_Disclosure_Data_FY2026_Q3.xlsx | via=dol.gov (live) | snap=live | fy=2026 through_q=3 | pulled=2026-11-11 | rows=20638 | cert_rows=20180 | total_workers_cert=349867
+# MARCO H-2A aggregate | source=H-2A_Disclosure_Data_FY2026_Q4.xlsx | via=dol.gov (live) | snap=live | fy=2026 through_q=4 | pulled=2026-11-16 | rows=24259 | cert_rows=23710 | total_workers_cert=435980
 
 ## By fiscal quarter (decision date)
 key	workers_certified
-2026Q2	192025
-2026Q3	95502
-2026Q1	62340
+2026Q2	192023
+2026Q3	95471
+2026Q4	86144
+2026Q1	62342
 
 ## Top 15 worksite states
 key	workers_certified
-GA	39586
-FL	35193
-WA	33228
-CA	31467
-NC	25704
-TX	15278
-MI	14694
-LA	11965
-NY	8865
-AR	7688
-KY	7411
-SC	7262
-AZ	7072
-MS	6529
-TN	6487
+FL	62425
+GA	47740
+CA	38449
+WA	36059
+NC	28290
+TX	19214
+MI	17160
+LA	15649
+AZ	15257
+NY	11497
+AR	8573
+ID	8097
+MS	8020
+KY	7930
+SC	7503
 
 ## Top 10 SOC occupations
 key	workers_certified
-Farmworkers and Laborers, Crop, Nursery, and Greenhouse	284457
-Agricultural Equipment Operators	36478
-Farmworkers, Farm, Ranch, and Aquacultural Animals	18354
-Heavy and Tractor-Trailer Truck Drivers	2385
-Construction Laborers	1961
-Graders and Sorters, Agricultural Products	906
-Shuttle Drivers and Chauffeurs	620
-Farm Equipment Mechanics and Service Technicians	520
-Packers and Packagers, Hand	493
-Helpers--Carpenters	490
+Farmworkers and Laborers, Crop, Nursery, and Greenhouse	353990
+Agricultural Equipment Operators	43296
+Farmworkers, Farm, Ranch, and Aquacultural Animals	23454
+Heavy and Tractor-Trailer Truck Drivers	4100
+Construction Laborers	2452
+Graders and Sorters, Agricultural Products	1402
+Shuttle Drivers and Chauffeurs	930
+Packers and Packagers, Hand	783
+Farm Equipment Mechanics and Service Technicians	725
+Helpers--Carpenters	536
 
 ## Top 15 job titles (crop/activity proxy)
 key	workers_certified
-Farmworkers and Laborers, Crop	30395
-Farmworker	21792
-Farmworkers and Laborers	20409
-Farm Worker	15433
-Farmworker/Laborer	11260
-Ag Equipment Operator	10116
-Farmworkers & Laborers, Crop, Nursery, Greenhouse	9187
-Agricultural Equipment Operator	8553
-Nursery Worker	8350
-Crop Farmworkers	7818
-Farmworkers and Laborers, Crop, Nursery, and Greenhouse	7690
+Farmworkers and Laborers, Crop	38838
+Farmworkers and Laborers	29334
+Farmworker	24610
+Farm Worker	18929
+Farmworker/Laborer	11869
+Ag Equipment Operator	11278
+Farmworkers & Laborers, Crop, Nursery, Greenhouse	10754
+Agricultural Equipment Operator	9602
+Nursery Worker	8989
+Crop Farmworkers	8962
+Farmworkers and Laborers, Crop, Nursery, and Greenhouse	8575
+Farm Workers and Laborers	7352
+Farm Laborer	7192
+Field Workers	6986
 Harvester	6362
-Farm Workers and Laborers	6355
-Farm Laborer	5696
-Field Workers	5644
 
 ## Processing vulnerability (DOL leg only — consular gate NOT visible here)
 key	value
 lag_median_days	26
 lag_mean_days	27.3
 lag_p90_days	45
-lead_median_days	32
-lead_p10_days	11
+lead_median_days	33
+lead_p10_days	12
 lead_p25_days	24
-missed_cycle_case_pct	3.97
-missed_cycle_worker_pct	5.46
-share_under_30d_lead_pct	38.53
+missed_cycle_case_pct	3.68
+missed_cycle_worker_pct	4.65
+share_under_30d_lead_pct	36.19
 
 ## Processing by fiscal quarter
 quarter	n_cases	lag_median_d	lead_median_d	missed_cycle_case_pct
-2026Q1	4224	26	30	8.29
-2026Q2	12468	28	32	2.78
-2026Q3	3488	19	36	3.01
+2026Q1	4225	27	30	8.28
+2026Q2	12467	29	32	2.78
+2026Q3	3483	20	36	2.99
+2026Q4	3535	20	39	2.07
 
 ## Wage offer (USD)
 median	15.67
-mean	93.53
-total_requested	361405
+mean	119.94
+total_requested	448629
