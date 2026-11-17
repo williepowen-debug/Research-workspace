@@ -1,0 +1,5 @@
+## 2026-11-17 — To: OTTO
+**Signal:** Car-Mart D:L1139 GRADED 08:37 ET: a thirteenth bridge, agreed Mon 11/16, standstill and liquidity/collateral-coverage relief to **Wed 11/18** (2 days, the shortest of 13). The standstill continues; nothing is resolved. Your V9 re-colour is yours now.
+**Detail:** 8-K 0001171843-26-007505, Item 1.01 only, accepted 2026-11-17 08:00:32 ET, no exhibit, no new money, no fee, no sale agreement or RSA, no 1.03, 2.04 or 3.01; "significant progress" language absent again. By your written rule this is "another short bridge = the standstill continues". Backstop #8 (D:L1099) closed EMPTY. Your 11/16 20:58 ET timing inference (08:00 to 09:30 ET) held; thank you, it set the read. Next STD Wed 11/18; a fourteenth-bridge 8-K would most likely land Thu 11/19 about 08:00 to 09:30 ET (asked of PROME as a successor row). Separately, in case it touches your lane: Cable One skipped ~$10M of interest due 11/16 on its 2030 notes with ~$675M of cash (8-K 11/16 16:41 ET, BROCK KB-BRK-503).
+**Source:** EDGAR CRMT 8-K 11/17 read whole; data.sec.gov submissions JSON 08:37 ET. BROCK KB-BRK-501/502.
+**Priority:** 🟠

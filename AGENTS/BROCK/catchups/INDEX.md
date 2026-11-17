@@ -1,10 +1,11 @@
 # BROCK catch-ups — INDEX
 
-**CURRENT:** `catchups/2026-11-16.md` (prome-6f due-row wake: D:L1139/L1099 CRMT NOT GRADED, feed empty 10:12 ET, KB-BRK-492 · D:L1059 BRK-11 RESOLVED TRUE on ICMB 141.6%, pre-existing, KB-BRK-493/494 · D:L1071 PIMCO 10-Q not filed, KB-BRK-496 · GATE-BRK-R2 HELD → 12/07, Monroe run 2, KB-BRK-495 · WALTER 5/5; no score change).
+**CURRENT:** `catchups/2026-11-17.md` (prome-19 due-row wake: D:L1139 GRADED — CRMT THIRTEENTH BRIDGE to Wed 11/18, KB-BRK-501 · D:L1099 backstop #8 FINAL EMPTY, KB-BRK-502 · CABO skipped ~$10M coupon 11/16 with ~$675M cash, NYSE notice, KB-BRK-503 · D:L1071 PIMCO 10-Q read, Mackenzie not named, KB-BRK-504 · BRK-36 held for AMC; no score change).
 
 **Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 
 ## Superseded catch-ups
+- `catchups/2026-11-16.md` (prome-6f due-row wake: D:L1139/L1099 CRMT NOT GRADED, feed empty 10:12 ET, KB-BRK-492 · D:L1059 BRK-11 RESOLVED TRUE on ICMB 141.6%, pre-existing, KB-BRK-493/494 · D:L1071 PIMCO 10-Q not filed, KB-BRK-496 · GATE-BRK-R2 HELD → 12/07, Monroe run 2, KB-BRK-495 · WALTER 5/5; no score change).
 - `catchups/2026-11-13.md` (prome-72 due-row wake: D:L1098 CRMT GRADED, a twelfth bridge to Mon 11/16, KB-BRK-489 · D:L1058 CABO hearing NOT GRADED, press says adjourned to 12/4, GTCR/MBI moved to intervene, KB-BRK-490/491 · WALTER 008/020/021 already consumed 11/12; no score change).
 - `catchups/2026-11-12.md` (prome-e8 due-row wake D:L1098: CRMT feed empty through 16:36 ET, NOT GRADED · GPU-financing verdict ONE FOLLOW-UP (TRIN 10-K marks), KB-BRK-485–487 · VX-BRK-020 red rung met at 5.10, no rescore · WALTER 12/12 · WQ-678 A applied; no score change).
 - `catchups/2026-11-11.md` (prome-2b catch-up wake on Will's 09:24 ET word: WALTER 5/5 · hiking-Fed read on own letters, KB-BRK-477/478/483 · CoreWeave Q3 lender side · CABO 10/30 committee missed then caught · Skydance/Apollo · SEC FY2026; no score change).
