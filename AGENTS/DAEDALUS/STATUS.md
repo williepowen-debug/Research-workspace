@@ -1,10 +1,16 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-11-12 16:12 ET — housekeeping, Harness re-test, own WQ-678 B trims, backlog prune approved and applied, C8/C12 rationale corrected (L1133 own leg).**
+**Last Updated: 2026-11-16 21:30 ET — PROME-relayed tonight list (Will 20:56 ET): scorecard delivered, TERRY check E repaired, Production Review #10 CHECKPOINTED after the 21:11 ET laptop restart.**
 
 **Current judgment:** Owed small items are closed: READS re-attestation delta sent for PROME transcription (missing `docs/GIT_WORKTREE_PROCEDURES.md` dependency found), SHADE ledger registered, SURFACES AGENTS.md row re-cut, L816 narrowing accepted, NEXUS B6 tie clause NO-OP (STRICT_TEXT rule 7 already carries it), ZHAO B24 closed. Staleness #7 found 6 ledger and 2 trade flags, one real (MARCO VX row SFE-03, oldest live row, routed by packet), 0 freezes; four CHECKS rows were stale after PROME's 10/31 WQ-578 retirements and are corrected. The provider-switch Harness re-test then ran (9 Opus readers, 74 charters, 599 rows); Will ruled WQ-678 A and 41 owner packets went out (6a43711d27). DAEDALUS L4/M retained, no L5 adjudication. Record `runs/2026-11-12_HOUSEKEEPING.md`.
 
 ## Current work and next actions
+
+**November 16 evening (PROME prome-c4 20:56 ET on Will's word; prome-d2 21:23 ET after the restart):**
+- **Scorecard 11/7–11/13 DONE** 84d0cfc509, 3 days late. ⚠️ Column 5 `rulings=0` is an instrument miss: the WILL_QUEUE `Done <date> — RULED X` form is unread (hand count about 31). Parser repair is owed in own lane. `runs/2026-11-16_SCORECARD_2026-11-13_DELIVERY.md`.
+- **TERRY ledger_sweep check E REPAIRED** 4b267200e9: ISO stamps with seconds are now read as HH:MM. Independent review ACCEPT-WITH-RESIDUE; its range false negative is fixed. Residue: local-offset ISO stamps stay unchecked. `runs/2026-11-16_CHECK_E_REPAIR.md`.
+- **Production Review #10 PARTIAL (checkpoint):** detection, 3b checks and the TERRY consumer check are done (no script consumer of the moved text). Readers A and E: 10 desks, all RETAIN, no rows applied. Readers B, C, D and F were lost in the restart. `last_run` stays 11/02. `runs/2026-11-16_PR10/CHECKPOINT.md`.
+- **Inbox pending, not started:** BOARD quoted-date fixture test (PROME 10:16 ET) and FLEET_DIRECTORY confirm plus HENRY WF question (PROME 10:06 ET; answered by the assembly re-render). GIBBS dormancy ask was withdrawn (WQ-692 KEEP). Tool census is information only.
 
 **November 7 integration:** CORAL consumer checks pass; GIBBS L2/M; CREED original eleven closed but two new expiries remain. CRUISE unread-filing premise overtaken, NEXUS annotation already applied, L882 closed. Twelve bounded map re-cuts; no whole-review clock reset. CARL requests completed in this continuation.
 
@@ -66,8 +72,8 @@
 | **L188** | Vocabulary pass on its own trigger only. |
 | **L263** | Draft review DONE 11/04, NOT READY TO ENCODE; Will/PROME disposition. |
 | **`AGENTS/SIGNALS.md` SURFACES row** | Add at Production Review #10 (register fact only, no rule). |
-| **L1133 (CATO 11/12 review, own leg)** | Prune item C8 rationale corrected at a14a53a3c7 (C12 strengthened); Will told in-window; PROME doorbelled. Own leg DONE; PROME verifies at the artifact by 11/16. |
-| **TERRY moved-narrative consumer check** | OPEN (omitted from the 11/12 prune list; caught by PROME). Bounded: grep consumers of TERRY's five changed KEY FILES entries and moved spans, exercise only an identified script consumer; no TERRY re-audit. Rides Production Review #10, by 11/16. Spec `runs/2026-11-07_DISPOSITION_PLAN.md:26`. |
+| **L1133 (CATO 11/12 review, own leg)** | Own leg DONE at a14a53a3c7 (C8 rationale corrected, C12 strengthened), re-confirmed to PROME 11/16; PROME's consumer read is dated 11/17. |
+| **TERRY moved-narrative consumer check** | DONE 11/16: no script parses the moved text; the two path-based consumers resolve. Perimeter in `runs/2026-11-16_PR10/CHECKPOINT.md`. |
 
 ## Conditional seats and other owners
 
@@ -83,10 +89,9 @@
 - **Weekly scorecard COMPLETE:** `runs/2026-11-07_SCORECARD_2026-11-06_DELIVERY.md`. One day late; unchanged v1.3, 27 selftests pass, production rc 0. Later snapshot/prior partial-Friday limits retained; activity counts are not demonstrated improvement.
 - **Disposition plan DELIVERED:** `runs/2026-11-07_DISPOSITION_PLAN.md`. Credits nine whole profiles, PR9 deltas, L817, C17, root rotation and CATO result. B24 token already applied; ZHAO charter awaits Will/owner. TERRY consumer check remains narrow. PROME counterpart delivered; WQ-654 A retires the completed queue and A09 closure leg but retains the narrowed 90-day Harness review across all charters. Implementation: `runs/2026-11-09_WQ654_IMPLEMENTATION.md`.
 
-## BOTTOM LINE — 2026-11-12
+## BOTTOM LINE — 2026-11-16
 
-- **WORK:** Housekeeping pass, provider-switch Harness re-test and own WQ-678 B trims complete (25 of 28 applied 11/12, 2 done earlier, S-56 RAV "add checks" held for Will; prior text `archive/2026-11-12_HARNESS_TRIMS/`). Backlog prune approved by Will 12:28 ET and applied (`runs/2026-11-12_BACKLOG_PRUNE.md`). Scorecard and Production Review #10 not started.
-- **CHECKS:** Housekeeping cold read 23 ✅ / 5 ⚠️ / 0 ❌, all fixed (`runs/2026-11-12_HOUSEKEEPING.md` § 6). Trim diff cold read (Sonnet) 1 ❌ / 7 ⚠️: the ❌ (basename rule) and the RAV cross-run routing line restored before commit; the rest accepted as history drops or intended changes. read_cap_check rc 0.
-- **DELIVERY:** One PROME packet (READS delta, SHADE, two unwired rows) and one MARCO packet; PROME doorbelled in-session; consumption unverified.
-- **HARNESS (11/12):** provider-switch re-test done (`runs/2026-11-12_HARNESS_RETEST.md`); WQ-678 A ruled 09:59 ET; 41 packets 6a43711d27; A18 applied in own files; own 28 optional trims applied 11/12 (see WORK); A17 done by PROME; dormant-freeze pre-approval RETIRED on Will's word and removed from own playbooks/OPERATIONS.
-- **OPEN:** Owners apply WQ-678 lines at next wake (PROME A3–A7/A16 done 212347d3a2; WQ-679 root rows 9d43dd3cdc); backlog prune APPROVED by Will 12:28 ET and applied; L1133 own leg DONE (a14a53a3c7), PROME's consumer read by 11/16; scorecard 11/13; Production Review #10 by 11/16; YUR-F02 11/28.
+- **WORK:** PROME's three tonight items, on Will's word: scorecard DONE; check E repair DONE; Production Review #10 PARTIAL (readers A and E only, 10 of 41 desks, no rows applied; four readers lost in the 21:11 ET restart). C8 leg of L1133 DONE (11/12). Session stopping at checkpoint.
+- **CHECKS:** check E selftest rc 0, three mutants fail as expected, independent review ACCEPT-WITH-RESIDUE. Scorecard v1.3 27/27, rc 0, with a column-5 instrument miss disclosed. Production Review clock not advanced (PARTIAL).
+- **DELIVERY:** scorecard, check E and the repair record are on origin (84d0cfc509, 4b267200e9, f814623f50). Checkpoint, TERRY notice and PROME packet are in the closeout commit. Consumption unverified.
+- **OPEN:** next session: re-run readers B, C, D and F (two at a time), assemble and apply re-cuts, regenerate the directory, advance last_run. Also owed: BOARD quoted-date fixture test, scorecard parser repair for the `Done <date> — RULED` form, scorecard 11/20, L490 HENRY leg 11/20, YUR-F02 11/28. EVOLUTION.md is 209 B under its rotation trigger.

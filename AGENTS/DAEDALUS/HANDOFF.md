@@ -1,3 +1,9 @@
+# Current continuation — November 16, 2026 evening (laptop; stopped at checkpoint)
+
+PROME's tonight list on Will's word (20:56 ET): scorecard 11/7–11/13 DONE 84d0cfc509 (column-5 rulings instrument miss disclosed; parser repair owed); TERRY check E repair DONE 4b267200e9, record f814623f50. **Resume first: Production Review #10** from `runs/2026-11-16_PR10/CHECKPOINT.md`. Re-run readers B, C, D and F with the same brief at a new pinned cutoff, two at a time (laptop memory); verify and apply re-cuts from all six reports; regenerate the directory (answers PROME's FLEET_DIRECTORY ask); dispose of the profile alerts; write the review record; advance last_run. Two inbox packets pending: BOARD quoted-date fixture test, FLEET_DIRECTORY confirm plus HENRY WF question.
+
+---
+
 # Current continuation — Harness re-test, November 12, 2026
 
 Provider-switch re-test done on Will's "okay do harness re-test" (09:07 ET): `runs/2026-11-12_HARNESS_RETEST.md`, ledgers `runs/harness_audit_2026-11-12/`. WQ-678 A ruled 09:59 ET in PROME's chat; 41 packets (40 desks + PROME) committed 6a43711d27, A18 applied in own CLAUDE.md:93 and OPERATIONS.md:14. Owners apply at next ordinary wake; no launches. Own 28 optional trims (incl. RAV charter) deferred. Will decided both open items ~10:10 ET: A17 done by PROME; dormant-freeze pre-approval retired and removed from own files. Harness last_run stays 2026-10-04 until applied.
