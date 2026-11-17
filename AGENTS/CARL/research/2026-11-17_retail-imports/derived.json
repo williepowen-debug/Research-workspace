@@ -1,0 +1,200 @@
+{
+ "retail": {
+  "headline_mom": {
+   "2026-10": 0.212,
+   "2026-09": 0.828,
+   "2026-08": 1.45
+  },
+  "headline_yoy_oct": 6.823,
+  "ex_autos_mom_RSFSXMV": {
+   "2026-10": 0.628,
+   "2026-09": 1.066
+  },
+  "retail_trade_ex_food_services_mom_RSXFS": 0.207,
+  "ex_autos_gas_mom": {
+   "2026-10": 0.517,
+   "2026-09": 0.485
+  },
+  "control_level": {
+   "2026-10": 405533.0,
+   "2026-09": 403175.0,
+   "2026-08": 401065.0,
+   "2025-10": 383943.0
+  },
+  "control_mom": {
+   "2026-10": 0.585,
+   "2026-09": 0.526
+  },
+  "control_yoy_oct": 5.623,
+  "control_real_mom_core_goods_cpi": 0.425,
+  "core_goods_cpi_mom": 0.16,
+  "categories_mom": {
+   "RSMVPD": -1.605,
+   "RSGASS": 1.52,
+   "RSBMGESD": 0.466,
+   "RSFSDP": 0.245,
+   "RSNSR": 1.24,
+   "RSGMS": 0.135,
+   "RSDBS": -0.181,
+   "RSCCAS": -0.745,
+   "RSFHFS": -2.25,
+   "RSHPCS": 1.482,
+   "RSMSR": 4.71,
+   "RSEAS": 0.026,
+   "RSSGHBMS": -0.687
+  },
+  "dollar_contrib_mom_musd": {
+   "RSAFS": 1583.0,
+   "RSMVPD": -2234.0,
+   "RSGASS": 1027.0,
+   "RSNSR": 1571.0,
+   "RSMSR": 744.0,
+   "RSHPCS": 589.0,
+   "RSFSDP": 227.0,
+   "RSBMGESD": 205.0,
+   "RSDBS": -154.0,
+   "RSFHFS": -246.0,
+   "RSCCAS": -198.0
+  },
+  "gas_share_of_total": {
+   "2026-10": 9.169,
+   "2026-09": 9.051,
+   "2025-10": 7.515
+  },
+  "T1b_gm_share": {
+   "2026-10": 12.487,
+   "2026-09": 12.496,
+   "2025-10": 12.879
+  },
+  "T1_SUBSTITUTE_interpolated_Oct25_CPI": {
+   "grocery_real_yoy": -1.385,
+   "restaurant_real_yoy": 3.167,
+   "apparel_real_yoy": -0.511,
+   "cpi_yoy_interp": {
+    "CUSR0000SAF11": 2.304,
+    "CUSR0000SEFV": 3.76,
+    "CPIAPPSL": 3.661
+   },
+   "method": "ratio: nominal growth / CPI growth (registered method), Oct-25 CPI = sqrt(Sep25*Nov25); not BLS"
+  }
+ },
+ "import_export": {
+  "IR": {
+   "mom_oct": 1.051,
+   "mom_sep": 1.062,
+   "yoy_sep": 8.097,
+   "oct26_vs_sep25_13mo": 9.233,
+   "oct26_vs_nov25_11mo": 8.924,
+   "oct25_published": false
+  },
+  "IREXFUELS": {
+   "mom_oct": 0.801,
+   "mom_sep": 0.512,
+   "yoy_sep": 5.855,
+   "oct26_vs_sep25_13mo": 6.703,
+   "oct26_vs_nov25_11mo": 6.13,
+   "oct25_published": false
+  },
+  "IREXFDFLS": {
+   "mom_oct": 0.859,
+   "mom_sep": 0.518,
+   "yoy_sep": 6.011,
+   "oct26_vs_sep25_13mo": 6.922,
+   "oct26_vs_nov25_11mo": 6.437,
+   "oct25_published": false
+  },
+  "IR10": {
+   "mom_oct": 3.558,
+   "mom_sep": 6.326,
+   "yoy_sep": 36.505,
+   "oct26_vs_sep25_13mo": 41.361,
+   "oct26_vs_nov25_11mo": 44.998,
+   "oct25_published": false
+  },
+  "IR0": {
+   "mom_oct": -0.174,
+   "mom_sep": 0.437,
+   "yoy_sep": 3.326,
+   "oct26_vs_sep25_13mo": 3.146,
+   "oct26_vs_nov25_11mo": 2.364,
+   "oct25_published": true
+  },
+  "IR1": {
+   "mom_oct": 1.689,
+   "mom_sep": 2.545,
+   "yoy_sep": 20.274,
+   "oct26_vs_sep25_13mo": 22.305,
+   "oct26_vs_nov25_11mo": 21.499,
+   "oct25_published": false
+  },
+  "IR2": {
+   "mom_oct": 1.456,
+   "mom_sep": 0.98,
+   "yoy_sep": 8.535,
+   "oct26_vs_sep25_13mo": 10.116,
+   "oct26_vs_nov25_11mo": 9.884,
+   "oct25_published": false
+  },
+  "IR3": {
+   "mom_oct": 0.411,
+   "mom_sep": 0.33,
+   "yoy_sep": 1.081,
+   "oct26_vs_sep25_13mo": 1.496,
+   "oct26_vs_nov25_11mo": 1.75,
+   "oct25_published": false
+  },
+  "IR4": {
+   "mom_oct": 0.531,
+   "mom_sep": 0.266,
+   "yoy_sep": 2.634,
+   "oct26_vs_sep25_13mo": 3.179,
+   "oct26_vs_nov25_11mo": 3.085,
+   "oct25_published": false
+  },
+  "IQ": {
+   "mom_oct": 1.111,
+   "mom_sep": 2.395,
+   "yoy_sep": 11.765,
+   "oct26_vs_sep25_13mo": 13.007,
+   "oct26_vs_nov25_11mo": 12.492,
+   "oct25_published": false
+  },
+  "IQ11": {
+   "mom_oct": 4.66,
+   "mom_sep": 9.281,
+   "yoy_sep": 37.859,
+   "oct26_vs_sep25_13mo": 44.282,
+   "oct26_vs_nov25_11mo": 47.646,
+   "oct25_published": false
+  },
+  "IQAG": {
+   "mom_oct": 1.233,
+   "mom_sep": 2.696,
+   "yoy_sep": 9.067,
+   "oct26_vs_sep25_13mo": 10.412,
+   "oct26_vs_nov25_11mo": 9.087,
+   "oct25_published": true
+  },
+  "IQEXAG": {
+   "mom_oct": 1.094,
+   "mom_sep": 2.365,
+   "yoy_sep": 11.981,
+   "oct26_vs_sep25_13mo": 13.206,
+   "oct26_vs_nov25_11mo": 12.822,
+   "oct25_published": false
+  },
+  "_split": {
+   "implied_fuel_weight": 0.091,
+   "fuel_contrib_pp": 0.323,
+   "exfuel_contrib_pp": 0.728,
+   "exfuel_mom_range_from_rounding": [
+    0.728,
+    0.874
+   ],
+   "headline_mom_range_from_rounding": [
+    0.985,
+    1.117
+   ]
+  }
+ }
+}

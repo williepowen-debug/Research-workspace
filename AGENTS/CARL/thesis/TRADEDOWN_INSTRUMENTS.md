@@ -40,6 +40,8 @@
 | T1-b | **General-merchandise share of retail** | `RSGMS` ÷ `RSXFS` | share **RISING** |
 | T1-c | **Discretionary apparel, real** | `RSCCAS` ÷ `CPIAPPSL` | **falling** (deferral category) |
 
+**Reading 2026-11-17 [obs 2026-10-01, Census advance CB26-181 as published; one report, one vintage] — 2 OF 3 AGAINST:** T1-a grocery proxy **−1.39%** real YoY vs restaurants **+3.17%** · T1-b GM share **12.879% (Oct25) → 12.487% (Oct26)**, also down from Sep 12.496% · T1-c apparel **−0.51%** real YoY, **FOR the leg, first time** (tripwire only; Tier 1 turning for the leg is a strengthening, not a confirmation). ⚠️ **October-2025 CPI was not published:** T1-a and T1-c are deflated with an interpolated October-2025 CPI (geometric mean of Sep-25 and Nov-25), labelled, not BLS; T1-b needs no CPI. Derivation `research/2026-11-17_retail-imports/derive.py` → `derived.json`; KB-CARL-623. No instrument, direction rule or score changed.
+
 **Reading 2026-10-15 [obs 2026-09-01, Census advance CB26-165 as published; one report, one vintage] — ALL THREE AGAINST:** T1-a grocery proxy **−0.85%** real YoY vs restaurants **+3.41%**, spread **−4.27pp** · T1-b GM share **12.779% (Sep25) → 12.540% (Sep26)**, also down from Aug 12.641% · T1-c apparel **+1.56%** real YoY. Derivation `domain/sources/2026-10-15_retail/derive.py` → `derived.json`; card `domain/sources/2026-10-15_September-retail-read.md`. Levels differ from the 9/16 reading because the 9/28 benchmark re-based the series; compare within a vintage only. No instrument, direction rule or score changed.
 
 **Reading 2026-09-16 [obs 2026-08-01] — ALL THREE AGAINST:**

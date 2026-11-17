@@ -8,6 +8,16 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-17 — October retail sales and import prices read (WALTER SIG-W-20261117-004); CRL-34 CONFIRMED (no version or score change)
+
+- **CRL-34:** OPEN → **CONFIRMED 2026-11-17 at 72%** (mark unchanged since registration 11/06). FRED GASREGW vintage 11/17: 11/09 $3.995, 11/16 $3.805, two consecutive observations below $4.000. Not the V5 letter (AAA, earliest 11/24); no score moved.
+- **Retail (Census CB26-181, primary):** headline +0.21%, ex-autos +0.63%, control +0.59% (September control revised +0.14 → +0.53%). T1 trade-down 2 of 3 against (T1-c apparel FOR, interpolated October-2025 CPI, tripwire only). No instrument, rule or score changed. KB-CARL-623.
+- **Import prices (BLS via FRED; bls.gov 403):** +1.05% m/m, ex-fuel +0.80%, about 70% of the rise not fuel. **CRL-10** Notes untouched, stays 1% (food imports −0.17%). KB-CARL-624.
+- **CRL-32:** not graded; direction-only note in the research file (real control gain leans toward a low saving rate if income is flat). No re-mark.
+- Record: `research/2026-11-17_retail-imports/READ.md`.
+
+---
+
 ## 2026-11-14 — DOCKET L150: ES-02 final look DID_NOT_APPEAR; CRL-28 re-marked 50 → 20 (no version or score change)
 
 - **CRL-28:** 50% → **20% dated 2026-11-14**, OPEN. STUE's pull (vintage 11/14, commit 4337b83cff), recomputed by CARL from the saved file: settled boundary Sun 11/08 on the pre-registered completeness test, rule and eyeball agree, band stable at ±3 days. Window Oct 1–Nov 8 22.5/day; 60-day rolling average 23.3/day = 42% of the frozen 55/day; after notice completion 19.2/day. Third null and the first inside the window, after MOHELA's notices finished (the ES-02 row's registered STUCK→MISSED decision point). Not cut further because the payment-wave and auto-enrolment paths are still ahead and the refute leg cannot resolve before 9/30/2027.
