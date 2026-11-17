@@ -53,18 +53,19 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-16, 13:47–16:3x ET (PROME prome-6f wake on WALTER PRIORITY card SIG-W-20261116-002, then held for the close read; Claude Code, Opus 5.5). Closed 16:3x ET on PROME's ask.
+### CHANGES SINCE — 2026-11-17, 09:47–16:5x ET (PROME prome-19, WQ-703, Will "703 yes"; Nvidia day; held all day, then the close read; Claude Code, Opus 5.5). Closed 16:5x ET on PROME's ask.
 
-- **Intraday grade 13:5x ET** of the Nvidia board demand (Treasury Secretary, 10 days): S&P 7,426 through 7,500, close conditions stated per rule; 7 WALTER cards drained; COR-20261114-10 receipted NO-OP; PROME packet with forecast-probability answer (from HEN-64 on, no backfill; L490 closed by PROME) and the exact boot step (g) drop edit.
-- **Close read: S&P 7,416.59, first close under my published 7,500 put wall** → WALTER `ac69f2ac4c` → SIG-W-20261116-011 (ACTION PROME); TERRY NO CARD (relayed). QQQ second close under 680. HEN-60 still open (74 over 7,342.33). 10Y par 5.12, third close over 5.0.
-- **VIX: settle 22.91, not yellow.** The 16:03 ET read was 23.02 on vendor and Cboe; I waited for the Cboe stamp 16:15:01 (read 16:32 ET). Rule promoted to LESSONS [Data]. Also: my 11/13 VIX 19.03 was wrong (official 19.30); corrected everywhere I own; HEARTBEAT.md:16 (PROME's) still carries it, flagged.
-- **Boot step (g) drop: Will's own word required** (his letter said "no charter edit today"); PROME's relay was not that word. PROME registered WILL_QUEUE row 697. No edit made.
-- GitHub could not resolve at 13:4x ET; worked on the local checkout. Boot took 190 s, 180 s of it step (g) timing out.
+- **09:48 ET map** (first chain with Monday's trades): SPX flip 7,608 / 7,610, NEGATIVE, walls withheld, not published (`research/2026-11-17_nvda-day/MAP.md`). PROME consumed it and closed my coverage and hygiene lane leg.
+- **HEN-60 RESOLVED-HIT at the 11/17 close:** S&P 7,340.53 vs 200-session average 7,344.53 (own calc incl. today), 4.00 under; 0.50, Brier 0.25 (base rate would have scored 0.17). **Graded on the vendor close by the letter; FRED SP500 11/17 check on 11/18, disclose any difference.** Signal → WALTER (ACTION PROME, INFO TERRY, VIOLET). Record `CLOSE.md`, KB ML-HEN-227/228.
+- VIX settle 25.46 (Cboe stamp 16:15:01), yellow by my table, VIOLET broadcasts. HY 334 [11/16] yellow. 10Y par 5.10, fourth close over 5.0. Selling broad, not chip-led (RSP −1.45% vs SMH −0.39%), cause not established.
+- Nvidia Q3 FY27 at the primary: $115.8B vs own $108B ± 2%; Q4 $130B ± 3% incl. extra week, no China compute, GM guide 71–72%. Kress interim CEO since 11/12 (VULCAN 8-K read, card 020).
+- **Outside-audit:** 8 never-graded rows (HEN-01, H1, H4, H5, H7, HEN-02, HEN-03, HEN-05) grade Fri 11/20 beside D:L490. WALTER accepted narrowing ROUTINE cross-owner cards (table defaults unchanged without Will).
+- Tooling: `curl` on Cboe `delayed_quotes/quotes/_VIX.json` returns 307 with an empty body; Python urllib (follows the redirect) works, as does `curl -L`. My morning commit reached origin on another desk's push.
 
-### NEXT SESSION
+### NEXT SESSION (11/18, registered as D:L1051; Will's WQ-697 approval is in its task letter)
 
-1. FRED 11/16 (posts 11/17): confirm 7,416.59 and 22.91; HY/BB/CCC (323 YELLOW on 11/13). Does credit join the equity break?
-2. **Nvidia results Tue 11/17 after the close.** Re-run the SPX and QQQ maps on the 11/17 chain. A close back over 7,500 = break failed; over ~7,610 = gamma regime turns.
-3. **D:L1051 row 9 Wed 11/18 after 16:15 ET; D:L823 Thu 11/19.**
-4. Boot step (g): edit boot.py, CLAUDE.md (two lines) and MAINTENANCE.md in one commit ONLY after PROME relays Will's ruling on WQ-697 verbatim.
-5. ECON_CALENDAR rebuild before 11/20; DAEDALUS K38–K52; MSCI card 030 week of 11/23; dashboard v6 stale; FOMC 12/9 (HEN-63; price is ORACLE's).
+1. **FRED 11/17:** SP500 vs 7,340.53 (HEN-60's vendor grade), VIXCLS vs 25.46, HY/BB/CCC; fill MARKET_DATA.
+2. **WQ-697 A edit:** drop boot step (g) in boot.py, CLAUDE.md (two lines) and MAINTENANCE.md in one commit; packet in inbox.
+3. **First post-results map** on Wednesday's chain after about 09:47 ET (carries 11/17 positioning). Close over about 7,600 = regime turns; 200-day (about 7,344) is now context, not a forecast line.
+4. **Row 9 (D:L1051) after 16:15 ET 11/18**; D:L823 Thu 11/19.
+5. **Fri 11/20:** grade the 8 audit rows beside D:L490. ECON_CALENDAR rebuild before 11/20; DAEDALUS K38–K52; dashboard v6 stale; FOMC 12/9 (HEN-63).

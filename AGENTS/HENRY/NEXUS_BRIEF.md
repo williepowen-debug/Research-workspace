@@ -1,15 +1,26 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-11-16 16:3x ET closeout on PROME's ask (prome-6f; Claude Code, Opus 5.5). Equity closes are vendor and Cboe delayed quotes (16:18 ET); VIX is the Cboe 16:15 settle (read 16:32 ET); yields are Treasury par 11/16; FRED for 11/16 posts 11/17. Earlier folds: 11/13 16:2x ET, 11/12 16:13 ET.
+**Owner fold:** 2026-11-17 16:5x ET closeout on PROME's ask (prome-19, WQ-703; Claude Code, Opus 5.5). Equity closes are Cboe delayed and vendor quotes, agreeing to the cent (16:46–16:47 ET). The VIX is the Cboe 16:15 settle (stamp 16:15:01, read 16:46 ET). Yields are Treasury par 11/17. Credit is FRED 11/16. FRED for 11/17 posts 11/18. Earlier folds: 11/16 16:3x ET, 11/13 16:2x ET.
 
-**View:** **The Treasury Secretary's 10-day demand to Nvidia's board (WALTER SIG-W-20261116-002) took the S&P to 7,416.59 (−1.92%), its first close under my last published put wall, 7,500 [11/12]** → WALTER `ac69f2ac4c` → SIG-W-20261116-011 (ACTION PROME); TERRY NO CARD (relayed). A narrow, chip-led break: NVDA $156.14 (−4.12%), SMH −5.11%, QQQ $661.75 (−2.67%, a second close under 680), RSP −1.01%, IWM −1.65%, KRE $72.19 (−0.76%). Bonds bid: 10Y par **5.12% (−3bp), still the third straight close over my 5.0 red line**; 2Y 4.83%, 30Y 5.46%. **VIX settle 22.91, under the 23 yellow line** (high 24.52; the 16:03 ET read 23.02 was not the settle); VIX3M 23.02, curve flat.
+**View:** **The S&P closed 7,340.53 (−1.03%), 4.00 under its 200-session average of 7,344.53 (own calc incl. today): HEN-60 RESOLVED-HIT** (0.50, Brier 0.25). ⚠️ It is graded on the vendor close, as its letter allows before FRED posts; FRED is checked 11/18. ⚠️ The average is my own calculation and the margin is 4.00. It went to WALTER as a signal (ACTION PROME, INFO TERRY, VIOLET). This is the second close under my last published put wall, 7,500 [11/12]. The selling was broad, not chip-led: RSP −1.45%, IWM −1.43%, KRE $70.85 (−1.86%), against NVDA $155.46 (−0.44%), SMH −0.39% and QQQ $656.95 (−0.73%). It came on the day of the BIS chip-rule card (SIG-W-20261117-007); the cause is not established. **VIX settle 25.46** (+11.1%; over my 23 yellow line; VIOLET broadcasts). VIX9D 26.70 is over VIX3M 24.98, so the front of the curve is inverted. 10Y par **5.10%** (−2bp), the fourth close over 5.0; 2Y 4.80%.
 
-- **Gamma at the close (16:19 ET, chain = 11/13 open interest; not published):** SPX flip 7,607 / 7,613, **NEGATIVE about −$59B / −$78B per 1%**, spot 190–197 under the flip. Every wall withheld (put = call at 7,500 at 14 days, at 7,000 at 35 days). QQQ flip 688–690, NEGATIVE; walls withheld. Last published put wall: 7,500 [11/12]. Free-tier: sign and flip robust, dollar sizes not.
-- **Into Nvidia results Tue 11/17 after the close (judgment):** dealers amplify either way. Break failed = a close back over 7,500; regime turns = over about 7,610. Further-down signs: HY widening on 11/17's FRED print, QQQ staying under 680 with chips leading.
-- **Levels (SPX, own calc):** 200-session average threshold 7,342.33 for the 11/16 close (close 74.26 over); 50-day 7,666.42 (short-term CTA condition met); yellow 7,200; red 7,037.04 (−10% from the 10/6 peak 7,818.93); close −5.15% from the peak.
-- **Credit (FRED 11/13):** HY 323bp YELLOW (3 over 320); BB 186; CCC 1,316 RED; CCC−BB 1,130. 11/16 posts 11/17. LIQUID grades the HY rows.
-- **Correction:** the 11/13 VIX close was 19.30 (FRED VIXCLS), not the 19.03 I published; contango 1.063, not 1.078.
-- **Forecasts:** HEN-60 S&P under its 200-day by 11/30, 0.50 (open) · HEN-61 record close by 12/31, 0.28 · HEN-63 hike 12/9, 0.70 (market price per ORACLE). None moved on the close. From HEN-64 on every row carries a probability.
-- **Next:** FRED 11/16 on 11/17; NVDA results 11/17 after the close; CYPHER row 9 at the 11/18 close (D:L1051); D:L823 11/19; calendar rebuild before 11/20; FOMC 12/9.
+- **Nvidia (press release 11/17):**
+  - Revenue $115.8B against its own $108.0B ± 2% outlook; Data Center $107.6B.
+  - **Q4 outlook $130.0B ± 3% including an extra week, with no China data-center compute; gross-margin guide 71–72%**, against 74.9%.
+  - After hours (vendor, before the call, not closes): NVDA $158.50 (+1.96%), ES +0.22%, NQ +0.37%.
+  - VULCAN owns the capex-chain meaning.
+- **Gamma at the close (Monday's open interest; not published):**
+  - SPX flip 7,599 / 7,604, **NEGATIVE −$64B / −$87B per 1%**, about 260 under the flip.
+  - QQQ flip 681 / 680, NEGATIVE.
+  - Walls withheld. Free-tier estimate: the sign and the flip are robust; the dollar sizes are not.
+- **Into 11/18 (judgment):** Wednesday is the first close to reflect the results. Dealers amplify the move either way. A close back over about 7,345 makes HEN-60's condition a one-day breach. A close over about 7,600 (+3.5%) turns the regime.
+- **Levels:** 50-day average 7,654.76; yellow 7,200 (140.53 below the close); red 7,037.04 (−10% from the 10/6 peak of 7,818.93); the close is −6.12% from the peak.
+- **Credit (FRED 11/16):** HY 334bp YELLOW (+11); BB 196 (+10); CCC 1,310 RED (−6). LIQUID grades the HY rows.
+- **Forecasts:** HEN-60 RESOLVED-HIT 11/17. HEN-61 record close by 12/31, 0.28. HEN-63 rate hike 12/9, 0.70 (the market price is ORACLE's). The 8 old rows the audit found are graded Fri 11/20.
+- **Next:**
+  - FRED for 11/17 on 11/18.
+  - The first post-results map on 11/18.
+  - CYPHER row 9 at the 11/18 close (D:L1051); D:L823 on 11/19.
+  - Calendar rebuild before 11/20; FOMC 12/9.
 
-No threshold level, band, trade, card or gate changed; no prediction resolved. One Will decision is registered by PROME (WILL_QUEUE row 697, boot step (g)); nothing else is needed from this desk.
+No threshold level, band, trade, card or gate changed. One prediction resolved (HEN-60, YES). Nothing is needed from Will.
