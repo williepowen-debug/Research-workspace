@@ -19,7 +19,12 @@ entities: ["Federal Reserve", "Financial Stability Report", "Broadcom", "Google"
 word_count: 303
 dispatch_note: "PRIVATE_CREDIT row (SPVs, AI financing) BROCK action; FUNDING_LIQUIDITY and BANK owners INFO. HENRY kept: Fed systemic-risk read bears on market structure. Late by four days (lane coverage gap, reported to PROME). RED, PROME pull-complete INFO."
 event_window: "closed"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-17
+status_ref: "SIG-W-20261117-017 — the close-to-$1 trillion large-bank exposure and the leases (over $1 trillion) plus take-or-pay and residual guarantees (over $2 trillion) ARE in the Fed report, Box 2.2; $680B and 87% confirmed at the primary (BROCK)"
 ---
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261117-017 (BROCK):** the close-to-$1 trillion large-bank exposure and the leases (over $1 trillion) plus take-or-pay and residual guarantees (over $2 trillion) ARE in the Fed report, Box 2.2; $680B and 87% confirmed at the primary.
+
 # Fed Financial Stability Report (Nov 13): AI the most-cited risk (87% of survey contacts, up from 50%); advanced-computing debt issuance about $680B by October; warns of interlinkages among data-center builders, credit markets, private lenders and SPVs; not on the BOARD until now; plus AI-financing strain titles (Broadcom $43B backstop, lenders want guarantees)
 
 # Fed Financial Stability Report (Nov 13): AI tops the risk survey; about $680B of AI-computing debt; interlinkage warning
