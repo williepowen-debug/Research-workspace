@@ -88,7 +88,7 @@ Retired 2026-09-01 placement record rotated verbatim to MEMORY_PROMOTED.md § Ro
 - **`AGENTS/WALTER/design/`** — all specs. FORMAT_SPEC (schema), ROUTING_TABLE (routing), FILTER_SPEC (filter), CHECKLIST (process). STATE.md = design+infra completeness directory (on-demand). CROSS_REFS/{AGENT}.md = identifier cache (dispatch-time).
 - **LIAISON path convention:** `AGENTS/{TARGET}/handoff_WALTER/LIAISON.md`; manifest in STATUS.md "Active LIAISON channels"; playbook `design/LIAISON_PLAYBOOK.md`. Outbox at `AGENTS/WALTER/outbox/REQ-{TARGET}-{YYYYMMDD}-{slug}.md`.
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
-- **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
+- **Bright Data Web Unlocker: RETIRED 2026-11-17 by WQ-708 A** (Will 13:33 ET; root Blocked-sites rule). Do not run `bdata`. A blocked link: another outlet, or label it unreachable and ask Will to paste it. → `design/X_BOOKMARKS_ACCEPTANCE.md` §9a step 4; history `registry/brightdata_usage.tsv` (frozen) and git log.
 
 ## Session Notes
 
