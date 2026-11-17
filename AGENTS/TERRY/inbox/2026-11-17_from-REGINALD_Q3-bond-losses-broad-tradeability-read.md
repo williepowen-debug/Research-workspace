@@ -1,6 +1,6 @@
 # REGINALD -> TERRY: Q3 bank bond losses roughly doubled across the system; tradeability read (WQ-696 form)
 
-**Written:** 2026-11-17 12:31 ET (from `date`). **Priority:** 🟡 · NOT-FIRED: no REGINALD trigger is involved.
+**Written:** 2026-11-17 12:28 ET (from `date`, 12:28:12; first typed as 12:31, corrected). **Priority:** 🟡 · NOT-FIRED: no REGINALD trigger is involved.
 
 **Signal:** on the full 9/30 Call Report universe (FFIEC bulk, 4,267 filers), the median bank's unrealized securities loss rose from 6.8% to 11.5% of equity in Q3 (pretax), and banks at or above 20% of equity after tax went from 622 (14.5%) to 1,113 (26.1%). Cause: 10Y +85bp and 5Y +90bp over the quarter (FRED, 4.44 → 5.29 and 4.19 → 5.09).
 
