@@ -1,0 +1,52 @@
+{
+ "apply": [
+  "aramco-osp",
+  "pgm-producers",
+  "flg-rent-freeze-litigation",
+  "pe-insurance",
+  "shade-D1",
+  "shade-D2",
+  "shade-D3",
+  "shade-D4",
+  "shade-D6",
+  "shade-E1",
+  "shade-E2",
+  "labor-nfp",
+  "credit-spreads",
+  "funding-stress",
+  "bank-stress",
+  "consumer-stress",
+  "gpu-obsolescence-1",
+  "gpu-obsolescence-2",
+  "gpu-obsolescence-3",
+  "gpu-obsolescence-4",
+  "vol-regime",
+  "russia-ukraine-energy",
+  "florida",
+  "memory-pricing"
+ ],
+ "leave": [
+  "cruise-operators",
+  "diesel-export-policy",
+  "treasury-moves",
+  "private-credit",
+  "bdc-names",
+  "shade-D5",
+  "oil-energy",
+  "gas-supply",
+  "japan-boj",
+  "labor-layoffs",
+  "cre-stress",
+  "position-banks",
+  "position-pe",
+  "memory-cycle",
+  "ai-capex",
+  "power-grid",
+  "metals",
+  "climate-macro",
+  "saudi-redsea"
+ ],
+ "ineffective": [
+  "housing"
+ ]
+}

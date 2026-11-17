@@ -103,3 +103,73 @@ Run by PROME as preparation while WQ-706 was open; read-only, one request per se
 | position-pe | BROCK | 3 | no | 100 | 13 | 0 | CURRENT |
 | ai-dc-force-majeure | VULCAN, LIQUID | 3 | yes | 6 | 5 | 0 | CURRENT |
 | ttf-storage-gilts | HANS | 3 | yes | 27 | 7 | 0 | CURRENT |
+
+## What was changed (WQ-706 A and WQ-707 A, Will 2026-11-17 10:20 ET, "yes 706 A, and 707 A")
+
+Written 2026-11-17 10:27 ET by PROME prome-19. Collection repository commit **10d2dda** on `main`, pushed 10:3x ET (`scripts/newsweep_config.py` only; 61 searches become 65). WALTER had no session on this machine (ListAgents 10:30 ET: liquid, brent, brock, henry only) and no intake scan process was running, so no scan was open; WALTER is told by packet. The repository was brought level with its remote by a fast-forward pull first (one data commit, 13:35 UTC).
+
+**Every change was tested before it was written:** the changed config was built in a scratch copy and each search run once (10:25 to 10:28 ET) against the 10:14 ET pass. Raw results: `PROME/reports/2026-11-17_wq707-search-after.json`; the apply list: `PROME/reports/2026-11-17_wq707-search-plan.json`.
+
+**PROME applied LESS than WQ-707 A allowed.** A covered the limit on every search that lacked one (46). The test showed the 7-day limit makes an already-current search LESS fresh in the places the collector keeps: with no limit Google returns a busy topic newest first; with the limit it ranks by relevance inside the week. So the limit went only where the first 15 results got fresher or lost month-old items (24 searches), plus the two splits. Rule used: add the limit when the count under 48 hours did not fall and either rose or the search had items over 30 days old; leave the search alone otherwise.
+
+### Changed (26 existing searches, 4 new)
+
+| Search | Desks | Before: retrieved / first 15 under 48 h / over 30 days | With the limit or split | Action |
+|---|---|---|---|---|
+| gulf-theater | FALCON, BRENT | 32 / 0 / 14 | 100 / 6 / 0 | SPLIT; part 1 committed with when:2d (15 of 15 under 24 h in a separate probe), parts 2 and 3 with when:7d as shown |
+| gulf-theater-2 | FALCON, BRENT | 32 / 0 / 14 | 100 / 10 / 0 | SPLIT; part 1 committed with when:2d (15 of 15 under 24 h in a separate probe), parts 2 and 3 with when:7d as shown |
+| gulf-theater-3 | FALCON, BRENT | 32 / 0 / 14 | 100 / 7 / 0 | SPLIT; part 1 committed with when:2d (15 of 15 under 24 h in a separate probe), parts 2 and 3 with when:7d as shown |
+| china-asia | ZHAO | 7 / 0 / 7 | 48 / 3 / 0 | SPLIT, each with when:7d |
+| china-asia-2 | ZHAO | 7 / 0 / 7 | 18 / 11 / 0 | SPLIT, each with when:7d |
+| china-asia-3 | ZHAO | 7 / 0 / 7 | 100 / 8 / 0 | SPLIT, each with when:7d |
+| aramco-osp | BRENT | 5 / 0 / 5 | 2 / 1 / 0 | when:7d ADDED |
+| pgm-producers | MIDAS | 41 / 3 / 11 | 25 / 5 / 0 | when:7d ADDED |
+| flg-rent-freeze-litigation | FLG | 54 / 0 / 15 | 1 / 0 / 0 | when:7d ADDED |
+| pe-insurance | BROCK, SHADE | 23 / 0 / 14 | 9 / 0 / 0 | when:7d ADDED |
+| shade-D1 | SHADE | 35 / 2 / 9 | 9 / 4 / 0 | when:7d ADDED |
+| shade-D2 | SHADE | 31 / 0 / 11 | 0 / 0 / 0 | when:7d ADDED |
+| shade-D3 | SHADE | 22 / 0 / 15 | 3 / 2 / 0 | when:7d ADDED |
+| shade-D4 | SHADE | 43 / 0 / 14 | 10 / 6 / 0 | when:7d ADDED |
+| shade-D6 | SHADE | 10 / 0 / 9 | 1 / 0 / 0 | when:7d ADDED |
+| shade-E1 | SHADE | 43 / 0 / 15 | 0 / 0 / 0 | when:7d ADDED |
+| shade-E2 | SHADE | 39 / 0 / 15 | 3 / 1 / 0 | when:7d ADDED |
+| labor-nfp | LABOR | 58 / 4 / 0 | 44 / 5 / 0 | when:7d ADDED |
+| credit-spreads | LIQUID | 42 / 1 / 12 | 16 / 6 / 0 | when:7d ADDED |
+| funding-stress | LIQUID | 30 / 1 / 11 | 28 / 5 / 0 | when:7d ADDED |
+| bank-stress | REGINALD, LIQUID | 40 / 1 / 9 | 11 / 5 / 0 | when:7d ADDED |
+| consumer-stress | CARL | 22 / 1 / 12 | 7 / 3 / 0 | when:7d ADDED |
+| gpu-obsolescence-1 | VULCAN, BROCK | 34 / 1 / 11 | 7 / 3 / 0 | when:7d ADDED |
+| gpu-obsolescence-2 | VULCAN, BROCK | 21 / 0 / 13 | 6 / 2 / 0 | when:7d ADDED |
+| gpu-obsolescence-3 | VULCAN, BROCK | 23 / 0 / 14 | 4 / 1 / 0 | when:7d ADDED |
+| gpu-obsolescence-4 | VULCAN, BROCK | 28 / 0 / 15 | 5 / 0 / 0 | when:7d ADDED |
+| vol-regime | VIOLET | 41 / 0 / 12 | 9 / 2 / 0 | when:7d ADDED |
+| russia-ukraine-energy | OSPREY, BRENT | 55 / 1 / 8 | 13 / 1 / 0 | when:7d ADDED |
+| florida | CORAL, HOMER | 50 / 2 / 5 | 19 / 5 / 0 | when:7d ADDED |
+| memory-pricing | VULCAN | 96 / 8 / 3 | 57 / 10 / 0 | when:7d ADDED |
+
+### Not changed (20)
+
+| Search | Desks | Before: retrieved / first 15 under 48 h / over 30 days | With the limit or split | Action |
+|---|---|---|---|---|
+| cruise-operators | CRUISE | 100 / 14 / 0 | 100 / 14 / 0 | NOT CHANGED: already current or no better with the limit |
+| diesel-export-policy | BRENT, TERRY, HENRY | 89 / 3 / 0 | 48 / 3 / 0 | NOT CHANGED: already current or no better with the limit |
+| treasury-moves | BOND, HENRY | 100 / 15 / 0 | 98 / 7 / 0 | NOT CHANGED: already current or no better with the limit |
+| private-credit | BROCK | 100 / 13 / 0 | 100 / 4 / 0 | NOT CHANGED: already current or no better with the limit |
+| bdc-names | BROCK | 57 / 7 / 3 | 31 / 6 / 0 | NOT CHANGED: already current or no better with the limit |
+| shade-D5 | SHADE | 7 / 1 / 6 | 0 / 0 / 0 | NOT CHANGED: already current or no better with the limit |
+| oil-energy | HENRY, BRENT | 100 / 14 / 0 | 100 / 7 / 0 | NOT CHANGED: already current or no better with the limit |
+| gas-supply | HENRY, BRENT | 100 / 13 / 0 | 100 / 4 / 0 | NOT CHANGED: already current or no better with the limit |
+| japan-boj | SAM | 100 / 15 / 0 | 100 / 4 / 0 | NOT CHANGED: already current or no better with the limit |
+| labor-layoffs | LABOR | 100 / 15 / 0 | 100 / 3 / 0 | NOT CHANGED: already current or no better with the limit |
+| cre-stress | REGINALD | 63 / 9 / 2 | 44 / 5 / 0 | NOT CHANGED: already current or no better with the limit |
+| position-banks | REGINALD | 43 / 4 / 1 | 25 / 3 / 0 | NOT CHANGED: already current or no better with the limit |
+| position-pe | BROCK | 100 / 13 / 0 | 100 / 6 / 0 | NOT CHANGED: already current or no better with the limit |
+| memory-cycle | VULCAN | 100 / 9 / 1 | 92 / 4 / 0 | NOT CHANGED: already current or no better with the limit |
+| ai-capex | VULCAN, HENRY | 75 / 4 / 5 | 40 / 2 / 0 | NOT CHANGED: already current or no better with the limit |
+| power-grid | WATT, VULCAN | 100 / 10 / 0 | 69 / 3 / 0 | NOT CHANGED: already current or no better with the limit |
+| metals | MIDAS | 68 / 4 / 0 | 38 / 3 / 0 | NOT CHANGED: already current or no better with the limit |
+| climate-macro | AEOLUS | 100 / 11 / 1 | 100 / 6 / 0 | NOT CHANGED: already current or no better with the limit |
+| saudi-redsea | FALCON, BRENT | 78 / 6 / 1 | 42 / 4 / 0 | NOT CHANGED: already current or no better with the limit |
+| housing | HOMER, CARL | 31 / 1 / 11 | 31 / 1 / 11 | NOT CHANGED: the limit had no effect (14 terms); needs a split |
+
+**Limits.** One before pass and one after pass, about ten minutes apart, at one time of day. A search with nothing after the change (shade-D2, shade-E1) had only old matches before; empty is the honest reading, not a loss. The first real collector run under the new config is the proof, not this table: the one-week check is the DOCKET row dated 2026-11-24. Google answered the last probe with HTTP 429 (too many requests) after about 135 requests in 25 minutes; PROME stopped at once and did not retry, so the 2-day window is tested on the first Gulf search only. `test_cruise_delivery.py` needs arguments; its `--selftest` was run afterwards. The commit subject in the collection repository is over 100 characters; it is not amended.
