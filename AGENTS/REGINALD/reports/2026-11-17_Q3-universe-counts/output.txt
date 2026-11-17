@@ -1,0 +1,32 @@
+filers: q1 4336  q2 4297  q3 4267
+
+(a) A: existing unrealized securities loss as a share of equity
+  q2 pretax        : GAAP equity >=20%: 872 of 4296 (20.3%) | tangible >=20%: 912 of 4295 (21.2%) | median GAAP 6.8%
+  q2 after 21% tax : GAAP equity >=20%: 622 of 4296 (14.5%) | tangible >=20%: 665 of 4295 (15.5%) | median GAAP 5.4%
+  q2 equity <= 0 excluded: 1; filers with no securities lines: 0
+  q3 pretax        : GAAP equity >=20%: 1405 of 4263 (33.0%) | tangible >=20%: 1480 of 4263 (34.7%) | median GAAP 11.5%
+  q3 after 21% tax : GAAP equity >=20%: 1113 of 4263 (26.1%) | tangible >=20%: 1184 of 4263 (27.8%) | median GAAP 9.1%
+  q3 equity <= 0 excluded: 4; filers with no securities lines: 0
+
+(a) B: additional loss from a parallel rate shock, duration proxy (stated buckets)
+  q3 +100bp: shock loss alone >=20% of equity: 539 of 4263 (12.6%) | existing + shock >=20%: 2037 (47.8%)
+  q3 +200bp: shock loss alone >=20% of equity: 1518 of 4263 (35.6%) | existing + shock >=20%: 2489 (58.4%)
+  q3 +300bp: shock loss alone >=20% of equity: 2169 of 4263 (50.9%) | existing + shock >=20%: 2799 (65.7%)
+
+(a) C: actual equity decline q1 -> q2 (3210); quarter flows = RI-A YTD differences
+  matched 4290; declines >=20%: 8 (0.19%); >=10%: 27; median 2.07%
+  largest single driver among the >=20% declines: {'net loss': 4, 'OCI': 0, 'dividends': 3, 'other (capital, merger, treasury)': 1}
+  largest by prior equity: MIZUHO BANK (USA) -72.6% (1,160.4M -> 318.5M); ANCHORAGE DIGITAL BANK NATIONAL AS -54.8% (93.6M -> 42.3M); VARO BANK, NATIONAL ASSOCIATION -24.7% (91.5M -> 68.9M); CITIZENS NATIONAL BANK, THE -22.3% (17.1M -> 13.3M); 218261 -44.1% (12.9M -> 7.2M); OLD GLORY BANK -22.9% (8.8M -> 6.8M); BANK OF VICI -74.5% (1.9M -> 0.5M); LAMONT BANK OF ST. JOHN -27.5% (0.9M -> 0.6M)
+
+(a) C: actual equity decline q2 -> q3 (3210); quarter flows = RI-A YTD differences
+  matched 4260; declines >=20%: 109 (2.56%); >=10%: 406; median -1.11%
+  largest single driver among the >=20% declines: {'net loss': 8, 'OCI': 93, 'dividends': 6, 'other (capital, merger, treasury)': 2}
+  largest by prior equity: AMERIPRISE BANK, FSB -37.0% (1,489.0M -> 938.3M); UNITED FIDELITY BANK, FSB -40.3% (652.5M -> 389.7M); FIRST AMERICAN TRUST, FSB -41.7% (513.1M -> 299.2M); TIAA TRUST, NATIONAL ASSOCIATION -31.9% (222.5M -> 151.5M); CB&S BANK, INC. -25.7% (188.3M -> 139.8M); GOLDMAN SACHS TRUST COMPANY, NATIO -36.9% (146.2M -> 92.2M); SOLERA NATIONAL BANK -24.9% (120.4M -> 90.4M); TITAN BANK, N.A. -34.4% (117.6M -> 77.1M)
+
+(a) D: unrealized loss (after tax) vs CET1, Q3
+  CET1 reported: 4245; >=20% of CET1: 887 (20.9%); of those, AOCI opt-out = 1: 887 (their AFS AOCI is excluded from CET1, so the loss is not a regulatory capital hit unless realized); opt-out across all CET1 reporters: 4205
+  community bank leverage ratio opt-in filers (P838/LE74 read as filed): 1926
+
+(e) performing modifications (HK25) UP while 30-89 past due (1406) DOWN
+  q1->q2: matched 4291, both items reported 4291; HK25 up 612; 1406 down 2314; BOTH: 378 (8.8% of banks, 26.7% of loans); system HK25 51.01B -> 52.24B, 1406 75.29B -> 71.07B
+  q2->q3: matched 4261, both items reported 4261; HK25 up 555; 1406 down 1916; BOTH: 261 (6.1% of banks, 28.6% of loans); system HK25 51.68B -> 50.44B, 1406 70.83B -> 74.04B
