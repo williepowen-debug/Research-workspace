@@ -342,12 +342,15 @@ The cohort was selected under **ratio-era priors**: MTB, HBAN and VLY were admit
 
 **Resolution:** TRUE on the first counted issuance in H2 2026. FALSE if the 2027-01-05 scan returns none.
 
-## `REG-T-02` — the `V1V3-ACCELERATE` action token is a LEGACY NAME, not an attribution (2026-10-10; DAEDALUS Falsification #4 flag)
+## `REG-T-02` — action token `WAL-PRICE-STRESS`
+
+**Renamed 2026-11-17 11:51 ET (REGINALD, owner ruling on a label only).** `registry/THRESHOLDS.tsv` REG-T-02 `action` = **`WAL-PRICE-STRESS`**; **retired alias `V1V3-ACCELERATE`** (every fire before 2026-11-17, every route-log row, BOARD card, packet and receipt keeps the old name; grep BOTH tokens for the full fire history). Level `<78`, sustain 1, recipient chain `REGINALD action / WAL action / Will`, exit `>=81.90 ×3` and consequence are UNCHANGED. `threshold_thesis_ref` moved from the removed `STATUS.md#wal-v1v3-thesis` to this section. Coordination: WALTER confirmed 11/07 that no machine join reads the token (`inbox/processed/2026-11-07_from-WALTER_V1V3-rename-join-read.md`); WALTER edits its four prose mirrors and carries the alias line; TERRY noticed for `REG-T-02_FIRE_PROCEDURE.md:62`; PROME flagged for its test fixture.
+
+*History (2026-10-10; DAEDALUS Falsification #4 flag): the `V1V3-ACCELERATE` action token was a LEGACY NAME, not an attribution.*
 
 - **The defect:** the token's name pre-attributes any WAL <$78 fire to the hidden-CRE (V1) and V3 thesis legs. A fire is a PRICE event, and its cause is attributed at the fire, never by the label.
 - **Already re-labelled 10/10:** the human labels in `CLAUDE.md` §KEY THRESHOLDS and `scripts/thresholds.py`. Both now read "WAL price stress (`REG-T-02`); cause not pre-attributed". The `threshold_thesis_ref` anchor `STATUS.md#wal-v1v3-thesis` also points at a section that no longer exists.
-- **DEFERRED, with the reason:** the TOKEN itself in `registry/THRESHOLDS.tsv` is NOT renamed today. It is a cross-desk interface, read by WALTER (`AGENTS/WALTER/design/CROSS_REFS/REGINALD.md`, `AGENTS/WALTER/design/NEWS_SWEEP_TARGETS.md`, `AGENTS/WALTER/routed/route_log.tsv`, the registry-header receipts). A unilateral rename would break WALTER's join. Rename only as a coordinated change with WALTER, at the next registry touch.
-- **Until then:** read `V1V3-ACCELERATE` as **"REG-T-02 fired (price)"** and nothing more.
+- **Deferred 10/10, done 11/17:** the token rename waited for a coordinated change with WALTER, then believed to read it by machine; WALTER's 11/07 check found prose mirrors only. Read the retired alias `V1V3-ACCELERATE` as **"REG-T-02 fired (price)"** and nothing more.
 
 ## REG-T-06 — REVIEW (WQ-414, 2026-10-11)
 

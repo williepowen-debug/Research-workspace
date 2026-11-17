@@ -1,0 +1,24 @@
+[
+  {
+    "id": "SIG-W-20261117-004",
+    "slug": "October-retail-sales-plus-0.2pct-m-m-748.2B-ex-autos-plus-0.2pct-September-revised-up-to-plus-0.8pct-import-prices-plus-1.1pct-m-m-export-prices-plus-1.1pct-FRED-first-published-Nov-17-CARL",
+    "title": "October retail sales (advance) +0.2% m/m to $748.2B, ex-autos +0.2%; September revised to +0.8%; import prices +1.1% m/m, export prices +1.1% (FRED, first published Nov 17); WALTER arithmetic, CARL grades",
+    "body": "# October retail sales +0.2% m/m, September revised up; import prices +1.1% m/m (released Tue Nov 17, 08:30 ET)\n\n**Figures (FRED, observations first published 2026-11-17; pulled about 16:53Z; percentages are WALTER's arithmetic on the levels, not Census or BLS text):**\n\n| Series | October | September | Change |\n|---|---|---|---|\n| Retail and food services, SA (RSAFS) | 748,220 ($ millions) | 746,637 revised (first print 745,021) | +0.21% m/m |\n| Retail ex motor vehicles and parts (RSXFS) | 655,299 | 653,943 revised (first print 652,115) | +0.21% m/m |\n| Import price index, all commodities (IR, 2000=100) | 153.8 | 152.2 | +1.05% m/m |\n| Export price index, all commodities (IQ) | 172.9 | 171.0 | +1.11% m/m |\n\nSeptember on the revised levels: +0.83% m/m (CARL's STATUS carries the first print, +0.77%, gasoline-led, control group +0.14%). **Not read by WALTER:** the control group, gasoline stations, the Census release text and the BLS import-price detail (fuel vs ex-fuel). A +1.1% monthly import-price rise is large; whether it is fuel is the first question, and it bears on CARL's goods-inflation read and RED-FT-08 context (fired state continues; RED owns).\n\n**Why late:** released 08:30 ET; no WALTER session until 11:44 ET (step 7i catch-up found it). Owner coverage today not found in CARL's or HENRY's records at 16:5xZ; HENRY and LABOR are on the line by table default.\n\nMarket context, same day, not a registered trigger: S&P 500 7,311.80 intraday (-1.41%), VIX 26.18, HY OAS 334 [Nov 16].",
+    "source": "FRED RSAFS, RSXFS, IR, IQ (first-published 2026-11-17 via fetch.py fred_fetch_vintage; latest-revised via fred_fetch), pulled 2026-11-17 about 16:53Z; HENRY ECON_CALENDAR row Tue Nov 17 08:30",
+    "origin": ["FRED RSAFS 2026-10-01 748220 first_published 2026-11-17", "FRED RSXFS 2026-10-01 655299", "FRED IR 2026-10-01 153.8", "FRED IQ 2026-10-01 172.9", "AGENTS/HENRY/domain/ECON_CALENDAR.md line 34"],
+    "action": ["CARL"],
+    "info": ["HENRY", "LIQUID", "LABOR", "RED"],
+    "precedence": "IMMEDIATE",
+    "signal_type": "catalyst",
+    "confidence": 0.85,
+    "confidence_language": "levels from FRED's first-published vintage; percentages WALTER arithmetic; components and release text unread",
+    "cluster": "CONSUMER_STAGFLATION",
+    "domain": "MACRO_INFLATION",
+    "entities": ["Census Bureau", "BLS", "retail sales", "import prices", "export prices"],
+    "dispatch_note": "Step 7i catch-up: data-day release, MACRO_INFLATION row (CARL action, HENRY backup, IMMEDIATE on data day). RED pull-complete INFO (FT-08 context only, no fire). LABOR on line for the consumer read. No registered threshold fired.",
+    "route_origin": "7i calendar catch-up + FRED",
+    "route_summary": "IMMEDIATE data day: Oct retail sales +0.21% m/m, ex-autos +0.21%, Sep revised +0.83%; import prices +1.05% m/m. CARL action.",
+    "safety_net": "clear",
+    "event_window": "closed"
+  }
+]
