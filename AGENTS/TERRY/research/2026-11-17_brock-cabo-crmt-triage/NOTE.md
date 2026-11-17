@@ -137,3 +137,43 @@ The standstill ends Wed 11/18. Listed holder chain: **none established** (BROCK)
 | Six 11/16 packets | No (checked at 09:59) | wait for 11/18 |
 
 Gates, kill rules, bands and frozen predictions: none touched. Logged to `SIGNALS.tsv` `combo:credit-following` with its counterevidence.
+
+### 7.6 BROCK's answer on Car-Mart's bank lines (81fd02ccfe; read 12:4x EST) — NO CARD and the answer to Will both STAND, strengthened
+
+The one link with Tricolor's shape existed, and it closed a year ago. Car-Mart's BMO-led asset-based revolver ($350M; at 2/2025 BMO 58.0M, Axos 55.5M, MUFG 45.0M, BOKF 35.0M, Banc of California 47.5M, and others) was repaid in full ($162.9M) and terminated on 10/30/2025 (8-K Item 1.02, 11/5/2025). The 9/9/2026 10-Q says there is no warehouse or other financing now. No filing names a lender to the Silver Point or Beach Point vehicles: NOT ESTABLISHED, and not public, so it stays the one unseen link. The 7/30/2025 Item 4.02 was omitted loan-modification disclosures plus a control weakness, not a collateral allegation. **Neither re-open condition is met** (no listed lender above about 1% of equity; no collateral irregularity alleged). Re-opens only on a filing or lawsuit naming a listed lender to the private vehicles, or alleging missing or double-pledged collateral. Packet filed to `processed/` with delivery 2.
+
+### 7.7 Fed Financial Stability Report (11/13), tradeability read on PROME's 13:2x ask — NO CARD, no existing card changes
+
+**Read at:** BROCK KB-BRK-510 (2febcfa84b), which quotes the report text from the primary (federalreserve.gov FSR 20261113 PDF, extracted about 13:18 ET), plus WALTER SIG-W-20261117-014 and correction -017. Neither card has an action line naming TERRY (014 `action: ["BROCK"]`, 017 `action: []`), so no board_log row is owed. The PDF itself was not re-read by TERRY.
+
+- **What it is:** a Fed staff synthesis and a survey of views, with no date attached to any loss. Its figures: "more than $680 billion" of advanced-computing debt issued by October 2026; the "close to $1 trillion" at the largest bank holding companies is *exposure* (to large tech firms, data center developers, SPEs, private credit vehicles and utilities), not a loss estimate; "riskier subordinated debt and equity tranches" are held by high-yield funds, life insurers, BDCs and private debt vehicles; private-credit defaults at "the upper end of its short historical distribution"; nontraded-BDC redemption requests "trended lower through the third quarter of 2026, though they remained elevated."
+- **Nvidia card (`IDEA-NVDA-CEOGAP-NOV12`):** no change to its terms, trigger or invalidation. The card's do-not-trade line is about a disclosed liability, and this report discloses none for Nvidia. It is added as a counter-case line for Will at fire: the Fed names AI financing interlinkages as a vulnerability, and the risk survey's AI share rose from 50% to 87%. This is horizon context, months, against a card whose horizon is to Jan-15-2027.
+- **Cable One and Car-Mart:** unrelated; not AI financing. Unchanged.
+- **Credit names:** the HYG ×5 card (approved and fired, no fill known) is unchanged; the report supports its direction, but its void clock and terms are keyed to HY OAS, which this does not move. The ORCL put spread is unchanged; its T1 is a measured CDS level (≥ 350), and a staff warning is not that. BDC puts (OBDC, ARCC): NO CARD. The redemption line is counterevidence on the redemption leg, PIK and defaults point the other way, and none of it is a dated catalyst. Bank puts: NO CARD. The $1 trillion is gross exposure, mostly to investment-grade borrowers, and today is red (root rule #6).
+- **Logged** to `SIGNALS.tsv` `combo:credit-following` with its counterevidence. Logging is not scoring.
+
+### 7.8 Golub Capital BDC (GBDC) fiscal Q4 print, tradeability read on PROME's 16:0x ask — NO CARD
+
+**Read at:** BROCK KB-BRK-513 (0d61ac9740; GBDC 8-K 0001476765-26-000083, accepted 11/17 16:04:28 ET, Ex 99.1, read by BROCK at the SEC primary). PROME re-checked NAV and NII at the SEC; the −$0.24 realized/unrealized and the rating-3 share are BROCK's, not re-checked by PROME or TERRY. This read was made from BROCK's committed KB row at 16:11 ET; BROCK's WQ-696 packet (6c1f02582e, committed 16:10:43) was read at 16:46 ET and agrees: "no supported investment implication", a slow credit drift at a software-heavy book (software 57.6% of NAV at 6/30, KB-BRK-363), not a break; its re-open conditions (a second quarter of rating-3 growth with NII below the distribution, or a cut; non-accruals materially above peers; a NAV markdown above 5%) match §7.8's.
+
+| Fact | Value | Source |
+|---|---|---|
+| NAV per share | $14.00 at 9/30 vs $14.25 at 6/30 (−1.75%) | Ex 99.1 via KB-BRK-513 |
+| NII vs distribution | GAAP $0.32 (0.97x), adjusted $0.33 (1.00x) vs $0.33 paid | same |
+| Net realized/unrealized | −$0.24 per share, tied to non-accrual names | same |
+| Rating 3 (below expectations) | 12.2% of fair value from 10.6% | same |
+| Leverage | net debt/equity 1.17x | same |
+| GBDC close 11/17 | $12.08, −2.58% (prev $12.40), 16:00 ET, before the 16:04 release; volume 1.59M vs 1.31M average | yfinance, pulled 16:10 ET |
+| Price / new NAV | 12.08 / 14.00 = 0.863x (13.7% discount) | computed |
+| Peers 11/17 close | BIZD −1.38%, OBDC −1.74%, ARCC −1.05%, FSK −3.58%, BXSL −1.92% | yfinance, 16:10 ET |
+| GBDC options | 4 expiries (11/20, 12/18, 2/19, 5/21). Dec 18: one put strike inside ±15% of spot, the 12.50P, bid 0.50 / ask 0.90, 57% spread, OI 66, last trade 13:41 | chain_fetch.py --no-cache 16:10 ET, screening marks only (finding 5b) |
+
+**Verdict: NO CARD.**
+1. **No trigger.** −1.75% is one name, below every rung of BROCK's ladder (5% row, not fired). No BROCK score moved.
+2. **Already priced, before the print.** The stock closed at 0.86x the *new* NAV ahead of the release; the markdown is 1.75%, the discount is 13.7%. A put needs the discount to widen further, and the mark-down is not evidence it will.
+3. **The dividend held.** Adjusted NII covers the $0.33 at 1.00x and the next $0.33 is declared (11/12). A cut is the catalyst that would move the stock, and this print does not show one.
+4. **Untradeable structure.** The Dec chain is one usable strike at a 57% spread on OI 66. Non-Negotiable #2 (defined loss) can be met, but the spread alone eats about a third of the premium, and there is no second strike to build a spread.
+5. **The Fed report does not change it** (§7.7). Its nontraded-BDC redemption line "trended lower through the third quarter" is counterevidence on the redemption leg; its PIK and default lines point the same way as the rating-3 drift, but neither is dated.
+6. **Root rule #6:** any put would be bought Wednesday; that day's colour is unknown, and no card means no break test is needed.
+
+**Re-opens on:** a distribution cut or NII below 0.95x in the 10-K, or non-accruals above about 5% of cost when the earnings presentation or the 10-K is read. The call is Wed 11/18 10:00 ET. Logged to `combo:credit-following`.
