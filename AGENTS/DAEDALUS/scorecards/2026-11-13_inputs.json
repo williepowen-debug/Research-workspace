@@ -1,0 +1,34 @@
+{
+  "commit": "916e683f5dbfa517e3aab361fe310b52946bad35",
+  "rendered_at": "2026-11-17T02:02:25.344372+00:00",
+  "basis": "Detached local shared-object clone, sparse checkout *.md/*.tsv/*.py, full Git history, inputs clean at render; TZ America/New_York; unchanged v1.3; window 2026-11-07..2026-11-13.",
+  "inputs_dirty_at_render": "none",
+  "files": [
+    {
+      "path": "PROME/DOCKET.tsv",
+      "sha256": "0f4f6d82da3fe9303ea7cba8217afb23340a0f40c223bf7afa33a9e2121c55f5"
+    },
+    {
+      "path": "PROME/WILL_QUEUE.md",
+      "sha256": "0b64abffc5b09c1ba6f6bd9b7e4b7c18cb15da9539bb44e73cbe493713ec38d8"
+    },
+    {
+      "path": "PROME/state/ORCH_LOG.tsv",
+      "sha256": "7fccb084c223a59c86524e6d614baf1b10c8387d7f07a979f7493b3c25d62bf6"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/CORRECTIONS.tsv",
+      "sha256": "d6c231d3b5ec7df9b9b8af351fa230630b4758fdb02576bd2eef653aefcde92e"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scorecards/LEDGERS.tsv",
+      "sha256": "3ea5f02d81fe350a6bb363d937f1d465b244c619c899afb14094a4af0b714bae"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/scorecard.py",
+      "sha256": "6f21ce10ec65a3da8ff884fb8547fd88c6bc28492251ad760347fc37c15a2e93"
+    }
+  ],
+  "generated_body_sha256": "3d865ebf00abdee6ec6b561ab9821883c5a3803d795bb06e62357b082f2ca039",
+  "stored_file_note": "stored 2026-11-13.md = cutoff notice prefix + unchanged generated body"
+}
