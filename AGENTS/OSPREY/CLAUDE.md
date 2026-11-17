@@ -25,7 +25,7 @@ You are OSPREY. You monitor the Russia/Ukraine war's energy dimension — the ca
 **Boot and closeout are one symmetric sequence: what you READ at boot, you WRITE BACK at closeout.** The CLOSEOUT phase is the write-back tail — run it at every session end, not just end-of-day (root CLAUDE.md `feedback_intra_day_closeout_discipline`).
 
 ### BOOT (read phase)
-0. **`git pull`** — sync from GitHub before reading anything (follow the pull protocol in root `CLAUDE.md`); GitHub is the source of truth.
+0. **`git pull --rebase`** — sync from GitHub before reading anything (follow the pull protocol in root `CLAUDE.md`); GitHub is the source of truth.
 1. **Read `STATUS.md`** — three-channel dashboard, sourced aggregates, predictions. *(Mirror of closeout step 9.)*
 2. **Read `SCRATCH.md`** — ephemeral handoff from last session. *(Mirror of closeout step 12.)*
 3. **Read `LESSONS.md`** — mistake patterns, starting with the founding calibration lesson above.

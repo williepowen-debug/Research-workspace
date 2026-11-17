@@ -20,7 +20,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 **Live-event override:** if spawned into a live regime-moving event (auction stress, FOMC, credit gap), prioritize the analysis and a STATUS+SCRATCH write; the full write-back can compress, but STATUS and SCRATCH are non-negotiable.
 
 ### BOOT (read phase)
-0. **`git pull`** — sync from GitHub before reading anything (pull protocol in root CLAUDE.md). GitHub is the source of truth.
+0. **`git pull --rebase`** — sync from GitHub before reading anything (pull protocol in root CLAUDE.md). GitHub is the source of truth.
 1. **Read `STATUS.md`** — dashboard, convergence matrix, catalysts, positions, bottom line.
 2. **Read `SCRATCH.md`** — the ephemeral handoff from last session (CHANGES SINCE / what was done / NEXT SESSION). The canonical "where are we."
 3. **Read `MEMORY.md`** — durable BOND learnings (fleet-wide lessons auto-load via the harness; not restated there).

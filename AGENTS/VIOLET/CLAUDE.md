@@ -18,7 +18,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11), NEXUS_BRIEF (cross-agent synthesis twin of SCRATCH → write 12, mandatory every session), thesis (surfaced via STATUS → written 9). When EXECUTE produces something durable — new data, findings, position views, calibration — write it back via the Write-back steps before stopping. Intra-day discipline (run write-back at session end, not just end-of-day) is covered by auto-memory `[[feedback_intra_day_closeout_discipline]]`.
 
 ### BOOT (read phase)
-0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
+0. **`git pull --rebase`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — live dashboard, regime status, convergence matrix, drift assessment, position posture
 2. **Read `SCRATCH.md`** — ephemeral handoff from last session (CHANGES SINCE / WHAT I DID / NEXT SESSION action items). The canonical "where are we" file.
 3. **Read `MEMORY.md`** — curated insights, regime definitions, KB-VIO-036 divergence framework, METRIC SEMANTICS. *(Hot half only. The chronological SESSION NOTES trajectory log was split 2026-09-02 to `archive/MEMORY_SESSION_NOTES_COLD.md` — **on-demand, not a boot read** — under the DAEDALUS P1 READ-CAP ruling, Will "P1 approved go ahead" 2026-08-28.)*

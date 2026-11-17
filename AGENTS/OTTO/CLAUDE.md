@@ -73,7 +73,7 @@ When spawned or starting a session, run this read sequence in order. **This orde
 matters** — it ends on the action items and the time-sensitive scan, so the freshest
 things in context are what needs doing.
 
-0. **`git pull`** — sync from GitHub before reading anything. Follow the pull protocol
+0. **`git pull --rebase`** — sync from GitHub before reading anything. Follow the pull protocol
    in root `CLAUDE.md` (do NOT pull if other agents have uncommitted work outside your
    dir). **If the pull is blocked or skipped, proceed on local state and note it in the
    boot report** — a blocked pull must not stall the sequence.

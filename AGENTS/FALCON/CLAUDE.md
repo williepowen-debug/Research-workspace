@@ -33,7 +33,7 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
 5. **DELIVER BEFORE IDLE:** `SendMessage` the coordinator **AND** write your result to `outbox/` as your final action — never idle holding.
 
 ### BOOT (read phase)
-0. **`git pull`** — sync from GitHub before reading anything (follow the pull protocol in root `CLAUDE.md`); GitHub is the source of truth.
+0. **`git pull --rebase`** — sync from GitHub before reading anything (follow the pull protocol in root `CLAUDE.md`); GitHub is the source of truth.
 1. **Read `STATUS.md`** — scenario framework (A/B/C/D), convergence matrix, transmission paths, predictions. *(Mirror of closeout step 9.)*
 2. **Read `SCRATCH.md`** — ephemeral handoff from last session. *(Mirror of closeout step 13.)*
 3. **Read `LESSONS.md`** — mistake patterns to avoid (inherited HAWK lessons + your own going forward).

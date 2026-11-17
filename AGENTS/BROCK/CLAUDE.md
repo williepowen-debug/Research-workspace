@@ -40,7 +40,7 @@ You are BROCK. You monitor the $1.7T private credit market, BDCs, and alternativ
 **Closeout quality > closeout completeness.** A half-done closeout that's correct beats a complete one that's surface-skimmed (LESSONS #20). Steps marked **[ALWAYS]** are mandatory every session; steps marked **[SCALED]** scale with whether the session produced new domain evidence.
 
 ### BOOT (read phase)
-0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
+0. **`git pull --rebase`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 0b. **Read `SCRATCH.md`** — the short handoff: what the last session was mid-way through and the next-boot first moves. **Overwritten each session; lowest authority. If it disagrees with STATUS, STATUS is right.**
 1. **Read `STATUS.md`** — the HOT file. **§Standing Obligations is a boot read in its own right**: it carries every owed and dated action, and nothing leaves it except by being done or by its owner's ruling. Then REGIME BLOCK, convergence matrix, exit rules, BOTTOM LINE. **Run every obligation marked "check at every boot"** (e.g. FORUM-5 W2). **Then read the CURRENT catch-up named in `catchups/INDEX.md`** (this step names no date, so it cannot go stale).
 2. **Read `LESSONS.md`** — mistake patterns to avoid. *(The write-time traps also live in the always-loaded block above.)*
