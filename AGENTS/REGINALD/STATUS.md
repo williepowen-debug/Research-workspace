@@ -149,6 +149,6 @@ This desk instruments **2 channels**: CRE and Hidden CRE (MI3, `workbook/MI3_COH
 | Ask | Answer 10/9 | Review by |
 |---|---|---|
 | *(six DONE rows: Prose-Remedy #1 · F#4 minor · F#4 flags · F#4 neg-res · wiring ⑰ · PR#6 ask 3)* | → BLOCK T32, `2f23b1f6` | — |
-| Registry TOKEN `V1V3-ACCELERATE` rename (from F#4 flags; re-asked DAEDALUS falsification #5, 10/30) | DEFERRED: coordinated change with WALTER, which reads it (`registry/NOTES.md`); the 'next registry touch' trigger passed 10/11, so re-dated 10/31 | **2026-11-20** (11/07: not renamed, THRESHOLDS.tsv untouched; WALTER answered 11/07, no machine join breaks, four prose mirrors and one attestation follow; REGINALD proposes token and date, TERRY procedure needs notice) |
+| Registry TOKEN `V1V3-ACCELERATE` rename (from F#4 flags; re-asked DAEDALUS falsification #5, 10/30) | **DONE 11/17:** REG-T-02 action = `WAL-PRICE-STRESS`, old name a retired alias (`registry/NOTES.md`); landed in WALTER's `06f187503c` (swept, content verified); WALTER, TERRY, PROME told | WALTER's four mirror edits are WALTER's |
 | L546 float-tie: `kre_float.py:102`, `si_refresh.py:45` round before compare | DEFERRED to next touch of either file (DAEDALUS: no deadline, LATENT) | next touch |
 | *(WALTER -033, DONE 10/9)* | → BLOCK T33, `a100038c` | — |
