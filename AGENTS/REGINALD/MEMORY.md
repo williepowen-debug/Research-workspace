@@ -22,11 +22,18 @@
 
 Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanup_MEMORY.md`; exact source-line/section map and verified CRCs → `reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check size at any append or on 2026-11-20, whichever first.
 
-⛔ **Resume here first:** 11/16 wake (prome-6f) DONE through the inbox → `reports/2026-11-16_L798-and-inbox/REPORT.md`. Owed first: REG-T-02 rows 11/11 onward once the Yahoo history route works (or a Nasdaq-only labelled substitute per TERRY clause (d)); REG-T-06 breadth measures; D:L798 full comment file after the 11/16 close.
+⛔ **Resume here first:** 11/16 evening (Will direct) DONE: inbox and corrections clear, VX frozen, video read → `reports/2026-11-16_MHFIN-office-video-read.md`. Earlier: 11/16 wake (prome-6f) → `reports/2026-11-16_L798-and-inbox/REPORT.md`. Owed first: REG-T-02 rows 11/11 onward once the Yahoo history route works (or a Nasdaq-only labelled substitute per TERRY clause (d)); REG-T-06 breadth measures; D:L798 full comment file after the 11/16 close.
 
 ⚠️ **Open question:** REG-T-06 breadth was reported on both endpoint sets (YTD, Q2 → Q3), with H1 as a control, because my NOTES fix none. Should the endpoints be registered before the Q4 CFR, so that the next REVIEW read is not chosen after seeing the data? *(Prior question, which endpoints, answered 11/16 PM by reporting both; reported outcome: concentrated on either.)*
 
-### LAST SESSION — 2026-11-16 11:07 ET →, second session, PROME prome-6f on Will's "Lets look into these" (research only)
+### LAST SESSION — 2026-11-16 17:58 ET →, third session, Will direct (boot, then "take a look at this transcript", then "yes go ahead")
+- **Boot:** Claude Code, Opus 5.5; session id not exposed (scratchpad 80cf364a). GitHub unreachable (DNS), so no fetch or push; pull withheld anyway (PROME, WALTER, HEARTBEAT, memory dirty). boot.py rc 2: insider and 8-K monitors timed out (SEC route). Vendor 18:00 ET: WAL $73.46, KRE $72.19, VIX 22.91 (+18.7%); not settles, not graded.
+- **MHFIN video (Will):** no new bank evidence; every CMBS figure already held by CREED; 600 California St is a Jan–Mar 2026 CMBS loss (Goldman-originated, Lone Star bought the note ~$130M) → `reports/2026-11-16_MHFIN-office-video-read.md`.
+- **"3× capital" measured (ML-REG-303):** $1–10B median 226% on the regulators' basis, 19.9% ≥300%; 306% only with owner-occupied. Method reproduces EGBN's release (245.6% vs 245.8%). Script beside the report.
+- **Owed items done:** COR-20261116-08 and -10 NO-OP receipts; cards 004/006/008/010 filed INFO_ONLY; OZK 11/16 entry ACKed (ML-REG-302 combo:re-modified-cre); GIBBS told HBAN stays in the frozen 14; PROME's ledger ask: VX.tsv FROZEN, PREDICTIONS header merged (crc32 79406e57), staleness rc 0; charter VX lines re-pointed to STATUS.
+- ⚠️ STATUS at 32,434 B of 32,550: rotate a block before the next append.
+
+### EARLIER SESSION (2) — 2026-11-16 11:07 ET →, second session, PROME prome-6f on Will's "Lets look into these" (research only)
 - **Report** `reports/2026-11-16_UFB-and-FHLB-deeper-read.md` (dc53393902; relabel 670bbd9468). Web-check ledger beside it. Morning §3 annotated, table kept.
 - **United Fidelity:** all five reader findings accepted: 6.4(e) does not exist, so cite 6.4(d), which only moves a bank down; "amended" route withdrawn; waiver granted under 337.6(c); CET1 added; 10/30 conditional. The FDIC never publishes brokered waivers (303.243(a), no public notice). The Call Report suggests one existed: reciprocal above the special cap at 10 of 11 quarter-ends, reported non-brokered; 2024 rollovers per DEWEY. INFERRED, so 10/30 is likely a NEW bar. Plan due Mon 12/14. **DEWEY caught my $510.5M label:** RCONHK06 includes all brokered demand and savings balances, so CDs due within a year are at most about $363.0M. I had carried PROME report A's label unchecked.
 - **REG-T-06 breadth recorded:** top four ≥52.1% YTD; Q3 NOT-APPLICABLE; SEC-panel median −0.4% YTD, 0.0% Q3; the 10/10 H1 read reproduces. District table: the Q3 fall is Cincinnati −$22.1B. BOND ratio 3.6 [9/30] → WALTER (19b49ed250). No TERRY candidate; PROME routed FINS and BANX to TERRY for a re-look.

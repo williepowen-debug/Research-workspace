@@ -21,7 +21,7 @@
 | 8 | October Fed loan-officer survey: banks tightened all CRE categories, weaker demand | `KB-CREED-101` (read 11/05) | Held |
 | 9 | Trepp: ~75% of Class A office loans coming due need new equity to refinance | **Not in our records.** CREED's `KB-CREED-099` is a different Trepp item: interest shortfalls reaching the senior (Class A) **bonds** of 24 single-asset deals | ⚠️ Unverified; not the same item as the one we hold |
 | 10 | Fed research: weaker banks extend bad loans to protect capital | CREED → REGINALD packet 10/01 (`inbox/processed/2026-10-01_from-CREED_FYI-weak-capital-banks-extend-and-pretend-NYFed-SR1130.md`): Crosignani & Prazad, NY Fed SR 1130; and a Fed paper pointing the other way (Glancy, FEDS 2026-025) | Held. The video gives one side only. Both papers cover banks over $100B; neither covers my smaller names |
-| 11 | FDIC: a typical $1–10B bank holds CRE of ~3× its capital; regulators flag "exactly that level" | Not checked today | ⚠️ Unverified as stated. The 2006 interagency screen is **non-owner-occupied** CRE ≥ 300% of total risk-based capital (with ≥ 50% growth over 36 months), or construction ≥ 100%: a trigger for closer supervision, not a limit. The video also calls capital "the money set aside to cover losses"; that is the loan-loss allowance, a different and much smaller cushion. Checkable from the saved 9/30 FFIEC files on request |
+| 11 | FDIC: a typical $1–10B bank holds CRE of ~3× its capital; regulators flag "exactly that level" | Not checked today | **Checked 11/16 evening, see § Addendum: true only if owner-occupied loans are counted (median 306%); on the regulators' own measure the median is 226% and about 1 in 5 is over 300%.** The video also calls capital "the money set aside to cover losses"; that is the loan-loss allowance, far smaller (CRE is ~43× it at the median bank) |
 
 ## What the video gets right, and what it leaves out
 
@@ -34,3 +34,20 @@
 INFO_ONLY. No combination-watch row: none of the items is a bank loan, and my four live themes key on bank books. No packet: CREED holds the CMBS cases; 600 California is a Jan–Mar 2026 CMBS resolution and adds nothing to CREED's live cohort. A reasoned no-card for TERRY: nothing new, and no named bank.
 
 Sources (web, 11/16): [Bloomberg 2026-03-02](https://www.bloomberg.com/news/articles/2026-03-02/cmbs-investors-suffer-139-million-loss-on-single-office-tower) · [CoStar, Lone Star buys distressed SF office loan](https://www.costar.com/article/54294644/lone-star-buys-distressed-san-francisco-office-loan) · [ConnectCRE, Return to Lender, week of Jan 8 2026](https://www.connectcre.com/stories/return-to-lender-week-of-jan-8-2026/) · [Cleary Gottlieb, Goldman $240M loan to ARK](https://www.clearygottlieb.com/news-and-insights/news-listing/goldman-sachs-in-240-million-mortgage-loan-to-ark-capital-advisors). Search-summary level: the articles themselves were not opened.
+
+## Addendum (11/16 19:14 ET, Will "go ahead"): the "3× capital" claim, measured
+
+**Data:** 9/30/2026 Call Reports for 4,205 insured banks (FFIEC bulk SDF saved by DEWEY 11/11, `AGENTS/DEWEY/research/2026-11-11_003R-population/call-reports-sdf.tar.gz`; OI/NC classes excluded as in DEWEY's method). Script: `reports/2026-11-16_cre_concentration_9-30.py`.
+**Measures:** regulators' CRE = construction and land (F158+F159) + multifamily (1460) + non-owner-occupied nonfarm nonresidential (F161) + CRE loans not secured by real estate (2746, where reported). "All CRE" adds owner-occupied (F160). Capital = total risk-based capital (3792); for banks in the community-bank leverage framework, which do not report it, tier 1 capital (8274) + loan-loss allowance (3123), labelled (247 of 889 in $1–10B).
+**Method check:** EagleBank [9/30] computes to 245.6% CRE and 62.1% construction; its Q3 release prints 245.8% and 62.2% ([finviz](https://finviz.com/news/405891/eagle-bancorp-inc-announces-third-quarter-2026-results)).
+
+| Assets | Banks | Regulators' CRE ÷ capital, median | Share ≥ 300% | All CRE incl. owner-occupied, median | Share ≥ 300% | Construction ≥ 100% | All CRE ÷ loss allowance, median |
+|---|---|---|---|---|---|---|---|
+| < $1B | 3,159 | 103% | 5.8% | 163% | 20.8% | 5.9% | 26.5× |
+| **$1–10B** | **889** | **226%** | **19.9% (177)** | **306%** | **52.2%** | 8.5% | **42.8×** |
+| $10–100B | 124 | 218% | 12.1% (15) | 280% | 45.2% | 1.6% | 38.2× |
+| ≥ $100B | 33 | 66% | 0% | 84% | 3.0% | 0% | 14.3× |
+| All | 4,205 | 133% | 8.9% (375) | 200% | 28.0% | 6.3% | 30.7× |
+
+**Reading:** the video's "about three times capital" matches only the broad measure that includes owner-occupied loans (306% median), which the 300% screen does not use. On the screen's own measure, the typical $1–10B bank sits at 226%, and 177 of 889 (19.9%) are at or above 300%. That is a real minority, more common in this size band than any other, but not "the typical bank is already over it." The full screen also requires ≥ 50% CRE growth over 36 months, not computed here, so 19.9% is an upper bound on banks meeting both legs. The video's "$100 set aside for losses" line confuses capital with the allowance: CRE is about 43× the allowance at the median $1–10B bank, which is why a few large losses can hurt earnings fast, but capital, not the allowance, is what the 300% line measures.
+**Consequence:** none for scores or thresholds. It supports my standing "concentrated, not tier-wide" claim: concentration risk sits in a minority of $1–10B banks, not the median one.
