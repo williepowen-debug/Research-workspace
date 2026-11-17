@@ -1,6 +1,6 @@
 # Forecast scorer: timing that does not trust the call's own date, archived calls read, first-logged score shown
 
-Written before the edit, 2026-11-17 (session prome-19, desktop). DOCKET row dated 2026-11-18, "OUTSIDE AUDIT 2026-11-16, PROME'S OWN REPAIRS", items 1 to 3 (the audit's items 3, 4 and 5 in its forward form). `reads: 2` (read 1 returned REJECT with 3 blocking; read 2, on the fix diff only, commissioned 2026-11-17 09:39 ET; § Result).
+Written before the edit, 2026-11-17 (session prome-19, desktop). DOCKET row dated 2026-11-18, "OUTSIDE AUDIT 2026-11-16, PROME'S OWN REPAIRS", items 1 to 3 (the audit's items 3, 4 and 5 in its forward form). `reads: 3` (the ceiling: read 1 REJECT 3 blocking; read 2, fix diff only, REJECT 1 blocking; read 3, the second fix diff only, commissioned 2026-11-17 09:47 ET; § Result). No further read without Will's named authorization.
 
 ## The defects, in their own terms
 
@@ -75,3 +75,15 @@ PROME's first form of the ❌2 fix (any Date_Made change, or character similarit
 - The selftest has no built case for an ID in both a live and an archive file or for a row rotated into an archive; the reader ran both in a fixture and they pass.
 - The fixture recipe in PROME's brief was incomplete: a fixture also needs `scripts/orch_*.py` and the tool run from inside the fixture directory.
 - New with the ❌2 fix: a reused ID that keeps both the earlier call's probability and its Date_Made date is not detected; the 12-word window and the 0.5 threshold are PROME's choices, not measured.
+
+**Read 2** (the same reader, the fix diff 6348385696..c5aec45139 only; ledger `PROME/reports/2026-11-17_forecast-scorer-repair/LEDGER_read2.md`): **REJECT, 1 blocking, 3 not blocking.** It confirmed by running that read 1's three blocking findings are fixed (11 of 272 scored rows changed class or value between the two commits, each from one of the three fixes).
+
+| Blocking finding | What PROME changed |
+|---|---|
+| ❌1 The fix to read 1's first finding overcorrected: a FINAL status outside the scorecard's map that does not begin RESOLVED (LIKELY MISSED, KILLED, GRADED-MIXED, DEFECTIVE-INSTRUMENT) was now read as open. ZHAO ZHA-09, first committed 2026-07-09 already carrying its own resolved date 2026-07-04, flipped from BORN-DECIDED to BEFORE. A fix for a blocking finding opened a hole of the same class. | `is_decided` takes the version's own resolved date: an UNMAPPED status is decided when its token begins RESOLVED or that version carries a resolved date (the reader's scan of the real history: open-type statuses carry an empty date, final ones a date). The known date is now also bounded by the earliest resolved date a decided version carried, in case the live date was moved later. ZHA-09 reads BORN-DECIDED again; the live report's printed text is byte-identical to the previous run. Selftest 47 of 47. |
+
+**Declared residue from read 2 (not fixed).**
+- A reused ID whose old and new calls share a template (the first 12 words score 0.5 or higher) still reads as one call; the reader's fixture overwrote a 5-year auction call with a 7-year one. No real reuse is missed today. The reader's tighter rule (a different call when the text changes at all and Date_Made moves) restarts the same four live rows; it is NOT adopted in this episode and is the first thing to weigh at the next touch.
+- A row whose text is replaced by an archive pointer and whose value is re-marked in the same commit is listed as reused and reads BORN-DECIDED (the loud direction; no real row today).
+- A ledger that held its probability only in the prediction text and gained a confidence column in the deciding commit reads BORN-DECIDED, because versions without that column are skipped (the loud direction; follows this file's own rule; no real row today).
+- New with this fix: REGINALD REG-02's FROZEN-PENDING with a date counts as decided (as it did before read 1); an inline-date ledger with a non-map status and any date in its outcome cell counts as decided.

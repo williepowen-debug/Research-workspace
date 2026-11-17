@@ -222,11 +222,12 @@ def read_all(bucket):
 DECIDED = ("HIT", "MISS", "PARTIAL", "NO-VERDICT", "ANNULLED", "RESOLVED-UNTYPED")
 
 
-def is_decided(b, status):
-    """Decided in a committed version. scorecard.bucket returns UNMAPPED, not None, for open-type statuses outside its
-    six open prefixes (STUCK, AT-RISK, FROZEN-PENDING, NEEDS_VERIFY ...); those are NOT decided. An UNMAPPED status counts
-    as decided only when its token begins RESOLVED."""
-    return b in DECIDED or (b == "UNMAPPED" and (status or "").strip().upper().startswith("RESOLVED"))
+def is_decided(b, status, resolved=None):
+    """Decided in a committed version. scorecard.bucket returns UNMAPPED, not None, for every status outside its six
+    open prefixes, open-type (STUCK, AT-RISK, RESOLVING ...) and final (LIKELY MISSED, GRADED-MIXED, KILLED ...) alike.
+    An UNMAPPED status counts as decided when its token begins RESOLVED, or when that same version carries a resolved
+    date: an owner dates a row when it is finished, and leaves the date empty while it is open."""
+    return b in DECIDED or (b == "UNMAPPED" and ((status or "").strip().upper().startswith("RESOLVED") or resolved is not None))
 
 
 def norm_text(x):
@@ -262,8 +263,8 @@ def git(*a):
     return subprocess.run(("git", "-C", ROOT) + a, capture_output=True, text=True, errors="replace").stdout
 
 
-def file_history(path, sc, oc, bucket):
-    """{row id: [(commit time, ET date, probability, decided, oldest-was, Date_Made cell, prediction text)]} over every
+def file_history(path, sc, oc, bucket, dc="Date_Resolved", dsrc="COLUMN"):
+    """{row id: [(commit time, ET date, probability, decided, oldest-was, Date_Made cell, prediction text, resolved date)]} over every
     committed version, following renames. A version whose header has no status column or no confidence column
     contributes nothing: no probability and no decided mark."""
     vers, cur = [], None
@@ -293,6 +294,7 @@ def file_history(path, sc, oc, bucket):
         ist = col(hdr, sc, "status", "state"); iout = col(hdr, oc, "outcome", "result", "resolution")
         icf = col(hdr, "Confidence", "conf_tier", "conf", "prob"); ipr = col(hdr, "Prediction", "prediction")
         imd = col(hdr, "Date_Made", "made", "Date")
+        idt = col(hdr, dc, "Date_Resolved", "Resolution_Date") if dsrc == "COLUMN" and dc != "NONE" else None
         if ist is None or icf is None:
             continue
         day = dt.datetime.fromtimestamp(ct, ET).date()
@@ -302,7 +304,9 @@ def file_history(path, sc, oc, bucket):
             if not rid:
                 continue
             b = classify(g(ist), g(iout), bucket)[0]
-            h.setdefault(rid, []).append((ct, day, prob(g(icf), g(ipr)), is_decided(b, g(ist)), oldest_was(g(icf)), g(imd), norm_text(g(ipr))))
+            res = parse_iso(g(idt)) if idt is not None else parse_iso(g(iout))   # the registry's date rule, applied to this version
+            dec = is_decided(b, g(ist), res)
+            h.setdefault(rid, []).append((ct, day, prob(g(icf), g(ipr)), dec, oldest_was(g(icf)), g(imd), norm_text(g(ipr)), res if dec else None))
     cat.stdin.close(); cat.wait()
     return h
 
@@ -310,11 +314,11 @@ def file_history(path, sc, oc, bucket):
 def git_records(bucket):
     """{(desk, row id): versions oldest first}: the union across every ledger file of the desk, live and archive."""
     rec = {}
-    for path, sc, oc, _dc, _ds, _k in registry_full():
+    for path, sc, oc, dc, ds, _k in registry_full():
         if not os.path.exists(os.path.join(ROOT, path)):
             continue
         desk = path.split("/")[1]
-        for rid, v in file_history(path, sc, oc, bucket).items():
+        for rid, v in file_history(path, sc, oc, bucket, dc, ds).items():
             rec.setdefault((desk, rid), []).extend(v)
     for v in rec.values():
         v.sort(key=lambda x: x[0])
@@ -337,7 +341,8 @@ def timing(versions, p, resolved, outcome=""):
             out["p0"] = v[4] if v[4] is not None else v[2]
             break
     decided = [v[1] for v in versions if v[3]]
-    known = min([d for d in (resolved, decided[0] if decided else None) if d is not None], default=None)
+    carried = [v[7] for v in versions if len(v) > 7 and v[3] and v[7] is not None]   # resolved dates decided versions carried, in case the live date was moved later
+    known = min([d for d in (resolved, decided[0] if decided else None, min(carried) if carried else None) if d is not None], default=None)
     out["known"] = known
     vd = next((v[1] for v in versions if v[2] is not None and p is not None and abs(v[2] - p) < .0015), None)
     out["value_date"] = vd
@@ -520,12 +525,20 @@ def selftest():
     if timing(fixd, .6, D(12))["restarted"]: bad.append("a corrected Date_Made alone is the same call")
     for b, st, want in (("UNMAPPED", "STUCK", False), ("UNMAPPED", "AT-RISK", False), ("UNMAPPED", "RESOLVED-DENY", True), ("HIT", "HIT", True), (None, "OPEN", False), ("RESOLVED-UNTYPED", "RESOLVED", True)):
         if is_decided(b, st) != want: bad.append(("is_decided", b, st))
+    for b, st, res, want in (("UNMAPPED", "LIKELY MISSED", D(4), True), ("UNMAPPED", "LIKELY MISSED", None, False), ("UNMAPPED", "STUCK", None, False), ("UNMAPPED", "KILLED", D(2), True), (None, "OPEN", D(2), False)):
+        if is_decided(b, st, res) != want: bad.append(("is_decided with a resolved date", st, res))
+    X = lambda ct, day, p, dec, res: (ct, D(day), p, dec, None, "2026-11-01", "call text", res)
+    z9 = [X(1, 9, .6, is_decided("UNMAPPED", "LIKELY MISSED", D(4)), D(4)), X(2, 12, .6, True, D(4))]
+    if timing(z9, .6, D(4))["cls"] != "BORN-DECIDED": bad.append("a final status outside the map, dated, first record: BORN-DECIDED")
+    moved = [X(1, 2, .6, False, None), X(2, 6, .7, True, D(5)), X(3, 12, .7, True, D(11))]
+    t = timing(moved, .7, D(11))
+    if t["known"] != D(5) or t["cls"] != "AFTER": bad.append(("a resolved date moved later does not move the known date", t["known"], t["cls"]))
     stuck = [V(1, 1, .6, False), V(2, 3, .6, is_decided("UNMAPPED", "STUCK")), V(3, 10, .6, True)]
     t = timing(stuck, .6, D(10))
     if t["known"] != D(10) or t["cls"] != "BEFORE": bad.append(("a STUCK version is not decided", t["known"], t["cls"]))
     body = render([{"desk": "X", "id": "X-1", "bucket": "HIT", "p": .6, "basis": "status", "conf": "60%", "outcome": "", "resolved": None}], [], None, None)
     if "SKIPPED (--no-history)" not in body or "| BEFORE" in body: bad.append("A11 skipped history must say so")
-    print("selftest", "FAIL " + str(bad) if bad else "PASS", len(cases) + 3 + len(tc) + 19)
+    print("selftest", "FAIL " + str(bad) if bad else "PASS", len(cases) + 3 + len(tc) + 26)
     return 1 if bad else 0
 
 
