@@ -1,37 +1,35 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-11-16 10:09 → 12:4x ET closeout on PROME's ask (Mon) — **coral-ag**, due-row wake by PROME prome-6f (D:L1048 CORAL-02, G:GATE-CORAL-MSI-01, whole inbox). Opus 5.5 in Claude Code on the desktop. Root CLAUDE.md and local CLAUDE.md (harness-injected at session start), AGENTS.md, USER.md, COMPLETION_SPEC read; STATUS and SCRATCH read whole; THESIS, LESSONS, CALENDAR, MEMORY read only where the task touched them (⚠️ partial boot, said so); boot.py NOT run. Corrections rc 1 → receipted → rc 0. Pull NOT run: origin had nothing new; PROME's two files were dirty at boot. **Closed out 12:4x ET on PROME's ask; next wake = first Florida Realtors October print (likely Tue 11/17).**
-**Previous:** 2026-11-11 coral-af.
+**Session:** 2026-11-17 08:36 → 08:46 ET (Tue) — **coral-ah**, due-row wake by PROME prome-19 (D:L1048 CORAL-02, whole inbox, WQ-704 research commission). Opus 5.5 in Claude Code on the desktop. Root CLAUDE.md and local CLAUDE.md (harness-injected), AGENTS.md, USER.md, COMPLETION_SPEC read explicitly; STATUS, SCRATCH, THESIS (rails and grading section) read; LESSONS, CALENDAR, MEMORY read only where touched (⚠️ partial boot, said so). boot.py run (--quick, prices skipped); corrections rc 0. **Pull not run and push not run: PROME said hold until asked.** Boot banner: local branch 1 commit ahead of origin at start (not mine).
+**Previous:** 2026-11-16 coral-ag.
 
 ---
 
-## CHANGES SINCE 11/11 (what the world did)
+## CHANGES SINCE 11/16 (what the world did)
 
-- Parcl built 11/16 (data 11/15). Florida Realtors October: publisher-stated 11/16, not posted at 11:26 ET. 10Y up about 30bp on the week to above 5.15% (CME headline via WALTER). MARCO adopted Amendment 3 61.98%.
+- Florida Realtors October posted between 12:46 ET 11/16 and 08:37 ET 11/17 (PDFs say released Mon 11/16; created 11/11). Next release Wed 12/16.
+- MARCO packet 11/16: Canadian 2-yr Oct −26.88%; ID-01 IDENTIFIED; overseas visitors to Florida holding; H-2A Florida #1; FAA ground stop 11/13 confounds November airport counts.
 
 ## WHAT I DID
 
-1. **MSI #15 (data 11/15):** 4-of-5, Cape Coral 5.74 series low, all five fell on the week ⇒ re-fire fails, leg 🟠. Revisions now up to +0.03, still upward only. § AG1, ML-CORAL-167, CSV.
-2. **CORAL-02 NOT GRADED:** source not published; re-dated to first print (PREDICTIONS.tsv Timeframe cell; criterion unchanged). § AG3.
-3. **Inbox 8 of 8 drained** (3 top-level, 5 WALTER), KB ML-CORAL-163 to -166, COR-20261111-14 NO-OP. DAEDALUS WQ-678: A10 + F39 applied to CLAUDE.md, rest declined for now. § AG2.
-4. Commits: 8c9ef1ff6b (work), 49b6d61109 (records), packet 0e6a355eef. Then on PROME's word: **falsify grade 11/15 run** (§ AG4, THESIS), second packet.
+1. **CORAL-02 GRADED FALSE** at the first print: financed condo 3,266 vs 3,563 (−8.34%), SF 13,502 vs 15,419 (−12.43%), gap +4.10pp. Caveat: strong Oct-2025 SF base, likely post-Milton rebound (inference). PREDICTIONS RESOLVED; ML-CORAL-168; § AH1.
+2. **WQ-704 research** `research/2026-11-17_WQ704_fl-condo-financing-channel.md` + 37-month data TSV: condo financed per 100 SF financed Aug–Oct 23.3 in both 2025 and 2026 (25.5 in 2024); 12 months to Oct-2026 condo financed +2.1% = SF +2.1%; the 2024–25 step was condo-wide (cash −8.4%, financed −7.5%). No investment implication ⇒ nothing sent to TERRY. ML-CORAL-169; § AH2.
+3. **Inbox 4 of 4 drained** (§ AH3): WQ-704 acted; audit item (enrollment file) verified — content not behind, header added, disagreement stated; MARCO acted (Canadian Oct figure on STATUS, ML-CORAL-170); WALTER -005 noted.
 
 ## NEXT SESSION / OWED
 
-- **CORAL-02: grade on the first Florida Realtors October print** (financed = closed − cash, units, condo vs SF, 0.1pp band; first print; PDF year-ago columns).
-- ✅ **11/15 falsify grade run 11/16: 1.5 of 6, 🟠 holds** (THESIS grade of record). Owed: ATTOM refresh for C3. Band gap closed by WQ-690 A (any score below 2 ⇒ 🟠 unqualified, encoded 11/16); next grade 2027-02-16 (DOCKET L1156).
-- MSI #16 by 11/26 · Avidia 10-Q · FEMA FR notice (CORAL-04, L784 re-date proposed 11/20) · certification 11/17.
-- Still awaiting Will's word (since 11/06): DATA_SOURCES line for sec_contact.py; VX_Vectors catch-up; CLAUDE.md size figure (now dropped by F39 — item (c) moot).
-- DAEDALUS optional trims F14, F37, F38, F41, F42, F43, F44 declined for now; F11 waits on PROME's routing ruling.
-
-- Band rulings encoded: WQ-690 A (648ac72436), WQ-691 A (3eaaa6439f). FL Realtors watch ended 12:46 ET, NOT POSTED (ed576ed71e).
+- **Amendment 3 certification Tue 11/17** (canvassing commission) — not read this session; read at the state page next session.
+- FL Realtors Nov **Wed 12/16**: rebuild the ratio (reading guide in the research doc, not a rule; November is rate-confounded, needs a national control).
+- MSI #16 by 11/26 · Avidia 10-Q · FEMA FR notice (CORAL-04; L784 study due Fri 11/20 with AEOLUS, deliver as a research document) · Citizens October month-end.
+- Still awaiting Will's word (since 11/06): DATA_SOURCES line for sec_contact.py; VX_Vectors catch-up.
+- Enrollment ledger: enter FLDOE Survey 2 2026-27 when reachable (fldoe.org refuses automation; Wayback route).
 
 ## OPEN THREADS
 
+- GSE leg: "not yet" after one full month. Second agency step 2027-01-04 (reserve 15%) ⇒ watch Feb–Mar 2027 closings.
 - CORAL-01 (Cape Coral > 6.00 by 12/15, 15%): 5.74 and falling. CORAL-03 ($800M by 12/31). CORAL-04: no notice.
-- L227 leg (a): no pre-registered rule; November on is rate-confounded (§ AF4).
-- Parcl revisions: upward only, now up to +0.03 (n=5); watch, no rule change.
+- L227 leg (a): no pre-registered rule; this session proposes none.
 
 ## MAIL STATE
 
-`inbox/` top-level: empty · `inbox/WALTER/`: empty (rows in `board_log.tsv`) · outbound: PROME packet `PROME/inbox/2026-11-16_from-CORAL_L1048-CORAL02-not-published-MSI15-inbox.md`.
+`inbox/` top-level: empty · `inbox/WALTER/`: empty (row in `board_log.tsv`) · outbound: PROME packet `PROME/inbox/2026-11-17_from-CORAL_CORAL02-graded-WQ704-research-inbox.md`.

@@ -1,3 +1,4 @@
+# LIVE ledger, event-driven. Last real data refresh: 2026-09-28 (every enrollment figure on STATUS is in this file; no newer count entered since; fldoe.org refuses automated access, so the 2026-27 Survey 2 release was not checked 2026-11-17). Next data: FLDOE Survey 2 for 2026-27 (~Nov-Dec 2026), EEC (~Jan 2027). A STATUS commit with no new enrollment data does not make this file behind.
 row_id	geography	school_year	measure	count_type	count_date	level	prior_level	change	pct	comparison_basis	charters	tier	source	pulled
 ENRL-001	FL (67 districts)	2025-26	PK-12 public membership	FLDOE Survey 2	2025-10	2792954	2859655	-66701	-2.33%	SAME	included	PRIMARY	FLDOE PK-12 membership Survey 2 (fldoe.org 403; via Wayback)	2026-09-28
 ENRL-002	FL	2023-24	District FTE excl. scholarships	EEC actual	2026-08-11	2833628					not stated	PRIMARY	EDR Education Estimating Conference 8/11/26	2026-09-28
