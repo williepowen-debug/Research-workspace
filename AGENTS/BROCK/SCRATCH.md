@@ -1,4 +1,4 @@
-# BROCK SCRATCH — 2026-11-17 handoff (prome-19 session, desktop; NOT closed out, holding on PROME's word; Golub graded)
+# BROCK SCRATCH — 2026-11-17 handoff (prome-19 session, desktop; CLOSED OUT on PROME's 16:12 ET ask)
 
 Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-17.md` (two sections). New KB rows today: KB-BRK-501 to 513.
 
@@ -11,6 +11,6 @@ Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-
 4. CABO: coupon paid or not by ~12/16; hearing 12/4 (press-only, PACER ask-first). L186 FORUM-5 deferrals; W3 grades 11/30.
 
 **Thread notes:**
-- Closeout still owed when PROME asks: SCALED steps mostly done in the sweep; ALWAYS steps (STATUS stamp, SCRATCH, selfcheck, git, safe-push) at the end.
+- Closed out 11/17 evening; GBDC trade read sent to TERRY (no implication). LESSONS #45 new.
 - Not reached: ACM Auto Trust remaining noteholders/ratings; BCRED facility maturities; CCLFX 9/30 semiannual; Monroe Q1 share-count mismatch; ADS Q3 10-Q NA/PIK/NAV passes; 39-name discount rerun; WQ-678 B trims C48–C54, C56–C58 still deferred; AMG Pantheon → Silver Point Car-Mart lender link NOT ESTABLISHED (KB-BRK-509).
 - Commit by NAMED paths only (other desks commit in this checkout). Corrections receipt: no semicolons in `--scope`. Quartr: never call. Re-list `inbox/WALTER/` right before `git mv`.

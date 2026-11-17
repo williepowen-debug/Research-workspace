@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-11-17T16:07:43-05:00 — prome-19 session (desktop): **D:L969 BRK-36 RESOLVED TRUE** on GBDC's 8-K (16:04 ET): NAV/sh $14.00 vs $14.25 (KB-BRK-513); scoreboard re-scored n=17. Earlier: 14:27 file sweep, CABO/CRMT exposure chain. No score moved. Narrative → `catchups/2026-11-17.md`.
+**Updated:** 2026-11-17T16:11:07-05:00 — prome-19 session CLOSEOUT (desktop): D:L969 BRK-36 RESOLVED TRUE (GBDC NAV $14.00, KB-BRK-513), trade read to TERRY (no implication, 6c1f02582e); 14:27 file sweep; CABO/CRMT exposure chain. No score moved. Narrative → `catchups/2026-11-17.md`.
 
 ---
 
