@@ -1,0 +1,106 @@
+--- scripts/brief_pin_check.py
++++ /tmp/claude-1000/-home-willi-Research-workspace-AGENTS-DAEDALUS/d6138f28-0b17-4faf-ba22-4f0c1df25b24/scratchpad/wq719/brief_pin_check.py
+@@ -17,15 +17,21 @@
+ B = the last commit touching the brief:
+   OK-SAME-COMMIT   B == S (brief folded in the same commit as STATUS — always satisfies A11)
+   OK-PINNED        the pin hash in the brief's header equals S (prefix match)
+-  STALE-PIN        the pin names an older STATUS commit: STATUS was re-committed after the fold  ⇒ rc 1
++  STALE-PIN        the pin names an older STATUS commit: STATUS was re-committed after the fold —
++                   ADVISORY since WQ-719 A (Will, 2026-11-18): a brief is rewritten only when a figure,
++                   threshold or cross-desk send or wait in it changed, so a lagging pin is expected after a
++                   session that changed none of those; reported, never rc 1. When a lag means a raw STATUS
++                   read is NEXUS's schema §4.4, not this script
+   PIN-UNRESOLVED   the pin is not a commit that touched STATUS (typo, other file, rebased away)  ⇒ rc 1
+   UNPINNED         no hash in the header (prose pointer or no line): A11 cannot be checked; the line
+                    reports the A10 fallback (is B at or after S?) — ADVISORY, never rc 1
+   DIRTY            STATUS or brief has uncommitted changes (mid-closeout) — reported, not graded
+-rc: 0 = no STALE-PIN / PIN-UNRESOLVED · 1 = at least one · 2 = cannot evaluate (git failed, no
++rc: 0 = no PIN-UNRESOLVED · 1 = at least one · 2 = cannot evaluate (git failed, no
+ briefs found, unknown desk named). WHAT A PASS DOES NOT PROVE: brief CONTENT matches STATUS (a fresh
+ pin over a stale body passes — header-over-body is out of reach by construction); UNPINNED desks
+-are not checked for A11 at all.
++are not checked for A11 at all; since WQ-719 A a STALE-PIN no longer distinguishes a session that
++changed nothing in the brief from one that changed something and skipped the fold (the cost accepted in
++that ruling — NEXUS reads the figures it grades at the owner's STATUS).
+ """
+ import argparse, re, subprocess, sys, tempfile
+ from pathlib import Path
+@@ -33,7 +39,8 @@
+ ROOT = Path(__file__).resolve().parent.parent
+ HEADER_LINES = 40
+ PIN_RE = re.compile(r"STATUS commit\W{0,12}([0-9a-f]{7,40})\b", re.I)
+-BLOCKING = {"STALE-PIN", "PIN-UNRESOLVED"}
++BLOCKING = {"PIN-UNRESOLVED"}
++ADVISORY = {"STALE-PIN", "UNPINNED", "CANNOT-EVALUATE"}  # ⚠️ mark; only CANNOT-EVALUATE moves rc (to 2)
+ 
+ 
+ def git(root, *args):
+@@ -84,7 +91,7 @@
+         if hit:
+             n_after = status_commits.index(hit[0])
+             return "STALE-PIN", (f"pin {pin} is {n_after} STATUS commit(s) behind HEAD {s[:9]} — STATUS was "
+-                                 f"re-committed after the brief fold; re-pin and re-commit the brief{note}")
++                                 f"re-committed after the brief fold; advisory (WQ-719 A): re-pin when the brief is next rewritten{note}")
+         return "PIN-UNRESOLVED", f"pin {pin} is not a commit that touched {rel_s} (STATUS HEAD {s[:9]}){note}"
+     s_ahead = subprocess.run(["git", "-C", str(root), "merge-base", "--is-ancestor", s, b]).returncode == 0
+     return "UNPINNED", (f"no STATUS hash in the first {HEADER_LINES} header lines — A11 not checkable; "
+@@ -105,7 +112,7 @@
+         except RuntimeError as e:
+             v, why = "CANNOT-EVALUATE", f"git failed: {e}"
+         out.append((d, v, why))
+-    # precedence: a found stale pin is actionable (1) even if another desk could not be read; otherwise
++    # precedence: an unresolved pin is actionable (1) even if another desk could not be read; otherwise
+     # any CANNOT-EVALUATE means the run cannot certify (2) — never a silent 0 (CHECK_STANDARD §9)
+     if any(v in BLOCKING for _, v, _ in out):
+         rc = 1
+@@ -117,11 +124,12 @@
+     head = " · ".join(f"{k} {n}" for k, n in sorted(counts.items()))
+     tag = "BRIEF-PIN 1 STALE" if rc == 1 else ("BRIEF-PIN 2 CANNOT-EVALUATE" if rc == 2 else "BRIEF-PIN 0 OK")
+     print(f"{tag}: {len(out)} brief(s) checked against amendment 11 (pin-follows-STATUS-HEAD) — {head}. "
+-          f"A PASS proves the pin, never the brief's content; UNPINNED briefs are not A11-checked.")
++          f"A PASS proves the pin, never the brief's content; UNPINNED briefs are not A11-checked; "
++          f"STALE-PIN is advisory (WQ-719 A).")
+     for d, v, why in out:
+         if quiet and v in ("OK-SAME-COMMIT", "OK-PINNED", "NO-BRIEF"):
+             continue
+-        mark = "⛔" if v in BLOCKING else ("⚠️" if v in ("UNPINNED", "CANNOT-EVALUATE") else "✅")
++        mark = "⛔" if v in BLOCKING else ("⚠️" if v in ADVISORY else "✅")
+         print(f"  {mark} {d:<9} {v:<15} {why}")
+     return rc
+ 
+@@ -173,15 +181,24 @@
+             good = got == w; ok &= good; n += good
+             print(f"  {'PASS' if good else 'FAIL'}  {d}: {got} (want {w})")
+         import io, contextlib
+-        cases = [(["A", "B", "E"], 0, "advisory UNPINNED never blocks"), (["A", "C"], 1, "STALE-PIN blocks"),
++        cases = [(["A", "B", "E"], 0, "advisory UNPINNED never blocks"), (["A", "C"], 0, "STALE-PIN is advisory (WQ-719 A)"),
+                  (["D"], 1, "PIN-UNRESOLVED blocks"), (["ZZ"], 2, "an unknown desk is CANNOT-EVALUATE, never clean"),
+-                 (["C", "ZZ"], 1, "a stale pin outranks an unreadable desk")]
++                 (["C", "ZZ"], 2, "an advisory stale pin does not mask an unreadable desk"),
++                 (["D", "ZZ"], 1, "an unresolved pin outranks an unreadable desk")]
+         for desks, want_rc, label in cases:
+             buf = io.StringIO()
+             with contextlib.redirect_stdout(buf):
+                 got = run(Path(td), desks)
+             good = got == want_rc; ok &= good; n += good
+             print(f"  {'PASS' if good else 'FAIL'}  rc {desks}: {got} (want {want_rc}) — {label}")
++        # the stale line is still REPORTED under rc 0, and still printed under --quiet
++        buf = io.StringIO()
++        with contextlib.redirect_stdout(buf):
++            got = run(Path(td), ["A", "C"], quiet=True)
++        line = [ln for ln in buf.getvalue().splitlines() if " C " in ln and "STALE-PIN" in ln]
++        good = got == 0 and len(line) == 1 and "⚠️" in line[0] and "advisory" in line[0]
++        ok &= good; n += good
++        print(f"  {'PASS' if good else 'FAIL'}  stale line reported (⚠️, advisory) under rc 0 and --quiet")
+     with tempfile.TemporaryDirectory() as td2:
+         (Path(td2) / "AGENTS").mkdir()
+         subprocess.run(["git", "-C", td2, "init", "-q"], check=True)
+@@ -190,7 +207,7 @@
+             got = run(Path(td2), [])
+         good = got == 2 and "0 briefs found" in buf.getvalue(); ok &= good; n += good
+         print(f"  {'PASS' if good else 'FAIL'}  empty population -> rc {got} (want 2)")
+-    total = 12
++    total = 14
+     print(f"BRIEF-PIN SELFTEST {'0 PASS' if ok and n == total else '1 FAIL'}: {n}/{total}")
+     return 0 if ok and n == total else 1
+ 
