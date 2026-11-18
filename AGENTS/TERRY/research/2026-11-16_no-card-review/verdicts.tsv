@@ -1,96 +1,96 @@
-date	item	class	source	my_words_at_the_time
-2026-09-19	CCL post-print puts	H	SETUPS TRY-NOTRADE-CCLPRINT	refused on MEASURED EV: every structure negative-EV over the 8-print distribution (construction rule #18)
-2026-09-19	NCLH Dec 14P	H	SETUPS TRY-COND-NCLHDEC14P	I do not have a measured edge to put behind one (shelved by Will 10/29)
-2026-10-11	SPY Dec 770/760P pre-CPI	J	SETUPS TRY-NOTRADE-WQ409-SPY	PASSED WQ-418, Will 10/11
-2026-10-12	MPC refiner (L689)	G	SETUPS TRY-NOTRADE-MPC-L689	conservative $611.30 opening vs $500 cap
-2026-10-12	EGBN downside (L694)	A	SETUPS CAND-EGBN-L694	two dated expressions below cap but illiquid/deep
-2026-10-12	BNO crude long	I	SETUPS CAND-BNO-CRUDE-20261012	research only; current weights/NAV/book unknown; no USO switch
-2026-10-15	TLT bounce	E	research/2026-10-15_TLT-bounce	BOND HOLD-NO-ADD; no long-duration thesis on file
-2026-10-15	Power generators VST/CEG/NRG/TLN	D	10/15 sweep item 4	WATT blocks its own entry; wait for WATT
-2026-10-15	FLG puts	K	10/15 sweep parked	same bank falsifier (construction rule #18), FLG desk file stale
-2026-10-15	more KRE puts	G	10/15 sweep parked	REG-T-03 1-of-3; LIQUID X1 DON'T-SIZE
-2026-10-15	oil adds / USO 162-175C / refiners	E	10/15 sweep parked	WQ-192 WAIT
-2026-10-15	EWJ / Japan banks	D	10/15 sweep parked	delinquency legs unprinted
-2026-10-15	VIX calls	D	10/15 sweep parked	VIOLET credit-vol trigger NOT MET
-2026-10-15	gold/silver ratio	E	10/15 sweep parked	MIDAS has not graded; already long GLD
-2026-10-15	RNR	E	10/15 sweep parked	owner NO-BUILD
-2026-10-22	CRWV relief-rally fade put spread	D	SETUPS TRY-COND-CRWV-RALLYFADE	DEAD: close $55.60 < $58.00 void before any $70 fire
-2026-10-19	WAL/EGBN prebuild (TRY-FIRE-002)	D	SETUPS TRY-FIRE-002	CARL keep dormant; no re-lock (shelved by Will 10/29)
-2026-10-23	FXY Jan 58/60C	B	SETUPS IDEA-FXY-OCT20	triggers MET 10/23; screen debit 0.925/1.15 > 0.90 cap - blocked (shelved 10/29)
-2026-10-20	VST common	J	SETUPS IDEA-VST-OCT20	never approved; shelved by Will 10/29
-2026-10-23	IEF Jan 90/92C	B	SETUPS IDEA-IEF-OCT20	triggers MET 10/23; screen debit 0.975/1.05 > 0.85 cap - blocked (shelved 10/29)
-2026-11-06	RSP Jan 215/225C	J	SETUPS IDEA-RSP-OCT20	debit blocked 11/5 x3; order presented 11/6 at mid 4.625; Will declined
-2026-10-29	OKTA Nov 220/230C	D	SETUPS IDEA-OKTA-SECWAVE-OCT22	NOT-FIRED: no 8-K Item 1.05, Huntress count unchanged (parked/shelved by Will 10/29)
-2026-10-22	MRNA ESMO call spread	F	SETUPS TRY-NOTRADE-MRNA-ESMO	chain prices the readout ~12.4% sd = PROME tree 12.0%; edge only subjective
-2026-10-29	USO Jan 170/185C post-election	D	SETUPS IDEA-USO-POSTELECTION-OCT22	FALCON row not fired; Will: already bought more USO
-2026-10-23	FLG Jul-27 10P	C	SETUPS CAND-FLG-JUL27-10P	10/23 was a gap-down red day (root rule #6); Will bought his own instead
-2026-11-13	HYG/HTGC credit puts (REG-T-04)	D	SETUPS IDEA-CREDIT-HYG-BDC-OCT23	LAPSED UNFIRED: REG-T-04 never fired (HY peak 348 [11/5])
-2026-10-23	KRE/QQQ seesaw	E	SETUPS CAND-KRE-QQQ-SEESAW	research; watch window only; Will exploring
-2026-10-31	duration short into refunding (NEXUS)	H	10/31 trade-ideas	supply surprise skews toward LESS long-end supply; haven bid against
-2026-10-31	refiners on Russian diesel ban	E	10/31 trade-ideas	delivered-supply effect ungraded (BRENT owns); BRENT not suggested
-2026-10-31	BRENT #1 back of oil curve	D	10/31 trade-ideas	no trigger exists; touches lines Will manages by hand
-2026-10-31	BRENT #2 tankers into Sinokor	F	10/31 trade-ideas	tape already bid; OVX ~56 options dear
-2026-10-31	industrial capex (ISHM)	H	10/31 trade-ideas	no edge against consensus; strength narrow
-2026-10-31	gold (MIDAS 10/30)	H	10/31 trade-ideas	MIDAS measured no rebound edge after liquidation days
-2026-10-31	more Nasdaq / chip downside	K	10/31 trade-ideas	same falsifier as held QQQ lines (N_eff ~1); move already ran
-2026-10-31	BDC software marks (FSK)	E	10/31 trade-ideas	BROCK has not proposed; envelope unmeasured
-2026-11-04	TLT Jan 82/78P QRA	J	SETUPS IDEA-TLT-QRA-NOV02	DECLINED WQ-592 B, Will
-2026-11-04	CF Dec 125/135C	J	SETUPS IDEA-CF-Q3-NOV02	DECLINED WQ-593 B, Will (screen outer $4.10 also above $3.30 cap)
-2026-11-05	TLT short on weak refunding (BOND)	H	SETUPS TRY-NOTRADE-REFUNDING-NOV05	stronger trigger printed 0 of 34; no measured payoff
-2026-11-05	RSP Dec 220/230C	J	SETUPS IDEA-RSP-DEC-NOV05	PASSED WQ-616 B, Will
-2026-11-08	FLG re-arm reading C	H	11/08 WQ-650 pass item 1	the reading that fired is thin (30.85% vs 31.04%)
-2026-11-08	oil right tail into reopen	K	11/08 WQ-650 pass item 2	book already long oil (N_eff 1); tail dear (OVX 58); buying after the event is the chase
-2026-11-08	fade an oil spike	H	11/08 WQ-650 pass item 3	one precedent (n=1), 2026 differs; BRENT has not proposed
-2026-11-08	CPI 11/10 gamma straddle	E	11/08 WQ-650 pass item 4	no owner gives a direction; event premium unmeasured
-2026-11-08	gold (MIDAS L3)	H	11/08 WQ-650 pass item 6	MIDAS measured no rebound edge; composite 13/20
-2026-11-08	OZK	H	11/08 WQ-650 pass item 7	LOW conviction; two of four reversal triggers spent
-2026-11-08	AI funding prints (SoftBank/CRWV/NBIS)	K	11/08 WQ-650 pass item 8	ORCL card is the desk's expression; envelope unmeasured; IV crushed after print
-2026-11-08	China clocks	E	11/08 WQ-650 pass item 9	no owner names an instrument; BIS stay public 11/5, priced
-2026-11-08	bank names, any new put	H	11/08 WQ-650 pass item 10	REGINALD score showed no skill (n=14, one quarter)
-2026-11-10	SoftBank stress	A	SETUPS TRY-NOTRADE-SOFTBANK-NOV10	no listed carrier (SFTBY 0 option expiries)
-2026-11-10	Fed / front end after CPI-Waller	F	research/2026-11-10_hy-cpi-read s4	December hike already priced past 25 bp
-2026-11-11	Skydance leverage	H	SETUPS TRY-NOTRADE-SKYD-NOV11	no post-close leverage or covenant headroom filed
-2026-11-11	Saudi October self-report (oil)	E	SETUPS TRY-NOTRADE-SAUDI-NOV11	BRENT moved no boundary or row
-2026-11-11	Siemens Energy FY2026	E	SETUPS TRY-NOTRADE-SAUDI-NOV11	VULCAN no card
-2026-11-11	Japan Tobacco Russian decrees	F	SETUPS TRY-NOTRADE-JT-NOV11	loss from pre-decree close 0.98-1.14x a full write-off
-2026-11-11	multifamily CMBS (ABR etc.)	F	SETUPS TRY-NOTRADE-MFCMBS-NOV11	ABR already -61% in 30 bars; no HOMER criterion
-2026-11-11	Cable One	A	SETUPS TRY-NOTRADE-CABO-NOV11	short sale only, loss not definable
-2026-11-11	Capital One underperformance	H	SETUPS TRY-NOTRADE-COF-NOV11	group move; no distinct COF catalyst established
-2026-11-11	airfares (JETS)	E	SETUPS TRY-NOTRADE-DRAIN-NOV11	no owner holds a direction; market reads fares as good
-2026-11-11	polar vortex (UNG)	H	SETUPS TRY-NOTRADE-DRAIN-NOV11	owner sees no cold signal
-2026-11-11	DEWEY six-bank coverage (KRE)	H	SETUPS TRY-NOTRADE-DRAIN-NOV11	coverage decline has zero predictive weight
-2026-11-12	United Fidelity Bank	A	SETUPS TRY-NOTRADE-UFB-NOV12	no listed instrument carries the exposure in size; BANX chain DEAD; FINS no options
-2026-11-12	Nebius / neoclouds	F	SETUPS TRY-NOTRADE-NBIS-NOV12	NBIS -20% pre-market near 30-bar low: a put now is a chase
-2026-11-12	MSTR MSCI deletion	H	SETUPS TRY-NOTRADE-MSTR-NOV12	a bitcoin move (construction rule #23); flow unsized
-2026-11-12	Orlen / Qatar LNG	A	SETUPS TRY-NOTRADE-ORLEN-NOV12	no US-listed carrier; direction unclear
-2026-11-12	N-able / Storm bank list	A	SETUPS TRY-NOTRADE-NABL-NOV12	NABL one put strike per expiry, DEAD; Storm banks unlisted
-2026-11-12	S&P back over gamma flip	C	SETUPS TRY-NOTRADE-SPXFLIP-NOV12	green day so a call breaks root rule #6; HENRY makes no prediction
-2026-11-12	USD/JPY 160 (first read)	D	SETUPS TRY-NOTRADE-USDJPY160-NOV12	cause unknown; owner rows not fired; FXY card SHELVED
-2026-11-12	PPI-day straddle	F	SETUPS TRY-NOTRADE-PPIGAMMA-NOV12	straddle 0.73% vs PPI-day mean 0.68%: no PPI premium to harvest
-2026-11-12	crude short on EIA build	E	SETUPS TRY-NOTRADE-WPSR-NOV12	tape went the other way; BRENT stance WAIT; book already long oil
-2026-11-13	Exeter EART 2026-5	A	SETUPS TRY-NOTRADE-EXETER-NOV13	issuer private, ABS not reachable at the broker
-2026-11-13	QQQ under 680 put wall	E	SETUPS TRY-NOTRADE-QQQWALL-NOV13	no direction owned; puts on a red day break root rule #6
-2026-11-13	Yanbu / East-West claims	H	SETUPS TRY-NOTRADE-YANBU-NOV13	no operational effect stated; claims only
-2026-11-13	Nvidia geography / Blackwell	H	SETUPS TRY-NOTRADE-NVDAGEO-NOV13	no enacted rule, no official statement or filing
-2026-11-13	post-PPI S&P under 7,500	E	SETUPS TRY-NOTRADE-POSTPPI-NOV13	direction unowned; puts on a red day
-2026-11-13	Car-Mart (CRMT)	A	SETUPS TRY-NOTRADE-CRMTCABO-NOV13	0 expiries; short has no defined loss
-2026-11-13	Cable One hearing (CABO)	A	SETUPS TRY-NOTRADE-CRMTCABO-NOV13	0 expiries; binary with a gating unknown date
-2026-11-13	N-able 4EverAble2Shell	A	SETUPS TRY-NOTRADE-CYBER3-NOV13	NABL Dec 5P OI 1, DEAD
-2026-11-13	Check Point PHP2Shell	H	SETUPS TRY-NOTRADE-CYBER3-NOV13	no reaction to chase (+0.6% on disclosure day)
-2026-11-13	GMO breach (4784.T)	A	SETUPS TRY-NOTRADE-CYBER3-NOV13	broker access unknown
-2026-11-13	USD/JPY 160 (SAM grade)	D	SETUPS TRY-NOTRADE-USDJPY160-NOV13	no intervention ESTABLISHED; FXY shelved
-2026-11-13	Trinity Capital	H	SETUPS TRY-NOTRADE-TRIN-NOV13	concentration, not stress; catalyst after Jan expiry
-2026-11-16	QQQ / S&P downside after the 11/13 close	E	SETUPS TRY-NOTRADE-INBOX-NOV16	no owner direction; red-day chase
-2026-11-16	NCLH after CRU-11 failed	H	NOTE 11/16 s3	evidence against the bear read; nothing builds a long
-2026-11-16	CARL CRL-28 MOHELA	A	NOTE 11/16 s3	no listed instrument maps
-2026-11-16	gold (MIDAS 11/13 grade)	E	NOTE 11/16 s3	MIDAS proposes no trade
-2026-11-16	oil short on IEA surplus	E	NOTE 11/16 s3	no owner direction; red-day chase
-2026-11-16	ORCL after IG tech yields	D	NOTE 11/16 s3	ORCL card T1 CDS >= 350, latest ~295
-2026-11-16	Mosaic (FERT)	H	NOTE 11/16 s3	FERT lean weak, low confidence, no trigger
-2026-11-16	PJM cap clear (IPPs)	F	NOTE 11/16 s3	a cap clear is the consensus outcome
-2026-11-16	ICMB below 150%, merger into BCIC	F	NOTE 11/16 s6	deal priced 11/12 (ICMB +71%); exchange ratio unread
-2026-11-16	United Fidelity re-look	A	research/2026-11-12 NOTE re-look	listed holders still under 1%; BANX puts NOBID/DEAD
-2026-11-16	BX / OWL / APO on BCRED-Monroe	E	NOTE 11/16 s8	headline risk only, no capital path (BROCK: no clean line)
-2026-11-16	Car-Mart 11/16	A	NOTE 11/16 s8	0 listed expiries; short unbounded
-2026-11-16	HBAN Category III	F	NOTE 11/16 s9	anticipated (Fitch BBB+ in September)
-2026-11-16	NVDA pre-print / S&P under 7,500 (SIG-002)	E	NOTE 11/16 s10	card waits for its trigger; S&P downside unowned, red-day put
+date	item	class	source	my_words_at_the_time	reconcile_2026-11-18
+2026-09-19	CCL post-print puts	H	SETUPS TRY-NOTRADE-CCLPRINT	refused on MEASURED EV: every structure negative-EV over the 8-print distribution (construction rule #18)	
+2026-09-19	NCLH Dec 14P	H	SETUPS TRY-COND-NCLHDEC14P	I do not have a measured edge to put behind one (shelved by Will 10/29)	
+2026-10-11	SPY Dec 770/760P pre-CPI	J	SETUPS TRY-NOTRADE-WQ409-SPY	PASSED WQ-418, Will 10/11	
+2026-10-12	MPC refiner (L689)	G	SETUPS TRY-NOTRADE-MPC-L689	conservative $611.30 opening vs $500 cap	
+2026-10-12	EGBN downside (L694)	A	SETUPS CAND-EGBN-L694	two dated expressions below cap but illiquid/deep	
+2026-10-12	BNO crude long	I	SETUPS CAND-BNO-CRUDE-20261012	research only; current weights/NAV/book unknown; no USO switch	
+2026-10-15	TLT bounce	E	research/2026-10-15_TLT-bounce	BOND HOLD-NO-ADD; no long-duration thesis on file	
+2026-10-15	Power generators VST/CEG/NRG/TLN	D	10/15 sweep item 4	WATT blocks its own entry; wait for WATT	
+2026-10-15	FLG puts	K	10/15 sweep parked	same bank falsifier (construction rule #18), FLG desk file stale	
+2026-10-15	more KRE puts	G	10/15 sweep parked	REG-T-03 1-of-3; LIQUID X1 DON'T-SIZE	
+2026-10-15	oil adds / USO 162-175C / refiners	D	10/15 sweep parked	WQ-192 WAIT	was E; reader row 2: Will's WQ-192 stand-down (9/7) and BRENT BG-02 unmet; a direction existed, the gate stopped it
+2026-10-15	EWJ / Japan banks	D	10/15 sweep parked	delinquency legs unprinted	
+2026-10-15	VIX calls	D	10/15 sweep parked	VIOLET credit-vol trigger NOT MET	
+2026-10-15	gold/silver ratio	E	10/15 sweep parked	MIDAS has not graded; already long GLD	
+2026-10-11	RNR	H	10/15 sweep parked	owner NO-BUILD	was E dated 2026-10-15;  reader row 4: re-listing of the 10/11 NO-BUILD (AEOLUS conviction 1 of 5, TERRY decided); redated to the verdict, not dropped (no 10/11 row exists)
+2026-10-22	CRWV relief-rally fade put spread	D	SETUPS TRY-COND-CRWV-RALLYFADE	DEAD: close $55.60 < $58.00 void before any $70 fire	
+2026-10-19	WAL/EGBN prebuild (TRY-FIRE-002)	D	SETUPS TRY-FIRE-002	CARL keep dormant; no re-lock (shelved by Will 10/29)	
+2026-10-23	FXY Jan 58/60C	B	SETUPS IDEA-FXY-OCT20	triggers MET 10/23; screen debit 0.925/1.15 > 0.90 cap - blocked (shelved 10/29)	
+2026-10-20	VST common	J	SETUPS IDEA-VST-OCT20	never approved; shelved by Will 10/29	
+2026-10-23	IEF Jan 90/92C	B	SETUPS IDEA-IEF-OCT20	triggers MET 10/23; screen debit 0.975/1.05 > 0.85 cap - blocked (shelved 10/29)	
+2026-11-06	RSP Jan 215/225C	J	SETUPS IDEA-RSP-OCT20	debit blocked 11/5 x3; order presented 11/6 at mid 4.625; Will declined	
+2026-10-29	OKTA Nov 220/230C	D	SETUPS IDEA-OKTA-SECWAVE-OCT22	NOT-FIRED: no 8-K Item 1.05, Huntress count unchanged (parked/shelved by Will 10/29)	
+2026-10-22	MRNA ESMO call spread	F	SETUPS TRY-NOTRADE-MRNA-ESMO	chain prices the readout ~12.4% sd = PROME tree 12.0%; edge only subjective	
+2026-10-29	USO Jan 170/185C post-election	D	SETUPS IDEA-USO-POSTELECTION-OCT22	FALCON row not fired; Will: already bought more USO	
+2026-10-23	FLG Jul-27 10P	C	SETUPS CAND-FLG-JUL27-10P	10/23 was a gap-down red day (root rule #6); Will bought his own instead	
+2026-11-13	HYG/HTGC credit puts (REG-T-04)	D	SETUPS IDEA-CREDIT-HYG-BDC-OCT23	LAPSED UNFIRED: REG-T-04 never fired (HY peak 348 [11/5])	
+2026-10-23	KRE/QQQ seesaw	E	SETUPS CAND-KRE-QQQ-SEESAW	research; watch window only; Will exploring	
+2026-10-31	duration short into refunding (NEXUS)	H	10/31 trade-ideas	supply surprise skews toward LESS long-end supply; haven bid against	
+2026-10-31	refiners on Russian diesel ban	H	10/31 trade-ideas	delivered-supply effect ungraded (BRENT owns); BRENT not suggested	was E; reader finding 5: owner stated a negative ("Not suggested: new refiner longs")
+2026-10-31	BRENT #1 back of oil curve	D	10/31 trade-ideas	no trigger exists; touches lines Will manages by hand	
+2026-10-31	BRENT #2 tankers into Sinokor	F	10/31 trade-ideas	tape already bid; OVX ~56 options dear	
+2026-10-31	industrial capex (ISHM)	H	10/31 trade-ideas	no edge against consensus; strength narrow	
+2026-10-31	gold (MIDAS 10/30)	H	10/31 trade-ideas	MIDAS measured no rebound edge after liquidation days	
+2026-10-31	more Nasdaq / chip downside	K	10/31 trade-ideas	same falsifier as held QQQ lines (N_eff ~1); move already ran	
+2026-10-31	BDC software marks (FSK)	H	10/31 trade-ideas	BROCK has not proposed; envelope unmeasured	was E; reader finding 5: owner graded the thesis failing for Q3, no trade proposal
+2026-11-04	TLT Jan 82/78P QRA	J	SETUPS IDEA-TLT-QRA-NOV02	DECLINED WQ-592 B, Will	
+2026-11-04	CF Dec 125/135C	J	SETUPS IDEA-CF-Q3-NOV02	DECLINED WQ-593 B, Will (screen outer $4.10 also above $3.30 cap)	
+2026-11-05	TLT short on weak refunding (BOND)	H	SETUPS TRY-NOTRADE-REFUNDING-NOV05	stronger trigger printed 0 of 34; no measured payoff	
+2026-11-05	RSP Dec 220/230C	J	SETUPS IDEA-RSP-DEC-NOV05	PASSED WQ-616 B, Will	
+2026-11-08	FLG re-arm reading C	H	11/08 WQ-650 pass item 1	the reading that fired is thin (30.85% vs 31.04%)	
+2026-11-08	oil right tail into reopen	K	11/08 WQ-650 pass item 2	book already long oil (N_eff 1); tail dear (OVX 58); buying after the event is the chase	
+2026-11-08	fade an oil spike	H	11/08 WQ-650 pass item 3	one precedent (n=1), 2026 differs; BRENT has not proposed	
+2026-11-08	CPI 11/10 gamma straddle	H	11/08 WQ-650 pass item 4	no owner gives a direction; event premium unmeasured	was E; reader row 8: a straddle needs no direction; no measured edge
+2026-11-08	gold (MIDAS L3)	H	11/08 WQ-650 pass item 6	MIDAS measured no rebound edge; composite 13/20	
+2026-11-08	OZK	H	11/08 WQ-650 pass item 7	LOW conviction; two of four reversal triggers spent	
+2026-11-08	AI funding prints (SoftBank/CRWV/NBIS)	K	11/08 WQ-650 pass item 8	ORCL card is the desk's expression; envelope unmeasured; IV crushed after print	
+2026-11-08	China clocks	E	11/08 WQ-650 pass item 9	no owner names an instrument; BIS stay public 11/5, priced	
+2026-11-08	bank names, any new put	H	11/08 WQ-650 pass item 10	REGINALD score showed no skill (n=14, one quarter)	
+2026-11-10	SoftBank stress	A	SETUPS TRY-NOTRADE-SOFTBANK-NOV10	no listed carrier (SFTBY 0 option expiries)	
+2026-11-10	Fed / front end after CPI-Waller	F	research/2026-11-10_hy-cpi-read s4	December hike already priced past 25 bp	
+2026-11-11	Skydance leverage	H	SETUPS TRY-NOTRADE-SKYD-NOV11	no post-close leverage or covenant headroom filed	
+2026-11-11	Saudi October self-report (oil)	E	SETUPS TRY-NOTRADE-SAUDI-NOV11	BRENT moved no boundary or row	
+2026-11-11	Siemens Energy FY2026	H	SETUPS TRY-NOTRADE-SAUDI-NOV11	VULCAN no card	was E; reader finding 5: owner called it a sub-threshold note that moves no score
+2026-11-11	Japan Tobacco Russian decrees	F	SETUPS TRY-NOTRADE-JT-NOV11	loss from pre-decree close 0.98-1.14x a full write-off	
+2026-11-11	multifamily CMBS (ABR etc.)	F	SETUPS TRY-NOTRADE-MFCMBS-NOV11	ABR already -61% in 30 bars; no HOMER criterion	
+2026-11-11	Cable One	A	SETUPS TRY-NOTRADE-CABO-NOV11	short sale only, loss not definable	
+2026-11-11	Capital One underperformance	H	SETUPS TRY-NOTRADE-COF-NOV11	group move; no distinct COF catalyst established	
+2026-11-11	airfares (JETS)	E	SETUPS TRY-NOTRADE-DRAIN-NOV11	no owner holds a direction; market reads fares as good	
+2026-11-11	polar vortex (UNG)	H	SETUPS TRY-NOTRADE-DRAIN-NOV11	owner sees no cold signal	
+2026-11-11	DEWEY six-bank coverage (KRE)	H	SETUPS TRY-NOTRADE-DRAIN-NOV11	coverage decline has zero predictive weight	
+2026-11-12	United Fidelity Bank	A	SETUPS TRY-NOTRADE-UFB-NOV12	no listed instrument carries the exposure in size; BANX chain DEAD; FINS no options	
+2026-11-12	Nebius / neoclouds	F	SETUPS TRY-NOTRADE-NBIS-NOV12	NBIS -20% pre-market near 30-bar low: a put now is a chase	
+2026-11-12	MSTR MSCI deletion	H	SETUPS TRY-NOTRADE-MSTR-NOV12	a bitcoin move (construction rule #23); flow unsized	
+2026-11-12	Orlen / Qatar LNG	A	SETUPS TRY-NOTRADE-ORLEN-NOV12	no US-listed carrier; direction unclear	
+2026-11-12	N-able / Storm bank list	A	SETUPS TRY-NOTRADE-NABL-NOV12	NABL one put strike per expiry, DEAD; Storm banks unlisted	
+2026-11-12	S&P back over gamma flip	C	SETUPS TRY-NOTRADE-SPXFLIP-NOV12	green day so a call breaks root rule #6; HENRY makes no prediction	
+2026-11-12	USD/JPY 160 (first read)	D	SETUPS TRY-NOTRADE-USDJPY160-NOV12	cause unknown; owner rows not fired; FXY card SHELVED	
+2026-11-12	PPI-day straddle	F	SETUPS TRY-NOTRADE-PPIGAMMA-NOV12	straddle 0.73% vs PPI-day mean 0.68%: no PPI premium to harvest	
+2026-11-12	crude short on EIA build	E	SETUPS TRY-NOTRADE-WPSR-NOV12	tape went the other way; BRENT stance WAIT; book already long oil	
+2026-11-13	Exeter EART 2026-5	A	SETUPS TRY-NOTRADE-EXETER-NOV13	issuer private, ABS not reachable at the broker	
+2026-11-13	QQQ under 680 put wall	E	SETUPS TRY-NOTRADE-QQQWALL-NOV13	no direction owned; puts on a red day break root rule #6	
+2026-11-13	Yanbu / East-West claims	H	SETUPS TRY-NOTRADE-YANBU-NOV13	no operational effect stated; claims only	
+2026-11-13	Nvidia geography / Blackwell	H	SETUPS TRY-NOTRADE-NVDAGEO-NOV13	no enacted rule, no official statement or filing	
+2026-11-13	post-PPI S&P under 7,500	E	SETUPS TRY-NOTRADE-POSTPPI-NOV13	direction unowned; puts on a red day	
+2026-11-13	Car-Mart (CRMT)	A	SETUPS TRY-NOTRADE-CRMTCABO-NOV13	0 expiries; short has no defined loss	
+2026-11-13	Cable One hearing (CABO)	A	SETUPS TRY-NOTRADE-CRMTCABO-NOV13	0 expiries; binary with a gating unknown date	
+2026-11-13	N-able 4EverAble2Shell	A	SETUPS TRY-NOTRADE-CYBER3-NOV13	NABL Dec 5P OI 1, DEAD	
+2026-11-13	Check Point PHP2Shell	H	SETUPS TRY-NOTRADE-CYBER3-NOV13	no reaction to chase (+0.6% on disclosure day)	
+2026-11-13	GMO breach (4784.T)	A	SETUPS TRY-NOTRADE-CYBER3-NOV13	broker access unknown	
+2026-11-13	USD/JPY 160 (SAM grade)	D	SETUPS TRY-NOTRADE-USDJPY160-NOV13	no intervention ESTABLISHED; FXY shelved	
+2026-11-13	Trinity Capital	H	SETUPS TRY-NOTRADE-TRIN-NOV13	concentration, not stress; catalyst after Jan expiry	
+2026-11-16	QQQ / S&P downside after the 11/13 close	E	SETUPS TRY-NOTRADE-INBOX-NOV16	no owner direction; red-day chase	
+2026-11-16	NCLH after CRU-11 failed	H	NOTE 11/16 s3	evidence against the bear read; nothing builds a long	
+2026-11-16	CARL CRL-28 MOHELA	A	NOTE 11/16 s3	no listed instrument maps	
+2026-11-16	gold (MIDAS 11/13 grade)	K	NOTE 11/16 s3	MIDAS proposes no trade	was E; reader row 17: MIDAS stated a positive 3-month GLD lean already held in GLD shares
+2026-11-16	oil short on IEA surplus	E	NOTE 11/16 s3	no owner direction; red-day chase	
+2026-11-16	ORCL after IG tech yields	D	NOTE 11/16 s3	ORCL card T1 CDS >= 350, latest ~295	
+2026-11-16	Mosaic (FERT)	H	NOTE 11/16 s3	FERT lean weak, low confidence, no trigger	
+2026-11-16	PJM cap clear (IPPs)	F	NOTE 11/16 s3	a cap clear is the consensus outcome	
+2026-11-16	ICMB below 150%, merger into BCIC	F	NOTE 11/16 s6	deal priced 11/12 (ICMB +71%); exchange ratio unread	
+2026-11-16	United Fidelity re-look	A	research/2026-11-12 NOTE re-look	listed holders still under 1%; BANX puts NOBID/DEAD	
+2026-11-16	BX / OWL / APO on BCRED-Monroe	H	NOTE 11/16 s8	headline risk only, no capital path (BROCK: no clean line)	was E; rule applied: owner said headline risk only, no clean line (not flagged by the reader)
+2026-11-16	Car-Mart 11/16	A	NOTE 11/16 s8	0 listed expiries; short unbounded	
+2026-11-16	HBAN Category III	F	NOTE 11/16 s9	anticipated (Fitch BBB+ in September)	
+2026-11-16	NVDA pre-print / S&P under 7,500 (SIG-002)	D	NOTE 11/16 s10	card waits for its trigger; S&P downside unowned, red-day put	was E; reader row 20: NVDA half is TERRY's own NOT-FIRED card; S&P half unowned (secondary)
