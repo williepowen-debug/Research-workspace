@@ -14,13 +14,13 @@ Amendments applied (synced 2026-10-01 to the schema's ratified set: R3 + 7, 9, 1
   7. WAITING FOR: "Expected by" column REQUIRED
   9. COMPACT variant allowed for utility/single-seam desks — skeleton in schema §2b; revert to FULL at ≥3 persistent live edges or a thesis version
   10. Closeout ORDERING: in a session that writes the brief (schema §4.1), the fold is the session's LAST write-back
-  11. pin-follows-STATUS-HEAD: the STATUS commit pinned below must equal STATUS HEAD at commit time (re-pin whenever the brief is committed; a brief left untouched keeps its old pin, WQ-719 A)
+  11. pin-follows-STATUS-HEAD: the STATUS commit pinned below must equal STATUS HEAD at commit time (re-pin whenever the brief is committed; a brief left untouched keeps its old pin, WQ-719 A; a pin the pin check reports PIN-UNRESOLVED is corrected to STATUS HEAD alone, WQ-721 A)
   12. FULL variant: ## CROSS-DOMAIN is the FIRST body section (this template's order)
   Scope: every desk that keeps a brief — census and live read-rules in AGENTS/NEXUS/BRIEFS_MAP.md; tier membership in PROME/ROSTER.md.
 
 Maintenance:
   - Rewrite and commit at closeout only when a figure, threshold, or cross-desk send or wait in the brief changed (schema §4.1, WQ-719 A).
-  - No-change session → leave the brief untouched; no As-Of or pin refresh.
+  - No-change session → leave the brief untouched; no As-Of or pin refresh (one exception: a PIN-UNRESOLVED pin is corrected alone, schema §4.1, WQ-721 A).
   - Material change → content updates same session.
   - NEVER restate canonical content (PREDICTIONS scoreboard, full RED log, full thesis). REFERENCE with anchor.
   - Length: the 100-line ceiling is NOT enforced (ruled 2026-08-28); the binding limit is the root READ-CAP budget (32,550 B) — NEXUS reads the brief whole.
