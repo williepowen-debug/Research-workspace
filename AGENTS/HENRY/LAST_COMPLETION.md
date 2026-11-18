@@ -1,42 +1,40 @@
-# HENRY — 2026-11-17 09:47–16:5x ET: Nvidia day. The S&P closed under its 200-day average, so my forecast HEN-60 resolved YES; Nvidia then beat its own outlook — CLOSED 16:5x ET on PROME's ask
+# HENRY — 2026-11-18 10:15–16:4x ET: first positioning map after Nvidia's results; slow boot step removed on your approval; the Palo Alto collapse test did not fire — CLOSED on PROME's ask
 
-**RESULT:** The S&P 500 closed at 7,340.53 (−1.03%). That is 4.00 points under its average of the last 200 closes (7,344.53), so my forecast that it would close under that average by 11/30 came true, before Nvidia had even reported. I had given it 50%; the historical rate I wrote down beside it was 59%, so I was right but under-confident. Two things could still matter. First, I graded on the vendor's closing price, and the official FRED figure posts tomorrow, so I will check it then. Second, the 200-day average is my own calculation, and the margin is only 4 points. The selling was broad: the average stock fell about 1.4% while Nvidia and the chip stocks fell about 0.4%. So the new US chip-export rule does not look like the main driver, though I have not established what was. After the close Nvidia reported revenue of $115.8B against its own $108B forecast, and guided next quarter to $130B. Inside that, next quarter has an extra week and counts no China data-center sales, and profit margins are guided about 3 points lower. The first after-hours trades were up about 2% for Nvidia and 0.2% for S&P futures; those are not closes.
+**RESULT:** Nvidia's results did not change how the market is positioned. Options dealers are still positioned to add to moves in either direction. The level where that would flip, so that they start damping moves instead, is about 7,550–7,560 on the S&P, roughly 3% above today's 7,323.63 close (−0.23%). The official FRED figure for Tuesday's close came in at 7,340.53, exactly the price I graded HEN-60 on, so that forecast's YES stands. The Palo Alto Networks test closed at today's close without firing. It asked whether October's cyber scare turned into a lasting collapse for the vendor: a fall to $289.24 while lagging the HACK cyber fund by 10 points, two closes running. Palo Alto's lowest close was $309.29 and its widest lag was 4.3 points; it jumped 9.9% today, the day before its results. None of this gives a trade view. I made the start-up change you approved (WQ-697): my boot now takes 10 seconds instead of over 3 minutes, and the check it dropped still runs at closeout and on demand.
 
-**CHANGED:** `STATUS.md` (09:48 map view, close view, thresholds on the 11/17 close, pickup) · `STATUS_COLD.md` (§ ROT-11/17, § ROT-11/17-CLOSE) · `MEMORY.md` · this file · `NEXUS_BRIEF.md` · `research/2026-11-17_nvda-day/MAP.md` and `CLOSE.md` · `workbook/PREDICTIONS.tsv` (HEN-60 RESOLVED-HIT) · `workbook/KB.tsv` (ML-HEN-225 to 228) · `workbook/MARKET_DATA.tsv` (11/16 credit filled, 11/17 row) · `board_log.tsv` (14 WALTER cards) · `inbox/` (2 PROME/ISHM packets, WALTER reply, CARL packet, 14 WALTER cards moved to processed). Packets: PROME (two), WALTER (one analysis packet, one signal).
+**CHANGED:** `scripts/boot.py` (step (g) removed) · `CLAUDE.md` (step 3c and one FILES row, for WQ-697) · `MAINTENANCE.md` · `STATUS.md` · `STATUS_COLD.md` (§ ROT-11/18) · `MEMORY.md` · this file · `NEXUS_BRIEF.md` (rewritten: figures moved; now carries its STATUS pin) · `research/2026-11-18_post-results/MAP.md` and `ROW9_GRADE.md` · `workbook/KB.tsv` (ML-HEN-229 to 232) · `workbook/MARKET_DATA.tsv` (11/16 and 11/17 confirmed, 11/17 credit, 11/18 row) · `board_log.tsv` (6 WALTER cards) · `registry/corrections_receipts.tsv` (4 NO-OP) · `inbox/` (2 PROME, 1 ORACLE, 6 WALTER moved to processed). Packets: PROME (two).
 
 ## Session work
 
 | Item | Outcome |
 |---|---|
-| Nvidia-day map, 09:48 ET | Dealers short gamma, flip about 7,610, every support and resistance level withheld by the guard; not published. PROME consumed it |
-| Close read, 16:46–16:50 ET | **HEN-60 RESOLVED-HIT** → WALTER signal (ACTION PROME, INFO TERRY, VIOLET); no trade card asked. VIX settle 25.46 (over my 23 yellow line; VIOLET broadcasts). Junk-bond spreads 334 on 11/16 (yellow). 10Y par 5.10. No S&P alert band fired (−6.1% from the peak) |
-| Nvidia release | Read at Nvidia's own press release, 16:48 ET; call, consensus and 10-Q not read |
-| Outside audit | 8 old forecasts found never graded; they grade Fri 11/20. Measured my use of WALTER's cards (34% cited by ID); WALTER accepted narrowing routine cards that name another owner |
-| Coverage and hygiene lane | Shown done on my side; PROME closed my leg |
-| Inbox | Drained, except PROME's WQ-697 ruling, which belongs to the 11/18 session |
+| FRED check of 11/17 | S&P 7,340.53, VIX 25.46, HY 343 all match; HEN-60 stands |
+| Map 10:16 ET and close read 16:31 ET | Dealers short gamma; flip about 7,550–7,580; support and resistance walls withheld by the guard; nothing published |
+| WQ-697 start-up edit | Done as approved, deletions only in `boot.py`; the dropped check is still available |
+| Palo Alto row 9 (D:L1051) | **NOT-FIRED**, 0 of 21 closes; PROME passes it to CYPHER |
+| VIOLET's question (volatility jumped 30% with credit flat) | Orderly slide, dealers amplifying, junk spreads still widening; no bottom called |
+| Inbox | Drained: 6 WALTER cards, 2 PROME packets, 1 ORACLE note |
 
 ## GAPS / still pending
 
-- HEN-60 is graded on the vendor close; FRED confirms or differs on 11/18.
-- The 200-day average is my own calculation on vendor history (margin 4.00).
-- Gamma is a free-tier estimate on Monday's open interest: the sign and the flip are reliable, the dollar sizes are not. Nothing published today.
-- After-hours prices came before Nvidia's call. The 11/18 close is the first to reflect the results.
+- Gamma is a free-tier estimate on Tuesday's positions. Trading in reaction to the results first shows in Thursday's options data.
+- **Your brief ruling (WQ-719):** one line in my instructions (step 10) still says to rewrite the brief every session. I did not change it, because the instruction reached me through another session's message rather than from you or my launch letter. PROME puts the new text in Thursday's launch letter.
 - Operating Dashboard (v6, 11/12) not refreshed.
 
 ## COMMITS
 
-`246447ea85` map and inbox · `012b3e310f`, `4e744b6831`, `ff42074c5b` midday inbox · `bf68d3258f` close read, HEN-60, packets · `e779524a56` card 020 · closeout commit "HENRY: 11/17 closeout". Push receipt is in PROME's message.
+`814567042f` morning desk files · `9b0ef0997b` morning packet · `8073ce43da` FRED credit and VIOLET note · `da9bfcc47b` row 9 grade and close · `d988c9d9a4` afternoon packet · closeout commit "HENRY: 11/18 closeout". Push receipt is in PROME's message.
 
 ## NEXT SESSION FOLLOW-UP
 
-**Wed 11/18 (registered, D:L1051):** FRED check of HEN-60; drop the slow boot step on your WQ-697 approval; first positioning map after the results; Palo Alto row 9 at the close. **Thu 11/19:** D:L823. **Fri 11/20:** grade the 8 old forecasts. FOMC Wed 12/9 (HEN-63).
+**Thu 11/19:** D:L823 (regional banks against the Nasdaq); first options data carrying results-day trades; FRED for 11/18. **Fri 11/20:** grade the 8 old forecasts. **Wed 12/9:** FOMC (HEN-63, my 0.70 against a market at 97).
 
-## THESIS SNAPSHOT (frozen at close 11/17)
+## THESIS SNAPSHOT (frozen at close 11/18)
 
-Equity: S&P 7,340.53, −6.12% from its 10/6 record, 4.00 under its 200-day (HEN-60 YES); second close under the 7,500 put wall; dealer gamma NEGATIVE, about 260 under the flip. QQQ $656.95. Rates: 10Y par 5.10% (RED, fourth close over 5.0), 2Y 4.80%. Vol: VIX settle 25.46, front of the curve inverted. Credit (FRED 11/16): HY 334bp YELLOW, CCC 1,310bp RED. AI capex: Nvidia beat its own outlook and guided to $130B, with lower margins and no China compute.
+Equity: S&P 7,323.63, −6.33% from its 10/6 record, below its 200-day; dealers short gamma, flip about 7,552–7,561. Rates: 10Y par 5.07% (RED, fifth close over 5.0), 2Y 4.80%. Vol: VIX settle 24.56 (yellow). Credit (FRED 11/17): HY 343bp YELLOW and widening, CCC 1,329bp RED. AI chips: Nvidia $150.96 (−2.89%) after its after-hours gain reversed.
 
 ## WILL_NEEDS
 
-None today. Your WQ-697 approval, to drop the slow boot step, is carried in tomorrow's task letter. No money moved; no threshold, band, card or gate changed. One forecast resolved (HEN-60, YES).
+One item, through PROME: the new step 10 wording for the brief (WQ-719), which reached me only through another session's message. It goes in Thursday's launch letter unless you say otherwise. No money moved; no threshold, band, card or gate changed; no forecast resolved today.
 
-*Honest scope: equity closes are vendor and Cboe delayed quotes, with FRED to confirm; the VIX is Cboe's 16:15 settle; yields are Treasury par; credit is FRED for 11/16; gamma is a free-tier estimate; Nvidia figures come from its own release, but the call was not heard.*
+*Honest scope: equity closes are vendor and Cboe delayed quotes, with FRED confirming 11/17 and 11/18 still to come; the VIX is Cboe's 16:15 settle; yields are Treasury par; credit is FRED for 11/17; gamma is a free-tier estimate; the Palo Alto grade uses Yahoo adjusted closes.*

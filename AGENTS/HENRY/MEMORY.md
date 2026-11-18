@@ -53,19 +53,19 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-17, 09:47–16:5x ET (PROME prome-19, WQ-703, Will "703 yes"; Nvidia day; held all day, then the close read; Claude Code, Opus 5.5). Closed 16:5x ET on PROME's ask.
+### CHANGES SINCE — 2026-11-18, 10:15–16:4x ET (PROME prome-6e, D:L1051 / D:L1163; post-results map, WQ-697 edit, row 9 grade; held all day; Claude Code, Opus 5.5). Closed on PROME's 16:37 ET ask.
 
-- **09:48 ET map** (first chain with Monday's trades): SPX flip 7,608 / 7,610, NEGATIVE, walls withheld, not published (`research/2026-11-17_nvda-day/MAP.md`). PROME consumed it and closed my coverage and hygiene lane leg.
-- **HEN-60 RESOLVED-HIT at the 11/17 close:** S&P 7,340.53 vs 200-session average 7,344.53 (own calc incl. today), 4.00 under; 0.50, Brier 0.25 (base rate would have scored 0.17). **Graded on the vendor close by the letter; FRED SP500 11/17 check on 11/18, disclose any difference.** Signal → WALTER (ACTION PROME, INFO TERRY, VIOLET). Record `CLOSE.md`, KB ML-HEN-227/228.
-- VIX settle 25.46 (Cboe stamp 16:15:01), yellow by my table, VIOLET broadcasts. HY 334 [11/16] yellow. 10Y par 5.10, fourth close over 5.0. Selling broad, not chip-led (RSP −1.45% vs SMH −0.39%), cause not established.
-- Nvidia Q3 FY27 at the primary: $115.8B vs own $108B ± 2%; Q4 $130B ± 3% incl. extra week, no China compute, GM guide 71–72%. Kress interim CEO since 11/12 (VULCAN 8-K read, card 020).
-- **Outside-audit:** 8 never-graded rows (HEN-01, H1, H4, H5, H7, HEN-02, HEN-03, HEN-05) grade Fri 11/20 beside D:L490. WALTER accepted narrowing ROUTINE cross-owner cards (table defaults unchanged without Will).
-- Tooling: `curl` on Cboe `delayed_quotes/quotes/_VIX.json` returns 307 with an empty body; Python urllib (follows the redirect) works, as does `curl -L`. My morning commit reached origin on another desk's push.
+- **FRED:** SP500 11/17 7,340.53 = vendor close (HEN-60 confirmed, nothing to disclose); VIXCLS 25.46; HY 343, BB 204, CCC 1,329 [11/17]. FRED SP500 posts later than VIXCLS and ICE: at 10:16 ET it was absent, by 15:00 ET present.
+- **Map 10:16 ET** (11/17 OI, first with Nvidia-day trades): flip about 7,545–7,580, NEGATIVE −56 / −77; close read flip 7,552 / 7,561, −57.2 / −78.8; walls withheld; nothing published (`research/2026-11-18_post-results/MAP.md`).
+- **WQ-697 A done:** boot step (g) removed; boot 184.7 s → 10.1 s; consumer check still runs on demand and at root closeout 1c.
+- **Row 9 collapse leg NOT-FIRED** (0 of 21 closes; PANW low $309.29 vs $289.24; lag max 4.31 vs 10.0). `ROW9_GRADE.md`, KB ML-HEN-232. PROME carries it to CYPHER.
+- VIOLET's vol-only-spike handoff answered (MAP.md § 7): slide −2.4%, short gamma, HY +23bp from the 11/12 low; no low called under H4 while HY widens.
+- **WQ-719 A (Will 11/18):** brief rewritten only when a figure, threshold, send or wait in it changed; lagging pin is a warning. My charter step 10 (line 54) and FILES row (line 251) still say every-session; NOT edited (arrived by peer message); proposed text in the 11/18 afternoon packet and PROME puts it in the 11/19 launch letter. The brief now carries a `STATUS commit:` pin.
+- Tooling: a background `sleep N` timer fired 23 minutes early (16:08 for 16:31); use `until [ $(date +%H%M) -ge HHMM ]` loops. Cboe `delayed_quotes/options/_VIX.json` works with a User-Agent (gives the settle and `last_trade_time`); `_VIX3M` and `_VIX9D` 403 there, use vendor `^VIX3M`/`^VIX9D`. The git guard hook blocks `git add -- $VAR`: write literal paths.
 
-### NEXT SESSION (11/18, registered as D:L1051; Will's WQ-697 approval is in its task letter)
+### NEXT SESSION (11/19, D:L823; launch letter carries the step 10 text)
 
-1. **FRED 11/17:** SP500 vs 7,340.53 (HEN-60's vendor grade), VIXCLS vs 25.46, HY/BB/CCC; fill MARKET_DATA.
-2. **WQ-697 A edit:** drop boot step (g) in boot.py, CLAUDE.md (two lines) and MAINTENANCE.md in one commit; packet in inbox.
-3. **First post-results map** on Wednesday's chain after about 09:47 ET (carries 11/17 positioning). Close over about 7,600 = regime turns; 200-day (about 7,344) is now context, not a forecast line.
-4. **Row 9 (D:L1051) after 16:15 ET 11/18**; D:L823 Thu 11/19.
-5. **Fri 11/20:** grade the 8 audit rows beside D:L490. ECON_CALENDAR rebuild before 11/20; DAEDALUS K38–K52; dashboard v6 stale; FOMC 12/9 (HEN-63).
+1. **Charter step 10 + FILES row re-key (WQ-719 A)** if the launch letter carries it: text in `PROME/inbox/2026-11-18_from-HENRY_row9-not-fired-fred-confirms-close-items.md` § 5.
+2. **D:L823** (KRE/QQQ alarm at +20 sessions). First chain with results-day positioning (11/18 trades): read after about 09:47 ET.
+3. FRED 11/18: SP500 vs 7,323.63, VIXCLS vs 24.56, HY (the H4 leg: still widening or peaked?).
+4. **Fri 11/20:** grade the 8 audit rows beside D:L490. ECON_CALENDAR rebuild before 11/20; DAEDALUS K38–K52; dashboard v6 stale; FOMC 12/9 (HEN-63 0.70, market 97 per ORACLE).
