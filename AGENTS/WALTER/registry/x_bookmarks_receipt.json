@@ -1,65 +1,13 @@
 {
-  "kind": "marked",
-  "checked_at": "2026-11-18T00:59:33Z",
-  "items": 10,
+  "kind": "fetched",
+  "checked_at": "2026-11-18T01:23:22Z",
+  "items": 0,
   "scan": {
-    "checked_at": "2026-11-18T00:57:11Z",
-    "head_checked_at": "2026-11-18T00:57:10Z",
+    "checked_at": "2026-11-18T01:23:22Z",
+    "head_checked_at": "2026-11-18T01:23:22Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 2
+    "attempts": 1
   },
-  "review_recorded": true,
-  "read_counts": {
-    "fully_read": 8,
-    "partly_read": 2
-  },
-  "dispositions": {
-    "DISPATCH": 2,
-    "FOLD": 6,
-    "DUP": 2
-  },
-  "follow_ups": [
-    {
-      "id": "2122797951470768496",
-      "ref": "BOARD/SIG-W-20261117-025-WSJ-SEC-opening-civil-probe-whether-Nvidia-disclosures-misled-investors-no-SEC-or-Nvidia-comment-Commerce-Megaspeed-chip-diversion-probe-since-late-2024.md"
-    },
-    {
-      "id": "2122775423331254363",
-      "ref": "BOARD/SIG-W-20261117-027-Small-items-bookmarks-Nov-17-evening-Fed-AI-agents-bank-run-claim-NOT-FOUND-Citi-95pct-futures-longs-underwater-NOT-FOUND-Kerch-strike-without-Starlink-NWS-API-outage-grid-shutdown-post-unread.md"
-    },
-    {
-      "id": "2122790619563307123",
-      "ref": "BOARD/SIG-W-20261117-026-Equinor-confirms-ongoing-cyber-attack-on-certain-IT-systems-operations-and-production-not-affected-no-indication-of-data-theft-authorities-informed.md"
-    },
-    {
-      "id": "2122783331255206367",
-      "ref": "BOARD/SIG-W-20261117-027-Small-items-bookmarks-Nov-17-evening-Fed-AI-agents-bank-run-claim-NOT-FOUND-Citi-95pct-futures-longs-underwater-NOT-FOUND-Kerch-strike-without-Starlink-NWS-API-outage-grid-shutdown-post-unread.md"
-    },
-    {
-      "id": "2122770853754724498",
-      "ref": "BOARD/SIG-W-20261117-027-Small-items-bookmarks-Nov-17-evening-Fed-AI-agents-bank-run-claim-NOT-FOUND-Citi-95pct-futures-longs-underwater-NOT-FOUND-Kerch-strike-without-Starlink-NWS-API-outage-grid-shutdown-post-unread.md"
-    },
-    {
-      "id": "2122538987625632054",
-      "ref": "BOARD/SIG-W-20261117-027-Small-items-bookmarks-Nov-17-evening-Fed-AI-agents-bank-run-claim-NOT-FOUND-Citi-95pct-futures-longs-underwater-NOT-FOUND-Kerch-strike-without-Starlink-NWS-API-outage-grid-shutdown-post-unread.md"
-    },
-    {
-      "id": "2122761187242697124",
-      "ref": "BOARD/SIG-W-20261117-027-Small-items-bookmarks-Nov-17-evening-Fed-AI-agents-bank-run-claim-NOT-FOUND-Citi-95pct-futures-longs-underwater-NOT-FOUND-Kerch-strike-without-Starlink-NWS-API-outage-grid-shutdown-post-unread.md"
-    },
-    {
-      "id": "2122769775386579250",
-      "ref": "BOARD/SIG-W-20261117-026-Equinor-confirms-ongoing-cyber-attack-on-certain-IT-systems-operations-and-production-not-affected-no-indication-of-data-theft-authorities-informed.md"
-    },
-    {
-      "id": "2122733088295801226",
-      "ref": "BOARD/SIG-W-20261117-027-Small-items-bookmarks-Nov-17-evening-Fed-AI-agents-bank-run-claim-NOT-FOUND-Citi-95pct-futures-longs-underwater-NOT-FOUND-Kerch-strike-without-Starlink-NWS-API-outage-grid-shutdown-post-unread.md"
-    },
-    {
-      "id": "2122715131369193563",
-      "ref": "BOARD/SIG-W-20261117-008-Optimizely-supply-chain-compromise-Nov-16-malicious-JavaScript-on-178-organizations-32-banking-and-finance-HSBC-Equifax-card-skimming-on-first-party-forms-fixed-plus-outage-claims-Schwab-NSA-DHS-unverified.md"
-    }
-  ],
-  "requests": []
+  "review_recorded": false
 }
