@@ -1,39 +1,41 @@
-# OSPREY SCRATCH — 2026-11-14 (Sat) · osprey-1114 · drain wake on PROME prome-fe's brief (WQ-206, C6), then prome-fe's follow-up ask (sweep + Kirishi re-read), then closeout
+# OSPREY SCRATCH — 2026-11-18 (Wed) · osprey-1118 · PROME prome-6e registered wake (D:L1180 + G:GATE-OSPREY-001 + whole-inbox drain)
 
-*Rewritten in full (template). The 11/11 SCRATCH is in git history.*
+*Rewritten in full (template). The 11/14 SCRATCH is in git history.*
 
 ## CURRENT MARKS (one line)
-- Refineries/products **5** · crude-export terminals **5** · shadow-fleet tankers **3** · band ~30% [EST] unmoved · Brent → BRENT.
+- Refineries/products **5** · crude-export terminals **5** · shadow-fleet tankers **3** · band ~30% [EST] unmoved, stale (OWED-52) · Brent → BRENT.
 
-## CHANGES SINCE LAST SESSION (11/11 close → 11/14)
-- Will ruled WQ-669 A (11/11 10:01 ET): Ust-Luga 11/11 counts for C2 (KB-282).
-- Omsk 11/11 and Volgograd 11/13 refineries hit (KB-287); Samara LPDS 11/13 (companion watch).
-- Trump, Putin and Xi meeting after the Xi bilateral 11/19, Ukraine off the agenda; US raised Donbas-for-NATO (KB-283).
-- Conflicting diesel-export headlines; IEA says Russian crude output rebounded (KB-285). "Unprecedented" Black Sea war-risk headline, no figure (KB-286).
+## CHANGES SINCE LAST SESSION (11/14 close → 11/18)
+- Crimean (Kerch) Bridge road span collapsed overnight 11/16-17 (CONFIRMED; rail on one track since 11/17; road closed). KB-290.
+- Kerch Strait: Reuters 7/10 FSB passage stop (three grain sources, never logged by this desk until today); span debris in the fairway. KB-291.
+- Refinery strikes: Nizhnekamsk 11/15 (not counted), Ilsky 11/16, Salavat 11/17, Ilsky + Afipsky 11/18. KB-292. Azov depots 11/16 (companion). KB-293.
+- Sulina: four ships incl. two tankers hit 11/13-15, attacker unidentified (excluded). KB-294.
 
 ## WHAT I DID THIS SESSION
-- Boot: root CLAUDE/AGENTS/USER, desk CLAUDE, STATUS, SCRATCH; corrections check PASS; WARRISK quiet (declared event-driven). `git pull --rebase` refused (other desks' dirty files); fetch showed origin had nothing new.
-- Encoded WQ-669 A: STRIKES row, KB-282, STATUS (one C2 clock); OWED-44 closed. Commit fe4554736a; packet 4b831de1b5.
-- Drained inbox 2/2 (DAEDALUS WQ-678 B deferred) and WALTER lane 5/5 → board_log + processed.
-- Follow-up: strike_feed 11/14 (26/26 dispositioned), name-free EN/RU queries, 7 article fetches (all HTTP 200); +3 rows; Kirishi +5d re-read unresolved; KB-287…289 (284 superseded). Commit 5a1b7f27ed; packet ac1e9fdae1.
-- §12 falsification check: no §1 kill fires (C1 1/30, C2 3/30; C3 limb 1 39/21 but limb-2 window 8/21, earliest 11/27); §2 theater clock not running; §3 not fired.
+- Boot: root CLAUDE/AGENTS/USER, desk CLAUDE (no desk AGENTS.md exists), STATUS, SCRATCH, LESSONS; ledger_staleness (WARRISK declared quiet, oldest data clock 9/18), corrections check PASS (rc 0), strike header check. No pull (task letter: no pull/push until PROME's closeout ask).
+- strike_feed 11/18: 44 rows, all dispositioned. Three web-fetch readers (bridge, refineries, maritime) + one (Kerch shipping, war risk); all pages HTTP 200 except charter97 (403, not retried).
+- Rowed +7; mark 11/9 → 11/15 BOUNDED; KB-290…299; OSP-07 CONFIRMED; GATE-001 graded; STATUS rotated (11/11 + 11/9 blocks, crc32 872917623).
+- Inbox: WQ-701 A2 trim (CLAUDE.md 55,293 → 49,897 B, §1-§9 history → archive/CLAUDE_HISTORY_2026-11-18.md); KB stale-by pass 123 retired / 41 refreshed; WALTER lane 6/6.
+- Commit c28e59fe8d (evidence) + closeout commit (this SCRATCH, NEXUS, stamp fix) + packets to PROME, BRENT, HANS, YURI.
+- §12 falsification check: no §1 kill fires (C1 0/30; C2 7/30; C3 limb 1 43/21 but limb-2 window 12/21, earliest 11/27); §2 theater clock not running; §3 not fired (BRENT-owned Brent legs not read here).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **~11/16:** Ust-Luga +5d re-read (loadings, Novatek status, tankers).
-2. **~11/18:** Omsk and Volgograd re-reads (halt; the General Staff's four-unit claim). **11/18:** OSP-07 grade (pre-registered sweep first) + GATE-OSPREY-001 review + settlement-brake review (after the trilateral).
-3. **11/20:** OSP-08 grade (mechanism-level sweep first; expected FAILED on WQ-669 A).
-4. **When posted:** Palaemon 9–16 Nov → advance the mark from 11/9. **When printed:** October full-month runs → OWED-52.
-5. **Next ordinary wake:** DAEDALUS WQ-678 Changelist B (11 optional CLAUDE.md trims): apply or decline each, record which. Read Bloomberg's "ninth refinery" list if reachable (one-row gap).
-6. **11/24–27:** C3 limb-2 canvass (enumerated set + outlet-free query; include the finway lead). **11/27:** C1 leg A earliest; earliest C3 kill. **12/11:** earliest C2 re-kill.
+1. **11/20:** OSP-08 grade (mechanism-level sweep first; Palaemon 2-9 + 9-15 Nov already read; expected FAILED on WQ-669 A). Also re-check 11/16-11/17 ports (news-only today).
+2. **~11/23:** +5d re-reads Ilsky/Afipsky 11/18, Salavat 11/17; Nizhnekamsk identity.
+3. **11/24-27:** C3 limb-2 canvass (read Business Insurance 11/16 and finway 11/11 bodies; Lloyd's List 20% basis). **11/27** earliest C3 kill (HAWK grades).
+4. **12/02:** C1 leg A. **Before 12/11:** Azov depots class question (Transit-Express a port terminal?). **12/11:** earliest C2 re-kill. **12/18:** GATE-OSPREY-001.
+5. **Next ordinary wake:** DAEDALUS WQ-678 Changelist B (still unread). Kerch: watch for a Russian navigation notice / clearing report and any Azov oil volumes.
+6. **When printed:** October/November runs → OWED-52 band re-derive; Palaemon 16-22 Nov → advance mark.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Refinery tempo (Omsk 11/11, Volgograd 11/13). 🟠 Ust-Luga loadings. 🟠 Kirishi, Omsk and Volgograd halts. 🟡 OWED 41–52 carried.
+- 🔴 Refinery tempo (12 November rows). 🟠 Kerch fairway and Azov ports. 🟠 Halts at Kirishi, Omsk, Volgograd, Ilsky, Afipsky, Salavat unknown. 🟡 OWED 41-52 carried.
+- ⚠️ CLAUDE.md is 49,897 B, 103 B under the 50,000 B ceiling: the next charter edit must move history out first.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- None due today. OSP-07 ≥11/18; OSP-08 ≥11/20; OSP-09, -10, -11 open. No Will decision pending from this desk.
+- OSP-07 resolved CONFIRMED 11/18. OSP-08 due ≥11/20. OSP-09/10/11 open. No Will decision pending; the Azov depot class question becomes Will's only if a depot proves to be a port terminal.
 
 ## MAIL STATE (one line per surface)
-- Inbox: clear (2 → processed). WALTER lane: clear (5 → processed). Outbox: none. PROME packets: 2026-11-14_from-OSPREY_wq669-encoded-drain.md, 2026-11-14_from-OSPREY_followup-sweep-omsk-volgograd.md.
+- Inbox: clear (2 → processed). WALTER lane: clear (6 → processed). Outbox: none. Packets sent 11/18: PROME, BRENT, HANS, YURI (see PROME packet).
 
 ## PENDING PUSH / GIT
-- Closeout commit then `scripts/safe-push.sh`; receipt in the PROME reply.
+- Local commits only; no pull and no push until PROME's closeout ask (task letter). Then `scripts/safe-push.sh` and the receipt line.
