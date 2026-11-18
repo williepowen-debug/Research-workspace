@@ -3,15 +3,15 @@
     "fred:UMCSENT:orange": "2026-10-22T19:20:42Z",
     "fred:MORTGAGE30US:red": "2026-10-22T19:20:42Z",
     "fred:BAMLH0A0HYM2:red": "2026-10-22T19:20:42Z",
-    "news:NEW_ALERT:data/2026-11-17/news.json": "2026-11-17T16:55:39Z",
     "news:NEW_WATCH:data/2026-11-17/news.json": "2026-11-17T16:55:39Z",
-    "news:DEVELOPMENT:ace0d2fa7690": "2026-11-17T18:17:33Z",
-    "news:WATCH_HIT:ba1bffb37a73": "2026-11-17T18:17:33Z",
-    "news:WATCH_HIT:d576c58f9652": "2026-11-17T18:17:33Z",
-    "news:WATCH_HIT:46bd123e0603": "2026-11-17T18:17:33Z"
+    "news:WATCH_HIT:d93089e2405e": "2026-11-18T00:28:23Z",
+    "news:WATCH_HIT:0bc87b47ea83": "2026-11-18T00:28:23Z",
+    "news:WATCH_HIT:c27f017b05df": "2026-11-18T00:28:23Z",
+    "news:WATCH_HIT:e7233bbd741b": "2026-11-18T00:28:23Z",
+    "news:WATCH_HIT:6abaf93b778b": "2026-11-18T00:28:23Z"
   },
-  "updated": "2026-11-17T18:17:33Z",
+  "updated": "2026-11-18T00:28:23Z",
   "last_marked_batch": "data/2026-11-17/news.json",
-  "last_marked_sha": "a180e9e0e9b0",
-  "last_marked_commit": "ce689dad8735d892ae3e89087cd6b1f12b1b4774"
+  "last_marked_sha": "f8588155fb12",
+  "last_marked_commit": "94ee710fb4f7d10a5d39fba1d102b8ee9d685eff"
 }

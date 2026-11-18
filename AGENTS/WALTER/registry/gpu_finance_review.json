@@ -369,6 +369,24 @@
         "2026-11-17"
       ],
       "closed": "2026-11-17T18:17:33Z"
+    },
+    "gpu:5d1a4a075c7c": {
+      "title": "Key facts: CoreWeave raises outlook; demand tops capacity; Chanos warns - TradingView",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261116-012 (CoreWeave outlook and Chanos, dated 11/12)",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-18T00:28:23Z"
+    },
+    "gpu:3d576c0de552": {
+      "title": "JPMorgan keeps NVIDIA credit at Underweight, flags GPU financing risk after Huang exit - Yahoo Finance",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261117-013 (JPMorgan keeps Nvidia credit Underweight)",
+      "days": [
+        "2026-11-17"
+      ],
+      "closed": "2026-11-18T00:28:23Z"
     }
   }
 }

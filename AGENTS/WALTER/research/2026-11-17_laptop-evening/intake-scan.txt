@@ -1,0 +1,46 @@
+RESEARCH-INTAKE scan — 2026-11-18 00:24Z
+================================================================
+
+[health]
+  OK   last_run 2026-11-17T22:55:00Z (1 missed weekday runs, 0 calendar days)
+  OK   news search items saved: 107 (trailing median 126 over 10 batches)
+  MED  data/2026-11-17/news.json was rewritten by the collector after --mark (fingerprint a180e9e0e9b0 -> f8588155fb12): re-scanning it whole; read its ordinary headlines too
+
+[news batches scanned — 1: 2026-11-17..2026-11-17]  (catch-up from last_marked_batch data/2026-11-17/news.json)
+
+[NEW breaches to ROUTE — 6]  (onset; push per §3, tag source: RESEARCH-INTAKE)
+  ROUTINE   INFO   -> (per-item agents field)  [1 NEW_WATCH]
+      1 NEW_WATCH item(s) — read data/2026-11-17/news.json
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Nvidia interim CEO']]
+      Nvidia Sales Double Under an Interim CEO: Rapid Earnings Reaction - The Motley Fool
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Nvidia interim CEO']]
+      Interim CEO Colette Kress and chairman Harvey Jones try to reassure Nvidia investors - GamesBeat
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Nvidia interim CEO']]
+      Colette Kress’s net worth in 2026 as Nvidia’s interim CEO - AOL.com
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Nvidia CEO resigns'; HENRY:'Nvidia interim CEO'; HENRY:'Nvidia CFO resigns']]
+      Nvidia CEO resigns amid scandal; CFO named interim - ESG Dive
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Nvidia interim CEO']]
+      Nvidia’s longtime CFO faces hot seat in interim CEO debut - CFO Dive
+
+[CRUISE_CAPITAL_REVIEW — 0 open]  (ROUTINE human review, never auto-dispatch; read the source, date the event, check BOARD/EDGAR/CRUISE overlap)
+  (none open)
+
+[GPU_FINANCE_REVIEW — 2 open]  (ROUTINE human review of GPU depreciation / collateral / GPU-backed loan / residual-value headlines, owners VULCAN and BROCK; never auto-dispatch; read the source, date the event (reposts carry fresh dates), check BOARD and owner KB, then --gpu-disposition)
+  gpu:5d1a4a075c7c  1 row(s), 2026-11-17..2026-11-17
+      Key facts: CoreWeave raises outlook; demand tops capacity; Chanos warns - TradingView
+      https://news.google.com/rss/articles/CBMiygFBVV95cUxNR3ZGMVc3eHJxWGdwSUwzV0FvcFoyVmRGWmZvWjlWTEdSTE1qc0FXMHUzdy1iTUpFRC1JQlRfRnhqVWRXVEFfN3BKd0JLT3lVYlRTUVlfY014aEg0N3FmVWpuRzdxZnk3TkVENFN2Z2x5TzBNbGU1QVFRSkVfQ3pjNzBLWmhuMEl6bVVmaE9pUVZ1Snc3RWhkR2hkMHlBQU5RVXNKZjFtWlExbXlEWHp2cVp2M2FuVXc3MV9vT25yLVZMdGpNcFFJNTFB?oc=5
+  gpu:3d576c0de552  1 row(s), 2026-11-17..2026-11-17
+      JPMorgan keeps NVIDIA credit at Underweight, flags GPU financing risk after Huang exit - Yahoo Finance
+      https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMkhOUzZ1bWtYeFJ5emVHaVJRalhwSmlDTWY1SndQdUdESXBCRWtWZTRRaW5IWWEwc1R1cG9MbDFnbXhTQUFiMlI4Umd5b3VYYW1kSzI5eXo4ZmJmZlVVSDI4NzQ2QTNXN0JldTRPYS1aOUlhOVpSZU9XZmJHUmhsb0U4V2ZxVGd4Z2ZSVzdhZnFCT2tSOEU4MXRSU2YyREdNTGFoUzJUWng?oc=5
+
+[suppressed — still-true, already seen — 4]  (do NOT re-push)
+  fred:UMCSENT:orange  (UMCSENT UMich sentiment=48.1 [orange])
+  fred:MORTGAGE30US:red  (MORTGAGE30US 30yr mortgage rate %=7.11 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS bps=334.0 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS=334bps [red] >280 X1-trigger reading (strictly abo)
+
+[batch fingerprints — 1]  (bound into the receipt below)
+  data/2026-11-17/news.json  f8588155fb12
+
+After the 7e(d) to 7e(h) dispositions, run (from the repository root):
+  python3 AGENTS/WALTER/tools/intake_scan.py --mark --through data/2026-11-17/news.json --receipt f142d8aa673e
