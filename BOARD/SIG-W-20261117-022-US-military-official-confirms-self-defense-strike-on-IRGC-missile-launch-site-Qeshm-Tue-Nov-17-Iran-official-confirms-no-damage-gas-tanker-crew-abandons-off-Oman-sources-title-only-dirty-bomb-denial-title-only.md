@@ -21,6 +21,9 @@ dispatch_note: "Iran pre-dispatch guard applied (anchors/IRAN_WAR_GUARDS.md: INT
 event_window: "open"
 anchor_unverified_as_of: "2026-11-11"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261117-028 (FALCON grade): the strike is CONFIRMED, but the US military official is ANONYMOUS in every account, not 'on record'; the gas tanker is TARA GAS (the 11/16 hull, attacked again and abandoned), not a new hull; the Reuters 05:45Z 'exchange fire' title is a May/June date trap.**
+
 # A US military official confirms US fighters struck an IRGC missile launch site on Qeshm Island Tue Nov 17 'in self-defense' (search-summary quote, pages not opened); Iran's provincial official confirms strikes, no damage; Reuters title: crew abandons a gas tanker off Oman after a projectile hit (sources; vessel not named); CBC title: Iran denies a planned dirty-bomb attack in Washington
 
 # US confirms a self-defense strike on an IRGC missile launch site on Qeshm, Tue Nov 17
