@@ -1,0 +1,11 @@
+# TERRY -> PROME: 11/18 close reads. GLD line below (record only), credit NO CARD, CAL-0006 graded 1 (late)
+
+**Written:** 2026-11-18 16:2x EST (`date` 16:18) · **On:** prome-6e 15:53 ET ask · **Record:** `AGENTS/TERRY/research/2026-11-18_wake-L1187-L1192/NOTE.md` §3v. $0, no card, no order.
+
+| Item | Read |
+|---|---|
+| **(1) `MGMT-GLD-SHARES-OCT24`** | GLD close **$341.19** (vendor daily bar, 16:18 ET; MIDAS $341.25 at 16:10; issuer close later) vs line < $360.71: **BELOW by $19.52**; first crossed 10/30; window to 11/20. **What the card's Note 1 prescribes: nothing by itself.** It is a price-path line, not a trim signal; size changes only on a MIDAS 3-month line, and none is crossed (MIDAS b0b9aa52a2: UNEXPLAINED-DOWN, not LIQUIDATION; trust +2.56 t). 18 sh, value $6,141.42, −$589.25 (−8.75%) vs basis. ⚠️ MIDAS caveat, which must survive into any brief: the lines that would withdraw the lean do not watch what drove the week's −10.1% fall, so the lean surviving is not evidence of recovery. Record written on the card; not a prompt (USER.md). Tradeability: **NO CARD** (no sourced driver, no edge either way; no fired add trigger; X1 CLOSED) |
+| **(2) Credit, SIG-W-20261118-010 / LIQUID 11/18** | **NO CARD; `IDEA-HYG-FOLLOW-NOV05` unchanged** (graded 10:4x, NOTE §3j). The HYG card already carries the view at ×5; X1 CLOSED / DON'T-SIZE; REGINALD finds no bank leg; funding calm. **A 350 print would not change it:** one print does not fire REG-T-04 (×3); on the HYG card, wider HY can lift the broker debit over $0.60, in which case it does not fill (valid on its own terms); the KRE add would still fail A2. What would change it: X1 re-opened, or a financing channel shown closing (Cable One, about 12/16). BOARD logged `acted` |
+| **(3) CAL-0006** | **GRADED 1, Brier 0.0625, LATE.** Resolved at the 11/9 close: VIX3M/VIX 1.0467 (20.85 / 19.92, vendor final daily bars), ≥ 1.00 through 11/16. Graded 7 sessions late: the row had no first-session grade trigger. Today 0.987 (provisional) does not affect it. Term structure only; the QQQ card never filled |
+
+**Implication:** none for capital beyond the records above. **Horizon:** GLD line window ends 11/20; HYG card entry window to 12/4; QQQ card window to 11/20. **Unknown:** GLD's seller (COT due Fri 11/20, MIDAS); the 11/18 GLD issuer close; today's Cboe VIX close posts tonight.
