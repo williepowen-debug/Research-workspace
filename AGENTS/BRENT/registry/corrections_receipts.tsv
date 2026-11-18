@@ -40,3 +40,5 @@ receipt_date	correction_id	action	note
 2026-11-12T16:56Z	COR-20261111-06	NO-OP	scope=BRENT live surfaces already carry Eastern Province intercept and Abqaiq alert lifted (combo yanbu-bypass member, board_log 11/11). The 11/8 pre-reopen report is a dated record and its fired-at-Abqaiq wording is superseded by this receipt; 
 2026-11-12T16:56Z	COR-20261112-03	NO-OP	scope=card 20261112-002 chronology (Nvidia CEO exit) was never carried on any BRENT surface. Nvidia is outside the oil domain; 
 2026-11-16T21:26Z	COR-20261116-09	NO-OP	scope=card SIG-W-20261116-001 was never integrated uncorrected, and its first BRENT use (combo:yanbu-bypass 11/16) carries the corrected attribution: the CENTCOM statement is dated 11/13 and 11/15 rests on Bahrain; 
+2026-11-18T17:59Z	COR-20261117-28	APPLIED	artifact=AGENTS/BRENT/STATUS.md#November 18; validation_ref=AGENTS/BRENT/research/2026-11-18_gulf-eia/NOTE.md#5; 
+2026-11-18T17:59Z	COR-20261118-06	NO-OP	scope=BRENT files never carried card 001 claimant or a TARA GAS merge, and the 11/18 note and STATUS are written to FALCON's grade; 

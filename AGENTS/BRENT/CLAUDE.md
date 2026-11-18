@@ -61,8 +61,8 @@ Run steps 7–14 at EVERY session end, including intraday sessions (`[[feedback_
 9. **Thesis changes:** update `thesis/THESIS.md` + CHANGELOG, recording old→new. TIMELINE.md is FROZEN: never write/resurrect it. Forward state → docket/CATALYSTS.tsv; reasons → CHANGELOG. New channel, conviction shift, phase transition, threshold breach or prediction resolution triggers an update. Major X = structural/conviction reversal/phase transition; minor Y = refinement.
 10. **Forward state:** `docket/CATALYSTS.tsv` is canonical (8 columns, date_class confirmed/modeled). Prune fired rows beyond 1 week ONLY once GRADED; add dated catalysts and revise modeled dates when projections shift. STATUS calendar is GENERATED: `scripts/render_calendar.py --write`, never hand-edit; Derived Views fails on drift. FASTOW may maintain catalysts. New facility-damage strikes → `refinery_damage/INCIDENTS.tsv`, primary-verified (LESSONS #1); military operations → HAWK. Check OSPREY/FALCON live `domain/energy-strikes/STRIKES.tsv` first; HAWK table is FROZEN since 2026-07-12. **At EVERY closeout**, refresh the demand tracker REGISTERED ALERT LINES block or explicitly stamp SCOPED-PARTIAL with re-verified/not-re-verified boundaries, even if demand did not move: cloud routines read it on THEIR schedule. Rationale: RULINGS § R-2026-08-17-step10.
 11. **Rewrite SCRATCH** using `templates/SCRATCH.template.md`: CHANGES SINCE / WHAT I DID / dated future-verifiable NEXT SESSION / OPEN THREADS / pending position decisions / mail state. Canonical handoff; LAST_COMPLETION retired. MEMORY holds persistent lessons, not session handoff.
-12. **`NEXUS_BRIEF.md`** — write-back the cross-agent synthesis brief (the external/cross-agent twin of SCRATCH; schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`). **Mandatory every session, even no-change.**
-    > **C6 — no bare stamp bumps.** Re-stamp only after (a) content re-verification against TRADE for positions/specs and STATUS for levels, confirming every claim, OR (b) explicit MIXED-VINTAGE/SCOPED-PARTIAL annotation naming what was and was not re-verified.
+12. **`NEXUS_BRIEF.md`** — the cross-agent synthesis brief (the external/cross-agent twin of SCRATCH; schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`). **Rewrite and commit it at closeout only when a figure, threshold, or cross-desk send or wait in it changed; otherwise leave it untouched, with no As-of or pin refresh (NEXUS schema §4.1, WQ-719 A, Will 2026-11-18). A lagging pin after a no-change session is a warning, not a failure.** supersedes: "Mandatory every session, even no-change."
+    > **C6 — no bare stamp bumps.** When the brief is written, re-stamp only after (a) content re-verification against TRADE for positions/specs and STATUS for levels, confirming every claim, OR (b) explicit MIXED-VINTAGE/SCOPED-PARTIAL annotation naming what was and was not re-verified.
 
 
     > Unchanged text is not verification: a brief stales when its source/spec changes. Material STATUS changes require brief content updates in the same session.
@@ -119,7 +119,7 @@ All mail lives under this agent's directory:
 
 ### Outbox Protocol
 
-**Primary cross-agent surface:** NEXUS_BRIEF CROSS-DOMAIN SENDING/WAITING-FOR tables, refreshed at step 12; NEXUS reads them at boot 6. Outbox is for acute signals and PROME-action requests only. HERMES is retired.
+**Primary cross-agent surface:** NEXUS_BRIEF CROSS-DOMAIN SENDING/WAITING-FOR tables, updated at step 12 when a send or wait changes; NEXUS reads them at boot 6. Outbox is for acute signals and PROME-action requests only. HERMES is retired.
 
 Write a single `.md` file to `outbox/` per signal (🔴 acute **or** a PROME-action request, per above):
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
