@@ -822,3 +822,20 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-16T20:48:45-05:00	SIG-W-20261116-007	acted	INBOX_WALTER	Insurers 85.2B AI debt at 6/30 (NYT via Will bookmark, primary not found) logged to KB-LIQ-153 combo, HEADLINE. SHADE owns the insurer read.
 2026-11-16T20:48:45-05:00	SIG-W-20261116-008	noted	INBOX_WALTER	Correction of 006; LIQUID never relayed or used 006. Receipt COR-20261116-08 NO-OP.
 2026-11-16T20:48:45-05:00	SIG-W-20261116-010	noted	INBOX_WALTER	Correction of 006/008; LIQUID never relayed or used them. Receipt COR-20261116-10 NO-OP.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-003	info-only	INBOX_WALTER	OTTO First Brands hearing 12/09, SDART DQ gap; BROCK/OTTO domain, no LIQUID series.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-004	info-only	INBOX_WALTER	Retail sales; CARL owns; superseded in part by -010.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-006	noted	INBOX_WALTER	Small items: dollar rally (KB-LIQ-157), HSBC DC loan (KB-LIQ-153); rest other owners.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-008	info-only	INBOX_WALTER	Optimizely compromise; CYPHER grades; no funding channel.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-009	noted	INBOX_WALTER	HSBC sold $300M NM data-centre construction loan mid-80s weeks ago: lender exit at a loss, not a refusal; logged KB-LIQ-153.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-010	info-only	INBOX_WALTER	Correction of 004; LIQUID never used 004.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-011	info-only	INBOX_WALTER	NSA Net / outage list; CYPHER owns.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-012	info-only	INBOX_WALTER	Correction of 008/011; LIQUID never used them.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-014	noted	INBOX_WALTER	Fed FSR AI interlinkages; logged KB-LIQ-153; BROCK owns read (KB-BRK-510).
+2026-11-18T10:38:00-05:00	SIG-W-20261117-017	noted	INBOX_WALTER	Correction of 014: Box 2.2 figures confirmed; logged KB-LIQ-153 with 014.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-018	noted	INBOX_WALTER	Meta EUR 9.0bn; access for hyperscalers; logged KB-LIQ-153.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-020	noted	INBOX_WALTER	Correction of 018/019: Meta coupons 4.300-6.400%; Nvidia guarantees $118.0B; logged KB-LIQ-153.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-027	info-only	INBOX_WALTER	Fed AI-agent bank-run relay NOT FOUND; no use.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-029	info-only	INBOX_WALTER	CYPHER evening grades; Visa third-party APAC, no payment-rail outage; no funding channel.
+2026-11-18T10:38:00-05:00	SIG-W-20261117-031	info-only	INBOX_WALTER	Weekday label correction of 014; no LIQUID use of the weekday.
+2026-11-18T10:38:00-05:00	SIG-W-20261118-003	noted	INBOX_WALTER	ECB FSR; reserve-requirement rise (Reuters sources) is a funding-plumbing item, EUR side, BOND/HANS rates; logged KB-LIQ-157.
+2026-11-18T10:38:00-05:00	SIG-W-20261118-005	info-only	INBOX_WALTER	HSBC/Associated title; CYPHER grades.
