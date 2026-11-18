@@ -152,3 +152,22 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-11T15:20Z	SIG-W-20261111-002	noted	INBOX_WALTER	INFO; Siemens Energy FY2026 own release via WALTER helper; corroborates the data-centre leg of my German PMI driver caveat (supply side, no data-centre share given); Q4 orders +5.2% moderated; no row applies; KB-186
 2026-11-11T15:20Z	SIG-W-20261111-009	noted	INBOX_WALTER	INFO; Russia Decree 302 custody of all 7 JTI companies (YURI primary read); not European, but the same track reaches EU firms still in Russia (UniCredit, Raiffeisen): new combo theme russia-custody-eu-holders KB-187; no row applies
 2026-11-11T15:20Z	2026-11-10_from-PROME_WQ-660	acted	INBOX_PEER	Will 'yes' (WQ-660): WQ-622 combination-watch line added as CLAUDE.md Inbox step 3a; moves no authority, route or threshold; hash in packet to PROME
+2026-11-18T15:41Z	SIG-W-20261111-031	acted	INBOX_WALTER	ACTION answered: Orlen exit from one QatarEnergy contract moves no TTF or storage row (volume was not flowing under FM); logged KB-198 combo:europe-gas-politics
+2026-11-18T15:41Z	SIG-W-20261114-003	acted	INBOX_WALTER	ACTION answered (D:L1146): trilateral graded against geopolitical rows, none moves pre-meeting; KB-197 with four pre-committed facts for the post-meeting read; packet to PROME
+2026-11-18T15:41Z	SIG-W-20261114-006	noted	INBOX_WALTER	INFO; item 14 ECB hike case and item 7 Bailey private credit logged in KB-194 and KB-199; rest other desks
+2026-11-18T15:41Z	SIG-W-20261116-003	noted	INBOX_WALTER	INFO; UK-France December shadow-fleet conference and Black Sea ships near Romanian canal are HAWK/OSPREY; context line in KB-197
+2026-11-18T15:41Z	SIG-W-20261116-005	noted	INBOX_WALTER	INFO; item 5 Nagel highly probable, French Oct inflation, UK 2y gilt 5pct, Bailey: KB-193, KB-194, KB-202
+2026-11-18T15:41Z	SIG-W-20261117-006	noted	INBOX_WALTER	INFO; item 1 Deutsche Bank 15mn-file leak: own price check DBK -6.0pct 11/17 vs DAX -2.1pct; KB-199; not a T-14 leg
+2026-11-18T15:41Z	SIG-W-20261117-009	noted	INBOX_WALTER	INFO; item 2 Deutsche -6pct relay verified at Yahoo (32.92 to 30.94); KB-199
+2026-11-18T15:41Z	SIG-W-20261117-016	noted	INBOX_WALTER	INFO; item 3 Goldman TTF 150 Q1-27 relay unread: KB-198; item 2 Russia Black Sea context only
+2026-11-18T15:41Z	SIG-W-20261117-018	noted	INBOX_WALTER	INFO; Meta EUR 9.0bn read only with correction 020; KB-201
+2026-11-18T15:41Z	SIG-W-20261117-020	noted	INBOX_WALTER	CORRECTION of 018 applied at first read; COR-20261117-20 receipted NO-OP
+2026-11-18T15:41Z	SIG-W-20261117-024	noted	INBOX_WALTER	INFO; item 5 Le Pen retirement at 60 and Egan-Jones French debt cancellation: KB-202
+2026-11-18T15:41Z	SIG-W-20261117-026	noted	INBOX_WALTER	INFO; Equinor cyber attack, no production impact: KB-198 combo:europe-operational-disruption; no row moves
+2026-11-18T15:41Z	SIG-W-20261118-003	acted	INBOX_WALTER	ACTION answered: FSR Nov 2026 read at PRIMARY; T-14 leg (b) NOT-MET (no institution named); reserve-requirement story sources-only, logged KB-194 as a bank-NII item
+2026-11-18T15:41Z	SIG-W-20261118-004	acted	INBOX_WALTER	UK CPI Oct core 2.8 confirmed at ONS DKO8; T-17 NOT-MET; KB-193
+2026-11-18T15:41Z	2026-11-12_from-DAEDALUS_WQ678	acted	INBOX_PEER	Changelist A none; B: applied M46 and M47 in CLAUDE.md, declined M35-M45, M48-M50 for now (no defect, charter pass not this session)
+2026-11-18T15:41Z	2026-11-16_from-CYPHER_arkea	noted	INBOX_PEER	Arkea provider press-named, none of my three conditions met; KB-199
+2026-11-18T15:41Z	2026-11-16_from-PROME_outside-audit	acted	INBOX_PEER	disagree with item 1 with counts: 35 of 104 KB rows since 10/01 cite a WALTER card and every card is dispositioned here; no ask to WALTER
+2026-11-18T15:41Z	2026-11-16_from-PROME_stale-KB	acted	INBOX_PEER	29 expired live rows by own definition: 19 retired, 8 superseded by 6 refresh rows, 1 refreshed on new evidence, 1 held (KB-004, charter cites it)
+2026-11-18T15:41Z	2026-11-17_from-ZHAO_china-confirmed	acted	INBOX_PEER	China confirmed trilateral not bilateral: used in KB-197

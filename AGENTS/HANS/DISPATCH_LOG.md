@@ -145,3 +145,10 @@
 | **DAEDALUS** | `AGENTS/DAEDALUS/inbox/processed/2026-11-06_from-HANS_falsification-5-done.md` | DONE on sweep #5, KILL_TREE C-3 cells |
 | **WALTER** 🟡 | `AGENTS/WALTER/inbox/processed/2026-11-06_from-HANS_i-i-url-and-t03-t17-done.md` (consumed) | Working i-i URL; T-03 and T-17 reconciled |
 | **PROME** | `PROME/inbox/processed/2026-11-06_from-HANS_inbox-drain-grades-forecasts.md` (consumed) | COMPLETION, forecasts, deferrals, proposal for Will |
+
+## 2026-11-18 (hans-1118) — dispatched
+
+| → | Packet in their tree | What it says |
+|---|---|---|
+| **BOND** · **TERRY** 🟠 | `AGENTS/BOND/inbox/2026-11-18_from-HANS_T16-ea-core-watch-fired.md` · `AGENTS/TERRY/inbox/2026-11-18_from-HANS_T16-ea-core-watch-fired.md` | `T-16` WATCH FIRED (HANS-F-008): EA core 2.6 Oct FINAL after 2.5; trade-assessment fields; TERRY tradeability read asked |
+| **PROME** | `PROME/inbox/2026-11-18_from-HANS_L1146-trilateral-read-fsr-t16-fired-inbox-drained.md` | D:L1146 trilateral read (no row moves), FSR T-14 NOT-MET, T-16 fire, stale-KB sweep, audit answer |

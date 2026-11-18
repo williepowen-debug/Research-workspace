@@ -100,7 +100,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 ## DOMAIN SCOPE
 
 **✅ EU bank / private-credit leg — WILL-RULED 2026-08-28, IN SCOPE AT FULL DEPTH.** Will, in-session, verbatim: *"I do want HANS to handle the EU bank / private-credit scope depth."* **This settles the REGINALD/LIQUID split in LIQUID's direction: the euro-area bank↔private-credit seam is HANS's, not triage-only.**
-**What owning it obliges, first obligation first:** ⚠️ **READ THE ECB FSR MAY-2026 SPECIAL ARTICLE AT PRIMARY.** Until that is done the self-binding constraint from LIQUID still binds — **no onward routing of FSR/ESRB findings.** Owning a lane does not retroactively verify what was surfaced in it. Then: ESRB `esrb.report202602`, the March-2026 supervisory-check timeline, and the contingent-exposure instrument (`VX-HANS-7.07`). **`HANS-T-14` stays as the fire trigger; depth is now OWNED rather than triage.**
+**What owning it obliges:** the May-2026 FSR special article (read at primary 9/5, `KB-HANS-041`) and ESRB `esrb.report202602` (read 9/19, `KB-HANS-090`) are done; still open are the March-2026 supervisory-check timeline and the contingent-exposure instrument (`VX-HANS-7.07`). Owning a lane does not retroactively verify what was surfaced in it. **`HANS-T-14` stays as the fire trigger; depth is now OWNED rather than triage.**
 
 *The REGINALD/LIQUID scoping disagreement that preceded Will's ruling — two consumers, opposite well-reasoned recommendations — is at `CHARTER_PROVENANCE.md`. It is why this was a Will call and not a peer call.*
 
@@ -161,7 +161,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | **EA core HICP** | **≥2.5 watch / ≥3.0 orange / ≥3.5 red**, sustain 2 | Second-round effects appearing ⇒ the energy-only read is falsified |
 | **UK core CPI** | **≥3.0 watch / ≥3.5 orange / ≥4.0 red**, sustain 2 | The BoE's look-through justification dies ⇒ reaches the gilt long end |
 | ECB Deposit Rate | hike to **≥2.75%** | *(The old "emergency CUT" trigger is RETIRED — wrong sign. The ECB is hiking.)* |
-| **German 10Y Bund (LEVEL)** | **>3.00 watch · >3.75 orange · >4.50 red** | Term-premium channel. **Watch tier FIRED 2026-08-28.** → BOND, TERRY |
+| **German 10Y Bund (LEVEL)** | **>3.00 watch · >3.75 orange · >4.50 red** | Term-premium channel → BOND, TERRY |
 | **UK 10Y / 30Y gilt (LEVEL)** | **>5.50 / >6.00 orange** | LDI-adjacent; the widest DM core long end I track |
 | EU Gas (TTF) | **Ladder: L1 €60 · L2 €66 · L3 €100 · L4 €200** | *(The old flat >€50 line is RETIRED as a trigger.)* |
 | EU storage **gap to 5-yr norm** | **>15pp below norm (signed ≤−15) orange · >25pp red** | The binding constraint is the **norm gap**, not the absolute fill |

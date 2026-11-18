@@ -20,6 +20,15 @@ This is the twin of the 2026-09-05 `DISPATCH_LOG.md` split: **a whole CATEGORY m
 
 ---
 
+## 🆕 SESSION 2026-11-18 (hans-1118) — PROME registered wake D:L1146 + WALTER FSR card + inbox drain
+
+- **How the T-16 fire was reached:** the ECB Data Portal `ICP` series returned nothing after 2025-12 and Eurostat's `prc_hicp_manr` stopped in February 2026 (renamed `prc_hicp_minr`), so both API routes failed silently-shaped (empty, not an error). The figure came from the Eurostat euro-indicators page `2-18112026-ap` itself. Core 2.6 vs flash 2.5e: the fourth flash-to-final revision this desk has seen move against the energy-only read.
+- **UK core** from the ONS CSV generator (series DKO8); the ONS JSON API is retired (404 with a decommission notice).
+- **T-07 clock:** the 11/11 STATUS expected a close-out on 11/12; the 11/12 close was 92.26 and reset it. A carried "earliest" date is a forecast, not a state.
+- **Doc audit caught two of my own writes:** registry `T-05` set to the ECB AAA proxy while `VX-3.05` held the German 10Y (C3, reverted: a proxy does not become the value); and KB-192/196 short numbers (country and history figures) moved to Notes.
+- **Correction receipt** refused twice for characters in `--scope` (the semicolon, then something in parentheses); plain words passed.
+- **Stale-KB sweep:** 29 by my definition vs PROME's 22 (PROME counted before 11/16; seven rows expired 11/16 to 11/18).
+
 ## 🆕 SESSION 2026-11-06 (hans-1106) — inbox drain on Will's word via PROME
 
 **Order of work.** Boot rc1 → R1 two NO-OP receipts → status to Will → PROME assignment 11:05 ET → all 32 items read → primaries pulled → ledgers → packets → moves last, one named item at a time.
