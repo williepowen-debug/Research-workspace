@@ -1,53 +1,45 @@
 # SHADE SCRATCH — restart handoff
 
-## Due rows — 2026-11-16 (PROME prome-6f, WQ-184; Claude Code, Opus 5.5; window HELD open for PROME's closeout ask)
+## Wake — 2026-11-18 (PROME prome-6e task letter, D:L240 + D:L185; Claude Code, Opus 5.5; window HELD for PROME's closeout ask)
 
 **Authority:** research only, $0, no trade, card, gate, band, threshold or charter change. Moved nothing.
 
-**Done:** Record `research/L240_L184_L185_Q3_READS_2026-11-16.md`. Inbox 4 → 0 (DAEDALUS WQ-678 noted, Changelist B deferred; WALTER 20261112-005 noted, 20261113-002 info-only, 20261114-006 noted with two combo rows). Corrections rc 0.
-- **D:L240:** DLIC Q3 NOT POSTED at the index 11/16 10:09 ET. Measured CDN lag +2/+3 days ⇒ re-dated **11/18**.
-- **D:L184:** C2 NOT WITHDRAWN (penalty +25.25 bp ✅, S1 ~$2.3B ✅, S2 34.2% ❌). Vendor changed between decks (J.P. Morgan → Bloomberg).
-- **Canary Q3:** mixed quarter, no reading; S3 UNAVAILABLE (deck dropped the syndication count).
-- **SHD-01:** NO-VERDICT by its letter, `thesis/PREDICTIONS.tsv` updated.
-- **D:L185 BMA:** ACRA 1A/2A FY2025 read; ~90% funds withheld, so the Level 3 split must come from the cedants.
+**CHANGES SINCE 11/16:** DLIC Q3 statement and Q3 investor presentation posted Tue 11/17 09:02 ET (+2 days, cadence held). 13 WALTER cards arrived (one, 20261118-003, after launch). 4 named corrections were unreceipted.
 
-**Closeout 2026-11-16T10:20:23-05:00:** prome-6f's closeout ask received (D:L240 re-dated 11/18, D:L184 and D:L1067 resolved, D:L185 pending, packet filed). Inbox and WALTER lane 0, corrections rc 0, no auto-memory written, no figure superseded (consumer check not needed), retirement scan SKIPPED (last 11/6, 10 days). Promotion scan: the issuer dropping its own syndication count is an instance of the 8/4 absence lesson already in MEMORY; no new lesson. No MAINTENANCE entry (no structural change). NEXUS brief folded last.
-
-**Git:** no pull needed (local not behind origin; PROME's two state files dirty in the shared index). Committed my paths only.
+**WHAT I DID** (record `research/L240_DLIC_Q3_FLOWS_AND_L185_CLOSE_2026-11-18.md`):
+- **D:L240 READ:** Q3 alone inflows $1,557.7M (−60.3% YoY, −36.3% QoQ); deposit-type zero Q2 and Q3; surrenders $1,137.9M (+68.1% YoY, +6.1% QoQ, rising since Q1-26); ops cash +$748.3M. Sales collapse, no run visible. Sales already −18.5% YoY in Q2: the pause cannot be isolated.
+- **Exchange:** Note 22: $3.8B approved 10/21, $2.7B settled to 11/16, $1.2B filed 11/16, APA unapproved. DLIC receives TWG debt, LP and equity interests (deck p22). **SHD-02 HIT.**
+- Note 10 affiliate-contingent $16,820.0M = 32.64% GA (flat). Deck "affiliated" $20,076M 41% (+$766M Guggenheim Schedule Y reclass). **DLIC repaid Soc Gen $303.5M for affiliate 1001CF on 9/30**, receivable $303.6M. Second class action (Kalinsky 10/7).
+- **D:L185 CLOSED:** Catalina FY2025 (Apollo-owned since 2018; loss −$394.4M; equity $389.4M, −36.5%; FABN TRS and FIA/MYGA modco with AARe) and ACRA related-party notes ($2.6B ALRe revolver each, undrawn; 2A Apollo fees $137.7M). Nothing on L185 owed.
+- Card 007 ACTION answered: $85.2B is Moody's via NYT, primary not obtained (subscription). Athene $2.4B xAI (secondary) vs Oracle-linked (my 11/6): conflict to settle at AAIA Q3.
+- Inbox 13 → 0 (board_log 13 rows + 3 COMBO rows; new theme `cyber-life-insurer`). Corrections 4 NO-OP receipts, rc 0.
+- STATUS rotated: §0w/§0v/0u/0t/0r/§0m → `archive/STATUS_ROTATED_SECTIONS_2026-11-18.md` (crc32 `0550c8dd`, `tail -n +5`, recomputed and matched). Guard (1) retired.
 
 **NEXT SESSION, in order:**
-1. **DLIC Q3** index re-read 11/17 after 11:00 ET, then 11/18 (D:L240, SHD-02): verify jurat 79065·2026·3 first; Exhibit 1 + SoO L15 vs the 1H-26 baseline; Note 10 and subsequent events for gross TWG completion. If absent 11/18, re-date 11/20.
-2. **D:L185 by 11/18:** Catalina FY2025 (BMA, posted 11/4); ACRA 1A Note 12 and 2A related-party notes (PDFs re-fetchable, URLs and sha256 in the record §5).
-3. **AAIA Q3 statutory** (posted 11/13): name-level SVF II Finco, SoftBank, Oracle CMLs, Big Sky; FHLB collateral.
-4. **`T-SHADE-01`** fresh assessment on the latest close (LIQUID's HY cell first). Script `research/tshade01_close_snapshot.py --anchor 2026-09-24 --previous-end <last end>`.
-5. By 11/20: SVO override count (D:L241), declared-flat TRADE surface, ARI DEFM14A annex. WQ-678 Changelist B trims at a quiet session.
+1. **AAIA Q3 statutory** (posted 11/13), by 11/20: name-level SVF II Finco, SoftBank, Oracle vs xAI $2.4B, Big Sky; FHLB collateral.
+2. By 11/20: SVO override count (D:L241), declared-flat TRADE surface, ARI DEFM14A annex.
+3. **`T-SHADE-01`** fresh assessment on the latest close (LIQUID's HY cell first); not run 11/16 or 11/18. Script `research/tshade01_close_snapshot.py --anchor 2026-09-24 --previous-end 2026-11-10`.
+4. Watch: DLIC issuer "Affiliated Investments Reduction Update" page for the remaining $1.1B settlement, the $1.2B approval, the assets received; 1001CF repayment. SHD-03 (downgrade) by 12/31.
+5. WQ-678 Changelist B trims at a quiet session.
 
-**Open unknowns that matter:** whether any public FABN syndication priced in Q3 (issuer no longer says); the cedants' Level 3 split of ACRA's withheld assets; prior list (11/6) unchanged.
+**Open unknowns that matter:** channel split of DLIC's sales fall; composition and marks of the TWG assets received; whether 1001CF repays; the ~$1,059M non-Guggenheim rise in DLIC "affiliated assets"; DLIC RBC after the exchange; whether any Athene public FABN syndication priced in Q3.
 
-**Prior handoff** (11/11 catch-up) → `git show df073440d7:AGENTS/SHADE/SCRATCH.md`.
+**Mail state:** packet `PROME/inbox/2026-11-18_from-SHADE_L240-DLIC-Q3-and-L185-close.md`. No outbox signal (PROME routes the trade read to TERRY).
+
+**Prior handoff** (11/16 due rows) → `git show 97b3f71407:AGENTS/SHADE/SCRATCH.md`.
 
 ## Saved research and accepted qualifications
 
-The bounded consequential-gap research pass is **COMPLETE; underlying evidence PARTIAL**, accepted by Will. Result `4e6ebbb83d0d0fdd16228c05bbd57c8a67fbcc8a:AGENTS/SHADE/research/GAP_INVESTIGATION_2026-10-12.md`; exact primary citations/access limits and next steps are in that report and source index. Prior source passes and original findings are preserved, not restarted. Composite20/30 unchanged; no established current liquidity crisis, charter illiquidity breach or cohort/systemic loss cascade.
-
-- Same corrected DLIC FY25 audit resolves vintage: GA floor9.7507/conditional37.2419%, total6.9179/26.4223%. Entire affiliated-bond category12.619338B exceeds formalABS10.441030B and cannot be the ABS leg. No approved liquidity classification/perimeter or30% breach. Same-date/source arithmetic is completed; the formal definition is not.
-- ApolloQ2 Notes4/16/17 cross-check completed. Five AMAPS issuer-risk positions13.515B are a partial floor, already within broader totals; no full tranche/borrower/holder look-through. ALRe37% economic/100% voting ACRA, ADIP63% with Athene253M ADIP investments/357M commitments prevents a universal37/63 retained-loss split. ARI31.4% strict identity match remains unresolved; same-date85% is different.
-- AHL/WHCO guarantee is primary:15% of outstanding O, with35% reimbursement only if collectible. O unknown;35B project total is not O. Holding-company contingent obligation, not a quantified AAIA GA/L3 position or a proved call/loss. Atlas shared2.5B obligation cannot be multiplied by number of guarantors.
-- FHLB27.7B drawn/33.8B estimated total includes drawn;6.1B conditional nominal room is not cash. Restricted120.985B is not all FHLB collateral. Asset-level eligibility/haircuts/treaty/priority and usable collateral/losses not obtained.
-- ClearSpring83607 identity verified; issuer affiliates5895→4898M is−997M/−16.91%, not exchange completion. Full corrected statutory/capital/funding bridge, current bank decisions and post-pause flows missing. Free NAIC financial report exists but actual body not obtained, not proven publicly absent. Q2 flows predate pauses; plans/portal presence do not prove execution/resumption.
-- RosnerSept16Doc1 recovered68pages; allegations/media-derived39–42% not findings/statutory reconciliation; complaint~20B,21B not identified. Current merits/orders missing. PHLJune30 report expects2027 transition subject RFP/court, not an entered order or current loss estimate.
-- Adopted AG55/final2025 template sourced; final2026/submissions missing, blanket public L3/PIK/PLR unsupported. SVO discretion operational, count unknown≠zero. TSR creator R/T axes clarified, complete current method missing. Cohort/system totals and ultimate loss allocation remain partial; pools overlap.
+The bounded consequential-gap research pass is **COMPLETE; underlying evidence PARTIAL**, accepted by Will. Result `4e6ebbb83d0d0fdd16228c05bbd57c8a67fbcc8a:AGENTS/SHADE/research/GAP_INVESTIGATION_2026-10-12.md`. Composite 20/30 unchanged; no established current liquidity crisis, charter illiquidity breach or cohort/systemic loss cascade. Detailed qualifications (DLIC denominators, Apollo Q2 cross-check, AHL/WHCO guarantee, FHLB aggregates, Clear Spring, Rosner, AG55/SVO/TSR) are verbatim in the 11/16 SCRATCH (`git show 97b3f71407:AGENTS/SHADE/SCRATCH.md`) and the gap report; all still stand. The 11/18 read supersedes only "post-pause flows missing" and "plans do not prove execution" for DLIC: Q3 flows and $2.7B of settled exchanges are now primary.
 
 ## Existing work and dependencies
 
 | When/home | Remaining work |
 |---|---|
-| November20 / SHADE STATUS§10 | Declared-flat TRADE surface, ARI DEFM14A annex/residual holder, SVO count or exact evidence limit. Owed, not automatically satisfied by the source pass. |
-| WQ422 / acquisition priority | Corrected full ClearSpring83607 FY25 and Q22026 statements, Q1 bridge. Operator capture of existing free NAIC financial report first, but summary cannot replace quarterly notes/schedules. Existing licensed/accessible records first; no paid access/outreach/other launch authorized. WHCO/AMAPS/treaty/collateral documents are subsequent existing-data dependencies. |
-| ~November15 / DLIC Q3 | Execution/approval/asset and mark reconciliation; post-pause receipt/surrender/benefit/funding flows. Net affiliate decline alone cannot prove closing; Q3 has only a short post-pause period. |
-| November12–18 / Athene Q3 | 10-Q read 11/6; FI-deck canary and C2 remain; X1 consequence waits on BROCK and PROME. |
-| November18 / C2 | Existing self-executing withdrawal test: penalty≤+48bp AND S1≥2.0B AND S2≥36.2%. |
-| November30 / BROCK W3 | BROCK-owned deterioration test; consume its owner result, do not parallel-grade. |
+| November 20 / STATUS §10 | AAIA Q3; declared-flat TRADE surface; ARI DEFM14A annex/residual holder; SVO count or exact evidence limit |
+| WQ-422 / acquisition priority | Corrected full Clear Spring 83607 FY25 and Q2 2026 statements, Q1 bridge. Existing licensed/accessible records first; no paid access or outreach authorized |
+| November 30 / BROCK W3 | BROCK-owned deterioration test; consume its owner result, do not parallel-grade |
+| December 31 / SHD-03 | Delaware Life downgrade by any of S&P, Fitch, AM Best |
+| ~2027-03-01 / DLIC FY2026 annual | First clean post-pause year; Schedule BA and common stock after the exchange; RBC; 1001CF |
 
-W1/L182 is covered by WQ364; no SHADE October16 enumeration owed. Guggenheim full source remains a named evidence dependency, not a new survey. All eight foundational March notes remain stale-marked; watch-query deployment does not certify recall. Do not change governing definitions, thresholds, grades, prediction confidences or trade permissions without their required authority.
-
+All eight foundational March notes remain stale-marked. Do not change governing definitions, thresholds, grades, prediction confidences or trade permissions without their required authority.

@@ -290,3 +290,8 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 - Rotated STATUS §0u and §0m items ②, ②b, ③, ⑥ → `archive/STATUS_ROTATED_SECTIONS_2026-11-11.md` (crc32 `5fcf94c5`, `tail -n +5`, recomputed; the first pointer was written with `+4` and the recompute caught it). STATUS 25,141 → 22,498 B, under the 22,785 B stop.
 - New research record `research/CATCHUP_2026-11-11.md` and snapshot `research/L673_CLOSES_END_2026-11-10_read2026-11-11.json`. Retirement scan not rerun (last run 11/6).
+
+## 2026-11-18 — DLIC Q3 wake rotation
+
+- Rotated STATUS §0w, §0v, the 0u/0t/0r pointer sections, §0m (10/1 rails) and the 11/11 and 11/6 BOTTOM LINE paragraphs → `archive/STATUS_ROTATED_SECTIONS_2026-11-18.md` (crc32 `0550c8dd`, `tail -n +5`, recomputed and matched). STATUS 28,743 → 22,760 B, under the 22,785 B stop. Live 10/1 guards 2 to 4 kept as one line; guard 1 retired (post-pause flows now read).
+- New research record `research/L240_DLIC_Q3_FLOWS_AND_L185_CLOSE_2026-11-18.md`. New combo theme `cyber-life-insurer` in `board_log.tsv`. Retirement scan not rerun (last run 11/6, 12 days).
