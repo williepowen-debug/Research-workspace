@@ -18,6 +18,7 @@
 3. Link verdict PARTLY ESTABLISHED; drainage cut NOT ESTABLISHED.
 4. Packets: AEOLUS (St. Johns, watches, WMD figures), MARCO (re-based triple, certification unconfirmed), REGINALD (Seacoast 35.68% flood-county deposit footprint); PROME delivery packet.
 5. **21:38–21:4x ET, Will direct (after PROME closeout):** "build the three-scenario projection for Brevard and Palm Bay". Parcel model on DOR 2026 final roll → `research/2026-11-17_amendment3-brevard-palm-bay-scenarios.md` + model script; § AI4; KB ML-CORAL-175. **Fee ban is the Palm Bay switch: 11.27 mills needed vs 10 cap ⇒ $7.8M/yr short from FY28-29**; county refills under cap. ⛔ **Corrected Palm Bay share ≈66% → ≈40–45%** in STATUS, NEXUS_BRIEF, research doc, KB 172; PROME packet sent (its 11/17 packet carried ≈66%). Also corrected: the amendment is self-executing (REC p.684); the Legislature matters for the fee ban and state aid, not for the exemption itself.
+6. **21:47 ET, PROME relay of CATO review (`AGENTS/CATO/runs/2026-11-17_2143_coral-recent-work-review.md`):** CR17-1 (WQ-704 cause not isolated), CR17-2 (permitted debt service ≠ protection; no default implication established), CR17-3 (dated FY27-28 horizon; rating action one possible observation), CR17-4 (search limit kept) **all ADOPTED** across both reports, STATUS, STATUS_DETAIL, KB 169/172/175, NEXUS_BRIEF; same four tests applied to the scenario doc ("forces cuts" → "property-tax gap, cuts or other revenue"). Correction packets: REGINALD, PROME.
 
 ## NEXT SESSION / OWED
 
