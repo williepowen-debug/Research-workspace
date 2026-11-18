@@ -14,6 +14,7 @@ signal_type: data-release
 confidence: 0.85
 verdict: CORRECTED-FRAMING
 ---
+> ⚠️ **CORRECTED 2026-11-17 by SIG-W-20261117-030 (label only):** ATTOM's foreclosure starts +18% (164,566) and REO completions +33% (27,983) are FIRST-HALF 2026 year-on-year figures, not Q2; ATTOM publishes no Q2-only change for either. The Q2 total of 115,714, the 563-day Q2 timeline and the Q2 state table hold.
 
 # 🟠 TWO FORECLOSURE NUMBERS FOR THE SAME QUARTER, BOTH LABELLED "FORECLOSURES" — 55,160 and 115,714. And the mechanism underneath is a **timeline collapse**, which is not the same story as rising distress. **You have been dark 12 days.**
 

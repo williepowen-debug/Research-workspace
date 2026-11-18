@@ -143,6 +143,34 @@ class Dispatch(unittest.TestCase):
             with self.assertRaises(RuntimeError):
                 self.run_cards([card()])
 
+    # D12 to D15: weekday refusal (PROME packet 2026-11-17 20:42 ET, WQ-713; live case SIG-W-20261117-014)
+    def test_D12_wrong_weekday_refused_nothing_written(self):
+        before = self.files()
+        rc, out = self.run_cards([card(id="SIG-W-20261117-001", body="Published Thu 11/13; no card until today.")])
+        self.assertEqual(rc, 2, out)
+        self.assertIn("weekday mismatch", out)
+        self.assertIn("Friday", out)
+        self.assertEqual(self.files(), before)
+
+    def test_D13_right_weekday_passes(self):
+        rc, out = self.run_cards([card(id="SIG-W-20261117-001", title="Fed report Fri 11/13",
+                                       body="Published Fri 2026-11-13; card Tue 11/17.")], "--check")
+        self.assertEqual(rc, 0, out)
+
+    def test_D14_override_with_reason_writes_and_records_it(self):
+        reason = "quoted from the source's own mislabel, kept verbatim"
+        rc, out = self.run_cards([card(id="SIG-W-20261117-001", body="The release said Thu 11/13.",
+                                       weekday_override=reason)])
+        self.assertEqual(rc, 0, out)
+        self.assertIn("WEEKDAY OVERRIDDEN", out)
+        text = next((self.root / "BOARD").glob("SIG-W-20261117-001-*.md")).read_text()
+        self.assertIn(f'weekday_override: "{reason}"', text)
+
+    def test_D15_override_without_a_reason_is_refused(self):
+        rc, out = self.run_cards([card(id="SIG-W-20261117-001", body="Due Thu 11/13.", weekday_override="ok")])
+        self.assertEqual(rc, 2, out)
+        self.assertIn("weekday mismatch", out)
+
 
 import unittest.mock  # noqa: E402
 

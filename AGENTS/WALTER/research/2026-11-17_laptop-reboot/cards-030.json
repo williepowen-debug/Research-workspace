@@ -1,0 +1,57 @@
+[
+  {
+    "id": "SIG-W-20261117-030",
+    "slug": "CORRECTION-card-20260812-003-ATTOM-foreclosure-starts-plus-18pct-and-REO-plus-33pct-are-FIRST-HALF-2026-year-on-year-not-Q2-label-only-115714-Q2-filings-and-563-day-Q2-timeline-hold",
+    "title": "CORRECTION of SIG-W-20260812-003 (label only): ATTOM's foreclosure starts +18% (164,566) and bank repossessions +33% (27,983) are FIRST-HALF 2026 year-on-year figures, not Q2; ATTOM gives no Q2-only change for either; the Q2 total of 115,714 filings, the 563-day Q2 timeline and the Q2 state table hold",
+    "body": "# CORRECTION of SIG-W-20260812-003: two figures carried the wrong period\n\n**Source of the correction:** an outside audit of WALTER's cards, relayed by PROME's packet of 2026-11-17 20:36 ET on Will's word; WALTER read ATTOM's release itself on 2026-11-18 at 02:39Z (attomdata.com, '2026 Mid-Year Foreclosure Market Report', dated July 16, 2026).\n\n| Card 003 said | ATTOM's release says |\n|---|---|\n| Section 3 table headed 'Q2 2026': foreclosure starts **+18%** | **First half of 2026:** 164,566 properties started foreclosure, up 18% from the first half of 2025 (and up 66% from the first half of 2020) |\n| Same table: REO completions **+33%** | **First half of 2026:** lenders repossessed 27,983 properties, up 33% from the first half of 2025 (down 26% from the first half of 2020) |\n| (implied) a Q2-only change for starts and completions | **None published.** The only sub-half figures are June: 26,217 starts (up 20% from June 2025) and 4,773 completions (up 23% from June 2025) |\n\n**What holds:** Q2 2026 filings 115,714 (down 3% from Q1, up 15% from Q2 2025); first half 227,548 (up 21%); the average timeline of **563 days is a Q2 2026 figure** (properties foreclosed in Q2), the lowest since 2013, down 13% from a year earlier; the Q2 state table (South Carolina one in 723 housing units, Florida one in 726, Delaware, Indiana, Nevada). For the first half Florida is first (0.27%, one in 373) and South Carolina second (one in 381).\n\n**What changes in the card's argument:** section 3 compared a first-half repossession count with a Q2 timeline. The direction of its point survives (repossessions rose while the timeline shortened, 13% shorter than a year earlier), but the two figures are on different periods and should not be read as one quarter's internals.\n\n**Owners:** HOMER's own surfaces already carry the starts and repossession figures as first-half (STATUS row 'ATTOM H1-2026'); nothing is asked. The ResiClub 55,160 series in section 2 stays unreconciled to a named metric.",
+    "source": "ATTOM 2026 Mid-Year Foreclosure Market Report, attomdata.com, July 16, 2026 (read 2026-11-18 at 02:39Z); PROME packet AGENTS/WALTER/inbox/2026-11-17_from-PROME_outside-audit-signal-quality-three-practice-items-one-label.md (56ab9ccffc)",
+    "origin": ["https://www.attomdata.com/news/market-trends/foreclosures/2026-mid-year-foreclosure-market-report/ (page opened)", "PROME/reports/2026-11-17_outside-audits/walter-signal-quality_as-received.md (auditor's finding)"],
+    "action": [],
+    "info": ["HOMER", "CORAL", "CARL", "PROME"],
+    "precedence": "ROUTINE",
+    "signal_type": "correction",
+    "confidence": 0.95,
+    "confidence_language": "confirmed at the primary release, page opened",
+    "cluster": "BANK_COLLATERAL",
+    "domain": "HOUSING",
+    "entities": ["ATTOM", "foreclosure-filings", "REO", "Florida", "South-Carolina"],
+    "dispatch_note": "Label-only correction (R1 COR-20261117-30 same commit, BOARD_CONSUMPTION_SPEC 3.6; banner on 20260812-003). Recipients = card 003's (HOMER action, CORAL, CARL info) plus PROME (relayed the audit). HOMER moves to INFO: no ask, its surfaces already label the figures first-half. ROUTINE: no figure a desk carries changes. CARL, PROME pull-complete INFO; TERRY not on card 003, not here.",
+    "route_origin": "Outside audit via PROME packet; WALTER checked at the primary",
+    "route_summary": "ROUTINE correction of 20260812-003: ATTOM starts +18% and REO +33% are first-half 2026 YoY, not Q2; Q2 115,714 filings, 563-day Q2 timeline and Q2 state table hold.",
+    "extra_fm": {
+      "corrects": ["SIG-W-20260812-003"],
+      "corrects_direction": "HOLD: every figure holds; the period label on starts and repossessions changes from Q2 to first half",
+      "kill_strings": ["Q2 2026 foreclosure starts +18%", "Q2 2026 REO completions +33%"]
+    },
+    "safety_net": "clear",
+    "event_window": "closed"
+  },
+  {
+    "id": "SIG-W-20261117-031",
+    "slug": "CORRECTION-card-014-Fed-Financial-Stability-Report-published-FRIDAY-Nov-13-not-Thursday-label-only",
+    "title": "CORRECTION of SIG-W-20261117-014 (label only): the Fed's Financial Stability Report was published Friday, November 13 (the card said Thursday); the date, the four-day delay and every figure hold",
+    "body": "# CORRECTION of SIG-W-20261117-014: weekday label\n\nCard 014 said the report was 'published Thu Nov 13'. November 13, 2026 is a **Friday**; the Fed's file is dated 20261113 (financial-stability-report-20261113.pdf). The date, the four-day delay before the card, and every figure (as already partly corrected by SIG-W-20261117-017) hold.\n\n**Caught by:** an outside audit relayed by PROME (packet 2026-11-17 20:42 ET; PROME ran scripts/claim_check.py on the card). WALTER's card tool now refuses a mismatched weekday unless a reason is stated.",
+    "source": "PROME packet AGENTS/WALTER/inbox/2026-11-17_from-PROME_outside-audit-lessons-weekday-check-in-dispatch-and-source-dates.md (b072e92cdd); scripts/claim_check.py --check weekday on card 014 (line 38)",
+    "origin": ["https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf (file date in the URL)", "calendar: 2026-11-13 is a Friday"],
+    "action": [],
+    "info": ["BROCK", "LIQUID", "REGINALD", "GIBBS", "SHADE", "VULCAN", "HENRY", "RED", "PROME"],
+    "precedence": "ROUTINE",
+    "signal_type": "correction",
+    "confidence": 0.95,
+    "confidence_language": "calendar fact and the Fed file's date",
+    "cluster": "PC_STRESS",
+    "domain": "PRIVATE_CREDIT",
+    "entities": ["Federal Reserve", "Financial Stability Report"],
+    "dispatch_note": "Label-only correction (R1 COR-20261117-31 same commit, BOARD_CONSUMPTION_SPEC 3.6; second banner on 014, after 017's). Recipients = card 014's (BROCK action moved to INFO, no ask; LIQUID, REGINALD, GIBBS, SHADE, VULCAN, HENRY, RED, PROME). Precedent COR-20261008-16 (Tue for Wed, ROUTINE). RED, PROME pull-complete INFO; TERRY not on 014.",
+    "route_origin": "Outside audit via PROME packet; WALTER checked the calendar and the Fed file date",
+    "route_summary": "ROUTINE correction of 014: Fed FSR published Friday Nov 13, not Thursday; date, delay and figures hold.",
+    "weekday_override": "this correction quotes card 014's wrong label in order to correct it",
+    "extra_fm": {
+      "corrects": ["SIG-W-20261117-014"],
+      "corrects_direction": "HOLD: the date and every figure hold; the weekday label changes from Thursday to Friday",
+      "kill_strings": ["Thu Nov 13"]
+    },
+    "safety_net": "clear",
+    "event_window": "closed"
+  }
+]

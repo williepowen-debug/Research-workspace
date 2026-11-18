@@ -20,6 +20,11 @@ Refusals (nothing is written for ANY card in the batch if one card is refused):
     automatic launch or signal-routing eligibility"; SIG-W-20261019-012 routed it anyway)
   * TERRY on the INFO line (TERRY is BOARD-only; Rule 10)
   * a recipient with no AGENTS/<NAME>/ directory, a duplicate recipient, or an existing card/handoff path
+  * a weekday written beside a date that is not that date's weekday, in title, body, route_summary, source
+    or dispatch_note (PROME packet 2026-11-17 20:42 ET on Will's word, WQ-713; test case SIG-W-20261117-014
+    "Thu Nov 13", a Friday). The test is the fleet's scripts/claim_check.py weekday check; a bare M/D takes
+    the card id's year. The checker guesses years and can be wrong: override with the card key
+    "weekday_override": "<stated reason, 10+ characters>", which is printed and written to the front matter.
 After writing, every handoff's body is re-read and must equal the BOARD card's body.
 
 Routing rules preserved (CLAUDE.md Rule 10, BOARD_CONSUMPTION_SPEC v0.37):
@@ -48,6 +53,25 @@ DAMAGE = [
     (re.compile(r"/bin/(?:ba)?sh\b"), "an expanded shell path ('$0' becomes /bin/bash)"),
 ]
 NOTE = "walter Claude Code; create-only; no recipient state edits. Delivered != consumed."
+WEEKDAY_FIELDS = ("title", "body", "route_summary", "source", "dispatch_note")
+
+
+def _claim_check():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("claim_check", ROOT / "scripts" / "claim_check.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def weekday_problems(card):
+    """Weekday-beside-date mismatches across the card's text fields, via the fleet checker."""
+    cc, year = _claim_check(), int(card["id"][6:10])
+    out = []
+    for field in WEEKDAY_FIELDS:
+        for n, line in enumerate(str(card.get(field, "")).splitlines(), 1):
+            out += [f"{field} line {n}: {f[3]}" for f in cc.weekday_flags(field, n, line, year)]
+    return out
 
 
 def now():
@@ -77,6 +101,14 @@ def plan(card, root, runtime):
             m = rx.search(str(card[field]))
             if m:
                 errs.append(f"{field} has {why}: {m.group(0)!r}")
+    if re.fullmatch(r"SIG-W-\d{8}-\d{3}", sid):
+        wk = weekday_problems(card)
+        override = str(card.get("weekday_override", "")).strip()
+        if wk and len(override) >= 10:
+            for w in wk:
+                print(f"WEEKDAY OVERRIDDEN {sid}: {w} (reason: {override})")
+        elif wk:
+            errs += [f"weekday mismatch, {w} (fix it, or set weekday_override with a stated reason)" for w in wk]
     recips = [(r, "ACTION") for r in card["action"]] + [(r, "INFO") for r in card["info"]]
     names = [r for r, _ in recips]
     for r in sorted({n for n in names if names.count(n) > 1}):
@@ -119,6 +151,8 @@ def write(p, root):
           f"domain: {q(c['domain'])}", f"entities: {q(c['entities'])}", f"word_count: {len(body.split())}",
           f"dispatch_note: {q(c['dispatch_note'])}", f"event_window: {q(c.get('event_window', 'open'))}"]
     fm += [f"{k}: {q(v)}" for k, v in c.get("extra_fm", {}).items()]
+    if str(c.get("weekday_override", "")).strip():
+        fm.append(f"weekday_override: {q(str(c['weekday_override']).strip())}")
     fm.append("---")
     (root / p["board_rel"]).write_text("\n".join(fm) + f"\n# {c['title']}\n\n{body}\n", encoding="utf-8")
     rows = []
