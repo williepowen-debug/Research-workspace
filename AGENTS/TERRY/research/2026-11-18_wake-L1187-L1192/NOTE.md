@@ -62,3 +62,12 @@ Both cards already said "every 052 on this card means 054" in their checklist li
 - Postmortem thesis grades and missing close prices (PROME 11/16 and 11/17, Will's "yes lets do this"): **not started.**
 - No-card review reconcile with the reader's ledger (D:L1162): **not started.**
 - OTTO's subprime-auto offer: not taken up (no implication stated; PROME did not ask).
+
+## 3j. LIQUID HY > 320 ×3 MET on the 11/17 cell (packet c25c9f6031, 10:4x ET) — NO CARD
+
+LIQUID: 323 / 334 / 343, run 3 of 3; tier rule BROADENS across IG to CCC; funding unmoved (SOFR99−IORB +9 bp, SRF $0.104B); horizon weeks; invalidated by a first-published print ≤ 320.0; unknown whether any financing channel is closing; no new implication beyond the HYG card; X1 CLOSED.
+
+- **`IDEA-HYG-FOLLOW-NOV05`:** unchanged. This is the move the card was built to follow, and it already carries it: approved, fired, ×5 ≤ $0.60, window to 12/4. No size change (X1 CLOSED; the card's ×5 is Will's per-card choice and is not widened by this).
+- **`TRY-COND-KREADD` (KRE add puts, 9/30 conditional):** **NOT ARMED.** A1 ① may now be met (REGINALD grades REG-T-03 and its bank cross-check; unread here), but **A2 fails on its own**: X1 CLOSED, no Tier-3 word from Will. Line written on the card.
+- **New card: NO.** The repricing is a price move with funding unmoved; a second credit short on the same falsifier adds size to the HYG view (construction rule #17, the size-increasing branch), and X1 is closed.
+- Logged in `SIGNALS.tsv` combo:credit-following, counterevidence included (WQ-622).
