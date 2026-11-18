@@ -8,19 +8,19 @@ Amendments applied (synced 2026-10-01 to the schema's ratified set: R3 + 7, 9, 1
   1. Recent thesis pivot: REQUIRED single line (named what + why)
   2. Cross-agent tensions: REQUIRED (write "None active this cycle" if empty — do not delete the bullet)
   3. WATCH renamed FORWARD CATALYSTS; NEXT DECISION POINT carved out as the agent-actioned subset
-  4. SENDING: single table. Refresh discipline at session closeout.
+  4. SENDING: single table. Update it at closeout when a send or wait changes (schema §4.1).
   5. Status emoji: per root CLAUDE.md key only — 🟢 none / 🟡 monitoring / 🟠 elevated / 🔴 active/critical
   6. Conviction decomposition: OPTIONAL per agent
   7. WAITING FOR: "Expected by" column REQUIRED
   9. COMPACT variant allowed for utility/single-seam desks — skeleton in schema §2b; revert to FULL at ≥3 persistent live edges or a thesis version
-  10. Closeout ORDERING: the brief fold is the session's LAST write-back
-  11. pin-follows-STATUS-HEAD: the STATUS commit pinned below must equal STATUS HEAD at commit time (re-pin after any same-session STATUS commit)
+  10. Closeout ORDERING: in a session that writes the brief (schema §4.1), the fold is the session's LAST write-back
+  11. pin-follows-STATUS-HEAD: the STATUS commit pinned below must equal STATUS HEAD at commit time (re-pin whenever the brief is committed; a brief left untouched keeps its old pin, WQ-719 A)
   12. FULL variant: ## CROSS-DOMAIN is the FIRST body section (this template's order)
   Scope: every desk that keeps a brief — census and live read-rules in AGENTS/NEXUS/BRIEFS_MAP.md; tier membership in PROME/ROSTER.md.
 
 Maintenance:
-  - Update at every session closeout per SPAWN PROTOCOL discipline.
-  - No-material-change session → refresh As-Of stamp + STATUS commit hash only.
+  - Rewrite and commit at closeout only when a figure, threshold, or cross-desk send or wait in the brief changed (schema §4.1, WQ-719 A).
+  - No-change session → leave the brief untouched; no As-Of or pin refresh.
   - Material change → content updates same session.
   - NEVER restate canonical content (PREDICTIONS scoreboard, full RED log, full thesis). REFERENCE with anchor.
   - Length: the 100-line ceiling is NOT enforced (ruled 2026-08-28); the binding limit is the root READ-CAP budget (32,550 B) — NEXUS reads the brief whole.
@@ -60,7 +60,7 @@ Keep to ONE clause. The structural detail lives in CHANGELOG / VIEW; the brief g
 <!--
 As-Of: timestamp when you last touched the brief. If STATUS data is older than the As-Of stamp
 (e.g. weekend, market closure, refresh lag), tag inline: "(STATUS data through Fri X/Y close)"
-NEXUS uses the commit hash for mechanical stale-check (§4.4 of schema).
+NEXUS reports how far the commit hash lags STATUS (§4.4 of schema); a lag alone is not a defect.
 -->
 **As of:** YYYY-MM-DD HH:MM ET | STATUS commit: `<short-hash>`
 
@@ -77,7 +77,7 @@ brief useful vs raw STATUS. Force yourself to think about what the signal DOES, 
   Bad: "SAM → LIQUID: net selling >¥1T/month"
   Good: "SAM → LIQUID: net selling >¥1T/month → reduces UST demand → upward 10Y pressure"
 
-Single table per Will. No STANDING/THIS-CYCLE split. Refresh discipline at session closeout —
+Single table per Will. No STANDING/THIS-CYCLE split. Update it at closeout when a send or wait changes (schema §4.1) —
 stale rows are your responsibility to age out.
 
 No P/L, no money figures, no position $ amounts. Reference position structurally only.
@@ -207,4 +207,4 @@ Footer: optional. Use for schema-version stamp + any agent-specific notes.
 Remove if not useful.
 -->
 
-*Brief format follows NEXUS_BRIEF schema (R3 + amendments 7, 9, 10, 11, 12). Updated at every session closeout per SPAWN PROTOCOL discipline.*
+*Brief format follows NEXUS_BRIEF schema (R3 + amendments 7, 9, 10, 11, 12). Updated at closeout only when its content changed (schema §4.1).*
