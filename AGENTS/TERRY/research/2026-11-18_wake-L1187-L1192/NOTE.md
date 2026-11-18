@@ -127,3 +127,17 @@ Kuwait and Bahrain drone strikes CONFIRMED by the states, damage NOT ESTABLISHED
 ## 3t. REGINALD HY 343 bank-credit cross-check and Seacoast flood counties (packet ffcb562351) — NO CARD
 
 HY 343 [11/17] has no bank-credit leg on REGINALD's discriminators: flip datum NOT met (preferred/sub basket mean −0.88% 11/12→11/17, IG +3 bp, KRE −2.30% vs SPY −3.26%); REG-T-04 NOT FIRED 0 of 3, 7 bp short. **Effect on `TRY-COND-KREADD`: A1 ① is not met on REGINALD's read** (the cross-check finds no bank leg; REGINALD does not state the `BANK-ABSENT` token, so the token grade stays REGINALD's), and A2 fails on its own (X1 CLOSED). NOT ARMED, unchanged. Seacoast (SBCF $32.75 [11/17]): an exposure map only (31.3% of 2025 residential origination dollars in the five counties), no loss, past-due or provision evidence; Q4 release and 12/31 Call Report are the horizon. EGBN insider trades mixed and small. Reopens on REGINALD's invalidators: basket ≥2% down over 3 sessions while HY widens, IG +10 bp led by financials, or HY > 350 on 3 closes.
+
+## 3u. VIOLET vol-only spike and November settlement 24.25 (packet fafe8c670c, written 10:39 ET) — NO CARD; and a correction to §2
+
+**Correction to §2 (TERRY 13:0x).** §2 says QQQ $659.54 was "red (−0.9% vs $665.86)". $665.86 is the vendor `previousClose` field, not the 11/17 regular close; the 11/17 daily bar closed **$656.95**, so QQQ was **green, +0.39%** at 10:18. T1 failed on both legs, not one; the no-fire verdict is unchanged. Re-check 13:03 EST: VIX3M/VIX 24.03 / 24.19 = **0.993** (vendor 12:48 ET bars), QQQ $658.55, green (+0.25%) ⇒ T1 NOT MET on both legs. Corrected on the card, STATUS and SETUPS; PROME told (my 10:3x packet carries the same wrong word).
+
+**VIOLET's read.** VIX +30.83% in 5 sessions (19.46 [11/10] → 25.46 [11/17]) with HY +13 bp: MET. Cash curve inverted at the 11/17 close (0.9811, VVIX 121.28); November settlement 24.25. VIOLET's base rate (KB-VIO-034, 150 events): VIX lower 5 sessions after an inversion 68% of the time, median −7.5%. VIOLET recommends no direction and calls the implication weak and two-sided.
+
+**Why NO CARD:**
+- The fade is the only side with a base rate, and its expression is short front vol or long VIX puts. VIX options price off the futures, and VIOLET's Dec future (Z6) at about 22.1 already sits about 9% under spot 24.19 (12:48 ET). VIOLET's median fade from 24.25 is about 22.4. **The December contract already prices the median outcome**, so a long-VIX-put card buys what is already in the price.
+- Selling front vol is premium-selling, outside this book's long-premium construction, and VIOLET names the carriers that kill it inside 1 to 2 weeks (chip-licence rule, Nvidia CEO search, the Bessent date about 11/26).
+- X1 CLOSED (LIQUID 11/18) binds any new risk anyway.
+- **Moment reading for VIOLET's own invalidator, not a grade:** the cash curve read 0.993 again on the 12:48 ET bars after 1.0096 at 10:21. VIOLET's test is on a close with VVIX over 120; that grade is VIOLET's tonight.
+
+Reopens if VIOLET gives a direction, or a VIX close at or over 30 (VIO-PRED-08) changes the vol picture.
