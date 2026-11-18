@@ -1,0 +1,37 @@
+# TERRY CARD_LEDGER.tsv — one row per NEW-TRADE card that reached Will: his ruling, whether it was placed, fill, close, result. Created 2026-11-18 (WQ-716, Will 2026-11-17 21:15 ET "ok approved go ahead"; PROME packet 2026-11-17). A ledger, not a report.
+# Last real data refresh: 2026-11-18
+# Rules: fill/close come only from broker evidence already in the record (Will's captures, Activity ledger, PAPER_BOOK lane=real rows). Nothing inferred; missing = UNKNOWN. basis: BROKER (all legs from broker evidence) | DERIVED (computed from broker legs) | REPO-MARK (screen/paper mark, not a fill) | UNKNOWN | NA (never placed).
+# Write at ruling (append row) and at close (fill close/result/basis). ~1 minute each. No reminders, no sell-or-roll text (USER.md). WILL-OWN-<date>-<ticker> rows are Will's own trades: card_id prefix WILL-OWN, ruling=own trade, the wrong-if text is a record of his view, never a trigger.
+# Scope v1: new-trade cards only. Management cards on lines Will bought himself (MGMT-*, EXIT, NOTE, RESHAPE) are not rows here; their close prices are the postmortem close-price task. Seeded 2026-11-18 from setups/INDEX.md, PAPER_BOOK.tsv and card files; the 11/17 outside audit's table used as a checklist only. "WQ UNKNOWN" = the ruling is on record but its queue row is not on INDEX.
+card_id	reached_will	ruling	placed	fill	close	result_usd	basis	source
+TRY-FIRE-004	2026-07-20	approved (WQ UNKNOWN)	yes	TLT Sep-30 77P x30 @ 0.11, 2026-07-20 09:50 ET	all closed by 2026-09-30 (harvest 7/31 @ 0.3734; x5 9/10 @ 0.06; x5 9/28 @ 0.06; x15 9/30 @ 0.01/0.02)	-84.53	BROKER	PAPER_BOOK PB-0002a-d
+TRY-VIOLET-VIXCS	2026-07-27	approved (WQ UNKNOWN)	yes	VIX Aug-5 20/25C x4 @ 0.70, 2026-07-27 11:38 ET	2026-07-30 @ 0.45	-111.60	BROKER	PAPER_BOOK PB-0003
+TRY-BRENT-REFINER	2026-08-27	approved 8/27, re-affirmed 9/17 (WQ UNKNOWN)	yes	VLO 1 sh @ 412.00, 2026-09-18	2026-11-05 @ 366.665	-45.33	BROKER	PAPER_BOOK PB-0007
+TRY-WAL-ROLL70	2026-09-01	approved (WQ UNKNOWN)	yes	WAL Dec-18 70P x1 @ 2.20, 2026-09-02 14:21 ET	UNKNOWN (absent at 11/5 capture; Will 10/29 "all dead")	UNKNOWN	UNKNOWN	PAPER_BOOK PB-0006; INDEX
+TRY-BRENT-USOARM	2026-08-13	let expire unfired (Will in session 8/13, WQ UNKNOWN)	no	NA	NA	0	NA	INDEX
+TRY-WILL-QQQ-VFADE	2026-08-04	void by its own terms before a ruling	no	NA	NA	0	NA	INDEX
+TRY-WILL-QQQFADE	2026-08-27	retired (Will in session 8/27; WQ-95)	no	NA	NA	0	NA	INDEX
+TRY-BUILDER-DHI-PHM	2026-07-20	lapsed (Will 7/20)	no	NA	NA	0	NA	INDEX
+TRY-FIRE-006	2026-08-18	retired unfired (Will 8/18)	no	NA	NA	0	NA	INDEX
+TRY-BRENT-DIESEL	2026-07-30	never ruled; TERRY no at this price	no	NA	NA	0	NA	INDEX
+TRY-NOTRADE-WQ409-SPY	2026-10-11	passed (WQ-418)	no	NA	NA	0	NA	INDEX
+TRY-COND-TLTPUT-WQ339	2026-10-14	lapsed unapproved (WQ-360)	no	NA	NA	0	NA	INDEX
+TRY-COND-QQQ-DATED-DOWNSIDE	2026-10-15	declined (WQ-365)	no	NA	NA	0	NA	INDEX
+TRY-COND-CRWV-RALLYFADE	2026-10-15	void by its own terms 10/22 before a ruling	no	NA	NA	0	NA	INDEX
+IDEA-VST-OCT20	2026-10-20	shelved unapproved (Will 10/29)	no	NA	NA	0	NA	IDEA_SHELF
+IDEA-IEF-OCT20	2026-10-20	shelved unapproved (Will 10/29)	no	NA	NA	0	NA	IDEA_SHELF
+IDEA-FXY-OCT20	2026-10-20	shelved unapproved (Will 10/29)	no	NA	NA	0	NA	IDEA_SHELF
+IDEA-RSP-OCT20	2026-10-20	approved conditional (WQ-591 A), declined 2026-11-06	no	NA	NA	0	NA	INDEX
+TRY-NOTRADE-MRNA-ESMO	2026-10-22	declined, TERRY rec C (WQ UNKNOWN)	no	NA	NA	0	NA	INDEX
+IDEA-OKTA-SECWAVE-OCT22	2026-10-22	parked (WQ-492 B), shelved 10/29	no	NA	NA	0	NA	INDEX
+IDEA-USO-POSTELECTION-OCT22	2026-10-22	not taken (WQ-491)	no	NA	NA	0	NA	INDEX
+IDEA-QQQ-PUTWALL-OCT22	2026-10-22	Will placed by hand 10/23 at x2 before a ruling; WQ-490 closed moot 10/29	yes	690/670P x2: BTO 690P @ 13.39, STO 670P @ 8.72, 2026-10-23	670P x2 bought 2026-10-30 @ 8.00; 690P x1 sold 2026-11-05 @ 28.83; 690P x1 UNKNOWN	+1683.92 known; one 690P UNKNOWN	BROKER (partial)	PAPER_BOOK PB-0008a/b
+IDEA-CREDIT-HYG-BDC-OCT23	2026-10-23	approved conditional (WQ-513 A)	no	NA	lapsed unfired 2026-11-13	0	NA	INDEX
+IDEA-ORCL-PUTSPREAD-OCT23	2026-10-23	approved conditional (WQ-514 A)	no	NA	OPEN (not fired)	0	NA	INDEX
+IDEA-UNG-SSW-OCT31	2026-10-31	approved (WQ-573); ended by Will 2026-11-07	no	NA	NA	0	NA	INDEX
+IDEA-TLT-QRA-NOV02	2026-11-02	declined (WQ-592 B)	no	NA	NA	0	NA	INDEX
+IDEA-CF-Q3-NOV02	2026-11-02	declined (WQ-593 B)	no	NA	NA	0	NA	INDEX
+IDEA-HYG-FOLLOW-NOV05	2026-11-05	approved (WQ-615 A); fired 11/6	UNKNOWN	UNKNOWN	OPEN	UNKNOWN	UNKNOWN	INDEX
+IDEA-RSP-DEC-NOV05	2026-11-05	passed (WQ-616 B)	no	NA	NA	0	NA	INDEX
+IDEA-QQQ-200D-NOV05	2026-11-05	not approved; decide at a fire (WQ-617 C)	no	NA	OPEN (window to 2026-11-20)	0	NA	INDEX
+IDEA-NVDA-CEOGAP-NOV12	2026-11-12	record void if T1-T3 fail (WQ-677 B); void 2026-11-17	no	NA	NA	0	NA	INDEX

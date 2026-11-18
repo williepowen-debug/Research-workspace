@@ -1,5 +1,7 @@
 # SELL-OR-ROLL CARD — OZK Nov-20-2026 $40P ×4 (Fidelity) — pulled forward to before the Q3 print
 
+> **IDENTIFIER NOTE 2026-11-18 (TERRY, PROME packet 2026-11-17 on Will's 20:35 ET word):** the RED challenge this card cites as CHG-RED-052 is **CHG-RED-054** in RED's register (RED renumbered it; source `../inbox/processed/2026-10-14_from-RED_basis-note-accepted-id-054.md`). Identifier only: no level, size, grade or disposition changes.
+
 > **REFUTER NOTE 2026-11-06 10:12 EST (TERRY, book re-grade):** REGINALD `TRADE.md` § 4 lists LABOR's bull-side kill as a refuter for any bank put; it FIRED 11/6 (freeze-thaw v2) and is met. A hiring read, not a layoffs read; REGINALD's bank claim is CRE recognition and no REGINALD score keys on it. No term changes. No hold, sell or roll view (USER.md). Full read: `../research/2026-11-06_regrade/NOTE.md`.
 
 > **EVIDENCE ADDED 2026-10-22 13:3x ET (TERRY, PROME spawn WQ-487 A) — thesis cell only; not a sell, roll or expiry prompt (USER.md § No expiry nagging; C5 paused).**
