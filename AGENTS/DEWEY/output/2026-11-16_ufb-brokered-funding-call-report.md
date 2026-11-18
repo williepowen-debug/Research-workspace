@@ -3,14 +3,21 @@
 **Date:** 2026-11-16 | **Mode:** Thesis (descriptive only) | **Confidence:** High on filing cells and arithmetic. The run-off verdict is MIXED: two parts are firm, the aggregate cannot be told from the form, and the waiver question is UNKNOWN. | **Entity:** United Fidelity Bank, fsb, Evansville IN, RSSD 391575, FDIC cert 29566. Bank-level figures, not the consolidated parent. FFIEC 031 filer.
 **Authority:** PROME assignment (prome-6f) on Will's word at 11:05 ET today, "Lets look into these". Research only. Completing it is not a trading signal. The rule and supervisory side belongs to REGINALD.
 
+**Corrected 2026-11-18** (DEWEY, on the independent reader's findings, `PROME/reports/2026-11-16_united-fidelity-third-correction/LEDGER_read2.md` rows 1, 6 and 9, relayed by PROME's 11/16 packet; taken up on Will's "go", relayed by PROME at 15:30 ET). The wrong text was replaced in place. Prior text: `git log -p` on this file.
+- **Key finding 3:** the reciprocal range "$825M to $1,032M from 12/2023 to 6/2026" was wrong against Table 1, which shows $692.4M at 12/2025. It now reads $692.4M to $1,032.0M, and the zero brokered-reciprocal reporting is dated 12/2021 to 6/2026 (blank at 9/30). The conclusion is unchanged: every quarter-end is above $626.9M.
+- **Cross-check scope:** "99 of 99" covered 12/2023 to 6/2026 only. The 9/30/2026 cells are not cross-checked; this is now said wherever the agreement is claimed (Sources and checks; Source quality).
+- **Reciprocal excess over the cap** (§3, "If a waiver existed"): the excess at 9/30 is $11.25M or $112.2M, not $739.1M, and the bank requalifies below the cap (337.6(e)(3)(ii)). No figure changed; the wording now separates the excess from the total.
+- **DEWEY's own find, the same class:** Key finding 2 and the plain verdict stated the Q2 2024 rise as new or renewed CDs only. The body (Table "Reading", Counter-evidence) also allows a reclassification into brokered. Both are now stated.
+- **Not changed:** the static-comparison caveat the reader names (row 13) is already in §5 (last bullet); its loss was in a relay, not in this report. No number in Tables 1 and 2 or §4 and §5 changed.
+
 ## Key finding
 
 1. The $510.5M figure is right; its label is wrong. It is Schedule RC-E Memorandum item 1.d.(1), RCONHK06, $510.526M at 9/30/2026. The form's instructions put *all* brokered demand and savings deposits into that item at full balance, so it is not "brokered deposits maturing within a year." At least an estimated $147.5M of it is brokered sweep balances, which have no maturity date. Brokered CDs maturing within a year are therefore **at most about $363.0M**.
 2. The run-off test cannot be settled from the form, but it is not silent:
-   - **Q2 2024.** Brokered CDs with more than a year left *rose* by $87.9M. Under "no new brokered money" that bucket can only shrink. New or renewed long-dated brokered CDs therefore came in that quarter.
+   - **Q2 2024.** Brokered CDs with more than a year left *rose* by $87.9M. Under "no new brokered money" that bucket can only shrink. Either new or renewed long-dated brokered CDs came in that quarter, or an existing deposit was reclassified into brokered (INFERRED; the form cannot tell these apart, see §3).
    - **2024 as a whole.** Either about $372M or more of non-sweep brokered demand or savings balances sat unchanged all year, or brokered CDs were renewed or newly taken.
    - **Q1 2026.** About $196M of that quarter's $355M brokered decline was sweep money relabeled from brokered to non-brokered; the money did not leave.
-3. **New, needs a rule reading (sent to REGINALD).** The bank reported **zero brokered reciprocal deposits every quarter** (RC-O item 9, RCONG803). Meanwhile its reciprocal deposits stood at $825M to $1,032M from 12/2023 to 6/2026, above the $626.9M pre-order average. Under 12 CFR 337.6(e)(2)(i), a not-well-capitalized bank keeps the reciprocal exception above that average only with an FDIC waiver (paragraph (B)). The bank's own reporting is therefore consistent with having held a waiver. That is INFERRED and not established: misreporting or a different trigger quarter would also explain it.
+3. **New, needs a rule reading (sent to REGINALD).** The bank reported **zero brokered reciprocal deposits every quarter from 12/2021 to 6/2026** (RC-O item 9, RCONG803; the 9/30/2026 cell is blank). Meanwhile its reciprocal deposits stood between $692.4M (12/2025, the low) and $1,032.0M (6/2025, the peak) across the 12 quarter-ends from 12/2023 to 9/2026, so above the $626.9M pre-order average at every one of them ($739.1M at 9/30/2026). Under 12 CFR 337.6(e)(2)(i), a not-well-capitalized bank keeps the reciprocal exception above that average only with an FDIC waiver (paragraph (B)). The bank's own reporting is therefore consistent with having held a waiver. That is INFERRED and not established: misreporting or a different trigger quarter would also explain it.
 
 ## 1. The quarterly table (VERIFIED, primary)
 
@@ -60,7 +67,8 @@ Amounts are $ million at quarter-end, from FFIEC Call Reports for RSSD 391575. E
 - 12/2023 to 6/2026 come from the FFIEC CDR bulk rows saved by PROME's researcher (`PROME/reports/2026-11-11_united-fidelity-follow-up/F-quarterly-history.json`, sha256 f0887d2a…).
 - 6/30 and 9/30/2026 come from DEWEY's own parse of the CDR SDF files (`research/2026-11-11_united-fidelity/20260630-rows.json` and `20260930-rows.json`). The 9/30 cells were last updated 2026-10-30.
 - 6/30/2026: every column in the bulk file equals DEWEY's own SDF parse (0 mismatches).
-- 12/2023 to 6/2026: 99 of 99 cells were checked against the FDIC BankFind API copy of the same filings (fields BRO, DEP, DEPUNA, OTHBFHLB, OTHBRF, CHBAL, SCPLEDGE, ASSET, SC; retrieved 2026-11-16, saved `research/2026-11-16_ufb-brokered-funding/fdic-api-financials-cert29566.json`). All agree within $1 thousand: one cell, cash at 3/2025, differs by $1 thousand, from rounding. The FDIC API index ends at 6/30/2026 (built 2026-08-19), so 9/30/2026 rests on the CDR file alone.
+- 12/2023 to 6/2026: 99 of 99 cells were checked against the FDIC BankFind API copy of the same filings (fields BRO, DEP, DEPUNA, OTHBFHLB, OTHBRF, CHBAL, SCPLEDGE, ASSET, SC; retrieved 2026-11-16, saved `research/2026-11-16_ufb-brokered-funding/fdic-api-financials-cert29566.json`). All agree within $1 thousand: one cell, cash at 3/2025, differs by $1 thousand, from rounding.
+- **9/30/2026 is NOT cross-checked.** The FDIC API index ends at 6/30/2026 (re-queried 2026-11-18 15:3x ET: newest row still 20260630). The 9/30 cells, which carry all of §5's liquidity arithmetic and the Q3 2026 rows, rest on DEWEY's single parse of the CDR SDF file.
 - Securities are reported on mixed bases: HTM at amortized cost, AFS at fair value. At 9/30 the HTM fair value is $550.2M against $642.9M amortized cost (RC-B item 8, RCFD1771).
 
 ## 2. The $510.5M figure: number VERIFIED, label CORRECTED
@@ -115,7 +123,7 @@ How to read Table 2:
 | **Q3 2026** | Brokered −$147.0M, nearly all non-sweep (brokered sweeps −4.7). Long bucket −$134.3M. | Consistent with CDs running off. The share of the decline from maturities rather than early withdrawal is not on the form. |
 
 **Plain verdict:** **mixed, and cannot be told cleanly from the form.**
-- 2024 does **not** look like pure run-off at maturity with no renewals. The Q2 2024 long-bucket rise is direct evidence of new or renewed long-dated brokered CDs. Q2–Q4 2024 falls ran far below the bucket's pace.
+- 2024 does **not** look like pure run-off at maturity with no renewals. The Q2 2024 long-bucket rise points to new or renewed long-dated brokered CDs, unless a deposit was reclassified into brokered (INFERRED either way). Q2–Q4 2024 falls ran far below the bucket's pace.
 - 2025 to 9/2026 is close to consistent with run-off.
 - Part of the 2026 decline is relabeling rather than repayment.
 - If the bank had no waiver, the Q2 2024 rise is hard to square with 337.6(b)(2). If it had one, everything fits. **Whether it had a waiver is UNKNOWN.** The zero brokered-reciprocal reporting (below) points toward one but does not prove it.
@@ -129,7 +137,7 @@ How to read Table 2:
 
 **Reciprocal deposits treated differently.** This is an OPEN rule question, sent to REGINALD at 11:15 ET.
 - Facts:
-  - Total reciprocal deposits (RC-E memo item 1.g, RCONJH83) were $825.2M at 12/2023, peaked at $1,032.0M at 6/2025, and stood at $739.1M at 9/2026.
+  - Total reciprocal deposits (RC-E memo item 1.g, RCONJH83) were $825.2M at 12/2023, peaked at $1,032.0M at 6/2025, fell to a low of $692.4M at 12/2025, and stood at $739.1M at 9/2026.
   - Reported brokered reciprocal deposits (RC-O item 9, RCONG803) were 0 in every quarter. At 9/30/2026 the cell is blank.
   - The quarter-ends before the 10/31/2023 order averaged **$626.9M** (12/2022 421.4, 3/2023 587.6, 6/2023 678.3, 9/2023 820.3).
 - Rule text: 12 CFR 337.6(e)(2)(i) (eCFR, 2026-11-01 version, saved `research/2026-11-16_ufb-brokered-funding/ecfr-12cfr337.6-2026-11-01.xml`) gives agent-institution status, and so the reciprocal exception, to a bank that is "(A) ... CAMELS 1, 2, or 3 ... and well capitalized; (B) has obtained a waiver pursuant to paragraph (c); or (C) does not receive" reciprocal deposits that take it above the four-quarter average.
@@ -144,7 +152,7 @@ How to read Table 2:
 - **Misreporting:** this alternative would also mean a 337.6(b)(2) breach.
 - **One waiver covers both:** a single 337.6(c) waiver would cover the brokered CDs and the reciprocal exception. That makes the 2024 rollover evidence and the reciprocal reporting two independent signs pointing the same way.
 - **No public record either way:** under 12 CFR 303.243(a) a waiver is a letter application, the decision goes only to the bank, nothing is published, and a waiver runs "for a fixed period, generally no longer than two years". A waiver granted in early 2024 would therefore have needed renewal around 2026; whether it was renewed is UNKNOWN.
-- **If a waiver existed:** it stopped working on the 10/30/2026 deemed-notice date. The bar would then reach the $1,006.5M of brokered deposits plus any reciprocal deposits above the cap ($739.1M at 9/30, against a cap of $626.9M or $727.85M).
+- **If a waiver existed:** it stopped working on the 10/30/2026 deemed-notice date. The bar would then reach the $1,006.5M of brokered deposits, plus the reciprocal book while it stays over the cap. **The excess over the cap is small:** at 9/30 reciprocal deposits were $739.1M against a cap of $727.85M (over by $11.25M) or $626.9M (over by $112.2M). While over the cap, the instructions report *all* $739.1M as brokered (p. RC-E-10d, above). Under 337.6(e)(3)(ii) (rule text read in the saved eCFR copy) the bank qualifies again as of the date its reciprocal deposits fall below the cap. The reciprocal funding at risk therefore runs from about $11M to $112M (shrink under the cap) up to $739.1M (no shrink), not "$739M above the cap".
 
 ## 4. What replaced the brokered funding (VERIFIED cells; composition INFERRED)
 
@@ -209,7 +217,7 @@ The sweep balances do not mature, cannot be increased, and can leave at any time
 
 ## Source quality
 
-- All figures are PRIMARY FFIEC Call Report cells, cross-checked against the FDIC's copy of the same filings (99 of 99 agree).
+- All figures are PRIMARY FFIEC Call Report cells. 12/2023 to 6/2026 are cross-checked against the FDIC's copy of the same filings (99 of 99 agree). **9/30/2026 is not cross-checked:** the FDIC copy ends at 6/30/2026, so those cells rest on one parse of the CDR file.
 - Instruction text is PRIMARY (FFIEC instructions as posted by the FDIC, December 2025 edition); the September 2026 update was not read.
 - Rule text is PRIMARY (eCFR, 2026-11-01).
 - Interpretations are labelled INFERRED. Waiver status is UNKNOWN.
