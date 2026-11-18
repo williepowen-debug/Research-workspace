@@ -2,13 +2,20 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-17T09:31 ET, closed 2026-11-17T10:54:02-05:00 (PROME prome-19 task 703, Will "703 yes" 09:30 ET, laptop, Claude Code / Opus 5.5; launch task line was empty, task arrived by cross-session message; closed on PROME's ask)
+### CURRENT SESSION — 2026-11-18T10:34 ET, closed 2026-11-18T10:40:54-05:00 (PROME prome-6e, DOCKET line 1178, desktop, Claude Code / Opus 5.5; no pull at start per the letter; closed on PROME's ask, D:L1178 RESOLVED)
+
+- **Context:** grade the November 17 ICE cell (>320 run 3 of 3), tier rule, 069 legs, Cable One; drain inbox (20: 3 top-level, 17 WALTER).
+- **Delivered:** HY 343 [11/17, first-published, my pull 10:35:18 ET, matches TERRY] ⇒ **>320 ×3 MET** (323/334/343); signal to ALL via WALTER (59cba599c0), SIGNALS row, trade read to TERRY (c25c9f6031). Tiers IG 92 (+2), BBB 115 (+3), BB 204 (+8), B 368 (+11), CCC 1,329 (+19) ⇒ BROADENS; re-kill 0 of 2; 072, 069 L1/L4 NOT FIRED. Cable One not separable. VULCAN four questions answered (b0119cd32d). Six correction receipts. PROME packet b9720641b5. → `research/2026-11-18_hy-1117-grade/REPORT.md`.
+- **Open:** next ICE cell extends or resets the run; H.4.1, 076 W2, 069 review 11/19.
+- **Defects caught by me:** the STATUS header and PROME packet stamps were first typed from narrative (10:45, about 10:50), not from `date`; both were corrected before closeout (packet b24d928f89).
+
+### PRIOR SESSION — 2026-11-17T09:31 ET, closed 2026-11-17T10:54:02-05:00 (PROME prome-19 task 703, Will "703 yes" 09:30 ET, laptop, Claude Code / Opus 5.5; launch task line was empty, task arrived by cross-session message; closed on PROME's ask)
 
 - **Context:** outside-audit items (re-kill tests, signal use), Cable One for my series, November 16 HY cell, funding-microstructure leg status, inbox drain, stale KB rows (Will 11/16 23:16 ET).
 - **Delivered:** re-kill tests: fixtures wrong (July 3 2026 is a bond holiday the 11/10 D:L342 fix drops), watcher right, dates +7 days, 20 of 20 OK, no reading affected. November 16 first-published HY 334 (+11), IG 90 ⇒ >320 run 2 of 3; tiers BBB 112, BB 196 (+10), B 357 (+13), CCC 1,310 (−6) ⇒ tier rule BROADENS (daily clause); REKILL 0 of 2; 069 L1 and L4 NOT FIRED; 072 NOT FIRED. Cable One 0.160% of XCCC, no gate touched. OFR repo volumes reachable (KB-LIQ-162), coverage only. KB: 58 retired, 15 kept. Inbox 4 of 4. Commits 3f8693dcce, 33247b549b. → `research/2026-11-17_prome-703/REPORT.md`.
 - **Open:** November 17 cell (>320 MET if above 320.0; first cell that can show Cable One). `gate069_legs.py` read the November 13 BB at 10:51 ET while the first-published 11/16 row existed (likely feed lag; not chased).
 
-### PRIOR SESSION — 2026-11-16T10:07 ET closed 2026-11-16T10:15:38-05:00 (PROME prome-6f due-row wake, WQ-184, D:L1149, desktop, Claude Code / Opus 5.5; closed on PROME's ask, D:L1149 RESOLVED)
+### EARLIER SESSION — 2026-11-16T10:07 ET closed 2026-11-16T10:15:38-05:00 (PROME prome-6f due-row wake, WQ-184, D:L1149, desktop, Claude Code / Opus 5.5; closed on PROME's ask, D:L1149 RESOLVED)
 
 - **Context:** correct and narrow the 11/14 IG tech yield read (CATO N14-2); grade my lines on the November 13 HY cell; packet TERRY the first-published cell; drain inbox (1 packet, WALTER 009/010).
 - **Delivered:** HY 323 [11/13, first-published, 10:09 ET] ⇒ >320 run 1 of 3 (earliest MET November 17 cell); re-kill 0 of 2; REG-T-04 witness 0 of 3; tier rule CONTINUES (B +5, CCC +2, upper tiers flat). 076 unchanged NOT MET 1 of 3, W1 as-of 11/10 not in CFTC API (holiday week). N14-2 applied in REPORT, STATUS, NEXUS_BRIEF, KB-LIQ-153, MEMORY. CoreWeave $4B plan graded against DDTL 4.0 (S+225, A3): NOT SHOWN stands. → `research/2026-11-16_due-row/REPORT.md`.

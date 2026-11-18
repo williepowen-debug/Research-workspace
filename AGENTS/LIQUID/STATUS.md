@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-11-18T10:45-05:00 (PROME prome-6e, DOCKET line 1178; desktop, Claude Code / Opus 5.5). Last real data refresh: 2026-11-18 (FRED ICE first-published November 17 cell, all series, my pull 10:35:18 ET). **>320 ×3 MET on November 17**; tier rule BROADENS; inbox drained (20). → `research/2026-11-18_hy-1117-grade/REPORT.md`. Prior: `research/2026-11-17_prome-703/REPORT.md`.
+**Last Updated:** 2026-11-18T10:40:54-05:00 (PROME prome-6e, DOCKET line 1178; desktop, Claude Code / Opus 5.5). Last real data refresh: 2026-11-18 (FRED ICE first-published November 17 cell, all series, my pull 10:35:18 ET). **>320 ×3 MET on November 17**; tier rule BROADENS; inbox drained (20). → `research/2026-11-18_hy-1117-grade/REPORT.md`. Prior: `research/2026-11-17_prome-703/REPORT.md`.
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 
