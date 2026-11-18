@@ -76,7 +76,10 @@ CAP_BYTES = int(READ_CAP_TOKENS * BYTES_PER_TOKEN)
 BUDGET_BYTES = int(READ_CAP_TOKENS * TARGET_UTILISATION * BYTES_PER_TOKEN)
 # Desk charters (`AGENTS/<NAME>/CLAUDE.md` only) have their own ceiling: root CLAUDE.md § Data Hygiene,
 # WQ-701 A2, Will 2026-11-16 22:07 ET; READ_CAP rule 20 as amended. Root CLAUDE.md, PROME/CLAUDE.md and
-# sub-agent charters are NOT desk charters under that text and keep BUDGET_BYTES.
+# sub-agent charters are NOT desk charters under that text and keep BUDGET_BYTES. ⚠️ Sub-agent charters:
+# PROME's packet (9e02c0d712) asks that they be graded at NEITHER number until Will rules, and also that
+# nothing else change; those two conflict here, so prior behaviour (BUDGET_BYTES) is kept and the
+# conflict is put to PROME (2026-11-18 review record), not settled in this file.
 CHARTER_CEILING_BYTES = 50_000
 CHARTER_TAG = "desk charter, % shown is of the 50,000 B charter ceiling"
 
@@ -880,14 +883,18 @@ def is_desk_charter(path):
 
 def grade_charter(b):
     """(mark, utilisation-of-CEILING, why) for a desk charter read explicitly (2026-11-16, WQ-701 A2).
-    Over the single-read CAP stays 🔴 exactly as before (one read is cut off). Between the 50,000 B ceiling
-    and the cap is ⚠️ ADVISORY: printed, never counted over budget, never rc (Will chose a warning, not a
-    block). Under the ceiling is ✅ — no 75% rotate tier: the ruling sets a ceiling, not a rotation rule."""
+    The ceiling takes the place of the budget for this file (root: "in place of 32,550 B"; a charter
+    "stays under 50,000 B"), so at or over it the row is 🟠 over budget and drives rc exactly as any
+    surface over its budget does; over the single-read CAP stays 🔴. Corrected 2026-11-18: the first
+    build made the 50,000–54,249 B band an rc-neutral advisory and attributed that choice to Will; no
+    ruling says so (independent review, runs/2026-11-18_READ_CAP_CHARTER_CEILING_REVIEW.md).
+    Under the ceiling is ✅ with no 75% rotate tier: the ruling names a ceiling and no rotation band
+    (DAEDALUS's reading, put to PROME at review)."""
     util = b / CHARTER_CEILING_BYTES
     if b >= CAP_BYTES:
         return "🔴", util, f"OVER THE CAP ({b / CAP_BYTES:.0%} of the {CAP_BYTES:,} B cap) — cannot be read whole ({CHARTER_TAG})"
     if b >= CHARTER_CEILING_BYTES:
-        return "⚠️", util, (f"over the ceiling by {b - CHARTER_CEILING_BYTES:,} B — ADVISORY, rc unchanged; the owner "
+        return "🟠", util, (f"at or over the ceiling (+{b - CHARTER_CEILING_BYTES:,} B) — over budget; the owner "
                             f"trims by moving history out, never by compressing what remains ({CHARTER_TAG})")
     return "✅", util, f"under the ceiling ({CHARTER_TAG}; not graded at the {BUDGET_BYTES:,} B budget)"
 
@@ -921,7 +928,9 @@ def charter_line(name, charter_mode="unspecified"):
     over = ""
     if b is not None and b >= CHARTER_CEILING_BYTES and is_desk_charter(os.path.join(ROOT, rel)):
         over = (f" · ⚠️ CHARTER-OVER-CEILING: {b - CHARTER_CEILING_BYTES:,} B over the {CHARTER_CEILING_BYTES:,} B "
-                f"desk-charter ceiling (root § Data Hygiene, WQ-701 A2); ADVISORY, rc unchanged")
+                f"desk-charter ceiling (root § Data Hygiene, WQ-701 A2)"
+                + (f" and over the {CAP_BYTES:,} B single-read cap, so it cannot be read whole" if b >= CAP_BYTES else "")
+                + "; this advisory does not change rc (a charter DECLARED as a whole read is still graded at the budget in this mode)")
     return (f"charter {rel} = {size} — OUT OF PERIMETER by rule 20 unless declared; "
             f"{basis}; composite-injection context cost not graded here{over}")
 
@@ -1041,7 +1050,7 @@ def check_agent(name, quiet=False, require_manifest=False, charter_mode="unspeci
                    for mark, rel, *_ in rows if mark in REMEDY_TIERS]
     gen_flagged = [(r, bn) for r, bn in gen_flagged if bn]
     if not quiet:
-        print(f"READ-CAP [{name}] — cap {CAP_BYTES:,} B · budget {BUDGET_BYTES:,} B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · {note}")
+        print(f"READ-CAP [{name}] — cap {CAP_BYTES:,} B · budget {BUDGET_BYTES:,} B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over), except desk-charter rows, which say 'of ceiling' (50,000 B) · {note}")
         def _print_row(mark, rel, b, util, why, src, indent="  "):
             unit = "of ceiling" if CHARTER_TAG in why else "of budget"   # the % names what the verdict grades
             print(f"{indent}{mark} {rel:<34}{b:>9,} B  {util:>5.0%} {unit}  {why}  ({src})")
@@ -1280,10 +1289,10 @@ def check_agent(name, quiet=False, require_manifest=False, charter_mode="unspeci
     # label one line later. One instance did mean two; the fix is to stop inferring.
     if not quiet:
         for r in rows:
-            if r[0] == "⚠️" and CHARTER_TAG in r[4]:
+            if r[0] in ("🟠", "🔴") and CHARTER_TAG in r[4]:
                 print(f"⚠️  CHARTER-OVER-CEILING [{name}]: {r[1]} = {r[2]:,} B, over the {CHARTER_CEILING_BYTES:,} B "
                       f"desk-charter ceiling by {r[2] - CHARTER_CEILING_BYTES:,} B (root § Data Hygiene, WQ-701 A2). "
-                      f"ADVISORY: not counted over budget, rc unchanged.")
+                      f"Counted over budget (rc 1).")
     if advisories and not quiet:
         print(f"ℹ️  READ-CAP ADVISORY [{name}]: {len(advisories)} reading(s) this check will NOT "
               f"adjudicate (above). ⛔ These do NOT affect rc — the declaration is the reader's, and a "
@@ -1319,7 +1328,7 @@ def _fixture(tmp, rows, sizes=None):
 # So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
 # the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
 # one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
-EXPECTED_LEGS = 137   # +4 H1–H4 charter heuristic (2026-10-22, bank-cluster review) · +6 at L538 (C12, 2026-10-02) · +13 at L530 owner notice (N1–N8, 2026-10-08) · +2 W1/W2 (N9–N10, 2026-10-08) · +6 CH1–CH6 desk-charter ceiling (WQ-701 A2, 2026-11-16)
+EXPECTED_LEGS = 140   # +4 H1–H4 charter heuristic (2026-10-22, bank-cluster review) · +6 at L538 (C12, 2026-10-02) · +13 at L530 owner notice (N1–N8, 2026-10-08) · +2 W1/W2 (N9–N10, 2026-10-08) · +6 CH1–CH6 desk-charter ceiling (WQ-701 A2, 2026-11-16) · +3 CH7–CH9 boundaries, gate order, default over-cap text (review 2026-11-18)
 
 
 def selftest():
@@ -1822,7 +1831,8 @@ def selftest():
                  "EXCLUDE every charter by design" in _kb.getvalue(), krc), (True, True, 0))
 
             # ── DESK-CHARTER CEILING 50,000 B (WQ-701 A2, Will 2026-11-16; READ_CAP rule 20 amended) ──
-            # Each CH leg watched FAILING on the pre-change file (it graded every explicit charter at BUDGET).
+            # On the pre-change file CH1/CH2/CH5/CH7 fail by assertion; CH3/CH4 are no-change legs (pass on both);
+            # CH6 needs the new function (corrected 2026-11-18: the first comment said every leg failed there).
             _kcc = os.path.join(t, "AGENTS", "KC", "CLAUDE.md")
             _rootc = os.path.join(t, "CLAUDE.md")
             open(_rootc, "w").write("r" * 100)
@@ -1837,11 +1847,24 @@ def selftest():
                 (_rc, " over_budget=0 " in _ml, " rotation_due=0 " in _ml, CHARTER_TAG in _o, "REMOVE" in _o, "80% of ceiling" in _o),
                 (0, True, True, True, False, True))
             _rc, _o, _ml = _kc(52_000, "--charter-mode", "explicit")
-            chk("CH2 explicit: 52,000 B is over the ceiling — ADVISORY line, rc 0, over_budget=0",
-                (_rc, " over_budget=0 " in _ml, "CHARTER-OVER-CEILING [KC]" in _o, "by 2,000 B" in _o), (0, True, True, True))
+            chk("CH2 explicit: 52,000 B is over the ceiling — over budget, rc 1, rotation due, named line",
+                (_rc, " over_budget=1 " in _ml, " rotation_due=1 " in _ml, "CHARTER-OVER-CEILING [KC]" in _o, "by 2,000 B" in _o),
+                (1, True, True, True, True))
             _rc, _o, _ml = _kc(CAP_BYTES + 777, "--charter-mode", "explicit")
             chk("CH3 explicit: over the single-read CAP stays 🔴 and rc 1 (unchanged: one read is cut off)",
                 (_rc, " over_cap=1 " in _ml), (1, True))
+            _kv = dict(x.split("=", 1) for x in _ml.split() if "=" in x)
+            chk("CH9 explicit over the CAP: over_cap <= over_budget <= rotation_due (the order prome_gate checks)",
+                int(_kv["over_cap"]) <= int(_kv["over_budget"]) <= int(_kv["rotation_due"]), True)
+            _edge = []
+            for _sz in (CHARTER_CEILING_BYTES - 1, CHARTER_CEILING_BYTES, CAP_BYTES - 1, CAP_BYTES):
+                _r, _x, _l = _kc(_sz, "--charter-mode", "explicit")
+                _edge.append((_r, " over_budget=1 " in _l, " over_cap=1 " in _l))
+            chk("CH7 boundaries: 49,999 clean · 50,000 over budget · CAP-1 over budget not over cap · CAP over cap",
+                _edge, [(0, False, False), (1, True, False), (1, True, False), (1, True, True)])
+            _rc, _o, _ml = _kc(CAP_BYTES + 777)
+            chk("CH8 default mode over the CAP: charter line says it cannot be read whole; rc unchanged (0)",
+                (_rc, "cannot be read whole" in _o), (0, True))
             open(_rootc, "w").write("r" * (BUDGET_BYTES + 10))
             _rc, _o, _ml = _kc(100, "--charter-mode", "explicit")
             chk("CH4 explicit: ROOT CLAUDE.md keeps the 32,550 B budget — over it is still rc 1",
@@ -2084,8 +2107,10 @@ def main(argv):
             print(_result_line("agent", rc, 1, desk=name, reads=n, over_budget=nb, over_cap=nc,
                                manifest_defects=len(defs), advisories=len(advs),
                                generated_flagged=len(gen),
-                               rotation_due=sum(r[2] >= BUDGET_BYTES * ROTATE_AT and CHARTER_TAG not in r[4]
-                                                for r in _rows),
+                               # a desk charter is rotation-due only at/over its ceiling, so the
+                               # over_cap <= over_budget <= rotation_due order prome_gate checks holds
+                               rotation_due=sum((r[2] >= CHARTER_CEILING_BYTES) if CHARTER_TAG in r[4]
+                                                else (r[2] >= BUDGET_BYTES * ROTATE_AT) for r in _rows),
                                active_decisions_over_budget=int(any(
                                    r[1] == "PROME/ACTIVE_DECISIONS.md" and r[2] >= BUDGET_BYTES
                                    for r in _rows)),
