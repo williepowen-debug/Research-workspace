@@ -3,7 +3,7 @@
 **Status:** ELEVATED. Escalation widened while barrels recovered: a confirmed US strike day on Qeshm 11/17, Iranian fire at Kuwait and Bahrain 11/18 and seven hull events in a week, yet no Gulf-ally production hit, Saudi supply to market back near 9.2 mb/d and Dated Brent at or under the futures. Decoupling HOLDS and is firmer on supply; willingness UNMEASURED; land stocks the lowest since at least 2016.
 **Domain:** Cross-war synthesis and dormant geopolitical book.
 **As of:** November 18, 2026, 10:49 ET (from `date`), registered wake (WQ-709) via PROME prome-6e; owner evidence FALCON `3240d617d0` (weekly 11/18, evidence to about 15:30Z) and live grade `da20e402b4`; OSPREY `f512dd0120` (11/14; OSPREY live 11/18, uncommitted rows not adopted); BRENT IEA note 11/14 and Hormuz note 11/17; ORACLE KB-ORC-142 and SAM 11/18 via PROME relay.
-**STATUS commit:** see the HAWK commit that carries this brief's STATUS (pinned at commit time below)
+**STATUS commit:** `087f2b6286` (11/18 reconciliation)
 
 | Consumer | Material result | Limitation |
 |---|---|---|
