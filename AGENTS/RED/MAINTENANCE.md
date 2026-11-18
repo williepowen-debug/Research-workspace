@@ -4,6 +4,13 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S67 — 2026-11-18 10:26 EST closeout (from `date`; Will 10:17 ET: "catch up on any owed tasks. Also check your inbox")
+
+- **Trigger:** three PROME packets of 11/17 evening (Will's word 20:35 and 20:44 ET) plus owed dated rows.
+- **What changed:** `workbook/CHALLENGES.tsv` seven citations repointed from four pre-rebase hashes to origin commits (old hash kept in each cell); CHG-027 gains a binary scoring rule, pre-data. New folder `research/2026-11-18_usage-rerun_desktop/`: copies of the 11/05 usage scripts with ONE change each (input / cache-write / output / cache-read printed separately; rollup takes its input path as an argument); the 11/05 originals untouched. `workbook/VX.tsv` VX-002 Flip_If gains a vintage clause (current vintage, one pull, unreadable month bridged), pre-data. KB-104 superseded by KB-116; KB-054 re-classed DATED-HISTORICAL; four combo themes reviewed. board_log rotated (66.6% → 59.7%).
+- **Files:** workbook/CHALLENGES.tsv · workbook/KB.tsv · workbook/VX.tsv · workbook/VX_HISTORY.tsv · workbook/ML.tsv · registry/FALSIFICATION_TRIGGERS.tsv (+ generated SCAN) · research/2026-11-18_usage-rerun_desktop/ · research/2026-11-18_VX006_ZBT_RESOLUTION_TREE.md · reports/2026-11-18_S67_impact-ledger-spotcheck-dispositions.md · board_log.tsv · archive/board_log_pre-2026-11-06.tsv · inbox/processed/ (3 packets).
+- **Boot-impact:** none. No schema, boot step or gate changed.
+
 ## S66 — 2026-11-17 08:47 ET closeout (from `date`; PROME prome-19 due-row wake, closeout on PROME's ask 08:47 ET)
 
 - **Trigger:** outside audit of 2026-11-16 relayed by PROME (items 1 and 2) and Will's stale-KB word (11/16 23:16 ET).

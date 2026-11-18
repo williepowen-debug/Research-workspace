@@ -17,7 +17,7 @@
 - CORRECT: RED-07, -11, **-12 (SOFR mechanical, NEW)**, **-13 (no HY re-widen, NEW)**, **-14 (no Brent <$85, NEW)**, -16, **-17 (Dated <$115, NEW)**
 - ACTIVE: RED-01, -04, -05, -10, -18 (all genuinely in-window)
 - How it was caught: the first run of the S17 SPAWN-PROTOCOL DUE-scan (boot 3) + W2 loop-closure found RED-12/13/14/15/17 ACTIVE-but-stale since late April, RED-07 canonical lagging its mirrors, and RED-08 mirror-drifted to "ACTIVE-VERY-RIGHT" in STATUS despite being workbook-WRONG since 4/18. Every prior tally (4W/1C/9A → 5W/3C/11A → "5W/2C/4A") was wrong. The mechanical scan beats vigilance — that's why it's now protocol.
-- Calibration shape: the four new CORRECTs are all modal non-occurrence landings (RED widened ranges post-Apr lesson and it paid); RED-15 is a near-coinflip (40%) miss. Direction profile unchanged: oil-bear + HY-won't-widen remain RED's best calls.
+- Calibration shape: the four new CORRECTs are all modal non-occurrence landings on single-threshold calls. They do NOT show that widened ranges paid: both post-lesson range calls (RED-19, RED-18, 65%) were WRONG (S67 2026-11-18, independent spot-check; CHG-022 regraded NEUTRAL, `reports/2026-11-18_S67_impact-ledger-spotcheck-dispositions.md`). RED-15 is a near-coinflip (40%) miss. Direction profile unchanged: oil-bear + HY-won't-widen remain RED's best calls.
 
 ## Methodology Notes
 
@@ -33,6 +33,7 @@
 - **Anchor predictions to the workbook row at creation time** — STATUS/workbook numbering drifted (RED-11..14 vs 16..19); write the workbook ID immediately (ML-RED-068). → `MEMORY_ARCHIVE.md`
 
 **Pre-registration / falsification discipline**
+- **A binary sub-trigger scored with half-credit hides the yes/no that decides the line** (S67, ML-RED-334). CHG-027's (a) was scored 0.5 on 7/24, keeping the count at 1.5 of 4 under a 2-of-4 line whose letter had no fractions. An independent reader found it. Score 0 or 1; an ambiguous read scores 0 and says why. A self-graded ledger errs both ways, so it needs a second reader, not more care.
 - **An order book without its deal size is half a ratio** (S60-c, ML-RED-324). Take the size from the term sheet before citing a book, and ask the owner for the room left before calling a limit binding.
 - **A re-statement that re-pulls the panel but not the pre-written move table re-certifies without testing** (S60, ML-RED-323). KB-092's 'HY >320 with CCC >1100' clause was met and carried unflagged for two sessions. A window-bound probability also decays with the calendar; holding it is a claim to argue.
 - **Record a revisable row's path beside its grade** (S60, ML-RED-322). RED-23 read +71.3K, +51.3K, +69.0K; CORRECT alone reads as stable when one month's revision carried it.

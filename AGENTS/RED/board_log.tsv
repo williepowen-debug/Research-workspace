@@ -1,24 +1,5 @@
 # ROTATED FOUR TIMES - boot-read surface (boot 1.5 / 5.5), kept in the two-state regime. ARCHIVES, all FROZEN, all the place to grep when asking 'has RED already seen this?': rows before 2026-09-06 -> archive/board_log_pre-2026-09-06.tsv; rows 2026-09-06..2026-09-09 -> archive/board_log_pre-2026-09-10.tsv; rows 2026-09-10..2026-09-14 -> archive/board_log_pre-2026-09-14.tsv (rotated 2026-09-18 S46). rows 2026-09-15..2026-09-24 -> archive/board_log_pre-2026-09-25.tsv (rotated 2026-10-01 S49 closeout, at 82pct of budget - rotate-tier, before a breach this time; the pre-append gate is still unbuilt). ⚠️ S46 BREACHED THIS FILE A THIRD TIME, at 33,522 B = 103.0pct of the 32,550 B BUDGET, on a 19-row L0-drain append - and it did so having READ THIS BANNER at boot. S44 predicted the breach in writing; S45 breached anyway and installed the two-state rule as the remedy; S46 read the rule and breached anyway. 🔑 THE REMEDY FAILED FOR A NAMEABLE REASON: the two-state rule tells you what to do AFTER you measure, and NOTHING FORCES A MEASUREMENT BEFORE THE APPEND. A rule that only binds at the moment you happen to look is not a control (ML-RED-246, ML-RED-257). THE FIX IS A PRE-APPEND SIZE GATE IN THE WRITE PATH, not a shorter-rows resolution and not a fourth banner. Root CLAUDE.md Data Hygiene; BLUEPRINTS/READ_CAP.md rule 5 (rotate at >=75pct of budget, stop at <70pct).
 timestamp_read	signal_id	disposition	source	notes
-2026-11-05T11:49	SIG-W-20261105-010	noted	BOARD	CRWV notes 15-16pct on an unseen vendor table; no 1.03 or 2.04 on EDGAR; bankrupt claim killed; one-cohort repricing per LIQUID
-2026-11-05T11:49	SIG-W-20261105-012	info-only	BOARD	FNMA and FMCC common down; cause not established; not agency debt or MBS stress; HOMER owns
-2026-11-05T11:49	SIG-W-20261105-013	info-only	BOARD	Ueno, Paraguay; no US exposure established; LIQUID owns
-2026-11-05T11:49	SIG-W-20261105-015	info-only	BOARD	JPM Epstein probe headline; move not cleanly this headline; GIBBS owns
-2026-11-05T11:49	SIG-W-20261105-016	noted	BOARD	VIX 22.63 intraday; superseded by 017 on banks; closes grade FT-06, not intraday
-2026-11-05T11:49	SIG-W-20261105-017	noted	BOARD	selloff into banks, S&P -3.4, VIX 25.8 at 11:04 ET, WAL under 78 intraday, HYG calm; proxies only, no cash spread for today
-2026-11-05T11:49	SIG-W-20261105-020	noted	BOARD	HENRY gamma negative on SPX QQQ NDX at 09:48 ET; do not quote SOXX; same AI root as 005, count once
-2026-11-05T11:49	SIG-W-20261105-021	noted	BOARD	LIQUID 11/04 credit grades REVERSES; says nothing about 11/05
-2026-11-05T11:49	SIG-W-20261105-022	noted	BOARD	Barkin and Hammack hawkish headlines, bodies unread; rates rally against them; Rescue input only if verified
-2026-11-05T11:49	SIG-W-20261105-023	noted	BOARD	Iran says 5 tankers and a tug; claim-only, no neutral confirmation; FALCON owns, count with 007
-2026-11-05T12:42	2026-11-05_SIG-VIO-RED_vol-spike-curve-inverted-intraday	noted	INBOX_GENERAL	VIOLET outbound row met on live quotes, credit-flat leg unconfirmed; nothing fires before the close; grade FT-06 and FT-10 on official bars only
-2026-11-05T13:44	2026-11-05_from-BROCK_brk26-SQN-does-not-resolve	noted	INBOX_GENERAL	BROCK graded BRK-26: SQN does not resolve, OPEN 55% to 12/31, KB-BRK-429 read at artifact; Test 2 not needed on its fund-level reading; catalyst row resolved
-2026-11-05T16:08	SIG-W-20261105-055	deferred	INBOX_WALTER	Close read, vendor 16:05 ET not official: VIX 26.86, VVIX 131.46. FT-06 exit day 1 only on published VIXCLS >=18; FRED T+1. Grade when it posts
-2026-11-06T10:16	SIG-W-20261106-012	acted	INBOX_WALTER	ACTION line: FT-02 exit 0 of 3 at HY 348 [11/05], FT-06 exit 1 of 5 on VIXCLS 28.18, FT-10 exit 0 of 4 at SKEW 149.37, CCC 1,320. All agree at FRED and Cboe. TERRY, LIQUID, REGINALD lines are theirs
-2026-11-06T10:16	SIG-W-20261106-001	acted	BOARD	Third August print: RED-23 graded CORRECT at BLS, +69.0K on the resolving vintage
-2026-11-06T10:16	SIG-W-20261106-010	noted	BOARD	LABOR v2 fired; bull input for the post-11/10 ledger, caveats kept; combo labor-bull-rebuild
-2026-11-06T10:16	SIG-W-20261106-011	noted	BOARD	HENRY close grade; QQQ and NDX first closes under 200-day since 4/7; ledger input
-2026-11-06T10:16	SIG-W-20261106-003	noted	BOARD	Japan -5.96%, SoftBank CDS 466bp, secondary; combo forced-deleveraging and ai-financing-reach
-2026-11-06T10:16	SIG-W-20261106-004	noted	BOARD	23 of 24 HY data center bonds wider, ING, BoE; secondary or anonymous; combo ai-financing-reach
 2026-11-06T10:16	SIG-W-20261106-008	noted	BOARD	Walleye and October fund losses, no closures reported; combo forced-deleveraging
 2026-11-06T10:16	SIG-W-20261105-057	noted	BOARD	Correction read, VIX 28.17 vendor; official close 28.18 at FRED and Cboe governs FT-06; receipted
 2026-11-06T10:16	SIG-W-20261105-061	noted	BOARD	Cable One Chapter 11 conditional; combo credit-breadth-outside-ai; BROCK owns
@@ -112,3 +93,22 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-17T08:44:48-05:00	SIG-W-20261113-005	noted	BOARD	S66 Car-Mart standstill: listed unread candidate member on combo KB-110, not scored
 2026-11-17T08:44:48-05:00	SIG-W-20261112-003	info-only	BOARD	S66 correction COR-20261112-03 receipted NO-OP, RED never cited
 2026-11-17T08:44:48-05:00	SIG-W-20261116-009	info-only	BOARD	S66 correction COR-20261116-09 receipted NO-OP, RED never cited
+2026-11-18T10:21:46-05:00	SIG-W-20261117-001	noted	BOARD	S67 Qeshm strike claim + Bahrain drones + 2 tankers hit 11/16; War input, superseded by 022/028; counted once at next re-derivation
+2026-11-18T10:21:46-05:00	SIG-W-20261117-022	noted	BOARD	S67 US self-defense strike on Qeshm 11/17; War hypothesis input; FALCON grades FAL-09, not RED
+2026-11-18T10:21:46-05:00	SIG-W-20261117-028	noted	BOARD	S67 FALCON grade: strike CONFIRMED, official ANONYMOUS; TARA GAS hit twice, not new hull; FAL-09 1 of 5
+2026-11-18T10:21:46-05:00	SIG-W-20261117-015	info-only	BOARD	S67 Iran plot title + Iraq-KH standoff; titles only, not established
+2026-11-18T10:21:46-05:00	SIG-W-20261117-004	noted	BOARD	S67 Oct retail sales; read with CARL correction 010; consumer input counted once at next re-derivation
+2026-11-18T10:21:46-05:00	SIG-W-20261117-010	noted	BOARD	S67 CARL correction: ex-autos +0.63, control +0.59 (Sep control rev +0.53); bull consumer input, next re-derivation
+2026-11-18T10:21:46-05:00	SIG-W-20261117-007	deferred	BOARD	S67 BIS chip-diversion rule + Megaspeed; CHG-057 input at 11/19 re-review
+2026-11-18T10:21:46-05:00	SIG-W-20261117-013	deferred	BOARD	S67 Huang return offer, Singapore disclosure titles; CHG-057 input 11/19
+2026-11-18T10:21:46-05:00	SIG-W-20261117-014	deferred	BOARD	S67 Fed FSR AI top risk, 680B AI-compute debt; CHG-057 input 11/19 (read with 017, 031)
+2026-11-18T10:21:46-05:00	SIG-W-20261117-017	deferred	BOARD	S67 BROCK at Fed primary: ~1T large-bank AI-chain exposure, >1T leases + >2T guarantees; CHG-057 input 11/19
+2026-11-18T10:21:46-05:00	SIG-W-20261117-031	info-only	BOARD	S67 weekday label correction of 014, figures hold
+2026-11-18T10:21:46-05:00	SIG-W-20261117-019	deferred	BOARD	S67 Nvidia Q3 FY27 rev 115.8B, Q4 guide 130B; CHG-057 input 11/19 (read with VULCAN correction 020)
+2026-11-18T10:21:46-05:00	SIG-W-20261117-020	deferred	BOARD	S67 VULCAN 8-K read: guarantees max 118.0B, supply commitments 390B, neocloud 32B; CHG-057 11/19
+2026-11-18T10:21:46-05:00	SIG-W-20261117-025	deferred	BOARD	S67 WSJ via TechCrunch: SEC civil probe of Nvidia disclosures, unconfirmed by parties; CHG-057 input 11/19
+2026-11-18T10:21:46-05:00	SIG-W-20261117-026	info-only	BOARD	S67 Equinor cyber-attack, ops unaffected; HANS/CYPHER domain, no RED object
+2026-11-18T10:21:52-05:00	2026-11-17_from-PROME_outside-audit-repoint-four-hashes-spot-check-running	acted	INBOX_GENERAL	S67 7 CHALLENGES rows repointed to origin hashes (029-032, 033, 034, 038); reply-date rule declined
+2026-11-18T10:21:52-05:00	2026-11-17_from-PROME_spot-check-of-seven-flagged-rows-delivered	acted	INBOX_GENERAL	S67 7 dispositions in reports/2026-11-18_S67_impact-ledger-spotcheck-dispositions.md; CHG-027 binary rule pre-data
+2026-11-18T10:21:52-05:00	2026-11-17_from-PROME_WQ-714-one-usage-rerun-both-machines	acted	INBOX_GENERAL	S67 desktop leg run, research/2026-11-18_usage-rerun_desktop; laptop leg owed at next laptop session
+2026-11-18T10:27:45-05:00	SIG-W-20261118-006	noted	BOARD	S67 FALCON grade: Kuwait and Bahrain attacks 11/18 confirmed by states, damage not established; ADNOC hull probably distinct; War input counted once at next re-derivation

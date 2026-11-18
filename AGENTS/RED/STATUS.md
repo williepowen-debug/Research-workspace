@@ -1,4 +1,5 @@
 # RED STATUS
+**S67 2026-11-18 10:26 ET closeout (from `date`; desktop, Will 10:17 ET "catch up on any owed tasks, check your inbox"): HOLD 72 · net-bear 67, unchanged; no hypothesis weight moved. **FT-06 exit 4 of 5** on FRED VIXCLS 18.70 / 19.30 / 22.91 / 25.46 [11/12–11/17]: the 11/18 close ≥18 completes it (read 11/19) and executes Stag +2 / Managed −2 → net-bear 69; a close <18 breaks it. Inbox drained (three PROME packets of 11/17 evening, all acted): seven CHALLENGES citations repointed to origin hashes; seven impact-ledger rows dispositioned after an independent spot-check (headline 2 of 25 = 8.0%; CHG-027 gets a binary scoring rule pre-data); usage re-run on the desktop (laptop leg owed). Owed rows cleared: KB-104 → KB-116 (Oct retail; VX-003 bull 25 → 30, discretionary, vector only); KB-054 dated-historical; four combo themes reviewed; ZBT 11/27 tree written; VX-002 vintage clause written pre-data (⚠️ on that clause the real-wage run is NOT met today; the 20/80 hold is labelled discretion until 12/10). Review debt 0.**
 **S66 2026-11-17 08:45 ET (from `date`; PROME prome-19 due-row wake, WQ-184 C6; NOT a closeout, holding for PROME): HOLD 72 · net-bear 67, unchanged; no weight moved. **CHG-RED-045 CLOSED (RESOLVED)** on the governing re-spec, NOT FIRED (23bp of 100bp), with no reopen word from Will. **FT-06 exit run restarted: 2 of 5** on VIXCLS 18.70 [11/12] and 19.30 [11/13]; Cboe 22.91 [11/16] indicates 3 (FRED unpublished at read); if 11/17 and 11/18 close ≥18 the exit completes on the 11/19 read and executes Stag +2 / Managed −2 mechanically. Tape since S63 [FRED, dated]: 10Y 4.88 → 5.15, 30Y 5.26 → 5.47, real 10Y 2.66 → 2.91 [11/09 → 11/13] while 5y5y fell to 2.15 [11/16]: a real-rate shock, not an inflation scare; HY 323 / CCC 1,316 [11/13]; SPX 7,416.59 [11/16] under its 50-DMA. Hygiene on PROME packets: 12 stale KB rows dispositioned (6 refreshed, 4 dated-historical, 2 re-dated), CHANGELOG ID aliases RED-11..14 = canon RED-16..19. **Correction:** bull point 2's "real wages negative four straight months" fails on the current vintage (Aug revised to +0.01pp, Sep −0.33pp; KB-RED-107); VX-002 held by discretion pending a vintage letter before 12/10.**
 **S64 2026-11-12 15:34 ET closeout (from `date`; Will's word 14:18 ET via PROME prome-e8; state ruled 14:45 ET): HOLD 72 · net-bear 67, unchanged; no weight, trigger, prediction, challenge or catalyst moved. `closeout_check.py` check e repaired (CATO M12-3: an earlier same-day packet no longer passes a later change; content-keyed, two independent reads). PROVISIONALLY REPAIRED until this closeout's reconciliation commit; reconciled here (charter W8, MANUAL W8 line, e wording). e never proves a change was delivered; false passes named in charter W8. → `MAINTENANCE.md` S64.**
 **S63-b 2026-11-12 12:10 ET (from `date`; Will 12:08 ET "ok i approve your recs. go ahead"): HOLD 72 · net-bear 67, unchanged; no weight, trigger or prediction moved. WQ-678 trims applied to `CLAUDE.md` (7 of 8; U-R07 declined); PROME routing now by `PROME/inbox/` packet only, `OUTBOX.md` FROZEN; `closeout_check.py` (e) reads the packet. → `MAINTENANCE.md` S63-b.**
@@ -44,6 +45,8 @@
 
 ## COUNTER-SIGNALS
 
+**S67 2026-11-18 update (FRED / vendor, dated; rows below not re-pulled are S63 vintage [STALE 11/12]):** VIX close 25.46 [11/17] (bear: back over WL-02's 20) · HY / CCC 334 / 1,310 [11/16] (FT-02 fire line 320; exit 0 of 3) · 5y5y 2.16 [11/17] (bull: flat at lows) · SKEW 145.11 [11/17, Cboe] · claims 200K [w/e 11/07] · Brent BZ=F 89.34 intraday [11/18, vendor] · S&P 500 7,340.53 [11/17], under its 200-day (HENRY HEN-60) · Oct retail control +0.59% (CARL), Sep revised +0.53% (bull, KB-RED-116).
+
 **Live counter-signal levels [S63 2026-11-12, FRED / Cboe / owner artifacts, each dated]:**
 
 | Signal | Level | Reads |
@@ -67,7 +70,7 @@ Live per-vector weights are `workbook/VX.tsv` (14 live vectors). A full vector r
 |---|---|---|
 | **FT-01** HY<280 s=3 | ARMED; 0-of-3 · LOG-ONLY (S52 P4) | 334 [11/09]; round trip CLOSED 9/29 (+2); later fires move nothing |
 | **FT-02** HY>320 s=3 | **FIRED 2026-10-16 obs (EXECUTED 10/21); exit armed <300 s=3; exit 0-of-3 [2026-11-05]** | 348 [11/05, post-fire high] · 342 [11/06] · **334 [11/09]** → exit **0 of 3**, 34bp away. FRED's cell dated 11/11 (330; 11/10 absent) sits on a SIFMA close: not counted. Outcome graded at horizon (KRE TR <0 over 60 obs from 69.81) |
-| **FT-06** VIX<16 s=5 | FIRED-BANKED; exit 2-of-5 [2026-11-13] | **[S66 11/17] New run: 2 of 5** on VIXCLS 18.70 [11/12] · 19.30 [11/13]; Cboe 22.91 [11/16] indicates 3 (only VIXCLS completes). Earliest completion the 11/18 close, read 11/19 → Stag +2 / Managed −2. Prior run broke at 4 of 5 on 17.49 [11/11]; RED-29 WRONG. Thanksgiving 11/26 bar is bridged (non-session) |
+| **FT-06** VIX<16 s=5 | FIRED-BANKED; exit 4-of-5 [2026-11-17] | **[S67 11/18] 4 of 5** on VIXCLS 18.70 [11/12] · 19.30 [11/13] · 22.91 [11/16] · 25.46 [11/17] (FRED; WALTER's read the same). The 11/18 close ≥18 completes it, read at FRED 11/19 → Stag +2 / Managed −2 (net-bear 69); a close <18 breaks it. Vendor ^VIX 24.83 at 10:11 ET 11/18 (intraday, not a close). Prior run broke at 4 of 5 on 17.49 [11/11]; RED-29 WRONG. Thanksgiving 11/26 bar is bridged (non-session) |
 | **FT-07** CCC>930 s=1 | FIRING-BANKED | 1,311 [11/09], +381 over the line (FRED cell dated 11/11, 1,330, non-session, not counted); base rate 99% @120 = descriptor |
 | **FT-08** core CPI 3-mo ≥3.0 s=1 | FIRED 10/14 (EXECUTED) | Oct graded S62: core +0.3, window 3.66 (index 3.75) → HOLD; exit <2.5 s=1 → at 12/10 only Nov core ≤0.0 exits (RED-28); future fires +1 (S52 P3) |
 | **FT-10** ^SKEW≥150 s=4 | FIRED 10/14 (EXECUTED); exit 0-of-4 [2026-11-05] | 153.55 [11/06] · 150.34 · 151.12 · **149.09 [11/11]** (Cboe); exit <140 strict s=4 = **0 of 4**. **Outcome condition MET at obs 14, VIXCLS 21.15 [11/02]**; graded ~11/25 |
@@ -90,7 +93,7 @@ Live per-vector weights are `workbook/VX.tsv` (14 live vectors). A full vector r
 | **CHG-RED-055** | Self - RED-FT-11 v1.1 classifier (FLOW bran… | MODERATE-STRONG | ACTIVE | 12/15 | The FLOW branch is a shape test that a haven bid reproduces; BOND measured the buyback bid at ~30pct of new long-bond D… |
 | **CHG-RED-057** | PROME and fleet working model - AI funding… | MODERATE | ACTIVE | 11/19 | CURRENT [S62-b 2026-11-10]: MODERATE unchanged, graded on the tree (brought forward from 11/11 by PROME prome-07 on Wil… |
 
-*Generated from canon 2026-11-17 by `scripts/status_mirrors.py`: 57 rows, 5 open, 52 RESOLVED*. Do not hand-edit between the markers; `boot.py` §④ lists the open set live.*
+*Generated from canon 2026-11-18 by `scripts/status_mirrors.py`: 57 rows, 5 open, 52 RESOLVED*. Do not hand-edit between the markers; `boot.py` §④ lists the open set live.*
 <!-- /GEN:challenges -->
 
 **Live notes [2026-10-22, prose — not a claim about the TSV]:**
@@ -103,11 +106,11 @@ Live per-vector weights are `workbook/VX.tsv` (14 live vectors). A full vector r
 - **CHG-RED-054** — **S62 11/10 on the OZK 10-Q (OZK desk read 11/07):** ≥$208.1M of the −$313M special mention took no adverse route; RaDD pass at 9/30; OZK-09 STUCK → OZK leg stays MODERATE by the pre-stated rule; lead MODERATE; re-review 11/30. RED grades reasoning only; dispositions are Will's
 ---
 
-## TOP ADVERSARIAL PRIORITIES (live queue = `SCRATCH.md` § NEXT SESSION; dated headline only, 2026-11-12)
+## TOP ADVERSARIAL PRIORITIES (live queue = `SCRATCH.md` § NEXT SESSION; dated headline only, 2026-11-18)
 
-1. 🟠 **Fri 11/13:** KB review wave (KB-107 real wages re-class, October unreadable; KB-086/067/105/106/108; combo theme credit-breadth-outside-ai, KB-110). Done 11/12: FT-06 / RED-29 graded (run broke, RED-29 WRONG), post-CPI re-derivation (net-bear 67), intake and corrections.
-2. 🟠 **11/14–11/20:** KB rows due 11/14–11/20 (EGBN, FL banks, BDCs, retail sales, three combo themes) · 11/17 CHG-045 (Will only) · 11/19 CHG-057 re-review (NVIDIA 10-Q, ING bids) · 11/20 combo themes and Michigan final; a decision tree for the 11/27 Zweig thrust grade is due by 11/20.
-3. 🟡 **~11/25** FT-10 outcome grade · **11/30** CHG-044, CHG-054 · **12/10** Nov CPI (RED-28) · **12/15** CHG-055, RED-31 · **12/31** RED-25/26/27/30 · ~1/28 EGBN Q4. Retirement pass owed: about 8 files over 60 days old (13:14 ET sweep).
+1. 🟠 **Thu 11/19:** FT-06 exit read at FRED (5 of 5 if 11/18 closed ≥18 → Stag +2 / Managed −2 mechanically, CHANGELOG + NEW packet) · then CHG-057 re-review on its tree (`research/2026-11-10_AI_FUNDING_TEST_TREE.md`): ING bids, Nvidia Q3 8-K (guarantees $118.0B max, supply commitments $390B), SEC probe report, Fed FSR Box 2.2; STRONG → TERRY for a tradeability read. KB-109 re-read with the ING outcome by 11/20.
+2. 🟡 **11/20–11/30:** Michigan final 11/20 · ~11/25 FT-10 outcome grade · 11/27 VX-006 ZBT grade on its tree (`research/2026-11-18_VX006_ZBT_RESOLUTION_TREE.md`) · by 11/28 review VX-006, -012, -015, -017 · 11/30 CHG-044, CHG-054, and the CHG-027 close-vs-carry question.
+3. 🟡 **12/03** VX-002 12/10 decision tree (vintage clause set 11/18) · **12/04** payrolls → next re-derivation · **12/09** FOMC · **12/10** Nov CPI (RED-28) · **12/15** CHG-055, RED-31 · **12/31** RED-25/26/27/30 · ~1/28 EGBN Q4. Laptop leg of the WQ-714 usage re-run at the next laptop session. Retirement pass offered, not assigned: about 8 files over 60 days.
 4. 🟢 **Charter trim RULED A by Will 2026-10-28 21:43 ET ("ok go with A and record it"): leave CLAUDE.md at 27.9 KB (86% of budget).** Revisit at >29,295 B (90%) OR the next substantive charter edit. **[S66 2026-11-17 08:47 ET restatement, arithmetic on that ruling, no new rule: WQ-701 (root CLAUDE.md, 11/16) set the desk-charter ceiling at 50,000 B, so the 90% line is 45,000 B; the charter is 29,245 B = 58.5% (it had reached 99.8% of the old 29,295 B line).]** DAEDALUS Census #2 declined without spending that trigger. KB-081 stays on review_debt axis ② by design.
 
 ---
@@ -115,7 +118,7 @@ Live per-vector weights are `workbook/VX.tsv` (14 live vectors). A full vector r
 ## PREDICTIONS SCORECARD — pointer only (canonical: `workbook/PREDICTIONS.tsv`)
 
 <!-- GEN:tally -->
-**TALLY 2026-11-17 (generated off canon TSV, 31 rows): 14 CORRECT / 11 WRONG / 6 ACTIVE (RED-25 2026-12-31; RED-26 2026-12-31; RED-27 2026-12-31; RED-28 2026-12-10; RED-30 2026-12-31; RED-31 2026-12-15).**
+**TALLY 2026-11-18 (generated off canon TSV, 31 rows): 14 CORRECT / 11 WRONG / 6 ACTIVE (RED-25 2026-12-31; RED-26 2026-12-31; RED-27 2026-12-31; RED-28 2026-12-10; RED-30 2026-12-31; RED-31 2026-12-15).**
 <!-- /GEN:tally -->
 The 10/01 tally line said 1 ACTIVE because RED-25 was registered the same session and left uncounted; CALENDAR and NEXUS now carry this same line. Last resolutions: **RED-29 WRONG 11/12** (EVENT FALSE, 50pct, run broke at 4 of 5 on 17.49) · RED-23 CORRECT 11/06 · RED-04 CORRECT 10/01 · RED-24 WRONG 9/18 (the FT-10 Wednesday conditional, P≈57–60%, killed by a 5.48-pt drop — n=1 is not a calibration verdict).
 

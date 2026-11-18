@@ -1,15 +1,15 @@
 # RED — NEXUS Brief
 
-**Status:** 🟠 **vS66 (2026-11-17 08:45 ET). HOLD 72 · net-bear 67, unchanged; no weight moved.** Stag 32 · Managed 26 · Acute 20 · War 15 · Soft 4 · Rescue 3. Prior vS63 → `reports/2026-11-17_NEXUS_BRIEF_vS63_rotated.md`.
-- 🆕 **FT-06 exit run restarted, 2 of 5:** VIXCLS 18.70 [11/12] · 19.30 [11/13] (FRED); Cboe **22.91 [11/16]** indicates 3 (FRED cell unpublished at read; only VIXCLS completes). If 11/17 and 11/18 both close ≥18, the exit completes on the 11/19 read and executes **Stag +2 / Managed −2 mechanically** (net-bear 67 → 69). A close under 18 on either day breaks it again.
-- 🆕 **CHG-RED-045 CLOSED (RESOLVED) 11/17:** no reopen word from Will; the governing re-spec stands NOT FIRED (23bp of 100bp). On the official measure the evidence runs against CARL's household-credit thesis; CARL's to weigh.
-- 🆕 **A real-rate shock, not an inflation scare [FRED]:** DFII10 2.66 → **2.91**, DGS10 4.88 → **5.15**, DGS30 5.26 → **5.47**, DGS2 4.56 → 4.88 [11/09 → 11/13]; 5y5y **2.15 [11/16]**. Bull point 1 (expectations anchored) holds; the bear-relevant fact is the real leg, BOND's to attribute.
-- 🆕 **Correction to RED's own bull steelman:** "real wages negative four straight months" fails on the current vintage. AHETPI was revised up: Aug −0.05 → **+0.01pp**, Sep −0.42 → **−0.33pp**; October unreadable (no Oct 2025 CPI). VX-002 held 20/80 by discretion pending a vintage letter before 12/10. Do not relay the four-month claim.
-- **Tape [dated]:** HY 323 / CCC 1,316 [11/13] (gap 993bp, widest on RED's record); SPX 7,416.59 [11/16] under its 50-DMA 7,661 after an Nvidia governance shock (WALTER 11/16); SKEW 146.33 [11/16]; OVX 49.59 [11/16, vendor].
-- **Carried from vS63:** FT-08 HOLDS (3.66; exits 12/10 only on Nov core ≤0.0); CHG-057 MODERATE, re-review 11/19 (Nvidia results 11/17 after the close are new input); CHG-054 MODERATE, 11/30; SoftBank own-basis 22.5% (SAM 11/11).
+**Status:** 🟠 **vS67 (2026-11-18). HOLD 72 · net-bear 67, unchanged; no hypothesis weight moved.** Stag 32 · Managed 26 · Acute 20 · War 15 · Soft 4 · Rescue 3. Prior vS66 → `reports/2026-11-18_NEXUS_BRIEF_vS66_rotated.md`.
+- 🆕 **FT-06 exit 4 of 5:** VIXCLS 18.70 [11/12] · 19.30 [11/13] · 22.91 [11/16] · **25.46 [11/17]** (FRED; WALTER's read the same). The 11/18 close ≥18 completes it on the 11/19 read and executes **Stag +2 / Managed −2 mechanically (net-bear 67 → 69)**; a close under 18 breaks it. Vendor ^VIX 24.83 at 10:11 ET 11/18, intraday.
+- 🆕 **Consumer spending firmer than RED carried:** Oct retail control +0.59% (CARL), Sep control revised +0.14% → +0.53%; headline +0.21% weak on autos (−1.60%); headline and ex-autos (+0.63%) verified at FRED by RED. VX-003 bull 25 → 30 (vector only, discretionary). KB-RED-116.
+- 🆕 **VX-002 real wages:** vintage clause set pre-data (current vintage, one pull, unreadable October bridged). ⚠️ On that clause the run is NOT met today (Sep −0.33pp alone); the 20/80 FLIPPED-BEAR hold is labelled discretion until the 12/10 grade. Do not relay "real wages negative four months".
+- 🆕 **RED's own record audited:** an independent spot-check of seven impact-ledger rows found no invented fact and six description or classification defects, three each way. Harmful-revision headline now 2 of 25 = 8.0% (was 2 of 24 = 8.3%). `reports/2026-11-18_S67_impact-ledger-spotcheck-dispositions.md`.
+- **Tape [dated]:** HY 334 / CCC 1,310 [11/16]; 5y5y 2.16 [11/17]; SKEW 145.11 [11/17]; S&P 500 7,340.53 [11/17], under its 200-day (HENRY HEN-60). US strike on Qeshm 11/17 confirmed (official anonymous); Kuwait and Bahrain attacks 11/18 confirmed by the states, damage not established (FALCON). Nvidia Q3 revenue $115.8B, Q4 guide $130.0B; SEC probe reported, unconfirmed.
+- **Carried:** FT-08 HOLDS (3.66; exits 12/10 only on Nov core ≤0.0); CHG-057 MODERATE, re-review 11/19; CHG-054 MODERATE, 11/30.
 
 **Domain:** Adversarial cross-cutting counter-signal. RED holds no domain data: it steelmans the bull case against every desk's bear thesis and grades challenges. It RECEIVES every desk's STATUS and outbox; it SENDS to PROME (`PROME/inbox/` packets) and to desks (`challenges/` + inbox packets).
-**Thesis version:** S63 (2026-11-12, discretionary re-derivation; vS66 11/17 moved no weight) on S57 (2026-10-28, discretionary) on S56 (pre-stated bank +1) on S55 (FT-02 mechanical). Next discretionary re-derivation: after the 12/04 payrolls or any registered fire.
+**Thesis version:** S63 (2026-11-12, discretionary re-derivation; vS66 11/17 and vS67 11/18 moved no hypothesis weight) on S57 (2026-10-28, discretionary) on S56 (pre-stated bank +1) on S55 (FT-02 mechanical). Next discretionary re-derivation: after the 12/04 payrolls or any registered fire.
 
 ---
 
@@ -27,9 +27,9 @@
 ## CALIBRATION
 
 - **Conviction:** direction-M · timing-M− · level-M−. **HOLD 72** (S55 +2 mechanical FT-02; S48 +2 mechanical) · **Net-bear 67** (S63 −1 discretionary; S57 −1 discretionary; S56 +1 pre-stated; S55 +3, S52 +3, S52b +2 mechanical; 60 at S51).
-- **Scorecard (canonical `workbook/PREDICTIONS.tsv`, generated count 2026-11-12, 31 rows): 14 CORRECT · 11 WRONG · 6 ACTIVE (RED-28 12/10 · RED-31 12/15 · RED-25, RED-26, RED-27, RED-30 12/31).** STATUS and CALENDAR carry this same line. Latest: RED-29 WRONG 11/12.
+- **Scorecard (canonical `workbook/PREDICTIONS.tsv`, generated count 2026-11-18, 31 rows): 14 CORRECT · 11 WRONG · 6 ACTIVE (RED-28 12/10 · RED-31 12/15 · RED-25, RED-26, RED-27, RED-30 12/31).** STATUS and CALENDAR carry this same line. Latest: RED-29 WRONG 11/12.
 - **Scorecard caveat (2026-11-05 16:43 ET):** the CORRECT and WRONG tally mixes two conventions, stated at `workbook/PREDICTIONS.tsv` line 2. Do not compare it across desks. RED-26 and RED-27 share one root.
-- **Open challenges: 6** (045 household debt 11/17 · 057 AI funding 11/19 · 044 BRK-32 11/30 · 054 bank-put book 11/30 · 055 FT-11 classifier 12/15 · 027 EGBN Q4 ~1/28).
+- **Open challenges: 5** (057 AI funding 11/19 · 044 BRK-32 11/30 · 054 bank-put book 11/30 · 055 FT-11 classifier 12/15 · 027 EGBN Q4 ~1/28).
 - **Diverge from fleet by:** (1) the HY retracement does not un-fire FT-02 until <300 ×3; (2) stagflation is co-modal with managed decline, not the modal path; (3) a hiking Fed is not a rescue; (4) DEWEY's bank result is not uniform deterioration.
 - **Uncertain about:** (1) whether the 12/9 Fed goes 50 and what that does to the AI-funding edge; (2) whether paper oil's fall is de-escalation or deal hope that flows contradict; (3) whether the FRED cell dated 11/11 is the 11/10 session relabelled (LIQUID's call).
 
@@ -37,20 +37,19 @@
 
 ## CROSS-DOMAIN
 
-**SENDING [2026-11-12]:**
+**SENDING [2026-11-18]:**
 
 | To | Signal | Priority | Mechanism in recipient's domain |
 |----|--------|----------|----------------------------------|
-| **PROME** | S63: FT-06 broke, RED-29 WRONG, net-bear 67 (from 68) | 🟡 | packet `PROME/inbox/2026-11-12_from-RED_S63-ft06-rederivation.md` |
+| **PROME** | S67: owed packets done (hashes, spot-check dispositions, desktop usage totals); FT-06 4 of 5 | 🟡 | packet `PROME/inbox/2026-11-18_from-RED_S67-owed-work-done-ft06-4of5.md` |
 
-**WAITING FOR [2026-11-12]:**
+**WAITING FOR [2026-11-18]:**
 
 | From | Input | Expected by | How it changes my view |
 |------|-------|-------------|------------------------|
-| FRED / LIQUID | 11/10 ICE OAS cell | 11/12–11/13 | FT-02 exit <300 ×3 (0 of 3; 334 [11/09]) |
-| Will | CHG-045 reopen choice | 11/17 | closes as not reopened unless Will reopens |
+| FRED | VIXCLS 11/18 close | 11/19 | FT-06 exit 5 of 5 → Stag +2 / Managed −2 |
 | NVIDIA / ING | 10-Q guarantee line; data-center loan auction bids | 11/19 | CHG-057 re-review (MODERATE → STRONG only on a qualifying fact) |
-| FALCON | weekly grade | 11/18 | War weight |
+| FALCON | weekly grade | 11/18 | War weight (counted once at the next re-derivation) |
 
 ---
 
@@ -58,16 +57,16 @@
 
 | Date | Event | What it decides |
 |------|-------|-----------------|
-| 🟡 Tue 11/17 | CHG-045, Will only | reopen or close |
+| 🟠 Thu 11/19 | FT-06 exit read | 5 of 5 → net-bear 69, or a break |
 | 🟠 Thu 11/19 | CHG-057 re-review; ING auction | AI funding challenge grade |
 | 🟡 ~11/25 | FT-10 outcome horizon | condition already met; apparatus only |
 | 🟡 Thu 11/26 | Thanksgiving | VIX holiday bar bridged, not counted |
-| 🟡 Fri 11/27 | VX-006 Zweig 12-month grade | tree due by 11/20 |
+| 🟡 Fri 11/27 | VX-006 Zweig 12-month grade | tree written 11/18; SPY close vs 683.39 |
 | 🟡 Mon 11/30 | CHG-044, CHG-054 | BRK-32; bank-put book |
 | 🟠 Wed 12/9 | FOMC | 25 vs 50; Stag/Managed/Rescue |
 | 🔴 Thu 12/10 | November CPI | FT-08 exit only on core ≤0.0 (RED-28) |
 
-**Daily monitors [2026-11-12]:** FT-02 exit (334 [11/09], 0 of 3) · FT-12 HY vs 260 (74bp) · CCC 1,311 (FT-07 banked) · FT-10 SKEW 149.09 [11/11] (exit <140, 0 of 4) · FT-06 exit 0 of 5 (new clock only on a fresh ≥18 run) · FT-11 next window · WL-07/12 USD/JPY 159.75 vs 160/155 [vendor 11/12] · WL-11 Brent <95 price leg met (91.49 [11/10]), flow leg BRENT's.
+**Daily monitors [2026-11-18]:** FT-02 exit (334 [11/16], 0 of 3) · FT-12 HY vs 260 (74bp) · CCC 1,310 (FT-07 banked) · FT-10 SKEW 145.11 [11/17] (exit <140, 0 of 4) · FT-06 exit 4 of 5 [11/17] · FT-11 next window · WL-07/12 USD/JPY 159.75 vs 160/155 [vendor 11/12] · WL-11 Brent <95 price leg met (91.49 [11/10]), flow leg BRENT's.
 
 ---
 

@@ -4,6 +4,13 @@
 
 ---
 
+## S67 — 2026-11-18 (from `date`; desktop, Will 10:17 ET "catch up on any owed tasks") — **NO HYPOTHESIS WEIGHT MOVED. HOLD 72 · net-bear 67 unchanged. One registered-trigger exit COUNT moved (FT-06 2 of 5 → 4 of 5); no fire, no exit.**
+
+- **FT-06 exit:** Old view: "2 of 5 [11/13]; Cboe 22.91 [11/16] indicates 3." New view: "4 of 5 on FRED VIXCLS 18.70 / 19.30 / 22.91 / 25.46 [11/12–11/17] (WALTER's independent read the same). The 11/18 close ≥18 completes it, read 11/19 → Stag +2 / Managed −2, net-bear 67 → 69. A close <18 breaks it."
+- **VX-RED-003 (consumer spending), vector weight only:** bull 25 → 30, DISCRETIONARY. Old view: "Sep control +0.14% (~−0.1% real) is the bear lean." New view: "Sep control revised to +0.53% and Oct +0.59% (CARL; headline +0.21% and ex-autos +0.63% RED-verified at FRED); Flip_If not met." Counted once in the next re-derivation's consumer ledger.
+- **VX-RED-002 (real wages):** vintage clause written into the letter pre-data (current vintage, one pull; unreadable October bridged). On that clause the run is NOT met today (Sep −0.33 alone); the 20/80 hold stays a labelled discretion until 12/10.
+- **Impact ledger, independent spot-check dispositioned:** 026 → NO-REVISION; 022 → NEUTRAL; 028 → IMPROVED, its HARMED sub-leg withdrawn; 008, 018, 041 descriptions corrected, grades kept. Headline 2 of 25 = 8.0%. CHG-027 gets a binary scoring rule before the EGBN Q4 data. → `reports/2026-11-18_S67_impact-ledger-spotcheck-dispositions.md`.
+
 ## S66 — 2026-11-17 08:45 ET (from `date`; PROME prome-19 due-row wake, not a closeout) — **NO WEIGHT MOVED. HOLD 72 · net-bear 67 unchanged. One registered-trigger exit COUNT moved (FT-06 0 of 5 → 2 of 5); no fire, no exit. One challenge closed.**
 
 - **CHG-RED-045 → RESOLVED.** Old view (11/10): "open to 11/17 only for Will's reopen decision; RED does not recommend reopening." New view: "no reopen word from Will (WILL_QUEUE, PROME SCRATCH and proposals checked 08:39 ET); closed on the governing re-spec, NOT FIRED at Q3 (23bp of 100bp). On the official measure the evidence runs against CARL's thesis; that is CARL's to weigh."

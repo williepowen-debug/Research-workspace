@@ -1,0 +1,184 @@
+# MACHINE DESKTOP-BC6EF81 (desktop) · WINDOW 2026-10-19 to 2026-11-18 inclusive (UTC timestamp dates) · run 2026-11-18 10:19 EST by RED S67 · script usage_by_desk_split.py
+CLAUDE 2026-10-19 2026-11-18 fresh+out 275,614,785 cacheread 11,934,735,841
+PROME            files  125 fresh+out   48,324,996  17.5% cacheread  3,321,801,165  27.8% all  27.6%
+WALTER           files   34 fresh+out   23,666,785   8.6% cacheread  1,675,702,940  14.0% all  13.9%
+REGINALD         files   20 fresh+out   10,209,074   3.7% cacheread    534,638,985   4.5% all   4.5%
+TERRY            files   19 fresh+out   10,732,275   3.9% cacheread    454,364,239   3.8% all   3.8%
+DAEDALUS         files   17 fresh+out    7,735,942   2.8% cacheread    452,310,084   3.8% all   3.8%
+DEWEY+reader     files   58 fresh+out   12,191,377   4.4% cacheread    314,293,529   2.6% all   2.7%
+VULCAN           files   21 fresh+out    8,685,300   3.2% cacheread    308,697,250   2.6% all   2.6%
+BROCK            files   17 fresh+out    7,943,247   2.9% cacheread    297,676,577   2.5% all   2.5%
+HENRY            files   17 fresh+out    8,704,964   3.2% cacheread    265,902,648   2.2% all   2.2%
+CYPHER           files   14 fresh+out    6,185,975   2.2% cacheread    250,606,943   2.1% all   2.1%
+DEWEY            files   13 fresh+out    5,694,784   2.1% cacheread    235,462,230   2.0% all   2.0%
+LIQUID           files   13 fresh+out    6,810,434   2.5% cacheread    233,177,243   2.0% all   2.0%
+DAEDALUS+reader  files   29 fresh+out    6,780,574   2.5% cacheread    231,890,473   1.9% all   2.0%
+CREED            files    7 fresh+out    5,546,942   2.0% cacheread    223,594,256   1.9% all   1.9%
+BRENT            files   14 fresh+out    6,425,037   2.3% cacheread    221,046,490   1.9% all   1.9%
+RED              files   13 fresh+out    5,866,931   2.1% cacheread    196,894,390   1.6% all   1.7%
+FALCON           files   17 fresh+out    4,995,259   1.8% cacheread    183,718,590   1.5% all   1.5%
+CARL             files   11 fresh+out    4,033,590   1.5% cacheread    157,485,931   1.3% all   1.3%
+ZHAO             files   12 fresh+out    3,934,970   1.4% cacheread    153,396,665   1.3% all   1.3%
+WAL              files    8 fresh+out    3,178,073   1.2% cacheread    142,784,815   1.2% all   1.2%
+BOND             files   10 fresh+out    4,360,098   1.6% cacheread    138,275,399   1.2% all   1.2%
+PROME+reader     files   81 fresh+out   10,120,581   3.7% cacheread    132,193,926   1.1% all   1.2%
+VIOLET           files    9 fresh+out    3,877,224   1.4% cacheread    137,064,676   1.1% all   1.2%
+CORAL            files    9 fresh+out    3,627,988   1.3% cacheread    127,357,994   1.1% all   1.1%
+NEXUS            files   10 fresh+out    3,465,722   1.3% cacheread    105,450,529   0.9% all   0.9%
+OSPREY           files    9 fresh+out    3,253,276   1.2% cacheread    103,615,137   0.9% all   0.9%
+HAWK             files    5 fresh+out    2,519,592   0.9% cacheread    104,259,938   0.9% all   0.9%
+OZK              files    7 fresh+out    2,292,849   0.8% cacheread     98,512,662   0.8% all   0.8%
+SAM              files    7 fresh+out    3,336,304   1.2% cacheread     95,592,434   0.8% all   0.8%
+LABOR            files    5 fresh+out    2,440,068   0.9% cacheread     89,293,432   0.7% all   0.8%
+FLG              files    6 fresh+out    2,011,504   0.7% cacheread     89,115,895   0.7% all   0.7%
+MIDAS            files    6 fresh+out    2,130,322   0.8% cacheread     78,249,853   0.7% all   0.7%
+HANS             files    3 fresh+out    1,797,211   0.7% cacheread     71,659,218   0.6% all   0.6%
+WATT             files    4 fresh+out    1,317,930   0.5% cacheread     68,476,220   0.6% all   0.6%
+OTTO             files    5 fresh+out    1,743,059   0.6% cacheread     58,107,462   0.5% all   0.5%
+FERT             files    7 fresh+out    1,836,886   0.7% cacheread     55,422,030   0.5% all   0.5%
+WALTER+reader    files   49 fresh+out    4,544,606   1.6% cacheread     51,748,221   0.4% all   0.5%
+HOMER            files    3 fresh+out      993,597   0.4% cacheread     50,785,551   0.4% all   0.4%
+AEOLUS           files    4 fresh+out    1,709,793   0.6% cacheread     45,934,992   0.4% all   0.4%
+ORACLE           files    5 fresh+out    1,578,779   0.6% cacheread     44,977,087   0.4% all   0.4%
+GIBBS            files    3 fresh+out      875,731   0.3% cacheread     40,717,142   0.3% all   0.3%
+SHADE            files    4 fresh+out    1,405,427   0.5% cacheread     39,007,070   0.3% all   0.3%
+CRUISE           files    5 fresh+out    1,434,826   0.5% cacheread     38,552,552   0.3% all   0.3%
+CREED+reader     files   11 fresh+out    1,567,383   0.6% cacheread     36,887,617   0.3% all   0.3%
+ISHM             files    5 fresh+out    1,320,229   0.5% cacheread     31,761,796   0.3% all   0.3%
+YURI             files    2 fresh+out      497,102   0.2% cacheread     20,457,991   0.2% all   0.2%
+REGINALD+reader  files   12 fresh+out    1,594,032   0.6% cacheread     17,758,096   0.1% all   0.2%
+MARCO            files    1 fresh+out      291,671   0.1% cacheread     16,353,946   0.1% all   0.1%
+VULCAN+reader    files   16 fresh+out    1,425,692   0.5% cacheread     15,003,967   0.1% all   0.1%
+NEXUS+reader     files    9 fresh+out    1,396,147   0.5% cacheread     14,268,122   0.1% all   0.1%
+CYPHER+reader    files   17 fresh+out    1,613,927   0.6% cacheread     13,066,147   0.1% all   0.1%
+HOMER+reader     files    4 fresh+out      551,657   0.2% cacheread     12,178,107   0.1% all   0.1%
+OTTO+reader      files    3 fresh+out      321,190   0.1% cacheread      7,774,725   0.1% all   0.1%
+WAL+reader       files    2 fresh+out      372,592   0.1% cacheread      7,305,389   0.1% all   0.1%
+WILL-private-fellowship files    3 fresh+out      614,274   0.2% cacheread      5,547,172   0.0% all   0.1%
+OSPREY+reader    files    6 fresh+out      505,783   0.2% cacheread      5,034,198   0.0% all   0.0%
+BRENT+reader     files    7 fresh+out      488,852   0.2% cacheread      3,498,095   0.0% all   0.0%
+FLG+reader       files    2 fresh+out      205,218   0.1% cacheread      3,161,916   0.0% all   0.0%
+HAWK+reader      files    2 fresh+out      172,465   0.1% cacheread      2,685,405   0.0% all   0.0%
+HANS+reader      files    5 fresh+out      574,198   0.2% cacheread        806,972   0.0% all   0.0%
+CARL+reader      files    5 fresh+out      295,367   0.1% cacheread        384,239   0.0% all   0.0%
+FALCON+reader    files    7 fresh+out      327,651   0.1% cacheread        187,264   0.0% all   0.0%
+LIQUID+reader    files    3 fresh+out      156,896   0.1% cacheread        173,642   0.0% all   0.0%
+FERT+reader      files    1 fresh+out      137,167   0.0% cacheread        185,795   0.0% all   0.0%
+BROCK+reader     files    2 fresh+out       89,708   0.0% cacheread        187,441   0.0% all   0.0%
+BOND+reader      files    3 fresh+out      178,818   0.1% cacheread         84,457   0.0% all   0.0%
+HENRY+reader     files    3 fresh+out      196,038   0.1% cacheread         18,704   0.0% all   0.0%
+MARCO+reader     files    2 fresh+out       86,706   0.0% cacheread         38,383   0.0% all   0.0%
+SAM+reader       files    3 fresh+out       78,855   0.0% cacheread         35,797   0.0% all   0.0%
+ISHM+reader      files    1 fresh+out       64,412   0.0% cacheread         36,240   0.0% all   0.0%
+RED+reader       files    2 fresh+out       61,844   0.0% cacheread         11,350   0.0% all   0.0%
+ZHAO+reader      files    1 fresh+out       29,328   0.0% cacheread          4,377   0.0% all   0.0%
+TERRY+reader     files    1 fresh+out       19,016   0.0% cacheread          5,394   0.0% all   0.0%
+ORACLE+reader    files    1 fresh+out       16,862   0.0% cacheread          7,421   0.0% all   0.0%
+AEOLUS+reader    files    1 fresh+out       19,844   0.0% cacheread          3,407   0.0% all   0.0%
+WILL-private-fellowship+reader files    1 fresh+out       14,451   0.0% cacheread          4,126   0.0% all   0.0%
+LABOR+reader     files    1 fresh+out        9,508   0.0% cacheread          3,280   0.0% all   0.0%
+CLAUDE SPLIT input 146,294 cache_write 221,862,865 output 53,605,626 cache_read 11,934,735,841
+SPLIT PROME            input       62,503 cache_write    36,383,404 output  11,879,089
+SPLIT WALTER           input       10,736 cache_write    18,973,241 output   4,682,808
+SPLIT DEWEY+reader     input        4,776 cache_write    10,075,571 output   2,111,030
+SPLIT TERRY            input        3,720 cache_write     8,665,774 output   2,062,781
+SPLIT REGINALD         input        3,706 cache_write     8,165,286 output   2,040,082
+SPLIT PROME+reader     input        2,684 cache_write     8,537,587 output   1,580,310
+SPLIT HENRY            input        2,999 cache_write     7,267,530 output   1,434,435
+SPLIT VULCAN           input        3,272 cache_write     7,197,011 output   1,485,017
+SPLIT BROCK            input        3,157 cache_write     6,346,794 output   1,593,296
+SPLIT DAEDALUS         input        3,455 cache_write     6,106,005 output   1,626,482
+SPLIT LIQUID           input        2,541 cache_write     5,489,945 output   1,317,948
+SPLIT DAEDALUS+reader  input        3,163 cache_write     5,526,185 output   1,251,226
+SPLIT BRENT            input        2,566 cache_write     5,428,994 output     993,477
+SPLIT CYPHER           input        2,297 cache_write     4,877,714 output   1,305,964
+SPLIT RED              input        1,847 cache_write     4,678,848 output   1,186,236
+SPLIT DEWEY            input        2,113 cache_write     4,600,717 output   1,091,954
+SPLIT CREED            input        1,686 cache_write     4,441,558 output   1,103,698
+SPLIT FALCON           input        1,893 cache_write     4,064,682 output     928,684
+SPLIT WALTER+reader    input        1,028 cache_write     3,962,284 output     581,294
+SPLIT BOND             input        1,437 cache_write     3,524,731 output     833,930
+SPLIT CARL             input        1,661 cache_write     3,224,163 output     807,766
+SPLIT ZHAO             input        1,642 cache_write     3,153,714 output     779,614
+SPLIT VIOLET           input        1,539 cache_write     2,988,894 output     886,791
+SPLIT CORAL            input        1,294 cache_write     2,980,809 output     645,885
+SPLIT NEXUS            input        1,101 cache_write     2,907,431 output     557,190
+SPLIT SAM              input        1,033 cache_write     2,818,225 output     517,046
+SPLIT OSPREY           input        1,073 cache_write     2,668,056 output     584,147
+SPLIT WAL              input        1,348 cache_write     2,584,281 output     592,444
+SPLIT HAWK             input          924 cache_write     2,015,436 output     503,232
+SPLIT LABOR            input          833 cache_write     1,913,505 output     525,730
+SPLIT OZK              input        1,052 cache_write     1,886,127 output     405,670
+SPLIT MIDAS            input          792 cache_write     1,723,607 output     405,923
+SPLIT FLG              input          930 cache_write     1,647,707 output     362,867
+SPLIT FERT             input          762 cache_write     1,531,426 output     304,698
+SPLIT HANS             input          652 cache_write     1,420,267 output     376,292
+SPLIT OTTO             input          609 cache_write     1,430,027 output     312,423
+SPLIT AEOLUS           input          422 cache_write     1,365,127 output     344,244
+SPLIT CYPHER+reader    input          322 cache_write     1,444,638 output     168,967
+SPLIT REGINALD+reader  input          348 cache_write     1,354,116 output     239,568
+SPLIT ORACLE           input          544 cache_write     1,264,718 output     313,517
+SPLIT CREED+reader     input          590 cache_write     1,320,681 output     246,112
+SPLIT CRUISE           input          512 cache_write     1,174,906 output     259,408
+SPLIT VULCAN+reader    input          302 cache_write     1,245,568 output     179,822
+SPLIT SHADE            input          409 cache_write     1,170,688 output     234,330
+SPLIT NEXUS+reader     input          262 cache_write     1,179,952 output     215,933
+SPLIT ISHM             input          418 cache_write     1,092,497 output     227,314
+SPLIT WATT             input          731 cache_write     1,000,809 output     316,390
+SPLIT HOMER            input          542 cache_write       795,921 output     197,134
+SPLIT GIBBS            input          468 cache_write       686,531 output     188,732
+SPLIT WILL-private-fellowship input          139 cache_write       568,275 output      45,860
+SPLIT HANS+reader      input           34 cache_write       531,096 output      43,068
+SPLIT HOMER+reader     input          234 cache_write       492,741 output      58,682
+SPLIT OSPREY+reader    input          112 cache_write       452,384 output      53,287
+SPLIT YURI             input          265 cache_write       412,499 output      84,338
+SPLIT BRENT+reader     input          100 cache_write       433,195 output      55,557
+SPLIT WAL+reader       input          124 cache_write       305,106 output      67,362
+SPLIT FALCON+reader    input           32 cache_write       287,537 output      40,082
+SPLIT OTTO+reader      input           92 cache_write       278,635 output      42,463
+SPLIT CARL+reader      input           30 cache_write       271,809 output      23,528
+SPLIT MARCO            input          166 cache_write       233,106 output      58,399
+SPLIT FLG+reader       input           52 cache_write       178,195 output      26,971
+SPLIT HENRY+reader     input           12 cache_write       157,163 output      38,863
+SPLIT BOND+reader      input           20 cache_write       142,761 output      36,037
+SPLIT HAWK+reader      input           58 cache_write       144,880 output      27,527
+SPLIT LIQUID+reader    input           26 cache_write       132,962 output      23,908
+SPLIT FERT+reader      input           18 cache_write       126,273 output      10,876
+SPLIT BROCK+reader     input           24 cache_write        74,243 output      15,441
+SPLIT MARCO+reader     input           10 cache_write        75,671 output      11,025
+SPLIT SAM+reader       input           14 cache_write        64,152 output      14,689
+SPLIT ISHM+reader      input            6 cache_write        56,763 output       7,643
+SPLIT RED+reader       input            8 cache_write        51,975 output       9,861
+SPLIT ZHAO+reader      input            4 cache_write        27,637 output       1,687
+SPLIT AEOLUS+reader    input            4 cache_write        11,865 output       7,975
+SPLIT TERRY+reader     input            4 cache_write        15,879 output       3,133
+SPLIT ORACLE+reader    input            4 cache_write        13,649 output       3,209
+SPLIT WILL-private-fellowship+reader input            4 cache_write        11,072 output       3,375
+SPLIT LABOR+reader     input            4 cache_write         7,654 output       1,850
+CODEX fresh+out 75,393,439 cached 2,598,720,128
+WALTER                         rollouts   56 fresh+out   16,180,219  21.5% cached   556,273,920
+PROME                          rollouts   45 fresh+out   11,926,770  15.8% cached   387,214,976
+CATO                           rollouts   35 fresh+out    9,566,590  12.7% cached   405,630,208
+DAEDALUS                       rollouts   35 fresh+out    9,072,615  12.0% cached   296,965,120
+NEXUS                          rollouts   16 fresh+out    3,837,774   5.1% cached   108,927,232
+LIQUID                         rollouts    4 fresh+out    3,821,662   5.1% cached   126,873,216
+BRENT                          rollouts    3 fresh+out    2,498,354   3.3% cached    82,095,616
+REGINALD                       rollouts    3 fresh+out    2,322,563   3.1% cached    74,090,880
+TERRY                          rollouts    5 fresh+out    1,916,327   2.5% cached    66,460,672
+VULCAN                         rollouts    3 fresh+out    1,695,944   2.2% cached    70,567,808
+SAM                            rollouts    5 fresh+out    1,580,176   2.1% cached    40,725,248
+HENRY                          rollouts    1 fresh+out    1,466,323   1.9% cached    42,415,232
+OTTO                           rollouts    1 fresh+out    1,373,469   1.8% cached    50,918,912
+MIDAS                          rollouts    1 fresh+out    1,111,259   1.5% cached    20,533,120
+BOND                           rollouts    2 fresh+out    1,075,625   1.4% cached    30,443,264
+DEWEY                          rollouts    3 fresh+out    1,061,666   1.4% cached    53,417,216
+WAL                            rollouts    2 fresh+out    1,056,122   1.4% cached    33,914,112
+VIOLET                         rollouts    1 fresh+out      918,114   1.2% cached    26,316,288
+HOMER                          rollouts    1 fresh+out      664,020   0.9% cached    26,233,344
+ISHM                           rollouts    2 fresh+out      603,077   0.8% cached    27,531,264
+home/willi                     rollouts    1 fresh+out      576,137   0.8% cached    22,420,608
+FALCON                         rollouts    1 fresh+out      514,367   0.7% cached    28,286,592
+CRUISE                         rollouts    1 fresh+out      391,474   0.5% cached    13,914,496
+WILL/private/fellowship        rollouts    1 fresh+out      159,611   0.2% cached     6,538,368
+ROOT                           rollouts    1 fresh+out        3,181   0.0% cached        12,416
+CODEX SPLIT uncached_input 66,663,637 output 8,729,802 cached 2,598,720,128

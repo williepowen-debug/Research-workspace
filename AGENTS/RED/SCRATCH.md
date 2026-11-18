@@ -1,34 +1,33 @@
 # RED SCRATCH — canonical session handoff
-**S66 HANDOFF — written 2026-11-17 08:48 ET (from `date`). Desktop, Claude Code, Opus 5.5. Woken 08:37 ET by PROME prome-19 (due row D:L1101, WQ-184 C6); delivered 7bcfd11889; closed out on PROME's ask 08:47 ET. The S63/S64 handoff and its addenda are in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
+**S67 HANDOFF — written 2026-11-18 10:27 EST (from `date`). Desktop DESKTOP-BC6EF81, Claude Code, Opus 5.5 (`claude-opus-5-5`). Will opened the window; boot report 10:1x ET; task 10:17 ET: "catch up on any owed tasks. Also check your inbox." The S66 handoff is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
 
-## CHANGES SINCE (S64 closed 11/12 15:34 → S66 11/17 08:37)
-- S65 (11/16 20:58 ET) was a narrow PROME-relay session: closeout_check read range, FT-02 exit 0 of 3 on HY 320 [11/12] / 323 [11/13]. The 11/13 KB wave did not run until today.
-- Tape [FRED unless noted]: VIXCLS 18.70 [11/12], 19.30 [11/13]; Cboe 22.91 [11/16] (FRED cell unpublished at 08:47 ET). HY 323 / CCC 1,316 [11/13]. DGS10 4.88 → 5.15, DGS30 5.26 → 5.47, DFII10 2.66 → 2.91 [11/09 → 11/13]; 5y5y 2.15 [11/16]. SPX 7,416.59 [11/16] under its 50-DMA 7,661. SKEW 146.33 [11/16, Cboe].
-- News (WALTER titles, not graded by RED): Nvidia governance shock (Bessent, Huang exit, SIG-W-20261116-002), Nvidia reports Tue 11/17 after the close; CoreWeave B Meta-backed loan; life insurers $85.2B AI debt; Car-Mart standstill; IEA says oil back in surplus.
+## CHANGES SINCE (S66 closed 11/17 08:48 → S67 11/18 10:11)
+- Three PROME packets arrived 11/17 20:36–20:45 ET (Will's word 20:35 and 20:44 ET): repoint four hashes; disposition an independent spot-check of seven impact-ledger rows; one usage re-run per machine (WQ-714).
+- Tape [FRED unless noted]: VIXCLS 22.91 [11/16], 25.46 [11/17]; HY 334 / CCC 1,310 [11/16]; 5y5y 2.16 [11/17]; SKEW 145.11 [11/17, Cboe]; S&P 500 7,340.53 [11/17] under its 200-day (HENRY HEN-60). Vendor 10:11 ET 11/18: ^VIX 24.83, Brent 89.34 (−4.1%), WAL 70.97 (WL-09 <74), KRE 70.73.
+- News (WALTER cards, logged in board_log): US strike on Qeshm 11/17 confirmed (official anonymous); Kuwait and Bahrain attacks 11/18; Nvidia Q3 $115.8B, Q4 guide $130.0B, guarantees $118.0B max; SEC probe reported (unconfirmed); BIS chip-diversion rule; Fed FSR Box 2.2 (~$1T large-bank AI-chain exposure); ECB FSR 11/18.
+- WALTER (walter-89, cross-session message ~10:2x ET): FT-06 4 of 5 on its own FRED read; no reply needed.
 
-## WHAT I DID (S66)
-- **CHG-RED-045 RESOLVED** on the governing rule (no reopen word from Will; re-spec NOT FIRED, 23bp of 100bp). CATALYSTS, CALENDAR, STATUS mirrored.
-- **FT-06 exit run restarted: 2 of 5 [11/13]**; registry state + scan view regenerated.
-- PROME packets (2) drained: audit item 1 partly right (CHANGELOG aliases, no renumber); item 2 disagreed in part; 12 stale KB rows: 6 refreshed (043, 086, 105, 106, 107, 108), 4 DATED-HISTORICAL (067, 046, 082, 083), KB-052 held to 12/15, KB-110 to 11/20.
-- Five VX flip grades dated (002, 007, 010, 021, 025). **VX-002 real wages: run MET on first-published values, BROKEN on the current vintage (Aug +0.01pp); weights 20/80 held by discretion; bull point 2 corrected in STATUS.** ML-RED-333.
-- Corrections COR-20261112-03 / COR-20261116-09 NO-OP; basis re-hashed (WQ-701); board_log rotated (59.5%); charter revisit line re-stated (45,000 B; charter 29,245 B).
-- Routing: packet `PROME/inbox/2026-11-17_from-RED_chg045-closed-inbox-drained.md` (consumed by PROME 08:47 ET); NEXUS vS66 (vS63 rotated).
+## WHAT I DID (S67)
+- **Inbox drained (3 packets → `inbox/processed/`), all acted:** (1) seven CHALLENGES rows (029–032, 033, 034, 038) repointed to origin commits dfe4d6ba90, d9a564493d, 08625b165a, ff71f6cf1a, e27a97db4b (the old hashes are absent here too); audit's reply-date rule declined. (2) Spot-check dispositions → `reports/2026-11-18_S67_impact-ledger-spotcheck-dispositions.md`: 026 NO-REVISION, 022 NEUTRAL, 028 IMPROVED (HARMED sub-leg withdrawn), 008/018/041 descriptions corrected; headline 2 of 25 = 8.0%; CHG-027 binary scoring rule written pre-data. (3) Usage re-run, desktop leg → `research/2026-11-18_usage-rerun_desktop/` (split-capable copies of the 11/05 scripts).
+- **Owed rows:** KB-104 → KB-116 (Oct retail; VX-003 bull 25 → 30, discretionary); KB-054 DATED-HISTORICAL; combo themes KB-109, -110, -112, -113 reviewed; ZBT 11/27 tree written; VX-002 vintage clause written pre-data. Review debt 0 (KB-081 by design).
+- FT-06 registry state → exit 4-of-5 [2026-11-17]; scan view regenerated. 15 BOARD signals + 3 packets logged; board_log rotated. ML-RED-334, -335. NEXUS vS67 (vS66 rotated). Packet `PROME/inbox/2026-11-18_from-RED_S67-owed-work-done-ft06-4of5.md`.
 
 ## NEXT SESSION (dated, ordered)
-1. 🟠 **Thu 11/19 (D:L1109, PROME's next wake):** FT-06 exit read first: VIXCLS 11/16, 11/17, 11/18 all ≥18 → 5 of 5 → execute Stag +2 / Managed −2 mechanically (net-bear 67 → 69), CHANGELOG + NEW packet; any close <18 breaks the run. Then **CHG-057 re-review** (Nvidia Q3 results and 10-Q SB Energy guarantee line, ING auction bids, SoftBank Tokyo/CDS/rating; SAM's 22.5% basis; Nvidia governance shock is new input). STRONG → TERRY for a tradeability read.
-2. 🟡 **By Fri 11/20:** Zweig thrust decision tree for the 11/27 VX-006 grade; combo themes KB-109, -110, -112, -113; KB-054; Michigan final.
-3. 🟡 **Before 12/10:** write VX-002's vintage into its Flip_If letter (first-published vs current), pre-data.
-4. 🟡 **By 11/28:** review VX-006, -012, -015, -017 (Last_Reviewed 10/14, 45-day rule).
-5. 🟡 ~11/25 FT-10 outcome grade · 11/26 Thanksgiving bar bridged · 11/30 CHG-044, CHG-054 · 12/04 payrolls → next re-derivation (real-rate shock is input, counted once) · 12/09 FOMC · 12/10 RED-28 · 12/15 CHG-055, RED-31 · 12/31 RED-25/26/27/30.
-6. 🟢 Offered to Will, not assigned: retirement pass, about 8 files over 60 days.
+1. 🟠 **Thu 11/19 (PROME's wake):** FT-06 read at FRED: VIXCLS 11/18 ≥18 → 5 of 5 → execute **Stag +2 / Managed −2** mechanically (net-bear 67 → 69), CHANGELOG + NEW packet; <18 breaks it. Do NOT run a discretionary re-derivation the same day. Then **CHG-057 re-review** on `research/2026-11-10_AI_FUNDING_TEST_TREE.md` (inputs logged `deferred` in board_log: ING bids, Nvidia 8-K figures, SEC probe report, BIS rule, Fed FSR). STRONG → TERRY tradeability read. Re-read KB-109 with the ING outcome (Stale_By 11/20).
+2. 🟡 **Fri 11/20:** Michigan final (consumer; counted once in the next re-derivation).
+3. 🟡 **~11/25** FT-10 outcome grade · **11/27** VX-006 ZBT grade on `research/2026-11-18_VX006_ZBT_RESOLUTION_TREE.md` · **by 11/28** review VX-006, -012, -015, -017 · **11/30** CHG-044, CHG-054, and the CHG-027 close-vs-carry question.
+4. 🟡 **By 12/03:** VX-002 12/10 decision tree (what the state does on each branch; vintage clause is set). **12/04** payrolls → next re-derivation (consumer ledger: Oct retail control +0.59%, Michigan; war: Qeshm 11/17, Kuwait/Bahrain 11/18; count each root once) · 12/09 FOMC · 12/10 RED-28 · 12/15 CHG-055, RED-31 · 12/31 RED-25/26/27/30.
+5. 🟡 **Next laptop session:** WQ-714 laptop leg (run `research/2026-11-18_usage-rerun_desktop/usage_by_desk_split.py` for 10/19–11/18 there; one run; packet with totals).
+6. 🟢 Offered, not assigned: retirement pass, about 8 files over 60 days.
 
 ## OPEN THREADS
-- FT-10's ~11/25 CORRECT must not be read as war or credit foresight (tech and gamma trigger, ML-311).
-- WL-11 Brent <95: price leg met; flow leg is BRENT's.
-- SOFR 3.93 over IORB 3.90 [11/16] is LIQUID's to grade, not RED's.
+- VX-002: on its own vintage clause the real-wage run is NOT met today; the 20/80 hold is labelled discretion until 12/10.
+- FT-10's ~11/25 CORRECT must not be read as war or credit foresight (ML-311); same caveat for a ZBT CORRECT (tree).
+- WL-11 Brent <95: price leg met; flow leg is BRENT's. WL-09 WAL <74 firing (70.97 vendor 11/18), display only.
+- 11/18 BOARD cards not addressed to RED (002 housing starts, 004 Fitch PC default 6.2%, 005 HSBC cyber) were read by title only; 006 (RED info-cc) logged.
 
 ## PENDING WILL-DECISIONS
 - None.
 
 ## GIT STATE
-S66 commits: 7bcfd11889 (delivery) and this closeout; pushed via safe-push (receipt in the closeout message). Shared tree holds other desks' files; RED commits by pathspec only.
+S67 commits by pathspec under `AGENTS/RED/` plus the packet (carve-out ①); pushed via safe-push (receipt in the closeout message). The shared tree holds other desks' uncommitted files; not touched.

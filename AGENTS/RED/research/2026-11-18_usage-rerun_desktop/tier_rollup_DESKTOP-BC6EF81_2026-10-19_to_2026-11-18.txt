@@ -1,0 +1,15 @@
+# MACHINE DESKTOP-BC6EF81 · input usage_output_DESKTOP-BC6EF81_2026-10-19_to_2026-11-18.txt · run 2026-11-18 10:20 EST
+combined fresh+output 351,008,224 all tokens incl cache 14,884,464,193
+Standing 4       fresh+output   133,360,350  38.0%   all  46.9%
+On-call 13       fresh+output   113,280,739  32.3%   all  26.2%
+On-call hold 5   fresh+output    18,195,216   5.2%   all   4.7%
+Dormant 19       fresh+output    51,648,544  14.7%   all  12.4%
+Outside the 41   fresh+output    33,155,721   9.4%   all   9.5%
+-- tiers per draft v3 sec 6
+Standing 2       fresh+output   114,763,957  32.7%   all  41.9%
+On-call 16       fresh+output   136,483,919  38.9%   all  32.5%
+On-call hold 4   fresh+output    13,588,429   3.9%   all   3.5%
+Dormant 19       fresh+output    51,648,544  14.7%   all  12.4%
+Outside the 41   fresh+output    33,155,721   9.4%   all   9.5%
+top: PROME 20.0% · WALTER 12.6% · DAEDALUS 6.7% · DEWEY 5.4% · REGINALD 4.0% · TERRY 3.6% · VULCAN 3.4% · LIQUID 3.1% · HENRY 3.0% · CATO 2.7% · BRENT 2.7% · NEXUS 2.5% · BROCK 2.3% · CYPHER 2.2%
+RED 1.7% residual ROOT/home 0.17%
