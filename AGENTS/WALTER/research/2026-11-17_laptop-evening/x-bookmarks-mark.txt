@@ -1,0 +1,22 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+[--mark] consuming 10 staged id(s): 2122797951470768496, 2122775423331254363, 2122790619563307123, 2122783331255206367, 2122770853754724498, 2122538987625632054, 2122761187242697124, 2122769775386579250, 2122733088295801226, 2122715131369193563
+
+Bookmark receipt — 2026-11-18T00:59:33Z
+Reviewed/marked 10 item(s); reading labels are WALTER's attestation.
+Fully read 8; partly read 2; unread 0.
+Dispositions: DISPATCH 2, DUP 2, FOLD 6
+Returned traversal complete through its recorded head check; this is not owner consumption or a remote snapshot guarantee.
+Latest head check: 2026-11-18T00:57:10Z
+Follow-up 2122797951470768496: BOARD/SIG-W-20261117-025-WSJ-SEC-opening-civil-probe-whether-Nvidia-disclosures-misled-investors-no-SEC-or-Nvidia-comment-Commerce-Megaspeed-chip-diversion-probe-since-late-2024.md
+Follow-up 2122775423331254363: BOARD/SIG-W-20261117-027-Small-items-bookmarks-Nov-17-evening-Fed-AI-agents-bank-run-claim-NOT-FOUND-Citi-95pct-futures-longs-underwater-NOT-FOUND-Kerch-strike-without-Starlink-NWS-API-outage-grid-shutdown-post-unread.md
+Follow-up 2122790619563307123: BOARD/SIG-W-20261117-026-Equinor-confirms-ongoing-cyber-attack-on-certain-IT-systems-operations-and-production-not-affected-no-indication-of-data-theft-authorities-informed.md
+Follow-up 2122783331255206367: BOARD/SIG-W-20261117-027-Small-items-bookmarks-Nov-17-evening-Fed-AI-agents-bank-run-claim-NOT-FOUND-Citi-95pct-futures-longs-underwater-NOT-FOUND-Kerch-strike-without-Starlink-NWS-API-outage-grid-shutdown-post-unread.md
+Follow-up 2122770853754724498: BOARD/SIG-W-20261117-027-Small-items-bookmarks-Nov-17-evening-Fed-AI-agents-bank-run-claim-NOT-FOUND-Citi-95pct-futures-longs-underwater-NOT-FOUND-Kerch-strike-without-Starlink-NWS-API-outage-grid-shutdown-post-unread.md
+Follow-up 2122538987625632054: BOARD/SIG-W-20261117-027-Small-items-bookmarks-Nov-17-evening-Fed-AI-agents-bank-run-claim-NOT-FOUND-Citi-95pct-futures-longs-underwater-NOT-FOUND-Kerch-strike-without-Starlink-NWS-API-outage-grid-shutdown-post-unread.md
+Follow-up 2122761187242697124: BOARD/SIG-W-20261117-027-Small-items-bookmarks-Nov-17-evening-Fed-AI-agents-bank-run-claim-NOT-FOUND-Citi-95pct-futures-longs-underwater-NOT-FOUND-Kerch-strike-without-Starlink-NWS-API-outage-grid-shutdown-post-unread.md
+Follow-up 2122769775386579250: BOARD/SIG-W-20261117-026-Equinor-confirms-ongoing-cyber-attack-on-certain-IT-systems-operations-and-production-not-affected-no-indication-of-data-theft-authorities-informed.md
+Follow-up 2122733088295801226: BOARD/SIG-W-20261117-027-Small-items-bookmarks-Nov-17-evening-Fed-AI-agents-bank-run-claim-NOT-FOUND-Citi-95pct-futures-longs-underwater-NOT-FOUND-Kerch-strike-without-Starlink-NWS-API-outage-grid-shutdown-post-unread.md
+Follow-up 2122715131369193563: BOARD/SIG-W-20261117-008-Optimizely-supply-chain-compromise-Nov-16-malicious-JavaScript-on-178-organizations-32-banking-and-finance-HSBC-Equifax-card-skimming-on-first-party-forms-fixed-plus-outage-claims-Schwab-NSA-DHS-unverified.md
+--mark: recorded 10 id(s) → x_bookmarks_seen.json (ids only).

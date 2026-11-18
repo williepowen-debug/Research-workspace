@@ -1,0 +1,36 @@
+---
+signal_id: "SIG-W-20261117-027"
+date: "2026-11-18"
+timestamp: "2026-11-18T00:59:24Z"
+dispatched: "2026-11-18T00:59:24Z"
+source: "X bookmarks scan 2026-11-18T00:57:11Z (10 new IDs); WALTER WebSearch about 00:58Z; images opened"
+origin: ["X bookmarks 2122783331255206367, 2122770853754724498, 2122775423331254363, 2122733088295801226, 2122761187242697124, 2122538987625632054, 2122715131369193563"]
+action: []
+info: ["REGINALD", "LIQUID", "HENRY", "VIOLET", "OSPREY", "CYPHER", "AEOLUS", "WATT", "PROME"]
+precedence: "ROUTINE"
+signal_type: "context"
+confidence: 0.35
+confidence_language: "relays; two headline figures not found at any source"
+resources: 1
+safety_net: "clear"
+cluster: "MISC"
+domain: "MARKET_VOL"
+entities: ["Federal Reserve", "Kalshi", "Citigroup", "Kerch Bridge", "The Times", "National Weather Service", "NSA", "Charles Schwab"]
+word_count: 314
+dispatch_note: "WQ-622 A small-items fold of Will's bookmarks. No directed ask, so no ACTION line. combo:none subject named for PROME: NSA personnel claim. PROME pull-complete INFO; TERRY BOARD-only."
+event_window: "closed"
+---
+# Small items, bookmarks Nov 17 evening: 'Fed warns AI agents could trigger bank runs in minutes' (Kalshi) NOT FOUND at the Fed; 'Citi: 95% of S&P futures longs underwater, $45.9B' NOT FOUND (older Citi notes: 88%, $52B); Kerch strike without Starlink (The Times); NWS API outage; 'shutting down the power grid' post unread; NSA suicide-count claim unverified; Schwab DUP
+
+# Small items from Will's X bookmarks (10 read, Nov 17 evening)
+
+WQ-622 A; nothing moves a score.
+
+1. **Fed and AI-agent bank runs (combo:REGINALD/deposit-flight).** @Kalshi 20:06Z: 'JUST IN: Fed warns AI agents could trigger bank runs in minutes'. **NOT FOUND:** a search (00:58Z) found no November 2026 Fed statement; nearest are Rep. Foster (June 4 hearing), Apollo's Torsten Slok, Bowman (May 1 FSOC roundtable) and Barr (Nov 2025 speech). Unverified relay; may be a Fed Financial Stability Report line (card 014) relabelled. INFO REGINALD, LIQUID.
+2. **Citi positioning (combo:HENRY/positioning).** @PolymarketMoney 19:16Z: 'Citi warns 95% of S&P 500 futures longs are underwater, $45.9B at risk of forced selling.' **NOT FOUND:** the search found older Citi notes (88% of about $52B S&P longs in loss, undated in the snippet; 80% of Nasdaq longs). Unverified figure. INFO HENRY, VIOLET.
+3. **Kerch Bridge (combo:OSPREY/strike-campaign).** @BohuslavskaKate citing The Times: Ukraine struck the Kerch Bridge without Starlink or Starshield, using its own missile-guidance relay; image is The Times headline 'Ukrainian attack partly collapses Putin's crucial bridge to Crimea'. Follows card 005. INFO OSPREY.
+4. **NWS outage (CYPHER claims table).** Victim National Weather Service api.weather.gov · actor none stated · claim date 2026-11-17 · source @FaytuksWeather 16:46Z (screenshot: Akamai 'An error occurred while processing your request') · figure none. Apps pulling alerts may show no new warnings. INFO CYPHER, AEOLUS.
+5. **'Shutting down the power grid' (unread).** @barkmeta 18:38Z quote-posts an @OutagePro status (x.com/OutagePro/status/2122738369453056486), not readable here. No grid operator statement found; framing not carried. INFO WATT.
+6. **NSA suicide-count claim (combo:none).** @legitgov 03:55Z: 'Suicide toll at NSA and U.S. Cyber Command hits 11, with 5 in one month', citing 'a recent report'; image is a stock aerial photo of NSA. Unverified; no money channel. Noted only. INFO PROME.
+
+**DUP:** Schwab website 'internal server error' (@Polymarket 15:35Z) = card 20261117-008. Nvidia SEC probe = card 025; Equinor = card 026.

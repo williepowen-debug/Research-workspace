@@ -1,3 +1,46 @@
 X-BOOKMARK scan — Will's new bookmarks
 ================================================================
-Token refresh failed; re-authorize. No IDs marked.
+
+Fetched 10 new bookmark ID(s) in this scan segment; see the review/coverage receipt below.
+
+[NEW bookmarks to ROUTE — 10]  source: x-bookmark  (Will-originated — do not kill on Novelty without reading the body)
+
+  1. 2122797951470768496  @PolymarketMoney  2026-11-17T21:04:05.000Z
+     │ BREAKING: SEC is reportedly investigating whether Nvidia misled investors.
+
+  2. 2122775423331254363  @BohuslavskaKate  2026-11-17T19:34:34.000Z  [DIG: media]
+     │ Ukraine carried out an operation against Crimean (Kerch) Bridge without using Starlink or Starshield, having developed its own communication system for guiding missiles, according to The Times.  “The Americans tried to paralyse our connectivity to conduct such operations. This mission proved we can develop our own connections to relay radio signals,” a Ukrainian Armed Forces officer told the newspaper.  He added that for the first time, drones were used to pass a video signal to the missiles so they could hit precise points on the bridge without Starlink.  According to the paper, during the operation, drones relayed radio/video signals to the missiles, allowing them to be guided onto specific sections of the bridge under manual control.  The strike was also planned as a symbolic gesture ahead of the meeting of Putin, Trump and Xi Jinping in Shenzhen, The Times writes.  “We planned this as a symbolic gesture before the meeting of Trump, Putin and Xi, to show that Putin is weak,” the Ukrainian military officer said.
+     🖼  photo: https://pbs.twimg.com/media/HXWc-DEWsAARWLy.png
+
+  3. 2122790619563307123  @LeadingReport  2026-11-17T20:34:57.000Z
+     │ Equinor, Europe's largest natural gas supplier, says it is under cyberattąck.
+
+  4. 2122783331255206367  @Kalshi  2026-11-17T20:06:00.000Z
+     │ JUST IN: Fed warns AI agents could trigger bank runs in minutes
+
+  5. 2122770853754724498  @PolymarketMoney  2026-11-17T19:16:25.000Z
+     │ BREAKING: Citi warns 95% of S&amp;P 500 futures longs are underwater, with $45,900,000,000.00 at risk of forced selling.
+
+  6. 2122538987625632054  @legitgov  2026-11-17T03:55:04.000Z  [DIG: media]
+     │ 🚨 Suicide toll at NSA and U.S. Cyber Command hits 11 – with 5 in just one month --A recent string of suicides at government agencies has the White House’s attention, a recent report claims. The cluster of deaths came just months after a series of disappearances and deaths tied to U.S. space and nuclear programs were reported. At the National Security Agency and United States Cyber Command, both located in Fort Meade, Maryland, at least 11 workers have died by suicide in about a year’s time.  #NSA #USCYBERCOM (🔗 in comments.)
+     🖼  photo: https://pbs.twimg.com/media/HXTFrTjXkAA68ba.jpg
+
+  7. 2122761187242697124  @barkmeta  2026-11-17T18:38:00.000Z
+     │ Holt shit…  They’re shutting down the power grid.  It’s actually happening… https://t.co/bS7nvYuNnX
+
+  8. 2122769775386579250  @WatcherGuru  2026-11-17T19:12:08.000Z
+     │ JUST IN: 🇪🇺 Europe's largest natural gas supplier 'Equinor' says it is under cyberattack.
+
+  9. 2122733088295801226  @FaytuksWeather  2026-11-17T16:46:21.000Z  [DIG: media]
+     │ The National Weather Service (NWS) is currently facing API issues; this could in turn affect apps and sites that pull alerts from that feed, resulting in no new warnings. At the time of writing, NWS has not gone out with a statement on why these issues are ongoing nor when it will be fixed.
+     🖼  photo: https://pbs.twimg.com/media/HXV2fQKWQAArfvD.png
+
+  10. 2122715131369193563  @Polymarket  2026-11-17T15:35:00.000Z
+     │ BREAKING: Charles Schwab’s website goes down due to “internal server error.”
+
+
+Bookmark receipt — 2026-11-18T00:57:11Z
+Fetched 10 item(s); review is not yet recorded.
+Returned traversal complete through its recorded head check; this is not owner consumption or a remote snapshot guarantee.
+Latest head check: 2026-11-18T00:57:10Z
+After routing: create --review-template <new-file.json>, fill read states/dispositions, then --mark --review <file.json>.
