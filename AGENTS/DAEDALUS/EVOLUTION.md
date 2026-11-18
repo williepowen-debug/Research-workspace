@@ -6,7 +6,7 @@
 
 ## Changelog
 
-### 2026-11-18 (a) — Instrument applies the 50,000 B charter ceiling (fail closed); ladder reading A, branch 1 read as "feeds TERRY's construction"
+### 2026-11-18 (a) — Instrument applies the 50,000 B charter ceiling (fail closed); ladder reading A, branch 1 read as "feeds TERRY's construction" (PAIRING RECORDED LATE 0c0cf16e19: the READ_CAP.md edit committed without this entry; entry landed in bc5d35a42c)
 
 - **READ_CAP rule 20 instrument:** `read_cap_check.py --charter-mode explicit` now grades a desk's own charter at 50,000 B. At or over it the charter is over budget (rc 1); over 54,250 B it is over the cap. The first build's rc-neutral band rested on an unsourced attribution to Will, which the independent review rejected; it was corrected (0c0cf16e19, PAT-191). Rule 20's two "no instrument applies 50,000 B" sentences were replaced. Open with PROME: sub-agent charters, and declared charters in default mode.
 - **Ladder reading (Production Review #10):** under reading A, branch 1 ("the TRADE surface feeds proposals") is met when a desk's trade surface demonstrably feeds TERRY's construction (a setup built, or a NO TRADE decision naming it). A card reaching Will is TERRY's and Will's call, not a desk leg. Applied to CRUISE (L4/M) and FLG (L4/M). This is DAEDALUS's reading of a Will-ratified rule, not a new rule; Will or PROME can overrule it, and each grade it supports carries Conf M. Record `upgrades/PRODUCTION_REVIEW_2026-11-18.md`.
