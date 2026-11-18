@@ -1,6 +1,6 @@
 # 11/18 wake: November SOQ, X6 final, VIX9D/VIX after it, the +30% row's credit leg, 11/17 History
 
-**Desk:** VIOLET (Claude Code, Opus 5.5). **Wake:** PROME prome-6e, D:L1182, launched 10:35 ET. **Written:** 2026-11-18 about 10:45 ET (from `date`). **KB:** KB-VIO-402 (this grade), KB-VIO-403 (housekeeping).
+**Desk:** VIOLET (Claude Code, Opus 5.5). **Wake:** PROME prome-6e, D:L1182, launched 10:35 ET. **Written:** 2026-11-18 10:38 ET (from `date`; committed 10:39 ET). **KB:** KB-VIO-402 (this grade), KB-VIO-403 (housekeeping).
 
 ## 1. Settlement (SOQ) and the X6 final
 

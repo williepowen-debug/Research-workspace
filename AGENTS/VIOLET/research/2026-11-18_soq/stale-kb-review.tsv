@@ -1,0 +1,50 @@
+id	original_status	original_stale_by	disposition	reason
+KB-VIO-068	ACTIVE	2026-06-17	STALE	no live citation
+KB-VIO-069	ACTIVE	2026-07-01	STALE	no live citation
+KB-VIO-070	ACTIVE	2026-07-01	STALE	no live citation
+KB-VIO-071	ACTIVE	2026-09-01	STALE	no live citation
+KB-VIO-072	ACTIVE	2026-09-01	STALE	no live citation
+KB-VIO-073	ACTIVE	2026-09-01	STALE	no live citation
+KB-VIO-074	ACTIVE	2026-09-01	STALE	no live citation
+KB-VIO-078	ACTIVE	2026-06-17	STALE	no live citation
+KB-VIO-081	ACTIVE	2026-06-17	STALE	no live citation
+KB-VIO-082	ACTIVE	2026-08-25	STALE	no live citation
+KB-VIO-096	ACTIVE	2026-06-18	REFRESHED	cited by boot.py and fred_fetch.py BIN-B block (BLOCK ACTIVE 11/18)
+KB-VIO-098	ACTIVE	2026-06-18	STALE	no live citation
+KB-VIO-099	ACTIVE	2026-06-18	STALE	no live citation
+KB-VIO-100	ACTIVE	2026-06-19	STALE	no live citation
+KB-VIO-101	ACTIVE	2026-06-19	STALE	no live citation
+KB-VIO-102	ACTIVE	2026-07-15	REFRESHED	cited by SIGNAL_INTAKE JPY 10d RV threshold line and jpy_vol.py
+KB-VIO-104	ACTIVE	2026-07-15	STALE	no live citation
+KB-VIO-116	ACTIVE	2026-07-14	REFRESHED	cited by move.py F1 line, boot.py, CANARY_MAP
+KB-VIO-117	ACTIVE	2026-07-22	REFRESHED	cited by SIGNAL_INTAKE JPY canary (instrument live, boot-wired)
+KB-VIO-120	ACTIVE	2026-07-24	REFRESHED	cited by SIGNAL_INTAKE OVX/VIX canary calibration line
+KB-VIO-129	ACTIVE	2026-08-06	REFRESHED	cited by SIGNAL_INTAKE threshold-spec rule (level + instrument + window) and h3_basis_lead.py
+KB-VIO-139	ACTIVE	2026-08-15	STALE	no live citation
+KB-VIO-156	ACTIVE	2026-08-03	STALE	no live citation
+KB-VIO-159	ACTIVE	2026-10-31	REFRESHED	cited by SIGNAL_INTAKE VIX3M/VIX threshold line
+KB-VIO-184	ACTIVE	2026-09-04	REFRESHED	cited by fred_fetch.py and boot BIN-A STUCK verdict
+KB-VIO-254	ACTIVE	2026-09-16	STALE	no live citation
+KB-VIO-272	ACTIVE	2026-09-16	STALE	no live citation
+KB-VIO-285	ACTIVE	2026-09-25	STALE	no live citation
+KB-VIO-313	ACTIVE	2026-11-17	SUPERSEDED	closed by KB-VIO-401
+KB-VIO-318	ACTIVE	2026-11-17	SUPERSEDED	closed by KB-VIO-401
+KB-VIO-355	ACTIVE	2026-11-05	STALE	no live citation
+KB-VIO-356	ACTIVE	2026-11-05	STALE	no live citation
+KB-VIO-357	ACTIVE	2026-11-05	STALE	no live citation
+KB-VIO-358	ACTIVE	2026-11-05	STALE	no live citation
+KB-VIO-359	ACTIVE	2026-11-12	STALE	no live citation
+KB-VIO-360	ACTIVE	2026-11-13	STALE	no live citation
+KB-VIO-361	ACTIVE	2026-11-13	STALE	no live citation
+KB-VIO-363	ACTIVE	2026-11-02	STALE	no live citation
+KB-VIO-364	ACTIVE	2026-11-06	STALE	no live citation
+KB-VIO-365	ACTIVE	2026-11-06	REFRESHED	cited by STATUS research queue (open defect, not commissioned)
+KB-VIO-366	ACTIVE	2026-11-12	STALE	no live citation
+KB-VIO-367	ACTIVE	2026-11-12	REFRESHED	cited by the open VIX9D/VIX earnings-or-governance test (KB-VIO-400/402)
+KB-VIO-368	ACTIVE	2026-11-12	STALE	no live citation
+KB-VIO-369	ACTIVE	2026-11-12	STALE	no live citation
+KB-VIO-370	ACTIVE	2026-11-12	STALE	no live citation
+KB-VIO-374	ACTIVE	2026-11-06	STALE	no live citation
+KB-VIO-394	ACTIVE	2026-11-11	STALE	no live citation
+KB-VIO-396	ACTIVE	2026-11-12	STALE	no live citation
+KB-VIO-398	ACTIVE	2026-11-12	STALE	no live citation

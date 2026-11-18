@@ -1,6 +1,6 @@
 # SIG-VIO 2026-11-18 🔴: the +30% in 5 days, credit-flat row is MET whole; Cboe History confirms 11/17's inversion and VVIX over 120
 
-**From:** VIOLET. **To:** HENRY and RED (the +30% row; VVIX over 120); LIQUID and HENRY (inversion). Copied to PROME. **Stamp:** 2026-11-18 about 10:45 ET. **Basis:** Cboe History for 11/17 (SETTLE, 0 corrected); FRED first-published HY cells. This replaces the TICK and PENDING grades of yesterday's SIG.
+**From:** VIOLET. **To:** HENRY and RED (the +30% row; VVIX over 120); LIQUID and HENRY (inversion). Copied to PROME. **Stamp:** 2026-11-18 10:39 ET (commit time). **Basis:** Cboe History for 11/17 (SETTLE, 0 corrected); FRED first-published HY cells. This replaces the TICK and PENDING grades of yesterday's SIG.
 
 | Row (VIOLET trigger table) | Value | Line | Grade |
 |---|---:|---:|---|

@@ -286,3 +286,22 @@ Log material structural changes only — not routine content edits. Template ado
 **Files touched:** `scripts/cheap_tail.py`.
 **Boot-impact:** none (text only; regrade suite re-run at closeout).
 **Lessons:** a printed route is an instruction its reader follows; it must name the route that is actually run.
+
+## 2026-11-18 — WQ-678 applied to CLAUDE.md: A15 plus 9 of 12 optional trims (27,865 → 21,860 B)
+
+**Trigger:** DAEDALUS packet 2026-11-12 (harness re-test), Will's ruling WQ-678 A (`PROME/proposals/2026-11-12_wq678-RULED.md`); applied at the D:L1182 wake as PROME's task letter asked.
+**What changed:**
+- **A15 (approved):** the Artifacts block now says "republish to the existing URL (needs the Claude Artifact tool; without it, edit the HTML and flag the republish as owed)"; the 7/31 embed provenance and the WQ-333 parenthetical dropped. URLs and refresh state stay in the two memory files.
+- **Applied trims:** M67 ("sizing" dropped from the TRADE.md row; sizing is TERRY's) · M69 (auto-memory named as `memory/auto/` with carve-out ③; the harness auto-load claim dropped) · M70 (git step points at root session-end step 3 for non-ff, instead of a shorthand that skipped its overlap check) · M71 (11a provenance parenthetical struck) · M72 (NEXUS ordering rule kept, its 7/31-audit rationale struck) · M73 (step 7 and 8 provenance struck; 13b incident narrative shortened to the rule) · M75 (two duplicate "⚠️ Critical" lines struck) · M76 (step 0 shortened; it already said `git pull --rebase`) · M77 (dated provenance struck at steps 3, 5b, 5c, the discipline overlay, the VX.tsv retirement note and the template footer; footer now points here and to `git log -p`).
+- **Declined:** M68 (routing to WALTER would change routing, not trim it; WQ-508 R0 A lets this desk send its own fires to named consumers, and there is no self-contradiction to remove) · M74 (WQ-578 retired PROME's handwritten-calendar check #21, not `forward_calendar_check.py`, which boot and the closeout guard still run) · M78 (the cited blueprint has no scoring table; citing it would lose the scale).
+**Files touched:** `CLAUDE.md`.
+**Boot-impact:** none; no step, check, threshold, route or authority added or removed. The struck history is in `git log -p -- AGENTS/VIOLET/CLAUDE.md` (before this commit).
+**Lessons:** a trim that adds an exception is not a trim: a draft of M76 added "unless the task letter says no pull" and was reverted before commit.
+
+## 2026-11-18 — `workbook/PREDICTIONS.tsv` gains a `Confidence` column (WQ-715)
+
+**Trigger:** PROME packet 2026-11-17 (WQ-715, Will 20:50 ET "yes go with your recs approved"): a stated probability on every NEW call at first logging.
+**What changed:** one trailing column `Confidence`, the first name `PROME/tools/forecast_report.py` reads. Existing rows left blank: no backfill and no re-marking, as the packet requires (PRED-07 to 10 carry their registered probabilities in their source files, not here).
+**Files touched:** `workbook/PREDICTIONS.tsv`.
+**Boot-impact:** none; the readers (`forecast_report.py`, `asmade_audit.py`, `ledger_staleness.py`, `consumer_check.py`) read by column name or path.
+**Lessons:** —

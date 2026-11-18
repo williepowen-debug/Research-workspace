@@ -1,78 +1,50 @@
 # VIOLET — session handoff
 
-**As of:** November 17, 2026, about 17:0x ET (from `date`). Boot ran at 15:58 ET.
-- **Task:** PROME prome-19 woke me on my two 11/17 CATALYSTS rows (Nvidia, credit-vol WATCH endpoint) and the 11/18 SOQ question. Delivery `032fc01884`, consumed by PROME. Closeout asked at 16:5x ET.
-- **Limits:** $0; no trade, gate, threshold or charter change.
-- **Canonical numbers:** [STATUS](STATUS.md). Thesis v4.1.9; convergence 34/50 on 11/16 History. KB-VIO-400, KB-VIO-401.
+**As of:** November 18, 2026, 10:44 ET (from `date`). Boot ran at 10:35 ET.
+- **Task:** PROME prome-6e woke me on D:L1182 (the November SOQ wake): SOQ and X6 final, VIX9D/VIX after it, the +30% row's credit leg, Cboe History for 11/17; plus WQ-678 and a full inbox drain.
+- **Limits:** $0; no trade, gate, threshold or level change. No pull and no push until PROME's closeout ask (the task letter's order; boot step 0 skipped for that reason).
+- **Canonical numbers:** [STATUS](STATUS.md). Thesis v4.1.9; convergence 36/50 on 11/17 History. KB-VIO-402, KB-VIO-403.
 
-## CHANGES SINCE (11/16 21:3x ET → 11/17 15:58 ET)
+## CHANGES SINCE (11/17 17:0x ET → 11/18 10:35 ET)
 
-- **History:** 11/16 posted SETTLE, VIX 22.91, 0 corrected. RISING_VOL on History.
-- **11/17 events:**
-  - BIS AI-chip licence rule (5 countries plus overseas data centers serving China); China vowed countermeasures (WALTER 007).
-  - Huang offered to return; the board's refusal is unnamed-source (013, corrected by 020).
-  - Nvidia results after the close: a beat, a Q4 guide of $130B ± 3% with no China data-center compute, a gross-margin guide of 71 to 72% (019; VULCAN owns).
-- **Credit:** HY 334bp [11/16] (+11 vs 11/13); CCC 13.10%.
-- **Positioning:** CFTC 11/10 lev-money net −34,762, p36.5.
+- **History 11/17 posted:** 0 corrected from the close print. VIX 25.46, VIX3M/VIX 0.9811, VVIX 121.28, SKEW 145.11, COR1M 20.13.
+- **FRED 11/17:** HY 343bp (+9), CCC 13.29%.
+- **SOQ 24.25** (09:31:36 ET). 11/18 morning: VIX about 24, inversion gone, VVIX about 117.
+- **WALTER 021:** HENRY's HEN-60 resolved HIT (SPX under its 200-session average). **027:** small items, one unverified Citi positioning claim.
 
 ## WHAT I DID
 
-- **Close print (16:14 ET, TICK until History):**
-  - VIX 25.46, VIX9D/VIX 1.0487;
-  - **VIX3M/VIX 0.9811 inverted, VVIX 121.28**;
-  - X6 settled 24.7417, 9.05% over Z6.
-- **After the release (16:46 ET, delayed CFE quotes):** X6 24.00 (−3.0%), still 8.1% over Z6.
-- **Rows:**
-  - regime row FIRED on 11/16 History;
-  - inversion and VVIX over 120 MET on the print;
-  - +30% row: VIX leg MET (+30.83% from 19.46 [11/10]), credit leg PENDING FRED 11/17 (must be ≤ 355).
-- **Credit-vol WATCH:** CLOSED, size condition NOT MET (KB-VIO-401). KB-VIO-328 is STALE.
-- **Sends:**
-  - outbox SIG to LIQUID, HENRY and RED;
-  - TERRY WQ-696 packet `cff54839c6`, no direction (TERRY marked its Nvidia card DEAD on its own T1, `b4e7616377`);
-  - PROME packet `032fc01884`.
-- **Convergence re-scored** on 11/16 History: 33 → 34.
-- **Inbox:**
-  - WALTER 007, 013 and 019 acted and moved;
-  - 020 noted, moved at closeout and receipted NO-OP (COR-20261117-20);
-  - the PROME outside-audit item answered and moved to `processed/`.
-- **Calendar:** pruned the 2 fired rows to `research/2026-11-17_nvda-close/catalysts-fired.tsv` and added the Bessent deadline (about 11/26, Thanksgiving).
+- **Grade (`research/2026-11-18_soq/GRADE.md`, KB-VIO-402):**
+  - SOQ / X6 final 24.25, −4.75% vs the close;
+  - +30% credit-flat row **MET whole** (HY +13bp ≤ +25);
+  - History confirms inversion and VVIX over 120;
+  - VIX9D/VIX 1.0175 after the SOQ: holding above 1, **provisional**.
+- **Sends (`cc493f82f9`):** outbox SIG to HENRY, RED, LIQUID; SendMessage doorbells to henry-47 and red-ea (RED got the 11/11 to 11/17 SKEW and VIX bars); TERRY tradeability packet (weak, two-sided, no direction).
+- **Convergence** 34 → 36/50 on History.
+- **WQ-678:** A15 applied plus 9 of 12 B trims; declined M68, M74, M78 (MAINTENANCE 2026-11-18). CLAUDE.md 27,865 → 21,860 B.
+- **Stale KB sweep:** 49 rows, 10 refreshed, 2 superseded, 37 stale (`research/2026-11-18_soq/stale-kb-review.tsv`).
+- **WQ-715:** `Confidence` column added to PREDICTIONS.tsv, blank for existing calls; no new call this session.
+- **Inbox:** all 5 drained (WALTER 021 noted, 027 info-only with a combo row; 3 packets to `processed/`).
+- **Calendar:** the SOQ row pruned to `research/2026-11-18_soq/catalysts-fired.tsv`.
+- **Stamp correction:** my first three 11/18 artifacts were stamped 10:45 to 10:50 ET from narrative while the clock read 10:38 to 10:39; corrected before the session commit.
 
 ## NEXT SESSION
 
-1. **Wake Wed 11/18 at 11:00 ET (PROME DOCKET):**
-   - **SOQ (VRO) and the X6 final settlement** against the 25.46 print.
-   - **VIX9D/VIX after the SOQ:** back under 1 means an earnings premium; holding above 1 means policy and governance (KB-VIO-367/400).
-   - **FRED 11/17 HY cell:**
-     - ≤ 355 means the +30% row is MET whole (🔴 HENRY, RED); over 355 means NOT MET;
-     - ≥ 368 reopens the WATCH.
-   - **History for 11/17:** confirm or correct the inversion and VVIX fires, and send the same way. Re-score convergence on History.
-   - Send RED the 11/17 SKEW and VIX bars.
-2. **WQ-678 at the 11/18 wake (PROME 11/17: Will's ruled record is his word; a wake for other work counts):**
-   - apply A15;
-   - decide the 12 B trims;
-   - record each applied or declined in STATUS and MAINTENANCE.
-3. **Stale KB rows (Will's instruction via PROME 11/16):** 47 rows past Stale_By. Retire or refresh each by my own rule; send PROME one line.
-4. **WALTER card 020:** done at closeout. WALTER committed it (`293bd2b2b3`), so it was moved to `processed/`, and correction COR-20261117-20 was receipted NO-OP.
-5. **11/20:** VIO-PRED-08 on History (25.46 print, 4.54 short). Combination watch review (KB-VIO-383 to 386).
-6. **Boot reds:** CANARY_MAP dark ledger (1). Thesis advisory at 21 rows: read the headline against KB-VIO-378 to 401.
-7. D:L342 on 11/27 (no 11/26 row: Thanksgiving). December 16 L441. PRED-09 on 12/31.
+1. **11/18 History close:** grade VIX9D/VIX after the SOQ (above 1 = policy/governance; under 1 = earnings); VIX close over 25 held or not; re-score convergence. If the grade flips, send HENRY and RED the correction.
+2. **11/20:** VIO-PRED-08 on History. Combination watch review (KB-VIO-383 to 386).
+3. **About 11/26 (Thanksgiving):** VIX9D/VIX into the Bessent deadline, read on the 11/25 close.
+4. **Any NEW forecast call:** log a probability in the `Confidence` column at first logging (WQ-715).
+5. **Boot reds:** CANARY_MAP dark ledger (1). Thesis advisory at 23 rows.
+6. D:L342 on 11/27. December 16 L441. PRED-09 on 12/31.
 
 ## CARRY-FORWARD
 
-- **Owners:**
-  - RED: FT-06, FT-10 and RED-29.
-  - LIQUID: HY.
-  - HENRY: gamma and SPX.
-  - BOND: rates.
-  - VULCAN: Nvidia substance.
-  - ORACLE: priced odds.
-  - SAM: BOJ and JPY.
+- **Owners:** RED (FT-06, FT-10, RED-29) · LIQUID (HY) · HENRY (gamma, SPX) · BOND (rates) · VULCAN (Nvidia) · ORACLE (priced odds) · SAM (BOJ, JPY).
 - **Path A:** WATCH, no gate (WQ-611 A).
-- **Live VX quotes:** `www.cboe.com/us/futures/api/get_quotes_combined/?symbol=VX&rootsymbol=null` gives last, high, low and settle with **no trade time**. Stamp the pull. Capture script `research/2026-11-17_nvda-close/snap.sh`.
-- **Raw ICE HY series:** lives only in a past scratchpad. Re-fetch to rerun `research/2026-11-05_path-a-f2/run_audit.py`.
-- **Corrections receipt writer:** refuses `;` in `--scope`.
+- **SOQ source:** `cdn.cboe.com/api/global/delayed_quotes/quotes/_VRO.json` (print time in `last_trade_time`) and the settlement CSV for the trade date; they agreed on 11/18.
+- **Live VX quotes:** `www.cboe.com/us/futures/api/get_quotes_combined/?symbol=VX&rootsymbol=null`, no trade time; stamp the pull.
+- **Raw ICE HY series:** re-fetch to rerun `research/2026-11-05_path-a-f2/run_audit.py`.
 
 ## OPEN HYPOTHESES
 
-**Front premium: earnings or policy and governance (exploratory, untested).** The 11/17 inversion and VVIX over 120 came before the release, and the release left X6 8.1% over Z6. The test is VIX9D/VIX after the 11/18 SOQ, then into the about-11/26 deadline. Credit tightening through both readings is the Path B signature.
+**Front premium: earnings or policy and governance (exploratory, untested).** After Nvidia's release and the SOQ, VIX9D/VIX is still above 1 but shrinking (1.0487 → 1.0175). If it holds above 1 into the 11/25 close with credit still flat, the premium is carried by the policy and governance dates, not the earnings print.

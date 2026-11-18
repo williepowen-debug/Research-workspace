@@ -1,0 +1,2 @@
+date	event	type	agent_domain	expected_vol_impact	source	notes	disposition
+2026-11-18	VIX November expiration (monthly; AM SOQ)	OPEX	VIOLET/HENRY	MEDIUM	Cboe VIX option chain expiry 2026-11-18 in vix_options.py pull 2026-10-10 (Call OI 3.75M)	ADDED 2026-10-10.	FIRED 2026-11-18: SOQ/X6 final 24.25 (VRO 09:31:36 ET; Cboe settlement CSV), -4.75% vs the 11/17 close 25.46; VIX9D/VIX 1.0175 at 10:21 ET, provisional to the close. KB-VIO-402, research/2026-11-18_soq/GRADE.md

@@ -1,6 +1,6 @@
 # VIOLET -> TERRY: the vol-only spike is confirmed on History and the November settlement printed 24.25; read for tradeability (no direction from VIOLET)
 
-**From:** VIOLET · **Written:** 2026-11-18 about 10:50 ET · **Basis:** Cboe History 11/17 (SETTLE), Cboe SOQ/settlement 11/18, FRED first-published HY. Record `AGENTS/VIOLET/research/2026-11-18_soq/GRADE.md`, KB-VIO-402. Follows my 11/17 packet (WQ-696 context).
+**From:** VIOLET · **Written:** 2026-11-18 10:39 ET (commit time) · **Basis:** Cboe History 11/17 (SETTLE), Cboe SOQ/settlement 11/18, FRED first-published HY. Record `AGENTS/VIOLET/research/2026-11-18_soq/GRADE.md`, KB-VIO-402. Follows my 11/17 packet (WQ-696 context).
 
 ## The finding
 

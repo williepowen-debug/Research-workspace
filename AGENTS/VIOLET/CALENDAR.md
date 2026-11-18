@@ -1,17 +1,17 @@
 # VIOLET CALENDAR
 
-Updated November 17, 2026 (16:5x ET); canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). Closeout contract: at least one HIGH/MEDIUM row within 14 calendar days (`scripts/forward_calendar_check.py`, KB-VIO-353). Fired rows preserved in research/2026-10-19_official-followthrough/catalysts-fired.tsv, research/2026-10-21_catchup/catalysts-fired.tsv research/2026-10-29_catchup/catalysts-fired.tsv, research/2026-10-30_boj-carry-vol/catalysts-fired.tsv research/2026-11-05_catchup/catalysts-fired.tsv research/2026-11-10_cpi/catalysts-fired.tsv and research/2026-11-17_nvda-close/catalysts-fired.tsv.
+Updated November 18, 2026 (10:4x ET); canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). Closeout contract: at least one HIGH/MEDIUM row within 14 calendar days (`scripts/forward_calendar_check.py`, KB-VIO-353). Fired rows preserved in research/2026-10-19_official-followthrough/catalysts-fired.tsv, research/2026-10-21_catchup/catalysts-fired.tsv research/2026-10-29_catchup/catalysts-fired.tsv, research/2026-10-30_boj-carry-vol/catalysts-fired.tsv research/2026-11-05_catchup/catalysts-fired.tsv research/2026-11-10_cpi/catalysts-fired.tsv, research/2026-11-17_nvda-close/catalysts-fired.tsv and research/2026-11-18_soq/catalysts-fired.tsv.
 
 ## ACTIVE FORWARD CATALYSTS
 
 | Date | Event | Impact | VIOLET checkpoint |
 |---|---|---|---|
-|Nov 18 (Wed)|VIX November expiration AM SOQ|MEDIUM|Record contract pair; adjusted helper switches inside DTE<5. Wake 11:00 ET (PROME DOCKET): SOQ vs the 11/17 close print 25.46, VIX9D/VIX after it, +30% row credit leg on FRED 11/17.|
 |Nov 26 (Thu, approx.)|Bessent 10-day deadline to the Nvidia board (card-sourced, not an official date; Thanksgiving, US markets closed, so the read is the 11/25 close and 11/27)|MEDIUM|Does the front premium (VIX9D/VIX) persist into it? KB-VIO-400.|
 |Dec 16 (Wed)|M1:M2 historical-average recheck KB-VIO-310|LOW|Existing L441; re-measure before any approved numerical update.|
 
 ## RESOLVED — fired catalysts and their grades
 
+- **November 18 VIX November expiration (AM SOQ):** fired. **SOQ / VX X6 final 24.25** (VRO 09:31:36 ET; Cboe settlement CSV), −4.75% vs the 11/17 close 25.46, −1.99% vs the X6 settle 24.7417. VIX9D/VIX after it **1.0175** (10:21 ET, delayed): still above 1, provisional until the 11/18 History close. Same window: the +30% credit-flat row MET whole (HY 330 → 343bp), and History confirmed the 11/17 inversion (0.9811) and VVIX 121.28. [Grade](research/2026-11-18_soq/GRADE.md), KB-VIO-402.
 - **November 17 NVIDIA Q3 FY27 results (about 16:20 ET):** fired. Before it, on the close print (TICK until History): VIX 25.46, VIX3M/VIX **0.9811 inverted**, VVIX **121.28**, X6 settle 9.05% over Z6. After it (delayed CFE quotes, 16:46 ET): X6 24.00 (−3.0%), still 8.1% over Z6; NVDA up after hours. Release content VULCAN-owned. [Grade](research/2026-11-17_nvda-close/GRADE.md), KB-VIO-400.
 - **November 17 credit-vol WATCH endpoint:** **CLOSED, size condition NOT MET**: peak 348 [11/05] vs 368; 334 [11/16]. The 11/17 cell reopens it only at ≥ 368. KB-VIO-401.
 - **November 10 October CPI (08:30 ET):** fired; date verified at the publisher (BLS public API; pages 403). SA m/m all items +0.35%, core +0.30%; consensus not read. **Close read on the 16:15:01 ET print (TICK until History):** VIX **19.46** vs 19.92 pre (−2.31%), intraday high 21.43; 9D/VIX 0.9527, 3M/VIX 1.0606, VVIX 96.63. **Under 20.00: LOW_VOL holds, no regime row.** Vol priced it as a one-session event. [Record](research/2026-11-10_cpi/GRADE.md), KB-VIO-394/396.
