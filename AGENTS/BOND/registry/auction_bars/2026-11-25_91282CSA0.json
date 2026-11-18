@@ -1,0 +1,14 @@
+{
+  "cusip": "91282CSA0",
+  "auction_date": "2026-11-25",
+  "term": "7-Year",
+  "tips": false,
+  "frozen_on": "2026-11-18",
+  "source": "AGENTS/BOND/analysis/2026-11-18_20y/grade_91282CSA0.txt (pre-print run 2026-11-18 13:0x ET, .venv python); docket/CATALYSTS.tsv",
+  "n": 12,
+  "ind_min": 56.65,
+  "dlr_max": 13.07,
+  "btc_min": 2.42,
+  "p15": 57.43,
+  "p15_reopen": null
+}

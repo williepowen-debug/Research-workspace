@@ -1,0 +1,7 @@
+
+== VX-BND-17 RE-ARM WATCHER (MBS relay DORMANT since 8/18; spread leg only; weekly survey − LAST Treasury close BEFORE the survey date: matched basis, WQ-699 A) ==
+   2026-10-29  PMMS 30Y 7.24 − DGS10 5.05 [2026-10-28] = 219bp  → INSIDE 180–230bp
+   2026-11-05  PMMS 30Y 7.18 − DGS10 4.90 [2026-11-04] = 228bp  → INSIDE 180–230bp
+   2026-11-12  PMMS 30Y 7.11 − DGS10 4.98 [2026-11-10] = 213bp  → INSIDE 180–230bp
+   ✅ spread leg not fired (33bp above the low edge, 17bp below the high edge).
+   ⚠️ NOT watched by this tool: the GSE-release-execution and active-Fed-MBS-sales legs of the re-arm trigger.

@@ -65,7 +65,7 @@ JUDGEMENT = [
     "SCRATCH.md carries a STATE AT WRITING block and a stated no-op per surface",
     "THESIS/CHANGELOG written for any thesis-level change; the bond-state token moved WITH the prose",
     "CATALYSTS pruned/added and the STATUS twin has the same event SET",
-    "NEXUS_BRIEF.md re-pin REWRITTEN (not appended) and folded LAST — or a --noop reason that is true",
+    "NEXUS_BRIEF.md re-pin REWRITTEN (not appended) and folded LAST when a figure, threshold, send or wait in it changed — otherwise UNTOUCHED with a true --noop reason (WQ-719 A)",
     "RECEIPT.md overwritten if signals or a tasked deliverable were processed",
     "Promotion scan done (auto-memory vs local MEMORY)",
 ]

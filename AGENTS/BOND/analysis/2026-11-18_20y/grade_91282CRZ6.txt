@@ -1,0 +1,22 @@
+[grade] corpus: 45 FRN row(s) EXCLUDED from the 2Y pool (floating-rate notes are not nominal 2Y)
+[grade] ⚠️ TA_WS returned 250 rows = AT CAP. Its date filter is inoperative; this feed is used for RECENT PRINTS ONLY, never for benchmarks.
+[grade] corpus: 360 rows through 2026-09-24 | +12 newer print(s) overlaid from TA_WS
+==============================================================================
+PRE-PRINT — no results published yet. Reporting the BARS.
+  5-Year  91282CRZ6  size TBA  tips=No  reopening=No  auction 2026-11-24
+
+  ROLLING BENCHMARK AUDIT — 5-Year (displayed 2dp)
+    method : trailing-12 SAME-TENOR SAME-TIPS auctions, strictly prior,
+             % of COMPETITIVE ACCEPTED (PD+direct+indirect)
+    window : 2025-11-25 -> 2026-10-27   n=12
+    RAW ROLLING AUDIT: {'ind_min': 54.31002986392078, 'dlr_max': 15.774663284142507, 'btc_min': 2.21, 'p15': 59.41755986431189, 'p15_reopen': None}
+    BTC        median    2.33 | mean    2.33 | min    2.21 | max    2.41
+    indirect%  median   61.43 | mean   62.48 | min   54.31 | max   74.85
+    dealer%    median   12.74 | mean   12.29 | min    8.84 | max   15.77
+
+    ⇒ COMPOSITION-FAILURE test : indirect < 54.31%  AND  dealer > 15.77%
+    ⇒ COVER-MARKER test        : BTC < 2.21 with composition intact
+    ⇒ I' (MATRIX_V2, 8/27)     : indirect < 59.42%  [P15 linear over the same window, STRICT]
+
+  ⇒ Freeze these published 2dp bars NOW, before the print; retain source and identity.
+==============================================================================

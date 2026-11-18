@@ -1,0 +1,14 @@
+{
+  "cusip": "91282CRY9",
+  "auction_date": "2026-11-23",
+  "term": "2-Year",
+  "tips": false,
+  "frozen_on": "2026-11-18",
+  "source": "AGENTS/BOND/analysis/2026-11-18_20y/grade_91282CRY9.txt (pre-print run 2026-11-18 13:0x ET, .venv python); docket/CATALYSTS.tsv",
+  "n": 12,
+  "ind_min": 45.68,
+  "dlr_max": 24.12,
+  "btc_min": 2.44,
+  "p15": 54.67,
+  "p15_reopen": null
+}

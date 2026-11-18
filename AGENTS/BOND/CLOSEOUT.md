@@ -44,7 +44,7 @@ Before `/clear`, a machine switch, a long pause, or any session end. Run it at E
 **C8. RECEIPT.md + board_log.** Overwrite RECEIPT when signals or a tasked deliverable were processed; one `board_log.tsv` row per WALTER signal consumed.
 **C9. Promotion scan.** Transferable lesson → auto-memory (then remove the local copy). BOND-only lesson → `MEMORY.md`. Outbox packets 🔴-acute only.
 **C10. Charter check (heavy only).** A threshold, step, tool or date changed ⇒ `CLAUDE.md` and this file agree with it today.
-**C11. NEXUS_BRIEF.md — the LAST content write, after C1–C10.** Rewrite the re-pin block; owner pointers only; never append.
+**C11. NEXUS_BRIEF.md — the LAST content write, after C1–C10, and ONLY when a figure, threshold, or cross-desk send or wait in it changed (WQ-719 A, Will 2026-11-18 12:10 ET; NEXUS schema §4.1).** Then rewrite the re-pin block; owner pointers only; never append. Otherwise leave it untouched, with no As-of or pin refresh, and declare it at C12 with `--noop NEXUS_BRIEF.md "WQ-719 A: no figure, threshold, send or wait in it changed"`. A lagging pin after a no-change session is a warning, not a failure (`scripts/brief_pin_check.py`).
 **C12. FREEZE → RUN → VERIFY → COMMIT → PUSH.**
    1. **Freeze:** stop editing files. Any edit after this line restarts C12 at 1.
    2. **Run (from `AGENTS/BOND/`):** `python3 monitors/closeout_run.py --tier <tier> [--superseded OLD NEW]… [--memory-slug S]…`

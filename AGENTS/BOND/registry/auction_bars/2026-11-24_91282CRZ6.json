@@ -1,0 +1,14 @@
+{
+  "cusip": "91282CRZ6",
+  "auction_date": "2026-11-24",
+  "term": "5-Year",
+  "tips": false,
+  "frozen_on": "2026-11-18",
+  "source": "AGENTS/BOND/analysis/2026-11-18_20y/grade_91282CRZ6.txt (pre-print run 2026-11-18 13:0x ET, .venv python); docket/CATALYSTS.tsv",
+  "n": 12,
+  "ind_min": 54.31,
+  "dlr_max": 15.77,
+  "btc_min": 2.21,
+  "p15": 59.42,
+  "p15_reopen": null
+}

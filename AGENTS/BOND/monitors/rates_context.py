@@ -60,8 +60,13 @@ SOURCES, TOLERANCES AND THEIR BASIS (owner-chosen, documented here)
   · Term premium: NY Fed ACM Daily (ACMTP10) + FRED THREEFYTP10 (KW); two
     MODELS, name the model; stale > STALE_DAYS calendar days = finding.
   · MBS primary spread = Freddie Mac PMMS 30Y (weekly survey, Thu-Wed
-    applications, published Thursday) − DGS10 on the PMMS date or up to
-    JOIN_MAX_BD business days before it. PMMS older than PMMS_MAX_DAYS = GAP.
+    applications, published Thursday) − DGS10 on the LAST CLOSE STRICTLY
+    BEFORE the PMMS date (MATCHED BASIS, WQ-699 A, Will 2026-11-16 21:22 ET,
+    "ok go A works"; HOMER's survey-matched basis), at most JOIN_MAX_BD
+    business days before it. Until 2026-11-18 the join took the PMMS date's
+    own close when one existed (same-date basis); the 11/5 and 11/12 records
+    made on that basis stand as written. Band, thresholds, scope unchanged.
+    PMMS older than PMMS_MAX_DAYS = GAP.
     Only the spread leg of the re-arm is watched; the GSE-release and
     active-MBS-sales legs are NOT, and the block says so every run.
 
@@ -289,9 +294,10 @@ def calendar_check(docket: list, issuer: list | None, today: dt.date):
     return nxt, [], "next DOCKETED meeting — calendar completeness UNVERIFIED"
 
 
-def join_prior(ust_dates: list, d: str, max_bd: int = JOIN_MAX_BD):
-    """Latest DGS10 date ≤ d within max_bd business days, else None (never raises)."""
-    prior = [x for x in ust_dates if x <= d]
+def join_prior(ust_dates: list, d: str, max_bd: int = JOIN_MAX_BD, strict: bool = False):
+    """Latest DGS10 date ≤ d (strict=True: < d, the WQ-699 A matched basis) within max_bd
+    business days, else None (never raises)."""
+    prior = [x for x in ust_dates if (x < d if strict else x <= d)]
     if not prior:
         return None
     k = max(prior)
@@ -519,7 +525,8 @@ def term_premium(today: dt.date) -> int:
 
 
 def mbs_rearm(today: dt.date) -> int:
-    print("\n== VX-BND-17 RE-ARM WATCHER (MBS relay DORMANT since 8/18; spread leg only; weekly survey − daily Treasury) ==")
+    print("\n== VX-BND-17 RE-ARM WATCHER (MBS relay DORMANT since 8/18; spread leg only; weekly survey − LAST Treasury close "
+          "BEFORE the survey date: matched basis, WQ-699 A) ==")
     try:
         mort = _fred("MORTGAGE30US", 12)
         ust = dict(_fred("DGS10", 60))
@@ -528,7 +535,7 @@ def mbs_rearm(today: dt.date) -> int:
         return 1
     band = f"{MBS_BAND[0]*100:.0f}–{MBS_BAND[1]*100:.0f}bp"
     for d, mv in mort[-3:]:
-        k = join_prior(list(ust), d)
+        k = join_prior(list(ust), d, strict=True)
         if k is None:
             print(f"   {d}  PMMS 30Y {mv:.2f} − (no DGS10 within {JOIN_MAX_BD} business days before) → not computable")
             continue
@@ -538,7 +545,7 @@ def mbs_rearm(today: dt.date) -> int:
     for why in stale_reasons(today, pmms_date=d):
         print(f"   🔴 GAP — {why}; NO current verdict on the re-arm leg.")
         return 1
-    k = join_prior(list(ust), d)
+    k = join_prior(list(ust), d, strict=True)
     if k is None:
         print(f"   🔴 GAP — no DGS10 close within {JOIN_MAX_BD} business days before the {d} PMMS; NO current verdict.")
         return 1
@@ -618,7 +625,17 @@ def selftest() -> int:
     check("BR1: an 8/10 bar on 9/28 exceeds the futures tolerance", bd_age(dt.date(2026, 8, 10), T) > FUT_MAX_BD)
     check("#5 join: PMMS earlier than every DGS10 → None, never raises", join_prior(["2026-09-24"], "2026-09-10") is None)
     check("BR1 join: current PMMS vs a six-week-old DGS10 → None", join_prior(["2026-08-13"], "2026-09-24") is None)
-    check("join: same-day DGS10 accepted", join_prior(["2026-09-23", "2026-09-24"], "2026-09-24") == "2026-09-24")
+    check("join: same-day DGS10 accepted (non-strict helper only)", join_prior(["2026-09-23", "2026-09-24"], "2026-09-24") == "2026-09-24")
+    # WQ-699 A matched basis (Will 2026-11-16): the watcher joins the last close STRICTLY before the PMMS Thursday
+    check("WQ-699 matched: same-day close EXCLUDED → prior Wednesday",
+          join_prior(["2026-09-23", "2026-09-24"], "2026-09-24", strict=True) == "2026-09-23")
+    check("WQ-699 matched: 11/12 PMMS, Wed 11/11 closed → Tue 11/10 (2 bd), 7.11 − 4.98 = 213bp INSIDE",
+          join_prior(["2026-11-09", "2026-11-10", "2026-11-12"], "2026-11-12", strict=True) == "2026-11-10"
+          and mbs_state(7.11, 4.98) == (213, "INSIDE"))
+    check("WQ-699 matched: only the same-day close available → None (GAP), never the same-day pair",
+          join_prior(["2026-11-12"], "2026-11-12", strict=True) is None)
+    check("WQ-699 matched: three business days back → None (tolerance unchanged)",
+          join_prior(["2026-11-09"], "2026-11-12", strict=True) is None)
     check("MBS 9/24 real case: 7.03 − 5.18 = 185bp INSIDE", mbs_state(7.03, 5.18) == (185, "INSIDE"))
     check("MBS band edges inclusive: 180 and 230 INSIDE", mbs_state(6.80, 5.00)[1] == "INSIDE" and mbs_state(7.30, 5.00)[1] == "INSIDE")
     check("MBS 179bp BELOW, 231bp ABOVE", mbs_state(6.79, 5.00)[1] == "BELOW" and mbs_state(7.31, 5.00)[1] == "ABOVE")
