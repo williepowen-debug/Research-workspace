@@ -30,6 +30,7 @@ Report: [11/17 C8c](reports/2026-11-17_c8c-qeshm-strike-confirmed-card022.md). W
 | Gas tanker title | **TARA GAS, the 11/16 hull, not new.** Abandoned 11/17 after a second attack (UKMTO via Reuters, time not stated); NAVAREA IX 445/26 drifting 4.5 NM SW Jazirat Umm al-Ghanam. Crew: one missing vs 24 evacuated, two hospitalised (Reuters versions conflict). IMO 138 / 25, no row yet. Census 7 (KB-507) |
 | Letters | Rung NOT FIRED. D→C NOT MET. Gate not engaged. Thesis-kill 0/7. Marks 1 / 14 / 85 hold; convergence 43/50 |
 | Mail | Cards 022 `acted` and 015 `noted`, to processed. Packets PROME, WALTER |
+| Closeout 20:10 ET | **Step 11:** EXIT_PROTOCOL v4 §5 compared to 11/17: weekly next due 11/18 (not yet); rewrite trigger NOT fired (FAL-08 open; no fifth axis; no permanent-corridor framework; class-(iii) losses still 2, TARA GAS abandoned not sunk; 12/31 not reached). §1 thesis-kill 0/7 (#1: no ceasefire, US struck Qeshm 11/17). §3 #3 nightly limb NOT established (one strike day). **Step 12b:** no live settle clock, no-op. **Step 14b:** "FAL-09 0 of 5" remains only in dated sections and older brief rows (snapshots). Pushed 87d2c6624c |
 
 ## November 17, second C8 wake
 

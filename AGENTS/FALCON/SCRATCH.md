@@ -1,10 +1,11 @@
 # FALCON SCRATCH — November 17, 2026, third C8 wake (PROME prome-7a, laptop), cutoff 00:36Z 11/18
 
-## THIRD C8 WAKE 11/17 (19:29–about 19:45 ET; holding for PROME's closeout ask)
+## THIRD C8 WAKE 11/17 (19:29–about 19:45 ET; closed out on PROME's ask, completion pass 20:10 ET)
 - Card SIG-W-20261117-022: the US strike on Qeshm 11/17 is now CONFIRMED (Reuters, AFP and Bloomberg quoting an ANONYMOUS US military official: IRGC missile launch site, self-defence). Not on record: no named official, no CENTCOM release found (centcom.mil 403). KB-506; KB-503 SUPERSEDED.
 - FAL-09 count **1 of 5** (11/17 only; route 2). KB-508.
 - Reuters gas tanker = **TARA GAS**, the 11/16 hull, attacked a second time, abandoned 11/17; NAVAREA IX 445/26; crew accounts conflict; census 7. KB-507.
 - Nothing moves: 1 / 14 / 85, 43/50, rung NOT FIRED, D→C NOT MET, gate not engaged, thesis-kill 0/7.
+- Closeout step 11: EXIT v4 §5 no trigger fired (weekly due 11/18); thesis-kill 0/7; 12b no-op (no settle clock).
 - Report reports/2026-11-17_c8c-qeshm-strike-confirmed-card022.md. Cards 022 acted, 015 noted, both to processed. STATUS rotated (11/16 card + 11/17 first wake + old bottom lines → domain/sources/STATUS_archive_2026-11-17_1116-1117c8.md), 21.4 KB.
 
 ## CURRENT MARKS
@@ -37,4 +38,4 @@ FAL-08 75%, FAL-09 40% (count 1 of 5), FAL-10 12%, FAL-11 20%, FAL-12 10%, all 1
 - Outbox: clear; packets direct to PROME/inbox and WALTER inbox (carve-out ①).
 
 ## PENDING PUSH / GIT
-Commit at delivery; push held for PROME's closeout ask (WALTER's 1b02eb3eda was also unpushed at boot).
+Pushed at closeout: "Pushed. CONFIRMED: HEAD 87d2c6624c is on origin/master (fresh fetch)." (carried WALTER's 1b02eb3eda). Completion pass 20:10 ET (step 11 §5 check, 12b no-op, 14b sweep) committed and pushed after; receipt in PROME reply. 20:10 ET pull refused by other desks' dirty files (CYPHER and others); origin had no incoming commits. Next session: git pull --rebase first.
