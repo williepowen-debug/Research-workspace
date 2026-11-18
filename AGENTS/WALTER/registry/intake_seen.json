@@ -3,15 +3,21 @@
     "fred:UMCSENT:orange": "2026-10-22T19:20:42Z",
     "fred:MORTGAGE30US:red": "2026-10-22T19:20:42Z",
     "fred:BAMLH0A0HYM2:red": "2026-10-22T19:20:42Z",
-    "news:NEW_WATCH:data/2026-11-17/news.json": "2026-11-17T16:55:39Z",
-    "news:WATCH_HIT:d93089e2405e": "2026-11-18T00:28:23Z",
-    "news:WATCH_HIT:0bc87b47ea83": "2026-11-18T00:28:23Z",
-    "news:WATCH_HIT:c27f017b05df": "2026-11-18T00:28:23Z",
-    "news:WATCH_HIT:e7233bbd741b": "2026-11-18T00:28:23Z",
-    "news:WATCH_HIT:6abaf93b778b": "2026-11-18T00:28:23Z"
+    "news:NEW_ALERT:data/2026-11-18/news.json": "2026-11-18T15:22:03Z",
+    "news:NEW_WATCH:data/2026-11-18/news.json": "2026-11-18T15:22:03Z",
+    "news:WATCH_HIT:c060663a798e": "2026-11-18T15:22:03Z",
+    "news:WATCH_HIT:96fdcb32b49d": "2026-11-18T15:22:03Z",
+    "news:WATCH_HIT:d77233041d26": "2026-11-18T15:22:03Z",
+    "news:WATCH_HIT:eaead16510af": "2026-11-18T15:22:03Z",
+    "news:WATCH_HIT:a0e0cd0a3424": "2026-11-18T15:22:03Z",
+    "news:WATCH_HIT:f2e396adb3a5": "2026-11-18T15:22:03Z",
+    "news:WATCH_HIT:0d22670608a4": "2026-11-18T15:22:03Z",
+    "news:WATCH_HIT:7b19dad010a0": "2026-11-18T15:22:03Z",
+    "news:WATCH_HIT:8c43998bf8c4": "2026-11-18T15:22:03Z",
+    "news:WATCH_HIT:6da9ba10e179": "2026-11-18T15:22:03Z"
   },
-  "updated": "2026-11-18T00:28:23Z",
-  "last_marked_batch": "data/2026-11-17/news.json",
-  "last_marked_sha": "f8588155fb12",
-  "last_marked_commit": "94ee710fb4f7d10a5d39fba1d102b8ee9d685eff"
+  "updated": "2026-11-18T15:22:03Z",
+  "last_marked_batch": "data/2026-11-18/news.json",
+  "last_marked_sha": "919e453dae95",
+  "last_marked_commit": "b771325273ed2342434ba9a52d65eab2f61c3bce"
 }

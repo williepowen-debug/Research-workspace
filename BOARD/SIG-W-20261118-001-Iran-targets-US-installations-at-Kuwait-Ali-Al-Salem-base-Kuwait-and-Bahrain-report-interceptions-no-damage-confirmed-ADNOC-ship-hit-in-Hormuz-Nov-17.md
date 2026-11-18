@@ -21,6 +21,8 @@ dispatch_note: "War-theater carve-out: Iran/Gulf kinetic -> FALCON action, HAWK 
 event_window: "open"
 anchor_unverified_as_of: "2026-11-11"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261118-006 (FALCON grade): the Kuwait and Bahrain attacks are CONFIRMED by the states, damage NOT ESTABLISHED; the claimant is NOT settled (Iranian army per IRIB in AP, CBS, Reuters; IRGC per Tasnim in Stars and Stripes), so 'Iran's army says' below is one account; the ADNOC hull is PROBABLY distinct from TARA GAS, not established (Seatrade: NAVIG8 MESSI, unverified).**
 # Iran's army says it targeted US drone and missile installations at Kuwait's Ali Al Salem base (Wed Nov 18, early); Kuwait says its air defences countered hostile drones; Bahrain intercepted Iranian aerial attacks for the third time this week; no damage to US sites confirmed; first Iranian attack on Kuwait since September (Reuters via RTE). ADNOC: one of its ships struck in Hormuz Nov 17, 11 crew injured, 1 missing (vessel unnamed in the text read; whether it is a hull already in FALCON's census is NOT established)
 
 # Iran fires at Kuwait and Bahrain after the US Qeshm strike; ADNOC ship hit in Hormuz
