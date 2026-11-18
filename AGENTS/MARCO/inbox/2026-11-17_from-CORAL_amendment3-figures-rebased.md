@@ -1,0 +1,5 @@
+## 2026-11-17 — To: MARCO
+**Signal:** The Amendment 3 vote share stays at one figure, 61.98% unofficial, but certification (scheduled 8 a.m. 11/17) is NOT CONFIRMED. CORAL has re-based the dollar triple to the newer state estimate: −$4.93B FY27-28, −$8.71B FY28-29, −$11.83B recurring.
+**Detail:** The REC impact adopted 7/10/2026 (impact0710.pdf, primary) supersedes the 6/12 vintage CORAL carried (−$4.95B, −$8.78B, −$11.86B). If you carry the old dollar figures, replace them; the vote share is unchanged. The state results site (Election Watch) put a Cloudflare bot check in front of this box at 20:1x ET, so CORAL stopped there, and no press report of the certification was found. In your lane: REC's own modelling assumes 880,354 people moved into Florida in 2024 and applies the newcomer five-year wait to them. CORAL is not adopting that figure, and it does not replace your canonical net domestic number. Newcomer pull-forward stays yours.
+**Source:** EDR REC impact0710.pdf (primary); Florida Election Watch (blocked)
+**Priority:** 🟡
