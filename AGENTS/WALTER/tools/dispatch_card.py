@@ -20,6 +20,8 @@ Refusals (nothing is written for ANY card in the batch if one card is refused):
     automatic launch or signal-routing eligibility"; SIG-W-20261019-012 routed it anyway)
   * TERRY on the INFO line (TERRY is BOARD-only; Rule 10)
   * a recipient with no AGENTS/<NAME>/ directory, a duplicate recipient, or an existing card/handoff path
+  * a BOARD filename over 240 bytes (2026-11-18: a 300-byte slug raised ENAMETOOLONG at the first write;
+    a long slug on a later card in a batch would have left earlier cards written)
   * a weekday written beside a date that is not that date's weekday, in title, body, route_summary, source
     or dispatch_note (PROME packet 2026-11-17 20:42 ET on Will's word, WQ-713; test case SIG-W-20261117-014
     "Thu Nov 13", a Friday). The test is the fleet's scripts/claim_check.py weekday check; a bare M/D takes
@@ -122,6 +124,8 @@ def plan(card, root, runtime):
             errs.append(f"no AGENTS/{r}/ directory")
     slug = re.sub(r"[^A-Za-z0-9.]+", "-", card["slug"]).strip("-")
     board_rel = f"BOARD/{sid}-{slug}.md"
+    if len(board_rel.split("/")[-1].encode()) > 240:  # 11/18: a 300-byte name crashed mid-write (ENAMETOOLONG)
+        errs.append(f"BOARD filename is {len(board_rel.split('/')[-1].encode())} bytes; shorten the slug (limit 240)")
     if list((root / "BOARD").glob(f"{sid}-*.md")):
         errs.append(f"a BOARD card for {sid} already exists")
     handoffs = []

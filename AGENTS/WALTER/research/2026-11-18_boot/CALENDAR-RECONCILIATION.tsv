@@ -1,0 +1,6 @@
+release	period	scheduled	owner	evidence	outcome
+Housing starts and permits (Census New Residential Construction)	October 2026	2026-11-18 08:30 ET	HOMER	HENRY/domain/ECON_CALENDAR.md row; Census page read 15:16Z; FRED HOUST/PERMIT 2026-10; no BOARD card or HOMER record at boot (HOMER STATUS carries September)	PUBLISHED AND UNREVIEWED: carded SIG-W-20261118-002
+UK CPI (ONS)	October 2026	2026-11-18 07:00 UK	HANS	not in the calendar sources; found by lane title; ONS bulletin read (release date 18 November 2026)	PUBLISHED AND UNREVIEWED: folded in SIG-W-20261118-004 (HANS-T-17 not met)
+ECB Financial Stability Review	November 2026	2026-11-18	HANS	not in the calendar sources; found by lane title; ECB page read	PUBLISHED AND UNREVIEWED: carded SIG-W-20261118-003
+VIX November monthly expiration (AM SOQ)	Nov 2026	2026-11-18 AM	VIOLET	VIOLET/workbook/CATALYSTS.tsv; PROME wakes VIOLET 11:00 ET	UNKNOWN: owner review scheduled 11:00 ET, no WALTER duty beyond routing
+Window	n/a	2026-11-18T01:25:47Z to 2026-11-18T15:25Z	n/a	PROME/DOCKET.tsv 2026-11-18 rows; HENRY ECON_CALENDAR; owner CATALYSTS (LIQUID TIC 16:00 ET, VIOLET VIX expiry); WPSR 10:30 ET and FOMC minutes 14:00 ET not yet elapsed at cutoff	four releases dispositioned
