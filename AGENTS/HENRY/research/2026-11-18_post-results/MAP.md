@@ -45,3 +45,26 @@ NVDA's after-hours gain reversed after the WSJ report (via TechCrunch 21:48Z, WA
 **Investment implication: none new.** The sign has been negative at every read since 11/13 and the flip moved modestly; nothing here is a fresh, testable direction call. No TERRY packet (WQ-696 rule: a forecast grade or a map is not by itself an implication). Not published: walls fail the guard, and this wake's letter changes no threshold; flip and net gamma are recorded here and offered.
 
 ⚠️ Free-tier proxy: sign and flip reliable; $B assumes dealers long calls and short puts; IV held fixed across the spot grid; positioning is Tuesday's, so results-day hedging is unseen until 11/19.
+
+## 6. After the close (read 16:31–16:33 ET 11/18)
+
+**FRED retry, read 15:00:55 ET:** SP500 11/17 = **7,340.53**, the vendor and Cboe close to the cent. HEN-60's grade on the vendor close is confirmed; nothing to disclose. VIXCLS 11/17 25.46 and HY 11/17 343 (BAMLH0A0HYM2 3.43) also match the cells.
+
+**Close tape:** SPX **7,323.63** (−0.23%; Cboe `_SPX` last trade 16:14:59 ET; vendor agrees), −6.33% from the 7,818.93 peak. VIX **24.56** settle (Cboe `_VIX` last trade 16:15:01 ET, −3.53%); VIX9D 23.95, VIX3M 24.29 (vendor; front no longer inverted against VIX9D, VIX3M/VIX 0.989), VVIX 118.37. 10Y par **5.07** (2Y 4.80, 30Y 5.41; Treasury, 11/18 first published). NVDA 150.96 (−2.89%), SMH −0.12%, QQQ 659.51 (+0.39%), RSP −0.15%, IWM +0.40%, KRE 70.52 (−0.47%), APO 117.26, HYG 76.65 (+0.03%), USD/JPY 159.36. PANW 339.92 (+9.90%), HACK 119.60 (+6.12%): row 9 graded in `ROW9_GRADE.md`, NOT-FIRED.
+
+**Close map** (`gamma_flip.py --both --spot 7323.63`, 16:31:54 ET; same chain vintage as the morning, open interest through 11/17, so only spot moved): flip **7,552 / 7,561**, net gamma **NEGATIVE −57.2 / −78.8 $B per 1%**, spot about 230 under the flip; walls withheld (14d 7,400 vs 35d 7,000; put = call at both). Not published.
+
+## 7. VIOLET's handoff: the equity and gamma response to a vol-only spike
+
+VIOLET's row (artifact `AGENTS/VIOLET/outbox/2026-11-18_SIG-VIO_to-HENRY-RED-LIQUID_30pct-row-met-history-confirms.md`, cc493f82f9): VIX 19.46 [11/10] to 25.46 [11/17], +30.83%, with HY 330 to 343 (+13bp), MET. My half:
+
+| | 11/10 | 11/17 | 11/18 |
+|---|---|---|---|
+| SPX close | 7,520.93 | 7,340.53 (−2.40% vs 11/10; −3.66% from the 11/11 7,619.38) | 7,323.63 (−0.23%) |
+| VIX (FRED / Cboe settle) | 19.46 | 25.46 | 24.56 |
+| HY OAS (FRED) | 330 | 343 | 11/18 posts 11/19 |
+| Dealer gamma (proxy) | not read | NEGATIVE −64.4 / −86.8, flip 7,599 / 7,604 (11/16 OI) | NEGATIVE −57.2 / −78.8, flip 7,552 / 7,561 (11/17 OI) |
+
+**Equity response:** an orderly slide, not a break: −2.4% over the five sessions and −3.9% from the 11/11 high to today, broad rather than chip-led on 11/17 (RSP −1.45%, IWM −1.43%). The spike is not fading into a rebound so far: on 11/18 VIX fell 3.5% and the 9-day un-inverted, yet the index closed lower again. **Gamma response:** dealers have been short gamma at every read since 11/13, so they add to moves in both directions; the flip sits about 3% above spot (about 7,550–7,560). A falling VIX with spot under the flip does not by itself turn dealers into dampers; that takes a close above about 7,555. **"Credit flat" is relative:** HY is +13bp over VIOLET's window but +23bp from its 11/12 low (320 to 343 in three prints). Under my credit-primary rule (H4: equity does not bottom until HY OAS peaks), the low is not called while HY is still widening. The 11/18 HY print (FRED 11/19) is the next read of that leg.
+
+**Investment implication: none new.** What it would take: a close above about 7,555 (dealers switch to damping) or an HY peak (H4) would each change the reading, and I would say so; until one happens this is the same short-gamma regime recorded since 11/13, which sizes moves and does not give their direction. What is unknown: results-day positioning (first in the 11/19 chain) and the 11/18 HY print. The historical outcomes after a VIX +30% with flat credit are VIOLET's (its artifact), not re-derived here. No TERRY packet (WQ-696).
