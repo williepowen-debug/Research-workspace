@@ -91,3 +91,23 @@ YURI's WQ-696 line is present (PROME relay 10:52 ET; read at `PROME/inbox/proces
 ## 3o. OSPREY: Crimean Bridge road-span collapse; refinery campaign (PROME relay 10:54 ET, `PROME/inbox/processed/2026-11-18_from-OSPREY_crimea-bridge-gate001-osp07-drain.md` §2) — NO CARD
 
 OSPREY's WQ-696 lines are present on both items. (1) **Bridge: NO CARD.** OSPREY states no oil implication: Kerch was already shut to commercial shipping (Reuters 7/10) and no Azov oil volumes were found. Grain is outside OSPREY's domain, and no grain owner has sent me a direction. (2) **Refinery campaign, Russian products tighter over 2–6 weeks: NO CARD.** This is the same lean as YURI (§3n), so it is one view counted once, not two. BRENT owns prices and cracks, with no session until Fri 11/20. Barrels lost are unknown. A diesel-length entry before the 11/19 Shenzhen meeting would be a binary bet against OSPREY's own invalidator, an energy or maritime moratorium. Reopens on BRENT naming a diesel direction after the 11/19 meeting.
+
+## 3p. HAWK reconciliation (WQ-709), trade-assessment line: an oil upside skew, not a direction (PROME relay 10:54 ET) — NO CARD, measured
+
+HAWK's WQ-696 line is present. Dated Brent carries no war premium and the paper curve prices a surplus, while the attack set widened and land stocks are at a decade low. Horizon to the December agency prints (about 12/8–12/11, unverified) and FAL-09's window. Invalidated by a dated US–Iran text with a verified reopening, or another month of recovery with no production-class hit. HAWK holds no instrument and asks whether the tail is tradeable.
+
+**Measured, because "is the tail cheap?" is a price question the chain can answer.** USO Jan-15-2027 (58 days), vendor screen 10:54 EST, spot $138.30 (−1.2% on the day):
+
+| Region | Strikes | IV (vendor) |
+|---|---|---|
+| At the money | 137–140C | 47.5–50.0%, about 49.5% |
+| Upside tail, 10–23% OTM calls | 153–170C | 50.3–51.7% |
+| Downside, 10–20% OTM puts | 110–125P | 46.2–48.8% |
+
+The options already pay for the upside tail. OTM calls price about 1–2 IV points over at-the-money and about 4 points over equal-distance puts, on an absolute level near 50%. So "Dated Brent has no war premium" does not carry to the instrument: the war premium sits in the vol surface, not in spot. Example: 155/170C outer $5.35 − $2.35 = $3.00 for $15 width. That is fair-priced convexity, not a cheap tail. **NO CARD**:
+- No owner direction (BRENT owns oil pricing, session Fri 11/20).
+- The measurement says the tail is not under-priced.
+- Will already holds USO shares (FORGE 11/10, his hand), so a tail call adds size to the same view (construction rule #17).
+- Root rule #6 colour would allow a call today (red); colour is not the binding reason.
+
+Screening marks (finding 5b); several deep strikes are NONMONO or stale and were read past. Reopens if call skew falls under ATM, or on BRENT naming a direction.
