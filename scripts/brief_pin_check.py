@@ -17,17 +17,22 @@ Per brief (AGENTS/<D>/NEXUS_BRIEF.md), with S = the last commit touching AGENTS/
 B = the last commit touching the brief:
   OK-SAME-COMMIT   B == S (brief folded in the same commit as STATUS — always satisfies A11)
   OK-PINNED        the pin hash in the brief's header equals S (prefix match)
-  STALE-PIN        the pin names an older STATUS commit than STATUS HEAD (the order of the brief and
-                   STATUS commits is not inspected) —
+  STALE-PIN        the pin names an older STATUS commit than HEAD and is not STALE-AT-COMMIT: it equalled
+                   STATUS HEAD as of the brief's commit, or the brief was folded in the same commit as a
+                   STATUS change, or the brief's own history holds no STATUS commit to compare against —
                    ADVISORY since WQ-719 A (Will, 2026-11-18): a brief is rewritten only when a figure,
                    threshold or cross-desk send or wait in it changed, so a lagging pin is expected after a
                    session that changed none of those; reported, never rc 1. When a lag means a raw STATUS
                    read is NEXUS's schema §4.4, not this script
+  STALE-AT-COMMIT  the pin was ALREADY older than STATUS HEAD when the brief itself was committed (the
+                   brief was written wrong; amendment 11's first sentence, unchanged by WQ-719 A; NEXUS
+                   schema-owner answer edcd280634)  ⇒ rc 1. A brief committed in the same commit as a
+                   STATUS change satisfies A11 at its commit by construction and is never this class
   PIN-UNRESOLVED   the pin is not a commit that touched STATUS (typo, other file, rebased away)  ⇒ rc 1
   UNPINNED         no hash in the header (prose pointer or no line): A11 cannot be checked; the line
                    reports the A10 fallback (is B at or after S?) — ADVISORY, never rc 1
   DIRTY            STATUS or brief has uncommitted changes (mid-closeout) — reported, not graded
-rc: 0 = no PIN-UNRESOLVED · 1 = at least one · 2 = cannot evaluate (git failed, no
+rc: 0 = no STALE-AT-COMMIT / PIN-UNRESOLVED · 1 = at least one · 2 = cannot evaluate (git failed, no
 briefs found, unknown desk named). WHAT A PASS DOES NOT PROVE: brief CONTENT matches STATUS (a fresh
 pin over a stale body passes — header-over-body is out of reach by construction); UNPINNED desks
 are not checked for A11 at all; since WQ-719 A a STALE-PIN no longer distinguishes a session that
@@ -40,7 +45,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 HEADER_LINES = 40
 PIN_RE = re.compile(r"STATUS commit\W{0,12}([0-9a-f]{7,40})\b", re.I)
-BLOCKING = {"PIN-UNRESOLVED"}
+BLOCKING = {"STALE-AT-COMMIT", "PIN-UNRESOLVED"}
 ADVISORY = {"STALE-PIN", "UNPINNED", "CANNOT-EVALUATE"}  # ⚠️ mark; only CANNOT-EVALUATE moves rc (to 2)
 
 
@@ -91,6 +96,21 @@ def check_desk(root, desk):
         hit = [c for c in status_commits if c.startswith(pin)]
         if hit:
             n_after = status_commits.index(hit[0])
+            # #17 split: was the pin already behind when the BRIEF was committed? STATUS HEAD as of the
+            # brief's commit = the last STATUS commit reachable from b. A brief commit that itself touched
+            # STATUS is a same-commit fold (A11 satisfied at its commit), so it is never graded here.
+            s_at_b = git(root, "log", "-1", "--format=%H", b, "--", rel_s)
+            if s_at_b and s_at_b != b and not s_at_b.startswith(pin):
+                full = hit[0]
+                is_anc = subprocess.run(["git", "-C", str(root), "merge-base", "--is-ancestor", full, s_at_b]).returncode == 0
+                if is_anc:   # count by ancestry, never by position in a date-ordered log (independent read #2, row 6)
+                    n_at = git(root, "rev-list", "--count", f"{full}..{s_at_b}", "--", rel_s)
+                    rel = f"is {n_at} STATUS commit(s) older"
+                else:
+                    rel = "is not an ancestor of it (another line of history)"
+                return "STALE-AT-COMMIT", (f"brief commit {b[:9]} was made when STATUS HEAD was {s_at_b[:9]}, but "
+                                           f"its pin {pin} {rel} — the brief was committed with a pin that did not "
+                                           f"equal STATUS HEAD; re-pin to STATUS HEAD {s[:9]} and re-commit{note}")
             return "STALE-PIN", (f"pin {pin} is {n_after} STATUS commit(s) behind HEAD {s[:9]} — advisory (WQ-719 A): "
                                  f"re-pin when the brief is next rewritten{note}")
         return "PIN-UNRESOLVED", f"pin {pin} is not a commit that touched {rel_s} (STATUS HEAD {s[:9]}){note}"
@@ -123,7 +143,8 @@ def run(root, desks, quiet=False):
     for _, v, _ in out:
         counts[v] = counts.get(v, 0) + 1
     head = " · ".join(f"{k} {n}" for k, n in sorted(counts.items()))
-    tag = "BRIEF-PIN 1 PIN-UNRESOLVED" if rc == 1 else ("BRIEF-PIN 2 CANNOT-EVALUATE" if rc == 2 else "BRIEF-PIN 0 OK")
+    blk = sorted({v for _, v, _ in out if v in BLOCKING})
+    tag = f"BRIEF-PIN 1 {' + '.join(blk)}" if rc == 1 else ("BRIEF-PIN 2 CANNOT-EVALUATE" if rc == 2 else "BRIEF-PIN 0 OK")
     print(f"{tag}: {len(out)} brief(s) checked against amendment 11 (pin-follows-STATUS-HEAD) — {head}. "
           f"A PASS proves the pin, never the brief's content; UNPINNED briefs are not A11-checked; "
           f"STALE-PIN is advisory (WQ-719 A).")
@@ -175,8 +196,18 @@ def selftest():
         f1 = commit(td, "AGENTS/F/STATUS.md", "f1", "F status 1")
         commit(td, "AGENTS/F/NEXUS_BRIEF.md", f"> **Historical delivery — STATUS commit `{f1[:9]}`.**\n", "F brief")
         commit(td, "AGENTS/F/STATUS.md", "f2", "F status 2")
+        # G (#17): STATUS g1, g2, then the brief committed on top still pinned to g1 → STALE-AT-COMMIT
+        g1 = commit(td, "AGENTS/G/STATUS.md", "g1", "G status 1")
+        commit(td, "AGENTS/G/STATUS.md", "g2", "G status 2")
+        commit(td, "AGENTS/G/NEXUS_BRIEF.md", f"STATUS commit: {g1[:9]}\n", "G brief, pin already behind")
+        # H (#17 false-block guard): brief folded in the SAME commit as a STATUS change, then STATUS moves
+        h1 = commit(td, "AGENTS/H/STATUS.md", "h1", "H status 1")
+        p = Path(td) / "AGENTS/H"
+        (p / "STATUS.md").write_text("h2"); (p / "NEXUS_BRIEF.md").write_text(f"STATUS commit: {h1[:9]}\n")
+        sh(td, "add", "AGENTS/H"); sh(td, "commit", "-q", "-m", "H status 2 + brief, same commit")
+        commit(td, "AGENTS/H/STATUS.md", "h3", "H status 3")
         want = {"A": "OK-PINNED", "B": "OK-SAME-COMMIT", "C": "STALE-PIN", "D": "PIN-UNRESOLVED", "E": "UNPINNED",
-                "F": "UNPINNED"}
+                "F": "UNPINNED", "G": "STALE-AT-COMMIT", "H": "STALE-PIN"}
         for d, w in want.items():
             got = check_desk(Path(td), d)[0]
             good = got == w; ok &= good; n += good
@@ -185,21 +216,24 @@ def selftest():
         cases = [(["A", "B", "E"], 0, "advisory UNPINNED never blocks"), (["A", "C"], 0, "STALE-PIN is advisory (WQ-719 A)"),
                  (["D"], 1, "PIN-UNRESOLVED blocks"), (["ZZ"], 2, "an unknown desk is CANNOT-EVALUATE, never clean"),
                  (["C", "ZZ"], 2, "an advisory stale pin does not mask an unreadable desk"),
-                 (["D", "ZZ"], 1, "an unresolved pin outranks an unreadable desk")]
+                 (["D", "ZZ"], 1, "an unresolved pin outranks an unreadable desk"),
+                 (["G"], 1, "a pin already behind at the brief's own commit blocks (#17)"),
+                 (["C", "H"], 0, "later lag and a same-commit fold stay advisory (#17)")]
         for desks, want_rc, label in cases:
             buf = io.StringIO()
             with contextlib.redirect_stdout(buf):
                 got = run(Path(td), desks)
             good = got == want_rc; ok &= good; n += good
             print(f"  {'PASS' if good else 'FAIL'}  rc {desks}: {got} (want {want_rc}) — {label}")
-        # rc 1 can only mean an unresolved pin: the tag must say so, never "STALE" (independent read #15)
-        buf = io.StringIO()
-        with contextlib.redirect_stdout(buf):
-            got = run(Path(td), ["D"])
-        first = buf.getvalue().splitlines()[0]
-        good = got == 1 and first.startswith("BRIEF-PIN 1 PIN-UNRESOLVED") and "STALE" not in first.split(":")[0]
-        ok &= good; n += good
-        print(f"  {'PASS' if good else 'FAIL'}  rc-1 tag names PIN-UNRESOLVED, not STALE")
+        # the rc-1 tag names exactly the blocking class(es) present (independent read #15; #17)
+        for desks, want_tag in ((["D"], "BRIEF-PIN 1 PIN-UNRESOLVED:"), (["C", "D"], "BRIEF-PIN 1 PIN-UNRESOLVED:"),
+                                (["D", "G"], "BRIEF-PIN 1 PIN-UNRESOLVED + STALE-AT-COMMIT:")):
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                got = run(Path(td), desks)
+            first = buf.getvalue().splitlines()[0]
+            good = got == 1 and first.startswith(want_tag); ok &= good; n += good
+            print(f"  {'PASS' if good else 'FAIL'}  rc-1 tag for {desks}: {first.split(':')[0]!r} (want {want_tag[:-1]!r})")
         # the stale line is still REPORTED under rc 0, and still printed under --quiet
         buf = io.StringIO()
         with contextlib.redirect_stdout(buf):
@@ -216,7 +250,7 @@ def selftest():
             got = run(Path(td2), [])
         good = got == 2 and "0 briefs found" in buf.getvalue(); ok &= good; n += good
         print(f"  {'PASS' if good else 'FAIL'}  empty population -> rc {got} (want 2)")
-    total = 15
+    total = 21
     print(f"BRIEF-PIN SELFTEST {'0 PASS' if ok and n == total else '1 FAIL'}: {n}/{total}")
     return 0 if ok and n == total else 1
 
