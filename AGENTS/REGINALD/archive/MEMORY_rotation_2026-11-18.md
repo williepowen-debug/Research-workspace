@@ -1,0 +1,15 @@
+# MEMORY rotation 2026-11-18
+
+Verbatim and contiguous from `MEMORY.md`; crc32 is of the bytes between the markers (no trailing newline).
+BLOCK M31 = the 11/17 Will-direct LAST SESSION entry (2828 B). Rotated 2026-11-18 (PROME prome-6e task letter) at the next session's write-back.
+
+<!-- BLOCK M31 begin crc32 c6023b2b -->
+### LAST SESSION — 2026-11-17 11:44 → 18:23 ET, Will direct (boot, then "start the due items", the Q3 data checks, the CATO review corrections, then "close out"); CLOSED
+- **Boot:** Claude Code, Opus 5.5, session id not exposed (scratchpad 97ec1212). Clean; intraday regional selloff before Nvidia (WAL $71.55, KRE $70.98 vendor, not settled); AMTB 8-K 11/13 investor deck read, no consequence. Full boot entry → `archive/MEMORY_rotation_2026-11-17.md` BLOCK M30, crc32 `e5c5ae69`.
+- **Due by 11/20, done:** REG-T-02 action token `V1V3-ACCELERATE` → `WAL-PRICE-STRESS` (alias in `registry/NOTES.md`), landed inside WALTER's `06f187503c` (WALTER swept my working-tree files; content verified; WALTER reported it by message); packets WALTER, TERRY; PROME consumed and registered READS re-attestation 11/17 (`806b93a0de`, plus a PREDICTION_RESOLVE_BY summary row). Charter WQ-678 B: 8 applied, C05 and C11 declined (`f0c32cf856`). Sizes all under 75% on 11/17.
+- **L889 open leg:** read_cap rc 1 = WALTER's companion review for SIG-W-20260619-008 expired 11/05; packet to WALTER (renew with a long due date or decline).
+- **Q3 counts (FFIEC bulk 9/30, posted 11/14; FDIC API still 0):** Friedberg UNIDENTIFIED; ★ Q3 bond losses widened system-wide (ML-REG-307; TERRY read, no implication on its own); (e) 261 banks vs 378 (ML-REG-308); SEC FHLB panel YTD and Q3 median 0.0%, concentrated unchanged → `reports/2026-11-17_Q3-universe-counts/REPORT.md`.
+- **13:4x, Will passed on his reviewer CATO's read; three wording errors accepted and corrected (report §7, KB 307, STATUS, NEXUS, TERRY correction packet):** (1) "a loss only on a forced sale" was wrong for AFS, which already cuts GAAP equity via AOCI (the opt-out affects regulatory capital only); (2) "doubled": median ×1.7, count ×1.8, dollars ×1.5; (3) Friedberg verdict claimed 6/30 tests of B and D that were not run; now run (492–2,214; 456), verdict stands. Matched banks (613 → 1,113) and AFS/HTM split hold the pattern. Lesson candidate: a headline multiplier must be one the table computes; say which accounting bucket a "loss" sits in before saying where it reaches.
+- **Closeout 18:2x:** six WALTER signals from 11/17 dispositioned and filed (Optimizely and outage cards 008, 011, 012 INFO_ONLY, already in ML-REG-309; Fed FSR 014 and its correction 017 INTEGRATED as ML-REG-310, combo:bank-lending-to-private-credit, largest BHCs close to $1T, no regional split; 016 INFO_ONLY). Corrections COR-20261117-12 NO-OP, -17 APPLIED. WAL 11/17 bar $71.47 at 18:21 is unsettled by the script's rule, so not graded.
+- **Slip, twice:** typed packet stamps ahead of `date` (11:56 for 11:52; 12:31 for 12:28), both corrected by commit. Lesson 52 already says it; candidate for LESSONS: put `$(date +%H:%M)` in the write command itself, never type the stamp.
+<!-- BLOCK M31 end -->
