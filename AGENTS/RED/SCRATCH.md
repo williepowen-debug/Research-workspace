@@ -31,3 +31,7 @@
 
 ## GIT STATE
 S67 commits by pathspec under `AGENTS/RED/` plus the packet (carve-out ①); pushed via safe-push (receipt in the closeout message). The shared tree holds other desks' uncommitted files; not touched.
+
+## ADDENDUM S67-b — 2026-11-18 10:40 EST (from `date`)
+- VIOLET (violet-0e) cross-session note, verified at FRED and at its artifact on disk (commit cc493f82f9, local, not yet on origin): VIX +30.83% [11/10 to 11/17] with HY +13bp; FRED HY 343 / CCC 1,329 [11/17] newly published. FT-02 exit 0 of 3 · FT-10 exit 0 of 4 (SKEW 145.11 [11/17], VIOLET agrees) · FT-06 4 of 5 unchanged. No weight or trigger state moved; KB-113 counterevidence member added; STATUS line A1. No packet (A4 not triggered).
+- Pending and next entry point unchanged: 11/19 FT-06 read at FRED, then CHG-057.
