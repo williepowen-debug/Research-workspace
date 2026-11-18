@@ -76,10 +76,10 @@ CAP_BYTES = int(READ_CAP_TOKENS * BYTES_PER_TOKEN)
 BUDGET_BYTES = int(READ_CAP_TOKENS * TARGET_UTILISATION * BYTES_PER_TOKEN)
 # Desk charters (`AGENTS/<NAME>/CLAUDE.md` only) have their own ceiling: root CLAUDE.md § Data Hygiene,
 # WQ-701 A2, Will 2026-11-16 22:07 ET; READ_CAP rule 20 as amended. Root CLAUDE.md, PROME/CLAUDE.md and
-# sub-agent charters are NOT desk charters under that text and keep BUDGET_BYTES. ⚠️ Sub-agent charters:
-# PROME's packet (9e02c0d712) asks that they be graded at NEITHER number until Will rules, and also that
-# nothing else change; those two conflict here, so prior behaviour (BUDGET_BYTES) is kept and the
-# conflict is put to PROME (2026-11-18 review record), not settled in this file.
+# sub-agent charters are NOT desk charters under that text and keep BUDGET_BYTES (PROME 2026-11-18, on the
+# letter of root § Data Hygiene: the exception names a desk's AGENTS/<NAME>/CLAUDE.md and nothing else).
+# The ceiling applies in EVERY mode wherever a desk charter is graded (PROME 2026-11-18, same basis: the
+# root sentence has no mode condition); no rotation band under it (a band would be a new number).
 CHARTER_CEILING_BYTES = 50_000
 CHARTER_TAG = "desk charter, % shown is of the 50,000 B charter ceiling"
 
@@ -882,7 +882,7 @@ def is_desk_charter(path):
 
 
 def grade_charter(b):
-    """(mark, utilisation-of-CEILING, why) for a desk charter read explicitly (2026-11-16, WQ-701 A2).
+    """(mark, utilisation-of-CEILING, why) for a desk charter, in any mode where it is graded (WQ-701 A2).
     The ceiling takes the place of the budget for this file (root: "in place of 32,550 B"; a charter
     "stays under 50,000 B"), so at or over it the row is 🟠 over budget and drives rc exactly as any
     surface over its budget does; over the single-read CAP stays 🔴. Corrected 2026-11-18: the first
@@ -930,7 +930,7 @@ def charter_line(name, charter_mode="unspecified"):
         over = (f" · ⚠️ CHARTER-OVER-CEILING: {b - CHARTER_CEILING_BYTES:,} B over the {CHARTER_CEILING_BYTES:,} B "
                 f"desk-charter ceiling (root § Data Hygiene, WQ-701 A2)"
                 + (f" and over the {CAP_BYTES:,} B single-read cap, so it cannot be read whole" if b >= CAP_BYTES else "")
-                + "; this advisory does not change rc (a charter DECLARED as a whole read is still graded at the budget in this mode)")
+                + "; this advisory does not change rc (a charter DECLARED as a whole read is graded at the ceiling in its own row)")
     return (f"charter {rel} = {size} — OUT OF PERIMETER by rule 20 unless declared; "
             f"{basis}; composite-injection context cost not graded here{over}")
 
@@ -1019,7 +1019,7 @@ def check_agent(name, quiet=False, require_manifest=False, charter_mode="unspeci
     base = ROOT if declared else desk_home(name)      # declared rows are repo-relative + cross-agent
     for p in sorted(files, key=lambda x: -os.path.getsize(x)):
         b = os.path.getsize(p)
-        if charter_mode == "explicit" and is_desk_charter(p):
+        if is_desk_charter(p):              # any mode: explicit overlay OR a declared whole read
             mark, util, why = grade_charter(b)
         else:
             mark, util, why = grade(b)
@@ -1328,7 +1328,7 @@ def _fixture(tmp, rows, sizes=None):
 # So: EXPECTED is a CONSTANT compared against the count derived from the SAME if/else that sets
 # the verdict, and the mismatch is appended to the SAME failure list that drives rc. One number,
 # one verdict, no second accumulator to drift. Falsify it by deleting a check, never by trusting it.
-EXPECTED_LEGS = 140   # +4 H1–H4 charter heuristic (2026-10-22, bank-cluster review) · +6 at L538 (C12, 2026-10-02) · +13 at L530 owner notice (N1–N8, 2026-10-08) · +2 W1/W2 (N9–N10, 2026-10-08) · +6 CH1–CH6 desk-charter ceiling (WQ-701 A2, 2026-11-16) · +3 CH7–CH9 boundaries, gate order, default over-cap text (review 2026-11-18)
+EXPECTED_LEGS = 143   # +4 H1–H4 charter heuristic (2026-10-22, bank-cluster review) · +6 at L538 (C12, 2026-10-02) · +13 at L530 owner notice (N1–N8, 2026-10-08) · +2 W1/W2 (N9–N10, 2026-10-08) · +6 CH1–CH6 desk-charter ceiling (WQ-701 A2, 2026-11-16) · +3 CH7–CH9 boundaries, gate order, default over-cap text (review 2026-11-18) · +3 CH10–CH12 any-mode ceiling, sub-agent stays (PROME 2026-11-18)
 
 
 def selftest():
@@ -1878,6 +1878,26 @@ def selftest():
                 [is_desk_charter(os.path.join(ROOT, x)) for x in
                  ("AGENTS/KC/CLAUDE.md", "CLAUDE.md", "PROME/CLAUDE.md", "AGENTS/CARL/sub_agents/DOC/CLAUDE.md")],
                 [True, False, False, False])
+            # ── ANY MODE (PROME 2026-11-18 on root's letter): a desk charter DECLARED whole is graded at the
+            # ceiling in default mode too; a declared SUB-AGENT charter stays at the budget. Watched failing on
+            # the 11/18 explicit-only file: CH10 fails there; CH11 passes on both (52,000 B is over either number).
+            _saved_reads = READS_TSV
+            READS_TSV = _fixture(t, [KA, "READ\tKC\tAGENTS/KC/CLAUDE.md\twhole\tk1\tKC\t2026-11-18\t-"], {})
+            _rc, _o, _ml = _kc(40_000)
+            chk("CH10 default mode, charter DECLARED whole at 40,000 B: graded at the ceiling, rc 0",
+                (_rc, " over_budget=0 " in _ml, "80% of ceiling" in _o), (0, True, True))
+            _rc, _o, _ml = _kc(52_000)
+            chk("CH11 default mode, charter DECLARED whole at 52,000 B: over budget, rc 1, rotation due",
+                (_rc, " over_budget=1 " in _ml, " rotation_due=1 " in _ml), (1, True, True))
+            _subc = os.path.join(t, "AGENTS", "KC", "sub_agents", "S", "CLAUDE.md")
+            os.makedirs(os.path.dirname(_subc), exist_ok=True)
+            open(_subc, "w").write("s" * 40_000)
+            READS_TSV = _fixture(t, [KA, "READ\tKC\tAGENTS/KC/sub_agents/S/CLAUDE.md\twhole\tk1\tKC\t2026-11-18\t-"], {})
+            _rc, _o, _ml = _kc(100)
+            chk("CH12 a declared SUB-AGENT charter at 40,000 B stays graded at the 32,550 B budget (rc 1)",
+                (_rc, " over_budget=1 " in _ml, "of budget" in _o), (1, True, True))
+            os.remove(_subc)
+            READS_TSV = _saved_reads
             os.remove(_rootc)                     # tempdir fixture file, not repo content
             open(_kcc, "w").write("c" * (CAP_BYTES + 777))
 
