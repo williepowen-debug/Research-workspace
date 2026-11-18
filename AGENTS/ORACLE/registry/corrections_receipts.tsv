@@ -10,3 +10,4 @@ receipt_date	correction_id	action	note
 2026-11-08T17:08Z	COR-20261108-02	NO-OP	scope=ORACLE never cited card 056's NBC oil-and-gas and Pickaxe target line, checked STATUS, SCRATCH, NEXUS_BRIEF, the ceasefire research note and KB.tsv on 11/08; 
 2026-11-11T14:50Z	COR-20261109-09	NO-OP	scope=ORACLE records carry neither the Rubio quote nor the IRGC three-tanker claim (grep of AGENTS/ORACLE outside inbox 2026-11-11) so nothing to correct; 
 2026-11-11T14:50Z	COR-20261111-06	NO-OP	scope=ORACLE records never carried Abqaiq missile intercepted (grep of AGENTS/ORACLE outside inbox 2026-11-11) so nothing to correct; 
+2026-11-18T15:40Z	COR-20261112-03	NO-OP	scope=ORACLE was the source of the corrected chronology (KB-ORC-137 6ac1fce7f3 and STATUS alert 0002 already date the first ouster report to the WSJ after-hours report of Wed 11/11), and nothing of ORACLE's carried card 002's morning chronology; 
