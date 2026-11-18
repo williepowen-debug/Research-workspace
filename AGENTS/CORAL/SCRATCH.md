@@ -1,35 +1,36 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-11-17 08:36 → 08:46 ET (Tue) — **coral-ah**, due-row wake by PROME prome-19 (D:L1048 CORAL-02, whole inbox, WQ-704 research commission). Opus 5.5 in Claude Code on the desktop. Root CLAUDE.md and local CLAUDE.md (harness-injected), AGENTS.md, USER.md, COMPLETION_SPEC read explicitly; STATUS, SCRATCH, THESIS (rails and grading section) read; LESSONS, CALENDAR, MEMORY read only where touched (⚠️ partial boot, said so). boot.py run (--quick, prices skipped); corrections rc 0. **Pull not run (held on PROME's word); closed out 08:4x ET on PROME prome-19's ask: delivery consumed, D:L1048 resolved by PROME, next wake Wed 12/16 (FL Realtors Nov); FEMA study with AEOLUS due Fri 11/20 (D:L784), read the Amendment 3 certification then.** Boot banner: local branch 1 commit ahead of origin at start (not mine).
-**Previous:** 2026-11-16 coral-ag.
+**Session:** 2026-11-17 20:09 → 20:4x ET (Tue) — **coral-ai**, Will's ask relayed by PROME prome-7a (laptop): "look into the impact of the Amendment 3 passing. As well as the flooding problems". Opus 5.5 in Claude Code. Boot reads: root CLAUDE.md and local CLAUDE.md (harness-injected and in context), AGENTS.md, USER.md, COMPLETION_SPEC (delivery sections) read explicitly; STATUS, SCRATCH, THESIS, LESSONS, MEMORY read whole; CALENDAR read only where relevant; boot.py --quick; corrections rc 0. **Pull NOT run:** the tree held other desks' uncommitted tracked files (CYPHER, VULCAN, PROME), so a rebase pull would be refused. That refusal is the rule; I did not stash. Fetch showed HEAD 6 ahead and 0 behind origin, so nothing was missed. Holding for PROME's closeout ask; **not pushed** (push at closeout via safe-push).
+**Previous:** 2026-11-17 coral-ah (morning).
 
 ---
 
-## CHANGES SINCE 11/16 (what the world did)
+## CHANGES SINCE 08:46 ET (what the world did)
 
-- Florida Realtors October posted between 12:46 ET 11/16 and 08:37 ET 11/17 (PDFs say released Mon 11/16; created 11/11). Next release Wed 12/16.
-- MARCO packet 11/16: Canadian 2-yr Oct −26.88%; ID-01 IDENTIFIED; overseas visitors to Florida holding; H-2A Florida #1; FAA ground stop 11/13 confounds November airport counts.
+- Certification meeting was scheduled for 8 a.m. 11/17; outcome NOT CONFIRMED (state site blocks automated readers; no press report found).
+- Legislative leaders Boyd and Garrison said Amendment 3 belongs in the 2027 regular session (opens 3/2/2027); DeSantis still wants a special session before 1/5 (FOX 13 / NSF 11/17 16:15 ET).
+- New flood wave: St. Johns near Cocoa 17.11 ft major (00:15Z 11/18), forecast 17.2 ft 11/20; flood watches to 11/19–11/20; Broward flash flood warning tonight.
 
 ## WHAT I DID
 
-1. **CORAL-02 GRADED FALSE** at the first print: financed condo 3,266 vs 3,563 (−8.34%), SF 13,502 vs 15,419 (−12.43%), gap +4.10pp. Caveat: strong Oct-2025 SF base, likely post-Milton rebound (inference). PREDICTIONS RESOLVED; ML-CORAL-168; § AH1.
-2. **WQ-704 research** `research/2026-11-17_WQ704_fl-condo-financing-channel.md` + 37-month data TSV: condo financed per 100 SF financed Aug–Oct 23.3 in both 2025 and 2026 (25.5 in 2024); 12 months to Oct-2026 condo financed +2.1% = SF +2.1%; the 2024–25 step was condo-wide (cash −8.4%, financed −7.5%). No investment implication ⇒ nothing sent to TERRY. ML-CORAL-169; § AH2.
-3. **Inbox 4 of 4 drained** (§ AH3): WQ-704 acted; audit item (enrollment file) verified — content not behind, header added, disagreement stated; MARCO acted (Canadian Oct figure on STATUS, ML-CORAL-170); WALTER -005 noted.
+1. Research doc `research/2026-11-17_amendment3-and-floods-impact.md` (Parts 1–3, trade line, unreached list); evidence § AI; KB ML-CORAL-171 to -174.
+2. ⛔ Re-based CORAL's own Amendment 3 dollar figures to REC 7/10: −$4.93B / −$8.71B / −$11.83B (was 6/12 vintage). Swept STATUS, CALENDAR, COVERAGE, THESIS context line, NEXUS_BRIEF. Consumer check: NEXUS 11/10 digest (dated) and PROME DOCKET L784 (🟠 candidate) carry the old triple; both named in the PROME packet, no edits to their files.
+3. Link verdict PARTLY ESTABLISHED; drainage cut NOT ESTABLISHED.
+4. Packets: AEOLUS (St. Johns, watches, WMD figures), MARCO (re-based triple, certification unconfirmed), REGINALD (Seacoast 35.68% flood-county deposit footprint); PROME delivery packet.
 
 ## NEXT SESSION / OWED
 
-- **Amendment 3 certification Tue 11/17** (canvassing commission) — not read this session; read at the state page next session.
-- FL Realtors Nov **Wed 12/16**: rebuild the ratio (reading guide in the research doc, not a rule; November is rate-confounded, needs a national control).
-- MSI #16 by 11/26 · Avidia 10-Q · FEMA FR notice (CORAL-04; L784 study due Fri 11/20 with AEOLUS, deliver as a research document) · Citizens October month-end.
+- Read a certified Amendment 3 count by another route (press or county canvass); Election Watch is blocked to this box.
+- Fri 11/20: St. Johns crest vs 17.2 ft; FEMA flood-declaration decision; L784 FEMA study with AEOLUS due 11/20 (D:L784).
+- MSI #16 by 11/26 · Avidia 10-Q · DR-4955 FR notice (CORAL-04) · Citizens October month-end · FL Realtors Nov 12/16 · Space Coast MLS Nov (first flood-month read, ≈mid-Dec).
 - Still awaiting Will's word (since 11/06): DATA_SOURCES line for sec_contact.py; VX_Vectors catch-up.
-- Enrollment ledger: enter FLDOE Survey 2 2026-27 when reachable (fldoe.org refuses automation; Wayback route).
 
 ## OPEN THREADS
 
-- GSE leg: "not yet" after one full month. Second agency step 2027-01-04 (reserve 15%) ⇒ watch Feb–Mar 2027 closings.
-- CORAL-01 (Cape Coral > 6.00 by 12/15, 15%): 5.74 and falling. CORAL-03 ($800M by 12/31). CORAL-04: no notice.
-- L227 leg (a): no pre-registered rule; this session proposes none.
+- Palm Bay canals: city, county or a separate water-control district? Unchecked; it decides whether the drainage link runs through ad valorem anywhere in the epicentre.
+- Brevard lagoon half-cent tax renewal (11/03): result unconfirmed (a Palm Bayer sidebar says it passed; not read).
+- FL muni spreads: no free route.
 
 ## MAIL STATE
 
-`inbox/` top-level: empty · `inbox/WALTER/`: empty (row in `board_log.tsv`) · outbound: PROME packet `PROME/inbox/2026-11-17_from-CORAL_CORAL02-graded-WQ704-research-inbox.md`.
+`inbox/` top-level: empty · `inbox/WALTER/`: empty · outbound: AEOLUS, MARCO, REGINALD inbox packets; `PROME/inbox/2026-11-17_from-CORAL_amendment3-and-floods-impact.md`.

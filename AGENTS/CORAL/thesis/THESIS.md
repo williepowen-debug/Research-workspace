@@ -53,7 +53,7 @@ Keep exact live values in `STATUS.md`, `workbook/KB.tsv`, `workbook/VX_Vectors.m
 | **Insurance split** | Personal/reinsurance easing does **not** equal commercial/condo master-policy easing. | Master-policy costs remain an association cash-flow amplifier. |
 | **Migration / tourism** | Demand engine is weaker and geographically uneven. | Stacks with housing stress, especially SW-FL; coordinate values with MARCO. |
 | **FL banks** | Q1 2026 did not confirm bank-loss transmission. | Upgrade only on observable credit deterioration, not collateral stress alone. |
-| **Property-tax / fiscal** | Nov 3 2026 amendment passed on unofficial returns (certified 11/17); two-sided. | Homeowner relief vs local revenue/service stress. |
+| **Property-tax / fiscal** | Nov 3 2026 amendment passed on unofficial returns (certification scheduled 11/17, not confirmed at 11/17 evening); two-sided. | Homeowner relief vs local revenue/service stress. |
 | **Climate / hurricane / sargassum** | Second-order unless hurricane landfall or severe coastal demand shock. | Can flip insurance or demand channels acute. |
 
 **Insurance writing rule:** never write “insurance easing” without specifying the layer. Personal/reinsurance easing is not condo/commercial master-policy easing.
