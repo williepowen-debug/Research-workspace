@@ -1,0 +1,20 @@
+# Packages the repository's test files import (WQ-717 item 1, Will 2026-11-17).
+# Derived 2026-11-18 by DAEDALUS from an import scan of the 251 tracked test-named files and the
+# local modules they load; record AGENTS/DAEDALUS/runs/2026-11-18_WQ717_TEST_REPAIRS.md.
+# Ranges: lower bound = the version installed on the desktop .venv on 2026-11-18, upper bound =
+# the next major version (same style as MESSAGING/requirements.txt). Not exact pins, so a
+# `pip install -r requirements.txt` on the laptop does not downgrade a working install.
+# Install: .venv/bin/python -m pip install -r requirements.txt
+cryptography>=46.0,<47
+jsonschema>=4.26,<5
+matplotlib>=3.11,<4
+numpy>=2.4,<3
+openpyxl>=3.1,<4
+pandas>=3.0,<4
+pdfminer.six>=20260107
+pytest>=9.1,<10
+PyYAML>=6.0,<7
+requests>=2.33,<3
+scipy>=1.18,<2
+websockets>=16.0,<17
+yfinance>=1.2,<2
