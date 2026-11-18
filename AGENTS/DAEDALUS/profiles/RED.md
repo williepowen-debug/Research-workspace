@@ -1,3 +1,5 @@
+> **Δ 2026-11-18 — Production Review #10, bounded reader review (cutoff 208bd704ea; readers A and E at 916e683f5d). Body NOT refreshed in this review; checkpoint: Production Review #11 (about 2026-12-02).** Grade RETAIN L5/M. Trigger: FIRED on date and four content legs; sections 2 and 3b refresh owed. Detail: `runs/2026-11-16_PR10/reader_B.md` § RED (e).
+
 > **Δ 2026-11-02 — bounded review through c61f89016 (11:00:06 EST); L5/M retained.** October 28 S57-b reduced review debt 6 to 1; VX009 retired UNMEASURED, with oldest-live data clock repinned to October 14. This is no measured bear confirmation. KB081 residual has an explicit method-only citation disposition. Will allowed charter at 86% until >90% or next substantive edit. State-token draft/WALTER countersign completion not adjudicated; preserve both evidence conditions and later full read. Supersedes earlier deltas only on these verified facts. Body vintage/triggers unchanged; no whole refresh. Evidence: `runs/2026-11-02_PRODUCTION_REVIEW_READER_A.md`.
 
 # Agent Profile — RED

@@ -1,3 +1,5 @@
+> **Δ 2026-11-18 — Production Review #10, bounded reader review (cutoff 208bd704ea; readers A and E at 916e683f5d). Body NOT refreshed in this review; checkpoint: Production Review #11 (about 2026-12-02).** Grade RETAIN L4/M. Trigger: FIRED (six or more sessions); whole refresh owed, new checkpoint to be set. Detail: `runs/2026-11-16_PR10/reader_A.md` § DEWEY (e).
+
 > **Δ 2026-11-02 — bounded Production Review through 3b336483d.** Read this body with the current DEWEY row in `runs/2026-11-02_PRODUCTION_REVIEW_READER_A.md` § Additional registered perimeter / Compact per-desk findings and `upgrades/PRODUCTION_REVIEW_2026-11-02.md`. Named current facts there supersede prior delta claims; coverage limits and fired-trigger dispositions travel with them. Whole-profile vintage and body below are unchanged. Further structural work requires the existing firming touch; November 4 remains the post-cutoff review checkpoint.
 
 # DEWEY — DAEDALUS Comprehension Profile

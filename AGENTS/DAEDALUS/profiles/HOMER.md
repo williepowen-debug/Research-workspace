@@ -1,3 +1,5 @@
+> **Δ 2026-11-18 — Production Review #10, bounded reader review (cutoff 208bd704ea; readers A and E at 916e683f5d). Body NOT refreshed in this review; checkpoint: Production Review #11 (about 2026-12-02).** Grade RETAIN L4/H. Trigger: date not fired (November 20 after cutoff), content arguably fired; bounded delta keyed to the November 20 formal grade. Detail: `runs/2026-11-16_PR10/reader_F.md` § HOMER (e).
+
 > **Δ 2026-11-02 — current L4/H independently verified.** The owner charter now explicitly declares no book, and CARL STATUS V3 actually consumes HOMER October 28 evidence; reading A3 passes. L0–L3 retained on the independent per-leg read; L5 NOT-ADJUDICATED. Old missing-no-book/dark-since-October-19 claims are historical. November 20 formal rail cadence and October 28 whole-profile vintage remain unchanged. Exact sources, hashes, refuter and limits: `runs/2026-11-02_PRODUCTION_REVIEW_READER_C.md`; synthesis `upgrades/PRODUCTION_REVIEW_2026-11-02.md`.
 
 # Agent Profile — HOMER (housing: asset market + housing credit structure)

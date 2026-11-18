@@ -1,3 +1,5 @@
+> **Δ 2026-11-18 — Production Review #10, bounded reader review (cutoff 208bd704ea; readers A and E at 916e683f5d). Body NOT refreshed in this review; checkpoint: Production Review #11 (about 2026-12-02).** Grade RETAIN L4/H. Trigger: date-age FIRED; body predates the October 22 conviction cut, whole refresh owed. Detail: `runs/2026-11-16_PR10/reader_C1.md` § OZK (e).
+
 > **Δ 2026-11-02 — bounded Production Review; cutoff c61f89016 (2026-11-02 11:00:06 -05:00):** Oct22 L793 repairs retained. Oct28 P-OZK-9 prices rebased on Q3: EV $48.56 supersedes $44.41; LOW/v1.7 and weights 20/50/28/2 unchanged, no candidate. Charter split added; forward tests still Nov16/Q4. Verify clean closeout and first forward test; no full L5 adjudication. Grade L4/H retained. Supersedes prior delta claims only on these inspected facts; whole Profile vintage/body and trigger unchanged, no full firming. Evidence: `runs/2026-11-02_PRODUCTION_REVIEW_READER_B.md`.
 
 # Agent Profile — OZK

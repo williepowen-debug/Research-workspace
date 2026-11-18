@@ -1,3 +1,5 @@
+> **Δ 2026-11-18 — Production Review #10, bounded reader review (cutoff 208bd704ea; readers A and E at 916e683f5d). Body NOT refreshed in this review; checkpoint: Production Review #11 (about 2026-12-02).** Grade RETAIN L4/M. Trigger: FIRED; the November 9 NOW migration defeats the body, whole refresh owed. Detail: `runs/2026-11-16_PR10/reader_A.md` § PROME (e).
+
 > **Δ 2026-11-02 — bounded review through c61f89016 (11:00:06 EST); L4/M retained.** Latest owner spine audit is #18 October 29; the old October 23 checkpoint is superseded. November 2 spine sweep completed with four routed findings and explicit coverage limits, without zero-own-rule/L5 clearance. Helm remains retired; Deck paused. L911 repair already delivered and production view regenerated through normal owner operations; final reconciliation is PROME-owned. Supersedes earlier deltas only on these verified facts. Body vintage/triggers unchanged; no whole refresh. Evidence: `runs/2026-11-02_PRODUCTION_REVIEW_READER_A.md`.
 
 # PROFILE — PROME (coordinator / chief of staff)

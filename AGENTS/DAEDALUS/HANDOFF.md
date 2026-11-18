@@ -1,3 +1,9 @@
+# Current continuation — November 18, 2026 (desktop)
+
+Will "ok go" 10:18 ET to the boot order. All three are done: the read-cap charter ceiling is reviewed and corrected (0c0cf16e19; four rulings asked of PROME), Production Review #10 is complete (`upgrades/PRODUCTION_REVIEW_2026-11-18.md`), and WQ-717 items 1–4 are built (ef3aafbb8e; PROME reviews 11/24, D:L1193). **Resume with:** PROME's read-cap rulings when they arrive (ask 2 is pre-asked as a conditional yes: apply the ceiling in every mode with one reader); the BOARD quoted-date fixture test (inbox); the two own tool defects (fleet_view fixture test; census memory, do not re-run on the shared box); scorecard 11/20 (first v1.4 render); the MIDAS 11/06 guard read; the GIBBS L3 class proposal; the surfaces-currency sub-queue (DUE).
+
+---
+
 # Current continuation — November 16, 2026 evening (laptop; stopped at checkpoint)
 
 PROME's tonight list on Will's word (20:56 ET): scorecard 11/7–11/13 DONE 84d0cfc509 (column-5 rulings instrument miss disclosed; parser repair owed); TERRY check E repair DONE 4b267200e9, record f814623f50. **Resume first: Production Review #10** from `runs/2026-11-16_PR10/CHECKPOINT.md`. Re-run readers B, C, D and F with the same brief at a new pinned cutoff, two at a time (laptop memory); verify and apply re-cuts from all six reports; regenerate the directory (answers PROME's FLEET_DIRECTORY ask); dispose of the profile alerts; write the review record; advance last_run. Two inbox packets pending: BOARD quoted-date fixture test, FLEET_DIRECTORY confirm plus HENRY WF question.

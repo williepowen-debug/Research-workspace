@@ -1,3 +1,5 @@
+> **Δ 2026-11-18 — Production Review #10, bounded reader review (cutoff 208bd704ea; readers A and E at 916e683f5d). Body NOT refreshed in this review; checkpoint: Production Review #11 (about 2026-12-02).** Grade RETAIN L4/H. Trigger: FIRED; the November 11 charter cut defeats the body, whole refresh owed. Detail: `runs/2026-11-16_PR10/reader_A.md` § WALTER (e).
+
 > **Δ 2026-11-02 — bounded review through c61f89016 (11:00:06 EST); L4/H retained.** November 2 bounded credit follow-through completed a FULL narrative closeout; operational boot remains explicitly PARTIAL. The push-authority conflict stays closed. Seven-instance procedural verification and current utility-ladder confirm-read remain owed; FULL narrative does not certify them. October 31 process retirements and verdict amendment require later whole comprehension. Supersedes earlier deltas only on these verified facts. Body vintage/triggers unchanged; no whole refresh. Evidence: `runs/2026-11-02_PRODUCTION_REVIEW_READER_A.md`.
 
 # Agent Profile — WALTER
