@@ -17,7 +17,8 @@ Per brief (AGENTS/<D>/NEXUS_BRIEF.md), with S = the last commit touching AGENTS/
 B = the last commit touching the brief:
   OK-SAME-COMMIT   B == S (brief folded in the same commit as STATUS — always satisfies A11)
   OK-PINNED        the pin hash in the brief's header equals S (prefix match)
-  STALE-PIN        the pin names an older STATUS commit: STATUS was re-committed after the fold —
+  STALE-PIN        the pin names an older STATUS commit than STATUS HEAD (the order of the brief and
+                   STATUS commits is not inspected) —
                    ADVISORY since WQ-719 A (Will, 2026-11-18): a brief is rewritten only when a figure,
                    threshold or cross-desk send or wait in it changed, so a lagging pin is expected after a
                    session that changed none of those; reported, never rc 1. When a lag means a raw STATUS
@@ -90,8 +91,8 @@ def check_desk(root, desk):
         hit = [c for c in status_commits if c.startswith(pin)]
         if hit:
             n_after = status_commits.index(hit[0])
-            return "STALE-PIN", (f"pin {pin} is {n_after} STATUS commit(s) behind HEAD {s[:9]} — STATUS was "
-                                 f"re-committed after the brief fold; advisory (WQ-719 A): re-pin when the brief is next rewritten{note}")
+            return "STALE-PIN", (f"pin {pin} is {n_after} STATUS commit(s) behind HEAD {s[:9]} — advisory (WQ-719 A): "
+                                 f"re-pin when the brief is next rewritten{note}")
         return "PIN-UNRESOLVED", f"pin {pin} is not a commit that touched {rel_s} (STATUS HEAD {s[:9]}){note}"
     s_ahead = subprocess.run(["git", "-C", str(root), "merge-base", "--is-ancestor", s, b]).returncode == 0
     return "UNPINNED", (f"no STATUS hash in the first {HEADER_LINES} header lines — A11 not checkable; "
@@ -122,7 +123,7 @@ def run(root, desks, quiet=False):
     for _, v, _ in out:
         counts[v] = counts.get(v, 0) + 1
     head = " · ".join(f"{k} {n}" for k, n in sorted(counts.items()))
-    tag = "BRIEF-PIN 1 STALE" if rc == 1 else ("BRIEF-PIN 2 CANNOT-EVALUATE" if rc == 2 else "BRIEF-PIN 0 OK")
+    tag = "BRIEF-PIN 1 PIN-UNRESOLVED" if rc == 1 else ("BRIEF-PIN 2 CANNOT-EVALUATE" if rc == 2 else "BRIEF-PIN 0 OK")
     print(f"{tag}: {len(out)} brief(s) checked against amendment 11 (pin-follows-STATUS-HEAD) — {head}. "
           f"A PASS proves the pin, never the brief's content; UNPINNED briefs are not A11-checked; "
           f"STALE-PIN is advisory (WQ-719 A).")
@@ -191,6 +192,14 @@ def selftest():
                 got = run(Path(td), desks)
             good = got == want_rc; ok &= good; n += good
             print(f"  {'PASS' if good else 'FAIL'}  rc {desks}: {got} (want {want_rc}) — {label}")
+        # rc 1 can only mean an unresolved pin: the tag must say so, never "STALE" (independent read #15)
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            got = run(Path(td), ["D"])
+        first = buf.getvalue().splitlines()[0]
+        good = got == 1 and first.startswith("BRIEF-PIN 1 PIN-UNRESOLVED") and "STALE" not in first.split(":")[0]
+        ok &= good; n += good
+        print(f"  {'PASS' if good else 'FAIL'}  rc-1 tag names PIN-UNRESOLVED, not STALE")
         # the stale line is still REPORTED under rc 0, and still printed under --quiet
         buf = io.StringIO()
         with contextlib.redirect_stdout(buf):
@@ -207,7 +216,7 @@ def selftest():
             got = run(Path(td2), [])
         good = got == 2 and "0 briefs found" in buf.getvalue(); ok &= good; n += good
         print(f"  {'PASS' if good else 'FAIL'}  empty population -> rc {got} (want 2)")
-    total = 14
+    total = 15
     print(f"BRIEF-PIN SELFTEST {'0 PASS' if ok and n == total else '1 FAIL'}: {n}/{total}")
     return 0 if ok and n == total else 1
 
