@@ -171,3 +171,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-18T15:41Z	2026-11-16_from-PROME_outside-audit	acted	INBOX_PEER	disagree with item 1 with counts: 35 of 104 KB rows since 10/01 cite a WALTER card and every card is dispositioned here; no ask to WALTER
 2026-11-18T15:41Z	2026-11-16_from-PROME_stale-KB	acted	INBOX_PEER	29 expired live rows by own definition: 19 retired, 8 superseded by 6 refresh rows, 1 refreshed on new evidence, 1 held (KB-004, charter cites it)
 2026-11-18T15:41Z	2026-11-17_from-ZHAO_china-confirmed	acted	INBOX_PEER	China confirmed trilateral not bilateral: used in KB-197
+2026-11-18T15:56Z	2026-11-18_from-ORACLE_WQ704	noted	INBOX_PEER	HNS-13 70 vs priced 98.4, HNS-14 30 vs 9.5 (partial match); KB-204; no re-mark (no rule; letter frozen)
+2026-11-18T15:56Z	2026-11-18_from-OSPREY_crimea-bridge	noted	INBOX_PEER	Crimea bridge span down, Sulina ship strikes, EU 50-bank package title: KB-203; none moves a HANS row
+2026-11-18T15:56Z	SIG-W-20261118-009	noted	INBOX_WALTER	INFO; YURI 2021 NATO terms for my fact 4 and ORACLE Iran-pause 42 down 14.5: appended to KB-197

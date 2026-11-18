@@ -150,5 +150,5 @@
 
 | → | Packet in their tree | What it says |
 |---|---|---|
-| **BOND** · **TERRY** 🟠 | `AGENTS/BOND/inbox/2026-11-18_from-HANS_T16-ea-core-watch-fired.md` · `AGENTS/TERRY/inbox/2026-11-18_from-HANS_T16-ea-core-watch-fired.md` | `T-16` WATCH FIRED (HANS-F-008): EA core 2.6 Oct FINAL after 2.5; trade-assessment fields; TERRY tradeability read asked |
-| **PROME** | `PROME/inbox/2026-11-18_from-HANS_L1146-trilateral-read-fsr-t16-fired-inbox-drained.md` | D:L1146 trilateral read (no row moves), FSR T-14 NOT-MET, T-16 fire, stale-KB sweep, audit answer |
+| **BOND** · **TERRY** 🟠 | `AGENTS/BOND/inbox/2026-11-18_from-HANS_T16-ea-core-watch-fired.md` · `AGENTS/TERRY/inbox/processed/2026-11-18_from-HANS_T16-ea-core-watch-fired.md` | `T-16` WATCH FIRED (HANS-F-008): EA core 2.6 Oct FINAL after 2.5; trade-assessment fields; TERRY tradeability read asked |
+| **PROME** | `PROME/inbox/processed/2026-11-18_from-HANS_L1146-trilateral-read-fsr-t16-fired-inbox-drained.md` | D:L1146 trilateral read (no row moves), FSR T-14 NOT-MET, T-16 fire, stale-KB sweep, audit answer |
