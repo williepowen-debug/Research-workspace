@@ -27,3 +27,32 @@ Verbatim, contiguous: STATUS.md lines 3-10 as of HEAD before the 2026-11-17 even
 - **Inbox:** six WALTER cards drained (board_log rows). PROME's 11/16 stale-KB packet HELD for the next ordinary session per its own ACTION line (12 rows by CYPHER's scan, matches PROME's). Corrections COR-20261116-08 and -10 receipted APPLIED.
 - **Git:** no pull and no push on PROME's instruction; commits by explicit pathspec; HOLD after delivery.
 - **Resume list:** (1) charter GIT pointer for carve-out ④ (KB-CYP-108): waiting on PROME. (2) WQ-678 Changelist B trims (optional). (3) CYP-05 letter issue (flagged 11/16). (4) Stale-KB pass, 12 rows. (5) Proposed combination theme `us-outage-cluster` (charter line needs PROME's C4 check).
+
+---
+
+## Third rotation 2026-11-17 20:19 ET
+
+Verbatim, contiguous: STATUS.md lines 114-124 (section "Known gaps carried", history bullets 10/29 to 11/12) as of the working copy after commit bbfba1579c plus the 20:19 addendum line. crc32 08af951d · 1828 B.
+
+- **Fixed 2026-10-29** (Will 12:31 and 13:56 ET). Drills 36/36; mutation-checked.
+  - **Leg 5:** a live incident row with no date now alerts.
+  - **Leg 7:** listings already marked handled (`KEV-SEEN`) are quiet.
+  - **Leg 8:** hits not filed under Item 1.05 are info only.
+  - **Leg 9:** boilerplate filings are info only (16 of 16 real incidents still alert; `research/2026-10-29_wave-recheck/BOOT_LEG9_CALIBRATION.md`).
+  - **Leg 10, new:** bank-vendor news. Google News headlines naming a chokepoint supplier and an incident word; covers press-release-only disclosures like Jack Henry's. Replaying the 9/3 feed, it catches Jack Henry and Sharetec.
+- **Originals read 10/29.** Jack Henry's full release (PR Newswire copy), now CONFIRMED. The NYDFS 8/11 N-central letter: ⚠️ the "limited number of covered entities" line is a spokesperson quote, not in the letter. The Citizens 9/10 notice: no vendor, no count. A third N-central flaw was added to CISA's list 9/8.
+- **Charter rotated** to 67% of budget: build history to `CHARTER_PROVENANCE.md`, file guide to `FILES.md`, both verbatim.
+- **MCP connections:** mtnewswire and definite returned "endpoint not found" and Prisma timed out (10/29). Will disabled unused plugins at 14:42 ET; which ones was not verified by CYPHER. CYPHER depends on none of them; its routes are in `DATA_ROUTES.md`.
+- **Leg 10 miss 11/05:** quiet while Finzly and Abrigo were live. Finzly's headline said "bank vendor" (body match, unlisted by design); Abrigo was not on the list (added). Leg 10 quiet does not mean no incident.
+- **Leg 10 rebuilt 11/12** (KB-CYP-112): the single 21-name query saturated and missed N-able 11/09-11/11. Now 6 chunked queries with "zero-day"/"exploited"/"offline"; drills cover the file path only, the chunked path was witnessed live (113 items, N-able listed).
+
+---
+
+## Fourth rotation 2026-11-17 20:19 ET
+
+Verbatim, contiguous: STATUS.md lines 82-85 ("Incidents worth knowing", oldest four table rows: 043, 015/017, 009, 020/021/022) after the third rotation. crc32 b1a0415b · 803 B. Canonical rows stay in workbook/INCIDENTS.tsv.
+
+| CYB-INC-043 | Park24: ~1.46M accounts eligible for JPY 3,000 (~JPY 4.4B); JPY 5.5B loss; net forecast cut 44.0B → 38.5B | REPORTED · SECONDARY | Listed-company earnings channel (SAM/OTTO); issuer notice unread |
+| CYB-INC-015 / 017 | River Financial (off-wave ransomware, 8-K) · TruStage (CU vendor outage since 7/11) | CONFIRMED · PRIMARY-VERIFIED | Off-wave US financial victims; TruStage answer window 11/15 |
+| CYB-INC-009 | eMudhra G3: absent from Chromium root store v43 source; device release unconfirmed by Google; no financial-software breakage found | CONFIRMED · PRIMARY/ARTIFACT | Trust-chain class has NO OWNER |
+| CYB-INC-020 / 021 / 022 | Quest (healthcare, NO OWNER; HENRY: no adverse reaction) · SBI · Korea 16 firms | CONFIRMED | Non-US / no-owner classes, flagged earlier |

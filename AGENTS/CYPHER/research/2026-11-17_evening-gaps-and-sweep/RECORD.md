@@ -97,3 +97,20 @@ On CYPHER's evidence the evening's items support **no investment implication**: 
 ## Sources (read 2026-11-18 01:01-01:09Z unless noted)
 
 equinor.com/news (index) and /news/20261711-equinor-detected-cyber-attack · apple.com/support/systemstatus/data/system_status_en_US.js · status.optimizely.com/api/v2/incidents.json · history-events-us-west-2-prod.s3.amazonaws.com/historyevents.json · aws.amazon.com/premiumsupport/technology/pes/ · cisa.gov KEV JSON v2026.11.17 · cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down (modified 00:14Z) · foxbusiness.com/technology/jay-clayton-addresses-concerns-amid-widespread-tech-outages · cbsnews.com/news/nsa-network-down-classified-fort-meade/ (modified 00:22Z) · newsweek.com/nsa-down-outage-network-security-communications-systems-12729263 · cnbc.com/2026/11/17/deutsche-bank-leak-epstein-trump.html · yahoo.com/news/us/articles/hsbc-associated-sites-briefly-affected-215450920.html (American Banker) · the420.in/visa-jpmorgan-ransomware-attack-data-breach/ (11/17) · oodaloop.com briefs Visa n0n (11/17 16:55Z) · bleepingcomputer.com: microsoft-says-months-old-bug (11/16), critical-java4shell-flaw (11/17), apple-reports-outages (11/17), maersk-confirms-data-breach (11/11) · pbs.org/newshour apple-joins-the-list · skift.com 2026/11/17 marriott-bonvoy · hollywoodunlocked.com NWS (11/17). WebSearch summaries (not opened): NSM, organiser.org, n0n trackers (secureblink, ransomnews, secritic, mallory.ai, golocalprov), Gmail (rollingout, mensjournal), Akamai aggregators, Schwab.
+
+## 8. Addendum — Will's live-search ask (20:17 ET)
+
+Will asked in chat at 20:17 ET for a live search for any other relevant signals. **Searched** (WebSearch, standard and extended): Infoblox, Fandango and Coles (the three unread leads); US bank and credit-union incidents 11/17; crypto exchange hacks 11/16-17; CISA advisories and directives 11/17; ransomware leak-site claims on banks and credit unions; exchange, clearing, SWIFT, Fedwire and FedNow outages; named PHP2Shell victims; insurer loss estimates; state-actor advisories; zero-days exploited 11/17. **Read:** the FBI FLASH PDF at ic3.gov (PRIMARY), Yahoo 11/17 on it, Insurance Business 11/02 (Marsh Re on PHP2Shell).
+
+| Found | Grade | Disposition |
+|---|---|---|
+| **FBI FLASH-20261113-001 on ARTEX** (11/13): an open-source AI agent intrusion framework used since at least August against organisations incl. financial services; some intrusions reach privileged access in under 3 hours; South Korean financial institutions (~67,000 people's data) and the ConnectWise Cloud Backup compromise (>2,250 downstream tenants) named; >1,600 exposed consoles; FBI makes no state attribution of its own | **CONFIRMED · PRIMARY-VERIFIED** (ic3.gov PDF, 13 pp, read) | KB-CYP-135 (combo:ai-tooling-entry); CYB-INC-018 note. **Missed at 11/13**, on no card CYPHER saw. No score moves (VX-08 already 4; row 7 is the PHP2Shell wave) |
+| Coles (Australia) cyber incident 11/16, no data theft found so far, trading normal | REPORTED · SECONDARY | KB-CYP-136, log only (no consequence owner) |
+| Fandango checkout card breach 10/08-10/11, California AG 11/13 | REPORTED · SECONDARY | KB-CYP-137, log only |
+| Lighter DEX: ~$10M from one trader via a leaked API key | REPORTED · SECONDARY | KB-CYP-138, below the $500M wake bar |
+| Infoblox "third-party SharePoint" breach | **NOT FOUND** (no report; only a Fortinet third-party file-drive case of unclear date) | none |
+| Fedwire, FedACH, FedNow normal on the Fed's status reports during the 11/16 bank outage (secondary); no SWIFT, clearing or exchange outage found 11/16-17 | SECONDARY | supports watch row 8 NOT-FIRED |
+| No named PHP2Shell victim; no CISA directive dated 11/17; no new insurer loss estimate (Marsh Re: Microsoft 365 impact minimal); no new state attribution | searched, nothing new | none |
+
+**Nothing changes in figures:** composite 25/40 raw, 16/40 adjusted; no row fired. Not reached: the ARTEX-cited vendor reports (Microsoft, Google, CrowdStrike, Censys), Coles's ASX notice, Fandango's notice.
+

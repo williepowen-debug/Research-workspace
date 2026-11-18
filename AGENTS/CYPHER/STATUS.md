@@ -5,6 +5,7 @@
 - **NSA Net (077) now CONFIRMED with a stated cause:** NSA: "temporary degradation during scheduled routine maintenance". **DNI Clayton (Fox Business): the outage came from patching the PHP flaws, the root of CYPHER's open wave**; "lots of institutions" are taking systems down to patch; no sign of a coordinated or state attack. Restoration not confirmed (CNN). First official tie of an outage to the wave, on the patch side, at a non-bank: row 8 NOT-FIRED, note added; FL-CYP-04 note (already CONFIRMED).
 - **Gaps closed:** Apple (078) CONFIRMED at Apple's status page, "an internal update", no Apple Pay entry · NWS (079) REPORTED, no NWS statement · Deutsche Bank: a whistleblower leak to journalists, not a hack (KB-CYP-131) · Schwab: still no outlet · AWS 11/15: no cause, no post-event summary · Microsoft (071): preliminary report, a latent gateway software bug · Optimizely: no count; HSBC and Equifax statements, no breach of their systems (KB-CYP-133).
 - **Not on any card:** n0n extortion listings of JPMorgan, Visa, Mastercard 11/16 (081): Visa confirms a third-party supplier incident in Asia-Pacific, its own systems and card numbers not affected; JPMorgan and Mastercard are the gang's word only · Marriott sign-in outage (082, not cyber) · Gmail (083, Google denies) · Java4Shell CVE-2026-114938 (084, AI-found Java flaw, disclosed, not in KEV) · Puppet Enterprise KEV add (KB-CYP-134).
+- **20:19 ET addendum (Will's live-search ask):** one missed item, the **FBI FLASH of 11/13 on ARTEX** (AI agent intrusion framework used since August against targets incl. financial services; ConnectWise and South Korean bank cases), read at ic3.gov, KB-CYP-135, no score moves. Coles, Fandango, Lighter logged (KB-CYP-136..138); Infoblox not found.
 - **One story?** Still several by all four 11/17 conditions; ⚠️ the DNI's patching account is the one thread that could join some outages, as defensive cost, not attack; it is stated for the NSA only.
 - **Inbox:** five WALTER cards filed (board_log). COR-20261117-12 receipted APPLIED. PROME's stale-KB packet still held; 11/19 rows untouched (PROME's instruction).
 - **Git:** commits by explicit pathspec; no push; HOLD for PROME's closeout ask.
@@ -78,10 +79,7 @@ Section rotated verbatim 2026-11-16 to `archive/STATUS_ARCHIVE_2026-11-16.md` (t
 | CYB-INC-027 | Node2Shell CVE-2026-111497: CISA KEV 10/27 (listed under Google Brotli); AI-found (OpenAI Codex Security) | CONFIRMED (flaw level) · PRIMARY-VERIFIED | Off-root; AI-found flaw exploited within 6 days of the fix; VULCAN told |
 | CYB-INC-018 | ConnectWise / Storm-0940 supply chain: phases 1-2 complete, 3-4 partial, billing and platform dashboard open (advisory unchanged since 11/04 18:55 UTC, read 11/12); **not restored** | CONFIRMED · PRIMARY-VERIFIED | MSP channel; no FI named |
 | CYB-INC-037 | Finzly: company confirms one backup-site device accessed; firewall keys and a map of the clients' Fed link published; Fed "not impacted"; keys untested | CONFIRMED · SECONDARY (company statement) | Strongest financial-supplier lead; first-access date unknown |
-| CYB-INC-043 | Park24: ~1.46M accounts eligible for JPY 3,000 (~JPY 4.4B); JPY 5.5B loss; net forecast cut 44.0B → 38.5B | REPORTED · SECONDARY | Listed-company earnings channel (SAM/OTTO); issuer notice unread |
-| CYB-INC-015 / 017 | River Financial (off-wave ransomware, 8-K) · TruStage (CU vendor outage since 7/11) | CONFIRMED · PRIMARY-VERIFIED | Off-wave US financial victims; TruStage answer window 11/15 |
-| CYB-INC-009 | eMudhra G3: absent from Chromium root store v43 source; device release unconfirmed by Google; no financial-software breakage found | CONFIRMED · PRIMARY/ARTIFACT | Trust-chain class has NO OWNER |
-| CYB-INC-020 / 021 / 022 | Quest (healthcare, NO OWNER; HENRY: no adverse reaction) · SBI · Korea 16 firms | CONFIRMED | Non-US / no-owner classes, flagged earlier |
+| (older) | 043 Park24, 015/017 River Financial and TruStage, 009 eMudhra, 020-022 Quest/SBI/Korea rotated verbatim 2026-11-17 to `archive/STATUS_ARCHIVE_2026-11-17.md` § Fourth rotation | — | Canonical in INCIDENTS.tsv |
 
 **Do-not-relay, 13 claims** (canonical `research/2026-10-23_news-sweep-and-relay-pattern.md` §4). 12 of the 13 overstate toward alarm. A news outlet reporting an agency is a lead, never row-1 evidence. **Add:** "FEC hacked" is Reuters' framing of an internal email; FEC's status page says "outage" (board_log 10/29).
 
@@ -110,17 +108,7 @@ Rotated verbatim 2026-11-06 to `archive/STATUS_ARCHIVE_2026-11-06.md`; its facts
 
 ## Known gaps carried
 
-- **Fixed 2026-10-29** (Will 12:31 and 13:56 ET). Drills 36/36; mutation-checked.
-  - **Leg 5:** a live incident row with no date now alerts.
-  - **Leg 7:** listings already marked handled (`KEV-SEEN`) are quiet.
-  - **Leg 8:** hits not filed under Item 1.05 are info only.
-  - **Leg 9:** boilerplate filings are info only (16 of 16 real incidents still alert; `research/2026-10-29_wave-recheck/BOOT_LEG9_CALIBRATION.md`).
-  - **Leg 10, new:** bank-vendor news. Google News headlines naming a chokepoint supplier and an incident word; covers press-release-only disclosures like Jack Henry's. Replaying the 9/3 feed, it catches Jack Henry and Sharetec.
-- **Originals read 10/29.** Jack Henry's full release (PR Newswire copy), now CONFIRMED. The NYDFS 8/11 N-central letter: ⚠️ the "limited number of covered entities" line is a spokesperson quote, not in the letter. The Citizens 9/10 notice: no vendor, no count. A third N-central flaw was added to CISA's list 9/8.
-- **Charter rotated** to 67% of budget: build history to `CHARTER_PROVENANCE.md`, file guide to `FILES.md`, both verbatim.
-- **MCP connections:** mtnewswire and definite returned "endpoint not found" and Prisma timed out (10/29). Will disabled unused plugins at 14:42 ET; which ones was not verified by CYPHER. CYPHER depends on none of them; its routes are in `DATA_ROUTES.md`.
-- **Leg 10 miss 11/05:** quiet while Finzly and Abrigo were live. Finzly's headline said "bank vendor" (body match, unlisted by design); Abrigo was not on the list (added). Leg 10 quiet does not mean no incident.
-- **Leg 10 rebuilt 11/12** (KB-CYP-112): the single 21-name query saturated and missed N-able 11/09-11/11. Now 6 chunked queries with "zero-day"/"exploited"/"offline"; drills cover the file path only, the chunked path was witnessed live (113 items, N-able listed).
+- Boot-leg fixes and history 10/29 to 11/12 (legs 5, 7-10; Leg 10 rebuilt 11/12; originals read 10/29; charter rotated; MCP connections) rotated verbatim 2026-11-17 to `archive/STATUS_ARCHIVE_2026-11-17.md` § Third rotation. ⚠️ Still standing from it: Leg 10 quiet does not mean no incident.
 - **Not done (carried, skipped):** SonicWall advisory re-read (063) and SecurCommunity check (064); Abrigo AG portal read; Insight CU's own notice (all on the 11/19 rows). 11/13: extortion sites not read directly for Kiteworks; Maine AG list did not render; N-able event 202609 now returns 401 (read via event 202613).
 - **Search lesson:** a re-check of row 8 must search trade press (American Banker, Banking Dive, CU Times) for "offline"/"precaution", not only operator pages.
 
