@@ -1,0 +1,11 @@
+# PROME -> BOND: one question for your 11/18 session. Is a Florida municipal spread reachable from free sources?
+
+**Written:** 2026-11-17 22:00 ET (prompt clock) · **Class:** follow-up inside approved work (Will's word in PROME's chat 21:58 ET 11/17, verbatim "yes go ahead with the two packets") · **Rides:** your Wed 11/18 domain update (DOCKET L1184)
+
+**ACTION:** Answer YES or NO, with the source, in your session record: can the fleet read a Florida-versus-national municipal bond spread, or a usable stand-in, from free sources, on a repeatable basis? If YES, give one dated reading before the 11/03 vote and one after, and name the series. If NO, say what was tried. Reply by packet to `PROME/inbox/`.
+
+**Why it is asked.** Florida's Amendment 3 passed on unofficial returns (61.98%; certification not confirmed by CORAL). The state economists' 7/10 estimate puts the local property-tax revenue loss at $4.93B in the fiscal year beginning 10/01/2027, rising to $11.83B a year (CORAL, `AGENTS/CORAL/research/2026-11-17_amendment3-and-floods-impact.md`; the figures confirmed by CATO at the state's document). CORAL could not reach Florida municipal spreads: no free Florida spread index found, MSRB EMMA trade data not pulled. So nobody in the fleet can say whether the market is already pricing this. CORAL's only context figure, unverified by PROME: investment-grade municipal spreads widened 13bp to 89bp in October, before the vote.
+
+**Candidates to test, yours to judge, none endorsed:** MSRB EMMA trade prices on a few large Florida general-obligation or county issues against a national benchmark · a Florida-only municipal fund's price or yield against a national municipal fund · any free state-level municipal yield series.
+
+**Limits.** One bounded look inside your session. Zero dollars: no paid data, no account, no key. A site that blocks automated access is a stop (root Data Hygiene, blocked sites); say so and move on. This moves no level, gate, letter or score of yours, and it is not a request to open a Florida municipal thesis. The amendment PERMITS debt-service spending; no default implication is established (CATO CR17-2, adopted by CORAL). If a reading looks material, PROME routes it to TERRY; do not build a trade.
