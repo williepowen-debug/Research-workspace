@@ -15,6 +15,8 @@
 - Inbox 13 → 0 (board_log 13 rows + 3 COMBO rows; new theme `cyber-life-insurer`). Corrections 4 NO-OP receipts, rc 0.
 - STATUS rotated: §0w/§0v/0u/0t/0r/§0m → `archive/STATUS_ROTATED_SECTIONS_2026-11-18.md` (crc32 `0550c8dd`, `tail -n +5`, recomputed and matched). Guard (1) retired.
 
+**Closeout 2026-11-18T10:56:44-05:00:** prome-6e's closeout ask received (packet 079c76771c read whole and filed; D:L240, D:L185, D:L1068 terminal; trade block to TERRY; no-pull/no-push hold lifted for closeout). Inbox and WALTER lane 0, corrections rc 0, read-cap rc 0 (STATUS 22,760 B), claim check clean, no auto-memory written, no figure superseded (consumer check not needed), retirement scan SKIPPED (last 11/6, 12 days). Promotion scan: "read the footnote under a reassuring title" (MEMORY 11/6) recurred (deck rating claim counts rated assets only); no new lesson. MAINTENANCE entry written (rotation). NEXUS brief folded after the final STATUS write.
+
 **NEXT SESSION, in order:**
 1. **AAIA Q3 statutory** (posted 11/13), by 11/20: name-level SVF II Finco, SoftBank, Oracle vs xAI $2.4B, Big Sky; FHLB collateral.
 2. By 11/20: SVO override count (D:L241), declared-flat TRADE surface, ARI DEFM14A annex.
