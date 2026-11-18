@@ -73,3 +73,10 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-16T19:14:32Z	SIG-W-20261113-003	noted	INBOX_WALTER	Blackwell fingerprints -> combo:chip-control-leakage KB-ZHAO-274; not an instrument.
 2026-11-16T19:14:32Z	SIG-W-20261114-003	acted	INBOX_WALTER	Trump-Xi bilateral 11/19 Shenzhen registered in docket/CATALYSTS.tsv; KB-ZHAO-273.
 2026-11-16T19:14:32Z	SIG-W-20261116-005	noted	INBOX_WALTER	Copper four-month low on weak China data -> KB-ZHAO-276.
+2026-11-18T20:43:17Z	SIG-W-20261117-013	noted	INBOX_WALTER	Huang return offer / Singapore disclosure -> company-level, VULCAN's; China layer combo:us-china-chip-controls KB-ZHAO-285.
+2026-11-18T20:43:17Z	SIG-W-20261117-016	noted	INBOX_WALTER	Item 5 China: PBOC medium-term drain (title only), property -21.6% (already on STATUS), fix 6.7132 -> KB-ZHAO-286; other items other desks.
+2026-11-18T20:43:17Z	SIG-W-20261117-019	noted	INBOX_WALTER	Nvidia Q3; Q4 guide no China DC compute -> KB-ZHAO-285; VULCAN owns.
+2026-11-18T20:43:17Z	SIG-W-20261117-020	noted	INBOX_WALTER	8-K correction: China incl HK 9.5% of revenue, Hopper to China 2.4B -> KB-ZHAO-285.
+2026-11-18T20:43:17Z	SIG-W-20261117-025	noted	INBOX_WALTER	SEC civil probe of Nvidia disclosures (WSJ via TechCrunch) -> KB-ZHAO-285; VULCAN grades.
+2026-11-18T20:43:17Z	SIG-W-20261118-004	noted	INBOX_WALTER	Shenzhen trilateral handshakes (titles) -> KB-ZHAO-286; only an instrument counts; rest other desks.
+2026-11-18T20:43:17Z	SIG-W-20261118-010	noted	INBOX_WALTER	HY OAS 343 LIQUID rule MET -> INFO only, LIQUID's domain; no ZHAO vector keys on it.
