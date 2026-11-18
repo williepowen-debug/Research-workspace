@@ -3,7 +3,7 @@
 **Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #15 (11/15) 4-of-5, Cape Coral 5.74 series low, re-fire fails. Falsify grade 11/15 run 11/16: 1.5 of 6, 🟠 holds. **GSE financing leg: "not yet" — CORAL-02 FALSE (11/17).** Next: MSI #16 by 11/26; FL Realtors Nov 12/16.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-11-17 21:4x ET (Tue, coral-ai, Will's direct ask: Brevard and Palm Bay three-scenario projection; MATERIAL: Palm Bay share corrected ≈66% → ≈40–45%; CATO CR17-1 to -4 adopted 21:4x) | STATUS commit: e18a9fa73a (prior: 2026-11-17 coral-ah, aa2ee5f29d)
+**As of:** 2026-11-17 21:4x ET (Tue, coral-ai, Will's direct ask: Brevard and Palm Bay three-scenario projection; MATERIAL: Palm Bay share corrected ≈66% → ≈40–45%; CATO CR17-1 to -4 adopted 21:4x) | STATUS commit: 4ca122d595 (prior: 2026-11-17 coral-ah, aa2ee5f29d)
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
 

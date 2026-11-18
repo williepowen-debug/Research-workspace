@@ -1,6 +1,6 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-11-17 20:09 → 20:2x ET, reopened 21:38 → 21:4x ET on Will's direct ask (Tue) — **coral-ai**, Will's ask relayed by PROME prome-7a (laptop): "look into the impact of the Amendment 3 passing. As well as the flooding problems". Opus 5.5 in Claude Code. Boot reads: root CLAUDE.md and local CLAUDE.md (harness-injected and in context), AGENTS.md, USER.md, COMPLETION_SPEC (delivery sections) read explicitly; STATUS, SCRATCH, THESIS, LESSONS, MEMORY read whole; CALENDAR read only where relevant; boot.py --quick; corrections rc 0. **Pull NOT run:** the tree held other desks' uncommitted tracked files (CYPHER, VULCAN, PROME), so a rebase pull would be refused. That refusal is the rule; I did not stash. Fetch showed HEAD 6 ahead and 0 behind origin, so nothing was missed. Holding for PROME's closeout ask; **not pushed** (push at closeout via safe-push).
+**Session:** 2026-11-17 20:09 → 20:2x ET, reopened 21:38 → 22:0x ET on Will's direct ask, closed on Will's word 22:04 (Tue) — **coral-ai**, Will's ask relayed by PROME prome-7a (laptop): "look into the impact of the Amendment 3 passing. As well as the flooding problems". Opus 5.5 in Claude Code. Boot reads: root CLAUDE.md and local CLAUDE.md (harness-injected and in context), AGENTS.md, USER.md, COMPLETION_SPEC (delivery sections) read explicitly; STATUS, SCRATCH, THESIS, LESSONS, MEMORY read whole; CALENDAR read only where relevant; boot.py --quick; corrections rc 0. **Pull NOT run:** the tree held other desks' uncommitted tracked files (CYPHER, VULCAN, PROME), so a rebase pull would be refused. That refusal is the rule; I did not stash. Fetch showed HEAD 6 ahead and 0 behind origin, so nothing was missed. Holding for PROME's closeout ask; **not pushed** (push at closeout via safe-push).
 **Previous:** 2026-11-17 coral-ah (morning).
 
 ---
@@ -35,4 +35,4 @@
 
 ## MAIL STATE
 
-`inbox/` top-level: empty · `inbox/WALTER/`: empty · outbound: AEOLUS, MARCO, REGINALD inbox packets; `PROME/inbox/2026-11-17_from-CORAL_amendment3-and-floods-impact.md`.
+`inbox/` top-level: empty · `inbox/WALTER/`: empty (SIG-W-20261117-030 ATTOM H1 label correction consumed 22:0x, noted; STATUS already says H1) · outbound: AEOLUS, MARCO, REGINALD inbox packets; `PROME/inbox/2026-11-17_from-CORAL_amendment3-and-floods-impact.md`.
