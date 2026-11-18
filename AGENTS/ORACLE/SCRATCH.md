@@ -34,7 +34,7 @@
 
 ## CARRY-FORWARD
 
-- **Push state:** 11/18 commits are LOCAL ONLY (PROME's letter: no push until its closeout ask). Find them with `git log origin/master..HEAD -- AGENTS/ORACLE/`. Earlier: ab06498512 and the 11/12 closeout commit were to go by `safe-push.sh` at the 11/12 closeout; check `git log origin/master..HEAD` before assuming.
+- **Push state:** at closeout 10:4x ET 11/18 (PROME's closeout ask), 2eef85ad28 and the eight packet commits 99022e2fcd..1b238fb435 were already on origin/master, carried by another desk's push (verified with merge-base). This SCRATCH fix goes by `safe-push.sh`. TERRY answered NO CARD (4fb5ef0e9b). PROME accepted WQ-704; D:L1173 RESOLVED.
 - **Combination themes (`combo:` in KB Notes):** strike-vs-oil · diplomacy-drift · polymarket-integrity · bank-book-depth · ai-unwind-read · print-miss-direction · venue-legal-risk.
 - **Cadence settled:** PROME 11/04: one read per weekday stands. No halt rule proposed (Will 10/31: fewer rules).
 - **`TRADE.md` refresh:** rerun `tools/trade_marks.py --write`, then regenerate the tables; never hand-type a vintage.
