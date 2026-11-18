@@ -58,3 +58,13 @@
 | NYDFS industry letters | 2026 letters use `/industry-guidance/industry-letters/` (hyphens), older ones underscores; WebFetch works, curl 403 | Read via WebFetch |
 | CA AG breach list (`oag.ca.gov/privacy/databreach/list`) | curl with a browser UA works; detail page `.../reports/sb24-NNNNNN` links the notice PDF; PDFs need venv pdfminer | Primary for US breach-notice letters |
 | Jack Henry IR (`ir.jackhenry.com`) | 403 to WebFetch and curl | Read the release via its PR Newswire syndication (e.g. finviz.com/news/...) |
+
+## Reader quirks recorded 2026-11-17 (evening gaps session)
+
+| Source | Quirk | Do this |
+|---|---|---|
+| AWS Health Dashboard history (`history-events-us-west-2-prod.s3.amazonaws.com/historyevents.json`) | REACHABLE by curl; the body is gzip-compressed, so a plain text read fails with a decode error | `curl -s URL \| gunzip -c`; PRIMARY for AWS event times (no cause field) |
+| Apple System Status (`apple.com/support/systemstatus/data/system_status_en_US.js`) | REACHABLE by curl; JSON in a JS wrapper; times in PST | PRIMARY for Apple service windows; an absent service = no entry, not proof of no outage |
+| FBI IC3 advisories (`ic3.gov/CSA/2026/<yymmdd>.pdf`) | REACHABLE; PDF needs venv pdfminer | PRIMARY for FBI FLASH text |
+| Equinor news (`equinor.com/news`) | REACHABLE; the page carries a last-modified stamp | Read the stamp to say whether the release changed |
+| Microsoft 365 post-incident reports | Full report sits in the tenant admin centre (sign-in) | Carry the preliminary text via trade press as SECONDARY; say the full report is unread |

@@ -1,4 +1,4 @@
-# LIVE — Last real data refresh: 2026-11-17 | Staleness sweep: 2026-11-05 | Next: re-score at any watch-row change; next open-wave re-check by 2026-11-12
+# LIVE — Last real data refresh: 2026-11-17 | Staleness sweep: 2026-11-05 | Next: re-score at any watch-row change; next open-wave re-check by 2026-11-24 (VX-CYP-02 and -04 re-read 2026-11-17, held)
 # Cadence: EVENT-DRIVEN | Last re-pull ATTEMPTED: 2026-11-05
 # Convergence matrix (blueprint §2). Score = universal 1-5 handle (1 dormant ... 5 firing) or UNKNOWN (Class 5: no check run). Band → score: GREEN 1-2 · YELLOW 3 · ORANGE 4 · RED 5.
 # Kind: MECHANISM (scored into the composite) | THERMOMETER (a readout of the mechanisms — scored for display, NEVER added to the composite; blueprint §7 mechanism-vs-thermometer).
