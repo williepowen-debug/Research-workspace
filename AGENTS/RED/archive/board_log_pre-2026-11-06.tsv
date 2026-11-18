@@ -19,3 +19,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T10:16	SIG-W-20261106-011	noted	BOARD	HENRY close grade; QQQ and NDX first closes under 200-day since 4/7; ledger input
 2026-11-06T10:16	SIG-W-20261106-003	noted	BOARD	Japan -5.96%, SoftBank CDS 466bp, secondary; combo forced-deleveraging and ai-financing-reach
 2026-11-06T10:16	SIG-W-20261106-004	noted	BOARD	23 of 24 HY data center bonds wider, ING, BoE; secondary or anonymous; combo ai-financing-reach
+2026-11-06T10:16	SIG-W-20261106-008	noted	BOARD	Walleye and October fund losses, no closures reported; combo forced-deleveraging
+2026-11-06T10:16	SIG-W-20261105-057	noted	BOARD	Correction read, VIX 28.17 vendor; official close 28.18 at FRED and Cboe governs FT-06; receipted
+2026-11-06T10:16	SIG-W-20261105-061	noted	BOARD	Cable One Chapter 11 conditional; combo credit-breadth-outside-ai; BROCK owns
+2026-11-06T10:16	SIG-W-20261105-064	noted	BOARD	Cable One 10-Q, TRO hearing 11/13; combo credit-breadth-outside-ai
+2026-11-06T10:16	SIG-W-20261105-065	noted	BOARD	Reuters ties 11/5 oil rise to tanker attacks, one wire; Jan Brent 98.29 EST mark; receipted; combo oil-price-vs-flow

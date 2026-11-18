@@ -35,3 +35,9 @@ S67 commits by pathspec under `AGENTS/RED/` plus the packet (carve-out ①); pus
 ## ADDENDUM S67-b — 2026-11-18 10:40 EST (from `date`)
 - VIOLET (violet-0e) cross-session note, verified at FRED and at its artifact on disk (commit cc493f82f9, local, not yet on origin): VIX +30.83% [11/10 to 11/17] with HY +13bp; FRED HY 343 / CCC 1,329 [11/17] newly published. FT-02 exit 0 of 3 · FT-10 exit 0 of 4 (SKEW 145.11 [11/17], VIOLET agrees) · FT-06 4 of 5 unchanged. No weight or trigger state moved; KB-113 counterevidence member added; STATUS line A1. No packet (A4 not triggered).
 - Pending and next entry point unchanged: 11/19 FT-06 read at FRED, then CHG-057.
+
+## ADDENDUM S67-c — 2026-11-18 15:31 EST (from `date`)
+- PROME prome-6e cross-session 15:30 ET, on Will's "go" 15:29 ET: read the two top-level inbox packets (CHG-057 and FT-06 NOT pulled forward). Both logged (board_log rotated to 59.7%) and moved to `inbox/processed/`.
+- BOND F2 11/17 20Y-30Y op: OFF-THE-RUN, recent_share 2.11%; reproduced at FiscalData (offered $4.548B, accepted $1.183B, 8 issues, 912810SD1 82.16%). Re-confirms v1.1 (active since 9/10); offer-to-cap 0.76x is a demand statistic, scope fence, not fused. No FT-11 window: Δ5 DGS30 +20bp [11/06→11/16].
+- ORACLE WQ-704: RED-26 priced about 22-30 vs RED 33; information, not re-graded. FRED window high 7,619.38 [11/11]; 7,340.53 [11/17] needs +6.6% to reach 7,823.
+- Packet `PROME/inbox/2026-11-18_from-RED_S67c-two-inbox-packets-read.md`. Next entry point unchanged: 11/19 FT-06 read at FRED, then CHG-057.
