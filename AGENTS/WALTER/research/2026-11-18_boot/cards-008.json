@@ -1,0 +1,24 @@
+[
+  {
+    "id": "SIG-W-20261118-008",
+    "slug": "EIA-WPSR-week-ending-Nov-13-Cushing-26.147M-minus-1.209M-boundary-3-not-met-commercial-crude-plus-3.38M-SPR-minus-3.17M-crude-exports-4488-kbd-distillate-104.9M",
+    "title": "EIA weekly petroleum status, week ending Nov 13 (released Wed Nov 18): Cushing 26.147 million barrels, down 1.209M (boundary 3, under 20M, NOT met); commercial crude 417.797M, up 3.380M; SPR about 276.4M, down about 3.17M (WALTER arithmetic: total less commercial); crude exports 4,488 kb/d, up 1,033; gasoline 215.949M, up 5.193M; distillate 104.901M, up 1.571M (BRT-34 line 95,000 not reached); BRENT grades BRT-31 and its tracker",
+    "body": "# EIA Weekly Petroleum Status Report, week ending 2026-11-13\n\n**Source read:** EIA tables at ir.eia.gov/wpsr/table1.csv and table4.csv, fetched 2026-11-18 before the 15:45:16Z dispatch (WPSR tables posted by 15:4xZ) (standard Wednesday release; the EIA open-data API still showed week ending Nov 6 at 15:44Z).\n\n| Series | Week ending Nov 13 | Week ending Nov 6 | Change | Year ago (Nov 14, 2025) |\n|---|---|---|---|---|\n| Cushing crude stocks | 26.147 M bbl | 27.356 | -1.209 | 21.821 |\n| Commercial crude (ex SPR) | 417.797 M bbl | 414.417 | +3.380 | 424.155 |\n| Total crude incl. SPR | 694.158 M bbl | 693.952 | +0.206 | 835.081 |\n| SPR (WALTER arithmetic: total less commercial) | about 276.361 M bbl | about 279.535 | about -3.174 | n/a |\n| Crude exports | 4,488 kb/d | 3,455 | +1,033 | n/a in the row read |\n| Total motor gasoline stocks | 215.949 M bbl | 210.757 | +5.193 | 207.391 |\n| Distillate stocks | 104.901 M bbl | 103.330 | +1.571 | 111.080 |\n| Crude production | 14,032 kb/d | 14,013 | +19 | n/a |\n\n**Registered rows:** boundary 3 (Cushing under 20M, single print) NOT met: 26.147M, 6.1M above. BRT-34 (distillate under 95,000 kb): 104,901, not under. BRT-31 (week six; qualifies at or below 8,890 kb/d on BRENT's named weekly series): BRENT grades; WALTER did not identify the series and grades nothing.",
+    "source": "EIA WPSR week ending 2026-11-13, https://ir.eia.gov/wpsr/table1.csv and https://ir.eia.gov/wpsr/table4.csv (fetched 2026-11-18 before the 15:45:16Z dispatch (WPSR tables posted by 15:4xZ))",
+    "origin": ["Boundary 3 scheduled read (CLAUDE.md 6c; BRENT docket/CATALYSTS.tsv row 2026-11-18 EIA WPSR)"],
+    "action": ["BRENT"],
+    "info": ["LIQUID", "HENRY", "RED", "CARL"],
+    "precedence": "PRIORITY",
+    "signal_type": "context",
+    "confidence": 0.95,
+    "confidence_language": "issuer tables read; SPR figure is WALTER's subtraction",
+    "cluster": "HYDROCARBON_INFRA",
+    "domain": "OIL_ENERGY",
+    "entities": ["EIA", "WPSR", "Cushing", "SPR", "crude exports", "distillate", "gasoline"],
+    "dispatch_note": "Boundary 3 owner chain (BRENT -> LIQUID, HENRY, RED) at PRIORITY because the line was not crossed; BRENT's docket row for today names BRT-31, BRT-34 and its tracker. CARL info for the gasoline and distillate stock legs (pull). TERRY BOARD-only; RED and CARL INFO by BOARD.",
+    "route_origin": "Scheduled release read at the issuer",
+    "route_summary": "PRIORITY EIA week to Nov 13: Cushing 26.147M (-1.209M, boundary 3 not met); commercial crude +3.38M; SPR about -3.17M; crude exports 4,488 kb/d (+1,033); distillate 104.9M (BRT-34 not met); BRENT grades BRT-31.",
+    "safety_net": "clear",
+    "event_window": "closed"
+  }
+]
