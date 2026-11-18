@@ -69,3 +69,73 @@ Done 10/30: Mag7 slot 8, GPU 8, S2 row, WQ-551.HELD encode [KB-341..345]; §4b g
 ### STATUS header superseded 2026-11-17T20:06 ET (verbatim)
 
 **Last Updated:** 2026-11-17T16:49 ET — PROME prome-19, delivery 2 (D:L926): **Nvidia Q3 FY27 8-K read whole [KB-453]: revenue $115.8B, above its own $108.0B ±2% outlook; Q4 outlook GIVEN, $130.0B ±3% for a 14-week quarter (+12.2% over Q3 actual), no China data-center compute assumed; no order cut stated. VULCAN-17 graded HIT on the interim 8-K [KB-454]: guarantees $118.0B max gross at 10/25 (SB Energy $105.0B now in the table, new $9.5B power and systems line). Also today: BIS remote-access rule [KB-446], Huang's conditional return offer on record [KB-451], Fed FSR Box 2.2 [KB-452]. No letter met. 15/25.** Prior headers → `archive/STATUS_EXCERPTS_2026-11-17.md`.
+
+## Rotated at the 2026-11-17 20:1x ET closeout (verbatim, read-cap rule 5)
+
+### S1 11/17 earlier
+
+**11/17 earlier [KB-447]:** the only Nvidia-issued statement is a newsroom release creating a board National Security and Export Control Oversight Committee (no customer, country, rule, revenue or outlook named); no 8-K since 11/12. CNBC's unnamed-source report that Nvidia will not sell to customers renting more than 50% of their GPUs to Chinese companies is CLAIM ONLY (FT has 51%, future contracts); no letter keys on it. NVDA $152.99 (−2.02%), SMH −2.17% (vendor intraday 12:04 ET, not closes).
+
+### S1 SoftBank SB7
+
+**11/10 SoftBank SB7 [KB-419]:** $2.9B of power-equipment advances written off plus $0.9B of modifications: the first filed equipment-order cancellation in the chain, an ARMED-indicator observation, not a fire.
+
+### S2 softer leads
+
+Softer leads only: NAND wafer spot −9.19% week of 10/26, Kioxia ASP growth slowing (relay) vs Sandisk data-center +61% q/q (primary). Micron's reported halt of its Taoyuan plant is a supply item due 2028, unconfirmed, no output change [KB-371].
+
+### S3 11/5 Texas
+
+**11/5 Texas [KB-348]:** Hinojosa won; her moratorium on new data centers is a promise, office 1/19/2027; Abbott's pause dates to August; nothing new enacted; bank GW-share figures are estimates. 40 of 41 local measures rejected data centers is reported, not counted here; the $100B is a pre-vote figure for proposed projects; whether any measure reaches a contracted build is not read [KB-367]. Jupiter air-permit hearing stays 12/7, after the developer's earlier 11/23 warning date; delay, not removal [KB-373]. TrendForce cut Lighthouse 2027 forecast 650 to 310 MW, a forecast [KB-362].
+
+### S5 Nebius Q3
+
+**11/12 Nebius Q3 [KB-424]:** Q3 capex $7.30B funded by $7.46B of financing ($5.75B converts, $1.06B ATM shares, $773M ABS); 2027 capex $40–45B with 75–85% from prepayments and IG-contract ABS; Q3 operating cash −$273M as $3.76B of billed prepayments sat in receivables (INFERRED). Nothing pulled or flexed; Citi bridge vs July ABS is not like-for-like.
+
+### S5 CoreWeave Q3 and 10-Q
+
+**11/10 CoreWeave Q3 [KB-417]:** FY2026 capex $37–39B (low end raised, 'deliver sooner'), backlog $132.5B, about $9B of prepayments and deposits expected in three months, DDTL 5.5 $2.6B closed, ATM up to 35M shares; nothing pulled or flexed. **10-Q read 11/12 for financing facts [KB-429]:** recourse debt $41.6B (current $9.18B) plus non-recourse $5.27B; covenants in compliance, no defaults; nothing refused, repriced or delayed; customers A and B 54% of Q3 revenue.
+
+### S5 VULCAN-13 MISS
+
+🆕 **11/16 VULCAN-13 MISS [KB-437]:** capex not cut and none of legs (a)/(b)/(c) met. IREN GPU 2.0 vs 1.0 at the 10-K and 10-Q: guarantee scope widened (non-recourse with limited guarantees → full parent guaranty of payment, parent debt restriction, payment cross-default) and the DSCR covenant dropped; NOT COUNTED because 2.0 is a different borrower, collateral and customer base (Microsoft-contract SPV vs non-IG customers), the test that already excluded DDTL 4.0 vs 5.0 and GPU 2.0 vs 3.0. Disagreement recorded; the independence question goes to PROME for Will. CoreWeave's reported $4B Meta-contract loan: no filing or terms at 11/16 15:19Z; comparator is its own non-recourse DDTL 4.0 at S+225, not S+550 [KB-439].
+
+### Calibration older notes
+
+🆕 **11/16 afternoon:** VULCAN-192 registered under WQ-689 B (S5 independence successor, VULCAN-13's letter, to 2027-02-15; VULCAN-18 stays reserved for VULCAN-17's 10-K reading) [KB-444]. 🆕 **11/16:** -13 **MISS** · -15 **HIT** [KB-437/438], moved to `archive/PREDICTIONS_RESOLVED_2026-11.tsv`. 🆕 **11/10:** -188 **HIT** (TSMC October) · -191 **MISS** (CoreWeave capex raised, not cut); both rows moved byte-for-byte to `archive/PREDICTIONS_RESOLVED_2026-11.tsv`.
+
+### S2 11/5 equities and 10/29 test
+
+**11/5 [KB-363]:** MU −12.24%, SNDK −17.74% (10:32 ET intraday), hynix −9.46%, Samsung −7.57% (KST closes, press) = equities, no S2 letter. Softer leads KB-371 → archive. S2 stays 2. **10/29 memory test [KB-326/327]: AMBIGUOUS branch, S2 stays 2** (re-confirmed 10/30: Samsung's call was 10/29 KST; nothing new for 10/30). No server order cuts; hynix and Samsung both guide 4Q DRAM bits UP; no price-down guide; 2027 HBM sold out (Samsung) / LTAs >50% of 2027–28 capacity (hynix); both cite PC/mobile volume declines on memory cost. 10/30: Amazon cites "heightened component costs like memory" = S2 cost-push into S1, not a demand roll. Contract: TrendForce 4Q26 DRAM +10–15% / NAND +15–20% [9/30, unrevised].
+
+### S5 Fed FSR
+
+**11/17 Fed FSR [KB-452]:** AI-computing issuance above $680B by October, public debt above $1.1T, leases above $1T plus other obligations above $2T, banks close to $1T exposure; context, no letter.
+
+### S1 KB-451 superseded
+
+Huang's conditional return offer on record, board refusal unnamed-source [KB-451].
+
+### OPEN zero
+
+**⓪ Closed reports:** L782 v3 FINAL 10/23 and the October 23 ideas (TERRY PASS, no card) → `archive/STATUS_EXCERPTS_2026-11-10.md`; residuals date-deferred in L782 §6.
+
+### S3 Nebius detail
+
+third-party colocation sites slipped into 1H27; New Jersey delivers more than half the Microsoft-contracted capacity by year-end, the rest 2Q27, because the colocation owner retired temporary generation ahead of permanent Bloom fuel-cell power; contracts kept, Microsoft 'part of the planning process'. A developer-side DELAY, not grid refusal removing firm capacity ⇒ NOT FIRED; joins the slipping-sites theme [KB-387].
+
+### S3 VULCAN-15 detail
+
+FERC's 10/9 order rejected the IRAS core (registry only accepted), NCBL stays voluntary: curtailability offset still 0 GW, no 55/32 re-derivation owed (WATT's owner record 11/14, not re-read at eLibrary). EL26-67 responses due 11/16 (today), answers 12/16; WATT reads them, consumption re-homed to 11/30.
+
+### S4 BIS rule detail
+
+(interim final rule, FR Doc 2026-23529, filed 11/16 16:15 ET, effective on publication 11/19, read at the primary): licence (case-by-case) for advanced chips to any data center providing more than 12,000,000 aggregate TPP to companies headquartered in Macau or Country Group D:5 (existing service: licence within 90 days), and for advanced chips to Indonesia, Malaysia, Singapore, Thailand and Brazil, US-headquartered buyers exempt with monthly reports; foundry and OSAT presumptions narrowed; AI Diffusion Rule rescinded.
+
+### S4 graphite clock
+
+China's 11/27 clock (clause 2 of 2024 No.46) also covers graphite review; no row here, ZHAO's [KB-418].
+
+### Startup / method state
+
+**Startup / method state:** Google 10-Q predictive bound RETIRED (historical FAIL printed); META 10-Q model still FAILS; thin annual models UNGRADEABLE. Issuer-confirmed earnings dates govern their own events, not filing dates. EDGAR sweep refreshed 11/10 about 22:20Z, 41 rows (CoreWeave 8-K 2.02). Older startup notes → `archive/STATUS_EXCERPTS_2026-10-30.md`.
