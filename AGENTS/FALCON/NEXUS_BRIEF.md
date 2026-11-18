@@ -3,7 +3,7 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD (re-read 11/17 third C8, card SIG-W-20261117-022: the US strike on Qeshm 11/17 is CONFIRMED by Reuters, AFP and Bloomberg quoting an anonymous US military official; FAL-09 count 1 of 5; the Reuters abandoned gas tanker is TARA GAS, the 11/16 hull; no letter met); losses 7; FAL-08..12 OPEN to 12/31, FAL-09 1 of 5.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); v3.1 November 6 moves the live test to FAL-08, a STATED loss; no new pivot.
-**As of:** 2026-11-17 19:38 ET | STATUS commit: `ae60b58c7a` | Evidence cutoff 00:36Z 11/18 (third C8 wake, PROME prome-7a, laptop); bloomberg.com, centcom.mil, Ship & Bunker 403; IMO table, NAVAREA IX, MarketScreener (Reuters), Arab News (AFP), gCaptain (Bloomberg), Fox reachable
+**As of:** 2026-11-17 20:10 ET (closeout completion pass) | STATUS commit: `1f6a2088c9` | Evidence cutoff 00:36Z 11/18 (third C8 wake, PROME prome-7a, laptop); bloomberg.com, centcom.mil, Ship & Bunker 403; IMO table, NAVAREA IX, MarketScreener (Reuters), Arab News (AFP), gCaptain (Bloomberg), Fox reachable
 
 ## CROSS-DOMAIN
 
