@@ -90,4 +90,5 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [Prediction post-mortems MIDAS-01..08](../analysis/2026-10-29_MIDAS-01-08-postmortems.md) — record and design rules.
 
 - [November 11: the 11/10 gold fall graded](research/2026-11-11_1110-gold-move-grade.md) — RATE on the frozen WQ-451 classifier (KB-267).
+- [November 18: TIC sign, L2 count, MIDAS-20 and the 11/18 gold class](research/2026-11-18_L819-L821-MIDAS20-close-grade.md) — L821 SUPPORTS on sign; 11/18 UNEXPLAINED-DOWN, no driver (KB-283, KB-284).
 - [November 14: the 11/11–11/13 gold fall graded](research/2026-11-14_1111-1113-gold-move-grade.md) — 11/12 UNEXPLAINED-DOWN, not liquidation; real 10Y 9 bp from the 3.00% line (KB-278).

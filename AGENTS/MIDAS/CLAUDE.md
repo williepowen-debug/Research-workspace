@@ -51,7 +51,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 
 1. **Update `STATUS.md`** — matrix scores, live reads (sourced + dated), exit triad fired-count, refreshed BOTTOM LINE.
 2. **Log to workbook** — new facts → `KB.tsv`; vector state changes → `VX.tsv`; new/confirmed pathways → `FLOW.tsv`; new forecasts → `PREDICTIONS.tsv` (MIDAS-NN).
-3. **Writeback `NEXUS_BRIEF.md`** — curated cross-agent sync (every closeout).
+3. **`NEXUS_BRIEF.md` (WQ-719 A, Will 2026-11-18 12:10 ET):** rewrite and commit it at closeout only when a figure, threshold, or cross-desk send or wait in it changed; otherwise leave it untouched, with no As-of or pin refresh (NEXUS schema §4.1). A pin that lags STATUS after a no-change session is a warning, not a failure.
 4. **Continuity** — append a dated note to `SCRATCH.md`; add any new durable lesson **in BOTH places: the full row to `analysis/LESSONS_ARCHIVE_2026-08.md`, one hook line to `LESSONS.md`.** (Index-only since the 8/27 split; a body with no hook is invisible, a hook with no body is a dead link.)
 4b. ⛔ **If this session SPLIT or ROTATED a boot-read surface: state WHICH cost the split chose and MEASURE it, in the SAME commit.** One question answers both — **"where did the cut material go, and is that destination on the reading path?"** **ON the path** ⇒ report the new **boot-read TOTAL** and stop claiming a saving. **OFF the path** ⇒ enumerate every obligation that moved and re-home each. *(L-48.)*
 
@@ -181,9 +181,9 @@ Real-rate divergence, copper inflections, and GSR moves resolve against a fixed 
 | Gold/silver ratio risk-off spike | LIQUID | 🟠 |
 | Copper growth-inflection / China-demand shift | ZHAO (China) + HENRY (velocity) | 🔴/🟠 |
 | PGM supply disruption (SA/Russia) | HAWK (geopol) + HENRY (auto/industrial) | 🟠 |
-| Cross-agent synthesis (every closeout) | NEXUS_BRIEF writeback | curated |
+| Cross-agent synthesis (closeout, only when a figure, threshold, send or wait in the brief changed; WQ-719 A) | NEXUS_BRIEF writeback | curated |
 
-Route to the **domain owner**, not the transmission-adjacent agent. NEXUS_BRIEF = curated sync every closeout.
+Route to the **domain owner**, not the transmission-adjacent agent. NEXUS_BRIEF = curated sync, rewritten only on change (WQ-719 A).
 
 ## STANDING DISCIPLINES
 
@@ -223,7 +223,7 @@ Will requested metal buckets on October 20, 2026. Start navigation at `README.md
 | `boot.py` | Boot instrument, **five legs**: metals watch · ledger staleness · predictions-due · **gold COT freshness** (leg 3, wired 2026-09-05) · **Ag/Pt/Pd COT freshness** (leg 4, wired 2026-10-12). cwd-proof; self-locating. Leg 3 is stdlib-only (imports `cot_gold.py` directly) so it does not need `.venv`. |
 | `SCRATCH.md` | Immediate next-session continuity — "pick up here." **Split 2026-08-27:** ONE merged CARRY-FORWARD + the most recent session only. ⚠️ **Keep exactly one forward list** — three divergent copies of the same instruction was an active hazard on a boot-read file. |
 | `analysis/SCRATCH_ARCHIVE_2026-08.md` | **Full verbatim session record, 2026-07-12 → 2026-08-23.** Split from `SCRATCH.md` 2026-08-27 (Will-directed) at 74KB/269 lines. MOVED, never deleted. |
-| `NEXUS_BRIEF.md` | Curated cross-agent sync, written back every closeout (blueprint §6). |
+| `NEXUS_BRIEF.md` | Curated cross-agent sync (blueprint §6), rewritten at closeout only when a figure, threshold, or cross-desk send or wait in it changed (WQ-719 A, 2026-11-18). |
 | `LESSONS.md` | Durable agent-level learning — **INDEX ONLY since 2026-08-27** (one hook per lesson; ~170 chars is an ADVISORY brevity target, not an enforced cap). **Not boot-read**, so a hook nobody greps is a lesson nobody applies. |
 | `analysis/LESSONS_ARCHIVE_2026-08.md` | **Full bodies of every lesson, verbatim.** Split from `LESSONS.md` 2026-08-27 (Will-directed) when it hit 64KB on 48 lines. MOVED, never deleted — grep by L-number or phrase. |
 | `workbook/KB.tsv` | Knowledge base (metals → macro linkages, sourced). **Permanent record.** |

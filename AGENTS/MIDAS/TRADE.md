@@ -27,7 +27,7 @@ Actual composite **4/4/1/4 = 13/20**, scored from the November 2 close, one shar
 
 ## Position context and hedge scope
 
-Last carried evidence: **GLD 25 shares, basis $9,390.78**, Will's October 22 capture/FORGE `ec5a7058b`, reported October 23. Quantity, current weight and "largest position" status have not been revalidated against the current broker book. No claim here that Will is flat; MIDAS's own no-book declaration is separate.
+Last carried evidence: **GLD 18 shares, basis $6,730.67**, `FORGE/STATUS.md` line 25 (Will's 11/10 captures, ANVIL `c4022901e8`; 11/18 capture reconcile shows the same 18), read 2026-11-18. Supersedes the 25 shares (10/22 capture, FORGE `ec5a7058b`) carried to 11/14. Quantity, current weight and "largest position" status have not been revalidated against the current broker book. No claim here that Will is flat; MIDAS's own no-book declaration is separate.
 
 Gold did not reliably hedge equity declines in the saved sample; **its hedge value for a bearish-option book is unestablished**. WQ-451's saved 120-session sample has GLD positive on 2/12 defined equity-stress days. The separate latest20 SPY-down-day diagnostic has 2/11 positive, and is not a regrade of WQ-451. Neither is a bearish-option book P&L test. The frozen October 23 letter retains its original wording; this current scope correction controls interpretation. LIQUIDATION is an instrument classification, not proof of forced selling, margin calls or individual seller motives.
 

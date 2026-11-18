@@ -1,0 +1,5640 @@
+PLATINUM QUARTERLY
+Q3 2026
+
+18th November 2026
+
+FOREWORD
+
+This Platinum Quarterly presents platinum supply and demand movements for the third quarter of 2026, an updated forecast for 
+2026f and a first outlook for 2027f. It also provides WPIC’s views on relevant issues and trends for investors considering exposure 
+to platinum as an investment asset, and an update on how we continue to meet investors’ needs through our product partnerships. 
+The Platinum Quarterly data and commentary (starting on page 5) are prepared independently for WPIC by Metals Focus.
+
+After three consecutive years of deficit, the platinum market is expected to move into a temporary surplus in 2026f before returning 
+to deficit in 2027f. This year’s surplus and the move back to a deficit next year largely reflect platinum investment demand trends. 
+Rising inflation expectations have led to a revised interest rate outlook, negatively impacting precious metals investor sentiment. 
+Investment activity is expected to pick up in 2027f, based on an assumption that tensions in the Middle East will ease, resulting in a 
+transitioning through a period of energy price linked inflation.
+
+2026 platinum market surplus deepens on investment outflows
+
+•  Total platinum supply is forecast to increase by 2% year-on-year to 7,366 koz in 2026f, with broadly stable mine supply (+1%) 
+
+complemented by 6% growth in recycling.
+
+•  Total platinum demand is expected to decline by 21% year-on-year to 6,898 koz in 2026f. Net disinvestment of 398 koz, driven 
+by ETF liquidations and exchange stock outflows, accounts for most of the decline, together with weaker jewellery demand.
+
+•  The  2026f  surplus  of  468  koz  is  203  koz  larger  than  the  265  koz  surplus  projected  in  our  previous  Platinum  Quarterly, 
+primarily  reflecting  a  315  koz  downgrade  to  investment  demand,  partly  offset  by  the  inclusion  of  newly  identified  platinum 
+electrical demand – specifically the demand from the crucibles that are used in the production of optical interconnect crystals  
+for datacentres.
+
+Platinum markets to return to a deficit in 2027
+
+•  Total  platinum  supply  is  forecast  to  increase  by  1%  year-on-year  to  7,418  koz  in  2027f,  as  5%  recycling  growth  offsets  a  
+
+1% decline in mine supply.
+
+•  Total  platinum  demand  is  forecast  to  increase  by  12%  year-on-year  to  7,696  koz  in  2027f,  led  by  a  911  koz  recovery  in  
+
+investment demand.
+
+•  The platinum market is forecast to return to a deficit of 279 koz in 2027f, reducing above ground stocks to 1,813 koz, equivalent 
+
+to less than three months of demand.
+
+Annual platinum supply-demand balance, koz, 2014-2027f
+
+1,454 
+
+675 
+
+899
+
+140 
+
+-145
+
+-762
+
+-355 
+
+-485 
+
+-810 
+
+468
+
+-279
+
+-813
+
+-1,113
+
+-1,547
+
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026f
+
+2027f
+
+Source: SFA (Oxford) 2014 – 2018, Metals Focus 2019 – 2027f
+
+© 2026 World Platinum Investment Council – WPIC ®. All rights reserved.
+
+Page 1 of 31
+
+The platinum investment case – fundamentals are robust but are taking a backseat to the macroeconomic overlay 
+
+Macroeconomic and macropolitical developments have been the biggest driver of value establishment in the precious metals complex 
+during 2026. Prior to the US midterms and following the Fed’s September rate hike, the market had priced in a December 2026 rate 
+hike and two further increases in 2027. These rate-increase expectations, together with US dollar appreciation, pushed the platinum 
+price below the US$1,500/oz support level, and gold and silver below their respective US$4,000/oz and US$50/oz support levels.
+
+The US midterm elections have now concluded with a strong shift towards the Democrats giving them control of both the House 
+and the Senate. The initial market response to the election result has been lower oil prices, declining bond yields and a weaker US 
+dollar. Market hopes that Democratic control of Congress would force an end to the Iran-US war are signalling some inflation relief 
+and potentially fewer Fed hikes in 2027. All three precious metals have rallied back above the aforementioned supports. 
+
+In the longer term, the precious metals complex’s response to the US midterms may not prove to be enduring should the conflict 
+continue to drag out and inflation and interest rate expectations remain elevated. Nevertheless, several themes remain compelling 
+components of a robust investment case for platinum. First, the political environment is likely to remain volatile. With the Democrats 
+controlling Congress, they have the power to block Republican policy decisions, although there is a risk that President Trump could 
+try to ignore  Congress and govern through executive orders. The ability to exercise blocks and force policy compromises  could 
+reduce volatility, which would be welcomed by the markets and likely be mildly positive for precious metals, whereas rule through 
+executive orders could reignite the credibility-linked debasement trade, which would likely be extremely positive for precious metals. 
+
+Second, differing opinions on how to address the fiscal backdrop could continue (i.e. the size of the federal deficit), fears around 
+which  have  on  occasion  been  supportive  of  precious  metal  investment  flows.  With  Republicans  unlikely  to  want  tax  hikes  and 
+Democrats unlikely to want spending cuts, we do not expect a near-term solution to large US deficits, which could bring debasement 
+back into play. Finally, the trend of physical stockpiling of critical metals is growing. The US and EU are actively trying to de-risk 
+supply chains for critical industries amidst elevated trade tensions, and this process is likely happening in other countries too. In 
+parallel to the stockpiling and physical asset security narrative, several countries have undertaken to re-domicile gold to domestic 
+or conceptually lower-risk jurisdictions, while the literal safe-haven reputation of precious metals has also been enhanced by the 
+US$6bn of bitcoin stolen by hackers in October (equivalent to around 120 tonnes or 3.9 Moz of platinum). 
+
+In addition to the overarching support for holding platinum as a precious metal, its investment case remains structurally underpinned 
+by supply and demand. That said, the 2026f platinum market surplus has been revised from 265 koz to 468 koz, primarily reflecting 
+weaker investment demand due to higher interest rates weighing on macroeconomic sentiment. Elsewhere, a downgrade to jewellery 
+demand has been more than offset by an upgrade to automotive demand and the inclusion of previously unreported sources of 
+demand linked to platinum crucibles used for optical crystals in AI technology. 
+
+Entering 2027f, platinum demand is expected to increase by 12% year-on-year to 7.7 Moz. Demand growth will be led by a 911 koz 
+year-on-year recovery in investment demand. First, ETF selling that occurred in 2026f due to declining platinum prices is expected 
+to slow. Second, the outflow of exchange stocks that occurred during 2026f due to easing US tariff concerns will not repeat itself 
+as NYMEX warehouse stocks of 252 koz as of 2 November 2026 are broadly in line with historic levels. Greater participation on 
+the GFEX is expected with a commensurate rise in stocks. Finally, total platinum bar and coin demand (incl. China large bars) is 
+expected to increase by 41% y/y in 2027f as mints increase output following the return of lease rates to low single-digit percentage 
+terms and supply of platinum investment products from buyback softens on stronger price levels.
+
+Beyond investment demand, 2027f will see industrial platinum demand growth partially offsetting declining automotive and jewellery 
+demand. Industrial platinum demand of 2,660 koz (+4% y/y) in 2027f is an all-time high within the WPIC data series and reflects 
+platinum’s versatile properties and uses across multiple end markets. In contrast to record industrial platinum demand, jewellery 
+demand of 1,710 koz is forecast to be the weakest in our time series dating back to 2013. Notably, China is now expected to be a 
+smaller market than each of India, the US, Europe and Japan, making any further downside in China less of a negative impact on 
+global jewellery volumes than it has been in the recent past. 
+
+Total platinum supply is forecast to increase by 1% year-on-year in 2027f as 5% growth in recycling offsets a 1% erosion of mine 
+supply. We expect 2027f to prove an instructive year for both mine supply and recycling. During the year, we will see whether new 
+supply  from  Ivanplats, Tharisa  and  Russian  Platinum  is  able  to  offset  the  longer-term  trend  of  supply  erosion  from  aging  South 
+African mines. Meanwhile, the economics of automotive recycling may again get tested (as in 2023 and 2024) with palladium prices 
+having dipped below US$1,000/oz.
+
+© 2026 World Platinum Investment Council – WPIC ®. All rights reserved.
+
+Page 2 of 31
+
+PLATINUM QUARTERLY Q3 2026With platinum  supply largely stable and demand recovering, platinum markets are forecast to record a 279 koz deficit in 2027f.  
+In 2025, platinum markets proved that prices do respond to tightening liquidity. Accordingly, when marrying platinum’s fundamentals 
+(which should see above ground stocks drawn on in 2027f) with the overarching themes supporting precious metals exposure, we 
+believe that more investors view the current dip in platinum prices as a compelling entry point to gain exposure to the metal.
+
+Platinum supply and demand update 
+
+A Q3 2026 deficit does not alter the 2026 surplus outlook 
+
+During Q3’26, the platinum market recorded a deficit of 110 koz, compared with a 193 koz surplus in Q2’26 and a 367 koz deficit 
+in Q3’25. Total platinum supply fell by 6% year-on-year to 1,693 koz, as a 20% decline in South African output, due to rescheduled 
+processing maintenance and safety stoppages, drove refined mine supply 12% lower. Recycling edged up by 1%, albeit the clear 
+slowdown in the pace of growth is showing up sequentially each quarter. Total demand fell by 17% year-on-year to 1,803 koz in 
+Q3’26. Investment demand was broadly neutral (-2 koz) compared with 305 koz in Q3’25. Jewellery (-17%) and automotive (-2%) 
+demand declined, although industrial demand rose by 6% year-on-year on stronger chemical, electrical and glass demand.
+
+Market trends during Q3’26 do not alter the expectation that the platinum market will record a surplus in 2026f, where the year-to-
+date surplus is 343 koz and the full-year surplus is projected to be 468 koz, equivalent to 7% of annual demand. In 2026f, total supply 
+is expected to increase by 2% year-on-year as broadly stable mine supply (+1%) is complemented by higher recycling supply (+6%). 
+Platinum demand is forecast to decline by 21% year-on-year in 2026f, principally due to net disinvestment of 398 koz from ETF 
+liquidations (-490 koz) and exchange stock outflows (-300 koz). Jewellery demand is forecast to fall by 20%, on collapsing Chinese 
+fabrication, while industrial demand rises by 9% on strong glass (+30%) and electrical (+35%) demand. 
+
+Annual total supply and changes 2025 to 2027f (koz)
+
+7,231
+
+41
+
+-32
+
+94
+
+7,366
+
+83
+
+7,418
+
+2025
+
+Total mining supply
+
+Recycling
+
+2026f
+
+Total mining supply
+
+Recycling
+
+2027f
+
+Source: Metals Focus prepared for World Platinum Investment Council
+
+Annual total demand and changes 2025 to 2027f (koz)
+
+8,777
+
+-90
+
+204
+
+-443
+
+911
+
+7,696
+
+6,898
+
+-1,550
+
+-151
+
+-61
+
+99
+
+7,500
+
+7,300
+
+7,100
+
+6,900
+
+6,700
+
+6,500
+
+9,000
+
+8,500
+
+8,000
+
+7,500
+
+7,000
+
+6,500
+
+6,000
+
+2025
+
+Automotive
+
+Jewellery
+
+Industrial
+
+Investment
+
+2026f
+
+Automotive
+
+Jewellery
+
+Industrial
+
+Investment
+
+2027f
+
+Source: Metals Focus prepared for World Platinum Investment Council
+
+© 2026 World Platinum Investment Council – WPIC ®. All rights reserved.
+
+Page 3 of 31
+
+PLATINUM QUARTERLY Q3 2026A first 2027 outlook sees the platinum market return to deficit
+
+Mine supply is expected to record a minor 1% year-on-year decline in 2027f to 5,571 koz as South African production faces some 
+erosion across ageing mines. Notably, Zimbabwean output rises by 6% to a new record on the drawdown of semi-finished inventory at 
+Zimplats. Recycling supply is forecast to increase by 5% year-on-year in 2027f, helping total platinum supply to rise by 1% year-on-year 
+to 7,418 koz, as a 1% decline in mine supply is offset by an increase in spent autocatalyst availability.
+
+Total platinum demand will increase by 12% year-on-year in 2027f, largely due to an effective 911 koz recovery in investment demand 
+to 513 koz. Bar and coin demand is forecast to rise by 55% to 448 koz and exchange stocks are expected to build by 110 koz, while 
+ETF outflows slow to 150 koz. Industrial demand is expected to grow by 4% to 2,660 koz, as a 29% increase in chemical demand and 
+a 30% rebound in petroleum demand more than offset lower glass (-11%) and electrical (-35%) demand. Automotive demand will erode 
+by 5% in 2027f due to ongoing drivetrain electrification and some substitution from platinum to palladium. In aggregate, investment-led 
+demand growth outpaces a modest uptick in supply, moving platinum markets back into a 279 koz deficit in 2027f, with above ground 
+stocks declining by 13% to 1,813 koz.
+
+WPIC initiatives highlights
+
+We continue to work with WPIC’s wide and growing global network of product partners to identify appropriate strategies to increase 
+investment in platinum. Product partner sales in Q3’26 improved on Q2’26 but remained well down on the strong first quarter of the 
+year with the macroeconomic overlay, the dominant global influence. 
+
+In Q3’26 our partners in Europe and North America saw an increase of over 10% in net product sales over the weak Q2’26 yet 
+were still heavily down on Q3’25. Gross platinum bar and coin demand remained strong but was largely satisfied from the buyback 
+of secondary product. We increased the data, research and insights provided to our partners as more investors are interested in 
+owning platinum, particularly as the macroeconomic-driven price pullback occurred.
+
+In China our product partners saw a pleasing increase in quarter-on-quarter platinum product sales of over 15%, despite remaining 
+over 30% down year-on-year on subdued consumer confidence and the VAT change introduced last year. Despite volumes remaining 
+lower than in 2025, underlying interest in precious metals remains resilient, with many buyers adopting a wait-and-see approach 
+pending more favourable market conditions.
+
+WPIC continues to work with partners in China to strengthen distribution channels and expand the range of platinum investment 
+products. The 2026 Beijing International Coin Expo highlighted further progress, including the China Gold Coin Group’s launch of 
+its Year of the Goat platinum bar, an increase in the 100g Platinum Panda Coin mintage to 10,000 pieces for 2027 against 2,000 for 
+2026, and the introduction of a fixed Yuan margin that ensures an attractive retail price despite market price volatility – appealing to 
+retail bullion investors.
+
+In Japan, our partners experienced net selling in Q3’26, on weaker price and consumer sentiment. WPIC continued its active market 
+engagement efforts, including at JBMA’s annual conference in November, sharing insights into platinum market developments with 
+approximately 250 attendees, helping to strengthen market awareness and investor understanding.
+
+In  Singapore,  Oversea-Chinese  Banking  Corporation  Limited  (OCBC)’s  launch  of  a  platinum  trading  product  in August  marked 
+an important step in expanding access to platinum through mainstream banking channels, broadening investor participation and 
+supporting the further development of the regional platinum investment market.
+
+Platinum  lease  rates  remained  stable  in  Q3’26  and  have  increased  appetite  for  minting  new  products  which  should  help  meet 
+demand and increase net sales during the rest of 2026 and into 2027.
+
+Trevor Raymond, CEO
+
+Contents
+
+Foreword 
+Summary Table (koz) 
+Third Quarter 2026 Review 
+
+1 
+5 
+6
+
+2026 Outlook 
+2027 Outlook 
+Expanded Tables 
+
+Glossary of Terms 
+Copyright and Disclaimer 
+
+27 
+31
+
+11 
+18 
+21 
+
+© 2026 World Platinum Investment Council – WPIC ®. All rights reserved.
+
+Page 4 of 31
+
+PLATINUM QUARTERLY Q3 2026Table 1: Supply, demand and above ground stock summary (this data is repeated in tonnes in Table 7 on page 26) 
+
+2023
+
+2024
+
+2025
+
+2026f
+
+2027f
+
+2026f/2025 
+Growth %
+
+2027f/2026f 
+Growth %
+
+Q2 2026
+
+Q3 2026
+
+Platinum Supply-demand Balance (koz)
+
+SUPPLY
+
+Refined Production
+
+South Africa
+
+Zimbabwe
+
+North America
+
+Russia
+
+Other
+
+Increase (-)/Decrease (+) in Producer Inventory
+
+5,606
+
+3,957
+
+5,777
+
+4,133
+
+5,557
+
+3,957
+
+5,602
+
+4,073
+
+5,571
+
+4,014
+
+507
+
+278
+
+674
+
+190
+
++14
+
+512
+
+265
+
+677
+
+191
+
++10
+
+515
+
+212
+
+677
+
+196
+
++4
+
+499
+
+193
+
+646
+
+192
+
++0
+
+526
+
+194
+
+644
+
+192
+
++0
+
+Total Mining Supply
+
+ 5,620 
+
+ 5,787 
+
+ 5,561 
+
+ 5,602 
+
+ 5,571 
+
+Recycling
+
+Total Supply
+
+DEMAND
+
+Automotive
+
+Jewellery
+
+Industrial
+
+Autocatalyst
+
+Jewellery
+
+Industrial
+
+1,515
+
+1,114
+
+331
+
+71
+
+1,536
+
+1,163
+
+298
+
+76
+
+1,669
+
+1,232
+
+356
+
+81
+
+1,764
+
+1,393
+
+282
+
+89
+
+1,847
+
+1,465
+
+285
+
+96
+
+7,135
+
+7,323
+
+7,231
+
+7,366
+
+7,418
+
+Autocatalyst
+
+Non-road
+
+3,217
+
+3,217
+
+†
+
+3,121
+
+3,121
+
+†
+
+3,054
+
+3,054
+
+†
+
+2,964
+
+2,964
+
+†
+
+2,813
+
+2,813
+
+†
+
+ 1,849 
+
+ 2,008 
+
+ 2,214 
+
+ 1,771 
+
+ 1,710 
+
+-20%
+
+Chemical
+
+Petroleum
+
+Electrical
+
+Glass
+
+Medical
+
+Hydrogen Stationary and Other
+
+Other
+
+Investment
+
+ Change in Bars, Coins
+
+China Bars ≥ 500g
+
+Change in ETF Holdings
+
+Change in Stocks Held by Exchanges
+
+Total Demand
+
+Balance
+
+2,494
+
+2,593
+
+2,358
+
+2,561
+
+2,660
+
+829
+
+160
+
+103
+
+491
+
+292
+
+23
+
+595
+
+388 
+
+314 
+
+134 
+
+-74
+
+14 
+
+645
+
+159
+
+110
+
+739
+
+308
+
+40
+
+592
+
+713 
+
+205 
+
+162 
+
+296 
+
+50 
+
+563
+
+182
+
+208
+
+430
+
+321
+
+71
+
+583
+
+613
+
+132
+
+280
+
+557
+
+331
+
+77
+
+571
+
+1,152 
+
+-398
+
+402 
+
+165 
+
+200 
+
+384 
+
+290 
+
+103 
+
+-490
+
+-300
+
+792
+
+171
+
+183
+
+497
+
+342
+
+115
+
+560
+
+513 
+
+448 
+
+105 
+
+-150
+
+110 
+
+7,948
+
+8,436
+
+8,777
+
+6,898
+
+7,696
+
+-813
+
+-1,113
+
+-1,547
+
+468 
+
+-279
+
+Above Ground Stocks
+
+4,283**
+
+3,170
+
+1,624
+
+2,092
+
+1,813
+
+Source: Metals Focus 2023 - 2027f. 
+
+Notes:
+
+1.  **Above Ground Stocks: 3,650 koz as of 31 December 2018 (Metals Focus).
+
+2.  † Non-road automotive demand is included in autocatalyst demand.
+
+1%
+
+3%
+
+-3%
+
+-9%
+
+-5%
+
+-2%
+
+-100%
+
+1%
+
+6%
+
+13%
+
+-21%
+
+9%
+
+2%
+
+-3%
+
+-3%
+
+N/A
+
+9%
+
+9%
+
+-28%
+
+35%
+
+30%
+
+3%
+
+8%
+
+-2%
+
+N/A
+
+-28%
+
+-38%
+
+N/A
+
+N/A
+
+-21%
+
+N/A
+
+29%
+
+-1%
+
+-1%
+
+6%
+
+1%
+
+0%
+
+0%
+
+N/A
+
+-1%
+
+5%
+
+5%
+
+1%
+
+9%
+
+1%
+
+-5%
+
+-5%
+
+N/A
+
+-3%
+
+4%
+
+29%
+
+30%
+
+-35%
+
+-11%
+
+3%
+
+49%
+
+-2%
+
+N/A
+
+55%
+
+2%
+
+N/A
+
+N/A
+
+12%
+
+N/A
+
+-13%
+
+1,498
+
+1,108
+
+151
+
+45
+
+148
+
+47
+
+-39
+
+1,240
+
+827
+
+113
+
+51
+
+199
+
+50
+
++36
+
+1,459
+
+1,276
+
+ 462 
+
+ 371 
+
+ 68 
+
+ 23 
+
+ 418 
+
+ 334 
+
+ 62 
+
+ 21 
+
+1,921
+
+1,693
+
+ 758 
+
+ 758 
+
+†
+
+ 456 
+
+ 639 
+
+138
+
+31
+
+69
+
+156
+
+83
+
+19
+
+141
+
+-125
+
+37 
+
+21 
+
+-234
+
+50 
+
+1,728
+
+ 714 
+
+ 714 
+
+†
+
+ 410 
+
+ 681 
+
+182
+
+33
+
+72
+
+153
+
+83
+
+19
+
+139
+
+-2
+
+40 
+
+18 
+
+47 
+
+-106
+
+1,803
+
+193
+
+-110
+
+3.  All estimates are based on the latest available information, but they are subject to revision in subsequent quarterly reports.
+
+4.  The WPIC did not publish quarterly estimates for 2013 or the first two quarters of 2014. However, quarterly estimates from Q3’14 to Q2’24 are contained  
+
+in previously published PQs which are freely available on the WPIC website.
+
+5.  Quarterly estimates from Q3’24 and half-yearly estimates from H1’24 are included in Tables 3 and 4 respectively, on pages 22 and 23 
+
+(supply, demand and above ground stocks).
+
+6.  Details of regional recycling supply in Table 6 on page 25 are only published from 2019.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 5 of 31
+
+PLATINUM QUARTERLY Q3 2026 
+ 
+2026 THIRD QUARTER PLATINUM MARKET REVIEW
+
+The  third  quarter  unfolded  against  continued  macroeconomic  and  geopolitical  uncertainty,  with  Middle  East  tensions  sustaining 
+energy market volatility and inflation concerns. Platinum prices were weaker quarter-on-quarter but remained well up compared  
+to Q3’25.
+
+Against this backdrop, the platinum market recorded a deficit of 110 koz in Q3’26, compared with a surplus of 193 koz in the previous 
+quarter and a deficit of 367 koz a year earlier. Total supply declined by 6% year-on-year to 1,693 koz, reflecting lower South African 
+mine production, partly offset by higher recycling volumes. Total demand fell by 17% to 1,803 koz, driven by weaker automotive 
+and  jewellery  consumption  and  substantially  lower  net  investment  demand.  Industrial  consumption,  however,  increased  by  6%, 
+supported by growth in chemical, electrical and glass applications.
+
+Chart 1: Supply-demand balance, koz, Q3 2026 
+
+-110
+
+1,803
+
+1,693
+
+Total Supply
+
+Balance
+
+Total Demand
+
+Source: Metals Focus prepared for World Platinum Investment Council
+
+Supply
+
+Global refined mine supply fell 12% year-on-year to 1,240 koz in Q3’26, its lowest level since Q1’25, as lower production from South 
+Africa and Zimbabwe more than offset increases in Russia and North America.
+
+South African output declined 20% to 827 koz, primarily reflecting lower refined volumes from Valterra Platinum. The rescheduling 
+of processing maintenance and annual stock counts from the first to the third quarter reversed the benefit recorded earlier in the 
+year. Valterra’s refined PGM production consequently fell, although processing operations returned to normal operating rates during 
+September. Own-mined production also declined, as safety stoppages at Amandelbult and lower milling throughput at Mogalakwena 
+outweighed growth at Mototolo. At Implats, scheduled processing maintenance and safety stoppages reduced smelter throughput, 
+leading to a renewed build in excess semi-finished inventory. Mining activity was also affected by safety stoppages at Rustenburg 
+and Marula. Elsewhere, Phase 1 output at Ivanhoe’s Platreef mine increased quarter-on-quarter, although its contribution to Q3’26 
+remained modest. The concentrator continued to batch process lower-grade development ore, while underground materials handling 
+and tailings filtration bottlenecks constrained the ramp-up.
+
+Zimbabwean supply declined 10% year-on-year to 113 koz. Planned furnace maintenance at Zimplats began in September, resulting 
+in lower smelter output. At Unki, lower grades and planned plant maintenance reduced mined production, while Mimosa was affected 
+by power interruptions, concentrator maintenance and lower grades.
+
+Russian  production  increased  28%  year-on-year  to  199  koz,  recovering  after  weaker  output  during  the  first  half.  Nornickel  also 
+completed commissioning work to consolidate precious metals processing at its Kola site.
+
+North American supply is estimated to have increased 2% year-on-year to 51 koz, as higher Canadian by-product output offset 
+disruption  to  US  mining.  Vale’s  platinum  production  rose,  supported  by  improved  smelting  performance  at  Sudbury  following  
+second-quarter maintenance. US mining activity was disrupted by a strike lasting around five weeks at Sibanye-Stillwater’s Stillwater 
+East mine.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 6 of 31
+
+PLATINUM QUARTERLY Q3 2026Recycling
+
+Global platinum recycling edged higher by 1% year-on-year (+4 koz) to 418 koz in Q3’26, as growth in autocatalyst recycling was 
+largely offset by weaker jewellery recycling. However, total recycling declined by 10% quarter-on-quarter.
+
+Autocatalyst recycling increased by 9% year-on-year (+28 koz) to 334 koz, although volumes fell by 10% quarter-on-quarter. Despite 
+higher PGM prices year-on-year, recycling flows slowed during Q3’26, with average PGM prices declining by between 6% and 10% 
+quarter-on-quarter following stronger prices in H1’26. This discouraged the release of scrap into the recycling pipeline. Recyclers 
+also reported a deterioration in incoming material quality, including a growing proportion of silicon carbide autocatalyst substrates, 
+which complicated processing and affected recovery yields. Regionally, North America and Europe recorded year-on-year increases 
+of 13% and 10%, respectively, although both experienced weaker volumes quarter-on-quarter.
+
+Jewellery recycling fell by 27% year-on-year and 9% quarter-on-quarter to just 62 koz, largely reflecting weaker activity in China, 
+where  volumes  declined  by  43%  year-on-year  to  34  koz.  Softer  platinum  prices  during  the  quarter  and  subdued  local  jewellery 
+demand weighed on recycling activity. Although more showrooms and manufacturers shifted away from platinum, this did not trigger 
+widespread scrapping of existing inventories. Instead, proceeds from routine platinum sales were increasingly redirected towards 
+building gold inventories rather than replenishing platinum stocks. Electronics recycling remained broadly unchanged year-on-year 
+at 21 koz, although volumes declined by 9% quarter-on-quarter.
+
+Chart 2: Platinum supply, koz
+
+4
+1
+4
+,
+1
+
+0
+4
+2
+,
+1
+
+1
+0
+8
+,
+1
+
+3
+9
+6
+,
+1
+
+6
+2
+-
+
+6
+3
+
+3
+1
+4
+
+8
+1
+4
+
+Refined production
+
+Producer inventory
+
+Recycling
+
+Total
+
+Q3 2025
+
+Q4 2025
+
+Q1 2026
+
+Q2 2026
+
+Q3  2026
+
+Source: Metals Focus prepared for World Platinum Investment Council
+
+Demand
+
+Global platinum demand fell 17% year-on-year to 1,803 koz in Q3’26. Weaker jewellery demand and a substantial drawdown of 
+exchange-held stocks weighed on demand during the quarter, partly offset by gains in industrial demand. 
+
+Chart 3: Platinum demand, koz
+
+9
+6
+1
+2
+
+,
+
+3
+0
+8
+1
+
+,
+
+9
+2
+7
+
+4
+1
+7
+
+2
+9
+4
+
+0
+1
+4
+
+3
+4
+6
+
+1
+8
+6
+
+5
+0
+3
+
+2
+-
+
+Automotive
+
+Jewellery
+
+Q3 2025
+
+Q4 2025
+
+Q1 2026
+
+Q2 2026
+
+Source: Metals Focus prepared for World Platinum Investment Council
+
+Industrial
+
+Q3 2026
+
+Investment
+
+Total
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 7 of 31
+
+PLATINUM QUARTERLY Q3 2026Automotive demand
+
+Global  automotive  platinum  demand  fell  by  2%  (-15  koz)  year-on-year  to  714  koz  in  Q3’26.  This  reflected  a  2%  drop  in  global  
+light-duty vehicle (LDV) production to 22.6m units, which was driven by an 11% decline in internal combustion engine (ICE) vehicle 
+production. Only a handful of countries such as India, Brazil and Russia recorded production increases, failing to offset the declines 
+elsewhere. Hybrid vehicle (HEV, PHEV, EREV) production increased by 7%, insufficient to offset the decline in platinum demand 
+from lower ICE output, while battery electric vehicle (BEV) production maintained its upward trajectory, rising by 17%.
+
+In Europe, automotive platinum demand fell by 8% (-18 koz) year-on-year to 199 koz, outpacing the 4% decline in light vehicle 
+production.  This  largely  reflected  a  sharper  contraction  in  diesel  vehicle  production,  which  carries  significantly  higher  platinum 
+loadings than gasoline vehicles. Heavy-duty ICE vehicle production declined by 1%. Meanwhile, catalysed non-road vehicle (NRV) 
+output  rose  by  10%,  while  BEV  production  increased  across  all  vehicle  segments.  North  American  demand  increased  by  9%  
+(+11 koz) to 126 koz as ICE LDV production edged down, but hybrid output rose by 13%. BEV production weakened further despite 
+the  reintroduction  of  California’s  MyFirstEV  incentive  in August.  ICE  heavy-duty  vehicle  (HDV)  output  jumped  by  44%  in  Q3’26. 
+Higher ICE and fuel-cell electric vehicle (FCEV) non-road output further supported demand, despite BEVs gaining market share in 
+this segment.
+
+In Japan, automotive platinum demand fell by 13% (-9 koz) year-on-year to 64 koz. Growth in light-duty hybrid production, alongside 
+increased catalysed and fuel-cell NRVs, was insufficient to offset the contraction in pure-ICE LDV production. Meanwhile, BEVs 
+continued to gain market share, supported by the Clean Energy Vehicle (CEV) purchase incentives. 
+
+In China, automotive platinum demand fell by 9% (-11 koz) year-on-year to 115 koz, driven by weaker catalysed LDV and HDV 
+production, which declined by 17% and 8%, respectively. This reflected subdued domestic vehicle sales following the reduction of 
+incentives and amid weak consumer confidence. However, growing exports across all powertrain types helped cushion the decline 
+in vehicle production, limiting further downside to platinum demand.
+
+Automotive platinum demand in Rest of World increased by 6% (+12 koz) year-on-year to 209 koz in Q3’26, with India accounting 
+for the largest share of the growth. India bucked the broader trend, supported by GST-led improvements in vehicle affordability, 
+resilient rural demand, stronger SUV sales and improving financing conditions, alongside pre-festive season stocking. Across the 
+region, sustained growth in ICE and hybrid vehicle production, alongside increased heavy-duty FCEV output, supported platinum 
+demand despite rising BEV penetration.
+
+Jewellery demand
+
+Global  platinum  jewellery  demand  fell  by  17%  during  the  quarter  with  three  of  the  major  markets  recording  lower  fabrication. 
+Following a strong start to 2026, Swiss platinum watch hallmarking declined by 2% year-on-year and 10% quarter-on-quarter in 
+Q3’26,  marking  a  second  consecutive  quarterly  decline.  Gold  watch  hallmarking,  meanwhile,  fell  by  10%  year-on-year  over  the 
+same period. For the first nine months of 2026, platinum watch hallmarking was down 5% year-on-year, albeit against a record-high 
+base in 2025. UK jewellery hallmarking in Q3’26 was also down by 20%, while German and Italian fabrication is estimated to have 
+contracted by 6% and 10% respectively, driven chiefly by reducing fine weight demand due to higher prices. This left Europe as a 
+whole down by 8% versus Q3’25. In North America, platinum jewellery fabrication is estimated to have grown by 3% year-on-year, a 
+second consecutive quarter of growth, though slowing from the 5% growth in Q2’26, as platinum jewellery continues to outperform 
+gold, despite the latter metal’s far larger market share.
+
+Japanese jewellery fabrication fell by 25% in Q3. Higher prices were the main culprit – although the yen-denominated platinum 
+price has been trending downwards since its January peak, its average over the period was roughly one-third higher year-on-year. 
+Anecdotally, we understand that wedding and daily wear jewellery is benefitting from platinum’s discount to gold and that appetite 
+for jewellery in the Japanese market in general remains healthy, with turnover in value terms holding up.
+
+Weakness in Chinese platinum jewellery fabrication persisted in Q3’26, with volumes down 52% year-on-year and 13% quarter-on-
+quarter, the weakest quarter in our series. Impaired consumer sentiment continued to weigh on China’s overall jewellery market. 
+In  addition,  rising  competition  from  gold  jewellery  added  a  further  headwind.  Leading  retailers’  strong  product  innovation  and 
+promotional efforts, along with more attractive gold prices, refuelled local consumers’ interest in gold jewellery. We continued to see 
+manufacturers and showrooms shifting capital investment from platinum to gold jewellery, feeding a vicious cycle.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 8 of 31
+
+PLATINUM QUARTERLY Q3 2026By contrast, in Q3’26, Indian platinum jewellery fabrication rose by 4% year-on-year to 55 koz, marking a modest recovery after two 
+consecutive quarters of decline. However, underlying demand remained subdued as elevated precious metal prices weighed on 
+discretionary spending. Exports also remained weak amid sluggish overseas demand and continued US tariff uncertainty. Meanwhile, 
+stock building increased as large retailers expanded their store networks and allocated a greater share of inventories to platinum. In 
+terms of products, retailers reported somewhat better demand for lightweight products and machine-made chains, particularly in the 
+US$1,500 price segment. Bimetal jewellery also remained popular, with the proportion of gold in these designs continuing to decline. 
+Some retailers offered higher exchange values for old gold towards platinum jewellery purchases to encourage sales. The onset of 
+the wedding and festive season has provided some support, although overall retail demand remains relatively flat.
+
+Industrial demand
+
+Industrial  platinum  demand  increased  by  6%  year-on-year  and  7%  quarter-on-quarter  to  681  koz  in  Q3’26,  driven  by  stronger 
+chemical demand, with additional support from electrical applications.
+
+Petroleum
+
+Platinum  petroleum  offtake  partially  recovered  by  5%  quarter-on-quarter  in  Q3’26,  although  demand  remained  28%  below  the 
+previous year’s level. The modest quarterly rise reflected some improvement in refinery operations following the severe disruptions 
+experienced in Q2, although the lingering effects of the US-Iran conflict continued to weigh on Middle Eastern crude supply and 
+refining activity. Meanwhile, ongoing attacks on Russian refining infrastructure added further uncertainty to global output given this 
+region’s  significant  share.  Elsewhere,  exceptionally  strong  refining  margins  encouraged  US  refiners  to  maintain  historically  high 
+utilisation rates, with Energy Information Administration data showing that refinery runs between May and September reached their 
+highest levels since 1998. While this supported refinery throughput, it also provided an incentive to defer non-essential maintenance 
+and catalyst replacement activity, limiting the recovery in platinum demand.
+
+While there was no material change in platinum demand from sustainable aviation fuel (SAF) production during Q3, several project 
+developments during the quarter are expected to shape future demand. Notably, in August, SkyNRG marked the start of construction 
+of  its  100,000t  SAF  facility  in  Delfzijl,  the  Netherlands,  with  production  expected  to  commence  in  2028.  Meanwhile,  some  SAF 
+projects have faced cancellations or delays, particularly in the US, Brazil and Indonesia, though the broader project pipeline remains 
+active, supporting further capacity expansion and potential platinum demand growth over the medium to long term.
+
+Chemical
+
+Platinum chemical demand recovered in Q3’26, rising by 15% year-on-year and 31% quarter-on-quarter to its highest quarterly level 
+since Q1’24. The increase was driven by improving demand from the Chinese petrochemical industry. Following a period with no 
+new capacity additions, Q3’26 saw progress on new paraxylene (PX) projects in mainland China. In August, a major petrochemical 
+complex in northeastern China, incorporating 2 Mt of PX capacity, achieved mechanical completion across 32 processing units. The 
+project received its first crude oil shipment in early October, bringing it closer to starting up. Silicone demand also strengthened, 
+supported by growth in consumer, electronics and home care applications. By contrast, demand from the fertiliser industry declined 
+year-on-year, reflecting ongoing supply disruptions associated with the closure of the Strait of Hormuz.
+
+Medical
+
+In Q3’26, platinum medical demand increased by 3% year-on-year to 83 koz. Medical device growth remained a key driver, while 
+shortages of platinum-based chemotherapy drugs constrained oncology demand. In India, elevated platinum costs and government-
+regulated drug prices prompted manufacturers to curtail cisplatin and carboplatin production, contributing to shortages that persisted 
+into Q3’26 despite a 50% increase in regulated prices in June. In the US, carboplatin shortages reflected product discontinuations 
+by some pharmaceutical manufacturers placing increased pressure on remaining manufacturers unable to deliver against growing 
+demand. Separately, dental demand declined as non-metal restorations continued to gain market share.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 9 of 31
+
+PLATINUM QUARTERLY Q3 2026Glass
+
+Platinum glass demand increased by 5% year-on-year to 153 koz in Q3’26, although offtake moderated by 3% quarter-on-quarter. 
+The latter coincided with further production rationalisation in North America, reflecting mounting competitive pressure from Chinese 
+manufacturers in traditional reinforcement and E-glass applications, despite US trade measures affecting certain Chinese fibreglass 
+products. Nevertheless, continued investment in higher-specification electronic glass fibres used in printed circuit boards (PCBs) 
+for  AI  servers  and  semiconductor-based  systems  supporting  datacentre  infrastructure  underpinned  annual  growth.  Meanwhile, 
+emerging investment in specialist glass fibres offering greater thermal and chemical resistance suggests some Western producers 
+may increasingly seek to differentiate through product innovation rather than compete directly on scale.
+
+Electrical
+
+Electronics  demand  rose  by  33%  year-on-year  (+18  koz)  to  72  koz  in  Q3’26,  traditionally  a  peak  quarter  for  the  sector.  The 
+largest  contributor  to  growth  was  demand  for  platinum  crucibles  used  in  crystal  growth,  driven  by  capacity  expansion  in  optical 
+communications  packaging  to  support AI  datacentre  investment.  Higher  HDD  output  and  an  increasing  share  of  mass-capacity 
+HDDs  provided  a  further  boost  to  platinum  demand  through  greater  consumption  of  sputtering  targets.  While  AI  infrastructure 
+investment continues to support underlying demand, platinum crucible purchases are concentrated around new capacity additions, 
+making quarterly consumption sensitive to the timing of facility commissioning.
+
+Hydrogen Stationary and Other
+
+Hydrogen-related  platinum  demand  outside  road  transport  increased  by  15%  year-on-year  to  19  koz  in  Q3’26,  while  remaining 
+broadly stable quarter-on-quarter. Growth continued at a more measured pace than initially anticipated, following particularly strong 
+equipment deliveries and project commissioning in 2025. Nevertheless, commercial momentum remained evident, with Plug Power 
+securing a 50 MW electrolyser order in Australia, while Thyssenkrupp Nucera reported stronger order intake. Chinese manufacturers 
+also continued to expand internationally, including Sungrow’s 21 MW proton exchange membrane (PEM) electrolyser contract in 
+Poland. Although project delays continued to constrain deployment, the steady level of activity suggests that underlying demand 
+remains resilient, with new orders supporting future growth.
+
+Other
+
+Other industrial demand declined by 3% year-on-year to 139 koz (-4 koz) in Q3’26, primarily due to weaker automotive applications. 
+Platinum consumption in spark plugs fell on the back of lower ICE vehicle production and subdued aftermarket replacement demand. 
+Continued  substitution  towards  higher-performance  iridium-  and  ruthenium-based  electrodes  added  to  the  decline.  Aerospace 
+applications provided a partial offset, with platinum demand rising across uses including turbine blades, fuel nozzles and ozone 
+catalytic converters. Following further industry research, we have marginally lowered the platinum loading and penetration rates in 
+oxygen sensors.
+
+Investment demand
+
+Global bar and coin demand more than halved year-on-year (-42 koz) during Q3’26, falling to just 40 koz, the lowest third quarter 
+total in at least nine years. The decline was broad-based, led by continued disinvestment in Japan, alongside lower demand in China 
+and the Rest of the World. 
+
+Looking first at the US, retail demand is estimated to have fallen by 9% (-1 koz) to 13 koz. The decline may look modest, but this 
+compares with a particularly weak Q3’25. In terms of this year, the losses reflect the overall weakness in North American bar and 
+coin demand. That said, the losses were far more acute for gold and silver, with both markets having to contend with ongoing retail 
+liquidations, a feature that was less prevalent for platinum.
+
+In China, bar and coin investment fell by 27% year-on-year and edged slightly lower quarter-on-quarter to 29 koz. Overall investment 
+sentiment toward precious metals was cautious in the quarter. Platinum’s continued high volatility and range-bound prices further 
+weighed on investor sentiment. 
+
+The lacklustre performance of the local platinum price put pressure on demand for bars and coins in the Japanese market. The 
+market went into net disinvestment, however perhaps the more interesting development we saw in the country was the collapse in 
+turnover – both sales and purchases. Volumes were a fraction of those seen late last year and in early 2026 and at a multi-year low.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 10 of 31
+
+PLATINUM QUARTERLY Q3 2026Chart 4: Platinum Investment, koz
+
+358
+
+278
+
+118
+
+105
+
+49
+
+-18
+
+82
+
+34
+
+-169
+
+400
+
+300
+
+200
+
+100
+
+0
+
+-100
+
+-200
+
+-300
+
+-400
+
+44
+
+37
+
+50
+
+21
+
+40
+
+47
+
+18
+
+-117
+
+-300
+
+-234
+
+-106
+
+Q3 2025
+
+Q4 2025
+
+Q1 2026
+
+Q2 2026
+
+Q3 2026
+
+Bars and coins
+
+ETFs
+
+Exchange stocks
+
+China Bars ≥ 500g 
+
+Source: Metals Focus prepared for World Platinum Investment Council
+
+In Europe, bar and coin investment weakened further in Q3’26 from an already subdued level in Q2, declining by 21% quarter-
+on-quarter and 38% year-on-year to its lowest level since Q4’23. Extending the trend seen in the previous quarter, this weakness 
+reflected waning investor interest across the broader precious metals complex, as the retreat in prices from earlier highs weighed 
+on sentiment. Although prices recovered during the quarter, the gains were insufficient to rekindle investor appetite or generate a 
+meaningful rebound in fresh investment demand.
+
+Platinum investment demand in India weakened sharply in Q3’26 as the strong momentum seen since H2’25 faded. This reflected 
+a  broader  slowdown  in  precious  metals  investment,  with  demand  for  gold  and  silver  bars  and  coins  also  weakening.  Investor 
+buying slowed considerably despite greater availability of locally manufactured products and improving consumer awareness. This 
+weakness persisted even as equity market volatility and geopolitical uncertainty continued. As a result, jewellers slowed their shift 
+towards investment products. Bullion dealers, refineries and newly established platinum coin and bar manufacturers also reported 
+weaker offtake. 
+
+Following a steep drop in Q2’26, investment demand in Australia collapsed in Q3. Sentiment towards precious metals has been 
+negatively impacted as cost-of-living concerns have emerged amid high inflation and rising interest rates.
+
+Platinum  exchange-traded  fund  (ETF)  holdings  recorded  net  inflows  of  47  koz  in  Q3’26,  reversing  two  consecutive  quarters  of 
+substantial liquidations. North America accounted for the partial recovery, with holdings increasing by 58 koz, compared with outflows 
+of 147 koz in Q2. European holdings edged higher by 3 koz, while South African liquidations slowed considerably, with outflows of  
+7 koz. Japanese holdings declined by a further 7 koz, although selling also moderated compared with the previous quarter. Globally, 
+inflows were concentrated in July and August, before renewed profit-taking in September resulted in net outflows of 32 koz.
+
+2026 OUTLOOK
+
+Developments during 2026 have materially altered the platinum market outlook. Substantial investor disinvestment, weaker jewellery 
+fabrication and declining automotive consumption now point to the first annual surplus since 2022. ETF liquidations and exchange-
+stock outflows contrast with substantial accumulations in 2025. 
+
+The platinum market is forecast to record a surplus of 468 koz in 2026. Total supply is expected to increase by 2% to 7,366 koz, 
+with mine production broadly stable and recycling rising by 6%. Total demand is forecast to decline sharply by 21% to 6,898 koz to a  
+four-year  low,  driven  primarily  by  net  disinvestment  of  398  koz.  Jewellery  fabrication  is  projected  to  fall  by  20%  and  automotive 
+demand by 3%, while industrial consumption increases by 9%.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 11 of 31
+
+PLATINUM QUARTERLY Q3 2026Supply 
+
+Global platinum mine supply is forecast to increase 1% year-on-year to 5,602 koz in 2026, as gains from South Africa more than 
+offset declines elsewhere. 
+
+South  African  supply  is  expected  to  rise  3%  to  4,073  koz  in  2026.  The  strong  first-half  performance  reflected  the  recovery  at 
+Amandelbult following the 2025 flooding, the release of semi-finished inventory and the rescheduling of processing maintenance 
+into  the  second  half.  This  maintenance  subsequently  reduced  Valterra’s  third-quarter  refined  output,  while  safety  stoppages 
+affected mining at Amandelbult. Valterra’s processing operations returned to normal operating rates in September. At Implats, the 
+four-day safety reset at Rustenburg in July resulted in approximately 26 koz of lost production. Subsequent safety stoppages at 
+Rustenburg  and  Marula  further  constrained  mining,  while  the August  stoppage  at  Rustenburg’s  processing  operations  reduced 
+smelter throughput. Together with scheduled maintenance, this led to a renewed build in semi-finished inventory, with the impact on 
+refined production expected to extend into November.
+
+While  PGM  prices  moderated  quarter-on-quarter  in  Q3’26,  they  remained  higher  year-on-year,  supporting  mining  margins  and 
+renewed investment. However, project development schedules continue to limit the near-term supply response. Northam’s ongoing 
+growth supports production, while the Platreef mine’s contribution remains modest as underground materials handling and tailings 
+filtration constraints slow the Phase 1 ramp-up.
+
+Zimbabwean mine supply is forecast to decline 3% to 499 koz, reflecting lower grades at Unki and processing constraints at Zimplats. 
+Following the first-half inventory build and subsequent drawdown, further furnace maintenance began at Zimplats in September, 
+resulting in a renewed build-up of semi-finished inventory. The furnace was scheduled to restart by end-October, with this inventory 
+expected to be drawn down over the remainder of the financial year ending June 2027. Russian production is projected to decline 
+5% to 646 koz, reflecting changes in the metal composition of processed ore. 
+
+North American supply is forecast to fall 9% to 193 koz this year, reflecting lower Canadian by-product output earlier in the year, 
+tapering  production  at  Impala  Canada  and  disruption  to  Sibanye-Stillwater’s  US  operations.  Following  the  settlement  of  the  
+five-week strike at Stillwater East in October, management warned that restoring operating momentum would take time, limiting the 
+subsequent production recovery.
+
+Chart 5: Supply-demand balance, koz, 2015-2026f
+
+1,454 
+
+675 
+
+899
+
+140 
+
+468
+
+-355 
+
+-485 
+
+-145
+
+-762
+
+-813
+
+-1,113
+
+-1,547
+
+2015
+
+2016
+
+2017
+
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026f
+
+Source: SFA (Oxford) 2015 – 2018, Metals Focus 2019 – 2026f
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 12 of 31
+
+PLATINUM QUARTERLY Q3 2026Chart 6: Changes in supply, koz, 2025 vs. 2026f
+
+-19
+
+2
+1
+2
+
+3
+9
+1
+
+2025
+
+2026f
+
+Other
+
+North 
+America
+
+-4
+
+6
+9
+1
+
+2
+9
+1
+
+2025
+
+2026f
+
++116
+
+7
+5
+9
+,
+3
+
+3
+7
+0
+,
+4
+
+2025
+
+2026f  
+
+South 
+Africa
+
+Russia
+
+-31
+
+7
+7
+6
+
+6
+4
+6
+
+2025
+
+2026f
+
+Zimbabwe
+
+-17
+
+5
+1
+5
+
+9
+9
+4
+
+2025
+
+2026f
+
+Recycling
++94
+
+4
+6
+7
+,
+1
+
+9
+6
+6
+,
+1
+
+2025
+
+2026f
+
+Source: Metals Focus prepared for World Platinum Investment Council
+
+Recycling
+
+Platinum recycling is forecast to increase by 6% year-on-year to 1,764 koz in 2026. The increase is driven by a 13% recovery 
+in autocatalyst recycling to 1,393 koz, while jewellery recycling is expected to decline by 21% to 282 koz, its lowest level in this 
+series. Industrial recycling is forecast to rise by 9% to 89 koz, supported by increased recovery from electronic equipment and 
+other industrial applications.
+
+The recovery in autocatalyst recycling remains concentrated in North America and Western Europe. Higher PGM prices encouraged 
+the  release  of  previously  stockpiled  material  during  H1’26,  while  improving  vehicle  replacement  activity  and  aftertreatment 
+replacement  programmes  provided  additional  support  in  Europe.  However,  as  indicated  in  our  quarterly  review  above,  the 
+recovery has lost momentum during the second half. In particular, weaker prices discouraged the release of material into the 
+recycling pipeline. Recyclers also reported a deterioration in feedstock quality, including a growing proportion of silicon carbide 
+substrates, complicating processing and affecting recovery yields. Consequently, the growth in recovered PGMs continues to lag 
+the increase in physical catalyst volumes.
+
+Jewellery recycling is forecast to decline by 21% year-on-year to 282 koz in 2026, almost entirely reflecting a 32% contraction in 
+China to 158 koz. The exceptional supply-chain destocking recorded in 2025 is unlikely to be repeated, while subdued jewellery 
+consumption continues to limit scrap generated through product exchanges and trade-ins. During the first nine months of 2026, 
+jewellery scrap volumes in China fell by 26% year-on-year. Although we expect a modest improvement in Q4’26, the anticipated 
+gains are unlikely to offset the impact of sluggish jewellery demand and weaker trade-in activity. Consequently, jewellery recycling 
+is expected to remain broadly flat quarter-on-quarter in Q4’26. Industrial recycling is forecast to increase by 9% year-on-year to  
+89 koz, with North America and Western Europe recording growth of 19% and 23%, respectively. Rising volumes of decommissioned 
+servers and other data-bearing equipment are supporting electronic scrap availability as equipment installed during the 2020–22 
+cloud expansion approaches replacement.
+
+Demand
+
+Global platinum demand is forecast to decline by 21% year-on-year to 6,898 koz in 2026, its lowest since 2022, primarily reflecting 
+substantial ETF liquidations and declining exchange inventories. Jewellery and automotive demand are also expected to weaken, 
+outweighing strong industrial growth, particularly in glass and electrical applications, alongside recovering chemical demand.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 13 of 31
+
+PLATINUM QUARTERLY Q3 2026Chart 7: Changes in demand by category, 2025 vs. 2026f
+
+-90
+
++51
+
++73
+
+-443
+
+-50
+
++127
+
++10
+
++6
+
+-12
+
+8,777
+
+z
+o
+k
+
+-1,550
+
+6,898
+
+2025
+
+Automotive
+
+Jewellery
+
+Chemical
+
+Petroleum
+
+Electrical
+
+Glass
+
+Medical
+
+Hydrogen
+
+Other
+
+Investment
+
+2026f
+
+Source: Metals Focus prepared for World Platinum Investment Council
+
+Industrial Demand
+
+Automotive demand
+
+GlobalData has revised its 2026f light-duty vehicle (LDV) production forecast upwards by approximately 1m units to 92.8m units, 
+broadly flat year-on-year. The upgrade is broadly evenly split between catalysed vehicles and BEVs. Vehicle demand has proved 
+more resilient than anticipated, except in China, despite elevated energy prices. Growth in India is supported by stronger domestic 
+sales  and  expanding  manufacturing  capacity.  Increased  localisation  by  Chinese  OEMs  has  also  supported  production  upgrades, 
+particularly in ASEAN countries and Latin America.
+
+Global automotive platinum demand is nonetheless projected to decline by 3% year-on-year (-90 koz) to 2,964 koz this year. Global 
+LDV production is expected to remain broadly flat in 2026, while heavy-duty and non-road vehicle output are expected to rise by 4% 
+and 5% year-on-year, respectively. 
+
+In Europe, platinum demand is forecast to decline by 6% year-on-year (-60 koz) to 900 koz, reflecting shrinking catalysed vehicle 
+production. Although hybrid output continues to provide some support, rising competition from Chinese new energy vehicle (NEV) 
+imports are constraining regional production.
+
+In North America, platinum demand is expected to increase by 2% year-on-year (+11 koz) to 471 koz, supported by resilient catalysed 
+production. Amid  elevated  and  volatile  fuel  prices,  consumers  increasingly  favour  hybrids  for  lower  running  costs. A  recovery  in 
+predominantly diesel-powered HDV production, following a weak 2025, provides additional support to platinum demand.
+
+Japan’s automotive platinum demand is projected to decline by 10% year-on-year (-30 koz) to 261 koz. Although demand for Japanese 
+hybrids remains relatively strong, supported by domestic order backlogs and export markets, this is insufficient to offset declining 
+pure-ICE volumes.
+
+In  China,  platinum  demand  is  forecast  to  decline  by  8%  year-on-year  (-44  koz)  to  498  koz.  This  primarily  reflects  a  substantial 
+contraction in pure-ICE LDV output amid electrification and weaker domestic vehicle demand. Expanding export markets continue to 
+support NEV production.
+
+Platinum demand in Rest of World is projected to increase by 4% year-on-year (+34 koz) to 835 koz. India is the primary driver, 
+with resilient domestic demand and expanding manufacturing capacity sustaining diesel LDVs and HDVs production. There is also 
+emerging  heavy-duty  FCEV  production,  particularly  in  South  Korea.  Growth  in  Brazil,  Russia  and  parts  of  the ASEAN  region  is 
+underpinned by localisation by Chinese manufacturers. The relocation of ICE vehicle output by European OEMs to Morocco and 
+stronger output from South Africa also support growth. Affordability constraints for BEVs and uneven charging infrastructure continue 
+to sustain ICE and hybrid production across emerging markets, thus supporting platinum demand.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 14 of 31
+
+PLATINUM QUARTERLY Q3 2026Jewellery demand
+
+Global jewellery demand is forecast to contract by 20% in 2026 to 1,771 koz. For the full year, European fabrication now looks set 
+to  record  a  modest  decline  following  the  all-time  high  reached  in  2025. Although  platinum  jewellery  demand  in  Switzerland  and 
+Germany performed well in early 2026 and made an encouraging start to the year, demand has since softened, reflecting subdued 
+consumer  sentiment  and  continued  pressure  on  disposable  incomes,  particularly  among  mass-market  consumers. Against  this 
+backdrop, we now expect platinum jewellery demand to record a single digit decline in 2026. In North America, the first nine months 
+of 2026 have seen a rise of 2% year-on-year. For the full-year, we expect that softer prices in Q4’26 will see a continued gradual 
+growth in offtake, leaving the full-year 2% higher than 2025.
+
+Our  projection  for  Japanese  jewellery  fabrication  is  a  relatively  benign  outcome  for  Q4.  Elevated  equity  prices  and  platinum’s 
+discount to gold are expected to boost festive seasonal purchases, providing some support to the 2026 total for Japanese jewellery 
+demand. With that said, we still see it down 18% compared to 2025, reflecting the much higher price environment and also due to 
+the elevated base last year, which was boosted by inventory build.
+
+In China, we expect jewellery fabrication to collapse by 59% year-on-year to 236 koz in 2026, its lowest on record. Year-to-date 
+demand  is  already  down  62%  year-on-year  with  Q4’26  activities  unlikely  to  recover  meaningfully.  Given  that  the  local  market’s 
+preference for gold jewellery is unlikely to change in Q4, we remain cautious towards Q4’26 demand, anticipating a flat quarter-on-
+quarter performance. 
+
+For 2026, we expect Indian platinum jewellery fabrication to decline by 6% year-on-year to 233 koz. Despite early signs of stabilisation 
+in Q3, the recovery in wedding and festive demand is expected to only partially offset the weakness seen in the first half. Exports 
+remain constrained by lingering US tariff uncertainty, while elevated precious metal prices and higher import duties continue to weigh 
+on domestic demand and manufacturing margins. Nevertheless, continued store expansion by organised retailers and a gradual 
+shift towards locally fabricated products, following restrictions on finished platinum jewellery imports, should provide some support.
+
+Industrial demand
+
+Industrial platinum demand is forecast to rise by 9% year-on-year to 2,561 koz in 2026, reaching historically high levels. Strong 
+growth in glass and electronic applications are the main growth drivers for this year.
+
+Glass
+
+Platinum glass demand is forecast to increase by 30% year-on-year to 557 koz in 2026, primarily driven by renewed investment 
+in  fibreglass  manufacturing  capacity.  China  remains  the  principal  source  of  growth,  with  expansions  spanning  conventional 
+reinforcement glass and higher-specification electronic fibres used in printed circuit boards (PCBs) for AI servers and datacentre 
+infrastructure. However, capacity additions in China are increasingly being offset by rationalisation across Europe and North America, 
+as higher-cost producers struggle to compete. Meanwhile, liquid crystal display (LCD) demand is expected to recover modestly, 
+although investment remains below the levels recorded during China’s previous expansion cycle.
+
+Petroleum
+
+Although Middle Eastern crude oil exports have recovered significantly from the lows seen in Q2, regional refining activity continues 
+to  lag  behind  the  improvement  in  oil  flows,  reflecting  ongoing  refinery  outages,  infrastructure  damage  and  logistical  constraints. 
+Combined with fewer expected catalyst changeouts at gas-to-liquids (GTL) plants, platinum petroleum offtake is forecast to decline 
+by 28% in 2026. As a full recovery in regional refinery throughput is unlikely before 2027, disruptions to maintenance schedules and 
+catalyst replacement activity are expected to persist. Meanwhile, Russia’s refining sector is likely to remain under significant pressure 
+from continued Ukrainian attacks, further constraining refinery operations. Elsewhere, strong refining margins have encouraged high 
+utilisation rates, particularly in the US, potentially delaying non-essential maintenance and catalyst changeouts.
+
+Chemical
+
+Platinum chemical offtake is on track to rise by 9% in 2026 to 613 koz, reversing two consecutive years of declines. A rebound in the 
+petrochemical industry remains the key driver, with several new PX and PDH projects expected to come on stream in H2’26 (and 
+2027). While China accounts for the bulk of these gains, new projects in India and Belgium will also contribute. Meanwhile, silicone 
+demand is also expected to strengthen this year. However, these gains will be partly offset by weaker demand from the fertiliser 
+sector, reflecting conflict-related disruptions to operations and catalyst maintenance schedules.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 15 of 31
+
+PLATINUM QUARTERLY Q3 2026Chart 8: Demand end-use shares, 2025 vs. 2026f
+
+Investment
+13%
+
+Other 7%
+
+Hydrogen 1%
+
+Medical 4%
+
+Glass 5%
+
+Electrical 2%
+
+Petroleum 2%
+
+Industrial
+27%
+
+2025
+8,777 koz
+
+Automotive
+35%
+
+Investment
+-6%
+
+Other 8%
+
+Hydrogen 1%
+
+Medical 5%
+
+Glass 8%
+
+Industrial
+37%
+
+Electrical 4%
+
+Petroleum 2%
+
+Chemical 9%
+
+2026f
+6,898 koz
+
+Automotive
+43%
+
+Chemical 6%
+
+Jewellery
+25%
+
+Jewellery
+26%
+
+Source: Metals Focus prepared for World Platinum Investment Council
+
+Medical
+
+In  2026,  platinum  medical  demand  is  expected  to  increase  by  3%  year-on-year  (+10  koz)  to  331  koz.  Medical  device  demand 
+will remain supported by growth in cardiovascular and electrophysiology procedures and continued product innovation. Oncology 
+demand  should  also  improve  as  cisplatin  and  carboplatin  availability  recovers,  although  increasing  use  of  targeted  therapies, 
+antibody-drug conjugates and immunotherapies, all of which are platinum-free, will constrain growth.
+
+Electrical
+
+Platinum demand in the electronics sector is forecast to rise by 35% to 280 koz in 2026, led by optical communications capacity expansion 
+linked to AI infrastructure investment. New co-packaged optics (CPO), which integrate optical connections alongside semiconductor 
+chips, and high-speed optical module projects are driving investment in optical crystal production, lifting platinum crucible purchases 
+ahead of commissioning. Several lines scheduled to come on stream during the year are expected to make these purchases the largest 
+contributor to the annual increase.
+
+Higher HDD output and a rising share of mass-capacity drives are also boosting platinum sputtering target consumption. Strong cloud 
+storage  requirements  and  longer-term  supply  agreements  are  improving  production  visibility,  despite  competition  from  SSDs  and 
+constraints in magnetic head and substrate supply. Meanwhile, increasing semiconductor capacity and wafer output are underpinning 
+demand for high-purity platinum and platinum alloy sputtering targets.
+
+Hydrogen Stationary and Other 
+
+Platinum demand from hydrogen applications is forecast to increase by 8% year-on-year to 77 koz in 2026, following particularly 
+strong growth in 2025, when demand surged by 78%. The more moderate increase was largely anticipated following substantial 
+equipment deliveries and project commissioning in 2025, with the transition to new developments constraining near-term growth.
+
+Nevertheless, activity continues to broaden across several applications and regions. In North America, growing demand for reliable 
+power  from  datacentres  supports  interest  in  stationary  fuel  cells,  particularly  in  California,  while  South  Korea  has  continued  to 
+expand its fuel cell generation capacity. Europe has also seen early trials of hydrogen-powered backup systems for datacentres. 
+Meanwhile, electrolyser investment continued to progress, with major projects advancing in Europe and Australia, alongside growing 
+international  orders  for  Chinese  manufacturers.  However,  project  delays,  uncertain  economics  and  uneven  order  intake  have 
+continued to weigh on deployment, resulting in the more measured pace in 2026.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 16 of 31
+
+PLATINUM QUARTERLY Q3 2026Other
+
+Other  industrial  demand  is  forecast  to  decline  by  2%  (-12  koz)  to  571  koz  in  2026,  as  structural  pressures  on  platinum  use  in 
+spark plugs outweigh gains in sensor applications. Lower ICE vehicle production is reducing OEM requirements, while subdued 
+aftermarket  replacement  activity  and  continued  substitution  towards  iridium-  and  ruthenium-based  electrodes  are  adding  to  the 
+weakness. Growth in hybrid vehicle production and tighter emissions standards are expected to increase platinum consumption in 
+sensors, while aerospace demand remains steady. Together, these applications are unlikely to offset the reduction in spark plug 
+consumption. 
+
+Investment demand
+
+This year, bar and coin demand is forecast to drop by 28% (-112 koz) to 290 koz. The losses will be driven by China, but it is equally 
+important to remember that 2025 saw an unprecedented high for that country. To reflect the worse-than-expected Chinese demand 
+in Q3, we have revised our forecast for China in 2026 down by 41% year-on-year compared to 38% in the last edition. 
+
+On the assumption that the year-end rally that Metals Focus’ projections call for materialises, we should see quite a dramatic pick-
+up in platinum bar purchases by Japanese investors. This could offset much of the net selling seen in Q2 and Q3, leaving the total 
+for the year at 23 koz.
+
+Turning to North America, we forecast a 9% drop to the lowest total since 2010. As touched on above, in the quarterly review, the 
+full-year total has been revised markedly lower compared with the previous Platinum Quarterly. This reflects a far weaker Q2’26 
+than expected, across the precious metals complex, which spilled over into Q3. Nevertheless, we do expect to see a partial recovery 
+before year-end, reflecting high prices and the uncertainty brought about by the US’ midterm elections outcome. 
+
+With platinum prices currently under pressure, a lack of investor conviction has kept European retail investment subdued so far in 
+Q4, a trend that is expected to persist through the remainder of the year. Combined with weak demand over the first nine months, 
+this is forecast to bring full-year investment down by 29% year-on-year to a three-year low of 24 koz.
+
+Turning to India, for the full year, we expect platinum investment demand to fall by 49% year-on-year as fear of missing out (FOMO)-
+driven buying of precious metals slows. Nevertheless, demand would still be the second highest in our series, driven by the strong 
+performance of retail investment in the early part of the year. 
+
+Platinum exchange-traded fund (ETF) holdings are forecast to decline further by approximately 490 koz in 2026, with North America 
+and  South  Africa  accounting  for  most  liquidations.  In  North  America,  investment  accumulated  during  2025  amid  tariff-related 
+uncertainty has progressively unwound, with higher prices encouraging profit-taking. South African holdings have also contracted 
+sharply, although the remaining investor base is increasingly concentrated among longer-term institutional holders, potentially limiting 
+further selling. European holdings are expected to stabilise following earlier liquidations, suggesting that much of the adjustment to 
+higher prices and trade uncertainty has already occurred. Elsewhere, flows are expected to remain comparatively modest.
+
+ABOVE GROUND STOCKS
+
+The forecast market surplus of 468 koz in 2026 is expected to lift above ground stocks to 2,092 koz, equivalent to approximately 
+three and a half months of demand cover. The WPIC definition of above ground stocks is the year-end estimate of the cumulative 
+platinum holdings not associated with exchange-traded funds, metal held in exchange-approved vaults or working inventories of 
+mining producers, refiners, fabricators or end-users.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 17 of 31
+
+PLATINUM QUARTERLY Q3 20262027 OUTLOOK
+
+The platinum market is forecast to return to a deficit of 279 koz in 2027, amid continued macroeconomic and geopolitical uncertainty. 
+While  tariff  risks  have  eased,  renewed  trade  tensions  remain  possible. AI-related  investment  is  expected  to  remain  supportive 
+despite recent equity market weakness.
+
+Total  supply  is  forecast  to  rise  by  1%  to  7,418  koz,  driven  by  higher  recycling  volumes.  Total  demand  is  expected  to  increase 
+by 12% to 7,696 koz, primarily reflecting a recovery in investment demand to 513 koz and 4% growth in industrial consumption.  
+The  latter  is  supported  by  stronger  chemical  and  petroleum  demand,  offsetting  weakness  in  glass  and  electrical  applications. 
+Meanwhile, automotive demand is forecast to decline by 5% as electrification continues, while jewellery fabrication falls by a further 
+3%  as  the  elevated  price  environment  assumed  in  our  Metals  Focus  forecast  continues  to  weigh  on  demand.  Despite  a  bullish 
+outlook for gold and platinum supporting bar and coin purchases, further ETF outflows are anticipated as investors favour alternative 
+assets. Above ground stocks are forecast to decline by 13% to 1,813 koz.
+
+Chart 9: Supply-demand balance, koz, 2016-2027f
+
+1,454 
+
+675 
+
+899
+
+140 
+
+-485 
+
+-762
+
+-145
+
+468
+
+-279
+
+-813
+
+-1,113
+
+-1,547
+
+2016
+
+2017
+
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026f
+
+2027f
+
+Source: SFA (Oxford) 2016 – 2018, Metals Focus 2019 – 2027f
+
+Supply 
+
+Mine supply is expected to decline by 1% to 5,571 koz in 2027, with lower South African output partly offset by growth in Zimbabwe. 
+South  African  production  is  forecast  to  fall  by  1%,  despite  incremental  contributions  from  Northam  and  Ivanhoe.  Zimbabwean 
+output is expected to increase by 6%, supported by the drawdown of semi-finished inventory at Zimplats, while Russian production 
+remains broadly stable. North American supply is projected to edge higher by 1%. Sibanye-Stillwater is targeting growth from its US 
+operations, although our forecast assumes a more gradual recovery in its operating performance.
+
+Global recycling is forecast to rise by 5% to 1,847 koz. Autocatalyst recycling is expected to increase by 5% to 1,465 koz, supported 
+by  higher  PGM  prices  encouraging  scrap  flows.  Jewellery  recycling  is  projected  to  recover  by  1%  to  285  koz,  as  higher  prices 
+encourage scrap sales despite subdued jewellery demand and wide buy-sell spreads. Industrial recycling is forecast to grow by 9% 
+to 96 koz, supported by expanding electronics recycling activity as investment in processing capacity and datacentre equipment 
+replacement is expected to continue.
+
+Demand
+
+Total platinum demand is forecast to increase by 12% year-on-year to 7,696 koz in 2027, primarily driven by a recovery in investment 
+demand and further growth in industrial consumption. This is expected to more than offset continued weakness in automotive and 
+jewellery demand. 
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 18 of 31
+
+PLATINUM QUARTERLY Q3 2026Automotive platinum demand is projected to slip by 5% year-on-year (-151 koz) to 2,813 koz in 2027. Western Europe is forecast to 
+record the largest regional decline of 11%, followed by Japan and China, with declines of 8% and 6%, respectively. LDV production 
+is expected to remain broadly stable, while HDV and NRV production increase by 3% and 2%, respectively. BEV penetration is 
+expected to weigh on catalysed vehicle production, particularly in the US, Europe, Japan and China, where declining ICE production 
+weighs on platinum requirements. Despite a noticeable pullback in EV incentives in the US in 2026, regional purchase tax incentives 
+elsewhere and the growing availability of affordable Chinese models through exports and localisation will maintain growth in EV 
+share.  That  said,  rising  trade  barriers,  localisation  requirements  and  persistent  charging  infrastructure  constraints  in  emerging 
+markets will curtail BEV adoption.
+
+In  contrast,  resilient  ICE  and  hybrid  production  in  emerging  markets,  particularly  India,  should  support  platinum  demand.  The 
+recovery in US vehicle production is also expected to provide some support, although the extent will depend on the powertrain mix. 
+Growth in FCEV output, although from a low base, is expected to support platinum demand. Slower hybrid growth, particularly in 
+Europe and Japan, will weigh on platinum consumption. The predominantly gasoline-hybrid production mix and rising palladium-for-
+platinum substitution in catalyst formulations further compound the impact of declining diesel vehicles.
+
+Platinum jewellery fabrication is expected to decline by a further 3% to 1,710 koz in 2027, as elevated prices and subdued consumer 
+spending continue to weigh on demand. Chinese fabrication is forecast to fall by 5%, as economic uncertainty is expected to persist 
+and consumer preference for gold jewellery prevails. North American demand is also projected to decline by 5%, as higher platinum 
+prices increasingly offset the benefits of its price discount to gold. European fabrication should remain broadly stable, supported 
+by relatively healthy demand for bridal and high-end jewellery. Japanese fabrication is forecast to decline by a further 5%. Despite 
+this, jewellery sales are expected to remain relatively resilient in value terms, while further gains in gold prices should provide some 
+support  to  platinum  jewellery  demand.  Indian  demand  is  expected  to  be  little  changed  as  domestic  retail  growth  offsets  weaker 
+exports. Organised retail expansion and growing demand for lightweight jewellery should support domestic consumption, although 
+elevated manufacturing costs and a narrowing price advantage over gold will constrain growth.
+
+Industrial demand is forecast to increase by 4% to 2,660 koz, supported by a recovery in chemical and petroleum applications. 
+Chemical  demand  is  projected  to  jump  by  29%  (+179  koz)  to  792  koz,  accounting  for  the  largest  increase  across  industrial 
+applications, driven by new petrochemical capacity, silicone production and a recovery in fertiliser-related activity. China is expected 
+to account for much of the petrochemical capacity expansion, while a gradual normalisation of Middle Eastern operations should 
+support fertiliser-related demand.
+
+Petroleum  demand  is  expected  to  rebound  by  30%  (+39  koz)  to  171  koz,  as  deferred  maintenance  and  catalyst  replacement 
+resume, particularly in the Middle East. Much of this increase represents demand postponed from 2026 rather than new refining 
+capacity, with the pace of recovery dependent on the restoration of damaged infrastructure and refinery operations. Conversely, 
+glass  demand  is  forecast  to  decline  by  11%  (-60  koz)  to  497  koz,  due  to  fewer  new  fibreglass  capacity  additions,  although 
+investment  in  higher-value  electronic  applications  remains  supportive.  Continued  production  rationalisation  in  Europe  and  North 
+America is also expected to increase China’s share of global fibreglass manufacturing. Electrical demand is projected to fall by 35%  
+(-97 koz) to 183 koz, as we do not expect a repeat of platinum crucible installations in 2027 following strong optical crystal capacity 
+expansions in 2026. Underlying semiconductor and storage applications should continue to grow, with consumption outside crucible 
+applications expected to increase at around a double-digit rate. Medical demand is expected to rise by 3% to 342 koz, driven by 
+growth  in  cardiovascular  and  electrophysiology  procedures  and  a  recovery  in  platinum-based  oncology  applications.  Hydrogen-
+related platinum demand outside road transport is forecast to increase by 49% year-on-year (+38 koz) to 115 koz in 2027, driven 
+primarily by stronger demand from PEM electrolysers as projects progress into equipment delivery and commissioning. Following a 
+more measured pace of deployment in 2026, improving order intake among PEM electrolyser manufacturers and the advancement 
+of previously committed projects are expected to support renewed growth. Stationary fuel cell demand is also projected to increase, 
+supported by expanding applications in distributed generation, datacentres and backup power, particularly in North America and 
+Asia. Other industrial demand is expected to decline by 2%, primarily due to lower platinum consumption in spark plugs as ICE 
+production contracts and substitution towards alternative metals continues.
+
+Investment demand is forecast to recover to 513 koz in 2027, compared with net disinvestment of 398 koz in 2026. Global bar and 
+coin demand is expected to surge by 55% to 448 koz, a seven-year high. This reflects gains in every key market, each benefiting 
+from expectations of higher platinum prices. The outcome is all the more impressive given that Chinese demand will still fall well 
+short of 2025’s record high.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 19 of 31
+
+PLATINUM QUARTERLY Q3 2026North American bar and coin demand is forecast to jump by 52% to 131 koz, a four-year high. The increase may look dramatic but 
+follows this year’s subdued performance. Even so, the gains reflect both price upside and the impact of far lower financing costs 
+for the entire supply chain. The five-fold increase in Japanese physical investment demand projected for 2027 may also appear 
+sizeable. However, this reflects expectations for strong price performance throughout the year and the nature of Japan’s very active 
+two-way market, which can experience significant swings. At 120 koz, the absolute figure forecast for 2027 remains a fraction of 
+the 2015-2016 peaks in net investment demand. In China, the positive price outlook is expected to support a 5% recovery in bar 
+and coin demand, taking it to the second-highest level in the series. Turning to large bars in China, which are reported separately, 
+our price outlook should incentivise further growth, with demand forecast to increase by 2%. Bar and coin demand is expected to 
+recover in Europe but moderate in markets such as India and Australia as the exceptionally strong buying interest seen in 2025 and 
+2026 begins to fade. 
+
+ETF  holdings  are  forecast  to  decline  by  a  further  150  koz  in  2027,  despite  expectations  of  higher  platinum  prices.  Following 
+substantial liquidations in 2026, further profit-taking and a rotation towards PGM mining equities are expected to sustain outflows. 
+Stronger  producer  earnings  and  substantially  higher  dividend  distributions  have  improved  the  relative  attractiveness  of  mining 
+equities, offering investors both income and potential share-price appreciation. However, the growing concentration of longer-term 
+institutional ETF holdings is expected to limit the scale of further liquidations.
+
+Exchange warehouse stocks are forecast to increase by 110 koz in 2027, on the back of further inventory accumulation at GFEX. 
+As  the  exchange  matures,  greater  participation  by  industrial  consumers  and  increased  use  of  its  physical  delivery  facilities  are 
+expected to support warehouse stock growth. In contrast, NYMEX inventories are expected to remain broadly stable as tariff-related 
+uncertainty continues to ease.
+
+ABOVE GROUND STOCKS
+
+The return to a market deficit in 2027 is expected to partially reverse the previous year’s inventory build, with above ground stocks 
+declining to 1,813 koz by year-end and demand cover declining to just under three months’ supply. The WPIC definition of above 
+ground stocks is the year-end estimate of the cumulative platinum holdings not associated with exchange-traded funds, metal held 
+in exchange-approved vaults or working inventories of mining producers, refiners, fabricators or end-users.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 20 of 31
+
+PLATINUM QUARTERLY Q3 2026Table 2: Supply, demand and above ground stock summary – annual comparison 
+
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026f
+
+2027f
+
+2026f/2025 
+Growth %
+
+2027f/2026f 
+Growth %
+
+Platinum Supply-demand Balance (koz)
+
+SUPPLY
+
+Refined Production
+
+South Africa
+
+Zimbabwe
+
+North America
+
+Russia
+
+Other
+
+Increase (-)/Decrease (+) in Producer Inventory
+
+6,125
+
+4,470
+
+6,074
+
+4,374
+
+4,990
+
+6,294
+
+3,298
+
+4,678
+
+5,523
+
+3,915
+
+5,606
+
+3,957
+
+5,777
+
+4,133
+
+5,557
+
+3,957
+
+5,602
+
+4,073
+
+5,571
+
+4,014
+
+465
+
+345
+
+665
+
+180
+
++10
+
+458
+
+357
+
+716
+
+169
+
++2
+
+448
+
+339
+
+704
+
+200
+
+-82
+
+485
+
+272
+
+652
+
+206
+
+-94
+
+480
+
+265
+
+663
+
+200
+
++45
+
+507
+
+278
+
+674
+
+190
+
++14
+
+512
+
+265
+
+677
+
+191
+
++10
+
+515
+
+212
+
+677
+
+196
+
++4
+
+499
+
+193
+
+646
+
+192
+
++0
+
+526
+
+194
+
+644
+
+192
+
++0
+
+Total Mining Supply
+
+6,135
+
+6,076
+
+4,908
+
+6,200
+
+5,568
+
+5,620
+
+5,787
+
+5,561
+
+5,602
+
+5,571
+
+Recycling
+
+Total Supply
+
+DEMAND
+
+Automotive
+
+Jewellery
+
+Industrial
+
+Autocatalyst
+
+Jewellery
+
+Industrial
+
+1,955
+
+1,420
+
+505
+
+30
+
+2,157
+
+1,612
+
+2,041
+
+1,553
+
+476
+
+69
+
+422
+
+66
+
+2,107
+
+1,619
+
+422
+
+67
+
+1,811
+
+1,370
+
+372
+
+69
+
+1,515
+
+1,536
+
+1,114
+
+1,163
+
+1,669
+
+1,232
+
+1,764
+
+1,393
+
+1,847
+
+1,465
+
+331
+
+71
+
+298
+
+76
+
+356
+
+81
+
+282
+
+89
+
+285
+
+96
+
+8,090
+
+8,234
+
+6,949
+
+8,307
+
+ 7,378 
+
+7,135
+
+7,323
+
+7,231
+
+7,366
+
+7,418
+
+3,115
+
+Autocatalyst
+
+2,970
+
+2,692
+
+2,692
+
+2,203
+
+2,203
+
+2,472
+
+2,472
+
+2,776
+
+2,776
+
+3,217
+
+3,217
+
+3,121
+
+3,121
+
+3,054
+
+3,054
+
+2,964
+
+2,964
+
+2,813
+
+2,813
+
+Non-road
+
+145
+
+†
+
+†
+
+†
+
+ † 
+
+†
+
+†
+
+†
+
+†
+
+†
+
+2,245
+
+2,106
+
+1,830
+
+1,953
+
+1,880
+
+1,849
+
+2,008
+
+2,214
+
+1,771
+
+1,710
+
+2,040
+
+2,310
+
+2,086
+
+2,441
+
+2,328
+
+2,494
+
+2,593
+
+2,358
+
+2,561
+
+2,660
+
+Chemical
+
+Petroleum
+
+Electrical
+
+Glass
+
+Medical
+
+Hydrogen Stationary and Other
+
+Other
+
+565
+
+235
+
+205
+
+275
+
+235
+
+†
+
+525
+
+801
+
+219
+
+144
+
+235
+
+277
+
+30
+
+603
+
+647
+
+109
+
+138
+
+400
+
+256
+
+29
+
+507
+
+Investment
+
+15 
+
+1,271 
+
+1,592 
+
+ Change in Bars, Coins
+
+280 
+
+285 
+
+603 
+
+China Bars ≥ 500g
+
+Change in ETF Holdings
+
+Change in Stocks Held by Exchanges
+
+†
+
+-245
+
+-20
+
+16
+
+990 
+
+-20
+
+23
+
+507 
+
+458 
+
+622
+
+169
+
+143
+
+683
+
+267
+
+18
+
+540
+
+-13
+
+340 
+
+27
+
+-241
+
+-139
+
+690
+
+193
+
+116
+
+475
+
+278
+
+14
+
+562
+
+-504
+
+273 
+
+90 
+
+-559
+
+-307
+
+829
+
+160
+
+103
+
+491
+
+292
+
+23
+
+595
+
+388 
+
+314 
+
+134 
+
+-74
+
+14 
+
+645
+
+159
+
+110
+
+739
+
+308
+
+40
+
+592
+
+713 
+
+205 
+
+162 
+
+296 
+
+50 
+
+563
+
+182
+
+208
+
+430
+
+321
+
+71
+
+583
+
+613
+
+132
+
+280
+
+557
+
+331
+
+77
+
+571
+
+1,152 
+
+-398
+
+402 
+
+165 
+
+200 
+
+384 
+
+290 
+
+103 
+
+-490
+
+-300
+
+792
+
+171
+
+183
+
+497
+
+342
+
+115
+
+560
+
+513 
+
+448 
+
+105 
+
+-150
+
+110 
+
+Total Demand
+
+7,415
+
+8,379
+
+7,711
+
+6,853
+
+6,480
+
+7,948
+
+8,436
+
+8,777
+
+6,898
+
+7,696
+
+Balance
+
+675
+
+-145
+
+-762
+
+1,454
+
+899
+
+-813
+
+-1,113
+
+-1,547
+
+468
+
+-279
+
+Above Ground Stocks
+
+2,555* 3,505**
+
+2,743
+
+4,197
+
+5,096 4,283
+
+3,170
+
+1,624
+
+2,092
+
+1,813
+
+1%
+
+3%
+
+-3%
+
+-9%
+
+-5%
+
+-2%
+
+-100%
+
+1%
+
+6%
+
+13%
+
+-21%
+
+9%
+
+2%
+
+-3%
+
+-3%
+
+N/A
+
+-20%
+
+9%
+
+9%
+
+-28%
+
+35%
+
+30%
+
+3%
+
+8%
+
+-2%
+
+N/A
+
+-28%
+
+-38%
+
+N/A
+
+N/A
+
+-21%
+
+N/A
+
+29%
+
+-1%
+
+-1%
+
+6%
+
+1%
+
+0%
+
+0%
+
+N/A
+
+-1%
+
+5%
+
+5%
+
+1%
+
+9%
+
+1%
+
+-5%
+
+-5%
+
+N/A
+
+-3%
+
+4%
+
+29%
+
+30%
+
+-35%
+
+-11%
+
+3%
+
+49%
+
+-2%
+
+N/A
+
+55%
+
+2%
+
+N/A
+
+N/A
+
+12%
+
+N/A
+
+-13%
+
+Source: SFA (Oxford) 2018, Metals Focus 2019 – 2027f 
+
+Notes:
+
+1.  Above Ground Stocks: *4,140 koz as of 31st December 2012 (SFA (Oxford). **3,650 koz as of 31st December 2018 (Metals Focus).
+
+2.  † Estimates for this item in this period are either negligible, or captured respectively in autocatalyst demand, other industrial demand, or change in bars, coins.
+
+3.  Data from Metals Focus and SFA (Oxford) may not have been prepared on the same or directly comparable basis.
+
+4.  Prior to 2019 SFA (Oxford) data is independently rounded to the nearest 5 koz.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 21 of 31
+
+PLATINUM QUARTERLY Q3 2026Table 3: Supply and demand summary – quarterly comparison 
+
+Q3 
+2024
+
+Q4 
+2024
+
+Q1 
+2025
+
+Q2 
+2025
+
+Q3 
+2025
+
+Q4 
+2025
+
+Q1 
+2026
+
+Q2 
+2026
+
+Q3 
+2026
+
+Q3'26/Q3'25 
+Growth %
+
+Q3'26/Q2'26 
+Growth %
+
+Platinum Supply-demand Balance (koz)
+
+SUPPLY
+
+Refined Production
+
+1,459
+
+1,549
+
+1,101
+
+1,446
+
+South Africa
+
+1,049
+
+1,161
+
+Zimbabwe
+
+North America
+
+Russia
+
+Other
+
+Increase (-)/Decrease (+) in Producer Inventory
+
+132
+
+59
+
+172
+
+48
+
+-24
+
+121
+
+74
+
+146
+
+47
+
+-25
+
+711
+
+114
+
+49
+
+180
+
+47
+
+-20
+
+1,044
+
+137
+
+58
+
+158
+
+49
+
++21
+
+1,414
+
+1,031
+
+127
+
+50
+
+156
+
+51
+
+-26
+
+1,597
+
+1,335
+
+1,498
+
+1,240
+
+1,172
+
+1,016
+
+1,108
+
+138
+
+55
+
+183
+
+49
+
++29
+
+90
+
+47
+
+136
+
+46
+
++6
+
+151
+
+45
+
+148
+
+47
+
+-39
+
+827
+
+113
+
+51
+
+199
+
+50
+
++36
+
+Total Mining Supply
+
+1,435
+
+1,524
+
+1,081
+
+1,467
+
+1,388
+
+1,626
+
+1,341
+
+1,459
+
+1,276
+
+Recycling
+
+Total Supply
+
+DEMAND
+
+Automotive
+
+Jewellery
+
+Industrial
+
+Autocatalyst
+
+Jewellery
+
+Industrial
+
+371
+
+284
+
+68
+
+20
+
+393
+
+299
+
+74
+
+20
+
+387
+
+290
+
+78
+
+19
+
+427
+
+318
+
+90
+
+20
+
+413
+
+307
+
+86
+
+21
+
+441
+
+318
+
+102
+
+21
+
+456
+
+351
+
+84
+
+21
+
+462
+
+371
+
+68
+
+23
+
+418
+
+334
+
+62
+
+21
+
+1,806
+
+1,917
+
+1,468
+
+1,894
+
+1,801
+
+2,067
+
+1,797
+
+1,921
+
+1,693
+
+Autocatalyst
+
+Non-road
+
+739
+
+739
+
+†
+
+774
+
+774
+
+†
+
+770
+
+770
+
+†
+
+783
+
+783
+
+†
+
+729
+
+729
+
+†
+
+771
+
+771
+
+†
+
+743
+
+743
+
+†
+
+758
+
+758
+
+†
+
+714
+
+714
+
+†
+
+494
+
+523
+
+532
+
+671
+
+492
+
+519
+
+461
+
+456
+
+410
+
+-17%
+
+-10%
+
+Chemical
+
+Petroleum
+
+Electrical
+
+568
+
+122
+
+40
+
+29
+
+592
+
+149
+
+40
+
+28
+
+Glass
+
+142
+
+133
+
+Hydrogen Stationary and Other
+
+Medical
+
+77
+
+11
+
+80
+
+13
+
+515
+
+115
+
+45
+
+49
+
+62
+
+78
+
+18
+
+Investment
+
+-223
+
+363
+
+465
+
+Other
+
+147
+
+149
+
+147
+
+ Change in Bars, Coins
+
+China Bars ≥ 500g
+
+72
+
+30
+
+Change in ETF Holdings
+
+-300
+
+Change in Stocks Held by Exchanges
+
+-25
+
+57
+
+38
+
+142
+
+126
+
+74
+
+35
+
+-6
+
+361
+
+-317
+
+590
+
+147
+
+45
+
+51
+
+111
+
+80
+
+11
+
+145
+
+-45
+
+128
+
+47
+
+97
+
+643
+
+158
+
+45
+
+54
+
+146
+
+81
+
+17
+
+610
+
+143
+
+45
+
+54
+
+111
+
+82
+
+25
+
+601
+
+128
+
+33
+
+67
+
+639
+
+138
+
+31
+
+69
+
+681
+
+182
+
+33
+
+72
+
+129
+
+156
+
+153
+
+80
+
+20
+
+83
+
+19
+
+83
+
+19
+
+143
+
+149
+
+144
+
+141
+
+139
+
+305
+
+82
+
+34
+
+-169
+
+358
+
+427
+
+118
+
+49
+
+278
+
+-18
+
+-268
+
+105
+
+44
+
+-300
+
+-117
+
+-125
+
+37
+
+21
+
+-234
+
+-2
+
+40
+
+18
+
+47
+
+50
+
+-106
+
+Total Demand
+
+Balance
+
+Source: Metals Focus 2024 – 2026f. 
+
+Note: 
+
+1,578
+
+2,251
+
+2,282
+
+1,999
+
+2,169
+
+2,328
+
+1,537
+
+1,728
+
+1,803
+
+228
+
+-334
+
+-814
+
+-105
+
+-367
+
+-261
+
+260
+
+193
+
+-110
+
+1.  † Non-road automotive demand is included in autocatalyst demand.
+
+-12%
+
+-20%
+
+-10%
+
+2%
+
+28%
+
+-1%
+
+N/A
+
+-8%
+
+1%
+
+9%
+
+-27%
+
+0%
+
+-6%
+
+-2%
+
+-2%
+
+-17%
+
+-25%
+
+-25%
+
+14%
+
+35%
+
+8%
+
+N/A
+
+-13%
+
+-10%
+
+-10%
+
+-9%
+
+-9%
+
+-12%
+
+-6%
+
+-6%
+
+6%
+
+15%
+
+-28%
+
+33%
+
+5%
+
+3%
+
+15%
+
+-3%
+
+N/A
+
+-51%
+
+-48%
+
+N/A
+
+N/A
+
+-17%
+
+N/A
+
+7%
+
+31%
+
+5%
+
+4%
+
+-3%
+
+0%
+
+-1%
+
+-1%
+
+N/A
+
+7%
+
+-16%
+
+N/A
+
+N/A
+
+4%
+
+N/A
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 22 of 31
+
+PLATINUM QUARTERLY Q3 2026Table 4: Supply and demand summary – half-yearly comparison 
+
+H1 2024
+
+H2 2024
+
+H1 2025
+
+H2 2025
+
+H1 2026
+
+H1'26/H1'25 
+Growth %
+
+H1'26/H2'25 
+Growth %
+
+Platinum Supply-demand Balance (koz)
+
+SUPPLY
+
+Refined Production
+
+South Africa
+
+Zimbabwe
+
+North America
+
+Russia
+
+Other
+
+Increase (-)/Decrease (+) in Producer Inventory
+
+2,769
+
+1,923
+
+3,009
+
+2,210
+
+2,547
+
+1,754
+
+3,011
+
+2,203
+
+2,833
+
+2,124
+
+258
+
+133
+
+359
+
+96
+
++59
+
+254
+
+132
+
+318
+
+95
+
+-49
+
+251
+
+107
+
+338
+
+97
+
++1
+
+264
+
+105
+
+339
+
+99
+
++3
+
+241
+
+92
+
+284
+
+92
+
+-34
+
+Total Mining Supply
+
+2,828
+
+2,959
+
+2,548
+
+3,014
+
+2,800
+
+Autocatalyst
+
+Jewellery
+
+Industrial
+
+772
+
+580
+
+156
+
+36
+
+764
+
+583
+
+142
+
+40
+
+815
+
+608
+
+168
+
+39
+
+855
+
+624
+
+188
+
+42
+
+918
+
+722
+
+152
+
+44
+
+3,599
+
+3,724
+
+3,363
+
+3,868
+
+3,718
+
+Autocatalyst
+
+Non-road
+
+1,609
+
+1,609
+
+†
+
+1,512
+
+1,512
+
+†
+
+1,553
+
+1,553
+
+†
+
+1,500
+
+1,500
+
+†
+
+991
+
+1,017
+
+1,204
+
+1,011
+
+1,501
+
+1,501
+
+†
+
+916
+
+1,433
+
+374
+
+80
+
+53
+
+463
+
+151
+
+16
+
+297
+
+573
+
+75
+
+94
+
+455
+
+-51
+
+1,160
+
+271
+
+1,105
+
+262
+
+80
+
+57
+
+275
+
+157
+
+24
+
+296
+
+140
+
+130
+
+68
+
+-159
+
+101
+
+91
+
+99
+
+173
+
+158
+
+29
+
+291
+
+420
+
+202
+
+82
+
+91
+
+44
+
+1,253
+
+1,240
+
+301
+
+91
+
+108
+
+257
+
+163
+
+42
+
+292
+
+732
+
+200
+
+83
+
+109
+
+340
+
+266
+
+64
+
+136
+
+286
+
+163
+
+39
+
+285
+
+-393
+
+143
+
+65
+
+-534
+
+-67
+
+Recycling
+
+Total Supply
+
+DEMAND
+
+Automotive
+
+Jewellery
+
+Industrial
+
+Chemical
+
+Petroleum
+
+Electrical
+
+Glass
+
+Medical
+
+Hydrogen Stationary and Other
+
+Other
+
+Investment
+
+ Change in Bars, Coins
+
+China Bars ≥ 500g
+
+Change in ETF Holdings
+
+Change in Stocks Held by Exchanges
+
+Total Demand
+
+Balance
+
+Source: Metals Focus 2024 - 2026f.
+
+Notes: 
+
+4,606
+
+3,829
+
+4,281
+
+4,496
+
+3,264
+
+-24%
+
+-27%
+
+-1,007
+
+-106
+
+-919
+
+-628
+
+453
+
+N/A
+
+N/A
+
+1.  † Non-road automotive demand is included in autocatalyst demand. 
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 23 of 31
+
+11%
+
+21%
+
+-4%
+
+-14%
+
+-16%
+
+-4%
+
+N/A
+
+10%
+
+13%
+
+19%
+
+-9%
+
+13%
+
+11%
+
+-3%
+
+-3%
+
+N/A
+
+-24%
+
+12%
+
+1%
+
+-29%
+
+37%
+
+65%
+
+3%
+
+36%
+
+-2%
+
+N/A
+
+-29%
+
+-21%
+
+N/A
+
+N/A
+
+-6%
+
+-4%
+
+-9%
+
+-13%
+
+-16%
+
+-7%
+
+N/A
+
+-7%
+
+7%
+
+16%
+
+-19%
+
+5%
+
+-4%
+
+0%
+
+0%
+
+N/A
+
+-9%
+
+-1%
+
+-11%
+
+-29%
+
+26%
+
+11%
+
+1%
+
+-6%
+
+-3%
+
+N/A
+
+-29%
+
+-22%
+
+N/A
+
+N/A
+
+PLATINUM QUARTERLY Q3 2026Table 5: Regional demand – annual and quarterly comparison 
+
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026f
+
+2027f 2026f/2025 
+Growth %
+
+2027f/2026f 
+Growth %
+
+Q3 
+2025
+
+Q4 
+2025
+
+Q1 
+2026
+
+Q2 
+2026
+
+Q3 
+2026
+
+Platinum Gross Demand (koz)
+Automotive
+
+Jewellery
+
+Chemical
+
+Petroleum
+
+Electrical
+
+Glass
+
+North America
+Western Europe
+Japan
+China
+India
+Rest of the World
+
+North America
+Western Europe
+Japan
+China
+India
+Rest of the World
+
+North America
+Western Europe
+Japan
+China
+Rest of the World
+
+North America
+Western Europe
+Japan
+China
+Rest of the World
+
+North America
+Western Europe
+Japan
+China
+Rest of the World
+
+North America
+Western Europe
+Japan
+China
+Rest of the World
+
+Medical
+Other industrial
+Hydrogen Stationary & Other
+Bar & Coin Investment
+
+North America
+Western Europe
+Japan
+China
+Rest of the World
+
+China Bars ≥ 500g
+ETF Investment
+
+North America
+Western Europe
+Japan
+Rest of the World
+
+Change in Stocks Held by 
+Exchanges
+
+Investment
+Total Demand
+
+3,115
+390
+1,340
+425
+220
+200
+540
+2,245
+280
+255
+345
+1,095
+195
+75
+565
+50
+105
+15
+215
+180
+235
+55
+20
+5
+10
+145
+205
+15
+10
+15
+85
+80
+275
+5
+20
+0
+120
+130
+235
+525
+†
+280
+
+-245
+
+-20
+15
+7,415
+
+2,692
+314
+1,355
+285
+162
+††
+576
+2,106
+341
+237
+372
+871
+109
+176
+801
+98
+124
+66
+297
+215
+219
+30
+14
+7
+66
+103
+144
+39
+28
+20
+29
+27
+235
+-68
+59
+-37
+174
+108
+277
+603
+30
+285
+158
+55
+46
+15
+11
+16
+990
+125
+508
+-13
+370
+
+-20
+1,271
+8,379
+
+2,203
+271
+979
+223
+254
+††
+477
+1,830
+277
+196
+316
+832
+59
+151
+647
+103
+111
+62
+215
+156
+109
+5
+11
+6
+35
+52
+138
+37
+24
+17
+33
+26
+400
+-29
+40
+-63
+303
+150
+256
+507
+29
+603
+237
+83
+240
+23
+20
+23
+507
+524
+237
+58
+-312
+
+458
+1,592
+7,711
+
+2,472
+342
+925
+248
+361
+††
+596
+1,953
+409
+260
+298
+703
+123
+159
+622
+109
+116
+65
+221
+110
+169
+32
+18
+12
+39
+67
+143
+38
+26
+18
+33
+28
+683
+3
+6
+7
+702
+-36
+267
+540
+18
+340
+259
+65
+-26
+26
+17
+27
+-241
+-6
+56
+-23
+-268
+
+-139
+-13
+6,853
+
+2,776
+414
+975
+247
+431
+††
+709
+1,880
+448
+301
+333
+484
+171
+144
+690
+110
+107
+66
+225
+182
+193
+44
+30
+7
+26
+86
+116
+31
+22
+15
+25
+24
+475
+10
+26
+-150
+497
+92
+278
+562
+14
+273
+261
+49
+-114
+38
+39
+90
+-559
+-102
+-314
+-28
+-116
+
+-307
+-504
+6,480
+
+3,217
+451
+1,170
+291
+540
+††
+764
+1,849
+438
+319
+338
+408
+203
+143
+829
+121
+104
+53
+362
+190
+160
+44
+22
+6
+24
+64
+103
+28
+19
+14
+23
+21
+491
+32
+-90
+5
+542
+1
+292
+595
+23
+314
+172
+23
+54
+52
+12
+134
+-74
+-61
+-99
+12
+74
+
+14
+388
+7,948
+
+3,121
+489
+1,035
+287
+512
+††
+798
+2,008
+445
+343
+376
+412
+266
+166
+645
+97
+88
+58
+164
+238
+159
+56
+21
+6
+17
+60
+110
+29
+20
+15
+23
+23
+739
+56
+6
+-9
+759
+-73
+308
+592
+40
+205
+119
+33
+-18
+64
+6
+162
+296
+165
+163
+-6
+-26
+
+50
+713
+8,436
+
+3,054
+460
+960
+292
+542
+††
+800
+2,214
+470
+377
+383
+578
+247
+159
+563
+110
+104
+59
+99
+190
+182
+46
+6
+6
+14
+110
+208
+55
+38
+28
+42
+44
+430
+10
+1
+-183
+559
+43
+321
+583
+71
+402
+94
+33
+2
+239
+33
+165
+200
+486
+-232
+48
+-102
+
+384
+1,152
+8,777
+
+2,964
+
+2,813
+
+-3%
+
+-5%
+
+729
+
+771
+
+743
+
+758
+
+714
+
+1,771
+
+1,710
+
+-20%
+
+-3%
+
+492
+
+519
+
+461
+
+456
+
+410
+
+613
+
+792
+
+9%
+
+29%
+
+158
+
+143
+
+128
+
+138
+
+182
+
+132
+
+171
+
+-28%
+
+30%
+
+45
+
+45
+
+33
+
+31
+
+33
+
+280
+
+183
+
+35%
+
+-35%
+
+54
+
+54
+
+67
+
+69
+
+72
+
+557
+
+497
+
+30%
+
+-11%
+
+146
+
+111
+
+129
+
+156
+
+153
+
+331
+571
+77
+290
+
+342
+560
+115
+448
+
+3%
+-2%
+8%
+-28%
+
+3%
+-2%
+49%
+55%
+
+81
+143
+17
+82
+
+82
+149
+25
+118
+
+80
+144
+20
+105
+
+83
+141
+19
+37
+
+83
+139
+19
+40
+
+103
+-490
+
+105
+-150
+
+-38%
+N/A
+
+2%
+N/A
+
+34
+-169
+
+49
+21
+44
+278 -300 -234
+
+18
+47
+
+-300
+-398
+6,898
+
+110
+513
+7,696
+
+N/A
+N/A
+-21%
+
+358
+305
+
+50 -106
+N/A
+N/A
+-2
+12% 2,169 2,328 1,537 1,728 1,803
+
+-18
+-117
+427 -268 -125
+
+Source: SFA (Oxford) 2018, Metals Focus 2019 – 2027f. 
+Notes:
+1.  † Hydrogen Stationary & Other demand is included in Other industrial demand prior to 2019.
+2.  †† India automotive demand is included in Rest of the World.
+3.  Data from Metals Focus and SFA (Oxford) may not have been prepared on the same or a directly comparable basis.
+4.  Prior to 2019 SFA data is independently rounded to the nearest 5 koz.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 24 of 31
+
+PLATINUM QUARTERLY Q3 2026Table 6: Regional recycling – annual and quarterly comparison 
+
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025 2026f 2027f 2026f/2025 
+Growth %
+
+2027f/2026f 
+
+Growth %
+
+ Q2 
+2025 
+
+ Q3 
+2025 
+
+ Q4 
+2025 
+
+ Q1 
+2026 
+
+ Q2 
+2026 
+
+ Q3 
+2026 
+
+Platinum recycling 
+supply (koz)
+
+Automotive
+North America
+Western Europe
+Japan
+China
+Rest of the World
+
+Jewellery
+North America
+Western Europe
+Japan
+China
+Rest of the World
+
+Industrial
+North America
+Western Europe
+Japan
+China
+Rest of the World
+
+1,420 1,612 1,553 1,619 1,370
+458
+486
+687
+823
+81
+92
+59
+68
+86
+83
+
+490
+842
+114
+77
+95
+
+522
+792
+137
+35
+126
+
+13%
+
+5%
+
+318
+
+307
+
+318
+
+351
+
+371
+
+334
+
+1,114 1,163 1,232 1,393 1,465
+349
+615
+77
+83
+108
+
+311
+580
+73
+53
+96
+
+327
+585
+84
+72
+95
+
+505
+
+30
+
+476
+3
+4
+187
+276
+5
+
+69
+15
+11
+34
+7
+2
+
+422
+3
+4
+162
+248
+5
+
+66
+12
+10
+34
+7
+2
+
+422
+3
+3
+160
+250
+5
+
+67
+12
+11
+34
+8
+2
+
+372
+3
+4
+165
+195
+6
+
+69
+13
+11
+34
+9
+2
+
+331
+3
+4
+136
+183
+5
+
+71
+12
+13
+34
+9
+2
+
+298
+3
+4
+107
+179
+5
+
+76
+15
+15
+34
+10
+2
+
+356
+3
+4
+111
+233
+5
+
+81
+18
+18
+33
+11
+2
+
+282
+
+285
+
+-21%
+
+1%
+
+90
+
+86
+
+102
+
+84
+
+68
+
+62
+
+89
+
+96
+
+9%
+
+9%
+
+20
+
+21
+
+21
+
+21
+
+23
+
+21
+
+Source: SFA (Oxford) 2018, Metals Focus 2019 – 2027f.
+
+Prepared for World Platinum Investment Council by Metals Focus Limited (2019 onwards) and prior years by SFA (Oxford)
+
+Page 25 of 31
+
+PLATINUM QUARTERLY Q3 2026

@@ -60,3 +60,5 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [Valterra mine/refinery comparison](../shared/research/2026-10-26_SA-refinery-pipeline.md) — mine output, refinery timing, inventory draw and Q4 requirements versus Nornickel.
 
 - [October 28 catch-up](../shared/research/2026-10-28_catch-up.md) — October 27–28 prices, bands, Fed hold and news; no score change.
+
+- [November 18: WPIC Q3 2026 and MIDAS-20 HIT](../gold/research/2026-11-18_L819-L821-MIDAS20-close-grade.md) — 2026 surplus +468 koz (from +265), investment-driven; raw files `sources/2026-11-18_MIDAS-20_WPIC/` (KB-281).

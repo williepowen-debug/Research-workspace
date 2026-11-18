@@ -139,3 +139,7 @@ gold	gold	research	gold/research/2026-11-11_1110-gold-move-grade.md	November 11 
 gold	gold	sources	gold/sources/2026-11-11_1110_grade	11/10 grade bundle	Raw captures, sha256, grade.py and output.
 gold	gold	research	gold/research/2026-11-14_1111-1113-gold-move-grade.md	November 14 grade of the 11/11-11/13 gold fall	11/12 UNEXPLAINED-DOWN, not liquidation; real 10Y 2.91% 9 bp from the 3.00% line; MIDAS-17 to MISS side.
 gold	gold	sources	gold/sources/2026-11-14_1111-1113_grade	11/11-11/13 grade bundle	Raw captures, sha256, grade.py (holiday carry-forward, same-date MIDAS-17 fix) and output.
+gold	gold	research	gold/research/2026-11-18_L819-L821-MIDAS20-close-grade.md	November 18 TIC sign, L2 count, MIDAS-20 and 11/18 gold class	L821 SUPPORTS on sign; L2 4 of 10; MIDAS-20 HIT; 11/18 UNEXPLAINED-DOWN, no driver.
+gold	gold	sources	gold/sources/2026-11-18_close_grade	11/13-11/18 grade bundle	Raw captures, grade.py, grade_output.txt, bands_and_progress_1118.txt.
+gold	gold	sources	gold/sources/2026-11-18_L821_TIC	TIC September Table 5 capture	Pre-release and release copies of slt_table5.txt, SHA256SUMS.
+platinum	platinum	sources	platinum/sources/2026-11-18_MIDAS-20_WPIC	WPIC Platinum Quarterly Q3 2026	Tables XLSX, press release and report PDFs, extracted text, SHA256SUMS.

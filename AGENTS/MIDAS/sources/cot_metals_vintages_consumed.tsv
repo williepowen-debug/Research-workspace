@@ -15,3 +15,6 @@ report_date	metal	code	open_interest	nc_long	nc_short	net_nc_long	net_over_oi_pc
 2026-11-03	silver	084691	115583	37002	15751	21251	18.3859	2026-11-08	MIDAS	KB-MIDAS-266: +1.4336pp; 39.79th pct frozen ref. Context only.
 2026-11-03	platinum	076651	91278	28239	21574	6665	7.3019	2026-11-08	MIDAS	KB-MIDAS-266: -3.8649pp; 8.14th pct frozen ref. Context only.
 2026-11-03	palladium	075651	30676	11120	23423	-12303	-40.1063	2026-11-08	MIDAS	KB-MIDAS-266: -3.7591pp; 12.73rd pct frozen ref. Context only.
+2026-11-10	silver	084691	115652	36151	16787	19364	16.7433	2026-11-18	MIDAS	KB-MIDAS-280: -1.6426pp; 36.70th pct frozen ref. Context only.
+2026-11-10	platinum	076651	91632	27955	20328	7627	8.3235	2026-11-18	MIDAS	KB-MIDAS-280: +1.0216pp; 8.94th pct frozen ref. Context only.
+2026-11-10	palladium	075651	29729	9535	22215	-12680	-42.6520	2026-11-18	MIDAS	KB-MIDAS-280: -2.5457pp; 10.78th pct frozen ref. Context only.

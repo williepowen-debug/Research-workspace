@@ -53,3 +53,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T07:38:46-05:00	SIG-W-20261105-057	acted	INBOX_WALTER	KB-253; COR-20261105-57 receipted NO-OP, 26.86 never entered a MIDAS file. Yahoo VIX 28.18 matches.
 2026-11-11T09:29:21-05:00	SIG-W-20261109-010	noted	INBOX_WALTER	KB-270; INFO, context for copper China-demand read; no MIDAS row on the 11/10 or January clocks.
 2026-11-11T09:29:21-05:00	SIG-W-20261110-003	noted	INBOX_WALTER	KB-270; ACTION add graphite to any 11/27-clock row: MIDAS holds none, NO-OP. No score.
+2026-11-18T15:43:20-05:00	SIG-W-20261114-006	noted	INBOX_WALTER	KB-282 item 4 (gold weekly loss, copper worst week since March, CB buying +42% relay unverified). Rest not MIDAS. No score.
+2026-11-18T15:43:20-05:00	SIG-W-20261116-005	noted	INBOX_WALTER	KB-282 item 4 (gold 1-year low, copper four-month low, Sibanye US disruption). Item 8 Credit Acceptance corrected by COR-20261117-02, receipted NO-OP. No score.
+2026-11-18T15:43:20-05:00	SIG-W-20261117-009	noted	INBOX_WALTER	KB-282 item 4 (aluminium -2.9%), INFO only, aluminium is outside the four channels. No score.
+2026-11-18T15:43:20-05:00	SIG-W-20261118-004	noted	INBOX_WALTER	KB-282 (copper five-month low, Sibanye bond redemption). No score.
+2026-11-18T15:43:20-05:00	SIG-W-20261118-010	info-only	INBOX_WALTER	KB-282; HY OAS 343 bp 11/17 MET is LIQUID's; context for the 11/16-11/17 stress days on WQ-451 L2. No MIDAS action.

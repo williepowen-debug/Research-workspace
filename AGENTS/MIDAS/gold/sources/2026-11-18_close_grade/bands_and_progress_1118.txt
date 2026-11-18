@@ -1,0 +1,13 @@
+Bands on MIRROR closes through 11/18 (d200 = close/200-session mean -1; dd252 = close/252-session max -1)
+SLV 40.685 d200 11/18 -33.76 dd252 -61.47
+PPLT 12.4 d200 11/18 -25.13 dd252 -50.84
+PALL 17.195 d200 11/18 -30.14 dd252 -53.75
+MIDAS-17 running residual at 11/18 (MIRROR GLD; not graded): -3.86 GLD 341.25 real 2.88
+GLD vs 10/19 reference 379.69: -10.12 %; vs TERRY line 360.71: -19.46
+SLV 11/12->11/18 -9.83
+PPLT 11/12->11/18 -9.56
+PALL 11/12->11/18 -4.58
+CPER 11/12->11/18 -8.38
+GLD 11/12->11/18 -3.84
+SPY 11/12->11/18 -3.55
+QQQ 11/12->11/18 -4.16
