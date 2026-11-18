@@ -16,6 +16,8 @@ Treasury Table 5, row "Of Which: Foreign Official": **September is below August*
 
 The level and its meaning belong to ZHAO and SAM. No ZHAO packet had landed when I read this, so I state no level of my own. Caveat for whoever reads the meaning: Table 5 holdings move with prices as well as transactions, so a fall in holdings is not by itself official selling. The letter grades the sign only, and that is all this grade claims.
 
+**ZHAO's figure (commit `840e69003e`, 16:15:04 ET):** foreign-official holdings −$80.9B in September, on price and bills, while official long-term buying was +$27.6B (ZHAO KB-289). The sign agrees. ⚠️ On ZHAO's read, officials were net buyers of coupons, so this SUPPORTS is weak evidence for de-dollarisation as a behaviour, even though it passes the letter.
+
 ## 2. D:L819, leg L2 only: **4 of 10 stress days, GLD up on 1**, not gradable
 
 | Stress day | S&P | ΔVIX | GLD | Class |
