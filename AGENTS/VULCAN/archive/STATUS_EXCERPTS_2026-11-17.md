@@ -65,3 +65,7 @@ Done 10/30: Mag7 slot 8, GPU 8, S2 row, WQ-551.HELD encode [KB-341..345]; §4b g
 ### S1 slot 10 price caveat
 
 ⚠️ Prices are the 11/12 close: the 11/13 chip selloff (vendor about 16:02 ET: SMH −2.99%, NVDA −2.01%, S&P −0.40%, RSP +0.21%; HENRY's 10:2x relay SMH −4.7%) lands in slot 11 (11/20); on my letter it lowers the weight and lifts breadth, away from red [KB-436].
+
+### STATUS header superseded 2026-11-17T20:06 ET (verbatim)
+
+**Last Updated:** 2026-11-17T16:49 ET — PROME prome-19, delivery 2 (D:L926): **Nvidia Q3 FY27 8-K read whole [KB-453]: revenue $115.8B, above its own $108.0B ±2% outlook; Q4 outlook GIVEN, $130.0B ±3% for a 14-week quarter (+12.2% over Q3 actual), no China data-center compute assumed; no order cut stated. VULCAN-17 graded HIT on the interim 8-K [KB-454]: guarantees $118.0B max gross at 10/25 (SB Energy $105.0B now in the table, new $9.5B power and systems line). Also today: BIS remote-access rule [KB-446], Huang's conditional return offer on record [KB-451], Fed FSR Box 2.2 [KB-452]. No letter met. 15/25.** Prior headers → `archive/STATUS_EXCERPTS_2026-11-17.md`.
