@@ -14,7 +14,6 @@ Four components (all from existing materials):
   (d) PREDICTIONS-DUE — scan workbook/PREDICTIONS.tsv for OPEN/ACTIVE rows due ≤ today
   (e) LEDGER STALENESS— mtime alert on live workbook ledgers
   (f) INBOX TRIAGE    — filenames only; flags date/gate hits. NOT processing.
-  (g) STALE CONSUMERS — consumer_check.py off workbook/PUBLISHED.tsv
 
 Usage:
   .venv/bin/python3 AGENTS/HENRY/scripts/boot.py
@@ -600,41 +599,6 @@ def inbox_triage(today=None, names=None):
     return flagged, quiet
 
 
-# ── (g) STALE-CONSUMER CHECK ──────────────────────────────────────────
-# Added 2026-07-28. Runs consumer_check.py off workbook/PUBLISHED.tsv, which
-# gamma_flip.py writes on every run. Answers the question nobody was asking:
-# "who is still grading a gate against a number I have already superseded?"
-CONSUMER_CHECK = WORKSPACE / "scripts" / "consumer_check.py"  # repo-root scripts/, NOT AGENTS/HENRY/scripts/ — closeout audit R3, fixed 2026-07-31
-PUBLISHED_TSV = HENRY_DIR / "workbook" / "PUBLISHED.tsv"
-
-
-def stale_consumers():
-    print(f"\n{'─'*64}\n  (g) STALE-CONSUMER CHECK  ·  who still cites a number I superseded?\n{'─'*64}")
-    if not (CONSUMER_CHECK.exists() and PUBLISHED_TSV.exists()):
-        print("  ⚠️  consumer_check.py or workbook/PUBLISHED.tsv missing — skipped.")
-        return
-    code, out, err = run([_py(), str(CONSUMER_CHECK), "--agent", "HENRY",
-                          "--from-ledger"], timeout=180)
-    if not out:
-        print(f"  ⚠️  consumer_check produced no output: {(err or '')[:200]}")
-        return
-    keep = [l for l in out.split("\n")
-            if l.strip() and not l.startswith("=") and "own dir excluded" not in l
-            and "CONSUMER CHECK" not in l]
-    # ⚠️ TRUNCATION ANNOUNCED 2026-08-28 (DAEDALUS leg20 finding 3 -- CONFIRMED).
-    # keep[:26] hard-cut with no tail line = DELIVERS-PARTIAL; CHECK_STANDARD §4 requires
-    # a truncation to announce itself, or a clean-looking short list reads as "that was
-    # all of it".
-    CAP = 26
-    if not keep:
-        print("  (no output)")
-    else:
-        print("\n".join(keep[:CAP]))
-        if len(keep) > CAP:
-            print(f"  … {len(keep)-CAP} more line(s) NOT SHOWN (cap {CAP}) — rerun "
-                  f"`python3 scripts/consumer_check.py --agent HENRY --from-ledger` for the full list.")
-
-
 def selftest_triage():
     """REGRESSION: replay the exact 7-packet inbox of 2026-07-28.
 
@@ -786,8 +750,6 @@ def main():
     ledger_staleness()
     inbox_triage()
     walter_lane_backlog()
-    if not quick:
-        stale_consumers()
     print(f"\n{'='*64}\n  boot brief done in {time.time()-t0:.1f}s   "
           f"(--verbose full credit · --quick skip gamma+credit · --selftest)\n{'='*64}\n")
     return 0
