@@ -1,0 +1,51 @@
+# HEARTBEAT 41st base — plan and acceptance record
+
+Wednesday November 18, 2026, PROME prome-6e (desktop, Fable 5.2, context c25c5e82). Owed on `PROME/SCRATCH.md` § Next D and B(5). The 40th base is Friday 11/13 with two amendments and stands at its 75% rotation line, so the next change is a re-base. It is stale on the S&P's closes under 7,500 and under HENRY's 200-session average, the inverted volatility curve, HY's >320 run (MET on 11/17), the 20-year auction, the confirmed Qeshm strike and the Kuwait and Bahrain attacks, oil's fall, gold's fall, the September TIC data and the 11/18 broker capture. DOMAIN change; no process-rule change.
+
+## Proposed artifacts and operation
+Read the complete proposed text at `PROME/reports/2026-11-18_heartbeat-rebase/candidate.md` against `PROME/reports/2026-11-18_heartbeat-rebase/before.md` (the exact pre-edit HEARTBEAT: 40th base + Amendments 1 and 2). Evidence: `sources.md`, `dashboard.txt` and `fetch_prices.txt` in that directory. On acceptance: `before.md` is copied byte-exact to `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-11-18.md`, then the candidate replaces `HEARTBEAT.md` in one write; `PROME/HEARTBEAT_COLD.md` is not touched.
+
+## Assertions and verification
+| Claim | Artifact | Verification | Observed basis | Change |
+|---|---|---|---|---|
+| The 40th base is stale | before.md | read it | levels 11/13; two amendments; file at the 75% line | re-base, chain → 0 |
+| S&P closes 11/13 to 11/18; HEN-60 HIT, FRED-confirmed | HENRY's 11/18 close packet; fetch_prices.txt | read | 7,561.67 / 7,416.59 / 7,340.53 / 7,323.63; −6.33% from 7,818.93 | central, channel 5 |
+| VIX and the curve | HENRY; VIOLET; fetch_prices.txt | read; figures | 25.46 [11/17], ratio 0.9811; 24.56 and 24.29 [11/18] | central, channel 5 |
+| HY >320 run MET; tier rule BROADENS | LIQUID's 11/18 packet | read whole | 323 / 334 / 343; IG 92, BBB 115, BB 204, B 368, CCC 1,329 | central, channel 3, thresholds |
+| No bank leg; REG-T-04 0 of 3 | REGINALD's 11/18 packet | read | BANK-ABSENT; 7 bp short of 350 | central, channel 3 |
+| HYG card void clock 0 of 5 | TERRY's 11/18 packets | read | 334 [11/16] broke a run of 4 | central, thresholds |
+| 10Y fifth close over 5.0; 20Y clean | HENRY; BOND | read | 5.07 [11/18]; indirect 60.18 vs <57.11 | central, channel 2 |
+| Qeshm strike confirmed, not on record | FALCON's 11/17 card 022 packet | read | anonymous US officials on four wires; no CENTCOM release found | central, channel 7, kill-on-sight |
+| Kuwait and Bahrain attacks confirmed by the states | daily note; BRENT's packet | figures | damage NOT ESTABLISHED; claimant unsettled | central, channel 7 |
+| Oil fell; the continuous contract rolled | BRENT's 11/18 packet; dashboard.txt | read | BZF27 91.13 at 12:43 ET, 91.53 at 17:00 ET; curve fell as one piece | central, channel 1, kill-on-sight |
+| Gold UNEXPLAINED-DOWN | MIDAS's and TERRY's 11/18 packets | read | GLD 341.25 from 352.48; no stress; real 10Y 2.89 to 2.88 | central, channel 8, kill-on-sight |
+| September TIC | ZHAO's 11/18 packet | read | official holdings −80,916 ($M); official LT net +27,617; China LT −3,457 | channels 4 and 8, kill-on-sight |
+| SEC probe claim only; the board's refusal on record | VULCAN's 11/17 packet | read | one newspaper, unnamed sources, WSJ text not read | central, channel 6, kill-on-sight |
+| The book line | `will_brief.py --book-line`, run 16:55 ET | pasted whole | $45,338.94, export received 2026-11-18 | book state |
+
+## Invariants
+1. No owner threshold, operator, instrument, consequence, score, frozen prediction or restriction changes. X1 CLOSED/DON'T-SIZE, energy STAND DOWN, Kernel INACTIVE persist.
+2. No invented settlement, count, owner grade or trade. Official observations, vendor bars, owner grades and unpublished owner maps stay distinct.
+3. The generated book line is pasted whole; no positions or dispositions inferred; no expiry reminders.
+4. Full prior bytes preserved in the archive; cold file untouched; every repo pointer resolves after installation.
+5. Hot under 70% of 32,550 B; eight channel paragraphs near the 600 B target.
+6. Kill-on-sight carries the 40th base's still-binding items and its amendments' adds, plus this cut's. Items removed are named below.
+
+## Declared before the plan read
+- Removed from kill-on-sight as overtaken or date-bound (they stay binding for their dates in the archive): "PPI caused the 11/13 selloff" · "HY at 320 is an all-clear" and "the >320 run is still MET" (the run was reset on 11/12 and is MET again on 11/17; replaced by "the >320 run was never reset") · "the oil rise means barrels were lost" (oil fell; replaced by the two Gulf-and-oil items) · Amendment 2's "the 200-day break is confirmed" (FRED confirmed the 11/17 close and 11/18 closed lower). "REG-T-04 fired" is carried at the 11/17 figure. "The S&P closed under 7,500" is carried bound to 11/13. The Qeshm pair is carried and widened: FALCON grades the 11/17 strike CONFIRMED on anonymous officials, so both "the US confirmed" on the record and "claim only" are wrong.
+- Dropped from the channels, each staying in the archive with its date: the 11/12 and 11/13 intraday path, the CEO resignation detail (kept in one kill item), CoreWeave's and Oracle's CDS prints and CoreWeave's 10-Q debt figures, FR2004, PPI, the 30Y auction figures, Golub's NAV, the Saudi East-West claims detail (kept in one kill item), Freddie Mac's rate, multifamily special servicing, Arbor, Cass and Deere, the Mag-7 share and GPU rental indexes, the EIA week 11/6, BRT-32, BRT-33 and BRT-34 counts.
+- HENRY's walls are not quoted (withheld by HENRY); the memo carries the flip and the sign.
+- The 11/18 S&P and VIX closes are Cboe last trade and vendor; FRED posts them 11/19. HENRY's packet does not state the 11/18 value of its 200-session average, so the memo says only that 11/18 closed lower than 11/17.
+- VIX3M/VIX 0.989 [11/18] is PROME's division of the two vendor closes in `fetch_prices.txt`; TERRY's provisional read is 0.987.
+- GLD at the 11/18 close: MIDAS $341.25 (mirror, 16:10 ET), the vendor bar $341.19; the issuer close was not yet published. The memo's "3.2%" is $352.48 to $341.25.
+- Brent 11/18 is a vendor last after the settle window (91.53 at 17:00 ET on the dashboard, 91.55 in `fetch_prices.txt`), not a settle; no BRENT settle proxy exists for 11/18 in the packets read.
+- "Two hedges did not behave as hedges" is PROME's own reading, placed in the central judgment and labelled by position, not an owner grade.
+- The GATES rows for GATE-HY-REKILL and GATE-LIQ-069 still carry the 11/13 and 11/12 owner grades; the memo cites LIQUID's packet for the 11/17 cell. Updating those cells is separate ledger work.
+- Not re-read for this base: see `sources.md`. Carried owner lines keep their observation dates.
+
+## Review and disposition
+reads: 2 of 2 — **plan read** returned about 17:08 ET (Sonnet coldreader, blind; ledger `PROME/reports/2026-11-18_heartbeat-rebase/plan-read.md`): 17 of 24 clean, **0 ❌ · 7 ⚠️**. Kill-on-sight diff against before.md and Amendment 2: no undeclared removal. Book line re-run by the reader, identical. **Five ⚠️ items fixed before install because each could change what a reader does:** Bessent's 10-day demand to Nvidia's board [11/16] restored to channel 6 (a dated, still-running item dropped without declaration) · the HYG card's void rule (HY ≤330 on five consecutive closes) restored beside its count · "the 072 price leg" removed from the central judgment (undefined in the memo; LIQUID's packet holds it) · the central judgment now says the Qeshm confirmation rests on anonymous US officials and that the Kuwait and Bahrain attacks were confirmed by the two states · GATE-BRK-R2's review date (December 7, the GATES cell) restored. Installed 17:10 ET after those edits: archive byte-exact (`cmp`), candidate byte-exact, cold file untouched.
+
+**Residue declared, not fixed (plan read):** ⚠️ channel 7 is over the 600 B target · ⚠️ dropped from Thresholds as date-bound, in the archive: the HYG ×4 put spread's lapse at the 11/13 close, HEN-57 and HEN-58, "WQ-451 tests registered" · ⚠️ the VIX close of 11/18 is labelled "Cboe last trade", "Cboe close" and, in HENRY's packet, "settle": one figure, 24.56 · ⚠️ which 069 legs make its "2-of-2 FIRED" is not stated in the memo (GATES row GATE-LIQ-069 holds it) · ⚠️ TERRY's void clock counts 330 [11/11] as a close while LIQUID's run does not count it as an observation; the kill item says "for LIQUID's run" and no more · ⚠️ the Kuwait and Bahrain grade was taken from PROME's daily note; FALCON's packet of that grade was not re-opened for this base (`sources.md` says so).
+
+**Result read** returned 17:12 ET (Sonnet coldreader, blind; ledger `PROME/reports/2026-11-18_heartbeat-rebase/result-read.md`): **0 ❌ · 6 ⚠️**; install and archive byte-exact, cold file unchanged in git, every tested pointer resolves, book line identical, every dashboard cell matches, 35 figures traced by the reader's own selection with no wrong sign, date, unit or owner, no two statements in the file disagree. No HEARTBEAT edit was made after this read. **Residue declared, not fixed:** ⚠️ "the 95.79 settle proxy [11/13]" is carried from the 40th base (BRENT's 14:28 ET vendor window on `BZF27`, per that base); the reader found it only in BRENT's brief · ⚠️ Nvidia's gross-margin guide "71 to 72% against 74.8%" is carried from Amendment 2 (HENRY's 11/17 packet); the reader did not find the figure in the packets it searched, and PROME did not re-open that packet for this base · ⚠️ BRENT carried the 16 PortWatch transits as relayed; FALCON's own run agrees and is the memo's source · ⚠️ the reader did not find "0 of 5" in a packet; it is TERRY's (`2026-11-18_from-TERRY_L1187-L1192-and-tradeability-reads.md`, row D:L1187); the memo does not say which leg fired the card (T1, HY first-published 348 [11/5], per the GATES row) · ⚠️ GLD has two 11/18 closes side by side (MIDAS $341.25, vendor $341.19) · ⚠️ USD/JPY and Brent in the memo are the dashboard's cells (159.33, 91.53); `fetch_prices.txt` reads 159.30 and 91.55 a minute later. The reader did not test the cold-file section numbers or the DOCKET line references. Reads spent; any further edit to HEARTBEAT needs an independent read or a new base. Recorded 2026-11-18 17:13 ET.

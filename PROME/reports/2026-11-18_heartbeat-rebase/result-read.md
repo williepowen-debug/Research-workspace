@@ -1,0 +1,23 @@
+COLDREADER · /home/willi/Research-workspace/HEARTBEAT.md · 89 lines · 41 claims
+SCORE: 35/41 ✅ · 6 ⚠️ · 0 ❌
+
+Byte and mechanical checks (all by command):
+- cmp PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-11-18.md vs evidence before.md: IDENTICAL. cmp HEARTBEAT.md vs candidate.md: IDENTICAL.
+- git status/diff on PROME/HEARTBEAT_COLD.md: clean, no diff (last commit 35a62fbdbe).
+- will_brief.py --book-line output equals the "Book state" line (L71) exactly.
+- Dashboard table (L29-40) vs dashboard.txt: every cell matches (HY 343/CCC 1329, BZF27 91.53, 10Y 5.10, SOFR 3.92, SOFR-IORB 0.02, CP-TBill 0.20, VIX 24.56, MOVE 98.15, USD/JPY 159.33, KRE 70.52, OZK 49.58, WAL 70.83, APO 117.26, ARES 127.98, TLT 80.22, BIZD 12.14, ARCC 18.78, FSK 11.10, OBDC 10.67, claims 200,000/1,697,000, gas 3.81, Cushing 26.15, as-of dates).
+- Weekdays 11/18 to 12/9 all correct.
+
+Figures traced (all ✅ unless noted): 7,340.53 and 4.00 under 200d (HENRY); -6.33% from 7,818.93 (HENRY); 0.9811 and 25.46 (VIOLET); VIX +30.83%, HY +13bp (VIOLET); flip 7,552/7,561, -57.2/-78.8 (HENRY); HY 323/334/343 and tiers IG 92, BB 204, CCC 1,329 (LIQUID/HENRY); SOFR99-IORB +9, SRF 0.104B (LIQUID); 20Y 60.18/13.08/2.63/<57.11/17-35 (BOND); BRT-31 -1.7848%, 8,263.66, 95.7%, 417.797M (BRENT); 91.13 and 93.14 base (BRENT); FALCON-001 104.0% (FALCON); B1/C14/D85 (FALCON); GLD 341.25/352.48, SLV -4.58, PPLT -3.73, CPER -5.20, -10.1% week (MIDAS/TERRY); TIC -80.9B, +27.6B, China -3,457M, Japan 1,063.1B/-8.0B (ZHAO); 79.4B ESF, 30Y JGB 4.069, 160.188 high 11/13 (SAM); 324.7B (REGINALD); Delaware Life -60.3% (SHADE); Nvidia 115.844B, 118.0B, 32B/36B (VULCAN/TERRY); HEN-63 0.70 vs Kalshi 97 (ORACLE/HENRY); VULCAN 15/25. Gold arithmetic 352.48->341.25 = -3.19% OK; S&P -0.23% OK; ratio 24.29/24.56 = 0.989 OK.
+
+⚠️ 1 (L6) "against the 95.79 settle proxy [11/13]": the only source is AGENTS/BRENT/NEXUS_BRIEF.md ("95.79 on 11/13 [EST vendor proxy]"), not a processed packet or the pull files; a stranger cannot tell which contract it is or that it is comparable with January BZF27, while the same file (L8) warns that vendor Brent prints mix contracts.
+⚠️ 2 (L18) Nvidia "gross-margin guide 71 to 72%": I could not find "71 to 72" in any processed packet (HENRY says only "about 3 points lower" than 74.8%); figure untraced.
+⚠️ 3 (L20) "PortWatch: 16 Hormuz transits": BRENT says PortWatch was Token Required from its box, so the 16 is "carried as relayed" from WALTER; the memo does not say relayed (FALCON's own run agrees at 16, so low risk).
+⚠️ 4 (L62, L6) HYG void clock "0 of 5 through the 11/17 cell": not stated in any packet I searched; it derives from the GATES clause (<=330 x5) plus HY 343. Reasoning checks out, but the derivation is PROME's own, and the card is called "FIRED" while HYG itself closed $76.65 on 11/18 (fetch_prices.txt), under the gate's $76.81 trigger. The memo does not say which T1 leg fired.
+⚠️ 5 (L22 vs L29/L35 pulls) GLD $341.25 [MIDAS mirror] vs $341.19 in fetch_prices.txt, which the header (L2) names as a source for GLD; the MIDAS source is named in the line, but two GLD closes sit beside each other.
+⚠️ 6 (L2 vs L34) Header says USD/JPY from fetch at 17:01 ET; fetch shows 159.30, dashboard and memo carry 159.33; BZF27 fetch 91.55 vs memo 91.53 (dashboard). Sub-0.03 differences, basis (dashboard vs fetch) not stated per cell.
+
+Internal consistency: no two statements disagree. Checked: 10Y "fifth close over 5.0" (L6) vs "five closes, 5.07 to 5.15" (L79) vs BOND "four closes 11/12-11/17" plus the 11/18 par close = consistent. SOFR-IORB +2 bp (L6) vs 0.02 (L32) vs SOFR99-IORB +9 (L10) are different measures, each labelled. HY ">320 x3" consistent across L6, L12, L47, L61. 11/20 EIA week -> 11/25 release consistent (L8, L68). "HY 330 on 11/11" (L79) vs VIOLET/LIQUID 330 [11/10]: different days, the kill line says 11/11 not an observation (bond-market closure); consistent.
+
+POINTERS: all resolve: plan file, evidence directory (before.md, candidate.md, dashboard.txt, fetch_prices.txt, sources.md, plan-read.md), archive snapshot, PROME/HEARTBEAT_COLD.md, GATES.tsv, DOCKET.tsv, WILL_QUEUE.md, CALENDAR.md, themes/ellison, FORGE/STATUS.md, USER.md, AGENTS/*/STATUS.md for the 16 desks cited (BRENT HAWK BOND HENRY LABOR LIQUID BROCK REGINALD SAM VIOLET VULCAN FALCON CYPHER MIDAS ZHAO HOMER); dead: none. Not tested: cold-file section numbers (§KOS.16 etc.), DOCKET L247/D:L1199 row numbers.
+ONE-LINE VERDICT: Yes, a cold reader would act correctly off this file: all byte-identity, book-line and dashboard checks pass, 35 figures trace with no wrong sign, date, unit or owner, and the six ⚠️ are untraced or basis-unstated items, none a contradiction.
