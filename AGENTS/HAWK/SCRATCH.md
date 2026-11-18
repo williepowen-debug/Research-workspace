@@ -22,10 +22,10 @@ Boot (root + desk instructions, STATUS, SCRATCH, LESSONS, both sibling briefs, O
 
 ## NEXT SESSION
 
-1. **Before any fingerprint record:** read OSPREY's 11/18 commit (STRIKES diff, Crimea bridge grade, OSP-07 and OSP-08 grades), then `derived_freshness.py --capture`, review, `--record`, rerun. OVERDUE until done.
+1. Done 11/18: OSPREY's closeout read (`c28e59fe8d`, `e31bdfd58d`), fingerprints recorded at closeout. Next derived check at boot.
 2. **11/19 Thu:** Trump–Xi bilateral and the Trump–Xi–Putin trilateral, Shenzhen: watch for a dated text or instrument (ZHAO China, YURI Russia, FALCON Iran).
 3. **11/20 Fri:** Kataib Hezbollah deadline at Jurf al-Nasr (FALCON's PMF read; IRAQ-01 watch).
-4. **11/25–11/27:** C3 limb 2 canvass (OSPREY) and HAWK's first grade 11/27. China 46号 clause 2 ends 11/27 (ZHAO). C1 leg A earliest 11/27 (OSPREY).
+4. **11/25–11/27:** C3 limb 2 canvass (OSPREY) and HAWK's first grade 11/27. China 46号 clause 2 ends 11/27 (ZHAO). C1 leg A earliest 12/02 (OSPREY, moved from 11/27 on 11/18).
 5. **By 12/2:** EURMIL native 14-day check (Article 4 primaries, equipment stocks).
 6. **12/5:** VEN / TWN / TWNMIL / CODIF backstops. **12/16:** IRAQ / FININFRA / SULPHUR.
 7. **About 12/8–12/11 (dates unverified):** STEO, OPEC and IEA December prints; Saudi November supply. **About 12/17:** Japan November trade (SAM).
@@ -47,9 +47,9 @@ Boot (root + desk instructions, STATUS, SCRATCH, LESSONS, both sibling briefs, O
 ## MAIL STATE
 
 - Inbox: clear (6 direct filed to processed).
-- WALTER lane: clear through SIG-W-20261118-007.
+- WALTER lane: clear through SIG-W-20261118-009.
 - Outbox: none. Packet to PROME 11/18 (`PROME/inbox/2026-11-18_from-HAWK_reconciliation-wq709.md`).
 
 ## PENDING PUSH / GIT
 
-Local commits only this session (PROME holds pull and push until its closeout ask). Fingerprint record deferred (item 1).
+Local commits only this session (PROME holds pull and push until its closeout ask). Closeout on PROME prome-6e's ask 11/18 (hold lifted for closeout); safe-push receipt in the closeout notice to PROME.

@@ -622,3 +622,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-18T15:50:24+00:00	SIG-W-20261118-001	acted	WALTER	IMMEDIATE INFO card read whole; FALCON graded (live grade 11/18); KB-HAWK-530, STATUS 11/18.
 2026-11-18T15:50:24+00:00	SIG-W-20261118-006	acted	WALTER	CORRECTION read independently; COR-20261118-06 receipted NO-OP; claimant unsettled and damage NOT ESTABLISHED carried.
 2026-11-18T15:50:24+00:00	SIG-W-20261118-007	acted	WALTER	INFO card read whole; flows floors (PortWatch 16, Kpler 50%) and definitions conflict used in KB-HAWK-530/532.
+2026-11-18T15:55:26+00:00	SIG-W-20261118-009	acted	WALTER	INFO card read whole; SAM 79.6% (KB-HAWK-541) and ORACLE odds (KB-HAWK-543) already logged from PROME relays; YURI fuel-deficit and Ushakov items logged KB-HAWK-544. HAWK holds no live copy of the 62.6% August figure (grep of STATUS, brief, SCRATCH, aggregates, FALSIFICATION: none).
