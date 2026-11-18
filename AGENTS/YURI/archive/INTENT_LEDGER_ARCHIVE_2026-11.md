@@ -1,0 +1,40 @@
+# YURI INTENT_LEDGER archive — 2026-11
+
+Rotated 2026-11-18 by YURI (read-cap rotate tier, 85% → under 70%). Each block below is the verbatim text removed from `workbook/INTENT_LEDGER.tsv`; a pointer was left in its place. crc32 over everything after this paragraph: 2151923007.
+
+### header history (after the 2026-11-18 entry)
+
+```
+ | 2026-11-11: YUR-006 HIT (№817 05.11 + №832 06.11, JTI Russia under temporary management; Brier 0.09; DOCKET L772) | 2026-11-02: YUR-004 MISS (resolve read, NOT-DECIDED, coverage complete 02.10→31.10; DOCKET L896) | 2026-10-31: YUR-005 HIT (№1436, Brier 0.16) · YUR-F01 MISS recorded (DAEDALUS 10/28) · YUR-F02 registered (resolve 11/28) · YUR-004 checkpoints 10/23 and 10/30 MISSED (desk dark); FINAL READ done 10/31 (NOT-DECIDED, complete 02.10→30.10), MISS write owed at the 11/02 re-read | Prior Next: YUR-004 registered weekly reads 10/23·10/30 then final grade 10/31 (in-window backfills through 11/02) · overdue 10/09 checkpoint reviewed 10/12 and overdue 10/16 checkpoint reviewed 10/21, neither backdated · YUR-F01 DAEDALUS grade 2026-10-24, 0 of 3 at 10/21 · YUR-005 (№954 producer diesel exception start, Govt decision by 10/31) resolve 11/02 · YUR-006 (fifth Decree-302 list amendment) resolve 11/15 — both registered 2026-10-21 on Will's word in-session 21:55 ET · YUR-001 VOID and YUR-003 MISS preserved as made
+```
+
+### row YUR-001 (whole TSV line)
+
+```
+YUR-001	2026-09-18	2026-09-21	Russia announces a mobilisation DECISION after the 9/20 Duma vote closes	A presidential decree (Указ) or official MoD/Duma order titled on mobilisation (мобилизац) published in the window 2026-09-19→09-21	publication.pravo.gov.ru presidential block (http, not https) · kremlin.ru news · duma.gov.ru · mil.ru (HTTP 000 from this box) · dated Western-government assessment	NOT-DECIDED — PERIMETER PARTIAL (YURI 2026-09-25 re-read, window 09-19→09-25, research/2026-09-25_L432_YUR-001_GRADE.md): 0 мобилиз/призыв titles on pravo presidential block p1–2 (highest № 680, 25.09) · open-listing gaps now № 671/673/675/676/677 · kremlin.ru 0 hits (SecCouncil 24.09 = public-security/MVD; govt mtg 23.09 no mobilisation) · pravo government + federal_authorities blocks 0 hits · duma.gov.ru 0 (between convocations; № 680 convenes 30.09) · mil.ru HTTP 000 on 4 host/scheme variants · no named Western-govt assessment located (SEARCH-NOT-FOUND). Prior: HAWK 2026-09-21 NOT-DECIDED PARTIAL (c9089a455). READING PRESERVED VERBATIM 2026-10-02 ON ROW VOID.	belligerent headcounts (Zelensky 300k / UA CCD 500k+) adopted as figures · Russia's blanket denial read as evidence · a press-cycle claim read as a close · treating № 642 (05.09.2026, Military-Industrial Commission composition — corrected 2026-09-25 from "№ 638", which is a Hero-of-Labour award) as mobilisation · treating a routine conscription/establishment-strength decree (e.g. № 419 of 12.06.2026) as mobilisation · the "secret decree of 1 October" rumour · the 300,000 figure via ANY attribution (Zelensky, UA intel, or Bloomberg's anonymous European official)	OSPREY (theatre manpower) + HAWK (Leningrad MD refill / NATO posture, long fuse) — HAWK is the NAMED CONSUMER of this row	VOID (superseded prospectively by YUR-004 on Will's WQ-293 word 2026-09-26; reading preserved verbatim; not scored)	VOID-SUPERSEDED, UNSCORED 2026-10-02. The partial-perimeter grade from 2026-09-25 (research/2026-09-25_L432_YUR-001_GRADE.md, 0abe3353c) stands as the record of what the primaries this box can reach held in the 09-19 → 09-25 window; it is NOT and must never be read as certainty that no mobilisation decision occurred. YUR-004 is the forward-only, bounded, gradeable replacement. Record of VOID ruling: PROME/proposals/2026-09-26_wq-batch-292-296-300-287-257-295-RULED.md § Second ruling; applied this commit per inbox packet 2026-09-26_from-PROME_WQ-293-RULED-register-YUR-004-with-three-corrections.md.	—	UNSCORED (no probability registered; VOID)
+```
+
+### YUR-003 outcome cell, tail
+
+```
+ Operational finding added to playbook: kremlin.ru/events/president/news needs User-Agent: Mozilla/5.0 header (9/26 intermittence was a UA artefact).
+```
+
+### YUR-F01 reading cell (whole)
+
+```
+OPEN — 0 of 3 qualifying cross-channel marginal actor calls at 2026-10-21 review (one unclaimed candidate named for DAEDALUS in research/2026-10-21_L432-read-and-actor-update.md §5; not counted because it has no dated falsifiable form).
+```
+
+### YUR-004 reading cell, tail
+
+```
+ PRIOR NOT-DECIDED · COVERAGE COMPLETE 02.10→30.10 on both declaration sources; 31.10 and the late-publication backfill to 11/02 still open (YURI FINAL READ 2026-10-31T13:34–13:40Z, research/2026-10-31_YUR-004_FINAL-READ.md): pravo presidential block every publication date 02.10→30.10 titles read (top №788, 30.10; no 31.10 publication at 13:34Z); generic bodies read in full №778 4/4 · №775 2/2 · №774 3/3 · №762 2/2, 0 declarations; Kremlin events/president/news + acts/news 56/56 bodies 21.10→30.10 full-text scanned, 0 declarations (false positives only: призываем / мобилизовать инвестиции); ID gaps 81047–81131 404 on the feed path. Named gaps: restricted numbers №753–760, 773, 776, 777, 779–787 (+ prior №728/729/731/735/737/739); mil.ru UNREACHABLE (HTTP 000 ×4; Cyrillic mirror = generic gov.ru landing page); implementation leg DECLARED GAP. Checkpoints 10/23 and 10/30 MISSED (desk dark), covered by this read, not backdated. PRIOR (YURI 2026-10-21/22): NOT-DECIDED · PERIMETER PARTIAL to №752 and Kremlin 21.10 (research/2026-10-21_L432-read-and-actor-update.md §1, §8.1).
+```
+
+### YUR-004 outcome cell, tail
+
+```
+ PRIOR: FINAL READ 2026-10-31: no qualifying declaration at either declaration source for any date 02.10→30.10. MISS NOT YET WRITTEN — §6 needs every window date covered and 31.10 (Moscow) was still in progress; §4/§5 let an in-window act published by 11/02 confirm. Closing step: one re-read on/after Mon 2026-11-02 of pravo presidential p1 + Kremlin feed for acts/stories dated ≤31.10 published 31.10→02.11 ⇒ MISS (or HIT). Earlier interim: 2026-10-21 backfill of the 10/16 checkpoint, 0 declarations.
+```
+

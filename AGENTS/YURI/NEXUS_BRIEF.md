@@ -1,10 +1,9 @@
 # YURI — NEXUS Brief
 
-**Status:** 🟡 Score 2/5 unchanged (2026-11-11). **YUR-006 HIT 2026-11-11:** Указ №817 (05.11) and №832 (06.11) put seven JTI (Japan Tobacco) Russian companies under temporary management by АО «Промышленные активы», no disposal clause; Brier 0.09. Signed in the week of the 10.11 Abu Dhabi trilateral (Putin announced it 06.11, kremlin 81192). Japan Tobacco (TSE 2914) −28.4% 05.11→11.11. Earlier: YUR-005 HIT (№1436, producer diesel ban to 31.01.2027); YUR-004 MISS 11/02 (no public mobilisation declaration in October). YUR-F02 re-test to 11/28; call record YUR-C01 written 11/11.
-**Operational-effects follow-up:** bounded pass completed, underlying evidence PARTIAL. No authenticated extra diesel or series interruption established; №686 producer/group transaction scope is narrower than an automatic exchange-wide blackout. METRO mechanism/date are qualified without a cash-loss estimate; Aptar's announced Q3 release is 29 October. PROME consumed the operational result and YURI receipt reconciliation (`71accb333` owner report); WALTER's three-packet source consumption/№1272 adoption is verified at `635bbb010`, report §7.4. OSPREY consumption remains separately UNKNOWN. No new F01 credit.
-**12 October research delta:** METRO issuer confirms operating-control loss despite retained title; two FNS ownership-field checks corroborate foreign registered stakes (extracts dated 13 October Moscow). Aptar's Russian unit was below 0.6% of 2025 group sales/operating income. Minenergo public search is now readable; signed links remain missing. №1272 source attribution corrected to space licensing.
+**Status:** 🟡 Score 2/5 unchanged (2026-11-18). **Pre-Shenzhen (DOCKET L1146):** Russia confirmed the RU–CN–US trilateral at three Kremlin primaries (81252 12.11, 81268 16.11, 81286 18.11), none naming nuclear arms. Ushakov 12.11 re-tabled the 2021 NATO terms (non-enlargement; no threatening weapons near Russia's borders; NATO forces back to the 1997 Founding Act configuration). Government primaries 17.11 admit Crimea-bridge damage needing construction plus freight by alternative routes (government.ru 60475), and local fuel deficits with continued product imports (Novak, 60474). New rows YUR-007 (joint trilateral document, 20%, 11/21) and YUR-008 (2021 terms restated, 60%, 11/28). Earlier: YUR-006 HIT 11/11 (JTI custody, Brier 0.09); YUR-005 HIT; YUR-004 MISS.
+**Older deltas (10/12 operational effects, METRO/Aptar):** history; see `research/2026-10-12_*.md` and `archive/STATUS_ARCHIVE_2026-11.md`.
 **Domain:** Russian STATE ACTION and INTENT, whatever the target: decrees, seizures, mobilisation and force posture, the Kremlin political calendar. Feeder desk; never trades.
-**As of:** 2026-11-11 ET (primary fetches 2026-11-11T14:37–14:41Z: pravo presidential block, Kremlin feed and acts, government.ru docs) | STATUS commit: this brief and STATUS are committed together; verify with `python3 scripts/brief_pin_check.py YURI`.
+**As of:** 2026-11-18 ET (primary fetches 2026-11-18T15:39–15:41Z: Kremlin feed and acts, pravo presidential and government blocks, government.ru news) | STATUS commit: this brief and STATUS are committed together; verify with `python3 scripts/brief_pin_check.py YURI`.
 
 ---
 
@@ -13,6 +12,7 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| PROME → TERRY / BRENT / HANS / HAWK / OSPREY | 11/18 pre-Shenzhen read: trilateral confirmed at 3 Kremlin primaries, no nuclear-arms or document named; Ushakov 12.11 re-tables the 2021 NATO terms incl. the 1997 configuration; government.ru 17.11: Crimea-bridge damage needs construction, freight by alternative routes; Novak 17.11: local fuel deficits, product imports, non-class fuel. YUR-007 20%, YUR-008 60%. | 🟡 | BRENT: state-admitted product deficit under export bans to 31.01.2027. HANS: KB-197 fact 4 baseline. HAWK: posture demand on record. OSPREY: the state's half of the bridge. |
 | TERRY (via PROME) / SAM / HANS / HAWK | Указ №817 (05.11) + №832 (06.11), bodies read: JTI Russia group ×7 (ten interests) under temporary management, no disposal or buyer clause. Japan Tobacco (TSE 2914) ¥7,769 → ¥5,562 (−28.4%, 05.11→11.11, two locked limit-down sessions). Russia ≈10% revenue / ≈25% adj. OP and MoF 37.55% stake: press relays, issuer not read. | 🟠 | Custody track runs through the talks week; first Japanese parent on the №302 list in YURI's record. Pricing and tradeability are TERRY's; no YURI trade. |
 | BRENT / FERT | Government №1443 (31.10): 3-month export ban outside the EAEU on benzene, toluene, o-/p-xylene, phenol. №1457 (05.11): fertilizer export quotas >18.8 Mt (N >11.3, AN >2.3, complex >7.5) for 01.12.2026–31.05.2027. | 🟡 | Aromatics supply leaves the export market for 3 months; fertilizer quota is a routine renewal (not potash). |
 | HAWK / PROME | YUR-004 MISS 11/02: no public mobilisation declaration dated 02.10→31.10 at pravo or the Kremlin feed; §9 unread paths named (mil.ru, restricted numbers incl. №789–791, №397–408-рп; implementation leg). HAWK named consumer. By-catch 02.11: Указ №792 RU–BY military-technical cooperation regulation; 345-ФЗ RU–KG protocol. | 🟡 | No declaration input for Leningrad MD refill; not an armed-conflict risk score. PROME closes DOCKET L432. |
@@ -34,19 +34,20 @@
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| Russian Government (pravo government block) | Amendment to №954 ¶4/¶2(г), or none | Signed ≤31.10, published ≤02.11 | Decides whether n=0 producer diesel exports open on 01.11 | YUR-005 HIT (postponed/replaced with prohibition) or MISS (lapse); consequences go to BRENT/DEWEY/OSPREY |
-| President (pravo presidential block) | Further Decree-302 list amendment after №738 | Published ≤15.11 | Tests whether custody keeps widening during the US talks track | YUR-006 HIT/MISS; any disposal clause is logged for the L434 successor |
-| DAEDALUS | YUR-F01 grade | 10/24 | Desk premise test, 0/3 | The zero-call branch ⇒ retire/re-merge proposal, Will rules |
-
+| Kremlin (kremlin.ru feed, supplement, acts) | Shenzhen readouts: trilateral, Putin–Trump contact, Dushanbe press remarks | 19.11–21.11 (late read 23.11) | Decides whether the meeting produced a joint document and whether Russia restates its NATO terms | YUR-007 / YUR-008 HIT or MISS |
+| President (pravo presidential block) | A №302 list act removing JTI or naming a buyer; any mobilisation title | 28.11 | YUR-C01 falsifier; custody vs negotiation track | Custody track joined to the talks if JTI is released |
+| DAEDALUS | YUR-F02 grade | 11/28 | Desk premise re-test; call records YUR-C01, YUR-C02 | The zero-call branch ⇒ retire/re-merge proposal, Will rules |
 ---
 
 ## VIEW
 
+- **Strain without concession (11/18, record `research/2026-11-18_L1146_trilateral-read.md`):** Russia admits energy and supply strain at its own primaries (bridge restoration commission; fuel deficits and imports) while its stated price for the US track hardened to the 2021 NATO terms, re-tabled inside the European-security architecture the US itself opened (Kushner, kremlin 81246). Trilateral by itself: no investment implication. Fuel admission: BRENT's channel (export bans run to 31.01.2027; policy-led recovery of product exports before then unlikely while deficits stand).
+- **Custody track:** no Decree-302 amendment 06.11→17.11; №817/№832 (JTI) are the latest. Rosimushchestvo sells court-seized assets (Yuzhuralzoloto ₽93bn, Domodedovo, Raven Russia), a disposal path outside №302.
 - **Two tracks at once (Kremlin 21.10; pravo 15.10):** rapprochement with Washington (diesel tankers readied, first 40,000 t "in two to three days" with financing open; pardon of a US citizen; "in principle ready" for RU–US–UA talks mid-November) alongside widening custody of Western assets (№738 = 4th Decree-302 list amendment in 4 weeks, 9 interests, new manager УК "ЦЕНТР КАПИТАЛ", no disposal clause). Record: `research/2026-10-21_L432-read-and-actor-update.md`.
 - **No title movement at the registry:** ЕГРЮЛ 22.10 04:24 Moscow shows Nestlé Russia (SPN 84.082% / Nestlé Deutschland 15.918%) and Auchan (Sogepar 99.99858%) unchanged. LEV entered as management organisation 23.09 (Nestlé) and 21.10 (Auchan): custody registered, not disposal.
 - **Diesel regime (precise form, §9):** the whole ban runs to 31.01.2027. №1252 moved the ¶2(г) n=0 producer diesel exemption start to 01.11 and ends the ¶2(в) EAEU exemption 31.10. The 500 kt permission (10.10) is announced; its signed act/annex is still unlocated. "Lifted" is wrong (WALTER correction COR-20261021-16).
 - **Information/compliance control:** №686 (TEK information restriction; goods-code list still unlocated) and №750 (prior-consent gate on strategic JSCs and subsidiaries answering foreign regulators; change vs prior wording not compared).
-- **Kremlin 16.10 / 21.10 extras:** Putin says the border security zone is not negotiable (16.10, command post; published transcript stops before the autumn-winter tasks). He offers fertilizer "in large quantity" to the US (21.10). A possible RU–CN–US meeting at APEC Shenzhen is "not rejected" (Ushakov).
+- **Kremlin 16.10 / 21.10 extras:** Putin says the border security zone is not negotiable (16.10, command post; published transcript stops before the autumn-winter tasks). He offers fertilizer "in large quantity" to the US (21.10). A possible RU–CN–US meeting at APEC Shenzhen was "not rejected" (Ushakov 21.10; now confirmed, see the 11/18 line).
 - **Mobilisation:** no declaration through 21.10 in any reachable act or Kremlin body; residual gaps are structurally unreadable (mil.ru UNREACHABLE 10/22 01:28Z; unpublished numbers).
 - **№738 listed exposure:** **Ontex (Euronext Brussels) VERIFIED**: issuer Inside Information 16.10, Russia about 5% of revenue and 7–8% of adj. EBITDA, an interim administrator has operational control. **Sonoco (SON) VERIFIED**: no divestiture disclosed through the 21.10 Q3 release, which is silent on the seizure. Smurfit Westrock UNVERIFIED with contrary evidence; Tarkett listing unresolved; Menshen UNVERIFIED. Ownership routing is PROME's; not priced.
 - **№750 made precise:** the only change is a new trigger, so foreign-LAW obligations now also require prior state consent.
@@ -55,7 +56,7 @@
 
 ## CALIBRATION
 
-- **Conviction:** direction-L · timing-L · level-n/a. YUR-005 p=0.60 (postponement), YUR-006 p=0.70 (fifth amendment).
+- **Conviction:** direction-L · timing-L · level-n/a. Open: YUR-007 20% (joint trilateral document by 11/21), YUR-008 60% (2021 terms restated by 11/28). Resolved: YUR-005 60% HIT, YUR-006 70% HIT (now in the `prob` column).
 - **Diverge from market by:** n/a. Russia has no investable surface.
 - **Cross-agent tensions known to me:** none open. The 008 "lifted" framing is corrected at WALTER (BOARD -016).
 - **Uncertain about:** how the 500 kt permission is administered (no public act on the complete 28.09→21.10 government perimeter); whether the №686 code list exists as a restricted act; unpublished decree numbers; the closed parts of Kremlin meetings; the 2818-р bill's content.
@@ -65,8 +66,8 @@
 
 ## NEXT DECISION POINT
 
-- **What:** YUR-006 grade (further Decree-302 list amendment after №738, published ≤15.11; DOCKET L772); YUR-F02 dated cross-channel calls (DAEDALUS grades 11/28).
-- **When:** 2026-11-15 / 2026-11-28.
+- **What:** YUR-007 grade (joint RU–CN–US document on kremlin.ru); YUR-008 grade (2021 terms restated by Putin or Ushakov); YUR-F02 dated cross-channel calls (DAEDALUS grades; call records YUR-C01, YUR-C02).
+- **When:** 2026-11-21 (late read 11/23) / 2026-11-28 / 2026-11-28.
 - **What would change my view:** a №302 list act carrying disposal or a buyer; a public act for the US diesel channel; a dated mobilisation instrument (no row open on it since YUR-004 closed MISS 11/02).
 
 ---
@@ -75,8 +76,9 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| mid-Nov | RU–US–UA talks (Ushakov 21.10, "in principle") | HAWK reaction leg; calendar only |
-| 2026-11-15 | YUR-006 grade | Further Decree-302 list amendment published |
+| 2026-11-19 | Shenzhen: Xi bilateral, RU–CN–US trilateral, Putin–Trump contact; Putin to Dushanbe 19–20.11 | Kremlin readouts; YUR-007/008 |
+| 2026-11-21 | YUR-007 grade | Joint three-leader document on kremlin.ru |
+| 2026-11-28 | YUR-008 grade; YUR-C01 falsifier date (JTI removal or buyer) | 2021 terms restated; №302 list act removing JTI |
 | 2026-11-28 | YUR-F02 desk self-falsifier re-test (DAEDALUS) | ≥3 dated cross-channel marginal actor calls |
 
-Evidence: `research/2026-10-21_L432-read-and-actor-update.md` (current), `research/2026-10-12_*` (prior vintage).
+Evidence: `research/2026-11-18_L1146_trilateral-read.md` (current), `research/2026-11-11_L772_YUR-006_GRADE-and-catchup.md`, `research/2026-10-21_L432-read-and-actor-update.md` (prior).
