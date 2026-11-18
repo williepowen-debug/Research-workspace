@@ -8,6 +8,10 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-11-18 — TIMELINE only (v1.7 unchanged)
+
+**TIMELINE:** added the 11/12 → 11/18 resolved block: 160 touched twice without a close; FRBNY Q3 establishes the US leg at ¥79.4B (ESF only, Fed did not intervene); 30Y back above 4.0 with two SOFT long-end auctions; December 84%. **Old view → new view:** "the ~$10.8B reserve-securities shortfall is consistent with a joint US leg" → the US leg was ~$0.5B from US euro reserves, so a repeat operation is read as Japan-funded. No thesis, threshold or prediction change. Source → `research/outputs/2026-11-18_domain-update/DOMAIN_UPDATE.md`.
+
 ## 2026-11-10 — TIMELINE: 11/10 branch RESOLVED (SoftBank graded CONFIRMED, December 72%, 30Y SOFT, 8/3 op day); v1.7 unchanged
 
 **TIMELINE:** new 2026-11-10 block. SoftBank 9/30 LTV 15.9% reported; 22.5% rolled to Arm $183.26 vs pre-registered 21.6% → CONFIRMED; SVF2 loan inside the ratio; OpenAI mark flat. Totan December 52 → 72 (11/9). Summary of Opinions hawkish, no date. MOF Q3: 8/3 an op day (¥1,871.4B). 30Y auction SOFT (BTC 3.356×, tail 2.4bp).

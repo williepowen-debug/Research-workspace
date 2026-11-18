@@ -1,5 +1,11 @@
 # SAM TIMELINE
 
+## 2026-11-12 → 11-18 — ✅ RESOLVED: 160 touched twice, no close above; the summer operation was Japan's alone; the long end back above 4%
+
+USD/JPY touched 160 in two consecutive completed sessions (11/12 H 160.044, 11/13 H 160.188) and closed under it each time (159.858, 159.686), then held 159.5 through 11/17. The 11/12 touch met a one-minute −0.705 yen drop of unknown cause; the 11/13 pullback was gradual. Katayama's 11/13 warning ("one-sided, rapid moves", close coordination with the US Treasury) is on MOF's transcript; by 11/17 she said nothing on currencies. The New York Fed's Q3 report (11/12) settled a question open since August: the US leg of the 7/31 joint operation was ¥79.4B from the ESF against euros, and the Fed itself did not intervene. Japan's ¥15.4T was the operation. A repeat near 160 should be read as Japan-funded.
+
+The long end moved first: the 30Y crossed back above 4.0% on 11/13 (MOF 4.069 on 11/17), and both long-end auctions in the window graded SOFT (30Y 11/10, 20Y 11/18). The BOJ did not cap it (SAM-33 un-fired). December pricing climbed to 84% (Totan 11/18) despite a flat Q3 GDP, and speculators held a record net-long yen position (+123,113, 11/10), so no short-yen fuel sits under the 160 line. **Forward branch:** MOF's monthly total ~11/30 is the only official answer to whether anything was done at 160; the December MPM (12/17–18) is the next policy fork. Detail → `../../research/outputs/2026-11-18_domain-update/DOMAIN_UPDATE.md`.
+
 ## 2026-11-10 — ✅ RESOLVED: the 11/10 branch. SoftBank under its ceiling, December live again, the 30Y soft
 
 The 11/6 forward branch named Tuesday 11/10. SoftBank reported **15.9% LTV at 9/30**, the flattering headline expected (Arm $289.66, before the October $10B tranche). Rolled to Arm $183.26 on 11/10 it is about **22.5% on SoftBank's own basis**, which confirms the desk's pre-registered estimate (21.6%, within ±1.5) and leaves it under the 25% normal-times ceiling until Arm falls to about $145. The OpenAI loan SoftBank guarantees sits **inside** its ratio, the OpenAI mark did not move, and SoftBank's own pro forma, about 20%, leaves out the October tranche. No bank or household break was found.

@@ -339,3 +339,20 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-13T01:12:42+00:00	SIG-W-20261112-007	noted	INBOX_WALTER	30Y UST auction 912810UY2 cleared BOND's frozen bars on WALTER arithmetic (indirect 68.11%, BTC 2.36); BOND grades. Context for SAM: no Japan-demand failure visible at the auction on the day of the 160 touch. No SAM row moves
 2026-11-13T01:12:42+00:00	SIG-W-20261112-009	noted	INBOX_WALTER	Houthi claim on East-West pipeline PS7 and Yanbu, strikes unconfirmed; FALCON/BRENT grade. SAM Gulf channel: Japan ME crude share 62.6% (Aug), bypass risk would raise yen-terms oil bill; nothing confirmed, no SAM row moves
 2026-11-13T01:12:42+00:00	SIG-W-20261112-010	acted	INBOX_WALTER	Yen item graded in the WQ-680 160-row grade 11/12 20:xx ET: completed-session TOUCH (H 160.044), NO CLOSE (C 159.873); intervention unconfirmed, none REPORTED; Katayama 11/13 09:47 JST words REPORTED. Nvidia/ConnectWise/Athene items not SAM's
+2026-11-18T15:39:52+00:00	SIG-W-20261113-004	acted	INBOX_WALTER	US leg of the 7/31 operation verified at the FRBNY Q3 report (primary): ¥79.4B, ESF against euros, Fed did not intervene. STATUS_REFERENCE joint-US-leg line corrected, KB-SAM-265 member. No ladder move
+2026-11-18T15:39:52+00:00	SIG-W-20261114-003	noted	INBOX_WALTER	Trilateral at APEC Shenzhen (Iran 'may' be discussed per BBC). No SAM row; ZHAO/HANS own it
+2026-11-18T15:39:52+00:00	SIG-W-20261114-006	noted	INBOX_WALTER	FT headline 'Arm boss Rene Haas approached in Nvidia CEO search' logged to KB-SAM-262 (no LTV route). Other items not SAM
+2026-11-18T15:39:52+00:00	SIG-W-20261116-001	noted	INBOX_WALTER	Iranian drone attempt on a US radar in Bahrain, intercepted. SAM oil-yen channel: Brent fell that day. No SAM row moves
+2026-11-18T15:39:52+00:00	SIG-W-20261116-005	acted	INBOX_WALTER	SoftBank $11B junk-bond title logged to KB-SAM-262 with a bracket (+2.3 points if new money, about zero if refinancing; use not read, LIQUID owns). Yen item 7 to KB-SAM-265
+2026-11-18T15:39:52+00:00	SIG-W-20261116-009	noted	INBOX_WALTER	Correction of card 001, receipted COR-20261116-09 NO-OP (SAM recorded nothing from it)
+2026-11-18T15:39:52+00:00	SIG-W-20261117-001	noted	INBOX_WALTER	Qeshm claim, third Bahrain attempt, two tankers hit in Hormuz. Oil-yen context only; no SAM row moves
+2026-11-18T15:39:52+00:00	SIG-W-20261117-006	noted	INBOX_WALTER	Dollar at highest since April 2025 and 'yen could weaken into the danger zone' titles logged to KB-SAM-265
+2026-11-18T15:39:52+00:00	SIG-W-20261117-007	info-only	INBOX_WALTER	US AI-chip licence extension and Megaspeed probe. Not SAM
+2026-11-18T15:39:52+00:00	SIG-W-20261117-015	info-only	INBOX_WALTER	Iran/Iraq titles. Not SAM
+2026-11-18T15:39:52+00:00	SIG-W-20261117-022	noted	INBOX_WALTER	US strike on Qeshm confirmed by an anonymous official; TARA GAS. Oil-yen context; no SAM row moves
+2026-11-18T15:39:52+00:00	SIG-W-20261117-024	noted	INBOX_WALTER	FXStreet 'yen gains a third session as Tokyo's warnings hold 160' logged to KB-SAM-265; own bars: 11/16-17 closes 159.526 and 159.520
+2026-11-18T15:39:52+00:00	SIG-W-20261117-028	noted	INBOX_WALTER	Correction of card 022, receipted COR-20261117-28 NO-OP
+2026-11-18T15:39:52+00:00	SIG-W-20261118-001	noted	INBOX_WALTER	Kuwait and Bahrain attacks, ADNOC ship struck in Hormuz. Oil-yen context: Japan October ME crude share 79.6% (provisional, own arithmetic) is the exposure. No SAM row moves
+2026-11-18T15:39:52+00:00	SIG-W-20261118-004	acted	INBOX_WALTER	Japan October trade deficit read at Customs via trade_balance_japan.py (-¥476.5B, crude volume -0.7% y/y, ME share 79.6%). FT intervention-watch title to KB-SAM-265
+2026-11-18T15:39:52+00:00	SIG-W-20261118-006	noted	INBOX_WALTER	Correction of card 001 (Kuwait/Bahrain), receipted COR-20261118-06 NO-OP
+2026-11-18T15:39:52+00:00	SIG-W-20261118-007	noted	INBOX_WALTER	Iran weekly sweep: PortWatch Hormuz 16 transits 11/9-15, Kpler clearance 50%. For SAM: Japan's October ME crude volume rose to 79.6% of crude imports (provisional), so a November Hormuz squeeze lands on a higher share; November trade data (about 12/17) will show it. FALCON/BRENT grade

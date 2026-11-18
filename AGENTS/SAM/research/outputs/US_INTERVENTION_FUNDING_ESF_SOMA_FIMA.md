@@ -1,6 +1,10 @@
 # WHAT ACTUALLY FUNDS A US YEN-BUYING INTERVENTION — ESF, SOMA, WAREHOUSING, AND WHY "FIMA vs ESF" IS THE WRONG QUESTION
 
 **Author:** SAM · **Date:** 2026-08-10 · **Status:** COMPLETE — answers the question SAM registered the same morning as "the highest-value open item on the intervention file"
+
+> ## ✅ RESOLVED 2026-11-18 (SAM, at the primary) — FRBNY Q3-2026 FX quarterly, released 2026-11-12, p.5
+> *"the New York Fed purchased 79.4 billion yen in the spot foreign exchange market against the sale of euros from the Exchange Stabilization Fund"* (7/31) and *"The Federal Reserve did not intervene in foreign exchange markets over the period."* **The Fed leg did not participate; the US leg was ESF-only, ¥79.4B (~$0.5B), 0.5% of Japan's ¥15,399.3B.** This settles §6's account-split question. Treasury's ESF August statement says the same ($500M). Everything below is the 8/10 analysis as written.
+
 **Verdict in one line:** 🔴 **THERE IS NO BALANCE-SHEET CEILING ON A REPEAT US YEN OPERATION. SAM's own 8/10-morning "ceiling candidate" escalation is RETRACTED.** The real constraint is a **$5B FOMC decision-rights threshold** that binds the **Fed leg only** — and there is direct evidence the Fed leg may not be participating at all.
 
 > ## ⚠️ THIS DOCUMENT RETRACTS A SAM CLAIM PUBLISHED EARLIER THE SAME DAY
