@@ -62,3 +62,9 @@ receipt_date	correction_id	action	note
 2026-11-16T15:12Z	COR-20261114-10	APPLIED	artifact=AGENTS/LIQUID/research/2026-11-16_due-row/REPORT.md#3; validation_ref=NONE; 
 2026-11-17T01:48Z	COR-20261116-08	NO-OP	scope=LIQUID held an INFO copy only and never relayed or used cards 006 or 008 in any LIQUID artifact. No funding or rail read depends on them; 
 2026-11-17T01:48Z	COR-20261116-10	NO-OP	scope=LIQUID held an INFO copy only and never relayed or used cards 006 or 008 in any LIQUID artifact. No funding or rail read depends on them; 
+2026-11-18T15:39Z	COR-20261117-17	APPLIED	artifact=AGENTS/LIQUID/workbook/KB.tsv#KB-LIQ-153; validation_ref=NONE; 
+2026-11-18T15:39Z	COR-20261117-20	APPLIED	artifact=AGENTS/LIQUID/workbook/KB.tsv#KB-LIQ-153; validation_ref=NONE; 
+2026-11-18T15:39Z	COR-20261117-02	NO-OP	scope=Credit Acceptance item never received or used by LIQUID, no LIQUID artifact cites it; 
+2026-11-18T15:39Z	COR-20261117-10	NO-OP	scope=Retail sales card 004 never used by LIQUID, CARL owns; 
+2026-11-18T15:39Z	COR-20261117-12	NO-OP	scope=Outage cards 008 and 011 never relayed or used by LIQUID, logged info-only; 
+2026-11-18T15:39Z	COR-20261117-31	NO-OP	scope=Weekday label only, LIQUID records cite the FSR by date with no weekday; 
