@@ -27,6 +27,8 @@ Outcome: US ran Operation Absolute Resolve Jan 3 2026 - captured Maduro in Carac
 
 Notes: Resolved Jun 20 2026 (event Jan 3). STATUS + VX-HAWK-VEN-01 carried "rhetoric only" ~5.5mo stale - dormant secondary vector never re-swept while Iran absorbed bandwidth (see LESSONS). Now post-intervention NORMALIZATION: sanctions lifted on acting-pres Delcy Rodriguez (Apr), oil sector reopened to US firms, dark-fleet blockade still enforced. KB-HAWK-194. **Lesson: re-sweep dormant secondary vectors; a 95%-conf prediction failed because the disconfirming event had already happened unobserved.**
 
+**Dated note, 2026-11-18 (HAWK, answering the outside audit relayed by PROME 11/16: "HAW-03 is dated 2/18 on an event your ledger says happened 1/3. Withdraw it or correct the record").** The audit's fact is right: the row was registered 2026-02-18, 46 days after Operation Absolute Resolve (2026-01-03) and 63 days after the 2025-12-17 blockade, so on the day it was written its claim was already false. It was never a forecast of an uncertain future; it was a 95% claim about a state of the world that HAWK had not checked. HAWK keeps it **FAILED, in the Brier book, not withdrawn and not VOIDED**: VOIDED is reserved for premise-failed conditionals (HAW-07), and withdrawing it would delete the record's most expensive evidence-gathering miss and flatter the calibration line. Read it as a research failure scored at forecast prices, not as evidence about forecasting skill on open questions. The frozen letter in `PREDICTIONS.tsv` (HAW-01..17 are pre-split history) is not edited; this note is the correction.
+
 ---
 
 ## HAW-04

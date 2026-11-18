@@ -601,3 +601,24 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-11T14:30:13+00:00	SIG-W-20261111-001	acted	WALTER	INFO card read whole with BRENT's grade packet (PROME/inbox/processed/2026-11-11_from-BRENT_saudi-momr-grade.md). Independent series EIA 9.3 / survey 9.2 used; STEO 2.5 shut-in not overtaken. Logged KB-HAWK-525; FLOW-19 decoupling reading KB-HAWK-527 (strengthens on supply leg, willingness untested).
 2026-11-11T14:30:13+00:00	SIG-W-20261111-005	acted	WALTER	INFO card read whole; FALCON answered it (report 2026-11-11_weekly-review-gate001-card008.md). No ladder fire, census 7, Hormuz PortWatch 27 transits 11/2-11/8 is a floor not a volume. Consumed in KB-HAWK-526/527.
 2026-11-11T14:30:13+00:00	SIG-W-20261111-006	acted	WALTER	CORRECTION read independently. COR-20261111-06 receipted APPLIED: HAWK SCRATCH 11/9 line 'Abqaiq missile intercepted' corrected; KB-HAWK-515 already read Eastern Province intercepted, Abqaiq claim only.
+2026-11-18T15:50:24+00:00	SIG-W-20261111-009	acted	WALTER	INFO card read whole; YURI's decree read cited, not re-pulled. JTI custody under Decree-302 logged in sanctions-regime pattern KB-HAWK-540. No band moves.
+2026-11-18T15:50:24+00:00	SIG-W-20261111-011	info-only	WALTER	INFO card read whole; ORACLE's odds, superseded by ORACLE's 11/18 read relayed by PROME (KB-HAWK-543). No HAWK row reads them.
+2026-11-18T15:50:24+00:00	SIG-W-20261111-012	noted	WALTER	INFO card read whole; FALCON's 11/10 hull count (two hulls) consumed in KB-HAWK-530 context; census 7.
+2026-11-18T15:50:24+00:00	SIG-W-20261111-013	acted	WALTER	CORRECTION read independently; COR-20261111-13 receipted APPLIED: Saudi 10.563 is production, supply to market 9.203, secondary 9.194; KB-HAWK-532 and STATUS carry 9.2.
+2026-11-18T15:50:24+00:00	SIG-W-20261111-026	noted	WALTER	INFO card read whole; Houthi Pumping Station No. 11 claim, FALCON graded CLAIM ONLY 11/13; in KB-HAWK-530.
+2026-11-18T15:50:24+00:00	SIG-W-20261111-032	noted	WALTER	INFO card read whole; Lahij claim and Roosevelt projection overtaken by FALCON grades (Bab shore pullback 11/15, Roosevelt arrived 11/15); in KB-HAWK-530.
+2026-11-18T15:50:24+00:00	SIG-W-20261112-006	info-only	WALTER	INFO card read whole; WPSR week to 11/6 is BRENT's; no HAWK row reads it.
+2026-11-18T15:50:24+00:00	SIG-W-20261112-009	noted	WALTER	INFO card read whole; Pumping Station 7 and Yanbu claims CLAIM ONLY per FALCON 11/13; Brent move not attributed. KB-HAWK-530.
+2026-11-18T15:50:24+00:00	SIG-W-20261114-003	acted	WALTER	INFO card read whole; trilateral 11/19 and Donbas-for-NATO line logged KB-HAWK-535 with ZHAO's China read.
+2026-11-18T15:50:24+00:00	SIG-W-20261114-004	acted	WALTER	INFO card read whole with BRENT's 11/14 OMR note (secondaries): surplus is a Q4 forecast, land stocks lowest since 2016. KB-HAWK-532, FLOW-19.
+2026-11-18T15:50:24+00:00	SIG-W-20261116-001	noted	WALTER	INFO card read whole; superseded in part by correction 009; Bahrain and Bab items graded by FALCON; KB-HAWK-530.
+2026-11-18T15:50:24+00:00	SIG-W-20261116-003	acted	WALTER	INFO card read whole; HAWK's items (Sulina ships, Estonia, Black Sea war risk, shadow-fleet conference) researched at search level: KB-HAWK-533, -534, -537, -540. Crimea bridge and refineries OSPREY's.
+2026-11-18T15:50:24+00:00	SIG-W-20261116-009	acted	WALTER	CORRECTION read independently; COR-20261116-09 receipted NO-OP (no prior HAWK line).
+2026-11-18T15:50:24+00:00	SIG-W-20261117-001	noted	WALTER	INFO card read whole; Qeshm claim later confirmed (card 028); hulls and Bahrain per FALCON; KB-HAWK-530.
+2026-11-18T15:50:24+00:00	SIG-W-20261117-005	noted	WALTER	INFO card read whole; Crimea bridge titles only, OSPREY grades (live 11/18, not yet committed). KB-HAWK-531.
+2026-11-18T15:50:24+00:00	SIG-W-20261117-015	noted	WALTER	INFO card read whole; Iraq vs Kataib Hezbollah deadline 11/20 noted for IRAQ-01 watch (KB-HAWK-538); plot title only.
+2026-11-18T15:50:24+00:00	SIG-W-20261117-022	noted	WALTER	INFO card read whole; corrected by 028; KB-HAWK-530.
+2026-11-18T15:50:24+00:00	SIG-W-20261117-028	acted	WALTER	CORRECTION read independently; COR-20261117-28 receipted NO-OP; anonymous official and TARA GAS twice carried in KB-HAWK-530.
+2026-11-18T15:50:24+00:00	SIG-W-20261118-001	acted	WALTER	IMMEDIATE INFO card read whole; FALCON graded (live grade 11/18); KB-HAWK-530, STATUS 11/18.
+2026-11-18T15:50:24+00:00	SIG-W-20261118-006	acted	WALTER	CORRECTION read independently; COR-20261118-06 receipted NO-OP; claimant unsettled and damage NOT ESTABLISHED carried.
+2026-11-18T15:50:24+00:00	SIG-W-20261118-007	acted	WALTER	INFO card read whole; flows floors (PortWatch 16, Kpler 50%) and definitions conflict used in KB-HAWK-530/532.

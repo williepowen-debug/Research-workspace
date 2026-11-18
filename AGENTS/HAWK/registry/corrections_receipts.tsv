@@ -29,3 +29,7 @@ receipt_date	correction_id	action	note
 2026-11-09T15:49Z	COR-20261108-02	APPLIED	artifact=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-515; validation_ref=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-449; NBC oil and gas target line one relay; window limb confirmed
 2026-11-09T15:56Z	COR-20261109-09	APPLIED	artifact=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-516; validation_ref=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-454; Rubio quote verified, IRGC claim dated 11/8; KB-516/517/522 updated
 2026-11-11T14:29Z	COR-20261111-06	APPLIED	artifact=AGENTS/HAWK/SCRATCH.md#changes-since-last-session; validation_ref=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-515; 
+2026-11-18T15:50Z	COR-20261111-13	APPLIED	artifact=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-532; validation_ref=NONE; 
+2026-11-18T15:50Z	COR-20261116-09	NO-OP	scope=HAWK held no line on the 11/13 or 11/15 Bahrain attempts before 11/18, KB-HAWK-530 was written from the FALCON corrected grade (CENTCOM two drones = Fri 11/13); 
+2026-11-18T15:50Z	COR-20261117-28	NO-OP	scope=HAWK held no Qeshm 11/17 line before 11/18, KB-HAWK-530 and STATUS say anonymous US official and TARA GAS hit twice; 
+2026-11-18T15:50Z	COR-20261118-06	NO-OP	scope=HAWK held no 11/18 Kuwait line before this session, KB-HAWK-530 and STATUS carry claimant unsettled, damage NOT ESTABLISHED, ADNOC hull probably distinct; 

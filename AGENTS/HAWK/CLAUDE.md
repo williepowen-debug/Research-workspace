@@ -29,7 +29,7 @@ HAWK holds no trade book (unchanged from pre-split).
 - **Reconcile by belligerent dyad, not merely by agent-theater** (KB-HAWK-238). One sibling may cover opposing directions in different dyads. Keep attacker/target, molecule, asset class and loading/departure/transit basis explicit; the July28 directions in that historical row are not current marks.
 - HAWK's synthesis STATUS is mostly **pointers + reconciliation deltas** ("OSPREY says crude-export channel re-armed; FALCON says Hormuz decoupling holds; combined oil-risk read = X; double-count check = Y") — not a duplicate event log of either war.
 - The two wars are **loosely coupled** (separate roots) → synthesis load is real but bounded. The main recurring synthesis job is the **shared oil/decoupling read** (both wars feed Brent) and the **global war-risk/shipping** aggregate.
-- Spawn OSPREY + FALCON together in **teams-mode** for a live cross-war synthesis session only when an event genuinely spans both theaters (e.g. a simultaneous Russia+Iran supply shock) — not routinely.
+- Ask PROME to launch OSPREY + FALCON together, by a verified mechanism under `PROME/ORCHESTRATION_PLAYBOOK.md` § Runtime mechanics, for a live cross-war synthesis session only when an event genuinely spans both theaters (e.g. a simultaneous Russia+Iran supply shock) — not routinely.
 
 ---
 
@@ -86,7 +86,7 @@ Use `inbox/`, `inbox/WALTER/`, their `processed/` subdirectories, `outbox/` and 
 - Separate FACTS (what OSPREY/FALCON reported) from ASSESSMENT (what the combined read means for markets).
 - **Source tags on all data points.** Every value must include: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. No naked numbers.
 - **Prediction ID format:** `HAW-xx` (continuing the pre-split sequence from HAW-18; HAW-01..17 are frozen history). No bare numbers.
-- **`thesis/PREDICTIONS.tsv` resolution protocol:** At session boot, scan for entries whose Timeframe has passed or whose Status can be resolved. Update Status to CONFIRMED, FAILED, PARTIALLY, or EXPIRED. Fill Date_Resolved and Outcome. Log resolution to KB.tsv. Closed-row blow-by-blow → `thesis/PREDICTIONS_ARCHIVE.md#hawk-NN`.
+- **`thesis/PREDICTIONS.tsv` resolution protocol:** for a due OPEN row found at boot step 6, update Status to CONFIRMED, FAILED, PARTIALLY, or EXPIRED. Fill Date_Resolved and Outcome. Log resolution to KB.tsv. Closed-row blow-by-blow → `thesis/PREDICTIONS_ARCHIVE.md#hawk-NN`.
 - **Don't maintain stale copies.** If OSPREY or FALCON owns a data point, reference their value (`[CONF OSPREY 7/12]`) rather than keeping your own copy that drifts. One source of truth per metric — this applies doubly for HAWK, whose entire job is reconciliation, not re-derivation.
 
 ---
@@ -127,7 +127,7 @@ Before a workbook write, consult `design/WORKBOOK_REFERENCE.md` on demand. Keep 
 | Taiwan chip chokepoint / PGM supply SA-Russia, existing canon | VULCAN / MIDAS respectively | Per named evidence; no new edge |
 | Global war-risk/shipping-insurance aggregate shift | BRENT, LIQUID | 🟠 routine |
 | A dormant vector fires (Taiwan/Venezuela/trade-war escalation) | Relevant agent (ZHAO/CARL/VULCAN/etc. per vector) | 🔴/🟠 per severity |
-| De-escalation confirmed across BOTH theaters (broadcast) | ALL (profit-taking alert) | 🟠 |
+| De-escalation confirmed across BOTH theaters | ALL, via WALTER and NEXUS_BRIEF (no position instruction) | 🟠 |
 | Hezbollah mass activation (cross-theater relevance) | ALL | 🔴 |
 
 **⚠️ Not HAWK's gate:** acute 🔴 theater-specific signals (Hormuz physically blocked, a production-infra hit, a Russian crude-terminal disruption) are **OSPREY's and FALCON's own right to send direct to BRENT (HAWK cc'd)** — they do not route through HAWK first. HAWK's send-table above is for genuinely cross-war or dormant-book content.

@@ -127,3 +127,5 @@ October 29 additions (existing dated classes, no new tracker): `research/2026-10
 October 29 Will-directed checks: `research/2026-10-29_EURMIL_residuals.md` (Europe residual receipt, incl. the Croatia RED (b) defect) and `research/2026-10-29_FLOW21_Q3_TCE.md` (Q3 realized-TCE test; subagent report, DHT figures HAWK-verified). Existing dated-research class.
 
 November 9 closeout: `archive/LESSONS_ROTATED_2026-11-09.md` (read-cap rotation; seven July 12 to August 20 entries moved verbatim, each Rule line and a pointer left in LESSONS.md). Existing rotated-lessons class.
+
+November 18 session: `archive/STATUS_ROTATED_2026-11-18.md` (the 11/11, 11/9 and 11/6 STATUS blocks moved verbatim to keep the live surface thin; historical, never cite as current). Existing archived-STATUS class.
