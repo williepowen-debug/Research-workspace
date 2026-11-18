@@ -1,41 +1,42 @@
-# FALCON SCRATCH — November 17, 2026, third C8 wake (PROME prome-7a, laptop), cutoff 00:36Z 11/18
-
-## THIRD C8 WAKE 11/17 (19:29–about 19:45 ET; closed out on PROME's ask, completion pass 20:10 ET)
-- Card SIG-W-20261117-022: the US strike on Qeshm 11/17 is now CONFIRMED (Reuters, AFP and Bloomberg quoting an ANONYMOUS US military official: IRGC missile launch site, self-defence). Not on record: no named official, no CENTCOM release found (centcom.mil 403). KB-506; KB-503 SUPERSEDED.
-- FAL-09 count **1 of 5** (11/17 only; route 2). KB-508.
-- Reuters gas tanker = **TARA GAS**, the 11/16 hull, attacked a second time, abandoned 11/17; NAVAREA IX 445/26; crew accounts conflict; census 7. KB-507.
-- Nothing moves: 1 / 14 / 85, 43/50, rung NOT FIRED, D→C NOT MET, gate not engaged, thesis-kill 0/7.
-- Closeout step 11: EXIT v4 §5 no trigger fired (weekly due 11/18); thesis-kill 0/7; 12b no-op (no settle clock).
-- Report reports/2026-11-17_c8c-qeshm-strike-confirmed-card022.md. Cards 022 acted, 015 noted, both to processed. STATUS rotated (11/16 card + 11/17 first wake + old bottom lines → domain/sources/STATUS_archive_2026-11-17_1116-1117c8.md), 21.4 KB.
+# FALCON SCRATCH — November 18, 2026, weekly + gate review (PROME prome-6e, desktop), cutoff about 15:30Z 11/18
 
 ## CURRENT MARKS
-B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-08..12 OPEN to 12/31, **FAL-09 1 of 5 (11/17)**. GATE-FALCON-001 LIVE, leg 2 NOT MET (last read 11/16), next review_by **11/18**. Brent: BRENT's. Claude Code, Opus 5.5, laptop.
+B 1 / C 14 / D 85 HELD (weekly 11/18 on date); convergence 43/50. Census 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-08..12 OPEN to 12/31, **FAL-09 1 of 5 (11/17)**. GATE-FALCON-001 LIVE, leg 2 NOT MET (104.0% at 11/17), next review_by **11/25**. Thesis-kill 0/7. Brent: BRENT's. Claude Code, Opus 5.5, desktop.
 
-## CHANGES SINCE LAST SESSION (11/17 about 16:50Z → 00:36Z 11/18)
-- US strike on Qeshm 11/17 confirmed by three wires via an anonymous US military official (Reuters 14:37 ET). Iranian media: air-defence launcher, Nariman; damage unknown.
-- TARA GAS abandoned 11/17 after a second attack north of Khasab (UKMTO via Reuters); Oman evacuated 24, two hospitalised (one Reuters version) vs one missing (earlier version).
-- IMO table still 138 / 25 as at 17 Nov (no TARA GAS, ON PHOENIX rows); NAVAREA IX newest 445/26.
+## CHANGES SINCE LAST SESSION (00:36Z → about 15:30Z 11/18)
+- Iran fired drones at Ali Al Salem air base (Kuwait) and at Bahrain early 11/18; both states say intercepted; no damage established; claimant army (IRIB) vs IRGC (Tasnim) not settled; first attack on Kuwait since September (Reuters). KB-509.
+- ADNOC L&S vessel struck in Hormuz Tue evening 11/17: 1 missing, 11 injured, crew evacuated; probably distinct from TARA GAS; Seatrade names NAVIG8 MESSI (unverified). KB-510.
+- Houthi claim: drones hit East-West pumping stations 8 and 9 on 11/17 (claim only, out of class). Riyadh missiles intercepted twice 11/18. Coalition struck 60 targets in Yemen 11/17. KB-513.
+- Iraq: PM al-Zaidi sent the army to Jurf al-Nasr; KH withdrawal deadline reported 8 pm Fri 11/20; KH refuses; Qaani in Iraq. KB-514.
+
+## WHAT I DID THIS SESSION
+- Live grade first: commit da20e402b4 (packets PROME, BRENT, WALTER); PROME acked and sent to TERRY for the no-card check. WALTER issued correction card 006 on it.
+- Weekly review on date, HELD (KB-515); EXIT §5 re-stamped, next 11/25.
+- Gate: own TankerMap read 15:22Z, leg 2 NOT MET (KB-512); csv saved.
+- Thesis-kill #2 instrument DRAFT: proposals/2026-11-18_thesis-kill-2-instrument-draft.md (KB-516). Not encoded.
+- STRIKES swept 11/13–11/17, mark advanced to 11/17, no new row. Nine combo themes reviewed (this session's evidence only).
+- Inbox: stale-KB packet DONE (292 due by my definition: 244 → STALE, 48 held ACTIVE because cited by live letters, NOT re-verified); WQ-701 A2 charter trim DEFERRED to the separate charter session (left in inbox). WALTER 001, 004, 006, 028 to processed; corrections 028 and 006 receipted NO-OP.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Wed 11/18 (DOCKET L1112):** weekly + GATE-FALCON-001 review (own TankerMap read); combo themes (ten); DAEDALUS items 6, 7, 8, 10–13; thesis-kill #2 "88/day" instrument wording for PROME; PMF re-read incl. Iraq vs Kataib Hezbollah at Jurf al-Nasr (card 015).
-2. **Wed 11/18:** PROME WQ-701 A2 charter trim (CLAUDE.md 51,484 B → under 50,000 B by moving history out verbatim); reply one line.
-3. **Wed 11/18:** PROME stale-KB packet (retire or refresh ACTIVE rows past Stale_By); reply one line.
-4. **By 11/18:** STRIKES facility sweep 11/13 → today; advance the mark (now 6 days behind).
-5. Watch: FAL-09 day 2 (any confirmed US strike day through 11/30 keeps a 14-day span alive); a CENTCOM on-record statement for 11/17; TARA GAS sinking or total-loss declaration (census read); IMO rows for TARA GAS, ON PHOENIX; a neutral authority naming a mine (FAL-12).
+1. **Fri 11/20 8 pm Baghdad:** Jurf al-Nasr deadline: a clash, or KH fire at US or Gulf targets (D indicator #4).
+2. **By 11/25:** refresh or retire the 48 held KB rows (cited by live letters, past Stale_By, not re-verified 11/18); give the 12 undated ACTIVE rows a Stale_By.
+3. **Charter session (PROME schedules):** WQ-701 A2 trim of CLAUDE.md (51,484 B → under 50,000 B by moving history out verbatim) + DAEDALUS items 6, 7, 10.
+4. **Wed 11/25:** weekly + GATE-FALCON-001 review; combo themes; DAEDALUS items 8, 11, 12, 13.
+5. Watch: a second US strike day (FAL-09); a CENTCOM on-record statement; ADNOC hull name, IMO and NAVAREA rows; the missing crew members (ADNOC, TARA GAS); any Saudi/Aramco statement on pumping stations 8/9; Will's ruling on the thesis-kill #2 draft (encode only then).
 6. **12/31 late ET:** dated searches FAL-08, 09, 10, 12; FAL-11 and FAL-12 IMO table read.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Tit-for-tat: Iranian drones at Bahrain (3 in 5 days) → one confirmed US strike 11/17. Hormuz hull tempo continues.
-- 🟠 Three carriers vs relief of George Washington.
-- 🟡 Yanbu loadings unreadable; ukmto.org, centcom.mil, bloomberg.com 403 here. TIMELINE stops at Day 244 (11/17 = Day 263).
+- 🔴 Tit-for-tat: US strike 11/17 → Iranian fire at Kuwait and Bahrain 11/18 → Hatami: response "without geographical restrictions". Hormuz hulls on most days.
+- 🟠 Iraq vs KH at Jurf al-Nasr (11/20). Houthi pressure on the Saudi bypass (claims only).
+- 🟡 Casualty ratchet not recomputed for 11/17 injuries. WARRISK all expired. Yanbu loadings unreadable. TIMELINE stops at Day 244 (11/18 = Day 264).
 
 ## PREDICTIONS / DECISIONS
-FAL-08 75%, FAL-09 40% (count 1 of 5), FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31; none due. No Will decision open.
+FAL-08 75%, FAL-09 40% (1 of 5), FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31; none due. Will decision via PROME: thesis-kill #2 instrument wording (draft sent).
 
 ## MAIL STATE
-- Inbox: 2 PROME packets (WQ-701 A2 trim; stale KB rows), DEFERRED to 11/18, left in inbox.
-- WALTER lane: clear (022 acted, 015 noted).
-- Outbox: clear; packets direct to PROME/inbox and WALTER inbox (carve-out ①).
+- Inbox: 1 PROME packet (WQ-701 A2 trim), DEFERRED to the charter session.
+- WALTER lane: clear.
+- Outbox: clear; packets direct to PROME/inbox, BRENT and WALTER inbox (carve-out ①).
 
 ## PENDING PUSH / GIT
-Pushed at closeout: "Pushed. CONFIRMED: HEAD 87d2c6624c is on origin/master (fresh fetch)." (carried WALTER's 1b02eb3eda). Completion pass 20:10 ET (step 11 §5 check, 12b no-op, 14b sweep) committed and pushed after; receipt in PROME reply. 20:10 ET pull refused by other desks' dirty files (CYPHER and others); origin had no incoming commits. Next session: git pull --rebase first.
+Local commits only; no pull and no push until PROME's closeout ask (task letter). Pull refused for nothing yet; other desks' dirty files present in the shared tree.
