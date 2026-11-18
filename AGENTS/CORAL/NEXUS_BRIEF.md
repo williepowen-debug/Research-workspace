@@ -3,9 +3,18 @@
 **Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #15 (11/15) 4-of-5, Cape Coral 5.74 series low, re-fire fails. Falsify grade 11/15 run 11/16: 1.5 of 6, 🟠 holds. **GSE financing leg: "not yet" — CORAL-02 FALSE (11/17).** Next: MSI #16 by 11/26; FL Realtors Nov 12/16.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-11-17 08:5x ET (Tue, coral-ah, due-row wake; MATERIAL: CORAL-02 graded FALSE, WQ-704 research delivered) | STATUS commit: aa2ee5f29d (prior: 2026-11-16 coral-ag, 8c9ef1ff6b)
+**As of:** 2026-11-17 20:2x ET (Tue, coral-ai, Will's ask via PROME prome-7a; MATERIAL: Amendment 3 figures re-based, floods ongoing) | STATUS commit: e18a9fa73a (prior: 2026-11-17 coral-ah, aa2ee5f29d)
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## 2026-11-17 evening — AMENDMENT 3 RE-BASED · FLOODS ONGOING · THE DRAINAGE LINK (no colour moves; evidence `STATUS_DETAIL.md` § AI; research `research/2026-11-17_amendment3-and-floods-impact.md`)
+| # | What | So what / who |
+|---|---|---|
+| 1 | **Amendment 3 certification (scheduled 8 a.m. 11/17) NOT CONFIRMED**: state results site = Cloudflare bot check (blocked, stopped); no press report found. 61.98% unofficial stands. ⛔ **Local revenue re-based to REC 7/10 (P1): −$4.93B FY27-28 · −$8.71B FY28-29 · −$11.83B recurring** (CORAL carried the 6/12 vintage −$4.95B/−$8.78B/−$11.86B). Counties 65% · cities 26% · special districts 9% · schools 0. | MARCO, CARL, REGINALD: replace the old triple. One estimate; TaxWatch's $45.8B is its five-year sum |
+| 2 | **Water management districts (REC 7/10, P1):** SFWMD −$42.7M → −$109.2M · SWFWMD −$23.1M → −$55.4M · SJRWMD −$21.4M → −$49.2M; all five −$89.5M → −$218.0M. Palm Bay −$22.1M → −$44.5M (≈66% of its base). **No rating action since the vote; FL muni spreads not reached.** | AEOLUS (flood-control funding), CARL |
+| 3 | **Floods ongoing:** St. Johns near Cocoa **17.11 ft major** (NWS 00:15Z 11/18), forecast 17.2 ft 11/20 (homes flood at ≈17.2 ft, press); flood watches to 11/19–11/20. **No federal flood declaration** (OpenFEMA 01:10Z 11/18; request ≈11/09, press). DR-4955 FEMA FR notice still unpublished ⇒ cost share unknown. Rain figure unchanged: 24.69 in (AEOLUS). | AEOLUS (owns weather and rain), SHADE |
+| 4 | **Link: PARTLY ESTABLISHED.** The loss lands on the governments that answered the flood, but epicentre drainage is fee-funded (Brevard $64/yr assessment; Palm Bay stormwater fee), so the channel is general-fund response, WMD flood control, and the proposed fee ban. Drainage cut NOT ESTABLISHED before Sept 2027 budgets. | RED (falsifier: FY27-28 budgets holding drainage flat) |
+| 5 | **Seacoast (SBCF) holds 35.68% of deposits in the five flood counties** (FDIC SOD 6/30/26, P1); SouthState 4.28%, BankUnited 3.48%, Amerant 3.45%, Valley 2.88%. Footprint, not loans. Bank rail unchanged. | REGINALD |
 
 ## 2026-11-17 — GSE FINANCING CHANNEL: NOT YET (no colour moves; evidence `STATUS_DETAIL.md` § AH; research `research/2026-11-17_WQ704_fl-condo-financing-channel.md`)
 | # | What | So what / who |
@@ -39,7 +48,7 @@
 
 | # | Item (dated, tiered) | For whom · so what |
 |---|---|---|
-| 1 | **Amendment 3 passed, unofficial Yes 61.98%, certified 11/17 (P1).** Local revenue −$4.95B FY27-28 · −$8.78B FY28-29 · −$11.86B recurring (REC, P1): one estimate, the $4.9B and $12B agree. Amendment 1 (BSF cap) failed 40.9%. "Leaning FAIL" withdrawn | CARL, REGINALD, HOMER — county budgets take this on top of the disaster match; not a realized loss; muni effect UNREAD |
+| 1 | **Amendment 3 passed, unofficial Yes 61.98%, certification due 11/17 (P1).** Local revenue (REC 6/12 vintage; superseded 11/17 by REC 7/10, see top) −$4.95B FY27-28 · −$8.78B FY28-29 · −$11.86B recurring (REC, P1): one estimate, the $4.9B and $12B agree. Amendment 1 (BSF cap) failed 40.9%. "Leaning FAIL" withdrawn | CARL, REGINALD, HOMER — county budgets take this on top of the disaster match; not a realized loss; muni effect UNREAD |
 | 2 | ⛔ **Correction: DR-4955 household aid flagged in all 8 requested counties (OpenFEMA 11/06, P1).** "IA 0/8 · no household aid" withdrawn. FEMA FR notice and cost share still unpublished; HM none | AEOLUS, SHADE, PROME — L784's IA-gap item is gone |
 | 3 | **Seven FL 10-Qs read (P1): zero association-loan disclosure.** BKU CRE 60-89 $21.3M vs $0, accruing, modified, primary cell TRANSMITS; **BKU MIXED, aggregate NO TRANSMISSION, FINAL (REGINALD 11/06)**. Avidia 10-Q still waits; Q3 release shows association loans $491.9M, quality not split | REGINALD — location UNKNOWN, not multifamily or construction; not Florida-shown, not condo-shown |
 | 4 | **MSI #12 (11/05, P1):** 4-of-5, Cape Coral 5.85 series low, re-fire fails. First prints have revised up, n=2 | RED, HOMER — one leg; not an all-clear, not bank evidence |
