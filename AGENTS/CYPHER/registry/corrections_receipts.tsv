@@ -9,3 +9,4 @@ receipt_date	correction_id	action	note
 2026-11-12T14:05Z	COR-20261111-14	NO-OP	scope=SEC FY2026 enforcement figure from card 004 is on no CYPHER surface (grep of KB, INCIDENTS, STATUS, board_log 2026-11-12), logged in board_log only; 
 2026-11-17T17:38Z	COR-20261116-08	APPLIED	artifact=AGENTS/CYPHER/workbook/INCIDENTS.tsv#CYB-INC-072; validation_ref=AGENTS/CYPHER/research/2026-11-16_bank-login-outage/RECORD.md#7; 
 2026-11-17T17:38Z	COR-20261116-10	APPLIED	artifact=AGENTS/CYPHER/workbook/INCIDENTS.tsv#CYB-INC-072; validation_ref=AGENTS/CYPHER/research/2026-11-16_bank-login-outage/RECORD.md#7; 
+2026-11-18T01:08Z	COR-20261117-12	APPLIED	artifact=AGENTS/CYPHER/workbook/INCIDENTS.tsv#CYB-INC-074; validation_ref=AGENTS/CYPHER/research/2026-11-17_optimizely-and-outage-list/RECORD.md#2; CYPHER's own 11/17 grade relayed by WALTER card 012; rows 071-077 carry it; evening update 077 CONFIRMED
