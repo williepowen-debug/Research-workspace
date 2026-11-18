@@ -1,6 +1,6 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-11-17 20:09 → 20:2x ET (Tue) — **coral-ai**, Will's ask relayed by PROME prome-7a (laptop): "look into the impact of the Amendment 3 passing. As well as the flooding problems". Opus 5.5 in Claude Code. Boot reads: root CLAUDE.md and local CLAUDE.md (harness-injected and in context), AGENTS.md, USER.md, COMPLETION_SPEC (delivery sections) read explicitly; STATUS, SCRATCH, THESIS, LESSONS, MEMORY read whole; CALENDAR read only where relevant; boot.py --quick; corrections rc 0. **Pull NOT run:** the tree held other desks' uncommitted tracked files (CYPHER, VULCAN, PROME), so a rebase pull would be refused. That refusal is the rule; I did not stash. Fetch showed HEAD 6 ahead and 0 behind origin, so nothing was missed. Holding for PROME's closeout ask; **not pushed** (push at closeout via safe-push).
+**Session:** 2026-11-17 20:09 → 20:2x ET, reopened 21:38 → 21:4x ET on Will's direct ask (Tue) — **coral-ai**, Will's ask relayed by PROME prome-7a (laptop): "look into the impact of the Amendment 3 passing. As well as the flooding problems". Opus 5.5 in Claude Code. Boot reads: root CLAUDE.md and local CLAUDE.md (harness-injected and in context), AGENTS.md, USER.md, COMPLETION_SPEC (delivery sections) read explicitly; STATUS, SCRATCH, THESIS, LESSONS, MEMORY read whole; CALENDAR read only where relevant; boot.py --quick; corrections rc 0. **Pull NOT run:** the tree held other desks' uncommitted tracked files (CYPHER, VULCAN, PROME), so a rebase pull would be refused. That refusal is the rule; I did not stash. Fetch showed HEAD 6 ahead and 0 behind origin, so nothing was missed. Holding for PROME's closeout ask; **not pushed** (push at closeout via safe-push).
 **Previous:** 2026-11-17 coral-ah (morning).
 
 ---
@@ -17,6 +17,7 @@
 2. ⛔ Re-based CORAL's own Amendment 3 dollar figures to REC 7/10: −$4.93B / −$8.71B / −$11.83B (was 6/12 vintage). Swept STATUS, CALENDAR, COVERAGE, THESIS context line, NEXUS_BRIEF. Consumer check: NEXUS 11/10 digest (dated) and PROME DOCKET L784 (🟠 candidate) carry the old triple; both named in the PROME packet, no edits to their files.
 3. Link verdict PARTLY ESTABLISHED; drainage cut NOT ESTABLISHED.
 4. Packets: AEOLUS (St. Johns, watches, WMD figures), MARCO (re-based triple, certification unconfirmed), REGINALD (Seacoast 35.68% flood-county deposit footprint); PROME delivery packet.
+5. **21:38–21:4x ET, Will direct (after PROME closeout):** "build the three-scenario projection for Brevard and Palm Bay". Parcel model on DOR 2026 final roll → `research/2026-11-17_amendment3-brevard-palm-bay-scenarios.md` + model script; § AI4; KB ML-CORAL-175. **Fee ban is the Palm Bay switch: 11.27 mills needed vs 10 cap ⇒ $7.8M/yr short from FY28-29**; county refills under cap. ⛔ **Corrected Palm Bay share ≈66% → ≈40–45%** in STATUS, NEXUS_BRIEF, research doc, KB 172; PROME packet sent (its 11/17 packet carried ≈66%). Also corrected: the amendment is self-executing (REC p.684); the Legislature matters for the fee ban and state aid, not for the exemption itself.
 
 ## NEXT SESSION / OWED
 
