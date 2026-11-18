@@ -124,11 +124,16 @@ class CharterCoverage(unittest.TestCase):
     def test_default_other_desk_grade_is_unchanged_and_explicit_is_owner_scoped(self):
         desk = self.root / 'AGENTS/ALPHA'
         desk.mkdir(parents=True)
-        (desk / 'CLAUDE.md').write_text('x' * (readcap.BUDGET_BYTES + 1))
         (self.root / 'reads.tsv').write_text((self.root / 'reads.tsv').read_text().replace('PROME', 'ALPHA').replace('ALPHA/BOOT.md', 'PROME/BOOT.md'))
-        for mode, rc in [('unspecified', 0), ('injected', 0), ('explicit', 1)]:
-            result, _ = self.capture(readcap.check_agent, 'ALPHA', charter_mode=mode)
-            self.assertEqual(result[0], rc)
+        # A desk charter is graded at the 50,000 B ceiling, not the 32,550 B budget (root Data Hygiene,
+        # WQ-701 A2; scripts/read_cap_check.py 72c7fe1310). Explicit mode fails at or over the ceiling only.
+        ceiling = readcap.CHARTER_CEILING_BYTES
+        for size, explicit_rc in [(readcap.BUDGET_BYTES + 1, 0), (ceiling - 1, 0), (ceiling, 1), (ceiling + 1, 1)]:
+            (desk / 'CLAUDE.md').write_text('x' * size)
+            for mode, rc in [('unspecified', 0), ('injected', 0), ('explicit', explicit_rc)]:
+                with self.subTest(size=size, mode=mode):
+                    result, _ = self.capture(readcap.check_agent, 'ALPHA', charter_mode=mode)
+                    self.assertEqual(result[0], rc)
 
     def test_invalid_modes_and_gate_coverage_mismatch_fail_closed(self):
         for args in (['--agent', 'PROME', '--charter-mode'],
