@@ -75,6 +75,8 @@ Tape since 11/12 (settled 11/18): BKU −3.5%, AMTB −4.9%, USCB −2.3% (incl.
 
 WAL **$70.83** (REG-T-02 FIRED, exit 0 of 3, 56 rows; needs +15.63% to $81.90). KRE **$70.52** (REG-T-01 UN-FIRED, $10.52 above $60). FLG $10.26 (RED, 30 closes below $11.39, −27.9% vs frozen $14.24). Intraday 11/19 ~12:05 ET, vendor, not graded: WAL 69.06, KRE 68.93, FLG 10.01, VIX 24.91. KRE shares 56.80M (+0.28M) [11/19 monitor].
 
+**Closeout tape line (12:13 ET, PROME's vendor intraday pull, not settled):** KRE −2.48% vs SPY −1.43%, VIX 26.38. **Stays inside my bank-leg projection; 75/25 unchanged.** KRE is an equity price, not one of my bank-credit tests (a KRE break is explicitly not a flip datum); preferreds were roughly flat at 12:05 ET, and rates (10Y 5.09% vendor) plus the market reversal can explain an equity lag. The split moves only if KRE closes under SPY for several sessions AND the preferred basket falls 2% or more over three sessions (dividend-adjusted) or IG widens 10bp led by financials.
+
 ## 5. FORWARD VIEW — PROJECTION (my judgment; moves no score, band, gate or trade)
 
 **Base rate first.** From an HY print between 340 and 350, three straight prints above 350 followed within 15 sessions 2 of 13 times (15%), within 28 sessions 3 of 12 (25%); FRED holds three years (11/2023 to 11/2026), overlapping windows, clustered, small n. REG-34 was registered at 25% from 332.
