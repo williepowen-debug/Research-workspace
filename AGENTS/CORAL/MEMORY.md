@@ -33,6 +33,7 @@
 - FL population-driven twin: `../MARCO/STATUS.md` ("Florida Triple Exposure" block)
 - Spinout record: **NOT LOST — 7/9 conclusion CORRECTED 8/23.** Recoverable at `1cb18fbc3^:AGENTS/CORAL/archive/CORAL_SPINOUT_2026-06-19.md` (deleted by the 6/30 fleet prune, which ran BEFORE the 7/9 on-disk check). See CLAUDE.md History note.
 - SSB thesis: `research/SSB_THESIS.md`
+- **Florida state emergency orders, primary (11/19):** `https://www.flgov.com/eog/news/executive-orders` lists every EO with its PDF; a plain client reads it (200). Check it before carrying a relayed "no state declaration": on 11/19 WALTER's card said none, while EO 26-232 (signed 11/18) had already added Broward and Miami-Dade. Federal side = OpenFEMA DisasterDeclarationsSummaries. Rain = NWS PNS + CLI via api.weather.gov (`/products/types/PNS/locations/MFL`; CLI by `?type=CLI&office=KMFL`).
 
 ---
 

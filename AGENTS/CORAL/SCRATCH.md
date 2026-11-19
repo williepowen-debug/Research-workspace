@@ -51,4 +51,4 @@
 
 ## MAIL STATE
 
-`inbox/` top-level: empty · `inbox/WALTER/`: empty (after coral-ak drain, 2 of 2) · outbound coral-aj: AEOLUS, TERRY, PROME packets · outbound coral-ak: TERRY `2026-11-19_from-CORAL_south-florida-storms-no-implication.md`, PROME `2026-11-19_from-CORAL_south-florida-storms-second-touch.md`.
+`inbox/` top-level: empty · `inbox/WALTER/`: empty (after coral-ak drain, 2 of 2) · outbound coral-aj: AEOLUS, TERRY, PROME packets · outbound coral-ak: TERRY `2026-11-19_from-CORAL_south-florida-storms-no-implication.md`, PROME `2026-11-19_from-CORAL_south-florida-storms-second-touch.md`, WALTER `2026-11-19_from-CORAL_SIG-W-20261119-010-state-declaration-overtaken.md` (on PROME ask). Closed out on PROME prome-36 ask 11:59 ET; not pushed. Consumer check (14 → 21 counties): one hit, a NEXUS 11/10 dated digest (historical, no packet).
