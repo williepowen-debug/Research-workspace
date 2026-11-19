@@ -387,6 +387,33 @@
         "2026-11-17"
       ],
       "closed": "2026-11-18T00:28:23Z"
+    },
+    "gpu:03cc51b76e41": {
+      "title": "Morningstar Keeps Nvidia’s Fair Value Estimate at $250 Per Share - www.tokenpost.com",
+      "disposition": "NO-ACTION",
+      "ref": "Morningstar keeps NVDA fair value 250; valuation note, no GPU collateral or depreciation content (BM-20261119-01 item 94)",
+      "days": [
+        "2026-11-18"
+      ],
+      "closed": "2026-11-19T00:42:38Z"
+    },
+    "gpu:ace17b4294a9": {
+      "title": "Moody's cuts Nvidia outlook to Stable amid CEO departure - StreetInsider",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261118-014 Moody's Nvidia outlook to Stable, title only",
+      "days": [
+        "2026-11-18"
+      ],
+      "closed": "2026-11-19T00:42:38Z"
+    },
+    "gpu:d1076d3ab35f": {
+      "title": "VinFast VF 8 officially arrives in the Philippines: 480km range, 7-year warranty, and PHP 1,548,000 starting price - GIZGUIDE",
+      "disposition": "KILL",
+      "ref": "false keyword match, VinFast car not GPU",
+      "days": [
+        "2026-11-18"
+      ],
+      "closed": "2026-11-19T00:42:38Z"
     }
   }
 }
