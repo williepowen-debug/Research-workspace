@@ -1,9 +1,25 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-11-19 (Thu) 10:34 → 10:4x ET — **coral-aj**, Will's word (PROME prome-36 chat 10:21 ET: "lets wake CORAL for the continued flooding"), task letter 10:34 ET. Opus 5.5 in Claude Code, laptop. Boot: root CLAUDE.md and local CLAUDE.md (harness-injected), AGENTS.md, USER.md, COMPLETION_SPEC (delivery + WQ-696) read explicitly; STATUS, SCRATCH, THESIS read whole; LESSONS and MEMORY by headers/rules; boot.py --quick; corrections rc 1 → two NO-OP receipts → rc 0. **Pull NOT run:** tree held AEOLUS, ISHM, LIQUID, PROME tracked changes (AEOLUS staged renames in the shared index) — rebase pull would be refused; fetch: HEAD 11 ahead, 0 behind origin. **Closed out on PROME prome-36's ask (10:45 ET); not pushed (PROME pushes).**
-**Previous:** 2026-11-17 coral-ai (Amendment 3 + floods).
+**Session:** 2026-11-19 (Thu) 11:52 → 12:0x ET — **coral-ak**, second touch, Will's word 11:49 ET (PROME prome-36: "work with WALTER to make sure the agents that need to be spawned to read signals ... digest and process said signals"), task letter 11:52 ET; WALTER SIG-W-20261119-010 (ACTION). Opus 5.5 in Claude Code, laptop. Boot: root CLAUDE.md and local CLAUDE.md (harness-injected), AGENTS.md, USER.md, COMPLETION_SPEC read explicitly; STATUS whole, SCRATCH, this morning's delivery and research § 3; corrections rc 0. No local AGENTS.md. Pull not run (21 local commits ahead, PROME pushes; second touch same day). **Holding for PROME's closeout ask.**
+**Previous:** 2026-11-19 coral-aj (10:34–10:46, St. Johns flood of record).
+
+## coral-ak (second touch) — WHAT I DID
+
+1. Graded WALTER SIG-W-20261119-010 → `research/2026-11-19_south-florida-storms-11-18.md`; STATUS header, flood row, bottom line; DETAIL § AK; KB ML-CORAL-180 to -182.
+2. Rain at primary (NWS Miami PNS + CLI): Broward 48 h top 16.65 in; Palm Beach 10.63; Miami-Dade 9.22; FLL 4.18 in 11/18 daily record.
+3. **State emergency now 21 counties incl. Broward, Miami-Dade (EO 26-232, 11/18, primary)** — WALTER's "no state declaration" overtaken. Federal none (OpenFEMA 16:53Z).
+4. One event or two: two weather events, one legal emergency. 10:45 delivery changes only in the state-emergency scope. Next wake stays L1204 (11/24).
+5. Inbox 2 of 2 drained (WALTER acted; AEOLUS noted). TERRY no-implication packet. NEXUS_BRIEF new block (state emergency scope changed).
+6. Charter already matches WQ-719 A / WQ-721 A (changed in coral-aj); no edit.
+
+## coral-ak — OPEN
+
+- Whether the state amends its federal request to add Broward / Miami-Dade (WALTER watches; wakes CORAL on grant, denial or amended request).
+- SE FL condo association flood damage: none observed; first possible read = association notices (not reachable) or MIAMI REALTORS / Broward November ≈mid-Dec (not separable).
 
 ---
+
+## coral-aj (10:34–10:46) handoff, kept
 
 ## CHANGES SINCE 11/17 22:04 ET (what the world did)
 
@@ -35,4 +51,4 @@
 
 ## MAIL STATE
 
-`inbox/` top-level: empty · `inbox/WALTER/`: empty · outbound: AEOLUS, TERRY inbox packets; `PROME/inbox/2026-11-19_from-CORAL_flood-of-record-L784-sentence-inbox-drain.md`.
+`inbox/` top-level: empty · `inbox/WALTER/`: empty (after coral-ak drain, 2 of 2) · outbound coral-aj: AEOLUS, TERRY, PROME packets · outbound coral-ak: TERRY `2026-11-19_from-CORAL_south-florida-storms-no-implication.md`, PROME `2026-11-19_from-CORAL_south-florida-storms-second-touch.md`.

@@ -2242,3 +2242,30 @@ Full read: `research/2026-11-19_florida-flood-record-crest.md` (tables, rivals, 
 **What would change the read:** BKU's $21.3M at 90+, non-accrual or charged off at the 12/31 Call Report · any past-due, criticized or charge-off in Avidia's association segment · FEMA FR notice with cost share <75% · FL Realtors Nov–Dec: condo financed per 100 SF financed ≤ 22.2 over Oct–Dec with condo cash holding (vs 23.2 a year earlier; rate-confounded from November) · Cape Coral >6.00 with the other four held · first county or rating action citing Amendment 3 · a flood declaration with household aid (or a denial) · special-session call with a fee ban.
 
 **Next (dates → `CALENDAR.md`):** **Nov 20** St. Johns crest (17.2 ft forecast) · FEMA flood-declaration decision · **Nov 26** MSI #16 and election-contest deadline · Avidia 10-Q ~mid-Nov · ✅ Nov 15 falsify grade run 11/16 (1.5 of 6) · ✅ FL Realtors Oct graded 11/17 (CORAL-02 FALSE) · **Dec 16** FL Realtors Nov · Nov 17 certification NOT CONFIRMED · Citizens October month-end ~mid-Nov · **Dec 11** NFIP. *Earlier bottom lines rotated verbatim → § AF0 / § AB0 / § AA0 / § X0 / § W0 / § V0 / § U0 / § T0.*
+
+
+## AK. 2026-11-19 (Thu, 11:52–) — coral-ak: second touch, Will's word 11:49 ET via PROME prome-36; WALTER SIG-W-20261119-010 (ACTION) — evidence
+
+Full read: `research/2026-11-19_south-florida-storms-11-18.md`.
+
+### AK1. Rain (NWS Miami, preliminary; api.weather.gov, read 11:5x ET 11/19)
+- PNS MFL 641 AM 11/19, 48-h list (min 2 in): Broward top **16.65 in, 1 N Dania Beach** (WeatherSTEM at FLL, non-ASOS) · 16.38 in 1 SE Plantation · 15.37 in 2 W Lauderhill · 14.23 in 2 NE North Perry Airport. Palm Beach top **10.63 in, 2 NE The Acreage**; Royal Palm Beach 7.91. Miami-Dade top **9.22 in, 2 E Princeton**; 1 SW Aventura 8.35. Collier 4.76; mainland Monroe 4.09.
+- Airports (same PNS): FLL ASOS 9.13 in 48 h; North Perry 7.80 storm; PBI 5.89 storm; MIA 2.18 in 48 h; Fort Lauderdale Executive 4.64 in 48 h.
+- CLI (issued 09:22Z 11/19, for 11/18): **FLL 4.18 in R (old 2.15, 1959); MTD 14.98 vs 2.44 normal** · PBI 3.04 (record 4.79, 1992); MTD 15.17 vs 2.32 · MIA 1.91 (record 7.56, 1992); MTD 9.24 vs 2.34 · Naples 0.73 R.
+- Earlier PNS: 827 AM 11/18 (24 h) Broward top 12.16 in 2 S Plantation; 353 PM 11/18 (24 h updated) Broward top 15.32 in 1 SE Plantation, Miami-Dade 8.93. Wind PNS 335 PM 11/18: 58 mph 1 NE Sunrise, 55 mph Coral Way Village.
+- Alerts (11:53 ET): Flood Watch inland/metro Palm Beach, Broward, inland Miami-Dade to 19:00 ET 11/19; high surf and rip current statements to 11/20.
+
+### AK2. Declarations
+- **EO 26-232 (signed 11/18, PRIMARY, flgov.com PDF):** amends EO 26-227 §1 to 21 counties: Brevard, Broward, DeSoto, Duval, Flagler, Glades, Hardee, Hendry, Highlands, Indian River, Lake, Martin, Miami-Dade, Monroe, Okeechobee, Palm Beach, Putnam, Seminole, St. Johns, St. Lucie, Volusia. Recital: Broward (Fort Lauderdale, Davie, Hollywood) "over 10 inches within a twelve-hour period" on 11/17; "additional rainfall along the Florida East Coast over the next several days". Expires with EO 26-227. The river is not cited for the added northern counties.
+- **Federal: none.** OpenFEMA rundate 16:53Z 11/19: no FL declaration after DR-4955 (10/27).
+
+### AK3. Channels: none observed (mechanism table in the research file § 3). Search index returned only 2023/2024 floods for damage, claims and condo queries; no 11/18 count found.
+
+### AK4. Inbox dispositions (2 of 2: 1 top-level + 1 WALTER)
+| Item | Disposition |
+|---|---|
+| WALTER SIG-W-20261119-010 (ACTION) | **acted:** graded in § AK; its "no state declaration" overtaken by EO 26-232 (signed 11/18) |
+| AEOLUS 2026-11-19 event-2 no storm total | **noted:** AEOLUS carries "event 2: no storm total yet"; CORAL sends SE FL station readings as readings, not a figure |
+
+### AK0. Header rotated from STATUS 2026-11-19 12:0x ET, verbatim
+**Last Updated:** 2026-11-19 10:4x ET (Thu, **coral-aj**, Will's word via PROME prome-36: the continued flooding): ⛔ **St. Johns near Cocoa passed its flood of record: 18.19 ft at 14:15Z 11/19** (record 17.55 ft 1953, old datum; 17.43 ft Irma 2017); **forecast 18.4 ft tonight, held through 11/24**; Lake Harney → 12.3 ft major 11/22, DeLand → 5.5 ft major 11/24 (NWS NWPS). Second rain event: Melbourne 2.61 in 11/18 (daily record), 17.25 in month to date; 6–10 in central Brevard 11/19 (NWS, EM-reported). **Still no federal flood declaration** (OpenFEMA 15:35Z 11/19; White House 11/18: FEMA "reviewing"). No insured-loss figure, no local spending action. **No colour, gate or grade moved.** Evidence § AJ + `research/2026-11-19_florida-flood-record-crest.md`; prior header → § AJ0.
