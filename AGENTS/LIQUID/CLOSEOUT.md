@@ -59,9 +59,9 @@ End-of-day always runs at least Standard so the audit trail catches up.
 
 ### `NEXUS_BRIEF.md` — final state fold
 
-At every committed closeout, including Light, refresh the brief from the final STATUS findings. Replace superseded live claims; preserve observation dates, publication vintage, source limits and qualifications. Follow `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1/§4.4 for ordering and the STATUS pin; no new schema or review rule is introduced here.
+Rewrite and commit the brief at closeout only when a figure, threshold, or cross-desk send or wait in it changed; otherwise leave it untouched, with no As-of or pin refresh (NEXUS schema §4.1, WQ-719 A, Will 2026-11-18). If the pin check reports the brief's pin as PIN-UNRESOLVED, correct the pin to the STATUS HEAD at that closeout and commit the brief with no other change and no new As-of (§4.1, WQ-721 A). When the brief is rewritten, fold it from the final STATUS findings. Replace superseded live claims; preserve observation dates, publication vintage, source limits and qualifications. Follow `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1/§4.4 for ordering and the STATUS pin; no new schema or review rule is introduced here.
 
-Complete the remaining MEMORY/calendar/workbook/report writes below and commit the final STATUS first. Then fold the brief as the session's **last write-back**, immediately before its own path-scoped commit, using `STATUS commit: \`<hash>\`` with that STATUS commit. If STATUS changes again, fold again before delivery. For a no-change session, refresh the As-of stamp and pin. This subsection is placed beside STATUS to make the dependency visible; its execution comes after the other write-back chunks. NEXUS consumption and PROME verification remain separate from the owner commit.
+Complete the remaining MEMORY/calendar/workbook/report writes below and commit the final STATUS first. Then fold the brief as the session's **last write-back**, immediately before its own path-scoped commit, using `STATUS commit: \`<hash>\`` with that STATUS commit. If STATUS changes again in a way the brief carries, fold again before delivery. A session that changes nothing the brief carries does not touch it. This subsection is placed beside STATUS to make the dependency visible; its execution comes after the other write-back chunks. NEXUS consumption and PROME verification remain separate from the owner commit.
 
 ### `MEMORY.md` — session block rotation
 
@@ -168,7 +168,7 @@ One short message:
 | File | Closeout action |
 |---|---|
 | `STATUS.md` | Surgical six-section update (Now / Gates / Owed / Carried / Caveats / Pointers) |
-| `NEXUS_BRIEF.md` | Final substantive STATUS fold, source dates/caveats retained, then pin; last write-back before the brief commit |
+| `NEXUS_BRIEF.md` | Only when a figure, threshold, send or wait it carries changed (WQ-719 A) or the pin is PIN-UNRESOLVED (pin-only, WQ-721 A): final STATUS fold, source dates/caveats retained, then pin; last write-back before the brief commit |
 | `MEMORY.md` | Promote CURRENT→PRIOR + new CURRENT + update NEXT |
 | `CALENDAR.md` | Event-gated — only if dates roll or events resolve |
 | `IDENTITY.md` / `STRATEGY.md` / `USER.md` / `CREDIT_THRESHOLDS.md` | Don't auto-touch; revise only when scope/thesis shifts |

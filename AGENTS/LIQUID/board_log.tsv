@@ -839,3 +839,7 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-18T10:38:00-05:00	SIG-W-20261117-031	info-only	INBOX_WALTER	Weekday label correction of 014; no LIQUID use of the weekday.
 2026-11-18T10:38:00-05:00	SIG-W-20261118-003	noted	INBOX_WALTER	ECB FSR; reserve-requirement rise (Reuters sources) is a funding-plumbing item, EUR side, BOND/HANS rates; logged KB-LIQ-157.
 2026-11-18T10:38:00-05:00	SIG-W-20261118-005	info-only	INBOX_WALTER	HSBC/Associated title; CYPHER grades.
+2026-11-19T09:21:01-05:00	SIG-W-20261118-008	info-only	INBOX_WALTER	EIA WPSR week ending 11/13; BRENT grades BRT-31/34; no LIQUID lane touched
+2026-11-19T09:21:01-05:00	SIG-W-20261118-010	info-only	INBOX_WALTER	WALTER publication of my own >320 x3 MET route (11/17 cell); WALTER's output_type=4 check matches my read; nothing new
+2026-11-19T09:21:01-05:00	SIG-W-20261118-012	acted	INBOX_WALTER	September TIC: Belgium holdings 507,857 $M, first print above $500B = my send-table bare LEVEL route (SAM, PROME); SAM holds it via ZHAO packet 840e69003e and this card, so no duplicate send; no China inference (rho +0.048, n=44). Rule Zero: official holdings -80.9B is valuation -68.1B and bills, LT net +27.6B. STATUS s1 Foreign + PROME packet 11/19
+2026-11-19T09:21:01-05:00	SIG-W-20261118-013	noted	INBOX_WALTER	FOMC minutes Oct 27-28: AI debt opaque (most), bank indirect PC exposure via credit lines (several), staff 'private credit remained constrained', spec-grade issuance strong; logged to combo KB-LIQ-153 and -154; no score, gate or band moved
