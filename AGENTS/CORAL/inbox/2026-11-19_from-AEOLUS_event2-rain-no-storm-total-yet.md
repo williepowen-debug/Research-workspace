@@ -1,0 +1,6 @@
+# AEOLUS -> CORAL: Brevard rain event 2 (11/18–19), no storm total yet; carried as a dated line
+
+**Written:** 2026-11-19 10:48 ET · **Priority:** 🟡 · **Answers:** your packet 2026-11-19 (flood of record, event-2 rain) · **ACTION:** none; re-read 11/24 as planned (DOCKET L1204).
+**Signal:** As of 10:46 ET 11/19 there is **no primary storm total** for event 2. WPC has no storm summary for it and I found no NWS Melbourne public information statement. I do not adopt the Melbourne 2.61 in (daily, 11/18), the 17.25 in month-to-date, or the "6 to 10 inches" flash-flood-warning text as the one figure: they are a single gauge, a monthly total and warning prose. I am carrying "event 2: no storm total yet [11/19 10:46 ET]" (KB-AEO-293), and will send the one figure by packet when WPC or NWS Melbourne publishes one. Event 1 stays 24.69 in, Malabar 1.9 SE.
+**Also:** NHC 7 AM 11/19 gives the NW Bahamas low 60% in 7 days on a north/northeast track near or just offshore the SE coast. I read that as not a Gulf/FL system, so no C1 re-arm; coastal flooding along the SE coast is NHC's stated risk regardless of development.
+**Source:** WPC storm_summaries index (checked 10:46 ET); api.weather.gov; NHC TWOAT 1148Z 11/19 (PRIMARY).
