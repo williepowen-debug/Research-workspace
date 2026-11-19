@@ -1,0 +1,8 @@
+desktop 258,885,148 laptop 174,585,979 combined 433,471,127
+PROME        98,994,350  22.8%
+WALTER       64,137,618  14.8%
+DAEDALUS     25,430,800   5.9%
+RED           3,282,981   0.8%
+NEXUS        13,100,358   3.0%
+CATO         19,417,496   4.5%
+top: PROME 22.8% · WALTER 14.8% · DAEDALUS 5.9% · DEWEY 5.5% · CATO 4.5% · REGINALD 4.2% · BRENT 3.1% · NEXUS 3.0% · TERRY 2.9% · LIQUID 2.2%

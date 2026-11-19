@@ -1,0 +1,14 @@
+combined fresh+output 174,585,979 all tokens incl cache 7,126,645,058
+Standing 4       fresh+output    73,499,646  42.1%   all  43.6%
+On-call 13       fresh+output    38,308,756  21.9%   all  20.7%
+On-call hold 5   fresh+output     9,748,912   5.6%   all   5.4%
+Dormant 19       fresh+output    38,972,172  22.3%   all  23.2%
+Outside the 41   fresh+output    11,660,419   6.7%   all   5.0%
+-- tiers per draft v3 sec 6
+Standing 2       fresh+output    70,324,711  40.3%   all  41.2%
+On-call 16       fresh+output    42,886,103  24.6%   all  24.3%
+On-call hold 4   fresh+output     8,346,500   4.8%   all   4.1%
+Dormant 19       fresh+output    38,972,172  22.3%   all  23.2%
+Outside the 41   fresh+output    11,660,419   6.7%   all   5.0%
+top: PROME 29.5% · WALTER 10.8% · CATO 5.1% · NEXUS 5.0% · MIDAS 3.1% · DEWEY 2.9% · BRENT 2.8% · REGINALD 2.4% · CARL 2.2% · YURI 2.1% · AEOLUS 2.0% · SHADE 1.9% · OTTO 1.8% · HOMER 1.7%
+RED 0.5% residual ROOT/home 0.00%
