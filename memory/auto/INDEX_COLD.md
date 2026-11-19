@@ -253,3 +253,17 @@
 - finding_a_named_unchecked_fallback_makes_an_absence_closable — name the unchecked doc; CHECK a declared-empty cell; NEGATIVE result = a fence
 - finding_rereading_a_rows_conditions_without_its_verdict_cell_regrades_a_dead_card — read the REC/verdict cell before re-grading a row; a kill is a WINDOW property
 - finding_a_verbatim_cell_without_its_column_header_reads_as_the_wrong_claim — verbatim is (header + cell); a loss cell under one label read as a payoff
+
+## Demotion wave 2026-11-19 (PROME flow pass at 75%: predictable-moment feedback rows, launch, boot, commit and closeout times)
+- feedback_coldreaders_run_on_opus_not_fable — never Fable; desks/ARGUS on Opus, single cold reads on Sonnet (Will 10/15; n=4)
+- feedback_experiments_run_light_not_fleet_process — Will's side experiments: light process, fast to a working thing (10/17)
+- feedback_close_finished_subagent_panes — TaskStop a reader or desk once its receipt is in (Will 10/23)
+- feedback_launch_desks_through_agent_launcher — start a desk via scripts/agents.py --opus --new --task; preflight (Will 11/5)
+- feedback_quiet_mode_during_desk_sweeps — one digest plus interrupts; label unverified relays (Will 11/6)
+- feedback_fresh_slate_is_files_then_clear_then_boot — closeout, clear, boot from files; not a token question (Will 11/6)
+- feedback_persistent_desk_windows_tap_not_relaunch — desks stay open; tap by message, launch only with no live owner (Will 11/7)
+- feedback_batch_ledger_commits_at_break_points — batch ledger and receipt commits per round; never per line (Will 11/17)
+- feedback_start_walter_at_weekday_boot — weekday boot with no WALTER window live: PROME starts one (Will 11/17)
+- feedback_will_own_trade_one_line_record — his one-line trade record goes to TERRY verbatim (Will 11/17)
+- reference_daedalus_runs_on_codex_astra — not in ListAgents; reach by inbox packet (Will 11/7)
+- reference_claude_text_watermark_live_since_aug_2026 — Claude text is watermarked since 8/2026; byte scans miss it
