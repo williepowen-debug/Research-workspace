@@ -34,3 +34,5 @@ receipt_date	correction_id	action	note
 2026-11-18T01:05Z	COR-20261117-12	NO-OP	scope=cyber cards 008 and 011 carried no VULCAN record or letter (008 skipped, 011 info-only on 11/17); 
 2026-11-18T01:05Z	COR-20261117-17	NO-OP	scope=KB-452 already carries the Box 2.2 figures from my own primary read and the correction agrees, no change; 
 2026-11-18T01:05Z	COR-20261117-20	NO-OP	scope=card 020 corrects WALTER cards 018 and 019 from my own KB-430 to KB-455 record, nothing in my record changes; 
+2026-11-19T17:23Z	COR-20261117-31	NO-OP	scope=KB-452 says published 11/13 with no weekday so no VULCAN text carries the wrong label; 
+2026-11-19T17:23Z	COR-20261117-02	NO-OP	scope=Credit Acceptance settlement is a consumer-credit item outside VULCAN channels and no VULCAN record cites card 20261116-005 item 8; 
