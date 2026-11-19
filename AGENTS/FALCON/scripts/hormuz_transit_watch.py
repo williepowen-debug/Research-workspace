@@ -12,6 +12,13 @@ Grades the fresh-leg bar from domain/FRESH_LEG_BASELINE.md row 2:
   a fresh officially-dated count <= ~18/day (~20% of baseline) = countable
   fresh leg toward the GATE-BRENT-SUSTAIN re-arm condition.
 
+THESIS-KILL #2 (EXIT_PROTOCOL §1 row 2, WQ-720 A, Will 2026-11-18, encoded
+2026-11-19): this script's series (chokepoint6, n_total, all vessels) is the
+NAMED instrument for that limb: 45 or more transits on each of 10 consecutive
+calendar days; a calendar day with no print breaks the run; no other tracker
+substitutes, and if PortWatch cannot be read the limb is UNGRADEABLE. This
+script prints the counts; it does not grade that limb (read the letter).
+
 KNOWN LIMITATION (documented at build): the dataset publishes with a ~5-8 day
 lag (on 2026-07-12 the newest row was 2026-07-05). This script therefore
 cannot see TODAY's transits — it sees the freshest official print and tells
