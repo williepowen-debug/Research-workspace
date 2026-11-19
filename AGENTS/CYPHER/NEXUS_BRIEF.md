@@ -2,7 +2,7 @@
 
 **Status:** 🟠 New 11/19: escalation row 9 recorded NOT-FIRED from HENRY's 11/18 grade (Palo Alto collapse leg: 0 of 21 closes; leg spent); all 8 open rows re-checked 11/19, NOT-FIRED; R1 flip test 11/20. JPMorgan confirms attackers took marketing contact data from its vendors, no service impact (CYB-INC-086, off-wave). TruStage struck a deal with its attackers; data question open 6-8 more weeks (017). N-able has a fourth, separate breach (Mail Assure, 085), no customer-data evidence yet. ConnectWise Cloud Backup restored. Irish CU vendor exposed payee data at ~40-50 CUs (087). PHP shipped a second security round 11/19 (row 8's patch-side route). No score moved (25/40 raw, 16/40 adjusted).
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-19 ~10:10 EST (PROME prome-36 due-row wake; record `research/2026-11-19_due-rows/RECORD.md`) | STATUS commit: `67480b77be9d4c247f8493302e246b03b15fe20e`
+**As of:** 2026-11-19 10:00:42 EST, first commit of this brief (corrected 10:02 from a narrative "~10:10"; PROME prome-36 due-row wake; record `research/2026-11-19_due-rows/RECORD.md`) | STATUS commit: `b1b195f49800fe1068fe63dcd3acfc605b6f434e`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
