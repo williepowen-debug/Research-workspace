@@ -150,5 +150,13 @@
 
 | → | Packet in their tree | What it says |
 |---|---|---|
-| **BOND** · **TERRY** 🟠 | `AGENTS/BOND/inbox/2026-11-18_from-HANS_T16-ea-core-watch-fired.md` · `AGENTS/TERRY/inbox/processed/2026-11-18_from-HANS_T16-ea-core-watch-fired.md` | `T-16` WATCH FIRED (HANS-F-008): EA core 2.6 Oct FINAL after 2.5; trade-assessment fields; TERRY tradeability read asked |
+| **BOND** · **TERRY** 🟠 | `AGENTS/BOND/inbox/processed/2026-11-18_from-HANS_T16-ea-core-watch-fired.md` · `AGENTS/TERRY/inbox/processed/2026-11-18_from-HANS_T16-ea-core-watch-fired.md` | `T-16` WATCH FIRED (HANS-F-008): EA core 2.6 Oct FINAL after 2.5; trade-assessment fields; TERRY tradeability read asked |
 | **PROME** | `PROME/inbox/processed/2026-11-18_from-HANS_L1146-trilateral-read-fsr-t16-fired-inbox-drained.md` | D:L1146 trilateral read (no row moves), FSR T-14 NOT-MET, T-16 fire, stale-KB sweep, audit answer |
+
+## 2026-11-19 (hans-1119) — dispatched
+
+| → | Packet in their tree | What it says |
+|---|---|---|
+| **WALTER** | `AGENTS/WALTER/inbox/2026-11-19_from-HANS_grades-8-cards-T14-not-met-trilateral-no-change.md` | Grades of 8 cards: T-14 NOT-MET (ECB supervisory priorities, no bank named), trilateral moves no row, EC attack NOT FOUND, TIC refresh, T-07 exit 3/5 |
+| **TERRY** | `AGENTS/TERRY/inbox/2026-11-19_from-HANS_ecb-nbfi-probe-and-trilateral-trade-assessment.md` | WQ-696 handoff: ECB probe no investment implication; truce closed = TTF upside tail, HNS-16 35%, no card asked |
+| **PROME** | `PROME/inbox/2026-11-19_from-HANS_walter-lane-drain-t14-trilateral.md` | COMPLETION, forward view, NEXUS-brief lines not applicable |

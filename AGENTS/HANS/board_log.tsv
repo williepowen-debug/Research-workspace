@@ -174,3 +174,12 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-18T15:56Z	2026-11-18_from-ORACLE_WQ704	noted	INBOX_PEER	HNS-13 70 vs priced 98.4, HNS-14 30 vs 9.5 (partial match); KB-204; no re-mark (no rule; letter frozen)
 2026-11-18T15:56Z	2026-11-18_from-OSPREY_crimea-bridge	noted	INBOX_PEER	Crimea bridge span down, Sulina ship strikes, EU 50-bank package title: KB-203; none moves a HANS row
 2026-11-18T15:56Z	SIG-W-20261118-009	noted	INBOX_WALTER	INFO; YURI 2021 NATO terms for my fact 4 and ORACLE Iran-pause 42 down 14.5: appended to KB-197
+2026-11-19T17:13Z	SIG-W-20261119-005	graded	INBOX_WALTER	ECB probe = Supervisory priorities 2027-29 read at primary; T-14 leg (b) NOT-MET, no institution named; BoE SWES outside letter; KB-205
+2026-11-19T17:13Z	SIG-W-20261119-004	graded	INBOX_WALTER	Read with correction -014; no HANS row moves; no European listed parent named in a seizure; KB-206
+2026-11-19T17:13Z	SIG-W-20261119-014	graded	INBOX_WALTER	CORRECTION: declaration published; KB-197 four facts graded none met, truce talks closed; KB-206 supersedes KB-197; COR-20261119-14 receipted
+2026-11-19T17:13Z	SIG-W-20261119-009	noted	INBOX_WALTER	Wellington IT Irish credit unions payee data; combo:europe-operational-disruption; CYPHER owns grade; KB-207
+2026-11-19T17:13Z	SIG-W-20261119-011	noted	INBOX_WALTER	European Commission attack claim NOT FOUND by my search either; claim only; KB-207
+2026-11-19T17:13Z	SIG-W-20261118-012	integrated	INBOX_WALTER	Sept TIC: VX-1.01 to 1.08 refreshed at Treasury primary; France YELLOW; Germany unfrozen; UK Aug 994.5 vs 1009.5 unresolved; KB-208
+2026-11-19T17:13Z	SIG-W-20261118-014	noted	INBOX_WALTER	UK energy bill +443 GBP from Jan (title): combo:uk-cost-squeeze KB-207; rest not mine
+2026-11-19T17:13Z	SIG-W-20261118-015	graded	INBOX_WALTER	T-07 L3 exit 3/5 confirmed on my pull, 11/18 close 80.85 (bar restated from 81.11)
+2026-11-19T17:13Z	2026-11-19_from-CYPHER_irish-credit-union-vendor-breach	noted	INBOX_PEER	Same event as card -009; KB-207; not a funding or processing event
