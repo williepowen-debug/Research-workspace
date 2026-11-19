@@ -13,7 +13,7 @@ confidence: 0.5
 confidence_language: "headlines only, no page opened; outlet wording"
 resources: 1
 safety_net: "clear"
-cluster: "AI_CAPEX"
+cluster: "AI_INFRA_CAPEX"
 domain: "MIXED"
 entities: ["Nvidia", "Moody's", "Colette Kress", "Anthropic", "Black Sea", "US Navy", "Iran", "copper", "gold", "CVR Energy", "GBDC", "PBOC"]
 word_count: 491

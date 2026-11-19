@@ -434,3 +434,7 @@ November 16 Monday (walter-5a): two IMMEDIATE cards were corrected by their owne
 
 62. **Recheck the inbox before calling a routing pass complete.** 11/05 (n=2 same day, owner replies land within minutes of a doorbell): HENRY's 09:49 ET and LIQUID's packets sat unread until an 11:16 ET check; the boot read is a snapshot, and desks keep writing during a live day. → charter step 7g · BOARD 020/021
 66. **A peer's "unsupported" carries the window it tested; ask for the window before relaying the negative.** 11/06: LIQUID called Oracle CDS 3.25% unsupported through November 5 having tested only November files; October 20 printed 342.5. WALTER carried the line on card 037, then corrected it on 042. Same class as #28. → BOARD 042
+
+## Rotation 2026-11-19T00:46:50Z — session note (11/17), moved verbatim from MEMORY.md by walter-89
+
+November 17 Tuesday (walter-15): three boots (11:44, 14:3x reboot, 16:44 post-close). Owners corrected five of 21 cards the same day, every one with the owner's primary in hand (CARL retail, CYPHER outages, BROCK Fed FSR, VULCAN Nvidia and Meta 8-Ks). A results card from the press release is the floor; the 8-K exhibits (CFO Commentary) carry the splits, guarantees and commitments. Rotation of the 11/16 note and #48/55/57/58: MEMORY_PROMOTED.md § Rotation 2026-11-17T23:24:36Z.

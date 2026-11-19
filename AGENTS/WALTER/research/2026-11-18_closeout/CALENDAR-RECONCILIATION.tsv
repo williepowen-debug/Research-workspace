@@ -1,0 +1,4 @@
+release	period	scheduled	owner	evidence	outcome
+FOMC minutes (Federal Reserve)	October 27-28 2026 meeting	2026-11-18 14:00 ET (RSS 19:00:00 GMT)	HENRY, BOND	Fed monetary press RSS; minutes page read at federalreserve.gov before 2026-11-19T00:41:48Z; git log since 13:30 ET and HENRY/BOND/LIQUID STATUS show no owner record	PUBLISHED AND UNREVIEWED: carded SIG-W-20261118-013
+Treasury International Capital (TIC), Table 3 and monthly release	September 2026	2026-11-18 16:00 ET	ZHAO, LIQUID, MIDAS, SAM	ZHAO packet 840e69003e (read 16:10:33 ET); WALTER re-fetched slt_table3.txt 2026-11-18T21:16:50Z	OWNER-COMPLETED (ZHA-22 YES; MIDAS D:L821): routed SIG-W-20261118-012
+VIX close (Cboe) / FRED VIXCLS	2026-11-18 session	2026-11-18 16:15 ET close; VIXCLS posts T+1	RED (FT-06), VIOLET	vendor ^VIX 24.56 via FORGE fetch 2026-11-19T00:42:58Z; Cboe CSV Cloudflare challenge; VIXCLS [11/18] unposted	PUBLISHED (vendor) AND GRADED SERIES PENDING: SIG-W-20261118-015 to RED

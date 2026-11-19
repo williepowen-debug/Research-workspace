@@ -34,7 +34,7 @@
     "signal_type": "context",
     "confidence": 0.5,
     "confidence_language": "headlines only, no page opened; outlet wording",
-    "cluster": "AI_CAPEX",
+    "cluster": "AI_INFRA_CAPEX",
     "domain": "MIXED",
     "entities": ["Nvidia", "Moody's", "Colette Kress", "Anthropic", "Black Sea", "US Navy", "Iran", "copper", "gold", "CVR Energy", "GBDC", "PBOC"],
     "dispatch_note": "Small-items card (WQ-622 A) for the 22:38Z collect. HENRY and OSPREY on ACTION because the scanner's watch hits name them (HENRY 'Nvidia interim CEO'; OSPREY 'Black Sea war-risk'). Iran shipping line: titles only, carried with the anchor stamp from card 007 (re-verified 15:28Z today). TERRY BOARD-only.",
