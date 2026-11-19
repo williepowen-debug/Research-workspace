@@ -69,3 +69,17 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-08T17:09:05Z	SIG-W-20261106-004	noted	INBOX_WALTER	LOG: member (6) of new theme combo:ai-datacenter-lending, KB-GIB-053; ING is non-US (HANS); no default, no score change.
 2026-11-16T18:00:00Z	SIG-W-20261111-017	noted	INBOX_WALTER	LOG KB-GIB-063: Citi modified-card 30+ share 18.59% to 19.08%; CARL's figure, context only; no tag moved.
 2026-11-16T18:00:00Z	SIG-W-20261111-020	noted	INBOX_WALTER	LOG KB-GIB-064: Ares GPU-underwriting remark, Semafor GPU loan discounts (no price); combo:ai-datacenter-lending member 7; no bank named.
+2026-11-19T16:57:50Z	SIG-W-20261116-006	noted	INBOX_WALTER	LOG KB-GIB-068 (Chase online-banking outage, carried in corrected form per 008/010/012). Consequence NOT OBSERVED; no READS row moved.
+2026-11-19T16:57:50Z	SIG-W-20261116-008	noted	INBOX_WALTER	Correction of 006; COR-20261116-08 receipted NO-OP (never encoded); corrected form in KB-GIB-068.
+2026-11-19T16:57:50Z	SIG-W-20261116-010	noted	INBOX_WALTER	Correction of 006/008; COR-20261116-10 receipted NO-OP; KB-GIB-068 carries Chase non-cyber cause and US Bank not directly impacted.
+2026-11-19T16:57:50Z	SIG-W-20261117-008	noted	INBOX_WALTER	Optimizely: none of the 16 on the list (CYPHER RECORD 11/17 s1.3). HSBC US sighting LOGGED KB-GIB-072 (exclusions register, flagged PROME). Unverified outage relays: CYPHER's, discarded here.
+2026-11-19T16:57:50Z	SIG-W-20261117-009	noted	INBOX_WALTER	Item 1 HSBC loan sale LOGGED KB-GIB-072 (not a GIBBS name; BROCK owns KB-BRK-511). Items 2-4: HANS, SHADE, MIDAS lanes, discarded here.
+2026-11-19T16:57:50Z	SIG-W-20261117-011	noted	INBOX_WALTER	Outage list folded into KB-GIB-068; NSA Net not a bank item (CYPHER).
+2026-11-19T16:57:50Z	SIG-W-20261117-012	noted	INBOX_WALTER	Correction of 008/011; COR-20261117-12 receipted NO-OP; KB-GIB-068 carries the corrected cause.
+2026-11-19T16:57:50Z	SIG-W-20261117-014	acted	INBOX_WALTER	Fed FSR LOGGED KB-GIB-070 in corrected form (017); Q2 context, NOT-YET-DETERMINABLE basis, no tag moved.
+2026-11-19T16:57:50Z	SIG-W-20261117-017	acted	INBOX_WALTER	Correction of 014: the close-to-$1T largest-BHC exposure LOGGED KB-GIB-070 (MIRROR via BROCK KB-BRK-510); COR-20261117-17 receipted NO-OP.
+2026-11-19T16:57:50Z	SIG-W-20261117-029	noted	INBOX_WALTER	n0n listing of JPMorgan folded into KB-GIB-069 (gang's word, link to JPM 11/19 statement NOT CONFIRMED); no other of the 16 listed.
+2026-11-19T16:57:50Z	SIG-W-20261117-031	noted	INBOX_WALTER	Label-only correction of 014; COR-20261117-31 receipted NO-OP.
+2026-11-19T16:57:50Z	SIG-W-20261118-005	noted	INBOX_WALTER	Same event as Optimizely (CYPHER grade on 20261119-009); HSBC US in KB-GIB-072; Associated is a regional, REGINALD's lane.
+2026-11-19T16:57:50Z	SIG-W-20261119-009	acted	INBOX_WALTER	JPMorgan vendor marketing-data event graded KB-GIB-069: no READS row touched; no other of the 16 named; no 8-K Item 1.05 at the 16 11/16-11/19 (EDGAR 16:55Z). Other lines REGINALD, LIQUID, HANS.
+2026-11-19T16:57:50Z	SIG-W-20261119-011	noted	INBOX_WALTER	No claim names one of the 16; MUFG 6.5M records NOT FOUND (foreign parent, HANS/CYPHER); EC, DHS, senators are CYPHER's. Discarded here.

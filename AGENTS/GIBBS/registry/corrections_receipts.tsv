@@ -5,3 +5,8 @@ receipt_date	correction_id	action	note
 2026-11-05T23:03Z	COR-20261105-52	NO-OP	scope=GIBBS carried no card 030 claim: grep of AGENTS/GIBBS outside inbox found no Arkea entry and no kill string. CYPHER's corrected wording is what KB-GIB-034 records.; 
 2026-11-05T23:04Z	COR-20261105-57	NO-OP	scope=GIBBS holds no VIX figure: grep of AGENTS/GIBBS outside inbox found no 26.86. Market volatility is VIOLET and HENRY lane and KB-GIB-040 carries no VIX level.; 
 2026-11-06T12:36Z	COR-20261105-62	NO-OP	scope=KB-GIB-034 already reads confirmed data security incident with whether data was taken not established, and no GIBBS surface carries the killed string confirmed data incident; 
+2026-11-19T16:56Z	COR-20261116-08	NO-OP	scope=GIBBS never encoded card 006 and grep of AGENTS/GIBBS outside inbox finds no four-bank or balances-wiped or Zelle-down claim. The Chase outage is logged once at KB-GIB-068 in the corrected form; 
+2026-11-19T16:56Z	COR-20261116-10	NO-OP	scope=GIBBS never encoded cards 006 or 008. KB-GIB-068 records the Chase-stated non-cyber cause and US Bank not directly impacted as corrected; 
+2026-11-19T16:56Z	COR-20261117-12	NO-OP	scope=GIBBS held no card 008 or 011 claim. KB-GIB-068 carries the corrected cause (software bug on on-premise hardware) and the several-stories verdict; 
+2026-11-19T16:56Z	COR-20261117-17	NO-OP	scope=GIBBS never encoded card 014. The corrected Fed FSR Box 2.2 figures are logged directly at KB-GIB-070 citing BROCK KB-BRK-510; 
+2026-11-19T16:56Z	COR-20261117-31	NO-OP	scope=label only. No GIBBS surface carries the Thursday weekday for the 11/13 report; 
