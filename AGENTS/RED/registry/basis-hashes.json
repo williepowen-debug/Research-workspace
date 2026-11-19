@@ -1,9 +1,9 @@
 {
   "boot_step_range": "RED:0-9e",
-  "declared_on": "2026-11-17",
+  "declared_on": "2026-11-19",
   "desk": "RED",
   "hashes": {
-    "AGENTS/RED/CLAUDE.md": "7f7fa82a3513412b87fb2edfcb87fcd3994bab375c43caaa5b0f3fa715dc5884",
+    "AGENTS/RED/CLAUDE.md": "4a6ed58ed56de8c688c55ecad45fca26315e9199a4d0006089589c77e9853bb3",
     "AGENTS/RED/scripts/base_rate_review.py": "c8d2f42f66c238830a5b7509816dae4074eac344904616e549e7adec5c5f027c",
     "AGENTS/RED/scripts/basis_check.py": "c22af3735180995842d0a4d11f79c7b2bbd345ebe8be0cf4105bb0d6a66ce7ad",
     "AGENTS/RED/scripts/boot.py": "91654fe01b7b01ee11486bbe8746bee34f89d72d52412c4ee5443c4b3f6ae1b0",
@@ -159,6 +159,13 @@
       "note": "S66 11/17: root CLAUDE.md WQ-701 (a68a32d8ca) read: charter ceiling 50000 B for desk charters (RED charter 27.9 KB, the 10/28 revisit trigger of 29295 B was 90 pct of the old 32550 budget), Blocked-sites rule added (RED sources FRED, Cboe cdn, SEC compliant), bare git pull sentence removed (RED boot step 0 already explicit). No RED rule change.",
       "moved": [
         "CLAUDE.md"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "note": "S68 own edit: W8 + addendum NEXUS brief line aligned to WQ-719 A / WQ-721 A (PROME letter 11/19)",
+      "moved": [
+        "AGENTS/RED/CLAUDE.md"
       ]
     }
   ],

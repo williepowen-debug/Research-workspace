@@ -4,6 +4,13 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S68 — 2026-11-19 10:5x ET (from `date`; PROME prome-36 due-row wake; not a closeout)
+
+- **Trigger:** PROME task letter 2026-11-19 10:46 ET carrying Will's rulings WQ-719 A (2026-11-18 12:10 ET, "719 A, 720 A approved") and WQ-721 A (15:44 ET, "721 yes right?  No brainer?"), with the instruction to align any desk charter line that rewrites the NEXUS brief more often.
+- **What changed:** `CLAUDE.md` W8: "Refresh `NEXUS_BRIEF.md` whenever state moved" → NEXUS's desk wording for WQ-719 A (rewrite only when a figure, threshold, or cross-desk send or wait in it changed; no As-of or pin refresh otherwise) plus the WQ-721 A PIN-UNRESOLVED line. Addendum self-check: "The NEXUS refresh is the last edit before the commit at EVERY state-changing ending" → the rewrite, when there is one, is the last edit. The brief's own footer line changed to match. RED's brief is UNPINNED on `scripts/brief_pin_check.py` today, not PIN-UNRESOLVED, so WQ-721 A did not fire.
+- **Files:** CLAUDE.md (29,245 → 29,657 B, 59.3% of the 50,000 B desk ceiling) · NEXUS_BRIEF.md.
+- **Boot-impact:** none. No schema, boot step or gate changed; `closeout_check.py` (f) still reads the brief's HOLD / net-bear.
+
 ## S67 — 2026-11-18 10:26 EST closeout (from `date`; Will 10:17 ET: "catch up on any owed tasks. Also check your inbox")
 
 - **Trigger:** three PROME packets of 11/17 evening (Will's word 20:35 and 20:44 ET) plus owed dated rows.

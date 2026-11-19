@@ -1,4 +1,9 @@
 # RED SCRATCH — canonical session handoff
+## S68 — 2026-11-19 10:5x EST (from `date`), laptop, Claude Code, Opus 5.5. PROME prome-36 due-row wake (D:L1109 + FT-06). NOT a closeout: holding for PROME. Full W1–W10 at PROME's ask (first ending of the day).
+- **Done:** FT-06 EXIT MET 5 of 5 (VIXCLS 24.56 [11/18], FRED 10:47 ET) → Managed −2 / Stag +2 mechanical, net-bear 69; registry UN-FIRED, not re-armed (S52 P6); scan regenerated. CHG-057 MODERATE unchanged (Nvidia 10-Q not on EDGAR 10:48 ET; ING outcome not public; SoftBank post-results CDS unread) → re-review 11/30 or on VULCAN's 10-Q packet; KB-109 re-dated 11/30. Inbox drained (1 + 2), 9 BOARD cards logged; board_log rotated. Charter W8 + addendum line aligned to WQ-719 A / WQ-721 A (MAINTENANCE S68). NEXUS vS68 (vS67 rotated). Packets: PROME `2026-11-19_from-RED_S68-ft06-exit-chg057.md`, TERRY `2026-11-19_from-RED_S68-trade-assessment.md`.
+- **Next:** VULCAN's 10-Q packet → CHG-057 re-grade · Fri 11/20 Michigan final · ~11/25 FT-10 outcome · 11/27 VX-006 ZBT · 11/30 CHG-044/054/057 · WQ-714 laptop leg (still owed; this box is the laptop) · then the S67 list below (items 3–6).
+- **At closeout owed:** SCRATCH rewrite, W6 review of anything new, W10 gate, packet if state moves again.
+
 **S67 HANDOFF — written 2026-11-18 10:27 EST (from `date`). Desktop DESKTOP-BC6EF81, Claude Code, Opus 5.5 (`claude-opus-5-5`). Will opened the window; boot report 10:1x ET; task 10:17 ET: "catch up on any owed tasks. Also check your inbox." The S66 handoff is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
 
 ## CHANGES SINCE (S66 closed 11/17 08:48 → S67 11/18 10:11)

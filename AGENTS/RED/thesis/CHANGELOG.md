@@ -4,6 +4,11 @@
 
 ---
 
+## S68 — 2026-11-19 10:5x ET (from `date`; laptop, PROME prome-36 due-row wake D:L1109 + FT-06 read; not a closeout) — **ONE MECHANICAL MOVE: Stag +2 / Managed −2, net-bear 67 → 69. HOLD 72 unchanged. One registered-trigger STATE changed: FT-06 EXITED (UN-FIRED, not re-armed).**
+
+- **FT-06 exit:** Old view: "4 of 5 [11/17]; the 11/18 close ≥18 completes it." New view: "EXIT MET 5 of 5 on FRED VIXCLS 18.70 / 19.30 / 22.91 / 25.46 / 24.56 [11/12–11/18], first-published, RED pull 10:47 ET 11/19; WALTER SIG-W-20261119-007 the same, none of the five a non-session. The managed-decline confirmation fired 2026-08-11 un-fires; Managed −2 / Stag +2 executed on the row's letter. Weights: Stag 34 · Managed 24 · Acute 20 · War 15 · Soft 4 · Rescue 3." The S52 P6 guard holds: the VIX<16 leg does not re-arm without a re-spec; none drafted. No discretionary re-derivation today (charter).
+- **CHG-RED-057:** Old view (11/10): "MODERATE; re-review 11/19 on the Nvidia 10-Q, ING bids, SoftBank CDS, Siemens Energy." New view: "MODERATE unchanged. The 10-Q is not on EDGAR (10:48 ET), so the guarantee line stays open; the ING outcome is not public; SoftBank post-results CDS unread (last 462–466bp [11/06], pre-results); Siemens Energy guides growth into FY27. The not-failing leg got stronger at the top (Nvidia Q4 guide $130.0B; Anthropic IPO reported $81B), the pickier leg holds (CoreWeave 5y about 1,078bp [11/18, LIQUID]; the $500B Nvidia pledge reported undisbursed, secondary). Re-review 11/30 or on VULCAN's 10-Q packet."
+
 ## S67 — 2026-11-18 (from `date`; desktop, Will 10:17 ET "catch up on any owed tasks") — **NO HYPOTHESIS WEIGHT MOVED. HOLD 72 · net-bear 67 unchanged. One registered-trigger exit COUNT moved (FT-06 2 of 5 → 4 of 5); no fire, no exit.**
 
 - **FT-06 exit:** Old view: "2 of 5 [11/13]; Cboe 22.91 [11/16] indicates 3." New view: "4 of 5 on FRED VIXCLS 18.70 / 19.30 / 22.91 / 25.46 [11/12–11/17] (WALTER's independent read the same). The 11/18 close ≥18 completes it, read 11/19 → Stag +2 / Managed −2, net-bear 67 → 69. A close <18 breaks it."
