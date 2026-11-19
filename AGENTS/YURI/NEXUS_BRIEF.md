@@ -3,7 +3,7 @@
 **Status:** 🟡 Score 2/5 held (2026-11-19; YURI reads 3, put to PROME as a draft). **Shenzhen (19.11):** a published Russia–China–US "Declaration on peace" (kremlin 81303, supplement/6618): UN reform, plan to increase refined-product supply, ICC/immunities, nuclear war cannot be won; no Ukraine, NATO or European-security text. YUR-007 reads as met, grade held to 11/21. Putin (81305): truce talks on energy and sea closed after the bridge strikes; retaliation "far more painful", no object or act; land-corridor presence strengthened; softer on European security (compromises, EU invited to Moscow). JT (TDnet, issuer): Russia ≈25% of adj. OP; loss ≈¥1,377.0bn. **Pre-Shenzhen (DOCKET L1146):** Russia confirmed the RU–CN–US trilateral at three Kremlin primaries (81252 12.11, 81268 16.11, 81286 18.11), none naming nuclear arms. Ushakov 12.11 re-tabled the 2021 NATO terms (non-enlargement; no threatening weapons near Russia's borders; NATO forces back to the 1997 Founding Act configuration). Government primaries 17.11 admit Crimea-bridge damage needing construction plus freight by alternative routes (government.ru 60475), and local fuel deficits with continued product imports (Novak, 60474). New rows YUR-007 (joint trilateral document, 20%, 11/21) and YUR-008 (2021 terms restated, 60%, 11/28). Earlier: YUR-006 HIT 11/11 (JTI custody, Brier 0.09); YUR-005 HIT; YUR-004 MISS.
 **Older deltas (10/12 operational effects, METRO/Aptar):** history; see `research/2026-10-12_*.md` and `archive/STATUS_ARCHIVE_2026-11.md`.
 **Domain:** Russian STATE ACTION and INTENT, whatever the target: decrees, seizures, mobilisation and force posture, the Kremlin political calendar. Feeder desk; never trades.
-**As of:** 2026-11-19 ET (primary fetches 2026-11-19T16:52–16:55Z: Kremlin feed, acts and supplement, pravo presidential and government blocks, government.ru, TDnet for JT) | STATUS commit: c39ff9211d; verify with `python3 scripts/brief_pin_check.py YURI`.
+**As of:** 2026-11-19 ET (primary fetches 2026-11-19T16:52–16:55Z: Kremlin feed, acts and supplement, pravo presidential and government blocks, government.ru, TDnet for JT) | STATUS commit: 007b17b340; verify with `python3 scripts/brief_pin_check.py YURI`.
 
 ---
 
@@ -36,7 +36,7 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
 | Kremlin (kremlin.ru feed, supplement, acts) | Re-read of supplement/6618; Dushanbe remarks; any act behind the announced retaliation | 21.11 (late read 23.11); 28.11 | YUR-007 grade; YUR-008 (11/19 presser mixed); draft YUR-009 truce row | YUR-007 / YUR-008 HIT or MISS |
-| PROME | Ruling on draft row YUR-009 (energy/sea moratorium, 15%) and Score 2 → 3 | next PROME pass | Letter barred instrument and level changes this session | Row registered or not; Score moves or holds |
+| PROME | Ruling on Score 2 → 3 (YUR-009 now registered on PROME's forward-view word) | next PROME pass | Letter barred instrument and level changes this session | Row registered or not; Score moves or holds |
 | President (pravo presidential block) | A №302 list act removing JTI or naming a buyer; any mobilisation title | 28.11 | YUR-C01 falsifier; custody vs negotiation track | Custody track joined to the talks if JTI is released |
 | DAEDALUS | YUR-F02 grade | 11/28 | Desk premise re-test; call records YUR-C01, YUR-C02 | The zero-call branch ⇒ retire/re-merge proposal, Will rules |
 ---
@@ -59,7 +59,7 @@
 
 ## CALIBRATION
 
-- **Conviction:** direction-L · timing-L · level-n/a. Open: YUR-007 20% (joint trilateral document by 11/21), YUR-008 60% (2021 terms restated by 11/28). Resolved: YUR-005 60% HIT, YUR-006 70% HIT (now in the `prob` column).
+- **Conviction:** direction-L · timing-L · level-n/a. Open: YUR-007 20% (joint trilateral document by 11/21; reads as met 11/19), YUR-008 60% (2021 terms restated by 11/28), YUR-009 15% (energy/sea moratorium agreed by 12/31), YUR-010 45% (Putin names an executed bridge response by 12/03). Resolved: YUR-005 60% HIT, YUR-006 70% HIT (now in the `prob` column).
 - **Diverge from market by:** n/a. Russia has no investable surface.
 - **Cross-agent tensions known to me:** none open. The 008 "lifted" framing is corrected at WALTER (BOARD -016).
 - **Uncertain about:** how the 500 kt permission is administered (no public act on the complete 28.09→21.10 government perimeter); whether the №686 code list exists as a restricted act; unpublished decree numbers; the closed parts of Kremlin meetings; the 2818-р bill's content.
@@ -81,6 +81,8 @@
 |------|-------|---------------------|
 | 2026-11-19 | Shenzhen: Xi bilateral, RU–CN–US trilateral, Putin–Trump contact; Putin to Dushanbe 19–20.11 | Kremlin readouts; YUR-007/008 |
 | 2026-11-21 | YUR-007 grade | Joint three-leader document on kremlin.ru |
+| 2026-12-03 | YUR-010 grade | Putin or Ushakov names the bridge response on kremlin.ru |
+| 2026-12-31 | YUR-009 grade | Russian agreement to an energy/sea moratorium |
 | 2026-11-28 | YUR-008 grade; YUR-C01 falsifier date (JTI removal or buyer) | 2021 terms restated; №302 list act removing JTI |
 | 2026-11-28 | YUR-F02 desk self-falsifier re-test (DAEDALUS) | ≥3 dated cross-channel marginal actor calls |
 
