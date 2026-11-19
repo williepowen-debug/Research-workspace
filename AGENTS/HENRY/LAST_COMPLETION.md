@@ -1,40 +1,39 @@
-# HENRY — 2026-11-18 10:15–16:4x ET: first positioning map after Nvidia's results; slow boot step removed on your approval; the Palo Alto collapse test did not fire — CLOSED on PROME's ask
+# HENRY — 2026-11-19 10:02–10:2x ET: the 10/22 bank-versus-tech alarm can't be graded until late January; first positioning map after Nvidia's results-day trading; your brief ruling applied to my instructions — CLOSED on PROME's ask
 
-**RESULT:** Nvidia's results did not change how the market is positioned. Options dealers are still positioned to add to moves in either direction. The level where that would flip, so that they start damping moves instead, is about 7,550–7,560 on the S&P, roughly 3% above today's 7,323.63 close (−0.23%). The official FRED figure for Tuesday's close came in at 7,340.53, exactly the price I graded HEN-60 on, so that forecast's YES stands. The Palo Alto Networks test closed at today's close without firing. It asked whether October's cyber scare turned into a lasting collapse for the vendor: a fall to $289.24 while lagging the HACK cyber fund by 10 points, two closes running. Palo Alto's lowest close was $309.29 and its widest lag was 4.3 points; it jumped 9.9% today, the day before its results. None of this gives a trade view. I made the start-up change you approved (WQ-697): my boot now takes 10 seconds instead of over 3 minutes, and the check it dropped still runs at closeout and on demand.
+**RESULT:** The 10/22 "banks bid, tech sold" alarm, regional banks (KRE) rising while the Nasdaq (QQQ) fell, was due for grading today. It can't be graded yet. The study's own code defines a hit as both falling at least 10% over the 60 trading days after any day in its 20-day window, so the answer arrives between 2027-01-20 and 2027-02-18; PROME re-dated the row. So far the deepest joint fall is about 5% each. The two have stopped see-sawing and are moving together again. My rule that "credit leads stocks by 2–3 days" failed in the study (credit moved first in only 2 of 9 big declines). I've stopped citing it, but I haven't edited it out of my instructions, because that request reached me through another session's message. Options dealers are still positioned to add to moves in either direction below about 7,550 on the S&P. No trade view.
 
-**CHANGED:** `scripts/boot.py` (step (g) removed) · `CLAUDE.md` (step 3c and one FILES row, for WQ-697) · `MAINTENANCE.md` · `STATUS.md` · `STATUS_COLD.md` (§ ROT-11/18) · `MEMORY.md` · this file · `NEXUS_BRIEF.md` (rewritten: figures moved; now carries its STATUS pin) · `research/2026-11-18_post-results/MAP.md` and `ROW9_GRADE.md` · `workbook/KB.tsv` (ML-HEN-229 to 232) · `workbook/MARKET_DATA.tsv` (11/16 and 11/17 confirmed, 11/17 credit, 11/18 row) · `board_log.tsv` (6 WALTER cards) · `registry/corrections_receipts.tsv` (4 NO-OP) · `inbox/` (2 PROME, 1 ORACLE, 6 WALTER moved to processed). Packets: PROME (two).
+**CHANGED:** `CLAUDE.md` (step 10 and the FILES row: your WQ-719 and WQ-721 brief rulings, carried in my launch letter) · `STATUS.md` (rotated to 68% of its size cap) · `STATUS_COLD.md` (§ ROT-11/19, -19b) · `MEMORY.md` · this file · `NEXUS_BRIEF.md` (rewritten: its figures moved) · `research/2026-11-19_d823/GRADE.md` · `workbook/KB.tsv` (ML-HEN-233 to 235) · `workbook/PUBLISHED.tsv` (11/19 map) · `board_log.tsv` (8 WALTER cards) · `inbox/WALTER/` (8 moved to processed). Packets: PROME, TERRY.
 
 ## Session work
 
 | Item | Outcome |
 |---|---|
-| FRED check of 11/17 | S&P 7,340.53, VIX 25.46, HY 343 all match; HEN-60 stands |
-| Map 10:16 ET and close read 16:31 ET | Dealers short gamma; flip about 7,550–7,580; support and resistance walls withheld by the guard; nothing published |
-| WQ-697 start-up edit | Done as approved, deletions only in `boot.py`; the dropped check is still available |
-| Palo Alto row 9 (D:L1051) | **NOT-FIRED**, 0 of 21 closes; PROME passes it to CYPHER |
-| VIOLET's question (volatility jumped 30% with credit flat) | Orderly slide, dealers amplifying, junk spreads still widening; no bottom called |
-| Inbox | Drained: 6 WALTER cards, 2 PROME packets, 1 ORACLE note |
+| D:L823, 10/22 alarm at +20 sessions | **UNRESOLVED**; resolves 2027-01-20 to 2027-02-18; joint fall so far KRE −4.9%, QQQ −4.7% |
+| Rule H4 against the study | "Credit leads by 2–3 sessions" contradicted (2 of 9); "stocks can't bottom until credit peaks" untested |
+| Map on Thursday's options data | Published: S&P flip 7,545–7,556 at 7,390, dealers short gamma; support and resistance withheld; Nasdaq ETF exactly at its flip |
+| WQ-719 / WQ-721 instruction edit | Done, from my launch letter |
+| Inbox | 8 WALTER cards drained; Fed minutes and Philadelphia Fed survey logged |
 
 ## GAPS / still pending
 
-- Gamma is a free-tier estimate on Tuesday's positions. Trading in reaction to the results first shows in Thursday's options data.
-- **Your brief ruling (WQ-719):** one line in my instructions (step 10) still says to rewrite the brief every session. I did not change it, because the instruction reached me through another session's message rather than from you or my launch letter. PROME puts the new text in Thursday's launch letter.
-- Operating Dashboard (v6, 11/12) not refreshed.
+- **H4 edit not made.** PROME approved my draft wording by peer message at 10:13 ET. My standing rule is not to edit my own instructions on a peer's request, the same reason I held WQ-719 on 11/18. It needs a launch letter or your word.
+- Junk-bond spreads for 11/18 weren't posted when I read FRED at 10:05 ET. They are the third leg of the study's informal watch condition, which is already met on its other two legs. That condition was never tested and rests on one past case (July 2024, a sharp one-week fall that recovered within weeks).
+- Gamma is a free-tier estimate. Operating Dashboard (v6, 11/12) not refreshed. LESSONS.md is at 76% of its size cap.
 
 ## COMMITS
 
-`814567042f` morning desk files · `9b0ef0997b` morning packet · `8073ce43da` FRED credit and VIOLET note · `da9bfcc47b` row 9 grade and close · `d988c9d9a4` afternoon packet · closeout commit "HENRY: 11/18 closeout". Push receipt is in PROME's message.
+`956d624675` desk files · `fb90af8386` TERRY packet · `3440e445d9` PROME packet · closeout commit "HENRY: 11/19 closeout". Not pushed (PROME pushes).
 
 ## NEXT SESSION FOLLOW-UP
 
-**Thu 11/19:** D:L823 (regional banks against the Nasdaq); first options data carrying results-day trades; FRED for 11/18. **Fri 11/20:** grade the 8 old forecasts. **Wed 12/9:** FOMC (HEN-63, my 0.70 against a market at 97).
+**Fri 11/20:** grade the 8 old forecasts; calendar rebuild. **Wed 12/9:** FOMC (HEN-63, my 0.70 against a market at 97). **2027-01-20 to 02-18:** the bank-versus-tech alarm resolves.
 
-## THESIS SNAPSHOT (frozen at close 11/18)
+## THESIS SNAPSHOT (frozen at close 11/19, ~10:2x ET, intraday)
 
-Equity: S&P 7,323.63, −6.33% from its 10/6 record, below its 200-day; dealers short gamma, flip about 7,552–7,561. Rates: 10Y par 5.07% (RED, fifth close over 5.0), 2Y 4.80%. Vol: VIX settle 24.56 (yellow). Credit (FRED 11/17): HY 343bp YELLOW and widening, CCC 1,329bp RED. AI chips: Nvidia $150.96 (−2.89%) after its after-hours gain reversed.
+Equity: S&P 7,377 at 10:03 ET (+0.73%), last close 7,323.63 (FRED confirms), −6.33% from its 10/6 record; dealers short gamma, flip 7,545–7,556. Banks and Nasdaq now moving together (correlation +0.31). Vol: VIX settle 24.56 on 11/18 (yellow), 22.83 intraday. Credit (FRED 11/17): HY 343bp YELLOW, rising three sessions; CCC 1,329bp RED. Rates: 10Y about 5.09% intraday; the Fed minutes back a December hike.
 
 ## WILL_NEEDS
 
-One item, through PROME: the new step 10 wording for the brief (WQ-719), which reached me only through another session's message. It goes in Thursday's launch letter unless you say otherwise. No money moved; no threshold, band, card or gate changed; no forecast resolved today.
+One item, through PROME: whether to apply the H4 rewording (strike "credit leads stocks by 2–3 sessions"; keep "stocks can't bottom until credit peaks", marked untested). PROME approved it, but by peer message. No money moved; no threshold, band, card or gate changed; no forecast resolved.
 
-*Honest scope: equity closes are vendor and Cboe delayed quotes, with FRED confirming 11/17 and 11/18 still to come; the VIX is Cboe's 16:15 settle; yields are Treasury par; credit is FRED for 11/17; gamma is a free-tier estimate; the Palo Alto grade uses Yahoo adjusted closes.*
+*Honest scope: closes are Yahoo adjusted closes (the study's own data source), with FRED confirming 11/18; resolution dates use a hand-entered market-holiday list; gamma is a free-tier estimate on 11/18 open interest; the Fed minutes and Philadelphia Fed figures are WALTER's reads of the primary sources, not re-read by me.*

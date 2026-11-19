@@ -53,19 +53,18 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-18, 10:15–16:4x ET (PROME prome-6e, D:L1051 / D:L1163; post-results map, WQ-697 edit, row 9 grade; held all day; Claude Code, Opus 5.5). Closed on PROME's 16:37 ET ask.
+### CHANGES SINCE — 2026-11-19, 10:02–10:2x ET (PROME prome-36, D:L823; laptop; Claude Code, Opus 5.5). Closed on PROME's 10:13 ET ask.
 
-- **FRED:** SP500 11/17 7,340.53 = vendor close (HEN-60 confirmed, nothing to disclose); VIXCLS 25.46; HY 343, BB 204, CCC 1,329 [11/17]. FRED SP500 posts later than VIXCLS and ICE: at 10:16 ET it was absent, by 15:00 ET present.
-- **Map 10:16 ET** (11/17 OI, first with Nvidia-day trades): flip about 7,545–7,580, NEGATIVE −56 / −77; close read flip 7,552 / 7,561, −57.2 / −78.8; walls withheld; nothing published (`research/2026-11-18_post-results/MAP.md`).
-- **WQ-697 A done:** boot step (g) removed; boot 184.7 s → 10.1 s; consumer check still runs on demand and at root closeout 1c.
-- **Row 9 collapse leg NOT-FIRED** (0 of 21 closes; PANW low $309.29 vs $289.24; lag max 4.31 vs 10.0). `ROW9_GRADE.md`, KB ML-HEN-232. PROME carries it to CYPHER.
-- VIOLET's vol-only-spike handoff answered (MAP.md § 7): slide −2.4%, short gamma, HY +23bp from the 11/12 low; no low called under H4 while HY widens.
-- **WQ-719 A (Will 11/18):** brief rewritten only when a figure, threshold, send or wait in it changed; lagging pin is a warning. My charter step 10 (line 54) and FILES row (line 251) still say every-session; NOT edited (arrived by peer message); proposed text in the 11/18 afternoon packet and PROME puts it in the 11/19 launch letter. The brief now carries a `STATUS commit:` pin.
-- Tooling: a background `sleep N` timer fired 23 minutes early (16:08 for 16:31); use `until [ $(date +%H%M) -ge HHMM ]` loops. Cboe `delayed_quotes/options/_VIX.json` works with a User-Agent (gives the settle and `last_trade_time`); `_VIX3M` and `_VIX9D` 403 there, use vendor `^VIX3M`/`^VIX9D`. The git guard hook blocks `git add -- $VAR`: write literal paths.
+- **D:L823 UNRESOLVED:** build.py's hit = a day in [alarm, +20] whose 60-session forward return is ≤ −10% on both legs, so it resolves only at +80 sessions: **2027-01-20 to 2027-02-18**. PROME re-dated the row to 2027-02-18. Joint fall so far KRE −4.9% / QQQ −4.7% (11/4 → 11/18). Lesson: read a grading row's resolver in the CODE before grading on the DOCKET's paraphrase.
+- State 11/18: see-saw over (c20 +0.31, opposite-sign 40%, KRE 4.3% under its relative high); the study's unregistered watch sentence met on two legs plus HY 343 [11/17]; HY 11/18 unposted at 10:05 ET.
+- **H4:** lead clause ("credit leads by 2–3 sessions") contradicted for onsets (2 of 9); bottom clause untested. PROME (10:13 ET, peer message) told me to apply my draft to CLAUDE.md and LESSONS; **NOT applied**: same peer-message rule as WQ-719 A on 11/18. Draft is in my packet `2026-11-19_from-HENRY_d823-unresolved-map-published-wq719-edit.md` § 2 (PROME/inbox/, or processed/ once consumed); apply it when it arrives in a launch letter or from Will. Until then I do not cite the lead clause.
+- **Map published 10:04 ET** (11/18 OI): SPX flip 7,545 / 7,556, NEGATIVE −43.9 / −62.2; walls NONE; QQQ on its flip 673, call wall 680 published, put NONE. Wall rows written by hand.
+- **WQ-719 A + WQ-721 A applied** (launch letter): charter step 10 (line 54) and FILES row (line 251). Brief now rewritten only when its content changed.
+- FRED SP500 and VIXCLS 11/18 confirm my closes. KB ML-HEN-233 to 235. WALTER lane 8 of 8 drained. STATUS rotated to 68% of cap (ROT-11/19, -19b). LESSONS at 76%: rotate at an ordinary wake.
 
-### NEXT SESSION (11/19, D:L823; launch letter carries the step 10 text)
+### NEXT SESSION
 
-1. **Charter step 10 + FILES row re-key (WQ-719 A)** if the launch letter carries it: text in `PROME/inbox/2026-11-18_from-HENRY_row9-not-fired-fred-confirms-close-items.md` § 5.
-2. **D:L823** (KRE/QQQ alarm at +20 sessions). First chain with results-day positioning (11/18 trades): read after about 09:47 ET.
-3. FRED 11/18: SP500 vs 7,323.63, VIXCLS vs 24.56, HY (the H4 leg: still widening or peaked?).
-4. **Fri 11/20:** grade the 8 audit rows beside D:L490. ECON_CALENDAR rebuild before 11/20; DAEDALUS K38–K52; dashboard v6 stale; FOMC 12/9 (HEN-63 0.70, market 97 per ORACLE).
+1. **H4 charter + LESSONS edit** if a launch letter or Will carries it (draft text above).
+2. FRED HY 11/18 (third leg of the watch sentence; LIQUID grades HY).
+3. **Fri 11/20:** grade the 8 audit rows beside D:L490; ECON_CALENDAR rebuild before 11/20; DAEDALUS K38–K52; dashboard v6 stale; FOMC 12/9 (HEN-63 0.70).
+4. LESSONS.md rotation (76% of cap).

@@ -1,17 +1,17 @@
 # HENRY — NEXUS Brief
 
-**As of:** 2026-11-18 16:36 ET | STATUS commit: `da9bfcc47b`
+**As of:** 2026-11-19 10:14 ET | STATUS commit: `956d624675`
 
-**Owner fold:** 2026-11-18 closeout on PROME's ask (prome-6e, D:L1051 / D:L1163; Claude Code, Opus 5.5). Rewritten under WQ-719 A because figures it carries moved (HY 334 → 343; the "Into 11/18" line is past). Equity closes are Cboe delayed and vendor quotes (16:31–16:33 ET). The VIX is the Cboe 16:15 settle (stamp 16:15:01). Yields are Treasury par 11/18. Credit is FRED 11/17. FRED for 11/18 posts 11/19. Earlier folds: 11/17 16:5x ET, 11/16 16:3x ET.
+**Owner fold:** 2026-11-19 closeout on PROME's ask (prome-36, D:L823; Claude Code, Opus 5.5, laptop). Rewritten under WQ-719 A because figures it carries moved (the map, FRED 11/18, D:L823). Closes are vendor and FRED (SP500 and VIXCLS 11/18 confirm). The gamma read is the 11/19 Cboe chain (11/18 open interest) at vendor spot, 10:04–10:05 ET. Credit is FRED 11/17; 11/18 was unposted at 10:05 ET. Earlier folds: 11/18 16:36 ET, 11/17 16:5x ET.
 
-**View:** **Nvidia's results did not change the regime.** The S&P closed **7,323.63** (−0.23%), −6.33% from the 7,818.93 peak and below its 200-session average. **FRED SP500 11/17 7,340.53 confirms HEN-60's vendor close to the cent (RESOLVED-HIT stands).** Dealers are still short gamma (proxy): **flip 7,552 / 7,561, NEGATIVE −$57B / −$79B per 1%** at the close on 11/17 open interest. Walls are withheld and nothing is published. NVDA $150.96 (−2.89%): the after-hours gain reversed after the SEC-probe report (WALTER 025; cause not established). **VIX settle 24.56** (−3.5%; over my 23 yellow line; VIOLET broadcasts); VIX9D 23.95 is under the VIX, so the front un-inverted. 10Y par **5.07%**, the fifth close over 5.0; 2Y 4.80%.
+**View:** **Results-day positioning did not change the regime.** Dealers are still short gamma (proxy): **S&P flip 7,545 / 7,556, NEGATIVE −$44B / −$62B per 1%** at 7,390 (10:04 ET), **published**; walls withheld. QQQ sits on its flip (673), so no regime is called; QQQ call wall **680 published**. Last close 7,323.63 (11/18), −6.33% from the 7,818.93 peak. VIX settle 24.56 [11/18] (VIOLET broadcasts); 22.83 intraday 11/19, contango.
 
-- **Escalation row 9, collapse leg (CYPHER's row, HENRY grades): NOT-FIRED at the 11/18 close.** 0 of 21 adjusted closes met either leg: PANW low $309.29 vs the $289.24 line, widest lag behind HACK 4.31 points vs 10.0. PANW +9.9% on 11/18, the day before its results. CYPHER owns the row's state; PROME carries the grade. `research/2026-11-18_post-results/ROW9_GRADE.md`.
-- **To VIOLET (its +30% VIX, flat-credit row):** an orderly slide (−2.4% over the five sessions), dealers amplifying, HY +23bp from its 11/12 low. Under H4 (equity does not bottom until HY peaks) no low is called while HY widens. It changes on a close over about 7,555 or an HY peak. No investment implication. `MAP.md` § 7.
-- **Into 11/19 (judgment):** Thursday's options chain is the first to carry results-day positioning. A close over about 7,555 turns dealers into dampers. Moves stay amplified either way until then.
-- **Levels:** yellow 7,200 (123.63 below the close); red 7,037.04 (−10% from the 10/6 peak).
-- **Credit (FRED 11/17):** HY 343bp YELLOW (+9); BB 204; CCC 1,329 RED. LIQUID grades the HY rows.
-- **Forecasts:** HEN-61 record close by 12/31, 0.28. HEN-63 rate hike 12/9, 0.70 (the market is at 97 per ORACLE 11/18; its price is ORACLE's). The 8 old rows the audit found are graded Fri 11/20.
-- **Next:** D:L823 on 11/19; FRED 11/18 (HY is the H4 read); calendar rebuild before 11/20; FOMC 12/9.
+- **D:L823, the 10/22 KRE/QQQ "banks bid, tech sold" alarm: UNRESOLVED.** By the study's own code it resolves **2027-01-20 to 2027-02-18** (PROME re-dated the row). Joint fall so far: KRE −4.9%, QQQ −4.7% (11/4 → 11/18). The see-saw is over (correlation +0.31). The study's unregistered watch sentence is met on two legs, plus HY's last print. No investment implication (TERRY informed). `research/2026-11-19_d823/GRADE.md`.
+- **H4:** "credit leads equity by 2–3 sessions" is contradicted for onsets (credit widened first in 2 of 9 joint declines, median 6.5 sessions after); I no longer cite it. "Equity cannot bottom until HY peaks" is untested and still used: no low is called while HY widens.
+- **Into the 11/19 close (judgment):** a close over about 7,550 turns dealers into dampers; until then moves stay amplified either way.
+- **Levels:** yellow 7,200 (123.63 below the 11/18 close); red 7,037.04 (−10% from the 10/6 peak).
+- **Credit (FRED 11/17):** HY 343bp YELLOW, up three sessions; BB 204; CCC 1,329 RED. LIQUID's above-320 rule MET; LIQUID grades the HY rows.
+- **Rates:** FOMC minutes (11/18): "almost all" see further hikes likely. HEN-63 (hike 12/9, 0.70) not re-marked; the market price is ORACLE's.
+- **Next:** FRED HY 11/18; 8 audit rows Fri 11/20; calendar rebuild before 11/20; FOMC 12/9.
 
-No threshold level, band, trade, card or gate changed. No prediction resolved today. One item reaches Will through PROME: my charter's brief line under WQ-719 A, which I did not edit because the instruction arrived by peer message.
+No threshold level, band, trade, card or gate changed. No prediction resolved today. The H4 rewording waits for a launch letter or Will's word: PROME approved it, but by peer message.
