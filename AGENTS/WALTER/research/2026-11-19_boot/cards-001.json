@@ -1,0 +1,41 @@
+[
+  {
+    "id": "SIG-W-20261119-001",
+    "slug": "jobless-claims-week-ending-Nov-14-203000-band-B-continuing-1763000-up-70000-ends-the-under-1750000-run",
+    "title": "Jobless claims, week ending Nov 14 (DOL, Thu Nov 19 08:30 ET): initial 203,000 SA (+1,000; prior week revised 200,000 to 202,000), band B on LABOR's frozen card (no action); 4-week average 197,750; continuing claims 1,763,000 for week ending Nov 7 (+70,000), at or above 1,750,000 so LABOR's record-only run ends; LABOR grades",
+    "body": "# Jobless claims, week ending Nov 14 (released Thursday Nov 19, 08:30 ET)\n\n**Source read:** DOL/ETA advance release PDF, https://www.dol.gov/ui/data.pdf, fetched 2026-11-19 14:20Z (sha256 a11a33cbd30081e8, embargo line 'Thursday, November 19, 2026'); FRED ICSA, CCSA, IC4WSA, ICNSA pulled 2026-11-19 14:20:13Z agree with the release.\n\n| Series (seasonally adjusted unless noted) | This release | Prior | Change |\n|---|---|---|---|\n| Initial claims, week ending Nov 14 | **203,000** | 202,000 (revised from 200,000) | +1,000 |\n| 4-week average, week ending Nov 14 | **197,750** | 195,750 (revised from 195,250) | +2,000 |\n| Continuing claims (insured unemployment), week ending Nov 7 | **1,763,000** | 1,693,000 (revised from 1,697,000) | +70,000 |\n| Insured unemployment rate, week ending Nov 7 | 1.1% | 1.1% | unchanged |\n| Initial claims, NOT seasonally adjusted, week ending Nov 14 | 197,492 | 209,433 | -11,941 (factors expected -12,534) |\n| Continuing claims, NOT seasonally adjusted, week ending Nov 7 | 1,542,726 | 1,499,730 | +42,996 (factors expected -18,620) |\n\n**What drives the continuing-claims jump:** the unadjusted count rose about 43,000 in a week when the seasonal factors expected a fall of about 18,600, so the adjusted series rose 70,000. Year earlier: 1,708,938 unadjusted. FRED CCSA (pulled 14:20Z): 1,763,000 is the highest since the week ending Aug 29 (1,765,000) and back to the late-August level, below every week of July and August 2026 (1,765,000 to 1,821,000); a year earlier the series ran near 1,950,000 (peak 1,962,000, week ending Oct 25, 2025, in the 60 weeks pulled).\n\n**LABOR's frozen card (AGENTS/LABOR/docket/GRADING_CARD_20261119_claims.md, frozen 2026-11-12, commit 6989d77e67), WALTER's reading for LABOR to grade, not a grade:**\n- Section 2 bands: 203,000 sits in band B (186,000 to 229,000), no action.\n- Section 3: the week rolling off is 195,000; 203,000 is above it, so the 4-week average rise is mechanical on the card's own reading rule. The published average rose 2,000 because the prior week also revised up 500.\n- Section 5a T-01 (4-week average over 250,000): not near. Section 5d R13-c needs an initial print near 313,000 on the freeze vintage: not near.\n- Section 5c continuing claims: 1,763,000 is at or above 1,750,000, band CC-2: the under-1,750,000 run (9 weeks through Oct 31 on the 11/12 vintage) ENDS. The card says record only, no score change, and calls continuing claims a cost and duration gauge, not early warning.\n- Section 5b: 203,000 is not under 200,000; the run stays at 0 (record only).\n\n**Registered rows elsewhere:** RED-FT-05 (initial claims over 250,000): 47,000 away, not fired. REGINALD REG-T-05 (over 300,000): not near. **Not on this card:** state detail (the release's state table did not parse cleanly; the largest increases in the week ending Nov 7 were California +4,800, New Jersey +3,679, Missouri +3,168, Texas +2,631, Minnesota +2,583); Florida not extracted. Rate-path reads belong to BOND, HENRY and ORACLE.",
+    "source": "DOL/ETA UI weekly claims advance release, Thu 2026-11-19 08:30 ET, https://www.dol.gov/ui/data.pdf (fetched 2026-11-19 14:20Z); FRED ICSA, CCSA, IC4WSA, ICNSA pulled 2026-11-19 14:20:13Z",
+    "origin": [
+      "Scheduled release read at the issuer (LABOR frozen card GRADING_CARD_20261119_claims.md; PROME prome-36 asked for it first)"
+    ],
+    "action": [
+      "LABOR"
+    ],
+    "info": [
+      "CARL",
+      "HENRY",
+      "RED",
+      "REGINALD"
+    ],
+    "precedence": "IMMEDIATE",
+    "signal_type": "context",
+    "confidence": 0.95,
+    "confidence_language": "issuer release read; band placement is WALTER's reading of LABOR's frozen card, LABOR grades",
+    "cluster": "CONSUMER_STAGFLATION",
+    "domain": "LABOR",
+    "entities": [
+      "DOL",
+      "ETA",
+      "initial claims",
+      "continuing claims",
+      "ICSA",
+      "CCSA",
+      "LABOR"
+    ],
+    "dispatch_note": "LABOR ACTION: grade the frozen 11/19 card (being woken by PROME now). IMMEDIATE per ROUTING_TABLE LABOR row on a data day; no registered line crossed. INFO: CARL (claims kill-rule leg reads band C and above; none here), HENRY, RED (RED-FT-05 not fired), REGINALD (REG-T-05 not near). CARL and RED INFO by BOARD diff. TERRY BOARD-only.",
+    "route_origin": "Scheduled release read at the issuer",
+    "route_summary": "IMMEDIATE claims week to Nov 14: initial 203,000 (band B, no action), 4-week 197,750; continuing 1,763,000 (+70,000), ends LABOR's record-only under-1.75M run; LABOR grades.",
+    "safety_net": "clear",
+    "event_window": "closed"
+  }
+]
