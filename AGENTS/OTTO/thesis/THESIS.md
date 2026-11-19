@@ -332,7 +332,7 @@ Canonical source: [`PREDICTIONS.tsv`](PREDICTIONS.tsv). Post-mortems for resolve
 
 ### Calibration (reconciled October19)
 
-The canonical scored set is in [`PREDICTIONS_ARCHIVE.md`](PREDICTIONS_ARCHIVE.md): **3/8 hits, mean Brier0.276875** on strict original terms, versus0.25 at constant50%. No demonstrated forecasting edge. OTTO-01 began70% with a Q2 window, later widened before MFS; OTTO-09's “additional” baseline is unqualified. Historical grades stand but those two earn no original-series credit. OTTO-08 now has an actual H2 BCRED witness; OTTO-27 actual Q1 earnings support its quarter-specific claim. Current unresolved states/probabilities belong to the ledger, not a second stale list here.
+The canonical scored set is in [`PREDICTIONS_ARCHIVE.md`](PREDICTIONS_ARCHIVE.md): **3/9 hits, mean Brier 0.286111** on strict original terms (OTTO-37 added 11/06; this line read 3/8, 0.276875 until s048, 2026-11-19), versus 0.25 at constant 50%. OTTO-04, OTTO-06 and OTTO-10 are also outside the counted set (archive table, "Counted?" column). No demonstrated forecasting edge. OTTO-01 began70% with a Q2 window, later widened before MFS; OTTO-09's “additional” baseline is unqualified. Historical grades stand but those two earn no original-series credit. OTTO-08 now has an actual H2 BCRED witness; OTTO-27 actual Q1 earnings support its quarter-specific claim. Current unresolved states/probabilities belong to the ledger, not a second stale list here.
 
 OTTO-30's45→12% walk was a useful process correction, **not a calibration win**: its original60% scores0.36. Fraud discovery, fraud recoveries and propagation remain distinct; small selected historical scores do not establish an edge in any one category.
 

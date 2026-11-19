@@ -7,3 +7,4 @@ receipt_date	correction_id	action	note
 2026-11-06T23:22Z	COR-20261106-51	APPLIED	artifact=AGENTS/OTTO/research/2026-11-06_close-refresh/READOUT.md#2a; validation_ref=AGENTS/OTTO/workbook/ML.tsv#ML-OTTO-373; 
 2026-11-06T23:34Z	COR-20261106-52	APPLIED	artifact=AGENTS/OTTO/research/2026-11-06_close-refresh/READOUT.md#2a; validation_ref=AGENTS/OTTO/workbook/ML.tsv#ML-OTTO-374; 
 2026-11-12T21:45Z	COR-20261111-25	NO-OP	scope=OTTO found this error itself. READOUT 2026-11-11 section 2 and ML-OTTO-377 already cite HHDC_prep and name owed-rows only as the flagged wrong path. No figure changes; 
+2026-11-19T14:35Z	COR-20261117-02	NO-OP	scope=OTTO raised this DUP itself on 11/16 (board_log row for SIG-W-20261116-005 and correction packet SIG-OTTO-WALTER-20261116-cacc). Item 8 was never logged as a new member and ML-OTTO-276 of 9/24 stands. No figure changes; 

@@ -15,6 +15,10 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 ---
 
 
+### 2026-11-19 s048 — NEXUS_BRIEF write-back cadence moved to WQ-719 A / WQ-721 A
+
+**Trigger:** PROME prome-36 launch letter (11/19), carrying Will's WQ-719 A (2026-11-18 12:10 ET) and WQ-721 A (15:44 ET) in NEXUS's wording (schema § 4.1). **What changed:** closing step 7a no longer says "Mandatory every session, even no-change"; the brief is rewritten only when a figure, threshold, or cross-desk send or wait in it changed, PIN-UNRESOLVED is repaired pin-only, STALE-PIN is advisory. Amendment 10 ordering kept for sessions that do rewrite. Doc Ownership row and File Structure comment updated to match. No version bump (wording within an existing step). **Files touched:** `CLAUDE.md` (step 7a, Doc Ownership row, File Structure line). **Boot-impact:** none at boot; closeout writes the brief less often. **Lessons:** the old line's "even no-change" refresh is what WQ-719 A retires; a lagging pin is now the normal state of an unchanged brief.
+
 ### 2026-11-12 s045 — WQ-678 instruction-file lines (DAEDALUS harness re-test)
 
 **Trigger:** Will ruled WQ-678 A (2026-11-12 09:59 ET), DAEDALUS packet `inbox/processed/2026-11-12_from-DAEDALUS_WQ678-harness-lines.md`. **Changelist A applied (3):** S-12 auto-memory promotion now names repo path `memory/auto/` (carve-out ③) and no longer claims harness loading; S-13 WINTERKORN spawn uses the runtime's verified sub-agent method; S-17 Trade Flow diagram replaced by one line (TERRY card, root rule #5, root rule #10), file-tree TRADE.md marked FROZEN. **Changelist B applied (4):** S-15 closeout step 7 carries the own-ASK exception; S-16 short-seller alert routes by WALTER drop; S-19 `thesis/CHANGELOG.md` path; S-20 root-resolved script paths. **Deferred (13), none declined:** S-14, S-18, S-21 to S-31 (history strikes and the CATALYSTS editor question) to a non-bounded session. Text removed or replaced only; no rule, check or step added. No version bump. **Files:** `CLAUDE.md`. **Boot-impact:** none. **Lessons:** none structural.
