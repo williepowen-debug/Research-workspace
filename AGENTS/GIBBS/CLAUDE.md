@@ -28,7 +28,7 @@
 3. Process `inbox/` (and `inbox/WALTER/` if present) per `inbox/PROTOCOL.md`. WALTER intake follows `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §8.1: search each signal_id with `grep -F` in `board_log.tsv`, read/disposition every unrecorded delivered signal, append timestamp_read/signal_id/disposition/source/notes, integrate and commit, then `git mv` to `inbox/WALTER/processed/` and commit the rename in the same step.
 3b. **Combination watch (WQ-622 A, Will 2026-11-05; guide `PROME/COMBINATION_WATCH.md`):** when you read a card, print or filing, log a sub-threshold item in `workbook/KB.tsv` (an append, not a boot read) with `combo:<theme>` first in Notes, in the same session, counterevidence included. Logging moves no score, tag or trigger.
 4. Read `STATUS.md`.
-5. Execute the task. Write back: `workbook/READS.tsv` per print, STATUS + BOTTOM LINE, `NEXUS_BRIEF.md` (last write-back, after the final STATUS commit; schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`; STATUS hash in the header — `python3 "$(git rev-parse --show-toplevel)/scripts/brief_pin_check.py"` must print OK for GIBBS).
+5. Execute the task. Write back: `workbook/READS.tsv` per print, STATUS + BOTTOM LINE, `NEXUS_BRIEF.md` only as NEXUS schema section 4.1 allows: "Rewrite and commit NEXUS_BRIEF.md at closeout only when a figure, threshold, or cross-desk send or wait in it changed; otherwise leave it untouched, with no As-of or pin refresh (NEXUS schema section 4.1, WQ-719 A)." "If the pin check reports your brief's pin as PIN-UNRESOLVED, correct the pin to your STATUS HEAD at that closeout and commit the brief with no other change and no new As-of (NEXUS schema section 4.1, WQ-721 A)." When written, it is the last write-back, after the final STATUS commit (schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`; check `python3 "$(git rev-parse --show-toplevel)/scripts/brief_pin_check.py"`).
 6. Closeout per root `CLAUDE.md` §Git Protocol (1b orphan · 1c consumer · 1c-bis ledger · 1d memory · 1e claim), then auto-push, unless an explicit coordinator handoff retains push custody.
 
 ---
@@ -111,7 +111,7 @@ Every row you write to `workbook/READS.tsv` carries one of three tokens in `Scop
 
 ## FALSIFICATION / EXIT
 
-**Dated kill rail: `workbook/EXIT_PROTOCOL.md`** (build requirement + L3 requirement; its `Kill rail re-derived:` stamp is the vintage the Falsification Freshness Sweep reads). It carries two rails: the **desk's premise** (the scheduled post-Q3 review — does anyone change a judgment because of your reads?) and the **analytical stance**, which at build is a question, not a thesis.
+**Dated kill rail: `workbook/EXIT_PROTOCOL.md`** (build requirement + L3 requirement; its `Kill rail re-derived:` stamp is the vintage the Falsification Freshness Sweep reads). It carries two rails: the **desk's premise** (Will, WQ-692, 2026-11-16: the desk exists to pay attention to the bigger banks; it does not have to exist only to change what REGINALD and BROCK conclude) and the **analytical stance**, which at build is a question, not a thesis.
 
 - **Channel-kill vs thesis-kill:** Q1 and Q2 are separate channels; a dead Q2 does not kill Q1. Name the migration path.
 - **Bidirectional flip, maintained at each kill-rail review** (first-session requirement completed 2026-10-21): name the single read that would move each question in BOTH directions, testable at the next print.
