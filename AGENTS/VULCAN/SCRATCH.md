@@ -1,4 +1,36 @@
-> # ⛔ 2026-11-19T12:26:02-05:00 — READ THIS BLOCK FIRST. HOLD (not closed). PROME prome-36 letter on the laptop (Will's word 11/19 11:49 ET): WALTER cards 017 and 005, the backlog, then HOLD for NVIDIA's Q3 FY27 10-Q. Claude Code, Opus 5.5 (claude-opus-5-5); session vulcan-20. Do NOT close out, pull or push until PROME asks.
+> # ⛔ 2026-11-19T13:59:10-05:00 — READ THIS BLOCK FIRST. CLOSED on PROME prome-36's ask (Will 13:56 ET: checkpoint and close out PROME-spawned desks). Standard closeout, laptop. Claude Code, Opus 5.5 (claude-opus-5-5); session vulcan-20. push delegated to PROME 13:59 ET.
+
+▶ START HERE: **15/25, no letter.** Nvidia's Q3 FY27 10-Q was **NOT on EDGAR at the last check, 13:57:06 ET 11/19.** The newest NVIDIA filing is the 11/17 8-K. Watcher bphm9ickd was stopped on PROME's ask. **The 10-Q leg rides the 11/20 wake (D:L322).** The CATALYSTS row is re-dated to 2026-11-20 and moves with the filing.
+
+Owed at the read:
+- **T1:** do the MoUs convert to definitive financing? Grade VULCAN-194 on that exact question only. It resolves 11/25 and is VOID if the 10-Q is unfiled by then.
+- **T2:** escrow vs SB Energy.
+- **T4:** the 10-Q receivables must equal $81,033M = 63.7 days. The band ≥59.5 was set before the filing; this is one of two readings [KB-466].
+- **T6:** the 3.8 GW option.
+- **Guarantee lines, in millions:** SB Energy $105,000M; the $9.5B power-and-systems line, its counterparty and whether it is customer-directed; payments made.
+- **VULCAN-18:** register it line by line, with a baseline in millions.
+- **Descriptive:** DEWEY T3, the HQ table, the legal note.
+
+Then:
+- RED packet for CHG-RED-057.
+- PROME packet (checker commit 78b87d5a2b and its three cases were already named in the closeout receipt).
+- TERRY follow-up.
+- Message PROME.
+
+EXIT 4(b)'s instrument does not change without Will. Forward views follow Will's 13:31 ET rule (block below). Also on 11/20: slot 11, GPU 11, SoftBank, NextDC.
+
+RECONCILE 4ecb854f6ca99b32c9be35b9b4a4397e006481318d1ef4d7cf14b6035f4f8bea STATUS UPDATED: the header, OPEN ② and BOTTOM LINE now say the 10-Q was unfiled at 13:57:06 ET and is carried to the 11/20 wake, with the owed list (T1 grading only VULCAN-194's question; T4 AR $81,033M; guarantee lines in millions; EXIT 4(b) unchanged). The S1/S4/S5 reads from KB-464..468 went in at 41f70c6a41 and still reconcile. No score, band, fired count, prediction or gate moved.
+RECONCILE 4ecb854f6ca99b32c9be35b9b4a4397e006481318d1ef4d7cf14b6035f4f8bea THESIS UPDATED: the October 26 line 'Anthropic's original S-1 confirms ... no priced/effective IPO' is superseded by the 11/19 pricing (KB-464); struck and dated, with no stage state changed. Checked against this session's other records: the S4 stages key on enacted rules, and Hunterbrook is a claim with no government action (KB-465). The NVDA section's 'MoUs are targets, not committed capital' still matches KB-466. VULCAN-18 is still deferred to the 10-Q session.
+RECONCILE 4ecb854f6ca99b32c9be35b9b4a4397e006481318d1ef4d7cf14b6035f4f8bea EXIT UNCHANGED: leg 4(b) needs the guarantee book reduced through VULCAN-17's branches; nothing filed today touches it, and the 10-Q is unfiled. Leg 4(c) has no pull or force majeure (CRWV's Meta-backed loan is unpriced, not pulled; KB-467). Legs 1-3 have no new evidence: the AMD and Anthropic moves are prices, not capex guides or contract memory prices. Newest entry not refreshed.
+
+- **Commits:** 41f70c6a41 (records); 90c299d29d (packets to PROME, WALTER and TERRY); 65032c3db9, a82aee8b58 and fb37214b7b (SCRATCH); 78b87d5a2b (checker leg 5); 912529732f (closeout records). The final commit carries this block, NEXUS_BRIEF and the PROME receipt `PROME/inbox/2026-11-19_from-VULCAN_closeout-receipt-10q-carry.md`.
+- **LESSONS:** L-119 (EDGAR client string), L-120 (checker vs WQ-719 A), L-121 (typed '13:1x' stamp).
+- **4b:** charter step 5 changed at 41f70c6a41 under a ruling (WQ-719 A, WQ-721 A). ① Thresholds match STATUS bands, none changed. ② The FILES table needs no new tool or ledger. ③ No charter date or figure was corrected today.
+- **Consumer check:** composite unchanged; no figure of mine superseded (DSO 63.7 and the T4 band are new figures). No auto-memory written.
+- **NEXUS_BRIEF:** rewritten (calibration 24/7 OPEN, the 10-Q wait, 11/19 rows) and pinned to STATUS HEAD 912529732f.
+- **Private-data slip:** the first EDGAR check at 12:16 ET used a typed client string carrying the git username handle (L-119); every later request used sec_ua.
+
+> # ⛔ 2026-11-19T12:26:02-05:00 — prior block. HOLD (closed at the block above). PROME prome-36 letter on the laptop (Will's word 11/19 11:49 ET): WALTER cards 017 and 005, the backlog, then HOLD for NVIDIA's Q3 FY27 10-Q. Claude Code, Opus 5.5 (claude-opus-5-5); session vulcan-20. Do NOT close out, pull or push until PROME asks.
 
 ▶ START HERE: **15/25, no letter.** Delivery 1 is done: records 41f70c6a41 (KB-464..468, VULCAN-193 P=0.20, VULCAN-194 P=0.15, 10 cards logged, charter step 5 aligned to WQ-719 A and WQ-721 A); packets 90c299d29d to PROME, WALTER and TERRY; prome-36 messaged at 12:26 ET. **Owed at the 10-Q (D:L322):** T1 (MoU conversion; grade VULCAN-194), T2 (escrow vs SB Energy), T4 (DSO 63.7 from the 8-K; band ≥59.5 set before the filing; Q3 is one of two readings), T6 (3.8 GW option), guarantee notes in millions vs $118.0B, VULCAN-18 registration, DEWEY T3, HQ table, legal note; then a RED packet for CHG-RED-057, a PROME packet and a TERRY follow-up. Not filed by about 17:30 ET ⇒ say so; the 11/20 rows stay. Watcher: background shell bphm9ickd runs scratchpad tools/watch10q.py, polling every 120 s to 17:45 ET (prints FOUND, TIMEOUT or ERROR); a cleared context loses it, so check EDGAR by hand. Closeout still owes THESIS/EXIT reconciliation, LESSONS (EDGAR client-string slip; checker leg 5 vs WQ-719) and the NEXUS decision under the new step 5.
 - 12:27 ET (commit time): checker leg 5 applied on PROME's ask, commit 78b87d5a2b (selftest PASS: untouched brief with resolvable pin PASS; unresolvable pin FAIL PIN-UNRESOLVED; rewritten brief pinned off STATUS HEAD FAIL; live PASS, pin 07af5aaac4 lags 41f70c6a41). Name the commit and the three results in the 10-Q PROME packet. prome-36 messaged.
