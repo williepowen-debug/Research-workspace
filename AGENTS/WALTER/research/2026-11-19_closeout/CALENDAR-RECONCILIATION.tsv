@@ -1,0 +1,11 @@
+release	series_period	scheduled_et	owner	status	evidence
+DOL initial claims	w/e 2026-11-14	2026-11-19 08:30	LABOR	PUBLISHED, CARDED	SIG-W-20261119-001; LABOR graded 8bd49af4f5 (unchanged from boot row)
+Philadelphia Fed MBOS	2026-11	2026-11-19 08:30	ISHM	PUBLISHED, CARDED	SIG-W-20261119-002 (unchanged)
+Trump-Xi bilateral and trilateral, Shenzhen	event	2026-11-19	ZHAO/HANS/YURI	PUBLISHED, CARDED, CORRECTED	SIG-W-20261119-004; corrected by 014 (Declaration on peace at kremlin.ru, YURI); HANS graded on 019
+BIS remote-access rule FR 2026-23529 publication	event	2026-11-19	ZHAO/VULCAN	PUBLISHED, CARDED AT CLOSEOUT	Federal Register API read 2026-11-19T19:00:13Z (91 FR 74970, effective 11/19); SIG-W-20261119-021
+ING data-center loan auction bids	event	2026-11-19	RED	UNKNOWN	no report found in the lane (collected through 13:25Z); not searched again at closeout
+Car-Mart standstill	event	2026-11-19 morning	BROCK	OWNER-COMPLETED	BROCK 9da7158aaf; WALTER card 006 (8-K, extension to Sun 11/22)
+Kansas City Fed manufacturing	2026-11	2026-11-19 11:00	ISHM	PUBLISHED, CARDED (SECONDARY)	SIG-W-20261119-013 from labelled secondary sources; kansascityfed.org timed out (curl exit 28), not evaded; ISHM rechecks at the issuer 11/20
+10Y TIPS reopening	CUSIP 91282CRE3	2026-11-19 13:00	BOND	UNKNOWN	fiscaldata auctions_query for 2026-11-19 returned 0 rows at 2026-11-19T18:59:57Z; not carded; no BOND commit since 12:00 ET
+FRBNY H.4.1	week to 11/18	2026-11-19 16:30	SAM	NOT YET RELEASED	after closeout; uncovered
+NVDA Q3 FY27 10-Q	estimated	2026-11-19	VULCAN	NOT ON EDGAR	submissions feed latest filing the 11/17 8-K at 2026-11-19T18:57:21Z; VULCAN runs its own watcher to 17:45 ET
