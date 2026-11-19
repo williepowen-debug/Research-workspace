@@ -1587,3 +1587,52 @@ CPS, SA, thousands, FRED pulled 2026-09-17 (BLS Employment Situation, USDL-26-14
 5. 🔧 **Owed, not urgent (re-listed 10/28):** KELYA post-mortem · build debt (`BUILD_DEBT.md`; nearest BD-32, BD-41, BD-23) · CORRECTIVE base rate (L-25/L-32) · Pepsi Knoxville WARN 112 · charter size · L-34 re-check at each self-sweep. Full text → DETAIL § `status-rotated-20261029`.
 
 7. 🔧 **Spine gate:** keep exactly one `obs` token on each live row (claims, CC, JOLTS hires, FL UR) or the gate reports CANNOT-VERIFY. Full text → DETAIL § `status-rotated-20261029`.
+
+---
+
+<a id="status-rotated-20261119"></a>
+## § `status-rotated-20261119` — STATUS.md surfaces replaced at the 11/19 claims grade (verbatim; rotated 2026-11-19, PROME wake prome-36)
+
+```text
+**Last Updated:** 2026-11-12 08:57 ET *(claims w/e Nov 7 graded at the DOL primary off the 11/5 card: **200,000, band B, nothing moved**; MA 195,250 unchanged; CC 1,697K; WALTER cards -012 and -005 drained, KB-LAB-267 to 269; 11/19 card frozen)* · *Prior:* 11/8 data catch-up, KB-LAB-259 to 266, nothing moved · 🔴 **FREEZE-THAW v2 FIRED on the October jobs report (BLS USDL-26-1632): payrolls +165K against a +150K bar, Aug revised +186K, Sep revised +60K, 3-mo avg 137K; EPOP 59.3 ≥ 58.9; LEG C met 11/5 ⇒ card §3d row 1. v4/v6/v7 stood down, v17 2 → 1, score 27 → 22/80.** LAB-19 ✅ (LF +421K). T-03, T-04, T-06, T-08, T-13 and Kill A did NOT fire. *Prior:* 11/5 grades → DETAIL § `status-rotated-20261106`.
+```
+
+```text
+| Initial claims (MA basis) | **200K / MA 195,250** [w/e Nov 7 · obs 2026-11-07 · DOL 2026-11-12] · window 195/195/191/200 | <230K drift · 230–250K accelerating (v13 → 3) · **>250K 4+wk = T-01** · 251–300K single = ARM T-01 · **>300K single = T-02** · R13-c MA ≥ 1.15 × 52-wk min ⇒ v13 → 2 | Band B 11/12 (MA unchanged, all arithmetic: 200,000 in, 200,000 out; w/e Oct 31 rev 189 → 191K, its MA 194,750 → 195,250). T-01 `250,000 − 195,250 = 54,750` away · T-02 `300,000 − 200,000 = 100,000` away. **Next `R` = 195,000 (w/e Oct 17) ⇒ `(X − 195,000)/4`; T-01 MA bound `X > 414,000`; a 200K repeat ⇒ MA +1,250 (mechanical).** MA 195,250 equals w/e 1969-10-11 on FRED's current IC4WSA vintage (last lower 1969-09-27, 194,750) — a level, not a rate; no band. RAW SA only |
+```
+
+```text
+| Continuing claims | **1,697K** [w/e Oct 31 · obs 2026-10-31 · DOL 2026-11-12]; 4-wk MA 1,707,750; IUR 1.1%; w/e Oct 24 rev 1,718 → 1,717K | v7 drop needed <1,750K ×4 | ✅ MET 10/8; v7 at floor 1 since 11/6; **run 9 on 11/12, record-only** (`1,750,000 − 1,697,000 = 53,000` inside). A cost/duration gauge, not early warning |
+```
+
+```text
+| LAB-12 | U-3 ≥5.0% Q3–Q4 | **8%** *(scores as-made 60%)* | Q3–Q4 | U-3 4.1 needs `5.0 − 4.1 = 0.9pp` in the Nov print, or Dec if the row runs to Q4 obs. Not re-marked on print day: an 8% carry is now rich, re-mark with a base rate owed next C2; base `11/302 = 3.64%` |
+```
+
+```text
+| LAB-22 | ≥1 of the next 8 advance claims prints ≤185,000 | **40%** | Dec 31 | Registered 11/5, the contrarian call; `6.2%` per draw; 8 prints frozen in the row; not Kill B |
+```
+
+```text
+## EXIT RULES · vintage sweep (C1) run 2026-11-12: 4/4 rails re-read; DOL vintage rolled (11/12) ⇒ Kill B + break-confirm re-stamped; no CES/CPS or JOLTS release since 11/6 ⇒ Kill A + v2 stand on the 11/6 vintage · prior sweep 2026-11-08
+```
+
+```text
+| ✅ Thu 11/12 | claims w/e Nov 7 **200,000, band B**, MA 195,250 unchanged, CC 1,697K; T-01/T-02/R13-c/Kill B not met; v13 run ended at 3, v7 run 9 (record-only) | card → `docket/graded/GRADING_CARD_20261112_claims.md` §9 |
+```
+
+```text
+0. ⏰ **ARMED FOR NEXT WAKE (re-armed 2026-11-12):** ① **Thu 11/19 claims** off `docket/GRADING_CARD_20261119_claims.md` (frozen 11/12); then build the next card — Thanksgiving week, verify the release day at DOL. *(11/12 claims graded, band B.)* ② Cards owed: JOLTS 12/1 by ~11/24 · Challenger 12/3 by ~11/26 · NFP 12/4 by ~11/27, which must state T-06's U-3 referent, carry LAB-18 + LAB-24 and drop the fired v2 rows. ③ Re-mark LAB-12 with a base rate. ④ A re-arm or un-fire letter for v2 or v4/v6/v7 needs Will's word; nothing is written (WQ-634 A ruled 11/6). C2-0 sweep 11/6: zero rows trip. ⑤ Combination watch (`grep combo: workbook/KB.tsv`, 9 themes): update at every card, sweep and grade; scores nothing.
+```
+
+```text
+3. ✅ **Catch-up 11/8 done** (Canada #2 NO EVIDENCE; WARN cohort: 9 leads confirmed, 1 probable, 4 were OLD notices re-surfaced by aggregators, Wells Fargo corrected to 87 / impact 11/28; KB-LAB-259 to 266). Residuals: Northpointe MI + Trinity Health unread (michigan.gov 403 not bypassed); MN Oct WARN report unread; Iowa WARN log now at `workforce.iowa.gov/media/3276/download?inline`. Records `domain/sources/2026-11-08_*`
+```
+
+```text
+**11/8 catch-up adds nothing against that:** only 6 of 51 states have claims above a year ago (ETA 539, w/e Oct 31), all three staffing names in my re-arm rule grew in Q3, recent layoff notices are small (TX 628 since 9/30), and the Canada check found no US job losses. ⚠️ Two Michigan leads stay unread (state site blocks this box).
+```
+
+```text
+*Prior bottom line (11/5) → DETAIL § `status-rotated-20261106`.* **11/12 claims add nothing against it either:** 200,000, band B, the four-week average unchanged at 195,250, continuing claims down 20,000 to 1,697,000 (DOL 11/12). Nothing moved.
+```

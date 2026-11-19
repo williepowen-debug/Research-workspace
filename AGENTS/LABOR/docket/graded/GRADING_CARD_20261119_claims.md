@@ -144,3 +144,28 @@ Current **1,697,000** [w/e Oct 31]; `1,750,000 − 1,697,000 = 53,000` inside.
 ## §9 — GRADE (write 2026-11-19 off this frozen card — never re-read a band)
 
 *Blank until print. Order: ① regenerate the four §4 quantities on the as-published vintage · ② grade §2 · §5a · §5b · §5c · §5d separately · ③ write into `STATUS.md` (KEY THRESHOLDS, matrix v13 if band C+ or R13-a, score, calendar) · ④ `git mv` to `docket/graded/` and build the next card the same session (Thanksgiving week: verify the release day at DOL).*
+
+**GRADED 2026-11-19 by LABOR (PROME wake prome-36, launched late: release read 09:2x ET, after the 08:30 print).** Source: DOL/ETA advance release PDF `https://www.dol.gov/ui/data.pdf`, embargo line "Thursday, November 19, 2026", fetched through `scripts/fetch_primary.py` (sha256 `a11a33cbd30081e8`; `--expect 203,000` FOUND, `--expect 1,763,000` FOUND); FRED ICSA / IC4WSA / CCSA agree. WALTER's card SIG-W-20261119-001 (same sha) reads the same.
+
+**① Four quantities regenerated on the as-published vintage:**
+- Window w/e Oct 24 · Oct 31 · Nov 7 · Nov 14 = `195,000 + 191,000 + 202,000 + 203,000 = 791,000`; `791,000 / 4 = 197,750` ✅ = published MA. Revision: w/e Nov 7 200,000 → **202,000**; its MA 195,250 → **195,750**.
+- `ΔMA = (203,000 − 195,000)/4 = +2,000` ✅ = DOL's "+2,000 from the previous week's revised average" (R did not revise). Against the unrevised 195,250 the move is +2,500 (+500 is revision). The rise is **mechanical** under §3's reading rule (a lower week rolled off; 203,000 sits in band B).
+- `MA_next` column said `(586,000 + 203,000)/4 = 197,250` on the freeze vintage; actual 197,750 — off by +500, exactly the w/e Nov 7 revision (L-31: the column rots, `ΔMA` stays exact).
+- §5a bound re-solved: `1,000,000 − (195,000 + 191,000 + 202,000) = 412,000` (was 414,000).
+- §5d minimum re-computed (FRED IC4WSA, 52 weeks before w/e Nov 14): **195,250 (w/e Oct 31)**; w/e Nov 7 no longer ties (revised to 195,750).
+
+**② Grades, each axis separately:**
+
+| Axis | Read | Assignment |
+|---|---|---|
+| §2 bands | **203,000** | **Band B — NO ACTION** |
+| §5a T-01 | 203,000 ≤ 412,000; MA 197,750 | **T01-a — does NOT fire** (`250,000 − 197,750 = 52,250` away) |
+| §5b v13 run | 203,000 ≥ 200,000; trailing week revised 202,000 (also ≥ 200,000) | **V13-b — run stays 0**, record only |
+| §5c CC w/e Nov 7 | **1,763,000** (+70,000; w/e Oct 31 revised 1,697,000 → 1,693,000) | **CC-2 — run ENDS at 9**, record only, no score change |
+| §5d R13-c | `197,750 / 195,250 = 1.0128` | **R13-b — no action** |
+| Kill B | 203,000 > 185,000 | 0 of 5 |
+| LAB-22 draw 2 of 8 | 203,000 > 185,000 | not a hit (row grades itself) |
+
+**CC context (record, no band):** the +70,000 SA jump is mostly seasonal-factor gap — NSA rose +42,996 where the factors expected −18,620 (`42,996 + 18,620 = 61,616`); NSA 1,542,726 vs 1,708,938 a year earlier (`1,542,726 / 1,708,938 − 1 = −9.7%`). SA 1,763,000 is the highest since w/e Aug 29 (1,765,000) [FRED CCSA]. IUR 1.1% unchanged.
+**§4 state read (Oracle ~800 cohort, eff 11/13):** CA advance NSA 43,159 (−1,615 w/w), WA 6,574 (−925) — both fell; invisible at state level, as L-08 predicted.
+**③ Written to `STATUS.md`** (KEY THRESHOLDS claims + CC rows, matrix v13/v7 cells, calendar, exit-rule sweep). No score moved: total stays 22/80. **④** Moved to `docket/graded/`; next card `docket/GRADING_CARD_20261125_claims.md` frozen the same session (Thanksgiving week: Wed 11/25, inferred from ALFRED 3 of 3; DOL schedule page 403).
