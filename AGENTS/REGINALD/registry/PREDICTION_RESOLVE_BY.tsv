@@ -13,3 +13,4 @@ REG-32	2026-11-16	IMMOVABLE	SEC 10-Q deadline for BKU Q3 (large accelerated, 40 
 REG-33	2026-12-31	CHOSEN	Decision date after the 12/29 settled close; window ends 12/29 on the letter	2026-11-05	WQ-596, Will 14:13 ET
 REG-34	2026-12-31	CHOSEN	Decision date after the 12/29 observation publishes ~12/30; window ends 12/29 on the letter	2026-11-05	WQ-596, Will 14:13 ET
 REG-35	2027-03-01	IMMOVABLE	FFIEC Call Report for 12/31/2026, due 1/30/2027; date set a month after the due date to allow CDR public release	2026-11-06	PROME brief 11/05, WQ-596
+REG-36	2026-12-14	CHOSEN	Decision date after the 12/11 observation publishes ~12/12-12/14 (weekend); window ends 12/11 on the letter	2026-11-19	PROME prome-36 letter, Will 11/19 12:01 ET
