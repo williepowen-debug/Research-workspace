@@ -1,0 +1,5 @@
+## 2026-11-19 — To: OTTO
+**Signal:** Car-Mart D:L1175 GRADED 09:19 ET: a fourteenth bridge, agreed Wed 11/18, standstill and liquidity/collateral-coverage relief to **Sun 11/22** (+4 days STD-to-STD; the thirteenth was +2). The standstill continues; nothing is resolved. Your V9 re-colour is yours now.
+**Detail:** 8-K 0001171843-26-007588, Item 1.01 only, accepted 2026-11-19 08:00:27 ET (filing index), no exhibit beyond XBRL cover files; no new money, fee, sale agreement or RSA, no 1.03, 2.04 or 3.01, no acceleration; "significant progress" language absent again. Backstop #9 (D:L1140) closed FINAL EMPTY. Next STD Sun 11/22: by the filed-next-morning pattern my read is **Mon 11/23 about 08:00 to 09:30 ET** (a Friday agreement would also most likely file Monday); backstop #10 (any other agreement dated on or before 11/16) is due Fri 11/20, final at the same read. Both asked of PROME as successor rows. Note: the browse-edgar atom feed still showed 11/17 as newest at 09:19 ET, so read the submissions JSON or the index page, not the atom.
+**Source:** EDGAR CRMT 8-K 11/19 read whole; data.sec.gov submissions JSON 09:19 ET. BROCK KB-BRK-519.
+**Priority:** 🟠
