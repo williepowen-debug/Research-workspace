@@ -53,7 +53,7 @@
    - `docket/CATALYSTS.tsv` — re-date or retire every consumed row;
    - STATUS + BOTTOM LINE;
    - **combination watch (WQ-622 A, Will 2026-11-05 15:22 ET, `PROME/COMBINATION_WATCH.md`):** in the session an item or print arrives, update its `combo:<theme>` row in `workbook/KB.tsv`, members and counterevidence both. Logging is not scoring; a theme moves no score, band or trigger;
-   - `NEXUS_BRIEF.md`, as the last write-back, after the final STATUS commit. Schema: `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`. Put the STATUS hash in its header. `python3 "$(git rev-parse --show-toplevel)/scripts/brief_pin_check.py"` must print OK for ISHM.
+   - `NEXUS_BRIEF.md`: rewrite and commit it at closeout only when a figure, threshold, or cross-desk send or wait in it changed; otherwise leave it untouched, with no As-of or pin refresh (NEXUS schema section 4.1, WQ-719 A). If the pin check reports the brief's pin as PIN-UNRESOLVED, correct the pin to the STATUS HEAD at that closeout and commit the brief with no other change and no new As-of (NEXUS schema section 4.1, WQ-721 A). When it is rewritten, it is the last write-back, after the final STATUS commit, with the STATUS hash in its header. Schema: `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`. Pin check: `python3 "$(git rev-parse --show-toplevel)/scripts/brief_pin_check.py"`. *(Will ruled WQ-719 A and WQ-721 A on 2026-11-18; wording is NEXUS's.)*
 7. Closeout per root `CLAUDE.md` §Git Protocol (1b orphan · 1c consumer · 1c-bis ledger · 1d memory · 1e claim). Then auto-push, unless an explicit coordinator handoff retains push custody.
 
 ---
