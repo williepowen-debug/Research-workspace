@@ -1,9 +1,9 @@
 # GIBBS — NEXUS Brief
 
-**Status:** 🟡 Large banks: Q3 read unchanged (deposit repricing shared, CRE mostly recognition, stress at PNC office and possibly Goldman CRE, Goldman's $368M unattributed); desk premise test (R0) 11/16 found 0 judgments moved at REGINALD or BROCK, dormancy recommended to Will via PROME; 9/30 re-cut puts HBAN over the $250B Category III line (DERIVED)
+**Status:** 🟡 Large banks: Q3 read unchanged (deposit repricing shared, CRE mostly recognition, stress at PNC office and possibly Goldman CRE, Goldman's $368M unattributed); Will kept the desk 11/16 (WQ-692, premise: watch the bigger banks); JPMorgan's 11/16 outage and 11/19 vendor marketing-data exposure move no read and name no other of the 16; Fed FSR: largest BHCs close to $1T exposure to tech, data-center, computing-SPE, private-credit and utility borrowers (size, not stress)
 **Domain:** 16 US Category I-III banks as REGINALD's comparison group (Q1 industry-wide vs regional-only) and large-lender NDFI transmission (Q2, one figure with BROCK); large-bank consequence of CYPHER's cyber events
-**Recent thesis pivot:** no analytical pivot; desk-level: R0 0 cites (KB-GIB-067) → dormancy recommendation pending Will. Re-cut 11/16 on the rule's basis (quarterly average assets, 12 CFR 252.2): HBAN about $260-264B over $250B, USB about $691-694B under $700B, FITB Category III (KB-GIB-065)
-**As of:** 2026-11-16 13:05 ET | STATUS commit: `e0d6f6a5cd`
+**Recent thesis pivot:** no analytical pivot; desk-level: WQ-692 RULED KEEP 2026-11-16 (encoded 0655c7135b), the 11/16 zero-cite R0 result stands as a fact. New 11/19: Fed FSR figure logged as Q2 context, unsplittable to the 16 (KB-GIB-070); JPMorgan events KB-GIB-068/069
+**As of:** 2026-11-19 12:3x ET | STATUS commit: `36d57d4027`
 
 ---
 
@@ -16,13 +16,14 @@
 | BROCK | 13-name NDFI figures from the 10-Qs (STT, BK, NTRS, TFC, MS, PNC proxy); Goldman: Q3 charge-offs in other collateralized and corporate loans, other collateralized nonaccrual $121M, $424M, $266M, no sector named; WFC matches BROCK's figure (packet 2026-11-06) | P1 | One figure; Goldman bears on BRK-31 if BROCK finds a non-bank borrower |
 | LIQUID | Custody deposits down at Q3 (NTRS avg IB -3.1%, NIB -5.4%; BNY period-end -9.5% vs elevated 6/30); Schwab sweep deposits -3.94% with loan-led growth in higher-cost short-term funding (packet 2026-11-08); no BK/STT custody outage from the October cyber events | P1 | Large-bank funding leg for the plumbing read; seasonal caveat |
 | CYPHER | Consequence NOT OBSERVED at the 16 through 11/06: no 8-K Item 1.05 since 10/23, no incident or watched vendor in 15 10-Qs (period to 9/30); Arkéa shared-vendor channel UNKNOWN | P2 | Large-bank consequence grade for the event row |
-| PROME | AXP enforcement (OCC $350M AML penalty, Fed/OCC orders 10/08, no asset cap) sits in the unowned enforcement class; USB CRO resigned 10/23 (governance only) | P2 | Exclusions register: enforcement has no owner desk |
+| PROME | AXP enforcement (OCC $350M AML penalty, Fed/OCC orders 10/08, no asset cap) sits in the unowned enforcement class; USB CRO resigned 10/23 (governance only); HSBC US (foreign-bank IHC class, no owner) sighted on the Optimizely list and as seller of a data-center loan at the mid-80s (packet 2026-11-19) | P2 | Exclusions register: enforcement and foreign IHCs have no owner desk |
+| WALTER | 14 cards graded 11/16-11/19: JPMorgan vendor event (SIG-W-20261119-009) moves no read, no other of the 16 named, no 8-K Item 1.05 at the 16; Fed FSR logged; outage and Optimizely cards logged in corrected form (packet 2026-11-19) | P2 | Routing feedback: which cards reach a GIBBS row |
 
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| REGINALD | HBAN named hand-off condition now that HBAN reads over $250B (packet 2026-11-16); its criticized-line question was answered NO 11/11 (32a42bff7d), so those tags stay NOT-YET-DETERMINABLE | no date | Perimeter boundary | HBAN moves only by a named hand-off in both desks' files |
-| CYPHER | Named-victim rows 1/3; Kiteworks victim check; Arkéa and vendor re-checks | 11/06 · 11/09 · 11/12 · R1 flip 11/20 | Turns NOT OBSERVED into a graded consequence | A named perimeter-firm victim or an 8-K Item 1.05 at one of the 16 |
+| REGINALD | Q4 cohort reads on the same items and basis (HBAN stays in its frozen cohort, no hand-off condition, packet 2026-11-16) | mid-January 2027 | Tags need the same item, quarter and basis | NOT-YET-DETERMINABLE rows resolve to INDUSTRY-WIDE or REGIONAL-ONLY |
+| CYPHER | JPMorgan vendor names and customer count (CYB-INC-086); n0n link; R1 flip | 11/24 · R1 flip 11/20 | A named vendor could reach other perimeter firms | A vendor shared with another of the 16, or an 8-K Item 1.05, turns a no-read event into a graded consequence |
 
 ---
 
@@ -32,7 +33,8 @@
 - Q2: no transmission measured where disclosed; thin reserves mean a quiet line proves little; Goldman's provision has no named sector and its charge-offs sit in a class that includes fund and warehouse lending; JPM/WFC/C attribution INSUFFICIENT (BROCK). Post-Q3 AI-infrastructure financings show the channel open and growing, not stressed.
 - Funding access is open: BAC, BNY and USB issued preferred stock and PNC and AXP senior notes, 10/22-10/30; Northern Trust priced $2B senior notes on the 11/05 selloff day (5.300% 2031, 5.700% 2036).
 - Hiking Fed: most of the 16 gain a little from higher rates, five are flat to slightly negative; one hike was already in the 9/30 forward curve (STT baseline 4.00% to 4.25%); the watch level for capital is the 10Y back above its 5.29% 9/30 mark. Tag vs REGINALD NOT-YET-DETERMINABLE (different sensitivity bases).
-- Cyber: no large-bank consequence; the 16 appear only in data-exposure notices (Citi mailing vendor, SitusAMC clients); the outages on record are at small institutions.
+- Cyber and operations: no large-bank consequence. JPMorgan had a one-day online-banking outage 11/16 (stated cause a software bug on its own hardware) and on 11/19 said marketing names and emails were taken at unnamed vendors; no other of the 16 is named; no 8-K Item 1.05 at the 16 through 11/19.
+- Non-bank lending, supervisors: the Fed's 11/13 report puts largest-BHC exposure to tech, data-center, computing-SPE, private-credit and utility borrowers near $1T (one combined figure, not splittable to the 16); FOMC minutes say supervisors' data may miss indirect lines to private-credit funds; ECB probe and BoE stress test are titles only. Attention is rising, not stress.
 
 ---
 
@@ -49,9 +51,9 @@
 
 ## NEXT DECISION POINT
 
-- **What:** Will's ruling on the R0 dormancy recommendation (via PROME); the HBAN named hand-off condition with REGINALD.
-- **When:** at Will's next PROME sitting; no date set by GIBBS.
-- **What would falsify the trigger:** Will keeps the desk into Q4, in which case the Q4 prints (mid-January) are the next read.
+- **What:** the Q4 print cluster: Goldman's other-collateralized charge-offs and nonaccruals, PNC office, custody deposits, NII guides, any NDFI reserve line.
+- **When:** from about 2027-01-13 (usual JPM/C/WFC/GS week, not verified at any issuer).
+- **What would falsify the trigger:** an earlier 8-K at one of the 16 (credit, Item 1.05 cyber, or enforcement) wakes the desk before then.
 
 ---
 
@@ -60,5 +62,6 @@
 | Date | Event | Threshold / Signal |
 |---|---|---|
 | 2026-11-20 | CYPHER R1 flip date | KB-GIB-025 re-dated on a named victim or none |
-| 2026-11-23 | Vendor-guidance comment file after the 11/16 close (D:L798) | BPI/ABA substantive letters; any letter by one of the 16 (log only) |
-| 2027-01-13 | Q4 print cluster (CONDITIONAL on the R0 ruling) | Four-item read, tagged against REGINALD |
+| 2026-11-24 | CYPHER re-check of JPMorgan's vendors (CYB-INC-086) | Vendor named; customer count; any other of the 16 named |
+| 2026-12-18 | Vendor-guidance comment file after the 12/16 close (D:L798; extended from 11/16) | BPI/ABA substantive letters; any letter by one of the 16 (log only) |
+| 2027-01-13 | Q4 print cluster | Four-item read, tagged against REGINALD |
