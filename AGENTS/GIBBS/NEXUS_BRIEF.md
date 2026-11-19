@@ -3,7 +3,7 @@
 **Status:** 🟡 Large banks: Q3 read unchanged (deposit repricing shared, CRE mostly recognition, stress at PNC office and possibly Goldman CRE, Goldman's $368M unattributed); Will kept the desk 11/16 (WQ-692, premise: watch the bigger banks); JPMorgan's 11/16 outage and 11/19 vendor marketing-data exposure move no read and name no other of the 16; Fed FSR: largest BHCs close to $1T exposure to tech, data-center, computing-SPE, private-credit and utility borrowers (size, not stress)
 **Domain:** 16 US Category I-III banks as REGINALD's comparison group (Q1 industry-wide vs regional-only) and large-lender NDFI transmission (Q2, one figure with BROCK); large-bank consequence of CYPHER's cyber events
 **Recent thesis pivot:** no analytical pivot; desk-level: WQ-692 RULED KEEP 2026-11-16 (encoded 0655c7135b), the 11/16 zero-cite R0 result stands as a fact. New 11/19: Fed FSR figure logged as Q2 context, unsplittable to the 16 (KB-GIB-070); JPMorgan events KB-GIB-068/069
-**As of:** 2026-11-19 12:3x ET | STATUS commit: `36d57d4027`
+**As of:** 2026-11-19 12:00 ET | STATUS commit: `9e00ee8cfe`
 
 ---
 
