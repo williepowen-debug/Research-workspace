@@ -88,6 +88,46 @@ def added_lines(base, rel):
     return [l[1:] for l in out.splitlines() if l.startswith("+") and not l.startswith("+++")]
 
 
+def brief_pin_status(base, root=None):
+    """Leg 5 under WQ-719 A and WQ-721 A (NEXUS schema section 4.1).
+
+    The pin must RESOLVE: name a commit that touched this desk's STATUS.md
+    (otherwise PIN-UNRESOLVED -> FAIL; repair = re-pin to STATUS HEAD alone).
+    Only when the brief changed since `base` (a rewrite or a pin repair) must the
+    pin equal STATUS HEAD with STATUS committed. An untouched brief whose pin
+    merely lags PASSES and the lag is reported, never re-pinned.
+    Returns (verdict, detail)."""
+    r = Path(root) if root else ROOT
+
+    def gg(*a):
+        p = subprocess.run(["git", *a], cwd=str(r), capture_output=True, text=True)
+        if p.returncode:
+            raise RuntimeError(f"git {' '.join(a)}: {p.stderr.strip()[:200]}")
+        return p.stdout
+
+    bp = r / REL / "NEXUS_BRIEF.md"
+    br = bp.read_text(encoding="utf-8") if bp.exists() else ""
+    m = re.search(r"STATUS commit:\*\* ([0-9a-f]{7,40})", br)
+    if not m:
+        return "FAIL", "pin MISSING (UNPINNED) in NEXUS_BRIEF.md"
+    pin = m.group(1)
+    st_commits = gg("log", "--format=%H", "--", f"{REL}/STATUS.md").split()
+    head = st_commits[0] if st_commits else ""
+    if not any(c.startswith(pin) for c in st_commits):
+        return "FAIL", (f"PIN-UNRESOLVED: pin {pin} is not a commit that touched STATUS.md; "
+                        f"re-pin to STATUS HEAD {head[:10]} alone, no other change, no new As-of (WQ-721 A)")
+    rewritten = bool(gg("diff", "--name-only", base, "--", f"{REL}/NEXUS_BRIEF.md").strip())
+    st_dirty = bool(gg("status", "--porcelain", "--", f"{REL}/STATUS.md").strip())
+    at_head = head.startswith(pin)
+    if rewritten:
+        ok = at_head and not st_dirty
+        return ("PASS" if ok else "FAIL"), (
+            f"brief CHANGED since base: pin {pin} must equal STATUS HEAD {head[:10]} with STATUS committed "
+            f"(pin == HEAD: {at_head}; STATUS uncommitted: {st_dirty})")
+    lag = "" if at_head else f"; pin LAGS STATUS HEAD {head[:10]} (reported, never re-pinned, WQ-719 A)"
+    return "PASS", f"brief untouched since base; pin {pin} resolves to a STATUS commit{lag}"
+
+
 ANALYTICAL = {"STATUS": "STATUS.md", "THESIS": "THESIS.md", "EXIT": "workbook/EXIT_PROTOCOL.md"}
 CONTINUITY = {"SCRATCH.md", "NEXUS_BRIEF.md"}
 
@@ -284,14 +324,9 @@ def checks(base):
     else:
         rec("4b CLAUDE.md self-check", "desk", "MANUAL", "no ruling detected; still ask the three questions")
 
-    # 5 brief pin == STATUS HEAD, STATUS clean
-    br = now_text("NEXUS_BRIEF.md")
-    pin = re.search(r"STATUS commit:\*\* ([0-9a-f]{7,})", br)
-    head = git("log", "-1", "--format=%h", "--", f"{REL}/STATUS.md").strip()
-    st_dirty = bool(git("status", "--porcelain", "--", f"{REL}/STATUS.md").strip())
-    ok = pin and head.startswith(pin.group(1)[:7]) and not st_dirty
-    rec("5 NEXUS_BRIEF pin == STATUS HEAD (last write)", "desk", "PASS" if ok else "FAIL",
-        f"pin {pin.group(1) if pin else 'MISSING'} · STATUS HEAD {head} · STATUS uncommitted: {st_dirty}")
+    # 5 brief pin (WQ-719 A / WQ-721 A): must RESOLVE; equals STATUS HEAD only when rewritten
+    verdict, detail = brief_pin_status(base)
+    rec("5 NEXUS_BRIEF pin resolves; = STATUS HEAD when rewritten", "desk", verdict, detail)
 
     # record discipline (items 5 + 6 of the 10/09 review)
     fx = fixed_without_sha(add_st + added_lines(base, "SCRATCH.md"))
@@ -563,6 +598,47 @@ def selftest():
         except subprocess.CalledProcessError:
             bad_base_raised = True
         chk("Git failure cannot yield a passable empty key", bad_base_raised)
+    # Leg 5 under WQ-719 A / WQ-721 A: three required cases plus the lag case.
+    with tempfile.TemporaryDirectory(prefix="vulcan-pin-") as tmp:
+        repo = Path(tmp)
+        desk = repo / REL
+        desk.mkdir(parents=True)
+
+        def g2(*args):
+            return subprocess.run(["git", *args], cwd=repo, capture_output=True,
+                                  text=True, check=True).stdout.strip()
+
+        def brief(pin, body=""):
+            (desk / "NEXUS_BRIEF.md").write_text(f"**As of:** x | **STATUS commit:** {pin}\n{body}")
+
+        g2("init", "-q")
+        g2("config", "user.email", "fixture@example.invalid")
+        g2("config", "user.name", "Isolated fixture")
+        (desk / "STATUS.md").write_text("s1\n")
+        g2("add", "--", REL)
+        g2("commit", "-qm", "status 1")
+        s1 = g2("rev-parse", "--short=10", "HEAD")
+        brief(s1)
+        g2("add", "--", REL)
+        g2("commit", "-qm", "brief pinned to status 1")
+        base = g2("rev-parse", "HEAD")
+        v, d = brief_pin_status(base, repo)
+        chk(f"pin case 1a: untouched brief, pin == HEAD, resolves -> PASS ({v})", v == "PASS")
+        (desk / "STATUS.md").write_text("s2\n")
+        g2("commit", "-qam", "status 2")
+        v, d = brief_pin_status(base, repo)
+        chk(f"pin case 1b: untouched brief, pin LAGS but resolves -> PASS with lag noted ({v})",
+            v == "PASS" and "LAGS" in d)
+        brief("deadbeef00")
+        g2("commit", "-qam", "brief with an unresolvable pin")
+        v, d = brief_pin_status(g2("rev-parse", "HEAD"), repo)
+        chk(f"pin case 2: unresolvable pin -> FAIL PIN-UNRESOLVED ({v})", v == "FAIL" and "PIN-UNRESOLVED" in d)
+        brief(s1, "rewritten view: a figure changed\n")
+        v, d = brief_pin_status(base, repo)
+        chk(f"pin case 3: rewritten brief, pin resolves but != STATUS HEAD -> FAIL ({v})", v == "FAIL")
+        brief(g2("rev-parse", "--short=10", "HEAD~1"), "rewritten view: a figure changed\n")
+        v, d = brief_pin_status(base, repo)
+        chk(f"pin case 3b: rewritten brief re-pinned to STATUS HEAD -> PASS ({v})", v == "PASS")
     print("SELFTEST", "PASS" if ok else "FAIL")
     return 0 if ok else 1
 
