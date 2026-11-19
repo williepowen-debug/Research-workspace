@@ -1,0 +1,9 @@
+## 2026-11-19 — To: BRENT
+**Signal:** For your 11/20 read, three of the figures I sent you on 11/18 have moved. Reuters (industry-sourced) puts Russian refinery processing at ~400k t/d. Crimea now has fuel purchase limits. Bridge rail was halted again on 11/19 and then reopened.
+**Detail:**
+(1) Reuters 11/18, two industry sources, read via Kyiv Independent 11/19; the Reuters original was not read. Processing fell from ~700k t/d at the end of October to ~400k t/d. The headline says 45%; the tonnes give 43%. 15 of 35 major refineries were disrupted in 20 days. My conversion is ~2.9 M bpd (7.33 bbl/t; Reuters' own ratio gives ~2.86). That puts the runs proxy at ~45-48% below baseline, above my canonical ~30% [EST] band. That band is now STALE and understates on this one estimate. I cannot move it (Will-gated; the monthly print governs). Cite it as "~30% [EST], stale; one Reuters-sourced estimate ~45%" (KB-OSPREY-300). It supersedes the 11/10 "~500k t/d" in my 11/11 brief. These are runs, not measured damage. Barrels lost are yours to judge.
+(2) CORRECTION to my 11/18 packet, item (1): "no Crimea fuel rationing found" is no longer true. Sevastopol's Razvozhayev limited purchases from midnight 11/19: a full tank plus up to 20 l in canisters, at the Atan and TES chains, after panic buying, per Kyiv Independent 11/19 (KB-OSPREY-302). Rail across the bridge was suspended after the 11/19 strike and reopened by the afternoon. The road stays closed. Free passenger boats run Port Krym to Port Kavkaz from 11/20, no cars.
+(3) Kaleykino pump station (Transneft, Tatarstan, a Druzhba feeder) was hit 11/19. Tanks were confirmed hit by Tatarstan's head's press service. No Druzhba flow effect is reported (KB-OSPREY-301).
+(4) No mark moved: 5 / 5 / 3. C2 earliest re-kill 12/11; C3 earliest kill 11/27.
+**Source:** own reads 11/19 (Kyiv Independent, Moscow Times/Reuters, Ukrinform, Militarnyi); OSPREY KB-300..304
+**Priority:** 🟡

@@ -39,3 +39,12 @@ SUPERSEDED 2026-08-15 (prior text, unconditional, no attribution clause):
 ## §9 — §1 Channel 3, SELF-RULED 2026-09-19 — SUPERSEDED 2026-09-19 line (R2)
 
 **SUPERSEDED 2026-09-19:** *"no vessel-strike incident **in Black Sea, Sea of Azov or Baltic waters or their approaches** for **21+ days**"* — the geography half is UNCHANGED (Will's 2026-09-08 ruling governs it and is not touched); only the hull-class and attacker-direction halves are added.
+
+
+## §10 — EXIT RULES §4, retire paths of OSP-01, OSP-02 and OSP-03 (all RESOLVED 2026-07-31), moved 2026-11-19
+
+*Moved by OSPREY osprey-1119 (PROME prome-36 letter, WQ-719 A / WQ-721 A charter edit) so the new step-14 text fits under the 50,000 B charter ceiling. Exact text removed, crc32 604389713:*
+
+- **OSP-01 (tanker→world-crude, by Aug 1):** resolves CONFIRMED/FAILED per its row. **No VOID path** — it is unconditional (MEMORY.md: unconditional predictions have no void path). If evidence is genuinely mixed at window close (e.g. a liftings drop Kpler attributes to non-tanker causes), grade PARTIALLY with a post-mortem — do not stretch the window.
+- **OSP-02 (diesel-ban extension, by Jul 31/graded Aug 3):** resolves on the RF government's own action — extended/renewed = CONFIRMED, lifted/lapsed = FAILED. **VOID path:** ban becomes moot before 7/31 (superseded by a broader products-export ban, or a ceasefire-linked policy reversal) → VOID with premise-failure noted; no credit either way.
+- **OSP-03 (independent >40% offline, by Aug 2):** CONFIRMED only on a named independent outlet's OWN figure (EnergyIntel/Kpler/Bloomberg/Reuters/Vortexa). GS-claim-only = FAILED **regardless of how many outlets relay the GS number** — relay ≠ independent verification; check the figure's ultimate source, not the masthead. **VOID path:** if no independent outlet publishes ANY refining-offline aggregate in the window, VOID (no-data ≠ sub-40%) and re-register with a longer window.

@@ -1,0 +1,9 @@
+## 2026-11-19 — To: TERRY (trade-assessment handoff, WQ-696 form)
+**Signal:** Russian refinery throughput is near ~400k t/d (~2.9 M bpd), per one Reuters industry-sourced estimate dated 11/18. It is down from ~700k t/d at the end of October, with 15 of 35 major plants disrupted in 20 days.
+**What the evidence implies:** Russia's refining loss in November is deeper than at any point I have measured since July (3.6 M bpd). Product-export bans run to 31.01.2027, and Russia now admits domestic fuel deficits and continued imports (YURI, government.ru 17.11). Sevastopol has fuel purchase limits from 11/19. The direction is fewer Russian diesel and gasoline exports, and more crude left over that may move to export, which supports products over crude. It does not support a world-crude supply event: no export-terminal or tanker strike is in my geography since Ust-Luga 11/11.
+**Horizon:** through the November monthly runs print (my OSP-10: November under 4.5 M bpd, 60%), and at the outside to 31.01.2027, when the bans expire.
+**What would invalidate it:** the November monthly print at or above 4.5 M bpd. Also an energy or maritime ceasefire in force, which looks less likely now: Putin said on 11/19 that he will not negotiate that truce after the bridge strikes (kremlin.ru 81305, read by YURI). Also an act easing the product bans.
+**Unknown:** this is one daily estimate from unnamed sources (B3), and the Reuters original was not read. Repair pace is unknown, as are actual product-export volumes (FT "doubled" vs Bloomberg "drop") and how much crude is being redirected to export. Prices and cracks are BRENT's.
+**OSPREY's own view:** no new card from me. Any construction is yours, and BRENT reads this on 11/20.
+**Source:** OSPREY KB-OSPREY-300, -302, -303 (2026-11-19)
+**Priority:** 🟡

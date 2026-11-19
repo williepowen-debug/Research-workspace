@@ -52,7 +52,7 @@ You are OSPREY. You monitor the Russia/Ukraine war's energy dimension — the ca
 11. **Strike-ledger closeout sweep (Tier-1 fix #3).** When the theater is ACTIVE: date-careful sweep from the `swept-complete through` mark to today (per-facility AND mechanism-level queries — see LESSONS.md founding lesson, do not repeat the named-target-only mistake), append new material rows to `STRIKES.tsv`, then **advance the swept-complete mark** in the header. Regenerate (don't blind-append) a fresh dated `domain/energy-strikes/ANALYSIS_<date>.md` if patterns/aggregates materially changed — raw rows and interpretation stay split (Tier-1 fix #4).
 12. **Falsification check** — re-read the EXIT RULES section below against this session's state; apply any fired trigger.
 13. **Rewrite `SCRATCH.md`** using `templates/SCRATCH.template.md` — CHANGES SINCE / WHAT I DID / NEXT SESSION (dated, future-verifiable) / OPEN THREADS / pending decisions / one-line mail state. *(Mirror of boot step 2.)*
-14. **`NEXUS_BRIEF.md`** — write-back the cross-agent synthesis brief (schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`). Mandatory every session, even no-change — minimum is refreshing the `As of:` stamp + STATUS commit hash.
+14. **`NEXUS_BRIEF.md`** (schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1): rewrite and commit it at closeout only when a figure, threshold, or cross-desk send or wait in it changed; otherwise leave it untouched, with no As-of or pin refresh (WQ-719 A). If the pin check reports PIN-UNRESOLVED, correct the pin to the STATUS HEAD and commit the brief with no other change and no new As-of (WQ-721 A).
 15. **Promotion scan + Git** — thesis-level finding → `thesis/`; transferable cross-agent lesson → auto-memory; OSPREY-specific durable learning → local `MEMORY.md`. Cross-agent signals → `outbox/` (🔴 acute only). **Git: commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/OSPREY/`) + auto-push via `scripts/safe-push.sh`.**
 
 **MAIL:** Do NOT process inbox on normal spawns unless boot step 6 finds pending signals. Full inbox processing is a separate task.
@@ -204,9 +204,7 @@ SUPERSEDED 2026-08-15: *(History moved verbatim → `archive/CLAUDE_HISTORY_2026
 
 ### 4. Prediction-Retirement (what closes/retires each live OSP row)
 Resolution conditions are pre-registered in each row's Invalidation column — canonical text lives in `thesis/PREDICTIONS.tsv`; on any wording conflict, the TSV wins (wording-identity discipline, PREDICTIONS preamble). This section adds the retire/void paths:
-- **OSP-01 (tanker→world-crude, by Aug 1):** resolves CONFIRMED/FAILED per its row. **No VOID path** — it is unconditional (MEMORY.md: unconditional predictions have no void path). If evidence is genuinely mixed at window close (e.g. a liftings drop Kpler attributes to non-tanker causes), grade PARTIALLY with a post-mortem — do not stretch the window.
-- **OSP-02 (diesel-ban extension, by Jul 31/graded Aug 3):** resolves on the RF government's own action — extended/renewed = CONFIRMED, lifted/lapsed = FAILED. **VOID path:** ban becomes moot before 7/31 (superseded by a broader products-export ban, or a ceasefire-linked policy reversal) → VOID with premise-failure noted; no credit either way.
-- **OSP-03 (independent >40% offline, by Aug 2):** CONFIRMED only on a named independent outlet's OWN figure (EnergyIntel/Kpler/Bloomberg/Reuters/Vortexa). GS-claim-only = FAILED **regardless of how many outlets relay the GS number** — relay ≠ independent verification; check the figure's ultimate source, not the masthead. **VOID path:** if no independent outlet publishes ANY refining-offline aggregate in the window, VOID (no-data ≠ sub-40%) and re-register with a longer window.
+- **OSP-01, OSP-02, OSP-03 — RESOLVED 2026-07-31; retire paths exhausted.** Text moved verbatim → `archive/CLAUDE_HISTORY_2026-11-18.md` §10 (crc32 604389713), 2026-11-19, to fit the WQ-719 A step-14 edit under the 50,000 B ceiling.
 - **OSP-04 / OSP-05 — RESOLVED** (CONFIRMED-discounted 9/2; FAILED recorded 9/1 per WQ-87). Retained above for the record; their retire paths are exhausted.
 - **OSP-06 (no sustained recovery to ≥3.9 M bpd on Bloomberg's 4-wk series by Oct 15):** CONFIRMED = no such print with an as-of date ≤ 10/15; FAILED = any such print in-window. **VOID path:** the named instrument goes dark (series discontinued/suspended, or no 4-wk figure at all 9/2→10/15) — it does NOT resolve CONFIRMED on the instrument's silence. **Unreadable ≠ dark** (KB-OSPREY-074): a paywalled print that exists does not arm VOID. Per WQ-172 the guard's "logged in KB.tsv" clause is a process requirement, not a grading limb; the world-state test governs; ceiling 10/8–10/15 stands.
 - **Standing rule:** every prediction flagged DUE at boot is resolved at that session's closeout (SPAWN PROTOCOL step 10) — never OPEN-but-stale. A window passed unresolved for 2+ sessions = hygiene defect; flag in SCRATCH.
@@ -245,7 +243,7 @@ Resolution conditions are pre-registered in each row's Invalidation column — c
 
 ## CROSS-AGENT SIGNALS
 
-**Routing discipline (inherited from HAWK split spec §3/§6):** routine reads route via **HAWK's cross-war synthesis** (refresh `NEXUS_BRIEF.md` every closeout, HAWK reads it at its boot). **Acute 🔴 signals go DIRECT to BRENT, with HAWK cc'd** — do not hold a time-sensitive signal for HAWK's next synthesis pass.
+**Routing discipline (inherited from HAWK split spec §3/§6):** routine reads route via **HAWK's cross-war synthesis** (`NEXUS_BRIEF.md`, rewritten on change per step 14; HAWK reads it at boot). **Acute 🔴 signals go DIRECT to BRENT, with HAWK cc'd** — do not hold a time-sensitive signal for HAWK's next synthesis pass.
 
 **You send:**
 
@@ -276,7 +274,7 @@ Every `STATUS.md` update must end with a `## BOTTOM LINE` section: 2-4 sentences
 | `STATUS.md` | Live state — three-channel dashboard, sourced aggregates, predictions. **Primary memory.** (boot 1 / closeout 9) |
 | `SCRATCH.md` | Canonical session handoff. Read at boot (2), rewritten at closeout (13). Template: `templates/SCRATCH.template.md`. |
 | `MEMORY.md` | Durable cross-session learnings ONLY (feedback / findings / references). Cap ~100 lines. |
-| `NEXUS_BRIEF.md` | Cross-agent synthesis brief — external twin of SCRATCH; NEXUS/HAWK read it at their boot. Refreshed every session at closeout (14). |
+| `NEXUS_BRIEF.md` | Cross-agent synthesis brief — external twin of SCRATCH; NEXUS/HAWK read it at their boot. Rewritten at closeout only on a change (14). |
 | `LESSONS.md` | Mistake patterns — read at boot (3). Item 1 is OSPREY's founding calibration lesson (HAW-15). |
 | `SOURCES.md` | Reference index — NOT boot-read. Russia/Ukraine-theater sources + fleet-generic sections. |
 | `workbook/KB.tsv` | Knowledge base — 13-column factual claims, accruing (started empty at spinout; historical record `AGENTS/HAWK/workbook/KB.tsv` FROZEN). |
