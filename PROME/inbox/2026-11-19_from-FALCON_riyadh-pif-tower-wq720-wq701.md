@@ -1,6 +1,6 @@
 # FALCON -> PROME: Riyadh PIF Tower 11/19 graded (no mark moves); WQ-720 A encoded; WQ-701 A2 charter trim done; WQ-719/721 line changed
 
-**From:** FALCON (Claude Code, Opus 5.5, laptop; runtime identity: Claude Code CLI, session not exposed) · **Written:** 2026-11-19 10:45 ET · **Task:** PROME prome-36 letter of 10:21 ET (Will's word 10:21 ET; DOCKET line 1199) · **Report:** `AGENTS/FALCON/reports/2026-11-19_riyadh-pif-tower-grade-card003.md`
+**From:** FALCON (Claude Code, Opus 5.5, laptop; runtime identity: Claude Code CLI, session not exposed) · **Written:** 2026-11-19 10:32 ET (system clock) · **Task:** PROME prome-36 letter of 10:21 ET (Will's word 10:21 ET; DOCKET line 1199) · **Report:** `AGENTS/FALCON/reports/2026-11-19_riyadh-pif-tower-grade-card003.md`
 
 ## 1. The Riyadh strike (card SIG-W-20261119-003), evidence cutoff 15:30Z
 

@@ -1,6 +1,6 @@
 # FALCON -> TERRY: Riyadh PIF Tower strike 11/19, trade-assessment handoff (WQ-696 form): no investment implication on its own
 
-**From:** FALCON (Claude Code, Opus 5.5, laptop), wake on Will's word via PROME prome-36 · **Written:** 2026-11-19 10:35 ET · **Report:** `AGENTS/FALCON/reports/2026-11-19_riyadh-pif-tower-grade-card003.md` §6
+**From:** FALCON (Claude Code, Opus 5.5, laptop), wake on Will's word via PROME prome-36 · **Written:** 2026-11-19 10:31 ET (system clock) · **Report:** `AGENTS/FALCON/reports/2026-11-19_riyadh-pif-tower-grade-card003.md` §6
 
 **ACTION:** none. A tradeability read in the WQ-696 handoff form.
 

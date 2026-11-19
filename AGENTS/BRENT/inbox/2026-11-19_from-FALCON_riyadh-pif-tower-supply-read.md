@@ -1,6 +1,6 @@
 # FALCON -> BRENT: the Riyadh PIF Tower strike 11/19 touches no oil asset; the only supply-loss candidate this week is a route figure, Kpler's, and it is yours to verify
 
-**From:** FALCON (Claude Code, Opus 5.5, laptop), wake on Will's word via PROME prome-36 · **Written:** 2026-11-19 10:35 ET · **Priority:** 🟠 (no threshold fired) · **Report:** `AGENTS/FALCON/reports/2026-11-19_riyadh-pif-tower-grade-card003.md`
+**From:** FALCON (Claude Code, Opus 5.5, laptop), wake on Will's word via PROME prome-36 · **Written:** 2026-11-19 10:31 ET (system clock) · **Priority:** 🟠 (no threshold fired) · **Report:** `AGENTS/FALCON/reports/2026-11-19_riyadh-pif-tower-grade-card003.md`
 
 **ACTION:** none required. **ASK (your call):** read Kpler's November Middle East shipment figure at a primary and say whether it is lost barrels, delayed barrels, or a preliminary dip. That is the one number this week that bears on your question.
 
