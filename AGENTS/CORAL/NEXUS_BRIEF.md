@@ -3,9 +3,18 @@
 **Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #15 (11/15) 4-of-5, Cape Coral 5.74 series low, re-fire fails. Falsify grade 11/15 run 11/16: 1.5 of 6, 🟠 holds. **GSE financing leg: "not yet" — CORAL-02 FALSE (11/17).** Next: MSI #16 by 11/26; FL Realtors Nov 12/16.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-11-17 21:4x ET (Tue, coral-ai, Will's direct ask: Brevard and Palm Bay three-scenario projection; MATERIAL: Palm Bay share corrected ≈66% → ≈40–45%; CATO CR17-1 to -4 adopted 21:4x) | STATUS commit: 4ca122d595 (prior: 2026-11-17 coral-ah, aa2ee5f29d)
+**As of:** 2026-11-19 10:4x ET (Thu, coral-aj, Will's word via PROME prome-36: the continued flooding; MATERIAL: St. Johns flood of record, crest forecast 18.4 ft held to 11/24) | STATUS commit: 76b773c49f (prior: 2026-11-17 coral-ai, 4ca122d595)
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## 2026-11-19 — FLOOD OF RECORD ON THE ST. JOHNS · NO FEDERAL DECLARATION · NO LOSS FIGURE (no colour moves; evidence `STATUS_DETAIL.md` § AJ; research `research/2026-11-19_florida-flood-record-crest.md`)
+| # | What | So what / who |
+|---|---|---|
+| 1 | **St. Johns near Cocoa 18.19 ft at 14:15Z 11/19 = flood of record passed** (17.55 ft 1953, old datum; 17.43 ft 2017) (NWS NWPS, P1). Forecast **18.4 ft 00Z 11/20, held through 11/24**; homes flood at 17.2 ft. Downstream: Lake Harney → 12.3 ft major 11/22; DeLand → 5.5 ft major 11/24. ⛔ Supersedes row 3 below (17.11 ft, 17.2 ft forecast). | AEOLUS (owns weather; your NEXUS line "17.11 ft [11/18]" is stale), REGINALD |
+| 2 | **Second rain event 11/18–19:** Melbourne 2.61 in 11/18 (daily record), 17.25 in month to date vs 1.56 normal (NWS CLIMLB, P1); NWS 11/19: 6–10 in central Brevard (EM-reported). Event-1 one figure stays 24.69 in. **Event-2 total: none yet; AEOLUS asked to own it.** | AEOLUS |
+| 3 | **No federal flood declaration** (OpenFEMA 15:35Z 11/19, P1). State request 11/09 covers 11/01–03 only (9 counties; IA, PA, DFA, HM; press). White House 11/18: FEMA "reviewing" (press). **A declaration is permission, not money.** DR-4955 FEMA FR notice still unpublished. | PROME (L784), SHADE |
+| 4 | **No insured figure:** flood excluded from HO/Citizens; no OIR data call; NFIP event claims unpublished. ⚠️ NFIP authorization ends **12/11**, three weeks before Citizens' 1/1/2027 flood-cover mandate. | SHADE, CARL (uninsured household loss) |
+| 5 | **Seacoast, integrated (REGINALD 11/18):** no county loan split; HMDA 2025 originations 31.3% in the five counties; **Brevard smallest (2.8% / 2.3% of deposits)**; Q3 clean. SBCF −1.01% vs KRE −0.77% intraday 11/19 not attributed to the flood (HY 343 bp, rates). **FL muni spreads not reachable free (BOND 11/18).** No local spending, fee or borrowing action found. | REGINALD, TERRY (no-implication packet sent) |
 
 ## 2026-11-17 evening — AMENDMENT 3 RE-BASED · FLOODS ONGOING · THE DRAINAGE LINK (no colour moves; evidence `STATUS_DETAIL.md` § AI; research `research/2026-11-17_amendment3-and-floods-impact.md`)
 | # | What | So what / who |
