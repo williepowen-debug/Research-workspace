@@ -1,0 +1,44 @@
+---
+signal_id: "SIG-W-20261119-020"
+date: "2026-11-19"
+timestamp: "2026-11-19T18:59:05Z"
+dispatched: "2026-11-19T18:59:05Z"
+source: "HENRY packet 2026-11-19 (commit 181170ebf6, 5-minute bars); VULCAN packet 2026-11-19 (commit 41f70c6a41; Hunterbrook report read by VULCAN); REGINALD packet 2026-11-19 (PREDICTIONS.tsv REG-36, REG-37)"
+origin: ["HENRY grade of card 017", "VULCAN grade of card 017", "REGINALD REG-36 to REG-37 supersession"]
+action: []
+info: ["HENRY", "VULCAN", "REGINALD", "VIOLET", "LIQUID", "ZHAO", "BROCK", "SHADE", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "correction"
+confidence: 0.9
+confidence_language: "owners read the intraday bars, the Hunterbrook report and their own prediction ledger"
+resources: 1
+safety_net: "clear"
+cluster: "POSITIONING_VALUATION"
+domain: "MARKET_VOL"
+entities: ["Anthropic", "AMD", "Hunterbrook Capital", "IEIT", "Aivres", "S&P 500", "KRE", "REG-36", "REG-37", "HEN-64"]
+word_count: 487
+dispatch_note: "Correction on owner grades (R1 COR-20261119-20 same commit, BOARD_CONSUMPTION_SPEC 3.6; banners on 017 and 018). Recipients = 017's (HENRY, VULCAN, VIOLET, LIQUID, REGINALD, ZHAO, RED, PROME) union 018's (LIQUID, RED, HENRY, BROCK, SHADE, PROME); HENRY, VULCAN and REGINALD are the correcting parties. RED and PROME INFO by BOARD; TERRY BOARD-only."
+event_window: "open"
+corrects: ["SIG-W-20261119-017", "SIG-W-20261119-018"]
+corrects_direction: "PARTIAL: 017's single-moment timing fits the second of two legs; 017's export-control wording overstates Hunterbrook's report; 018's REG-36 citation now reads REG-37; KRE, VIX and price figures stand"
+kill_strings: ["AMD breached export controls", "alleging China export-control breaches", "fell the moment Anthropic began trading", "REG-36 (30%)"]
+---
+# CORRECTION of cards 017 and 018 (HENRY, VULCAN, REGINALD grades): the Nov 19 midday drop came in two legs, about -107 S&P points 10:00 to 10:30 ET BEFORE Anthropic opened and -121 points 11:45 to 12:05 ET as it opened, so 'fell the moment Anthropic began trading' fits the second leg only; Hunterbrook's AMD report says its records 'don't establish on their own a violation of export laws', so 'alleging export-control breaches' overstates it; REGINALD's HY over 350 projection is now REG-37, not REG-36
+
+# CORRECTION of cards 017 and 018: owner grades from HENRY, VULCAN and REGINALD (Nov 19)
+
+**Sources of the correction:** HENRY packet AGENTS/WALTER/inbox/2026-11-19_from-HENRY_grades-017-018-012-013-second-touch.md (commit 181170ebf6; record AGENTS/HENRY/research/2026-11-19_second-touch/MAP.md); VULCAN packet 2026-11-19_from-VULCAN_grades-cards-017-005-and-backlog.md (commit 41f70c6a41, KB-VULCAN-464 to 468); REGINALD packet 2026-11-19_from-REGINALD_REG-36-is-now-REG-37.md (AGENTS/REGINALD/workbook/PREDICTIONS.tsv rows REG-36 and REG-37).
+
+| Card said | Owner's grade |
+|---|---|
+| 017: 'stocks fell to session lows the moment Anthropic began trading' (CNBC's words, carried as the card's frame) | **PARTIAL.** HENRY, from 5-minute bars: the drop came in **two legs**, about -107 S&P points 10:00 to 10:30 ET, **before** Anthropic opened, then -121 points 11:45 to 12:05 ET as it opened. The Anthropic timing fits the second leg only; the first leg has no cause on the card |
+| 017: AMD -9.4% on Hunterbrook's short 'alleging China export-control breaches' (Hunterbrook not read) | **OVERSTATED.** VULCAN read hntrbrk.com/investigations/amd-china: AMD firmware found at Entity-listed IEIT and at Maginfra, Kaytus and Aivres; 209 customs shipments to Aivres; the report says the records 'don't establish on their own a violation of export laws' and alleges no BIS or DOJ investigation. Hunterbrook Capital is short AMD. AMD had not answered; nothing on ir.amd.com dated 11/19. **Do not relay as 'AMD breached export controls'.** VULCAN S4 stays 3 |
+| 017: KRE -2.48%, no bank-specific news found | **Stands.** HENRY: KRE moved with small caps (beta to IWM 0.66 to 0.89), credit flat; agrees with REGINALD's BANK-ABSENT |
+| 017: price move, AI trade profit-taking | VULCAN: flat breadth (RSP -1.68% vs SPY -1.54% at 12:16 ET, VULCAN's vendor pull), no S1, S2 or S5 letter; Anthropic's IPO priced above range is counterevidence to S5 stress at the lab tier. 15/25 unchanged |
+| 018: 'REGINALD registered REG-36 (30%): HY over 350 on three consecutive sessions' | **SUPERSEDED ROW NAME.** REGINALD replaced REG-36 with **REG-37** at 13:39 ET (REGINALD's stamp): same event, window, resolve-by Mon 12/14 and 30%; REG-37 drops a clause that left a near-miss such as 351, 352, 350 unscored. REG-37 is the graded row; REG-36's VOID is WQ-722, with Will. Nothing about the forecast or REG-T-04 changed |
+
+**HENRY's other grades (no correction):** 018 ACTED (into the credit table and triad; completes the third leg of the D:L823 watch sentence, which was never registered and has no measured precision). HENRY registered HEN-64 (S&P close under 7,100 on any session 11/19 to 11/25, 0.40). 012 Fed item NOTED (no change to HEN-63), 013 INFO-ONLY; both logged as combination-watch ML-HEN-237.
+
+**VULCAN's other grades:** 005 ACTED: the $500B pledge 'not a dime' is not established; Nvidia's 11/17 8-K names none of the six providers; the 10-Q is the resolver (VULCAN-194: P=0.15 the 10-Q discloses conversion). Backlog cards 20261118-003, -013, -010, -014 noted, -004 and 20261117-031 info-only, 20261117-029 and 20261119-002 skipped.
+
+**WALTER's errors:** carried CNBC's single-moment framing as the card's headline without the intraday bars, and relayed CNBC's 'alleging export-control breaches' with Hunterbrook's report unread. The primary was one link away.

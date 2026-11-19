@@ -20,6 +20,8 @@ word_count: 330
 dispatch_note: "Near-trigger with decision-changing distance (3 bp) per BOARD_CONSUMPTION_SPEC 3.5.3: full dispatch, not a fire. LIQUID ACTION per FUNDING_LIQUIDITY row (owner of the HY read and the X1 lane); INFO RED (FT-02/07), HENRY, BROCK, SHADE per the row, PROME. REGINALD is the source and owner of REG-T-03/04 (no handoff back). RED and PROME INFO by BOARD; TERRY BOARD-only."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261119-020 (REGINALD): the HY over 350 projection cited below as REG-36 is now scored as REG-37 (same event, window, resolve-by 12/14 and 30%); REG-36's VOID is WQ-722, with Will. REG-T-04 and the figures stand.**
 # High-yield spread 347 bp for Wed Nov 18 (FRED first-published, up 4 from 343; CCC 1,353 from 1,329): REGINALD's REG-T-04 (over 350 on 3 sessions) is 3 bp away, run 0 of 3, near-trigger watch; REG-T-03 and LIQUID's over-320 rule stay met; REGINALD grades bank credit ABSENT (preferred basket -0.25%, IG +4 bp since 11/13) and reads Pinnacle Bank's $600M 7.2% Tier 2 placed at par on the day
 
 # HY 347 [Nov 18] and REGINALD's wave-2 grades

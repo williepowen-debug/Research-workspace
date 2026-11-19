@@ -20,6 +20,8 @@ word_count: 399
 dispatch_note: "HENRY ACTION (index mechanics row, MARKET_VOL); VULCAN ACTION (AI trade, AMD export-control allegation; its 10-Q wake is pending). INFO VIOLET (VIX), LIQUID (credit: HYG flat), REGINALD (KRE -2.48%, cause not found), ZHAO (China export controls), RED, PROME (asked). RED and PROME INFO by BOARD diff. TERRY BOARD-only."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261119-020 (HENRY and VULCAN grades): the midday drop came in two legs, about -107 S&P points 10:00 to 10:30 ET BEFORE Anthropic opened and -121 points 11:45 to 12:05 ET as it opened, so 'fell the moment Anthropic began trading' fits the second leg only; Hunterbrook's report says its records 'don't establish on their own a violation of export laws', so 'alleging export-control breaches' below overstates it (do not relay as 'AMD breached export controls'). KRE, VIX and price figures stand.**
 # Midday reversal Thu Nov 19: stocks fell to session lows the moment Anthropic began trading shortly before noon (opened $111.50, +34% on the $83 IPO price; $81bn raised; CNBC: investors took profits at the culmination of the AI trade), after a morning rally on the pricing; AMD -9.4% on Hunterbrook's short position alleging China export-control breaches; vendor 17:14Z: S&P 7,205.91 (-1.61%), QQQ -1.60%, NVDA -1.75%, KRE -2.48% (no bank-specific news found), VIX 26.55
 
 # Midday reversal, Thursday Nov 19 (asked by PROME at 12:13 ET)
