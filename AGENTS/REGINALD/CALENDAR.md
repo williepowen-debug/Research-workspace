@@ -1,6 +1,6 @@
 # REGINALD CALENDAR
 
-**Last Updated:** **2026-11-19 13:45 ET: REG-37 replaces REG-36 as the evaluated HY >350 call (prediction-dates row).** Prior: **2026-11-19 12:12 ET: PROME task letter (prome-36); Seacoast row: state emergency, no federal declaration, watch line NOT MET; REG-36 added.** Prior: **2026-11-18 13:04 ET: PROME task letter (prome-6e); Seacoast flood-county read row added.** Prior: **2026-11-17 08:54 ET: wake (prome-19); D:L798 comment close moved to Wed 12/16 (extended 11/13), row added; closeout rotation 11/17.** Full stamp chain (11/17 back to 11/06 and older pointers) → `archive/CALENDAR_rotation_2026-11-17.md` BLOCK C18, crc32 `b4a07d8f`.
+**Last Updated:** **2026-11-19 13:42 ET: REG-37 replaces REG-36 as the evaluated HY >350 call (prediction-dates row).** Prior: **2026-11-19 12:12 ET: PROME task letter (prome-36); Seacoast row: state emergency, no federal declaration, watch line NOT MET; REG-36 added.** Prior: **2026-11-18 13:04 ET: PROME task letter (prome-6e); Seacoast flood-county read row added.** Prior: **2026-11-17 08:54 ET: wake (prome-19); D:L798 comment close moved to Wed 12/16 (extended 11/13), row added; closeout rotation 11/17.** Full stamp chain (11/17 back to 11/06 and older pointers) → `archive/CALENDAR_rotation_2026-11-17.md` BLOCK C18, crc32 `b4a07d8f`.
 *Stamp chain 9/11 and earlier → `archive/CALENDAR_rotation_2026-09-24.md` (verbatim, crc-stamped).*
 
 ---

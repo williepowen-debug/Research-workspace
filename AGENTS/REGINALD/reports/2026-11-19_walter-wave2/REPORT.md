@@ -90,7 +90,7 @@ WAL **$70.83** (REG-T-02 FIRED, exit 0 of 3, 56 rows; needs +15.63% to $81.90). 
 
 **Registered:** `REG-36` (30%) — HY OAS prints above 350 on three consecutive sessions on FRED observations dated 2026-11-19 through 2026-12-11; resolve-by 2026-12-14 (CHOSEN). Row in `workbook/PREDICTIONS.tsv` and `registry/PREDICTION_RESOLVE_BY.tsv` in the same commit. It does not replace REG-34; my current view of REG-34 (to 12/29) would be about 35%, recorded here, not re-written into the 11/05 row.
 
-*Note added 2026-11-19 13:45 ET (the line above is unchanged): REG-36's resolution cell left a complete-data near-miss (two prints above 350, then 349 or 350) unscored (CATO FV19-5). The same call is registered as **REG-37** (13:39:51 ET, 30%, without that clause), and **REG-37 is the version evaluated**; REG-36 is not scored and its VOID is drafted to Will → `reports/2026-11-19_REG-36-successor/REPORT.md`.*
+*Note added 2026-11-19 13:42 ET (the line above is unchanged): REG-36's resolution cell left a complete-data near-miss (two prints above 350, then 349 or 350) unscored (CATO FV19-5). The same call is registered as **REG-37** (13:39:51 ET, 30%, without that clause), and **REG-37 is the version evaluated**; REG-36 is not scored and its VOID is drafted to Will → `reports/2026-11-19_REG-36-successor/REPORT.md`.*
 
 ## 6. Charter check (WQ-719 A, WQ-721 A)
 
