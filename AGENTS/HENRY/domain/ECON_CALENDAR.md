@@ -4,46 +4,47 @@
 
 **Action on release days:** log actual vs consensus vs prior in `STATUS.md` (Data Release Protocol, `CLAUDE.md`). Cross-agent threshold fires route as SIGNALS via WALTER.
 
-**Window verified:** 2026-10-22 → 2026-11-25, rebuilt 2026-10-21 ~21:10 ET at the agency calendars (BLS October and November 2026 schedule lists, BEA news schedule, Census 2026 economic indicator calendar, Federal Reserve FOMC calendar). None of those pages carried a lapse-in-appropriations notice on 2026-10-21. **ISM:** ismworld.org returned HTTP 503 on three tries 10/21. Manufacturing **Nov 2** is corroborated by a search-indexed copy of ISM's own release calendar; services Nov 4 is the 3rd-business-day pattern only. Re-check at the ISM page before 11/2. Weekly claims are the standing Thursday pattern, not re-verified at DOL. **Rebuild this window before 2026-11-20**, or it is stale again. The Mar–Jul 2026 dated tables were removed in this rebuild; recover them with `git show c9cb177c9:AGENTS/HENRY/domain/ECON_CALENDAR.md` if you need history (that is the last commit before this rebuild).
+**Window verified:** 2026-11-19 → 2026-12-23, rebuilt 2026-11-19 ~12:3x ET (prome-36 second touch, during the hold). **Read today at the agency:** BEA news schedule (page last modified 11/19/26) and the Federal Reserve FOMC calendar (last update 11/18/26). **Not readable today:** bls.gov returned HTTP 403 to this box on its November and December schedule lists (a block; not evaded, per root Data Hygiene), so the BLS dates below are the 10/21 reads at the BLS page, labelled; the Census list view showed only January 2027 onward, so Census rows for this window are the 10/21 read or marked UNVERIFIED. ISM dates are its business-day pattern only. **Rebuild before 2026-12-21**, or it is stale again. Prior window (2026-10-22 → 11-25, rebuilt 10/21) and its rows: `git log -p -- AGENTS/HENRY/domain/ECON_CALENDAR.md`.
 
 **Standing context lives in `STATUS.md`, not here.** This file is the schedule only, so it cannot carry a stale regime read.
 
 ---
 
-## NEXT 30 DAYS (all times ET)
+## NEXT ~30 DAYS (all times ET)
 
-| Date | Time | Release | Data for | Source | Why it matters to HENRY |
+| Date | Time | Release | Data for | Source (basis) | Why it matters to HENRY |
 |------|------|---------|----------|--------|-------------------------|
-| Thu Oct 22 | before open | **AAL Q3 results** (call 08:30) | Q3 | issuer | HEN-46 resolves (AAL adjusted EPS vs −$0.70 low end of guide) |
-| Thu Oct 22 | 10:00 | LUV Q3 call | Q3 | issuer | HEN-46 context; results already printed 10/21 |
-| Tue Oct 27 | 8:30 | Durable goods (advance) | Sep | Census | Capex orders; HEN-36 context |
-| Tue Oct 27 | 10:00 | New home sales | Sep | Census | Rates transmission |
-| **Tue–Wed Oct 27–28** | 14:00 Wed | **FOMC** (no SEP) | — | Fed | Rate decision; 10Y above 5% red line |
-| **Thu Oct 29** | 8:30 | **GDP advance + Personal Income and Outlays (PCE)** | Q3 / Sep | BEA | Core PCE vs >0.3% hot line |
-| **Fri Oct 30** | 8:30 | **Employment Cost Index** | Q3 | BLS | LABOR owns; last print on the current weighting basis |
-| Mon Nov 2 | 10:00 | ISM Manufacturing | Oct | ISM calendar via search index (page 503) | PMI <50/<48/<47; prices >75 red |
-| Tue Nov 3 | 10:00 | JOLTS | Sep | BLS | LABOR owns |
-| Wed Nov 4 | 8:30 | Trade balance | Sep | BEA | — |
-| Wed Nov 4 | 10:00 | ISM Services | Oct | ISM (printed 11/4, 54.5, per WALTER SIG-W-20261104-005) | Prices vs demand |
-| Thu Nov 5 | 8:30 | Productivity and Costs (prelim) | Q3 | BLS | Unit labor cost |
-| **Fri Nov 6** | 8:30 | **Employment Situation (NFP)** | Oct | BLS | LABOR owns; HENRY logs market reaction |
-| Fri Nov 6 | 10:00 | U. Michigan consumer sentiment, preliminary | Nov | UMich 2026 release-date PDF | Inflation expectations (1-yr, 5–10-yr); CARL owns the consumer read |
-| **Tue Nov 10** | 8:30 | **CPI** + Real Earnings | Oct | BLS | Headline vs core, energy share |
-| Wed Nov 11 | — | Veterans Day, no BLS releases | — | BLS | — |
-| **Fri Nov 13** | 8:30 | **PPI** | Oct | BLS | FD m/m >0.4/>0.5/>0.6 |
-| Tue Nov 17 | 8:30 | Retail sales (advance) + Import/Export prices | Oct | Census / BLS | Consumer demand |
-| Wed Nov 18 | 8:30 | Housing starts | Oct | Census | — |
-| Fri Nov 20 | 10:00 | State employment | Oct | BLS | Florida read (CORAL/MARCO) |
-| Fri Nov 20 | 10:00 | U. Michigan consumer sentiment, final | Nov | UMich 2026 release-date PDF + sca.isr.umich.edu "next data release" note (read 11/11) | Inflation expectations; CARL owns the consumer read |
-| **Wed Nov 25** | 8:30 | **GDP second + corporate profits; Personal Income and Outlays (PCE)** | Q3 / Oct | BEA | Core PCE; profits |
-| Wed Nov 25 | 8:30 / 10:00 | Durable goods; new home sales | Oct | Census | — |
-| Thu Nov 26 | — | Thanksgiving, no releases | — | — | — |
+| Thu Nov 19 | 8:30 | Initial claims; Philadelphia Fed (printed: claims 203K; Philly 6.3) | Nov | DOL / Philadelphia Fed (printed) | LABOR / ISHM grade |
+| Fri Nov 20 | — | **Monthly options expiry (SPX/SPY third Friday)** | — | calendar | About 40% of the ≤35d short dealer gamma at 7,204 rolls off (12:17 ET map) |
+| Fri Nov 20 | 8:30 | BEA: Activities of US multinational enterprises, 2024 | 2024 | BEA (read 11/19) | — |
+| Fri Nov 20 | 10:00 | State employment | Oct | BLS (read 10/21) | Florida read (CORAL/MARCO) |
+| Fri Nov 20 | 10:00 | U. Michigan consumer sentiment, final | Nov | UMich 2026 release-date PDF (read 11/11) | Inflation expectations; CARL owns the consumer read |
+| **Wed Nov 25** | 8:30 | **GDP second estimate + corporate profits, Q3** | Q3 | BEA (read 11/19) | Profits |
+| **Wed Nov 25** | 8:30 | **Personal Income and Outlays (PCE)** | Oct | BEA (read 11/19) | Core PCE vs >0.3% hot line |
+| Wed Nov 25 | 8:30 / 10:00 | Durable goods (advance); new home sales | Oct | Census (read 10/21; not re-read 11/19) | Capex orders; rates transmission |
+| Thu Nov 26 | — | Thanksgiving, markets and agencies closed | — | — | — |
+| Fri Nov 27 | — | US equity early close (13:00 ET) | — | NYSE holiday schedule (pattern) | Thin tape |
+| Tue Dec 1 | 10:00 | ISM Manufacturing | Nov | ISM pattern (1st business day; not read) | ISHM grades; prices >75 red |
+| Wed Dec 2 | 8:30 | BEA: GDP and personal income by county, 2025 | 2025 | BEA (read 11/19) | — |
+| Thu Dec 3 | 10:00 | ISM Services | Nov | ISM pattern (3rd business day; not read) | Prices vs demand |
+| **Fri Dec 4** | 8:30 | **Employment Situation (payrolls)** | Nov | BLS (read 10/21; 403 on 11/19) | LABOR owns; HENRY logs the market reaction |
+| Fri Dec 4 | 10:00 | U. Michigan sentiment, preliminary | Dec | UMich PDF (read 11/11) | Inflation expectations |
+| Tue Dec 8 | 8:30 | Trade balance | Oct | BEA (read 11/19) | — |
+| **Tue–Wed Dec 8–9** | 14:00 Wed | **FOMC with projections** | — | Fed calendar (read 11/19) | HEN-63 (hike, 0.70) resolves 12/9 |
+| **Thu Dec 10** | 8:30 | **CPI** | Nov | BLS (read 10/21; 403 on 11/19) | Headline vs core, energy share |
+| Thu Dec 10 | 8:30 | BEA: real PCE and real personal income by state, 2025 | 2025 | BEA (read 11/19) | — |
+| **Tue Dec 15** | 8:30 | **PPI** | Nov | BLS (read 10/21; 403 on 11/19) | FD m/m >0.4/>0.5/>0.6 |
+| Fri Dec 18 | 8:30 | International transactions, Q3 | Q3 | BEA (read 11/19) | — |
+| Fri Dec 18 | 10:00 | U. Michigan sentiment, final | Dec | UMich PDF (read 11/11) | Inflation expectations |
+| Fri Dec 18 | — | Quarterly options expiry (third Friday) | — | calendar | Larger gamma roll-off than a monthly |
+| **Wed Dec 23** | 8:30 | **GDP third estimate + profits, Q3; Personal Income and Outlays (PCE)** | Q3 / Nov | BEA (read 11/19) | Core PCE |
+| — | — | Retail sales, housing starts, JOLTS, import prices for November/October | — | **UNVERIFIED this rebuild** (Census list view and bls.gov unreadable 11/19) | Confirm dates before citing |
 
 **University of Michigan consumer sentiment, 10:00 ET, added 2026-11-11 (WALTER packet a34c796f9d: the 11/6 preliminary went uncarded about 8 hours because it was not listed here).** Dates read 11/11 13:4x ET from UMich's own release-date PDFs (data.sca.isr.umich.edu, survey-info page, "2026 Release Dates" docid 79628 and "2027 Release Dates" docid 81621); 10:00 ET from the sca.isr.umich.edu next-release note. Beyond this window: **2026: Dec 4 (Fri) December preliminary · Dec 18, 2026 (Fri) December final · 2027: Jan 8 prelim, Jan 22 final, Feb 12 prelim, Feb 26 final, Mar 12 prelim, Mar 25 final (a THURSDAY, flagged in UMich's PDF).** UMich notes November and December interviewing runs off its normal pattern for holidays. CARL owns the consumer read; HENRY reads the inflation-expectations leg for the rate path.
 
 **Senior Loan Officer Survey (SLOOS), quarterly, 2:00 PM ET, added 2026-11-05 (WALTER 031: the October survey posted 11/2 and went unrouted because it was not listed here).** Next: January 2027 survey, **ESTIMATED Mon Feb 1, 2027**, the Monday after the Jan 26–27 FOMC. The Fed has not published this date; its 2027 monthly calendar pages returned 404 on 11/5. The pattern held on all four 2026 releases (Feb 2, May 4, Aug 3, Nov 2, read at the Fed's calendar, survey pages and FOMC page 11/5). Confirm at the Fed's February 2027 calendar when it posts. REGINALD and LIQUID hold the read; HENRY reads the equity consequence.
 
-**Beyond the window:** FOMC **Tue–Wed Dec 8–9 with SEP** (Fed calendar, read 10/21). November jobs **Fri Dec 4** 8:30, November CPI **Thu Dec 10** 8:30, November PPI **Tue Dec 15** 8:30 (BLS December 2026 schedule list, read 10/21 ~21:40 ET). GDP third estimate Q3 + November PCE **Wed Dec 23** 8:30 (BEA news schedule, read 10/21 ~21:40 ET).
+**Beyond the window:** FOMC 2027: Jan 26–27, Mar 16–17, Apr 27–28, Jun 8–9, Jul 27–28, Sep 14–15, Oct 26–27, Nov 16–17 (Fed calendar, read 11/19; tentative until confirmed at the preceding meeting). Census January 2027 rows (read 11/19): construction Jan 4; trade Jan 7; retail sales (December) Jan 15; housing starts Jan 20; durable goods and new home sales Jan 27.
 
 *Disposition 2026-10-21, PROME closeout flag on "Dec 23": the date is a real release date outside the 30-day window, now verified at the BEA page. It was first written from a search summary and labelled "(verified)" before the BEA page had been read for December; the label was premature, the date was right. The BLS December dates were the same case and are now read at the BLS page too.*
 
