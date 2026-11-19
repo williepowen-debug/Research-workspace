@@ -20,6 +20,8 @@ word_count: 393
 dispatch_note: "OSPREY ACTION (Russia-Ukraine theater, refinery and Druzhba legs); YURI ACTION (Putin's stated retaliation intent and the Japan Tobacco seizure loss, RU_STATE_ACTOR). INFO HANS (summit, GEOPOL_NON_ENERGY), ZHAO (Trump-Xi catalyst row), HAWK (NATO reaction), BRENT (Russian refining and products), SAM (Japan Tobacco is a Japanese issuer), RED. TERRY BOARD-only; RED INFO by BOARD diff."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261119-014 (YURI and OSPREY grades): the Shenzhen trilateral DID adopt and publish a 'Declaration of the heads of state of Russia, China and the US on peace' (kremlin.ru, supplement 6618; refined-products and nuclear clauses, no Ukraine clause), so 'no published joint outcome found' below is WRONG; the Russian refining cut is about 43% on the stated tonnes, not 45%; the fallen bridge section length (about 200 m per BBC) is not established. The bridge strikes, Putin's vow and the Japan Tobacco loss stand.**
 # Russia-Ukraine and the Shenzhen summit, Thu Nov 19: BBC says a Ukrainian strike Tuesday collapsed about 200 m of the Crimean Bridge road deck (car traffic barred for the foreseeable future) and Neptune missiles hit it a third time Thursday; Putin, after the Trump-Xi-Putin meeting, vows a 'far more painful' response; the trilateral produced no joint statement on available reports; Reuters sources: Ukrainian strikes cut Russian refinery runs 45%; Japan Tobacco to book a 1.38 trillion yen loss on Russia's seizure
 
 # Crimean Bridge, the Shenzhen trilateral and Russian supply items (Thursday Nov 19)

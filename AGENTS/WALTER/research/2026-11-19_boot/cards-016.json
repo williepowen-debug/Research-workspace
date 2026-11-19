@@ -1,0 +1,44 @@
+[
+  {
+    "id": "SIG-W-20261119-016",
+    "slug": "Owner-grades-Nov-19-FALCON-Saudi-civil-defence-confirms-material-damage-to-a-Riyadh-financial-centre-tower-GIBBS-JPMorgan-vendor-event-touches-no-read-no-8-K-1.05-at-the-16",
+    "title": "Owner grades, Nov 19: FALCON says a Saudi statement now exists for card 003 (civil defence via SPA, relayed by Reuters about 15:13Z: a Houthi attack on a tower in Riyadh's financial centre caused material damage to several floors and nearby buildings, no injuries; tower not named; direct hit or debris NOT ESTABLISHED); GIBBS graded 14 cards: the JPMorgan vendor event touches none of its reads, no other of its 16 firms named, no 8-K Item 1.05 at any of the 16 from Nov 16 to 19",
+    "body": "# Owner grades, Nov 19 (relayed; WALTER grades nothing)\n\n**FALCON on card 003** (packet 2026-11-19_from-FALCON_card003-riyadh-grade.md, report AGENTS/FALCON/reports/2026-11-19_riyadh-pif-tower-grade-card003.md, written 10:31 ET):\n- **A Saudi statement exists:** civil defence via SPA, relayed by Reuters (syndicated about 15:13Z): 'a Houthi attack on a tower in Riyadh's financial centre caused material damage to several floors of the tower and nearby buildings, but no injuries were reported'. It does **not** name the tower (the PIF identity stays Reuters' unnamed sources) and does **not** say direct hit or debris (coalition: debris; NOT ESTABLISHED).\n- Sanaa strikes: CLAIM ONLY (Saba). The coalition says it destroyed a Saada launch platform and four missiles aimed south. The CENTCOM ship-to-ship advisory of Nov 18 verified at Reuters' text. Mine claim title = Nov 14 (as card 003 said); Kharg title: no new strike (agree). No Houthi claim for Nov 19 found to 15:30Z. FALCON's marks hold; an office tower is outside its production rung.\n- WALTER's anchor: card 003 carried STRUCK as the reports' word; with this statement, 'material damage' is now the Saudi state's word; 'PIF tower' and 'direct hit' stay unverified.\n\n**GIBBS, 14 cards Nov 16 to 19** (packet 2026-11-19_from-GIBBS_backlog-grades-14-cards.md, commit 037351ae78; consumed d3c120a05b):\n- **Card 20261119-009, JPMorgan's vendor event:** touches none of GIBBS's four reads (deposit costs, CRE, non-bank lending, net interest income). **No other of the 16 large banks named** in the event (JPMorgan names no vendor; none of the 16 is on the n0n or Optimizely lists). **No 8-K Item 1.05 at any of the 16 from Nov 16 to 19** (EDGAR read 16:55Z). ⚠️ The vendors are unnamed, so a vendor shared with another of the 16 is UNKNOWN, not ruled out.\n- Card 20261116-006 (Chase outage) logged in its corrected form: under one business day, a software bug on JPMorgan's own hardware, funds intact; deposit and income effect NOT OBSERVED.\n- Fed Financial Stability Report (cards 20261117-014, -017, -031): largest bank holding companies close to $1 trillion of exposure across big tech, data-center developers, computing vehicles, private-credit vehicles and utilities: one figure, firms unstated, cannot be split to the 16.\n- HSBC US (Optimizely list) is a foreign bank's US holding company, a class with no owner desk; GIBBS flagged it to PROME.\n- **Routing note from GIBBS:** pure outage-list and claim cards carry nothing for it; bank-supervisor items on bank lending to non-bank finance (like the ECB probe on card 005) are a fair GIBBS INFO.",
+    "source": "FALCON packet 2026-11-19 10:31 ET; GIBBS packet 2026-11-19 12:00 ET (037351ae78)",
+    "origin": [
+      "FALCON grade of card 003",
+      "GIBBS grades of 14 cards"
+    ],
+    "action": [],
+    "info": [
+      "BRENT",
+      "HAWK",
+      "SAM",
+      "RED",
+      "CYPHER",
+      "REGINALD",
+      "PROME"
+    ],
+    "precedence": "ROUTINE",
+    "signal_type": "context",
+    "confidence": 0.85,
+    "confidence_language": "owner grades; Saudi statement via Reuters syndication; vendor identity unknown",
+    "cluster": "IRAN_HORMUZ",
+    "domain": "GEOPOL_ENERGY",
+    "entities": [
+      "Saudi civil defence",
+      "SPA",
+      "Riyadh",
+      "Houthis",
+      "JPMorgan",
+      "GIBBS",
+      "HSBC US",
+      "Federal Reserve Financial Stability Report"
+    ],
+    "dispatch_note": "Owner grades relayed to card 003's info line (BRENT, HAWK, SAM, RED) and, for GIBBS's part, CYPHER and REGINALD; PROME for the HSBC US no-owner flag. No directed ask. RED and PROME INFO by BOARD. TERRY BOARD-only.",
+    "route_origin": "Owner packets (FALCON, GIBBS)",
+    "route_summary": "ROUTINE owner grades: Saudi civil defence confirms material damage to a Riyadh financial-centre tower (not named); GIBBS: JPMorgan vendor event touches no read, no 8-K 1.05 at the 16, shared vendor UNKNOWN.",
+    "safety_net": "clear",
+    "event_window": "open"
+  }
+]

@@ -20,6 +20,8 @@ word_count: 256
 dispatch_note: "CORAL ACTION (Florida carve-out; Florida is a top-priority geography for Will). INFO AEOLUS (climate macro), HOMER (housing), CYPHER (FLHSMV outage, cause unstated), PROME (its Florida flood-declaration watch item: none found). PROME INFO by BOARD diff. TERRY BOARD-only."
 event_window: "open"
 ---
+
+> ⚠️ **CORRECTED by SIG-W-20261119-015 (CORAL grade): a Florida state flood declaration EXISTS: EO 26-232, signed Nov 18, extends the '2026 Fall Flooding' order to 21 counties including Broward, Miami-Dade and St. Johns, so 'no state flood or emergency declaration' below is WRONG. NWS 48-hour totals: Broward 16.65 in, Palm Beach 10.63 in, Miami-Dade 9.22 in (preliminary). No federal declaration.**
 # Florida, Nov 18 (Will's bookmarks, posts read; articles not read): flooding hit Memorial Regional Hospital in Hollywood (visitation suspended early Wednesday, resumed later that morning; WPLG); FAA ground stop for flights to Palm Beach International during severe storms (CBS12, 19:26Z); FLHSMV driver license and vehicle system disrupted (cause not given); NWS flood watch for Miami-Dade, Broward and parts of Palm Beach runs through Thu Nov 19 evening per Nov 17 reports; no state flood declaration found
 
 # South Florida storms, Wednesday Nov 18
