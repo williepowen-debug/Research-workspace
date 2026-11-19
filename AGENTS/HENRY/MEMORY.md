@@ -53,18 +53,17 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-19, 10:02–10:2x ET (PROME prome-36, D:L823; laptop; Claude Code, Opus 5.5). Closed on PROME's 10:13 ET ask.
+### CHANGES SINCE — 2026-11-19, second touch 12:15–13:58 ET (PROME prome-36; laptop; Claude Code, Opus 5.5). Closed on PROME's 13:56 ET ask (Will: checkpoint the spawned desks).
 
-- **D:L823 UNRESOLVED:** build.py's hit = a day in [alarm, +20] whose 60-session forward return is ≤ −10% on both legs, so it resolves only at +80 sessions: **2027-01-20 to 2027-02-18**. PROME re-dated the row to 2027-02-18. Joint fall so far KRE −4.9% / QQQ −4.7% (11/4 → 11/18). Lesson: read a grading row's resolver in the CODE before grading on the DOCKET's paraphrase.
-- State 11/18: see-saw over (c20 +0.31, opposite-sign 40%, KRE 4.3% under its relative high); the study's unregistered watch sentence met on two legs plus HY 343 [11/17]; HY 11/18 unposted at 10:05 ET.
-- **H4:** lead clause ("credit leads by 2–3 sessions") contradicted for onsets (2 of 9); bottom clause untested. PROME (10:13 ET, peer message) told me to apply my draft to CLAUDE.md and LESSONS; **NOT applied**: same peer-message rule as WQ-719 A on 11/18. Draft is in my packet `2026-11-19_from-HENRY_d823-unresolved-map-published-wq719-edit.md` § 2 (PROME/inbox/, or processed/ once consumed); apply it when it arrives in a launch letter or from Will. Until then I do not cite the lead clause.
-- **Map published 10:04 ET** (11/18 OI): SPX flip 7,545 / 7,556, NEGATIVE −43.9 / −62.2; walls NONE; QQQ on its flip 673, call wall 680 published, put NONE. Wall rows written by hand.
-- **WQ-719 A + WQ-721 A applied** (launch letter): charter step 10 (line 54) and FILES row (line 251). Brief now rewritten only when its content changed.
-- FRED SP500 and VIXCLS 11/18 confirm my closes. KB ML-HEN-233 to 235. WALTER lane 8 of 8 drained. STATUS rotated to 68% of cap (ROT-11/19, -19b). LESSONS at 76%: rotate at an ordinary wake.
+- **Midday reversal (WALTER 017):** S&P 7,415.64 high (09:30 bar) → 7,193.83 low (12:05 bar), two legs: −107 pts 10:00–10:30 BEFORE Anthropic opened, −121 at its open. Card 017's "fell the moment Anthropic began trading" fits only the second leg (corrected to WALTER).
+- **Map published 12:17 ET** at vendor spot 7,203.64: flip 7,498 / 7,517, NEGATIVE −58.6 / −85.7; profile trough −87.2 at 7,150; **11/20 expiry ≈ 40% of the short gamma** (own split, scratch script imports `gamma_flip._fetch_cboe`); 7,000 largest 11/20 strike; put wall withheld; `call_wall 7000` published as the two-sided node under spot. QQQ flip 668/669, put band 640–650 published, call withheld. The script UPSERTS (metric, date): the 10:04 rows were replaced, and I deleted my 10:04 hand wall rows to keep one row per key.
+- KRE vs IWM: beta 0.66 (250d) to 0.89 (500d); the 60d beta (0.61) is deflated by the D:L823 see-saw. Agreed with REGINALD BANK-ABSENT.
+- **HEN-64** registered 0.40 (S&P close <7,100, 11/19–11/25). KB ML-HEN-236, -237. ECON_CALENDAR rebuilt to 12/23 (bls.gov 403; Census list view showed 2027 only). STATUS rotations ROT-11/19c, -19d.
+- **Will 13:31 ET (via PROME):** forward views only on material findings, each number tied to its exact event and horizon; separate clocks = separate probabilities; no odds table on routine packets; register only material, resolvable calls.
 
 ### NEXT SESSION
 
-1. **H4 charter + LESSONS edit** if a launch letter or Will carries it (draft text above).
-2. FRED HY 11/18 (third leg of the watch sentence; LIQUID grades HY).
-3. **Fri 11/20:** grade the 8 audit rows beside D:L490; ECON_CALENDAR rebuild before 11/20; DAEDALUS K38–K52; dashboard v6 stale; FOMC 12/9 (HEN-63 0.70).
-4. LESSONS.md rotation (76% of cap).
+1. **11/19 close read NOT taken** (PROME stopped the hold): VIX settle (Cboe `last_trade_time` ≥ 16:15), S&P close vs 7,200 / 7,100 / 7,037.04, HEN-64's first session, KRE vs IWM. STATUS § CROSS-DESK Next has the full list and the 13:57 ET last read.
+2. Map on the 11/20 chain (11/19 OI) before Friday's expiry; FRED HY 11/19 (350 line, REGINALD).
+3. Tomorrow's letter: 8 audit rows beside D:L490; H4 charter draft (DOCKET line 1203).
+4. LESSONS rotation (76%); dashboard v6 stale.
