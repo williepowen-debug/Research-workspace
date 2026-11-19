@@ -24,3 +24,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T10:16	SIG-W-20261105-061	noted	BOARD	Cable One Chapter 11 conditional; combo credit-breadth-outside-ai; BROCK owns
 2026-11-06T10:16	SIG-W-20261105-064	noted	BOARD	Cable One 10-Q, TRO hearing 11/13; combo credit-breadth-outside-ai
 2026-11-06T10:16	SIG-W-20261105-065	noted	BOARD	Reuters ties 11/5 oil rise to tanker attacks, one wire; Jan Brent 98.29 EST mark; receipted; combo oil-price-vs-flow
+2026-11-06T10:16	SIG-W-20261105-066	noted	BOARD	OTTO Exeter recovery, one noisy month; combo credit-breadth-outside-ai
+2026-11-06T10:16	SIG-W-20261105-067	noted	BOARD	Tricolor lender discovery, not an accusation; combo credit-breadth-outside-ai

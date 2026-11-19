@@ -41,3 +41,7 @@ S67 commits by pathspec under `AGENTS/RED/` plus the packet (carve-out ①); pus
 - BOND F2 11/17 20Y-30Y op: OFF-THE-RUN, recent_share 2.11%; reproduced at FiscalData (offered $4.548B, accepted $1.183B, 8 issues, 912810SD1 82.16%). Re-confirms v1.1 (active since 9/10); offer-to-cap 0.76x is a demand statistic, scope fence, not fused. No FT-11 window: Δ5 DGS30 +20bp [11/06→11/16].
 - ORACLE WQ-704: RED-26 priced about 22-30 vs RED 33; information, not re-graded. FRED window high 7,619.38 [11/11]; 7,340.53 [11/17] needs +6.6% to reach 7,823.
 - Packet `PROME/inbox/2026-11-18_from-RED_S67c-two-inbox-packets-read.md`. Next entry point unchanged: 11/19 FT-06 read at FRED, then CHG-057.
+
+## ADDENDUM S67-d — 2026-11-18 19:42 EST (from `date`)
+- Will 19:42 ET: "lets close out here RED". One new item since S67-c: WALTER card SIG-W-20261118-010 (IMMEDIATE, RED ACTION: reconcile FT-02 with HY 343 [11/17]). Reconciled: FT-02 fired 10/16 and held; exit <300 s=3 is 0 of 3 (343, FRED, already verified in S67-b); canon state unchanged; STATUS level row refreshed. Logged `acted`, moved to `inbox/WALTER/processed/`. No packet (A4 not triggered).
+- Next entry point unchanged: Thu 11/19 FT-06 read at FRED (VIXCLS 11/18 ≥18 → 5 of 5 → Stag +2 / Managed −2), then CHG-057 re-review.
