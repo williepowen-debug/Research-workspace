@@ -1,17 +1,17 @@
 # HENRY — NEXUS Brief
 
-**As of:** 2026-11-19 10:14 ET | STATUS commit: `956d624675`
+**As of:** 2026-11-19 13:58 ET | STATUS commit: `7065b27a32`
 
-**Owner fold:** 2026-11-19 closeout on PROME's ask (prome-36, D:L823; Claude Code, Opus 5.5, laptop). Rewritten under WQ-719 A because figures it carries moved (the map, FRED 11/18, D:L823). Closes are vendor and FRED (SP500 and VIXCLS 11/18 confirm). The gamma read is the 11/19 Cboe chain (11/18 open interest) at vendor spot, 10:04–10:05 ET. Credit is FRED 11/17; 11/18 was unposted at 10:05 ET. Earlier folds: 11/18 16:36 ET, 11/17 16:5x ET.
+**Owner fold:** 2026-11-19 second-touch closeout on PROME's ask (prome-36; Claude Code, Opus 5.5, laptop). Rewritten under WQ-719 A because figures it carries moved (the map, FRED 11/18). Tape figures are vendor intraday reads; **the 11/19 close was NOT read** (closed at 13:58 ET). The gamma read is the 11/19 Cboe chain (11/18 open interest) at vendor spot 7,203.64, 12:17 ET. Credit is FRED 11/18. Earlier folds: 11/19 10:14 ET, 11/18 16:36 ET.
 
-**View:** **Results-day positioning did not change the regime.** Dealers are still short gamma (proxy): **S&P flip 7,545 / 7,556, NEGATIVE −$44B / −$62B per 1%** at 7,390 (10:04 ET), **published**; walls withheld. QQQ sits on its flip (673), so no regime is called; QQQ call wall **680 published**. Last close 7,323.63 (11/18), −6.33% from the 7,818.93 peak. VIX settle 24.56 [11/18] (VIOLET broadcasts); 22.83 intraday 11/19, contango.
+**View:** **The S&P is in the trough of negative dealer gamma, and Friday's monthly expiry holds about 40% of it.** Flip **7,498 / 7,517**, net **NEGATIVE −$59B / −$86B per 1%** (14d / 35d, proxy), **published**; deepest −$87B at 7,150. Put wall withheld; 7,000 (the largest 11/20 strike) published as a two-sided node under spot, not resistance. QQQ flip 668 / 669, put band 640–650. Intraday 11/19: high 7,415.64, low 7,193.83 (12:05 ET), 7,221.94 at 13:57 (−1.39%); VIX 26.59 at 13:57 (peak read 28.79). VIOLET broadcasts vol.
 
-- **D:L823, the 10/22 KRE/QQQ "banks bid, tech sold" alarm: UNRESOLVED.** By the study's own code it resolves **2027-01-20 to 2027-02-18** (PROME re-dated the row). Joint fall so far: KRE −4.9%, QQQ −4.7% (11/4 → 11/18). The see-saw is over (correlation +0.31). The study's unregistered watch sentence is met on two legs, plus HY's last print. No investment implication (TERRY informed). `research/2026-11-19_d823/GRADE.md`.
-- **H4:** "credit leads equity by 2–3 sessions" is contradicted for onsets (credit widened first in 2 of 9 joint declines, median 6.5 sessions after); I no longer cite it. "Equity cannot bottom until HY peaks" is untested and still used: no low is called while HY widens.
-- **Into the 11/19 close (judgment):** a close over about 7,550 turns dealers into dampers; until then moves stay amplified either way.
-- **Levels:** yellow 7,200 (123.63 below the 11/18 close); red 7,037.04 (−10% from the 10/6 peak).
-- **Credit (FRED 11/17):** HY 343bp YELLOW, up three sessions; BB 204; CCC 1,329 RED. LIQUID's above-320 rule MET; LIQUID grades the HY rows.
-- **Rates:** FOMC minutes (11/18): "almost all" see further hikes likely. HEN-63 (hike 12/9, 0.70) not re-marked; the market price is ORACLE's.
-- **Next:** FRED HY 11/18; 8 audit rows Fri 11/20; calendar rebuild before 11/20; FOMC 12/9.
+- **The midday drop came in two legs:** −107 pts 10:00–10:30 ET, before Anthropic opened, then −121 pts 11:45–12:05 at its open (WALTER 017 corrected).
+- **Banks:** KRE moved with small caps (beta to IWM 0.66–0.89), credit ETFs flat: agrees with REGINALD's BANK-ABSENT.
+- **What turns it:** a reclaim of about 7,500 makes dealers dampers; below, only Friday's roll-off reduces amplification.
+- **Levels:** yellow 7,200 traded through intraday, not on a close; orange 7,100; red 7,037.04 (−10% from the 10/6 peak).
+- **Credit (FRED 11/18):** HY 347bp YELLOW, 1 under the 2026 high; CCC 1,353 RED, CCC−BB 1,148. REGINALD's REG-T-04 (over 350 ×3) 3bp away; REGINALD and LIQUID grade.
+- **Registered:** HEN-64, an S&P close under 7,100 on any session 11/19–11/25, 0.40. TERRY got a timing read (bigger moves until the expiry), no direction.
+- **Next:** the 11/19 close and VIX settle, read on 11/20; map on the 11/20 chain before the expiry; FRED HY 11/19; FOMC 12/9 (HEN-63 0.70).
 
-No threshold level, band, trade, card or gate changed. No prediction resolved today. The H4 rewording waits for a launch letter or Will's word: PROME approved it, but by peer message.
+No threshold level, band, trade, card or gate changed. No prediction resolved today. D:L823 resolves 2027-01-20 to 2027-02-18; the H4 rewording waits for tomorrow's letter (DOCKET line 1203).
