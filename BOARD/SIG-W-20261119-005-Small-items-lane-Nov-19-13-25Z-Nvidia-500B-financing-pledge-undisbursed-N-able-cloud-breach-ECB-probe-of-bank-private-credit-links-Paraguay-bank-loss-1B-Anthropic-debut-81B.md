@@ -1,0 +1,44 @@
+---
+signal_id: "SIG-W-20261119-005"
+date: "2026-11-19"
+timestamp: "2026-11-19T14:27:58Z"
+dispatched: "2026-11-19T14:27:58Z"
+source: "RESEARCH-INTAKE data/2026-11-19/news.json (collect 2026-11-19T13:25Z, commit dfa1954), titles only; BOARD grep for duplicates"
+origin: ["RESEARCH-INTAKE data/2026-11-19/news.json items 18, 19, 22, 23, 44, 45, 46, 57, 61, 66, 67, 69, 72, 76, 77, 80, 92, 93, 107, 108, 109, 111, 112, 113, 115, 116, 117, 15, 33, 170, 178, 179, 180, 188, 190, 200"]
+action: ["VULCAN", "CYPHER"]
+info: ["BROCK", "RED", "HANS", "LIQUID", "REGINALD", "HENRY", "SAM", "WATT", "BRENT", "AEOLUS", "MIDAS", "CARL"]
+precedence: "ROUTINE"
+signal_type: "context"
+confidence: 0.6
+confidence_language: "titles from named outlets; nothing read in full"
+resources: 1
+safety_net: "clear"
+cluster: "AI_INFRA_CAPEX"
+domain: "AI_CAPEX"
+entities: ["Nvidia", "N-able", "ECB", "Bank of England", "Paraguay", "Anthropic", "Golub Capital BDC", "Pinnacle Bank", "PJM", "Google", "HBM", "Citgo", "El Nino", "Sibanye-Stillwater"]
+word_count: 728
+dispatch_note: "WQ-622 small-items fold (combo tags per line). VULCAN ACTION: the undisbursed $500B pledge bears on today's 10-Q T1 test. CYPHER ACTION: every cyber claim routes to CYPHER (ROUTING_TABLE CYBER v0.48). The rest INFO by channel. CARL and RED INFO by BOARD diff. TERRY BOARD-only."
+event_window: "open"
+---
+# Small items, lane collect Nov 19 13:25Z (titles, pages not read): Wall Street's $500 billion pledge to back Nvidia chip financing has not disbursed a dollar three months on (Hindustan Times, BigGo); N-able cloud server breached, email security management disrupted in 3 regions (The Hacker News); ECB to probe riskier private credit and hedge fund links at banks (Bloomberg); Paraguay bank failure losses could reach $1 billion (Barron's, AFP); Anthropic raises $81bn in record debut (BBC); yen toward 160
+
+# Small items, RESEARCH-INTAKE collect 2026-11-19 13:25Z (WQ-622 fold; every line is a TITLE from the lane, page not read, unless stated)
+
+| Item | Title, outlet, time (UTC) | For | WALTER check |
+|---|---|---|---|
+| Nvidia chip-financing pledge | 'Wall Street Pledged to Mobilize $500 Billion for Nvidia, But Hasn't Put Up a Dime' (Hindustan Times 11/19 03:12Z); 'Three Months On, Not a Dollar Disbursed' (BigGo Finance 04:35Z) | **VULCAN ACTION** (today's 10-Q read; DOCKET's T1: do the August MoUs with large capital providers convert to definitive financing), BROCK, RED (CHG-RED-057 re-review today) | Not on the BOARD before (grep 'pledge'). Secondary outlets only; the 10-Q is the primary that can confirm or refute. combo:VULCAN/ai-financing |
+| N-able breach | 'Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions' (The Hacker News 11/19 09:31Z) | **CYPHER ACTION** (its catalyst row 2026-11-19: Able2Shell and MSP-tool follow-up, N-able event 202609) | N-able last on card 20261117-006. Whether this is the same event or new is CYPHER's call. One table line per claim: victim N-able · actor not named in title · claim date 11/19 · source The Hacker News |
+| ECB bank and non-bank links | 'ECB to Probe Riskier Private Credit and Hedge Fund Links at Banks' (Bloomberg 11/19 09:28Z); 'BOE to Test How Private Credit Market Could Amplify Shocks' (Bloomberg 11/18 14:40Z); 'Why Is The BoE Stress Testing Private Credit?' (Disruption Banking 11/19 10:01Z) | HANS (HANS-T-14 leg b names an ECB or ESRB systemic warning on bank and non-bank linkage: HANS grades whether a supervisory probe is one), BROCK, LIQUID | Follows the ECB Financial Stability Review (card 20261118-003) and the BoE item on card 20261118-004. combo:HANS/eu-bank-private-credit |
+| Paraguay bank failure | 'Losses From Paraguay Bank Failure Could Reach $1 Bn: Central Bank Chief' (Barron's 11/19 02:59Z; Gulf News, AFP, 01:34Z) | REGINALD, LIQUID | Paraguay's failure was on card 20261117-016 (Banco Master line); the $1 billion loss estimate is new. combo:none |
+| Anthropic debut | 'Anthropic raises $81bn in record-breaking stock market debut' (BBC 11/19 10:48Z); FT 10:58Z 'Anthropic to make Wall Street debut after record IPO'; FT 05:00Z 'Retail investors face squeeze in blockbuster IPO'; BigGo 11:55Z dollar-yen into the upper 159s on Anthropic IPO expectations | VULCAN, HENRY | Card 20261118-014 carried the FT title 'priced at $83'. combo:VULCAN/ai-financing |
+| Yen | FXStreet 11/19 12:54Z 'Weakens toward 160 against US Dollar as BoJ hike looms'; TradingPedia 06:49Z 'Yen finds support on hawkish BoJ' | SAM | Recurring combo:none subject (USD/JPY near 160) named to PROME on 11/12; still open on DOCKET |
+| BDC | 'Wells Fargo cuts Golub Capital BDC stock price target on credit costs' (Investing.com 11/19 12:11Z) | BROCK | Golub last on card 20261117-006. combo:BROCK/bdc-credit |
+| Regional bank debt | 'Pinnacle Bank issued $600M of 7.200% subordinated notes' (Quantisnow 11/18 21:45Z) | REGINALD | PNFP; a 7.2% subordinated coupon is a cost-of-capital data point. combo:none |
+| Data centers and grid | 'Texas reverses course on data center permits after Abbott pause' (The Hill 11/18 19:55Z); 'Big US Grid Proposes Overhaul to Speed Data Center Hook Ups' (Bloomberg 11/17); Shapiro on PJM governance rules (11/19 12:13Z) | WATT, VULCAN | PJM fast energization was on card 20261117-024. combo:WATT/data-center-load |
+| Memory | 'Google looks to bypass Broadcom with direct HBM purchases' (DigiTimes 11/19; TrendForce 11/18); 'HBM4 price forecast $3 to $5.50 per gigabit next year, from $2.05' (Tech Times citing TrendForce 11/18 23:35Z); China HBM equipment imports via Singapore (BigGo) | VULCAN | Titles only. combo:VULCAN/memory-cycle |
+| Refinery | 'Citgo shuts unit after flaring at Lemont refinery' (Quantum 11/19 10:13Z) | BRENT | Not on the BOARD before. combo:BRENT/diesel-buffer |
+| Climate | 'El Nino-powered giant ocean waves batter California, trigger coastal flooding' (India Today 11/19 10:04Z); Fiji and Pacific island El Nino drought declarations (Reuters, France 24) | AEOLUS | combo:AEOLUS/enso |
+| Metals | Gold-silver ratio crosses 82 (Livemint 11/19); Sibanye-Stillwater to redeem a $500m convertible (11/19); US consortium wins Kenya mining deal over Chinese rivals (BBC 11/19 12:56Z) | MIDAS | Copper at a seven-month low was on card 20261118-014. combo:MIDAS/metals-tells |
+| Consumer | 'US Banks' Overdraft Fees Hit Four-year High as Charges Rise' (Banking Exchange 11/16 15:15Z) | CARL | Dated 11/16. combo:CARL/consumer-fees |
+
+No directed ask beyond the two ACTION lines (VULCAN, CYPHER).

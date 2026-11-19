@@ -414,6 +414,69 @@
         "2026-11-18"
       ],
       "closed": "2026-11-19T00:42:38Z"
+    },
+    "gpu:2cd607711212": {
+      "title": "Bessent: Trump Made It “Very Clear” China Gets No Nvidia Chips “Above H100s” - TIKR.com",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261117-006 China chip limits, Bessent remark dated 11/16",
+      "days": [
+        "2026-11-19"
+      ],
+      "closed": "2026-11-19T14:28:55Z"
+    },
+    "gpu:aa76e704d9e3": {
+      "title": "Losing Jensen Was Bad Enough. Losing NVIDIA’s Bench Would Be Worse - TIKR.com",
+      "disposition": "NO-ACTION",
+      "ref": "TIKR commentary 11/16 on Nvidia bench, no new fact",
+      "days": [
+        "2026-11-19"
+      ],
+      "closed": "2026-11-19T14:28:56Z"
+    },
+    "gpu:fd1d9413682d": {
+      "title": "Aschenbrenner’s Thesis vs His Fund’s Q3 Book: Power Is 25% - FourWeekMBA",
+      "disposition": "NO-ACTION",
+      "ref": "FourWeekMBA commentary 11/17, fund book, no GPU-finance event",
+      "days": [
+        "2026-11-19"
+      ],
+      "closed": "2026-11-19T14:28:56Z"
+    },
+    "gpu:88498a87b2c8": {
+      "title": "Wall Street's $500 Billion Pledge to Back Nvidia Chip Financing: Three Months On, Not a Dollar Disbursed - BigGo Finance",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261119-005 undisbursed 500B Nvidia financing pledge",
+      "days": [
+        "2026-11-19"
+      ],
+      "closed": "2026-11-19T14:28:56Z"
+    },
+    "gpu:922932d910e8": {
+      "title": "Wall Street Pledged to Mobilize $500 Billion for Nvidia—But Hasn’t Put Up a Dime - Hindustan Times",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261119-005 undisbursed 500B Nvidia financing pledge",
+      "days": [
+        "2026-11-19"
+      ],
+      "closed": "2026-11-19T14:28:56Z"
+    },
+    "gpu:edb72018bf70": {
+      "title": "David vs. Goliath: VinFast bets on its EV ecosystem - Technobaboy",
+      "disposition": "NO-ACTION",
+      "ref": "false match: VinFast EV ecosystem, not GPU finance",
+      "days": [
+        "2026-11-19"
+      ],
+      "closed": "2026-11-19T14:28:56Z"
+    },
+    "gpu:e9d85d32ac83": {
+      "title": "Can EVs save Filipino families money? Experts say yes - Technobaboy",
+      "disposition": "NO-ACTION",
+      "ref": "false match: EV household savings, not GPU finance",
+      "days": [
+        "2026-11-19"
+      ],
+      "closed": "2026-11-19T14:28:56Z"
     }
   }
 }
