@@ -8,6 +8,12 @@ Unchanged from `plans/2026-11-19_launch-letters.md` § The two lines every lette
 
 Every letter to a desk that has not yet delivered also carries `PROME/reports/2026-11-05_prediction-registration-brief.md` and `PROME/COMBINATION_WATCH.md` (D:L930; its review is 11/20, PROME's own).
 
+## The forward view every letter carries (Will 2026-11-19 12:01 ET)
+
+Will in PROME's chat, verbatim: "I think we often restrict ourselves on not saying too much based on what is visible right now.  I do want us to begin to attempt to project what we think will happen or could happen.  With understanding that we cannot predict anything with any certainty - we still want to start to be more proactive in our understanding, context, and tracking."
+
+Every letter ends its assignment with this paragraph: after your grades, give a short FORWARD VIEW for the main items you graded: what you think happens next, the base case and the main alternative, each with a rough probability and a horizon; the dated tells that would confirm or refute each; and what it would mean for a channel, a card or a position. Your own judgment, in your own words. Label it PROJECTION and keep it apart from the evidence. It moves no score, band, gate or trade by itself. A call worth tracking is registered as a prediction row under your existing rules, probability stated (WQ-715), so it gets graded. Record: `memory/auto/feedback_project_forward_not_only_what_is_visible.md`; USER.md § How Will Thinks.
+
 ## Order and timing
 
 | Wave | Desk | Row keys | When |
