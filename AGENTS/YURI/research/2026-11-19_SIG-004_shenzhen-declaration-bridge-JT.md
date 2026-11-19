@@ -1,0 +1,89 @@
+# YURI — 2026-11-19 — Shenzhen record, the bridge-retaliation statement, Japan Tobacco
+
+**Wake:** PROME task letter, prome-36 (Fable 5.2, laptop), 2026-11-19 11:52 ET, on Will's word 11:49 ET; WALTER card SIG-W-20261119-004 (ACTION). DOCKET L1197 (YUR-007) stays 11/21.
+**Runtime:** Claude Code, Opus 5.5 (`claude-opus-5-5`), cwd `AGENTS/YURI`. Boot `scripts/boot.py` rc 0 (8 rows, none due); corrections check 0 OK. Box is the laptop; Kalshi, gh and CourtListener credentials absent (not needed this session). mil.ru unreachable (below).
+**Fetch window:** 2026-11-19T16:52:36Z–16:55:32Z, plain HTTP with a browser User-Agent for Russian hosts; HTTPS for TDnet. Saved text: `sources/2026-11-19/`.
+
+## 1. Bottom line
+
+1. **The trilateral DID produce a published three-party document.** kremlin.ru 81303 (19.11, 11:30 Moscow) opens: «По итогам встречи принята Декларация глав государств России, Китая и США о мире». The text is at kremlin.ru/supplement/6618, dated 19.11.2026, four points. WALTER's card (search summaries of CBS/NBC/Fox: "no joint or separate statements to reporters") is contradicted at the Russian primary. Putin's press conference (81305) refers to it: BBC's Rosenberg asks about «принятой декларации – «Декларация о мире»».
+2. **YUR-007 is not graded today** (PROME letter; L1197 stays 11/21, late read 11/23). Today's record bears on it directly: the row's DECIDED-YES test (a kremlin.ru text containing «Декларация» with Russia, China and the US as the three parties, dated 19–21.11) reads as met on 19.11. The grade will check that the text is unchanged at 21.11/23.11 and that no exclusion applies (it is not the APEC all-economies declaration, which is a separate item, acts 81304).
+3. **Putin's "far more painful" statement (81305, 19.11 15:55) is a named official's announced decision and passes the document test.** It has three operative parts: (a) the maritime/energy "regime of silence" talks are closed: «после ударов по Крымскому мосту договариваться не будем. Будем отвечать на эти удары»; (b) retaliation «будут гораздо более болезненными, чем то, что сделал киевский режим в отношении моста», object unnamed; (c) Russia will «только усиливать там своё присутствие» on the Zaporizhzhia/Kherson land corridor ("Novorossiya" highway), and push the enemy back to create security belts along the border. No decree, order or published instrument for the retaliation exists on pravo or the Kremlin acts feed through the fetch time. The object and its effect are OSPREY's; the reaction (including its null) is HAWK's.
+4. **Japan Tobacco, issuer-stated (TDnet, the Tokyo exchange's filing system; JT's own site refused automated access):** Russia was about **10% of revenue and about 25% of adjusted operating profit** in JT's FY2026 revised forecast published with Q3 results (filing of 09.11). The 19.11 filings book a loss on loss of control of about **¥1,377.0 billion**, cut the FY2026 forecast (adjusted operating profit ¥1,079bn → ¥1,047bn, −3.0%; operating profit ¥1,041bn → −¥368bn; net income ¥662bn → −¥724bn), and cut the 2026 dividend from ¥272 to ¥204 (year-end ¥136 → ¥68). JT states it still owns the companies legally and that deconsolidation is not a sale or exit.
+5. **Seizure side, graded by YURI's rules:** custodial, unchanged. The decision of record is №817 (05.11) and №832 (06.11), YUR-006 HIT 11/11. JT's 19.11 filing corroborates the custody reading in its own words (temporary management does not transfer ownership to the state or the manager; it restricts shareholder rights). No later Decree-302 list amendment and no disposal or buyer act through №852 (17.11).
+
+## 2. The Shenzhen record (kremlin.ru, read 16:52–16:53Z)
+
+| Item | kremlin.ru | What it says |
+|---|---|---|
+| Putin–Trump talk after the APEC plenary | 81302, 19.11 07:15 | Delegations only (RU: Lavrov, Siluanov, Ushakov, Dmitriev; US: Rubio, Bessent). No content, no document. |
+| Trilateral | 81303, 19.11 11:30 | Lead: declaration on peace adopted. Opening statements only (Xi, Putin, Trump), then «<…>» (closed part not published). Trump: the three largest nuclear powers "could discuss how to lower" nuclear numbers. |
+| **Declaration** | supplement/6618, 19.11 | "Declaration of the heads of state of Russia, China and the US on peace." (1) UN reform. (2) «Три государства планируют увеличить производство и поставки продуктов нефтепереработки на благо всех стран»; stable energy supply. (3) State consent and immunity of officials; the ICC and similar bodies "should not abuse their powers". (4) A nuclear war cannot be won and must never be fought; dialogue on reducing nuclear risks and preventing proliferation. **No Ukraine, European-security, NATO or sanctions clause.** |
+| APEC documents | acts 81304, 19.11 12:00 | APEC leaders' declaration 2026 + three APEC texts (all-economies; not the trilateral). |
+| Press conference | 81305, 19.11 15:55 | Sections 3–4 below. |
+| To Lam (Vietnam) | 81290, 18.11 | Trade, bank, education, APEC 2027 in Vietnam. 0 mentions of aviation, bombers or anything military. |
+
+## 3. Grading the statement against registered rows
+
+| Row | Bearing of today's record | Action |
+|---|---|---|
+| **YUR-007** (joint doc, 20%, 11/21) | Declaration published at supplement/6618 with the three heads of state as parties, dated 19.11. Reads as DECIDED-YES at the letter. | **Not graded** (PROME letter). Reading cell updated, status OPEN. Grade 11/21, re-read 11/23. |
+| **YUR-008** (2021 terms restated, 60%, 11/28) | Mixed, in window. **For:** Putin recounts the 1991 non-enlargement promise and says Russia said "a thousand times" that Ukraine in NATO was «для нас это неприемлемо» (past-tense narrative); «для нас неприемлемым является введение любых войск на территорию Украины» (present tense, but foreign troops, not one of the three 2021 terms). **Against:** asked about NATO back to the 1991/1997/2021 lines, he says going back to "situations of the early 90s" is "evidently pointless", Russia will "seek compromises"; he accepts the US proposal that Ukraine's security be "written into" European security and has invited EU representatives to Moscow. No explicit present-tense demand of non-enlargement, the weapons term or the 1997 configuration. | Not graded (window open to 28.11). Whether the Ukraine-NATO narrative counts as "states as Russia's position" is the grade's question; named here so it is not decided by mood later. |
+| **YUR-F02 / call YUR-C02** (11/18) | C02's falsifier is "a kremlin.ru text by Putin or Ushakov accepts a European-security process without the 2021 terms". Today Putin accepts fitting Ukraine's security into European security and invites the EU to Moscow while calling a return to the early-1990s set-up pointless. **This bears against C02.** | DAEDALUS grades; YURI flags it, claims nothing. |
+| YUR-004 (closed MISS) | No mobilisation title in the pravo presidential block through №852 (17.11). Putin's corridor/security-belt line is a force-posture intent, not a mobilisation. | None. |
+| YUR-006 (closed HIT) | No new Decree-302 amendment since №832 (06.11); JT corroborates custody (§5). | None. |
+
+**What the Russian state decided or signalled today (document test):** the maritime/energy truce track is closed by the head of state (a dated reversal: Putin says he had asked the Security Council to "think and come back" to it); retaliation is announced with no object or instrument; presence on the southern land corridor will be strengthened. Escalation is signalled, not yet instrumented. **No ledger row is registered this session** (letter limits); draft row YUR-009 goes to PROME (§7).
+
+**Convergence handle:** stays **2** in this file. On my own reading the head-of-state closure of the truce track plus announced retaliation is a 3 (escalation announced, not yet fired). Moving it is put to PROME as a draft under the letter's limits.
+
+## 4. Bridge: what the Russian state has put on record
+
+| Instrument / statement | Source | Read |
+|---|---|---|
+| Putin briefed on the bridge situation | kremlin 81276, 17.11 | (11/18 read) calls it an "attack". |
+| Government commission: damage assessment, construction, alternative cargo routes | government.ru 60475, 17.11 | (11/18 read) |
+| Putin 19.11: the bridge "is purely civilian"; road span "seriously damaged", rail "already restored, I think"; "we will of course restore" it; cargo incl. food to Crimea by other routes ("we will need to increase something there") | kremlin 81305 | read |
+| Government subcommission (Manturov, Novak) on uninterrupted functioning of critical infrastructure in the Volga federal district (Tatarstan, Bashkortostan, Samara and 11 others) | government.ru 60501, 19.11 18:05 Moscow | read; no figures, no act. Logged (combination watch), not scored. |
+
+No published decree or resolution on bridge restoration, Kerch navigation or a retaliation through the fetch time (pravo presidential block to №852 of 17.11; government block to №1545 and №3430-р of 19.11, titles only; generic-title bodies №1545, №1539, №1535, №1534, №1533 not read).
+
+## 5. Japan Tobacco (item 2)
+
+**Access:** jti.co.jp (`/investors/library/press_releases/pdf/2026/20261109_01.pdf`) and jt.com (`/media/news/2026/pdf/20261106_02.pdf`) both returned **403 "Access Denied" (Akamai edge)** at 16:53:58Z. Treated as a site refusing automated access: stopped, no retry with any other identity. **Other source used:** TDnet (`release.tdnet.info`, the Tokyo Stock Exchange's timely-disclosure system), which carries JT's own filings (code 29140), fetched 16:54Z. Saved as text in `sources/2026-11-19/jt/`.
+
+| JT filing (TDnet) | Figure as JT states it |
+|---|---|
+| 06.11 08:00 JST «当社グループのロシア事業について» | Four manufacturing companies under temporary management by the 05.11 decree; impact under review. |
+| **09.11 08:00 JST «…（続報）»** | All seven Russian companies now under temporary management (05.11: Petro, JTI Donskoy Tabak, JTI Yelets, Cres Neva; 06.11: JTI Russia, JTI Innovative Products, one dormant company); business continuing. **«当社グループ全体の売上収益及び調整後営業利益に占めるロシア市場の割合は、それぞれ約10％、約25％»**, basis: the FY2026 full-year revised forecast published with Q3 results. Russia assets on the consolidated balance sheet incl. goodwill about ¥1.5 trillion (cash about ¥360bn), liabilities about ¥200bn, end-September 2026 estimates. |
+| 19.11 15:30 JST, deconsolidation | Seven companies deconsolidated as of 06.11 under IFRS (loss of effective control); **loss on loss of control about ¥1,377.0bn** in FY2026 (Kyodo's "¥1.38 trillion"). JT: temporary management «対象会社の財産の所有権を国または一時管理者に移転するものではなく、対象会社の株主としての権利行使を制約するもの»; JT still holds 100% indirectly. |
+| 19.11 15:30 JST, forecast and dividend | FY2026: revenue ¥3,903bn → ¥3,840bn; adjusted OP ¥1,079bn → ¥1,047bn (−3.0%); OP ¥1,041bn → −¥368bn; net income ¥662bn → −¥724bn; EPS ¥372.88 → −¥407.80. DPS 2026 ¥272 → ¥204 (interim ¥136, year-end ¥68; 2025 actual ¥234). Board pay cut 50% for two months. |
+| 19.11 15:30 JST, investor deck | Deconsolidation "does not mean abandoning legal ownership, a sale, or exit"; payout ratio target about 70% from 2027; 2027–29 adjusted OP CAGR above 10% on a comparable basis excluding Russia; cash outflow about ¥400bn (deconsolidated cash). |
+
+**Does this decide TERRY's evaluation?** The letter's figure is Russia's share of adjusted operating profit as JT states it: **about 25%** (FY2026 revised forecast basis, filing of 09.11). Per the letter it decides only whether TERRY evaluates a candidate; it establishes no eligibility. The −3.0% FY2026 adjusted-OP cut is small because only about two months are lost in 2026; the full-year earnings base loss lands in 2027 (JT's ex-Russia comparable-basis guide).
+
+**Seizure side, by YURI's rules:** DECISION = №817 + №832 (custodial, no disposal clause; YUR-006 HIT). OBSERVED EFFECT = JT's deconsolidation and loss; that is an issuer accounting consequence, not a Russian decision, and makes no YURI row. Open YURI question (the C01 falsifier): a №302 list act removing JTI entities or naming a buyer. None through №852.
+
+## 6. Backlog cards and inbox
+
+| Item | Grade |
+|---|---|
+| SIG-W-20261119-004 (ACTION) | Answered by §1–5. Correction to WALTER: a trilateral instrument exists (supplement/6618). |
+| SIG-W-20261119-012, Russian nuclear-capable bombers to Vietnam (Polymarket account) | **STUCK-class read: UNDETERMINED.** No Russian instrument located as of 2026-11-19 16:55Z: Kremlin To Lam readout 81290 (18.11) has 0 military mentions; pravo presidential block has no relevant title; mil.ru unreachable from this box (http and https timed out, exit 28; function.mil.ru DNS failure, exit 6; Cyrillic mirror timed out) — a claim about this box's requests, not the host. A deployment is an object/posture (HAWK, ZHAO); YURI would take only an announced decision. No row. Other items on the card are not YURI's. |
+| SIG-W-20261118-010 (HY OAS 343 bp, LIQUID) | INFO broadcast; not this desk's lane. Noted. (The PROME letter groups it with the bombers item; the bombers item is on -012 only.) |
+| OSPREY packet 2026-11-18 (two instrument questions) | (a) **Kerch passage stop (FSB border guard, 7/10) and a 2026 navigation notice for the blocked fairway:** no instrument located as of 2026-11-19; pravo titles 12.11→19.11 searched, no Kerch navigation title. Not read: FSB Border Service and harbour-master orders, Rosmorrechflot and navigation warnings (ПРИП/NAVAREA), which are not published on pravo. UNDETERMINED. (b) **"Lower-grade gasoline":** the instrument YURI holds is the government's own meeting report, government.ru 60474 (Novak, 17.11: produce more below-standard fuel), read 11/18. **No resolution or order number located**: no fuel title on pravo's government block 12.11→19.11; generic-title bodies №1545, №1539, №1535, №1534, №1533 unread. (3) Netherlands question and the Zelensky "targeting ban": titles only; no Russian instrument located; mid.ru not searched. |
+
+## 7. Drafts for PROME (no change made)
+
+- **Draft row YUR-009:** "kremlin.ru or government.ru publishes Russian agreement to a moratorium on strikes against energy infrastructure or on Black Sea shipping, dated 20.11–31.12.2026." p **15%** (against: Putin 19.11 closed the track explicitly after the bridge strikes; for: he describes the track as live before the strikes and Russia says it wants to keep the possibility of a peace agreement). Instrument test: a kremlin.ru or government.ru text stating Russia agrees to such a moratorium; Peskov or the press does not count. Consumers: OSPREY (strike tempo), BRENT (refinery runs), HAWK.
+- **Convergence handle 2 → 3** (rationale §3).
+
+## 8. F02 call record — YUR-C03 · 2026-11-19 12:00 ET
+
+*Call:* the products clause of the trilateral declaration (point 2: the three states "plan to increase production and supply of refined petroleum products") is not a Russian export decision. Russia's own primaries say the opposite: producer diesel exports banned to 31.01.2027 (№1436), local fuel deficits and continued product imports (government.ru 60474), and as of 19.11 the head of state has closed the energy-strike truce that would let refinery runs recover (81305). The clause is a US (and possibly Chinese) supply line under a Russian signature. *Falsifier:* by 2026-12-31 the Russian government publishes an act relaxing №954/№1436 or the gasoline export ban (quota, exemption or early end), or a kremlin.ru text announces Russian agreement to an energy or maritime strike moratorium. *Channels cited:* (1) product barrels, BRENT; (2) strikes on refineries and the truce, OSPREY; (3) European diesel, HANS. *Absence at call time (grep 2026-11-19 11:56 ET over AGENTS/BRENT, OSPREY, HANS, HAWK, ZHAO, archives excluded):* 0 hits for «Декларац», "Declaration on Peace", "Declaration of the heads", "supplement/6618", "81303", "81305". "Far more painful" appears only as WALTER's card in inboxes and as one title row in OSPREY's feed candidates. ⚠️ Not marginal on its own: the "no policy-led export recovery before 31.01" direction is already on BRENT's surface via YURI's 11/18 line (BOARD -20261118-009 item 3), and the energy-truce question is on OSPREY's KB. The marginal element is the declaration clause set against Russia's own ban and the truce closure. Credit is DAEDALUS's to grade; YURI claims none.
+
+## 9. For a trade assessment (WQ-696 form; packet to TERRY)
+
+- **Japan Tobacco (TSE 2914).** *Implies:* JT itself puts Russia at about 25% of adjusted operating profit and has written the business off its books (about ¥1,377.0bn loss) while keeping legal title; the 2026 dividend falls from ¥272 to ¥204, and the earnings base from 2027 excludes Russia. Whether that is in the price is TERRY's read with a live price; YURI's 11/11 bars (¥7,769 → ¥5,562, 05.11→11.11) are stale and not for use. *Horizon:* 2026 results (February 2027) and the 2027 dividend. *Invalidates the Russia side:* a Russian act removing the JTI companies from the №302 list (upside) or a disposal/buyer decree (title lost for good). *Unknown:* any recovery or arbitration path; JT's 21:00 JST investor call content (not read); whether Russian cash flows to JT at all under custody.
+- **Trilateral declaration.** No investment implication on its own: four general points, no Ukraine, sanctions or European-security text. The products clause is not a Russian export decision (call YUR-C03).
+- **Bridge retaliation.** *Implies:* the head of state has shut the energy/maritime truce track; Russian strikes in retaliation are announced with no object named, and Ukrainian strikes on Russian refining (Reuters sources, −45% runs, not verified) remain uncapped by any truce. *Horizon:* weeks. *Invalidates:* a published Russian agreement to an energy or maritime moratorium (draft YUR-009). *Unknown:* target, timing and scale of the response (OSPREY's to observe). Pricing of products and freight is BRENT's.
