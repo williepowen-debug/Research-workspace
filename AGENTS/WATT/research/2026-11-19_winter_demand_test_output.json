@@ -1,0 +1,506 @@
+{
+ "autumn_2025_Sep1_Oct28_hourly": {
+  "HB": {
+   "n": 1372,
+   "D": 223,
+   "D_rate": 0.16253644314868804,
+   "days": 58,
+   "days_with_D": 46,
+   "D_hours_by_ept_hour": {
+    "7": 1,
+    "8": 8,
+    "9": 8,
+    "10": 5,
+    "11": 2,
+    "12": 3,
+    "13": 5,
+    "14": 11,
+    "15": 17,
+    "16": 21,
+    "17": 26,
+    "18": 32,
+    "19": 36,
+    "20": 28,
+    "21": 20
+   },
+   ">=200": {
+    "spike_hours": 10,
+    "with_D": 4,
+    "P_spike_given_D": 0.017937219730941704,
+    "P_spike_given_notD": 0.005221932114882507,
+    "lift": 3.434977578475336,
+    "recall": 0.4,
+    "abs_load_topk_spikes": 7,
+    "abs_load_topk_precision": 0.03139013452914798
+   },
+   ">=500": {
+    "spike_hours": 1,
+    "with_D": 1,
+    "P_spike_given_D": 0.004484304932735426,
+    "P_spike_given_notD": 0.0,
+    "lift": null,
+    "recall": 1.0,
+    "abs_load_topk_spikes": 1,
+    "abs_load_topk_precision": 0.004484304932735426
+   },
+   ">=1000": {
+    "spike_hours": 0,
+    "with_D": 0,
+    "P_spike_given_D": 0.0,
+    "P_spike_given_notD": 0.0,
+    "lift": null,
+    "recall": null,
+    "abs_load_topk_spikes": 0,
+    "abs_load_topk_precision": 0.0
+   }
+  },
+  "HE": {
+   "n": 1372,
+   "D": 223,
+   "D_rate": 0.16253644314868804,
+   "days": 58,
+   "days_with_D": 46,
+   "D_hours_by_ept_hour": {
+    "6": 1,
+    "7": 8,
+    "8": 8,
+    "9": 5,
+    "10": 2,
+    "11": 3,
+    "12": 5,
+    "13": 11,
+    "14": 17,
+    "15": 21,
+    "16": 26,
+    "17": 32,
+    "18": 36,
+    "19": 28,
+    "20": 20
+   },
+   ">=200": {
+    "spike_hours": 10,
+    "with_D": 3,
+    "P_spike_given_D": 0.013452914798206279,
+    "P_spike_given_notD": 0.006092254134029591,
+    "lift": 2.2081998718770017,
+    "recall": 0.3,
+    "abs_load_topk_spikes": 7,
+    "abs_load_topk_precision": 0.03139013452914798
+   },
+   ">=500": {
+    "spike_hours": 1,
+    "with_D": 1,
+    "P_spike_given_D": 0.004484304932735426,
+    "P_spike_given_notD": 0.0,
+    "lift": null,
+    "recall": 1.0,
+    "abs_load_topk_spikes": 1,
+    "abs_load_topk_precision": 0.004484304932735426
+   },
+   ">=1000": {
+    "spike_hours": 0,
+    "with_D": 0,
+    "P_spike_given_D": 0.0,
+    "P_spike_given_notD": 0.0,
+    "lift": null,
+    "recall": null,
+    "abs_load_topk_spikes": 0,
+    "abs_load_topk_precision": 0.0
+   }
+  }
+ },
+ "autumn_2026_Sep1_Oct28_hourly": {
+  "HB": {
+   "n": 1372,
+   "D": 230,
+   "D_rate": 0.16763848396501457,
+   "days": 58,
+   "days_with_D": 38,
+   "D_hours_by_ept_hour": {
+    "7": 2,
+    "8": 7,
+    "9": 8,
+    "10": 3,
+    "11": 4,
+    "12": 5,
+    "13": 5,
+    "14": 14,
+    "15": 17,
+    "16": 21,
+    "17": 24,
+    "18": 32,
+    "19": 35,
+    "20": 29,
+    "21": 24
+   },
+   ">=200": {
+    "spike_hours": 47,
+    "with_D": 33,
+    "P_spike_given_D": 0.14347826086956522,
+    "P_spike_given_notD": 0.012259194395796848,
+    "lift": 11.703726708074534,
+    "recall": 0.7021276595744681,
+    "abs_load_topk_spikes": 29,
+    "abs_load_topk_precision": 0.12608695652173912
+   },
+   ">=500": {
+    "spike_hours": 17,
+    "with_D": 14,
+    "P_spike_given_D": 0.06086956521739131,
+    "P_spike_given_notD": 0.002626970227670753,
+    "lift": 23.171014492753624,
+    "recall": 0.8235294117647058,
+    "abs_load_topk_spikes": 14,
+    "abs_load_topk_precision": 0.06086956521739131
+   },
+   ">=1000": {
+    "spike_hours": 7,
+    "with_D": 7,
+    "P_spike_given_D": 0.030434782608695653,
+    "P_spike_given_notD": 0.0,
+    "lift": null,
+    "recall": 1.0,
+    "abs_load_topk_spikes": 7,
+    "abs_load_topk_precision": 0.030434782608695653
+   }
+  },
+  "HE": {
+   "n": 1373,
+   "D": 230,
+   "D_rate": 0.16751638747268754,
+   "days": 58,
+   "days_with_D": 38,
+   "D_hours_by_ept_hour": {
+    "6": 2,
+    "7": 7,
+    "8": 8,
+    "9": 3,
+    "10": 4,
+    "11": 5,
+    "12": 5,
+    "13": 14,
+    "14": 17,
+    "15": 21,
+    "16": 24,
+    "17": 32,
+    "18": 35,
+    "19": 29,
+    "20": 24
+   },
+   ">=200": {
+    "spike_hours": 48,
+    "with_D": 32,
+    "P_spike_given_D": 0.1391304347826087,
+    "P_spike_given_notD": 0.01399825021872266,
+    "lift": 9.939130434782609,
+    "recall": 0.6666666666666666,
+    "abs_load_topk_spikes": 31,
+    "abs_load_topk_precision": 0.13478260869565217
+   },
+   ">=500": {
+    "spike_hours": 18,
+    "with_D": 12,
+    "P_spike_given_D": 0.05217391304347826,
+    "P_spike_given_notD": 0.005249343832020997,
+    "lift": 9.939130434782609,
+    "recall": 0.6666666666666666,
+    "abs_load_topk_spikes": 16,
+    "abs_load_topk_precision": 0.06956521739130435
+   },
+   ">=1000": {
+    "spike_hours": 7,
+    "with_D": 5,
+    "P_spike_given_D": 0.021739130434782608,
+    "P_spike_given_notD": 0.0017497812773403325,
+    "lift": 12.42391304347826,
+    "recall": 0.7142857142857143,
+    "abs_load_topk_spikes": 7,
+    "abs_load_topk_precision": 0.030434782608695653
+   }
+  }
+ },
+ "winter_2025_Nov1_Dec31_hourly": {
+  "HB": {
+   "n": 1465,
+   "D": 328,
+   "D_rate": 0.22389078498293516,
+   "days": 61,
+   "days_with_D": 47,
+   "D_hours_by_ept_hour": {
+    "6": 3,
+    "7": 16,
+    "8": 27,
+    "9": 26,
+    "10": 15,
+    "11": 14,
+    "12": 13,
+    "13": 12,
+    "14": 10,
+    "15": 8,
+    "16": 10,
+    "17": 18,
+    "18": 37,
+    "19": 38,
+    "20": 38,
+    "21": 31,
+    "22": 10,
+    "23": 2
+   },
+   ">=200": {
+    "spike_hours": 16,
+    "with_D": 8,
+    "P_spike_given_D": 0.024390243902439025,
+    "P_spike_given_notD": 0.007036059806508356,
+    "lift": 3.466463414634146,
+    "recall": 0.5,
+    "abs_load_topk_spikes": 7,
+    "abs_load_topk_precision": 0.021341463414634148
+   },
+   ">=500": {
+    "spike_hours": 0,
+    "with_D": 0,
+    "P_spike_given_D": 0.0,
+    "P_spike_given_notD": 0.0,
+    "lift": null,
+    "recall": null,
+    "abs_load_topk_spikes": 0,
+    "abs_load_topk_precision": 0.0
+   },
+   ">=1000": {
+    "spike_hours": 0,
+    "with_D": 0,
+    "P_spike_given_D": 0.0,
+    "P_spike_given_notD": 0.0,
+    "lift": null,
+    "recall": null,
+    "abs_load_topk_spikes": 0,
+    "abs_load_topk_precision": 0.0
+   }
+  },
+  "HE": {
+   "n": 1465,
+   "D": 328,
+   "D_rate": 0.22389078498293516,
+   "days": 61,
+   "days_with_D": 47,
+   "D_hours_by_ept_hour": {
+    "5": 3,
+    "6": 16,
+    "7": 27,
+    "8": 26,
+    "9": 15,
+    "10": 14,
+    "11": 13,
+    "12": 12,
+    "13": 10,
+    "14": 8,
+    "15": 10,
+    "16": 18,
+    "17": 37,
+    "18": 38,
+    "19": 38,
+    "20": 31,
+    "21": 10,
+    "22": 2
+   },
+   ">=200": {
+    "spike_hours": 16,
+    "with_D": 10,
+    "P_spike_given_D": 0.03048780487804878,
+    "P_spike_given_notD": 0.005277044854881266,
+    "lift": 5.777439024390244,
+    "recall": 0.625,
+    "abs_load_topk_spikes": 7,
+    "abs_load_topk_precision": 0.021341463414634148
+   },
+   ">=500": {
+    "spike_hours": 0,
+    "with_D": 0,
+    "P_spike_given_D": 0.0,
+    "P_spike_given_notD": 0.0,
+    "lift": null,
+    "recall": null,
+    "abs_load_topk_spikes": 0,
+    "abs_load_topk_precision": 0.0
+   },
+   ">=1000": {
+    "spike_hours": 0,
+    "with_D": 0,
+    "P_spike_given_D": 0.0,
+    "P_spike_given_notD": 0.0,
+    "lift": null,
+    "recall": null,
+    "abs_load_topk_spikes": 0,
+    "abs_load_topk_precision": 0.0
+   }
+  }
+ },
+ "fivemin_2026_Oct23_Nov14": {
+  "HB": {
+   "n_hours": 541,
+   "D": 121,
+   "price_limb_run_hours": [
+    "10-27 18:00",
+    "10-27 19:00",
+    "11-01 00:00"
+   ],
+   "run_hours_with_D": [
+    "10-27 18:00 EPT 97.9%",
+    "10-27 19:00 EPT 99.8%"
+   ],
+   "run_hours_without_D": [
+    "11-01 00:00 EPT 92.6%"
+   ],
+   "hourmax>=500": {
+    "hours": 9,
+    "with_D": 4,
+    "P_given_D": 0.03305785123966942,
+    "P_given_notD": 0.011904761904761904
+   },
+   "hourmax>=1000": {
+    "hours": 4,
+    "with_D": 3,
+    "P_given_D": 0.024793388429752067,
+    "P_given_notD": 0.002380952380952381
+   }
+  },
+  "HE": {
+   "n_hours": 541,
+   "D": 121,
+   "price_limb_run_hours": [
+    "10-27 18:00",
+    "10-27 19:00",
+    "11-01 00:00"
+   ],
+   "run_hours_with_D": [
+    "10-27 18:00 EPT 99.8%",
+    "10-27 19:00 EPT 100.3%"
+   ],
+   "run_hours_without_D": [
+    "11-01 00:00 EPT 91.1%"
+   ],
+   "hourmax>=500": {
+    "hours": 9,
+    "with_D": 6,
+    "P_given_D": 0.049586776859504134,
+    "P_given_notD": 0.007142857142857143
+   },
+   "hourmax>=1000": {
+    "hours": 4,
+    "with_D": 3,
+    "P_given_D": 0.024793388429752067,
+    "P_given_notD": 0.002380952380952381
+   }
+  },
+  "n_5min_prints": 6480,
+  "span": [
+   "2026-10-23T00:00:00-04:00",
+   "2026-11-14T11:00:00-05:00"
+  ]
+ },
+ "demand_only_Dec2024_Feb2025": {
+  "n": 2136,
+  "D": 468,
+  "D_rate": 0.21910112359550563,
+  "days": 90,
+  "days_with_D": 72,
+  "D_by_ept_hour_of_stamp": {
+   "6": 4,
+   "7": 30,
+   "8": 46,
+   "9": 45,
+   "10": 36,
+   "11": 21,
+   "12": 16,
+   "13": 11,
+   "14": 11,
+   "15": 10,
+   "16": 10,
+   "17": 21,
+   "18": 40,
+   "19": 49,
+   "20": 51,
+   "21": 47,
+   "22": 17,
+   "23": 3
+  },
+  "top5_load_hours": [
+   [
+    "2025-01-22T14:00:00+00:00",
+    144420.0,
+    100.9
+   ],
+   [
+    "2025-01-22T13:00:00+00:00",
+    143095.0,
+    102.1
+   ],
+   [
+    "2025-01-22T15:00:00+00:00",
+    141835.0,
+    98.2
+   ],
+   [
+    "2025-01-21T14:00:00+00:00",
+    140181.0,
+    100.7
+   ],
+   [
+    "2025-01-23T13:00:00+00:00",
+    139455.0,
+    96.6
+   ]
+  ]
+ },
+ "demand_only_Nov1_Nov19_2026": {
+  "n": 447,
+  "D": 109,
+  "D_rate": 0.24384787472035793,
+  "days": 20,
+  "days_with_D": 17,
+  "D_by_ept_hour_of_stamp": {
+   "7": 3,
+   "8": 9,
+   "9": 7,
+   "10": 4,
+   "11": 5,
+   "12": 5,
+   "13": 6,
+   "14": 5,
+   "15": 5,
+   "16": 6,
+   "17": 7,
+   "18": 13,
+   "19": 13,
+   "20": 13,
+   "21": 8
+  },
+  "top5_load_hours": [
+   [
+    "2026-11-17T13:00:00+00:00",
+    106646.0,
+    103.0
+   ],
+   [
+    "2026-11-18T13:00:00+00:00",
+    106151.0,
+    99.5
+   ],
+   [
+    "2026-11-19T13:00:00+00:00",
+    104521.0,
+    98.5
+   ],
+   [
+    "2026-11-17T12:00:00+00:00",
+    103537.0,
+    100.3
+   ],
+   [
+    "2026-11-17T14:00:00+00:00",
+    103464.0,
+    97.0
+   ]
+  ]
+ }
+}

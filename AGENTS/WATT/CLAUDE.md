@@ -142,9 +142,9 @@ Power/grid events (emergency episodes, LMP spikes, auction clears) resolve on a 
 | Capacity-auction clear (BRA) → retail pass-through | CARL | 🟠 |
 | Spark-spread / gas→power coupling move | BRENT (gas leg) | 🟠 |
 | Structural capacity shortfall → utility/bank credit | REGINALD | 🟡 |
-| Cross-agent synthesis (every closeout) | NEXUS_BRIEF writeback | curated |
+| Cross-agent synthesis (closeout, only when a figure, threshold, or cross-desk send or wait changed) | NEXUS_BRIEF writeback | curated |
 
-Route to the **domain owner**, not the transmission-adjacent agent. Outbox = crisis-only (🔴 async); NEXUS_BRIEF = curated sync every closeout.
+Route to the **domain owner**, not the transmission-adjacent agent. Outbox = crisis-only (🔴 async); NEXUS_BRIEF = curated sync, rewritten at closeout only when a figure, threshold, or cross-desk send or wait in it changed (WQ-719 A; `CLOSEOUT.md` C7).
 
 ## STANDING DISCIPLINES
 
@@ -182,7 +182,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `tape_scan.py` | Boot leg (2026-11-16): PJM-RTO 5-min tape from the STATUS machine-read tape cutoff to now; at most 2 DM2 calls; finds P1 price-limb runs and pre-grades the demand limb; rc 2 = a span it could not read is UNKNOWN. Acceptance `proposals/2026-11-16_TAPE_SCAN_ACCEPTANCE.md`; tests `tests/test_tape_scan.py`. |
 | `KILL_MEMO.md` | Pre-written cascade ladder — what to do WHEN a conjunction trigger fires, written cold and **decoupled from STATUS rewrites** (CLAUDE.md THRESHOLDS clause). |
 | `SCRATCH.md` | Immediate next-session continuity — one current pickup block. Read at boot; reconcile current handoff at closeout, archive superseded narrative verbatim under CLOSEOUT.md C4. |
-| `NEXUS_BRIEF.md` | Curated cross-agent sync, written back every closeout (blueprint §6). |
+| `NEXUS_BRIEF.md` | Curated cross-agent sync (blueprint §6); rewritten at closeout only when a figure, threshold, or cross-desk send or wait changed, otherwise untouched (WQ-719 A, WQ-721 A; `CLOSEOUT.md` C7). |
 | `LESSONS.md` | Durable agent-level learning — domain & process lessons accrued over sessions. |
 | `workbook/KB.tsv` | Knowledge base (power-market → econ linkages, sourced). **Permanent record.** |
 | `workbook/SCHEMA.tsv` | Data dictionary for `KB.tsv` **and `FLOW.tsv`** — read before writing. |

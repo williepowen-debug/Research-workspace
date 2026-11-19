@@ -1,0 +1,398 @@
+{
+ "autumn_2026 >=$200 HB": {
+  "peak_hours": 458,
+  "low": {
+   "load_range_MW": [
+    72721.0,
+    89510.0
+   ],
+   "D": 17,
+   "D_spikes": 1,
+   "notD": 135,
+   "notD_spikes": 0
+  },
+  "mid": {
+   "load_range_MW": [
+    89565.0,
+    100253.0
+   ],
+   "D": 88,
+   "D_spikes": 9,
+   "notD": 65,
+   "notD_spikes": 3
+  },
+  "high": {
+   "load_range_MW": [
+    100335.0,
+    149874.0
+   ],
+   "D": 56,
+   "D_spikes": 18,
+   "notD": 97,
+   "notD_spikes": 8
+  }
+ },
+ "autumn_2026 >=$200 HE": {
+  "peak_hours": 459,
+  "low": {
+   "load_range_MW": [
+    74119.0,
+    90246.0
+   ],
+   "D": 21,
+   "D_spikes": 0,
+   "notD": 132,
+   "notD_spikes": 0
+  },
+  "mid": {
+   "load_range_MW": [
+    90252.0,
+    100286.0
+   ],
+   "D": 74,
+   "D_spikes": 12,
+   "notD": 79,
+   "notD_spikes": 1
+  },
+  "high": {
+   "load_range_MW": [
+    100335.0,
+    149874.0
+   ],
+   "D": 43,
+   "D_spikes": 15,
+   "notD": 110,
+   "notD_spikes": 12
+  }
+ },
+ "autumn_2026 >=$500 HB": {
+  "peak_hours": 458,
+  "low": {
+   "load_range_MW": [
+    72721.0,
+    89510.0
+   ],
+   "D": 17,
+   "D_spikes": 0,
+   "notD": 135,
+   "notD_spikes": 0
+  },
+  "mid": {
+   "load_range_MW": [
+    89565.0,
+    100253.0
+   ],
+   "D": 88,
+   "D_spikes": 2,
+   "notD": 65,
+   "notD_spikes": 0
+  },
+  "high": {
+   "load_range_MW": [
+    100335.0,
+    149874.0
+   ],
+   "D": 56,
+   "D_spikes": 11,
+   "notD": 97,
+   "notD_spikes": 3
+  }
+ },
+ "autumn_2026 >=$500 HE": {
+  "peak_hours": 459,
+  "low": {
+   "load_range_MW": [
+    74119.0,
+    90246.0
+   ],
+   "D": 21,
+   "D_spikes": 0,
+   "notD": 132,
+   "notD_spikes": 0
+  },
+  "mid": {
+   "load_range_MW": [
+    90252.0,
+    100286.0
+   ],
+   "D": 74,
+   "D_spikes": 2,
+   "notD": 79,
+   "notD_spikes": 0
+  },
+  "high": {
+   "load_range_MW": [
+    100335.0,
+    149874.0
+   ],
+   "D": 43,
+   "D_spikes": 9,
+   "notD": 110,
+   "notD_spikes": 6
+  }
+ },
+ "autumn_2026 >=$1000 HB": {
+  "peak_hours": 458,
+  "low": {
+   "load_range_MW": [
+    72721.0,
+    89510.0
+   ],
+   "D": 17,
+   "D_spikes": 0,
+   "notD": 135,
+   "notD_spikes": 0
+  },
+  "mid": {
+   "load_range_MW": [
+    89565.0,
+    100253.0
+   ],
+   "D": 88,
+   "D_spikes": 0,
+   "notD": 65,
+   "notD_spikes": 0
+  },
+  "high": {
+   "load_range_MW": [
+    100335.0,
+    149874.0
+   ],
+   "D": 56,
+   "D_spikes": 7,
+   "notD": 97,
+   "notD_spikes": 0
+  }
+ },
+ "autumn_2026 >=$1000 HE": {
+  "peak_hours": 459,
+  "low": {
+   "load_range_MW": [
+    74119.0,
+    90246.0
+   ],
+   "D": 21,
+   "D_spikes": 0,
+   "notD": 132,
+   "notD_spikes": 0
+  },
+  "mid": {
+   "load_range_MW": [
+    90252.0,
+    100286.0
+   ],
+   "D": 74,
+   "D_spikes": 0,
+   "notD": 79,
+   "notD_spikes": 0
+  },
+  "high": {
+   "load_range_MW": [
+    100335.0,
+    149874.0
+   ],
+   "D": 43,
+   "D_spikes": 5,
+   "notD": 110,
+   "notD_spikes": 2
+  }
+ },
+ "winter_2025 >=$100 HB": {
+  "peak_hours": 488,
+  "low": {
+   "load_range_MW": [
+    74648.0,
+    94806.0
+   ],
+   "D": 46,
+   "D_spikes": 1,
+   "notD": 116,
+   "notD_spikes": 2
+  },
+  "mid": {
+   "load_range_MW": [
+    94851.0,
+    106839.0
+   ],
+   "D": 89,
+   "D_spikes": 3,
+   "notD": 74,
+   "notD_spikes": 2
+  },
+  "high": {
+   "load_range_MW": [
+    106910.0,
+    135723.0
+   ],
+   "D": 96,
+   "D_spikes": 15,
+   "notD": 67,
+   "notD_spikes": 13
+  }
+ },
+ "winter_2025 >=$100 HE": {
+  "peak_hours": 488,
+  "low": {
+   "load_range_MW": [
+    76709.0,
+    94907.0
+   ],
+   "D": 42,
+   "D_spikes": 0,
+   "notD": 120,
+   "notD_spikes": 2
+  },
+  "mid": {
+   "load_range_MW": [
+    94940.0,
+    107223.0
+   ],
+   "D": 86,
+   "D_spikes": 3,
+   "notD": 77,
+   "notD_spikes": 3
+  },
+  "high": {
+   "load_range_MW": [
+    107383.0,
+    135723.0
+   ],
+   "D": 94,
+   "D_spikes": 15,
+   "notD": 69,
+   "notD_spikes": 13
+  }
+ },
+ "winter_2025 >=$200 HB": {
+  "peak_hours": 488,
+  "low": {
+   "load_range_MW": [
+    74648.0,
+    94806.0
+   ],
+   "D": 46,
+   "D_spikes": 0,
+   "notD": 116,
+   "notD_spikes": 1
+  },
+  "mid": {
+   "load_range_MW": [
+    94851.0,
+    106839.0
+   ],
+   "D": 89,
+   "D_spikes": 2,
+   "notD": 74,
+   "notD_spikes": 0
+  },
+  "high": {
+   "load_range_MW": [
+    106910.0,
+    135723.0
+   ],
+   "D": 96,
+   "D_spikes": 4,
+   "notD": 67,
+   "notD_spikes": 2
+  }
+ },
+ "winter_2025 >=$200 HE": {
+  "peak_hours": 488,
+  "low": {
+   "load_range_MW": [
+    76709.0,
+    94907.0
+   ],
+   "D": 42,
+   "D_spikes": 0,
+   "notD": 120,
+   "notD_spikes": 0
+  },
+  "mid": {
+   "load_range_MW": [
+    94940.0,
+    107223.0
+   ],
+   "D": 86,
+   "D_spikes": 2,
+   "notD": 77,
+   "notD_spikes": 1
+  },
+  "high": {
+   "load_range_MW": [
+    107383.0,
+    135723.0
+   ],
+   "D": 94,
+   "D_spikes": 4,
+   "notD": 69,
+   "notD_spikes": 2
+  }
+ },
+ "autumn_2025 >=$200 HB": {
+  "peak_hours": 458,
+  "low": {
+   "load_range_MW": [
+    70349.0,
+    86064.0
+   ],
+   "D": 19,
+   "D_spikes": 0,
+   "notD": 133,
+   "notD_spikes": 0
+  },
+  "mid": {
+   "load_range_MW": [
+    86146.0,
+    97383.0
+   ],
+   "D": 64,
+   "D_spikes": 1,
+   "notD": 89,
+   "notD_spikes": 1
+  },
+  "high": {
+   "load_range_MW": [
+    97453.0,
+    122368.0
+   ],
+   "D": 76,
+   "D_spikes": 3,
+   "notD": 77,
+   "notD_spikes": 3
+  }
+ },
+ "autumn_2025 >=$200 HE": {
+  "peak_hours": 459,
+  "low": {
+   "load_range_MW": [
+    72659.0,
+    87356.0
+   ],
+   "D": 23,
+   "D_spikes": 0,
+   "notD": 130,
+   "notD_spikes": 0
+  },
+  "mid": {
+   "load_range_MW": [
+    87411.0,
+    96020.0
+   ],
+   "D": 55,
+   "D_spikes": 1,
+   "notD": 98,
+   "notD_spikes": 1
+  },
+  "high": {
+   "load_range_MW": [
+    96277.0,
+    122368.0
+   ],
+   "D": 59,
+   "D_spikes": 2,
+   "notD": 94,
+   "notD_spikes": 4
+  }
+ }
+}

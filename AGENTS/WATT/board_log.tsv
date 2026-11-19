@@ -145,3 +145,12 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-14T12:39:28-05:00	2026-11-12_from-DAEDALUS_WQ678-harness-lines	acted	INBOX	A none; B five applied, four declined (KB-219).
 2026-11-14T15:10:39-05:00	SIG-W-20261114-011	acted	BOARD	No WATT item; PJM monitor $29.4B dup verified held (KB-WATT-214 and earlier row; IMM Q3 sec 1 p.1); Oct 13 Max Gen Alert repost correctly killed.
 2026-11-16T14:20:00-05:00	SIG-W-20261116-005	acted	BOARD	Item 8 PJM reform-delay title matches KB-214 (title only, unverified); items 1-2 logged combo:ai-financing for P3 (KB-221); no score.
+2026-11-19T10:55:07-05:00	SIG-W-20261117-006	acted	BOARD	Item 7: PJM fast-energization and ride-through proposals logged combo:WATT/interconnection; foreignpolicyjournal $1,000 title not carried (KB-224). No score.
+2026-11-19T10:55:07-05:00	SIG-W-20261117-019	acted	BOARD	Nvidia Q3: no WATT item; VULCAN/HENRY own it.
+2026-11-19T10:55:07-05:00	SIG-W-20261117-020	acted	BOARD	Nvidia 8-K guarantees: SB Energy credit support $105.0B and new $9.5B power-and-systems line logged combo:WATT/data-center-load (KB-224). No score.
+2026-11-19T10:55:07-05:00	SIG-W-20261117-024	acted	BOARD	Item 1: PJM large-load reforms filed at FERC (titles); filing unread, next P3 primary touch (KB-224).
+2026-11-19T10:55:07-05:00	SIG-W-20261117-027	acted	BOARD	Item 5 grid-shutdown post unread, no operator statement; not carried.
+2026-11-19T10:55:07-05:00	SIG-W-20261118-004	acted	BOARD	FERC-rejects title matches the Oct 9 IRAS order (KB-140/141); likely re-title, not a new order; not established (KB-224).
+2026-11-19T10:55:07-05:00	SIG-W-20261118-010	acted	BOARD	HY OAS rule met: no WATT item.
+2026-11-19T10:55:07-05:00	SIG-W-20261119-005	acted	BOARD	Texas data-center permit reversal (WATT-17 relevance, title) and Shapiro PJM governance logged (KB-224). No re-mark.
+2026-11-19T10:55:14-05:00	SIG-W-20261119-011	acted	BOARD	DHS: Iran-linked hackers targeting US energy (title via aggregator, bulletin unread); no grid-operator event; CYPHER owns. Not carried as a WATT fact.

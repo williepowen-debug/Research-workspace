@@ -1,0 +1,225 @@
+Market Price Benchmark Calculations 2026 
+October 1, 2026 
+
+Pursuant to Decision (D.) 22-01-023, Energy Division issues values for the Power Charge Indifference 
+Adjustment (PCIA) Forecast and True-Up, which the investor-owned utilities (IOU) will use for their 2027 
+Energy Resource Recovery Account (ERRA) Forecast Updates in early October 2026. The PCIA 
+calculations incorporate Market Price Benchmarks (MPB) – the Energy Index, Renewable Portfolio 
+Standard (RPS) Adder, and Resource Adequacy (RA) Adder – as defined by D.18-10-019 and revised by 
+D.19-10-001, D.22-01-023, D.23-06-006, and D.25-06-049. D.22-01-023 directed Energy Division to 
+calculate and distribute these values by the first business day in October each year, and D.23-06-006 directed 
+Energy Division to calculate and distribute a Greenhouse Gas Free (GHG-Free) Adder, if applicable.  
+
+Tables 1 and 2 below show the 2026 and 2027 MPBs, which are used to calculate the 2027 PCIA.  The 2026 
+Final MBP, shown in Table 1, with the 2025 Final MPB for comparison. Table 2 shows the 2027 Forecast 
+MPB, with the 2026 Forecast MPB for comparison. 
+
+Table 1. 2026 Final Market Price Benchmarks Used in PCIA Calculations 
+
+RA Adder ($/kW-month) 
+RPS Adder ($/MWh) 
+GHG-free Adder ($/MWh) 
+
+2025 Final Market Price 
+Benchmarks 
+All IOUs 
+$11.21 
+$63.86 
+See notes1 
+
+2026 Final Market Price 
+Benchmarks 
+All IOUs 
+$10.11 
+$30.88 
+$10.172 
+
+Table 2. 2027 Forecast Market Price Benchmarks 
+
+Energy Index  
+($/MWh) 
+
+On-Peak 
+Off-Peak 
+
+2026 Forecast Market Price 
+Benchmarks 
+SCE 
+$39.90 
+$48.48 
+
+PG&E 
+$50.20 
+$52.31 
+
+SDG&E  PG&E 
+$44.22 
+$39.90 
+$46.59 
+$48.48 
+
+2027 Forecast Market Price 
+Benchmarks 
+
+SCE 
+$34.41 
+$44.89 
+
+SDG&E 
+$34.41 
+$44.89 
+
+1Given low volume and various disqualifying characteristics in the underlying contracts, Energy Division did not issue a 2025 
+True-Up MPB, further discussed in notes below. 
+2 Per D.23-06-006 the IOUs have elected to allocate GHG free attributes. The GHG free adder is displayed for informational 
+purposes only. 
+
+ 
+ 
+  
+  
+ 
+ 
+  
+ 
+RA Adder ($/kW-month) 
+RPS Adder ($/MWh) 
+GHG-free Adder  
+
+$11.53 
+$62.45 
+See notes3 
+
+$10.02 
+$12.69 
+See notes4 
+
+Market Price Benchmarks Background 
+
+The PCIA calculation was established in D.11-12-018 and refined in D.25-06-049. The PCIA is the amount 
+by which the IOU is indifferent to the energy power costs after load departs from bundled service and is 
+equivalent to an IOU’s total PCIA eligible portfolio costs less the portfolio’s market value in a given year. 
+Market value is defined in D.19-10-001 as “the estimated financial value, measured in dollars, that is 
+attributed to an IOU portfolio of energy resources for the purpose of calculating the PCIA for a given 
+year.”5 D.19-10-001 defines MPBs as “estimates of the value per unit (not total portfolio value) associated 
+with three principal sources of value in IOU portfolios (energy, resource adequacy, and renewable energy).”6 
+MPBs are multiplied by the relevant portfolio volume as part of the overall calculation of market value. The 
+forecast adders are mechanisms that aim to reduce uncertainty of the indifference amount, and the true up 
+adders are mechanisms that aim to align realized market revenues with forecasted values.  
+
+Energy Index  
+
+Energy Index is the MPB that reflects the estimated market value of each unit of energy in an IOU’s PCIA-
+eligible portfolio, in dollars per megawatt hour ($/MWh). The Energy Index was previously referred to as 
+the “Brown Power Index.”7  
+
+The Energy Index above was calculated using Platts-ICE Forward Curve-Electricity market data. Energy 
+Division received a Platts on-peak and off-peak forward price for each month of 2027 and each electrical 
+zone (NP15 and SP15), as calculated on each individual non-holiday weekday from September 1, 2026 
+through September 30, 2026 (inclusive). Using this data, Energy Division calculated a 2027 monthly average 
+price for each peak period and each electrical zone, thereby arriving at the values in Table 1 above. The 
+IOUs will use weighted averages of these values in the October Updates to their 2027 ERRA Forecast 
+Applications. 
+
+RA Adder  
+
+The RA Adder calculates the estimated value of each unit of capacity in an IOU’s PCIA-eligible portfolio 
+that can be used to satisfy Resource Adequacy obligations, in dollars per kilowatt-month ($/kW-month). 
+D.25-06-049 modified the RA MPB methodology adopted in D.19-10-001 to calculate a single unified RA 
+
+3 Did not meet the volume threshold per D.23-06-006. 
+4 The total qualifying capacity for the 2027 Forecast GHG-free MPB was 275 GWh, which did not meet the 1,000 GWh 
+threshold to establish an MPB as set by D.23-06-006.  
+5 D.19-10-001 at 6. 
+6 D.19-10-001 at 6. 
+7 D.19-10-001 at 7. 
+
+2  
+
+ 
+ 
+ 
+ 
+MPB rather than calculate a separate system, local, and flexible value. The RA Forecast MPB and RA Final 
+MPB are calculated as ordered in Ordering Paragraph 1 of D.25-06-049.8 
+
+•  The Forecast RA Adder was calculated using the volume-weighted average of all IOU, CCA, and 
+ESP RA market transactions executed from December 2023 through August 2026, with delivery in 
+2027.  
+
+•  The Final RA Adder was calculated using the volume-weighted average of all IOU, CCA, and ESP 
+RA market transactions executed from December 2022 through August 2026, with delivery in 2026.  
+
+RPS Adder 
+
+The RPS Adder is the MPB that reflects the estimated value (incremental to the Energy Index) of each unit 
+of RPS-eligible energy that is attributable to its RPS eligibility, in dollars per megawatt hour ($/MWh). Both 
+the forecast and the final adders are based on bundled, short-term (under ten years), index-plus,9  Portfolio 
+Content Category 1 (PCC-1)10 transactions.  
+
+•  The Forecast RPS Adder was calculated using the volume-weighted average of all eligible IOU, 
+CCA, and ESP market transactions executed from September 2025 through August 2026, with 
+delivery in 2027.  
+
+•  The Final RPS Adder was calculated using the volume-weighted average of all eligible IOU, CCA, 
+and ESP market transactions executed from December 2024 through August 2026, with delivery in 
+2026. 
+
+GHG-free Energy Adder  
+
+The GHG-free Energy Adder reflects the estimated value of the GHG-free, non-RPS resources that is 
+attributable to verifiable added market value of the GHG-free energy attribute, for the purpose of counting 
+toward the LSEs’ Portfolio Content Label.  
+
+•  The Forecast GHG-free Adder is calculated using the volume-weighted average of all eligible 
+
+IOU, CCA, and ESP transactions from September 2025 through August 2026 and with delivery in 
+2027 and;  
+
+•  The Final GHG-free Adder is calculated using volume-weighted average of all eligible IOU, CCA, 
+and ESP market transaction transactions from December 2024 through August 2026 and with 
+delivery in 2026.  
+
+The GHG-free Energy Adder was adopted in D.23-06-006 as a second option for allocating the value of 
+GHG-free resources to LSEs. IOUs may opt to allocate the GHG-free energy attributes directly to LSEs 
+based on load share or calculate the GHG-free Energy Adder as part of the PCIA. To date, the IOUs have 
+
+8 D.25-06-059 at 35. 
+9 Index-plus refer to contracts for the market price of energy plus a REC bid premium. 
+10 D.11-12-052 defines PCC-1 as Facilities with a First Point of Interconnection within a California Balancing Authority (CBA) or 
+with a Generation Scheduled into a CBA.  
+
+3  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+opted to allocate the GHG-free energy attributes. As such, the calculation of the GHG-free Energy Adder 
+would be for informational purposes only. 
+
+The total qualifying capacity for a Forecast GHG-free MPB was 275 GWh, which did not meet the 1,000 
+GWh threshold to establish an MPB as set by D.23-06-006. Therefore, the 2027 Forecast MPB is $0 per 
+MWh. Energy Division only included transactions for which the contract identifies a specific, incremental 
+GHG-Free value, either as the price of a standalone GHG-Free product or as the GHG-Free “plus” 
+portion of an index-plus price structure.  
+
+There were 36 total eligible transactions included in the 2026 True-Up calculation, from which 7 of those 
+resources were located out of the CAISO Balancing Authority Area, and 11 transactions included a mix of 
+resources in CAISO and outside of CAISO, including out-of-state transactions. Several other reported 
+transactions contain characteristics that disqualified the transaction from inclusion in the GHG-free adder. 
+Given these issues and the low transaction volume, Energy Division raises questions whether the GHG-free 
+energy adder is an accurate reflection of the incremental value of GHG-free energy. Energy Division 
+intends to issue a report further evaluating these issues in the PCIA OIR.  
+
+4  
+
+ 
+ 
+ 
+ 
+ 
+
