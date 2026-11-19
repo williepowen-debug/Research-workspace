@@ -1,0 +1,20 @@
+# LIQUID STATUS — rotated 2026-11-19 (verbatim)
+
+Rotated at the 11/19 closeout (STATUS past the 75% read-cap trigger). crc32 of the concatenated blocks below (each block followed by one newline): **5ec2e55a**. Source: STATUS.md at commit bf203b6280.
+
+## §1 Cable One paragraph (11/17)
+
+**Cable One skipped an about $10M coupon due 11/16 on its about $503M 4.00% 2030 notes [8-K accepted 16:41 ET 11/16, BROCK KB-BRK-503; not re-read by me; BROCK owns the credit]:** the bond was 0.160% of XCCC [11/04, my CCC proxy], so about 1 to 2 bp of CCC at most even on a severe move; the 11/17 ICE cell is the first that could show it: **not separable** (CCC +19 on a session when every tier widened at the 94th to 96th percentile; no bond price reachable, TRACE gated). No gate touched. About $675M cash [9/30] and a stated plan to pay with a new debt financing: a financing constraint is NOT SHOWN; that financing pricing or failing before grace ends (about 12/16, BROCK, INFERRED) is the test. ICE treatment of a bond in grace not read. → `research/2026-11-17_prome-703/REPORT.md` §3.
+
+## §1 CoreWeave planned-loan paragraph (11/16)
+
+**CoreWeave's planned loan of at least $4B, investment-grade, backed by Meta contracts [WALTER 009, corrected by 010; Bloomberg 11/11, plan only, unread at source]:** no company filing or priced terms found (web search 10:1x ET 11/16). The comparison is CoreWeave's own March DDTL 4.0, $8.5B at SOFR + 2.25%, rated A3 (Moody's), not the recourse August loan at SOFR + 5.50%. A plan to borrow again against its best contract is access, not a wall: financing constraint still NOT SHOWN. The tells when terms print: spread against SOFR + 2.25% and recourse. A reported 7 to 7.5% guided yield against 14.21% on the 2032 unsecured notes is aggregator-only, unverified. → REPORT 2026-11-16 §3.
+
+## §2 GATE-LIQ-069 cell history tail (through the 11/18 grade)
+
+Earlier: **L4 FIRED again on the November 5 session, a new observation of a leg first fired on the October 14 session.** Fired-leg count unchanged. **L2 NOT FIRED on the DTCC November 12 full file: one valid CoreWeave 5Y print, about 1,065, about 90 tighter than 1,154 [11/10]; no re-widening, and two quotes are needed.** L4 NOT FIRED on the November 10 session (HY −4, published by 20:58 ET 11/16; worst IREN −7.85%) and the November 13 session (HY +3, worst NBIS −9.92%); **November 16 session NOT FIRED (graded 10:47 ET 11/17): HY +11, credit underperforming YES; worst IREN −9.80%, CRWV −6.12%, APLD −8.70%, NBIS −7.55%, none at −15%;** **November 17 session NOT FIRED (graded 10:35 ET 11/18): HY +9, credit underperforming YES; worst IREN −3.57%;** November 11 and 12 sessions UNGRADEABLE (D:L342), all four names up on 11/11. (11/12 recommendation of review_by November 19, now reviewed.) L2 no re-count. L3 NO_INSTRUMENT. L5 primary still inaccessible, no R1 supported. `main()` and stored-tie tests TESTED, not INDEPENDENTLY VERIFIED. → `research/2026-11-05_live-catchup/REPORT.md` §15.2. | 2026-11-12, PROME-set
+
+## §2 GATE-LIQ-076 cell history tail (11/13 review)
+
+Prior: **Review graded November 13: NOT MET, 1 of 3 (W3), window October 31→November 13.** W1 as-of November 3 NOT MET (−2,604,199, weekly −68,214); **as-of November 10 NOT MET: −2,696,034, weekly −91,835** (CME SOFR-3M by full market name; read 20:59 ET 11/16; the bare `SOFR-3M` key collides with FMX). W3 November 13 witness MOVE 98.79 / VIX 19.30 (yfinance; VIX within 1.00 of the line, so VIOLET's figure governs). **W2 as-of November 4 NOT MET: G10 −7,845, G5L10 +477** (NY Fed API, first read 10:19 ET 11/13; dealers net long mid-curve; as-of date predates November 5). W3 MET November 9 and 10 (VIOLET's Cboe figures: 85.98/19.92, 92.43/19.46) and November 12 (witness 98.43/18.70). Episode first MET October 22; W3 met throughout, so **no re-arm: no write-up is owed even if W1 meets.** Net positions ≠ refused capacity; actionable-life denominator CANNOT-CERTIFY. → REPORT 2026-11-13 §1. | 2026-11-20, PROME-set 11/13 on owner recommendation
+

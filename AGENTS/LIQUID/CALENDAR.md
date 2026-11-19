@@ -68,7 +68,8 @@ Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior f
 | 2026-11-12 | ✅ RESOLVED 2026-11-12: BOND CLEAN (BTC 2.36, indirect 68.11%); LIQUID lines not crossed — 30-year bond auction, $25B (refunding, 13:00 ET close) | CONFIRMED: exact criteria/outcome/source limits in machine row |
 | 2026-11-13 | ✅ GRADED 2026-11-13 10:2x ET, NOT MET 1 of 3 (W2 as-of November 4 NOT MET; W1 as-of November 10 unpublished; no re-arm) — GATE-LIQ-076 review — W2 as-of November 4 about November 12, W1 as-of November 10 about November 13 | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
 | 2026-11-20 | GATE-LIQ-076 review — W1 as-of November 10 and November 17, W2 as-of November 11 (about November 19) | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
-| 2026-11-18 | TIC release, 16:00 ET (September data) | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
+| 2026-11-25 | GATE-LIQ-069 review — the November 23 and 24 ICE cells and sessions (11/26 holiday, 11/27 early close) | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
+| 2026-11-18 | ✅ RELEASED 11/18, read 11/19 via ZHAO/WALTER (Belgium $507.9B, first above $500B, bare level) — TIC release, 16:00 ET (September data) | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
 | 2026-12-09 | December FOMC decision (December 8-9) | CONFIRMED: exact criteria/outcome/source limits in machine row |
 | 2026-12-15 | TIC release, 16:00 ET (October data) | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
 | 2026-12-31 | Year-end funding turn | CONFIRMED: exact criteria/outcome/source limits in machine row |

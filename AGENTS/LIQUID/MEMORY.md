@@ -2,14 +2,21 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-18T10:34 ET, closed 2026-11-18T10:40:54-05:00 (PROME prome-6e, DOCKET line 1178, desktop, Claude Code / Opus 5.5; no pull at start per the letter; closed on PROME's ask, D:L1178 RESOLVED)
+### CURRENT SESSION — 2026-11-19T09:18 ET, closed 2026-11-19T10:34:40-05:00 (PROME prome-36, G:GATE-LIQ-069 due-row wake launched late, laptop, Claude Code / Opus 5.5; closed on PROME's ask 10:33 ET)
+
+- **Context:** 069 review due 11/19 on the 11/18 HY cell; >320 run, re-kill, tier rule, REG 350 on the same cell; can 076 be graded today; whole-inbox drain (4 WALTER); WQ-719 A / 721 A charter line.
+- **Delivered:** HY 347 [11/18, first-published, my pull 10:28:57 ET] ⇒ >320 run 4; re-kill 0 of 2; REG-T-04 witness 0 of 3 (3 under); tier rule BROADENS on the 15-session clause (BBB +7 at p90, borderline); CCC 1,353 (+24); HY−IG 254 (2026 high); IG 93 (1 under 072's >94). **069 review: 2 of 2 FIRED unchanged** (L1/L4 not fired; L2 CoreWeave 5Y about 1,078 clean [11/18]; L5 nothing new); PROME accepted the state cell verbatim, review_by 11/25. 076: W3 off since 11/16 (VIX ≥20), reset clock to about 11/30, recommend 12/2. Belgium TIC $507.9B (bare level, no China inference). FOMC minutes → KB-LIQ-153/154. CLOSEOUT.md NEXUS_BRIEF lines aligned to WQ-719 A / 721 A. STATUS rotated (crc32 5ec2e55a). No TERRY packet (no new implication). Commits bf203b6280, 0c89f89bfb (PROME packet). → `research/2026-11-19_gate069-review/REPORT.md`.
+- **Open:** 076 graded at the 11/20 wake (W2 as-of 11/11 + CFTC W1 as-of 11/17); H.4.1 (11/18 levels) not read; ING data-centre loan clearing prices.
+- **Defect caught by me:** the STATUS rotation script split each gate row at its last `|`, which moved the review_by column into the archive; caught on the post-rotation check and restored before commit.
+
+### PRIOR SESSION — 2026-11-18T10:34 ET, closed 2026-11-18T10:40:54-05:00 (PROME prome-6e, DOCKET line 1178, desktop, Claude Code / Opus 5.5; no pull at start per the letter; closed on PROME's ask, D:L1178 RESOLVED)
 
 - **Context:** grade the November 17 ICE cell (>320 run 3 of 3), tier rule, 069 legs, Cable One; drain inbox (20: 3 top-level, 17 WALTER).
 - **Delivered:** HY 343 [11/17, first-published, my pull 10:35:18 ET, matches TERRY] ⇒ **>320 ×3 MET** (323/334/343); signal to ALL via WALTER (59cba599c0), SIGNALS row, trade read to TERRY (c25c9f6031). Tiers IG 92 (+2), BBB 115 (+3), BB 204 (+8), B 368 (+11), CCC 1,329 (+19) ⇒ BROADENS; re-kill 0 of 2; 072, 069 L1/L4 NOT FIRED. Cable One not separable. VULCAN four questions answered (b0119cd32d). Six correction receipts. PROME packet b9720641b5. → `research/2026-11-18_hy-1117-grade/REPORT.md`.
 - **Open:** next ICE cell extends or resets the run; H.4.1, 076 W2, 069 review 11/19.
 - **Defects caught by me:** the STATUS header and PROME packet stamps were first typed from narrative (10:45, about 10:50), not from `date`; both were corrected before closeout (packet b24d928f89).
 
-### PRIOR SESSION — 2026-11-17T09:31 ET, closed 2026-11-17T10:54:02-05:00 (PROME prome-19 task 703, Will "703 yes" 09:30 ET, laptop, Claude Code / Opus 5.5; launch task line was empty, task arrived by cross-session message; closed on PROME's ask)
+### EARLIER SESSION — 2026-11-17T09:31 ET, closed 2026-11-17T10:54:02-05:00 (PROME prome-19 task 703, Will "703 yes" 09:30 ET, laptop, Claude Code / Opus 5.5; launch task line was empty, task arrived by cross-session message; closed on PROME's ask)
 
 - **Context:** outside-audit items (re-kill tests, signal use), Cable One for my series, November 16 HY cell, funding-microstructure leg status, inbox drain, stale KB rows (Will 11/16 23:16 ET).
 - **Delivered:** re-kill tests: fixtures wrong (July 3 2026 is a bond holiday the 11/10 D:L342 fix drops), watcher right, dates +7 days, 20 of 20 OK, no reading affected. November 16 first-published HY 334 (+11), IG 90 ⇒ >320 run 2 of 3; tiers BBB 112, BB 196 (+10), B 357 (+13), CCC 1,310 (−6) ⇒ tier rule BROADENS (daily clause); REKILL 0 of 2; 069 L1 and L4 NOT FIRED; 072 NOT FIRED. Cable One 0.160% of XCCC, no gate touched. OFR repo volumes reachable (KB-LIQ-162), coverage only. KB: 58 retired, 15 kept. Inbox 4 of 4. Commits 3f8693dcce, 33247b549b. → `research/2026-11-17_prome-703/REPORT.md`.
@@ -113,4 +120,4 @@
 
 ### NEXT SESSION
 
-**STATUS §3 is the list.** 11/18 (prome-6e, DOCKET line 1178): **>320 ×3 MET on the November 17 cell (343)**, tier rule BROADENS, signal routed via WALTER, trade read to TERRY, inbox drained (20). Next: each new ICE cell extends or resets the run; W2 as-of 11/11 for 076 about 11/19 (review_by 11/20); H.4.1 on 11/19 (foreign RRP and FIMA against the 11/11 baseline; BOND reads custody); ING data-centre loan bids 11/19 (KB-LIQ-153); 069 review 11/19. Then the DTCC probe repair. Earlier NEXT SESSION text → `git log -p -- AGENTS/LIQUID/MEMORY.md`.
+**STATUS §3 is the list.** 11/19 (prome-36): 069 reviewed (2 of 2 FIRED unchanged, review_by 11/25); >320 run at 4 [347, 11/18]. Next: each new ICE cell extends or resets the run; **076 review at the 11/20 wake** (W2 as-of 11/11 posted 11/19 about 16:15 ET; W1 as-of 11/17 CFTC Fri about 15:30 ET; no write-up owed; recommend 12/2 next); H.4.1 11/18 levels (foreign RRP and FIMA vs the 11/11 baseline; BOND reads custody); ING data-centre loan clearing prices (KB-LIQ-153). Then the DTCC probe repair. Earlier NEXT SESSION text → `git log -p -- AGENTS/LIQUID/MEMORY.md`.
