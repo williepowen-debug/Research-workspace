@@ -91,7 +91,8 @@ Tier 2 FULL closeout, walter-89, desktop. Prior: LIGHT 2026-11-18T02:47:51Z (wal
     {"commit": "38ad3cbbd9", "state": "published", "note": "delivery reconcile"},
     {"commit": "3a8ef83c10", "state": "published", "note": "card 012 TIC"},
     {"commit": "050af651a6", "state": "published", "note": "cards 013, 014; lane marked; on origin via another desk's push"},
-    {"commit": "49e512567c", "state": "published", "note": "card 015; on origin via another desk's push (closeout git fetch showed 0 ahead, 0 behind)"}
+    {"commit": "49e512567c", "state": "published", "note": "card 015; on origin via another desk's push (closeout git fetch showed 0 ahead, 0 behind)"},
+    {"commit": "a22458d10f", "state": "published", "note": "Tier 2 closeout: registry, STATUS, MEMORY, retirement, card 014 cluster fix; safe-push CONFIRMED"}
   ],
   "delivery": {
     "signal_date": "20261118",
