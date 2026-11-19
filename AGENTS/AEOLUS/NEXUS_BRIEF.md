@@ -2,7 +2,7 @@
 
 **Purpose:** curated synthesis writeback, rewritten at closeout only when a figure, threshold, or cross-desk send or wait in it changed (NEXUS schema §4.1, WQ-719 A). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-11-19 10:38 ET (PROME due-row wake D:L1171, prome-36; folded in the same commit as STATUS.)**
+**Last writeback: 2026-11-19 10:48 ET (PROME due-row wake D:L1171, prome-36; folded in the same commit as STATUS.)**
 **WAITING-FOR:**
 - **11/26:** SA CEC final · **11/30:** hurricane season end (AEO-01) · **12/02:** C6 Orange window · **12/03:** CAP board · **12/07–08:** MWD vote on the Lower Basin implementing agreements · **12/10:** federal answer in *Nevada v. Burgum*, CPC ENSO, WASDE · **~mid-Dec:** December 24-Month Study
 - PROME's ruling path on the AEO-17 re-date draft (OND RONI prints ~early January, after the 12/20 read)
@@ -20,7 +20,7 @@
 
 ## 🟡 ENSO / VORTEX / C1 / C2 / C4
 - **ENSO:** CPC 11/12 historic (RONI ≥2.5) **~60%** for OND/NDJ (from 83/70); weekly Niño-3.4 **+3.2** [11NOV] (KB-284). **Vortex rebuilt:** 10 hPa 60N **+13.74** [11/19 00Z] (KB-286).
-- **C1:** no system read today; season ends 11/30. **C2:** SA corn 15,000 kt (−8.65%), next grade 12/10 WASDE. **C4/Florida:** St. Johns at Cocoa major flood 17.11 ft [11/18]; 24.69 in stays the one rain figure (CORAL) (KB-287/288).
+- **C1:** NHC outlook read 11/19 (low near the NW Bahamas, below); season ends 11/30. **C2:** SA corn 15,000 kt (−8.65%), next grade 12/10 WASDE. **C4/Florida:** St. Johns at Cocoa **passed its flood of record, 18.19 ft [11/19 14:15Z]**, forecast 18.4 ft to 11/24; event-2 rain (11/18–19) has **no storm total yet**; 24.69 in stays the event-1 figure (KB-287/288/293). **NHC:** low near the NW Bahamas, 60% in 7 days, offshore N/NE track: not a Gulf/FL system (KB-293).
 
 ## CONVERGENCE SNAPSHOT
 | Ch | Score | One line |
