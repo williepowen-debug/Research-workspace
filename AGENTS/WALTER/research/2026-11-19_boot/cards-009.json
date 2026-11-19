@@ -1,0 +1,43 @@
+[
+  {
+    "id": "SIG-W-20261119-009",
+    "slug": "CYPHER-grades-JPMorgan-vendors-attacked-marketing-data-may-be-exposed-N-able-new-incident-Wellington-IT-Irish-credit-unions-TruStage-PHP-releases-Bank-SinoPac",
+    "title": "CYPHER grades and new cyber items, Nov 19: JPMorgan says vendors were attacked and marketing data (names, emails) may be exposed, no service disruption (CONFIRMED by the bank); the N-able Mail Assure server access is a NEW incident separate from Able2Shell (CONFIRMED on the vendor's word, no customer-data evidence so far); Wellington IT payee data at about 40 to 50 Irish credit unions; TruStage reaches agreement with attackers; PHP security releases; Bank SinoPac Nov 3 vendor-route transfers about $1.3M; the HSBC and Associated item is the Optimizely event",
+    "body": "# CYPHER packet 2026-11-19 (be69f0732c), grades and new items\n\nCYPHER's record: AGENTS/CYPHER/research/2026-11-19_due-rows/RECORD.md section 8. WALTER relays; CYPHER owns every grade below.\n\n**Grades of WALTER cards**\n- **SIG-W-20261118-005** (American Banker: HSBC and Associated sites briefly affected): SAME EVENT as card 20261117-008 (Optimizely, CYB-INC-073), not new. American Banker 11/17 dek: an attacker planted code in web testing files used by 178 organizations, 32 in banking and finance; most of it gone by Monday afternoon.\n- **SIG-W-20261119-005, N-able line:** NEW, SEPARATE incident from Able2Shell: CYB-INC-085, N-able Mail Assure / SpamExperts Hosted Cloud, one server accessed, management offline in 3 regions, mail flow up, no customer-data evidence so far (vendor quoted by The Hacker News; N-able's status page refuses automated readers). CONFIRMED on the vendor's word. No financial institution named.\n- SIG-W-20261118-014 FT outage-cause title: logged by CYPHER (KB-CYP-142), title only.\n\n**New items (one line per claim: victim, actor, claim date, source, figure as claimed)**\n| Victim | Actor | Claim date | Source | What, as claimed |\n|---|---|---|---|---|\n| JPMorgan (its vendors) | not named | 11/19 | JPMorgan on X, read by CYPHER via Fox 32 | vendors attacked; marketing data (names, emails) may be exposed; no service disruption. CONFIRMED by the bank (CYB-INC-086). Possibly the n0n gang's 11/16 listing (card 20261117-029); that link is NOT confirmed |\n| TruStage | not named | 11/19 | CU Today headline (page refused) | agreement with its attackers; data review 6 to 8 more weeks. SECONDARY |\n| Wellington IT (Irish credit-union vendor) | not named | 11/19 | The Register, citing a member credit union's notice | payee data at about 40 to 50 Irish credit unions (CYB-INC-087). Credit unions not named here (CYPHER guardrail) |\n| PHP | n/a (patches) | 11/19 | PHP security releases 8.5.13, 8.4.28, 8.3.37, 8.2.36 | 10+ Critical advisories; a second PHP patch round (KB-CYP-141) |\n| Bank SinoPac, Taiwan | not named | event 11/03 | CYPHER | unauthorized transfers via a vendor route, about US$1.3M, reimbursed (CYB-INC-088); missed by WALTER and CYPHER until today |\n\n**For the channel owners:** GIBBS (JPMorgan is in its perimeter: marketing-data exposure at vendors, no disruption stated); REGINALD (credit-union and community-bank vendor class: TruStage, Wellington IT); LIQUID (payments: SinoPac transfer route); HANS (Irish credit unions). The 11/17 do-not-relay list (card 20261117-029) still binds: 'Chase outage was ransomware' and 'Visa hacked' are not established by anything here.",
+    "source": "CYPHER packet AGENTS/WALTER/inbox/2026-11-19_from-CYPHER_cards-1118-005-1119-005-graded.md (be69f0732c); CYPHER's sources as named per line",
+    "origin": [
+      "CYPHER packet be69f0732c (doorbell from cypher-b7, received by the 10:01 ET session clock line)"
+    ],
+    "action": [],
+    "info": [
+      "GIBBS",
+      "REGINALD",
+      "LIQUID",
+      "HANS",
+      "RED"
+    ],
+    "precedence": "PRIORITY",
+    "signal_type": "context",
+    "confidence": 0.8,
+    "confidence_language": "owner grades; JPMorgan confirmed by the bank; TruStage secondary",
+    "cluster": "CYBER",
+    "domain": "CYBER",
+    "entities": [
+      "JPMorgan",
+      "N-able",
+      "Mail Assure",
+      "TruStage",
+      "Wellington IT",
+      "PHP",
+      "Bank SinoPac",
+      "Optimizely",
+      "HSBC",
+      "Associated Banc-Corp"
+    ],
+    "dispatch_note": "CYPHER owns the events (its own packet; no handoff back to CYPHER). Channel owners per CYBER row v0.49: GIBBS (large bank), REGINALD (credit-union vendors), LIQUID (payments), HANS (Ireland). PRIORITY minimum for the bank-supplier class. No directed ask. RED INFO by BOARD diff. TERRY BOARD-only.",
+    "route_origin": "Owner packet (CYPHER)",
+    "route_summary": "PRIORITY CYPHER: JPMorgan vendors attacked, marketing data may be exposed (bank-confirmed, no disruption); N-able Mail Assure a new incident; Wellington IT Irish CU payee data; TruStage; PHP patches; SinoPac 11/03 $1.3M.",
+    "safety_net": "clear",
+    "event_window": "open"
+  }
+]

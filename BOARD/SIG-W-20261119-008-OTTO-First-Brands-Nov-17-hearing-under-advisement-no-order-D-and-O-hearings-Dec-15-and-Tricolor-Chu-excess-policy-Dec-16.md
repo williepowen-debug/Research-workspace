@@ -1,0 +1,38 @@
+---
+signal_id: "SIG-W-20261119-008"
+date: "2026-11-19"
+timestamp: "2026-11-19T15:02:10Z"
+dispatched: "2026-11-19T15:02:10Z"
+source: "OTTO packet AGENTS/WALTER/inbox/SIG-OTTO-WALTER-20261119-first-brands-11-17-under-advisement-d-and-o-dates.md (be13064ce7); OTTO's sources: CourtListener First Brands Dkt 4105 and minute entry 11/17; Verita Tricolor Dkt 1500/1501"
+origin: ["OTTO packet be13064ce7 (to WALTER ACTION, info BROCK, REGINALD, CARL)"]
+action: []
+info: ["BROCK", "REGINALD", "CARL"]
+precedence: "ROUTINE"
+signal_type: "context"
+confidence: 0.85
+confidence_language: "owner read the docket; one line read by its sub-agent only"
+resources: 1
+safety_net: "clear"
+cluster: "PC_STRESS"
+domain: "PRIVATE_CREDIT"
+entities: ["First Brands", "Tricolor", "Daniel Chu", "Old Republic", "CNA", "Evolution", "Bank of America"]
+word_count: 270
+dispatch_note: "Owner relay per OTTO's own send list (info BROCK, REGINALD, CARL); ROUTINE as OTTO set it; no directed ask. CARL INFO by BOARD diff. TERRY BOARD-only."
+event_window: "open"
+---
+# OTTO relay: First Brands Chapter 7, the Nov 17 hearing on the DIP agent's cash-sweep stipulation and the Evolution turnover motions was taken under advisement with no order; the excess D&O insurers' stay-relief motion moved to Tue Dec 15; Tricolor's Chu seeks the Old Republic excess D&O policy for defense costs, hearing Wed Dec 16; nothing scored
+
+# First Brands and Tricolor dockets, relayed from OTTO (packet be13064ce7, 2026-11-19 09:46 ET)
+
+OTTO's table and so-what, carried as written (OTTO read the First Brands docket at CourtListener; the Tricolor line was read by its sub-agent and not re-read by OTTO, as OTTO states):
+
+| Item | Value | Source / date |
+|---|---|---|
+| First Brands Ch.7, 11/17 1:00 PM CT | DIP-agent cash-sweep stipulation (Dkt 3953) and Evolution turnover motions (3144, 3792, 3799) **heard, under advisement, no order** through Dkt 4124 (11/18). No ruling date | Courtroom minutes Dkt 4105, read by OTTO at the CourtListener feed 11/19 |
+| First Brands D&O | Excess ABC Insurers' stay-relief motion (Dkt 3669) **reset from 11/18 to Tue 12/15, 3:00 PM CT** | Minute entry 11/17, read by OTTO |
+| First Brands Kingsbridge (Dkt 3841) | Outcome **not observed** (feed window starts 11/16) | — |
+| Tricolor Ch.7, Chu D&O | Chu moves to use the Old Republic excess D&O policy for defense costs; **preliminary hearing Wed 12/16, 11:00 AM CT**, objections due 12/04. Filing says the primary policy was exhausted in June and CNA's $5M layer paid out by 10/28 | Dkt 1500/1501 via Verita, **read by OTTO's sub-agent WINTERKORN, not re-read by OTTO** |
+
+**So what:** no recovery figure moves until the 11/17 ruling or the 12/09 sale hearing; Chu's defense funding is narrowing ahead of the 1/25/27 trial, with no trial-date effect established. Nothing scored (OTTO ML-OTTO-397). Bank of America's escrow-release motion (Dkt 4111) is an ABL-agent service role, not a bank-loss signal.
+
+**WALTER:** relay only; no figure re-read at the docket by WALTER.
