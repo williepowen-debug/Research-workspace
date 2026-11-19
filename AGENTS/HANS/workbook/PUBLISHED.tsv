@@ -1,4 +1,4 @@
-# Status: LIVE. Last real data refresh: 2026-11-18 (content-derived — newest asof cell in this file). Two-clock header per PAT-044; scripts/ledger_staleness.py reads THIS line first, never mtime.
+# Status: LIVE. Last real data refresh: 2026-11-19 (content-derived — newest asof cell in this file). Two-clock header per PAT-044; scripts/ledger_staleness.py reads THIS line first, never mtime.
 # HANS PUBLISHED.tsv — the numbers THIS desk publishes that other desks consume. Read by scripts/consumer_check.py --agent HANS --from-ledger.
 # CREATED 2026-09-05. Until today this desk had NO published-figure ledger, so every consumer_check run needed the superseded value passed by hand — which means a figure I retired and forgot was structurally un-checkable. Append-only; NEVER edit or delete a prior row (the superseded values ARE the instrument).
 # `vectors` (added 2026-09-05) declares which VX row is the METRIC SURFACE for each metric. It exists because doc_audit.py C2 matched on the BARE VALUE and flagged VX-HANS-4.08 (UK CPI 2.9%) against EA_FLASH_HICP_YOY_PCT 2.9% — two different series, same digits. An unqualified identifier is a defect waiting for a reader [[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]. An EMPTY vectors cell means 'no VX surface declared' and C2 skips the row rather than guessing.
@@ -197,3 +197,7 @@ EURUSD	1.097	2026-11-18	CURRENT - Yahoo 11/18 intraday. Supersedes 1.110 [11/11]
 EA_CORE_HICP_YOY_PCT	2.5	2026-11-06	PRIOR - Sept FINAL 2.5 (2-16102026-AP) and Oct flash 2.5e, carried in STATUS and VX before this ledger row existed; recorded so the 2.6 below has a predecessor.	VX-HANS-4.11
 EA_CORE_HICP_YOY_PCT	2.6	2026-11-18	CURRENT - Oct FINAL, Eurostat 2-18112026-ap. HANS-T-16 WATCH FIRED (HANS-F-008). Supersedes 2.5.	VX-HANS-4.11
 UK_CORE_CPI_YOY_PCT	2.8	2026-11-18	CURRENT - ONS Oct, series DKO8. T-17 NOT-MET. Same value as Sept 2.8.	VX-HANS-4.12
+TTF_FRONT_MONTH_EUR_MWH	80.85	2026-11-19	CURRENT - NAMED TTFZ26.NYM 11/18 vendor close (WALTER's 81.11 was an earlier bar, restated); 11/19 intraday 84.45. L3 exit clock 3/5. Supersedes 85.40 [11/17].	VX-HANS-8.01
+EU_STORAGE_GAP_TO_5YR_NORM_PP	-18.00	2026-11-19	CURRENT - asof = pull date; REFERS TO gas day 2026-11-17. Median basis -20.79. Supersedes -18.01 [gas day 11/16].	VX-HANS-8.07
+FRANCE_UST_HOLDINGS_USD_BN	332.0	2026-09-30	CURRENT - TIC September 2026, Treasury slt_table5 (PRIMARY); net sales -25.7, YELLOW (<350). Supersedes 363.4 [Aug].	VX-HANS-1.05
+UK_UST_HOLDINGS_USD_BN	985.8	2026-09-30	CURRENT - TIC September 2026, Treasury slt_table5 (PRIMARY). Table 5 now prints Aug at 994.5, not the 1009.5 previously carried: unresolved. Supersedes 1009.5.	VX-HANS-1.01

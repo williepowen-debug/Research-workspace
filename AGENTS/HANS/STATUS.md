@@ -16,7 +16,7 @@
 - 🟠 **UK:** Oct CPI 3.6, **core 2.8** (second month) → `T-17` NOT-MET, 0.2 under. BoE 4.00%, next 12/17. UK 2Y gilt ~5% (title).
 - 🟢 **GERMANY:** Oct FINAL mfg 54.2, composite 53.4. `T-02` OPEN. ⚠️ **Drivers are defence, data centres and inventory.** Nov flash ~11/23–24.
 - 🟡 **`russia-custody-eu-holders`** (`KB-187`): no decree naming UniCredit or Raiffeisen; Japan Tobacco books ¥1,377bn on its Russian seizure (Tokyo-listed, not mine); no European listed parent named; YURI's JTI falsifier 11/28.
-- 🟡 **TIC SEPT (PRIMARY, `KB-208`):** seven European holders refreshed. **France 332.0, −31.4 m/m on net sales of −25.7 → YELLOW** (lowest in 13 months, in the same month OAT–Bund sat around 140–150bp; no inference drawn); Belgium 507.9 (first over 500); **Germany 95.3, found in Table 3 → `VX-1.07` UNFROZEN (owed #16 closed)**. ⚠️ UK Aug now prints 994.5 vs the 1009.5 I carried: unresolved.
+- 🟡 **TIC SEPT (PRIMARY, `KB-208`):** seven European holders refreshed. **France 332.0, −31.4 m/m on net sales of −25.7 → YELLOW** (lowest in 13 months, in the same month OAT–Bund sat around 140–150bp; no inference drawn); Belgium 507.9 (first over 500); **Germany 95.3, found in Table 3 → `VX-1.07` UNFROZEN (owed #16 closed)**. ⚠️ UK Aug now prints 994.5 vs the 1009.5 previously carried: unresolved.
 - 🟡 **OPS (`KB-207`):** Wellington IT payee data at ~40–50 Irish credit unions (CYPHER; no funds lost); European Commission attack claim **NOT FOUND**; UK bill +£443 from January (title).
 - ✅ **`T-12` LETTER NOT PENDING WILL** (WQ-534 B). EUR→USD funding UNMEASURED.
 - 🔴 **AGSI: A REJECTED KEY RETURNS HTTP 200 + AN EMPTY ARRAY** — `fetch_eu` discriminates; re-check 2026-12-19 (owed #22).
@@ -27,8 +27,8 @@
 | Metric | Latest | Ladder / band | Source ✓ |
 |---|---|---|---|
 | **TTF front-month** | **€85.40** on named **`TTFZ26`** [11/17 vendor close, not a settlement]; 82.15 intraday 11/18; F27 82.03 [11/18 intraday] | **L3 (€100) OPEN, exit clock 2/5** (`HANS-F-007`); L1+L2 open | own pull ✓ 11/18 |
-| **EU storage gap to 5-yr norm** | **−18.01pp** (mean) / **−20.85pp** (median) | 🟠 **`HANS-F-004` OPEN**; exit >−12 ×5, clock **0/5** | **AGSI+ single-source** ✓ gas day 11/16 |
-| EU storage fill | **70.15%** — gas day 2026-11-16 (trend −0.24pp/d) | `HNS-12` needs ≤0.38pp/d to 12/31 | **AGSI+ primary** ✓ |
+| **EU storage gap to 5-yr norm** | **−18.00pp** (mean) / **−20.79pp** (median) | 🟠 **`HANS-F-004` OPEN**; exit >−12 ×5, clock **0/5** | **AGSI+ single-source** ✓ gas day 11/17 |
+| EU storage fill | **69.95%** — gas day 2026-11-17 (trend −0.20pp/d) | `HNS-12` needs ≤0.38pp/d to 12/31 | **AGSI+ primary** ✓ |
 | Germany fill | 58.50% C — gas day 2026-11-09, **not re-read 11/18** | `HNS-15` needs ≤0.306pp/d to 3/31 | AGSI+ primary (11/11) |
 
 📄 **Winter read 10/29 → `research/2026-10-29_TTF_100_WINTER_READ.md`:** EU end-winter 12.6–37.7% on past drawdowns; Germany 29% to dry (crude templates). Weather lean MILD (C3S, secondary); tail = Jan/Feb cold; FT 11/14 "record polar vortex breakdown" (title, AEOLUS's). No utility cash stress: since 9/30 E.ON +11.3%, Verbund +7.9%, Engie +8.8%, RWE −1.8%, Fortum −2.4%, EnBW −3.8% vs DAX +2.7% (`KB-200`).
@@ -79,7 +79,7 @@
 | **HNS-13** | ECB deposit rate ≥2.75 at the 12/17 decision | **70%** | 2026-12-17 | **OPEN.** `T-16` fired 11/18; Vujcic, Nagel, Lane lean December. No re-mark rule; not re-marked |
 | **HNS-11** | France–Germany 10Y does **NOT** print >200.0bp before 12/31 | **75%** | 2026-12-31 | 🟢 **OPEN.** |
 | **HNS-08** | Bund does **NOT** close ≥4.00% before Dec 31 | **70%** | 2026-12-31 | 🟢 **OPEN.** AAA proxy 3.425 |
-| **HNS-12** | EU storage ≥53.0% on gas day 12/31 | **45%** | 2027-01-04 | **OPEN.** 70.15 [11/16]; at −0.24pp/d → ~59, at the earlier −0.39 → ~53: drift is slower |
+| **HNS-12** | EU storage ≥53.0% on gas day 12/31 | **45%** | 2027-01-04 | **OPEN.** 69.95 [11/17]; at −0.20pp/d → ~61, at the earlier −0.39 → ~53: drift is slower |
 | **HNS-15** | Germany storage ≥15.0% on gas day 2027-03-31 | **55%** | 2027-04-05 | **OPEN.** 58.50 [11/09], not re-read |
 | **HNS-16** | Named-front TTF closes **≥ €100.00** on any session 11/20–12/30 (PROJECTION) | **35%** | 2027-01-04 | **OPEN, registered 11/19.** 80.85 [11/18]; needs +18%; driftless barrier ~40–49%, marked down |
 
