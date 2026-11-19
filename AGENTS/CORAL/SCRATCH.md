@@ -1,6 +1,6 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-11-19 (Thu) 10:34 → 10:4x ET — **coral-aj**, Will's word (PROME prome-36 chat 10:21 ET: "lets wake CORAL for the continued flooding"), task letter 10:34 ET. Opus 5.5 in Claude Code, laptop. Boot: root CLAUDE.md and local CLAUDE.md (harness-injected), AGENTS.md, USER.md, COMPLETION_SPEC (delivery + WQ-696) read explicitly; STATUS, SCRATCH, THESIS read whole; LESSONS and MEMORY by headers/rules; boot.py --quick; corrections rc 1 → two NO-OP receipts → rc 0. **Pull NOT run:** tree held AEOLUS, ISHM, LIQUID, PROME tracked changes (AEOLUS staged renames in the shared index) — rebase pull would be refused; fetch: HEAD 11 ahead, 0 behind origin. **Holding for PROME's closeout ask; not pushed.**
+**Session:** 2026-11-19 (Thu) 10:34 → 10:4x ET — **coral-aj**, Will's word (PROME prome-36 chat 10:21 ET: "lets wake CORAL for the continued flooding"), task letter 10:34 ET. Opus 5.5 in Claude Code, laptop. Boot: root CLAUDE.md and local CLAUDE.md (harness-injected), AGENTS.md, USER.md, COMPLETION_SPEC (delivery + WQ-696) read explicitly; STATUS, SCRATCH, THESIS read whole; LESSONS and MEMORY by headers/rules; boot.py --quick; corrections rc 1 → two NO-OP receipts → rc 0. **Pull NOT run:** tree held AEOLUS, ISHM, LIQUID, PROME tracked changes (AEOLUS staged renames in the shared index) — rebase pull would be refused; fetch: HEAD 11 ahead, 0 behind origin. **Closed out on PROME prome-36's ask (10:45 ET); not pushed (PROME pushes).**
 **Previous:** 2026-11-17 coral-ai (Amendment 3 + floods).
 
 ---
@@ -22,7 +22,7 @@
 ## NEXT SESSION / OWED
 
 - **Tue 11/24:** St. Johns actual crest and start of fall (COCF1), Lake Harney 11/22, DeLand 11/24.
-- **Daily → ≈12/07:** federal flood declaration; whether an amended request adds 11/18–19.
+- **Federal flood declaration (to ≈12/07):** WALTER watches; no daily CORAL wake (PROME 10:45 ET). Next CORAL wake **Tue 11/24, DOCKET L1204** (crest and fall, declaration, any loss figure, rain total with AEOLUS), or earlier on a grant or denial. Whether an amended request adds 11/18–19.
 - AEOLUS event-2 rain figure (copy, never fork). MSI #16 by 11/26. Avidia 10-Q. DR-4955 FR notice. Citizens Oct/Nov month-end. NFIP 12/11. FL Realtors Nov 12/16. Space Coast MLS Nov ≈mid-Dec.
 - Read the FDEM request letter itself; Brevard and Palm Bay December agendas (appropriations, reserve draws, borrowing).
 - Still awaiting Will's word (since 11/06): DATA_SOURCES line for sec_contact.py; VX_Vectors catch-up.
