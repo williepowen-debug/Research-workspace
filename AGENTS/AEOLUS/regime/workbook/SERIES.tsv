@@ -121,3 +121,7 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-11-04	nino34_weekly	3.3	degC	CPC-wksst9120.for	2026-11-11 09:45 ET	week centred 04NOV2026; from +3.4 (28OCT). Nino-1+2 +5.6, Nino-3 +4.4, Nino-4 +1.5
 2026-11-11	u10_60n_gfs_anl_00z	-1.92	m/s	NOMADS-GFS-0p25-anl	2026-11-11 09:45 ET	zonal mean exact 60N, 1,440 lon; 30 hPa +2.95, 50 +6.18, 100 +9.31; sha256 13b40564736a20a0; 00Z 11/7-11/10 = +2.53/+1.74/+2.16/+0.69 at 10 hPa
 2026-11-11	u10_60n_gfs_anl_06z	-2.71	m/s	NOMADS-GFS-0p25-anl	2026-11-11 09:45 ET	zonal mean exact 60N; 30 hPa +1.84, 50 +5.67, 100 +9.74; GFS 06Z f120 +4.73, f240 +21.13 at 10 hPa
+2026-11-14	u10_60n_gfs_anl_00z	2.49	m/s	NOMADS-GFS-0p25-anl	2026-11-19 10:16 ET	zonal mean exact 60N, 1,440 lon; 30 hPa +7.12
+2026-11-16	u10_60n_gfs_anl_00z	5.11	m/s	NOMADS-GFS-0p25-anl	2026-11-19 10:16 ET	zonal mean exact 60N, 1,440 lon; 30 hPa +7.46
+2026-11-18	u10_60n_gfs_anl_00z	9.26	m/s	NOMADS-GFS-0p25-anl	2026-11-19 10:16 ET	zonal mean exact 60N, 1,440 lon; 30 hPa +9.91
+2026-11-19	u10_60n_gfs_anl_00z	13.74	m/s	NOMADS-GFS-0p25-anl	2026-11-19 10:16 ET	zonal mean exact 60N, 1,440 lon; 30 hPa +11.64

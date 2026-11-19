@@ -1,42 +1,39 @@
 # AEOLUS → NEXUS_BRIEF (cross-agent sync)
 
-**Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
+**Purpose:** curated synthesis writeback, rewritten at closeout only when a figure, threshold, or cross-desk send or wait in it changed (NEXUS schema §4.1, WQ-719 A). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-11-11 09:45 ET (PROME catch-up wake prome-2b; LAST write before commit. Every channel re-read on live data; no score moved.)**
+**Last writeback: 2026-11-19 10:38 ET (PROME due-row wake D:L1171, prome-36; folded in the same commit as STATUS.)**
 **WAITING-FOR:**
-- **each session:** C5 exit test (AEO-15, break by 11/29) · **11/12:** CPC ENSO · **~11/15:** November 24-Month Study · **11/26:** SA CEC final · **11/30:** hurricane season end (AEO-01) · **12/02:** C6 Orange window · **12/10:** WASDE
-- CORAL's word on 24.69 in as the Florida event maximum (packet 11/11)
+- **11/26:** SA CEC final · **11/30:** hurricane season end (AEO-01) · **12/02:** C6 Orange window · **12/03:** CAP board · **12/07–08:** MWD vote on the Lower Basin implementing agreements · **12/10:** federal answer in *Nevada v. Burgum*, CPC ENSO, WASDE · **~mid-Dec:** December 24-Month Study
+- PROME's ruling path on the AEO-17 re-date draft (OND RONI prints ~early January, after the 12/20 read)
 
 ---
 
-## 🔴 RHINE — fired on the 40/180 key, deeper (score 5)
-- Complete days 11/08–10: Kaub **10.479 / 12.333 / 13.542**, Duisburg **149.531 / 144.792 / 142.260**; held every day 11/04–11/10, dark-window scan clean (KB-269). Contargo [11/11]: Kaub top row **€1,075** per 20ft, Ruhrort **€445** (from €335).
-- ⚠️ Level across the reach, not a proven traffic halt: no cargo-volume evidence after 10/30 (KB-249). European basin root, **not** ENSO. Routed earlier: CARL, HENRY.
+## 🔴 C6 — COLORADO: the cut starts 1/1 signed or not; power is the dated consequence (score 4)
+- **November 24-Month Study (11/16):** Mead below 1,035 ft from **March 2027**, low **1,014.00** (Jul 2027); Hoover capacity printed **~309 MW May–Sep 2027** vs ~1,300 MW summer 2026 (KB-280/281). Realised Mead **1,041.27**, Powell **3,540.47** [11/18]. Leg 2 NOT FIRED (min above 1,000 and 1,010). AEO-16 MISS.
+- **Deal unsigned; MWD votes 12/08** (KB-291). Unsigned on 1/1: Secretary sets the split (§5.3.A.3); no new ICS after 12/31 (§5.4); Arizona's banked-water make-whole lapses. Interior's FEIS priority model: **AZ −1,161,018 af · NV −88,982 · CA 0** vs the deal's 760/50/440 (KB-292). ⚠️ The ROD says the model does not decide the split; Arizona disputes it.
+- WQ-704 doc: `research/2026-11-19_lake-mead-jan-1-2027-unsigned-agreement.md`. Routed: TERRY (handoff, no vehicle named), WATT (Hoover capacity).
 
-## 🟡 VORTEX (C3) — second dip, still no reversal below 10 hPa; UNG card ended 11/07
-- GFS `.anl` 10 hPa 60N **−1.92** [11/11 00Z], **−2.71** [06Z], the event low; 30 hPa **+1.84**, never below 0; forecast **+21** by day 10 (KB-271).
-- TERRY's R1 climatology puts 30 hPa ~12–15 m/s under normal: the weakening is deep, it has not flipped lower down. CPC 6-10: cold before 11/16, then mostly above normal (KB-278). No US-cold signal. Routed: TERRY (answer, no card owed).
+## 🟠 RHINE — EXITED (score 5→4)
+- The 40/180 test fails from the window ending 11/13; fired 11/04–11/12. Kaub **60.8 / 66.9 / 94.6**, Duisburg **201.2 / 211.5 / 253.6** [11/16–18] (KB-279). AEO-15 HIT. Routed: CARL, HENRY.
+- ⚠️ Water-level exit only: Contargo surcharges and Mississippi/Panama not re-read 11/19; 3 is on the table after that read.
 
-## 🔴 C6 — water still rising, deal unsigned
-- Mead **1,040.21**, Powell **3,539.30** [11/10]; inflow pulse over (KB-270). AEO-10 80%, margin 5.21 ft.
-- Milestone **YELLOW** since 11/02; FR 0 Reclamation documents 11/05–11/11. ⚠️ Docket unread 11/11 (403), absence is not proof.
-
-## 🟡 C1 / C2 / C4 / ENSO / Florida
-- **ENSO:** weekly Niño-3.4 **+3.3** [04NOV] (KB-272); ONI ASO +2.46. **C1:** none expected 7 d, Invest 94 extratropical (KB-274). **C2:** USDA 11/10 SA corn **15,000 kt (−8.65%)**, Aus wheat **32,500 (−5.98%)**, not fired (KB-273).
-- **Florida / Georgia:** Oct 31–Nov 3 FL rain max **24.69 in** (WPC prelim, Valkaria Airport / near Malabar), bases kept separate (KB-275), CORAL holds the one number. DR-4955 IA in all 8 counties; OIR **68,071 claims / $735.5M** [day 28] = CORAL's (KB-276). North Georgia 1-in-1000 rain, no insured figure (KB-277); new theme combo:el-nino-winter-rain.
+## 🟡 ENSO / VORTEX / C1 / C2 / C4
+- **ENSO:** CPC 11/12 historic (RONI ≥2.5) **~60%** for OND/NDJ (from 83/70); weekly Niño-3.4 **+3.2** [11NOV] (KB-284). **Vortex rebuilt:** 10 hPa 60N **+13.74** [11/19 00Z] (KB-286).
+- **C1:** no system read today; season ends 11/30. **C2:** SA corn 15,000 kt (−8.65%), next grade 12/10 WASDE. **C4/Florida:** St. Johns at Cocoa major flood 17.11 ft [11/18]; 24.69 in stays the one rain figure (CORAL) (KB-287/288).
 
 ## CONVERGENCE SNAPSHOT
 | Ch | Score | One line |
 |---|---|---|
 | C1 | 2 🟡 | no Gulf/FL system; channel-kill resolves 11/30 |
 | C2 | 2 🟡 | SA corn −8.65%, short of −15% |
-| C3 | 2 🟡 | outlook warm; vortex deep but not reversed below 10 hPa |
+| C3 | 2 🟡 | outlook warm; vortex rebuilt |
 | C4 | 2 🟡 | rain and tide not band inputs |
-| C5 | 5 🔴🔴 | fired, deeper, 11/08–10 on 40/180 |
-| C6 | 4 🔴 | water up, deal unsigned, Yellow |
-**Composite 17/30 · fired 1/6 · moved 0 since 11/05.**
+| C5 | 4 🔴 | Rhine exited 11/13; legs owed a re-read |
+| C6 | 4 🔴 | deal unsigned; Mead path below 1,035 from March |
+**Composite 16/30 · fired 0/6 · moved 1 since 11/11 (C5 5→4).**
 
 ## WHAT NEXUS/PROME SHOULD KNOW
 - Root independence: C5-Rhine (European basin) · ENSO cluster (C1/C2/C3/C5-Panama/C6) · coastal (wind + sea level) are separate roots.
-- **The C6 conditional still stands:** execution moves leg 2 to the 1,010 line; the November study decides whether it fires.
-- **Nothing here is a trade.**
+- **The Hoover consequence does not depend on the signature; the water split does.** Count them as one C6 root, two legs.
+- **Nothing here is a trade**; TERRY holds the WQ-704 handoff.

@@ -1,3 +1,5 @@
 receipt_date	correction_id	action	note
 2026-10-08T15:53Z	COR-20260910-08	NO-OP	AEOLUS carries 6,831 MW only as the 2028/29 BRA shortfall (STATUS C3; KB-AEO-034) - correct meaning; merged sentence never propagated. Receipted 2026-10-08 aeolus-1008b.
 2026-10-22T02:25Z	COR-20261012-15	APPLIED	artifact=AGENTS/AEOLUS/workbook/KB.tsv#KB-AEO-207; validation_ref=AGENTS/DEWEY/output/2026-10-12_dr4-storage-rerun-hns07.md#DR-4; scope=KB-AEO-057 borrowed DR-4 August pace figure (1.49x) marked superseded - AEOLUS content unchanged; 
+2026-11-19T15:15Z	COR-20261117-02	NO-OP	scope=AEOLUS carries no Credit Acceptance settlement figure (grep 11/19); 
+2026-11-19T15:15Z	COR-20261111-14	NO-OP	scope=AEOLUS carries no SEC enforcement figure, card 004 item not in any AEOLUS file (grep 11/19); 

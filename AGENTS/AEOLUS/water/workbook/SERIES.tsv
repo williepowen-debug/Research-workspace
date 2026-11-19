@@ -1172,3 +1172,35 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-11-08	memphis_stage	-3.251	ft	NOAA-NWPS-MEMT1	2026-11-11 09:45 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
 2026-11-09	memphis_stage	-2.54	ft	NOAA-NWPS-MEMT1	2026-11-11 09:45 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
 2026-11-10	memphis_stage	-2.295	ft	NOAA-NWPS-MEMT1	2026-11-11 09:45 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-11	kaub_stage	17	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 17.229 (grade on unrounded)
+2026-11-12	kaub_stage	39	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 39.229 (grade on unrounded)
+2026-11-13	kaub_stage	66	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 65.698 (grade on unrounded)
+2026-11-14	kaub_stage	70	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 70.271 (grade on unrounded)
+2026-11-15	kaub_stage	60	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 59.812 (grade on unrounded)
+2026-11-16	kaub_stage	61	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 60.833 (grade on unrounded)
+2026-11-17	kaub_stage	67	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 66.865 (grade on unrounded)
+2026-11-18	kaub_stage	95	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 94.562 (grade on unrounded)
+2026-11-11	duisburg_ruhrort_stage	145	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 144.917 (grade on unrounded)
+2026-11-12	duisburg_ruhrort_stage	151	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 151.198 (grade on unrounded)
+2026-11-13	duisburg_ruhrort_stage	156	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 155.583 (grade on unrounded)
+2026-11-14	duisburg_ruhrort_stage	171	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 170.583 (grade on unrounded)
+2026-11-15	duisburg_ruhrort_stage	192	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 192.115 (grade on unrounded)
+2026-11-16	duisburg_ruhrort_stage	201	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 201.188 (grade on unrounded)
+2026-11-17	duisburg_ruhrort_stage	211	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 211.469 (grade on unrounded)
+2026-11-18	duisburg_ruhrort_stage	254	cm	WSV-PEGELONLINE	2026-11-19 10:16 ET	BASIS=DAILY_MEAN local day n=96; unrounded 253.635 (grade on unrounded)
+2026-11-11	mead_elev	1040.48	ft	USBR-921-49	2026-11-19 10:16 ET	daily
+2026-11-12	mead_elev	1040.71	ft	USBR-921-49	2026-11-19 10:16 ET	daily
+2026-11-13	mead_elev	1040.86	ft	USBR-921-49	2026-11-19 10:16 ET	daily
+2026-11-14	mead_elev	1041.0	ft	USBR-921-49	2026-11-19 10:16 ET	daily
+2026-11-15	mead_elev	1041.14	ft	USBR-921-49	2026-11-19 10:16 ET	daily
+2026-11-16	mead_elev	1041.16	ft	USBR-921-49	2026-11-19 10:16 ET	daily
+2026-11-17	mead_elev	1041.23	ft	USBR-921-49	2026-11-19 10:16 ET	daily
+2026-11-18	mead_elev	1041.27	ft	USBR-921-49	2026-11-19 10:16 ET	daily
+2026-11-11	powell_elev	3539.48	ft	USBR-919-49	2026-11-19 10:16 ET	daily
+2026-11-12	powell_elev	3539.64	ft	USBR-919-49	2026-11-19 10:16 ET	daily
+2026-11-13	powell_elev	3539.78	ft	USBR-919-49	2026-11-19 10:16 ET	daily
+2026-11-14	powell_elev	3539.85	ft	USBR-919-49	2026-11-19 10:16 ET	daily
+2026-11-15	powell_elev	3539.99	ft	USBR-919-49	2026-11-19 10:16 ET	daily
+2026-11-16	powell_elev	3540.13	ft	USBR-919-49	2026-11-19 10:16 ET	daily
+2026-11-17	powell_elev	3540.25	ft	USBR-919-49	2026-11-19 10:16 ET	daily
+2026-11-18	powell_elev	3540.47	ft	USBR-919-49	2026-11-19 10:16 ET	daily

@@ -96,3 +96,9 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-11T14:45Z	SIG-W-20261110-007	info-only	INBOX_WALTER	NASS corn 179.6, no fertilizer cause; US context only for C2 (the El Nino band is SA/Aus). KB-AEO-273.
 2026-11-11T14:45Z	SIG-W-20261111-004	noted	INBOX_WALTER	NWS Miami strong El Nino winters ~3x severe reports in South Florida; logged to combo:el-nino-winter-rain, KB-AEO-277.
 2026-11-11T14:45Z	SIG-W-20261111-008	acted	INBOX_WALTER	24.69 in max reconciled as basis (1) in KB-AEO-275: same figure WPC list names near Malabar; CORAL packet 11/11 for the FL one number. 9 vs 3.16 severe reports logged KB-AEO-277.
+2026-11-19T15:25Z	SIG-W-20261111-014	info-only	INBOX_WALTER	SEC FY2026 correction; no AEOLUS figure. COR-20261111-14 receipted NO-OP.
+2026-11-19T15:25Z	SIG-W-20261114-006	acted	INBOX_WALTER	Item 1 vortex re-read: GFS 10 hPa 60N +13.74 [11/19 00Z], rebuilt from +2.49 [11/14]; no reversal in place; UNG card ended 11/07 so no card affected. KB-AEO-286. Other items not AEOLUS.
+2026-11-19T15:25Z	SIG-W-20261116-005	noted	INBOX_WALTER	NOAA Super El Nino title logged combo:enso, KB-AEO-289.
+2026-11-19T15:25Z	SIG-W-20261117-027	noted	INBOX_WALTER	NWS api.weather.gov outage 11/17 logged as source-reliability note, KB-AEO-290.
+2026-11-19T15:25Z	SIG-W-20261118-010	info-only	INBOX_WALTER	HY OAS 343 LIQUID rule MET; credit, not AEOLUS domain.
+2026-11-19T15:25Z	SIG-W-20261119-005	noted	INBOX_WALTER	Climate row: California El Nino waves, Pacific drought declarations, titles only; combo:enso KB-AEO-289.
