@@ -3,9 +3,16 @@
 **Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #15 (11/15) 4-of-5, Cape Coral 5.74 series low, re-fire fails. Falsify grade 11/15 run 11/16: 1.5 of 6, 🟠 holds. **GSE financing leg: "not yet" — CORAL-02 FALSE (11/17).** Next: MSI #16 by 11/26; FL Realtors Nov 12/16.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-11-19 10:4x ET (Thu, coral-aj, Will's word via PROME prome-36: the continued flooding; MATERIAL: St. Johns flood of record, crest forecast 18.4 ft held to 11/24) | STATUS commit: 76b773c49f (prior: 2026-11-17 coral-ai, 4ca122d595)
+**As of:** 2026-11-19 12:0x ET (Thu, coral-ak, second touch, Will's word via PROME prome-36 + WALTER SIG-W-20261119-010; CHANGED: state emergency 14 → 21 counties incl. Broward, Miami-Dade) | STATUS commit: 8bc04253c2 (prior: 2026-11-19 coral-aj, 76b773c49f)
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## 2026-11-19 midday — SOUTH FLORIDA FLASH FLOOD · STATE EMERGENCY NOW 21 COUNTIES · STILL NO FEDERAL DECLARATION (no colour moves; evidence `STATUS_DETAIL.md` § AK; research `research/2026-11-19_south-florida-storms-11-18.md`)
+| # | What | So what / who |
+|---|---|---|
+| 1 | **Rain 11/17–19, station readings (NWS Miami PNS 641 AM 11/19, P1, preliminary):** Broward 48 h top **16.65 in** (1 N Dania Beach), 16.38 Plantation; Palm Beach **10.63** (The Acreage); Miami-Dade **9.22** (Princeton). FLL **4.18 in 11/18, daily record**; MTD 14.98 vs 2.44 normal. Not a storm total. | AEOLUS (owns any one figure; readings, not a fork) |
+| 2 | **State emergency now 21 counties: EO 26-232 signed 11/18 (P1)** adds Broward, Miami-Dade, Monroe, Duval, Flagler, Putnam, St. Johns to EO 26-227. ⛔ Supersedes "14 counties, not Broward" below. **Federal: none** (OpenFEMA 16:53Z 11/19). Authority, not money. | PROME (L784), SHADE, WALTER (overtakes its "no state declaration") |
+| 3 | **Core condo metros hit, nothing observed:** common-element flood damage falls on associations (master policies usually exclude flood) — mechanism only; no damage, assessment, claim count or spending action found. REGINALD's Seacoast trigger (damage in Martin / Palm Beach / St. Lucie) **not met** (no damage count). | REGINALD, CARL, TERRY (no-implication packet sent) |
 
 ## 2026-11-19 — FLOOD OF RECORD ON THE ST. JOHNS · NO FEDERAL DECLARATION · NO LOSS FIGURE (no colour moves; evidence `STATUS_DETAIL.md` § AJ; research `research/2026-11-19_florida-flood-record-crest.md`)
 | # | What | So what / who |
