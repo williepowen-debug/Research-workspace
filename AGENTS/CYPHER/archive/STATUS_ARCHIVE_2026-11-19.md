@@ -21,3 +21,9 @@ Rotated by CYPHER 2026-11-19 (read-cap rule 5, contiguous block). crc32 at rotat
 | CYB-INC-007 | PHP2Shell root CVEs in KEV since 10/26 | CONFIRMED (flaw level) · PRIMARY-VERIFIED | The wave root |
 | CYB-INC-030 | Capcom: 11,774,247 records (email, account data), no cards, method unpublished | CONFIRMED · PRIMARY-VERIFIED | Corrects the desk's own 10/23 read; no financial channel |
 | CYB-INC-062 | Shinkin Kyodo Center: 128 Japanese credit co-ops down about 5.5 hours 11/06 | CONFIRMED · SECONDARY (operators quoted) | Widest institution count in the ledger; operators think not cyber |
+
+## Incidents-table rows 074, 072, 071 (contiguous), rotated 2026-11-19 closeout, 825 B, crc32 be30bfb7
+
+| CYB-INC-074 | AWS US-EAST-1 11/15 06:05-09:21 ET, sign-in and connectivity, no cause stated | CONFIRMED · PRIMARY-VERIFIED | Answers card 011's "unverified"; CHK-20; no financial firm named |
+| CYB-INC-072 | Chase online-banking outage 11/16 from ~09:53 ET; JPMorgan 11/17: "a software bug in on-premise hardware systems", not cyber; other banks' delays from transactions with Chase; eased Monday night (Newsweek) | CONFIRMED (Chase) · SECONDARY | Largest US bank's online channel down under a day; not cyber on the bank's word; no shared provider |
+| CYB-INC-071 | Microsoft 365 global outage 11/12-11/14, about 24h, 70+ countries; Microsoft: network capacity upgrade, not cyber | CONFIRMED (outage) · SECONDARY (Microsoft quoted by AP) | Banks affected, none named; no payment rail named; cloud common-mode on CHK-20 |
