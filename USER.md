@@ -53,6 +53,8 @@ He thinks about agents as people with characteristic failure modes and designs w
 
 **Always look for the trade (2026-11-10 18:03 ET, verbatim):** *"yes we should always be looking to see if something is tradeable"*. A material research finding goes to TERRY for a tradeability read as part of the same work, without asking Will first; NOT-FIRED cards or a reasoned "no card" are both complete answers. Approval is unchanged: root rule #5, the $500 per card and X1 defaults (PROME's wording of the consequence; record `memory/auto/feedback_always_check_whether_a_finding_is_tradeable.md`).
 
+**Project forward (2026-11-19 12:01 ET, verbatim):** *"I think we often restrict ourselves on not saying too much based on what is visible right now.  I do want us to begin to attempt to project what we think will happen or could happen.  With understanding that we cannot predict anything with any certainty - we still want to start to be more proactive in our understanding, context, and tracking."* Findings end with a forward view: what we expect next and the main alternative, with rough odds, a horizon and the tells that would confirm or refute it, labelled as projection and kept apart from evidence. A projection moves no score, gate or trade by itself; a call worth tracking is registered as a prediction so it gets graded (PROME's wording of the consequence; record `memory/auto/feedback_project_forward_not_only_what_is_visible.md`).
+
 ## Decisions and Attention
 
 Anything requiring Will goes at the top of the message in a blockquote.
