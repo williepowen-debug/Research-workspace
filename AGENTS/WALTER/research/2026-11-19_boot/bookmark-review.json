@@ -1,0 +1,98 @@
+{
+  "schema": 2,
+  "staged_at": 1795103445.476132,
+  "items": [
+    {
+      "id": "2123191173569188292",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2123351233331081296",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2123179671336648799",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2123135665516802234",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2123112523742482501",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2123095491403526325",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2123084655775883282",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2123021778859753597",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2123064638069788769",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2123072989768159361",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2122876534151078293",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2123046888412971264",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2122929041288372363",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    }
+  ],
+  "stage_id": "480efc4dc3a34dbea52beb6386c18eca"
+}
