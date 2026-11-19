@@ -32,6 +32,7 @@ Report: [11/19 card 003](reports/2026-11-19_riyadh-pif-tower-grade-card003.md). 
 | For BRENT | Kpler via AP: Hormuz crude 8.5 mb/d through 11/16 (half of early November); all-route Mideast shipments 15 mb/d, about 64% of pre-war, from 97% in October; preliminary; BRENT's to verify (KB-525). JMIC: four attacks in 96 hours (KB-526) |
 | Rulings | WQ-720 A encoded (KB-530). WQ-701 A2 charter trim done: 51,484 → 47,607 B, history moved verbatim to `archive/CHARTER_HISTORY_2026-11-19.md`. WQ-719/721 brief rule written into charter steps 14 and the pairings line |
 | Mail | Card 003 `acted`; 010 `info-only` (HY OAS, LIQUID's); 014 `noted` (STS warning item, KB-524). PROME packets WQ-720, WQ-701 to processed. Packets PROME, BRENT, TERRY, WALTER |
+| Closeout 10:34 ET | On PROME's ask. **Step 11:** EXIT v4 §5 compared to 11/19: weekly next due 11/25 (not yet); rewrite trigger NOT fired (FAL-08 open; no fifth axis; no permanent-corridor framework; class-(iii) losses 2; 12/31 not reached); §1 0/7. **Step 12:** strike ledger swept to 11/17, 2 days behind, under the 7-day bar; the tower is outside its facilities scope; no sweep due. **Step 12b:** no live settle clock, no-op. **Step 14b:** 'not encoded' remains only in the dated 11/18 section (snapshot). Brief pinned f522ed5c8b; no push (PROME pushes) |
 
 ## November 18, second wake: WALTER card SIG-W-20261118-007
 
