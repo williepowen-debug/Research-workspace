@@ -16,8 +16,9 @@
 ### [Analysis] — VIX Spikes Can Be Artificial
 **Lesson from Aug 2024:** VIX spike to 65 was 85% bid-ask widening, not real fear. 0DTE volume dropped 26%, recovery in 3 sessions. Don't treat VIX spikes as ground truth — check the mechanism (real selling vs liquidity withdrawal).
 
-### [Analysis] — Credit Leads Equities, Not Vice Versa
-**Rule:** Never call an equity bottom until HY OAS has peaked. Credit reprices before equity every time. If someone asks "has the selloff bottomed?" — check HY OAS first, not SPX technicals.
+### [Analysis] — Credit-Primary Rule (H4): Equity Cannot Bottom Until HY OAS Peaks (untested); Credit Does Not Reliably Lead the Break
+*Heading replaced 2026-11-20 (PROME launch letter, own-charter class C4); the live rule is the `LESSONS.md` heading. The original sentence "Credit reprices before equity every time" is withdrawn: in the nine KRE/QQQ joint declines 2007–2024, HY OAS widened before the equity break in 2 of 9, median 6.5 sessions after (`PROME/reports/2026-10-23_kre-qqq-transition-signature/REPORT.md` Tables B3 and N). Original text, minus that sentence:*
+**Rule:** Never call an equity bottom until HY OAS has peaked. If someone asks "has the selloff bottomed?" — check HY OAS first, not SPX technicals.
 
 ### [Process] — Distinguish Margin Trade vs Credit Trade
 **Lesson from KRE:** Regional banks can sell off because the yield curve flattens (margin trade) or because credit quality deteriorates (credit trade). The distinction determines speed — margin trades grind, credit trades gap. Always identify which is driving the move before forecasting trajectory.

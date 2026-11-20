@@ -10,7 +10,7 @@
 
 - **[Data] — Always Pull Fresh Values**
 - **[Analysis] — VIX Spikes Can Be Artificial**
-- **[Analysis] — Credit Leads Equities, Not Vice Versa**
+- **[Analysis] — Credit-Primary Rule (H4):** Equity cannot bottom until HY OAS peaks (untested as of 2026-11-19). In the nine KRE/QQQ joint declines 2007–2024, HY OAS widened after the equity break (onset before the break in 2 of 9, median 6.5 sessions after; `PROME/reports/2026-10-23_kre-qqq-transition-signature/REPORT.md` Tables B3 and N), so a quiet credit tape is no all-clear for an equity break. Rate of change matters more than absolute level.
 - **[Process] — Distinguish Margin Trade vs Credit Trade**
 - **[Verification] — Don't Cite Own STATUS.md for Live Prices**
 - **[Verification] — Cross-Agent Estimates Need Discount**

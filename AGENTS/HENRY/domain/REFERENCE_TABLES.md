@@ -33,12 +33,14 @@ Risk parity deleverages     → T+5 to T+30
 | +50-100 bps | -5% to -10% | 0-1 session |
 | +100+ bps | -10%+ | Same day |
 
+⚠️ *Unsourced illustration (2026-11-20). The Lead Time column is contradicted for onsets by the KRE/QQQ study: HY widened before the equity break in 2 of 9 joint declines, median 6.5 sessions after (H4 as amended, `CLAUDE.md` § CORE METHODOLOGY). Do not cite it as a lead.*
+
 ## GAMMA-CUSHION VALIDITY RULE (GCVR)
 *Codified 7/6 from the mid-July-node adversarial pass. The discriminator for when "+GEX cushions equity" is TRUE vs falsely reassuring. Reusable — classify the shock BEFORE citing a gamma cushion.*
 
 > **Core rule:** Positive dealer gamma (+GEX, SPX above the flip) dampens moves that travel **ALONG the SPX price axis**. It gives **zero offset to shocks that originate OFF that axis** — rates/duration, cross-asset correlation, credit. Mis-applying "equity is cushioned" to an off-axis shock is falsely reassuring. **And a fast off-axis gap that clears the flip converts +GEX → −GEX — the cushion doesn't just vanish, it inverts to an amplifier.**
 
-**Why +GEX only cushions the SPX axis:** long-gamma dealers hedge by buying SPX dips / selling rips → mechanically dampens *intraday SPX oscillation*. That provides NO offset to (a) multiple compression from a higher discount rate (real yields/term premium up — the shock enters via the denominator, not the index price); (b) a cross-asset correlation spike (stocks AND bonds down together → risk-parity/vol-target forced de-lever = **cascade step 5** — a selling FLOW dealer gamma can't see); (c) credit-led selling (HY OAS gaps; credit leads equity 2–3 sess — gamma bounds velocity, not the trend).
+**Why +GEX only cushions the SPX axis:** long-gamma dealers hedge by buying SPX dips / selling rips → mechanically dampens *intraday SPX oscillation*. That provides NO offset to (a) multiple compression from a higher discount rate (real yields/term premium up — the shock enters via the denominator, not the index price); (b) a cross-asset correlation spike (stocks AND bonds down together → risk-parity/vol-target forced de-lever = **cascade step 5** — a selling FLOW dealer gamma can't see); (c) credit-led selling (HY OAS gaps; gamma bounds velocity, not the trend; credit does not reliably lead the equity break, H4 as amended 2026-11-20).
 
 | Shock class | Originates on | +GEX cushion | Leading vol tell | Correct read |
 |-------------|--------------|--------------|------------------|--------------|
