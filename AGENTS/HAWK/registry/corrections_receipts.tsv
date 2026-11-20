@@ -33,3 +33,4 @@ receipt_date	correction_id	action	note
 2026-11-18T15:50Z	COR-20261116-09	NO-OP	scope=HAWK held no line on the 11/13 or 11/15 Bahrain attempts before 11/18, KB-HAWK-530 was written from the FALCON corrected grade (CENTCOM two drones = Fri 11/13); 
 2026-11-18T15:50Z	COR-20261117-28	NO-OP	scope=HAWK held no Qeshm 11/17 line before 11/18, KB-HAWK-530 and STATUS say anonymous US official and TARA GAS hit twice; 
 2026-11-18T15:50Z	COR-20261118-06	NO-OP	scope=HAWK held no 11/18 Kuwait line before this session, KB-HAWK-530 and STATUS carry claimant unsettled, damage NOT ESTABLISHED, ADNOC hull probably distinct; 
+2026-11-20T16:53Z	COR-20261119-14	APPLIED	artifact=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-548; validation_ref=NONE; 

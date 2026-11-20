@@ -623,3 +623,13 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-18T15:50:24+00:00	SIG-W-20261118-006	acted	WALTER	CORRECTION read independently; COR-20261118-06 receipted NO-OP; claimant unsettled and damage NOT ESTABLISHED carried.
 2026-11-18T15:50:24+00:00	SIG-W-20261118-007	acted	WALTER	INFO card read whole; flows floors (PortWatch 16, Kpler 50%) and definitions conflict used in KB-HAWK-530/532.
 2026-11-18T15:55:26+00:00	SIG-W-20261118-009	acted	WALTER	INFO card read whole; SAM 79.6% (KB-HAWK-541) and ORACLE odds (KB-HAWK-543) already logged from PROME relays; YURI fuel-deficit and Ushakov items logged KB-HAWK-544. HAWK holds no live copy of the 62.6% August figure (grep of STATUS, brief, SCRATCH, aggregates, FALSIFICATION: none).
+2026-11-20T16:53:58+00:00	SIG-W-20261120-005	acted	WALTER	ACTION card read whole; primaries read via helpers (gov.pl PM + MON 20.11, nato.int Article 4 page, RIA MoD). Graded: no Article 4 request, no shoot-down stated, intent not established. KB-HAWK-545/547, INCURSIONS EUR-2026-021, VX EURMIL stamp; HAW-26 touched not met. Grade packet to WALTER.
+2026-11-20T16:53:58+00:00	SIG-W-20261120-011	acted	WALTER	ACTION card (added by PROME prome-77) read whole; NL Times read (Berendsen X, Russian embassy 'not targeted'); summons, Austrian damage UNVERIFIED; government.nl unreadable. KB-HAWK-546. Graded with 005.
+2026-11-20T16:53:58+00:00	SIG-W-20261119-014	acted	WALTER	Correction read whole; COR-20261119-14 receipted APPLIED -> KB-HAWK-548 (declaration adopted, no Ukraine clause).
+2026-11-20T16:53:58+00:00	SIG-W-20261119-004	noted	WALTER	INFO card read whole; superseded in part by correction 014; OSPREY/YURI own the items. KB-HAWK-548.
+2026-11-20T16:53:58+00:00	SIG-W-20261119-003	noted	WALTER	INFO card read whole; FALCON graded (office tower, production rung NOT FIRED; FALCON brief 11/19). No HAWK letter touched.
+2026-11-20T16:53:58+00:00	SIG-W-20261119-016	noted	WALTER	INFO card read whole; FALCON's Saudi civil-defence confirmation already in FALCON brief 11/19; GIBBS items not HAWK's.
+2026-11-20T16:53:58+00:00	SIG-W-20261120-008	noted	WALTER	INFO card read whole; KH Jurf al-Sakhar deadline 12:00 ET 11/20, outcome unknown at read; IRAQ-01 watch, FALCON's PMF read. KB-HAWK-549.
+2026-11-20T16:53:58+00:00	SIG-W-20261118-014	noted	WALTER	INFO card read whole; Black Sea LPG tanker war-risk headline (title only) = C3 limb-2 lead for OSPREY's 11/24-27 canvass, not countable. KB-HAWK-549.
+2026-11-20T16:53:58+00:00	SIG-W-20261118-010	info-only	WALTER	INFO card read whole; HY OAS is LIQUID's; no HAWK read.
+2026-11-20T16:53:58+00:00	SIG-W-20261119-012	info-only	WALTER	INFO card read whole; Russian bombers to Vietnam is a Polymarket-account post, unverified; logged combo:russia-force-posture KB-HAWK-549.

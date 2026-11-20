@@ -68,7 +68,7 @@ Boot and closeout are symmetric. Run closeout at every session end. Historical i
 13a-2. Record fingerprints only after both aggregates are reconciled. If source bytes change during review, capture/review the delta and repeat. Never record to hide drift.
 13b. Re-read `thesis/FALSIFICATION.md` against canonical FLOW/VX/individual prediction letters and received corrections. Preserve registered tests; update derived readings and the review stamp.
 14. Rewrite SCRATCH using `templates/SCRATCH.template.md`, preserving unfinished obligations and original dates.
-15. Refresh NEXUS_BRIEF every session under the NEXUS schema, including As of and exact STATUS commit pin.
+15. Rewrite and commit NEXUS_BRIEF at closeout only when a figure, threshold, or cross-desk send or wait in it changed; otherwise leave it untouched, with no As-of or pin refresh (NEXUS schema section 4.1, WQ-719 A). If the pin check reports the brief's pin as PIN-UNRESOLVED, correct the pin to the STATUS HEAD at that closeout and commit the brief with no other change and no new As-of (NEXUS schema section 4.1, WQ-721 A).
 16. Promote durable findings to their proper home. Follow root Git path ownership/carve-outs, root session-end 1b–1e (orphan, consumer, ledger nudge, applicable memory and claim checks), exact-path commits and safe-push. Read `docs/GIT_WORKTREE_PROCEDURES.md` before commit/pull. No force or unconditional rebase; root dirty-path overlap rules govern non-fast-forward recovery. Deliver under COMPLETION_SPEC and distinguish notification, artifact consumption and explicit closeout receipt.
 
 ### MAIL AND GIT
