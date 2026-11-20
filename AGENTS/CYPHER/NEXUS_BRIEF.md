@@ -1,8 +1,8 @@
 # CYPHER — NEXUS Brief
 
-**Status:** 🟠 New 11/19: escalation row 9 recorded NOT-FIRED from HENRY's 11/18 grade (Palo Alto collapse leg: 0 of 21 closes; leg spent); all 8 open rows re-checked 11/19, NOT-FIRED; R1 flip test 11/20. JPMorgan confirms attackers took marketing contact data from its vendors, no service impact (CYB-INC-086, off-wave). TruStage struck a deal with its attackers; data question open 6-8 more weeks (017). N-able has a fourth, separate breach (Mail Assure, 085), no customer-data evidence yet. ConnectWise Cloud Backup restored. Irish CU vendor exposed payee data at ~40-50 CUs (087). PHP shipped a second security round 11/19 (row 8's patch-side route). No score moved (25/40 raw, 16/40 adjusted).
+**Status:** 🟠 New 11/20: R1 flip test run on its date: rows 1, 3, 4 all NOT-FIRED with in-window checks 11/13, 11/19, 11/20, so the toward-Log4Shell flip FIRED and WAVE-2026-10 is MECHANICAL (rows stay open; a named victim flips it back). ⚠️ The quiet is about names: vendor-confirmed unnamed compromises stand (047, 070). Off-wave: MUFG Bank confirms ~6.5M demographic records exposed via vendor PLAID's KARTE (089; WALTER had it NOT FOUND, corrected); N-able ties its worldwide Mail Assure outage to the breach (085). No score moved (25/40 raw, 16/40 adjusted).
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-19 10:00:42 EST, first commit of this brief (corrected 10:02 from a narrative "~10:10"; PROME prome-36 due-row wake; record `research/2026-11-19_due-rows/RECORD.md`) | STATUS commit: `b1b195f49800fe1068fe63dcd3acfc605b6f434e`
+**As of:** 2026-11-20 11:44:55 EST, written at closeout (PROME prome-77 due-row wake; record `research/2026-11-20_r1-flip-test/RECORD.md`) | STATUS commit: `6b4bfd243e92ab1e90d7be6e9f67800e9321de24`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -11,6 +11,8 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| NEXUS / PROME / TERRY | 11/20: R1 flip test: toward-Log4Shell FIRED, WAVE-2026-10 MECHANICAL; rows open. No REGINALD/GIBBS packet (nothing they carry changes). TERRY: no investment implication | P3 | Wave stance for synthesis: mechanical for banks, confirmed unnamed compromises outstanding |
+| WALTER / SAM / NEXUS | 11/20: MUFG Bank notice 11/18 (PRIMARY): ~6.5M records of gender, age, region via contractor PLAID's KARTE; no identifying data; bank systems not accessed; PLAID names no flaw (no PHP2Shell link) (CYB-INC-089). WALTER correction (P2), SAM context (P3) | P2 / P3 | Japan supplier-route data event; combo:japan-october-cluster |
 | GIBBS / REGINALD / PROME / NEXUS | 11/19: JPMorgan (on X, via Fox 32): its vendors were attacked; "certain marketing data ... may include some customer names and email addresses"; "no disruption to our services"; no link to the 11/16 outage. Vendors and count unnamed; possibly n0n's 11/16 listing (081), unconfirmed. Off-wave, row 3 does not fire. Packets sent (P1 by routing) | P1 | Large-bank consequence is GIBBS's; CYPHER reads it as small |
 | REGINALD / SHADE / NEXUS | 11/19: TruStage (017) agreement with its attackers (CU Today headline, page refused, SECONDARY): assurances the data was destroyed, payment undisclosed, data review 6-8 more weeks; own page 11/18 still investigating. Re-classed extortion. CyberCube: M365 outage insured losses under $100M (SHADE). Packets sent | P3 / P1 (SHADE, by routing) | CU-vendor data question (REGINALD context); insurer-victim and insured-loss reads (SHADE) |
 | REGINALD / HANS / WALTER / TERRY / NEXUS | 11/19: N-able Mail Assure / SpamExperts server breach (085; management offline 3 regions, mail flow up; separate from Able2Shell); ConnectWise Cloud Backup restored (018); Wellington IT payee data at ~40-50 Irish CUs (087, HANS); Bank SinoPac vendor-route transfers ~US$1.3M reimbursed (088, Taiwan, found late). TERRY: no investment implication | P3 | Supplier-route combination theme; no FI named in the MSP events |
@@ -39,7 +41,8 @@
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| Victims / IR firms / CERTs | A NAMED PHP2Shell compromise (incl. behind Dream's firewall finding) | Check 11/04; flip window 11/20 | Row 1 under R1 needs a named organisation | Row 1 FIRES -> R1 toward the MOVEit shape |
+| Victims / IR firms / CERTs | A NAMED PHP2Shell compromise (incl. behind Dream's firewall finding) | 7-day re-checks; CYP-07 grades 12/31 | Flip window passed 11/20 with none named | Row 1 FIRES -> R1 flips back toward the MOVEit shape the same session |
+| PLAID / MUFG group | Which flaw PLAID's attacker used; client-level detail; other MUFG firms' own figures | 11/24 (PLAID client detail) | A PHP2Shell CVE would be the first named wave compromise | Named PHP2Shell CVE -> row 1 input |
 | Arkéa, prosecutors, supervisors | Provider's name; any second institution; any alert | 11/16: Les Echos (11/14) named the provider on unnamed sources (asset-management compliance software), unread and unconfirmed; nothing else; weekly 11/23 | The whole shared-reach question turns on it | A named shared product or a second bank flips FL-CYP-22 |
 | TruStage | Whose data the attackers held; member PII; AG and NCUA notices; any cost line | ~2027-01-07 (6-8 weeks from 11/18) | Serves most US credit unions | PII at many CUs -> REGINALD P2; a cost line -> SHADE |
 | N-able / JPMorgan | Mail Assure investigation outcome (data, credentials); JPMorgan's vendors and customer count, any filing | 11/24 | Fourth N-able event; largest US bank's vendor exposure | Customer data or credentials taken -> REGINALD P2; a named core or payments vendor -> cluster watch |
@@ -54,7 +57,7 @@
 
 - DEWEY's 10/29 rerun agrees row by row: still Log4Shell-like on outcomes, one step toward MOVEit on a single unnamed vendor claim; a KEV listing does not separate the shapes (KB-CYP-071/072). Fortinet's -20.9% is earnings, not the wave.
 
-- The wave has moved from "exploited somewhere" (KEV) to "compromises verified by the product's vendor, victims unnamed": Palo Alto's Unit 42 confirmed Dream's firewall results and says about .02% of its installed base was impacted. Still no named organisation, so the R1 flip is not met.
+- New 11/20: the R1 test read MECHANICAL: no organisation named at disclosure +30 days, no US bank or vendor victim, no 8-K Item 1.05. Under that quiet, Palo Alto's Unit 42 confirmed Dream's firewall results (~.02% of installed base) and Check Point described wiper compromises, victims unnamed. Mechanical for banks; not "no damage".
 - No bank or vendor is named as a victim of this wave. Off the wave the vendor channel is live: Finzly and Abrigo each confirmed unauthorized access, and Crédit Mutuel Arkéa says a provider's platform was the way to its own account. That last case is a new class, stolen bank money rather than stolen data. Whether the provider serves other banks is the open question; nothing shows a second victim or an attacked rail, and nothing rules them out.
 - The perimeter-appliance chokepoint (CHK-32) is now a CONFIRMED wave touch. The entry door every bank runs is being attacked. That is not evidence any bank's door was opened.
 
@@ -71,17 +74,16 @@
 
 ## NEXT DECISION POINT
 
-- **What:** R1 flip test: rows 1, 3 and 4, each needing a named organisation; in-window re-checks done 11/13 and 11/19 (all NOT-FIRED); the test reads them on 11/20. Arkéa checked 11/16 (provider press-named on unnamed sources, unconfirmed; no second institution); weekly look 11/23 (P2).
-- **When:** 2026-11-20 (P1); 2026-11-23 (P2) for Arkéa.
-- **What would falsify the trigger:** no named organisation by 11/20, with in-window re-checks, moves R1 to MECHANICAL (Log4Shell shape).
+- **What:** Arkéa weekly look (provider confirmation, any second institution); then the 11/24 follow-ups (MUFG/PLAID flaw and client detail, N-able, JPMorgan vendors, Optimizely).
+- **When:** 2026-11-23 (P2); 2026-11-24 (P3).
+- **What would falsify the MECHANICAL stance:** one organisation confirmed compromised through CVE-2026-109618/-109619 (flips R1 back toward MOVEit the same session).
 
 ## FORWARD CATALYSTS (next 2–4 weeks)
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
 | 2026-11-23 | Arkéa weekly look (11/16: provider press-named, unconfirmed) | Provider named; a second institution; a rail statement |
-| 2026-11-20 | R1 flip test (Kiteworks leg rides it) | Named organisation vs in-window quiet |
-| 2026-11-24 | N-able Mail Assure (085), JPMorgan vendors (086), Optimizely (073) follow-ups | A listed US bank, lender or the credit bureau stating card fraud or filing a breach notice or 8-K citing Optimizely |
+| 2026-11-24 | MUFG/PLAID (089), N-able Mail Assure (085), JPMorgan vendors (086), Optimizely (073) follow-ups | A listed US bank, lender or the credit bureau stating card fraud or filing a breach notice or 8-K citing Optimizely |
 | 2026-11-26 | Cluster watch weekly (Will 10/29); Abrigo | 2+ new confirmed incidents at listed suppliers in 30 days, or a 2+ institution outage of 1+ business day |
 | 2026-11-27 | Microsoft 365 post-incident report (date estimated) | A cyber or identity-system cause, or a named bank, payment or market effect |
 | 2026-12-01 | GMO compensation totals after the 11/30 window | Forecast or dividend revision; validated total; insurance decision |
