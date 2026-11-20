@@ -54,3 +54,10 @@ CISA KEV v2026.10.26 lists both PHP2Shell root CVEs (dateAdded 10/26): row 2 FIR
 - **DEWEY's "back toward Log4Shell on Dream withdrawing" route is closed for now.** Direction: one further step toward MOVEit on evidence. The test stays 11/20 with re-checks inside 11/13..11/20.
 - **Letter risk:** row 1's Sign lists "incident-response case" in a parenthetical. The R1 sentence requires a named organisation, and it governs this flip whichever way the row is read. Flagged to PROME; no letter changed.
 - **Not R1 inputs:** Arkéa (CYB-INC-059), Finzly (037) and Abrigo (060) are off-wave on all evidence held. The bank-vendor cluster watch met its count limb on Finzly and Abrigo; that is a desk watch, not an escalation row.
+
+## R1 RESULT — 2026-11-20 (the registered test, run on its date; the rule itself is unchanged)
+
+- **Toward-Log4Shell flip FIRED.** Rows 1, 3 and 4 were all NOT-FIRED at 2026-11-20, from their 2026-10-22 NOT-FIRED, each with dated re-checks inside 2026-11-13..2026-11-20 at its named instrument: row 1 on 11/13, 11/19, 11/20 (national CERT and IR primaries, Dutch NCSC alert unchanged since 23 Oct 15:43); row 3 on 11/13, 11/19, 11/20 (victim and vendor statements); row 4 on 11/13, 11/19, 11/20 (boot leg 8 LIVE; 11/20: no Item 1.05 8-K since 11/13, control 13 in 120 days). **Toward-MOVEit flip not met:** neither row 1 nor row 3 fired on or before 11/20.
+- **R1 state: MECHANICAL (Log4Shell-shaped).** Per the rule, rows stay open and nothing is closed; a row 1 FIRE after 11/20 flips the stance back the same session.
+- **Disagreement recorded (the rule applied as written):** the quiet is a quiet about NAMES. Under it sit three vendor-confirmed but unnamed compromise sets (Palo Alto/Dream ~.02% of installed base, CYB-INC-047; Check Point with a wiper, CYB-INC-070). Read: mechanical for banks, with confirmed unnamed compromises outstanding, never "no damage". The late-naming tail is graded by CYP-07 (45%, 12/31) and CYP-02 (2027-01-31).
+- No score, band or gate moved (VX 25/40 raw, 16/40 adjusted). No P1 packets owed (the MOVEit branch carries them). Evidence: `research/2026-11-20_r1-flip-test/RECORD.md`.
