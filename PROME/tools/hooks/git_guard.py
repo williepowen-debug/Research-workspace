@@ -27,6 +27,12 @@ Text vs command (8/29 PM re-cut after the RAV bypass set): heredoc bodies are dr
 A quoted string is PROSE only if it contains whitespace ("...", a commit message);
 a quoted token with no whitespace (`"."`, `"--amend"`) is an ARGUMENT and is unquoted.
 The body after `bash -c` / `sh -c` / `zsh -c` is a COMMAND and is unquoted and scanned.
+
+Heredoc expansion WARNING (WQ-713, DOCKET L1188 item 2; acceptance
+PROME/tools/tests/ACCEPTANCE_git_guard_heredoc_warn_2026-11-20.md): an UNQUOTED heredoc
+whose body the shell would expand ("$1.8B" ships as ".8B") is allowed, exit 0, with a
+JSON `additionalContext` note on stdout so the model sees it. Never a block; a block
+found on the same command wins and prints no note.
 """
 import json
 import re
@@ -124,6 +130,44 @@ def _drop_heredocs(cmd: str) -> str:
     return "\n".join(out)
 
 
+_HEREDOC_OPEN = re.compile(r"(?<!<)<<(?!<)(-?)\s*(\\|['\"])?(\w+)")
+_EXPANDS = re.compile(r"\$(?=[A-Za-z0-9_{(?$!#@*\-])|`")
+
+
+def _live_expansion(line: str):
+    """First position on `line` where the shell would expand, or None. An odd run of
+    backslashes before the sign escapes it; an even run does not."""
+    for m in _EXPANDS.finditer(line):
+        k, j = 0, m.start() - 1
+        while j >= 0 and line[j] == "\\":
+            k, j = k + 1, j - 1
+        if k % 2 == 0:
+            return m.start()
+    return None
+
+
+def heredoc_expansion_warnings(cmd: str):
+    """[(delimiter, offending line)] for each UNQUOTED heredoc whose body the shell
+    would expand. Same terminator rule as _drop_heredocs: no terminator, no heredoc.
+    A quoted delimiter ('EOF', "EOF", \\EOF) and a here-string (<<<) never warn."""
+    found, i, lines = [], 0, cmd.split("\n")
+    while i < len(lines):
+        m = _HEREDOC_OPEN.search(lines[i])
+        if m:
+            quote, term = m.group(2), m.group(3)
+            end = next((j for j in range(i + 1, len(lines))
+                        if lines[j].strip() == term), None)
+            if end is not None:
+                if not quote:
+                    hit = next((ln for ln in lines[i + 1:end]
+                                if _live_expansion(ln) is not None), None)
+                    if hit is not None:
+                        found.append((term, hit.strip()[:120]))
+                i = end
+        i += 1
+    return found
+
+
 def _unquote_or_drop(m: re.Match) -> str:
     body = m.group(1) if m.group(1) is not None else m.group(2)
     return body if not re.search(r"\s", body) else " "
@@ -185,6 +229,19 @@ def main():
             f"⛔ git_guard BLOCKED: {found}\n   command: {cmd[:200]}\n"
             "   (root CLAUDE.md § Git Protocol — this hook lints the direct forms of the prohibition)\n")
         return 2
+    try:
+        warns = heredoc_expansion_warnings(cmd)
+        if warns:
+            note = "; ".join(f"<<{t}: {ln}" for t, ln in warns[:3])
+            sys.stdout.write(json.dumps({"hookSpecificOutput": {
+                "hookEventName": "PreToolUse",
+                "additionalContext": (
+                    "git_guard WARNING (not a block, the command ran): unquoted heredoc "
+                    "with shell expansion in its body. A dollar figure or backtick was "
+                    "rewritten by the shell unless the expansion was intended. Check the "
+                    "written text; quote the delimiter (<<'EOF') for literal text. " + note)}}))
+    except Exception:
+        pass   # the warning is a courtesy: its own failure never blocks and never raises
     return 0
 
 

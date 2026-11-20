@@ -100,11 +100,52 @@ ALLOW = [
 ]
 
 
-def run(cmd):
+# 2026-11-20 heredoc expansion warning (ACCEPTANCE_git_guard_heredoc_warn_2026-11-20.md).
+# D and B are fragments so no fixture is itself a live expansion in this file's text.
+D, B = "$", "`"
+WARN = [
+    f"cat > f <<EOF\nrevenue {D}1.8B\nEOF",
+    f"cat > f <<-EOF\n\tcost {D}0\n\tEOF",
+    f"cat > f << EOF\nat {D}(date)\nEOF",
+    f"cat > f <<EOF\nrun {B}date{B}\nEOF",
+    f"cat > f <<EOF\nrevenue \\\\{D}1.8B\nEOF",           # even backslash run: still live
+    f"cat > a <<'A'\n{D}1\nA\ncat > b <<B\n{D}2\nB",        # quoted beside unquoted
+    f"cat > m.txt <<EOF\nnet {D}665.32\nEOF\n{G} commit -F m.txt -- A.md",
+    f"cat > f <<EOF\n{D}{{HOME}} and {D}NOW\nEOF",            # intended expansion also warns (declared)
+]
+QUIET = [
+    f"cat > f <<'EOF'\nrevenue {D}1.8B\nEOF",
+    f'cat > f <<"EOF"\nrevenue {D}1.8B\nEOF',
+    f"cat > f <<\\EOF\nrevenue {D}1.8B\nEOF",
+    f"cat > f <<EOF\nrevenue \\{D}1.8B and \\{B}x\\{B}\nEOF",
+    f"cat > f <<EOF\nprice in {D} terms, {D}. and {D}, and {D}\nEOF",
+    f'cat <<< "{D}x"',
+    f"grep '<<EOF' f\necho {D}HOME",                           # no terminator: not a heredoc
+    "cat > f <<EOF\nplain text\nEOF",
+    f"echo {D}HOME",
+]
+BLOCK_WINS = [
+    f"cat > f <<EOF\nrevenue {D}1.8B\nEOF\n{G} add -A",
+]
+
+
+def run_full(cmd):
     r = subprocess.run([sys.executable, str(HERE / "git_guard.py")],
                        input=json.dumps({"tool_name": "Bash", "tool_input": {"command": cmd}}),
                        capture_output=True, text=True)
-    return r.returncode
+    return r.returncode, r.stdout
+
+
+def run(cmd):
+    return run_full(cmd)[0]
+
+
+def warned(out):
+    try:
+        h = json.loads(out)["hookSpecificOutput"]
+        return h["hookEventName"] == "PreToolUse" and "WARNING" in h["additionalContext"]
+    except Exception:
+        return False
 
 
 fails = 0
@@ -118,5 +159,25 @@ for c in ALLOW:
     if rc != 0:
         fails += 1
         print("FALSE POSITIVE:", c.replace("\n", "⏎"))
-print(f"git_guard self-test: {len(BLOCK)+len(ALLOW)-fails}/{len(BLOCK)+len(ALLOW)} pass")
+for c in BLOCK + ALLOW:                       # no existing fixture gains a warning
+    if run_full(c)[1].strip():
+        fails += 1
+        print("UNEXPECTED STDOUT:", c.replace("\n", "⏎"))
+for c in WARN:
+    rc, out = run_full(c)
+    if rc != 0 or not warned(out):
+        fails += 1
+        print("NOT WARNED:", rc, c.replace("\n", "⏎"))
+for c in QUIET:
+    rc, out = run_full(c)
+    if rc != 0 or out.strip():
+        fails += 1
+        print("FALSE WARNING:", rc, c.replace("\n", "⏎"))
+for c in BLOCK_WINS:
+    rc, out = run_full(c)
+    if rc != 2 or out.strip():
+        fails += 1
+        print("BLOCK DID NOT WIN:", rc, c.replace("\n", "⏎"))
+TOTAL = 2 * (len(BLOCK) + len(ALLOW)) + len(WARN) + len(QUIET) + len(BLOCK_WINS)
+print(f"git_guard self-test: {TOTAL-fails}/{TOTAL} pass")
 sys.exit(1 if fails else 0)
