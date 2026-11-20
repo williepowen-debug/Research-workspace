@@ -1,9 +1,9 @@
 # YURI — NEXUS Brief
 
-**Status:** 🟡 Score 2/5 held (2026-11-19; YURI reads 3, put to PROME as a draft). **Shenzhen (19.11):** a published Russia–China–US "Declaration on peace" (kremlin 81303, supplement/6618): UN reform, plan to increase refined-product supply, ICC/immunities, nuclear war cannot be won; no Ukraine, NATO or European-security text. YUR-007 reads as met, grade held to 11/21. Putin (81305): truce talks on energy and sea closed after the bridge strikes; retaliation "far more painful", no object or act; land-corridor presence strengthened; softer on European security (compromises, EU invited to Moscow). JT (TDnet, issuer): Russia ≈25% of adj. OP; loss ≈¥1,377.0bn. **Pre-Shenzhen (DOCKET L1146):** Russia confirmed the RU–CN–US trilateral at three Kremlin primaries (81252 12.11, 81268 16.11, 81286 18.11), none naming nuclear arms. Ushakov 12.11 re-tabled the 2021 NATO terms (non-enlargement; no threatening weapons near Russia's borders; NATO forces back to the 1997 Founding Act configuration). Government primaries 17.11 admit Crimea-bridge damage needing construction plus freight by alternative routes (government.ru 60475), and local fuel deficits with continued product imports (Novak, 60474). New rows YUR-007 (joint trilateral document, 20%, 11/21) and YUR-008 (2021 terms restated, 60%, 11/28). Earlier: YUR-006 HIT 11/11 (JTI custody, Brier 0.09); YUR-005 HIT; YUR-004 MISS.
+**Status:** 🟡 **Score 3/5** (set 2026-11-20 by YURI, from 2; reading for 3 = announced, not yet fired: a named official's on-record threat with no executed act named as the response; 4 = such an act named, or a new coercive instrument against a NATO member; back to 2 if the bridge vow lapses unnamed at 03.12 with no new threat for 14 days, or a moratorium is agreed). **11/20 (cards SIG-W-20261120-005, -011):** no Russian state statement on the missiles in Poland at any reachable channel to 16:52Z (Kremlin; MoD, MFA, Zakharova Telegram; 215 TASS/RIA posts; mid.ru and tass.ru refused or challenged). MoD's night target list is western Ukraine (Lviv, Khodoriv, Burshtyn) plus Kyiv and Zatoka bridges, no Poland. Kyiv embassies: Tarabrin "regret", Vienna Convention, leave Kyiv, strikes continue (MFA 96580); Austria "responsibility lies entirely with Vienna" (TASS relay). Netherlands escalated via Destinus and the bridge: "legitimate target" (embassy 19.11), "taken into account in military planning" (Zakharova 20.11). Separate matters from Poland in every Russian text; targeting established for neither. **YUR-007 HIT 11/20** (Shenzhen Declaration on peace, supplement/6618; Brier 0.64 on 20%). **11/19:** Putin closed energy/sea truce talks after the bridge strikes and vowed a "far more painful" response, no object or act (81305). Earlier: YUR-006 HIT 11/11 (JTI custody, Brier 0.09); YUR-005 HIT; YUR-004 MISS. Pre-Shenzhen 11/18 detail: `research/2026-11-18_L1146_trilateral-read.md`.
 **Older deltas (10/12 operational effects, METRO/Aptar):** history; see `research/2026-10-12_*.md` and `archive/STATUS_ARCHIVE_2026-11.md`.
 **Domain:** Russian STATE ACTION and INTENT, whatever the target: decrees, seizures, mobilisation and force posture, the Kremlin political calendar. Feeder desk; never trades.
-**As of:** 2026-11-19 ET (primary fetches 2026-11-19T16:52–16:55Z: Kremlin feed, acts and supplement, pravo presidential and government blocks, government.ru, TDnet for JT) | STATUS commit: 3a5f848547; verify with `python3 scripts/brief_pin_check.py YURI`.
+**As of:** 2026-11-20 ET (primary fetches 2026-11-20T16:48–16:54Z: Kremlin feed, acts and supplement; MoD, MFA and Zakharova Telegram; TASS and RIA Telegram; log `sources/2026-11-20/FETCH_LOG.md`) | STATUS commit: ca7a843460; verify with `python3 scripts/brief_pin_check.py YURI`.
 
 ---
 
@@ -12,6 +12,7 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| WALTER (SIG-YURI-WALTER-20261120a) → HAWK / OSPREY / HANS; TERRY direct | 20.11: Russian state silent on the Poland objects (partial perimeter); embassy damage answered with regret (NL) and blame (AT); Netherlands named in "legitimate target" and "military planning" lines over Destinus and the bridge; YUR-007 HIT. | 🟡 | HAWK: reaction inputs, Poland null. OSPREY: KB-313's X relay replaced by the Russian primary words. TERRY: no investment implication from YURI's lane on its own. |
 | WALTER (SIG-YURI-WALTER-20261119a) → HANS / HAWK / BRENT / OSPREY / ZHAO; TERRY direct | 19.11: trilateral Declaration on peace published (supplement/6618; point 2 refined-product supply); Putin closes energy/sea truce talks, announces retaliation (81305, no act); JT issuer figures: Russia ≈25% adj. OP, loss ≈¥1,377.0bn, DPS ¥272 → ¥204, legal title kept. | 🟠 | WALTER's "no instrument" corrected. BRENT: products clause is not a Russian export decision (call YUR-C03). OSPREY: retaliation object is yours. TERRY: JT figure decides only whether it evaluates. |
 | PROME → TERRY / BRENT / HANS / HAWK / OSPREY | 11/18 pre-Shenzhen read: trilateral confirmed at 3 Kremlin primaries, no nuclear-arms or document named; Ushakov 12.11 re-tables the 2021 NATO terms incl. the 1997 configuration; government.ru 17.11: Crimea-bridge damage needs construction, freight by alternative routes; Novak 17.11: local fuel deficits, product imports, non-class fuel. YUR-007 20%, YUR-008 60%. | 🟡 | BRENT: state-admitted product deficit under export bans to 31.01.2027. HANS: KB-197 fact 4 baseline. HAWK: posture demand on record. OSPREY: the state's half of the bridge. |
 | TERRY (via PROME) / SAM / HANS / HAWK | Указ №817 (05.11) + №832 (06.11), bodies read: JTI Russia group ×7 (ten interests) under temporary management, no disposal or buyer clause. Japan Tobacco (TSE 2914) ¥7,769 → ¥5,562 (−28.4%, 05.11→11.11, two locked limit-down sessions). Russia ≈10% revenue / ≈25% adj. OP now ISSUER-STATED (JT 09.11 TDnet filing); MoF 37.55% still a press relay. | 🟠 | Custody track runs through the talks week; first Japanese parent on the №302 list in YURI's record. Pricing and tradeability are TERRY's; no YURI trade. |
@@ -35,14 +36,15 @@
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| Kremlin (kremlin.ru feed, supplement, acts) | Re-read of supplement/6618; Dushanbe remarks; any act behind the announced retaliation | 21.11 (late read 23.11); 28.11 | YUR-007 grade; YUR-008 (11/19 presser mixed); draft YUR-009 truce row | YUR-007 / YUR-008 HIT or MISS |
-| YURI (own 11/21 session) | Score 2 → 3 proposal with the reading for 3 written beside the handle in STATUS (PROME 11/19: held at 2 today; PROME checks no gate keys on it) | 2026-11-21 | First move of the handle since wiring | Score 3 if no executed act lands first |
+| Kremlin (kremlin.ru feed, acts) | Putin or Ushakov naming the bridge response; any restatement of a 2021 term; any act behind either | 28.11; 03.12 | YUR-008; YUR-010 | YUR-010 HIT moves the Score to 4 |
+| MFA (Zakharova weekly briefing, about 26–27.11) | Any Russian line on the Poland objects; any named measure against Destinus or the Netherlands | 27.11 | Unscored outlooks (record §6: 55% any comment, 30% a named measure by 31.12); YUR-C04 falsifier | A threat or claim on Poland breaks YUR-C04; mid.ru transcript unreadable here |
 | President (pravo presidential block) | A №302 list act removing JTI or naming a buyer; any mobilisation title | 28.11 | YUR-C01 falsifier; custody vs negotiation track | Custody track joined to the talks if JTI is released |
 | DAEDALUS | YUR-F02 grade | 11/28 | Desk premise re-test; call records YUR-C01, YUR-C02 | The zero-call branch ⇒ retire/re-merge proposal, Will rules |
 ---
 
 ## VIEW
 
+- **Two files, not one (11/20, record `research/2026-11-20_SIG-005-011_poland-embassies-state-read.md`):** Moscow handles the Kyiv embassy damage diplomatically (regret, Vienna Convention, leave-Kyiv warning) and escalates in words only against the Netherlands, through Destinus and the Crimean Bridge; Poland gets silence. Call YUR-C04: the next named Russian measure from this cluster lands on the Netherlands or Destinus, not Poland. No decree or order behind any of it; no investment implication from this lane on its own.
 - **Signed thin, shut the truce (11/19, record `research/2026-11-19_SIG-004_shenzhen-declaration-bridge-JT.md`):** Russia signed a three-power text whose only economic line pledges more refined-product supply, while its own product-export bans run to 31.01.2027 and its head of state closed the energy-strike truce the same day. The pledge is not a Russian export decision (call YUR-C03). On European security Putin moved toward process (compromises, EU to Moscow), which bears against call YUR-C02.
 - **Strain without concession (11/18, record `research/2026-11-18_L1146_trilateral-read.md`):** Russia admits energy and supply strain at its own primaries (bridge restoration commission; fuel deficits and imports) while its stated price for the US track hardened to the 2021 NATO terms, re-tabled inside the European-security architecture the US itself opened (Kushner, kremlin 81246). Trilateral by itself: no investment implication. Fuel admission: BRENT's channel (export bans run to 31.01.2027; policy-led recovery of product exports before then unlikely while deficits stand).
 - **Custody track:** no Decree-302 amendment 06.11→17.11; №817/№832 (JTI) are the latest. Rosimushchestvo sells court-seized assets (Yuzhuralzoloto ₽93bn, Domodedovo, Raven Russia), a disposal path outside №302.
@@ -59,7 +61,7 @@
 
 ## CALIBRATION
 
-- **Conviction:** direction-L · timing-L · level-n/a. Open: YUR-007 20% (joint trilateral document by 11/21; reads as met 11/19), YUR-008 60% (2021 terms restated by 11/28), YUR-009 15% (energy/sea moratorium agreed by 12/31), YUR-010 45% (Putin names an executed bridge response by 12/03). Resolved: YUR-005 60% HIT, YUR-006 70% HIT (now in the `prob` column).
+- **Conviction:** direction-L · timing-L · level-n/a. Open: YUR-008 60% (2021 terms restated by 11/28), YUR-009 15% (energy/sea moratorium agreed by 12/31), YUR-010 45% (Putin names an executed bridge response by 12/03). Resolved: YUR-007 20% HIT 11/20 (Brier 0.64, under-priced), YUR-005 60% HIT, YUR-006 70% HIT.
 - **Diverge from market by:** n/a. Russia has no investable surface.
 - **Cross-agent tensions known to me:** none open. The 008 "lifted" framing is corrected at WALTER (BOARD -016).
 - **Uncertain about:** how the 500 kt permission is administered (no public act on the complete 28.09→21.10 government perimeter); whether the №686 code list exists as a restricted act; unpublished decree numbers; the closed parts of Kremlin meetings; the 2818-р bill's content.
@@ -69,8 +71,8 @@
 
 ## NEXT DECISION POINT
 
-- **What:** YUR-007 grade (Declaration on peace published 19.11; grade 11/21); YUR-008 grade (2021 terms restated by Putin or Ushakov); YUR-F02 dated cross-channel calls (DAEDALUS grades; call records YUR-C01, YUR-C02, YUR-C03).
-- **When:** 2026-11-21 (late read 11/23) / 2026-11-28 / 2026-11-28.
+- **What:** YUR-008 grade (2021 terms restated by Putin or Ushakov); YUR-F02 dated cross-channel calls (DAEDALUS grades; call records YUR-C01 to YUR-C04); YUR-010 (Putin names the bridge response).
+- **When:** 2026-11-28 / 2026-11-28 / 2026-12-03.
 - **What would change my view:** a №302 list act carrying disposal or a buyer; a public act for the US diesel channel; a dated mobilisation instrument (no row open on it since YUR-004 closed MISS 11/02).
 
 ---
@@ -79,11 +81,10 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 2026-11-19 | Shenzhen: Xi bilateral, RU–CN–US trilateral, Putin–Trump contact; Putin to Dushanbe 19–20.11 | Kremlin readouts; YUR-007/008 |
-| 2026-11-21 | YUR-007 grade | Joint three-leader document on kremlin.ru |
+| about 2026-11-26/27 | Zakharova weekly briefing | Any Russian line on the Poland objects or a measure against Destinus/the Netherlands |
 | 2026-12-03 | YUR-010 grade | Putin or Ushakov names the bridge response on kremlin.ru |
 | 2026-12-31 | YUR-009 grade | Russian agreement to an energy/sea moratorium |
 | 2026-11-28 | YUR-008 grade; YUR-C01 falsifier date (JTI removal or buyer) | 2021 terms restated; №302 list act removing JTI |
 | 2026-11-28 | YUR-F02 desk self-falsifier re-test (DAEDALUS) | ≥3 dated cross-channel marginal actor calls |
 
-Evidence: `research/2026-11-19_SIG-004_shenzhen-declaration-bridge-JT.md` (current), `research/2026-11-18_L1146_trilateral-read.md`, `research/2026-11-11_L772_YUR-006_GRADE-and-catchup.md`, `research/2026-10-21_L432-read-and-actor-update.md` (prior).
+Evidence: `research/2026-11-20_SIG-005-011_poland-embassies-state-read.md` (current), `research/2026-11-19_SIG-004_shenzhen-declaration-bridge-JT.md`, `research/2026-11-18_L1146_trilateral-read.md`, `research/2026-11-11_L772_YUR-006_GRADE-and-catchup.md`, `research/2026-10-21_L432-read-and-actor-update.md` (prior).
