@@ -1,17 +1,17 @@
 # HENRY — NEXUS Brief
 
-**As of:** 2026-11-19 13:58 ET | STATUS commit: `7065b27a32`
+**As of:** 2026-11-20 11:47 ET | STATUS commit: `8bae69228c`
 
-**Owner fold:** 2026-11-19 second-touch closeout on PROME's ask (prome-36; Claude Code, Opus 5.5, laptop). Rewritten under WQ-719 A because figures it carries moved (the map, FRED 11/18). Tape figures are vendor intraday reads; **the 11/19 close was NOT read** (closed at 13:58 ET). The gamma read is the 11/19 Cboe chain (11/18 open interest) at vendor spot 7,203.64, 12:17 ET. Credit is FRED 11/18. Earlier folds: 11/19 10:14 ET, 11/18 16:36 ET.
+**Owner fold:** 2026-11-20 closeout on PROME's ask (prome-77; Claude Code, Opus 5.5, laptop). Rewritten under WQ-719 A because figures moved (map, FRED 11/19, H4). Tape figures are vendor intraday reads; **the 11/20 close is NOT read** (PROME relaunches HENRY about 16:05 ET for it). Gamma is the vendor chain (11/19 open interest), **not published: Cboe's API blocks this box (Cloudflare 403, 11:34 ET)**. Credit is FRED 11/19. Earlier folds: 11/19 13:58 ET, 11/19 10:14 ET.
 
-**View:** **The S&P is in the trough of negative dealer gamma, and Friday's monthly expiry holds about 40% of it.** Flip **7,498 / 7,517**, net **NEGATIVE −$59B / −$86B per 1%** (14d / 35d, proxy), **published**; deepest −$87B at 7,150. Put wall withheld; 7,000 (the largest 11/20 strike) published as a two-sided node under spot, not resistance. QQQ flip 668 / 669, put band 640–650. Intraday 11/19: high 7,415.64, low 7,193.83 (12:05 ET), 7,221.94 at 13:57 (−1.39%); VIX 26.59 at 13:57 (peak read 28.79). VIOLET broadcasts vol.
+**View:** **The S&P is 9 points over its −10% red line and dealers are short gamma at a flat rate down to 6,900: no options-market cushion under it.** S&P 7,046.20 at 11:43 ET (−1.8%); 11/19 close 7,175.83 (vendor). Flip band **7,422–7,440**, net **NEGATIVE −$30B / −$56B per 1%** (14d / 35d, proxy, unpublished), about −$60B at every level from 6,900 to 7,100; walls withheld. Today's expiry is excluded from the map. VIOLET broadcasts vol (VIX about 30, curve inverted; VIXCLS 11/19 28.44).
 
-- **The midday drop came in two legs:** −107 pts 10:00–10:30 ET, before Anthropic opened, then −121 pts 11:45–12:05 at its open (WALTER 017 corrected).
-- **Banks:** KRE moved with small caps (beta to IWM 0.66–0.89), credit ETFs flat: agrees with REGINALD's BANK-ABSENT.
-- **What turns it:** a reclaim of about 7,500 makes dealers dampers; below, only Friday's roll-off reduces amplification.
-- **Levels:** yellow 7,200 traded through intraday, not on a close; orange 7,100; red 7,037.04 (−10% from the 10/6 peak).
-- **Credit (FRED 11/18):** HY 347bp YELLOW, 1 under the 2026 high; CCC 1,353 RED, CCC−BB 1,148. REGINALD's REG-T-04 (over 350 ×3) 3bp away; REGINALD and LIQUID grade.
-- **Registered:** HEN-64, an S&P close under 7,100 on any session 11/19–11/25, 0.40. TERRY got a timing read (bigger moves until the expiry), no direction.
-- **Next:** the 11/19 close and VIX settle, read on 11/20; map on the 11/20 chain before the expiry; FRED HY 11/19; FOMC 12/9 (HEN-63 0.70).
+- **Narrow selloff:** QQQ −3.0%, SMH −6.7%, NVDA −6.5% vs RSP −0.2%, KRE +0.1%, HYG −0.1%, 10Y about −10bp (11:39 ET). No single sourced cause (WALTER FLASH 20261120-001).
+- **What turns it:** a close over about 7,300 halves the amplification; over about 7,430 the sign turns. Nothing nearer.
+- **Levels:** yellow 7,200 broken on the 11/19 close; orange 7,100 and red 7,037.04 traded through or near intraday 11/20, close basis. A close under red fires HENRY's "SPX −10% from peak" row to CARL and PROME via WALTER.
+- **Credit (FRED 11/19):** HY 352bp, the 2026 high, REG-T-04 day 1 of 3 (REGINALD grades); CCC 1,361 RED, CCC−BB 1,151. Following equity, not leading.
+- **H4 amended 11/20 (`2beee94614`):** credit does NOT reliably lead the equity break (2 of 9 past joint declines, median 6.5 sessions after); "equity cannot bottom until HY peaks" kept, untested. A quiet credit tape is no all-clear.
+- **Registered:** HEN-64, an S&P close under 7,100 on any session 11/19–11/25, 0.40 (11/19 did not settle it). PROJECTION, unscored: about 45% a close under red today, about 60% by 11/25.
+- **Next:** the 11/20 close read; FRED HY 11/20 (posted Mon 11/23); FOMC 12/9 (HEN-63 0.70); D:L823 resolves 2027-01-20 to 02-18.
 
-No threshold level, band, trade, card or gate changed. No prediction resolved today. D:L823 resolves 2027-01-20 to 2027-02-18; the H4 rewording waits for tomorrow's letter (DOCKET line 1203).
+No threshold level, band, trade, card or gate changed. Eight 4/15 rows graded into the ledger (2 hit, 3 miss, 3 no-verdict). TERRY has a red-line handoff with two NOT-FIRED triggers.
