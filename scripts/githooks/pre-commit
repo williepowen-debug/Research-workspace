@@ -9,6 +9,10 @@ cd "$root" || exit 1
 if command -v python3 >/dev/null && [ -f scripts/account_guard.py ]; then
     python3 -I scripts/account_guard.py || { echo 'pre-commit: account-number guard refused or could not run; never --no-verify' >&2; exit 1; }
 fi
+# Stamp-ahead flag (WQ-713, 2026-11-20): ADVISORY, prints only, never changes this hook's exit code.
+if command -v python3 >/dev/null && [ -f PROME/tools/staged_stamp_check.py ]; then
+    python3 -I PROME/tools/staged_stamp_check.py >&2 || true
+fi
 git diff --cached --quiet -- PROME/DOCKET.tsv 2>/dev/null && exit 0   # docket not in this commit
 command -v python3 >/dev/null || { echo 'pre-commit: Python 3 unavailable; docket rows cannot be checked' >&2; exit 1; }
 # Line-number stability (2026-10-21, Will 10/20 "ok check"): ALWAYS ON — rows are cited by L#.
