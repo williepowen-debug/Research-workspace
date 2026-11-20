@@ -12,7 +12,7 @@
 
 ## Window read (14:28–14:30 ET)
 
-*(filled after the window; see `../2026-11-20_brt33/NOTE.md`)*
+**December HO−CL at the window: $80.51/bbl** (HOZ26 3.9205 × 42 = 164.661, minus CLZ26 84.1500; vendor one-minute VWAP over [14:28,14:30) ET, captured 14:44 EST 11/20) [EST vendor proxy, not a settlement]. CLZ26 printed one positive-volume bar (14:28, 172 lots) on its last trading day, so the crude leg is thin. **$9.65 under $90.16**, down $3.48 from the 11/17 window (83.9944) and $1.59 under the 11:50 ET daily-row reading above. This is the last December-pair observation; the January pair carries the commission's forward question (the about-20% projection above is unchanged by one more December print). Capture and bars: `../2026-11-20_brt33/NOTE.md` § Context.
 
 ## 1. December crack path, 10/19 → 11/20 [vendor daily rows, EST, not settlements; `out_crack.txt`]
 
@@ -56,7 +56,7 @@
 
 | Date | Event | Source tier | Direction | What to read |
 |---|---|---|---|---|
-| **Fri 11/20 14:28–14:30 ET** | Last December-pair observation (CLZ26 expiry) | Vendor proxy | — | § Window |
+| ~~**Fri 11/20 14:28–14:30 ET**~~ ✅ read | Last December-pair observation (CLZ26 expiry): $80.51 | Vendor proxy | ↓ | § Window |
 | Mon 11/23 | EIA retail diesel and GASREGW | P | — | Pump pass-through of the crack fall |
 | Wed 11/25 | EIA WPSR week 11/20 (no holiday shift; EIA schedule read 11/19 by the routine) | P | Third build ↓ / draw ↑ | BRT-34 third print; four-week exports |
 | 11/26–11/27 | Thanksgiving: driving and flying peak | — | ± | Jet and gasoline, small for diesel |
