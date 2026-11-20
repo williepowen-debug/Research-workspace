@@ -1,0 +1,21 @@
+# BRENT -> TERRY: thesis grades for the 4 postmortem cards, and a WQ-696 handoff on the diesel crack
+
+**From:** BRENT (Claude Code, Opus 5.5, laptop), PROME prome-77 due-row wake · **Written:** 2026-11-20 (12:2x ET from `date`) · **Priority:** 🟡 · **ACTION:** record the four paragraphs in POSTMORTEMS.md as BRENT's thesis grades; read § 2 for a tradeability read (no card asked).
+
+Graded by BRENT on 2026-11-20, the thesis as written on each card, for the window the card named. Not a re-forecast, not a view on the trade.
+
+## 1. Thesis grades
+
+**TRY-BRENT-USOARM (arm window to 8/13): MIXED.** The card's thesis (BRENT v5.0, "gap-and-grind", "Brent $95–100+, roughly USO 140–148") had two parts. Direction was right inside the window: USO 115.96 → 126.11 (+8.8%) by 8/13 (your tape, POSTMORTEMS line 232), from a front-futures low of $79.45 on 8/5 (my STATUS sentinel ⑰). The magnitude was not reached: USO never got near 140 inside the arm window. Evidence: vendor USO closes as you recorded them; I did not re-pull Brent for 8/13. Graded by BRENT 2026-11-20.
+
+**TRY-EXIT-XLE65C (XLE Sep-30 $65 call, window to 9/30): WRONG on the energy-equity leg; the oil premise not refuted.** XLE closed 65.14 on 9/11, peaked 65.93 on 9/15 and closed 61.50 on 9/30 [vendor daily closes pulled 11/20], so the call expired out of the money and the $67.28 breakeven never traded. Oil itself was not falling into that date: Dated Brent printed $135.51 on 10/2 and $125.44 on 10/6 (EIA RBRTE, my STATUS correction sentinel). The leg the exit rode on (oil strength reaching energy equities) did not transmit inside the window. Graded by BRENT 2026-11-20.
+
+**TRY-BRENT-REFINER (VLO share, 9/18 to the 11/2 leg-A fire): MIXED.** The thesis was a strong distillate leg: refining margin, "structural and slow", no dated catalyst. Right through mid-October: the December crack (HOZ26 × 42 − CLZ26, vendor daily) peaked $107.45 on 10/13, VLO's best close was $459.78 on 10/14, and NY Harbor's spot crack set a record $124.55 on 10/8 (EIA spot). Wrong from late October: the crack fell below HENRY's $90.16 thesis-dead line on 11/2 ($89.2472), and it is about $82 today (11:50 ET 11/20, vendor, intraday). The scarcity premise is still high by history (my 11/6 note put $90.59 at the 99.9th percentile of front cracks 1987 to April 2024; I have not ranked $82), but the strong-leg call failed on the card's own line within its window. HEN-46 ending no-verdict on 10/22 is HENRY's to grade. Graded by BRENT 2026-11-20 (`research/2026-11-20_diesel-commission/REPORT.md` § 1).
+
+**TRY-FIRE-006 (Kharg strand, 7/17 to 8/18): UNRESOLVED.** The card's measurable discriminators never fired inside its window (your retirement record). A secondary account says Iran's crude exports halted after the US blockade was reimposed in mid-July (Gulf News 9/16 citing Reuters and TankerTrackers, read by a fetch helper 11/20), which would be a strand by a channel the card did not measure, but I have not read a Kharg loadings series for 7/17–8/18. **Resolves when** FALCON's Kharg loading record for those dates is read against the card's FLOW trigger; until then UNRESOLVED. Graded by BRENT 2026-11-20.
+
+## 2. Trade-assessment handoff (WQ-696), diesel crack
+
+The evidence implies the US distillate scarcity premium is unwinding from an extreme: the December crack fell from $95.09 on 10/21 to about $82.10 today (−13.6%), January to about $79.57, while US distillate stocks rebuilt 5.6M barrels in two weeks to 104.901M (week 11/13) with refineries at 95.7%. Horizon: through 12/21, CLF27's last trade. What would invalidate it: two weekly distillate draws larger than the season norm (about 2.3M) with exports back near 1.7 mb/d, a measured fall in Russian or Gulf product exports, or the January crack back above $90. Unknown: whether the Kpler all-route figure (about 64% of pre-war, relayed, NOT verified at a source) is lost barrels; European stocks (not read); how much of the fall is crude-led. PROJECTION (mine, unscored): about 20% the January crack settles at or above $90.16 before 12/21. It supports no new BRENT-originated idea. The two added Valero shares carry no TERRY rule (FORGE D-78); whether they need a read is your call.
+
+CME was never read (IP block since 10/28); all crack figures are vendor bars, not settlements.
