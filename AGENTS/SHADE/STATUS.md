@@ -48,17 +48,9 @@
 | **D:L185 closed** | ★ **Catalina (Athene's FABN-swap and annuity modco counterparty) is majority Apollo-owned since 2018**: FY2025 loss −$394.4M, equity $389.4M (−36.5%) vs $9.6B assets; CRAL BMA permitted practice. ACRA 1A/2A: **$2.6B ALRe revolver each, undrawn**; 2A Apollo fees $137.7M |
 | Card 007 ($85.2B AI debt) | Moody's via NYT, primary not obtained (subscription). No score. ⚠️ Athene $2.4B "xAI" (secondary) vs "Oracle-linked" (my 11/6): check at AAIA Q3 |
 
-## 0x. 2026-11-16 — DUE ROWS L240 / L184 / L185 (LIVE RAIL)
+## 0x — ROTATED 2026-11-20
 
-**Record:** `research/L240_L184_L185_Q3_READS_2026-11-16.md`. Inbox 4 → 0.
-
-| Row | Result |
-|---|---|
-| **D:L240 DLIC Q3 statutory** | **NOT POSTED** at the issuer index, read 2026-11-16 10:09 ET (Q1, Q2 2026 newest). Measured CDN upload lag: Q3-25 +2 days, Q2-26 +3 days after the NAIC due date ⇒ expect **11/17 to 11/18**. **Re-dated 2026-11-18** (re-read 11/17 after 11:00 ET, then 11/18) |
-| **D:L184 C2 withdrawal test** | **EXECUTED: C2 NOT WITHDRAWN.** Penalty +25.25 bp like-for-like (4 peers; +21.33 ex-LNC) ✅ · S1 ~$2.3B derived ✅ · **S2 34.2% ❌** ⇒ the AND fails. ⚠️ deck vendor changed (J.P. Morgan 8/7 → Bloomberg 11/9) |
-| **Q3 FI deck (posted 11/12)** | Athene T+117 vs peers 95/99/93/80. Canary: absolute wider by 7 bp, penalty narrower by 4.75 bp, S1 up, S2 down = a **mixed quarter, outside the spec's four cells, no reading**. **S3 UNAVAILABLE: the deck dropped its syndication count.** FHLB capacity $3.5B, deck basis (Q2 deck $4.4B; my 10-Q basis $3.9B, never merge). LTM FA inflows $23B: FABN 24 / FABR 31 / FHLB 45% |
-| **SHD-01** | **NO-VERDICT** by its letter (deck silent on syndication), resolved 11/16; PROME can close D:L1067 |
-| **D:L185 BMA walk** | ★ **ACRA 1A/2A FY2025 read: ~90% of each is funds withheld** (1A $44.5B of $49.0B; 2A $91.0B of $102.0B), legally owned by the cedant. Direct Level 3 ex-embedded-derivative only $194M / $161M ⇒ **the ACRA statements cannot give the Level 3 split; the route to Note 14's gap runs through the cedants.** Look-through: 2A mortgages 31.3% + ABS 21.3%; 2A withheld book +$29.9B (+49%) in 2025. **Catalina FY2025 + ACRA related-party notes still owed by 11/18** |
+Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-20.md` (crc32 `a5a385b4`, `tail -n +5`): 11/16 due rows (DLIC Q3 not yet posted; C2 NOT WITHDRAWN at +25.25 bp, S1 ~$2.3B, S2 34.2%; Q3 deck T+117; S3 UNAVAILABLE; SHD-01 NO-VERDICT; ACRA ~90% funds withheld) and the 11/16 bottom line.
 
 ## 0w / 0v / 0u / 0t / 0r / 0m — ROTATED 2026-11-18
 
@@ -167,6 +159,4 @@ Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-18.md` (crc32 `0550c8dd`, 
 
 **[2026-11-18] Delaware Life's Q3 statement shows a sales collapse, not a run.** New money from annuities and funding agreements fell 60% from a year earlier to $1.56B, while withdrawals rose only 6% from Q2, continuing a rise that began before any of the bad news; operating cash stayed positive. The cleanup is now real: regulators approved $3.8B of swaps with the parent on 10/21 and $2.7B had settled by 11/16, but the insurer gives up rated loans and takes back partnership and equity stakes, which likely cost more capital. It also paid off a $303.5M bank loan for a sister company on 9/30. Athene's FABN-swap counterparty Catalina turns out to be Apollo-owned and lost $394M last year. No score moved; no listed trade in my lane.
 
-**[2026-11-16] Delaware Life's Q3 statement is not up yet; on last year's pattern it lands Tuesday or Wednesday, so I re-dated the read to 11/18.** Athene's Q3 deck shows its 5-year funding-note spread at 117 bp over Treasuries, 25 bp wider than four peers (30 bp in August), so my C2 claim survives only because the unsecured share of its funding stack fell to 34.2%. The deck stopped saying how many public deals it has done, so that leg is now blind. Athene's two big Bermuda co-investment reinsurers turn out to hold about 90% of their assets as claims on assets that Athene's own insurers keep, so their filings cannot show the hard-to-value split. That has to come from the ceding insurers.
-
-Prior bottom lines: 11/11 and 11/6 → `archive/STATUS_ROTATED_SECTIONS_2026-11-18.md`; 10/29 → `git show cf97c133c:AGENTS/SHADE/STATUS.md`.
+Prior bottom lines: 11/16 → `archive/STATUS_ROTATED_SECTIONS_2026-11-20.md`; 11/11 and 11/6 → `archive/STATUS_ROTATED_SECTIONS_2026-11-18.md`; 10/29 → `git show cf97c133c:AGENTS/SHADE/STATUS.md`.

@@ -11,6 +11,8 @@
 - Inbox 7 → 0 (board_log 7 rows + 2 COMBO). The Delaware "misled" headline is title-only; no DOI release on the official feed ⇒ rung (3) NOT MET. COR-20261119-20 NO-OP, rc 0.
 - STATUS §0z added; §10 items 0/3d closed; §6 two forward rows. Read-cap rc 0. No trade implication (no TERRY packet).
 
+**Closeout 2026-11-20T12:01:47-05:00:** prome-77's closeout ask received by message (D:L241 RESOLVED, packet consumed). STATUS rotated: §0x and the 11/16 bottom line → `archive/STATUS_ROTATED_SECTIONS_2026-11-20.md` (crc32 `a5a385b4`, `tail -n +5`, recomputed from commit 714fd90761 and matched); STATUS 24,452 → 22,406 B, read-cap rc 0, rotation_due 0. Claim check clean. Orphan check: only BRENT's untracked dir, not mine. No auto-memory written; no figure superseded (consumer check not needed); retirement scan SKIPPED (last 11/6). Promotion scan: the 6/22 lesson "establish WHY a number cannot be sourced" recurred (the SVO count is unpublished by rule); no new lesson. NEXUS_BRIEF folded last, pinned to the closeout STATUS commit (WQ-719 A: the SVO line changed). Not pushed (PROME pushes).
+
 **NEXT SESSION, in order:**
 1. **AAIA Q3 statutory read** (PDF now in hand at sha256 `7e6abafb…`, 4,450 pp): name-level SVF II Finco, SoftBank, Oracle vs xAI $2.4B, Big Sky, FHLB collateral. Carried, still owed (dated 11/20, not done this session; not assigned).
 2. Declared-flat TRADE surface; ARI DEFM14A annex (both re-dated 11/20, not done).
