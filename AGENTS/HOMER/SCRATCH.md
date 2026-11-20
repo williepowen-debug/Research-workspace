@@ -1,6 +1,6 @@
 # HOMER SCRATCH — 2026-11-20 formal thesis grade (PROME prome-77 task letter, 11:48 ET)
 
-**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), laptop. Launched from `AGENTS/HOMER/`; root CLAUDE.md, AGENTS.md, USER.md, COMPLETION_SPEC and the desk charter read explicitly. No pull: other desks' files modified (NEXUS, YURI, PROME); origin had nothing new. No helpers spawned. Missing on this box (PROME/MACHINE_LOCAL.md): Kalshi, gh and CourtListener credentials, not needed today. mba.org refuses this box (403), used the CalculatedRisk verbatim mirror. **HOLDING after delivery, not closed out, per the letter.**
+**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), laptop. Launched from `AGENTS/HOMER/`; root CLAUDE.md, AGENTS.md, USER.md, COMPLETION_SPEC and the desk charter read explicitly. No pull: other desks' files modified (NEXUS, YURI, PROME); origin had nothing new. No helpers spawned. Missing on this box (PROME/MACHINE_LOCAL.md): Kalshi, gh and CourtListener credentials, not needed today. mba.org refuses this box (403), used the CalculatedRisk verbatim mirror. **CLOSED OUT 2026-11-20 on PROME prome-77's ask (brief 52b9eec95e). No timers or pollers running. Not pushed.**
 
 ## Done 2026-11-20
 
@@ -17,7 +17,7 @@
 
 ## Open / next
 
-- **Closeout when PROME asks:** NEXUS_BRIEF rewrite IS due (figures changed: FHA, HMI, PMMS, HOM-02/04, thesis grade) — last write-back, after STATUS; include the standing HENRY row.
+- Closeout done: NEXUS_BRIEF rewritten and pinned to 7130ac5fac. D13 is WQ-725 with Will — change nothing in A1 until he rules.
 - **~11/23–30:** ICE First Look Oct (C1; HUD ML FHA FC-start lift) · Fannie/Freddie Oct MF (C2-GSE) · Apartment List Nov (HOM-06) · Case-Shiller Sept 11/24 · new-home sales 11/25 · FMHPI Oct ~11/30.
 - **~12/01–05:** Trepp Nov MF DQ = HOM-05; does Cove at Tiburon revert?
 - **D13 amendment** sits with PROME (Will-gated change to a frozen leg).
