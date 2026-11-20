@@ -1,0 +1,53 @@
+### "sold our position"
+TOTAL {'value': 0, 'relation': 'eq'}
+### "sold our investment in"
+### "sold its investment in"
+### "sale of our investment in"
+### "sold our debt investment"
+TOTAL {'value': 0, 'relation': 'eq'}
+### "sold our debt"
+TOTAL {'value': 0, 'relation': 'eq'}
+### "sold our second lien"
+TOTAL {'value': 0, 'relation': 'eq'}
+### "sold our senior secured"
+### "realized loss" "sold the"
+TOTAL {'value': 71, 'relation': 'eq'}
+2026-11-05 | Horizon Technology Finance Corp  (HRZN, HTFC)  (CIK 0001487428) | 10-Q | 0001437749-26-035289:hrzn20260930_10q.htm
+2026-11-06 | Hancock Park Corporate Income, Inc.  (CIK 0001661306) | 10-Q | 0001661306-26-000098:ck0001661306-20260930.htm
+2026-11-12 | Starwood Real Estate Income Trust, Inc.  (SWDR, SWDS)  (CIK 0001711929 | 10-Q | 0001193125-26-457735:ck0001711929-20260930.htm
+2026-11-04 | Neostellar Capital Corp.  (NSLR, NSLRL)  (CIK 0001509470) | 10-Q | 0001493152-26-049893:form10-q.htm
+2026-10-26 | TPG RE Finance Trust, Inc.  (TRTX, TRTX-PC)  (CIK 0001630472) | 10-Q | 0001630472-26-000030:trtx-20260930.htm
+2026-11-13 | Steele Creek Capital Corp  (CIK 0001817825) | 10-Q | 0001213900-26-119533:ea0310606-10q_steele.htm
+2026-11-13 | TriLinc Global Impact Fund LLC  (TRLC)  (CIK 0001550453) | 10-Q | 0001437749-26-036754:trlc20260930_10q.htm
+2026-11-12 | BROOKFIELD REAL ESTATE INCOME TRUST INC.  (CIK 0001713407) | 10-Q | 0001713407-26-000107:oak-20260930.htm
+2026-11-03 | WILLIS LEASE FINANCE CORP  (WLFC)  (CIK 0001018164) | 10-Q | 0001018164-26-000094:wlfc-20260930.htm
+2026-10-26 | Ladder Capital Corp  (LADR)  (CIK 0001577670) | 10-Q | 0001577670-26-000055:ladr-20260930.htm
+2026-10-29 | Hercules Capital, Inc.  (HCXY, HTGC)  (CIK 0001280784) | 10-Q | 0001280784-26-000054:htgcq3202610qprintready.pdf
+2026-11-13 | KKR Private Equity Conglomerate LLC  (CIK 0001957845) | 10-Q | 0001957845-26-000099:kkr-20260930.htm
+2026-11-12 | KBS Real Estate Investment Trust III, Inc.  (KBSR)  (CIK 0001482430) | 10-Q | 0001482430-26-000048:kbsriii-20260930.htm
+2026-10-29 | Hercules Capital, Inc.  (HCXY, HTGC)  (CIK 0001280784) | 10-Q | 0001280784-26-000054:htgc-20260930.htm
+2026-11-12 | Willow Tree Capital Corp  (CIK 0001944831) | 10-Q | 0001944831-26-000033:wt-20260930.htm
+2026-11-06 | MSC INCOME FUND, INC.  (MSIF)  (CIK 0001535778) | 10-Q | 0001535778-26-000109:msif-20260930.htm
+2026-11-09 | Greystone Housing Impact Investors LP  (GHI)  (CIK 0001059142) | 10-Q | 0001193125-26-453627:ghi-20260930.htm
+2026-10-27 | ARES CAPITAL CORP  (ARCC)  (CIK 0001287750) | 10-Q | 0001628280-26-067383:arcc-20260930.htm
+2026-11-06 | Ready Capital Corp  (RC, RCD, RC-PC, RC-PE)  (CIK 0001527590) | 10-Q | 0001628280-26-071703:rc-20260930.htm
+### 8-K "sold" "of par" "loan" "realized loss"
+TOTAL {'value': 21, 'relation': 'eq'}
+2026-10-28 | Seven Hills Realty Trust  (SEVN)  (CIK 0001452477) | 8-K | 0001452477-26-000048:sevnq32026earningspresen.htm
+2026-10-29 | OFS Capital Corp  (OFS, OFSSH, OFSSO)  (CIK 0001487918) | 8-K | 0001487918-26-000090:ofs-ex99_1.htm
+2026-11-05 | PROSPECT CAPITAL CORP  (PSEC, PSEC-PA)  (CIK 0001287032) | 8-K | 0001287032-26-000312:a2027-9x30xpsecearningsrel.htm
+2026-11-04 | Trinity Capital Inc.  (TRIN, TRNI, TRNZ)  (CIK 0001786108) | 8-K | 0001193125-26-446244:trin-ex99_1.htm
+2026-11-03 | Nuveen Churchill Direct Lending Corp.  (NCDL)  (CIK 0001737924) | 8-K | 0001737924-26-000092:ncdl3q26earningspressrelea.htm
+2026-10-27 | ARES CAPITAL CORP  (ARCC)  (CIK 0001287750) | 8-K | 0001628280-26-067382:arccq3-2026exhibit991.htm
+2026-10-29 | Hercules Capital, Inc.  (HCXY, HTGC)  (CIK 0001280784) | 8-K | 0001280784-26-000055:htgcq32026release.htm
+2026-11-02 | CAPITAL SOUTHWEST CORP  (CSWC)  (CIK 0000017313) | 8-K | 0000017313-26-000166:q22027earningspresentati.htm
+2026-11-18 | Benchmark 2026-V25 Mortgage Trust  (CIK 0002155221) | 8-K | 0001539497-26-003041:exh4_4-v21psa.htm
+2026-11-02 | Benchmark 2026-V24 Mortgage Trust  (CIK 0002153060) | 8-K | 0001539497-26-002823:exh4_8-v21psa.htm
+2026-11-10 | Benchmark 2026-B44 Mortgage Trust  (CIK 0002160315) | 8-K | 0001539497-26-002914:exh4_4-v21psa.htm
+2026-11-16 | BBCMS Mortgage Trust 2026-5C43  (CIK 0002153909) | 8-K | 0001539497-26-002999:exh4_1-v24psa.htm
+2026-11-02 | Benchmark 2026-V24 Mortgage Trust  (CIK 0002153060) | 8-K | 0001539497-26-002823:exh4_1-v24psa.htm
+### 8-K "loan sale" "of par"
+TOTAL {'value': 3, 'relation': 'eq'}
+2026-11-05 | Andalusian Credit Company, LLC  (CIK 0001979306) | 8-K | 0001104659-26-123281:tmb-ex10d1.htm
+2026-10-29 | AB Private Credit Investors Corp  (CIK 0001634452) | 8-K/A | 0001193125-26-437510:d179549dex101.htm
+2026-10-26 | SL Investment Fund II LLC  (CIK 0002028686) | 8-K | 0001193125-26-431957:d187851dex101.htm

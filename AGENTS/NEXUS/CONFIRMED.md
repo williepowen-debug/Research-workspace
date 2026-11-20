@@ -9,6 +9,8 @@
 
 ## Registered test results — 2026-11-04T15:33:32-05:00
 
+**2026-11-20T11:43:46-05:00 — M-11 DOWN, n = 0** (no filed document prices an arms-length private-credit loan sale ≤ 95¢ by 11/20; 51→47 historical, number withdrawn; mechanism RESOLUTION-UNVERIFIED) · PRED-45 ❌ MISS on the same documents (one observation; a miss, recorded in PREDICTIONS) · M-08b ⚪ NEITHER (no fire; 83 historical, withdrawn). No promotion, no new C-ID. Record `research/2026-11-20_due-rows/RECORD.md`.
+
 **2026-11-09T19:39:49-05:00 — L13 C#2 EXHAUSTED** (DFII10 cell 15 2.63 [11/6], no branch, terminal; split currently un-falsifiable) · **M-04b UP HIT at cell 11/6** (VIX 28.18/25.64 ≥ 22.45×2; M-04 30→34; gamma NEGATIVE both horizons ⇒ TRUE-in-spirit). Fired legs only; records in STATUS and PREDICTIONS_MONITOR.
 
 **L16 UP HIT, observation 11/3 (cell 11), graded 11/4:** HY 344/343/340 ≥ 339×3; IG 93 vs 87 anchor ⇒ TRUE-in-spirit. Split 20/47/33→26/41/33. **M-07 DOWN HIT 11/2:** IG 94/94 ≥ 93;79→75 historical, current number withdrawn without successor. Funding-break mechanism unestablished (repo+5/+13 bp at fire). These are two letters on **one credit-price family**, not two independent roots or a new convergence C-ID. Both windows closed; L13 remains open. Record `research/2026-11-04_catchup/GRADES.json`.
