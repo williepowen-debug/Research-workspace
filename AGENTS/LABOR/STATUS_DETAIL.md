@@ -1636,3 +1636,49 @@ CPS, SA, thousands, FRED pulled 2026-09-17 (BLS Employment Situation, USDL-26-14
 ```text
 *Prior bottom line (11/5) → DETAIL § `status-rotated-20261106`.* **11/12 claims add nothing against it either:** 200,000, band B, the four-week average unchanged at 195,250, continuing claims down 20,000 to 1,697,000 (DOL 11/12). Nothing moved.
 ```
+
+<a id="status-rotated-20261120"></a>
+## § `status-rotated-20261120` — STATUS.md surfaces replaced or rotated at the 11/20 FL UR grade (verbatim; READ_CAP rotate tier, 25,026 B; PROME wake prome-77, D:L946)
+
+Replaced surfaces, as they stood at HEAD before this session:
+
+```text
+**Last Updated:** 2026-11-19 09:29 ET *(claims w/e Nov 14 graded at the DOL primary off the 11/12 card: **203,000, band B, nothing moved**; MA 197,750 (+2,000, mechanical); CC **1,763K** ends the <1,750K run at 9, record-only; charter trimmed to 47,450 B; inbox drained; LAB-22 → 32%, LAB-12 → 2%; 11/25 card frozen)* · *Prior:* 11/12 claims band B; 11/8 data catch-up → DETAIL § `status-rotated-20261119` · 🔴 **FREEZE-THAW v2 FIRED on the October jobs report (BLS USDL-26-1632): payrolls +165K against a +150K bar, Aug revised +186K, Sep revised +60K, 3-mo avg 137K; EPOP 59.3 ≥ 58.9; LEG C met 11/5 ⇒ card §3d row 1. v4/v6/v7 stood down, v17 2 → 1, score 27 → 22/80.** LAB-19 ✅ (LF +421K). T-03, T-04, T-06, T-08, T-13 and Kill A did NOT fire. *Prior:* 11/5 grades → DETAIL § `status-rotated-20261106`.
+```
+
+```text
+| FL UR | **4.4%** [Sep · obs 2026-09-01 · FRED FLUR/BLS LAUS] · 4.5 · 4.6 · 4.7 · 4.8 — 4 declines | >5.0% or 5th rise = T-11 | `5.0 − 4.4 = 0.6pp` headroom. Landed unnoticed before 10/21 boot (spine gate caught it) |
+```
+
+```text
+| LAB-23 | FL UR Oct first print below Sep in the same release | **58%** | Nov 20 | Registered 11/5. ALFRED first-print `7/11 = 63.6%` after two declines. Flat grades FALSE |
+```
+
+```text
+## EXIT RULES · vintage sweep (C1) run 2026-11-19: 4/4 rails re-read; DOL vintage rolled (11/19) ⇒ Kill B + break-confirm re-stamped; no CES/CPS or JOLTS release since 11/6 ⇒ Kill A + v2 stand on the 11/6 vintage · prior sweep 2026-11-12
+```
+
+```text
+| 📅 Nov 20 · **Wed Nov 25** · Dec 1 · ~Dec 1 · Dec 3 · ~Dec 3 · Dec 4 · Dec 8 · Dec 11 | FL UR Oct (T-11; LAB-23) · claims w/e Nov 21, Thanksgiving week (card frozen 11/19; day inferred) · JOLTS Oct (card by ~11/24) + T-07 Nov · ISM Mfg Nov · Challenger Nov (**v5 demote live**, card by ~11/26) · ISM Svs Nov · NFP Nov (card by ~11/27; LAB-18, LAB-24, v8 counter) · productivity revised (no line) · **CR expiry — a lapse halts BLS and weekly claims** | CATALYSTS rows carry the letters; R3-B cannot fire on Nov ISM, 12/3 ISM card no longer owed |
+```
+
+```text
+0. ⏰ **ARMED FOR NEXT WAKE (re-armed 2026-11-19):** ① **Fri 11/20 FL UR** (T-11 unreachable on this print; grade LAB-23, refresh the FL UR `obs` token) · **Wed 11/25 claims** off `docket/GRADING_CARD_20261125_claims.md` (frozen 11/19; day INFERRED from ALFRED 3 of 3, DOL schedule page 403 — check Thu/Fri if nothing posts), then build the w/e Nov 28 card (Thu 12/3). ② Cards owed: JOLTS 12/1 by ~11/24 · Challenger 12/3 by ~11/26 · NFP 12/4 by ~11/27, which must state T-06's U-3 referent, carry LAB-18 + LAB-24 and drop the fired v2 rows. ③ ✅ LAB-12 re-marked 11/19. ④ A re-arm or un-fire letter for v2 or v4/v6/v7 needs Will's word; nothing is written (WQ-634 A ruled 11/6). ⑤ Combination watch (`grep combo: workbook/KB.tsv`): update at every card, sweep and grade; scores nothing. ⑥ KB stale-row pass (PROME 11/16): see the 11/19 PROME packet for the count done.
+```
+
+Rotated BOTTOM LINE paragraphs (moved, not edited):
+
+```text
+**2026-11-06 — My main bearish idea, that the job market is frozen, was just stood down by the rule I wrote to test it.** Employers added 165,000 jobs in October, August was revised up to +186,000 and September to +60,000 (BLS 11/6), so the three-month average is 137,000 against a 12-month 48,000. The share of adults working rose to 59.3%, and hires have beaten separations for three months. All three legs of my kill rule are met, so I stood down the hiring-freeze, long-term-unemployment and continuing-claims vectors, and my score drops from 27 to 22 of 80; Will ruled that floor on 11/6 (WQ-634 A). **The layoffs side never changed: claims were 189,000 that week (200,000 on 11/12) and the layoffs rate 1.0%. What failed is the "nobody is hiring" half.** ⚠️ Three things could still matter: the print cleared the bar by only 15,000 and about half of first prints drop that much at the next release; people working part time involuntarily jumped 339,000 and production workers' hours fell; and September's hiring flow is preliminary until Dec 1. Long-term unemployment got worse, at 27.6%: the rule overrides that line, it does not refute it. The rule has no way to un-fire, and bringing a line back needs Will's word. The call on positions is TERRY's and Will's; the rate path stays with BOND, HENRY and ORACLE.
+
+*11/8 catch-up paragraph → DETAIL § `status-rotated-20261119`.*
+
+*Prior bottom line (11/5) → DETAIL § `status-rotated-20261106`.* **11/12 and 11/19 claims add nothing against it either:** new claims were 203,000 for the week to Nov 14 and the four-week average 197,750 (DOL 11/19), well inside the no-action range. People still on benefits jumped 70,000 to 1,763,000, the most since late August, but most of that is the seasonal adjustment (the raw count rose 43,000 when a fall was expected, and it is 9.7% below a year ago). That count moves no score here; it is the line to watch if it holds.
+```
+
+Rotated FED TRAP & THESIS section (moved, not edited):
+
+```text
+## FED TRAP & THESIS
+> **No labor-tightness premise under the hike case** (7/31), re-read 11/6. Labor is a satisfied side-constraint on wages: ECI private wages 3.1% flat, AHE +3.1% YoY. ⚠️ **My 7/31 "a benign print is not hawkish fuel, it is nothing" did not hold in pricing:** Oct +165K vs consensus 65K moved December hike odds, Polymarket 69.5 at 08:25 ET to 77.5 at 08:35 ET, within 1bp of futures (ORACLE 11/6, KB-ORC-124 to 126; consensus secondary, WALTER -017). ORACLE could not verify the Reuters "78 from 70" sentence, and about 6 of the 14-point rebound came before the print, cause not established. A repricing is not a tightness finding. Rate path → **BOND, HENRY, ORACLE**, never LABOR. History → DETAIL § `fed-trap-history`.
+```
