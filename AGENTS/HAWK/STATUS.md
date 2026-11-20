@@ -1,6 +1,6 @@
 # HAWK STATUS
 
-**Updated:** November 20, 2026, 11:58 ET (from `date`; session start 11:45 ET). PROME prome-77 task letter, class C8 wake on WALTER IMMEDIATE card SIG-W-20261120-005 (plus card 011 added by PROME). Claude Code, Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. **No mark, band, score or letter moved.** The 11/18 block below stands except where this block differs.
+**Updated:** November 20, 2026, about 11:53 ET (corrected at closeout: first typed as 11:58 from narrative, not `date`; session start 11:45 ET). PROME prome-77 task letter, class C8 wake on WALTER IMMEDIATE card SIG-W-20261120-005 (plus card 011 added by PROME). Claude Code, Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. **No mark, band, score or letter moved.** The 11/18 block below stands except where this block differs.
 
 ## November 20 — Poland missiles and Kyiv embassies (KB-545..549; grade `research/2026-11-20_SIG-005-011_poland-missiles-kyiv-embassies-grade.md`)
 
