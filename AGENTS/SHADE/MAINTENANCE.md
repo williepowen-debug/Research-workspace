@@ -4,6 +4,11 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 
 ---
 
+### 2026-11-20T12:00-05:00 — charter step 11a aligned to WQ-719 A / WQ-721 A (PROME prome-77 letter)
+
+- `CLAUDE.md` step 11a: the NEXUS_BRIEF fold now happens only when a figure, threshold, or cross-desk send or wait in the brief changed (no As-of or pin refresh otherwise); a PIN-UNRESOLVED pin is corrected to the STATUS HEAD with no other change. The ordering rule (brief last, after STATUS) still governs when a fold is due. Authority: Will WQ-719 A (2026-11-18 12:10 ET) and WQ-721 A (15:44 ET), relayed in NEXUS's wording by the prome-77 letter, which instructed this edit.
+- New research file `research/L241_SVO_OVERRIDE_COUNT_2026-11-20.md`; STATUS §0z added.
+
 ### 2026-10-21T22:16:44-04:00 — catch-up wave 1 (PROME spawn prome-56): STATUS rotation + two definition proposals
 
 - Rotated STATUS §0r, §0o, §0n and two prior BOTTOM LINE paragraphs verbatim to `archive/STATUS_ROTATED_SECTIONS_2026-10-21.md` (one added heading line; payload from line 4; crc32 `11d53b30` recomputed from the archive and matched). STATUS 26,298 → 22,642 B (under the 22,785 B rule-5 stop).

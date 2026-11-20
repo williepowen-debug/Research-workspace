@@ -14,3 +14,4 @@ receipt_date	correction_id	action	note
 2026-11-18T15:48Z	COR-20261117-12	NO-OP	scope=cyber outage list (cards 008 and 011) is CYPHER's, no SHADE artifact cites any outage or Optimizely figure; SHADE 2026-11-18 boot
 2026-11-18T15:48Z	COR-20261117-17	NO-OP	scope=no SHADE artifact cited card 014's uncorrected figures, the 2026-11-18 record cites the FSR holder sentence via corrected card 017 and BROCK KB-BRK-510; SHADE 2026-11-18 boot
 2026-11-18T15:48Z	COR-20261117-31	NO-OP	scope=weekday label only on card 014, no SHADE artifact carries the publication weekday; SHADE 2026-11-18 boot
+2026-11-20T16:58Z	COR-20261119-20	NO-OP	scope=cards 017 and 018 corrections (S&P intraday legs, Hunterbrook AMD wording, REG-36 to REG-37) change no SHADE figure, trigger or record; 

@@ -1,6 +1,6 @@
 # SHADE STATUS
 
-**Last Updated:** 2026-11-18T11:00-05:00 — PROME prome-6e wake D:L240 (DLIC Q3 READ) + D:L185 CLOSED + inbox 13 → 0, Claude Code/Opus 5.5 (§0y). No score, band, gate or threshold moved. Prior: 11/16 10:18 due rows L240/L184/L185 (§0x); 11/11 10:18 catch-up (§0w); 11/6 20:40 WQ-644 A recorded; 11/6 17:23 close refresh, **`T-SHADE-01` NOT MET at the 11/6 close, no Q3 statutory or deck posted**; 11/6 16:48 restart closeout (Q3 read, L185 legs, card 041).
+**Last Updated:** 2026-11-20T12:00-05:00 — PROME prome-77 wake D:L241 (NAIC SVO override COUNT: UNAVAILABLE by design, holder-side 0 ER of 8,567 cells) + inbox 7 → 0, Claude Code/Opus 5.5 (§0z). No score, band, gate or threshold moved. Prior: 11/18 11:00 D:L240 DLIC Q3 read + D:L185 closed (§0y); 11/16 10:18 due rows L240/L184/L185 (§0x); 11/11 10:18 catch-up (§0w); 11/6 20:40 WQ-644 A recorded; 11/6 17:23 close refresh, **`T-SHADE-01` NOT MET at the 11/6 close, no Q3 statutory or deck posted**; 11/6 16:48 restart closeout (Q3 read, L185 legs, card 041).
 **Prior sessions:** 10/21 L726/L727 proposals; 10/15 L673 first grade; 10/10 L0 drain; 10/1 W1/ARI; 8/28 Delaware Life pause. Historical chain → `archive/STATUS_PRE-ROTATION_2026-10-01.md` (32,462 B, crc32 `8f171d07`, `tail -n +5`) / `archive/STATUS_PRE-ROTATION_2026-08-28.md`.
 
 **Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` NOT MET (read 11/11, endpoint 11/10 close):** 9/24→11/10 RAW wrappers +2.62% vs managers +8.88%, both up; no dig. 10/10 owner fire stays PROVISIONAL, unconfirmed. HY 334 [11/9] (LIQUID; 2026 high 348 [11/5]), environment band YELLOW. 🆕 **11/18 DLIC Q3: new business −60% YoY, no run visible; $2.7B parent swap settled (§0y).** `T-SHADE-01` not re-read 11/16 or 11/18 (not assigned). SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.
@@ -21,6 +21,17 @@
 ⛔ **Standing rules:** the session delta lives in `research/`; STATUS carries the verdict and live rails only · never raise the budget · rotate verbatim + crc-verify (**the 10/1 banner was written with the wrong offset and the crc caught it — same 15-B defect as 8/28; run the check, never trust the banner**).
 
 ---
+
+## 0z. 2026-11-20 — D:L241 SVO OVERRIDE COUNT (LIVE RAIL)
+
+**Record:** `research/L241_SVO_OVERRIDE_COUNT_2026-11-20.md`. No grade; charter band <5 / 5–20 / >20 not applied (letter).
+
+| Read | Result |
+|---|---|
+| **Public count** | **UNAVAILABLE by design, not zero.** P&P Manual (Dec 2024 ed.) ¶149: anonymized annual summary of the PRIOR calendar year's FE removals ⇒ first count = CY2026, ~Spring 2027 NM (venue per secondaries). ¶150: 45-day per-case summaries on an "insurer accessible" location, none public found. Mayer Brown 10/15: process "fully operational", no count |
+| **Holder-side proxy** | ¶151: removed rating shows as symbol **ER** instead of FE on Schedule D. **0 ER in 8,567 designation cells**: DLIC Q1/Q2/Q3-26, AAIA Q3, AANY Q3 (FE positive control 831/1,168/106). ⚠️ Transaction slice only (Sch D Pt 3/4); held book first visible in FY2026 annual Sch D Pt 1 ~2027-03-01 |
+| **PROJECTION (unscored)** | CY2026 count small: P(≥5) ≈ 25%, P(>20) ≈ 5% at the ¶149 summary. Alternative: one batch action against a single CRP's book |
+| Delaware "misled" headline | Titles only; no DOI release on the official feed 11/20 ⇒ ladder rung (3) NOT MET |
 
 ## 0y. 2026-11-18 — DLIC Q3 READ, L185 CLOSED (LIVE RAIL)
 
@@ -103,7 +114,8 @@ Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-18.md` (crc32 `0550c8dd`, 
 | ✅ **GRADED 11/11** | **`T-SHADE-01`, endpoint 11/10 close** | Level MET through 334 [11/9], sign NOT MET (+2.62% vs +8.88%, both up) ⇒ **NOT MET, no dig**. Next eligible endpoint 11/11 close. | Done |
 | **2026-11-15** | **NAIC Fall National Meeting, Dallas** (Life RBC WG 11/15, GOES governance; offshore-reinsurance and private-credit agenda) | SECONDARY (previews; NAIC PDF 403s this box). Vector #4 watch, no letter. | Forward |
 | ✅ **READ 11/18** | **Delaware Life Q3-2026 statutory** (posted 11/17, +2 days) | Q3 inflows −60.3% YoY, surrenders +6.1% QoQ; $2.7B exchange settled (§0y). ⚠️ ≤1 of 3 months post-pause. | Done |
-| **~2027-03-01** | **DLIC FY2026 annual** | First clean post-pause year: surrenders, Schedule BA/common stock after the exchange (LP/equity received), RBC, 1001CF receivable repaid or not. | Forward |
+| **~2027-03-01** | **DLIC FY2026 annual** | First clean post-pause year: surrenders, Schedule BA/common stock after the exchange (LP/equity received), RBC, 1001CF receivable repaid or not. 🆕 + **ER symbol scan, Sch D Pt 1** (DLIC, AAIA, AANY). | Forward |
+| **~Mar 2027 (Spring NM)** | **SVO CY2026 FE-removal summary (P&P ¶149)** | First public override count; charter band gradeable only on this. | Forward |
 | **11/12 → 11/18** | **Athene Q3 deck (posted 11/12, READ 11/16 §0x)** + **AAIA Q3 statutory (posted 11/13, NOT YET READ)** | Canary placed 11/16, mixed, S3 unavailable. **AAIA Sch B/D Pt 2-4 cross-checks landing claims and AI names.** | AAIA owed |
 | **Standing / source gap** | **AG55 final2026 template / VAWG findings** | Adopted text + final2025YE template recovered10/12. Blanket public L3/PIK/PLR mandate unsupported. Final2026 revision and completed submissions unverified. | Final2026/submissions not obtained |
 | ✅ **EXECUTED 11/16** | **C2 withdrawal test (D:L184)** | +25.25 bp ✅, S1 ~$2.3B ✅, S2 34.2% ❌ ⇒ **C2 NOT WITHDRAWN** (§0x). | Done |
@@ -133,13 +145,13 @@ Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-18.md` (crc32 `0550c8dd`, 
 
 **Items carrying a lapsed 10/8 or 10/23 date below are re-dated 2026-11-20 unless marked; the conditional `T-SHADE-01` dig (#8) stays ahead of them.**
 
-0. ✅ **DLIC FY2025 annual pulled (L241), 10/1 touch 2** — ratio #1 **1.62%**; ratio #2 **GA-only9.75% floor / ≈37.2% conditional**. 🔴 **Owed: REGISTERED ABS-leg/GA denominator/perimeter definition.** Same-audit analysis completed; evidencedABS proposal delivered for PROME/Will ruling; no grade. Affiliate-contingent bonds are not the formalABS category. **NAIC SVO override COUNT still owed** (never record zero).
+0. ✅ **DLIC FY2025 annual pulled (L241), 10/1 touch 2** — ratio #1 **1.62%**; ratio #2 **GA-only9.75% floor / ≈37.2% conditional**. 🔴 **Owed: REGISTERED ABS-leg/GA denominator/perimeter definition.** Same-audit analysis completed; evidencedABS proposal delivered for PROME/Will ruling; no grade. Affiliate-contingent bonds are not the formalABS category. ✅ **SVO override COUNT delivered 11/20 (§0z): UNAVAILABLE by design until the CY2026 ¶149 summary; holder-side 0 ER of 8,567 cells, transaction slice only. D:L241 has nothing left.**
 1. 🔴 **ARI match = UNDETERMINED (31.4% strict).** Next: ① find the **~20% holder** on the ~0.8 cluster (ACRA? managed accounts? — §2.8's designees) · ② ARI DEFM14A (acc 0001193125-26-119995) for a loan-level annex · ③ AAIA FY2026 annual Schedule B for carrying value vs cost on the $265.6M non-accruing rows.
 2. ✅ **11/6:** `thesis/PREDICTIONS.tsv` created, SHD-01 to 03 registered. **F-SHADE-01 thesis falsifier written** (research record §11): test 2027-03-31 on FY2026 filings, gated on HY >300 for 30 sessions. 🔴 **Declared-flat TRADE surface still owed, re-dated 2026-11-20.**
 3. ✅ **MEMORY.md rotated 11/6.** Carry the promotion candidate: *"the opacity claim was falsified by documents in my own directory."*
 3b. **ARI DEFM14A read** (acc 0001193125-26-119995, 2026-03-23) for a loan-level annex — **re-dated 2026-11-20.**
 3c. **Illiquidity ABS leg + denominator/perimeter/vintage** for charter ratio #2 — **proposal to PROME; LAPSED 10/8; by 2026-10-23.** Same-audit GA9.75/37.24% vs total6.92/26.42%; formalABS/liquidity distinct. Proposal delivered, approval and30% grade still withheld. 🆕 **10/21: exact criterion + unknown rule DELIVERED (L726 → `research/L726_ILLIQUIDITY_BASIS_2026-10-21.md`); TSR method (L727 → `research/L727_TSR_METHOD_2026-10-21.md`): TSR UNAVAILABLE, SHADE-R/T v1 proposed. Both await Will's word via PROME WQ rows. WQ-422 Clear Spring documents are Will's hands; not chased.** ✅ **10/29: RULED A/A, ENCODED + first readings done (§0u, L781).**
-3d. **NAIC SVO override count** — **re-dated 2026-11-20** (never record zero). 🆕 **PROME re-keys D:L241 to a dated 11/20 row for this count alone (prome-2b 11/11).**
+3d. ✅ **NAIC SVO override count DELIVERED 11/20 (§0z).** Next looks: FY2026 annual Sch D Pt 1 ER scan (DLIC/AAIA/AANY, ~2027-03-01) · SVO CY2026 ¶149 summary (~Spring 2027 NM) = the first instrument the band can grade on.
 3f. **BMA entity reads:** ✅ ACRA 1A/2A 11/16; ✅ **Catalina FY2025 + ACRA related-party notes 11/18 (§0y) ⇒ D:L185 nothing owed.** ✅ Deck read 11/16, C2 executed. **AAIA Q3 (posted 11/13), by 2026-11-20:** name-level AI and SoftBank lines, FHLB collateral, 🆕 **settle Athene $2.4B: xAI (Moody's, secondary) vs Oracle-linked (my 11/6).** 🆕 **WQ-678 Changelist B** (9 optional charter trims C66–C74, DAEDALUS 11/12): deferred 11/16, none applied; take at a quiet session.
 3e. 🆕 **Guggenheim Universe lead — primary verification** once WALTER pulls the 23-page doc: DLIC Q2 Sch D (in hand) for the "Chicago-street" LLC family, then EquiTrust / Security Benefit statutory (issuer routes first). Assessment 10/10 = ADDS (§0n ③).
 4. **Delaware Life TWG implementation** — ✅ 11/18: $3.8B approved, $2.7B settled (Note 22). Next: Q4 settlement of the rest, $1.2B approval, APA approval, composition of TWG assets received (issuer quarterly disclosure page, "Affiliated Investments Reduction Update"), 1001CF repayment. FY2026 annual ~2027-03-01.
