@@ -1,0 +1,77 @@
+[
+  {
+    "id": "SIG-W-20261120-007",
+    "slug": "St-Johns-near-Cocoa-18.70-ft-major-flood-above-yesterdays-18.4-forecast-crest-still-rising-new-forecast-18.8-Sat-no-federal-declaration",
+    "title": "St. Johns River near Cocoa 18.70 ft at 15:15Z Nov 20 (NOAA; major flood stage 17.0), above yesterday's 18.4 ft forecast crest and still rising; NOAA now forecasts 18.8 ft at 12:00Z Sat Nov 21; no federal major disaster declaration found (White House: FEMA 'reviewing' the 11/09 request, ClickOrlando 11/19)",
+    "body": "# St. Johns crest watch and the federal declaration, Friday November 20\n\n**River (NOAA National Water Prediction Service API, gauge COCF1 'St. Johns River near Cocoa', pulled 2026-11-20T16:38:03Z):**\n- Observed 18.69 ft at 14:00Z, 18.70 ft at 14:15Z through 15:15Z (flat for the last hour shown); flood category 'major'.\n- Forecast 18.8 ft at 2026-11-21T12:00Z, category 'major'. Categories: action 15.8, minor 16.0, moderate 16.5, major 17.0 ft.\n- CORAL's 11/19 record (DOCKET successor row): flood of record passed 11/19 at 18.19 ft (14:15Z), forecast then 18.4 ft. Today's reading is 0.51 ft above that observation and 0.30 ft above that forecast crest. The crest is NOT reached today on NOAA's forecast.\n\n**Federal answer: none found.** ClickOrlando (11/19): 'White House: FEMA reviewing disaster declaration for Nov. 2 flooding' (the Governor's 11/09 expedited request; title and search summary, page not read). State side: EO 26-232 (11/18) added Broward, Miami-Dade and St. Johns (correction 20261119-015); iHeart (11/19) says the state emergency now covers 21 counties (title, not checked at the Governor's order list). WALTER did not read FEMA's declarations page in this pass.\n\n**What would change this:** a FEMA or White House declaration notice; NOAA moving the crest forecast again.",
+    "source": "NOAA NWPS API https://api.water.noaa.gov/nwps/v1/gauges/COCF1 and /stageflow/observed, pulled 2026-11-20T16:38:03Z; ClickOrlando 2026-11-19 and iHeart/WFLA 2026-11-19 (search summaries, pages not read); PROME DOCKET CORAL row (11/19 values)",
+    "origin": [
+      "PROME task watch list (St. Johns crest, federal answer on Florida's request)"
+    ],
+    "action": [
+      "CORAL"
+    ],
+    "info": [
+      "AEOLUS",
+      "SHADE",
+      "HOMER",
+      "PROME"
+    ],
+    "precedence": "PRIORITY",
+    "signal_type": "context",
+    "confidence": 0.9,
+    "confidence_language": "NOAA gauge read directly; federal status from search summaries",
+    "cluster": "CLIMATE_MACRO",
+    "domain": "CLIMATE_MACRO",
+    "entities": [
+      "St. Johns River",
+      "Cocoa",
+      "Brevard County",
+      "FEMA",
+      "Florida",
+      "NOAA"
+    ],
+    "dispatch_note": "CORAL ACTION (Florida carve-out; its crest and declaration rows); INFO AEOLUS (climate-macro backup), SHADE (insurance), HOMER (housing), PROME (asked). PROME by BOARD diff.",
+    "route_origin": "PROME watch; NOAA",
+    "route_summary": "St. Johns near Cocoa 18.70 ft (major), above the 18.4 forecast crest, still rising; NOAA forecast 18.8 Sat; no federal declaration found.",
+    "safety_net": "clear",
+    "event_window": "open"
+  },
+  {
+    "id": "SIG-W-20261120-008",
+    "slug": "Kataib-Hezbollah-deadline-8pm-Baghdad-Nov-20-to-leave-Jurf-al-Nasr-no-withdrawal-reported-mediation-reported",
+    "title": "Kataib Hezbollah deadline to leave Jurf al-Sakhar (Jurf al-Nasr) is 8 pm Baghdad time today, Fri Nov 20 (a security source per reports): no withdrawal reported; the group has publicly refused; an Iraqi-Iranian mediation deal was reported Tuesday, KH reportedly seeking handover by June 30, 2027; sources told The National no immediate operation need follow",
+    "body": "# Kataib Hezbollah and Jurf al-Sakhar, deadline day\n\nSearch summaries of same-week reports (pages not read): Prime Minister Ali al-Zaidi ordered the armed forces into Jurf al-Sakhar after an investigation reportedly found large-scale oil smuggling (The National, 11/17; Iraqi News). Deadline 8 pm local, Friday November 20 (a security source). KH has publicly refused ('We will not leave even if government forces enter', one report) and another report says the dispute moves to 'private channels'. Reported: an Iraqi and Iranian mediation deal on Tuesday 11/17; KH wants the full handover delayed to June 30, 2027. Al Jazeera video item dated 11/20: 'Kataib Hezbollah faces deadline to leave Iraqi stronghold'. Same-day force-movement claims come from a social-media aggregator (sh1n.org), lower credibility.\n\n**Iran pre-dispatch guard:** anchor verified at the 11/18 full sweep (KH deadline carried there); this card asserts no war-state change. MEDIATED is not BILATERAL. Outcome after 8 pm Baghdad (12:00 ET) is UNKNOWN at dispatch.",
+    "source": "Search summaries 2026-11-20 of The National (2026-11-17), Al Jazeera video (2026-11-20), Iraqi News, Shafaq News, The Yeshiva World, sh1n.org; pages not read",
+    "origin": [
+      "LAST_COMPLETION RESUME 2 (KH deadline Fri 11/20, card 20261118-007)"
+    ],
+    "action": [
+      "FALCON"
+    ],
+    "info": [
+      "BRENT",
+      "HAWK",
+      "PROME"
+    ],
+    "precedence": "ROUTINE",
+    "signal_type": "context",
+    "confidence": 0.6,
+    "confidence_language": "search summaries only; outcome after the deadline unknown",
+    "cluster": "IRAN_HORMUZ",
+    "domain": "GEOPOL_ENERGY",
+    "entities": [
+      "Kataib Hezbollah",
+      "Jurf al-Sakhar",
+      "Jurf al-Nasr",
+      "Ali al-Zaidi",
+      "Iraq",
+      "Iran"
+    ],
+    "dispatch_note": "FALCON ACTION (Baghdad/Iraq PMF discriminator is FALCON's); INFO BRENT (oil-smuggling angle), HAWK, PROME (BOARD diff).",
+    "route_origin": "carried deadline; search",
+    "route_summary": "KH deadline 8 pm Baghdad today to leave Jurf al-Sakhar: no withdrawal reported, mediation reported (handover to 6/30/2027 sought); outcome unknown.",
+    "safety_net": "clear",
+    "event_window": "open"
+  }
+]

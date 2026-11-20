@@ -1,0 +1,15 @@
+release	series_period	scheduled_et	owner	status	evidence
+H.4.1 factors affecting reserve balances	week to 11/18	2026-11-19 16:30	SAM/LIQUID	OWNER-COMPLETED	LIQUID packets to SAM and BOND 11/20 (54b5e1c3a1, 26ff8c9e30); no WALTER card
+10Y TIPS reopening result	CUSIP per BOND	2026-11-19 13:00	BOND	UNKNOWN	fiscaldata auctions_query auction_date 2026-11-19 returned 0 rows at 2026-11-20T16:38:45Z; BOND record not checked
+BEA activities of US multinationals	2024	2026-11-20 08:30	CARL	PUBLISHED-NO-CARD	annual structural release, no decision use for any desk this week; not read
+Michigan consumer sentiment final	Nov 2026	2026-11-20 10:00	CARL	CARDED	SIG-W-20261120-002 (issuer page read)
+State employment and unemployment	Oct 2026	2026-11-20 10:00	LABOR/CORAL	CARDED	SIG-W-20261120-003 (FRED; bls.gov 403)
+Kansas City Fed services survey	Nov 2026	2026-11-20 about 11:00	ISHM	UNKNOWN	kansascityfed.org curl timeout (exit 28) 2026-11-20T16:37:16Z; extended search found no November 2026 release; retry
+FRED HY OAS and CCC	obs 2026-11-19	2026-11-20 publication	REGINALD/LIQUID/RED	CARDED	SIG-W-20261120-001 (HY 352, REG-T-04 day 1 of 3)
+VIXCLS	obs 2026-11-19	2026-11-20 publication	VIOLET/RED	CARDED	SIG-W-20261120-001 (28.44)
+Monthly options expiry	Nov 2026	2026-11-20	HENRY	CARDED	context line in SIG-W-20261120-001
+Car-Mart Item 1.01 backstop 10	EDGAR 11/17 to 11/20	2026-11-20	BROCK	NOTHING-NEW	EDGAR newest 8-K 2026-11-19T13:00:27Z (graded by BROCK 11/19); checked 2026-11-20T16:38:45Z
+Kataib Hezbollah Jurf al-Sakhar deadline	20:00 Baghdad	2026-11-20 12:00	FALCON	CARDED	SIG-W-20261120-008 (outcome unknown at dispatch)
+St. Johns crest near Cocoa	NOAA COCF1	2026-11-20	CORAL	CARDED	SIG-W-20261120-007 (18.70 ft, crest forecast Sat)
+Nvidia Q3 FY27 10-Q	EDGAR	expected about 11/19-11/20	VULCAN	NOT-YET-FILED	not on EDGAR 2026-11-20T16:26:24Z; watcher running
+CFTC Commitments of Traders	week to 11/17	2026-11-20 15:30	HENRY/MIDAS	PENDING	after this boot
