@@ -295,9 +295,14 @@ def file_history(path, sc, oc, bucket, dc="Date_Resolved", dsrc="COLUMN"):
         icf = col(hdr, "Confidence", "conf_tier", "conf", "prob"); ipr = col(hdr, "Prediction", "prediction")
         imd = col(hdr, "Date_Made", "made", "Date")
         idt = col(hdr, dc, "Date_Resolved", "Resolution_Date") if dsrc == "COLUMN" and dc != "NONE" else None
+        day = dt.datetime.fromtimestamp(ct, ET).date()
+        for c in rows:                      # the ID's first appearance, whatever columns that version had (WQ-716 listing only)
+            if c and c[0].strip():
+                k = (path.split("/")[1], c[0].strip())
+                if k not in FIRST_SEEN or day < FIRST_SEEN[k]:
+                    FIRST_SEEN[k] = day
         if ist is None or icf is None:
             continue
-        day = dt.datetime.fromtimestamp(ct, ET).date()
         for c in rows:
             g = lambda i: c[i].strip() if i is not None and i < len(c) else ""
             rid = c[0].strip()
@@ -384,6 +389,38 @@ def brier(pairs):
     return sum((p - hit) ** 2 for p, hit in pairs) / len(pairs)
 
 
+NOPROB_CUT = dt.date(2026, 11, 18)   # WQ-716 (Will 2026-11-17): forward only from the day after the ruling
+
+
+FIRST_SEEN = {}   # (desk, row id) -> first commit date holding that ID in any read ledger; filled by file_history
+
+
+def unquantified(rows, rec, first_seen=None):
+    """({desk: [row ids]}, undated): rows with no usable probability now whose call was first committed on or after
+    NOPROB_CUT; undated counts such rows with no committed version. A listing, never a score or a verdict.
+    Date: the ID's first appearance in any committed version; where the ID was later given to a DIFFERENT call
+    (current_call), the first version of the call that stands today. A reuse inside versions that had no status or
+    confidence column is not seen. Acceptance: PROME/tools/tests/ACCEPTANCE_forecast_report_no_probability_2026-11-20.md."""
+    first_seen = FIRST_SEEN if first_seen is None else first_seen
+    listed, undated = {}, 0
+    for r in rows:
+        if r["p"] is not None:
+            continue
+        day = first_seen.get((r["desk"], r["id"]))
+        v = rec.get((r["desk"], r["id"]), [])
+        if v and len(v[0]) > 6:
+            cur, restarted = current_call(v)
+            if restarted or day is None:
+                day = cur[0][1]
+        elif v and day is None:
+            day = v[0][1]
+        if day is None:
+            undated += 1
+        elif day >= NOPROB_CUT:
+            listed.setdefault(r["desk"], []).append(r["id"])
+    return listed, undated
+
+
 def render(rows, defects, rec=None, unread=None):
     P = []
     now = dt.datetime.now().strftime("%Y-%m-%d")
@@ -465,6 +502,16 @@ def render(rows, defects, rec=None, unread=None):
                          f"the hit-rate baseline on these calls is {ref2:.3f}, so the gain is {ref2 - cur:+.3f} scored and {ref2 - fst:+.3f} first-logged. "
                          f"{chg} of the {len(both)} were revised between first logging and scoring; {len(T) - len(both)} scored calls have no first-logged value and are in neither figure. "
                          "First-logged means first in a prediction ledger's git record (or the oldest '(was X%)' mark that first record already carried); a call stated earlier elsewhere is not seen. All history, not forward only: this is a score, no row is re-classed.")
+    P.append(f"\n## Calls first logged on or after {NOPROB_CUT} with no probability, by desk\n")
+    if rec is None:
+        P.append("**SKIPPED (--no-history):** first-logged dates come from the git record, so nothing is listed.")
+    else:
+        listed, undated = unquantified(rows, rec)
+        n = sum(len(v) for v in listed.values())
+        P.append(f"**{n} call(s)** across {len(listed)} desk(s)" + (": " + " · ".join(f"{d}: {', '.join(listed[d])}" for d in sorted(listed)) if n else ": none")
+                 + ". A call with no probability cannot be scored when it resolves. This is a prompt to the desk, not a defect: some calls are deliberately unquantified. "
+                 "First logged means the first commit holding the call in a prediction ledger this report reads; a probability written in a form the report cannot read counts as none. "
+                 f"{undated} row(s) with no probability have no committed version and could not be dated; they are not listed.")
     P.append("\n## Desk counts, alphabetical. Counts only, no desk score, no ranking\n")
     P.append("| Desk | Rows | Open | Decided | With a % | No-verdict | Annulled | Partial | Untyped or unmapped |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|")
     for d in sorted({r["desk"] for r in rows}):
@@ -538,7 +585,27 @@ def selftest():
     if t["known"] != D(10) or t["cls"] != "BEFORE": bad.append(("a STUCK version is not decided", t["known"], t["cls"]))
     body = render([{"desk": "X", "id": "X-1", "bucket": "HIT", "p": .6, "basis": "status", "conf": "60%", "outcome": "", "resolved": None}], [], None, None)
     if "SKIPPED (--no-history)" not in body or "| BEFORE" in body: bad.append("A11 skipped history must say so")
-    print("selftest", "FAIL " + str(bad) if bad else "PASS", len(cases) + 3 + len(tc) + 26)
+    # WQ-716 listing: new calls with no probability (7-field versions, as file_history writes them)
+    W = lambda ct, day, p, text="will the spread close above 350 by month end", made="": (ct, D(day), p, False, None, made, text)
+    R = lambda desk, rid, p: {"desk": desk, "id": rid, "p": p, "bucket": "OPEN", "basis": "status", "conf": "", "outcome": "", "resolved": None}
+    urows = [R("B", "B-2", None), R("A", "A-1", None), R("A", "A-2", .6), R("A", "A-3", None), R("A", "A-4", None), R("A", "A-5", None), R("A", "A-6", None)]
+    urec = {("B", "B-2"): [W(1, 18, None)], ("A", "A-1"): [W(1, 19, None)], ("A", "A-2"): [W(1, 19, .6)],
+            ("A", "A-3"): [W(1, 17, None), W(2, 19, None)],                                   # first logged before the cut
+            ("A", "A-4"): [W(1, 3, .4, "nvidia files its quarterly report late this year", "2026-11-03"),
+                           W(2, 19, None, "will the spread close above 350 by month end", "2026-11-19")],   # ID reused after the cut
+            ("A", "A-6"): [W(1, 19, .5), W(2, 20, None)]}                                      # probability removed later: none now
+    got = unquantified(urows, urec, {})
+    if got != ({"B": ["B-2"], "A": ["A-1", "A-4", "A-6"]}, 1): bad.append(("no-probability listing", got))
+    # a ledger that had no confidence column until after the cut: the ID's first appearance dates the call, not the column's
+    seen = {("B", "B-2"): D(2), ("A", "A-5"): D(19), ("A", "A-4"): D(3)}
+    got = unquantified(urows, urec, seen)
+    if got != ({"A": ["A-1", "A-4", "A-5", "A-6"]}, 0): bad.append(("no-probability listing, first appearance", got))
+    FIRST_SEEN.clear()
+    ub = render(urows, [], urec, None)
+    if "**4 call(s)** across 2 desk(s): A: A-1, A-4, A-6 · B: B-2." not in ub or "1 row(s) with no probability have no committed version" not in ub: bad.append("no-probability section text")
+    if "**0 call(s)** across 0 desk(s): none." not in render([R("A", "A-2", .6)], [], urec, None): bad.append("no-probability section says none")
+    if "with no probability, by desk\n\n**SKIPPED (--no-history)" not in body: bad.append("no-probability section skipped without history")
+    print("selftest", "FAIL " + str(bad) if bad else "PASS", len(cases) + 3 + len(tc) + 30)
     return 1 if bad else 0
 
 
