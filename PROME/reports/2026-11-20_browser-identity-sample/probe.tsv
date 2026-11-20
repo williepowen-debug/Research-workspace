@@ -1,0 +1,55 @@
+host	desks	class	http_code	bytes	marker_or_reason	url_requested
+agsi.gie.eu	BRENT,DEWEY,HANS	REFUSED	200	124	access denied	https://agsi.gie.eu/api?type=EU&size=1
+alsi.gie.eu	DEWEY	REFUSED	200	120	access denied	https://alsi.gie.eu/api
+api.hkma.gov.hk	ZHAO	INCONCLUSIVE	400	74		https://api.hkma.gov.hk/public/market-data-and-statistics/daily-monetary-statistics/
+api.nasdaq.com	REGINALD	INCONCLUSIVE	000	0		https://api.nasdaq.com/api/quote/
+api.stlouisfed.org	BRENT,CARL	INCONCLUSIVE	400	191		https://api.stlouisfed.org/fred/series/observations
+cdn.cboe.com	HENRY,RED,VIOLET	NOT-SAMPLED			already refusing this laptop today (HENRY 11:34 ET); not re-requested	https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv
+cdn.finra.org	REGINALD	REFUSED	403	111	Access Denied	https://cdn.finra.org/equity/regsho/daily/CNMSshvol
+chartexchange.com	REGINALD	INCONCLUSIVE	404	35064		https://chartexchange.com/symbol/
+data-api.ecb.europa.eu	HANS	INCONCLUSIVE	404	105		https://data-api.ecb.europa.eu/service/data
+data.texas.gov	LABOR	ANSWERED	200	275721		https://data.texas.gov/resource/8w53-c4f6.json
+data.wa.gov	DEWEY	ANSWERED	200	655387		https://data.wa.gov/resource/sb4j-ca4h.json
+dos.fl.gov	MARCO	ANSWERED	200	24138		https://dos.fl.gov/elections/data-statistics/
+efts.sec.gov	DEWEY	NOT-SAMPLED			SEC requires its own declared client string	https://efts.sec.gov/LATEST/search-index?
+feeds.bbci.co.uk	HAWK	ANSWERED	200	16495		http://feeds.bbci.co.uk/news/world/rss.xml
+feeds.reuters.com	HAWK	INCONCLUSIVE	000	0		http://feeds.reuters.com/reuters/worldnews`
+fred.stlouisfed.org	BRENT,ZHAO	INCONCLUSIVE	404	29441		https://fred.stlouisfed.org/graph/fredgraph.csv?id=
+gasprices.aaa.com	CARL	ANSWERED	200	96414		https://gasprices.aaa.com/
+home.treasury.gov	SAM	INCONCLUSIVE	000	0		https://home.treasury.gov/resource-center/data-chart-center/interest-rates/
+iq.usembassy.gov	FALCON	REFUSED	403	659508		https://iq.usembassy.gov/category/alert/feed/
+markets.newyorkfed.org	LIQUID	INCONCLUSIVE	400	0		https://markets.newyorkfed.org/api/pd/get/
+news.google.com	HAWK,WALTER	INCONCLUSIVE	404	1652		https://news.google.com/rss/search?q=
+oag.ca.gov	DEWEY	ANSWERED	200	87308		https://oag.ca.gov/privacy/databreach/list?field_sb24_org_name_value=
+pddata.dtcc.com	LIQUID	INCONCLUSIVE	404	0		https://pddata.dtcc.com/ppd/api/report/cumulative/sec/SEC_CUMULATIVE_CREDITS_
+rigcount.bakerhughes.com	BRENT	REFUSED	403	399	Access Denied	https://rigcount.bakerhughes.com/static-files/
+securitiesfilings.fdicconnect.fdic.gov	OZK,REGINALD	ANSWERED	200	294956		https://securitiesfilings.fdicconnect.fdic.gov/api/instflng/cert/110
+services.nvd.nist.gov	DEWEY	ANSWERED	200	4260284		https://services.nvd.nist.gov/rest/json/cves/2.0
+services9.arcgis.com	FALCON	ANSWERED	200	32494		https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/
+stats.bis.org	SAM	ANSWERED	200	30457		https://stats.bis.org/api/v1/data/WS_GLI/all/all?lastNObservations=1&format=csv
+transtats.bts.gov	MARCO	ANSWERED	200	710307		https://transtats.bts.gov/Data_Elements.aspx?Data=1
+trends.google.com	MARCO	INCONCLUSIVE	404	1652		https://trends.google.com/trends/api
+web.archive.org	MARCO	INCONCLUSIVE	400	0		https://web.archive.org/cdx/search/cdx
+www.aljazeera.com	HAWK	ANSWERED	200	608286		https://www.aljazeera.com/xml/rss/all.xml`
+www.atg.wa.gov	DEWEY	ANSWERED	200	156917		https://www.atg.wa.gov/data-breach-notifications
+www.bankofengland.co.uk	HANS	ANSWERED	200	12498		https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp
+www.banxico.org.mx	MARCO	INCONCLUSIVE	500	413		https://www.banxico.org.mx/SieInternet/consultarDirectorioInternetAction.do
+www.cboe.com	FORGE,VIOLET	NOT-SAMPLED			already refusing this laptop today (HENRY 11:34 ET); not re-requested	https://www.cboe.com/us/futures/market_statistics/historical_data/
+www.cftc.gov	BRENT,LIQUID,SAM,VIOLET	INCONCLUSIVE	404	31586		https://www.cftc.gov/dea/newcot/f_disagg.txt|WTI-PHYSICAL
+www.chinamoney.com.cn	ZHAO	ANSWERED	200	4827		https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?
+www.cisa.gov	DEWEY	ANSWERED	200	1863915		https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+www.customs.go.jp	SAM	ANSWERED	200	19099		https://www.customs.go.jp/toukei/suii/html/data/d41ma.csv
+www.dol.gov	MARCO	ANSWERED	200	383218		https://www.dol.gov/agencies/eta/foreign-labor/performance
+www.eia.gov	BRENT	ANSWERED	200	499712		https://www.eia.gov/dnav/pet/xls/PET_PRI_GND_DCUS_NUS_W.xls
+www.gpif.go.jp	SAM	ANSWERED	200	16344		https://www.gpif.go.jp/en/performance/latest-results.html
+www.investing.com	VIOLET	REFUSED	403	3		https://www.investing.com/indices/ice-bofaml-move-historical-data
+www.ishares.com	DEWEY	ANSWERED	200	392418		https://www.ishares.com/us/products/239565/ishares-iboxx-high-yield-corporate-bond-etf/latest-holdings.csv
+www.mof.go.jp	SAM	INCONCLUSIVE	404	20480		https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul
+www.newyorkfed.org	DEWEY	ANSWERED	200	104722		https://www.newyorkfed.org/microeconomics/hhdc
+www.pbc.gov.cn	ZHAO	ANSWERED	200	40079		https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/index.html
+www.sec.gov	DEWEY,REGINALD	NOT-SAMPLED			SEC requires its own declared client string	https://www.sec.gov/files/company_tickers.json
+www.ssga.com	DEWEY,VULCAN	ANSWERED	200	118954		https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-jnk.xlsx
+www.totan.com	SAM	ANSWERED	200	55788		https://www.totan.com/archives/15647
+www.trendforce.com	VULCAN	ANSWERED	200	177567		https://www.trendforce.com/price/dram/dram_spot
+www.trepp.com	CREED	ANSWERED	200	144253		https://www.trepp.com/trepptalk/
+www.twc.texas.gov	LABOR	ANSWERED	200	25483		https://www.twc.texas.gov/sites/default/files/oei/docs/warn-act-listings-2026-twc.xlsx
