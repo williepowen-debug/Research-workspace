@@ -53,17 +53,17 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-19, second touch 12:15–13:58 ET (PROME prome-36; laptop; Claude Code, Opus 5.5). Closed on PROME's 13:56 ET ask (Will: checkpoint the spawned desks).
+### CHANGES SINCE — 2026-11-20, prome-77 wake 11:33–11:46 ET (laptop; Claude Code, Opus 5.5). Closed on PROME's 11:46 ET ask; relaunch ~16:05 ET for the close read.
 
-- **Midday reversal (WALTER 017):** S&P 7,415.64 high (09:30 bar) → 7,193.83 low (12:05 bar), two legs: −107 pts 10:00–10:30 BEFORE Anthropic opened, −121 at its open. Card 017's "fell the moment Anthropic began trading" fits only the second leg (corrected to WALTER).
-- **Map published 12:17 ET** at vendor spot 7,203.64: flip 7,498 / 7,517, NEGATIVE −58.6 / −85.7; profile trough −87.2 at 7,150; **11/20 expiry ≈ 40% of the short gamma** (own split, scratch script imports `gamma_flip._fetch_cboe`); 7,000 largest 11/20 strike; put wall withheld; `call_wall 7000` published as the two-sided node under spot. QQQ flip 668/669, put band 640–650 published, call withheld. The script UPSERTS (metric, date): the 10:04 rows were replaced, and I deleted my 10:04 hand wall rows to keep one row per key.
-- KRE vs IWM: beta 0.66 (250d) to 0.89 (500d); the 60d beta (0.61) is deflated by the D:L823 see-saw. Agreed with REGINALD BANK-ABSENT.
-- **HEN-64** registered 0.40 (S&P close <7,100, 11/19–11/25). KB ML-HEN-236, -237. ECON_CALENDAR rebuilt to 12/23 (bls.gov 403; Census list view showed 2027 only). STATUS rotations ROT-11/19c, -19d.
-- **Will 13:31 ET (via PROME):** forward views only on material findings, each number tied to its exact event and horizon; separate clocks = separate probabilities; no odds table on routine packets; register only material, resolvable calls.
+- **Cboe delayed-quote API BLOCKED** (307 to `cdn-api.cboe.com`, Cloudflare 403 page, 11:34 ET). Map ran on the vendor chain; `gamma_flip.py` refuses `--publish` there by design. Never evade; publishing the vendor chain would be a rule change (PROME/Will). The VIX-settle proof (`_VIX` last_trade_time) is gone with it: use FRED VIXCLS.
+- **`gamma_flip.py` drops T = 0 contracts:** on an expiry day the map is already the post-expiry book. Map: flip 7,422–7,440, NEGATIVE −30.1/−56.4, flat about −60 from 6,900 to 7,100 (no trough).
+- **H4 applied** (`2beee94614`, D:L1203 RESOLVED by PROME): lead clause gone, bottom clause untested; same-file consumers fixed (LESSONS_ARCHIVE, REFERENCE_TABLES).
+- **Eight 4/15 rows graded** into PREDICTIONS.tsv: 2 hit, 3 miss, 3 no-verdict, Brier 0.378 (confident deterioration calls missed). D:L490's HENRY leg had been closed 11/16; "audit rows dated 11/20" meant these.
+- TERRY: thesis grades (QQQ put-wall RIGHT, VLO NO-VERDICT) and a WQ-696 red-line handoff. TERRY's ask file is its own uncommitted packet: left in place.
+- S&P 7,046 at 11:43 ET, 9 over red 7,037.04; HY 352 [11/19], 2026 high. 11/19 vendor close 7,175.83, VIXCLS 28.44.
 
 ### NEXT SESSION
 
-1. **11/19 close read NOT taken** (PROME stopped the hold): VIX settle (Cboe `last_trade_time` ≥ 16:15), S&P close vs 7,200 / 7,100 / 7,037.04, HEN-64's first session, KRE vs IWM. STATUS § CROSS-DESK Next has the full list and the 13:57 ET last read.
-2. Map on the 11/20 chain (11/19 OI) before Friday's expiry; FRED HY 11/19 (350 line, REGINALD).
-3. Tomorrow's letter: 8 audit rows beside D:L490; H4 charter draft (DOCKET line 1203).
-4. LESSONS rotation (76%); dashboard v6 stale.
+1. **Close read (relaunch ~16:05 ET):** STATUS § CROSS-DESK "HAND-OFF" bullet has the steps: HEN-64 (close under 7,100), red line → WALTER signal if fired, VIX provisional.
+2. Re-try Cboe once; FRED HY 11/20, posted Mon 11/23 (REG-T-04 day 2).
+3. LESSONS rotation (76%); dashboard v6 stale; DAEDALUS K38–K52.
