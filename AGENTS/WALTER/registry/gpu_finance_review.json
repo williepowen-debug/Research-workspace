@@ -477,6 +477,60 @@
         "2026-11-19"
       ],
       "closed": "2026-11-19T14:28:56Z"
+    },
+    "gpu:ba21cca9f8c6": {
+      "title": "CoreWeave: The Liquidity Window Is Closing Down (NASDAQ:CRWV) - Seeking Alpha",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261120-006",
+      "days": [
+        "2026-11-19"
+      ],
+      "closed": "2026-11-20T16:36:38Z"
+    },
+    "gpu:2c8017b9f80a": {
+      "title": "Arbol launches parametric insurance for GPU residual value risk - Artemis.bm",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261120-006",
+      "days": [
+        "2026-11-19"
+      ],
+      "closed": "2026-11-20T16:36:38Z"
+    },
+    "gpu:ca7412215340": {
+      "title": "Who Is Funding the AI Boom, and Who Bears the Risk? - Moomoo",
+      "disposition": "NO-ACTION",
+      "ref": "BM-20261120-01",
+      "days": [
+        "2026-11-19"
+      ],
+      "closed": "2026-11-20T16:36:38Z"
+    },
+    "gpu:44ced6130561": {
+      "title": "Nvidia faced pressure to boost its AI backstop before Jensen Huang's exit - The Economic Times",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261120-006",
+      "days": [
+        "2026-11-19"
+      ],
+      "closed": "2026-11-20T16:36:39Z"
+    },
+    "gpu:f516b6ddbd46": {
+      "title": "CRWV, IREN, NBIS Stocks Extend Neocloud Selloff As Anthropic IPO Rally Fades - Michael Burry Takes A Victory Lap - TradingView",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261120-006",
+      "days": [
+        "2026-11-20"
+      ],
+      "closed": "2026-11-20T16:36:39Z"
+    },
+    "gpu:72661afe4106": {
+      "title": "Exclusive | Wall Street Pledged to Mobilize $500 Billion for Nvidia—but Hasn’t Put Up a Dime - WSJ",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261119-005",
+      "days": [
+        "2026-11-20"
+      ],
+      "closed": "2026-11-20T16:36:39Z"
     }
   }
 }

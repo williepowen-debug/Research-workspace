@@ -1,0 +1,50 @@
+[
+  {
+    "id": "SIG-W-20261120-005",
+    "slug": "Russian-Kh-101-cruise-missiles-and-drone-parts-land-in-southeast-Poland-overnight-Nov-20-no-casualties-Tusk-deliberate-provocation",
+    "title": "Russian cruise missiles land inside Poland overnight Nov 19 to 20 (Polish government, 20.11.2026): a Kh-101 near Nowy Lipowiec (Biłgoraj county), a second missile near Rudnik nad Sanem, jet-drone parts near Mołodycz; 'no destruction and no victims'; Tusk: 'it seems we are dealing with a deliberate provocation by Russia'; near a Coalition of the Willing exercise; no NATO statement at nato.int, no Article 4 request and no Russian response reported",
+    "body": "# Russian missiles on Polish territory, overnight November 19 to 20\n\n**Primary (Polish Prime Minister's Chancellery, gov.pl/web/premier item dated 20.11.2026, read by a fetch helper; quotes translated from Polish by that helper, not word-for-word):**\n- 'Dziś w nocy' (overnight): a **Kh-101 cruise missile ('rakieta manewrująca Ch-101') near Nowy Lipowiec, Biłgoraj county**; a **second missile in woodland near Rudnik nad Sanem, Niżańskie county**; 'according to preliminary findings', **parts of a jet-powered drone** scattered over farmland near **Mołodycz, Jarosław county**.\n- Tusk: 'Nie ma żadnych zniszczeń i ofiar' ('there is no destruction and no victims').\n- Tusk: 'we know for sure that what fell on Polish soil is from Russia'; 'It seems we are dealing with a deliberate provocation by Russia'; 'the latest incident does not look like chance'. He confirmed the Russian origin with NATO Secretary General Mark Rutte and European leaders and will discuss 'concrete actions' to strengthen the eastern flank.\n- One object fell near where exercises of Coalition of the Willing forces, supported by Polish soldiers, are under way; the government says any link to the exercises 'remains a hypothesis at this stage'.\n\n**Secondary (Newsweek, read; developing story, no timestamp in the extract):** 'Two missiles and a drone landed in Poland'; Nowy Lipowiec about 30 miles inside the border with Ukraine; Defence Minister Władysław Kosiniak-Kamysz called the attack 'one of the largest since the beginning of the full-scale war in Ukraine' (Newsweek's report of his words). Newsweek asked the Russian defence ministry for comment; no reply reported. BBC and AP (Washington Times) pages were not readable here (blocked, 403); their titles say the same.\n\n**Not established:** NATO's own statement (none on nato.int's news page when read; a search summary attributes 'grave violations of Polish airspace' and a jet scramble to Rutte, unverified); any Article 4 request; any interception; exact time; whether Poland was the target or the missiles strayed from a strike on Ukraine; any Russian response. Location of the exercise: a search summary says Nowa Dęba, not in the pages read.\n\n**Kill-on-sight check (STATUS NATO/Russia list):** none of the six registered phrasings applies. Do not write 'missile strike on Poland' or 'attack on NATO' as fact; the primary's words are 'fell on Polish soil' and 'provocation'.\n\n**Context:** Russia struck Kyiv crossings after Ukraine hit the Crimean Bridge (BBC title 11/20; card 20261119-004 and correction 014).",
+    "source": "gov.pl Prime Minister's Chancellery news item 'Rosyjskie obiekty naruszyły polską przestrzeń powietrzną – kolejna odsłona rosyjskiej eskalacji' (https://www.gov.pl/web/premier/rosyjskie-obiekty-naruszyly-polska-przestrzen-powietrzna-kolejna-odslona-rosyjskiej-eskalacji, dated 20.11.2026, read via fetch helper); Newsweek 'Russian Missiles Land Inside Poland: Everything We Know' (read); BBC World RSS title 2026-11-20T12:56:48Z (lane, page blocked); nato.int news page (no 20 November item when read); search summaries (UPI, Washington Times/AP), pages not read",
+    "origin": [
+      "RESEARCH-INTAKE title skim (7e(h)), BBC World 2026-11-20T12:56:48Z"
+    ],
+    "action": [
+      "HAWK",
+      "YURI",
+      "OSPREY"
+    ],
+    "info": [
+      "HANS",
+      "BRENT",
+      "SAM",
+      "RED",
+      "PROME",
+      "NEXUS",
+      "HENRY"
+    ],
+    "precedence": "IMMEDIATE",
+    "signal_type": "catalyst",
+    "confidence": 0.85,
+    "confidence_language": "Polish government primary read (via helper translation); NATO and Russian sides not established",
+    "cluster": "MISC",
+    "domain": "RU_STATE_ACTOR",
+    "entities": [
+      "Poland",
+      "Russia",
+      "Kh-101",
+      "Donald Tusk",
+      "Władysław Kosiniak-Kamysz",
+      "Mark Rutte",
+      "NATO",
+      "Nowy Lipowiec",
+      "Rudnik nad Sanem",
+      "Mołodycz",
+      "Coalition of the Willing"
+    ],
+    "dispatch_note": "HAWK ACTION (NATO and Western reaction is HAWK's per RU_STATE_ACTOR row); YURI ACTION (Russian force posture and intent; RU_STATE_ACTOR IMMEDIATE on force posture); OSPREY ACTION (strike ledger: the overnight Russian wave on Ukraine these missiles belong to). INFO HANS (European political risk), BRENT, SAM, HENRY (risk tape), NEXUS, RED, PROME (BOARD diff), TERRY (BOARD-only).",
+    "route_origin": "lane title skim; gov.pl primary",
+    "route_summary": "IMMEDIATE: Russian Kh-101 cruise missile and a second missile land in SE Poland overnight, drone parts found; no casualties; Tusk calls it a deliberate provocation; NATO statement, Article 4 and Russian response not established.",
+    "safety_net": "clear",
+    "event_window": "open"
+  }
+]
