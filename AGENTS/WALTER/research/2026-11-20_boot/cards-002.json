@@ -1,0 +1,115 @@
+[
+  {
+    "id": "SIG-W-20261120-002",
+    "slug": "Michigan-November-final-51.5-prelim-51.0-year-ahead-inflation-3.7-from-prelim-4.3-long-run-3.3-from-3.4",
+    "title": "Michigan November final: sentiment 51.5 (preliminary 51.0, October 48.0); year-ahead inflation expectations 3.7% (preliminary 4.3%, October 4.7%); long-run 3.3% (preliminary 3.4%, October 3.5%); current conditions revised down to 49.4 from 51.0, expectations up to 52.9 from 50.9; interviews October 20 to November 16",
+    "body": "# University of Michigan, November final (released Fri Nov 20 10:00 ET, read at the issuer)\n\n| Index | Nov final | Nov prelim (card 20261106-049) | Oct | Nov 2025 |\n|---|---|---|---|---|\n| Sentiment | 51.5 | 51.0 | 48.0 | 51.0 |\n| Current conditions | 49.4 | 51.0 | 46.7 | 51.1 |\n| Expectations | 52.9 | 50.9 | 48.8 | 51.0 |\n\n**Inflation expectations:** year-ahead median 3.7% (preliminary 4.3%, October 4.7%; the director: 'plunged'), still above February's 3.4% and all 2024 readings. Long-run 3.3% (preliminary 3.4%, October 3.5%), above the 2024 range of 2.8% to 3.2%.\n\n**Director's text (Joanne Hsu, issuer page):** gains 'led by substantial post-election gains in both short- and long-run expected business conditions'; personal finances improved for low- and middle-wealth consumers with falling gas prices; 'those with the largest stockholdings reported a decline in personal finances, consistent with continued AI-related agitation in stock markets'; expectations surged for independents, rose for Democrats, fell for Republicans; sentiment 9% below February. Consumers still say inflation, not unemployment, will cause greater hardship.\n\n**Limit:** interviews ran October 20 to November 16, so they end before this week's AI selloff (cards 20261119-017 and 20261120-001). The final's revision is mostly in expectations and in year-ahead inflation.\n\n**Registered:** CARL's V12 long-run trigger (below 3.0%): not met at 3.3%. No WALTER-scanned threshold keys this series.",
+    "source": "University of Michigan Surveys of Consumers home page, Final Results for November 2026 (https://www.sca.isr.umich.edu/, fetched 2026-11-20T16:27:10Z, saved research/2026-11-20_boot/umich_home.html); preliminary from BOARD SIG-W-20261106-049",
+    "origin": [
+      "WALTER step 7i calendar (HENRY ECON_CALENDAR Fri Nov 20 10:00)"
+    ],
+    "action": [
+      "CARL"
+    ],
+    "info": [
+      "HENRY",
+      "LIQUID",
+      "RED",
+      "BOND",
+      "ORACLE"
+    ],
+    "precedence": "IMMEDIATE",
+    "signal_type": "catalyst",
+    "confidence": 0.95,
+    "confidence_language": "issuer page read directly",
+    "cluster": "CONSUMER_STAGFLATION",
+    "domain": "MACRO_INFLATION",
+    "entities": [
+      "University of Michigan",
+      "consumer sentiment",
+      "inflation expectations"
+    ],
+    "dispatch_note": "MACRO_INFLATION data day: CARL ACTION (owns the consumer read and V12); INFO HENRY, LIQUID, RED, BOND (rates read of expectations), ORACLE (December Fed pricing is ORACLE's, WQ-671). RED INFO by BOARD diff.",
+    "route_origin": "WALTER calendar; issuer page",
+    "route_summary": "Michigan Nov final 51.5 (prelim 51.0); year-ahead inflation 3.7% (prelim 4.3%, Oct 4.7%), long-run 3.3%; interviews end Nov 16, before this week's selloff; CARL V12 (<3.0%) not met.",
+    "safety_net": "clear",
+    "event_window": "closed"
+  },
+  {
+    "id": "SIG-W-20261120-003",
+    "slug": "State-employment-October-Florida-unemployment-4.3-from-4.4-payrolls-plus-8000-via-FRED-BLS-page-blocked",
+    "title": "State employment, October (BLS 10:00 ET, read via FRED; bls.gov returned 403 to automation): Florida unemployment 4.3% (September 4.4%, July 4.6%), Florida payrolls 10,043,200 (+8,000 m/m); California 5.0% (from 5.1%), Texas 4.4% (unchanged), New York 4.2% (from 4.3%)",
+    "body": "# State Employment and Unemployment, October (released Fri Nov 20 10:00 ET)\n\n**Read basis:** bls.gov returned HTTP 403 to WALTER's request at 2026-11-20T16:27:10Z (not evaded, root Blocked-sites rule). Figures are FRED's copies of the BLS series, pulled 2026-11-20T16:27:15Z, seasonally adjusted, as published today; BLS's text, county detail and any revision notes are NOT read.\n\n| State | Unemployment Oct | Sep | Aug | Jul |\n|---|---|---|---|---|\n| Florida (FLUR) | 4.3% | 4.4% | 4.5% | 4.6% |\n| California (CAUR) | 5.0% | 5.1% | 5.1% | 5.1% |\n| Texas (TXUR) | 4.4% | 4.4% | 4.4% | 4.5% |\n| New York (NYUR) | 4.2% | 4.3% | 4.3% | 4.4% |\n\n**Florida nonfarm payrolls (FLNA, thousands, SA):** 10,043.2 in October; 10,035.2 September; 10,040.1 August; 10,029.8 July. October +8.0 thousand m/m; September's shown value is as revised in today's release (prior vintage not compared).\n\n**Not read:** the other 46 states and DC, the national release table, and BLS's statement of significant changes. An owner who needs a state outside these four should pull it at FRED or ask Will to open the BLS page.\n\n**Florida context:** the October survey week predates the 11/17 to 11/19 South Florida flooding (cards 20261119-010 and -015).",
+    "source": "FRED fredgraph CSV FLUR, CAUR, TXUR, NYUR, FLNA (BLS LAUS and CES state series), pulled 2026-11-20T16:27:15Z; bls.gov/news.release/laus.nr0.htm returned HTTP 403 at 2026-11-20T16:27:10Z",
+    "origin": [
+      "WALTER step 7i calendar (HENRY ECON_CALENDAR Fri Nov 20 10:00; PROME task)"
+    ],
+    "action": [
+      "LABOR",
+      "CORAL"
+    ],
+    "info": [
+      "CARL",
+      "MARCO",
+      "HENRY",
+      "RED"
+    ],
+    "precedence": "PRIORITY",
+    "signal_type": "context",
+    "confidence": 0.85,
+    "confidence_language": "FRED copies of BLS series; BLS release text not read (403)",
+    "cluster": "CONSUMER_STAGFLATION",
+    "domain": "LABOR",
+    "entities": [
+      "BLS",
+      "Florida",
+      "California",
+      "Texas",
+      "New York",
+      "state unemployment"
+    ],
+    "dispatch_note": "LABOR ACTION (state flows are LABOR's charter, as on card 20261119-001); CORAL ACTION (Florida carve-out); INFO CARL, MARCO (labor supply, Florida migration overlap with CORAL), HENRY, RED (BOARD diff). The BLS page is blocked to automation; Will can open it if a desk needs the text.",
+    "route_origin": "WALTER calendar; FRED",
+    "route_summary": "State employment Oct via FRED (bls.gov 403): Florida 4.3% from 4.4%, payrolls +8,000; CA 5.0, TX 4.4, NY 4.2; BLS text not read.",
+    "safety_net": "clear",
+    "event_window": "closed"
+  },
+  {
+    "id": "SIG-W-20261120-004",
+    "slug": "Small-items-Nov-20-Fermi-five-Form-144-insider-sale-notices-Neugebauer-2.5M-shares-Nvidia-10-Q-not-filed-general-counsel-Form-144",
+    "title": "Small items Nov 20: Fermi (FRMI) five Form 144 planned-sale notices dated 11/19, co-founder Toby Neugebauer 2.5M shares (about $5.15M) after 10M on 11/12, and four officers and a director about 2.25M shares (about $5.3M); Nvidia 10-Q NOT on EDGAR at 16:26:24Z; Nvidia general counsel Timothy Teter Form 144, 30,000 shares (about $4.54M)",
+    "body": "# Small items, Friday November 20 (combo:VULCAN/ai-financing-chain)\n\n**1. Fermi Inc. (FRMI, CIK 2071778): five Form 144 notices, all with approximate sale date 11/19/2026 (EDGAR, read at the filings):**\n\n| Filer | Relationship | Shares | Aggregate market value | Accepted (UTC) |\n|---|---|---|---|---|\n| Toby Neugebauer | 10% stockholder | 2,500,000 | $5,150,000 | 2026-11-19T22:00:07Z |\n| Charles Lynn Hamilton | Officer | 761,629 | $1,791,154.94 | 2026-11-20T02:17:03Z |\n| Jacobo Ortiz Blanes | Officer | 847,810 | $1,993,830.35 | 2026-11-20T02:21:23Z |\n| Lee A. McIntire | Director and officer | 20,544 | $48,321.12 | 2026-11-20T02:21:44Z |\n| George R. Wentz, Jr. | Officer | 623,287 | $1,465,810.32 | 2026-11-20T02:29:27Z |\n\nShares outstanding on the notices: 646,953,440. Implied prices: about $2.06 (Neugebauer) and about $2.35 (the officers). Neugebauer also filed for 10,000,000 shares ($20.6M) on 2026-11-12T23:28:11Z. A Form 144 is notice of a proposed sale, not proof of the sale; Form 4s would show executions. The acquisition sections were not read for every filer.\n\n**2. Nvidia 10-Q: NOT on EDGAR at 2026-11-20T16:26:24Z.** Newest filings: Form 144 (11/19 21:45:59Z), 8-K 11/17, 13F-HR 11/16. VULCAN-194 (10-Q shows the August MoUs converted to definitive financing, P=0.15) and RED's CHG-RED-057 re-review wait on it. WALTER keeps checking and tells PROME when it lands.\n\n**3. Nvidia Form 144 (accepted 2026-11-19T21:45:59Z):** Timothy S. Teter (officer; general counsel per prior company filings, not restated on this form), 30,000 common shares, aggregate market value $4,542,782, approximate sale date 11/19/2026, Charles Schwab; shares from RSU and PSU vesting (6/17/2026 and 12/10/2025). Size is small against 24.1 billion shares outstanding.\n\nLogging is not scoring: nothing here moves a score or trigger.",
+    "source": "SEC EDGAR submissions JSON and Form 144 primary documents for CIK 2071778 (Fermi Inc.) and CIK 1045810 (NVIDIA CORP), fetched from 2026-11-20T16:26:24Z (Nvidia list) and 16:26:45Z (Fermi list), Form 144 documents read after 16:26:45Z, with the fleet's declared SEC contact",
+    "origin": [
+      "PROME task watch list (Nvidia 10-Q, Fermi filing); LAST_COMPLETION RESUME 1"
+    ],
+    "action": [
+      "VULCAN"
+    ],
+    "info": [
+      "WATT",
+      "RED",
+      "PROME"
+    ],
+    "precedence": "ROUTINE",
+    "signal_type": "context",
+    "confidence": 0.95,
+    "confidence_language": "EDGAR filings read directly; a Form 144 is a notice, not an execution",
+    "cluster": "AI_INFRA_CAPEX",
+    "domain": "AI_CAPEX",
+    "entities": [
+      "Fermi",
+      "FRMI",
+      "Toby Neugebauer",
+      "Nvidia",
+      "NVDA",
+      "Timothy Teter",
+      "Form 144"
+    ],
+    "dispatch_note": "Small-items card (step 10.6, combo:VULCAN/ai-financing-chain). VULCAN ACTION (owns Fermi and Nvidia; 10-Q leg of VULCAN-194). INFO WATT (Fermi power build), RED (CHG-RED-057 waits on the 10-Q), PROME (asked for both watches); TERRY reads the BOARD. RED, PROME by BOARD diff.",
+    "route_origin": "WALTER EDGAR checks",
+    "route_summary": "Fermi: five Form 144s dated 11/19 (Neugebauer 2.5M shares about $5.15M; officers and a director about 2.25M about $5.3M); Nvidia 10-Q not on EDGAR at 16:26Z; Nvidia GC Form 144, 30,000 shares.",
+    "safety_net": "clear",
+    "event_window": "open"
+  }
+]
