@@ -20,6 +20,8 @@ word_count: 281
 dispatch_note: "CYBER row v0.48: every cyber claim routes to CYPHER; channel-less claims fold into one ROUTINE card, one line per claim. Channel owners INFO: HANS (EU institutions), SAM (MUFG, Japan), GIBBS (MUFG as a large foreign bank, outside its perimeter), WATT (grid, DHS), FALCON (Iran-linked actor). TERRY BOARD-only."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261120-010 (CYPHER grade): the MUFG '6.5 million records' leak is REAL, so the 'NOT FOUND … do not relay as fact' line below is WRONG. MUFG Bank's notice of 2026-11-18 confirms unauthorized access at contractor Plaid's KARTE service, leaking customers' gender, age and region only, about 6.5 million records. The European Commission ARTEX line stays NOT FOUND.**
 # Cyber claims from Will's bookmarks, Nov 18 to 19 (one line per claim): European Commission hit by an attack using the ARTEX AI tool, salary and leave systems down over 10 days, per POLITICO via an aggregator (not found by WALTER's search); MUFG '6.5 million customer records' leak (aggregator post; NOT FOUND, image a stock photo; do not relay as fact); DHS says Iran-linked hackers target US energy, water and transport; senators say AI cyber threats outpace defenses (Reuters)
 
 # Cyber claims, Will's X bookmarks (posts read; linked sources not opened)
