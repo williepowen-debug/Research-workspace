@@ -90,6 +90,7 @@ The direction was a **minority-probability view, not an unreasonable one.** Meas
 | Dimension | Read |
 |---|---|
 | Thesis | Right / wrong / mixed |
+| Thesis grade (owner desk) | Verdict for the card's window · dated evidence · grader and date — or UNRESOLVED with the resolving date/observation, or "owner Will, no desk grade" (PROME 11/16 packet, Will "yes lets do this" 11/16 23:16 ET). TERRY grades timing, structure, sizing, exit and process only. |
 | Timing | Right / early / late |
 | Structure | Clean / flawed |
 | Sizing | Appropriate / too large / too small |
@@ -582,3 +583,47 @@ Management-only lines (construction rule #20); C5 reminders paused by Will 10/20
 | Structure | Not tested. Vendor screens stayed inside the $1.00 limit on every dated read: outer $0.67 [11/5], $0.68 [11/10], $0.73 [11/13 close]. |
 
 **Lesson:** nothing new; a gate that does not fire costs nothing. **Tags:** none; recorded.
+
+## 2026-11-20 — close prices filled from broker rows already in the record (PROME 11/16 and 11/17 packets; D:L1170 item 1)
+
+Rule used: broker evidence already in the record (PROME's transcriptions of Will's captures) or UNAVAILABLE; nothing derived, nothing asked of Will (WQ-548 declined further gap documentation 11/10). List and evidence: `research/2026-11-20_wake-L831-L929/POSTMORTEM_LIST.md` Table 2. Corrects the October 29 entry above, where all seven read UNKNOWN (that entry was written from a positions view only).
+
+| Line | Card | Close as recorded by the broker | Evidence |
+|---|---|---|---|
+| QQQ Oct-20 719P ×1 | `MGMT-QQQ719P-OCT20` | **Sold by broker liquidation 10/20, +$208.99 net** (no per-contract price shown) | `PROME/data/2026-10-22_broker-capture-TRANSCRIPTION.md` l.82 |
+| QQQ Oct-22 715P ×1 | `MGMT-QQQ715P-OCT22` | **Sold to close 10/22 at $7.31, +$730.32 net** (bought 10/20, basis $432.66) | same file l.53, l.68 |
+| CRWV Oct-23 56P ×1 | `MGMT-CRWV56P-OCT23` | **Sold by broker liquidation 10/23, +$88.34 net** | `PROME/data/2026-10-30_broker-capture-TRANSCRIPTION.md` l.72 |
+| QQQ Oct-20 715P ×1 | `MGMT-QQQ715P-OCT20` | UNAVAILABLE: needs the 10/20 Fidelity Activity rows before the 719P liquidation | — |
+| USO Oct-28 165C ×1 | `MGMT-USO165C-OCT28` | UNAVAILABLE: needs a Fidelity Activity row dated 10/28–10/29 (D-90, permanently unsupplied) | — |
+| CMG Oct-30 28P ×1 | `MGMT-CMG28P-OCT30` | UNAVAILABLE: needs a Fidelity Activity row dated 10/22–10/29 | — |
+| WAL Dec-18 70P ×1 (Robinhood) | `TRY-WAL-ROLL70` | UNAVAILABLE: needs a Robinhood history row | — |
+| QQQ Nov-20 690P, second contract | `IDEA-QQQ-PUTWALL-OCT22` | UNAVAILABLE: the 10/30 $17.95 sell order shows OPEN at capture, fill never shown; needs the 10/30–11/5 Fidelity Activity row (D-94, permanently unsupplied) | `PROME/data/2026-10-30_broker-capture-TRANSCRIPTION.md` l.44 |
+| USO Oct-16 135C, first of two | WQ-167 | UNAVAILABLE by ruling: price permanently UNKNOWN (WQ-167); the sale date 9/2 is Will's word | — |
+
+Also found: the WAL Sep-18 70P and 67.5P pair (entry 2026-09-24 above, "EXPECTED, not RECORDED") has broker EXPIRED rows dated 9/21 "as of 2026-09-18", no amount (`PROME/data/2026-09-27_broker-capture-TRANSCRIPTION.md` l.58–59): the expected realized −$1,519.34 now rests on a broker expiry row. Tags: BOOKKEEPING · NO-SCORE. Thesis grades asked of the owner desks by packet the same session (list § Table 3).
+
+## 2026-11-20 — IDEA-ORCL-PUTSPREAD-OCT23 ORCL Dec-18 115/100P ×1 (WQ-514 A) — **LAPSED UNFIRED at the 11/20 entry-window end. Never entered, $0.**
+
+**Record:** approved NOT-FIRED 10/23 21:15 ET, conditional on an Oracle-IR-verified fiscal-Q2 date written on the card before entry. T1: Oracle 5Y CDS ≥ 350 bp (DTCC disseminated) with ORCL ≥ $120, then a green ORCL day, by 11/20. DOCKET L831.
+
+| Leg | Grade |
+|---|---|
+| Thesis (owner: PROME ELLISON theme) | Not graded here; asked of PROME by the 11/20 packet. TERRY's tape note only: the credit–equity gap closed from the equity side (ORCL $126.16 [10/23] → $104.10 intraday 11/20) while CDS stayed 293–318 bp. |
+| Condition | Never met: the FQ2 date was never verified at Oracle IR (403/Cloudflare to automated reads, not evaded). |
+| Trigger | Never reached: CDS high 342.5 [10/20], before approval; 305 [11/5] the closest after. |
+| Structure | Not tested. Vendor screens ran over the $4.40 limit on the dated reads after 11/5 (outer $6.35 [11/5], $5.90 [11/6]). |
+
+**Lesson:** nothing new; a credit trigger on a series the desk does not own fired never and cost nothing. **Tags:** none; recorded.
+
+## 2026-11-20 — IDEA-QQQ-200D-NOV05 QQQ Dec-18 670/680C ×1 (WQ-617 C, not approved) — **LAPSED UNFIRED at the 11/20 window end. Never brought to Will, $0.**
+
+**Record:** T1 = VIX3M/VIX ≥ 1.00 live on a red QQQ session; credit HY ≤ 344; debit ≤ $4.90; window to 11/20. DOCKET L929.
+
+| Leg | Grade |
+|---|---|
+| Thesis | No owner ("none for a rebound"); TERRY's own construction. UNRESOLVED as a view: QQQ $627.32 at the window end (11:22 ET), 8.0% under its 200-day. |
+| Trigger | Met twice on the ratio (1.037 [11/13 10:28], 1.034 [11/16 10:12]) on red days; both times the debit failed ($6.31, $5.25–6.14 vs $4.90). At the end: 0.932 and HY 352 > 344. |
+| Structure | The debit limit bound twice: § 8's named case (QQQ bounced before the curve normalised) happened as written. Counterfactual, not a fill and not marked: a $4.90 fill on 11/16 would now sit 43–53 points under its strikes with 28 days left, so most of the debit would be at risk. |
+| Calibration | CAL-0006 (ratio ≥ 1.00 on a close 11/9–11/20, p 0.75) graded 1 on 11/18. |
+
+**Lesson:** the "no chase" debit line did its job. **Tags:** none; recorded.
