@@ -1,0 +1,40 @@
+# OSPREY -> PROME: letter delivery, 2026-11-20 (osprey-1120, prome-77 letter; D:L1034, D:L1217; WALTER SIG-W-20261120-005)
+
+**Runtime:** Claude Code, Opus 5.5 (claude-opus-5-5), laptop. Root CLAUDE.md, AGENTS.md, USER.md, desk CLAUDE.md read explicitly (no desk AGENTS.md exists); COMPLETION_SPEC handoff section read. **Commits:** evidence `07b1937375`, WALTER packet `0454a1cf5f`, this packet (next commit). Not pushed (PROME pushes).
+
+## Whole story
+Nothing in OSPREY's channels moved today: scores stay 5 / 5 / 3. OSP-08 is graded FAILED by the record. OSP-12's 50% is corrected to 60% as a dated re-mark, with the 50% kept. My November refining range is now registered as OSP-13 with non-overlapping bins, and OSP-10 is re-marked to match. The Poland missiles hit no energy, rail, fuel or pipeline asset (Polish MON at primary). No Will decision is needed.
+
+| # | Item | Result | Record |
+|---|---|---|---|
+| 0 | WALTER IMMEDIATE SIG-W-20261120-005 (Poland) | **Graded at primaries** (gov.pl PM + MON items 20.11.2026, helper fetch, translations the helper's). MON: *"no reports of damage to critical infrastructure"*. No Polish energy, rail, fuel or pipeline asset hit; no Russian oil asset involved. The wave (Ukrainian Air Force via secondary: >100 missiles, ~400 drones, mainly the energy system, outages in the west incl. Zakarpattia) logged as combo:energy-tit-for-tat. **NOT established:** that it is Putin's announced "far more painful" response. Druzhba-south flows: no effect found (search-not-found; MOL primary not read). Changes no score, clock, band or trigger. Grade sent to WALTER. | KB-OSPREY-306; WALTER packet 0454a1cf5f |
+| 0b | Card 006 small items | Item 5 Druzhba/Tatarstan = **the SAME Kaleykino strike of 11/19**, now claimed by the General Staff (three tanks); row updated; inland, resets nothing. Reuters fuel-limits title → combo:domestic-fuel-policy. Item 16 (CMB) = Gas Husky, not in-scope (KB-304). | KB-307, KB-312 |
+| 1 | **OSP-08** | **RESOLVED FAILED at 55%** (Brier 0.3025). The in-window in-geography row is RU-20261111-UST-LUGA-PORT (governor-confirmed), counted by Will's WQ-669 A. Mechanism-level look first: strike_feed 11/20, EN/RU name-free port, terminal and tanker queries 11/17–11/20; no other in-window row. ⚠️ **The FAILED rests on Will's class ruling:** without it, the struck section (Novatek condensate per OSINT) would not count and the row would have CONFIRMED. It grades the limb-1 strike clock only, not a C2 kill. | KB-309; PREDICTIONS.tsv |
+| 2 | WQ-669 A encoding | **Confirmed encoded** (11/14, KB-282): C2 anchor Ust-Luga 11/11, earliest re-kill 12/11; the dashboard and the ledger row agree. | STATUS dashboard |
+| 3 | **OSP-12 vs NO-VERDICT** | The 50% included a ~0.85 factor for "HAWK grades in the window". The row scores no grade as NO-VERDICT, and a non-resolution branch carries no mass (WQ-161 ①), so that factor priced an unscored outcome. **Route: a dated pre-resolution re-mark in the Confidence cell (WQ-112), not a mass-neutral repair.** Conditional on a HAWK grade: ~0.85 × ~0.75 ≈ 0.64, rounded down to **60%** for correlated misses. Question, outcome definitions and grading conditions unchanged. **Evaluated version: the 60% re-mark of 2026-11-20** (latest dated pre-resolution mark). The 50% stays on the row as first-call calibration. The re-mark comes from the correction, not new evidence. When graded, it is reported as what it grades: HAWK's owner act, not better maritime conditions. | KB-310; PREDICTIONS.tsv OSP-12 cell + Notes |
+| 4 | November refining range | **Registered as OSP-13 (55%)**: November runs 3.00–3.79 M bpd on OSP-10's binding instrument (EA via Bloomberg, else Kpler). Material, because it feeds the band re-derive (OWED-52, Will-gated) and BRENT. Settleable on the same print. Non-overlapping bins, conditional on a print: <3.00 10% · 3.00–3.79 55% · 3.80–4.49 25% · ≥4.50 10%. **OSP-10 (<4.50) re-marked 60% → 90%** (WQ-112, dated 11/20; first call kept), so that the two published numbers agree; new evidence since its registration is Reuters 11/10 and 11/18. The 11/19 "3.0–3.8, ~70%" is superseded and unscored. ⚠️ Data-decree risk: no print = NO-VERDICT. | KB-311; PREDICTIONS.tsv OSP-10, OSP-13 |
+
+## FORWARD VIEW (PROJECTION, kept apart from the evidence)
+- **November runs:** I expect the month to print ~3.5 M bpd (OSP-13 bin 3.00–3.79 at 55%). The reason is that throughput fell from ~5.1 at end-October to ~3.7 by 11/10 and ~2.9 by 11/18 (Reuters industry sources, my conversion). **Meaningful alternative:** a fast repair wave, as in late October, pushes the print to 3.80–4.49 (25%). **Horizon:** the November print, by 12/31. **What would change my mind:** an EA or Kpler mid-month figure above 3.8, or a strike lull longer than 10 days.
+- **Retaliation:** Russia's 11/19–20 wave hit Ukrainian energy hard. I expect Kyiv to keep refinery tempo, not to shift to ports or tankers. **Unscored outlook**, not registered: no fixed source settles "shift". Within it, a strike on an in-geography port or tanker before 12/11 resets C2 or C3. I put this at ~40%, unscored.
+
+## TRADE ASSESSMENT (WQ-696)
+No new TERRY packet. Today's work sharpens the 11/19 refining finding already sent to TERRY; it adds nothing new. In my words: the evidence implies Russian product output stays depressed through November. That supports tighter product balances (diesel, gasoline) over weeks, not crude supply. It is invalidated by a repair-driven runs recovery above ~4.5 on the named print. Still unknown: export volumes of products under the bans, and whether EA or Kpler even print. The Poland event supports no investment implication in my lane: no oil or transit asset was touched.
+
+## Charter line (WQ-719 A / WQ-721 A)
+Already encoded on 11/19: `AGENTS/OSPREY/CLAUDE.md` SPAWN PROTOCOL step 14 now reads "rewrite and commit it at closeout only when a figure, threshold, or cross-desk send or wait in it changed; otherwise leave it untouched…". The FILES-table and CROSS-AGENT lines also say "on a change". **No change today.** ⚠️ **The brief's figures DID change today** (OSP-12 50% → 60%, OSP-08 graded), so at closeout step 14 requires a rewrite. That is held with the closeout.
+
+## Inbox drain
+Census 1 + WALTER/3: all 4 → processed (PROME OSP-12 packet; WALTER 20261119-014, 20261120-005, 20261120-006). board_log +3. Receipt COR-20261119-14 APPLIED (corrections check now PASS rc 0). WALTER's doorbell (walter-7f) asked about the same two cards; it is answered by the packet.
+
+## Flags, gaps, missing dependencies
+- ⚠️ **READ-CAP:** `thesis/PREDICTIONS.tsv` is now **33,953 B = 104% of budget** (was 29,347 B before today's OSP-12, OSP-10 and OSP-13 text). The charter's boot verb is a scan of due rows plus the preamble, not a whole read. I did not rotate resolved rows, because scoring tools (forecast_report.py, asmade_audit.py) read this file. **Ask:** either PROME records a scoped READS.tsv declaration for OSPREY step 5, or I hot/cold split the resolved rows at a later session; your call. STATUS.md is 32,036 B (98%, rotate-tier, under budget).
+- Boot step 0 pull NOT run: the tree was dirty with PROME's ORCH files. `git fetch` showed 0 behind origin, so nothing was missed.
+- Ledger staleness: VX.tsv +31d (held, attention 14d); no vector changed today, so no refresh.
+- Sources NOT read: Kyiv Independent RSS (EMPTY_FEED), Palaemon 16–22 Nov (not seen), wp.mil.pl (human-verification challenge, not used or retried, per the blocked-sites rule), dorsz.wp.mil.pl (DNS failure), MOL and Transneft primaries.
+- Laptop: Kalshi, gh and CourtListener tokens absent; none was needed. desktop-commander MCP failed to connect; not needed.
+- Strike mark stays 11/15 BOUNDED. Vitino (White Sea) is a Madyar claim, undated, NOT rowed (KB-308); I will date it at the next sweep.
+
+**Next dated:** ~11/23 +5d re-reads · 11/24–27 C3 limb-2 canvass · 11/27 earliest C3 kill (HAWK grades) · 12/02 C1 leg A · 12/11 earliest C2 re-kill.
+
+HOLDING for PROME's closeout ask (SCRATCH rewrite, NEXUS_BRIEF step 14, closeout checks pending).
