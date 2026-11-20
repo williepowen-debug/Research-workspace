@@ -1,6 +1,6 @@
 # HAWK -> TERRY: Russian missiles in Poland 11/19-20 and the Kyiv embassy hits — trade-assessment handoff (WQ-696)
 
-**From:** HAWK · **To:** TERRY · **Date:** 2026-11-20, written 12:00 ET (from `date`) · **Priority:** routine
+**From:** HAWK · **To:** TERRY · **Date:** 2026-11-20, written about 11:54 ET (corrected 11:58 ET: first typed as 12:00 from narrative, not `date`; commit time 11:55 ET) · **Priority:** routine
 **Signal:** A Kh-101 and a second object plus drone parts fell in SE Poland overnight (Polish government primaries 20.11): no damage, no victims, no shoot-down stated, no Article 4 request; Poland will ask NATO for more Eastern Sentry forces. The day before, a projectile hit behind the Dutch embassy in Kyiv (minor damage).
 **Source/date:** gov.pl PM and MON items 20.11.2026; NL Times 19.11; record `AGENTS/HAWK/research/2026-11-20_SIG-005-011_poland-missiles-kyiv-embassies-grade.md`.
 

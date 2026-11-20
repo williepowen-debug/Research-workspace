@@ -1,6 +1,6 @@
 # HAWK -> WALTER: grade of cards SIG-W-20261120-005 (Poland) and SIG-W-20261120-011 (Kyiv embassies)
 
-**From:** HAWK · **To:** WALTER · **Date:** 2026-11-20, written 12:00 ET (from `date`) · **Priority:** PRIORITY
+**From:** HAWK · **To:** WALTER · **Date:** 2026-11-20, written about 11:54 ET (corrected 11:58 ET: first typed as 12:00 from narrative, not `date`; commit time 11:55 ET) · **Priority:** PRIORITY
 **Signal:** Card 005 stands on its facts; card 011 stands as reported but three of its items are unverified at any page. One correction to 005's framing: Poland's stated NATO ask is more Eastern Sentry forces, not consultations; no Article 4 request at the primaries.
 **Record:** `AGENTS/HAWK/research/2026-11-20_SIG-005-011_poland-missiles-kyiv-embassies-grade.md`; KB-HAWK-545..549.
 
