@@ -1,6 +1,6 @@
 # HOMER — THESIS + THESIS-LEVEL KILL RAIL
 
-**Kill rail re-derived: 2026-09-29** · Authored 2026-09-29 under Will's 8/23 build authorization (L3 build 3b, DAEDALUS PR6 ask 2, due 9/30) · **Criteria FROZEN from this commit** · Next formal grade: **2026-11-20** · Fleet registration: **`GATE-HOMER-THESIS-KILL`** in `PROME/GATES.tsv` (PROME, 2026-09-29). This file is the canonical letter; the gate row is a summary and pointer. **If any leg reaches its kill count before 11/20, re-date by packet to PROME.**
+**Kill rail re-derived: 2026-09-29** · Authored 2026-09-29 under Will's 8/23 build authorization (L3 build 3b, DAEDALUS PR6 ask 2, due 9/30) · **Criteria FROZEN from this commit** · **Formally graded 2026-11-20 (§10: 0 of 5 killed, 🔴 holds)** · Next formal grade: **2027-02-20** · Fleet registration: **`GATE-HOMER-THESIS-KILL`** in `PROME/GATES.tsv` (PROME, 2026-09-29). This file is the canonical letter; the gate row is a summary and pointer. **If any leg reaches its kill count before 11/20, re-date by packet to PROME.**
 
 > ⚠️ **What this file is NOT:** the per-prediction machinery in `PREDICTIONS.tsv` (HOM-01, HOM-02, early-kill arms). That covers **two metrics**. This rail covers the **transmission chain**. A HOM-02 resolution is evidence for leg A1 below, not a thesis grade.
 > **Convergence handle (L3 build 3c): BUILT 2026-10-15, §8** (6 days past its 10/09 due date). Between-grade clarifications from DAEDALUS's 10/08 sweeps: **§7**. No kill level moved.
@@ -270,3 +270,49 @@ No leg can reach its kill count before 11/20 (§7 V5), so there is **no early gr
 | **A3** | NAHB HMI ≥ 40, 3 prints | 29 (Oct) | ✅ November HMI Tue 11/17 10:00 ET | No (0 / 3) |
 
 **Expected outcome by the letter: 0 of 5 legs FIRED, 🔴 holds; A1 reported with its UNGRADED conjunct.** Owed at the grade: re-score the §8a handle (it was last scored 9/29), and HOM-02 if the Q3 NDS has printed. CARL (live, named consumer on DOCKET line 545) receives the result through NEXUS_BRIEF at closeout; a same-day packet is owed only on FALSIFIED or PARTIAL, which V5 rules out.
+
+---
+
+## 10. FORMAL GRADE — 2026-11-20 (GATE-HOMER-THESIS-KILL; the first grade under criteria frozen before the data)
+
+**Read 2026-11-20, 11:48–11:54 ET** (system clock, `date` at write; PROME prome-77 task letter written 11:48 ET; launched late, so "11/20" here means today, read in the late morning). Inputs: the newest first-published print held at the grade (V1). No criterion was reworded, split or merged (§4). WQ-700 (PROME, C3, 2026-11-16): A1 graded exactly as D12 states.
+
+| Leg | Standing rule (kill) | Current state @ level (as of, source) | Fired count | Verdict |
+|---|---|---|---|---|
+| **C1** | ICE First Look FC sales YoY ≤ 0% AND FC inventory YoY ≤ 0%, 3 prints | FC sales 8.2K **+14.5% YoY**; FC inventory **303K +37% YoY** (September First Look, Business Wire 10/27). October First Look not out (due ~11/23–30, D11): graded on September, as stated | **0 / 3** | **NOT FIRED** |
+| **C2 · CMBS** | Trepp MF DQ < 6.00%, 3 prints | **8.09%** (October, Trepp issuer PDF, read 11/05); November data ~12/01–05 | **0 / 3** | **NOT FIRED** |
+| **C2 · GSE** | max(Freddie, Fannie serious) < 0.50%, 3 prints | Freddie **0.58%** (Sept MVS) · Fannie **0.62%** (9/30, Q3 release) ⇒ max 0.62%; Fannie MF provision **$446M vs $259M** QoQ (rose, V3). October monthlies not out | **0 / 3** | **NOT FIRED** |
+| **A1** | MBA NDS FHA SA total DQ falls QoQ in 2 consecutive quarters AND ICE all-loans serious-DQ cure YoY better than −15% on the latest issue | **First conjunct MET:** Q2 11.79% (−9bps) and **Q3 11.74% (−5bps)** (MBA NDS released 11/20, quoted verbatim on CalculatedRisk; SECONDARY mirror, mba.org 403). **Second conjunct: NO READING** — ICE did not print the all-loans cure YoY in the October or November editions; last printed −28% (July), worse than −15% | first conjunct **2 of 2**; second **UNGRADED** | **NOT KILLED — UNGRADED** (§4: not NOT-FIRED; D12) |
+| **A2** | PMMS ≤ 6.50%, 4 weeks | **7.28% [11/19]** (+17bp; Freddie CSV, issuer) | **0 / 4** | **NOT FIRED** — 78bp above the line |
+| **A3** | HMI ≥ 40, 3 prints | **HMI 25** November (NAHB release 11/17, issuer), lowest since April 2012 | **0 / 3** | **NOT FIRED** — 15 points below |
+
+**LITERAL RESULT: 0 of 5 legs KILLED** (4 NOT FIRED, 1 UNGRADED). §4 row "anything else" ⇒ **🔴 holds.** No colour candidate exists, so nothing goes to Will; the same-day CARL packet is owed only on FALSIFIED or PARTIAL (V5 held: neither was reachable). CARL receives this grade through `NEXUS_BRIEF.md`.
+
+**Frozen cleanest-flip checks (§3), recorded, not graded:** C2 "for" (CMBS > 7.71%) MET again at 8.09% (⚠️ the $210M Cove at Tiburon loan may revert, PREREG §5). A3 "for" (price cutters > 45%) **MET: 46%** (HOM-04 HIT). A1 "for" (FHA SA ≥ 12.00%) NOT MET; A1 "against" (a second QoQ decline) **MET** — HOM-02 closed MISSED today. C1 had no new print.
+
+**The honest read.** The only leg that moved toward its kill is **A1**, and the way it moved argues *for* the core, not against it. MBA's Q3 release that gave the second FHA decline also gave: FHA serious DQ **unchanged** QoQ (+197bps YoY), the **FHA foreclosure rate 1.89%, highest since Q1-2017**, all-loans foreclosure inventory **0.71% (+4bps QoQ, +21bps YoY)**, and loans 90+ or in foreclosure up a fifth straight quarter. MBA total DQ excludes loans in foreclosure, so FHA loans moving into foreclosure lower the A1 headline. That is conversion (C1's claim), with HUD ML 2026-08 in force since 9/21. Builders (A3) worsened sharply. Rates (A2) rose back. Both cores sit far from their counts.
+
+**Leg nearest its count: A1** (one conjunct, which cannot currently be read). Even a full A1 kill changes nothing alone: amplifiers never kill (§4), and the intensity note needs 2 of 3, with A2 78bp and A3 15 points from theirs.
+
+**Next formal grade: 2027-02-20 (unchanged).** No core leg can reach 3 prints by then on any plausible path (C1 needs both YoY legs to swing from +14.5% / +37% to ≤ 0 for three First Looks; C2 CMBS needs a fall of more than 2pp below 6.00% for three Trepp prints). **Re-date early, by packet to PROME, if:** an ICE Mortgage Monitor edition prints an all-loans cure YoY better than −15% while the two FHA declines stand (A1 reaches its count), or any core print lands on the kill side of its line.
+
+### §8a handle — RE-SCORED at this grade (last scored 2026-09-29; CARL scores its vectors, HOMER feeds)
+
+| Leg | Was | Now | Why |
+|---|---|---|---|
+| C1 | 4 | **4** | Stock and conversion still rising (FC inventory +37%, FC sales +14.5% YoY, FHA FC rate 9-year high), but new FC starts −3% YoY (Sept) and the "for" flip (FC sales ≥ +20%) not met |
+| C2 | 4 | **5** | Upgrade trigger MET (Trepp > 7.71%: 8.04% Sept, 8.09% Oct) with MF special servicing 9.22% (new 2026 high) and Fannie provision +72%. ⚠️ Cove at Tiburon may revert in the November print |
+| A1 | 4 | **3** | The leg claims *inflow*: FHA headline DQ fell twice and ICE FHA new defaults −14% YoY (Sept). Non-curing persists (FHA cures −46% YoY) and distress is converting, which C1 carries. Co-rooted with C1 (R1), counted once |
+| A2 | 4 | **4** | PMMS 7.28%, RED; capped at 4 — no upgrade trigger defined, and I add none (fewer rules) |
+| A3 | 3 | **5** | Upgrade trigger MET: price cutters 46% (> 45%); HMI 25, traffic 16, incentives 68% |
+
+**Composite (no weighting): 4 + 5 + 3 + 4 + 5 = 21 / 25** (was 19). Independent roots still **3** (R1, R2, R3). A score is triage; the §3 rail governs.
+
+### Defects found at this grade
+
+| # | Date | Defect | Owed fix |
+|---|---|---|---|
+| D13 | 2026-11-20 | **A1's first conjunct is migration-sensitive.** MBA NDS total DQ excludes loans in foreclosure, so an *acceleration* of FHA loans into foreclosure (the thesis's own C1 mechanism, sped up by HUD ML 2026-08) lowers it. The conjunct fired today on exactly that release. The second conjunct (cure rate) guards A1 today, but it has no reading. Found by HOMER at grading; nothing moved at grading (§4) | **Between-grade amendment, drafted to PROME, not made:** restate A1's first conjunct on a migration-invariant measure (MBA FHA total DQ plus FHA foreclosure inventory, or FHA serious DQ). Will-gated as a change to a frozen leg. Pairs with D12 (successor cure statistic, WQ-700 kept as written) |
+| D14 | 2026-11-20 | §7 V5 said "11/20 cannot return FALSIFIED or PARTIAL" — confirmed by this grade; the source tier for A1 is a SECONDARY mirror (CalculatedRisk quoting MBA verbatim; mba.org refuses this box) | MBA primary owed only if the 5bps decline is contested; the sign is MBA's own words |
+
+Evidence: `reports/2026-11-20_thesis-formal-grade.md`; ledger rows dated 2026-11-20 (PIPELINE, BUILDER, RATES, PRICING); `PREDICTIONS.tsv` HOM-02 (MISSED) and HOM-04 (HIT).

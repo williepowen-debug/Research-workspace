@@ -138,7 +138,7 @@
 
 ---
 
-**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–54 ↔ `LESSONS_COLD_2.md` (11). Counts must match.
+**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–55 ↔ `LESSONS_COLD_2.md` (12). Counts must match.
 
 **44. [Instrument] — A Shared Date Label Is Not a Shared As-Of (the spread pairing that manufactured a 15bps move)**
 **Rule:** For any spread pairing a **SURVEY** series against a **DAILY** series, match the daily leg to … → `LESSONS_COLD_2.md` §44
@@ -172,3 +172,6 @@
 
 **54. [Verification] — A "Largest Since YYYY" Comparator Can Cross the Series' Own Method Change and Inflate the Claim**
 **Rule:** For any "largest/highest/first since <date>" claim, check whether the series' definition changed between then and now; carry the caveat or rephrase to "series record under the current method" … → `LESSONS_COLD_2.md` §54
+
+**55. [Calibration] — A Distress Call Specified on a Stock That Excludes Its Own Next Stage Misses When Distress Advances (HOM-02)**
+**Rule:** With a foreclosure accelerant in force, never specify a distress call on a DQ stock that excludes foreclosure; use DQ plus FC or serious DQ, and read FC inventory before calling a DQ decline relief … → `LESSONS_COLD_2.md` §55
