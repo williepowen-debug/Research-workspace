@@ -68,3 +68,4 @@ receipt_date	correction_id	action	note
 2026-11-18T15:39Z	COR-20261117-10	NO-OP	scope=Retail sales card 004 never used by LIQUID, CARL owns; 
 2026-11-18T15:39Z	COR-20261117-12	NO-OP	scope=Outage cards 008 and 011 never relayed or used by LIQUID, logged info-only; 
 2026-11-18T15:39Z	COR-20261117-31	NO-OP	scope=Weekday label only, LIQUID records cite the FSR by date with no weekday; 
+2026-11-20T16:27Z	COR-20261119-20	NO-OP	scope=LIQUID carried none of the corrected claims (Anthropic timing, AMD export wording, REG-36 name). Cards 017 and 018 consumed 11/20 with the corrected readings, REPORT 2026-11-20 s6 cites REG-37; 

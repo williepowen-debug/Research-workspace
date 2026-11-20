@@ -2,14 +2,20 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-19T09:18 ET, closed 2026-11-19T10:34:40-05:00 (PROME prome-36, G:GATE-LIQ-069 due-row wake launched late, laptop, Claude Code / Opus 5.5; closed on PROME's ask 10:33 ET)
+### CURRENT SESSION — 2026-11-20T11:22 ET, held for PROME's closeout ask (PROME prome-77, G:GATE-LIQ-076 due-row wake launched late, laptop, Claude Code / Opus 5.5; stamp 2026-11-20T11:29:00-05:00)
+
+- **Context:** grade 076 at its review; 11/19 HY cell as first published (>320 run, REG 350, re-kill); W2 and H.4.1 of 11/19; yen funding legs (SAM, BOND); TERRY read; funding sentence for HEARTBEAT; whole-inbox drain (1 + 5).
+- **Delivered:** HY 352 [11/19, first-published, pull 11:22:56 ET] = first close above 350 ⇒ REG-T-04 witness 1 of 3, >320 run 5, re-kill 0 of 2; CCC 1,361 (top of FRED's ICE window), B 380, HY−IG 258; IG 94 at 072's line; tier rule BROADENS clearly (IG +8, BBB +10, BB +26 vs 10/28). **076 NOT MET 1 of 3** (W2 as-of 11/11 G10 −7,007, G5L10 +937; W3 off since 11/16; W1 as-of 11/17 at 15:30 ET); re-arm end of 11/30; recommend 12/2. Funding unchanged (SOFR99 +8, SRF $3M, reserves +$19.1B): NOT SHOWN stands. H.4.1 11/18: FIMA $1M, foreign pool −$19.4B, custody +$19.8B, no sale shown. TERRY, SAM, BOND packets; KB-LIQ-153/154/156/157 appended; COR-20261119-20 NO-OP. → `research/2026-11-20_gate076-review/REPORT.md`.
+- **Open:** W1 as-of 11/17 addendum; 069 L4 watch on the 11/20 session (APLD −14.99% intraday); REG-T-04 on the 11/20 and 11/23 cells.
+
+### PRIOR SESSION — 2026-11-19T09:18 ET, closed 2026-11-19T10:34:40-05:00 (PROME prome-36, G:GATE-LIQ-069 due-row wake launched late, laptop, Claude Code / Opus 5.5; closed on PROME's ask 10:33 ET)
 
 - **Context:** 069 review due 11/19 on the 11/18 HY cell; >320 run, re-kill, tier rule, REG 350 on the same cell; can 076 be graded today; whole-inbox drain (4 WALTER); WQ-719 A / 721 A charter line.
 - **Delivered:** HY 347 [11/18, first-published, my pull 10:28:57 ET] ⇒ >320 run 4; re-kill 0 of 2; REG-T-04 witness 0 of 3 (3 under); tier rule BROADENS on the 15-session clause (BBB +7 at p90, borderline); CCC 1,353 (+24); HY−IG 254 (2026 high); IG 93 (1 under 072's >94). **069 review: 2 of 2 FIRED unchanged** (L1/L4 not fired; L2 CoreWeave 5Y about 1,078 clean [11/18]; L5 nothing new); PROME accepted the state cell verbatim, review_by 11/25. 076: W3 off since 11/16 (VIX ≥20), reset clock to about 11/30, recommend 12/2. Belgium TIC $507.9B (bare level, no China inference). FOMC minutes → KB-LIQ-153/154. CLOSEOUT.md NEXUS_BRIEF lines aligned to WQ-719 A / 721 A. STATUS rotated (crc32 5ec2e55a). No TERRY packet (no new implication). Commits bf203b6280, 0c89f89bfb (PROME packet). → `research/2026-11-19_gate069-review/REPORT.md`.
 - **Open:** 076 graded at the 11/20 wake (W2 as-of 11/11 + CFTC W1 as-of 11/17); H.4.1 (11/18 levels) not read; ING data-centre loan clearing prices.
 - **Defect caught by me:** the STATUS rotation script split each gate row at its last `|`, which moved the review_by column into the archive; caught on the post-rotation check and restored before commit.
 
-### PRIOR SESSION — 2026-11-18T10:34 ET, closed 2026-11-18T10:40:54-05:00 (PROME prome-6e, DOCKET line 1178, desktop, Claude Code / Opus 5.5; no pull at start per the letter; closed on PROME's ask, D:L1178 RESOLVED)
+### EARLIER SESSION — 2026-11-18T10:34 ET, closed 2026-11-18T10:40:54-05:00 (PROME prome-6e, DOCKET line 1178, desktop, Claude Code / Opus 5.5; no pull at start per the letter; closed on PROME's ask, D:L1178 RESOLVED)
 
 - **Context:** grade the November 17 ICE cell (>320 run 3 of 3), tier rule, 069 legs, Cable One; drain inbox (20: 3 top-level, 17 WALTER).
 - **Delivered:** HY 343 [11/17, first-published, my pull 10:35:18 ET, matches TERRY] ⇒ **>320 ×3 MET** (323/334/343); signal to ALL via WALTER (59cba599c0), SIGNALS row, trade read to TERRY (c25c9f6031). Tiers IG 92 (+2), BBB 115 (+3), BB 204 (+8), B 368 (+11), CCC 1,329 (+19) ⇒ BROADENS; re-kill 0 of 2; 072, 069 L1/L4 NOT FIRED. Cable One not separable. VULCAN four questions answered (b0119cd32d). Six correction receipts. PROME packet b9720641b5. → `research/2026-11-18_hy-1117-grade/REPORT.md`.

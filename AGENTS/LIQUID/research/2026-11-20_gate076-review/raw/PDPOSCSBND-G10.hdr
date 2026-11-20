@@ -1,0 +1,17 @@
+HTTP/2 200 
+content-type: application/json;charset=utf-8
+x-request-id: UNK-e2bec11b-99a3-4ff3-b872-095616965605
+strict-transport-security: max-age=31536000; includeSubDomains
+access-control-expose-headers: Content-Disposition
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+access-control-allow-methods: OPTIONS,GET
+x-frame-options: SAMEORIGIN
+pragma: no-cache
+access-control-allow-headers: Content-Type,Content-Disposition
+x-content-type-options: nosniff
+x-correlation-id: a0884fb0-e4fe-11f1-8215-06ffcea2e00d
+cache-control: no-store
+date: Fri, 20 Nov 2026 16:23:20 GMT
+content-length: 46442
+
