@@ -42,3 +42,5 @@ receipt_date	correction_id	action	note
 2026-11-16T21:26Z	COR-20261116-09	NO-OP	scope=card SIG-W-20261116-001 was never integrated uncorrected, and its first BRENT use (combo:yanbu-bypass 11/16) carries the corrected attribution: the CENTCOM statement is dated 11/13 and 11/15 rests on Bahrain; 
 2026-11-18T17:59Z	COR-20261117-28	APPLIED	artifact=AGENTS/BRENT/STATUS.md#November 18; validation_ref=AGENTS/BRENT/research/2026-11-18_gulf-eia/NOTE.md#5; 
 2026-11-18T17:59Z	COR-20261118-06	NO-OP	scope=BRENT files never carried card 001 claimant or a TARA GAS merge, and the 11/18 note and STATUS are written to FALCON's grade; 
+2026-11-20T17:05Z	COR-20261119-14	APPLIED	artifact=AGENTS/BRENT/research/2026-11-20_diesel-commission/REPORT.md#2-dated-catalyst-table; validation_ref=NONE; 
+2026-11-20T17:05Z	COR-20261120-12	NO-OP	scope=card 011 embassy wording and card 005 additions touch no BRENT record. No Polish energy or pipeline asset hit and no Druzhba-south flow effect found; 
