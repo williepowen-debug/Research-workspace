@@ -266,6 +266,25 @@ def diff_state(prev: dict | None, cur: dict) -> str | None:
     return None
 
 
+# WQ-716 (Will 2026-11-17), acceptance PROME/tools/tests/ACCEPTANCE_wq_ledger_classes_checked_2026-11-20.md:
+# a NEW decision row for Will states which done-without-asking classes were checked and why none applies.
+# Presence only: the tool cannot judge the reason.
+_CLASSES_CHECKED = re.compile(
+    r"C1\s*(?:to|through|[-–—])\s*C13\s+checked\W{0,3}\s*none\s+appl(?:ies|y)\b\W*\S.{14,}", re.I | re.S)
+_WAITING = {"OPEN", "BLOCKED"}
+
+
+def classes_statement_missing(cur: dict) -> bool:
+    """True for a waiting DECISION row whose Notes lack the classes-checked statement."""
+    if "DECISION" not in (cur.get("type") or "").upper() or cur.get("status_after") not in _WAITING:
+        return False
+    try:
+        notes = json.loads(cur.get("record") or "{}").get("notes", "")
+    except (ValueError, AttributeError):
+        notes = ""
+    return not _CLASSES_CHECKED.search(notes or "")
+
+
 def cmd_sync(ledger: Path, q_path=None, arch=None) -> int:
     if not seal_ok(ledger):
         print(f"WQ-LEDGER ✗ rc 1 — SEAL BROKEN on {ledger}: nothing appended. Restore: `git checkout -- {ledger} {crc_path(ledger)}`, then re-run sync. Never edit the ledger by hand.")
@@ -277,10 +296,18 @@ def cmd_sync(ledger: Path, q_path=None, arch=None) -> int:
     prev = last_state(rows)
     live = live_state(q_path, arch)
     events = []
+    refused = []
     for wq in sorted(live, key=sort_key):
         kind = diff_state(prev.get(wq), live[wq])
+        if kind == "REGISTERED" and classes_statement_missing(live[wq]):
+            refused.append(wq)
         if kind:
             events.append(event_row(kind, live[wq], at=now_stamp()[:10] if kind != "REGISTERED" else (live[wq].get("at") or now_stamp()[:10])))
+    if refused:
+        print("WQ-LEDGER ✗ rc 1 — nothing appended. New DECISION row(s) " + ", ".join("WQ-" + w for w in refused)
+              + " lack the grants statement in Notes. Check his standing grants first, then write: "
+              "'Classes C1 to C13 checked: none applies (<why>)'. WQ-716.")
+        return 1
     n = append(ledger, events)
     print(f"WQ-LEDGER ✓ sync → {ledger}: {n} event(s) appended (" + ", ".join(f"{e['event']} WQ-{e['wq']}" for e in events) + ")" if n else f"WQ-LEDGER ✓ sync → {ledger}: 0 events (ledger matches the queue)")
     return 0
@@ -420,6 +447,31 @@ def selftest() -> int:
         chk("check FAILS after a hand edit of a prior row (I1 seal)", cmd_check(led) == 1)
         led.write_text(raw, encoding="utf-8")
         chk("check passes again once the bytes are restored", cmd_check(led) == 0)
+        # WQ-716: a new waiting DECISION row needs the classes-checked statement in Notes
+        led.write_text(raw, encoding="utf-8")
+        base = fq2.read_text(encoding="utf-8")
+        def with_row(row):
+            fp = Path(td) / "WILL_QUEUE_716.md"
+            fp.write_text(base.replace("| 902 |", row + "\n| 902 |", 1), encoding="utf-8")
+            return fp
+        def try_row(row):
+            before = led.read_bytes(), crc_path(led).read_bytes()
+            rc = cmd_sync(led, with_row(row), fa)
+            same = (led.read_bytes(), crc_path(led).read_bytes()) == before
+            led.write_bytes(before[0]); crc_path(led).write_bytes(before[1])
+            return rc, same
+        GOOD = "Classes C1 to C13 checked: none applies (a trade, root rule #5 governs it)."
+        row = "| 910 | **Fixture new row.** Body. | {t} | 2026-09-30 | 9/12 | Rec: decline. | {n} |"
+        chk("new DECISION row without the statement: refused, nothing appended", try_row(row.format(t="DECISION", n="—")) == (1, True))
+        chk("new DECISION row with an EMPTY Notes cell: refused", try_row(row.format(t="DECISION", n=" ")) == (1, True))
+        chk("statement with no reason after it: refused", try_row(row.format(t="DECISION", n="Classes C1 to C13 checked: none applies.")) == (1, True))
+        chk("'checked' without 'none applies': refused", try_row(row.format(t="DECISION", n="C1 to C13 checked, see the card for the long reasoning.")) == (1, True))
+        chk("new DECISION row with the statement: registered", try_row(row.format(t="DECISION", n=GOOD)) == (0, False))
+        chk("new blocked DECISION row without the statement: refused", try_row(row.format(t="DECISION", n="⛔ waits: TERRY card. No statement.")) == (1, True))
+        chk("new HANDS row without the statement: registered", try_row(row.format(t="HANDS", n="—")) == (0, False))
+        chk("an existing ledgered row is never refused (901 and 902 carry no statement)", cmd_sync(led, fq2, fa) == 0)
+        two = row.format(t="DECISION", n="—") + "\n" + "| 911 | **Second new row.** Body. | HANDS | 2026-09-30 | 9/12 | Rec: n/a | — |"
+        chk("one refused row refuses the whole run (the HANDS row beside it is not appended)", try_row(two) == (1, True))
         # isolation: the fixture run must never see the LIVE registry ledger through the deck
         chk("live_state ignores any ledger (primary sources only)", "ledger" not in {s["source"] for s in live_state(fq, fa).values()})
     print("WQ-LEDGER selftest " + ("PASS" if ok else "FAIL"))
