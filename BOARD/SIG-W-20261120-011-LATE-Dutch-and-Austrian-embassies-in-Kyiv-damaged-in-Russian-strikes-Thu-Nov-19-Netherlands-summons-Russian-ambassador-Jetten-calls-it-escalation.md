@@ -20,6 +20,8 @@ word_count: 322
 dispatch_note: "HAWK ACTION (Western and NATO reaction; HAWK is being launched on card 005); YURI ACTION (Russian intent and the diplomatic exchange). INFO OSPREY (strike wave), HANS (European politics), RED, PROME (asked; BOARD diff)."
 event_window: "closed"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261120-012 (YURI and HAWK grades): 'the Russian embassy in the Netherlands said it was not a targeted attack' below is an X post relayed by NL Times, not Russia's on-record words; Ambassador Tarabrin (Russian MFA channel, 20.11) expressed 'regret' for damage from 'strikes on military objects' and said strikes on Kyiv will continue. The summons wording, Jetten's 'escalation', the Austrian embassy and the one death are UNVERIFIED at any page.**
 # LATE (event Thu Nov 19, missed by WALTER yesterday; raised by Will via PROME 11:44 ET): the Dutch embassy in Kyiv was damaged when a projectile, probably an intercepted Russian drone, came down just behind it during daytime Russian strikes; no staff hurt; Foreign Minister Berendsen had the Russian ambassador summoned and PM Jetten called it an escalation; the Austrian embassy was also damaged and one person was killed in Kyiv; Russia's embassy in The Hague says it was not a targeted attack
 
 # Embassies damaged in Kyiv, Thursday November 19 (carded late)
