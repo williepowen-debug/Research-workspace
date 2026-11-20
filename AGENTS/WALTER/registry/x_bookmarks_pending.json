@@ -1,15 +1,15 @@
 {
   "ids": [],
-  "staged_at": 1795194903.7253654,
+  "staged_at": 1795199642.0453365,
   "stage_schema": 2,
-  "stage_id": "36f43817d72541b29fac87d1c28ed6dd",
+  "stage_id": "ba56b18e0199453abaffb9e07fd51626",
   "review_required": true,
   "scan": {
-    "checked_at": "2026-11-20T17:15:03Z",
-    "head_checked_at": "2026-11-20T17:15:03Z",
+    "checked_at": "2026-11-20T18:34:02Z",
+    "head_checked_at": "2026-11-20T18:34:02Z",
     "head_checked_this_run": true,
     "incomplete": false,
     "attempts": 1
   },
-  "checkpoint_hash": "959d73ea9e97120c869703ee8e1351e474031c909d3ce64c55d2b04a56af1f7e"
+  "checkpoint_hash": "0920d8d108db85884d2163255f9de517876ffff4e02f36479d0121e19daef62f"
 }
