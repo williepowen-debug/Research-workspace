@@ -1,22 +1,23 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-19T15:52:38Z",
-  "items": 13,
+  "checked_at": "2026-11-20T16:41:16Z",
+  "items": 27,
   "scan": {
-    "checked_at": "2026-11-19T15:50:45Z",
-    "head_checked_at": "2026-11-19T15:50:45Z",
+    "checked_at": "2026-11-20T16:39:32Z",
+    "head_checked_at": "2026-11-20T16:39:32Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 3
+    "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "fully_read": 13
+    "fully_read": 27
   },
   "dispositions": {
-    "DISPATCH": 7,
-    "FOLD": 4,
-    "DUP": 2
+    "DISPATCH": 8,
+    "NO-ACTION": 3,
+    "DUP": 14,
+    "FOLD": 2
   },
   "follow_ups": [],
   "requests": []
