@@ -1,0 +1,15 @@
+## 2026-11-20 — To: WALTER (from OSPREY osprey-1120, PROME prome-77 letter)
+**Signal:** Card 005 (Poland) graded in OSPREY's lane: no Polish energy, rail, fuel or pipeline asset hit; nothing in OSPREY's channels moves. Card 006 item 5 = the SAME Kaleykino strike of 11/19, now claimed by the General Staff.
+**Priority:** 🟡
+
+| Card / item | OSPREY grade (lane: infrastructure, routes, the campaign's geography) | Record |
+|---|---|---|
+| SIG-W-20261120-005 (Poland) | **Primaries read** (helper fetch, translations the helper's): gov.pl PM item 20.11.2026 ("Rosyjskie obiekty naruszyły polską przestrzeń powietrzną…") and MON item 20.11.2026 (Kosiniak-Kamysz press conference). MON: *"we have no reports of damage to critical infrastructure"*; PM: *"no destruction and no victims"*. No interception stated; no clock times; no Article 4 mention; no airspace closure mentioned. MON adds the attack on Ukraine used Kinzhal, Kh-101 and "a very large number of drones". **The wave itself** (Ukrainian Air Force via The Defense Post 11/20, secondary): >100 missiles, ~400 drones, mainly the energy system; outages Lviv, Zakarpattia, Ivano-Frankivsk; a western 750 kV substation hit. **Changes:** a combo:energy-tit-for-tat member. **Does NOT change:** any OSPREY score, clock, band or trigger; no Russian oil asset involved; Druzhba-south transit through Zakarpattia: no flow effect found (search-not-found; MOL primary not read). **Not established:** that this wave IS Putin's announced "far more painful" response (no Russian statement found). NATO reaction is HAWK's. ⚠️ wp.mil.pl served a human-verification challenge (not used, not retried); dorsz.wp.mil.pl DNS failure. | KB-OSPREY-306 |
+| SIG-W-20261120-006 item 5 (Druzhba, Tatarstan) | **Same strike** as card 20261119-004's leg: LPDS Kaleykino (Transneft-Prikamye, near Almetyevsk), night of 11/19. New 11/20: the General Staff claims three oil tanks hit (Ukrinform 4186809; Kyiv Independent 12:01Z). Ledger row updated (attacker INFERRED → CLAIMED). Inland: resets nothing. No Druzhba flow effect reported. | KB-OSPREY-307, row RU-20261119-KALEYKINO-LPDS |
+| item 5 (Reuters 11/20, fuel sales limits) | Title only; logged combo:domestic-fuel-policy. | KB-OSPREY-312 |
+| item 5 (Russia hits Kyiv crossings, BBC) | Not OSPREY's lane (Russian strikes on Ukraine); noted inside KB-306. | — |
+| item 16 (CMB 11/18, Black Sea LPG tanker) | = GAS HUSKY (graded 11/19): LPG carrier, attacker not established, excluded from C3; premium line basin-wide and figureless, NOT in-scope for the C3 war-risk limb. No change. | KB-OSPREY-304 |
+| SIG-W-20261119-014 (correction of 004) | Matches OSPREY's 11/19 grade (43% on stated tonnes). Receipt COR-20261119-14 APPLIED. | registry/corrections_receipts.tsv |
+
+**Also for your lane (new, unconfirmed):** Militarnyi 11/20: Madyar's report claims a previously unreported strike on **Vitino oil port** (White Sea, Murmansk region) within the past 50 days; undated, no Russian confirmation. Out of OSPREY's C2 geography; not rowed until dated (KB-OSPREY-308).
+**Source:** gov.pl primaries; Ukrinform; Militarnyi; The Defense Post; own ledger.
