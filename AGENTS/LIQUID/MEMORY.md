@@ -2,11 +2,11 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-20T11:22 ET, held for PROME's closeout ask (PROME prome-77, G:GATE-LIQ-076 due-row wake launched late, laptop, Claude Code / Opus 5.5; stamp 2026-11-20T11:29:00-05:00)
+### CURRENT SESSION — 2026-11-20T11:22 ET, closed on PROME's ask (PROME prome-77, G:GATE-LIQ-076 due-row wake launched late, laptop, Claude Code / Opus 5.5; stamp 2026-11-20T11:29:00-05:00)
 
 - **Context:** grade 076 at its review; 11/19 HY cell as first published (>320 run, REG 350, re-kill); W2 and H.4.1 of 11/19; yen funding legs (SAM, BOND); TERRY read; funding sentence for HEARTBEAT; whole-inbox drain (1 + 5).
 - **Delivered:** HY 352 [11/19, first-published, pull 11:22:56 ET] = first close above 350 ⇒ REG-T-04 witness 1 of 3, >320 run 5, re-kill 0 of 2; CCC 1,361 (top of FRED's ICE window), B 380, HY−IG 258; IG 94 at 072's line; tier rule BROADENS clearly (IG +8, BBB +10, BB +26 vs 10/28). **076 NOT MET 1 of 3** (W2 as-of 11/11 G10 −7,007, G5L10 +937; W3 off since 11/16; W1 as-of 11/17 at 15:30 ET); re-arm end of 11/30; recommend 12/2. Funding unchanged (SOFR99 +8, SRF $3M, reserves +$19.1B): NOT SHOWN stands. H.4.1 11/18: FIMA $1M, foreign pool −$19.4B, custody +$19.8B, no sale shown. TERRY, SAM, BOND packets; KB-LIQ-153/154/156/157 appended; COR-20261119-20 NO-OP. → `research/2026-11-20_gate076-review/REPORT.md`.
-- **Open:** W1 as-of 11/17 addendum; 069 L4 watch on the 11/20 session (APLD −14.99% intraday); REG-T-04 on the 11/20 and 11/23 cells.
+- **Open:** W1 as-of 11/17 addendum (PROME moved it to the next session); 069 L4 watch on the 11/20 session (APLD −14.99% intraday); REG-T-04 on the 11/20 and 11/23 cells. WALTER FLASH SIG-W-20261120-001 consumed (noted, 4afa9c8c0c). PROME set 076 review_by 12/2 and wrote the three GATES cells.
 
 ### PRIOR SESSION — 2026-11-19T09:18 ET, closed 2026-11-19T10:34:40-05:00 (PROME prome-36, G:GATE-LIQ-069 due-row wake launched late, laptop, Claude Code / Opus 5.5; closed on PROME's ask 10:33 ET)
 
@@ -126,4 +126,4 @@
 
 ### NEXT SESSION
 
-**STATUS §3 is the list.** 11/19 (prome-36): 069 reviewed (2 of 2 FIRED unchanged, review_by 11/25); >320 run at 4 [347, 11/18]. Next: each new ICE cell extends or resets the run; **076 review at the 11/20 wake** (W2 as-of 11/11 posted 11/19 about 16:15 ET; W1 as-of 11/17 CFTC Fri about 15:30 ET; no write-up owed; recommend 12/2 next); H.4.1 11/18 levels (foreign RRP and FIMA vs the 11/11 baseline; BOND reads custody); ING data-centre loan clearing prices (KB-LIQ-153). Then the DTCC probe repair. Earlier NEXT SESSION text → `git log -p -- AGENTS/LIQUID/MEMORY.md`.
+**STATUS §3 is the list.** 11/20 (prome-77): 076 reviewed NOT MET 1 of 3 (review_by 12/2); HY 352 [11/19] first above 350, >320 run 5. Next (11/25 wake): W1 as-of 11/17 addendum; HY cells 11/20, 11/23, 11/24 (REG-T-04, run, tier rule); 069 review incl. the 11/20 L4 session (APLD, IREN closes; HY ≥ 357); funding prints for 11/20 onward (the sell-off is in none yet); ING data-centre loan clearing prices (KB-LIQ-153); DTCC probe repair. Earlier NEXT SESSION text → `git log -p -- AGENTS/LIQUID/MEMORY.md`.
