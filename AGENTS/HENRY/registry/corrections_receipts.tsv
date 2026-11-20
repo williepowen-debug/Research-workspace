@@ -73,3 +73,4 @@ receipt_date	correction_id	action	note
 2026-11-18T15:19Z	COR-20261117-17	NO-OP	scope=HENRY cites no Fed Financial Stability Report figure (grep FSR and Financial Stability Report over STATUS, NEXUS_BRIEF, KB, LAST_COMPLETION and 11/17 research found none), BROCK's perimeter; 
 2026-11-18T15:19Z	COR-20261117-20	NO-OP	scope=Figures in cards 018 and 019 hold, and HENRY's 11/17 close record and MEMORY already carry Kress as interim CEO since 11/12 per VULCAN's 8-K read, no HENRY figure changes; 
 2026-11-18T15:19Z	COR-20261117-31	NO-OP	scope=Weekday label only, HENRY cites no Financial Stability Report publication date or weekday in its files (grep 2026-11-18); 
+2026-11-20T16:37Z	COR-20261119-20	NO-OP	scope=HENRY authored the corrected two-leg grade and STATUS plus research/2026-11-19_second-touch/MAP.md already carry it. No HENRY surface carried the single-moment framing or Hunterbrook claim or REG-36; 
