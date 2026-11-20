@@ -1,1 +1,15 @@
-{"ids": [], "staged_at": 1795192876}
+{
+  "ids": [],
+  "staged_at": 1795194903.7253654,
+  "stage_schema": 2,
+  "stage_id": "36f43817d72541b29fac87d1c28ed6dd",
+  "review_required": true,
+  "scan": {
+    "checked_at": "2026-11-20T17:15:03Z",
+    "head_checked_at": "2026-11-20T17:15:03Z",
+    "head_checked_this_run": true,
+    "incomplete": false,
+    "attempts": 1
+  },
+  "checkpoint_hash": "959d73ea9e97120c869703ee8e1351e474031c909d3ce64c55d2b04a56af1f7e"
+}
