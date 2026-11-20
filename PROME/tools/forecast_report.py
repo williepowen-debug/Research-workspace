@@ -33,6 +33,8 @@ PCT = re.compile(r"(?<![\d.])(\d{1,3}(?:\.\d+)?)\s*(?:%|pct\b)")
 # Unambiguous typed forms scorecard.TOKEN_MAP leaves UNMAPPED; a local reading, the owner's map is not edited.
 LOCAL = {"RESOLVED-HIT": "HIT", "RESOLVED-CONFIRMED": "HIT", "RESOLVED-CONFIRM": "HIT", "RESOLVED-MISS": "MISS"}
 DEC = re.compile(r"P\(TRUE[^)]*\)\s*=\s*(0?\.\d+)")
+LEAD_PCT = re.compile(r"\s*PROBABILITY\s+(\d{1,3}(?:\.\d+)?)\s*%", re.I)   # the prediction text OPENS with it (WATT's form)
+BARE_DEC = re.compile(r"\s*(0?\.\d+)\s*$")
 
 
 def load_bucket():
@@ -74,8 +76,24 @@ def registry():
 def prob(conf, pred=""):
     """Latest dated mark governs scoring (WQ-112): the first figure in the cell. '(was X%)' is first-call."""
     s = conf or ""
-    if re.match(r"\s*(UNSCORED|NOT SCORED|PROVISIONAL|UNASSIGNED|ASSUMPTION|\(unstated\)|—|-\s*$)", s, re.I):
-        return None
+    if re.match(r"\s*(UNSCORED|NOT SCORED|UNASSIGNED|\(unstated\)|—|-\s*$)", s, re.I):
+        return None                                   # the desk says: do not score
+    if re.match(r"\s*(PROVISIONAL|ASSUMPTION)", s, re.I):
+        # An evidence TIER, not an instruction (VULCAN's and WATT's charters). Only a probability stated in the
+        # prediction text is read; other figures in the tier cell are not (acceptance file of 2026-11-20).
+        m = DEC.search(pred or "")
+        if m:
+            v = float(m.group(1))
+        else:
+            m = LEAD_PCT.match(pred or "")
+            if not m:
+                return None
+            v = float(m.group(1)) / 100
+        return v if 0 < v <= 1 else None
+    m = BARE_DEC.match(s)
+    if m:                                             # the whole cell is one decimal (HENRY's form)
+        v = float(m.group(1))
+        return v if 0 < v < 1 else None
     rg = re.match(r"\s*(\d{1,3})\s*-\s*(\d{1,3})\s*(?:%|pct\b)", s)
     if rg:
         return (float(rg.group(1)) + float(rg.group(2))) / 200
@@ -585,6 +603,17 @@ def selftest():
     if t["known"] != D(10) or t["cls"] != "BEFORE": bad.append(("a STUCK version is not decided", t["known"], t["cls"]))
     body = render([{"desk": "X", "id": "X-1", "bucket": "HIT", "p": .6, "basis": "status", "conf": "60%", "outcome": "", "resolved": None}], [], None, None)
     if "SKIPPED (--no-history)" not in body or "| BEFORE" in body: bad.append("A11 skipped history must say so")
+    # stated-probability forms (acceptance file of 2026-11-20): (confidence cell, prediction text, want)
+    forms = [("0.40", "", .4), (" .5 ", "", .5), ("0.40 (was 0.55)", "", None), ("1.0", "", None), ("0.0", "", None), ("0", "", None),
+             ("ASSUMPTION", "P(TRUE) = 0.20. By 2027-02-28 x", .2), ("PROVISIONAL", "P(TRUE | a verdict) = 0.60. TSMC", .6),
+             ("PROVISIONAL", "PROBABILITY 88%. PJM clears at the cap", .88), ("provisional", "probability 45%. x", .45),
+             ("PROVISIONAL", "PJM clears above 88% of the cap", None), ("PROVISIONAL", "The PROBABILITY 88% is stated late", None),
+             ("PROVISIONAL 30% of sample", "no stated form", None), ("PROVISIONAL", "", None), ("ASSUMPTION", "PROBABILITY 140%. x", None),
+             ("NOT SCORED — NO-VERDICT 2026-09-24. (Was: 70%)", "P(TRUE) = 0.60", None), ("UNSCORED", "PROBABILITY 88%. x", None),
+             ("UNASSIGNED", "P(TRUE) = 0.60", None), ("(unstated)", "PROBABILITY 50%. x", None), ("—", "P(TRUE) = 0.60", None),
+             ("", "PROBABILITY 88%. x", None), ("", "closes above 4.60% by month end", None)]
+    for cf, pr, want in forms:
+        if prob(cf, pr) != want: bad.append(("stated form", cf, pr[:20], prob(cf, pr), want))
     # WQ-716 listing: new calls with no probability (7-field versions, as file_history writes them)
     W = lambda ct, day, p, text="will the spread close above 350 by month end", made="": (ct, D(day), p, False, None, made, text)
     R = lambda desk, rid, p: {"desk": desk, "id": rid, "p": p, "bucket": "OPEN", "basis": "status", "conf": "", "outcome": "", "resolved": None}
@@ -605,7 +634,7 @@ def selftest():
     if "**4 call(s)** across 2 desk(s): A: A-1, A-4, A-6 · B: B-2." not in ub or "1 row(s) with no probability have no committed version" not in ub: bad.append("no-probability section text")
     if "**0 call(s)** across 0 desk(s): none." not in render([R("A", "A-2", .6)], [], urec, None): bad.append("no-probability section says none")
     if "with no probability, by desk\n\n**SKIPPED (--no-history)" not in body: bad.append("no-probability section skipped without history")
-    print("selftest", "FAIL " + str(bad) if bad else "PASS", len(cases) + 3 + len(tc) + 30)
+    print("selftest", "FAIL " + str(bad) if bad else "PASS", len(cases) + 3 + len(tc) + 30 + len(forms))
     return 1 if bad else 0
 
 
