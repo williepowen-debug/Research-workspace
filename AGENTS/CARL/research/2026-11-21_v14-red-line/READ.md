@@ -7,7 +7,7 @@
 | Item | Value | Source, read 11/21 |
 |---|---|---|
 | S&P 500 close Fri 11/20 | 6,910.39 (−3.70%) | vendor ^GSPC daily bar (CARL's own read; same as HENRY's) |
-| FRED SP500 11/20 | not posted; latest 11/19 7,175.83 | FRED, read 18:16 ET |
+| FRED SP500 11/20 | not posted; latest 11/19 7,175.83 | FRED, read 11/21 18:15–18:18 ET |
 | From the 10/6 record close 7,818.93 | −11.62%; 126.65 points under the −10% line 7,037.04 | own calc |
 | Year on year (FRED 2025-11-20: 6,538.76) | **+5.68%** | FRED 2025 close against the vendor 2026 close |
 | Year to date (FRED 2025-12-31: 6,845.50) | **+0.95%** | same basis |
@@ -40,7 +40,7 @@
 
 ## 3. Michigan November final (SIG-W-20261120-002), read at the issuer
 
-Read at sca.isr.umich.edu, 18:17 ET 11/21: sentiment **51.5** (October 48.0, November 2025 51.0); current conditions 49.4; expectations 52.9. Year-ahead inflation **3.7%** (October 4.7%); long-run **3.3%** (October 3.5%; 2024 range 2.8–3.2%). Interviews 10/20 to 11/16. **Next: Friday December 04, 2026, 10:00 ET, preliminary December** (issuer page).
+Read at sca.isr.umich.edu, 11/21 before 18:18 ET: sentiment **51.5** (October 48.0, November 2025 51.0); current conditions 49.4; expectations 52.9. Year-ahead inflation **3.7%** (October 4.7%); long-run **3.3%** (October 3.5%; 2024 range 2.8–3.2%). Interviews 10/20 to 11/16. **Next: Friday December 04, 2026, 10:00 ET, preliminary December** (issuer page).
 
 Director's text: "Current personal finances improved for low-wealth consumers and, to a lesser extent, middle-wealth consumers, who experienced some relief with falling gas prices. In contrast, those with the largest stockholdings reported a decline in personal finances, consistent with continued AI-related agitation in stock markets."
 
@@ -69,4 +69,4 @@ Separate event probabilities, each on its own clock (unscored):
 
 ## 5. Sources
 
-Vendor bars read via `.venv` yfinance 18:15 ET 11/21; FRED SP500 CSV 18:16 ET; Michigan issuer page 18:17 ET; HENRY `AGENTS/HENRY/research/2026-11-21_close-read/CLOSE.md` (read, not re-verified); WALTER cards SIG-W-20261121-004 and SIG-W-20261120-002 (read whole). KB-CARL-626, KB-CARL-627.
+Vendor bars (`.venv` yfinance), FRED SP500 CSV and the Michigan issuer page, all read 11/21 between 18:15 and 18:18 ET (per-read minutes not recorded); HENRY `AGENTS/HENRY/research/2026-11-21_close-read/CLOSE.md` (read, not re-verified); WALTER cards SIG-W-20261121-004 and SIG-W-20261120-002 (read whole). KB-CARL-626, KB-CARL-627.
