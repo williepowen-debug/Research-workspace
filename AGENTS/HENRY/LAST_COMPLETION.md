@@ -1,4 +1,4 @@
-# HENRY — 2026-11-21 18:02–18:2x ET (late wake): the S&P closed Friday through its −10% line; options dealers offer no cushion down to about 6,400 — CLOSED on PROME's ask
+# HENRY — 2026-11-21 18:02–18:14 ET (late wake): the S&P closed Friday through its −10% line; options dealers offer no cushion down to about 6,400 — CLOSED on PROME's ask
 
 **RESULT:** The S&P 500 closed Friday 11/20 at 6,910.39, down 3.70%, which is 126.65 points under my red line at 7,037.04 and 11.62% under the October record. The line fired and WALTER routed it to CARL and PROME. The fall was led by chips (Nvidia −14%), while the average stock, regional banks and junk-bond funds fell far less and Treasury yields dropped sharply. Options dealers are positioned so their hedging enlarges moves both ways at the same strength from about 6,400 to 7,100, so Monday can swing hard in either direction.
 
