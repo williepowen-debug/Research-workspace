@@ -29,7 +29,7 @@
 2. **11/23 close on History:** VIX9D/VIX, VIX3M/VIX, PRED-11 (a close above 35.89 resolves it CONFIRMED). If VIX closes over 40, the 40 line fires (regime CRASH, thesis prediction 4 arms: HY > 600 within 20 days).
 3. **11/25 close:** prediction 2' arms if the cash curve is still inverted (7th close).
 4. **About 12/04:** Nvidia 10-Q (VULCAN). **12/16:** December SOQ vs Z6 28.46; PRED-11 resolves; L441.
-5. **Owed to PROME (draft):** `writeback_order_check.py` vs WQ-719 A (MAINTENANCE 2026-11-21).
+5. **Done 11/21 on PROME's word:** `writeback_order_check.py` WQ-719 A exemption (a lagging brief is an advisory, not a breach; MAINTENANCE 2026-11-21). At a no-change closeout, leave the brief untouched and read the EXEMPT line as your judgement to make.
 6. **Artifacts:** the vol cheat-sheet and Operating Picture are owed a republish on this material vol shift (not done this bounded session).
 7. Boot reds: CANARY_MAP dark ledger (1). D:L342 on 11/27.
 

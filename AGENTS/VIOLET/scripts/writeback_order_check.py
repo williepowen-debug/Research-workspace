@@ -89,6 +89,19 @@ TRACKED = {
 # delivered, so both locations count.
 MEMO_DIRS = ("PROME/inbox", "PROME/inbox/processed")
 
+# ⚖️ WQ-719 A EXEMPTION (Will 2026-11-18; applied 2026-11-21 on PROME prome-77's
+# word, the one change asked). NEXUS_BRIEF.md is rewritten only when a figure,
+# threshold, or cross-desk send or wait in it changed; otherwise it is left
+# untouched with no As-of or pin refresh. So a brief that LAGS STATUS, or pins an
+# older STATUS commit, is no longer a breach by itself.
+# ⚠️ WHAT THIS CANNOT SEE: whether the session changed a brief figure. That
+# judgement is the session's (charter step 12); this check prints it as an
+# advisory every time the brief lags, so the exemption is never silent. A pin
+# that names NO STATUS revision (WQ-721 A, PIN-UNRESOLVED) still fails closed.
+LAG_EXEMPT = {"NEXUS_BRIEF.md"}
+EXEMPT_NOTE = ("lags STATUS: permitted by WQ-719 A ONLY if no figure, threshold, or cross-desk "
+               "send or wait in the brief changed this session (this check cannot see that)")
+
 
 def resolve(name: str) -> list[Path]:
     """Tracked-surface name -> every concrete path it names.
@@ -215,10 +228,9 @@ def brief_provenance() -> list[str]:
                        f"that touched STATUS.md.\n"
                        f"     A hash that names no STATUS revision points NEXUS at nothing.")
         elif not is_latest and not dirty:
-            out.append(f"  🔴 NEXUS_BRIEF cites STATUS commit `{cited}`, but the latest STATUS "
-                       f"commit is `{latest}` (brief committed in `{brief_commit}`).\n"
-                       f"     A stale hash sends NEXUS to the wrong STATUS while every vintage "
-                       f"check passes green.")
+            # WQ-719 A: an untouched brief keeps its older pin by rule, so this is an
+            # advisory, not a breach (printed by main() beside the lag line).
+            pass
 
     # ② the As-of stamp cannot be later than the commit that published it
     ms = re.search(r"\*\*As of:\*\*\s*(\d{4}-\d{2}-\d{2})\s*\*{0,2}~?(\d{1,2}):(\d{2}|\dx|xx)", text)
@@ -318,11 +330,15 @@ def main() -> int:
         return 1
 
     lagging = []
+    exempt_shown = False
     lines = [f"  reference  {REF:<20} {ref_basis}"]
     for name, consumer in TRACKED.items():
         ts, basis = effective_ts(name)
         lag_min = (ref_ts - ts) / 60.0
-        if ts < ref_ts:
+        if ts < ref_ts and name in LAG_EXEMPT:
+            lines.append(f"  ⚠️  EXEMPT  {name:<20} {basis}  — {EXEMPT_NOTE}")
+            exempt_shown = True
+        elif ts < ref_ts:
             lagging.append((name, lag_min, basis, consumer))
             # A MISSING surface has ts=0, so "minutes behind" would render as a
             # ~29,800,000-minute figure measured from the epoch. That is not a
@@ -334,7 +350,7 @@ def main() -> int:
         else:
             lines.append(f"  ✓          {name:<20} {basis}")
 
-    if lagging or not a.quiet:
+    if lagging or exempt_shown or not a.quiet:
         print("\n".join(lines))
 
     prov = brief_provenance() + stamp_futures()

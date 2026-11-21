@@ -92,7 +92,7 @@ Position truth is off-repo (Will and the broker), with the separately dated FORG
 3. **About 12/04:** Nvidia 10-Q deadline (VULCAN owns); the front premium's carrier test.
 4. **12/16:** December expiry (Z6 SOQ against 28.46) and VIO-PRED-11 resolves; L441 M1:M2 recheck.
 5. **Boot reds carried:** CANARY_MAP 1 dark ledger; thesis-currency advisory now 25 KB rows (v4.1.10 refreshed the headline). IMPLIED_CORR has no 11/19 row (KB-VIO-365 clock-stamp defect; not commissioned).
-6. **Owed, structural (to PROME as a draft):** `scripts/writeback_order_check.py` blocks closeout when NEXUS_BRIEF lags STATUS, which WQ-719 A now permits.
+6. **Done 11/21 (PROME's word):** `scripts/writeback_order_check.py` exempts a lagging NEXUS_BRIEF under WQ-719 A (advisory line; unresolved pin still blocks). Artifacts republish owed next wake (PROME).
 7. D:L342 on 11/27. PRED-09 resolved early.
 
 **Done this wake (11/21):** PRED-08 and PRED-09 graded; PRED-11 registered; 11/18 correction sent; VX_DAILY repaired from Cboe (2 rows created, 5 cells corrected); inbox drained (TERRY packet + 9 WALTER cards incl. 2 that arrived mid-session); COR-20261119-20 receipted NO-OP; READS declaration filed (`registry/READS_DECLARATION.tsv`); charter NEXUS_BRIEF lines changed to WQ-719/721 wording.
