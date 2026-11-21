@@ -3,7 +3,7 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD (11/21 C9 commission, WALTER card SIG-W-20261121-002: Iranian attack hit an UNNAMED civilian industrial facility in Bahrain Sat evening, fire, no injuries, CONFIRMED by the Interior Ministry; facility and energy NOT ESTABLISHED, smoke over Sitra per AFP residents; production rung NOT FIRED, refineries OUT by letter). Convergence 43/50. Census 7. FAL-09 1 of 5. Thesis-kill 0/7.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); v3.1 November 6 moves the live test to FAL-08, a STATED loss; no new pivot.
-**As of:** 2026-11-21 about 18:35 ET (C9 commission, card SIG-W-20261121-002, PROME prome-77, laptop) | STATUS commit: `fa19d61fb2` | Evidence cutoff about 23:15Z 11/21; Al Jazeera, AFP via Arab News, Iran International live blog, NAVAREA IX 457/26 and IMO table (own fetch), Reuters/The New Arab UKMTO relays, The National. Report `reports/2026-11-21_bahrain-industrial-facility-grade-card002.md`.
+**As of:** 2026-11-21 18:22 ET (stamp corrected; first typed "about 18:35", ahead of the clock) (C9 commission, card SIG-W-20261121-002, PROME prome-77, laptop) | STATUS commit: `01574f7c7a` | Evidence cutoff about 23:15Z 11/21; Al Jazeera, AFP via Arab News, Iran International live blog, NAVAREA IX 457/26 and IMO table (own fetch), Reuters/The New Arab UKMTO relays, The National. Report `reports/2026-11-21_bahrain-industrial-facility-grade-card002.md`.
 
 ## CROSS-DOMAIN
 
