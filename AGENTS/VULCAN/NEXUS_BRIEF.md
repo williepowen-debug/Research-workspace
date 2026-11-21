@@ -2,13 +2,14 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4; S5 read together with S1 (WQ-689 B).
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-11-19T14:00:25-05:00 | **STATUS commit:** 912529732f
-**Variant:** FULL. 🆕 11/19 (PROME prome-36, Will's word 11:49 ET; closed 13:59 ET): **Nvidia's 10-Q NOT on EDGAR at 13:57:06 ET; the 10-Q leg rides the 11/20 wake (D:L322)**. AI reversal on Anthropic's open is a price move with flat breadth [KB-464]; AMD −9.75% on Hunterbrook's short report, a claim with no government action, S4 stays 3, VULCAN-193 [KB-465]; the $500B pledge 'not a dime' is consistent with the 8-K's silence, not established; VULCAN-194; DSO 63.7 [KB-466]; LIQUID/BROCK answers [KB-467]; small items [KB-468]. No letter fired. 11/17 items: KB-446..463; earlier → STATUS archive excerpts and KB.
+**As of:** 2026-11-21T18:05:48-05:00 | **STATUS commit:** a081030864
+**Variant:** FULL. 🆕 11/20-11/21 (PROME prome-77 wake, closed 11/21 on PROME's ask): **Nvidia's 10-Q still NOT on EDGAR at 17:54:35 ET 11/21; the issuer said 'in the coming weeks' on 11/17, so the leg is re-dated to 12/04, the filing deadline by my arithmetic (D:L322)** [KB-473]. 11/20 close: SPX -3.70%, NVDA -14.01%, supplier-led, equal weight beat cap weight; Reuters reports the SEC is examining Nvidia's accounting. NEXTDC NOT FIRED [KB-469]; SoftBank transcript read [KB-470]. Slot 11 and GPU 11 MISSED; GPU cadence extended to 12/24. No letter fired. 11/19 items: KB-464..468; earlier → STATUS arc
 
 ## CROSS-DOMAIN
 
 | Desk | Material finding and limit | Source |
 |---|---|---|
+| TERRY / RED / VIOLET / LIQUID / PROME | 🆕 **11/20 close and a second-origin SEC report:** SPX 6,910.39 -3.70%, QQQ -5.67%, SOX -10.73%, NVDA -14.01%; payers -1.9% to -5.9%; RSP beat SPY by 1.66pp (vendor daily). Reuters 11/20: SEC enforcement staff 'scrutinizing potential accounting issues' at Nvidia (two people briefed; items and start date not stated; no SEC or Nvidia confirmation). Interim CEO Kress: 'far more selective' on AI financing deals (relay, intent only). No S1-S5 letter: no capex cut, pulled deal, export action or memory contract move. 10-Q timing: 'coming weeks' per Nvidia 11/17; deadline 12/04, 12/09 with a Form 12b-25 (my arithmetic). | KB-473; RED and TERRY packets 11/21 |
 | ZHAO / TERRY / HAWK | 🆕 **AMD −9.75% (vendor 12:16 ET 11/19) on Hunterbrook's short report, read at hntrbrk.com:** AMD firmware at Entity-listed IEIT and at Maginfra/Kaytus/Aivres (99.94% identical); 209 shipments to Aivres; FY2025 China+HK billing $7.75B (22.4%). The report itself says the records do not establish a violation and alleges no BIS/DOJ probe; Hunterbrook is short AMD. AMD did not answer (ir.amd.com nothing dated 11/19). No enacted rule: S4 stays 3. **VULCAN-193 P=0.20** answers one question: a BIS Entity List addition naming Aivres, Kaytus or Maginfra, or an AMD-filed BIS/DOJ/SEC inquiry, by 2027-02-28. Do not relay as 'AMD breached export controls'. | KB-465 |
 | PROME / LIQUID / BROCK / TERRY / RED | 🆕 **$500B Wall Street pledge for Nvidia chip financing 'not a dime' in three months (titles only):** consistent with the Q3 8-K's silence (zero mentions of the six providers; neocloud commitments 'take effect only if the neoclouds secure financing'), not established. **Nvidia 10-Q NOT on EDGAR at 13:57:06 ET 11/19**; read at the 11/20 wake (D:L322). **VULCAN-194 P=0.15** answers one question: the 10-Q shows an MoU converted to definitive financing (resolve 11/25, VOID if unfiled). DSO 63.7 days (AR $81,033M / revenue $115,844M × 91; Q2 59.6): T4 band ≥59.5 set before the filing, one of two readings, OPEN. RED's CHG-RED-057 packet waits for the 10-Q. | KB-466 |
 | VIOLET / BROCK / HENRY | 🆕 **Midday AI reversal as Anthropic opened (+34% on an $81B IPO priced above range; CNBC via WALTER):** NVDA −1.72%, SMH −2.12%, SPY −1.54%, RSP −1.68% (vendor 12:16 ET, intraday): a price move with flat breadth, no S1/S2 letter. The IPO is counterevidence to S5 stress at the lab tier. mag7.py not run off-cadence (slot 11 is 11/20). | KB-464 |
@@ -55,7 +56,7 @@ Nvidia, the supplier that matters most, beat its own outlook and guided the next
 
 ## NEXT DECISION POINT
 
-11/20 wake (D:L322), or when it files: Nvidia 10-Q, unfiled at 13:57:06 ET 11/19 (T1 grades VULCAN-194; T2, T4 AR $81,033M, T6; guarantee notes in millions; VULCAN-18 registration; DEWEY T3; headquarters table; legal note; RED CHG-RED-057 packet). 11/20 also: slot 11 (the first reading to include the 11/13 selloff), GPU 11, SoftBank Q2 transcript last check, NextDC AGM. ~11/25: Treasury's 10-day ask to Nvidia's board (descriptive). Renew the GPU cadence before 11/27. 12/10: TSMC November 6-K. ~12/15: Oracle 10-Q.
+When it files (deadline 12/04, my arithmetic; issuer said 'coming weeks' 11/17): Nvidia 10-Q (T1 grades VULCAN-194 only if filed by 11/25, else VOID; T2, T4 AR $81,033M, T6; guarantee notes in millions; VULCAN-18 registration; DEWEY T3; headquarters table; legal note incl. the reported SEC matter; RED CHG-RED-057 packet). ~11/25: Treasury's 10-day ask to Nvidia's board (descriptive). 11/27: mag7 slot 12, semi_watch, GPU reading 12 (NYSE closes 13:00 ET). 12/10: TSMC November 6-K. ~12/15: Oracle 10-Q. Mag7 cadence renewal by 12/18.
 
 ## WATCH (next 2–4 weeks and beyond) — ⏱️ THE CLOCK
 
@@ -63,25 +64,25 @@ Exact event set generated from `docket/CATALYSTS.tsv` at this write; the registe
 
 | When | What | Whose |
 |---|---|---|
-| 2026-11-20 | NVDA Q3 FY27 10-Q (ESTIMATED from cadence: Q3 FY26's filed 2025-11-19; period ends ~2026-10-25) — VULCAN-17 READING 1 + DOCKET L322's T-tests (T1 MoU→definitive · T2 escrow vs SB Energy · T3 revenue attribution quantified · T4 DSO >60d a 2nd qtr · T6 3.8 GW option) | VULCAN · PROME (L322 consumer read), HENRY (earnings-quality thread is its own row), LIQUID, BROCK, VIOLET |
-| 2026-11-20 | SoftBank Q2 FY2026 earnings-call transcript posted? (re-homed from the swept 11/11 row) | VULCAN, SAM |
-| 2026-11-20 | GPU-rental panel reading 11 — cadence extension (registered 2026-09-29, before the original cadence's last slot) | VULCAN, PROME, WATT |
-| 2026-11-20 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 11 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
-| 2026-11-20 | NEXTDC AGM — capex-review outcome + M3 update (third-S5-event watch) | VULCAN, WATT, BROCK |
 | 2026-11-25 | Treasury Secretary Bessent's 10-day request to Nvidia's board and outside counsel (Fox 11/15; no start date, authority or consequence stated; 11/25 is 10 calendar days from 11/15, my count) [KB-442] | VULCAN, ZHAO, HENRY, TERRY |
 | 2026-11-27 | GPU-rental panel reading 12 — cadence extension (registered 2026-09-29, before the original cadence's last slot) | VULCAN, PROME, WATT |
 | 2026-11-27 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 12 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-11-30 | FERC EL26-67 — consume WATT's read of the 11/16 responses (re-homed from the swept 11/16 row) | VULCAN, WATT |
+| 2026-12-04 | NVDA Q3 FY27 10-Q (RE-DATED 2026-11-21 with PROME's D:L322: issuer said 'We plan to file our 10-Q in the coming weeks' on 11/17; 12-04 is the filing deadline by VULCAN's arithmetic, period end 2026-10-25 plus 40 days; 12-09 with a Form 12b-25) — VULCAN-17 READING 1 + DOCKET L322's T-tests (T1 MoU→definitive · T2 escrow vs SB Energy · T3 revenue attribution quantified · T4 DSO >60d a 2nd qtr · T6 3.8 GW option) | VULCAN · PROME (L322 consumer read), HENRY (earnings-quality thread is its own row), LIQUID, BROCK, VIOLET |
+| 2026-12-04 | GPU-rental panel reading 13 — cadence extension 2 (registered 2026-11-21, before reading 12, the prior extension's last slot) | VULCAN, PROME, WATT |
 | 2026-12-04 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 13 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-12-07 | Project Jupiter air permit public hearing (NMED, Hearing Officer Browning; date retained per NMED spokesperson, ABQ Journal 10/27) | VULCAN, WATT |
 | 2026-12-10 | Ohio Power Siting Board local public hearing, case 26-0746-EL-BGN (Portsmouth Gas DevCo, PORTS Energy Center, up to 2 GW), Piketon | VULCAN, WATT |
 | 2026-12-10 | ERCOT Batch Zero eligibility and community-impact reports: first fact on named Texas projects | VULCAN, WATT |
+| 2026-12-11 | GPU-rental panel reading 14 — cadence extension 2 (registered 2026-11-21, before reading 12, the prior extension's last slot) | VULCAN, PROME, WATT |
 | 2026-12-11 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 14 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-12-15 | ORCL $3.3B lessor guarantee — estimated Q2 filing/disclosure follow-up; stated September maturity passed, outcome UNKNOWN | BROCK,LIQUID |
 | 2026-12-15 | ORCL Q2 FY27 10-Q — thesis-kill LEG 4 reading 1 of 2 (off-BS DC leases not yet commenced) | VULCAN, LIQUID, BROCK |
 | 2026-12-16 | Micron FQ1 FY27 results (INFERRED by third-party calendars; Micron has not confirmed; prior year 12/17/2025): VULCAN-190 reading | HENRY, CARL |
 | 2026-12-17 | PUCT open meeting after the ERCOT Batch Zero reports | VULCAN, WATT |
+| 2026-12-18 | GPU-rental panel reading 15 — cadence extension 2 (registered 2026-11-21, before reading 12, the prior extension's last slot) | VULCAN, PROME, WATT |
 | 2026-12-18 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 15 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
+| 2026-12-24 | GPU-rental panel reading 16 — cadence extension 2 (registered 2026-11-21, before reading 12, the prior extension's last slot) | VULCAN, PROME, WATT |
 | 2026-12-24 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 16 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-12-31 | IREN GPU Financing 2.0 undrawn $1.5B availability ends | VULCAN, LIQUID, BROCK |
 | 2026-12-31 | Fermi Project Matador tenant deadlines: Texas Tech land-lease notice to proceed (needs an executed Phase-1 lease of at least 200 MW) and Keystone approved-customer-agreement test, both 2026-12-31; Hillcore BOOT definitive documents 2026-12-18 on the way | VULCAN, BROCK, LIQUID, WATT, TERRY |

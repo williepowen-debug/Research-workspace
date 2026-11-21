@@ -1,4 +1,4 @@
-> # ⛔ 2026-11-21T17:59:46-05:00 — READ THIS BLOCK FIRST. HOLD continues. Same session vulcan-21 (PROME prome-77 wake), delivery 2. Claude Code, Opus 5.5 (claude-opus-5-5), laptop. Do NOT close out, pull or push until PROME asks.
+> # ⛔ 2026-11-21T18:05:17-05:00 — READ THIS BLOCK FIRST. CLOSED on PROME prome-77's ask (18:0x ET 11/21). Standard closeout, laptop. Session vulcan-21, Claude Code, Opus 5.5 (claude-opus-5-5). push delegated to PROME 2026-11-21T18:05:17-05:00.
 
 ▶ START HERE: **15/25, no letter.** The laptop slept from about 14:53 ET 11/20 to 17:50 ET 11/21; the 16:03 timer never fired and the 10-Q watcher ended on a network error. **Slot 11 (mag7.py, semi_watch.py) and GPU reading 11 are MISSED** and recorded so in CATALYSTS; not rescued off-cadence (L-89, L-123). Next slot: 11/27 (mag7 12, GPU 12).
 
@@ -6,6 +6,14 @@
 - **11/20 close [KB-473]:** SPX -3.70%, QQQ -5.67%, SOX -10.73%, NVDA -14.01%, RSP beat SPY by 1.66pp. Reuters 11/20: SEC enforcement staff examining Nvidia's accounting (second origin after WSJ 11/17). No letter.
 - **Sent this delivery:** TERRY thesis grade (IDEA-QQQ-PUTWALL-OCT22: MIXED), RED information packet (10-Q timing, SEC report), PROME delivery 2. TERRY's ask moved to inbox/processed/.
 - **Closeout, when asked:** sweep the four fired 11/20 rows (SoftBank, NEXTDC, mag7 11, GPU 11; the 10-Q row stays open); RECONCILE lines; NEXUS step 5 decision (the brief's 10-Q date and slot figures may have changed); neighbour rows; GPU cadence renewal before the 11/27 last slot (spec §7a).
+
+- **Closeout 11/21:** GPU cadence extension 2 enacted on PROME's word (class C4): readings 13-16 on the mag7 slots 12/04, 12/11, 12/18, 12/24, GPU-PANEL-01, same rules (a00efb23c4). Four fired 11/20 rows swept to archive/CATALYSTS_FIRED_2026-11.tsv; the 10-Q row re-homed to 12/04 with D:L322 (a081030864). S2_SERIES DEFERRED to 2026-11-27 in STATUS. NEXUS_BRIEF rewritten (10-Q wait date, clock set, 11/20 close row).
+- **Owed at the 11/27 slot (post-close; NYSE closes 13:00 ET that day):** mag7.py slot 12 (check holdings_asof; DUPLICATE-VINTAGE if unchanged, never skip); semi_watch.py in the same window; GPU reading 12, hand-read every URL at the slot, input JSON reports/2026-11-27_gpu-reading12-input.json, gpu_panel.py --reading-date 2026-11-27 --write. Needs a launch: no session holds open on this laptop [L-123].
+- **Other clocks:** 11/25 VULCAN-194 resolves (VOID if the 10-Q is unfiled) and Treasury's 10-day ask; 10-Q by 12/04 deadline (owed list in the delivery-1 block below); mag7 renewal by 12/18.
+- RECONCILE ca46c645c8148d829b343fa29c81e4c4f14047e78fe4dd090665711767261bb5 STATUS UPDATED: header, S1 and S2 live reads, and the 10-Q clock now carry the 11/20 close, the Reuters SEC report, the issuer's 'coming weeks' and the missed slot; no score or band moved.
+- RECONCILE ca46c645c8148d829b343fa29c81e4c4f14047e78fe4dd090665711767261bb5 THESIS UNCHANGED: no channel score, verdict, live-read stage or resolver changed; the SEC report and the supplier-led fall add evidence to existing S1 stages without contradicting a State cell.
+- RECONCILE ca46c645c8148d829b343fa29c81e4c4f14047e78fe4dd090665711767261bb5 EXIT UNCHANGED: no kill leg moved; the missed slot 11 leaves leg 2's three-consecutive-months test unmet either way; leg 4(b) instrument unchanged without Will; Kress's 'more selective' is intent, not de-risking.
+- **Checks:** 4b self-check: thresholds unchanged; FILES table unchanged; the GPU slot date in the charter corrected to December 24 (a00efb23c4). Consumer check: no figure others cite was superseded (composite 15/25 unchanged); the 10-Q date is PROME's row, re-dated by PROME. No auto-memory written.
 
 > # ⛔ 2026-11-20T12:10:29-05:00 — prior block (same session, delivery 1). HOLD. PROME prome-77 wake on the laptop (D:L322 plus the four 11/20 rows). Claude Code, Opus 5.5 (claude-opus-5-5); session vulcan-21. Do NOT close out, pull or push until PROME asks.
 
