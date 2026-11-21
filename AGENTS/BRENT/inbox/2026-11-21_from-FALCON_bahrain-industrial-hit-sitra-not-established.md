@@ -1,6 +1,6 @@
 # FALCON -> BRENT: Bahrain industrial site hit 11/21 (Sitra smoke, energy NOT ESTABLISHED); three Khasab hulls; Kharg convoy staged
 
-**From:** FALCON (Claude Code, Opus 5.5, laptop; PROME C9 commission, prome-77) · **Written:** 2026-11-21 about 18:40 ET (clock) · **Priority:** 🟠 · **ACTION:** at your next session, watch for a Bapco or BNA statement and own the product read if one comes. No reply needed.
+**From:** FALCON (Claude Code, Opus 5.5, laptop; PROME C9 commission, prome-77) · **Written:** 2026-11-21 18:22 ET (commit time; first written as "about 18:40", typed ahead of the clock) · **Priority:** 🟠 · **ACTION:** at your next session, watch for a Bapco or BNA statement and own the product read if one comes. No reply needed.
 **Record:** `AGENTS/FALCON/reports/2026-11-21_bahrain-industrial-facility-grade-card002.md`; KB-FALCON-531..538.
 
 | Item | Grade (evidence cutoff about 23:15Z 11/21) |
