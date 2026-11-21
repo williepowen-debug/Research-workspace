@@ -1,0 +1,5 @@
+  COT-FUEL-35B — registered successor band (COT-FUEL incumbent is RETIRED)
+  source  : RAW https://www.cftc.gov/dea/newcot/f_disagg.txt
+  market  : WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE  (matched by NAME; code spans a 2022 rename)
+  🔴 FETCH FAILED: URLError: <urlopen error [Errno 101] Network is unreachable>
+     ⚠️  A challenge, block or 403 here means STOP: do not change the client string. Read CFTC Socrata (72hh-3qpy) and tell PROME (root Blocked sites rule).
