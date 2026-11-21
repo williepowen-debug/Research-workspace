@@ -6,6 +6,15 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## November 21, 2026 — v4.1.10: deep inversion refined; two registered calls resolved; HIGH_VOL
+
+**Basis:** Cboe History through 11/20, pulled 11/21 18:04 ET (KB-VIO-404, `research/2026-11-21_late-wake/GRADE.md`). No ruling needed: a refinement and a status update, no line, gate or threshold moved.
+**Old view → new view:** inversion is a peak marker (KB-VIO-034, all depths, mean −5% forward) → at its deepest end (first close at or under 0.8621 after 20 clean closes, n = 7 since 2009) it is a peak marker on a one-month horizon (lower 17 sessions later in 5 of 7) but **not** on a one-week horizon (a higher close came first in 4 of 7, each at least 15% higher).
+**Resolved:** VIO-PRED-08 CONFIRMED (VIX close 35.89 [11/20] ≥ 30, forecast 25%); VIO-PRED-09 CONFIRMED early (SKEW 138.84 [11/20] < 140, forecast 45%). **Registered:** VIO-PRED-11 (VIX close > 35.89 by 12/16, 50%).
+**Regime:** RISING_VOL (11/16) → HIGH_VOL on the 11/20 close; regime line 30 fired; 40 not (intraday 40.03). Credit followed vol (HY +32bp to 11/19): a vol-led sequence, not Path A.
+**Withdrawn:** the 11/18 provisional "policy and governance premium" reading (KB-VIO-402 (b)); 11/18 History had VIX9D/VIX 0.9752.
+**Prediction 2' (sustained inversion):** live test, 4 of 7 consecutive inverted closes; arms on the 11/25 close.
+
 ## November 5, 2026 — v4.1.9: credit-flat row defined, MOVE pause/resume retired
 
 **Ruling:** Will in the VIOLET session, about 16:41 ET, verbatim "yes to all".

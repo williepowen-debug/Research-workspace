@@ -1,0 +1,17 @@
+# VIOLET READS declaration for PROME/registry/READS.tsv (D:L1196 item 8). PROME transcribes; this desk owns the claims.
+row_kind	reader	path	mode	source_boot_step	declared_by	declared_on	notes
+READ	VIOLET	AGENTS/VIOLET/CLAUDE.md	whole	VIOLET:charter (read explicitly at spawn, COMPLETION_SPEC)	VIOLET	2026-11-21	22,142 B at declaration; graded at the 50,000 B desk-charter ceiling (root Data Hygiene).
+READ	VIOLET	AGENTS/VIOLET/STATUS.md	whole	VIOLET:CLAUDE.md-boot-1	VIOLET	2026-11-21	Explicit Read. 9,186 B at declaration; charter caps it at 250 lines.
+READ	VIOLET	AGENTS/VIOLET/SCRATCH.md	whole	VIOLET:CLAUDE.md-boot-2	VIOLET	2026-11-21	Explicit Read. 3,951 B at declaration.
+READ	VIOLET	AGENTS/VIOLET/MEMORY.md	whole	VIOLET:CLAUDE.md-boot-3	VIOLET	2026-11-21	Explicit Read. 25,741 B at declaration = 79.1% of 32,550 B: the largest boot read. Session notes are cold in archive/MEMORY_SESSION_NOTES_COLD.md (on demand, not declared).
+READ	VIOLET	AGENTS/VIOLET/CALENDAR.md	whole	VIOLET:CLAUDE.md-boot-4	VIOLET	2026-11-21	Explicit Read. 10,791 B at declaration.
+READ	VIOLET	AGENTS/VIOLET/workbook/CATALYSTS.tsv	whole	VIOLET:CLAUDE.md-boot-4 (cross-check)	VIOLET	2026-11-21	1,605 B at declaration; also read by scripts/catalyst_countdown.py inside boot.py.
+READ	VIOLET	AGENTS/VIOLET/scripts/boot.py	summary	VIOLET:CLAUDE.md-boot-5	VIOLET	2026-11-21	Script output only (vol surface, FRED, CFTC, MOVE, JPY, OVX, cheap-tail, implied corr, catalysts, canary, gapcheck, KB schema, thesis advisory). The workbook ledgers it reads (VX_DAILY.tsv 470 rows, KB.tsv, etc.) do not enter context.
+READ	VIOLET	AGENTS/VIOLET/inbox/WALTER/*.md	whole	VIOLET:CLAUDE.md-boot-5a	VIOLET	2026-11-21	CLASS row: every unprocessed WALTER handoff is read whole (1.7 to 5.2 KB each on 11/21). processed/ excluded.
+READ	VIOLET	AGENTS/VIOLET/inbox/*.md	whole	VIOLET:whole-inbox drain (PROME task letters)	VIOLET	2026-11-21	CLASS row: top-level packets from any sender, read whole, then moved to inbox/processed/.
+READ	VIOLET	AGENTS/VIOLET/board_log.tsv	grep	VIOLET:CLAUDE.md-boot-5a	VIOLET	2026-11-21	Exact field-2 lookup per signal id (rg), never a whole read; 154,447 B at declaration, cold log, not rotated by rule.
+READ	VIOLET	scripts/ledger_staleness.py	summary	VIOLET:CLAUDE.md-boot-5b	VIOLET	2026-11-21	Fleet script output only.
+READ	VIOLET	scripts/corrections_boot_check.py	summary	VIOLET:CLAUDE.md-boot-5c	VIOLET	2026-11-21	Fleet script output only; reads AGENTS/WALTER/registry/CORRECTIONS.tsv and my registry/corrections_receipts.tsv.
+BASIS	VIOLET	CLAUDE.md	boot-defining	VIOLET:0-5c	VIOLET	2026-11-21	Root canon, read explicitly at spawn.
+BASIS	VIOLET	AGENTS/VIOLET/CLAUDE.md	boot-defining	VIOLET:0-5c	VIOLET	2026-11-21	My charter; defines boot steps 0 to 5c.
+ATTESTATION	VIOLET	AGENTS/VIOLET/CLAUDE.md	manifest-complete	VIOLET:0-5c	VIOLET	2026-11-21	First filing. METHOD: enumerated boot steps 0, 1, 2, 3, 4, 5, 5a, 5b, 5c of my charter at 2026-11-21 and the whole-inbox drain the PROME task letters add; classified each by what the session does. Steps 0 (git pull) and 6 onward read nothing at boot. Not independently read.

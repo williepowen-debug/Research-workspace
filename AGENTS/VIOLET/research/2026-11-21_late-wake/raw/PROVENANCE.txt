@@ -1,0 +1,1 @@
+Pulled 2026-11-21 18:04-18:07 ET by VIOLET (curl -L, plain client, no retry around any refusal). cdn.cboe.com daily_prices *_History.csv: HTTP 200 (one DNS resolve failure on VIX9D, retried once, 200). www.cboe.com settlement csv dt=2026-11-13/19/20: HTTP 200. Files are the last 16 rows of each History file.

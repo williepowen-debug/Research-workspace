@@ -305,3 +305,13 @@ Log material structural changes only — not routine content edits. Template ado
 **Files touched:** `workbook/PREDICTIONS.tsv`.
 **Boot-impact:** none; the readers (`forecast_report.py`, `asmade_audit.py`, `ledger_staleness.py`, `consumer_check.py`) read by column name or path.
 **Lessons:** —
+
+## 2026-11-21 — CLAUDE.md NEXUS_BRIEF cadence set to WQ-719 A / WQ-721 A; READS declaration filed
+
+**Trigger:** PROME prome-77 task letter, D:L1031 (Will's rulings WQ-719 A 11/18 12:10 ET and WQ-721 A 11/18 15:44 ET, NEXUS's wording), and DAEDALUS production review #10 item 8 (D:L1196: VIOLET had no READS declaration).
+**What changed:**
+- `CLAUDE.md` three lines: the read→write pairing line (was "write 12, mandatory every session"), step 12 (was "Mandatory every session, even no-change, minimum is refreshing the As of stamp + STATUS commit hash"; the ordering rule now applies only when the brief is rewritten) and the FILES table row (was "Every closeout (As-of+hash min; ...)"). All now carry the two WQ-719/721 sentences.
+- New `registry/READS_DECLARATION.tsv`: 12 READ rows, 2 BASIS rows, 1 ATTESTATION row in `PROME/registry/READS.tsv` columns, for PROME to transcribe (PROME owns that file).
+**Files touched:** `CLAUDE.md`, `registry/READS_DECLARATION.tsv`.
+**Boot-impact:** none at boot. **Closeout conflict, not fixed:** `scripts/writeback_order_check.py` (BLOCKING in `closeout_guard.py`) fails when NEXUS_BRIEF lags STATUS, which WQ-719 A now permits. It did not bite this session (the brief changed). The script change goes to PROME as a draft (task letter limits).
+**Lessons:** a cadence rule lives in a charter line and in a guard; changing the line without the guard leaves the guard enforcing the old rule.

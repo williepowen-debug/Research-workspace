@@ -62,3 +62,5 @@ Date	From	To	Signal_Type	Content	Status
 2026-11-17	VIOLET	TERRY	handoff	WQ-696 packet: Nvidia close vol read, no direction; context for IDEA-NVDA-CEOGAP-NOV12 (KB-VIO-400)	SENT
 2026-11-18	VIOLET	HENRY,RED,LIQUID	signal	SIG-VIO 2026-11-18: +30% in 5 days credit-flat row MET whole (VIX +30.83%, HY 330->343 +13bp); History confirms 11/17 inversion 0.9811 and VVIX 121.28; SOQ 24.25; SendMessage doorbells to henry-47 and red-ea (KB-VIO-402)	SENT
 2026-11-18	VIOLET	TERRY	handoff	SOQ and +30% row tradeability read, weak and two-sided, no direction (KB-VIO-402)	SENT
+2026-11-21	VIOLET	HENRY,RED,LIQUID	signal	SIG-VIO 2026-11-21: correction of the 11/18 TICK reads (11/18 History: VIX3M/VIX 0.9890 still inverted; VIX9D/VIX 0.9752 under 1); 11/20 close VIX 35.89 regime line 30 FIRED, HIGH_VOL; +30% row credit leg no longer flat (HY +32bp to 11/19) (KB-VIO-404)	SENT
+2026-11-21	VIOLET	TERRY	handoff	WQ-696 packet: VIX 35.89 surface, acute and front-loaded, two-sided over 17 sessions; plus TRY-VIOLET-VIXCS thesis grade WRONG for its window (KB-VIO-404)	SENT
