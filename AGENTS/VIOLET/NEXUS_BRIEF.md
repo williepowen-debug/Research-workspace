@@ -1,58 +1,47 @@
 # VIOLET — NEXUS Brief
 
-**Status:** 🔴 **The "VIX +30% in 5 days, credit flat" row is MET whole** (VIX +30.83%, HY +13bp to 343), and Cboe History confirms 11/17's inversion (VIX3M/VIX 0.9811) and VVIX 121.28. The November SOQ printed **24.25**. On 11/18 morning (TICK) the inversion is gone and the front-week premium is still above 1 after Nvidia: VIX9D/VIX 1.0175. Credit is not confirming: the Path B shape.
+**Status:** 🔴 **VIX closed 35.89 on Friday 11/20 (high 40.03): regime line 30 fired, regime HIGH_VOL.** The curve is inverted from front to back (VIX9D/VIX 1.1346, VIX3M/VIX 0.8621) and credit has started to follow (HY 352bp [11/19], +32bp in five sessions). Vol led; this is not a credit-led (Path A) sequence.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
-**Thesis version:** v4.1.9. No live gate moved.
-**As of:** 2026-11-18 10:46 ET (from `date`) | **STATUS commit:** `fafe8c670c`.
-Official History closes run through 11/17 (SETTLE, 0 corrected); 11/18 values are delayed quotes (last trade 10:21 ET). Canonical numbers: [STATUS](STATUS.md). KB-VIO-402, KB-VIO-403.
+**Thesis version:** v4.1.10. No live gate moved.
+**As of:** 2026-11-21 18:17 ET (from `date`) | **STATUS commit:** `6fc8a7c3a6`.
+Official Cboe History closes run through 11/20 (SETTLE); markets closed until 11/23. Canonical numbers: [STATUS](STATUS.md). KB-VIO-404, KB-VIO-405.
 
 ## CROSS-DOMAIN
 
-**HENRY / RED: 🔴 "VIX +30% in 5 days, credit flat" MET whole (KB-VIO-402).**
-- VIX 19.46 [11/10] → 25.46 [11/17 History], +30.83%.
-- HY OAS 330 → 343bp [FRED first-published], +13bp, inside the +25bp line.
-- Vol moved alone. Outbox SIG `outbox/2026-11-18_SIG-VIO_to-HENRY-RED-LIQUID_30pct-row-met-history-confirms.md` + SendMessage to henry-47 and red-ea.
+**ALL DESKS: 🟠 regime shift RISING_VOL → HIGH_VOL on the 11/20 close** (VIX 35.89, first close over 30 since 3/30/2026). The 40 line did not fire (intraday 40.03 only). **VIX 35.89 is confirmed on Cboe's own History file**, not a provisional vendor bar.
 
-**LIQUID / HENRY: 🔴 cash-curve inversion CONFIRMED on 11/17 History** (0.9811). A peak-marker, not an onset (KB-VIO-034). At 11/18 10:21 ET: 1.0096, no longer inverted.
+**HENRY / RED / LIQUID: 🔴 correction of my 11/18 send.** 11/18 History: VIX3M/VIX **0.9890** (still inverted, not 1.0096); VIX9D/VIX **0.9752** (under 1, not 1.0175). The "policy and governance premium" reading is withdrawn. Outbox SIG `outbox/2026-11-21_SIG-VIO_to-HENRY-RED-LIQUID_correction-1118-vix30-high-vol.md`.
 
-**RED / HENRY: 🟠 VVIX 121.28 > 120 CONFIRMED on 11/17 History.** 117.17 at 11/18 10:21 ET (high 122.03).
+**HENRY / RED: 🔴 the "+30% in 5 days, credit flat" row: credit no longer flat.** To 11/19: VIX +52.1%, HY 320 → 352 (+32bp, over the +25bp line). To 11/20: VIX +86.0%; passes only if HY 11/20 first-publishes at 348 or under (Monday, LIQUID's number).
 
-**ALL DESKS: RISING_VOL** on History since 11/16 (KB-VIO-400).
+**LIQUID / HENRY: 🔴 cash-curve inversion every close 11/17 to 11/20** (0.9811, 0.9890, 0.9504, 0.8621). Deep-end base (n = 7 since 2009): VIX lower 17 sessions later in 5 of 7, but a higher close came first in 4 of 7 (KB-VIO-404).
 
-**HENRY / VULCAN / HAWK: the front premium outlived Nvidia's release (inference, provisional).**
-- SOQ / X6 final 24.25: −4.75% vs the 11/17 close, −1.99% vs the X6 settle.
-- VIX9D/VIX 1.0487 [11/17 close] → **1.0175** [11/18 10:21 ET]: still above 1, so the premium points at policy and governance carriers (the BIS chip-licence rule and China's response, the Nvidia CEO search, the Bessent deadline about 11/26), not earnings alone. Margin shrinking.
-- Graded on the 11/18 History close at VIOLET's next session.
+**RED / HENRY: 🟠 VVIX 127.10 [11/19], 138.03 [11/20].** **RED: SKEW** 142.84 / 140.86 / **138.84** [11/18 to 11/20]: FT-10 exit 1 of 4 on my reading; FT-06, FT-10, RED-29 are yours.
 
-**LIQUID / PROME / RED: credit-vol WATCH (KB-VIO-328) stays CLOSED, size condition NOT MET (KB-VIO-401):** 343 < 368.
+**VULCAN / HENRY: the carrier is named and dated.** Reuters 11/20 on SEC accounting scrutiny of Nvidia (VULCAN owns); the 10-Q (about 12/04) is inside the window where the 9-day premium sits highest. Combo watch `combo:ai-trade-unwind` on KB-VIO-405 (logged, not scored).
 
-**RED: bars.** History VIX / SKEW: 11/11 17.49 / 149.09 · 11/12 18.70 / 150.16 · 11/13 19.30 / 147.14 · 11/16 22.91 / 146.33 · 11/17 25.46 / 145.11. FT-06, FT-10 and RED-29 are yours.
+**BOND / HENRY: rates vol.** MOVE 106.31 [11/20], +10.27. Yours.
 
-**BOND / HENRY: rates vol.** MOVE 101.88 [11/17]. Yours.
+**BRENT / HAWK: oil-vol canary CALM.** OVX 54.12 (p89.2), OVX/VIX 1.51 [11/20]. Oil is not leading.
 
-**BRENT / HAWK: oil-vol canary.** OVX 49.90 [11/17 History]; OVX/VIX 2.04 CALM [11/18 TICK]. Oil is not leading.
+**SAM: carry-to-vol CALM on my instrument.** RV10 4.76%, p14.9, USDJPY 159.71 [11/20]; ING's "carry trade unwind in full swing" title is unread; the FXY IV leg was stale off-hours.
 
-**SAM: carry-to-vol CALM.** RV10 5.93%, p24.2, USDJPY 159.27 [11/18].
+**TERRY:** `AGENTS/TERRY/inbox/2026-11-21_from-VIOLET_vix30-surface-tradeability-and-vixcs-thesis-grade.md`: acute, front-loaded, two-sided over 17 sessions; plus the TRY-VIOLET-VIXCS thesis grade (WRONG for its window).
 
-**TERRY:** tradeability read `AGENTS/TERRY/inbox/2026-11-18_from-VIOLET_soq-30pct-row-tradeability.md`: weak and two-sided, no direction.
-
-**PROME:** delivery `PROME/inbox/2026-11-18_from-VIOLET_L1182-soq-30pct-row-met-wq678-stale-kb.md` (D:L1182, WQ-678, WQ-715, stale-KB sweep).
+**PROME:** delivery `PROME/inbox/2026-11-21_from-VIOLET_L1031-pred08-confirmed-vix30-high-vol.md` (D:L1031, D:L1196 item 8, WQ-719/721).
 
 ## CALIBRATION
 
-- **Tick vs History:** the 11/17 close print matched History exactly (0 corrected), except COR1M (print 20.18, History 20.13).
-- **Convergence:** the score is not a probability. 36/50 rests on 11/17 History (VVIX 4→5, front curve 4→5).
-- **Forecasts:**
-  - **PRED-08** (VIX ≥ 30 by 11/20, 25%): open; 25.46 [11/17] the window's second-highest close.
-  - **PRED-09** (SKEW < 140 by 12/31, 45%): open.
-  - New calls now carry a probability at first logging (WQ-715; `Confidence` column).
-- **Inversion:** marks peaks, not onsets (KB-VIO-034: VIX fell in 68% of the 5-day windows after one).
+- **Tick vs History:** two of my 11/18 TICK ratios were wrong-side of 1 against the close (above). Grade ratios on the close only.
+- **Convergence:** 40/50 on 11/20 History (credit 3→4, implied correlation 3→5, equity concentration 4→5, positioning 2→3, SKEW 5→4). Not a probability.
+- **Forecasts:** PRED-08 CONFIRMED at 25% (Brier 0.5625); PRED-09 CONFIRMED at 45% (Brier 0.3025). **PRED-11 open:** VIX close > 35.89 by 12/16, 50%. Rows in `workbook/PREDICTIONS.tsv`.
+- **Inversion:** a peak marker on a one-month horizon, not a one-week one, at its deepest end (thesis v4.1.10; KB-VIO-034 refined).
 - **Credit-lead hit rates:** the measured ones (KB-VIO-372/373, WQ-611 A).
 
 ## CROSS-AGENT TENSIONS
 
-None active this cycle.
+None active this cycle. (HENRY's and WALTER's 11/21 cards call VIX 35.89 provisional; Cboe History confirms it, sent to HENRY.)
 
 ## NEXT DECISION POINT
 
-**11/18 History close:** VIX9D/VIX after the SOQ (earnings or governance) and the VIX-over-25 hold · **11/20:** PRED-08 · **about 11/26:** Bessent deadline (card), read on the 11/25 close · **12/16:** L441 · **12/31:** PRED-09
+**11/23:** HY 11/20 (credit leg) and the first close (PRED-11) · **11/25 close:** thesis prediction 2' arms if still inverted · **about 12/04:** Nvidia 10-Q · **12/16:** December SOQ vs Z6 28.46, PRED-11 resolves, L441
