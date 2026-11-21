@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none in version. 11/06: masking framework's intermediate falsifier CRL-21 MISSED: Ally FY2025 −38.0 bp vs FY2023 at the same age, FY2026 −5.0 bp; outer falsifier CRL-20 at 1%. Mechanism not killed: FY2026 early delinquency is above FY2023, one nine-month reading. Aggregate buffer drawdown (saving 3.8%) stands.
-**As of:** 2026-11-17 12:07 ET | STATUS commit: `220041a23e`
+**As of:** 2026-11-21 18:25 ET | STATUS commit: `02a927b03b`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -13,6 +13,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| PROME / WALTER / TERRY / RED | 11/21 answer to WALTER SIG-W-20261121-004 (HENRY's S&P red line, 6,910.39 on 11/20 vendor, −11.62% from the 10/6 record) and -20261120-002 (Michigan final, issuer read): **V14 HOLDS 3** (no registered upgrade letter; un-fire needs an all-time high); S&P +5.7% YoY, +1.0% YTD; card lenders fell about half the index. Michigan long-run 3.3% (V12 <3.0% not met); low-wealth finances up, largest stockholders down. | WALTER ACTION | CARL's STATUS had called 7,037 a 'V14 trigger'; it is HENRY's routing line (WALTER told). Upgrade-letter draft with PROME, Will's decision. TERRY: no implication over 2–4 weeks, one NOT-FIRED idea. Michigan bottom-cohort gain staged to RED. KB-626/627; research/2026-11-21_v14-red-line/READ.md. |
 | PROME / WALTER / HENRY / TERRY / RED | 11/17 answer to WALTER SIG-W-20261117-004 (Census CB26-181 primary; BLS import prices via FRED, bls.gov 403): October retail +0.21%, ex-autos +0.63% (the card's +0.21% ex-autos was the wrong series), control +0.59% (about +0.43% real), autos −1.60%; September control revised +0.14 → +0.53%. Gasoline 9.17% of retail dollars vs 7.52% a year ago. Import prices +1.05%, ex-fuel +0.80%, about 70% not fuel; no true October y/y. | WALTER ACTION | Aggregate spending did not break; the squeeze is a wallet-share shift, not falling goods volume. Nominal, no cohort split. Ex-fuel import pipeline is HENRY's rates input. TERRY: no CARL investment implication (WQ-696). T1 2 of 3 against. KB-623/624; research/2026-11-17_retail-imports/READ.md. |
 | PROME / NEXUS / REGINALD / CORAL | 11/11 answers to WALTER SIG-W-20261111-016 and -017. Airfares (MARCO ENR-02) verified on FRED: two-year +23.27% Oct, +26.36% Sep; nearly all in the last 12 months; SA m/m fading +2.68/+1.16/+0.41% Aug–Oct. Citi modified-card 30+ share 18.59→19.08% completes the six-peer panel vs Capital One 17.2→25.2%. | WALTER ACTION | Airfare = price on a top-cohort-skewed basket with demand held (JetBlue KB-567): resilience, not squeeze; Spirit exit an unmeasured bottom-cohort access loss; no CARL prediction, kill leg or vector instrument touched; Florida household leg not established. Capital One's jump issuer-specific on this measure, cause UNKNOWN; not hidden delinquency or a ranking. KB-619/620; research/2026-11-11_catchup/AIRFARE_CITI.md. |
 | PROME / RED / NEXUS | 11/11 answer to WALTER SIG-W-20261110-001: October core +0.296% (third about 0.3), Waller's 50bp text verified. A December hike lifts card APR (22.36%) about 1.1% relative per 25bp, at most $3.4B a year per 25bp across all revolving; fixed-rate auto, mortgage and student loans untouched; first HHDC to carry it Q1-2027. | WALTER ACTION | Widens the K-shape (revolvers pay, savers earn); does not reverse the falling card flow. Kill rule, CHG-RED-045 and predictions untouched; V12 reinforced at 5. Real risk channel is jobs (LABOR). KB-615; research/2026-11-11_catchup/READ.md. |
@@ -45,7 +46,7 @@
 ## VIEW
 
 - 11/06 catch-up: October payrolls firm, V16 1 of 2 toward 3, a hiring read, not a layoffs read. V2 September 0/4 deep, 0/3 broad, verified at SEC. SLOOS: banks more likely to approve prime card applicants, less likely subprime, small banks driving it (text only). Q3 platforms and Dave show no break among gig and small-dollar users; driver supply not read.
-- 11/06 close: Michigan November preliminary 51.0 vs 48.0, year-ahead 4.3%, long-run 3.4%; lower wealth up, largest stock portfolios −5%, one month against the K-shape, interviews ended 11/02. G.19 September revolving +14.5% after −4.4%, mostly rebound, no delinquency read; Q3 nonrevolving pickup is credit unions, finance companies and auto. Manheim 206.8, YoY mostly a low base.
+- 11/06 close (Michigan superseded by the 11/20 final, below): G.19 September revolving +14.5% after −4.4%, mostly rebound, no delinquency read; Q3 nonrevolving pickup is credit unions, finance companies and auto. Manheim 206.8, YoY mostly a low base.
 - Concentrated strain persists; broad collapse is still not established. October Conference Board rebounded across the present-situation and expectations indexes. Its six-month average rises only for under-35 and $100K+ households, and write-ins on prices, groceries and diesel rose. These are attitudes, not outlays.
 - Fuel: EIA regular $4.153 and diesel $6.292 both fell at 11/02, diesel after three rises; distillate stocks 99.3M bbl w/e 10/30, cover 23.8 days, the lowest late-October since 1991 (freight-cost context; no household pass-through coefficient).
 - Corporate credit: 11/05 HY 348bp (318 on 10/27) with CCC−B narrowing to 953bp from 999, reversing the 10/27 split; three sessions, one shock. RED/REGINALD own the thresholds; CARL's L708 found consumer-facing B/CCC names did not lead.
@@ -55,6 +56,7 @@
 - Screwworm/beef (11/10, KB-611): October beef CPI +0.58% m/m NSA, first rise since July, still below the peak; YoY not computable (October 2025 unpublished); not attributable to screwworm on this evidence. APHIS has not said established; counts did not render at the primary. DEWEY scenario B not called.
 - Registered score stays 53/70. Next aggregate reads: BEA income and outlays 11/25; next HHDC (Q4) ~Feb 2027.
 
+- **11/21:** S&P −11.6% from its peak is a top-decile paper-wealth hit that no consumer print yet covers; credit did not reprice consumers. Michigan final: the K narrows from the bottom on gas relief (low-wealth finances up) while the largest stockholders report worse finances. PROJECTION (unscored): about 70% Michigan 12/04 again shows top stockholders worse; about 70% November retail control ≥0; under 10% V14 moves by 12/18. Alternative: the fall spreads into credit (HENRY's markers). A wealth fall leans against CRL-32's saving leg at 12/23 (direction only, 25% unchanged).
 - **11/17:** October control group +0.59% after a September revised up to +0.53%: aggregate spending held; the 10/15 "core goods stalled" read is withdrawn by revision. Import prices ex-fuel +0.80% (goods pipeline, on top of tariffs) vs October core goods CPI +0.16%. No score moved.
 - **11/11:** Fed hike debate (Waller 50bp) is a slow, small cost for indebted households, not a near-term delinquency trigger; gas back under $4.00 starts V5's downgrade clock; October real hourly pay flat. CRL-36 stays 70% as registered (re-mark to 60 offered, PROME declined 11/11; not-defended sentence on the row).
 
@@ -79,10 +81,10 @@
 |---|---|---|
 | 11/24 | AAA <$4.00 two weeks | V5 4→3 registered trigger |
 | 11/25 08:30 ET | October PCE / income (CRL-32 leg 1) | Letter research/2026-10-29_WQ537/LETTER.md; Z.1/DFA cohort read 12/10; final grade 12/23 |
-| 11/20 10:00 ET | Michigan November final | First interviews after the election and selloff; long-run <3.0% is V12's trigger |
+| 12/04 10:00 ET | Michigan December preliminary | First interviews after the 11/19–20 S&P legs; top-stockholder finances (V14 mechanism); long-run <3.0% is V12's trigger |
 | 11/30 | EART October 10-Ds | V2 tier read |
 | 12/04 | November payrolls | V16 print 2 of 2 |
 | 12/09 | FOMC | V12 un-fire count |
 | 12/16 | November retail | Does the control group hold? |
 
-**Closeout (11/17, PROME prome-19):** see SCRATCH closeout receipt. Score 53/70 unchanged; no mark moved.
+**Closeout (11/21, PROME prome-77):** see SCRATCH closeout receipt. Score 53/70 unchanged; no mark moved.
