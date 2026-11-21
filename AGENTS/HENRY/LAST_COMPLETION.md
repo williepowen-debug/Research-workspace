@@ -1,42 +1,44 @@
-# HENRY — 2026-11-20 11:33–11:46 ET: the S&P is 9 points above its −10% line and options dealers offer no cushion down to 6,900 — CLOSED on PROME's ask; PROME relaunches me about 16:05 ET for the close read
+# HENRY — 2026-11-21 18:02–18:2x ET (late wake): the S&P closed Friday through its −10% line; options dealers offer no cushion down to about 6,400 — CLOSED on PROME's ask
 
-**RESULT:** At 11:43 ET the S&P 500 was 7,046, nine points above my red line at 7,037 (10% under the October peak). The selling is narrow: chips down about 7%, the Nasdaq-100 fund down 3%, but the average stock barely down, regional banks slightly up and junk-bond funds flat. Options dealers are positioned so that their hedging enlarges moves both ways, and they do so at the same strength anywhere from 6,900 to 7,100, so nothing in the options market slows a further fall. Only a climb back above about 7,430 would turn that. I did not publish this map: Cboe's free data feed started blocking this computer today, and my rule is to publish only from Cboe.
+**RESULT:** The S&P 500 closed Friday 11/20 at 6,910.39, down 3.70%, which is 126.65 points under my red line at 7,037.04 and 11.62% under the October record. The line fired and WALTER routed it to CARL and PROME. The fall was led by chips (Nvidia −14%), while the average stock, regional banks and junk-bond funds fell far less and Treasury yields dropped sharply. Options dealers are positioned so their hedging enlarges moves both ways at the same strength from about 6,400 to 7,100, so Monday can swing hard in either direction.
 
-**CHANGED:** `CLAUDE.md` (H4) · `LESSONS.md` · `LESSONS_ARCHIVE.md` · `domain/REFERENCE_TABLES.md` · `STATUS.md` · `STATUS_COLD.md` (§ ROT-11/20) · `MEMORY.md` · this file · `NEXUS_BRIEF.md` · `board_log.tsv` · `registry/corrections_receipts.tsv` · `workbook/PREDICTIONS.tsv` (8 old rows graded) · `workbook/KB.tsv` (ML-HEN-238, -239) · `research/2026-11-20_map/` · inbox moves · packets to TERRY (2) and PROME.
+**CHANGED:** `STATUS.md` · `STATUS_COLD.md` (§ ROT-11/21) · `MEMORY.md` · this file · `NEXUS_BRIEF.md` · `board_log.tsv` · `registry/corrections_receipts.tsv` · `workbook/PREDICTIONS.tsv` (HEN-64 note, HEN-65 new) · `workbook/KB.tsv` (ML-HEN-240, -241) · `workbook/MARKET_DATA.tsv` (11/19, 11/20) · `research/2026-11-21_close-read/CLOSE.md` · inbox moves · packets to WALTER, TERRY and PROME.
 
 ## Session work
 
 | Item | Outcome |
 |---|---|
-| Credit rule H4 | Applied as PROME quoted it: "credit leads stocks by 2–3 sessions" removed (my own study found credit moved first in only 2 of 9 past declines); "stocks can't bottom until credit peaks" kept, marked untested. PROME verified it |
-| Eight old forecasts never graded (dropped in April) | 2 right, 3 wrong, 3 ungradable as written. The three wrong ones were my most confident calls that the economy would weaken (65–85%) |
-| Dealer map | Turning point about 7,420–7,440; push flat from 6,900 to 7,100; not published (Cboe blocked) |
-| Inbox | All 6 cleared; TERRY's two thesis-grade questions answered (QQQ put idea: right; VLO: no verdict) |
-| TERRY | Handoff with two not-fired trade triggers (a close under 7,037 with credit confirming; a close back over 7,300 with VIX under 25) or no card |
+| Red line 7,037.04 | **Fired** on the Friday close (vendor figure; the official FRED figure posts Monday). Signal to WALTER, routed as SIG-W-20261121-004 to CARL (household wealth score) and PROME. No trade or gate attached |
+| HEN-64 (close under 7,100 by 11/25, 40%) | Happened, 189.61 under. Graded Monday on the official FRED figure, as its wording requires |
+| HEN-65, new (close at or under 6,700 by 12/4) | Registered at 40%; history since 1990 says 32–48% |
+| Dealer map | Rebuilt by hand: the data vendor's weekend volatility figures are broken and Cboe blocks this laptop. Short gamma about $52–57B per 1%, flat from 6,400 to 7,100. Not published |
+| Inbox | All 5 cleared, including WALTER's late VIX alert |
+| TERRY | Handoff: the evidence points to big swings both ways over about 9 sessions, not a direction |
 
 ## Honest scope
 
-- **Cboe is blocked.** One test request, then stopped; no workaround. Until it clears, my map is from a second-hand data source and stays unpublished, and I cannot prove the official 4:15 PM VIX close (FRED confirms it the next business day).
-- The map leaves out today's expiring options by design; those are large near the current price into the 4 PM close.
-- The forecasts (about 65% that today closes under 7,100, about 45% under the red line today, about 60% by Wednesday) are my judgment, separate bets, and only HEN-64 (40%, registered yesterday) is scored.
-- The eight old rows were graded from evidence a helper agent gathered; I re-checked three key figures myself. The March manufacturing price figure comes from my own notes and a secondary summary, not ISM's page (login wall).
+- **Every figure is a Friday closing figure read on Saturday.** The laptop slept through the planned Friday afternoon read.
+- **Two of my default commands each sent one ordinary request to Cboe** before I switched data source by hand; both were refused, and I made no attempt to get around it.
+- VIX 35.89 is provisional: no proof it is the official 4:15 PM close until FRED posts Monday.
+- The dealer map uses my volatility assumption, not market prices, and leaves out Friday's own options trading.
+- The forecasts (about 65% the S&P closes back over 7,037 by 12/4; about 60% Monday closes higher) are my judgment, separate bets, unscored. Only HEN-65 (40%) is scored.
 
 ## GAPS / still pending
 
-Today's close not read (PROME relaunches me at about 16:05 ET). Dashboard v6 (11/12) not refreshed. LESSONS.md at 76% of its size cap.
+FRED S&P, VIX and junk-bond spreads for 11/20 post Monday. Dashboard v6 (11/12) not refreshed. LESSONS.md at 76% of its size cap.
 
 ## COMMITS
 
-`2beee94614` H4 · `13927365dc` desk files · `f61f3660a3` TERRY packets · `d5a6cea5fb` PROME packet · closeout commit "HENRY: 11/20 closeout". Not pushed (PROME pushes).
+`555dcc3fdd` desk files · `7189ef0c82` TERRY packet · `2c58a0e3a6` WALTER late alert · `2d69f62740` PROME packet · WALTER packet committed by WALTER in `b0243970a6` · closeout commit "HENRY: 11/21 closeout". Not pushed (PROME pushes).
 
 ## NEXT SESSION FOLLOW-UP
 
-**Fri 11/20 ~16:05 ET relaunch:** today's close against 7,100 (HEN-64) and the 7,037 red line; if the red line breaks on the close, the signal goes to WALTER for CARL and PROME. **Mon 11/23:** high-yield spread for 11/20 (REGINALD's three-day 350 test, day 2). **Wed 11/25:** HEN-64 resolves. **Wed 12/9:** FOMC.
+Mon 11/23: grade HEN-64 on FRED; confirm the red line; junk-bond spread for 11/20 (at or over about 370bp would push me toward the downside). HEN-64 window ends Wed 11/25. FOMC 12/9 (HEN-63, hike, 70%).
 
-## THESIS SNAPSHOT (frozen 11:46 ET)
+## THESIS SNAPSHOT (frozen at close)
 
-Inflation pressure persists and the Fed leans toward hiking, but household inflation expectations fell sharply in the Michigan final (3.7% from 4.7% in October). Stocks are under their 200-day average with dealers amplifying moves at a flat rate down to 6,900. Credit is at its 2026 high (high-yield 352bp [11/19]) but is following stocks, not leading them.
+AI and chip unwind broke the index through −10%; rates rallying (2Y 4.63%); credit lagging (HY 352bp on 11/19, the 2026 high, 11/20 unknown); dealers short gamma with no cushion to about 6,400.
 
 ## WILL_NEEDS
 
-None for his hands. The Cboe block goes to him as an ATTENTION item through PROME.
+None.

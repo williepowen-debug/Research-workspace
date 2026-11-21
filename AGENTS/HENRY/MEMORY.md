@@ -53,17 +53,16 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-20, prome-77 wake 11:33–11:46 ET (laptop; Claude Code, Opus 5.5). Closed on PROME's 11:46 ET ask; relaunch ~16:05 ET for the close read.
+### CHANGES SINCE — 2026-11-21, prome-77 LATE wake 18:02–18:14 ET (laptop; Claude Code, Opus 5.5). Closed on PROME's 18:13 ET ask.
 
-- **Cboe delayed-quote API BLOCKED** (307 to `cdn-api.cboe.com`, Cloudflare 403 page, 11:34 ET). Map ran on the vendor chain; `gamma_flip.py` refuses `--publish` there by design. Never evade; publishing the vendor chain would be a rule change (PROME/Will). The VIX-settle proof (`_VIX` last_trade_time) is gone with it: use FRED VIXCLS.
-- **`gamma_flip.py` drops T = 0 contracts:** on an expiry day the map is already the post-expiry book. Map: flip 7,422–7,440, NEGATIVE −30.1/−56.4, flat about −60 from 6,900 to 7,100 (no trough).
-- **H4 applied** (`2beee94614`, D:L1203 RESOLVED by PROME): lead clause gone, bottom clause untested; same-file consumers fixed (LESSONS_ARCHIVE, REFERENCE_TABLES).
-- **Eight 4/15 rows graded** into PREDICTIONS.tsv: 2 hit, 3 miss, 3 no-verdict, Brier 0.378 (confident deterioration calls missed). D:L490's HENRY leg had been closed 11/16; "audit rows dated 11/20" meant these.
-- TERRY: thesis grades (QQQ put-wall RIGHT, VLO NO-VERDICT) and a WQ-696 red-line handoff. TERRY's ask file is its own uncommitted packet: left in place.
-- S&P 7,046 at 11:43 ET, 9 over red 7,037.04; HY 352 [11/19], 2026 high. 11/19 vendor close 7,175.83, VIXCLS 28.44.
+- **Late wake:** laptop slept 14:53 ET 11/20 to 17:50 ET 11/21; the 16:05 close read never ran. Read Friday final bars Saturday.
+- **Red line FIRED on the 11/20 close** (6,910.39 vendor, −11.62%); signal to WALTER (SIG-W-20261121-004, WALTER committed my packet in `b0243970a6`). HEN-64 event YES but OPEN by its letter (FRED SP500 governs; posts Mon 11/23). HEN-65 registered 0.40 (close ≤6,700, 11/23–12/4).
+- **Vendor weekend chain IVs are broken** (median 12.5% with VIX 35.9): the script's flip-at-spot, zero-gamma read is an artifact. Rebuild on VIX-term vol (scratch method in `research/2026-11-21_close-read/CLOSE.md` §3): NEGATIVE −52 to −57, flat 6,400–7,100, flip band ~7,420–7,680.
+- **`gamma_flip.py` and `boot.py` hit Cboe first by default** (source="auto"; `--help` is not parsed and runs the full read). With Cboe refusing, call `compute_gamma_flip(source="yfinance")` from Python; a `--source` switch is a draft for PROME.
+- ugrep complexity limit bit again on a `.{0,60}(...)` context grep; use plain `grep -F` for stale-state sweeps.
 
 ### NEXT SESSION
 
-1. **Close read (relaunch ~16:05 ET):** STATUS § CROSS-DESK "HAND-OFF" bullet has the steps: HEN-64 (close under 7,100), red line → WALTER signal if fired, VIX provisional.
-2. Re-try Cboe once; FRED HY 11/20, posted Mon 11/23 (REG-T-04 day 2).
+1. **Mon 11/23:** FRED SP500 11/20 → grade HEN-64 (HIT if <7,100, Brier 0.36) and confirm the red line; VIXCLS 11/20; FRED HY/BB/CCC 11/20 (my marker: HY ≥ ~370). Monday close read opens HEN-65.
+2. Cboe: refused since 11/20; never retry around it. HEN-64 resolves 11/25; FOMC 12/9 (HEN-63 0.70).
 3. LESSONS rotation (76%); dashboard v6 stale; DAEDALUS K38–K52.
