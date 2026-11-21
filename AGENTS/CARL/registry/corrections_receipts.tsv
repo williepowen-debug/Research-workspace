@@ -49,3 +49,7 @@ receipt_date	correction_id	action	note
 2026-11-09T17:58Z	COR-20261106-52	NO-OP	scope=One-manager (Oaktree) reading of the Hertz Class B refusal touches no CARL file or OPEN instrument - LIQUID, OTTO and BROCK own it. Nothing to apply.; 
 2026-11-17T01:49Z	COR-20261116-08	NO-OP	scope=CARL never recorded card 006 (grep of STATUS, KB and thesis finds no Chase outage row). A one-day Chase online-banking outage touches no OPEN CARL instrument (gasoline, saving rate, ALLY, HHDC, CFPB MOHELA, DHI, UNH/ELV). CYPHER and REGINALD own it.; 
 2026-11-17T01:49Z	COR-20261116-10	NO-OP	scope=Second correction of the same Chase outage (technical, not cyber - Zelle not down). CARL holds no row carrying the corrected claims and no OPEN CARL instrument is touched. CYPHER owns.; 
+2026-11-21T23:15Z	COR-20261117-02	NO-OP	scope=CARL carries CACC 694M only as the 9/17 settlement (KB-CARL-497) and logged 20261116-005 item 8 INFO_ONLY, never as new, so no CARL figure changes; 
+2026-11-21T23:15Z	COR-20261117-10	NO-OP	scope=CARL authored this correction and its STATUS retail row, KB-CARL-623 and the 11/17 READ.md already carry ex-autos +0.63 percent, SCRATCH quotes +0.21 only as the card error; 
+2026-11-21T23:15Z	COR-20261117-30	NO-OP	scope=CARL STATUS V10 row and KB-CARL-335 already label ATTOM starts +18 percent and REO +33 percent as H1 2026, no Q2 label carried; 
+2026-11-21T23:15Z	COR-20261118-06	NO-OP	scope=CARL holds no Iran claimant or hull claim, its consumer transmission runs via gas price only, which this correction does not change; 

@@ -311,3 +311,8 @@ NY Fed Liberty Street, "A Look at the Wider Divide in Credit Card Delinquency by
 
 ## 2026-11-17: October control-group retail sales firm and September revised up (staged, unadjudicated)
 Census advance retail CB26-181 (2026-11-17, primary): October control group (total less autos, building materials, gasoline, food services) +0.59% m/m nominal, about +0.43% real on core goods CPI (CARL arithmetic); September control revised from +0.14% (first print) to +0.53%. Headline +0.21% is autos −1.60%. Counter to a near-term broad spending break and to CARL's 10/15 "core goods stalled" read, which the revision removes. Limits: nominal, aggregate, no cohort split; it cannot show whether the bottom 60% keeps pace or draws savings to do it (CRL-32 tests that 11/25). CARL scope finding of 10/12 unchanged. KB-CARL-623; `research/2026-11-17_retail-imports/READ.md`. RED owns any RED-FT-08 read; CARL grades none of RED's rows.
+
+---
+
+## 2026-11-21: Michigan November final, lower-wealth personal finances improving for a second read (staged, unadjudicated)
+University of Michigan Surveys of Consumers, November final (issuer page, read 2026-11-21): sentiment 51.5 (October 48.0); the director reports current personal finances improved for low-wealth and, less, middle-wealth consumers on falling gas prices, while the largest stockholders reported a decline. Counter to bottom-cohort deterioration in the near term: the K is narrowing from the bottom, on gas relief. Limits: attitudes, not outlays; interviews 10/20 to 11/16, before the 11/19–20 equity legs; no cohort levels on the issuer page. KB-CARL-627.

@@ -8,6 +8,14 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-21 — V14 graded on HENRY's S&P red line (WALTER SIG-W-20261121-004); Michigan November final (SIG-W-20261120-002) (no version or score change)
+
+- **V14 Upper-Decile Wealth Stress: HOLDS 3.** S&P 500 6,910.39 on 11/20 (vendor; FRED due 11/23), −11.62% from the 10/6 record, under HENRY's −10% routing line 7,037.04. V14 has no registered upgrade letter; its un-fire rule needs an all-time high. Old view: "SPX still near highs." New view: drawdown −11.6% from the peak but +5.7% YoY; no spending print covers it yet. THESIS V14 evidence cell updated, score cell unchanged. KB-CARL-626.
+- **Correction of CARL wording:** STATUS's "V14 trigger (SPX −10%) is 7,037" (since 11/06) called HENRY's routing line a V14 trigger. Fixed in STATUS; V14 upgrade-letter draft sent to PROME (Will-gated, no change made).
+- **Michigan final:** long-run 3.3% (V12 trigger <3.0% not met); year-ahead 3.7%; low-wealth finances up, largest stockholders down. RED counter row staged. KB-CARL-627.
+- **CRL-32:** not re-marked; direction note only (a wealth fall tends to raise saving, against the saving leg at the 12/23 print).
+- Record: `research/2026-11-21_v14-red-line/READ.md`.
+
 ## 2026-11-17 — October retail sales and import prices read (WALTER SIG-W-20261117-004); CRL-34 CONFIRMED (no version or score change)
 
 - **CRL-34:** OPEN → **CONFIRMED 2026-11-17 at 72%** (mark unchanged since registration 11/06). FRED GASREGW vintage 11/17: 11/09 $3.995, 11/16 $3.805, two consecutive observations below $4.000. Not the V5 letter (AAA, earliest 11/24); no score moved.
