@@ -1,0 +1,21 @@
+# TERRY STATUS ARCHIVE — rotated 2026-11-21 (FROZEN — not maintained; STATUS.md is canonical, do not cite rows as current)
+
+Pre-rotation `STATUS.md` lines 3–16, the 2026-11-20 ★ CURRENT STATE block, verbatim, contiguous, body only; crc32 `90ad78ab`, 3,604 B (over the body, first line through last, no trailing newline).
+⛔ No live state moved. Live legs restated in the 2026-11-21 block: IDEA-HYG-FOLLOW-NOV05 (×5 approved fired, no fill known, window to 12/4, also on its card and SETUPS.tsv) · WQ-724 IDEA-QQQ-CAPIT-NOV20 (with Will; card + SETUPS.tsv) · CAL-0009 (graded 11/21 in CALIBRATION.tsv) · owner thesis grades (POSTMORTEMS.md 2026-11-21 entry) · paper-book Phase-2 gate (carried) · Will's own short-dated puts (FORGE D-103).
+
+---
+
+> ## ★ CURRENT STATE — 2026-11-20 11:3x EST (PROME prome-77 task letter, D:L831 + D:L929, read 11:22 ET) · TERRY, Claude Code, Claude Opus 5.5, laptop. **NO ORDER. $0.** Note `research/2026-11-20_wake-L831-L929/NOTE.md` §1–8. No timer or background process running; HOLDING for PROME's closeout ask.
+> - **D:L831 `IDEA-ORCL-PUTSPREAD-OCT23`: LAPSED UNFIRED at the 11/20 window end.** Condition (Oracle-IR-verified FQ2 date on the card) never met; not filled (no ORCL line, FORGE 11/18); T1 never fired (CDS high 342.5 [10/20], last on file about 295 [11/12] vs 350). ORCL $104.10 −5.86% (11:22). NOTE §1.
+> - **D:L929 `IDEA-QQQ-200D-NOV05`: LAPSED UNFIRED, not brought to Will.** VIX3M/VIX 0.932 (11:08 ET bars) vs ≥ 1.00; credit leg fails, HY 352 [11/19] > 344. NOTE §2.
+> - **Tape read (VIX at 30, S&P 7,084.58 = −9.4% from 10/6, QQQ −2.75% vs RSP flat, gold −3.1%, HY 352, funding calm): one NOT-FIRED idea, `IDEA-QQQ-CAPIT-NOV20`** (QQQ Dec-18 640/650C ×1 ≤ $4.50, max loss $451.30; trigger = today's closes VIX > 30, ratio < 0.95, QQQ red; credit filter: REG-T-04 must FAIL on the 11/20 or 11/23 HY cell; entry by 11/25; base rate 11 of 17 at +20 sessions). **TERRY lean: decline.** NOT approved; to Will via PROME. CAL-0009 (trigger, p 0.50) grades after 16:15 today. NO CARD on puts (red day), vol, gold, ORCL, credit (the HYG card is the credit card). NOTE §3. WALTER FLASH SIG-W-20261120-001 read and logged acted.
+> - **`IDEA-HYG-FOLLOW-NOV05` (×5, APPROVED FIRED, no fill known): unchanged**; screen 11:25 outer $0.67, mid $0.57 vs ≤ $0.60 (record only). HY 352 ≠ void (≤ 330 ×5).
+> - **YURI Japan Tobacco: NO CARD** (2914.T −10.11% on 11/20, JAPAY −16.4% on 11/19: priced; no listed options; decree binary untimed). NOTE §4.
+> - **Postmortem task (PROME 11/16 + 11/17, D:L1170 item 1): DONE** — list (25 entries), 12 owner-desk grade asks sent, 3 close prices found as broker rows (QQQ 719P +$208.99, QQQ 715P Oct-22 $7.31 +$730.32, CRWV 56P +$88.34), 6 UNAVAILABLE, template line added. Owner answers go into `POSTMORTEMS.md` when they arrive. NOTE §7.
+> - **Inbox drained: 19 of 19 to processed** (17 census + LIQUID and LABOR of 11/20). Combo reviews done (5 kept, next 12/4). NEXUS_BRIEF wording: no TERRY line to change (no brief, no "every session" line).
+> - **Read-cap:** `SETUPS.tsv` rotated 25,621 → 20,749 B (notes history of 7 rows → `archive/SETUPS_ENTRY_HISTORY_2026-11-20.tsv`, crc32 `208015d3`).
+> - **Carried:** paper-book Phase-2 gate open for Will. Will's own short-dated QQQ/NVDA puts are his hand (FORGE D-103), no prompts.
+> - **PROME 11:3x ET: D:L831 and D:L929 RESOLVED; `IDEA-QQQ-CAPIT-NOV20` = WQ-724, shown to Will with TERRY's lean (decline), both caveats and the X1 note; PROME also recommends decline.** If Will says yes, PROME relaunches TERRY after the close to grade T1.
+> - **Next session:** grade CAL-0009 on the 11/20 closes (VIX > 30, VIX3M/VIX < 0.95, QQQ < $645.04); check the 11/20 and 11/23 HY cells against the idea's credit filter (REG-T-04 must fail); record owner thesis grades in `POSTMORTEMS.md` as the 12 desks answer; HYG card window to 12/4 (Will's hand, no prompt).
+> - **BOARD scan run, 26 new since SIG-W-20261118-014, 1 logged** (11/18 -015, 11/19 -001 to -021, 11/20 -001 to -004; only 11/20 -001 FLASH names TERRY in action, logged acted 11:31).
+> - **CLOSEOUT 11:3x EST (PROME prome-77 ask, laptop memory):** ledger sweep A–H CLEAN (rc 0); read-cap rc 0; claim check clean; orphan check: no TERRY-authored orphans. Not pushed (PROME pushes). No timer, helper or background process running.
