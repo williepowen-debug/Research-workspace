@@ -1,6 +1,6 @@
 # FALCON — WALTER card SIG-W-20261121-002: the Bahrain industrial-facility hit, graded
 
-**Session:** PROME C9 research commission (prome-77, laptop), Claude Code, Opus 5.5. Launched late (laptop slept about 14:53 ET 11/20 to about 17:50 ET 11/21). **Written:** 2026-11-21 about 18:20 ET (clock). **Evidence cutoff:** about 23:15Z 11/21. One bounded session, zero dollars.
+**Session:** PROME C9 research commission (prome-77, laptop), Claude Code, Opus 5.5. Launched late (laptop slept about 14:53 ET 11/20 to about 17:50 ET 11/21). **Written:** 2026-11-21 about 18:18 ET (clock). **Evidence cutoff:** about 23:15Z 11/21. One bounded session, zero dollars.
 
 ## 1. Bottom line
 
