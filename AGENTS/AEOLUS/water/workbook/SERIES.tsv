@@ -1204,3 +1204,68 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-11-16	powell_elev	3540.13	ft	USBR-919-49	2026-11-19 10:16 ET	daily
 2026-11-17	powell_elev	3540.25	ft	USBR-919-49	2026-11-19 10:16 ET	daily
 2026-11-18	powell_elev	3540.47	ft	USBR-919-49	2026-11-19 10:16 ET	daily
+2026-11-19	kaub_stage	117	cm	WSV-PEGELONLINE	2026-11-22 16:52 ET	BASIS=DAILY_MEAN local day n=96; unrounded 116.958 (grade on unrounded)
+2026-11-20	kaub_stage	140	cm	WSV-PEGELONLINE	2026-11-22 16:52 ET	BASIS=DAILY_MEAN local day n=96; unrounded 140.167 (grade on unrounded)
+2026-11-21	kaub_stage	180	cm	WSV-PEGELONLINE	2026-11-22 16:52 ET	BASIS=DAILY_MEAN local day n=96; unrounded 180.073 (grade on unrounded)
+2026-11-19	duisburg_ruhrort_stage	311	cm	WSV-PEGELONLINE	2026-11-22 16:52 ET	BASIS=DAILY_MEAN local day n=96; unrounded 311.031 (grade on unrounded)
+2026-11-20	duisburg_ruhrort_stage	363	cm	WSV-PEGELONLINE	2026-11-22 16:52 ET	BASIS=DAILY_MEAN local day n=96; unrounded 362.885 (grade on unrounded)
+2026-11-21	duisburg_ruhrort_stage	413	cm	WSV-PEGELONLINE	2026-11-22 16:52 ET	BASIS=DAILY_MEAN local day n=96; unrounded 412.990 (grade on unrounded)
+2026-11-11	memphis_stage	-2.154	ft	NOAA-NWPS-MEMT1	2026-11-22 16:52 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-13	memphis_stage	-0.534	ft	NOAA-NWPS-MEMT1	2026-11-22 16:52 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-14	memphis_stage	-0.077	ft	NOAA-NWPS-MEMT1	2026-11-22 16:52 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-15	memphis_stage	0.369	ft	NOAA-NWPS-MEMT1	2026-11-22 16:52 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-16	memphis_stage	0.581	ft	NOAA-NWPS-MEMT1	2026-11-22 16:52 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-17	memphis_stage	0.193	ft	NOAA-NWPS-MEMT1	2026-11-22 16:52 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-18	memphis_stage	-0.26	ft	NOAA-NWPS-MEMT1	2026-11-22 16:52 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-19	memphis_stage	-0.508	ft	NOAA-NWPS-MEMT1	2026-11-22 16:52 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-20	memphis_stage	-1.004	ft	NOAA-NWPS-MEMT1	2026-11-22 16:52 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-21	memphis_stage	-1.76	ft	NOAA-NWPS-MEMT1	2026-11-22 16:52 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-05	gatun_elev	87.10	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-06	gatun_elev	87.11	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-07	gatun_elev	87.12	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-08	gatun_elev	87.09	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-09	gatun_elev	87.06	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-10	gatun_elev	87.06	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-11	gatun_elev	87.01	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-12	gatun_elev	86.99	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-13	gatun_elev	86.93	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-14	gatun_elev	86.89	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-15	gatun_elev	86.82	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-16	gatun_elev	86.80	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-17	gatun_elev	86.75	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-18	gatun_elev	86.72	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-19	gatun_elev	86.68	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-20	gatun_elev	86.65	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-21	gatun_elev	86.62	ft	ACP-GATUN-CSV	2026-11-22 16:52 ET	ACP history CSV
+2026-11-17	usdm_conus_none	35.15	pct	USDM-API-CONUS	2026-11-22 16:52 ET	CONUS (not Total); mapDate 2026-11-17
+2026-11-17	usdm_conus_d0d4	64.85	pct	USDM-API-CONUS	2026-11-22 16:52 ET	CONUS (not Total); mapDate 2026-11-17
+2026-11-17	usdm_conus_d1d4	42.03	pct	USDM-API-CONUS	2026-11-22 16:52 ET	CONUS (not Total); mapDate 2026-11-17
+2026-11-17	usdm_conus_d2d4	20.84	pct	USDM-API-CONUS	2026-11-22 16:52 ET	CONUS (not Total); mapDate 2026-11-17
+2026-11-17	usdm_conus_d3d4	8.77	pct	USDM-API-CONUS	2026-11-22 16:52 ET	CONUS (not Total); mapDate 2026-11-17
+2026-11-17	usdm_conus_d4	2.42	pct	USDM-API-CONUS	2026-11-22 16:52 ET	CONUS (not Total); mapDate 2026-11-17
+2026-11-10	usdm_conus_none	33.02	pct	USDM-API-CONUS	2026-11-22 16:52 ET	CONUS (not Total); mapDate 2026-11-10
+2026-11-10	usdm_conus_d0d4	66.98	pct	USDM-API-CONUS	2026-11-22 16:52 ET	CONUS (not Total); mapDate 2026-11-10
+2026-11-10	usdm_conus_d1d4	41.68	pct	USDM-API-CONUS	2026-11-22 16:52 ET	CONUS (not Total); mapDate 2026-11-10
+2026-11-10	usdm_conus_d2d4	21.08	pct	USDM-API-CONUS	2026-11-22 16:52 ET	CONUS (not Total); mapDate 2026-11-10
+2026-11-10	usdm_conus_d3d4	7.92	pct	USDM-API-CONUS	2026-11-22 16:52 ET	CONUS (not Total); mapDate 2026-11-10
+2026-11-10	usdm_conus_d4	1.84	pct	USDM-API-CONUS	2026-11-22 16:52 ET	CONUS (not Total); mapDate 2026-11-10
+2026-11-17	usda_barge_rate_pct	704	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	Twin Cities; = $43.58/ton (benchmark 6.19)
+2026-11-17	usda_barge_rate_pct	672	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	Mid-Mississippi; = $35.75/ton (benchmark 5.32)
+2026-11-17	usda_barge_rate_pct	639.4444	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	Lower Illinois; = $29.67/ton (benchmark 4.64)
+2026-11-17	usda_barge_rate_pct	529.7222	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	St. Louis; = $21.14/ton (benchmark 3.99)
+2026-11-17	usda_barge_rate_pct	616.1111	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	Cincinnati; = $28.90/ton (benchmark 4.69)
+2026-11-17	usda_barge_rate_pct	616.1111	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	Lower Ohio; = $27.48/ton (benchmark 4.46)
+2026-11-17	usda_barge_rate_pct	420	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	Cairo-Memphis; = $13.19/ton (benchmark 3.14)
+2026-11-10	usda_barge_rate_pct	746	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	Twin Cities; = $46.18/ton (benchmark 6.19)
+2026-11-10	usda_barge_rate_pct	686	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	Mid-Mississippi; = $36.50/ton (benchmark 5.32)
+2026-11-10	usda_barge_rate_pct	651.4285	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	Lower Illinois; = $30.23/ton (benchmark 4.64)
+2026-11-10	usda_barge_rate_pct	548.2142	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	St. Louis; = $21.87/ton (benchmark 3.99)
+2026-11-10	usda_barge_rate_pct	630.7142	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	Cincinnati; = $29.58/ton (benchmark 4.69)
+2026-11-10	usda_barge_rate_pct	630.7142	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	Lower Ohio; = $28.13/ton (benchmark 4.46)
+2026-11-10	usda_barge_rate_pct	429.2857	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-22 16:52 ET	Cairo-Memphis; = $13.48/ton (benchmark 3.14)
+2026-10-31	panama_transits	33.19	count	ACP-ADVISORY	2026-11-22 16:52 ET	A-41-2026 (dated 2026-11-09): October 2026 oceangoing TRANSITS daily average (NOT arrivals, which were 33.6); month total 1029, self-check 1029/31d=33.19; high 38 / low 28; by beam class 5.35/17.94/9.90; booking SLOTS used/available PRINTED: Neopanamax 136/146 (93.15%), Supers 395/396 (99.75%), Regular 99/88 (112.50%), auctioned 329/392 (83.93%) - *does not include additional auctioned booking slots; CWT 20.24h ITT 10.53h
+2026-11-09	panama_max_draft_ft	50	feet	ACP-ADVISORY	2026-11-22 16:52 ET	A-42-2026 dated 2026-11-09: Neopanamax max authorized draft 15.24 m (50.0 ft) effective immediately until further notice, up from 49.0 (A-36); Supers slots 18->19/day, total SLOTS 34/day. ACP: improving water conditions, favorable hydrological projections. SLOTS, not transits
+2026-11-19	mead_elev	1041.27	ft	USBR-921-49	2026-11-22 16:55 ET	daily
+2026-11-20	mead_elev	1041.36	ft	USBR-921-49	2026-11-22 16:55 ET	daily
+2026-11-21	mead_elev	1041.41	ft	USBR-921-49	2026-11-22 16:55 ET	daily
+2026-11-19	powell_elev	3540.62	ft	USBR-919-49	2026-11-22 16:55 ET	daily
