@@ -52,3 +52,11 @@ Prior: **v0.48 (October 23, evening)** — **the `CYBER` row stops filtering on 
 **Current: v0.51 (October 31)** — the Position-Specific Risk row delivers to the active Will session plus a durable record, following the Telegram retirement; no recipient moved.
 
 **Prior: v0.50 (October 31)** — retire stale boundary #7 after owner-history reconciliation, authorized by Will in-session; keep its historical 458 arithmetic distinct from the closed BRT-26 457 line. OVERLAYS owns the tombstone; companions lockstep. **Prior: v0.49 (October 29)** — the `CYBER` row adds the **bank-supplier and payment-plumbing class** (incidents or accidental outages at bank/CU core vendors, print/mail vendors, payment messaging/settlement → CYPHER ACTION, PRIORITY minimum, never folded; full letter in the row). Cause: Sharetec 9/15 accidental outage, 23 CUs (`SIG-W-20261029-038`). CYPHER request; Will approved 2026-10-29 13:34 ET in-session. No recipient moved. Companions lockstep.
+
+## Moved 2026-11-23 (v0.53 bump) — the v0.52 version entry and the pre-v0.53 CORAL bullets, verbatim
+
+**Current: v0.52 (2026-11-23, Will 17:12 ET in the WALTER terminal on AEOLUS's packet, edits 1, 2, 3 and the channel count of 5)** — `CLIMATE_MACRO` gains flash flood emergency and record river or tide level as IMMEDIATE, US floods outside Florida to AEOLUS, winter heating and cold, six channels; edit 4 (ENSO action owner) held for CORAL.
+
+**What routes to CORAL (FL-transmitting climate):**
+- **ENSO state** — El Niño / La Niña / ONI prints + forecasts (NOAA CPC, ECMWF, CSU). They set the Atlantic hurricane-activity prior, which prices directly into FL insurance + coastal RE.
+- **Atlantic hurricane-season outlooks** — NOAA / CSU / TSR named-storm / ACE forecasts; in-season named-storm tracks/intensity threatening FL landfall.

@@ -4,6 +4,7 @@ Updated 2026-11-23T22:09:59Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 
 ## RESUME — do these first
 
+0. **Will 17:18 ET 11/23:** (a) if launched Tuesday evening 11/24 or Wednesday 11/25, **run the flood check (7j) FIRST**, before other boot work. (b) **Tue 11/24 after the morning releases: filter review** (FILTER_V3_REVIEW.md named about 10/4, overdue; a report: sample recent cards against desk use; changes nothing without Will). (c) Routing v0.53: edit 4 adopted; secondhand releases PRIORITY (official weather, grid and river warnings keep their urgency).
 1. **Tue 11/24:** FRED HY for 11/23 (REG-T-04 day 3 of 3; over 350 fires REGINALD action, LIQUID action, Will); RED grades RED-FT-11 (card 026); 5Y auction 13:00 ET (BOND I-prime 59.42); Richmond Fed 10:00, ERS Food Price Outlook, Case-Shiller, Car-Mart (BROCK); REGINALD, NEXUS, CORAL wakes by PROME.
 2. **Wed 11/25:** GDP and PCE, durable goods, 7Y (I-prime 57.43), FALCON, VULCAN, BRENT bypass watch (cards 022, 024, 025), FDIC QBP window, claims (203,000 last).
 3. **Jeddah and Yanbu:** Maersk and MSC notices, Mawani, Kpler and Vortexa prints. No carrier response found by 11/23, coverage weak.
@@ -38,7 +39,7 @@ Cards 016 to 029; anchors/IRAN_WAR.md and HISTORY; CORRECTIONS (COR-20261123-23,
 
 1. Optional: `! gh auth login` on the laptop (extra collector run only).
 
-**Ruled, not open (Will 17:12 ET 11/23, "Yes go ahead my approval"):** flood-alert check adopted as charter step 7j (review 12/02); AEOLUS climate edits 1, 2, 3 and the channel count of 5 adopted at routing v0.52; edit 4 HELD for CORAL's answer (packet sent). READS registrar rows asked of PROME.
+**Ruled, not open (Will 17:12 ET 11/23, "Yes go ahead my approval"):** flood-alert check adopted as charter step 7j (review 12/02); AEOLUS climate edits 1, 2, 3 and the channel count of 5 adopted at routing v0.52; edit 4 ADOPTED at 17:18 ET (v0.53; CORAL told). READS registrar rows asked of PROME.
 
 ## FOLLOW-UP
 
