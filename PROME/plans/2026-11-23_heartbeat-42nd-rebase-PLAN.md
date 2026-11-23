@@ -45,3 +45,9 @@ Scope: the four changed sentences at their sources with the reader's own recompu
 - Central judgment: "drove an index-level break and then most of its reversal" is an unqualified causal claim; about a quarter of NVDA's Monday move preceded the filing with its cause UNVERIFIED. Read it as "appears to have driven".
 
 **State:** IMPLEMENTED · TESTED (two independent reads, the second bounded) · residue declared above. Both readers' ledgers were written to the session scratchpad and are not durable; their findings are restated in this file.
+
+## Amendment #1 (post-close Mon 11/23): the read and declared residue (2026-11-23 16:45 ET, prome-77)
+
+One blind result read (Sonnet, read-only), ledger `PROME/reports/2026-11-23_heartbeat-rebase/coldread_amendment1.md`: 0 ❌, 7 ⚠️, 41 claims verified exactly at their sources. No edit was made after the read; a further edit to HEARTBEAT.md needs an independent read. The memo measures just under its rotation line (`PROME/tools/measure.py HEARTBEAT.md`), so the next rewrite rotates first.
+
+Residue, not fixed: Brent 89.23 and MOVE 100.92 are 16:09 ET vendor quotes and the block labels only the 10Y and 30Y as vendor (the block's opening line says all levels are vendor closes) · "as narrow as the break" rests on the base's 11/20 breadth figures, not restated · the Florida watches are given one window where the Brevard to Martin watch starts late Tuesday; the Flagler and Putnam coastal flood warning is omitted; "no federal declaration" means no Florida declaration · "launched tonight" was written one minute after the last launch rows; MARCO (next wake) and AEOLUS (Will's window) are not named · "credit followed vol" is VIOLET's row result on the 11/19 and 11/20 windows, not a conclusion about Monday · "ISHM grades the final 12/01" is PROME's inference from WALTER's card, which says only that the final is the successor and ISHM does not grade at the flash.
