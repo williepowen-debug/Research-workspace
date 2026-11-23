@@ -187,7 +187,7 @@
         <span class="pill p-calm">Calm</span>
         <span class="pill p-watch">Watch</span>
         <span class="pill p-stress">Stress</span>
-        <span class="lbl" style="margin-left:6px">Marker&nbsp;●&nbsp;= 9 Nov 2026 Cboe close print; SKEW 6 Nov archive</span>
+        <span class="lbl" style="margin-left:6px">Marker&nbsp;●&nbsp;= 23 Nov 2026 close print (provisional); SKEW 20 Nov archive</span>
       </div>
     </header>
 
@@ -205,7 +205,7 @@
         <div class="card">
           <div class="g-top">
             <div><div class="g-name">VIX</div><div class="g-sub">30-day S&amp;P insurance price</div></div>
-            <span class="pill p-calm">Calm</span>
+            <span class="pill p-watch">Watch</span>
           </div>
           <p class="g-q"><span class="qmark">?</span>How scared is everyone <b>right now</b>?</p>
           <p class="g-what">The headline fear gauge. Low = calm, high = panic. ~20 is the border between calm and nervous.</p>
@@ -214,13 +214,13 @@
               <span class="z-calm" style="width:40%"></span>
               <span class="z-watch" style="width:40%"></span>
               <span class="z-stress" style="width:20%"></span>
-              <span class="marker" style="left:39.7%"></span>
+              <span class="marker" style="left:66.5%"></span>
             </div>
             <div class="scale"><span>10 · calm</span><span>20</span><span>30</span><span>stress 35+</span></div>
           </div>
           <div class="g-read">
-            <span class="g-val">19.92 <small>9 Nov close print &middot; down 22.31% from 25.64; 0.08 under the 20 line, archive pending</small></span>
-            <span class="trip">breaks <b>&gt; 20</b> = rising-vol</span>
+            <span class="g-val">26.62 <small>23 Nov close print &middot; down 25.83% from 35.89 (20 Nov archive, high 40.03); archive pending</small></span>
+            <span class="trip"><b>&gt; 30</b> high vol · <b>&gt; 40</b> crash line</span>
           </div>
         </div>
 
@@ -228,7 +228,7 @@
         <div class="card">
           <div class="g-top">
             <div><div class="g-name">VVIX</div><div class="g-sub">Volatility of the VIX itself</div></div>
-            <span class="pill p-calm">Calm</span>
+            <span class="pill p-watch">Watch</span>
           </div>
           <p class="g-q"><span class="qmark">?</span>How <b>unstable</b> is the fear?</p>
           <p class="g-what">Fear about fear. When the price of insurance gets jumpy, the vol market itself is twitchy. Over 100 = twitchy; over 120 = something breaking.</p>
@@ -238,12 +238,12 @@
               <span class="z-watch" style="width:14%"></span>
               <span class="z-stress" style="width:29%"></span>
               <span class="z-crisis" style="width:28%"></span>
-              <span class="marker" style="left:40.7%"></span>
+              <span class="marker" style="left:68.2%"></span>
             </div>
             <div class="scale"><span>70 · calm</span><span>100</span><span>120</span><span>crisis 140</span></div>
           </div>
           <div class="g-read">
-            <span class="g-val">98.43 <small>9 Nov archive &middot; down 19.28%; back under 120 after two closes over</small></span>
+            <span class="g-val">117.36 <small>23 Nov close print &middot; from 138.03 (20 Nov archive); back under 120 after two closes over</small></span>
             <span class="trip">&gt; 100 watch · <b>&gt; 120</b> stress</span>
           </div>
         </div>
@@ -252,7 +252,7 @@
         <div class="card feature">
           <div class="g-top">
             <div><div class="g-name">SKEW</div><div class="g-sub">Price of catastrophe cover vs normal cover</div></div>
-            <span class="pill p-stress">Stress</span>
+            <span class="pill p-watch">Watch</span>
           </div>
           <p class="g-q"><span class="qmark">?</span>Is anyone quietly paying up for a <b>crash</b>?</p>
           <p class="g-what">SKEW summarizes asymmetry in the option-implied return distribution. It can run <b>high while VIX stays low</b>. That divergence helps describe tail pricing; the index alone does not identify who bought protection or predict a crash.</p>
@@ -262,12 +262,12 @@
               <span class="z-watch" style="width:44%"></span>
               <span class="z-stress" style="width:22%"></span>
               <span class="z-crisis" style="width:23%"></span>
-              <span class="marker" style="left:85.2%"></span>
+              <span class="marker" style="left:52.4%"></span>
             </div>
             <div class="scale"><span>115 · cheap</span><span>140</span><span>150</span><span>fear 160</span></div>
           </div>
           <div class="g-read">
-            <span class="g-val">153.55 <small>6 Nov archive close &middot; 150.34 quoted 9 Nov; FT-10 exit 0 of 4</small></span>
+            <span class="g-val">138.84 <small>20 Nov archive close &middot; first close under 140; FT-10 exit 1 of 4 on VIOLET&rsquo;s reading</small></span>
             <span class="trip">RED owns FT-10 sustain grading; no automatic re-arm</span>
           </div>
         </div>
@@ -276,7 +276,7 @@
         <div class="card">
           <div class="g-top">
             <div><div class="g-name">TERM</div><div class="g-sub">Insurance for now vs for later &nbsp;(VIX3M ÷ VIX)</div></div>
-            <span class="pill p-watch">Watch</span>
+            <span class="pill p-stress">Stress</span>
           </div>
           <p class="g-q"><span class="qmark">?</span>Is cover pricier for <b>now</b> or for later?</p>
           <p class="g-what">Normally three-month implied volatility exceeds one-month implied volatility. A ratio below 1.0 means near-term volatility is higher. VIOLET treats inversion as a stress or peak-context marker; it does not reliably identify the exact top.</p>
@@ -285,12 +285,12 @@
               <span class="z-calm" style="width:37%"></span>
               <span class="z-watch" style="width:38%"></span>
               <span class="z-stress" style="width:25%"></span>
-              <span class="marker" style="left:63.2%"></span>
+              <span class="marker" style="left:85.5%"></span>
             </div>
             <div class="scale"><span>1.30 · contango</span><span>1.15</span><span>1.0</span><span>inverted</span></div>
           </div>
           <div class="g-read">
-            <span class="g-val">1.0467 <small>9 Nov, VIX print &middot; back above 1 after two inverted closes</small></span>
+            <span class="g-val">0.9579 <small>23 Nov print &middot; inverted 5 straight closes; 0.8621 on 20 Nov was the deepest</small></span>
             <span class="trip">inverts <b>&lt; 1.0</b></span>
           </div>
         </div>
@@ -330,16 +330,17 @@
     <!-- WHERE WE STAND -->
     <section>
       <div class="sec-head"><span class="sec-num">03</span><h2 class="sec-title">Where we stand</h2></div>
-      <div class="stand"><div class="asof">9 Nov Cboe close print, 16:15 ET; the daily archive has VVIX, VIX3M and VIX9D for 9 Nov but not VIX yet · 6 Nov confirmed on every gauge · credit 6 Nov · framework v4.1.9</div>
+      <div class="stand"><div class="asof">23 Nov close print, 16:15 ET, read through a vendor mirror: provisional until Cboe&rsquo;s archive posts tonight · 20 Nov confirmed on every gauge · credit 20 Nov (first published) · framework v4.1.10</div>
       <div class="stand-grid"><div><h5>The current surface</h5><ul class="tight">
-        <li class="sig-calm">VIX closed <b>19.92</b>, down 22.31%, back under 20 by just 0.08: low vol again on the print, three sessions after the 28.18 spike of 5 Nov. If the archive posts 20.00 or more, it reads rising vol.</li>
-        <li class="sig-watch">VIX3M/VIX <b>1.0467</b>, back in contango after two inverted closes. VVIX <b>98.43</b>, back under 120. Inversion marked the peak this time, as it usually does.</li>
-        <li class="sig-stress">SKEW <b>153.55</b> on 6 Nov, 150.34 quoted 9 Nov: crash-cover pricing has <b>not</b> come down with the VIX. RED&rsquo;s SKEW test stays firing, 0 of 4.</li>
+        <li class="sig-stress"><b>Friday 20 Nov:</b> VIX closed <b>35.89</b> (high 40.03), the first close over 30 since March, on a Reuters report of SEC scrutiny of Nvidia&rsquo;s accounting. High vol. The whole curve inverted; the next nine days were priced dearest.</li>
+        <li class="sig-watch"><b>Monday 23 Nov:</b> VIX <b>26.62</b> on the close print, down 25.83%, after Nvidia reinstated its CEO (8-K). Rising vol, not high. The nine-day premium has mostly gone (VIX9D/VIX 1.0428).</li>
+        <li class="sig-watch">VIX3M/VIX <b>0.9579</b>: still inverted, a 5th straight close. A 7th on 25 Nov arms VIOLET&rsquo;s test that VIX then stays above 25 for 10 sessions. December VIX future 24.08 (from 28.46): the market prices more decay.</li>
+        <li class="sig-watch">SKEW <b>138.84</b> on 20 Nov, its first close under 140: crash cover got relatively cheaper as plain vol spiked. RED&rsquo;s SKEW test: 1 of the 4 closes its exit needs.</li>
       </ul></div><div><h5>Other channels and the next test</h5><ul class="tight">
-        <li class="sig-stress">High-yield spread <b>342bp</b> on 6 Nov, 6bp off the 348bp peak, still 74bp over the 268bp base of 22 Sep. <b>Calm vol is not calm credit.</b> The credit-vol watch ends 17 Nov; Will ruled it a watch with no gate.</li>
-        <li class="sig-stress">Bond vol (MOVE) <b>85.98</b> on 9 Nov, down from 97.92. Oil vol <b>57.37</b>, ratio to VIX 2.88, CALM: not leading.</li>
-        <li class="sig-watch"><b>What drove it.</b> Short-dated correlation did about 83% of the spike by an exploratory measure, and fell 36% on 9 Nov (20.76 to 13.23; its share of the release is not measured). It reads as a crowded-tech unwind more than a credit event, so far. HENRY owns the equity read.</li>
-        <li class="sig-calm">Cheap-tail dormant. Next: CPI 10 Nov (date unconfirmed), credit-vol window and NVIDIA results 17 Nov, VIX expiry 18 Nov.</li>
+        <li class="sig-stress">High-yield spread <b>376bp</b> on 20 Nov (first published), up 24bp in a day and 53bp in five sessions, the widest of the year. <b>Credit followed vol this time.</b> Monday&rsquo;s cell posts Tuesday: whether it gives the widening back is the next test. LIQUID owns the read.</li>
+        <li class="sig-stress">Bond vol (MOVE) <b>106.31</b> on 20 Nov. Oil vol <b>49.19</b> on the 23 Nov print, ratio to VIX 1.85, CALM: not leading.</li>
+        <li class="sig-watch"><b>What drove it.</b> Nvidia governance news both ways: the reported accounting inquiry Friday, the CEO&rsquo;s return Monday. Short-dated correlation went 16.42 (16 Nov) to 36.05 (20 Nov), then 25.68 on the print. The 8-K does not address the accounting question; the 10-Q is due about 4 Dec. VULCAN owns that read.</li>
+        <li class="sig-calm">Cheap-tail dormant (VIX and VVIX far from cheap). Next: 25 Nov close (the inversion test arms or not), Nvidia 10-Q about 4 Dec, December VIX expiry 16 Dec.</li>
       </ul></div></div></div>
     </section>
 
@@ -373,8 +374,8 @@
       </div>
       <div class="sign">
         <span>VIOLET — Volatility &amp; Term Structure</span>
-        <span>Framework v4.1.9</span>
-        <span>Snapshot 2026-11-09 (9 Nov close print)</span>
+        <span>Framework v4.1.10</span>
+        <span>Snapshot 2026-11-23 (23 Nov close print, provisional; 20 Nov archive)</span>
       </div>
     </footer>
 
