@@ -6,34 +6,35 @@ Question, options, context and conditions are decision terms. Queue Notes are op
 {
   "schema_version": "decisions-options/3",
   "wq_id": "729",
-  "queue_terms_sha256": "4d25d58f4c328d4c2966c09abbe75c8d38aa2d6d3632a502216ea825cdc31400",
+  "queue_terms_sha256": "21361d7aa09937119bfa113e7022b937f1010978a5ce7f9df0aa4659c484ed7d",
   "choices": [
     {
       "id": "A",
-      "label": "Yes to all four",
-      "meaning": "PROME sends CATO the one-sentence launcher change (first reads of USER.md and BOOT.md through the bounded reader), and makes the three changes to its own checks: drop special and dormant desks from the standing-backlog line, remove the calendar view's size warning, and make the closeout-receipt checker accept an ask-and-receipt row as written or retire it.",
-      "consequence": "Boot reports stop reading PARTIAL for the plain-reader reason, and three lines that are read past at every boot or closeout go away. No gate, threshold or authority changes."
+      "label": "Approve all three",
+      "meaning": "(1) The boot runner, a PROME file, gets the literal first commands for the manual reads and re-reads USER.md through the bounded reader even when the launcher's plain read came first; no launcher change. (3) The calendar view's size target goes from 6,000 to 16,000 bytes. (4) Every closeout row PROME writes carries the receipt and names the launch row it resolves.",
+      "consequence": "No rule changes. Boots stop reading PARTIAL for PROME's own plain reads; the calendar warning fires only on real growth; new desk closeouts read as receipted."
     },
     {
       "id": "B",
-      "label": "The launcher fix only",
-      "meaning": "CATO gets the launcher change. PROME's three checks stay as they are until you say otherwise.",
-      "consequence": "The PARTIAL-for-the-same-reason boot report is fixed; the three noisy lines remain."
+      "label": "Pick",
+      "meaning": "You name which of the three to do.",
+      "consequence": "The others stay as they are."
     },
     {
       "id": "C",
-      "label": "None of them",
+      "label": "None",
       "meaning": "Nothing changes.",
-      "consequence": "The boot report keeps reading PARTIAL when the launcher's plain reads come first, and PROME keeps naming it each time."
+      "consequence": "The three lines keep printing as they do today."
     }
   ],
   "recommended_choice_id": "A",
-  "context": "On 11/22 you asked for one short retirement list, not a programme, with the launcher fix as one item for your word. Items 2 to 4 are PROME's own process checks, which the done-without-asking class C12 already lets PROME retire one at a time; they are listed because you asked for the list. The launcher is a shared script that CATO owns, so it needs your word.",
+  "context": "You asked on 11/23 that these wait for a diagnosis. Result: the PARTIAL boots were mostly PROME's own plain reads after a reset, not the launcher (one of the cited boots is recorded as launcher-started, and its start text orders a plain read of USER.md only). The calendar's 6,000-byte target dates from when the calendar sat inside another page. The receipt checker is right and PROME's rows omit two fields.",
   "conditions": [
-    "Basis: what fired with no action at the 11/22 boot and in the daily notes of 11/16 to 11/21. A full 60-day record check of every check was NOT done.",
-    "The 11/20 checks from WQ-713 and WQ-716 are not on the list, by your word: they are judged after they have a record.",
-    "The launcher change is CATO's to make and test; PROME sends it by packet and reads the diff.",
-    "No money, gate, level, threshold or desk charter is involved.",
+    "For three of the cited boots (11/16 morning, 11/16 21:17 ET, 11/20) the record does not say how the session started.",
+    "After item 1 a boot can still read PARTIAL for: an unfinished mandatory read, the memory hooks or macro check not run, an owed gate action without a disposition, the regime memo not re-based, an overdue spine audit, a missing tool.",
+    "Counting a complete plain read as acceptable would be a rule change and is not proposed.",
+    "The receipt checker keeps reading 1,559 rows written before its format existed as UNKNOWN; cutting those off would be a rule change and is not proposed here.",
+    "Item 2 (RAV and BARON off the backlog line) is already approved and done.",
     "Every app answer needs Will's confirming word in chat."
   ],
   "confirmation": {
