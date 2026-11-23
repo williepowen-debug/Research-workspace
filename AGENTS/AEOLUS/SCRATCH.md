@@ -22,8 +22,8 @@
 3. **11/26 reads:** Memphis vs −5.1 (full run −6.9 12/10, −7.8 12/21; `/stageflow/forecast`; LEVELS, NO GRADE), SA CEC final, barge print (holiday). Then C5 3 or 2.
 4. **12/02:** C6 Orange if unsigned; AEO-01 grade; 12/03 CAP; 12/08 MWD. Run `scripts/c3_winter_grade.py` any session.
 
-### OFFERED TO WILL, NOT ANSWERED OR NOT APPROVED
-- WALTER to route FL/CA flood and coastal flood warnings and flash flood emergencies between sessions: **asked 16:57, no answer. Do not send until he says yes.**
+### OFFERED TO WILL, NOT ANSWERED OR NOT APPROVED (except the first)
+- WALTER to route FL/CA flood and coastal flood warnings and flash flood emergencies between sessions: **SENT 11/23 on Will's word (17:06 ET); WALTER's reply pending** (`AGENTS/WALTER/inbox/2026-11-23_from-AEOLUS_nws-flood-alerts-FL-CA-request.md`). WALTER runs only in sessions, so this is not round-the-clock.
 - Register two winter-rain forecasts (FL DJF wettest third ~80%, CA South Coast ~65%; NCEI climdiv) and one on the Lower Basin signing (no open row covers it).
 - Close the California gap (rain, rivers, burn scars, losses). Second reader on Panama (KB-312, AEO-12 55%): give the sources folder, not the conclusion. Short Lake Mead update before 12/08.
 
