@@ -109,3 +109,9 @@ When a relayed figure carries a relative period ("same quarter", "last month", "
 The October 30 study wrote LIQUIDATION-candidate with the tonnes leg pending, then told readers the day "reads as liquidation". On November 6 the issuer row showed the trust up 0.57 t, so on the frozen letter the day is UNEXPLAINED-DOWN. The study's body was careful; its headline and bottom line carried the class before the leg existed, and that is the sentence peers kept.
 
 When a frozen classifier has an unprinted leg, say what is measured and what is pending in the headline, and write the class only after the leg prints. The cross-asset evidence may support a separate plain-language read, but label it as that, not as the frozen class. Source: `gold/research/2026-11-06_WQ451-L1-grade.md`, KB-MIDAS-247.
+
+## L-58 — A copied capture script carries its client, and an impersonating client hides the block (November 23, 2026)
+
+From at least October 20 to November 18 every GLD grade bundle copied the previous `capture.py`, and every copy fetched the SPDR issuer archive with `curl_cffi` and `impersonate='chrome'`. The archive answered 200 each time, so no session ever saw that the site refuses ordinary automated clients. On November 23, under PROME's restatement of the root blocked-site rule, a plain urllib request got HTTP 403. The issuer close and trust tonnes, the named series for five predictions and the WQ-451 letter, had been reachable only by a method the rule forbids. The same client sat in the contract-map review script and a dozen other bundles.
+
+When copying a capture script, read its client before running it: grep for `impersonate`, a browser user-agent or a proxy, and replace them with the plain client (or FORGE `fetch.py`) first. A refusal from the plain client is the real access state and is recorded as a stop. Source: `gold/sources/2026-11-23_1120_grade/access.json`, KB-MIDAS-288, `sources/SOURCES.md` client rule.

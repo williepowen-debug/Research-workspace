@@ -70,3 +70,4 @@
 | **L-55** | 2026-10-28 | Check a media story twice: its mechanism against the curve (a "hike bets" sell-off on a falling 2Y), and its figure against our KB (an old WPIC 265 koz reprinted as new). |
 | **L-57** | 2026-11-06 | A class with a pending leg is not yet that class: keep "candidate" out of the headline, because 10/30's tonnes leg came back the wrong way and the headline had already said liquidation. |
 | **L-56** | 2026-10-29 | Resolve a relayed relative period ("same quarter") in the author's source before comparing it with a newer release; store the absolute period. |
+| **L-58** | 2026-11-23 | Read the client line of a copied capture script: an impersonating client turns a site's refusal into a 200, so the desk breaches a block it never sees. |

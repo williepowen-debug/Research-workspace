@@ -1,0 +1,4 @@
+date,gld,gld_pct,real10,d_real_bp,implied,e,e_sd,d_nom2y_bp,d_nom10y_bp,spx_pct,dvix,dxy,dxy_pct,stress,cls
+2026-11-18,341.19,-3.2,2.88,-1,0.15,-3.36,-2.39,0,-3,-0.23,-0.9,103.86,0.36,False,UNEXPLAINED-DOWN
+2026-11-19,335.18,-1.76,2.88,0,-0.0,-1.76,-1.26,-4,-3,-2.02,3.88,103.9,0.04,True,LIQUIDATION-candidate (tonnes UNKNOWN: issuer archive refused)
+2026-11-20,322.87,-3.67,2.77,-11,1.68,-5.35,-3.82,-13,-12,-3.7,7.45,103.81,-0.09,True,LIQUIDATION-candidate (tonnes UNKNOWN: issuer archive refused)

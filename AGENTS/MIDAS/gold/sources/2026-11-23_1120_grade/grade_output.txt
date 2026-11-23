@@ -1,0 +1,40 @@
+issuer last 2026-11-17 | real last 2026-11-20 2.77 | MIRROR GLD last 2026-11-20 322.87
+=== issuer vs MIRROR GLD close, overlap 10/22..11/17 (2dp)
+max |diff| 0.0 n 19
+=== daily classes 11/18..11/20 (GLD MIRROR close; issuer close used for the 11/17 base)
+      date    gld  gld_pct  real10  d_real_bp  implied     e  e_sd  d_nom2y_bp  d_nom10y_bp  spx_pct  dvix    dxy  dxy_pct  stress                                                            cls
+2026-11-18 341.19    -3.20    2.88         -1     0.15 -3.36 -2.39           0           -3    -0.23 -0.90 103.86     0.36   False                                               UNEXPLAINED-DOWN
+2026-11-19 335.18    -1.76    2.88          0    -0.00 -1.76 -1.26          -4           -3    -2.02  3.88 103.90     0.04    True LIQUIDATION-candidate (tonnes UNKNOWN: issuer archive refused)
+2026-11-20 322.87    -3.67    2.77        -11     1.68 -5.35 -3.82         -13          -12    -3.70  7.45 103.81    -0.09    True LIQUIDATION-candidate (tonnes UNKNOWN: issuer archive refused)
+=== L2 stress days after 10/22 (prior files + this one)
+stress days 6 GLD up on 1 [('2026-10-30', -3.47), ('2026-11-05', 0.81), ('2026-11-16', -0.71), ('2026-11-17', -0.13), ('2026-11-19', -1.76), ('2026-11-20', -3.67)]
+falsification needs >= 6 up of 10; max reachable = 5 -> UNREACHABLE: claim cannot be falsified
+=== WQ-451 section 5 lines (1-month horizon ended 11/20)
+GLD 11/20 322.87 vs 10/19 ref 379.69: -14.96 %; 1m down line 360.71 crossed
+real 10Y >= 3.00 prints since 10/22: 0 max 2.92 2026-11-16
+DXY >= 105 closes since 10/22: 0 max 103.9
+trust last issuer row 2026-11-17 1048.68 t; 3m line 1035.70; since 10/22 3.04
+=== MIDAS-11/13/17
+GLD 11/20 MIRROR 322.87 (issuer row not retrievable)
+MIDAS-11: NONPOSITIVE if <= 379.69 -> NONPOSITIVE (HIT side) margin -56.82
+MIDAS-13: max issuer close 10/26..11/17 379.53 2026-11-09 >= 378.95 -> True | MIRROR 11/09 379.53 | MIRROR max 11/18..11/20 341.19
+MIDAS-17: GLD -12.5 % ; real 2.64 -> 2.77 ; residual -10.52 -> MISS
+   GLD close needed for a HIT at that real yield: > 361.68
+=== band legs d200 / dd252 at 11/20 (MIRROR)
+SLV 36.97 {'2026-11-17': -30.78, '2026-11-18': -33.74, '2026-11-19': -35.25, '2026-11-20': -39.47} dd252 -64.99
+PPLT 11.75 {'2026-11-17': -22.41, '2026-11-18': -25.13, '2026-11-19': -25.92, '2026-11-20': -28.75} dd252 -53.43
+PALL 16.19 {'2026-11-17': -28.79, '2026-11-18': -30.12, '2026-11-19': -32.39, '2026-11-20': -33.83} dd252 -56.46
+GCZ26.CMX {'2026-11-17': 3864.2, '2026-11-18': 3741.9, '2026-11-19': 3685.5, '2026-11-20': 3515.4}
+SIZ26.CMX {'2026-11-17': 47.36, '2026-11-18': 45.06, '2026-11-19': 44.36, '2026-11-20': 41.07}
+PLF27.NYM {'2026-11-17': 1426.5, '2026-11-18': 1361.0, '2026-11-19': 1347.5, '2026-11-20': 1289.6}
+PAZ26.NYM {'2026-11-17': 976.3, '2026-11-18': 951.9, '2026-11-19': 918.4, '2026-11-20': 893.1}
+HGZ26.CMX {'2026-11-17': 5.99, '2026-11-18': 5.67, '2026-11-19': 5.63, '2026-11-20': 5.49}
+GSR 11/20 85.6 | GCZ26 vs $3,317 shelf 5.98 %
+=== cross-asset 11/18..11/20 % (MIRROR)
+^GSPC {'2026-11-18': np.float64(-0.23), '2026-11-19': np.float64(-2.02), '2026-11-20': np.float64(-3.7)}
+QQQ {'2026-11-18': np.float64(0.39), '2026-11-19': np.float64(-2.19), '2026-11-20': np.float64(-5.67)}
+SLV {'2026-11-18': np.float64(-4.55), '2026-11-19': np.float64(-2.6), '2026-11-20': np.float64(-6.74)}
+PPLT {'2026-11-18': np.float64(-3.73), '2026-11-19': np.float64(-1.29), '2026-11-20': np.float64(-4.0)}
+PALL {'2026-11-18': np.float64(-2.16), '2026-11-19': np.float64(-3.55), '2026-11-20': np.float64(-2.41)}
+CPER {'2026-11-18': np.float64(-5.25), '2026-11-19': np.float64(-1.0), '2026-11-20': np.float64(-2.49)}
+DX-Y.NYB {'2026-11-18': np.float64(0.36), '2026-11-19': np.float64(0.04), '2026-11-20': np.float64(-0.09)}

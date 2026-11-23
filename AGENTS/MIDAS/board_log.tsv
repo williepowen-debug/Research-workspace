@@ -58,3 +58,12 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-18T15:43:20-05:00	SIG-W-20261117-009	noted	INBOX_WALTER	KB-282 item 4 (aluminium -2.9%), INFO only, aluminium is outside the four channels. No score.
 2026-11-18T15:43:20-05:00	SIG-W-20261118-004	noted	INBOX_WALTER	KB-282 (copper five-month low, Sibanye bond redemption). No score.
 2026-11-18T15:43:20-05:00	SIG-W-20261118-010	info-only	INBOX_WALTER	KB-282; HY OAS 343 bp 11/17 MET is LIQUID's; context for the 11/16-11/17 stress days on WQ-451 L2. No MIDAS action.
+2026-11-23T12:13:42-05:00	SIG-W-20261118-012	noted	INBOX_WALTER	September TIC; figures already graded at L821 11/18 (KB-283). KB-290 note. No score.
+2026-11-23T12:13:42-05:00	SIG-W-20261118-014	noted	INBOX_WALTER	combo:MIDAS/metals titles (copper seven-month low, gold -2.5%, GSR one-year high) -> KB-289/290. No score.
+2026-11-23T12:13:42-05:00	SIG-W-20261119-005	noted	INBOX_WALTER	Metals titles (GSR crosses 82, Sibanye $500m convertible redemption) -> KB-290. No score.
+2026-11-23T12:13:42-05:00	SIG-W-20261120-001	acted	INBOX_WALTER	FLASH 11/20: gold Dec -3.8% with dollar flat, yields down, no sourced cause; MIDAS read = 11/20 LIQUIDATION-candidate on the frozen classifier, residual -5.35% (KB-286).
+2026-11-23T12:13:42-05:00	SIG-W-20261120-006	noted	INBOX_WALTER	Gold and silver 14-month lows; COMEX silver default claim (one commentator, no weight) -> KB-290 combo:precious-liquidation. No score.
+2026-11-23T12:13:42-05:00	SIG-W-20261121-001	acted	INBOX_WALTER	LATE FLASH: S&P 6,910.39 (-3.70%), VIX 35.89, GCZ26 3,515.40 (-4.62%): stress day for WQ-451 L2 (6 of 10, falsifier unreachable) and 11/20 class (KB-286).
+2026-11-23T12:13:42-05:00	SIG-W-20261121-003	noted	INBOX_WALTER	Copper bear-market and US-to-China copper-move titles -> KB-289, routed with the copper band packet to ZHAO/HENRY. No score.
+2026-11-23T12:18:08-05:00	SIG-W-20261123-001	noted	INBOX_WALTER	Nvidia 8-K reinstates Huang; intraday S&P +4.99%, VIX 27.68, gold GC=F +4.23%: stress clearing and gold rising with risk, as the 11/23 forward view expects (KB-291). Intraday, not a grade.
+2026-11-23T12:18:08-05:00	SIG-W-20261123-003	info-only	INBOX_WALTER	WALTER correction of 11/21 cards (VIX +5 crossing time, Bahrain, 7,037 line); no MIDAS figure changes: L2 uses the 11/20 close (VIX 35.89).
