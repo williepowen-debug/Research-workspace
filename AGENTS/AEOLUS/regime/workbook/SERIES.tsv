@@ -129,3 +129,6 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-11-18	nino3_weekly	4.7	degC	CPC-wksst9120.for	2026-11-23 14:04 ET	week centred 18NOV2026
 2026-11-18	nino4_weekly	1.4	degC	CPC-wksst9120.for	2026-11-23 14:04 ET	week centred 18NOV2026
 2026-11-18	nino12_weekly	5.7	degC	CPC-wksst9120.for	2026-11-23 14:04 ET	week centred 18NOV2026
+2026-11-21	hdd_30d_midatl	-19.9	pct_vs_1991-2020	CPC-DD-POP-HDD	2026-11-23 15:46 ET	obs 468 norm 584.0 HDD; window ends this date; derived 1991-2020 normal
+2026-11-21	hdd_30d_enc	-31.1	pct_vs_1991-2020	CPC-DD-POP-HDD	2026-11-23 15:46 ET	obs 441 norm 639.9 HDD; window ends this date; derived 1991-2020 normal
+2026-11-21	hdd_7d_conus	-9.3	pct_vs_1991-2020	CPC-DD-POP-HDD	2026-11-23 15:46 ET	obs 113 norm 124.5 HDD; window ends this date; derived 1991-2020 normal

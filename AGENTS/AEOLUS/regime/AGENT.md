@@ -29,6 +29,8 @@
 | `p_roni_ge20_ond` | pct | `CPC-roni-strengths` | OND P(RONI ≥ 2.0) from the Strength Outlook table; no splice with the closed series |
 | `historic_prob_ond` | pct | `CPC-ensodisc` | ditto |
 | `oni_minus_roni` | degC | `derived-CPC` | **derived — recompute, never carry forward** |
+| `hdd_30d_midatl` / `hdd_30d_enc` | pct_vs_1991-2020 | `CPC-DD-POP-HDD` | **C3 winter band input (approved 2026-11-23, KB-AEO-314)**; trailing 30 days, derived 1991–2020 normal; graded only on windows ending Dec 30–Feb 28 |
+| `hdd_7d_conus` | pct_vs_1991-2020 | `CPC-DD-POP-HDD` | WQ-736 cold leg (approved 2026-11-23). Gas prices are never stored here: the script pulls them fresh |
 
 **Use these names exactly.** A new instrument needs AEOLUS's approval — **do not invent one.**
 

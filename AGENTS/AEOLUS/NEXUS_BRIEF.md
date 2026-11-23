@@ -2,7 +2,7 @@
 
 **Purpose:** curated synthesis writeback, rewritten at closeout only when a figure, threshold, or cross-desk send or wait in it changed (NEXUS schema §4.1, WQ-719 A). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-11-23 14:37 ET (AEO-12 55%, KB-312; folded with STATUS.)**
+**Last writeback: 2026-11-23 15:46 ET (heating reads, coastal, KB-313/314; folded with STATUS.)**
 **WAITING-FOR:**
 - **11/26:** SA CEC final; NWPS Memphis forecast −5.1 ft · **11/30:** hurricane season end (AEO-01) · **12/02:** C6 Orange window · **12/03:** CAP board · **12/07–08:** MWD vote on the Lower Basin implementing agreements · **12/10:** federal answer in *Nevada v. Burgum*, CPC ENSO, WASDE, NWPS Memphis forecast −6.9 ft · **12/21:** end of NWPS run, −7.8 ft · **~mid-Dec:** December 24-Month Study · **12/17:** CPC seasonal
 - PROME's ruling path on the AEO-17 re-date draft (OND RONI prints ~early January, after the 12/20 read)
@@ -20,7 +20,7 @@
 
 ## 🟡 ENSO / VORTEX / C1 / C2 / C4
 - **ENSO:** CPC 11/12 historic (RONI ≥2.5) **~60%** for OND/NDJ (from 83/70); weekly Niño-3.4 **+3.3** [18NOV] (KB-309). **Vortex rebuilt:** 10 hPa 60N **+23.22** [11/23 00Z] (KB-309).
-- **C1:** NHC 1 PM 11/23: no formation expected 7 days, unarmed (KB-309); season ends 11/30. **C3:** CPC 11/19 DJF unchanged, leans warm (KB-301); **→4 gas step set (WQ-736, in-sample label, fires count from 11/23), C2 →4 cereals only beside a second region (WQ-737): both NOT MET (KB-311).** **C2:** SA corn 15,000 kt (−8.65%), next grade 12/10 WASDE. **C4/Florida:** St. Johns at Cocoa **18.70 ft [11/20 15:15Z]**, above its record and still rising, forecast 18.8 ft (KB-295); South Florida 11/17–19 one figure **17.59 in** (72-h preliminary station max, SFWMD G-54, NWS Miami 11/19 5:06 PM, KB-305; replaces 16.65 in, the 48-h reading; state emergency EO 26-232, 21 counties; no federal declaration) (KB-294); 24.69 in stays the event-1 figure (KB-287). **Drought:** USDM 42.03% [11/17], D4 rising to 2.42%, 89% of it in MS/AR/LA (KB-308).
+- **C1:** NHC 1 PM 11/23: no formation expected 7 days, unarmed (KB-309); season ends 11/30. **C3:** CPC 11/19 DJF unchanged, leans warm (KB-301); **→4 gas step set (WQ-736, in-sample label, fires count from 11/23), C2 →4 cereals only beside a second region (WQ-737): both NOT MET (KB-311).** 30-day HDD to 11/21 MidAtl −19.9%, ENC −31.1% (report only, KB-314). **West Coast sea level raised at 5 gauges (KB-313).** **C2:** SA corn 15,000 kt (−8.65%), next grade 12/10 WASDE. **C4/Florida:** St. Johns at Cocoa **18.70 ft [11/20 15:15Z]**, above its record and still rising, forecast 18.8 ft (KB-295); South Florida 11/17–19 one figure **17.59 in** (72-h preliminary station max, SFWMD G-54, NWS Miami 11/19 5:06 PM, KB-305; replaces 16.65 in, the 48-h reading; state emergency EO 26-232, 21 counties; no federal declaration) (KB-294); 24.69 in stays the event-1 figure (KB-287). **Drought:** USDM 42.03% [11/17], D4 rising to 2.42%, 89% of it in MS/AR/LA (KB-308).
 
 ## CONVERGENCE SNAPSHOT
 | Ch | Score | One line |

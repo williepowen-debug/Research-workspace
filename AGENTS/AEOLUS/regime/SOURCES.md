@@ -118,3 +118,9 @@ curl -s -o g.grib2 "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=
 python3 ../sources/2026-11-05_vortex-owner-read/read_u10.py g.grib2
 ```
 ECMWF open data: `https://data.ecmwf.int/forecasts/<YYYYMMDD>/<00|12>z/ifs/0p25/oper/<YYYYMMDD><HH>0000-0h-oper-fc.index`, select `param u, levelist 10, levtype pl`, range-GET the `.grib2`, take the 60.0N row. CCSDS-packed, so it needs eccodes (`pip install --target <scratch> eccodes`; not in `.venv`). Retention ~4 days. Posts at 07:34:00Z / 19:34:00Z (Last-Modified on 11/3, 11/4, 11/5 cycles); read that header before setting a wait. GFS 18Z `.anl` was there at 21:35Z on 11/5. GEOS-FP: `curl -gsS "https://opendap.nccs.nasa.gov/dods/GEOS-5/fp/0.25_deg/assim/inst3_3d_asm_Np.ascii?u[T0:T1][30][600][0:1151]"`, T = 8 × days since 2017-12-01 + hour/3, ≤16 times per request. AO/NAO: `https://ftp.cpc.ncep.noaa.gov/cwlinks/norm.daily.ao.cdas.z1000.19500101_current.csv`, `norm.daily.nao.cdas.z500.19500101_current.csv`.
+
+## HEATING DEGREE DAYS (C3 winter) — home set 2026-11-23 (KB-AEO-314)
+```bash
+python3 ../scripts/c3_winter_grade.py <cache dir> --series   # run from regime/; first run pulls 31 archive files; default client name
+```
+Pulls CPC `Population.Heating.txt` and FRED `DHHNGSP` fresh; prints the 30-day band read, the WQ-736 read and SERIES rows. ⚠️ Checked against 10/08 only; the WQ-736 price run has not yet fired in live use.
