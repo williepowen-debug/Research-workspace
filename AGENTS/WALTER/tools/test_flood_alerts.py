@@ -24,6 +24,13 @@ class T(unittest.TestCase):
         self.assertFalse(fa.rows([alert("b", refs=["a"])], "FL", {"a": []})[0][0])
         self.assertTrue(fa.rows([alert("b", desc="flash flood emergency", refs=["a"])], "FL", {"a": []})[0][0])
 
+    def test_near_record_then_past_record_update_is_shown(self):
+        # AEOLUS packet 2026-11-23: "may approach" then "has surpassed" both carry the word record
+        seen = {"a": ["RECORD"]}
+        upd = alert("b", event="Flood Warning", desc="has surpassed the record flood", refs=["a"])
+        self.assertTrue(fa.rows([upd], "FL", seen)[0][0])
+        self.assertFalse(fa.rows([alert("a", event="Flood Warning", desc="may approach its record flood")], "FL", seen)[0][0])
+
     def test_unwatched_event_ignored(self):
         self.assertEqual(fa.rows([alert("a", event="Coastal Flood Advisory")], "CA", {}), [])
 

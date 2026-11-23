@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """NWS flood alerts for Florida and California (charter step 7j; Will 2026-11-23 17:12 ET, AEOLUS request).
 
-Prints each alert NEW since the last --mark, with EMERGENCY or RECORD prompts. Read-only until --mark
+Prints each alert NEW since the last --mark, plus every later Update that carries RECORD, with EMERGENCY or RECORD prompts. Read-only until --mark
 (which records what was last printed as seen). A failed fetch prints UNKNOWN and exits 2; nothing is marked.
 Catches only what is live when a session runs it. RECORD is a word match in the text: a prompt to read, not a grade.
 """
@@ -35,7 +35,9 @@ def rows(features, state, seen):
         keys = [k for k in [p["id"], *refs] if k in seen]
         old = seen[keys[0]] if keys else None
         flags = [n for n, fn in (("EMERGENCY", emergency), ("RECORD", record)) if fn(p)]
-        is_new = old is None or any(x not in old for x in flags)
+        # an Update keeps the same word flag while the fact can change (near a record, then past it): show every
+        # new-ID update that still carries RECORD (AEOLUS, 2026-11-23)
+        is_new = old is None or any(x not in old for x in flags) or ("RECORD" in flags and p["id"] not in seen)
         out.append((is_new, flags, p, state))
     return out
 
