@@ -1,0 +1,168 @@
+{
+ "schema": 2,
+ "staged_at": 1795455869.329121,
+ "items": [
+  {
+   "id": "2124679398410604848",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2124573872292859981",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2124361165497049554",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2124475763734855899",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-23_return/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2124522600458043467",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-23_return/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2124525424965247117",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2124276730164588728",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-23_return/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2124129775744680134",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2124096564087955769",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2124247479197774269",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2124273923181154450",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2124202717102875006",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-23_return/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2124287443386130892",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2124287603515981841",
+   "disposition": "DUP",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2123964580791501251",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2124242262645485569",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2123884437045760420",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2123727907415900161",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-23_return/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2123844337717162044",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2123893563545043233",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2123872256317366705",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2123814296060821774",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2123857123398549909",
+   "disposition": "DUP",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  }
+ ],
+ "stage_id": "828257e4ec2742fdb723cdebb00e258f"
+}

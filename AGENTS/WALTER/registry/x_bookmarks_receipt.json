@@ -1,13 +1,46 @@
 {
-  "kind": "fetched",
-  "checked_at": "2026-11-20T18:34:02Z",
-  "items": 0,
+  "kind": "marked",
+  "checked_at": "2026-11-23T17:46:43Z",
+  "items": 23,
   "scan": {
-    "checked_at": "2026-11-20T18:34:02Z",
-    "head_checked_at": "2026-11-20T18:34:02Z",
+    "checked_at": "2026-11-23T17:44:29Z",
+    "head_checked_at": "2026-11-23T17:44:29Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 1
+    "attempts": 3
   },
-  "review_recorded": false
+  "review_recorded": true,
+  "read_counts": {
+    "fully_read": 16,
+    "partly_read": 7
+  },
+  "dispositions": {
+    "DUP": 7,
+    "DISPATCH": 12,
+    "FOLD": 3,
+    "NO-ACTION": 1
+  },
+  "follow_ups": [
+    {
+      "id": "2124475763734855899",
+      "ref": "AGENTS/WALTER/research/2026-11-23_return/cards-008.json"
+    },
+    {
+      "id": "2124522600458043467",
+      "ref": "AGENTS/WALTER/research/2026-11-23_return/cards-008.json"
+    },
+    {
+      "id": "2124276730164588728",
+      "ref": "AGENTS/WALTER/research/2026-11-23_return/cards-008.json"
+    },
+    {
+      "id": "2124202717102875006",
+      "ref": "AGENTS/WALTER/research/2026-11-23_return/cards-008.json"
+    },
+    {
+      "id": "2123727907415900161",
+      "ref": "AGENTS/WALTER/research/2026-11-23_return/cards-008.json"
+    }
+  ],
+  "requests": []
 }

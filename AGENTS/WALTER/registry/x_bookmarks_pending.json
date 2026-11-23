@@ -1,15 +1,1 @@
-{
-  "ids": [],
-  "staged_at": 1795199642.0453365,
-  "stage_schema": 2,
-  "stage_id": "ba56b18e0199453abaffb9e07fd51626",
-  "review_required": true,
-  "scan": {
-    "checked_at": "2026-11-20T18:34:02Z",
-    "head_checked_at": "2026-11-20T18:34:02Z",
-    "head_checked_this_run": true,
-    "incomplete": false,
-    "attempts": 1
-  },
-  "checkpoint_hash": "0920d8d108db85884d2163255f9de517876ffff4e02f36479d0121e19daef62f"
-}
+{"ids": [], "staged_at": 1795456003}

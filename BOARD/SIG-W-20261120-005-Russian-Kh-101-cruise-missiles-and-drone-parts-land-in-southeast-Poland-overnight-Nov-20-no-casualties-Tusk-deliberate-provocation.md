@@ -20,6 +20,8 @@ word_count: 388
 dispatch_note: "HAWK ACTION (NATO and Western reaction is HAWK's per RU_STATE_ACTOR row); YURI ACTION (Russian force posture and intent; RU_STATE_ACTOR IMMEDIATE on force posture); OSPREY ACTION (strike ledger: the overnight Russian wave on Ukraine these missiles belong to). INFO HANS (European political risk), BRENT, SAM, HENRY (risk tape), NEXUS, RED, PROME (BOARD diff), TERRY (BOARD-only)."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-009: Polish prosecutors (11/22, secondary) say all three objects were Kh-101 cruise missiles; the 'jet-drone parts' finding was preliminary and is superseded. Event, date and no victims HOLD.**
 # Russian cruise missiles land inside Poland overnight Nov 19 to 20 (Polish government, 20.11.2026): a Kh-101 near Nowy Lipowiec (Biłgoraj county), a second missile near Rudnik nad Sanem, jet-drone parts near Mołodycz; 'no destruction and no victims'; Tusk: 'it seems we are dealing with a deliberate provocation by Russia'; near a Coalition of the Willing exercise; no NATO statement at nato.int, no Article 4 request and no Russian response reported
 
 # Russian missiles on Polish territory, overnight November 19 to 20
