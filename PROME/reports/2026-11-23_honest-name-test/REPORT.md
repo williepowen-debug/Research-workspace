@@ -1,6 +1,6 @@
 # Honest-name test of every scripted source, 2026-11-23
 
-**Ordered by Will** in PROME's chat 2026-11-23 13:57 ET (WQ-735 approved with a condition; record `PROME/proposals/2026-11-23_wq735-RULED.md`). Run by PROME prome-77 from the laptop, 13:59:54 to 14:01:35 ET (stamps in `probe.tsv`), Statistics Canada at 14:13 ET. Script: `probe.py` beside this file.
+**Ordered by Will** in PROME's chat 2026-11-23 13:57 ET (WQ-735 approved with a condition; record `PROME/proposals/2026-11-23_wq735-RULED.md`). Run by PROME prome-77 from the laptop, 13:59:54 to 14:01:35 ET (stamps in `probe.tsv`), Statistics Canada and the price-library run between 14:01 and 14:05 ET (bounded by the last probe stamp and commit 3f1dcdfd35; an earlier draft of this file carried typed clock times that ran ahead of the clock). Script: `probe.py` beside this file.
 
 ## Method
 
@@ -69,7 +69,7 @@ One request per source under the client string `research-bot/1.0`, at the addres
 
 ## The price tool (Yahoo, through yfinance 1.4.1)
 
-The library builds a Chrome-imitating session by default. Run once with a plain session named `research-bot/1.0`, 14:08 ET: last price, quote time, an index (^VIX), a future (CL=F) and a currency (HKD=X) came through. The first history call, the company-info call and both option calls returned "Too Many Requests". One run cannot tell an identity refusal from an ordinary rate limit, and it was not retried. **The price tool is NOT switched.**
+The library builds a Chrome-imitating session by default. Run once with a plain session named `research-bot/1.0`, in that same window: last price, quote time, an index (^VIX), a future (CL=F) and a currency (HKD=X) came through. The first history call, the company-info call and both option calls returned "Too Many Requests". One run cannot tell an identity refusal from an ordinary rate limit, and it was not retried. **The price tool is NOT switched.**
 
 ## Not working under the honest name (the 12/07 list)
 
@@ -85,7 +85,7 @@ The library builds a Chrome-imitating session by default. Run once with a plain 
 ## Limits
 
 - One request per source, one machine, one minute of one day. A source that answered may refuse a different file or a faster cadence.
-- No script was run under the honest name except `FORGE/tools/market-data/vix_futures.py` (switched and run 14:11 ET, settlement 2026-11-20 parsed). "Works" means the source served real data to the honest name, not that each script's parser was exercised.
+- No script was run under the honest name except `FORGE/tools/market-data/vix_futures.py` (switched and run in that same window, settlement 2026-11-20 parsed). "Works" means the source served real data to the honest name, not that each script's parser was exercised.
 - No browser-name request was sent for comparison, so a refusal is not proven to be about the name.
 - `FORGE/tools/news-sweep/sweep.py` names itself "Prome/1.0" inside a Mozilla-form string and takes its feeds from configuration; its feeds were not in this test.
 - OSPREY's `strike_feed.py`, DEWEY's `site_passive_check.py` and LABOR's `fetch_primary.py` carry the browser string but no fixed source address; nothing to test.
