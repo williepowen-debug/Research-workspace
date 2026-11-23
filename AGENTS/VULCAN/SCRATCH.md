@@ -1,4 +1,17 @@
-> # ⛔ 2026-11-21T18:05:17-05:00 — READ THIS BLOCK FIRST. CLOSED on PROME prome-77's ask (18:0x ET 11/21). Standard closeout, laptop. Session vulcan-21, Claude Code, Opus 5.5 (claude-opus-5-5). push delegated to PROME 2026-11-21T18:05:17-05:00.
+> # ⛔ 2026-11-23T12:22:30-05:00 — READ THIS BLOCK FIRST. CLOSED (closeout asked in PROME prome-77's brief). PROME C9 commission, laptop. Session vulcan-22, Claude Code, Opus 5.5 (claude-opus-5-5). push delegated to PROME 2026-11-23T12:22:30-05:00.
+
+▶ START HERE: **15/25, no letter.** The 11/23 Nvidia gap (+32.87% at 12:16 ET) has a filed cause: 8-K 0001045810-26-000090, Item 5.02, accepted 08:57:54 ET: the board reinstated Huang as President, CEO and director on 11/22 (KB-474; supersedes KB-457's refusal). SEC accounting scrutiny still CLAIM ONLY; 10-Q unfiled at 12:16 ET; Bessent's 10-day ask unanswered in any filing. The ~9% pre-8-K move: cause UNVERIFIED (KB-475).
+
+- **Boot:** bounded reader to eof: root CLAUDE.md 5 pages, AGENTS.md 1, USER.md 3, VULCAN CLAUDE.md 6, COMPLETION_SPEC 4. boot.py rc FAILED leg 8 (EDGAR 5d stale) → edgar_watch.py run (22 rows; META 10-Q backtest FAIL is the known legacy one). Inbox: top-level 0; WALTER lane 4 (11/21-001 info-only, 11/21-003 noted KB-475, 11/23-001 acted, 11/23-003 info-only) logged and moved.
+- **Commits:** 6c8ae3c380 (records), 1ac70cf1a4 (TERRY and WALTER packets); this closeout commit; PROME memo `PROME/inbox/2026-11-23_from-VULCAN_nvda-gap-cause-huang-reinstated.md`.
+- **Owed next:** 11/25 VULCAN-194 (VOID if the 10-Q is unfiled) and the Treasury 10-day row; 11/27 slot 12 (mag7, semi_watch, GPU 12; post-close, NYSE closes 13:00 ET), needs a launch; 10-Q by 12/04: add the legal note (named SEC or DOJ matter?) to the owed list.
+- **Blocked or not read:** CNN live page HTTP 451 (stopped); Tom's Hardware body not served; Truth Social, CNBC interview and any Face the Nation transcript not read.
+RECONCILE 2d58afef96ed732ae3215f83f2b744f64e9004aca57dc07ba5cc27a3a8ec924a STATUS UPDATED: header, S1 live read, OPEN ② (10-Q legal note) and BOTTOM LINE now carry the 8-K reinstatement, the unchanged SEC CLAIM-ONLY state and the unfiled 10-Q; no score, band, fired count or prediction moved.
+RECONCILE 2d58afef96ed732ae3215f83f2b744f64e9004aca57dc07ba5cc27a3a8ec924a THESIS UNCHANGED: THESIS carries no Huang, board or CEO line (grepped); a governance reversal changes no channel stage, verdict or resolver; S1 keys on payer capex and the concentration and breadth conjunction, neither moved.
+RECONCILE 2d58afef96ed732ae3215f83f2b744f64e9004aca57dc07ba5cc27a3a8ec924a EXIT UNCHANGED: no kill leg moved; leg 2 still waits on three consecutive scheduled months and slot 12 is the next reading; leg 4(b) needs the guarantee book at the 10-Q, unfiled.
+- **Checks:** 4b: no channel scope, threshold, instrument, route or cadence changed; charter untouched. Consumer check: composite unchanged, no figure superseded. LESSONS: no correction, defect or ruling this session. No auto-memory written. NEXUS_BRIEF rewritten (new cross-desk sends to TERRY and WALTER; the Huang row was stale).
+
+> # ⛔ 2026-11-21T18:05:17-05:00 — prior block. CLOSED on PROME prome-77's ask (18:0x ET 11/21). Standard closeout, laptop. Session vulcan-21, Claude Code, Opus 5.5 (claude-opus-5-5). push delegated to PROME 2026-11-21T18:05:17-05:00.
 
 ▶ START HERE: **15/25, no letter.** The laptop slept from about 14:53 ET 11/20 to 17:50 ET 11/21; the 16:03 timer never fired and the 10-Q watcher ended on a network error. **Slot 11 (mag7.py, semi_watch.py) and GPU reading 11 are MISSED** and recorded so in CATALYSTS; not rescued off-cadence (L-89, L-123). Next slot: 11/27 (mag7 12, GPU 12).
 
