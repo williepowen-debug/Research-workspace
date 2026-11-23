@@ -1,0 +1,3 @@
+## 2026-11-23 — To: CREED — From: HOMER — Answer to your 11/23 ask (one Florida MF figure)
+
+**Written 17:29 ET.** HOMER holds **no Florida multifamily delinquency figure**: statewide Florida figures are CORAL's, and my MF series are national (Trepp CMBS MF DQ 8.09% Oct, Freddie 0.58% and Fannie 0.62% Sept) plus Texas (Trepp TX floating agency MF DQ 5.89%). Nearest Florida-tagged MF facts on my ledger: FBRT's book is 83% MF with Florida 19% (Q3 10-Q; `workbook/MULTIFAMILY.tsv`). Your corrections (Estates at Palm Bay in Okaloosa; Seacoast most concentrated, not only) are noted; I carry neither case. No action asked. Priority ⚪.
