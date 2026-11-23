@@ -43,3 +43,39 @@ Florida CMBS retail delinquency **6.72%**; Tampa and Miami regional-mall delinqu
 
 ### 1d. Public REITs with disclosed Florida concentration
 *(Section filled from a read-only research pass; see below.)*
+
+### 1e. Analog base rates from earlier Florida storms
+
+| Event | Securitized CRE in the declared area | Outcome | Source |
+|---|---|---|---|
+| Isaias, Oct 2026 (Panhandle) | $3.27B gross, 15 counties | no credit outcome published yet | Trepp 10/14 (`KB-122`) |
+| Milton, Oct 2024 | KBRA-rated: $8.4B of $261B (**3.2%**), 11 counties, 305 of 658 deals | no published default wave | KBRA 2024-10-09 (`KB-125`) |
+| Irma, 2017 | Freddie Mac MF: 1,249 loans, $18.3B in the area | ~70% some damage, **none major** | Freddie Mac Oct 2017 (`KB-125`) |
+
+**What free sources cannot show:** securitized balance by county for the St. Johns basin or the southeast-coast watch counties; agency multifamily (Fannie, Freddie) Florida share (no public figure found; older Fannie 10-Ks name only CA, TX, NY as concentrations); which loans sit inside or outside a mapped flood zone; servicer watchlist codes (CREFC investor reporting is not free). The free primary route to a county-level count is SEC Form ABS-EE loan tapes (registered conduits, about 2017 and later, property ZIP code on every loan). CREED's ABS-EE fetch cache from 11/05 is no longer on disk; a fresh pull is about a gigabyte and was not attempted on battery tonight. It would still miss SASB, CRE CLOs and agency loans.
+
+## 2. The insurance channel for commercial property
+
+| Item | Figure | Date | Source |
+|---|---|---|---|
+| Florida securitized MF insurance cost, median YoY | 2023 **+42.1%** · 2024 +7.7% · 2025 **−6.2%** (rest of US +3.4%) | Trepp, Aug 2026 | PRIMARY-READ (`KB-123`) |
+| Same, chained (CREED arithmetic on medians, not any property's path) | Florida about **2.17x** its 2019 level by 2025; rest of US about 1.73x | — | ANALYTICAL |
+| US commercial property insurance rates | Q3 2026 **−10%**, Q2 −13% | Marsh, 2026-10-21 | SECONDARY (`KB-127`) |
+| Citizens commercial residential (condo associations, apartments) from 7/1/26 | condo multiperil +7.7%, **wind-only +14.1%**; non-condo +7.2% / +14.4%; nonresidential −1.8% / −5.0% | Citizens 2026-04-30 | PRIMARY (`KB-127`) |
+| Force-placed insurance as a CMBS distress route | about **24** CMBS properties watchlisted or sent to special servicing (FL, TX, NY, NJ, AZ); Z Ocean Hotel Miami Beach payments about 4x | Morningstar via Bisnow, 2025-04-02 | SECONDARY (`KB-127`) |
+
+**What the loan documents require** (`KB-126`): CMBS and Fannie Mae require flood cover only for improvements inside a mapped Special Flood Hazard Area (zones A and V): NFIP maximum plus excess flood up to loan balance or insurable value. NFIP pays at most $500K per building for a 5+ unit residential building. Windstorm is required within 25 miles of Florida's Atlantic coast. If the borrower lapses, the servicer force-places cover and charges it to the borrower.
+
+**So what:** this flood is fresh water, not wind. Standard commercial property policies exclude flood. A record river flood reaches buildings outside the mapped zone, where the documents never required flood cover. That uninsured slice, not premiums, is the near-term credit channel: repair cost lands on the borrower's own liquidity. Premiums are a slower channel and are currently falling for most commercial owners; Citizens' condo and wind-only lines are the exception and still rising.
+
+**Has insurance already shown up in DSCR or special servicing?** Yes, nationally, through force-placed insurance in 2024–25 (about 24 properties, Morningstar). For a named Florida loan where insurance alone caused the transfer, CREED and its helper found none in free sources. The named Florida transfers in or near the flood counties (Wymore 360, Estates at Palm Bay $61M in Brevard, `KB-128`) were payment and sponsor failures.
+
+## 3. Condo-adjacent commercial exposure
+
+| Item | Figure | Source |
+|---|---|---|
+| HB 913 (ch. 2025-175) | associations may fund reserves with **lines of credit or loans** (majority vote), from 2025-07-01 | PRIMARY (`KB-129`) |
+| Florida condo/townhouse market, Oct 2026 | **8.0 months of supply**, median $290K (−3.3% YoY), 61,983 active listings | Florida Realtors 2026-11-18 (`KB-129`) |
+| Treasure Coast condo prices | "tumble" (TCPalm 11/21, title only) | WALTER card SIG-W-20261121-003 |
+
+**Where it reaches commercial credit:** (a) bank loans to associations to fund special assessments and reserves (legal since HB 913; no free volume figure found); (b) condo construction and inventory loans on unsold new units (bank and debt-fund books; not in CMBS); (c) old buildings sold in bulk to developers when owners cannot fund repairs (condo terminations). **In the commercial credit CREED tracks (CMBS conduit and SASB, CRE CLO, mREIT books), CREED has no evidence that the post-Surfside law has shown up yet.** Condo construction and association loans sit on bank balance sheets (REGINALD's lane) and are invisible in CMBS data. CORAL owns the condo law and the condo market.
