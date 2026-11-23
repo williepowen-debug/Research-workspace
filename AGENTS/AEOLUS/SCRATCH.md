@@ -23,7 +23,7 @@
 4. **12/02:** C6 Orange if unsigned; AEO-01 grade; 12/03 CAP; 12/08 MWD. Run `scripts/c3_winter_grade.py` any session.
 
 ### OFFERED TO WILL, NOT ANSWERED OR NOT APPROVED (except the first)
-- **DONE 11/23:** WALTER flood-alert check live (its step 7j, f801437643; review 12/02; WALTER sees nothing between sessions). Hole reported: an Update crossing a record is silent. Routing v0.52 has edits 1, 2, 3 and part of 5.
+- **DONE 11/23:** WALTER flood-alert check live (its step 7j, f801437643; review 12/02; WALTER sees nothing between sessions). Record-crossing hole FIXED 88ef896074 (word match only: a record stated without the word is missed). Routing v0.52 has edits 1, 2, 3 and part of 5.
 - Edit 4 (El Nino/season owner = AEOLUS): Will's word in AEOLUS chat (KB-322); WALTER's text waits for his word there. CORAL told. Packet CORAL when an El Nino or season change matters for Florida. `_NETWORK.md` (CARL, TERRY, VULCAN) with PROME.
 - Register two winter-rain forecasts (FL DJF wettest third ~80%, CA South Coast ~65%; NCEI climdiv) and one on the Lower Basin signing (no open row covers it).
 - Close the California gap (rain, rivers, burn scars, losses). Second reader on Panama (KB-312, AEO-12 55%): give the sources folder, not the conclusion. Short Lake Mead update before 12/08.
