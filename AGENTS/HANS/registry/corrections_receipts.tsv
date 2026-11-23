@@ -16,3 +16,5 @@ receipt_date	correction_id	action	note
 2026-11-18T15:37Z	COR-20261117-02	NO-OP	scope=HANS never carried card 20261116-005 item 8 Credit Acceptance settlement, not a HANS row, read 2026-11-18 as INFO only, nothing to correct; 
 2026-11-18T15:37Z	COR-20261117-20	NO-OP	scope=Card 018 Meta EUR bond first read 2026-11-18 together with correction 020, only the corrected underwriting date 11/04 and coupons 4.300 to 6.400 percent are carried, in KB-HANS-201; 
 2026-11-19T17:13Z	COR-20261119-14	APPLIED	artifact=AGENTS/HANS/workbook/KB.tsv#KB-HANS-206; validation_ref=NONE; 
+2026-11-23T17:32Z	COR-20261120-10	NO-OP	scope=HANS carries no MUFG, KARTE or Plaid figure on any surface (grep of AGENTS/HANS outside inbox 2026-11-23 found none), and a Japanese bank data leak is outside the Europe desk; 
+2026-11-23T17:32Z	COR-20261120-12	NO-OP	scope=HANS never carried any card 011 line (embassy damage, Russian not-targeted line, summons, Austria), the last HANS session 11/19 predates the card, and card 005 Poland is noted only with no HANS row; 

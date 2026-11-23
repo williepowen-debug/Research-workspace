@@ -282,3 +282,13 @@ CATO reviewed the day's work and produced counterexamples against several of thi
 - France: i-i 152.9 [11/09], 142.4 [11/10]. Fitch negative outlook 10/30 found (secondary), new to this desk. The S&P "11/27" date: the only source found is a 2025 article about the 2025 review; the date likely came from that calendar. Not confirmed for 2026.
 - T-07: 3/5. Vendor restated the 11/06 bar 85.98 -> 85.59 (still counts); identical 115-lot volume on 11/09 and 11/10 flagged as a possible carry.
 - Unread: ICE settles, Fitch and S&P primaries, UniCredit and Credit Agricole releases, TE figures are intraday reads.
+
+## 2026-11-23 12:27 ET, hans-1123: due-row wake (PROME prome-77, T-07 L3 exit)
+
+- Boot rc1 (attention, no BLOCKING). R1 rc1: COR-20261120-10 (MUFG) and -12 (Kyiv embassies) receipted NO-OP, neither ever carried here. Not pulled, not pushed. Four boot files read through boot_read.py to eof (root CLAUDE.md 5 pages, AGENTS.md 1, USER.md 3, HANS CLAUDE.md 5).
+- T-07 L3 exit graded on the rule's own source (Yahoo NYM daily close of the named front, TTFZ26.NYM): 84.75 [11/16], 85.40 [11/17], 80.85 [11/18], 84.46 [11/19], 88.45 [11/20] = 5 of 5 under 90. MET at the 11/20 close; HANS-F-007 CLOSED, L3 re-armed. WALTER's lead (SIG-W-20261123-005) matched bar for bar.
+- How I checked the bars: daily and hourly re-pull. 11/19's last hourly trade was 08:00 ET (thin, close = that print); 11/20's last hourly 88.451 at 11:00 ET (about 17:00 CET, near the settle window). Daily volumes: 11/19 and 11/20 both 46 while the 11/20 hourly bars sum to 87, so the daily VOLUME is carried, the CLOSE is current. Restated volumes 11/18 195 -> 208 and 11/10 115 -> 381; no close moved.
+- Cross-check, not the grade: TE EU Gas snapshot 11/23 91.37 up 2.92 implies a prior close 88.45. TE's 11/20 news line 'above 90' was an intraday read. ICE Endex settle unread (blocked site, not evaded).
+- Forward: 11/23 intraday 91.27 (press high 96.08). Driftless barrier to a 100 close by 12/30 is 53-62% at 55-75% vol over 26 sessions; my unscored view about 50%. HNS-16 stays 35% registered (no re-mark rule). Tracking notes on HNS-16 and HNS-12.
+- Inbox 8 of 8 (WALTER lane): KB-209 to 212. Flash PMI for November not found by search 11/23 (due ~11/24).
+- Packets: TERRY (WQ-696 handoff, no card asked), PROME memo.

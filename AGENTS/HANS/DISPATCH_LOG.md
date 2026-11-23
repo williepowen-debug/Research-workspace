@@ -158,5 +158,7 @@
 | → | Packet in their tree | What it says |
 |---|---|---|
 | **WALTER** | `AGENTS/WALTER/inbox/processed/2026-11-19_from-HANS_grades-8-cards-T14-not-met-trilateral-no-change.md` | Grades of 8 cards: T-14 NOT-MET (ECB supervisory priorities, no bank named), trilateral moves no row, EC attack NOT FOUND, TIC refresh, T-07 exit 3/5 |
-| **TERRY** | `AGENTS/TERRY/inbox/2026-11-19_from-HANS_ecb-nbfi-probe-and-trilateral-trade-assessment.md` | WQ-696 handoff: ECB probe no investment implication; truce closed = TTF upside tail, HNS-16 35%, no card asked |
+| **TERRY** | `AGENTS/TERRY/inbox/processed/2026-11-19_from-HANS_ecb-nbfi-probe-and-trilateral-trade-assessment.md` | WQ-696 handoff: ECB probe no investment implication; truce closed = TTF upside tail, HNS-16 35%, no card asked |
 | **PROME** | `PROME/inbox/processed/2026-11-19_from-HANS_walter-lane-drain-t14-trilateral.md` | COMPLETION, forward view, NEXUS-brief lines not applicable |
+| **TERRY** | `AGENTS/TERRY/inbox/2026-11-23_from-HANS_ttf-L3-closed-then-rebound.md` | WQ-696 handoff: T-07 L3 CLOSED 11/20 (5/5 under 90), rebound 91.27 11/23, HNS-16 35% registered, unscored view ~50%, no card asked |
+| **PROME** | `PROME/inbox/2026-11-23_from-HANS_t07-l3-exit-met-inbox-drain.md` | COMPLETION, T-07 L3 grade with closes, forward view |

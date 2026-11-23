@@ -183,3 +183,11 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-19T17:13Z	SIG-W-20261118-014	noted	INBOX_WALTER	UK energy bill +443 GBP from Jan (title): combo:uk-cost-squeeze KB-207; rest not mine
 2026-11-19T17:13Z	SIG-W-20261118-015	graded	INBOX_WALTER	T-07 L3 exit 3/5 confirmed on my pull, 11/18 close 80.85 (bar restated from 81.11)
 2026-11-19T17:13Z	2026-11-19_from-CYPHER_irish-credit-union-vendor-breach	noted	INBOX_PEER	Same event as card -009; KB-207; not a funding or processing event
+2026-11-23T17:33Z	SIG-W-20261120-005	noted	INBOX_WALTER	Poland Kh-101 and second object 11/19-20 (gov.pl primary): no HANS row; combo:europe-gas-politics KB-212
+2026-11-23T17:33Z	SIG-W-20261120-010	noted	INBOX_WALTER	MUFG correction, not mine; COR-20261120-10 receipted NO-OP
+2026-11-23T17:33Z	SIG-W-20261120-011	noted	INBOX_WALTER	Kyiv embassies: no HANS row; read with its correction 012
+2026-11-23T17:33Z	SIG-W-20261120-012	noted	INBOX_WALTER	Correction of 011: HANS never carried 011; COR-20261120-12 receipted NO-OP; corrected forms used in KB-212
+2026-11-23T17:33Z	SIG-W-20261121-003	graded	INBOX_WALTER	Item 9: TTF +40% title not supported by named-front bars (80.85 to 88.45 11/18-11/20, +9.4%), Nagel title to KB-210; item 15 not mine
+2026-11-23T17:33Z	SIG-W-20261123-005	graded	INBOX_WALTER	T-07 L3 exit MET 5/5 at the 11/20 close on my own re-pull (84.75 85.40 80.85 84.46 88.45); HANS-F-007 CLOSED; KB-209
+2026-11-23T17:33Z	SIG-W-20261123-006	noted	INBOX_WALTER	Merkury, Benghazi, Gulf of Finland, Black Sea risk area: combo:europe-gas-politics KB-212; no row moves
+2026-11-23T17:33Z	SIG-W-20261123-007	noted	INBOX_WALTER	Item 10 HANS: Simkus title to KB-210, Centrica and Capita to KB-211 combo:uk-cost-squeeze; rest not mine
