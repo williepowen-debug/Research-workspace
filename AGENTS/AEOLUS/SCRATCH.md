@@ -17,6 +17,7 @@
 **Colorado is the live channel: deal unsigned, milestone Orange from 12/02, MWD vote 12/08.** Shipping (C5 3) is the softest score: it rests on a Mississippi forecast I expect to overstate the fall (KB-304).
 
 ### SUGGESTIONS OFFERED TO WILL 11/23 (offered, not approved)
+0. **Will's question 11/23: how were live FL/CA flood alerts missed?** Run the alerts command (`water/SOURCES.md` last section) in the C4 read; list `inbox/WALTER/`, not only `inbox/`. Proposed first: California rain/burn-scar/loss gap and two winter-rain forecasts (KB-319/320), not yet approved.
 1. **Session on or just after 11/26:** Memphis observed vs −5.1, SA CEC final, barge print (holiday may shift it); then decide C5 3 or 2. One on 12/02 for Orange, AEO-01 (11/30) and CAP 12/03.
 2. **Second reader on Panama** (KB-312, AEO-12 55%): give it the sources folder, not the conclusion.
 3. **Register a forecast on the Lower Basin signing** (no open AEO row covers it); set the resolver before 12/08.

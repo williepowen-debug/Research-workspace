@@ -347,3 +347,13 @@ Sep-2025 prints **95.34%** (computes 98.31%) · Aug-2025 96.18% (96.71%) · May-
 - `rhine_freight_eur_t` still has no verified free source; BargeINSIGHTS is paid.
 - To probe next pass, not verified: ELWIS "rechnerisch verfügbare Fahrrinnentiefen" (closest free primary to loadable depth) and `parameter=Q` on the WSV bulk route.
 - ⚠️ `cjh.com.cn` timed out three times on 2026-11-05 from this box: a fact about this method on that day.
+
+## COASTAL AND FLOOD ALERTS — command registered 2026-11-23 (L-52, n=2)
+```bash
+for a in FL CA; do curl -s "https://api.weather.gov/alerts/active?area=$a" | python3 -I -c "
+import json,sys
+for x in json.load(sys.stdin)['features']:
+  p=x['properties']
+  if 'lood' in p['event'] or 'Surf' in p['event'] or 'Tornado' in p['event']: print(p['event'],'|',p['areaDesc'][:90],'|',p['effective'][:16],p['ends'])"; done
+```
+Read WITH the CO-OPS gauges (`sources/2026-11-23_coastal-and-tides/`), never instead of them. Default client name works. Readings stay in KB and `sources/` (KB-AEO-315).
