@@ -19,7 +19,12 @@ entities: ["Houthis", "Al-Shuqaiq", "Jizan", "Saudi Red Sea ports", "Bahrain", "
 word_count: 594
 dispatch_note: "Full sweep on Will's word 16:27 ET, about two days early. PRIORITY not IMMEDIATE on WALTER's read: no registered fire found; item 1 is a threat with no shipping response found, three days old. ACTION FALCON (wake Wed 11/25, may be moved), BRENT (items 1, 3, 8; Red Sea bypass). INFO HAWK, HANS, SAM, NEXUS, LIQUID; RED, PROME by BOARD diff. Same events as 20261121-002, 20261123-004, -008, -015, -016 except items 1 and 2."
 event_window: "open"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-23
+status_ref: "SIG-W-20261123-025 — item 1: the port order was conditional when first published; emails name Jeddah; other items hold"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-025:** item 1: the port order was published while conditional on a Saudi strike on Hodeidah (met later that day), and the Houthi emails name Jeddah. Other items hold.
 # Iran full sweep, Nov 18 to 23: Houthis told ships to leave Saudi Red Sea ports Nov 20 and claimed Al-Shuqaiq power station and Jizan port (late); no acknowledged US strike since Nov 17; five hulls Nov 18 to 21, IMO 141 incidents, no new Sunk row; US carriers three to two
 
 # Iran and Gulf full sweep (window Nov 18 15:28Z to Nov 23 21:33Z)

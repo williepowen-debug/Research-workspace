@@ -8,7 +8,7 @@ Evidence only. FALCON owns the ladder and census, BRENT owns oil; nothing here i
 |---|---|---|
 | **Iran hit a civilian industrial facility in Bahrain 11/21; two injured.** First state-confirmed damage of this run. Facility still NOT named by any Bahraini authority | CONFIRMED (FALCON KB-531; card 004) | The National, Al-Monitor/AFP 11/22 P |
 | **Houthi ballistic missiles toward Al-Shuqaiq power station and Jizan port 11/20** (NEW to the board) | Houthi "accurate and direct" = CLAIM; coalition: two INTERCEPTED, debris in Al-Shuqaiq; SHUT none found; DAMAGED claim only; "blackout" one unsourced outlet | Dawn/AFP 11/21 P, MEE 11/20 P, Militarnyi 11/20 P |
-| **Houthis told ships to leave Saudi Red Sea ports 11/20** (NEW): "We also urge all shipping companies to immediately evacuate their ships from these ports" (Saree). The coalition had struck Hodeidah that day | THREAT, not a closure; no carrier response, no ship attack in the article; no Red Sea merchant hit found in window (one search) | Reuters via gCaptain 11/20 P (second read) |
+| **Houthis told ships to leave Saudi Red Sea ports 11/20** (NEW): "We also urge all shipping companies to immediately evacuate their ships from these ports" (Saree). Published while conditional on a Hodeidah strike, met later that day (corrected, 025) | THREAT, not a closure; no carrier response, no ship attack in the article; no Red Sea merchant hit found in window (one search) | Reuters via gCaptain 11/20 P (second read) |
 | Rabigh refinery "direct hit" 11/22 | CLAIM ONLY, unchanged; Saudi authorities "have not confirmed any attacks on refineries" | Dawn/AFP 11/23 P |
 | **No acknowledged US strike on Iran 11/18 to 11/23.** CBS: CENTCOM denied new strikes on Qeshm 11/20 (CBS's words; CENTCOM text unread). Hengam Island radar strike 11/20 = Iranian claim only. Axios (S): unannounced self-defense strikes in recent weeks, undated | NOT FOUND is coverage, not a fact | CBS 11/23 P |
 | **Five hulls struck 11/18 to 11/21:** BAHRA, CAPTAIN LEON, TORKEL, ARINA, plus OCEAN UNITY cause disputed; NAVIG8 MESSI is the 11/17 ADNOC L&S hull (Vanguard, JMIC; ADNOC does not name it) | see register | MSCIO, IMO OWN |
@@ -61,6 +61,7 @@ JMIC: seven tankers struck in the Strait since 11/16 (Gulf News 11/23 P). Mines 
 | UKMTO weekly transits | 263 in 7 days to 11/18 (308 prior) | gCaptain 11/20 P |
 | JMIC/NCAGS | zero AIS-visible cargo transits over 1,000 dwt 11/19 to 11/21; about 38 a day US-assisted | Gulf News 11/23 P |
 | VLCC TD3C | WS315.63, $1,079,794 a day (Baltic 11/20) | DCN 11/23 P |
+| **CORRECTED 11/23 evening (024):** the WS315.63 does not fit its own TCE; Gibson 11/19 reads WS1,016 / $1,130,000 | | |
 
 ## Diplomacy, Israel, Iraq
 

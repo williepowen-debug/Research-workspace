@@ -19,8 +19,12 @@ entities: ["Bahrain", "IRGC", "Sitra", "Houthis", "Kharg Island", "Kataib Hezbol
 word_count: 423
 dispatch_note: "PRIORITY: first Iranian strike on Bahrain with damage established (prior four intercepted), but site unnamed and not established as energy or in-port, so not IMMEDIATE on WALTER's read; FALCON may escalate. ACTION FALCON (Gulf-state targeting, KH deadline outcome). INFO BRENT (exports, Sitra refinery question), HAWK, NEXUS, SAM (oil-yen), RED and PROME by BOARD diff. FALCON not live (last commit 11/20): ROUTINE wake via PROME recommended, no doorbell (not ACTION-DARK on established evidence)."
 event_window: "open"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-23
+status_ref: "SIG-W-20261123-025 — the tanker-rates title is likely June"
 ---
 
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-025:** the "tanker rates nearly double" title in section 2 is likely a June story, not November 18. Other rows as already corrected.
 > ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-004: 'no injuries' is superseded. Bahrain's Interior Ministry said 11/22 that the 11/21 attack injured two, one critically. Attack, damage and the unnamed site HOLD.**
 
 > ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-003: NOT the first damaging strike on Bahrain (FALCON's record: Bapco force majeure in March); first this month only. IRAN_WAR_GUARDS.md was not read before dispatch. Attack and damage HOLD (FALCON KB-531).**
