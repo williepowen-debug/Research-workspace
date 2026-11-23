@@ -90,3 +90,22 @@ The library builds a Chrome-imitating session by default. Run once with a plain 
 - `FORGE/tools/news-sweep/sweep.py` names itself "Prome/1.0" inside a Mozilla-form string and takes its feeds from configuration; its feeds were not in this test.
 - OSPREY's `strike_feed.py`, DEWEY's `site_passive_check.py` and LABOR's `fetch_primary.py` carry the browser string but no fixed source address; nothing to test.
 - Added 2026-11-23 14:07 ET, a sourced receipt: this test scanned script files only. AEOLUS reported that written pull recipes carry the same browser string; 21 desk markdown files do, with about 20 source addresses not tested here (DOCKET row dated 2026-11-27). AEOLUS disclosed two browser-named requests at 13:56 ET before it had seen the ruling (kunc.org answered; pslc.org refused and it stopped).
+
+## Slow retry of the price library, ordered by Will 2026-11-23 14:14 ET (appended 2026-11-23 14:26 ET)
+
+Same plain session named `research-bot/1.0`, one call every 90 seconds, two rounds, stamps from `date`:
+
+| Time ET | Call | Result |
+|---|---|---|
+| 14:14:33 | history, 5 days | Too Many Requests |
+| 14:16:03 | company info | Too Many Requests |
+| 14:17:33 | option expiries | Too Many Requests |
+| 14:19:03 | option chain | Too Many Requests |
+| 14:20:34 | history, 5 days | OK (723.71) |
+| 14:22:04 | company info | failed (empty answer) |
+| 14:23:34 | option expiries | Too Many Requests |
+| 14:25:04 | option chain | Too Many Requests |
+
+**Established:** at one call per 90 seconds, 7 of 8 failed, over 11 minutes. Company info and options failed every time in both runs (0 of 6). Price history worked 1 time in 3. The fleet tool, which uses the Chrome-imitating session, pulled prices from this same laptop at 12:04 and 13:00 ET today.
+**Inferred, not proven:** this is a refusal of the honest client on Yahoo's cookie-based calls, reported as a rate limit. A real rate limit would not persist at this pace, and the browser-named tool was not limited the same day. No side-by-side browser request was sent, by the rule.
+**Consequence:** the price tool cannot be switched to the honest name and keep working. It stays unswitched and goes to Will on 12/07 with a replacement proposal.
