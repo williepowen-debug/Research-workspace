@@ -43,3 +43,4 @@ receipt_date	correction_id	action	note
 2026-11-18T15:33Z	COR-20261117-02	NO-OP	scope=BROCK holds no Credit Acceptance row from card 20261116-005 item 8 (KB grep CACC and Credit Acceptance empty 11/18); 
 2026-11-18T15:33Z	COR-20261117-20	NO-OP	scope=cards 018 and 019 figures not carried in BROCK KB or STATUS (grep Kress and 118.0B and 390B empty 11/18); 
 2026-11-18T15:33Z	COR-20261117-31	NO-OP	scope=KB-BRK-510 and 511 carry the FSR date without a weekday label and no BROCK surface says Thursday; 
+2026-11-23T17:08Z	COR-20261119-20	NO-OP	scope=BROCK cites none of the corrected claims (REG-36 row name, the 11/19 two-leg drop, the Hunterbrook AMD wording) in any owned artifact, grep of AGENTS/BROCK outside inbox 2026-11-23 found none; 

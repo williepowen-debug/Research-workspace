@@ -459,3 +459,14 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-19T09:20:53-05:00	SIG-W-20261118-010	noted	INBOX_WALTER	HY 343 [FRED 11/17] LIQUID >320 x3 MET, whole ladder wider, funding calm, X1 CLOSED; LIQUID's series and count; already on STATUS; CCC/BB fell, not my signal (KB-BRK-516) -> KB-BRK-520 (4)
 2026-11-19T09:20:53-05:00	SIG-W-20261118-013	noted	INBOX_WALTER	FOMC minutes Oct 27-28: several flag banks' indirect exposure via credit lines to PC funds; most flag opaque AI debt -> combo KB-BRK-520; BRK-26/BRK-31 untouched; no score moved
 2026-11-19T09:20:53-05:00	SIG-W-20261118-014	noted	INBOX_WALTER	Titles only: Nvidia guarantees contingent on customer financing; Moody's Nvidia outlook Stable; GBDC NAV (KB-BRK-513 already) -> combo KB-BRK-520, unverified headlines
+2026-11-23T12:11:14-05:00	SIG-W-20261119-005	noted	INBOX_WALTER	Small items 11/19: ECB/BoE private-credit probes -> combo KB-BRK-524; GBDC PT cut -> KB-BRK-525; Nvidia pledge undisbursed is VULCAN's; no score moved
+2026-11-23T12:11:14-05:00	SIG-W-20261119-006	info-only	INBOX_WALTER	CRMT fourteenth-bridge 8-K 11/19: already graded by me 11/19 (KB-BRK-519); no new fact
+2026-11-23T12:11:14-05:00	SIG-W-20261119-008	info-only	INBOX_WALTER	OTTO relay First Brands/Tricolor dockets: no order, no recovery figure; OTTO owns; nothing scored
+2026-11-23T12:11:14-05:00	SIG-W-20261119-018	noted	INBOX_WALTER	HY 347 [11/18], REG-T-04 near-trigger (REGINALD's); superseded by my FRED read HY 376 [11/20], CCC/BB fell, KB-BRK-522
+2026-11-23T12:11:14-05:00	SIG-W-20261119-019	acted	INBOX_WALTER	HANS read ECB Supervisory priorities 2027-29 at primary: on-site campaign on fund financing and PC exposures, no bank named -> combo bank-ndfi-pullback KB-BRK-524
+2026-11-23T12:11:14-05:00	SIG-W-20261119-020	info-only	INBOX_WALTER	CORRECTION of 017/018: I cite none of the corrected claims; correction receipt COR-20261119-20 NO-OP
+2026-11-23T12:11:14-05:00	SIG-W-20261120-001	noted	INBOX_WALTER	FLASH VIX over 30, AI/chip selloff 11/20; HY 352 [11/19]: credit context, private-credit names read KB-BRK-522; no PC-specific move
+2026-11-23T12:11:14-05:00	SIG-W-20261120-006	noted	INBOX_WALTER	Small items 11/20: SpaceX lenders and neocloud selloff -> combo ai-financing-repricing KB-BRK-523; SEC staff PC valuation and Delaware/Walter insurers -> KB-BRK-525
+2026-11-23T12:11:14-05:00	SIG-W-20261120-009	noted	INBOX_WALTER	Will bookmarks 11/19: item 9 banks pulling back from AI DC debt traced to Reuters 11/09, not new -> KB-BRK-523; rest not mine
+2026-11-23T12:11:14-05:00	SIG-W-20261121-001	noted	INBOX_WALTER	LATE FLASH VIX +5 at 11/20 close, NVDA -14% on SEC accounting report: APO -4.4%, BDCs -0.2 to -1.2% on the day, KB-BRK-522; HY [11/20] 376 read today
+2026-11-23T12:11:14-05:00	SIG-W-20261121-003	noted	INBOX_WALTER	Small items 11/20-21: GPU_FINANCE_REVIEW titles -> KB-BRK-523; Barings BDC downgrade title and PE debt wall -> KB-BRK-525; titles unverified
