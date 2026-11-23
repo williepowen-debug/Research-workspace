@@ -21,6 +21,8 @@ dispatch_note: "PRIORITY: first Iranian strike on Bahrain with damage establishe
 event_window: "open"
 ---
 
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-004: 'no injuries' is superseded. Bahrain's Interior Ministry said 11/22 that the 11/21 attack injured two, one critically. Attack, damage and the unnamed site HOLD.**
+
 > ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-003: NOT the first damaging strike on Bahrain (FALCON's record: Bapco force majeure in March); first this month only. IRAN_WAR_GUARDS.md was not read before dispatch. Attack and damage HOLD (FALCON KB-531).**
 # Iranian attack hits a civilian industrial facility in Bahrain Sat Nov 21, fire, material damage, no injuries (Bahrain Interior Ministry via Reuters); site NOT named; IRGC claims US positions at Riffa and Awali; IRNA says a US interceptor fell on Sitra; plus Houthi missiles at Riyadh intercepted 11/21, Iran's Kharg tanker convoy, Trump weighing new strikes (FT 11/20)
 

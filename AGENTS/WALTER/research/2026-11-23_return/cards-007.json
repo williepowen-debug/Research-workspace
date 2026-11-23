@@ -1,0 +1,51 @@
+[
+ {
+  "signal_type": "context",
+  "safety_net": "clear",
+  "event_window": "open",
+  "route_origin": "WALTER walter-7f backlog 11/23 (laptop), Will 12:21 ET",
+  "origin": [
+   "RESEARCH-INTAKE batches 11/22 and 11/23; Will in session 12:21 ET"
+  ],
+  "id": "SIG-W-20261123-007",
+  "slug": "Small-items-lane-Nov-22-and-23-Nvidia-500B-plan-undeployed-AI-server-prices-Applied-Digital-lease-CrowdStrike-Zscaler-CFNAI-Delaware-Life-Florida-Jacksonville",
+  "title": "Small items, RESEARCH-INTAKE Nov 22 and 23: WSJ via relays says Nvidia's $500B financing plan has deployed no money; AI server prices up to 45%; Applied Digital lease and bridge; CrowdStrike to buy Zscaler; CFNAI -0.06; Delaware Life asset swap; Jacksonville hiring freeze",
+  "body": "# Small items, lane batches 11/22 and 11/23\n\nTitles only unless marked. Logging is not scoring (WQ-622).\n\n| # | Item | Owner | combo |\n|---|---|---|---|\n| 1 | Nvidia $500B customer-financing plan: no money deployed three months after August; lenders want more than Huang's proposed guarantee of up to 25% of certain costs; nonbinding MoU; first deal not expected before 2027 (WSJ via KuCoin, TMGM, others; search summaries; predates Huang's return). Bears on VULCAN's MoU test; VULCAN grades | VULCAN, BROCK | combo:VULCAN/gpu-financing |\n| 2 | 'AI server prices up to 45% as Dell, HPE raise after deals' (FT 11/22); 'Big Tech's AI capex plans stop climbing' (BigGo 11/23); 'Datasection slashes forecast nearly 90%' (TrendForce repost); 'Microsoft buyouts to about 60,000' (aggregator); 'Nscale slows hiring before $35bn IPO' (FT) | VULCAN | combo:VULCAN/capex-direction |\n| 3 | Applied Digital: $5.4B, 150 MW hyperscaler lease, first deliveries 2028, and $300M secured bridge (11/23). 'CoreWeave borrowed under 6%, SpaceX paid above 8%' (TIKR); 'Congress is now looking' at Nvidia and CoreWeave (TIKR) | VULCAN, BROCK | combo:VULCAN/neocloud-funding |\n| 4 | Nvidia's new board National Security and Export Control Committee (8-K, card 001; VULCAN's routing note); 'New U.S. export rules cloud supply' (TrendForce) | ZHAO | combo:ZHAO/export-controls |\n| 5 | PBoC fix 6.7120 vs 6.6775 estimate (investingLive 11/23); Evergrande founder life sentence (11/19) | ZHAO | combo:ZHAO/yuan-property |\n| 6 | 'CrowdStrike to buy Zscaler in $44bn deal' (FT 11/23); 'Next data accessed in cyber breach' (BBC); 'US ports face cyber attack onslaught' (FT); N-able repeat (CRN) | CYPHER | combo:CYPHER/incidents |\n| 7 | Chicago Fed CFNAI October **-0.06** from +0.05 (FRED value read) | ISHM | combo:ISHM/regional-activity |\n| 8 | Delaware Life seeks approval for a further $1.2bn asset swap (11/17); Cayman reinsurers challenge NAIC recapture charge (11/23); 'Mark Walter's largest insurer sees sales plunge' (Bloomberg 11/17, overlaps 20261120-006 item 6) | SHADE | combo:SHADE/affiliated-assets |\n| 9 | Jacksonville hiring freeze and early retirements under Amendment 3 (Florida Politics 11/22); Florida property-tax pieces | CORAL | combo:CORAL/fl-fiscal |\n| 10 | ECB Simkus: December hike may not be enough (11/23); Centrica chief on bills; Capita shares -70% (BBC) | HANS | combo:HANS/ecb-and-uk |\n| 11 | Bank of Korea expected to hike to 3.25% (Chosun); yen near 159; Japan power four-year high (Bloomberg) | SAM | combo:SAM/asia-rates |\n| 12 | 'Auto loan defaults rise' (Fitch 11/20) | OTTO | combo:OTTO/auto-credit |\n| 13 | 'American dream of home ownership recedes as mortgage rates surge' (FT 11/22); Dream Finders exchange results (11/23) | HOMER | combo:HOMER/builders |\n| 14 | 'Private equity backers flag concerns about sell-to-yourself deals' (FT 11/22) | BROCK | combo:BROCK/pe-exits |\n| 15 | Copper almost +4% (11/23); GLD 335.50 intraday vs 322.87 [11/20] (vendor); gold/silver ratio 86 (11/21) | MIDAS | combo:MIDAS/metals-rebound |\n| 16 | 'Democrats win largest House majority since 1992' (BBC 11/22); 'Democrats will seek to unwind Trump's tax and tariff policies' (FT) | CARL, BROCK | combo:none |\n| 17 | RED-FT-10 exit leg: SKEW 138.84 [11/20] under 140, **1 of 4** on the vendor mirror (140.86 on 11/19); VIOLET's Cboe read agrees on the level | RED, VIOLET | combo:RED/skew-exit |",
+  "source": "FRED CFNAI; yfinance ^SKEW, GLD; WebSearch summaries; RESEARCH-INTAKE data/2026-11-22/news.json (12:42Z and 21:05Z versions) and data/2026-11-23/news.json (14:51Z)",
+  "action": [
+   "VULCAN",
+   "CYPHER",
+   "ISHM",
+   "SHADE",
+   "CORAL"
+  ],
+  "info": [
+   "ZHAO",
+   "BROCK",
+   "HANS",
+   "SAM",
+   "OTTO",
+   "HOMER",
+   "MIDAS",
+   "VIOLET",
+   "CARL",
+   "RED",
+   "PROME"
+  ],
+  "precedence": "ROUTINE",
+  "confidence": 0.6,
+  "confidence_language": "titles except where marked",
+  "cluster": "MISC",
+  "domain": "AI_CAPEX",
+  "entities": [
+   "Nvidia",
+   "Applied Digital",
+   "CrowdStrike",
+   "Zscaler",
+   "CFNAI",
+   "Delaware Life"
+  ],
+  "dispatch_note": "Small-items card (10.6). ACTION line owners VULCAN 1 to 3, CYPHER 6, ISHM 7, SHADE 8, CORAL 9. CARL, RED, PROME by BOARD diff. One combo:none (House majority) for PROME at closeout.",
+  "route_summary": "Small items 11/22 and 11/23"
+ }
+]

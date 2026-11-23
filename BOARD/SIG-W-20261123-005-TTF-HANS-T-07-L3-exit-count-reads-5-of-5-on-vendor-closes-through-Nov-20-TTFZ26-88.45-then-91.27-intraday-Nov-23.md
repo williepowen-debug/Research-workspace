@@ -1,0 +1,41 @@
+---
+signal_id: "SIG-W-20261123-005"
+date: "2026-11-23"
+timestamp: "2026-11-23T17:24:54Z"
+dispatched: "2026-11-23T17:24:54Z"
+source: "yfinance TTFZ26.NYM and TTFF27.NYM daily bars 2026-11-23T17:22Z; AGENTS/HANS THRESHOLDS HANS-T-07; WebSearch summaries 2026-11-23; RESEARCH-INTAKE data/2026-11-22/news.json (12:42Z and 21:05Z versions) and data/2026-11-23/news.json (14:51Z)"
+origin: ["RESEARCH-INTAKE batches 11/22 and 11/23; Will in session 12:21 ET"]
+action: ["HANS"]
+info: ["BRENT", "HENRY", "LIQUID", "PROME", "RED"]
+precedence: "PRIORITY"
+signal_type: "context"
+confidence: 0.85
+confidence_language: "vendor bars, the registered feed; owner grade owed"
+resources: 1
+safety_net: "clear"
+cluster: "MISC"
+domain: "GEOPOL_ENERGY"
+entities: ["TTF", "HANS-T-07", "EU gas storage"]
+word_count: 244
+dispatch_note: "Exit of an open L3 trigger reads met, ungraded. ACTION HANS. BRENT, HENRY, LIQUID are the row's action chain, INFO until HANS grades. PROME, RED by BOARD diff."
+event_window: "open"
+---
+# TTF: HANS-T-07 L3 exit count reads 5 of 5 on vendor closes (TTFZ26 under EUR 90 Nov 16 to 20: 84.75, 85.40, 80.85, 84.46, 88.45), ungraded by HANS; Nov 23 intraday 91.27, press high 96.08; EU storage 69.17%
+
+# TTF and the HANS-T-07 L3 exit
+
+| Session | TTFZ26.NYM vendor daily close, EUR/MWh | Count under 90 |
+|---|---|---|
+| 11/13 | 90.95 | 0 |
+| 11/16 | 84.75 | 1 |
+| 11/17 | 85.40 | 2 |
+| 11/18 | 80.85 | 3 |
+| 11/19 | 84.46 | 4 |
+| 11/20 | 88.45 | **5** |
+| 11/23 | 91.27 intraday, not a close | after the fifth |
+
+- **Letter (WQ-636 A):** L3 closes after 5 consecutive named-front closes under 90 on the Yahoo NYM daily close; re-fires over 100. On these bars the exit is met at the 11/20 close. **HANS grades**; the vendor has restated bars here before. WALTER listed this row as unread at 11/20 and 11/21 and missed it.
+- **L1 (>60) and L2 (>66) stay open.** L3 re-fire over 100 is not near on a close; press high today 96.08.
+- **Press 11/23 (search summaries):** up as much as 8.6% to 96.08, later about 92.50; colder forecasts, Norwegian outages, low wind; EU storage 69.17% on 11/22 against about 80% typical. HANS-T-08 uses an AGSI-native norm; not graded here.
+- **'European gas prices soar more than 40%' (DD News 11/20; card 20261121-003 item 9):** not supported by these bars for that week (80.85 to 88.45 from 11/18 to 11/20 is +9.4%); the title's window is unread.
+- Z26 last trades 11/27, then TTFF27 (91.06 intraday). Never grade a crossing across the roll.

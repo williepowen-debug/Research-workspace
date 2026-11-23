@@ -1,0 +1,9 @@
+release	series_period	scheduled_et	owner	status	evidence
+CFTC Commitments of Traders	week to 11/17	2026-11-20 15:30	BRENT (oil)	OWNER-COMPLETED (oil leg)	f7fd02a504 COT #15 graded; other legs not checked
+Baker Hughes rig count	week to 11/20	2026-11-20 13:00	BRENT	OWNER-COMPLETED	f7fd02a504; boundary 7 retired
+Kataib Hezbollah deadline	11/20	2026-11-20 12:00	FALCON	OWNER-COMPLETED	FALCON KB-537: forces entered Jurf al-Sakhar under a deal, no clash
+FRED HY, CCC, VIXCLS, SP500	2026-11-20 obs	2026-11-23	REGINALD/HENRY/VIOLET	PUBLISHED, ROUTED	SIG-W-20261123-002, -003; f1a68a2220; c43fd43fe8
+Chicago Fed CFNAI	October	2026-11-23 08:30	ISHM	PUBLISHED, ROUTED	FRED CFNAI -0.06; SIG-W-20261123-007 item 7; issuer release text not read
+NY Fed Williams remarks	11/23	2026-11-23	HENRY/BOND	UNKNOWN	titles only; text not read
+Treasury auctions	11/23	2026-11-23	BOND	UNKNOWN	not checked
+10Y TIPS reopening result	11/19	2026-11-19 13:00	BOND	UNKNOWN	carried from 11/20; not re-checked
