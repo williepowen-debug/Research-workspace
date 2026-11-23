@@ -26,7 +26,7 @@ Cards 016 to 029; anchors/IRAN_WAR.md and HISTORY; CORRECTIONS (COR-20261123-23,
 
 ## RESULT
 
-14 cards, 186 delivery rows for the date, all on origin. Iran page refreshed; two correction cards; four late releases plus NFRA and Williams found by owner ledgers.
+14 cards, 186 delivery rows (no new cards after 029) for the date, all on origin. Iran page refreshed; two correction cards; four late releases plus NFRA and Williams found by owner ledgers.
 
 ## GAPS
 
@@ -36,9 +36,9 @@ Cards 016 to 029; anchors/IRAN_WAR.md and HISTORY; CORRECTIONS (COR-20261123-23,
 
 ## WILL_NEEDS
 
-1. **Flood-alert check (AEOLUS request; Will sent AEOLUS to ask, 17:06 ET):** add one start-and-close check of Weather Service flood alerts for Florida and California to WALTER's charter? Recommend YES in the reduced form (events list, ROUTINE default, review 12/02). Changing the charter needs Will's word here.
-2. **AEOLUS's five climate routing edits (packet inbox/2026-11-23_from-AEOLUS_climate-routing-five-edits.md, held, not filed, nothing edited):** WALTER recommends YES to 1, 2 and 3; HOLD 4 until CORAL answers (the two carves do conflict on ENSO action ownership, read 11/23); 5 in part (six channels and WATT; CARL, TERRY and VULCAN are not edges in AGENTS/_NETWORK.md, which owns topology). Semantic routing edits need Will's word here.
-3. Optional: `! gh auth login` on the laptop (extra collector run only).
+1. Optional: `! gh auth login` on the laptop (extra collector run only).
+
+**Ruled, not open (Will 17:12 ET 11/23, "Yes go ahead my approval"):** flood-alert check adopted as charter step 7j (review 12/02); AEOLUS climate edits 1, 2, 3 and the channel count of 5 adopted at routing v0.52; edit 4 HELD for CORAL's answer (packet sent). READS registrar rows asked of PROME.
 
 ## FOLLOW-UP
 
