@@ -33,6 +33,8 @@ Put in `CARD_LEDGER.tsv`, not the paper book: the paper book takes only cards th
 
 ## 3. Phase-2 volume gate
 
+> **CORRECTED 2026-11-23 (WQ-730, Will's word):** the July figure below left PB-0002 out without saying why, and the counter first read 6 on 10/23, not 11/5 to 11/6. The figures, the reason for the exclusion, each stage-two condition and the recommendation as it now stands are in `../2026-11-23_will-rulings-paper-book-print/NOTE.md` §2, which supersedes this section's figures.
+
 **As it reads today (2026-11-22, instrument `paper_book_mark.py` `would_fire_90d`, run offline):** 7 of 6 distinct events in the trailing 90 days → the tool prints GATE TRIPPED (first at 6+ on 2026-11-05/06). It falls to 6 on 2026-12-02 when PB-0006 (opened 9/2) leaves the window. Not in WILL_QUEUE; STATUS has carried it as "open for Will".
 
 **What the 7 are:** PB-0006 WAL roll (9/2), PB-0007 VLO share (9/18), PB-0008a and PB-0008b (one QQQ trade, 10/23), PB-0009 RSP (11/5), PB-0010 UNG (11/5), PB-0011 HYG (11/6).
