@@ -311,6 +311,8 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | Reservoirs, streamflow, river stage | **`water/`** | C6 · C5 |
 | NIFC PL / acreage | **`wildfire/`** | C4 |
 | NHC / CSU / NOAA seasonal | **`hurricane/`** | C1 |
+| CPC heating degree days (HDD) | **`regime/`** | C3 |
+| USDA PSD crop production | **`crops/`** (ledger only) | C2 |
 
 **Consumers CITE, never copy.** *(Drought originally sat under `wildfire/` because that was where I was using it — which made it invisible to its other three consumers and let one dataset produce two unreconciled reads.)*
 
@@ -325,7 +327,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 
 ### DOMAIN WORKSPACES *(created 2026-08-13, Will-directed)*
 
-Five topic folders. Each carries: **`README.md`** (charter — scope, mapping, triggers, routing), **`DOSSIER.md`** (live state, with a PAT-044 two-clock header), **`SOURCES.md`** (**verified working pull commands** — copy-paste, never reconstruct), **`AGENT.md`** (the spawn brief), **`workbook/`** (observations).
+Five topic folders plus one ledger-only folder (`crops/`). Each of the five carries: **`README.md`** (charter — scope, mapping, triggers, routing), **`DOSSIER.md`** (live state, with a PAT-044 two-clock header), **`SOURCES.md`** (**verified working pull commands** — copy-paste, never reconstruct), **`AGENT.md`** (the spawn brief), **`workbook/`** (observations).
 
 | Folder | Channel mapping | Status |
 |---|---|---|
@@ -334,6 +336,7 @@ Five topic folders. Each carries: **`README.md`** (charter — scope, mapping, t
 | **`hurricane/`** | **the physical PERIL leg of C1** — *not* a separate channel | **CORE** (via C1) — normal obligation |
 | `wildfire/` | **the physical PERIL leg of C4** — *not* a separate channel | **CORE** (via C4) — normal obligation |
 | `seismic/` | volcanic + earthquake → **C2** (VEI 6+ climate forcing), **C1/C4** (cat loss), **C5** (ash/aviation), **C3** (energy infra) | 🟡 **EVENT-TRIGGERED WATCH — NOT a core channel** |
+| `crops/` *(added 2026-11-23, KB-AEO-315)* | crop readings for **C2** — *not* a separate channel | **LEDGER ONLY** — `workbook/` (SERIES + LOG); no worker, README, DOSSIER or score |
 
 > **`regime/` and `water/` are the two ROOT folders — the atmospheric driver and the hydrological state it produces. Neither is a channel and neither gets a matrix row or score.** A scored channel can be double-counted; **a root must be counted once across every channel it drives**, which is the entire job of the Independence column (**L-02**).
 > ⚠️ **`water/` owns DROUGHT as a shared input** (scope broadened 2026-08-13, Will-directed). Drought feeds **C2** crops, **C4** fire fuel state, **C5** river navigation and **C6** reservoir inflow *simultaneously*. It was originally filed under `wildfire/` — **a misfiling of a shared instrument into one consumer's folder**, which made it invisible to the other three and let the same dataset produce different reads in two places. **Never file a multi-channel input under one of its consumers.**
