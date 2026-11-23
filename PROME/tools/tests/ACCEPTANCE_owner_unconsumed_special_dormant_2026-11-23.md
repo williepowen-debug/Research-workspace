@@ -11,4 +11,13 @@
 
 **Neighbours considered:** ordinary (A3) · overlap N/A, a desk has one roster class · wrong owner N/A, no ownership is decided here · missing information: a desk with unknown liveness is still listed in the tail, unchanged · concurrent activity N/A, read-only.
 
-**State:** IMPLEMENTED · TESTED (author's tests) · not INDEPENDENTLY VERIFIED: no independent reader has run a counterexample. The change touches a boot-gate advisory line, so one independent read is owed before it is called fixed. reads: 0.
+**State:** IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED WITH NAMED RESIDUE (2026-11-23 12:53 ET). reads: 1.
+
+## Independent read (Opus, read-only, about 12:51 ET 2026-11-23)
+The reader ran the author's suite (14 tests, OK) and nine counterexamples of its own on fixtures and on the live tree. **A1 to A4 hold** (A4 on a fixture, by evaluating the gate's exact pass expression; the full boot gate was not run). Old and new code print byte-identical lines for ACTIVE-only inputs. No other reader of the removed wording exists in the repository.
+
+**Residue, NOT fixed (no edit after the read):**
+1. A SPECIAL or DORMANT desk is still NAMED, and still fails the gate line, through the tail's "undated" and "liveness UNKNOWN" lists (a dormant desk holding an undated file; a special desk with aged items and a git error). Not occurring live today. Low to medium.
+2. A SPECIAL desk's ACTION count no longer appears on the line (RAV's 1 ACTION item is inside the desk count). Within the approved scope.
+3. `ACCEPTANCE_owner_unconsumed_boot_line_2026-11-16.md` condition A8 ("prints tagged 'Will-driven' … 'not a PROME launch candidate'") is SUPERSEDED by this file; that file is not edited.
+4. The tail points to `inbox_census.py <DESK>`, but the line no longer gives the desk names; the classes are in `PROME/ROSTER.md` (DORMANT and SPECIAL sections).
