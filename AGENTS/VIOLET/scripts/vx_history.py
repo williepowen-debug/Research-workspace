@@ -66,7 +66,7 @@ from pathlib import Path
 VIOLET_DIR = Path(__file__).resolve().parents[1]
 LEDGER = VIOLET_DIR / "workbook" / "VX_TERM_HISTORY.tsv"
 BASE = "https://cdn.cboe.com/data/us/futures/market_statistics/historical_data/VX/VX_"
-HDRS = {"User-Agent": "Mozilla/5.0",
+HDRS = {"User-Agent": "research-bot/1.0",
         "Referer": "https://www.cboe.com/us/futures/market_statistics/historical_data/"}
 FIRST_YEAR = 2013  # verified: 2013 = 200, 2012 = 403
 

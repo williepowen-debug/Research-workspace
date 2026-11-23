@@ -242,7 +242,7 @@ def backfill_spot(days: int, rows: dict[str, dict],
 def fetch_cboe_settlement(query_date: date) -> list[dict]:
     r = requests.get(
         CBOE_URL, params={"dt": query_date.isoformat()},
-        headers={"User-Agent": "Mozilla/5.0", "Referer": "https://www.cboe.com/"},
+        headers={"User-Agent": "research-bot/1.0", "Referer": "https://www.cboe.com/"},
         timeout=15,
     )
     if r.status_code != 200:
@@ -398,7 +398,7 @@ def fetch_cboe_history(sym: str) -> tuple[dict[str, float], bool]:
     """
     try:
         r = requests.get(CBOE_HISTORY_URL.format(sym=sym), timeout=30,
-                         headers={"User-Agent": "Mozilla/5.0"})
+                         headers={"User-Agent": "research-bot/1.0"})
     except requests.RequestException as e:
         print(f"    ⚠ CBOE {sym}: request FAILED ({type(e).__name__}) — NOT used this run")
         return {}, False

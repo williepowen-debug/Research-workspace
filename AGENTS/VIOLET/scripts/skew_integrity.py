@@ -48,8 +48,7 @@ import argparse, io, sys, urllib.request
 from datetime import date, datetime, timedelta
 
 CBOE_URL = "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv"
-UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-                    "(KHTML, like Gecko) Chrome/125 Safari/537.36"}
+UA = {"User-Agent": "research-bot/1.0"}
 TOL = 0.005  # published to 6dp; anything past half a cent is a real disagreement
 
 

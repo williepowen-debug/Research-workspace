@@ -63,7 +63,7 @@ COLS = ["date", "cor1m", "cor3m", "cor30d", "vix", "constituent_vol_est",
 
 def cboe_quote(sym: str) -> dict | None:
     url = f"https://cdn.cboe.com/api/global/delayed_quotes/quotes/{sym}.json"
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 research"})
+    req = urllib.request.Request(url, headers={"User-Agent": "research-bot/1.0"})
     try:
         return json.load(urllib.request.urlopen(req, timeout=25)).get("data")
     except Exception:

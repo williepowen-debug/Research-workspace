@@ -109,7 +109,7 @@ def parse_row(fields: list[str]) -> dict | None:
 def fetch_weekly() -> dict | None:
     """Latest week. Single VIX row expected."""
     r = requests.get(WEEKLY_URL, timeout=30,
-                     headers={"User-Agent": "Mozilla/5.0 VIOLET/cftc_cot"})
+                     headers={"User-Agent": "research-bot/1.0"})
     r.raise_for_status()
     reader = csv.reader(io.StringIO(r.text))
     for fields in reader:
@@ -123,7 +123,7 @@ def fetch_annual(year: int) -> list[dict]:
     """All VIX rows for a given year (one per Tuesday)."""
     url = ANNUAL_URL.format(year=year)
     r = requests.get(url, timeout=60,
-                     headers={"User-Agent": "Mozilla/5.0 VIOLET/cftc_cot"})
+                     headers={"User-Agent": "research-bot/1.0"})
     r.raise_for_status()
     with zipfile.ZipFile(io.BytesIO(r.content)) as zf:
         names = zf.namelist()

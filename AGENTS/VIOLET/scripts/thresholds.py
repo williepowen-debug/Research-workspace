@@ -490,7 +490,7 @@ def fetch_official_spot(day: date) -> dict:
         sym = ticker.lstrip("^")
         try:
             req = urllib.request.Request(CBOE_HISTORY_URL.format(sym=sym),
-                                         headers={"User-Agent": "Mozilla/5.0"})
+                                         headers={"User-Agent": "research-bot/1.0"})
             with urllib.request.urlopen(req, timeout=12) as fh:
                 reader = csv.DictReader(io.StringIO(fh.read().decode("utf-8-sig")))
                 fields = reader.fieldnames or []

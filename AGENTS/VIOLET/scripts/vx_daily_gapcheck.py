@@ -94,7 +94,7 @@ def fetch_dates(sym: str) -> set[str] | None:
     """Dates on which CBOE publishes `sym`. None = endpoint unreachable (fail closed)."""
     try:
         r = requests.get(CBOE_HISTORY_URL.format(sym=sym), timeout=30,
-                         headers={"User-Agent": "Mozilla/5.0"})
+                         headers={"User-Agent": "research-bot/1.0"})
     except requests.RequestException as e:
         print(f"  ⚠ CBOE {sym}: {e}")
         return None

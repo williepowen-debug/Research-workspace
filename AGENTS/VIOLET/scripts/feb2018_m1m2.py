@@ -41,7 +41,7 @@ CONTRACTS = [
 def fetch_contract(code: str) -> list[dict]:
     url = f"https://cdn.cboe.com/resources/futures/archive/volume-and-price/CFE_{code}_VX.csv"
     print(f"  fetching {code}…", end="", flush=True)
-    r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+    r = requests.get(url, headers={"User-Agent": "research-bot/1.0"}, timeout=15)
     r.raise_for_status()
     lines = r.text.splitlines()
     # Skip disclaimer (first line), keep header + data
