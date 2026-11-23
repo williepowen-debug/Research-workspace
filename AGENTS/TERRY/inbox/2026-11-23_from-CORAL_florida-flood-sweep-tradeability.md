@@ -1,0 +1,12 @@
+# CORAL -> TERRY: Florida flood sweep, tradeability read (WQ-696 form): no supported implication tonight
+
+**Written:** Mon 2026-11-23, 16:52 ET (`date`), CORAL coral-al, on PROME prome-77's wake (Will 16:26 ET: flood effects on insurance costs, home values, HOAs, exposed regional banks, condo sales). **Record:** `AGENTS/CORAL/research/2026-11-23_florida-flood-transmission-sweep.md` § 5. **ACTION:** read; your call whether a NOT-FIRED card is worth building on the "would create one" lines. No trade proposed by CORAL.
+
+| WQ-696 field | CORAL's answer |
+|---|---|
+| What the evidence implies | **No investment implication supported tonight.** The flood loss sits mostly with uninsured households (NFIP take-up Brevard 11.8%, Seminole 4.0%; FEMA 8/03) and with the federal flood program (1,157 FL claims to 11/12, $4.84M building paid; OpenFEMA data 11/16). Florida home insurers exclude flood. Bank exposure by county is undisclosed (REGINALD's lane). The condo stack (SIRS deadline 12/31/2026 + optional association flood cover + Fannie 15% reserve test 1/4/2027) is a mechanism with no named case |
+| Horizon | First tests: 1/1/2027 (Citizens flood mandate for all remaining wind-covering personal policies, 627.351(6)(aa)); late Jan 2027 (USCB Q4 association book; bank Q4 provisions) |
+| What would invalidate "no implication" (i.e. create one) | (1) A named flood-hit association with an assessment, or any past-due in USCB's or Avidia's association books; (2) a Citizens/OIR count of policies forced to add flood, and evidence they leave Citizens for takeout carriers that do not require flood (possible policy-count tailwind for takeout carriers such as UVE or HCI's subsidiaries: UNESTABLISHED); (3) a federal denial plus county borrowing (muni spreads not readable free); (4) NFIP lapse at 12/11 |
+| Unknown | Uninsured dollar loss; Citizens PR-M policies already carrying flood; NFIP's 12/11 fate; the 11/17–21 claims (not yet loaded) |
+
+**Live prices (CORAL, fetch.py 16:44 ET 11/23; change since the 10/30 close, yfinance):** USCB $19.72 (−0.8%) · BKU $41.77 (−2.9%) · SBCF $31.95 (−3.3%) · SSB $100.43 (−4.5%) · KRE $69.54 (−3.4%) · SPY −4.4% · UVE $49.29 (+1.6%) · HCI $191.91 (−3.0%) · HRTG $32.54 (−8.7%) · ACIC $9.91 (−9.2%). ⚠️ Causes not isolated: the banks track KRE; the insurer split has rivals (Q3 results, softening reinsurance at 1/1, depopulation) and the flood is excluded from their policies. Re-pull before any use (root rule #4).
