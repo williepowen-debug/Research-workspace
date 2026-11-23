@@ -3,9 +3,19 @@
 **Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #15 (11/15) 4-of-5, Cape Coral 5.74 series low, re-fire fails. Falsify grade 11/15 run 11/16: 1.5 of 6, 🟠 holds. **GSE financing leg: "not yet" — CORAL-02 FALSE (11/17).** Next: MSI #16 by 11/26; FL Realtors Nov 12/16.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-11-19 12:0x ET (Thu, coral-ak, second touch, Will's word via PROME prome-36 + WALTER SIG-W-20261119-010; CHANGED: state emergency 14 → 21 counties incl. Broward, Miami-Dade) | STATUS commit: 8bc04253c2 (prior: 2026-11-19 coral-aj, 76b773c49f)
+**As of:** 2026-11-23 16:5x ET (Mon, coral-al, PROME prome-77 flood sweep D:L1243 + D:L1204; CHANGED: first insured flood figure, crest re-read, Citizens 11/20, flood-mandate and SIRS dates added) | STATUS commit: ebd82d8409 (prior: 2026-11-19 coral-ak, 8bc04253c2)
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## 2026-11-23 evening — FLOOD SWEEP: MOSTLY UNINSURED · FIRST NFIP FIGURE · RIVER NOT FALLING · THE 12/31 AND 1/1 DATES (no colour moves; evidence `STATUS_DETAIL.md` § AL; research `research/2026-11-23_florida-flood-transmission-sweep.md`)
+| # | What | So what / who |
+|---|---|---|
+| 1 | **NFIP claims FL, loss 11/01–11/12: 1,157; Brevard 745; $4.84M building paid** (OpenFEMA data 11/16, P1). Take-up Brevard 11.8%, Seminole 4.0%, FL 13.7% (FEMA 8/03). HO/Citizens exclude flood | Household loss mostly uninsured → CARL (consumer), REGINALD (mortgage), SHADE (insurers: not an HO event) |
+| 2 | **St. Johns at Cocoa high 18.77 ft 11/21, 18.58 ft 11/23, flat to 11/28; Lake Harney past record; DeLand fc 6.1 ft 11/27** (NWPS P1). New Flood Watches SE FL, Brevard–Martin 11/24–25. Federal declaration NONE | AEOLUS (hazard), WALTER (declaration watch), PROME (L784) |
+| 3 | **Citizens flood mandate for ALL remaining wind-covering personal policies from 1/1/2027** (627.351(6)(aa), P1); Citizens PIF 196,511 (11/20) | The household flood cost arrives as a 2027 premium → CARL, TERRY |
+| 4 | **SIRS 'in no event' after 12/31/2026; association flood cover optional; Fannie 15% reserve test 1/4/2027** (statutes P1) | Condo stack = mechanism, no named flood-hit association → HOMER, REGINALD (USCB/Avidia association books, Q4) |
+| 5 | County home values flat (Zillow Oct); 2017 record flood left no county mark in Brevard | HOMER owns ZIP-level read |
+| 6 | TERRY: **no supported implication** (WQ-696); FL banks track KRE since 10/30 | TERRY |
 
 ## 2026-11-19 midday — SOUTH FLORIDA FLASH FLOOD · STATE EMERGENCY NOW 21 COUNTIES · STILL NO FEDERAL DECLARATION (no colour moves; evidence `STATUS_DETAIL.md` § AK; research `research/2026-11-19_south-florida-storms-11-18.md`)
 | # | What | So what / who |
@@ -79,16 +89,6 @@
 | 3 | **Citizens 9/30 month-end 254,836 (P1)** ≈ −1,145 ex-round; **weekly 216,432 at 10/30 (P1) after the 10/20 takeout round, 37,514 personal (Citizens 2026 Stats, P1); residual ≈ −890** | SHADE, AEOLUS, MARCO — depopulation, not flight |
 | 4 | **FMHPI FL revised (P1):** Jul +1.68% → **+0.74%**; Aug **+1.08%** YoY SA (SF only, conforming) | HOMER, MARCO — constant-quality SF still positive, weaker than carried |
 | 5 | **King tide 10/25–29:** AEOLUS's gauges (Lake Worth record) — CORAL impact read: NWS coastal-flood warnings live (Keys, NE FL), advisories SE FL; **no declaration or damage tally found** | AEOLUS — descriptive coastal datum, not an insured-loss event |
-
-## ⭐ 2026-10-29 — FEMA APPROVED FLORIDA'S ISAIAS DR (read then as PA only; household aid corrected 11/06) · FHCF OCTOBER $22.26B · MSI #11 (no colour moves; evidence `STATUS_DETAIL.md` § X; L784 file § 7)
-
-| # | Item (dated, tiered) | For whom · so what |
-|---|---|---|
-| 1 | ⭐ **DR-4955-FL declared 10/27** (request 10/15; OpenFEMA P1, record refresh 10/28 11:09Z): **Public Assistance A–G in all 15 requested counties; Individual Assistance in NONE of 8 requested; Hazard Mitigation not designated; cost share unpublished** (no FEMA release; no Federal Register notice at 00:09 ET 10/29) | PROME, AEOLUS, CARL, REGINALD — the L784 "deny" branch did NOT fire; household aid is the open leg. ⚠️ Rival for the IA gap (normal IA factors, small uninsured home damage) predicts the same ⇒ not yet evidence of the posture |
-| 2 | **FHCF October estimate (P1, dated 10/22):** claims-paying **$22.26B vs $17B** (131%; May $21.43B); 2027-28 **$24.13B** no covered event / **$13.61B** limit exhausted; YE fund $12.91B; borrowing 0–12 mo $7.10B unchanged; Isaias not in it (losses at 9/30) | SHADE, AEOLUS — insurer-side capacity UP; FEMA $ at stake to FHCF stays $0 direct |
-| 3 | **MSI-01 reading #11 (Parcl data date 10/27, P1):** Tampa 7.27 · Punta Gorda 6.27 · North Port 6.30 · Cape Coral **5.89** · Lakeland 6.27 ⇒ 4-of-5, re-fire fails, leg 🟠. Cape Coral ≤ 6.00 every day 10/16→10/27 | REGINALD, HOMER, RED — supply-side leg only; ⛔ not a Florida all-clear |
-| 4 | **GSE financing channel (ACTIVE_DECISIONS row 7):** waits on FL Realtors **October** (release **Mon 11/16**, first full month) — condo vs SF FINANCED closed units | HOMER, REGINALD, CARL — no read before 11/16 |
-| 5 | **MARCO correction applied:** "MIA is the clean tell" WITHDRAWN (MIA also carried Spirit); one number = MARCO's MIA Sep −1.82% YoY, trigger MET, mechanism CONFOUNDED | NEXUS — check your own demand premise |
 
 ## VIEW
 
