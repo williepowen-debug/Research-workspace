@@ -113,14 +113,16 @@ class OwnerUnconsumedTests(unittest.TestCase):
         self.assertEqual((hits["SLEEPY"]["tag"], hits["SLEEPY"]["action"]), ("DORMANT", 0))
         self.assertEqual((hits["MANUAL"]["tag"], hits["MANUAL"]["action"]), ("SPECIAL", 1))
         line = ic.render_owner_unconsumed(t.run())
-        self.assertIn("SLEEPY [DORMANT]", line)
-        self.assertIn("MANUAL [SPECIAL, Will-driven] 1 item(s)", line)
-        self.assertIn("1 ACTION ≥7d (not a PROME launch candidate)", line)   # read 1, finding 4
+        self.assertNotIn("SLEEPY", line)   # WQ-729 item 2: dormant and special desks are counted, not named
+        self.assertNotIn("MANUAL", line)
+        self.assertIn("2 special or dormant desk(s) with aged items not named", line)
+        self.assertNotIn("launch candidate", line)   # a special desk is not named at all since WQ-729 item 2; it was never a candidate (read 1, finding 4)
         self.assertNotIn("CANDIDATE only", line)
         t.put("ALPHA", f"{day(40)}_from-BETA_z.md", "ACTION: do\n")
         self.assertIn("ALPHA 1 item(s) · oldest 40d · dark 90d · 1 ACTION ≥7d (WQ-206 class, CANDIDATE only)",
                       ic.render_owner_unconsumed(t.run()))
-        self.assertLess(line.index("MANUAL"), line.index("SLEEPY"))  # ACTION-bearing first
+        order = [h["desk"] for h in t.run()["hits"]]
+        self.assertLess(order.index("MANUAL"), order.index("SLEEPY"))  # ACTION-bearing first, in the data (neither is named on the line since WQ-729 item 2)
 
     def test_a9_a_live_desk_is_never_named(self):
         t = Tree(self).put("ALPHA", f"{day(60)}_from-BETA_x.md", "ACTION: old\n", dark=0)

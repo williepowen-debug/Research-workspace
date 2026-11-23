@@ -240,20 +240,27 @@ def owner_unconsumed(repo, today, last_self_commit, roster_text, delivery=None):
     return out
 
 
+def launchable_hits(r):
+    """Hits at desks PROME could act on: ACTIVE and TIER-2 only (roster tag '')."""
+    return [h for h in r["hits"] if h["tag"] == ""]
+
+
 def render_owner_unconsumed(r, shown=8):
     """ONE line. ACTION-bearing desks first; at most `shown` desks named, the rest counted."""
     parts = []
-    for h in r["hits"][:shown]:
-        tag = {"": "", "DORMANT": " [DORMANT]", "SPECIAL": " [SPECIAL, Will-driven]"}[h["tag"]]
-        act = ""
-        if h["action"]:  # a SPECIAL desk is never PROME's to launch: no candidate label for it
-            label = "not a PROME launch candidate" if h["tag"] == "SPECIAL" else "WQ-206 class, CANDIDATE only"
-            act = f" · {h['action']} ACTION ≥{MIN_DAYS}d ({label})"
-        parts.append(f"{h['desk']}{tag} {h['items']} item(s) · oldest {h['oldest'][0]}d · dark {h['dark']}d{act}")
-    if len(r["hits"]) > shown:
-        parts.append(f"+{len(r['hits']) - shown} more desk(s)")
+    # WQ-729 item 2 (Will 2026-11-23): SPECIAL and DORMANT desks are never PROME's to launch, so they are
+    # counted in the tail and not named; the line names only desks PROME could act on.
+    named = launchable_hits(r)
+    quiet = len(r["hits"]) - len(named)
+    for h in named[:shown]:
+        act = f" · {h['action']} ACTION ≥{MIN_DAYS}d (WQ-206 class, CANDIDATE only)" if h["action"] else ""
+        parts.append(f"{h['desk']} {h['items']} item(s) · oldest {h['oldest'][0]}d · dark {h['dark']}d{act}")
+    if len(named) > shown:
+        parts.append(f"+{len(named) - shown} more desk(s)")
     tail = (f"searched {r['searched']} desks · {r['items']} items · {r['skipped']} scaffold file(s) skipped · "
             f"{r['excluded']} excluded by a due: date")
+    if quiet:
+        tail += f" · {quiet} special or dormant desk(s) with aged items not named (python3 PROME/tools/inbox_census.py <DESK>)"
     if r["undated"]:
         tail += " · undated item(s), age UNKNOWN, at dark desks: " + ", ".join(f"{d} {n}" for d, n in r["undated"])
     if r["unknown"]:
