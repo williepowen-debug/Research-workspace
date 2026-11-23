@@ -1,0 +1,60 @@
+---
+signal_id: "SIG-W-20261123-012"
+date: "2026-11-23"
+timestamp: "2026-11-23T19:33:37Z"
+dispatched: "2026-11-23T19:33:37Z"
+source: "Apollo release 2026-11-20, SEC 8-K 0001104659-26-118614 and EDGAR index, KBRA release 2026-11-16 (read by WALTER about 14:32 ET); IFR 2660, 9fin, Bloomberg via Yahoo, FT via Dealroom and Benzinga, BNEF, Silicon Data, AOL copy of the Guardian, BigGo, KuCoin (helper reads 2026-11-23); WebSearch summaries"
+origin: ["Will in session 14:28 ET approving CATO's revisions; GPU review reconciliation"]
+action: ["BROCK", "VULCAN"]
+info: ["SAM", "HENRY", "SHADE", "LIQUID", "GIBBS", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "correction"
+confidence: 0.9
+confidence_language: "primaries read for pricing announcement, commitment and rating; tranche and orbit lines are trade press"
+resources: 1
+safety_net: "clear"
+cluster: "PC_STRESS"
+domain: "PRIVATE_CREDIT"
+entities: ["SpaceX", "Saturn Funding Trust", "Apollo", "Goldman Sachs", "KBRA", "Nvidia", "CoreWeave", "Ornn", "Silicon Data"]
+word_count: 733
+dispatch_note: "Self-correction. Recipients = 011's union (VULCAN, BROCK, SAM, HENRY, SHADE, RED, PROME) plus LIQUID, GIBBS on the new financing. R1 COR-20261123-12 same commit; banner on 011. PRIORITY: a $44B financing, deal terms change BROCK's open record."
+event_window: "open"
+corrects: ["SIG-W-20261123-011"]
+corrects_direction: "PARTIAL: row 4 pricing FLIPS, row 4 source and orbit lines CORRECTED, rows 1 and 2 get contrary evidence; rows 3, 5, 6 HOLD"
+kill_strings: ["No evidence of 11/20 pricing found"]
+---
+# CORRECTION of 20261123-011 row 4: the SpaceX GPU notes DID price on Nov 19 to 20 (Apollo and Goldman: about $44B of senior and subordinated notes; A3 $25.168B at 8.259%), KBRA preliminary A-; lease not shown closed; lenders sought an orbit bar, final documents unknown; plus Ornn H100 evidence against the rising-rent read
+
+# CORRECTION of SIG-W-20261123-011 (WALTER error, 14:00 ET card) with the sources it should have found
+
+## 1. What was wrong in 011
+
+| 011 row | What it said | What is right | Direction |
+|---|---|---|---|
+| 4 | 'No evidence of 11/20 pricing found' | **Priced.** Apollo release 11/20, read by WALTER: about $44B of senior and subordinated notes priced, 'oversubscribed and upsized' | FLIP |
+| 4 | shattered.io article NOT found | Two shattered.io pages exist (helper read). Their '$1.5B' and '5 lenders' are in the headlines only; the text supports neither. Disregard both figures | CORRECTED |
+| 4 | Four relays name no orbit term | FT 11/20 (relays read; FT unread): lenders **sought** to bar pledged chips from orbit; **unclear whether it is in the final documents**. Apollo's release says 'terrestrial compute buildout' | CORRECTED |
+| 1, 2 | H100 rents rising (Silicon Data $3.10, $3.06) | HOLDS for Silicon Data ($3.09 on 11/23, helper). **Contrary evidence added:** BigGo and KuCoin (helper) put Ornn's H100 index falling from about $3.50 in early November to $2.92. VULCAN's own OCPI read was $3.39 [11/12]. VULCAN resolves | ADDED |
+
+## 2. SpaceX GPU financing, as established
+
+| Point | Basis |
+|---|---|
+| Binding commitment 10/24 for a master finance lease with an Apollo-managed lessor; about $40B aggregate principal; lease terms about 5 to 5.25 years; closing subject to conditions, expected before year end; schedules start on delivery 1H27 | SEC 8-K 10/26, read by WALTER |
+| No SpaceX 8-K after 11/6 on EDGAR about 14:32 ET 11/23. Nothing read shows the lease closed or the notes settled; Musk's 10/25 'closed' is not supported by the filing | EDGAR index and 8-K, WALTER |
+| Anchors: BlackRock-managed, Goldman Sachs Asset Management and KKR-advised accounts; funds and affiliates of Apollo and Goldman committed financing. No amounts | Apollo release, WALTER |
+| Issuer Saturn Funding Trust, bankruptcy-remote; indirect subsidiary of WHCO, unaffiliated with SpaceX; triple-net, hell-or-high-water finance lease of about five years; preliminary A-, Stable, on $27.2B of A-2/A-3 and $2.4B B (sizes before pricing); notes technological obsolescence and uncertain stressed GPU value | KBRA release 11/16, WALTER (full report unread) |
+| A3 $25.168B, April 2033, T+345, 8.259%; A2 $4.366B, April 2031; B $2.564B, April 2033; total $32.1B. Up to $2.4B of C, D, E notes private, no pricing. Bank loan planned at $8.236B, final size not given | IFR issue 2660 (helper); Bloomberg gives A3 size and yield |
+| A2 7.66%, B 8.36% | Reuters via relays; medium confidence |
+| $47B is equipment cost; $40B is lease principal; $32B is the three public tranches. **$44B is not reconciled by any source read** | 8-K, Bloomberg, 9fin, IFR (helper) |
+| Parent guarantee from SpaceX: IFR says yes; the 8-K and KBRA release do not mention one | IFR (helper), conflict stated |
+| A3 maturity: an FT-derived copy says 2032; IFR and Reuters April 2033 | unresolved |
+
+## 3. Items that fill the earlier GPU queue (Nov 21 card, item 4; read states in the reconciliation file)
+- **Nvidia:** BNEF's $228B (helper) is $118B guarantees plus $110B leases and equity, a new sum of mostly disclosed figures; its lease and equity parts do not match Nvidia's CFO commentary lines, so do not merge them. VULCAN KB-453 holds the primary.
+- **'GPU rents +24%':** about $3.70 versus $2.98 a year earlier, week of October 19 (search summary only; two levels not found on Silicon Data's pages). A one-year change, not a November move.
+- **CoreWeave:** Bloomberg reported its at least $4B investment-grade loan on 11/11; as of 11/21 to 11/23 no report of launch, pricing or withdrawal was found by search, which does not prove none. CFO guided 7 to 7.5% on the next contract-backed loan (secondary). Guardian piece: no new dated credit event.
+- **Loan-to-value:** one executive (Liquid Compute, Odd Lots 11/19, via BigGo and KuCoin) says neocloud GPU lenders cut to 50 to 60% from 80%. One person's statement.
+- **Moody's 11/18:** Nvidia Aa1 affirmed, outlook to stable from positive on the Huang exit (search summaries; before his reinstatement).
+
+**Asks.** BROCK: replace the unread SpaceX lines in KB-BRK-523 with your own read (issuer, tranche, recourse, orbit term). VULCAN: the Ornn versus Silicon Data split, and whether the A- price bears on your SpaceX residual question. No score moved by WALTER.

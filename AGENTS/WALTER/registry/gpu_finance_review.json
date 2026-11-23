@@ -71,7 +71,15 @@
       "days": [
         "2026-11-15"
       ],
-      "closed": "2026-11-16T18:43:10Z"
+      "closed": "2026-11-16T18:43:10Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED",
+          "reviewed": "Crypto Briefing page dated 2026-07-14, read by helper: original November date was WRONG",
+          "ref": "SIG-W-20261123-013"
+        }
+      ]
     },
     "gpu:a06bfa4007ad": {
       "title": "Google Needs More Money - Bloomberg",
@@ -80,7 +88,15 @@
       "days": [
         "2026-11-15"
       ],
-      "closed": "2026-11-16T18:43:10Z"
+      "closed": "2026-11-16T18:43:10Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:c38ce286af37": {
       "title": "Michael Dell Says H100 Rents Rose 58%: “So Much for GPU Depreciation” - Yahoo Finance",
@@ -89,7 +105,15 @@
       "days": [
         "2026-11-16"
       ],
-      "closed": "2026-11-16T18:43:10Z"
+      "closed": "2026-11-16T18:43:10Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed; date not verified",
+          "ref": "SIG-W-20261123-013"
+        }
+      ]
     },
     "gpu:8d6b76e1a723": {
       "title": "Nvidia’s $500B AI data center plan hinges on a secondary market for aging GPUs - CryptoRank",
@@ -98,7 +122,15 @@
       "days": [
         "2026-11-16"
       ],
-      "closed": "2026-11-16T18:43:10Z"
+      "closed": "2026-11-16T18:43:10Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:aad66adf42f5": {
       "title": "FT: Big Tech issued up to $300B in guarantees for AI infrastructure - ForkLog",
@@ -107,7 +139,15 @@
       "days": [
         "2026-11-16"
       ],
-      "closed": "2026-11-16T18:43:10Z"
+      "closed": "2026-11-16T18:43:10Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED",
+          "reviewed": "ForkLog page dated 2026-09-21, read by helper; FT unread: original November date was WRONG",
+          "ref": "SIG-W-20261123-013"
+        }
+      ]
     },
     "gpu:3731320ce89a": {
       "title": "CoreWeave closes $2.6 billion GPU-backed loan - Yahoo Finance",
@@ -179,7 +219,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:30Z"
+      "closed": "2026-11-17T18:17:30Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:fa33917e94be": {
       "title": "Weekly Recap: Q3 income growth, wider losses and $4.2B financing - TradingView",
@@ -188,7 +236,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:30Z"
+      "closed": "2026-11-17T18:17:30Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:c8d475e732f1": {
       "title": "Burry: Jensen Huang Scandal Is No Fundamental Negative — the Real Damage Is Washington's Antitrust Probe - BigGo Finance",
@@ -197,7 +253,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:31Z"
+      "closed": "2026-11-17T18:17:31Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:d3d16a95f83d": {
       "title": "NVIDIA scrutiny, US selloff challenge India's AI cloud boom - TechGig",
@@ -206,7 +270,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:31Z"
+      "closed": "2026-11-17T18:17:31Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:2e64463a0a83": {
       "title": "Hive Digital CEO says its five-year-old Nvidia GPUs still produce cash flow - TheStreet",
@@ -215,7 +287,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:31Z"
+      "closed": "2026-11-17T18:17:31Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:780b2965bb9b": {
       "title": "Rumble’s Quake AI Made $68.2M as Depreciation Hit $85.2M - FourWeekMBA",
@@ -224,7 +304,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:31Z"
+      "closed": "2026-11-17T18:17:31Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:717814b472cf": {
       "title": "Fed says it's monitoring the data center build-out for risks to the financial system - Yahoo Finance",
@@ -233,7 +321,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:31Z"
+      "closed": "2026-11-17T18:17:31Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "DUP-OF-REVIEWED",
+          "reviewed": "Fed FSR Box 2.2 at primary: KB-VULCAN-452, KB-BRK-510, WALTER 11/23",
+          "ref": "SIG-W-20261117-014, -017"
+        }
+      ]
     },
     "gpu:918541bc8e12": {
       "title": "Enjoy the GPUphoria While It Lasts: Why Wall Street's AI Bears Aren't Buying the CoreWeave Rally - The Dark Side Of The Boom",
@@ -242,7 +338,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:31Z"
+      "closed": "2026-11-17T18:17:31Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:767107f06041": {
       "title": "Nvidia's $500 Billion AI Financing Vision Survives, but Wall Street Demands More Guarantees for Neoclouds - BigGo Finance",
@@ -251,7 +355,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:31Z"
+      "closed": "2026-11-17T18:17:31Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:e13394ba1d18": {
       "title": "Fed Flags AI Data Center Leverage: $680B Debt, $3T Contingent Obligations - News and Statistics - IndexBox",
@@ -260,7 +372,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:31Z"
+      "closed": "2026-11-17T18:17:31Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "DUP-OF-REVIEWED",
+          "reviewed": "Fed FSR Box 2.2 at primary: KB-VULCAN-452, KB-BRK-510, WALTER 11/23",
+          "ref": "SIG-W-20261117-014, -017"
+        }
+      ]
     },
     "gpu:992221c2ab76": {
       "title": "Jensen Huang Leaves Nvidia With $530 Billion in Commitments and Guarantees - Medium",
@@ -269,7 +389,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:32Z"
+      "closed": "2026-11-17T18:17:32Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:07f1149a15ee": {
       "title": "AI Data Center Debt Tops $800 Billion as Fed Flags Financial Risks - Korea IT Times",
@@ -278,7 +406,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:32Z"
+      "closed": "2026-11-17T18:17:32Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "DUP-OF-REVIEWED",
+          "reviewed": "Fed FSR Box 2.2 at primary: KB-VULCAN-452, KB-BRK-510, WALTER 11/23",
+          "ref": "SIG-W-20261117-014, -017"
+        }
+      ]
     },
     "gpu:8674ee3f2280": {
       "title": "CoreWeave tunes out Nvidia noise, looks to raise $4B - Yahoo Finance",
@@ -287,7 +423,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:32Z"
+      "closed": "2026-11-17T18:17:32Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED-PARTIAL",
+          "reviewed": "same CoreWeave loan as gpu:46304116f831; this page not opened",
+          "ref": "SIG-W-20261123-012 section 3"
+        }
+      ]
     },
     "gpu:154fc308035a": {
       "title": "JPMorgan keeps NVIDIA credit at Underweight, flags GPU financing risk after Huang exit - Blockspace Media",
@@ -296,7 +440,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:32Z"
+      "closed": "2026-11-17T18:17:32Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:46304116f831": {
       "title": "CoreWeave plans $4 billion high-grade loan, Bloomberg reports - Yahoo Finance",
@@ -305,7 +457,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:32Z"
+      "closed": "2026-11-17T18:17:32Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED-PARTIAL",
+          "reviewed": "Bloomberg unread; secondaries read by helper; event is 2026-11-11",
+          "ref": "SIG-W-20261123-012 section 3"
+        }
+      ]
     },
     "gpu:2945be4448df": {
       "title": "“Loans Tighten, Tech Stocks Plunge”: Wall Street Reluctant to Lend Even With Google Guarantees, Casting Clouds Over Anthropic IPO Amid AI Funding Chill - https://economy.ac/",
@@ -314,7 +474,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:32Z"
+      "closed": "2026-11-17T18:17:32Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:20cb38cf3c88": {
       "title": "Why CoreWeave Stock Skyrocketed Today - Yahoo Finance",
@@ -323,7 +491,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:32Z"
+      "closed": "2026-11-17T18:17:32Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:640772208be6": {
       "title": "Nvidia Faced Pressure to Boost Its AI Backstop Before Huang Exit - Bloomberg.com",
@@ -332,7 +508,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:32Z"
+      "closed": "2026-11-17T18:17:32Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:3b1805f4685c": {
       "title": "With Jensen Huang’s departure, what becomes of the $500 billion financing platform? The “pillar of trust” underpinning NVIDIA (NVDA.US)’s AI credit facility is crumbling. - Moomoo",
@@ -341,7 +525,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:33Z"
+      "closed": "2026-11-17T18:17:33Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:22eb4a3221de": {
       "title": "Latest Trending News - The Sun Malaysia",
@@ -350,7 +542,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:33Z"
+      "closed": "2026-11-17T18:17:33Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:a11b789ef946": {
       "title": "Broadcom's $43 Billion AI Backstop Comes Into Focus as Redburn Cuts to Neutral - ad-hoc-news.de",
@@ -359,7 +559,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:33Z"
+      "closed": "2026-11-17T18:17:33Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:ddbd43c9d128": {
       "title": "Broadcom's $43 Billion Backstop Puts Customer Balance Sheets at the Heart of the AI Trade - ad-hoc-news.de",
@@ -368,7 +576,15 @@
       "days": [
         "2026-11-17"
       ],
-      "closed": "2026-11-17T18:17:33Z"
+      "closed": "2026-11-17T18:17:33Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:5d1a4a075c7c": {
       "title": "Key facts: CoreWeave raises outlook; demand tops capacity; Chanos warns - TradingView",
@@ -404,7 +620,15 @@
       "days": [
         "2026-11-18"
       ],
-      "closed": "2026-11-19T00:42:38Z"
+      "closed": "2026-11-19T00:42:38Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED-PARTIAL",
+          "reviewed": "Moody's 11/18 action from search summaries; page not opened",
+          "ref": "SIG-W-20261123-012 section 3"
+        }
+      ]
     },
     "gpu:d1076d3ab35f": {
       "title": "VinFast VF 8 officially arrives in the Philippines: 480km range, 7-year warranty, and PHP 1,548,000 starting price - GIZGUIDE",
@@ -449,7 +673,15 @@
       "days": [
         "2026-11-19"
       ],
-      "closed": "2026-11-19T14:28:56Z"
+      "closed": "2026-11-19T14:28:56Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:922932d910e8": {
       "title": "Wall Street Pledged to Mobilize $500 Billion for Nvidia—But Hasn’t Put Up a Dime - Hindustan Times",
@@ -458,7 +690,15 @@
       "days": [
         "2026-11-19"
       ],
-      "closed": "2026-11-19T14:28:56Z"
+      "closed": "2026-11-19T14:28:56Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:edb72018bf70": {
       "title": "David vs. Goliath: VinFast bets on its EV ecosystem - Technobaboy",
@@ -485,7 +725,15 @@
       "days": [
         "2026-11-19"
       ],
-      "closed": "2026-11-20T16:36:38Z"
+      "closed": "2026-11-20T16:36:38Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:2c8017b9f80a": {
       "title": "Arbol launches parametric insurance for GPU residual value risk - Artemis.bm",
@@ -494,7 +742,15 @@
       "days": [
         "2026-11-19"
       ],
-      "closed": "2026-11-20T16:36:38Z"
+      "closed": "2026-11-20T16:36:38Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED",
+          "reviewed": "Artemis page read whole by helper",
+          "ref": "SIG-W-20261123-011 item 3"
+        }
+      ]
     },
     "gpu:ca7412215340": {
       "title": "Who Is Funding the AI Boom, and Who Bears the Risk? - Moomoo",
@@ -512,7 +768,15 @@
       "days": [
         "2026-11-19"
       ],
-      "closed": "2026-11-20T16:36:39Z"
+      "closed": "2026-11-20T16:36:39Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "TITLE ONLY; source not reviewed",
+          "ref": "original card is title-level; not re-read 2026-11-23"
+        }
+      ]
     },
     "gpu:f516b6ddbd46": {
       "title": "CRWV, IREN, NBIS Stocks Extend Neocloud Selloff As Anthropic IPO Rally Fades - Michael Burry Takes A Victory Lap - TradingView",
@@ -521,7 +785,15 @@
       "days": [
         "2026-11-20"
       ],
-      "closed": "2026-11-20T16:36:39Z"
+      "closed": "2026-11-20T16:36:39Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED-PARTIAL",
+          "reviewed": "Yahoo/Stocktwits copy truncated; price commentary",
+          "ref": "helper read 2026-11-23, RECONCILIATION"
+        }
+      ]
     },
     "gpu:72661afe4106": {
       "title": "Exclusive | Wall Street Pledged to Mobilize $500 Billion for Nvidia—but Hasn’t Put Up a Dime - WSJ",
@@ -539,7 +811,15 @@
       "days": [
         "2026-11-20"
       ],
-      "closed": "2026-11-21T23:10:18Z"
+      "closed": "2026-11-21T23:10:18Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED",
+          "reviewed": "SpaceX pricing: Apollo, 8-K, KBRA read by WALTER; explainx, TIKR, 9fin read by helper",
+          "ref": "SIG-W-20261123-012 section 2"
+        }
+      ]
     },
     "gpu:db47f8f840e2": {
       "title": "CRWV, IREN, NBIS Stocks Extend Neocloud Selloff As Anthropic IPO Rally Fades – Michael Burry Takes A Victory Lap - TradingView",
@@ -548,7 +828,15 @@
       "days": [
         "2026-11-20"
       ],
-      "closed": "2026-11-21T23:10:18Z"
+      "closed": "2026-11-21T23:10:18Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED-PARTIAL",
+          "reviewed": "same story as gpu:f516b6ddbd46 (TradingView copy not found; Yahoo/Stocktwits copy truncated): price commentary",
+          "ref": "helper read 2026-11-23, RECONCILIATION"
+        }
+      ]
     },
     "gpu:97709b5ea901": {
       "title": "GPU rental prices climb 24% as AI trade cools, Silicon Data shows - Crypto Briefing",
@@ -557,7 +845,15 @@
       "days": [
         "2026-11-20"
       ],
-      "closed": "2026-11-21T23:10:18Z"
+      "closed": "2026-11-21T23:10:18Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED-PARTIAL",
+          "reviewed": "article not opened (site 403 on its search page); Silicon Data pages read; 24% from search summary only",
+          "ref": "SIG-W-20261123-012 section 3"
+        }
+      ]
     },
     "gpu:678718d69035": {
       "title": "SpaceX Falls 4% on $32 Billion AI Chip Debt at Yields Topping 8% as AI Sell-Off Deepens - TIKR.com",
@@ -566,7 +862,15 @@
       "days": [
         "2026-11-20"
       ],
-      "closed": "2026-11-21T23:10:18Z"
+      "closed": "2026-11-21T23:10:18Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED",
+          "reviewed": "SpaceX pricing: Apollo, 8-K, KBRA read by WALTER; explainx, TIKR, 9fin read by helper",
+          "ref": "SIG-W-20261123-012 section 2"
+        }
+      ]
     },
     "gpu:add3a9f71c72": {
       "title": "Nvidia’s $228 Billion Data Center Bet: Three Things to Know - BloombergNEF",
@@ -575,7 +879,15 @@
       "days": [
         "2026-11-20"
       ],
-      "closed": "2026-11-21T23:10:19Z"
+      "closed": "2026-11-21T23:10:19Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED",
+          "reviewed": "BNEF page read whole by helper (charts unreadable); Nvidia CFO commentary extract",
+          "ref": "SIG-W-20261123-012 section 3"
+        }
+      ]
     },
     "gpu:13b2353f44f3": {
       "title": "Excess Spread — the vastness of SpaceX, how to name a deal - 9fin",
@@ -584,7 +896,15 @@
       "days": [
         "2026-11-20"
       ],
-      "closed": "2026-11-21T23:10:19Z"
+      "closed": "2026-11-21T23:10:19Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED",
+          "reviewed": "SpaceX pricing: Apollo, 8-K, KBRA read by WALTER; explainx, TIKR, 9fin read by helper",
+          "ref": "SIG-W-20261123-012 section 2"
+        }
+      ]
     },
     "gpu:c504e7123a88": {
       "title": "The Bank Of Nvidia Is Closed: Now What? (NASDAQ:SOXX) - Seeking Alpha",
@@ -593,7 +913,15 @@
       "days": [
         "2026-11-21"
       ],
-      "closed": "2026-11-21T23:10:19Z"
+      "closed": "2026-11-21T23:10:19Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "UNREVIEWED",
+          "reviewed": "Seeking Alpha article not located in four searches; opinion or new fact undetermined",
+          "ref": "not found by my search"
+        }
+      ]
     },
     "gpu:d63f5204c6ea": {
       "title": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom - The Guardian",
@@ -602,7 +930,15 @@
       "days": [
         "2026-11-21"
       ],
-      "closed": "2026-11-21T23:10:19Z"
+      "closed": "2026-11-21T23:10:19Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED",
+          "reviewed": "AOL copy of the Guardian read by helper; Guardian itself refused",
+          "ref": "SIG-W-20261123-012 section 3"
+        }
+      ]
     },
     "gpu:1a5a5c8e866d": {
       "title": "Michael Burry Claims Victory as AI Stocks Extend Slide, Neoclouds Shed Up to 76% From Peaks - BigGo Finance",
@@ -611,7 +947,15 @@
       "days": [
         "2026-11-21"
       ],
-      "closed": "2026-11-21T23:10:20Z"
+      "closed": "2026-11-21T23:10:20Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED",
+          "reviewed": "BigGo page read by helper: price commentary, background debt figures, no new event",
+          "ref": "helper read 2026-11-23, RECONCILIATION"
+        }
+      ]
     },
     "gpu:8bbc6d143e1c": {
       "title": "Fed AI Exposure: $1T Bank Links in FSR 2026 - explainx.ai",
@@ -620,7 +964,15 @@
       "days": [
         "2026-11-21"
       ],
-      "closed": "2026-11-21T23:10:20Z"
+      "closed": "2026-11-21T23:10:20Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "DUP-OF-REVIEWED",
+          "reviewed": "Fed FSR Box 2.2 read at primary by VULCAN and BROCK on 11/17 (KB-VULCAN-452, KB-BRK-510) and re-read by WALTER 11/23",
+          "ref": "SIG-W-20261117-014, -017"
+        }
+      ]
     },
     "gpu:ba4d47d6e0e2": {
       "title": "Project Saturn: 5 Lenders Seek SpaceX Chip Launch Ban - shattered.io",
@@ -629,7 +981,15 @@
       "days": [
         "2026-11-21"
       ],
-      "closed": "2026-11-21T23:10:20Z"
+      "closed": "2026-11-21T23:10:20Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED",
+          "reviewed": "two shattered.io pages read by helper; headline figures unsupported by the text",
+          "ref": "SIG-W-20261123-012 section 1"
+        }
+      ]
     },
     "gpu:594409e2829b": {
       "title": "AI Data Center Debt Insurance: Who Pays If Loans Default? - Sherafy.com",
@@ -638,7 +998,15 @@
       "days": [
         "2026-11-21"
       ],
-      "closed": "2026-11-21T23:10:20Z"
+      "closed": "2026-11-21T23:10:20Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "REVIEWED",
+          "reviewed": "Sherafy page read by helper: explainer, repeat of FT and Bloomberg items; no new fact",
+          "ref": "helper read 2026-11-23, RECONCILIATION"
+        }
+      ]
     },
     "gpu:74cb775ff3a9": {
       "title": "Lenders’ Push for Higher Guarantees Holds Up Nvidia’s $500 Billion Financing Plan! - www.tmgm.com",
@@ -647,7 +1015,15 @@
       "days": [
         "2026-11-23"
       ],
-      "closed": "2026-11-23T17:24:54Z"
+      "closed": "2026-11-23T17:24:54Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "search summary read, page not opened; source not reviewed",
+          "ref": "SIG-W-20261123-007 item 1"
+        }
+      ]
     },
     "gpu:c6f60d6d4be0": {
       "title": "Nvidia’s $500 Billion Financing Plan Stalls as Lenders Seek Higher Guarantees! - www.tmgm.com",
@@ -656,7 +1032,15 @@
       "days": [
         "2026-11-23"
       ],
-      "closed": "2026-11-23T17:24:54Z"
+      "closed": "2026-11-23T17:24:54Z",
+      "corrections": [
+        {
+          "date": "2026-11-23",
+          "state": "TITLE-ONLY",
+          "reviewed": "search summary read, page not opened; source not reviewed",
+          "ref": "SIG-W-20261123-007 item 1"
+        }
+      ]
     },
     "gpu:24af47b02b17": {
       "title": "SpaceX Lenders Want Nvidia Chips Kept on Earth: $1.5B Risk - shattered.io",

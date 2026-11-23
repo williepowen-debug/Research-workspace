@@ -19,7 +19,12 @@ entities: ["Janus Henderson", "Silicon Data", "CoreWeave", "Arbol", "SpaceX", "K
 word_count: 622
 dispatch_note: "Small-items card from the GPU review queue (7e). ACTION VULCAN 1 to 4, BROCK 1 to 4, SAM 5. INFO HENRY, SHADE; RED, PROME by BOARD diff."
 event_window: "open"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-23
+status_ref: "SIG-W-20261123-012 — row 4 pricing flips (notes priced Nov 19 to 20); shattered.io pages exist; Ornn evidence added to rows 1 and 2"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-012:** row 4 is wrong that no pricing was found: the SpaceX GPU notes PRICED on November 19 to 20 (Apollo release). Contrary Ornn evidence is added to rows 1 and 2. Rows 3, 5 and 6 hold.
 # Six open GPU-finance review items, sourced: Janus Henderson argues longer GPU lives (H100 index $3.10, A100 $1.64 at 11/15); Silicon Data says its posted-price index rose only 2.4% (H100) and 5.8% (A100) in Q3 against CoreWeave's stated 30 to 50%; Arbol product has no named capacity or limits; NH's upper-3,000s KOSPI is a drawdown scenario; Microsoft buyouts are a repeat
 
 # Six GPU_FINANCE_REVIEW items, sources opened where reachable (helper reads, 2026-11-23)
