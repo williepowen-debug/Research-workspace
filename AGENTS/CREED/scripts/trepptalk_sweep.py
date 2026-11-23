@@ -43,7 +43,7 @@ PAGES = ["topic/office-real-estate", "topic/industrial-real-estate", "topic/mult
          "topic/retail-real-estate", "topic/lodging-real-estate", "topic/self-storage-real-estate",
          "topic/operating-expenses", "topic/cmbs-news", "all"]  # dated topic cards first; 'all' last (its entries carry no date)
 UNDATED_PAGES = {"all"}
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
+UA = "research-bot/1.0"  # WQ-735 A (Will 2026-11-23): honest client name; www.trepp.com passed it 11/23. Was a browser string.
 MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
 DATE_RE = re.compile(r'((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?) (\d{1,2})(?:st|nd|rd|th)?,? (20\d\d)')
 LINK_RE = re.compile(r'href="(https://www\.trepp\.com/trepptalk/(?!topic/|author/|all\b|page/)([^"#?/]+))"[^>]*>\s*([^<]{12,220})<')
