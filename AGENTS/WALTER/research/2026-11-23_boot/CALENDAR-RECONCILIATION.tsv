@@ -1,0 +1,11 @@
+release	series_period	scheduled_et	owner	status	evidence
+S&P Global US flash PMI	November	2026-11-23 09:45	ISHM	PUBLISHED, ROUTED LATE	SIG-W-20261123-019 (TradingEconomics; primary and composition not read)
+HCOB euro area and Germany flash PMI	November	2026-11-23 early	HANS	PUBLISHED, ROUTED LATE	SIG-W-20261123-020 (secondary)
+Japan national CPI	October	2026-11-19 18:30	SAM	PUBLISHED, ROUTED LATE (figure)	SIG-W-20261123-021; title was 20261120-006 item 11; owner grade UNKNOWN
+China LPR	November 20 fixing	2026-11-19 21:00	ZHAO	PUBLISHED, ROUTED LATE (figure)	SIG-W-20261123-021; owner grade UNKNOWN
+NFRA Q3 banking indicators	Q3	2026-11-20	ZHAO	NOT REVIEWED, UNKNOWN	not searched this boot; ZHAO row dated 2026-11-20
+SAVE to RAP status conference	AFT v. ED	2026-11-23 11:00	CARL	NOT REVIEWED, UNKNOWN	owner docket row; docket not read
+CYPHER Arkea weekly look	2026-11-23	2026-11-23	CYPHER	OWNER ROW, not a release	owner's own look
+ICE First Look, Apartment List, Fannie and Freddie monthly	October	~2026-11-23 to 30	HOMER	WINDOW OPEN, UNKNOWN	not searched this boot
+NY Fed Williams remarks	2026-11-23	2026-11-23	HENRY/BOND	UNKNOWN	no 11/23 report found by a second search; prior remark week of 11/16
+Treasury 2Y, CFNAI, FRED cells, COT, rigs	per earlier list	per earlier list	per earlier list	CARRIED	research/2026-11-23_return/CALENDAR-RECONCILIATION.tsv
