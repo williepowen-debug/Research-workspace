@@ -19,7 +19,12 @@ entities: ["O'Hare", "FAA", "Delta Air Lines", "Jay Clayton", "El Nino", "Berkel
 word_count: 435
 dispatch_note: "Small-items card (10.6). ACTION CYPHER items 1 to 4; INFO AEOLUS items 5, 6 (live); PROME by BOARD diff. Two combo:none (7, 8)."
 event_window: "open"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-23
+status_ref: "SIG-W-20261123-023 — items 2 and 4: the DNI quote was already on 008; the Delta item may be the 008 fault, unverified"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-023:** items 2 and 4: the DNI quote was already on card 008, and the Delta item may be the fault on 008 (unverified). Other items hold.
 # Small items, Will's bookmarks Nov 22 to 23: O'Hare ground stop was TRACON staffing and was lifted about 12:10 pm; Delta technical issue (date unverified); El Nino '18 degrees' headline unread; Army detonation in Iowa, hold order seen as a title only; others repeats
 
 # Small items from Will's bookmarks (10 scanned; the Iran and Florida items are on 016 and 017)

@@ -2323,3 +2323,5 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-23T21:12:31Z	SIG-W-20261123-019	WALTER walter-7f 11/23 evening boot (laptop), step 7i	US flash PMI Nov: mfg 54.5, services 54.7, composite 54.6; Germany mfg 55.0 (TE, late)	IMMEDIATE	ISHM	CARL,HENRY,LABOR,HANS,RED,PROME	0.8
 2026-11-23T21:12:31Z	SIG-W-20261123-020	WALTER walter-7f 11/23 evening boot (laptop), step 7i	Euro area flash composite 51.7; Germany mfg flash 55.0 (TE)	PRIORITY	HANS	ISHM,LIQUID,BOND,PROME	0.8
 2026-11-23T21:12:31Z	SIG-W-20261123-021	WALTER walter-7f 11/23 evening boot (laptop), step 7i	Japan core CPI Oct 2.2; China LPR held	ROUTINE	SAM	ZHAO,PROME	0.8
+2026-11-23T21:43:14Z	SIG-W-20261123-022	WALTER walter-7f 11/23 (laptop), Will 16:27 ET approval	Iran full sweep 11/23: Saudi Red Sea port threat, Shuqaiq/Jizan claims, hulls, carriers, Kpler	PRIORITY	FALCON,BRENT	HAWK,HANS,SAM,NEXUS,LIQUID,RED,PROME	0.8
+2026-11-23T21:43:14Z	SIG-W-20261123-023	WALTER walter-7f 11/23 (laptop), full sweep	CORRECTION of 015 (Araghchi terms) and 018 (DNI quote, Delta)	PRIORITY		FALCON,BRENT,HAWK,NEXUS,CYPHER,AEOLUS,RED,PROME	0.85

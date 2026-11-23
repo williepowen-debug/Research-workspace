@@ -19,7 +19,12 @@ entities: ["UKMTO", "CENTCOM", "Kharg Island", "Esmaeil Baghaei", "Araghchi"]
 word_count: 239
 dispatch_note: "ROUTINE follow-up, same event as 004 and 008. ACTION FALCON (Wednesday). INFO BRENT, HAWK, NEXUS; RED, PROME by BOARD diff."
 event_window: "open"
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-23
+status_ref: "SIG-W-20261123-023 — the two-hours versus one-day conflict is withdrawn (one sentence); other items hold"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-023:** 'These conflict' is WITHDRAWN: Araghchi's 'one day' and 'two hours' are one conditional sentence. Other items hold.
 # Gulf follow-up Nov 23: no vessel named and CENTCOM had not commented on the Nov 22 tanker incident (Euronews); Iran spokesman vows every means; officials say no concrete convoy plan; no convoy date found
 
 # Gulf follow-up to SIG-W-20261123-004 and -008 (helper page reads, 15:43 ET)
