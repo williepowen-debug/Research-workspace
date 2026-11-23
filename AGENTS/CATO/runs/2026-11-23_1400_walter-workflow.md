@@ -2,9 +2,11 @@
 
 ## Current assessment
 
-Keep the division of work: WALTER finds, filters, verifies framing and routes; domain desks judge the implications; PROME coordinates; TERRY assesses trades. In the two sampled November 23 handoffs, recipients recorded their own source checks within minutes. The more consequential observed weakness is execution before dispatch: old observations presented as current, skipped source reads and missed threshold coverage. **Correction after WALTER's reply:** existing rules cover live quotes and required source reads, but do not supply a clear return-from-idle refresh trigger. The threshold procedure also calls for a final/session-end scan, so "only at boot" is too broad. Support a narrow resumption/market-output refresh instruction plus selective source-review policy, subject to Will's ruling; do not require unrelated cards to trigger repeated market pulls. Workload as a cause is plausible but unmeasured; this review does not establish that instruction length caused the misses.
+**Implementation follow-up:** WALTER recorded Will's approval of the revised proposals at 14:28 ET and implemented them in `6d982989d2` and `eff606c6ae`; CATO confirmed both on freshly fetched origin/master. Charter/procedure/scanner wording implements resumption refresh, selective material-source reading and duplicate/uncertainty discipline. All 79 original GPU records are preserved; 48 have dated corrections. WW23-4's record-reconciliation finding is CLOSED at this perimeter: the original twelve now explicitly identify eight reviewed, two partial, one reviewed duplicate and one unread item. This is not certification of each source read or a claim that everything is read. Three existing queue tests rerun PASS. A concurrent owner note records a first resumption refresh with no crossing; sustained compliance and a crossed-alert case remain unproved. December 14 review is registered with no automatic automation grant. Details and limits in the implementation section below.
 
-The requested thread follow-up below adds six concrete cases from November 20–23, with the November 19 origin of the MUFG case. The strongest demonstrated output is better distinctions and owner judgment: event versus interpretation, alert versus score, and closed alarm versus continuing risk. One bounded recommendation (WW23-4) is to reconcile the twelve GPU items still closed against a title-only card; later source work on different queue keys does not establish their completion. WALTER subsequently reports a larger affected set, preserved as an owner estimate in its reply assessment below; twelve is the verified minimum, not the whole backlog. Corrections of preliminary evidence are separated from avoidable source/freshness mistakes and an upstream owner wording error.
+Keep the division of work: WALTER finds, filters, verifies framing and routes; domain desks judge the implications; PROME coordinates; TERRY assesses trades. The observed weakness was execution before dispatch: old observations presented as current, skipped source reads and missed threshold coverage. The revised instructions address the resumption ambiguity alongside existing live-quote/source duties; ordinary execution is now the relevant observation, not another general audit. Workload as a cause remains unmeasured. Earlier corrected wording and source limits remain in the dated sections.
+
+The six-thread review remains the original evidence record. Its GPU reconciliation recommendation has now been implemented as qualified above; CATO verified the larger correction inventory's structure/counts, not all older source-review judgments. Corrections of preliminary evidence remain distinct from avoidable source/freshness mistakes and an upstream owner wording error.
 
 This is a bounded workflow explanation and advice, not a new operational assignment or full WALTER acceptance. No WALTER files, collector settings, signal records or owner workflows were changed. No sends or launches. Requested review and report complete; await Will's direction. Forecast pilot remains held; earlier grants survive.
 
@@ -195,3 +197,50 @@ This is policy advice only. It preserves attention to adverse evidence and corre
 Revised advice delivered; no approval for 2/3/4 has been given by Will in this CATO exchange. WALTER owns existing-duty corrections and proposed wording; Will retains the policy choice. The five-read estimate, wider count, Monday idle explanation and unread TERRY packet remain owner-reported. No owner edit, send, launch or expanded historical audit; scanner reader ceiling and earlier grants remain unchanged. Save this changed assessment and await Will.
 
 **Reply-assessment delivery checks:** verified the same ten required input paths for readability; weekday check passed on the same five files and the explicit six startup files remain below the cap, with the existing root CLAUDE rotation advisory. Optional desk paths absent/omitted as above. Orphan advisory identified concurrent PROME/SCRATCH.md and memory/2026-11-23.md edits; neither CATO-authored or swept. Exact-path diff check passed, shared staging empty. No code, ledger, financial-value revision or auto-memory edit; conditional tests/checks not triggered. CATO report and continuity only; final commit/push receipt in-session.
+
+## November 23 — requested implementation check
+
+**Will:** “I think WALTER may have implemented these now. Can you check?” Entry HEAD `d01694f8cd7ecdf3ff970149a893726032beac59`. WALTER's threshold-scan note and delivery log were dirty, alongside an untracked AEOLUS script; further owner cards appeared during the read. Preserved all concurrent work. Checked the two named implementation commits and current registrar entry, not the entire active session or all external sources. No owner repair, send, launch or additional reader. The scanner's prior scan/mark review ceiling is unchanged; this is a check of new wording and record reconciliation, not renewed whole-scanner acceptance.
+
+### Approval and publication
+
+`AGENTS/WALTER/research/2026-11-23_cato-workflow/RULING.md` quotes Will at 14:28 ET: “Okay I think I agree with this:” above pasted CATO advice. WALTER records this as approval of revised 2/3/4, with 1/5 existing duty. PROME consumed the packet and recorded this basis in DOCKET L1240 at 14:35 ET. CATO read those artifacts, not the originating session transcript; no reason to ask for the same approval again.
+
+Fresh `git fetch origin` followed by independent ancestry checks confirms `6d982989d2` (instructions/scanner text) and `eff606c6ae` (reconciliation/correction cards) are on origin/master. This is a publication receipt for those changes, not for uncommitted owner work.
+
+### What actually changed
+
+| Proposal | Observed implementation | Assessment |
+|---|---|---|
+| 1 — repair twelve GPU entries | All twelve have dated correction records; states 8 REVIEWED, 2 REVIEWED-PARTIAL, 1 DUP-OF-REVIEWED, 1 UNREVIEWED | Honest record reconciliation complete; source work is explicitly incomplete where stated |
+| 2 — resumption refresh | WALTER charter RUN MODE: refresh VIX/S&P, evaluate applicable crossings, use intervening high/low as well as last price, refresh other quoted instruments, timestamp, failed pulls UNKNOWN, batch reuse | Implemented as instructions. WALTER chose >15-minute-old reads as idle, 09:30–16:15 ET trading-day window. No autonomous monitor or mechanical enforcement |
+| 3 — selective source review | Charter 7e(g2), BOOT_PROTOCOL 7e(g2), scanner printed procedure: material facts/terms, corrections, contradictory evidence and qualitative changes require source reading; doubt means material; reviewed duplicates reuse evidence; title-only uses NOTE and explicit REF | Revised scope encoded consistently in the inspected surfaces. Scanner code change is printed guidance only |
+| 4 — older closure reconciliation | 34 older entries plus 2 further November 23 entries carry dated corrections; original fields retained | Preservation/counts verified; no blanket claim that all stories were read |
+| 5 — newness and uncertainty | Charter 10.6 now requires BOARD subject search before calling a title new; repeats cite prior ID/event date; absence is search-limited, not disproof | Implemented instruction; ongoing adherence not yet demonstrated |
+| December 14 review | PROME DOCKET L1240 names stale quotes, falsely completed reads and repeated news; classify recurrence first, no automatic automation authority | Registered; PROME/WALTER own the observation |
+
+### Independent structural check and bounded tests
+
+Compared registry JSON at `eff606c6ae^` and `eff606c6ae` using Python/Git without touching the production registry. Both contain 79 consumed keys. Removing only the new `corrections` arrays from the later JSON yields the complete earlier JSON exactly, including original titles, dates, references and dispositions. Exactly 48 entries carry corrections. Counts independently reproduced:
+
+| Cohort | Reviewed | Partial | Reviewed duplicate | Unread | Title-only | Total |
+|---|---:|---:|---:|---:|---:|---:|
+| Original twelve | 8 | 2 | 1 | 1 | 0 | 12 |
+| Older group | 3 | 4 | 3 | 0 | 24 | 34 |
+| Other November 23 | 0 | 0 | 0 | 0 | 2 | 2 |
+
+Read all twelve correction entries. The Seeking Alpha item is UNREVIEWED because it was not located; the claimed 24% rent article remains partial/search-summary based with source-access limits; the other partial is a truncated/unlocated copy of price commentary. The registry points to existing owner primary work for the Fed duplicate. This supports closing WW23-4's misleading-completion record finding under its explicit unresolved/access-limited closure condition; it does not independently certify the eight reads or erase the remaining research limits. Twenty-six other items are intentionally title-only under the revised policy; none is represented as fully source-reviewed in its correction.
+
+Ran `python3 -B AGENTS/WALTER/tools/test_gpu_finance_review.py`: **3/3 PASS**, using temporary lane/state fixtures. Coverage: label/baseline/dedup selection; disposition of one key and refusal of repeated/invalid operations; malformed-state UNKNOWN. These tests do not verify source quality, actual refresh execution, the new human materiality judgment, or preservation by a future operator. No new tests or production scan/mark run.
+
+### Research and first-use evidence
+
+Read correction cards `SIG-W-20261123-012` and `-013`. The owner now reports finding primary evidence of SpaceX financing pricing, correcting the earlier “no evidence found” line; other corrected claims separate an orbit restriction sought from final terms established. The second card corrects July/September stories carried as November news. Both original-card banners and correction registry rows are included in `eff606c6ae`. This is substantive corrective work, not solely relabeling. External source truth and recipient adoption were not independently verified in this check; BROCK/VULCAN retain the requested owner judgments and source limitations.
+
+The dirty `research/2026-11-23_return/THRESHOLD-SCAN.md` continuation, dated 20:43:27Z, records a 15:40 ET refresh after a connectivity gap: current VIX/S&P plus interval high/low, no upward crossing. CATO inspected the actual working-tree diff; this is one owner-recorded use, not a reproduced live test, publication receipt or proof a new crossing will be dispatched correctly. Other active-session coverage work is outside this acceptance.
+
+### Close and next observation
+
+**WW23-4 record repair CLOSED; proposals 2/3/5 implemented in governing instructions; historical preservation verified.** No further CATO implementation or broad audit warranted. WALTER owns the declared partial/unread evidence and material future source review; recipient owners retain correction assessment. PROME/WALTER own the existing December 14 observation. Continuous monitoring was neither built nor authorized. Ordinary-use reliability and economic benefit remain unproved. Requested check complete; await Will.
+
+**Implementation-check delivery checks:** confirmed all ten distinct documentation inputs readable. Weekday check passed on the three PROME files, this report and CONTINUITY; six explicit startup paths remain below cap, root CLAUDE retains its existing rotation advisory. Optional CATO STATUS/calendar/catalyst files absent and omitted. Orphan advisory found WALTER's active closeout/card/log work and its cross-desk handoffs, not CATO-authored packets; preserved. Exact-path diff check passed; shared staging empty at the check. Conditional consumer/ledger/memory checks not triggered by this documentation-only CATO change. The three isolated GPU tests and named-commit publication checks above are the substantive verification. Only report and continuity committed by CATO; receipt in-session.
