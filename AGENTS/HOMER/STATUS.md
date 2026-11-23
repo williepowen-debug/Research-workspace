@@ -9,7 +9,7 @@
 
 ## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
 
-✅ **11/20 — FORMAL THESIS GRADE (0 of 5 killed, 🔴 holds); HOM-02 MISSED, HOM-04 HIT; MBA Q3 NDS, NAHB Nov, PMMS 11/19** → `reports/2026-11-20_thesis-formal-grade.md`. **11/12 — PROME wake: HOM-03 HIT, PMMS, WQ-675 Arbor/holder map, United Fidelity** → `reports/2026-11-12_wake.md`. **11/11 — PROME catch-up wake: prints 11/06–11/10** → `reports/2026-11-11_catchup.md`. Older blocks → `archive/STATUS_rotated_2026-11-20.md`, `archive/STATUS_rotated_2026-11-11.md`.
+✅ **11/23 — FLORIDA FLOOD SWEEP (PROME wake, Will's word): home values + housing finance** → `PROME/inbox/2026-11-23_from-HOMER_florida-flood-home-values.md`; ledger rows PRICING/STATE_HSG/PIPELINE 11/23. **11/20 — FORMAL THESIS GRADE (0 of 5 killed, 🔴 holds); HOM-02 MISSED, HOM-04 HIT; MBA Q3 NDS, NAHB Nov, PMMS 11/19** → `reports/2026-11-20_thesis-formal-grade.md`. **11/12 — PROME wake: HOM-03 HIT, PMMS, WQ-675 Arbor/holder map, United Fidelity** → `reports/2026-11-12_wake.md`. Older blocks → `archive/STATUS_rotated_2026-11-23.md`, `archive/STATUS_rotated_2026-11-20.md`, `archive/STATUS_rotated_2026-11-11.md`.
 ⚠️ **YEAR TRAP (LESSONS §46 records n=3; a 4th instance was counted on STATUS 10/15 without a cold-register entry):** verify the page's publication YEAR, not just the month.
 
 ---
@@ -49,7 +49,6 @@
 | **🔴🔴 ★★ CMBS MF DQ (Trepp)** | **8.09% OCTOBER, +5bp — second straight 2026 high; ISSUER PDF Table 2** (read 11/05). Sep 8.04 · Aug 7.69 · 6-mo 7.71 · 12-mo 7.12 (+97bp YoY). Overall 7.87% (−15bp) | 🔴🔴 **PREREG NEW HIGH; kill 0/3.** ⚠️ **$210M Cove at Tiburon, newly late, may revert: it likely exceeds the whole rise, so MF ex-Cove likely FELL (INFERRED).** HOM-05 |
 | **🔴 ★★ CMBS MF special servicing** *(successor instrument for the retired mat-adj leg)* | **9.22% OCTOBER, +69bp** (TreppTalk 11/09, issuer excerpt) · Sep 8.54 · Apr peak 9.08. **$517.7M Blackjack transferred at its fully extended maturity 10/09.** DQ–SS gap **113bp** (Sep 50) | 🔴 **PREREG §4: NEW 2026 HIGH** (>9.08). No criterion attaches. Maturity-default channel, not new payment default |
 | **CRE CLO MF reporting cohort (Trepp 10/16)** | **2021–22-securitized /5 states: 93 loans, $3.95B;12.2% of book /80.2% of delinquency. Median paired DSCR 1.60x→0.64x;93.8% of performing balance WITH latest coverage reports <1.0x** | 🟠 cash-flow pressure before default; selected reporting subset, latest cash-flow dates unspecified. Not whole MF market, bank losses or a C2 resolver |
-| ⛔ Trepp **maturity-adjusted** MF | **RETIRED 2026-10-15 — DATED KILL EXECUTED:** absent at source Jul · Aug · Sep (Sep PDF read in full: mat-adj printed for the OVERALL book only, 9.66%). Last MF value June 9.53% | ⛔ do not grade, cite as current or wait on it. Successor = MF SS (a REPLACEMENT, never "the mat-adj rate") |
 | ⛔ **MF maturity wall** | **`$160B+` / `$270B+` DEAD (9/2).** Replacement is a **SHARE: 13% of MF balances mature in 2026** [MBA]. ⚠️ Circulating WSJ "$2T" is NOT that figure; its **"$297B in 2026" = 13% × $2.3T — DERIVED, not an MBA print** | ⛔ kill-on-sight |
 
 ### Mortgage Rates / Demand *(HOMER-owned surface, ★ ruling)*
@@ -80,7 +79,6 @@
 | **★★ Case-Shiller national** | **+2.1% YoY AUGUST** (Jul 1.9%); 20-City +2.7%, 10-City +3.6%; Miami +4.24%, Tampa −0.39%; 5 of 20 negative *(S&P, pub 10/27)* | 🟠 nominal accelerating / 🔴 **15th real decline** (S&P) |
 | **★ ICE HPI** | **+1.44% YoY AUG, +1.41% early-Sep (first slowing in 7 mo); 3-mo annualized SA 0.1–0.3%**; condos −0.9%; >40% of major markets falling 3 months running; Cape Coral −16.5% from peak (a DRAWDOWN, not YoY) | 🟠 ★ **diverges from FMHPI (3-mo 2.84%)** — two methods; the divergence is the finding |
 | **Redfin Oct monthly (pub 11/10)** | **Median sale $388,634, −0.4% YoY — first decline in 3 years**; **36% of sales had a price drop (record)**; ~15% of pendings fell through; supply highest since 2020 · weekly (4wk to 11/01) pending −16.4% YoY · **condo sellers outnumber buyers 123% (Sept, record)** | 🟠 a median, not an index |
-| **Realtor.com** | **OCT (primary): list −2.2% YoY; active +7.4%; new listings −7.5%; pending −10.5%; price-cut share 20.5%, delistings flat** | ⛔ CONTEXT ONLY; sellers pausing, not capitulating |
 | **🔴🔴 Redfin sellers/buyers gap** | **62.6% — RECORD, SEPTEMBER** (pub 10/14). Sellers 1.51M (+1.2%); **buyers 928,892 (−2.4%, record low; MODELLED)**. ⚠️ Aug RESTATED 57.9 → 56.9%. Redfin pending −4% MoM (lowest since spring-2014 ex-Apr-2020), −8.6% YoY | 🔴🔴 **both legs now: buyers falling AND sellers rising** |
 
 ### State-Level Housing (FL/TX priority; NV/CA lanes built 10/28)
@@ -90,10 +88,11 @@
 |---|---|---|---|
 | FL | **Condo/TH median — CORAL owns statewide** | **CURRENT refresh owed:** Florida Realtors Sept/3Q release 10/16 supersedes August. Prior $298K/+2.8% is historical only; source address sent to CORAL | ⚪ current statewide read withheld pending owner reconcile; old positive-YoY context cannot stand as current |
 | FL | H1 FC rate *(CORAL-canonical)* | **#1: 0.27% (1-in-373), +32.7% YoY** — ⚠️ rank ≠ level | 🔴 speed / 🟠 level |
-| FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro, H1) · **#2 US metro in AUGUST (1 in 1,249)** · Lakeland 0.48% · **Miami-Dade condo SEPT: 12.3mo; median $417,090 −0.69% YoY; inventory 11,706 −7.24% YoY; contracts 67days vs75 last year (faster), cash 49.4%** (issuer 10/16). Aug 12.1mo/$408K/66days as originally published; no revised MoM comparator · Tampa $/sqft −5.6% YoY · Cape Coral HPI −2.3% YoY (ICE, Aug) · **Miami #1 buyer's market, Sept: 158.9% more sellers than buyers (Redfin via WALTER)** | 🔴🔴 sub-statewide |
+| FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro, H1) · **#2 US metro in AUGUST (1 in 1,249)** · Lakeland 0.48% · **Miami-Dade condo OCT: 12.7mo; median $397,500 −0.63% YoY; sales −9.6%; inventory 11,989 −5.3%; cash 48.4%** (SF 5.4mo, $706K +3.5%; issuer 11/16). Sept 12.3mo/$417K as originally published · Tampa $/sqft −5.6% YoY · Cape Coral HPI −2.3% YoY (ICE, Aug) · **Miami #1 buyer's market, Sept: 158.9% more sellers than buyers (Redfin via WALTER)** | 🔴🔴 sub-statewide |
 | **TX** | November CRE auction postings, major markets | **~$560M / 33 properties / 9 repeats** (TRD 11/03, Roddy's, SECONDARY) — half October's >$1B / 46. No MF subtotal; **named MF loans $218.5M** (HOMER sum, a floor) | 🟠 postings, not sales or losses; repeats = loans rolled, not sold |
 | **NV** *(lane built 10/28)* | Las Vegas fallthrough · LVR · NY Fed | **NY Fed NV mortgage 90+ 1.98% Q3 (0.99% a year ago — doubled)** · LVR Oct: SF median $475K +0.1%, **sales −11.9% YoY, supply ~6 months** (SECONDARY) · fallthrough 18.58% Sept (#3 of 50) · ICE NV non-current 3.4% (+11.2% YoY; chart read, LOW conf.) | 🟠 observation, no band |
 | **CA** *(lane built 10/28)* | C.A.R. · ICE · fire-zone | median $899,720 (+1.7% YoY), sales −6.5% · ICE non-current 2.4% (~48th of 51) · LA fire-ZIP serious DQ 'more than double' pre-fire (Cotality, no number); AB 1847 forbearance 12→24 mo | 🟡 fire-zone stress is local, statewide credit calm. Insurance = AEOLUS |
+| FL | **★ FLOOD SWEEP 11/23 — basin counties (sub-statewide)** | **Zillow ZHVI Oct YoY: Brevard −0.06% · Seminole −0.07% · Volusia +0.14% · Lake −1.71% · Orange −0.62% (USA +1.08%)** — pre-crest baseline. FMHPI Sept: Palm Bay-Melbourne −0.20% · Orlando +1.32% (3-mo ann. +0.05%) · Deltona +0.30%. **Punta Gorda −18.66% from 2022 peak: 1.3pp from the −20% HENRY trigger.** No federal declaration (OpenFEMA 21:47Z 11/23) ⇒ FHA moratorium and Fannie disaster forbearance OFF | 🟠 watch county ZHVI Nov/Dec; HENRY trigger NOT crossed |
 | FL | Annual band | evaluable once a year (ATTOM year-end) — "no reading" is NORMAL | ✅ |
 
 ### ⚠️ STANDING CAVEATS
@@ -106,7 +105,6 @@
 | # | Item | State |
 |---|---|---|
 | **A7–A11** | 5 sample-limited rungs (research) · FL Orange >1.50% the one bracketed level · MBA NDS primary 403-gated site-wide | open |
-| **A12** | Charter size: **CLOSED 2026-11-20 by root canon** — root `CLAUDE.md` (WQ-701, 11/16) sets the desk-charter ceiling at 50,000 B; charter 42,150 B after today's WQ-719 edit | closed |
 
 Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-narrative.md`. Closed A1 (WQ-248 C, 9/17) and A5 leg 1 (THESIS built 9/29; formal grade 11/20 stays on the docket and GATES) → `archive/STATUS_rotated_2026-11-11.md` (moved 11/12).
 
@@ -116,7 +114,6 @@ Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-na
 ### C. Instruments that GRADE NOTHING — do not read silence as calm
 - ✅ **Trepp maturity-adjusted MF — DATED KILL EXECUTED 2026-10-15** (absent at source Jul–Sep). Leg re-spec'd onto MF special servicing (replacement instrument). Row RESOLVED on the docket.
 - ⛔ **5 standing dead/ungraded instruments** (FL YoY RETIRED · measurement breaks …; National FC STARTS and Rent breadth were RE-ARMED 9/29 and left this list) + 2 annual-only FL bands + 3 measurement breaks → `OBLIGATIONS_OTHERS.md` §C-STANDING
-- ⛔ **Google Trends** — RETIRED at CARL 9/1; **9/10 captures UNDATED / NOT GRADEABLE** (Will, WQ-225); my 9/14 "bounded ~9/06" WITHDRAWN
 - ⛔ **Morgan Stanley 7.1%** — unresolved perimeter; closing it needs the MS report
 
 ---
@@ -154,4 +151,4 @@ Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-na
 
 ## BOTTOM LINE
 
-**2026-11-20 — formal thesis grade (PROME prome-77 task letter 11:48 ET; Claude Code, Opus 5.5).** ① **GATE-HOMER-THESIS-KILL graded: 0 of 5 legs killed, 🔴 holds** (C1, C2 both channels, A2, A3 NOT FIRED; A1 UNGRADED: first conjunct met, cure-rate conjunct has no reading). No colour candidate. Next grade **2027-02-20**. ② **HOM-02 MISSED** (registered 65%): FHA delinquency fell a second quarter to 11.74%, while the FHA foreclosure rate hit 1.89%, a 9-year high — loans moving into foreclosure, which the metric excludes. Same flaw sits in leg A1 (D13, amendment drafted to PROME). ③ **HOM-04 HIT** (30%): 46% of builders cut prices; HMI 25, lowest since 2012. ④ PMMS back up to 7.28%. ⑤ Handle re-scored 19 → 21/25. 11/16 restart residue closed (STATUS/SCRATCH written, A12 closed by root canon). **Will decision required: none.** Detail → `reports/2026-11-20_thesis-formal-grade.md`.
+**2026-11-23 — Florida flood sweep, question 2 (PROME prome-77 wake on Will's word 16:26/16:33 ET; Claude Code, Opus 5.5).** ① **A flood of record cuts the price of homes that actually flooded, not the county index**: the basin counties were already flat to slightly down (Zillow Oct) while the nation rose 1%; FL storm history in FMHPI says the regime decides the metro response (Irma 2017 no dent; Ian 2022 Cape Coral/Punta Gorda −15 to −18% by Sep-2026, not causal) and today's regime is Ian's. ② **Finance channel matters more: no federal declaration ⇒ FHA's 90-day moratorium and Fannie's disaster forbearance are off**; Fannie's property-condition check before delivery is on regardless. ③ Miami-Dade condo Oct 12.7 months of supply. ④ Each +$1,000/yr premium ≈ a $12,179 smaller loan at 7.28%. ⑤ Forward view (unscored): flooded-ZIP delinquency bump and volume drop for 1–2 quarters; county indexes within ~1.5pp of path; alternative ~20–25% visible forced sales by spring. Packets: PROME, TERRY (no implication of its own), CORAL (hand + ask). Inbox drained 3/3; WQ-725 A1 restatement on the docket for 11/30, not done. **Will decision required: none.**

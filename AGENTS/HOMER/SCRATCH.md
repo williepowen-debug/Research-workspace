@@ -1,26 +1,23 @@
-# HOMER SCRATCH — 2026-11-20 formal thesis grade (PROME prome-77 task letter, 11:48 ET)
+# HOMER SCRATCH — 2026-11-23 Florida flood sweep (PROME prome-77 wake on Will's word, 16:26/16:33 ET)
 
-**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), laptop. Launched from `AGENTS/HOMER/`; root CLAUDE.md, AGENTS.md, USER.md, COMPLETION_SPEC and the desk charter read explicitly. No pull: other desks' files modified (NEXUS, YURI, PROME); origin had nothing new. No helpers spawned. Missing on this box (PROME/MACHINE_LOCAL.md): Kalshi, gh and CourtListener credentials, not needed today. mba.org refuses this box (403), used the CalculatedRisk verbatim mirror. **CLOSED OUT 2026-11-20 on PROME prome-77's ask (brief 52b9eec95e). No timers or pollers running. Not pushed.**
+**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), in-process desk agent spawned by PROME from `PROME/` cwd; boot files read explicitly to eof with `PROME/tools/boot_read.py`. Laptop on battery (~25% at wake): committed as I went, did NOT push (PROME pushes). No pull: other desks' files dirty (VIOLET, CORAL, HEARTBEAT). Three read-only retrieval helpers (literature, agency rules, Florida data); fannie singlefamily PDFs 403, guide.freddiemac.com JS-only, fema.gov page Akamai-blank (OpenFEMA API worked).
 
-## Done 2026-11-20
+## Done 2026-11-23
 
 | Item | Result |
 |---|---|
-| THESIS formal grade | §10: 0 of 5 killed, 🔴 holds. A1 UNGRADED (conjunct 1 met 2/2, cure conjunct no reading). Handle 19 → 21/25. D13 (A1 migration-sensitive), D14. Next grade 2027-02-20 |
-| HOM-02 | ❌ MISSED (early kill): FHA SA 11.74% Q3, −5bps. LESSONS §55 |
-| HOM-04 | ✅ HIT: NAHB cutters 46% |
-| Prints | MBA Q3 NDS, NAHB Nov, PMMS 11/19 (7.28%), Census Oct starts (via WALTER): ledger rows + THRESHOLDS cells |
-| Inbox | 3 PROME + 6 WALTER drained to processed; corrections 030 APPLIED, 015 NO-OP |
-| KB hygiene | 4 KB_LIVE rows STALE; KB.tsv frozen rows left under their banner |
-| Charter | CLOSEOUT 5 + 2 lines = WQ-719 A / WQ-721 A |
-| Packets | PROME (delivery + D13 draft) · TERRY (WQ-696 handoff) |
+| PROME packet | `PROME/inbox/2026-11-23_from-HOMER_florida-flood-home-values.md`: literature table, FL storm event windows (FMHPI), FL position vs nation, disaster rules, premium arithmetic, forward view |
+| TERRY | WQ-696 handoff: supports no implication of its own |
+| CORAL | hand (county ZHVI, FL Realtors Oct address, FMHPI state row, rule table) + ask (flooded-home counts in/out of mapped zone, NFIP claims by county) |
+| Ledgers | PRICING (FMHPI FL metros, storm windows) · STATE_HSG (Miami-Dade condo Oct, county ZHVI Oct) · PIPELINE (declaration-gated relief) · KB_LIVE (046 members; 048 flood sweep) |
+| Inbox | 3 of 3 drained; WQ-725 → docket row 2026-11-30 |
+| STATUS | 11/23 block + basin row; rotated 11/11 vintage and 11/20 BOTTOM LINE plus 4 closed/retired rows to `archive/STATUS_rotated_2026-11-23.md` |
 
 ## Open / next
 
-- Closeout done: NEXUS_BRIEF rewritten and pinned to 7130ac5fac. D13 is WQ-725 with Will — change nothing in A1 until he rules.
-- **~11/23–30:** ICE First Look Oct (C1; HUD ML FHA FC-start lift) · Fannie/Freddie Oct MF (C2-GSE) · Apartment List Nov (HOM-06) · Case-Shiller Sept 11/24 · new-home sales 11/25 · FMHPI Oct ~11/30.
-- **~12/01–05:** Trepp Nov MF DQ = HOM-05; does Cove at Tiburon revert?
-- **D13 amendment** sits with PROME (Will-gated change to a frozen leg).
-- Not checked today: Redfin Oct sellers/buyers gap, NAR pending Oct, Miami Oct condo, C.A.R. Oct, Redfin fallthrough Oct, ATTOM Q3, MBA weekly apps. Arbor 6/30 REO basis question still open.
+- **11/30 (docket):** WQ-725 A1 first-conjunct restatement in `thesis/THESIS.md` (Will-ruled; not done tonight).
+- **Flood watch list:** FEMA declaration with Individual Assistance (switches FHA moratorium and Fannie disaster forbearance on); CORAL's flooded-home counts; ICE First Look Oct (not out 11/23) and any ICE disaster-ZIP note; Zillow county ZHVI Nov (~mid-Dec) for Brevard, Seminole, Volusia, Lake, Orange; FMHPI Oct ~11/30 (Punta Gorda 1.3pp from the −20% HENRY trigger).
+- Case-Shiller Sept 11/24 · new-home sales 11/25 · PMMS ~11/25 · Apartment List Nov (HOM-06) · GSE Oct MF · Trepp Nov ~12/01–05 (HOM-05).
+- Not reached: Freddie and VA disaster rules; FL Realtors metro tables (images); Brevard/Orlando/Tampa association medians; FEMA RR2.0 Florida data at primary.
 
 No Will decision required.
