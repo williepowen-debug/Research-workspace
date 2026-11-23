@@ -20,6 +20,8 @@ word_count: 508
 dispatch_note: "LATE FLASH on the safety-net VIX +5 leg (FILTER_SPEC pre-gate; FLASH 20261120-001 covered the >30 leg). Crossed Friday afternoon with no WALTER session; first seen 2026-11-21T23:05Z. Same recipient set as 20261120-001 minus desks with no Friday-close stake. ACTION VIOLET, HENRY, VULCAN, LIQUID, REGINALD, TERRY (BOARD-only). RED, PROME INFO by BOARD diff. HENRY and VIOLET live (PROME launched them about 18:00 ET)."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-003: the +5 line was crossed in the 14:20 ET bar Friday while WALTER was active on stale quotes, NOT 'with no WALTER session watching'; VIXCLS 35.89 [Nov 20] now confirmed. FLASH and levels HOLD.**
 # LATE FLASH (safety net VIX +5 leg met, Friday Nov 20): vendor ^VIX closed 35.89 (+26.20%) against VIXCLS 28.44 [Nov 19], +7.45 points; S&P 500 6,910.39 (-3.70%), NVDA $125.53 (-14.01%) after Reuters reported SEC enforcement staff scrutinizing Nvidia's accounting; MOVE 106.31 (+10.69%); KRE -1.36% (FLASH line not met); HY Nov 20 unpublished
 
 # LATE FLASH: VIX +5 leg met at the Friday Nov 20 close

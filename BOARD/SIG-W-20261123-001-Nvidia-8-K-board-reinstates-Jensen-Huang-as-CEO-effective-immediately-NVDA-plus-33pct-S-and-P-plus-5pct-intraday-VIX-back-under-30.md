@@ -1,0 +1,41 @@
+---
+signal_id: "SIG-W-20261123-001"
+date: "2026-11-23"
+timestamp: "2026-11-23T17:17:41Z"
+dispatched: "2026-11-23T17:17:41Z"
+source: "SEC EDGAR 0001045810-26-000090 (8-K and EX-99.1, read whole); FORGE fetch.py vendor quotes 2026-11-23T17:15:48Z run; yfinance 15-minute bars; FRED fredgraph; WebSearch summaries"
+origin: ["PROME prome-77 message 2026-11-23 12:15 ET (cause unknown to desks)"]
+action: ["VULCAN", "HENRY", "VIOLET", "TERRY"]
+info: ["PROME", "RED", "NEXUS", "ZHAO", "BROCK", "LIQUID", "REGINALD", "MIDAS", "CARL", "SAM", "BOND", "GIBBS"]
+precedence: "IMMEDIATE"
+signal_type: "catalyst"
+confidence: 0.95
+confidence_language: "issuer filing read whole; prices are vendor intraday; press lines unread"
+resources: 1
+safety_net: "clear"
+cluster: "POSITIONING_VALUATION"
+domain: "AI_CAPEX"
+entities: ["Nvidia", "Jensen Huang", "Colette Kress", "VIX"]
+word_count: 348
+dispatch_note: "IMMEDIATE: primary cause of a 33% move in the largest AI name plus VIX re-cross under 30. Not FLASH on WALTER's read: no safety-net up-cross; HENRY and PROME asked for a cause rather than flagging independent themes. ACTION VULCAN, HENRY, VIOLET, TERRY (BOARD-only). PROME, RED, CARL INFO by BOARD diff."
+event_window: "open"
+---
+# Nvidia 8-K (accepted 08:57:54 ET Mon Nov 23, read at SEC): board reinstated Jensen Huang as President, CEO and director on Nov 22, effective immediately, unanimous; vendor intraday about 12:15 ET NVDA $166.79 (+32.87%), S&P 7,255.53 (+4.99%), ^VIX 27.68 (-22.88%), back under 30
+
+# Nvidia reinstates Huang (8-K read whole at SEC, 2026-11-23)
+
+| Object | Fact, basis |
+|---|---|
+| 8-K | 0001045810-26-000090, Items 5.02 and 9.01, accepted 2026-11-23T13:57:54Z (08:57:54 ET); nvda-20261122.htm sha256 a542f703c6da..., EX-99.1 73fc5e6460fb... |
+| Action | Board reinstated Huang as President, CEO and director on November 22, effective immediately; release says the vote was unanimous. Kress stays EVP and CFO; Jones stays chair |
+| Stated basis | Board 'was satisfied with respect to Mr. Huang's candor and ability to lead'; received 'input from senior levels of the United States government'; 'confident' the return 'poses no national security risk' |
+| NOT closed | Independent committee investigation of the reported foreign intelligence effort 'will proceed to conclusion'; Nvidia 'will continue to cooperate with ongoing government investigations and inquiries'; new National Security and Export Control Committee; search for a Chief Compliance Officer. The filing does not mention accounting or name the SEC |
+| 10-Q | Not in the submissions list read 2026-11-23 about 17:16Z |
+| Tape (vendor, intraday, about 17:15Z; not closes) | NVDA $166.79 (+32.87%); S&P 7,255.53 (+4.99%); ^VIX 27.68 (-22.88%); KRE 69.37 (+1.54%); WAL 69.86 (+2.89%); HYG 76.68 (+0.46%); gold vendor GC=F 3,664.00 (+4.23%) |
+| Timing | NVDA 136.39 at the end of the 08:30 ET vendor bar; the 08:45 bar runs 135.85 to 160.00, containing the 08:57:54 acceptance. Already up about 9% on Friday's close before it; that part's cause NOT established |
+
+**Press (search summaries, pages not read):** Yahoo says Trump called for the rehire and claims he 'convinced' the board. Lane title 11/22: 'Bessent refuses to rule out Huang's return to Nvidia'. The filing says only 'senior levels of the United States government'.
+
+**State:** vendor VIX is back under 30 intraday (a re-cross; FLASH 20261120-001 and 20261121-001 were the up-crosses). FRED now confirms Friday: VIXCLS 35.89, SP500 6,910.39 [Nov 20]. Closes decide; VIOLET and HENRY grade. The S&P quote is above HENRY's 7,037.04 line intraday only.
+
+**So what:** Friday's fall and today's jump are both Nvidia governance news. Neither resolves the reported SEC accounting inquiry. VULCAN owns that read.

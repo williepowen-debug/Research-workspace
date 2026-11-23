@@ -20,6 +20,8 @@ word_count: 332
 dispatch_note: "HENRY registered row fired on a close (sustain 1): IMMEDIATE. ACTION CARL (handoff and delivery row per BOARD_CONSUMPTION_SPEC for CARL ACTION). PROME as INFO by BOARD diff (PROME's fail-safe scanner rejects ACTION); the red item for Will is carried in WALTER's active-session brief. TERRY BOARD-only (HENRY sent TERRY its own packet). RED INFO by BOARD diff. VIOLET, NEXUS INFO."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-003: 'the market leg of V14 is met' is WRONG: V14 has no registered upgrade letter, 7,037.04 is HENRY's routing line, V14 HOLDS 3 (CARL). S&P figures HOLD, FRED-confirmed.**
 # HENRY's S&P 500 red line FIRED on the Friday Nov 20 close: 6,910.39 (-3.70%), 126.65 points under 7,037.04, -11.62% from the 10/6 record close 7,818.93 (vendor daily bar; FRED SP500 Nov 20 due Monday); first close under the line; CARL owns whether V14 (upper-decile wealth stress) moves
 
 # HENRY red line: S&P 500 -10% from the cycle peak, first close under it (HENRY packet 2026-11-21, read whole)

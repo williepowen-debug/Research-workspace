@@ -20,6 +20,8 @@ word_count: 423
 dispatch_note: "PRIORITY: first Iranian strike on Bahrain with damage established (prior four intercepted), but site unnamed and not established as energy or in-port, so not IMMEDIATE on WALTER's read; FALCON may escalate. ACTION FALCON (Gulf-state targeting, KH deadline outcome). INFO BRENT (exports, Sitra refinery question), HAWK, NEXUS, SAM (oil-yen), RED and PROME by BOARD diff. FALCON not live (last commit 11/20): ROUTINE wake via PROME recommended, no doorbell (not ACTION-DARK on established evidence)."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-003: NOT the first damaging strike on Bahrain (FALCON's record: Bapco force majeure in March); first this month only. IRAN_WAR_GUARDS.md was not read before dispatch. Attack and damage HOLD (FALCON KB-531).**
 # Iranian attack hits a civilian industrial facility in Bahrain Sat Nov 21, fire, material damage, no injuries (Bahrain Interior Ministry via Reuters); site NOT named; IRGC claims US positions at Riffa and Awali; IRNA says a US interceptor fell on Sitra; plus Houthi missiles at Riyadh intercepted 11/21, Iran's Kharg tanker convoy, Trump weighing new strikes (FT 11/20)
 
 # Iran and Gulf, Nov 20 to 21 (RESEARCH-INTAKE titles, one item searched)

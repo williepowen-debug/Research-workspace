@@ -1,0 +1,40 @@
+[
+ {
+  "signal_type": "context",
+  "safety_net": "clear",
+  "event_window": "open",
+  "route_origin": "WALTER walter-7f 11/23 (laptop); PROME prome-77 ask 12:15 ET",
+  "id": "SIG-W-20261123-002",
+  "slug": "FRED-HY-OAS-376-Nov-20-REG-T-04-day-2-of-3-single-session-plus-24bp-safety-net-not-met-CCC-1402",
+  "title": "FRED HY OAS 376 bp [Nov 20], REG-T-04 (>350, 3 closes) day 2 of 3; single-session +24 bp, not over the +25 bp safety net; CCC 1,402 [Nov 20] (+41 bp)",
+  "body": "# HY OAS Nov 20 (FRED, pulled 2026-11-23 about 17:16Z)\n\n| Series | Nov 18 | Nov 19 | Nov 20 |\n|---|---|---|---|\n| HY OAS, BAMLH0A0HYM2 | 347 | 352 | **376** |\n| CCC, BAMLH0A3HYC | 1,353 | 1,361 | **1,402** |\n\n- **REG-T-04:** day 2 of 3 (REGINALD graded f1a68a2220). Day 3 would be the **Nov 23** observation, normally published Tuesday Nov 24. One observation at or under 350 breaks the run on the registered letter; REGINALD owns it.\n- **Safety net (single-session widening over 25 bp): NOT met**, +24 bp on rounded published values. Near-trigger, not a fire.\n- Nov 20 is before today's equity rebound. HYG is +0.46% intraday (vendor, 17:15Z), which is not a spread.",
+  "source": "FRED fredgraph CSV BAMLH0A0HYM2 and BAMLH0A3HYC pulled 2026-11-23 about 17:16Z; REGINALD f1a68a2220",
+  "origin": [
+   "PROME prome-77 message; WALTER FRED pull"
+  ],
+  "action": [
+   "LIQUID",
+   "REGINALD"
+  ],
+  "info": [
+   "PROME",
+   "RED",
+   "BROCK",
+   "BOND",
+   "CARL",
+   "HENRY",
+   "NEXUS"
+  ],
+  "precedence": "PRIORITY",
+  "confidence": 0.95,
+  "confidence_language": "FRED published values",
+  "cluster": "POSITIONING_VALUATION",
+  "domain": "MARKET_VOL",
+  "entities": [
+   "HY OAS",
+   "CCC OAS"
+  ],
+  "dispatch_note": "PRIORITY near-trigger: REG-T-04 2 of 3 and +24 bp against a strict +25 bp safety net. LIQUID ACTION (credit chain); REGINALD ACTION (registry owner, already graded). PROME, RED, CARL by BOARD diff.",
+  "route_summary": "HY 376 [Nov 20], REG-T-04 2 of 3; +24 bp, safety net not met"
+ }
+]
