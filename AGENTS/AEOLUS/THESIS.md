@@ -32,7 +32,7 @@
 |---|---|---|
 | 1 | Strong El Niño → DJF drought in the southern-Africa maize belt (and Aus Aug–Oct) | **open, forward** — El Niño historic-strength (ONI JAS +2.16; CPC >83% strong-to-very-strong through JFM). SA corn ≤−15% in **5/6** strong harvests vs 1/17 neutral (KB-198). Rains Dec–Feb decide it |
 | 2 | Production forecasts cut vs trailing 5-yr | **open** — USDA 2027 SA crop = **16.5 MMT placeholder (+0.5%)**; first real read = SA CEC (intentions 10/27, forecast ~late Feb). Aus wheat **31.0 MMT = −10.3%** (raised 9/11) — out of Yellow, and strong years were not worse |
-| 3 | Grain prices reprice | **moving, cause NOT El Niño** — FAO cereals **122.8, +17.2% y/y** (Sept, highest since Dec 2023) while USDA raised Aus wheat; fertilizer/freight/war drivers are other desks' (KB-199) |
+| 3 | Grain prices reprice | **moving, cause NOT El Niño** — FAO cereals **116.8, +12.5% y/y** [Oct] (Sept was 122.3 revised) while USDA raised Aus wheat; fertilizer/freight/war drivers are other desks' (KB-260) |
 | 4 | Pass-through to food CPI / import bills | open → **CARL** (CPI instrument); southern Africa transmits mostly outside US tickers |
 
 **Tradeable surface:** grain/oilseed futures, regional food importers, fertilizer — none chosen; **watch only** (TRADE.md #5). **Shared antecedent:** the ENSO root also drives C3 — count it once.
@@ -45,8 +45,8 @@
 
 | Stage | Mechanism | State [2026-10-10] |
 |---|---|---|
-| 1 | Polar vortex / cold (winter) or heat dome (summer) → demand spike | **winter watch:** vortex at zero, 11/5 12Z splits on sign (GFS `.anl` +0.057, `.f000` −0.037), owner grade NOT below 0 (KB-247, WQ-606 A). Any reversal is step one only: persistence, downward coupling and regional surface cold are still needed. **Summer CLOSED**: 4 PJM emergencies in 2026, all closed |
-| 2 | 30-day HDD vs 1991-2020 breaches the band (MidAtl/ENC, DJF windows) | **out of window to 12/30** — strong-El-Niño composite: DJF HDD **5/5 below normal** (MidAtl median −11.9%), **0/5** with a ≥+10% window; official forecasts only −2 to −6% (KB-195/196) |
+| 1 | Polar vortex / cold (winter) or heat dome (summer) → demand spike | **winter watch:** vortex reversed briefly 11/05–11 (low −2.71) and has rebuilt to +23.22 [11/23] (KB-286/309). Any reversal is step one only: persistence, downward coupling and regional surface cold are still needed. **Summer CLOSED**: 4 PJM emergencies in 2026, all closed |
+| 2 | 30-day HDD vs 1991-2020 breaches the band (MidAtl/ENC, DJF windows) | **out of window to 12/30** — strong-El-Niño composite: DJF HDD **5/5 below normal** (MidAtl median −11.9%), **0/5** with a ≥+10% window; official forecasts −4 to −7% vs 1981–2010 (CPC 11/19, KB-317; KB-195/196) |
 | 3 | Nat-gas / power reprice | open → **BRENT** (Dec NGZ26 $2.96, 11/05 ~10:02 ET intraday, not a settle) · **WATT** (PJM) |
 
 **Tradeable surface:** nat gas, power, utilities — **BRENT/WATT price it; AEOLUS supplies the weather base rate** (TRADE.md #3, watch). **Owner handoff:** energy pricing → BRENT; geopolitical energy → HAWK.
