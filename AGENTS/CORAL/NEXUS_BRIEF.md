@@ -10,10 +10,10 @@
 ## 2026-11-23 evening — FLOOD SWEEP: MOSTLY UNINSURED · FIRST NFIP FIGURE · RIVER NOT FALLING · THE 12/31 AND 1/1 DATES (no colour moves; evidence `STATUS_DETAIL.md` § AL; research `research/2026-11-23_florida-flood-transmission-sweep.md`)
 | # | What | So what / who |
 |---|---|---|
-| 1 | **NFIP claims FL, loss 11/01–11/12: 1,157; Brevard 745; $4.84M building paid** (OpenFEMA data 11/16, P1). Take-up Brevard 11.8%, Seminole 4.0%, FL 13.7% (FEMA 8/03). HO/Citizens exclude flood | Household loss mostly uninsured → CARL (consumer), REGINALD (mortgage), SHADE (insurers: not an HO event) |
+| 1 | **NFIP claims FL, loss 11/01–11/12: 1,157; Brevard 745; $4.84M building paid** (OpenFEMA data 11/16, P1). Take-up Brevard 11.8%, Seminole 4.0%, FL 13.7% (FEMA 8/03). HO/Citizens exclude flood | ⚠️ corrected 11/23 17:2x (FF23-2): uninsured share is a HYPOTHESIS — take-up is county-wide, private cover and flooded-home count UNKNOWN → CARL (consumer), REGINALD (mortgage), SHADE (insurers: not an HO event) |
 | 2 | **St. Johns at Cocoa high 18.77 ft 11/21, 18.58 ft 11/23, flat to 11/28; Lake Harney past record; DeLand fc 6.1 ft 11/27** (NWPS P1). New Flood Watches SE FL, Brevard–Martin 11/24–25. Federal declaration NONE | AEOLUS (hazard), WALTER (declaration watch), PROME (L784) |
 | 3 | **Citizens flood mandate for ALL remaining wind-covering personal policies from 1/1/2027** (627.351(6)(aa), P1); Citizens PIF 196,511 (11/20) | The household flood cost arrives as a 2027 premium → CARL, TERRY |
-| 4 | **SIRS 'in no event' after 12/31/2026; association flood cover optional; Fannie 15% reserve test 1/4/2027** (statutes P1) | Condo stack = mechanism, no named flood-hit association → HOMER, REGINALD (USCB/Avidia association books, Q4) |
+| 4 | **SIRS 'in no event' after 12/31/2026; association flood cover optional; Fannie 15% reserve test 1/4/2027** (statutes P1) | Condo stack = mechanism, no named flood-hit association → HOMER, REGINALD (Avidia association book; USCB's $66.252M is a "Condo commercial" table label, not an association book — corrected 11/23) |
 | 5 | County home values flat (Zillow Oct); 2017 record flood left no county mark in Brevard | HOMER owns ZIP-level read |
 | 6 | TERRY: **no supported implication** (WQ-696); FL banks track KRE since 10/30 | TERRY |
 

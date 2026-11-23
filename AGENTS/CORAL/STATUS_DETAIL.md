@@ -2282,7 +2282,7 @@ Full read, tables and sources: `research/2026-11-23_florida-flood-transmission-s
 | Sanford SNFF1 | 7.79 ft | 7.79 | 8.2 ft 00Z 11/26, held to 11/28 (major 8.0; record 8.96) |
 | DeLand DLAF1 | 5.52 ft | — | 6.1 ft 06Z 11/27 (record 6.33) |
 | Astor ASTF1 | 4.13 ft | 4.16 | 4.4 ft 18Z 11/26 (record 4.81) |
-Alerts: Flood Watch PB/Broward/Miami-Dade 19Z 11/24–01Z 11/26; Flood Watch Okeechobee, Brevard to Martin 01Z 11/25–01Z 11/26; Coastal Flood Warning Inland/Coastal Flagler, E Putnam to 19Z 11/25; Coastal Flood Watch NE FL; Flood Warnings Brevard, Seminole, Volusia/Lake. AEOLUS's 11/23 correction verified.
+Alerts [⚠️ corrected 11/23 17:2x ET: the "Z" below was wrong — NWS stamps are −05:00, so these are ET]: Flood Watch PB/Broward/Miami-Dade 19Z 11/24–01Z 11/26; Flood Watch Okeechobee, Brevard to Martin 01Z 11/25–01Z 11/26; Coastal Flood Warning Inland/Coastal Flagler, E Putnam to 19Z 11/25; Coastal Flood Watch NE FL; Flood Warnings Brevard, Seminole, Volusia/Lake. AEOLUS's 11/23 correction verified.
 
 ### AL2. Declarations
 OpenFEMA DisasterDeclarationsSummaries v2, FL, declarationDate ≥ 10/20: 15 rows, all DR-4955 (Isaias, 10/27); max lastRefresh 11/13 (lag caveat). WPTV (undated; the 11/09 request): Martin County 66 homes damaged, 25 destroyed. REGINALD 11/19: its Seacoast trigger letter is a **federal** declaration with damage in Martin, Palm Beach or St. Lucie — NOT MET.
