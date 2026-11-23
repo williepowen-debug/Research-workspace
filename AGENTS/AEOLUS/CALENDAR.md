@@ -103,4 +103,4 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 | **🔴 2026-10-22** | **READS.tsv STRICT flip** (DOCKET L470) — AEOLUS must file its full boot manifest + `manifest-complete` ATTESTATION row before it | process | today `read_cap_check --agent AEOLUS` = rc 2 CANNOT-EVALUATE (declared, unattested) |
 | ✅ ~~2026-10-31~~ | ~~C5 long-series base-rate~~ (re-dated from 9/30) | C5 | **DONE 10/31 (KB-230):** WSV bulk raw-data route from 2000. **0 of 26 years** at NNW 25/153. Re-key 40/180 (3 of 26) **RULED by Will 10/31 (WQ-562 "A") and ENCODED; NOT MET at encoding** (KB-236) |
 | **Sep–Nov** | Mississippi autumn low-water window | C5 | Memphis **+9.553 ft** daily mean [9/28] — rebounded 14.2 ft off the −4.678 trough [9/14]. Vicksburg `VCKM6` / Cairo `CIRI2` now named |
-| **2027 Jan–Apr** | Panama dry season | C5 | AEO-12 (**45%**) |
+| **2027 Jan–Apr** | Panama dry season | C5 | AEO-12 (**55%**); first cuts below 50 ft have come with Gatún at 84.9–85.5 ft, 47.0 at 82.1–83.2 (KB-312) |

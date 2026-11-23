@@ -216,3 +216,4 @@ date	event	detail	source	pulled_at	routed_to
 2026-11-23	colorado_news	Unsigned; Hobbs 11/21 no timeline; MWD 12/08 item 8-7 still Agenda Ready, no letter. KB-AEO-307	MWD Legistar; AZ Capitol Times	2026-11-23 14:04 ET	
 2026-11-23	rivers_not_read	Parana: bot-detection page (stopped), second source no answer. Yangtze cjh.com.cn timed out twice. Danube read, above LKV. KB-AEO-309	FICH, PNA, CJH, OVF	2026-11-23 14:04 ET	
 2026-11-23	south_florida_rain	One figure 17.59 in / 72 h (G-54 Sewell Locks), replaces 16.65 in / 48 h. KB-AEO-305	NWS Miami PNS 11/19 5:06 PM	2026-11-23 14:04 ET	CORAL
+2026-11-23	panama_lake_draft_mapping	54 effective Neopanamax draft changes 2016-2026 read from ACP advisories; 28 cuts at Gatun minus 35.78 ft (sd 0.44). ACP A-12-2018 prints lake under 84/83/82 ft = 48/47/46. 47.0 ft seasons from a 50.0 start: 2 of 6. KB-AEO-312	ACP advisories	2026-11-23 14:37 ET	CARL,TERRY

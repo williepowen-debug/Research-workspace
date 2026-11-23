@@ -2,7 +2,7 @@
 
 **Purpose:** curated synthesis writeback, rewritten at closeout only when a figure, threshold, or cross-desk send or wait in it changed (NEXUS schema §4.1, WQ-719 A). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-11-23 14:16 ET (WQ-736/737 encoded, KB-311; folded with STATUS.)**
+**Last writeback: 2026-11-23 14:37 ET (AEO-12 55%, KB-312; folded with STATUS.)**
 **WAITING-FOR:**
 - **11/26:** SA CEC final; NWPS Memphis forecast −5.1 ft · **11/30:** hurricane season end (AEO-01) · **12/02:** C6 Orange window · **12/03:** CAP board · **12/07–08:** MWD vote on the Lower Basin implementing agreements · **12/10:** federal answer in *Nevada v. Burgum*, CPC ENSO, WASDE, NWPS Memphis forecast −6.9 ft · **12/21:** end of NWPS run, −7.8 ft · **~mid-Dec:** December 24-Month Study · **12/17:** CPC seasonal
 - PROME's ruling path on the AEO-17 re-date draft (OND RONI prints ~early January, after the 12/20 read)
@@ -15,7 +15,7 @@
 - WQ-704 doc: `research/2026-11-19_lake-mead-jan-1-2027-unsigned-agreement.md`. Routed: TERRY (handoff, no vehicle named), WATT (Hoover capacity).
 
 ## 🟠 C5 — RHINE CLEAR, MISSISSIPPI FORECAST LOW (score 4→3, 11/22)
-- **Rhine recovered:** Kaub **117.0 / 140.2 / 180.1**, Duisburg **311.0 / 362.9 / 413.0** [11/19–21]; Contargo (page of 11/19) forecast no surcharge tier from 11/21 (KB-297). **Panama eased:** draft 49.0→**50.0 ft**, slots 34/day (A-42, 11/09); Oct transits 33.19/day; Gatún 86.62 ft [11/21], dry-season risk OPEN: strong-El-Niño starts 1972/1982/1997/2015/2023 bottomed 82.11 / 81.58 / 78.55 / 78.31 / 80.17 ft by June (KB-302; the 11/22 base rate is withdrawn).
+- **Rhine recovered:** Kaub **117.0 / 140.2 / 180.1**, Duisburg **311.0 / 362.9 / 413.0** [11/19–21]; Contargo (page of 11/19) forecast no surcharge tier from 11/21 (KB-297). **Panama eased:** draft 49.0→**50.0 ft**, slots 34/day (A-42, 11/09); Oct transits 33.19/day; Gatún 86.62 ft [11/21], dry-season risk OPEN: strong-El-Niño starts 1972/1982/1997/2015/2023 bottomed 82.11 / 81.58 / 78.55 / 78.31 / 80.17 ft by June (KB-302). **AEO-12 (draft ≤47.0 ft Jan–Apr 2027) 45→55%:** limit = lake minus ~36 ft, so 47.0 needs about 82.1–83.2 ft (KB-312). Routed: CARL, TERRY.
 - **Mississippi:** Memphis −2.57 ft [11/23], **NWPS forecast −6.9 ft by 12/10 and −7.8 by 12/21, still falling**; only ~48 h of rain counted and CPC leans wet (KB-304); levels only, never graded (rule 9/18). St. Louis barge 529.7% = $21.14/t, down 2 weeks (KB-298/302). Routed: CARL, TERRY (no vehicle named).
 
 ## 🟡 ENSO / VORTEX / C1 / C2 / C4

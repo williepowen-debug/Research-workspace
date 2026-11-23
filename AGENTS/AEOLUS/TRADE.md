@@ -38,7 +38,7 @@
 | WASDE 11/10 · 12/10 · 1/12 · 2/10 · 3/10 · 4/9 · **5/12/27** | USDA PSD (SA corn, Aus wheat) | #5 (C2) | AEO-13 resolves 5/12/27 |
 | 2026-11-30 | Atlantic season ends | #1 | AEO-01; the C1 channel-kill resolves |
 | 2027-01-01 | Jan-1 reinsurance renewal | #1 (C1) | soft-vs-tightening test (AEO-03, Guy Carpenter US ROL index) |
-| Jan–Apr 2027 | Panama dry season | #2 (C5) | AEO-12 (45%) |
+| Jan–Apr 2027 | Panama dry season | #2 (C5) | AEO-12 (55%) |
 
 ## Cross-Agent Dependencies
 
