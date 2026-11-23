@@ -462,3 +462,9 @@ November 19 Thursday (walter-fc, laptop): PROME launched WALTER and the desks in
 Session note moved verbatim from MEMORY.md:
 
 November 20 Friday (walter-7f, laptop): late WQ-709 launch (11:23 ET), FLASH within 7 minutes of the first tape read. Owners corrected two cards the same day; both errors came from search summaries standing in for a primary (MUFG's own notice; Russia's MFA channel). Will found an event WALTER missed (Dutch embassy, 11/19) from his own reading. Rotation of the 11/19 note: MEMORY_PROMOTED.md § Rotation 2026-11-20T18:26:58Z.
+
+## Rotation 2026-11-23T22:29:42Z
+
+Session note moved verbatim from MEMORY.md:
+
+November 23 Monday (walter-7f, laptop): a long session resumed from idle quoted 13:33 ET prices and missed a live FLASH; CATO's review (Will 14:28 ET) became the resumption refresh, selective GPU reading and the repeat check. Title-only closures hid two wrong dates and an unread $44B pricing. Rotation of the 11/20 note: MEMORY_PROMOTED.md § Rotation 2026-11-23T20:46:58Z.
