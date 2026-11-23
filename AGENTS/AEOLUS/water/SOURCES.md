@@ -230,6 +230,7 @@ curl -s "https://terkeptar.vizugy.hu/server/rest/services/Vizugy_hu/LKV_folyok/M
 `LKV` lowest-ever cm · **`LKV_viszony` −1/+1 below/above.** ⚠️ **Exclude LKV dates 1799/1884/1894-12-31** (null sentinels).
 
 ### ✅ PARANÁ — gap closed 2026-08-13
+⛔ **2026-11-23: `fich.unl.edu.ar` served a bot-detection page: STOP, do not retry by automation. No working replacement yet** (prefecturanaval.gob.ar did not answer).
 ```bash
 curl -sL "https://fich.unl.edu.ar/cim/rios/parana/alturas"
 ```
@@ -249,6 +250,7 @@ print('lowThreshold:', d['lowThreshold'])
 for r in d['flood']['lowWaters']['historic'][:6]: print(' ', r['occurredTime'][:10], r['stage'], r.get('statement',''))
 "
 ```
+🔑 **Forecast: use `/v1/gauges/MEMT1/stageflow/forecast` (full run, ~28 days).** The combined `/stageflow` stops at 14 days (verified 2026-11-23). ⚠️ Counts only ~48 h of forecast rain (gauge hydronote).
 ⚠️ **PIPE IT** — the raw JSON is enormous. 8/27: **12.47 ft; `lowThreshold` −8 ft.**
 🔑 **−8 ft is NOT the record low** — grade crises vs `lowWaters.historic`: **2023 −12.06 · 2022 −10.81** ft (C5 analogues; −8 = watch). Never quote the 1988 "LOWEST STAGE ON RECORD" label.
 ⚠️ **Only Memphis is referenced.** St. Louis (USGS `07010000`): **no reference plane — no adjective.** Vicksburg/Cairo IDs **RESOLVED 2026-09-28: `VCKM6` / `CIRI2`** (KB-AEO-159; approved instruments `vicksburg_stage` / `cairo_stage` in AGENT.md) — the dead candidates VICM6/VKBM6/VIKM6, CAIA2/CACT1 404 are kept as known-bad. *(Reconciled 2026-10-21, DAEDALUS refresh item 5.)* **Sep–Nov is the window.**

@@ -1269,3 +1269,5 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-11-20	mead_elev	1041.36	ft	USBR-921-49	2026-11-22 16:55 ET	daily
 2026-11-21	mead_elev	1041.41	ft	USBR-921-49	2026-11-22 16:55 ET	daily
 2026-11-19	powell_elev	3540.62	ft	USBR-919-49	2026-11-22 16:55 ET	daily
+2026-11-22	memphis_stage	-2.275	ft	NOAA-NWPS-MEMT1	2026-11-23 14:04 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-22	mead_elev	1041.33	ft	USBR-921-49	2026-11-23 14:04 ET	daily

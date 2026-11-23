@@ -68,3 +68,4 @@ date	event	detail	source	pulled_at	routed_to
 2026-11-19	enso_weekly	Nino-3.4 +3.2 week 11NOV (from +3.3). KB-AEO-284	CPC wksst9120.for	2026-11-19 10:16 ET	
 2026-11-19	cpc_discussion	CPC 11/12: historic (RONI >=2.5) ~60% OND and NDJ, from 83/70 on 10/8; strong-to-very-strong >79% through JFM; next 12/10. KB-AEO-284	CPC ensodisc	2026-11-19 10:16 ET	
 2026-11-19	vortex_rebuilt	10 hPa 60N GFS anl 00Z: 11/14 +2.49, 11/16 +5.11, 11/18 +9.26, 11/19 +13.74; 30 hPa +7.12 to +11.64. 11/12-13 not pulled. KB-AEO-286	NOMADS GFS	2026-11-19 10:16 ET	answers WALTER SIG-W-20261114-006
+2026-11-23	vortex_rebuilt	10 hPa 60N GFS anl 00Z: 11/20 +16.27, 11/21 +18.86, 11/22 +21.94, 11/23 +23.22. KB-AEO-309	NOMADS GFS	2026-11-23 14:04 ET	
