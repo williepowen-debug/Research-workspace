@@ -16,3 +16,13 @@
 | **A12** | Charter size: **CLOSED 2026-11-20 by root canon** — root `CLAUDE.md` (WQ-701, 11/16) sets the desk-charter ceiling at 50,000 B; charter 42,150 B after today's WQ-719 edit | closed |
 - ⛔ **Google Trends** — RETIRED at CARL 9/1; **9/10 captures UNDATED / NOT GRADEABLE** (Will, WQ-225); my 9/14 "bounded ~9/06" WITHDRAWN
 | **Realtor.com** | **OCT (primary): list −2.2% YoY; active +7.4%; new listings −7.5%; pending −10.5%; price-cut share 20.5%, delistings flat** | ⛔ CONTEXT ONLY; sellers pausing, not capitulating |
+
+## Correction 2026-11-23 17:22 ET (PROME FOLLOWUP_2026-11-23 FF23-4): STATUS and SCRATCH sentences replaced; originals verbatim
+
+- `STATUS.md`: No federal declaration (OpenFEMA 21:47Z 11/23) ⇒ FHA moratorium and Fannie disaster forbearance OFF
+- `STATUS.md`: ② **Finance channel matters more: no federal declaration ⇒ FHA's 90-day moratorium and Fannie's disaster forbearance are off**; Fannie's property-condition check before delivery is on regardless.
+- `SCRATCH.md`: (switches FHA moratorium and Fannie disaster forbearance on)
+
+## Row moved verbatim 2026-11-23 (aged 10/16 context; byte tier after the FF23-4 correction)
+
+| **CRE CLO MF reporting cohort (Trepp 10/16)** | **2021–22-securitized /5 states: 93 loans, $3.95B;12.2% of book /80.2% of delinquency. Median paired DSCR 1.60x→0.64x;93.8% of performing balance WITH latest coverage reports <1.0x** | 🟠 cash-flow pressure before default; selected reporting subset, latest cash-flow dates unspecified. Not whole MF market, bank losses or a C2 resolver |

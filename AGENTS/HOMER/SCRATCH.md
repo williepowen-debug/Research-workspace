@@ -16,7 +16,7 @@
 ## Open / next
 
 - **11/30 (docket):** WQ-725 A1 first-conjunct restatement in `thesis/THESIS.md` (Will-ruled; not done tonight).
-- **Flood watch list:** FEMA declaration with Individual Assistance (switches FHA moratorium and Fannie disaster forbearance on); CORAL's flooded-home counts; ICE First Look Oct (not out 11/23) and any ICE disaster-ZIP note; Zillow county ZHVI Nov (~mid-Dec) for Brevard, Seminole, Volusia, Lake, Orange; FMHPI Oct ~11/30 (Punta Gorda 1.3pp from the −20% HENRY trigger).
+- **Flood watch list:** FEMA declaration with Individual Assistance (switches FHA moratorium and Fannie's no-contact initial forbearance on; contact-based Fannie forbearance needs none — corrected 2026-11-23 17:22 ET); CORAL's flooded-home counts; ICE First Look Oct (not out 11/23) and any ICE disaster-ZIP note; Zillow county ZHVI Nov (~mid-Dec) for Brevard, Seminole, Volusia, Lake, Orange; FMHPI Oct ~11/30 (Punta Gorda 1.3pp from the −20% HENRY trigger).
 - Case-Shiller Sept 11/24 · new-home sales 11/25 · PMMS ~11/25 · Apartment List Nov (HOM-06) · GSE Oct MF · Trepp Nov ~12/01–05 (HOM-05).
 - Not reached: Freddie and VA disaster rules; FL Realtors metro tables (images); Brevard/Orlando/Tampa association medians; FEMA RR2.0 Florida data at primary.
 
