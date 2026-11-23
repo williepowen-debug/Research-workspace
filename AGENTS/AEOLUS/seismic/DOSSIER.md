@@ -16,7 +16,7 @@
 | S-3 | no VAAC command registered; GVP down | not evidenced (gap) |
 | S-4 | no named energy asset in pulled USGS content; no registered instrument | not evidenced (gap) |
 
-**Owed #8 (due 11/15) — worker PROPOSALS, not adopted:** full text in `RUN_REPORT.md` 2026-10-29 (git history if overwritten). Headlines: **(a)** S-5 is a pure alert-state test with no consequence leg, no defined reading of the two-scale slash, and no exit/re-fire rule — proposed split into S-5a (log-only state) and S-5b (state + a dated consequence instrument). **(b)** S-2: the **OR** table is the consistent reading; the AND³ line lives in `AGENT.md` L55 and `SOURCES.md` L30 (not in README prose) and contradicts its own "M6.5 under a city … is the routable event" example.
+**Owed #8(a) RULED 2026-11-23 (WQ-731): S-5 log-only for the promotion count; Kilauea 9/07–10/17 does not count; S-5b not approved; governing text = README § PROMOTION / KILL.** Original worker PROPOSALS of 10/29, kept as history: full text in `RUN_REPORT.md` 2026-10-29 (git history if overwritten). Headlines: **(a)** S-5 is a pure alert-state test with no consequence leg, no defined reading of the two-scale slash, and no exit/re-fire rule — proposed split into S-5a (log-only state) and S-5b (state + a dated consequence instrument). **(b)** S-2: the **OR** table is the consistent reading; the AND³ line lives in `AGENT.md` L55 and `SOURCES.md` L30 (not in README prose) and contradicts its own "M6.5 under a city … is the routable event" example.
 
 ---
 

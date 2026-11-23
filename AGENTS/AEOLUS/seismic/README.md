@@ -48,13 +48,15 @@ Volcanoes and earthquakes are **not weather**. They belong to AEOLUS only where 
 | **S-2** | **Insured cat event** | **M7.0+** onshore within ~100 km of a major insured urban zone, **or** any event with a credible **>$10B insured** estimate | 🔴 **C1/C4 → REGINALD/CREED**; **CORAL** if FL; **SAM** if Japan |
 | **S-3** | **Aviation / supply chain** | ash cloud closing a **major airspace or port** >48 h | 🟠 **C5 → CARL/HENRY** |
 | **S-4** | **Energy infrastructure** | seismic/volcanic damage to **named** LNG, refining, nuclear or pipeline capacity | 🟠 **C3 → BRENT/WATT** |
-| **S-5** | **US volcano escalation** | USGS alert to **WARNING/RED**, or **WATCH/ORANGE** at a **Very High Threat** volcano | 🟡 log + watch (aviation + regional) |
+| **S-5** | **US volcano escalation** | USGS alert to **WARNING/RED**, or **WATCH/ORANGE** at a **Very High Threat** volcano | 🟡 log + watch (aviation + regional) · **alert-only event: not counted toward the promotion review (WQ-731, § PROMOTION / KILL)** |
 
 **Discriminator, and it is strict — modeled on the C6 discriminator that works:** an event routes here **only with a dated instrument and a priced or physical consequence.** Magnitude alone is not a signal. **A large earthquake in an unpopulated, uninsured area is correctly a non-event for this file**, however dramatic the number. Say so rather than logging it to look busy.
 
 ## PROMOTION / KILL
 
 - **→ core channel (C7):** if triggers fire **≥3 times in ~6 months** with real transmission each time, or a single VEI 6+ event puts a standing climate forcing on the board → **DAEDALUS maturity review, Will-gated.**
+  - **S-5 is log-only for this count (WQ-731, Will 2026-11-23 12:03 ET; `PROME/proposals/2026-11-23_wq732-follow-up-RULED.md`).** His words: *"Today S-5 logs and watches. The proposal stops an alert-only event counting as a fire toward AEOLUS's three-fires-in-six-months maturity review. That is the whole behavioural difference."* S-5 logs and watches as before. **Kilauea 2026-09-07 → 2026-10-17 does NOT count** (alert-only: summit-confined, no aviation or port effect in the sources pulled; no VAAC command was registered, so that is absence in those sources only).
+  - **Not decided by this ruling:** a firing version with a consequence leg (S-5b, NOT approved), the two-scale reading of the slash pairs, any exit/re-fire rule, and the dormancy clause below. S-1 to S-4 are unchanged.
 - **→ dormant:** if **no trigger fires within 12 months**, mark the folder dormant with a dated banner rather than leaving it to rot silently. **A quiet watch is fine; an unmaintained one that *looks* live is not.**
 
 ## FILES

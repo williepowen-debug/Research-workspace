@@ -107,3 +107,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-20T19:25Z	SIG-W-20261119-015	acted	INBOX_WALTER	Correction of card 010 (COR-20261119-15): receipt APPLIED. One rain figure set: 16.65 in 48-h prelim station max, Broward, NWS MFL PNS 11/19 via CORAL (KB-AEO-294).
 2026-11-20T19:25Z	SIG-W-20261120-007	noted	INBOX_WALTER	St. Johns near Cocoa 18.70 ft 15:15Z 11/20, forecast 18.8 Sat, above CORAL's 18.4 crest forecast. CORAL's river. Logged KB-AEO-295.
 2026-11-20T19:25Z	SIG-W-20261120-009	acted	INBOX_WALTER	Item 1 central Florida Friday rain (model output up to 17 in): checked NHC TWOAT 1 PM 11/20 at primary, Florida low stays inland, developing low heads to mid-Atlantic, 30/40%. C1 and RNR vehicle stay unarmed (KB-AEO-295). Items 2-9 not AEOLUS domain.
+2026-11-23T12:09ET	2026-11-23_from-PROME_WQ-731-ruled-approved-S5-log-only	acted	INBOX_DIRECT	Held until the cited record was committed (0b25e64458), then encoded. KB-AEO-303.

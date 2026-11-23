@@ -66,7 +66,7 @@ Individual events go to `workbook/EVENTS.tsv` (`date · type · identifier · ma
 | S-2 | insured cat | M7.0+ within ~100 km of a major insured urban zone, **or** credible >$10B insured |
 | S-3 | aviation/supply chain | ash closing a major airspace/port **>48 h** |
 | S-4 | energy infrastructure | damage to **named** LNG / refining / nuclear / pipeline capacity |
-| S-5 | US volcano | alert **WARNING/RED**, or **WATCH/ORANGE at a Very High Threat** volcano — **both legs** |
+| S-5 | US volcano | alert **WARNING/RED**, or **WATCH/ORANGE at a Very High Threat** volcano — **both legs** · log and report as before; an alert-only event does not count toward promotion (README § PROMOTION / KILL, WQ-731) |
 
 **As of 8/13: 0/5 fired.**
 
