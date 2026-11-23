@@ -1,0 +1,23 @@
+# COLDREAD SCRATCH.md rotation 2026-11-23 (read-only)
+A1 Closed out: line 3 "Disposition: CLOSED OUT 2026-11-23 17:05 ET ... Standard, end of day"; next = "FULL BOOT with a new gate run directory; no allowance carries." (⚠️ the page is uncommitted and says push receipt "once made"; closeout commit not yet evidenced.)
+A2 Line 12 (1): REGINALD+HENRY -> D:L1235 (OK, REG-T-04 2 of 3); BROCK -> D:L1232 (OK, CRMT/card 012 in row cites SIG-W-20261123-012 per page, not re-verified); RED -> "D row 11/24" = L1242 (OK, card 014 matches); TERRY -> no row of its own (tied to HY cell L1235; DOCKET L705 KRE card owed by TERRY Tue 11/24 is NOT on the page); ISHM -> no row, "by its own ledger rows", card 019 (cannot tell); NEXUS -> D:L554 (OK). Spine audit D:L1231 OK. Florida D row 11/24 = L1243 OK. D:L1127, L1174, L1205 match. L1229 (11/25 re-dated) OK. L1189, L1164, L1193, L1196, L1200, L1090, L1119, L1128, L1135, L1143, L1179, L1188, L1190, L1191 match. Mismatches below.
+A3 "(2) Then the SPINE AUDIT at once (D:L1231)".
+A4 Ruled: Will 16:33 ET word covered the sweep only (L12). Asked, unanswered: how to run the investigation (4-stage plan in chat, "proposed, not ruled"), CREED standing permission, whether RED argues other side. May start: due-row wakes/sweep; watch southeast watches; MARCO leg. Needs word: writing the plan into a Florida file and adding tasks to CORAL/REGINALD letters and a DEWEY wake (page says PROME "said it would" - a reader could treat as done/authorised); CREED standing; RED.
+A5 Line 12 "Open with Will: no decision row; the three unanswered questions ... hands rows 734 (11/27), 728, 718, 695, 687"; § Open with Will "Parked (his hands): row 687" only (fewer than item 7).
+A6 Line 26 item 7: "No edit was made after the amendment's read; a further edit needs an independent read, and the memo is at its rotation line, so the next rewrite rotates first."
+B7 Archive = PROME/archive/SCRATCH_ROTATED_2026-11-23.md (exists). C9: archive holds several figures: "C9 1 of 2" (final session line), "C9 1 of 2 (FALCON 11/21)", "C9 0 of 2" (x3). Page's own line 48 says "C9 1 of 2". Gate dir of "the 11/18 working session": archive gives df7580f6 (full boot 11/18 20:12-20:47) AND 42aca718 (11/18 working session, full boot 10:10 ET) - two, cannot tell which is meant.
+B8 Block checksums recomputed: B1 4 lines 7137 B crc 3464244181; B2 4/5370/1742339003; B3 3/1074/2691401160; B4 5/6203/1432047973. ALL MATCH the archive table.
+B9 Every archived line appears identically in HEAD:PROME/SCRATCH.md (0 missing). Dropped lines (in prior version, in neither new page nor archive): none (non-blank).
+C10 memory/2026-11-23.md exists; memory/2026-11-22.md exists; PROME/reports/2026-11-23_florida-flood-sweep/SYNTHESIS.md exists; WQ-738 record PROME/proposals/2026-11-23_wq738-RULED.md exists (page does NOT name WQ-738 at all; found via WILL_QUEUE row 69 / ls - path from the page alone: cannot tell); state/CALENDAR.md exists (as-of 11/23, lists 11/24).
+FINDINGS
+❌ 1 Line 18 (J): "CORAL's next launch brief (11/20, D:L784) carries CATO's four tests ... and the fix to D:L784" vs DOCKET L784 date cell 2026-12-04 "RE-DATED 2026-11-20 -> 2026-12-04 ... CORAL's corrected Amendment 3 sentence applied". Date wrong and "fix still owed" appears applied. Would send a stranger to wake CORAL 11/20 (already past) / redo a fix.
+❌ 2 WQ-738 anchor: task path says page leads to the WQ-738 ruling record; page has no WQ-738 mention (grep) -> anchor not recoverable from page.
+⚠️ 3 Line 19 (K): "the day's due desks (§ B)" - § B was rotated to archive Block 2; dead internal section reference.
+⚠️ 4 Line 17 (H) / line 14: "D:L1162, L1163 on 11/18" - L1162 is dated 2026-11-23, RESOLVED; L1163 11/18; page line 20 (0) says follow-ups "(D:L1162, L1163 on 11/18; D:L1164 on 11/24)": stale date. Line 20 "D:L1128 RESOLVED" matches? L1128 date 11/18, fine.
+⚠️ 5 Line 12 omits DOCKET L705 (TERRY KRE Nov-27 $67P x4 card due Tue 11/24; C5 paused by Will so possibly intended) and gives ISHM, TERRY no registered row.
+⚠️ 6 Line 3 states closeout done and "push receipt once made" while page is uncommitted; "this line is a record, not liveness" fine but pre-states evidence.
+⚠️ 7 Line 12 phrasing "PROME ... said it would write it into a Florida file and add the first tasks to CORAL's and REGINALD's letters": plan not ruled; read-with-care, risk of being executed.
+⚠️ 8 Line 14 (D): "WATT's answer on the scorer reading its archive (D:L1168...)" - L1168 contains it (item 5 region) OK; but D:L1172 WATT wake is 11/19, past.
+⚠️ 9 Section lettering skips A,B,2-4 (A/B rotated); line 7 says so.
+Weekdays checked: Mon 11/23, Tue 11/24, Wed 11/25, Fri 11/27 correct. No done-vs-not-done contradiction except #6.
+Counts: 2 ❌, 7 ⚠️

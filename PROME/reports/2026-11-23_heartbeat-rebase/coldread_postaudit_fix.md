@@ -1,0 +1,7 @@
+Edit 1: row 730 (WILL_QUEUE l73) "Done 2026-11-23 14:14 ET - RULED ... Will ... retire"; record l3 "2026-11-23 14:14 ET", l6 "WQ-730: retire". All three confirmed. OK.
+Edit 2: card 026 title+table: FRED first-published 30Y 5.47 [11/13] to 5.31 [11/20], -16 vs -10.2 line MET; 2Y -25, T10YIE -9 FUNDAMENTAL met; "moves no hypothesis weight"; "RED grades Tue 11/24" (dispatch_note). Card never says "fire"; says "precondition MET", no FALSIFICATION_FIRED_LOG row. Edit does not say fired -> consistent with kill-on-sight line 10 ("RED-FT-11 fired" banned).
+0 X. 
+W1 (wording): "WALTER reads the legs FUNDAMENTAL" - card says "On RED's letter (RED decides): FUNDAMENTAL" and confidence_language "classification is RED's". Stranger could think WALTER classified. Suggest: "the legs read FUNDAMENTAL on WALTER's card (RED decides)".
+W2 (wording): "now on FRED DGS30 too" lost its antecedent (the old "on Treasury's par curve" was removed), so "too" points at nothing; and "past the -10.2 line" does not say that is a precondition, not a fire (the ban is only on line 10).
+Counterexample: a stranger reads "past the -10.2 line, now on FRED DGS30 too" as "the falsification trigger is confirmed/met in full" = fire; the card says only the precondition is met, legs FUNDAMENTAL, RED to adjudicate. Mild, since the line-10 ban sits one line below.
+No contradiction with other memo sentences found (line 86 "fired" refers to the S&P red line, a different object).
