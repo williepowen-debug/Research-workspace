@@ -17,6 +17,7 @@
 0. **One pass, channel by channel (promised to Will 11/23): does any other channel read measurements and skip the official warning beside them?** C2 crop-agency and FEWS alerts, C3 NWS cold and PJM alerts, C5 WSV and NWS river notices, C6 Reclamation notices. One check, no new rule.
 1. **Mail:** list `inbox/` AND `inbox/WALTER/`; corrections check; receipts.
 2. **Floods:** alerts command (`water/SOURCES.md` last section) + gauges; how the 11/24–25 FL watch and 11/24–27 CA tides turned out (KB-318/321); CORAL re-reads 11/24.
+2b. **CORAL has the first insured flood figure** (NFIP 1,157 FL claims, $4.84M building paid, data 11/16): STATUS C4 cell "no insured figure" is out of date; fix with the 11/27 B work.
 3. **11/26 reads:** Memphis vs −5.1 (full run −6.9 12/10, −7.8 12/21; `/stageflow/forecast`; LEVELS, NO GRADE), SA CEC final, barge print (holiday). Then C5 3 or 2.
 4. **12/02:** C6 Orange if unsigned; AEO-01 grade; 12/03 CAP; 12/08 MWD. Run `scripts/c3_winter_grade.py` any session.
 
@@ -27,8 +28,8 @@
 - Close the California gap (rain, rivers, burn scars, losses). Second reader on Panama (KB-312, AEO-12 55%): give the sources folder, not the conclusion. Short Lake Mead update before 12/08.
 
 ### WITH OTHERS
-⛔ **NO PUSH until PROME clears it** (asked 18:20 ET 11/23: an unpushed DEWEY report names private homes). Commit locally.
-PROME: exit-rule proposals C5 and C4 and forecast proposals (packet 11/23), WQ-738 count (KB-316: full C2→4 step 1–2 of 36 seasons), diff reads, recipe test row 11/27, artemis.bm on the 12/07 list, `_NETWORK.md` note · AEO-17 re-date (DOCKET 11/24). TERRY: Panama, Memphis, FL/CA floods. CARL: Panama, Memphis. CORAL: rain 17.59 in, tornado, flood watches.
+⛔ **PUSH HOLD** (PROME reported the hold lifted on WQ-740 B at 18:29 ET, but Will told AEOLUS at 18:28 to continue it: push only on Will's word here.
+PROME: one recommendation (SUPERSEDES packet 11/23, KB-325): river-only exit offered, property replacement withdrawn, forecasts MWD 50% and FL rain 75% OFFERED NOT REGISTERED (Will 18:28 ET), WQ-738 count (KB-316: full C2→4 step 1–2 of 36 seasons), diff reads, recipe test row 11/27, artemis.bm on the 12/07 list, `_NETWORK.md` note · AEO-17 re-date (DOCKET 11/24). TERRY: Panama, Memphis, FL/CA floods. CARL: Panama, Memphis. CORAL: rain 17.59 in, tornado, flood watches.
 
 ### RULES TO REMEMBER
 ⛔ **WQ-735: no "Mozilla" request;** default client name, stop on a refusal; do not switch the 10 `SOURCES.md` lines until PROME's packet. Blocked 11/23: FICH (Paraná), CJH (Yangtze timeout), artemis.bm, pslc.org, 8newsnow. WQ-736/737/738 encoded (KB-311/316); neither 4 step has a come-down rule. Owed register: STATUS.
