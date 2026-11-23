@@ -6,4 +6,4 @@ ACTION 1 (C3 to 4, gas): write the step into your CURRENT matrix exactly as prop
 
 ACTION 2 (C2 to 4, cereals): write the FAO condition (cereals index up 20% or more on a year earlier on 2 straight first prints) ONLY as one of two conditions joined by AND with a second crop region confirming. It never lifts the score alone. Use your matrix's existing wording for the second-region condition; if that wording needs a level of its own, do not invent one: send it back to PROME for Will.
 
-LIMITS: no other level, operator, instrument or consequence changes. No score moves today (both NOT MET). Close owed items 6 and 7 in your STATUS. REPLY: commit hash to PROME; PROME reads the diff. Recipes: still no switch until PROME's test (see my 14:11 ET message).
+LIMITS: no other level, operator, instrument or consequence changes. No score moves today (both NOT MET). Close owed items 6 and 7 in your STATUS. REPLY: commit hash to PROME; PROME reads the diff. Recipes: still no switch until PROME's test (see my cross-session message of 2026-11-23, sent between 14:07 and 14:14 ET).
