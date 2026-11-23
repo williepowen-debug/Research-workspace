@@ -1,6 +1,6 @@
 # Price levels for the C3 and C2 upgrade-to-4 legs (base rates, 2026-11-23)
 
-PROPOSED, not registered. Finding: KB-AEO-310. Prices are BRENT's.
+RULED by Will 2026-11-23 (WQ-736, WQ-737; KB-AEO-311): gas adopted with an in-sample label, cereals only beside a second crop region. Base rates: KB-AEO-310. Prices are BRENT's.
 
 **Inputs (not committed):** `https://fred.stlouisfed.org/graph/fredgraph.csv?id=DHHNGSP` saved as `hh.csv` · CPC `ftp.cpc.ncep.noaa.gov/htdocs/degree_days/weighted/daily_data/<YYYY>/Population.Heating.txt` 1991-2026 saved as `hdd/<YYYY>.txt` · FAO CSV, current link taken from the FFPI page (`sfvrsn=523ebd2a_85` on 11/23), saved as `fao.csv`.
 
