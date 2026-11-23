@@ -82,10 +82,13 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 | **2026-12-10** | *Nevada v. Burgum* — federal defendants' answer due (ECF 34) | C6 | — |
 | ✅ **2026-11-02** | **C6 milestone band → YELLOW** | C6 | **GRADED YELLOW on the letter (KB-238)**. NIFC November outlook same day: AEO-09 HIT (KB-239) |
 | **2026-12-02** | **C6 milestone band → ORANGE window opens** (≤30 d) | C6 | also Orange at any time on a PI motion in *Nevada v. Burgum* |
-| **2026-11-30** | **AEO-15** Rhine test break read · **AEO-16** November 24MS Mead min read | C5 · C6 | registered 11/06 |
+| ✅ ~~2026-11-30~~ | ~~AEO-15 · AEO-16~~ **graded 11/19 (HIT · MISS)** | C5 · C6 | registered 11/06 |
+| **2026-11-24 → 26** | FL flood watches end 11/26 01:00 ET; CA coastal flood warnings to 11/26–27 | C1/C4 | outcome read next session (KB-318) |
+| **2026-11-26** | SA CEC final 2026 · Memphis vs −5.1 ft | C2 · C5 | decide C5 3 or 2 (KB-304) |
+| **2026-11-30** | AEO-01 season end | C1 | grade 12/02 |
 | **2026-12-10** | **AEO-14** CPC AO run read (window 11/07–12/04) | C3 | registered 11/06 |
 | **2026-12-20** | **AEO-17** RONI OND first print latest date (expected ~12/7) | ENSO | registered 11/06 |
-| **2026-12-04** | **Downward-coupling log owed to TERRY** — UNG card kill line after any fill: sell if AEOLUS sees no cold descending by 12/04, else by 01/08 | C3 | T1 fired 11/5 (KB-255); card commit 46bffda6c |
+| ✅ ~~2026-12-04~~ | **OVERTAKEN 11/07 (card ended, WQ-649/650):** Downward-coupling log owed to TERRY — UNG card kill line after any fill: sell if AEOLUS sees no cold descending by 12/04, else by 01/08 | C3 | T1 fired 11/5 (KB-255); card commit 46bffda6c |
 | **🔴 2027-01-01** *(secondary-sourced deadline)* | **Lower Basin implementing agreement executed + Arizona legislature concurrent resolution** | C6 | unexecuted ⇒ §5.3.A.3 *"the Secretary shall determine"* the state split of the 1.25 maf cut. **Milestone band re-keyed to this date + the lawsuit (Will-ruled 10/10, KB-205)** |
 | **watch** | ***Nevada v. Burgum*** (D. Nev. 2:26-cv-02665-GMN-NJK, filed 8/24) — seeks vacatur of the ROD/FEIS/Guidelines | C6 | a preliminary-injunction motion or ruling = the governance-vacuum path (KB-203) |
 | ✅ ~~2026-10-08~~ | ~~CPC ENSO discussion + ONI/RONI JAS~~ | ALL | **READ 10/9:** ONI JAS +2.16 · RONI +1.69 · historic odds OND 83% (KB-181). **Next CPC discussion 2026-11-12** (RONI SON = the next real test) |
