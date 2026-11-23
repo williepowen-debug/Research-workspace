@@ -5,3 +5,5 @@ receipt_date	correction_id	action	note
 2026-11-16T15:11Z	COR-20261111-14	NO-OP	scope=CORAL carries no SEC FY2026 enforcement figure. Grep of AGENTS/CORAL for SEC penalties and 1.1B found only unrelated hits (SBCF 21.1B and a voucher 1.1B); 
 2026-11-19T15:34Z	COR-20261117-02	NO-OP	scope=CORAL carries no Credit Acceptance figure - only the processed WALTER card SIG-W-20261116-005 names it - nothing to correct; 
 2026-11-19T15:34Z	COR-20261117-30	NO-OP	scope=CORAL surfaces already label ATTOM foreclosure and REO as H1 (STATUS REO row and foreclosure row) - consumed 11/17 22:0x ET; 
+2026-11-23T21:44Z	COR-20261123-13	NO-OP	scope=GPU-finance item 2 dates - CORAL logged only item 8 of card 20261116-005 (property tax) and carries no GPU figure; 
+2026-11-23T21:44Z	COR-20261119-15	APPLIED	artifact=AGENTS/CORAL/workbook/KB.tsv#ML-CORAL-181; artifact=AGENTS/CORAL/STATUS_DETAIL.md#AK; validation_ref=AGENTS/CORAL/STATUS_DETAIL.md#AK; scope=card 010 state-declaration line - CORAL sourced the correction and carried EO 26-232 on 11/19; 
