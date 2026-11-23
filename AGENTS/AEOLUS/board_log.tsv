@@ -111,3 +111,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-23T21:25Z	SIG-W-20261123-013	info-only	INBOX_WALTER	GPU-finance date correction; not AEOLUS domain.
 2026-11-23T21:25Z	SIG-W-20261123-017	acted	INBOX_WALTER	St. Johns 11/23: Lake Harney 13.09 ft above 12.67 record, Cocoa 18.58, DeLand forecast 6.1 vs 6.33. CORAL has the card; gauge values in KB-AEO-321.
 2026-11-23T21:25Z	SIG-W-20261123-018	noted	INBOX_WALTER	Items 5 and 6 only: El Nino title unread, Berkeley Earth 2026 warmest-year chart; combo:enso KB-AEO-321.
+2026-11-23T21:47Z	SIG-W-20261123-023	info-only	INBOX_WALTER	Correction of 015/018: Iran wording and DNI/Delta items; not AEOLUS domain, items 5 and 6 of 018 untouched.

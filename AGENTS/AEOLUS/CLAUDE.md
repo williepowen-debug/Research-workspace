@@ -27,9 +27,9 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 2. **Read `SCRATCH.md`** — where you left off; the single most important "pick up here."
 3. **Read `STATUS.md`** — convergence matrix, live channel reads, exit triad, BOTTOM LINE.
 4. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows (**operation: a column-scoped `awk -F'\t'` over ID / resolution-date / status — never a whole read; the file is ~45 KB of notes**, READS.tsv `scoped`, declared 2026-10-21) → mark HIT / MISS / FALSIFIED; log resolution to KB.tsv; never leave OPEN-but-stale (PREDICTIONS section).
-5. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`. WALTER-lane handoffs (`inbox/WALTER/`) drain per the block below.
+5. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`. WALTER-lane handoffs (`inbox/WALTER/`) drain per the block below. **Repeat the listing of both folders before any brief to Will and at closeout (Will 2026-11-23).**
 5a. **Combination watch (WQ-622 A, `PROME/COMBINATION_WATCH.md`):** in the session a card, sweep or print arrives, a small item that may matter later or in combination goes in a dated `workbook/KB.tsv` row with `combo:<theme>` first in Notes, plus read state, counterevidence and what would make it matter. Logging moves no score, band or trigger. `grep combo: workbook/KB.tsv` lists the themes.
-6. **Channel-liveness check** — for each of C1–C6, is there a *current, dated* live read? Any channel without one is a **gap to close this session** (the #1 guard), not idle background. Also scan `CALENDAR.md` for any dated catalyst within ~30 days (C6 Colorado River ROD clock lives there). ⚠️ **`seismic/` is NOT part of this check** — it is an event-triggered watch with no standing read obligation (see FILES § Domain workspaces).
+6. **Channel-liveness check** — for each of C1–C6, is there a *current, dated* live read? The C1/C4 coastal and flood read includes the NWS alerts command (`water/SOURCES.md` § COASTAL AND FLOOD ALERTS), not gauges alone. Any channel without one is a **gap to close this session** (the #1 guard), not idle background. Also scan `CALENDAR.md` for any dated catalyst within ~30 days (C6 Colorado River ROD clock lives there). ⚠️ **`seismic/` is NOT part of this check** — it is an event-triggered watch with no standing read obligation (see FILES § Domain workspaces).
 6b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" AEOLUS` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then write the receipt in the form its action REQUIRES (WQ-399, Will 2026-10-08 — the writer refuses an incomplete receipt, rc 2, nothing written):
    `... AEOLUS --receipt <COR-id> --action APPLIED --artifact <path#key> [--artifact ...] --validation-ref <path#key|NONE> [--scope <text>] [--note "<text>"]`
    `... AEOLUS --receipt <COR-id> --action NO-OP --scope <text> [--artifact <path#key>] [--note "<text>"]`
@@ -48,7 +48,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 
 *(Installed 2026-07-22 by DAEDALUS per WALTER's 7/11 Will-directed ask — canonical §8.1 template.)*
 
-At boot, after STATUS / MEMORY / LAST_COMPLETION:
+At boot, after STATUS:
 
 1. List AGENTS/AEOLUS/inbox/WALTER/*.md not yet in your board_log.tsv.
    (If board_log.tsv does not exist, create it with the v0.2 header:
@@ -62,6 +62,7 @@ At boot, after STATUS / MEMORY / LAST_COMPLETION:
 
 ## CLOSEOUT PROTOCOL (before idle)
 
+0. **Mail** — list `inbox/` and `inbox/WALTER/`; drain anything new (boot step 5).
 1. **Update `STATUS.md`** — matrix scores, live reads (sourced + dated), exit triad fired-count, refreshed BOTTOM LINE.
 2. **Log to workbook** — new facts → `KB.tsv`; vector state changes → `VX.tsv`; new/confirmed pathways → `FLOW.tsv`; new forecasts → `PREDICTIONS.tsv` (AEO-NN).
 
@@ -99,7 +100,7 @@ python3 "$(git rev-parse --show-toplevel)/AGENTS/AEOLUS/scripts/domain_log_check
 - **Migration / labor-supply / tourism** → **MARCO**.
 - **Bank / CRE / muni credit** exposure → **REGINALD / CREED**.
 
-**Boundary rule:** signal in another agent's domain → write to `outbox/` as a task packet. Don't deep-dive it.
+**Boundary rule:** signal in another agent's domain → write a packet to the owner's `inbox/` (§ MAIL / MESSAGING). Don't deep-dive it.
 
 ---
 
@@ -246,9 +247,11 @@ Route to the **domain owner**, not the transmission-adjacent agent. Outbox = cri
 
 ## MAIL / MESSAGING
 
-Flat-folder model: `inbox/` (inbound), `inbox/processed/` (integrated), `outbox/` (outbound, one `.md` per signal). *(HERMES mail-carrier is deprecated under the messaging overhaul — write packets directly to the target's `inbox/`; do not rely on a sweeper.)*
+Flat-folder model: `inbox/` (inbound), `inbox/processed/` (integrated). **Outbound: write the packet directly to the recipient's `inbox/`** (PROME: `PROME/inbox/` at the repo root), commit it under carve-out ①. `outbox/` = 🔴 crisis only.
 
-Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2–3 sentences) / Source / Priority 🔴🟠🟡.
+**Desks running now:** follow `MESSAGING/CROSS_SESSION_MESSAGING.md`; a message carries a pointer, the packet carries the content.
+
+Packet filename: `YYYY-MM-DD_from-AEOLUS_[desc].md`. Format: Signal / Detail (2–3 sentences) / Source / Priority 🔴🟠🟡.
 
 ---
 
