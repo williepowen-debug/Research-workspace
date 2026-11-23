@@ -20,6 +20,8 @@ Usage:
   .venv/bin/python3 AGENTS/HENRY/scripts/boot.py --quick     # skip credit + gamma (slower external pulls)
   .venv/bin/python3 AGENTS/HENRY/scripts/boot.py --verbose   # full credit_monitor output
   .venv/bin/python3 AGENTS/HENRY/scripts/boot.py --selftest  # assert the due-scan logic fires
+  .venv/bin/python3 AGENTS/HENRY/scripts/boot.py --source vendor  # gamma skips Cboe entirely (no request sent;
+                                                                  # use while Cboe refuses this box). Default auto.
 
 Note (per Prome/ORC 6/15): boot.py does NOT prevent spawn-cadence staleness gaps —
 no kit runs while HENRY is asleep. Its payoff is (1) a clean live pull that can't be
@@ -133,13 +135,13 @@ def live_tape():
 
 
 # -------------------------------------------------------------------- (b) GAMMA
-def gamma(asof=None):
-    print(f"\n{'─'*64}\n  (b) GAMMA  ·  SPX dealer-gamma flip (gamma_flip.py, free-tier)\n{'─'*64}")
+def gamma(asof=None, source="auto"):
+    print(f"\n{'─'*64}\n  (b) GAMMA  ·  SPX dealer-gamma flip (gamma_flip.py, free-tier, --source {source})\n{'─'*64}")
     try:
         if str(SCRIPTS_DIR) not in sys.path:
             sys.path.insert(0, str(SCRIPTS_DIR))
         from gamma_flip import compute_gamma_flip
-        r = compute_gamma_flip(asof=asof, horizon=14)  # boot-fast; flip stable vs 35d (7,521 vs 7,522)
+        r = compute_gamma_flip(asof=asof, horizon=14, source=source)  # boot-fast; flip stable vs 35d (7,521 vs 7,522)
     except Exception as e:  # noqa: BLE001
         print(f"  ⚠️  gamma_flip failed: {str(e)[:200]}")
         return
@@ -733,8 +735,18 @@ def selftest():
 
 
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        return 0
     if "--selftest" in sys.argv:
         return selftest() or selftest_reader() or selftest_triage()
+    if str(SCRIPTS_DIR) not in sys.path:
+        sys.path.insert(0, str(SCRIPTS_DIR))
+    from gamma_flip import parse_source, SOURCES
+    source = parse_source()
+    if source is None:
+        print(f"boot.py: unknown --source (choose {', '.join(SOURCES)})")
+        return 2
     quick = "--quick" in sys.argv
     verbose = "--verbose" in sys.argv
     t0 = time.time()
@@ -742,7 +754,7 @@ def main():
     print(f"\n{'='*64}\n  HENRY BOOT KIT (v1)   ·   {now:%A, %B %d, %Y  %H:%M}\n{'='*64}")
     live_tape()
     if not quick:
-        gamma()
+        gamma(source=source)
         credit(verbose=verbose)
     else:
         print("\n  (b) GAMMA + (c) CREDIT — skipped (--quick)")

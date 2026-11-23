@@ -25,6 +25,12 @@ reads; don't trust the exact level within ~30-40pts of a crossing.
 
 Usage: .venv/bin/python3 AGENTS/HENRY/scripts/gamma_flip.py [--days N | --both]
            [--asof YYYY-MM-DD] [--underlying SPX|QQQ|NDX] [--spot PRICE] [--publish [--note TEXT]]
+           [--source auto|cboe|yfinance|vendor]
+
+--source (2026-11-23, DOCKET L1226): "auto" (default) tries Cboe then the vendor
+chain; "vendor"/"yfinance" sends NO request to Cboe (use while Cboe refuses this
+box; never work around a refusal); "cboe" fails rather than fall back. A vendor
+read is never published (--publish still refuses any non-Cboe chain).
 
 --underlying (2026-10-29, Will-directed): QQQ and NDX use the same naive dealer
 convention on their own Cboe chains. QQQ is an American-style ETF option and only
@@ -377,16 +383,39 @@ def _print_read(r, horizon):
     print("  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)")
 
 
+SOURCES = {"auto": "auto", "cboe": "cboe", "yfinance": "yfinance", "vendor": "yfinance"}
+
+
+def parse_source(argv=None):
+    """--source auto|cboe|yfinance (alias vendor). 2026-11-23 (DOCKET L1226, PROME
+    go-ahead): with Cboe refusing this box (403 since 11/20), `--source vendor`
+    skips the Cboe request entirely, so a session never knocks on a site that has
+    refused it. Default stays "auto". Returns the source string, or None if invalid."""
+    argv = sys.argv if argv is None else argv
+    if "--source" not in argv:
+        return "auto"
+    i = argv.index("--source")
+    val = argv[i + 1].lower() if i + 1 < len(argv) else ""
+    return SOURCES.get(val)
+
+
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        return 0
     asof = _flag("--asof", None)
     u = _flag("--underlying", "SPX").upper()
     if u not in UNDERLYINGS:
         print(f"gamma_flip: unknown --underlying {u} (choose {', '.join(UNDERLYINGS)})")
         return 2
+    source = parse_source()
+    if source is None:
+        print(f"gamma_flip: unknown --source (choose {', '.join(SOURCES)})")
+        return 2
     spot = _flag("--spot", None)
     pub = "--publish" in sys.argv
     note = _flag("--note", "")
-    kw = {"underlying": u, "spot_override": spot}
+    kw = {"underlying": u, "spot_override": spot, "source": source}
     if "--both" in sys.argv:
         reads = {}
         for h in (14, 35):
