@@ -24,6 +24,7 @@
 
 ### OFFERED TO WILL, NOT ANSWERED OR NOT APPROVED (except the first)
 - WALTER to route FL/CA flood and coastal flood warnings and flash flood emergencies between sessions: **SENT 11/23 on Will's word (17:06 ET); WALTER answered 17:08 ET: ran once, nothing new; standing check NOT adopted, needs Will's word in WALTER's session (WALTER recommends yes)** (`AGENTS/WALTER/inbox/2026-11-23_from-AEOLUS_nws-flood-alerts-FL-CA-request.md`). WALTER runs only in sessions, so this is not round-the-clock.
+- Five climate routing edits packet to WALTER 11/23 (`AGENTS/WALTER/inbox/2026-11-23_from-AEOLUS_climate-routing-five-edits.md`): held for Will's word in WALTER's session; line 4 needs CORAL's view first.
 - Register two winter-rain forecasts (FL DJF wettest third ~80%, CA South Coast ~65%; NCEI climdiv) and one on the Lower Basin signing (no open row covers it).
 - Close the California gap (rain, rivers, burn scars, losses). Second reader on Panama (KB-312, AEO-12 55%): give the sources folder, not the conclusion. Short Lake Mead update before 12/08.
 
