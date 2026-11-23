@@ -1078,8 +1078,9 @@ def main():
             print(f"      EDGAR same issuer in batch window: {'; '.join(c['edgar_overlap'])} "
                   "(if this is the same event, the existing route stands: no second dispatch)")
     print(f"\n[GPU_FINANCE_REVIEW — {len(gpu)} open]  (ROUTINE human review of GPU depreciation / collateral / "
-          "GPU-backed loan / residual-value headlines, owners VULCAN and BROCK; never auto-dispatch; read the source, "
-          "date the event (reposts carry fresh dates), check BOARD and owner KB, then --gpu-disposition)")
+          "GPU-backed loan / residual-value headlines, owners VULCAN and BROCK; never auto-dispatch; screen by "
+          "BOOT_PROTOCOL 7e(g2): material = read the source, date the event, check BOARD and owner KB; title-screened = "
+          "NOTE 'TITLE ONLY; source not reviewed'; then --gpu-disposition)")
     for e in gpu_errors:
         print(f"  ERROR {e}")
     if not gpu and not gpu_errors:
