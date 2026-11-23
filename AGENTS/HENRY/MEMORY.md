@@ -53,16 +53,15 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-21, prome-77 LATE wake 18:02–18:14 ET (laptop; Claude Code, Opus 5.5). Closed on PROME's 18:13 ET ask.
+### CHANGES SINCE — 2026-11-23, prome-77 DOCKET L1226 wake 12:05–12:2x ET (laptop; Claude Code, Opus 5.5). Closeout asked in the spawn prompt.
 
-- **Late wake:** laptop slept 14:53 ET 11/20 to 17:50 ET 11/21; the 16:05 close read never ran. Read Friday final bars Saturday.
-- **Red line FIRED on the 11/20 close** (6,910.39 vendor, −11.62%); signal to WALTER (SIG-W-20261121-004, WALTER committed my packet in `b0243970a6`). HEN-64 event YES but OPEN by its letter (FRED SP500 governs; posts Mon 11/23). HEN-65 registered 0.40 (close ≤6,700, 11/23–12/4).
-- **Vendor weekend chain IVs are broken** (median 12.5% with VIX 35.9): the script's flip-at-spot, zero-gamma read is an artifact. Rebuild on VIX-term vol (scratch method in `research/2026-11-21_close-read/CLOSE.md` §3): NEGATIVE −52 to −57, flat 6,400–7,100, flip band ~7,420–7,680.
-- **`gamma_flip.py` and `boot.py` hit Cboe first by default** (source="auto"; `--help` is not parsed and runs the full read). With Cboe refusing, call `compute_gamma_flip(source="yfinance")` from Python; a `--source` switch is a draft for PROME.
-- ugrep complexity limit bit again on a `.{0,60}(...)` context grep; use plain `grep -F` for stale-state sweeps.
+- **HEN-64 RESOLVED-HIT** on FRED SP500 11/20 6,910.39 (Brier 0.36). **Red line confirmed on FRED** (FRED peak 7,818.93 [10/6] re-derived). VIXCLS 11/20 35.89. FRED HY 11/20 376 (+24), CCC 1,402.
+- **`--source auto|cboe|yfinance|vendor` built** on `gamma_flip.py` and `boot.py` (PROME go-ahead): while Cboe refuses, run `boot.py --source vendor` and `gamma_flip.py --both --source vendor`; zero Cboe requests. `--help` now prints usage. Publishing still needs the Cboe chain.
+- 11/23 midday: S&P +4.85% gap (NVDA +32%), back over red; cause UNVERIFIED (web search had no 11/23 coverage). Vendor in-session IVs healthy (near-ATM 24.3% with VIX 28): the weekend IV defect is a weekend-only artifact.
+- Forward view: retest close under 7,037.04 by 12/4 about 45%, HEN-65 current view about 20% (letter frozen 0.40), both unscored. TERRY packet sent.
 
 ### NEXT SESSION
 
-1. **Mon 11/23:** FRED SP500 11/20 → grade HEN-64 (HIT if <7,100, Brier 0.36) and confirm the red line; VIXCLS 11/20; FRED HY/BB/CCC 11/20 (my marker: HY ≥ ~370). Monday close read opens HEN-65.
-2. Cboe: refused since 11/20; never retry around it. HEN-64 resolves 11/25; FOMC 12/9 (HEN-63 0.70).
+1. **11/23 close:** S&P vs 7,037.04 / 7,200 with VIX under 30 (11/21 upside marker); FRED Tue. **Tue 11/24:** FRED HY 11/23 — ≤ ~355 toward a V, ≥376 with equities up = unconfirmed rally. HEN-65 window to 12/4.
+2. Cboe: use `--source vendor`; never work around a refusal. FOMC 12/9 (HEN-63 0.70).
 3. LESSONS rotation (76%); dashboard v6 stale; DAEDALUS K38–K52.
