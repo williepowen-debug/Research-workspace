@@ -1,0 +1,5 @@
+date	instrument	value	unit	source	pulled_at	notes
+2026-10-09	sa_corn_prod_kt	16500	kt	USDA-PSD-grains_pulses_csv	2026-11-23 15:48 ET	+0.48% vs 16421 kt; MY2026/27 (2027 harvest); frozen mean per the 10/10 band; pre-planting placeholder; from KB-AEO-198, not re-pulled
+2026-11-10	sa_corn_prod_kt	15000	kt	USDA-PSD-grains_pulses_csv	2026-11-23 15:48 ET	-8.65% vs 16421 kt; MY2026/27; re-read from the 11/10 file on 11/23
+2026-10-09	aus_wheat_prod_kt	31000	kt	USDA-PSD-grains_pulses_csv	2026-11-23 15:48 ET	-10.32% vs 34567 kt; MY2026/27; mean of MY2021-25; from the 10/10 source file, not re-pulled
+2026-11-10	aus_wheat_prod_kt	32500	kt	USDA-PSD-grains_pulses_csv	2026-11-23 15:48 ET	-5.98% vs 34567 kt; MY2026/27; re-read from the 11/10 file on 11/23

@@ -1,0 +1,4 @@
+date	event	detail	source	pulled_at	routed_to
+2026-10-27	sa_cec_intentions	CEC planting intentions: maize 2,387,200 ha, -12.37% y/y (area, not production). KB-AEO-224	SA CEC PDF	2026-11-23 15:48 ET	
+2026-11-10	wasde	SA corn 16,500 to 15,000 kt (-8.65%), Australia wheat 31,000 to 32,500 (-5.98%); neither Yellow line (-15%) met. KB-AEO-273	USDA PSD 2026-11-10	2026-11-23 15:48 ET	
+2026-11-23	psd_base_revision	The 11/10 file carries SA corn MY2025 at 18,400 kt, so the trailing mean recomputes to 16,481; the registered band stays at 16,421 / 13,958 as ruled. KB-AEO-315	USDA PSD 2026-11-10	2026-11-23 15:48 ET	
