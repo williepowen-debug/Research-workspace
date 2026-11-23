@@ -1,6 +1,6 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-23T20:48:52Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-7f on the laptop, Monday 11/23. Will's word in this session at 15:44 ET: "Lets close out here". **Tier 2 FULL closeout.** No light breadcrumbs owed. The prior version (walter-7f, 2026-11-20T18:27:20Z FULL) is preserved verbatim at research/2026-11-23_closeout/LC-ROTATED.md and stays binding where open.
+Updated 2026-11-23T20:49:11Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-7f on the laptop, Monday 11/23. Will's word in this session at 15:44 ET: "Lets close out here". **Tier 2 FULL closeout.** No light breadcrumbs owed. The prior version (walter-7f, 2026-11-20T18:27:20Z FULL) is preserved verbatim at research/2026-11-23_closeout/LC-ROTATED.md and stays binding where open.
 
 ## RESUME — do these first
 
@@ -71,12 +71,12 @@ Unchanged. Verbatim at research/2026-11-11_light-closeout/LC-ROTATED.md § OPEN 
 
 ## CLOSEOUT RECEIPT
 
-Tier 2 FULL closeout, walter-7f, laptop. Prior: FULL 2026-11-20T18:27:20Z. Publication is not consumption. Session commits reached origin before this closeout through WALTER's and other sessions' pushes (merge-base checked after fetch). This closeout commit is pushed via scripts/safe-push.sh.
+Tier 2 FULL closeout, walter-7f, laptop. Prior: FULL 2026-11-20T18:27:20Z. Publication is not consumption. Session commits reached origin before this closeout through WALTER's and other sessions' pushes (merge-base checked after fetch). The closeout commit ea74f480c1 was pushed via scripts/safe-push.sh (CONFIRMED on origin/master); the delivery-reconcile commit follows it.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-23T20:48:52Z",
+  "as_of": "2026-11-23T20:49:11Z",
   "next_review": "2026-11-24",
   "publication": [
     {
@@ -123,13 +123,18 @@ Tier 2 FULL closeout, walter-7f, laptop. Prior: FULL 2026-11-20T18:27:20Z. Publi
       "commit": "eff606c6ae",
       "state": "published",
       "note": "cards 012, 013; reconciliation"
+    },
+    {
+      "commit": "ea74f480c1",
+      "state": "published",
+      "note": "closeout; cards 014, 015"
     }
   ],
   "delivery": {
     "signal_date": "20261123",
     "total": 120,
-    "delivered": 112,
-    "note": "8 rows (cards 014, 015) pending this closeout push; 29 distinct recipients. Delivered is not consumed. CARL and PROME INFO by BOARD diff (RED too, except ACTION on 014); TERRY BOARD-only"
+    "delivered": 120,
+    "note": "all 120 rows delivered after origin proof (last 8 at closeout); 29 distinct recipients. Delivered is not consumed. CARL and PROME INFO by BOARD diff (RED too, except ACTION on 014); TERRY BOARD-only"
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
