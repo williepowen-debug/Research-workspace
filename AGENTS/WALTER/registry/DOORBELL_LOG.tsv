@@ -594,3 +594,7 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-23	SAM	SIG-W-20261123-011	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 13:58 ET; UNKNOWN by 9b; ROUTINE context, no dated referent.
 2026-11-23	VULCAN	SIG-W-20261123-011	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 13:58 ET; last STATUS commit 11/23 12:22 ET; ROUTINE context.
 2026-11-23	BROCK	SIG-W-20261123-011	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 13:58 ET; last STATUS commit 11/23 12:15 ET; ROUTINE context.
+2026-11-23	RED	SIG-W-20261123-014	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 15:40 ET; UNKNOWN by 9b; RED reads FRED at its own session; PROME INFO by BOARD diff.
+2026-11-23	FALCON	SIG-W-20261123-015	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 15:40 ET; PROME has FALCON on Wed 11/25; ROUTINE.
+2026-11-23	BROCK	SIG-W-20261123-012	NONE	L1-UNKNOWN	NO	NA	NA	NA		PROME triage 14:35 ET: BROCK Tue 11/24 wake names the card.
+2026-11-23	VULCAN	SIG-W-20261123-012	NONE	L1-UNKNOWN	NO	NA	NA	NA		PROME triage 14:35 ET: VULCAN Wed 11/25 row names the card.

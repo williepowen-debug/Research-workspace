@@ -456,3 +456,9 @@ November 18 Wednesday (walter-89, desktop): two owner packets (LIQUID HY, DEWEY 
 Session note rotated verbatim from MEMORY.md at the 11/20 full closeout (walter-7f):
 
 November 19 Thursday (walter-fc, laptop): PROME launched WALTER and the desks in small waves on Will's word (memory capped at 6 GB). Owners corrected three of 21 cards the same day, each with a primary WALTER could have read (kremlin.ru, the Governor's order list, Hunterbrook's report). Inbox re-listing at breaks worked: owner packets were read within the hour. Rotation of the 11/18 note: MEMORY_PROMOTED.md § Rotation 2026-11-19T19:03:30Z.
+
+## Rotation 2026-11-23T20:46:58Z
+
+Session note moved verbatim from MEMORY.md:
+
+November 20 Friday (walter-7f, laptop): late WQ-709 launch (11:23 ET), FLASH within 7 minutes of the first tape read. Owners corrected two cards the same day; both errors came from search summaries standing in for a primary (MUFG's own notice; Russia's MFA channel). Will found an event WALTER missed (Dutch embassy, 11/19) from his own reading. Rotation of the 11/19 note: MEMORY_PROMOTED.md § Rotation 2026-11-20T18:26:58Z.

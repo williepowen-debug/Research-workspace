@@ -19,3 +19,19 @@ Written 2026-11-23T17:25:21Z (date command). RED scan banner sha 7358ccf1 matche
 | HANS-T-11 | EURUSD 1.0892 intraday: not near 1.05 |
 | RED-FT-03, -04 | BZF27 89.93 vendor intraday, provisional: neither line near; no settlement read |
 | NOT READ, not cleared | HANS-T-05, 06, 08, 09, 10, 13; RED-FT-11; monthly and qualitative CREED rows; Cushing (no new WPSR) |
+
+## Continuation, 2026-11-23T20:43:27Z (date command), after the connectivity gap
+
+Resumption refresh 15:40 ET: VIX 26.76 (high since about 14:30 ET 27.61), S&P 7,256.94 (low 7,223.37), vendor 5-minute bars, not closes. No upward crossing.
+
+| IDs | Result |
+|---|---|
+| HANS-T-05 | Bund 3.27 [TE page dated 11/23, close or intraday not labelled]; ECB-basis not read; WATCH over 3.00 stays open, orange 3.75 is 48 bp away |
+| HANS-T-06, T-13 | Gilt 10Y 5.20, 30Y 5.66 [TE 11/23]: not met (30 bp and 34 bp under) |
+| HANS-T-09 | BTP 4.35, spread about 107 bp [TE 11/23]: not met, both legs |
+| HANS-T-10 | ideal-investisseur rows 11/20 4.87 / 155.4 bp, 11/23 4.83 / 153.1 bp: both fire legs met, stays OPEN, exit 0 of 5 (read via the .fr host; HANS named the .com path, whose certificate mismatched) |
+| HANS-T-08 | HANS's own 11/23 row, gap -17.66 pp [11/21], FIRED-OPEN: not re-read by WALTER |
+| RED-FT-11 | FRED DGS30 ends 11/19 at this read: 5-session change -3 bp, no precondition. Treasury par 11/20: 30Y 5.31 from 5.47 [11/13] = -16 bp, at the -10.2 line if FRED posts the same. Provisional legs on Treasury par: 30Y-5Y +11 bp, 2Y -25 bp, T10YIE -9 bp [FRED, 2.24 to 2.15]: FUNDAMENTAL by RED's letter, no weight. Await FRED |
+| CREED-T-08a | price-only 63-session VNQ less SPY +0.33 pp [11/23 intraday]; the row is total return; fired state stands, no exit registered |
+| CREED monthly rows | CREED STATUS 11/16: October graded; next Trepp November about 12/1 to 12/3; FDIC Q3 QBP about 11/25 |
+| Boot-context reads (FILTER_SPEC) | FORGE header and first rows, RED CATALYSTS through 12/2, trailing 48 h kill and route logs read; other STATUS heads not read |
