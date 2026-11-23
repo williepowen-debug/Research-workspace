@@ -590,3 +590,7 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-06	VULCAN	SIG-W-20261106-030	NONE	LIVE	NO	NA	0	NA		Live at dispatch in ListAgents; WALTER direct doorbell sent, not a rule 13 row.
 2026-11-06	LIQUID	SIG-W-20261106-029	NONE	LIVE	NO	NA	0	NA		Live at dispatch in ListAgents; WALTER direct doorbell sent, not a rule 13 row.
 2026-11-06	HANS	SIG-W-20261106-031	NONE	LIVE	NO	NA	0	NA		Live at dispatch in ListAgents; WALTER direct doorbell sent, not a rule 13 row.
+2026-11-23	BOND	SIG-W-20261123-010	CADENCE:p75=4d/dark=5d(nr,n=33)	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 13:58 ET; PROME-run subagents are not visible here, so UNKNOWN not DARK by 9b; PROME told by message after commit.
+2026-11-23	SAM	SIG-W-20261123-011	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 13:58 ET; UNKNOWN by 9b; ROUTINE context, no dated referent.
+2026-11-23	VULCAN	SIG-W-20261123-011	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 13:58 ET; last STATUS commit 11/23 12:22 ET; ROUTINE context.
+2026-11-23	BROCK	SIG-W-20261123-011	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 13:58 ET; last STATUS commit 11/23 12:15 ET; ROUTINE context.

@@ -657,6 +657,60 @@
         "2026-11-23"
       ],
       "closed": "2026-11-23T17:24:54Z"
+    },
+    "gpu:24af47b02b17": {
+      "title": "SpaceX Lenders Want Nvidia Chips Kept on Earth: $1.5B Risk - shattered.io",
+      "disposition": "NOTE",
+      "ref": "SIG-W-20261123-011 item 4: article not found, claim unverified",
+      "days": [
+        "2026-11-22"
+      ],
+      "closed": "2026-11-23T19:00:58Z"
+    },
+    "gpu:10aa38e737b9": {
+      "title": "Arbol launches parametric protection against faster GPU depreciation - Life Insurance International",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261123-011 item 3",
+      "days": [
+        "2026-11-23"
+      ],
+      "closed": "2026-11-23T19:00:58Z"
+    },
+    "gpu:53f91e9cf461": {
+      "title": "Nvidia H100 Rental Prices Rise as AI Chip Demand Strengthens - Limapagi",
+      "disposition": "NOTE",
+      "ref": "page unreadable; subject covered SIG-W-20261123-011 items 1, 2",
+      "days": [
+        "2026-11-23"
+      ],
+      "closed": "2026-11-23T19:00:58Z"
+    },
+    "gpu:8f5c2a6c8ed3": {
+      "title": "The Long Game: Perspectives on GPU Residuals - Janus Henderson Investors - Commentaries - Advisor Perspectives",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261123-011 item 1",
+      "days": [
+        "2026-11-23"
+      ],
+      "closed": "2026-11-23T19:00:58Z"
+    },
+    "gpu:25cdd7f333c7": {
+      "title": "KOSPI Could Fall Into Upper 3,000s, NH Investment Warns - Businesskorea",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261123-011 item 5",
+      "days": [
+        "2026-11-23"
+      ],
+      "closed": "2026-11-23T19:00:58Z"
+    },
+    "gpu:d38244621d37": {
+      "title": "Microsoft offers voluntary buyouts to about 60,000 employees, and Satya Nadella says AI is why - Crypto Briefing",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261027-006",
+      "days": [
+        "2026-11-23"
+      ],
+      "closed": "2026-11-23T19:00:59Z"
     }
   }
 }

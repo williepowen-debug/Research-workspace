@@ -4,6 +4,6 @@ Baker Hughes rig count	week to 11/20	2026-11-20 13:00	BRENT	OWNER-COMPLETED	f7fd
 Kataib Hezbollah deadline	11/20	2026-11-20 12:00	FALCON	OWNER-COMPLETED	FALCON KB-537: forces entered Jurf al-Sakhar under a deal, no clash
 FRED HY, CCC, VIXCLS, SP500	2026-11-20 obs	2026-11-23	REGINALD/HENRY/VIOLET	PUBLISHED, ROUTED	SIG-W-20261123-002, -003; f1a68a2220; c43fd43fe8
 Chicago Fed CFNAI	October	2026-11-23 08:30	ISHM	PUBLISHED, ROUTED	FRED CFNAI -0.06; SIG-W-20261123-007 item 7; issuer release text not read
-NY Fed Williams remarks	11/23	2026-11-23	HENRY/BOND	UNKNOWN	titles only; text not read
-Treasury auctions	11/23	2026-11-23	BOND	UNKNOWN	not checked
-10Y TIPS reopening result	11/19	2026-11-19 13:00	BOND	UNKNOWN	carried from 11/20; not re-checked
+NY Fed Williams remarks	11/23	2026-11-23	HENRY/BOND	UNKNOWN	no 11/23 text or report found as of 14:00 ET; NY Fed speeches listing (helper read) shows no Williams entry after 9/29; remarks later today possible; SIG-W-20261123-010
+Treasury auctions	11/23	2026-11-23 13:00	BOND	PUBLISHED, ROUTED	2Y 91282CRY9 at TreasuryDirect; indirect 51.54 vs frozen I-prime 54.67; SIG-W-20261123-010; BOND grade pending; bills 13W, 26W not analysed
+10Y TIPS reopening result	11/19	2026-11-19 13:00	BOND	PUBLISHED, ROUTED	91282CRE3 at TreasuryDirect, 2.903, BTC 2.43; SIG-W-20261123-010; BOND grade pending
