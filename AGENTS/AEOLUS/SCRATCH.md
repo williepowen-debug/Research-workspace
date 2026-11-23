@@ -28,7 +28,7 @@
 - Close the California gap (rain, rivers, burn scars, losses). Second reader on Panama (KB-312, AEO-12 55%): give the sources folder, not the conclusion. Short Lake Mead update before 12/08.
 
 ### WITH OTHERS
-⛔ **PUSH HOLD** (PROME reported the hold lifted on WQ-740 B at 18:29 ET, but Will told AEOLUS at 18:28 to continue it: push only on Will's word here.
+*(Push hold ended: Will "ok go" in AEOLUS chat 18:56 ET 11/23; the report it concerned was already on origin.)*
 PROME: one recommendation (SUPERSEDES packet 11/23, KB-325): river-only exit offered, property replacement withdrawn, forecasts MWD 50% and FL rain 75% OFFERED NOT REGISTERED (Will 18:28 ET), WQ-738 count (KB-316: full C2→4 step 1–2 of 36 seasons), diff reads, recipe test row 11/27, artemis.bm on the 12/07 list, `_NETWORK.md` note · AEO-17 re-date (DOCKET 11/24). TERRY: Panama, Memphis, FL/CA floods. CARL: Panama, Memphis. CORAL: rain 17.59 in, tornado, flood watches.
 
 ### RULES TO REMEMBER
