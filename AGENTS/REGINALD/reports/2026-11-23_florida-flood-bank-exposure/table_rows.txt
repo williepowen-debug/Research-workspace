@@ -1,0 +1,30 @@
+| SBCF | Seacoast National Bank | 2.09 (15) | 12.4% | 7.43 (37) | 44.2% | 16.80 | 230% | 40% | 22% | 0.81% |
+| USCB | U. S. Century Bank | 0.00 (0) | 0.0% | 2.48 (10) | 100.0% | 2.48 | 347% | 13% | 102% | 0.15% |
+| AMTB | Amerant Bank, National Association | 0.00 (0) | 0.0% | 8.23 (22) | 98.4% | 8.36 | 218% | 49% | 24% | 2.96% |
+| BKU | BankUnited, National Association | 0.10 (2) | 0.3% | 19.83 (38) | 68.2% | 29.09 | 201% | 17% | 32% | 2.44% |
+| OPHC | OptimumBank | 0.00 (0) | 0.0% | 1.22 (4) | 100.0% | 1.22 | 504% | 33% | 38% | 1.20% |
+| BPOP (Popular Bank sub) | Popular Bank | 0.00 (0) | 0.0% | 3.95 (12) | 33.1% | 11.93 | 311% | 74% | 113% | 0.68% |
+| HOMB (Centennial) | Centennial Bank | 0.02 (1) | 0.1% | 2.88 (20) | 14.7% | 19.56 | 258% | 88% | 40% | 0.72% |
+| SSB | SouthState Bank, National Association | 1.38 (13) | 2.4% | 3.62 (21) | 6.4% | 56.38 | 282% | 40% | 37% | 0.72% |
+| VLY | Valley National Bank | 0.16 (3) | 0.3% | 3.94 (14) | 7.2% | 54.34 | 327% | 35% | 127% | 1.23% |
+| FHN | First Horizon Bank | 0.12 (3) | 0.2% | 5.68 (26) | 8.3% | 68.79 | 153% | 17% | 39% | 0.97% |
+| FLG | Flagstar Bank, National Association | 0.00 (0) | 0.0% | 3.32 (25) | 4.9% | 67.52 | 332% | 14% | 269% | 5.58% |
+| PNFP (Pinnacle) | Pinnacle Bank | 0.55 (5) | 0.5% | 3.22 (22) | 3.2% | 102.25 | 243% | 50% | 41% | 0.61% |
+| TFC (Truist) | Truist Bank | 7.97 (52) | 1.9% | 22.79 (128) | 5.4% | 419.21 | 74% | 13% | 15% | 1.25% |
+| NEWT (Newtek) | Newtek Bank, National Association | 0.00 (0) | 0.0% | 2.22 (1) | 100.0% | 2.22 | 231% | 49% | 72% | 10.74% |
+
+| private | Mainstreet Community Bank of Florida | 0.79 (8) | 92.1% | 0.00 (0) | 0.0% | 0.86 | 292% | 97% | 19% | 1.27% |
+| private | United Southern Bank | 0.73 (12) | 95.2% | 0.00 (0) | 0.0% | 0.77 | 224% | 53% | 17% | 1.67% |
+| private | Intracoastal Bank | 0.52 (2) | 100.0% | 0.00 (0) | 0.0% | 0.52 | 301% | 71% | 4% | 0.13% |
+| private | Sunrise Bank | 0.29 (3) | 52.6% | 0.00 (0) | 0.0% | 0.54 | 387% | 53% | 55% | 0.11% |
+| private | One Florida Bank | 0.62 (2) | 34.2% | 0.00 (0) | 0.0% | 1.82 | 298% | 38% | 10% | 0.19% |
+| private | Surety Bank | 0.19 (2) | 100.0% | 0.00 (0) | 0.0% | 0.19 | 121% | 0% | 20% | 0.84% |
+| private | The First National Bank of Mount Dora | 0.32 (3) | 100.0% | 0.00 (0) | 0.0% | 0.32 | 74% | 29% | 1% | 0.41% |
+| private | Community Bank of the South | 0.24 (3) | 100.0% | 0.00 (0) | 0.0% | 0.24 | 59% | 23% | 0% | 0.00% |
+| private | City National Bank of Florida | 0.00 (0) | 0.0% | 21.37 (27) | 96.7% | 22.11 | 272% | 46% | 41% | 1.02% |
+| private | Ocean Bank | 0.00 (0) | 0.0% | 6.19 (24) | 99.7% | 6.21 | 528% | 38% | 105% | 0.51% |
+| private | Banesco USA | 0.00 (0) | 0.0% | 4.28 (5) | 82.7% | 5.17 | 221% | 24% | 28% | 0.55% |
+| private | Pacific National Bank | 0.00 (0) | 0.0% | 1.31 (6) | 98.5% | 1.33 | 360% | 64% | 38% | 0.07% |
+| private | International Finance Bank | 0.00 (0) | 0.0% | 1.32 (2) | 90.6% | 1.46 | 448% | 31% | 142% | 0.48% |
+| private | Grove Bank & Trust | 0.00 (0) | 0.0% | 1.21 (5) | 100.0% | 1.21 | 274% | 23% | 61% | 0.21% |
+| private | Terrabank, National Association | 0.00 (0) | 0.0% | 0.79 (5) | 100.0% | 0.79 | 372% | 30% | 115% | 0.44% |

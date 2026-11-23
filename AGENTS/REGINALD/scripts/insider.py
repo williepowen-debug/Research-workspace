@@ -41,7 +41,7 @@ TARGETS = {
     "WAL":  {"route": "sec", "cik": "1212545", "name": "Western Alliance Bancorporation", "match": "WESTERN ALLIANCE"},
 }
 FDIC_DISCL = "https://securitiesfilings.fdicconnect.fdic.gov/api/instdiscl"
-FDIC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
+FDIC_UA = "research-bot/1.0"  # WQ-735 honest client name (Will 2026-11-23)
 FDIC_MIN_ROWS = 440   # cert 110 list held 471 disclosures on 2026-10-09 and only grows
 
 # Transaction codes

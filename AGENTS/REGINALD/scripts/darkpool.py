@@ -34,7 +34,7 @@ SHORT_VOL_TSV = WORKBOOK / 'SHORT_VOL.tsv'
 def fetch_url(url, timeout=15):
     """Fetch URL with user-agent, return text or None."""
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        req = urllib.request.Request(url, headers={'User-Agent': 'research-bot/1.0'})  # WQ-735 honest client name
         resp = urllib.request.urlopen(req, timeout=timeout)
         return resp.read().decode('utf-8')
     except Exception:
