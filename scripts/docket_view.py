@@ -288,7 +288,7 @@ def check_generated(prose_path, docket_path, as_of, **kw):
     return rc
 
 
-def write_view(prose_path, docket_path, as_of, dry_run=False, budget=6000, **kw):
+def write_view(prose_path, docket_path, as_of, dry_run=False, budget=16000, **kw):
     rows = load_docket(docket_path)
     block = render(rows, as_of, src=os.path.relpath(docket_path, ROOT) if docket_path.startswith(ROOT) else docket_path, **kw)
     if dry_run:
@@ -759,7 +759,7 @@ def main():
     ap.add_argument("--skip-ragged", action="store_true", help="snapshot/forensic use: skip ragged rows LOUDLY instead of rc 2")
     ap.add_argument("--verbose", action="store_true", help="with --check: list claims that matched only a far-dated row")
     ap.add_argument("--ignore", metavar="REGEX", help="with --check: mute segments matching REGEX (e.g. GATES-lane 'review' items); the count of muted segments is always printed")
-    ap.add_argument("--budget", type=int, default=6000, help="with --write: advisory warning if the block exceeds this many bytes (default 6000)")
+    ap.add_argument("--budget", type=int, default=16000, help="with --write: advisory warning if the block exceeds this many bytes (default 16000; raised from 6000 on Will's word 2026-11-23, WQ-729: the view is its own file since 10/20, read cap 32,550 B)")
     ap.add_argument("--selftest", action="store_true")
     a = ap.parse_args()
     if a.selftest:
