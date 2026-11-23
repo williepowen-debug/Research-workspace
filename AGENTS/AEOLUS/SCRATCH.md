@@ -23,8 +23,8 @@
 4. **12/02:** C6 Orange if unsigned; AEO-01 grade; 12/03 CAP; 12/08 MWD. Run `scripts/c3_winter_grade.py` any session.
 
 ### OFFERED TO WILL, NOT ANSWERED OR NOT APPROVED (except the first)
-- WALTER to route FL/CA flood and coastal flood warnings and flash flood emergencies between sessions: **SENT 11/23 on Will's word (17:06 ET); WALTER answered 17:08 ET: ran once, nothing new; standing check NOT adopted, needs Will's word in WALTER's session (WALTER recommends yes)** (`AGENTS/WALTER/inbox/2026-11-23_from-AEOLUS_nws-flood-alerts-FL-CA-request.md`). WALTER runs only in sessions, so this is not round-the-clock.
-- Five climate routing edits packet to WALTER 11/23 (`AGENTS/WALTER/inbox/2026-11-23_from-AEOLUS_climate-routing-five-edits.md`): held for Will's word in WALTER's session; line 4 (El Nino/season owner = AEOLUS) has Will's word in AEOLUS chat 17:13-17:14 ET (KB-322), CORAL told; WALTER edits its own text. Packet CORAL whenever an El Nino or season change matters for Florida.
+- **DONE 11/23:** WALTER flood-alert check live (its step 7j, f801437643; review 12/02; WALTER sees nothing between sessions). Hole reported: an Update crossing a record is silent. Routing v0.52 has edits 1, 2, 3 and part of 5.
+- Edit 4 (El Nino/season owner = AEOLUS): Will's word in AEOLUS chat (KB-322); WALTER's text waits for his word there. CORAL told. Packet CORAL when an El Nino or season change matters for Florida. `_NETWORK.md` (CARL, TERRY, VULCAN) with PROME.
 - Register two winter-rain forecasts (FL DJF wettest third ~80%, CA South Coast ~65%; NCEI climdiv) and one on the Lower Basin signing (no open row covers it).
 - Close the California gap (rain, rivers, burn scars, losses). Second reader on Panama (KB-312, AEO-12 55%): give the sources folder, not the conclusion. Short Lake Mead update before 12/08.
 
