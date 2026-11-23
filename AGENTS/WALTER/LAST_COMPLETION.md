@@ -37,7 +37,8 @@ Cards 016 to 029; anchors/IRAN_WAR.md and HISTORY; CORRECTIONS (COR-20261123-23,
 ## WILL_NEEDS
 
 1. **Flood-alert check (AEOLUS request; Will sent AEOLUS to ask, 17:06 ET):** add one start-and-close check of Weather Service flood alerts for Florida and California to WALTER's charter? Recommend YES in the reduced form (events list, ROUTINE default, review 12/02). Changing the charter needs Will's word here.
-2. Optional: `! gh auth login` on the laptop (extra collector run only).
+2. **AEOLUS's five climate routing edits (packet inbox/2026-11-23_from-AEOLUS_climate-routing-five-edits.md, held, not filed, nothing edited):** WALTER recommends YES to 1, 2 and 3; HOLD 4 until CORAL answers (the two carves do conflict on ENSO action ownership, read 11/23); 5 in part (six channels and WATT; CARL, TERRY and VULCAN are not edges in AGENTS/_NETWORK.md, which owns topology). Semantic routing edits need Will's word here.
+3. Optional: `! gh auth login` on the laptop (extra collector run only).
 
 ## FOLLOW-UP
 
