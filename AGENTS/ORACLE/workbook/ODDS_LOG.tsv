@@ -3436,3 +3436,54 @@ ts	slug	label	tier	yes_prob	volume	liquidity	d1	d7	end	thin
 2026-11-20T18:15Z	next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	T2	0.145	965651.3300650001	33998.7922	-0.01	-0.14	2026-12-31	False
 2026-11-20T18:15Z	us-x-iran-effective-ceasefire-by-november-30-20261108	US-Iran 2-week pause begins by 11/30	T2	0.62	371777.28088	58045.404	0.165	-0.005	2026-11-30	False
 2026-11-20T18:15Z	us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	T1	0.425	775742.3776779999	130350.7191	-0.06	-0.16	2027-04-01	False
+2026-11-23T15:15Z	us-recession-by-end-of-2026	US recession 2026	T1	0.023	2533125.5301979994	71466.81836	-0.0045	-0.0015	2027-01-31	False
+2026-11-23T15:15Z	will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	T1	0.983	9841736.820918001	135955.53239	-0.0005	-0.0015	2027-01-01	False
+2026-11-23T15:15Z	will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	T1	0.0045	3890223.623151	168719.06291	None	-0.003	2027-01-01	False
+2026-11-23T15:15Z	another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	T1	0.955	2396145.7019860004	85414.11363	0.027	-0.007	2026-12-10	False
+2026-11-23T15:15Z	will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	T1	0.032	13431745.817441	420409.1263	-0.0345	-0.003	2026-12-09	False
+2026-11-23T15:15Z	how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	T1	0.935	298685.228059	38144.0429	0.03	0.055	2026-12-31	False
+2026-11-23T15:15Z	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	T1	0.945	11851560.451527998	715276.8551	0.05	0.07	2026-12-09	False
+2026-11-23T15:15Z	will-the-fed-increase-interest-rates-by-50-bps-after-the-december-2026-meeting-20260729232808637	Fed: HIKE 50+ at Dec mtg	T1	0.0245	9020952.190349001	441983.67936	0.003	-0.068	2026-12-09	False
+2026-11-23T15:15Z	how-high-will-10-year-treasury-yield-go-before-2027	10Y Treasury yield ladder (before 2027)	T1	0.23	6196.674135	1416.2657	-0.03	-0.19	2027-01-01	True
+2026-11-23T15:15Z	how-low-will-10-year-treasury-yield-get-in-november	10Y Treasury yield — Nov downside	T1	0.1635	4656.785116999999	869.13787	-0.0285	0.1245	2026-12-01	True
+2026-11-23T15:15Z	how-high-will-10-year-treasury-yield-go-in-november	10Y Treasury yield — Nov upside	T1	0.0475	4630.750900999999	695.37351	-0.003	-0.7375	2026-12-01	True
+2026-11-23T15:15Z	how-high-will-30-year-treasury-yield-go-in-november	30Y Treasury yield — Nov upside	T2	0.078	5759.276306000001	987.71489	0.0245	-0.767	2026-12-01	True
+2026-11-23T15:15Z	how-low-will-30-year-treasury-yield-get-in-november	30Y Treasury yield — Nov downside	T2	0.1145	2368.0875650000003	612.27958	-0.011	0.0605	2026-12-01	True
+2026-11-23T15:15Z	major-us-bank-bailout-before-2027	Major bank bailout before 2027	T1	0.04	4958.777352999999	646.93869	None	0.001	2027-01-01	True
+2026-11-23T15:15Z	us-defaults-on-debt-by-2027	US debt default by 2027	T2	0.0065	20882.746544	6369.78907	None	None	2027-01-01	False
+2026-11-23T15:15Z	ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	T2	0.117	3555246.115788001	22792.06908	-0.424	0.0415	2027-01-01	False
+2026-11-23T15:15Z	will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	T2	0.025	210780.70633000002	16430.17615	0.0005	0.0015	2027-01-01	False
+2026-11-23T15:15Z	nothing-ever-happens-2026	Nothing Ever Happens 2026	T3	0.935	947958.887505	20667.6805	None	0.02	2026-12-31	False
+2026-11-23T15:15Z	what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	T1	0.937	590168.415582	35335.57213	0.035	0.0815	2027-01-01	False
+2026-11-23T15:15Z	will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	T1	0.0295	392450.853008	18128.84514	-0.002	-0.0205	2027-01-01	False
+2026-11-23T15:15Z	how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	T1	0.018	54008.11497499999	1704.97594	0.0005	-0.0015	2027-02-01	True
+2026-11-23T15:15Z	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	T1	0.0305	18317399.033813998	257705.85454	0.0005	-0.0145	2027-01-01	False
+2026-11-23T15:15Z	strait-of-hormuz-traffic-returns-to-normal-by-november-30-20260810151158765	Hormuz traffic normal by Nov 30	T1	0.003	2332985.511321	113295.14214	-0.0025	-0.009	2026-12-01	False
+2026-11-23T15:15Z	will-the-us-invade-iran-before-2027	US invade Iran before 2027	T2	0.055	81487973.42968702	285536.9918	None	-0.02	2027-01-01	False
+2026-11-23T15:15Z	will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	T2	0.0235	30356986.274162	352518.14145	-0.0025	-0.003	2027-01-01	False
+2026-11-23T15:15Z	delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	T2	0.05	197665.80755	20702.12784	0.0075	0.0065	2027-01-01	False
+2026-11-23T15:15Z	will-venezuelan-crude-oil-production-reach-barrels-per-day-in-2026	Venezuela crude production 2026 (ladder)	T2	0.415	11918.96192	369.4619	0.01	0.26	2027-03-01	True
+2026-11-23T15:15Z	will-another-country-leave-opec-in-2026	OPEC: another country exits 2026	T2	0.0155	217787.734749	4255.58918	-0.0015	-0.0295	2026-12-31	True
+2026-11-23T15:15Z	russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	T2	0.085	3620846.2307740003	73197.5972	-0.01	-0.03	2027-01-01	False
+2026-11-23T15:15Z	will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	T1	0.0155	47472236.567708	189909.61004	-0.0015	-0.001	2027-01-01	False
+2026-11-23T15:15Z	china-annual-gdp-growth-2026	China annual GDP growth 2026	T1	0.992	277468.68277300004	6445.05456	-0.0015	0.024	2027-01-31	False
+2026-11-23T15:15Z	bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	T2	0.84	40448.786137	3630.293	-0.015	-0.05	2026-12-18	True
+2026-11-23T15:15Z	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	T3	0.93	234347.61816499993	24797.5519	-0.015	0.01	2027-01-01	False
+2026-11-23T15:15Z	clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	T2	0.0035	25781724.12510899	207857.58278	-0.001	-0.014	2027-01-01	False
+2026-11-23T15:15Z	october-inflation-us-annual	October CPI print (modal)	T1	1.0	54909.585141999996	None	0.0455	0.049	2026-11-11	False
+2026-11-23T15:15Z	will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	T3	0.026	353505.3221230001	2873.91457	-0.015	-0.007	2027-01-01	True
+2026-11-23T15:15Z	will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	T3	0.014	145009.43948600002	2447.20021	-0.0025	-0.003	2027-01-01	True
+2026-11-23T15:15Z	iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	T2	0.028	2251855.504264	50281.14709	0.0025	0.006	2027-01-01	False
+2026-11-23T15:15Z	what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	T2	0.075	346489.27150699997	35310.2844	0.005	-0.015	2027-01-01	False
+2026-11-23T15:15Z	which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	T1	0.0235	906.803694	218.13128	None	0.0005	2027-05-01	True
+2026-11-23T15:15Z	us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	T1	0.51	16638.303987	3666.0076	-0.065	-0.045	2027-01-01	True
+2026-11-23T15:15Z	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	T1	0.0175	140601.267849	47085.40937	-0.018	-0.019	2026-12-01	False
+2026-11-23T15:15Z	how-many-ships-transit-the-strait-of-hormuz-week-of-november-9	Hormuz ships-transit weekly (rolling)	T2	1.0	5224.009142	None	0.5745	0.6845	2026-11-16	False
+2026-11-23T15:15Z	avgpt-of-ships-transiting-strait-of-hormuz-end-of-november	Hormuz avg daily transits end-Nov	T2	0.895	5541.277328	1951.8007	0.01	0.025	2026-12-01	True
+2026-11-23T15:15Z	will-ships-transit-the-strait-of-hormuz-on-any-day-by-november-30	Hormuz ships-any-day ladder by Nov30	T2	0.195	11720.340532000002	1591.1581	0.085	0.05	2026-12-01	True
+2026-11-23T15:15Z	0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	T2	1.0	529115.2748769999	None	0.955	0.9295	2026-08-01	False
+2026-11-23T15:15Z	will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	T2	0.0175	946011.9345650001	103753.24241	0.0015	0.0025	2027-01-01	False
+2026-11-23T15:15Z	bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	T2	0.055	2288255.05741	156207.6897	None	-0.01	2027-01-01	False
+2026-11-23T15:15Z	next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	T2	0.17	995047.2862940001	22927.5091	0.005	-0.06	2026-12-31	False
+2026-11-23T15:15Z	us-x-iran-effective-ceasefire-by-november-30-20261108	US-Iran 2-week pause begins by 11/30	T2	0.575	422179.230248	32351.2559	0.03	-0.105	2026-11-30	False
+2026-11-23T15:15Z	us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	T1	0.49	865843.8523909999	99970.0675	0.035	-0.055	2027-04-01	False
