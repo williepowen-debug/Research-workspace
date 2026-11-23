@@ -1,45 +1,39 @@
 # VIOLET — session handoff
 
-**As of:** November 21, 2026 (Saturday), 18:15 ET (from `date`). Boot ran at 18:03 ET.
-- **Task:** PROME prome-77 late wake on D:L1031 (VIO-PRED-08), the 11/20 surface read, the READS declaration (D:L1196 item 8), the WQ-719/721 charter line, a whole-inbox drain. Launched late: the laptop slept 11/20 14:53 ET to 11/21 17:50 ET.
-- **Limits:** $0; no trade, gate, threshold or level change; no push (PROME pushes). HOLD after delivery until PROME's closeout ask.
-- **Canonical numbers:** [STATUS](STATUS.md). Thesis v4.1.10; convergence 40/50 on 11/20 History. KB-VIO-404, KB-VIO-405.
+**As of:** November 23, 2026 (Monday), 16:42 ET (from `date`). Boot ran at 16:08 ET.
+- **Task:** PROME prome-77 wake on D:L1229 items 1 to 3 (HY 11/20 credit leg, 11/23 close, Artifacts republish), whole-inbox drain, WQ-735 switch. Item 4 is the 11/25 close.
+- **Limits:** $0; no score, band, threshold or letter change except grading my own predictions; no push (PROME pushes). A network drop about 16:38 ET cut the session once; resumed from committed state.
+- **Canonical numbers:** [STATUS](STATUS.md); record `research/2026-11-23_close-read/GRADE.md`; KB-VIO-406.
 
-## CHANGES SINCE (11/18 10:46 ET → 11/21 18:03 ET)
+## CHANGES SINCE (11/21 18:15 ET → 11/23 16:08 ET)
 
-- **11/18 History** reversed two of my provisional 11/18 reads: VIX3M/VIX 0.9890 (still inverted), VIX9D/VIX 0.9752 (under 1). VIX 24.56.
-- **11/19:** VIX 28.44; Anthropic IPO open, two-leg midday drop; AMD short report; BIS remote-access rule effective. HY 352 (first over 350).
-- **11/20:** VIX **35.89** (high 40.03), VIX9D 40.72, VIX3M 30.94, VVIX 138.03, SKEW 138.84, COR1M 36.05. Cause as reported (VULCAN): Reuters, SEC enforcement scrutiny of Nvidia's accounting; NVDA −14.01%, S&P 500 −3.70% (HENRY's −10% red line).
-- **Cboe:** my History pulls answered 200 at 18:04 ET; HENRY reports 403s since 11/20 and WALTER a Cloudflare challenge on 11/19. The endpoint is the same family; it may differ by host or by hour. Say which host answered.
+- **11/22:** Nvidia board reinstated Huang (8-K accepted 11/23 08:57 ET; WALTER card 001, VULCAN owns). The filing does not mention the accounting question.
+- **11/23:** S&P about +4.7%, VIX 26.62 on the print (−25.83%). HY for 11/20 first-published **376bp** (CCC 1,402).
+- **Cboe:** History CSVs, VX settlement and archive CSVs answer `research-bot/1.0` (200); the delayed-quote JSON refuses (403). HENRY's "refused since 11/20" matches the quote endpoint.
 
 ## WHAT I DID
 
-- **Grades (`research/2026-11-21_late-wake/GRADE.md`, KB-VIO-404):** PRED-08 CONFIRMED (25%, Brier 0.5625); PRED-09 CONFIRMED early (45%, Brier 0.3025). Regime line 30 FIRED, HIGH_VOL. +30% row: credit no longer flat (HY +32bp to 11/19).
-- **Surface read and base:** deep inversion n = 7 since 2009: lower after 17 sessions 5 of 7, a higher close first 4 of 7. Thesis v4.1.10 (refinement of KB-VIO-034; prediction 2' live, arms 11/25).
-- **Registered VIO-PRED-11:** VIX close > 35.89 by 12/16, **50%** (drafted at 45%, raised before registration after WALTER's late card named the cause). `LETTERS.md`.
-- **Sends:** outbox SIG 2026-11-21 (correction + 11/20 close) to HENRY, RED, LIQUID; TERRY packet (WQ-696 handoff + TRY-VIOLET-VIXCS thesis grade WRONG for its window).
-- **Ledgers:** VX_DAILY 11/19 and 11/20 rows created, 5 cells on 11/18 corrected (backfill from Cboe); IMPLIED_CORR row re-dated 11/21 → 11/20; KB-VIO-405 combo:ai-trade-unwind.
-- **Inbox:** TERRY packet + 9 WALTER cards (two arrived mid-session: 11/21-001 LATE FLASH, 11/21-004 HENRY red line) all to `processed/`. COR-20261119-20 receipted NO-OP.
-- **Charter:** three NEXUS_BRIEF lines set to WQ-719/721 wording. **READS:** `registry/READS_DECLARATION.tsv` for PROME to transcribe.
-- **Stamps:** I typed four stamps ahead of the clock (18:1x, 18:2x) and corrected each against `date` before commit.
+- **Item 1:** HY 376 > 348: the +30% credit-flat row NOT MET on both windows (+32bp, +53bp). 368 watch line passed after its endpoint; watch stays closed.
+- **Item 2 (provisional, not graded):** VIX 26.62, VIX9D/VIX 1.0428, VIX3M/VIX 0.9579 (5th inverted close if History agrees), VVIX 117.36; Z6 settle 24.0844. PRED-11 OPEN; 40 line not fired. VX_DAILY 11/23 row is TICK (superseded at 16:32 ET).
+- **Item 3:** cheat-sheet v16, Operating Picture v18 republished to the same URLs; memory files updated.
+- **WQ-735:** 8 scripts switched to `research-bot/1.0`, each parsed once; move.py left (refused in PROME's test).
+- **Inbox:** WQ-735 packet answered and moved; WALTER 001 acted, 003 and 007 noted; COR-20261123-03 NO-OP.
+- **Other:** CHEAP_TAIL rows 11/18 to 11/20 regraded (`--as-of` on the 11/18 calendar snapshot) to clear the dark ledger; MAINTENANCE rotated (three 9/06 entries to archive) + WQ-735 entry; 11/25 catalyst row; TERRY WQ-696 packet.
 
 ## NEXT SESSION
 
-1. **Monday 11/23 (after FRED posts):** HY 11/20 (LIQUID): ≤ 348 keeps the +30% row's credit leg passing on the 11/20 window, else it fails on both. Re-score credit.
-2. **11/23 close on History:** VIX9D/VIX, VIX3M/VIX, PRED-11 (a close above 35.89 resolves it CONFIRMED). If VIX closes over 40, the 40 line fires (regime CRASH, thesis prediction 4 arms: HY > 600 within 20 days).
-3. **11/25 close:** prediction 2' arms if the cash curve is still inverted (7th close).
-4. **About 12/04:** Nvidia 10-Q (VULCAN). **12/16:** December SOQ vs Z6 28.46; PRED-11 resolves; L441.
-5. **Done 11/21 on PROME's word:** `writeback_order_check.py` WQ-719 A exemption (a lagging brief is an advisory, not a breach; MAINTENANCE 2026-11-21). At a no-change closeout, leave the brief untouched and read the EXEMPT line as your judgement to make.
-6. **Artifacts:** the vol cheat-sheet and Operating Picture are owed a republish on this material vol shift (not done this bounded session).
-7. Boot reds: CANARY_MAP dark ledger (1). D:L342 on 11/27.
+1. **Wed 11/25 (D:L1229 second read):** `backfill.py` for 11/23 and 11/24 History (replace the TICK row, check the six cells); regime row HIGH_VOL → RISING_VOL only on History; SKEW 11/23 and 11/24 (RED-FT-10 exit count, RED grades).
+2. HY 11/23 and 11/24 first-published (LIQUID's basis, `output_type=4`): under 350 = fade; 370 or more = lasting.
+3. **Item 4, 11/25 close:** prediction 2' arms if VIX3M/VIX < 1.000 on 11/24 and 11/25 History (7th straight); consequent VIX above 25 for 10 sessions after.
+4. Re-score the convergence matrix on History (left at 40/50, 11/20 basis, under this wake's limit; credit argues up, VVIX and COR1M down).
+5. About 12/04 Nvidia 10-Q (VULCAN); 12/16 SOQ vs Z6 24.08 [11/23], PRED-11 resolves, L441. D:L342 on 11/27.
 
 ## CARRY-FORWARD
 
-- **Owners:** RED (FT-06, FT-10, RED-29) · LIQUID (HY) · HENRY (gamma, SPX) · BOND (rates) · VULCAN (Nvidia, 10-Q, SEC report) · ORACLE (priced odds) · SAM (BOJ, JPY) · MIDAS (gold −4.62% on 11/20).
-- **Path A:** WATCH, no gate (WQ-611 A).
-- **Cboe sources:** History `cdn.cboe.com/api/global/us_indices/daily_prices/<SYM>_History.csv` (307 to cdn-api, use `curl -L`); VX settles `www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=YYYY-MM-DD`.
-- **Raw ICE HY series:** re-fetch to rerun `research/2026-11-05_path-a-f2/run_audit.py`.
+- **Owners:** RED (FT-06, FT-10, RED-29) · LIQUID (HY) · HENRY (gamma, SPX) · BOND (rates) · VULCAN (Nvidia, 10-Q, SEC report) · ORACLE (priced odds) · SAM (BOJ, JPY) · REGINALD (REG-T-04, 2 of 3).
+- **Cboe sources:** History `cdn.cboe.com/api/global/us_indices/daily_prices/<SYM>_History.csv` (307 to cdn-api, `curl -L`); VX settles `www.cboe.com/us/futures/market_statistics/settlement/csv/?dt=YYYY-MM-DD`. The delayed-quote JSON refuses this box: do not work around it (WQ-735 rule 2).
+- **Vendor print lag:** the fetch.py index quotes run about 15 minutes behind; read the close print at 16:32 ET or later.
 
 ## OPEN HYPOTHESES
 
-**Friday deep inversions follow through (exploratory, n = 2).** Both Friday cases in the base (2015-08-21, 2025-04-04) printed a higher close in the next sessions. Two cases are an anecdote, not a test; the 11/23 close is the third.
+**Friday deep inversions follow through (exploratory, n = 2).** The 11/20 Friday case printed a much lower close next session (26.62 vs 35.89, provisional); whether a higher close still comes before 12/16 is open. Three cases are still an anecdote.
