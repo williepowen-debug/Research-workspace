@@ -9,6 +9,14 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## November 23, 2026 — WQ-735: eight scripts send the honest client name `research-bot/1.0`
+
+**Trigger:** PROME packet `inbox/2026-11-23_from-PROME_WQ-735-honest-client-name.md` (Will 13:57 ET, WQ-735 approved with a condition; record `PROME/proposals/2026-11-23_wq735-RULED.md`).
+**What changed:** the browser ("Mozilla") client string is replaced by `research-bot/1.0` in `cftc_cot.py` (2), `vx_daily_gapcheck.py`, `implied_corr.py`, `thresholds.py` (History pass), `vx_history.py`, `feb2018_m1m2.py`, `backfill.py` (2) and `skew_integrity.py`. Each parsed once under it 16:11 to 16:12 ET (CFTC, Cboe History CSVs, VX contract history, VX settlement CSV, CFE archive: all 200). `move.py` is NOT switched (investing.com refused PROME's test; Will rules 12/07). No threshold, leg or parser changed.
+**Refusal seen:** `cdn.cboe.com/api/global/delayed_quotes/quotes/*.json` returns 403 to `research-bot/1.0` (16:12 ET). `implied_corr.py`'s Cboe quote leg falls back to yfinance (TICK, no `prev_day_close`); `thresholds.py`'s `cboe_quote` (default urllib client, not switched) is the same endpoint. Not switched back, not worked around (packet rule 2); named to PROME. The dated History CSVs, which grade everything, still answer.
+**Files touched:** the eight scripts above. **Boot-impact:** none expected; a later refusal is reported, not reverted.
+**Lessons:** one test request does not exercise every endpoint a script calls: the same host served the History file and refused the quote file.
+
 ## November 11, 2026 — jpy_vol.py off-hours stamp starts at 09:30, not 09:00
 
 **Trigger:** the 11/11 09:26 ET boot (PROME prome-2b catch-up) printed "🔴 RV THROUGH IV" on an FXY near-ATM call IV of 2.4% (IV/RV 0.35), read from the pre-open chain. The off-hours test was `9 <= hour < 16`, so 09:00 to 09:29 counted as regular hours and the stale-quote note was not stamped.
@@ -164,72 +172,7 @@ Log material structural changes only — not routine content edits. Template ado
 
 > 📄 *The six **2026-09-04** entries (Amendment-10 ordering check built; five queued tool defects; three review rounds; the DAEDALUS profile refresh) are archived verbatim → `archive/MAINTENANCE_ARCHIVE.md` (crc32 `610ede72`), rotated 2026-09-11 evening on the ~300-line cap.*
 
-## 2026-09-06 (PM3) — Codex 3rd pass: the provisional safeguard failed on the second run; the falsification baseline was broken by its own shipping commit
-
-**Trigger:** Codex's third pass, run against the committed 2nd-pass code with stubbed sources and temporary ledgers.
-
-**What changed:**
-1. **SETTLE stamping is now STATELESS.** The 2nd-pass guard gated on a per-run `provisional_rows` set: it held on run 1 and stamped `SETTLE` over the provisional 149.00 on run 2, because the value is on disk, the destination gate preserves it, nothing new is recorded, and the stamp then only checked `vix`. Now: stamp only when **every** spot column is CBOE-confirmed for that date **or blank**. **Recovery is preserved and tested as a negative control.** → KB-VIO-267
-2. **Dead plumbing removed** — the `provisional_rows` parameter is gone from both functions rather than left in place beside the stronger guard.
-3. **`--falsify` re-anchored to a pinned revision** (`1e8ae5d00^`). It had loaded `HEAD`, which the shipping commit turned into the fixed file. → KB-VIO-268
-4. **Test cases [6] two-run and [7] recovery control added.** Suite 7/7; `--falsify` 12/12 (2/3/5/6 fail pre-fix, 1/4/7 pass).
-5. **Three summaries reconciled:** `STATUS.md` FT-10 row's *"published 9/10"* withdrawn (a T+1 assumption KB-VIO-137 had already retracted); the receipt's acceptance line corrected against its own transcript (case 3 exits 0); *"rule out"* → *"reduce the risk of"*.
-6. **STATUS restructured rather than shaved** — FT-10 epistemics → KB-VIO-262, WQ-188 narrative → the receipt. Headroom 55 B → **924 B**.
-
-**Files touched:** `scripts/backfill.py` · `scripts/test_backfill_endtoend.py` · `STATUS.md` · `SCRATCH.md` · `NEXUS_BRIEF.md` · `research/2026-09-06_wq188_2nd_pass_receipt.md` · `workbook/KB.tsv` (267–268) · this file.
-
-**Boot-impact:** none. Live control re-run after the change: 2,496 cells agreed, 0 corrected, ledger md5 unchanged.
-
-**Lessons:**
-- **A guard whose memory is shorter than the state it guards fails on the second run.** Persistent state needs a stateless test read off the artifact, not run-scoped bookkeeping.
-- **A baseline that moves is not a baseline.** Any harness referencing "the previous version" must name an immutable revision — a moving ref passes for its author and is already broken for everyone else.
-- **Twice in one day a comment in this file certified what the code did not do.** Implement an invariant in the same edit you write it, or mark it TODO.
-- **Shaving bytes off a capped surface is not capacity work.** I trimmed, then immediately re-spent the headroom on narrative. Move content to its canonical home instead.
-
----
-
-## 2026-09-06 (PM2) — Codex 2nd pass: the WQ-188 fix closed the transport axis only; a destination gate added, and the AM test suite found unable to fail
-
-**Trigger:** Codex's second pass on `backfill.py`, routed by PROME as a 🟠 HIGH doorbell (`inbox/2026-09-06_from-PROME_Codex-backfill-closure-still-too-broad-...md`) under Will's standing WQ-188 ruling. PROME verified the three code sites; the runtime table is Codex's.
-
-**What changed:**
-1. **`fetch_cboe_history` now validates response STRUCTURE, not just HTTP status.** A 200 whose body is HTML yielded zero `DATE`-keyed rows and returned `({}, True)` — the identical value an authoritative empty answer returns — so the column never entered `failed` and yfinance kept write authority at rc=0. Now: a DATE column plus `CLOSE`/`<SYM>` (verified live against all six endpoints) or it is a **parse failure**, failing closed. ⚠️ **The docstring I wrote that morning already asserted `ok is False ... for a ... parse failure` while no parse check existed** — a guarantee written beside code that does not implement it converts an open hole into a documented closed one. → KB-VIO-264
-2. **A DESTINATION gate added to `backfill_spot`.** v1 scoped authority purely by *what the source said* (column failed / CBOE holds a value); a valid CSV merely **missing the target date** satisfied neither and the fallback landed in a row still labelled `SETTLE`. Now yfinance may fill a blank, **never overwrite**, and **never touch a `SETTLE` row**. → KB-VIO-265
-3. **A third route, not in Codex's table, found and closed:** the same hole also **newly MINTS** a `SETTLE` stamp when a provisional fill lands in a blank cell on a non-SETTLE row — every component behaving correctly, the whole-run `not failed` guard blind because nothing failed. **Ablation-proven load-bearing** (disable the clause, the case goes red). → KB-VIO-265
-4. **`scripts/test_backfill_endtoend.py` built** — runs `backfill.main(["--spot-only"])` for real, stubbing only `requests.get` and the `yfinance` module and redirecting `DAILY_LOG` to a temp file, asserting on the file on disk. 5/5 green; `--falsify` re-runs every case against the pre-fix `backfill.py` from git HEAD and requires 2/3/5 to fail there while 1/4 still pass (9/9, rc=0).
-5. **`test_backfill_authority.py` repaired, not deleted** — its vacuous `"settle_stamped" not in str(rows)` clause replaced, its misleading rationale corrected, and a scope banner added saying it cannot catch a gate defect. → KB-VIO-266
-6. **STATUS rotated twice on the read-cap budget** (33,864 B → 32,495 B): the v4.1/v4.1.1 thesis long-form → `archive/STATUS_THESIS_v41_NARRATIVE_2026-09-06.md` (crc32 `48130641`), the settled RESEARCH QUEUE dispositions → `archive/STATUS_RESEARCH_QUEUE_DISPOSITIONS_2026-09-06.md` (crc32 `2f380602`). Both verbatim; heading inventory asserted identical and the removed span asserted byte-present in the archive.
-
-**Files touched:** `scripts/backfill.py` · `scripts/test_backfill_endtoend.py` (new) · `scripts/test_backfill_authority.py` · `STATUS.md` · `NEXUS_BRIEF.md` · `research/2026-09-06_wq188_2nd_pass_receipt.md` (new) · `workbook/KB.tsv` (264–266) · `board_log.tsv` · this file.
-
-**Boot-impact:** none — no boot stage added or changed. `backfill.py` is on-demand; both test suites are on-demand. Live control run: 2,496 cells agreed, 0 corrected, **ledger md5 unchanged**.
-
-**Lessons:**
-- **A fix scoped to the failure you were SHOWN is not scoped to the failure MODE.** Codex demonstrated a 503; I closed 503-shaped failure. The mode is "the source returned something that is not an answer," and HTTP status is one axis of it.
-- **A write gate must be a claim about the CELL IT LANDS IN, not only about the source it came from.** Scoping authority by provenance alone leaves the destination unguarded.
-- **The suite that certified the AM fix could not have failed.** Its gate was a hand transcription, so the shipped code never ran, and one assertion compared a counter's name against ledger rows. **I wrote the contracts from the fix instead of from the failure mode** — third instance of that shape on this desk in three days. The mechanical cure is now permanent: `--falsify` runs the new tests against the old code, with a negative control so the suite cannot pass by failing everything.
-- **After adding a guard, delete it again and confirm the test goes red.** A guard never observed to be load-bearing is indistinguishable from a decorative one, and both pass.
-
----
-
-## 2026-09-06 (PM, second) — thesis read: a live STATE was living in the MECHANISM box; STATUS ③–⑦ rotated to archive on the read cap
-
-**Trigger:** Will, *"now let's do the thesis read"* — the designated judgement work. Structural findings only here; the analytical content is `thesis/CHANGELOG.md` v4.1.
-
-**What changed (structure):**
-1. **`thesis/VIX_THESIS.md`'s MECHANISM STATUS box no longer carries a live value.** It carried HENRY's 7/2 gamma reading — a **maintained, fast-moving measurement** — inside a **framework file that has no refresh contract and no staleness detector.** It aged 66 days and was **sign-wrong for four** while every live surface disagreed. The box now holds the mechanism, its fences, and **a pointer with an explicit vintage**; the value's home is `STATUS.md` + HENRY's brief. **Rule adopted: a mechanism box may not carry a live state.**
-2. **`STATUS.md` blocks ③–⑦ rotated verbatim** → **NEW** `archive/STATUS_LEDGER_REPAIR_2026-09-06.md` (crc32 `213ba22a`), pointer left in place. STATUS had hit **33,550 B against the 32,550 B read cap** when the thesis section was written in; now **31,035 B**, `read_cap_check` rc=0.
-
-**Files touched:** `thesis/VIX_THESIS.md` · `thesis/CHANGELOG.md` · `workbook/KB.tsv` (258→260) · `STATUS.md` · **NEW** `archive/STATUS_LEDGER_REPAIR_2026-09-06.md` · `SCRATCH.md` · `NEXUS_BRIEF.md`.
-
-**Boot-impact:** none to the sequence. STATUS is ~2.5 KB lighter at boot-step 1; the rotated narrative is **on-demand, never a boot read**. `thesis_bump_check` resets to 0 rows.
-
-**Lessons:**
-- 🔑 **ASK OF ANY FRAMEWORK/SPEC DOC WHICH STATEMENTS ARE *STATE* AND WHICH ARE *STRUCTURE*. Only state rots — and no staleness instrument watches a file that isn't a ledger.** Every check ran green over a sign inversion for four days. → KB-VIO-259
-- ⚠️ **THE 9/4 SWEEP HAD ALREADY BEEN IN THIS FILE and fixed the TAIL, leaving the identical defect in the HEADER.** Flag's scope ≠ defect's scope — **n=3 in seven days** (KB-VIO-250). **Sweep the file's whole CLASS of blocks, not the named block.**
-- ⚠️ **A DETECTOR CAN BE CORRECT AND STILL NOT SEE THE THING.** `thesis_bump_check.py` counts rows; it cannot see a **sign flip**. It correctly said *look*. **The read is the instrument; the counter is only the alarm clock.**
-
----
+> 📄 *The three **2026-09-06** (PM, PM2, PM3) entries are archived verbatim → `archive/MAINTENANCE_ARCHIVE.md`, rotated 2026-11-23 on the ~300-line cap.*
 
 ## 2026-09-11 ~14:5x ET — THREE CLOSEOUT-GUARD CONTRACTS WERE WRONG, A FALSIFIER WAS BROKEN, AND A `scripts/tests/` DIRECTORY NOW EXISTS
 
