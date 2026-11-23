@@ -89,3 +89,4 @@ The library builds a Chrome-imitating session by default. Run once with a plain 
 - No browser-name request was sent for comparison, so a refusal is not proven to be about the name.
 - `FORGE/tools/news-sweep/sweep.py` names itself "Prome/1.0" inside a Mozilla-form string and takes its feeds from configuration; its feeds were not in this test.
 - OSPREY's `strike_feed.py`, DEWEY's `site_passive_check.py` and LABOR's `fetch_primary.py` carry the browser string but no fixed source address; nothing to test.
+- Added 2026-11-23 14:07 ET, a sourced receipt: this test scanned script files only. AEOLUS reported that written pull recipes carry the same browser string; 21 desk markdown files do, with about 20 source addresses not tested here (DOCKET row dated 2026-11-27). AEOLUS disclosed two browser-named requests at 13:56 ET before it had seen the ruling (kunc.org answered; pslc.org refused and it stopped).
