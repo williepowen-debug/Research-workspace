@@ -4,6 +4,8 @@
 
 > **Last real data refresh: 2026-11-05**  ·  **Dossier written: 2026-11-05**
 
+> ⚠️ **CURRENT STATE MOVED (2026-11-23): the blocks below are dated history, not current. The vortex dipped to −2.71 [11/11] and rebuilt to +23.22 [11/23]; weekly Niño-3.4 +3.3 [18NOV]. See `workbook/` and `STATUS.md`.** The data-refresh header above is unchanged on purpose.
+
 ### 🟠 11/05 AEOLUS DIRECT PASS (no worker)
 **ENSO:** ONI ASO +2.46 · RONI ASO +1.97 · Oct Niño-3.4 +3.25 · weekly +3.4 [28OCT] (KB-240). **Vortex §7:** at zero, not below 0 on any analysis read through 11/5 06Z (GFS anl +0.229, ECMWF +0.660 at 00Z). Forecast is shallower and later than the 10/29 table in §7: ECMWF ENS trough 11/10–12, positive by 11/13. Owner table `../sources/2026-11-05_vortex-owner-read/reads.tsv`; GFS scout basis = `.anl` (KB-245, KB-246). §7's GEFS and 10/29 ENS figures are history.
 > *(Data date = the newest ENSO OBSERVATION: weekly week-centred 21OCT2026. The §7 vortex/AO/NAO analyses run to 10/29 00z, but that is a NEW, unregistered family; the ENSO date was chosen as the conservative, loud-failing one.)*

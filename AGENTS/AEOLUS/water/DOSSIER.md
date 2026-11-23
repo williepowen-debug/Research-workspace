@@ -4,6 +4,8 @@
 
 > **Last real data refresh: 2026-11-05**  ·  **Dossier written: 2026-11-05**
 
+> ⚠️ **CURRENT STATE MOVED (2026-11-23): the blocks below are dated history, not current. Rhine fire EXITED with the window ending 11/13; later readings are in `workbook/SERIES.tsv` and `STATUS.md`.** The data-refresh header above is unchanged on purpose.
+
 ### 🔴 11/05 AEOLUS DIRECT PASS (no worker)
 **① Rhine FIRED the 40/180 key on complete days 11/02–04:** Kaub 19.104 / 18.010 / 22.260, Duisburg 168.979 / 161.427 / 154.427 (KB-237). **② Colorado:** milestone YELLOW on the letter 11/02; Powell 3,535.89, Mead 1,039.29 [11/04]; second inflow pulse 53,324 cfs [11/04]; no PI motion (KB-238). **③ Others:** Memphis −4.179 [11/04], Rosario 4.04 m, Danube above LKV at five gauges, Gatún 87.08 [11/04], USDM D1–D4 43.98% [11/03] (KB-241). ⚠️ Yangtze not refreshed: site timed out.
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*

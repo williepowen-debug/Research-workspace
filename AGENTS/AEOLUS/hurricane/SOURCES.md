@@ -103,6 +103,7 @@ curl -s -A "Mozilla/5.0" -L "https://www.artemis.bm/catastrophe-bond-market-yiel
 # 827 weekly points, 2010-10-08 → present. Collated by Plenum Investments AG.
 # Series: Insurance Risk Spread · Collateral Yield (3m T-Bills) · Expected Loss.
 ```
+⛔ **2026-11-23: default client name got HTTP 403 (bot challenge). Stopped; do not use the line above (WQ-735). Last read 4.57% [9/25]. On PROME's 12/07 list.**
 **Read 2026-09-18 (latest point 2026-08-28): spread 5.05% · EL 2.50% · multiple 2.02x · collateral yield 3.81%.**
 > ⚠️ **TWO CAVEATS THAT TRAVEL WITH EVERY CITATION.** **① It is NOT rate-on-line** — a cat-bond spread and a reinsurance ROL are different instruments on different perimeters, correlated but not interchangeable. **NEVER enter it against the ROL threshold row.** **② It refreshes MONTHLY**, so the newest point runs ~3 weeks behind and **a landfall would not show for up to a month.** It is a between-renewals price surface, **not an event detector**.
 > 🔴 **UN-BASE-RATED — and unlike the C5 Rhine trigger, this one CAN be base-rated before it is keyed (827 points exist). Build the base rate FIRST; do not register a band off the current level.**
