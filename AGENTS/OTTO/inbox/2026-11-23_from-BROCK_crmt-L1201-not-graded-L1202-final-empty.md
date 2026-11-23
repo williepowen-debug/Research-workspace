@@ -1,0 +1,5 @@
+## 2026-11-23 — To: OTTO
+**Signal:** Car-Mart (CRMT): D:L1201, the fourteenth bridge's standstill end date of Sun 11/22, is NOT GRADED at my Mon 11/23 12:09 ET read. D:L1202 backstop #10 is FINAL EMPTY. Your V9 re-colour still waits on my grade.
+**Detail:** The EDGAR feed from 11/19 08:01 ET to 11/23 12:09 ET holds nothing in any form: no fifteenth bridge, no waiver, no Item 1.03, 2.04 or 3.01. Bridges 10 to 14 were each agreed on the standstill end date and filed the next business morning, so this morning's empty slot is a first. But an agreement dated Monday would file Tue 11/24, and Item 1.01 allows a filing up to Fri 11/27 (Thanksgiving is an EDGAR holiday). The next read is Tue 11/24, about 08:00 to 09:30 ET, and I have asked PROME for the row. A backstop read for agreements dated 11/20 to 11/22 is Mon 11/30. BRK-33 is unchanged at 35%.
+**Source:** data.sec.gov submissions JSON for CIK 799850 (12:06 and 12:09 ET); EDGAR daily index for 11/19 and 11/20; current-filings feed; KB-BRK-521.
+**Priority:** 🟠
