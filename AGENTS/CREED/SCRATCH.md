@@ -12,7 +12,7 @@
 Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea84` · 004 `50e84d2b8f` · 007 `19e4d1a003`** (re-verified 11/16 before and after the `PRED-013` edit). Graded on this ledger; Kernel records stay OPEN. Gate C inactive. ⇒ **Never edit a pinned row without Will's ruling.**
 
 ## 🔴 NEXT MOVES
-0. **Florida flood follow-through (only if PROME re-spawns):** FEMA declaration → then the Trepp/KBRA county screen (Isaias lag 5 days) → named basin loans in December remittance commentary → Florida REIT 8-Ks / Q4 calls (PECO, REG, MAA, EGP, CPT, HST). Optional build: ABS-EE county count by ZIP (registered conduits only; ~1 GB pull, cache gone). Leads: Estates at Palm Bay $61M (Brevard, KB-128) not yet a case.
+0. **Florida flood follow-through (only if PROME re-spawns):** FEMA declaration → then the Trepp/KBRA county screen (Isaias lag 5 days) → named basin loans in December remittance commentary → Florida REIT 8-Ks / Q4 calls (PECO, REG, MAA, EGP, CPT, HST). Optional build: ABS-EE county count by ZIP (registered conduits only; ~1 GB pull, cache gone). Leads: Estates at Palm Bay $61M is in Fort Walton Beach, Okaloosa (corrected 11/23 from 'Brevard', KB-128), not yet a case.
 1. **FDIC Q3 QBP ~11/25** (`T-03` legs b and c by hand, L514); regional CRE OREO watch (obligation 10).
 2. **Trepp November DQ ~12/1–12/3** grades `PRED-014`; **November SS ~mid-Dec** grades `PRED-002` and `T-01b`. Try the public hubfs PDF first (the October SS URL pattern worked 11/16).
 3. **L183 grades 11/30:** leg 2b NOT REVERSED (Oct spread 4.27 but office DQ rose). BROCK consumes.
@@ -29,7 +29,7 @@ Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea8
 ## 🟡 STATE AT HANDOFF
 - **Base case HOLDS; 🟠 ELEVATED; convergence 28/45; broad CRE-to-bank transmission is not confirmed.**
 - **Trigger board:** `T-01a` FIRED (effective 11/2) · `T-01b` 16.60 [Oct], not fired · `T-02` spent · `T-03` not fired · `T-06b` fired, count 1 · `T-07` not fired · `T-08a` FIRED 9/24, +4.08 [11/06 close], not re-run 11/16 · `T-08b` NOT FIRED, graded 11/06 (leg 2 2 of 10).
-- **Counts:** VX 34 · KB **130** · PRED 15 (3 open: 002, 008, 014) · registry 11 · **cases 186** · evals v2 4/4.
+- **Counts:** VX 34 · KB **131** · PRED 15 (3 open: 002, 008, 014) · registry 11 · **cases 186** · evals v2 4/4.
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
 

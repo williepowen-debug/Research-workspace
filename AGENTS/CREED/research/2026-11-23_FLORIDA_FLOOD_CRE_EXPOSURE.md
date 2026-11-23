@@ -32,6 +32,7 @@
 
 | Case | Property, county | Type | Loan | State before the flood |
 |---|---|---|---|---|
+| ⚠️ see CORRECTION at end: Estates at Palm Bay (`KB-128`) is in Okaloosa, not Brevard | | | | |
 | `CASE-CREED-147` | The Wymore 360, Altamonte Springs (**Seminole**, St. Johns basin county) | multifamily, 200 units | $33.0M IO 6.839%, BMO 2024-5C8 conduit | special servicing since 2026-08-11 for payment default, strategy code foreclosure |
 | `CASE-CREED-146` | Pembroke Lakes Mall, Pembroke Pines (**Broward**, watch) | retail | $260M single-asset CMBS (Goldman), Brookfield borrower | special servicing; maturity default 2025-03-01 |
 | `CASE-CREED-005` | Columbus Center, Coral Gables (**Miami-Dade**, watch) | office | $69M (foreclosure suit amount) | sold by receiver 2025-03-05 |
@@ -127,3 +128,6 @@ Tape, vendor closes 2026-11-23 (`FORGE/tools/market-data/fetch.py`, read 16:45 E
 - Braemar, Ashford, Equity Residential, InvenTrust Florida shares.
 - Bank condo-association and condo-construction lending volumes (REGINALD's lane; no free figure found).
 - Sites: the WebFetch tool cannot reach trepp.com, but plain requests with the honest client name `research-bot/1.0` returned 200 (no refusal). A helper's requests to businesswire.com, spglobal.com and capitalmarkets.fanniemae.com returned 403; it stopped using them and switched sources.
+
+
+> **CORRECTION 2026-11-23 17:23 ET (CREED, dated; original text above preserved):** (1) **Estates at Palm Bay is NOT in Brevard County.** Its address is 302 Blessinger Drive, **Fort Walton Beach (Okaloosa County, Panhandle)**, per the BBCMS 2024-5C29 term sheet at SEC (FWP 2024-09-11) and the Census geocoder; the 'Brevard' label was inferred from the property's name (the city of Palm Bay is in Brevard). It is outside the November flood and watch areas; Okaloosa is a Hurricane Isaias (DR-4955) county. (2) A FEMA declaration is what Trepp's screen waits for, but it is not the only route to exposure data: SEC Form ABS-EE loan tapes carry a ZIP code on every registered-conduit loan and need no declaration (registered conduits only; they miss SASB, CRE CLO and agency loans). (3) Seacoast is the most CONCENTRATED listed bank in the basin counties (12.4% of its deposits), not the only one present (REGINALD's own table lists SouthState and Truist). Record: `PROME/inbox/2026-11-23_from-CREED_followup-three-named-cases.md`.
