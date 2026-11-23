@@ -77,7 +77,7 @@ def fetch_settlement(query_date: date) -> list[dict]:
     resp = requests.get(
         CBOE_SETTLEMENT_URL,
         params={"dt": query_date.isoformat()},
-        headers={"User-Agent": "Mozilla/5.0", "Referer": "https://www.cboe.com/"},
+        headers={"User-Agent": "research-bot/1.0", "Referer": "https://www.cboe.com/"},
         timeout=15,
     )
     resp.raise_for_status()

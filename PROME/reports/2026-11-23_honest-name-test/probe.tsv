@@ -1,0 +1,54 @@
+host	desks	verdict	http_code	bytes	marker	note	stamp_et
+agsi.gie.eu	BRENT,DEWEY,HANS	WORKS	200	572		with the desk's key	13:59:54
+alsi.gie.eu	DEWEY	WORKS	200	433		with the desk's key	13:59:54
+api.hkma.gov.hk	ZHAO	WORKS	200	7624			13:59:55
+api.nasdaq.com	REGINALD	UNCLEAR	000	0			13:59:55
+api.stlouisfed.org	BRENT,CARL	WORKS	200	369		with the fleet key	13:59:56
+cdn.cboe.com	HENRY,RED,VIOLET	WORKS	200	204060			13:59:56
+cdn.finra.org	REGINALD	WORKS	200	566746			13:59:56
+chartexchange.com	REGINALD	WORKS	200	210150	forbidden		13:59:59
+data-api.ecb.europa.eu	HANS	WORKS	200	1004			14:00:00
+data.texas.gov	LABOR	WORKS	200	275721			14:00:01
+data.wa.gov	DEWEY	WORKS	200	655986			14:00:03
+dos.fl.gov	MARCO	WORKS	200	24153			14:00:03
+feeds.bbci.co.uk	HAWK	WORKS	200	24694			14:00:03
+feeds.reuters.com	HAWK	UNCLEAR	000	0			14:00:03
+fred.stlouisfed.org	BRENT,ZHAO	WORKS	200	199			14:00:04
+gasprices.aaa.com	CARL	WORKS	200	98048			14:00:04
+home.treasury.gov	SAM	WORKS	200	18173			14:00:22
+iq.usembassy.gov	FALCON	REFUSED	403	659508			14:00:38
+markets.newyorkfed.org	LIQUID	WORKS	200	46442			14:00:38
+news.google.com	HAWK,WALTER	WORKS	200	91185			14:00:39
+oag.ca.gov	DEWEY	WORKS	200	86764			14:00:39
+pddata.dtcc.com	LIQUID	WORKS	200	196130			14:00:40
+rigcount.bakerhughes.com	BRENT	REFUSED	403	398	Access Denied	listing page; the data file sits behind it	14:00:40
+securitiesfilings.fdicconnect.fdic.gov	OZK,REGINALD	WORKS	200	234741			14:00:41
+services.nvd.nist.gov	DEWEY	WORKS	200	2517			14:00:44
+services9.arcgis.com	FALCON	WORKS	200	36612			14:00:45
+stats.bis.org	SAM	WORKS	200	30457			14:00:46
+transtats.bts.gov	MARCO	WORKS	200	710307			14:00:49
+trends.google.com	MARCO	WORKS	200	1026450		the script's first (cookie) request	14:00:50
+web.archive.org	MARCO	WORKS	200	270			14:00:50
+www.aljazeera.com	HAWK	WORKS	200	17054			14:00:50
+www.atg.wa.gov	DEWEY	WORKS	200	157384			14:00:51
+www.bankofengland.co.uk	HANS	WORKS	200	292			14:00:51
+www.banxico.org.mx	MARCO	WORKS	200	7060			14:00:52
+www.cboe.com	FORGE,VIOLET	WORKS	200	1699			14:00:52
+www.cftc.gov	BRENT,LIQUID,SAM,VIOLET	WORKS	200	432513			14:00:52
+www.chinamoney.com.cn	ZHAO	WORKS	200	4827			14:00:58
+www.cisa.gov	DEWEY	WORKS	200	1871125			14:00:58
+www.customs.go.jp	SAM	WORKS	200	19099			14:00:59
+www.dol.gov	MARCO	WORKS	200	383218			14:00:59
+www.eia.gov	BRENT	WORKS	200	499712			14:00:59
+www.gpif.go.jp	SAM	WORKS	200	16344			14:01:00
+www.investing.com	VIOLET	REFUSED	403	3			14:01:00
+www.ishares.com	DEWEY	WORKS	200	392418			14:01:00
+www.mof.go.jp	SAM	WORKS	200	1551			14:01:01
+www.newyorkfed.org	DEWEY	WORKS	200	104716			14:01:02
+www.pbc.gov.cn	ZHAO	WORKS	200	40079			14:01:02
+www.ssga.com	DEWEY,VULCAN	WORKS	200	119115			14:01:03
+www.totan.com	SAM	WORKS	200	55788			14:01:19
+www.trendforce.com	VULCAN	WORKS	200	177525	captcha		14:01:19
+www.trepp.com	CREED	WORKS	200	142997			14:01:20
+www.twc.texas.gov	LABOR	WORKS	200	25483			14:01:35
+query1.finance.yahoo.com	FORGE price tool (all desks)	WORKS	200	1697		one chart call; the tool's full call set is tested separately	14:01:35
