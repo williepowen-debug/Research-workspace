@@ -41,8 +41,30 @@
 ### 1c. Pre-flood Florida CMBS baseline
 Florida CMBS retail delinquency **6.72%**; Tampa and Miami regional-mall delinquency **above 30%**; Florida hotel delinquency mostly below the national rate (Trepp 2026-07-16, PRIMARY-READ, `KB-CREED-124`; the data month is not stated in the post). National context: Trepp October overall DQ 7.87%, special servicing 11.74% (`KB-CREED-119`).
 
-### 1d. Public REITs with disclosed Florida concentration
-*(Section filled from a read-only research pass; see below.)*
+### 1d. Public REITs with disclosed Florida concentration (FY2025 10-Ks and supplementals, mostly as of 2025-12-31)
+
+| Ticker | Type | Florida share, and its basis | Florida markets or addresses in the flood or watch counties |
+|---|---|---|---|
+| EGP | industrial | **24.9% of ABR** (Orlando 8.6, Tampa 7.4, Miami/Ft Lauderdale 4.3, Jacksonville 2.9, Ft Myers 1.7) | Orlando, Miami/Ft Lauderdale, Jacksonville |
+| TRNO | industrial | Miami **23.6% of sq ft, 18.0% of ABR** | Miami-Dade |
+| HST | hotels | about **22.8% of 2025 hotel revenue** (helper's sum, $1,374M of $6,015M) | Orlando, Miami, Jacksonville; 49.9% JV Ft Lauderdale Marriott Harbor Beach ($176M non-recourse loan) |
+| REG | shopping centers | **19.7% of ABR**; 21.5% of GLA (risk factor says Florida and California premiums "increased significantly in recent years") | Sanford, Lake Mary (Seminole); Port St. Lucie; Sebastian / Vero Beach (Indian River) |
+| CPT | apartments | **18.3% of gross real estate book** (helper's sum): Orlando 6.3, Tampa 6.3, SE Florida 5.7 | Orlando, SE Florida |
+| HIW | office | **16.5% of annualized GAAP rent**: Tampa 10.3, Orlando 6.2 | Orlando |
+| KIM | shopping centers | about 16.7% of gross cost (helper's estimate; Kimco states no Florida share) | Boca Raton and others |
+| MAA | apartments | about **16% of units** (16,625 of 103,083): Orlando 5,907, Tampa 5,416, Jacksonville 3,496, S Florida 480 | Altamonte Springs, Sanford, Lake Mary (Seminole) |
+| RHP | hotels | Gaylord Palms = **14.8% of 2025 hospitality revenue** | Kissimmee (Osceola, Orlando market) |
+| PECO | grocery centers | **12.3% of ABR** incl. JVs | Melbourne (Brevard), Ormond Beach (Volusia), Sanford, Lake Mary (Seminole), Clermont (Lake) |
+| KRG | shopping centers | **11.4% of ABR** | Port St. Lucie, Lake Mary |
+| IRT | apartments | 9.66% of 2025 rental revenue | not split |
+| PK | hotels | Florida + Hawaii 36% of rooms (Florida alone not stated) | Orlando, Miami Beach, Key West |
+| CUZ | office | Tampa 7.8% of Q4-25 NOI | outside the flood counties |
+
+Source: a CREED read-only helper read each filing at SEC EDGAR or the company IR page (PRIMARY-READ by helper, 11/23). **CREED re-read two at SEC as a positive control (11/23, ~16:50 ET): REG 19.7% of ABR and HIW Tampa 10.3% / Orlando 6.2% both matched.** `KB-CREED-130`.
+
+⚠️ **The bases differ (ABR, revenue, book value, units, square feet, cost); the shares are not comparable and must never be summed or ranked as exposure.** No REIT discloses a county split, so none of these shares is "flood exposure": the St. Johns basin counties appear only as addresses (PECO, REG, MAA, KRG, Saul's one property in Altamonte Springs). No REIT read quantified a flood or named-storm deductible. Every quantified 2025-26 insurance line found points to **falling** premiums (HST, CPT, KIM, BRT, TRNO, IRT; KRG the exception, +$1.3M).
+
+Tape, vendor closes 2026-11-23 (`FORGE/tools/market-data/fetch.py`, read 16:45 ET): SPY +4.71% · VNQ +1.20% · IRT +0.34% · MAA +0.25% · CPT +0.05% · REG +0.12% · KRG +0.41% · PECO −0.20% · HIW +1.02%. Florida-heavy names lagged a strong market day; one day, no flood attribution possible (trap 16).
 
 ### 1e. Analog base rates from earlier Florida storms
 
@@ -79,3 +101,29 @@ Florida CMBS retail delinquency **6.72%**; Tampa and Miami regional-mall delinqu
 | Treasure Coast condo prices | "tumble" (TCPalm 11/21, title only) | WALTER card SIG-W-20261121-003 |
 
 **Where it reaches commercial credit:** (a) bank loans to associations to fund special assessments and reserves (legal since HB 913; no free volume figure found); (b) condo construction and inventory loans on unsold new units (bank and debt-fund books; not in CMBS); (c) old buildings sold in bulk to developers when owners cannot fund repairs (condo terminations). **In the commercial credit CREED tracks (CMBS conduit and SASB, CRE CLO, mREIT books), CREED has no evidence that the post-Surfside law has shown up yet.** Condo construction and association loans sit on bank balance sheets (REGINALD's lane) and are invisible in CMBS data. CORAL owns the condo law and the condo market.
+
+## 4. Forward view (CREED's judgment, 2026-11-23; UNSCORED, no prediction row registered)
+
+**Expectation, about 70%:** through 2027-03-31 the flood shows up in securitized commercial real estate as servicer comments and watchlist entries on a small number of named loans in Seminole, Volusia, Lake and Brevard (garden multifamily, manufactured-housing communities, neighborhood retail), and **not** as a measurable change in Florida or national CMBS delinquency. **Why:** the realized flood is in mid-size inland markets; past Florida storms put a few percent of rated securitized CRE in the declared area (Milton 3.2%) with no published default wave (Irma: no major damage across $18.3B of Freddie loans); commercial insurance is getting cheaper; the existing Florida CRE stress is about demand (retail 6.72% DQ, malls above 30%), and the flood adds to it only at the margin.
+
+**Meaningful alternative, about 25%:** Wednesday's rain on saturated ground floods large parts of Miami-Dade, Broward and Palm Beach. Those are among the largest securitized CRE markets in the country, and older buildings outside mapped flood zones carry no flood cover. Then: FEMA declares for both regions; Trepp and KBRA publish exposure screens in the billions within about a week of the declaration (Isaias: declaration 10/09, Trepp 10/14); uninsured repair costs push several hotel, older multifamily and ground-floor retail loans to special servicing in the January to April 2027 remittances; and the June 2027 Florida reinsurance renewal stops softening, which would reach owners' premiums in the second half of 2027.
+
+**Remainder, about 5%:** something CREED cannot frame tonight (for example a large single-asset loss at one SASB hotel or mall).
+
+| Marker | When | Reads which way |
+|---|---|---|
+| NWS observed rain totals and flood reports, SE coast | Wed 11/25 to Thu 11/26 (AEOLUS reads) | widespread urban flooding ⇒ alternative |
+| FEMA declaration, and which counties | open; none at 11/23 | a major-disaster declaration covering Miami-Dade, Broward or Palm Beach ⇒ alternative more likely |
+| Trepp or KBRA exposure screen | about a week after any declaration | the first free county-level balance by property type |
+| December CMBS remittance commentary | mid-December | named flood damage on loans in the basin counties |
+| REIT 8-Ks; Q4 calls (February 2027) | rolling | an uninsured flood loss above a deductible at PECO, REG, MAA, EGP, CPT or HST |
+
+**What would change CREED's mind:** a named CMBS or agency loan in the basin reporting flood damage with no flood cover; a REIT disclosing an uninsured flood loss; FEMA individual assistance for Seminole or Volusia with damage counts in the thousands; SE-coast observed totals far above the 1 to 4 inch forecast.
+
+## 5. What CREED did not reach tonight
+- A county-level count from SEC ABS-EE loan tapes (cache gone; about a gigabyte to re-pull; registered conduits only).
+- Placing named loans against the flood extent (no flood-extent map read).
+- Agency multifamily Florida share (no public figure found).
+- Braemar, Ashford, Equity Residential, InvenTrust Florida shares.
+- Bank condo-association and condo-construction lending volumes (REGINALD's lane; no free figure found).
+- Sites: the WebFetch tool cannot reach trepp.com, but plain requests with the honest client name `research-bot/1.0` returned 200 (no refusal). A helper's requests to businesswire.com, spglobal.com and capitalmarkets.fanniemae.com returned 403; it stopped using them and switched sources.

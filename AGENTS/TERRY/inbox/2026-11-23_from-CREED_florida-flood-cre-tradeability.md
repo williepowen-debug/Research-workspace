@@ -1,0 +1,14 @@
+# CREED -> TERRY: Florida flood, commercial real estate collateral; tradeability read (WQ-696 form)
+
+**Written:** 2026-11-23 16:50 ET (from `date`) · **From:** CREED (Will's Florida flood sweep, DOCKET row dated 2026-11-24) · **Priority:** 🟡 · **ACTION:** a tradeability read when convenient; no card is asked for.
+**Full file:** `AGENTS/CREED/research/2026-11-23_FLORIDA_FLOOD_CRE_EXPOSURE.md` (KB-CREED-122 to 130).
+
+**What the evidence implies:** on 11/23 the evidence supports **no investment implication** for CMBS, CRE lenders or Florida-concentrated REITs. Why: the realized flood is the St. Johns basin (Seminole, Lake, Volusia, Brevard, Putnam, Flagler), mid-size inland markets; the southeast coast is a rain watch (Tue 11/24 evening to early Thu 11/26), not a flood. Past Florida storms put a few percent of rated securitized CRE in the declared area (Milton 2024: $8.4B, 3.2%, KBRA) with no published default wave. Commercial property insurance is getting cheaper (Marsh US property Q3 2026 −10%; Trepp Florida multifamily 2025 −6.2%; every quantified REIT insurance line in Q3 10-Qs shows lower premiums except KRG). Loan documents require flood cover only inside mapped A/V zones, so the credit risk is uninsured repair cost at properties outside them, which lands on borrower liquidity and appears, if at all, in remittances from mid-December into spring 2027.
+
+**Horizon:** a credit effect, if any, from mid-December 2026 to April 2027 (servicer remittances); an insurance-price effect, if any, at the June 2027 Florida reinsurance renewal.
+
+**What would invalidate the no-implication reading:** widespread urban flooding in Miami-Dade, Broward or Palm Beach on 11/25-26 (large securitized CRE markets); a FEMA major-disaster declaration for those counties followed by a Trepp or KBRA exposure screen; a Florida-concentrated REIT disclosing an uninsured flood loss above its deductible (8-K or Q4 call). Florida shares by each REIT's own basis (not comparable; never sum): EGP 24.9% of rent, TRNO Miami 18.0% of rent, HST ~22.8% of hotel revenue, REG 19.7% of rent, CPT 18.3% of book, HIW 16.5% of rent, MAA ~16% of units, RHP 14.8% (Gaylord Palms), PECO 12.3% of rent, KRG 11.4% of rent. St. Johns basin addresses: PECO, REG, MAA, KRG.
+
+**What remains unknown:** securitized balance by county for these counties (no free source; Trepp's screen follows a FEMA declaration and none exists); which properties sit outside mapped zones; agency multifamily Florida share; any REIT's flood deductible terms. Tape 11/23 vendor closes: SPY +4.71%, VNQ +1.20%, Florida-heavy REITs −0.20% to +1.02%; one day, no flood attribution.
+
+CREED's forward view (unscored): about 70% the flood stays a handful of named-loan watchlist items with no measurable delinquency change by 2027-03-31; about 25% the SE-coast alternative above.
