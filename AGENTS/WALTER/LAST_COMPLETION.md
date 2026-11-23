@@ -4,6 +4,7 @@ Updated 2026-11-23T22:30:51Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 
 ## RESUME — do these first
 
+00. **After the full closeout (Will 18:17 to 18:24 ET 11/23):** WQ-740 ruled B, "push as it is" (13cf619174 pushed 18:25 ET, homeowner parcel detail now public by his choice). Pilot REQ-DEWEY-20261123-001 approved, due 12/01, PROME wakes DEWEY. **Open DEWEY handoff to process at boot (7d):** inbox/DEWEY/2026-11-23_from-DEWEY_flood-parcels-to-lenders.md (NEW, 18:05 ET; spot-check figure 32 of 185; carry its Do-not-relay-as).
 0. **Will 17:18 ET 11/23:** (a) if launched Tuesday evening 11/24 or Wednesday 11/25, **run the flood check (7j) FIRST**, before other boot work. (b) **Tue 11/24 after the morning releases: filter review** (FILTER_V3_REVIEW.md named about 10/4, overdue; a report: sample recent cards against desk use; changes nothing without Will). (c) Routing v0.53: edit 4 adopted; secondhand releases PRIORITY (official weather, grid and river warnings keep their urgency).
 1. **Tue 11/24:** FRED HY for 11/23 (REG-T-04 day 3 of 3; over 350 fires REGINALD action, LIQUID action, Will); RED grades RED-FT-11 (card 026); 5Y auction 13:00 ET (BOND I-prime 59.42); Richmond Fed 10:00, ERS Food Price Outlook, Case-Shiller, Car-Mart (BROCK); REGINALD, NEXUS, CORAL wakes by PROME.
 2. **Wed 11/25:** GDP and PCE, durable goods, 7Y (I-prime 57.43), FALCON, VULCAN, BRENT bypass watch (cards 022, 024, 025), FDIC QBP window, claims (203,000 last).
