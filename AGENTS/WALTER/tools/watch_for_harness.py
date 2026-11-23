@@ -71,7 +71,7 @@ def live_headlines(queries, days):
         url = ("https://news.google.com/rss/search?" + urllib.parse.urlencode(
             {"q": f"{q} when:{days}d", "hl": "en-US", "gl": "US", "ceid": "US:en"}))
         try:
-            x = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=30).read().decode("utf-8", "ignore")
+            x = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "research-bot/1.0"}), timeout=30).read().decode("utf-8", "ignore")
         except Exception as e:
             print(f"WARN live fetch failed for {q!r}: {e}")
             continue
