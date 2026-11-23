@@ -3,6 +3,13 @@
 **Session:** 2026-11-23 (Mon) 16:34 → 16:5x ET — **coral-al**, PROME prome-77 wake on Will's word (16:26 ET five questions; 16:33 ET "spawn any agents deemed necessary"): Florida flood transmission sweep D:L1243 (CORAL lead) + D:L1204 a day early. Opus 5.5 in Claude Code (in-process desk agent), laptop on battery. Boot: root CLAUDE.md (5 pages), CORAL CLAUDE.md (6), USER.md (3), COMPLETION_SPEC (4), AGENTS.md (1), all by `boot_read.py` to eof; STATUS whole, SCRATCH; corrections rc 1 → 0 after two receipts. Pull NOT run: tree carries PROME's modified files (Git would refuse; not stashed). Not pushed (PROME pushes).
 **Previous:** 2026-11-19 coral-ak (South FL storms, second touch).
 
+## coral-al FOLLOW-UP (17:20 → 17:3x ET, PROME FOLLOWUP_2026-11-23.md, same session)
+
+- Corrections FF23-2 (uninsured share = hypothesis), FF23-3 (USCB $66.252M = "Condo commercial" table label, 0.33% bank-wide), FF23-5 (watch times ET, not Z): research box + STATUS, CALENDAR, DETAIL, NEXUS_BRIEF, FL_BANK_WATCHLIST; correction packets TERRY, HOMER, CREED.
+- Association example: Hamilton Bay HOA / Hamal CDD (WPB), `research/2026-11-23_association-example-hamilton-bay.md`, KB ML-CORAL-191. No condo case found.
+- Inbox +4 drained (AEOLUS El Nino split; HOMER FF23-4; WALTER ENSO question + RULED: AEOLUS ACTION, CORAL INFO, CORAL keeps Florida effects).
+- Open: Hamal CDD bond holder (EMMA 403); CDD Board engineer report.
+
 ## CHANGES SINCE 11/19 (what the world did)
 
 - St. Johns at Cocoa: high **18.77 ft 06:30Z 11/21**, 18.58 ft 11/23, flat 18.5–18.6 to 11/28 (no fall). Lake Harney 13.09 > 12.67 record. Sanford, DeLand still rising.
