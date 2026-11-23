@@ -1,6 +1,7 @@
 # CREED STATUS
 
-**Updated:** 2026-11-16 (Mon), committed 14:15 ET per git (first written as "~15:00 ET" from narrative, corrected at closeout), PROME examination-list wake (prome-6f, Will's word 13:45 ET): **Trepp October SS graded — office 16.60 (−25bp), overall 11.74 (+25bp, highest since Dec 2012); `T-01b` NOT FIRED; `PRED-013` RESOLVED-TRUE (wrong side, Brier 0.36); F2 NOT TRIGGERED; no score moved, 28/45.** Inbox drained (10 items). Who-pays-to-extend lines at `research/2026-11-16_WHO_PAYS_TO_EXTEND.md` (logging only). THESIS rotated to 70%. Record `catchups/2026-11-16.md`. PRIOR header (11/09 10:50 ET) → `archive/STATUS_ROTATION_2026-11-16.md` §1 (verbatim, crc32 `9f8b3c20`).
+**Updated:** 2026-11-23 (Mon) 16:51 ET (from `date`), Will's Florida flood sweep (PROME prome-77; Will 16:26/16:33 ET): **commercial-collateral read of the St. Johns flood and SE-coast watch; no score, band, trigger or prediction moved; 28/45 unchanged.** File `research/2026-11-23_FLORIDA_FLOOD_CRE_EXPOSURE.md`, KB-122..130, TERRY packet (no implication on 11/23 evidence), record `catchups/2026-11-23.md`. Inbox drained (7). WQ-735: trepptalk_sweep switched to the honest client name, works.
+**PRIOR update:** 2026-11-16 (Trepp October SS graded) — moved verbatim → `archive/STATUS_ROTATION_2026-11-23.md` §2.
 **Status:** 🟠 **ELEVATED** (re-checked 2026-11-05) — base case *selective CRE recognition accelerating* **HOLDS.** Convergence **28/45 (62.2%)** — S1 3 → 4, **Will-ruled 2026-11-05**. ⚠️ Caveat travels: a return, not a record, and the +17bp is largely one loan. ⚠️ **Broad CRE-to-bank transmission is not confirmed** (`T-03` not fired; next test FDIC Q3 QBP ~late Nov, L514).
 **Tier:** 2 (spawned-as-needed). **Cadence declared EVENT-DRIVEN 2026-09-26** (PROME packet). Do not spawn without explicit Will permission.
 **Owner:** CREED after boot; PROME owns future topology/migration decisions only with Will approval.
@@ -11,7 +12,7 @@
 **▶ PREDICTIONS (re-checked 2026-11-16):** 3 open — `002` · `008` · `014` November office DQ. 🆕 `013` RESOLVED-TRUE 11/16, office SS 16.60 < 16.75, 40% wrong side, Brier 0.36. `012` ACRE book value RESOLVED-FALSE, $8.86, 55% on the wrong side, Brier 0.3025. 🆕 `011` RC book value NO-VERDICT, $6.44, inside $6.43 to $6.55, not scored. `PRED-001` RESOLVED-TRUE at 40%, wrong side, Brier 0.36 (Sep 12.16, Oct 12.33; Will's ruling 11/05, WQ-304 option B path). Graded n=9, mean Brier 0.300, 4/9 correct side. ⚠️ `001`/`004`/`007` graded on CREED's ledger stay OPEN on the Kernel ledger until a Gate C sitting — a stated divergence, not an error. Grading history → `archive/STATUS_ROTATION_2026-10-30.md` §8.
 **▶ NANO BANC (failed 9/25):** retained-pool allocation is REGINALD's ≈ $70–90M ≈ 32–42% (canonical: REGINALD's 10/09 report §2). Open: P&A agreement DOCKET **L516** (REGINALD moved it to 2026-11-03) · FDIC sale of the retained pool **L515** (check-by 2027-06-25; record lien position; most likely NOT a T-06 member). Full 9/27 line → `archive/STATUS_ROTATION_2026-10-30.md` §3; analysis `analysis/2026-09-27_nano-banc-collateral-read.md`.
 **▶ NEXT SESSION (re-stated 2026-11-16):** FDIC Q3 QBP ~11/25 (`T-03`, L514) · Trepp November DQ ~12/1–12/3 (`PRED-014`) and November SS ~mid-Dec (`PRED-002`, `T-01b`) · L183 grades 11/30 (2b NOT REVERSED) · Illinois Center sale result (unread 11/16) · Plaza Continental 11/17 hearing (DEWEY reads, L517) · NREF and ACRE 10-Q write-off lines (cannot move `T-08b` unless a 10-Q contradicts its release) · October CPPI office figure (`KB-114`) · October payoff rate (F2 graded on the transfer leg).
-**▶ ABS-EE office lease screen, run 1 (11/05):** descriptive only, no cadence, no predictive study (Will 11/05 13:08 ET); use the loan list only for a named exposure. Full line → `archive/STATUS_ROTATION_2026-11-09.md` §2 (verbatim, crc32 `05b53d2a`); `KB-102..105`.
+**▶ ABS-EE screen run 1 (11/05):** → `archive/STATUS_ROTATION_2026-11-23.md` §3.
 ---
 
 ## Instrument state — re-stamped 2026-10-21 (WQ-472); rows marked 10/28 re-checked 2026-10-28 (3.03, 5.01, 5.03, 6.01 via HOMER, 7.01, 9.02, 9.03, 10.04). One row per live instrument; UNAVAILABLE = not refreshed this session, with the reason.
@@ -109,6 +110,8 @@ Current thesis:
 
 ## BOTTOM LINE
 
+🆕 **2026-11-23 — FLORIDA FLOOD:** the realized flood is the St. Johns basin (Seminole, Lake, Volusia, Brevard, Putnam, Flagler); the SE coast (Palm Beach, Broward, Miami-Dade; Brevard to Martin) is a rain watch 11/24 evening to 11/26. **No FEMA declaration** (OpenFEMA 11/23), so no Trepp/KBRA county screen yet (Trepp's boundary is the FEMA list; Isaias analog $3.27B, 15 Panhandle counties). Loan documents require flood cover only inside mapped A/V zones: the credit channel is uninsured repair cost outside them, not premiums, which are falling (Marsh US property Q3 −10%; Trepp FL MF 2025 −6.2%; Citizens condo/wind-only still rising). Florida REIT shares by own basis (not comparable): EGP 24.9%, REG 19.7%, HST ~22.8%, CPT 18.3%, HIW 16.5%, MAA ~16%, PECO 12.3%. Post-Surfside law: no sign in CMBS/CLO/mREIT credit; it sits on bank books. **Forward view, unscored:** ~70% a handful of named-loan watchlist items and no measurable DQ change by 2027-03-31; ~25% SE-coast urban flooding makes it a billions-scale screen and Jan–Apr 2027 special-servicing transfers. No score moved.
+
 🆕 **2026-11-16 — OCTOBER SPECIAL SERVICING:** overall **11.74% (+25bp), Trepp's highest since December 2012**, led by lodging (+122bp; Project Prime $745.7M, 84 hotels) and multifamily (+69bp, HOMER's row; Blackjack $517.7M, BX 2021-21M). Office **fell 25bp to 16.60** while office DQ rose: not relief by itself (the largest office exit, 225 Bush $350M, left by note sale plus deed-in-lieu). `T-01b` not fired; `PRED-013` TRUE; F2 not triggered (transfers rose to $3.01B). No score moved (`KB-119`).
 
 **🟠 AS OF 2026-11-06 — CURRENT (① ② October Trepp; ③ 11/06 close; ④ census complete 11/06; ⑤ 11/06; ⑦–⑩ dated in place; what could not be refreshed is marked UNAVAILABLE above).** Base case *selective CRE recognition accelerating* HOLDS. **Convergence 28/45** (S1 3 → 4, Will-ruled 11/05). Broad CRE-to-bank transmission is not confirmed.
@@ -125,14 +128,14 @@ Current thesis:
 
 **⑥ COUNTS:** see the header and `SCRATCH.md` §State at handoff (counts move every session; the 10/28 cell, which mixed 10/28 and 10/22 values, is at `archive/STATUS_ROTATION_2026-10-30.md` §4).
 
-**⑦ DATED CASE WATCH:** 450 5th St NW (DOCKET L723) GRADED 10/28: outcome A, the lender (a Criterion entity) took title, bid amount unread, so no price; not CMBS, not a bank, moves no band. Next: Illinois Center (Chicago) sheriff sale Thu 11/12 (calendar lead). Full line → `archive/STATUS_ROTATION_2026-10-30.md` §5.
+*⑦ DATED CASE WATCH — moved verbatim 2026-11-23 → `archive/STATUS_ROTATION_2026-11-23.md`.*
 
-**⑧ RULINGS:** WQ-364 (Will, 2026-10-15): the fleet claim *"private credit is opaque"* is WITHDRAWN (→ `archive/STATUS_ROTATION_2026-10-30.md` §6).
+*⑧ RULINGS — moved verbatim 2026-11-23 → `archive/STATUS_ROTATION_2026-11-23.md`.*
 
-**⑨ WILL'S 005 (2026-10-22): the junk-spread widening reaches CRE through RATES, not spreads** (securitized CRE spreads held through 10/16; `KB-CREED-061/062/063`; full paragraph → `archive/STATUS_ROTATION_2026-10-30.md` §7).
+*⑨ WILL'S 005 — moved verbatim 2026-11-23 → `archive/STATUS_ROTATION_2026-11-23.md`.*
 
-**⑩ 🆕 2026-10-28 LATE — THE OPEN LIST WORKED:** office vacancy **18.2%** (CBRE Q3) still falling but absorption slowed to +4.9M sf from +12.6M; Moody's (20.7% Aug, SECONDARY) reads the other way. **3000 Post Oak: the three CMBS trusts lost $64.78M (86.9% of balance)**, all on unrated/risk-retention classes, no rated bond hit. Fund gates still **1** (SREIT). Forced-sale comps in occupied buildings: 1 sale + 1 note sale, secondary only, **not a cluster yet**. VLY: ≥ ~$29.3M of its multifamily past-dues went nonaccrual with ~27% charged off — concentrated, not broad. **Moves no band, score or trigger.** ✅ Will 2026-10-28 23:23 ET, verbatim *"yes adopt the 9.02 proxy"*: `VX-9.02` now reads office prices **−33% from the 2022 peak → ORANGE** (SECONDARY-tier, `KB-089`). 100 Summer St (Boston) sold at its foreclosure auction for $260M to its own owner, the sole bidder (CASE-048).
+*⑩ 🆕 2026-10-28 LATE — moved verbatim 2026-11-23 → `archive/STATUS_ROTATION_2026-11-23.md`.*
 
-**Prior BOTTOM LINE (2026-09-28 → 10/01):** in git history of this section and `catchups/2026-09-30.md`; superseded as current.
+*Prior BOTTOM LINEs → archive §4 of 2026-11-23.*
 
 *(Tier-2 spawn-on-need. BOTTOM LINE is current-first, always.)*

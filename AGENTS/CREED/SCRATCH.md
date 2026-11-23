@@ -1,7 +1,7 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
-**Rewritten:** 2026-11-16 (Mon) 14:16 ET (from `date`), at closeout on PROME's ask after the examination-list assignment (prome-6f, Will's word 13:45 ET). **Record: `catchups/2026-11-16.md`.** In one line: Trepp October SS graded (office 16.60, `T-01b` not fired, `PRED-013` TRUE, F2 not triggered) · 28/45 unchanged · inbox drained, 10 items · who-pays file written · THESIS rotated to 70% · KB 121 · cases 186 · **HOLDING open for PROME; not closed out.** No pull, no push this session (GitHub lookups failing).
-*PRIOR (11/09): `catchups/2026-11-09.md`.*
+**Rewritten:** 2026-11-23 (Mon) 16:52 ET (from `date`), at closeout of the Florida flood sweep wake (PROME prome-77, Will's word 16:26/16:33 ET). **Record: `catchups/2026-11-23.md`.** In one line: flood CRE collateral read filed (`research/2026-11-23_FLORIDA_FLOOD_CRE_EXPOSURE.md`, KB-122..130) · TERRY told no implication on 11/23 evidence · inbox drained, 9 · WQ-735 switched (1 script, works) · STATUS rotated to 70% · 28/45 unchanged · no push (PROME pushes).
+*PRIOR (11/16): `catchups/2026-11-16.md`.*
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB / research; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
 > **Canonical-truth ordering, and this file is at the BOTTOM:** `STATUS.md` > `thesis/THESIS.md` > `research/REFRESH_*.md` > `workbook/` > `SCRATCH.md`. ⚠️ A crash lands here first: diff the commit log against this file before trusting it.
@@ -12,6 +12,7 @@
 Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea84` · 004 `50e84d2b8f` · 007 `19e4d1a003`** (re-verified 11/16 before and after the `PRED-013` edit). Graded on this ledger; Kernel records stay OPEN. Gate C inactive. ⇒ **Never edit a pinned row without Will's ruling.**
 
 ## 🔴 NEXT MOVES
+0. **Florida flood follow-through (only if PROME re-spawns):** FEMA declaration → then the Trepp/KBRA county screen (Isaias lag 5 days) → named basin loans in December remittance commentary → Florida REIT 8-Ks / Q4 calls (PECO, REG, MAA, EGP, CPT, HST). Optional build: ABS-EE county count by ZIP (registered conduits only; ~1 GB pull, cache gone). Leads: Estates at Palm Bay $61M (Brevard, KB-128) not yet a case.
 1. **FDIC Q3 QBP ~11/25** (`T-03` legs b and c by hand, L514); regional CRE OREO watch (obligation 10).
 2. **Trepp November DQ ~12/1–12/3** grades `PRED-014`; **November SS ~mid-Dec** grades `PRED-002` and `T-01b`. Try the public hubfs PDF first (the October SS URL pattern worked 11/16).
 3. **L183 grades 11/30:** leg 2b NOT REVERSED (Oct spread 4.27 but office DQ rose). BROCK consumes.
@@ -28,7 +29,7 @@ Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea8
 ## 🟡 STATE AT HANDOFF
 - **Base case HOLDS; 🟠 ELEVATED; convergence 28/45; broad CRE-to-bank transmission is not confirmed.**
 - **Trigger board:** `T-01a` FIRED (effective 11/2) · `T-01b` 16.60 [Oct], not fired · `T-02` spent · `T-03` not fired · `T-06b` fired, count 1 · `T-07` not fired · `T-08a` FIRED 9/24, +4.08 [11/06 close], not re-run 11/16 · `T-08b` NOT FIRED, graded 11/06 (leg 2 2 of 10).
-- **Counts:** VX 34 · KB **121** · PRED 15 (3 open: 002, 008, 014) · registry 11 · **cases 186** · evals v2 4/4.
+- **Counts:** VX 34 · KB **130** · PRED 15 (3 open: 002, 008, 014) · registry 11 · **cases 186** · evals v2 4/4.
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
 
@@ -86,8 +87,8 @@ Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea8
 
 *Closed 10/30: DAEDALUS profile-refresh items 1–7, 9–12 (record `catchups/2026-10-30.md` §③).* *Closed 10/28: #25, #27, #7 (see `catchups/2026-10-28.md`).*
 
-## 📬 MAIL STATE (11/16; canonical record `board_log.tsv`)
-- **In:** 10 items read and dispositioned (6 DEWEY, 1 DAEDALUS, 1 HOMER, 2 WALTER), all filed to `processed/`. `inbox/` and `inbox/WALTER/` empty at 14:13 ET (from the board_log stamp 19:13Z).
-- **Out:** one packet to `PROME/inbox/` (examination-list return) plus a message to prome-6f.
+## 📬 MAIL STATE (11/23; canonical record `board_log.tsv`)
+- **In:** 9 items read and dispositioned (2 PROME: WQ-735, WQ-715; 5 WALTER cards 11/17 to 11/21; CORAL and REGINALD replies to the flood packets, 16:53 ET), all filed to `processed/`.
+- **Out:** TERRY (flood tradeability), CORAL, REGINALD, HOMER (info), PROME delivery memo `PROME/inbox/2026-11-23_from-CREED_florida-flood-cre-exposure.md`.
 
 ## 🔵 OWED OUT — none beyond PROME's packet. A launch is needed for the next print; CREED does not self-start.
