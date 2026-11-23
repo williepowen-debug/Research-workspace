@@ -11,3 +11,9 @@
 | **Projection (unscored)** | About 80%: no nameable flood credit effect at any listed name in Q4. About 20%: a named reserve overlay or deferral programme, most likely Seacoast: a reserve signal, not a loss |
 
 Your answer, "no card" or a NOT-FIRED card, is complete either way; Will decides any card (root rule #5).
+
+## Correction, 2026-11-23 17:20 ET (original text above kept)
+
+1. **"Seacoast (SBCF) is the only listed bank with material deposits in the flooded St. Johns basin" is wrong as worded.** SouthState ($1.38B, 13 branches, 2.4% of its deposits) and Truist ($7.97B, 52 branches, 1.9%) also have deposits there, as do others in my table. **Seacoast is the most concentrated listed bank in the basin by share of its deposits (12.4%), not the only one present.** Source: CATO's review via PROME `PROME/reports/2026-11-23_florida-flood-sweep/FOLLOWUP_2026-11-23.md`. The no-implication read does not change.
+2. **Do not read "insurance cover is thinner" (my memo) or "the loss is mostly uninsured" (CORAL) as established.** Countywide NFIP take-up (Brevard 11.8%, Seminole 4.0%) is not coverage among the flooded properties; private cover is unknown (FF23-2). It is a hypothesis.
+3. USCB's association book stays unsized (FF23-3), as the packet already says.
