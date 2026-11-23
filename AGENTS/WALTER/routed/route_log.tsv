@@ -2327,3 +2327,7 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-23T21:43:14Z	SIG-W-20261123-023	WALTER walter-7f 11/23 (laptop), full sweep	CORRECTION of 015 (Araghchi terms) and 018 (DNI quote, Delta)	PRIORITY		FALCON,BRENT,HAWK,NEXUS,CYPHER,AEOLUS,RED,PROME	0.85
 2026-11-23T22:02:12Z	SIG-W-20261123-024	WALTER walter-7f 11/23 (laptop), Will 16:57 ET	Tanker costs: TD3C -24%, TD34 -67%; printed WS315.63 does not fit; Aramco Dec OSP	PRIORITY	BRENT	FALCON,HAWK,HENRY,LIQUID,NEXUS,PROME	0.85
 2026-11-23T22:02:12Z	SIG-W-20261123-025	WALTER walter-7f 11/23 (laptop), Will 16:57 ET	CORRECTION 022 item 1 (port order sequence, Jeddah) and 20261121-002 (tanker rates June)	PRIORITY	BRENT,FALCON	HAWK,HANS,SAM,NEXUS,LIQUID,RED,PROME	0.75
+2026-11-23T22:04:50Z	SIG-W-20261123-026	WALTER walter-7f 11/23 (laptop), Will 17:03 ET continue	RED-FT-11 precondition met on FRED, legs FUNDAMENTAL, RED grades	PRIORITY	RED,BOND	HENRY,NEXUS,PROME	0.95
+2026-11-23T22:08:02Z	SIG-W-20261123-027	WALTER walter-7f 11/23 (laptop), Will 17:03 ET continue	Williams 11/23 text: price-stability risk up; no December guidance	PRIORITY	HENRY	BOND,LIQUID,CARL,ORACLE,NEXUS,RED,PROME	0.95
+2026-11-23T22:08:02Z	SIG-W-20261123-028	WALTER walter-7f 11/23 (laptop), Will 17:03 ET continue	NFRA Q3: rural NPL 2.895, on ZHAO's 2.9 line; cover rose	PRIORITY	ZHAO	REGINALD,HENRY,SAM,PROME	0.95
+2026-11-23T22:08:02Z	SIG-W-20261123-029	WALTER walter-7f 11/23 (laptop), Will 17:03 ET continue	Release sweep small items: AFT dismissal, PMI detail, Fannie, Apartment List	ROUTINE	CARL,ISHM,HOMER	FERT,PROME	0.75
