@@ -1,0 +1,40 @@
+[
+ {
+  "id": "SIG-W-20261123-030",
+  "slug": "Humboldt-Bay-North-Spit-tide-forecast-10.3-to-11.0-ft-Tue-Nov-24-NWS-says-above-January-2026-levels-gauge-high-10.36-major-flooding-warned",
+  "safety_net": "clear",
+  "event_window": "open",
+  "route_origin": "WALTER walter-7f 11/23 (laptop), step 7j flood check on Will's 18:51 ET ask",
+  "origin": [
+   "Charter step 7j flood check, 2026-11-23 18:59 ET"
+  ],
+  "signal_type": "catalyst",
+  "title": "NWS Eureka forecasts 10.3 to 11.0 ft MLLW at North Spit (Humboldt Bay, California) Tue Nov 24, 9 AM to 1 PM PST, and says water will exceed January 2026, when the gauge read 10.36 ft, the highest WALTER found; 'major flooding in low lying areas mainly around Humboldt Bay'",
+  "body": "# Northern California coast: an official forecast at or above the highest tide found for the gauge\n\n| Gauge (CO-OPS station) | Forecast, Tue Nov 24 (NWS Eureka) | Highest found, MLLW | Observed Nov 23 | Reads as |\n|---|---|---|---|---|\n| North Spit, Humboldt Bay (9418767) | **10.3 to 11.0 ft** | **10.36 (2026-01-03)**; CO-OPS datum page lists 9.88 (2005-12-31) and is out of date | 9.58 ft | low end 0.06 under, rest above |\n| Arena Cove (9416841) | 8.25 to 8.75 | 8.67 (1998-02-06) on the datum page, later highs not checked | 8.06 | upper end above the listing |\n| Crescent City (9419750) | 9.5 to 10.0 | 10.66 (1983-01-29) on the datum page, later highs not checked | 9.02 | under |\n\n- **Why IMMEDIATE:** NWS says the levels 'are expected to exceed the water levels seen in January of 2026 that caused significant flooding in King Salmon'. The January 3 gauge high was 10.36 ft (CO-OPS high/low record). That is an officially forecast level above the highest WALTER found. It is **not a certified record claim**: other months were not all read (highs read: Jan 2026 10.36, Dec 2024 9.66, Nov 2025 9.42, Dec 2025 9.24, Jan 2023 8.95, Feb 2026 8.78).\n- **Warning (issued 14:34 PST Nov 23):** Northern Coastal Humboldt 'major flooding in low lying areas mainly around Humboldt Bay', up to 3 (unit word omitted in the text) of saltwater inundation; 'Several coastal roads may be closed', 'some critical infrastructure', roadways and houses in King Salmon and the Arcata bottoms, possibly Highway 101 near College of the Redwoods and Highway 255. Del Norte, southwest Humboldt and Mendocino: moderate flooding.\n- **Wednesday to Thursday:** a Coastal Flood Watch; 'breaking waves of 25 to 30 feet' on Wednesday on the Redwood and Mendocino coast, may cause major flooding.\n- **Conflict to weigh:** the NWPS gauge forecast for North Spit peaks at 8.54 ft and equals the tide prediction (8.43 ft Tue 10:25 AM), so it excludes surge. The warning is a forecaster's total and needs about 2 feet above the prediction; Monday's observed high was 9.58 ft. NWS major stage at North Spit is 10.0 ft.\n- **Not checked:** Florida and the other live alerts beyond the 7j list, which AEOLUS holds (KB-AEO-318, 321). No damage or outage report read.\n\nEconomic channel is AEOLUS's read: a small, low-lying coast; no power or port asset is named in the text.",
+  "source": "api.weather.gov NWS Eureka Coastal Flood Warnings sent 2026-11-23T14:34 PST; CO-OPS datums, water_level, high_low and predictions APIs (9418767, 9419750, 9416841); NWPS HBYC1, read 2026-11-23 about 19:01 to 19:05 ET",
+  "action": [
+   "AEOLUS"
+  ],
+  "info": [
+   "WATT",
+   "SHADE",
+   "CORAL",
+   "PROME"
+  ],
+  "precedence": "IMMEDIATE",
+  "confidence": 0.85,
+  "confidence_language": "reports: official warning text and gauge data read directly; the record comparison uses the CO-OPS listing",
+  "cluster": "CLIMATE_MACRO",
+  "domain": "CLIMATE_MACRO",
+  "entities": [
+   "Humboldt Bay",
+   "North Spit",
+   "Eureka",
+   "Arena Cove",
+   "Crescent City",
+   "NWS"
+  ],
+  "dispatch_note": "IMMEDIATE under routing v0.53 (officially forecast level above the highest found, per the NWS text) and step 7j. AEOLUS live. INFO CORAL, WATT, SHADE, HAWK; PROME by BOARD diff. One card per state per check; both new CA warnings are here. Draft said 9.88 as the record; corrected before dispatch when the Jan 2026 high was read.",
+  "route_summary": "Humboldt Bay forecast tide above the listed record; IMMEDIATE"
+ }
+]
