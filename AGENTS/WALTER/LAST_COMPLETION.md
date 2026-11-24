@@ -4,6 +4,7 @@ Updated 2026-11-23T22:30:51Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 
 ## RESUME — do these first
 
+000. **Night add (19:06 ET 11/23):** card 030 IMMEDIATE (Humboldt Bay tide forecast, ACTION AEOLUS, closed; PROME told). At the next launch: flood check first; outcome of Tue 9 AM to 1 PM PST at North Spit (CO-OPS 9418767; the datum page's record 9.88 is out of date, Jan 3 2026 high 10.36).
 00. **After the full closeout (Will 18:17 to 18:24 ET 11/23):** WQ-740 ruled B, "push as it is" (13cf619174 pushed 18:25 ET, homeowner parcel detail now public by his choice). Pilot REQ-DEWEY-20261123-001 approved, due 12/01, PROME wakes DEWEY. **Open DEWEY handoff to process at boot (7d):** inbox/DEWEY/2026-11-23_from-DEWEY_flood-parcels-to-lenders.md (NEW, 18:05 ET; spot-check figure 32 of 185; carry its Do-not-relay-as).
 0. **Will 17:18 ET 11/23:** (a) if launched Tuesday evening 11/24 or Wednesday 11/25, **run the flood check (7j) FIRST**, before other boot work. (b) **Tue 11/24 after the morning releases: filter review** (FILTER_V3_REVIEW.md named about 10/4, overdue; a report: sample recent cards against desk use; changes nothing without Will). (c) Routing v0.53: edit 4 adopted; secondhand releases PRIORITY (official weather, grid and river warnings keep their urgency).
 1. **Tue 11/24:** FRED HY for 11/23 (REG-T-04 day 3 of 3; over 350 fires REGINALD action, LIQUID action, Will); RED grades RED-FT-11 (card 026); 5Y auction 13:00 ET (BOND I-prime 59.42); Richmond Fed 10:00, ERS Food Price Outlook, Case-Shiller, Car-Mart (BROCK); REGINALD, NEXUS, CORAL wakes by PROME.
@@ -103,13 +104,28 @@ Tier 2 FULL closeout, walter-7f, laptop. Publication is not consumption. Retirem
    "commit": "2714158a44",
    "state": "published",
    "note": "routing v0.53"
+  },
+  {
+   "commit": "159c960333",
+   "state": "published",
+   "note": "full closeout"
+  },
+  {
+   "commit": "56e7dc3ef7",
+   "state": "published",
+   "note": "pilot REQ"
+  },
+  {
+   "commit": "365abcdd69",
+   "state": "published",
+   "note": "card 030"
   }
  ],
  "delivery": {
   "signal_date": "20261123",
-  "total": 186,
-  "delivered": 186,
-  "note": "all 186 rows delivered after origin proof; 34 distinct recipients. Delivered is not consumed. CARL, RED, PROME INFO by BOARD diff; TERRY BOARD-only"
+  "total": 190,
+  "delivered": 190,
+  "note": "all 190 rows delivered after origin proof (card 030 added after the closeout); Delivered is not consumed. CARL, RED, PROME INFO by BOARD diff; TERRY BOARD-only"
  },
  "owner_review": {
   "scope": "manual evidence review; no automatic completion",
