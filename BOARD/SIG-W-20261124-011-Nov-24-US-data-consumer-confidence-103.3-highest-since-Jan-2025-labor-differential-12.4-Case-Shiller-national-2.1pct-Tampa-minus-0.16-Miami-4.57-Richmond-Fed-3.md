@@ -13,7 +13,7 @@ confidence: 0.8
 confidence_language: "Case-Shiller read at the issuer; the others secondhand, preliminary"
 resources: 1
 safety_net: "clear"
-cluster: "CONSUMER_CREDIT"
+cluster: "CONSUMER_STAGFLATION"
 domain: "MACRO_DATA"
 entities: ["Conference-Board", "Case-Shiller", "Richmond-Fed", "Tampa", "Miami"]
 word_count: 251

@@ -13,7 +13,7 @@ confidence: 0.95
 confidence_language: "confirmed: rule text read at the Federal Register"
 resources: 1
 safety_net: "clear"
-cluster: "AI_CAPEX"
+cluster: "AI_INFRA_CAPEX"
 domain: "AI_CAPEX"
 entities: ["Megaspeed", "BIS", "Entity-List", "Nvidia"]
 word_count: 160

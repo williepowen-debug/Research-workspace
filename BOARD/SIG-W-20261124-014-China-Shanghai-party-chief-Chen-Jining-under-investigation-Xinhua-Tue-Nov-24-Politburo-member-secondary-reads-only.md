@@ -13,7 +13,7 @@ confidence: 0.7
 confidence_language: "multiple secondary summaries agree; the announcement itself unread"
 resources: 1
 safety_net: "clear"
-cluster: "GEOPOL"
+cluster: "ASIA_CHINA"
 domain: "CHINA"
 entities: ["Chen-Jining", "Shanghai", "Xi-Jinping", "Xinhua"]
 word_count: 85

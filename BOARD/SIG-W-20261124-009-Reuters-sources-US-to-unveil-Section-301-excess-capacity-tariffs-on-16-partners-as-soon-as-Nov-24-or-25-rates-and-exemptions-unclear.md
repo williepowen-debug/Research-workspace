@@ -13,7 +13,7 @@ confidence: 0.7
 confidence_language: "anonymous sources via Reuters; no official document found"
 resources: 1
 safety_net: "clear"
-cluster: "MACRO_RATES"
+cluster: "INFLATION_TRANSMISSION"
 domain: "TARIFF_TRADE"
 entities: ["USTR", "Section-301", "China", "EU", "Japan", "South-Korea", "Mexico"]
 word_count: 195

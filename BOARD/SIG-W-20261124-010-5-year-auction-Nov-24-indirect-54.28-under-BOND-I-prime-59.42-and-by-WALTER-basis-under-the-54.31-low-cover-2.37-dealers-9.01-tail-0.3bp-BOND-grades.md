@@ -13,7 +13,7 @@ confidence: 0.9
 confidence_language: "official auction record; shares are WALTER arithmetic"
 resources: 1
 safety_net: "clear"
-cluster: "MACRO_RATES"
+cluster: "FED_FRAMEWORK"
 domain: "RATES"
 entities: ["Treasury", "5-year-note", "91282CRZ6"]
 word_count: 170

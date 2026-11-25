@@ -13,7 +13,7 @@ confidence: 0.8
 confidence_language: "Reuters on named officials; FT items are titles only"
 resources: 1
 safety_net: "clear"
-cluster: "GEOPOL"
+cluster: "MISC"
 domain: "GEOPOL"
 entities: ["NATO", "AWACS", "Poland", "Estonia", "Finland", "Russia"]
 word_count: 123

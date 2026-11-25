@@ -13,7 +13,7 @@ confidence: 0.85
 confidence_language: "direct quotes via Reuters"
 resources: 1
 safety_net: "clear"
-cluster: "MACRO_RATES"
+cluster: "FED_FRAMEWORK"
 domain: "FED_POLICY"
 entities: ["Fed", "Williams"]
 word_count: 91
