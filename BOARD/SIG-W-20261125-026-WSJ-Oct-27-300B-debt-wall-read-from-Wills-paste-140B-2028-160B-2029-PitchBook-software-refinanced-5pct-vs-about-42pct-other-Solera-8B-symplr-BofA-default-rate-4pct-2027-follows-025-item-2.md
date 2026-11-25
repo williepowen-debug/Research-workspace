@@ -1,0 +1,41 @@
+---
+signal_id: "SIG-W-20261125-026"
+date: "2026-11-25"
+timestamp: "2026-11-25T18:18:35Z"
+dispatched: "2026-11-25T18:18:35Z"
+source: "WSJ article text and three chart images pasted by Will 13:17 ET (wsj.com not fetched); PitchBook note Aug 17 2026 (PDF text searched); Fortune 2026-11-21 (helper read)"
+origin: ["WSJ, Matt Wirz and Mark Maurer, updated 2026-10-27 08:17 ET, pasted by Will"]
+action: ["BROCK"]
+info: ["LIQUID", "REGINALD", "SHADE", "GIBBS", "NEXUS", "RED", "PROME"]
+precedence: "ROUTINE"
+signal_type: "development"
+confidence: 0.85
+confidence_language: "reports: article read whole from the operator's paste; underlying data unread"
+resources: 1
+safety_net: "clear"
+cluster: "PC_STRESS"
+domain: "PRIVATE_CREDIT"
+entities: ["PitchBook", "Solera", "Vista", "symplr", "Clearlake", "Ares", "Apollo", "Carlyle", "BofA"]
+word_count: 482
+dispatch_note: "ROUTINE: month-old article. ACTION BROCK (universe, software refinancing share, Solera and symplr holders in its BDC set). RED, PROME by BOARD diff."
+event_window: "open"
+---
+# WSJ $300B private-equity 'debt wall' read whole (Will's paste; the article is from OCTOBER 27, not new): $140B due 2028 and $160B due 2029; only 5% of software debt due 2028 was refinanced this year against about 42% elsewhere (Carlyle); Solera about $8B; BofA sees loan defaults doubling to 4%
+
+# WSJ Oct 27, 2026: the debt wall, read whole
+
+| Object | Figure | Basis and limit |
+|---|---|---|
+| Wall | about $140B due 2028, $160B due 2029 | PitchBook via WSJ. Chart is titled 'Below investment-grade loans coming due': **it may be all risky loans, not only private-equity-backed ones**; text calls them 'risky corporate loans'. Scope not settled |
+| Comparison | 2023 to 2025: 'an average of about $60 billion due in two years' | PitchBook; wording ambiguous (per two-year window or per year): do not quote a multiple |
+| Software share | about one third (text); chart 34% in 2028, about 26% in 2029 (read off the chart); 2028 ex-software $93.19B | includes IT services. The 2028 figure is consistent: 140 less 93.19 is about 47 |
+| **Refinanced this year, of debt due 2028** | **software 5%; other industries about 42% (bar read)** | Carlyle chart: the discriminator in the piece |
+| Ratings | about a quarter of 2028-29 loans at CCC+ or below | PitchBook |
+| Solera (Vista) | about $8B due 2028-29; CCC+ since last year (S&P); loans 77 to 93 cents; holders named: Apollo, Ares, Fidelity, Pimco | Solve prices; as of about Oct 27 |
+| symplr (Clearlake) | $2.2B due Dec 2027 and 2028 extended to 2030-31; $175M preferred from a continuation fund, about $100M new loan, some interest deferred; some holders (group includes Ares, Sixth Street) had marked near 66 | late-2025 amendment per WSJ; an extension paid with fund money |
+| Forecast | BofA: below-investment-grade loan default rate doubles next year to 4%, lower recoveries; near-term walls highest since 2013 | report of the Friday before (Oct 23), not read |
+| Returns | PE fund returns under 10% from about 15% | PitchBook |
+
+- **Date and wording:** a month old. Card 025's post (Nov 25) relays it through a Fortune commentary of Nov 21 (helper read, links both WSJ articles). The post's 'most of that debt was refinanced in 2020 and 2021' is Fortune's wording; WSJ says the wall was BUILT in 2021 with seven-year loans. The '30% held six years or more' is NOT in this article (PitchBook via Fortune; second WSJ article unread).
+- **Conflicts with BROCK's holding:** KB-BRK-114 has the BDC software wall peaking in 2031 with 2028-29 the first major cluster. PitchBook (Aug 17) agrees for BDCs: software 18 to 19% of principal in 2028-29 and about 20% each in 2031 and 2032+. **Different universe, not a contradiction:** WSJ's loans are likely broadly syndicated or mixed; BDC holdings are separate. Do not add them.
+- **So what:** software that could not refinance in 2026 is the pressure point, and it reaches the same managers (Ares, Apollo) by name. It is not evidence about today's market. Solera and symplr: no BROCK KB row or owner card found by my search.

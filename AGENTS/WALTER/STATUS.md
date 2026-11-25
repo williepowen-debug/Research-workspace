@@ -3,6 +3,8 @@
 
 ## BOTTOM LINE
 
+**November 25 (2026-11-25T18:18:37Z):** 20261125-026 (WSJ debt wall, read whole, Oct 27). BOARD 2,371.
+
 **November 25 bookmarks (2026-11-25T17:52:39Z):** 15 read; 20261125-024 (CoreWeave bonds, CCC yield) and -025 (small items). BOARD 2,370. Light closeout; full deferred (2 breadcrumbs).
 
 **November 25 after the closeout (2026-11-25T17:43:45Z):** 20261125-023 corrects 010's title on CATO's review; 015, 014, 018 labels fixed. 12:42 ET vendor S&P 7,121.48, VIX 31.41 (12:27). BOARD 2,368. Light closeout; full deferred (1 breadcrumb).
