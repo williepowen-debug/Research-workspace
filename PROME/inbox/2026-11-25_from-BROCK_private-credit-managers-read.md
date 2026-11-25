@@ -28,7 +28,7 @@ Source: FORGE `fetch.py price` read 11:44 ET 11/25 (intraday, not closes); prior
 - **11/23 rebound:** they rose with the market (+3 to +5%), the opposite of a lead.
 - **Whole window 11/19 close to now:** five managers -0.6% raw, -0.7 points vs RSP; BDC wrappers +0.8% raw, +0.8 points vs RSP.
 - **My X1 test (b) (do wrappers lead down?):** 11/19 to 11/24 (HY 352 to 372 bp), wrappers ARCC/FSK/OBDC/BIZD +1.64% vs APO/ARES +4.66%: wrong sign again. X1 not met, no rescore (LIQUID already has X1 CLOSED).
-- ⚠️ BKLN shows small negative residuals on 11/23 and 11/25; a monthly distribution ex-date may explain them. Not checked, not claimed.
+- **Loans under bonds today (LIQUID packet 11:49 ET, checked):** BKLN -0.42% and SRLN -0.44% vs HYG -0.14% and JNK -0.19% (fetch.py 11:50 ET). Not a distribution artifact: neither fund went ex on 11/25 (Yahoo dividend history). Small, and an ETF price, not loan marks; but the loan market is where BDC borrowers sit, so a gap that widens over several sessions with BDC prices following would be the first market sign of transmission (KB-BRK-536). LIQUID found no pulled or repriced loan; the only named loan marks are the Oracle-linked Project Jupiter pieces about 85 and about 90 (press, 11/24).
 
 **Is the BDC calm information or lag?** Both. Lag: NAVs are 9/30 marks, and the next marks are 12/31, published February to March. Information: (a) the BDCs' named neocloud loans are each under 1% of net assets (section 3), so a CoreWeave or IREN problem is a single-name hit, not a book event; (b) high yield is wider, but CCC/BB *fell* on the 11/24 widening (6.33 to 6.24; CCC 1,405 / BB 225, FRED): the stress sits in AI single names and upper tiers, not the leveraged-loan tail BDCs own. The price, not the NAV, is the live channel, and it has not moved beyond beta.
 
@@ -86,7 +86,7 @@ No score, level, operator, instrument or consequence changed. Convergence 58/70.
 | 20261124-021 | noted; COR-20261124-21 receipted NO-OP (`registry/corrections_receipts.tsv`) |
 | 20261124-015, -016, 20261125-009 | info-only (other desks' domains) |
 
-Top-level `inbox/` held no direct packets.
+Direct packets: one arrived mid-session, `2026-11-25_from-LIQUID_loan-etf-marks-1125.md` (11:49 ET): **acted** (KB-BRK-536, section 2). ⚠️ LIQUID had not committed it at 11:52 ET, so it is still in `inbox/` untracked: I cannot `git mv` another desk's uncommitted packet. It moves to `processed/` once LIQUID commits it (LIQUID's carve-out ①); PROME, please nudge LIQUID.
 
 ## 7. Forward view (unscored; not registered)
 
@@ -104,14 +104,14 @@ Top-level `inbox/` held no direct packets.
 
 ## 8. Sent and committed
 
-TERRY `9ac6306589` (my view: no card; what would make it tradeable). VULCAN `867cfdb13d` (named lines in manager-affiliated vehicles). No WALTER signal: nothing fired. Desk commit: see the COMPLETION block's follow-up message. No push (PROME pushes).
+TERRY `9ac6306589` (my view: no card; what would make it tradeable). VULCAN `867cfdb13d` (named lines in manager-affiliated vehicles). No WALTER signal: nothing fired. Desk commits `61ec164802` (read, KB 531-535, inbox, STATUS, catch-up, NEXUS) and a follow-up for KB-BRK-536 with this memo. No push (PROME pushes).
 
 **Skipped at boot, with reasons:** step 0 `git pull --rebase` (the tree carries HOMER's uncommitted files); step 2 LESSONS not re-read (read at the 11/24 session; the charter's standing traps applied); step 4 `dashboard.py` not run (load-bearing series pulled directly with `fetch.py`).
 
 ## COMPLETION — BROCK — 2026-11-25
 STATUS: ✅ DONE
-CHANGED: AGENTS/BROCK STATUS, KB (531 to 535), board_log, 11 inbox moves, corrections_receipts, catch-up 11/25, SCRATCH, NEXUS_BRIEF; packets TERRY, VULCAN; this memo
-RESULT: Managers fell with their beta to the equal-weight S&P on 11/20, 11/24 and 11/25, near-zero chip loading; today all five 1-3 pp under that line intraday (Apollo most), one common factor. BDC calm matches low beta; marks are 9/30. Named neocloud lines each under 1% of a vehicle's NA; largest named commitment Blue Owl's IREN $730.0M; manager 10-Qs name no AI borrower. CCC/BB fell on the 11/24 widening. No score moved, 58/70.
-GAPS: post-9/30 marks unknown until February 10-Ks; managers' fund-level AI totals unknown; BKLN residual possibly ex-date; BCRED Vantage size not extracted; no pull (others' dirty tree).
+CHANGED: AGENTS/BROCK STATUS, KB (531 to 536), board_log, 11 inbox moves, corrections_receipts, catch-up 11/25, SCRATCH, NEXUS_BRIEF; packets TERRY, VULCAN; this memo
+RESULT: Managers fell with their beta to the equal-weight S&P on 11/20, 11/24 and 11/25, near-zero chip loading; today all five 1-3 pp under that line intraday (Apollo most), one common factor. BDC calm matches low beta; marks are 9/30. Named neocloud lines each under 1% of a vehicle's NA; largest named commitment Blue Owl's IREN $730.0M; manager 10-Qs name no AI borrower. CCC/BB fell on the 11/24 widening; loan ETFs 0.25-0.30 pp under HY ETFs today (small, real). No score moved, 58/70.
+GAPS: post-9/30 marks unknown until February 10-Ks; managers' fund-level AI totals unknown; BKLN residual possibly ex-date; BCRED Vantage size not extracted; LIQUID's packet uncommitted, so not moved to processed; no pull (others' dirty tree).
 WILL_NEEDS: None. For his 11/24 question: IREN's site refused the WebFetch tool's own client string; BROCK switched nothing under WQ-735.
 FOLLOW-UP: W3 grades 11/30; CRMT 11/30, ~12/01, 12/03; BCRED/Monroe letters ~12/04-12/07 and R2 review 12/07; CABO ~12/16; Blue Owl BDC 10-Ks Feb 2027 for the AI-line marks.

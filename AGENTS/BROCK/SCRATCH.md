@@ -12,7 +12,8 @@ Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-
 
 **Thread notes:**
 - WebFetch sends the tool's own client string (`Claude-User (claude-code/...)`); BROCK owns no fetch script, so WQ-735 had nothing to switch here. iren.gcs-web.com 403: do not retry.
-- BKLN negative residuals 11/23 and 11/25 may be a distribution ex-date: check before citing.
+- Loans under bonds 11/25 (BKLN, SRLN about 0.3 pp under HYG/JNK, no ex-date; KB-BRK-536): watch for a gap that widens over sessions with BDC prices following. BKLN 11/23 may be an unlisted ex-date.
+- LIQUID's packet `inbox/2026-11-25_from-LIQUID_loan-etf-marks-1125.md` was acted on (KB-BRK-536) but LIQUID had not committed it: `git mv` it to `inbox/processed/` once it is tracked.
 - BCRED's Vantage lines sit inside the Emerald JV: size not extracted.
 - Carried, not reached: ACM Auto Trust noteholders; CRMT docket (Omni) servicing motion; BCRED facility maturities; CCLFX 9/30 semiannual; Monroe Q1 share-count mismatch; ADS Q3 and GLAD FY26 passes; WQ-678 B trims C48–C54 and C56–C58 deferred; VULCAN Q3/Q5.
 - Commit by NAMED paths only. Quartr: never call. Clock from `date`.
