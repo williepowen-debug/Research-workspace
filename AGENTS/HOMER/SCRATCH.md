@@ -12,6 +12,7 @@
 | Three open items (Will 14:50 ET) | Blackjack: NOT in Trepp October DQ (issuer ranking). Fitch: RESOLVED 15:16 ET (Will's browser via PROME): nine affirmed, four outlooks revised; CLOSED 15:23 ET: three to Negative, Provident to Stable from Positive. ICE: not retrieved |
 | NEXUS packet (3 facts) | All accepted: GSE/VA default rotation into the brief; ex-Cove narrowed (flows ≈ −3bp, flat); LABOR packet sent, edge NOT encoded at LABOR until it answers |
 | NEXUS correction (15:28 ET) | Fannie SF provision withdrawn as default evidence; ICE Nov equity section read (362K underwater and 3+ behind, +74%; ICE HPI +1.0% Oct); Fannie MF and insurer 10-Q facts logged as NEXUS-read (SEC refused my client: no contact string sent) |
+| PROME question: government-loan cash drain | Answered: PennyMac mostly NO on size (hedge cash dominates); Freedom not sizable. 10-Q unopened |
 | Docket | Thesis-grade row: A1 early-date clause corrected (0 of 2) |
 
 No band, count, score, kill test or registered odds changed.
