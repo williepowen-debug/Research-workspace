@@ -1,0 +1,26 @@
+Wed Nov 25 00:47:23 EST 2026
+
+ Ticker     Name                        Price     Change              As-of        Volume
+ ---------------------------------------------------------------------------------------
+ ^GSPC      ^GSPC                    7,201.09     -0.50%  2026-11-24 ⚠stale 5,244,060,000
+ SPY        SPY                       $718.78     -0.49%  2026-11-24 ⚠stale    64,228,000
+ QQQ        QQQ                       $638.10     -1.99%  2026-11-24 ⚠stale    57,091,400
+ NVDA       NVDA                      $155.38     -5.86%  2026-11-24 ⚠stale   383,594,200
+ SMH        SMH                       $426.75     -7.26%  2026-11-24 ⚠stale    14,849,400
+ RSP        RSP                       $213.96     +0.54%  2026-11-24 ⚠stale    10,962,600
+ IWM        Russell 2000 ETF          $267.14     +0.53%  2026-11-24 ⚠stale    30,043,800
+ HYG        HY Bond ETF                $76.43     -0.12%  2026-11-24 ⚠stale    56,151,700
+ GLD        GLD                       $325.45     -2.27%  2026-11-24 ⚠stale     9,428,500
+ ^VIX       VIX                        $26.36     -0.98%  2026-11-24 ⚠stale             0
+ ^VIX3M     ^VIX3M                     $25.47     -0.12%  2026-11-24 ⚠stale             0
+ ^VIX9D     ^VIX9D                     $26.68     -3.89%  2026-11-24 ⚠stale             0
+ ^TNX       10Y Treasury Yield          $4.90     -0.28%  2026-11-24 ⚠stale             0
+ ^TYX       ^TYX                        $5.29     -0.04%  2026-11-24 ⚠stale             0
+ ARM        ARM                       $161.56     -8.55%  2026-11-24 ⚠stale     5,618,800
+ CRWV       CRWV                       $42.60    -11.85%  2026-11-24 ⚠stale    61,182,000
+ ES=F       ES=F                     7,156.00        N/A 2026-11-25⚠unverif        77,803
+            └─ ⚠ unverified: withheld: session unverified (quote/chart price mismatch: fast_info 7156.0 vs history_metadata 7156.25) · unverified: quote/chart price mismatch: fast_info 7156.0 vs history_metadata 7156.25
+            └─ contract: Dec 2026 (ESZ26)
+ NQ=F       NQ=F                    25,897.00     -1.44%         2026-11-25        82,441
+            └─ contract: Dec 2026 (NQZ26)
+ ⚠ vendor futures quotes run about 10 minutes behind (median, measured 2026-11-05, L925)
