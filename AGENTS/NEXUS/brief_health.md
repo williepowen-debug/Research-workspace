@@ -4,6 +4,25 @@
 
 ---
 
+# ROLLUP #7 — 2026-11-25T00:34-05:00 (DOCKET L850, due Tue 11/24; one day late, the machine was off about 25 hours; rides the L554 wake). Window: rows dated after 2026-10-26 through 2026-11-25 → **8 non-digest rows across 9 passes** (10/31 · 11/2 · 11/4 · 11/5 · 11/6 · 11/10 · 11/16 · 11/17 · 11/25); 7 `digest` rows excluded per legend.
+
+**The window spans 2026-11-18, when `stale` changed meaning (WQ-719 A), so the two periods are reported separately:**
+
+| Period | brief-gap | stale | convergence | uncertainty | Rows |
+|---|---:|---:|---:|---:|---:|
+| 10/27–11/17 (`stale` = pin more than 1 commit behind) | 1 (REGINALD 11/5) | 4 (LIQUID 3, SAM 1) | 1 (VULCAN) | 0 | 6 |
+| 11/18–11/25 (`stale` = brief content disagrees with STATUS) | 0 | 1 (LIQUID) | 1 (GIBBS/LIQUID) | 0 | 2 |
+
+**`brief-gap` rate = 1/8 (12.5%).** **Pin coverage and class, beside it (schema §4.4; `scripts/brief_pin_check.py`, run 2026-11-25 00:29 ET):** 31 briefs — OK-PINNED 21 · OK-SAME-COMMIT 7 · STALE-PIN 1 (FLG, 1 commit, advisory since WQ-719 A) · UNPINNED 2 (BROCK, RED).
+
+**Decision rules applied (CLAUDE.md 9a):** ① `brief-gap` 1/8, far under the provisional 40–50%; the one row is REGINALD (n = 1): no fix-or-drop conversation. ② `stale`: LIQUID 4 rows (3 pin-lag before 11/18, 1 content residue on 11/25: its rewritten 11/24 brief kept a test table that reads REG-T-04 "1 of 3" against its own FIRED headline). Under 6 data points, so no closeout-discipline flag; noted. ③ `convergence` 2: healthy, not penalised. ④ No desk clears the 6-data-point floor; nothing is judged per desk.
+
+⚠️ **Why 1/8 is weak evidence (carried from #6, sharper now):** the log records a NEXUS fallback, not brief quality. This pass's three digest readers flagged stale or self-contradicting lines in at least 12 of 28 moved briefs (record `research/2026-11-25_L554/RECORD.md` §7), and none becomes a row unless NEXUS goes to that desk's raw STATUS for a figure it needs. Since 11/18 the pin no longer signals freshness (WQ-719 A), so content staleness is now visible only in the digests. The new-meaning `stale` has one pass of data.
+
+**Next: ROLLUP #8 — Tue 2026-12-22** (4 weeks; rides that day's L554 wake). Row asked of PROME in the 11/25 packet; a new EOF row, never L850 re-dated.
+
+---
+
 # ROLLUP #6 — 2026-10-28 (DOCKET L555, due Tue 10/27; one day late because the 10/27 L554 wake did not run). Window: rows dated after 2026-09-29 through 2026-10-26 → **32 non-digest rows across 6 passes** (10/01 · 10/08 · 10/14 · 10/19 · 10/23 · 10/26); 6 `digest` rows excluded per legend.
 
 **Cause mix:** `brief-gap` **0** · `convergence` 1 · `uncertainty` 3 · `stale` 28. **`brief-gap` rate = 0/32.**
