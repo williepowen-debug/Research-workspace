@@ -138,7 +138,7 @@
 
 ---
 
-**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–55 ↔ `LESSONS_COLD_2.md` (12). Counts must match.
+**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–57 ↔ `LESSONS_COLD_2.md` (14). Counts must match.
 
 **44. [Instrument] — A Shared Date Label Is Not a Shared As-Of (the spread pairing that manufactured a 15bps move)**
 **Rule:** For any spread pairing a **SURVEY** series against a **DAILY** series, match the daily leg to … → `LESSONS_COLD_2.md` §44
@@ -175,3 +175,9 @@
 
 **55. [Calibration] — A Distress Call Specified on a Stock That Excludes Its Own Next Stage Misses When Distress Advances (HOM-02)**
 **Rule:** With a foreclosure accelerant in force, never specify a distress call on a DQ stock that excludes foreclosure; use DQ plus FC or serious DQ, and read FC inventory before calling a DQ decline relief … → `LESSONS_COLD_2.md` §55
+
+**56. [Verification] — I Read the Tables That Fit and Reported the Report**
+**Rule:** Before a direction sentence from a multi-table issuer report, list its tables and read every one measuring inflow, stock or exit of that population; find the issuer's own account of any break; name the tables not read … → `LESSONS_COLD_2.md` §56
+
+**57. [Process] — I Wrote a Live Print Into a Frozen Grade Record**
+**Rule:** A unique text match does not prove the right section; print the heading above the match, read the diff after, never write a new print under an older-dated heading … → `LESSONS_COLD_2.md` §57

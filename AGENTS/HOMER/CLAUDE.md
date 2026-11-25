@@ -44,6 +44,7 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 - ICE/Black Knight delinquency flows (monthly — new DQ, roll rates, cures)
 - FHA vs Conventional DQ spread (K-shape proxy)
 - HUD policy changes (guardrails, partial claims, forbearance extensions)
+- HUD FHA Single Family Loan Performance Trends (monthly): **read every table** (Table 1 stock raw and SA, Table 2 new 90+ by fiscal quarter, Table 4 foreclosure starts, in foreclosure, claims). Observation, no band; not the MBA instrument
 - Cure rate trajectory — YoY cure rate, ICE Mortgage Monitor (the Cure Rates band's native basis); live value in STATUS.md
 
 **Multifamily / Rental (GSE + CMBS books):**
@@ -154,6 +155,7 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 | Source | Frequency | What It Covers |
 |--------|-----------|----------------|
 | MBA National Delinquency Survey | Quarterly | DQ by loan type, foreclosure inventory, state-level |
+| HUD FHA Loan Performance Trends (hud.gov FHALPT PDF; filename varies) · FHA Annual Report (mid-Nov) | Monthly (1–2 month lag) / Annual | FHA starts, in foreclosure, claims, new 90+, serious DQ raw and SA. ⚠️ Rules in force since Oct-2025 raised the serious rate (HUD); first prints revise; never splice with MBA |
 | ATTOM Data Solutions | Monthly · H1 = OBSERVATION only · **QUARTERLY STARTS = the national starts band** (Q2/Q4 DERIVED) · **YEAR-END = the FL annual rate + ratio bands** | Foreclosure filings, starts, completions, REO; state + metro rates. ⚠️ The monthly carries no band but is the fastest REO read — docketed as a recurring row |
 | Builder earnings (8-K Ex 99.1 at SEC EDGAR) | Quarterly per name | GM, incentives/buydowns, orders, cancels, guidance. **One docket row per name** — WALTER's lane does not fetch these |
 | ICE/Black Knight (Intercontinental Exchange) | Monthly | DQ flows, roll rates, cure rates, prepayment |

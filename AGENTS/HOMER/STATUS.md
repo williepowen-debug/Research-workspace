@@ -33,10 +33,10 @@
 | **★★ HUD FHA foreclosures (issuer)** | **Q3 starts 31,396, +36% YoY (+3% QoQ)**; Sept 9,974 (first print); in foreclosure 54,973, +51%; claims 2,114, +57%. **NEW 90+ 158,492, −18.4% YoY** (+8.3% QoQ, below season). Serious DQ 6.56% SA, −24bp QoQ; its +198bp YoY is partly rule change (HUD) | 🔴 conversion / 🟡 inflow. Not MBA; never splice |
 | **FHA score model (ML2026-11,10/8)** | VantageScore4.0/FICO10T alongside Classic; case numbers from **1/1/27**. Existing500/580 credit floors unchanged | Origination model/vintage break, not current MBA delinquency change or automatic credit easing |
 | **NY Fed Q3 (credit panel)** | **Mortgage 90+ 1.13% of balance** (Q1 1.09, Q3-25 0.83); flow into 90+ 1.60% (1.28 a year ago); **new FC notations 61,900, +13% YoY** (people, not starts). ⚠️ Q2 reporting gap — compare YoY, not QoQ | 🟠 observation, no band |
-| **HUD ML 2026-08** | **Compliance date 9/21 PASSED; no extension found** (absence of notice, not HUD confirmation) | 🔴 accelerant in force — first visible in FHA FC starts, ~late Oct |
+| **HUD ML 2026-08** | **Compliance date 9/21 PASSED; no extension found** (absence of notice, not HUD confirmation) | 🟠 in force; no lift visible in HUD Sept data (9 days in); baseline ~10,465 FHA starts a month |
 | **★★ Non-bank servicer watch** | **CLASS A FIRED AGAIN 2026-11-16: Fitch outlook NEGATIVE on Pennymac (BB), Planet (B), Freedom (BB-)**; all nine affirmed per HousingWire 11/17, but **NMN headline 11/18 says "downgrades 4": UNRESOLVED** (primary owed). UWM Fitch leverage 5.3x vs 2.7x end-2025; issuer basis 1.77x debt/equity: never splice. First firing 8/07 (UWM BB- → B+). LDI: 60+ DQ 2.0% vs 1.5% | 🔴 **FIRED (A) twice**; no covenant breach, draw or transfer found |
 
-★★ **STOCK STILL BUILDING, YoY GROWTH BELOW EARLIER READINGS (corrected 11/24; 'past its peak' narrowed 11/25, CATO: slower growth does not establish a peak).** 'Inflow cooling' was a base effect: FC starts Q3 ~115.6K vs 103K = **+12% YoY**, about flat on Q2; Sept's −3% compared with a ~41K Sept-2025. 'Conversion accelerating' is also wrong: FC sales YoY slowed from +41% (Dec-25) to +12–15% (Jul–Sep); the LEVEL is the highest since Feb-2020. FHA cures −46% YoY still limit relief.
+★★ **STOCK STILL BUILDING, YoY GROWTH BELOW EARLIER READINGS (corrected 11/24; 'past its peak' narrowed 11/25, CATO: slower growth does not establish a peak).** 'Inflow cooling' was a base effect: FC starts Q3 ~115.6K vs 103K = **+12% YoY**, about flat on Q2; Sept's −3% compared with a ~41K Sept-2025. 'Conversion accelerating' is also wrong: FC sales YoY slowed from +41% (Dec-25) to +12–15% (Jul–Sep); the LEVEL is the highest since Feb-2020. FHA cures −46% YoY (ICE); against: HUD six-month redefault ~35→17%, first eligible quarter.
 
 ### Multifamily — GSE + CMBS Books
 | Metric | Value (as of) | Band |
@@ -86,7 +86,7 @@
 
 | State | Metric | Value | Band |
 |---|---|---|---|
-| FL | **Condo/TH median — CORAL owns statewide** | **CURRENT refresh owed:** Florida Realtors Sept/3Q release 10/16 supersedes August. Prior $298K/+2.8% is historical only; source address sent to CORAL | ⚪ current statewide read withheld pending owner reconcile; old positive-YoY context cannot stand as current |
+| FL | **Condo/TH median — CORAL owns statewide** | **CORAL's figure.** Florida Realtors Oct release address handed to CORAL 11/23; $298K/+2.8% is historical only | ⚪ HOMER publishes none |
 | FL | H1 FC rate *(CORAL-canonical)* | **#1: 0.27% (1-in-373), +32.7% YoY** — ⚠️ rank ≠ level | 🔴 speed / 🟠 level |
 | FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro, H1) · **#2 US metro in AUGUST (1 in 1,249)** · Lakeland 0.48% · **Miami-Dade condo OCT: 12.7mo; median $397,500 −0.63% YoY; sales −9.6%; inventory 11,989 −5.3%; cash 48.4%** (SF 5.4mo, $706K +3.5%; issuer 11/16). Sept 12.3mo/$417K as originally published · Tampa $/sqft −5.6% YoY · Cape Coral HPI −2.3% YoY (ICE, Aug) | 🔴🔴 sub-statewide |
 | **TX** | November CRE auction postings, major markets | **~$560M / 33 properties / 9 repeats** (TRD 11/03, Roddy's, SECONDARY) — half October's >$1B / 46. No MF subtotal; **named MF loans $218.5M** (HOMER sum, a floor) | 🟠 postings, not sales or losses; repeats = loans rolled, not sold |
@@ -128,7 +128,7 @@ Closed-item receipts → `archive/STATUS_rotated_2026-11-24.md`.
 | **2027-02-20** | **Next THESIS formal grade** | early only if A1 reaches its count. **A1 answered by PROME 11/25 (§7 V6):** cure half stays unreadable; UNGRADED with halves reported if the first half is not met |
 | **~11/25–30** | Apartment List Nov · FMHPI Oct | **HOM-06** breadth ≤35 |
 | **~12/01–05** | Trepp Nov DQ · 12/04 construction jobs · 12/07 Toll FQ4 | **HOM-05** <8.09; did Cove revert? |
-| open | ATTOM Sept / **Q3** (not out at 11/24) | Q3 STARTS vs Yellow >100K |
+| open | ATTOM Sept / **Q3** (not retrieved 11/25: 404, August 200 control) | Q3 STARTS vs Yellow >100K |
 | Weekly | PMMS (Thu) · MBA apps (Wed) · Redfin (Thu) | state the publisher |
 
 ---
@@ -152,4 +152,4 @@ Closed-item receipts → `archive/STATUS_rotated_2026-11-24.md`.
 
 ## BOTTOM LINE
 
-**2026-11-25 — deeper read on Will's word (11:49 ET); report `reports/2026-11-25_deeper-read-FHA-newhome-DR4956.md`.** ① **FHA: old distress is converting; fresh distress is not shown accelerating.** Q3 starts +36% YoY, in foreclosure +51%, but new 90+ −18.4% YoY (HUD). **Corrected at 13:43: I omitted the new-90+ table (CATO, WALTER).** HUD says its Oct-2025 rules raised the serious rate. ② **A1 seasonality:** a warning on HUD's basis (9 of 11 years); at most 1 of 2 at 2027-02-20. ③ **New-home average −12.1%: about half or more is mix;** the Q3 fall was mostly not. ④ **Florida FHA pause covers seven counties to 2027-02-21/22.** ⑤ PMMS 7.21%, spread ~230bp. ⑥ No band changed colour; no leg fired; no HENRY trigger; registered odds unchanged. **Will decision required: none.**
+**2026-11-25 — deeper read on Will's word (11:49 ET); report `reports/2026-11-25_deeper-read-FHA-newhome-DR4956.md`.** ① **FHA: old distress is converting; fresh distress is not shown accelerating.** Q3 starts +36% YoY, in foreclosure +51%, but new 90+ −18.4% YoY (HUD). **Corrected 13:43: I omitted the new-90+ table (CATO, WALTER).** HUD says its Oct-2025 rules raised the serious rate. ② **A1 seasonality:** a warning on HUD's basis (9 of 11 years); at most 1 of 2 at 2027-02-20. ③ **New-home average −12.1%: about half or more is mix;** the Q3 fall was mostly not. ④ **Florida FHA pause covers seven counties to 2027-02-21/22.** ⑤ PMMS 7.21%, spread ~230bp. ⑥ The 11/20 grade row, overwritten at 13:14, was restored. No band changed colour; no leg fired; no HENRY trigger; registered odds unchanged. **Will decision required: none.**

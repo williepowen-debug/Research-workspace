@@ -178,7 +178,7 @@ Entries 2026-10-15 to 2026-11-16 (0 of 5 legs at every entry): `archive/THESIS_h
 | **C1** | none: ICE October First Look 404 at 2026-11-25 09:35 ET | **0 / 3** |
 | **C2 · CMBS** | none (Trepp November ~12/01–05) | **0 / 3** |
 | **C2 · GSE** | Freddie **0.62%**, Fannie **0.65%** October (issuers) ⇒ max 0.65% ≥ 0.50% | **0 / 3** |
-| **A1** | no new MBA print. First conjunct on the §11 wording: **0 of 2**. Cure YoY not printed by ICE | **UNGRADED stands** (11/20; D12). Open question to PROME 2026-11-25: how the letter reads at 2027-02-20 with the first half known and the cure half unread |
+| **A1** | no new MBA print. First conjunct on the §11 wording: **0 of 2**. Cure YoY not printed by ICE | **UNGRADED stands** (11/20; D12). Label answered by PROME 2026-11-25: §7 V6 |
 | **A2** | **7.21% [11/25]** (−7bp; Freddie CSV, issuer); 71bp above the line | **0 / 4** |
 | **A3** | none (December HMI ~12/15–17) | **0 / 3** |
 
