@@ -20,7 +20,7 @@ Updated 2026-11-25T19:05:39Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 
 **Light note 2026-11-25T19:30:30Z (reboot, walter-7f):** items 1, 2, 3 and 8 above are DONE: inbox 2 to 0; owner card 033; tides read (Humboldt 9.811 and San Francisco 8.213 not records; Santa Barbara, Monterey, Charleston OR 11/24 were, card 030; Oregon and Washington highs still rising at 14:21 ET); lane batch marked, 3 bookmarks marked. Cards 030 to 034. Carried: NEW_WATCH 'TSMC Texas fab $22.6B' noted untouched, not carded; HANS daily levels UNKNOWN; Bloomberg CoreWeave article unread (Will may paste); 033's HENRY 7,000-pin view is overtaken by the recovery. Clocks in item 4 stand.
 
-**Light note 2026-11-25T20:03:46Z:** Will pasted Quartz and MT Newswires on the CoreWeave loan; card 035 corrects 031 (COR-20261125-35; my first search missed the story). Bloomberg still unread.
+**Light note 2026-11-25T20:03:46Z:** Will pasted Quartz and MT Newswires on the CoreWeave loan; card 035 corrects 031 (COR-20261125-35; my first search missed the story). Bloomberg still unread. Card 036 (COR-20261125-36) fixes the 2031 bond mix-up; CoreWeave bookmark timeline at research/2026-11-25_reboot/.
 
 Calendar coverage cutoff: 2026-11-25T19:30:30Z (research/2026-11-25_reboot/CALENDAR-RECONCILIATION.tsv; prior 2026-11-25T18:55:00Z).
 
@@ -34,7 +34,7 @@ Tier 2 FULL closeout at 2026-11-25T19:05:39Z; Will clears the window and reboots
 
 ## RESULT
 
-One FLASH (005), six IMMEDIATE this session (006, 007, 009, 013, 021, 029), 283 of 283 delivery rows delivered for 11/25. No registry trigger newly fired on WALTER's scan; FERT fired its own gate G5. CATO's morning findings WW25-1 to -3 worked.
+One FLASH (005), six IMMEDIATE this session (006, 007, 009, 013, 021, 029), 290 of 290 delivery rows delivered for 11/25. No registry trigger newly fired on WALTER's scan; FERT fired its own gate G5. CATO's morning findings WW25-1 to -3 worked.
 
 ## GAPS
 
@@ -140,12 +140,17 @@ Tier 2 FULL closeout, walter-7f, laptop. Publication is not consumption. Retirem
    "commit": "843f81c62c",
    "state": "published",
    "note": "035"
+  },
+  {
+   "commit": "5c3acd0ff6",
+   "state": "published",
+   "note": "036"
   }
  ],
  "delivery": {
   "signal_date": "20261125",
-  "total": 283,
-  "delivered": 283,
+  "total": 290,
+  "delivered": 290,
   "note": "all rows delivered after origin proof. Delivered is not consumed. CARL, RED, PROME INFO by BOARD diff; TERRY BOARD-only"
  },
  "owner_review": {
