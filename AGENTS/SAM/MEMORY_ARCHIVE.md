@@ -2,6 +2,11 @@
 
 Cold history; not a boot read.
 
+## 2026-11-09 — LAST SESSION notes rotated out 2026-11-25 (verbatim)
+
+- 2026-11-09 20:15 ET → 11/10 10:11 ET, laptop session d4969daa, Claude Code / Opus 5.5, Will-approved overnight pass ("yes go ahead"): boot rows; Totan 11/9 chart reviewed and ingested; SoO, MOF Q3 per-op (8/3 resolved in STATUS_REFERENCE), BoP read → `research/outputs/2026-11-10_overnight/OVERNIGHT_READ.md`; 30Y graded SOFT. SoftBank graded ✅ CONFIRMED against the pre-registered lookup (`2026-11-10_RESULTS_GRADE.md`), KB-SAM-261 corrected (loan INSIDE), KB-262/263 reviewed, one packet to PROME. ⚠️ **Session crons are not durable across laptop sleep: the 02:47 ET pass fired at 10:04 ET.** Harmless here (the lookup grades at read-time Arm), but a time-critical read cannot rest on an in-session cron while the machine can sleep.
+- 2026-11-09 11:15–11:21 ET, Claude Code / Opus 5.5, PROME commission on Will's 11:14 word: drained 13 WALTER cards (005 acted, rest noted), 4 corrections receipted NO-OP, KB-SAM-262 and -264 members added. Pre-wrote the SoftBank results lookup with fixed grading rules and a calculator (`2026-11-10_RESULTS_LOOKUP.md`, `ltv_lookup.py`, selftest reproduces 11/6). Read SoftBank's ceiling at source: under 25% normal, 35% upper. STATUS data rows refreshed. Held open on PROME's word until Will's 19:37 ET switch to the laptop; closed out 19:38 ET (WQ-249). No new cards in between; nothing moved.
+
 ## 2026-11-06 — LAST SESSION notes rotated out 2026-11-10 (MEMORY at 78% of read cap)
 
 - 2026-11-06 18:3x ET, closeout on Will's 18:33 word: WALTER cards 043, 047, 048 logged and filed, COR-20261106-48 receipted NO-OP (SAM never cited 043). No view, score or gate moved.

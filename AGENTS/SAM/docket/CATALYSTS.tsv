@@ -1,7 +1,4 @@
 date	event	what_to_check	threshold_signal	priority	who_cares	notes	type
-2026-11-19	FRBNY H.4.1 foreign-official custody (11/18 levels) + MOF weekly flows (week 11/8-14)	Custody change vs the 11/11 baseline; MOF weekly LT-debt net	First custody print after the 11/12 160 move; custody moves for every official holder, not Japan-identified. MOF weekly = designated investors, not the reserve account	🟡	SAM,BOND,LIQUID	Added 11/12 closeout (WQ-680 measurement calendar)	external
-2026-11-20	Japan National CPI, October	Headline / core / core-core, 2025 base	Specify the base; parallel 2020/2025 publication continues through December.	🟡	SAM	Stats Bureau schedule OBSERVED (KOYOMI Run 23).	external
-2026-11-25	JGB 40Y auction — descriptive only	BTC, accepted amount, cutoff yield vs the 40Y's own series	NO FIRM/SOFT grade (ruling 2026-09-11). Series so far: May 2.702 / Jul 2.824 / Sep 3.096.	🟡	SAM,LIQUID	MOF Nov calendar OBSERVED (KOYOMI Run 23).	external
 2026-11-27	Tokyo CPI, November (preliminary)	Headline / core / core-core, 2025 base	2025-BASE ONLY.	🟡	SAM	Stats Bureau schedule OBSERVED (KOYOMI Run 23).	external
 2026-11-30	MOF monthly intervention total (window 10/29-11/26), ~19:00 JST est.	Yen-buying amount for the window	The only official confirmation of any operation around the 11/12 160 cross; zero = no op in-window	🔴	SAM,PROME,BOND,LIQUID	Date is an estimate (month-end release pattern); added 11/12 closeout	external
 2026-11-30	JGB 2Y auction	BTC, tail	Front end.	🟡	SAM,LIQUID	MOF Nov calendar OBSERVED (KOYOMI Run 23).	external

@@ -356,3 +356,45 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-18T15:39:52+00:00	SIG-W-20261118-004	acted	INBOX_WALTER	Japan October trade deficit read at Customs via trade_balance_japan.py (-¥476.5B, crude volume -0.7% y/y, ME share 79.6%). FT intervention-watch title to KB-SAM-265
 2026-11-18T15:39:52+00:00	SIG-W-20261118-006	noted	INBOX_WALTER	Correction of card 001 (Kuwait/Bahrain), receipted COR-20261118-06 NO-OP
 2026-11-18T15:39:52+00:00	SIG-W-20261118-007	noted	INBOX_WALTER	Iran weekly sweep: PortWatch Hormuz 16 transits 11/9-15, Kpler clearance 50%. For SAM: Japan's October ME crude volume rose to 79.6% of crude imports (provisional), so a November Hormuz squeeze lands on a higher share; November trade data (about 12/17) will show it. FALCON/BRENT grade
+2026-11-25T14:20:43+00:00	SIG-W-20261118-010	noted	INBOX_WALTER	HY OAS 343 [11/17], LIQUID's three-day rule met. Funding context only; nothing SAM measures (offshore yen basis) is in it. No SAM row moves
+2026-11-25T14:20:43+00:00	SIG-W-20261118-012	noted	INBOX_WALTER	September TIC (ZHAO grade): Japan holdings $1,063.1B, net -$8.0B (Aug -$37.0B). Valuation-led fall across officials. Not insurer- or UST-sale-specific; Channel 1 stays RETIRED (aggregates never infer UST sales)
+2026-11-25T14:20:43+00:00	SIG-W-20261119-003	noted	INBOX_WALTER	Houthi missile damage to PIF tower, Riyadh. FALCON's. Gulf context for Japan's ME crude share (79.6% Oct, provisional). No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261119-004	noted	INBOX_WALTER	Crimean Bridge, trilateral. Japan Tobacco ¥1.38T Russia loss: corporate, no Japan funding channel. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261119-005	noted	INBOX_WALTER	Small items. Yen toward 160 headlines (FXStreet 11/19) logged to combo usdjpy-160-intervention (KB-SAM-265); completed session 11/19 C 159.738, H 159.970, no touch
+2026-11-25T14:20:43+00:00	SIG-W-20261119-011	noted	INBOX_WALTER	Cyber claims; MUFG line superseded by correction 20261120-010 (leak REAL). See CYPHER packet
+2026-11-25T14:20:43+00:00	SIG-W-20261119-014	noted	INBOX_WALTER	Correction (trilateral declaration). No SAM consequence
+2026-11-25T14:20:43+00:00	SIG-W-20261119-016	noted	INBOX_WALTER	Owner grades FALCON/GIBBS. No SAM consequence
+2026-11-25T14:20:43+00:00	SIG-W-20261119-021	noted	INBOX_WALTER	BIS remote-access chip rule. VULCAN's. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261120-001	noted	INBOX_WALTER	FLASH VIX 11/20. Own bars: 11/20 completed session USD/JPY C 158.512 (-0.77%), range 1.433 yen toward yen strength (22 bars). Haven-direction, under the fast-move bar (2-session span 11/19-20 1.562 yen). Not a Japan-led unwind
+2026-11-25T14:20:43+00:00	SIG-W-20261120-005	noted	INBOX_WALTER	Russian missiles in Poland. HAWK/YURI. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261120-006	noted	INBOX_WALTER	Small items. Item 11 (yen firmer after Oct CPI, MUFG 'AI risk-off could favour yen') logged to combo boj-december-path (KB-SAM-263)
+2026-11-25T14:20:43+00:00	SIG-W-20261120-010	noted	INBOX_WALTER	MUFG/PLAID KARTE leak REAL (6.5M demographic records). Data event, not funds/settlement. Logged to combo japan-operational-resilience (KB-SAM-264) with CYPHER packet
+2026-11-25T14:20:43+00:00	SIG-W-20261120-012	noted	INBOX_WALTER	Correction (Russia embassy wording). No SAM consequence
+2026-11-25T14:20:43+00:00	SIG-W-20261121-001	noted	INBOX_WALTER	LATE FLASH VIX 35.89 [11/20]. Same day as 20261120-001; yen read there. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261121-002	noted	INBOX_WALTER	Bahrain strike. FALCON's. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261121-003	noted	INBOX_WALTER	Small items. Item 14 'carry unwind in full swing' (ING 11/20, FOREX.com 11/21): TESTED against own data, not supported on SAM's instruments: yen +0.77% on 11/20 (range 1.433), CFTC 11/17 net LONG +116,317 (no short-yen pool). Logged to KB-SAM-265 as a headline, not a signal
+2026-11-25T14:20:43+00:00	SIG-W-20261123-001	noted	INBOX_WALTER	Nvidia 8-K Huang reinstated. HENRY/VULCAN. SoftBank context only
+2026-11-25T14:20:43+00:00	SIG-W-20261123-003	noted	INBOX_WALTER	Correction (VIX +5 timing). No SAM consequence
+2026-11-25T14:20:43+00:00	SIG-W-20261123-004	noted	INBOX_WALTER	Correction (Bahrain casualties). No SAM consequence
+2026-11-25T14:20:43+00:00	SIG-W-20261123-007	noted	INBOX_WALTER	Small items. Item 11 BoK hike expected, yen near 159. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261123-009	noted	INBOX_WALTER	Correction (Poland objects). No SAM consequence
+2026-11-25T14:20:43+00:00	SIG-W-20261123-011	noted	INBOX_WALTER	ACTION card, item 5 for SAM: NH's KOSPI drawdown arithmetic (3,955-4,311) is a scenario, no probability; Korea is outside SAM's domain. Today's Kospi -6.2% close is in that path but no SAM row keys on Kospi. No consequence
+2026-11-25T14:20:43+00:00	SIG-W-20261123-012	noted	INBOX_WALTER	Correction (SpaceX GPU notes priced). BROCK/VULCAN. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261123-013	noted	INBOX_WALTER	Correction (fresh-dated reposts). Same failure class found today on SoftBank: the '$11B junk bonds for OpenAI' title of 11/16 matches the September 24 deal in size and subject ($11.1B, settlement scheduled 9/29; press search, Bloomberg page not read); a November deal is SEARCH-NOT-FOUND, see packet
+2026-11-25T14:20:43+00:00	SIG-W-20261123-021	acted	INBOX_WALTER	ACTION: Oct National CPI read at e-Stat by cpi_japan.py at boot 11/25: headline 2.3 / core 2.2 / core-core 2.2, BASE 2025 (answers the row's base question). Core-core fell from 2.4. Logged to combo boj-december-path
+2026-11-25T14:20:43+00:00	SIG-W-20261123-022	noted	INBOX_WALTER	Iran sweep. FALCON/BRENT. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261123-025	noted	INBOX_WALTER	Correction (Houthi port order). No SAM consequence
+2026-11-25T14:20:43+00:00	SIG-W-20261123-028	noted	INBOX_WALTER	China NFRA NPLs. ZHAO's. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261124-001	noted	INBOX_WALTER	LATE FLASH VIX premarket 11/24. Yen 11/24 C 159.290, range 0.835. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261124-006	noted	INBOX_WALTER	Hodeidah/Riyadh. FALCON's. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261124-009	noted	INBOX_WALTER	Section 301 sources; superseded by 20261125-006
+2026-11-25T14:20:43+00:00	SIG-W-20261124-011	noted	INBOX_WALTER	US Nov 24 releases. HENRY/CARL. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261124-017	noted	INBOX_WALTER	UKMTO/ADNOC notice. BRENT/FALCON. Japan ME crude share context only
+2026-11-25T14:20:43+00:00	SIG-W-20261124-023	noted	INBOX_WALTER	G.17 revision, Australia CPI. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261125-001	acted	INBOX_WALTER	IMMEDIATE ACTION: SoftBank -14.8% close (vendor), Asia chip selloff. Acted: LTV re-rolled on SoftBank's own basis at live Arm, see PROME/inbox/2026-11-25_from-SAM_softbank-ltv-reroll-and-yen.md. Yen not in an unwind: USD/JPY ~159.4, range 0.50 to 14:16Z
+2026-11-25T14:20:43+00:00	SIG-W-20261125-002	noted	INBOX_WALTER	Hormuz claims. FALCON/BRENT. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261125-004	acted	INBOX_WALTER	ACTION: 40Y auction 11/25 BTC 2.625 / 4.090% ingested by jgb_auctions.py at boot (SOFT, lowest BTC of four 2026 40Y auctions; descriptive, no grade). SPPI Oct 4.2% (secondary) logged to combo boj-december-path
+2026-11-25T14:20:43+00:00	SIG-W-20261125-005	acted	INBOX_WALTER	FLASH ACTION: VIX >30. LTV re-roll done at live Arm after 09:30 ET (packet). USD/JPY flat at ~159.4 with VIX >30: no haven bid, no unwind signature
+2026-11-25T14:20:43+00:00	SIG-W-20261125-006	noted	INBOX_WALTER	Section 301 proposed: Japan at its 15% deal cap; Japan's increment small and not in force before January. HENRY/CARL. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261125-008	noted	INBOX_WALTER	Ras Tanura claim. BRENT/FALCON. No SAM row
+2026-11-25T14:20:43+00:00	SIG-W-20261125-010	noted	INBOX_WALTER	Energy wire (Hodeidah claim, Kazakhstan). BRENT's. WALTER committed it at d6344a7d47 during the drain; moved to processed
