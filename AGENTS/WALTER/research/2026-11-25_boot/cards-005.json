@@ -1,0 +1,246 @@
+[
+ {
+  "id": "SIG-W-20261125-005",
+  "slug": "FLASH-VIX-above-30-and-plus-5-premarket-Wed-Nov-25-31.47-high-at-0837-ET-ES-minus-2.1-NQ-minus-3.3-Nvidia-minus-6-AI-selloff-plus-tariffs",
+  "safety_net": "VIX > 30 (vendor 1-minute, first print over 30 at 06:28 ET) and +5 intraday (31.36 or higher from 08:33 ET; high 31.47 at 08:37; close 26.36 [11/24])",
+  "event_window": "open",
+  "origin": [
+   "safety net, resumption read; PROME prome-77 message 09:00 ET (VIX 31.23)"
+  ],
+  "signal_type": "threshold-crossed",
+  "title": "FLASH (safety net): VIX over 30 since 06:28 ET and over +5 from 08:33 ET Wed Nov 25, high 31.47 (close 26.36 [11/24]); S&P futures -2.1%, Nasdaq -3.3%, Nvidia -6.0% premarket; chip selloff, proposed tariffs and core PCE 3.3% listed together, no single cause established",
+  "body": "# Premarket Wed Nov 25 (vendor prints, 09:07 to 09:10 ET; nothing here is a cash print or a close)\n\n| Object | Read | Prior close [11/24] |\n|---|---|---|\n| ^VIX, 1-minute vendor, delayed about 15 minutes | 31.33 at 08:55 ET; over 30 from 06:28 ET; high 31.47 at 08:37 | 26.36 (+5.11 at the high: **both safety-net legs met**) |\n| S&P / Nasdaq futures | ES 7,064.5 (-2.1%) / NQ 25,412.5 (-3.3%) | vendor 7,217.5 / 26,275.75, not settlements |\n| Nvidia / AMD / Micron | 146.11 (-6.0%) / 384.00 (-7.1%) / 575.00 (-8.7%) | 155.38 / 413.27 / 629.79 |\n| Oracle / Dell / CoreWeave | 102.46 (-6.4%) / 274.00 (-7.2%) / 38.52 (-9.6%) | 109.50 / 295.28 / 42.60 |\n| Arm | 150.49, low 149.80 | 161.56 |\n| KRE / HYG | 69.22 (-0.8%) / 76.43 at 07:35 ET | 69.76 / 76.43 |\n| 10-year yield / USDJPY / gold future | 4.84 / 159.35 / 3,504.9 | 4.90 / 159.01 / 3,561.9 |\n| Asia closes (vendor) | Kospi 4,697.51 (-6.2%), Taiex 38,195.43 (-4.8%), Nikkei 57,011.62 (-2.8%), SoftBank 2,696.5 (-14.8%) | 5,006.03 / 40,122.35 / 58,644.63 / 3,166 |\n\n- **Cause:** CNBC (08:58 ET page) and Yahoo/Investing.com list the AI trade, proposed Section 301 tariffs (card 006) and PCE (card 007) together; neither assigns one cause. The VIX passed 30 at 06:28 ET, before the 8:30 data. Schwab's Sonders: the AI selloff 'predated the news about Huang and Nvidia'.\n- **Not the first VIX over 30 since March:** a search summary says so; the vendor close was 35.89 on 11/20 and premarket prints passed 30 on 11/24 (card 20261124-001).\n- **SoftBank line (SAM):** Arm traded at 149.80, inside SAM's '25% at about $146 to 150' estimate; with the ABB cost added SAM's range was $156 to 164. That is SAM's 11/18 arithmetic on other 11/10 marks, not a registered trigger and not a reported ratio; below 25% is SoftBank's policy, a breach obliges a plan, not a default. SAM re-rolls.\n- **Not read:** Cboe, the 9:30 open, VIX futures, HY for 11/24 (last 363 bp [11/23], not posted). Credit proxies barely moved: the HY safety net is UNKNOWN, not clear.\n- Dell fell after raising its sales target (Investing.com); Ambarella -30% premarket on a light forecast (CNBC). Company documents not read.",
+  "source": "yfinance 1-minute and daily, 14:01Z to 14:10Z; CNBC live page 08:58 ET; Yahoo/Investing.com; Investing.com 07:46; SAM STATUS line 7",
+  "action": [
+   "VIOLET",
+   "HENRY",
+   "LIQUID",
+   "REGINALD",
+   "VULCAN",
+   "SAM",
+   "TERRY"
+  ],
+  "info": [
+   "NEXUS",
+   "MIDAS",
+   "BROCK",
+   "CARL",
+   "BOND",
+   "GIBBS",
+   "ZHAO",
+   "RED",
+   "PROME"
+  ],
+  "precedence": "FLASH",
+  "confidence": 0.9,
+  "confidence_language": "reports: vendor minute prints, continuous for over two hours; Cboe not read",
+  "cluster": "POSITIONING_VALUATION",
+  "domain": "MARKET_VOL",
+  "entities": [
+   "VIX",
+   "S&P-500",
+   "Nvidia",
+   "AMD",
+   "Micron",
+   "Arm",
+   "SoftBank",
+   "Dell",
+   "Oracle"
+  ],
+  "dispatch_note": "FLASH on the safety net. Will alerted in session. ACTION VIOLET (grades at Cboe), HENRY, LIQUID, REGINALD, VULCAN, SAM (Arm); TERRY BOARD-only. CARL, RED, PROME by BOARD diff.",
+  "route_summary": "FLASH VIX over 30 premarket Nov 25",
+  "route_origin": "WALTER walter-7f 11/25 09:10 ET (laptop), PROME prome-77 boot request"
+ },
+ {
+  "id": "SIG-W-20261125-006",
+  "slug": "US-proposes-Section-301-excess-capacity-tariffs-on-14-partners-China-20pct-EU-Japan-Korea-Taiwan-inside-15-caps-comment-and-hearing-first-implementation-could-be-January",
+  "safety_net": "clear",
+  "event_window": "open",
+  "origin": [
+   "Reuters via WTBX 2026-11-25 07:18",
+   "Investing.com 2026-11-25 08:15",
+   "CNBC live 08:58 ET",
+   "investingLive 13:19Z"
+  ],
+  "signal_type": "catalyst",
+  "title": "US proposes Section 301 'excess capacity' tariffs on 14 partners Wed Nov 25: China 20%, highest; other rates not read (caps: 15% EU, Japan, Korea, Taiwan); not stacked on July's forced-labor 10% to 12.5%; comment and hearing first, could slip to January; notice not found",
+  "body": "# Section 301 excess-capacity tariffs: PROPOSED, not in force\n\n| Object | Reported | Basis |\n|---|---|---|\n| Status | proposed; notice and comment, hearing before effect; 'could push implementation into January' | Reuters via WTBX (read); Investing.com: January 2027 |\n| Partners (14) | China, EU, Japan, Korea, Taiwan, India, Vietnam, Thailand, Malaysia, Indonesia, Cambodia, Bangladesh, Singapore, Switzerland | search summary of several pages. **Mexico and Norway not included for now** (still reviewed; Nov 24 card 009 listed 16) |\n| China | 20%, 'the highest rate'; adds to the first-term duties of about 25%; a truce caps second-term duties at 20%, expiring January 10. 40% absent an agreement (investingLive) | Reuters; CNBC |\n| Others | rates not on any page read, only deal caps: 15% EU, Japan, Korea, Taiwan; **Malaysia 19% (Reuters) or 18% (investingLive): conflict** | the notice is to carry them |\n| Vietnam / India | talks continue; Vietnam 20% with a deal, could be 35%; India deal rate 17% | Newsquawk listing, not opened |\n| Stacking | not on top of the 10% or 12.5% forced-labor duties (July); on investingLive's reading the China step is 7.5 points for goods now at 12.5%. CNBC: China stacks on the 2018 25% | two different layers: do not read 'no stacking' as no stacking on 2018 |\n| Carve-out | about $30bn of Chinese goods in a 'Board of Trade' process | Reuters |\n| Reaction | China's foreign ministry: 'so-called overcapacity is a false issue'; a US official does not expect retaliation; Greer (CNBC via Newsquawk): tops up 'just a few percentage points' in most cases | no retaliation found |\n\n- **Not found:** the Federal Register notice (regular public-inspection list at 09:09 ET held no USTR document), USTR release, comment deadline, hearing date, product list. Section 232, chips, drugs, fuel and fertilizer are not mentioned on any page read: UNKNOWN, not exempt.\n- **Against card 20261124-009:** that card relayed sources saying 16 partners and duties 'stacking on existing ones'. The proposal names 14 and does not stack on the July layer.\n- **So what:** smaller than the worst case, and later. The inflation step is small for partners already at their cap; China is the one with a real addition. CARL, HENRY and ZHAO judge.",
+  "source": "Reuters (Lawder, Shalal) via wtbx.com and The Standard; Investing.com; CNBC; investingLive; Newsquawk listing (helper reads 14:05Z to 14:08Z); theintelligent.us refused (403), not read; federalregister.gov public-inspection API 14:09Z",
+  "action": [
+   "CARL",
+   "ZHAO",
+   "HENRY"
+  ],
+  "info": [
+   "REGINALD",
+   "MARCO",
+   "ISHM",
+   "SAM",
+   "VULCAN",
+   "HANS",
+   "LABOR",
+   "BOND",
+   "FERT",
+   "NEXUS",
+   "RED",
+   "PROME"
+  ],
+  "precedence": "IMMEDIATE",
+  "confidence": 0.85,
+  "confidence_language": "reports: Reuters copy and CNBC agree on status; notice itself not read",
+  "cluster": "INFLATION_TRANSMISSION",
+  "domain": "TARIFF_TRADE",
+  "entities": [
+   "USTR",
+   "Section-301",
+   "China",
+   "EU",
+   "Japan",
+   "South-Korea",
+   "Taiwan",
+   "Vietnam",
+   "India"
+  ],
+  "dispatch_note": "IMMEDIATE (announcement, routing row TARIFF_TRADE; carried from 20261124-009). ACTION CARL, HENRY, ZHAO (China leg and Jan 10 truce). RED, PROME, CARL by BOARD diff and handoff as routed.",
+  "route_summary": "Section 301 tariffs proposed on 14 partners",
+  "route_origin": "WALTER walter-7f 11/25 09:10 ET (laptop), PROME prome-77 boot request"
+ },
+ {
+  "id": "SIG-W-20261125-007",
+  "slug": "Nov-25-830-data-core-PCE-3.3-above-3.2-PCE-3.8-real-spending-flat-Q3-GDP-4.3-revised-from-3.4-claims-189000-durables-0.2-income-0.7-with-one-time-Medicare-rebate",
+  "safety_net": "clear",
+  "event_window": "closed",
+  "origin": [
+   "BEA 26-51",
+   "BEA 26-50",
+   "Census CB 26-185",
+   "investingLive claims page"
+  ],
+  "signal_type": "catalyst",
+  "title": "Nov 25 8:30 ET data: October PCE 3.8% and core 3.3% on the year (core consensus 3.2); real spending -$5.8bn, flat; saving rate 4.1% with a one-time Medicare rebate in income; Q3 GDP 4.3% from 3.4%; claims 189,000 [w/e 11/21]; durables +0.2%",
+  "body": "# 8:30 ET releases\n\n| Release | Print | Consensus, prior | Basis |\n|---|---|---|---|\n| PCE price index, Oct | +0.3% month, **3.8% year** | 0.3 / 3.8; Sep 0.5 and 3.7 (first print 3.6) | BEA release, read; consensus Newsquawk listing |\n| Core PCE, Oct | +0.3% month, **3.3% year** | 0.3 / **3.2**; Sep year 3.1 (Newsquawk listing) | as above |\n| Personal income / disposable | +0.7% / +0.8%; real disposable +0.5% | Sep 0.3 / 0.3 / -0.2 | BEA. **BEA names one-time Medicare Improvement Fund premium rebate payments in benefits, and dividends: not all recurring** |\n| Spending | +0.3%; **real -$5.8bn, 0.0%** | Sep 0.6 / 0.1 | BEA |\n| Saving rate | **4.1%** ($1.00tn); April to September income revised | prior month on the new vintage not read: do not difference across vintages | BEA |\n| Q3 GDP, second | **4.3%** | 3.4 advance; consensus 3.5 (listing) | BEA. Revision led by software investment (a producer-price revision) and consumer goods |\n| Private domestic final sales, Q3 | 5.8% from 4.9% | | BEA |\n| Q3 GDI / profits | GDI 4.4%; profits from current production +$206.0bn (Q2 +$384.0bn) | | BEA |\n| Initial claims w/e 11/21 | **189,000** | 202,000 revised from 203,000; consensus 200,000 (headline) or 201,000 (body) | investingLive, read. **dol.gov refused this machine (403): not read at issuer** |\n| Continuing w/e 11/14 | 1,697,000 | 1,792,000 revised from 1,763,000; 4-week average 1,724,750 | investingLive. **The prior revision (+29,000) is large: check at issuer** |\n| Durable goods, Oct | +0.2% ($346.7bn); ex-transport +0.5%; nondefense capital goods +0.8% (core ex-aircraft line not extracted) | Sep +2.0 | Census PDF, read |\n\n- **Lines:** RED-FT-05 (claims over 250,000) and REG-T-05 (over 300,000): not met. No other registered line moved by these prints in WALTER's scan; CARL, HENRY and LABOR grade their own.\n- **So what:** growth and claims are strong while real spending stalled and core inflation is above consensus; Yahoo/Investing.com, before the data, put a December quarter-point hike at about 97% and January at 60% (CME FedWatch relay, CME not read). LABOR: Thanksgiving-week seasonal factors are not assessed here.\n- Not read at 09:10 ET: PCE by state or product tables, capital-goods table beyond page 1, 13:00 ET 7-year auction (later).",
+  "source": "bea.gov (two releases), census.gov durable goods PDF (issuer); investingLive claims page 13:30Z; Newsquawk listing for consensus",
+  "action": [
+   "CARL",
+   "HENRY",
+   "LABOR",
+   "ISHM"
+  ],
+  "info": [
+   "LIQUID",
+   "REGINALD",
+   "BOND",
+   "HOMER",
+   "MARCO",
+   "NEXUS",
+   "RED",
+   "PROME"
+  ],
+  "precedence": "IMMEDIATE",
+  "confidence": 0.93,
+  "confidence_language": "confirmed at issuer except claims and consensus, which are reports",
+  "cluster": "CONSUMER_STAGFLATION",
+  "domain": "MACRO_INFLATION",
+  "entities": [
+   "BEA",
+   "PCE",
+   "GDP",
+   "initial-claims",
+   "durable-goods",
+   "Medicare-rebate"
+  ],
+  "dispatch_note": "IMMEDIATE (data day). ACTION CARL (D:L860 saving rate), HENRY (D:L1258), LABOR (claims), ISHM (durables). RED, PROME by BOARD diff.",
+  "route_summary": "8:30 ET data Nov 25",
+  "route_origin": "WALTER walter-7f 11/25 09:10 ET (laptop), PROME prome-77 boot request"
+ },
+ {
+  "id": "SIG-W-20261125-008",
+  "slug": "Houthi-Ras-Tanura-refinery-claim-Nov-25-coalition-four-drones-destroyed-Reuters-NASA-smoke-600-sq-km-no-refinery-hit-confirmed-no-Saudi-Red-Sea-port-hit-found-after-Hodeidah-strike",
+  "safety_net": "clear",
+  "event_window": "open",
+  "origin": [
+   "tob.news 2026-11-25",
+   "The National 2026-11-25 10:30",
+   "Riviera 2026-11-25",
+   "House of Saud 2026-11-25",
+   "Newsquawk 2026-11-25"
+  ],
+  "signal_type": "development",
+  "title": "Nov 25 Gulf update: Houthis claim fires at Ras Tanura refinery; coalition says four drones destroyed, fragments fell in the port area; Reuters (relayed) saw about 600 sq km of smoke on NASA imagery; no refinery hit confirmed; no Saudi Red Sea port strike found after Hodeidah",
+  "body": "# Saudi Arabia, Yemen and Hormuz, Nov 25 (follow-on to card 20261124-006)\n\nAnchor full sweep 2026-11-23T21:33Z; guards read whole 11/24 late. Partial touch, not a sweep.\n\n| Object | Read | State |\n|---|---|---|\n| Ras Tanura | Saree: refinery targeted, 'causing fires to break out there' (Riviera); Newsquawk 07:01Z | **CLAIM ONLY** |\n| Coalition on Ras Tanura | 'intercepted and destroyed four drones there'; fragments in the eastern port area, no casualties in a first assessment (tob, The National). The Defence Ministry's own count is three in the Eastern Province | interception confirmed; **it did not say the refinery was hit. One site says it 'denied' the claim; the others do not** |\n| Smoke | 'thick black smoke around the site, covering about 600 square kilometres' (Reuters on NASA imagery, via tob) | secondhand; no satellite time; establishes smoke, **not** a refinery fire or its source. Oct 29's Ras Tanura fire was also claim-led (card 20261029-002): check the date |\n| Aramco | 'temporarily disrupted some of Aramco's operations' (tob, no attribution) | NOT ESTABLISHED; no Aramco statement found |\n| Hodeidah strike | coalition warning just before 2 AM UAE time, then strikes; severity unclear | coalition-confirmed (006) |\n| Threat to Jeddah and all Saudi Red Sea ports | Nov 24 post, conditional on a Hodeidah strike; workers and ships told to leave (Riviera). Newsquawk 11:52Z Nov 25 carries a conditional Saree line again: **may be the same post relayed late** | condition already met; carrying out: **not found** (Vanguard via Riviera: none in the early hours of Nov 25) |\n| Port closures, ship withdrawals, carrier notices | none found | not found by my search |\n| Hormuz | 'Explosions reported' (Sabereen Telegram, Newsquawk 13:05Z); Iran's army says it shot down a LUCAS and an MQ-9 | **CLAIM ONLY**, one-line; not a vessel event |\n| Oil | Brent vendor 89.21 (-2.4% against a vendor 91.40; contract month of the live ticker not resolved), WTI 82.35 | not settlements; price is not reacting to the Ras Tanura claim |\n\n- **Why not IMMEDIATE:** no confirmed hit on a port or plant; the IMMEDIATE trigger (a Saudi Red Sea port hit) is unmet. Ras Tanura is on the Gulf, not the Red Sea bypass. FALCON may raise it.\n- Malay Mail and Dhaka Tribune refused the read. Reuters original not read.",
+  "source": "tob.news, The National, Riviera (Bergman), House of Saud, Newsquawk two pages (helper reads about 14:10Z); vendor oil 14:07Z",
+  "action": [
+   "FALCON",
+   "BRENT"
+  ],
+  "info": [
+   "HAWK",
+   "SAM",
+   "NEXUS",
+   "HANS",
+   "LIQUID",
+   "HENRY",
+   "RED",
+   "PROME"
+  ],
+  "precedence": "PRIORITY",
+  "confidence": 0.7,
+  "confidence_language": "reports: coalition statement and Houthi claim relayed; no primary read",
+  "cluster": "IRAN_HORMUZ",
+  "domain": "GEOPOL_ENERGY",
+  "entities": [
+   "Houthis",
+   "Ras-Tanura",
+   "Aramco",
+   "Hodeidah",
+   "Jeddah",
+   "Hormuz",
+   "Brent"
+  ],
+  "dispatch_note": "PRIORITY. ACTION FALCON (ladder, FAL-13) and BRENT. RED, PROME by BOARD diff; TERRY BOARD-only.",
+  "route_summary": "Ras Tanura claim and Red Sea port threat, Nov 25",
+  "route_origin": "WALTER walter-7f 11/25 09:10 ET (laptop), PROME prome-77 boot request"
+ },
+ {
+  "id": "SIG-W-20261125-009",
+  "slug": "California-tides-Nov-25-NWS-says-Orange-and-San-Diego-7.9-to-8.3-ft-likely-break-late-October-all-time-records-San-Francisco-8.5-forecast-1049-AM-approaching-record-South-Florida-flood-watch",
+  "safety_net": "clear",
+  "event_window": "open",
+  "origin": [
+   "NWS San Diego 2026-11-25 01:51 PST",
+   "NWS San Francisco Bay Area 2026-11-25 05:53 PST",
+   "NWS Florida alerts"
+  ],
+  "signal_type": "development",
+  "title": "NWS Nov 25: Orange and San Diego county king tides of 7.9 to 8.3 ft through Thursday 'likely breaking the all-time tidal records set back in late October'; San Francisco 8.5 ft at 10:49 AM PST, 'approaching the highest tide ever recorded'",
+  "body": "# California tides, Nov 25\n\n| Place | Forecast, NWS text | Last observed (NOAA, preliminary, feet MLLW) |\n|---|---|---|\n| Orange County coast | 7.9 to 8.3 ft each day through Thu, 'likely breaking the all-time tidal records set back in late October'; warning to Fri 1 PM PST | Los Angeles gauge 6.37 at 06:00 PST, rising |\n| San Diego County coast | same text; peaks about 8 AM today to 10 AM Fri; surf to 10 to 12 ft later | San Diego 6.55, La Jolla 6.29 at 06:00 PST, rising |\n| San Francisco | 8.5 ft at 10:49 AM PST Wed, 8.0 ft at 11:38 AM Thu; up to 2.7 ft of inundation; surf 20 to 30 ft | 8.233 was the Nov 24 high (card 20261124-004) |\n\n- **Why IMMEDIATE:** an officially forecast record tide (step 7j) for Orange and San Diego. San Francisco is 'approaching', not forecast to break. The records the NWS names are from late October 2026: WALTER has not read their values; NOAA's older listed maxima (San Diego 8.24, La Jolla 7.81, Los Angeles 7.92, above MLLW, 2005 to 2015) predate them.\n- **Not observed yet:** Southern California's peak is after this card. Nothing here says damage.\n- **Florida, same check (CORAL info):** new Flood Watch for Palm Beach, Broward and Miami-Dade to late tonight: most likely 2 to 4 inches, worst case 5 to 7, some spots 10 or more, on ground at 200 to 600 percent of normal 30-day rain. St. Johns at DeLand 5.7 ft at 7:30 PM Tue, forecast 6.2 late this weekend (record 6.33): still under, unchanged from card 20261124-005.\n\nEconomic channel is AEOLUS's read; Florida is CORAL's.",
+  "source": "api.weather.gov alert texts read whole 14:08Z; NOAA water levels 14:09Z; flood_alerts.py 6 new",
+  "action": [
+   "AEOLUS"
+  ],
+  "info": [
+   "CORAL",
+   "HENRY",
+   "CARL",
+   "BROCK",
+   "HOMER",
+   "REGINALD",
+   "PROME"
+  ],
+  "precedence": "IMMEDIATE",
+  "confidence": 0.9,
+  "confidence_language": "confirmed: NWS alert text; forecast, not an observation",
+  "cluster": "CLIMATE_MACRO",
+  "domain": "CLIMATE_MACRO",
+  "entities": [
+   "NWS",
+   "San-Diego",
+   "Orange-County",
+   "San-Francisco",
+   "South-Florida"
+  ],
+  "dispatch_note": "IMMEDIATE (step 7j: officially forecast record tide). ACTION AEOLUS; CORAL info for the Florida flood watch.",
+  "route_summary": "California record tide forecast, South Florida flood watch",
+  "route_origin": "WALTER walter-7f 11/25 09:10 ET (laptop), PROME prome-77 boot request"
+ }
+]
