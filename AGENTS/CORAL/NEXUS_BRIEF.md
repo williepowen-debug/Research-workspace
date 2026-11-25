@@ -3,9 +3,16 @@
 **Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #15 (11/15) 4-of-5, Cape Coral 5.74 series low, re-fire fails. Falsify grade 11/15 run 11/16: 1.5 of 6, 🟠 holds. **GSE financing leg: "not yet" — CORAL-02 FALSE (11/17).** Next: MSI #16 by 11/26; FL Realtors Nov 12/16.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-11-23 16:5x ET (Mon, coral-al, PROME prome-77 flood sweep D:L1243 + D:L1204; CHANGED: first insured flood figure, crest re-read, Citizens 11/20, flood-mandate and SIRS dates added) | STATUS commit: ebd82d8409 (prior: 2026-11-19 coral-ak, 8bc04253c2)
+**As of:** 2026-11-24 23:5x ET (Tue, coral-desk-agent-2026-11-24, PROME prome-77 early wake D:L1244; CHANGED: federal declaration REPORTED with six IA counties; gauges re-read) | STATUS commit: 1b4548b41d (prior: 2026-11-23 coral-al, ebd82d8409)
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## 2026-11-24 late — FEDERAL DECLARATION REPORTED, NOT CONFIRMED · SIX IA COUNTIES · ST. JOHNS COUNTIES NOT IN IT (no colour moves; evidence `STATUS_DETAIL.md` § AM; packet `PROME/inbox/2026-11-24_from-CORAL_florida-declaration-L1244.md`)
+| # | What | So what / who |
+|---|---|---|
+| 1 | **Major disaster REPORTED approved 11/24 ~19:20 ET** (Sen. Scott; FEMA release via Fox 35, WESH). IA Brevard, Indian River, Martin, Okeechobee, Palm Beach, St. Lucie; PA (A–B) Brevard, Hardee, Indian River, Martin, Okeechobee, Palm Beach; from 10/31, continuing. ⚠️ NOT in OpenFEMA 04:22Z 11/25; fema.gov blocks automation | WALTER (watch), PROME (HEARTBEAT), REGINALD (Seacoast trigger facts sent, ungraded) |
+| 2 | **If it holds:** IHP ≤ $46,400 housing + $46,400 other needs (FR 11/06), uninsured needs only; SBA home ≤ $500K; FHA 90-day pause (IA link INFERRED); GSE forbearance; PA ≥ 75%, reimbursed later. Insurer terms unchanged | HOMER (mortgage rules), CARL (household), TERRY: no implication (WQ-696) |
+| 3 | **Not covered as reported: Seminole, Volusia, Lake, Orange, Broward** (second request 11/24 pending). Sanford 8.21 major, DeLand fc 6.2 by 11/29 vs 6.33 record, Cocoa no fall to 12/02 | AEOLUS (hazard), CREED (Broward/Seminole loans: no federal aid yet) |
 
 ## 2026-11-23 evening — FLOOD SWEEP: MOSTLY UNINSURED · FIRST NFIP FIGURE · RIVER NOT FALLING · THE 12/31 AND 1/1 DATES (no colour moves; evidence `STATUS_DETAIL.md` § AL; research `research/2026-11-23_florida-flood-transmission-sweep.md`)
 | # | What | So what / who |
