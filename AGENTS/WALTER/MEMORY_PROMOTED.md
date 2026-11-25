@@ -468,3 +468,9 @@ November 20 Friday (walter-7f, laptop): late WQ-709 launch (11:23 ET), FLASH wit
 Session note moved verbatim from MEMORY.md:
 
 November 23 Monday (walter-7f, laptop): a long session resumed from idle quoted 13:33 ET prices and missed a live FLASH; CATO's review (Will 14:28 ET) became the resumption refresh, selective GPU reading and the repeat check. Title-only closures hid two wrong dates and an unread $44B pricing. Rotation of the 11/20 note: MEMORY_PROMOTED.md § Rotation 2026-11-23T20:46:58Z.
+
+## Rotation 2026-11-25T04:26:00Z
+
+Session note moved verbatim from MEMORY.md:
+
+November 23 Monday evening (walter-7f, laptop): a working session on Will's words, 14 cards. Errors had two shapes: a reading list narrower than the owners' own dated ledgers (four late releases, the Houthi port order three days late, the tanker watch six weeks unreviewed because it was not on LAST_COMPLETION), and a figure or quote carried before it was checked against a second read (WS315.63; a quote Gibson never wrote; HYG). AEOLUS found the flood script's hole by testing it. Rotation of the prior note: MEMORY_PROMOTED.md § Rotation 2026-11-23T22:29:42Z.

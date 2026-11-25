@@ -1,5 +1,5 @@
 # WALTER STATUS
-**Updated:** 2026-11-23T22:29:42Z — walter-7f on the laptop (Mon Nov 23; Will's word 17:20 ET in this session: full close out); **Tier 2 FULL closeout**; no light breadcrumbs owed. Boot coverage PARTIAL (research/2026-11-23_boot/BOOT-RECEIPT.md). Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-25T04:26:00Z — walter-7f on the laptop (Tue Nov 24, 23:22 ET; Will: "WALTER lets close out"); **Tier 2 FULL closeout**; no light breadcrumbs owed. Boot coverage: no new boot; the session resumed after the 11/23 to 11/24 outage. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
@@ -7,12 +7,11 @@
 
 **November 23 evening (walter-7f, laptop; boot 16:04 ET after the 20:46Z closeout):** cards 20261123-016 to -029, no FLASH, 019 IMMEDIATE by release-day default. **Iran full sweep done 21:33Z (022; next about 11/30):** Houthi order to leave Saudi Red Sea ports (Jeddah named, 025) and Al-Shuqaiq/Jizan claims carded three days late; no acknowledged US strike since 11/17, carriers three to two, IMO 141. **RED-FT-11 precondition met on FRED (026), legs FUNDAMENTAL, no weight, RED grades.** NFRA rural NPL 2.895 (028, ZHAO). Williams text (027). Flash PMI (019) late. St. Johns Lake Harney record (017). Tanker costs (024): Gulf to China down 24%, Gulf of Oman route down 67% since Oct 9. Corrections 023, 025. Vendor closes: S&P 7,237.17, VIX 26.62 (Cboe official not posted), KRE 69.54; BZF27 89.49 not a settlement. REG-T-04 2 of 3, 11/23 cell Tuesday. Lane not collected after 14:51Z. Routing v0.53 (AEOLUS climate edits, El Niño owner, secondhand releases PRIORITY; Will 17:12 and 17:18 ET) and flood-alert step 7j adopted. Full closeout on Will's 17:20 ET word.
 
-**November 23 (walter-7f, laptop, Monday; session running since 11/20 18:32Z; return cards 11/21; full closeout on Will's 15:44 ET word):** cards 20261121-001 to -004 and 20261123-001 to -015. **001 LATE FLASH 11/20 (VIX closed 35.89, the +5 leg crossed in the 14:20 ET bar and WALTER quoted 13:33 ET prices at 14:43 ET: a missed live FLASH, corrected on 003).** HY 376 [11/20], REG-T-04 2 of 3; day 3 is the 11/23 value (publishes Tue 11/24). Huang reinstated (001 of 11/23, VULCAN confirmed). Bahrain casualties corrected (004). HANS-T-07 L3 exit closed (HANS). **RED-FT-11 reads met on Treasury par only (30Y -16 bp, 11/13 to 11/20); FRED had not posted at 15:42 ET and WALTER stopped waiting (014, RED grades).** 2Y auction indirect 51.54 under BOND's frozen I-prime 54.67 (010; BOND grades Wed 11/25 by PROME). SpaceX GPU notes priced Nov 19 to 20, correcting WALTER's 011 (012). Vendor about 15:45 ET: S&P 7,259.87, VIX 26.72, NVDA 165.81 (not closes). **Will 14:28 ET approved CATO's revised changes** (`research/2026-11-23_cato-workflow/RULING.md`): resumption refresh, selective GPU reading, repeat check; 48 GPU entries carry dated corrections. PROME reviews Dec 14.
 
 
 
 
-November 19 (walter-fc) paragraph rotated verbatim to SESSION_LOG.md at 2026-11-23T22:29:42Z. November 18 (walter-89) paragraph rotated verbatim to SESSION_LOG.md at 2026-11-20T18:26:27Z. November 17 late evening (walter-85) paragraph rotated verbatim to SESSION_LOG.md at 2026-11-19T19:02:45Z. November 17 evening (walter-85), November 17 (walter-15) and November 16 paragraphs rotated verbatim to SESSION_LOG.md at 2026-11-19T00:45:59Z. November 14 paragraph rotated verbatim to SESSION_LOG.md at 2026-11-17T23:25:07Z. November 13 paragraph rotated verbatim to SESSION_LOG.md at 2026-11-17T17:01:05Z. November 12 paragraph rotated verbatim to SESSION_LOG.md at 2026-11-17T00:30:25Z. November 11 evening paragraph (walter-b2, cards 024 to 033) rotated verbatim to SESSION_LOG.md at 2026-11-14T00:10:18Z.
+November 23 (walter-7f, day) paragraph rotated verbatim to SESSION_LOG.md at 2026-11-25T04:26:00Z. November 19 (walter-fc) paragraph rotated verbatim to SESSION_LOG.md at 2026-11-23T22:29:42Z. November 18 (walter-89) paragraph rotated verbatim to SESSION_LOG.md at 2026-11-20T18:26:27Z. November 17 late evening (walter-85) paragraph rotated verbatim to SESSION_LOG.md at 2026-11-19T19:02:45Z. November 17 evening (walter-85), November 17 (walter-15) and November 16 paragraphs rotated verbatim to SESSION_LOG.md at 2026-11-19T00:45:59Z. November 14 paragraph rotated verbatim to SESSION_LOG.md at 2026-11-17T23:25:07Z. November 13 paragraph rotated verbatim to SESSION_LOG.md at 2026-11-17T17:01:05Z. November 12 paragraph rotated verbatim to SESSION_LOG.md at 2026-11-17T00:30:25Z. November 11 evening paragraph (walter-b2, cards 024 to 033) rotated verbatim to SESSION_LOG.md at 2026-11-14T00:10:18Z.
 
 November 11 morning paragraph (cards 001 to 015) rotated verbatim to SESSION_LOG.md at 2026-11-12T01:06:49Z. November 11 reboot and afternoon paragraphs rotated verbatim to SESSION_LOG.md at 2026-11-12T21:59:12Z.
 
@@ -23,10 +22,9 @@ BALANCED baseline. Resume list: top of LAST_COMPLETION.md.
 
 | Object | Observation and limit |
 |---|---|
+| November 24 night (FRED first-published to 2026-11-25T04:24Z; vendor closes 11/24) | FRED HY 363, CCC 1,387, BB 219, VIXCLS 26.62 [11/23, published 11/23]; DGS30 5.29, SOFR 3.92 [11/23]; T5YIFR 2.13, T10YIE 2.12 [11/24]; 11/24 HY unposted. Vendor: S&P 7,201.09, ^VIX 26.36 (premarket 30.40; 32.38 read as a bad tick), KRE 69.76, WAL 70.43 (under 78, existing cycle), ZION 62.59, HYG 76.43, NVDA 155.38, AMD 413.27, BZF27 90.00 and ES 7,173.50 at 23:07 to 23:14 ET (not settlements), TTFZ26 91.22. REG-T-04 fired (002). HANS rows, Cushing, SKEW not re-read tonight. |
 | November 23 evening (FRED first-published to 22:04Z; vendor closes) | FRED DGS30 5.31, DGS2 4.63, DGS5 4.71, DGS10 4.92, DGS20 5.34 [11/20]; T10YIE 2.13 [11/23]; HY 376, VIXCLS 35.89 [11/20], 11/23 unposted. Vendor 11/23: S&P 7,237.17, VIX 26.62, VIX3M 25.50, KRE 69.54, HYG 76.52, BZF27 89.49, CLF27 80.38 (not settlements), TTFZ26 91.39, GLD not read at close. HANS rows, Cushing, SKEW carried from the 20:43Z read. Evidence: research/2026-11-23_boot/BOOT-RECEIPT.md. |
 | November 23 laptop session (FRED 17:22Z first-published; vendor intraday to about 15:45 ET, not closes) | FRED HY 376, CCC 1,402, VIXCLS 35.89 [11/20]; T5YIFR 2.12; SOFR less IORB +2 bp [11/20]; 30Y 5.40 [11/19], 11/20 unposted at 15:42 ET (Treasury par 5.31). Vendor about 15:45 ET: ^VIX 26.72 (day high 35.08, low 15.39 rejected as a bad tick), S&P 7,259.87, KRE 69.46, WAL 69.82, NVDA 165.81, HYG 76.59, BZ=F 86.57 (identity UNKNOWN), TTF=F 91.39. HANS rows and fires: research/2026-11-23_return/THRESHOLD-SCAN.md. |
-| November 20 laptop session (FRED first-published pulled 16:24:36Z to 16:24:39Z; vendor intraday 16:24:04Z, 16:28:34Z, 18:25:31Z, not closes) | FRED HY 352, CCC 1,361, VIXCLS 28.44, T5YIFR 2.10 [Nov 19]; SOFR 3.91 less IORB 3.90 = +1 bp [Nov 19]. Vendor 18:25:31Z: S&P 7,029.10 (-2.04%), ^VIX 32.29 (+13.54%), NVDA 136.30 (-6.63%), KRE 69.10 (-0.23%), WAL 68.95 (under 78, existing cycle), ZION 61.89, HYG 76.42 (-0.15%), GCZ26 3,521.90 (-4.44%). Safety net VIX > 30 MET (card 001); +5 leg (33.44) not met at any WALTER read; KRE -3% FLASH line not met. REG-T-04 day 1 of 3. No owner-registry fire or exit. Watchers stopped 18:25Z. Evidence: research/2026-11-20_boot/THRESHOLD-SCAN.md. |
-| November 19 laptop end-of-session read (FRED first-published values pulled 19:01:03Z; vendor 19:00:55Z intraday, not closes) | FRED HY 347, CCC 1,353, VIXCLS 24.56 [Nov 18]; Nov 19 unposted. Vendor intraday: KRE 69.53 (-1.41%), WAL 69.98 (under 78, existing cycle), ZION 62.44, HYG 76.62 (-0.04%), ^VIX 27.05 (+10.14%), S&P 7,213.80 (-1.50%), NVDA 148.23, AMD 479.77 (-9.50%). FLASH pre-gate KRE -3% and VIX 30 not met at any WALTER read (polled every 120 s from the 12:14 ET watcher start; watchers stopped 19:04Z; last read 19:04:31Z KRE -1.39%, ^VIX 27.42). REG-T-04 3 bp under; RED-FT-06 exit met (card 007). No new fire or exit. Evidence: research/2026-11-19_closeout/THRESHOLD-SCAN-CLOSE.md; boot research/2026-11-19_boot/THRESHOLD-SCAN.md. |
 Evidence for the older rows above (October 22): `research/2026-10-22_boot/THRESHOLD-SCAN.md`, `research/2026-10-22_iran-full-sweep/SWEEP.md`, `research/2026-10-22_afternoon/`. Twenty older rows (10/15–10/22 morning) rotated verbatim to `SESSION_LOG.md` 2026-10-22T16:47:25Z (root Output Canon: spaced words; history moved, not compressed). Each series keeps its source date and basis.
 
 Oldest six observation rows rotated verbatim to SESSION_LOG.md at 2026-10-31T18:34:28Z; no historical claim rewritten.
@@ -55,6 +53,8 @@ Oldest 4 observation rows (November 17 laptop evening back to November 16 boot) 
 
 Oldest 2 observation rows (November 18) rotated verbatim to SESSION_LOG.md at 2026-11-23T22:29:42Z; no historical claim rewritten.
 
+Oldest 2 observation rows (November 20 and 19) rotated verbatim to SESSION_LOG.md at 2026-11-25T04:26:00Z; no historical claim rewritten.
+
 ## MISSION
 
 Signal/news routing and receiving-layer readiness. Domain agents own evidence, grades and judgment. Broker truth remains off-repo; FORGE's November 5 ANVIL reconcile (Fidelity captures 10:01 ET, intraday marks; Robinhood unverified) is dated context, not current fills.
@@ -75,7 +75,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY refreshed at this full closeout (step 13, 2026-11-23T22:29:42Z): Updated and Focus mirrored from owner STATUS lead headers for REGINALD, BROCK, HENRY, VIOLET, HANS, CORAL, CREED, TERRY, AEOLUS, VULCAN, MIDAS, HOMER. Status colours not re-derived. PROME prome-77 and aeolus-f2 were live in ListAgents at 17:20 ET; PROME-run subagents are not visible to WALTER (REGINALD and TERRY files were being written), so every other recipient is UNKNOWN, not dark. Wakes by PROME: REGINALD, NEXUS, CORAL, BROCK, RED Tue 11/24; BOND, VULCAN, FALCON, BRENT Wed 11/25.
+REGISTRY refreshed at this full closeout (step 13, 2026-11-25T04:26:00Z): Updated and Focus mirrored from owner STATUS lead headers for AEOLUS, BROCK, HOMER, REGINALD, TERRY (the only owner STATUS files committed since the last refresh, with CREED unchanged). Status colours not re-derived. PROME prome-77 and homer-2f were live in ListAgents at 23:24 ET; PROME-run subagents are not visible to WALTER, so every other recipient is UNKNOWN, not dark. Wednesday wake order is PROME's (3054d17b0f).
 
 ## Active LIAISON channels
 
@@ -103,7 +103,7 @@ CARL,RED,REGINALD and BRENT remain DORMANT/ARCHIVED/CLOSED; no active turn or ca
 1. ⛔ ***"over 9,000 troops" at Suwałki*** — 9,000 is the **Vienna Document notification threshold**; Belarus claims it came in UNDER it, so the phrasing **inverts the official claim**.
 2. ⛔ ***"Russia nationalised \$120bn in European assets"*** — traces to **no outlet**.
 3. ⛔ ***"simulated a push into Kaliningrad"*** — **community blog only**.
-4. ⛔ ***"NATO responded with AWACS"*** — **community blog only**.
+4. ⛔ ***"NATO responded with AWACS"*** — **community blog only** (September wording). Not a kill on the sourced 11/23 event: SACEUR authorised an AWACS forward to Poland (Reuters, card 20261124-013).
 5. ⛔ **Romania 23-vs-18** — **WITHDRAWN by HAWK**; three irreconcilable published series.
 6. ⛔ ***"four engagements in Baltic Air Policing's 22-year history"*** — ⚠️ **SPLIT CLAIM: the count of FOUR is fine; the 22-year DENOMINATOR is unsupported.** Kill the denominator, keep the count.
 
