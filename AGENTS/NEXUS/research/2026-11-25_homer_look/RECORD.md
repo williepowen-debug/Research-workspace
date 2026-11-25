@@ -1,5 +1,7 @@
 # HOMER deep look — NEXUS, Will 2026-11-25 15:15 ET ("a deeper look at HOMER"); written 2026-11-25T15:20:21-05:00
 
+⚠️ **CORRECTED 15:30 ET in `DEEPER.md` §0:** finding 1's Fannie single-family provision ($694M vs $226M) is withdrawn as evidence (mainly interest rates; nine months flat). Finding 3's 'Trepp' limits stand; issuer figures now in DEEPER §2.
+
 **Read:** HOMER STATUS, NEXUS_BRIEF, THESIS, PREDICTIONS, SCRATCH, OBLIGATIONS_OTHERS, the 11/25 deeper-read report whole; CLAUDE.md to BOOT 6b; ledgers by row; LESSONS tail. CARL, LABOR, HENRY, REGINALD, CREED, TERRY by search. Source documents (ICE, HUD, Trepp, Fannie) NOT re-read: figures are HOMER's. Examine-and-report; no NEXUS letter, Conf, root count or threshold moved.
 
 | # | Finding | Evidence | Limit |
