@@ -100,6 +100,14 @@ Own a capped bet that the financing squeeze on AI-infrastructure borrowers gets 
 - **Resolution basis:** vendor daily bars re-pulled after 16:15 ET (`fetch.py`) for the close and colour; LIQUID's committed CDS read (DTCC via LIQUID's converter) for leg (b).
 - **Probability:** **0.40, subjective (TERRY).** The price leg alone is likely at 160–200% realised vol (it closed at $48.33 on 11/23). The joint leg is harder, because a rally to $48 usually comes with tighter CDS. Grades the trigger only, not the trade. `CALIBRATION.tsv` CAL-0010.
 
+## 8c. Re-read 2026-11-25 09:4x–09:5x EST (PROME morning wake; no term changed)
+- **Every term above stands: no level, operator, instrument or consequence changed.** Still NOT-FIRED, NOT approved, X1 CLOSED.
+- **Tape (vendor, intraday, red day):** CRWV **$37.75 −11.40%** (09:47); T1 (a) now needs **+27.2%** to a green $48.00 close. Leg (b): LIQUID's 1,314 bp [11/24] stands (WALTER SIG-W-20261125-013 relays the same figure as a record, secondary); it is too old for an entry after 11/26, so a later entry needs a fresh LIQUID read.
+- **Screen:** 40P 9.35/9.40, 30P 4.50/4.70 ⇒ **mid $4.78, outer $4.90**; IV 111.7% / 123.1%. Model at those IVs: $3.25 near CRWV $46, $2.91–3.13 at $48 (70–86 DTE). The cap and the trigger still agree.
+- **Earnings date:** still not verifiable (Q4 FY2026 date unannounced). Precedent: Q4 FY2025 reported 2026-02-26, announced 2026-02-05 (CoreWeave IR). If repeated, after the 2/19 expiry and the 2/05 time stop. Read from IR before any entry, as before.
+- **Trigger odds:** registered CAL-0010 stays 0.40 (graded as registered). TERRY's current unscored view: **about 0.20**.
+- **Evidence today:** no financing-specific evidence (VULCAN: valuation de-rating; SpaceX GPU lease notes priced upsized). Lean unchanged: A, low conviction; B equally sound. Note `research/2026-11-25_morning-tradeability/NOTE.md` §1.
+
 ## 9. Decision
 - [ ] APPROVE NOT-FIRED: ×1, limit ≤ $3.25, max loss $326.30, on T1 and a green CRWV session by 12/11, **with Will's X1 choice on this card**
 - [ ] REJECT

@@ -1,5 +1,12 @@
 # TERRY STATUS
 
+> ## ★ CURRENT STATE — 2026-11-25 09:43–10:0x EST (PROME prome-77 morning wake) · TERRY, Claude Code, Claude Opus 5.5, laptop. **NO ORDER. $0. No new card. No card term changed.** Note `research/2026-11-25_morning-tradeability/NOTE.md` §1–5.
+> - **WQ-745 `IDEA-CRWV-AIFIN-NOV24` re-read: terms stand**, NOT-FIRED, NOT approved, X1 CLOSED. CRWV $37.75 −11.40% (09:47, red day): T1 (a) needs +27.2%; leg (b) 1,314 bp [11/24] needs a fresh LIQUID read for any entry after 11/26. Screen mid $4.78 vs $3.25 cap; cap ≈ CRWV $46 by model. Earnings date still unannounced (FY25 Q4 precedent 2026-02-26). Unscored trigger view ~0.20 (CAL-0010 stays 0.40). Lean unchanged: A low conviction, B equally sound. Row aged facts (not errors) sent to PROME.
+> - **VIX leg NOT-FIRED:** HY 11/24 cell unposted (363 [11/23]). Even at ≥ 370, Dec-16 30/40C outer $1.40 vs $0.89 [11/24] (+57%) measures as paying up; lean: wait for a VIX-down day.
+> - **Inbox 11 answered, NO CARD each** (`TRY-NOTRADE-DRAIN-NOV25`); 10 filed. VIOLET's 09:52 packet is uncommitted by VIOLET: answered, left in `inbox/` until VIOLET commits it. RED's TRY-FIRE-006 grade (MIXED) recorded: **owner grades 8 of 12**; owed WAL, BOND, LIQUID, DEWEY, PROME (ORCL).
+> - **BOARD scan run, 2 new since SIG-W-20261124-001, 2 logged** (-005, -013).
+> - ⚠️ `SETUPS.tsv` at 74.99% of the read cap: the next append rotates terminal rows first.
+
 > ## ★ CURRENT STATE — 2026-11-24 22:43–23:0x EST (PROME prome-77 on Will's word 22:43 ET, D:L1252) · TERRY, Claude Code, Claude Opus 5.5, laptop. **NO ORDER. $0. No new card.** Note `research/2026-11-24_reg-t-04-fired-tradeability/NOTE.md` §1–4; delivery c91c3beab8.
 > - **REG-T-04 FIRED** (HY first-published 352 / 376 / 363 [11/19, 11/20, 11/23], FRED verified 22:45 EST; 11/24 unposted). **NO NEW CARD:** `IDEA-HYG-FOLLOW-NOV05` is the expression (×5, ≤ $0.60, max loss $306.50, window to 12/04, void 0 of 5, fill UNKNOWN; after-hours mid $0.56). A revived 77/74 ×4 = $711.70 on one view: declined, shown as Will's choice. VIX Dec-16 30/40C NOT-FIRED (HY ≥ 370 unmet). Bank leg NO CARD. `TRY-NOTRADE-REGT04-NOV24`.
 > - **Car-Mart NO CARD** ($0.33 [11/24], 0 option expiries). `TRY-NOTRADE-CRMT-NOV24`.
