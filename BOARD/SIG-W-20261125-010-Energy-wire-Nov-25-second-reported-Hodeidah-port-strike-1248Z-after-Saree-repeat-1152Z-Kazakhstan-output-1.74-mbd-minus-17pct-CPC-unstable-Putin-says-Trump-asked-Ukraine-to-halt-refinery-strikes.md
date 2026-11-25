@@ -19,7 +19,12 @@ entities: ["Hodeidah", "Houthis", "Jeddah", "Kazakhstan", "CPC", "Putin", "Trump
 word_count: 292
 dispatch_note: "PRIORITY. ACTION FALCON (Red Sea), BRENT (supply), OSPREY (Ukraine). RED, PROME by BOARD diff; TERRY BOARD-only."
 event_window: "open"
+status: "PARTIALLY-CORRECTED"
+status_ref: "SIG-W-20261125-016 — 'pulling against a falling price' FLIPS: January Brent was rising. All wire rows hold."
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-016:** 'pulling against a falling price' FLIPS: January Brent was rising. All wire rows hold.
+
 # Energy wire Nov 25 (Newsquawk one-liners): Hodeidah port reported struck again (Al Mayadeen, 12:48Z) after Saree's conditional Saudi-port warning (11:52Z feed); Kazakhstan output 1.74 mb/d Nov 24, 17% under its November average on unstable CPC loadings; Putin says Trump asked Ukraine to halt refinery strikes
 
 # Energy wire, Nov 25 (one-line wire items, originals not read)

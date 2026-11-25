@@ -19,7 +19,12 @@ entities: ["Houthis", "Ras-Tanura", "Aramco", "Hodeidah", "Jeddah", "Hormuz", "B
 word_count: 397
 dispatch_note: "PRIORITY. ACTION FALCON (ladder, FAL-13) and BRENT. RED, PROME by BOARD diff; TERRY BOARD-only."
 event_window: "open"
+status: "PARTIALLY-CORRECTED"
+status_ref: "SIG-W-20261125-016 — the oil row's sign FLIPS: January Brent was UP about 2.3%, the -2.4% divided February by January. All event rows hold."
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-016:** the oil row's sign FLIPS: January Brent was UP about 2.3%, the -2.4% divided February by January. All event rows hold.
+
 # Nov 25 Gulf update: Houthis claim fires at Ras Tanura refinery; coalition says four drones destroyed, fragments fell in the port area; Reuters (relayed) saw about 600 sq km of smoke on NASA imagery; no refinery hit confirmed; no Saudi Red Sea port strike found after Hodeidah
 
 # Saudi Arabia, Yemen and Hormuz, Nov 25 (follow-on to card 20261124-006)

@@ -19,7 +19,12 @@ entities: ["USTR", "Section-301", "China", "EU", "Japan", "South-Korea", "Taiwan
 word_count: 382
 dispatch_note: "IMMEDIATE (announcement, routing row TARIFF_TRADE; carried from 20261124-009). ACTION CARL, HENRY, ZHAO (China leg and Jan 10 truce). RED, PROME, CARL by BOARD diff and handoff as routed."
 event_window: "open"
+status: "PARTIALLY-CORRECTED"
+status_ref: "SIG-W-20261125-015 — the China notice has no Section 232 exemption text (cell said UNKNOWN), and the China 20% is net of the forced-labor duty only (about +7.5 points, sharpened). Status, dates and the 40% alternative hold."
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-015:** the China notice has no Section 232 exemption text (cell said UNKNOWN), and the China 20% is net of the forced-labor duty only (about +7.5 points, sharpened). Status, dates and the 40% alternative hold.
+
 # US proposes Section 301 'excess capacity' tariffs on 14 partners Wed Nov 25: China 20%, highest; other rates not read (caps: 15% EU, Japan, Korea, Taiwan); not stacked on July's forced-labor 10% to 12.5%; comment and hearing first, could slip to January; notice not found
 
 # Section 301 excess-capacity tariffs: PROPOSED, not in force
