@@ -169,3 +169,5 @@ SIG-W-20261001-013	2026-10-02	noted-off-domain	electricity price = ENERGY/BLS; H
 2026-11-25T14:38Z	SIG-W-20261125-007	ACTIONED	INBOX_WALTER	Residential investment read at BEA vintage via FRED (-3.4 pct, adv -3.3); GDP 4.3 noted
 2026-11-25T14:38Z	SIG-W-20261125-009	INFO-LOGGED	INBOX_WALTER	California tides: AEOLUS owns peril; no damage reported; CA lane unchanged
 2026-11-25T14:38Z	SIG-W-20261125-012	INFO-LOGGED	INBOX_WALTER	Flagstar flood-act penalty $112,000; small; no geography; combo none
+2026-11-25T16:36Z	SIG-W-20261125-019	INFO-LOGGED	INBOX_WALTER	DR-4956-FL card built on HOMER's own read; matches PIPELINE row; no new fact
+2026-11-25T16:36Z	SIG-W-20261125-020	INFO-LOGGED	INBOX_WALTER	New-home sales match PRICING row (701K; Sept 614K); CARL V5 and others are owners' records; no HOMER row moved
