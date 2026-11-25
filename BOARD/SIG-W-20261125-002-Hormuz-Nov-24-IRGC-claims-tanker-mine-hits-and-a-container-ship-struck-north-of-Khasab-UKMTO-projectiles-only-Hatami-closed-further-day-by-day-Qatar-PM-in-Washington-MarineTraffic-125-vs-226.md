@@ -1,0 +1,49 @@
+---
+signal_id: "SIG-W-20261125-002"
+date: "2026-11-25"
+timestamp: "2026-11-25T05:01:38Z"
+dispatched: "2026-11-25T05:01:38Z"
+source: "Euronews, Al Jazeera, CNBC, ABC live, HNGN (pages read before 2026-11-25T05:01Z); Gulf News live blog"
+origin: ["Euronews 2026-11-24", "Al Jazeera 2026-11-24", "CNBC 2026-11-24", "HNGN 2026-11-24", "Gulf News live 2026-11-25"]
+action: ["FALCON"]
+info: ["HAWK", "BRENT", "HANS", "SAM", "NEXUS", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "context"
+confidence: 0.75
+confidence_language: "pages read; every Iranian kinetic item is claim only; no authority primary"
+resources: 1
+safety_net: "clear"
+cluster: "IRAN_HORMUZ"
+domain: "GEOPOL_ENERGY"
+entities: ["IRGC", "UKMTO", "Hatami", "Khasab", "Qatar", "MarineTraffic", "JMIC"]
+word_count: 498
+dispatch_note: "PRIORITY. ACTION FALCON (owns ladder, census, carriers). Guards corpus read whole before dispatch. RED, PROME by BOARD diff; TERRY BOARD-only."
+event_window: "open"
+---
+# Hormuz, Nov 24 (press pages read; UKMTO and CENTCOM not): IRGC and army claim more tanker mine hits and say they struck a container ship north of Khasab (claim only, no ship named); UKMTO reports projectiles, not mines; army chief says the strait must be 'closed further day by day'; Qatar's PM in Washington Nov 23
+
+# Hormuz and diplomacy, Nov 24
+
+anchor_unverified_as_of: not applicable (anchor full sweep 2026-11-23T21:33Z; guards read before dispatch)
+
+| Object | Read | Status |
+|---|---|---|
+| IRGC, army mine claims | three tankers (IRGC, Mon 11/23); a fourth at dawn Tue; two tankers per the army Tue | **CLAIM ONLY**, no hull named. JMIC report for 19 to 21 Nov: mine claims unconfirmed. Iran's count is the FALCON combination theme (KB-406); no confirmed mine |
+| Container ship struck north of Khasab, Tue 11/24 | IRGC Navy, through HNGN (Nov 24 19:10 ET) | **CLAIM ONLY**: no ship, flag or crew; not seen in a UKMTO item. Outlet is flagged in WALTER's guards for July errors |
+| UKMTO | three vessels struck by unknown projectiles, continuing; one tanker reclassified as part of three separate attacks on 22 Nov (Gulf News 20:13 local) | same event as card 20261124-017 (219-26, 22 Nov 20:25 UTC). **ABC dates it Monday evening: the press date, not the event date. Do not count twice** |
+| Army chief Hatami, Tue | strait 'must be closed further day by day' until seven conditions are met, citing Mojtaba Khamenei; 'unimaginable' reply to strikes on infrastructure (ABC, Mehr) | statement. Seven conditions date from October (FALCON KB-239); declaratory closure is not a new state |
+| Ghalibaf | no negotiation before the conditions; 'military ways to break the blockade ... in the near future' | statement (Euronews) |
+| Qatar | PM met Rubio and Vance Mon 11/23 (Vance about ten minutes, AP); contacts 'continuing' Tue | mediated; no text, no date |
+| US deliberation on targeting senior Iranian leaders | Gulf News live blog relaying NBC, 24 Nov | **relay only; NBC not found by my search. Reuters ran an earlier story of the same shape: date trap until NBC is read** |
+| Katz: Iran 'developing chemical weapons' | KAN through Gulf News, 24 Nov | statement; follows Trump's of 18 Nov |
+
+| Transit figures, different instruments, never blended | Value |
+|---|---|
+| MarineTraffic (Al Jazeera) | 226 vessels Nov 1 to 7, **125 Nov 17 to 23**; lowest day Sun Nov 22: one out, two in |
+| JMIC | 114 passages with US assistance, 19 to 21 Nov |
+| AIS platform (Al Jazeera) | 28 ships, 4.18M barrels in 24 hours |
+
+Al Jazeera says these miss vessels with signals off. Its 'more than 25 tankers hit in the past week' is **not supported by any authority read here; do not carry**. Its 125 to 140 pre-war norm is not the fleet's 88 denominator.
+
+- **Conflict for FALCON:** CNBC (Nov 24) says Roosevelt joined **as a third carrier**; the 11/23 sweep says carriers went three to two. Not resolved here.
+- **So what:** nothing read here meets a ladder letter; FALCON's 11/25 read of the Red Sea stands and searched only that side. Brent front about $88 in these pages is a vendor front month, not BZF27.

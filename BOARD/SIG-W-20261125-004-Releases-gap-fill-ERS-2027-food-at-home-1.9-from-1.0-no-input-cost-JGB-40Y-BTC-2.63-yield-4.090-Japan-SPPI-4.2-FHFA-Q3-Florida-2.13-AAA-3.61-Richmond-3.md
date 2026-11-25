@@ -1,0 +1,41 @@
+---
+signal_id: "SIG-W-20261125-004"
+date: "2026-11-25"
+timestamp: "2026-11-25T05:01:38Z"
+dispatched: "2026-11-25T05:01:38Z"
+source: "ers.usda.gov; mof.go.jp eresul20261125; fhfa.gov 2026Q3 report and release; gasprices.aaa.com; richmondfed.org; newsquawk.com (all read before 2026-11-25T05:00Z)"
+origin: ["USDA ERS", "MOF Japan", "FHFA", "AAA", "Richmond Fed", "BOJ list"]
+action: ["FERT", "SAM", "CARL", "CORAL"]
+info: ["HOMER", "ISHM", "BOND", "LIQUID", "HENRY", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "catalyst"
+confidence: 0.95
+confidence_language: "issuer pages except the Japan services price row"
+resources: 1
+safety_net: "clear"
+cluster: "CONSUMER_STAGFLATION"
+domain: "MACRO_INFLATION"
+entities: ["USDA-ERS", "JGB-40Y", "FHFA", "AAA", "Richmond-Fed"]
+word_count: 381
+dispatch_note: "PRIORITY. Gap fill of UNKNOWN calendar rows. ACTION FERT (T2), SAM (docket 11/25), CARL (V5 window), CORAL (FHFA Florida). RED, PROME by BOARD diff."
+event_window: "closed"
+---
+# Releases left UNKNOWN at boot, now read at issuer: USDA 2027 food-at-home forecast 1.9% (from 1.0% in October), no fertilizer, fuel or energy attribution found; Japan 40-year auction bid-to-cover 2.63, yield 4.090%; FHFA Q3 Florida +2.13% on the year, Tampa -2.41% on the quarter; AAA regular $3.6149 [11/24]; Richmond Fed +3
+
+# Issuer reads
+
+| Release | Print | Prior | Basis |
+|---|---|---|---|
+| USDA ERS Food Price Outlook, Nov 24 | 2027 food at home **1.9%** (-3.4 to 7.8); 2026 food at home 2.4%; 2027 all food 3.0% | 2027 1.0% [Oct, FERT L758] | ERS summary page and forecast file, read. Page searched for fertilizer, input cost, energy, fuel, diesel: **none found** (named: cattle supply, avian flu, milk) |
+| Japan 40-year JGB auction, Nov 25 | bids 786.5B, accepted 299.6B yen: **bid-to-cover 2.625** (derived); highest accepted yield **4.090%** | 3.096 [Sep], 2.824 [Jul], 2.702 [May] (SAM docket); Sep yield 4.125% | MOF result page, read |
+| Japan services producer prices, Oct | 4.2% on the year (consensus 3.6, prior 3.8); excluding international transport 3.2 from 3.0 | 3.8 | Newsquawk page; ActionForex search summary; BOJ list confirms the Nov 25 release, PDF not read |
+| FHFA house prices, Q3 2026 | US +2.5% year, +0.7% quarter; September 0.0%. **Florida +2.13% year, +0.29% quarter, rank 29**; Miami +4.54% / -0.01%; Tampa +0.58% / **-2.41%**; Orlando +1.02% / -0.47% (purchase-only) | | FHFA report PDF, read. State file: FL SA 546.62 to 548.18 |
+| FHFA 2027 loan limit | $855,400 (+$22,650) | | FHFA release, read; HOMER holds it |
+| AAA regular, 11/24 | **$3.6149**; 11/23 $3.6366; week ago $3.7818; month ago $4.2957; diesel $5.7982 | | AAA page, read; the days between are not each read |
+| Richmond Fed manufacturing, Nov | +3 from -2; new orders 2 from -8, shipments 2 from 0, employment 6 from 3 | | Richmond Fed page, read. Confirms card 20261124-011's search summary |
+
+- **FERT (T2):** the midpoint moved **up 0.9 pt**; the letter needs an upward revision citing inputs. No citing found on the summary page; only the midpoint is read across vintages. FERT grades.
+- **SAM:** lowest bid-to-cover of the four 2026 auctions, at a lower yield than September. SAM's row is descriptive, no grade.
+- **CARL (V5):** every AAA figure read here is under $4.00; the 11/10 to 11/24 daily series is CARL's.
+- **CORAL:** your owed Florida row. HOMER already holds the national figure.
+- **Still not read:** conference-board.org for 103.3 (release page not served to this machine; search index carries only 2025).
