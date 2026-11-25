@@ -263,7 +263,6 @@
 - feedback_fresh_slate_is_files_then_clear_then_boot — closeout, clear, boot from files; not a token question (Will 11/6)
 - feedback_persistent_desk_windows_tap_not_relaunch — desks stay open; tap by message, launch only with no live owner (Will 11/7)
 - feedback_batch_ledger_commits_at_break_points — batch ledger and receipt commits per round; never per line (Will 11/17)
-- feedback_start_walter_at_weekday_boot — weekday boot with no WALTER window live: PROME starts one (Will 11/17)
 - feedback_will_own_trade_one_line_record — his one-line trade record goes to TERRY verbatim (Will 11/17)
 - reference_daedalus_runs_on_codex_astra — not in ListAgents; reach by inbox packet (Will 11/7)
 - reference_claude_text_watermark_live_since_aug_2026 — Claude text is watermarked since 8/2026; byte scans miss it
