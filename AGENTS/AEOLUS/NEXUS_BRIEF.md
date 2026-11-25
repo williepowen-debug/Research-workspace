@@ -2,7 +2,7 @@
 
 **Purpose:** curated synthesis writeback, rewritten at closeout only when a figure, threshold, or cross-desk send or wait in it changed (NEXUS schema §4.1, WQ-719 A). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-11-25 14:50 ET (PROME due-row wake, D:L1256 owed #23: NorCal observed tides, KB-334…337; folded with STATUS.)**
+**Last writeback: 2026-11-25 14:42 ET (PROME due-row wake, D:L1256 owed #23: NorCal observed tides, KB-334…337; folded with STATUS.)**
 **WAITING-FOR:**
 - **11/26:** SA CEC final; NWPS Memphis forecast −5.1 ft · **11/30:** hurricane season end (AEO-01) · **12/02:** C6 Orange window · **12/03:** CAP board · **12/07–08:** MWD vote on the Lower Basin implementing agreements · **12/10:** federal answer in *Nevada v. Burgum*, CPC ENSO, WASDE, NWPS Memphis forecast −6.9 ft · **12/21:** end of NWPS run, −7.8 ft · **~mid-Dec:** December 24-Month Study · **12/17:** CPC seasonal
 - **11/28:** DeLand crest, forecast RAISED to 6.4 (19:00 ET) vs record 6.33 (KB-337; CORAL told) · **by 12/22:** West Coast residual re-read before the 12/23–25 king tides · **11/27:** Kaub 10th day ≥77 cm · **12/11:** AEO-18 MWD vote grade · PROME: DOCKET rows for AEO-18/19 and AEO-17's re-date (D:L1250)

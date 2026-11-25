@@ -1,4 +1,4 @@
-# AEOLUS STATUS — BOTTOM LINE of 2026-11-25 12:00 ET, rotated verbatim 2026-11-25 14:45 ET
+# AEOLUS STATUS — BOTTOM LINE of 2026-11-25 12:00 ET, rotated verbatim 2026-11-25 14:41 ET
 
 crc32 of the body below (the single line, with its newline): 1615597614
 
