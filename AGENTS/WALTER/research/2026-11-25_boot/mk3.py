@@ -1,0 +1,42 @@
+import json
+ro="WALTER walter-7f 11/25 09:43 ET (laptop), Will 09:40 ET 'What else deserves investigation'"
+C=[
+dict(id="SIG-W-20261125-013",slug="AI-credit-swaps-record-Oracle-356-CoreWeave-1314-Alphabet-SpaceX-records-SoftBank-501-highest-since-Oct-2022-S-and-P-under-7000-intraday-Arm-146-HYG-minus-0.3",safety_net="VIX > 30 continuing (31.77 high, vendor; FLASH on 20261125-005)",event_window="open",route_origin=ro,origin=["Disruption Banking 2026-11-25","Rallies.ai 2026-11-25","vendor bars 14:41Z"],signal_type="divergence",
+title="AI credit swaps at records in Nov 25 reports: Oracle 5-year 356 bp, CoreWeave 1,314 bp, Alphabet and SpaceX records without levels, SoftBank 501 bp (highest since Oct 2022); S&P 6,992 at 09:41 ET, under HENRY's 7,037 close line and 7,000; HYG only -0.3%",
+body="""# AI single-name credit against broad credit, Nov 25 (09:41 ET, intraday vendor)
+
+| Object | Read | Basis |
+|---|---|---|
+| Oracle 5Y CDS | 356 bp, record | Disruption Banking Nov 25; 'overnight', no date; S&P Global Market Intelligence credited for the record |
+| CoreWeave 5Y CDS | 1,314 bp, record; 68% implied 5-year default probability | same; matches VULCAN's '[11/24], LIQUID's figure'. 1,145 and 1,233 elsewhere are 11/17 to 11/20 |
+| Alphabet, SpaceX 5Y | 'widest on record', no level | both pages |
+| SoftBank 5Y | 501 bp, highest since October 2022 | Markit via both pages; observation date not stated |
+| S&P / QQQ / VIX | 6,992.14 (low of day) / 610.18 / 31.72 (delayed) | HENRY's 7,037.04 is a CLOSE line; HENRY named 7,000 the largest put strike |
+| HYG / LQD / BKLN / KRE | 76.21 (-0.3%) / +0.4% / -0.2% / 69.23 (-0.7%) | proxies, not OAS |
+| Alternative managers | OWL -3.9%, ARES -3.6%, BX -3.2%, KKR -3.2%, APO -2.6%; BDCs near flat (BIZD -0.2%, OBDC -0.6%) | 09:40 ET |
+| Neoclouds and builders | CRWV -10.6%, IREN -10.5%, APLD -10.3%, NBIS -10.2%, CORZ -8.4%, ORCL -7.7% | 09:40 ET |
+| Arm | 146.45 low of the first minutes | SAM's '$146 to $150' is an 11/18 estimate on 11/10 marks, not a trigger |
+
+- **Limit:** swap levels are secondary, undated 'overnight', one page a ticker blog; no original S&P or Markit page read. Both pages may share one Reuters source: one source, not two.
+- **Not found:** a pulled or repriced AI-infrastructure deal today (VULCAN also found none), a bank or fund naming a loss.
+- **So what:** the stress is at single-name AI borrowers and SoftBank while index credit is quiet. The discriminators are HY for 11/24 and 11/25, a refused deal, and whether the alternative managers' fall reaches loan and BDC marks.""",
+source="disruptionbanking.com and rallies.ai (helper reads 14:42Z); yfinance 14:40 to 14:41Z; VULCAN packet 31d49098fa",action=["LIQUID","VULCAN","SAM","BROCK","HENRY","TERRY"],info=["REGINALD","NEXUS","VIOLET","GIBBS","RED","PROME"],precedence="IMMEDIATE",confidence=0.7,confidence_language="reports: secondary swap levels, vendor intraday prices",cluster="AI_INFRA_CAPEX",domain="AI_CAPEX",entities=["Oracle","CoreWeave","Alphabet","SpaceX","SoftBank","Arm","HYG"],
+dispatch_note="IMMEDIATE. ACTION LIQUID (swaps, HY), VULCAN, SAM (SoftBank 501, Arm), BROCK (alternative managers), HENRY. TERRY BOARD-only. RED, PROME by BOARD diff.",route_summary="AI credit swaps at records, S&P under 7,000 intraday"),
+dict(id="SIG-W-20261125-014",slug="Section-301-update-VULCAN-read-three-notices-comments-to-Jan-5-hearing-from-Jan-25-no-effective-date-servers-and-chips-listed-not-covered-in-Taiwan-Malaysia-Korea-supersedes-card-006-unknowns",safety_net="clear",event_window="open",route_origin=ro,origin=["VULCAN packets 8e2525a6a3 and 31d49098fa"],signal_type="development",
+title="Section 301 update to card 20261125-006: VULCAN read the USTR release and three notices: comments to January 5, 2027, hearing from January 25, no effective date; servers and chips listed as NOT covered in the Taiwan, Malaysia and Korea notices (provisional)",
+body="""# Section 301: the fields card 006 left UNKNOWN
+
+| Field | VULCAN's read | Replaces in 006 |
+|---|---|---|
+| Comments | to 2027-01-05 | 'not found' |
+| Hearing | from January 25 (2027) | 'not found'; Reuters' 'could push implementation into January' is hard to square with a hearing from Jan 25 |
+| Effective date | none | 'not found' |
+| Servers (8471), parts (8473.30), chips (8541, 8542), fab tools (8486) | listed as NOT covered in the **Taiwan, Malaysia and Korea** notices | 'UNKNOWN, not exempt' |
+| Transformers, switchgear, cable | not found in that annex: a possible small cost leg | not stated |
+
+- **Limit (VULCAN's):** the annex scope column was not read row by row: PROVISIONAL. China, EU, Japan, Vietnam and India notices not read. Drugs, fuel and fertilizer: still not read.
+- China's January 10 truce expiry falls before the hearing.
+- No tariff leg found against AI-server names on those three notices, so tariffs are a weak explanation for the chip fall.""",
+source="AGENTS/TERRY/inbox/2026-11-25_from-VULCAN_ai-selloff-tradeability.md item 4 (USTR documents read by VULCAN, not by WALTER)",action=["CARL","ZHAO","HENRY"],info=["REGINALD","MARCO","ISHM","SAM","VULCAN","HANS","LABOR","BOND","FERT","NEXUS","RED","PROME"],precedence="PRIORITY",confidence=0.85,confidence_language="reports: owner desk read of primary, provisional scope",cluster="INFLATION_TRANSMISSION",domain="TARIFF_TRADE",entities=["USTR","Section-301","Taiwan","Malaysia","South-Korea"],
+dispatch_note="PRIORITY. Same recipients as 20261125-006, whose UNKNOWN fields this fills.",route_summary="Section 301 dates and chip carve-outs")]
+json.dump(C,open('AGENTS/WALTER/research/2026-11-25_boot/cards-013.json','w'),indent=1)

@@ -636,3 +636,11 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-25	BRENT	SIG-W-20261125-010	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message 005 to 009 the same sitting; wake order is PROME's.
 2026-11-25	OSPREY	SIG-W-20261125-010	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message 005 to 009 the same sitting; wake order is PROME's.
 2026-11-25	ISHM	SIG-W-20261125-011	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message 005 to 009 the same sitting; wake order is PROME's.
+2026-11-25	LIQUID	SIG-W-20261125-013	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents; UNKNOWN by 9b. Wake order is PROME's.
+2026-11-25	VULCAN	SIG-W-20261125-013	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents; UNKNOWN by 9b. Wake order is PROME's.
+2026-11-25	SAM	SIG-W-20261125-013	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents; UNKNOWN by 9b. Wake order is PROME's.
+2026-11-25	BROCK	SIG-W-20261125-013	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents; UNKNOWN by 9b. Wake order is PROME's.
+2026-11-25	HENRY	SIG-W-20261125-013	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents; UNKNOWN by 9b. Wake order is PROME's.
+2026-11-25	CARL	SIG-W-20261125-014	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents; UNKNOWN by 9b. Wake order is PROME's.
+2026-11-25	ZHAO	SIG-W-20261125-014	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents; UNKNOWN by 9b. Wake order is PROME's.
+2026-11-25	HENRY	SIG-W-20261125-014	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents; UNKNOWN by 9b. Wake order is PROME's.
