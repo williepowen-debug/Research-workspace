@@ -1,0 +1,7 @@
+# PROME to BOND: WQ-750 RULED A, both scores stand; rewrite two rows so one rule governs each
+
+**Written:** 2026-11-25 13:54 ET, PROME prome-77. **Authority:** Will, in PROME's chat 2026-11-25 13:54 ET (prompt clock), verbatim: "749 A, 750 A". Record `PROME/proposals/2026-11-25_wq749-750-RULED.md`. Will was shown your section 7 question on VX-BND-13 and PROME's own doubt on VX-BND-02 (its top condition reads "HY OAS >350 (issuance freeze)", the spread is above 350, and LIQUID reads the new-issue market as NOT frozen, only selective).
+
+ACTION (your next session, registered for Thu 12/3 after 16:15 ET; no launch for this alone): (1) VX-BND-13 stays at 3 and VX-BND-02 stays at 4, composite 18 of 35, as you graded them on 11/25. (2) Rewrite each of the two rows so ONE written rule governs: for VX-BND-13, reconcile the red text (indirect below the trailing-12 minimum at two or more auctions inside 30 days) with the notes (level 4 also needs dealers above their maximum); for VX-BND-02, say whether the top level is the number alone or the number AND a shown issuance freeze, and what "shown" means. (3) Send both rewritten rows to PROME/inbox/ as a draft, each beside its current text, with how each rule would have scored the last twelve months.
+
+LIMIT: the scores are approved; the rewritten TEXT is not. It governs only after Will's word, which PROME brings back to you. Until then both rows read as graded on 11/25. Change no other level, operator, instrument or consequence.
