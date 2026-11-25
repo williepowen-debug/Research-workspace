@@ -123,9 +123,9 @@ Closed-item receipts → `archive/STATUS_rotated_2026-11-24.md`.
 
 | Date | Event | Watch |
 |---|---|---|
-| ~12/01–12/03 | Redfin weekly · MBA wk 11/27 12/02 · PMMS 12/03 · PROME A1 answer due 12/04 | A2 ≤6.50 |
+| ~12/01–12/03 | Redfin weekly · MBA wk 11/27 12/02 · PMMS 12/03 | A2 ≤6.50 |
 | **~11/25–30** | ICE First Look Oct | C1 first Oct print; HUD ML 2026-08 FHA FC-start lift |
-| **2027-02-20** | **Next THESIS formal grade** | early only if A1 reaches its count. **A1's two questions are with PROME** (cure half unreadable; label if unread) |
+| **2027-02-20** | **Next THESIS formal grade** | early only if A1 reaches its count. **A1 answered by PROME 11/25 (§7 V6):** cure half stays unreadable; UNGRADED with halves reported if the first half is not met |
 | **~11/25–30** | Apartment List Nov · FMHPI Oct | **HOM-06** breadth ≤35 |
 | **~12/01–05** | Trepp Nov DQ · 12/04 construction jobs · 12/07 Toll FQ4 | **HOM-05** <8.09; did Cove revert? |
 | open | ATTOM Sept / **Q3** (not out at 11/24) | Q3 STARTS vs Yellow >100K |

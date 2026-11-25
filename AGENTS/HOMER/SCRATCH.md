@@ -15,6 +15,8 @@
 
 ## OWED before close
 
+- **One line to PROME at closeout:** THESIS §7 V6 added, with its commit. NEXUS_BRIEF "WAITING FOR: PROME A1" row comes off in the rewrite.
+
 - **NEXUS_BRIEF rewrite** (figures changed: PMMS, FHA rows, DR-4956, new-home mix, MBA second copy). Last write-back, after the final STATUS commit.
 - Nonbank-servicer search RUN 11/25: no newer action; **Fitch headline conflict open** (NMN 11/18 "downgrades 4" vs HousingWire "all nine affirmed"); REGINALD told; resolve at the Fitch primary or a readable copy.
 - Consumer check on PMMS 7.28→7.21 ran: 71 references flagged, not worked through (weekly series, mostly dated rows).
@@ -22,7 +24,7 @@
 ## Due next
 
 1. ICE October First Look (404 at 12:50 ET 11/25): **HOM-07, HOM-08**, C1. September slug 200 is the control.
-2. Apartment List Nov (**HOM-06**) · FMHPI Oct · Redfin weekly (not checked 11/25 second session) · 11/30 EO check · 12/01 combination review · ~12/01–05 Trepp Nov (**HOM-05**) · 12/02 read-cap re-measure · 12/03 PMMS · 12/04 construction jobs and PROME A1 answer · 12/07 Toll · 12/09 NAR (**HOM-09**).
+2. Apartment List Nov (**HOM-06**) · FMHPI Oct · Redfin weekly (not checked 11/25 second session) · 11/30 EO check · 12/01 combination review · ~12/01–05 Trepp Nov (**HOM-05**) · 12/02 read-cap re-measure · 12/03 PMMS · 12/04 construction jobs · 12/07 Toll · 12/09 NAR (**HOM-09**).
 3. HUD FHA October performance report (~December; filename varies): starts against the Q3 average ~10,465.
 
 ## Carry by name until closed
