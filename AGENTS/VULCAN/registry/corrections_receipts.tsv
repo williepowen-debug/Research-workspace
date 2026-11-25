@@ -37,3 +37,7 @@ receipt_date	correction_id	action	note
 2026-11-19T17:23Z	COR-20261117-31	NO-OP	scope=KB-452 says published 11/13 with no weekday so no VULCAN text carries the wrong label; 
 2026-11-19T17:23Z	COR-20261117-02	NO-OP	scope=Credit Acceptance settlement is a consumer-credit item outside VULCAN channels and no VULCAN record cites card 20261116-005 item 8; 
 2026-11-20T17:08Z	COR-20261119-20	NO-OP	scope=VULCAN rows already carry the corrected wording (KB-465 and STATUS S4 say Hunterbrook's records do not establish a violation and no government action) and no VULCAN record keys on the single-moment frame or on REG-36; 
+2026-11-25T14:25Z	COR-20261123-03	NO-OP	scope=VIX plus-5 timing, Bahrain and V14 legs - no VULCAN record or disposition cites the corrected items, KB-475 item 3 logged the correction; 
+2026-11-25T14:25Z	COR-20261124-21	NO-OP	scope=CIA and ODNI breach is CYPHER domain - no VULCAN record cites card 20261124-018 item 8; 
+2026-11-25T14:27Z	COR-20261123-12	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-478; validation_ref=NONE; 
+2026-11-25T14:27Z	COR-20261123-13	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-443; validation_ref=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-478; 

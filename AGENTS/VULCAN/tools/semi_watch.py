@@ -134,7 +134,7 @@ def fetch_spot() -> dict:
     try:
         import urllib.request
         req = urllib.request.Request(
-            SPOT_URL, headers={"User-Agent": "Mozilla/5.0 (VULCAN research instrument)"})
+            SPOT_URL, headers={"User-Agent": "research-bot/1.0"})  # WQ-735 A (Will 2026-11-23): honest client name
         with urllib.request.urlopen(req, timeout=45) as r:
             html = r.read().decode("utf-8", "replace")
     except Exception as e:                                   # noqa: BLE001

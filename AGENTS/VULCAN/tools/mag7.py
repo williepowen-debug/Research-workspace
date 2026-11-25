@@ -99,8 +99,7 @@ if os.environ.get("_MAG7_REEXEC") != "1":
 
 SPY_URL = ("https://www.ssga.com/us/en/intermediary/library-content/products/"
            "fund-data/etfs/us/holdings-daily-us-en-spy.xlsx")
-UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/126 Safari/537.36")
+UA = "research-bot/1.0"  # WQ-735 A (Will 2026-11-23): honest client name; refusal => mark unavailable, packet PROME, never switch back
 
 # Alphabet appears TWICE by design. Do not "deduplicate" it.
 MAG7 = ["AAPL", "MSFT", "GOOGL", "GOOG", "AMZN", "NVDA", "META", "TSLA"]
