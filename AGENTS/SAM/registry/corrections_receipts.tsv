@@ -36,3 +36,12 @@ receipt_date	correction_id	action	note
 2026-11-18T15:32Z	COR-20261117-02	NO-OP	scope=SAM recorded nothing from the corrected item, Gulf attack details and a Credit Acceptance settlement sit outside SAM rows, grep of SAM STATUS, STATUS_REFERENCE, KB and NEXUS_BRIEF found no citation 2026-11-18; 
 2026-11-18T15:32Z	COR-20261117-28	NO-OP	scope=SAM recorded nothing from the corrected item, Gulf attack details and a Credit Acceptance settlement sit outside SAM rows, grep of SAM STATUS, STATUS_REFERENCE, KB and NEXUS_BRIEF found no citation 2026-11-18; 
 2026-11-18T15:32Z	COR-20261118-06	NO-OP	scope=SAM recorded nothing from the corrected item, Gulf attack details and a Credit Acceptance settlement sit outside SAM rows, grep of SAM STATUS, STATUS_REFERENCE, KB and NEXUS_BRIEF found no citation 2026-11-18; 
+2026-11-25T14:41Z	COR-20261123-25	NO-OP	scope=Houthi port order and tanker rates, not in any SAM file; 
+2026-11-25T14:41Z	COR-20261119-14	NO-OP	scope=trilateral declaration correction, SAM never cited card 004, no SAM file carries it; 
+2026-11-25T14:41Z	COR-20261123-13	NO-OP	scope=GMI Cloud and FT guarantees dates, not in any SAM file; 
+2026-11-25T14:41Z	COR-20261123-12	NO-OP	scope=SpaceX GPU notes, not in any SAM file; 
+2026-11-25T14:41Z	COR-20261120-10	NO-OP	scope=MUFG leak REAL, SAM did not relay the NOT FOUND line, logged to KB-SAM-264 as real; 
+2026-11-25T14:41Z	COR-20261120-12	NO-OP	scope=Russia embassy wording, not in any SAM file; 
+2026-11-25T14:41Z	COR-20261123-04	NO-OP	scope=Bahrain casualty figure, not in any SAM file; 
+2026-11-25T14:41Z	COR-20261123-03	NO-OP	scope=VIX +5 timing correction, SAM cites no VIX leg; 
+2026-11-25T14:41Z	COR-20261123-09	NO-OP	scope=Poland objects, not in any SAM file; 
