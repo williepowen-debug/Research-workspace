@@ -32,7 +32,7 @@ Tier 2 FULL closeout at 2026-11-25T19:05:39Z; Will clears the window and reboots
 
 ## RESULT
 
-One FLASH (005), six IMMEDIATE this session (006, 007, 009, 013, 021, 029), 228 of 228 delivery rows delivered for 11/25. No registry trigger newly fired on WALTER's scan; FERT fired its own gate G5. CATO's morning findings WW25-1 to -3 worked.
+One FLASH (005), six IMMEDIATE this session (006, 007, 009, 013, 021, 029), 276 of 276 delivery rows delivered for 11/25. No registry trigger newly fired on WALTER's scan; FERT fired its own gate G5. CATO's morning findings WW25-1 to -3 worked.
 
 ## GAPS
 
@@ -123,12 +123,22 @@ Tier 2 FULL closeout, walter-7f, laptop. Publication is not consumption. Retirem
    "commit": "10107e394c",
    "state": "published",
    "note": "029; registry"
+  },
+  {
+   "commit": "e10b12b32c",
+   "state": "published",
+   "note": "030"
+  },
+  {
+   "commit": "7b7b25e1fa",
+   "state": "published",
+   "note": "031 to 034"
   }
  ],
  "delivery": {
   "signal_date": "20261125",
-  "total": 228,
-  "delivered": 228,
+  "total": 276,
+  "delivered": 276,
   "note": "all rows delivered after origin proof. Delivered is not consumed. CARL, RED, PROME INFO by BOARD diff; TERRY BOARD-only"
  },
  "owner_review": {
