@@ -1,7 +1,7 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
-**Rewritten:** 2026-11-23 (Mon) 16:52 ET (from `date`), at closeout of the Florida flood sweep wake (PROME prome-77, Will's word 16:26/16:33 ET). **Record: `catchups/2026-11-23.md`.** In one line: flood CRE collateral read filed (`research/2026-11-23_FLORIDA_FLOOD_CRE_EXPOSURE.md`, KB-122..130) · TERRY told no implication on 11/23 evidence · inbox drained, 9 · WQ-735 switched (1 script, works) · STATUS rotated to 70% · 28/45 unchanged · no push (PROME pushes).
-*PRIOR (11/16): `catchups/2026-11-16.md`.*
+**Rewritten:** 2026-11-25 (Wed) 13:38 ET (from `date`), at closeout of the FDIC Q3 QBP session (PROME prome-77, Will's word 13:15 ET, WQ-746). **Record: `catchups/2026-11-25.md`.** In one line: `T-03` NOT FIRED (b falling decides, c met first time) · the 3.40 base identified, KB-024/026 corrected · WQ-313 BROADER not met · DR-4956 verified, screen not run · inbox drained, 5 · CASE-187 · STATUS and VX rotated to 70% · 28/45 unchanged · no push (PROME pushes).
+*PRIOR (11/23): `catchups/2026-11-23.md`.*
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB / research; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
 > **Canonical-truth ordering, and this file is at the BOTTOM:** `STATUS.md` > `thesis/THESIS.md` > `research/REFRESH_*.md` > `workbook/` > `SCRATCH.md`. ⚠️ A crash lands here first: diff the commit log against this file before trusting it.
@@ -9,27 +9,26 @@
 ---
 
 ## ⛔ STANDING HAZARD — Kernel row pins
-Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea84` · 004 `50e84d2b8f` · 007 `19e4d1a003`** (re-verified 11/16 before and after the `PRED-013` edit). Graded on this ledger; Kernel records stay OPEN. Gate C inactive. ⇒ **Never edit a pinned row without Will's ruling.**
+Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea84` · 004 `50e84d2b8f` · 007 `19e4d1a003`** (PREDICTIONS.tsv not touched 11/25). Graded on this ledger; Kernel records stay OPEN. Gate C inactive. ⇒ **Never edit a pinned row without Will's ruling.**
 
 ## 🔴 NEXT MOVES
-0. **Florida flood follow-through (only if PROME re-spawns):** FEMA declaration → then the Trepp/KBRA county screen (Isaias lag 5 days) → named basin loans in December remittance commentary → Florida REIT 8-Ks / Q4 calls (PECO, REG, MAA, EGP, CPT, HST). Optional build: ABS-EE county count by ZIP (registered conduits only; ~1 GB pull, cache gone). Leads: Estates at Palm Bay $61M is in Fort Walton Beach, Okaloosa (corrected 11/23 from 'Brevard', KB-128), not yet a case.
-1. **FDIC Q3 QBP ~11/25** (`T-03` legs b and c by hand, L514); regional CRE OREO watch (obligation 10).
-2. **Trepp November DQ ~12/1–12/3** grades `PRED-014`; **November SS ~mid-Dec** grades `PRED-002` and `T-01b`. Try the public hubfs PDF first (the October SS URL pattern worked 11/16).
-3. **L183 grades 11/30:** leg 2b NOT REVERSED (Oct spread 4.27 but office DQ rose). BROCK consumes.
-4. **Illinois Center** sale result (unread 11/16) · **Plaza Continental** 11/17 hearing result (DEWEY reads first, L517) · L723 trustee's deed ~11/27.
-5. NREF and ACRE 10-Q write-off lines (`KB-109`); October payoff rate (F2); October CPPI office (`KB-114`); `KB-117` 1.15x check on the rendered exhibit.
-6. **Leads not yet cases** (11/09 list less 2400 Market, now CASE-185): 60 Madison (already CASE-041), 101 Hudson, Equitable Plaza, Executive Towers West, Martin Selig $379.1M mod, Plaza America I&II / III&IV, 411 Seventh. Huntington Center $108M (Columbus) and Hyatt Regency Waikiki $302.2M are named in the October SS: add on the next pass if wanted.
-7. **Read cap:** `workbook/VX.tsv` 74% (230 B to the trigger); STATUS 71%. Rotate VX notes to `notes/VX_NOTES.md` before the next VX edit grows it.
-8. **Carried:** register new dated predictions and eval targets (DAEDALUS 13) · commercial-vs-agency mREIT gap · stale VX-3.05, 5.02, 7.02, 9.01, 10.02 · CREFC weekly pricing (`KB-092` STALE; crefc.org 403). 5 KB rows marked STALE 11/16 (045, 058, 061, 070, 087) await re-verification only if cited.
+0. **Trepp November DQ ~12/1–12/3** grades `PRED-014`; in the same session: **DR-4956 screen** (TreppTalk/KBRA note first; ABS-EE ZIP screen of the designated counties only if none; KB-135) and the new TreppTalk leads (failed workouts, early payoffs/liquidations, cash-trapped $31B, modifications series). **November SS ~mid-Dec** grades `PRED-002` and `T-01b`. Try the public hubfs PDF first.
+1. **L183 grades 11/30:** leg 2b NOT REVERSED (Oct spread 4.27 but office DQ rose). BROCK consumes.
+2. **T-03 re-point** waits on Will (PROME packet 11/25): if yes, draft a level from the workbook's 79-quarter >$250B non-owner series (KB-133); never band-to-fit. **Q4 QBP ~late Feb 2027** is the next grade either way; regional OREO watch (obligation 10) rides it.
+3. **Illinois Center** sale result (unread 11/16) · **Plaza Continental** (DEWEY reads first, L517) · L723 trustee's deed ~11/27.
+4. NREF and ACRE 10-Q write-off lines (`KB-109`); October payoff rate (F2); October CPPI office (`KB-114`); `KB-117` 1.15x check.
+5. **Leads not yet cases:** 60 Madison (already CASE-041), 101 Hudson, Equitable Plaza, Executive Towers West, Martin Selig $379.1M mod, Plaza America I&II / III&IV, 411 Seventh, Huntington Center $108M, Hyatt Regency Waikiki $302.2M. Florida: Estates at Palm Bay $61M (Okaloosa, KB-128).
+6. **Read cap:** STATUS and VX.tsv rotated to 70% on 11/25; THESIS 74%, COVERAGE 73% (never breached 75%, nothing owed).
+7. **Carried:** register new dated predictions and eval targets (DAEDALUS 13) · commercial-vs-agency mREIT gap · stale VX-3.05, 5.02, 7.02, 9.01, 10.02 · CREFC weekly pricing (`KB-092` STALE; crefc.org 403). 5 KB rows STALE 11/16 (045, 058, 061, 070, 087) await re-verification only if cited.
 
 ## ⚖️ AWAITING WILL
-**Nothing pending from CREED.** KB-103 wrong-tape ABS-EE outside notice is Will's call; PROME holds it. ⚠️ `VX-10.04`'s red word "cohort-wide" has no number; held ORANGE.
-**Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."* ⛔ **Kill on sight:** "CRE is recovering" read off S8a (`KB-115`), or off October's office SS fall (office DQ rose the same month; `KB-119`).
+**T-03 re-point (via PROME, 11/25 packet):** CREED recommends re-pointing to the non-owner series it was written on, level drafted separately; the ruled two-leg rule stands until then. KB-103 wrong-tape ABS-EE outside notice is Will's call; PROME holds it. ⚠️ `VX-10.04`'s red word "cohort-wide" has no number; held ORANGE.
+**Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."* ⛔ **Kill on sight:** "CRE is recovering" read off S8a (`KB-115`), off October's office SS fall (`KB-119`), or off falling bank PDNA (foreclosure and charge-offs rose, `KB-134`).
 
 ## 🟡 STATE AT HANDOFF
 - **Base case HOLDS; 🟠 ELEVATED; convergence 28/45; broad CRE-to-bank transmission is not confirmed.**
-- **Trigger board:** `T-01a` FIRED (effective 11/2) · `T-01b` 16.60 [Oct], not fired · `T-02` spent · `T-03` not fired · `T-06b` fired, count 1 · `T-07` not fired · `T-08a` FIRED 9/24, +4.08 [11/06 close], not re-run 11/16 · `T-08b` NOT FIRED, graded 11/06 (leg 2 2 of 10).
-- **Counts:** VX 34 · KB **131** · PRED 15 (3 open: 002, 008, 014) · registry 11 · **cases 186** · evals v2 4/4.
+- **Trigger board:** `T-01a` FIRED (effective 11/2) · `T-01b` 16.60 [Oct], not fired · `T-02` spent · **`T-03` NOT FIRED, graded 11/25 (Q3)** · `T-06b` fired, count 1 · `T-07` not fired · `T-08a` FIRED 9/24, +4.08 [11/06 close] · `T-08b` NOT FIRED, graded 11/06.
+- **Counts:** VX 34 · KB **135** · PRED 15 (3 open: 002, 008, 014) · registry 11 · **cases 187** · evals v2 4/4.
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
 
@@ -87,8 +86,8 @@ Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea8
 
 *Closed 10/30: DAEDALUS profile-refresh items 1–7, 9–12 (record `catchups/2026-10-30.md` §③).* *Closed 10/28: #25, #27, #7 (see `catchups/2026-10-28.md`).*
 
-## 📬 MAIL STATE (11/23; canonical record `board_log.tsv`)
-- **In:** 9 items read and dispositioned (2 PROME: WQ-735, WQ-715; 5 WALTER cards 11/17 to 11/21; CORAL and REGINALD replies to the flood packets, 16:53 ET), all filed to `processed/`.
-- **Out:** TERRY (flood tradeability), CORAL, REGINALD, HOMER (info), PROME delivery memo `PROME/inbox/2026-11-23_from-CREED_florida-flood-cre-exposure.md`.
+## 📬 MAIL STATE (11/25; canonical record `board_log.tsv`)
+- **In:** 5 items read and dispositioned (REGINALD L514 inputs, CORAL DR-4956 relay, WALTER SIG-W-20261124-011/015/016), all filed to `processed/`. Re-listed empty at closeout.
+- **Out:** REGINALD (reconciliation), TERRY (no card implied), PROME delivery memo `PROME/inbox/2026-11-25_from-CREED_creed-t-03-grade-q3-qbp.md`.
 
 ## 🔵 OWED OUT — none beyond PROME's packet. A launch is needed for the next print; CREED does not self-start.

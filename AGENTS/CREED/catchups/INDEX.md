@@ -4,7 +4,8 @@
 
 | Catch-up | File | State |
 |---|---|---|
-| **2026-11-23** | `catchups/2026-11-23.md` | **CURRENT** |
+| **2026-11-25** | `catchups/2026-11-25.md` | **CURRENT** |
+| 2026-11-23 | `catchups/2026-11-23.md` | superseded |
 | 2026-11-16 | `catchups/2026-11-16.md` | superseded |
 | 2026-11-09 | `catchups/2026-11-09.md` | superseded |
 | 2026-11-06 | `catchups/2026-11-06.md` | superseded |
