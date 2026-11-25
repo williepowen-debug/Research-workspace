@@ -379,3 +379,5 @@ As of this ruling, the recorded official run remains 2 of 3 through 2026Q2. Q3 h
 - an OPEN row with no sidecar row → INCOMPLETE
 
 **New predictions get a sidecar row in the same commit that registers them.** A slipped expected event is recorded in the sidecar Notes; the date is never moved silently.
+
+**2026-11-25, WQ-512 rider wording at the 11/23 REG-T-04 fire, corrected (no level, operator, instrument or consequence moves):** the widening looks broader than CSC, but whether the three-close run survives an issuer adjustment is UNMEASURED (CATO RC24-1, accepted 11/25: the first close was 2bp over the line, and at CSC's 0.47% weight a 500bp move is 2.35bp; my +2,770bp bound tested only the last day). The fire and the REG-34, REG-37 grades stand; the rider is a disclosure, not a gate.

@@ -1,5 +1,7 @@
 # Mortgage Warehouse Line Exposure — Regional Bank Analysis
 
+> ⛔ **SUPERSEDED IN PART 2026-11-25** → `reports/2026-11-25_nonbank-mortgage-lenders/REPORT.md` §8. Do not cite: "Atlas SP $6.9B = 78% of PFSI's book" (amount at risk is collateral less advances, and four firms share that row), "transmission lands at Apollo" as sized on it, "WAL ~$9.2B". The 4/14 text below is history.
+
 **Created:** 2026-04-14 | **Trigger:** SIG-CARL-REGINALD-20260413 (non-bank servicer stress → warehouse transmission)
 **Data pull:** 2026-04-14 PM — 4 non-bank servicer 10-Ks parsed (PFSI FY2025, LDI FY2025, RITM FY2025, COOP FY2024)
 
