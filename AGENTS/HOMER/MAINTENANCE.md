@@ -64,3 +64,8 @@ Reverse-chronological log of **structural** changes: docs created/retired/moved,
 - **NEXUS_BRIEF:** superseded SENDING rows moved verbatim to `archive/NEXUS_BRIEF_rows_2026-11-25.md`.
 - **COVERAGE** refreshed (lane 1b opened) · **MEMORY** infra notes rewritten as one dated table · **OBLIGATIONS_OTHERS** B3–B6 closed, B11–B13 and the Oct-2025 FHA rule break added.
 - Docket: thesis-grade row's early-date clause corrected (A1 is 0 of 2); read-cap row updated.
+
+### 2026-11-25 (17:04 ET) — DAEDALUS structure block, steps 1 and 2 (Will 17:02 ET "ok go")
+- Step 1: CATALYSTS rows PHM, MTH, NVR re-keyed from RESOLVED to `~late Jan 2027 — PATTERN`; prior keys kept in notes. Event label Q3 to Q4-2026.
+- Step 2: servicer-watch trigger moved verbatim to `registry/SERVICER_WATCH.md` (rebuilds the original cell byte for byte, checked); row 3 keeps state and pointer, 40,229 to 28,108 B. Charter FILES row added. No class, level or route changed.
+- NOT done: step 3 (BOOT first, CLOSEOUT file, READS re-sign), 4, 5, 7 (next fresh session); step 6 HELD for Will. Source block: `AGENTS/DAEDALUS/runs/2026-11-25_HOMER_ARCHITECTURE_REVIEW_READ.md` incl. addendum.
