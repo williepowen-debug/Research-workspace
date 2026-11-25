@@ -19,7 +19,12 @@ entities: ["CoreWeave", "Meta", "Morgan Stanley", "MUFG"]
 word_count: 294
 dispatch_note: "PRIORITY. Financing leg LIQUID and BROCK; VULCAN issuer. TERRY BOARD-only. combo:BROCK/ai-financing. RED, PROME by BOARD diff."
 event_window: "open"
+status: "PARTIALLY-CORRECTED"
+status_ref: "SIG-W-20261125-035 — Coverage line WITHDRAWN (the Bloomberg story and several relays were up; WALTER's first search missed them); Quartz and MT Newswires texts read, Bloomberg still unread. WEAKENS the lender-stress reading (indications match the deal size, existing delayed-draw loans near par). Size, arrangers, timing and the 7 to 7.5% range HOLD as price talk."
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-035:** Coverage line WITHDRAWN (the Bloomberg story and several relays were up; WALTER's first search missed them); Quartz and MT Newswires texts read, Bloomberg still unread. WEAKENS the lender-stress reading (indications match the deal size, existing delayed-draw loans near par). Size, arrangers, timing and the 7 to 7.5% range HOLD as price talk.
+
 # CoreWeave (BLOOMBERG NOT READ, one relay): Morgan Stanley and MUFG prepare to sell a $4.5 billion loan backed by GPUs for a Meta project, as soon as next week, 7% to 7.5% yield, investment-grade ratings EXPECTED; up from 'at least $4 billion' in cards 20261114-009 and -010
 
 # CoreWeave Meta-contract loan: the sale date is now 'next week'
