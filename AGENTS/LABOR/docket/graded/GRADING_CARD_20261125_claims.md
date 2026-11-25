@@ -147,3 +147,30 @@ Arithmetic re-run in python at freeze: 791,000/4 = 197,750; trio 596,000; bound 
 ## §9 — GRADE (write 2026-11-25 off this frozen card — never re-read a band)
 
 *Blank until print. Order: ① regenerate the four §4 quantities on the as-published vintage · ② grade §2 · §5a · §5b · §5c · §5d separately · ③ write into `STATUS.md` (KEY THRESHOLDS, matrix v13 if band C+ or R13-a, score, calendar) · ④ `git mv` to `docket/graded/` and build the next card the same session (w/e Nov 28, Thu 12/3).*
+
+**GRADED 2026-11-25 by LABOR (PROME wake prome-77, read 09:02 ET, after the 08:30 print).** The inferred release day held: DOL published on **Wednesday, November 25, 2026** (embargo line). Source: DOL/ETA advance release PDF `https://www.dol.gov/ui/data.pdf`, fetched through the edited `scripts/fetch_primary.py` in ONE request as `research-bot/1.0` (HTTP 200, 614,495 B, sha256 `c26ef0b407589af8`); `--expect 189,000` FOUND, `--expect 1,697,000` FOUND. FRED ICSA / IC4WSA / CCSA agree (read 09:04 ET).
+
+| Print (as published 11/25) | Value |
+|---|---|
+| Initial claims, w/e Nov 21 (advance, SA) | **189,000** (−13,000 vs revised prior) |
+| w/e Nov 14 revision | 203,000 → **202,000** |
+| 4-week MA | **196,000** (−1,500 vs revised prior); prior MA revised 197,750 → 197,500 |
+| Continuing claims, w/e Nov 14 | **1,697,000** (−95,000); w/e Nov 7 revised **1,763,000 → 1,792,000** (+29,000) |
+| CC 4-week MA | 1,724,750 (+500); prior revised 1,717,000 → 1,724,250 |
+| IUR (SA) | 1.1% (w/e Nov 14); prior revised 1.1 → 1.2 |
+| NSA initial | 212,945, +15,894 (+8.1%) where the seasonal factors expected +30,549 (+15.5%); year-ago week 244,713 (`212,945 / 244,713 − 1 = −13.0%`) |
+| NSA insured unemployment | 1,562,814, −5,578 where the factors expected +82,453; year-ago 1,781,543 |
+
+**① Four quantities regenerated on the as-published vintage.** `R` (w/e Oct 24) did not revise: revised prior MA `197,500 × 4 = 790,000 = 195,000 + 191,000 + 202,000 + 202,000` ✅. (i) **`ΔMA = (189,000 − 195,000)/4 = −1,500`** = DOL's published "−1,500 from the previous week's revised average" exactly. (ii) `MA_next` on the revised trio `191,000 + 202,000 + 202,000 = 595,000`: `(595,000 + 189,000)/4 = 784,000/4 = 196,000` = DOL. (iii) T-01 bound re-solved on the revised trio: `X > 1,000,000 − 595,000 = 405,000`. (iv) R13-c minimum: published 4-week MA over the 52 weeks before w/e Nov 21 on FRED IC4WSA (current vintage, read 09:04 ET) = **195,250 (w/e Oct 31)**, unchanged.
+
+**② Grades, each axis separately:**
+- **§2: band B** (186,000 – 229,000) ⇒ **NO ACTION.** Not band A: `189,000 − 185,000 = 4,000` above the Kill B edge ⇒ Kill B stays **0 of 5**.
+- **§5a: T01-a** (`189,000 ≤ 405,000`) ⇒ T-01 does not fire. MA 196,000 is `250,000 − 196,000 = 54,000` below.
+- **§5b: V13-a** (`189,000 ≤ 199,000`) ⇒ the `<200,000` run **restarts at 1** (trailing week w/e Nov 14 revised 202,000 is not `<200,000`). Record only; no score change.
+- **§5c: CC-1** (`1,697,000 < 1,750,000`) ⇒ the CC run **restarts at 1** (trailing w/e Nov 7 revised to 1,792,000 is above the line). Record only; no score change.
+- **§5d: R13-b** — `rel = 196,000 / 195,250 = 1.0038 < 1.15` ⇒ no action.
+- **§6:** LAB-22 draw 3 of 8 = 189,000, not ≤185,000 and not the 186,000 no-verdict value ⇒ **no**; graded on its own row.
+
+**Reading rule applied (§3):** the MA fell 1,500 because a print below `R` replaced the 195,000 week; that is mechanical, stated from DOL's published move. **Holiday week (§4):** graded as printed. On the record and attributed to nothing: the SA fall came with NSA claims rising 15,894 where the factors expected +30,549, and the CC fall of 95,000 SA came with NSA −5,578 where the factors expected +82,453, the reverse of last week's +70,000 gap; w/e Nov 7 CC itself revised up 29,000 to 1,792,000.
+
+**③ Written to STATUS 2026-11-25** (KEY THRESHOLDS claims and CC rows, matrix v13 and v7 record cells, Kill B, calendar). No score moves; total stays 22/80. **Routing (§7): bands A/B ⇒ STATUS only.** **④** `git mv` to `docket/graded/` this session; next card `docket/GRADING_CARD_20261203_claims.md` (w/e Nov 28, Thu 12/3) built the same session.
