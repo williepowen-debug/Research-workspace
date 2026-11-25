@@ -1,15 +1,16 @@
-# BROCK SCRATCH — 2026-11-23 handoff (prome-77 due-row wake, laptop)
+# BROCK SCRATCH — 2026-11-24 handoff (prome-77 due-row wake, one day late after the fleet outage)
 
-Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-23.md`. New KB rows today: KB-BRK-521 to 525.
+Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-24.md`. New KB rows today: KB-BRK-526 to 530.
 
-**Done today:** D:L1202 backstop #10 FINAL EMPTY. D:L1201 (STD Sun 11/22) NOT GRADED: feed silent 11/19 08:01 to 11/23 12:09 ET. Inbox 13/13 (WALTER 11, NEXUS, TERRY). TERRY thesis-grade packet sent; OTTO told. PUBLISHED.tsv refreshed (CCC/BB 6.12 [11/20]). Correction COR-20261119-20 NO-OP receipt. No push (PROME pushes).
+**Done today:** D:L1232 GRADED: Car-Mart filed a prepackaged Chapter 11 on 11/24 (8-K 0001171843-26-007671, 08:23:23 ET). BRK-33 RESOLVED TRUE, and the scoreboard was re-scored (0.267, n=18). D:L1071 IREN AGM: nothing to grade. Inbox 11/11. Corrections: 3 receipted. Packets went to OTTO, TERRY, REGINALD and PROME. No push (PROME pushes).
 
 **Next moves:**
-1. **Tue 11/24 ~08:00-09:30 ET:** CRMT feed from 11/19 08:01 ET, every form incl. 1.03, 2.04, 3.01; use the submissions JSON and the INDEX acceptance time. A bridge grades D:L1201; read the date of agreement (Mon 11/23 vs Sun 11/22) and the new STD. Prefix CATALYSTS row for 11/24.
-2. Backstop #11 Wed 11/25 (OTHER agreement dated ≤11/19), final Mon 11/30. 1.01 deadline Fri 11/27 for agreements dated 11/20 to 11/22, read Mon 11/30. Forward view (unscored): bridge ~60% / lapse-silent ~20% / decisive event ~20%; BRK-33 35%.
-3. W3 grades 11/30: CCC/BB at 6.12 is 0.19 from its ≤5.93 line on a SELLOFF. A ≤5.93 print is not a reversal (KB-BRK-439/522). BRK-32 due 11/30. Monroe Q4 final ~12/04-12/07 and BCRED Q4 letter ~12/03-12/07: either sub-100% = third R2 (a) fire. Review 12/07. CABO coupon by ~12/16.
+1. **Mon 11/30 to Thu 12/3 (CRMT):** the $25.0M escrow (about 11/30), the Nasdaq 3.01 (about 12/1), and the rollover-debt documents (12/3, APA termination right E). Read the full EDGAR feed incl. any 8-K/A carrying the APA exhibit and its rollover term sheet: who holds the new debt, and how much of the $311.6M rolls. Successor DOCKET rows were asked of PROME.
+2. **~12/10:** the CRMT 10/31 10-Q (or NT 10-Q) gives the ABS notes outstanding; OTTO needs it. **~12/15** bidding-procedures order; **~12/29** sale order.
+3. W3 grades 11/30. CCC/BB is 6.33 [11/23], and a ≤5.93 print is not a reversal (KB-BRK-439). BRK-32 is due 11/30. The Monroe Q4 final and the BCRED Q4 letter are expected ~12/03-12/07: a sub-100% at either is a third R2 (a) fire. R2 review 12/07. CABO coupon by ~12/16. IREN reads 12/28 and 12/31.
 
 **Thread notes:**
-- Unverified headlines in KB-BRK-520/523/525 (Nvidia guarantees contingent; Kress "far more selective"; SpaceX lenders; Barings BDC downgrade; Delaware/Walter insurers): read at primary before any grades anything.
-- Carried, not reached: ACM Auto Trust noteholders; BCRED facility maturities; CCLFX 9/30 semiannual; Monroe Q1 share-count mismatch; ADS Q3 10-Q passes; GLAD FY26 10-K NA/NAV passes; WQ-678 B trims C48–C54, C56–C58 deferred; VULCAN Q3 (MUFG buyer) and Q5 (Malaysia lenders).
-- Commit by NAMED paths only (other desks commit in this checkout). Quartr: never call. Type no clock: take it from `date`.
+- Unverified: the SpaceX GPU notes facts in KB-BRK-530 are WALTER's read, not mine. Read the Apollo and KBRA releases at primary before they grade anything (VULCAN asks).
+- The CRMT docket (Omni, omniagentsolutions.com/ACM) is not read. The servicing motion is where the ACMAT servicer-termination question shows.
+- Carried, not reached: ACM Auto Trust noteholders; BCRED facility maturities; CCLFX 9/30 semiannual; Monroe Q1 share-count mismatch; ADS Q3 10-Q passes; GLAD FY26 10-K NA/NAV passes; WQ-678 B trims C48–C54 and C56–C58 deferred; VULCAN Q3 (MUFG buyer) and Q5 (Malaysia lenders).
+- Commit by NAMED paths only (other desks commit in this checkout). Quartr: never call. Do not type a clock; take it from `date`. iren.gcs-web.com returns 403 to automation: do not retry it.
