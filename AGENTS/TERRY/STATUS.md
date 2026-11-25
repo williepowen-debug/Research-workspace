@@ -1,5 +1,11 @@
 # TERRY STATUS
 
+> ## ★ CURRENT STATE — 2026-11-24 22:43–23:0x EST (PROME prome-77 on Will's word 22:43 ET, D:L1252) · TERRY, Claude Code, Claude Opus 5.5, laptop. **NO ORDER. $0. No new card.** Note `research/2026-11-24_reg-t-04-fired-tradeability/NOTE.md` §1–4; delivery c91c3beab8.
+> - **REG-T-04 FIRED** (HY first-published 352 / 376 / 363 [11/19, 11/20, 11/23], FRED verified 22:45 EST; 11/24 unposted). **NO NEW CARD:** `IDEA-HYG-FOLLOW-NOV05` is the expression (×5, ≤ $0.60, max loss $306.50, window to 12/04, void 0 of 5, fill UNKNOWN; after-hours mid $0.56). A revived 77/74 ×4 = $711.70 on one view: declined, shown as Will's choice. VIX Dec-16 30/40C NOT-FIRED (HY ≥ 370 unmet). Bank leg NO CARD. `TRY-NOTRADE-REGT04-NOV24`.
+> - **Car-Mart NO CARD** ($0.33 [11/24], 0 option expiries). `TRY-NOTRADE-CRMT-NOV24`.
+> - **WQ-730 done:** stage two RETIRED on `PAPER_BOOK_DESIGN.md`; `paper_book_mark.py` stops printing its counters (selftest PASS).
+> - **Inbox 15 of 15 drained** (every sender; FL flood ×4 with CORAL's correction, AEOLUS ×3, HANS, VULCAN, HOMER 11/24): NO CARD each, `TRY-NOTRADE-DRAIN-NOV24`. Re-read triggers: LIQUID's issuance return; an HY cell ≥ 370 (VIX leg) or ≥ 390 with CCC leading (second credit card).
+>
 > ## ★ CURRENT STATE — 2026-11-23 12:05–12:2x EST (PROME prome-77 task letter 6df81509fa, Will's rulings of 11/23) · TERRY, Claude Code, Claude Opus 5.5, laptop. **NO ORDER. $0. No card.** Note `research/2026-11-23_will-rulings-paper-book-print/NOTE.md` §1–5.
 > - **WQ-724 `IDEA-QQQ-CAPIT-NOV20`: CLOSED — DECLINED** (Will 11/23 12:03 ET). Never filled, $0. It could not have entered today on its own terms: HY 376 [11/20] > 350; QQQ $651.07 +7.00%, green and above $635 (12:09 EST). Recorded on card, INDEX, SETUPS, TRADE_BOOK, CARD_LEDGER.
 > - **Paper book stage two (WQ-730), corrected:** PB-0002 is one fill, $346.90 (30 ct); its split rows repeat the 25-ct lot's $289.08, so Will's $2,128.76 counts that lot three times. PB-0001 and PB-0002 are one card (TRY-FIRE-004, $500 cap), so the card is charged once, $495. **Calendar months: July $1,204.70 (80% of $1,500), Sep $632, Nov $845, Aug and Oct $0. The budget did not bind in July** (over only if 004 is charged twice: $1,551.60). Conditions: six-in-90 met on the counter only (7/6; honest peak 5); four cards a month never (peak 3); outlay over tranche never. **Rec unchanged: retire the gate, do not activate.** Counter first read 6 on 10/23 (11/22 note corrected).
@@ -10,13 +16,7 @@
 > - **Carried projection (11/21, unscored):** SPY realised vol to 12/4 under the ~36% then priced, about 65%. Since then implied fell to about 26%, and 10-day realised (incl. today) is 35.6%.
 > - **Inbox:** 8 of 8 drained and filed (MIDAS's packet filed after MIDAS committed it, 9dbca95550). **BOARD scan run, 3 new since SIG-W-20261121-004, 1 logged** (-001 Nvidia 8-K reinstating Huang as CEO, the cause of today's +33%: NO CARD, chase; SEC inquiry still open).
 >
-> ## ★ CURRENT STATE — 2026-11-22 04:06 and 16:47 EST (PROME prome-77 task letter e03240da10, Will's WQ-727 item 3; network drop between) · TERRY, Claude Code, Claude Opus 5.5, laptop. **NO ORDER. $0. No card.** Note `research/2026-11-22_paper-book-card-ledger-hyg/NOTE.md` §1–4.
-> - **CARD_LEDGER.tsv:** 8 term columns added; as-written entry, size, exit, costs, research trigger and X1 text for the 17 lapsed / void / shelved / retired-unfired cards (card @ first commit; UNKNOWN where unwritten; nothing reconstructed). Queue rows found: REFINER WQ-213 (approval 9/10, corrected from 8/27, PB-0007 noted), WAL-ROLL70 WQ-144, MRNA WQ-498 (corrected: lapsed, no ruling). FIRE-004 and VIXCS predate WILL_QUEUE; USOARM row SEARCH-NOT-FOUND. WAL close and second QQQ 690P close bounded by capture dates, prices UNKNOWN.
-> - **Phase-2 gate:** counter reads 7/6 TRIPPED today (6 from 12/2); honest would-fire count 4 to 5 (PB-0008a/b one trade split in two; PB-0008 not a would-fire; PB-0007 contestable). ~~Busiest week $845 against the $1,500 paper salary: it never binds.~~ *(11/23: figures restated on matching periods, PB-0002's exclusion now explained; see the 11/23 block.)* **Rec to Will via PROME: retire the gate, do not activate.** Decision row is PROME's to register.
-> - **IDEA-HYG-FOLLOW-NOV05:** *(11/23: the approval fact now stands beside this one; see the 11/23 block.)* no fill evidenced (Fidelity 11/10, 11/18; Robinhood 11/10); placed UNKNOWN; reason UNRESOLVED (not a missed message: Will ruled WQ-663 on this card 11/9). Record only, no prompt.
-> - Carried unchanged from 11/21 (block since rotated to `archive/STATUS_ARCHIVE_2026-11-23.md`): WQ-724 with Will (declined 11/23); owner grades 5 of 12 (7 of 12 on 11/23); Monday watch (read 11/23).
-> - **CLOSEOUT 16:5x EST (PROME's launch brief asked for it):** delivery dbe08ab5d2. Ledger sweep A–H CLEAN; read-cap rc 0; claim check clean; orphan check clean (PROME's two state files are not TERRY's). **BOARD scan run, 3 new since SIG-W-20261121-001, 0 logged** (002 to 004 carry no TERRY action line). Consumer check N/A (no threshold or band superseded). Inbox 0. Not pushed (PROME pushes). No timer, helper or background process running.
->
+> ## ⤵️ **2026-11-22 CURRENT STATE block ROTATED 2026-11-24 → `archive/STATUS_ARCHIVE_2026-11-24.md`** (pre-rotation lines 13–18, crc32 `84c85f1a`, 2,219 B — verbatim, contiguous, body only). ⛔ No live state moved: every live leg is in the 2026-11-23 or 2026-11-24 block, on its card or in its ledger.
 > ## ⤵️ **2026-11-21 CURRENT STATE block ROTATED 2026-11-23 → `archive/STATUS_ARCHIVE_2026-11-23.md`** (pre-rotation lines 10–21, crc32 `58af0efe`, 3,437 B — verbatim, contiguous, body only). ⛔ No live state moved: every live leg is in the 2026-11-23 block, on its card or in its ledger.
 > ## ⤵️ **2026-11-20 CURRENT STATE block ROTATED 2026-11-21 → `archive/STATUS_ARCHIVE_2026-11-21.md`** (pre-rotation lines 3–16, crc32 `90ad78ab`, 3,604 B — verbatim, contiguous, body only). ⛔ No live state moved: every live leg is in the 2026-11-21 block or on its card.
 > ## ⤵️ **2026-11-18 CURRENT STATE block ROTATED 2026-11-20 → `archive/STATUS_ARCHIVE_2026-11-20.md`** (pre-rotation lines 3–14, crc32 `8713ba31`, 6,048 B — verbatim, contiguous, body only). ⛔ No live state moved: every live leg is in the 2026-11-20 block or on its card.
@@ -74,6 +74,7 @@
 >
 > | block | rotated | archive file | pre-rot lines | bytes | crc32 |
 > |---|---|---|---|---:|---|
+> | **2026-11-22 04:06 + 16:47 CURRENT STATE** | 2026-11-24 | `archive/STATUS_ARCHIVE_2026-11-24.md` | 13–18 | 2,219 | `84c85f1a` |
 > | **2026-11-21 18:15 CURRENT STATE** | 2026-11-23 | `archive/STATUS_ARCHIVE_2026-11-23.md` | 10–21 | 3,437 | `58af0efe` |
 > | **2026-11-11 09:37 CURRENT STATE** | 2026-11-12 | `archive/STATUS_ARCHIVE_2026-11-12.md` | 8–18 | 4,337 | `42702f2c` |
 > | **2026-11-10 ×4 (19:33 · 18:06 · 11:43 · 10:12)** | 2026-11-11 | `archive/STATUS_ARCHIVE_2026-11-11b.md` | 14–32 | 7,091 | `779c1320` |

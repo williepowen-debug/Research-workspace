@@ -1,0 +1,16 @@
+# TERRY STATUS ARCHIVE — rotated 2026-11-24
+
+FROZEN 2026-11-24 — not maintained; STATUS is canonical, do not cite rows as current.
+
+**Rotated block:** `STATUS.md` 2026-11-22 04:06 and 16:47 EST CURRENT STATE block, pre-rotation lines 13–18, 2,219 B, crc32 `84c85f1a` (body only, first line through last, no trailing newline). Verbatim, contiguous. Rotated by TERRY (terry-desk-agent-2026-11-24) because the 2026-11-24 write-back would take STATUS past 75% of the 32,550 B read-cap.
+
+**No live state moved.** Legs of the block and where each still lives: CARD_LEDGER term columns → `CARD_LEDGER.tsv` and `research/2026-11-22_paper-book-card-ledger-hyg/NOTE.md`; the Phase-2 gate recommendation → RULED, WQ-730 retire (Will 11/23), now marked on `PAPER_BOOK_DESIGN.md`; IDEA-HYG-FOLLOW-NOV05 fill/approval facts → the 2026-11-23 and 2026-11-24 STATUS blocks, the card, SETUPS, INDEX, `PROME/GATES.tsv`; WQ-724 → CLOSED, card and INDEX; closeout receipt → git history (delivery dbe08ab5d2).
+
+---
+
+> ## ★ CURRENT STATE — 2026-11-22 04:06 and 16:47 EST (PROME prome-77 task letter e03240da10, Will's WQ-727 item 3; network drop between) · TERRY, Claude Code, Claude Opus 5.5, laptop. **NO ORDER. $0. No card.** Note `research/2026-11-22_paper-book-card-ledger-hyg/NOTE.md` §1–4.
+> - **CARD_LEDGER.tsv:** 8 term columns added; as-written entry, size, exit, costs, research trigger and X1 text for the 17 lapsed / void / shelved / retired-unfired cards (card @ first commit; UNKNOWN where unwritten; nothing reconstructed). Queue rows found: REFINER WQ-213 (approval 9/10, corrected from 8/27, PB-0007 noted), WAL-ROLL70 WQ-144, MRNA WQ-498 (corrected: lapsed, no ruling). FIRE-004 and VIXCS predate WILL_QUEUE; USOARM row SEARCH-NOT-FOUND. WAL close and second QQQ 690P close bounded by capture dates, prices UNKNOWN.
+> - **Phase-2 gate:** counter reads 7/6 TRIPPED today (6 from 12/2); honest would-fire count 4 to 5 (PB-0008a/b one trade split in two; PB-0008 not a would-fire; PB-0007 contestable). ~~Busiest week $845 against the $1,500 paper salary: it never binds.~~ *(11/23: figures restated on matching periods, PB-0002's exclusion now explained; see the 11/23 block.)* **Rec to Will via PROME: retire the gate, do not activate.** Decision row is PROME's to register.
+> - **IDEA-HYG-FOLLOW-NOV05:** *(11/23: the approval fact now stands beside this one; see the 11/23 block.)* no fill evidenced (Fidelity 11/10, 11/18; Robinhood 11/10); placed UNKNOWN; reason UNRESOLVED (not a missed message: Will ruled WQ-663 on this card 11/9). Record only, no prompt.
+> - Carried unchanged from 11/21 (block since rotated to `archive/STATUS_ARCHIVE_2026-11-23.md`): WQ-724 with Will (declined 11/23); owner grades 5 of 12 (7 of 12 on 11/23); Monday watch (read 11/23).
+> - **CLOSEOUT 16:5x EST (PROME's launch brief asked for it):** delivery dbe08ab5d2. Ledger sweep A–H CLEAN; read-cap rc 0; claim check clean; orphan check clean (PROME's two state files are not TERRY's). **BOARD scan run, 3 new since SIG-W-20261121-001, 0 logged** (002 to 004 carry no TERRY action line). Consumer check N/A (no threshold or band superseded). Inbox 0. Not pushed (PROME pushes). No timer, helper or background process running.

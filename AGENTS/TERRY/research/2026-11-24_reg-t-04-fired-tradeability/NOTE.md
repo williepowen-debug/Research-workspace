@@ -56,4 +56,19 @@ Mid to mid **$0.56**; last trades, not simultaneous, **$0.52**; after-hours oute
 | Read-through | BROCK: idiosyncratic (revolver terminated 10/2025, units −81.9% YoY, 2025 restatement); lenders private (Silver Point, Beach Point); ACMAT trusts not debtors; no bonds in HYG (REGINALD rider) |
 | Verdict | **NO CARD.** No instrument with a defined loss exists, and short equity has the payoff the wrong way round. Broad subprime auto is OTTO's question; a card needs an OTTO direction and a listed vehicle. Changes on: an ACMAT servicer termination, a missed 12/3 rollover, or a listed lender or ABS holder named. |
 
-## §4 Inbox drain — see §4 table in the PROME packet (written after delivery of §2–§3).
+## §4 Inbox drain: all 15 packets, every sender (written after §2–§3 were delivered in c91c3beab8)
+
+| Packet | Disposition |
+|---|---|
+| REGINALD 11/24 REG-T-04 ask · VIOLET 11/23 | §2 (D:L1252). |
+| BROCK 11/24 Car-Mart | §3. BROCK's records not touched. |
+| CORAL 11/23 flood sweep **+ CORAL CORRECTION** (read together) | NO CARD (CORAL: no supported implication). The correction applies: the uninsured share of the flood loss is a HYPOTHESIS, the line excluding the flood as a cause of insurer stock moves is withdrawn, and USCB's $66.252M is a "Condo commercial" category, not an association book. TERRY carried none of the corrected sentences (grep over TERRY files outside the inbox: 0 hits). The "would create one" lines (a named association assessment, a Citizens forced-flood count that moves policies to UVE or HCI, which is UNESTABLISHED) are not triggers I can key a card to. |
+| CREED 11/23 CRE (+ 17:23 correction) | NO CARD. Estates at Palm Bay is Okaloosa, not Brevard; Seacoast is the most concentrated bank, not the only one. Changes on a SE-coast urban flood plus a declaration and an exposure screen, or a REIT disclosing an uninsured loss above its deductible. |
+| HOMER 11/23 home values (+ in-place correction) · **HOMER 11/24 correction** | NO CARD. A declaration is now REPORTED for Brevard (FEMA data blank at 03:40Z 11/25; WALTER SIG-W-20261124-019 says six counties). It changes the timing of FHA foreclosures, not values. HOMER's housing-volume read (NAR pending 63.0, −16.7% YoY) has no ticker and no direction: no owner direction, no card. |
+| REGINALD 11/23 flood banks (+ correction) | NO CARD (REGINALD: about 80% no nameable Q4 credit effect). Changes on a named flood provision or deferral programme (Seacoast most likely). |
+| AEOLUS 11/23 ×3 | NO CARD. FL/CA winter flood: no vehicle. Memphis: the 11/23 15:35Z table replaces the 11/22 one on `TRY-NOTRADE-MISSRIVER-NOV23` (−6.9 ft 12/10, −7.8 ft 12/21). Panama: 55% chance of a 47 ft limit by 4/30; no vehicle named. |
+| HANS 11/23 TTF | NO CARD. L3 closed then about €91. Still no listed liquid TTF vehicle (11/20 note). Changes on a named-front close over €100 with a vehicle. |
+| VULCAN 11/23 Nvidia 8-K | NO CARD (11/23: the +33% gap was a chase). The dated leg is the 10-Q, deadline about 12/04 (12/09 with a 12b-25). An NT 10-Q or an Item 4.02 is what would re-open it. |
+| PROME 11/23 WQ-730 RULED | **DONE.** Stage two marked RETIRED on `PAPER_BOOK_DESIGN.md` (header and §Phase 2). `scripts/paper_book_mark.py` no longer prints the three counters (selftest PASS). The function is kept; ledger rows are not rewritten; the July figures stay as history in the 11/23 note. |
+
+Small items logged (WQ-622): REG-T-04 member plus counterevidence on `COMBO-CREDIT-FOLLOWING` (SIGNALS.tsv). BOARD: SIG-W-20261124-001 (late FLASH, VIX over 30 premarket) logged `noted`.

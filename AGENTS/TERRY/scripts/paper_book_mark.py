@@ -551,13 +551,10 @@ def run(args):
     for pid, struct, note in problems:
         print(f"  ⚠ UNMARKED {pid} {struct} — {note} (prior mark kept, not fabricated)")
 
-    gate, raw_rows = would_fire_90d(rows, today)
-    if gate >= PHASE2_GATE_COUNT:
-        gate_msg = "— ★ GATE TRIPPED: Phase-2 salaried-desk trigger met (PAPER_BOOK_DESIGN.md §Phase 2 — confirm salary tranche w/ Will)"
-    else:
-        gate_msg = "(un-tripped; Phase 1 shadow-only)"
-    dup_note = f" [{raw_rows} rows; splits/twins dedup to events]" if raw_rows != gate else ""
-    print(f"\nPhase-2 volume gate: would-fire (90d) {gate}/{PHASE2_GATE_COUNT} distinct events{dup_note} {gate_msg}")
+    # Phase-2 (salaried desk) RETIRED 2026-11-23, WQ-730 (Will 14:14 ET "WQ-730: retire";
+    # record PROME/proposals/2026-11-23_wq730-736-737-RULED.md). Its three counters are no
+    # longer reported. would_fire_90d() is kept (selftest + history), not printed.
+    print("\nPhase-2 salaried desk: RETIRED 2026-11-23 (WQ-730); counters not reported. Phase 1 unchanged.")
     print_scoring_gate(rows)
 
     if args.dry_run:
