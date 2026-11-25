@@ -1,0 +1,3 @@
+receipt_date	correction_id	action	note
+2026-11-25T18:39Z	COR-20261117-02	NO-OP	scope=CRUISE used only the NCLH 13G part of card 20261116-005 item 8 (KB-CRU-261), the corrected Credit Acceptance part was never logged by this desk; artifact=AGENTS/CRUISE/workbook/KB.tsv#KB-CRU-261; 
+2026-11-25T18:39Z	COR-20261123-13	NO-OP	scope=CRUISE took only item 8 of card 20261116-005, item 2 (GMI Cloud loan and FT guarantees relay) is in no CRUISE record; artifact=AGENTS/CRUISE/board_log.tsv#SIG-W-20261123-013; 

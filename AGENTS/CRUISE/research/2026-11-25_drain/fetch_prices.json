@@ -1,0 +1,281 @@
+{
+  "CCL": {
+    "name": "CCL",
+    "days": 8,
+    "history": [
+      {
+        "date": "2026-11-16",
+        "close": 29.03,
+        "volume": 17810400
+      },
+      {
+        "date": "2026-11-17",
+        "close": 28.16,
+        "volume": 18272900
+      },
+      {
+        "date": "2026-11-18",
+        "close": 28.97,
+        "volume": 12880900
+      },
+      {
+        "date": "2026-11-19",
+        "close": 27.57,
+        "volume": 15922000
+      },
+      {
+        "date": "2026-11-20",
+        "close": 26.59,
+        "volume": 17394600
+      },
+      {
+        "date": "2026-11-23",
+        "close": 27.91,
+        "volume": 15534900
+      },
+      {
+        "date": "2026-11-24",
+        "close": 28.4,
+        "volume": 11974100
+      },
+      {
+        "date": "2026-11-25",
+        "close": 28.13,
+        "volume": 8058863
+      }
+    ],
+    "high": 29.03,
+    "low": 26.59,
+    "start": 29.03,
+    "end": 28.13,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -3.1
+  },
+  "RCL": {
+    "name": "RCL",
+    "days": 8,
+    "history": [
+      {
+        "date": "2026-11-16",
+        "close": 317.82,
+        "volume": 1292100
+      },
+      {
+        "date": "2026-11-17",
+        "close": 307.39,
+        "volume": 1627200
+      },
+      {
+        "date": "2026-11-18",
+        "close": 320.65,
+        "volume": 1822900
+      },
+      {
+        "date": "2026-11-19",
+        "close": 303.15,
+        "volume": 1547300
+      },
+      {
+        "date": "2026-11-20",
+        "close": 296.48,
+        "volume": 2767100
+      },
+      {
+        "date": "2026-11-23",
+        "close": 307.14,
+        "volume": 1270300
+      },
+      {
+        "date": "2026-11-24",
+        "close": 318.27,
+        "volume": 2754600
+      },
+      {
+        "date": "2026-11-25",
+        "close": 316.35,
+        "volume": 500156
+      }
+    ],
+    "high": 320.65,
+    "low": 296.48,
+    "start": 317.82,
+    "end": 316.35,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -0.46
+  },
+  "NCLH": {
+    "name": "NCLH",
+    "days": 8,
+    "history": [
+      {
+        "date": "2026-11-16",
+        "close": 17.9,
+        "volume": 16365100
+      },
+      {
+        "date": "2026-11-17",
+        "close": 17.61,
+        "volume": 17417100
+      },
+      {
+        "date": "2026-11-18",
+        "close": 17.99,
+        "volume": 15184800
+      },
+      {
+        "date": "2026-11-19",
+        "close": 17.07,
+        "volume": 22391500
+      },
+      {
+        "date": "2026-11-20",
+        "close": 15.99,
+        "volume": 17369100
+      },
+      {
+        "date": "2026-11-23",
+        "close": 16.99,
+        "volume": 16362400
+      },
+      {
+        "date": "2026-11-24",
+        "close": 17.1,
+        "volume": 13522800
+      },
+      {
+        "date": "2026-11-25",
+        "close": 17.15,
+        "volume": 6312685
+      }
+    ],
+    "high": 17.99,
+    "low": 15.99,
+    "start": 17.9,
+    "end": 17.15,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -4.19
+  },
+  "SPY": {
+    "name": "SPY",
+    "days": 8,
+    "history": [
+      {
+        "date": "2026-11-16",
+        "close": 739.95,
+        "volume": 69207300
+      },
+      {
+        "date": "2026-11-17",
+        "close": 732.44,
+        "volume": 71636300
+      },
+      {
+        "date": "2026-11-18",
+        "close": 730.2,
+        "volume": 51804800
+      },
+      {
+        "date": "2026-11-19",
+        "close": 715.87,
+        "volume": 76702600
+      },
+      {
+        "date": "2026-11-20",
+        "close": 689.81,
+        "volume": 151413300
+      },
+      {
+        "date": "2026-11-23",
+        "close": 722.29,
+        "volume": 88283800
+      },
+      {
+        "date": "2026-11-24",
+        "close": 718.78,
+        "volume": 64228000
+      },
+      {
+        "date": "2026-11-25",
+        "close": 714.67,
+        "volume": 43367229
+      }
+    ],
+    "high": 739.95,
+    "low": 689.81,
+    "start": 739.95,
+    "end": 714.67,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -3.42
+  },
+  "RSP": {
+    "name": "RSP",
+    "days": 8,
+    "history": [
+      {
+        "date": "2026-11-16",
+        "close": 218.93,
+        "volume": 10102000
+      },
+      {
+        "date": "2026-11-17",
+        "close": 215.76,
+        "volume": 12146500
+      },
+      {
+        "date": "2026-11-18",
+        "close": 215.43,
+        "volume": 12032300
+      },
+      {
+        "date": "2026-11-19",
+        "close": 211.63,
+        "volume": 14241300
+      },
+      {
+        "date": "2026-11-20",
+        "close": 207.44,
+        "volume": 16833100
+      },
+      {
+        "date": "2026-11-23",
+        "close": 212.82,
+        "volume": 12679600
+      },
+      {
+        "date": "2026-11-24",
+        "close": 213.96,
+        "volume": 10962600
+      },
+      {
+        "date": "2026-11-25",
+        "close": 215.85,
+        "volume": 9225322
+      }
+    ],
+    "high": 218.93,
+    "low": 207.44,
+    "start": 218.93,
+    "end": 215.85,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -1.41
+  },
+  "BZF26.NYM": {
+    "error": "no data",
+    "name": "BZF26.NYM"
+  }
+}

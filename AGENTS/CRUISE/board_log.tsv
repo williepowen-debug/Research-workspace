@@ -56,3 +56,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-17T13:40:38Z	SIG-W-20261114-008	noted	INBOX_WALTER	Update to -001: cause bad equipment or copper-line error, >16,000 cancellations Fri-Sat; folded into KB-CRU-259
 2026-11-17T13:40:38Z	SIG-W-20261114-011	info-only	INBOX_WALTER	Only CRUISE item is the New Orleans collision, duplicate of -006 item 10 (KB-CRU-260)
 2026-11-17T13:40:38Z	SIG-W-20261116-005	noted	INBOX_WALTER	Item 8 NCLH $447M stake verified at primary: Ameriprise/Columbia 13G 5.5% at 9/30, passive; KB-CRU-261
+2026-11-25T18:39:36Z	SIG-W-20261117-006	noted	INBOX_WALTER	Item 10 Elliott NCLH stake verified at the 13F: 17.686M shares at 9/30 vs 14.686M at 6/30; KB-CRU-266 combo:cruise-holder-flows; other items not CRUISE
+2026-11-25T18:39:36Z	SIG-W-20261118-010	noted	INBOX_WALTER	HY OAS 343 bp 11/17, LIQUID >320 x3 MET; NCLH is a B-tier issuer, no NCLH spread measured; moves no score; KB-CRU-267 combo:cruise-credit
+2026-11-25T18:39:36Z	SIG-W-20261123-008	noted	INBOX_WALTER	Item 13 Disney Treasure turn-back to Port Canaveral 11/22, scanner post, unverified, not Big-3; KB-CRU-268 combo:cruise-incidents; other items not CRUISE
+2026-11-25T18:39:36Z	SIG-W-20261123-013	info-only	INBOX_WALTER	Correction of 20261116-005 item 2 (GPU loans); CRUISE took only item 8 (NCLH 13G, KB-CRU-261); no CRUISE record affected; COR-20261123-13 receipted NO-OP
+2026-11-25T18:39:36Z	COR-20261117-02	noted	MANUAL	Correction of 20261116-005 item 8 Credit Acceptance part; CRUISE used only the NCLH part of item 8 (KB-CRU-261); receipted NO-OP

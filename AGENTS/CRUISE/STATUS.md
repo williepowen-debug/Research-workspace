@@ -1,6 +1,17 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-11-17 08:4x ET** — due-row wake (PROME prome-19, L715). L715 graded NOT SPRUNG, provisional; inbox drained; 28 stale KB rows retired, 1 refreshed. Desk total 9/20, unchanged.*
+*Last updated: **2026-11-25 13:4x ET** — aged-inbox drain (PROME prome-77, WQ-206 class, drain only). Four WALTER cards logged, two corrections receipted NO-OP, WQ-670 A verified, nine due KB rows dispositioned. Carnival touched ORANGE on the 11/20 close only; desk total 9/20 at the latest close.*
+
+## November 25 — aged-inbox drain (no score moved at the latest close)
+
+| Item | Result | Consequence / limit |
+|---|---|---|
+| **Carnival band (`VX-CRU-01`)** | Raw closes vs $33.99: 11/19 $27.57 (−18.89%), **11/20 $26.59 (−21.77%) ORANGE(3)**, 11/23 $27.91 (−17.89%), 11/24 **$28.40 (−16.45%) YELLOW(2)** | ORANGE for one close, a market day (CCL −3.55%, S&P ETF −3.64%, equal-weight ETF −1.98%). State at latest close YELLOW(2), desk 9/20 (10/20 on 11/20 only). 11/24 close is 4.44% above the ORANGE line $27.192. KB-CRU-264 |
+| **Norwegian revolver (L715)** | Reversal window closed Mon 11/23: EDGAR lists no NCLH 8-K 11/14–11/25 (only the 11/16 13G) | NOT SPRUNG stands, provisional until the FY26 10-K (L1074). Press pages not read, so CONDITIONAL. KB-CRU-265 |
+| **Elliott in Norwegian** | 13F-HR (filed 11/16): **17,686,000 shares at 9/30**, up from 14,686,000 at 6/30 (+20.4%), $259.3M | About 3.9% of the class in common stock; the February "above 10%" press figure likely includes swaps a 13F does not show. Holder flow, no business read. KB-CRU-266 |
+| **High-yield spread** | HY OAS 343 bp 11/17, B tier 368 bp (LIQUID's >320 rule MET) | Norwegian is a B-tier issuer; no Norwegian bond spread measured; moves no score. KB-CRU-267 |
+| **Inbox and records** | 4 WALTER cards (KB-CRU-266..268, one not CRUISE's); COR-20261117-02 and COR-20261123-13 receipted NO-OP; WQ-670 A verified as encoded; 8 KB rows past Stale_By retired, 1 re-dated | KB-CRU-269, `inbox/RECEIPT.md`, `research/2026-11-25_drain/` |
+| **Trade read** | No new investment implication: a one-close market-driven ORANGE on a name with no trade path (CCL retired, WQ-427) and an activist adding in Q3 do not change the Norwegian WATCH 2 read | No TERRY packet |
 
 ## November 17 — Norwegian revolver test (L715) graded
 
@@ -42,18 +53,7 @@ Full read: `research/2026-11-11_catchup/RESULT.md`. Ladder memo archived (CADENC
 | **Deposit gap history** | −13.30pp (3/31/26), −13.64pp (6/30/26), **−5.59pp** (9/30/26) | Negative six quarter-ends running, but it narrowed sharply this quarter. KB-CRU-240 |
 | **Close 11/6** | CCL $29.58 (−0.03%), RCL $327.16 (+1.37%), NCLH $17.92 (+0.90%); SPY $735.29 (+0.31%), XLY −0.05% | `VX-CRU-01` stays YELLOW(2) at −12.97%; CRU-11 interim +0.57pp, not a grade. EDGAR 11/3–11/6: no new 8-K from CCL, RCL or NCLH after the CCL 11/4 8-K already read; Form 4s and 144s unread. KB-CRU-243 |
 
-## November 5 — NCLH 10-Q graded (L714)
-
-| Item | Result | Consequence / limit |
-|---|---|---|
-| **Liquidity** | Actual 9/30 **~$1.4B** (cash $256.5M + $1.1B availability); $1.5B at 6/30 | D1 CONFIRMS. The release's $2.1B was pro forma. KB-CRU-225 |
-| **November 17** | $216.2M exchangeables still out at 9/30; Free Liquidity estimate **~$1.7B** after October, **~$1.3B** even if all of Q4's net need lands first | Expected pass by ~$0.5B on a harsh case, **not certified**; L715 grades on later evidence. KB-CRU-231 |
-| **Covenants** | In compliance. Amendment 3 fixed the capitalization add-back at **$7,409.0M** through 2028 and changed collateral. Ratio **~0.58** vs 0.80 limit; **0.825 without the add-back** | D6 BREAKS on the letter, no stress in the arithmetic. Old add-back value unknown, so loosened vs tightened is undetermined. KB-CRU-226 |
-| **Cash quality** | OCF +$75.7M YoY, +$51.9M of it working capital. Deposit cash gap narrowed −$226.1M → −$50.5M; about 59% of that is lower ticket revenue. Refundable share **45%** vs 40% | D4 BREAKS stands, but the 10/29 read missed the direction. KB-CRU-227 |
-| **Funding model** | Revolver left at 12/31/27: **$760M** flat, $452M at −5%, excluding the conditional $315M. Breakeven **−12.7%/yr** (10/14 ~−14 to −16%) | Funding leg does not re-open; cushion narrowed a little. Endpoint test only. KB-CRU-231 |
-| **Open** | D2 note pricing and extinguishment; B3 2027 interest | Q4 print, 10-K or transcript |
-
-**So what (11/5):** the bear read on Norwegian no longer has a liquidity leg through 2027. It rests on ticket price per day, deposit quality and leverage. `VX-CRU-05` held RED(4) that day only because no band letter forced a move. Band re-spec and conviction 3 → 2 recommended; both ruled 11/6, above. Full read: `research/2026-11-05_nclh-10q/RESULT.md`.
+*November 5 NCLH 10-Q section → `domain/sources/STATUS_archive_2026-11-25.md`.*
 
 *November 5 boot catch-up section → `domain/sources/STATUS_archive_2026-11-11.md`.*
 
@@ -65,13 +65,13 @@ Full read: `research/2026-11-11_catchup/RESULT.md`. Ladder memo archived (CADENC
 
 ## Signal Dashboard
 
-*Big 3 prices and the CRU-11 interim are **November 10 closes**, retrieved November 11 10:13 ET with repository yfinance(auto_adjust=False) and FORGE fetch.py (same vendor); 11/11 bars were intraday and are not used. Other rows retain named vintages.*
+*Big 3 prices are **November 24 closes**, retrieved November 25 13:37 ET (11/25 bars intraday, not used); the CRU-11 row keeps its November 13 window close. Older note: prices were **November 10 closes**, retrieved November 11 10:13 ET with repository yfinance(auto_adjust=False) and FORGE fetch.py (same vendor); 11/11 bars were intraday and are not used. Other rows retain named vintages.*
 
 | Metric | Value | State | Source |
 |--------|-------|-------|--------|
-| **CCL price** | **$29.03**, November 16 raw close; **−14.59%** versus fixed raw February 6 reference $33.99 ⇒ YELLOW(2). GREEN(1) on 11/9–11/11 (above $30.591, WQ-670 A); back below from 11/12. RED $22.0935 | 🟡 | FORGE fetch.py (yfinance), retrieved November 17 08:38 ET; KB-CRU-262 |
-| **RCL price** | **$317.82**, November 16 raw close (−1.69%) | 🟢 | FORGE fetch.py, retrieved November 17 08:38 ET; KB-CRU-262 |
-| **NCLH price** | **$17.90**, November 16 raw close (−0.33%; retrieved November 17 08:38 ET, KB-CRU-262); **−28.46%** versus held raw February 26 peak $25.02. Print day 10/28 $16.06 → 10/29 $18.22 (**+13.45%**) | 🔴 | Same-vendor sources; KB-CRU-244 |
+| **CCL price** | **$28.40**, November 24 raw close; **−16.45%** versus fixed raw February 6 reference $33.99 ⇒ YELLOW(2). ORANGE(3) on the 11/20 close only ($26.59, −21.77%). GREEN above $30.591 (WQ-670 A), ORANGE at or below $27.192, RED $22.0935 | 🟡 | repository yfinance raw Close + FORGE fetch.py, retrieved November 25 13:37 ET; KB-CRU-264 |
+| **RCL price** | **$318.27**, November 24 raw close (+0.14% since 11/16; low $296.48 on 11/20) | 🟢 | same pull, November 25 13:37 ET; KB-CRU-264 |
+| **NCLH price** | **$17.10**, November 24 raw close (−4.47% since 11/16; −11.12% on 11/19–11/20 vs S&P ETF −5.53%; retrieved November 25 13:37 ET, KB-CRU-264); **−31.65%** versus held raw February 26 peak $25.02. Print day 10/28 $16.06 → 10/29 $18.22 (**+13.45%**) | 🔴 | Same-vendor sources; KB-CRU-244 |
 | **RCL Q3 / FY26** | Adj EPS **$6.57** vs $6.26–6.36 · Q3 CC yield **+0.6%** · FY CC yield guide **~+2.1%** (was 1.75–2.25%) · FY adj EPS **$17.85–17.95** (was 17.73–17.87) · occupancy 112.4% on capacity +8.4% · 2027 "ahead of historical levels at higher rates" | 🟢 | [CONF A1] 8-K …-000042 Ex-99.1, 10/27 |
 | **CRU-11 spread** (NCLH − RCL cumulative adjusted TR from October 2) | **+2.23pp at the November 13 window close** (NCLH +18.63%, RCL +16.39%) ⇒ **FAILED** (needed ≤ −5pp) | ❌ | [CONF A1] pinned yfinance Adj Close + fetch.py, November 14; KB-CRU-253 |
 | Tape 10/14 | Big-3 −2.6% to −2.9% on a down day: SPY −1.08%, XLY −0.77%, VIX 16.87 (+10.5%). **No cruise-specific cause found** | — | [CONF] yfinance 10/14 |
@@ -95,7 +95,7 @@ Full read: `research/2026-11-11_catchup/RESULT.md`. Ladder memo archived (CADENC
 |---|--------------|-------|--------|------------|-----------------|
 | 1 | NCLH leverage and deposits against capacity (`VX-CRU-05`) | 3 | 🟠 | **RED(4) → ORANGE(3) 11/6, WQ-640 A**: leverage **5.5x** ORANGE, deposit gap **−5.59pp** ORANGE (9/30 prints). Rule outcome; funding leg clean through 2027 on an endpoint test | Q4 print: leverage ≥6.0x or gap ≤−8.01pp, either alone → RED(4). Outside the row: NCLH guides down (11/17 spring graded NOT SPRUNG, provisional) (`VX-CRU-03`) |
 | 2 | Consumer demand K-shape (`VX-CRU-03`) | 2 | 🟡 | ⛔ **Exit rule 1 limb 1 FIRED 10/29** — NCLH raised; all three Big-3 raised FY26. **RED(4) → YELLOW(2)**. Soft points remain: NCLH ticket revenue per capacity day −9.98%, CCL North America ticket −$40M | −20% booking-pace print · a Big-3 FY yield guide-down |
-| 3 | CCL stock stress (`VX-CRU-01`) | 2 | 🟡 | November 16 **−14.59%** on fixed raw basis. GREEN cell ruled 11/11 (WQ-670 A): GREEN(1) 11/9–11/11, YELLOW(2) again from 11/12 | Close > $30.591 → GREEN(1); ≤ $27.192 → ORANGE; ≤ $22.0935 → RED |
+| 3 | CCL stock stress (`VX-CRU-01`) | 2 | 🟡 | November 24 **−16.45%** on fixed raw basis. ORANGE(3) on the 11/20 close only (−21.77%, a market day); GREEN(1) 11/9–11/11 under WQ-670 A | Close > $30.591 → GREEN(1); ≤ $27.192 → ORANGE; ≤ $22.0935 → RED |
 | 4 | Fuel cost line (`VX-CRU-02`) | — | — | **OBSERVATION line since WQ-532 A (10/29)**: no colour, no weight. CCL Q3 $826/mt actual, $0.007/sh fuel hit; NCLH Q3 $819/mt | — (any future fuel trigger is a new registration through PROME) |
 | 5 | Gulf/Red Sea → Big 3 (`VX-CRU-04`) | 2 | 🟡 | **One identified NCL Sky itinerary**, cancellation reported August 5, detected October 25; operator guest statement read through trade press (B2); total-basket completeness/denominator unmeasured | Existing1–5 band; one cancellation trigger FIRED |
 
@@ -126,7 +126,7 @@ Full read: `research/2026-11-11_catchup/RESULT.md`. Ladder memo archived (CADENC
 
 ## Cadence
 
-**ACTIVE / EVENT-DRIVEN** (Will-ruled 8/21). Live wake set: **`CADENCE.md`**. **Nearest future:** ① NCLH 8-K window for the 11/17 test closes **Mon 11/23** (reversal only; PROME checks EDGAR 11/24 and wakes CRUISE only if an 8-K exists — prome-19, 11/17 08:4x ET; L715 resolved, certification folded into L1074) · ② CCL Q4 print, late December · ③ FL port FY2026 passenger counts (Oct–Nov) · ④ NCLH Q4 print and 10-K by 3/15 (L1074; also certifies L715). L715 graded 11/17; CRU-11 graded 11/14. RCL Q3 graded 10/28.
+**ACTIVE / EVENT-DRIVEN** (Will-ruled 8/21). Live wake set: **`CADENCE.md`**. **Nearest future:** ① ~~NCLH 8-K window~~ closed Mon 11/23 with no 8-K (checked 11/25, KB-CRU-265; certification folded into L1074) · ② CCL Q4 print, late December · ③ FL port FY2026 passenger counts (Oct–Nov) · ④ NCLH Q4 print and 10-K by 3/15 (L1074; also certifies L715). L715 graded 11/17; CRU-11 graded 11/14. RCL Q3 graded 10/28.
 
 ---
 
@@ -150,4 +150,4 @@ Full read: `research/2026-11-11_catchup/RESULT.md`. Ladder memo archived (CADENC
 
 ## BOTTOM LINE
 
-All three big operators have raised this year, so this desk's split-operator demand thesis is dead on its own rule, and the fuel thesis died in September. The Norwegian 10-Q, read 11/5, also removes the liquidity leg through 2027: actual cash and revolver room were about $1.4B, ratings held, and on November 17 the revolver did not spring on every issuer figure available that morning: liquidity of about $1.4B at 9/30 against an $800M line; that grade stays provisional until the 10-K. What remains is a narrower Norwegian read on ticket price per day, deposit quality and 5.5x leverage. Will lowered NCLH to WATCH 2 with no trade card on 11/6. He also adopted new leverage and deposit cells for the Norwegian row, which moved it from RED(4) to ORANGE(3) and the desk to 9/20. That is a rule change, not a calmer company: on this desk's arithmetic the row returns to RED(4) at the Q4 print, as leverage passes 6.0x on the company's own earnings guide. As of 11/11, a hiking Fed changes none of this through interest cost: floating debt is 6 to 15% of each company's borrowing, and one quarter-point hike costs Norwegian about $4.6M a year. On 11/14 the desk's last open stock-market forecast failed: from 10/2 to 11/13 Norwegian's stock rose 18.6% against Royal Caribbean's 16.4%, so the bet that the weak operator would lag the strong one by 5 points or more was wrong. Carnival read GREEN for three days under Will's 11/11 ruling, then fell back to YELLOW on 11/12, when all three cruise stocks dropped about 4%; the desk stays at 9/20.
+All three big operators have raised this year, so this desk's split-operator demand thesis is dead on its own rule, and the fuel thesis died in September. The Norwegian 10-Q, read 11/5, also removes the liquidity leg through 2027: actual cash and revolver room were about $1.4B, ratings held, and on November 17 the revolver did not spring on every issuer figure available that morning: liquidity of about $1.4B at 9/30 against an $800M line; that grade stays provisional until the 10-K. What remains is a narrower Norwegian read on ticket price per day, deposit quality and 5.5x leverage. Will lowered NCLH to WATCH 2 with no trade card on 11/6. He also adopted new leverage and deposit cells for the Norwegian row, which moved it from RED(4) to ORANGE(3) and the desk to 9/20. That is a rule change, not a calmer company: on this desk's arithmetic the row returns to RED(4) at the Q4 print, as leverage passes 6.0x on the company's own earnings guide. As of 11/11, a hiking Fed changes none of this through interest cost: floating debt is 6 to 15% of each company's borrowing, and one quarter-point hike costs Norwegian about $4.6M a year. On 11/14 the desk's last open stock-market forecast failed: from 10/2 to 11/13 Norwegian's stock rose 18.6% against Royal Caribbean's 16.4%, so the bet that the weak operator would lag the strong one by 5 points or more was wrong. Carnival read GREEN for three days under Will's 11/11 ruling, fell back to YELLOW on 11/12, and touched ORANGE for one close on 11/20 (−21.8% from February) in a market-wide selloff before recovering to YELLOW; the desk stays at 9/20 at the latest close. The Norwegian revolver test window closed 11/23 with no filing that reverses the pass, and the activist Elliott added 3 million Norwegian shares in the third quarter.
