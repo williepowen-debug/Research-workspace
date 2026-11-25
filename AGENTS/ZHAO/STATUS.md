@@ -1,24 +1,24 @@
 # ZHAO STATUS
 
-**Updated:** 2026-11-18 16:3x ET (by `date`) — **Registered wake (PROME prome-6e, D:L1038), September TIC day.** ① **ZHA-22 RESOLVED YES:** China long-term net −$3,457M (Table 3, read 16:10:33 ET), Brier 0.16 (KB-289). ② **China $563.9B, −$26.8B, lowest since 2020; Belgium $507.9B, first print above $500B (FYI only, rho +0.048 n=44); foreign-official holdings FELL −$80.9B but official coupon buying +$27.6B** (price and bills, not selling). ③ BIS re-check: NOT ENACTED (KB-287). ④ Inbox 9 of 9 drained (KB-284 to 286); stale-KB pass done: 117 retired, 3 refreshed, 3 static (KB-288). ⑤ MOFCOM list API and SAMR: never re-tried (line below). Prior header → `archive/STATUS_COLD_20261118.md` §ⓐ.
-📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① **Trump meets Xi in Shenzhen Thu 11/19**, the day the US remote-access chip rule (FR 2026-23529) publishes; China's answer so far is a conditional threat (KB-278). Only a numbered instrument counts. ② **China is still selling Treasuries, but less each month in coupons:** LT −15.8, −7.7, −4.8, −3.5 ($B, Jun to Sep); bills −$9.7B in September. ③ **October was weak at home** (loans shrank ~RMB 100B, investment −8.1% YTD; V5b rescore owed). ④ HK peg calm (USD/HKD 7.8456, aggregate balance HK$54,186M, no HKMA activity, 11/18). ⑤ LPR 11/20; 公告2024年第46号 clause 2 ends 11/27. **Live 11/18 16:11 ET (boot.py):** USD/CNY 6.67 · fix 6.7118 · USD/KRW 1,331.69 · Brent $88.76 (`BZ=F` after 14:30 ET: last-trade/next-session, not a settle) · 1M HIBOR 2.68%. Prior THIS WEEK → COLD_20261118 §ⓑ.
-🧊 **11/11 header, 11/10 cluster table, 11/11 resume notes, NOV 11 bottom line and two graded calendar rows moved VERBATIM → `archive/STATUS_COLD_20261116.md` §ⓐ–ⓕ** · 11/10 blocks → `archive/STATUS_COLD_20261111.md` §ⓐ–ⓔ · through 11/02 → `…_20261106.md`.
+**Updated:** 2026-11-25 11:05 ET (by `date`) — **C8 session (PROME prome-77) on WALTER IMMEDIATE 20261125-006.** ① **US Section 301 'excess capacity' proposal read at USTR** (China, Japan, Singapore, Vietnam, Thailand notices): China up to 20% net of the forced-labor s.301 layer only (2018 duties stack), up to 10% on a 2,122-line annex that every other notice exempts (servers, chips, food, energy), 77 consumer lines exempt (Board of Trade list), 40% alternative; comments 1/5, hearing 1/25 (KB-290, 291). ② China: MFA 'a false proposition', no countermeasure; MOFCOM silent at 10:53 ET (KB-292). ③ **MOFCOM 公告2026年第59号: 46号 clause 2 suspended to 2027-01-27** (KB-293). ④ Chen Jining under CCDI investigation (Xinhua 11/24; KB-294). ⑤ NFRA rural NPL 2.895: watch NOT MET (KB-295); fired rows closed (KB-296). ⑥ Inbox 32 of 32 drained; WQ-735 done; 7 corrections receipted. Prior header → `archive/STATUS_COLD_20261125.md` §ⓐ.
+📌 **NEXT, IN ORDER OF WHAT MATTERS:** ① **Any Chinese numbered answer to the s.301 proposal** (MOFCOM 公告, or a Q&A with a 若/反制 clause; 税委会公告); only an instrument counts. ② **NBS November PMI Mon 11/30: ZHA-23 resolves** (mfg <50.0, 68%) plus the construction tripwire's second print. ③ January cluster, five dates: 1/9 ships and three Chinese 2-month texts · 1/10 BIS stay and 公告2026年第58号 · **1/27 46号 clause 2**; s.301 comments 1/5, hearing 1/25. ④ October TIC ~mid-December (date unconfirmed). **Live 11/25 10:58 ET (boot.py):** USD/CNY 6.66 · fix 6.7088 · USD/KRW 1,348.18 · Brent $89.65 (`BZ=F`, intraday) · aggregate balance HK$54,083M, no HKMA activity · Shanghai Composite −2.03% (fetch.py, inside the global chip selloff, KB-298). Prior → COLD_20261125 §ⓐ.
+🧊 **11/18 header, resume notes, NOV 18 bottom line and three graded calendar rows moved VERBATIM → `archive/STATUS_COLD_20261125.md` §ⓐ–ⓓ** · 11/11 blocks → `…_20261116.md` §ⓐ–ⓕ · 11/10 → `…_20261111.md` · through 11/02 → `…_20261106.md`.
 **Overall Status:** 🟠 ELEVATED — **29/60** (+1 on 11/06, V5; two-sided shadow 32). **September TIC: China $563.9B; LT −$3.5B, a fourth month of selling, the smallest; 6-month net −$50.2B.** Thesis kill re-specified 10/29 (Belgium leg retired → China flow leg F). Proxy falsified (rho +0.048, n=44); rotation refuted three times.
 
-> 🧊 **READ-CAP rotations (verbatim moves, nothing deleted):** #1 `archive/STATUS_COLD_20260902.md` · #2 `…_20260917.md` · #3 `…_20260918.md` (§①–㉚) · **#4 `…_20260918b.md` (§ⓐ–ⓚ)**. · **#7 `…_20260925.md` (§ⓐ–ⓖ)** · **#8 `…_20261016.md` (§ⓐ–ⓒ)** · **#9 `…_20261106.md` (§ⓐ–ⓘ)** · **#10 `…_20261111.md` (§ⓐ–ⓔ)** · **#11 `…_20261116.md` (§ⓐ–ⓕ)** · **#12 `…_20261117.md` (§ⓐ–ⓒ)** · **#13 `…_20261118.md` (§ⓐ–ⓓ)**
+> 🧊 **READ-CAP rotations (verbatim moves, nothing deleted):** #1 `archive/STATUS_COLD_20260902.md` · #2 `…_20260917.md` · #3 `…_20260918.md` (§①–㉚) · **#4 `…_20260918b.md` (§ⓐ–ⓚ)**. · **#7 `…_20260925.md` (§ⓐ–ⓖ)** · **#8 `…_20261016.md` (§ⓐ–ⓒ)** · **#9 `…_20261106.md` (§ⓐ–ⓘ)** · **#10 `…_20261111.md` (§ⓐ–ⓔ)** · **#11 `…_20261116.md` (§ⓐ–ⓕ)** · **#12 `…_20261117.md` (§ⓐ–ⓒ)** · **#13 `…_20261118.md` (§ⓐ–ⓓ)** · **#14 `…_20261125.md` (§ⓐ–ⓓ)**
 
 ---
 
-## 📌 THE 11/10 CLUSTER — closed (graded 11/10; table → `archive/STATUS_COLD_20261116.md` §ⓑ). Next cliff 1/9–1/11/2027: four texts, four wordings, ⛔ DO-NOT-MERGE; always write the year (2026年第58号 ≠ 2025年第58号). Separate clock: 公告2024年第46号 clause 2 至2026-11-27.
+## 📌 THE 11/10 CLUSTER — closed (graded 11/10; table → `archive/STATUS_COLD_20261116.md` §ⓑ). Next cliff 1/9–1/11/2027: four texts, four wordings, ⛔ DO-NOT-MERGE; always write the year (2026年第58号 ≠ 2025年第58号). Separate clock: 公告2024年第46号 clause 2, re-suspended by 公告2026年第59号 至2027-01-27 (KB-293).
 
 ---
 
-## ▶️ RESUME NOTES (2026-11-18, registered wake D:L1038, PROME prome-6e; packet `PROME/inbox/2026-11-18_from-ZHAO_sep-tic-zha22-access-inbox.md`. Next: Thu 11/19 meeting + FR 2026-23529 publication; LPR 11/20; 11/27 clock)
+## ▶️ RESUME NOTES (2026-11-25, C8 session, PROME prome-77; packet `PROME/inbox/2026-11-25_from-ZHAO_section-301-china-read.md`. Next: ZHA-23 11/30; any Chinese answer to s.301)
 
-- ✅ **Done 11/18:** ZHA-22 graded YES (KB-289) · September TIC through VX 1.01/1.02/1.03/1.04/1.09/2.07/7.01 · BIS re-check NOT ENACTED (KB-287) · inbox 9 of 9 (KB-284 to 286, board_log) · stale-KB pass (KB-288) · charter brief lines re-keyed to WQ-719 A · outbox `2026-11-18_…_september-tic.md` (LIQUID, HANS, SAM, MIDAS, TERRY: no card).
-- **Watch to 11/28:** any numbered Chinese measure (MOFCOM 公告/令, 税委会公告, SAMR/CAC on a named firm) · 46号 clause 2 lapses 11/27 unless extended (first uncovered day 11/28).
-- ⛔ **Access (root Data Hygiene, blocked sites; PROME 11/18 from DAEDALUS PR10):** MOFCOM's list API and SAMR's news list refused automated access 11/17 (HTTP 403). **Neither is re-tried, ever.** MOFCOM instead: the mofcom.gov.cn home page 政策发布 block, dated by its MakeTime stamp, plus its linked article pages (HTTP 200 on 11/17 and 11/18). SAMR: no machine source; a SAMR step is read from Xinhua (news.cn) or gov.cn reporting, labelled secondary, and SAMR's own site counts as NOT CHECKED. Will told via PROME.
-- **Still owed:** V5b rescore on the October cluster · household-loan split and 70-city prices · Vector 1 rescore question (September moves no written rule; held at 5) · PBOC November operation notices for a net medium-term drain (KB-286) · NEXT ACTIONS 12.
+- ✅ **Done 11/25:** s.301 China, JP, SG, VN, TH notices read (KB-290, 291) · China response (KB-292) · 46号 extended to 1/27 (KB-293) · Chen Jining (KB-294) · NFRA graded NOT MET, VX-6.15 Q3 written (KB-295) · fired CATALYSTS rows 11/18 to 11/20 closed (KB-296) · combination items (KB-297) · inbox 32 of 32 (board_log 16:01:24Z) · 7 corrections receipted NO-OP · WQ-735: boot.py on `research-bot/1.0`, four sources parse · packets WALTER, VULCAN, CARL, TERRY (no card), MIDAS.
+- **Watch to 12/02:** a MOFCOM spokesman answer or 公告 on s.301 (tell: 若…反制) · a 税委会公告 · China Annex A 'Scope Limitations' column (not read) · China's forced-labor s.301 rate at the FR text (12.5% INFERRED).
+- ⛔ **Access (root Data Hygiene, blocked sites):** MOFCOM's list API and SAMR's news list (HTTP 403, 11/17) are never re-tried; MOFCOM is read from the home page 政策发布 block and its article pages. **New 11/25: ccdi.gov.cn served a CAPTCHA (blacklist type) — never re-tried; CCDI steps are read from Xinhua or the province's own site.** federalregister.gov served its unblock page to a fetch helper 11/25 (not followed; govinfo returned 502 the same minute). Will told via PROME.
+- **Still owed:** V5b rescore on the October cluster · household-loan split and 70-city prices · Vector 1 rescore question · PBOC November operation notices for a net medium-term drain (KB-286) · GACC October copper imports (MIDAS's 11/23 question) · NEXT ACTIONS 12, 15.
 
 ---
 
@@ -77,7 +77,7 @@
 | 1 | Four-Anchor UST Selling | 🔴 5 | TIC **Sep'26**, pull 11/18 — ⚠️ held, not re-scored: China coupon selling fading (−$3.5B), Korea buying; no written rule moves it; rescore question owed |
 | 2 | Korea Crisis | 🟢 1 | won **11/11**; TIC Aug'26 · WALTER's Jan–Aug −$23.8B is LT-only; all-Treasury Feb–Aug −$3.6B, bills bought (KB-223) |
 | 3 | Custodial Arb. | 🟡 2 | Belgium Aug'26 |
-| 4 | LGFV/Banks | 🟡 2 | **rural-bank NPL 2.83% Q2-26, rising** (`VX-6.15`, new 10/29); Guizhou/Zhengzhou canaries 🧊; swap Jun'26 |
+| 4 | LGFV/Banks | 🟡 2 | **rural-bank NPL 2.895% Q3-26, rising; the ≥2.9 watch NOT MET** (`VX-6.15`, KB-295); Guizhou/Zhengzhou canaries 🧊; swap Jun'26 |
 | 5 | Property Zombification | 🔴 **5 ↑** | **Oct 31** (KB-227 re-raise leg; prior cut 10/9) |
 | 5b | Domestic Demand / Broad Activity | 🟠 **3** | RatingDog **Aug**, NBS Aug 31 — ⚠️ held; October PMI cluster warrants a rescore, owed |
 | 6 | PBOC currency management (two-way, `VX-2.10`) | 🟢 1 **(shows 3·A)** | fix-vs-market **+0.681%** 11/11 (H.10 + yfinance fill) — fix set WEAKER than market every month since Dec-2025; A-side not counted |
@@ -119,13 +119,13 @@
 
 | Date | Event | P |
 |------|-------|---|
-| Thu Nov 19 | **US remote-access rule FR 2026-23529 publishes the same day** (KB-283; published = the US "persisted") · Trump–Xi bilateral, Shenzhen (instrument only; KB-273) · countermeasure tell: a numbered Chinese measure, or 若 becoming 决定 (KB-281) | 🟠 |
-| ~Fri Nov 20 (modeled) | NFRA Q3 bank indicators (rural NPL vs 2.83%) — not out at 11/16 · LPR fixing (only a CUT is a signal) | 🟠 |
-| Fri Nov 27 | MOFCOM 公告2024年第46号 clause 2 ends (first uncovered day 11/28; D:L483) · then ZHA-23 Mon Nov 30, ZHA-25/26 to 12/31 | 🟠 |
+| Mon Nov 30 | NBS November PMI: **ZHA-23 resolves** (mfg <50.0, 68%) · construction second print (V5 cut only if new orders clear 47 with the headline >47.5) | 🔴 |
+| Tue 2027-01-05 / Mon 2027-01-25 | US s.301 excess-capacity proposal: comments due / hearing opens (KB-290; CATALYSTS 2027-01-25) | 🟠 |
+| Jan 9 / 10 / 27 | Five China-US clocks, five texts, ⛔ DO-NOT-MERGE: ships and three Chinese 2-month texts (1/9) · BIS stay and 公告2026年第58号 (1/10) · **46号 clause 2 (1/27, 公告2026年第59号)** | 🟠 |
 
 *(The old November-window paragraph, overtaken on its US leg by the 11/05 stay, moved VERBATIM → `archive/STATUS_COLD_20261106.md` §ⓗ. WATT's channel keys on the MOFCOM instrument, not the date.)*
 
-## PREDICTIONS (status Nov 18)
+## PREDICTIONS (status Nov 25)
 
 *(**OPEN rows only** — resolved rows live in `workbook/PREDICTIONS.tsv`.)*
 
@@ -156,10 +156,11 @@
 12. 🟠 **`VX` row owed for the Chinese clock** — `FLOW-15` exists, no vector tracks it. ⛔ next free id (8.01 is FROZEN).
 13. ⛔ **UNVERIFIED, do not cite:** the claim that China listed MP Materials / USA Rare Earth in June 2026. One secondary; CSIS did not corroborate. **Verify or drop — never repeat as fact.**
 14. ✅ **Stale KB rows DONE 11/18** (KB-288): 123 by ZHAO's definition; 117 retired, 3 refreshed, 3 static. VX.tsv's 13 stale rows remain (boot.py §6).
+15. 🟠 **s.301 (new 11/25, KB-290):** read China Annex A's 'Scope Limitations' column and the July forced-labor FR text for China's rate (12.5% INFERRED); watch for the final notice (no date stated) and whether the 40% branch survives.
 
 ## BOTTOM LINE
 
-**NOV 18 — China kept selling Treasuries in September, but its long-term selling is fading toward zero.** Treasury's data out today shows China's holdings at $563.9B, the lowest since at least 2020 and down $26.8B in the month. Only $3.5B of that was coupon bonds sold, the smallest of four straight selling months; $9.7B was bills not rolled and $11.6B was price. The forecast that September would show selling (ZHA-22, 60%) came true. Belgium's custody line passed $500B, which says nothing about China (the two lines have not moved together, rho +0.048). Across all governments, holdings fell $80.9B, yet they bought $27.6B of coupons: the fall was prices and bills, not a retreat. Thursday's Trump–Xi meeting is the next test; only a written instrument counts. *(NOV 17 paragraph → `archive/STATUS_COLD_20261118.md` §ⓓ, verbatim.)*
+**NOV 25 — The US proposed a new tariff on Chinese goods, but at the level of the existing truce, and China answered with words, not measures.** USTR's draft (not in force; comments to 1/5, hearing from 1/25) charges Chinese goods up to 20% including the forced-labor duty already paid (about 7.5 points more on most goods if that duty is 12.5%, ZHAO's inference), puts up to 10% on servers, chips, food and energy lines that every other country's notice exempts, and spares 77 consumer lines from the Board of Trade list. The 20% re-creates the truce rate that fell with IEEPA in February; the threat is the 40% alternative. Beijing's foreign ministry called overcapacity 'a false proposition' and asked both sides to keep the leaders' consensus; MOFCOM extended its gallium, germanium, antimony and graphite pause for the US to 1/27. Shanghai's party chief, a Politburo member, is under investigation: no market read separable. *(NOV 18 paragraph → `archive/STATUS_COLD_20261125.md` §ⓓ, verbatim.)*
 
 
 ---

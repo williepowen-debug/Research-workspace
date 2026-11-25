@@ -80,3 +80,33 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-18T20:43:17Z	SIG-W-20261117-025	noted	INBOX_WALTER	SEC civil probe of Nvidia disclosures (WSJ via TechCrunch) -> KB-ZHAO-285; VULCAN grades.
 2026-11-18T20:43:17Z	SIG-W-20261118-004	noted	INBOX_WALTER	Shenzhen trilateral handshakes (titles) -> KB-ZHAO-286; only an instrument counts; rest other desks.
 2026-11-18T20:43:17Z	SIG-W-20261118-010	noted	INBOX_WALTER	HY OAS 343 LIQUID rule MET -> INFO only, LIQUID's domain; no ZHAO vector keys on it.
+2026-11-25T16:01:24Z	SIG-W-20261118-012	info-only	INBOX_WALTER	September TIC relay of ZHAO's own 11/18 packet (KB-289); WALTER's Table 3 check matches. No new fact.
+2026-11-25T16:01:24Z	SIG-W-20261118-014	noted	INBOX_WALTER	combo:ZHAO/cny-fix title (PBOC strongest fix since Jul-2022, 11/18) -> KB-ZHAO-297. Rest other desks.
+2026-11-25T16:01:24Z	SIG-W-20261119-004	info-only	INBOX_WALTER	Shenzhen trilateral; superseded by correction 014 (declaration exists). Catalyst 11/19 graded on instruments -> KB-ZHAO-296.
+2026-11-25T16:01:24Z	SIG-W-20261119-012	info-only	INBOX_WALTER	Russia bombers to Vietnam (aggregator, primary unread): HAWK/YURI force posture, no ZHAO row. Rest other desks.
+2026-11-25T16:01:24Z	SIG-W-20261119-014	acted	INBOX_WALTER	Shenzhen declaration (kremlin.ru, peace; refined products; no tariff, export-control or clock clause) -> CATALYSTS 11/19 Trump-Xi row graded: no instrument moving a ZHAO clock (KB-ZHAO-296). COR-20261119-14 receipted NO-OP.
+2026-11-25T16:01:24Z	SIG-W-20261119-017	info-only	INBOX_WALTER	Tape and AMD/Hunterbrook: VULCAN's. COR via 020.
+2026-11-25T16:01:24Z	SIG-W-20261119-019	info-only	INBOX_WALTER	HANS grades; France UST holdings HANS's. No ZHAO row.
+2026-11-25T16:01:24Z	SIG-W-20261119-020	info-only	INBOX_WALTER	Correction of 017/018; ZHAO carries none (COR-20261119-20 NO-OP).
+2026-11-25T16:01:24Z	SIG-W-20261119-021	acted	INBOX_WALTER	FR 2026-23529 published 11/19, effective same day -> CATALYSTS 11/19 BIS row graded: US persisted; MOFCOM 11/17 conditional threat; no numbered Chinese countermeasure on MOFCOM home 11/25 (KB-ZHAO-296).
+2026-11-25T16:01:24Z	SIG-W-20261120-001	info-only	INBOX_WALTER	VIX FLASH; AI/chip tape, other desks.
+2026-11-25T16:01:24Z	SIG-W-20261120-006	noted	INBOX_WALTER	Item 21 LPR held 18th month (secondary) -> CATALYSTS 11/20 LPR row closed, hold = no signal (KB-ZHAO-296). Item 8 California/Nvidia: VULCAN's.
+2026-11-25T16:01:24Z	SIG-W-20261120-009	noted	INBOX_WALTER	Items 7 (879,000 chips approved to China) and 8 (Alibaba 20 GW cut): UNVERIFIED single accounts -> combo:ZHAO/export-controls KB-ZHAO-297, not carried as fact.
+2026-11-25T16:01:24Z	SIG-W-20261121-001	info-only	INBOX_WALTER	VIX +5 late FLASH; other desks.
+2026-11-25T16:01:24Z	SIG-W-20261121-003	noted	INBOX_WALTER	Item 2 TSMC/Samsung pause China consumer chip shipments (TrendForce, reported) -> combo:ZHAO/export-controls KB-ZHAO-297.
+2026-11-25T16:01:24Z	SIG-W-20261123-001	info-only	INBOX_WALTER	Nvidia reinstates Huang; VULCAN's. New export-control board committee noted in KB-297.
+2026-11-25T16:01:24Z	SIG-W-20261123-003	info-only	INBOX_WALTER	Correction of 11/21 cards; ZHAO carries none (COR-20261123-03 NO-OP).
+2026-11-25T16:01:24Z	SIG-W-20261123-007	noted	INBOX_WALTER	Item 5 fix 6.7120 vs 6.6775 estimate (fix weaker than model = leaning against appreciation, V6 A-side) and Evergrande founder sentence (title) -> KB-ZHAO-297. Item 4 -> KB-297.
+2026-11-25T16:01:24Z	SIG-W-20261123-008	info-only	INBOX_WALTER	Item 4 California probe: VULCAN's. Rest other desks.
+2026-11-25T16:01:24Z	SIG-W-20261123-013	info-only	INBOX_WALTER	Correction of 11/16-005 item 2; ZHAO carries none (COR-20261123-13 NO-OP).
+2026-11-25T16:01:24Z	SIG-W-20261123-021	acted	INBOX_WALTER	LPR held 11/20 at 3.0/3.5 (TE, secondary) -> CATALYSTS 11/20 LPR row closed: only a cut is a signal; none (KB-ZHAO-296).
+2026-11-25T16:01:24Z	SIG-W-20261123-028	acted	INBOX_WALTER	NFRA Q3 rural NPL 2.895 (WALTER primary read) graded by ZHAO's row: >=2.9 NOT MET at published precision; VX-6.15 YELLOW, Q3 value written; Vector 4 held 2 (KB-ZHAO-295).
+2026-11-25T16:01:24Z	SIG-W-20261124-008	noted	INBOX_WALTER	Megaspeed Entity List (MY/SG/TH): not the CXMT/YMTC package of the 11/18 re-check row; VULCAN owns S4 -> KB-ZHAO-296.
+2026-11-25T16:01:24Z	SIG-W-20261124-009	info-only	INBOX_WALTER	Pre-release Reuters; superseded by 006 and the USTR text read today (KB-ZHAO-290).
+2026-11-25T16:01:24Z	SIG-W-20261124-014	acted	INBOX_WALTER	Chen Jining established at Xinhua 11/24 19:30:49 Beijing and shanghai.gov.cn committee meeting; CCDI refused (CAPTCHA, not retried) -> KB-ZHAO-294; packet PROME.
+2026-11-25T16:01:24Z	SIG-W-20261124-018	noted	INBOX_WALTER	Item 13 Huawei verdict (title) -> combo:ZHAO/export-controls KB-ZHAO-297. Rest other desks.
+2026-11-25T16:01:24Z	SIG-W-20261124-021	info-only	INBOX_WALTER	CIA/ODNI breach correction; ZHAO carries none (COR-20261124-21 NO-OP).
+2026-11-25T16:01:24Z	SIG-W-20261125-001	info-only	INBOX_WALTER	Asia chip selloff; Shanghai about -1% in card; ZHAO tape read KB-ZHAO-298.
+2026-11-25T16:01:24Z	SIG-W-20261125-005	info-only	INBOX_WALTER	VIX FLASH premarket; tariff listed among causes, none assigned; ZHAO read of 301 in KB-ZHAO-290.
+2026-11-25T16:01:24Z	SIG-W-20261125-006	acted	INBOX_WALTER	Section 301 China notice read at USTR primary (and JP, SG, VN, TH): KB-ZHAO-290 to 292; corrections to WALTER (China 20% net of forced-labor 301 only; Annex A 10% covers servers/chips for China); packets WALTER, VULCAN, CARL, TERRY; PROME memo.
+2026-11-25T16:01:24Z	SIG-W-20261125-014	acted	INBOX_WALTER	VULCAN's TW/MY/KR read holds for those notices; for China the same 2,122-line annex is CHARGED up to 10%, not exempt (KB-ZHAO-290); sent to VULCAN and WALTER.

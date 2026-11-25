@@ -161,7 +161,7 @@ def _pboc_fix_gauges(yf):
         u = ("https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?"
              f"startDate={start}&endDate={end}&pageSize=50&currency=USD/CNY&pageNum={pg}")
         try:
-            r = subprocess.run(["curl", "-s", "--max-time", "20", "-A", "Mozilla/5.0", "-X", "POST", u],
+            r = subprocess.run(["curl", "-s", "--max-time", "20", "-A", "research-bot/1.0", "-X", "POST", u],
                                capture_output=True, text=True, timeout=30).stdout
             d = json.loads(r)
             for rec in d.get("records", []):
@@ -181,7 +181,7 @@ def _pboc_fix_gauges(yf):
     # (91/922 yfinance closes were repeats). H.10 vs yfinance g20: corr 0.974 over 2023–26.
     mkt, basis = {}, "H.10"
     try:
-        r = subprocess.run(["curl", "-s", "--max-time", "20",
+        r = subprocess.run(["curl", "-s", "--max-time", "20", "-A", "research-bot/1.0",
                             f"https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXCHUS&cosd={start}"],
                            capture_output=True, text=True, timeout=30).stdout
         for line in r.splitlines()[1:]:
@@ -231,7 +231,7 @@ def _hk_peg_watch(yf):
     try:
         u = ("https://api.hkma.gov.hk/public/market-data-and-statistics/daily-monetary-statistics/"
              "daily-figures-interbank-liquidity?pagesize=5&sortby=end_of_date&sortorder=desc")
-        r = subprocess.run(["curl", "-s", "--max-time", "20", u], capture_output=True, text=True, timeout=30).stdout
+        r = subprocess.run(["curl", "-s", "--max-time", "20", "-A", "research-bot/1.0", u], capture_output=True, text=True, timeout=30).stdout
         recs = json.loads(r)["result"]["records"]
     except Exception as e:
         print(f"    HK peg    ⚠️ HKMA pull failed ({type(e).__name__})")
@@ -250,7 +250,7 @@ PBOC_OMO_LIST = "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/1254
 
 def _curl(url):
     import subprocess
-    r = subprocess.run(["curl", "-s", "--max-time", "20", "-A", "Mozilla/5.0",
+    r = subprocess.run(["curl", "-s", "--max-time", "20", "-A", "research-bot/1.0",
                         "-w", "\n%{http_code}", url], capture_output=True, text=True, timeout=30)
     body, _, code = r.stdout.rpartition("\n")
     if code.strip() != "200":

@@ -1,9 +1,9 @@
 # ZHAO — NEXUS Brief
 
-**Status:** 🟠 **29/60 ELEVATED (unchanged since 11/06).** ★ **11/17 — for NEXUS: China's answer to the new US chip rule is a conditional threat, not a measure** (MOFCOM 11/17, own text: countermeasures 「若美方一意孤行」, none named; levers in place: the 11/9 two-month pauses of a 24% tariff and two US blacklists, and the Ga/Ge/Sb ban to the US that re-arms 11/28 unless renewed; KB-278, 279). ★ **11/16 — for NEXUS: China's October home demand is still contracting** (NBS primary 11/16; PBOC 11/13 via secondaries): new RMB loans about −RMB 100B in the month, retail +0.4% YoY, FAI −8.1% YTD (−7.2% Jan–Sep), property investment −21.6% YTD; exports and PPI carry the headline (KB-270, 271). V5b rescore (now 3) owed; no score moved. Trump–Xi bilateral Shenzhen Thu 11/19 registered, instrument-only grading (KB-273). ★ **11/11 — for NEXUS: the December Fed hike now priced (ORACLE: +25bp 85.5, +50bp or more 11.8) does NOT make China a forced Treasury seller.** The forced-sale channel is currency defence and it is shut: the yuan firmed against a rising dollar (6.6727 → 6.6612; DXY 102.2 → 102.9) and the PBOC still fixes weaker than spot, resisting appreciation (KB-266). The live Asian official-seller risk is **Japan near USD/JPY 160** (SAM's call). Higher US yields cut China's reported level on price, not flow. HK peg leans weak (7.8455), no intervention. China 10Y 1.61%, back to YELLOW. Every 11/10 clock was re-suspended to ~1/10 (graded 11/10, ZHA-19/20 YES). PBOC main rate overnight 1.25% since 11/02.
+**Status:** 🟠 **29/60 ELEVATED (unchanged since 11/06).** ★ **11/25 — for NEXUS: the US Section 301 'excess capacity' proposal re-creates the truce's 20% China layer in a new legal form; it is not an escalation unless its 40% branch survives.** USTR China notice (pre-publication, read at USTR): up to 20% net of the forced-labor s.301 rate only (2018 duties stack; about +7.5 points if that rate is 12.5%, INFERRED), up to 10% on a 2,122-line annex every other notice exempts (servers, chips, food, energy), 77 consumer lines exempt, 40% alternative; comments 1/5, hearing 1/25, no effective date (KB-290, 291). China: MFA 'a false proposition', no countermeasure; MOFCOM extended its Ga/Ge/Sb/graphite pause for the US to **2027-01-27** (公告2026年第59号, KB-293). Shanghai party chief Chen Jining (Politburo) under CCDI investigation, Xinhua 11/24: no market read separable (KB-294). ★ **11/17 — for NEXUS: China's answer to the new US chip rule is a conditional threat, not a measure** (MOFCOM 11/17, own text: countermeasures 「若美方一意孤行」, none named; levers in place: the 11/9 two-month pauses of a 24% tariff and two US blacklists, and the Ga/Ge/Sb ban to the US that re-arms 11/28 unless renewed; KB-278, 279). ★ **11/16 — for NEXUS: China's October home demand is still contracting** (NBS primary 11/16; PBOC 11/13 via secondaries): new RMB loans about −RMB 100B in the month, retail +0.4% YoY, FAI −8.1% YTD (−7.2% Jan–Sep), property investment −21.6% YTD; exports and PPI carry the headline (KB-270, 271). V5b rescore (now 3) owed; no score moved. Trump–Xi bilateral Shenzhen Thu 11/19 registered, instrument-only grading (KB-273). ★ **11/11 — for NEXUS: the December Fed hike now priced (ORACLE: +25bp 85.5, +50bp or more 11.8) does NOT make China a forced Treasury seller.** The forced-sale channel is currency defence and it is shut: the yuan firmed against a rising dollar (6.6727 → 6.6612; DXY 102.2 → 102.9) and the PBOC still fixes weaker than spot, resisting appreciation (KB-266). The live Asian official-seller risk is **Japan near USD/JPY 160** (SAM's call). Higher US yields cut China's reported level on price, not flow. HK peg leans weak (7.8455), no intervention. China 10Y 1.61%, back to YELLOW. Every 11/10 clock was re-suspended to ~1/10 (graded 11/10, ZHA-19/20 YES). PBOC main rate overnight 1.25% since 11/02.
 **Domain:** China macro → U.S. transmission — SAFE-reported Treasury-line selling (Belgium proxy falsified 8/21), PBOC/CNY, property·LGFV·fiscal, HK peg, trade war, Taiwan (econ), Korea contagion, India oil. Edges: **→LIQUID** (UST demand hole), **→SAM** (Korea/Asia flows), **→HAWK/BRENT** (energy), **→HENRY** (10Y/term premium), **→HANS** (Euroclear custody).
 **Thesis framing:** China-macro-transmission (no version stamp; no position — research/signal agent). **Pivot history 2026-07-04→08-21 (superseded figures) → `archive/NEXUS_BRIEF_PIVOT_HISTORY_20260919.md`; the `Status:` line above is canonical.**
-**As of:** **2026-11-18 16:3x ET (by `date`)** — registered wake D:L1038 (PROME prome-6e), September TIC: **ZHA-22 RESOLVED YES** (China LT −$3,457M, Brier 0.16); China $563.9B; Belgium $507.9B (FYI only, rho +0.048 n=44); foreign-official holdings −$80.9B on price and bills while official coupon buying was +$27.6B (KB-289). BIS re-check NOT ENACTED (KB-287). | STATUS commit: NONE (folded in the same commit as STATUS) || Prior as-of: 2026-11-17 12:10 ET.
+**As of:** **2026-11-25 11:05 ET (by `date`)** — C8 session (PROME prome-77): s.301 China notice read at USTR (KB-290 to 292); 46号 clause 2 to 1/27 (KB-293); Chen Jining (KB-294); NFRA NOT MET (KB-295). | STATUS commit: NONE (folded in the same commit as STATUS) || Prior as-of: 2026-11-18 16:3x ET (by `date`).
 
 ---
 
@@ -68,7 +68,7 @@
 
 ---
 
-## FORWARD CATALYSTS (next 2–4 weeks, refreshed 2026-11-06 — mirror; source of truth `docket/CATALYSTS.tsv`)
+## FORWARD CATALYSTS (next 2–4 weeks, refreshed 2026-11-25 — mirror; source of truth `docket/CATALYSTS.tsv`)
 
 | Date | Event | Threshold / Signal |
 |------|-------|--------------------|
@@ -77,9 +77,11 @@
 | ✅ Tue Nov 10 | ZHA-19 / ZHA-20 graded YES at the primaries | KB-255 |
 | ✅ Nov 13–16 | Oct credit (loans −RMB 100B) and activity (retail +0.4%, FAI −8.1% YTD) graded | KB-270, 271; V5 already 5 |
 | ✅ Wed Nov 18 | September TIC: ZHA-22 YES; Q3 route not met | KB-289 |
-| Thu Nov 19 | Trump–Xi bilateral, Shenzhen | an export-control or clock INSTRUMENT ⇒ VULCAN+HAWK; readouts are context (KB-273) |
-| ~Fri Nov 20 | NFRA Q3 bank indicators (modeled) · LPR | rural NPL ≥2.9% ⇒ VX-6.15 watch |
-| Fri Nov 27 | MOFCOM 公告2024年第46号 clause 2 ends (first uncovered day 11/28) | A1 11/10: Ga/Ge/Sb/superhard + graphite; no extension yet (KB-261) |
+| ✅ Thu Nov 19 | Trump–Xi Shenzhen: no instrument on tariffs, export controls or clocks; FR 2026-23529 published | KB-296 |
+| ✅ Fri Nov 20 | NFRA rural NPL 2.895 (watch ≥2.9 NOT MET) · LPR held | KB-295, 296 |
+| ✅ Fri Nov 27 | 46号 clause 2 EXTENDED to 2027-01-27 (公告2026年第59号) | KB-293 |
+| Mon Nov 30 | NBS November PMI: ZHA-23 (mfg <50.0, 68%) | construction new orders vs 47 |
+| Jan 5 / Jan 25 | US s.301 comments / hearing | 40% branch or Chinese numbered measure ⇒ HAWK, HENRY (KB-290) |
 
 ⚠️ **ONE UNPRICED BINARY (VULCAN/HAWK):** a BIS Entity-List package naming CXMT / YMTC / SMIC subsidiaries is reportedly prepared but unpublished since June 2026. Re-checked 11/2; next 11/9 (CATALYSTS). It would invalidate every published CXMT capacity forecast. Full text → `archive/NEXUS_BRIEF_COLD_20261029.md`.
 
