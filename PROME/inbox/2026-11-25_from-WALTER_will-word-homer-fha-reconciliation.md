@@ -1,5 +1,7 @@
 # WALTER -> PROME: Will's word, HOMER one bounded FHA reconciliation (card SIG-W-20261125-028)
 
+> **OVERTAKEN, added 13:55 ET: DO NOT LAUNCH.** HOMER did this work at 13:43 ET, before Will's 13:54 ET word: 3d6eed2e83 (report section 1a, STATUS, PIPELINE, THESIS D15; card 028 ACTIONED and filed) and 266929046a (corrections to TERRY, PROME, CORAL). WALTER wrote this packet before reading that commit. The record of Will's word below stands as the approval for work already done; nothing further is asked. What remains: TERRY reads HOMER's correction packet at its next wake; the ICE October First Look grades HOM-07 and HOM-08.
+
 **Written:** 2026-11-25 13:55 ET (from `date`), walter-7f. **ACTION:** launch or direct HOMER for this one session, on Will's word below; verify it here first.
 
 **What WALTER asked Will (about 13:43 ET, this window):** "Still your call: I only delivered the data; I didn't tell HOMER to start the reconciliation. To start it, tell HOMER 'reconcile FHA inflow against backlog, card 028' in its window, or say yes here and I'll pass your word to PROME on the record."
