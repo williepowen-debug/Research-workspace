@@ -1,0 +1,80 @@
+# Recent commits: accuracy and useful follow-through
+
+**CATO, 2026-11-24. Will's assignment:** check recent commits for accuracy and offer feedback. Review began at `95c28ac7f2`; relevant REGINALD delivery completed through `7cb7acfb69` while reading. Selected November 23 follow-through is included below. Later WALTER cards 006–014 (`6e5f823834`), BROCK's concurrent work and HOMER's new refresh/packets (`c232eee4db`, `26e0a45054`, `bf2d480146`) are outside this review. This is a bounded review, not certification of the whole commit train.
+
+## Recommendation
+
+Keep the substantive progress. REG-T-04 fired on its written rule; the bankruptcy and sampled flood readings are real; AEOLUS's reconciliation improves its next-session state. Correct REGINALD's attribution claim and mortgage-holder wording, and CORAL's surviving headline. Finish the already-approved AEOLUS work at its next session. No new checker, broad audit or forecast project is warranted by these findings.
+
+The continuing operational constraint is availability: PROME records an outage of about 25 hours, cause unknown. Correct catch-up research does not establish timely detection. Diagnose the existing outage before selecting an automation remedy. No diagnosis, launch, owner edit or cross-desk send was performed here.
+
+## Open accuracy findings
+
+### RC24-1 — REGINALD's single-issuer conclusion is not established (material)
+
+**Evidence:** `PROME/inbox/processed/2026-11-24_from-REGINALD_D-L1235-REG-T-04-FIRED-HY-363.md`, plain-language paragraph and §2; `AGENTS/REGINALD/registry/NOTES.md` § REG-T-03/04 rider; STATUS line 5, NEXUS_BRIEF line 11, and the November 24 LIQUID/TERRY packets. Commits `95c28ac7f2`, `bacd526b59`, `6e7ba61e5e`, `c99bb5b3e1`.
+
+The memo says Optimum/CSC would need roughly 2,770 bp of widening to explain the crossing, and concludes that the fire does not rest on named issuers. It correctly labels the conclusion INFERRED and discloses that CSC spreads are unmeasured. But the numerical bound tests only the final day's 13 bp margin, not all three required closes. The first close was only 2 bp above the line. **Even using REGINALD's own fixed-weight incremental-contribution approximation**, a hypothetical 500 bp CSC move at its cited 0.47% weight contributes 2.35 bp: 352 minus 2.35 is 349.65. That would interrupt the three-close run. This is a counterexample to the inference, not an estimate of CSC's actual move.
+
+Further, BB's 14 bp rise is its own subindex change, not a measured 14 bp contribution to the blended index's 16 bp rise. It supports breadth, but without weights cannot carry that attribution. Removing an issuer from an index level also requires its level and reweighting; subtracting its incremental change is a different counterfactual. HYG holdings remain a disclosed proxy for ICE's composition.
+
+**Owner/closure:** REGINALD should either measure the relevant issuer contribution and counterfactual across each required date, with the proxy limits, or state: “The trigger fired; widening appears broader than CSC, but whether the three-close run survives the issuer adjustment is unmeasured.” Reconcile the memo, STATUS, NEXUS brief, memory and LIQUID/TERRY handoffs. The trigger and REG-34/37 outcome grades stand regardless: WQ-512 is a disclosure rider, not a gate. No request to undo those grades.
+
+### RC24-2 — Recorded originators briefly become present credit holders (material wording)
+
+**Evidence:** same REGINALD memo §4, line 72: its “what it shows” sentence says mortgage credit “sits mostly with non-banks and federal insurance.” The same paragraph correctly admits that today's holders are unknown and mortgages may have been sold. PROME's existing Florida synthesis is more careful: six of ten known first liens were **originated** by nonbanks, in one subdivision, not a market sample.
+
+**Owner/closure:** REGINALD should use recorded-origination language in that conclusion. Federal insurance is a separate attribute, not a substitute for identifying the holder. Keep the useful finding that no covered basin-concentrated bank appears among the recorded names; do not convert it into an exclusion of current bank exposure. No homeowner identities or individual mortgage amounts are reproduced in this review, and the parcel table was not independently re-audited.
+
+### FF23-2 — Insurance correction substantially propagated; latest headline remains wrong
+
+CORAL's research correction block, STATUS, bank watchlist, TERRY correction packet, HOMER's amended packet and PROME's synthesis now preserve the denominator limits: countywide NFIP take-up does not establish coverage of flooded homes or the uninsured share of loss. However, **`AGENTS/CORAL/NEXUS_BRIEF.md:10` still heads its newest section “FLOOD SWEEP: MOSTLY UNINSURED.”** The corrected row immediately below does not cure a contradictory summary heading.
+
+**Owner/closure:** CORAL should qualify the current heading as a hypothesis or use a factual heading. Keep historical sections as dated history. TERRY's correction packet remains in its inbox at this snapshot; delivery is verified, consumption is not. This retains the existing FF23-2 ID, not a new accusation of an uncorrected whole report.
+
+### Lower-impact residue
+
+- WALTER card 003 accurately identifies the bankruptcy and major financing terms, but “trade paid in full”/“trade to be paid in full” should retain **proposed, subject to court approval**, as the issuer explicitly does. WALTER owns the card qualification; BROCK/TERRY should preserve it on use. This does not invalidate the bankruptcy signal.
+- REGINALD's TERRY forward-view sentence equates “HY stays above 330 through 12/11” with “no exit run.” They differ: one or several closes at/below 330 can occur without five consecutive closes. Its PROME memo uses the correct no-exit-run event. REGINALD should mirror that wording; no new forecast or odds change is needed.
+- CORAL's Hamilton Bay narrative infers “no lender required flood cover” from Zone X, although its evidence table supports only absence of the federal mapped-zone mandate. Individual lender requirements are unverified. Narrow the sentence on next use; the association case remains partial.
+
+## Checks that support the work
+
+### Credit and WALTER's new signals
+
+- **REG-T-04: verified.** The official [FRED series](https://fred.stlouisfed.org/series/BAMLH0A0HYM2) showed 3.52%, 3.76%, 3.63% for November 19, 20 and 23. The existing first-published reader independently returned the same observations. Its first attempt failed on sandbox DNS; the approved network retry passed. The strict three-session rule is met even though the third observation narrowed.
+- **Prediction integrity: verified by cell comparison.** At `0536954bfa`, only Status, Date_Resolved and Outcome changed in REG-34 and REG-37; all other prediction cells and row IDs were identical. TRUE is consistent with both letters; the inherited REG-34 near-miss exception is not engaged. The 25% and 30% estimates remain intact, and REGINALD says the forecasts were on the wrong side. This is not two independent demonstrations of forecast skill.
+- **Car-Mart: primary-source spot check passed.** The [SEC filing](https://www.sec.gov/Archives/edgar/data/799850/000117184326007671/f8k_112426.htm) supports Chapter 11, $311.6M accelerated prepetition principal and the proposed new-money/roll-up structure. Its [release](https://www.sec.gov/Archives/edgar/data/799850/000117184326007671/exh_991.htm) supports the nondebtor status of the securitization trusts. The [filing index](https://www.sec.gov/Archives/edgar/data/799850/000117184326007671/0001171843-26-007671-index.htm) records 08:23:23 acceptance. WALTER dispatched at 22:31 ET: roughly fourteen hours later. Detailed loan-document enforcement and every sale term were not independently checked.
+- **Weather spot checks passed.** Direct official API reads reproduced Arena Cove's November 24 high, 8.862 ft MLLW at 09:24 local, quality `p` (preliminary), and Sanford 8.20 ft at 21:30 ET with major stage 8.0. Sources: NOAA CO-OPS water_level station 9416841 for 20261124 (MLLW, english, lst_ldt); [NWPS SNFF1](https://api.water.noaa.gov/nwps/v1/gauges/SNFF1). Raw responses saved temporarily at `/tmp/cato-20261124-arena.json` and `/tmp/cato-20261124-sanford.json`; these are not durable source archives. Historical record claims, the other gauges and the evacuation report were not independently verified.
+- **Limits:** VIX minute prints and the bank preferred basket were not independently rerun. FRED's page update is November 24 while the existing reader labels the latest observation first-published November 23; publication-time attribution remains unresolved here. No incorrect-date finding is asserted from that discrepancy.
+
+### AEOLUS: repairs implemented, subsequent rulings pending
+
+At `e6f3e66504`, the calendar includes the December 8 vote and separates confirmed/estimated/forecast dates. STATUS and the brief distinguish Mead's physical Orange band, agreement Yellow band and score 4. VX's latest shipping entry is recovery/3; the trade page marks the freight idea as having no live expression. These are actual state repairs, not merely a completion receipt. The AEO-17 date mismatch is explicitly disclosed without silently changing its letter. The one-time other-channel warning check is on SCRATCH; completion is not claimed.
+
+The superseding packet (`4bda4ee9af`, wording follow-up `738bfcdeae`) improves the proposals: river recovery is separate from freight recovery; the property-count exit is withdrawn; the misleading “1 of 12” exit statistic is corrected. CATO independently recalculated the 77 cm/10-day rule on the saved daily series, requiring consecutive calendar days for both the 40/180 fire and exit: calls on 2003-10-15, 2018-12-13 and 2022-08-31, none followed by a fire within 60 days. **Three historical calls support the description, not a claim of robust predictive validation.** The last usable observation was October 30, 2026. The data provider history itself and the proposed rainfall/board-vote probability bases were not independently re-fetched.
+
+Will's later **WQ-741/743 A ruling at 19:44 ET supersedes the earlier keep-proposed instruction**. At the review snapshot the delivery packet remains in AEOLUS's inbox, SCRATCH still says offered/not registered, the calendar still carries the old AEO-17 cutoff, and the thesis still labels the old shipping exit ungradeable. **Approved but not yet implemented**, with PROME's already-registered diff read as the completion check. AEOLUS should encode the river rule, two forecasts and AEO-17 amendment under that existing permission; no fresh approval is needed.
+
+### Florida follow-through and prior findings
+
+- **FF23-1 stays closed:** deposit concentration is labelled as a proxy, county CRE remains unknown.
+- **FF23-3 producer correction verified:** CORAL's research, NEXUS brief and bank watchlist distinguish the USCB table category from an unsized association book; bank-wide NPL is labelled. The correction was delivered to TERRY. Downstream incorporation remains unverified.
+- **FF23-4 producer/synthesis correction verified:** HOMER's STATUS and TERRY packet distinguish contact-based relief from the declaration-dependent no-contact concession; PROME repeats the distinction. This reuses the prior primary-source review rather than a new legal audit. TERRY's actual read remains unverified.
+- **FF23-5 remains withdrawn against PROME; CORAL label repair verified:** its research now gives Eastern times and explicitly preserves the old mislabeled strings as corrected history. CATO's prior error is not reopened.
+- Concrete examples improved the research, but **no complete damage → coverage gap → cost → current holder chain is established**. The synthesis explicitly admits no named flood-damaged condominium, unknown insurance and current mortgage holders, and no confirmed commercial damage. Hamilton Bay supplies an HOA/CDD mechanism, not the requested condo stack. Do not count a populated table as closure of that question.
+- **RED is now legitimately held on Will's later WQ-742 A ruling**, until corrected findings are re-read and PROME re-asks. This supersedes CATO's earlier continuity instruction that the 17:15 assignment stands without a hold. CREED's thread permission survives.
+
+### Root trim and publication ruling
+
+WQ-744 commit `6dd845f913`: all six moved Git-check/recovery steps are byte-identical at the destination by independent string comparison; root shrank from 24,449 to 21,338 bytes. Mandatory pointers remain. This verifies the relocation, not future agent compliance.
+
+WQ-740 records Will's later B choice to publish the parcel report as-is; AEOLUS records the hold lifted at 18:56. No live privacy hold was found. This review neither revisits that ruling nor expands publication scope. Initial no-push commentary was corrected before delivery: CATO follows the root-required closeout push, which can carry other desks' committed work.
+
+## Delivery and remaining owners
+
+REGINALD owns RC24-1, RC24-2 and its forward-view wording; CORAL owns the FF23-2 headline and narrower lender-mandate sentence; WALTER owns the court-approval qualification. AEOLUS owns approved encoding; PROME owns its existing diff read, RED re-ask and outage follow-through; LIQUID/TERRY own the existing issuance/tradeability reads. None was newly assigned or messaged by CATO. No trade or score change recommended. Stop this review here; later work needs a directed follow-up or new evidence.
+
+**Checks before delivery:** all inputs existed and were readable. Weekday check passed on `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, `AGENTS/CATO/CONTINUITY.md` and this report (five actual files). Read-cap check passed on the six explicit startup paths: CATO AGENTS.md, CHARTER.md, CONTINUITY.md, root CLAUDE.md, USER.md and AGENTS.md. CATO has no STATUS/calendar/catalyst file to add. Orphan advisory found only WALTER's pending/receipt bookmark JSON files, not CATO-authored; preserved and flagged here for Will. No STATUS, ledger or auto-memory was changed; no canonical numeric figure was replaced, so those conditional checks were not triggered. No tests of unrelated code were added.
+
+Startup `git pull --rebase` refused other owners' dirty files; a fresh fetch succeeded and work continued without stashing or modifying them. Concurrent BROCK staged renames were also preserved. CATO edits only this report and CONTINUITY, committed by exact paths. The final commit/push receipt and any shared commits carried are delivered in chat; publication does not extend the reviewed scope.
