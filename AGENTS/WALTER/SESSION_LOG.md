@@ -1,3 +1,19 @@
+## 2026-11-25T16:53:57Z TIER 2 FULL CLOSEOUT — walter-7f, laptop, Wed 11/25, Will's word 11:47 ET in this session ('okay lets close out WALTER here and we will immediately reboot')
+
+Clears the two light breadcrumbs below. Cards 20261125-005 to -022 (005 FLASH; 006, 007, 009, 013, 021 IMMEDIATE); corrections 015 (of 006, 014), 016 (of 008, 010), 022 (of 018, 013), COR-20261125-15, -16, -22. 18 cards since the morning boot, 22 BOARD cards for 11/25, 0 kills, 0 cluster_mediating. No registry trigger newly fired. Near-trigger: DeLand 6.3 against 6.33; HENRY S&P close under 7,037.04; VIOLET close over 35.89. FILTER POSTURE unchanged. Errors: LAST_COMPLETION GAPS.
+
+### STATUS text rotated verbatim at this full closeout (2026-11-25T16:53:57Z)
+
+**Updated:** 2026-11-25T04:48:17Z — walter-7f on the laptop: late boot on Will's word 23:34 ET after the 23:26 ET full closeout; **light closeout, full deferred (1 breadcrumb)**. Boot PARTIAL: receipt in LAST_COMPLETION. Duties: LAST_COMPLETION.md.
+
+**November 23 evening (walter-7f, laptop; boot 16:04 ET after the 20:46Z closeout):** cards 20261123-016 to -029, no FLASH, 019 IMMEDIATE by release-day default. **Iran full sweep done 21:33Z (022; next about 11/30):** Houthi order to leave Saudi Red Sea ports (Jeddah named, 025) and Al-Shuqaiq/Jizan claims carded three days late; no acknowledged US strike since 11/17, carriers three to two, IMO 141. **RED-FT-11 precondition met on FRED (026), legs FUNDAMENTAL, no weight, RED grades.** NFRA rural NPL 2.895 (028, ZHAO). Williams text (027). Flash PMI (019) late. St. Johns Lake Harney record (017). Tanker costs (024): Gulf to China down 24%, Gulf of Oman route down 67% since Oct 9. Corrections 023, 025. Vendor closes: S&P 7,237.17, VIX 26.62 (Cboe official not posted), KRE 69.54; BZF27 89.49 not a settlement. REG-T-04 2 of 3, 11/23 cell Tuesday. Lane not collected after 14:51Z. Routing v0.53 (AEOLUS climate edits, El Niño owner, secondhand releases PRIORITY; Will 17:12 and 17:18 ET) and flood-alert step 7j adopted. Full closeout on Will's 17:20 ET word.
+
+| November 23 evening (FRED first-published to 22:04Z; vendor closes) | FRED DGS30 5.31, DGS2 4.63, DGS5 4.71, DGS10 4.92, DGS20 5.34 [11/20]; T10YIE 2.13 [11/23]; HY 376, VIXCLS 35.89 [11/20], 11/23 unposted. Vendor 11/23: S&P 7,237.17, VIX 26.62, VIX3M 25.50, KRE 69.54, HYG 76.52, BZF27 89.49, CLF27 80.38 (not settlements), TTFZ26 91.39, GLD not read at close. HANS rows, Cushing, SKEW carried from the 20:43Z read. Evidence: research/2026-11-23_boot/BOOT-RECEIPT.md. |
+
+| November 23 laptop session (FRED 17:22Z first-published; vendor intraday to about 15:45 ET, not closes) | FRED HY 376, CCC 1,402, VIXCLS 35.89 [11/20]; T5YIFR 2.12; SOFR less IORB +2 bp [11/20]; 30Y 5.40 [11/19], 11/20 unposted at 15:42 ET (Treasury par 5.31). Vendor about 15:45 ET: ^VIX 26.72 (day high 35.08, low 15.39 rejected as a bad tick), S&P 7,259.87, KRE 69.46, WAL 69.82, NVDA 165.81, HYG 76.59, BZ=F 86.57 (identity UNKNOWN), TTF=F 91.39. HANS rows and fires: research/2026-11-23_return/THRESHOLD-SCAN.md. |
+
+REGISTRY refreshed at this full closeout (step 13, 2026-11-25T04:26:00Z): Updated and Focus mirrored from owner STATUS lead headers for AEOLUS, BROCK, HOMER, REGINALD, TERRY (the only owner STATUS files committed since the last refresh, with CREED unchanged). Status colours not re-derived. PROME prome-77 and homer-2f were live in ListAgents at 23:24 ET; PROME-run subagents are not visible to WALTER, so every other recipient is UNKNOWN, not dark. Wednesday wake order is PROME's (3054d17b0f).
+
 ## 2026-11-25T05:03:21Z light-closeout — full deferred — walter-7f, laptop, gap work after midnight ET (Will 23:52 ET)
 
 Cards 20261125-001 to -004, 0 bookmarks, 0 kills, 1 no-action (copper title). BOARD 2,349. No trigger fire. Evidence: research/2026-11-25_gaps/.

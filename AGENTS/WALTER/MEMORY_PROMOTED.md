@@ -474,3 +474,21 @@ November 23 Monday (walter-7f, laptop): a long session resumed from idle quoted 
 Session note moved verbatim from MEMORY.md:
 
 November 23 Monday evening (walter-7f, laptop): a working session on Will's words, 14 cards. Errors had two shapes: a reading list narrower than the owners' own dated ledgers (four late releases, the Houthi port order three days late, the tanker watch six weeks unreviewed because it was not on LAST_COMPLETION), and a figure or quote carried before it was checked against a second read (WS315.63; a quote Gibson never wrote; HYG). AEOLUS found the flood script's hole by testing it. Rotation of the prior note: MEMORY_PROMOTED.md § Rotation 2026-11-23T22:29:42Z.
+
+## Rotation 2026-11-25T16:53:57Z
+
+11/24 night session note, moved verbatim from MEMORY.md:
+
+November 24 Tuesday night (walter-7f, laptop): a resumption after a fleet outage of about 25 hours. The useful reads came from outside the queue: the FDIC profile a day ahead of its modeled docket row (a bookmark led to it), and two images read whole that settled a date conflict (UKMTO 219-26) and a geography claim (ADNOC notice, not Fujairah). A search summary merged the 11/20 and 11/25 Hodeidah rounds; the page dates separated them. Cluster labels were typed from memory on 7 cards and the dispatch check passed them: read CLUSTER_TAXONOMY first. Rotation of the prior note: MEMORY_PROMOTED.md § Rotation 2026-11-25T04:26:00Z.
+
+## Rotation 2026-11-25T16:55:41Z
+
+Findings 49, 71, 72 and the Telegram feedback line, moved verbatim from MEMORY.md (rotate tier):
+
+- [2026-10-27, Will direct] **Retire WALTER's Telegram connection.** Plugin disabled; launch flags removed; reply/alert duties now use the active Will session under CLAUDE.md Rule 12. Older Telegram auto-memory is historical for WALTER; no reconnection task.
+
+71. **The lane is not a theater feed: an Iranian attack can be absent from every saved headline.** 11/13: Iran's Revolutionary Guards claimed a drone strike on a US radar in Bahrain (CENTCOM: two drones shot down); 0 of 505 headlines in the five 11/13-11/14 versions named it, and the gulf-theater query saved 0 that day (top-15 cut before the seen-title drop). WALTER's Saturday boot missed it; FALCON found it 11/16. Between full Iran sweeps, check FALCON's STATUS and one dated search for US-Iran kinetic events at every boot that carries an Iran card. → PROME packet 2026-11-16_from-WALTER_gulf-coverage-finding-bahrain-1113.md · anchors/IRAN_WAR.md guard
+
+49. **Before routing a REPORTED deadline for an SEC filer, check EDGAR for a same-day filing.** 10/21: `-008` carried Bloomberg's "lender reprieve through October 22" for Car-Mart; the 8-K extending it to November 1 had been accepted that afternoon, and PROME had already packeted BROCK on it. Corrected in `-010` within minutes. A press report of a covenant date is superseded the moment the filer's 8-K lands; `data.sec.gov/submissions` is one call. → `[[finding_directive_overtaken_between_authorship_and_delivery]]`
+
+72. **Name the cluster from CLUSTER_TAXONOMY's 13-row table, and keep a slug short.** 11/18: card 014 went out tagged `AI_CAPEX` (the table says `AI_INFRA_CAPEX`); `dispatch_card.py` did not check it; the doctor caught it after the card had reached origin on another desk's push; fixed at closeout. Card 001's 300-byte slug crashed the dispatcher mid-run (ENAMETOOLONG); it now refuses a BOARD filename over 240 bytes. → design/CLUSTER_TAXONOMY.md · tools/dispatch_card.py
