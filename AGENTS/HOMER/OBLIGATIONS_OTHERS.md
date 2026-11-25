@@ -16,7 +16,7 @@
 | **B9** | ✅ **CLOSED 2026-10-01 — DAEDALUS confirmed the five elements (THESIS.md D7, packet `inbox/processed/2026-10-01_from-DAEDALUS_D1-five-elements-confirmed.md`).** Original ask: **NEW 2026-09-29 — DAEDALUS:** confirm or correct my reading of "five elements per leg" (`thesis/THESIS.md` defect D1; packet `d4f8fe3cd`). No deadline |
 | **B10** | ✅ **CLOSED 2026-09-29 — PROME registered `GATE-HOMER-THESIS-KILL`** (`PROME/GATES.tsv` row `GATE-HOMER-THESIS-KILL`, review_by 11/20) — recorded, nothing owed |
 | **B11** | **TERRY:** answer on the corrected FHA packet (`AGENTS/TERRY/inbox/2026-11-25_from-HOMER_FHA-foreclosures-tradeability.md`; corrected 11/25 13:43). No answer in my inbox at 2026-11-25 14:30 ET. No deadline |
-| **B12** | **Fitch 16 Nov 2026 nonbank review: conflict RESOLVED 2026-11-25** (Fitch's own summary, read by Will, relayed by PROME): nine affirmed, four outlooks revised, no issuer rating cut. **Open:** the FOURTH name and direction (CrossCountry, Rocket, Onity or Provident). Will is reading; PROME relays |
+| **B12** | ✅ **CLOSED 2026-11-25** (Fitch's peer-review commentary, read by Will, relayed by PROME): nine affirmed; PennyMac, Freedom, Planet to Negative; Provident to Stable from Positive. Nothing owed |
 | **B13** | **Will, optional:** MBA FHA serious-delinquency history (site refuses automation; browser only). Wanted for THESIS D3/D15; nothing waits on it |
 | **B14** | **LABOR:** whether it takes the A3 → LABOR edge (residential construction jobs). LABOR's charter, STATUS and brief hold no HOMER or residential line (searched 2026-11-25); packet sent 11/25. My brief addressing LABOR on five rows was never a receipt |
 
