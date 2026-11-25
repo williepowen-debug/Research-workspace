@@ -78,6 +78,13 @@ ACTION_CLOSE_ET = {"_default": "16:00", "SPY": "16:15", "QQQ": "16:15", "IWM": "
 # ⚠️ CAVEAT: keyless-via-browser-UA is undocumented publisher behavior and can tighten without notice.
 BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+# Honest client name (WQ-735, Will 2026-11-23; PROME packet 849a416ff2). Switched 2026-11-25 on the
+# sources that passed it 11/23: agsi.gie.eu, fred.stlouisfed.org, www.cftc.gov, plus www.iua.co.uk
+# (tested 200 on 11/25); api.stlouisfed.org already sends an honest name. rigcount.bakerhughes.com
+# REFUSED it and is NOT switched until Will rules on PROME's 12/07 list. 11/25: the GIE API path
+# (agsi.gie.eu/api) REFUSES it ("Invalid or missing API key"); EU-STORAGE therefore reads DEAD and is
+# NOT switched back (WQ-735 rule 2; packeted to PROME 11/25). BROWSER_UA stays only for Baker Hughes.
+HONEST_UA = "research-bot/1.0"
 
 # Historical September 7 working request shape, retained as the BH fallback.
 # September 15 minimal UA + Accept succeeds; the full shape can time out.
@@ -329,8 +336,7 @@ def probe_fred(series):
         """
         url = ("https://fred.stlouisfed.org/graph/fredgraph.csv"
                f"?id={urllib.parse.quote(series)}")
-        h = dict(BROWSER_HEADERS)
-        h["Accept"] = "text/csv,*/*"
+        h = {"User-Agent": HONEST_UA, "Accept": "text/csv,*/*", "Accept-Encoding": "identity"}
         req = urllib.request.Request(url, headers=h)
         with urllib.request.urlopen(req, timeout=45) as resp:
             if resp.status != 200:
@@ -395,7 +401,7 @@ def probe_fred(series):
 
 def probe_http(url):
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
+        req = urllib.request.Request(url, headers={"User-Agent": HONEST_UA})  # WQ-735: hosts www.cftc.gov, www.iua.co.uk passed
         with urllib.request.urlopen(req, timeout=20) as resp:
             if resp.status != 200:
                 return False, None, f"HTTP {resp.status}"
@@ -434,7 +440,7 @@ def probe_cftc(spec):
         return False, None, f"bad cftc grammar (want raw-url|market): {spec!r}"
     url, market = parts[0].strip(), parts[1].strip()
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
+        req = urllib.request.Request(url, headers={"User-Agent": HONEST_UA})
         with urllib.request.urlopen(req, timeout=60) as resp:
             if resp.status != 200:
                 return False, None, f"HTTP {resp.status}"
@@ -588,11 +594,11 @@ def probe_gie(spec):
 
     supersedes: none — EXTENDS the probe grammar (retirement ratchet), like `arcgis:`.
     """
-    # Full browser UA is LOAD-BEARING, not cosmetic — see docstring and the module-level
-    # BROWSER_UA note. The local shadow was REMOVED 2026-08-21 when probe_http was found to
-    # need the identical fix: one definition, so the next probe that needs it inherits it.
+    # 2026-11-25: agsi.gie.eu passed the honest name on 11/23 (WQ-735), so this probe now sends
+    # HONEST_UA. Its API path refused it on 11/25 (the gate the docstring warns of): the reading is
+    # unavailable by design until Will rules (PROME's 12/07 list); never switch back to BROWSER_UA.
     try:
-        req = urllib.request.Request(spec.strip(), headers={"User-Agent": BROWSER_UA})
+        req = urllib.request.Request(spec.strip(), headers={"User-Agent": HONEST_UA})
         with urllib.request.urlopen(req, timeout=30) as resp:
             if resp.status != 200:
                 return False, None, f"HTTP {resp.status}"
@@ -803,7 +809,7 @@ def probe_jwc(spec):
         return False, None, f"bad baseline circular {baseline!r} (want JWLA-NNN)"
     base_n = int(m0.group(1))
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
+        req = urllib.request.Request(url, headers={"User-Agent": HONEST_UA})  # WQ-735: www.iua.co.uk 200 on research-bot/1.0, 2026-11-25
         with urllib.request.urlopen(req, timeout=30) as resp:
             if resp.status != 200:
                 return False, None, f"HTTP {resp.status}"

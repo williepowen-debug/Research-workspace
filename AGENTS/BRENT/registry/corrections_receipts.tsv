@@ -44,3 +44,9 @@ receipt_date	correction_id	action	note
 2026-11-18T17:59Z	COR-20261118-06	NO-OP	scope=BRENT files never carried card 001 claimant or a TARA GAS merge, and the 11/18 note and STATUS are written to FALCON's grade; 
 2026-11-20T17:05Z	COR-20261119-14	APPLIED	artifact=AGENTS/BRENT/research/2026-11-20_diesel-commission/REPORT.md#2-dated-catalyst-table; validation_ref=NONE; 
 2026-11-20T17:05Z	COR-20261120-12	NO-OP	scope=card 011 embassy wording and card 005 additions touch no BRENT record. No Polish energy or pipeline asset hit and no Druzhba-south flow effect found; 
+2026-11-25T15:26Z	COR-20261123-03	NO-OP	scope=VIX timing, V14 leg and Bahrain-first wording are not BRENT claims, kill strings absent from AGENTS/BRENT outside inbox (grep 2026-11-25); 
+2026-11-25T15:26Z	COR-20261123-04	NO-OP	scope=BRENT never carried no-injuries for Bahrain 11/21, Rabigh hit is CLAIM ONLY with no BRENT row, Bapco product read stays a SCRATCH watch (grep 2026-11-25); 
+2026-11-25T15:26Z	COR-20261123-09	NO-OP	scope=Poland Kh-101 identification is in no BRENT surface, kill strings absent (grep 2026-11-25); 
+2026-11-25T15:26Z	COR-20261123-23	NO-OP	scope=Araghchi and DNI items not carried by BRENT, kill strings absent (grep 2026-11-25); 
+2026-11-25T15:26Z	COR-20261123-25	NO-OP	scope=BRENT STATUS 11/24 already carries the Houthi port order as conditional on a Hodeidah strike with Jeddah named, rates-double headline never carried (grep 2026-11-25); 
+2026-11-25T15:26Z	COR-20261124-21	NO-OP	scope=CIA and ODNI breach is CYPHER lane and not carried by BRENT (grep 2026-11-25); 

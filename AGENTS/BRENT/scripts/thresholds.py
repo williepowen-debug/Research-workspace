@@ -194,20 +194,14 @@ WARN_PCT = 0.05  # 5% proximity warning
 # FRED fetcher (urllib)
 # ---------------------------------------------------------------------------
 
-# Full browser header set — the FRED public CSV endpoint needs the SHAPE, not just a UA.
-# Mirrors instrument_check.BROWSER_HEADERS; duplicated deliberately rather than imported,
-# because this script must stand alone in a cloud checkout with no sibling on sys.path.
+# Honest client name (WQ-735, Will 2026-11-23; PROME packet 849a416ff2): fred.stlouisfed.org and
+# www.eia.gov passed `research-bot/1.0` on 11/23, so the browser header set is retired here
+# (switched 2026-11-25). Rule: if a source later refuses this name, do NOT switch back; mark the
+# reading unavailable and packet PROME (packet rule 2). Prior browser shape: `git log -p` this file.
 _KEYLESS_HEADERS = {
-    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                   "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"),
+    "User-Agent": "research-bot/1.0",
     "Accept": "text/csv,*/*",
-    "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "identity",
-    "Upgrade-Insecure-Requests": "1",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
 }
 
 
