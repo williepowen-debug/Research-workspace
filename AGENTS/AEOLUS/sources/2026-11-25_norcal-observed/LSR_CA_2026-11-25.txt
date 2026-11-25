@@ -1,0 +1,217 @@
+##### KMTR 2026-11-25T19:03:00+00:00
+
+000
+NWUS56 KMTR 251903
+LSRMTR
+
+Preliminary Local Storm Report
+National Weather Service San Francisco CA
+1103 AM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+1051 AM     Coastal Flood    1 NW Sausalito          37.87N 122.51W
+11/25/2026                   Marin              CA   Public
+
+            Photos showing extensive flooding at and around Kappas
+            Marina.
+
+&&
+
+$$
+FR
+
+
+
+##### KMTR 2026-11-25T18:18:00+00:00
+
+000
+NWUS56 KMTR 251818
+LSRMTR
+
+Preliminary Local Storm Report
+National Weather Service San Francisco CA
+1018 AM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+1013 AM     Coastal Flood    5 SW Watsonville        36.86N 121.81W
+11/25/2026                   Santa Cruz         CA   Law Enforcement
+
+            Roadway flooding reported at 52 Rio Boca Rd. Water
+            surging over Beach Rd.
+
+&&
+
+$$
+FR
+
+
+
+##### KMTR 2026-11-25T17:55:00+00:00
+
+000
+NWUS56 KMTR 251755
+LSRMTR
+
+Preliminary Local Storm Report
+National Weather Service San Francisco CA
+954 AM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+0930 AM     Coastal Flood    2 NW Pacifica           37.63N 122.49W
+11/25/2026                   San Mateo          CA   Public
+
+            Live Stream showing Beach Blvd and multiple intersecting
+            streets flooding caused by breaking waves.
+
+&&
+
+$$
+FR
+
+
+
+##### KMTR 2026-11-25T17:43:00+00:00
+
+000
+NWUS56 KMTR 251743
+LSRMTR
+
+Preliminary Local Storm Report
+National Weather Service San Francisco CA
+943 AM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+0116 AM     Coastal Flood    2 W Piedmont            37.82N 122.27W
+11/25/2026                   Alameda            CA   Law Enforcement
+
+            Roadway Flooding report at 3601 Telegraph Ave. Eastbound
+            and Westbound Ashby Offramp flooded.
+
+&&
+
+$$
+FR
+
+
+
+##### KMTR 2026-11-25T17:41:00+00:00
+
+000
+NWUS56 KMTR 251741
+LSRMTR
+
+Preliminary Local Storm Report
+National Weather Service San Francisco CA
+941 AM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+0923 AM     Coastal Flood    3 NW Castroville        36.80N 121.79W
+11/25/2026                   Monterey           CA   Law Enforcement
+
+            Roadway flooding report at 7600 Sandholdt Rd. Ocean water
+            very close to PGE Vault. Road closed.
+
+&&
+
+$$
+FR
+
+
+
+##### KLOX 2026-11-25T18:00:00+00:00
+
+000
+NWUS56 KLOX 251800
+LSRLOX
+
+Preliminary Local Storm Report
+National Weather Service Los Angeles/Oxnard CA
+1000 AM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+0933 AM     Coastal Flood    4 SE La Conchita        34.31N 119.36W
+11/25/2026                   Ventura            CA   Fire Dept/Rescue
+
+&&
+
+$$
+HALL
+
+
+
+##### KSGX 2026-11-25T19:24:00+00:00
+
+000
+NWUS56 KSGX 251924
+LSRSGX
+
+Preliminary Local Storm Report
+National Weather Service San Diego CA
+1124 AM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+0820 AM     Coastal Flood    2 S Huntington Beach    33.66N 118.00W
+11/25/2026                   Orange             CA   Emergency Mngr
+
+            Combination of tides and surf of 4-7 ft at the Huntington
+            Beach pier resulted in inundation of water across the
+            bike path and into portions of Huntington Beach Lifeguard
+            Headquarters. High tide recorded at Los Angeles tide
+            gauge was 8.19 ft MLLW at 8:20 AM PST.
+
+&&
+
+$$
+CO
+
+
+
+##### KSGX 2026-11-25T19:10:00+00:00
+
+000
+NWUS56 KSGX 251910
+LSRSGX
+
+Preliminary Local Storm Report
+National Weather Service San Diego CA
+1108 AM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+0900 AM     Coastal Flood    3 S Carlsbad            33.12N 117.33W
+11/25/2026                   San Diego          CA   Public
+
+            Water running over Highway 101 in Carlsbad near North
+            Ponto. High tide of 8.11 ft MLLW was observed at La
+            Jolla.
+
+&&
+
+$$
+SS/QD
+
+
+

@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "@version": "1.1",
+        "@vocab": "https://api.weather.gov/ontology#"
+    },
+    "@graph": [
+        {
+            "@id": "https://api.weather.gov/products/21014c53-9c59-4b8a-b491-53e791c2b660",
+            "id": "21014c53-9c59-4b8a-b491-53e791c2b660",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KSGX",
+            "issuanceTime": "2026-11-25T19:24:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/c88ca46c-fcdd-474e-a0b0-33d3352dbd6b",
+            "id": "c88ca46c-fcdd-474e-a0b0-33d3352dbd6b",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KSGX",
+            "issuanceTime": "2026-11-25T19:10:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/03abb4db-51a7-449d-9761-5658c05cd15c",
+            "id": "03abb4db-51a7-449d-9761-5658c05cd15c",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KSGX",
+            "issuanceTime": "2026-11-20T00:02:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        }
+    ]
+}

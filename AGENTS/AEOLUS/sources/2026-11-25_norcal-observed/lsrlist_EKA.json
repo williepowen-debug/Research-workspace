@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "@version": "1.1",
+        "@vocab": "https://api.weather.gov/ontology#"
+    },
+    "@graph": [
+        {
+            "@id": "https://api.weather.gov/products/b8dc0d39-fa14-455b-8bff-e03f09aeb3af",
+            "id": "b8dc0d39-fa14-455b-8bff-e03f09aeb3af",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KEKA",
+            "issuanceTime": "2026-11-24T18:15:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/20ffa73e-829b-4963-a185-3325bb8d3f4f",
+            "id": "20ffa73e-829b-4963-a185-3325bb8d3f4f",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KEKA",
+            "issuanceTime": "2026-11-24T18:01:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/843522d7-6997-40f2-bc9a-d09df9d75b3b",
+            "id": "843522d7-6997-40f2-bc9a-d09df9d75b3b",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KEKA",
+            "issuanceTime": "2026-11-24T18:00:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/b2856568-c58b-4510-ab5d-d7a439c6e83a",
+            "id": "b2856568-c58b-4510-ab5d-d7a439c6e83a",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KEKA",
+            "issuanceTime": "2026-11-24T17:49:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/e9b5e334-cb43-4700-bc62-b92b9a8343f0",
+            "id": "e9b5e334-cb43-4700-bc62-b92b9a8343f0",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KEKA",
+            "issuanceTime": "2026-11-24T17:02:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/a25aaf94-5897-4eeb-8bcd-ccb833d3b97e",
+            "id": "a25aaf94-5897-4eeb-8bcd-ccb833d3b97e",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KEKA",
+            "issuanceTime": "2026-11-19T07:30:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "@context": {
+        "@version": "1.1",
+        "@vocab": "https://api.weather.gov/ontology#"
+    },
+    "@graph": [
+        {
+            "@id": "https://api.weather.gov/products/7ca48bca-b39d-420c-b476-eac28f3efa6a",
+            "id": "7ca48bca-b39d-420c-b476-eac28f3efa6a",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-25T18:00:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/a624fb47-09cc-4ee6-9c98-002c21dc46bd",
+            "id": "a624fb47-09cc-4ee6-9c98-002c21dc46bd",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-20T03:37:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/3b11f77d-2154-4b38-8753-b22572bf113b",
+            "id": "3b11f77d-2154-4b38-8753-b22572bf113b",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-20T03:30:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/9e5a0042-e7ea-43d7-acd4-bd6821782749",
+            "id": "9e5a0042-e7ea-43d7-acd4-bd6821782749",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T21:42:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/3be2d36b-28d5-48f6-b7cf-f4e5efc6f824",
+            "id": "3be2d36b-28d5-48f6-b7cf-f4e5efc6f824",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T21:41:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/c05b6828-1505-42ca-bf15-1a77b212dae0",
+            "id": "c05b6828-1505-42ca-bf15-1a77b212dae0",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T19:32:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/56635b68-b394-44f7-bb58-a7d1e5a225e9",
+            "id": "56635b68-b394-44f7-bb58-a7d1e5a225e9",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T19:22:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/b416bd47-1a34-4930-9327-3a2bdac34f1f",
+            "id": "b416bd47-1a34-4930-9327-3a2bdac34f1f",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T18:54:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/4f5df14a-77de-4134-8c65-a6cf4dba8d3b",
+            "id": "4f5df14a-77de-4134-8c65-a6cf4dba8d3b",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T18:25:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/a93d1215-a421-4eda-8772-0401424277a4",
+            "id": "a93d1215-a421-4eda-8772-0401424277a4",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T18:18:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/4beed072-1077-4c7b-bd84-cb556c5ad74a",
+            "id": "4beed072-1077-4c7b-bd84-cb556c5ad74a",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T17:28:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/34df18c0-6976-4c9f-b885-38d6e22fa3bc",
+            "id": "34df18c0-6976-4c9f-b885-38d6e22fa3bc",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T16:57:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/b8a09618-a54e-4ae7-9fef-b2c462255050",
+            "id": "b8a09618-a54e-4ae7-9fef-b2c462255050",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T16:31:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/ac756303-148a-4238-9299-bb50bc46db86",
+            "id": "ac756303-148a-4238-9299-bb50bc46db86",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T15:43:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/058cde4a-af2a-4415-b049-1302def8b997",
+            "id": "058cde4a-af2a-4415-b049-1302def8b997",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T15:01:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/6191dbd0-4bcb-4364-8247-50fb27efd736",
+            "id": "6191dbd0-4bcb-4364-8247-50fb27efd736",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T14:40:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        },
+        {
+            "@id": "https://api.weather.gov/products/1ff92c9b-0507-418c-95bd-42e8a63df5e0",
+            "id": "1ff92c9b-0507-418c-95bd-42e8a63df5e0",
+            "wmoCollectiveId": "NWUS56",
+            "issuingOffice": "KLOX",
+            "issuanceTime": "2026-11-19T13:02:00+00:00",
+            "productCode": "LSR",
+            "productName": "Local Storm Report"
+        }
+    ]
+}

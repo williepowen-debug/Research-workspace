@@ -8,11 +8,12 @@
 **Maintain first-class tracking on MAJOR RIVER water shortages — especially where they affect SHIPPING / TRADE.** Will confirmed C6 water stays inside AEOLUS (no standalone agent for now) AND named the river→navigation→freight nexus as a priority. Coverage split: **C5 = river NAVIGATION→freight** (Rhine, Mississippi/Ohio; the "affects shipping/trade" leg; current score in STATUS); **C6 = water ALLOCATION** (Colorado reservoirs/shortage-tiers/hydropower). Keep a standing scan on the major navigable trade rivers: **Rhine, Mississippi/Ohio, Yangtze, Danube, Paraná** + Panama chokepoint. An empty river read is a gap to close (the #1 guard applies to this watch).
 *(August trade lines resolved 8/12 → `archive/SCRATCH_ARCHIVE_2026-11-23_august-trade-lines.md`. No live trade instruction stands here; TRADE.md row 1 = not armed.)*
 
-## 🔴 NEXT SESSION — START HERE (2026-11-25 12:02 ET close, PROME wake on Will's word: card SIG-W-20261125-009 + D:L1256, Claude Code Opus 5.5)
+## 🔴 NEXT SESSION — START HERE (2026-11-25 14:50 ET close, PROME due-row wake D:L1256 owed #23, Claude Code Opus 5.5)
 
-1. **Owed #23: NorCal observed highs 11/25** (predicted peaks ET: Arena Cove 13:12, SF 13:48, Crescent City 13:54, North Spit 14:06). At 08:48 PST the naive projections (predicted high + current residual) were SF ~7.95 vs 8.663, North Spit ~9.86 vs 10.359, Arena Cove ~8.77 vs 8.862, Crescent City ~9.47 vs 10.663 (KB-333). CO-OPS answered normally from 11:47 ET 11/25 (pace 2 s, same `application=research` query, default curl client). Also Wed impact LSRs (KMTR/KEKA) and SoCal Thu morning (SD predicted 7.303 at 09:19 PST).
-2. **Florida:** rain ends early Thu; DeLand 6.3 Sat 11/28 vs 6.33 record (unscored ~40%); Sanford 8.5 vs 8.96. CORAL has the hazard read (ef14875b4e). The SE FL watch outcome (to 01:00 ET 11/26) is still mine to read: station totals for the full day.
-3. Then the 11/24 block below: 11/27 European low water grade; 11/26 Memphis/CEC/barge.
+1. **#23 DONE** (KB-334…336): Arena Cove 9.216 record; Santa Barbara 8.209 record; Monterey 8.032 one sample; SF 8.213, North Spit 9.814, Crescent City 9.741 not. **Record basis from now: above BOTH NOAA top-ten (`dpapi ... name=toptenwaterlevels`) and the 6-min series; between = name the basis (KB-335).** Residue: North Spit data ended 14:24 ET inside its window to 16:00 ET (falling); verified (q=v) values later. CO-OPS answered 18 paced requests at 14:32–14:37 ET (3 s, default curl, `application=research`). Thu highs next (SD predicted 7.303 at 09:19 PST); Oregon/Charleston 11/25 still rising at my read.
+2. **December view (unscored):** a new high at SD, LJ, SB or Arena Cove on 12/23–25 ~60%; SF ~20% (needs residual +1.43 at 12/24 predicted 7.23; 11/24–25 gave +1.29 / +1.18). Re-read the mid-December residual (CO-OPS 12/1–15) before 12/23.
+3. **Florida:** DeLand forecast RAISED to 6.4 at 19:00 ET Sat 11/28 vs 6.33 record (KB-337, ~55% unscored); CORAL packet sent. SE FL watch outcome (to 01:00 ET 11/26) still mine: full-day station totals.
+4. Then the 11/24 block below: 11/27 European low water grade; 11/26 Memphis/CEC/barge.
 
 ## (prior) NEXT SESSION — START HERE (2026-11-24 23:39 ET close, session aeolus-desk-agent-2026-11-24, Claude Code Opus 5.5, PROME wake on Will's word)
 
