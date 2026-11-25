@@ -492,3 +492,11 @@ Findings 49, 71, 72 and the Telegram feedback line, moved verbatim from MEMORY.m
 49. **Before routing a REPORTED deadline for an SEC filer, check EDGAR for a same-day filing.** 10/21: `-008` carried Bloomberg's "lender reprieve through October 22" for Car-Mart; the 8-K extending it to November 1 had been accepted that afternoon, and PROME had already packeted BROCK on it. Corrected in `-010` within minutes. A press report of a covenant date is superseded the moment the filer's 8-K lands; `data.sec.gov/submissions` is one call. → `[[finding_directive_overtaken_between_authorship_and_delivery]]`
 
 72. **Name the cluster from CLUSTER_TAXONOMY's 13-row table, and keep a slug short.** 11/18: card 014 went out tagged `AI_CAPEX` (the table says `AI_INFRA_CAPEX`); `dispatch_card.py` did not check it; the doctor caught it after the card had reached origin on another desk's push; fixed at closeout. Card 001's 300-byte slug crashed the dispatcher mid-run (ENAMETOOLONG); it now refuses a BOARD filename over 240 bytes. → design/CLUSTER_TAXONOMY.md · tools/dispatch_card.py
+
+## Rotation 2026-11-25T16:56:50Z
+
+Findings 42 (pointer) and 70, moved verbatim from MEMORY.md:
+
+70. **Auction cards never ask BOND for a tail.** A tail needs the when-issued yield at the bid deadline and TreasuryDirect does not publish it (BOND retired the row 2026-07-28, "unscoreable by construction"). 11/12: card 007 asked; BOND corrected at 13:47 ET. Also: TA_WS `auctionDate` can be empty; key a results watcher on the CUSIP. → `AGENTS/BOND/CLAUDE.md` (Auction tail row)
+
+42. Rotated verbatim to MEMORY_PROMOTED.md § Rotation 2026-11-10T20:02:51Z (VULCAN-domain capacity rule).
