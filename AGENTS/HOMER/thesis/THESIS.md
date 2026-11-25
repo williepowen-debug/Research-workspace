@@ -179,7 +179,7 @@ Entries 2026-10-15 to 2026-11-16 (0 of 5 legs at every entry): `archive/THESIS_h
 | **C2 · CMBS** | none (Trepp November ~12/01–05) | **0 / 3** |
 | **C2 · GSE** | Freddie **0.62%**, Fannie **0.65%** October (issuers) ⇒ max 0.65% ≥ 0.50% | **0 / 3** |
 | **A1** | no new MBA print. First conjunct on the §11 wording: **0 of 2**. Cure YoY not printed by ICE | **UNGRADED stands** (11/20; D12). Open question to PROME 2026-11-25: how the letter reads at 2027-02-20 with the first half known and the cure half unread |
-| **A2** | 7.28% [11/19] is the newest; next print due 2026-11-25 12:00 ET | **0 / 4** |
+| **A2** | **7.21% [11/25]** (−7bp; Freddie CSV, issuer); 71bp above the line | **0 / 4** |
 | **A3** | none (December HMI ~12/15–17) | **0 / 3** |
 
 **LITERAL FIRED-COUNT: 0 of 5 legs ⇒ 🔴 holds.**
@@ -196,7 +196,7 @@ Entries 2026-10-15 to 2026-11-16 (0 of 5 legs at every entry): `archive/THESIS_h
 | **C2 · CMBS** | Trepp MF DQ < 6.00%, 3 prints | **8.09%** (October, Trepp issuer PDF, read 11/05); November data ~12/01–05 | **0 / 3** | **NOT FIRED** |
 | **C2 · GSE** | max(Freddie, Fannie serious) < 0.50%, 3 prints | Freddie **0.58%** (Sept MVS) · Fannie **0.62%** (9/30, Q3 release) ⇒ max 0.62%; Fannie MF provision **$446M vs $259M** QoQ (rose, V3). October monthlies not out | **0 / 3** | **NOT FIRED** |
 | **A1** | MBA NDS FHA SA total DQ falls QoQ in 2 consecutive quarters AND ICE all-loans serious-DQ cure YoY better than −15% on the latest issue | **First conjunct MET:** Q2 11.79% (−9bps) and **Q3 11.74% (−5bps)** (MBA NDS released 11/20, quoted verbatim on CalculatedRisk; SECONDARY mirror, mba.org 403). **Second conjunct: NO READING** — ICE did not print the all-loans cure YoY in the October or November editions; last printed −28% (July), worse than −15% | first conjunct **2 of 2**; second **UNGRADED** | **NOT KILLED — UNGRADED** (§4: not NOT-FIRED; D12) |
-| **A2** | PMMS ≤ 6.50%, 4 weeks | **7.21% [11/25]** (−7bp; Freddie CSV, issuer) | **0 / 4** | **NOT FIRED** — 71bp above the line |
+| **A2** | PMMS ≤ 6.50%, 4 weeks | **7.28% [11/19]** (+17bp; Freddie CSV, issuer) | **0 / 4** | **NOT FIRED** — 78bp above the line |
 | **A3** | HMI ≥ 40, 3 prints | **HMI 25** November (NAHB release 11/17, issuer), lowest since April 2012 | **0 / 3** | **NOT FIRED** — 15 points below |
 
 **LITERAL RESULT: 0 of 5 legs KILLED** (4 NOT FIRED, 1 UNGRADED). §4 row "anything else" ⇒ **🔴 holds.** No colour candidate exists, so nothing goes to Will; the same-day CARL packet is owed only on FALSIFIED or PARTIAL (V5 held: neither was reachable). CARL receives this grade through `NEXUS_BRIEF.md`.
