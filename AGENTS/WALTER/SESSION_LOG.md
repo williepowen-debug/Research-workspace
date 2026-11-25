@@ -1,3 +1,7 @@
+## 2026-11-25T05:03:21Z light-closeout — full deferred — walter-7f, laptop, gap work after midnight ET (Will 23:52 ET)
+
+Cards 20261125-001 to -004, 0 bookmarks, 0 kills, 1 no-action (copper title). BOARD 2,349. No trigger fire. Evidence: research/2026-11-25_gaps/.
+
 ## 2026-11-25T04:48:17Z light-closeout — full deferred — walter-7f, laptop, Tue 11/24 late boot (Will 23:34 ET after /clear)
 
 Cards 20261124-020 (FinCEN), -021 (correction of 018 item 8), -022 (LIQUID gates 072 leg 2 and 069 L4, IMMEDIATE), -023 (Fed G.17 annual revision, Ifo, Australia CPI). Two packets consumed. 0 kills. BOARD 2,345. SKEW reset 11/23 (140.37), exit 1 of 4 at 139.16 [11/24]. Near-trigger: none new. Evidence: research/2026-11-24_reboot/.

@@ -4,6 +4,8 @@ Updated 2026-11-25T04:26:00Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 
 **Addendum 2026-11-25T04:48:17Z, late boot (Will 23:34 ET), Tier 1 LIGHT, full deferred (1 breadcrumb):** cards 20261124-020 to -023; nothing above or below withdrawn except as marked here. LIQUID's gate packet routed (022); HOMER's inflow withdrawal noted, no card carried it. CORAL has read the declaration (item 2's OpenFEMA check is CORAL's, REPORTED). HENRY, LIQUID, AEOLUS, CORAL graded their late rows 11/24. Owed: CYPHER (020, 021), ISHM (023), NEXUS, VULCAN, VIOLET, HENRY (022) consumption. Boot PARTIAL: not read: whole trailing 48 h route log, all other owner STATUS heads, PortWatch or a FALCON Iran read since 23:15 ET; boundaries 1, 2, 4, 6, 8 not cleared; a first dated search found no new Hodeidah or Jeddah port hit (not proof). FinCEN alert text unread at FinCEN.
 
+**Addendum 2026-11-25T05:03:21Z, gap work (Will 23:52 ET: "lets work on the gaps, routing new signals, and checking bookmarks"):** cards 20261125-001 to -004 (001 IMMEDIATE: Asia AI selloff; 002 Hormuz claims, FALCON; 003 tanker cyber, CYPHER, FALCON; 004 issuer reads, FERT, SAM, CARL, CORAL). Bookmarks: 0 new at 05:02Z, all read. Closed: trailing route log read (11/19 on), owner STATUS heads read (45 desks' leads; not whole files), CHECKLIST read whole, Iran guards read whole, newsweep degraded = 1 of 66 requests failed, ERS, FHFA, AAA, JGB 40Y and Richmond read at issuer, boundaries 1, 2, 6, 8 read on vendor estimates (far), READS packet sent to PROME (PROME/inbox/2026-11-25_from-WALTER_reads-reattestation-wq744-and-one-new-read.md). **Still open:** conference-board.org 103.3 (not served), FinCEN alert text, NBC leader-targeting report, carrier count (FALCON), full BOARD consumption (PROME wakes). **For the filter review:** confidence_language off-vocabulary on 229 of 460 November cards; no DOORBELL_LOG rows for 20261124-001 to -019; boundary 4 has no instrument (a retirement needs Will; via PROME).
+
 ## RESUME — do these first
 
 1. **Filter review (Will 17:18 ET 11/23, "Go 1 tomorrow after the morning releases"): OWED, NOT STARTED.** FILTER_V3_REVIEW: sample recent cards against what desks used; a report, changes nothing without Will. Offered to Will 11/24 night: now or after Wednesday's releases; he chose to close out.
@@ -17,7 +19,7 @@ Updated 2026-11-25T04:26:00Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 9. **Collector:** last lane batch marked data/2026-11-24/news.json (23:56Z); read newer batches and rewritten versions.
 10. **Carries from the prior list:** Nvidia 10-Q, SKEW exit 1 of 4 (run RESET 11/23 at 140.37; 139.16 [11/24], Cboe), YUR-010 by 12/03, SpaceX lease 8-K, Seeking Alpha GPU item UNREVIEWED, 34 GPU titles TITLE ONLY (26 plus 8 tonight, the SpaceX-chip title among them), CATO's unconsumed 10/19 ACTION, read-cap rotations WALTER does not own, whole-file CHECKLIST read, READS rows done by PROME (d3f668a5b0). Recurring combo:none named to PROME: USD/JPY near 160, House majority; tonight added Treasury-dealer exits (Commerzbank) and CME margin changes.
 
-Calendar coverage cutoff: 2026-11-25T04:45:00Z (step 7i ran at the late boot: DOCKET, HENRY calendar, ISHM, HOMER, ZHAO, SAM, CARL, LABOR, BOND ledgers; research/2026-11-24_reboot/CALENDAR-RECONCILIATION.tsv; UNKNOWN there: ERS Food Price Outlook, FHFA Q3 HPI, AAA gasoline V5, JGB 40Y auction).
+Calendar coverage cutoff: 2026-11-25T04:45:00Z (step 7i ran at the late boot: DOCKET, HENRY calendar, ISHM, HOMER, ZHAO, SAM, CARL, LABOR, BOND ledgers; research/2026-11-24_reboot/CALENDAR-RECONCILIATION.tsv; the four rows UNKNOWN there were read at issuer on 20261125-004).
 
 ## STATUS
 
@@ -60,7 +62,7 @@ Tier 2 FULL closeout, walter-7f, laptop. Publication is not consumption. Retirem
 <!-- CLOSEOUT_RECEIPT_JSON
 {
  "schema": 1,
- "as_of": "2026-11-25T04:48:17Z",
+ "as_of": "2026-11-25T05:03:21Z",
  "next_review": "2026-11-25",
  "publication": [
   {
@@ -97,6 +99,11 @@ Tier 2 FULL closeout, walter-7f, laptop. Publication is not consumption. Retirem
    "commit": "69c9ae7cb1",
    "state": "published",
    "note": "late boot cards 020 to 023"
+  },
+  {
+   "commit": "a374a21ec5",
+   "state": "published",
+   "note": "20261125 cards 001 to 004; 32 of 32 rows delivered"
   }
  ],
  "delivery": {

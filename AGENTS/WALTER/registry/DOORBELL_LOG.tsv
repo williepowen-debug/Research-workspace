@@ -598,3 +598,21 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-23	FALCON	SIG-W-20261123-015	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 15:40 ET; PROME has FALCON on Wed 11/25; ROUTINE.
 2026-11-23	BROCK	SIG-W-20261123-012	NONE	L1-UNKNOWN	NO	NA	NA	NA		PROME triage 14:35 ET: BROCK Tue 11/24 wake names the card.
 2026-11-23	VULCAN	SIG-W-20261123-012	NONE	L1-UNKNOWN	NO	NA	NA	NA		PROME triage 14:35 ET: VULCAN Wed 11/25 row names the card.
+2026-11-24	CYPHER	SIG-W-20261124-020	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-24	CYPHER	SIG-W-20261124-021	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-24	HENRY	SIG-W-20261124-022	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-24	NEXUS	SIG-W-20261124-022	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-24	VULCAN	SIG-W-20261124-022	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-24	VIOLET	SIG-W-20261124-022	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-24	ISHM	SIG-W-20261124-023	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-25	VULCAN	SIG-W-20261125-001	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-25	SAM	SIG-W-20261125-001	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-25	HENRY	SIG-W-20261125-001	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-25	VIOLET	SIG-W-20261125-001	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-25	FALCON	SIG-W-20261125-002	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-25	CYPHER	SIG-W-20261125-003	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-25	FALCON	SIG-W-20261125-003	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-25	FERT	SIG-W-20261125-004	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-25	SAM	SIG-W-20261125-004	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-25	CARL	SIG-W-20261125-004	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
+2026-11-25	CORAL	SIG-W-20261125-004	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents (PROME subagents not visible); UNKNOWN by 9b. PROME told by message the same sitting; wake order is PROME's.
