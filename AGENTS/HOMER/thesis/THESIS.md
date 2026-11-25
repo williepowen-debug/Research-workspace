@@ -105,7 +105,7 @@ Open rows only; D1, D2, D4 to D11 (block G) need nothing further and still ship 
 |---|---|---|---|
 | D3 | 2026-09-29 | A1 base window is general knowledge | MBA NDS FHA SA history |
 | D12 | 2026-11-16 | **A1 second conjunct has no reading at 11/20.** The kill needs the ICE Mortgage Monitor all-loans cure-rate YoY "on the latest issue at that grade"; the October and November editions did not print it (STATUS, HB-08 UNGRADED). The last printed value was −28% (July), worse than the −15% line. FHA-only −46% does not grade it. Found by HOMER in pre-grade prep; no level or criterion moved | At 11/20 grade A1's second conjunct UNGRADED (§4: not NOT-FIRED) and say so; A1 cannot read FIRED on the first conjunct alone. Whether to name a successor statistic is a between-grade amendment, raised to PROME, never made at grading |
-| D18 | 2026-11-25 | §8a C2 cites special servicing 9.22% and Trepp 8.09% without sizing. Each October rise is about one loan: Cove ~28bp (ex-Cove ~7.8%, below September), Blackjack ~69bp (ex-Blackjack ~8.5%, flat). DERIVED on Trepp's August base (`MULTIFAMILY.tsv` 11/25). Score and count unmoved | Read this row with C2; re-score at the 2027-02-20 grade |
+| D18 | 2026-11-25 | §8a C2 cites special servicing 9.22% and Trepp 8.09% without sizing. Each October rise is about one loan: Cove ~28bp (ex-Cove flows about −3bp: flat, not falling), Blackjack ~69bp (ex-Blackjack ~8.5%, flat). DERIVED on Trepp's August base (`MULTIFAMILY.tsv` 11/25). Score and count unmoved | Read this row with C2; re-score at the 2027-02-20 grade |
 
 ---
 

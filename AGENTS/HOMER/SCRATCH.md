@@ -10,6 +10,7 @@
 | Cleanup | THESIS, LESSONS, NEXUS brief under 70% of budget (verbatim moves to `archive/`); COVERAGE, MEMORY infra, OBLIGATIONS_OTHERS, MAINTENANCE refreshed. Detail: MAINTENANCE.md 2026-11-25 |
 | PROME's outside-review facts (peer message) | Checked at source and recorded: Cove ~28bp and Blackjack ~69bp on Trepp's August $75.48B base (DERIVED); both October Trepp highs are about one loan each; my "no Trepp MF balance held" was wrong (LESSONS §39, n=2). Record against my own odds: 1 of 4, Brier 0.358. Fitch: American Banker is a sister title (conflict since resolved, below). THESIS D18 |
 | Three open items (Will 14:50 ET) | Blackjack: NOT in Trepp October DQ (issuer ranking). Fitch: RESOLVED 15:16 ET (Will's browser via PROME): nine affirmed, four outlooks revised; fourth name still to come (CrossCountry, Rocket, Onity or Provident). ICE: not retrieved |
+| NEXUS packet (3 facts) | All accepted: GSE/VA default rotation into the brief; ex-Cove narrowed (flows ≈ −3bp, flat); LABOR packet sent, edge NOT encoded at LABOR until it answers |
 | Docket | Thesis-grade row: A1 early-date clause corrected (0 of 2) |
 
 No band, count, score, kill test or registered odds changed.
