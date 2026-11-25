@@ -1033,3 +1033,15 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-25T11:51:45-05:00	SIG-W-20261125-018	acted	INBOX_WALTER	HY 372 bp [11/24] confirmed at FRED 11:39 ET (BB 225, CCC 1,405, CCC-BB 1,180). 11/24 grade settled: S&P 7,201.09 and VIXCLS 26.36 on FRED confirm the 11/21 upside marker's 11/24 hold. SoftBank 25% line at Arm $150.1 central (SAM). Read ML-HEN-247/248.
 2026-11-25T11:51:45-05:00	SIG-W-20261125-020	noted	INBOX_WALTER	Owner outcomes: CARL V5 4 to 3 fired, CRL-32 missed; new home sales 701K with September cut to 614K; EIA; claims 189K; core capex +1.2%. Logged for combination (ML-HEN-249). Nothing HENRY grades.
 2026-11-25T11:51:45-05:00	2026-11-25_from-ISHM_durables-g17-revision-deere	noted	INBOX_GENERAL	ISHM: durables, G.17 annual revision (IP levels restated on a 2022 base: compare changes, never levels), Deere. Ask none. Logged ML-HEN-249.
+2026-11-25T15:36:53-05:00	SIG-W-20261125-022	acted	INBOX_WALTER	CoreWeave 5Y 1,363 cancelled: corrected in STATUS, NEXUS_BRIEF, KB ML-HEN-249 and the midday READ; COR-20261125-22 receipted APPLIED.
+2026-11-25T15:36:53-05:00	SIG-W-20261125-023	info-only	INBOX_WALTER	Hodeidah headline correction; no HENRY surface cites it; COR-20261125-23 NO-OP.
+2026-11-25T15:36:53-05:00	SIG-W-20261125-024	noted	INBOX_WALTER	CoreWeave Oct 2031 bonds 74.23 / 17.91%, June 2030 record low 76.55; CCC effective yield 18.66 [11/24]. Single-name context; no level moved.
+2026-11-25T15:36:53-05:00	SIG-W-20261125-025	info-only	INBOX_WALTER	Small items; Kalshi 93% December hike (ORACLE owns); Q3 GDP price index 1.9% screenshot only, not re-read.
+2026-11-25T15:36:53-05:00	SIG-W-20261125-029	info-only	INBOX_WALTER	Record tides, first card; AEOLUS.
+2026-11-25T15:36:53-05:00	SIG-W-20261125-030	info-only	INBOX_WALTER	Record tides, second card; AEOLUS.
+2026-11-25T15:36:53-05:00	SIG-W-20261125-031	noted	INBOX_WALTER	CoreWeave $4.5B Meta loan report (Bloomberg unread); as corrected by 035 and 036. Deal-level test for the broadening view is a pulled or repriced sale.
+2026-11-25T15:36:53-05:00	SIG-W-20261125-032	info-only	INBOX_WALTER	Ofgem cap +26%; HANS.
+2026-11-25T15:36:53-05:00	SIG-W-20261125-033	noted	INBOX_WALTER	Owner answers. WALTER marks HENRY 11:50 ET pinned-at-7,000 view overtaken (S&P about 7,184 at 14:27 ET): agreed; re-mark due at the close check (D:L1271).
+2026-11-25T15:36:53-05:00	SIG-W-20261125-034	info-only	INBOX_WALTER	Small items; Goldman CTA $68B over five days, title only, unread (combo:VIOLET/systematic-selling).
+2026-11-25T15:36:53-05:00	SIG-W-20261125-035	noted	INBOX_WALTER	031 corrected: indications of interest match deal size, existing loans near par, lender-stress reading weakens. COR-20261125-35 NO-OP.
+2026-11-25T15:36:53-05:00	SIG-W-20261125-036	info-only	INBOX_WALTER	Two CoreWeave 2031 bonds, not confirmation; COR-20261125-36 NO-OP.

@@ -76,3 +76,5 @@
 ## 5. Sources
 
 BEA `apps.bea.gov/national/Release/TXT/NipaDataM.txt` and `SeriesRegister.txt` (200, 11:43 ET); ALFRED `alfredgraph.csv` vintage 2026-11-24; FRED `fredgraph.csv` (SP500, VIXCLS, BAMLH0A0HYM2, BAMLH0A1HYBB, BAMLH0A3HYC, EFFR, DFEDTARU/L) read 11:39 ET; vendor quotes and bars via `FORGE/tools/market-data/fetch.py` and the vendor library 11:39–11:50 ET; NYSE `nyse.com/trade/hours-calendars` and SIFMA holiday schedule (200, 11:48 ET). Not used: Cboe (refuses this box since 11/20), cmegroup.com (refuses this box), Quartr.
+
+**CORRECTION 2026-11-25 15:36 ET (SIG-W-20261125-022):** § 4 cites CoreWeave 1,314 → 1,363–1,379. The 1,363 five-year trade was cancelled by its reporter, the 1,379 is a four-year, and there is no valid 11/25 five-year; the last valid is 1,314 [11/24]. "Set records" is withdrawn for 11/25. The § 4 odds were not recomputed.
