@@ -109,3 +109,19 @@ Same plain session named `research-bot/1.0`, one call every 90 seconds, two roun
 **Established:** at one call per 90 seconds, 7 of 8 failed, over 11 minutes. Company info and options failed every time in both runs (0 of 6). Price history worked 1 time in 3. The fleet tool, which uses the Chrome-imitating session, pulled prices from this same laptop at 12:04 and 13:00 ET today.
 **Inferred, not proven:** this is a refusal of the honest client on Yahoo's cookie-based calls, reported as a rate limit. A real rate limit would not persist at this pace, and the browser-named tool was not limited the same day. No side-by-side browser request was sent, by the rule.
 **Consequence:** the price tool cannot be switched to the honest name and keep working. It stays unswitched and goes to Will on 12/07 with a replacement proposal.
+
+## Addendum 2026-11-25 (PROME prome-77, 2026-11-25 12:52 ET): sources the 11/23 scan missed
+
+An outside commit review (read at origin/master 1c7f415407; Will gave PROME the file at 12:50 ET 11/25) found five live scripts at four desks that still send a browser string and were not in this test: the scan matched some string forms and not others. PROME verified each at the file, then ran each untested source ONCE with `research-bot/1.0` from the laptop, 12:50 to 12:52 ET 11/25 (curl; the PJM page with the site's own redirect followed).
+
+| Source | Desk and script | Result under the honest name |
+|---|---|---|
+| emergencyprocedures.pjm.com | WATT `power_watch.py` | works: HTTP 200 after the site's redirect to `/ep/pages/dashboard.jsf`, 120,221 B |
+| www.eia.gov wholesale xlsx (`ice_electric-2026.xlsx`) | WATT `power_watch.py` | works: HTTP 200, a valid xlsx |
+| www.westmetall.com | MIDAS `metals_watch.py` | works: HTTP 200, 32,252 B |
+| www.cftc.gov `deafut.txt` | MIDAS `cot_gold.py`, `cot_metals.py` | works: HTTP 200 |
+| www.federalreserve.gov FOMC calendar | BOND `monitors/rates_context.py` | works: HTTP 200 |
+| www.newyorkfed.org ACM term-premium file | BOND `monitors/rates_context.py` | works: HTTP 200, 10,177,024 B |
+| news.google.com RSS search | CYPHER `boot.py` leg 10 | works: HTTP 200, valid RSS |
+
+BOND `monitors/dm_cross_section.py` uses ECB, Bank of England and Japan MoF, which are in the table above from 11/23; not re-run. Packets sent 11/25 to WATT, MIDAS, BOND and CYPHER (`AGENTS/<desk>/inbox/2026-11-25_from-PROME_WQ-735-honest-client-name.md`). Limits: one request each; no desk parser was exercised; the count of script files still carrying "Mozilla/5.0" was 127 at this check, most of them research and archive scripts that no longer run (not classified one by one). The second pass over written recipes is D:L1239.
