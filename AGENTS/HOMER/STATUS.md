@@ -35,7 +35,7 @@
 | **HUD ML 2026-08** | **Compliance date 9/21 PASSED; no extension found** (absence of notice, not HUD confirmation) | 🔴 accelerant in force — first visible in FHA FC starts, ~late Oct |
 | **★★ Non-bank servicer watch** | **CLASS A FIRED AGAIN 2026-11-16: Fitch outlook NEGATIVE on Pennymac (BB), Planet (B), Freedom (BB-)**; all nine ratings affirmed (HousingWire 11/17, SECONDARY; primary owed). UWM Fitch leverage 5.3x vs 2.7x end-2025; issuer basis 1.77x debt/equity: never splice. First firing 8/07 (UWM BB- → B+). LDI: 60+ DQ 2.0% vs 1.5% | 🔴 **FIRED (A) twice**; no covenant breach, draw or transfer found |
 
-★★ **STOCK STILL BUILDING, GROWTH PAST ITS PEAK (corrected 11/24).** 'Inflow cooling' was a base effect: FC starts Q3 ~115.6K vs 103K = **+12% YoY**, about flat on Q2; Sept's −3% compared with a ~41K Sept-2025. 'Conversion accelerating' is also wrong: FC sales YoY slowed from +41% (Dec-25) to +12–15% (Jul–Sep); the LEVEL is the highest since Feb-2020. FHA cures −46% YoY still limit relief.
+★★ **STOCK STILL BUILDING, YoY GROWTH BELOW EARLIER READINGS (corrected 11/24; 'past its peak' narrowed 11/25, CATO: slower growth does not establish a peak).** 'Inflow cooling' was a base effect: FC starts Q3 ~115.6K vs 103K = **+12% YoY**, about flat on Q2; Sept's −3% compared with a ~41K Sept-2025. 'Conversion accelerating' is also wrong: FC sales YoY slowed from +41% (Dec-25) to +12–15% (Jul–Sep); the LEVEL is the highest since Feb-2020. FHA cures −46% YoY still limit relief.
 
 ### Multifamily — GSE + CMBS Books
 | Metric | Value (as of) | Band |
