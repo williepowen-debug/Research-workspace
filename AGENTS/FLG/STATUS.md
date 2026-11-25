@@ -1,10 +1,10 @@
 # FLG STATUS
 
-**Last Updated:** 2026-11-16 Monday — **inbox drain and examination items (PROME prome-6f): five who-is-paying-to-extend lines logged; read-cap rotation; WQ-678 charter trims. Nothing graded moved.** Prior: 11/11 catch-up wake (Q3 Call Report re-pulled, no amendment; hiking-Fed read; WQ-477 dropped) · 11/07 Q3 10-Q read (FLG-02, FLG-03 HIT) · 11/02 freshness audit · 11/01 Q3 Call Report ingested · 10/28 owner catch-up (Q3 call, filings, FFIEC Q1/Q2 pull; block rotated 11/01, crc32 `922ec28a`) · 10/23 Q3 print graded · 10/22 fix pass + 8-K sweep · 10/01 T-08 fire · 08/28 first live session.
+**Last Updated:** 2026-11-25 Wednesday — **aged-inbox drain (PROME prome-77): $8.5B geography corrected to the NYC $8.1B; 44 stale KB rows dispositioned; OCC flood-act penalty and FDIC Q3 QBP placed. Nothing graded moved.** Prior: 11/16 inbox drain (who is paying to extend; read cap) · 11/11 catch-up wake (Q3 Call Report re-pulled, no amendment; hiking-Fed read; WQ-477 dropped) · 11/07 Q3 10-Q read (FLG-02, FLG-03 HIT) · 11/02 freshness audit · 11/01 Q3 Call Report ingested · 10/28 owner catch-up (Q3 call, filings, FFIEC Q1/Q2 pull; block rotated 11/01, crc32 `922ec28a`) · 10/23 Q3 print graded · 10/22 fix pass + 8-K sweep · 10/01 T-08 fire · 08/28 first live session.
 
 ✅ **FIRST-LIVE-SESSION BANNER STRUCK.** The build banner said every figure here was MIRROR-grade — extracted from REGINALD, never pulled by FLG. **That is no longer true.** FLG pulled its own EDGAR primary this session (10-Q Q2-2026, Flagstar Bank N.A., acc `0000910073-26-000068`, filed 2026-08-06) and re-verified the load-bearing figures first-hand. `CLAUDE.md § FIRST LIVE SESSION` is **SPENT 2026-08-28**. ✅ **The one residual is CLOSED 2026-10-28:** FLG pulled the FFIEC CDR Call Report facsimiles itself; the 2026Q1 and 2026Q2 MI3 rows match to the dollar and SR 07-1 reproduces at **327.52%** (KB-FLG-098). The ten earlier MI3 rows stay MIRROR — `MI3_FLG.tsv` marks this per row.
 
-**Class:** Market domain — print-driven single-name specialist · **Level:** L3 (DAEDALUS bank review 10/22: "L3/M — holds") · **Thesis:** `THESIS.md` **v1.0.5 — THESIS OF RECORD** (v1.0 authored 8/28; Q3 10-Q fold-in 11/07)
+**Class:** Market domain — print-driven single-name specialist · **Level:** L3 (DAEDALUS bank review 10/22: "L3/M — holds") · **Thesis:** `THESIS.md` **v1.0.6 — THESIS OF RECORD** (v1.0 authored 8/28; Q3 10-Q fold-in 11/07; geography wording 11/25)
 
 ---
 
@@ -19,23 +19,23 @@
 | **Who is paying to extend** (logging only) | ① Non-accrual book: Flagstar, holding $1,548M unreserved at appraised value, plus about 42% of NALs still performing; clock = the Q2 review each year; capacity total capital $9,804M (9/30) · ② MF modifications: Flagstar, 1.2–1.5 years added term, runs out about H2-2027 to early 2028; 43.9% of the $471M stock already past due · ③ Rent-regulated option resets: the borrower's cash flow, capacity UNKNOWN; $3.0B resets by about 9/30/27 · ④ 2027 fixed maturities $1,581M: payer UNKNOWN · ⑤ Flagstar itself: 2024 rescue equity ($1.05B, Liberty 77); no outside payer now, it is buying back stock | 120–124 |
 | **Read cap** | `workbook/TRIGGERS.tsv` 86% → 66% of budget, 6 segments moved verbatim with crc32 to `archive/TRIGGERS_NOTES_ARCHIVE_2026-11-16.md`; charter 70% → 67% by the WQ-678 trims (DOCKET L810 FLG leg, ✅ accepted by PROME prome-6f 14:10 ET at the diff, no companion split needed); the 11/07 STATUS block rotated (pointer below) | — |
 
-## 🟡 SESSION 2026-11-11 — catch-up wake to live data (PROME prome-2b, on Will's 09:24 ET word)
+## 🟡 SESSION 2026-11-25 — aged-inbox drain (PROME prome-77, WQ-206 class; drain only)
 
-**No threshold, kill condition, prediction, trigger date or thesis direction moved. No trade.** Inbox drained (1, PROME).
+**No threshold, kill condition, prediction, trigger date or thesis direction moved. No trade, no card.** Boot: predictions, triggers and quarter-due clean; corrections check rc 0. Not pulled or pushed (PROME pushes).
 
-| Item | Read | KB |
+| Item | Result | KB |
 |---|---|---|
-| **D:L52 / T-01** Q3 Call Report | Re-pulled at the FFIEC 10:13 ET: **byte-identical** to the 11/01 file (sha256 `8cf81ff12e2b…`, last-update 10/30). No amendment; SR 07-1 **322.11%** stands. The ~11/14 date was the rule estimate; filed 10/30, graded 11/01 | 114 |
-| **Rates, issuer's own tables** (Q3 10-Q) | NII +0.68% per +100bp short rates; parallel +100bp +1.5%; EVE −4.0% per +100bp. AOCI −$839M, **outside regulatory capital** (derived from the CET1 bridge). A 25bp hike ≈ +$3M a year NII (scaling assumed) | 115 |
-| **Rates, the mechanism** | Refinance is priced off the 5–10 year Treasury, not the funds rate: 5Y **4.81** / 10Y **4.98** [11/10] vs 5.09 / 5.29 [9/30] and 4.24 / 4.48 [7/1]. A December hike (priced 85.5%, relay) removes rate relief for $12B of sub-3.9% coupons resetting through 2027. INFERRED confirming for the exit channel; no letter grades it | 116 |
-| **Peer context** | Trepp MF special servicing 9.22% Oct (HOMER relay); PFBC late CRE aging (REGINALD). Same channel, different books; logged, not scored | 117 |
-| **T-12 litigation** | ⛔ **WQ-477 dropped by Will 11/10**: docket doc 244 and entries after 253 NOT OBTAINED; emergency-relief and merits risks UNREADABLE from this system. Reachable sources 11/11: no ruling | 118 |
+| **Inbox (5, every sender)** | PROME audit item ($8.5B): auditor RIGHT, corrected (row below) · PROME stale-KB rows: 44 past Stale_By and ACTIVE → **26 STALE, 3 SUPERSEDED, 15 refreshed** (rule: a point-in-time figure a later primary has overtaken is STALE; a row the kill rail cites, or a latest-quarter figure, is refreshed to the print that overtakes it) · WALTER 11/17-016 item 8 logged · 11/18-010 HY 343: noted, FLG does not key on HY · 11/25-012 OCC: acted | 125–128 |
+| **$8.5B is New York State** | The 10-Q's $8.5B (≥50% rent-regulated units, 9/30) covers all of New York State; the NYC freeze binds NYC only. **NYC figure, same test: $8,120M at 9/30, $8,490M at 6/30 (deck).** THESIS v1.0.6 and START HERE corrected; earlier text in dated notes. No gate or prediction keys on it | 128 |
+| **OCC flood-act penalty** | Order AA-ENF-2026-45 read whole: **$112,000** for 82 violations of the notice-and-force-place rule (12 CFR 22.7), 9/2022–6/2024, "previous leadership", no geography; board signed 10/22, OCC 10/23. About 0.001% of total capital. Exclusions-register class (servicing / compliance), outside the mechanism; flagged to PROME | 125 |
+| **FDIC Q3 QBP (11/24)** | Industry multifamily past-due and nonaccrual rose, about 90% one private bank (United Fidelity, REGINALD MIRROR); FDIC statement confirms the direction; industry coverage 169.3% is ACL / noncurrent, not FLG's ACL / nonaccrual basis, so not compared. Same channel as FLG (performing loans placed on nonaccrual), different book. Grades none of FLG-01..03 | 126 |
+| **Due rows** | None came due while dark: FLG-01 resolves 2027-03-15; next trigger T-12 2026-12-31 | — |
 
-**Price:** $10.45 intraday 11/11 (`fetch.py`); settled $10.51 [11/10]. Report packet: `PROME/inbox/2026-11-11_from-FLG_catchup-live-data.md`.
+**Price:** $10.68 intraday 11/25 13:38 ET, +2.40% (`fetch.py`); REGINALD's ladder RED (band $11.39), below since 10/7. Packet: `PROME/inbox/2026-11-25_from-FLG_aged-inbox-drain.md`.
 
 ## 🔴 START HERE — the thesis moved, and the headline number is still not the actionable one
 
-**The bear case on FLG is not concentration and not the nonaccrual level. Both are improving.** It is that a **$2.8B nonaccrual book with a $155M specific reserve (5.5%)** leans on an exit channel the bank does not control: **H1 cleared 87.5% by payoff and disposition, cures 1.6%; Q3 inverted to cures 56.3%, payoffs 29.7%, cause undisclosed**. That channel needs a functioning refinance market for NYC rent-regulated multifamily. **NYC froze the rents on the collateral behind $8.5B of its multifamily book (≥50% rent-regulated, 9/30), effective 10/1/26.**
+**The bear case on FLG is not concentration and not the nonaccrual level. Both are improving.** It is that a **$2.8B nonaccrual book with a $155M specific reserve (5.5%)** leans on an exit channel the bank does not control: **H1 cleared 87.5% by payoff and disposition, cures 1.6%; Q3 inverted to cures 56.3%, payoffs 29.7%, cause undisclosed**. That channel needs a functioning refinance market for NYC rent-regulated multifamily. **NYC froze the rents on the collateral behind $8.1B of its multifamily book (NYC loans with ≥50% rent-regulated units, $8,120M at 9/30, deck), effective 10/1/26.** *(Corrected 11/25, KB-128: this line said $8.5B, which is the New York State figure.)*
 
 | Channel | Level | Trajectory | Read |
 |---|---|---|---|
@@ -111,7 +111,7 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 ⚠️ **FLG-01's confidence is amended on the record, pre-print, threshold untouched.** I registered it on a Q2-seasonality rationale and then base-rated that rationale hours later — the wrong order, and my charter says so. The mechanism is real and issuer-disclosed but does not produce a dependable Q2 spike (KB-FLG-045). H2<H1 held 2 of 2 years, but at ratios 1.00× and 0.50×, and <$600M from an H1 of $780M needs <0.77× — so 1 of 2. **The $600M threshold is NOT moved and both confidences grade.** Voiding a live prediction because I improved my own prior is how a bad call gets laundered.
 
-**Price:** $10.51 [11/10 settled, REGINALD `vx_ladder_check`]; $10.45 intraday 11/11 [`fetch.py`]; never cite this cell for a decision, fetch live. `VX-REG-6.03` is dual-action; REGINALD owns the row and its detector (`vx_ladder_check.py`); FLG's T-07 is the backup.
+**Price:** $10.68 intraday 11/25 13:38 ET [`fetch.py`]; $10.43 settled 11/24 [REGINALD]; never cite this cell for a decision, fetch live. `VX-REG-6.03` is dual-action; REGINALD owns the row and its detector (`vx_ladder_check.py`); FLG's T-07 is the backup.
 
 ---
 
@@ -157,8 +157,10 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 ## SESSION 2026-11-07 (T-02/T-13: the Q3 10-Q read, FLG-02 and FLG-03 HIT) → rotated verbatim to `archive/STATUS_ARCHIVE_2026-11-16.md` (crc32 `ce872535`); full read `reports/2026-11-07_Q3-2026_10Q_LEG.md`
 
+## SESSION 2026-11-11 (catch-up wake: Q3 Call Report re-pull, rates, WQ-477 dropped) → rotated verbatim to `archive/STATUS_ARCHIVE_2026-11-25.md` (crc32 `03b58157`)
+
 ---
 
 ## BOTTOM LINE
 
-**Nothing this session changes Flagstar's read: the bear case is still a thin specific reserve ($155M, 5.5% of a $2.8B non-accrual book) leaning on a refinance market the bank does not control.** The new logging lines name who is carrying the delay, and it is mostly Flagstar itself: it holds $1,548M of non-accrual loans with no reserve on appraised values re-tested each second quarter, and its 2026 multifamily modifications added 1.2 to 1.5 years of term that run out around late 2027 to early 2028, with 43.9% of those modified loans already past due. Who carries the 2027 fixed-rate maturities ($1,581M) and whether borrowers can pay the reset rate on $3.0B of rent-regulated loans are both UNKNOWN from the filings. **Next wake: the FY2026 10-K around 3/1/27, where the single most important read is whether Q4 cures stay high; the rent-freeze ruling (expected by year-end) is readable only through press or filings.**
+**Nothing this session changes Flagstar's read: the bear case is still a thin specific reserve ($155M, 5.5% of a $2.8B non-accrual book) leaning on a refinance market for NYC rent-regulated loans that the bank does not control.** One wording fix: the rent freeze binds about $8.1B of NYC loans with mostly rent-regulated units, not the $8.5B New York State figure the thesis quoted. The OCC's $112,000 flood-insurance penalty is a small compliance matter from 2022–24, and the industry's multifamily deterioration in the FDIC's Q3 report is mostly one other bank, United Fidelity; neither moves a grade. **Next wake: the rent-freeze ruling marker 12/31 (press or filings only), then the Q4 release around 1/29/27 and the FY2026 10-K around 3/1/27, where the one read that matters is whether Q4 cures stay high.**
