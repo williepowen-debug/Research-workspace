@@ -11,6 +11,7 @@
 | PROME's outside-review facts (peer message) | Checked at source and recorded: Cove ~28bp and Blackjack ~69bp on Trepp's August $75.48B base (DERIVED); both October Trepp highs are about one loan each; my "no Trepp MF balance held" was wrong (LESSONS §39, n=2). Record against my own odds: 1 of 4, Brier 0.358. Fitch: American Banker is a sister title (conflict since resolved, below). THESIS D18 |
 | Three open items (Will 14:50 ET) | Blackjack: NOT in Trepp October DQ (issuer ranking). Fitch: RESOLVED 15:16 ET (Will's browser via PROME): nine affirmed, four outlooks revised; CLOSED 15:23 ET: three to Negative, Provident to Stable from Positive. ICE: not retrieved |
 | NEXUS packet (3 facts) | All accepted: GSE/VA default rotation into the brief; ex-Cove narrowed (flows ≈ −3bp, flat); LABOR packet sent, edge NOT encoded at LABOR until it answers |
+| NEXUS correction (15:28 ET) | Fannie SF provision withdrawn as default evidence; ICE Nov equity section read (362K underwater and 3+ behind, +74%; ICE HPI +1.0% Oct); Fannie MF and insurer 10-Q facts logged as NEXUS-read (SEC refused my client: no contact string sent) |
 | Docket | Thesis-grade row: A1 early-date clause corrected (0 of 2) |
 
 No band, count, score, kill test or registered odds changed.
