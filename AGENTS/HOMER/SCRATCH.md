@@ -23,9 +23,16 @@ No band, count, score, kill test or registered odds changed.
 3. HUD FHA October report (~December): read EVERY table; starts against ~10,465 a month.
 4. PennyMac Q4 (about February): cushion over the Fannie/Freddie test (unscored view: lower than $94M about 25%, shortfall under 3%); Walker & Dunlop Q4 allowance (above $63.2M about 75%, unscored).
 
-## Structure work NOT yet authorized to start (recommended to Will 16:2x ET for a fresh session; Will approved steps 1 and 2 only)
+## PLAN OF RECORD (Will 2026-11-25 17:19 ET: "ok go, record it as the plan"; carry until done)
 
-Steps 3, 4, 5, 7 of the DAEDALUS block; report the new start-up size after 3 and 4. Step 6 (band history out of CLAUDE.md) is HELD for Will's separate word. Ask Will at boot. Text: DAEDALUS record named in MAINTENANCE.
+Dated prints come first: the 11/30 ICE check outranks this plan.
+
+1. **Next fresh session, approved:** DAEDALUS steps 3 (BOOT first; CLOSEOUT to its own file; step numbers kept; READS re-signed) and 4 (CATALYSTS column 1 = next date plus basis, history to notes; archive a RESOLVED row only if it holds no next date), then 5 (each cut LESSONS row one complete sentence, file no larger than 22,409 B) and 7 (frozen THESIS grades apart from live counts; §9 still updates at each print). Plus STATUS red marks: red only for a reading past a red line or a fired alarm (a practice, not a new rule). Report the new start-up size after 3 and 4.
+2. **After that, script 1:** the few public series (Freddie PMMS, FMHPI, Treasury curve, possibly Apartment List); saves dated copies, fails loudly, grades nothing. **Will approves its scope before any build.** Stop after it unless it clearly saves time.
+3. **Possibly later, script 2:** filing reader (same 10-Q lines each quarter; PennyMac and the other listed servicers first). **Separate scope approval.** Reading the text stays required.
+4. **Not in the plan:** step 6 (band history out of CLAUDE.md) HELD for Will's separate word; the one-to-one with LABOR skipped; no new band, kill test, rule or check.
+
+Sources: `AGENTS/DAEDALUS/runs/2026-11-25_HOMER_ARCHITECTURE_REVIEW_READ.md` (incl. addendum) and `2026-11-25_HOMER_PEER_COMPARISON.md`.
 
 ## Carry by name until closed
 

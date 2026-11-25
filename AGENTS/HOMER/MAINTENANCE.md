@@ -69,3 +69,4 @@ Reverse-chronological log of **structural** changes: docs created/retired/moved,
 - Step 1: CATALYSTS rows PHM, MTH, NVR re-keyed from RESOLVED to `~late Jan 2027 — PATTERN`; prior keys kept in notes. Event label Q3 to Q4-2026.
 - Step 2: servicer-watch trigger moved verbatim to `registry/SERVICER_WATCH.md` (rebuilds the original cell byte for byte, checked); row 3 keeps state and pointer, 40,229 to 28,108 B. Charter FILES row added. No class, level or route changed.
 - NOT done: step 3 (BOOT first, CLOSEOUT file, READS re-sign), 4, 5, 7 (next fresh session); step 6 HELD for Will. Source block: `AGENTS/DAEDALUS/runs/2026-11-25_HOMER_ARCHITECTURE_REVIEW_READ.md` incl. addendum.
+- **Plan adopted (Will 17:19 ET "ok go, record it as the plan", recorded 17:19 ET):** steps 3, 4, 5, 7 and the red-mark cleanup next fresh session; then one data script, scope approved by Will first; filing reader possibly later; step 6 HELD. Text: SCRATCH § PLAN OF RECORD.
