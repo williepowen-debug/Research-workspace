@@ -15,6 +15,21 @@
 | REGINALD | United Fidelity ~89% of the FDIC Q3 multifamily rise, logged |
 | Auction.com | docket row added (~late Jan 2027, ESTIMATED) |
 
+## WILL'S NEXT TASK (his words, 2026-11-25 11:49 ET: "lets go deeper on these after I reboot HOMER into a fresh session")
+
+"These" = the items in the 11/25 closeout report. Read the mortgage-rate survey first (item 1 below), then go deeper on:
+
+| Item | Evidence in hand | Open question |
+|---|---|---|
+| New-home sales 701K | PRICING row (CB26-188); Sept 676→614K; average −12.1% YoY significant; gain all South | How much of the average-price fall is mix (size, region) rather than discounting? What does the Sept cut do to supply and builder reads? |
+| Residential investment −3.4% | PRICING row (FRED carrying BEA) | Component split at the second estimate not read |
+| DR-4956-FL | PIPELINE row; OpenFEMA | HUD notice not read; the ~2027-02-22 date is DERIVED; Hardee coverage unchecked; how big are these counties in the foreclosure counts? (statewide = CORAL) |
+| United Fidelity ~89% | MULTIFAMILY row 130 (REGINALD packet, not re-read by HOMER) | Bank-exposure read is REGINALD's; HOMER's part is the apartment mechanism |
+| MBA wk 11/20 | RATES row, one weak copy | Find a second copy |
+| Thesis and A1 | THESIS §1, §11, §12; PROME packet 11/25 | PROME answer; FHA serious-DQ quarterly history (D15) |
+
+This is an ask to examine and report. No new kill tests, bands, rules or odds changes (Will 11/24). Material findings: check with TERRY's lane whether tradeable (feedback memory), no proposal from HOMER.
+
 ## DUE FIRST next session
 
 1. **PMMS for 11/25 (posts 12:00 ET; NOT READ, session closed first).** Issuer CSV `https://www.freddiemac.com/pmms/docs/PMMS_history.csv`. Write: RATES (rate, and the survey-matched spread against the Tue 11/24 10Y, 4.91%) · THRESHOLDS HB-03 cell + `tools/threshold_scan.py` · THESIS §9 A2 cell (0/4 unless ≤6.50) · docket row · STATUS.
@@ -28,4 +43,4 @@
 - Every owner session runs a nonbank-servicer rating-action search (11/25: one search, nothing new found).
 - **Before 2027-02-20:** FHA serious-DQ seasonality (THESIS D15). No new kill tests, bands or rules for the sales freeze or fading stress (Will 11/24 23:33 ET). Registered odds stay frozen.
 - PROME docket row 979 (HOM-04) read PENDING at 11/24; resolved HIT 11/20. Not re-checked 11/25.
-Last write 2026-11-25 11:37 ET.
+Last write 2026-11-25 11:49 ET.
