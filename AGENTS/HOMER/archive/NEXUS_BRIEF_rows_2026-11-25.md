@@ -37,3 +37,7 @@ Verbatim from `NEXUS_BRIEF.md` at commit `47d954b1e0`-pinned version (file crc32
 
 | Fannie Mae | Sept Monthly Summary (403) | open | revisions to the monthly series | V1 resolver; value 0.62% already held |
 | "S2 keys handed back" | Phrase is Preslee Apartments, June 2025; S2 is a workout (CREED 10/30) | `MULTIFAMILY.tsv` 11/05 |
+
+## Also moved later the same day: the 10/28 MF case feed (named cases live in CREED cases/CASES.tsv)
+
+| **REGINALD, CREED** | MF case feed (WALTER-routed, source limits kept): Blackstone **Blackjack** $517.7M remainder in special servicing after missed 10/09 maturity (cash flow above underwriting per Morningstar) · **S2** ~$1.2B / 26 properties modified, 12 foreclosures terminated · UDR–Apollo JV ~**6% cap** on $2B (close expected 10/29) · CRED iQ: 31% of $136B maturing fixed-rate MF balance needs $6.8B equity (modelled) · MSCI: MF distress sales +62.8% | 🟠 MED | Maturity/refi stress is being worked out, not liquidated, at the top of the stack; core assets clear near 6% caps. Distress dollars up, distress share down |
