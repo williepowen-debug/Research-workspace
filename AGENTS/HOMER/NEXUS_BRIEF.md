@@ -3,7 +3,7 @@
 **Status:** 🔴 **Thesis formally graded 11/20: 0 of 5 legs killed, 🔴 holds** (next grade 2027-02-20). FHA delinquency fell a second quarter (11.74%) while the FHA foreclosure rate hit 1.89%, a 9-year high (migration into foreclosure; HOM-02 MISSED). Builders: NAHB HMI 25 (lowest since April 2012), 46% cutting prices (Red crossed; HOM-04 HIT). PMMS 7.28% [11/19]. Pending sales 63.0 Oct (second record low). Trepp MF DQ 8.09% / SS 9.22% (Oct); 90+/FC 882K ORANGE.
 **Domain:** U.S. housing asset-market + credit-structure — foreclosure pipeline, multifamily (GSE + CMBS books), mortgage-rate surface, builders, pricing/inventory, sub-statewide FL/TX
 **Thesis pivot:** housing credit stress has moved from accumulation to conversion (`thesis/THESIS.md` §1); the 11/20 grade (§10) found no leg killed.
-**As of:** 2026-11-24 23:41 ET (data through 2026-11-24) | STATUS commit: `5eb6027a4a` — written after the final STATUS write. Session: full data refresh on Will's word; packet `PROME/inbox/2026-11-24_from-HOMER_full-data-refresh.md`. Changed rows: HENRY, Fitch, demand, Freddie Oct, Florida declaration, waits and catalysts. Other rows keep their own dates. Prior As-of: 2026-11-23 16:50 ET (`a2df96fecf`).
+**As of:** 2026-11-25 00:15 ET (data through 2026-11-24) | STATUS commit: `12df1c9940` — written after the final STATUS write. Session: full data refresh on Will's word; packet `PROME/inbox/2026-11-24_from-HOMER_full-data-refresh.md`. Changed rows: HENRY, Fitch, demand, Freddie Oct, Florida declaration, waits and catalysts. Other rows keep their own dates. Prior As-of: 2026-11-23 16:50 ET (`a2df96fecf`).
 
 > ♻️ **ROTATED 2026-09-24** — the pre-rotation brief is preserved byte-for-byte at `archive/NEXUS_BRIEF_2026-09-24_pre-rotation-VERBATIM.md` (crc 267930108). The 10/19 brief is in git history (`git log -p -- AGENTS/HOMER/NEXUS_BRIEF.md`).
 
@@ -63,7 +63,7 @@
 - **11/20 grade: nothing killed, 🔴 holds.** Both cores are far from their counts (Trepp MF 8.09% vs < 6.00%; ICE FC sales +14.5% and inventory +37% YoY vs ≤ 0%).
 - **★ FHA distress is converting, not curing:** the FHA delinquency headline fell a second quarter while the FHA foreclosure rate reached a 9-year high, with HUD ML 2026-08 in force since 9/21. My HOM-02 call was specified on the wrong stock and missed.
 - **Builders broke lower:** HMI 25, 46% cutting, traffic at a 15-year low — discounting is broadening into the December builder prints.
-- **CORRECTED 11/24: the front door is not narrowing.** ICE FC starts Q3 ~115.6K vs 103K a year ago (+12%), flat on Q2; Sept's −2.9% was a one-month base effect. FC sales YoY has slowed from +41% (Dec-25) to +12–15%; conversion is growing, not accelerating. Maturity defaults carry the MF channel (SS 9.22% Oct).
+- **CORRECTED 11/24: the front door is not narrowing.** ICE FC starts Q3 ~115.6K vs 103K a year ago (+12%), flat on Q2; Sept's −2.9% was a one-month base effect. FC sales YoY has slowed from +41% (Dec-25) to +12–15%; conversion is growing, not accelerating. Read 'growth past its peak' in HOMER's 11/24 correction packets as 'year-over-year growth below earlier readings' (no peak is established). Maturity defaults carry the MF channel (SS 9.22% Oct).
 - **Registered 11/24 (PREDICTIONS.tsv):** HOM-07 ICE Oct FC sales YoY <10% (55%) · HOM-08 FC starts YoY >0 (60%) · HOM-09 NAR Nov <3.65M (88%) · HOM-10 Case-Shiller Oct ≤+2.0% (60%) · HOM-11 Freddie MF Nov ≥0.62% (60%).
 - **PROJECTION (unscored):** 🔴 holds at 2027-02-20, ~90%; ICE Oct FC sales YoY > 0, ~85%; FHA FC starts lift visible by the December First Look, ~60%.
 
