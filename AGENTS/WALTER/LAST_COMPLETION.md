@@ -13,7 +13,7 @@ Updated 2026-11-25T19:05:39Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 5. **IMMEDIATE if it happens:** Saudi Red Sea port hit; numbered Chinese countermeasure, 40% branch or final Section 301 notice; a record river or tide; flash flood emergency.
 6. **Ruled today (Will, PROME):** WQ-745 A (CoreWeave idea approved, NOT-FIRED; needs a $48 close), 746 A, 748 B, 749 A, 750 A. No decision open at 13:54 ET; hands rows 734, 728, 718, 695, 687.
 7. **Filter review (Will 11/23 17:18 ET): OWED, NOT STARTED.** Report only; include confidence_language off-vocabulary and the missing DOORBELL rows 20261124-001 to -019. Boundary 4 has no instrument (retirement via PROME).
-8. **Collector stale since 23:56Z 11/24;** `gh` login invalid (PROME row 687). Pull the lane, scan, mark; state the uncollected interval.
+8. **Lane: CORRECTED 14:14 ET. The collector was never stopped:** scheduled runs succeeded 23:53Z 11/24 and 14:30Z 11/25 (gh run list); WALTER had not pulled since morning. Pulled 51b3f57 (collected through 14:33Z 11/25) and scanned, NOT dispositioned and NOT marked: 1 batch, 162 items, one alert (an Italian law-firm guide, not an event), 9 watch items, 4 watch hits (Reuters private-credit roundup for BROCK; Nvidia interim CEO x2; Megaspeed Entity List), 1 GPU title. Read every title (7e(h)), then re-scan and mark with the fresh receipt. `gh` login FIXED by Will about 14:13 ET (gh auth status OK); no extra run started (last run under 12 hours old).
 9. **Corrections made today that a boot should not repeat:** Brent is January BZF27 (up), never the vendor ticker's change; China's Section 301 notice PROPOSES up to 10% on servers and chips; CoreWeave 5Y 1,363 cancelled (4Y 1,379 stands, last 5Y 1,314 clean); Hodeidah second strike unconfirmed; core PCE beat is 3.3 against 3.2 (no '+8 bp'); Florida FHA pause ends 2027-02-21/22, the further 90 days is not a ban; PROME told at 12:45 ET that HEARTBEAT carried 1,363.
 10. **Owner reads pending:** CREED-T-03 (WQ-749 A re-points it), RED-FT-10 exit (1 of 4), BROCK on 026 and 027 (scope of the $300B, the 3,905 label), LIQUID, VULCAN and BROCK on 024, AEOLUS on 029, TERRY on HOMER's correction packet.
 11. **Carries:** DEWEY pilot REQ-DEWEY-20261123-001 due 12/01; Iran full sweep about 11/30; tanker-cost watch 11/30; Section 301 comments 1/5, hearing 1/25; MOFCOM clock 1/27; conference-board.org, FinCEN text, OSAC, BofA and Reuters CoreWeave originals unread; YUR-010 by 12/03; CATO's unconsumed 10/19 ACTION; Seeking Alpha GPU item UNREVIEWED; Kazakhstan unsecond-sourced; 24 unconsumed over two days, 11 desks (doctor 14:02 ET; PROME wakes). December 14 review stands (WQ-684).
@@ -42,7 +42,7 @@ One FLASH (005), six IMMEDIATE this session (006, 007, 009, 013, 021, 029), 228 
 ## WILL_NEEDS
 
 1. Filter review: due; his call on when.
-2. `! gh auth login -h github.com` on the laptop (PROME row 687).
+2. None on gh: Will fixed the login about 14:13 ET (PROME row 687 can close).
 
 ## FOLLOW-UP
 
