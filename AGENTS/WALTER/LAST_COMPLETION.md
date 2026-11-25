@@ -8,7 +8,7 @@ Updated 2026-11-25T16:54:41Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 
 **Note 2026-11-25T18:08:07Z:** card 025 item 2: the WSJ links are at Fortune 11/21 (commentary, helper read): wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497 (the $300B) and .../private-equity-firms-are-sitting-on-a-nine-year-backlog-dbec673a (backlog). Both predate 11/21, so the 11/25 post is a relay. Will (13:06 ET) is trying to get them; WALTER does not fetch wsj.com. When they arrive: read, then BROCK. 7Y 91282CSA0: high yield 4.708, cover 2.43 (TreasuryDirect feed 13:07 ET; bidder split not in the feed); BOND launched by PROME 13:06 ET to grade (D:L1238); no WALTER card yet. VIX 29.47 at 12:52 ET, under 30.
 
-**Note 2026-11-25T18:18:37Z:** Will pasted the WSJ $300B article (Oct 27, read whole): card 20261125-026 to BROCK; the second WSJ article (nine-year backlog) is unread and optional. BOARD 2,371; 11/25 cards 26. WQ-745 and WQ-746 RULED A (PROME 1e9bc17a17, 13:17 ET). 13:17 ET vendor: S&P 7,152.94, VIX 29.50 (13:02).
+**Note 2026-11-25T18:18:37Z:** Will pasted the WSJ $300B article (Oct 27, read whole): card 20261125-026 to BROCK; the second WSJ article (July 7, nine-year backlog) was pasted 13:20 ET and read whole: card 20261125-027 (2026-11-25T18:21:30Z). BOARD 2,372; 11/25 cards 27. WQ-745 and WQ-746 RULED A (PROME 1e9bc17a17, 13:17 ET). 13:17 ET vendor: S&P 7,152.94, VIX 29.50 (13:02).
 
 ## RESUME — do these first
 
