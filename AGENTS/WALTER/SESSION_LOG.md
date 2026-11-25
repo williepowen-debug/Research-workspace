@@ -1,6 +1,6 @@
 ## 2026-11-25T19:30:30Z light-closeout — full deferred — walter-7f reboot boot, laptop, Wed 11/25
 
-Boot PARTIAL (INDEX today rows only; HANS daily levels and several thresholds not re-read; FORGE position rows skimmed). Cards 030 to 034; inbox 2 to 0; bookmarks 3 of 3; lane batch marked. Will's word 14:15 ET ('boot up, continue').
+Boot PARTIAL (INDEX today rows only; HANS daily levels and several thresholds not re-read; FORGE position rows skimmed). Cards 030 to 035 (035 corrects 031); inbox 2 to 0; bookmarks 3 of 3; lane batch marked. Will's word 14:15 ET ('boot up, continue').
 
 ## 2026-11-25T19:05:39Z TIER 2 FULL CLOSEOUT — walter-7f, laptop, Wed 11/25 checkpoint, Will's word 14:01 ET ('Lets do a checkpoint here. We will clear the window and reboot')
 
