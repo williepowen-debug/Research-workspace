@@ -1,0 +1,14 @@
+{
+ "schema": 2,
+ "staged_at": 1795644243.44683,
+ "items": [
+  {
+   "id": "2125686942897463547",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-25_evening-boot/cards-038.json",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "ebaa23bdba684a21a2773e0e55e99dd2"
+}

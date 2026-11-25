@@ -1,7 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-11-25T19:30:30Z — light note after the 19:05Z full closeout (rebooted 14:15 ET; cards 030 to 034; full deferred, 1 breadcrumb). Prior: walter-7f on the laptop: **Tier 2 FULL closeout** at Will's 14:01 ET checkpoint; no light breadcrumbs owed; Will clears the window and reboots. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-25T22:05:38Z — walter-4d light note (cards 037, 038; full deferred, 2 breadcrumbs). Prior: light note 19:30:30Z after the 19:05Z full closeout (rebooted 14:15 ET; cards 030 to 034; full deferred, 1 breadcrumb). Prior: walter-7f on the laptop: **Tier 2 FULL closeout** at Will's 14:01 ET checkpoint; no light breadcrumbs owed; Will clears the window and reboots. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
+
+**November 25 evening (walter-4d, laptop, 2026-11-25T22:05:38Z):** 20261125-037 IMMEDIATE (DeLand official forecast 6.4 ft Sat 11/28, over the 6.33 record), 038 (1Password backend breach, CYPHER). BOARD 2,383. Close 7,182.78; VIX 28.29 [16:15 print, VIOLET and HENRY, provisional]; HENRY red not fired, VIOLET 2' armed provisional. No WALTER row fired. Pacific tides for 11/25 swept to 16:54 ET: no further records. LAST_COMPLETION carries what the walter-7f window left when it closed by accident.
 
 **November 25 reboot (2026-11-25T19:30:30Z, walter-7f, laptop):** 20261125-030 IMMEDIATE (second record-tide card: Santa Barbara, Monterey; Charleston OR 11/24), 031 CoreWeave $4.5B loan (Bloomberg unread), 032 Ofgem +26%, 033 owner answers (FERT G5, BOND I-prime, seven others), 034 small items, 035 and 036 correct 031 (CoreWeave loan and bonds). BOARD 2,381. 14:29 ET vendor S&P 7,191.94, VIX 28.00. No row fired.
 

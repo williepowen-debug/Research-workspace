@@ -1,3 +1,7 @@
+## 2026-11-25T22:05:38Z light-closeout — full deferred — walter-4d evening boot, laptop, Wed 11/25
+
+Boot PARTIAL. Cards 037 (IMMEDIATE) and 038; scan and calendar at research/2026-11-25_evening-boot/. Will 17:02 ET: the prior window closed by accident; open items recorded in LAST_COMPLETION. 0 kills, 0 cluster_mediating. Near-trigger: DeLand 6.4 forecast against 6.33; VIX 28.29 under 30.
+
 ## 2026-11-25T19:30:30Z light-closeout — full deferred — walter-7f reboot boot, laptop, Wed 11/25
 
 Boot PARTIAL (INDEX today rows only; HANS daily levels and several thresholds not re-read; FORGE position rows skimmed). Cards 030 to 035 (035 corrects 031); inbox 2 to 0; bookmarks 3 of 3; lane batch marked. Will's word 14:15 ET ('boot up, continue').

@@ -22,7 +22,9 @@ Updated 2026-11-25T19:05:39Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 
 **Light note 2026-11-25T20:03:46Z:** Will pasted Quartz and MT Newswires on the CoreWeave loan; card 035 corrects 031 (COR-20261125-35; my first search missed the story). Bloomberg still unread. Card 036 (COR-20261125-36) fixes the 2031 bond mix-up; CoreWeave bookmark timeline at research/2026-11-25_reboot/.
 
-Calendar coverage cutoff: 2026-11-25T19:30:30Z (research/2026-11-25_reboot/CALENDAR-RECONCILIATION.tsv; prior 2026-11-25T18:55:00Z).
+**Light note 2026-11-25T22:05:38Z (walter-4d; Will 17:02 ET: the walter-7f window closed by accident):** its transcript was read. Saved, published and complete: cards 030 to 036, both bookmark timelines and CONNECTIONS.md (research/2026-11-25_reboot/; 931f8892c3). Its boot chain is otherwise done. OPEN from it, none started: (a) SAM and VULCAN co-movement hand-off, offered, waits on Will; (b) CoreWeave 2027 debt schedule at the 10-Q, offered (the $11.0B figure is from a page citing it; $13.5B unproven); (c) Bloomberg CoreWeave article unread; (d) LIQUID swap read after 11:45 ET: asked on 035, no answer found, LIQUID DTCC read about 20:15 ET; (e) the Nov 5 no-bankruptcy EDGAR check not re-run; (f) filter review. CLOSED here: Oregon and Washington tides, swept 17:03 ET: no reading over a listed record (Los Angeles 8.194 is AEOLUS's tie with 8.19; Charleston 11/24 already carded). New: 037, 038; bookmark 1 of 1. DeLand items above that say 6.3 are superseded by 037.
+
+Calendar coverage cutoff: 2026-11-25T21:30:00Z (research/2026-11-25_evening-boot/CALENDAR-RECONCILIATION.tsv; H.4.1 16:30 ET not dispositioned; prior 2026-11-25T19:30:30Z).
 
 ## STATUS
 
