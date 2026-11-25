@@ -267,3 +267,4 @@
 - feedback_will_own_trade_one_line_record — his one-line trade record goes to TERRY verbatim (Will 11/17)
 - reference_daedalus_runs_on_codex_astra — not in ListAgents; reach by inbox packet (Will 11/7)
 - reference_claude_text_watermark_live_since_aug_2026 — Claude text is watermarked since 8/2026; byte scans miss it
+- reference_in_process_desk_agents_survive_clear — an Agent-tool desk survives /clear, resumes by message (11/24)
