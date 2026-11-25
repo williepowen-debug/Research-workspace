@@ -21,3 +21,4 @@ receipt_date	correction_id	action	note
 2026-11-17T21:56Z	COR-20261117-20	NO-OP	scope=VIOLET cites card 019 only for figures that hold and for Kress as interim CEO with a CEO search named. Neither changes. KB-VIO-400 GRADE.md STATUS unchanged; 
 2026-11-21T23:11Z	COR-20261119-20	NO-OP	scope=VIOLET carried none of the corrected claims from cards 017 and 018 (read after correction 020 at the 11/21 session) and KB-VIO-405 uses the corrected wording; 
 2026-11-23T21:11Z	COR-20261123-03	NO-OP	scope=VIOLET files carry none of the flipped claims (lateness reason, Bahrain first, V14 leg) and the HOLD items (VIX +5 leg, VIXCLS 35.89 [11/20], SP500 6910.39) match my Cboe History reads, grep of AGENTS/VIOLET 2026-11-23; 
+2026-11-25T20:40Z	COR-20261125-22	NO-OP	scope=VIOLET STATUS, SCRATCH, NEXUS_BRIEF and TRADE carry no CoreWeave swap level and no 1,363 figure (grep 2026-11-25), and HY 372 on 11/24 is unchanged by the correction; 
