@@ -2,7 +2,10 @@
 
 ## Current assessment
 
-**Implementation follow-up:** WALTER recorded Will's approval of the revised proposals at 14:28 ET and implemented them in `6d982989d2` and `eff606c6ae`; CATO confirmed both on freshly fetched origin/master. Charter/procedure/scanner wording implements resumption refresh, selective material-source reading and duplicate/uncertainty discipline. All 79 original GPU records are preserved; 48 have dated corrections. WW23-4's record-reconciliation finding is CLOSED at this perimeter: the original twelve now explicitly identify eight reviewed, two partial, one reviewed duplicate and one unread item. This is not certification of each source read or a claim that everything is read. Three existing queue tests rerun PASS. A concurrent owner note records a first resumption refresh with no crossing; sustained compliance and a crossed-alert case remain unproved. December 14 review is registered with no automatic automation grant. Details and limits in the implementation section below.
+**November 25 morning review:** useful source-qualified routing and demonstrated correction delivery, with two current summary defects: WW25-1 mixes CoreWeave swap tenors; WW25-2 calls an unconfirmed repeat Hodeidah attack a second strike. WALTER owns those summaries; LIQUID also owns the upstream tenor wording. The larger Brent sign error is already repaired and published. China correction content improves the inference, but its FLIPS labels misdescribe an earlier explicitly unread scope (WW25-3, lower priority). All 22 expected physical copies of the two correction cards exist; downstream consumption remains unestablished. Primary spot checks support selected economic, regulatory and China claims, not the entire morning. See the dated follow-up below. Advice delivered; no owner edits, sends or launches. Keep the December 14 observation, without adding a checker.
+
+
+**Implementation follow-up:** WALTER recorded Will's approval of the revised proposals at 14:28 ET and implemented them in `6d982989d2` and `eff606c6ae`; CATO confirmed both on freshly fetched origin/master. Charter/procedure/scanner wording implements resumption refresh, selective material-source reading and duplicate/uncertainty discipline. All 79 original GPU records are preserved; 48 have dated corrections. WW23-4's record-reconciliation finding is CLOSED at this perimeter: the original twelve now explicitly identify eight reviewed, two partial, one reviewed duplicate and one unread item. This is not certification of each source read or a claim that everything is read. Three existing queue tests rerun PASS. A concurrent owner note records a first resumption refresh with no crossing; sustained compliance remained unproved at that review. The November 25 sample below includes a current VIX alert, without independently certifying every tick or continuous coverage. December 14 review is registered with no automatic automation grant. Details and limits in the implementation section below.
 
 Keep the division of work: WALTER finds, filters, verifies framing and routes; domain desks judge the implications; PROME coordinates; TERRY assesses trades. The observed weakness was execution before dispatch: old observations presented as current, skipped source reads and missed threshold coverage. The revised instructions address the resumption ambiguity alongside existing live-quote/source duties; ordinary execution is now the relevant observation, not another general audit. Workload as a cause remains unmeasured. Earlier corrected wording and source limits remain in the dated sections.
 
@@ -244,3 +247,67 @@ The dirty `research/2026-11-23_return/THRESHOLD-SCAN.md` continuation, dated 20:
 **WW23-4 record repair CLOSED; proposals 2/3/5 implemented in governing instructions; historical preservation verified.** No further CATO implementation or broad audit warranted. WALTER owns the declared partial/unread evidence and material future source review; recipient owners retain correction assessment. PROME/WALTER own the existing December 14 observation. Continuous monitoring was neither built nor authorized. Ordinary-use reliability and economic benefit remain unproved. Requested check complete; await Will.
 
 **Implementation-check delivery checks:** confirmed all ten distinct documentation inputs readable. Weekday check passed on the three PROME files, this report and CONTINUITY; six explicit startup paths remain below cap, root CLAUDE retains its existing rotation advisory. Optional CATO STATUS/calendar/catalyst files absent and omitted. Orphan advisory found WALTER's active closeout/card/log work and its cross-desk handoffs, not CATO-authored packets; preserved. Exact-path diff check passed; shared staging empty at the check. Conditional consumer/ledger/memory checks not triggered by this documentation-only CATO change. The three isolated GPU tests and named-commit publication checks above are the substantive verification. Only report and continuity committed by CATO; receipt in-session.
+
+
+## November 25 — morning accuracy and workflow review
+
+### Scope and stopping point
+
+Will requested a repeat accuracy/corrections/feedback review of WALTER's morning work. Start approximately 11:36 ET, shared HEAD `ab435cd592`; latest WALTER delivery commit `d6c4dc59fc`, substantive cards/corrections `43650e5111`. Read all sixteen morning cards SIG-W-20261125-005 through -020, selected owner packets, correction registry and delivery records. Earlier overnight cards 001–004 were inventoried, not included in this substantive sample. WALTER's latest relevant commits were unchanged at final evidence check. Startup pull refused other owners' dirty paths; fetch succeeded, no stash or takeover. HOMER's three dirty paths at entry were preserved and later disappeared through concurrent owner activity.
+
+Compared selected claims against issuer/public sources; reproduced the Brent contract comparison from saved owner vendor captures; checked correction recipients against predecessor/successor unions and actual inbox files. This supports bounded feedback and a few concrete repairs. It is not an all-source audit, a trading recommendation, or a measured error rate. No new collector, checker, session launch or owner packet was needed. Older GPU reconciliation was not reopened.
+
+### WW25-1 — OPEN, moderate: CoreWeave headline mixes tenors
+
+Card 018, heading at line 23, calls 1,363–1,379 bp today's **5Y** swap observations. Its own table at line 32 identifies 1,379 as **4Y**. LIQUID's processed packet to PROME, `2026-11-25_from-LIQUID_hy-funding-and-ai-credit-read.md`, separately identifies 07:56 ET 5Y 1,363/1,410 on a $95,000 odd lot and 08:20 ET 4Y 1,379/1,429 on $2 million. Its prose also groups the observations as five-year. The TERRY packet `2026-11-25_from-LIQUID_crwv-cds-reading-and-tlt-004-grade.md`, lines 14–15, preserves the distinct tenors.
+
+**Consequence:** a headline reader sees a five-year move that includes a different instrument. The owner already discloses conversion precision and odd-lot weakness; those qualifications do not repair tenor identity. Both observations remain above the stated 12% line; this review does not establish a changed trade grade.
+
+**Repair/owner/closure:** WALTER should state 5Y 1,314 to 1,363, with the odd-lot limitation, and report 4Y 1,379 separately. LIQUID should reconcile its matching upstream prose. Close when active summaries and affected consumer copies consistently identify tenor. No independent DTCC repricing was performed.
+
+### WW25-2 — OPEN, moderate: Hodeidah repeat strike is asserted in the headline
+
+Card 010, heading at line 28, says the port was struck “again.” Its body explicitly leaves unresolved whether the 12:48Z report describes a new attack or replays the early-Wednesday attack. The later oil correction banner addresses the price sign, not event identity.
+
+**Consequence:** the heading turns a second report into a second physical supply event. This is an internal evidence-strength mismatch, not proof that a repeat attack did not happen.
+
+**Repair/owner/closure:** WALTER should say a new report of a Hodeidah strike, distinct attack unconfirmed, unless FALCON can establish the event chronology. Close when the summary preserves that uncertainty or cites verification of a separate attack. No broad geopolitical source investigation is commissioned by this finding.
+
+### Brent — substantive error already corrected; consumer use still pending
+
+Card 008 compared 89.21 with 91.40 and interpreted about −2.4% as oil failing to react to the reported attack. Card 010 reused the falling-price premise. BRENT's 10:43 packet identified different contracts: February BZG27 against January BZF27's previous close. WALTER published correction 016 at 11:11, with warnings on both originals.
+
+CATO inspected `AGENTS/BRENT/research/2026-11-25_eia-gulf/raw/c1_BZF27.NYM.json`, `c2_BZF27.NYM.json`, and the corresponding BZG27 captures. January 10:12 observation 93.46 versus 91.40 gives **+2.25%**; February 10:14 observation 90.06 versus 88.78 gives **+1.44%**. The mixed comparison gives −2.40%. Later captures substantiate the correction's stated observations, not an exact reconstruction of every earlier tick. A positive day also does not establish attack causality or lost barrels.
+
+**Disposition:** producer framing and publication repaired, not a still-open sign error. Practical lesson: match contract and comparison basis before explaining a price move; freshness alone is insufficient. No new tool proposed.
+
+### WW25-3 — OPEN, low: classify the China correction fairly
+
+Card 014 verified Taiwan, Malaysia and Korea; it explicitly left China and other notices unread. Its broad conclusion that tariffs were a weak explanation for the chip fall exceeded that coverage. Card 015 properly introduces China's different annex treatment and withdraws that inference. But its correction fields and warning banner say the exemption “FLIPS for China”; card 006's UNKNOWN likewise becomes a FLIPS label. Neither predecessor established a China exemption.
+
+**Repair/owner/closure:** WALTER should describe additional scope resolved and an overbroad inference withdrawn, while retaining the valid three-country finding. This is lower priority than the two active headlines; do not inflate the original factual-error count.
+
+CATO downloaded and extracted the official [USTR China notice](https://ustr.gov/sites/default/files/files/Press/Releases/2026/China%20FRN.pdf). The proposed structure distinguishes Annex A's up-to-10% treatment from other rates; selected server, parts, fabrication-equipment and processor tariff lines occur there. The notice is a proposal with comment/hearing dates, not an effective tariff. CATO did not validate every annex line, seven partner notices, or the owner's estimated incremental duty/customs-stacking interpretation. Source checks support the narrower revised inference, not a quantified exposure to AI-server companies.
+
+### What worked, with independent-check limits
+
+- **Consumer spending, card 007:** [BEA's release](https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026) and its tables support the income, spending, saving and inflation figures. The Medicare rebate explanation is in the technical material. Distinguishing nominal spending growth from roughly flat real spending is useful interpretation.
+- **Flagstar, card 012:** [OCC's enforcement release](https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-104.html) supports the $112,000 flood-insurance penalty. WALTER appropriately does not locate the violation in Florida or turn it into measured current flood losses. Underlying order not separately read.
+- **Broad credit, card 018:** [FRED](https://fred.stlouisfed.org/series/BAMLH0A0HYM2) shows 3.72 for November 24 against 3.63 for November 23: 372 bp, up nine. Its page update precedes the card. This independently supports that series, not the CDS conversions or every other market quote.
+- **Florida aid, card 019:** FEMA OpenFEMA disaster 4956 API returned seven counties. The household-program field identifies Brevard, Indian River, Martin, Okeechobee, Palm Beach and St. Lucie; Hardee is public-assistance only in this snapshot. St. Lucie lacks the public-assistance flag. Household aid uses `ihProgramDeclared`; the separate legacy `iaProgramDeclared` field was false. Mortgage-servicing implications were not independently certified here.
+- **New-home sales, card 020:** [Census's release](https://www.census.gov/construction/nrs/pdf/newressales.pdf) supports 701,000 SAAR, September 614,000, and +14.2% with a ±22.6% interval. WALTER preserves the statistical limitation and revised-base caveat. The earlier vintage was not independently re-fetched.
+- **China leadership, card 017:** [Xinhua's November 24 dispatch](https://www1.xinhuanet.com/legal/20261124/378b13d41b634900bbe3b8e3de92958d/c.html) supports investigation, without establishing removal or a successor. MOFCOM's official indexed notice supports the clause-two suspension extension; direct page opening failed, so this is a search extract check, not a full page read.
+
+The threshold worksheet explicitly labels several families NOT RE-READ and inaccessible official series UNKNOWN. Card 005 carries a current dated VIX alert; this is improved observed behavior relative to the earlier stale-quote case, not proof of uninterrupted monitoring. NWS alerts, all live ticks, every corporate figure, GDP and claims releases were not independently verified in this review.
+
+### Correction delivery and next action
+
+COR-20261125-15 covers the union of cards 006, 014 and 015 recipients; COR-16 covers 008, 010 and 016. Registry sets match those unions. All **22 expected physical inbox copies** exist and are logged delivered: 13 for China, nine for Brent. PROME/RED board-pull exceptions explain the remaining recipients. Original warnings and correction cards were committed together; both substantive and delivery commits are ancestors of freshly fetched origin/master.
+
+All 22 copies were still in inbox locations at inspection; selected recipient receipts did not establish consumption. This does not prove nobody read them. Producer repair and delivery are demonstrated; integration into downstream judgments remains an owner observation for the next sessions. Do not ask Will to relay the sole copy of corrections that are already delivered.
+
+**Recommendation:** finish WW25-1 and WW25-2, tidy WW25-3 in the same normal correction work, and let affected desks consume the already-delivered China/Brent corrections. Preserve the December 14 review. No new audit apparatus or automatic monitoring grant follows. CATO's review stops here; implementation belongs to WALTER/LIQUID and consumer desks. No owner records changed, no messages sent, no desks launched.
+
+### Delivery checks
+
+Verified existence/readability before checks. Weekday check passed for PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO CONTINUITY.md and this report (five actual inputs). Explicit startup-size check passed for CATO AGENTS.md, CHARTER.md, CONTINUITY.md and root CLAUDE.md, USER.md, AGENTS.md (six actual inputs; continuity 18,865 bytes). CATO lacks optional STATUS/CALENDAR/CATALYSTS files; none was passed as a pretend checked input. Orphan advisory identified concurrent PROME-authored WALTER inbox work, WATT corrections receipts and PROME's own pages; none is CATO-authored or included. Whole-tree whitespace check reported only WATT/PROME whitespace; CATO-only diff checked separately. No STATUS, auto-memory or authoritative numeric-series update by CATO, so conditional ledger/memory/consumer checks were not triggered. No tests warranted for this prose review. Final commit/push receipt is delivered in-session; owner work remains untouched.
