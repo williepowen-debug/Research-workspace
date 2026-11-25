@@ -1,0 +1,112 @@
+{
+ "schema": 2,
+ "staged_at": 1795628922.894097,
+ "items": [
+  {
+   "id": "2125446309603680298",
+   "disposition": "KILL",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2125624903496040617",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261125-024-CoreWeave-Oct-2031-bonds-74.23-yield-17.91-June-2030-record-low-76.55-Tradeweb-via-Reuters-Nov-25-and-CCC-effective-yield-18.66-Nov-24-FRED-three-year-window-high.md",
+   "ask_user": null
+  },
+  {
+   "id": "2125585039320646034",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2125394343477612548",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261125-024-CoreWeave-Oct-2031-bonds-74.23-yield-17.91-June-2030-record-low-76.55-Tradeweb-via-Reuters-Nov-25-and-CCC-effective-yield-18.66-Nov-24-FRED-three-year-window-high.md",
+   "ask_user": null
+  },
+  {
+   "id": "2125516586434113702",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261125-025-Small-items-Will-bookmarks-Nov-25-Thanksgiving-high-wind-warnings-mid-Atlantic-PE-exit-backlog-300B-claim-WSJ-unread-Iowa-detonation-done-SocGen-Oracle-debt-Kalshi-93-others-repeats.md",
+   "ask_user": null
+  },
+  {
+   "id": "2125628717263372512",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2125627317263466739",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2125584140900683877",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261125-025-Small-items-Will-bookmarks-Nov-25-Thanksgiving-high-wind-warnings-mid-Atlantic-PE-exit-backlog-300B-claim-WSJ-unread-Iowa-detonation-done-SocGen-Oracle-debt-Kalshi-93-others-repeats.md",
+   "ask_user": null
+  },
+  {
+   "id": "2125583613332959634",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2125630375074611665",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2125599639013367920",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261125-025-Small-items-Will-bookmarks-Nov-25-Thanksgiving-high-wind-warnings-mid-Atlantic-PE-exit-backlog-300B-claim-WSJ-unread-Iowa-detonation-done-SocGen-Oracle-debt-Kalshi-93-others-repeats.md",
+   "ask_user": "WSJ private-equity backlog article: the $300B 2028-29 debt and 30% held six-plus years; not in the PitchBook paper read; decides whether BROCK can use either figure."
+  },
+  {
+   "id": "2125562424111596003",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261125-025-Small-items-Will-bookmarks-Nov-25-Thanksgiving-high-wind-warnings-mid-Atlantic-PE-exit-backlog-300B-claim-WSJ-unread-Iowa-detonation-done-SocGen-Oracle-debt-Kalshi-93-others-repeats.md",
+   "ask_user": null
+  },
+  {
+   "id": "2125610724885950960",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261125-024-CoreWeave-Oct-2031-bonds-74.23-yield-17.91-June-2030-record-low-76.55-Tradeweb-via-Reuters-Nov-25-and-CCC-effective-yield-18.66-Nov-24-FRED-three-year-window-high.md",
+   "ask_user": null
+  },
+  {
+   "id": "2124913463117885631",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2125226505936515500",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261125-025-Small-items-Will-bookmarks-Nov-25-Thanksgiving-high-wind-warnings-mid-Atlantic-PE-exit-backlog-300B-claim-WSJ-unread-Iowa-detonation-done-SocGen-Oracle-debt-Kalshi-93-others-repeats.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "46ad3c9919734b36823030162fca3606"
+}
