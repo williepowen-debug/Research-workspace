@@ -79,3 +79,10 @@ Reverse-chronological log of **structural** changes: docs created/retired/moved,
 - **STATUS:** 44 red marks to 5 (four bands past Red, servicer Class A). Rows with no band say "observation" or nothing. Stars left.
 - **Start-up read** (charter + STATUS + SCRATCH + LESSONS + docket print; excludes root files, inbox, MEMORY): see SCRATCH. Row numbers in CATALYSTS changed; row-number citations before this date refer to the old file.
 - NOT done: step 6 (held for Will); script 1 (scope draft with Will).
+
+### 2026-11-25 (18:31 ET) — script 1 built: `tools/fetch_series.py` (Will 18:28 ET, "yes go ahead and build"; scope `reports/2026-11-25_script1-scope-DRAFT.md` option A)
+- Four feeds (PMMS, FMHPI, Treasury curve, Apartment List roster extract) into `data/series/<feed>/`, logged in `data/series/FETCH_LOG.tsv`. Grades nothing; no boot step, rule or band added.
+- `--selftest`: 12 malformed inputs (truncated, empty, renamed column, non-numeric, stale copy, fewer rows, bad date, missing geography, missing roster cities, no month columns) all refused.
+- Live run 18:30 ET checked against hand readings: PMMS 7.21% [11/25] ✓ · FMHPI national Sept +1.94% YoY SA ✓ · Treasury 11/24 2Y 4.63 / 10Y 4.91 ✓ · Apartment List full-file SHA-256 = the 10/28 hand record ✓, extract cells identical to the hand extract (quoting differs: the script keeps the publisher's lines), `rent_breadth.py` on it gives 39/100 ✓. First live Apartment List run failed loudly on a protocol-relative link; pattern fixed.
+- Second run: all four UNCHANGED, nothing re-saved. FL statewide FMHPI deliberately not kept (CORAL owns statewide FL).
+- 353 lines against the ~150 scoped. Keep-or-delete test: end of the December refreshes.

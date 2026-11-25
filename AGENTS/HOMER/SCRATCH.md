@@ -24,7 +24,7 @@
 Dated prints come first: the 11/30 ICE check outranks this plan.
 
 1. DONE 2026-11-25 (fifth session).
-2. **Script 1:** scope draft with Will (A build / B without Apartment List / C do not build). **No build before his word.** Stop after it unless it clearly saves time.
+2. **Script 1 BUILT 2026-11-25 18:31 ET (Will 18:28 ET "yes go ahead and build", option A):** `tools/fetch_series.py`. Use it at the next PMMS (12/03), FMHPI (~11/30) and Apartment List (~11/30) pulls; **keep or delete by the end of the December refreshes**: delete if it does not plainly save time. It is 353 lines, not the ~150 scoped (selftest included).
 3. **Possibly later, script 2:** filing reader (same 10-Q lines each quarter; PennyMac and the other listed servicers first). Separate scope approval. Reading the text stays required.
 4. **Not in the plan:** step 6 (band history out of CLAUDE.md) HELD for Will's separate word; the one-to-one with LABOR skipped; no new band, kill test, rule or check.
 

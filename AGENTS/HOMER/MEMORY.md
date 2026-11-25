@@ -43,7 +43,7 @@ Each row is the LAST observation, dated. Reachability changes; re-test before ca
 | ICE Mortgage Monitor | read 11/11 | `mortgagetech.ice.com/publicdocs/mortgage/ICE_Mortgage_Monitor_<Mon>_<YYYY>.pdf` (month abbreviation varies) |
 | ATTOM | works 11/25 (August 200) | `/news/market-trends/foreclosures/<month>-2026-foreclosure-market-report/`; the Q3-2025 form was `q3-and-september-2025-...`. Sept, Oct, Q3 2026 and that form all 404 on 11/25 |
 | Trepp | TreppTalk works; DQ PDF at `trepp.com/hubfs` read 11/05 | full special-servicing PDF not reached |
-| Apartment List | works 11/25 | CSV name on `apartmentlist.com/research/category/data-rent-estimates` (ctfassets) |
+| Apartment List | works 11/25 | CSV name on `apartmentlist.com/research/category/data-rent-estimates` (ctfassets; the page links it protocol-relative, `//assets.ctfassets.net/...`) |
 | S&P Case-Shiller | `press.spglobal.com` works 11/24 | the Cotality-hosted page once served stale data |
 | NAHB | read 11/20 | HMI history `.xls` (`xlrd` is in `.venv`); NAHB Eye On Housing carries BEA residential |
 | SEC EDGAR · api.fdic.gov · OpenFEMA | work 11/24–25 | EDGAR 10-Qs open with `sec_ua("HOMER-Research {}")` from `scripts/sec_contact.py` (used 11/25; never write the address in a file); confirm a disaster declaration at OpenFEMA, not press |
