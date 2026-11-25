@@ -1,12 +1,11 @@
 # ISHM — NEXUS Brief
 
-**Status:** 🟡 — Physical equipment buying well supported; factory upturn real but narrow and slowing, durability unproved.
+**Status:** 🟡 — Equipment spending real and rising, but less of it is U.S. production than measured before; factory upturn real but narrow, durability unproved.
 **Domain:** US manufacturing cycle, domestic/imported equipment and freight; downstream owners retain thesis judgments.
-**Recent thesis pivot:** WQ-643 A, November 6 20:31 ET: R1 re-pointed to the November S&P final, December 1, date PRIMARY at the issuer calendar. November 6 close: October truck orders fell sharply (ACT preliminary 13,500, -45% y/y) on what both issuers call EPA 2027 uncertainty; factory payrolls +19K. Earlier the same day, the original S&P October final moved R1 toward-real from CANNOT-FIRE to NOT-MET. No flip fired, and no score, band, gate or threshold changed.
-**As of:** 2026-11-19 11:30 ET | STATUS commit: `17ccc184a6d5950553930dd975bce33a9998d475`
-**November 19 due-row wake:** Philadelphia Fed November (PRIMARY, first-published, SA): activity 6.3 from 20.9, new orders −0.4 from 4.3 (first negative since May), prices received 47.0 (highest since June 2022), future capex 18.9 (lowest since February); sign positive, no band, nothing fires. Kansas City NOT-READ (route-limited; recheck November 20). ACT October Class 8 final 13,755, −44% y/y (dated November 18). December 1 frame frozen (`RELEASE_PREP_2026-12-01.md`). No score, band, gate or threshold changed.
-**November 17 due-row wake:** Fed G.17 October (PRIMARY, preliminary): total IP −0.4% (utilities −4.3%), manufacturing +0.3% for a second month but −0.1% excluding motor vehicles and parts; business equipment +1.0%; utilization 76.4%. October survey strength has not shown up as broad measured output. VX-ISH-02 unchanged at 2; annual revision November 24 restates levels. No score, band, gate or threshold changed.
-**November 16 due-row wake:** Cass October published (shipments +5.9% y/y, NSA; SA m/m +1.7%), J2 deterioration NOT-MET; Empire November general 7.8 from 25.5, new orders 3.0 from 23.2, employment 18.1, sign positive, no band; J2 sample gained the October month (freight-up), counts unchanged. No score, band, gate or threshold changed.
+**Recent thesis pivot:** November 24-25: the Fed's G.17 annual revision cut U.S. business-equipment output growth since December 2022 to +4.5%, less than half the earlier estimate, while BEA's Q3 second estimate raised information-processing investment to +41.7% SAAR. Spending and domestic production now diverge; imports and price fill the gap (INFERRED). R1 still grades once, at the November S&P final December 1 (WQ-643 A). No flip fired, and no score, band, gate or threshold changed.
+**As of:** 2026-11-25 11:04 ET | STATUS commit: `93ddd61f13f49934bf916787a6b6f8458aae0d29`
+**November 25 C8 session (PROME prome-77):** Census October advance (PRIMARY): core capital-goods orders +1.2% to $89.383B, shipments +0.6% to $86.670B, September revised up; NSA y/y +13.3% / +10.7%. G.17 revision (base 2022): manufacturing still up two months (Sep +0.2%, Oct +0.3%), y/y +1.6% (was +2.2%); utilization 76.8% on lower capacity. BEA Q3 equipment +21.8% (advance 20.9). Kansas City November composite 18, new orders 16; Richmond composite 3, new orders 2. S&P November flash 54.5 (SECONDARY, not graded). Deere: FY2027 U.S./Canada large ag +5 to +15%, net $4.50-5.25B incl. pension charge; 100+ hp tractor dealer stocks 31% vs 23%. Nothing fires.
+**November 19 due-row wake:** Philadelphia Fed November activity 6.3, new orders −0.4 (first negative since May); ACT October Class 8 final 13,755, −44% y/y. December 1 frame frozen (`RELEASE_PREP_2026-12-01.md`).
 
 ## CROSS-DOMAIN
 
@@ -14,60 +13,63 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
-| VULCAN | September computers plus accessories imports +150.96% y/y, Q3 +28.639% q/q on one Census vintage; S&P names AI-related demand, no measured share | P2 | Existing physical-demand contraction warning stays NOT-MET; mixed-vintage caveat closed. Nominal, not AI-only; timing surge not excluded. VULCAN owns the verdict |
-| HENRY | November 17: October IP, manufacturing +0.3% but ex autos −0.1%, business equipment +1.0%. Earlier: S&P October final 54.9, orders and output slower than September; Parker orders +13% vs +12% rolling 12-month | P3 | Cycle read, not a cycle-turn call. Parker backlog and adjusted EPS raise carry the Filtration Group caveat |
-| CARL | S&P output prices steepest since September 2022; ISM prices 75.2 from 77.9; Parker $27M returns, $6M received | P3 | Inflation read stays CARL's. Refund accounting is not new tariff cost; the two survey measures are different series |
-| LABOR | S&P hiring steepest since April 2021; ISM employment 52.4 from 52.7 | P3 | Survey disagreement in size; LABOR keeps the figure. No trigger; ISM <47 NOT-FIRED |
-| LIQUID, RED | November 19: ACT October Class 8 final 13,755, −44% y/y, EPA 2027 timing per ACT; nothing fires. November 16: Cass October +5.9% y/y, J2 test NOT-MET, counts unchanged. November 13: J2 matured window, July 2026 (Cass -4.84% y/y) followed by +47.9 bp HY widening; forward 28/33 at ≤25 bp. Cass had turned positive in August/September before the widening, so not freight-led. Earlier: October Class 8 preliminary ACT 13,500, -45% y/y | P2 | J2 volume input only, qualified for EPA 2027 order timing; no condition fires. Credit and probability reads stay with them |
-| PROME | Six due items closed; R1 re-pointed under WQ-643 A, December 1 confirmed at the issuer; survey-band recommendation is register none | P2 | R1 test live again at one print; DOCKET's "date secondary" wording is PROME's to update |
+| VULCAN | November 25: J1 at the October durables print (core orders +1.2%, shipments +0.6%); BEA Q3 information processing +41.7%; G.17 business-equipment output since 2022 under half the earlier estimate, October +0.1% (was +1.0) | P2 | Q3 contraction warning NOT-MET, reaffirmed; Q4 one month only. Spending vs domestic-production gap is new context for the AI-capex verdict, which is VULCAN's. Nominal M3, no AI-only allocation |
+| HENRY | November 25: durables, G.17 re-base (compare changes, not levels across 2017 and 2022 bases), Deere checklist | P3 | Cycle read, informed; equity reaction is HENRY's |
+| FERT | November 25: Deere FY2027 industry outlook, dealer inventory, Financial Services credit-loss provision | P3 | Farm-income side is FERT's; no input-cost figure in the release |
+| CARL | November 25: Deere $383M FY tariff recoveries, about $1M in Q4 (INFERRED); Richmond prices paid 7.59%, KC prices paid 53 from 70. Earlier: S&P output prices steepest since September 2022; ISM prices 75.2 | P3 | Inflation and tariff announcement reads stay CARL's. Recoveries are not new tariff cost |
+| TERRY | November 25: tradeability read, no card asked | P3 | No ISHM trigger fired; "no card" is a complete answer |
+| WALTER | November 25: issuer confirmations for cards 007, 011, KC, Richmond; ATA October | P3 | Board corrections and gap fills, WALTER's to route |
+| LABOR | S&P hiring steepest since April 2021; ISM employment 52.4; KC November employment 20 (multi-year high) | P3 | LABOR keeps the figure. No trigger; ISM <47 NOT-FIRED |
+| LIQUID, RED | November 19: ACT Class 8 final −44% y/y (EPA 2027 timing); November 16: Cass October +5.9% y/y, J2 NOT-MET; J2 forward 28/33 at ≤25 bp | P2 | J2 volume input only; no condition fires. Credit reads stay with them |
+| PROME | November 25 delivery memo `PROME/inbox/2026-11-25_from-ISHM_durables-g17-deere-read.md` | P2 | Seven due rows closed; nothing for Will |
 
-Packets dated November 6 at the six owners; November 19 Class 8 final packets at LIQUID and RED; receipts at `PROME/inbox/`. No recipient consumption is claimed.
+Packets dated November 25 at VULCAN, HENRY, FERT, CARL, TERRY, WALTER (commit e89721c4af). No recipient consumption is claimed.
 
 **WAITING FOR:**
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| Kansas City Fed | November manufacturing survey | November 20 recheck | Not read November 19: curl times out from this box, WebFetch saw no November item; publication UNKNOWN | Third November district for the regional order count; band OWED, nothing fires on it |
-| Honeywell, Union Pacific IR | Next earnings dates | December 31 recheck | Pages returned 403, so dates are UNKNOWN, not unannounced | Schedules existing company reads only |
-| Cass | November shipments | December 14 | Issuer rule: the 13th, next business day when it falls on a weekend | Existing J2 volume leg; adds the November month and the August forward window to the J2 sample |
-| AAR | Exact October-edition publication day | December 2 rail batch | Still UNKNOWN; PDF creation is not publication proof | Metadata only; October weekly grade is complete |
+| Dallas Fed | November manufacturing survey | November 30, 10:30 ET | Fifth district for the November regional count (now 1 of 4 negative) | Regional sign; band OWED |
+| S&P Global, ISM | November final PMI; November ISM | December 1, 09:45 / 10:00 ET | R1 two-branch grade; ISM <47 strict | The decision point below |
+| Census | October full M3; FT-900 computer imports | December 3; December 8 | Inventory-to-shipments; the imported-hardware J1 leg that should show where the spending goes | J1 Q4 legs |
+| Honeywell, Union Pacific IR | Next earnings dates | December 31 recheck | Pages returned 403: UNKNOWN, not unannounced | Schedules only |
 
 ## VIEW
 
-- S&P October final, November 2, original release: 54.9 SA vs 55.9 September; output and new orders both slower than September, new work slowest since March; input stocks up modestly for a seventh month; buying partly to secure stock and prices. Output prices steepest since September 2022; lead times longest since August 2022.
-- Computer imports, Census one vintage, read November 6, nominal: September $72,631.9M, +150.96% y/y; Q3 $193,386.7M vs Q2 $150,332.7M, +28.639%; Q3 y/y +116.95%. Matches the November 4 mixed-vintage quarter.
-- Parker FY27 Q1, November 5, NSA: rolling 12-month orders +13% vs +12%; Aerospace +14% vs +18%; organic sales +11.5%; organic guide 7.5–10.5% vs 5.5–8.5%. Backlog $13.7B vs $12.8B, organic split NOT-STATED after the August 13 Filtration Group close.
-- Regional November new orders (issuer SA): NY 3.0 (23.2), Philadelphia −0.4 (4.3); Kansas City NOT-READ; Richmond November 24, Dallas November 30. Every district read so far cooled.
-- Class 8, October, NSA: ACT FINAL 13,755, −44% y/y, dated November 18 (preliminary 13,500, -45%, November 4); FTR 15,600, -36% y/y, year to date 278,201, +74%. Both tie it to EPA 2027 uncertainty; FTR says the earlier pre-buy is complete and some purchases may be deferred rather than canceled. Their judgment, unmeasured.
-- Factory payrolls, October, first print, SA: +19K to 12,681K, +101K since December 2025. LABOR owns the figure.
-- ATA: no public final supersedes the September advance of 114; the subscriber final was not bought.
-- Survey calibration: desk recommends registering no band. Regional ≤1 of 5 negative for two panels occurs in 134/268 pairs; ISM new orders minus inventories <0 twice in 15/59 pairs on a 60-month SECONDARY mirror.
-- Scores unchanged: 18/35 raw, shared-root 13/25; equity thermometer UNKNOWN/excluded. Six `combo:` themes logged, none scored.
+- Census October advance, nominal SA: durables +0.2%, ex-transportation +0.5%; core orders +1.2%, core shipments +0.6%; machinery +1.8%; computers and electronic orders −0.1%; electrical +0.4%. October core shipments 1.7% above the Q3 monthly average (mixed vintages).
+- G.17 annual revision, November 24: base year 2022; total IP October −0.4%, y/y +1.7% (was +2.1%); 2025 growth −0.5 point; business equipment +4.5% from December 2022 to October 2026, under half the earlier estimate; utilization 76.8% (manufacturing 77.1%) on capacity growth revised to 1.0% a year.
+- BEA Q3 second estimate, real q/q SAAR: equipment +21.8%, information processing +41.7%, computers +80.1%, industrial +20.6%, transportation −6.5%.
+- Regional November new orders (issuer SA): NY 3.0, Philadelphia −0.4, Kansas City 16, Richmond 2; composites all positive; Dallas November 30.
+- S&P November flash 54.5 (October final 54.9), SECONDARY; inside the frozen range.
+- Deere fiscal Q4: PPA sales −15%, profit −33%; FY2027 net $4.50-5.25B incl. $0.25-0.40B pension charge; large ag +5 to +15%; capex about $1.5B vs $1.144B.
+- Section 301 proposal (CARL's): comments to January 5, hearing from January 25, no effective date: a possible pre-tariff buying window, unobserved.
+- Freight: Cass October +5.9% y/y; AAR October weeks positive; ATA October −1.8% m/m, +1.8% y/y. J2 NOT-MET.
+- Scores unchanged: 18/35 raw, shared-root 13/25; equity thermometer UNKNOWN/excluded. Six `combo:` themes updated, none scored.
 
 ## CALIBRATION
 
-- **Conviction:** direction-M (real but selective and slowing expansion) · timing-L (durability) · level-L (only inherited ISM <47 registered).
-- **Diverge from market by:** no current consensus claim; evidence is physical-demand counterevidence, with no trade or probability inference.
-- **Cross-agent tensions known to me:** physical equipment and freight strength can coexist with LIQUID credit/funding stress; financing transmission is not cleared by these prints. VULCAN owns the AI-capex verdict.
-- **Uncertain about:** whether order strength is end demand or buyers locking in stock and prices. Nominal imports and real SAAR are not comparable magnitudes.
-- **Failure patterns to mind:** BEA equipment includes imports, so the three J1 legs are not three independent confirmations. ISM and S&P share one month's activity. An acquisition can read as organic backlog.
-- **RED counter-frame:** positive physical activity does not clear credit transmission. Slower orders with rising prices and longer lead times also fit a supply squeeze rather than demand strength.
+- **Conviction:** direction-M (real but selective expansion) · timing-L (durability) · level-L (only inherited ISM <47 registered).
+- **Diverge from market by:** no current consensus claim; evidence is physical-demand and production-composition, with no trade or probability inference.
+- **Cross-agent tensions known to me:** strong equipment spending can coexist with weak domestic equipment output and with LIQUID credit/funding stress; financing transmission is not cleared by these prints. VULCAN owns the AI-capex verdict.
+- **Uncertain about:** whether order strength is end demand or buyers locking in stock and prices; how much of the spending-versus-output gap is imports versus price.
+- **Failure patterns to mind:** BEA equipment includes imports, so the J1 legs are not independent confirmations. ISM and S&P share one month's activity. 2017-base and 2022-base IP levels are not comparable. Nominal M3 contains price.
+- **RED counter-frame:** positive physical activity does not clear credit transmission. Rising spending with flat domestic output also fits tariff-inflated prices rather than volume.
 
 ## NEXT DECISION POINT
 
-- **What:** R1 grade at the November S&P final, same two branches as October (WQ-643 A, Will November 6).
-- **When:** December 1, 14:45 UTC = 09:45 ET, PRIMARY issuer calendar read November 6; a schedule, not a publication.
-- **What would falsify the trigger:** Toward real needs orders and output both faster than October plus issuer-stated broadening beyond precautionary stockbuilding. Toward borrowed needs orders contracting with input stocks rising, tied to precautionary purchases. Otherwise NOT-MET, or CANNOT-FIRE if the release omits the composition. ⚠️ October is a soft base, and the test is one print; it does not roll without a new ruling.
+- **What:** R1 grade at the November S&P final, same two branches as October (WQ-643 A, Will November 6); ISM <47 strict (WQ-507 A) the same morning.
+- **When:** December 1, 09:45 ET (S&P final) and 10:00 ET (ISM).
+- **What would falsify the trigger:** Toward real needs orders and output both faster than October plus issuer-stated broadening beyond precautionary stockbuilding. Toward borrowed needs orders contracting with input stocks rising, tied to precautionary purchases. Otherwise NOT-MET, or CANNOT-FIRE if the release omits the composition. ⚠️ One print; it does not roll without a new ruling. Desk frame odds about 10% / 7% / 83% neither.
 
 ## FORWARD CATALYSTS
 
 | Date | Event | Threshold / signal |
 |---|---|---|
-| November 20 (recheck) | Kansas City Fed, November | Regional sign; band OWED; NY and Philadelphia in |
-| November 23 | S&P US manufacturing flash, 09:45 ET | Graded against the frozen December 1 frame; never graded as the final |
-| November 24 | Fed G.17 annual revision; Richmond Fed November | First-published and revised bases separate; regional sign |
-| November 25 | BEA Q3 second estimate; durables October advance; Deere fiscal Q4 (call 10:00 ET, issuer notice November 11) | J1 revisions without erasing prior vintages; Deere eight-cell checklist |
-| December 1 | S&P final 09:45 ET, ISM 10:00 ET, November | R1 two-branch grade at the S&P final (WQ-643 A); ISM strict <47 |
-| December 2 / 3 / 8 | November rail batch / October full M3 / October FT-900 | Existing successor releases; AAR metadata follow-up |
+| November 30 | Dallas Fed, November | Regional sign; band OWED |
+| December 1 | S&P final 09:45 ET, ISM 10:00 ET, November | R1 two-branch grade at the S&P final; ISM strict <47 |
+| December 2 / 3 / 8 | November rail batch / October full M3 / October FT-900 | J2 leg; inventory cycle; J1 imported-hardware leg |
+| December 16 | G.17 November, on the 2022 base | VX-ISH-02 direction count |
+| December 23 | November durables advance; BEA Q3 third estimate | J1 legs 1 and 3 |
+| February 18, 2027 | Deere fiscal Q1 | Guide held, raised or cut |
 
-Evidence: `research/2026-11-06_r1-successor/NOTE.md`, `research/2026-11-06_close-refresh/NOTE.md`, `research/2026-11-06_due-items/REPORT.md` and their source manifests; `workbook/PRINTS.tsv` 100 rows; November 19 record `research/2026-11-19_due-rows/REPORT.md`, frame `RELEASE_PREP_2026-12-01.md`. Prior work remains at `research/2026-11-04_backlog/REPORT.md` and `research/2026-11-02_L899/REPORT.md`.
+Evidence: November 25 record `PROME/inbox/2026-11-25_from-ISHM_durables-g17-deere-read.md` with sources in `research/2026-11-25_durables-g17-deere/sources/`; `workbook/PRINTS.tsv` 116 rows; frame `RELEASE_PREP_2026-12-01.md`; November 19 record `research/2026-11-19_due-rows/REPORT.md`. Prior work at `research/2026-11-06_due-items/REPORT.md`, `research/2026-11-04_backlog/REPORT.md` and `research/2026-11-02_L899/REPORT.md`.
