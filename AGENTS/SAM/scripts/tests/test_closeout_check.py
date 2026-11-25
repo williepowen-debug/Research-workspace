@@ -686,6 +686,68 @@ def test_I_catches_the_real_5_field_catalysts_row():
     assert p and 'CATALYSTS' in ' '.join(p) and '2026-10-02' in ' '.join(p), p
 
 
+# ---------------------------------------------------------------------------
+# WQ-712 A / WQ-719 A re-key, 2026-11-25: an UNCHANGED brief is no longer
+# re-committed, so a brief older than STATUS must not fail check F.
+# ---------------------------------------------------------------------------
+
+def _run_F(times):
+    saved = cc.git
+    cc.git = lambda *a: times.get(a[-1], '')
+    try:
+        p = []
+        adv = cc.check_brief_ordering(p)
+        return p, adv
+    finally:
+        cc.git = saved
+
+
+def test_F_unchanged_brief_older_than_status_is_advisory_not_a_failure():
+    """The case that broke under the old key: STATUS committed, brief left untouched."""
+    p, adv = _run_F({'AGENTS/SAM/NEXUS_BRIEF.md': '100', 'AGENTS/SAM/STATUS.md': '200'})
+    assert p == [], p
+    assert adv and 'ADVISORY' in adv and 'WQ-719 A' in adv, adv
+
+
+def test_F_brief_at_or_after_status_is_silent():
+    for b in ('200', '300'):
+        p, adv = _run_F({'AGENTS/SAM/NEXUS_BRIEF.md': b, 'AGENTS/SAM/STATUS.md': '200'})
+        assert p == [] and adv is None, (b, p, adv)
+
+
+def test_F_unreadable_commit_times_still_fail():
+    """A check that cannot run is not a pass: the re-key must not soften this leg."""
+    p, adv = _run_F({'AGENTS/SAM/STATUS.md': '200'})
+    assert p and 'cannot read commit times' in p[0], p
+
+
+def test_F_full_run_does_not_fail_on_an_older_brief():
+    """End-to-end through main(): the advisory is printed and the gate verdict is not
+    driven by it (other checks are stubbed clean)."""
+    import io as _io, contextlib as _c, sys as _sys
+    stubs = {n: getattr(cc, n) for n in ('git', 'run_delegated', 'check_docket', 'check_scoreboard',
+                                          'check_sam_memory', 'check_ledgers', 'check_tree_clean')}
+    cc.git = lambda *a: {'AGENTS/SAM/NEXUS_BRIEF.md': '100', 'AGENTS/SAM/STATUS.md': '200'}.get(a[-1], '')
+    cc.run_delegated = lambda: []
+    for n in ('check_docket', 'check_sam_memory', 'check_ledgers', 'check_tree_clean'):
+        setattr(cc, n, lambda *a, **k: None)
+    cc.check_scoreboard = lambda *a, **k: None
+    argv = _sys.argv
+    _sys.argv = ['x', '--no-delegate']
+    try:
+        buf = _io.StringIO()
+        with _c.redirect_stdout(buf):
+            rc = cc.main()
+        out = buf.getvalue()
+        assert rc == 0, out[-600:]
+        assert 'F [step 13a] ADVISORY' in out
+        assert 'brief ordering (advisory)' in out
+    finally:
+        for n, f in stubs.items():
+            setattr(cc, n, f)
+        _sys.argv = argv
+
+
 if __name__ == '__main__':
     fails = skips = 0
     for name, fn in sorted(globals().items()):

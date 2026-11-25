@@ -64,7 +64,7 @@ STEPS = [
     ('12',       'SAM §Write-back', 'TIMELINE if an event resolves + CHANGELOG',            'MANUAL'),
     ('12a',      'SAM §Write-back', 'Consider spawning METSUKE for TRADE/STRATEGY drift',   'MANUAL'),
     ('13',       'SAM §Write-back', 'Research detail -> research/outputs/',                 'MANUAL'),
-    ('13a',      'SAM §Write-back', 'Refresh NEXUS_BRIEF LAST (ordering constraint)',       'CHECKED F'),
+    ('13a',      'SAM §Write-back', 'NEXUS_BRIEF on change only; when rewritten, LAST',     'ADVISORY F (order shown; whether the brief needed a rewrite is MANUAL)'),
     ('14',       'SAM §Write-back', 'Update MEMORY.md (handoff)',                           'CHECKED H  (the fleet-idx delegation is a DIFFERENT file, not this step)'),
     ('root 1',   'root §Session end', 'Commit your files locally',                          'CHECKED G'),
     ('root 1b',  'root §Session end', 'Orphan check',                                       'DELEGATED orphan_check.sh (CATO 2026-09-19: was LISTED but never called)'),
@@ -514,17 +514,32 @@ def check_sidecar(problems, open_ids):
 
 
 def check_brief_ordering(problems):
-    """Schema Amendment 10: the brief is the session's LAST write-back.
-    Checkable form: brief commit time >= STATUS commit time."""
+    """Schema Amendment 10: when the brief IS rewritten it is the session's LAST write-back.
+
+    RE-KEYED 2026-11-25 (WQ-712 A / WQ-719 A, DOCKET L1189; NEXUS 5c18e0f6cd named this
+    function): the brief is now rewritten only when a figure, threshold, or cross-desk
+    send or wait in it changed (NEXUS schema section 4.1). An UNCHANGED brief is left
+    untouched, so after such a session its last commit is legitimately OLDER than the
+    last STATUS commit. Until 11/25 that read as a FAIL, which would have forced the
+    re-commit of an unchanged brief that WQ-719 A retired.
+
+    Now: brief at or after STATUS -> silent; brief older -> ADVISORY line, never a
+    problem. Cost accepted in WQ-719 A: commit times cannot tell a no-change session
+    from one that rewrote the brief and then kept writing STATUS; that judgement is
+    MANUAL (and the fleet pin check, scripts/brief_pin_check.py, run by NEXUS, still
+    blocks a brief committed with an already-stale pin). Returns the advisory text or
+    None. Unreadable commit times stay a problem: a check that cannot run is not a pass."""
     b = git('log', '-1', '--format=%ct', '--', 'AGENTS/SAM/NEXUS_BRIEF.md')
     s = git('log', '-1', '--format=%ct', '--', 'AGENTS/SAM/STATUS.md')
     if not b or not s:
         problems.append('F [step 13a] cannot read commit times for NEXUS_BRIEF.md / STATUS.md')
-        return
+        return None
     if int(b) < int(s):
-        problems.append('F [step 13a] NEXUS_BRIEF.md was committed BEFORE the last STATUS.md commit '
-                        '(%s < %s) — the brief must be the LAST write-back, per schema Amendment 10'
-                        % (b, s))
+        return ('F [step 13a] ADVISORY: NEXUS_BRIEF.md last committed before the last STATUS.md commit '
+                '(%s < %s). Expected when nothing in the brief changed (WQ-719 A, no re-commit). '
+                'If a figure, threshold, or cross-desk send or wait in it DID change, rewrite it last.'
+                % (b, s))
+    return None
 
 
 def check_tree_clean(problems):
@@ -629,7 +644,9 @@ def main():
         print('\n  --pre-commit: SKIPPING F (brief-vs-STATUS commit order) and G (clean tree).')
         print('  These are only meaningful AFTER the final commit. Re-run with no flag before pushing.')
     else:
-        check_brief_ordering(problems)
+        adv = check_brief_ordering(problems)
+        if adv:
+            print('\n  ' + adv)
         check_tree_clean(problems)
 
     if '--no-delegate' not in argv:
@@ -663,7 +680,7 @@ def main():
         print('  about whether the session\'s judgement was right.')
         return 1
     ran = 'docket sync, derived counts, sidecar, handoff cap, ledger schema'
-    ran += ', brief ordering, tree clean' if not pre_commit else '  [F and G SKIPPED: --pre-commit]'
+    ran += ', brief ordering (advisory), tree clean' if not pre_commit else '  [F and G SKIPPED: --pre-commit]'
     print('  ✅ CLOSEOUT-CHECK PASS — structural checks only: %s.' % ran)
     print('     This does NOT certify that the right events were added, that a thesis change')
     print('     was correctly declined, or that any figure is true. The MANUAL steps above')
