@@ -41,3 +41,4 @@ receipt_date	correction_id	action	note
 2026-11-25T14:25Z	COR-20261124-21	NO-OP	scope=CIA and ODNI breach is CYPHER domain - no VULCAN record cites card 20261124-018 item 8; 
 2026-11-25T14:27Z	COR-20261123-12	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-478; validation_ref=NONE; 
 2026-11-25T14:27Z	COR-20261123-13	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-443; validation_ref=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-478; 
+2026-11-25T16:51Z	COR-20261125-15	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-481; validation_ref=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-477; 
