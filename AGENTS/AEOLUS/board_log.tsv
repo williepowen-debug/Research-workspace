@@ -120,3 +120,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-24T23:38ET	SIG-W-20261124-005	noted	INBOX_WALTER	Florida river and coastal flood status; CORAL owns the Florida read and is awake on it; no AEOLUS action, no score move.
 2026-11-24T23:38ET	SIG-W-20261124-019	noted	INBOX_WALTER	Florida federal declaration reported, not in OpenFEMA; CORAL owns; no duplicate read; C1/C4 unchanged.
 2026-11-24T23:38ET	2026-11-23_from-PROME_WQ-741-743-RULED-A	acted	INBOX_DIRECT	Encoded: AEO-17 amended (checks + premise re-audit in row), AEO-18 MWD 50%, AEO-19 FL rain 75% registered, river rule in charter; IDs to PROME.
+2026-11-24T23:40ET	2026-11-24_from-CORAL_river-and-declaration	noted	INBOX_DIRECT	CORAL's St. Johns table (Sanford, DeLand, Astor major; DeLand 6.2 vs 6.33 record by 11/29) + declaration geography (reported, 6 counties). No ask; SE FL watch outcome (to 01:00 ET 11/26) is mine to read next session (SCRATCH 11/23 item 2).
