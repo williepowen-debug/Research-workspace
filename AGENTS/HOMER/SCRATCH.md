@@ -1,23 +1,27 @@
-# HOMER SCRATCH — 2026-11-23 Florida flood sweep (PROME prome-77 wake on Will's word, 16:26/16:33 ET)
+# HOMER SCRATCH — 2026-11-24 full data refresh (Will 22:35 ET: "make sure all our data is updated for HOMER")
 
-**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), in-process desk agent spawned by PROME from `PROME/` cwd; boot files read explicitly to eof with `PROME/tools/boot_read.py`. Laptop on battery (~25% at wake): committed as I went, did NOT push (PROME pushes). No pull: other desks' files dirty (VIOLET, CORAL, HEARTBEAT). Three read-only retrieval helpers (literature, agency rules, Florida data); fannie singlefamily PDFs 403, guide.freddiemac.com JS-only, fema.gov page Akamai-blank (OpenFEMA API worked).
+**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), interactive session homer-2f; laptop. Boot 22:29 ET. PROME and WALTER live; other desks' files dirty (PROME, BROCK), so no pull (HEAD matched origin after fetch). One web-search lane, curl with default client string; no helpers spawned.
 
-## Done 2026-11-23
+## Done 2026-11-24
 
 | Item | Result |
 |---|---|
-| PROME packet | `PROME/inbox/2026-11-23_from-HOMER_florida-flood-home-values.md`: literature table, FL storm event windows (FMHPI), FL position vs nation, disaster rules, premium arithmetic, forward view |
-| TERRY | WQ-696 handoff: supports no implication of its own |
-| CORAL | hand (county ZHVI, FL Realtors Oct address, FMHPI state row, rule table) + ask (flooded-home counts in/out of mapped zone, NFIP claims by county) |
-| Ledgers | PRICING (FMHPI FL metros, storm windows) · STATE_HSG (Miami-Dade condo Oct, county ZHVI Oct) · PIPELINE (declaration-gated relief) · KB_LIVE (046 members; 048 flood sweep) |
-| Inbox | 3 of 3 drained; WQ-725 → docket row 2026-11-30 |
-| STATUS | 11/23 block + basin row; rotated 11/11 vintage and 11/20 BOTTOM LINE plus 4 closed/retired rows to `archive/STATUS_rotated_2026-11-23.md` |
+| Found late and logged | NAR pending Oct 63.0 · Redfin gap Oct 70.5% · Redfin weekly to 11/15 · C.A.R. Oct · MBA wks 11/06 and 11/13 · construction jobs Oct (STATUS carried AUGUST) · Fitch nonbank review 11/16 · Auction.com Q3 |
+| Fresh | Case-Shiller Sept, FHFA Q3 (both 11/24) · Freddie Oct MVS · Las Vegas fallthrough Oct · MND and Treasury 11/24 |
+| Not out (checked 22:40 ET) | ICE First Look Oct · ATTOM Sept/Q3/Oct · Apartment List Nov · FMHPI Oct · PMMS after 11/19 |
+| Out, not obtained | Fannie Oct Monthly Summary (fanniemae.com 403) |
+| Class A | Fitch negative outlooks → REGINALD packet (8 days late); every owner session now runs a rating-action search (docket row) |
+| Florida | Major disaster declaration REPORTED for Brevard; OpenFEMA empty at 03:40Z 11/25 → PROME, CORAL, TERRY, REGINALD, WALTER told |
+| Docket | 16 keys rolled; 3 rows added (OpenFEMA check, construction jobs, FHFA HPI) |
+| Staleness alarm | 7-ledger +36 to +40d flags were a HEADER ARTIFACT (old refresh dates kept in comment lines); older dates relabelled 'earlier refresh', rows untouched; checker clean |
+| Corrections to own record | Las Vegas Sept 'highest since Jun-2022' false; 'construction jobs easing' dead; 'pending record not established' now established at NAR |
 
 ## Open / next
 
-- **11/30 (docket):** WQ-725 A1 first-conjunct restatement in `thesis/THESIS.md` (Will-ruled; not done tonight).
-- **Flood watch list:** FEMA declaration with Individual Assistance (switches FHA moratorium and Fannie's no-contact initial forbearance on; contact-based Fannie forbearance needs none — corrected 2026-11-23 17:22 ET); CORAL's flooded-home counts; ICE First Look Oct (not out 11/23) and any ICE disaster-ZIP note; Zillow county ZHVI Nov (~mid-Dec) for Brevard, Seminole, Volusia, Lake, Orange; FMHPI Oct ~11/30 (Punta Gorda 1.3pp from the −20% HENRY trigger).
-- Case-Shiller Sept 11/24 · new-home sales 11/25 · PMMS ~11/25 · Apartment List Nov (HOM-06) · GSE Oct MF · Trepp Nov ~12/01–05 (HOM-05).
-- Not reached: Freddie and VA disaster rules; FL Realtors metro tables (images); Brevard/Orlando/Tampa association medians; FEMA RR2.0 Florida data at primary.
+- **Wed 11/25:** OpenFEMA (county list, Individual Assistance) · new-home sales · BEA Q3 second estimate (RFI) · PMMS · MBA wk 11/20.
+- **11/25–30:** ICE First Look Oct · Apartment List Nov (HOM-06) · FMHPI Oct · **WQ-725 A1 restatement due 11/30 (approved, not done)**.
+- **12/01–05:** Trepp Nov (HOM-05), combination review 12/01, read-cap re-measure 12/02, construction jobs 12/04. Toll Mon 12/07 after close.
+- Owed: Fitch primary (8/07 and 11/16); Fannie Oct and Sept summaries; ICE Trepp SS Nov ~12/08.
+- PROME docket row 979 (HOM-04) still reads PENDING; it resolved HIT 11/20.
 
 No Will decision required.
