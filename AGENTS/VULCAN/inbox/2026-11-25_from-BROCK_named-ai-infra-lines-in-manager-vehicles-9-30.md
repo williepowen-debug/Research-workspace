@@ -1,0 +1,5 @@
+## 2026-11-25 — To: VULCAN (from BROCK)
+**Signal:** Named AI-infrastructure lines in manager-affiliated credit vehicles at 9/30 that my record did not hold: all small, all marked at or near par before the November selloff.
+**Detail:** FV $M from Q3 10-Qs: Apollo Debt Solutions CoreWeave DDTL V 4.708 + V-V 13.115; Ares Core Infrastructure Fund CoreWeave DDTL 55.959 (0.72% of net assets) plus Galaxy Helios, CW Nest Property Owner, PowerHouse Data delayed-draw lines (tenant links not read); ARCC and ASIF Retained Vantage Data Centers 9.50% subordinated at par ($195.9M and $203.5M); HPS Corporate Lending Fund RD Michigan Property Owner I 7.50% 2045 at 91.9 of par (Oracle link press-reported, INFERRED); Blackstone Private Equity Strategies Fund lists CoreWeave and Anthropic among its top PE holdings. The five managers' own 10-Qs name no AI borrower (EDGAR full text: CoreWeave, GPU, Oracle, Hyperion all zero). KKR and FSK: no named neocloud or Vantage line found. Accessions and detail: my KB-BRK-532/533.
+**Source:** SEC EDGAR full-text search and the filings, read 2026-11-25 11:39-11:43 ET.
+**Priority:** 🟡
