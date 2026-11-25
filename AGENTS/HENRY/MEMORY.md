@@ -53,15 +53,15 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-24 night, D:L1249 wake on Will's word via PROME prome-77, 23:20–23:5x ET (laptop; Claude Code, Opus 5.5). Closeout asked in the spawn prompt.
+### CHANGES SINCE — 2026-11-25 morning, D:L1258 wake by PROME prome-77, 08:58–09:2x ET (laptop; Claude Code, Opus 5.5). Closeout asked in the spawn prompt.
 
-- **Grades:** 11/21 upside marker MET on FRED 11/23 (7,237.17, VIX 26.62); 11/24 held by 1.09 (vendor 7,201.09). 11/23 HY line NO VERDICT: HY 363 landed in the 355–376 band the letter never named (own outcome-space defect, LESSONS n=5). REG-T-04 fired (REGINALD). HEN-65 open.
-- **Will's question:** credit and equity on two clocks. HY 266 [9/21] → 363 [11/23] with RSP flat; S&P −7.90% from 10/6 is the chip complex. Fresh-fire record n=6 (`research/2026-11-24_credit-equity-read/`): the next ten sessions of HY decide; 2024-08-06 is the only narrowing-day fire.
-- **Own catch:** boot on default `--source auto` sent one Cboe request; run `boot.py --source vendor` while Cboe refuses. **WQ-735:** Cboe refused `research-bot/1.0` too (403 23:37 ET); leave the honest name, reading UNAVAILABLE.
-- Drain complete: 25 WALTER cards, 2 packets, 3 correction receipts (NO-OP). KB ML-HEN-243 (finding), ML-HEN-244 (combo:ai-financing-credit).
+- **PCE Oct logged** from bea.gov (200, page read) + FRED/ALFRED vintage 11/24 for revisions: core +0.29% m/m, 3.3% y/y; headline 3.8%; real PCE flat. Not fired. KB ML-HEN-245. Consensus not found by search; do not invent one.
+- **11/24 grade still PROVISIONAL** (FRED SP500/VIXCLS/HY ended 11/23 at 09:05 ET). Pre-open S&P ~7,056 implied (SPY −2.02%), 19 over red; RSP −0.92% = first breadth leg. Odds re-marked: under 7,037 by 12/4 ~70%, HEN-65 ~10%, range 45 / broadening 40 / V 15.
+- **Own catch (absence claim, LESSONS positive-control rule, n+1):** I wrote "no GDP release 11/25" from BEA's `news/current-releases` list, which did NOT carry the GDP release; `bea.gov/data/gdp/gross-domestic-product` did (Q3 second estimate +4.3%). Corrected before commit. A release list is not a complete scan: check the series page.
+- Boot `--source vendor` worked (63 s, no Cboe request). Drain: 5 WALTER, 1 HOMER; COR-20261124-21 NO-OP.
 
 ### NEXT SESSION
 
-1. **PCE + GDP + durables Wed 11/25 08:30 ET** (core vs >0.3%); FRED SP500/VIXCLS/HY 11/24 (confirm the 1.09 yellow hold; HY over 376 with RSP down = broadening).
-2. Boot with `--source vendor`. HEN-65 to 12/4; payrolls 12/4; FOMC 12/9 (HEN-63 0.70); CPI 12/10. Consider registering the broadening letter (enumerate the middle band first).
-3. LESSONS rotation (76%); dashboard v6 stale; DAEDALUS K38–K52.
+1. FRED SP500/VIXCLS/HY 11/24 (confirm the 1.09 hold); the 11/25 close vs red 7,037.04 (red close ⇒ WALTER signal); FRED HY 11/25 vs 376 with RSP down = broadening.
+2. Boot with `--source vendor`. HEN-65 to 12/4; payrolls 12/4; FOMC 12/9 (HEN-63 0.70); CPI 12/10; PCE Nov 12/23. Consider registering the broadening letter (enumerate the middle band first).
+3. LESSONS rotation (78%); dashboard v6 stale; DAEDALUS K38–K52; ECON_CALENDAR rebuild check.
