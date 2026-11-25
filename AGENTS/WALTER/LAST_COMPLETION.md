@@ -107,8 +107,8 @@ Tier 2 FULL closeout, walter-7f, laptop. Publication is not consumption. Retirem
  ],
  "delivery": {
   "signal_date": "20261125",
-  "total": 188,
-  "delivered": 188,
+  "total": 196,
+  "delivered": 196,
   "note": "all rows delivered after origin proof. Delivered is not consumed. CARL, RED, PROME INFO by BOARD diff; TERRY BOARD-only"
  },
  "owner_review": {
