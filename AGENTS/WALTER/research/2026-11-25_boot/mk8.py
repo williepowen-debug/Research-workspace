@@ -1,0 +1,21 @@
+import json
+C=[dict(id="SIG-W-20261125-029",slug="OBSERVED-record-tides-Nov-25-preliminary-Arena-Cove-9.216-ft-vs-8.862-San-Diego-8.654-and-La-Jolla-8.114-by-0.131-Los-Angeles-ties-8.194-San-Francisco-8.21-under-8.663-Humboldt-9.624-still-rising",safety_net="clear",event_window="open",
+route_origin="WALTER walter-7f checkpoint 14:03 ET, NOAA CO-OPS; AEOLUS packet 12:02 ET",origin=["NOAA CO-OPS 6-minute data 14:03 ET","AEOLUS packet 12:02 ET"],signal_type="indicator",
+title="OBSERVED record tides Nov 25 (NOAA, preliminary): Arena Cove 9.216 ft against 8.862 (set Nov 24), San Diego 8.654 and La Jolla 8.114 each 0.131 over their Oct 27 records; Los Angeles ties 8.194; San Francisco 8.21, under 8.663 with the predicted peak passed; Humboldt North Spit 9.624 and rising at last read against 10.359",
+body="""# California tides observed Nov 25 (ft above MLLW, preliminary)
+
+| Station | High so far, PST | Record before today | Result |
+|---|---|---|---|
+| Arena Cove 9416841 | **9.216 at 10:24** (8.97 at 10:48, falling) | 8.862 (11/24/2026, preliminary) | **NEW by 0.354**; AEOLUS had projected 8.77, so the surge beat it |
+| San Diego 9410170 | **8.654 at 08:42** | 8.523 (10/27/2026) | NEW by 0.131 (AEOLUS read first) |
+| La Jolla 9410230 | **8.114 at 08:18** | 7.983 (10/27/2026) | NEW by 0.131 (AEOLUS read first) |
+| Los Angeles 9410660 | 8.194 at 08:36 | 8.194 (10/27/2026) | tie; verification could break it either way |
+| San Francisco 9414290 | 8.21 at 10:48, 8.207 at 10:54 | 8.663 (1983) | under by 0.45 at the predicted peak; watch the next hour |
+| Humboldt North Spit 9418767 | 9.624 at 10:54, **the last reading is the high** | 10.359 (1/2026) | not finished: predicted peak 11:06; NWS window to 13:00 PST |
+
+- **Late:** San Diego and La Jolla peaked about 11:42 ET and AEOLUS reported them 12:02 ET; WALTER cards them at 14:0x ET. Card 009 held the Southern California forecast.
+- Records before today are AEOLUS's figures. Crescent City not read. Impacts for today: not found by AEOLUS at 12:02 ET.
+- **So what:** AEOLUS puts new Southern California and North Coast records on the Dec 23 to 25 king tides at about 60% (unscored). AEOLUS owns the observed read (D:L1256); Arena Cove is new to it.""",
+source="api.tidesandcurrents.noaa.gov (14:03 ET); PROME/inbox/processed AEOLUS packet 2026-11-25",action=["AEOLUS"],info=["CORAL","HENRY","CARL","BROCK","HOMER","REGINALD","RED","PROME"],precedence="IMMEDIATE",confidence=0.9,confidence_language="reports: NOAA preliminary data read; prior records by owner",cluster="CLIMATE_MACRO",domain="CLIMATE_MACRO",entities=["Arena Cove","San Diego","La Jolla","San Francisco","Humboldt","NOAA"],
+dispatch_note="IMMEDIATE by step 7j (observed record tide). Elsewhere than Florida: AEOLUS action. Same recipients as 009. CARL, RED, PROME INFO by BOARD diff.",route_summary="Observed record tides")]
+json.dump(C,open('AGENTS/WALTER/research/2026-11-25_boot/cards-029.json','w'),indent=1)
