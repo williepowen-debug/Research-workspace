@@ -53,15 +53,15 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-25 morning, D:L1258 wake by PROME prome-77, 08:58–09:2x ET (laptop; Claude Code, Opus 5.5). Closeout asked in the spawn prompt.
+### CHANGES SINCE — 2026-11-25 midday, second wake on Will's word via PROME prome-77, 11:38–11:5x ET (laptop; Claude Code, Opus 5.5). Closeout asked in the spawn prompt.
 
-- **PCE Oct logged** from bea.gov (200, page read) + FRED/ALFRED vintage 11/24 for revisions: core +0.29% m/m, 3.3% y/y; headline 3.8%; real PCE flat. Not fired. KB ML-HEN-245. Consensus not found by search; do not invent one.
-- **11/24 grade still PROVISIONAL** (FRED SP500/VIXCLS/HY ended 11/23 at 09:05 ET). Pre-open S&P ~7,056 implied (SPY −2.02%), 19 over red; RSP −0.92% = first breadth leg. Odds re-marked: under 7,037 by 12/4 ~70%, HEN-65 ~10%, range 45 / broadening 40 / V 15.
-- **Own catch (absence claim, LESSONS positive-control rule, n+1):** I wrote "no GDP release 11/25" from BEA's `news/current-releases` list, which did NOT carry the GDP release; `bea.gov/data/gdp/gross-domestic-product` did (Q3 second estimate +4.3%). Corrected before commit. A release list is not a complete scan: check the series page.
-- Boot `--source vendor` worked (63 s, no Cboe request). Drain: 5 WALTER, 1 HOMER; COR-20261124-21 NO-OP.
+- **PCE split from BEA flat files, no key:** `apps.bea.gov/national/Release/TXT/NipaDataM.txt` + `SeriesRegister.txt`. Core goods = IA000062, core services = IA000063, housing DHSGRG, services ex E&H IA001260 (table 2.4.4U lines 375/376). Contributions: table 2.8.8 CE codes (two decimals). Prior vintage of the addenda is NOT on ALFRED: use the totals. October: goods +0.35, services ex housing +0.27. ML-HEN-247.
+- **Fed funds futures conversion works:** ZQ{month}{yy}.CBT on the vendor; resolve months by distinct expireDate (negative control: each month a different expiry). Dec average = 9 days old rate + 22 days post-12/9. 11:30 ET: +23.3 bp ≈ 93%.
+- **Own catch (vendor artifact):** 5-minute SPY bars carried three ~24M bars (10:50, 11:00, 11:05) that gave a false 5.5× volume ratio; drop bars over 8× the day's median bar and check against the quote total.
+- 11/24 grade SETTLED on FRED (7,201.09, 26.36, HY 372). Drain 14 WALTER + 1 ISHM; COR-20261125-15/-16 NO-OP (scope text must not contain semicolons).
 
 ### NEXT SESSION
 
-1. FRED SP500/VIXCLS/HY 11/24 (confirm the 1.09 hold); the 11/25 close vs red 7,037.04 (red close ⇒ WALTER signal); FRED HY 11/25 vs 376 with RSP down = broadening.
-2. Boot with `--source vendor`. HEN-65 to 12/4; payrolls 12/4; FOMC 12/9 (HEN-63 0.70); CPI 12/10; PCE Nov 12/23. Consider registering the broadening letter (enumerate the middle band first).
+1. The 11/25 close vs red 7,037.04 (DOCKET close check after 16:15 ET; red close ⇒ WALTER signal); RSP direction; FRED HY 11/25 vs 376 with RSP down = broadening; VIX settle per LESSONS.
+2. Boot with `--source vendor`. HEN-65 to 12/4; payrolls 12/4; FOMC 12/9 (HEN-63 0.70); CPI 12/10; PCE Nov 12/23 (core goods y/y likely up on a −0.05 base). Consider registering the broadening letter (enumerate the middle band first).
 3. LESSONS rotation (78%); dashboard v6 stale; DAEDALUS K38–K52; ECON_CALENDAR rebuild check.
