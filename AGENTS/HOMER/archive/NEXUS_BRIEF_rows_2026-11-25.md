@@ -41,3 +41,8 @@ Verbatim from `NEXUS_BRIEF.md` at commit `47d954b1e0`-pinned version (file crc32
 ## Also moved later the same day: the 10/28 MF case feed (named cases live in CREED cases/CASES.tsv)
 
 | **REGINALD, CREED** | MF case feed (WALTER-routed, source limits kept): Blackstone **Blackjack** $517.7M remainder in special servicing after missed 10/09 maturity (cash flow above underwriting per Morningstar) · **S2** ~$1.2B / 26 properties modified, 12 foreclosures terminated · UDR–Apollo JV ~**6% cap** on $2B (close expected 10/29) · CRED iQ: 31% of $136B maturing fixed-rate MF balance needs $6.8B equity (modelled) · MSCI: MF distress sales +62.8% | 🟠 MED | Maturity/refi stress is being worked out, not liquidated, at the top of the stack; core assets clear near 6% caps. Distress dollars up, distress share down |
+
+## Also moved: loanDepot Q3 and policy rows
+
+| **CARL, REGINALD** | **loanDepot Q3 (8-K 11/09):** net loss $28.7M; servicing 60+ DQ **2.0%** (1.5% a year ago); ~$19B MSRs sold since July; refinancing upcoming debt maturities; no going-concern language | 🟡 MED | Non-bank servicer strain (KB-HOMER-045): liquidity management, not a liquidity event |
+| **CARL, REGINALD** | Policy: EO 10/22 (FHFA MI-cancellation pilot for NEW loans only; USDA/VA direct-loan rates) — KB-HOMER-039 · Treasury NPRM: large-investor SF purchase restriction from 2027-01-07, ≥350 homes, BTR exempt — KB-HOMER-040 | 🟡 LOW | No current-rate or existing-loan effect; directives and a proposal |
