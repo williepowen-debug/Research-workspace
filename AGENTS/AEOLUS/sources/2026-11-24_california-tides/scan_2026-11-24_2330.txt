@@ -1,0 +1,67 @@
+## Crescent City 9419750 | datum-page max 10.66 MLLW on 19830129 | monthly-highest record since 1933: 10.663 (1983-01), 10.112 (1958-02), 10.089 (2005-12), 10.030 (2026-01), 10.013 (1959-01)
+   flood thr (STND): {'nos_minor': 12.48, 'nos_moderate': 13.39, 'nos_major': 14.68, 'nws_minor': 12.56} | MLLW-on-STND 3.69
+   2026-11-22 max 8.471@09:06 pred 7.697 resid +0.77 q=p
+   2026-11-23 max 9.019@09:30 pred 8.136 resid +0.88 q=p
+   2026-11-24 max 10.062@10:00 pred 8.414 resid +1.65 q=p
+## North Spit (Humboldt Bay) 9418767 | datum-page max 9.882 MLLW on 20051231 | monthly-highest record since 1977: 10.359 (2026-01), 9.887 (2005-12), 9.847 (2003-12), 9.828 (2006-01), 9.723 (2022-01)
+   flood thr (STND): {'nos_minor': 23.32, 'nos_moderate': 24.24, 'nos_major': 25.52, 'nws_minor': 23.3, 'nws_moderate': 24.0} | MLLW-on-STND 14.55
+   2026-11-22 max 9.066@08:48 pred 7.666 resid +1.40 q=p
+   2026-11-23 max 9.575@09:54 pred 8.117 resid +1.46 q=p
+   2026-11-24 max 10.162@10:18 pred 8.423 resid +1.74 q=p
+## Arena Cove 9416841 | datum-page max 8.671 MLLW on 19980206 | monthly-highest record since 1978: 8.671 (1998-02), 8.652 (2026-01), 8.610 (1982-11), 8.550 (2023-01), 8.550 (2001-01)
+   flood thr (STND): {'nos_minor': 36.68, 'nos_moderate': 37.61, 'nos_major': 38.88, 'nws_minor': 36.81} | MLLW-on-STND 28.93
+   2026-11-22 max 7.779@07:54 pred 6.611 resid +1.17 q=p
+   2026-11-23 max 8.061@08:42 pred 7.001 resid +1.06 q=p
+   2026-11-24 max 8.862@09:24 pred 7.263 resid +1.60 q=p
+## Point Reyes 9415020 | datum-page max 8.54 MLLW on 19980206 | monthly-highest record since 1975: 8.553 (2026-01), 8.543 (1998-02), 8.465 (1983-12), 8.445 (1983-01), 8.443 (1978-02)
+   flood thr (STND): {'nos_minor': 11.59, 'nos_moderate': 12.52, 'nos_major': 13.79} | MLLW-on-STND 3.96
+   2026-11-22 max 7.697@08:06 pred 6.479 resid +1.22 q=p
+   2026-11-23 max 8.018@08:48 pred 6.83 resid +1.19 q=p
+   2026-11-24 max 8.386@09:24 pred 7.088 resid +1.30 q=p
+## San Francisco 9414290 | datum-page max 8.659 MLLW on 19830127 | monthly-highest record since 1854: 8.663 (1983-01), 8.653 (1983-12), 8.381 (2026-01), 8.381 (1998-02), 8.141 (2005-01)
+   flood thr (STND): {'nos_minor': 13.69, 'nos_moderate': 14.62, 'nos_major': 15.89, 'nws_minor': 13.02} | MLLW-on-STND 5.98
+   2026-11-22 max 7.639@08:36 pred 6.384 resid +1.25 q=p
+   2026-11-23 max 7.938@09:30 pred 6.713 resid +1.22 q=p
+   2026-11-24 max 8.233@10:06 pred 6.939 resid +1.29 q=p
+## Alameda 9414750 | datum-page max 9.65 MLLW on 19831203 | monthly-highest record since 1939: 9.645 (1983-12), 9.476 (1983-01), 9.192 (2026-01), 9.120 (1998-02), 8.965 (1973-01)
+   flood thr (STND): {'nos_minor': 11.83, 'nos_moderate': 12.75, 'nos_major': 14.03} | MLLW-on-STND 3.33
+   2026-11-22 max 8.335@09:18 pred 7.125 resid +1.21 q=p
+   2026-11-23 max 8.683@09:54 pred 7.46 resid +1.22 q=p
+   2026-11-24 max 8.982@10:30 pred 7.684 resid +1.30 q=p
+## Richmond 9414863 | datum-page max 8.63 MLLW on 19980206 | monthly-highest record since 1979: 8.675 (2026-01), 8.629 (1998-02), 8.488 (2005-01), 8.317 (2024-12), 8.248 (2003-12)
+   flood thr (STND): {'action': 19.51} | MLLW-on-STND 11.59
+   2026-11-22 max 7.802@09:12 pred 6.468 resid +1.33 q=p
+   2026-11-23 max 8.104@09:42 pred 6.785 resid +1.32 q=p
+   2026-11-24 max 8.379@10:24 pred 7.026 resid +1.35 q=p
+## Redwood City 9414523 | datum-page max 10.789 MLLW on 19831203 | monthly-highest record since None: 
+   flood thr (STND): {'action': 16.9} | MLLW-on-STND 6.74
+   2026-11-22 max 9.974@09:48 q=p
+   2026-11-23 max 10.328@10:24 q=p
+   2026-11-24 max 10.712@11:06 q=p
+## Port Chicago 9415144 | datum-page max 7.919 MLLW on 19831203 | monthly-highest record since None: 
+   flood thr (STND): {'nos_minor': 10.74, 'nos_moderate': 11.67, 'nos_major': 12.94} | MLLW-on-STND 3.99
+   OBS ERR HTTP Error 403: Forbidden
+## Martinez-Amorco 9415102 | datum-page max 7.676 MLLW on 20170113 | monthly-highest record since None: 
+   flood thr (STND): {'action': 42.29} | MLLW-on-STND 35.07
+   OBS ERR HTTP Error 403: Forbidden
+## Monterey 9413450 | datum-page max 7.88 MLLW on 19830127 | monthly-highest record since None: 
+   flood thr (STND): {'nos_minor': 10.57, 'nos_moderate': 11.5, 'nos_major': 12.77} | MLLW-on-STND 3.38
+   OBS ERR HTTP Error 403: Forbidden
+## Port San Luis 9412110 | datum-page max 7.649 MLLW on 19730118 | monthly-highest record since None: 
+   flood thr (STND): {'nos_minor': 11.43, 'nos_moderate': 12.36, 'nos_major': 13.63, 'nws_minor': 11.28, 'nws_moderate': 12.28} | MLLW-on-STND 4.25
+   OBS ERR HTTP Error 403: Forbidden
+## Santa Barbara 9411340 | datum-page max 7.647 MLLW on 20121213 | monthly-highest record since None: 
+   flood thr (STND): {'nws_minor': 10.16, 'nws_moderate': 11.16} | MLLW-on-STND 3.14
+   OBS ERR HTTP Error 403: Forbidden
+## Santa Monica 9410840 | datum-page max 8.501 MLLW on 19821130 | monthly-highest record since None: 
+   flood thr (STND): {'nos_minor': 9.72, 'nos_moderate': 10.66, 'nos_major': 11.92, 'nws_minor': 9.47, 'nws_moderate': 10.47} | MLLW-on-STND 2.44
+   OBS ERR HTTP Error 403: Forbidden
+## Los Angeles 9410660 | datum-page max 7.919 MLLW on 20050110 | monthly-highest record since None: 
+   flood thr (STND): {'nos_minor': 11.18, 'nos_moderate': 12.11, 'nos_major': 13.38, 'nws_minor': 10.82, 'nws_moderate': 11.82} | MLLW-on-STND 3.83
+   OBS ERR HTTP Error 403: Forbidden
+## La Jolla 9410230 | datum-page max 7.808 MLLW on 20151125 | monthly-highest record since None: 
+   flood thr (STND): {'nos_minor': 11.55, 'nos_moderate': 12.48, 'nos_major': 13.75, 'nws_minor': 11.39} | MLLW-on-STND 4.37
+   OBS ERR HTTP Error 403: Forbidden
+## San Diego 9410170 | datum-page max 8.237 MLLW on 20151125 | monthly-highest record since None: 
+   flood thr (STND): {'nos_minor': 11.38, 'nos_moderate': 12.31, 'nos_major': 13.58, 'nws_minor': 11.32} | MLLW-on-STND 3.79
+   OBS ERR HTTP Error 403: Forbidden

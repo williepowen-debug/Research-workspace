@@ -1,0 +1,162 @@
+{
+  "lid": "HBYC1",
+  "usgsId": "",
+  "reachId": "",
+  "name": "Tide Station (Humboldt Co.) at NORTH SPIT",
+  "description": "",
+  "rfc": {
+    "abbreviation": "CNRFC",
+    "name": "California Nevada River Forecast Center"
+  },
+  "wfo": {
+    "abbreviation": "EKA",
+    "name": "Eureka"
+  },
+  "state": {
+    "abbreviation": "CA",
+    "name": "California"
+  },
+  "county": "Humboldt",
+  "timeZone": "PST8PDT",
+  "latitude": 40.766944444444,
+  "longitude": -124.21694444444,
+  "pedts": {
+    "observed": "HMIRG",
+    "forecast": "HMIFA"
+  },
+  "status": {
+    "observed": {
+      "primary": 2.27,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "floodCategory": "no_flooding",
+      "validTime": "2026-11-25T03:54:00Z"
+    },
+    "forecast": {
+      "primary": 8.54,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "floodCategory": "no_flooding",
+      "validTime": "2026-11-25T19:00:00Z"
+    }
+  },
+  "flood": {
+    "stageUnits": "ft",
+    "flowUnits": "cfs",
+    "categories": {
+      "major": {
+        "stage": 10,
+        "flow": -9999
+      },
+      "moderate": {
+        "stage": 9.5,
+        "flow": -9999
+      },
+      "minor": {
+        "stage": 8.8,
+        "flow": -9999
+      },
+      "action": {
+        "stage": -9999,
+        "flow": -9999
+      }
+    },
+    "lro": null,
+    "crests": {
+      "historic": [],
+      "recent": []
+    },
+    "lowWaters": {
+      "historic": []
+    },
+    "impacts": [
+      {
+        "stage": 10.37,
+        "statement": "Significant flooding of streets in King Salmon including numerous homes. Flooding of Highway 255 near Mad River Slough. Flooding of Startare Drive near the Highway 255 bridge. Flooding of southbound Highway 101 near College of the Redwoods."
+      },
+      {
+        "stage": 10.01,
+        "statement": "Significant flooding of streets in King Salmon including a few homes and saltwater crosses Buhne Drive near Gill's by the Bay restaurant. Saltwater reaches the shoulder of Highway 255 near Mad River Slough. Additional areas on Waterfront Drive in Eureka are flooded. "
+      },
+      {
+        "stage": 9.7,
+        "statement": "Widespread flooding of the streets around King Salmon Slough. Flooding of Waterfront Drive near the Public Marina in Eureka. Flooding of low lying spots on the Eureka Waterfront Trail. "
+      },
+      {
+        "stage": 8.8,
+        "statement": "Flooding of Jackson Ranch Road in the Arcata Bottoms. Flooding around the canals of King Salmon Slough including: Cod, Crab, & Perch Streets, and a business building on King Salmon Avenue. Additional flooding of other low lying areas around Humboldt Bay. "
+      }
+    ]
+  },
+  "images": {
+    "probability": {
+      "weekint": {
+        "stage": "",
+        "flow": "",
+        "volume": ""
+      },
+      "entperiod": {
+        "stage": "",
+        "flow": "",
+        "volume": ""
+      },
+      "shortrange": ""
+    },
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/hbyc1_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/hbyc1_record.png"
+    },
+    "photos": []
+  },
+  "dataAttribution": [],
+  "impactsLowWaters": [],
+  "normalThreshold": {
+    "value": 0,
+    "units": "ft"
+  },
+  "hydronotes": [
+    {
+      "statement": "Coastal flood impacts are dependent upon waves as well as tide level.  High waves can result in flooding even if the tide level is below flood stage.",
+      "effective": "0101",
+      "expiration": "1231"
+    },
+    {
+      "statement": "Tide forecasts include only the astronomical forecast.  Storm surge and wind affects may create conditions very different than this forecast.  Please check your local Weather Forecast Office for storm-related departures.\r\n\r\n<p>Vertical Datum references a tidal datum (MLLW)...for more information see <a href=\"http://tidesandcurrents.noaa.gov/\">Tides and Currents</a>.</p>",
+      "effective": "0101",
+      "expiration": "1231"
+    }
+  ],
+  "datums": {
+    "vertical": {
+      "value": []
+    },
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    }
+  },
+  "inundation": {
+    "enabled": false,
+    "url": "",
+    "zeroDatum": null,
+    "downloads": null,
+    "siteSpecificInfo": "",
+    "dataAttribution": []
+  },
+  "upstreamLid": "",
+  "downstreamLid": "",
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "lowThreshold": null,
+  "forecastReliability": "Forecasts are issued routinely year-round.",
+  "TruncateObs": "-1",
+  "TruncateFcst": "3",
+  "ObservedFloodCategory": "no_flooding",
+  "ForecastFloodCategory": "no_flooding"
+}
