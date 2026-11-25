@@ -88,7 +88,7 @@ def fetch_banxico() -> pd.DataFrame:
     fi = int(datetime.datetime(2019, 1, 1).timestamp() * 1000)
     ff = int(datetime.datetime.now().timestamp() * 1000)
     r = requests.get(BANXICO_URL.format(fi=fi, ff=ff), timeout=30,
-                     headers={"User-Agent": "Mozilla/5.0 MARCO/banxico_reverse"})
+                     headers={"User-Agent": "research-bot/1.0"})
     r.raise_for_status()
     if len(r.content) < 1000:
         raise RuntimeError(f"Banxico returned <1KB: {r.content[:300]!r}")

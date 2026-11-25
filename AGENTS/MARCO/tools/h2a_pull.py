@@ -26,8 +26,7 @@ OUT_TSV = Path(__file__).resolve().parents[1] / "baselines" / "h2a_latest.tsv"
 # Full browser header set — the ONLY reason this gets past Akamai. Do not trim to
 # just User-Agent; that is a guaranteed 403 (verified 2026-07-31).
 HDRS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "User-Agent": "research-bot/1.0",  # WQ-735 A honest client name (Will 2026-11-23)
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,"
               "image/avif,image/webp,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",

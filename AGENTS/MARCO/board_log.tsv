@@ -93,3 +93,18 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-11T15:29Z	SIG-W-20261110-007	info-only	INBOX_WALTER	FERT NASS Nov corn 179.6 unattributed; Oct food at home +0.4% beef-led. Context folded into KB-MARCO-PRD-40 (Oct fresh F&V 2-yr +5.52%). No MARCO vector moved.
 2026-11-17T01:50Z	SIG-W-20261114-001	noted	INBOX_WALTER	FAA nationwide ground stop 11/13. Confounder for November airport/visitor counts; logged KB-MARCO-APT-50 combo:nov-2026-airport-confounder. No vector moved.
 2026-11-17T01:50Z	SIG-W-20261114-008	noted	INBOX_WALTER	Update to -001: cause equipment/copper lines (Duffy via WaPo), >16,000 cancelled Fri+Sat (AFP). Folded into KB-MARCO-APT-50. No vector moved.
+2026-11-25T18:42Z	SIG-W-20261118-010	info-only	INBOX_WALTER	HY OAS 343 [11/17], LIQUID above-320 x3 MET. Credit lane, no MARCO vector or row. Drain session s42.
+2026-11-25T18:42Z	SIG-W-20261120-003	noted	INBOX_WALTER	State employment Oct (FRED copy): FL UR 4.3% (Sep 4.4), payrolls +8.0K. Context in KB-MARCO-FLI-11; MARCO VX-2.06 graded separately from BLS API (KB-MARCO-WFD-30: revised Sep +2.21, Oct p +2.05 => ELEVATED).
+2026-11-25T18:42Z	SIG-W-20261120-006	noted	INBOX_WALTER	Small items 11/20. Item 19 (Texas governor-elect to rescind H-1B hiring freeze, title) logged KB-MARCO-WFD-31 combo:MARCO/h1b. Other items not MARCO's.
+2026-11-25T18:42Z	SIG-W-20261123-017	noted	INBOX_WALTER	St. Johns flood gauges 11/23. Florida context for the flood read (KB-MARCO-FLI-11). CORAL owns damage and market read.
+2026-11-25T18:42Z	SIG-W-20261124-005	noted	INBOX_WALTER	Flood status 11/24 (Sanford major, DeLand 6.2 fcst). Folded into KB-MARCO-FLI-11. No MARCO vector moved.
+2026-11-25T18:42Z	SIG-W-20261124-009	info-only	INBOX_WALTER	Section 301 reported (16 partners incl. Mexico). Superseded by 20261125-006 (14 partners, Mexico not included). No MARCO leg.
+2026-11-25T18:42Z	SIG-W-20261124-018	noted	INBOX_WALTER	Small items 11/23-24. #16 dengue logged KB-MARCO-IVF-46 combo:fl-health-tourism. #15 DeSantis special session folded into KB-MARCO-FLI-10 combo:fl-new-resident-wait. Rest not MARCO's.
+2026-11-25T18:42Z	SIG-W-20261124-019	noted	INBOX_WALTER	Declaration reported approved 11/24 (WESH). Superseded by 20261125-019 (OpenFEMA confirmed).
+2026-11-25T18:42Z	SIG-W-20261124-021	info-only	INBOX_WALTER	CORRECTION of 018 item 8 (CIA/ODNI). MARCO carried nothing from item 8. COR-20261124-21 receipted NO-OP.
+2026-11-25T18:42Z	SIG-W-20261125-006	info-only	INBOX_WALTER	Section 301 proposed, 14 partners, Mexico and Canada not included. No remittance, border or tourism leg for MARCO.
+2026-11-25T18:42Z	SIG-W-20261125-007	info-only	INBOX_WALTER	Oct PCE 3.8/core 3.3, Q3 GDP 4.3, claims 189K. CARL/HENRY/LABOR grade. No MARCO row.
+2026-11-25T18:42Z	SIG-W-20261125-014	info-only	INBOX_WALTER	Section 301 update (VULCAN notices read). Not MARCO's.
+2026-11-25T18:42Z	SIG-W-20261125-015	info-only	INBOX_WALTER	CORRECTION of 006/014 (China notice scope). COR-20261125-15 receipted NO-OP; MARCO carried nothing.
+2026-11-25T18:42Z	SIG-W-20261125-019	acted	INBOX_WALTER	DR-4956-FL CONFIRMED at OpenFEMA (declared 11/24; IA 6 counties, Hardee PA only). MARCO flood read: instruments do not reach declared counties at county resolution, latest prints pre-incident; KB-MARCO-FLI-11 combo:fl-flood-2026; PROME packet 2026-11-25_from-MARCO_aged-inbox-drain.
+2026-11-25T18:42Z	SIG-W-20261125-021	noted	INBOX_WALTER	DeLand 6.3 ft fcst Sat 11/28 vs 6.33 record (Volusia, undeclared); South FL rain heaviest in undeclared Broward/Miami-Dade. Folded into KB-MARCO-FLI-11.

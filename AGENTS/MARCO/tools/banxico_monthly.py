@@ -61,7 +61,7 @@ def fetch(start_year=2005):
     fi = int(datetime.datetime(start_year, 1, 1).timestamp() * 1000)
     ff = int(datetime.datetime.now().timestamp() * 1000)
     r = requests.get(URL.format(fi=fi, ff=ff), timeout=90,
-                     headers={"User-Agent": "Mozilla/5.0 MARCO/banxico_monthly"})
+                     headers={"User-Agent": "research-bot/1.0"})
     r.raise_for_status()
     if len(r.content) < 2000:
         raise RuntimeError(f"Banxico returned <2KB: {r.content[:300]!r}")

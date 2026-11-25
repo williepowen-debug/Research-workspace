@@ -32,8 +32,7 @@ import requests
 
 BASE = "https://trends.google.com/trends/api"
 OUT_DIR = Path(__file__).resolve().parents[1] / "baselines"
-UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+UA = "research-bot/1.0"  # WQ-735 A honest client name (Will 2026-11-23)
 
 # The two intents GTR-01 has tracked since founding, WITH their category filters.
 # Both must match the Feb-2026 baseline exports byte-for-byte in definition:

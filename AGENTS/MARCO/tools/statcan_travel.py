@@ -61,7 +61,7 @@ def pull(latest_n=1100):
         WDS,
         data=json.dumps([{"productId": p, "coordinate": c, "latestN": latest_n}
                          for _, p, c in SERIES]).encode(),
-        headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0 MARCO"})
+        headers={"Content-Type": "application/json", "User-Agent": "research-bot/1.0"})
     with urllib.request.urlopen(req, timeout=180) as r:
         js = json.load(r)
     if len(js) != len(SERIES):

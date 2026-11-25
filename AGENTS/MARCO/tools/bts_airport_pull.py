@@ -52,8 +52,7 @@ from pathlib import Path
 import requests
 
 URL = "https://transtats.bts.gov/Data_Elements.aspx?Data=1"
-UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+UA = "research-bot/1.0"  # WQ-735 A honest client name (Will 2026-11-23)
 OUT = Path(__file__).resolve().parents[1] / "baselines" / "bts_airport_pax.tsv"
 
 

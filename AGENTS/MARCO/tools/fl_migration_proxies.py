@@ -39,8 +39,7 @@ MARCO = Path(__file__).resolve().parents[1]
 TSV = MARCO / "workbook" / "MIGRATION_PROXIES.tsv"
 PAGE = ("https://dos.fl.gov/elections/data-statistics/"
         "voter-registration-statistics/voter-registration-reports/")
-UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-                    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+UA = {"User-Agent": "research-bot/1.0"}  # WQ-735 A honest client name (Will 2026-11-23)
 MONTHS = ["January", "February", "March", "April", "May", "June", "July",
           "August", "September", "October", "November", "December"]
 NS = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"

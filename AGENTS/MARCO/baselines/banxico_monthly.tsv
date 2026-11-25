@@ -3,7 +3,7 @@
 # ⚠️ count_thousands = THOUSANDS of operations. This is the SDL-01 tell series.
 # ⚠️ NOT CE100 — that is the QUARTERLY by-Mexican-state table (tools/banxico_reverse.py).
 # Last real data refresh: 2026-09-01   <- NEWEST DATA MONTH, not the pull date (PAT-044).
-# pulled=2026-11-05 months=261 newest=2026-09
+# pulled=2026-11-25 months=261 newest=2026-09
 period	value_musd	count_thousands	avg_usd
 2005-01	1367.556299	4292.145000	319
 2005-02	1428.377043	4426.620000	323
