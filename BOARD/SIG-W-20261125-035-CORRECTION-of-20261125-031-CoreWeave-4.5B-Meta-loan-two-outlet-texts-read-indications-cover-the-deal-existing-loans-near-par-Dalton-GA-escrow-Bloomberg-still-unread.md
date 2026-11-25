@@ -22,7 +22,12 @@ event_window: "open"
 corrects: ["SIG-W-20261125-031"]
 corrects_direction: "PARTIAL: size, arrangers, timing and 7 to 7.5% talk HOLD; the coverage line is WITHDRAWN; the lender-stress reading WEAKENS (interest matches size, existing loans near par)"
 kill_strings: ["WALTER's search found only the older $4 billion reports"]
+status: "PARTIALLY-CORRECTED"
+status_ref: "SIG-W-20261125-036 — CoreWeave has two 2031 bonds: the 18% record-low text is the 9.00% February bond and card 024's 17.91% is the 9.75% October bond, so they do not confirm each other. Loan facts HOLD; no direction change."
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-036:** CoreWeave has two 2031 bonds: the 18% record-low text is the 9.00% February bond and card 024's 17.91% is the 9.75% October bond, so they do not confirm each other. Loan facts HOLD; no direction change.
+
 # CORRECTION of 20261125-031: the CoreWeave $4.5 billion loan story was already up (WALTER's first search missed it); Quartz and MT Newswires texts now read, both citing Bloomberg, which is still unread: indications of interest match the deal size, CoreWeave's existing delayed-draw loans trade near par, so the lender-stress reading WEAKENS
 
 # CoreWeave $4.5 billion Meta-backed loan: what two outlets say (both relay Bloomberg's unnamed people; one source, not two)

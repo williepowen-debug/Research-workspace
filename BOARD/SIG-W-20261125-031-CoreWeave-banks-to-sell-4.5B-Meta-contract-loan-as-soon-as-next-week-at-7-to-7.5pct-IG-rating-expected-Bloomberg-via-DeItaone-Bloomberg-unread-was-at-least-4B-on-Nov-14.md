@@ -20,8 +20,10 @@ word_count: 294
 dispatch_note: "PRIORITY. Financing leg LIQUID and BROCK; VULCAN issuer. TERRY BOARD-only. combo:BROCK/ai-financing. RED, PROME by BOARD diff."
 event_window: "open"
 status: "PARTIALLY-CORRECTED"
-status_ref: "SIG-W-20261125-035 — Coverage line WITHDRAWN (the Bloomberg story and several relays were up; WALTER's first search missed them); Quartz and MT Newswires texts read, Bloomberg still unread. WEAKENS the lender-stress reading (indications match the deal size, existing delayed-draw loans near par). Size, arrangers, timing and the 7 to 7.5% range HOLD as price talk."
+status_ref: "SIG-W-20261125-036 — CoreWeave has two 2031 bonds: the 18% record-low text is the 9.00% February bond and card 024's 17.91% is the 9.75% October bond, so they do not confirm each other. Loan facts HOLD; no direction change. Earlier: SIG-W-20261125-035 — Coverage line WITHDRAWN (the Bloomberg story and several relays were up; WALTER's first search missed them); Quartz and MT Newswires texts read, Bloomberg still unread. WEAKENS the lender-stress reading (indications match the deal size, existing delayed-draw loans near par). Size, arrangers, timing and the 7 to 7.5% range HOLD as price talk."
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-036:** CoreWeave has two 2031 bonds: the 18% record-low text is the 9.00% February bond and card 024's 17.91% is the 9.75% October bond, so they do not confirm each other. Loan facts HOLD; no direction change.
 
 > ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-035:** Coverage line WITHDRAWN (the Bloomberg story and several relays were up; WALTER's first search missed them); Quartz and MT Newswires texts read, Bloomberg still unread. WEAKENS the lender-stress reading (indications match the deal size, existing delayed-draw loans near par). Size, arrangers, timing and the 7 to 7.5% range HOLD as price talk.
 
