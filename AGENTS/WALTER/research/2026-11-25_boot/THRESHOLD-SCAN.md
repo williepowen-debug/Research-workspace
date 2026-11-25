@@ -18,7 +18,7 @@ Written 2026-11-25T14:18:52Z (date command). RED scan banner d5bd0ab1 matches ca
 
 ## Addendum: the rows skipped this morning (walter-7f)
 
-Written 2026-11-25T16:44:48Z (date command). Closes the 'NOT RE-READ' row above except where UNKNOWN is stated. REGINALD, HANS and CREED registries read whole at current bytes; RED scan rows cut at 900 characters, so canon was not re-read. Observations 11:42 to 11:46 ET.
+Written 2026-11-25T16:44:48Z (date command). Closes the 'NOT RE-READ' row above except where UNKNOWN is stated. REGINALD, HANS and CREED registries read whole at current bytes; RED scan rows cut at 900 characters, so canon was not re-read. Observations 11:42 to 11:45 ET.
 
 | IDs | Result |
 |---|---|
