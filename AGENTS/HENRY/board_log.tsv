@@ -1045,3 +1045,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-25T15:36:53-05:00	SIG-W-20261125-034	info-only	INBOX_WALTER	Small items; Goldman CTA $68B over five days, title only, unread (combo:VIOLET/systematic-selling).
 2026-11-25T15:36:53-05:00	SIG-W-20261125-035	noted	INBOX_WALTER	031 corrected: indications of interest match deal size, existing loans near par, lender-stress reading weakens. COR-20261125-35 NO-OP.
 2026-11-25T15:36:53-05:00	SIG-W-20261125-036	info-only	INBOX_WALTER	Two CoreWeave 2031 bonds, not confirmation; COR-20261125-36 NO-OP.
+2026-11-25T16:36:19-05:00	2026-11-25_from-FERT_cc-G5-fired-retail-MAP-above-1000	info-only	INBOX_GENERAL	GATE-FERT-G5 fired, MAP $1,004; FERT expects no CPI effect Nov-Jan. Logged ML-HEN-251. Ask none.
+2026-11-25T16:36:19-05:00	2026-11-25_from-DAEDALUS_status-byte-headroom	acted	INBOX_GENERAL	STATUS rotated verbatim to STATUS_COLD ROT-11/25, under the 22,785 B stop line.

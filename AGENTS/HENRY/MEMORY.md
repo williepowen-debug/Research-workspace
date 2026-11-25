@@ -53,15 +53,17 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-25 midday, second wake on Will's word via PROME prome-77, 11:38–11:5x ET (laptop; Claude Code, Opus 5.5). Closeout asked in the spawn prompt.
+### CHANGES SINCE — 2026-11-25 close, Will's window henry-7d, boot 15:34 ET and D:L1271 close check 16:15–16:4x ET (laptop; Claude Code, Opus 5.5).
 
-- **PCE split from BEA flat files, no key:** `apps.bea.gov/national/Release/TXT/NipaDataM.txt` + `SeriesRegister.txt`. Core goods = IA000062, core services = IA000063, housing DHSGRG, services ex E&H IA001260 (table 2.4.4U lines 375/376). Contributions: table 2.8.8 CE codes (two decimals). Prior vintage of the addenda is NOT on ALFRED: use the totals. October: goods +0.35, services ex housing +0.27. ML-HEN-247.
-- **Fed funds futures conversion works:** ZQ{month}{yy}.CBT on the vendor; resolve months by distinct expireDate (negative control: each month a different expiry). Dec average = 9 days old rate + 22 days post-12/9. 11:30 ET: +23.3 bp ≈ 93%.
-- **Own catch (vendor artifact):** 5-minute SPY bars carried three ~24M bars (10:50, 11:00, 11:05) that gave a false 5.5× volume ratio; drop bars over 8× the day's median bar and check against the quote total.
-- 11/24 grade SETTLED on FRED (7,201.09, 26.36, HY 372). Drain 14 WALTER + 1 ISHM; COR-20261125-15/-16 NO-OP (scope text must not contain semicolons).
+- **Close graded (vendor, PROVISIONAL):** S&P 7,182.78 (red not fired, YELLOW), RSP +0.83%, VIX 28.29 ORANGE, 30Y 5.24 YELLOW. Record `research/2026-11-25_close-check/CLOSE.md`.
+- **Own miss to carry:** the 11:50 ET read gave 65% for a red close and leaned on a 7,000 options pin; the pin released UPWARD ten minutes later. A pin read states both release directions, and intraday close odds start from the zero-drift walk (distance over VIX-scaled remaining time); say what the story adds.
+- **VIX stamp method without Cboe:** yfinance `get_history_metadata()['regularMarketTime']` showed 16:01 (28.22), 16:04 (27.87), then 16:15:01 (28.29) when read at 16:34. Read after 16:30.
+- **Treasury par same day:** XML feed `daily_treasury_yield_curve&field_tdr_date_value_month=YYYYMM` had 11/25 by 16:19 ET; check the NEW_DATE of the last entry.
+- **`boot.py` default source sends a Cboe request. n=2 (11/24, 11/25). Type `boot.py --source vendor`.**
+- STATUS rotated (§ ROT-11/25). BEA flat-file codes and the ZQ conversion: ML-HEN-247 and the 11/25 midday READ.
 
 ### NEXT SESSION
 
-1. The 11/25 close vs red 7,037.04 (DOCKET close check after 16:15 ET; red close ⇒ WALTER signal); RSP direction; FRED HY 11/25 vs 376 with RSP down = broadening; VIX settle per LESSONS.
-2. Boot with `--source vendor`. HEN-65 to 12/4; payrolls 12/4; FOMC 12/9 (HEN-63 0.70); CPI 12/10; PCE Nov 12/23 (core goods y/y likely up on a −0.05 base). Consider registering the broadening letter (enumerate the middle band first).
+1. D:L1272 Fri 11/27: FRED SP500 and VIXCLS 11/25 confirm; HY 11/25 for level only (RSP rose). Market closes 13:00.
+2. HEN-65 and payrolls 12/4; FOMC 12/9 (HEN-63 0.70); CPI 12/10; PCE Nov 12/23. Consider registering the broadening letter (enumerate the middle band first).
 3. LESSONS rotation (78%); dashboard v6 stale; DAEDALUS K38–K52; ECON_CALENDAR rebuild check.

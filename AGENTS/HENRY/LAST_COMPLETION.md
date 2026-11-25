@@ -1,40 +1,35 @@
-# HENRY — 2026-11-25 11:38–11:5x ET (second wake, Will's word via PROME): October inflation heat was in goods, and the S&P is being held at 7,000 by same-day options
+# HENRY — 2026-11-25 16:37 ET (Will's window; boot 15:34, close check 16:15): the S&P finished 146 points above my red line and the average stock rose
 
-**RESULT:** October's core inflation was the same 0.3% as September, but the mix changed: prices of goods (furniture, appliances, tools, toys, dishes, the import-heavy things that already carry tariffs) rose 0.35%, the fastest since February, while services outside housing cooled to 0.27% from 0.39%. That is the tariffs already in force still reaching shelves; the new Section 301 proposal is not in force and played no part. Futures now price about a 93% chance of a December rate rise (about 100% at Tuesday's close); my registered forecast stays 70%. On the market: the S&P fell to 6,970 at 09:45, bounced, and has sat within about 25 points of 7,000 for two hours. The trading data say same-day options at 7,000 are holding it there rather than pushing it lower; that support expires at 16:00 today. The index is 33 points under its −10% line (7,037) at 11:50, so a close below it is now more likely than not (about 65%, my unscored estimate). Tuesday's figures are now official: S&P 7,201.09, VIX 26.36, junk spread 372 (wider by 9).
+**RESULT:** The S&P closed at 7,182.78 (−0.25%) after falling to 6,970 in the morning. My −10% line (7,037) did not fire. It is back under my first warning line (7,200) by 17 points. The average stock rose 0.83%, so today cannot count as stress spreading to the broad market, whatever the junk-bond figure says. Fear stayed high: VIX 28.29, up almost two points on a nearly flat day. My midday call was wrong: I said about 65% for a close under the line.
 
-**CHANGED:** `STATUS.md` · `MEMORY.md` · this file · `NEXUS_BRIEF.md` · `workbook/KB.tsv` (ML-HEN-247 to 249) · `board_log.tsv` (15 rows) · `registry/corrections_receipts.tsv` (COR-20261125-15, -16 NO-OP) · `research/2026-11-25_pce-split-hedging/READ.md` · inbox moves (14 WALTER, 1 ISHM) · packets to PROME and TERRY.
+**CHANGED:** STATUS.md (rotated, 32,372 to under 18,000 bytes) · STATUS_COLD.md · MEMORY.md · NEXUS_BRIEF.md · this file · KB (ML-HEN-249 corrected, -250, -251) · MARKET_DATA.tsv · board_log.tsv (14 rows) · corrections receipts (4) · research/2026-11-25_close-check/CLOSE.md · packets to PROME and TERRY.
 
 ## Session work
 
 | Item | Outcome |
 |---|---|
-| Core PCE split (BEA table 2.4.4U) | goods +0.35% (Sep +0.18); services ex energy and housing +0.27% (Sep +0.39); housing +0.29%; core year-rate rise almost all goods |
-| December hike | market (fed funds futures): about 93%; my forecast HEN-63: 70% registered, about 80% unscored |
-| Hedging under 7,000 | measured: low 6,970.11 at 09:45, then pinned near 7,000; 0DTE 7,000 the top strike; SPY volume 1.8× normal, equal-weight 0.58×. Inferred: options holding, not amplifying, since 09:45 |
-| 11/24 grade | SETTLED on FRED: 7,201.09, VIX 26.36, junk spread 372 |
-| Markers | equal-weight down today (live); KRE $69.18 and HYG $76.32 not met; junk spread 11/25 posts about 11/26–27 |
-| Inbox | 14 WALTER cards and 1 ISHM packet drained; two corrections receipted NO-OP |
+| Boot | 12 WALTER cards, 4 corrections; CoreWeave 1,363 withdrawn (a cancelled trade) |
+| Close check (D:L1271) | red not fired, yellow on; average stock up; VIX orange; 30-year Treasury 5.24, back to yellow |
+| Odds | red close by 12/4: 80% → 40%; Friday: 8%; spreading credit stress 45% → 30% |
 
 ## GAPS / Still pending
 
-- Who is on each side of the same-day options flow is not visible on any feed I have; the "holding at 7,000" reading is an inference from price and volume.
-- CME's own rate-odds page refuses this machine; the 93% is my conversion of futures prices.
-- The revision split by component is read off total goods and services (the component history is not archived where I can reach it).
+- All closes are vendor figures until FRED posts (tonight or Friday); the cause of the midday turn was not searched; Cboe refuses this machine, and my boot sent it one request by default before falling back (my miss).
 
 ## COMMITS
 
-See the PROME memo `PROME/inbox/2026-11-25_from-HENRY_pce-split-hedging-and-cards.md` and `git log -- AGENTS/HENRY`.
+34ebb1ebf0, 7954439e78 (boot); the close-check commits are in `git log -- AGENTS/HENRY`.
 
 ## NEXT SESSION FOLLOW-UP
 
-Wednesday's close against 7,037 (after 16:15 ET; a close below goes to WALTER as a signal) · FRED junk spread 11/25 against 376 · Friday 11/27 closes at 13:00 · jobs report and HEN-65 12/4 · Fed 12/9 · CPI 12/10 · PCE November 12/23.
+Fri 11/27: junk spread for 11/25 and FRED confirmation; market closes 13:00 · 12/4 jobs report and HEN-65 · 12/9 Fed · 12/10 CPI.
 
-## THESIS SNAPSHOT (frozen 11:5x ET 11/25)
+## THESIS SNAPSHOT (frozen 16:37 ET 11/25)
 
-Inflation is steady at 0.3 a month with goods now doing more of the work; the Fed still leans to a hike. Stress is concentrated in single AI borrowers and private-credit managers while the broad junk index and funding are calm. The average stock is falling on light volume; the junk-spread half of a broadening is not yet visible.
+Inflation steady at 0.3 a month, goods-led; the Fed leans to a December hike. Stress is AI shares and single AI borrowers; the average stock, banks, index junk and mortgage-servicer bonds are not confirming it. Options remain expensive and dealers still amplify moves below about 7,360–7,400.
 
 ## WILL_NEEDS
 
 None.
 
-*Honest scope: intraday quotes are vendor prints, not closes; odds are my unscored estimates; nothing here moves a gate, threshold, card or trade.*
+*Honest scope: closes are provisional vendor prints; odds are unscored; nothing here moves a gate, threshold, card or trade.*
