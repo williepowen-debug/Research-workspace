@@ -106,7 +106,7 @@ def _fetch_cboe(today, horizon, band, underlying="SPX"):
     Returns (spot, opts, err).
     """
     try:
-        req = urllib.request.Request(CBOE_URL.format(UNDERLYINGS[underlying]["cboe"]), headers={"User-Agent": "Mozilla/5.0 (research)"})
+        req = urllib.request.Request(CBOE_URL.format(UNDERLYINGS[underlying]["cboe"]), headers={"User-Agent": "research-bot/1.0"})  # WQ-735 A (Will 2026-11-23): honest client name
         payload = json.load(urllib.request.urlopen(req, timeout=90))["data"]
     except Exception as e:  # noqa: BLE001
         return None, None, f"cboe fetch failed: {e}"

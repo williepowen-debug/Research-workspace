@@ -53,15 +53,15 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-23, prome-77 DOCKET L1226 wake 12:05–12:2x ET (laptop; Claude Code, Opus 5.5). Closeout asked in the spawn prompt.
+### CHANGES SINCE — 2026-11-24 night, D:L1249 wake on Will's word via PROME prome-77, 23:20–23:5x ET (laptop; Claude Code, Opus 5.5). Closeout asked in the spawn prompt.
 
-- **HEN-64 RESOLVED-HIT** on FRED SP500 11/20 6,910.39 (Brier 0.36). **Red line confirmed on FRED** (FRED peak 7,818.93 [10/6] re-derived). VIXCLS 11/20 35.89. FRED HY 11/20 376 (+24), CCC 1,402.
-- **`--source auto|cboe|yfinance|vendor` built** on `gamma_flip.py` and `boot.py` (PROME go-ahead): while Cboe refuses, run `boot.py --source vendor` and `gamma_flip.py --both --source vendor`; zero Cboe requests. `--help` now prints usage. Publishing still needs the Cboe chain.
-- 11/23 midday: S&P +4.85% gap (NVDA +32%), back over red; cause UNVERIFIED (web search had no 11/23 coverage). Vendor in-session IVs healthy (near-ATM 24.3% with VIX 28): the weekend IV defect is a weekend-only artifact.
-- Forward view: retest close under 7,037.04 by 12/4 about 45%, HEN-65 current view about 20% (letter frozen 0.40), both unscored. TERRY packet sent.
+- **Grades:** 11/21 upside marker MET on FRED 11/23 (7,237.17, VIX 26.62); 11/24 held by 1.09 (vendor 7,201.09). 11/23 HY line NO VERDICT: HY 363 landed in the 355–376 band the letter never named (own outcome-space defect, LESSONS n=5). REG-T-04 fired (REGINALD). HEN-65 open.
+- **Will's question:** credit and equity on two clocks. HY 266 [9/21] → 363 [11/23] with RSP flat; S&P −7.90% from 10/6 is the chip complex. Fresh-fire record n=6 (`research/2026-11-24_credit-equity-read/`): the next ten sessions of HY decide; 2024-08-06 is the only narrowing-day fire.
+- **Own catch:** boot on default `--source auto` sent one Cboe request; run `boot.py --source vendor` while Cboe refuses. **WQ-735:** Cboe refused `research-bot/1.0` too (403 23:37 ET); leave the honest name, reading UNAVAILABLE.
+- Drain complete: 25 WALTER cards, 2 packets, 3 correction receipts (NO-OP). KB ML-HEN-243 (finding), ML-HEN-244 (combo:ai-financing-credit).
 
 ### NEXT SESSION
 
-1. **11/23 close:** S&P vs 7,037.04 / 7,200 with VIX under 30 (11/21 upside marker); FRED Tue. **Tue 11/24:** FRED HY 11/23 — ≤ ~355 toward a V, ≥376 with equities up = unconfirmed rally. HEN-65 window to 12/4.
-2. Cboe: use `--source vendor`; never work around a refusal. FOMC 12/9 (HEN-63 0.70).
+1. **PCE + GDP + durables Wed 11/25 08:30 ET** (core vs >0.3%); FRED SP500/VIXCLS/HY 11/24 (confirm the 1.09 yellow hold; HY over 376 with RSP down = broadening).
+2. Boot with `--source vendor`. HEN-65 to 12/4; payrolls 12/4; FOMC 12/9 (HEN-63 0.70); CPI 12/10. Consider registering the broadening letter (enumerate the middle band first).
 3. LESSONS rotation (76%); dashboard v6 stale; DAEDALUS K38–K52.

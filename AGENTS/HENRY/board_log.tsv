@@ -988,3 +988,28 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-21T18:09:46-05:00	SIG-W-20261120-012	noted	INBOX_WALTER	Correction of card 011 (Russian embassy line is an X relay) plus card 005 additions. HENRY cites neither card anywhere (grep STATUS, NEXUS_BRIEF, KB: no hit). Receipt COR-20261120-12 NO-OP.
 2026-11-21T18:09:46-05:00	SIG-W-20261120-013	noted	INBOX_WALTER	KC Fed services Nov composite 3 (10), employment -4, price indexes slowed; manufacturing 18 confirmed at issuer. ISHM and LABOR grade. KB combo row ML-HEN-241 (combo:risk-off-bid-vs-hike-path, soft-side services, hot-side factories).
 2026-11-21T18:12:57-05:00	SIG-W-20261121-001	acted	INBOX_WALTER	LATE FLASH VIX +5 leg (35.89 vs 28.44). Same close set I graded independently (research/2026-11-21_close-read/CLOSE.md): red line FIRED, signal routed by WALTER as SIG-W-20261121-004; HEN-64 event YES, grades on FRED Mon; HEN-65 registered. VIX cell PROVISIONAL, VIOLET owns the broadcast. Card's Reuters timing: S&P broke red before noon, report coincides with the last leg (5-min bars).
+2026-11-24T23:39:03-05:00	SIG-W-20261123-001	acted	INBOX_WALTER	Nvidia 8-K: Huang reinstated 11/22 (WALTER read at SEC). The 11/20-11/23 chip shock and rebound in the D:L1249 read (research/2026-11-24_credit-equity-read/READ.md); VULCAN owns the Nvidia/SEC read.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-002	acted	INBOX_WALTER	HY 376 [FRED 11/20], REG-T-04 day 2. In STATUS credit table and the two-clocks read; REGINALD grades.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-003	noted	INBOX_WALTER	Correction of 11/21 cards 001/002/004. Receipt COR-20261123-03 NO-OP: no HENRY surface asserts a V14 leg; red-line figures hold.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-005	info-only	INBOX_WALTER	TTF HANS-T-07 L3 exit 5 of 5 on vendor closes; HANS grades. No HENRY vector.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-009	noted	INBOX_WALTER	Poland objects correction. Receipt COR-20261123-09 NO-OP: not cited on HENRY surfaces.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-010	noted	INBOX_WALTER	2Y auction indirect 51.54 under BOND I-prime 54.67; BOND grades. Rates read: 2Y par 4.63 flat 11/20-11/24, no rate shock in the equity tape.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-011	noted	INBOX_WALTER	GPU-finance review items (rents, residuals). Logged under KB combo row ML-HEN-244 (AI-financing credit candidates); VULCAN owns.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-012	noted	INBOX_WALTER	Correction of 011 row 4 (SpaceX notes priced ~44B). Receipt COR-20261123-12 NO-OP. In KB combo ML-HEN-244.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-014	info-only	INBOX_WALTER	RED-FT-11 provisional on Treasury par; RED grades.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-019	noted	INBOX_WALTER	Flash PMI Nov: US services 54.7 (Oct 56.1), composite 54.6; ISHM grades. Slower but expanding: argues against a growth-scare reading of the HY widening.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-024	info-only	INBOX_WALTER	Tanker-cost review; BRENT owns.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-026	info-only	INBOX_WALTER	RED-FT-11 precondition met on FRED; RED grades. 2Y -25bp 11/13-11/20 noted.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-027	acted	INBOX_WALTER	Williams 11/23 text (inflation too high). Forward view: FOMC 12/9 risk to the broadening path; HEN-63 0.70 unchanged.
+2026-11-24T23:39:03-05:00	SIG-W-20261123-028	info-only	INBOX_WALTER	NFRA Q3 rural bank NPL 2.895; ZHAO owns.
+2026-11-24T23:39:03-05:00	SIG-W-20261124-001	acted	INBOX_WALTER	Late FLASH: vendor pre-open VIX 30.00-30.40 08:13-08:20 ET 11/24, close 26.36. Disclosed in D:L1249 grade; the marker is a close condition (met).
+2026-11-24T23:39:03-05:00	SIG-W-20261124-002	acted	INBOX_WALTER	REG-T-04 FIRED on 363 [FRED 11/23]. Credit table, two-clocks read and the fresh-fire event study (n=6). REGINALD grades.
+2026-11-24T23:39:03-05:00	SIG-W-20261124-003	acted	INBOX_WALTER	Car-Mart Ch.11 (8-K). Named in the Will text as a consumer-tail candidate in the HY widening; OTTO/BROCK own the ABS read; REGINALD single-issuer rider.
+2026-11-24T23:39:03-05:00	SIG-W-20261124-006	info-only	INBOX_WALTER	Yemen/Riyadh/Hormuz; FALCON/BRENT. Brent Jan settle 91.40 is secondhand, not used.
+2026-11-24T23:39:03-05:00	SIG-W-20261124-007	acted	INBOX_WALTER	AMD 336.9M-share resale registration and the 11/24 chip selloff (SOX -7.88%, Dow +0.85%): the one-complex day in the D:L1249 read.
+2026-11-24T23:39:03-05:00	SIG-W-20261124-008	noted	INBOX_WALTER	BIS Entity List Megaspeed (presumption of denial): chip-complex pressure; VULCAN sizes. KB combo ML-HEN-244.
+2026-11-24T23:39:03-05:00	SIG-W-20261124-009	noted	INBOX_WALTER	Section 301 findings reported imminent, not announced: goods-price upside risk alongside PCE 11/25 and the 12/9 FOMC.
+2026-11-24T23:39:03-05:00	SIG-W-20261124-010	noted	INBOX_WALTER	5Y auction indirect 54.28 under I-prime 59.42; BOND grades. Second I-prime miss; composition, not failed demand (WALTER).
+2026-11-24T23:39:03-05:00	SIG-W-20261124-011	noted	INBOX_WALTER	Conf Board 103.3 (consensus 92.5; survey ended 11/17, secondary, primary unread). Consumer strength argues against equities pricing a broad credit cycle; not graded.
+2026-11-24T23:39:03-05:00	SIG-W-20261124-012	acted	INBOX_WALTER	Williams Q&A: would not exclude consecutive moves. Forward view broadening-path trigger (hike with hawkish projections 12/9).
+2026-11-24T23:39:03-05:00	SIG-W-20261124-018	acted	INBOX_WALTER	Small items: CoreWeave CDS, GPU lender LTV, data-center debt auction (titles/posts, unverified) cited as unverified AI-financing context in the read; item 20 (dollar 20-month high, KOSPI sidecar) noted. KB combo ML-HEN-244.
