@@ -1,0 +1,19 @@
+## KMTR 2026-11-24T21:53:00+00:00  1136 AM Coastal Flood 1 E San Francisco 37.77N 122.41W 11/24/2026 San Francisco CA Law Enforcement Roadway flooding at 455 8th street. 
+## KMTR 2026-11-24T21:52:00+00:00  1039 AM Coastal Flood 1 NE Menlo Park 37.50N 122.13W 11/24/2026 San Mateo CA Law Enforcement Roadway flooding leading to road closure. All lanes of the under-highway turnaround are inoperable. 
+## KMTR 2026-11-24T20:56:00+00:00  1232 PM Coastal Flood Corte Madera 37.92N 122.50W 11/24/2026 Marin CA Broadcast Media Video from ABC7 News Bay Area reports Golden Hind Passage experiencing flooding in neighborhood. 
+## KMTR 2026-11-24T20:41:00+00:00  1238 PM Coastal Flood 3 NW Oakland 37.79N 122.28W 11/24/2026 Alameda CA Public Public caller reported Webster Tube in Alameda is blocked off due to flooding. 
+## KMTR 2026-11-24T20:02:00+00:00  1140 AM Coastal Flood 1 SW San Rafael 37.97N 122.52W 11/24/2026 Marin CA Public Video on X showing Second St / Irwin St intersection flooded. 
+## KMTR 2026-11-24T19:50:00+00:00  1141 AM Coastal Flood 2 S Foster City 37.53N 122.26W 11/24/2026 San Mateo CA Public Video on X of flooding on the road near the Redwood Shores Branch Library on Bridge Pkwy. 
+## KMTR 2026-11-24T19:38:00+00:00  1053 AM Coastal Flood 3 NW Oakland 37.79N 122.27W 11/24/2026 PZZ531 CA Public Roadway and adjoining parking area completely flooded. Water extends past curb onto greenspace/grass. 
+## KMTR 2026-11-24T18:28:00+00:00  0955 AM Flood 2 N Bolinas 37.93N 122.69W 11/24/2026 Marin CA Law Enforcement Report of flooding of about 1 ft on Hwy 1 adjacent to Bolinas Lagoon. 
+## KMTR 2026-11-24T18:24:00+00:00  0955 AM Flood 1 SW Strawberry 37.89N 122.52W 11/24/2026 Marin CA Law Enforcement Report of road closure due to flooding at US-101 S / Seminary Dr Offramp. 
+## KMTR 2026-11-24T18:23:00+00:00  0953 AM Flood 1 SW Strawberry 37.89N 122.52W 11/24/2026 Marin CA Law Enforcement Report of roadway closure due to flooding in all directions on Redwood Hwy at Frontage Rd / Hamilton Dr. 
+## KMTR 2026-11-24T18:12:00+00:00  0959 AM High Surf 2 NW Pacifica 37.63N 122.49W 11/24/2026 San Mateo CA Public Video posted on X showing high breaking waves reaching Beach Blvd in Pacifica. 
+## KMTR 2026-11-24T17:17:00+00:00  0826 AM Flood 1 S Strawberry 37.88N 122.51W 11/24/2026 Marin CA Law Enforcement Roadway flooding reported on US-101 NB at Marin City offramp, lane #2 flooded. 
+## KMTR 2026-11-24T17:00:00+00:00  0930 AM Flood 1 E Larkspur 37.94N 122.52W 11/23/2026 Marin CA Broadcast Media Flooding reported by ABC Eyewitness News across waterfront properties and multiple streets closed including portions of Lucky Dr. 
+## KEKA 2026-11-24T18:15:00+00:00  1015 AM Non-Tstm Wnd Dmg 1 NW Blue Lake 40.89N 124.00W 11/24/2026 Humboldt CA Department of Hig Near Exit 5/Blue Lake/E along Glendale Dr tree down on power lines. 
+## KEKA 2026-11-24T18:01:00+00:00  1000 AM Coastal Flood 2 E Crescent City 41.74N 124.17W 11/24/2026 Del Norte CA Department of Hig At Crescent Beach along US-101 waves and debris crashing over the highway. 
+## KEKA 2026-11-24T18:00:00+00:00  0959 AM Coastal Flood 1 W Fairhaven 40.78N 124.21W 11/24/2026 Humboldt CA Department of Hig Tide and waves crashing over New Navy base road. Not passable. 
+## KEKA 2026-11-24T17:49:00+00:00  0948 AM Coastal Flood 2 S Humboldt Hill 40.70N 124.20W 11/24/2026 Humboldt CA Department of Hig Near College of the Redwoods-Eureka along US-101 two south bound lanes closed due to coastal flooding and storm surge over the highway. 
+## KEKA 2026-11-24T17:02:00+00:00  0901 AM Non-Tstm Wnd Dmg 1 S Fortuna 40.58N 124.14W 11/24/2026 Humboldt CA Utility Company Storm related power outage for about 4500 households around Ferndale and Fortuna. 
+## KMFL 2026-11-25T14:16:00+00:00  0914 AM Flood 2 NE North Perry Airpor 26.03N 80.22W 11/25/2026 Broward FL Broadcast Media Media reported street flooding at N 64TH AVE and Moseley ST. 

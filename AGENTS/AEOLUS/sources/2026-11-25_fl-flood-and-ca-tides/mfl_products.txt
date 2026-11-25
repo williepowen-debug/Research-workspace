@@ -1,0 +1,111 @@
+##### PNS 2026-11-25T14:10:00+00:00
+
+000
+NOUS42 KMFL 251410
+PNSMFL
+FLZ063-066>075-168-172>174-251700-
+
+Public Information Statement
+National Weather Service Miami FL
+910 AM EST Wed Nov 25 2026
+
+...NOAA WEATHER RADIO WEEKLY WARNING ALARM TEST POSTPONED...
+
+Today's scheduled test of the NOAA weather radio warning alarm tone
+feature has been postponed due to active weather. 
+
+It has been rescheduled for tomorrow, Thursday, November 26th. In 
+the event of additional active weather, it will be postponed to 
+Friday, November 27th.
+
+$$
+
+BNB
+
+##### LSR 2026-11-25T15:49:00+00:00
+
+000
+NWUS52 KMFL 251549
+LSRMFL
+
+Preliminary Local Storm Report
+National Weather Service Miami FL
+1047 AM EST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+1044 AM     Flood            1 N North Perry Airpor  26.02N 80.24W
+11/25/2026                   Broward            FL   County Official
+
+            Deep Standing Water in the Boulevard Heights north of
+            Pines Boulevard & South of Taft Street.
+
+1036 AM     Flood            1 NW North Perry Airpor 26.01N 80.25W
+11/25/2026                   Broward            FL   County Official
+
+            Deep standing water east of University DRive & South of
+            Pines Boulevard (Pines Village).
+
+&&
+
+$$
+BB
+
+
+
+##### LSR 2026-11-25T15:30:00+00:00
+
+000
+NWUS52 KMFL 251530
+LSRMFL
+
+Preliminary Local Storm Report
+National Weather Service Miami FL
+1030 AM EST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+1028 AM     Flood            2 SE Liberty City       25.81N 80.19W
+11/25/2026                   AMZ630             FL   County Official
+
+            Flooding in right land of East I-195 at US1/Biscyane
+            Blvd.
+
+&&
+
+$$
+BB
+
+
+
+##### LSR 2026-11-25T15:21:00+00:00
+
+000
+NWUS52 KMFL 251521
+LSRMFL
+
+Preliminary Local Storm Report
+National Weather Service Miami FL
+1021 AM EST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+1017 AM     Flood            1 N Miami               25.79N 80.20W
+11/25/2026                   Miami-Dade         FL   County Official
+
+            Flooding on I-95 North at SR-836/Airport/Um/Jackosn VA
+            Hospital. 2 left lands blocked on I-95 North.
+
+&&
+
+$$
+BB
+
+
+

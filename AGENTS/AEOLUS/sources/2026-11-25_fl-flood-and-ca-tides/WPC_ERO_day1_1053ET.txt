@@ -1,0 +1,227 @@
+Excessive Rainfall Discussion
+NWS Weather Prediction Center College Park MD
+1053 AM EST Wed Nov 25 2026
+Day 1
+Valid 16Z Wed Nov 25 2026 - 12Z Thu Nov 26 2026
+
+...THERE IS A SLIGHT RISK OF EXCESSIVE RAINFALL ACROSS PORTIONS OF
+THE COASTAL CAROLINAS AND SOUTH FLORIDA...
+
+...Southeast U.S. Coast...
+
+16Z Update: Forecast remains on track for the upcoming east coast
+cyclone with heightened impacts slated to occur over the coastal
+Carolina's to the VA Tidewater region later this evening through
+tomorrow morning. Latest REFS mean QPF maintains a strong signal
+for 5-8" of rainfall in the vicinity of Wilmington up through the
+central portion of the Outer Banks with significant rainfall
+potential even extending a bit further inland as the low track
+maintains headway into eastern NC by tonight. REFS neighborhood and
+EAS probabilities are incredibly robust for >3" across all of
+eastern NC up to the Hampton Roads area of VA which spells trouble
+for the immediate coast when you account for astronomical tide
+cycles and persistent onshore flow prompting coastal flooding
+across the area. Given the signal for >3" locally across the VA
+Tidewater, and with the historical precedence for flash flooding
+in the Norfolk/VA Beach area, decided to up the threat to a high-
+end SLGT over far southeastern VA to account for the crescendo in
+the signal.
+
+Also expanded the SLGT further inland to encompass the Raleigh-
+Durham metro as the 12z CAMs and 75-90th percentile NBM have
+increased the threat for 3+ inches of rainfall significantly in the
+area over the last few model cycles. This likely stems from the
+western shift of the low creating a stronger 925-700mb moisture
+extension further inland as prevailing east to southeast flow will
+advect appreciable moisture into the area during the overnight
+period tonight into early tomorrow morning. Latest ECMWF IVT
+numbers are insisting on 800-1000 kg/ms advecting into the area
+overnight leading to an increase in heavy rainfall all across the
+eastern two-thirds of the state by midnight LST. By the early
+morning hours, that IVT advection regime will reach its peak
+leading to a tongue of 1200-1400 kg/ms of integrated moisture
+transport being ushered into the area which will promote rates of
+up to 1.5-2"/hr for a few hours before the setup quickly shifts
+north. This period will be the time frame where most flash flooding
+could occur, likely between the 06-12z time frame, perhaps
+lingering into the D2 period initially. In any case, there is a
+growing consensus for what will be an impactful storm across much
+of the Carolina's with a strong signal for flooding and winds over
+NC up into southeastern VA. For that, the SLGT expansion was
+warranted with an emphasis on the coastal areas, as well as any
+urbanized setting where runoff capabilities are more applicable.
+
+Kleebauer
+
+..Previous Discussion..
+
+A strong surface low is organizing off the Florida coast and
+tracking in a general northward direction across the eastern
+Carolinas through Wednesday night. As the low deepens near the
+coast, rapidly increasing onshore flow and low level moisture
+convergence along the developing coastal front will provide
+sustained deep synoptic and mesoscale lift. An impressive easterly
+low level jet at 850 mb increases to 65-75 knots (75-85 mph) just
+north of the surface low center, intersecting the coastal front and
+supporting the development of embedded convection with deep warm
+layer cloud depths. Warm sea surface temperatures for this time of
+year will also add anomalous moisture into the lower troposphere,
+helping to increase MUCAPE to near 500 J/kg close to the southern
+outer banks.
+
+This will likely lead to a 2-4 hour period of rainfall rates of
+1-1.5 inches per hour as the low steadily moves northward. This
+would result in areal rainfall totals of 3 to 6 inches, with the
+highest totals expected to be near Newport and Morehead City. The
+time period of greatest concern is from 00-06Z for this region when
+the majority of the rainfall is expected, and then 6-12Z across
+northeast NC and into the Hampton Roads area.
+
+The Slight Risk area has been extended northward up to include most
+of southeast Virginia, including Hampton Roads cities, given a
+faster trend with the RRFS and HRRR guidance. The central North
+Carolina coast between Cedar Island and Cape Lookout is close to
+needing a Moderate Risk given the general increase in QPF trends,
+and this is something that will be re-evaluated on the day shift.
+
+Hamrick
+
+...Pacific Northwest...
+
+16Z Update: No changes to the previous forecast as run to run
+continuity in both the synoptic evolution and expected rainfall
+remain consistent. Area of concern will likely reside within the
+confines of the Skokomish River basin where river flooding is more
+applicable given the slightly flashier nature of the river itself.
+Expecting 2-4" with locally as high as 6" in the coastal areas of
+WA state into the Olympic's.
+
+Kleebauer
+
+..Previous Discussion..
+
+An active pattern of Pacific disturbances directing above normal
+PWs on Wednesday will keep the Pacific Northwest coast active with
+periods of moderate to occasionally heavy rainfall, mainly during
+the 00-12Z time period Thursday. Enhanced 850 mb flow will act as a
+strong source of moisture transport and upslope enhancement along
+the coastal ranges and especially into the Olympics. Although
+instability is generally under 200 J/kg along the coast, soils will
+be growing more sensitive after repeated rounds of rain in the
+days leading up to this. Burn scars are the most vulnerable for any
+flash flooding. No major changes were needed for this outlook area.
+
+Hamrick
+
+...Florida Peninsula...
+
+16Z Update: Heavy rainfall continues across South FL this morning
+with a prolonged moderate to heavy rain prevalence extending all
+the way back towards western Cuba, funneling northeast through the
+FL Keys and southeastern FL. Deep moisture flux over the region
+coincides with the heavier rainfall with the 12z sounding out of
+KEY coming in with a 2.33" PWAT, solidly above the 99th percentile
+for the date, even setting a daily record when assessing the
+Climatological archive. Sub tropical jet extension on satellite is
+beyond impressive and notes the type of environment we are
+contending with this time of year. Expect several more hours of
+moderate to heavy rains to occur over much of South FL into the
+Keys leading to widespread 2-5" of rain with as much as up to 7"
+possible for the period. King tide over the FL Keys are already
+causing flooding issues for the island chain, so this will only
+exacerbate the potential. As a result, there was no need to deviate
+from the previous forecast as everything remains on track with a
+solid consensus on rainfall totals and expected impacts among this
+mornings guidance.
+
+Kleebauer
+
+..Previous Discussion..
+
+On Wednesday morning, the trailing frontal boundary associated with
+the strengthening storm off the Southeast coast is likely to
+produce scattered to numerous thunderstorms across the
+southeastern metro areas of South Florida Wednesday morning. The
+front should clear the region by Wednesday night, but PWs in
+excess of 2 inches and MUCAPE between 500-1000 J/kg ahead of the
+front will provide a favorable environment for thunderstorms
+producing rainfall rates potentially in excess of 2 inches per
+hour. Given the potential for some localized totals approaching 6
+inches across portions of Broward and Miami-Dade counties during
+the 12-18Z time period Wednesday, a Slight Risk has been introduced
+with this issuance.
+
+Hamrick
+
+...Central Gulf Coast...
+
+16Z Update: Strong thunderstorm close to the AL/FL coast currently
+allowed for a continuation of the MRGL risk in the area for at
+least this update. Instability is generally focused along the
+immediate coast and offshore into the adjacent Gulf which will keep
+the threat likely tied to this area. Low-end MRGL risk remains, but
+expecting the next 3-6 hours as the peak of the threat before
+dwindling into the evening.
+
+Kleebauer
+
+..Previous Discussion..
+
+A small Marginal Risk area remains across portions of far southeastern
+Mississippi, southern Alabama, and the far western Florida
+Panhandle. Although the threat of flooding is still considered low,
+there may be a few convective cells that may be able to produce
+higher rainfall rates closer to the coast. Although instability is
+unimpressive, robust mid-upper level dynamics with diffluent
+southerly flow ahead of an upper low will provide deep layer ascent
+with widespread moderate to heavy rainfall across the region.
+
+Hamrick
+
+
+Day 1 threat area: www.wpc.ncep.noaa.gov/qpf/94epoints.txt
+
+ 
+
+     
+       
+               
+          
+        
+        
+          
+            NOAA/
+            National Weather Service
+               
+               National Centers for Environmental Prediction
+                         Weather Prediction Center
+                         5830 University Research Court
+                         College Park, Maryland 20740				
+                         Weather Prediction Center Web Team
+          
+            Disclaimer
+            Credits
+            Glossary
+          
+
+          
+            Privacy Policy 
+            About Us
+            Career Opportunities
+          
+        
+       
+     
+
+
+
+    
+  
+  
+
+
+</html
+
+ 
+
+
