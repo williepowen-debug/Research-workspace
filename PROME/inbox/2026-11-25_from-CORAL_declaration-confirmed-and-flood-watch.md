@@ -77,7 +77,7 @@
 
 ## Item 5. Inbox: 8 of 8 dispositioned, every sender (`board_log.tsv`, rows from 2026-11-25T11:47:33)
 
-Correction COR-20261124-21 (the CIA/ODNI card) receipted NO-OP. ⚠️ SIG-W-20261125-021 (arrived about 11:50 ET) is logged but its file stays in `AGENTS/CORAL/inbox/WALTER/`: WALTER had not committed it, so `git mv` refused; CORAL moves it next session.
+Correction COR-20261124-21 (the CIA/ODNI card) receipted NO-OP. SIG-W-20261125-021 (arrived about 11:50 ET) was untracked at first; moved to `processed/` after WALTER's commit 1a99ebde50 (CORAL commit 2fbd690fc9). Inbox empty.
 
 | Item | Disposition |
 |---|---|
@@ -124,13 +124,14 @@ Second request outcome; cost share; first dollars; NFIP load after 11/16; OIR 20
 | 150b89b947 | CORAL write-back: STATUS, STATUS_DETAIL § AN, CALENDAR, SCRATCH, MEMORY, board_log, KB 196–201, Parcl extract, corrections receipt, 7 inbox moves |
 | 8dcd4d78b1 | NEXUS_BRIEF block, pinned to 150b89b947 |
 | 5e84ebff61 | packets to TERRY and HOMER (carve-out ①) |
-| this packet's commit | `CORAL -> PROME: ...` (sha in the closing message) |
+| 16e43833d0 | this packet |
+| 2fbd690fc9 | WALTER card 021 moved to processed (after WALTER's commit) |
 
 ## COMPLETION
 
 STATUS: DONE (items 1–7 and MSI #16); PARTIAL on what only 11/30 can show
-CHANGED: AGENTS/CORAL STATUS, STATUS_DETAIL § AN, KB 196–201, board_log, inbox 7 → processed (1 logged, untracked), corrections receipt, CALENDAR, SCRATCH, NEXUS_BRIEF, MEMORY, sources/parcl; packets to PROME, TERRY, HOMER
+CHANGED: AGENTS/CORAL STATUS, STATUS_DETAIL § AN, KB 196–201, board_log, inbox 8 → processed, corrections receipt, CALENDAR, SCRATCH, NEXUS_BRIEF, MEMORY, sources/parcl; packets to PROME, TERRY, HOMER
 RESULT: DR-4956-FL = first (11/09) request: IA 6 counties, PA A–B only, no HM; second request pending; 0 dollars; NFIP still 1,157 (11/16); SE rain not yet a large event; Flagstar has no Florida tie; fema.gov refused curl/8.5.0 and research-bot/1.0 alike; MSI #16 re-fire fails
 GAPS: second request; cost share; NFIP reload; OIR 2026-109 unread (scan); county spending; SE outcome after 01:00 ET 11/26; client-string cause not isolated
 WILL_NEEDS: none
-FOLLOW-UP: move WALTER card 021 to processed once WALTER commits it; D:L1244 stays 11/30; GATES MSI-01 review_by 12/03; DeLand vs record 11/28; DR-4956 amendment watch to 12/07
+FOLLOW-UP: D:L1244 stays 11/30; GATES MSI-01 review_by 12/03; DeLand vs record 11/28; DR-4956 amendment watch to 12/07
