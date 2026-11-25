@@ -58,12 +58,13 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 
 | Date | Event | Ch | Date basis | Action |
 |---|---|---|---|---|
-| **2026-11-24** | PROME disposes the AEO-17 re-date draft (D:L1205) · CORAL flood re-read (D:L1204) | ENSO · C4 | confirmed (DOCKET) | read the disposition; do not re-date AEO-17 without it |
+| **2026-11-24** | ✅ DONE: AEO-17 re-dated on Will's WQ-743 A, encoded 11/24 (row carries checks + original cells) · CA tides read (KB-326…329) | ENSO · C4 | done | — |
+| **2026-11-25 ~14:30 ET** | Second CA tide read after SF 8.5 ft MLLW at 13:49 ET (record 8.66) and North Spit 10.0–10.4 (record 10.36) | C4 | forecast NWS 11/24 13:27–13:42 PST | NWPS FTPC1/HBYC1/ANVC1/CECC1 if CO-OPS still refuses (KB-327) |
 | **2026-11-24 → 26** | SE and east-central FL flood watches to 11/26 01:00 ET; Flagler/Putnam coastal warning to 11/25 19:00; CA coastal warnings to 11/26–27 | C4 | confirmed (NWS alerts 11/23) | alerts command + gauges; record outcome (KB-318/321) |
 | **2026-11-26** | SA CEC final 2026 maize estimate | C2 | confirmed (CEC schedule, KB-224) | read; AEO-13 context, grades nothing |
 | **2026-11-26** | Memphis observed vs NWPS −5.1 ft; St. Louis barge print (Thursday; holiday shift not checked) | C5 | forecast issued 11/23 · weekly | levels only, NO GRADE; then C5 3 or 2 (KB-304) |
 | **2026-11-27** | PROME's WQ-735 recipe test (D:L1239) | — | confirmed (DOCKET) | no recipe switch before its packet |
-| **~2026-11-27** | Kaub 10th complete day ≥77 cm if it holds (run began 11/18) | C5 | estimated | reported only (exit proposal with PROME) |
+| **~2026-11-27** | Kaub 10th complete day ≥77 cm if it holds (run began 11/18) | C5 | estimated | grade 'European low water ended' (WQ-741 A, charter); 7 of 10 at 11/24 |
 | **2026-11-30** | Atlantic season ends | C1 | fixed | AEO-01 + C1 channel-kill, grade next session |
 | **2026-12-02** | C6 agreement band ORANGE if unexecuted | C6 | confirmed (KB-205) | grade on the letter |
 | **2026-12-02** | Flood-alert check review with WALTER | C4 | confirmed (WALTER 7j) | keep or drop; send WALTER a line |
@@ -72,19 +73,21 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 | **2026-12-07** | PROME's WQ-735 refusal list to Will (D:L1237) · MWD committees | — · C6 | confirmed | artemis.bm, FICH on the list |
 | **🔴 2026-12-08** | **MWD board item 8-7, Lower Basin implementing agreements** (21-6461; closed session 8-1 unnamed litigation) | C6 | confirmed (Legistar re-read 11/23) | **read the vote the same day or next session; packet TERRY, WATT, PROME** |
 | **2026-12-10** | *Nevada v. Burgum* federal answer · CPC ENSO discussion · WASDE (C2 both bands) · AEO-14 grade | C6 · ENSO · C2 · C3 | confirmed (ECF 34 relayed; CPC; USDA; DOCKET L1013) | four reads; court text blocked, press only |
+| **2026-12-11 (backstop 12/18)** | AEO-18 grade: MWD board vote on item 8-7 (Legistar event 1970) | C6 | registered 11/24 (WQ-741 A) | HIT/MISS on the action record; NO-VERDICT needs a dated Legistar search by 12/18 |
 | **~2026-12-15** | December 24-Month Study | C6 | estimated (November's was dated 11/16) | leg 2 + AEO-10; scan every month for the minimum |
 | **2026-12-17** | CPC seasonal outlook (JFM) | C3 · C4 | confirmed (CPC) | temperature and rain points |
-| **2026-12-20** | ⚠️ **AEO-17 registered cutoff.** The instrument (RONI OND) is expected **~early January 2027** (KB-285, estimated: the file prints about 5 days after a season ends), so on the letter no row by 12/20 = NO-VERDICT. The earlier "~12/7" expectation was wrong | ENSO | cutoff registered · print estimated | **unresolved discrepancy; D:L1205 governs; registered terms unchanged here** |
+| ~~2026-12-20~~ | **SUPERSEDED 11/24 (WQ-743 A): AEO-17 now reads at the first OND print, NO-VERDICT backstop 2027-01-20.** Old text: ⚠️ **AEO-17 registered cutoff.** The instrument (RONI OND) is expected **~early January 2027** (KB-285, estimated: the file prints about 5 days after a season ends), so on the letter no row by 12/20 = NO-VERDICT. The earlier "~12/7" expectation was wrong | ENSO | cutoff registered · print estimated | **unresolved discrepancy; D:L1205 governs; registered terms unchanged here** |
 | **2026-12-21** | End of the 11/23 NWPS Memphis run (−7.8 ft) | C5 | forecast | compare, no grade |
-| **2026-12-22 → 24** | San Francisco predicted tides slightly above November's | C4 | confirmed (CO-OPS predictions) | alerts + gauges |
+| **2026-12-22 → 25** | King tides (Coastal Commission 12/23–25; NorCal also 12/22). SF astronomical 7.18 ft MLLW on 12/24 vs 7.02 on 11/25; with ~+1.2 excess ≈ 8.4 before any storm, record 8.66 (KB-328) | C4 | confirmed (CO-OPS predictions, KB-313) | alerts + gauges |
 | **2026-12-30** | C3 winter band window opens (to 02-28) | C3 | confirmed (KB-195) | `scripts/c3_winter_grade.py` each session |
 | **2026-12-31** | AEO-02, AEO-10 resolve · last day new ICS may be created without a deal (§5.4) | ENSO · C6 | confirmed | grade |
 | **🔴 2027-01-01** | Lower Basin agreement unexecuted ⇒ C6 agreement band RED (§5.3.A.3) · Jan-1 reinsurance renewals · **Gatún level = AEO-12's next test** | C6 · C1 · C5 | confirmed | three reads |
-| **~2027-01-05** | RONI OND first print | ENSO | estimated | AEO-17 per D:L1205 |
+| **~2027-01-05** | RONI OND first print | ENSO | estimated | grade AEO-17 (NO-VERDICT only if no OND row by 01-20) |
 | **2027-01-07 · ~01-11** | CAP board · Arizona legislature convenes | C6 | confirmed (CAP) · derived | Arizona approval is required (A.R.S. §45-106) |
 | **2027-01-12 · 02-10 · 03-10 · 04-09 · 05-12** | WASDE | C2 | confirmed (USDA) | both C2 bands; AEO-13 resolves 5/12; archive the PSD zip |
 | **2027-01-15 · 03-01 · 03-15 · 04-30** | AEO-03 · AEO-08 · AEO-07 · AEO-12 resolve | C1 · C3 · C5 | registered | grade |
 | **~late Feb 2027** | SA CEC first 2027 forecast | C2 | estimated | AEO-13 lead read |
+| **~2027-03-10 (backstop 04/15)** | AEO-19 grade: Florida Dec–Feb rain vs 9.78 in, first NCEI climdiv release with Feb 2027 | C4 · ENSO | registered 11/24 (WQ-741 A) | grade on first release; packet CORAL |
 | **EACH SESSION** | C5 →5 test (Kaub ≤40 AND Duisburg ≤180, 3 complete days) · alerts command | C5 · C4 | charter | not fired since the window ending 11/13 |
 | **Thursdays 10:30 ET** | EIA gas storage (BRENT's) · GTR barge rates | C3 · C5 | weekly; holiday weeks shift | context only |
 

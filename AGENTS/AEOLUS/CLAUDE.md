@@ -206,6 +206,8 @@ Durable banded rules live here; the live read lives in STATUS with `[src M/D]` +
 
 ⚠️ **What this trigger now measures, stated plainly because it changed:** the old leg was meant to capture an **operational** event (loading suspension); the new one measures **hydrological persistence across the full reach**. That is a real substitution — I traded an unverifiable economic leg for a verifiable physical one. **The operational leg is INSTRUMENTED (2026-09-28, Will-directed) but still UNARMED.** *(Superseded: "stays UNARMED until I have a resolvable source (no verified barge-freight or transit-suspension feed exists)".)* Sources now in `water/SOURCES.md` §RHINE BARGE FREIGHT: **Contargo's daily low-water surcharge** (one operator, containers only, keyed to the same gauges) and **CBS 85817NED**, a quarterly Dutch inland-shipping price index that includes fuel. **No band is registered:** CBS offers only n=2 low-water episodes (2018, 2022) and fuel moves it too, so arming it now would be building the threshold before base-rating it. Report the readings; do not grade them. KB-AEO-161.
 
+**"European low water ended" (Will-ruled 2026-11-23, WQ-741 A; record `PROME/proposals/2026-11-23_wq741-742-743-RULED.md`; KB-AEO-325):** Kaub daily mean **≥77 cm on 10 consecutive complete days**, graded only while a 40/180 fire is the latest event. It says the river recovered, nothing more. Economic recovery is a named, ungraded line (Contargo surcharge tiers run to Kaub 113/145). Record: 0 wrong of 3 calls. It moves no score, and the →5 trigger above is untouched. Live state: STATUS EXIT row C5.
+
 ---
 
 ## EXIT / INVALIDATION (Falsification)

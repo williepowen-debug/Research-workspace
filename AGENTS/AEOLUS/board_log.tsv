@@ -115,3 +115,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-23T17:08ET	2026-11-23_from-WALTER_nws-flood-alerts-answer	acted	INBOX_DIRECT	Ran alerts once 22:07Z, nothing new; standing check not adopted, needs Will in WALTER session; SCRATCH updated.
 2026-11-23T17:17ET	2026-11-23_from-WALTER_climate-routing-edits-answer	acted	INBOX_DIRECT	v0.52 read at f801437643 and matches; one hole in flood_alerts.py sent back; edit 4 waits for Will in WALTER session.
 2026-11-23T17:20ET	2026-11-23_from-WALTER_edit4-ruled	acted	INBOX_DIRECT	Edit 4 live, WALTER routing v0.53 (2714158a44), wording read and matches Will; KB-AEO-322 updated.
+2026-11-24T23:38ET	SIG-W-20261123-030	acted	INBOX_WALTER	Read late (fleet offline); Tue forecast 10.3-11.0 vs observed 10.162; gauge-vs-forecaster conflict resolved (NWPS series is astronomical only); KB-326/327; PROME packet eb1dd74167.
+2026-11-24T23:38ET	SIG-W-20261124-004	acted	INBOX_WALTER	Verified at CO-OPS: Arena Cove 8.862 record on NOAA monthly table (1983-90 gap); SF record 8.66 (1983) read; evacuation ~281 people (LoCO/Genasys); KB-326..329.
+2026-11-24T23:38ET	SIG-W-20261124-005	noted	INBOX_WALTER	Florida river and coastal flood status; CORAL owns the Florida read and is awake on it; no AEOLUS action, no score move.
+2026-11-24T23:38ET	SIG-W-20261124-019	noted	INBOX_WALTER	Florida federal declaration reported, not in OpenFEMA; CORAL owns; no duplicate read; C1/C4 unchanged.
+2026-11-24T23:38ET	2026-11-23_from-PROME_WQ-741-743-RULED-A	acted	INBOX_DIRECT	Encoded: AEO-17 amended (checks + premise re-audit in row), AEO-18 MWD 50%, AEO-19 FL rain 75% registered, river rule in charter; IDs to PROME.

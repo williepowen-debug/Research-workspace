@@ -8,7 +8,14 @@
 **Maintain first-class tracking on MAJOR RIVER water shortages — especially where they affect SHIPPING / TRADE.** Will confirmed C6 water stays inside AEOLUS (no standalone agent for now) AND named the river→navigation→freight nexus as a priority. Coverage split: **C5 = river NAVIGATION→freight** (Rhine, Mississippi/Ohio; the "affects shipping/trade" leg; current score in STATUS); **C6 = water ALLOCATION** (Colorado reservoirs/shortage-tiers/hydropower). Keep a standing scan on the major navigable trade rivers: **Rhine, Mississippi/Ohio, Yangtze, Danube, Paraná** + Panama chokepoint. An empty river read is a gap to close (the #1 guard applies to this watch).
 *(August trade lines resolved 8/12 → `archive/SCRATCH_ARCHIVE_2026-11-23_august-trade-lines.md`. No live trade instruction stands here; TRADE.md row 1 = not armed.)*
 
-## 🔴 NEXT SESSION — START HERE (2026-11-23 16:59 ET close, session 5869e07f, Claude Code Opus 5.5)
+## 🔴 NEXT SESSION — START HERE (2026-11-24 23:39 ET close, session aeolus-desk-agent-2026-11-24, Claude Code Opus 5.5, PROME wake on Will's word)
+
+1. **Wed 11/25 ~14:30 ET: second California tide read** (owed; PROME to register). SF forecast 8.5 ft MLLW at 13:49 ET vs record 8.66 (1983); North Spit 10.0–10.4 vs 10.36 (Jan 2026); Arena Cove vs its new 8.862. ⛔ **CO-OPS datagetter refused this box (HTTP 403) from 23:27 ET 11/24 after my own ~300-request scan.** Test with ONE request; if still 403, use NWPS `api.water.noaa.gov/nwps/v1/gauges/{FTPC1,HBYC1,ANVC1,CECC1}/stageflow` (MLLW, matches CO-OPS to 0.01). Never change the client string. Pace requests (KB-326…329).
+2. **11/27:** grade "European low water ended" (7 of 10 at 11/24).
+3. Item 0 of the 11/23 block below (alert-vs-measurement pass on the other channels) is still open, and so is the rest of that block, except AEO-17 and the forecasts, which were done 11/24.
+
+### (prior block, 11/23)
+#### 🔴 NEXT SESSION — START HERE (2026-11-23 16:59 ET close, session 5869e07f, Claude Code Opus 5.5)
 
 ### THE ONE THING
 **Colorado is the live channel (Orange 12/02 if unsigned, MWD vote 12/08); Florida and California floods are live now and my California coverage is a gap.**

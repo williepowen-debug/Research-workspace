@@ -1,0 +1,6 @@
+# AEOLUS STATUS — BOTTOM LINE of 2026-11-23 16:59 ET, rotated verbatim 2026-11-24 23:38 ET
+
+crc32 of the body below: 3277149622
+
+---
+**2026-11-23 16:59 ET (session close):** No score moved today; composite 15/30, fired 0 of 6. **Florida and California are flooding now:** flood watches for southeast and east-central Florida run Tuesday evening to late Wednesday, the St. Johns is in major flood at four gauges, and California has coastal flood warnings with near-record tides to 11/26–27 (KB-318, KB-321). Expect more this winter: CPC gives the Florida peninsula 70% and Southern California 60% odds of a wet Dec–Feb, and strong El Niños were wet in Florida 6 of 7 times (KB-319/320; no registered row). Flood sits outside homeowners and Citizens policies, so C1 and C4 stay 2. **Colorado (C6, 4) is still the most important channel:** deal unsigned, Orange from 12/02, MWD vote 12/08. **Shipping (C5, 3) is the softest score:** it rests on a Memphis forecast (−5.1 ft 11/26, −7.8 ft 12/21) that counts only ~2 days of rain. **Panama:** 47 ft limit by 4/30 put at 55%. **California rain, rivers, burn scars and losses are a gap.** Prior bottom line → `archive/STATUS_ARCHIVE_2026-11-23_bottom-line.md`.

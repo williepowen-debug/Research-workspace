@@ -2,10 +2,10 @@
 
 **Purpose:** curated synthesis writeback, rewritten at closeout only when a figure, threshold, or cross-desk send or wait in it changed (NEXUS schema §4.1, WQ-719 A). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-11-23 18:23 ET (reconciliation, KB-321…324; folded with STATUS.)**
+**Last writeback: 2026-11-24 23:40 ET (PROME wake on Will's word: CA tides KB-326…329; WQ-741/743 A encoded; folded with STATUS.)**
 **WAITING-FOR:**
 - **11/26:** SA CEC final; NWPS Memphis forecast −5.1 ft · **11/30:** hurricane season end (AEO-01) · **12/02:** C6 Orange window · **12/03:** CAP board · **12/07–08:** MWD vote on the Lower Basin implementing agreements · **12/10:** federal answer in *Nevada v. Burgum*, CPC ENSO, WASDE, NWPS Memphis forecast −6.9 ft · **12/21:** end of NWPS run, −7.8 ft · **~mid-Dec:** December 24-Month Study · **12/17:** CPC seasonal
-- PROME: AEO-17 (D:L1205, 11/24); C5 and C4 exit-rule proposals and forecast proposals (packet 11/23)
+- **11/25 ~14:30 ET:** second CA tide read (SF 8.5 ft MLLW forecast at 13:49 ET vs record 8.66) · **11/27:** Kaub 10th day ≥77 cm · **12/11:** AEO-18 MWD vote grade · PROME: DOCKET rows for AEO-18/19 and AEO-17's re-date (D:L1250)
 
 ---
 
@@ -20,7 +20,7 @@
 
 ## 🟡 ENSO / VORTEX / C1 / C2 / C4
 - **ENSO:** CPC 11/12 historic (RONI ≥2.5) **~60%** for OND/NDJ (from 83/70); weekly Niño-3.4 **+3.3** [18NOV] (KB-309). **Vortex rebuilt:** 10 hPa 60N **+23.22** [11/23 00Z] (KB-309).
-- **C1:** NHC 1 PM 11/23: no formation expected 7 days, unarmed (KB-309); season ends 11/30. **C3:** CPC 11/19 DJF maps unchanged, leans warm (KB-301), its degree-day forecast slightly warmer: MidAtl −6.9%, ENC −6.6%, US −4.4% vs 1981–2010 (KB-317; BRENT, WATT); **→4 gas step set (WQ-736, in-sample label, fires count from 11/23), C2 →4 cereals only beside both regions at −15% (WQ-737/738, PROVISIONAL; 5 of 61 seasons): both NOT MET (KB-311).** 30-day HDD to 11/21 MidAtl −19.9%, ENC −31.1% (report only, KB-314). **West Coast sea level raised at 5 gauges (KB-313).** **LIVE floods 11/23: FL watches 11/24–25 and St. Johns major at 4 gauges; CA coastal warnings to 11/26–27 (KB-318); CPC DJF wet odds FL 70%, S. Calif. 60% (KB-320). Routed CORAL, TERRY.** **C2:** SA corn 15,000 kt (−8.65%), next grade 12/10 WASDE. **C4/Florida:** St. Johns at Cocoa **18.58 ft [11/23 20:15Z]**, steady 18.5–18.6 through late week after an 18.77 high [11/21]; flood moving downstream, Lake Harney above its record, DeLand to 6.1 by 11/27–28 vs 6.33 (KB-318/321); South Florida 11/17–19 one figure **17.59 in** (72-h preliminary station max, SFWMD G-54, NWS Miami 11/19 5:06 PM, KB-305; replaces 16.65 in, the 48-h reading; state emergency EO 26-232, 21 counties; no federal declaration) (KB-294); 24.69 in stays the event-1 figure (KB-287). **Drought:** USDM 42.03% [11/17], D4 rising to 2.42%, 89% of it in MS/AR/LA (KB-308).
+- **C1:** NHC 1 PM 11/23: no formation expected 7 days, unarmed (KB-309); season ends 11/30. **C3:** CPC 11/19 DJF maps unchanged, leans warm (KB-301), its degree-day forecast slightly warmer: MidAtl −6.9%, ENC −6.6%, US −4.4% vs 1981–2010 (KB-317; BRENT, WATT); **→4 gas step set (WQ-736, in-sample label, fires count from 11/23), C2 →4 cereals only beside both regions at −15% (WQ-737/738, PROVISIONAL; 5 of 61 seasons): both NOT MET (KB-311).** 30-day HDD to 11/21 MidAtl −19.9%, ENC −31.1% (report only, KB-314). **West Coast sea level raised at 5 gauges (KB-313). CA 11/24: Arena Cove 8.862 ft MLLW = record (1978–2026, 1983–90 gap); North Spit 10.162 #2; King Salmon evacuated; no asset of consequence hit, insured loss immaterial (KB-326…329). Dec 23–25 SF astronomical tide 0.16 ft above this week's (KB-328).** **LIVE floods 11/23: FL watches 11/24–25 and St. Johns major at 4 gauges; CA coastal warnings to 11/26–27 (KB-318); CPC DJF wet odds FL 70%, S. Calif. 60% (KB-320). Routed CORAL, TERRY.** **C2:** SA corn 15,000 kt (−8.65%), next grade 12/10 WASDE. **C4/Florida:** St. Johns at Cocoa **18.58 ft [11/23 20:15Z]**, steady 18.5–18.6 through late week after an 18.77 high [11/21]; flood moving downstream, Lake Harney above its record, DeLand to 6.1 by 11/27–28 vs 6.33 (KB-318/321); South Florida 11/17–19 one figure **17.59 in** (72-h preliminary station max, SFWMD G-54, NWS Miami 11/19 5:06 PM, KB-305; replaces 16.65 in, the 48-h reading; state emergency EO 26-232, 21 counties; no federal declaration) (KB-294); 24.69 in stays the event-1 figure (KB-287). **Drought:** USDM 42.03% [11/17], D4 rising to 2.42%, 89% of it in MS/AR/LA (KB-308).
 
 ## CONVERGENCE SNAPSHOT
 | Ch | Score | One line |
@@ -35,7 +35,7 @@
 
 ## WHAT NEXUS/PROME SHOULD KNOW
 - **Ownership (Will 11/23, KB-322):** AEOLUS carries El Niño and hurricane-season outlooks; CORAL keeps El Niño's effect on Florida and storms threatening Florida (WALTER routing v0.53). Food-CPI routes to CARL.
-- **AEO-17:** registered 12/20 cutoff vs an early-January print is unresolved; D:L1205.
+- **Predictions (11/24, Will's WQ-741/743 A):** AEO-17 now reads at the first OND print (NO-VERDICT 1/20/27); AEO-18 MWD vote 50%; AEO-19 FL Dec–Feb rain ≥9.78 in 75%. Rule 'European low water ended' (Kaub ≥77 cm, 10 days) in the charter, 7 of 10 at 11/24.
 - Root independence: C5-Rhine (European basin) · C5-Mississippi (US-interior drought, shared with C2) · ENSO cluster (C1/C2/C3/C5-Panama/C6) · coastal (wind + sea level) are separate roots.
 - **The Hoover consequence does not depend on the signature; the water split does.** Count them as one C6 root, two legs.
 - **Nothing here is a trade**; TERRY holds the WQ-704 handoff and the 11/22 C5 handoff.
