@@ -3,6 +3,7 @@
 Reverse-chronological log of **structural** changes: docs created/retired/moved, scripts built or changed, charter/boot/closeout amendments, schema changes. Answers *"why is HOMER organized this way, and what decision am I about to re-litigate?"*
 
 - Analytical changes (grades, readings, thesis counts) live in `STATUS.md`, the workbook and `thesis/THESIS.md` §9, not here.
+- Entries from 2026-11-05 on run oldest to newest below the October block.
 - **Consult before restructuring; this is not a per-session ritual.** Add an entry only when the structure changes.
 - History before 2026-10-28: `archive/CLAUDE_charter_history_2026-09-29.md` (charter incidents) and `git log -p -- AGENTS/HOMER/CLAUDE.md`.
 
@@ -43,3 +44,23 @@ Reverse-chronological log of **structural** changes: docs created/retired/moved,
 - Charter: BOOT step 9a (combination watch, WQ-622 A); CLOSEOUT step 3 gains the WQ-619 miss line and the WQ-596 packet route.
 - `KB_LIVE.tsv`: five `combo:` theme rows, KB-HOMER-043 to 047, review 2026-12-01 (docket row).
 - `PREDICTIONS.tsv`: HOM-03 to HOM-06.
+
+## 2026-11-12
+- **READS manifest filed** (28 rows, transcribed by PROME into `PROME/registry/READS.tsv`): closes the 10/28 "no row in READS" note; `read_cap_check.py --agent HOMER` is now attested, not heuristic.
+- Charter (WQ-678, DAEDALUS): F19 (BOOT 1 points to `docs/GIT_WORKTREE_PROCEDURES.md`) and F57 (CARL cross-references moved to `archive/CLAUDE_carl-cross-references_2026-11-12.md`) applied; F58 declined.
+
+## 2026-11-20
+- Charter CLOSEOUT 5 and two lines aligned to WQ-719 A / WQ-721 A (NEXUS brief written only when its content changes). Charter size question closed by root canon (50,000 B ceiling).
+- THESIS §10 added (first formal grade under frozen criteria). STATUS rotated; STATUS rotation files for 11/11, 11/20, 11/23, 11/24, 11/25 in `archive/`.
+
+## 2026-11-24 and 2026-11-25
+- **THESIS §11:** A1 first conjunct restated (WQ-725, Will). **§12:** §1 paragraph adopted (Will). **§7 V6** added (PROME answer). First history move → `archive/THESIS_history_2026-11-25.md`.
+- **Frozen-record incident:** the 11/20 grade row was overwritten (`62ef628cb7`) and restored (`0839878fe6`); LESSONS §57.
+- Charter: HUD FHA performance source added to Key Signals and Key Data Sources; docket row added.
+
+## 2026-11-25 cleanup pass (Will 14:29 ET, "yes lets do the clean up pass")
+- **THESIS** 31,817 → under 22,785 B: §2, closed §6 rows, §8b table, §10 full text, §12 record and expired V5 moved verbatim to `archive/THESIS_history_2026-11-25b.md` (blocks F–K). §1, §3, §4, §5, §8a, §9, §11 byte-identical except as later dated. D18 added.
+- **LESSONS** 25,029 → about 22,100 B: 12 hot rows shortened because a read surface already carries the rule; old rows in `archive/LESSONS_hot_rows_2026-11-25.md`; 57 rows and both cold registers unchanged in count.
+- **NEXUS_BRIEF:** superseded SENDING rows moved verbatim to `archive/NEXUS_BRIEF_rows_2026-11-25.md`.
+- **COVERAGE** refreshed (lane 1b opened) · **MEMORY** infra notes rewritten as one dated table · **OBLIGATIONS_OTHERS** B3–B6 closed, B11–B13 and the Oct-2025 FHA rule break added.
+- Docket: thesis-grade row's early-date clause corrected (A1 is 0 of 2); read-cap row updated.
