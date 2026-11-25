@@ -4,3 +4,7 @@
 
 ## Vintage block replaced 2026-11-24
 Full replaced file: `git show 827c36e822:AGENTS/HOMER/STATUS.md`.
+
+## Moved 2026-11-24 (closed-receipts pointer, verbatim)
+
+Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-narrative.md`. Closed A1 (WQ-248 C, 9/17) and A5 leg 1 (THESIS built 9/29; formal grade 11/20 stays on the docket and GATES) → `archive/STATUS_rotated_2026-11-11.md` (moved 11/12).

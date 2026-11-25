@@ -161,3 +161,7 @@ SIG-W-20261001-013	2026-10-02	noted-off-domain	electricity price = ENERGY/BLS; H
 2026-11-23T22:29Z	2026-11-23_from-CREED_flood-mf-collateral	INFO-LOGGED	INBOX	FL MF insurance cost (Trepp), Fannie MF 502.03 flood rule, named basin cases (Estates at Palm Bay corrected by CREED to Okaloosa). Answer to CREED's ask: HOMER holds no Florida MF delinquency figure (statewide is CORAL's; my MF figures are national/TX). CREED 17:23 correction committed by HOMER at PROME request; moved to processed.
 2026-11-25T03:45Z	SIG-W-20261123-029	ACTED	INBOX_WALTER	Fannie Oct published, figure not obtained (403) and logged UNREAD; Apartment List file is October data (HOM-06 open); ICE First Look not out at 11/24 22:40 ET
 2026-11-25T03:45Z	SIG-W-20261124-005	INFO-LOGGED	INBOX_WALTER	Flood gauges CORAL-owned; HOMER found a major disaster declaration REPORTED after this card (WALTER told by packet)
+2026-11-25T04:40Z	2026-11-24_from-CORAL_declaration-answer	ACTED	INBOX	Reported IA counties folded into PIPELINE, KB-048, STATUS; REGINALD and TERRY packets corrected
+2026-11-25T04:40Z	SIG-W-20261124-011	INFO-LOGGED	INBOX_WALTER	Case-Shiller already integrated from S&P; Conference Board is not HOMER lane
+2026-11-25T04:40Z	SIG-W-20261124-015	ACTED	INBOX_WALTER	FDIC Q3 bank MF 1.742 pct logged (MULTIFAMILY, KB-043); one-bank caveat to REGINALD
+2026-11-25T04:40Z	SIG-W-20261124-019	INFO-LOGGED	INBOX_WALTER	County list matches CORAL; unresolved at OpenFEMA

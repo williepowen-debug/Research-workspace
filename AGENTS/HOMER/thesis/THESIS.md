@@ -50,10 +50,11 @@ The DAEDALUS card (`HOMER_CARD.md` §4) says "five elements per leg" without lis
 - **Cleanest flip at the next print (Trepp Sept, ~10/01):** *for* = CMBS MF **> 7.71%** (a new high above Apr-26). *Against* = CMBS MF **< 6.85%** (below the 2026 floor).
 
 ### A1 — FHA-bottom inflow (AMPLIFIER)
-- **KILL:** MBA NDS **FHA SA total DQ falls QoQ in 2 consecutive quarters** AND ICE Mortgage Monitor **serious-DQ cure rate YoY better than −15%** (above the Cure Rates Yellow line) on the latest issue at that grade.
+- **KILL (first conjunct RESTATED 2026-11-24 under WQ-725; old wording in §11):** MBA NDS **FHA seriously delinquent rate (90 or more days past due, or in foreclosure; not seasonally adjusted) falls QoQ in 2 consecutive quarters** AND ICE Mortgage Monitor **serious-DQ cure rate YoY better than −15%** (above the Cure Rates Yellow line) on the latest issue at that grade.
+- **First-conjunct source and vintage:** the QoQ change in basis points for FHA loans as MBA states it in that quarter's NDS release (CalculatedRisk's verbatim copy while mba.org refuses this box, labelled SECONDARY), **first print** (§7 V1). "Unchanged" is not a fall and resets the run. A release that states no FHA change is UNGRADED and pauses the run (V2).
 - **Satisfiability:** ⚠️ **general knowledge, not in my ledger:** the 2021–22 post-forbearance cure period had falling FHA DQ with normal cure rates. **Owed:** pull an MBA NDS FHA SA history to confirm.
 - **Instrument health:** MBA NDS quarterly (~mid-Feb/May/Aug/Nov; primary is 403-gated, CalculatedRisk mirrors same day); ICE Mortgage Monitor monthly (~9th–13th).
-- **Channel vs thesis:** ⚠️ the Oct-2025 FHA process break distorts FHA **YoY**; this kill uses **QoQ SA**, which is why.
+- **Channel vs thesis:** ⚠️ the Oct-2025 FHA process break distorts FHA **YoY**; this kill uses **QoQ**, which is why (restated 2026-11-24: serious DQ is not seasonally adjusted, see §11 D15).
 - **Cleanest flip:** Q3 NDS (~mid-Nov). *For* = FHA SA ≥ 12.00% (also HOM-02's confirm). *Against* = a second QoQ decline (also HOM-02's second early-kill arm).
 
 ### A2 — Rate amplifier (AMPLIFIER)
@@ -316,3 +317,24 @@ No leg can reach its kill count before 11/20 (§7 V5), so there is **no early gr
 | D14 | 2026-11-20 | §7 V5 said "11/20 cannot return FALSIFIED or PARTIAL" — confirmed by this grade; the source tier for A1 is a SECONDARY mirror (CalculatedRisk quoting MBA verbatim; mba.org refuses this box) | MBA primary owed only if the 5bps decline is contested; the sign is MBA's own words |
 
 Evidence: `reports/2026-11-20_thesis-formal-grade.md`; ledger rows dated 2026-11-20 (PIPELINE, BUILDER, RATES, PRICING); `PREDICTIONS.tsv` HOM-02 (MISSED) and HOM-04 (HIT).
+
+---
+
+## 11. A1 FIRST CONJUNCT RESTATED — 2026-11-24 23:39 ET (WQ-725, Will 2026-11-20 12:42 ET "725 approve"; go repeated in HOMER's window 2026-11-24 23:33 ET)
+
+**Only A1's first conjunct moved.** The second conjunct, the two-quarter count, every other leg, §4, the colour rule and the 11/20 grade (0 of 5 killed, 🔴) stand. **PROME reads this diff and shows it to Will before the 2027-02-20 grade.**
+
+| | Wording |
+|---|---|
+| **Old (frozen 2026-09-29 to 2026-11-24)** | MBA NDS **FHA SA total DQ falls QoQ in 2 consecutive quarters** |
+| **New** | MBA NDS **FHA seriously delinquent rate (90 or more days past due, or in foreclosure; not seasonally adjusted) falls QoQ in 2 consecutive quarters** |
+
+**Why this option and not FHA total delinquency plus foreclosure inventory:** MBA states the FHA serious-delinquency change every quarter; the FHA foreclosure rate is not in the Q2 copies HOMER can reach, so the sum could not be graded from sources in hand.
+
+**Reading on the new wording (record, not a grade):** Q2-2026 **−3bps** (MBA Newslink 2026-08-17); Q3-2026 **unchanged** (MBA via CalculatedRisk 2026-11-20). Unchanged resets: **0 of 2**. The old wording had reached 2 of 2. This makes A1 further from its kill, which is the direction that helps the thesis; it is recorded for that reason.
+
+| # | Date | Defect | Owed fix |
+|---|---|---|---|
+| D15 | 2026-11-24 | The new measure is **not seasonally adjusted**. Serious delinquency tends to fall early in the year (general knowledge; FHA history NOT read), so Q4-to-Q1 and Q1-to-Q2 falls could satisfy it without relief. The cure conjunct still guards A1 | Read an FHA serious-DQ quarterly history before the 2027-02-20 grade if reachable; otherwise say so at the grade |
+| D16 | 2026-11-24 | The new measure still falls when a foreclosure **completes**, because the loan leaves the stock. Better than the old wording on entry into foreclosure, not immune on exit | Read C1 (ICE foreclosure sales) beside any A1 fall |
+| D17 | 2026-11-24 | §9 (2026-10-28) "the inflow end is cooling while conversion continues", and §10's "new FC starts −3% YoY (Sept)" as a reason on C1, rest on a one-month base effect: ICE FC starts Q3 ~115.6K vs 103K (+12% YoY). FC sales growth slowed (+41% Dec-25 to +14.5% Sep). Entries left as written; no count, verdict or score moved | Use this row when citing them |

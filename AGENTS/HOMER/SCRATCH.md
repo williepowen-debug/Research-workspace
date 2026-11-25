@@ -10,7 +10,7 @@
 | Fresh | Case-Shiller Sept, FHFA Q3 (both 11/24) · Freddie Oct MVS · Las Vegas fallthrough Oct · MND and Treasury 11/24 |
 | Not out (checked 22:40 ET) | ICE First Look Oct · ATTOM Sept/Q3/Oct · Apartment List Nov · FMHPI Oct · PMMS after 11/19 |
 | Fannie Oct | 0.65% MF / 0.63% SF, PDF supplied by Will 23:29 ET |
-| With Will (23:2x ET) | thesis paragraph reword, A1 wording and five proposed predictions: nothing registered, awaiting his go |
+| Will's go 23:33 ET | HOM-07/08 registered 23:34:49 (commit d89f48f5e2, ICE page 404 before and after); HOM-09/10/11 23:39:14; A1 restated (THESIS §11); thesis paragraph DRAFT in `reports/`, NOT ADOPTED; withdrawal corrections to CARL, REGINALD, HENRY, NEXUS, WALTER |
 | Class A | Fitch negative outlooks → REGINALD packet (8 days late); every owner session now runs a rating-action search (docket row) |
 | Florida | Major disaster declaration REPORTED for Brevard; OpenFEMA empty at 03:40Z 11/25 → PROME, CORAL, TERRY, REGINALD, WALTER told |
 | Docket | 16 keys rolled; 3 rows added (OpenFEMA check, construction jobs, FHFA HPI) |
@@ -19,10 +19,13 @@
 
 ## Open / next
 
-- **Wed 11/25:** OpenFEMA (county list, Individual Assistance) · new-home sales · BEA Q3 second estimate (RFI) · PMMS · MBA wk 11/20.
-- **11/25–30:** ICE First Look Oct · Apartment List Nov (HOM-06) · FMHPI Oct · **WQ-725 A1 restatement due 11/30 (approved, not done)**.
-- **12/01–05:** Trepp Nov (HOM-05), combination review 12/01, read-cap re-measure 12/02, construction jobs 12/04. Toll Mon 12/07 after close.
-- Owed: Fitch primary (8/07 and 11/16); Fannie Sept summary as first published; ICE Trepp SS Nov ~12/08.
-- PROME docket row 979 (HOM-04) still reads PENDING; it resolved HIT 11/20.
+- **With Will:** the thesis paragraph draft (`reports/2026-11-24_thesis-paragraph-DRAFT.md`). ⛔ Do not edit THESIS §1 until he says so.
+- **Grade on the print:** HOM-07 and HOM-08 at ICE October First Look.
+- **Wed 11/25:** OpenFEMA · new-home sales · BEA Q3 second estimate (RFI) · PMMS · MBA wk 11/20 · Redfin weekly.
+- **Past their window, not out or not obtained (carry by name until closed):** ATTOM Q3/Sept/Oct · Fannie Sept as first published · Fitch primary (8/07, 11/16: stopped, see PIPELINE) · Redfin weekly 11/22.
+- **11/25–30:** Apartment List Nov (HOM-06) · FMHPI Oct · 12/01–05 Trepp Nov (HOM-05) · 12/01 combination review · 12/02 read-cap · 12/04 construction jobs · 12/07 Toll · 12/09 NAR (HOM-09).
+- **No docket prompt exists for Auction.com** (quarterly; next ~late Jan 2027).
+- **Before 2027-02-20:** FHA serious-DQ seasonality (THESIS D15). No new kill tests, bands or rules for the sales freeze or fading stress (Will 23:33 ET).
+- PROME docket row 979 (HOM-04) still reads PENDING; resolved HIT 11/20.
 
-No Will decision required.
+Last write 2026-11-24 23:41 ET.

@@ -91,7 +91,7 @@
 | **TX** | November CRE auction postings, major markets | **~$560M / 33 properties / 9 repeats** (TRD 11/03, Roddy's, SECONDARY) — half October's >$1B / 46. No MF subtotal; **named MF loans $218.5M** (HOMER sum, a floor) | 🟠 postings, not sales or losses; repeats = loans rolled, not sold |
 | **NV** *(lane built 10/28)* | Las Vegas fallthrough · LVR · NY Fed | **Fallthrough 20.26% OCT (#2 of 50; highest since Aug 2023; Sept restated 18.75)** · NY Fed NV mortgage 90+ 1.98% Q3 (doubled YoY) · LVR Oct: median $475K +0.1%, sales −11.9% (SECONDARY) · FHFA Q3 −3.5%, Case-Shiller −0.8% | 🟠 observation, no band — worsening |
 | **CA** *(lane built 10/28)* | C.A.R. · ICE · fire-zone | **Oct sales 246,830, −12.7% YoY (lowest in nearly 3 years); median $886,760, flat YoY**; SoCal sales −18.9% · ICE non-current 2.4% (Sept) · LA fire-ZIP serious DQ 'more than double' pre-fire (no number) | 🟡 volume broke, price held. Insurance = AEOLUS |
-| FL | **★ FLOOD SWEEP 11/23 — basin counties (sub-statewide)** | **Zillow ZHVI Oct YoY: Brevard −0.06% · Seminole −0.07% · Volusia +0.14% · Lake −1.71% · Orange −0.62% (USA +1.08%)** — pre-crest baseline. FMHPI Sept: Palm Bay-Melbourne −0.20% · Orlando +1.32% (3-mo ann. +0.05%) · Deltona +0.30%. **Punta Gorda −18.66% from 2022 peak: 1.3pp from the −20% HENRY trigger.** **Major disaster declaration REPORTED approved 11/24 ~19:20 ET for Brevard (Sen. Scott, Rep. Haridopolos); OpenFEMA shows nothing yet (03:40Z 11/25); counties and Individual Assistance UNKNOWN.** If confirmed: FHA 90-day moratorium in the declared area; Fannie no-contact forbearance also needs Individual Assistance | 🟠 watch county ZHVI Nov/Dec; HENRY trigger NOT crossed |
+| FL | **★ FLOOD SWEEP 11/23 — basin counties (sub-statewide)** | **Zillow ZHVI Oct YoY: Brevard −0.06% · Seminole −0.07% · Volusia +0.14% · Lake −1.71% · Orange −0.62% (USA +1.08%)** — pre-crest baseline. FMHPI Sept: Palm Bay-Melbourne −0.20% · Orlando +1.32% (3-mo ann. +0.05%) · Deltona +0.30%. **Punta Gorda −18.66% from 2022 peak: 1.3pp from the −20% HENRY trigger.** **Major disaster declaration REPORTED approved 11/24 ~19:20 ET for Brevard (Sen. Scott, Rep. Haridopolos); OpenFEMA shows nothing yet (03:40Z 11/25); IA counties REPORTED: Brevard, Indian River, Martin, Okeechobee, Palm Beach, St. Lucie; not Seminole/Volusia.** If confirmed: FHA 90-day moratorium in the declared area; Fannie no-contact forbearance also needs Individual Assistance | 🟠 watch county ZHVI Nov/Dec; HENRY trigger NOT crossed |
 | FL | Annual band | evaluable once a year (ATTOM year-end) — "no reading" is NORMAL | ✅ |
 
 ### ⚠️ STANDING CAVEATS
@@ -105,7 +105,7 @@
 |---|---|---|
 | **A7–A11** | 5 sample-limited rungs (research) · FL Orange >1.50% the one bracketed level · MBA NDS primary 403-gated site-wide | open |
 
-Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-narrative.md`. Closed A1 (WQ-248 C, 9/17) and A5 leg 1 (THESIS built 9/29; formal grade 11/20 stays on the docket and GATES) → `archive/STATUS_rotated_2026-11-11.md` (moved 11/12).
+Closed-item receipts → `archive/STATUS_rotated_2026-11-24.md`.
 
 ### B. Owed by others → `OBLIGATIONS_OTHERS.md`
 **B1 DISCHARGED 9/26** (CREED's SS back-fill landed; MF mat-adj closed NOT-IN-SOURCE, kill executed 10/15) — **the Trepp PULL is mine** (Sept PDFs reached at trepp.com/hubfs 10/15). **B7** CalculatedRisk sweep: packet consumed, **no fleet withdrawal found — disposition UNKNOWN.**
@@ -125,7 +125,7 @@ Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-na
 | **Wed 11/25** | Census new-home sales Oct · BEA Q3 second estimate · PMMS (verify day) · MBA wk 11/20 · **OpenFEMA check** | RFI −3.3% confirm |
 | **~11/25–30** | ICE First Look Oct | C1 first Oct print; HUD ML 2026-08 FHA FC-start lift |
 | **2027-02-20** | **Next THESIS formal grade** | early only if A1 reaches its count |
-| **~11/25–30** | Apartment List Nov · FMHPI Oct · 11/30 A1 restatement (WQ-725) | **HOM-06** breadth ≤35 |
+| **~11/25–30** | Apartment List Nov · FMHPI Oct · A1 restated 11/24 (WQ-725, THESIS §11; PROME shows Will the diff) | **HOM-06** breadth ≤35 |
 | **~12/01–05** | Trepp Nov DQ · 12/04 construction jobs · 12/07 Toll FQ4 | **HOM-05** <8.09; did Cove revert? |
 | open | ATTOM Sept / **Q3** (not out at 11/24) | Q3 STARTS vs Yellow >100K |
 | Weekly | PMMS (Thu) · MBA apps (Wed) · Redfin (Thu) | state the publisher |
@@ -137,12 +137,15 @@ Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-na
 
 | ID | Call | State |
 |---|---|---|
-| **HOM-01** | FMHPI nominal YoY rolls over | ⛔ **CLOSED — MISSED (EARLY-KILL) 8/31. DO NOT RE-OPEN.** ICE's 3-mo cooling (9/24) is context, not a re-opening |
+| **HOM-01** | FMHPI nominal YoY rolls over | ⛔ **CLOSED — MISSED 8/31. DO NOT RE-OPEN** |
 | **HOM-02** | MBA NDS **FHA SA total DQ ≥12.00%** (65%) | ❌ **RESOLVED MISSED 11/20** — early kill: Q2 −9bps, Q3 −5bps (11.74%). Migration into FC, which the metric excludes (LESSONS §55) |
 | **HOM-03** | NAR Oct EHS first print <3.90M (60%) | ✅ **RESOLVED HIT 11/12** — 3.75M |
 | **HOM-04** | NAHB Nov price-cut share >45% (30%) | ✅ **RESOLVED HIT 11/20** — 46% (NAHB 11/17) |
 | **HOM-05** | Trepp Nov MF DQ <8.09% (55%) | 🟡 OPEN, ~12/01–05. ⚠️ Oct SS new high (9.22%, maturity defaults) leans against it; not re-weighted |
 | **HOM-06** | Rent breadth Nov ≤35 of 100 (60%) | 🟡 OPEN, ~11/24–30 |
+| **HOM-07 · HOM-08** | ICE Oct: FC sales YoY <10.0% (55%) · FC starts YoY >0.0% (60%) | 🟡 OPEN, registered 11/24 23:34 ET before the print |
+| **HOM-09** | NAR Nov EHS first print <3.65M (88% = model, unshaded) | 🟡 OPEN, 12/09 |
+| **HOM-10 · HOM-11** | Case-Shiller Oct ≤+2.0% (60%) · Freddie MF Nov ≥0.62% (60%) | 🟡 OPEN, ~12/29 · ~12/22–30 |
 | **CRL-06 · CRL-23** | *(CARL-held; HOMER data owner)* | CRL-06 ✅ CONFIRMED 7/16 (basis = STARTS). CRL-23 🟡 OPEN — DHI guided to 18–18.5%, PHM still far |
 
 ⚠️ `Date_Resolved`/`Outcome` stay EMPTY while one arm of a two-arm kill has fired — that is not a resolution.
@@ -151,4 +154,4 @@ Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-na
 
 ## BOTTOM LINE
 
-**2026-11-24 — full data refresh on Will's word (22:35 ET; Claude Code, Opus 5.5).** ① **Demand broke further:** pending sales 63.0, second record low (−16.7% YoY); Redfin gap 70.5%, sixth straight record; California sales −12.7%; Las Vegas fallthrough 20.3%. ② **Prices have not followed:** Case-Shiller +2.1% for a second month, FHFA +2.5%, 16th real decline. ③ **Construction jobs: August's easing reversed** (−40,200 over 12 months). ④ **Servicer trigger fired again:** Fitch outlook negative on Pennymac, Planet and Freedom (11/16, secondary); REGINALD note sent 8 days late. ⑤ **Both GSE apartment books rose: Freddie 0.62%, Fannie 0.65% (at the Orange line, not over).** ⑥ **Florida: major disaster declaration reported, not confirmed at FEMA.** ⑦ No band changed colour; no thesis leg fired; no HENRY trigger. ⑧ Forward (unscored, REPRICED 23:3x ET after base-rating): November existing-home sales below 3.75M ~90%, below 3.65M ~75% (NAR 12/09; PHSI ratio on 8 months gives ~3.56M; the first-written 65% was not base-rated). ⚠️ The −16.4K jobs print: all 5 earlier drops of 12K or more since 2011 (ex-2020) rebounded next month; the 12-month figure is the signal. **Will decision required: none.**
+**2026-11-24 — full data refresh on Will's word (22:35 ET; Claude Code, Opus 5.5).** ① **Demand broke further:** pending sales 63.0, second record low (−16.7% YoY); Redfin gap 70.5%, sixth straight record; California sales −12.7%; Las Vegas fallthrough 20.3%. ② **Prices have not followed:** Case-Shiller +2.1% for a second month, FHFA +2.5%, 16th real decline. ③ **Construction jobs: August's easing reversed** (−40,200 over 12 months). ④ **Servicer trigger fired again:** Fitch outlook negative on Pennymac, Planet and Freedom (11/16, secondary); REGINALD note sent 8 days late. ⑤ **Both GSE apartment books rose: Freddie 0.62%, Fannie 0.65% (at the Orange line, not over).** ⑥ **Florida: declaration reported, not in OpenFEMA.** ⑦ No band changed colour; no thesis leg fired; no HENRY trigger. ⑧ Forward (unscored, REPRICED 23:3x ET after base-rating): November existing-home sales below 3.75M ~90%, below 3.65M ~75% (NAR 12/09; PHSI ratio on 8 months gives ~3.56M; the first-written 65% was not base-rated). ⚠️ The −16.4K jobs print: all 5 earlier drops of 12K or more since 2011 (ex-2020) rebounded next month; the 12-month figure is the signal. **Will decision required: none.**
