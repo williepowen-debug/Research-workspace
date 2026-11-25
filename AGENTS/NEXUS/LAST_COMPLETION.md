@@ -1,5 +1,7 @@
 # NEXUS — LAST COMPLETION
 
+**OUTSIDE CHECK READ + HOMER PACKET — 2026-11-25T16:01:45-05:00 — LIGHT.** Note in DEEPER.md (5f76c3297a); packet to HOMER (SEC contact tool, docket row 3, wording, HOM-09 context, 362K). Session NOT closed; catch-up pass still owed.
+
 **HOMER LOOK, SOURCE PASS — 2026-11-25T15:28:21-05:00 — STANDARD (correction commit), Will 15:24 ET. Session NOT closed.** `research/2026-11-25_homer_look/DEEPER.md`; my 15:20 use of Fannie's SF provision withdrawn, correction packets to HOMER and TERRY. 9: STATUS under 200 lines. 9b: '694M' live only at HOMER's brief (packeted) and my RECORD and first two packets (RECORD labelled; packets RETAINED-HISTORY, corrected by successors). 9c: not re-run beyond the launch scan; board NOT refreshed, pass still owed. 10 nothing past trigger. 11 inbox empty. 14 none. No letter corrected. skipped: 9a not due; 15a edits, no rewrite; 15b none; root 1b–1e and push (not session end).
 
 **HOMER LOOK — 2026-11-25T15:20:21-05:00 — LIGHT (one record, one STATUS thread line, packets to HOMER and TERRY), Will 15:15 ET. Session NOT closed.** Record `research/2026-11-25_homer_look/RECORD.md`; no letter, Conf, root, threshold or owner figure moved; board still NOT refreshed (pass owed, see block below). skipped: 9/9b/9c/10/14/15a (LIGHT, no supersession); 9a not due; 15b none; root 1b–1e and push (not session end).
