@@ -1,39 +1,40 @@
-# FALCON SCRATCH — November 21, 2026, C9 research commission (PROME prome-77, laptop), WALTER card SIG-W-20261121-002, cutoff about 23:15Z 11/21
+# FALCON SCRATCH — November 24–25, 2026, Red Sea wake (PROME prome-77 on Will's word 23:34 ET), cutoff about 04:45Z 11/25
 
 ## CURRENT MARKS
-B 1 / C 14 / D 85 HELD (re-read 11/21, KB-533); convergence 43/50. Census 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-08..12 OPEN to 12/31, FAL-09 1 of 5 (11/17). GATE-FALCON-001 LIVE, leg 2 NOT MET (104.0% at 11/17), next review_by **11/25**. Thesis-kill 0/7. Brent: BRENT's. Claude Code, Opus 5.5, laptop.
+B 1 / C 14 / D 85 HELD (re-read 11/25, KB-546); convergence 43/50. Census 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-08..12 OPEN to 12/31, FAL-09 1 of 5 (11/17); **FAL-13 OPEN 25%, resolves 12/09**. GATE-FALCON-001 LIVE, leg 2 NOT MET (109.0% at 11/24), next review_by **12/02**. Thesis-kill 0/7. Brent: BRENT's. Claude Code, Opus 5.5, Will's box.
 
-## CHANGES SINCE LAST SESSION (15:30Z 11/19 → 23:15Z 11/21)
-- Bahrain Sat 11/21 evening: Iranian attack hit an UNNAMED civilian industrial facility, fire, material damage, no injuries (Interior Ministry, about 19:39Z). AFP residents: smoke over Sitra. Facility and energy NOT ESTABLISHED; no Bapco statement found. KB-531.
-- IRGC: two US Patriot radars at al-Riffa and Awali; IRNA: US interceptor fell on Sitra. Both CLAIM ONLY. KB-532.
-- Khasab hulls: 11/20 projectile, fire, 8 NM N (UKMTO via Reuters); 11/21 two tankers (UKMTO via The New Arab); NAVAREA IX 457/26 names TORKEL, fire, anchored 26-23.4N 056-18.6E. Census 7. VI-0110..0112, KB-534.
-- Riyadh: three Houthi ballistic missiles intercepted (Fri/Sat date conflict); Jazan debris. KB-535.
-- Kharg: 14+ tankers staged for a convoy to test the blockade; not sailed. KB-536 (new combo:blockade-break-test).
-- Iraq: forces entered Jurf al-Sakhar 11/20 under a deal; no clash. KB-537. No US strike 11/18–11/21 found (coverage). KB-538.
+## CHANGES SINCE LAST SESSION (23:15Z 11/21 → 04:45Z 11/25; fleet offline about 20:55 ET 11/23 to 22:20 ET 11/24)
+- Coalition CLAIMS it struck "operational capabilities" at Hodeidah early 11/25 local, plus Saada and Amran; damage and port status NOT STATED (KB-540). Same strike on 11/20.
+- Houthi threat (Saree): Jeddah and all Saudi Red Sea ports targeted if Hodeidah is attacked; triggered on its own terms; no launch, claim or hit on a Saudi port found to 04:45Z. Round 1 (11/20) ended with intercepted missiles only (KB-541).
+- Riyadh KAFD tower hit by a drone 11/24, 11 injured (state); no Houthi claim found (KB-542). Bahrain 11/21: two injured, site still unnamed (KB-548).
+- UKMTO 219-26: three hulls struck eastbound in Hormuz 11/22 20:25Z (KB-543). ADNOC-PPA bars non-calling tankers from its waters, 90 days from 11/12, CONFIRMED at the issuer (KB-544).
+- PortWatch newest 11/20: 4 transits, DEEPENING; bypass HOLDING; Kharg nonzero 11/19 (KB-551).
 
 ## WHAT I DID THIS SESSION
-- Graded card 002 ([report](reports/2026-11-21_bahrain-industrial-facility-grade-card002.md)): rung NOT FIRED (refineries and tanks OUT by §2a), FAL-08 not engaged, D→C and C→B NOT MET, marks HELD. Forward view (PROJECTION, unscored) in report §6.
-- Inbox drained (2 top-level + 5 WALTER): 002 and 008 acted, 006 noted, 011 and 010 info-only; COR-20261120-10 receipted NO-OP; TERRY TRY-FIRE-006 thesis grade sent (FALCON leg RIGHT, KB-539); PROME's stale-line note done by rotating the 11/18 blocks verbatim to `domain/sources/STATUS_archive_2026-11-21_1118-wakes-and-header.md` (grep-verified first).
-- STRIKES mark advanced to 11/20 (zero new facility rows; Bahrain on the partial day, energy not established). PortWatch transit DEEPENING (2/88 at 11/15), bypass HOLDING (11/13).
-- Charter checked: steps 14 and the pairings line already carry WQ-719/721 (changed 11/19); no edit needed.
+- Graded cards 006 and 017 ([report](reports/2026-11-25_red-sea-hodeidah-saudi-ports-grade.md)): marks HELD, rung NOT FIRED (ports OUT), continuation not step change. Registered FAL-13 at 25%.
+- Weekly gate read early: own TankerMap 04:40Z, leg 2 NOT MET, override NOT TRIGGERED (KB-545, `domain/tankermap/2026-11-25_bab_daily_bars.csv`).
+- Packets: BRENT (first facts, ce64354ef5), TERRY (security read for a tradeability check), PROME (delivery memo, 5547f7ec02). BRENT replied: Red Sea is about 40% of Saudi crude exports, no Yanbu print after 11/20 (KB-552).
+- Inbox drained: 13 WALTER cards and 2 packets (006, 017, 004, 022, 025, BRENT reply acted; 003, 008, 015, 016 noted; 023, 024, 018, 021 info-only). WQ-735 done: bypass and kharg scripts now send research-bot/1.0, both ran and parsed; baghdad left unswitched per the ruling.
+- STRIKES mark advanced to 11/24 (zero new facility rows). STATUS 11/19 section, old header and three bottom lines rotated verbatim to `domain/sources/STATUS_archive_2026-11-25_1119-header-bottomlines.md`.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Any day:** Bahrain, BNA or Bapco naming the 11/21 site; a unit outage or force majeure (refinery = BRENT product read, rung OUT; an Awali production asset = rung IN).
-2. **By 11/25:** refresh or retire the 48 held KB rows past Stale_By; give the 12 undated ACTIVE rows a Stale_By.
-3. **Wed 11/25:** weekly + GATE-FALCON-001 review (TankerMap read); combo themes incl. the new blockade-break-test; DAEDALUS items 6, 7, 8, 10–13.
-4. Watch: Kharg convoy sails or is stopped; TORKEL and the 11/20–21 hulls on IMO; a second US strike day (FAL-09); CENTCOM line on 11/21.
-5. **12/31 late ET:** dated searches FAL-08, 09, 10, 12; FAL-11 and FAL-12 IMO table read.
+1. **Wed 11/25 about 18:00 ET:** follow-up read: any Houthi launch or claim at Jeddah, Yanbu, Jizan, Rabigh or King Abdullah Port; Hodeidah damage and status; carrier, Mawani or Aramco notices; UKMTO or JMIC weekly. FAL-13 fires on a counting-source damage statement.
+2. **Any day:** Aramco force majeure on Yanbu liftings = read as FAL-08 route (a) (stated in advance, KB-546); Bahrain naming the 11/21 site.
+3. **By 12/02:** VESSELS rows for BAHRA 11/18, CAPTAIN LEON 11/20, ARINA 11/21 and the three 219-26 hulls; refresh or retire the 48 KB rows past Stale_By and date the 12 undated ACTIVE rows (carried from 11/21, not done this session).
+4. **Wed 12/02:** weekly scenario review and GATE-FALCON-001 (TankerMap read); combo themes; DAEDALUS items 6, 7, 8, 10–13.
+5. **Wed 12/09 late ET:** FAL-13 dated search (SPA, coalition spokesman, Aramco, Mawani, four wires).
+6. **12/31 late ET:** dated searches FAL-08, 09, 10, 12; FAL-11 and FAL-12 IMO table read.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Iran's Bahrain fire now damages a civilian site; hulls near Khasab most days; Saudi–Houthi exchange continues.
-- 🟠 Kharg convoy vs blockade (and the Gulf-facilities threat attached to it).
-- 🟡 Casualty ratchet not recomputed for 11/17 injuries. WARRISK all expired (WQ-298 standing rule). Yanbu loadings unreadable. TIMELINE stops at Day 244 (11/21 = Day 267).
+- 🔴 Saudi Red Sea ports under a triggered Houthi threat; Riyadh being hit; hulls in Hormuz most days.
+- 🟠 Kharg convoy vs blockade (staged, not sailed); ADNOC waiting ban narrows STS space.
+- 🟡 Casualty ratchet not recomputed for 11/17–11/24 injuries. WARRISK all expired (WQ-298). Yanbu loadings unreadable (BRENT: no print after 11/20). TIMELINE stops at Day 244 (11/25 = Day 271).
 
 ## PREDICTIONS / DECISIONS
-FAL-08 75%, FAL-09 40% (1 of 5), FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31; none due. No Will decision pending from FALCON.
+FAL-13 25% (12/09); FAL-08 75%, FAL-09 40% (1 of 5), FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision pending from FALCON.
 
 ## MAIL STATE
-- Inbox: clear. WALTER lane: clear. Outbox: none; packets direct (carve-out ①) to PROME, TERRY, BRENT.
+- Inbox: clear. WALTER lane: clear (to SIG-W-20261124-021). Outbox: none; packets direct (carve-out ①) to PROME, TERRY, BRENT.
 
 ## PENDING PUSH / GIT
-Local commits only; PROME pushes at its closeout (task letter). Session HOLDS for PROME's closeout ask.
+Local commits only; PROME pushes (task letter). Session holds for PROME's closeout ask.

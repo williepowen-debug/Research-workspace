@@ -1,0 +1,30 @@
+# FALCON STATUS archive, rotated verbatim 2026-11-25 (falcon-desk-agent-2026-11-24)
+
+Moved out of STATUS.md to stay under the read cap; nothing reworded.
+
+## Header line as it stood before 2026-11-25
+
+**Updated:** 2026-11-21 18:21 ET (commit time; first written as "about 18:30", typed ahead of the clock), C9 research commission (PROME prome-77, laptop; launched late after the laptop slept) on WALTER PRIORITY card SIG-W-20261121-002: an Iranian attack on Bahrain Sat 11/21 evening hit a **civilian industrial facility**, fire, no injuries; **attack and damage CONFIRMED by the state** (Interior Ministry); **facility, location and any energy or port asset NOT ESTABLISHED** (AFP residents: smoke over Sitra); IRGC radar and IRNA interceptor accounts CLAIM ONLY; **no mark moves** (refineries are OUT of the rung anyway); evidence cutoff about 23:15Z 11/21; report [11/21 card 002](reports/2026-11-21_bahrain-industrial-facility-grade-card002.md). Prior: 2026-11-19 10:30 ET, card SIG-W-20261119-003, Riyadh PIF Tower ([report](reports/2026-11-19_riyadh-pif-tower-grade-card003.md)). Older header chain rotated verbatim to [archive](domain/sources/STATUS_archive_2026-11-21_1118-wakes-and-header.md).
+
+## November 19: WALTER card SIG-W-20261119-003, the Riyadh PIF Tower strike
+
+Report: [11/19 card 003](reports/2026-11-19_riyadh-pif-tower-grade-card003.md). Window about 00:00Z to 15:30Z 11/19.
+
+| Object | Reading |
+|---|---|
+| PIF Tower, Riyadh 11/19 about 01:45Z | **Attack and damage CONFIRMED** (A2): Saudi civil defence via SPA (Reuters relay), "material damage to several floors of the tower and nearby buildings", no injuries; coalition (al-Malki on X): missile "dealt with", debris, material damage, interception not stated. **PIF identity PROBABLE** (Reuters, three unnamed sources; 7 to 8 floors). **Struck vs debris NOT ESTABLISHED.** No Houthi claim found (KB-522) |
+| Letters | Rung **NOT FIRED** (office tower OUT); gate not engaged, override NOT TRIGGERED; D→C, C→B NOT MET; FAL-08 not engaged; FAL-09 1 of 5; thesis-kill 0/7; convergence 43/50 (KB-529) |
+| Pattern since 11/8 | Extended, not changed: confirmed hits are symbols (Aramco office 11/8, PIF Tower 11/19) and route (Petroline 11/9); Abqaiq and pumping-station claims unconfirmed. New: the sovereign fund's head office, and the Saudi reply widened to Saada (on record) and Sanaa (claim) |
+| Folded items | Sanaa strikes CLAIM ONLY; Saada launcher destroyed (coalition) (KB-523). **CENTCOM ship-to-ship advisory 11/18 CONFIRMED as a document** (Reuters quoting it): receivers of Iranian-loaded cargo at sea may be boarded or seized; Iranian cargo only; thesis-kill row 5 further from met (KB-524). Mine claim = 11/14, already graded. Kharg title unverified. Iraq deploys to Jurf al-Nasr Friday (KB-527) |
+| For BRENT | Kpler via AP: Hormuz crude 8.5 mb/d through 11/16 (half of early November); all-route Mideast shipments 15 mb/d, about 64% of pre-war, from 97% in October; preliminary; BRENT's to verify (KB-525). JMIC: four attacks in 96 hours (KB-526) |
+| Rulings | WQ-720 A encoded (KB-530). WQ-701 A2 charter trim done: 51,484 → 47,607 B, history moved verbatim to `archive/CHARTER_HISTORY_2026-11-19.md`. WQ-719/721 brief rule written into charter steps 14 and the pairings line |
+| Mail | Card 003 `acted`; 010 `info-only` (HY OAS, LIQUID's); 014 `noted` (STS warning item, KB-524). PROME packets WQ-720, WQ-701 to processed. Packets PROME, BRENT, TERRY, WALTER |
+| Closeout 10:34 ET | On PROME's ask. **Step 11:** EXIT v4 §5 compared to 11/19: weekly next due 11/25 (not yet); rewrite trigger NOT fired (FAL-08 open; no fifth axis; no permanent-corridor framework; class-(iii) losses 2; 12/31 not reached); §1 0/7. **Step 12:** strike ledger swept to 11/17, 2 days behind, under the 7-day bar; the tower is outside its facilities scope; no sweep due. **Step 12b:** no live settle clock, no-op. **Step 14b:** 'not encoded' remains only in the dated 11/18 section (snapshot). Brief pinned f522ed5c8b; no push (PROME pushes) |
+
+## Bottom lines rotated 2026-11-25
+
+**November 18, second wake:** B 1 / C 14 / D 85 hold after grading WALTER's weekly sweep. Iran's claim that a supertanker with 2 million barrels sank on 11/15 is unsupported: the only very large tanker on the IMO's 11/15 list, AL DHANNAH, is listed as damaged, and no sinking or wreck warning exists. The three ship-loss counts differ because they count different things, not because one is wrong. Trump's 11/12 'we don't need a deal' is a statement, not a rejection of any text, and talks through Qatar and Oman went on. Hormuz traffic kept falling (16 transits in the week to 11/15). Watch Iraq's Friday deadline and a second US strike day.
+
+**November 18:** B 1 / C 14 / D 85 hold at the weekly review. Iran fired drones at a US air base in Kuwait and at Bahrain early Wednesday in reply to Tuesday's US strike on Qeshm; both states say they intercepted them and no damage is established, and a ship of the UAE's state oil company was hit in Hormuz Tuesday night with 11 injured and one missing. None of it touches Gulf oil production or Bab el-Mandeb, so no letter moves; the Bab el-Mandeb tripwire read 104% of the prior week, far from its 65% bar. Watch for a second US strike day, a damaging hit on a Gulf energy site, and Iraq's Friday deadline for Kataib Hezbollah.
+
+**November 17:** B 1 / C 14 / D 85 hold. Two tankers were hit in the Strait of Hormuz on Monday 11/16, an oil tanker (probably ON PHOENIX) by an unidentified projectile and the LPG carrier TARA GAS near Khasab, both with engine-room fires and crews safe; nobody neutral has named the attacker, and Iran's claim of four mine strikes is unverified. Iran fired drones at Bahrain a third time on 11/17, all intercepted with no damage, and a third US carrier arrived 11/15, though it may relieve one already there. None of this touches production or Bab el-Mandeb, so nothing on my letters moves; watch for a US strike in reply, a hit on a Gulf production site, or a neutral authority naming a mine.

@@ -368,3 +368,17 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-21T18:20:02-05:00	SIG-W-20261120-006	noted	WALTER	Small items: item 1 (Iran export restart, blockade) to combo:blockade-break-test KB-536; item 2 (Trump CBW remark) to combo:us-strike-preparations KB-538; other rows other desks'.
 2026-11-21T18:20:02-05:00	SIG-W-20261119-011	info-only	WALTER	Cyber claims, CYPHER's lane; DHS Iran-linked hacker line noted, no in-theater incident; cyber/data vector stays 2.
 2026-11-21T18:20:02-05:00	SIG-W-20261120-010	info-only	WALTER	Correction of card 011 (MUFG leak real): FALCON never relayed the claim; COR-20261120-10 receipted NO-OP.
+2026-11-24T23:48:43-05:00	SIG-W-20261123-003	noted	WALTER	Correction cards; Bahrain 'first' FLIPS (FALCON record already carried Bapco FM in March); no FALCON change.
+2026-11-24T23:48:43-05:00	SIG-W-20261123-004	acted	WALTER	Bahrain 11/21 two injured (supersedes no injuries); Rabigh claim CLAIM ONLY, OUT of rung; Chabahar tanker incident US strike UNCONFIRMED (KB-548).
+2026-11-24T23:48:43-05:00	SIG-W-20261123-008	noted	WALTER	FALCON items 9-12 folded: Chabahar unconfirmed, KHAT SHEKAN position only, IRGC mine claim, Olym STS (KB-548, KB-549); other items other desks.
+2026-11-24T23:48:43-05:00	SIG-W-20261123-015	noted	WALTER	No vessel named for 11/22 incident; CENTCOM no comment; no convoy date (KB-548).
+2026-11-24T23:48:43-05:00	SIG-W-20261123-016	noted	WALTER	Israeli solo-strike debate REPORTED, one source family, no decision (KB-550, combo:us-strike-preparations).
+2026-11-24T23:48:43-05:00	SIG-W-20261123-022	acted	WALTER	Full sweep folded: hulls BAHRA, CAPTAIN LEON, ARINA; IMO 141 / 25 as at 23 Nov, Sunk 3; carriers 3 to 2; round-1 Saudi-port threat (KB-549, KB-541).
+2026-11-24T23:48:43-05:00	SIG-W-20261123-023	info-only	WALTER	WALTER self-correction (Araghchi one sentence; DNI quote); no FALCON change.
+2026-11-24T23:48:43-05:00	SIG-W-20261123-024	info-only	WALTER	Tanker costs BRENT's; war-risk 7-9% Gulf (Lloyd's List 11/9) predates 11/18+ hulls; WARRISK stays expired under WQ-298.
+2026-11-24T23:48:43-05:00	SIG-W-20261123-025	acted	WALTER	Used in the 11/25 grade: Jeddah named in HOCC emails, no behaviour change found to 11/23 (KB-541).
+2026-11-24T23:48:43-05:00	SIG-W-20261124-006	acted	WALTER	IMMEDIATE graded: Hodeidah coalition CLAIM, Saudi-port threat triggered not carried out, KAFD 11 injured, marks held, FAL-13 registered (KB-540..547); report reports/2026-11-25_red-sea-hodeidah-saudi-ports-grade.md.
+2026-11-24T23:48:43-05:00	SIG-W-20261124-017	acted	WALTER	UKMTO 219-26 dating used (KB-543); ADNOC notice read at the issuer, CONFIRMED (KB-544).
+2026-11-24T23:48:43-05:00	SIG-W-20261124-018	info-only	WALTER	Small items, other desks; item 21 FinCEN Iranian shadow banking noted for HAWK.
+2026-11-24T23:49:09-05:00	SIG-W-20261124-021	info-only	WALTER	Correction of 018 item 8 (CIA/ODNI unclassified OSINT system breach reported); CYPHER lane; cyber/data vector stays 2, no in-theater incident. Arrived mid-session, read before logging.
+2026-11-24T23:49:09-05:00	2026-11-24_from-BRENT_red-sea-share-and-yanbu-prints	acted	BRENT	Reply to my 23:41 ET asks: Red Sea about 40% of Saudi crude exports (2.5-3.1 of 5.4-7.0 mb/d, BRENT figures); only about 450 kb/d south via Bab; no Yanbu print after 11/20 at a primary, so no change NOT ESTABLISHED (KB-552).

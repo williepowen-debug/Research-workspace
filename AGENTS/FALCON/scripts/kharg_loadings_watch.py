@@ -58,7 +58,7 @@ def fetch_latest(n=45):
     })
     req = urllib.request.Request(
         f"{BASE}?{params}",
-        headers={"User-Agent": "Mozilla/5.0 (research; FALCON agent)"})
+        headers={"User-Agent": "research-bot/1.0"})
     with urllib.request.urlopen(req, timeout=30) as resp:
         d = json.loads(resp.read())
     if "error" in d:

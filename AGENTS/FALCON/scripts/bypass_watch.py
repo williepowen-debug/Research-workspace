@@ -79,7 +79,7 @@ def fetch_port(pid, n=90):
     })
     req = urllib.request.Request(
         f"{BASE}?{params}",
-        headers={"User-Agent": "Mozilla/5.0 (research; FALCON agent)"})
+        headers={"User-Agent": "research-bot/1.0"})
     # 2026-10-29: server-side 400 flake on ~half of identical requests; retry.
     for attempt in range(6):
         with urllib.request.urlopen(req, timeout=30) as resp:
