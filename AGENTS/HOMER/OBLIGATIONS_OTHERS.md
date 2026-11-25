@@ -16,7 +16,7 @@
 | **B9** | ✅ **CLOSED 2026-10-01 — DAEDALUS confirmed the five elements (THESIS.md D7, packet `inbox/processed/2026-10-01_from-DAEDALUS_D1-five-elements-confirmed.md`).** Original ask: **NEW 2026-09-29 — DAEDALUS:** confirm or correct my reading of "five elements per leg" (`thesis/THESIS.md` defect D1; packet `d4f8fe3cd`). No deadline |
 | **B10** | ✅ **CLOSED 2026-09-29 — PROME registered `GATE-HOMER-THESIS-KILL`** (`PROME/GATES.tsv` row `GATE-HOMER-THESIS-KILL`, review_by 11/20) — recorded, nothing owed |
 | **B11** | **TERRY:** answer on the corrected FHA packet (`AGENTS/TERRY/inbox/2026-11-25_from-HOMER_FHA-foreclosures-tradeability.md`; corrected 11/25 13:43). No answer in my inbox at 2026-11-25 14:30 ET. No deadline |
-| **B12** | **Fitch primary** (16 Nov 2026 nonbank review): "downgrades 4" vs "nine affirmed". REGINALD told 11/25. **LIKELY no rating cut (INFERRED; PIPELINE third look 11/25), formally UNRESOLVED.** **2 of 9 settled, neither cut: Finance of America (Fitch text via Will 11/25), PennyMac (Will's read via PROME 11/25: BB and unsecured affirmed, outlook negative); seven unread.** Fitch's site refuses automated access: Will's browser (Fitch, 16 Nov 2026, nonbank mortgage peer review) or an issuer 8-K settles it |
+| **B12** | **Fitch 16 Nov 2026 nonbank review: conflict RESOLVED 2026-11-25** (Fitch's own summary, read by Will, relayed by PROME): nine affirmed, four outlooks revised, no issuer rating cut. **Open:** the FOURTH name and direction; Freedom and UWM at Fitch. Will is reading; PROME relays |
 | **B13** | **Will, optional:** MBA FHA serious-delinquency history (site refuses automation; browser only). Wanted for THESIS D3/D15; nothing waits on it |
 
 ---

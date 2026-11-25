@@ -8,8 +8,8 @@
 |---|---|
 | Boot checks | ICE Oct, ATTOM Sept/Oct/Q3 (incl. the `q3-and-september-2026` form) 404; Apartment List still October; FMHPI still September. WALTER 029, 030, 033 logged |
 | Cleanup | THESIS, LESSONS, NEXUS brief under 70% of budget (verbatim moves to `archive/`); COVERAGE, MEMORY infra, OBLIGATIONS_OTHERS, MAINTENANCE refreshed. Detail: MAINTENANCE.md 2026-11-25 |
-| PROME's outside-review facts (peer message) | Checked at source and recorded: Cove ~28bp and Blackjack ~69bp on Trepp's August $75.48B base (DERIVED); both October Trepp highs are about one loan each; my "no Trepp MF balance held" was wrong (LESSONS §39, n=2). Record against my own odds: 1 of 4, Brier 0.358. Fitch: American Banker is a sister title, still UNRESOLVED. THESIS D18 |
-| Three open items (Will 14:50 ET) | Blackjack: NOT in Trepp October DQ (issuer ranking). Fitch: likely no cut, UNRESOLVED, site refuses automation. ICE: not retrieved |
+| PROME's outside-review facts (peer message) | Checked at source and recorded: Cove ~28bp and Blackjack ~69bp on Trepp's August $75.48B base (DERIVED); both October Trepp highs are about one loan each; my "no Trepp MF balance held" was wrong (LESSONS §39, n=2). Record against my own odds: 1 of 4, Brier 0.358. Fitch: American Banker is a sister title (conflict since resolved, below). THESIS D18 |
+| Three open items (Will 14:50 ET) | Blackjack: NOT in Trepp October DQ (issuer ranking). Fitch: RESOLVED 15:16 ET (Will's browser via PROME): nine affirmed, four outlooks revised; fourth name, Freedom and UWM still to come. ICE: not retrieved |
 | Docket | Thesis-grade row: A1 early-date clause corrected (0 of 2) |
 
 No band, count, score, kill test or registered odds changed.
@@ -22,6 +22,6 @@ No band, count, score, kill test or registered odds changed.
 
 ## Carry by name until closed
 
-- TERRY's answer on the corrected FHA packet · Fitch primary · Fannie Sept as first published · brokers' commissions line at BEA · MBA FHA serious-DQ history (Will's browser only, optional). Tracked: OBLIGATIONS_OTHERS B11–B13.
+- TERRY's answer on the corrected FHA packet · Fitch fourth name, Freedom, UWM (Will reading, PROME relays) · Fannie Sept as first published · brokers' commissions line at BEA · MBA FHA serious-DQ history (Will's browser only, optional). Tracked: OBLIGATIONS_OTHERS B11–B13.
 - A1: re-ask PROME if ICE skips its Dec, Jan AND Feb editions (docket ICE Monitor row).
 - No new kill tests, bands or rules (Will 11/24 23:33 ET). Three reporting questions from the outside review are with Will through PROME, not mine.
