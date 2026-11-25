@@ -32,5 +32,5 @@
 - None from BRENT. D-104 is Will's and PROME's (CHECKED-AT-ARTIFACT-AND-STILL-OPEN at 11/20; not re-checked tonight).
 
 ## MAIL STATE
-- Inbox: FALCON 11/21 (deferred), PROME WQ-735 (deferred), WALTER card 021 (logged info-only, not moved: untracked at read).
+- Inbox: FALCON 11/21 (deferred), PROME WQ-735 (deferred). WALTER card 021 logged info-only and moved after WALTER committed it (205b7fc07b).
 - Outbox: PROME packet, TERRY packet and FALCON reply all delivered and committed this session.
