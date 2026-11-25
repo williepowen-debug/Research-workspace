@@ -6,3 +6,8 @@ receipt_date	correction_id	action	note
 2026-10-29T17:28Z	COR-20261029-07	NO-OP	scope=No WATT figure or score cites Schwab-System, the Unit42 PHP link or Delta Electric; CYPHER states the WATT OT bar is unchanged. Receipted at boot leg 7a
 2026-11-05T23:38Z	COR-20261105-42	APPLIED	artifact=AGENTS/WATT/workbook/KB.tsv#KB-WATT-201; validation_ref=NONE; 
 2026-11-11T14:39Z	COR-20261110-12	NO-OP	scope=card 20261110-010 Ohio line was never integrated into WATT records before the correction, KB-WATT-209 carries the corrected wording; 
+2026-11-25T16:43Z	COR-20261117-02	NO-OP	scope=Credit Acceptance settlement is OTTO and CARL domain, WATT holds no row or figure on it; 
+2026-11-25T16:43Z	COR-20261117-20	APPLIED	artifact=AGENTS/WATT/workbook/KB.tsv#KB-WATT-224; validation_ref=NONE; 
+2026-11-25T16:43Z	COR-20261120-10	NO-OP	scope=MUFG KARTE leak is CYPHER domain, WATT holds no row or figure on it; 
+2026-11-25T16:43Z	COR-20261123-13	NO-OP	scope=GMI Cloud loan and FT guarantees relay dates, WATT KB carries neither line; 
+2026-11-25T16:43Z	COR-20261124-21	NO-OP	scope=CIA and ODNI OSINT breach is CYPHER domain, no power or grid asset named; 

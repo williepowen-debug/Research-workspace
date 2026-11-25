@@ -154,3 +154,17 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-19T10:55:07-05:00	SIG-W-20261118-010	acted	BOARD	HY OAS rule met: no WATT item.
 2026-11-19T10:55:07-05:00	SIG-W-20261119-005	acted	BOARD	Texas data-center permit reversal (WATT-17 relevance, title) and Shapiro PJM governance logged (KB-224). No re-mark.
 2026-11-19T10:55:14-05:00	SIG-W-20261119-011	acted	BOARD	DHS: Iran-linked hackers targeting US energy (title via aggregator, bulletin unread); no grid-operator event; CYPHER owns. Not carried as a WATT fact.
+2026-11-25T11:45:52-05:00	SIG-W-20261125-017	acted	INBOX_WALTER	ACTION. MOFCOM 2026 No. 59: 2024 No. 46 clause 2 suspended to 2027-01-27. WATT holds no row on the 11/27 clock (KB210); NEXUS_BRIEF ZHAO line updated to the new date; B1 T1 (2027-01-10/11) separate, unchanged (KB-227).
+2026-11-25T11:45:52-05:00	SIG-W-20261120-001	acted	INBOX_WALTER	VIX/chip selloff Nov 20: input to the AI power demand read; power names priced as AI beta, no demand event (KB-225).
+2026-11-25T11:45:52-05:00	SIG-W-20261120-004	acted	INBOX_WALTER	Fermi Form 144s and Nvidia items: VULCAN's financing theme; no WATT row (KB-227).
+2026-11-25T11:45:52-05:00	SIG-W-20261120-006	acted	INBOX_WALTER	Item 13 PJM 12-month connection plan (same fast-energization filing, unread) and TCEQ permits resume (WATT-17, titles) logged (KB-227).
+2026-11-25T11:45:52-05:00	SIG-W-20261120-009	acted	INBOX_WALTER	Item 8 Alibaba 20 GW cut claim UNVERIFIED, not carried as fact (KB-227).
+2026-11-25T11:45:52-05:00	SIG-W-20261120-010	acted	INBOX_WALTER	Correction (MUFG, CYPHER): no WATT item; COR-20261120-10 receipted NO-OP.
+2026-11-25T11:45:52-05:00	SIG-W-20261121-003	acted	INBOX_WALTER	Item 1 overseas data-centre ban/tax threat, no order; demand-positive onshore if enacted (KB-227).
+2026-11-25T11:45:52-05:00	SIG-W-20261123-008	acted	INBOX_WALTER	Item 2 ING data-centre loan sale short of bids (financing, not load); item 8 Alabama SNG blast, deliveries not impacted (KB-227).
+2026-11-25T11:45:52-05:00	SIG-W-20261123-013	acted	INBOX_WALTER	Correction (GMI, FT guarantees dates): WATT carries neither line; COR-20261123-13 receipted NO-OP.
+2026-11-25T11:45:52-05:00	SIG-W-20261123-030	acted	INBOX_WALTER	Humboldt tide forecast: AEOLUS's; no power asset named; no WATT item.
+2026-11-25T11:45:52-05:00	SIG-W-20261124-004	acted	INBOX_WALTER	California tides observed: AEOLUS's; no WATT item.
+2026-11-25T11:45:52-05:00	SIG-W-20261124-018	acted	INBOX_WALTER	Items 4, 14: GPU-loan LTV title, ERCOT Batch Zero Dec 10 6.5 GW, monitor's BRA-delay ask (= KB214, no postponement found) (KB-227).
+2026-11-25T11:45:52-05:00	SIG-W-20261124-021	acted	INBOX_WALTER	Correction (CIA/ODNI): no WATT item; COR-20261124-21 receipted NO-OP.
+2026-11-25T11:45:52-05:00	SIG-W-20261124-023	acted	INBOX_WALTER	Fed G.17 revision: ISHM's; weighed in the AI power demand read via ISHM's packet (KB-225).
