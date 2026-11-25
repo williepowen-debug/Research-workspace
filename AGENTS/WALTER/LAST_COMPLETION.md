@@ -2,6 +2,8 @@
 
 Updated 2026-11-25T04:26:00Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-7f on the laptop, Tuesday 11/24. Will's word in this session at 23:22 ET: "WALTER lets close out". **Tier 2 FULL closeout.** No light breadcrumbs owed. The prior record (11/23 full closeout plus the 11/24 light note) is preserved verbatim at research/2026-11-24_closeout/LC-ROTATED.md and stays binding where open; through it, research/2026-11-23_closeout-evening/ and research/2026-11-23_boot/ LC-ROTATED.md.
 
+**Addendum 2026-11-25T04:48:17Z, late boot (Will 23:34 ET), Tier 1 LIGHT, full deferred (1 breadcrumb):** cards 20261124-020 to -023; nothing above or below withdrawn except as marked here. LIQUID's gate packet routed (022); HOMER's inflow withdrawal noted, no card carried it. CORAL has read the declaration (item 2's OpenFEMA check is CORAL's, REPORTED). HENRY, LIQUID, AEOLUS, CORAL graded their late rows 11/24. Owed: CYPHER (020, 021), ISHM (023), NEXUS, VULCAN, VIOLET, HENRY (022) consumption. Boot PARTIAL: not read: whole trailing 48 h route log, all other owner STATUS heads, PortWatch or a FALCON Iran read since 23:15 ET; boundaries 1, 2, 4, 6, 8 not cleared; a first dated search found no new Hodeidah or Jeddah port hit (not proof). FinCEN alert text unread at FinCEN.
+
 ## RESUME — do these first
 
 1. **Filter review (Will 17:18 ET 11/23, "Go 1 tomorrow after the morning releases"): OWED, NOT STARTED.** FILTER_V3_REVIEW: sample recent cards against what desks used; a report, changes nothing without Will. Offered to Will 11/24 night: now or after Wednesday's releases; he chose to close out.
@@ -13,9 +15,9 @@ Updated 2026-11-25T04:26:00Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 7. **DEWEY pilot** REQ-DEWEY-20261123-001, due 12/01; PROME wakes DEWEY.
 8. **Iran anchor:** full sweep 11/23, next about 11/30; 006 and 017 are partial touches. **Tanker-cost watch:** next 11/30 (Gibson via curl).
 9. **Collector:** last lane batch marked data/2026-11-24/news.json (23:56Z); read newer batches and rewritten versions.
-10. **Carries from the prior list:** Nvidia 10-Q, SKEW exit 1 of 4, YUR-010 by 12/03, SpaceX lease 8-K, Seeking Alpha GPU item UNREVIEWED, 34 GPU titles TITLE ONLY (26 plus 8 tonight, the SpaceX-chip title among them), CATO's unconsumed 10/19 ACTION, read-cap rotations WALTER does not own, whole-file CHECKLIST read, full step 7i enumeration, READS rows done by PROME (d3f668a5b0). Recurring combo:none named to PROME: USD/JPY near 160, House majority; tonight added Treasury-dealer exits (Commerzbank) and CME margin changes.
+10. **Carries from the prior list:** Nvidia 10-Q, SKEW exit 1 of 4 (run RESET 11/23 at 140.37; 139.16 [11/24], Cboe), YUR-010 by 12/03, SpaceX lease 8-K, Seeking Alpha GPU item UNREVIEWED, 34 GPU titles TITLE ONLY (26 plus 8 tonight, the SpaceX-chip title among them), CATO's unconsumed 10/19 ACTION, read-cap rotations WALTER does not own, whole-file CHECKLIST read, READS rows done by PROME (d3f668a5b0). Recurring combo:none named to PROME: USD/JPY near 160, House majority; tonight added Treasury-dealer exits (Commerzbank) and CME margin changes.
 
-Calendar coverage cutoff: 2026-11-23T22:08:00Z (unchanged: step 7i did not run in full tonight; the 11/24 releases named on 010, 011 and 015 were read, others UNKNOWN).
+Calendar coverage cutoff: 2026-11-25T04:45:00Z (step 7i ran at the late boot: DOCKET, HENRY calendar, ISHM, HOMER, ZHAO, SAM, CARL, LABOR, BOND ledgers; research/2026-11-24_reboot/CALENDAR-RECONCILIATION.tsv; UNKNOWN there: ERS Food Price Outlook, FHFA Q3 HPI, AAA gasoline V5, JGB 40Y auction).
 
 ## STATUS
 
@@ -58,7 +60,7 @@ Tier 2 FULL closeout, walter-7f, laptop. Publication is not consumption. Retirem
 <!-- CLOSEOUT_RECEIPT_JSON
 {
  "schema": 1,
- "as_of": "2026-11-25T04:26:00Z",
+ "as_of": "2026-11-25T04:48:17Z",
  "next_review": "2026-11-25",
  "publication": [
   {
@@ -90,12 +92,17 @@ Tier 2 FULL closeout, walter-7f, laptop. Publication is not consumption. Retirem
    "commit": "c6fe22a128",
    "state": "published",
    "note": "delivery reconcile"
+  },
+  {
+   "commit": "69c9ae7cb1",
+   "state": "published",
+   "note": "late boot cards 020 to 023"
   }
  ],
  "delivery": {
   "signal_date": "20261124",
-  "total": 129,
-  "delivered": 129,
+  "total": 167,
+  "delivered": 167,
   "note": "all rows delivered after origin proof. Delivered is not consumed. CARL, RED, PROME INFO by BOARD diff; TERRY BOARD-only"
  },
  "owner_review": {
@@ -124,7 +131,7 @@ Tier 2 FULL closeout, walter-7f, laptop. Publication is not consumption. Retirem
   ]
  },
  "procedure": {
-  "tier": "full",
+  "tier": "light",
   "boot": "no new boot; resumption after outage",
   "session": "walter-7f laptop since 2026-11-20T18:32Z; Rule 9 helpers for page reads; primaries read directly: FRED, SEC (Car-Mart 8-K), TreasuryDirect, FDIC QBP workbooks, NWS and CO-OPS, OpenFEMA; desk wakes by PROME"
  }
