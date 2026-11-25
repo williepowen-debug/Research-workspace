@@ -2384,3 +2384,4 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-25T18:21:29Z	SIG-W-20261125-027	Will 13:20 ET 11/25 pasted the second WSJ article and four charts (read whole); closes the 30% gap on 20261125-025 and -026	WSJ nine-year backlog	ROUTINE	BROCK	SHADE,RED,PROME	0.85
 2026-11-25T18:41:38Z	SIG-W-20261125-028	Will 13:40 ET 11/25 'did you get all the other data ... to HOMER'; CATO 6b340d38c5	FHA new 90+ delinquencies to HOMER	ROUTINE	HOMER	REGINALD,CARL,RED,PROME	0.9
 2026-11-25T19:04:20Z	SIG-W-20261125-029	WALTER walter-7f checkpoint 14:03 ET, NOAA CO-OPS; AEOLUS packet 12:02 ET	Observed record tides	IMMEDIATE	AEOLUS	CORAL,HENRY,CARL,BROCK,HOMER,REGINALD,RED,PROME	0.9
+2026-11-25T19:25:49Z	SIG-W-20261125-030	WALTER walter-7f reboot 14:21 ET, NOAA CO-OPS sweep of every CA, OR and WA gauge against NOAA top-ten lists	Second record-tide card: Santa Barbara, Monterey, Charleston OR	IMMEDIATE	AEOLUS	CORAL,HENRY,CARL,BROCK,HOMER,REGINALD,RED,PROME	0.85
