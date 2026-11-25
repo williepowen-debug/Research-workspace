@@ -171,3 +171,4 @@ SIG-W-20261001-013	2026-10-02	noted-off-domain	electricity price = ENERGY/BLS; H
 2026-11-25T14:38Z	SIG-W-20261125-012	INFO-LOGGED	INBOX_WALTER	Flagstar flood-act penalty $112,000; small; no geography; combo none
 2026-11-25T16:36Z	SIG-W-20261125-019	INFO-LOGGED	INBOX_WALTER	DR-4956-FL card built on HOMER's own read; matches PIPELINE row; no new fact
 2026-11-25T16:36Z	SIG-W-20261125-020	INFO-LOGGED	INBOX_WALTER	New-home sales match PRICING row (701K; Sept 614K); CARL V5 and others are owners' records; no HOMER row moved
+2026-11-25T18:12Z	SIG-W-20261125-021	INFO-LOGGED	INBOX_WALTER	DeLand crest watch; Volusia not declared; CORAL and AEOLUS own the flood read; no HOMER row moved

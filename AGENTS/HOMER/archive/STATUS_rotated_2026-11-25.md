@@ -13,3 +13,11 @@
 | **HOM-02** | MBA NDS **FHA SA total DQ ≥12.00%** (65%) | ❌ **RESOLVED MISSED 11/20** — early kill: Q2 −9bps, Q3 −5bps (11.74%). Migration into FC, which the metric excludes (LESSONS §55) |
 | **HOM-03** | NAR Oct EHS first print <3.90M (60%) | ✅ **RESOLVED HIT 11/12** — 3.75M |
 | **HOM-04** | NAHB Nov price-cut share >45% (30%) | ✅ **RESOLVED HIT 11/20** — 46% (NAHB 11/17) |
+
+# Rotated from STATUS.md 2026-11-25, second session (verbatim)
+
+✅ **11/25 — partial update on Will's "ok go" (09:31 ET):** new-home sales, BEA second estimate, OpenFEMA, MBA wk 11/20 (weak copy). **Not out at 11:36 ET:** ICE First Look Oct · PMMS (due 12:00 ET, NOT READ: session closed first) · Apartment List Nov · FMHPI Oct · ATTOM Q3 · Redfin weekly to 11/22 not found. **11/24** full refresh of all seven ledgers · **11/20** formal thesis grade, 0 of 5 killed → `reports/2026-11-20_thesis-formal-grade.md`. Older → `archive/STATUS_rotated_2026-11-25.md` and earlier.
+
+## BOTTOM LINE
+
+**2026-11-25 — thesis paragraph adopted on Will's "ok go" (09:31 ET); partial data update (Claude Code, Opus 5.5).** ① **Thesis §1 now says stress is building AND converting, with transmission labelled by channel** (THESIS §12); kill tests, scores, odds and 🔴 unchanged; A1 UNGRADED, its two questions sent to PROME. ② **New-home sales: the 701K headline is not a recovery:** Sept was cut 676→614K, neither change is significant, and the average price fell 12.1% YoY (significant). ③ **Residential investment −3.4%, confirmed.** ④ **Florida declaration CONFIRMED (DR-4956-FL), so FHA foreclosures there pause to ~2027-02-22: slower foreclosure data in those counties is relief policy, not cure.** ⑤ **Bank-held apartment loans:** United Fidelity is ~89% of the FDIC Q3 rise (REGINALD); ex that bank ~1.41→1.43%. ⑥ No band changed colour; no thesis leg fired; no HENRY trigger. **Will decision required: none.** **Not done: PMMS (posts 12:00 ET, after close).**

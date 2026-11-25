@@ -195,7 +195,7 @@ Entries 2026-10-15 to 2026-11-16 (0 of 5 legs at every entry): `archive/THESIS_h
 | **C2 · CMBS** | Trepp MF DQ < 6.00%, 3 prints | **8.09%** (October, Trepp issuer PDF, read 11/05); November data ~12/01–05 | **0 / 3** | **NOT FIRED** |
 | **C2 · GSE** | max(Freddie, Fannie serious) < 0.50%, 3 prints | Freddie **0.58%** (Sept MVS) · Fannie **0.62%** (9/30, Q3 release) ⇒ max 0.62%; Fannie MF provision **$446M vs $259M** QoQ (rose, V3). October monthlies not out | **0 / 3** | **NOT FIRED** |
 | **A1** | MBA NDS FHA SA total DQ falls QoQ in 2 consecutive quarters AND ICE all-loans serious-DQ cure YoY better than −15% on the latest issue | **First conjunct MET:** Q2 11.79% (−9bps) and **Q3 11.74% (−5bps)** (MBA NDS released 11/20, quoted verbatim on CalculatedRisk; SECONDARY mirror, mba.org 403). **Second conjunct: NO READING** — ICE did not print the all-loans cure YoY in the October or November editions; last printed −28% (July), worse than −15% | first conjunct **2 of 2**; second **UNGRADED** | **NOT KILLED — UNGRADED** (§4: not NOT-FIRED; D12) |
-| **A2** | PMMS ≤ 6.50%, 4 weeks | **7.28% [11/19]** (+17bp; Freddie CSV, issuer) | **0 / 4** | **NOT FIRED** — 78bp above the line |
+| **A2** | PMMS ≤ 6.50%, 4 weeks | **7.21% [11/25]** (−7bp; Freddie CSV, issuer) | **0 / 4** | **NOT FIRED** — 71bp above the line |
 | **A3** | HMI ≥ 40, 3 prints | **HMI 25** November (NAHB release 11/17, issuer), lowest since April 2012 | **0 / 3** | **NOT FIRED** — 15 points below |
 
 **LITERAL RESULT: 0 of 5 legs KILLED** (4 NOT FIRED, 1 UNGRADED). §4 row "anything else" ⇒ **🔴 holds.** No colour candidate exists, so nothing goes to Will; the same-day CARL packet is owed only on FALSIFIED or PARTIAL (V5 held: neither was reachable). CARL receives this grade through `NEXUS_BRIEF.md`.
@@ -238,7 +238,7 @@ Evidence: `reports/2026-11-20_thesis-formal-grade.md`; ledger rows dated 2026-11
 
 | # | Date | Defect | Owed fix |
 |---|---|---|---|
-| D15 | 2026-11-24 | The new measure is **not seasonally adjusted**. Serious delinquency tends to fall early in the year (general knowledge; FHA history NOT read), so Q4-to-Q1 and Q1-to-Q2 falls could satisfy it without relief. The cure conjunct still guards A1 | Read an FHA serious-DQ quarterly history before the 2027-02-20 grade if reachable; otherwise say so at the grade |
+| D15 | 2026-11-24 | The new measure is **not seasonally adjusted**. Serious delinquency tends to fall early in the year (general knowledge; FHA history NOT read), so Q4-to-Q1 and Q1-to-Q2 falls could satisfy it without relief. The cure conjunct still guards A1 | **READ 2026-11-25 on HUD's basis (not MBA's):** raw rate fell in both Q1 and Q2 in 9 of 11 years. Still 0 of 2 at 2027-02-20 whatever Q4 does. No rewording. Report: `reports/2026-11-25_deeper-read-FHA-newhome-DR4956.md` §2 |
 | D16 | 2026-11-24 | The new measure still falls when a foreclosure **completes**, because the loan leaves the stock. Better than the old wording on entry into foreclosure, not immune on exit | Read C1 (ICE foreclosure sales) beside any A1 fall |
 | D17 | 2026-11-24 | §9 (2026-10-28) "the inflow end is cooling while conversion continues", and §10's "new FC starts −3% YoY (Sept)" as a reason on C1, rest on a one-month base effect: ICE FC starts Q3 ~115.6K vs 103K (+12% YoY). FC sales growth slowed (+41% Dec-25 to +14.5% Sep). Entries left as written; no count, verdict or score moved | Use this row when citing them |
 

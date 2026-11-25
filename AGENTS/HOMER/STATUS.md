@@ -9,7 +9,7 @@
 
 ## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
 
-✅ **11/25 — partial update on Will's "ok go" (09:31 ET):** new-home sales, BEA second estimate, OpenFEMA, MBA wk 11/20 (weak copy). **Not out at 11:36 ET:** ICE First Look Oct · PMMS (due 12:00 ET, NOT READ: session closed first) · Apartment List Nov · FMHPI Oct · ATTOM Q3 · Redfin weekly to 11/22 not found. **11/24** full refresh of all seven ledgers · **11/20** formal thesis grade, 0 of 5 killed → `reports/2026-11-20_thesis-formal-grade.md`. Older → `archive/STATUS_rotated_2026-11-25.md` and earlier.
+✅ **11/25 (second session, boot 12:50 ET):** PMMS, HUD FHA Sept performance, new-home mix, residential-investment components, DR-4956 relief perimeter, MBA second copy. **Not out at 12:50 ET:** ICE First Look Oct · ATTOM Q3; not found: Apartment List Nov. Not checked: FMHPI Oct, Redfin wk 11/22. **11/24** full refresh · **11/20** formal grade, 0 of 5 killed → `reports/2026-11-20_thesis-formal-grade.md`. Older → `archive/STATUS_rotated_2026-11-25.md`.
 ⚠️ **YEAR TRAP (LESSONS §46 records n=3; a 4th instance was counted on STATUS 10/15 without a cold-register entry):** verify the page's publication YEAR, not just the month.
 
 ---
@@ -30,10 +30,11 @@
 | **★ ICE active FC inventory** | **303K SEPT, +37% YoY** (highest since early 2019); **FC starts 40,400 (Monitor revised from 40.0K), −3% YoY — first negative YoY** (Aug +29%); FC sales 8,200, **+14% YoY**, highest since Feb-2020 | 🔴 conversion; ⚠️ the Sept starts fall is a one-month base effect |
 | **★★ FHA total DQ (SA)** | **11.74% Q3** (−5bps QoQ, +96bps YoY; MBA NDS 11/20, CalculatedRisk mirror — mba.org 403). Same release: **FHA foreclosure rate 1.89%, highest since Q1-2017**; FHA serious DQ flat QoQ (+197bps YoY); all-loans FC inventory 0.71% (+4bps) | 🔴 **ORANGE, 26bps below RED (>12%)**. Second QoQ fall = migration into FC, not cure. **HOM-02 MISSED** |
 | **★★ 90+/FC pipeline (ICE basis)** | **882K SEPT** (579K 90+ + 303K FC; HOMER sum) — Aug 872K · Jul 859K | 🔴🔴 **32K past ORANGE (>850K); RED (>1M) 118K away** |
+| **★★ HUD FHA foreclosures (issuer)** | **Q3 starts 31,396, +36% YoY (+3% QoQ)**; Sept 9,974 (first print); in foreclosure 54,973, +51%; claims 2,114, +57%. Serious DQ 6.51% raw (+198bp YoY), **6.56% SA, −24bp QoQ** | 🔴 conversion; SA fall is part migration, part exit. Not MBA; never splice |
 | **FHA score model (ML2026-11,10/8)** | VantageScore4.0/FICO10T alongside Classic; case numbers from **1/1/27**. Existing500/580 credit floors unchanged | Origination model/vintage break, not current MBA delinquency change or automatic credit easing |
 | **NY Fed Q3 (credit panel)** | **Mortgage 90+ 1.13% of balance** (Q1 1.09, Q3-25 0.83); flow into 90+ 1.60% (1.28 a year ago); **new FC notations 61,900, +13% YoY** (people, not starts). ⚠️ Q2 reporting gap — compare YoY, not QoQ | 🟠 observation, no band |
 | **HUD ML 2026-08** | **Compliance date 9/21 PASSED; no extension found** (absence of notice, not HUD confirmation) | 🔴 accelerant in force — first visible in FHA FC starts, ~late Oct |
-| **★★ Non-bank servicer watch** | **CLASS A FIRED AGAIN 2026-11-16: Fitch outlook NEGATIVE on Pennymac (BB), Planet (B), Freedom (BB-)**; all nine ratings affirmed (HousingWire 11/17, SECONDARY; primary owed). UWM Fitch leverage 5.3x vs 2.7x end-2025; issuer basis 1.77x debt/equity: never splice. First firing 8/07 (UWM BB- → B+). LDI: 60+ DQ 2.0% vs 1.5% | 🔴 **FIRED (A) twice**; no covenant breach, draw or transfer found |
+| **★★ Non-bank servicer watch** | **CLASS A FIRED AGAIN 2026-11-16: Fitch outlook NEGATIVE on Pennymac (BB), Planet (B), Freedom (BB-)**; all nine affirmed per HousingWire 11/17, but **NMN headline 11/18 says "downgrades 4": UNRESOLVED** (primary owed). UWM Fitch leverage 5.3x vs 2.7x end-2025; issuer basis 1.77x debt/equity: never splice. First firing 8/07 (UWM BB- → B+). LDI: 60+ DQ 2.0% vs 1.5% | 🔴 **FIRED (A) twice**; no covenant breach, draw or transfer found |
 
 ★★ **STOCK STILL BUILDING, YoY GROWTH BELOW EARLIER READINGS (corrected 11/24; 'past its peak' narrowed 11/25, CATO: slower growth does not establish a peak).** 'Inflow cooling' was a base effect: FC starts Q3 ~115.6K vs 103K = **+12% YoY**, about flat on Q2; Sept's −3% compared with a ~41K Sept-2025. 'Conversion accelerating' is also wrong: FC sales YoY slowed from +41% (Dec-25) to +12–15% (Jul–Sep); the LEVEL is the highest since Feb-2020. FHA cures −46% YoY still limit relief.
 
@@ -53,15 +54,15 @@
 ### Mortgage Rates / Demand *(HOMER-owned surface, ★ ruling)*
 | Metric | Value (as of) | Band |
 |---|---|---|
-| **🔴🔴 ★★★ 30-Yr PMMS** | **7.28% [wk 11/19] (+17bp)** · 7.11 [11/12] · 7.18 [11/05] · 7.24 [10/29]; 15Y 6.66%. Issuer CSV | 🔴🔴 **RED, 28bps through; no uncrossed rung.** Four-week fall ended. A2 kill 0/4 (**78bp away**) |
+| **🔴🔴 ★★★ 30-Yr PMMS** | **7.21% [wk 11/25] (−7bp)** · 7.28 [11/19] · 7.11 [11/12]; 15Y 6.54%. Issuer CSV | 🔴🔴 **RED, 21bps through; no uncrossed rung.** A2 kill 0/4 (**71bp away**) |
 | **CONTEXT — curve** *(BROCK/HENRY own direction)* | 9/16 hiked to 3.75–4.00%. **10Y 4.91% · 2Y 4.63% [11/24]** (11/19: 5.04 / 4.76; peak 5.31 [10/05]); Treasury CSV | context — eased since 11/19 |
-| **★★ 10Y-FRM spread** | **~221bps [11/19]** = 7.28% − 5.07% (Wed 11/18 10Y, survey-matched). Prior ~213 [11/12] · ~228 [11/05] | 🟠 +8bp. Not MBS OAS |
-| **BASIS TRAP / daily context** | PMMS 7.28 [11/19] · MBA 7.38 [wk 11/20, weak copy] · **MND 7.32% [11/24]** (7.51 [11/16]) | MND is not an A2 print and has misled on the next weekly survey (11/12) |
-| **★★ MBA weekly apps** | **wk 11/20: purchase +10% SA WoW (+5% NSA), −16% YoY**; refi −51% YoY; ARM share 11.5%; MBA 30Y 7.38% (ONE WEAK SECONDARY COPY) · wk 11/13: purchase −3% WoW, −18% YoY | 🟠 one holiday-adjacent week; YoY still negative |
+| **★★ 10Y-FRM spread** | **~230bps [11/25]** = 7.21% − 4.91% (Tue 11/24 10Y, survey-matched). Prior ~221 [11/19] · ~213 [11/12] | 🟠 +9bp: 10Y fell 16bp, mortgages 7bp. Not MBS OAS |
+| **BASIS TRAP / daily context** | PMMS 7.21 [11/25] · MBA 7.38 [wk 11/20] · **MND 7.32% [11/24]** (7.51 [11/16]) | MND is not an A2 print and has misled on the next weekly survey (11/12) |
+| **★★ MBA weekly apps** | **wk 11/20: purchase +10% SA WoW (+5% NSA), −16% YoY**; refi −51% YoY; ARM share 11.5%; MBA 30Y 7.38% (two secondary copies agree) · wk 11/13: purchase −3% WoW, −18% YoY | 🟠 one holiday-adjacent week; YoY still negative |
 | **🔴🔴 Existing home sales (SAAR)** | **3.75M OCTOBER (−5.5% MoM, −8.8% YoY)**, NAR issuer 11/12; Sept REVISED 3.99 → ~3.97M (DERIVED); 5.1 months (4.7); median $416,700 (+0.4%); West −9.7% MoM; first-time 29%. NAR: 'lowest since Aug 2010' (first-print superlative, NAR's) | 🔴🔴 **RED (<4.0M) crossed by 250K — robust now**; no uncrossed rung. **HOM-03 HIT** |
 | **Pending home sales (NAR)** | **63.0 OCT (−4.7% MoM, −16.7% YoY)**, all regions down; South −18.7%, West −20.3% YoY (rel 11/18; index level secondary) · Sept 66.0 | 🔴🔴 **second straight record low, NAR's own words** — points to weaker Nov/Dec closings |
 | **★★ Starts / permits / completions** | **OCT: starts 1,309K** (+9.9% ±16.8, ns; SF 864K) · **permits 1,295K (−7.4%), SF permits −8.7%** · completions 1,272K. **Sept REVISED starts 1,221→1,191K** (Census via WALTER 11/18) | 🟠 starts up off a lower base, forward leg (permits) down |
-| **★★ New-home sales** | **701K OCT** (+14.2% ±22.6, ns; +7.5% YoY, ns); **SEPT REVISED 676→614K**, so the gain is off a cut base; 3-mo avg 665K; all of it South. Supply 8.0 mo (Sept 9.3); median $391,300 (ns); **AVERAGE $459,900, −12.1% YoY (significant)** (CB26-188) | 🟠 down-market mix + incentives |
+| **★★ New-home sales** | **701K OCT** (+14.2% ±22.6, ns; +7.5% YoY, ns); **SEPT REVISED 676→614K**, so the gain is off a cut base; 3-mo avg 665K; all of it South. Supply 8.0 mo (Sept 9.3); median $391,300 (ns); **AVERAGE $459,900, −12.1% YoY (significant)** (CB26-188): **about half or more is regional/high-end mix on a tiny Northeast sample**; Q3 same-house index −2.4% | 🟠 demand soft; buydowns outside every price |
 
 ### Builder Distress
 | Metric | Value (as of) | Band |
@@ -69,7 +70,7 @@
 | **🔴🔴 NAHB HMI** | **25 NOV (−4), lowest since Apr 2012**; sales 28, expectations 30, **traffic 16**. **Price cutters 46%** (Oct 43), avg explicit cut 6%; **incentives 68%** (65). NAHB release 11/17, ISSUER | 🔴 **cutters RED (>45%) crossed by 1pp; no uncrossed rung. HOM-04 HIT.** A3 HMI ≥40 ×3 **0/3** (15 pts away). Explicit cuts understate total concessions |
 | **Builder earnings — `BUILDER.tsv`** | **Q3:** PHM GM 24.8% · NVR 18.3% · MTH 17.4% · GRBK 28.0%, incentives 11% of orders · CCS cut FY guide · **LGIH 20.2% (+40bp QoQ), closings guide narrowed** · **DFH 14.9% (17.5), incentives −56bp** · LEN FQ3 15.8%. **DHI FQ4 GM 19.5%, FQ1 GUIDE 18–18.5%**; orders −7%, cancels 23%; buydown ~1.5 ppts spoken, backlog rate gone | 🟠 compression broadening, not uniform; CRL-23 legs: **DHI ≤17.5% 50bp below guide low end** (resolver 1/19/27), PHM ≤22.0% 280bp |
 | **★★ Residential construction employment** | **OCT −16,400 (largest fall since March 2021); trailing 12 months −40,200** (Sept −26,100, Aug −19,800); 20th month of YoY decline (NAHB 11/06; FRED agrees) | 🔴 **the August easing reversed** |
-| Q3 GDP residential fixed investment | **−3.4% SAAR, second estimate** (advance −3.3; Q2 +2.8); GDP +4.3% (FRED carrying BEA, 11/25) | 🟠 confirmed negative |
+| Q3 GDP residential fixed investment | **−3.4% SAAR, second estimate** (Q2 +2.8): single-family −4.8%, other structures −3.7%, multifamily ~0; GDP +4.3% (FRED carrying BEA, 11/25) | 🟠 confirmed negative |
 
 ### Pricing / Inventory
 | Metric | Value (as of) | Band |
@@ -91,7 +92,7 @@
 | **TX** | November CRE auction postings, major markets | **~$560M / 33 properties / 9 repeats** (TRD 11/03, Roddy's, SECONDARY) — half October's >$1B / 46. No MF subtotal; **named MF loans $218.5M** (HOMER sum, a floor) | 🟠 postings, not sales or losses; repeats = loans rolled, not sold |
 | **NV** *(lane built 10/28)* | Las Vegas fallthrough · LVR · NY Fed | **Fallthrough 20.26% OCT (#2 of 50; highest since Aug 2023; Sept restated 18.75)** · NY Fed NV mortgage 90+ 1.98% Q3 (doubled YoY) · LVR Oct: median $475K +0.1%, sales −11.9% (SECONDARY) · FHFA Q3 −3.5%, Case-Shiller −0.8% | 🟠 observation, no band — worsening |
 | **CA** *(lane built 10/28)* | C.A.R. · ICE · fire-zone | **Oct sales 246,830, −12.7% YoY (lowest in nearly 3 years); median $886,760, flat YoY**; SoCal sales −18.9% · ICE non-current 2.4% (Sept) · LA fire-ZIP serious DQ 'more than double' pre-fire (no number) | 🟡 volume broke, price held. Insurance = AEOLUS |
-| FL | **★ FLOOD SWEEP 11/23 — basin counties (sub-statewide)** | **Zillow ZHVI Oct YoY: Brevard −0.06% · Seminole −0.07% · Volusia +0.14% · Lake −1.71% · Orange −0.62% (USA +1.08%)** — pre-crest baseline. FMHPI Sept: Palm Bay-Melbourne −0.20% · Orlando +1.32% (3-mo ann. +0.05%) · Deltona +0.30%. **Punta Gorda −18.66% from 2022 peak: 1.3pp from the −20% HENRY trigger.** **DR-4956-FL CONFIRMED at OpenFEMA (declared 11/24):** household aid in Brevard, Indian River, Martin, Okeechobee, Palm Beach, St. Lucie; Hardee public assistance only; not Seminole/Volusia. FHA 90-day moratorium to ~2027-02-22 (DERIVED; no HUD notice read); Fannie forbearance needs household aid | 🟠 watch county ZHVI Nov/Dec; HENRY trigger NOT crossed |
+| FL | **★ FLOOD SWEEP 11/23 — basin counties (sub-statewide)** | **Zillow ZHVI Oct YoY: Brevard −0.06% · Seminole −0.07% · Volusia +0.14% · Lake −1.71% · Orange −0.62% (USA +1.08%)** — pre-crest baseline. FMHPI Sept: Palm Bay-Melbourne −0.20% · Orlando +1.32% (3-mo ann. +0.05%) · Deltona +0.30%. **Punta Gorda −18.66% from 2022 peak: 1.3pp from the −20% HENRY trigger.** **DR-4956-FL CONFIRMED at OpenFEMA (declared 11/24):** household aid in Brevard, Indian River, Martin, Okeechobee, Palm Beach, St. Lucie; Hardee public assistance only; not Seminole/Volusia. **FHA moratorium covers all seven, Hardee included (HUD ML 2025-12), to 2027-02-21/22, plus automatic 90 days to ~05-22**; 13.4% of FL housing units; Fannie forbearance needs household aid | 🟠 watch county ZHVI Nov/Dec; HENRY trigger NOT crossed |
 | FL | Annual band | evaluable once a year (ATTOM year-end) — "no reading" is NORMAL | ✅ |
 
 ### ⚠️ STANDING CAVEATS
@@ -122,7 +123,7 @@ Closed-item receipts → `archive/STATUS_rotated_2026-11-24.md`.
 
 | Date | Event | Watch |
 |---|---|---|
-| **DUE NOW (11/25 12:00 ET)** | **PMMS — write RATES, THRESHOLDS HB-03, THESIS §9 A2** · Redfin weekly to 11/22 · MBA wk 11/20 second copy | A2 ≤6.50 |
+| ~12/01–12/03 | Redfin weekly · MBA wk 11/27 12/02 · PMMS 12/03 · PROME A1 answer due 12/04 | A2 ≤6.50 |
 | **~11/25–30** | ICE First Look Oct | C1 first Oct print; HUD ML 2026-08 FHA FC-start lift |
 | **2027-02-20** | **Next THESIS formal grade** | early only if A1 reaches its count. **A1's two questions are with PROME** (cure half unreadable; label if unread) |
 | **~11/25–30** | Apartment List Nov · FMHPI Oct | **HOM-06** breadth ≤35 |
@@ -151,4 +152,4 @@ Closed-item receipts → `archive/STATUS_rotated_2026-11-24.md`.
 
 ## BOTTOM LINE
 
-**2026-11-25 — thesis paragraph adopted on Will's "ok go" (09:31 ET); partial data update (Claude Code, Opus 5.5).** ① **Thesis §1 now says stress is building AND converting, with transmission labelled by channel** (THESIS §12); kill tests, scores, odds and 🔴 unchanged; A1 UNGRADED, its two questions sent to PROME. ② **New-home sales: the 701K headline is not a recovery:** Sept was cut 676→614K, neither change is significant, and the average price fell 12.1% YoY (significant). ③ **Residential investment −3.4%, confirmed.** ④ **Florida declaration CONFIRMED (DR-4956-FL), so FHA foreclosures there pause to ~2027-02-22: slower foreclosure data in those counties is relief policy, not cure.** ⑤ **Bank-held apartment loans:** United Fidelity is ~89% of the FDIC Q3 rise (REGINALD); ex that bank ~1.41→1.43%. ⑥ No band changed colour; no thesis leg fired; no HENRY trigger. **Will decision required: none.** **Not done: PMMS (posts 12:00 ET, after close).**
+**2026-11-25 — deeper read on Will's word (11:49 ET); report `reports/2026-11-25_deeper-read-FHA-newhome-DR4956.md`.** ① **FHA foreclosures are running well ahead of the national total:** Q3 starts +36% YoY, in foreclosure +51%, completed +57% (HUD issuer; never on this ledger before). Counterevidence: SA serious delinquency fell 24bp in Q3. ② **A1's seasonality gap is real:** on HUD's basis its first half would be met by the calendar in 9 of 11 years by Q2; it cannot be met at 2027-02-20. No rewording. ③ **New-home average −12.1%: about half or more is mix;** the Q3 fall was mostly not. ④ **Florida FHA pause covers seven counties and can last to ~May.** ⑤ PMMS 7.21%, spread ~230bp. ⑥ No band changed colour; no leg fired; no HENRY trigger; registered odds unchanged. **Will decision required: none.**
