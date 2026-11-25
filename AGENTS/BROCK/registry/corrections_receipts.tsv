@@ -47,3 +47,4 @@ receipt_date	correction_id	action	note
 2026-11-25T03:41Z	COR-20261123-12	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-530; validation_ref=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-523; 
 2026-11-25T03:41Z	COR-20261123-13	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-530; validation_ref=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-505; 
 2026-11-25T03:41Z	COR-20261123-03	NO-OP	scope=KB-BRK-522 cites SIG-W-20261121-001 only for S&P -3.70 pct, NVDA -14.01 pct and VIX 35.89, all HOLD. BROCK recorded no lateness reason, Bahrain or V14 claim; 
+2026-11-25T16:45Z	COR-20261124-21	NO-OP	scope=card 018 item 8 (CIA and ODNI breach) is CYPHER's, BROCK logged no fact from it and the 11/25 KB row for card 018 excludes it; 
