@@ -890,3 +890,12 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-25T09:57:05-05:00	2026-11-24_from-REGINALD_REG-T-04-FIRED-ISSUANCE-FREEZE	acted	INBOX	Answered 11/24 in PROME/inbox/processed/2026-11-24_from-LIQUID_D-L1252-issuance-freeze-read.md (NOT A FREEZE, SELECTIVE); filed 11/25
 2026-11-25T11:48:55-05:00	SIG-W-20261125-016	info-only	INBOX_WALTER	Brent sign correction (BRENT owns); no LIQUID record carries the 008/010 Brent figure; HY-Energy OAS stays CANNOT-FIRE
 2026-11-25T11:48:55-05:00	SIG-W-20261125-018	acted	INBOX_WALTER	HY 372 [11/24] confirmed first-published with ladder (BB 225, B 405, CCC 1405, IG 98); 069 L1/L4 NOT FIRED 11/24, tier rule BROADENS, +25 net not met, re-kill 0 of 2; CORRECTS its CoreWeave line: the 11/25 07:56 ET 5Y 95,000 print (1,363) was cancelled by its reporter (EROR, slice 306); answer in PROME/inbox/2026-11-25_from-LIQUID_softbank-cds-and-hy-1124-grade.md
+2026-11-25T15:36:33-05:00	SIG-W-20261125-022	acted	INBOX_WALTER	Own correction (cancelled CoreWeave 5Y). STATUS already right; KB-LIQ-153 still carried 1,363 as live, fixed; COR-20261125-22 APPLIED
+2026-11-25T15:36:33-05:00	SIG-W-20261125-024	noted	INBOX_WALTER	CoreWeave bonds and CCC yield logged KB-LIQ-153, relay not re-read; no gate moved
+2026-11-25T15:36:33-05:00	SIG-W-20261125-025	noted	INBOX_WALTER	SocGen $300M Oracle debt logged KB-LIQ-153; rest other owners
+2026-11-25T15:36:33-05:00	SIG-W-20261125-026	info-only	INBOX_WALTER	WSJ debt wall, dated October 27; BROCK owns; not evidence on current market
+2026-11-25T15:36:33-05:00	SIG-W-20261125-031	noted	INBOX_WALTER	$4.5B CoreWeave loan logged KB-LIQ-153 as corrected by 035 and 036; read of the sale sits in D:L1257
+2026-11-25T15:36:33-05:00	SIG-W-20261125-032	info-only	INBOX_WALTER	Ofgem cap; HANS
+2026-11-25T15:36:33-05:00	SIG-W-20261125-033	noted	INBOX_WALTER	Owner answers logged as counterevidence KB-LIQ-153; BOND owns auctions
+2026-11-25T15:36:33-05:00	SIG-W-20261125-035	deferred	INBOX_WALTER	Logged KB-LIQ-153. ASK for later 11/25 CoreWeave 5Y trades deferred to the 20:15 ET full-file read (D:L1290); no DTCC read run at boot
+2026-11-25T15:36:33-05:00	SIG-W-20261125-036	noted	INBOX_WALTER	Bond identity applied in KB-LIQ-153; some older KB figures name year only (CRWV2030/2031/2032)
