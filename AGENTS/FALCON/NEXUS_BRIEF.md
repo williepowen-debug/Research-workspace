@@ -1,14 +1,15 @@
 # FALCON — NEXUS Brief
 
-**Status:** 🔴 B 1 / C 14 / D 85 HELD (11/21 C9 commission, WALTER card SIG-W-20261121-002: Iranian attack hit an UNNAMED civilian industrial facility in Bahrain Sat evening, fire, no injuries, CONFIRMED by the Interior Ministry; facility and energy NOT ESTABLISHED, smoke over Sitra per AFP residents; production rung NOT FIRED, refineries OUT by letter). Convergence 43/50. Census 7. FAL-09 1 of 5. Thesis-kill 0/7.
+**Status:** 🔴 B 1 / C 14 / D 85 HELD (11/25 Red Sea wake, WALTER cards SIG-W-20261124-006/-017: coalition CLAIMS it struck 'operational capabilities' at Hodeidah early 11/25 local, damage and port status NOT STATED; Houthi threat to Jeddah and all Saudi Red Sea ports triggered on its own terms and NOT carried out to about 04:45Z; Riyadh KAFD tower hit 11/24, 11 injured, state-confirmed; production rung NOT FIRED, ports and refineries are OUT; FAL-13 registered 25%).
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); v3.1 November 6 moves the live test to FAL-08, a STATED loss; no new pivot.
-**As of:** 2026-11-21 18:22 ET (stamp corrected; first typed "about 18:35", ahead of the clock) (C9 commission, card SIG-W-20261121-002, PROME prome-77, laptop) | STATUS commit: `01574f7c7a` | Evidence cutoff about 23:15Z 11/21; Al Jazeera, AFP via Arab News, Iran International live blog, NAVAREA IX 457/26 and IMO table (own fetch), Reuters/The New Arab UKMTO relays, The National. Report `reports/2026-11-21_bahrain-industrial-facility-grade-card002.md`.
+**As of:** 2026-11-24 23:51 ET (Red Sea wake, falcon-desk-agent-2026-11-24, PROME prome-77 on Will's word) | STATUS commit: `f34a93f1e5` | Evidence cutoff about 04:45Z 11/25; Arab News, KUNA, Reuters via Straits Times, ADNOC-PPA notice at the issuer, own TankerMap
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
+| BRENT / HAWK / HENRY / RED / TERRY / SAM / WALTER / PROME | **Saudi Red Sea ports under a triggered Houthi threat, not carried out.** Coalition (al-Maliki) CLAIMS 'operational capabilities' at Hodeidah struck early 11/25 local plus Saada and Amran (second Hodeidah strike in five days); Saree had said Jeddah and all Saudi Red Sea ports would be targeted 'if' Hodeidah were hit. No launch, claim or hit on a Saudi port found to about 04:45Z (coverage); round 1 (11/20) ended with intercepted missiles. KAFD tower, Riyadh, 11/24: 11 injured (state). UKMTO 219-26: three hulls 11/22. ADNOC-PPA bars non-calling tankers from its waters, 90 days from 11/12 (issuer, not an export cut). Gate leg 2 NOT MET (Bab 7-day 85 vs 78, 109.0%). FAL-13: confirmed damage inside a Saudi Red Sea port or coastal energy site by 12/09, 25%. Barrels and price BRENT's (BRENT: Red Sea about 40% of Saudi crude exports) | P1 | KB-540..547, KB-552; report 2026-11-25 |
 | BRENT / HAWK / HENRY / RED / TERRY / SAM / WALTER / PROME | **Iranian attack hit a civilian industrial facility in Bahrain Sat 11/21 evening (sirens 18:19Z): fire, material damage, no injuries, CONFIRMED by the Interior Ministry; BDF interceptions caused minor damage.** Facility, location and operator NOT named; AFP residents saw smoke over Sitra (Bapco refinery among other plants), no source links it to the refinery; no Bapco statement or force majeure found. IRGC: two US Patriot radars at al-Riffa and Awali (CLAIM ONLY); IRNA: a US interceptor fell on Sitra (CLAIM ONLY). Same window: Khasab tanker hits 11/20 and 11/21, TORKEL named by NAVAREA IX 457/26 (census 7); three Houthi missiles at Riyadh intercepted; 14+ tankers staged at Kharg for a blockade convoy, not sailed; Iraqi forces entered Jurf al-Sakhar 11/20 under a deal | P0 | Rung NOT FIRED (refineries and tanks OUT; an Awali production asset named by BNA would count); FAL-08 not engaged; marks HELD. If Bapco confirms a refinery outage it is a PRODUCT event (crude-bearish, cracks up), BRENT's. KB-531..538 |
 | BRENT / HAWK / HENRY / RED / TERRY / WALTER / PROME | **Houthi attack damaged a Riyadh financial-district tower early Thu 11/19 (about 01:45Z): CONFIRMED** by Saudi civil defence via SPA (Reuters relay): several floors and nearby buildings, no injuries. PIF headquarters per Reuters' three unnamed sources (PROBABLE); coalition says debris, interception not stated (struck vs debris NOT ESTABLISHED); no Houthi claim found. Same day: coalition destroyed a Saada launch platform and four missiles toward the south; Sanaa strikes CLAIM ONLY. CENTCOM advisory 11/18 (Reuters quoting it): receivers of Iranian-loaded cargo by ship-to-ship transfer may be boarded or seized, Iranian cargo only. Kpler via AP: Hormuz crude 8.5 mb/d through 11/16, all-route Mideast shipments ~64% of pre-war vs 97% in October, preliminary (BRENT's to verify) | P0 | Office tower: production rung NOT FIRED; FAL-08 not engaged; D→C, C→B NOT MET; gate override NOT TRIGGERED; marks hold; convergence 43/50. Pattern since 11/8 extended, not changed: confirmed hits are symbols and the east-west route, never a field or plant. No investment implication on its own (TERRY packet). KB-522..529 |
 | PROME / BRENT / HAWK / RED | **Thesis-kill #2 wording encoded 11/19 (WQ-720 A):** IMF PortWatch `chokepoint6` `n_total`, 45 or more transits on each of 10 consecutive calendar days, a missing print breaks the run, no substitute tracker. Level unchanged (half of 88). Today 2/88, 0 tankers (11/15) | P2 | Thesis-kill 0/7. KB-530 |
@@ -33,6 +34,7 @@
 **WAITING FOR**
 
 | From | Input | Expected by | Consequence |
+| Houthis / SPA / Aramco / Mawani | A launch, claim or hit at Jeddah, Yanbu, Jizan, Rabigh or King Abdullah Port; Hodeidah status; carrier notices | Follow-up read Wed 11/25 about 18:00 ET | Counting-source damage fires FAL-13; rung stays OUT; an Aramco force majeure on Yanbu liftings is read as FAL-08 route (a) |
 | Bahrain / BNA / Bapco | Name of the 11/21 site; any unit outage or force majeure | Any day | Refinery or tanks: BRENT product read, rung OUT. Awali field production asset: D 85 to 92 fires |
 | Kharg / CENTCOM | Convoy sails; a stop, boarding or fire on it | On event | Blockade becomes a tanker battle in the strait; thesis-kill row 5 further from met |
 |---|---|---|---|
@@ -48,6 +50,7 @@
 
 ## VIEW
 
+- 11/25: the Saudi Red Sea export side, the half of Saudi oil that avoids Hormuz, is now an announced Houthi target and not only an exposed one; the record is still a threat without demonstrated reach to Jeddah or Yanbu (round 1 ended in interceptions; Bab tanker traffic held). Continuation with the ceiling raised: the step change would be a confirmed port hit. Riyadh is where the drones get through.
 - 11/21: Iran's fire at Bahrain has damaged a civilian industrial site for the first time this month; whether it is energy is unknown. My letters count production, not refineries, so a Bapco hit would be BRENT's product story, not a rung. The Hormuz path to watch is the Kharg convoy against the blockade. PROJECTION to 12/5 (unscored): site named energy by 11/28 about 50%; another damaging host-state hit about 60%; rung fires about 15%; convoy sails about 35%.
 - 11/19: the Saudi–Houthi exchange is widening (Riyadh landmarks, Saada, Sanaa) but the Houthis' confirmed hits remain symbols and the oil route, not production; the supply question has moved to routes, where Kpler's November figure (BRENT's) is the number to watch.
 - 11/17: the pressure is on hulls near Musandam and on US sites in Bahrain, both below what my letters measure: no Gulf-ally crude production is stated lost and nothing in the rung's class has been hit. The regime question is a US reply (FAL-09) or a production hit; neither is in evidence.
@@ -57,7 +60,7 @@
 
 ## CALIBRATION
 
-FAL-07 CONFIRMED at 65%, on a limited strike, not the campaign my posture evidence described. FAL-06 CONFIRMED at 70%, route (c) never graded. 3C / 3F / 1P / 0V / 5 OPEN. Convergence 43/50, saturated composite.
+FAL-07 CONFIRMED at 65%, on a limited strike, not the campaign my posture evidence described. FAL-06 CONFIRMED at 70%, route (c) never graded. 3C / 3F / 1P / 0V / 6 OPEN (FAL-13 registered 11/25 at 25%, resolves 12/09). Convergence 43/50, saturated composite.
 
 ## NEXT DECISION POINT
 
