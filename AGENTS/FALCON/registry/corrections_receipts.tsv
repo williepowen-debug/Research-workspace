@@ -27,3 +27,8 @@ receipt_date	correction_id	action	note
 2026-11-18T15:22Z	COR-20261117-28	NO-OP	scope=WALTER correction 028 restates FALCON own 11/17 grade KB-506 to 508 commit ae60b58c7a and no FALCON surface carries the corrected card-022 wording; 
 2026-11-18T15:25Z	COR-20261118-06	NO-OP	scope=WALTER correction 006 restates FALCON own 11/18 grade KB-509 to 511 commit da20e402b4 and no FALCON surface carries card 001 army-only wording; 
 2026-11-21T23:20Z	COR-20261120-10	NO-OP	scope=FALCON never carried or relayed the MUFG claim. Cyber incidents are CYPHER's lane and no FALCON surface cites the MUFG line of card 20261119-011; 
+2026-11-25T04:51Z	COR-20261123-04	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-548; validation_ref=NONE; 
+2026-11-25T04:51Z	COR-20261123-23	NO-OP	scope=FALCON never carried the Araghchi 'conflict' or the DNI quote claim; 
+2026-11-25T04:51Z	COR-20261123-25	APPLIED	artifact=AGENTS/FALCON/reports/2026-11-25_red-sea-hodeidah-saudi-ports-grade.md#2; validation_ref=NONE; 
+2026-11-25T04:51Z	COR-20261123-03	NO-OP	scope=FALCON record already carried the March Bapco force majeure and called 11/21 the first damaged civilian site this month, the first wording was WALTER dispatch text never relayed by FALCON; 
+2026-11-25T04:51Z	COR-20261124-21	NO-OP	scope=cyber item in the CYPHER lane, FALCON carried nothing from card 018 item 8; 
