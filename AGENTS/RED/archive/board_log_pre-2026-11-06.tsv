@@ -40,3 +40,20 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T16:50	SAM-softbank-leverage-correction-20261106	acted	INBOX_GENERAL	Correction verified at SAM funding stack; CHG-057 report, tree, CATALYSTS, CHALLENGES fixed; ML-325; MODERATE unchanged, no weight
 2026-11-06T17:19	SIG-W-20261106-013	noted	BOARD	LIQUID L4 and tier BROADENS; funding flat; KB-RED-109 member
 2026-11-06T17:19	SIG-W-20261106-014	noted	BOARD	Cable One chain; non-compliance is not delisting; KB-RED-110 member
+2026-11-06T17:19	SIG-W-20261106-015	info-only	BOARD	Capcom, no RED surface; receipted NO-OP
+2026-11-06T17:19	SIG-W-20261106-017	noted	BOARD	Consensus 65K, beat about 100K; hike odds near 78; KB-RED-111 member
+2026-11-06T17:19	SIG-W-20261106-018	noted	BOARD	Read with card 020 correction; count with Hormuz root
+2026-11-06T17:19	SIG-W-20261106-019	acted	BOARD	HHDC 11/10 verified at NY Fed advisory; CATALYSTS and CHG-045, CHG-049 re-dated; ML-326
+2026-11-06T17:19	SIG-W-20261106-020	noted	BOARD	Incident 2200Z 11/05, one fatality; KB-RED-112 member
+2026-11-06T17:19	SIG-W-20261106-021	info-only	BOARD	Tricolor Ares answer; no loss shown; no RED row moves
+2026-11-06T17:19	SIG-W-20261106-022	noted	BOARD	Distillate and SPR lows; KB-RED-112 member
+2026-11-06T17:19	SIG-W-20261106-023	info-only	BOARD	Read with card 027; FALCON NOT ESTABLISHED; no RED row
+2026-11-06T17:19	SIG-W-20261106-024	noted	BOARD	Samlyn planned pivot, not forced; KB-RED-113 counterevidence
+2026-11-06T17:19	SIG-W-20261106-025	info-only	BOARD	Hoaxes, no market channel; HANS lane
+2026-11-06T17:19	SIG-W-20261106-027	info-only	BOARD	FALCON NOT ESTABLISHED; receipted NO-OP
+2026-11-06T17:19	SIG-W-20261106-028	noted	BOARD	Cover 23.8 days; KB-RED-112 member
+2026-11-06T17:19	SIG-W-20261106-032	noted	BOARD	MFIC non-accruals 7.9 at cost; KB-RED-110 member
+2026-11-06T17:19	SIG-W-20261106-033	info-only	BOARD	Read with card 035; 1.05 superseded
+2026-11-06T17:19	SIG-W-20261106-035	noted	BOARD	Put-call 0.89 at Cboe; KB-RED-113 member
+2026-11-06T17:19	SIG-W-20261106-036	info-only	BOARD	Superseded by 041; already fixed S60-d
+2026-11-06T17:19	SIG-W-20261106-037	info-only	BOARD	Read with 042; Oracle CDS and IREN scope; KB-RED-109

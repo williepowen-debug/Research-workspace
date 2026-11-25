@@ -116,7 +116,8 @@ def cboe_skew():
     rows = []
     try:
         import urllib.request
-        req = urllib.request.Request(CBOE_SKEW_URL, headers={"User-Agent": "Mozilla/5.0"})
+        # WQ-735 (Will 2026-11-23, PROME packet 849a416ff2): honest client name; cdn.cboe.com passed 11/23.
+        req = urllib.request.Request(CBOE_SKEW_URL, headers={"User-Agent": "research-bot/1.0"})
         txt = urllib.request.urlopen(req, timeout=30).read().decode("utf-8-sig")
         for r in csv.reader(io.StringIO(txt)):
             if r and r[0][:1].isdigit():

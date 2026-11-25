@@ -1,19 +1,19 @@
 {
   "boot_step_range": "RED:0-9e",
-  "declared_on": "2026-11-19",
+  "declared_on": "2026-11-25",
   "desk": "RED",
   "hashes": {
     "AGENTS/RED/CLAUDE.md": "4a6ed58ed56de8c688c55ecad45fca26315e9199a4d0006089589c77e9853bb3",
     "AGENTS/RED/scripts/base_rate_review.py": "c8d2f42f66c238830a5b7509816dae4074eac344904616e549e7adec5c5f027c",
     "AGENTS/RED/scripts/basis_check.py": "c22af3735180995842d0a4d11f79c7b2bbd345ebe8be0cf4105bb0d6a66ce7ad",
-    "AGENTS/RED/scripts/boot.py": "91654fe01b7b01ee11486bbe8746bee34f89d72d52412c4ee5443c4b3f6ae1b0",
+    "AGENTS/RED/scripts/boot.py": "a39385d65d2b697468e936e8210dc297444a8ffd618a6ea662c3c24ec74e2ba5",
     "AGENTS/RED/scripts/closeout_check.py": "e52eedf28e57c497ae7aa2dc0eceb2d90796ccb0b219a6e1e2e63f3ce63ab47a",
     "AGENTS/RED/scripts/gen_trigger_scan.py": "e9d1fa7655e849d92890e6c109fd5c914944924c6f665ee92c5eb7e40ca29467",
     "AGENTS/RED/scripts/review_debt.py": "577b84a9c9f3a1e775a9ddf1129b4ad02414a08c173d94968497744271c8b72f",
     "AGENTS/RED/scripts/schema_check.py": "a3dabbba359ba2a2e30079010f1688ac50f9bd0e4498b52cf7c2207b45631538",
     "AGENTS/RED/scripts/status_mirrors.py": "cb58ccc4f4d87a6aa5159fda2f376e76e1a685d078ef5235e91cfbd82c2f79e8",
     "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "74603baff6d688742beb400ce2f08d47692aeedec90119a0abe5f7f2397dd7fe",
-    "CLAUDE.md": "54b133492fe46cadda781b788b1d4d842b0cf69e6c8ff69c9b062a0c2349496f",
+    "CLAUDE.md": "ee0c41debcd0c98b9da78a308a4c790edfc5798fae8318e5c2aefdead8fbbefc",
     "FORGE/tools/market-data/fetch.py": "69a2567b83973dcf67cce4372b1c3507ca2b3e453ca242f5deff3ec249dfc1bc",
     "scripts/corrections_boot_check.py": "0c01347df227938c66ac72b3b5b064a9787f14587f1858aa0fa2e5b83f31bc7f",
     "scripts/ledger_staleness.py": "bfff9fd5f281e373791bcee230700398a0f4c18fe5cc273d4b12b8ac63f1931e"
@@ -166,6 +166,14 @@
       "note": "S68 own edit: W8 + addendum NEXUS brief line aligned to WQ-719 A / WQ-721 A (PROME letter 11/19)",
       "moved": [
         "AGENTS/RED/CLAUDE.md"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "note": "S69 2026-11-25: boot.py WQ-735 client string (own edit, MAINTENANCE S69); root CLAUDE.md WQ-744 trim 6dd845f913 moved session-end steps 1b-1e and step 3 recovery to docs/GIT_WORKTREE_PROCEDURES.md, read in full this session; no RED rule changed",
+      "moved": [
+        "AGENTS/RED/scripts/boot.py",
+        "CLAUDE.md"
       ]
     }
   ],

@@ -4,6 +4,12 @@
 
 ---
 
+## S69 — 2026-11-25 00:2x ET (from `date`; laptop, PROME prome-77 due-row wake D:L1242) — **NO WEIGHT MOVED. HOLD 72 · net-bear 69 unchanged. One registered-trigger STATE changed: FT-11 classified FUNDAMENTAL on two new windows.**
+
+- **FT-11:** Old view (S68): "no precondition window since 10/27; Δ5 +20 [11/06→11/16]." New view: "precondition MET on 11/13→11/20 (DGS30 −16) and 11/16→11/23 (−17), FRED first-published = latest-revised; both FUNDAMENTAL (d2Y −25 / −20, dBE −9 / −7), FLOW fails on leg (i) (+11 / +2), leg (iv) not met (+3 / +1), no cofire. The grind read is confirmed on its own terms; banks nothing." WALTER SIG-W-20261123-026 reproduces exactly.
+- **FT-11 second path (apparatus):** Old view: "the v1.1 second path is live; NO-VERDICT is its modal outcome." New view: "it is live and UNWATCHED: no instrument evaluates it. RED's scan finds a butterfly-only FLOW flag on 11/10→11/18 (fly −5, 30Y +6, the window of the 11/17 20Y–30Y op) and four never-recorded second-path windows (9/14, 9/17, 9/18, 10/21). Nothing mis-scored, because FLOW moves no weight." ML-RED-336; repair owed (extend `ft11_legs`).
+- **CHG-RED-055:** re-reviewed at its first precondition window. MODERATE-STRONG unchanged; FLOW half untested by a FUNDAMENTAL verdict; the 11/18 flag is a FLOW shape a haven bid did not produce (n=1). Re-review 12/15 or the first legs-(i)–(iii) FLOW window.
+
 ## S68 — 2026-11-19 10:5x ET (from `date`; laptop, PROME prome-36 due-row wake D:L1109 + FT-06 read; not a closeout) — **ONE MECHANICAL MOVE: Stag +2 / Managed −2, net-bear 67 → 69. HOLD 72 unchanged. One registered-trigger STATE changed: FT-06 EXITED (UN-FIRED, not re-armed).**
 
 - **FT-06 exit:** Old view: "4 of 5 [11/17]; the 11/18 close ≥18 completes it." New view: "EXIT MET 5 of 5 on FRED VIXCLS 18.70 / 19.30 / 22.91 / 25.46 / 24.56 [11/12–11/18], first-published, RED pull 10:47 ET 11/19; WALTER SIG-W-20261119-007 the same, none of the five a non-session. The managed-decline confirmation fired 2026-08-11 un-fires; Managed −2 / Stag +2 executed on the row's letter. Weights: Stag 34 · Managed 24 · Acute 20 · War 15 · Soft 4 · Rescue 3." The S52 P6 guard holds: the VIX<16 leg does not re-arm without a re-spec; none drafted. No discretionary re-derivation today (charter).

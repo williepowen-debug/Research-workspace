@@ -1,33 +1,34 @@
 # RED SCRATCH — canonical session handoff
-**S68 HANDOFF — written 2026-11-19 10:55 EST (from `date`). Laptop WilliePOwen, Claude Code, Opus 5.5 (`claude-opus-5-5`). PROME prome-36 due-row wake (task letter 10:46:47 ET: D:L1109 CHG-057 re-review + FT-06 read); closeout on prome-36's ask 10:53 ET after the WQ-714 laptop leg. The S67 handoff is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
+**S69 HANDOFF — written 2026-11-25 00:3x EST (from `date`). Laptop, Claude Code, Opus 5.5 (`claude-opus-5-5`). PROME prome-77 due-row wake D:L1242 (RED-FT-11 grade, due 11/24); closeout on PROME's ask in the same task letter. The S68 handoff is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
 
-## CHANGES SINCE (S67-d closed 11/18 19:42 → S68 11/19 10:46)
-- FRED VIXCLS 24.56 [11/18] posted; HY 347 / CCC 1,353 [11/18]; 5y5y 2.15 [11/18]; SKEW 142.84 [Cboe 11/18]; claims 203K [w/e 11/14].
-- WALTER cards 20261118-015 and 20261119-007 (FT-06, RED action); ISHM packet (October Class 8 final, nothing fires); BOARD info-cc 20261118-013/014 and 20261119-001 to -006, -009.
-- Nvidia 10-Q still not on EDGAR at 10:48 ET (latest: 8-K 11/17 results, 13F 11/16).
+## CHANGES SINCE (S68 closed 11/19 10:5x → S69 11/25 00:19)
+- Risk-off week: VIXCLS 28.44 [11/19] → 35.89 [11/20] → 26.62 [11/23]; S&P −3.70% [11/20]; NVDA −14.01% [11/20] on a Reuters SEC-accounting report, board reinstated Jensen Huang 11/23. HY 376 [11/20] → 363 [11/23]; CCC 1,387 [11/23]. SKEW 139.16 [Cboe 11/24]. 5y5y 2.13 [11/24].
+- WALTER cards SIG-W-20261123-014 / -026 (FT-11, RED action). VULCAN 11/21 (Nvidia 10-Q timing, SEC report). TERRY 11/20 (TRY-FIRE-006 thesis grade ask). PROME: Florida flood assignment then HOLD (WQ-742 A), WQ-735 honest client name, 11/25 ledger-gap packet.
 
-## WHAT I DID (S68)
-- **FT-06 EXIT MET 5 of 5** at FRED (18.70 / 19.30 / 22.91 / 25.46 / 24.56 [11/12–11/18]) → Managed −2 / Stag +2 MECHANICAL; **net-bear 67 → 69**, HOLD 72. Registry UN-FIRED, not re-armed (S52 P6); scan regenerated. No discretionary re-derivation (charter).
-- **CHG-RED-057 MODERATE unchanged** on published inputs: 10-Q guarantee line OPEN (VULCAN sends it), ING auction outcome not public, SoftBank post-results CDS unread (last 462–466bp [11/06]). Re-review 11/30 or on VULCAN's 10-Q packet (CATALYSTS row; PROME registered the DOCKET successor). KB-RED-109 re-dated 11/30 with today's members.
-- Charter W8 + addendum self-check aligned to WQ-719 A / WQ-721 A (MAINTENANCE S68; basis re-attested). Brief vS68 (vS67 rotated). Brief pin check: UNPINNED, not PIN-UNRESOLVED.
-- Inbox drained (1 + 2 → processed/); 12 board_log rows; board_log rotated (59.7%).
-- **WQ-714 laptop leg run:** `research/2026-11-19_usage-rerun_laptop/`. Both machines: 433,471,127 [10/06–11/05, a floor] and 553,981,346 [10/19–11/18] fresh+output; laptop adds 58–67% to desktop. WQ-714 complete.
-- Packets: PROME `2026-11-19_from-RED_S68-ft06-exit-chg057.md` (filed by PROME), `2026-11-19_from-RED_WQ714-laptop-usage-leg.md`; TERRY `2026-11-19_from-RED_S68-trade-assessment.md` (no investment implication on either finding).
+## WHAT I DID (S69)
+- **FT-11 GRADED FUNDAMENTAL** on FRED (RED pull 00:21 ET, first-published = latest-revised): 11/13→11/20 −16 / 30s5s +11 / dBE −9 / d2Y −25 / fly +3; 11/16→11/23 −17 / +2 / −7 / −20 / +1. No cofire, no weight. Registry state and state_detail written; scan regenerated.
+- **Apparatus finding (ML-RED-336):** the v1.1 second path has no scanner. 11/10→11/18 is a butterfly-only FLOW flag (fly −5, 30Y +6); four older second-path windows (9/14, 9/17, 9/18, 10/21) recorded now as history. No past state re-graded.
+- **CHG-RED-055** re-reviewed at its first precondition window: MODERATE-STRONG unchanged; next 12/15 or the first legs-(i)–(iii) FLOW window.
+- **TRY-FIRE-006 thesis grade (RED leg): MIXED** — strand RIGHT (FALCON KB-FALCON-539), Brent transmission not shown (85.01 → 105.32 → 85.51 during the halt). Packet to TERRY.
+- **WQ-735:** `scripts/boot.py` Cboe request switched to `research-bot/1.0`; ran and parsed. 1 script, 0 refusals.
+- KB-RED-109 (ai-financing-reach) members added from VULCAN's packet, not scored. STATUS headers S66–S67-d folded verbatim (`reports/2026-11-25_S69_status_headers_folded.md`). board_log 9 rows, rotated to 60.0%.
+- Inbox: 6 general + 2 WALTER → processed. **Kept in inbox (held): `2026-11-23_from-PROME_florida-flood-argue-the-other-side.md`** (WQ-742 A; not started).
+- Packets: PROME `2026-11-25_from-RED_S69-ft11-graded-fundamental.md`; BOND `2026-11-25_from-RED_ft11-graded-fundamental-second-path-unwatched.md`; TERRY `2026-11-25_from-RED_TRY-FIRE-006-thesis-grade-and-ft11.md`.
 
 ## NEXT SESSION (dated, ordered)
-1. 🟠 **On VULCAN's Nvidia 10-Q packet (any day):** CHG-057 re-grade on `research/2026-11-10_AI_FUNDING_TEST_TREE.md`; STRONG only on funding named as the reason for a cut → TERRY.
-2. 🟡 **Fri 11/20:** Michigan final (consumer ledger, counted once at the next re-derivation).
-3. 🟡 **~11/25** FT-10 outcome grade (do not read a CORRECT as war or credit foresight, ML-311) · **11/27** VX-006 ZBT grade on `research/2026-11-18_VX006_ZBT_RESOLUTION_TREE.md` · **by 11/28** review VX-006, -012, -015, -017 · **11/30** CHG-044, CHG-054, CHG-057, and the CHG-027 close-vs-carry question.
-4. 🟡 **By 12/03:** VX-002 12/10 decision tree. **12/04** payrolls → next discretionary re-derivation (ledger: Oct retail control +0.59%, Michigan, claims 203K, Philly prices 47.0 [11/19], FOMC minutes; war: Qeshm 11/17, Kuwait/Bahrain 11/18, PIF Tower 11/19; count each root once). 12/09 FOMC · 12/10 RED-28 · 12/15 CHG-055, RED-31 · 12/31 RED-25/26/27/30.
-5. 🟢 Offered, not assigned: retirement pass, about 8 files over 60 days. FT-06 re-spec is NOT owed (the row may stay disarmed); a re-spec would go to PROME as a draft.
+1. 🟡 **On/after 11/25 ~16:30 ET:** FT-10 outcome grade at obs 30 (VIXCLS 11/24 at FRED); condition met at obs 14, expected CORRECT; do not read it as war or credit foresight (ML-311). Also read FT-11 windows ending 11/24 and 11/25 (bases 5.46 [11/17], 5.41 [11/18]; met if DGS30 ≤ 5.35 / ≤ 5.30) and FT-10 exit (1 of 4 on 139.16 [11/24]).
+2. 🟡 **Instrument repair (ML-RED-336):** extend `base_rate_review.py` `ft11_legs` to print leg (iv) and the second-path flag for recent windows; run `test_*.py`; MAINTENANCE entry. Extend, do not add a new check.
+3. 🟡 **11/27** VX-006 ZBT grade on `research/2026-11-18_VX006_ZBT_RESOLUTION_TREE.md` · **by 11/28** review VX-006, -012, -015, -017 · **11/30** CHG-044, CHG-054, CHG-057 (the Nvidia 10-Q may not exist by then: deadline 12/04, 12/09 with a 12b-25), CHG-027 close-vs-carry.
+4. 🟡 **By 12/03** VX-002 12/10 tree. **12/04** payrolls → next discretionary re-derivation (ledger now also holds the 11/20 risk-off week: VIX 35.89, HY 376, SPX −3.70%, NVDA SEC report; count each root once). 12/09 FOMC · 12/10 RED-28 · 12/15 CHG-055, RED-31 · 12/31 RED-25/26/27/30.
+5. ⛔ Florida flood "argue the other side": HELD (WQ-742 A). Start only when PROME writes again (PROME's re-ask of Will is D:L1251, 11/30).
+6. 🟢 Offered, not assigned: retirement pass, about 8 files over 60 days.
 
 ## OPEN THREADS
 - VX-002: on its own vintage clause the real-wage run is NOT met; the 20/80 hold is labelled discretion until 12/10.
-- WL-09 WAL <74 firing (70.56 vendor 11/19), WL-11 Brent <95 price leg met, WL-01/02 VIX firing: display only.
-- ledger_staleness nudge lists 10 ledgers "behind" STATUS (advisory); none had data changed this session.
+- WL-01/02 VIX, WL-09 WAL <74 (70.43 vendor 11/24), WL-11 Brent <95 firing: display only.
 
 ## PENDING WILL-DECISIONS
-- None.
+- None of RED's. (The Florida assignment hold is Will's open question, carried by PROME.)
 
 ## GIT STATE
-S68 commits path-scoped under `AGENTS/RED/` plus packets (carve-out ①). **Not pushed: PROME pushes at its closeout.** The shared tree holds other desks' files (ISHM staged rename, WATT sources); not touched.
+S69 commit path-scoped under `AGENTS/RED/` plus three packets (carve-out ①). **Not pushed: PROME pushes.** The shared tree holds PROME's modified `state/ORCH_INFLIGHT.md` and `state/ORCH_LOG.tsv`; not touched. Local was 3 ahead of origin, 0 behind, at boot; no pull run.

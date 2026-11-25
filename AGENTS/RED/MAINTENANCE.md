@@ -4,6 +4,14 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S69 — 2026-11-25 00:2x ET (from `date`; PROME prome-77 due-row wake D:L1242; closeout on PROME's ask)
+
+- **Trigger:** PROME packet `inbox/processed/2026-11-23_from-PROME_WQ-735-honest-client-name.md` (WQ-735 approved by Will 2026-11-23 13:57 ET; cdn.cboe.com passed the honest name 11/23).
+- **What changed:** `scripts/boot.py` `cboe_skew()` client string "Mozilla/5.0" → "research-bot/1.0" (one line, comment added). yfinance calls untouched (not RED's; PROME's 12/07 list). Run once 2026-11-25 00:23 ET: Cboe SKEW_History.csv fetched and parsed (bar 11/24 139.16). No other RED script carries a browser string (grep).
+- **Files:** scripts/boot.py.
+- **Boot-impact:** none; same URL, same parser. If Cboe later refuses, leave the honest name, FT-10 renders n/a, packet PROME (WQ-735 rule 2).
+- **Also (record, not a tool change):** FT-11's v1.1 second path has no scanner (ML-RED-336); the repair (extend `base_rate_review.py` `ft11_legs` to print leg (iv) and the second-path flag) is owed next session, not done here.
+
 ## S68 — 2026-11-19 10:5x ET (from `date`; PROME prome-36 due-row wake; not a closeout)
 
 - **Trigger:** PROME task letter 2026-11-19 10:46 ET carrying Will's rulings WQ-719 A (2026-11-18 12:10 ET, "719 A, 720 A approved") and WQ-721 A (15:44 ET, "721 yes right?  No brainer?"), with the instruction to align any desk charter line that rewrites the NEXUS brief more often.
