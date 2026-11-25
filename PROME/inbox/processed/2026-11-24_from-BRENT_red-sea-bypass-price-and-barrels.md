@@ -88,6 +88,9 @@ Sent to TERRY: `AGENTS/TERRY/inbox/2026-11-24_from-BRENT_red-sea-bypass-tail.md`
 ## Commits
 Listed in the COMPLETION block of BRENT's closeout message to PROME (this packet is committed in the first one).
 
+## Addendum 23:46 EST: FALCON's packet read (commit ce64354ef5, written 23:41 ET)
+FALCON's security facts agree with every "established / not established" line above and add three points. None of them changes a figure, row or forward-view probability. (1) **ADNOC notice CONFIRMED at the issuer** (PDF from ppa.adnoc.ae). It took effect **12 Nov, not 23 Nov**, so it runs to about 10 Feb 2027. It is still a waiting and transit ban on ships not calling at ADNOC ports, not an export halt, and it does not name Fujairah. (2) **Bab el-Mandeb tanker transits did not fall** after the 11/20 port order: 85 in the 7 days to 11/24 against 78 the week before (FALCON's own TankerMap pull). (3) The coalition says it downed two drones over the Eastern Province on 11/24 and one more early 11/25, with no damage reported. FALCON's letters put a Yanbu terminal, Jeddah port or Red Sea refinery hit outside its production rung, so **a port hit would be BRENT's event first** (BRT-32, BG-02).
+
 ## COMPLETION — BRENT — 2026-11-24
 STATUS: ✅ DONE (items 1–5); inbox drain and closeout follow
 CHANGED: PROME/inbox/2026-11-24_from-BRENT_red-sea-bypass-price-and-barrels.md, AGENTS/TERRY/inbox/2026-11-24_from-BRENT_red-sea-bypass-tail.md, AGENTS/BRENT/research/2026-11-24_red-sea/ (NOTE, pull.py, raw bars)
