@@ -1,36 +1,35 @@
-# BRENT SCRATCH — November 24 night CLOSEOUT (session brent-desk-agent-2026-11-24, PROME prome-77 wake on Will's word 23:34 ET, Red Sea; start 23:35 EST; times from `date`)
+# BRENT SCRATCH — November 25 CLOSEOUT (session brent-desk-agent-2026-11-25, PROME prome-77 wake for DOCKET L1224; boot 10:23 EST; times from `date`)
 
 ## CHANGES SINCE LAST SESSION
-- **Fleet offline about 20:55 ET 11/23 to 22:20 ET 11/24.** Coalition struck Hodeidah early 11/25 local (Reuters 03:26Z), so the Houthi condition for targeting Jeddah and all Saudi Red Sea ports is met. Round 2 of the 11/20 pattern; no Saudi Red Sea port hit confirmed after either round.
-- Riyadh KAFD tower drone 11/24, 11 wounded. UKMTO 219-26: three hulls eastbound in Hormuz 22 Nov 20:25Z. ADNOC PPA waiting and transit ban on non-callers (effective 12 Nov, 90 days; FALCON read the issuer PDF).
-- Brent January +2.3% on 11/24 (91.40 settle, secondhand), −1.4% in the evening, mostly before the news. Diesel crack still unwinding (71.64 at the 11/24 window).
+- EIA week 11/20 out at 10:30 ET: utilization 97.5%, crude +1.1M, distillate 105.6M, gasoline demand flat on a year ago.
+- Brent January BZF27 +2.3% (93.46 at 10:12 ET) with a steeper front, no barrel lost; vendor `BZ=F` is February.
+- Ras Tanura: four drones intercepted, refinery hit CLAIM ONLY. Hodeidah struck again 11/25; no Saudi Red Sea port hit found.
 
 ## WHAT I DID THIS SESSION
-- Boot: four instruction files to `eof` (root CLAUDE.md 4 pages, USER.md 3, BRENT charter 4, COMPLETION_SPEC 4; AGENTS.md 1). `boot.py` rc 2, six FINDINGS checks (Threshold, EIA, Pending-Receipts, Instrument, Ledger Staleness, Derived Views), not inspected one by one tonight. No pull (other desks' dirty files in the tree).
-- Price, curve and BRT-33 windows 11/23 and 11/24 from one capture (c1 23:39 EST, c2 23:41 EST): `research/2026-11-24_red-sea/`.
-- Barrels read (Yanbu, Petroline, products, spare, stocks), rows and gates, forward view: PROME packet `PROME/inbox/2026-11-24_from-BRENT_red-sea-bypass-price-and-barrels.md` (commit 555fb40613, addendum after FALCON's packet). TERRY packet (tradeability). FALCON reply packet (share about 40%; no post-11/20 Yanbu print).
-- Inbox: 16 WALTER cards and FALCON's 11/25 packet logged and moved; card 021 logged, left in place (untracked at read); FALCON 11/21 and PROME WQ-735 deferred, still in the inbox. CATALYSTS rows 32 (yanbu-bypass) and 34 (diesel-buffer) members added. STATUS November 24 block.
+- Boot: four instruction files to `eof` (root CLAUDE.md 4 pages, USER.md 3, BRENT charter 4; AGENTS.md 1). `boot.py` rc 2 (EIA pre-release stale, D-104 pending is Will's and PROME's, ledger staleness, Derived Views; the last fixed by the re-stamps). No pull (HOMER's dirty files in the tree; branch ahead 1).
+- WPSR graded: BRT-31 week seven −0.2190% NON-QUALIFYING (MET unreachable, window-end NO-VERDICT at the 12/02 print); BRT-34 105,616. `research/2026-11-25_eia-gulf/`.
+- Gulf read, price reconcile (one figure per contract), five combo rows reviewed and re-dated, new CATALYSTS row for the week-11/27 WPSR.
+- BRT-23 → CONFIRMED, BRT-28 → FAILED on the letter (C10; note `thesis/prediction_notes/2026-11-25_regrade-BRT-23-BRT-28.md`). BRT-22 held for Will.
+- WQ-735: thresholds.py and instrument_check.py switched to `research-bot/1.0`; GIE API refuses it (EU-STORAGE now unavailable; not switched back); Baker Hughes not switched.
+- All 8 STANDING rows re-stamped 11/25. STATUS 11/17 and 11/18 blocks rotated (archive/STATUS_dated_2026-11-25_rotation.md). Six correction receipts (NO-OP). Inbox drained (6 items). Packets: PROME, TERRY, WALTER (card 008 mixed contract).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Wed 11/25 after 10:30 ET: WPSR week 11/20** (eia.gov schedule: standard time, no exception). BRT-31 MET only at or under 8,263.66 kb/d (else NO-VERDICT, grade it); BRT-34 third print; the five combo reviews dated 11/25 (yanbu-bypass, gulf-flow-basis, diesel-buffer and others).
-2. **Wed 11/25 and Fri 11/27: BRT-33 windows [14:28,14:30) ET** (save raw bars). Valid 11, none under +3.5000. **Grade NO at the first read after 11/27** unless a window crosses: PREDICTIONS row, prediction note, CHANGELOG, CATALYSTS row 28 GRADED. Thanksgiving hours unread (cmegroup.com blocked).
-3. **Yanbu watch daily until the threat lapses:** Aramco, ministry or SPA statement; Mawani notice; Maersk or MSC Jeddah or Yanbu notices; Kpler or Vortexa Yanbu prints; war-risk quotes. BRT-32 letter and BG-02 R1 are the graders.
-4. **Sun 11/29 OPEC+ January (D:L913).** IEA spare still missing.
-5. **Mon 11/30: COT #16** (as-of 11/24, before the Hodeidah strike). Shorts must fall 19,472 or more to reach the deadband. BZF27 last trade 11/30; February becomes the front.
-6. **Next ordinary session: WQ-735 client-string switch** (packet in inbox). thresholds.py: all three sources passed. instrument_check.py: switch per source; Baker Hughes refused and must NOT be switched. One line to PROME: switched n, refusals named.
-7. **STATUS at 96% of budget (31,103 B):** rotate the November 17 and 18 blocks to archive with crc receipts.
-8. Carried: seven STANDING rows stamped 11/18 (re-read, re-stamp); UA_REVIEW; TSA from 11/13; PortWatch token; outside-audit regrades (BRT-22 needs Will); USO observations; INCIDENTS ACTIVE rows past 60 days; LESSONS_INDEX nudge; DXY basis break; TANKER-LIVENESS; boot FINDINGS triage.
+1. **Mon 11/30 after 15:30 ET (COT #16 wake, G:GATE-BRENT-COT-35B):** one vendor capture reads the BRT-33 windows of 11/25 and 11/27 [14:28,14:30) ET; grade BRT-33 (NO unless one is under +3.5000): PREDICTIONS row, note, CHANGELOG, CATALYSTS row GRADED. Hard limit 12/02 (vendor one-minute reach). Then COT #16 (shorts must fall 19,472 or more to reach the deadband).
+2. **Sun 11/29 OPEC+ January (D:L913):** grade on the statement; spare still CONTESTED.
+3. **Wed 12/02 10:30 ET WPSR week 11/27:** write BRT-31's window-end label; BRT-34 fourth print (10,616 above).
+4. **Yanbu watch daily:** Aramco, ministry or SPA statement; Reuters or Bloomberg halt report (BRT-32 letter, BG-02 R1).
+5. **12/07 (PROME's list for Will):** GIE API refusal of the honest name; nothing to do before Will rules.
+6. Carried: TSA from 11/13; PortWatch token; USO observations; INCIDENTS ACTIVE rows past 60 days (12 rows); LESSONS_INDEX nudge; DXY basis break; TANKER-LIVENESS; boot FINDINGS triage (ledger staleness on TRADE, USO, INCIDENTS, COT_VINTAGES, LESSONS_INDEX).
 
 ## OPEN THREADS / WATCHES
-- 🔴 Saudi Red Sea outlet: threat live after the 11/25 strike; bypass plus Hormuz combination; spare about zero. Signal = a stated loading halt, or M1−M3 above about +6.3 while flat price rises (my description, not a registered level).
-- 🟠 Diesel crack unwind against a thinner world buffer (combo:diesel-buffer, review 11/25).
-- 🟠 Bahrain Sitra: watch for a Bapco or BNA statement (FALCON 11/21 packet, deferred in the inbox). If one comes, the product read is mine.
-- 🟠 Kpler 64% all-route figure still unverified.
+- 🔴 Saudi outlets: Red Sea condition met twice, nothing carried out; Ras Tanura (Gulf side) now targeted. Signal = a stated loading halt, or M1−M3 above about +6.3 while flat price rises (my description; +6.07 on 11/25 at 10:13 ET, partly January expiry).
+- 🟠 Diesel crack unwind against a thinner world buffer (combo:diesel-buffer, review 12/02).
+- 🟠 Kpler 64% all-route figure still unverified. Kazakhstan CPC curbs (0.36 mb/d one day, unnamed sources) unverified.
 - 🟡 Managed-money shorts at a ledger high (#15); positioning descriptor only.
 
 ## POSITION DECISIONS PENDING
-- None from BRENT. D-104 is Will's and PROME's (CHECKED-AT-ARTIFACT-AND-STILL-OPEN at 11/20; not re-checked tonight).
+- None from BRENT. D-104 is Will's and PROME's (boot 11/25: still listed by pending_receipts; not re-checked at a broker artifact).
 
 ## MAIL STATE
-- Inbox: FALCON 11/21 (deferred), PROME WQ-735 (deferred). WALTER card 021 logged info-only and moved after WALTER committed it (205b7fc07b).
-- Outbox: PROME packet, TERRY packet and FALCON reply all delivered and committed this session.
+- Inbox: empty (6 consumed 11/25, 6 board_log rows, 6 moves).
+- Outbox: PROME packet, TERRY packet, WALTER correction packet written and committed this session.

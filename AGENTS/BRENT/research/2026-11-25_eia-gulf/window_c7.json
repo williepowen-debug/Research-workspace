@@ -1,0 +1,196 @@
+{
+ "2026-11-23": {
+  "BZF27.NYM": {
+   "vwap": null,
+   "bars": 0,
+   "pos_bars": 0,
+   "vol": 0
+  },
+  "BZG27.NYM": {
+   "vwap": 86.6623,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 460
+  },
+  "BZH27.NYM": {
+   "vwap": 84.4547,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 430
+  },
+  "CLF27.NYM": {
+   "vwap": 80.1761,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 9095
+  },
+  "CLG27.NYM": {
+   "vwap": 79.0761,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 5790
+  },
+  "CLH27.NYM": {
+   "vwap": 77.9372,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 2813
+  },
+  "HOF27.NYM": {
+   "vwap": 3.644,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 3391
+  },
+  "RBF27.NYM": {
+   "vwap": 2.3931,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 3134
+  },
+  "BZ=F": {
+   "vwap": 86.6623,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 460
+  },
+  "CL=F": {
+   "vwap": 80.1761,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 9095
+  },
+  "_M1M3": null,
+  "_M1M2": null,
+  "_HO_CL_Jan": 72.8719
+ },
+ "2026-11-24": {
+  "BZF27.NYM": {
+   "vwap": null,
+   "bars": 0,
+   "pos_bars": 0,
+   "vol": 0
+  },
+  "BZG27.NYM": {
+   "vwap": 88.7864,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 549
+  },
+  "BZH27.NYM": {
+   "vwap": 86.6034,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 203
+  },
+  "CLF27.NYM": {
+   "vwap": 82.0556,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 8437
+  },
+  "CLG27.NYM": {
+   "vwap": 81.0857,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 4062
+  },
+  "CLH27.NYM": {
+   "vwap": 79.98,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 3375
+  },
+  "HOF27.NYM": {
+   "vwap": 3.6593,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 2701
+  },
+  "RBF27.NYM": {
+   "vwap": 2.4413,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 2579
+  },
+  "BZ=F": {
+   "vwap": 88.7864,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 549
+  },
+  "CL=F": {
+   "vwap": 82.0556,
+   "bars": 2,
+   "pos_bars": 2,
+   "vol": 8437
+  },
+  "_M1M3": null,
+  "_M1M2": null,
+  "_HO_CL_Jan": 71.635
+ },
+ "2026-11-25": {
+  "BZF27.NYM": {
+   "vwap": null,
+   "bars": 0,
+   "pos_bars": 0,
+   "vol": 0
+  },
+  "BZG27.NYM": {
+   "vwap": null,
+   "bars": 0,
+   "pos_bars": 0,
+   "vol": 0
+  },
+  "BZH27.NYM": {
+   "vwap": null,
+   "bars": 0,
+   "pos_bars": 0,
+   "vol": 0
+  },
+  "CLF27.NYM": {
+   "vwap": null,
+   "bars": 0,
+   "pos_bars": 0,
+   "vol": 0
+  },
+  "CLG27.NYM": {
+   "vwap": null,
+   "bars": 0,
+   "pos_bars": 0,
+   "vol": 0
+  },
+  "CLH27.NYM": {
+   "vwap": null,
+   "bars": 0,
+   "pos_bars": 0,
+   "vol": 0
+  },
+  "HOF27.NYM": {
+   "vwap": null,
+   "bars": 0,
+   "pos_bars": 0,
+   "vol": 0
+  },
+  "RBF27.NYM": {
+   "vwap": null,
+   "bars": 0,
+   "pos_bars": 0,
+   "vol": 0
+  },
+  "BZ=F": {
+   "vwap": null,
+   "bars": 0,
+   "pos_bars": 0,
+   "vol": 0
+  },
+  "CL=F": {
+   "vwap": null,
+   "bars": 0,
+   "pos_bars": 0,
+   "vol": 0
+  },
+  "_M1M3": null,
+  "_M1M2": null
+ }
+}

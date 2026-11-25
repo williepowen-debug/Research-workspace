@@ -1,0 +1,10 @@
+release seen at 2026-11-25 10:30:11 EST (http 200)
+table1.csv http 200
+table2.csv http 200
+table4.csv http 200
+table9.csv http 200
+psw01.xls http 200
+psw09.xls http 200
+wpsr.csv http 403
+eia-retail.xls http 200
+files saved 2026-11-25 10:30:58 EST

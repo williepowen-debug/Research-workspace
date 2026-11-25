@@ -1,0 +1,85 @@
+{
+ "data_week": "2026-11-20",
+ "release": "2026-11-25 10:30 ET (EIA schedule, holiday week, confirmed by BRENT 11/24)",
+ "capture": "release seen at 2026-11-25 10:30:11 EST (http 200)\ntable1.csv http 200\ntable2.csv http 200\ntable4.csv http 200\ntable9.csv http 200\npsw01.xls http 200\npsw09.xls http 200\nwpsr.csv http 403\neia-retail.xls http 200\nfiles saved 2026-11-25 10:30:58 EST",
+ "BRT31": {
+  "basis": {
+   "file": "psw01.xls",
+   "sheet": "Data 2",
+   "column": 27,
+   "series": "WGFUPUS2",
+   "title": "Weekly U.S. Product Supplied of Finished Motor Gasoline  (Thousand Barrels per Day)"
+  },
+  "current_rows": {
+   "2026-11-20": "8714.0",
+   "2026-11-13": "8790.0",
+   "2026-11-06": "8767.0",
+   "2026-10-30": "8808.0"
+  },
+  "base_rows": {
+   "2025-11-21": "8726.0",
+   "2025-11-14": "8528.0",
+   "2025-11-07": "9028.0",
+   "2025-10-31": "8874.0"
+  },
+  "current_avg": "8769.75",
+  "base_avg": "8789.0",
+  "yoy_pct": "-0.2190237797246558197747183979974968710900",
+  "qualifying_week_le_-1.5": false,
+  "above_-1.0": true,
+  "revisions_vs_11_12_capture": {},
+  "price_basis": {
+   "file": "eia-retail.xls",
+   "sheet": "Data 3",
+   "column": 1,
+   "series": "EMM_EPMR_PTE_NUS_DPG",
+   "title": "Weekly U.S. Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)"
+  },
+  "price_current": {
+   "2026-11-23": "3.642"
+  },
+  "price_base": {
+   "2025-11-24": "3.061"
+  },
+  "price_yoy_pct": "18.98072525318523358379614505063704671680",
+  "price_below_20": true,
+  "latest_retail_date": "2026-11-23"
+ },
+ "BRT34": {
+  "basis": {
+   "file": "psw01.xls",
+   "sheet": "Data 1",
+   "column": 10,
+   "series": "WDISTUS1",
+   "title": "Weekly U.S. Ending Stocks of Distillate Fuel Oil  (Thousand Barrels)"
+  },
+  "print": "105616.0",
+  "prior_week": "104901.0",
+  "below_95000": false,
+  "distance_to_line": "10616.0"
+ },
+ "context": {
+  "commercial_crude_WCESTUS1": {
+   "level": "418906.0",
+   "wow": "1109.0"
+  },
+  "SPR_WCSSTUS1": {
+   "level": "273465.0",
+   "wow": "-2896.0"
+  },
+  "total_gasoline_WGTSTUS1": {
+   "level": "217682.0",
+   "wow": "1733.0"
+  }
+ },
+ "sha256": {
+  "capture.txt": "c8fb565af871fc7ffbf30dd16890c75bbf41dae253bb95c2dc51473d5cdf0ccd",
+  "eia-retail.xls": "3d44cc66eacf04898865f9c33f814b5a22f16ec759fecdec1ac294f8ee7c57db",
+  "psw01.xls": "4f0eef72d5baba7c8022670462bbeda94a8cbbe377dd517e7b0e14b6b94243a3",
+  "summary.txt": "ef91b68ea2109e3a73cf58c048575589b38baa768261c3086f8eee93f6cfc907",
+  "table1.csv": "e3fab67807719aa1972db8d124bda4760097319bd9356994f8db998bc019dfcf",
+  "table2.csv": "d1bb51f820968066996dbfd615a01d81b4c6f2cbdf3a149fbf20a5371a4581b4",
+  "table4.csv": "2c69b6d5eb8b21bfb7a509815eb4b31deebdd380919ae3351d133a411212b3d0",
+  "table9.csv": "767cf5721110ae17d8d36237d477c40d11a12e94d7603499cfe37a0a90c94976"
+ }
+}
