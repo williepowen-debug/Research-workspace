@@ -1,0 +1,2 @@
+date	event	type	agent_domain	expected_vol_impact	source	notes
+2026-11-25	Close: thesis prediction 2' arms on a 7th straight inverted cash-curve close (VIX3M/VIX < 1.000 on Cboe History, 11/17 to 11/25)	CHECKPOINT	VIOLET	MEDIUM	thesis/VIX_THESIS.md prediction 2'; PROME DOCKET L1229 item 4	ADDED 2026-11-23. 6 straight inverted closes 11/17 to 11/24 on Cboe History (confirmed 11/25 09:17 ET). Arms only if 11/25 History also closes under 1.000; consequent: VIX sustains above 25 for 10 sessions after.

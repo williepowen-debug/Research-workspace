@@ -9,6 +9,14 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## November 25, 2026 — PREDICTIONS.tsv: Date_Made column, Confidence filled
+
+**Trigger:** PROME on D:L1280 (its scorer skipped VIO-PRED-08, -09 and -10 and read the resolve date as the made date).
+**What changed:** `Confidence` filled from each letter's own stated figure; rows whose letter states none read `UNSCORED`; new last column `Date_Made`. No forecast changed.
+**Files touched:** `workbook/PREDICTIONS.tsv`.
+**Boot-impact:** none. New rows carry both columns.
+**Lessons:** a figure kept only in a summary cell is invisible to a machine reader.
+
 ## November 25, 2026 — writeback_order_check.py: the brief's pin is resolved without a 30-commit window
 
 **Trigger:** WQ-712 RULED A; NEXUS's answer (PROME/inbox/processed/2026-11-25_from-NEXUS_L554-L850-L1189-weekly-rollup7-wq712.md) named this script (lines 223 to 229) as the one VIOLET check that breaks under WQ-719 A: an unchanged brief keeps its older pin, and once STATUS had 30 newer commits the pin fell out of the search and the check called it PIN-UNRESOLVED (rc 1). PROME's disposition (D:L1189, class C11): re-key it at this session.
