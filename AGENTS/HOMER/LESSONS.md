@@ -3,18 +3,18 @@
 *Read at boot. Learn once, prevent forever. For Will's working preferences and do-not-touch notes, see `MEMORY.md`.*
 
 > ⚠️⚠️ **INDEX over cold registers — not the lessons themselves.** Full text: §1–43 `LESSONS_COLD.md` (byte-for-byte, crc-pinned, FROZEN) · §44+ `LESSONS_COLD_2.md`. Each row = heading + `**Rule:**`; a row ending `…` is truncated — **open the cold register before acting on it.** Nothing deleted.
-> Split 2026-09-02 under `READ_CAP.md` remedy (b) (pre-split 97,396 B = 299% of the boot budget). 🔁 **Re-measure at every append** and by **2026-12-02**: `python3 scripts/read_cap_check.py --agent HOMER`. New lessons → cold register + one row here; **never a Mistake paragraph here.**
+> Split 2026-09-02 under `READ_CAP.md` remedy (b) (pre-split 97,396 B = 299% of the boot budget). 🔁 **Re-measure at every append** and by **2026-12-02**: `python3 scripts/read_cap_check.py --agent HOMER`. New lessons → cold register + one row here; **never a Mistake paragraph here.** Rows reading "Rule lives at" were shortened 2026-11-25 because a read surface already carries the rule; their old text: `archive/LESSONS_hot_rows_2026-11-25.md`.
 
 ---
 
 **1. [Data] — Verify the Year Explicitly Before Citing a Load-Bearing Metric**
-**Rule:** Before citing any web-pulled metric as **load-bearing** (capable of changing a prediction confidence, a STATUS color, or a transmission-chain status), confirm the year explicitly from the primary source — either the article's publication date or an explicit year-stamp on the cited number itself. Relative … → `LESSONS_COLD.md` §1
+Rule lives at: §2, §46 and the STATUS year-trap line → `LESSONS_COLD.md` §1
 
 **2. [Data] — The Year-Trap Points at Your Own Prediction: a Stale Article Can FALSELY CONFIRM You**
 **Rule:** Year-verify **hardest** when the number would CONFIRM a live prediction, not just when it would surprise you. Two specific triggers: **(a)** an annually-recurring release (monthly HPI, quarterly DQ surveys) whose prior-year article occupies the same headline shape — search relevance ranks these … → `LESSONS_COLD.md` §2
 
 **3. [Data] — Revision Discipline Was Applied to the PREDICTION and Not to the DASHBOARD**
-**Rule:** For any series that **revises prior months as a matter of course** (Census new-home sales, starts/permits, construction spending, BLS payrolls, BEA GDP, FMHPI), a dashboard row must either **(a)** be refreshed from the newest release — carrying the revised prior alongside the current print — or **(b)** carry … → `LESSONS_COLD.md` §3
+Rule lives at: CLAUDE.md BOOT 7 revision discipline → `LESSONS_COLD.md` §3
 
 **4. [Data] — I Gave the Headline to a Cohort Too Small to Be the Driver, Because the Multiple Was Dramatic**
 **Rule:** **When a source breaks a rate into segments, compute each segment's share and its contribution to the change BEFORE writing any sentence with "concentrated," "driven by," or "the real story is."** Three lines of arithmetic. A large *rate* move on a small *weight* is not a driver, and a large multiple on a … → `LESSONS_COLD.md` §4
@@ -26,10 +26,10 @@
 **Rule:** When a pre-registered trigger fires, resolve the prediction on its own terms — don't retroactively construct a mechanism-survives argument to keep it alive. A mechanism note can (and should) accompany the resolution ("CRE/MF stress isn't gone — the CMBS book still diverges") without reopening the specific … → `LESSONS_COLD.md` §6
 
 **7. [Process] — A Sub-Agent's SV-Only Update Channel Can Silently Drift Stale Behind Its Own Parent**
-**Rule:** As a top-level agent, HOMER now owns its own boot-time staleness check (`scripts/ledger_staleness.py`, two-clock workbook headers) instead of relying on an SV harvest cadence set by another agent's spawn schedule. Never let the authoritative copy of a domain's data be a file the domain owner doesn't itself … → `LESSONS_COLD.md` §7
+Rule lives at: CLAUDE.md State Vector Protocol (retired) → `LESSONS_COLD.md` §7
 
 **8. [Process] — Reconcile the FL Read With CORAL/MARCO Before Publishing**
-**Rule:** Before publishing an FL housing figure, check whether CORAL or MARCO already owns an overlapping read. Different metrics on the same geography aren't automatically contradictory, but an unreconciled divergence sitting silently across two agents' STATUS files is data fiction waiting to be cited wrong. Flag … → `LESSONS_COLD.md` §8
+Rule lives at: CLAUDE.md Scope, Florida seam → `LESSONS_COLD.md` §8
 
 **9. [Verification] — I Read My Own Redaction Mask As Data, and Asked Will to Spend on a False Premise**
 **Rule:** **A redacting or truncating command's output can never be evidence about the redacted value.** To test presence/absence without disclosure, measure a property that survives redaction — **length** (`awk -F= '/^KEY=/{print length($2)}'`), a checksum, or an exit code. Never infer a value from a pattern you … → `LESSONS_COLD.md` §9
@@ -47,7 +47,7 @@
 **Rule:** **A correction pass must ENUMERATE its surfaces before it starts, not follow the ones the session happens to be editing.** Write the list first — every file where the superseded claim could live — and tick them off. **Then grep for the superseded string across the whole agent directory** rather than trusting … → `LESSONS_COLD.md` §13
 
 **14. [Process] — I Wrote "Adopted" About My Own Surfaces Before Any Surface Carried It (SECOND INSTANCE, n=2)**
-**Rule:** **"Adopted," "encoded," "applied," "re-keyed" and "now reads" are claims about ARTIFACTS and must not be written until the artifact carries the change.** Concretely: **make the edit, then write the sentence** — never the reverse, and never in the same breath as agreeing to the recommendation. If the edit is … → `LESSONS_COLD.md` §14
+Rule lives at: §47 → `LESSONS_COLD.md` §14
 
 **15. [Verification] — The Publisher Bounds Its Own Superlative, and a PUBLICATION DATE Is a Referent Too**
 **Rule:** when consuming a signal, **check the cadence of every dated claim against the publisher's own release schedule** — for a weekly series that is arithmetic, not research. **Tell:** a data week that is more recent than the release calendar allows. → `LESSONS_COLD.md` §15
@@ -74,13 +74,13 @@
 **Rule:** **A superlative is a claim about a DISTRIBUTION and expires the moment the next print lands.** Never carry one past the next release without re-checking it, and **when a publisher offers a mix-controlled twin of a headline metric, pull BOTH every month** — the divergence between them is the finding, and it … → `LESSONS_COLD.md` §22
 
 **23. [Calibration] — "Pinned" Is a Per-RUNG Property, and the Audit That Caught It On One Row Cannot See It On the Others**
-**Rule:** **Audit thresholds per RUNG, not per row**, and phrase the verdict as a claim about the sample unless the window is long enough to be a claim about the metric. **The fix for a pinned rung is a REPORTING rule, not a level change:** state the highest **UNCROSSED** rung and the distance to it, never the highest … → `LESSONS_COLD.md` §23
+Rule lives at: CLAUDE.md rung census and reporting rule → `LESSONS_COLD.md` §23
 
 **24. [Process] — A Stale Tag I Wrote Myself Is Worse Than No Tag, Because It Reads As Handled — n=2 in One Session, Both Mine**
 **Rule:** **A staleness tag is only permitted with a dated condition attached** — *"`[STALE — Jan]`; if not refreshed by <date>, FREEZE or RE-SPEC"* — because a tag without an expiry is a note that replaced the work. **And when tagging a row that feeds a BAND, say what the band now grades: "this row grades nothing … → `LESSONS_COLD.md` §24
 
 **25. [Process] — A Caveat I Had Already Written In My Own Ledger Did Not Survive The Hop Into My Own Dispatch**
-**Rule:** **When a figure carries a caveat you recorded yourself, the packet must be written from the LEDGER ROW, not from the release.** Concretely: before sending a figure, grep your own ledger for it and read what you already said about it. This is `finding_rederived_signal_loses_the_senders_caveats` **with the … → `LESSONS_COLD.md` §25
+Rule lives at: same rule as §27(a) → `LESSONS_COLD.md` §25
 
 **26. [Data] — A Publisher's Prose Named Three Metros; Its Own Table Held Six, and the Prose Skipped One Ranked ABOVE One It Named**
 **Rule:** **When a release names exemplars of a threshold, take the list from the TABLE, never from the prose.** If no table is published, report the named members as **exemplars** (*"including Charlotte, Denver and Dallas"*) and never as the set. ⚠️ **A publisher's narrative selection from its own data is neither a … → `LESSONS_COLD.md` §26
@@ -110,19 +110,19 @@
 **Rule (adopted, mine to run too):** **before proposing evidence for a mechanism, state what result would REFUTE it.** If no available value of the proposed measure refutes it, the measure is not evidence. ⚠️ **For share-based tests specifically: a share moves when EITHER numerator or denominator moves, so a share can … → `LESSONS_COLD.md` §34
 
 **35. [Process] — I Honoured a Line Cap Perfectly For a Day While the File Grew 27%: the Cap Measured the Wrong Axis and Was a COMPRESSION INCENTIVE**
-**Rule:** **Size-govern a document on the axis a READER actually consumes — bytes — and make the control a RETENTION rule, not a compression target.** ⛔ *(the 150/170KB tier below is RETIRED 2026-09-29 — live tier = soft 22,785 B / hard 32,550 B, `CLAUDE.md` CLOSEOUT 1)* Adopted here: soft **150KB** / hard **170KB**, derived from a measured irreducible core (~127KB of dashboard + open items + catalysts) rather than invented; **one … → `LESSONS_COLD.md` §35
+Rule lives at: CLAUDE.md CLOSEOUT 1 byte tier and retention rule → `LESSONS_COLD.md` §35
 
 **36. [Process] — An OPEN ITEMS List That Retains CLOSED Items Is a Changelog Wearing a Work Queue's Name**
-**Rule:** **A closed item leaves the live queue at the closeout that closes it** — `git mv` to `archive/` with a one-line pointer naming the item numbers. **Retain in archive, never delete**, because several will be cited elsewhere and must stay reachable. ⚠️ **Test to apply: "if a reader worked only the rows in this … → `LESSONS_COLD.md` §36
+Rule lives at: CLAUDE.md CLOSEOUT 1b → `LESSONS_COLD.md` §36
 
 **37. [Process] — A New Rule Is a WRITE; the State It Invalidates Is a READ Nobody Re-Runs. Three Instances in One Day, and the Third Needed the Operator**
-**Rule:** **When a session adopts, demotes, retires or re-scopes a rule, GREP FOR THE SUPERSEDED TERM before committing** — excluding archives and processed mail — **and ask of each hit "does this assert the OLD rule as LIVE?"** Historical and past-tense mentions are fine; an undemoted live assertion is not. **Wired … → `LESSONS_COLD.md` §37
+Rule lives at: CLAUDE.md CLOSEOUT 1c → `LESSONS_COLD.md` §37
 
 **38. [Process] — "Is This Fixed?" Is a Different Question From "Did I Do the Fix?", and I Answered the Second**
 **Rule:** **Before reporting a structural change as done, re-derive the claim FROM THE FILES, not from the session's own record of what it did.** Concretely: grep for the superseded state, run the guard, and check that the retention/consistency rules the change asserts actually hold on disk *right now*. ⚠️ **And … → `LESSONS_COLD.md` §38
 
 **39. [Process] — I Set a Two-Month Wait for an Instrument That Was Already in My Own Workbook**
-**Rule:** **Before declaring something un-instrumentable — or setting a dated wait for an instrument — GREP YOUR OWN WORKBOOK for the metric first.** The question to ask is not *"is this measurable?"* but **"have I already measured it?"** ⚠️ Highest-risk moment is exactly when writing a *negative* conclusion, because … → `LESSONS_COLD.md` §39
+**Rule:** **Before declaring something un-instrumentable — or setting a dated wait for an instrument — GREP YOUR OWN WORKBOOK for the metric first.** The question to ask is not *"is this measurable?"* but **"have I already measured it?"** ⚠️ Highest-risk moment is exactly when writing a *negative* conclusion, because … (n=2, 2026-11-25: "no Trepp MF balance held" stood 20 days with the balance on MULTIFAMILY since 10/19) → `LESSONS_COLD.md` §39
 
 **40. [Calibration] — Adding Entities to a Panel Whose Triggers Cannot Fire on Them: the Untrippable-Threshold Family in Its ENTITY Form**
 **Rule:** **Before adding a name to a watch, ask whether the watch's OWN TRIGGERS can fire on that name's business model** — not merely whether the name is involved in the phenomenon. **Involvement is not exposure.** ⚠️ A coverage gap that is really correct scoping looks identical to a real gap from the outside: … → `LESSONS_COLD.md` §40
@@ -134,8 +134,7 @@
 **Rule:** **On any undated source, hunt for a datable STATE — a title, a role transition, a "soon to be," a named incumbent — before accepting or rejecting its content.** ⚠️ **And state what the anchor does NOT establish:** here it bounded the *quote*, not the *video*, and I could not date the video itself. **Two … → `LESSONS_COLD.md` §42
 
 **43. [Prediction Grading] — HOM-01 MISSED: the Registered Leading Indicator Failed and Loses Standing (the IF-MISSED clause, executed)**
-**Rules:** ① The Realtor.com headline median list YoY is DOWNGRADED to context — never again the named mechanism of a registered prediction unless re-validated against a completed cycle. ② Any candidate list-price lead must be specified on the MIX-CONTROLLED series ($/sqft), not the median. ③ A lead-lag claim … → `LESSONS_COLD.md` §43
-
+Rule lives at: NEXUS_BRIEF DO-NOT-CITE (Realtor.com list price as a lead) → `LESSONS_COLD.md` §43
 ---
 
 **Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–57 ↔ `LESSONS_COLD_2.md` (14). Counts must match.
@@ -153,7 +152,7 @@
 **Rule:** A claim of the form *"I tested X and got Y"* is written **only after Y is on screen.** … → `LESSONS_COLD_2.md` §47
 
 **48. [Process] — A Packet In My Own Outbox Is Not a Delivery, and My Charter Told Me It Was**
-**Rule:** A delivery claim is verified at the RECIPIENT'S path, never the sender's. Packets go INTO … → `LESSONS_COLD_2.md` §48
+Rule lives at: CLAUDE.md Standing peer edges → `LESSONS_COLD_2.md` §48
 
 **49. [Calibration] — I Graded a Band on a Different Statistic From the Same Issuer ("fires nothing" when it was YELLOW)**
 **Rule:** Before grading a band on a newly found feed, match the band's ORIGINAL reading on statistic … → `LESSONS_COLD_2.md` §49

@@ -1,8 +1,6 @@
 # HOMER STATUS — HOT SURFACE
 
-*Promoted from CARL sub-agent 2026-07-12 (Will-directed).*
-
-> ⚠️ Rotated 2026-09-14 — pre-rotation file preserved byte-for-byte at `archive/STATUS_2026-09-14_pre-catchup-VERBATIM.md`. Evidence lives in `workbook/` (the record); `STATUS_COLD.md` FROZEN 9/2 (**this file wins**). The 9/14 BOTTOM LINE's full synthesis → `reports/2026-09-14_three-week-catchup-release-ledger.md`.
+> Evidence lives in `workbook/` (the record). `STATUS_COLD.md` FROZEN 9/2 (**this file wins**); pre-9/14 file → `archive/STATUS_2026-09-14_pre-catchup-VERBATIM.md`.
 > ⛔ **VALUES + BANDS + OBLIGATIONS ONLY.** Target: `read_cap_check.py` <70% of budget (22,785 B).
 
 ---
@@ -47,8 +45,8 @@
 | **Fannie MF credit provision** | **$446M Q3 vs $259M Q2 (+72%) vs $174M Q1** | 🔴 **two straight quarters of sharp rises — this pairing carries the GSE signal** |
 | **Realized MF marks + rent (ledger `MULTIFAMILY.tsv`)** | **FBRT Q3 (83% MF; TX 24%/FL 19%): realized $(24.2)M, 10 REO $339.5M** · TRTX MF foreclosure $30.1M · BANC $827.0M HFS · **Arbor Q3: non-performing 32 / $647.6M (19 / $428.8M), REO net $491.2M, dividend SUSPENDED 10/30** (⚠️ 6/30 REO $545.9M per Q2 10-Q vs $498.9M release comparative — basis UNRESOLVED) · S2: $0-to-LPs fund vs $1.2B workout · **Trepp TX floating agency MF DQ 5.89%, 2021–22 vintage 11.33%** · MAA SS NOI −1.8% · Census rental vacancy 7.6% | 🔴🔴 **REALIZED marks, not ratios** — Sun Belt 2021–22 vintage concentrated. Named cases → CREED ledger |
 | **★★ Rent-decline breadth** *(HOMER-computed, Apartment List)* | **39 of 100 OCT** — Sep **REVISED 46→45** · Aug 52 · Jul 56 (peak band RED) | 🟡 **YELLOW — Orange (>40%) 2 cities away.** Narrowing fast; AL national rent +0.1% YoY, first positive in 3+ yrs |
-| **🔴🔴 ★★ CMBS MF DQ (Trepp)** | **8.09% OCTOBER, +5bp — second straight 2026 high; ISSUER PDF Table 2** (read 11/05). Sep 8.04 · Aug 7.69 · 6-mo 7.71 · 12-mo 7.12 (+97bp YoY). Overall 7.87% (−15bp) | 🔴🔴 **PREREG NEW HIGH; kill 0/3.** ⚠️ **$210M Cove at Tiburon, newly late, may revert: it likely exceeds the whole rise, so MF ex-Cove likely FELL (INFERRED).** HOM-05 |
-| **🔴 ★★ CMBS MF special servicing** *(successor instrument for the retired mat-adj leg)* | **9.22% OCTOBER, +69bp** (TreppTalk 11/09, issuer excerpt) · Sep 8.54 · Apr peak 9.08. **$517.7M Blackjack transferred at its fully extended maturity 10/09.** DQ–SS gap **113bp** (Sep 50) | 🔴 **PREREG §4: NEW 2026 HIGH** (>9.08). No criterion attaches. Maturity-default channel, not new payment default |
+| **🔴🔴 ★★ CMBS MF DQ (Trepp)** | **8.09% OCTOBER, +5bp — second straight 2026 high; ISSUER PDF Table 2** (read 11/05). Sep 8.04 · Aug 7.69 · 6-mo 7.71 · 12-mo 7.12 (+97bp YoY). Overall 7.87% (−15bp) | 🔴🔴 **PREREG NEW HIGH; kill 0/3.** ⚠️ **One loan: $210M Cove ≈ 28bp on Trepp's $75.48B August base, so ex-Cove ~7.8%, about 20bp BELOW Sept (DERIVED); extension request under review.** HOM-05 |
+| **🔴 ★★ CMBS MF special servicing** *(successor instrument for the retired mat-adj leg)* | **9.22% OCTOBER, +69bp** (TreppTalk 11/09, issuer excerpt) · Sep 8.54 · Apr peak 9.08. **$517.7M Blackjack transferred at its fully extended maturity 10/09.** DQ–SS gap **113bp** (Sep 50) | 🔴 **PREREG §4: NEW 2026 HIGH** (>9.08), **but Blackjack ≈ 69bp is the whole rise: ex-Blackjack ~8.5%, flat (DERIVED)**. No criterion attaches |
 | ⛔ **MF maturity wall** | **`$160B+` / `$270B+` DEAD (9/2).** Replacement is a **SHARE: 13% of MF balances mature in 2026** [MBA]. ⚠️ Circulating WSJ "$2T" is NOT that figure; its **"$297B in 2026" = 13% × $2.3T — DERIVED, not an MBA print** | ⛔ kill-on-sight |
 
 ### Mortgage Rates / Demand *(HOMER-owned surface, ★ ruling)*
@@ -138,8 +136,8 @@ Closed-item receipts → `archive/STATUS_rotated_2026-11-24.md`.
 
 | ID | Call | State |
 |---|---|---|
-| **HOM-01 to HOM-04** | CLOSED: MISSED 8/31 (do not re-open) · MISSED 11/20 · HIT 11/12 (3.75M) · HIT 11/20 (46%) | ledger; rows → `archive/STATUS_rotated_2026-11-25.md` |
-| **HOM-05** | Trepp Nov MF DQ <8.09% (55%) | 🟡 OPEN, ~12/01–05. ⚠️ Oct SS new high (9.22%, maturity defaults) leans against it; not re-weighted |
+| **HOM-01 to HOM-04** | CLOSED: MISSED 8/31 (do not re-open) · MISSED 11/20 · HIT 11/12 (3.75M) · HIT 11/20 (46%, **which I called at 30%**). **Against my own odds: 1 of 4; Brier 0.358** | ledger; rows → `archive/STATUS_rotated_2026-11-25.md` |
+| **HOM-05** | Trepp Nov MF DQ <8.09% (55%) | 🟡 OPEN, ~12/01–05. Odds frozen. Two-sided: Cove reverting ≈ −28bp; Blackjack (not in Oct's ~$398M newly late, DERIVED) entering ≈ +69bp |
 | **HOM-06** | Rent breadth Nov ≤35 of 100 (60%) | 🟡 OPEN, ~11/24–30 |
 | **HOM-07 · HOM-08** | ICE Oct: FC sales YoY <10.0% (55%) · FC starts YoY >0.0% (60%) | 🟡 OPEN, registered 11/24 23:34 ET before the print |
 | **HOM-09** | NAR Nov EHS first print <3.65M (88% = model, unshaded) | 🟡 OPEN, 12/09 |
@@ -152,4 +150,4 @@ Closed-item receipts → `archive/STATUS_rotated_2026-11-24.md`.
 
 ## BOTTOM LINE
 
-**2026-11-25 — deeper read on Will's word (11:49 ET); report `reports/2026-11-25_deeper-read-FHA-newhome-DR4956.md`.** ① **FHA: old distress is converting; fresh distress is not shown accelerating.** Q3 starts +36% YoY, in foreclosure +51%, but new 90+ −18.4% YoY (HUD). **Corrected 13:43: I omitted the new-90+ table (CATO, WALTER).** HUD says its Oct-2025 rules raised the serious rate. ② **A1 seasonality:** a warning on HUD's basis (9 of 11 years); at most 1 of 2 at 2027-02-20. ③ **New-home average −12.1%: about half or more is mix;** the Q3 fall was mostly not. ④ **Florida FHA pause covers seven counties to 2027-02-21/22.** ⑤ PMMS 7.21%, spread ~230bp. ⑥ The 11/20 grade row, overwritten at 13:14, was restored. No band changed colour; no leg fired; no HENRY trigger; registered odds unchanged. **Will decision required: none.**
+**2026-11-25 — deeper read on Will's word (11:49 ET); report `reports/2026-11-25_deeper-read-FHA-newhome-DR4956.md`.** ① **FHA: old distress is converting; fresh distress is not shown accelerating.** Q3 starts +36% YoY, in foreclosure +51%, but new 90+ −18.4% YoY (HUD). **Corrected 13:43: I omitted the new-90+ table (CATO, WALTER).** HUD says its Oct-2025 rules raised the serious rate. ② **A1 seasonality:** a warning on HUD's basis (9 of 11 years); at most 1 of 2 at 2027-02-20. ③ **New-home average −12.1%: about half or more is mix;** the Q3 fall was mostly not. ④ **Florida FHA pause covers seven counties to 2027-02-21/22.** ⑤ PMMS 7.21%, spread ~230bp. ⑥ The 11/20 grade row, overwritten at 13:14, was restored. ⑦ **Cleanup pass (Will 14:29 ET): both October Trepp highs are about one loan each (Cove, Blackjack); 'no Trepp balance held' was wrong (PROME's review).** No band changed colour; no leg fired; no HENRY trigger; registered odds unchanged. **Will decision required: none.**

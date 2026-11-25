@@ -29,11 +29,27 @@
 - **California wildfire peril + insurance market (FAIR Plan, insurer losses) = AEOLUS** (`AGENTS/AEOLUS/wildfire/`). HOMER's CA lane is the housing-credit consequence and cites AEOLUS.
 - **HENRY edge formalized** (charter trigger rule); TERRY reached only via thesis/data — HOMER holds no book.
 
-## Infra — what this box can and cannot reach (as of 2026-09-29; ⚠️ 2026-10-28 updates first)
+## Infra — what this box can and cannot reach (rewritten 2026-11-25; older notes → `archive/MEMORY_infra_notes_2026-11-25.md`)
 
-- **2026-10-28 observations (retrieval helpers):** Fannie monthly PDFs now return **403** to curl (existing files) / 404 (unpublished) — use the 10-Q/earnings release on SEC EDGAR for quarter-end values · **press.spglobal.com WORKED** for Case-Shiller (the Cotality-hosted page served stale June data) · MBA content is readable via **newslink.mba.org** (mba.org still 403) · ICE First Look full text via the Business Wire release (the mortgagetech.ice.com page header mislabels the month) · SEC EDGAR + data.sec.gov submissions JSON work with a contact User-Agent · Apartment List CSVs on ctfassets work.
+Each row is the LAST observation, dated. Reachability changes; re-test before calling a source dead, and test a control page first (a 404 on a guessed address proves nothing). A site that challenges or refuses automation: stop, use another source (root Blocked sites).
 
-- **2026-11-05 observations:** ATTOM reports live at `/news/market-trends/foreclosures/` (plural; a singular-path 404 proves nothing) · FMHPI file is `freddiemac.com/fmac-resources/research/docs/fmhpi_master_file.csv` · NAHB history tables are `.xls` links on its HMI page (`xlrd` in system python 3 absent, in `.venv` present) · MBA Newslink article pages carry the weekly apps text while mba.org stays 403 · Earnings Whispers served the DHI call transcript as plain HTML · BEA's GDP PDF text has no residential row; NAHB Eye on Housing carries it (secondary) · Fannie monthly PDFs still 403, and `mortgagetech.ice.com` paths 404 to this client.
-
-- **Works:** Freddie `freddiemac.com/pmms/docs/PMMS_history.csv` · Treasury daily par-curve CSV (`home.treasury.gov/...daily-treasury-rates.csv`) · Fannie monthly PDFs (`/media/document/pdf/MMDDYY.pdf`, slow) · ICE First Look pages · SEC EDGAR 8-Ks · ~~attomdata.com~~ (⚠️ issuer paths returned 403 on 2026-10-19 — try wire copies on PR Newswire/BusinessWire).
-- **Blocked / failing:** MBA (403 site-wide) · S&P press + spglobal (403 — Case-Shiller must come via a secondary) · miamirealtors.com (empty to curl) · therealdeal.com (403 — use CRE Daily / Yahoo syndication) · FRED CSV (HTTP/2 stream errors; retry `--http1.1`, or use the issuer file).
+| Source | Last observation | Address or fallback |
+|---|---|---|
+| Freddie PMMS · FMHPI | works 11/25 | `freddiemac.com/pmms/docs/PMMS_history.csv` · `freddiemac.com/fmac-resources/research/docs/fmhpi_master_file.csv` (national rows are `US,USA`) |
+| Treasury par curve | works 11/24 | `home.treasury.gov/...daily-treasury-rates.csv` |
+| FRED | works 11/25 (earlier HTTP/2 errors: retry `--http1.1`) | carries BEA and BLS lines |
+| HUD FHA performance | works 11/25; **filenames vary** | `hud.gov/sites/default/files/Housing/documents/FHALPT-SEPT2026.pdf`; try underscore and hyphen forms. Annual report `2026FHAAnnualReportMMIFund.pdf`. Read EVERY table (LESSONS §56) |
+| ICE First Look | works 11/25 | `mortgagetech.ice.com/resources/data-reports/first-look-at-<month>-<year>-mortgage-data` (September 200; a bare `/first-look` is 404); issuer PDF on `s2.q4cdn.com/154085107/files/doc_news/` (title-based name); Business Wire copy. Oct-2025 edition came 2025-11-26 |
+| ICE Mortgage Monitor | read 11/11 | `mortgagetech.ice.com/publicdocs/mortgage/ICE_Mortgage_Monitor_<Mon>_<YYYY>.pdf` (month abbreviation varies) |
+| ATTOM | works 11/25 (August 200) | `/news/market-trends/foreclosures/<month>-2026-foreclosure-market-report/`; the Q3-2025 form was `q3-and-september-2025-...`. Sept, Oct, Q3 2026 and that form all 404 on 11/25 |
+| Trepp | TreppTalk works; DQ PDF at `trepp.com/hubfs` read 11/05 | full special-servicing PDF not reached |
+| Apartment List | works 11/25 | CSV name on `apartmentlist.com/research/category/data-rent-estimates` (ctfassets) |
+| S&P Case-Shiller | `press.spglobal.com` works 11/24 | the Cotality-hosted page once served stale data |
+| NAHB | read 11/20 | HMI history `.xls` (`xlrd` is in `.venv`); NAHB Eye On Housing carries BEA residential |
+| SEC EDGAR · api.fdic.gov · OpenFEMA | work 11/24–25 | EDGAR needs the contact string SEC requires; confirm a disaster declaration at OpenFEMA, not press |
+| MIAMI REALTORS | October release read 11/23 by a retrieval helper; empty to curl | issuer site |
+| Fannie Monthly Summary | 403 to automation 11/24 | Will supplied October's PDF; quarter-end values from the 10-Q at EDGAR |
+| MBA (mba.org) | 403 site-wide | `newslink.mba.org`; CalculatedRisk verbatim copies (SECONDARY) |
+| National Mortgage News · American Banker | headline and bullets only (subscription) | sister titles by one author: never two sources |
+| The Real Deal · Las Vegas Realtors | 403 (9/29) · 429 (11/11) | CRE Daily or Yahoo copies · Fox5/News3LV (SECONDARY) |
+| BEA GDP PDF | no residential row in its text | FRED series; NAHB |
