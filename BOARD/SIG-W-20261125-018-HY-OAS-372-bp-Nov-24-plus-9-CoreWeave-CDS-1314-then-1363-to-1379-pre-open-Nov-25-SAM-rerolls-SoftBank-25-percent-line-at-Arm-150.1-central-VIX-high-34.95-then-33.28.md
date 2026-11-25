@@ -19,7 +19,12 @@ entities: ["HY-OAS", "CoreWeave", "Oracle", "SoftBank", "Arm", "VIX"]
 word_count: 358
 dispatch_note: "PRIORITY: a registered-family level crossed an owner line (370) without the +25 trip. BROCK has not been woken today on my read of ORCH_LOG. TERRY BOARD-only via PROME packet. RED, PROME by BOARD diff."
 event_window: "open"
+status: "PARTIALLY-CORRECTED"
+status_ref: "SIG-W-20261125-022 — CoreWeave's 1,363 pre-open 5-year trade was cancelled (no valid 5-year trade on 11/25 through 11:45 ET; last 1,314 clean [11/24]); Oracle 370 to 377 after the open. HY 372, funding, SoftBank line, VIX and price rows hold."
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-022:** CoreWeave's 1,363 pre-open 5-year trade was cancelled (no valid 5-year trade on 11/25 through 11:45 ET; last 1,314 clean [11/24]); Oracle 370 to 377 after the open. HY 372, funding, SoftBank line, VIX and price rows hold.
+
 # Credit and AI-finance update 11:08 ET: HY spread 372 bp for Nov 24 (+9; 363 [11/23]); CoreWeave 5Y swap 1,314 [11/24], 1,363 to 1,379 pre-open today; SAM's re-roll puts SoftBank's 25% line at Arm $150.1 (central) and Arm is 147.68; VIX high 34.95, now 33.28
 
 # Credit, AI finance and volatility (11:08 ET Nov 25)

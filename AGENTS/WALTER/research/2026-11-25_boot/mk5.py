@@ -1,0 +1,19 @@
+import json
+C=[dict(id="SIG-W-20261125-021",slug="DeLand-St-Johns-NWS-warning-says-forecast-to-reach-crest-record-6.3-ft-official-forecast-6.3-Nov-28-record-6.33-Sanford-8.4-Coastal-Flood-Warnings-NE-Florida-South-Florida-rain-heaviest-in-undeclared-Broward-Miami-Dade",safety_net="clear",event_window="open",
+route_origin="WALTER walter-7f closeout flood check 7j 11/25 11:48 ET",origin=["NWS alerts api 11:49 ET","NWPS DLAF1, SNFF1 11:50 ET","AEOLUS to CORAL 11:47 ET"],signal_type="indicator",
+title="St. Johns at DeLand: NWS warning (09:54 ET Nov 25) says 'forecast to reach its crest record of 6.3 feet'; NWPS forecast 6.3 ft Sat Nov 28 against the 6.33 ft record, 0.03 under; Sanford 8.38; coastal flood warnings northeast Florida; today's heaviest South Florida rain is in undeclared Broward and Miami-Dade",
+body="""# Florida flood check, Wed Nov 25, 11:50 ET
+
+| Object | Read | Basis |
+|---|---|---|
+| DeLand | 5.84 ft at 10:30 ET; forecast **6.3 ft Sat 11/28 13:00 ET** (was 6.2 on 20261124-005); record 6.33 (2022-10-11) | NWPS DLAF1, forecast issued 09:19 ET. The warning says 'forecast to reach its crest record of 6.3 feet' and 'approaches the flood of record'; its bullet says 'steady at 5.9'. **On two decimals the forecast is 0.03 under the record, not a record** |
+| Sanford | 8.38 ft; forecast 8.5 tonight; record 8.96 (2022) | NWPS SNFF1 |
+| Astor | 4.3 ft, major, 4.3 to 4.4 through the weekend | NWS warning |
+| Lake Harney, Cocoa | 13.2 and 18.5 ft, both still above their old records; slow decline | NWS warnings; continuing state |
+| Coastal Flood Warnings | Nassau, Duval, St. Johns, Clay, Flagler, Trout River to 19:00 ET today; inland Flagler and eastern Putnam to **19:00 ET Thursday** | NWS Jacksonville 10:47 ET |
+| South Florida rain | flood advisories Broward, Miami-Dade, eastern Martin; heaviest so far in Broward and Miami-Dade (2 to 3 in, 1 to 3 more), **neither on DR-4956-FL**; a continued watch, not a new one; ends about 01:00 ET Thursday | NWS; AEOLUS to CORAL 11:47 ET |
+
+- **So what:** DeLand (Volusia, not declared) is the next possible record, Saturday. CORAL and AEOLUS already hold the 6.3 forecast; this card puts the warning's wording and the 0.03 gap on the BOARD.""",
+source="api.weather.gov alerts FL 11:49 ET; api.water.noaa.gov NWPS DLAF1 and SNFF1 11:50 ET; AGENTS/CORAL inbox packet from AEOLUS (ef14875b4e)",action=["CORAL"],info=["AEOLUS","SHADE","HOMER","REGINALD","MARCO","RED","PROME"],precedence="IMMEDIATE",confidence=0.9,confidence_language="reports: NWS primary, internal conflict stated",cluster="CLIMATE_MACRO",domain="CLIMATE_MACRO",entities=["St. Johns River","DeLand","Sanford","DR-4956-FL","NWS"],
+dispatch_note="IMMEDIATE by step 7j: the warning text forecasts the crest record; stated 0.03 ft under on NWPS decimals. Florida: CORAL action, AEOLUS info. RED, PROME by BOARD diff.",route_summary="DeLand forecast at its record")]
+json.dump(C,open('AGENTS/WALTER/research/2026-11-25_boot/cards-021.json','w'),indent=1)

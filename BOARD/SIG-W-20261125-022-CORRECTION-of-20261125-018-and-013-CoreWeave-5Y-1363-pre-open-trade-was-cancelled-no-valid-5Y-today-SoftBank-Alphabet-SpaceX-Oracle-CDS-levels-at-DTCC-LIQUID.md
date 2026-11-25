@@ -1,0 +1,40 @@
+---
+signal_id: "SIG-W-20261125-022"
+date: "2026-11-25"
+timestamp: "2026-11-25T16:53:04Z"
+dispatched: "2026-11-25T16:53:04Z"
+source: "AGENTS/WALTER/inbox/processed/2026-11-25_from-LIQUID_correction-card-018-crwv-and-ai-cds-levels.md"
+origin: ["LIQUID packet 67b7e2c92b"]
+action: ["SAM", "VULCAN", "BROCK", "HENRY", "TERRY"]
+info: ["LIQUID", "VIOLET", "REGINALD", "GIBBS", "NEXUS", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "correction"
+confidence: 0.85
+confidence_language: "reports: owner conversion of DTCC trades"
+resources: 1
+safety_net: "clear"
+cluster: "AI_INFRA_CAPEX"
+domain: "AI_CAPEX"
+entities: ["CoreWeave", "Oracle", "SoftBank", "Alphabet", "SpaceX"]
+word_count: 290
+dispatch_note: "PRIORITY correction. Recipients = union of 018 and 013. R1 COR-20261125-22 same commit; banners on both. LIQUID authored it: INFO. TERRY BOARD-only (LIQUID packeted TERRY directly)."
+event_window: "open"
+corrects: ["SIG-W-20261125-018", "SIG-W-20261125-013"]
+corrects_direction: "PARTIAL: 018 CoreWeave 5Y for 11/25 FLIPS to no reading (12% line still met on 11/24); Oracle wider; 013 SoftBank 501 unconfirmed, SpaceX 'record' WEAKENS; HY 372, funding, VIX and SoftBank line rows HOLD"
+kill_strings: ["1,363 to 1,379 pre-open today", "1,363 (95,000 odd lot)"]
+---
+# CORRECTION of 20261125-018 and -013: CoreWeave's 1,363 bp pre-open 5-year trade was CANCELLED by its reporter, no valid 5-year trade on Nov 25 through 11:45 ET (last 1,314 clean, 1,359 dirty [11/24]); the 4-year 1,379 stands; SoftBank, Alphabet, SpaceX, Oracle levels now at DTCC; LIQUID
+
+# AI single-name swaps, LIQUID's DTCC read (its own conversion, good to tens of bp; dirty column is now its headline)
+
+| Card line | Said | Is | Direction |
+|---|---|---|---|
+| 018 CoreWeave 5Y | 1,363 pre-open Nov 25 (odd lot) | **cancelled (EROR row).** 5Y 1,314 clean, 1,359 dirty [11/24]; 4Y 1,379 / 1,429 [11/25 08:20 ET] stands | **FLIPS for today's 5Y (no reading); still above WQ-745's 12% line on 11/24** |
+| 013, 018 Oracle 5Y | 356 [11/24], 362 [11/25 09:47 ET] | 370 clean, 377 dirty [11/25 10:07 to 10:10 ET, three trades] | wider after the open |
+| 013 SoftBank 5Y | 501, undated | 466 / 471 [11/24 Tokyo morning]; 3.5Y 548 / 555 [11/25 09:32 ET]; 5Y today INFERRED about 560 to 600 from one trade | 501 plausible, UNCONFIRMED; today's move is larger |
+| 013 Alphabet | 'widest on record', no level | 96 to 97 [11/24], 95 [11/20]; 'record' not testable | adds level |
+| 013 SpaceX | 'widest on record', no level | 286 to 295 dirty [11/24]; 261 to 265 [11/18]; 290 [10/30] | adds level; **about level with 10/30, so 'record' is doubtful** |
+
+- **Holds:** HY 372 [11/24], confirmed first-published (BB 225, B 405, CCC 1,405, IG 98). LIQUID: GATE-LIQ-069 L1 and L4 not fired on 11/24; tier rule BROADENS (the widening reached higher tiers); +25 bp net not met; no new fire.
+- **Basis:** dirty runs about 5 bp over clean for Oracle and about 45 bp for CoreWeave: name the column.
+- **So what:** card 018's 'single-name stress' reading holds and SoftBank's is worse than the press figure; the CoreWeave 'up again today' line is withdrawn for the 5-year.

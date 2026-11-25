@@ -10,3 +10,8 @@ German Q3 GDP detail	0.1%	CNBC (helper)	NOTE: HANS, no card
 Section 301 proposal	14 partners	Reuters copy	DISPATCH 20261125-006
 DTN weekly retail fertilizer	not checked		OWNER: FERT re-wake D:L1268
 Later today, not elapsed	10:00 new home sales; 10:30 EIA petroleum; 12:00 Freddie Mac (likely); 13:00 7Y; HY for 11/24		OPEN
+New home sales Oct (10:00)	701,000; Sept 676,000 to 614,000	Census CB26-188 read 11:08 ET	DISPATCH 20261125-020; HOMER consumed
+EIA petroleum week 11/20 (10:30)	Cushing 25.613M	BRENT release-day files	DISPATCH 20261125-020; BRENT graded
+HY OAS 11/24 (FRED, posted about 10:20 ET)	372 bp	FRED CSV 11:08 ET	DISPATCH 20261125-018
+DTN weekly retail fertilizer	not read		UNKNOWN: FERT re-wake D:L1268
+Still open after the 16:50Z cutoff	12:00 Freddie Mac (date likely, HOMER did not read it); 13:00 7Y; 16:30 H.4.1 (LIQUID, unverified)		OPEN

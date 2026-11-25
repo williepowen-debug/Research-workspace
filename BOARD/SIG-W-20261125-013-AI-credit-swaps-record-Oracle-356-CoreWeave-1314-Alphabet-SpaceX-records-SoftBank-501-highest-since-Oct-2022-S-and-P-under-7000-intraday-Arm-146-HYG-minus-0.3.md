@@ -19,7 +19,12 @@ entities: ["Oracle", "CoreWeave", "Alphabet", "SpaceX", "SoftBank", "Arm", "HYG"
 word_count: 325
 dispatch_note: "IMMEDIATE. ACTION LIQUID (swaps, HY), VULCAN, SAM (SoftBank 501, Arm), BROCK (alternative managers), HENRY. TERRY BOARD-only. RED, PROME by BOARD diff."
 event_window: "open"
+status: "PARTIALLY-CORRECTED"
+status_ref: "SIG-W-20261125-022 — SoftBank 501 is unconfirmed (DTCC 466/471 [11/24]; today inferred higher); SpaceX 'record' is doubtful (286 to 295, about level with 10/30); Alphabet 96 to 97. Price rows and CoreWeave 1,314 [11/24] hold."
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-022:** SoftBank 501 is unconfirmed (DTCC 466/471 [11/24]; today inferred higher); SpaceX 'record' is doubtful (286 to 295, about level with 10/30); Alphabet 96 to 97. Price rows and CoreWeave 1,314 [11/24] hold.
+
 # AI credit swaps at records in Nov 25 reports: Oracle 5-year 356 bp, CoreWeave 1,314 bp, Alphabet and SpaceX records without levels, SoftBank 501 bp (highest since Oct 2022); S&P 6,992 at 09:41 ET, under HENRY's 7,037 close line and 7,000; HYG only -0.3%
 
 # AI single-name credit against broad credit, Nov 25 (09:41 ET, intraday vendor)
