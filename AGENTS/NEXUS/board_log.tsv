@@ -351,3 +351,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-25T14:51-05:00	SIG-W-20261125-026	noted	INBOX_WALTER	combo:private-credit WSJ 10/27 debt wall, a month old; scope unsettled; not evidence on today
 2026-11-25T14:51-05:00	SIG-W-20261125-031	deferred	INBOX_WALTER	combo:ai-credit CoreWeave $4.5B Meta-contract loan, sale as soon as next week (Bloomberg unread, one relay): first deal-level test of the AI-infrastructure edge; resolver next pass
 2026-11-25T14:51-05:00	SIG-W-20261125-033	deferred	INBOX_WALTER	owner answers: BOND 7Y clean, 2Y/5Y I-prime; FERT G5 FIRED; HENRY goods-led; BROCK beta; WATT no crack; threshold rows (BOND I-prime now owner-graded, FERT MAP) to be updated at next pass
+2026-11-25T16:09-05:00	SIG-W-20261125-035	acted	INBOX_WALTER	combo:ai-credit CORRECTION of 031: indications match size, existing loans near par; lender-stress reading WEAKENS; absorbed in the 11/25 catch-up T-27; COR-20261125-35 NO-OP
+2026-11-25T16:09-05:00	SIG-W-20261125-036	info-only	INBOX_WALTER	combo:ai-credit CORRECTION: two CoreWeave 2031 bonds, no cross-confirmation; COR-20261125-36 NO-OP
+2026-11-25T16:16-05:00	2026-11-25_from-HOMER_apartment-loss-order	acted	INBOX_HOMER	combo:apartment-losses loss order absorbed in STATUS R10, header, threads; my 'not banks' wording corrected; BROCK half owed

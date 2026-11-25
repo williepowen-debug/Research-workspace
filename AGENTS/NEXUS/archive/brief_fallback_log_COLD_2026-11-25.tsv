@@ -1,0 +1,35 @@
+2026-06-08	EXAMPLE	brief-gap	one-line: what the brief should have carried but didn't
+2026-06-16	SAM	stale	brief 6/7 but STATUS 6/15 (BOJ live); read STATUS+TIMELINE direct for hike outcome
+2026-06-16	CARL	stale	no brief exists; read FOMC_PACKET_2026-06-17 + STATUS direct for CPI/labor/Fed read
+2026-06-16	HAWK	convergence	brief 6/8 stale vs Dawn-#5; chased Iran de-escalation thread via BRENT/SAM STATUS
+2026-06-27	BROCK	stale	brief 6/20 behind STATUS 6/26 (BCRED gate-cluster + KBRA record landed after brief); 11-day re-anchor fan-out read raw STATUS
+2026-06-27	HENRY	stale	STATUS itself stale 6/23 (missing 6/24-27 MU/PCE/KOSPI-2nd-CB); no fresh brief; read raw + flagged HENRY STATUS lag to owner
+2026-06-27	VIOLET	stale	brief 6/23 4d stale into 6/27; read raw STATUS for R7 Path-B + negative-gamma detail
+2026-06-27	REGINALD	stale	no NEXUS_BRIEF exists; raw STATUS only (CCC/HY tripwire + Q2 convergence grid)
+2026-06-27	LIQUID	stale	dormant since 5/21; HY OAS/credit covered via OZK/REGINALD/RED/FRED-WebSearch
+2026-07-05	BROCK	stale	brief 6/28 pin-stale vs 7/4 X1 STATUS; read raw STATUS for the wrapper-leads NOT-MET adjudication
+2026-07-05	RED	stale	no NEXUS_BRIEF exists AND STATUS content-stale 6/23 (pre-6/30/NFP); read raw for bull-steelman/counter-signals
+2026-07-05	LIQUID	stale	no brief exists (revived 7/2 from dormancy); read raw STATUS for X1-half/plumbing/demand-hole
+2026-07-17	BROCK	stale	brief 7/9 vs STATUS 7/17 (CCLFX premise-correction session); read the 7/17 outbox memo direct — canonical for the day's premise-kill
+2026-07-17	REGINALD	stale	brief 7/9 vs STATUS 7/16; read raw STATUS — bank-read delivered (benign big-bank cohort, CHG-RED-040 idiosyncratic adjudication, REG-24 65%, CCC/HY 3.6x armed 1-of-3)
+2026-07-17	VULCAN	stale	brief 7/12 vs STATUS 7/17 (useful-life card session); 7/17 memo consumed via PROME packet + direct read
+2026-07-17	LIQUID	stale	brief 7/6 vs STATUS 7/11; read raw STATUS — LIQ-06 pre-reg (HY 265-280 band, tracking CONFIRM), SOFR-short decomposition, dealer-nexus watch
+2026-07-22	REGINALD	stale	brief 7/20 < STATUS 7/21 (WAL/OZK Stage-1 grades post-date brief); read raw STATUS
+2026-07-22	BROCK	stale	brief 7/9 < STATUS 7/20 (welds + marks-window prep + GATE-LIQ-079 all post-date brief); read raw STATUS
+2026-07-24	BRENT	stale	brief 7/23 16:37 < STATUS 7/24 13:05 (USO re-quote + pullback adjudication) — read raw STATUS
+2026-07-24	OSPREY	stale	brief 7/23 12:35 < STATUS 7/24 10:54 (GATE-OSPREY-001 day-5 fire) — read raw STATUS
+2026-07-24	LIQUID	stale	brief 7/18 < STATUS 7/23 21:10 (KB-084/085/086 + 079 backtest) — read raw STATUS
+2026-07-24	CORAL	stale	brief 7/23 13:55 < STATUS 7/24 12:13 (SSB grade + sync-gate closure) — read raw STATUS
+2026-07-28	HENRY	stale	brief 7/23 < STATUS 7/27 (gamma refresh + CPI-date fixes) — read raw
+2026-07-28	BROCK	stale	brief 7/9 vs STATUS 7/27 = 5th consecutive stalest-active flag; read raw (X1 re-test, BRK-32, calendar re-base)
+2026-07-28	SHADE	stale	brief-less by design; read raw for M-11 (Delaware Life primary + weld-2 + FABN canary)
+2026-07-31	HENRY	stale	brief 7/23 < STATUS 7/29 (FOMC grade + HEN-36 gate + gamma refresh) - raw STATUS read
+2026-07-31	RED	stale	brief 7/24 < STATUS 7/29 (S26 FOMC grade, WL-06 fire, re-mark) - raw STATUS read
+2026-08-03	WALTER	brief-gap	Brief-less by design (own BOARD spec) but load-bearing this window - carried the -001 deal-claim-vs-MFA-denial spine and the -005 VELOS AMBER resolution; read raw STATUS. NOT a brief defect, structural.
+2026-08-03	FALCON	stale	Brief pinned 7/30 while STATUS moved 8/2 = trigger (a). Did NOT drill raw STATUS this pass - BRENT brief covered the FALCON-relevant content (Velos Amber, GATE 2 not fired, transits). Re-pin owed; logged not packeted (8 re-pins already outstanding from the 7/31 audit).
+2026-08-07	BROCK	stale	brief 8/3 (proxy) vs STATUS 8/7 — cluster + CCLFX grades consumed at raw STATUS
+2026-08-07	MIDAS	convergence	Will-directed live-session analysis (BRENT+MIDAS spawns); raw STATUS + in-flight packet read pre-commit, fold executed post-commit 20:34; brief was folded 19:47 (Amendment 10 honored) and agrees
+2026-08-12	BOND	stale	Brief pinned 7/28 vs STATUS 8/10 = trigger (a), 13 days. Raw STATUS read and it was DECISIVE — the C-36 adjudication (self-downgrade CONFIRM->CONTESTED ~50%, Will-ruled 8/10) plus T6/T7 frozen tests live ONLY in STATUS. My board had been asserting "BOND has not ruled / oldest open adjudication" for two days. Freshness discipline, NOT brief quality — but the miss cost a wrong line on three of my surfaces.
+2026-08-12	SHADE	convergence	Trigger (b) — exam member #6 (Athene leg 2, ATH Q2 10-Q) coverage check for the frozen split falsifier; the brief cannot carry it because the owner has been dark since 8/4. Raw STATUS confirmed the leg is UNGRADED => #6 NOT REPORTED. Structural (owner-dark), not a brief defect.
+2026-08-12	RED	convergence	CHG-046 ruling read direct from packet (brief 16:59 predates the 17:51 ruling) — branch 4 upheld, window-length reconciliation demolished, falsifier ratio-leg shown inert
+2026-08-12	BRENT	convergence	brief read for the 8/12 crude basis ruling + zero-transit finding; not routed to me, consumed via post-pass commit scan

@@ -28,3 +28,5 @@ receipt_date	correction_id	action	note
 2026-11-25T19:51Z	COR-20261125-16	NO-OP	scope=no live NEXUS surface (STATUS PREDICTIONS_MONITOR CONFIRMED BRIEFS_MAP) carries the corrected claim, grep 2026-11-25, correction logged in board_log; 
 2026-11-25T19:51Z	COR-20261125-22	NO-OP	scope=no live NEXUS surface (STATUS PREDICTIONS_MONITOR CONFIRMED BRIEFS_MAP) carries the corrected claim, grep 2026-11-25, correction logged in board_log; 
 2026-11-25T19:51Z	COR-20261125-23	NO-OP	scope=no live NEXUS surface (STATUS PREDICTIONS_MONITOR CONFIRMED BRIEFS_MAP) carries the corrected claim, grep 2026-11-25, correction logged in board_log; 
+2026-11-25T21:09Z	COR-20261125-35	NO-OP	scope=no live NEXUS surface carries the 031 CoreWeave loan or bond wording, 031 sits only as a deferred board_log row, correction logged there; 
+2026-11-25T21:09Z	COR-20261125-36	NO-OP	scope=no live NEXUS surface carries the 031 CoreWeave loan or bond wording, 031 sits only as a deferred board_log row, correction logged there; 
