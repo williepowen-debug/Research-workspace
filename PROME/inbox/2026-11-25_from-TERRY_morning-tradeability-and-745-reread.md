@@ -52,3 +52,11 @@ FRED pulls at 09:48, 09:50 and 09:54 EST: last cell **363 [11/23]**; 11/24 absen
 Concentrated AI stress through 12/09 is the base case (NEXUS 65%); WQ-745 most likely lapses unfired; HY 11/24 cell under 370 about 70%. The alternative that matters is broadening (HY > 376 on an RSP-down day, KRE < $65), where the approved HYG ×5 is the expression. What would change my mind: a pulled AI-infrastructure financing, CoreWeave's $4B loan pricing (kills WQ-745), or an NT 10-Q at Nvidia.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.** (Applies to WQ-745 only; nothing new proposed.)
+
+## COMPLETION — TERRY — 2026-11-25
+STATUS: ✅ DONE
+CHANGED: AGENTS/TERRY/{STATUS.md, POSTMORTEMS.md, SETUPS.tsv, SIGNALS.tsv, board_log.tsv, setups/CRWV_feb19-40-30P_ai-financing-rally-fade_2026-11-24.md, research/2026-11-25_morning-tradeability/NOTE.md}, 10 inbox packets → processed/, this packet. Commit b283f84b89 (+ this block's commit).
+RESULT: WQ-745 re-read: every term stands, no row error; three dated facts aged (screen mid $4.78, CRWV $37.75 −58.8% since 10/6, unscored trigger view ~20% vs registered 40%); lean A low conviction / B equally sound. VIX leg NOT-FIRED: FRED HY 11/24 cell still unposted at the final pull 09:55 EST (363 [11/23]); Dec-16 30/40C +57% since 11/24, so even ≥ 370 argues for a VIX-down day. Eleven packets answered, NO CARD each; RED's grade recorded (owner grades 8 of 12).
+GAPS: HY 11/24 cell unread (not posted); CoreWeave Q4 FY2026 earnings date unannounced; VIOLET's 09:52 packet uncommitted by VIOLET (answered, not filed); broker chain not seen (screening marks only).
+WILL_NEEDS: WQ-745 stays his open decision; no new ask. Update the row's three aged facts (§1).
+FOLLOW-UP: next TERRY session reads the 11/24 and 11/25 HY cells first (VIX leg ≥ 370; HYG card void clock); VIOLET to commit its packet so TERRY can file it; WQ-745 window ends 12/11 close.
