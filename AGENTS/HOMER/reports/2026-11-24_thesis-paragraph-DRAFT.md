@@ -1,6 +1,6 @@
-# HOMER — thesis paragraph, DRAFT for Will's read (2026-11-24 23:39 ET). NOT ADOPTED: `thesis/THESIS.md` §1 still carries the old wording. REVISED 2026-11-25 on CATO's assessment (`AGENTS/CATO/runs/2026-11-24_2244_recent-commit-accuracy.md`, bf175c2dbf): three phrases narrowed
+# HOMER — thesis paragraph. ADOPTED 2026-11-25 into `thesis/THESIS.md` §1 (Will 09:31 ET; record §12). Drafted 2026-11-24 23:39 ET; REVISED 2026-11-25 on CATO's assessment (`AGENTS/CATO/runs/2026-11-24_2244_recent-commit-accuracy.md`, bf175c2dbf): three phrases narrowed
 
-| Old (§1, 2026-09-29, still in force) | New (draft) |
+| Old (§1, 2026-09-29 to 2026-11-25) | New (adopted) |
 |---|---|
 | **U.S. housing credit stress has moved from ACCUMULATION to CONVERSION.** Residential foreclosures and multifamily loans are turning into completed foreclosures, REO and realized losses. | **U.S. housing credit stress is BUILDING AND CONVERTING at once.** The stock of foreclosures is still growing and more of them are being completed, though year-over-year growth in both is below earlier readings. Multifamily loans are producing realized losses. |
 | Elevated mortgage rates and builder distress are keeping the stress from curing on its own. | High mortgage rates, few cures and a freeze in home sales are narrowing the ways out, and builders are discounting into it. |
@@ -19,5 +19,5 @@ Kill tests, counts, bands and the verdict are untouched. Evidence for each label
 | Construction jobs | early, not settled | −40,200 over 12 months (Oct); the one-month −16,400 drop may rebound |
 | Nonbank servicers | early, not settled | Fitch 11/16 negative outlooks (SECONDARY); no downgrade, breach, draw or transfer found |
 | National nominal price decline | **not showing yet** (regional and real effects: HENRY) | Case-Shiller +2.1% Sept, 16th real decline; no national index falling in dollars |
-| Bank-held apartment loans | early, not settled | FDIC Q3: 1.742% past due plus nonaccrual (1.404% Q2); one bank may explain most of it (INFERRED) |
+| Bank-held apartment loans | early, not settled | FDIC Q3: 1.742% past due plus nonaccrual (1.404% Q2); one bank is about 89% of the rise (REGINALD 2026-11-25; was INFERRED) |
 | Broad bank losses on home mortgages | **not showing yet in HOMER's data** | HOMER holds none; REGINALD owns the read |
