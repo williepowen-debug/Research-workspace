@@ -46,7 +46,7 @@ BRANCHES = [
 
 CFTC_URL = "https://www.cftc.gov/dea/newcot/deafut.txt"
 JPY = "JAPANESE YEN - CHICAGO MERCANTILE EXCHANGE"
-UA = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
+UA = {"User-Agent": "research-bot/1.0"}
 
 
 def pull_raw():

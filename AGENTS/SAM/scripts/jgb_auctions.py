@@ -41,7 +41,7 @@ CATALYSTS_TSV = DOCKET / "CATALYSTS.tsv"
 
 MOF_URL_TEMPLATE = "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul{ymd}.htm"
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
+HEADERS = {"User-Agent": "research-bot/1.0"}
 
 
 def jst_today():

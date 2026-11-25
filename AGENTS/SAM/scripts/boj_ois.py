@@ -73,7 +73,7 @@ def table_url(html):
 
 
 def fetch(url):
-    request = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 SAM research'})
+    request = urllib.request.Request(url, headers={'User-Agent': 'research-bot/1.0'})
     with urllib.request.urlopen(request, timeout=25) as response:
         data = response.read(5_000_001)
     require(len(data) <= 5_000_000, 'Source exceeds size limit')

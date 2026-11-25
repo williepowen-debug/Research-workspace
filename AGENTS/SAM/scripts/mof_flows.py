@@ -42,7 +42,7 @@ WORKBOOK = SAM_DIR / "workbook"
 FLOWS_TSV = WORKBOOK / "MOF_FLOWS.tsv"
 
 MOF_CSV_URL = "https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.csv"
-HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
+HEADERS = {"User-Agent": "research-bot/1.0"}
 
 # Unit: 100M yen. 1 "oku" = ¥100,000,000. ¥1T = 10,000 units.
 OKU_PER_TRILLION = 10000

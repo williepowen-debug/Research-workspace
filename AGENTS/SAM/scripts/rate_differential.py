@@ -25,7 +25,7 @@ OUT_TSV = SAM / "workbook" / "RATE_DIFFERENTIAL.tsv"
 UST_URL = ("https://home.treasury.gov/resource-center/data-chart-center/interest-rates/"
            "daily-treasury-rates.csv/{yr}/all?type=daily_treasury_yield_curve"
            "&field_tdr_date_value={yr}&page&_format=csv")
-HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
+HEADERS = {"User-Agent": "research-bot/1.0"}
 
 BAR_5Y, BAR_10Y, RUN_REQUIRED = 2.25, 1.80, 5
 RESOLUTION_FLOOR_BP = 5.0   # below this, asynchrony dominates; do not call it

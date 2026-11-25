@@ -64,7 +64,7 @@ TSV = WORKBOOK / "TRADE_BALANCE.tsv"
 
 CSV_URL = "https://www.customs.go.jp/toukei/suii/html/data/d41ma.csv"
 XML_URL = "https://www.customs.go.jp/toukei/shinbun/trade-st/{yyyy}/{yyyy}{mm}{stage}.xml"
-HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
+HEADERS = {"User-Agent": "research-bot/1.0"}
 
 STAGE_NAMES = {4: "sokuho", 5: "kakusoku", 6: "kakuho", 7: "kakukakuho"}
 BBL_PER_KL = 6.29

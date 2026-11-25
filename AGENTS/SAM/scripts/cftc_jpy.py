@@ -33,7 +33,7 @@ WORKBOOK = SAM_DIR / "workbook"
 CFTC_TSV = WORKBOOK / "CFTC_JPY.tsv"
 
 CFTC_URL = "https://www.cftc.gov/dea/newcot/deafut.txt"
-HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
+HEADERS = {"User-Agent": "research-bot/1.0"}
 
 JPY_NAME = "JAPANESE YEN - CHICAGO MERCANTILE EXCHANGE"
 

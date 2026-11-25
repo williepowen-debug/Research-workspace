@@ -69,7 +69,7 @@ MOF_CSV_URL = "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate
 # current-month file by ~1 publication, so the two are COMPLEMENTARY, not redundant.
 MOF_HISTORY_CSV_URL = "https://www.mof.go.jp/jgbs/reference/interest_rate/data/jgbcm_all.csv"
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
+HEADERS = {"User-Agent": "research-bot/1.0"}
 
 # Japanese era -> Gregorian offset. Showa 49 = 1974 (first data), Heisei 1 = 1989,
 # Reiwa 1 = 2019. Verified against the file's own first row (S49.9.24) and last (R8.*).

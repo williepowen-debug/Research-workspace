@@ -35,7 +35,7 @@ OUT = SAM / "workbook" / "XCCY_BASIS.tsv"
 UST_URL = ("https://home.treasury.gov/resource-center/data-chart-center/interest-rates/"
            "daily-treasury-rates.csv/{yr}/all?type=daily_treasury_yield_curve"
            "&field_tdr_date_value={yr}&page&_format=csv")
-HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
+HEADERS = {"User-Agent": "research-bot/1.0"}
 
 NEAR, FAR = "6JU26.CME", "6JZ26.CME"          # Sep-2026, Dec-2026
 NEAR_EXP, FAR_EXP = date(2026, 9, 14), date(2026, 12, 14)

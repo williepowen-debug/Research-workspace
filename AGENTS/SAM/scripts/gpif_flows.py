@@ -58,7 +58,7 @@ WORKBOOK = SAM_DIR / "workbook"
 FLOWS_TSV = WORKBOOK / "GPIF_FLOWS.tsv"
 
 GPIF_RESULTS_URL = "https://www.gpif.go.jp/en/performance/latest-results.html"
-HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research)"}
+HEADERS = {"User-Agent": "research-bot/1.0"}
 
 TSV_HEADER = (
     "discovered_date\tperiod_label\treport_type\turl\t"
