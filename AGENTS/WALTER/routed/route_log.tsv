@@ -2393,3 +2393,5 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-25T20:22:23Z	SIG-W-20261125-036	WALTER found it while tracing Will's CoreWeave bookmarks, Will 15:15 ET Nov 25	CoreWeave 2031 bond identity	ROUTINE	LIQUID,BROCK,VULCAN,TERRY	SAM,HENRY,REGINALD,NEXUS,RED,PROME	0.85
 2026-11-25T21:09:23Z	SIG-W-20261125-037	WALTER walter-4d boot flood check 7j, 2026-11-25 16:04 ET	DeLand forecast above its record	IMMEDIATE	CORAL	AEOLUS,SHADE,HOMER,REGINALD,MARCO,RED,PROME	0.95
 2026-11-25T22:05:17Z	SIG-W-20261125-038	Will X bookmark 2125686942897463547 (@exec_sum), read 2026-11-25 17:04 ET	1Password backend breach	PRIORITY	CYPHER	REGINALD,SHADE,VULCAN,RED,PROME	0.9
+2026-11-25T23:16:30Z	SIG-W-20261125-039	Will 18:15 ET Nov 25 ('go'): check CoreWeave's 2027 debt schedule and the bankruptcy claim at the filings	CoreWeave 10-Q debt schedule and EDGAR check	ROUTINE	LIQUID,BROCK,VULCAN,TERRY	SAM,HENRY,REGINALD,NEXUS,RED,PROME	0.95
+2026-11-25T23:16:30Z	SIG-W-20261125-040	Will 18:15 ET Nov 25 ('go'): hand WALTER's co-movement test to SAM and VULCAN (offered 15:47 ET)	Co-movement test hand-off	ROUTINE	SAM,VULCAN	BROCK,LIQUID,HENRY,NEXUS,RED,PROME	0.7
