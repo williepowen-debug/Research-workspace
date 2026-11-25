@@ -238,7 +238,7 @@ Evidence: `reports/2026-11-20_thesis-formal-grade.md`; ledger rows dated 2026-11
 
 | # | Date | Defect | Owed fix |
 |---|---|---|---|
-| D15 | 2026-11-24 | The new measure is **not seasonally adjusted**. Serious delinquency tends to fall early in the year (general knowledge; FHA history NOT read), so Q4-to-Q1 and Q1-to-Q2 falls could satisfy it without relief. The cure conjunct still guards A1 | **READ 2026-11-25 on HUD's basis (not MBA's):** raw rate fell in both Q1 and Q2 in 9 of 11 years. Still 0 of 2 at 2027-02-20 whatever Q4 does. No rewording. Report: `reports/2026-11-25_deeper-read-FHA-newhome-DR4956.md` §2 |
+| D15 | 2026-11-24 | The new measure is **not seasonally adjusted**. Serious delinquency tends to fall early in the year (general knowledge; FHA history NOT read), so Q4-to-Q1 and Q1-to-Q2 falls could satisfy it without relief. The cure conjunct still guards A1 | **READ 2026-11-25 on HUD's basis (not MBA's):** raw rate fell in both Q1 and Q2 in 9 of 11 years. At most 1 of 2 at 2027-02-20; cannot reach 2. Warning only, MBA instrument not validated. Report: `reports/2026-11-25_deeper-read-FHA-newhome-DR4956.md` §2 |
 | D16 | 2026-11-24 | The new measure still falls when a foreclosure **completes**, because the loan leaves the stock. Better than the old wording on entry into foreclosure, not immune on exit | Read C1 (ICE foreclosure sales) beside any A1 fall |
 | D17 | 2026-11-24 | §9 (2026-10-28) "the inflow end is cooling while conversion continues", and §10's "new FC starts −3% YoY (Sept)" as a reason on C1, rest on a one-month base effect: ICE FC starts Q3 ~115.6K vs 103K (+12% YoY). FC sales growth slowed (+41% Dec-25 to +14.5% Sep). Entries left as written; no count, verdict or score moved | Use this row when citing them |
 

@@ -11,6 +11,8 @@
 | Packets | PROME (A1 seasonality input), CORAL (Hardee covered), TERRY (FHA tradeability read) |
 | Inbox | CORAL NFIP packet and SIG-W-20261125-021 consumed |
 
+**2026-11-25 13:43 ET correction:** CATO HF25-1 to -3 and SIG-W-20261125-028 applied (report §1a, PIPELINE, D15, STATUS); TERRY and PROME told. CORAL told (servicing time, not a ban).
+
 ## OWED before close
 
 - **NEXUS_BRIEF rewrite** (figures changed: PMMS, FHA rows, DR-4956, new-home mix, MBA second copy). Last write-back, after the final STATUS commit.
@@ -25,7 +27,7 @@
 
 ## Carry by name until closed
 
-- ATTOM Q3/Sept/Oct not published · Fannie Sept as first published · Fitch primary (8/07, 11/16) · brokers' commissions line at BEA.
+- ATTOM Q3/Sept/Oct not retrieved (404, publication unconfirmed) · Fannie Sept as first published · Fitch primary (8/07, 11/16) · brokers' commissions line at BEA.
 - No new kill tests, bands or rules (Will 11/24 23:33 ET). Registered odds stay frozen.
 - THESIS.md 31.3K bytes, 96% of cap: the next addition needs a move first.
 - PROME docket row 979 (HOM-04) read PENDING at 11/24; resolved HIT 11/20. Not re-checked.

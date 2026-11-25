@@ -25,6 +25,25 @@ Source, ISSUER: HUD FHA Single Family Loan Performance Trends, September 2026 (`
 ⚠️ HUD warns its foreclosure numbers may not reconcile with other FHA reporting. MBA's FHA foreclosure rate is 1.89% and HUD's in-foreclosure is 0.65% raw. Different methods, gap unexplained here: never splice.
 ⚠️ The Oct-2025 FHA process break sits inside every YoY on DELINQUENCY above. Starts and claims carry it less directly, but a loss-mitigation rule change also moves starts.
 
+### 1a. CORRECTION (2026-11-25 13:43 ET, CATO HF25-1 to -3 and WALTER SIG-W-20261125-028; verified by HOMER at the HUD files)
+
+**Omitted above, from the same report:** Table 2, new 90+ day delinquencies, July–September 2026 (HUD FY2026 Q4): **158,492, −18.4% YoY** (194,276); +8.3% on the prior quarter (146,402). HOMER adds: the same-quarter seasonal rise was +24% to +31% in each of 2022–2025, so +8.3% is small for the season. FY2026 total 716,597 against 730,041 (−1.8%): up YoY in the first two quarters (+7.7%, +9.6%), down in the last two (−6.5%, −18.4%).
+
+**And from the FY2026 Annual Report (p.14, Exhibits O-9 to O-17):** HUD says trial plans and one home-retention option per 24 months, in force since October 2025, "**substantially increased the SDQ rate by revealing the delinquencies of borrowers who cycled repeatedly**". Six-month redefault to 90+ after a home-retention option fell from roughly 35% to 17% on the first eligible quarter. HUD is grading its own policy.
+
+| Reading | Evidence for | Evidence against or unmeasured |
+|---|---|---|
+| Fresh distress accelerating | Quarter rose +8.3% raw | −18.4% YoY; rise below the usual season. **Not supported** |
+| Older distress converting | Starts +36%, in foreclosure +51%, claims +57%, while new 90+ falls | Not matched cohorts; no transition rate |
+| Rule change moving the counts | HUD's own statement; a borrower held late through a trial plan cannot re-enter as NEW (INFERRED) | Size of each effect not published |
+| Cure | SA serious rate −24bp in Q3; redefaults lower | No all-loans or FHA cure count in these tables |
+
+**Withdrawn:** "the weakest borrowers are running well ahead" as a statement about fresh distress. It holds for foreclosure activity only. **Serious delinquency +198bp YoY is not a clean credit reading.** "Part is migration" is also corrected: moving from 90+ to foreclosure cannot lower the combined serious rate, since both are inside it; the 24bp is exits, cures and denominator growth, unsplit. Claims paid are mostly completed foreclosures, not a sale count for the month.
+
+**§2:** the 9-of-11 count is HUD frequency, a provisional warning; it does not validate MBA's first-print instrument. The MBA history is still wanted. At 2027-02-20 the count is **at most 1 of 2**. A test that cannot fire then is not fresh evidence for the thesis.
+**§5:** the further 90 days is servicing time, NOT a second ban; starts may resume after 2027-02-21/22. 13.4% of housing units is not an FHA exposure share.
+**Publication status:** ICE and ATTOM pages returned 404 = **not retrieved, publication unconfirmed**.
+
 ## 2. A1's seasonality gap (THESIS D15): answered on the HUD basis
 
 | Test | Result, HUD raw serious rate, Dec to Mar to Jun, 2016–2026 |
