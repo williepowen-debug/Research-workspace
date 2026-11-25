@@ -122,3 +122,36 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-18T13:11:17-05:00	SIG-W-20261117-024	noted	INBOX_WALTER	Item 7 (Treasuries pain-trade title, Bloomberg) logged KB-BND-591; positioning claim unverified, 11/17 curve moved 0 to -3bp. Item 2 private credit is BROCK.
 2026-11-18T13:11:17-05:00	SIG-W-20261118-003	noted	INBOX_WALTER	ECB FSR: Box 7 hedge funds in euro sovereign repo and leveraged sovereign investors logged KB-BND-590 combo:BOND/euro-rates; reserve-requirement talk is LIQUID funding. No score moved.
 2026-11-18T13:11:17-05:00	SIG-W-20261118-004	noted	INBOX_WALTER	UK CPI 3.6/core 2.8 (ONS read) logged KB-BND-590; Fitch private credit 6.2% logged KB-BND-591 for BROCK. No score moved.
+2026-11-25T13:25:31-05:00	SIG-W-20261118-010	noted	INBOX_WALTER	HY 343 [11/17] and LIQUID >320 x3; superseded by BOND own pull: HY 352-376 [11/19-11/24], VX-BND-02 3 -> 4, BND-34 TRUE (KB-BND-597).
+2026-11-25T13:25:31-05:00	SIG-W-20261118-012	noted	INBOX_WALTER	September TIC: official holdings -80.9B on price and bills, LT coupons bought +27.6B (ZHAO grade) logged KB-BND-599 combo:foreign-official context. No score.
+2026-11-25T13:25:31-05:00	SIG-W-20261118-013	noted	INBOX_WALTER	FOMC minutes Oct 27-28: further hikes likely, a couple >25bp in December if inflation unfavorable; logged KB-BND-599. Path read is HENRY and BOND; no score.
+2026-11-25T13:25:31-05:00	SIG-W-20261119-012	noted	INBOX_WALTER	Small items: unnamed Fed official hawkish (relay) logged context only in KB-BND-599 notes; rest not BOND.
+2026-11-25T13:25:31-05:00	SIG-W-20261119-019	noted	INBOX_WALTER	HANS grades: France UST holdings 332.0bn Sep; ECB supervisory plan. HANS lane; no BOND row.
+2026-11-25T13:25:31-05:00	SIG-W-20261120-001	noted	INBOX_WALTER	FLASH VIX>30 11/20 AI/chip selloff; 10Y rally context in KB-BND-598/599.
+2026-11-25T13:25:31-05:00	SIG-W-20261120-002	noted	INBOX_WALTER	Michigan Nov final: 1y inflation expectations 3.7, long-run 3.3; logged KB-BND-599.
+2026-11-25T13:25:31-05:00	SIG-W-20261120-006	noted	INBOX_WALTER	Item 12 Treasury haven-bid titles (combo:BOND/safe-haven-bid) folded into KB-BND-599 rates-weekly; FT-11 FUNDAMENTAL grade is RED.
+2026-11-25T13:25:31-05:00	SIG-W-20261121-001	noted	INBOX_WALTER	LATE FLASH VIX +5; MOVE 106.31 (+10.69%) logged KB-BND-599; HY 352 [11/19] graded in KB-BND-597.
+2026-11-25T13:25:31-05:00	SIG-W-20261123-001	noted	INBOX_WALTER	Nvidia CEO reinstated, risk-on 11/23; context for the 2Y auction day; VULCAN lane.
+2026-11-25T13:25:31-05:00	SIG-W-20261123-002	acted	INBOX_WALTER	HY 376 [11/20]; BOND graded VX-BND-02 3 -> 4 and BND-34 TRUE on its own FRED pull (KB-BND-597).
+2026-11-25T13:25:31-05:00	SIG-W-20261123-003	noted	INBOX_WALTER	CORRECTION of 20261121 cards (VIX timing, Bahrain, 7037 line): no BOND artifact cites them; COR-20261123-03 receipted NO-OP.
+2026-11-25T13:25:31-05:00	SIG-W-20261123-008	noted	INBOX_WALTER	Item 6 9-day bill (3.910%, cover 3.97, bridges month-end) logged KB-BND-599; ING data-center loan auction is VULCAN and BROCK.
+2026-11-25T13:25:31-05:00	SIG-W-20261123-010	acted	INBOX_WALTER	2Y 11/23 graded by BOND grader: REGISTERED I-prime fire 51.54 vs 54.67, counter 2 -> 0 (KB-BND-593); TIPS 11/19 REGISTERED CLEAN (KB-BND-592). WALTER arithmetic matches to 2dp.
+2026-11-25T13:25:31-05:00	SIG-W-20261123-013	noted	INBOX_WALTER	CORRECTION GMI Cloud and FT dates: not BOND; COR-20261123-13 receipted NO-OP.
+2026-11-25T13:25:31-05:00	SIG-W-20261123-014	noted	INBOX_WALTER	RED-FT-11 provisional on par: RED graded FUNDAMENTAL (RED packet 11/25); BOND agrees, no reply owed.
+2026-11-25T13:25:31-05:00	SIG-W-20261123-020	noted	INBOX_WALTER	Euro area flash PMI 51.7: HANS lane; no BOND row.
+2026-11-25T13:25:31-05:00	SIG-W-20261123-026	noted	INBOX_WALTER	RED-FT-11 precondition met on FRED; RED graded FUNDAMENTAL; context in KB-BND-598.
+2026-11-25T13:25:31-05:00	SIG-W-20261123-027	noted	INBOX_WALTER	Williams 11/23 text: inflation simply too high; logged KB-BND-599.
+2026-11-25T13:25:31-05:00	SIG-W-20261124-001	noted	INBOX_WALTER	LATE FLASH VIX premarket >30 11/24; VIOLET lane.
+2026-11-25T13:25:31-05:00	SIG-W-20261124-002	noted	INBOX_WALTER	REG-T-04 fired (HY >350 x3, REGINALD); BOND own row VX-BND-02 graded separately (KB-BND-597).
+2026-11-25T13:25:31-05:00	SIG-W-20261124-010	acted	INBOX_WALTER	5Y 11/24 graded by BOND grader: REGISTERED I-prime fire 54.28 vs 59.42, OLD indirect leg -0.03pp residual on competitive-accepted basis, counter stays 0; WQ-291 window opened (KB-BND-594).
+2026-11-25T13:25:31-05:00	SIG-W-20261124-012	noted	INBOX_WALTER	Williams to reporters: would not exclude consecutive moves; logged KB-BND-599.
+2026-11-25T13:25:31-05:00	SIG-W-20261124-015	noted	INBOX_WALTER	FDIC Q3 unrealized securities losses 486B; logged KB-BND-599; REGINALD lane.
+2026-11-25T13:25:31-05:00	SIG-W-20261124-018	acted	INBOX_WALTER	Item 12 Commerzbank weighs partial exit from US Treasury trading: opened combo:treasury-dealer-exits as owner (PROME 11/25), KB-BND-600. Rest not BOND.
+2026-11-25T13:25:31-05:00	SIG-W-20261124-021	noted	INBOX_WALTER	CORRECTION CIA/ODNI breach: not BOND; COR-20261124-21 receipted NO-OP.
+2026-11-25T13:25:31-05:00	SIG-W-20261124-023	noted	INBOX_WALTER	G.17 annual revision, Ifo, Australia CPI: not BOND rows.
+2026-11-25T13:25:31-05:00	SIG-W-20261125-004	noted	INBOX_WALTER	JGB 40Y 11/25 cover 2.625, lowest of four 2026 auctions, 4.090%: logged KB-BND-599 (JGB rule: price leg only, not US composition).
+2026-11-25T13:25:31-05:00	SIG-W-20261125-005	noted	INBOX_WALTER	FLASH VIX >30 11/25 premarket; 10Y 4.84 context in KB-BND-598.
+2026-11-25T13:25:31-05:00	SIG-W-20261125-006	noted	INBOX_WALTER	Section 301 proposal: ZHAO and VULCAN lane; no BOND row.
+2026-11-25T13:25:31-05:00	SIG-W-20261125-007	noted	INBOX_WALTER	October PCE 3.8 / core 3.3, Q3 GDP 4.3: logged KB-BND-599; HENRY owns the macro read.
+2026-11-25T13:25:31-05:00	SIG-W-20261125-014	noted	INBOX_WALTER	Section 301 update: not BOND.
+2026-11-25T13:25:31-05:00	SIG-W-20261125-015	noted	INBOX_WALTER	CORRECTION China 301: not BOND; COR-20261125-15 receipted NO-OP.

@@ -15,3 +15,7 @@ receipt_date	correction_id	action	note
 2026-10-29T10:04Z	COR-20261021-02	APPLIED	artifact=AGENTS/BOND/workbook/KB.tsv#KB-BND-514; validation_ref=AGENTS/BOND/workbook/KB.tsv#KB-BND-079; 
 2026-10-29T10:04Z	COR-20261022-14	NO-OP	scope=BOND logged no GENIUS or stablecoin-rewards row from SIG-W-20261021-025 (KB grep 10/29 empty) and no BOND surface cites the dropped-rewards framing; 
 2026-11-18T18:08Z	COR-20261117-02	NO-OP	scope=BOND logged nothing from card 20261116-005 item 8 (Credit Acceptance), KB-BND-581 and 582 carry other items of that card, and workbook/KB.tsv has no Credit Acceptance row; 
+2026-11-25T18:21Z	COR-20261123-03	NO-OP	scope=VIX +5 timing, Bahrain and 7037 line: no BOND artifact cites the corrected cards 20261121-001 -002 -004; 
+2026-11-25T18:21Z	COR-20261123-13	NO-OP	scope=GMI Cloud and FT guarantees dates: AI-financing items are VULCAN and BROCK, no BOND row cites 20261116-005 item 2; 
+2026-11-25T18:21Z	COR-20261124-21	NO-OP	scope=CIA and ODNI breach item 8 of 20261124-018: not a BOND subject, no BOND row cites it; 
+2026-11-25T18:21Z	COR-20261125-15	NO-OP	scope=China Section 301 chip and server duty: ZHAO and VULCAN figures, no BOND row cites cards 20261125-006 or -014; 

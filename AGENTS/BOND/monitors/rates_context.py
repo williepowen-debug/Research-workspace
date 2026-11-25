@@ -370,7 +370,7 @@ def _now_et():
 def record_calendar() -> int:
     """HUMAN STEP: fetch the Fed's calendar page once and RECORD it (never called at boot)."""
     import urllib.request
-    req = urllib.request.Request(FOMC_URL, headers={"User-Agent": "Mozilla/5.0"})
+    req = urllib.request.Request(FOMC_URL, headers={"User-Agent": "research-bot/1.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
         dates = parse_fomc_calendar(r.read().decode("utf-8", "replace"))
     bad = year_count_issues(dates)
@@ -488,7 +488,7 @@ def term_premium(today: dt.date) -> int:
         import tempfile
         import urllib.request
         import xlrd
-        req = urllib.request.Request(ACM_URL, headers={"User-Agent": "Mozilla/5.0"})
+        req = urllib.request.Request(ACM_URL, headers={"User-Agent": "research-bot/1.0"})
         with urllib.request.urlopen(req, timeout=60) as r, tempfile.NamedTemporaryFile(suffix=".xls") as tmp:
             tmp.write(r.read()); tmp.flush()
             sh = xlrd.open_workbook(tmp.name).sheet_by_name("ACM Daily")

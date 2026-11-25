@@ -45,7 +45,7 @@ REPO = __import__("subprocess").check_output(["git","rev-parse","--show-toplevel
 sys.path.insert(0, os.path.join(REPO, "FORGE/tools/market-data"))
 
 STALE_ENDPOINT_DAYS = 4
-UA = {"User-Agent": "Mozilla/5.0 (BOND/dm_cross_section)"}
+UA = {"User-Agent": "research-bot/1.0"}
 
 
 def _get(url, timeout=45):
