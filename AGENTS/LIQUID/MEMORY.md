@@ -6,7 +6,7 @@
 
 - **Context:** REG-T-04 FIRED (HY 352, 376, 363 [11/19, 11/20, 11/23]); my ISSUANCE-FREEZE leg; my gates on the 11/20 and 11/23 cells; forward view; TERRY re-read. Fleet was offline 20:55 ET 11/23 to 22:20 ET 11/24.
 - **Delivered:** ISSUANCE-FREEZE = NOT A FREEZE, SELECTIVE (20 named deals; Proofpoint 8.5% inside talk 11/18; IG $46.5B 25 bp inside talk; UST Global loan pulled 11/16; ING DC auction short 11/20; Fullscript to private credit). US HY weekly volume UNMEASURED (paywalled); year-ago week $6.405B. **GATE-LIQ-072 leg 2 FIRED (IG 98 [11/20]), first since 7/9**, routed HENRY + NEXUS via WALTER. **GATE-LIQ-069 L4 FIRED 11/20** (IREN −17.97%, APLD −17.81%, NBIS −16.11%, HY +24), 3 legs, no new consequence. CoreWeave 5Y about 1,314 bp [11/24]. HY-REKILL 0 of 2; X1 CLOSED; 079 not armed. PROME's servicer addition answered (memo §3). Memo `PROME/inbox/2026-11-24_from-LIQUID_D-L1252-issuance-freeze-read.md`, commit dd2be18962. The harness refused a desk report file, so the memo is the evidence record.
-- **Open:** inbox drain deferred (3 packets + 27 WALTER cards); 076 W1 as-of 11/17 addendum; `gate069_legs.py` newest-session-only blind spot (KB-LIQ-163); 11/24 ICE cell; freeze test the week of 11/30.
+- **Open:** inbox drain deferred (3 packets + 27 WALTER cards); 076 W1 as-of 11/17 addendum; `gate069_legs.py` newest-session-only blind spot (KB-LIQ-164); 11/24 ICE cell; freeze test the week of 11/30.
 
 ### PRIOR SESSION — 2026-11-20T11:22 ET, closed on PROME's ask (PROME prome-77, G:GATE-LIQ-076 due-row wake launched late, laptop, Claude Code / Opus 5.5; stamp 2026-11-20T11:29:00-05:00)
 
