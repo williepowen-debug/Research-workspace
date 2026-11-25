@@ -1,3 +1,22 @@
+## 2026-11-25T19:05:39Z TIER 2 FULL CLOSEOUT — walter-7f, laptop, Wed 11/25 checkpoint, Will's word 14:01 ET ('Lets do a checkpoint here. We will clear the window and reboot')
+
+Clears the two light breadcrumbs below (CATO follow-up; bookmarks). Since the 16:54Z full closeout: cards 023 (correction of 010's title), 024 to 028 (bookmarks, two WSJ articles pasted by Will, FHA), 029 IMMEDIATE (observed record tides). 1 kill, 0 cluster_mediating. FILTER POSTURE unchanged. Near-trigger: DeLand 6.3 against 6.33; Humboldt 9.624 rising. Errors: LAST_COMPLETION GAPS.
+
+### STATUS text rotated verbatim at this closeout
+
+**Updated:** 2026-11-25T16:53:57Z — walter-7f on the laptop: **Tier 2 FULL closeout** on Will's 11:47 ET word; no light breadcrumbs owed. Will reboots WALTER at once. Duties: LAST_COMPLETION.md.
+
+**November 25 (2026-11-25T18:18:37Z):** 20261125-026 and -027 (two WSJ private-equity articles, read whole, Oct 27 and July 7); -028 (FHA new 90+ delinquencies, HOMER). BOARD 2,373.
+
+**November 25 bookmarks (2026-11-25T17:52:39Z):** 15 read; 20261125-024 (CoreWeave bonds, CCC yield) and -025 (small items). BOARD 2,370. Light closeout; full deferred (2 breadcrumbs).
+
+**November 25 after the closeout (2026-11-25T17:43:45Z):** 20261125-023 corrects 010's title on CATO's review; 015, 014, 018 labels fixed. 12:42 ET vendor S&P 7,121.48, VIX 31.41 (12:27). BOARD 2,368. Light closeout; full deferred (1 breadcrumb).
+
+**November 25 day (walter-7f, laptop; PROME boot request 09:00 ET; full closeout on Will's 11:47 ET word, immediate reboot planned):** cards 20261125-005 to -022. **005 FLASH: VIX over 30 premarket and all morning, high 34.95 at 09:45 ET (33.86 at 11:36 ET, delayed).** 006 IMMEDIATE Section 301 proposal; 015 corrects it and 014 (China notice charges chips and servers up to 10%). 007 IMMEDIATE 8:30 data. 009 and 021 IMMEDIATE tides and DeLand (forecast 6.3 ft Sat 11/28 against 6.33). 013 IMMEDIATE AI swaps; 022 corrects 013 and 018 (CoreWeave 1,363 cancelled). 016 corrects 008 and 010 (Brent January was UP 2.3%). 017 MOFCOM clock to 1/27. 018 HY 372 [11/24]. 019 Florida DR-4956-FL confirmed. 020 owner outcomes, new home sales, EIA. No RED, REG, CREED or HANS row newly fired (THRESHOLD-SCAN addendum). 11:51 ET vendor: S&P 7,007.48 (low 6,970.11), Arm 148.20, HYG 76.32. PROME woke every desk on Will's 11:36 and 11:41 ET words; returns by 11:52: BROCK, WATT, LIQUID, CORAL, AEOLUS to CORAL; HENRY, VULCAN and AEOLUS to PROME still out. Detail: LAST_COMPLETION.
+
+
+REGISTRY refreshed at this full closeout (step 13, 2026-11-25T16:53:57Z): Updated and Focus mirrored from owner STATUS lead headers for SAM, BROCK, BRENT, LIQUID, VIOLET, ZHAO, TERRY, WATT, VULCAN, ISHM (HOMER and PROME have no current dated lead header; stated in their rows). Status colours not re-derived; HENRY and others committing after this stamp are not in it. Live in ListAgents this morning: prome-77, homer-2f (homer closed at 11:38 ET). PROME-run subagents are not visible to WALTER: UNKNOWN, not dark. 20261125 rows delivered; 0 cluster_mediating.
+
 ## 2026-11-25T17:52:39Z light-closeout — full deferred — walter-7f, laptop, bookmarks (Will 12:48 ET)
 
 Cards 20261125-024, -025; 15 bookmarks, 1 kill. No trigger fire. BOARD 2,370.

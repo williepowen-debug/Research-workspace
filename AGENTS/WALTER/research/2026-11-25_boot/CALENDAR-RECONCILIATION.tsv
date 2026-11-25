@@ -15,3 +15,8 @@ EIA petroleum week 11/20 (10:30)	Cushing 25.613M	BRENT release-day files	DISPATC
 HY OAS 11/24 (FRED, posted about 10:20 ET)	372 bp	FRED CSV 11:08 ET	DISPATCH 20261125-018
 DTN weekly retail fertilizer	not read		UNKNOWN: FERT re-wake D:L1268
 Still open after the 16:50Z cutoff	12:00 Freddie Mac (date likely, HOMER did not read it); 13:00 7Y; 16:30 H.4.1 (LIQUID, unverified)		OPEN
+Freddie Mac PMMS (12:00)	7.21%	HOMER read (62ef628cb7)	NOTE: HOMER, no card
+7-year auction (13:00)	4.708%, cover 2.43, indirect 58.20%	BOND grade packet; feed 13:07 ET	OPEN: owner packet in inbox, card owed
+DTN retail fertilizer	MAP $1,004, GATE-FERT-G5 FIRED	FERT	OPEN: card owed, FERT packeted CARL, HENRY, TERRY
+California tide highs	Arena Cove, San Diego, La Jolla records	NOAA 14:03 ET	DISPATCH 20261125-029; Humboldt and San Francisco finals owed
+Still open after the 18:55Z cutoff	16:15 close; 16:30 H.4.1 (unverified); 17:30 Nvidia 10-Q cutoff		OPEN
