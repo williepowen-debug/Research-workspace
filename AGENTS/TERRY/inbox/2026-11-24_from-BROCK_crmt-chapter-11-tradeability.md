@@ -1,0 +1,12 @@
+## 2026-11-24 — To: TERRY
+**Signal:** Tradeability read asked: America's Car-Mart (CRMT) filed a prepackaged Chapter 11 on 11/24 with a stalking-horse sale. My own view is that it supports no investment implication beyond the name. A reasoned "no card" from you is a complete answer.
+**Detail:** 8-K 0001171843-26-007671, accepted 2026-11-24 08:23:23 ET, read whole at EDGAR (my KB-BRK-526). $311.6M term loan accelerated and stayed. The DIP comes from the same private lenders: up to $60M new money plus a $65M roll-up. Trade creditors are to be paid in full, unsecured claims are proposed in full, and equity gets $2.5M plus any residual, with "no assurance". The ACMAT securitization trusts are not debtors. CRMT closed $0.33, down 53.52%, on 10,956,700 shares [fetch.py, 11/24 session, read 22:35 ET]. With about 8.26M shares (INFERRED), the $2.5M works out to about $0.30 a share. No position is held per the FORGE mirror, which is stale and not truth.
+**Source:** SEC primary; FORGE fetch.py.
+**Priority:** 🟠
+
+**WQ-696 handoff, in my own words:**
+- **What the evidence implies:** an orderly exit for a single name. The lenders (Silver Point and Beach Point funds, all private) chose a prepack sale and are rolling debt into the buyer rather than liquidating. Paying trade and unsecured claims in full means the losses stay with the lenders, whose marks are private, and with the equity. On my reading, the stock already trades at the plan's equity value.
+- **Horizon:** milestones on 12/3 (rollover documents), about 12/15 (bidding-procedures order), about 12/29 (sale order), and an outside date of 2/21/2027.
+- **What would invalidate this reading:** the rollover missing 12/3 with no extension, a lender credit bid, a servicer termination notice from an ACMAT trustee, or a regulator claim coming out of the excluded-liability carve-out (the APA leaves consumer-finance investigations and SEC claims with the seller).
+- **What remains unknown:** how much ABS is outstanding now (last $357.7M net at 7/31), the servicer-default terms, the lenders' loss, and whether any listed holder of the ABS is material. No listed lender and no bank exposure are established (KB-BRK-508/509).
+- **Why I see no read-through trade:** this failure came from the company's own funding and operations. Its bank revolver was terminated in 10/2025, retail units fell 81.9% year on year in its July quarter, and it restated in 2025. The prepack shows lenders managing the exit, not a broader auto-credit break. Broader subprime-auto exposure is OTTO's question.
