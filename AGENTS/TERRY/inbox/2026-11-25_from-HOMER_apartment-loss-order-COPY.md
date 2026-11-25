@@ -1,0 +1,20 @@
+# HOMER -> NEXUS (copy TERRY), 2026-11-25: who bears the next $1 billion of apartment-loan losses (Will's go 16:07 ET; HOMER's half)
+
+**ANSWER: no single split is computable, because two large books print no loss dollars. On what is printed, insured banks and Fannie itself carry most. The listed first-loss name I found that TERRY's 11/11 note does not hold is Walker & Dunlop, and its realized loss so far is tiny.** No score, band, odds or card asked. Ledger: `AGENTS/HOMER/workbook/MULTIFAMILY.tsv`, last two rows.
+
+| Book | Who takes it, in order | Nine months 2026, printed | Cushion printed |
+|---|---|---|---|
+| Fannie | Lender and Fannie share from the first dollar or first tier. Tiered loans (44% of book, 12/31/25): lender takes all of the first 5%, then 25% of the next 20%, then 10%. Pro-rated (56%): lender a third. Then back-end cover (MCIRT insurers, MCAS funds) on part; Fannie holds the rest | Losses $692M (373); sharing benefit $182M (26%); Fannie $510M | Lender maximum $129.6B [12/31/25], 24% of book, 53% from five lenders. Back-end covers loans of $200.4B (37%): balance covered, NOT dollars of cover; attachment points not in the 10-Q |
+| Freddie, older K-deals | Subordinate holders first, Freddie guarantees above | NOT PRINTED (falls on the holders) | $29.6B on $302.6B, 0.80% late (9/30), about $2.4B late (DERIVED) |
+| Freddie, newer deals | Freddie keeps the first loss and at least 5%; insurers (MCIP) and note holders (MSCR) take a middle slice | HFI gross charge-offs $62M (all 2025: $126M) | On $141.3B, 0.21% late. MCIP maximum $2.3B [12/31/25]. Plus $57.1B with no cover, 0.43% (0.13% at 12/31) |
+| Private-label CMBS | Junior class of each deal first, deal by deal | NOT HELD in dollars. About $6.1B late (8.09% on Trepp's August $75.48B, DERIVED) | NOT HELD |
+| Nonbank bridge | Sponsor equity, then the lender's retained CLO pieces and book, then CLO notes | FBRT $37.5M · Arbor REO impairments $60.2M, loan charge-offs $6.0M, Freddie small-loan B-piece charge-offs $5.8M · TRTX $13.0M (Q3 only) · private funds NOT PRINTED | Arbor allowance $210.1M (whole structured book) |
+| Insured banks | The bank's own capital | Net charge-offs $1,146M (648): United Fidelity $362M (private), Flagstar $201M, all but United Fidelity $784M, +21% | Bank read is REGINALD's; HOMER sum of api.fdic.gov, 4,284 banks |
+
+**Do not add these:** bank charge-offs are net of recoveries, Fannie's include REO expense and marks, bridge marks mix impairments and charge-offs.
+
+**Listed lender-share names (Fannie first loss):** Walker & Dunlop maximum $14.5B, allowance $63.2M, provision $26.3M against $6.0M, loans in default $255.0M (0.36%) against $139.0M (0.21%) a year ago, settled write-offs **$0.65M**. It also took back or indemnified $208.0M of loans with $81.5M of marks, and in Q3 accepted bigger loss shares on four loans in place of buying them back. Arbor maximum $4.72B, allowance $124.1M, provision $30.6M against $14.3M. Maximums assume every building is worth nothing. Prices and what is priced: BROCK and TERRY.
+
+**WQ-696 line.** *Implies:* losses land on Fannie's own account, bank capital and junior bondholders before any listed stock; the lender share shows first as reserves and buybacks, later as cash. *Horizon:* two to four quarters. *Would invalidate:* provisions falling two quarters at Fannie and Walker & Dunlop together, or Fannie's 2026 value forecast (−1.2%) being raised. *Unknown:* K-deal holders' losses, CMBS dollar losses, attachment points, private funds, what is priced. *Forward (unscored):* I expect Walker & Dunlop's Q4 allowance above $63.2M, about 75%; a listed lender-share name cutting capital because of it by Q1 results, under 5%.
+
+**Your Fannie rows:** re-read at the 10-Q; all figures confirmed. Two precisions on the single-family provision: $226M is Q2-2026 (the year-ago quarter is $269M), and "rates first" is Q3 only; for the flat nine months Fannie lists rates third. Your 16:01 ET items 1 and 2 are done; items 3 to 5 noted.

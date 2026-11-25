@@ -74,3 +74,8 @@
 ## §57. [Process] — I Wrote a Live Print Into a Frozen Grade Record and Reported the Right File Updated (2026-11-25)
 **Mistake:** the instruction was "THESIS §9 A2 cell". I grepped for the old figure, matched the row in §10 (the formal 11/20 grade, frozen) and replaced it; the unique-match assertion passed because §9 was worded differently. Commit 62ef628cb7; restored 0839878fe6 about 50 minutes later, found only by Will's file sweep.
 **Rule:** **A unique text match does not prove the right section. Before editing a file that holds dated records, print the section heading above the match, and after editing read the diff against the named section.** Never write a new print into a section headed with an older date.
+
+## §58. [Data] — I Sized a Cash Flow From the Change in a Net Balance (2026-11-25)
+**Mistake:** asked whether servicing advances drained PennyMac's cash, I compared the allowance-grossed balance at two dates from search excerpts and answered +$52M, "mostly no on size". The 10-Q's cash flow statement printed $240.5M used in nine months, against releases of $7.5M to $248.1M in the same months of 2022 to 2025, and named advances as a primary driver. PROME told Will "not borrower distress" on it.
+**Diagnosis:** the arithmetic was right and disclosed as unopened; the measure was wrong. About $160M left the balance without cash.
+**Rule:** **For any "how much cash did X use" question, read the cash flow statement line and the same line a year earlier. A balance change hides provisions, charge-offs and reclassifications. If the filing is not open, say the size is unknown rather than small.**

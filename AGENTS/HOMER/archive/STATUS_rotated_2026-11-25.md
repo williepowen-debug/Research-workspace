@@ -21,3 +21,17 @@
 ## BOTTOM LINE
 
 **2026-11-25 — thesis paragraph adopted on Will's "ok go" (09:31 ET); partial data update (Claude Code, Opus 5.5).** ① **Thesis §1 now says stress is building AND converting, with transmission labelled by channel** (THESIS §12); kill tests, scores, odds and 🔴 unchanged; A1 UNGRADED, its two questions sent to PROME. ② **New-home sales: the 701K headline is not a recovery:** Sept was cut 676→614K, neither change is significant, and the average price fell 12.1% YoY (significant). ③ **Residential investment −3.4%, confirmed.** ④ **Florida declaration CONFIRMED (DR-4956-FL), so FHA foreclosures there pause to ~2027-02-22: slower foreclosure data in those counties is relief policy, not cure.** ⑤ **Bank-held apartment loans:** United Fidelity is ~89% of the FDIC Q3 rise (REGINALD); ex that bank ~1.41→1.43%. ⑥ No band changed colour; no thesis leg fired; no HENRY trigger. **Will decision required: none.** **Not done: PMMS (posts 12:00 ET, after close).**
+
+---
+
+Rotated 16:15 ET 2026-11-25 (third session BOTTOM LINE and vintage line, verbatim):
+
+## BOTTOM LINE
+
+**2026-11-25 — deeper read on Will's word (11:49 ET); report `reports/2026-11-25_deeper-read-FHA-newhome-DR4956.md`.** ① **FHA: old distress is converting; fresh distress is not shown accelerating.** Q3 starts +36% YoY, in foreclosure +51%, but new 90+ −18.4% YoY (HUD). **Corrected 13:43 (CATO, WALTER).** HUD says its Oct-2025 rules raised the serious rate. ② **A1 seasonality:** a warning on HUD's basis (9 of 11 years); at most 1 of 2 at 2027-02-20. ③ **New-home average −12.1%: about half or more is mix;** the Q3 fall was mostly not. ④ **Florida FHA pause covers seven counties to 2027-02-21/22.** ⑤ PMMS 7.21%, spread ~230bp. ⑥ The 11/20 grade row, overwritten at 13:14, was restored. ⑦ **Cleanup pass (Will 14:29 ET): both October Trepp highs are about one loan each (Cove, Blackjack); 'no Trepp balance held' was wrong.** No band changed colour; no leg fired; no HENRY trigger; registered odds unchanged. **Will decision required: none.**
+
+✅ **11/25 (second session, boot 12:50 ET):** PMMS, HUD FHA Sept performance, new-home mix, residential-investment components, DR-4956 relief perimeter, MBA second copy. **Not retrieved (404), publication unconfirmed:** ICE First Look Oct · ATTOM Q3; not found: Apartment List Nov. Not checked: FMHPI Oct, Redfin wk 11/22. **11/24** full refresh · **11/20** formal grade, 0 of 5 killed → `reports/2026-11-20_thesis-formal-grade.md`. Older → `archive/STATUS_rotated_2026-11-25.md`.
+
+Closed §C item moved at the same time:
+
+- ✅ **Trepp maturity-adjusted MF — DATED KILL EXECUTED 2026-10-15** (absent at source Jul–Sep). Leg re-spec'd onto MF special servicing (replacement instrument). Row RESOLVED on the docket.

@@ -137,7 +137,7 @@ Rule lives at: CLAUDE.md CLOSEOUT 1c → `LESSONS_COLD.md` §37
 Rule lives at: NEXUS_BRIEF DO-NOT-CITE (Realtor.com list price as a lead) → `LESSONS_COLD.md` §43
 ---
 
-**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–57 ↔ `LESSONS_COLD_2.md` (14). Counts must match.
+**Index integrity:** §1–43 ↔ `LESSONS_COLD.md` (43) · §44–58 ↔ `LESSONS_COLD_2.md` (15). Counts must match.
 
 **44. [Instrument] — A Shared Date Label Is Not a Shared As-Of (the spread pairing that manufactured a 15bps move)**
 **Rule:** For any spread pairing a **SURVEY** series against a **DAILY** series, match the daily leg to … → `LESSONS_COLD_2.md` §44
@@ -180,3 +180,6 @@ Rule lives at: CLAUDE.md Standing peer edges → `LESSONS_COLD_2.md` §48
 
 **57. [Process] — I Wrote a Live Print Into a Frozen Grade Record**
 **Rule:** A unique text match does not prove the right section; print the heading above the match, read the diff after, never write a new print under an older-dated heading … → `LESSONS_COLD_2.md` §57
+
+**58. [Data] — I Sized a Cash Flow From the Change in a Net Balance**
+**Rule:** For any "how much cash did X use" question read the cash flow statement line and its prior-year pair; a balance change hides write-offs, provisions and reclassifications … → `LESSONS_COLD_2.md` §58

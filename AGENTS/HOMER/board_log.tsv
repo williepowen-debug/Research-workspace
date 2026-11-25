@@ -176,3 +176,4 @@ SIG-W-20261001-013	2026-10-02	noted-off-domain	electricity price = ENERGY/BLS; H
 2026-11-25T19:19Z	SIG-W-20261125-029	INFO-LOGGED	INBOX_WALTER	NOAA record tides CA 11/25 (preliminary); AEOLUS owns the observed read; no property-damage or housing figure in the card; no HOMER row moved
 2026-11-25T19:35Z	SIG-W-20261125-030	INFO-LOGGED	INBOX_WALTER	second record-tide card; AEOLUS owns the read; exposure signal, no loss or housing figure; no HOMER row moved
 2026-11-25T19:35Z	SIG-W-20261125-033	INFO-LOGGED	INBOX_WALTER	owner-answer digest; HOMER line matches 3d6eed2e83; CORAL NFIP 1,157 already held from its 11/25 packet; no HOMER row moved
+2026-11-25T21:15Z	SIG-W-20261125-037	INFO-LOGGED	INBOX_WALTER	DeLand forecast 6.4 ft vs 6.33 record; Volusia and Seminole already on the flood watch row (ZHVI baseline), not declared; forecast only, no HOMER row moved

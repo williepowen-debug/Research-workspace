@@ -39,14 +39,14 @@ Each row is the LAST observation, dated. Reachability changes; re-test before ca
 | Treasury par curve | works 11/24 | `home.treasury.gov/...daily-treasury-rates.csv` |
 | FRED | works 11/25 (earlier HTTP/2 errors: retry `--http1.1`) | carries BEA and BLS lines |
 | HUD FHA performance | works 11/25; **filenames vary** | `hud.gov/sites/default/files/Housing/documents/FHALPT-SEPT2026.pdf`; try underscore and hyphen forms. Annual report `2026FHAAnnualReportMMIFund.pdf`. Read EVERY table (LESSONS §56) |
-| ICE First Look | works 11/25 | `mortgagetech.ice.com/resources/data-reports/first-look-at-<month>-<year>-mortgage-data` (September 200; a bare `/first-look` is 404); issuer PDF on `s2.q4cdn.com/154085107/files/doc_news/` (title-based name); Business Wire copy. Oct-2025 edition came 2025-11-26 |
+| ICE First Look | works 11/25 | `mortgagetech.ice.com/resources/data-reports/first-look-at-<month>-<year>-mortgage-data` (September 200; a bare `/first-look` is 404); issuer PDF on `s2.q4cdn.com/154085107/files/doc_news/` (title-based name); Business Wire copy. Oct-2025 edition came Tue 2025-11-25 (Mondo Visione copy; corrected from 11/26) |
 | ICE Mortgage Monitor | read 11/11 | `mortgagetech.ice.com/publicdocs/mortgage/ICE_Mortgage_Monitor_<Mon>_<YYYY>.pdf` (month abbreviation varies) |
 | ATTOM | works 11/25 (August 200) | `/news/market-trends/foreclosures/<month>-2026-foreclosure-market-report/`; the Q3-2025 form was `q3-and-september-2025-...`. Sept, Oct, Q3 2026 and that form all 404 on 11/25 |
 | Trepp | TreppTalk works; DQ PDF at `trepp.com/hubfs` read 11/05 | full special-servicing PDF not reached |
 | Apartment List | works 11/25 | CSV name on `apartmentlist.com/research/category/data-rent-estimates` (ctfassets) |
 | S&P Case-Shiller | `press.spglobal.com` works 11/24 | the Cotality-hosted page once served stale data |
 | NAHB | read 11/20 | HMI history `.xls` (`xlrd` is in `.venv`); NAHB Eye On Housing carries BEA residential |
-| SEC EDGAR · api.fdic.gov · OpenFEMA | work 11/24–25 | EDGAR needs the contact string SEC requires; confirm a disaster declaration at OpenFEMA, not press |
+| SEC EDGAR · api.fdic.gov · OpenFEMA | work 11/24–25 | EDGAR 10-Qs open with `sec_ua("HOMER-Research {}")` from `scripts/sec_contact.py` (used 11/25; never write the address in a file); confirm a disaster declaration at OpenFEMA, not press |
 | MIAMI REALTORS | October release read 11/23 by a retrieval helper; empty to curl | issuer site |
 | Fannie Monthly Summary | 403 to automation 11/24 | Will supplied October's PDF; quarter-end values from the 10-Q at EDGAR |
 | MBA (mba.org) | 403 site-wide | `newslink.mba.org`; CalculatedRisk verbatim copies (SECONDARY) |
