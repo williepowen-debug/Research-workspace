@@ -1,0 +1,153 @@
+
+Food Price Outlook - Update and Revision History | Economic Research Service
+ Skip to main content
+Skip to main content
+ An official website of the United States government 
+Here’s how you know
+Here’s how you know
+Official websites use .gov
+A 
+.gov
+ website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A 
+lock
+ ( 
+Lock
+Locked padlock icon
+) or 
+https://
+ means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Economic Research Service
+U.S. DEPARTMENT OF AGRICULTURE
+Menu
+Topics
+Data
+Access the Data
+Access and analyze data sets, maps, charts and graphs.
+Browse All Data
+Data by Type
+Access the Data
+Charts
+Downloadable Data Files
+Queryable Data Applications
+Maps
+Data by Topic
+Explore the Data Repository
+Animal Products
+Crops
+Farm Bill
+Farm Economy
+Farm Practices & Management
+Food & Nutrition Assistance
+Food Choices & Health
+Food Markets & Prices
+Food Safety
+International Markets & U.S. Trade
+Natural Resources & Environment
+Rural Economy & Population
+Analysis
+Understand the Research
+Get insights and objective analysis from experts in the field.
+Browse All Analysis
+Research Reports
+Published Papers from ERS
+Outlook Reports
+Agricultural Outlooks and Projections
+Amber Waves
+The Economics of Food, Farming, Natural Resources, and Rural Amer…
+Charts of Note
+Fast facts on U.S. agriculture
+Newsroom
+Newsroom
+See what's new and what's trending from ERS.
+Visit the Newsroom
+Events
+Trending Topics
+Contact ERS Press Office
+Subject Specialists
+Amber Waves
+Calendar
+About
+Careers
+Contact Us
+Search
+Breadcrumb
+Home
+Data Products
+Food Price Outlook
+Update and Revision History
+Food Price Outlook - Update and Revision History
+Updated:
+ 8/31/2026
+Contact:
+Hayden Stewart
+, 
+Diansheng Dong
+ or 
+Wilson Sinclair
+In this section
+Food Price Outlook
+Summary Findings
+Documentation
+Update and Revision History
+Food Price Environment: Interactive Visualization
+The ERS Food Price Outlook (FPO) periodically updates and improves the FPO forecasting methods. This page compiles updates and revisions to the data since 2023.
+For information about methods used to produce the FPO, see the 
+documentation
+.
+August 25, 2026
+Errata: 
+On August 25, 2026, an error in the code pulling data from the Bureau of Labor Statistics to calculate the 20-year average annual rate of price change for wholesale wheat flour reported in the PPI forecast table was corrected to extract the correct 20-year period of data. No other food categories or data elements were affected and the error did not affect any of the Food Price forecasts.
+April 30, 2026
+The Federal Government shutdown in Autumn 2025 resulted in a series of delays in the Bureau of Labor Statistics (BLS) release of monthly Producer Price Index (PPI) data that lasted through March 2026. The release of December 2025 PPI data, for example, was delayed from January 14, 2026 to January 30, 2026. BLS similarly pushed back the release of PPI data for January 2026 from February 12, 2026 to February 27, 2026.  When generating monthly food price forecasts, ERS researchers use the most recent Consumer Price Index (CPI) and PPI data available at the time. FPO forecasts released in January 2026 use CPI data through December 2025 and PPI data through November 2025, while FPO forecasts released in February 2026 use CPI data through January 2026 and PPI data through December 2025.
+ERS researchers also produce 
+data visualizations
+ and 
+charts on essential aspects of food and agriculture
+ that compare changes in food-related CPI with changes in non-food CPI. However, since FPO forecasting models exist only for food and agriculture-related CPI and PPI, ERS researchers needed a different procedure for estimating the value of the missing October 2025 data. For these other, non-food CPI, ERS researchers estimated the value of the missing October 2025 data using a simple average of the CPI’s published value during September 2025 and its published value during November 2025. ERS then used these average values in place of the missing October 2025 data when estimating price changes for those product categories.  
+January 23, 2026
+In January 2026, ERS resumed FPO updates after the October 1, 2025, to November 12, 2025, Federal Government shutdown. The BLS suspended CPI and PPI data collection during this time. BLS did not publish CPI data for October 2025. FPO forecasting methods rely on 13 to 14 years of complete data. Values are needed for each month of each of those years. To generate FPO forecasts, ERS researchers estimated values for the missing BLS data using the autoregressive integrated moving average (ARIMA) model detailed in the ERS report, 
+Time-Series Methods for Forecasting and Modeling Uncertainty in the Food Price Outlook
+ (TB-1957). ERS researchers continue to use these estimated values when forecasting food price changes as CPI data from the BLS remain unavailable for October 2025.
+September 25, 2023
+In September 2023, ERS revised the historical data series to enable reproducible estimates from the pseudo-random number generation process used to produce the prediction intervals. Monthly forecasts, as originally published between January and August 2023, are available in the 
+archived data files
+.
+July 25, 2023
+In July 2023, ERS discontinued producing forecasts based on the forecasting methods used since 2011, described in the ERS Technical Bulletin 
+How USDA Forecasts Retail Food Price Inflation
+ (TB-1940). Records of monthly forecasts as originally published are available as 
+archived data files
+ since 2003 for the CPI and 2014 for the PPI.
+January 25, 2023
+In January 2023, ERS updated the primary forecasting method used in the USDA Food Price Outlook, as described in the ERS Technical Bulletin 
+Time-Series Methods for Forecasting and Modeling Uncertainty in the Food Price Outlook
+ (TB-1957). The food price forecasts produced using these methods are based entirely on statistical models that are fitted to recent trends in the data. The forecasts are presented as a midpoint and a 95-percent prediction interval, a change from the previous approach that presented the forecasts using fixed-width forecast ranges. The prediction intervals vary in size based on the level of uncertainty about the forecast and narrow over the forecast period as more data become available.
+The updated methods are described in TB-1957, with the exception that natural log transformations are applied to all series during forecasting. Using natural log transformations ensures all price forecasts are above zero. Following forecasting, exponential transformations allow the forecasts to be included in Equation 1a from TB-1957.
+For a summary of the changes to the forecasting methods implemented in January 2023, see 
+ERS Refines Forecasting Methods in the Food Price Outlook
+.
+We’d welcome your feedback!
+Would you be willing to answer a few quick questions about your experience?
+Yes, I’ll give feedback
+Return to top
+ERS Links
+Accessibility
+Careers
+Contact Us
+Help
+Information Quality
+Privacy Policy
+Site Map
+USDA Links
+FOIA
+Non-Discrimination Statement
+Plain Writing
+Report Fraud
+USDA.gov
+USA.gov
+White House.gov
+ERS E-newsletters
+Subscribe
+Economic Research Service

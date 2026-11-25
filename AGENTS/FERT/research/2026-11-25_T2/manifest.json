@@ -1,0 +1,82 @@
+[
+ {
+  "file": "2026-11-25_T2/overview.html",
+  "url": "https://www.ers.usda.gov/data-products/food-price-outlook",
+  "bytes": 48604,
+  "sha256": "b28ebe45107af840e68032bf88e2f5cb4ce6655c66218876277bd0d324d44524",
+  "retrieved": "2026-11-25 00:20-00:23 ET, plain curl default client",
+  "kept_in_repo": "text extract only (.txt)"
+ },
+ {
+  "file": "2026-11-25_T2/summary.html",
+  "url": "https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings",
+  "bytes": 51932,
+  "sha256": "f2f24af3876ef5ac8e7d1745e95c5b5d92b70643d7702e6fcab23c0fd8a44afd",
+  "retrieved": "2026-11-25 00:20-00:23 ET, plain curl default client",
+  "kept_in_repo": "text extract only (.txt)"
+ },
+ {
+  "file": "2026-11-25_T2/revision-history.html",
+  "url": "https://www.ers.usda.gov/data-products/food-price-outlook/update-and-revision-history",
+  "bytes": 41567,
+  "sha256": "963fd28766c4728569c737636346412de8a2eecba036b82e32e624a90bbd020d",
+  "retrieved": "2026-11-25 00:20-00:23 ET, plain curl default client",
+  "kept_in_repo": "text extract only (.txt)"
+ },
+ {
+  "file": "2026-11-25_T2/current-cpi.csv",
+  "url": "https://www.ers.usda.gov/media/6460/changes-in-consumer-price-indexes-2024-through-2027.csv?v=51489",
+  "bytes": 29513,
+  "sha256": "2b8d0f94668bb3fa10383206a8e47829ae99838bf9c3d012d07a124f7dfb3495",
+  "retrieved": "2026-11-25 00:20-00:23 ET, plain curl default client",
+  "kept_in_repo": "yes (raw)"
+ },
+ {
+  "file": "2026-11-25_T2/history-cpi.csv",
+  "url": "https://www.ers.usda.gov/media/6464/historical-consumer-price-index-cpi-forecast-series.csv?v=89710",
+  "bytes": 1886986,
+  "sha256": "369b4a41bc5f928fc05748d208480da098aae6641b984f9d6cb89191b1443567",
+  "retrieved": "2026-11-25 00:20-00:23 ET, plain curl default client",
+  "kept_in_repo": "no (hash only)"
+ },
+ {
+  "file": "2026-11-25_T2/current-ppi.csv",
+  "url": "https://www.ers.usda.gov/media/6468/changes-in-producer-price-indexes-2024-through-2027.csv?v=58470",
+  "bytes": 14219,
+  "sha256": "19e418ded7be9dc2374673460c74e57cfbc9a59d4ed78972e18dc8f6cb031f60",
+  "retrieved": "2026-11-25 00:20-00:23 ET, plain curl default client",
+  "kept_in_repo": "no (hash only)"
+ },
+ {
+  "file": "2026-11-25_T2/usda-schedule-nov23-24.html",
+  "url": "https://www.usda.gov/about-usda/reports-and-data/agency-reports?field_publish_date_value[min]=2026-11-22&field_publish_date_value[max]=2026-11-25 (HTTP 403 to this client; not retried with another client string)",
+  "bytes": 435,
+  "sha256": "a005d2ddebbe3a017d5b2092ccc0e60eb1db9807e75ac1b25ee367c7fbe85b23",
+  "retrieved": "2026-11-25 00:20-00:23 ET, plain curl default client",
+  "kept_in_repo": "no (hash only)"
+ },
+ {
+  "file": "2026-11-25_G5/crops-index.html",
+  "url": "https://www.dtnpf.com/agriculture/web/ag/crops",
+  "bytes": 227429,
+  "sha256": "00bb9a333a227971e1272444c8b9b78ed377f54e815a03251b6012498a4efa63",
+  "retrieved": "2026-11-25 00:20-00:23 ET, plain curl default client",
+  "kept_in_repo": "no (hash only)"
+ },
+ {
+  "file": "2026-11-25_G5/dtn-2026-11-18.html",
+  "url": "https://www.dtnpf.com/agriculture/web/ag/crops/article/2026/11/18/5-8-major-fertilizer-prices-edge",
+  "bytes": 185027,
+  "sha256": "f5e57ed0980b443f2801386afdcb6a6b4275fd90d9b478b60270d094db77bcf5",
+  "retrieved": "2026-11-25 00:20-00:23 ET, plain curl default client",
+  "kept_in_repo": "no (hash only)"
+ },
+ {
+  "file": "2026-11-25_T1/ipl-tender.html",
+  "url": "https://www.indianpotash.org/tender.html",
+  "bytes": 34301,
+  "sha256": "2b35579923aea293f2b09ba1a9d4ee9d800f95386e2b1d0fc82130a15cc77900",
+  "retrieved": "2026-11-25 00:20-00:23 ET, plain curl default client",
+  "kept_in_repo": "no (hash only)"
+ }
+]
