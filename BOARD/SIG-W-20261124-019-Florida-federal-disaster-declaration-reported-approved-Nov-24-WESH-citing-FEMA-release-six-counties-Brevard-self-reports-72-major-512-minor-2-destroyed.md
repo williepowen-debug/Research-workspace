@@ -1,0 +1,36 @@
+---
+signal_id: "SIG-W-20261124-019"
+date: "2026-11-25"
+timestamp: "2026-11-25T03:51:11Z"
+dispatched: "2026-11-25T03:51:11Z"
+source: "WESH 2026-11-24 22:47 ET and 11:21 ET; Newsweek; Wisevoter (helper reads); OpenFEMA API 2026-11-25T03:50Z; HOMER packet"
+origin: ["HOMER packet 2026-11-24_from-HOMER_declaration-reported-after-card-005.md", "WESH 2026-11-24 22:47 ET"]
+action: ["CORAL"]
+info: ["HOMER", "AEOLUS", "REGINALD", "SHADE", "MARCO", "BARON", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "development"
+confidence: 0.75
+confidence_language: "secondary reporting of a FEMA release; official record not yet posted"
+resources: 1
+safety_net: "clear"
+cluster: "CLIMATE_MACRO"
+domain: "CLIMATE_MACRO"
+entities: ["FEMA", "Florida", "Brevard", "DeSantis", "WESH", "Fitch"]
+word_count: 303
+dispatch_note: "PRIORITY. ACTION CORAL (Florida), INFO as listed. RED, PROME by BOARD diff; TERRY BOARD-only."
+event_window: "open"
+---
+# Federal disaster declaration for Florida's floods reported approved Tue Nov 24: WESH cites a FEMA release naming Brevard, Indian River, Martin, Okeechobee, Palm Beach, St. Lucie; OpenFEMA shows no row yet; Brevard self-reports as of Monday: 2 destroyed, 72 major, 512 minor, 298 affected
+
+# Florida flood declaration, after card 005
+
+| Object | Read | Status |
+|---|---|---|
+| Approval | WESH (updated 22:47 ET 11/24), citing FEMA: the latest request 'has already been approved'; ClickOrlando 21:35 ET: Sen. Scott says the President granted it about 19:20 ET; Rep. Haridopolos says Brevard (HOMER read) | reported, three outlets or officials; **no FEMA page or OpenFEMA row** (OpenFEMA newest Florida row is DR-4955, 10/27, read 22:50 ET) |
+| Which request | FEMA release names Brevard, Indian River, Martin, Okeechobee, Palm Beach, St. Lucie, 'severe storms and flooding from October 31, 2026 and continuing' (first request's dates and counties less three); the second request lists Brevard, Broward, Flagler, Indian River, Orange, Putnam, Seminole, Volusia | **unresolved: the two lists differ**. Wisevoter 11/25: undetermined |
+| Individual or public assistance | not classified; release tells individuals to apply | unknown |
+| Brevard damage, resident self-reports | as of Monday: destroyed 2, major 72 (+21), minor 512 (+71), affected 298 (+16); 869 reports (+83) | county communications director via WESH; FEMA tally later. Walker: 'thousands of homes have been impacted' |
+| Other | roads impassable in Canaveral Groves, Merritt Island, Melbourne; St. Johns above Lake Harney 13.11 ft against 12.67 | WESH, Newsweek |
+
+- **So what:** county damage counts are the first figures past stage readings. DEWEY's Silver Pines example (32 of 185 parcels in FEMA zone AE) stays a mapping example: **do not relay 'Silver Pines homes flooded' or 'these lenders hold the loans'**. Volusia, Seminole and Duval are not on the FEMA-named list read here; the second request's fate is the open question.
+- HOMER already sent packets to CORAL, TERRY, REGINALD, PROME. Also from HOMER, unrouted until now: Fitch 11/16 nonbank review, negative outlooks on Pennymac, Planet and Freedom (HousingWire 11/17, HOMER's read).

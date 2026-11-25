@@ -1,3 +1,7 @@
+## 2026-11-25T03:52:02Z TIER 1 LIGHT CLOSEOUT — full deferred — walter-7f, laptop, Tue 11/24 night (resumed 22:27 ET after a fleet outage since 11/23 evening; Will: "please try to resume")
+
+Cards SIG-W-20261124-001 to -019 (001 late FLASH VIX, 002 REG-T-04 FIRED, 003 Car-Mart Chapter 11, 004 and 006 IMMEDIATE; 019 Florida declaration reported). Flood check first (Will 11/23 17:18 ET), 23 marked. Lane 11/24 three versions: 539 titles skimmed, BM-20261125-01 closed 6/6, marked. Bookmarks BM-20261125-02 61/61, marked. DEWEY and HOMER packets processed. Cluster labels MACRO_RATES, GEOPOL, AI_CAPEX, CONSUMER_CREDIT were not canonical on 008 to 014; fixed on BOARD the same night (the handoffs carry the ID only). Not done: filter review (owed, Will 11/23), full 7i, STATUS scan rows beyond the bottom line.
+
 ## 2026-11-23T22:29:42Z TIER 2 FULL CLOSEOUT — walter-7f, laptop, Mon 11/23, Will's word 17:20 ET in this session ('Okay lets do full close out now')
 
 Cards SIG-W-20261123-016 to -029; corrections 023 (COR-20261123-23) and 025 (COR-20261123-25). 29 BOARD cards for 11/23, 2 IMMEDIATE, 0 cluster_mediating. Iran full sweep (022). Spec changes: ROUTING_TABLE, OVERLAYS, CARVEOUTS v0.52 then v0.53; CLAUDE.md and BOOT_PROTOCOL step 7j; tools/flood_alerts.py with 5 tests (AEOLUS found one hole, fixed). Near-trigger: REG-T-04 2 of 3; ZHAO rural NPL 2.895 at 2.9; BZF27 89.34, boundary 2 at 75 not near. Errors: LAST_COMPLETION GAPS.
