@@ -32,7 +32,9 @@ from collections import defaultdict
 
 EXCEL_URL = "https://www.twc.texas.gov/sites/default/files/oei/docs/warn-act-listings-2026-twc.xlsx"
 SOCRATA_BASE = "https://data.texas.gov/resource/8w53-c4f6.json"
-UA = "Mozilla/5.0 (LABOR research agent; Texas WARN monitor)"  # gov sites 403 w/o a UA
+# One honest client string (WQ-735, Will 2026-11-23 13:57 ET; both TX sources passed it 11/23).
+# On a refusal: never switch back or try another identity; mark the reading unavailable, tell PROME.
+UA = "research-bot/1.0"
 
 
 def _to_iso(v):

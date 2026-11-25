@@ -5,9 +5,13 @@ BD-35 / L-33. On 2026-09-17 a fetch tool's summary of dol.gov/ui/data.pdf return
 complete, plausibly-shaped claims release (213,000 / 216,000 / 1,641,000) for a document
 that said 206,000 / 207,000 / 1,774,000. This tool closes that path:
 
-  1. download the primary with curl, trying request shapes in order (the DOL/BLS wall
-     flips with request shape — L-24: bare curl → DOL PDF, research-bot UA → BLS HTML,
-     browser UA → an Akamai stub), each with a dated cache-busting query string;
+  1. download the primary with curl in ONE request that identifies itself honestly as
+     "research-bot/1.0" from the first byte (WQ-723 option A, Will 2026-11-20 12:16 ET;
+     record PROME/proposals/2026-11-20_wq722-723-RULED.md). There is no second identity
+     and no retry: a refusal (HTTP 401/403/429, a challenge or block page, a stub) ENDS
+     the attempt — stop and use another source (FRED, the DOL release PDF), and say so.
+     Root CLAUDE.md § Data Hygiene, Blocked sites: never change an identity string to get
+     past a block. The browser identity string that used to be the third try is deleted;
   2. save the bytes and REJECT anything that is not the document (wrong magic bytes,
      block/stub pages, tiny bodies) — a rejected fetch is UNKNOWN, never "as summarized";
   3. text-extract the saved file (pdfminer for PDF, tag-strip for HTML);
@@ -24,7 +28,8 @@ USAGE
 EXIT CODES
   0  document fetched + extracted, every --expect figure FOUND
   1  document fetched + extracted, at least one --expect figure NOT FOUND
-  2  UNKNOWN — no request shape returned the document, or extraction failed
+  2  UNKNOWN — the one honest request did not return the document (refused or failed;
+     the attempt is over), or extraction failed
 
 Run from anywhere; pdfminer comes from the repo venv (.venv/bin/python3).
 """
@@ -37,12 +42,10 @@ import re
 import subprocess
 import sys
 
-UAS = [
-    ("bare-curl", None),
-    ("research-bot", "research-bot/1.0"),
-    ("browser", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0 Safari/537.36"),
-]
+# The ONE client string this tool sends, on every request, from the first request (WQ-723 A).
+# Never add a second identity or a fallback list here; a refusal ends the attempt.
+CLIENT = "research-bot/1.0"
+REFUSAL_CODES = {"401", "403", "429"}
 
 # Bodies that are a wall, not the document. Matched case-insensitively on the first 4 KB.
 BLOCK_MARKERS = [r"access denied", r"request rejected", r"captcha", r"are you a robot",
@@ -87,36 +90,33 @@ def rejection(data, want_kind):
 
 
 def fetch(url, out_dir, bust=True):
+    """ONE request as CLIENT. Returns (path, tries); path is None if it was refused or failed.
+
+    No retry of any kind: not under another identity, not on the plain URL after the
+    cache-busted one. A refusal ends the attempt (WQ-723 A)."""
     want = "pdf" if url.lower().split("?")[0].endswith(".pdf") else None
     stamp = dt.datetime.now().strftime("%Y%m%d%H%M")
-    urls = []
-    if bust:
-        urls.append(url + ("&" if "?" in url else "?") + f"_={stamp}")
-    urls.append(url)
-    tries = []
-    for u in urls:
-        for name, ua in UAS:
-            cmd = ["curl", "-s", "-L", "--max-time", "40", "-w", "%{http_code}", "-o", "-"]
-            if ua:
-                cmd += ["-A", ua]
-            cmd.append(u)
-            try:
-                r = subprocess.run(cmd, capture_output=True, timeout=60)
-            except subprocess.TimeoutExpired:
-                tries.append(f"{name} {u}: timeout")
-                continue
-            body, code = r.stdout[:-3], r.stdout[-3:].decode("ascii", "ignore")
-            why = None if code == "200" else f"HTTP {code}"
-            why = why or rejection(body, want)
-            tries.append(f"{name} {'busted' if u != url else 'plain'}: HTTP {code}, "
-                         f"{len(body)} B, {kind_of(body)} -> {'OK' if not why else 'REJECT: ' + why}")
-            if not why:
-                ext = {"pdf": ".pdf", "html": ".html"}.get(kind_of(body), ".txt")
-                base = re.sub(r"[^A-Za-z0-9._-]+", "_", url.split("://", 1)[-1])[:80]
-                path = out_dir / f"{dt.date.today():%Y-%m-%d}_{base}{'' if base.endswith(ext) else ext}"
-                path.write_bytes(body)
-                return path, tries
-    return None, tries
+    u = url + ("&" if "?" in url else "?") + f"_={stamp}" if bust else url
+    shape = "busted" if bust else "plain"
+    cmd = ["curl", "-s", "-L", "--max-time", "40", "-w", "%{http_code}", "-o", "-",
+           "-A", CLIENT, u]
+    try:
+        r = subprocess.run(cmd, capture_output=True, timeout=60)
+    except subprocess.TimeoutExpired:
+        return None, [f"{CLIENT} {shape}: timeout -> FAILED, attempt ended (no retry)"]
+    body, code = r.stdout[:-3], r.stdout[-3:].decode("ascii", "ignore")
+    why = None if code == "200" else f"HTTP {code}"
+    why = why or rejection(body, want)
+    if not why:
+        ext = {"pdf": ".pdf", "html": ".html"}.get(kind_of(body), ".txt")
+        base = re.sub(r"[^A-Za-z0-9._-]+", "_", url.split("://", 1)[-1])[:80]
+        path = out_dir / f"{dt.date.today():%Y-%m-%d}_{base}{'' if base.endswith(ext) else ext}"
+        path.write_bytes(body)
+        return path, [f"{CLIENT} {shape}: HTTP {code}, {len(body)} B, {kind_of(body)} -> OK"]
+    refused = code in REFUSAL_CODES or why.startswith("block/stub") or why.startswith("body ")
+    verdict = "REFUSED" if refused else "FAILED"
+    return None, [f"{CLIENT} {shape}: HTTP {code}, {len(body)} B, {kind_of(body)} -> "
+                  f"{verdict}: {why}; attempt ended (no second identity, no retry)"]
 
 
 def extract(path):
@@ -160,8 +160,11 @@ def main(argv=None):
         for t in tries:
             print(f"  try  {t}")
         if not path:
-            print("UNKNOWN: no request shape returned the document. Do NOT fall back to a "
-                  "fetch-tool summary (L-33); grade nothing from this source.")
+            print("UNKNOWN: the one honest request did not return the document; the attempt "
+                  "is over. Do NOT retry under another identity (root Data Hygiene, Blocked "
+                  "sites) and do NOT fall back to a fetch-tool summary (L-33); grade nothing "
+                  "from this source — use another source (FRED, the DOL release PDF) and name "
+                  "the refusal in your packet.")
             return 2
     else:
         ap.error("give a URL or --file")

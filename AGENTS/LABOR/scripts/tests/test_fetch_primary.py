@@ -48,5 +48,40 @@ run("random bytes rejected", bytes(range(256)) * 12, [], 2, "UNKNOWN", suffix=".
 run("plain-text release accepted", "THE EMPLOYMENT SITUATION -- SEPTEMBER 2026\nTotal nonfarm payroll employment changed little (+29,000).\n" * 30, ["--expect", "29,000"], 0, suffix=".txt")
 run("missing file is UNKNOWN", b"", [], 2)
 
+# --- WQ-723 A (2026-11-25): one honest client string, one request, a refusal ends it ---
+import subprocess as _sp
+
+
+def fetch_case(name, stdout, want_path, want_calls=1):
+    calls = []
+
+    def fake_run(cmd, **kw):
+        calls.append(cmd)
+        return _sp.CompletedProcess(cmd, 0, stdout=stdout, stderr=b"")
+
+    real = F.subprocess.run
+    F.subprocess.run = fake_run
+    try:
+        path, tries = F.fetch("https://example.gov/x.htm", TMP)
+    finally:
+        F.subprocess.run = real
+    ua_ok = all("-A" in c and c[c.index("-A") + 1] == "research-bot/1.0" for c in calls)
+    no_browser = not any("Mozilla" in " ".join(c) for c in calls)
+    ok = (len(calls) == want_calls and ua_ok and no_browser and (path is not None) == want_path)
+    print(f"{'PASS' if ok else 'FAIL'}  {name}: {len(calls)} request(s), path {'set' if path else 'None'}, "
+          f"tries {tries}")
+    if not ok:
+        FAILED.append(name)
+
+
+fetch_case("403 refusal: exactly one request, honest UA, attempt ends", b"Forbidden" * 10 + b"403", False)
+fetch_case("200 Akamai stub: one request, no second identity", ("<html>Access Denied</html>" * 100).encode() + b"200", False)
+fetch_case("500 server error: no retry either", b"err" + b"500", False)
+fetch_case("200 real page: one request, saved", body.encode() + b"200", True)
+_src_ok = "Mozilla" not in pathlib.Path(F.__file__).read_text()
+print(f"{'PASS' if _src_ok else 'FAIL'}  no browser string anywhere in the module source")
+if not _src_ok:
+    FAILED.append("browser string still in module source")
+
 print(f"\n{len(FAILED)} failure(s)")
 sys.exit(1 if FAILED else 0)
