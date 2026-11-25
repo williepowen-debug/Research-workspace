@@ -1,6 +1,6 @@
 # FERT — Predictions scoreboard
 
-**LIVE — created 2026-10-28** (Will-approved; peer-comparison gap 3; model = LABOR `workbook/PREDICTIONS_SCOREBOARD.md`). **Last real data refresh: 2026-11-05** (FERT-14..17 registered OPEN).
+**LIVE — created 2026-10-28** (Will-approved; peer-comparison gap 3; model = LABOR `workbook/PREDICTIONS_SCOREBOARD.md`). **Last real data refresh: 2026-11-25** (FERT-13 resolved HIT on the DTN 11/25 print, KB-FERT-148). Prior: 2026-11-05 (FERT-14..17 registered OPEN).
 **Source of truth:** `workbook/PREDICTIONS.tsv` (the ledger; every grading basis and post-mortem lives on its row). This file **aggregates and indexes**; it never restates a row's letter.
 **When to touch it:** before writing a new prediction (run §C), and when a prediction resolves (add it to §A, recompute §B).
 
@@ -35,7 +35,7 @@ Tally (first status token): **4 HIT · 4 MISS · 2 VOID** of 10. FERT-07 counted
 |---|---|---|---|---|---|---|
 | FERT-11 | 2026-09-05 | 72% | 2026-10-09 | HIT (2026-10-07) | 1 | 0.078 |
 | FERT-12 | 2026-09-05 | 78% | 2026-12-02 | MISS (2026-10-14) | 0 | 0.608 |
-| FERT-13 | 2026-10-28 | 55% | 2026-12-31 | **OPEN** | — | — |
+| FERT-13 | 2026-10-28 | 55% | 2026-12-31 | HIT (2026-11-25) | 1 | 0.203 |
 | FERT-14 | 2026-11-05 | 58% | 2026-12-15 | **OPEN** | — | — |
 | FERT-15 | 2026-11-05 | 42% | 2027-01-08 | **OPEN** | — | — |
 | FERT-16 | 2026-11-05 | 40% | 2026-12-31 | **OPEN** | — | — |
@@ -43,7 +43,7 @@ Tally (first status token): **4 HIT · 4 MISS · 2 VOID** of 10. FERT-07 counted
 
 ## §B — Calibration read
 
-- **n = 2 resolved. Mean Brier 0.343** (a constant 50% forecast scores 0.250). Two rows cannot separate skill from luck; this line exists so the number is computed the same way when n grows.
+- **n = 3 resolved. Mean Brier 0.296** (0.078 + 0.608 + 0.2025, over 3; a constant 50% forecast scores 0.250). Updated 2026-11-25 at the FERT-13 HIT. Two rows cannot separate skill from luck; this line exists so the number is computed the same way when n grows.
 - **Pattern, one instance:** FERT-12 under-called momentum. It registered 78% that retail MAP would *not* exceed $975, on a base rate drawn from four flat August prints; the Sep–Oct run broke it on print 6. FERT-13's base rate uses all 11 weekly steps and rejects the burst-only window as overfit, which is the correction in both directions.
 - **Re-mark convention:** the latest dated pre-resolution mark governs scoring, and the original reports separately (`FORGE/PREDICTION_DISCIPLINE.md` § Grading). No FERT row has been re-marked.
 
