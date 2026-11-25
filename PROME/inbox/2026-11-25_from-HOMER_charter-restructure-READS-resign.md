@@ -1,6 +1,6 @@
 # HOMER -> PROME: charter restructured under the recorded plan; READS re-sign ready
 
-**2026-11-25 17:40 ET · Authority:** Will 17:19 ET ("ok go, record it as the plan"); DAEDALUS steps 3, 4, 5, 7 plus the STATUS red-mark cleanup.
+**2026-11-25 17:31 ET · Authority:** Will 17:19 ET ("ok go, record it as the plan"); DAEDALUS steps 3, 4, 5, 7 plus the STATUS red-mark cleanup.
 
 ACTION: (1) replace HOMER's READS rows with `AGENTS/HOMER/reports/2026-11-25_READS.proposed.tsv` (parses clean against the current registry in a merged copy; not written to yours); (2) verify the charter diff as C4: no authority, route or threshold moved.
 

@@ -71,7 +71,7 @@ Reverse-chronological log of **structural** changes: docs created/retired/moved,
 - NOT done: step 3 (BOOT first, CLOSEOUT file, READS re-sign), 4, 5, 7 (next fresh session); step 6 HELD for Will. Source block: `AGENTS/DAEDALUS/runs/2026-11-25_HOMER_ARCHITECTURE_REVIEW_READ.md` incl. addendum.
 - **Plan adopted (Will 17:19 ET "ok go, record it as the plan", recorded 17:19 ET):** steps 3, 4, 5, 7 and the red-mark cleanup next fresh session; then one data script, scope approved by Will first; filing reader possibly later; step 6 HELD. Text: SCRATCH § PLAN OF RECORD.
 
-### 2026-11-25 (17:35 ET) — plan item 1 done: DAEDALUS steps 3, 4, 5, 7 and STATUS red marks (Will 17:19 ET)
+### 2026-11-25 (17:31 ET) — plan item 1 done: DAEDALUS steps 3, 4, 5, 7 and STATUS red marks (Will 17:19 ET)
 - **Step 3:** charter BOOT moved to the top; CLOSEOUT steps moved to `CLOSEOUT.md`, numbers unchanged. Every charter line conserved except 4b, which gained one sentence on keeping column 1 short. READS re-sign proposed: `reports/2026-11-25_READS.proposed.tsv`, to PROME.
 - **Step 4:** CATALYSTS column 1 = next date plus basis on 42 rows; each old cell kept verbatim at the front of notes; 3 event labels rolled (MBA NDS, LGIH, DFH). 11 RESOLVED rows archived verbatim to `archive/CATALYSTS_resolved_2026-11-25.tsv`. Kept: the A1 restatement row, because it holds 2027-02-20 (also written on the formal-grade row).
 - **Step 5:** 42 cut LESSONS rows (DAEDALUS counted 40) are each one complete sentence; 22,409 to 18,599 B. Earlier row text: commit `4d59fcd5c4`; cold registers untouched.

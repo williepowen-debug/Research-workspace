@@ -1,6 +1,6 @@
 # Script 1 — public-series fetcher: SCOPE DRAFT for Will (nothing built)
 
-**Written 2026-11-25 17:33 ET.** Plan of record item 2 (Will 17:19 ET): scope approved before any build.
+**Written 2026-11-25 17:31 ET.** Plan of record item 2 (Will 17:19 ET): scope approved before any build.
 
 **What it does:** one command, run by hand, fetches four public files, saves what HOMER uses with the fetch time and SHA-256, and prints what is new since the last save. It grades nothing, writes no ledger, STATUS or reading cell, and sends nothing.
 

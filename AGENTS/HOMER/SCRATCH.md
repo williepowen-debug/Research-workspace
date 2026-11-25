@@ -1,4 +1,4 @@
-# HOMER SCRATCH — 2026-11-25 (fifth session: boot 17:25 ET; Will "continue working on your tools and plan"; written 17:36 ET)
+# HOMER SCRATCH — 2026-11-25 (fifth session: boot 17:25 ET; Will "continue working on your tools and plan"; written 17:31 ET)
 
 **Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), laptop. No helpers spawned. Fourth-session handoff: `git show c711ec8526:AGENTS/HOMER/SCRATCH.md`.
 
@@ -6,7 +6,7 @@
 
 | Item | Result |
 |---|---|
-| Plan item 1 (steps 3, 4, 5, 7 and STATUS red marks) | Done; detail in MAINTENANCE 17:35 ET. No reading, band, count, kill test or odds changed |
+| Plan item 1 (steps 3, 4, 5, 7 and STATUS red marks) | Done; detail in MAINTENANCE 17:31 ET. No reading, band, count, kill test or odds changed |
 | Start-up read (charter + STATUS + SCRATCH + LESSONS + docket print) | 109,457 B before, about 90.7 KB after (-17%) |
 | READS re-sign | Proposed `reports/2026-11-25_READS.proposed.tsv`; packet to PROME, which owns the registry |
 | Every-session checks | ATTOM 404 ×3 (Aug control 200) at 17:28 ET; servicer rating search: nothing new (one thin search) |
