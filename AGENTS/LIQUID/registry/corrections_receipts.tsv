@@ -69,3 +69,8 @@ receipt_date	correction_id	action	note
 2026-11-18T15:39Z	COR-20261117-12	NO-OP	scope=Outage cards 008 and 011 never relayed or used by LIQUID, logged info-only; 
 2026-11-18T15:39Z	COR-20261117-31	NO-OP	scope=Weekday label only, LIQUID records cite the FSR by date with no weekday; 
 2026-11-20T16:27Z	COR-20261119-20	NO-OP	scope=LIQUID carried none of the corrected claims (Anthropic timing, AMD export wording, REG-36 name). Cards 017 and 018 consumed 11/20 with the corrected readings, REPORT 2026-11-20 s6 cites REG-37; 
+2026-11-25T14:52Z	COR-20261123-13	APPLIED	artifact=AGENTS/LIQUID/workbook/KB.tsv#KB-LIQ-153; validation_ref=NONE; 
+2026-11-25T14:52Z	COR-20261123-03	NO-OP	scope=VIX +5 timing, Bahrain and HENRY 7,037 line: none cited in LIQUID files (grep 11/25 of 20261121-001/-002/-004, 7,037, Bahrain outside inbox); 
+2026-11-25T14:52Z	COR-20261123-25	NO-OP	scope=Houthi Saudi port order conditional, Jeddah, tanker-rate headline: not cited in LIQUID files outside inbox (grep 11/25); 
+2026-11-25T14:52Z	COR-20261124-21	NO-OP	scope=CIA/ODNI breach report: not cited in LIQUID files outside inbox (grep 11/25); 
+2026-11-25T14:52Z	COR-20261123-12	NO-OP	scope=SpaceX GPU notes priced: LIQUID STATUS s2 GATE-LIQ-072 line already reads the A- notes at T+345 as priced (relay), no LIQUID claim changes; 

@@ -849,3 +849,42 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-20T11:27:09-05:00	SIG-W-20261119-018	info-only	INBOX_WALTER	My own 11/18 grade (HY 347, REG-T-04 0 of 3); superseded by the 11/19 first-published cell 352, REG-T-04 witness 1 of 3 (REPORT 2026-11-20 s2)
 2026-11-20T11:27:09-05:00	SIG-W-20261119-020	info-only	INBOX_WALTER	Correction of 017/018; COR-20261119-20 receipted NO-OP; REG-37 is REGINALD's graded HY>350 projection row
 2026-11-20T11:30:59-05:00	SIG-W-20261120-001	noted	INBOX_WALTER	FLASH VIX about 30 intraday 11/20, AI and chip selloff, no sourced cause. HY 352 [11/19] already graded in REPORT 2026-11-20 s2 (REG-T-04 witness 1 of 3, matches card). New for this desk: credit lagging equity again (HYG -0.10 pct, KRE +0.23 pct vs SMH -7 pct at 16:28Z vendor), 10Y about -9 bp, gold -3.8 pct no cause; logged KB-LIQ-156; no funding print for 11/20 until Monday; no score, gate or band moved
+2026-11-25T09:56:58-05:00	SIG-W-20261120-002	info-only	INBOX_WALTER	Michigan Nov final, inflation expectations lower; not a LIQUID line. No action.
+2026-11-25T09:56:58-05:00	SIG-W-20261120-009	noted	INBOX_WALTER	Bookmarks 11/19; item 9 banks pulling back from AI data-centre debt traces to Reuters 11/09, not new. Already in KB-LIQ-153 frame; no new member.
+2026-11-25T09:56:58-05:00	SIG-W-20261121-001	noted	INBOX_WALTER	LATE FLASH VIX +5 at 11/20 close; HY 376 [11/20] since graded (REG-T-04 fired 11/23, 069 L4 fired 11/20, 072 leg 2 fired 11/20; PROME memo 11/24). Nothing further owed.
+2026-11-25T09:56:58-05:00	SIG-W-20261121-003	noted	INBOX_WALTER	Small items 11/20-21; item 15 Paraguay bank failure same story as 11/19 cards, already in KB-LIQ-157. No new member.
+2026-11-25T09:56:58-05:00	SIG-W-20261123-001	info-only	INBOX_WALTER	Nvidia 8-K Huang reinstated 11/23; VULCAN owns. Context for the 11/23 HY -13 cell.
+2026-11-25T09:56:58-05:00	SIG-W-20261123-002	acted	INBOX_WALTER	HY 376 [11/20] ACTION: graded 11/24 (072 leg 2 FIRED, 069 L4 FIRED, REG-T-04 chain). Tier rule graded 11/25: 11/20 cell BROADENS (daily clause), 11/23 cell REVERSES (CCC -15, B -15). PROME packet 2026-11-25.
+2026-11-25T09:56:58-05:00	SIG-W-20261123-003	info-only	INBOX_WALTER	Correction of 11/21 cards; COR-20261123-03 receipted NO-OP 11/25 (not cited in LIQUID files).
+2026-11-25T09:56:58-05:00	SIG-W-20261123-005	info-only	INBOX_WALTER	TTF HANS-T-07; HANS owns. No LIQUID line.
+2026-11-25T09:56:58-05:00	SIG-W-20261123-008	noted	INBOX_WALTER	Bookmarks 11/20-22: item 2 ING about 500M data-centre loan auction short of bids already in KB-LIQ-153 and 11/24 memo; item 6 9-day bill settles 11/24 matures 12/3 bridges month-end: read as a mechanical contributor to SOFR-IORB +4 [11/24] (bill settlement day), INFERRED.
+2026-11-25T09:56:58-05:00	SIG-W-20261123-010	noted	INBOX_WALTER	2Y indirect 51.54 under BOND I-prime 54.67; BOND grades. Indirect is bidder class, not holder identity; with 5Y 54.28 [11/24] two sub-55 coupons logged in KB-LIQ-157 context, no LIQUID gate.
+2026-11-25T09:56:58-05:00	SIG-W-20261123-012	noted	INBOX_WALTER	Correction: SpaceX GPU notes priced 11/19-20 (A3 8.259%); COR-20261123-12 receipted NO-OP. Access open at A- tier for hyperscaler-tenant paper: counterevidence in KB-LIQ-153 frame; Liquid Compute 50-60% LTV is one person's statement.
+2026-11-25T09:56:58-05:00	SIG-W-20261123-013	acted	INBOX_WALTER	Correction of 11/16-005 item 2: GMI Cloud (dated 7/14) and FT 300B (dated 9/21) are not November items. APPLIED in KB-LIQ-153 11/25 (COR-20261123-13).
+2026-11-25T09:56:58-05:00	SIG-W-20261123-020	info-only	INBOX_WALTER	Euro area flash PMI; HANS. No LIQUID line.
+2026-11-25T09:56:58-05:00	SIG-W-20261123-022	info-only	INBOX_WALTER	Iran sweep; HAWK/FALCON. War-risk insurance: no carrier or insurance change found by WALTER.
+2026-11-25T09:56:58-05:00	SIG-W-20261123-024	info-only	INBOX_WALTER	Tanker costs; BRENT/FALCON. No LIQUID line.
+2026-11-25T09:56:58-05:00	SIG-W-20261123-025	info-only	INBOX_WALTER	Correction of 022; COR-20261123-25 receipted NO-OP.
+2026-11-25T09:56:58-05:00	SIG-W-20261123-027	info-only	INBOX_WALTER	Williams 11/23 hawkish text; context for December hike pricing (about 97 pct relay 11/25), which lifts 3M CP and bill rates without stress.
+2026-11-25T09:56:58-05:00	SIG-W-20261124-001	noted	INBOX_WALTER	LATE FLASH VIX over 30 premarket 11/24, +5 leg on a likely bad tick. HYG 76.43 flat 11/24: credit did not follow. Superseded by 11/25 FLASH 005.
+2026-11-25T09:56:58-05:00	SIG-W-20261124-002	acted	INBOX_WALTER	REG-T-04 FIRED, ISSUANCE-FREEZE action leg: answered 11/24 (NOT A FREEZE, SELECTIVE; PROME memo 2026-11-24). Freeze test week of 11/30 (DOCKET L1257).
+2026-11-25T09:56:58-05:00	SIG-W-20261124-003	noted	INBOX_WALTER	Car-Mart prepack Ch 11 11/24; not in 10/22 HYG file (REGINALD). Single-issuer, no index effect shown.
+2026-11-25T09:56:58-05:00	SIG-W-20261124-006	info-only	INBOX_WALTER	Hodeidah strike, Riyadh tower; HAWK/FALCON. No LIQUID line.
+2026-11-25T09:56:58-05:00	SIG-W-20261124-007	info-only	INBOX_WALTER	AMD resale registration, SOX -7.88 pct 11/24; VULCAN. 069 L4 equity half graded 11/24 (fails).
+2026-11-25T09:56:58-05:00	SIG-W-20261124-008	info-only	INBOX_WALTER	Entity List Megaspeed; VULCAN/ZHAO. No LIQUID line.
+2026-11-25T09:56:58-05:00	SIG-W-20261124-010	noted	INBOX_WALTER	5Y indirect 54.28 under I-prime 59.42; BOND grades; second sub-55 coupon in a row, direct bidders 37 pct, dealers low: buyer-mix shift, not a failed sale. No LIQUID gate.
+2026-11-25T09:56:58-05:00	SIG-W-20261124-015	noted	INBOX_WALTER	FDIC Q3: unrealized securities losses 486B from 326.7B; REGINALD owns. Funding angle: no deposit-run or FHLB evidence in it; logged in KB-LIQ-154 frame only by pointer.
+2026-11-25T09:56:58-05:00	SIG-W-20261124-016	info-only	INBOX_WALTER	Portland Hilton CMBS projected total loss; CRE, REGINALD/CREED. No LIQUID line.
+2026-11-25T09:56:58-05:00	SIG-W-20261124-018	noted	INBOX_WALTER	Small items: item 2 CoreWeave CDS +293 then -62 pct (one unsourced post) superseded by my DTCC read 1,314 clean [11/24]; item 4 titles already carried.
+2026-11-25T09:56:58-05:00	SIG-W-20261124-020	info-only	INBOX_WALTER	FinCEN breach and filing extension; CYPHER/REGINALD. No LIQUID line.
+2026-11-25T09:56:58-05:00	SIG-W-20261124-021	info-only	INBOX_WALTER	Correction CIA/ODNI; COR-20261124-21 receipted NO-OP.
+2026-11-25T09:56:58-05:00	SIG-W-20261124-022	info-only	INBOX_WALTER	My own 11/24 grades as carded by WALTER; matches STATUS. No action.
+2026-11-25T09:56:58-05:00	SIG-W-20261125-001	noted	INBOX_WALTER	Asia AI selloff 11/25: chips and SoftBank, TOPIX and Hang Seng little moved; narrow. Logged KB-LIQ-157.
+2026-11-25T09:56:58-05:00	SIG-W-20261125-004	info-only	INBOX_WALTER	Releases gap fill: JGB 40Y cover 2.63 (SAM), FHFA (HOMER/CORAL), food (FERT). No LIQUID line.
+2026-11-25T09:56:58-05:00	SIG-W-20261125-005	acted	INBOX_WALTER	FLASH ACTION: HY 11/24 cell not posted by 10:0x ET; intraday proxies HYG -0.26 pct vs SPY -2.6 pct; funding flat (SRF 0 at 08:15 op, SOFR-IORB +4 [11/24]); CoreWeave CDS 1,363 to 1,379 premarket 11/25 (DTCC slices). PROME packet 2026-11-25_from-LIQUID_hy-funding-and-ai-credit-read.md.
+2026-11-25T09:56:58-05:00	SIG-W-20261125-007	noted	INBOX_WALTER	8:30 data: core PCE 3.3 above 3.2, Q3 GDP 4.3, claims 189k; hike pricing context for front-end funding rates. No LIQUID line moved.
+2026-11-25T09:56:58-05:00	SIG-W-20261125-008	info-only	INBOX_WALTER	Ras Tanura claim only; Brent 89.21 vendor not reacting. HAWK/FALCON.
+2026-11-25T09:56:58-05:00	SIG-W-20261125-013	acted	INBOX_WALTER	AI CDS records: verified at DTCC: Oracle 5Y 356 [11/24] and 362 [11/25 09:47 ET], CoreWeave 5Y 1,314 clean [11/24], 1,363 to 1,379 [11/25 premarket]. No deal pulled or repriced found by search 11/25. PROME and TERRY packets 2026-11-25.
+2026-11-25T09:57:05-05:00	2026-11-20_from-TERRY_postmortem-thesis-grade-ask	acted	INBOX	TRY-FIRE-004 thesis grade sent: AGENTS/TERRY/inbox/2026-11-25_from-LIQUID_crwv-cds-reading-and-tlt-004-grade.md
+2026-11-25T09:57:05-05:00	2026-11-23_from-PROME_WQ-735-honest-client-name	acted	INBOX	Switched 4 scripts to research-bot/1.0 (dtcc_cds_probe, crwv_cds_grade, boot.py NY Fed PD, cftc_tff_rates), each run once 11/25 and parsed, 0 refusals; usd_swapline.py carries a non-browser string and is SHELVED, unchanged
+2026-11-25T09:57:05-05:00	2026-11-24_from-REGINALD_REG-T-04-FIRED-ISSUANCE-FREEZE	acted	INBOX	Answered 11/24 in PROME/inbox/processed/2026-11-24_from-LIQUID_D-L1252-issuance-freeze-read.md (NOT A FREEZE, SELECTIVE); filed 11/25

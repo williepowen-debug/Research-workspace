@@ -33,7 +33,7 @@ import argparse, io, sys, urllib.request, zipfile, csv
 
 WK  = "https://www.cftc.gov/dea/newcot/FinFutWk.txt"
 YY  = "https://www.cftc.gov/files/dea/history/fut_fin_txt_2026.zip"
-UA  = {"User-Agent": "Mozilla/5.0 (LIQUID-Research)"}
+UA  = {"User-Agent": "research-bot/1.0"}
 
 # Column indices, verified 2026-08-23 against the file's own accounting identity
 # (Tot_Rept_Long == sum of the four Long legs + the four Spread legs). Do not

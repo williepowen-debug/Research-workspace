@@ -40,7 +40,7 @@ def par_spread(upfront, coupon, T):
 
 def rows(day, regime="sec"):
     u = URL.format(r=regime, R=regime.upper(), d=day.replace("-", "_"))
-    b = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"}), timeout=90).read()
+    b = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "research-bot/1.0"}), timeout=90).read()
     z = zipfile.ZipFile(io.BytesIO(b))
     return list(csv.DictReader(io.TextIOWrapper(z.open(z.namelist()[0]), encoding="utf-8", errors="replace")))
 

@@ -104,7 +104,7 @@ def conv_spread(U, c, trade, mat, r=0.04, dirty=False):
 def load(cache, day):
     f = os.path.join(cache, f"sec_{day.replace('-', '_')}.zip")
     if not (os.path.exists(f) and os.path.getsize(f) > 1000):
-        subprocess.run(["curl", "-s", "-A", "Mozilla/5.0", "-o", f, URL.format(d=day.replace("-", "_"))], check=False)
+        subprocess.run(["curl", "-s", "-A", "research-bot/1.0", "-o", f, URL.format(d=day.replace("-", "_"))], check=False)
     z = zipfile.ZipFile(f)
     return list(csv.DictReader(io.TextIOWrapper(z.open(z.namelist()[0]), encoding="utf-8", errors="replace")))
 

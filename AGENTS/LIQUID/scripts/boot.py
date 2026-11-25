@@ -793,7 +793,7 @@ def build_gate076():
         got = {}
         for key in ("PDPOSCSBND-G10", "PDPOSCSBND-G5L10"):
             req = _u.Request(f"https://markets.newyorkfed.org/api/pd/get/{key}.json",
-                             headers={"User-Agent": "Mozilla/5.0 (LIQUID-Research)"})
+                             headers={"User-Agent": "research-bot/1.0"})
             with _u.urlopen(req, timeout=60) as r:
                 ts = _j.load(r)["pd"]["timeseries"]
             got[key] = {t["asofdate"]: int(float(t["value"])) for t in ts
