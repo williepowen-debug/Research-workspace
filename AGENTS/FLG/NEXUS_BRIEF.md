@@ -1,14 +1,14 @@
 # FLG — NEXUS Brief
 
-**Status:** 🔴 v1.0.5 — FLG's $2.8B non-accrual book carries a 5.5% specific reserve; both graded calls hit, but Q3 cures jumped to 56% of outflow, cause undisclosed
+**Status:** 🔴 v1.0.6 — FLG's $2.8B non-accrual book carries a 5.5% specific reserve; both graded calls hit, but Q3 cures jumped to 56% of outflow, cause undisclosed
 
 **Domain:** Flagstar Bank, N.A. (one entity since 10/2025) — NYC rent-regulated multi-family → CRE concentration → non-accrual formation → reserve adequacy → capital. Single name; cohort view = REGINALD.
 
-**Thesis version:** v1.0.5 (`THESIS.md`)
+**Thesis version:** v1.0.6 (`THESIS.md`; 11/25 wording fix only)
 
-**Recent change:** 11/16 — no change to any graded item. Logged (logging only, KB-FLG-120..124) who is paying to extend the stressed loans: mostly Flagstar itself — $1,548M of non-accrual carried with no reserve on appraised values re-tested each Q2, and 2026 multifamily modifications whose added 1.2–1.5 years run out about late 2027 to early 2028 (43.9% of the $471M modified stock already past due); who carries the 2027 fixed maturities ($1,581M) and the $3.0B rent-regulated resets is UNKNOWN. Prior: 11/11 catch-up — Q3 Call Report re-pulled, unamended (SR 07-1 322.11%); a December hike barely moves NII (+0.68% per +100bp short rates, issuer) and AOCI sits outside regulatory capital; the hike matters through refinancing (5Y 4.81 / 10Y 4.98 [11/10]), no rate relief for $12B of sub-3.9% resets through 2027 (INFERRED). Prior: v1.0.5 (11/07) — Q3 10-Q: FLG-02 and FLG-03 HIT, direction unchanged, "nothing is healing" withdrawn as a flat claim after Q3 cures $144M. Rail re-derived, no condition changed. The live signal is the reserve and the exit channel, not the 322.11% ratio.
+**Recent change:** 11/25 — no change to any graded item. The rent freeze binds **$8.1B** of NYC loans with mostly rent-regulated units ($8,120M at 9/30, deck), not the $8.5B New York State figure the thesis had quoted (KB-128). OCC fined Flagstar **$112,000** for 82 flood-insurance notice/force-place violations, 9/2022–6/2024, prior management (KB-125): immaterial, outside the mechanism. FDIC Q3 QBP: industry multifamily past-due rose, about 90% one other bank, United Fidelity (REGINALD); same channel, different book, logged not scored (KB-126). 44 stale knowledge rows dispositioned. Prior: 11/16 — Logged (logging only, KB-FLG-120..124) who is paying to extend the stressed loans: mostly Flagstar itself — $1,548M of non-accrual carried with no reserve on appraised values re-tested each Q2, and 2026 multifamily modifications whose added 1.2–1.5 years run out about late 2027 to early 2028 (43.9% of the $471M modified stock already past due); who carries the 2027 fixed maturities ($1,581M) and the $3.0B rent-regulated resets is UNKNOWN. Prior: 11/11 catch-up — Q3 Call Report re-pulled, unamended (SR 07-1 322.11%); a December hike barely moves NII (+0.68% per +100bp short rates, issuer) and AOCI sits outside regulatory capital; the hike matters through refinancing (5Y 4.81 / 10Y 4.98 [11/10]), no rate relief for $12B of sub-3.9% resets through 2027 (INFERRED). Prior: v1.0.5 (11/07) — Q3 10-Q: FLG-02 and FLG-03 HIT, direction unchanged, "nothing is healing" withdrawn as a flat claim after Q3 cures $144M. Rail re-derived, no condition changed. The live signal is the reserve and the exit channel, not the 322.11% ratio.
 
-**As of:** 2026-11-16 14:08 ET | STATUS commit: `34d6a74649` — event-driven desk; this brief stands until the next print or owner session.
+**As of:** 2026-11-25 13:41 ET | STATUS commit: `3d1fb88ae2` — event-driven desk; this brief stands until the next print or owner session.
 
 ---
 
