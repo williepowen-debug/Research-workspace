@@ -8,6 +8,11 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-25 — CRL-32 resolved MISSED (NOT-FIRED-REBUILD) at the BEA October print; V5 4→3 on its registered downgrade (v2.6.6 → v2.6.7, 53 → 52/70)
+
+- **CRL-32:** OPEN → **MISSED 2026-11-25** (letter outcome NOT-FIRED-REBUILD, early resolution; mark 25% unchanged since registration 10/29). BEA 26-51: October first-published saving rate **4.1%** ≥ 3.9 bar. KILL check not met: September revised 3.8 → **3.6** (bar ≥4.3). Revisions logged beside (Aug 4.0 → 3.9, Jul 4.5 → 4.4), grade nothing. Caveat: one-time Medicare Improvement Fund premium rebate led the social-benefits rise (BEA); CARL ex-rebate estimate about 3.9% (INFERRED), so the outcome does not hinge on it at one decimal. Consequence per letter §6: STATUS savings row 🟠 → 🟡 only. KB-CARL-628. Record: `research/2026-11-25_CRL32_leg1/GRADE.md`.
+- **V5 Gas Price Squeeze 4 → 3 (THESIS v2.6.7), convergence 53 → 52/70.** Registered fast-table rule "AAA pump retreats below $4.00 sustained 2 weeks → −1 immediate": AAA national regular below $4.00 on every observed day 11/10 ($3.979) to 11/25 ($3.587), 10 of 16 days observed, gaps bracketed on a steady decline; EIA weekly agrees. Old view: V5 at 4 (sustained $4.00 cross, 8/3). New view: 3; next step (to 2) needs <$3.50 for 4+ weeks AND diesel normalized, not armed. Executed on CARL's own written rule (class C10); no threshold or instrument changed. KB-CARL-629. Record: `research/2026-11-25_CRL32_leg1/V5_DOWNGRADE.md`.
+
 ## 2026-11-21 — V14 graded on HENRY's S&P red line (WALTER SIG-W-20261121-004); Michigan November final (SIG-W-20261120-002) (no version or score change)
 
 - **V14 Upper-Decile Wealth Stress: HOLDS 3.** S&P 500 6,910.39 on 11/20 (vendor; FRED due 11/23), −11.62% from the 10/6 record, under HENRY's −10% routing line 7,037.04. V14 has no registered upgrade letter; its un-fire rule needs an all-time high. Old view: "SPX still near highs." New view: drawdown −11.6% from the peak but +5.7% YoY; no spending print covers it yet. THESIS V14 evidence cell updated, score cell unchanged. KB-CARL-626.

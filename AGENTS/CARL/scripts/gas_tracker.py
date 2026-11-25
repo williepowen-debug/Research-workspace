@@ -83,7 +83,8 @@ def fred_fetch(series_id, limit=2):
 def _scrape_page(url):
     """Fetch a page and return BeautifulSoup."""
     req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
+        # WQ-735 APPROVED (Will 2026-11-23): honest client name; gasprices.aaa.com passed 11/23.
+        "User-Agent": "research-bot/1.0",
     })
     with urllib.request.urlopen(req, timeout=15) as resp:
         return BeautifulSoup(resp.read().decode(), "html.parser")

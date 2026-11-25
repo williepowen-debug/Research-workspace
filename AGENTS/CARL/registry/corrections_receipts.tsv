@@ -53,3 +53,6 @@ receipt_date	correction_id	action	note
 2026-11-21T23:15Z	COR-20261117-10	NO-OP	scope=CARL authored this correction and its STATUS retail row, KB-CARL-623 and the 11/17 READ.md already carry ex-autos +0.63 percent, SCRATCH quotes +0.21 only as the card error; 
 2026-11-21T23:15Z	COR-20261117-30	NO-OP	scope=CARL STATUS V10 row and KB-CARL-335 already label ATTOM starts +18 percent and REO +33 percent as H1 2026, no Q2 label carried; 
 2026-11-21T23:15Z	COR-20261118-06	NO-OP	scope=CARL holds no Iran claimant or hull claim, its consumer transmission runs via gas price only, which this correction does not change; 
+2026-11-25T14:14Z	COR-20261123-13	NO-OP	scope=GMI Cloud loan and FT guarantees dates: AI-finance items, no CARL surface cites them (grep STATUS/KB none); 
+2026-11-25T14:14Z	COR-20261123-03	NO-OP	scope=CARL is the source of the 004 V14 correction, STATUS wording already fixed 11/21 and V14 now marked judgment-scored per WQ-726, the 001 and 002 items are VIX and Bahrain, not CARL surfaces; 
+2026-11-25T14:14Z	COR-20261124-21	NO-OP	scope=CIA and ODNI OSINT breach sourcing is not a consumer-credit surface, no CARL row cites it; 
