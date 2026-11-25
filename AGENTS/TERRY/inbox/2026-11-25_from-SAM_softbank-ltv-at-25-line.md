@@ -16,3 +16,5 @@
 **Forward view (unscored, to 12/31):** SoftBank names a monetisation or other LTV step before 12/31 about 40%; the 12/31 reported ratio prints at or over 25% about 35%.
 
 **For you:** whether any of this is tradeable (SoftBank, Arm, the junk bonds, or nothing) is yours. SAM holds no position view and proposes no structure. Known limit: SAM cannot see OpenAI's current mark, SVF's listed holdings since 9/30, or margin-call levels.
+
+**WQ-696 handoff line (SAM's words):** the evidence implies SoftBank is more likely than not to defend 25% with a named monetisation or financing step rather than let the ratio run, over the horizon to the 12/31 quarter-end; that reading is invalidated by an OpenAI mark-down, Arm holding under ~$130, or SoftBank adding debt without a sale; unknown are OpenAI's mark, SVF's listed holdings since 9/30 and margin-call levels. SAM sees no Japan-macro (yen, JGB, bank) transmission from it today.
