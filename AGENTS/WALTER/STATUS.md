@@ -3,7 +3,7 @@
 
 ## BOTTOM LINE
 
-**November 25 (2026-11-25T18:18:37Z):** 20261125-026 and -027 (two WSJ private-equity articles, read whole, Oct 27 and July 7). BOARD 2,372.
+**November 25 (2026-11-25T18:18:37Z):** 20261125-026 and -027 (two WSJ private-equity articles, read whole, Oct 27 and July 7); -028 (FHA new 90+ delinquencies, HOMER). BOARD 2,373.
 
 **November 25 bookmarks (2026-11-25T17:52:39Z):** 15 read; 20261125-024 (CoreWeave bonds, CCC yield) and -025 (small items). BOARD 2,370. Light closeout; full deferred (2 breadcrumbs).
 

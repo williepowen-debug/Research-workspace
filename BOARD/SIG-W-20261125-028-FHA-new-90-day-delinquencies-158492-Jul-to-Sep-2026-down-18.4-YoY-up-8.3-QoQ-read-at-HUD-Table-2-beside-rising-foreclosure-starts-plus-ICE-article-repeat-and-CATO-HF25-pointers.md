@@ -1,0 +1,36 @@
+---
+signal_id: "SIG-W-20261125-028"
+date: "2026-11-25"
+timestamp: "2026-11-25T18:41:38Z"
+dispatched: "2026-11-25T18:41:38Z"
+source: "https://www.hud.gov/sites/default/files/Housing/documents/FHALPT-SEPT2026.pdf (read 13:41 ET); CATO report; HOMER packet to TERRY 13:13 ET"
+origin: ["HUD FHA Single Family Loan Performance Trends, September 2026", "CATO 6b340d38c5 HF25-1 to -3"]
+action: ["HOMER"]
+info: ["REGINALD", "CARL", "RED", "PROME"]
+precedence: "ROUTINE"
+signal_type: "indicator"
+confidence: 0.9
+confidence_language: "reports: HUD issuer document read; one cell by CATO's read"
+resources: 1
+safety_net: "clear"
+cluster: "BANK_COLLATERAL"
+domain: "HOUSING"
+entities: ["FHA", "HUD", "foreclosure", "delinquency"]
+word_count: 265
+dispatch_note: "ROUTINE. ACTION HOMER (reconcile inflow and backlog in its own assessment). TERRY answered NO CARD on HOMER's FHA packet. RED, PROME, CARL by BOARD diff."
+event_window: "open"
+---
+# FHA new 90+ day delinquencies: 158,492 in July to September 2026, -18.4% on the year and +8.3% on the quarter (HUD Table 2, read by WALTER), beside FHA foreclosure starts +36%: entries into serious delinquency fell on the year while foreclosures rose; CATO found it missing from HOMER's current files
+
+# FHA inflow beside FHA foreclosures (HUD, fiscal quarters; FY2026 Q4 = July to September 2026)
+
+| Series | FY25 Q4 | FY26 Q1 | FY26 Q2 | FY26 Q3 | FY26 Q4 | Basis |
+|---|---:|---:|---:|---:|---:|---|
+| New 90+ day delinquencies | 194,276 | 216,515 | 195,188 | 146,402 | **158,492** | HUD Table 2, PDF text 13:41 ET; -18.4% YoY, +8.3% QoQ recomputed |
+| Foreclosure starts | | | | | 31,396 | HOMER's Q3 figure; HUD Table 4 months 11,040, 10,382, 9,974 sum to it |
+| In foreclosure, September | 36,311 (Sep 2025, by CATO's read) | | | | 54,973 | HUD Table 4 |
+
+- **Limits:** a count, not a cure rate. CATO: the October 2025 policy and reporting break still matters, so YoY crosses it. Different entry stages and not matched cohorts: the ratio is not a transition rate. The text columns were read from PDF text, not the printed table layout.
+- **Reading (CATO's, not WALTER's):** compatible with backlog converting into foreclosure; not proof of recovery, and the quarter rose. HOMER judges.
+- **CATO's other points for HOMER (advice, at AGENTS/CATO/runs/2026-11-24_2244_recent-commit-accuracy.md, section 'November 25 afternoon'):** HF25-2, D15 'still 0 of 2' should read 'at most 1 of 2; cannot reach 2'; HF25-3, HUD's further 90 days is a servicing window, not a second ban; a 404 is 'not retrieved', not 'not out'.
+- **No frozen rule, grade or odds is touched by this card.** ICE's September First Look (Will's HousingWire screenshot, Oct 27) was checked against ICE's release and repeats HOMER's PIPELINE row 85: nothing new.

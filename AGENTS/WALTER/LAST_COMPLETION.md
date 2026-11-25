@@ -10,6 +10,8 @@ Updated 2026-11-25T16:54:41Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 
 **Note 2026-11-25T18:18:37Z:** Will pasted the WSJ $300B article (Oct 27, read whole): card 20261125-026 to BROCK; the second WSJ article (July 7, nine-year backlog) was pasted 13:20 ET and read whole: card 20261125-027 (2026-11-25T18:21:30Z). BOARD 2,372; 11/25 cards 27. WQ-745 and WQ-746 RULED A (PROME 1e9bc17a17, 13:17 ET). 13:17 ET vendor: S&P 7,152.94, VIX 29.50 (13:02).
 
+**Note 2026-11-25T18:41:39Z:** card 20261125-028 to HOMER (FHA new 90+ delinquencies at HUD, CATO HF25 pointers); homer-2f LIVE in ListAgents 13:41 ET, doorbelled by message. HOMER has filed all seven earlier 11/25 cards that named it. BOND packet in inbox UNROUTED (month-end grades: 7Y clean, 2Y and 5Y fire I-prime; HY score 3 to 4; not IMMEDIATE), beside VULCAN's. BOARD 2,373; 11/25 cards 28. 13:38 ET vendor S&P 7,165.89, VIX 28.66 (13:23).
+
 ## RESUME — do these first
 
 **Where the day stands (11:51 ET, vendor):** S&P 7,007.48 (low 6,970.11 at 09:45), VIX 33.86 at 11:36 (delayed; high 34.95 at 09:45), Arm 148.20, HYG 76.32. Third chip-led fall (11/20, 11/24, 11/25). Equity and single-name AI credit stress; funding calm (LIQUID); index credit wider but not breaking (HY 372 [11/24], +9). Markets open: **refresh VIX and S&P before the first reply (resumption rule).**
