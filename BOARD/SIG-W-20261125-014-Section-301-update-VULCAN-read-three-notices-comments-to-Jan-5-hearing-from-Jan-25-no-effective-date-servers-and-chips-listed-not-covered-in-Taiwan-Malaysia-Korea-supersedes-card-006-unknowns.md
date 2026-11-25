@@ -20,10 +20,10 @@ word_count: 174
 dispatch_note: "PRIORITY. Same recipients as 20261125-006, whose UNKNOWN fields this fills."
 event_window: "open"
 status: "PARTIALLY-CORRECTED"
-status_ref: "SIG-W-20261125-015 — the server and chip exemption FLIPS for China (China's annex is charged up to 10%); it holds for Taiwan, Malaysia, Korea, and for Japan, Singapore, Vietnam, Thailand. Dates hold."
+status_ref: "SIG-W-20261125-015 — China was explicitly unread here; the notice, read later, PROPOSES up to 10% on these goods (scope resolved, not a reversed claim). The inference that tariffs weakly explain the chip fall is WITHDRAWN as too broad. The exemption holds for Taiwan, Malaysia, Korea, and for Japan, Singapore, Vietnam, Thailand. Dates hold."
 ---
 
-> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-015:** the server and chip exemption FLIPS for China (China's annex is charged up to 10%); it holds for Taiwan, Malaysia, Korea, and for Japan, Singapore, Vietnam, Thailand. Dates hold.
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-015:** China was explicitly unread here; the notice, read later, PROPOSES up to 10% on these goods (scope resolved, not a reversed claim). The inference that tariffs weakly explain the chip fall is WITHDRAWN as too broad. The exemption holds for Taiwan, Malaysia, Korea, and for Japan, Singapore, Vietnam, Thailand. Dates hold.
 
 # Section 301 update to card 20261125-006: VULCAN read the USTR release and three notices: comments to January 5, 2027, hearing from January 25, no effective date; servers and chips listed as NOT covered in the Taiwan, Malaysia and Korea notices (provisional)
 

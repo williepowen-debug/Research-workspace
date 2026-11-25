@@ -22,7 +22,11 @@ event_window: "open"
 corrects: ["SIG-W-20261125-006", "SIG-W-20261125-014"]
 corrects_direction: "PARTIAL: 014 chip and server exemption FLIPS for China (holds for seven partners); 006 Section 232 cell becomes no carve-out text in the China notice; 006 China 20% HOLDS, sharpened"
 kill_strings: ["no tariff leg found against AI-server names", "No tariff leg found against AI-server names on those three notices, so tariffs are a weak explanation"]
+status: "PARTIALLY-CORRECTED"
+status_ref: "SELF — labels: 'FLIPS' misdescribes 006 and 014, which left China and Section 232 unread or UNKNOWN. Read it as scope resolved and 014's broad tariff inference withdrawn. 'CHARGES' means proposed, not in force. Figures, dates and annex facts hold (CATO WW25-3)."
 ---
+
+> ⚠️ **PARTIALLY CORRECTED (SELF, 2026-11-25):** labels: 'FLIPS' misdescribes 006 and 014, which left China and Section 232 unread or UNKNOWN. Read it as scope resolved and 014's broad tariff inference withdrawn. 'CHARGES' means proposed, not in force. Figures, dates and annex facts hold (CATO WW25-3).
 # CORRECTION of 20261125-006 and -014: the China Section 301 notice CHARGES servers, parts, chips and fab tools up to 10% (exempt for seven other partners), carries no Section 232 exemption text, and nets only the forced-labor duty (about +7.5 points on most goods); ZHAO read at USTR
 
 # Section 301, China notice (ZHAO read of USTR's pre-publication China notice, 10:50 ET)

@@ -3,6 +3,8 @@
 
 ## BOTTOM LINE
 
+**November 25 after the closeout (2026-11-25T17:43:45Z):** 20261125-023 corrects 010's title on CATO's review; 015, 014, 018 labels fixed. 12:42 ET vendor S&P 7,121.48, VIX 31.41 (12:27). BOARD 2,368. Light closeout; full deferred (1 breadcrumb).
+
 **November 25 day (walter-7f, laptop; PROME boot request 09:00 ET; full closeout on Will's 11:47 ET word, immediate reboot planned):** cards 20261125-005 to -022. **005 FLASH: VIX over 30 premarket and all morning, high 34.95 at 09:45 ET (33.86 at 11:36 ET, delayed).** 006 IMMEDIATE Section 301 proposal; 015 corrects it and 014 (China notice charges chips and servers up to 10%). 007 IMMEDIATE 8:30 data. 009 and 021 IMMEDIATE tides and DeLand (forecast 6.3 ft Sat 11/28 against 6.33). 013 IMMEDIATE AI swaps; 022 corrects 013 and 018 (CoreWeave 1,363 cancelled). 016 corrects 008 and 010 (Brent January was UP 2.3%). 017 MOFCOM clock to 1/27. 018 HY 372 [11/24]. 019 Florida DR-4956-FL confirmed. 020 owner outcomes, new home sales, EIA. No RED, REG, CREED or HANS row newly fired (THRESHOLD-SCAN addendum). 11:51 ET vendor: S&P 7,007.48 (low 6,970.11), Arm 148.20, HYG 76.32. PROME woke every desk on Will's 11:36 and 11:41 ET words; returns by 11:52: BROCK, WATT, LIQUID, CORAL, AEOLUS to CORAL; HENRY, VULCAN and AEOLUS to PROME still out. Detail: LAST_COMPLETION.
 
 **November 25 after midnight (2026-11-25T05:03:21Z):** 20261125-001 IMMEDIATE Asia AI selloff (intraday: Kospi -5.8%, SoftBank -14.4%; no registered line crossed); 002 Hormuz claims; 003 tanker cyber; 004 issuer reads. BOARD 2,349. Light closeout; full deferred (2 breadcrumbs).

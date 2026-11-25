@@ -20,8 +20,10 @@ word_count: 292
 dispatch_note: "PRIORITY. ACTION FALCON (Red Sea), BRENT (supply), OSPREY (Ukraine). RED, PROME by BOARD diff; TERRY BOARD-only."
 event_window: "open"
 status: "PARTIALLY-CORRECTED"
-status_ref: "SIG-W-20261125-016 — 'pulling against a falling price' FLIPS: January Brent was rising. All wire rows hold."
+status_ref: "SIG-W-20261125-016 — 'pulling against a falling price' FLIPS: January Brent was rising. All wire rows hold. SIG-W-20261125-023 — title 'struck again' withdrawn: distinct second strike unconfirmed."
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-023:** the title's 'struck again' is withdrawn: 12:48Z is a new report of a strike, a distinct second attack is unconfirmed. The body already said so.
 
 > ⚠️ **PARTIALLY CORRECTED by SIG-W-20261125-016:** 'pulling against a falling price' FLIPS: January Brent was rising. All wire rows hold.
 
