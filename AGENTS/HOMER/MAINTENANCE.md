@@ -70,3 +70,12 @@ Reverse-chronological log of **structural** changes: docs created/retired/moved,
 - Step 2: servicer-watch trigger moved verbatim to `registry/SERVICER_WATCH.md` (rebuilds the original cell byte for byte, checked); row 3 keeps state and pointer, 40,229 to 28,108 B. Charter FILES row added. No class, level or route changed.
 - NOT done: step 3 (BOOT first, CLOSEOUT file, READS re-sign), 4, 5, 7 (next fresh session); step 6 HELD for Will. Source block: `AGENTS/DAEDALUS/runs/2026-11-25_HOMER_ARCHITECTURE_REVIEW_READ.md` incl. addendum.
 - **Plan adopted (Will 17:19 ET "ok go, record it as the plan", recorded 17:19 ET):** steps 3, 4, 5, 7 and the red-mark cleanup next fresh session; then one data script, scope approved by Will first; filing reader possibly later; step 6 HELD. Text: SCRATCH § PLAN OF RECORD.
+
+### 2026-11-25 (17:35 ET) — plan item 1 done: DAEDALUS steps 3, 4, 5, 7 and STATUS red marks (Will 17:19 ET)
+- **Step 3:** charter BOOT moved to the top; CLOSEOUT steps moved to `CLOSEOUT.md`, numbers unchanged. Every charter line conserved except 4b, which gained one sentence on keeping column 1 short. READS re-sign proposed: `reports/2026-11-25_READS.proposed.tsv`, to PROME.
+- **Step 4:** CATALYSTS column 1 = next date plus basis on 42 rows; each old cell kept verbatim at the front of notes; 3 event labels rolled (MBA NDS, LGIH, DFH). 11 RESOLVED rows archived verbatim to `archive/CATALYSTS_resolved_2026-11-25.tsv`. Kept: the A1 restatement row, because it holds 2027-02-20 (also written on the formal-grade row).
+- **Step 5:** 42 cut LESSONS rows (DAEDALUS counted 40) are each one complete sentence; 22,409 to 18,599 B. Earlier row text: commit `4d59fcd5c4`; cold registers untouched.
+- **Step 7:** THESIS §10 moved verbatim to `thesis/FORMAL_GRADES.md`; §10 is a pointer; §9 headed LIVE. §1, §3, §4, §6 to §8, §11 byte-identical.
+- **STATUS:** 44 red marks to 5 (four bands past Red, servicer Class A). Rows with no band say "observation" or nothing. Stars left.
+- **Start-up read** (charter + STATUS + SCRATCH + LESSONS + docket print; excludes root files, inbox, MEMORY): see SCRATCH. Row numbers in CATALYSTS changed; row-number citations before this date refer to the old file.
+- NOT done: step 6 (held for Will); script 1 (scope draft with Will).

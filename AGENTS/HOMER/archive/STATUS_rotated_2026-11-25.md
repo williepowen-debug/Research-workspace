@@ -35,3 +35,11 @@ Rotated 16:15 ET 2026-11-25 (third session BOTTOM LINE and vintage line, verbati
 Closed §C item moved at the same time:
 
 - ✅ **Trepp maturity-adjusted MF — DATED KILL EXECUTED 2026-10-15** (absent at source Jul–Sep). Leg re-spec'd onto MF special servicing (replacement instrument). Row RESOLVED on the docket.
+
+---
+
+Rotated 17:30 ET 2026-11-25 (fourth session BOTTOM LINE, verbatim):
+
+## BOTTOM LINE
+
+**2026-11-25, fourth session (boot 16:03 ET; Will 16:08 ET "go ahead approved begin"; written 16:15 ET).** ① **PennyMac 10-Q opened: my "+$52M" advance figure was the wrong measure.** Advances used $240.5M of cash in nine months; hedges $1,349.8M, so hedging stays the main drain and advances are second and tied by the issuer to delinquent loans. Cushion over the Fannie/Freddie liquidity requirement $94M; in compliance; MSR sale due Q4. No class fired. ② **Fannie and Freddie rows re-read and confirmed.** ③ **Apartment losses (Will's go 16:07 ET):** banks and Fannie itself carry most of what is printed; K-deal and CMBS losses are not printed; Walker & Dunlop is a listed lender-share name. No band changed colour; no leg fired; no HENRY trigger; registered odds unchanged. **Will decision required: none.** Earlier 11/25 summary: archive; its findings stand above.

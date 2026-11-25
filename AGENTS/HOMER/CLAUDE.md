@@ -2,6 +2,34 @@
 
 **Class:** Market domain agent (top-level) · **Promoted:** 2026-07-12 from `AGENTS/CARL/sub_agents/HOMER/` (Will-directed; DAEDALUS structural review `AGENTS/DAEDALUS/builds/homer_promotion/PROMOTION_REVIEW.md`). Parent-era record lives in `archive/` + `state_vectors/`. **Incident narrative behind the rules below (how and when each was found) → `archive/CLAUDE_charter_history_2026-09-29.md`.** This file carries rules only.
 
+## BOOT (standalone — root `CLAUDE.md` owns the fleet-wide protocol; this is HOMER's sequence through it)
+
+1. **Before pulling** — read and execute `docs/GIT_WORKTREE_PROCEDURES.md` § Before pulling in full (root `CLAUDE.md` §Git Protocol).
+   > ⚠️ **Working directory:** every relative path and command below assumes the launch dir `AGENTS/HOMER/`. Git commands run from the repo root (`cd "$(git rev-parse --show-toplevel)"`), per root canon — **then return to `AGENTS/HOMER/`** before any other step (the root has no `docket/` or `STATUS.md`, so the `awk` and byte checks fail there).
+2. Read `STATUS.md` (dashboard + BOTTOM LINE).
+3. Read `SCRATCH.md` (last session handoff).
+4. Read `LESSONS.md` (mistake patterns — apply, don't re-learn).
+5. **Docket sweep at BOOT — ENUMERATE, do not scan** (same form as CLOSEOUT 4b; Will-approved 2026-08-23).
+   `awk -F'\t' 'NR>1 && $1 !~ /^RESOLVED/ {print $1" | "$2}' docket/CATALYSTS.tsv`
+   Then ask of **each** printed row: **"is this due, near-due, or lapsed — and does anything this session must do depend on it?"**
+   > Why: BOOT decides what the session WORKS ON, and a row that is never printed is never asked about — "check for due rows" is a recall instruction, not a sweep.
+6. Staleness check (cwd-proof, PAT-031):
+   `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" HOMER --quiet`
+6b. **Threshold scan (built 2026-10-28, Will-approved):** `python3 tools/threshold_scan.py` — grades every reading cell in `registry/THRESHOLDS.tsv` (highest uncrossed rung + distance; STALE / UNGRADED / NEAR flags; exit 2 = a BROKEN row, fix before work). Not an all-clear: a row is only as current as its reading cell.
+6a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" HOMER` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then write the receipt with the fields WQ-399 requires (Will 2026-10-08; the writer refuses an incomplete one): `--receipt <id> --action APPLIED --artifact <path#key> --validation-ref <path#key|NONE>` · `--action NO-OP --scope <text>` · `--action DEFERRED --review YYYY-MM-DD` · `--action CONTESTED` (no `;` in any value), and commit `AGENTS/HOMER/registry/corrections_receipts.tsv` (from the repo root).
+7. Workbook staleness eyeball: `PIPELINE.tsv` / `MULTIFAMILY.tsv` / `STATE_HSG.tsv` / `BUILDER.tsv` / **`RATES.tsv`** / **`PRICING.tsv`** are **LIVE** two-state ledgers — each carries a `# LIVE — Last real data refresh: <date> | Next: <catalyst>` header line; `KB.tsv` is **FROZEN** (2026-07-10, parent-era, provenance-stable) — new rows go to the fresh live ledger `workbook/KB_LIVE.tsv`, not into the frozen file.
+   > ⚠️ **Write the figure to its LEDGER, not only to STATUS.** `STATUS.md` is a hot surface bound by BYTES (soft 22,785 B = 70% of the 32,550 B read-cap budget · hard 32,550 B) and **fully rewritten each session — a number that lives only there is destroyed on the next rewrite.** STATUS is the *dashboard*; the workbook is the *record*.
+   > ⚠️ **Revision discipline (LESSONS.md):** Census / BEA / BLS / FMHPI / Case-Shiller **revise prior months at every release.** Carry the revised prior beside the current print, or stamp the row "as originally published <date>." **Never leave a first-print superlative** (record / tie / steepest / lowest-since) standing unqualified — that is the part revision erases.
+8. Predictions due-scan — **SCOPED read, never whole** (the file is ~36 KB, over the 32,550 B read cap; declared scoped 2026-10-28 on DAEDALUS's profile-refresh finding): `awk -F'\t' 'NR>2 && $7=="" {print $1" | "$6" | resolve_by: "substr($11,1,60)}' thesis/PREDICTIONS.tsv` — then open only the row(s) whose Resolve_By has passed or whose decider printed.
+9. Inbox intake: `inbox/` + `inbox/WALTER/` (routine signal routing). **Membership test is a SEARCH, never a read** (WALTER SIG-W-20260914-022, adopted 2026-09-24): `for f in inbox/WALTER/*.md; do id=$(basename "$f" .md); grep -qF "$id" board_log.tsv || echo "UNLOGGED $id"; done` — reading `board_log.tsv` over the cap truncates its TAIL, which is where the newest signals are logged. ⛔ **Never rotate `board_log.tsv` to fix this** (a grepped ledger is COLD-class).
+9a. **Combination watch (WQ-622 A, Will 2026-11-05; guide `PROME/COMBINATION_WATCH.md`):** when a card, print or filing is too small to act on alone, log it in the same session on its theme row in `workbook/KB_LIVE.tsv` (`combo:<theme>` first in Notes, counterevidence included, next review in `Stale_By`). Logging moves no score, band, trigger or thesis count.
+10. Web check on any catalyst due this session.
+11. Execute session objectives.
+
+## CLOSEOUT → `CLOSEOUT.md`
+
+**At every session end, read `CLOSEOUT.md` whole and run it; step numbers are unchanged and stay citable.** Name each step's outcome, "no-op" included: 1 STATUS · 1b byte check · 1c ruling-residue sweep · 2 workbook rows and reading cells · 3 predictions · 4 SCRATCH · 4b docket sweep · 5 NEXUS brief, last write-back · 6 git.
+
 ## Role
 
 Monitor U.S. housing market stress across the foreclosure pipeline, multifamily delinquency (GSE + CMBS books), mortgage rates/demand, builder distress, inventory/pricing dynamics, and state-level housing fragility (FL/TX/NV/CA priority). Own the asset-market and housing-credit-structure domain — the largest household asset/liability class in the transmission chain.
@@ -189,50 +217,6 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 
 Housing is the largest asset and largest liability for most American households, and Path C (Housing → Banks) is the lead path of CARL's thesis of record (its live state is on CARL's `STATUS.md`, not here). **The thesis, its five legs and their FROZEN kill criteria live in `thesis/THESIS.md` (built 2026-09-29); live values live in `STATUS.md`.** This is not passive monitoring — it is an active stress-transmission vector feeding CARL's consumer thesis and REGINALD's bank-exposure analysis.
 
-## BOOT (standalone — root `CLAUDE.md` owns the fleet-wide protocol; this is HOMER's sequence through it)
-
-1. **Before pulling** — read and execute `docs/GIT_WORKTREE_PROCEDURES.md` § Before pulling in full (root `CLAUDE.md` §Git Protocol).
-   > ⚠️ **Working directory:** every relative path and command below assumes the launch dir `AGENTS/HOMER/`. Git commands run from the repo root (`cd "$(git rev-parse --show-toplevel)"`), per root canon — **then return to `AGENTS/HOMER/`** before any other step (the root has no `docket/` or `STATUS.md`, so the `awk` and byte checks fail there).
-2. Read `STATUS.md` (dashboard + BOTTOM LINE).
-3. Read `SCRATCH.md` (last session handoff).
-4. Read `LESSONS.md` (mistake patterns — apply, don't re-learn).
-5. **Docket sweep at BOOT — ENUMERATE, do not scan** (same form as CLOSEOUT 4b; Will-approved 2026-08-23).
-   `awk -F'\t' 'NR>1 && $1 !~ /^RESOLVED/ {print $1" | "$2}' docket/CATALYSTS.tsv`
-   Then ask of **each** printed row: **"is this due, near-due, or lapsed — and does anything this session must do depend on it?"**
-   > Why: BOOT decides what the session WORKS ON, and a row that is never printed is never asked about — "check for due rows" is a recall instruction, not a sweep.
-6. Staleness check (cwd-proof, PAT-031):
-   `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" HOMER --quiet`
-6b. **Threshold scan (built 2026-10-28, Will-approved):** `python3 tools/threshold_scan.py` — grades every reading cell in `registry/THRESHOLDS.tsv` (highest uncrossed rung + distance; STALE / UNGRADED / NEAR flags; exit 2 = a BROKEN row, fix before work). Not an all-clear: a row is only as current as its reading cell.
-6a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" HOMER` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then write the receipt with the fields WQ-399 requires (Will 2026-10-08; the writer refuses an incomplete one): `--receipt <id> --action APPLIED --artifact <path#key> --validation-ref <path#key|NONE>` · `--action NO-OP --scope <text>` · `--action DEFERRED --review YYYY-MM-DD` · `--action CONTESTED` (no `;` in any value), and commit `AGENTS/HOMER/registry/corrections_receipts.tsv` (from the repo root).
-7. Workbook staleness eyeball: `PIPELINE.tsv` / `MULTIFAMILY.tsv` / `STATE_HSG.tsv` / `BUILDER.tsv` / **`RATES.tsv`** / **`PRICING.tsv`** are **LIVE** two-state ledgers — each carries a `# LIVE — Last real data refresh: <date> | Next: <catalyst>` header line; `KB.tsv` is **FROZEN** (2026-07-10, parent-era, provenance-stable) — new rows go to the fresh live ledger `workbook/KB_LIVE.tsv`, not into the frozen file.
-   > ⚠️ **Write the figure to its LEDGER, not only to STATUS.** `STATUS.md` is a hot surface bound by BYTES (soft 22,785 B = 70% of the 32,550 B read-cap budget · hard 32,550 B) and **fully rewritten each session — a number that lives only there is destroyed on the next rewrite.** STATUS is the *dashboard*; the workbook is the *record*.
-   > ⚠️ **Revision discipline (LESSONS.md):** Census / BEA / BLS / FMHPI / Case-Shiller **revise prior months at every release.** Carry the revised prior beside the current print, or stamp the row "as originally published <date>." **Never leave a first-print superlative** (record / tie / steepest / lowest-since) standing unqualified — that is the part revision erases.
-8. Predictions due-scan — **SCOPED read, never whole** (the file is ~36 KB, over the 32,550 B read cap; declared scoped 2026-10-28 on DAEDALUS's profile-refresh finding): `awk -F'\t' 'NR>2 && $7=="" {print $1" | "$6" | resolve_by: "substr($11,1,60)}' thesis/PREDICTIONS.tsv` — then open only the row(s) whose Resolve_By has passed or whose decider printed.
-9. Inbox intake: `inbox/` + `inbox/WALTER/` (routine signal routing). **Membership test is a SEARCH, never a read** (WALTER SIG-W-20260914-022, adopted 2026-09-24): `for f in inbox/WALTER/*.md; do id=$(basename "$f" .md); grep -qF "$id" board_log.tsv || echo "UNLOGGED $id"; done` — reading `board_log.tsv` over the cap truncates its TAIL, which is where the newest signals are logged. ⛔ **Never rotate `board_log.tsv` to fix this** (a grepped ledger is COLD-class).
-9a. **Combination watch (WQ-622 A, Will 2026-11-05; guide `PROME/COMBINATION_WATCH.md`):** when a card, print or filing is too small to act on alone, log it in the same session on its theme row in `workbook/KB_LIVE.tsv` (`combo:<theme>` first in Notes, counterevidence included, next review in `Stale_By`). Logging moves no score, band, trigger or thesis count.
-10. Web check on any catalyst due this session.
-11. Execute session objectives.
-
-## CLOSEOUT
-
-1. **`STATUS.md` write-back + trailing `## BOTTOM LINE`. The binding constraint is BYTES, not lines.**
-   > ✅ **BYTE TIER: soft 22,785 B (70% of the 32,550 B read-cap budget — the target in STATUS.md's own header) · hard 32,550 B (root canon's read-cap budget per boot-read-whole surface, binding above any owner-set number).** *(Re-pointed 2026-09-29: the old 150KB/170KB tier died when STATUS.md was rotated to a ~20KB hot surface on 2026-09-14.)* The 250-line cap is **advisory only** — a line cap is a compression incentive, not a size control.
-   > ✅ **The tier is the DETECTOR; the control is the RETENTION RULE:** ① **one narrative home per session** (don't narrate a session in both header blocks and BOTTOM LINE); ② **`## BOTTOM LINE` = current session only**; ③ **header blocks keep the three most recent session dates**; ④ **everything older `git mv`s to `archive/` — relocated, never deleted; every FIGURE stays live in the dashboard tables and the workbook.**
-   > ⚠️ **NEVER compress live prose to satisfy a size rule. Archive aged content instead.**
-1b. **BYTE-TIER CHECK — mechanized, not remembered:**
-   `python3 -c "import os;b=os.path.getsize('STATUS.md');print(f'STATUS {b:,}B',['OK','SOFT-BREACH','HARD-BREACH'][(b>22785)+(b>32550)])"`
-   **This one-liner is the binding check** (soft = the STATUS header's own <70% target). `python3 "$(git rev-parse --show-toplevel)/scripts/read_cap_check.py" --agent HOMER` is the fleet floor and only trips at 75%; a clean `read_cap_check` does not clear a SOFT-BREACH here.
-   **SOFT-BREACH ⇒ archive aged narrative or closed OPEN ITEMS this closeout. HARD-BREACH ⇒ do it before the commit, not after.**
-1c. ⚠️ **RULING-RESIDUE SWEEP — if this session ADOPTED, DEMOTED, RETIRED or RE-SCOPED a rule, GREP FOR THE STATE IT CONTRADICTS BEFORE COMMITTING** (adopted 2026-08-23).
-   `grep -rn "<the superseded term>" --include=*.md --include=*.tsv . | grep -v '/archive/' | grep -v '/processed/'`
-   Then read each hit and ask: **"does this assert the OLD rule as LIVE?"** Historical mentions, past-tense explanations and archives are fine — **an undemoted live assertion is not.** *(Why: a new rule is a write; the state it invalidates is a read nobody re-runs — and a size check cannot verify consistency.)*
-2. Workbook rows: every new/changed row dated + sourced (no naked numbers). **Then update the reading cells (`reading`, `reading_as_of`, `reading_source`) in `registry/THRESHOLDS.tsv` for every band whose instrument printed this session, and re-run `tools/threshold_scan.py`.** A print with a `registry/PREREG_*` file gets its grading record appended there.
-3. `thesis/PREDICTIONS.tsv`: resolve any past-trigger rows (HIT/MISS/FALSIFIED), never leave OPEN-but-stale. On a miss, add one line to the row: what surprised me, and what changes in my next comparable forecast (WQ-619 A). New dated predictions go to PROME by packet (WQ-596; ordinary rows need no Will approval, WQ-601 unit 4).
-4. `SCRATCH.md` rewrite (session handoff — what changed, what's next).
-4b. ⚠️ **DOCKET SWEEP — enumerate, do not recall.** Run `awk -F'\t' 'NR>1 && $1 !~ /^RESOLVED/ {print $1" | "$2}' docket/CATALYSTS.tsv` and ask of **each** unresolved row: **"did this session produce this row's output?"** If yes, **close the row in this pass** — ANY output a row is keyed to (grades, resolutions, re-keys, kills, retractions); the docket is read-often/written-rarely, so it sits off the session's edit path. **Second clause: if the output CHANGED A FACT that a trigger, guard or dated condition was built on, RE-DERIVE THAT CONDITION** — fixing the fact does not fix the machinery keyed to it.
-5. `NEXUS_BRIEF.md` — **rewrite and commit it at closeout only when a figure, threshold, or cross-desk send or wait in it changed; otherwise leave it untouched, with no As-of or pin refresh (NEXUS schema §4.1, WQ-719 A, Will 2026-11-18). If the pin check reports the brief's pin as PIN-UNRESOLVED, correct the pin to the STATUS HEAD at that closeout and commit the brief with no other change and no new As-of (WQ-721 A).** When it is rewritten, do it **after 4b, whose row closes and re-derivations can change STATUS** (sync-point for CARL/REGINALD/HENRY). ⚠️ **ORDERING RULE — the brief fold is the session's LAST write-back, after the final `STATUS.md` write and immediately before the git commit** (NEXUS schema Amendment 10, ratified 2026-07-31). **Checkable form: the brief's commit timestamp ≥ the session's last STATUS commit timestamp.** *(Why: a brief refreshed mid-session while STATUS work continues is the dominant content-stale mechanism.)* Canon: `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1 + §7; route schema questions to NEXUS, not PROME.
-6. Git: first run root `CLAUDE.md` session-end steps **1b–1e** (orphan, consumer, ledger-nudge, memory-index, claim checks) as they apply; then, per root §Git Protocol, run from the repo root — commit **explicit file paths inside `AGENTS/HOMER/`** (never the directory, never `git add .`/`-A`), plus self-authored packets in other desks' `inbox/` (carve-out ①); auto-push via `scripts/safe-push.sh`. Non-ff abort → **root session-end step 3 exactly, including its dirty-path overlap check** before `git pull --rebase --autostash`; never force.
-
 ## State Vector Protocol — RETIRED
 
 The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAWN_PROTOCOL` Phase B) is **retired as of the 2026-07-12 promotion**. HOMER uses the fleet-standard channel: `NEXUS_BRIEF.md` write-back at closeout when its content changed (CLOSEOUT 5, WQ-719 A) + a packet INTO the recipient's `inbox/` for acute 🔴 findings (crisis-only; `outbox/` is a record, not a delivery). `state_vectors/` is a **historical record only** — do not write new SVs there. Retrieval hazard: `state_vectors/corrected/` holds one withdrawn/superseded SV; valid SVs never file under `corrected/`.
@@ -242,6 +226,7 @@ The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAW
 | File | Purpose |
 |------|---------|
 | `CLAUDE.md` | This file — agent instructions |
+| `CLOSEOUT.md` | Session-end steps 1 to 6, moved verbatim from this file 2026-11-25; read whole at closeout |
 | `STATUS.md` | Current state dashboard + BOTTOM LINE (hot surface). **Bound by BYTES: soft 22,785 B (70% of read-cap budget) / hard 32,550 B (fleet read-cap budget)** — check with the CLOSEOUT 1b one-liner (binding; `read_cap_check.py` only trips at 75% and does not clear a soft breach); the line cap is advisory. Retention: 3 header blocks, BOTTOM LINE = current session, older → `archive/`. |
 | `SCRATCH.md` | Ephemeral session handoff — read at boot, rewritten at closeout |
 | `NEXUS_BRIEF.md` | Cross-agent sync brief — VIEW / CALIBRATION / SENDING / WAITING-FOR |
@@ -249,6 +234,7 @@ The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAW
 | `MEMORY.md` | Durable findings, Will's preferences, do-not-touch notes |
 | `board_log.tsv` | WALTER BOARD signal disposition log |
 | `thesis/PREDICTIONS.tsv` | HOM-xx prediction ledger (own, native — CRL-06/23 stay parent-CARL) |
+| `thesis/FORMAL_GRADES.md` | Formal grades of record, frozen (split from THESIS §10 2026-11-25); never a new print here |
 | `thesis/THESIS.md` | **Thesis + thesis-level KILL RAIL (built 2026-09-29, L3 3b).** 2 core legs (C1 residential conversion, C2 MF realization) + 3 amplifiers; FROZEN kill criteria; pre-registered decision rule; defect register. Not boot-read — its formal grade has a docket row (`docket/CATALYSTS.tsv`, THESIS KILL RAIL). ⚠️ The per-prediction machinery in `PREDICTIONS.tsv` is NOT this rail |
 | `docket/CATALYSTS.tsv` | Forward catalyst calendar |
 | `workbook/SCHEMA.tsv` | Column definitions for all workbook TSVs |

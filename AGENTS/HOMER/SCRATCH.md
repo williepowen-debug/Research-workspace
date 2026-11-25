@@ -1,20 +1,16 @@
-# HOMER SCRATCH — 2026-11-25 (fourth session: boot 16:03 ET, Will 16:08 ET "go ahead approved begin" on the two NEXUS items; written 16:15 ET)
+# HOMER SCRATCH — 2026-11-25 (fifth session: boot 17:25 ET; Will "continue working on your tools and plan"; written 17:36 ET)
 
-**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), homer-e8, laptop. No helpers spawned. Third-session handoff: `git show c070c5376f:AGENTS/HOMER/SCRATCH.md`.
+**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), laptop. No helpers spawned. Fourth-session handoff: `git show c711ec8526:AGENTS/HOMER/SCRATCH.md`.
 
 ## Done
 
 | Item | Result |
 |---|---|
-| NEXUS item 1 (SEC access) | PFSI, Fannie, Freddie 10-Qs opened with `scripts/sec_contact.py`. **Corrected:** PennyMac advances used $240.5M cash in nine months, not +$52M (LESSONS §58). Fannie/Freddie rows confirmed, two precisions. Five insurers NOT re-read |
-| NEXUS item 2 | Docket row 3 key corrected (Fitch closed). Items 3 to 5 noted; HOM-09 odds frozen |
-| Apartment-loss question (Will's go, NEXUS window 16:07 ET) | Answered: `AGENTS/NEXUS/inbox/2026-11-25_from-HOMER_apartment-loss-order.md`; TERRY copied |
-| PROME status ask (16:12 ET message) | Answered by packet `PROME/inbox/2026-11-25_from-HOMER_pennymac-10Q-opened-CORRECTION.md`; REGINALD sent the 10-Q lender table |
-| Also | MEMORY (ICE Oct-2025 date 11/25; SEC contact), KB-HOMER-045 member, WALTER 037 logged |
-| DAEDALUS structure block (pasted by Will 16:15 ET; "ok go" 17:02 ET to steps 1 and 2 only) | Done 17:04 ET: PHM, MTH, NVR re-keyed; servicer trigger moved verbatim to `registry/SERVICER_WATCH.md`. MAINTENANCE entry |
-| REGINALD packet 16:17 ET (no ask) | Logged on KB-HOMER-045; processed |
-
-No band, count, score, kill test or registered odds changed.
+| Plan item 1 (steps 3, 4, 5, 7 and STATUS red marks) | Done; detail in MAINTENANCE 17:35 ET. No reading, band, count, kill test or odds changed |
+| Start-up read (charter + STATUS + SCRATCH + LESSONS + docket print) | 109,457 B before, about 90.7 KB after (-17%) |
+| READS re-sign | Proposed `reports/2026-11-25_READS.proposed.tsv`; packet to PROME, which owns the registry |
+| Every-session checks | ATTOM 404 ×3 (Aug control 200) at 17:28 ET; servicer rating search: nothing new (one thin search) |
+| Script 1 | Scope draft `reports/2026-11-25_script1-scope-DRAFT.md`; four feeds answered; nothing built |
 
 ## Due next
 
@@ -23,13 +19,13 @@ No band, count, score, kill test or registered odds changed.
 3. HUD FHA October report (~December): read EVERY table; starts against ~10,465 a month.
 4. PennyMac Q4 (about February): cushion over the Fannie/Freddie test (unscored view: lower than $94M about 25%, shortfall under 3%); Walker & Dunlop Q4 allowance (above $63.2M about 75%, unscored).
 
-## PLAN OF RECORD (Will 2026-11-25 17:19 ET: "ok go, record it as the plan"; carry until done)
+## PLAN OF RECORD (Will 2026-11-25 17:19 ET; carry until done)
 
 Dated prints come first: the 11/30 ICE check outranks this plan.
 
-1. **Next fresh session, approved:** DAEDALUS steps 3 (BOOT first; CLOSEOUT to its own file; step numbers kept; READS re-signed) and 4 (CATALYSTS column 1 = next date plus basis, history to notes; archive a RESOLVED row only if it holds no next date), then 5 (each cut LESSONS row one complete sentence, file no larger than 22,409 B) and 7 (frozen THESIS grades apart from live counts; §9 still updates at each print). Plus STATUS red marks: red only for a reading past a red line or a fired alarm (a practice, not a new rule). Report the new start-up size after 3 and 4.
-2. **After that, script 1:** the few public series (Freddie PMMS, FMHPI, Treasury curve, possibly Apartment List); saves dated copies, fails loudly, grades nothing. **Will approves its scope before any build.** Stop after it unless it clearly saves time.
-3. **Possibly later, script 2:** filing reader (same 10-Q lines each quarter; PennyMac and the other listed servicers first). **Separate scope approval.** Reading the text stays required.
+1. DONE 2026-11-25 (fifth session).
+2. **Script 1:** scope draft with Will (A build / B without Apartment List / C do not build). **No build before his word.** Stop after it unless it clearly saves time.
+3. **Possibly later, script 2:** filing reader (same 10-Q lines each quarter; PennyMac and the other listed servicers first). Separate scope approval. Reading the text stays required.
 4. **Not in the plan:** step 6 (band history out of CLAUDE.md) HELD for Will's separate word; the one-to-one with LABOR skipped; no new band, kill test, rule or check.
 
 Sources: `AGENTS/DAEDALUS/runs/2026-11-25_HOMER_ARCHITECTURE_REVIEW_READ.md` (incl. addendum) and `2026-11-25_HOMER_PEER_COMPARISON.md`.

@@ -151,7 +151,7 @@ The handle has two parts: **(i) the universal 5-point handle** that blueprint `m
 
 ---
 
-## 9. Fired-count ledger between grades (mechanical, per §4 "fired counts update at each print"; no criterion touched)
+## 9. LIVE — fired-count ledger between grades (the only section that changes at a print; mechanical, per §4 "fired counts update at each print"; no criterion touched)
 
 Entries 2026-10-15 to 2026-11-16 (0 of 5 legs at every entry): `archive/THESIS_history_2026-11-25.md` block D. New entries go here. Counts since the 2026-11-20 grade:
 
@@ -170,20 +170,9 @@ Entries 2026-10-15 to 2026-11-16 (0 of 5 legs at every entry): `archive/THESIS_h
 
 ---
 
-## 10. FORMAL GRADE — 2026-11-20 (GATE-HOMER-THESIS-KILL; the first grade under criteria frozen before the data)
+## 10. FORMAL GRADE — 2026-11-20: moved to `thesis/FORMAL_GRADES.md` (frozen, verbatim)
 
-**0 of 5 legs KILLED (4 NOT FIRED, 1 UNGRADED) ⇒ 🔴 holds.** Read 2026-11-20 11:48–11:54 ET. Full record, unedited: block I; evidence `reports/2026-11-20_thesis-formal-grade.md`. ⛔ Frozen record: new prints go to §9, never here or there.
-
-| Leg | Reading at the grade | Count | Verdict |
-|---|---|---|---|
-| **C1** | FC sales +14.5% YoY, FC inventory +37% (ICE Sept) | 0 / 3 | NOT FIRED |
-| **C2 · CMBS** | Trepp 8.09% (Oct) | 0 / 3 | NOT FIRED |
-| **C2 · GSE** | max 0.62% (Fannie 9/30; Freddie 0.58% Sept) | 0 / 3 | NOT FIRED |
-| **A1** | old first conjunct met, 2 of 2; cure conjunct no reading | — | **UNGRADED** (D12) |
-| **A2** | PMMS 7.28% [11/19] | 0 / 4 | NOT FIRED |
-| **A3** | HMI 25 (Nov) | 0 / 3 | NOT FIRED |
-
-Read with D17 and D18. **Next formal grade 2027-02-20**; earlier only by the header's rule. Its early-date clause for A1 rested on the old first conjunct; after §11 (0 of 2) an ICE cure print alone does not complete A1.
+0 of 5 legs killed (4 NOT FIRED, 1 UNGRADED: A1) ⇒ 🔴 holds. Next formal grade 2027-02-20, appended there.
 
 ---
 
