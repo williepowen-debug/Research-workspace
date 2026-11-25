@@ -1,64 +1,41 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-25T17:52:39Z",
-  "items": 15,
+  "checked_at": "2026-11-25T19:29:40Z",
+  "items": 3,
   "scan": {
-    "checked_at": "2026-11-25T17:48:42Z",
-    "head_checked_at": "2026-11-25T17:48:42Z",
+    "checked_at": "2026-11-25T19:24:07Z",
+    "head_checked_at": "2026-11-25T19:24:07Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 3
+    "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "fully_read": 11,
-    "partly_read": 4
+    "partly_read": 1,
+    "fully_read": 2
   },
   "dispositions": {
-    "KILL": 1,
-    "FOLD": 4,
-    "DUP": 3,
-    "DISPATCH": 4,
-    "NO-ACTION": 3
+    "DISPATCH": 1,
+    "FOLD": 2
   },
   "follow_ups": [
     {
-      "id": "2125624903496040617",
-      "ref": "BOARD/SIG-W-20261125-024-CoreWeave-Oct-2031-bonds-74.23-yield-17.91-June-2030-record-low-76.55-Tradeweb-via-Reuters-Nov-25-and-CCC-effective-yield-18.66-Nov-24-FRED-three-year-window-high.md"
+      "id": "2125648504441761813",
+      "ref": "AGENTS/WALTER/research/2026-11-25_reboot/cards-031.json"
     },
     {
-      "id": "2125394343477612548",
-      "ref": "BOARD/SIG-W-20261125-024-CoreWeave-Oct-2031-bonds-74.23-yield-17.91-June-2030-record-low-76.55-Tradeweb-via-Reuters-Nov-25-and-CCC-effective-yield-18.66-Nov-24-FRED-three-year-window-high.md"
+      "id": "2125645440226078932",
+      "ref": "AGENTS/WALTER/research/2026-11-25_reboot/cards-034.json"
     },
     {
-      "id": "2125516586434113702",
-      "ref": "BOARD/SIG-W-20261125-025-Small-items-Will-bookmarks-Nov-25-Thanksgiving-high-wind-warnings-mid-Atlantic-PE-exit-backlog-300B-claim-WSJ-unread-Iowa-detonation-done-SocGen-Oracle-debt-Kalshi-93-others-repeats.md"
-    },
-    {
-      "id": "2125584140900683877",
-      "ref": "BOARD/SIG-W-20261125-025-Small-items-Will-bookmarks-Nov-25-Thanksgiving-high-wind-warnings-mid-Atlantic-PE-exit-backlog-300B-claim-WSJ-unread-Iowa-detonation-done-SocGen-Oracle-debt-Kalshi-93-others-repeats.md"
-    },
-    {
-      "id": "2125599639013367920",
-      "ref": "BOARD/SIG-W-20261125-025-Small-items-Will-bookmarks-Nov-25-Thanksgiving-high-wind-warnings-mid-Atlantic-PE-exit-backlog-300B-claim-WSJ-unread-Iowa-detonation-done-SocGen-Oracle-debt-Kalshi-93-others-repeats.md"
-    },
-    {
-      "id": "2125562424111596003",
-      "ref": "BOARD/SIG-W-20261125-025-Small-items-Will-bookmarks-Nov-25-Thanksgiving-high-wind-warnings-mid-Atlantic-PE-exit-backlog-300B-claim-WSJ-unread-Iowa-detonation-done-SocGen-Oracle-debt-Kalshi-93-others-repeats.md"
-    },
-    {
-      "id": "2125610724885950960",
-      "ref": "BOARD/SIG-W-20261125-024-CoreWeave-Oct-2031-bonds-74.23-yield-17.91-June-2030-record-low-76.55-Tradeweb-via-Reuters-Nov-25-and-CCC-effective-yield-18.66-Nov-24-FRED-three-year-window-high.md"
-    },
-    {
-      "id": "2125226505936515500",
-      "ref": "BOARD/SIG-W-20261125-025-Small-items-Will-bookmarks-Nov-25-Thanksgiving-high-wind-warnings-mid-Atlantic-PE-exit-backlog-300B-claim-WSJ-unread-Iowa-detonation-done-SocGen-Oracle-debt-Kalshi-93-others-repeats.md"
+      "id": "2125651323102322973",
+      "ref": "AGENTS/WALTER/research/2026-11-25_reboot/cards-034.json"
     }
   ],
   "requests": [
     {
-      "id": "2125599639013367920",
-      "request": "WSJ private-equity backlog article: the $300B 2028-29 debt and 30% held six-plus years; not in the PitchBook paper read; decides whether BROCK can use either figure."
+      "id": "2125648504441761813",
+      "request": "Bloomberg article on the CoreWeave $4.5 billion loan sale: paste it if you can; only the post was read"
     }
   ]
 }

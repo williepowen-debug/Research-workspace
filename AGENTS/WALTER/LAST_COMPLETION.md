@@ -18,7 +18,9 @@ Updated 2026-11-25T19:05:39Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 10. **Owner reads pending:** CREED-T-03 (WQ-749 A re-points it), RED-FT-10 exit (1 of 4), BROCK on 026 and 027 (scope of the $300B, the 3,905 label), LIQUID, VULCAN and BROCK on 024, AEOLUS on 029, TERRY on HOMER's correction packet.
 11. **Carries:** DEWEY pilot REQ-DEWEY-20261123-001 due 12/01; Iran full sweep about 11/30; tanker-cost watch 11/30; Section 301 comments 1/5, hearing 1/25; MOFCOM clock 1/27; conference-board.org, FinCEN text, OSAC, BofA and Reuters CoreWeave originals unread; YUR-010 by 12/03; CATO's unconsumed 10/19 ACTION; Seeking Alpha GPU item UNREVIEWED; Kazakhstan unsecond-sourced; 24 unconsumed over two days, 11 desks (doctor 14:02 ET; PROME wakes). December 14 review stands (WQ-684).
 
-Calendar coverage cutoff: 2026-11-25T18:55:00Z (research/2026-11-25_boot/CALENDAR-RECONCILIATION.tsv).
+**Light note 2026-11-25T19:30:30Z (reboot, walter-7f):** items 1, 2, 3 and 8 above are DONE: inbox 2 to 0; owner card 033; tides read (Humboldt 9.811 and San Francisco 8.213 not records; Santa Barbara, Monterey, Charleston OR 11/24 were, card 030; Oregon and Washington highs still rising at 14:21 ET); lane batch marked, 3 bookmarks marked. Cards 030 to 034. Carried: NEW_WATCH 'TSMC Texas fab $22.6B' noted untouched, not carded; HANS daily levels UNKNOWN; Bloomberg CoreWeave article unread (Will may paste); 033's HENRY 7,000-pin view is overtaken by the recovery. Clocks in item 4 stand.
+
+Calendar coverage cutoff: 2026-11-25T19:30:30Z (research/2026-11-25_reboot/CALENDAR-RECONCILIATION.tsv; prior 2026-11-25T18:55:00Z).
 
 ## STATUS
 

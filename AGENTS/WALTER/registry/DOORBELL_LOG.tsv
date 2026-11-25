@@ -675,3 +675,12 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-25	BROCK	SIG-W-20261125-027	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents; UNKNOWN by 9b (PROME subagents not visible). Wake order is PROME's.
 2026-11-25	HOMER	SIG-W-20261125-028	NONE	LIVE	NO	NA	NA	NA		homer-2f live in ListAgents 13:41 ET; direct rule 6 doorbell by message after commit.
 2026-11-25	AEOLUS	SIG-W-20261125-029	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents; UNKNOWN by 9b. Wake order is PROME's.
+2026-11-25	AEOLUS	SIG-W-20261125-030	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 14:18 ET (prome-77, homer-2f only); UNKNOWN by 9b (PROME subagents not visible). Wake order is PROME's.
+2026-11-25	LIQUID	SIG-W-20261125-031	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 14:18 ET (prome-77, homer-2f only); UNKNOWN by 9b (PROME subagents not visible). Wake order is PROME's.
+2026-11-25	BROCK	SIG-W-20261125-031	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 14:18 ET (prome-77, homer-2f only); UNKNOWN by 9b (PROME subagents not visible). Wake order is PROME's.
+2026-11-25	VULCAN	SIG-W-20261125-031	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 14:18 ET (prome-77, homer-2f only); UNKNOWN by 9b (PROME subagents not visible). Wake order is PROME's.
+2026-11-25	HANS	SIG-W-20261125-032	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 14:18 ET (prome-77, homer-2f only); UNKNOWN by 9b (PROME subagents not visible). Wake order is PROME's.
+2026-11-25	NEXUS	SIG-W-20261125-033	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 14:18 ET (prome-77, homer-2f only); UNKNOWN by 9b (PROME subagents not visible). Wake order is PROME's.
+2026-11-25	VULCAN	SIG-W-20261125-034	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 14:18 ET (prome-77, homer-2f only); UNKNOWN by 9b (PROME subagents not visible). Wake order is PROME's.
+2026-11-25	VIOLET	SIG-W-20261125-034	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 14:18 ET (prome-77, homer-2f only); UNKNOWN by 9b (PROME subagents not visible). Wake order is PROME's.
+2026-11-25	BRENT	SIG-W-20261125-034	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 14:18 ET (prome-77, homer-2f only); UNKNOWN by 9b (PROME subagents not visible). Wake order is PROME's.

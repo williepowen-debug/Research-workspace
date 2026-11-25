@@ -1,0 +1,38 @@
+---
+signal_id: "SIG-W-20261125-031"
+date: "2026-11-25"
+timestamp: "2026-11-25T19:29:23Z"
+dispatched: "2026-11-25T19:29:23Z"
+source: "X post by @DeItaone (text read in full); Bloomberg not read; CRWV vendor 14:27 ET"
+origin: ["X 2125648504441761813 @DeItaone relaying Bloomberg"]
+action: ["LIQUID", "BROCK", "VULCAN", "TERRY"]
+info: ["SAM", "HENRY", "REGINALD", "NEXUS", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "development"
+confidence: 0.6
+confidence_language: "claims: single relay of an unread Bloomberg report"
+resources: 1
+safety_net: "clear"
+cluster: "AI_INFRA_CAPEX"
+domain: "AI_CAPEX"
+entities: ["CoreWeave", "Meta", "Morgan Stanley", "MUFG"]
+word_count: 294
+dispatch_note: "PRIORITY. Financing leg LIQUID and BROCK; VULCAN issuer. TERRY BOARD-only. combo:BROCK/ai-financing. RED, PROME by BOARD diff."
+event_window: "open"
+---
+# CoreWeave (BLOOMBERG NOT READ, one relay): Morgan Stanley and MUFG prepare to sell a $4.5 billion loan backed by GPUs for a Meta project, as soon as next week, 7% to 7.5% yield, investment-grade ratings EXPECTED; up from 'at least $4 billion' in cards 20261114-009 and -010
+
+# CoreWeave Meta-contract loan: the sale date is now 'next week'
+
+| Item | Reported | Basis |
+|---|---|---|
+| Size | $4.5 billion; was 'at least $4 billion' (20261114-009, -010) | @DeItaone 12:51 ET Nov 25 relaying Bloomberg; Bloomberg not read; WALTER's search found only the older $4 billion reports |
+| Arrangers, timing | Morgan Stanley and MUFG; as soon as next week | same |
+| Rating, yield | investment grade EXPECTED; 7% to 7.5% | same; no rating action seen |
+| CoreWeave 2031 bond | about 18% | agrees with 17.91% on Oct 2031 notes (card 024); may share a data source, not counted as new evidence |
+| 'Five-year default probability above 70%' | implied from swaps | a MODEL output that depends on the recovery assumption, not a forecast; basis unstated. The 11/25 five-year swap trade was cancelled (022) |
+| CoreWeave stock | 41.37, -2.9% on the day | vendor 14:27 ET |
+
+- **Why it matters:** BROCK named this loan today as the nearest test of whether AI-borrower stress reaches a lender ('pulled or repriced AI deal with an alternative-manager lender', about 30% by 12/16, unscored). A sale clearing at 7% to 7.5% beside an 18% corporate bond would suggest lenders price Meta's contract more than CoreWeave (inference). A delay, a wider yield or a lost rating would be the first deal-level sign.
+- **Not established:** a launch, terms, a rating, the lender list, or that this is the 4.0-class facility named in November 14 cards rather than a new one. Earlier comparison basis: 20261114-010 (DDTL 4.0, $8.5 billion at S+225).
+- **Watch:** a company release or 8-K; a pulled or repriced syndication. WQ-745 and its $48 close condition are TERRY's; nothing here changes it.

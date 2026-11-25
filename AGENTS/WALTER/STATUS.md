@@ -1,7 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-11-25T19:05:39Z — walter-7f on the laptop: **Tier 2 FULL closeout** at Will's 14:01 ET checkpoint; no light breadcrumbs owed; Will clears the window and reboots. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-25T19:30:30Z — light note after the 19:05Z full closeout (rebooted 14:15 ET; cards 030 to 034; full deferred, 1 breadcrumb). Prior: walter-7f on the laptop: **Tier 2 FULL closeout** at Will's 14:01 ET checkpoint; no light breadcrumbs owed; Will clears the window and reboots. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
+
+**November 25 reboot (2026-11-25T19:30:30Z, walter-7f, laptop):** 20261125-030 IMMEDIATE (second record-tide card: Santa Barbara, Monterey; Charleston OR 11/24), 031 CoreWeave $4.5B loan (Bloomberg unread), 032 Ofgem +26%, 033 owner answers (FERT G5, BOND I-prime, seven others), 034 small items. BOARD 2,379. 14:29 ET vendor S&P 7,191.94, VIX 28.00. No row fired.
 
 **November 25 (walter-7f, laptop; FULL closeout at the 14:01 ET checkpoint):** 29 cards (20261125-001 to -029), BOARD 2,374. **005 FLASH: VIX over 30 from premarket to about 12:50 ET (high 34.95); 27.78 at 13:47.** IMMEDIATE: 006 Section 301 (corrected 015), 007 8:30 data, 009 and 029 California tides (observed records at Arena Cove, San Diego, La Jolla), 013 AI swaps (corrected 022), 021 DeLand (6.3 forecast Sat against 6.33). 016 and 023 correct Brent and the Hodeidah headline. 017 MOFCOM to 1/27; 018 HY 372 [11/24]; 019 DR-4956-FL; 020 owner outcomes; 024 CoreWeave bonds; 025 to 027 bookmarks and two WSJ articles; 028 FHA inflow (HOMER acted 13:43 ET). FERT G5 FIRED, BOND month-end grades and five owner answers not yet carded. 14:02 ET vendor: S&P 7,181.93 (low 6,970.11). Detail and resume list: LAST_COMPLETION.
 

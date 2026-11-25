@@ -1,0 +1,28 @@
+{
+  "schema": 2,
+  "staged_at": 1795634647.9872143,
+  "items": [
+    {
+      "id": "2125648504441761813",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-11-25_reboot/cards-031.json",
+      "ask_user": "Bloomberg article on the CoreWeave $4.5 billion loan sale: paste it if you can; only the post was read"
+    },
+    {
+      "id": "2125645440226078932",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-11-25_reboot/cards-034.json",
+      "ask_user": null
+    },
+    {
+      "id": "2125651323102322973",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-11-25_reboot/cards-034.json",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "2c863f4a7ae147ef9c1765dd6cbcb5e1"
+}

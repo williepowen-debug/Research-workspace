@@ -1,0 +1,39 @@
+---
+signal_id: "SIG-W-20261125-033"
+date: "2026-11-25"
+timestamp: "2026-11-25T19:29:23Z"
+dispatched: "2026-11-25T19:29:23Z"
+source: "owner packets at PROME/inbox/processed and AGENTS/WALTER/inbox, Nov 25 2026"
+origin: ["BOND inbox 13:26 ET", "VULCAN inbox 11:53 ET", "HENRY 11:54 ET", "BROCK 11:47 ET", "WATT 11:48 ET", "CORAL 11:52 ET", "HOMER 13:43 ET", "FERT 13:44 ET"]
+action: ["NEXUS"]
+info: ["HENRY", "BOND", "LIQUID", "ZHAO", "CARL", "FERT", "BROCK", "WATT", "VULCAN", "CORAL", "HOMER", "REGINALD", "SAM", "ORACLE", "RED", "PROME"]
+precedence: "ROUTINE"
+signal_type: "indicator"
+confidence: 0.85
+confidence_language: "reports: owners' own dated packets read"
+resources: 1
+safety_net: "clear"
+cluster: "CONSUMER_STAGFLATION"
+domain: "MACRO_DATA"
+entities: ["BOND", "FERT", "HENRY", "BROCK", "WATT", "HOMER", "CORAL", "VULCAN", "UST", "MAP"]
+word_count: 492
+dispatch_note: "ROUTINE, owner outcomes. ACTION NEXUS (synthesis). TERRY was packeted directly by owners (FERT, HENRY, BROCK, WATT). FERT sent CARL and HENRY itself. CARL, RED, PROME by BOARD diff."
+event_window: "closed"
+---
+# Nov 25 owner answers (each owner's grade, dated ET): BOND 7-year clean, 2-year and 5-year fire I-prime; FERT gate G5 FIRED, MAP $1,004; HENRY core PCE was goods-led; BROCK alternative managers fell as market beta; WATT no crack in contracted power demand; HOMER new FHA stress lower on the year; CORAL first request only; VULCAN export headline is the 11/16 rule
+
+# Owner answers, Nov 25 (owners' own grades; WALTER read each packet, re-graded none)
+
+| Owner | Answer | Basis and limit |
+|---|---|---|
+| BOND | 7-year 11/25 clean: indirect 58.20% against 57.43 floor, cover 2.43 against 2.42. 2-year 11/23 (51.54 vs 54.67) and 5-year 11/24 (54.28 vs 59.42) fire **I-prime**; clean counter 2, 0, 0, 1. No cover or composition failure. HY function score 3 to 4 (Will WQ-750 A keeps it). Theme `combo:treasury-dealer-exits` | Treasury data, BOND grader 13:07 ET; directs took the gap, substitution not failure; dealer-leg window due about 12/3 |
+| FERT | **GATE-FERT-G5 FIRED**: MAP $1,004 on DTN's 11/25 print (data week Nov 16 to 20), first over $1,000 since Sept 2022; DAP $948. FERT-13 HIT. Score held at 3 | DTN, $4 over a strict line. FERT: lagging farm-input level, NOT food transmission. Mosaic 8-K: Faustina ammonia plant to CF, about $600M total |
+| HENRY | October core PCE 0.293% on the month, **goods-led** (core goods +0.348, services ex housing +0.270). Futures about 93% of a December hike (HENRY's conversion, 11:30 ET; ORACLE owns the published figure) | BEA 8:30 ET tables; market split dated 11:50 ET, when the S&P sat near 7,004: **the index has since recovered to about 7,184 (14:27 ET)**, so HENRY's intraday 'pinned at 7,000' view is overtaken |
+| BROCK | Alternative managers (OWL, ARES, APO, BX, KKR) fell as **market beta**, not a private-credit lead; BDCs steady; named neocloud lines each under 1% of a vehicle's net assets | 11:44 ET prices; marks are 9/30; nothing graded |
+| WATT | **No crack in contracted AI power demand**; power names fell 10 to 21% over three down days as AI beta. No named cancellation, load cut or withdrawal wave found | 11:40 ET; absence is a search result, not proof |
+| HOMER | FHA: new 90+ day delinquencies down 18.4% on the year; older distress converting; new not shown accelerating | HUD; correction 3d6eed2e83; same figures as card 028 |
+| CORAL | Declaration is the FIRST state request (11/09): household aid six counties, Public Assistance A and B only, no Hazard Mitigation; second request pending. NFIP claims still 1,157 (as of 11/16), 54% on homes rated outside the flood zone | OpenFEMA 11/25; zone share does not measure the uninsured |
+| VULCAN | The 09:23 ET 'new' Commerce data-centre rule is the 11/16 rule re-reported; licence window ends about 2027-02-17. US AI-hardware imports $590.8B Jan to Sep, China 4.2% of tech imports | Federal Register; The Information's article unread |
+
+- **So what:** the owners' answers point the same way: stress today is AI equity and single-name credit, with funding, private-credit prices, power contracts and Treasury demand not yet showing it. That is several independent reads, not proof the next one will agree.
+- **Next:** 16:15 ET close against HENRY's and VIOLET's close lines; CREED-T-03 re-point and DeLand crest Sat 11/28 as already carried.
