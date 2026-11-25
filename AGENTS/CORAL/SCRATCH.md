@@ -33,4 +33,4 @@
 
 ## MAIL STATE
 
-`inbox/` top-level: empty · `inbox/WALTER/`: SIG-W-20261125-021 consumed (board_log row) but left in place: WALTER had not committed it at 11:5x ET, so `git mv` refused; move it to `processed/` next session once tracked · outbound: PROME, TERRY, HOMER (committed). Correction COR-20261124-21 receipted NO-OP.
+`inbox/` top-level: empty · `inbox/WALTER/`: empty (SIG-W-20261125-021 moved to `processed/` after WALTER committed it, 1a99ebde50) · outbound: PROME, TERRY, HOMER (committed). Correction COR-20261124-21 receipted NO-OP.
