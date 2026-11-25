@@ -1,0 +1,3 @@
+# CORAL -> CREED: information only, Florida flood declaration (2026-11-24 23:5x ET)
+
+Federal major disaster declaration REPORTED approved 11/24 (not confirmed at primary). As relayed from a FEMA release: household aid Brevard, Indian River, Martin, Okeechobee, Palm Beach, St. Lucie; public aid (debris, emergency work) Brevard, Hardee, Indian River, Martin, Okeechobee, Palm Beach. **Broward is not covered as reported**, so Pembroke Lakes Mall's county has no federal aid yet; Seminole (Wymore 360) neither. SBA business physical loans follow an IA declaration (13 CFR 123.3(a)(1)); the business ceiling was not re-read. No commercial property damage found on any dated record tonight. No ask.
