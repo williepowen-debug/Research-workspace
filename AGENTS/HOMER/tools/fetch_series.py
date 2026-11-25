@@ -18,7 +18,7 @@ A refusal or block stops that feed. Never retry with another identity, address o
 Fetching is plain `curl` with its default client string, exactly as tested by hand on 2026-11-25.
 
 Usage (from AGENTS/HOMER/):
-  python3 tools/fetch_series.py                # all four feeds
+  python3 tools/fetch_series.py                # all four feeds (+ last year's Treasury file, January 1-7)
   python3 tools/fetch_series.py pmms treasury  # named feeds only
   python3 tools/fetch_series.py --selftest     # malformed inputs must FAIL; no network
 Exit: 0 all requested feeds NEW or UNCHANGED · 1 any feed FAILED · 2 bad usage.
@@ -217,12 +217,31 @@ def al_url():
     return max(set(urls), key=lambda u: re.search(r"(\d{4}_\d{2})\.csv$", u).group(1))
 
 
+def tsy_url(year):
+    return ("https://home.treasury.gov/resource-center/data-chart-center/interest-rates/"
+            f"daily-treasury-rates.csv/{year}/all?type=daily_treasury_yield_curve"
+            f"&field_tdr_date_value={year}&page&_format=csv")
+
+
+DEFAULT = ["pmms", "fmhpi", "treasury", "apartment_list"]
+
+
+def plan(argv, today):
+    """Feeds to run: named ones, or the default four; treasury_prior_year joins before
+    treasury in the first 7 days of January."""
+    feeds = list(argv) or DEFAULT[:]
+    if "treasury" in feeds and "treasury_prior_year" not in feeds and today.month == 1 and today.day <= 7:
+        feeds.insert(feeds.index("treasury"), "treasury_prior_year")
+    return feeds
+
+
 FEEDS = {
     "pmms": (lambda: "https://www.freddiemac.com/pmms/docs/PMMS_history.csv", parse_pmms),
     "fmhpi": (lambda: "https://www.freddiemac.com/fmac-resources/research/docs/fmhpi_master_file.csv", parse_fmhpi),
-    "treasury": (lambda: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/"
-                 f"daily-treasury-rates.csv/{dt.date.today().year}/all?type=daily_treasury_yield_curve"
-                 f"&field_tdr_date_value={dt.date.today().year}&page&_format=csv", parse_treasury),
+    "treasury": (lambda: tsy_url(dt.date.today().year), parse_treasury),
+    # Prior year's file, fetched only in the first 7 days of January (added 2026-11-25, Will
+    # "ok go"): saves the last trading days of December, which the new year's file does not hold.
+    "treasury_prior_year": (lambda: tsy_url(dt.date.today().year - 1), parse_treasury),
     "apartment_list": (al_url, parse_apartment_list),
 }
 
@@ -327,6 +346,12 @@ def selftest():
         print("  FAIL: clean pmms input misread"); bad += 1
     else:
         print(f"  ok  clean pmms input read: {ok['show']}")
+    for today, want in ((dt.date(2027, 1, 4), True), (dt.date(2027, 1, 8), False), (dt.date(2026, 11, 25), False)):
+        got = "treasury_prior_year" in plan([], today)
+        if got != want:
+            print(f"  FAIL: January prior-year rule wrong on {today}"); bad += 1
+        else:
+            print(f"  ok  January prior-year rule on {today}: {'runs' if got else 'skipped'}")
     print(f"SELFTEST {'PASS' if not bad else 'FAIL'}: {len(cases)} malformed inputs, {bad} accepted")
     return 0 if not bad else 1
 
@@ -334,7 +359,7 @@ def selftest():
 def main(argv):
     if argv == ["--selftest"]:
         return selftest()
-    feeds = argv or list(FEEDS)
+    feeds = plan(argv, dt.date.today())
     unknown = [f for f in feeds if f not in FEEDS]
     if unknown:
         print(f"unknown feed(s) {unknown}; choose from {list(FEEDS)}")

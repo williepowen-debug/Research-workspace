@@ -53,7 +53,7 @@
 | Metric | Value (as of) | Band |
 |---|---|---|
 | **★★★ 30-Yr PMMS** | **7.21% [wk 11/25] (−7bp)** · 7.28 [11/19] · 7.11 [11/12]; 15Y 6.54%. Issuer CSV | 🔴 **RED, 21bps through; no uncrossed rung.** A2 kill 0/4 (**71bp away**) |
-| **CONTEXT — curve** *(BROCK/HENRY own direction)* | 9/16 hiked to 3.75–4.00%. **10Y 4.91% · 2Y 4.63% [11/24]** (11/19: 5.04 / 4.76; peak 5.31 [10/05]); Treasury CSV | context — eased since 11/19 |
+| **CONTEXT — curve** *(BROCK/HENRY own direction)* | 9/16 hiked to 3.75–4.00%. **10Y 4.91% · 2Y 4.63% [11/24]**, the survey-matched pair; 11/25 close 4.85 / 4.61 (peak 5.31 [10/05]); Treasury CSV | context; the spread keeps 11/24 |
 | **★★ 10Y-FRM spread** | **~230bps [11/25]** = 7.21% − 4.91% (Tue 11/24 10Y, survey-matched). Prior ~221 [11/19] · ~213 [11/12] | 🟠 +9bp: 10Y fell 16bp, mortgages 7bp. Not MBS OAS |
 | **BASIS TRAP / daily context** | PMMS 7.21 [11/25] · MBA 7.38 [wk 11/20] · **MND 7.32% [11/24]** (7.51 [11/16]) | MND is not an A2 print and has misled on the next weekly survey (11/12) |
 | **★★ MBA weekly apps** | **wk 11/20: purchase +10% SA WoW (+5% NSA), −16% YoY**; refi −51% YoY; ARM share 11.5%; MBA 30Y 7.38% (two secondary copies agree) · wk 11/13: purchase −3% WoW, −18% YoY | 🟠 one holiday-adjacent week; YoY still negative |
