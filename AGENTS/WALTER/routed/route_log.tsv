@@ -2337,3 +2337,12 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-25T03:31:41Z	SIG-W-20261124-003	WALTER walter-7f 11/24 22:27 ET (laptop)	Car-Mart Chapter 11 (8-K read)	IMMEDIATE	BROCK,OTTO	CARL,LIQUID,REGINALD,SHADE,GIBBS,HENRY,RED,NEXUS,PROME	0.95
 2026-11-25T03:33:16Z	SIG-W-20261124-004	WALTER walter-7f 11/24 (laptop), step 7j flood check, Will's Tuesday-evening instruction	California tides 11/24: Arena Cove above listed record	IMMEDIATE	AEOLUS	WATT,SHADE,CORAL,PROME	0.85
 2026-11-25T03:33:16Z	SIG-W-20261124-005	WALTER walter-7f 11/24 (laptop), step 7j flood check	Florida floods 11/24: Sanford major, DeLand forecast 6.2	ROUTINE	CORAL	AEOLUS,SHADE,HOMER,REGINALD,MARCO,PROME	0.95
+2026-11-25T03:44:14Z	SIG-W-20261124-006	WALTER walter-7f 11/24 22:40 ET (laptop), Will's 'ok sweep now' resumed	Hodeidah port struck again after Houthi ultimatum on Saudi Red Sea ports; Riyadh tower 11 wounded	IMMEDIATE	FALCON,BRENT	HAWK,SAM,NEXUS,HANS,LIQUID,HENRY,RED,PROME	0.8
+2026-11-25T03:44:14Z	SIG-W-20261124-007	WALTER walter-7f 11/24 (laptop); AMD filing read by WALTER 11/23 evening	AMD 336.9M share resale registration; Nov 24 chip selloff	PRIORITY	VULCAN	HENRY,LIQUID,VIOLET,NEXUS,RED,PROME,BROCK	0.85
+2026-11-25T03:44:14Z	SIG-W-20261124-008	WALTER walter-7f (laptop); primary read by WALTER 11/23 evening	BIS lists seven Megaspeed entities	PRIORITY	VULCAN,ZHAO	HENRY,LIQUID,NEXUS,RED,PROME	0.95
+2026-11-25T03:44:14Z	SIG-W-20261124-009	WALTER walter-7f 11/24 (laptop)	301 excess-capacity tariffs reported imminent	PRIORITY	CARL	HENRY,REGINALD,MARCO,ISHM,ZHAO,SAM,LABOR,RED,PROME	0.7
+2026-11-25T03:44:14Z	SIG-W-20261124-010	WALTER walter-7f 11/24 (laptop)	5Y auction indirect under I-prime bar	PRIORITY	BOND	HENRY,LIQUID,RED,PROME	0.9
+2026-11-25T03:44:14Z	SIG-W-20261124-011	WALTER walter-7f 11/24 (laptop)	Nov 24 releases: confidence 103.3, Case-Shiller 2.1, Richmond +3	PRIORITY	HOMER,CARL	LABOR,HENRY,CORAL,ISHM,CREED,RED,PROME,SAM	0.8
+2026-11-25T03:44:14Z	SIG-W-20261124-012	WALTER walter-7f (laptop), 11/23 evening sweep	Williams consecutive-meetings quote	ROUTINE	HENRY	BOND,ORACLE,RED,PROME	0.85
+2026-11-25T03:44:14Z	SIG-W-20261124-013	WALTER walter-7f (laptop), 11/23 evening sweep	NATO AWACS to Poland; Estonia, Finland	PRIORITY	HAWK	YURI,OSPREY,RED,PROME	0.8
+2026-11-25T03:44:14Z	SIG-W-20261124-014	WALTER walter-7f 11/24 (laptop)	Shanghai party chief under investigation	ROUTINE	ZHAO	YEYOU,RED,PROME	0.7

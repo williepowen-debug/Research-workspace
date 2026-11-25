@@ -1,0 +1,36 @@
+---
+signal_id: "SIG-W-20261124-008"
+date: "2026-11-25"
+timestamp: "2026-11-25T03:44:14Z"
+dispatched: "2026-11-25T03:44:14Z"
+source: "Federal Register public inspection FR Doc 2026-23999, read by WALTER 2026-11-23 evening; lane titles 11/24"
+origin: ["Federal Register public inspection FR Doc 2026-23999"]
+action: ["VULCAN", "ZHAO"]
+info: ["HENRY", "LIQUID", "NEXUS", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "catalyst"
+confidence: 0.95
+confidence_language: "confirmed: rule text read at the Federal Register"
+resources: 1
+safety_net: "clear"
+cluster: "AI_CAPEX"
+domain: "AI_CAPEX"
+entities: ["Megaspeed", "BIS", "Entity-List", "Nvidia"]
+word_count: 160
+dispatch_note: "PRIORITY, late (filed 11/23 16:15 ET). ACTION VULCAN, ZHAO. RED, PROME by diff; TERRY BOARD-only."
+event_window: "closed"
+---
+# US puts seven Megaspeed-linked companies on the Entity List (Malaysia 3, Singapore 3, Thailand 1), effective on public inspection Mon Nov 23, license review presumption of denial; publishes Nov 25
+
+# BIS Entity List: Megaspeed network
+
+| Country | Entities (as listed, read 11/23) |
+|---|---|
+| Malaysia | MSFusion; PT Megaspeed International; Speedmatrix |
+| Singapore | Apex Enterprise Solutions; Megaspeed International Pte; Swiftdata |
+| Thailand | Megaspeed (Thailand) |
+
+- FR Doc 2026-23999, filed for public inspection 16:15 ET 11/23, effective then, publication 11/25. **Presumption of denial.** Country placement is as the document lists it; 'PT' is an Indonesian form.
+- Prior: extension of chip licensing to diversion-risk countries (20261117-007), DOJ and Commerce Megaspeed probes (20261117-025).
+- **Response:** Malaysia 'responds to US Entity List with data centre warning' (Digital Watch title, 11/24): TITLE ONLY, not read.
+- **So what:** a named large buyer of Nvidia systems in Southeast Asia can no longer buy US-origin chips without a licence that is presumed denied. Revenue size for Nvidia is not in the rule; VULCAN sizes it. Congress hearings on Nvidia are set for Dec 1 to 3 (search, 11/23).
