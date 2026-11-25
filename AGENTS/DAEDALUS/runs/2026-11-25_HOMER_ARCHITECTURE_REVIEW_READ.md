@@ -40,3 +40,14 @@ The review's facts about size and placement reproduce. Its main conclusion (weig
 ## Limits
 
 One reader; workbook bodies and cold registers not read; housing analysis not judged. FLEET_MAP HOMER row and the profile (trigger 11/20 fired) are stale, owed at PR #11.
+
+## Addendum: revised review read (2026-11-25 15:59 ET; Will supplied it 15:58 ET)
+
+Revision accepts the corrections above. Four points remain, checked at the file:
+
+1. **Own error:** "finish the 40 cut lessons" adds weight. Restoring full rules verbatim for the 38 rows matched takes LESSONS from 22,123 B to about 29.2 KB (90% of 32,550 B, past the 24,412 B trigger) and cancels about 7 of the 17.5 KB saved. The revised wording's other branch ("or names where it lives") is already true of every row. Correct form: one complete sentence per rule, file no larger than today.
+2. **Review error, new:** "PHM Q4 GM is a CRL-23 trigger leg". CARL `PREDICTIONS.tsv:26` grades PHM Q1 FY27 (April 2027); CATALYSTS row 4 calls other prints trajectory reads. CATALYSTS rows 28, 31, 32: "No HOMER band keys on a single builder". The hidden rows are missed data pulls, not a missed trigger. (My own "Row 4 partly covers PHM" stands.)
+3. **Stale:** this file is on origin (f98e37b18c), so "not pushed" is wrong. The servicer row moved on: Fitch closed 15:23 ET (STATUS:35), while CATALYSTS row 3 column 1 still reads "Fitch primary owed" (last commit 14:53 ET; HOMER's session is open, so its closeout may still fix it).
+4. **Authority:** the revised block files all seven steps under class C4, which covers a desk's own-charter edits only (steps 3 and 6) and excludes any threshold move. Section 6 asks Will about step 6 while the block already sends it. Step 3 is boot-defining: READS re-attestation owed, not in the block.
+
+The two thesis legs the revision left unchecked: THESIS §8a C2 = 5, A3 = 5 (confirmed), A2 capped at 4.
