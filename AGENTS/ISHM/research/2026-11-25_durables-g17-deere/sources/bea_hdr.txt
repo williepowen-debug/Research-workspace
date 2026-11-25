@@ -1,0 +1,13 @@
+HTTP/2 200 
+date: Wed, 25 Nov 2026 15:53:36 GMT
+content-type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+content-length: 1855032
+last-modified: Wed, 25 Nov 2026 13:30:09 GMT
+etag: "dc929017e17cdd1:0"
+x-powered-by: ASP.NET
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-azure-ref: 20261125T155336Z-15b74cf989bzf26rhC1BN1mxms0000000pyg00000000xh9r
+x-cache: CONFIG_NOCACHE
+accept-ranges: bytes
+

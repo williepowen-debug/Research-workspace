@@ -1,20 +1,20 @@
 # DE — Deere
 
-As of October 26, 2026; FY2026 Q3 ended August 2; released August 20. Corporate data NSA, first-published at issuer; PRIMARY-VERIFIED. This is the accepted print read, not live prices or a valuation view.
+As of November 25, 2026; fiscal Q4 2026 ended November 1; released November 25 (8-K accepted 11:00:47 UTC, call 9 a.m. Central). Corporate data NSA, first-published at the issuer; PRIMARY-VERIFIED at EDGAR with the SEC's declared-contact client string (`scripts/sec_contact.py`). This is the accepted print read, not live prices or a valuation view.
 
-[Primary source](https://www.sec.gov/Archives/edgar/data/315189/000110465926098904/de-20260820xex99d1.htm). Next: November 25 indexed issuer date; full event body/time still unverified; date authority lives in ../docket/CATALYSTS.tsv.
+[Release, exhibit 99.1](https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/de-ex99d1.htm) · [slides, exhibit 99.2](https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/de-ex99d2.htm); copies in `../research/2026-11-25_durables-g17-deere/sources/`. Next: fiscal Q1 2027 call Thursday February 18, 2027, 9 a.m. Central (slide 19, PRIMARY); date authority lives in ../docket/CATALYSTS.tsv.
 
 | Fixed checklist | Accepted read |
 |---|---|
-| Orders / backlog | Order-book trends support management's bottoming expectation; numeric backlog NOT-STATED. |
-| Guidance | FY2026 net-income guide improved to $4.75–5.00B. |
-| Price versus volume | Large-ag shipments lower, price favorable; small-ag volume and price higher. |
-| Tariff cost / recovery | Quarterly tariff recoveries $110M; nine-month $382M. Recoveries are not recurring equipment demand. |
-| Inventory / destocking | Management cites improving used-equipment inventories; forecast, not a measured industry clearance. |
-| AI / grid line | Quantified data-center/grid demand NOT-STATED. |
-| Capex plan | Equipment capex-plan change NOT-STATED in reviewed release. |
-| Cycle implication | A forecast of the farm-cycle bottom coexists with weaker large-ag volume. |
+| Orders / backlog | Numeric order book or backlog NOT-STATED. Q4 Production and Precision Ag sales $4,018M, −15% y/y on lower shipment volumes; Small Ag and Turf $2,703M, +10%; Construction and Forestry $3,793M, +12% (volume and price). Industry retail, rolling three months to October (AEM, U.S. and Canada): percentages shown (2WD under 40 hp 8%, 40–100 hp 9%, 100+ hp 7%, 4WD 7%, combines 14%) but their sign is graphic, NOT-STATED in the text; Deere combines "down more than the industry". Europe: tractors down low double digits, combines down double digits. |
+| Guidance | FY2027 net income $4.50–5.25B including a one-time non-cash pension settlement charge of $0.25–0.40B (FY2026 $4.860B). Industry: U.S. and Canada large ag **up 5–15%**, small ag and turf about flat, Europe flat to −5%, South America flat to +5%, Asia about flat; U.S. and Canada construction and compact construction flat to +5%. Segment sales: PPA +5 to +15%, SAT about flat, C&F flat to +10%; currency −1.0 to −1.5%. Management: "early signs of improvement in large agriculture, led by North America"; "outlook reflects a wider range of outcomes". |
+| Price versus volume | Q4 PPA decline is volume ("lower shipment volumes"); SAT and C&F gains are volume plus price. FY2027 guided price realization about +3.0% PPA, +2.5% SAT, +2.0% C&F, so most of the PPA midpoint (+10%) is volume. |
+| Tariff cost / recovery | $383M of tariff recoveries recorded in fiscal 2026; the nine-month figure at Q3 was $382M, so Q4 recoveries were about $1M (ISHM arithmetic across two releases, INFERRED): the recovery flatterer has run off; tariff impact "primarily included in the Production Costs category" — a cost figure is NOT-STATED. C&F Q4 profit −3% on "higher production costs". Recoveries flatter FY2026 and are not equipment demand (`combo:tariff-refund-distortion`). Section 301 proposal: not mentioned. |
+| Inventory / destocking | Deere dealer inventory, units as % of trailing 12-month retail (AEM), U.S. and Canada: 2WD 100+ hp tractors **31% vs 23%** a year earlier (higher); combines **4% vs 8%** (lower). Mixed: a tractor overhang beside lean combines. |
+| AI / grid line | Quantified data-center or grid demand NOT-STATED; the risk factors now name "investment in data centers and related digital infrastructure" as a construction driver (language only). |
+| Capex plan | FY2027 equipment-operations capital expenditures about $1.5B; FY2026 consolidated purchases of property and equipment $1,144M ($1,360M FY2025). R&D "up slightly". A step up in Deere's own capex. |
+| Cycle implication | A farm-equipment bottom call with a wide range: North American large ag guided up 5–15% after a −15% Q4, while 100+ hp tractor dealer stocks are higher than a year ago and Financial Services took a higher credit-loss provision (Q4 net $231M, −21%). The upturn is guided, not yet in shipments. |
 
-SEC exhibit read at primary. Farm-income interpretation remains FERT/CARL. All observations keep their August release vintage.
+Farm-income and input-cost interpretation is FERT's and CARL's (packets November 25). Prior read (fiscal Q3, August 20 vintage): `git log -p -- AGENTS/ISHM/companies/DE.md`.
 
 Current release values/vintage: [PRINTS](../workbook/PRINTS.tsv). Refresh the same eight cells at this company's next dated release. Ownership/perimeter: [PERIMETER](../PERIMETER.tsv).

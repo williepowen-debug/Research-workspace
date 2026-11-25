@@ -1,0 +1,1512 @@
+1                                FEDERAL RESERVE STATISTICAL RELEASE                                 
+ 
+ G.17 (419) 2026 Historical and Annual Revision                      For release at 12:00 noon (EST)
+                                                                     November 24, 2026
+
+ Industrial Production and Capacity Utilization: The 2026 Annual Revision
+
+ 
+      The Federal Reserve has revised its index of industrial production (IP) and the related measures of
+ capacity and capacity utilization.  The most prominent features of the revision are the incorporation of
+ comprehensive production data for 2023 and 2024 from the Census Bureau's Annual Integrated Economic Survey
+ (AIES), the integration of survey data on utilization rates for 2025, and an update of the base year to
+ 2022 for the production and capacity indexes.<1>
+ 
+      Total IP in October 2026 was 3.6 percent above its level at the end of 2022, unchanged from the
+ previous estimate.  The annual rates of change in 2023 and 2024 have been revised up 1/2 percentage point
+ per year, on average, and the annual rate of change in 2025 has been revised down 1/2 percentage point.<2>
+ Annual growth rates before 2023 have been little revised.  Notably, output in the industrial sector is now
+ estimated to have been little changed, on net, over 2023 and 2024, whereas output was previously estimated
+ to have contracted modestly before expanding in 2025 and over the first 10 months of 2026.
+ 
+      Industrial capacity is now estimated to have expanded at a slightly slower pace in recent years
+ than previously estimated.  Estimated capacity growth averaged 1.0 percent per year after 2022, which has
+ been revised down from 1.2 percent per year, and remained below the long-run (1972-2025) average pace of
+ 1.9 percent.  Annual capacity growth in 2023 through 2025 has been revised down each year an average of
+ 0.4 percentage point, while growth in 2026 has been revised up 0.3 percentage point.  Capacity growth
+ before 2023 has been largely unrevised.
+ 
+      With little change, on net, to production and somewhat lower capacity growth, capacity utilization
+ has been revised up in recent years.  In the fourth quarter of 2025, capacity utilization for total
+ industry stood at 76.5 percent, 0.9 percentage point above its previous estimate and 2.9 percentage points
+ below its long-run (1972-2025) average.  For the 2023-25 period, capacity utilization has been revised up
+ 0.8 percentage point on average (annual utilization rates are reported as of the fourth quarter).
+ Capacity utilization has been revised down modestly in the previous 10 years, from 2013 through 2022, an
+ average of 0.1 percentage point.
+ 
+      This revision to IP, capacity, and capacity utilization incorporated newly available annual data on
+ both output and prices.  The updated IP indexes incorporated data from the newly introduced AIES for the
+ manufacturing sector and the publishing industry.   Some content that was collected for the predecessors
+ to the AIES, such as the Annual Survey of Manufactures (ASM), including beginning-of-year inventories and
+ detailed information on equipment capital expenditures, is not collected as part of the AIES.
+ Furthermore, a greater share of estimates in the manufacturing sector were suppressed for the 2023 AIES
+ than had been typical for its predecessor.<3>  The 2024 AIES had fewer data suppressions than the 2023
+ AIES.  Where necessary, we impute results for data that were discontinued or withheld using the available
+ data.  The IP index for logging is based on special calculations provided by the U.S. Forest Service
+ (USFS) that extended previously published data; the IP index incorporated new data for 2023 through 2025.
+ In addition, the indexes for metallic and nonmetallic minerals were updated with revised annual data for
+ 2021 through 2023 and with new data for 2024 and 2025 from the U.S. Geological Survey (USGS).  Data on
+ prices from the Bureau of Labor Statistics (BLS) were also incorporated into most of the manufacturing
+ indexes.
+ 
+      Revisions to IP indexes for the post-2024 period are based partly on adjustments to the correction
+ factors that are intended to align the input and product data used for estimating monthly IP with the
+ annual benchmark data.  In addition, the monthly estimates of production have been updated to include
+ late-arriving or revised quarterly or monthly indicator data, including information from the BLS's most
+ recent benchmark revisions to the Current Employment Statistics.  The monthly IP estimates reflect updated
+ seasonal factors.
+ 
+      The revised estimates of capacity and capacity utilization incorporate data from the Census
+ Bureau's Quarterly Survey of Plant Capacity Utilization for the fourth quarter of 2025 and new data on
+ capacity from the USGS, the Energy Information Administration (EIA), and various industry organizations.
+ The revised capacity estimates also include new data on capital spending from the 2023 and 2024 AIES and
+ new data on fixed assets in 2025 from the Bureau of Economic Analysis (BEA).
+ 
+ RESULTS OF THE REVISION
+ 
+ Industrial Production
+ 
+ Production by Industry Group
+ 
+      Since 2022, manufacturing output has oscillated between growth and contraction, but it has risen on
+ net.  The annual rates of change in manufacturing output have been revised up in 2023 and 2024 and revised
+ down in 2025.  The cumulative effect of these revisions leaves the level of manufacturing output in
+ October 2026 3-1/4 percent above its level from December 2022, close to its position before the revision.
+ 
+      Revisions across manufacturing industry groups were mixed.  The output of durable goods rose 4-1/4
+ percent, on net, from December 2022 through October 2026, 3/4 percentage point less than the previously
+ estimated increase.  Over the same period, the output of nondurable goods rose 4 percent, on net, 3/4
+ percentage point more than the previously estimated increase.  The index for industries in scope for
+ manufacturing IP that are not part of manufacturing under the North American Industry Classification
+ System (NAICS)--that is, logging and publishing--has been declining for much of its recent history; growth
+ of output in this industry group has been revised down.
+ 
+      The output of mining and utilities both continued to show gains, on net, from December 2022 through
+ October 2026, and the output indexes for both industries were revised up.
+ 
+ Production by Market Group
+ 
+      The index for consumer goods is estimated to have declined 3/4 percent, on net, from December 2022
+ through October 2026.  However, the decline over that period has been revised up 1-1/4 percentage point,
+ on net, as upward revisions to the durable consumer goods index more than offset modest downward revisions
+ to the nondurable consumer goods index.
+ 
+      The index for business equipment is estimated to have risen 4-1/2 percent, on net, from December
+ 2022 through October 2026, less than half as much as previously estimated.  The index for defense and
+ space equipment is estimated to have risen nearly 20 percent, on net, over the same time period, which is
+ a bit less than previously estimated.
+ 
+      The index for construction supplies is estimated to have risen 1-1/2 percent from December 2022
+ through October 2026, 3/4 percentage point less than previously estimated.  Over the same period, the
+ output of business supplies is estimated to have risen 1-3/4 percent, little revised from its previously
+ estimated growth rate over that period.
+ 
+      The index for materials is estimated to have risen 6-1/2 percent from December 2022 through October
+ 2026, 3/4 percentage point more than previously estimated.  The indexes for durable, nondurable, and
+ energy materials each rose, on net, over this period; on net, an upward revision to the index for
+ nondurable materials more than offset a downward revision to the index for durable materials, while the
+ index for energy materials is little revised.
+ 
+ Capacity
+ 
+      Total industrial capacity is estimated to have risen at a modest pace from 2023 through 2026, with
+ capacity increasing, on average, in manufacturing, mining, and utilities.  Overall capacity is expected to
+ rise 1.4 percent in 2026.  Annual industrial capacity growth has been revised down an average of 0.2
+ percentage point per year from 2023 through 2026, with the largest downward revision of 0.5 percentage
+ point occurring in 2025.
+ 
+      Manufacturing capacity is estimated to have grown 1/2 percent per year, on average, from 2023
+ through 2026, a pace that is well below the long-run (1972-2025) average pace of 2 percent per year but a
+ turnaround from the average decline of 1/2 percent per year from 2008 through 2022.  Manufacturing
+ capacity is expected to rise 1 percent in 2026.  Average annual growth is revised down 1/2 percentage
+ point per year from 2023 through 2026, on average, with downward revisions to capacity growth for each of
+ durable goods, nondurable goods, and other manufacturing.
+ 
+      Mining capacity is estimated to have risen each year from 2023 through 2026, resulting in an
+ average annual growth rate of 1-1/4 percent, which is above its long-run (1972-2025) average pace of 3/4
+ percent.  Mining capacity is expected to rise 1/4 percent in 2026.  The annual rate of change for mining
+ capacity has been revised up 3/4 percentage point per year, on average, from 2023 through 2026, with the
+ largest upward revision in 2025.
+ 
+      Capacity for electric and gas utilities rose at a solid pace of 3-3/4 percent per year, on average,
+ from 2023 through 2026, a pace that is faster than the long-run (1972-2025) average growth rate of 2-1/4
+ percent per year.  Utilities capacity is expected to grow 4-1/2 percent in 2026.  Revisions to the annual
+ rates of utilities capacity growth were small from 2023 through 2025, but growth in 2026 has been revised
+ up 1-3/4 percentage points.
+ 
+ Capacity Utilization
+ 
+      Capacity utilization for total industry moved down from 77.7 percent in 2022 to 76.5 percent in
+ 2025, 2.9 percentage points below its long-run (1972-2025) average of 79.4 percent.  On average,
+ utilization has been revised up 1/2 percentage point from 2022 through 2025, with upward revisions of 1/2
+ percentage point in 2023 and 1 percentage point in both 2024 and 2025, along with a small downward
+ revision in 2022.  In October 2026, estimated capacity utilization stood at 76.8 percent.
+ 
+      Capacity utilization at manufacturers moved down from 76.8 percent in 2022 to 76.4 percent in 2025.
+ Manufacturing utilization from 2022 through 2025 has been revised up about 3/4 percentage point on
+ average.  In October 2026, manufacturing utilization stood at 77.1 percent.
+ 
+      Within manufacturing, revisions to capacity utilization rates in 2025 were mostly positive across
+ industry groups.  Utilization in durables manufacturing has been revised up 1 percentage point, on
+ average, from 2022 through 2025.  Utilization in nondurables manufacturing has been revised up 3/4
+ percentage point, on average, over the same period, with most of the upward revision occurring in 2025.
+ 
+      The capacity utilization rate for mining rose from 81.4 percent in 2021 to 84.7 percent in 2023,
+ moved down to 83.0 percent in 2024, and was little changed at 82.9 percent in 2025, 2-1/4 percentage
+ points below its long-run (1972-2025) average rate of 85.1 percent.  Utilization at mines has been revised
+ down 1/2 percentage point, on average, from 2022 through 2025, largely reflecting a downward revision of
+ 1-3/4 percentage points in 2025; utilization in oil and gas extraction has been revised down in each year.
+ 
+      The operating rate for electric and gas utilities has been below its long-run (1972-2025) average
+ of 84.1 percent since 2008 and stood at 71.7 percent in 2025; utilization in utilities has been revised
+ down slightly, on average, from 2022 through 2025.
+ 
+ TECHNICAL ASPECTS OF THE REVISION
+ 
+      The IP indexes represent the level of real output relative to a base year.  At the monthly
+ frequency, movements of the indexes are based on indicators that are derived using industry-specific data
+ from a variety of government and private sources.
+ 
+      The monthly production indexes are anchored to annual benchmarks that are less timely but typically
+ based on more comprehensive data.  In most cases, the annual benchmark is nominal gross output reported by
+ the Census Bureau deflated by a suitable price index.
+ 
+      Annual revisions to the IP and capacity measures generally involve (1) incorporating new and
+ revised annual benchmark data on output, prices, and value-added proportions; (2) incorporating new
+ monthly or quarterly data that were revised or that arrived too late to be included in the regular
+ six-month reporting window for monthly IP; (3) updating seasonal adjustment factors; (4) updating the
+ methods used to construct the indexes; and (5) introducing changes to the industry- or market-group
+ structure of the indexes based on changes to underlying data sources.
+ 
+ Annual Benchmark Data on Output, Prices, and Value-Added Proportions
+ 
+ Output
+ 
+      The annual benchmark output indexes for IP are measures of real gross output at the six-digit NAICS
+ (2022) level.  The Census Bureau provides annual figures for value-added and the cost of materials for
+ manufacturing industries, which can be summed to obtain nominal gross output.  The benchmark indexes for
+ this revision incorporated information for 2023 and 2024 from the AIES.  The AIES replaced seven annual
+ Census Bureau business surveys, including the ASM--which was previously used to construct benchmark
+ production indexes for manufacturing industries--and the Service Annual Survey, which was previously used
+ to construct benchmark indexes for publishing.
+ 
+      New annual data were also incorporated into many other indexes not in the scope of the AIES.  The
+ benchmark indexes for metallic and nonmetallic mineral mining were updated with any newly available data
+ from 2021 through 2025 from the USGS, and the benchmark index for logging was advanced through 2025 based
+ on data from the USFS.
+ 
+ Prices
+ 
+      To obtain individual benchmarks of real gross output, the measures of nominal gross output are
+ deflated by annual price deflators.  In general, the benchmark industry price deflators consist of price
+ indexes from the BEA through 2011 that are extended through 2024 with the related producer price indexes
+ (PPIs) from the BLS.<4>  However, for a few selected industries, the annual price deflators are
+ constructed by the Federal Reserve.<5>
+ 
+ Value-Added Proportions (Weights for Aggregation)
+ 
+      The IP system is organized as a hierarchical structure where the individual production indexes are
+ combined using a version of the Fisher-ideal index formula to construct broader measures of production.
+ The weights that are used to combine individual IP measures into more aggregate measures are based on the
+ value-added from the industry, calculated as gross output less cost of materials.  For IP indexes that are
+ defined at the six-digit (or more aggregate) NAICS level, the value-added weights are derived from the
+ Economic Census in years ending in "2" or "7" and from either the AIES or its predecessor, the ASM, in
+ other years.  For IP indexes that cover only part of a six-digit NAICS industry, the aggregation weights
+ were constructed by allocating value-added (as defined by the Census Bureau) for a six-digit industry
+ across the various components of IP that compose that industry.
+ 
+      The allocation of value-added across each IP component in an industry was determined by that
+ component's share of the industry's overall product shipments.  In principle, the annual revision uses
+ data on product shipments based on the 2022 North American Product Classification System (NAPCS).
+ However, the published results of the 2023 and 2024 AIES did not include survey results for product
+ shipments.  Instead, the Census Bureau published an experimental data product extending the value of
+ shipments of products by industry for 2023 and 2024 using shares from the 2022 Economic Census.  As such,
+ allocation of value-added across components is generally unchanged from the previous annual revision.
+ Missing values for specific NAPCS-based products were imputed where necessary.
+ 
+      The Federal Reserve derives estimates of value-added for the electric and gas utility industries
+ from annual revenue and expense data issued by other organizations.  For electric utilities, the measures
+ of value-added incorporate data from the EIA of the U.S. Department of Energy and from the Edison Electric
+ Institute.  For gas utilities, the value-added estimates incorporate data from the American Gas
+ Association.  The weights for aggregation for mining industries are derived from value-added data from the
+ Economic Census.  Figures for value-added for mining industries in the years between the quinquennial
+ Economic Censuses are estimated based on both output and price changes for the industry.
+ 
+      The weights for aggregation, expressed as value-added per unit output, were estimated with data on
+ producer prices for the period after 2024.
+ 
+ Revised Quarterly and Monthly Data
+ 
+      This revision incorporated source data on production, shipments, and inventories that became
+ available or were revised after the regular six-month reporting window for monthly IP was closed.  These
+ data were released with too great of a lag to be included with monthly IP estimates but were available for
+ inclusion in the annual revision.
+ 
+ Revised Seasonal Factors
+ 
+      IP indexes are adjusted to remove from the underlying data the predictable movements related to
+ timing, holiday, workday, and monthly or quarterly seasonal patterns.  Individual indexes are adjusted
+ using the Census X-13ARIMA-SEATS seasonal adjustment program.  The seasonal factors are based on the full
+ history of data back to 1972, where available.
+ 
+      Seasonal factors for indexes based on production-worker hours were updated with data through August
+ 2026.  The updated factors for the physical-product-based indexes used data through August 2026 where
+ available.
+ 
+      Seasonal factors for unit motor vehicle assemblies have been updated, and projections through
+ December 2028 are available on the Board's website at
+ https://www.federalreserve.gov/releases/g17/mv_sales_sf.htm.  These factors are based on production data
+ through April 2026 and were revised back to January 2021.  The seasonal factors explicitly incorporate the
+ holiday schedule for the vehicle assembly lines specified in the latest collective bargaining agreements
+ with domestic manufacturers.  The seasonal factors identify production data from September 2025 and
+ January 2026 as outliers because of changes in tax policy and a winter storm, respectively.
+ 
+ Methodological Changes to Individual Production and Capacity Indexes
+ 
+ Consolidation of Individual Industrial Production Indexes for Residential Air-Conditioning Equipment
+ Manufacturing
+ 
+      Production estimates for room air conditioners (NAICS 333415pt.) and for residential unitary air
+ conditioners (NAICS 333415pt.) have been consolidated into a single index of residential air-conditioning
+ equipment (NAICS 333415pt.).  This consolidation does not alter the availability of any IP indexes, as the
+ individual indexes for room air conditioners and for residential unitary air conditioners were previously
+ unpublished, and the consolidated index will remain unpublished.
+ 
+ Consolidation of Individual Industrial Production Indexes for Manufacturing of Major Appliances
+ Excluding Water Heaters
+ 
+      Production estimates for household cooking appliance (NAICS 335220pt.), for clothes dryers (NAICS
+ 335220pt.), for washing machines (NAICS 335220pt.), for dishwashers and disposers (NAICS 335220pt.), for
+ home freezers (NAICS 335220pt.), and for refrigerators (NAICS 335220pt.) have been consolidated into a
+ single index of major appliances excluding water heaters (NAICS 335220pt.).  These changes more closely
+ align the structure of the production indexes with the 2022 NAICS structure, which eliminated detailed
+ NAICS codes for categories of major appliances.  The index of major appliances excluding water heaters
+ will be released as an auxiliary index; previously, auxiliary indexes for household laundry equipment, for
+ other major household appliances, and for home refrigerators and home freezers were available.
+ 
+ No Methodological Changes to Individual Capacity Indexes
+ 
+      There were no changes to the methodology for constructing individual capacity indexes in the 2026
+ annual revision to the Federal Reserve Statistical Release G.17, "Industrial Production and Capacity
+ Utilization."
+ 
+ Notice
+
+ Data Availability and Publication Changes
+ 
+      Files containing the revised data and the text and tables from this release are available on the
+ Board's website at https://www.federalreserve.gov/releases/g17, as are updated data for the annual
+ revision and for all of the regularly issued series on IP, capacity, and capacity utilization.  Other
+ changes are listed on the Board's website at
+ https://www.federalreserve.gov/releases/g17/g17_revision_series.htm.
+
+ <1> The revision affected rates of change for IP from 1972 forward.  When necessary to maintain
+ consistency with any revisions to the data for 1972 and subsequent years, the levels of production for the
+ years before 1972 were multiplied by a constant.  However, the rates of change in IP for the years before
+ 1972 were not revised.  Utilization rates and capacity growth rates were revised minimally between 1968
+ and 1971 but were unchanged before then.
+
+ <2> Unless otherwise indicated, rates of change are calculated as the percent change in the seasonally
+ adjusted index from the fourth quarter of the previous year to the fourth quarter of the year specified.
+ Fractions are rounded to the nearest 1/4 percentage point.
+
+ <3> The Census Bureau suppresses estimates either because it avoids disclosing data for individual
+ companies or because the estimates do not meet Census Bureau publication standards.
+
+ <4> The BEA price deflators were discontinued at the six-digit NAICS level after 2011.  Overall, at the
+ industry level, the BEA and PPI measures are quite similar, as the BEA used weighted product-level PPIs to
+ derive its industry-level shipments deflator.
+
+ <5> For selected industries, the Federal Reserve constructs price indexes from alternative sources.  These
+ industries include computer storage devices (NAICS 334112), semiconductors (NAICS 334413), and
+ pharmaceuticals (NAICS 325412).
+
+1Table 1A
+ Industrial Production : Total
+ Seasonally adjusted
+ 
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+                 |                                                                                    |                            |
+                 |   Jan.   Feb.   Mar.   Apr.    May   June   July   Aug.  Sept.   Oct.   Nov.   Dec.|     Q1     Q2     Q3     Q4|Annual <1>
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+                 |                                                                                    |                            |
+ IP (percent     |                                                                                    |                            |
+ change)         |                                                                                    |                            |
+  1996           |   -.6    1.5    -.1    1.0     .8     .7     .0     .5     .6     .0     .9     .6 |   2.6    9.1    5.3    5.8 |      4.6 
+  1997           |    .2    1.1     .6     .1     .5     .4     .8    1.0     .9     .9     .8     .4 |   7.6    5.8    9.6   10.7 |      7.2 
+                 |                                                                                    |                            |
+  1998           |    .4     .2     .1     .3     .7    -.6    -.4    2.1     .0     .7    -.1     .4 |   4.5    2.7    3.1    5.8 |      5.9 
+  1999           |    .4     .6     .2     .2     .6    -.1     .6     .4    -.4    1.3     .5     .8 |   4.5    3.7    3.6    7.4 |      4.4 
+  2000           |   -.1     .4     .4     .6     .3     .1    -.2    -.3     .5    -.4     .0    -.4 |   3.8    5.0    -.2    -.9 |      3.8 
+  2001           |   -.5    -.7    -.2    -.4    -.5    -.5    -.6    -.1    -.5    -.3    -.6    -.1 |  -4.9   -4.8   -5.4   -4.1 |     -3.0 
+  2002           |    .7     .0     .8     .5     .4     .8    -.1    -.1     .1    -.2     .5    -.6 |   2.7    6.3    2.3    -.1 |       .3 
+                 |                                                                                    |                            |
+  2003           |    .8     .1    -.3    -.6     .0     .1     .5    -.2     .7     .2     .7     .0 |   2.4   -2.9    2.6    4.0 |      1.3 
+  2004           |    .2     .6    -.4     .4     .7    -.8     .7     .1     .1     .9     .2     .8 |   2.8    2.3    2.3    5.8 |      2.7 
+  2005           |    .4     .7    -.1     .2     .1     .4    -.3     .3   -1.9    1.2    1.1     .5 |   5.7    2.3   -1.8    3.8 |      3.4 
+  2006           |    .2     .0     .2     .3     .0     .3    -.1     .4    -.1    -.1     .0    1.0 |   3.9    2.3    1.5    1.0 |      2.3 
+  2007           |   -.4     .9     .2     .7     .1     .1    -.1     .2     .2    -.3     .5     .0 |   4.0    4.8     .6    1.2 |      2.6 
+                 |                                                                                    |                            |
+  2008           |   -.1    -.4    -.3    -.6    -.6    -.2    -.4   -1.6   -4.4    1.0   -1.3   -2.8 |  -1.3   -5.6  -12.1  -16.0 |     -3.4 
+  2009           |  -2.5    -.6   -1.6    -.9   -1.0    -.4    1.1    1.1     .9     .3     .4     .4 | -20.8  -10.9    6.5    7.0 |    -11.4 
+  2010           |   1.1     .3     .7     .3    1.3     .2     .4     .4     .3    -.3     .1    1.0 |   8.1    7.7    5.2    1.8 |      5.6 
+  2011           |   -.2    -.4    1.1    -.3     .1     .3     .5     .7    -.1     .7     .0     .5 |   2.1    1.7    4.8    4.2 |      3.2 
+  2012           |    .6     .3    -.5     .7     .2     .0     .2    -.4    -.1     .3     .4     .2 |   4.0    2.5    -.1    1.9 |      3.1 
+                 |                                                                                    |                            |
+  2013           |    .0     .5     .4    -.1     .1     .2    -.3     .6     .5    -.1     .2     .2 |   3.0    2.0    1.6    2.8 |      2.0 
+  2014           |   -.4     .7    1.0     .1     .4     .3     .2    -.2     .3     .0     .6     .0 |   2.6    5.6    2.2    2.3 |      3.0 
+  2015           |   -.8    -.7    -.3    -.6    -.4    -.3     .7    -.2    -.3    -.5    -.7    -.5 |  -4.4   -5.5     .4   -5.4 |     -1.4 
+  2016           |    .5    -.5    -.7     .3    -.3     .5     .2    -.1    -.1     .0    -.4     .7 |  -2.5   -1.6    1.2    -.6 |     -2.1 
+  2017           |   -.2    -.4     .7    1.0     .1     .2    -.3    -.4     .1    1.3     .2     .2 |    .1    6.1   -1.4    5.8 |      1.2 
+                 |                                                                                    |                            |
+  2018           |    .0     .2     .5    1.1    -.9     .8     .2     .7     .1    -.1     .1     .0 |   2.2    4.7    3.3    1.0 |      3.2 
+  2019           |   -.6    -.6     .1    -.6     .1     .0    -.5     .7    -.3    -.8     .5    -.3 |  -3.7   -2.7    -.4   -2.2 |      -.8 
+  2020           |   -.5     .2   -3.9  -13.2    1.6    6.6    3.8    1.0     .0     .8     .4    1.3 |  -6.4  -41.7   43.7    7.4 |     -7.1 
+  2021           |    .7   -3.5    3.0     .1     .8     .4     .6    -.2   -1.2    1.4     .7    -.3 |   1.3    6.4    2.3    3.4 |      4.5 
+  2022           |   -.2     .5     .6     .1    -.1    -.3     .2    -.2     .1     .0    -.3   -1.3 |   1.4    1.7    -.4   -2.3 |      1.8 
+                 |                                                                                    |                            |
+  2023           |   1.0    -.1     .5     .3    -.4    -.8    1.0     .0     .3    -.4     .6    -.3 |    .3     .2    1.6     .3 |      -.1 
+  2024           |  -1.1     .8     .3    -.2     .5     .1    -.9     .4    -.6    -.3     .0     .8 |  -1.6    2.7   -2.4   -1.1 |       .0 
+  2025           |    .1     .6     .0    -.1    -.2     .5     .2    -.4     .1    -.4    -.1     .3 |   4.4     .4    1.0   -1.9 |       .8 
+  2026           |   -.4     .7     .1     .5     .1     .2     .2    -.1     .6    -.4               |   1.1    3.9    2.0        |          
+                 |                                                                                    |                            |
+ IP (2022=100)   |                                                                                    |                            |
+  1996           |  71.8   72.8   72.7   73.5   74.0   74.6   74.6   75.0   75.4   75.5   76.1   76.6 |  72.4   74.0   75.0   76.1 |     74.4 
+  1997           |  76.7   77.6   78.1   78.2   78.6   78.9   79.6   80.4   81.2   81.9   82.6   82.9 |  77.5   78.6   80.4   82.5 |     79.7 
+                 |                                                                                    |                            |
+  1998           |  83.3   83.4   83.5   83.7   84.3   83.8   83.4   85.1   85.1   85.7   85.6   86.0 |  83.4   83.9   84.6   85.8 |     84.4 
+  1999           |  86.3   86.8   87.0   87.2   87.7   87.6   88.1   88.5   88.2   89.3   89.8   90.5 |  86.7   87.5   88.3   89.9 |     88.1 
+  2000           |  90.4   90.7   91.1   91.6   91.9   91.9   91.8   91.6   92.0   91.7   91.7   91.4 |  90.7   91.8   91.8   91.6 |     91.5 
+  2001           |  90.9   90.3   90.1   89.8   89.4   88.9   88.3   88.2   87.8   87.6   87.0   87.0 |  90.5   89.3   88.1   87.2 |     88.8 
+  2002           |  87.6   87.6   88.2   88.7   89.0   89.7   89.7   89.6   89.7   89.5   90.0   89.4 |  87.8   89.1   89.6   89.6 |     89.0 
+                 |                                                                                    |                            |
+  2003           |  90.2   90.3   90.0   89.5   89.4   89.5   90.0   89.8   90.4   90.5   91.2   91.2 |  90.2   89.5   90.1   91.0 |     90.2 
+  2004           |  91.3   91.9   91.6   91.9   92.6   91.9   92.6   92.6   92.8   93.6   93.8   94.5 |  91.6   92.1   92.7   94.0 |     92.6 
+  2005           |  94.9   95.5   95.4   95.6   95.7   96.1   95.8   96.1   94.3   95.4   96.5   96.9 |  95.3   95.8   95.4   96.3 |     95.7 
+  2006           |  97.1   97.2   97.4   97.7   97.7   98.0   97.9   98.3   98.2   98.1   98.1   99.0 |  97.2   97.8   98.1   98.4 |     97.9 
+  2007           |  98.7   99.6   99.8  100.5  100.5  100.6  100.5  100.7  100.9  100.6  101.2  101.2 |  99.4  100.5  100.7  101.0 |    100.4 
+                 |                                                                                    |                            |
+  2008           | 101.0  100.6  100.3   99.7   99.1   98.9   98.5   97.0   92.7   93.7   92.4   89.8 | 100.7   99.2   96.1   92.0 |     97.0 
+  2009           |  87.6   87.0   85.7   84.9   84.1   83.8   84.7   85.7   86.4   86.7   87.1   87.4 |  86.8   84.3   85.6   87.1 |     85.9 
+  2010           |  88.4   88.7   89.3   89.6   90.8   91.0   91.3   91.6   91.9   91.6   91.7   92.6 |  88.8   90.4   91.6   92.0 |     90.7 
+  2011           |  92.4   92.0   93.0   92.7   92.8   93.1   93.6   94.2   94.1   94.8   94.8   95.3 |  92.5   92.9   94.0   94.9 |     93.6 
+  2012           |  95.8   96.1   95.6   96.3   96.5   96.5   96.7   96.3   96.3   96.6   96.9   97.2 |  95.9   96.5   96.4   96.9 |     96.4 
+                 |                                                                                    |                            |
+  2013           |  97.2   97.6   98.0   98.0   98.1   98.2   97.9   98.5   99.0   99.0   99.2   99.4 |  97.6   98.1   98.5   99.2 |     98.3 
+  2014           |  99.0   99.7  100.7  100.8  101.2  101.5  101.8  101.6  101.9  101.9  102.5  102.5 |  99.8  101.2  101.8  102.3 |    101.3 
+  2015           | 101.7  101.1  100.7  100.2   99.7   99.4  100.1   99.9   99.6   99.1   98.4   97.9 | 101.2   99.8   99.9   98.5 |     99.8 
+  2016           |  98.5   97.9   97.2   97.5   97.2   97.7   97.9   97.7   97.7   97.7   97.3   97.9 |  97.9   97.5   97.8   97.6 |     97.7 
+  2017           |  97.7   97.3   97.9   98.9   99.1   99.2   99.0   98.6   98.7   99.9  100.1  100.3 |  97.6   99.1   98.7  100.1 |     98.9 
+                 |                                                                                    |                            |
+  2018           | 100.3  100.6  101.1  102.2  101.2  102.0  102.2  102.9  103.0  102.9  103.0  102.9 | 100.7  101.8  102.7  102.9 |    102.0 
+  2019           | 102.3  101.7  101.8  101.2  101.3  101.3  100.8  101.5  101.1  100.3  100.8  100.6 | 101.9  101.3  101.1  100.6 |    101.2 
+  2020           | 100.1  100.3   96.4   83.6   85.0   90.6   94.0   94.9   94.9   95.7   96.0   97.3 |  98.9   86.4   94.6   96.3 |     94.1 
+  2021           |  98.0   94.6   97.4   97.5   98.3   98.7   99.3   99.0   97.8   99.2   99.9   99.5 |  96.7   98.2   98.7   99.5 |     98.3 
+  2022           |  99.4   99.8  100.4  100.5  100.3  100.1  100.3  100.1  100.2  100.2  100.0   98.6 |  99.9  100.3  100.2   99.6 |    100.0 
+                 |                                                                                    |                            |
+  2023           |  99.6   99.5  100.0  100.2   99.9   99.1  100.1  100.0  100.3   99.9  100.5  100.2 |  99.7   99.7  100.1  100.2 |     99.9 
+  2024           |  99.1  100.0  100.3  100.1  100.6  100.8   99.8  100.2   99.6   99.3   99.3  100.2 |  99.8  100.5   99.9   99.6 |     99.9 
+  2025           | 100.3  100.9  100.9  100.8  100.6  101.0  101.3  100.9  101.0  100.6  100.4  100.7 | 100.7  100.8  101.1  100.6 |    100.8 
+  2026           | 100.3  101.0  101.2  101.6  101.8  102.0  102.2  102.1  102.7  102.2               | 100.8  101.8  102.3        |          
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+ Note: Estimates from June 2026 through October 2026 are subject to further revision in the upcoming monthly releases.
+ <1> Annual averages of industrial production are calculated from not seasonally adjusted indexes.
+ 
+ 
+ 
+
+1Table 1B
+ Capacity and Utilization: Total
+ Seasonally adjusted
+ 
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+                 |                                                                                    |                            |
+                 |   Jan.   Feb.   Mar.   Apr.    May   June   July   Aug.  Sept.   Oct.   Nov.   Dec.|     Q1     Q2     Q3     Q4|    Annual
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+                 |                                                                                    |                            |
+ Capacity        |                                                                                    |                            |
+ (percent of     |                                                                                    |                            |
+ 2022 output)    |                                                                                    |                            |
+  1996           |  86.9   87.3   87.7   88.1   88.5   88.9   89.3   89.7   90.2   90.6   91.0   91.4 |  87.3   88.5   89.7   91.0 |     89.1 
+  1997           |  91.9   92.3   92.8   93.2   93.7   94.2   94.8   95.3   95.9   96.5   97.2   97.8 |  92.3   93.7   95.3   97.2 |     94.6 
+                 |                                                                                    |                            |
+  1998           |  98.5   99.1   99.8  100.4  101.1  101.7  102.3  102.8  103.3  103.8  104.3  104.8 |  99.1  101.1  102.8  104.3 |    101.8 
+  1999           | 105.2  105.7  106.1  106.5  106.9  107.3  107.7  108.1  108.5  108.9  109.2  109.6 | 105.7  106.9  108.1  109.2 |    107.5 
+  2000           | 110.0  110.4  110.8  111.2  111.6  111.9  112.3  112.7  113.1  113.4  113.8  114.2 | 110.4  111.6  112.7  113.8 |    112.1 
+  2001           | 114.6  114.9  115.3  115.7  116.0  116.4  116.7  117.0  117.2  117.5  117.8  118.0 | 114.9  116.0  117.0  117.7 |    116.4 
+  2002           | 118.2  118.4  118.5  118.6  118.7  118.8  118.8  118.8  118.8  118.7  118.7  118.7 | 118.3  118.7  118.8  118.7 |    118.6 
+                 |                                                                                    |                            |
+  2003           | 118.6  118.5  118.5  118.4  118.4  118.3  118.3  118.3  118.3  118.3  118.3  118.2 | 118.5  118.4  118.3  118.3 |    118.4 
+  2004           | 118.2  118.2  118.2  118.2  118.2  118.2  118.2  118.2  118.3  118.3  118.4  118.4 | 118.2  118.2  118.2  118.4 |    118.3 
+  2005           | 118.5  118.6  118.8  118.9  119.1  119.2  119.4  119.6  119.8  120.0  120.2  120.3 | 118.6  119.1  119.6  120.2 |    119.4 
+  2006           | 120.5  120.7  120.9  121.1  121.3  121.6  121.8  122.0  122.3  122.6  122.8  123.1 | 120.7  121.3  122.0  122.8 |    121.7 
+  2007           | 123.4  123.7  123.9  124.2  124.4  124.6  124.8  124.9  125.0  125.0  125.0  125.0 | 123.7  124.4  124.9  125.0 |    124.5 
+                 |                                                                                    |                            |
+  2008           | 125.0  124.9  124.9  124.9  124.9  124.9  125.0  125.1  125.2  125.4  125.5  125.7 | 124.9  124.9  125.1  125.5 |    125.1 
+  2009           | 125.9  126.0  126.1  126.2  126.2  126.3  126.2  126.1  126.0  125.8  125.6  125.3 | 126.0  126.2  126.1  125.6 |    126.0 
+  2010           | 125.1  124.8  124.6  124.3  124.1  123.8  123.6  123.4  123.2  123.1  123.0  122.9 | 124.8  124.1  123.4  123.0 |    123.8 
+  2011           | 122.8  122.8  122.8  122.8  122.9  123.0  123.1  123.2  123.4  123.6  123.8  124.0 | 122.8  122.9  123.2  123.8 |    123.2 
+  2012           | 124.2  124.5  124.7  125.0  125.2  125.4  125.7  125.9  126.1  126.3  126.5  126.7 | 124.5  125.2  125.9  126.5 |    125.5 
+                 |                                                                                    |                            |
+  2013           | 126.9  127.1  127.3  127.4  127.6  127.7  127.8  127.9  128.0  128.1  128.2  128.4 | 127.1  127.6  127.9  128.2 |    127.7 
+  2014           | 128.5  128.6  128.7  128.8  128.9  129.0  129.1  129.3  129.4  129.5  129.6  129.7 | 128.6  128.9  129.3  129.6 |    129.1 
+  2015           | 129.7  129.8  129.8  129.8  129.8  129.8  129.7  129.7  129.7  129.6  129.6  129.6 | 129.8  129.8  129.7  129.6 |    129.7 
+  2016           | 129.5  129.5  129.6  129.6  129.6  129.7  129.7  129.8  129.9  129.9  130.0  130.0 | 129.6  129.6  129.8  130.0 |    129.7 
+  2017           | 130.0  130.0  130.0  130.0  129.9  129.8  129.7  129.6  129.5  129.3  129.2  129.1 | 130.0  129.9  129.6  129.2 |    129.7 
+                 |                                                                                    |                            |
+  2018           | 129.0  128.9  128.9  128.8  128.8  128.8  128.9  129.0  129.1  129.2  129.3  129.5 | 128.9  128.8  129.0  129.3 |    129.0 
+  2019           | 129.6  129.8  130.0  130.1  130.3  130.4  130.6  130.7  130.8  130.9  131.0  131.0 | 129.8  130.3  130.7  131.0 |    130.4 
+  2020           | 131.1  131.1  131.0  130.9  130.8  130.6  130.5  130.2  130.0  129.7  129.4  129.1 | 131.0  130.8  130.2  129.4 |    130.4 
+  2021           | 128.9  128.6  128.3  128.0  127.8  127.6  127.4  127.3  127.2  127.1  127.0  127.0 | 128.6  127.8  127.3  127.0 |    127.7 
+  2022           | 127.0  127.0  127.1  127.2  127.3  127.4  127.5  127.7  127.8  128.0  128.1  128.3 | 127.0  127.3  127.7  128.1 |    127.5 
+                 |                                                                                    |                            |
+  2023           | 128.4  128.6  128.7  128.8  128.9  129.0  129.1  129.2  129.2  129.3  129.3  129.3 | 128.6  128.9  129.2  129.3 |    129.0 
+  2024           | 129.4  129.4  129.5  129.5  129.6  129.7  129.8  129.9  130.0  130.1  130.2  130.3 | 129.4  129.6  129.9  130.2 |    129.8 
+  2025           | 130.5  130.6  130.7  130.8  130.9  131.0  131.1  131.2  131.3  131.4  131.5  131.6 | 130.6  130.9  131.2  131.5 |    131.0 
+  2026           | 131.7  131.9  132.0  132.2  132.3  132.5  132.6  132.8  133.0  133.2               | 131.9  132.3  132.8        |          
+                 |                                                                                    |                            |
+ Utilization     |                                                                                    |                            |
+ (percent)       |                                                                                    |                            |
+  1996           |  82.6   83.4   82.9   83.4   83.6   83.9   83.5   83.5   83.7   83.3   83.7   83.7 |  83.0   83.6   83.5   83.6 |     83.4 
+  1997           |  83.5   84.0   84.2   83.8   83.9   83.8   84.0   84.3   84.6   84.8   85.0   84.8 |  83.9   83.8   84.3   84.9 |     84.2 
+                 |                                                                                    |                            |
+  1998           |  84.5   84.1   83.6   83.4   83.4   82.4   81.6   82.8   82.4   82.5   82.1   82.1 |  84.1   83.0   82.3   82.2 |     82.9 
+  1999           |  82.0   82.2   82.0   81.9   82.0   81.7   81.9   81.9   81.3   82.1   82.2   82.5 |  82.1   81.9   81.7   82.3 |     82.0 
+  2000           |  82.1   82.2   82.2   82.4   82.4   82.1   81.7   81.3   81.4   80.8   80.6   80.0 |  82.2   82.3   81.5   80.5 |     81.6 
+  2001           |  79.4   78.6   78.2   77.6   77.0   76.4   75.7   75.4   74.9   74.5   73.9   73.7 |  78.7   77.0   75.3   74.0 |     76.3 
+  2002           |  74.1   74.0   74.5   74.7   75.0   75.6   75.5   75.4   75.5   75.4   75.8   75.4 |  74.2   75.1   75.5   75.5 |     75.1 
+                 |                                                                                    |                            |
+  2003           |  76.0   76.1   76.0   75.6   75.6   75.7   76.1   75.9   76.4   76.6   77.1   77.1 |  76.1   75.6   76.1   76.9 |     76.2 
+  2004           |  77.2   77.7   77.4   77.7   78.3   77.7   78.3   78.3   78.4   79.1   79.2   79.8 |  77.5   77.9   78.4   79.4 |     78.3 
+  2005           |  80.0   80.5   80.4   80.4   80.4   80.6   80.2   80.4   78.7   79.5   80.3   80.6 |  80.3   80.5   79.8   80.1 |     80.2 
+  2006           |  80.6   80.5   80.5   80.6   80.5   80.6   80.4   80.6   80.3   80.0   79.8   80.4 |  80.5   80.6   80.4   80.1 |     80.4 
+  2007           |  80.0   80.5   80.5   80.9   80.8   80.7   80.5   80.6   80.8   80.5   80.9   80.9 |  80.3   80.8   80.6   80.8 |     80.6 
+                 |                                                                                    |                            |
+  2008           |  80.8   80.5   80.3   79.8   79.4   79.2   78.8   77.5   74.1   74.7   73.6   71.5 |  80.6   79.4   76.8   73.3 |     77.5 
+  2009           |  69.6   69.1   67.9   67.3   66.6   66.4   67.1   67.9   68.6   68.9   69.3   69.8 |  68.9   66.8   67.9   69.3 |     68.2 
+  2010           |  70.6   71.0   71.7   72.1   73.2   73.5   73.9   74.2   74.6   74.5   74.6   75.4 |  71.1   72.9   74.2   74.8 |     73.3 
+  2011           |  75.2   75.0   75.7   75.5   75.5   75.7   76.0   76.4   76.3   76.7   76.6   76.8 |  75.3   75.6   76.2   76.7 |     76.0 
+  2012           |  77.1   77.2   76.7   77.1   77.1   77.0   77.0   76.5   76.3   76.5   76.6   76.7 |  77.0   77.0   76.6   76.6 |     76.8 
+                 |                                                                                    |                            |
+  2013           |  76.6   76.8   77.0   76.9   76.9   76.9   76.6   77.0   77.3   77.2   77.3   77.4 |  76.8   76.9   77.0   77.3 |     77.0 
+  2014           |  77.1   77.6   78.3   78.3   78.5   78.7   78.8   78.6   78.7   78.7   79.1   79.1 |  77.6   78.5   78.7   79.0 |     78.5 
+  2015           |  78.4   77.9   77.6   77.2   76.8   76.6   77.1   77.0   76.8   76.5   75.9   75.6 |  78.0   76.9   77.0   76.0 |     77.0 
+  2016           |  76.0   75.6   75.0   75.2   75.0   75.3   75.4   75.3   75.2   75.2   74.8   75.3 |  75.5   75.2   75.3   75.1 |     75.3 
+  2017           |  75.1   74.8   75.3   76.1   76.3   76.4   76.3   76.1   76.2   77.3   77.5   77.7 |  75.1   76.3   76.2   77.5 |     76.3 
+                 |                                                                                    |                            |
+  2018           |  77.8   78.0   78.5   79.3   78.6   79.2   79.3   79.8   79.8   79.6   79.6   79.5 |  78.1   79.0   79.6   79.6 |     79.1 
+  2019           |  78.9   78.4   78.3   77.8   77.7   77.7   77.2   77.6   77.3   76.6   77.0   76.7 |  78.5   77.7   77.4   76.8 |     77.6 
+  2020           |  76.3   76.5   73.6   63.9   65.0   69.4   72.1   72.9   73.0   73.8   74.2   75.3 |  75.5   66.1   72.7   74.4 |     72.2 
+  2021           |  76.0   73.6   75.9   76.1   76.9   77.4   77.9   77.8   76.9   78.1   78.6   78.4 |  75.2   76.8   77.5   78.4 |     77.0 
+  2022           |  78.2   78.6   79.0   79.0   78.9   78.6   78.7   78.4   78.4   78.3   78.0   76.9 |  78.6   78.8   78.5   77.7 |     78.4 
+                 |                                                                                    |                            |
+  2023           |  77.6   77.4   77.7   77.8   77.4   76.8   77.5   77.4   77.6   77.3   77.7   77.5 |  77.5   77.4   77.5   77.5 |     77.5 
+  2024           |  76.6   77.2   77.5   77.3   77.6   77.7   76.9   77.2   76.6   76.4   76.3   76.9 |  77.1   77.5   76.9   76.5 |     77.0 
+  2025           |  76.9   77.3   77.2   77.1   76.8   77.1   77.2   76.9   76.9   76.5   76.4   76.5 |  77.1   77.0   77.0   76.5 |     76.9 
+  2026           |  76.2   76.6   76.6   76.9   76.9   77.0   77.1   76.8   77.2   76.8               |  76.5   76.9   77.0        |          
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+ Note: Estimates from June 2026 through October 2026 are subject to further revision in the upcoming monthly releases.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+1Table 2
+ Rates of Change in Industrial Production, Market and Industry Group Summary: 2021-2025 <1>
+ 
+ 
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          |                |                                              |              Difference between
+                                                          |                |                Revised change                |         revised and earlier changes
+                                                          |                |                  (percent)                   |             (percentage points)
+ Item                                                     |          NAICS |     2021     2022     2023     2024     2025 |     2021     2022     2023     2024     2025
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          |                |                                              |
+  Total IP                                                |                |     3.3       .1       .6      -.6      1.0  |      .1       .0       .6       .4      -.6 
+                                                          |                |                                              |
+  MARKET GROUP                                            |                |                                              |
+  Final products and nonindustrial supplies               |                |     2.3      -.8      -.1     -1.7      1.1  |      .1       .0       .7       .0      -.7 
+     Consumer goods                                       |                |      .7     -1.5      -.8      -.6       .0  |      .1      -.1      -.1       .3       .5 
+        Durable                                           |                |      .1      -.9     -1.4     -3.0     -1.4  |      .1       .6       .7       .9      2.7 
+           Automotive products                            |                |    -3.3      5.3     -1.0     -3.2     -1.5  |      .1      1.8      1.4       .9      5.0 
+           Home electronics                               |                |    13.1     -2.1     14.5      8.8      8.7  |     1.7     -3.9      6.7      6.7      3.9 
+           Appliances, furniture, carpeting               |                |     3.0     -9.2     -3.3     -3.4     -6.2  |     -.1      -.9      1.2      1.0     -3.7 
+           Miscellaneous goods                            |                |     5.1     -8.7     -3.0     -3.3       .2  |      .1      -.6     -1.9       .5       .8 
+        Nondurable                                        |                |     1.0     -1.7      -.6       .1       .5  |      .1      -.3      -.3       .1      -.1 
+           Non-energy                                     |                |      .0     -2.7      -.2      -.3       .1  |      .1      -.2      -.6      -.1       .0 
+              Foods and tobacco                           |                |     -.6     -1.5     -1.1     -1.6       .5  |      .0      -.1      -.3       .1       .7 
+              Clothing                                    |                |     9.6     -3.1     -5.0     -3.3     -7.6  |      .7     -3.5       .9      9.0     -5.1 
+              Chemical products                           |                |      .7     -3.9      4.3      3.6      1.0  |      .2      -.3      -.6     -1.3      -.4 
+              Paper products                              |                |     -.5     -6.9    -11.3     -1.0     -5.4  |     1.0       .0     -3.2      2.5     -2.8 
+           Energy                                         |                |     5.4      1.0     -1.5      1.5      1.8  |      .2      -.3       .5       .8      -.4 
+                                                          |                |                                              |
+     Business equipment                                   |                |     4.1      4.2      2.7     -8.8      5.6  |     -.1      1.2      3.7     -2.0     -5.1 
+        Transit                                           |                |    -3.2     18.3     10.8    -25.1     24.7  |     1.0      1.4      1.9     -6.7    -16.6 
+        Information processing                            |                |    10.4      5.8      6.2       .7      2.8  |    -1.2      2.9      9.9     -2.1     -2.2 
+        Industrial and other                              |                |     4.0     -1.0     -2.0     -5.4       .1  |     -.1       .4      1.9       .2     -1.6 
+     Defense and space equipment                          |                |    -4.4     -1.0      9.3     -1.1      4.5  |    -1.6      1.3      3.4     -1.3      1.1 
+                                                          |                |                                              |
+     Construction supplies                                |                |     5.9     -3.8     -1.9      -.6       .4  |      .4     -1.0      -.3       .4     -1.2 
+     Business supplies                                    |                |     2.8     -1.7      -.6       .6      -.1  |      .1      -.4       .4       .8     -1.0 
+                                                          |                |                                              |
+  Materials                                               |                |     4.8      1.1      1.4       .9       .8  |      .1      -.1       .5       .9      -.4 
+     Non-energy                                           |                |     3.6     -1.7      1.0       .7       .1  |      .2      -.2       .7      1.3      -.6 
+        Durable                                           |                |     3.6       .6      -.7     -1.2      1.0  |      .4      -.6      -.3       .7     -1.0 
+           Consumer parts                                 |                |    -4.0      8.7      2.9     -5.6     -2.0  |     -.3       .9       .1     -1.0      -.4 
+           Equipment parts                                |                |     7.2      2.6      2.3      2.9      5.0  |      .3       .5      3.4      1.3     -1.4 
+           Other                                          |                |     4.5     -2.9     -3.6     -2.2      -.7  |      .7     -1.6     -2.5       .9     -1.1 
+        Nondurable                                        |                |     3.6     -5.2      3.6      3.5     -1.2  |     -.1       .4      2.3      2.1       .3 
+           Textile                                        |                |    -5.1    -14.5     -3.9     -3.4     -4.1  |     -.1       .6       .6     -4.9     -4.5 
+           Paper                                          |                |    -1.4     -6.4     -3.6     -3.5     -3.4  |     -.5      3.0      -.1     -4.8      2.4 
+           Chemical                                       |                |     6.6     -8.4      8.9      8.1     -3.3  |      .2      -.2      4.1      5.5     -2.5 
+     Energy                                               |                |     7.2      5.0      2.1      1.2      2.1  |      .0       .0       .1       .3      -.1 
+                                                          |                |                                              |
+                                                          |                |                                              |
+  INDUSTRY GROUP                                          |                |                                              |
+  Manufacturing<2>                                        |                |     2.8     -1.7       .5     -1.0       .5  |      .1       .0       .8       .4      -.8 
+     Manufacturing (NAICS)                                |         31-33  |     2.8     -1.6       .9     -1.0       .6  |      .1       .0       .9       .4      -.8 
+                                                          |                |                                              |
+        Durable manufacturing                             |                |     3.2      1.5       .1     -2.8      1.7  |      .1       .2      1.4       .1     -1.4 
+           Wood products                                  |           321  |      .5     -1.1      -.5     -1.7      1.1  |     -.5      1.5      2.0     -4.1      3.2 
+           Nonmetallic mineral products                   |           327  |     2.2     -2.6     -2.7     -1.2     -3.0  |      .8     -2.5      -.2      2.4     -1.9 
+           Primary metals                                 |           331  |     9.4     -1.6     -1.5       .2      2.0  |      .6     -1.2      -.7      2.9     -1.5 
+           Fabricated metal products                      |           332  |     6.0     -1.6     -4.8     -2.4      2.3  |      .6     -1.2     -1.8       .8      -.4 
+           Machinery                                      |           333  |     6.2      -.9     -2.2     -3.8      1.6  |     -.2       .5      2.5      -.2     -2.2 
+           Computer and electronic products               |           334  |     7.3      5.9      5.8      1.1      4.6  |     -.2      2.2      7.0     -2.7     -3.0 
+           Electrical equip., appliances,                 |                |                                              |
+              and components                              |           335  |     2.8     -2.2      2.1      5.3     -2.3  |     2.0      1.3       .1      5.9     -2.0 
+           Motor vehicles and parts                       |        3361-3  |    -3.7     11.3      -.4     -6.2     -3.4  |     -.5      1.5       .0     -3.4       .1 
+           Aerospace and miscellaneous                    |                |                                              |
+              transportation equipment                    |        3364-9  |    -3.1      5.8      8.2     -7.1     17.6  |     -.2       .3      3.3      1.5     -2.4 
+           Furniture and related products                 |           337  |     4.5     -2.0     -6.1     -3.6     -6.3  |      .0       .3      3.9       .8     -3.4 
+           Miscellaneous                                  |           339  |     3.6     -6.2      1.3     -5.4     -5.3  |      .1      -.5      -.4      2.2     -2.0 
+                                                          |                |                                              |
+        Nondurable manufacturing                          |                |     2.5     -4.8      1.7      1.0      -.5  |      .1      -.2       .4       .7      -.1 
+           Food, beverage, and tobacco products           |         311,2  |     -.3      -.5      -.8     -1.3       .5  |      .0       .0       .0       .2       .8 
+           Textile and product mills                      |         313,4  |    -1.9    -14.1     -1.8     -4.4     -1.9  |      .2       .2      1.4     -4.0     -2.0 
+           Apparel and leather                            |         315,6  |     9.7     -3.4     -5.4     -2.8     -7.4  |      .9     -3.8      -.3      8.8     -5.2 
+           Paper                                          |           322  |    -3.0     -7.0      -.4     -1.6      3.3  |     -.5      2.3      2.6     -1.7      7.9 
+           Printing and support                           |           323  |     1.8     -2.3    -14.7     -3.5      2.5  |     -.2       .4     -3.4     -6.1      5.0 
+           Petroleum and coal products                    |           324  |    17.0     -6.7      4.5      1.7     -2.6  |      .4      -.7      -.1       .3     -1.2 
+           Chemicals                                      |           325  |     3.6     -6.7      7.1      6.0     -1.4  |      .1       .0      2.8      2.3     -2.1 
+           Plastics and rubber products                   |           326  |     1.4     -9.0      -.5     -3.6     -2.7  |     1.0     -2.8     -5.3      2.1     -2.1 
+                                                          |                |                                              |
+     Other manufacturing (non-NAICS)                      |  1133,5131pt.  |      .5     -4.9    -15.4     -2.7     -6.1  |      .4     -3.0     -5.2      3.0     -4.0 
+                                                          |                |                                              |
+  Mining                                                  |            21  |    10.9      6.1      2.6      -.4      1.4  |      .0       .1       .2       .2       .2 
+  Utilities                                               |        2211,2  |      .3      4.0     -1.0      1.9      3.7  |      .0      -.1      -.1       .0       .2 
+     Electric                                             |          2211  |      .7      2.6       .2      2.3      3.0  |      .0      -.1       .0      -.1       .0 
+     Natural gas                                          |          2212  |    -2.0     13.0     -7.9      -.7      8.7  |     -.1       .0      -.4       .2      1.5 
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ <1>  Rates of change are calculated as the percent change in the seasonally adjusted index from the fourth quarter of the
+      previous year to the fourth quarter of the year specified in the column heading.
+ <2>  Manufacturing consists of those industries included in the North American Industry Classification System, or NAICS,
+      definition of manufacturing plus those industries--logging and newspaper, periodical, book, and directory publishing
+      (except exclusive Internet publishing)--that have traditionally been considered to be a part of manufacturing and
+      are included in the industrial sector.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+1Table 3
+ Rates of Change in Industrial Production, Special Aggregates and Selected Detail: 2021-2025 <1>
+ 
+ 
+ ----------------------------------------------------------------------------------------------------------------------------------------------------
+                                                   |              |                                         |           Difference between
+                                                   |              |             Revised change              |       revised and earlier changes
+                                                   |              |                (percent)                |           (percentage points)
+ Item                                              |        NAICS |    2021    2022    2023    2024    2025 |    2021    2022    2023    2024    2025
+ ----------------------------------------------------------------------------------------------------------------------------------------------------
+                                                   |              |                                         |
+  Total industry                                   |              |    3.3      .1      .6     -.6     1.0  |     .1      .0      .6      .4     -.6 
+                                                   |              |                                         |
+  Energy                                           |              |    7.3     4.4     1.2     1.4     2.4  |     .1     -.1      .1      .4      .1 
+     Consumer products                             |              |    5.4     1.0    -1.5     1.5     1.8  |     .2     -.3      .5      .8     -.4 
+     Commercial products                           |              |    5.9     5.1     2.1     3.2     4.4  |     .0      .0      .1      .1      .7 
+     Oil and gas well drilling                     |      213111  |   58.1    21.1    -7.0    -2.5     5.9  |    -.1      .8    -1.6     3.2     9.7 
+     Converted fuel                                |              |    3.3     2.2     2.2     2.6     2.0  |    -.1     -.1      .2      .2     -.1 
+     Primary energy                                |              |    9.0     6.0     2.1      .5     2.2  |     .0      .0      .1      .2     -.1 
+                                                   |              |                                         |
+  Non-energy                                       |              |    2.3    -1.6      .4    -1.3      .5  |     .1      .0      .8      .4     -.8 
+     Selected high-technology industries           |              |    9.0    10.0     7.3     7.5     6.7  |    1.5     -.2     3.2     -.5    -4.0 
+        Computers and peripheral equipment         |        3341  |   13.1    -5.1    34.7    40.6      .3  |    1.2    -2.4    27.9    28.0    -9.9 
+        Communications equipment                   |        3342  |   29.9    18.2     2.6      .7     6.0  |    2.1    -4.8    -1.0    -5.0     4.7 
+        Semiconductors and related                 |              |                                         |
+           electronic components                   |        3344  |    2.7     9.7     5.3     4.5     8.4  |    1.3     1.5     1.3    -3.8    -5.5 
+                                                   |              |                                         |
+     Excluding selected high-technology            |              |                                         |
+           industries                              |              |    2.1    -1.9      .2    -1.5      .3  |     .1      .0      .7      .4     -.7 
+                                                   |              |                                         |
+        Motor vehicles and parts                   |      3361-3  |   -3.7    11.3     -.4    -6.2    -3.4  |    -.5     1.5      .0    -3.4      .1 
+           Motor vehicles                          |        3361  |   -8.9    19.7      .8    -7.1    -4.6  |    -.4     2.7     1.5    -4.2      .6 
+           Motor vehicle parts                     |        3363  |   -2.5     9.7    -2.9    -2.2    -2.2  |    -.6     -.2    -2.9    -1.7     -.6 
+                                                   |              |                                         |
+        Excluding motor vehicles and parts         |              |    2.7    -3.0      .2    -1.1      .6  |     .1     -.1      .7      .8     -.8 
+           Consumer goods                          |              |     .7    -3.4     -.6     -.6     -.3  |     .2     -.2     -.6      .1     -.2 
+           Business equipment                      |              |    3.0     1.6     1.7    -9.3     8.3  |    -.1     1.1     3.6     -.5    -3.5 
+           Construction supplies                   |              |    5.8    -3.9    -2.0     -.6      .4  |     .4    -1.0     -.3      .4    -1.2 
+           Business supplies                       |              |    1.8    -4.6    -1.9     -.5    -2.2  |     .1     -.5      .5     1.5    -1.2 
+           Materials                               |              |    4.3    -3.3     1.1      .8     -.1  |     .2     -.2     1.0     1.8     -.4 
+                                                   |              |                                         |
+  Measures excluding selected high-technology      |              |                                         |
+        industries                                 |              |                                         |
+  Total industry                                   |              |    3.2     -.1      .5     -.8      .8  |     .1      .0      .5      .4     -.5 
+     Manufacturing<2>                              |              |    2.6    -2.0      .3    -1.2      .3  |     .1      .0      .7      .5     -.7 
+        Durable                                    |              |    2.8     1.0     -.3    -3.3     1.3  |     .0      .3     1.3      .2    -1.3 
+                                                   |              |                                         |
+  Measures excluding motor vehicles and parts      |              |                                         |
+  Total industry                                   |              |    3.9     -.6      .7     -.2     1.2  |     .1     -.1      .6      .6     -.6 
+     Manufacturing<2>                              |              |    3.4    -2.7      .6     -.6      .8  |     .2     -.2      .9      .8     -.9 
+        Durable                                    |              |    4.5     -.2      .2    -2.1     2.5  |     .2      .0     1.7      .7    -1.7 
+                                                   |              |                                         |
+  Measures excluding selected high-technology      |              |                                         |
+        industries and motor vehicles and parts    |              |                                         |
+  Total industry                                   |              |    3.7     -.8      .5     -.4     1.1  |     .1     -.1      .6      .6     -.6 
+     Manufacturing<2>                              |              |    3.2    -3.1      .4     -.8      .6  |     .1     -.2      .8      .8     -.8 
+                                                   |              |                                         |
+  Stage-of-process components                      |              |                                         |
+        of non-energy materials,                   |              |                                         |
+        measures of the input to                   |              |                                         |
+  Finished processors                              |              |    1.9     2.5     1.5     -.7     1.8  |    -.1     1.0     1.9     -.4     -.6 
+  Primary and semifinished processors              |              |    4.5    -3.8      .7     1.4     -.8  |     .3     -.7      .1     2.2     -.5 
+                                                   |              |                                         |
+  Stage-of-process groups                          |              |                                         |
+  Crude                                            |              |    6.5     1.8     5.0     2.3    -1.2  |    -.1      .4     2.2     1.9    -1.0 
+  Primary and semifinished                         |              |    3.6    -1.0    -1.5      .4     1.3  |     .2     -.5     -.4      .4     -.3 
+  Finished                                         |              |    1.6      .4     1.2    -3.2     1.6  |     .0      .4     1.1     -.3     -.8 
+ ----------------------------------------------------------------------------------------------------------------------------------------------------
+ <1> See footnote 1 to table 2.
+ <2> See footnote 2 to table 2.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+1Table 4
+ Annual Rates of Change for Industrial Production <1>
+ 
+ 
+ --------------------------------------------------------------------------------------------------------------------------------------------
+                                                          |                                         |           Difference between
+                                                          |          Revised Growth Rates           |        revised and earlier rates
+                                                          |                                         |           (percentage points)
+ Item                                                     |    2021    2022    2023    2024    2025 |    2021    2022    2023    2024    2025
+ --------------------------------------------------------------------------------------------------------------------------------------------
+                                                          |                                         |
+  Total IP                                                |    4.5     1.8     -.1      .0      .8  |     .0      .1      .2      .7     -.3 
+                                                          |                                         |
+  MARKET GROUP                                            |                                         |
+  Consumer goods                                          |    4.2     -.5    -1.7     -.3      .4  |     .1      .1     -.3      .1      .6 
+     Durable                                              |    9.8     2.6    -1.8    -2.5    -1.0  |     .2      .3      .7      .3     2.5 
+     Nondurable                                           |    2.7    -1.4    -1.7      .4      .8  |     .0      .1     -.6      .1      .0 
+                                                          |                                         |
+  Business equipment                                      |    5.9     3.8     3.6    -3.1     -.2  |     .2      .1     3.7     -.1    -4.6 
+  Defense and space equipment                             |    -.2    -7.6     9.9     1.2     2.8  |    -.7     -.3     3.6      .1     -.2 
+                                                          |                                         |
+  Construction supplies                                   |    4.4     1.6    -3.9     -.8      .6  |     .0      .0    -1.3     1.0    -1.5 
+  Business supplies                                       |    4.8      .6    -2.3     1.0      .3  |     .1      .0     -.4     1.2     -.3 
+                                                          |                                         |
+  Materials                                               |    4.4     3.3      .9      .7     1.4  |     .0      .1     -.1     1.0      .1 
+     Non-energy                                           |    5.2     1.5     -.8      .6     1.1  |     .0      .1     -.1     1.6      .1 
+     Energy                                               |    3.0     6.0     3.4      .8     2.0  |     .0      .0      .0      .1      .2 
+                                                          |                                         |
+                                                          |                                         |
+  INDUSTRY GROUP                                          |                                         |
+  Manufacturing<2>                                        |    5.0      .5     -.7     -.1      .4  |     .0      .1      .2      .9     -.5 
+     Manufacturing (NAICS)                                |    5.0      .5     -.4     -.1      .5  |     .0      .1      .4      .8     -.5 
+        Durable manufacturing                             |    6.1     3.1      .3    -1.3      .2  |     .1      .1      .8      .9    -1.3 
+        Nondurable manufacturing                          |    3.9    -2.2    -1.1     1.3      .8  |     .0      .0     -.1      .8      .4 
+     Other manufacturing (non-NAICS)                      |    2.9      .7   -15.4    -3.6    -6.9  |     .0      .0    -7.1     1.5    -1.0 
+                                                          |                                         |
+  Mining                                                  |    3.5     7.8     4.7     -.9     1.7  |     .0      .1      .1      .1      .2 
+  Utilities                                               |    2.0     3.0    -1.6     2.0     3.2  |     .0      .0      .0     -.1      .4 
+ --------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ <1> The rates of change are calculated as the percent change in the annual averages of not seasonally adjusted industrial production indexes
+     rather than as the percent change between the fourth quarter of one year and the fourth quarter of the next.
+ <2> See footnote 2 to table 2.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+1Table 5
+ Rates of Change in Capacity, by Industry Groups: 2022-2026 <1>
+ 
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                   |                                                   |                Difference between
+                                                   |                  Revised change                   |            revised and earlier changes
+                                                   |                     (percent)                     |                (percentage points)
+ Item                                              |      2022      2023      2024      2025      2026 |      2022      2023      2024      2025      2026
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------
+  Total industry                                   |       .9        .9        .7       1.0       1.4  |       .2       -.4       -.3       -.5        .3 
+                                                   |                                                   |
+  Manufacturing<2>                                 |       .5        .0        .2        .3       1.0  |       .4       -.5       -.5       -.8        .1 
+     Manufacturing (NAICS)                         |       .6        .1        .3        .4       1.2  |       .4       -.4       -.5       -.8        .1 
+        Durable manufacturing                      |      1.1       -.5       -.2        .6       1.5  |       .4       -.6      -1.2       -.5        .3 
+        Nondurable manufacturing                   |      -.1        .7       1.0        .2        .8  |       .3       -.3        .4      -1.2       -.2 
+     Other manufacturing (non-NAICS)               |     -4.8      -5.3      -7.0      -7.1      -7.0  |      -.2       -.7      -2.1      -2.2      -1.7 
+                                                   |                                                   |
+  Mining                                           |      3.0       1.5       1.7       1.5        .4  |       .2       -.2        .8       1.8        .2 
+  Utilities                                        |      1.8       3.0       3.3       4.1       4.4  |       .0        .0        .0       -.3       1.7 
+                                                   |                                                   |
+                                                   |                                                   |
+  Selected high-technology industries              |     13.0      13.1       9.8       4.8      11.9  |      5.2      -2.1       -.9     -11.7      -1.3 
+  Manufacturing<2> ex. selected                    |                                                   |
+        high-technology industries                 |       .1       -.4       -.1        .1        .6  |       .2       -.4       -.5       -.5        .1 
+                                                   |                                                   |
+  Stage-of-process groups                          |                                                   |
+  Crude                                            |      3.0       1.9       1.7       1.6        .6  |      1.1        .6       1.2       1.9        .4 
+  Primary and semifinished                         |       .2        .9        .3        .6       1.7  |      -.3       -.3       -.8      -1.2        .4 
+  Finished                                         |       .9       -.2        .8       1.0       1.4  |       .5       -.6       -.4       -.5        .1 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------
+ <1> Rates of change are calculated as the percent change in the seasonally adjusted index from the fourth quarter of the
+     previous year to the fourth quarter of the year specified in the column heading.
+ <2> See footnote 2 to table 2.
+ 
+ 
+ 
+
+1Table 6
+ Revised and Earlier Capacity Utilization Rates, by Industry Groups
+ 
+   Percent of capacity, seasonally adjusted
+ 
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          |                |                                         |         Difference between
+                                                          |                |              Revised rate               |      revised and earlier rates
+                                                          |                |                                         |         (percentage points)
+                                                          |                |   1972-                                 |                                    
+ Item                                                     |      NAICS     |    2025    2022    2023    2024    2025 |     2022     2023     2024     2025
+                                                          |                |    Ave.      Q4      Q4      Q4      Q4 |       Q4       Q4       Q4       Q4
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------
+  Total industry                                          |                |   79.4    77.7    77.5    76.5    76.5  |     -.2       .6      1.0       .9 
+                                                          |                |                                         |
+  Manufacturing<1>                                        |                |   78.2    76.8    77.1    76.2    76.4  |     -.2       .7      1.4      1.4 
+     Manufacturing (NAICS)                                |         31-33  |   78.1    76.6    77.2    76.1    76.3  |     -.2       .8      1.5      1.5 
+                                                          |                |                                         |
+        Durable manufacturing                             |                |   76.7    75.5    75.9    74.0    74.8  |     -.3      1.2      2.1      1.5 
+           Wood products                                  |           321  |   76.8    77.9    74.7    75.5    76.2  |      .2      1.7      2.7      6.1 
+           Nonmetallic mineral products                   |           327  |   74.1    80.0    78.4    77.3    75.7  |     -.4     -1.4      -.6     -2.9 
+           Primary metals                                 |           331  |   77.1    70.0    70.0    67.3    67.4  |     -.6       .4      1.9       .4 
+           Fabricated metal products                      |           332  |   77.6    79.6    76.5    76.0    77.9  |     1.7       .4      1.9      1.9 
+           Machinery                                      |           333  |   78.1    78.8    79.8    79.1    80.7  |    -1.6      1.1      2.2       .8 
+           Computer and electronic products               |           334  |   77.1    76.6    76.4    74.6    76.3  |    -1.2      2.8       .7      1.8 
+           Electrical equip., appliances,                 |                |                                         |
+              and components                              |           335  |   81.7    79.8    83.4    87.8    83.7  |     1.1      -.8      2.1      -.7 
+           Motor vehicles and parts                       |        3361-3  |   74.3    72.9    71.9    65.6    62.5  |     -.2       .3      -.8     -1.5 
+           Aerospace and miscellaneous                    |                |                                         |
+              transportation equipment                    |        3364-9  |   73.5    63.9    69.6    64.9    76.0  |     -.4      2.4      4.1      4.1 
+           Furniture and related products                 |           337  |   77.5    76.3    76.5    76.5    73.4  |    -2.9      5.1      7.6      5.7 
+           Miscellaneous                                  |           339  |   77.4    82.0    87.2    87.9    83.5  |     -.7      3.4      9.5      7.8 
+                                                          |                |                                         |
+        Nondurable manufacturing                          |                |   80.1    77.8    78.5    78.5    78.0  |     -.1       .4       .7      1.5 
+           Food, beverage, and tobacco products           |         311,2  |   80.2    80.6    80.7    79.5    79.8  |     -.2       .1      -.1      1.7 
+           Textile and product mills                      |         313,4  |   77.4    66.5    71.0    72.3    74.2  |    -1.7      2.4      1.9      2.9 
+           Apparel and leather                            |         315,6  |   75.6    73.8    72.8    73.2    70.6  |    -3.0      -.5      6.4      2.8 
+           Paper                                          |           322  |   86.6    82.1    81.2    82.1    85.8  |     -.2      1.4      1.4      8.1 
+           Printing and support                           |           323  |   78.9    77.7    69.4    72.4    82.6  |      .2      -.3       .2     11.7 
+           Petroleum and coal products                    |           324  |   85.5    89.7    89.3    89.6    87.9  |      .4      -.3     -1.1      -.2 
+           Chemicals                                      |           325  |   77.1    72.1    75.7    76.7    73.5  |     -.1      1.4      1.4      -.4 
+           Plastics and rubber products                   |           326  |   81.7    75.2    74.8    75.0    75.4  |      .0     -2.6      2.1      2.4 
+                                                          |                |                                         |
+     Other manufacturing (non-NAICS)                      |  1133,5131pt.  |   79.6    85.6    76.4    80.1    80.9  |      .0     -4.2       .1     -1.5 
+                                                          |                |                                         |
+  Mining                                                  |            21  |   85.1    83.8    84.7    83.0    82.9  |     -.3       .1      -.4     -1.7 
+  Utilities                                               |        2211,2  |   84.1    75.9    73.0    72.0    71.7  |     -.1      -.2      -.2       .1 
+                                                          |                |                                         |
+  Selected high-technology industries                     |                |   77.2    78.8    74.8    73.2    74.5  |    -5.8     -1.7     -1.4      3.7 
+     Computers and peripheral equipment                   |          3341  |   75.8    57.7    59.3    65.0    71.1  |   -19.2     -5.2     -6.8     -9.0 
+     Communications equipment                             |          3342  |   75.2    75.1    72.9    67.5    64.4  |    -5.1     -2.3     -1.6      4.3 
+     Semiconductors and related                           |                |                                         |
+           electronic components                          |          3344  |   79.1    84.2    78.8    77.5    79.4  |    -3.1      -.1       .6      6.2 
+                                                          |                |                                         |
+  Measures excluding selected high-technology             |                |                                         |
+        industries                                        |                |                                         |
+  Total industry                                          |                |   79.5    77.7    77.6    76.6    76.5  |     -.1       .6      1.1       .9 
+     Manufacturing<1>                                     |                |   78.2    76.7    77.2    76.3    76.4  |     -.1       .8      1.5      1.4 
+                                                          |                |                                         |
+  Stage-of-process groups                                 |                |                                         |
+  Crude                                                   |                |   84.4    79.9    82.3    82.7    80.6  |    -1.8      -.4       .2     -2.1 
+  Primary and semifinished                                |                |   80.1    78.5    76.5    76.5    76.7  |      .1      -.2       .8      1.3 
+  Finished                                                |                |   76.7    75.5    76.8    73.9    74.5  |      .2      1.7      1.6      1.6 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------
+ <1> See footnote 2 to table 2.
+ 
+ 
+ 
+
+1Table 7A
+ Industrial Production: Manufacturing <1>
+ Seasonally adjusted
+ 
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+                 |                                                                                    |                            |
+                 |   Jan.   Feb.   Mar.   Apr.    May   June   July   Aug.  Sept.   Oct.   Nov.   Dec.|     Q1     Q2     Q3     Q4|Annual <2>
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+                 |                                                                                    |                            |
+ IP (percent     |                                                                                    |                            |
+ change)         |                                                                                    |                            |
+  1996           |   -.7    1.5    -.2    1.2     .8     .9     .4     .4     .8     .0     .9     .8 |   1.8   10.3    7.8    6.1 |      5.0 
+  1997           |    .1    1.3    1.0     .0     .7     .6     .8    1.2     .9     .9    1.0     .5 |   9.1    7.0   10.6   11.7 |      8.4 
+                 |                                                                                    |                            |
+  1998           |    .7     .2    -.1     .4     .6    -.8    -.4    2.4    -.1     .9     .1     .6 |   6.0    2.1    3.4    7.8 |      6.7 
+  1999           |    .2     .9     .0     .3     .8    -.2     .4     .6    -.4    1.5     .7     .7 |   5.1    4.3    3.2    8.7 |      5.1 
+  2000           |    .0     .2     .7     .6     .0     .2     .1    -.6     .6    -.4    -.3    -.6 |   4.2    4.9    -.1   -2.4 |      4.1 
+  2001           |   -.4    -.7    -.2    -.4    -.5    -.6    -.5    -.4    -.4    -.4    -.4     .2 |  -5.6   -5.2   -5.8   -3.8 |     -3.5 
+  2002           |    .6     .0     .7     .3     .5     .9    -.1     .1     .0    -.2     .5    -.7 |   3.4    5.7    3.0    -.3 |       .4 
+                 |                                                                                    |                            |
+  2003           |    .8    -.1     .1    -.7     .0     .4     .3    -.5     .9     .1     .9    -.1 |   1.9   -2.1    2.4    4.5 |      1.3 
+  2004           |   -.1     .8     .0     .3     .7    -.7     .9     .5     .0     .9     .0     .8 |   2.6    3.4    4.1    5.5 |      3.1 
+  2005           |    .6     .9    -.4     .4     .3     .2    -.4     .5   -1.1    1.4     .9     .1 |   6.3    2.6    -.6    6.3 |      4.1 
+  2006           |    .8    -.3     .0     .3    -.3     .3    -.3     .7     .1    -.4     .1    1.4 |   4.0     .6    1.0    1.7 |      2.6 
+  2007           |   -.4     .3     .8     .6     .0     .4     .0    -.3     .3    -.1     .5     .1 |   4.5    5.7     .4    1.2 |      2.8 
+                 |                                                                                    |                            |
+  2008           |   -.2    -.7    -.4    -.9    -.6    -.7   -1.0   -1.2   -3.4    -.6   -2.5   -3.3 |  -2.4   -8.0  -13.4  -22.0 |     -4.7 
+  2009           |  -3.3    -.1   -1.8    -.8   -1.0    -.3    1.5    1.1    1.1     .2    1.0     .0 | -24.9  -10.7    8.5    8.0 |    -13.8 
+  2010           |   1.0    -.1    1.2     .8    1.2    -.1     .5     .1     .1     .1     .1     .5 |   6.9   10.0    3.9    1.7 |      6.0 
+  2011           |    .0     .2     .7    -.5     .0     .1     .6     .5     .3     .5    -.2     .7 |   2.9    -.1    4.5    3.9 |      2.9 
+  2012           |    .8     .4    -.5     .5    -.3     .2    -.2    -.1    -.2    -.2     .6     .7 |   5.4     .5   -1.3    1.0 |      2.6 
+                 |                                                                                    |                            |
+  2013           |   -.2     .4    -.1    -.3     .3     .2    -.8     .9     .1     .2     .0    -.2 |   2.6     .3     .2    1.7 |       .9 
+  2014           |  -1.0     .9     .9     .0     .3     .3     .4    -.6     .0    -.1     .7    -.2 |  -1.2    4.8    1.3     .2 |      1.1 
+  2015           |   -.6    -.8     .4    -.1     .0    -.4     .8    -.3    -.3    -.1    -.3    -.2 |  -3.5    -.7     .9   -2.7 |      -.6 
+  2016           |    .4    -.4    -.1    -.2    -.1     .2     .1    -.4     .2     .1    -.1     .0 |   -.4   -1.3     .1     .0 |      -.8 
+  2017           |    .1    -.1    -.3    1.2    -.1     .0    -.4    -.2     .0    1.1     .0    -.3 |   -.3    3.4   -2.2    4.1 |       .5 
+                 |                                                                                    |                            |
+  2018           |   -.3     .8    -.1     .7    -.9     .6     .1     .3     .1    -.3    -.3     .3 |    .3    2.3    1.6   -1.1 |      1.3 
+  2019           |   -.9    -.6    -.3    -.6     .0     .4    -.7     .6    -.8    -.8     .8     .1 |  -4.8   -3.5   -1.3   -2.2 |     -2.0 
+  2020           |   -.2     .1   -4.6  -15.3    4.3    7.8    3.7    1.5     .1    1.1     .5     .8 |  -5.2  -43.6   54.8    9.1 |     -6.5 
+  2021           |   1.0   -4.1    3.1     .1    1.0     .1    1.1    -.5   -1.2    1.5     .6    -.1 |   -.3    5.6    2.6    3.2 |      5.0 
+  2022           |   -.8     .5     .5     .0    -.5    -.5     .1    -.1    -.1     .3    -.8   -1.7 |   -.9    -.2   -2.2   -3.4 |       .5 
+                 |                                                                                    |                            |
+  2023           |   1.8    -.2    -.6    1.0    -.3    -.6     .6     .0     .2    -.3     .6     .2 |    .0     .5     .4    1.2 |      -.7 
+  2024           |  -1.4    1.1     .2    -.5     .5     .0    -.9     .4    -.5    -.5     .3     .4 |  -1.0    1.5   -2.7   -1.7 |      -.1 
+  2025           |   -.2     .9     .3    -.2    -.2     .3     .3    -.1     .0    -.7    -.2    -.1 |   3.3     .9    1.5   -3.6 |       .4 
+  2026           |    .0     .5     .4     .6     .1     .2     .0    -.4     .2     .3               |   1.2    4.9     .1        |          
+                 |                                                                                    |                            |
+ IP (2022=100)   |                                                                                    |                            |
+  1996           |  75.0   76.2   76.0   77.0   77.6   78.3   78.6   79.0   79.6   79.6   80.3   80.9 |  75.7   77.6   79.1   80.3 |     78.2 
+  1997           |  81.0   82.1   82.9   82.9   83.5   84.0   84.6   85.6   86.4   87.3   88.1   88.6 |  82.0   83.4   85.6   88.0 |     84.7 
+                 |                                                                                    |                            |
+  1998           |  89.2   89.4   89.2   89.6   90.1   89.4   89.1   91.2   91.2   92.0   92.1   92.6 |  89.3   89.7   90.5   92.2 |     90.4 
+  1999           |  92.8   93.6   93.6   93.9   94.7   94.5   94.8   95.4   95.1   96.5   97.1   97.8 |  93.4   94.4   95.1   97.1 |     95.0 
+  2000           |  97.8   98.0   98.6   99.3   99.2   99.4   99.5   98.9   99.4   99.1   98.8   98.2 |  98.1   99.3   99.3   98.7 |     98.8 
+  2001           |  97.8   97.1   96.9   96.5   96.0   95.4   94.9   94.6   94.2   93.8   93.5   93.6 |  97.3   96.0   94.6   93.7 |     95.4 
+  2002           |  94.2   94.2   94.9   95.2   95.6   96.5   96.4   96.5   96.6   96.3   96.8   96.2 |  94.5   95.8   96.5   96.4 |     95.8 
+                 |                                                                                    |                            |
+  2003           |  96.9   96.8   96.9   96.2   96.2   96.6   97.0   96.5   97.3   97.5   98.3   98.2 |  96.9   96.4   96.9   98.0 |     97.0 
+  2004           |  98.1   98.9   98.9   99.2   99.9   99.3  100.1  100.6  100.6  101.6  101.5  102.3 |  98.6   99.5  100.5  101.8 |    100.1 
+  2005           | 102.9  103.8  103.4  103.8  104.1  104.3  103.9  104.4  103.3  104.8  105.7  105.9 | 103.4  104.0  103.9  105.5 |    104.2 
+  2006           | 106.7  106.4  106.4  106.8  106.5  106.7  106.4  107.1  107.3  106.8  106.9  108.5 | 106.5  106.7  106.9  107.4 |    106.9 
+  2007           | 108.1  108.4  109.3  110.0  109.9  110.4  110.3  110.0  110.3  110.2  110.7  110.8 | 108.6  110.1  110.2  110.5 |    109.9 
+                 |                                                                                    |                            |
+  2008           | 110.5  109.7  109.3  108.3  107.6  106.9  105.9  104.5  101.0  100.3   97.8   94.5 | 109.9  107.6  103.8   97.5 |    104.7 
+  2009           |  91.5   91.3   89.7   89.0   88.1   87.8   89.1   90.1   91.1   91.2   92.2   92.1 |  90.8   88.3   90.1   91.8 |     90.3 
+  2010           |  93.1   93.0   94.1   94.9   96.0   96.0   96.5   96.6   96.7   96.7   96.9   97.3 |  93.4   95.6   96.6   97.0 |     95.6 
+  2011           |  97.4   97.5   98.2   97.6   97.6   97.7   98.3   98.8   99.1   99.6   99.4  100.1 |  97.7   97.6   98.7   99.7 |     98.4 
+  2012           | 100.9  101.3  100.8  101.3  100.9  101.2  101.0  100.8  100.6  100.4  101.0  101.7 | 101.0  101.1  100.8  101.0 |    101.0 
+                 |                                                                                    |                            |
+  2013           | 101.4  101.8  101.8  101.5  101.8  102.0  101.2  102.1  102.2  102.4  102.3  102.1 | 101.7  101.8  101.8  102.3 |    101.9 
+  2014           | 101.1  102.0  102.8  102.9  103.1  103.5  103.9  103.3  103.3  103.2  103.9  103.6 | 101.9  103.2  103.5  103.6 |    103.0 
+  2015           | 103.0  102.3  102.6  102.6  102.6  102.2  103.0  102.7  102.4  102.3  102.0  101.7 | 102.6  102.5  102.7  102.0 |    102.5 
+  2016           | 102.2  101.8  101.7  101.6  101.5  101.7  101.8  101.4  101.6  101.7  101.6  101.6 | 101.9  101.6  101.6  101.6 |    101.7 
+  2017           | 101.7  101.6  101.3  102.5  102.3  102.3  101.9  101.7  101.8  102.9  102.9  102.7 | 101.5  102.4  101.8  102.8 |    102.1 
+                 |                                                                                    |                            |
+  2018           | 102.4  103.2  103.2  103.9  103.0  103.6  103.7  104.0  104.1  103.7  103.4  103.8 | 102.9  103.5  103.9  103.6 |    103.5 
+  2019           | 102.9  102.3  102.0  101.4  101.3  101.7  101.0  101.6  100.8  100.0  100.8  100.9 | 102.4  101.5  101.1  100.6 |    101.4 
+  2020           | 100.7  100.8   96.2   81.5   85.0   91.6   95.0   96.4   96.5   97.5   98.0   98.7 |  99.2   86.0   96.0   98.1 |     94.8 
+  2021           |  99.8   95.6   98.6   98.7   99.6   99.7  100.8  100.2   99.0  100.4  101.0  100.9 |  98.0   99.3  100.0  100.8 |     99.5 
+  2022           | 100.0  100.5  101.0  101.0  100.5  100.0  100.0   99.9   99.8  100.2   99.3   97.6 | 100.5  100.5   99.9   99.1 |    100.0 
+                 |                                                                                    |                            |
+  2023           |  99.4   99.2   98.6   99.6   99.3   98.7   99.2   99.2   99.4   99.1   99.7   99.9 |  99.0   99.2   99.3   99.5 |     99.3 
+  2024           |  98.5   99.6   99.8   99.3   99.8   99.8   98.9   99.3   98.7   98.2   98.5   98.9 |  99.3   99.7   99.0   98.5 |     99.1 
+  2025           |  98.7   99.5   99.8   99.6   99.4   99.7  100.0   99.9   99.9   99.2   99.0   98.9 |  99.3   99.6   99.9   99.0 |     99.5 
+  2026           |  98.8   99.3   99.7  100.4  100.5  100.7  100.7  100.3  100.5  100.8               |  99.3  100.5  100.5        |          
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+ Note: Estimates from June 2026 through October 2026 are subject to further revision in the upcoming monthly releases.
+ <1> See footnote 2 to table 2.
+ <2> Annual averages of industrial production are calculated from not seasonally adjusted indexes.
+ 
+ 
+ 
+
+1Table 7B
+ Capacity and Utilization: Manufacturing <1>
+ Seasonally adjusted
+ 
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+                 |                                                                                    |                            |
+                 |   Jan.   Feb.   Mar.   Apr.    May   June   July   Aug.  Sept.   Oct.   Nov.   Dec.|     Q1     Q2     Q3     Q4|    Annual
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+                 |                                                                                    |                            |
+ Capacity        |                                                                                    |                            |
+ (percent of     |                                                                                    |                            |
+ 2022 output)    |                                                                                    |                            |
+  1996           |  92.3   92.8   93.3   93.8   94.3   94.8   95.3   95.9   96.4   96.9   97.4   97.9 |  92.8   94.3   95.9   97.4 |     95.1 
+  1997           |  98.5   99.0   99.6  100.2  100.8  101.4  102.0  102.7  103.4  104.2  105.0  105.8 |  99.0  100.8  102.7  105.0 |    101.9 
+                 |                                                                                    |                            |
+  1998           | 106.6  107.4  108.2  109.0  109.8  110.5  111.2  111.9  112.5  113.1  113.7  114.3 | 107.4  109.8  111.9  113.7 |    110.7 
+  1999           | 114.9  115.4  115.9  116.5  117.0  117.5  118.0  118.5  119.0  119.5  120.0  120.5 | 115.4  117.0  118.5  120.0 |    117.7 
+  2000           | 121.0  121.5  122.0  122.5  123.0  123.5  124.0  124.5  125.0  125.5  126.0  126.5 | 121.5  123.0  124.5  126.0 |    123.7 
+  2001           | 126.9  127.4  127.8  128.2  128.6  129.0  129.3  129.6  129.9  130.1  130.3  130.5 | 127.4  128.6  129.6  130.3 |    129.0 
+  2002           | 130.7  130.8  130.9  130.9  131.0  131.0  131.0  131.0  131.0  131.0  131.0  130.9 | 130.8  131.0  131.0  131.0 |    130.9 
+                 |                                                                                    |                            |
+  2003           | 130.9  130.9  130.8  130.8  130.8  130.7  130.7  130.7  130.7  130.6  130.6  130.6 | 130.9  130.8  130.7  130.6 |    130.7 
+  2004           | 130.5  130.5  130.5  130.5  130.5  130.5  130.5  130.5  130.6  130.7  130.8  131.0 | 130.5  130.5  130.5  130.8 |    130.6 
+  2005           | 131.2  131.4  131.6  131.8  132.1  132.4  132.7  133.0  133.2  133.5  133.8  134.1 | 131.4  132.1  133.0  133.8 |    132.6 
+  2006           | 134.3  134.6  134.8  135.1  135.3  135.6  135.8  136.1  136.3  136.6  136.9  137.2 | 134.6  135.3  136.1  136.9 |    135.7 
+  2007           | 137.5  137.9  138.2  138.5  138.9  139.2  139.5  139.8  140.1  140.3  140.5  140.7 | 137.9  138.9  139.8  140.5 |    139.3 
+                 |                                                                                    |                            |
+  2008           | 140.8  140.9  140.9  140.9  140.9  140.9  140.8  140.7  140.6  140.4  140.3  140.1 | 140.9  140.9  140.7  140.3 |    140.7 
+  2009           | 139.9  139.7  139.5  139.2  139.0  138.8  138.5  138.3  138.1  137.9  137.7  137.4 | 139.7  139.0  138.3  137.7 |    138.7 
+  2010           | 137.2  137.0  136.8  136.6  136.3  136.1  135.9  135.7  135.5  135.3  135.1  134.9 | 137.0  136.3  135.7  135.1 |    136.0 
+  2011           | 134.7  134.6  134.5  134.4  134.4  134.4  134.4  134.4  134.5  134.6  134.7  134.9 | 134.6  134.4  134.4  134.7 |    134.5 
+  2012           | 135.0  135.2  135.3  135.5  135.6  135.8  135.9  136.0  136.1  136.2  136.3  136.4 | 135.2  135.6  136.0  136.3 |    135.8 
+                 |                                                                                    |                            |
+  2013           | 136.5  136.5  136.5  136.5  136.5  136.5  136.5  136.4  136.4  136.3  136.3  136.2 | 136.5  136.5  136.4  136.3 |    136.4 
+  2014           | 136.1  136.0  135.9  135.8  135.7  135.6  135.5  135.3  135.1  135.0  134.8  134.6 | 136.0  135.7  135.3  134.8 |    135.5 
+  2015           | 134.4  134.3  134.1  133.9  133.8  133.7  133.6  133.5  133.5  133.4  133.4  133.5 | 134.3  133.8  133.5  133.4 |    133.8 
+  2016           | 133.5  133.5  133.6  133.7  133.7  133.8  133.8  133.9  133.9  133.9  133.8  133.8 | 133.5  133.7  133.9  133.8 |    133.7 
+  2017           | 133.7  133.6  133.5  133.3  133.1  133.0  132.8  132.6  132.5  132.3  132.1  132.0 | 133.6  133.1  132.6  132.1 |    132.9 
+                 |                                                                                    |                            |
+  2018           | 131.9  131.8  131.7  131.7  131.6  131.6  131.6  131.6  131.6  131.6  131.7  131.7 | 131.8  131.6  131.6  131.7 |    131.7 
+  2019           | 131.7  131.7  131.7  131.7  131.7  131.6  131.6  131.6  131.5  131.4  131.3  131.3 | 131.7  131.7  131.6  131.3 |    131.6 
+  2020           | 131.1  131.0  130.9  130.7  130.6  130.4  130.2  130.0  129.8  129.6  129.4  129.2 | 131.0  130.6  130.0  129.4 |    130.3 
+  2021           | 129.1  128.9  128.8  128.6  128.5  128.5  128.4  128.4  128.4  128.4  128.4  128.5 | 128.9  128.5  128.4  128.4 |    128.6 
+  2022           | 128.5  128.6  128.7  128.7  128.8  128.8  128.9  128.9  129.0  129.0  129.0  129.1 | 128.6  128.8  128.9  129.0 |    128.8 
+                 |                                                                                    |                            |
+  2023           | 129.1  129.1  129.1  129.1  129.1  129.1  129.0  129.0  129.0  129.0  129.0  129.0 | 129.1  129.1  129.0  129.0 |    129.1 
+  2024           | 129.0  129.1  129.1  129.1  129.1  129.1  129.2  129.2  129.2  129.3  129.3  129.3 | 129.1  129.1  129.2  129.3 |    129.2 
+  2025           | 129.4  129.4  129.4  129.4  129.4  129.5  129.5  129.5  129.6  129.6  129.7  129.7 | 129.4  129.4  129.5  129.7 |    129.5 
+  2026           | 129.8  129.9  130.0  130.1  130.2  130.3  130.5  130.6  130.7  130.9               | 129.9  130.2  130.6        |          
+                 |                                                                                    |                            |
+ Utilization     |                                                                                    |                            |
+ (percent)       |                                                                                    |                            |
+  1996           |  81.3   82.1   81.5   82.0   82.2   82.6   82.5   82.4   82.6   82.1   82.4   82.6 |  81.6   82.3   82.5   82.4 |     82.2 
+  1997           |  82.3   82.9   83.3   82.8   82.8   82.8   82.9   83.4   83.6   83.7   83.9   83.7 |  82.8   82.8   83.3   83.8 |     83.2 
+                 |                                                                                    |                            |
+  1998           |  83.7   83.2   82.5   82.2   82.1   80.9   80.1   81.5   81.0   81.3   81.0   81.0 |  83.1   81.8   80.9   81.1 |     81.7 
+  1999           |  80.8   81.1   80.8   80.7   81.0   80.4   80.4   80.5   79.9   80.7   80.9   81.2 |  80.9   80.7   80.3   80.9 |     80.7 
+  2000           |  80.8   80.7   80.8   81.0   80.7   80.5   80.2   79.4   79.5   78.9   78.4   77.6 |  80.8   80.7   79.7   78.3 |     79.9 
+  2001           |  77.0   76.2   75.8   75.2   74.6   74.0   73.4   72.9   72.5   72.1   71.7   71.7 |  76.4   74.6   73.0   71.9 |     73.9 
+  2002           |  72.1   72.1   72.5   72.7   73.0   73.7   73.6   73.7   73.7   73.5   73.9   73.4 |  72.2   73.1   73.7   73.6 |     73.2 
+                 |                                                                                    |                            |
+  2003           |  74.1   74.0   74.1   73.6   73.6   73.9   74.2   73.8   74.5   74.6   75.3   75.2 |  74.0   73.7   74.2   75.0 |     74.2 
+  2004           |  75.2   75.8   75.8   76.0   76.6   76.1   76.7   77.1   77.1   77.7   77.6   78.1 |  75.6   76.2   77.0   77.8 |     76.6 
+  2005           |  78.5   79.0   78.6   78.7   78.8   78.8   78.3   78.5   77.5   78.5   79.0   79.0 |  78.7   78.8   78.1   78.8 |     78.6 
+  2006           |  79.4   79.1   78.9   79.0   78.7   78.7   78.3   78.7   78.7   78.2   78.1   79.0 |  79.1   78.8   78.6   78.4 |     78.7 
+  2007           |  78.6   78.6   79.1   79.4   79.2   79.3   79.1   78.7   78.7   78.5   78.7   78.7 |  78.8   79.3   78.8   78.7 |     78.9 
+                 |                                                                                    |                            |
+  2008           |  78.5   77.9   77.5   76.8   76.4   75.9   75.2   74.3   71.8   71.4   69.7   67.5 |  78.0   76.4   73.8   69.5 |     74.4 
+  2009           |  65.4   65.4   64.3   63.9   63.3   63.3   64.3   65.1   65.9   66.2   67.0   67.0 |  65.0   63.5   65.1   66.7 |     65.1 
+  2010           |  67.8   67.9   68.8   69.5   70.5   70.5   71.0   71.2   71.4   71.5   71.7   72.2 |  68.2   70.1   71.2   71.8 |     70.3 
+  2011           |  72.3   72.5   73.0   72.6   72.6   72.7   73.2   73.5   73.7   74.0   73.8   74.2 |  72.6   72.7   73.4   74.0 |     73.2 
+  2012           |  74.7   74.9   74.5   74.7   74.4   74.5   74.3   74.1   73.9   73.7   74.1   74.5 |  74.7   74.6   74.1   74.1 |     74.4 
+                 |                                                                                    |                            |
+  2013           |  74.3   74.6   74.5   74.3   74.6   74.7   74.2   74.8   74.9   75.1   75.1   75.0 |  74.5   74.5   74.6   75.0 |     74.7 
+  2014           |  74.2   74.9   75.7   75.7   76.0   76.3   76.7   76.3   76.4   76.4   77.0   77.0 |  74.9   76.0   76.5   76.8 |     76.1 
+  2015           |  76.6   76.2   76.5   76.6   76.7   76.5   77.1   76.9   76.7   76.6   76.4   76.2 |  76.4   76.6   76.9   76.4 |     76.6 
+  2016           |  76.5   76.2   76.2   76.0   75.9   76.0   76.1   75.8   75.9   76.0   75.9   75.9 |  76.3   76.0   75.9   75.9 |     76.0 
+  2017           |  76.1   76.0   75.9   76.9   76.8   77.0   76.7   76.7   76.8   77.8   77.9   77.8 |  76.0   76.9   76.8   77.8 |     76.9 
+                 |                                                                                    |                            |
+  2018           |  77.6   78.3   78.3   78.9   78.2   78.7   78.8   79.0   79.1   78.8   78.6   78.8 |  78.1   78.6   79.0   78.7 |     78.6 
+  2019           |  78.1   77.6   77.4   77.0   77.0   77.3   76.7   77.2   76.7   76.1   76.7   76.9 |  77.7   77.1   76.9   76.6 |     77.1 
+  2020           |  76.8   77.0   73.5   62.3   65.1   70.2   72.9   74.2   74.3   75.2   75.7   76.4 |  75.7   65.9   73.8   75.8 |     72.8 
+  2021           |  77.3   74.2   76.6   76.7   77.5   77.6   78.5   78.1   77.1   78.2   78.6   78.5 |  76.0   77.3   77.9   78.5 |     77.4 
+  2022           |  77.8   78.2   78.5   78.5   78.0   77.6   77.6   77.5   77.4   77.6   77.0   75.7 |  78.2   78.0   77.5   76.8 |     77.6 
+                 |                                                                                    |                            |
+  2023           |  77.0   76.8   76.4   77.1   76.9   76.4   76.9   76.9   77.0   76.8   77.3   77.4 |  76.7   76.8   76.9   77.1 |     76.9 
+  2024           |  76.3   77.2   77.3   77.0   77.3   77.3   76.6   76.8   76.4   76.0   76.2   76.5 |  76.9   77.2   76.6   76.2 |     76.7 
+  2025           |  76.3   76.9   77.1   77.0   76.8   77.0   77.3   77.1   77.1   76.5   76.3   76.2 |  76.8   76.9   77.2   76.4 |     76.8 
+  2026           |  76.1   76.5   76.7   77.2   77.1   77.2   77.2   76.8   76.9   77.1               |  76.5   77.2   77.0        |          
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+ Note: Estimates from June 2026 through October 2026 are subject to further revision in the upcoming monthly releases.
+ <1> See footnote 2 to table 2.
+ 
+ 
+ 
+
+1Table 8
+ Annual Proportions in Industrial Production, Market and Industry Group Summary
+ 
+ 
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Item                                                       |          NAICS |       2018        2019        2020        2021        2022        2023        2024        2025 
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                            |                |
+  Total IP                                                  |                |      100.0       100.0       100.0       100.0       100.0       100.0       100.0       100.0 
+                                                            |                |
+  MARKET GROUP                                              |                |
+  Final products and nonindustrial supplies                 |                |       56.9        57.5        57.4        55.4        55.2        56.4        56.6        55.9 
+     Consumer goods                                         |                |       27.6        28.3        29.2        28.0        27.6        27.9        28.0        27.7 
+        Durable                                             |                |        6.0         6.2         6.3         6.2         6.2         6.4         6.3         6.1 
+           Automotive products                              |                |        3.3         3.4         3.4         3.4         3.6         3.8         3.7         3.6 
+           Home electronics                                 |                |         .1          .1          .1          .1          .1          .1          .2          .2 
+           Appliances, furniture, carpeting                 |                |         .8          .9          .9          .9          .8          .8          .8          .7 
+           Miscellaneous goods                              |                |        1.7         1.7         1.8         1.8         1.7         1.6         1.6         1.6 
+        Nondurable                                          |                |       21.6        22.1        22.9        21.9        21.3        21.5        21.7        21.6 
+           Non-energy                                       |                |       16.2        17.3        18.0        16.2        15.5        16.2        16.8        16.5 
+              Foods and tobacco                             |                |        9.4        10.0        10.7         9.8         9.6        10.3        10.9        10.8 
+              Clothing                                      |                |         .2          .2          .2          .2          .2          .2          .2          .2 
+              Chemical products                             |                |        5.0         5.4         5.5         4.7         4.3         4.4         4.4         4.3 
+              Paper products                                |                |        1.2         1.3         1.3         1.1         1.0          .9          .9          .8 
+           Energy                                           |                |        5.4         4.8         4.8         5.7         5.9         5.3         4.9         5.2 
+                                                            |                |
+     Business equipment                                     |                |       10.0         9.6         8.7         8.2         8.5         9.2         9.1         8.9 
+        Transit                                             |                |        3.0         2.3         1.6         1.6         1.8         2.2         2.1         2.1 
+        Information processing                              |                |        2.0         2.1         2.1         1.9         1.9         2.0         2.1         2.0 
+        Industrial and other                                |                |        5.1         5.2         5.0         4.8         4.9         5.0         5.0         4.8 
+     Defense and space equipment                            |                |        2.0         2.0         1.9         1.6         1.5         1.7         1.7         1.7 
+                                                            |                |
+     Construction supplies                                  |                |        5.4         5.6         6.0         5.9         6.0         6.0         6.1         6.0 
+     Business supplies                                      |                |       11.2        11.3        11.3        11.1        11.1        11.0        11.2        11.1 
+                                                            |                |
+  Materials                                                 |                |       43.1        42.5        42.6        44.6        44.8        43.6        43.4        44.1 
+     Non-energy                                             |                |       26.1        26.6        27.1        26.7        26.2        26.4        27.0        27.3 
+        Durable                                             |                |       16.2        16.6        16.5        16.1        16.0        16.1        16.2        16.5 
+           Consumer parts                                   |                |        3.1         3.1         2.9         2.7         2.7         2.9         2.8         2.7 
+           Equipment parts                                  |                |        4.8         5.0         4.7         4.5         4.8         5.0         5.2         5.6 
+           Other                                            |                |        8.3         8.5         8.9         8.8         8.5         8.2         8.1         8.2 
+        Nondurable                                          |                |        9.9        10.0        10.6        10.6        10.3        10.3        10.8        10.8 
+           Textile                                          |                |         .4          .4          .4          .3          .3          .3          .3          .2 
+           Paper                                            |                |        1.3         1.3         1.3         1.3         1.2         1.2         1.1         1.0 
+           Chemical                                         |                |        5.1         5.0         5.5         5.7         5.4         5.4         5.9         5.9 
+     Energy                                                 |                |       17.0        15.9        15.5        17.9        18.5        17.2        16.4        16.7 
+                                                            |                |
+                                                            |                |
+  INDUSTRY GROUP                                            |                |
+  Manufacturing<1>                                          |                |       76.2        77.0        77.5        75.5        74.3        75.5        76.2        75.6 
+     Manufacturing (NAICS)                                  |         31-33  |       74.1        74.9        75.5        73.7        72.5        74.0        74.8        74.4 
+                                                            |                |
+        Durable manufacturing                               |                |       38.9        39.2        38.3        37.1        37.5        38.7        38.7        38.5 
+           Wood products                                    |           321  |        1.4         1.5         2.0         2.0         1.8         1.7         1.7         1.7 
+           Nonmetallic mineral products                     |           327  |        2.1         2.2         2.3         2.1         2.3         2.3         2.3         2.2 
+           Primary metals                                   |           331  |        2.6         2.5         2.8         3.1         2.8         2.5         2.4         2.6 
+           Fabricated metal products                        |           332  |        5.9         6.1         6.0         5.8         6.0         6.0         5.9         5.9 
+           Machinery                                        |           333  |        5.5         5.7         5.4         5.2         5.3         5.6         5.5         5.4 
+           Computer and electronic products                 |           334  |        5.0         5.2         5.3         4.7         4.6         4.9         4.9         5.2 
+           Electrical equip., appliances,                   |                |
+              and components                                |           335  |        1.8         2.0         2.1         2.1         2.1         2.2         2.5         2.5 
+           Motor vehicles and parts                         |        3361-3  |        5.7         5.9         5.4         5.1         5.6         6.2         5.9         5.6 
+           Aerospace and miscellaneous                      |                |
+              transportation equipment                      |        3364-9  |        4.8         4.2         3.4         3.3         3.4         3.8         4.0         4.2 
+           Furniture and related products                   |           337  |        1.2         1.2         1.2         1.1         1.2         1.1         1.1         1.0 
+           Miscellaneous                                    |           339  |        2.8         2.8         2.7         2.6         2.4         2.5         2.4         2.3 
+                                                            |                |
+        Nondurable manufacturing                            |                |       35.2        35.7        37.1        36.6        35.0        35.2        36.0        35.8 
+           Food, beverage, and tobacco products             |         311,2  |       11.4        12.2        13.2        12.0        11.7        12.6        13.4        13.2 
+           Textile and product mills                        |         313,4  |         .6          .7          .7          .6          .5          .5          .5          .5 
+           Apparel and leather                              |         315,6  |         .2          .2          .2          .2          .2          .2          .2          .2 
+           Paper                                            |           322  |        2.5         2.6         2.6         2.4         2.4         2.3         2.3         2.3 
+           Printing and support                             |           323  |        1.4         1.4         1.3         1.3         1.3         1.3         1.2         1.2 
+           Petroleum and coal products                      |           324  |        3.8         3.0         2.8         4.1         4.1         3.4         2.9         3.1 
+           Chemicals                                        |           325  |       11.6        12.0        12.7        12.2        11.2        11.4        12.1        12.0 
+           Plastics and rubber products                     |           326  |        3.6         3.7         3.7         3.8         3.6         3.4         3.5         3.3 
+                                                            |                |
+     Other manufacturing (non-NAICS)                        |  1133,5131pt.  |        2.1         2.1         2.0         1.8         1.8         1.5         1.4         1.3 
+                                                            |                |
+  Mining                                                    |            21  |       13.0        11.8        11.2        13.9        14.4        13.0        12.1        12.5 
+  Utilities                                                 |        2211,2  |       10.8        11.1        11.3        10.6        11.3        11.5        11.7        11.8 
+     Electric                                               |          2211  |        9.4         9.7         9.8         9.1         9.6         9.9        10.1        10.2 
+     Natural gas                                            |          2212  |        1.5         1.4         1.5         1.5         1.7         1.6         1.5         1.7 
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Note. The IP proportion data are estimates of the industries' relative contributions to the overall change in IP between the reference
+       year and the following year.  For example, a 1 percent increase in durable goods manufacturing between 2025 and 2026 would
+       account for a .385 percent increase in total IP.
+ 
+ <1>  See footnote 2 to table 2.
+ 
+ 
+ 
+
+1Table 9
+ Industrial Production and Capacity Utilization:  SUMMARY
+ Seasonally adjusted
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                    |                             2022=100                              |                                   Percent change
+                                    | ----------------------------------------------------------------- | -----------------------------------------------------------------------------------
+                                    |      2026                                                         |      2026                                                         |    Oct. '25 to 
+ Industrial production              |    May[r]    June[r]    July[r]    Aug.[r]   Sept.[r]    Oct.[r]  |    May[r]    June[r]    July[r]    Aug.[r]   Sept.[r]    Oct.[r]  |      Oct. '26 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                    |                                                                   |                                                                   |
+  Total index                       |     101.8      102.0      102.2      102.1      102.7      102.2  |        .1         .2         .2        -.1         .6        -.4  |            1.7 
+     Previous estimates             |     102.7      103.0      103.2      103.1      103.8      103.4  |        .1         .3         .2        -.1         .7        -.4  |            2.1 
+                                    |                                                                   |                                                                   |
+  Major market groups               |                                                                   |                                                                   |
+  Final Products                    |     100.3      100.5      100.9      100.6      101.2      100.9  |        .2         .2         .4        -.3         .6        -.3  |            1.6 
+     Consumer goods                 |      98.0       98.0       98.0       97.8       98.7       98.2  |       -.1         .1         .0        -.2         .8        -.5  |             .2 
+     Business equipment             |     104.1      104.6      105.6      105.1      105.1      105.2  |        .7         .5        1.0        -.4         .0         .1  |            4.6 
+  Nonindustrial supplies            |      99.1       99.2       99.0       98.5       99.0       98.7  |        .0         .1        -.3        -.4         .5        -.3  |            1.3 
+     Construction                   |      98.1       98.3       98.3       97.4       98.2       97.8  |        .6         .2         .0        -.9         .8        -.4  |            2.4 
+  Materials                         |     104.2      104.4      104.7      104.8      105.4      104.9  |        .2         .2         .3         .1         .7        -.5  |            1.9 
+                                    |                                                                   |                                                                   |
+  Major industry groups             |                                                                   |                                                                   |
+  Manufacturing (see note below)    |     100.5      100.7      100.7      100.3      100.5      100.8  |        .1         .2         .0        -.4         .2         .3  |            1.6 
+     Previous estimates             |      98.1       98.3       98.4       98.2       98.4       98.7  |        .1         .3         .1        -.2         .3         .3  |            2.2 
+                                    |                                                                   |                                                                   |
+  Mining                            |     107.4      107.9      108.2      108.6      108.4      107.5  |        .4         .5         .3         .4        -.2        -.9  |            1.7 
+  Utilities                         |     103.7      103.5      105.1      105.8      109.9      105.2  |        .2        -.2        1.5         .7        3.9       -4.3  |            2.0 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  |                                                                                                                                             |    Capacity
+                                  |                                                             Percent of capacity                                                             |     growth
+                                  | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------
+                                  |     Average       1988-       1990-       1994-       2008-             |                                                                   |                
+                                  |       1972-          89          91          95          09       2025  |      2026                                                         |    Oct. '25 to 
+ Capacity utilization             |       2025         high         low        high         low       Oct.  |    May[r]    June[r]    July[r]    Aug.[r]   Sept.[r]    Oct.[r]  |      Oct. '26 
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  |                                                                         |                                                                   |
+  Total industry                  |       79.4        85.2        78.7        85.1        66.4        76.5  |      76.9       77.0       77.1       76.8       77.2       76.8  |            1.4 
+     Previous estimates           |       79.4        85.2        78.8        85.0        66.5        75.6  |      76.2       76.3       76.4       76.3       76.8       76.4  |            1.2 
+                                  |                                                                         |                                                                   |
+  Manufacturing (see note below)  |       78.2        85.6        77.2        84.7        63.3        76.5  |      77.1       77.2       77.2       76.8       76.9       77.1  |            1.0 
+     Previous estimates           |       78.2        85.5        77.2        84.6        63.4        75.1  |      75.9       76.0       76.0       75.8       75.9       76.0  |            1.0 
+  Mining                          |       85.1        86.3        84.3        88.6        78.3        82.9  |      84.2       84.6       84.8       85.1       84.9       84.0  |             .2 
+  Utilities                       |       84.1        93.2        84.7        93.2        78.1        71.1  |      69.7       69.4       70.1       70.3       72.8       69.5  |            4.4 
+                                  |                                                                         |                                                                   |
+  Stage-of-process groups         |                                                                         |                                                                   |
+  Crude                           |       84.4        87.9        84.7        90.1        76.6        80.9  |      81.4       81.4       81.3       81.6       81.5       81.0  |             .5 
+  Primary and semifinished        |       80.1        86.4        77.9        87.9        63.2        76.6  |      77.1       77.0       77.2       77.1       77.9       77.0  |            1.6 
+  Finished                        |       76.7        83.3        77.5        80.6        66.4        74.8  |      75.0       75.3       75.3       74.7       74.8       74.8  |            1.3 
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ r  Revised.
+ 
+ Note.  The statistics in this release cover output, capacity, and capacity utilization in the
+ U.S. industrial sector, which is defined by the Federal Reserve to comprise manufacturing,
+ mining, and electric and gas utilities. Mining is defined as all industries in sector 21 of the
+ North American Industry Classification System (NAICS); electric and gas utilities are those in
+ NAICS sectors 2211 and 2212. Manufacturing comprises NAICS manufacturing industries (sector 31-33)
+ plus the logging industry and the newspaper, periodical, book, and directory publishing industries
+ (except exclusive Internet publishing). Logging and publishing are classified elsewhere in NAICS
+ (under agriculture and information respectively), but historically they were considered to be
+ manufacturing and were included in the industrial sector under the Standard Industrial Classification (SIC)
+ system. In December 2002 the Federal Reserve reclassified all of its industrial output data from the
+ SIC system to NAICS.
+ 
+ 
+ 
+1
+ Explanatory Note
+
+ 
+ The Industrial Production and Capacity Utilization statistical
+ release, which is published around the middle of the month, reports
+ measures of output, capacity, and capacity utilization in
+ manufacturing, mining, and the electric and gas utilities industries.
+ More detailed descriptions of industrial production and capacity
+ utilization are available on the Board's website at 
+ www.federalreserve.gov/releases/G17. In addition, files containing
+ data shown in the release, more detailed series that were published in
+ the G.17 prior to December 2000, and historical data are available
+ from the Data Download Program on the Board's website.  Instructions
+ for searching for and downloading specific series are provided as
+ well.
+ 
+ Industrial Production
+ 
+ Coverage. The industrial production (IP) index measures the real
+ output of the manufacturing, mining, and electric and gas utilities
+ industries; the reference period for the index is 2022.  Manufacturing
+ consists of those industries included in the North American Industry
+ Classification System, or NAICS, definition of manufacturing plus
+ those industries-logging and newspaper, periodical, book, and
+ directory publishing (except exclusive Internet publishing)-that have 
+ traditionally been considered to bemanufacturing and included in the 
+ industrial sector.  For the period since 2017, the total IP index has 
+ been constructed from 295 individual series based on the 2022 NAICS codes.
+ These individual series are classified in two ways: (1) market groups, 
+ and (2) industry groups.  Market groups consist of products and materials.  
+ Total products are the aggregate of final products, such as consumer goods
+ and equipment, and nonindustrial supplies (which are inputs to
+ nonindustrial sectors).  Materials are inputs in the manufacture of
+ products.  Major industry groups include three-digit NAICS industries
+ and aggregates of these industries-for example, durable and
+ nondurable manufacturing, mining, and utilities.  A complete
+ description of the market and industry structures, including details
+ regarding series classification, relative importance weights, and data
+ sources, is available on the Board's website at 
+ www.federalreserve.gov/releases/G17/About.htm.
+ 
+ Source Data. On a monthly basis, the individual indexes of
+ industrial production are constructed from two main types of source
+ data: (1) output measured in physical units and (2) data on inputs to
+ the production process, from which output is inferred.  Data on
+ physical products, such as tons of steel or barrels of oil, are
+ typically obtained from private trade associations and from government
+ agencies; data of this type are used to estimate monthly IP wherever
+ possible and appropriate.  Production indexes for a few industries are
+ derived by dividing estimated nominal output (calculated using unit
+ production and unit values or sales) by a corresponding Fisher price
+ index; the most notable of these fall within the high-technology
+ grouping and include semiconductors.  When suitable data on physical
+ product are not available, estimates of output are based on
+ production-worker hours by industry.  Data on hours worked by
+ production workers are collected in the monthly establishment survey
+ conducted by the Bureau of Labor Statistics.  The factors used to
+ convert inputs into estimates of production are based on historical
+ relationships between the inputs and the comprehensive annual data
+ used to benchmark the IP indexes; these factors also may be influenced
+ by technological or cyclical developments.  The annual data used in
+ benchmarking the individual IP indexes are constructed from a variety
+ of source data, such as the quinquennial Censuses of Manufactures
+   and Mineral Industries and the Annual Survey of Manufactures,
+ prepared by the Bureau of the Census; the Minerals Yearbook,
+ prepared by the U.S. Geological Survey of the Department of the
+ Interior; and publications of the Department of Energy.
+ 
+ Aggregation Methodology and Weights.  The aggregation method for
+ the IP index is a version of the Fisher-ideal index formula.  (For a detailed
+ discussion of the aggregation method, see the Federal Reserve Bulletin
+ February 1997 and March 2001.)  In the IP index, series that measure the
+ output of an individual industry are combined using weights derived from
+ their proportion in the total value-added output of all industries.  The IP
+ index, which extends back to 1919, is built as a chain-type index since
+ 1972.  The current formula for the growth in monthly IP (or any of the
+ sub-aggregates) since 1972 is the geometric mean of the change in output
+ (I), and, as can be seen below, is computed using the unit value added
+ estimate for the current month (p_m) and the estimate for previous month:
+ 
+ %     Equation not available in ascii file.
+ 
+ The IP proportions (typically shown in the first column of the relevant
+ tables in the monthly G.17 release) are estimates of the industries' relative
+ contributions to overall growth in the following year.  For example, the
+ relative importance weight of the motor vehicles and parts industry is
+ about 5 percent.  If output in this industry increased 10 percent in a month,
+ then this gain would boost growth in total IP by 5/10 percentage point
+ (0.05 x 10% = 0.5%).  To assist users with calculations, the Federal
+ Reserve's website provides supplemental monthly statistics that represent
+ the exact proportionate contribution of a monthly change in a component
+ index to the monthly change in the total index 
+ (www.federalreserve.gov/releases/G17/ipdisk/ipweightssa.txt).
+ 
+ Timing. The first estimate of output for a month is published
+ around the 15th of the following month. The estimate is preliminary
+ (denoted by the superscript "p" in tables) and subject to revision
+ in each of the subsequent five months as new source data become
+ available. (Revised estimates are denoted by the superscript "r" in
+ tables.)  For the first estimate of output for a given month, about 81
+ percent of the source data (in value-added terms) are available; the
+ fraction of available source data increases to 88 percent for
+ estimates in the second month that the estimate is published, 94
+ percent in the third month, 97 percent in the fourth month, 98 percent
+ in the fifth month, and 99 percent in the sixth month. Data
+ availability by data type in 2025 is summarized in the table
+ below:
+ 
+   Availability of Monthly IP Data in Publication Window
+   (Percent of value added in 2025; the numbers may not sum because of rounding.) 
+     Type of data                1st  2nd  3rd  4th  5th  6th 
+       Physical product            36   43   49   52   53   54
+       Production-worker hours     45   45   45   45   45   45
+       IP data received            81   88   94   97   98   99
+       IP data estimated           19   12   6    3    2    1
+ 
+ The physical product group includes series based on either monthly or
+ quarterly data.  As can be seen in the first row of the table, in the
+ first month, a physical product indicator is available for more than one-half
+ of the series (in terms of value added) that ultimately are based on
+ physical product data (36 percent out of a total of 54 percent).  Of
+ the 36 percent, about one-half (19 percent of total IP) include
+ series that are derived from weekly physical product data and for
+ which actual monthly data may lag up to several months.  On average,
+ quarterly product data are received for the fourth estimate of
+ industrial production.  Specifically, quarterly data are available for
+ the third estimate of the last month of a quarter, the fourth estimate
+ of the second month of a quarter, and the fifth estimate of the first
+ month of a quarter.
+ 
+ Seasonal adjustment. Individual series are seasonally adjusted using
+ Census X-13 ARIMA. For series based on production-worker hours, the
+ current seasonal factors were estimated with data through August 2026;
+ for other series, the factors were estimated with data through August 2026, 
+ where available.  Series are pre-adjusted for the effects of holidays or the
+ business cycle when appropriate.  For the data since 1972, all seasonally
+ adjusted aggregate indexes are calculated by aggregating the seasonally
+ adjusted indexes of the individual series.  Additional documentation and 
+ X-13 specifications can be found on the Board's website at
+ www.federalreserve.gov/releases/G17/About.htm.
+ 
+ Reliability.  The average revision to the level of the
+ total IP index, without regard to sign, between the first and the
+ fourth estimates was 0.30 percent during the 1987-2026 period.  The
+ average revision to the percent change in total IP, without
+ regard to sign, from the first to the fourth estimates was 0.24
+ percentage point during the 1987-2026 period.  In most cases (about
+ 85 percent), the direction of the change in output indicated by the
+ first estimate for a given month is the same as that shown by the
+ fourth estimate.
+ 
+ Rounding.  The published percent changes are calculated from unrounded
+ indexes, and may not be the same as percent changes calculated from the
+ rounded indexes shown in the release.
+ 
+ Capacity Utilization
+ 
+ Overview.  The Federal Reserve Board constructs estimates of capacity
+ and capacity utilization for industries in manufacturing, mining, and
+ electric and gas utilities.  For a given industry, the capacity utilization rate
+ is equal to an output index (seasonally adjusted) divided by a capacity
+ index.  The Federal Reserve Board's capacity indexes attempt to capture
+ the concept of sustainable maximum output-the greatest level of output a
+ plant can maintain within the framework of a realistic work schedule, after
+ factoring in normal downtime and assuming sufficient availability of
+ inputs to operate the capital in place.
+ 
+ Coverage.  Capacity indexes are constructed for 86 detailed industries
+ (68 in manufacturing, 16 in mining, and 2 in utilities), which mostly
+ correspond to industries at the three- and four-digit North American
+ Industry Classification System, or NAICS level.
+ Estimates of capacity and utilization are available for a variety of groups,
+ including durable and nondurable manufacturing, total manufacturing,
+ mining, utilities, and total industry.  Manufacturing consists of those
+ industries included in the NAICS definition of manufacturing plus
+ those industries-logging and newspaper, periodical, book, and directory publishing 
+ (except exclusive Internet publishing)-that have traditionally been considered to 
+ be manufacturing and included in the industrial sector.  Also, special aggregates are 
+ available, such as high-technology industries and manufacturing excluding 
+ high-technology industries.
+ 
+ Source Data.  The monthly rates of capacity utilization are designed to be
+ consistent with both the monthly data on production and the periodically
+ available data on capacity and utilization.  Because there is no direct
+ monthly information on overall industrial capacity or utilization rates, the
+ Federal Reserve first estimates annual capacity indexes from the source
+ data.  Capacity data reported in physical units from government sources
+ (primarily from the U.S. Geological Survey and the Department of
+ Energy's Energy Information Administration) and trade sources are
+ available for portions of several industries in manufacturing (for example, paper,
+ industrial chemicals, petroleum refining, motor vehicles), as well as for
+ electric utilities and mining; these industries represent about 27 percent of
+ total industrial capacity.  When physical product data are unavailable for
+ manufacturing industries, capacity indexes are based on responses to the
+ Bureau of the Census's Quarterly Survey of Plant Capacity (QSPC); these
+ industries account for about 65 percent of total industry capacity.
+ In the absence of utilization data for a few mining and petroleum series, capacity
+ is based on trends through peaks in production (roughly 8 percent of total
+ industry capacity).  A detailed description of the methodology used to
+ construct the capacity indexes is available on the Board's website
+ (www.federalreserve.gov/releases/G17/Meth/MethCap.htm).
+ 
+ Aggregation Methodology.  Monthly capacity aggregates are calculated
+ in three steps: (1) utilization aggregates are calculated on an annual basis
+ through the most recent full year as capacity-weighted aggregates of
+ individual utilization rates; (2) the annual aggregate capacity is derived
+ from the corresponding production and utilization aggregates; (3) the
+ monthly capacity aggregate is obtained by interpolating with a Fisher
+ index of its constituent monthly capacity series.  Utilization rates for the
+ individual series and aggregates are calculated by dividing the pertinent
+ monthly production index by the related capacity index.
+ 
+ Consistency.  A major aim is that the Federal Reserve
+ utilization rates be consistent over time so that, for example, a rate
+ of 85 percent means about the same degree of tightness that it meant
+ in the past.  A major task for the Federal Reserve in developing
+ reasonable and consistent time series of capacity and utilization is
+ dealing with inconsistencies between the movements of the industrial
+ production index and the survey-based utilization rates.  The
+ McGraw-Hill/DRI Survey, now discontinued, was the primary source of
+ manufacturing utilization rates for many years.  This survey of large
+ companies reported, on average, higher utilization rates than those
+ reported by establishments covered by the annual Survey of Plant
+ Capacity (the primary source of factory operating rates through 2006,
+ after which it was discontinued) for the fourteen years they
+ overlapped.  Adjustments have been made to keep the industry
+ utilization rates currently reported by the Federal Reserve (now based
+ on the QSPC) roughly in line with rates formerly reported by
+ McGraw-Hill.  As a consequence, the rates reported by the Federal
+ Reserve tend to be higher than the rates reported in the Census
+ utilization surveys.
+ 
+ Perspective.  Over the 1972-2025 period, the average total industry
+ utilization rate was 79.4 percent; for manufacturing, the average factory
+ operating rate was 78.2 percent.  Industrial plants usually operate at
+ capacity utilization rates that are well below 100 percent: none of the
+ broad aggregates has ever reached 100 percent.  For total manufacturing, 
+ utilization rates have exceeded 90 percent only in wartime.  The highs 
+ and lows in capacity utilization are specific to each series and do not 
+ all occur in the same month.
+ 
+ References and Release Dates
+ 
+ References.  The release for the annual revision that was published
+ on November 24, 2026, is available on the Board's website
+ (www.federalreserve.gov/releases/g17/revisions/Current/DefaultRev.htm).
+ A summary of the annual revision that incorporated back to 1972 production and capacity
+ indexes reclassified according to the North American Industry
+ Classification System is available in an article in the Federal
+ Reserve Bulletin, vol. 89 (April 2003), pp.151-176.  A description
+ of the aggregation methods for industrial production and capacity
+ utilization is included in an article in the Federal Reserve
+ Bulletin, vol. 83 (February 1997), pp. 67-92.  The Federal Reserve
+ methodology for constructing industry-level measures of capital is
+ detailed in "Capital Stock Estimates for Manufacturing Industries:
+ Methods and Data" by Mike Mohr and Charles Gilbert (1996), which can
+ be obtained at www.federalreserve.gov/releases/g17/CapitalStockDocLatest.pdf.
+ 
+ Industrial Production-1986 Edition contains a more detailed description
+ of the other methods used to compile the industrial production index, plus
+ a history of its development, a glossary of terms, and a bibliography.  The
+ major revisions to the IP indexes and capacity utilization since 1990 have
+ been described in the Federal Reserve Bulletin (April 1990, June 1990,
+ June 1993, March 1994, January 1995, January 1996, February 1997,
+ February 1998, January 1999, March 2000, March 2001, March 2002,
+ April 2003, Winter 2004, Winter 2005, March 2006, May 2007, August 2008, August 2009) or
+ in online staff studies
+ (www.federalreserve.gov/releases/g17/articles/rev2010/industrial10.pdf, 
+ www.federalreserve.gov/releases/g17/articles/rev2012/industrial12.pdf,
+ www.federalreserve.gov/releases/g17/articles/rev2013/industrial13.pdf).
+ 
+ Release Schedule
+ 
+ The G.17 release on Industrial Production and Capacity Utilization will be issued on the following dates. The monthly releases are issued at 9:15 a.m. The annual revision is issued at noon.
+ 
+ 2026: January 16, February 18, March 16, April 16, May 15, June 15, July 17, August 18, September 18, October 16, November 17, November 24 (annual revision), and December 16.
+ 
+ 2027: January 15, February 17, March 15, April 15, May 17, June 16, July 16, August 17, September 16, October 18, November 17, and December 16. 
+ 
+ This release schedule is available on the Board's website at
+ http://www.federalreserve.gov/releases/g17.
+ 
+ 
+ 
+ 
