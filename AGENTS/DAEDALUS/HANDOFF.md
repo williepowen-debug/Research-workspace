@@ -1,3 +1,9 @@
+# Current continuation — November 25, 2026 (laptop)
+
+Will "go" 14:51 ET. Done: L1193 correction, scorecard 11/20, wiring ⑰ run 5, census 3 (records named in STATUS BOTTOM LINE). **Resume with:** YUR-F02 on 11/28 (do not grade early); scorecard 11/27; then the five DUE items. Desk replies to the 11/25 packets are the treatment evidence for wiring run 6 (12/16).
+
+---
+
 # Current continuation — November 18, 2026 (desktop)
 
 Will "ok go" 10:18 ET to the boot order. All three are done: the read-cap charter ceiling is reviewed and corrected (0c0cf16e19; four rulings asked of PROME), Production Review #10 is complete (`upgrades/PRODUCTION_REVIEW_2026-11-18.md`), and WQ-717 items 1–4 are built (ef3aafbb8e; PROME reviews 11/24, D:L1193). **Resume with:** PROME's read-cap rulings when they arrive (ask 2 is pre-asked as a conditional yes: apply the ceiling in every mode with one reader); the BOARD quoted-date fixture test (inbox); the two own tool defects (fleet_view fixture test; census memory, do not re-run on the shared box); scorecard 11/20 (first v1.4 render); the MIDAS 11/06 guard read; the GIBBS L3 class proposal; the surfaces-currency sub-queue (DUE).

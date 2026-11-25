@@ -1,13 +1,13 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-11-18.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-11-25.
 
 > ⚑ **THIS IS THE BOOT-READ HOT INDEX (SPAWN PROTOCOL step 2, re-homed 2026-08-23).** `FLEET_MAP.tsv` is the COLD full register — it holds the complete Gaps/Next_upgrade text and is read PER-AGENT on demand (`grep -P '^AGENT\t' FLEET_MAP.tsv`) or whole at a Production Review. Why: FLEET_MAP hit **121% of the harness single-read token cap** and had been truncating at every boot for ~6 days (PAT-111 recurring on its third file). Rotating the accumulated Gaps narrative to `FLEET_MAP_HISTORY.tsv` cut it 65,725 → 43,006 B, which is **not enough** — squeezing it under the budget would have meant deleting live gap content from the rich rows. So the register went cold and this generated view became the read, the same hot/cold split `PATTERNS_HOT.md` uses. ⛔ Never answer a cap breach by raising the budget: the read cap is not ours to move.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **Cf** (confidence: H=read-verified, M=read+mechanical, L=mechanical-only) + **Scored** (last-scored date) + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. Dormant agents are un-graded → blank grade cells; an ACTIVE/TIER-2 agent missing its FLEET_MAP row renders ⚠️ UNGRADED and the generator exits nonzero — a blank there is never by-design. PROME graded 2026-07-28 (Will-ratified, judgment-read only — the scripted floor cannot see a root-level agent).*
 
 **WF:** configured phrase-list entries at render time, not hits or routing health. `0` = explicit empty list; `—` = no list; `n/a` = owner-declared non-query desk; `UNKNOWN` = source unavailable/unsupported. Regenerate after lane edits; the existing directory-age guard watches ROSTER/FLEET_MAP only.
-WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `65f9953725042674102532d1b518fde53ff0180bc2c4a98b493e36088fad6d3c`.
+WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `973b9fb4983c16630c867fe203745a6467bb6871b0d16210654d823f0f582226`.
 
 ## 🟢 ACTIVE — persistent domain owners
 
@@ -46,7 +46,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `6
 | WAL | Market | L4 | M | 2026-11-18 | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.4 (since 8/20; cell corrected 2026-10-30 on DAEDALUS WAL refresh § 4)) | Conf M to H requires the KB Stale_By backlog judged row by row (no bulk… | 3 |
 | FLG | Market | L4 | M | 2026-11-18 | Flagstar Financial specialist (NYC rent-regulated multifamily → CRE concentration → nonaccrual → reserve adequacy; formerly NYCB) | Conf M to H requires the 44 stale KB rows dispositioned, the outside-au… | 17 |
 | CRUISE | Market | L4 | M | 2026-11-18 | Cruise-sector desk — **live scope re-set under WQ-435 (Will 2026-10-15 12:26 ET; charter § Live scope encoded 2026-10-16, verified 64dc05e37):** ① operator dispersion + NCLH credit/demand (CRU-11, `VX-CRU-05`) · ② cruise as a consumer-demand read for CARL/MARCO · ③ Florida/Gulf ports. Gulf/war-risk = ONE trigger (`VX-CRU-04`, FALCON owns the theater); fuel = a cost line only (BRENT owns the price). Wake carrier = dated PROME DOCKET rows naming CRUISE (RCL Q3 L713 10/27 · NCLH L714). ⚠️ The March fuel-cost / tourism-canary mission and the 7/2 arm-CCL ladder are HISTORY (ladder PROPOSED-NEVER-RATIFIED; do NOT treat its band as a live threshold) — row text refreshed 2026-10-23 08:49 ET (DOCKET L815 ①) | L4 granted November 18 on DAEDALUS's reading of reading A, branch 1: th… | 7 |
-| FERT | Market | L4 | M | 2026-11-18 | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = LIVE vector; **potash → FERT at TRIAGE DEPTH, Will-ruled 2026-08-18** — routing only, log+flag, no deep-dive until the charter edit [DAEDALUS-owed] + benchmark row land together; ⚠️ potash = a FOURTH benchmark family on a desk re-chartered over a basis mislabel. ⛔ Prior cell read "potash EXCLUDED-UNOWNED fleet-wide" — never a Will ruling, an inference off the 8/16 re-charter's positive scoping, propagated as fact) | L5 requires a DAEDALUS confirm-read of clean, current closeouts across… | 12 |
+| FERT | Market | L4 | M | 2026-11-18 | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = LIVE vector; **potash → FERT at TRIAGE DEPTH, Will-ruled 2026-08-18** — log+flag, no deep-dive; the scope and its benchmark rows landed in one charter edit 2026-08-19 (beb3a36cb9) and the full rule, with its depth-revisit trigger, is `AGENTS/FERT/CLAUDE.md` § POTASH; ⚠️ potash = a FOURTH benchmark family on a desk re-chartered over a basis mislabel. ⛔ Prior cell read "potash EXCLUDED-UNOWNED fleet-wide" — never a Will ruling, an inference off the 8/16 re-charter's positive scoping, propagated as fact) | L5 requires a DAEDALUS confirm-read of clean, current closeouts across… | 12 |
 
 ## 🟡 TIER-2 — spawned as needed
 
@@ -71,7 +71,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `6
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next | WF |
 |---|---|---|---|---|---|---|---|
-| DAEDALUS | Meta | L4 | M | 2026-11-18 | Fleet architect — design / structure / maturity / lifecycle | Repair the two own tool defects | n/a |
+| DAEDALUS | Meta | L4 | M | 2026-11-25 | Fleet architect — design / structure / maturity / lifecycle | Grade YUR-F02 November 28 | n/a |
 | RAV | Meta | L2 | M | 2026-11-18 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on first charter §5 run report when Will commissions it | — |
 | CATO | — | — | — | — | Will's manual Codex/Astra adviser + independent reviewer | UNGRADED BY RULING (WQ-255, 2026-09-26): manual-only — no launch, no routing, no ladder row | — |
 
