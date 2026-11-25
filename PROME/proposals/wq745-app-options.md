@@ -34,6 +34,10 @@ Question, options, context and conditions are decision terms. Queue Notes are op
     "Every price is an after-hours screen of 11/24, not a fill price; re-priced on the live chain before any order.",
     "With the approved HYG card this puts up to $632.80 on related ideas, 1.27 times the $500 default.",
     "LIQUID's 45% odds cover the whole group of AI-infrastructure borrowers, not CoreWeave; most of its deal facts are relayed reports.",
+    "HENRY's most likely case, about 50%, is a sideways market, in which this spread slowly loses value.",
+    "The obvious move may already have happened: CoreWeave is down 54% since 10/6 and rose 22% in one day on 11/23; a close at $60 or higher kills the card.",
+    "Thanksgiving week is thin; TERRY would not enter on the Friday 11/27 half-session.",
+    "Weekly junk-bond issuance volume is unmeasured; LIQUID's read rests on named deals, most of them relayed reports.",
     "PROME's recommendation is low conviction; declining is equally sound.",
     "Every app answer needs Will's confirming word in chat. You place any order."
   ],
