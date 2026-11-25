@@ -91,6 +91,7 @@ Helper: read-only verification for WALTER (Rule 9), Claude Opus 5.5, 2026-10-29 
   - Foreclosure starts -3% YoY (about 40K).
   - Serious delinquencies +21% YoY. ICE says "serious", which the page does not define; the post's "90+ days" is the usual meaning but unconfirmed on the page.
   - National delinquency rate 3.66% (+12bp).
+> ⚠️ 2026-11-24: HOMER withdrew the "inflow is cooling" read below (packet inbox/processed/2026-11-24_from-HOMER_CORRECTION-inflow-cooling-withdrawn.md): Q3 starts about +12% YoY, the September -2.9% is a one-month base effect. The line is kept as history.
 - **Note:** Starts were negative YoY. That counters "louder" framing: the inflow is cooling while the stock builds.
 - **Owner already has it? YES.** `AGENTS/HOMER/STATUS.md` (line 31) and `AGENTS/HOMER/reports/2026-10-28_catchup-prints.md` hold 303K, +37%, highest since early 2019, starts -2.9% YoY (first negative), sales +14.5%, and the 90+/foreclosure pipeline at 882K.
 - **Suggested owner:** HOMER. Already consumed; DUP or NO-ACTION.

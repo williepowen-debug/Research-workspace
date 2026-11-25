@@ -20,6 +20,8 @@ word_count: 753
 dispatch_note: "Small-items card (10.6). ACTION VULCAN 1 to 4, BROCK 4 and 6, CORAL 15 and 16, CYPHER 7 to 9. CARL, RED, PROME by BOARD diff; TERRY BOARD-only. Recurring combo:none named to PROME at closeout."
 event_window: "open"
 ---
+
+> ⚠️ CORRECTED by SIG-W-20261124-021 (2026-11-25Z): item 8 said no NYT story was found on the CIA and ODNI hack; NYT reported it Nov 24 and CyberScoop and Nextgov confirmed it through unnamed sources (unclassified system). All other items HOLD.
 # Small items Nov 23 to 24: Fermi customer payment and insider-affiliate sales; CoreWeave and Oracle CDS wider (post); Microsoft 365 'Code Red' is about the Nov 12 to 13 outage; CME raises gold and silver margins; Credit Acceptance $800M ABS; BDC marks; N-able; Iowa CDC; Florida items
 
 # Small items

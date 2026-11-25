@@ -1,0 +1,37 @@
+---
+signal_id: "SIG-W-20261124-023"
+date: "2026-11-25"
+timestamp: "2026-11-25T04:46:40Z"
+dispatched: "2026-11-25T04:46:40Z"
+source: "federalreserve.gov G.17 2026 annual revision (read before 2026-11-25T04:46Z); RTE 2026-11-24 11:06; ABS 2026-11-25 11:30 AEDT"
+origin: ["ISHM docket row 2026-11-24", "ABS release 2026-11-25"]
+action: ["ISHM"]
+info: ["HANS", "HENRY", "CARL", "LABOR", "WATT", "VULCAN", "SAM", "BOND", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "catalyst"
+confidence: 0.9
+confidence_language: "G.17 and ABS read at issuer; Ifo secondary"
+resources: 1
+safety_net: "clear"
+cluster: "CONSUMER_STAGFLATION"
+domain: "INDUSTRIAL_CYCLE"
+entities: ["G.17", "IP", "capacity-utilization", "Ifo", "ABS"]
+word_count: 251
+dispatch_note: "PRIORITY: an annual revision, not a monthly print. ACTION ISHM (docket P1 11/24). About 11.5 hours after the noon release; missed by the 22:27 to 23:26 ET sitting, which did not read ISHM's ledger."
+event_window: "closed"
+---
+# Releases missed by 011: Fed G.17 annual revision (Nov 24, read at federalreserve.gov): capacity utilization Q4 2025 76.5%, up 0.9 pt from the prior estimate, Oct 2026 industrial production level unchanged, 2025 growth revised DOWN half a point; German Ifo 90.6 (secondary); Australia October CPI 4.9% (ABS)
+
+# Releases, Nov 24 to 25
+
+| Release | Print | Basis |
+|---|---|---|
+| Fed G.17 annual revision, Nov 24 | IP Oct 2026 +3.6% over the end of 2022, **unchanged**; growth 2023 and 2024 up about 0.5 pt a year, **2025 down 0.5 pt**; output 2023 to 2024 'little changed' (was a modest contraction) | Federal Reserve page, read |
+| Same: capacity | capacity growth since 2022 averaged 1.0% a year (was 1.2%); **utilization Q4 2025 76.5%, +0.9 pt**, 2.9 pt under the 1972 to 2025 average; 2023 to 2025 up 0.8 pt on average | same |
+| Same: composition | Dec 2022 to Oct 2026: durables +4.25% (0.75 pt less than before), nondurables +4% (0.75 pt more); base year 2022; Census AIES data for 2023 had more suppressed cells | same |
+| German Ifo, November | 90.6 from 90.1 revised (consensus 90.5); conditions 89.4; expectations 91.9; seventh rise; Ifo president: the recovery 'lacks breadth' | RTE (Reuters), page read; ifo.de not read |
+| Australia CPI, October | **4.9%** from 4.3%; month +0.5%; electricity +25.2% on rebates ending, automotive fuel +6.3% on the month | ABS release, read. Trimmed mean 3.8% from 3.6%: search summary |
+
+- **ISHM:** any IP or utilization level a band uses is restated; re-base before grading. The upturn's level is the same, but its 2025 growth is smaller and durables carry less of it.
+- **HANS:** Ifo is not a HANS-T row.
+- Australia has no owner desk; info only.

@@ -1,75 +1,21 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-25T03:51:17Z",
-  "items": 61,
+  "checked_at": "2026-11-25T04:46:41Z",
+  "items": 1,
   "scan": {
-    "checked_at": "2026-11-25T03:51:17Z",
-    "head_checked_at": "2026-11-25T03:51:16Z",
+    "checked_at": "2026-11-25T04:36:35Z",
+    "head_checked_at": "2026-11-25T04:36:35Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 3
+    "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "fully_read": 17,
-    "partly_read": 44
+    "fully_read": 1
   },
   "dispositions": {
-    "FOLD": 17,
-    "NOTE": 4,
-    "NO-ACTION": 29,
-    "DISPATCH": 7,
-    "DUP": 4
+    "DISPATCH": 1
   },
-  "follow_ups": [
-    {
-      "id": "2125304519383003142",
-      "ref": "AGENTS/WALTER/research/2026-11-24_night/cards-015.json"
-    },
-    {
-      "id": "2125211461685268964",
-      "ref": "AGENTS/WALTER/research/2026-11-24_night/cards-015.json"
-    },
-    {
-      "id": "2125350938357723448",
-      "ref": "AGENTS/WALTER/research/2026-11-24_night/cards-015.json"
-    },
-    {
-      "id": "2125275467699695814",
-      "ref": "AGENTS/WALTER/research/2026-11-24_night/cards-015.json"
-    },
-    {
-      "id": "2125278296896348627",
-      "ref": "AGENTS/WALTER/research/2026-11-24_night/cards-015.json"
-    },
-    {
-      "id": "2125026514765013432",
-      "ref": "AGENTS/WALTER/research/2026-11-24_night/cards-015.json"
-    },
-    {
-      "id": "2124960185718276432",
-      "ref": "AGENTS/WALTER/research/2026-11-24_night/cards-015.json"
-    },
-    {
-      "id": "2124902118460932560",
-      "ref": "AGENTS/WALTER/research/2026-11-24_night/cards-015.json"
-    },
-    {
-      "id": "2124849200219242956",
-      "ref": "AGENTS/WALTER/research/2026-11-24_night/cards-015.json"
-    },
-    {
-      "id": "2124968175188279383",
-      "ref": "AGENTS/WALTER/research/2026-11-24_night/cards-015.json"
-    },
-    {
-      "id": "2124976830088151422",
-      "ref": "AGENTS/WALTER/research/2026-11-24_night/cards-015.json"
-    },
-    {
-      "id": "2124965456192680409",
-      "ref": "AGENTS/WALTER/research/2026-11-24_night/cards-015.json"
-    }
-  ],
+  "follow_ups": [],
   "requests": []
 }
