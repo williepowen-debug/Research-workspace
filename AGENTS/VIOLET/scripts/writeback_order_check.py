@@ -156,6 +156,27 @@ def effective_ts(name: str) -> tuple[int, str]:
     return max((_one_ts(p) for p in paths), key=lambda t: t[0])
 
 
+def names_status_revision(cited: str, status_rel: str, repo: Path | None = None) -> bool:
+    """True iff `cited` resolves to ONE commit, on HEAD's history, that touched STATUS.
+
+    No count window (WQ-712 re-key, 2026-11-25): an unchanged brief may keep an old pin.
+    Fails closed on an unknown or ambiguous hash, a commit that did not touch STATUS,
+    and a commit not reachable from HEAD.
+    """
+    g = (lambda *a: subprocess.run(["git", "-C", str(repo), *a], capture_output=True,
+                                   text=True).stdout.strip()) if repo else _git
+    full = g("rev-parse", "--verify", "--quiet", f"{cited}^{{commit}}")
+    if not full or len(full) != 40:
+        return False
+    on_head = subprocess.run(["git", "-C", str(repo or REPO), "merge-base", "--is-ancestor",
+                              full, "HEAD"], capture_output=True).returncode == 0
+    if not on_head:
+        return False
+    touched = g("diff-tree", "--no-commit-id", "--name-only", "-r", "-m", "--root", full,
+                "--", status_rel)
+    return bool(touched)
+
+
 def brief_provenance() -> list[str]:
     """Check the two provenance stamps the ORDERING rule cannot see.
 
@@ -220,11 +241,18 @@ def brief_provenance() -> list[str]:
         # sha matching the BRIEF's own commit, even a commit that never touched
         # STATUS.md — so a brief could cite a commit unrelated to STATUS and pass.
         # The citation must name a commit that ACTUALLY TOUCHED STATUS.
-        touching = _git("log", "-30", "--format=%h", "--", _rel("STATUS.md")).split()
-        is_status_commit = any(h.startswith(cited) or cited.startswith(h) for h in touching)
+        # 2026-11-25 RE-KEY (WQ-712 RULED A, PROME D:L1189 class C11): v2 searched only the
+        # last 30 STATUS commits, so under WQ-719 A an UNCHANGED brief keeping a valid older
+        # pin went red once STATUS had 30 newer commits (~3.5 weeks, NEXUS's inference).
+        # The rule is unchanged: a pin that names no STATUS revision still fails closed
+        # (WQ-721 A). Acceptance, written before the edit: (A1) a pin naming any STATUS
+        # commit on HEAD's history passes, however old; (A2) a commit that did not touch
+        # STATUS fails; (A3) an unknown or ambiguous hash fails; (A4) a STATUS commit NOT
+        # on HEAD's history (rebased away, other branch) fails, as v2's window implied.
+        is_status_commit = names_status_revision(cited, _rel("STATUS.md"))
         is_latest = bool(latest) and (latest.startswith(cited) or cited.startswith(latest))
         if not is_status_commit:
-            out.append(f"  🔴 NEXUS_BRIEF cites `{cited}`, which is NOT among the last 30 commits "
+            out.append(f"  🔴 NEXUS_BRIEF cites `{cited}`, which is not a commit on this branch "
                        f"that touched STATUS.md.\n"
                        f"     A hash that names no STATUS revision points NEXUS at nothing.")
         elif not is_latest and not dirty:

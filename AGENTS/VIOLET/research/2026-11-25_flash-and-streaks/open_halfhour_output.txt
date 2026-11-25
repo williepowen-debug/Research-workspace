@@ -1,0 +1,25 @@
+Wed Nov 25 10:16:47 EST 2026
+^VIX: bars 03:15..09:58 n=399 last=31.91 hi=34.95@09:45 lo=27.63@03:35
+^VIX9D: bars 09:31..09:58 n=28 last=35.14 hi=39.97@09:45 lo=35.14@09:58
+^VIX3M: bars 09:31..09:58 n=28 last=28.34 hi=29.93@09:45 lo=28.34@09:58
+^VIX6M: bars 09:31..09:58 n=28 last=28.47 hi=29.62@09:45 lo=28.47@09:58
+^VVIX: bars 09:31..09:58 n=28 last=124.58 hi=129.05@09:45 lo=124.58@09:58
+^GSPC: bars 09:30..10:16 n=47 last=7014.53 hi=7063.54@10:06 lo=6970.11@09:45
+   ET  ^VIX  ^VIX9D  ^VIX3M  ^VIX6M  ^VVIX   ^GSPC  9D/VIX  3M/VIX
+09:30 31.72     NaN     NaN     NaN    NaN 7038.45     NaN     NaN
+09:31 32.41   36.39   28.78   28.77 126.14 7020.47  1.1228  0.8880
+09:35 33.11   36.84   28.98   28.96 126.50 7010.03  1.1127  0.8753
+09:40 33.70   37.78   29.28   29.26 126.88 6992.46  1.1211  0.8688
+09:45 34.75   39.57   29.84   29.58 128.29 6984.44  1.1387  0.8587
+09:50 34.10   38.38   29.57   29.49 127.24 6987.11  1.1255  0.8672
+09:55 32.56   36.04   28.72   28.81 125.00 7024.13  1.1069  0.8821
+10:00 31.91   35.14   28.34   28.47 124.58 7038.25  1.1012  0.8881
+Wed Nov 25 10:17:08 EST 2026
+{'symbol': 'VX/Z6', 'expiration': '12/16/2026', 'last_price': 27.25, 'change': 3.2731, 'high': 28.2, 'low': 24.0, 'prev_settlement': 23.9769, 'settlement': 23.9769, 'prev_close': 24.19}
+{'symbol': 'VX/F7', 'expiration': '01/20/2027', 'last_price': 25.75, 'change': 2.1063, 'high': 26.35, 'low': 23.64, 'prev_settlement': 23.6437, 'settlement': 23.6437, 'prev_close': 23.72}
+{'symbol': 'VX/G7', 'expiration': '02/17/2027', 'last_price': 25.15, 'change': 1.6267, 'high': 25.6, 'low': 23.6, 'prev_settlement': 23.5233, 'settlement': 23.5233, 'prev_close': 23.6}
+{'symbol': 'VX/H7', 'expiration': '03/17/2027', 'last_price': 24.55, 'change': 1.2222, 'high': 24.9, 'low': 23.3, 'prev_settlement': 23.3278, 'settlement': 23.3278, 'prev_close': 23.35}
+{'symbol': 'VX/K7', 'expiration': '05/18/2027', 'last_price': 23.9, 'change': 0.775, 'high': 24.16, 'low': 23.1, 'prev_settlement': 23.125, 'settlement': 23.125, 'prev_close': 23.1}
+{'symbol': 'VX/M7', 'expiration': '06/16/2027', 'last_price': 23.7, 'change': 0.7076, 'high': 23.9, 'low': 23.02, 'prev_settlement': 22.9924, 'settlement': 22.9924, 'prev_close': 22.97}
+
+[exited with code 0]

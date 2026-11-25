@@ -9,6 +9,13 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## November 25, 2026 — writeback_order_check.py: the brief's pin is resolved without a 30-commit window
+
+**Trigger:** WQ-712 RULED A; NEXUS's answer (PROME/inbox/processed/2026-11-25_from-NEXUS_L554-L850-L1189-weekly-rollup7-wq712.md) named this script (lines 223 to 229) as the one VIOLET check that breaks under WQ-719 A: an unchanged brief keeps its older pin, and once STATUS had 30 newer commits the pin fell out of the search and the check called it PIN-UNRESOLVED (rc 1). PROME's disposition (D:L1189, class C11): re-key it at this session.
+**What changed:** new `names_status_revision()`: the cited hash must resolve to exactly one commit, on HEAD's history, whose diff touched `STATUS.md`. No count window. The rule is unchanged: a pin that names no STATUS revision still fails closed (WQ-721 A). Acceptance written before the edit and run 09:20 ET: A1 the 40th and the oldest STATUS commit pass; A5 the current pin passes; A2 two non-STATUS commits fail; A3 an unknown and an ambiguous hash fail; A4 a STATUS-touching commit off HEAD (made in a scratch clone) fails, its on-HEAD control passes. 9 of 9. Live run rc 0.
+**Files touched:** `scripts/writeback_order_check.py`. **Boot-impact:** none; closeout no longer goes red merely because the brief went unchanged for a month. No authority, route or threshold moved.
+**Lessons:** a search window chosen for speed became a time limit nobody had ruled; when a rule changes how long something may stay unchanged, look for windows as well as thresholds. Not independently read (author-tested only).
+
 ## November 23, 2026 — WQ-735: eight scripts send the honest client name `research-bot/1.0`
 
 **Trigger:** PROME packet `inbox/2026-11-23_from-PROME_WQ-735-honest-client-name.md` (Will 13:57 ET, WQ-735 approved with a condition; record `PROME/proposals/2026-11-23_wq735-RULED.md`).

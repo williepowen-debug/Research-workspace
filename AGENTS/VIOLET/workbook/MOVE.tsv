@@ -95,4 +95,6 @@ date	close	source	cross_check
 2026-11-17	101.88	investing.com	
 2026-11-18	98.15	investing.com	
 2026-11-19	96.04	investing.com	
-2026-11-20	106.31	investing.com	stale (2026-11-23, primary has 2026-11-20)
+2026-11-20	106.31	investing.com	
+2026-11-23	100.91	investing.com	
+2026-11-24	98.84	investing.com	stale (2026-11-25, primary has 2026-11-24)

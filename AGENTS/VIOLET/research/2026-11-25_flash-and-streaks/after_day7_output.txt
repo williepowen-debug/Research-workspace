@@ -1,0 +1,31 @@
+first VIX3M date 2009-09-18 first VIX date 1990-01-02
+day7 | len | VIX@d7 | next10 closes>25 count | min next10 | max next10 | VIX +20 sessions after d7 | streak ended within next10?
+2010-05-24 7 38.32 10 29.46 36.57 27.05 True HELD
+2011-08-04 25 31.66 10 31.58 48.0 31.82 False HELD
+2011-09-13 7 36.91 10 30.98 41.35 32.86 True HELD
+2011-09-29 10 38.84 10 30.7 45.45 25.46 True HELD
+2014-10-17 7 21.99 0 14.03 18.57 13.31 True 
+2015-08-28 9 26.05 6 23.2 31.4 27.63 True 
+2018-02-12 8 25.61 0 15.8 24.97 16.35 True 
+2018-10-31 7 21.23 0 16.36 21.25 18.79 True 
+2018-12-26 12 30.41 4 19.5 29.96 17.42 True 
+2020-03-03 43 36.82 10 31.99 82.69 53.54 False HELD
+2020-11-03 7 35.55 4 22.45 29.57 21.17 True 
+2025-03-11 9 26.92 0 17.15 24.66 52.33 True 
+2025-04-10 16 40.72 9 24.84 37.56 21.9 True 
+held all 10 >25: 5 of 13
+completed streaks reaching 6: 13 reaching 7: 13
+completed streaks reaching 5: 15 reaching 7: 13
+2010-05-14 peak close in [start-5, d7+20]: 2010-05-20 45.79 before/at d7
+2011-07-27 peak close in [start-5, d7+20]: 2011-08-08 48.0 AFTER d7
+2011-09-02 peak close in [start-5, d7+20]: 2011-10-03 45.45 AFTER d7
+2011-09-21 peak close in [start-5, d7+20]: 2011-10-03 45.45 AFTER d7
+2014-10-09 peak close in [start-5, d7+20]: 2014-10-15 26.25 before/at d7
+2015-08-20 peak close in [start-5, d7+20]: 2015-08-24 40.74 before/at d7
+2018-02-02 peak close in [start-5, d7+20]: 2018-02-05 37.32 before/at d7
+2018-10-23 peak close in [start-5, d7+20]: 2018-10-24 25.23 before/at d7
+2018-12-17 peak close in [start-5, d7+20]: 2018-12-24 36.07 before/at d7
+2020-02-24 peak close in [start-5, d7+20]: 2020-03-16 82.69 AFTER d7
+2020-10-26 peak close in [start-5, d7+20]: 2020-10-28 40.28 before/at d7
+2025-03-03 peak close in [start-5, d7+20]: 2025-04-08 52.33 AFTER d7
+2025-04-02 peak close in [start-5, d7+20]: 2025-04-08 52.33 before/at d7

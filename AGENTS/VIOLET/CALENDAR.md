@@ -1,12 +1,12 @@
 # VIOLET CALENDAR
 
-Updated November 23, 2026 (D:L1229 wake); canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). Closeout contract: at least one HIGH/MEDIUM row within 14 calendar days (`scripts/forward_calendar_check.py`, KB-VIO-353). Fired rows preserved in research/2026-10-19_official-followthrough/catalysts-fired.tsv, research/2026-10-21_catchup/catalysts-fired.tsv research/2026-10-29_catchup/catalysts-fired.tsv, research/2026-10-30_boj-carry-vol/catalysts-fired.tsv research/2026-11-05_catchup/catalysts-fired.tsv research/2026-11-10_cpi/catalysts-fired.tsv, research/2026-11-17_nvda-close/catalysts-fired.tsv and research/2026-11-18_soq/catalysts-fired.tsv.
+Updated November 25, 2026 (D:L1229 second read); canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). Closeout contract: at least one HIGH/MEDIUM row within 14 calendar days (`scripts/forward_calendar_check.py`, KB-VIO-353). Fired rows preserved in research/2026-10-19_official-followthrough/catalysts-fired.tsv, research/2026-10-21_catchup/catalysts-fired.tsv research/2026-10-29_catchup/catalysts-fired.tsv, research/2026-10-30_boj-carry-vol/catalysts-fired.tsv research/2026-11-05_catchup/catalysts-fired.tsv research/2026-11-10_cpi/catalysts-fired.tsv, research/2026-11-17_nvda-close/catalysts-fired.tsv and research/2026-11-18_soq/catalysts-fired.tsv.
 
 ## ACTIVE FORWARD CATALYSTS
 
 | Date | Event | Impact | VIOLET checkpoint |
 |---|---|---|---|
-|Nov 25 (Wed)|Close: thesis prediction 2' arms on a 7th straight inverted cash-curve close (11/17 to 11/25, Cboe History)|MEDIUM|D:L1229 item 4. 5th inverted close on the 11/23 print, provisional until History. Arms only if 11/24 and 11/25 History both close VIX3M/VIX under 1.000; consequent VIX above 25 for 10 sessions.|
+|Nov 25 (Wed)|Close: thesis prediction 2' arms on a 7th straight inverted cash-curve close (11/17 to 11/25, Cboe History)|MEDIUM|D:L1229 item 4. 6 straight inverted closes 11/17 to 11/24 on Cboe History (confirmed 11/25). Arms only if 11/25 History also closes VIX3M/VIX under 1.000; consequent VIX above 25 for 10 sessions.|
 |Nov 26 (Thu, approx.)|Bessent 10-day deadline to the Nvidia board (card-sourced, not an official date; Thanksgiving, US markets closed, so the read is the 11/25 close and 11/27)|MEDIUM|Does the front premium (VIX9D/VIX) persist into it? KB-VIO-400.|
 |Dec 4 (Fri, approx.)|Nvidia 10-Q filing deadline (VULCAN arithmetic; Dec 9 with a late-filing notice); SEC accounting scrutiny reported by Reuters 11/20|HIGH|Carrier test for the 11/20 front premium (VIX9D/VIX 1.1346): does it stay above 1 into the filing; does a higher VIX close than 35.89 come first (VIO-PRED-11)? KB-VIO-404.|
 |Dec 16 (Wed)|M1:M2 historical-average recheck KB-VIO-310|LOW|Existing L441; re-measure before any approved numerical update.|
