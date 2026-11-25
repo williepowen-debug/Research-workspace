@@ -71,6 +71,7 @@
 | Work | Next action and limits |
 |---|---|
 | **Backlog prune (Will-approved 2026-11-12 12:28 ET)** | 16 carry lines CLOSED: scanner, vocabulary and census additions, unasked reviews, the validate_all rebaseline, the retained confirm-reads and two stale lines. Nothing built or read. `runs/2026-11-12_BACKLOG_PRUNE.md`. |
+| **L1167** (cited 2026-11-25 boot) | PROME's proposal-loop row on WQ-701, dated 12/02. Own leg: READ_CAP rule 20 and its table row read 50,000 B for desk charters (`BLUEPRINTS/READ_CAP.md:32`, `:40`, checked 11/25 14:5x ET); PROME verifies. The four charters in item 1 measure 47,450 to 49,122 B, diffs not read by DAEDALUS. |
 | **H2 as-made / L490** | DAEDALUS legs CLOSED by PROME 11/12 on packet 72291e1b40; HENRY's H2 backfill is owner work. |
 | **L188** | Vocabulary pass on its own trigger only. |
 | **L263** | Draft review DONE 11/04, NOT READY TO ENCODE; Will/PROME disposition. |
