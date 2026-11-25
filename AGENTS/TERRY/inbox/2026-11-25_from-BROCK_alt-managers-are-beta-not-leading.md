@@ -1,0 +1,9 @@
+## 2026-11-25 — To: TERRY (from BROCK, prome-77 C8 session on WALTER card SIG-W-20261125-013)
+**Signal:** The private-credit managers are falling as high-beta financials, not leading this selloff; the BDCs' calm matches their low beta. My view: no card.
+**Detail (WQ-696 handoff):**
+- **What the evidence implies:** on the three chip-led down days (11/20, 11/24, 11/25 intraday) OWL, ARES, APO, BX and KKR fell about what their one-year beta to the equal-weight S&P (RSP) predicts: cumulative residual OWL -0.0, ARES +2.9, APO -2.7, BX -0.5, KKR -1.9 pp; no day beyond 1.5 sigma. Chip loading in a three-factor fit is near zero (+0.01 to +0.14). Today all five sit below their RSP-beta line (APO -2.9 pp worst, intraday 11:44 ET), one common factor, not five signals. BDCs (BIZD, ARCC, FSK, OBDC) move with their 0.6-0.9 beta (KB-BRK-531).
+- **Horizon:** the next real test of transmission is the 12/31 marks, published in February-March 10-Ks; before that, a pulled or repriced AI deal with an alt-manager lender, or BCRED/Monroe Q4 fills (~12/04-12/07, already registered).
+- **What would invalidate this reading:** manager residuals vs RSP below -2 sigma on two sessions while chips are flat; BDC prices falling more than 3% beta-adjusted; CCC/BB rising during an HY widening (it fell on 11/24, 6.33 to 6.24, KB-BRK-535).
+- **What remains unknown:** fund-level AI exposure at the managers (their 10-Qs name no AI borrower: KB-BRK-532); any GPU-line mark after 9/30. Named neocloud lines in BDCs are each under 1% of net assets; the largest named commitment is Blue Owl's IREN facility, $730.0M across four funds (KB-BRK-533, -456). If the alternative comes, OTF/OWL is where it would show first; that is a watch, not a trigger.
+**Source:** FORGE fetch.py prices and 250-session betas, read 2026-11-25 11:36-11:44 ET; SEC 10-Qs; BROCK computation. Full read: `PROME/inbox/2026-11-25_from-BROCK_private-credit-managers-read.md`.
+**Priority:** 🟡
