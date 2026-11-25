@@ -1,0 +1,5 @@
+# Prose-Remedy Census #3, step-1 refinement (case-insensitive tokens)
+
+**Acceptance conditions, written before the edit (2026-11-25 14:52 ET, HEAD 50cc11722d):** A1 a capitalized sentence-initial token on a script line hits ("Nothing compares x.py ..."), watched FAILING on the unedited file first. A2 RED `MAINTENANCE.md:942` (the known recall miss, :880 on 10/30) is in the live list. A3 every other selftest case unchanged. A4 the v1 baseline pattern is not edited. A5 the fleet before/after diff is printed here; nothing is removed. Scope: V2 compile flag and one selftest case. Form-2 precision scoping (the other 10/30 residue) is NOT attempted: no mechanical test separates a boot step from a signal-table row without dropping boot tables.
+
+**Result:** A1 unedited file 21/22 (the new case fails), edited file 22/22. A2 RED `MAINTENANCE.md:942` present. A3 other 21 cases unchanged. A4 v1 pattern untouched. A5 fleet 160 → 171 rows: +11, −0: FALCON CLAUDE:98, FLG STATUS:136, ORACLE MAINTENANCE:80 and :340, PROME SCRATCH:17, RED MAINTENANCE:274 and :942, VIOLET LAST_COMPLETION:21, VULCAN SCRATCH:51, WATT CLAUDE:176, ZHAO CLAUDE:49.

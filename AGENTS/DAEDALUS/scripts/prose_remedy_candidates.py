@@ -41,7 +41,7 @@ V1_TOKENS = (r"queued|owed|not yet (built|wired)|unbuilt|un-wired|BUILT-UNWIRED|
              r"should (be|compute|check|compare)|needs? (a|an|to)|TODO|remedy|as a sentence|as prose|"
              r"not a check|never computed|nothing (checks|computes|compares)")
 V1 = re.compile(V1_TOKENS)
-V2 = re.compile(r"\b(?:" + V1_TOKENS + r"|not patched|not attempted)\b")          # R1 + R5
+V2 = re.compile(r"\b(?:" + V1_TOKENS + r"|not patched|not attempted)\b", re.I)    # R1 + R5; run #3: case-insensitive (RED MAINTENANCE recall miss)
 NEG_BEFORE = re.compile(r"\b(?:no|nothing|not|none)\b[^.;|,()]{0,30}$", re.I)       # R2, window before
 NEG_AFTER = re.compile(r"^\s*(?:none|nothing)\b", re.I)                               # R2, 'owed none'
 LEAD_DONE = re.compile(r"^[-*|#>\s]*(?:\*\*)?✅")   # R3 line-led ✅ — ONE char class: a nested (x+\s*)* hung on "|---|---|" rows (10/14)
@@ -61,7 +61,7 @@ def v2_form1(line):
         clause = re.split(r"[.;|]", before)[-1]
         if "✅" in clause:                                             # R3, same clause
             continue
-        if x.group(0) == "owed" and (NEG_BEFORE.search(before) or NEG_AFTER.search(bare[x.end():])):
+        if x.group(0).lower() == "owed" and (NEG_BEFORE.search(before) or NEG_AFTER.search(bare[x.end():])):
             continue                                                   # R2
         return True
     return False
@@ -132,6 +132,7 @@ def selftest():
         ("R3 struck token", v2_form1("boot.py ~~queued~~ done"), False, None, None),
         ("R5 not patched", v2_form1("strike_feed.py not patched yet"), True, v1_form1("strike_feed.py not patched yet"), False),
         ("R5 not attempted", v2_form1("pull.py re-pull not attempted"), True, None, None),
+        ("run #3 capitalized token", v2_form1("Nothing compares boot.py source to basis"), True, v1_form1("Nothing compares boot.py source to basis"), False),
         ("control: should compare", v2_form1("boot.py should compare X to Y"), True, v1_form1("boot.py should compare X to Y"), True),
         ("R4 ID range ≤223", v2_form2("rows ≤223 are legacy"), False, v1_form2("rows ≤223 are legacy"), True),
         ("R4 bare ≤280 is a threshold", v2_form2("a run breaks on any session ≤280."), True, None, None),
