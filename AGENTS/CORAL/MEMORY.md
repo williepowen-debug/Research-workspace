@@ -33,6 +33,7 @@
 - FL population-driven twin: `../MARCO/STATUS.md` ("Florida Triple Exposure" block)
 - Spinout record: **NOT LOST — 7/9 conclusion CORRECTED 8/23.** Recoverable at `1cb18fbc3^:AGENTS/CORAL/archive/CORAL_SPINOUT_2026-06-19.md` (deleted by the 6/30 fleet prune, which ran BEFORE the 7/9 on-disk check). See CLAUDE.md History note.
 - SSB thesis: `research/SSB_THESIS.md`
+- **FEMA declaration routes (11/24):** fema.gov HTML, its RSS and DisasterAssistance.gov return Akamai "Access Denied" to this machine's automated reads (blocked: stop, never evade). Open and working: OpenFEMA API (`v2/DisasterDeclarationsSummaries`, `v1/FemaWebDisasterDeclarations`, `v1/FemaWebDeclarationAreas`; NFIP claims are `v3/NfipClaims`, field `asOfDate`, no `lastRefresh`), the GIS layer `gis.fema.gov ... CURRENT_DISASTER_DECLARATIONS` (fields name, state_name, designate, dec_number), FR API, eCFR API (needs `--compressed`), floridadisaster.org. When OpenFEMA's newest row nationwide is weeks old, read its absence as lag, not as no declaration.
 - **Florida state emergency orders, primary (11/19):** `https://www.flgov.com/eog/news/executive-orders` lists every EO with its PDF; a plain client reads it (200). Check it before carrying a relayed "no state declaration": on 11/19 WALTER's card said none, while EO 26-232 (signed 11/18) had already added Broward and Miami-Dade. Federal side = OpenFEMA DisasterDeclarationsSummaries. Rain = NWS PNS + CLI via api.weather.gov (`/products/types/PNS/locations/MFL`; CLI by `?type=CLI&office=KMFL`).
 
 ---

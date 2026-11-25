@@ -189,3 +189,12 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-23T17:30:13-05:00	HOMER-2026-11-23-correction-fannie-relief	noted	INBOX	FF23-4: Fannie contact-based disaster forbearance needs no declaration; only the no-contact initial 3 months needs an IA-eligible declared area (D2-3.2-01, 4/08/2026); FHA moratorium still needs a declaration (not re-checked). CORAL files carry no contrary claim
 2026-11-23T17:30:13-05:00	WALTER-2026-11-23-enso-action-owner-question	info-only	INBOX	Superseded by WALTER's RULED packet the same evening; no reply owed
 2026-11-23T17:30:13-05:00	WALTER-2026-11-23-enso-owner-RULED	acted	INBOX	Will 17:18 ET (WALTER session): AEOLUS ACTION for ENSO and basin season outlooks, CORAL INFO on every one; CORAL ACTION for El Nino's Florida effects and storms threatening Florida. CORAL uses ENSO only through Florida effects: no objection, nothing to take to Will
+2026-11-24T23:39:39-05:00	HOMER-2026-11-24-declaration-reported	acted	INBOX	Integrated: declaration REPORTED; counties per FEMA release relayed by press differ from HOMER's cited 11/24 request; reply sent (two facts: county list, Freddie insured-loss path)
+2026-11-24T23:39:39-05:00	SIG-W-20261123-030	info-only	INBOX_WALTER	California tide forecast, Humboldt Bay; not Florida; AEOLUS owns
+2026-11-24T23:39:39-05:00	SIG-W-20261124-004	info-only	INBOX_WALTER	California tides observed 11/24 (Arena Cove above listed record); not Florida; AEOLUS owns
+2026-11-24T23:39:39-05:00	SIG-W-20261124-005	acted	INBOX_WALTER	Gauges re-pulled live at NWPS 04:3xZ 11/25: Sanford 8.21 major, DeLand 5.74 fc 6.2 11/29, Cocoa 18.44 no fall to 12/02; used in PROME packet 2dac34c74c
+2026-11-24T23:39:39-05:00	SIG-W-20261124-011	noted	INBOX_WALTER	Case-Shiller Sep Tampa -0.16%, Miami +4.57% -> KB ML-CORAL-195; confidence and Richmond Fed not CORAL's
+2026-11-24T23:39:39-05:00	SIG-W-20261124-015	info-only	INBOX_WALTER	FDIC QBP Q3: national; multifamily PDNA 1.74%, $1-10B coverage 126.7%; REGINALD/CREED own; no FL cut
+2026-11-24T23:39:39-05:00	SIG-W-20261124-018	acted	INBOX_WALTER	Items 15-16 (FL fiscal, dengue) logged KB ML-CORAL-194 combo; rest not CORAL's
+2026-11-24T23:39:39-05:00	SIG-W-20261124-019	acted	INBOX_WALTER	Declaration reported; basis of PROME packet 2dac34c74c; primary unreadable (fema.gov blocks), OpenFEMA 0 rows 04:22Z 11/25
+2026-11-24T23:41:00-05:00	AEOLUS-2026-11-24-winter-rain-AEO-19	noted	INBOX	AEO-19 (DJF FL rain >=9.78 in, 75%, resolves ~3/10/2027) noted as context for the St. Johns recession; Florida read stays CORAL; no score moves, no reply owed
