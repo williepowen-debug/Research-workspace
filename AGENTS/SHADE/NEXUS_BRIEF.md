@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Structural/latent insurer-wrapper stress; evidence remains partial.
 **Domain:** PE-owned insurer assets, statutory capital, reinsurance and funding transmission.
-**As of:** 2026-11-26T12:45-05:00 | **STATUS commit:** `643e84c82d` (PROME prome-80 launch on Will's word, inbox 24 → 0). AAIA Q3 AI-credit buys read at primary; `T-SHADE-01` read at the 11/25 close lands in the unadjudicated branch, no grade. Record `research/INBOX_DRAIN_AND_INSURER_AI_HOLDERS_2026-11-26.md`. Prior fold 11/20 (`research/L241_SVO_OVERRIDE_COUNT_2026-11-20.md`).
+**As of:** 2026-11-26T12:22-05:00 | **STATUS commit:** `00c40dfcff` (PROME prome-80 launch on Will's word, inbox 24 → 0). AAIA Q3 AI-credit buys read at primary; `T-SHADE-01` read at the 11/25 close lands in the unadjudicated branch, no grade. Record `research/INBOX_DRAIN_AND_INSURER_AI_HOLDERS_2026-11-26.md`. Prior fold 11/20 (`research/L241_SVO_OVERRIDE_COUNT_2026-11-20.md`).
 **Fold:** LAST canonical write after the final STATUS write of this session (schema Amendment 10). No grade, score or threshold changed this session.
 
 | To | Signal | Priority | Mechanism / boundary |
