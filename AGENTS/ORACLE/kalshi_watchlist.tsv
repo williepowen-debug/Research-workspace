@@ -15,6 +15,8 @@ Recession 2025-26 (2Q neg GDP, BEA — no NBER leg despite ticker)	market	KXRECS
 Fed 2 more hikes by Dec (>4.25%)	market	KXFED-26DEC-T4.25	T1	LIQUID,HENRY,BOND
 # ADDED 2026-10-15: Dec >4.00% = P(at least one more hike by the Dec meeting), cumulative — the live hike question since Oct was priced out (KB-ORC-103).
 Fed >=1 more hike by Dec (>4.00%)	market	KXFED-26DEC-T4.00	T1	LIQUID,HENRY,BOND
+# ADDED 2026-11-26 (coverage sweep): January 2027 decision market, the deep Kalshi venue for the next meeting (KXFED-27JAN level ladder is thin: above 4.25 54 on OI 2.2K, 6c book). Hike 25 57 (OI 128.1K) / hold 43 (OI 86.3K) at 11/26 17:4xZ. KB-ORC-152.
+Fed hike 25 at Jan 2027 mtg (decision)	market	KXFEDDECISION-27JAN-H25	T1	HENRY,LIQUID,BOND,CARL
 # ADDED 2026-08-18 (PROME-directed, closing the 8/17 20-day coverage miss) — KXCBDECISIONJAPAN was open since 2026-07-28 and absent here; `kalshi.py search "Bank of Japan"` returned 0 that day (tool defect, now fixed same session) despite this exact event supplying the KALSHI LEG of the 8/17 three-instrument BOJ convergence (Kalshi mid 74.5% vs Polymarket 73.5% vs TFX 72.2%, max spread 2.3pp — the leg that refuted SAM's 51.0% boj_ois.py read). Pinning so it never again depends on search, fixed or not. 8/18 15:37Z top leg: Hike 25bp 76.0% (OI 21.2K, vol 32.0K lifetime — see `kalshi.py event` for the full 5-leg ladder incl. Hold 24.0% / Hike-more 3.0% / Cut legs ~1-2%). -> SAM,BOND
 # ⛔ RETIRED 2026-09-24 — Sept MPM finalized 9/18. ROLLED to the October 10/29 event. ENTRY READ 2026-09-25T01:3xZ: HOLD 83.0% (OI 3.3K) · H25 15.0% (5¢) · H25P 5.0% (⚠mid 2.5). PM October corroborates (top 83.0%).
 # BOJ September decision (Kalshi)	event	KXCBDECISIONJAPAN-26SEP17	T2	SAM,BOND
