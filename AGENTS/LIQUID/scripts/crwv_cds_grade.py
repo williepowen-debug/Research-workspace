@@ -21,7 +21,8 @@ LOW 7-8bp at 9/23-24, ~0 at 7/06, HIGH 4bp at 12/17 (discount curve only). The U
 amount NET OF ACCRUED (majority convention, measured) -> the 'dirty' column is the right reading.
 The field is UNSIGNED: a print with |upfront| < ~1.5pt (spread within ~35bp of the coupon) has an
 unknowable sign and must not be graded alone; this script always assumes the buyer pays.
-Rows: NEWT, replaced by any CORR/MODI naming it, dropped if CANC/ERRO/TERM names it.
+Rows: NEWT, replaced by any CORR/MODI naming it, dropped if CANC/ERRO/EROR/TERM names it (searched across
+ALL rows by ID, since cancel rows often carry no name; the name is matched in both name fields; fixed 2026-11-25).
 Flags: CAPPED (notional '5,000,000+' — upfront scaled to the capped notional; spreads agree with
 uncapped neighbours), NONSTD (non-standardized term indicator), PKG (package), NONIMM (maturity not
 on the 20th). Named grading quotes should be unflagged.
@@ -110,10 +111,13 @@ def load(cache, day):
 
 
 def crwv_rows(rs):
-    cw = [x for x in rs if "COREWEAVE" in (x["Underlying Asset Name"] or "").upper()]
+    # 2026-11-25: match the name in EITHER field (some rows carry it only in "UPI Underlier Name"),
+    # and look for corrections and cancels across ALL rows: 90 of 114 cancel rows on 11/25 had no name.
+    nm = lambda x: ((x.get("Underlying Asset Name") or "") + "|" + (x.get("UPI Underlier Name") or "")).upper()
+    cw = [x for x in rs if "COREWEAVE" in nm(x)]
     live = {x["Dissemination Identifier"]: x for x in cw if x["Action type"] == "NEWT"}
     dead = set()
-    for x in cw:
+    for x in rs:
         o = x["Original Dissemination Identifier"]
         if o in live and x["Action type"] in ("CORR", "MODI"):
             live[o] = dict(x, _corr="CORR")

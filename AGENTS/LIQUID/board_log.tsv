@@ -899,3 +899,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-25T15:36:33-05:00	SIG-W-20261125-033	noted	INBOX_WALTER	Owner answers logged as counterevidence KB-LIQ-153; BOND owns auctions
 2026-11-25T15:36:33-05:00	SIG-W-20261125-035	deferred	INBOX_WALTER	Logged KB-LIQ-153. ASK for later 11/25 CoreWeave 5Y trades deferred to the 20:15 ET full-file read (D:L1290); no DTCC read run at boot
 2026-11-25T15:36:33-05:00	SIG-W-20261125-036	noted	INBOX_WALTER	Bond identity applied in KB-LIQ-153; some older KB figures name year only (CRWV2030/2031/2032)
+2026-11-25T18:57:06-05:00	SIG-W-20261125-039	acted	INBOX_WALTER	CoreWeave 10-Q debt due 2026 rest $2.433B, 2027 $10.974B, total $47.505B at Sep 30; used as context in D:L1290 Part B; not re-read at SEC by LIQUID
+2026-11-25T18:57:06-05:00	SIG-W-20261125-040	info-only	INBOX_WALTER	Co-movement ask is to SAM and VULCAN; no LIQUID action
