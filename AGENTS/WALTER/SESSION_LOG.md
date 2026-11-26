@@ -1,3 +1,27 @@
+## 2026-11-26T03:51:20Z TIER 2 FULL CLOSEOUT — walter-4d, laptop, Wed 11/25, Will's word 22:46 ET ('lets close out for the day')
+
+Clears the two light breadcrumbs (19:30:30Z walter-7f, 22:05:38Z walter-4d). This session: cards 037 to 044 (037 and 042 IMMEDIATE); boot PARTIAL at 16:04 ET; recovered the walter-7f open items after its window closed by accident. 0 kills, 0 cluster_mediating. FILTER POSTURE unchanged. Near-trigger: DeLand 6.4 forecast against 6.33; VIX 28.29 under 30. Errors and late items: LAST_COMPLETION GAPS.
+
+### STATUS text rotated verbatim at this closeout
+
+BOTTOM LINE paragraphs as they stood:
+
+**November 25 evening (walter-4d, laptop, 2026-11-25T22:05:38Z):** 20261125-037 IMMEDIATE (DeLand official forecast 6.4 ft Sat 11/28, over the 6.33 record), 038 (1Password backend breach, CYPHER). BOARD 2,383. Close 7,182.78; VIX 28.29 [16:15 print, VIOLET and HENRY, provisional]; HENRY red not fired, VIOLET 2' armed provisional. No WALTER row fired. Pacific tides for 11/25 swept to 16:54 ET: no further records. LAST_COMPLETION carries what the walter-7f window left when it closed by accident.
+
+**November 25 reboot (2026-11-25T19:30:30Z, walter-7f, laptop):** 20261125-030 IMMEDIATE (second record-tide card: Santa Barbara, Monterey; Charleston OR 11/24), 031 CoreWeave $4.5B loan (Bloomberg unread), 032 Ofgem +26%, 033 owner answers (FERT G5, BOND I-prime, seven others), 034 small items, 035 and 036 correct 031 (CoreWeave loan and bonds). BOARD 2,381. 14:29 ET vendor S&P 7,191.94, VIX 28.00. No row fired.
+
+**November 25 (walter-7f, laptop; FULL closeout at the 14:01 ET checkpoint):** 29 cards (20261125-001 to -029), BOARD 2,374. **005 FLASH: VIX over 30 from premarket to about 12:50 ET (high 34.95); 27.78 at 13:47.** IMMEDIATE: 006 Section 301 (corrected 015), 007 8:30 data, 009 and 029 California tides (observed records at Arena Cove, San Diego, La Jolla), 013 AI swaps (corrected 022), 021 DeLand (6.3 forecast Sat against 6.33). 016 and 023 correct Brent and the Hodeidah headline. 017 MOFCOM to 1/27; 018 HY 372 [11/24]; 019 DR-4956-FL; 020 owner outcomes; 024 CoreWeave bonds; 025 to 027 bookmarks and two WSJ articles; 028 FHA inflow (HOMER acted 13:43 ET). FERT G5 FIRED, BOND month-end grades and five owner answers not yet carded. 14:02 ET vendor: S&P 7,181.93 (low 6,970.11). Detail and resume list: LAST_COMPLETION.
+
+**November 25 after midnight (2026-11-25T05:03:21Z):** 20261125-001 IMMEDIATE Asia AI selloff (intraday: Kospi -5.8%, SoftBank -14.4%; no registered line crossed); 002 Hormuz claims; 003 tanker cyber; 004 issuer reads. BOARD 2,349. Light closeout; full deferred (2 breadcrumbs).
+
+**November 24 late boot (2026-11-25T04:48:17Z, after the full closeout):** cards -020 to -023: FinCEN intrusion (020), correction of 018 item 8 (021), LIQUID gates 072 and 069 on Nov 20 data (022, IMMEDIATE), Fed G.17 annual revision (023). No new WALTER trigger fire; HY 11/24 unposted; HANS rows, Cushing 26.147M [w/e 11/13] and SKEW 139.16 re-read. BOARD 2,345. Light closeout; full deferred.
+
+**November 24 night (walter-7f, laptop; resumed 22:27 ET after a fleet outage since 11/23 evening):** cards 20261124-001 to -019. **002: REG-T-04 FIRED on the letter (HY 363 [11/23], third close over 350); REGINALD graded 22:36 ET.** **001 LATE FLASH:** VIX 30.40 premarket 11/24, regular-session high 29.57, close 26.36. **003:** Car-Mart Chapter 11 (8-K read). **006 IMMEDIATE:** coalition says it hit Hodeidah early 11/25 after the Houthis renewed the threat to Jeddah and all Saudi Red Sea ports; no port hit found by 22:40 ET. **015:** FDIC Q3 profile published 11/24. Florida 005, 019; California tides 004. Near-trigger: ES 7,172 (22:30 ET); DeLand 6.2 forecast against 6.33 record. Filter review still owed. Detail: LAST_COMPLETION.
+
+Dated observation row:
+
+| November 24 night (FRED first-published to 2026-11-25T04:24Z; vendor closes 11/24) | FRED HY 363, CCC 1,387, BB 219, VIXCLS 26.62 [11/23, published 11/23]; DGS30 5.29, SOFR 3.92 [11/23]; T5YIFR 2.13, T10YIE 2.12 [11/24]; 11/24 HY unposted. Vendor: S&P 7,201.09, ^VIX 26.36 (premarket 30.40; 32.38 read as a bad tick), KRE 69.76, WAL 70.43 (under 78, existing cycle), ZION 62.59, HYG 76.43, NVDA 155.38, AMD 413.27, BZF27 90.00 and ES 7,173.50 at 23:07 to 23:14 ET (not settlements), TTFZ26 91.22. REG-T-04 fired (002). HANS rows, Cushing, SKEW not re-read tonight. |
+
 ## 2026-11-25T22:05:38Z light-closeout — full deferred — walter-4d evening boot, laptop, Wed 11/25
 
 Boot PARTIAL. Cards 037 (IMMEDIATE) and 038; scan and calendar at research/2026-11-25_evening-boot/. Will 17:02 ET: the prior window closed by accident; open items recorded in LAST_COMPLETION. 0 kills, 0 cluster_mediating. Near-trigger: DeLand 6.4 forecast against 6.33; VIX 28.29 under 30.

@@ -500,3 +500,7 @@ Findings 42 (pointer) and 70, moved verbatim from MEMORY.md:
 70. **Auction cards never ask BOND for a tail.** A tail needs the when-issued yield at the bid deadline and TreasuryDirect does not publish it (BOND retired the row 2026-07-28, "unscoreable by construction"). 11/12: card 007 asked; BOND corrected at 13:47 ET. Also: TA_WS `auctionDate` can be empty; key a results watcher on the CUSIP. → `AGENTS/BOND/CLAUDE.md` (Auction tail row)
 
 42. Rotated verbatim to MEMORY_PROMOTED.md § Rotation 2026-11-10T20:02:51Z (VULCAN-domain capacity rule).
+
+## Rotation 2026-11-26T03:51:33Z (the 11/25 walter-7f session note, verbatim)
+
+November 25 Wednesday (walter-7f, laptop): a VIX-over-30 morning with two owner corrections of WALTER's own figures before noon and one relayed (LIQUID's cancelled trade). The pattern: a vendor ticker's change quoted without its contract month, a figure typed into a chat answer with no source (+8 bp), and an owner's odd-lot print carried as a level. Owner packets filed while the session was idle held all three: on every resumption read inbox and `git log` since the last read before quoting. A wake request already overtaken by PROME was offered to Will twice: read PROME/state/ORCH_LOG.tsv for today before offering one. Rotation of the prior note: MEMORY_PROMOTED.md § Rotation 2026-11-25T16:53:57Z. Afternoon: read PROME/inbox/processed for owner returns too (tide records late).

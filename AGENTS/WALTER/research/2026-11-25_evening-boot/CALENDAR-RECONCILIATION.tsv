@@ -2,3 +2,7 @@ release	print	basis	disposition
 US cash close 11/25	S&P 7,182.78, VIX 28.20 at 16:15 ET	vendor	NO-ACTION, no WALTER row crossed; HENRY (HEN-64, 7,037.04) and VIOLET grade their own closes, both windows live
 NWS flood warnings 14:18 to 14:32 ET	DeLand 6.4 forecast vs 6.33	NWS, NWPS read	DISPATCH 20261125-037
 OPEN after this cutoff	16:30 H.4.1 (unverified); 17:30 Nvidia 10-Q cutoff; FALCON about 18:00; LIQUID about 20:15; HY for 11/25	various	OPEN
+Fed H.4.1 11/25 16:30 ET (time unverified)	WALCL newest 2026-11-18 at 17:04 and 22:5x ET reads	FRED	UNKNOWN: not posted on FRED by these reads; no card
+Nvidia 10-Q Q3 FY27	not on EDGAR at 18:16 ET	data.sec.gov submissions	NO-ACTION: VULCAN-194 owner-graded; noted on 039 light note
+CoreWeave EDGAR	no 8-K since 11/10	data.sec.gov	DISPATCH 20261125-039
+Research-Intake 23:40Z collect	72 new titles	lane	DISPATCH 043, 044

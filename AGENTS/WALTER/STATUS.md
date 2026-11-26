@@ -1,19 +1,10 @@
 # WALTER STATUS
-**Updated:** 2026-11-25T22:05:38Z — walter-4d light note (cards 037, 038; full deferred, 2 breadcrumbs). Prior: light note 19:30:30Z after the 19:05Z full closeout (rebooted 14:15 ET; cards 030 to 034; full deferred, 1 breadcrumb). Prior: walter-7f on the laptop: **Tier 2 FULL closeout** at Will's 14:01 ET checkpoint; no light breadcrumbs owed; Will clears the window and reboots. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-26T03:51:20Z — walter-4d **Tier 2 FULL closeout** on Will's 22:46 ET word ("lets close out for the day"); clears 2 light breadcrumbs. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-**November 25 evening (walter-4d, laptop, 2026-11-25T22:05:38Z):** 20261125-037 IMMEDIATE (DeLand official forecast 6.4 ft Sat 11/28, over the 6.33 record), 038 (1Password backend breach, CYPHER). BOARD 2,383. Close 7,182.78; VIX 28.29 [16:15 print, VIOLET and HENRY, provisional]; HENRY red not fired, VIOLET 2' armed provisional. No WALTER row fired. Pacific tides for 11/25 swept to 16:54 ET: no further records. LAST_COMPLETION carries what the walter-7f window left when it closed by accident.
+**November 25, full closeout (walter-4d, laptop, 2026-11-26T03:51:20Z):** cards 20261125-037 to -044 this session; BOARD 2,389. **IMMEDIATE: 037** DeLand official forecast 6.4 ft Sat 11/28 over the 6.33 record (NWS 20:32 ET unchanged); **042** Jazan Port HIT, minor damage (coalition spokesman, via relays), Jeddah drone intercepted, no barrel lost (FALCON graded FAL-13 CONFIRMED; BRENT: BRT-32, BG-02 NOT MET). 038 1Password breach (CYPHER); 039 CoreWeave 10-Q at the SEC: 2027 principal $10.974B, covenants met 9/30, no 8-K since 11/10; 040 co-movement hand-off (SAM, VULCAN); 041 LIQUID DTCC: no valid CoreWeave 5Y 11/25, 4Y about +130 bp; 043 NYC rent freeze upheld (titles, FLG); 044 small items. Close (vendor, provisional): S&P 7,182.78, VIX 28.29; no WALTER row fired; HY 11/25 unposted. The walter-7f window closed by accident after its 15:47 ET reply (transcript last written 16:02 ET); its open items were recovered from the transcript (LAST_COMPLETION).
 
-**November 25 reboot (2026-11-25T19:30:30Z, walter-7f, laptop):** 20261125-030 IMMEDIATE (second record-tide card: Santa Barbara, Monterey; Charleston OR 11/24), 031 CoreWeave $4.5B loan (Bloomberg unread), 032 Ofgem +26%, 033 owner answers (FERT G5, BOND I-prime, seven others), 034 small items, 035 and 036 correct 031 (CoreWeave loan and bonds). BOARD 2,381. 14:29 ET vendor S&P 7,191.94, VIX 28.00. No row fired.
-
-**November 25 (walter-7f, laptop; FULL closeout at the 14:01 ET checkpoint):** 29 cards (20261125-001 to -029), BOARD 2,374. **005 FLASH: VIX over 30 from premarket to about 12:50 ET (high 34.95); 27.78 at 13:47.** IMMEDIATE: 006 Section 301 (corrected 015), 007 8:30 data, 009 and 029 California tides (observed records at Arena Cove, San Diego, La Jolla), 013 AI swaps (corrected 022), 021 DeLand (6.3 forecast Sat against 6.33). 016 and 023 correct Brent and the Hodeidah headline. 017 MOFCOM to 1/27; 018 HY 372 [11/24]; 019 DR-4956-FL; 020 owner outcomes; 024 CoreWeave bonds; 025 to 027 bookmarks and two WSJ articles; 028 FHA inflow (HOMER acted 13:43 ET). FERT G5 FIRED, BOND month-end grades and five owner answers not yet carded. 14:02 ET vendor: S&P 7,181.93 (low 6,970.11). Detail and resume list: LAST_COMPLETION.
-
-**November 25 after midnight (2026-11-25T05:03:21Z):** 20261125-001 IMMEDIATE Asia AI selloff (intraday: Kospi -5.8%, SoftBank -14.4%; no registered line crossed); 002 Hormuz claims; 003 tanker cyber; 004 issuer reads. BOARD 2,349. Light closeout; full deferred (2 breadcrumbs).
-
-**November 24 late boot (2026-11-25T04:48:17Z, after the full closeout):** cards -020 to -023: FinCEN intrusion (020), correction of 018 item 8 (021), LIQUID gates 072 and 069 on Nov 20 data (022, IMMEDIATE), Fed G.17 annual revision (023). No new WALTER trigger fire; HY 11/24 unposted; HANS rows, Cushing 26.147M [w/e 11/13] and SKEW 139.16 re-read. BOARD 2,345. Light closeout; full deferred.
-
-**November 24 night (walter-7f, laptop; resumed 22:27 ET after a fleet outage since 11/23 evening):** cards 20261124-001 to -019. **002: REG-T-04 FIRED on the letter (HY 363 [11/23], third close over 350); REGINALD graded 22:36 ET.** **001 LATE FLASH:** VIX 30.40 premarket 11/24, regular-session high 29.57, close 26.36. **003:** Car-Mart Chapter 11 (8-K read). **006 IMMEDIATE:** coalition says it hit Hodeidah early 11/25 after the Houthis renewed the threat to Jeddah and all Saudi Red Sea ports; no port hit found by 22:40 ET. **015:** FDIC Q3 profile published 11/24. Florida 005, 019; California tides 004. Near-trigger: ES 7,172 (22:30 ET); DeLand 6.2 forecast against 6.33 record. Filter review still owed. Detail: LAST_COMPLETION.
 
 
 
@@ -31,8 +22,8 @@ BALANCED baseline. Resume list: top of LAST_COMPLETION.md.
 
 | Object | Observation and limit |
 |---|---|
+| November 25 close and evening (vendor and FRED; read 16:05 to 22:47 ET) | S&P 7,182.78 close (HENRY red 7,037.04 NOT FIRED), ^VIX 28.29 at the 16:15 print (VIOLET provisional; high 28.89 since 14:25), KRE 69.84, WAL 70.76, HYG 76.52, BZF27 95.18 at 22:36 ET evening trade (not a settle), ES 7,239.75 evening. FRED HY 372, CCC 1,405, VIXCLS 26.36, T5YIFR 2.13, SOFR 3.94 [11/24]; claims 189,000 [w/e 11/21]. TE 11/25: Bund 3.2209, gilt 5.136, BTP 4.3685, OAT 4.738. Cushing 25.613M [w/e 11/20]. UNKNOWN: SKEW, HY Energy, HANS-T-08, T-14. Evidence: research/2026-11-25_evening-boot/THRESHOLD-SCAN.md. |
 | November 25 to 11:51 ET (FRED first seen 11:08 to 11:42 ET; vendor intraday, not closes) | FRED HY 372, CCC 1,405, SOFR 3.94 less IORB 3.90 = +4 bp, T5YIFR 2.13 [11/24]. Vendor: S&P 7,007.48 (6,970.11 to 7,063.54), ^VIX 33.86 at 11:36 ET (high 34.95), SMH 395.75, ARM 148.20 (low 143.59), HYG 76.32, KRE 69.14, WAL 69.25, TTFZ26 91.669 [11/24 close] 88.10 intraday, BZF27 91.40 [11/24] 93.1 intraday. Cushing 25.613M [w/e 11/20]. UNKNOWN for 11/25: Bund, gilt, BTP, France spread, HY Energy, SKEW. Evidence: research/2026-11-25_boot/THRESHOLD-SCAN.md. |
-| November 24 night (FRED first-published to 2026-11-25T04:24Z; vendor closes 11/24) | FRED HY 363, CCC 1,387, BB 219, VIXCLS 26.62 [11/23, published 11/23]; DGS30 5.29, SOFR 3.92 [11/23]; T5YIFR 2.13, T10YIE 2.12 [11/24]; 11/24 HY unposted. Vendor: S&P 7,201.09, ^VIX 26.36 (premarket 30.40; 32.38 read as a bad tick), KRE 69.76, WAL 70.43 (under 78, existing cycle), ZION 62.59, HYG 76.43, NVDA 155.38, AMD 413.27, BZF27 90.00 and ES 7,173.50 at 23:07 to 23:14 ET (not settlements), TTFZ26 91.22. REG-T-04 fired (002). HANS rows, Cushing, SKEW not re-read tonight. |
 Evidence for the older rows above (October 22): `research/2026-10-22_boot/THRESHOLD-SCAN.md`, `research/2026-10-22_iran-full-sweep/SWEEP.md`, `research/2026-10-22_afternoon/`. Twenty older rows (10/15–10/22 morning) rotated verbatim to `SESSION_LOG.md` 2026-10-22T16:47:25Z (root Output Canon: spaced words; history moved, not compressed). Each series keeps its source date and basis.
 
 Oldest six observation rows rotated verbatim to SESSION_LOG.md at 2026-10-31T18:34:28Z; no historical claim rewritten.
@@ -65,6 +56,8 @@ Oldest 2 observation rows (November 20 and 19) rotated verbatim to SESSION_LOG.m
 
 Oldest 2 observation rows (November 23) rotated verbatim to SESSION_LOG.md at 2026-11-25T16:53:57Z; no historical claim rewritten.
 
+Oldest observation row (November 24 night) rotated verbatim to SESSION_LOG.md at 2026-11-26T03:51:20Z; no historical claim rewritten.
+
 ## MISSION
 
 Signal/news routing and receiving-layer readiness. Domain agents own evidence, grades and judgment. Broker truth remains off-repo; FORGE's November 5 ANVIL reconcile (Fidelity captures 10:01 ET, intraday marks; Robinhood unverified) is dated context, not current fills.
@@ -85,7 +78,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY refreshed at this full closeout (step 13, 2026-11-25T19:05:39Z): Updated and Focus mirrored from owner STATUS heads for the 24 desks that committed a STATUS today (RED has no dated lead header; stated by date only). Status colours not re-derived. Live in ListAgents at 13:41 ET: prome-77 (busy), homer-2f (idle). PROME-run subagents are not visible to WALTER: UNKNOWN, not dark. 0 cluster_mediating.
+REGISTRY refreshed at this full closeout (step 13, 2026-11-26T03:51:20Z): Updated and Focus mirrored from owner STATUS heads for the 10 desks that committed a STATUS after 19:04Z (BRENT and NEXUS leads carry no dated line; HOMER's lead not parsed, row unchanged). Status colours not re-derived. Live in ListAgents at 20:06 ET: liquid-bd, homer-e8, daedalus-b6, prome-77, nexus-99, reginald-9a, henry-7d, violet-29. Absent desks are UNKNOWN, not dark. 0 cluster_mediating. HANS registry THRESHOLDS.tsv at 85% of budget (rotate tier; HANS owns it).
 
 ## Active LIAISON channels
 
