@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.7
 **Recent thesis pivot:** 11/25 v2.6.7: V5 Gas Squeeze 4→3 on its registered AAA rule (below $4.00 every observed day 11/10–11/25), 53→52/70. 11/06: masking framework's intermediate falsifier CRL-21 MISSED: Ally FY2025 −38.0 bp vs FY2023 at the same age, FY2026 −5.0 bp; outer falsifier CRL-20 at 1%. Mechanism not killed: FY2026 early delinquency is above FY2023, one nine-month reading. Aggregate buffer drawdown (saving 3.8%) stands.
-**As of:** 2026-11-25 09:16 ET | STATUS commit: `09184a045a`
+**As of:** 2026-11-26 15:55 ET | STATUS commit: `df3626112d`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -13,6 +13,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| TERRY / PROME / RED | 11/26 news sweep (KB-642 to 650): October card trusts' net charge-offs down YoY at 5 of 6, 30+ up MoM at all 6; TransUnion Q3 card 90+ per borrower 2.50% (+13bp) vs per dollar 1.99%, personal loans 4.12% (highest Q3 since 2010), below-prime share of new cards 42.3%; NY Fed SCE missing-payment odds 13.8%; KBRA subprime auto loss 10.28% (+46bp YoY), DQ flat; Affirm provision +59.4% vs GMV +34%, Klarna 0.56% of GMV. CRL-29 ages 28-30 NO VERDICT; window rule asked of RED. | 11/26 | Lower-tier stress on small balances while prime card improves; TERRY: no card suggested, Synchrony November trust NCO vs 4.35% named as the dated watch. No score moved |
 | PROME / WALTER / TERRY / NEXUS / RED | 11/25: CRL-32 MISSED (NOT-FIRED-REBUILD, early). BEA 26-51 October saving rate 4.1% first print vs ≤3.8% bar; September revised 3.8 → 3.6% (KILL bar ≥4.3 not met); real DPI +0.5%, real PCE 0.0. ⚠️ One-time Medicare premium rebate in income; CARL ex-rebate about 3.9% (INFERRED). V5 4→3 on the AAA rule. | PRIORITY | Household buffer rebuilt for one month, partly windfall; gas squeeze easing. TERRY: tradeability packet, CARL suggests no card. KB-628, KB-629. |
 | PROME / WALTER / TERRY / RED | 11/21 answer to WALTER SIG-W-20261121-004 (HENRY's S&P red line, 6,910.39 on 11/20 vendor, −11.62% from the 10/6 record) and -20261120-002 (Michigan final, issuer read): **V14 HOLDS 3** (no registered upgrade letter; un-fire needs an all-time high); S&P +5.7% YoY, +1.0% YTD; card lenders fell about half the index. Michigan long-run 3.3% (V12 <3.0% not met); low-wealth finances up, largest stockholders down. | WALTER ACTION | CARL's STATUS had called 7,037 a 'V14 trigger'; it is HENRY's routing line (WALTER told). Upgrade-letter draft with PROME, Will's decision. TERRY: no implication over 2–4 weeks, one NOT-FIRED idea. Michigan bottom-cohort gain staged to RED. KB-626/627; research/2026-11-21_v14-red-line/READ.md. |
 | PROME / WALTER / HENRY / TERRY / RED | 11/17 answer to WALTER SIG-W-20261117-004 (Census CB26-181 primary; BLS import prices via FRED, bls.gov 403): October retail +0.21%, ex-autos +0.63% (the card's +0.21% ex-autos was the wrong series), control +0.59% (about +0.43% real), autos −1.60%; September control revised +0.14 → +0.53%. Gasoline 9.17% of retail dollars vs 7.52% a year ago. Import prices +1.05%, ex-fuel +0.80%, about 70% not fuel; no true October y/y. | WALTER ACTION | Aggregate spending did not break; the squeeze is a wallet-share shift, not falling goods volume. Nominal, no cohort split. Ex-fuel import pipeline is HENRY's rates input. TERRY: no CARL investment implication (WQ-696). T1 2 of 3 against. KB-623/624; research/2026-11-17_retail-imports/READ.md. |
@@ -36,8 +37,9 @@
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
+| RED | CRL-29 window rule after the first grade (stepped 30-32 vs rolling vs seasonal match); CARL's stepping was proposed after the 28-30 result | before ~2027-01-27 | Two trusts showed one-month Band A cells | Decides whether EART's already-filed age-31 month counts |
 | BEA | November income/outlays (CRL-32 resolved 11/25; no letter grades this print) | Wed 12/23 08:30 ET | Does the October rebuild survive the rebate dropping out? | Unscored forward view: about 60% the saving rate is ≤3.9% |
-| OTTO / SEC | EART October collection month (+ SDART/BLAST) | ~11/30 | Existing V2 tiers | September deep 0/4, broad 0/3; October can at most be qualifying month 1 |
+| OTTO / SEC | EART October collection month (+ SDART/BLAST); not filed as of 11/26 | ~11/30 | Existing V2 tiers | September deep 0/4, broad 0/3; October can at most be qualifying month 1 |
 | STUE / FSA | FSA Data Center refresh with 9/30 data (AFT v. ED stipulated to dismissal 11/18, secondary, so no court backlog figure) | ~12/18 | CRL-13 denominator | First public SAVE/RAP counts |
 | STUE | ES-02 / CRL-28 MOHELA complaint read after the payment wave | 2027-01-15 | Student-loan servicing stress | GRADED 11/14 DID_NOT_APPEAR: 60-day avg 23.3/day vs frozen 55; CRL-28 50 → 20%, OPEN |
 | Fed | December meeting | Dec 8–9 | V12 un-fire count | Presser 10/28 read: no easing signal, 0 of 2 |
@@ -46,6 +48,7 @@
 
 ## VIEW
 
+- **11/26 sweep:** the split held and sharpened: prime card credit better year on year, stress concentrated in lower-tier borrowers on small balances, subprime auto losses rising through severity, Car-Mart in Chapter 11; spending holds (value-store traffic, Walmart gains led by upper-income households, BofA lower-income spend +5.9%). Broad collapse still not established. Florida flood DR-4956-FL (6 counties) is a new household-cost leg masked by the FHA moratorium.
 - 11/06 catch-up: October payrolls firm, V16 1 of 2 toward 3, a hiring read, not a layoffs read. V2 September 0/4 deep, 0/3 broad, verified at SEC. SLOOS: banks more likely to approve prime card applicants, less likely subprime, small banks driving it (text only). Q3 platforms and Dave show no break among gig and small-dollar users; driver supply not read.
 - 11/06 close (Michigan superseded by the 11/20 final, below): G.19 September revolving +14.5% after −4.4%, mostly rebound, no delinquency read; Q3 nonrevolving pickup is credit unions, finance companies and auto. Manheim 206.8, YoY mostly a low base.
 - Concentrated strain persists; broad collapse is still not established. October Conference Board rebounded across the present-situation and expectations indexes. Its six-month average rises only for under-35 and $100K+ households, and write-ins on prices, groceries and diesel rose. These are attitudes, not outlays.
