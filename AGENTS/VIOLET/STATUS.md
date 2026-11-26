@@ -1,7 +1,7 @@
 # VIOLET STATUS
 
 **As of:** November 25, 2026 (Wednesday), 16:41 ET (from `date`). PROME prome-77 wake on D:L1280 (the 11/25 close), in the session Will opened at 15:34 ET. Claude Code, Opus 5.5, laptop.
-- **Close print:** vendor mirror of the 16:15 ET print, two identical pulls (16:33, 16:35 ET). **PROVISIONAL: official Cboe closes run through 11/24 (SETTLE); 11/25 History was not posted at 16:37 ET and is confirmed at the 11/27 boot.**
+- **Close print:** vendor mirror of the 16:15 ET print, two identical pulls (16:33, 16:35 ET). **Cboe History checked 23:38 ET: VIX 28.29, VIX9D 29.61, VIX3M 26.29, VIX6M 26.89 and VVIX 115.38 all match the print, so VIX3M/VIX 0.9293 and the 7th inverted close stand on History. SKEW 142.06 [11/25 History]. The ledger rows stay TICK until `backfill.py` runs at the 11/27 boot.**
 - **Credit:** HY first-published through **11/24 = 372bp** [LIQUID owns]; 11/25 not posted.
 - **Last real data refresh:** 2026-11-25. Thesis **v4.1.10**. KB-VIO-409. Record `research/2026-11-25_close-read/GRADE.md`.
 
