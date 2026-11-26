@@ -62,4 +62,4 @@
 
 ## Cumulative-file confirmation
 
-(pending; appended when the 11/25 cumulative file posts)
+Posted by 20:07 ET 11/25 (200); read 20:07 ET. Same 2,102 rows; `crwv_cds_grade.py` (fixed) gives the same 5 live CoreWeave prints, and `read_slices.py` on the cumulative file gives every level, live set and cancellation identical to the slice read (only slice labels differ). **No figure moves.**

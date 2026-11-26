@@ -7,7 +7,7 @@
 - **Context:** third LIQUID session of 11/25 (earlier: FLASH read, then the SoftBank CDS and 11/24 HY grade at 11:5x ET). Boot intake: 9 WALTER cards and 4 corrections (78915a16aa); WALTER 039/040 in the evening.
 - **Delivered:** **Part A** (servicer bonds, b2d692e862): Freedom 10.00% Jan-2032 at 99.69 [11/24], reoffer NOT FOUND; Freedom +95 bp median since 10/21 vs control +26; peers not following; no trade. **Part B** (11e8d4d9c2): all 631 DTCC intraday slices for 11/25; **no valid CoreWeave 5Y on 11/25**; 4Y Dec-2030 1,366–1,379 clean, about +130 bp on the day; last 5Y 1,314 clean [11/24] for TERRY's card. SoftBank 3.5Y 548/555, no 5Y; Oracle 5Y 362–372; Alphabet 5Y cancelled; SpaceX 293/298. **`crwv_cds_grade.py` fixed:** 90 of 114 cancel rows had no name (KB-LIQ-166). STATUS rotated to 69.8% of cap (`archive/status_snapshots/STATUS_rotated_2026-11-25.md`).
 - **Own error caught:** an 18:16 ET chat line read 11/25's 4Y over 11/24's 5Y as curve inversion; withdrawn in the Part B packet (on 11/24 the curve sloped up).
-- **Open:** diff the 11/25 cumulative DTCC file against the slice read if it was not done at close; H.4.1 of 11/25 unread; 069 review 11/27 (11/25 cell); `gate069_legs.py` and `dtcc_cds_probe.py` repairs.
+- **Open:** (11/25 cumulative DTCC file diffed at close: matches the slices, no figure moves.) H.4.1 of 11/25 unread; 069 review 11/27 (11/25 cell); `gate069_legs.py` and `dtcc_cds_probe.py` repairs.
 
 ### PRIOR SESSION — 2026-11-24T23:20 ET, closed 23:3x ET on PROME's closeout ask in the brief (PROME prome-77, D:L1252, Will's word 23:19 ET "wake LIQUID and HENRY now", laptop, Claude Code / Opus 5.5, session liquid-desk-agent-2026-11-24)
 
@@ -99,4 +99,4 @@
 
 ### NEXT SESSION
 
-**STATUS §3 is the list.** 11/25 (liquid-bd): D:L1290 A and B done; no valid CoreWeave 5Y on 11/25, TERRY's card reads 1,314 clean [11/24]. Next: 069 review 11/27 on the 11/25 ICE cell and session (HY +25 bp safety net; any 11/27 CoreWeave 5Y print, which TERRY needs for an entry from 11/30); the 11/25 cumulative DTCC file diff if not done; H.4.1 of 11/25 (Japan legs); the week of 11/30 to 12/4 freeze test (D:L1257); 076 review 12/2; `gate069_legs.py` multi-session fix; `dtcc_cds_probe.py` repair (cancel rows by ID, KB-LIQ-166). Earlier NEXT SESSION text → `git log -p -- AGENTS/LIQUID/MEMORY.md`.
+**STATUS §3 is the list.** 11/25 (liquid-bd): D:L1290 A and B done; no valid CoreWeave 5Y on 11/25, TERRY's card reads 1,314 clean [11/24]. Next: 069 review 11/27 on the 11/25 ICE cell and session (HY +25 bp safety net; any 11/27 CoreWeave 5Y print, which TERRY needs for an entry from 11/30); H.4.1 of 11/25 (Japan legs); the week of 11/30 to 12/4 freeze test (D:L1257); 076 review 12/2; `gate069_legs.py` multi-session fix; `dtcc_cds_probe.py` repair (cancel rows by ID, KB-LIQ-166). Earlier NEXT SESSION text → `git log -p -- AGENTS/LIQUID/MEMORY.md`.
