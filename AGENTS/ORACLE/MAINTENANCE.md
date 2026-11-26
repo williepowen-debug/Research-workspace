@@ -377,3 +377,11 @@ Polymarket slugs **rot**: markets resolve at their end-date and drop off. Every 
 - **Declined:** U-O09's `tools/t6_pin.py` FILES row: the tool and ledger still exist and its candle-timestamp caveat applies to any re-point.
 - **Files:** `CLAUDE.md` 29,289 → 24,179 B. No rule, band, threshold or route changed.
 - **Boot-impact:** shorter charter; boot steps unchanged except step 2 now names `inbox/WALTER/processed/`.
+
+### 2026-11-26 — band-touch scan added to the boot ran-check (PROME prome-80 ask, Will's improvement day)
+- **Trigger:** routine reads 11/13 to 11/25 sat ungraded until 11/26; three Critical 48h pairs (Iran pause −23.0, AI bubble +31.8 and +23.7) were seen one to eight days late. PROME asked for the read-only option (cross-session message 11/26 ~11:52 ET); the same-day variant stays OFF (WQ-527 C, Will's; `PROME/ideas/list.tsv`).
+- **What:** `tools/routine_check.py` now prints, after the ran-check, every VX-ORC-04 / -06 / -12 read-band touch and every VX-ORC-07 48h pair (liq ≥ $5K, >10pp, overlapping pairs collapsed) since the oldest `Updated` on those rows. Read-only; rc unchanged; a scan error cannot change the ran-check's rc.
+- **Tested (2026-11-26):** `--since 2026-11-13` prints the hand-graded backlog: VX-ORC-06 Watch reads 11/20 and 11/25; VX-ORC-07 Critical Iran −23.0, AI +31.8, +23.7, −21.4; Alert Iran +16.5, +16.0; no VX-ORC-04 or -12 touches. It printed ONE MORE pair than the hand grading: the by-11/8 pause leg −14.0 (11/16 → 11/17, liq $26.5K, Alert), which the hand grade missed (VX-ORC-07 note corrected). `--since 2026-10-28` reproduces the ledger's VX-ORC-04 history (10/28 52.5, 10/29 52.5 Alert-arming; 10/30 64.0 Critical-arming). Default run prints the 11/25 → 11/26 AI pair. rc 1 with 11/24 NOT READ, as before.
+- **Files:** `tools/routine_check.py`, `SCHEDULED_RUNS.md` (Contract 5, Known limits: the 11/24 cause), `workbook/VX.tsv` (07 correction), `workbook/V5_NOV110_READS.tsv` (11/24 cause).
+- **Limits:** letters are hard-coded beside the VX rows (change both in one edit); NYSE holidays hard-coded for 2026; the default window is date-inclusive, so items graded earlier the same day reprint.
+- **Boot-impact:** step 2b output gains a BAND-SCAN section; a touch means grade it on its VX row and route per the signal table.
