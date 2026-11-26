@@ -3,7 +3,7 @@
 **Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #16 (11/24) 4-of-5, Cape Coral 5.78, re-fire fails. Falsify grade 11/15 run 11/16: 1.5 of 6, 🟠 holds. **GSE financing leg: "not yet" — CORAL-02 FALSE (11/17).** Next: MSI #17 by 12/03; FL Realtors Nov 12/16.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-11-25 11:52 ET (Wed, coral-1125, PROME prome-77 launch on Will's word 11:36 ET; CHANGED: DR-4956-FL confirmed (first request, PA A–B, no HM); MSI #16) | STATUS commit: 150b89b947 (prior: 2026-11-24, 1b4548b41d)
+**As of:** 2026-11-25 20:0x ET (Wed, coral-desk-agent-2026-11-25-b, PROME prome-77 C8 wake on SIG-W-20261125-037; CHANGED: DeLand forecast now above record, row 2) | STATUS commit: b7703512e9 (prior: 2026-11-25 11:52 ET, 150b89b947)
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
 
@@ -11,7 +11,7 @@
 | # | What | So what / who |
 |---|---|---|
 | 1 | **DR-4956-FL CONFIRMED (OpenFEMA 16:39Z 11/25):** the 11/09 request; household aid Brevard, Indian River, Martin, Okeechobee, Palm Beach, St. Lucie; PA debris/emergency work only (A–B; Hardee PA only); no HM; DeSoto, Highlands not designated. 0 registrations, 0 PA projects: a permission, not money | HOMER (FHA 90-day ~2/22/2027, its DERIVED date), REGINALD (Seacoast trigger, grades), TERRY: no card |
-| 2 | **Second request (Seminole, Volusia, Broward, Orange, Flagler, Putnam) not on the record: pending, not denied.** DeLand fc 6.3 from 11/28 vs 6.33 record; Cocoa no fall to 12/02 | WALTER (watch to 12/07), AEOLUS (hazard, one figure) |
+| 2 | **Second request (Seminole, Volusia, Broward, Orange, Flagler, Putnam) not on the record: pending, not denied; no amendment at OpenFEMA 07:06 ET 11/25 refresh.** ⭐ **20:0x ET update (§ AO): DeLand fc 6.4 ft Sat 11/28 19:00 ET, held to 12/02, ABOVE the 6.33 record** (NWS 14:04 ET; obs 5.91 on track; a forecast). NWS lines at forecast stages: single-family, manufactured-home, canal communities, marinas; **no condo or apartment named** (Sanford apartments from 9.5 ft, fc 8.7). Volusia/Seminole/Lake take-up 11.1/4.0/2.5% (countywide); state $10M loans, not grants; Seacoast 10.18% of deposits in the three counties (footprint). Cocoa no fall to 12/02 | WALTER (observed ≥6.33 = IMMEDIATE; watch to 12/07), AEOLUS (hazard, one figure), TERRY: no card |
 | 3 | **NFIP still 1,157 (data 11/16):** 623 zone X (insured homes only, not an uninsured share); 14 condo-association claims, 11 Brevard, $0 paid. SE rain 11/25 heaviest in undeclared Broward/Miami-Dade; not yet a large event | HOMER (zone split sent), CARL (household) |
 | 4 | **MSI #16 (data 11/24): 4 of 5 > 6.00, Cape Coral 5.78** ⇒ re-fire fails; next #17 by 12/03 | PROME (GATES) |
 
