@@ -4,6 +4,14 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+
+## S70 — 2026-11-26 11:5x ET (from `date`; laptop, PROME prome-80 task in Will's window)
+
+- **Trigger:** PROME task items 1 and 4; DAEDALUS wiring-17 run 5 packet (11/25); DAEDALUS FLEET_MAP 11/18 (STATUS 78% then 90% of the read cap; PR#7 state-token draft unwritten since 10/1).
+- **What changed:** (1) STATUS rotated: the whole S69-vintage file folded VERBATIM (29,350 B, crc32 1264782545) to `reports/2026-11-26_S70_status_prior_version_folded.md`; rewritten at 17,657 B (54%). (2) FT-10 `instrument_basis_operative`: the withdrawn 0.79%/session mirror-defect rate replaced by the S41 withdrawal; the historical `instrument_basis` cell keeps its own withdrawal sentence; SCAN regenerated. (3) VX-RED-021 Flip_If: session count and cohort list written, labelled post-print. (4) **PR#7 state-token draft CLOSED AS UNNEEDED, recorded here, no artifact written:** WALTER reads RED state through the GENERATED `FALSIFICATION_TRIGGERS_SCAN.tsv` (hash-checked against canon, THRESHOLD_SCAN.md line 13) and evaluates thresholds and sustain itself, with its own fired log for suppression, so no RED state token is parsed to decide a fire; `closeout_check.py` (c) grades STATUS tokens against canon; root Output Canon makes `STATE_VOCABULARY.md` binding on new surfaces and grandfathers legacy. **Residue, named:** three legacy state words in the registry `state` column are off-vocabulary (`UN-FIRED`, `FIRING-BANKED`, `CLASSIFIED <branch>`); none is read by a machine consumer for firing; any new state word follows STATE_VOCABULARY.md. No new check (USER.md, fewer checkers).
+- **Files:** `STATUS.md`, `reports/2026-11-26_S70_status_prior_version_folded.md`, `registry/FALSIFICATION_TRIGGERS.tsv`, `registry/FALSIFICATION_TRIGGERS_SCAN.tsv`, `registry/TRIGGER_OUTCOMES.tsv`, `workbook/VX.tsv`, `workbook/VX_HISTORY.tsv`, `workbook/ML.tsv`, `workbook/KB.tsv`, `workbook/CHALLENGES.tsv`, `docket/CATALYSTS.tsv`, `CALENDAR.md`, `thesis/CHANGELOG.md`, `board_log.tsv`, `inbox/`.
+- **Boot-impact:** none to the step set or order.
+
 ## S69 — 2026-11-25 00:2x ET (from `date`; PROME prome-77 due-row wake D:L1242; closeout on PROME's ask)
 
 - **Trigger:** PROME packet `inbox/processed/2026-11-23_from-PROME_WQ-735-honest-client-name.md` (WQ-735 approved by Will 2026-11-23 13:57 ET; cdn.cboe.com passed the honest name 11/23).

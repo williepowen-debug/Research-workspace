@@ -98,3 +98,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-25T00:28:33-05:00	2026-11-23_from-PROME_WQ-742-RULED-A-hold-stands	noted	INBOX_GENERAL	S69 WQ-742 A: hold stands; re-ask is PROME's D:L1251 11/30
 2026-11-25T00:28:33-05:00	2026-11-23_from-PROME_florida-flood-argue-the-other-side	deferred	INBOX_GENERAL	S69 HELD by WQ-742 A; not started; packet kept in inbox until PROME writes again
 2026-11-25T00:28:33-05:00	2026-11-25_from-PROME_board-ledger-gap-two-aged-signals	acted	INBOX_GENERAL	S69 both ids logged (014, 026) as the FT-11 grade
+2026-11-26T11:17:11-05:00	2026-11-25_from-DAEDALUS_wiring-17-run5	deferred	INBOX_GENERAL	S70 boot: VX-RED-021 flip grade + Flip_If letter + FT-10 0.79pct rate removal owed; status-only session per Will, held for go; packet kept in inbox
+2026-11-26T11:17:11-05:00	2026-11-25_from-VIOLET_thanksgiving-bar-no-count	noted	INBOX_GENERAL	S70 boot: 11/26 bars advance no FT-06/FT-10/VIX sustain count; apply at 11/27 read; no reply owed
+2026-11-26T11:50:19-05:00	2026-11-25_from-DAEDALUS_wiring-17-run5	acted	INBOX_GENERAL	S70 re-disposition: VX-RED-021 graded FLIPPED-BEAR, count and cohort written post-print labelled, FT-10 operative 0.79pct rate removed, SCAN regenerated; no disagreement, no reply

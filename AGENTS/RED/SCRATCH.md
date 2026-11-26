@@ -32,3 +32,8 @@
 
 ## GIT STATE
 S69 commit path-scoped under `AGENTS/RED/` plus three packets (carve-out ①). **Not pushed: PROME pushes.** The shared tree holds PROME's modified `state/ORCH_INFLIGHT.md` and `state/ORCH_LOG.tsv`; not touched. Local was 3 ahead of origin, 0 behind, at boot; no pull run.
+
+## S70 ADDENDUM — written 2026-11-26 11:50 EST (from `date`). Laptop, Claude Code Opus 5.5; Will's window, PROME prome-80 task list; NOT a closeout.
+- **Done:** FT-10 outcome CORRECT · FT-11 11/17→11/24 FUNDAMENTAL · VX-RED-021 FLIPPED-BEAR (count written post-print) · FT-10 operative 0.79% removed, SCAN regenerated · CHG-057 MODERATE graded early, re-review 12/04 · challenge to PROME's "narrow AI unwind" (ML-RED-337, MODERATE; BB 183 → 225) · STATUS rotated to 54% (full prior file folded verbatim) · state-token draft closed unneeded (MAINTENANCE S70) · 22 corrections receipted · inbox: DAEDALUS and VIOLET processed, Florida HELD.
+- **NEXT (replaces S69 items 1, 3's 11/30 CHG-057):** Fri 11/27 Zweig grade, FT-11 11/18→11/25, SKEW exit on the 11/27 bar · 11/30 CHG-044 / CHG-054 / CHG-027 · 12/04 payrolls re-derivation + CHG-057 · ML-RED-336 scanner repair · ledger staleness (WATCHLINES, OUTCOME_SPEC, VX headers) · board_log --rotate at the next closeout (62%).
+- **Owed at the day's closeout:** full W1–W10 (this ending was a state commit on PROME's ask, not a closeout). Packet: `PROME/inbox/2026-11-26_from-RED_S70-prome80-tasks-and-breadth-challenge.md`.

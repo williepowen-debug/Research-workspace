@@ -4,6 +4,14 @@
 
 ---
 
+## S70 — 2026-11-26 11:5x ET (from `date`; laptop, Will's window, PROME prome-80 task list) — **NO HYPOTHESIS WEIGHT MOVED. HOLD 72 · net-bear 69 unchanged. Registered-object states changed: FT-10 outcome graded; FT-11 one more window classified; VX-RED-021 flipped.**
+
+- **FT-10 outcome:** Old view: "UNRESOLVED to ~11/25; condition met at obs 14." New view: "CORRECT at horizon, obs 30 = VIXCLS 26.36 [11/24], window max 35.89 [11/20]. n=1, no weight; a tech and gamma tail bid that vol followed, not war or credit foresight (ML-311)." Exit count 0 of 4 on SKEW 142.06 [11/25].
+- **FT-11:** Old view: "FUNDAMENTAL on 11/13→11/20 and 11/16→11/23." New view: "also FUNDAMENTAL on 11/17→11/24 (−16 / 30s5s +5 / dBE −9 / d2Y −17 / fly +1), clean; 11/18→11/25 unread (DGS30 unposted). Banks nothing."
+- **VX-RED-021 (paper pricing Path A), vector weight only:** Old view: "MODERATE 55/45; flip legs not met [11/17]." New view: "FLIPPED-BEAR 30/70 on the letter: HY >320 s=3 (from the 11/17 obs) and VIXCLS >22 on 7 closes [11/16–11/24]. The session count was never written; written today, labelled post-print; it did not decide the grade. No hypothesis weight: both legs already executed via FT-02 and the FT-06 exit."
+- **CHG-RED-057:** Old view (11/19): "MODERATE; re-review 11/30." New view: "MODERATE unchanged, graded early; 10-Q unfiled at 11:44 ET; SoftBank 5Y about flat to pre-results at 11/24, wider short end 11/25 on thin trades; CoreWeave's new loan clearing. Re-review 12/04."
+- **Bull steelman point 3 (credit is a tail, not breadth):** Old view (S63): "stronger on spreads." New view: "weakened: BB 183 → 225 and B 339 → 405 [11/12 → 11/24] moved with the index; the widening is broad. Same root as the 11/20 risk-off week; counted once at the next re-derivation (ML-RED-337)."
+
 ## S69 — 2026-11-25 00:2x ET (from `date`; laptop, PROME prome-77 due-row wake D:L1242) — **NO WEIGHT MOVED. HOLD 72 · net-bear 69 unchanged. One registered-trigger STATE changed: FT-11 classified FUNDAMENTAL on two new windows.**
 
 - **FT-11:** Old view (S68): "no precondition window since 10/27; Δ5 +20 [11/06→11/16]." New view: "precondition MET on 11/13→11/20 (DGS30 −16) and 11/16→11/23 (−17), FRED first-published = latest-revised; both FUNDAMENTAL (d2Y −25 / −20, dBE −9 / −7), FLOW fails on leg (i) (+11 / +2), leg (iv) not met (+3 / +1), no cofire. The grind read is confirmed on its own terms; banks nothing." WALTER SIG-W-20261123-026 reproduces exactly.
