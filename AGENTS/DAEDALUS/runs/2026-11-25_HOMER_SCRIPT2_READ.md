@@ -50,3 +50,10 @@ Notes, none blocking:
 4. Optional: run on the earnings-release 8-K (two to four weeks before the 10-Q; text only, no tags). Earlier, less exact.
 5. Optional, checker-like (Will prefers fewer): print sentences with covenant-waiver, facility-draw or going-concern wording, which map to servicer-watch classes B and C. Prints only; never an alarm.
 Not recommended: more companies, or any threshold or alert.
+
+## Upgrade read (2026-11-25 23:18 ET; HOMER 69901f1f71, ideas 1 to 3 on Will's 22:52 ET word)
+
+REPRODUCED: selftest (12 refused, 14 checks) and `check` (rc 0, every line ok); no file written. Confirmed labels: 4 rows in `registry/FILING_LABELS.tsv`. No misparse in the two saved values files.
+
+1. **Wrong-figure path (DEMONSTRATED on a made-up page):** `parse_statement` takes the last N number-like tokens as the N columns, and a bare year counts as a number. A row whose label ends in a year and whose prior-year cell is blank (a note issued this year) parses as `'6.5% senior notes due' = $2.0M vs $1,000.0M`: a wrong figure, not "not found". Limited to debt rows, which the reader never compares. Fix: treat a bare 19xx/20xx token as label text, plus one selftest case.
+2. **Sign in the Will-facing report:** "Rocket advances $365M vs $131M" is unsigned in the report; HOMER's own label note says positive = cash in (advances fell), sign not stated by the issuer. Onity's "Decrease in advances" is cash in by its label.
