@@ -1,0 +1,6 @@
+# Statement row labels HOMER confirmed by reading the filing (tools/filing_reader.py confirm). filing_reader looks for these first; a stored label missing in a later filing is reported, never guessed.
+company	line	statement	label	confirmed_period	confirmed_on	note
+PFSI	advances	cashflow	(Increase) decrease in servicing advances	2026-09-30	2026-11-25	hand read 2026-11-25 (PIPELINE 'PENNYMAC 10-Q OPENED')
+PFSI	hedge_cash	cashflow	Net settlement of derivative financial instruments used for hedging of mortgage servicing rights	2026-09-30	2026-11-25	hand read 2026-11-25 (PIPELINE hedge row)
+LDI	debt_equity	balance	Total equity	2026-09-30	2026-11-25	matches LDI 8-K equity $310.9M read 2026-11-11
+RKT	advances	cashflow	Advance receivables, net	2026-09-30	2026-11-25	read on R6.htm 2026-11-25 22:50 ET; positive = cash in (sign reading not issuer-stated)

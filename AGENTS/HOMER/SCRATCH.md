@@ -28,7 +28,7 @@ Dated prints come first: the 11/30 ICE check outranks this plan.
 
 1. DONE 2026-11-25 (fifth session).
 2. **Script 1 BUILT 2026-11-25 18:31 ET (Will 18:28 ET "yes go ahead and build", option A):** `tools/fetch_series.py`. Use it at the next PMMS (12/03), FMHPI (~11/30) and Apartment List (~11/30) pulls; **keep or delete by the end of the December refreshes**: delete if it does not plainly save time. It is 353 lines, not the ~150 scoped (selftest included).
-3. **Script 2 BUILT 2026-11-25 22:26 ET (Will 22:02 ET, full scope, no trial):** `tools/filing_reader.py`. Use at the Q4/10-K servicer filings (~Feb 2027): `check` first, then `read --period 2026-12-31`, then read each filing. 9 of 36 company-line pairs come back not found and need a hand read (see MAINTENANCE 22:31 ET).
+3. **Script 2 BUILT 2026-11-25 22:26 ET (Will 22:02 ET, full scope, no trial):** `tools/filing_reader.py`. Use at the Q4/10-K servicer filings (~Feb 2027): `check` first, then `read --period 2026-12-31`, then read each filing. after the 23:07 upgrade 7 of 36 pairs come back with nothing and pattern matches still need confirming by hand (`confirm`); 4 labels stored (see MAINTENANCE 22:31 ET).
 4. **Not in the plan:** step 6 (band history out of CLAUDE.md) HELD for Will's separate word; the one-to-one with LABOR skipped; no new band, kill test, rule or check.
 
 Sources: `AGENTS/DAEDALUS/runs/2026-11-25_HOMER_ARCHITECTURE_REVIEW_READ.md` (incl. addendum) and `2026-11-25_HOMER_PEER_COMPARISON.md`.

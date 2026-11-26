@@ -1,0 +1,62 @@
+company	line	source	label	period	value_usd
+PFSI	advances	statement	(increase) decrease in servicing advances	2026-09-30	-240485000
+PFSI	advances	statement	provision for servicing advance losses	2026-09-30	65536000
+PFSI	hedge_cash	tag	tag:PaymentsForProceedsFromDerivativeInstrumentInvestingActivities	2026-09-30	1349779000
+PFSI	hedge_cash	statement	net settlement of derivative financial instruments used for hedging of mortgage servicing rights	2026-09-30	-1349779000
+PFSI	hedge_cash	statement	mortgage servicing rights hedging results	2026-09-30	1340540000
+PFSI	debt_equity	tag	tag:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest	2026-09-30	4356583000
+PFSI	debt_equity	tag	tag:LongTermDebt	2026-09-30	6545000000
+PFSI	debt_equity	statement	unsecured senior notes	2026-09-30	4839843000
+PFSI	debt_equity	statement	total stockholders' equity	2026-09-30	4356583000
+PFSI	msr	statement	mortgage servicing rights at fair value (# and # pledged to creditors)	2026-09-30	11639077000
+RKT	advances	statement	advance receivables, net	2026-09-30	365000000
+RKT	debt_equity	tag	tag:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest	2026-09-30	24311000000
+RKT	debt_equity	tag	tag:UnsecuredDebt	2026-09-30	10716000000
+RKT	debt_equity	tag	tag:SecuredDebt	2026-09-30	14187000000
+RKT	debt_equity	statement	unsecured financing, net	2026-09-30	10716000000
+RKT	debt_equity	statement	total equity	2026-09-30	24311000000
+RKT	msr	tag	tag:ServicingAssetAtFairValueAmount	2026-09-30	20257000000
+RKT	msr	statement	mortgage servicing rights, at fair value	2026-09-30	20257000000
+UWMC	hedge_cash	statement	derivative assets	2026-09-30	-238733000
+UWMC	hedge_cash	statement	derivative liabilities	2026-09-30	230034000
+UWMC	debt_equity	tag	tag:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest	2026-09-30	1318911000
+UWMC	debt_equity	tag	tag:SeniorNotes	2026-09-30	2985505000
+UWMC	debt_equity	statement	senior notes	2026-09-30	2985505000
+UWMC	debt_equity	statement	total equity	2026-09-30	1318911000
+UWMC	msr	statement	mortgage servicing rights	2026-09-30	6527159000
+LDI	hedge_cash	statement	fair value change in derivative assets	2026-09-30	-367000
+LDI	hedge_cash	statement	fair value change in derivative liabilities	2026-09-30	18706000
+LDI	hedge_cash	statement	premiums paid on derivatives	2026-09-30	-30109000
+LDI	debt_equity	tag	tag:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest	2026-09-30	310914000
+LDI	debt_equity	tag	tag:LongTermDebt	2026-09-30	2016069000
+LDI	debt_equity	statement	total equity	2026-09-30	310914000
+LDI	msr	tag	tag:ServicingAssetAtFairValueAmount	2026-09-30	1725465000
+LDI	msr	statement	servicing rights, at fair value (includes # and # pledged to creditors in securitization trusts at september # # and december # # respectively)	2026-09-30	1725465000
+ONIT	advances	statement	provision for bad debts (advances and receivables)	2026-09-30	12900000
+ONIT	advances	statement	decrease in advances	2026-09-30	123600000
+ONIT	advances	statement	acquisition of advances in connection with msr transactions	2026-09-30	-6200000
+ONIT	advances	statement	proceeds from sale of advances in connection with msr transactions	2026-09-30	1300000
+ONIT	advances	statement	repayment of advance match funded liabilities, net	2026-09-30	-82500000
+ONIT	hedge_cash	statement	increase in derivatives	2026-09-30	-97300000
+ONIT	debt_equity	tag	tag:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest	2026-09-30	608600000
+ONIT	debt_equity	tag	tag:SeniorNotes	2026-09-30	693600000
+ONIT	debt_equity	statement	senior notes, net	2026-09-30	693600000
+ONIT	debt_equity	statement	total stockholders’ equity	2026-09-30	608600000
+ONIT	msr	tag	tag:ServicingAssetAtFairValueAmount	2026-09-30	3360600000
+ONIT	msr	statement	mortgage servicing rights (msrs), at fair value	2026-09-30	3360600000
+ONIT	msr	statement	msr related financing liabilities, at fair value	2026-09-30	613100000
+ONIT	msr	statement	msr financing facilities, net	2026-09-30	1699900000
+RITM	advances	statement	interest received from servicer advance investments, rmbs, loans and other	2026-09-30	38771000
+RITM	advances	statement	servicer advances receivable	2026-09-30	205118000
+RITM	advances	statement	purchase of servicer advance investments	2026-09-30	-491375000
+RITM	advances	statement	principal repayments from servicer advance investments	2026-09-30	508224000
+RITM	hedge_cash	statement	net settlement of derivatives and hedges	2026-09-30	-618248000
+RITM	hedge_cash	statement	net settlement of margin deposits under repurchase agreements and derivatives	2026-09-30	-478735000
+RITM	debt_equity	tag	tag:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest	2026-09-30	9141357000
+RITM	debt_equity	tag	tag:UnsecuredDebt	2026-09-30	1907153000
+RITM	debt_equity	tag	tag:SecuredDebt	2026-09-30	14235647000
+RITM	debt_equity	tag	tag:LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths	2026-09-30	10619584000
+RITM	debt_equity	statement	unsecured notes, net of issuance costs	2026-09-30	1907153000
+RITM	debt_equity	statement	total stockholders’ equity	2026-09-30	9141357000
+RITM	msr	tag	tag:ServicingAssetAtFairValueAmount	2026-09-30	12187706000
+RITM	msr	statement	mortgage servicing rights, at fair value	2026-09-30	12187706000
