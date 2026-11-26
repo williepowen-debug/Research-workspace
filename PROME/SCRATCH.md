@@ -6,7 +6,7 @@
 **Prior session lines (records, not liveness):** the header as it stood through the 11/23 pickup, with the 11/20 to 11/22 and 11/18 to 11/19 session lines, is verbatim in `archive/SCRATCH_ROTATED_2026-11-23.md` § Block 1.
 **Prior sessions of 11/17:** the desktop session (four contexts, closed out 18:21 ET) and this evening's header lines are verbatim in `archive/SCRATCH_ROTATED_2026-11-17.md` § Block 5 and § Block 6.
 **Earlier contexts and sessions:** the 11/17 contexts' header lines are verbatim in `archive/SCRATCH_ROTATED_2026-11-17.md` § Block 5; the 11/16 sessions and older in its § Block 1.
-**Page last edited:** 2026-11-25 20:26 ET (`date`): rewritten at the closeout (header, § Next top block, item 7, § This session first bullet); the lines replaced are verbatim in `archive/SCRATCH_ROTATED_2026-11-25.md`.
+**Page last edited:** 2026-11-25 23:23 ET (`date`): final restamp at Will's 23:23 ET word to close out; § Next item 1 was rewritten about 23:10 ET for his 23:05 ET rulings on rows 754 and 755 (after the 20:3x ET closeout and its audit, so UNREVIEWED). Before that: rewritten at the closeout (header, § Next top block, item 7, § This session first bullet); the lines replaced are verbatim in `archive/SCRATCH_ROTATED_2026-11-25.md`.
 **This page references ledgers; it never copies their state.** Obligations live in DOCKET, decisions in WILL_QUEUE, gate state in GATES, positions in FORGE, standing rules in [STATUS](STATUS.md). History is the daily note and git. Rebuilt 2026-11-09 under WQ-658 A; the page it replaced is `archive/NOW_MIGRATION_2026-11-09/SCRATCH.md`.
 
 ## Next, in order
