@@ -1,0 +1,613 @@
+{
+  "lid": "SNFF1",
+  "usgsId": "02234500",
+  "reachId": "11033091",
+  "name": "St. Johns River near Sanford",
+  "description": "",
+  "rfc": {
+    "abbreviation": "SERFC",
+    "name": "Southeast River Forecast Center"
+  },
+  "wfo": {
+    "abbreviation": "MLB",
+    "name": "Melbourne"
+  },
+  "state": {
+    "abbreviation": "FL",
+    "name": "Florida"
+  },
+  "county": "Seminole",
+  "timeZone": "EST5EDT",
+  "latitude": 28.837777777778,
+  "longitude": -81.324444444444,
+  "pedts": {
+    "observed": "HGIRG",
+    "forecast": "HGIFF"
+  },
+  "status": {
+    "observed": {
+      "primary": 8.47,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "floodCategory": "major",
+      "validTime": "2026-11-25T23:30:00Z"
+    },
+    "forecast": {
+      "primary": 8.7,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "floodCategory": "major",
+      "validTime": "2026-11-27T00:00:00Z"
+    }
+  },
+  "flood": {
+    "stageUnits": "ft",
+    "flowUnits": "cfs",
+    "categories": {
+      "major": {
+        "stage": 8,
+        "flow": -9999
+      },
+      "moderate": {
+        "stage": 7,
+        "flow": -9999
+      },
+      "minor": {
+        "stage": 5.5,
+        "flow": -9999
+      },
+      "action": {
+        "stage": 4.2,
+        "flow": -9999
+      }
+    },
+    "lro": {
+      "minorCS": "> 0.95",
+      "moderateCS": "0.0767",
+      "majorCS": "< 0.05",
+      "producedTime": "2026-11-17T14:39:54Z",
+      "interval": "NDJ"
+    },
+    "crests": {
+      "historic": [
+        {
+          "occurredTime": "2022-10-09T00:00:00Z",
+          "stage": 8.96,
+          "flow": 18753,
+          "preliminary": "R",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2008-09-02T00:00:00Z",
+          "stage": 7.89,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2004-10-04T00:00:00Z",
+          "stage": 7.51,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2017-09-23T00:00:00Z",
+          "stage": 7.23,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2017-10-08T00:00:00Z",
+          "stage": 7.2,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2024-10-18T00:00:00Z",
+          "stage": 7.16,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2022-11-10T00:00:00Z",
+          "stage": 7,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1994-11-26T00:00:00Z",
+          "stage": 6.55,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1998-03-09T00:00:00Z",
+          "stage": 6.35,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1999-11-02T00:00:00Z",
+          "stage": 5.99,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1995-10-24T00:00:00Z",
+          "stage": 5.9,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2002-09-07T00:00:00Z",
+          "stage": 5.86,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2001-09-25T00:00:00Z",
+          "stage": 5.84,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1949-10-11T00:00:00Z",
+          "stage": 5.82,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1995-10-25T00:00:00Z",
+          "stage": 5.8,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1956-11-04T00:00:00Z",
+          "stage": 5.73,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1944-10-30T00:00:00Z",
+          "stage": 5.61,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1943-10-11T00:00:00Z",
+          "stage": 5.6,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1950-10-29T00:00:00Z",
+          "stage": 5.57,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1969-11-06T00:00:00Z",
+          "stage": 5.48,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1998-01-09T00:00:00Z",
+          "stage": 5.43,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1968-07-14T00:00:00Z",
+          "stage": 5.43,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1941-08-07T00:00:00Z",
+          "stage": 5.29,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1953-12-05T00:00:00Z",
+          "stage": 5.02,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1945-07-27T00:00:00Z",
+          "stage": 4.98,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1979-10-08T00:00:00Z",
+          "stage": 4.91,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1987-12-07T00:00:00Z",
+          "stage": 3.35,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1988-10-10T00:00:00Z",
+          "stage": 2.48,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        }
+      ],
+      "recent": [
+        {
+          "occurredTime": "2024-10-18T00:00:00Z",
+          "stage": 7.16,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2022-11-10T00:00:00Z",
+          "stage": 7,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2022-10-09T00:00:00Z",
+          "stage": 8.96,
+          "flow": 18753,
+          "preliminary": "R",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2017-10-08T00:00:00Z",
+          "stage": 7.2,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2017-09-23T00:00:00Z",
+          "stage": 7.23,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2008-09-02T00:00:00Z",
+          "stage": 7.89,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2004-10-04T00:00:00Z",
+          "stage": 7.51,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2002-09-07T00:00:00Z",
+          "stage": 5.86,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2001-09-25T00:00:00Z",
+          "stage": 5.84,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1999-11-02T00:00:00Z",
+          "stage": 5.99,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1998-03-09T00:00:00Z",
+          "stage": 6.35,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1998-01-09T00:00:00Z",
+          "stage": 5.43,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1995-10-25T00:00:00Z",
+          "stage": 5.8,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1995-10-24T00:00:00Z",
+          "stage": 5.9,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1994-11-26T00:00:00Z",
+          "stage": 6.55,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1988-10-10T00:00:00Z",
+          "stage": 2.48,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1987-12-07T00:00:00Z",
+          "stage": 3.35,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1979-10-08T00:00:00Z",
+          "stage": 4.91,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1969-11-06T00:00:00Z",
+          "stage": 5.48,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1968-07-14T00:00:00Z",
+          "stage": 5.43,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1956-11-04T00:00:00Z",
+          "stage": 5.73,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1953-12-05T00:00:00Z",
+          "stage": 5.02,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1950-10-29T00:00:00Z",
+          "stage": 5.57,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1949-10-11T00:00:00Z",
+          "stage": 5.82,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1945-07-27T00:00:00Z",
+          "stage": 4.98,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1944-10-30T00:00:00Z",
+          "stage": 5.61,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1943-10-11T00:00:00Z",
+          "stage": 5.6,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1941-08-07T00:00:00Z",
+          "stage": 5.29,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        }
+      ]
+    },
+    "lowWaters": {
+      "historic": []
+    },
+    "impacts": [
+      {
+        "stage": 13,
+        "statement": "Water level rises in parking lots at Lake Monroe Hospital and approaches New Tribes Mission in Sanford."
+      },
+      {
+        "stage": 11,
+        "statement": "Water enters the Sailpoint Apartments, Lake Monroe Inn, City Hall and approaches the Courthouse in Sanford."
+      },
+      {
+        "stage": 10.5,
+        "statement": "Water enters the Regatta Shores Apartments and Towne Center Apartments in Sanford."
+      },
+      {
+        "stage": 10,
+        "statement": "Water enters the old Post Office and Sanford Landing Apartments in Sanford."
+      },
+      {
+        "stage": 9.5,
+        "statement": "Water encroaches on Sanford Landing Apartments and other low lying structures along the waterfront."
+      },
+      {
+        "stage": 9,
+        "statement": "Flooding becomes more significant to the Sanford waterfront area. Water approaches low lying areas on the waterfront."
+      },
+      {
+        "stage": 8,
+        "statement": "Flooding becomes more significant to low lying structures and marinas along the river in Volusia and Seminole counties, including Sanford, Enterprise and Lake Monroe."
+      },
+      {
+        "stage": 7.4,
+        "statement": "Many secondary roads are flooded and may become impassable around Lake Monroe and in Enterprise. Rising water begins to impact more areas of Stone Island and water approaches homes in River Oaks Estates."
+      },
+      {
+        "stage": 7,
+        "statement": "Water begins to move over sea wall around Lake Monroe and rises into grassy areas around the sea wall. Water begins to encroach on Seminole Boulevard."
+      },
+      {
+        "stage": 6.5,
+        "statement": "Water enters a few lower lying homes in the Stone Island and Stillbrook subdivisions. The road into Stone Island becomes impassable. Water rises onto low lying property near Sanford. Parks and docks are flooded near Lake Monroe."
+      },
+      {
+        "stage": 6.2,
+        "statement": "Water completely surrounds many homes in the Stone Island and Still Brook subdivisions. Pool enclosures and patios become flooded. Water covers many of the roads. Flooding occurs on Enterprise Road and in the Bethel Loop subdivision."
+      },
+      {
+        "stage": 6,
+        "statement": "Water encroaches on low lying roads, also pool enclosures and patios in the Stone Island area."
+      },
+      {
+        "stage": 5.5,
+        "statement": "Water surrounds homes and covers some driveways in the Stone Island area near Enterprise in Volusia County. Water enters yards and floods docks in the River Oaks Estates subdivision."
+      },
+      {
+        "stage": 4.2,
+        "statement": "No wake zone and parks closed along the river, also some boat ramps closed."
+      }
+    ]
+  },
+  "images": {
+    "probability": {
+      "weekint": {
+        "stage": "https://water.noaa.gov/resources/probabilistic/exceedance/SNFF1.SSTG.prob.weekint.gif",
+        "flow": "https://water.noaa.gov/resources/probabilistic/exceedance/SNFF1.QINE.prob.weekint.gif",
+        "volume": "https://water.noaa.gov/resources/probabilistic/exceedance/SNFF1.volume.prob.weekint.gif"
+      },
+      "entperiod": {
+        "stage": "https://water.noaa.gov/resources/probabilistic/exceedance/SNFF1.SSTG.exceed.90day.gif",
+        "flow": "https://water.noaa.gov/resources/probabilistic/exceedance/SNFF1.QINE.exceed.90day.gif",
+        "volume": "https://water.noaa.gov/resources/probabilistic/exceedance/SNFF1.volume.exceed.90day.gif"
+      },
+      "shortrange": "https://water.noaa.gov/resources/probabilistic/short_term/SNFF1.shortrange.hefs.png"
+    },
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/snff1_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/snff1_record.png"
+    },
+    "photos": []
+  },
+  "dataAttribution": [
+    {
+      "abbrev": "US Geological Survey",
+      "text": "USGS--Water Resources of the United States",
+      "title": "US Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis"
+    },
+    {
+      "abbrev": "USGS",
+      "text": "02234500",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=02234500"
+    }
+  ],
+  "impactsLowWaters": [],
+  "normalThreshold": {
+    "value": 0,
+    "units": "ft"
+  },
+  "hydronotes": [
+    {
+      "statement": "River forecasts for this location take into account past precipitation and the precipitation amounts expected approximately 48 hours into the future from the forecast issuance time.",
+      "effective": "0101",
+      "expiration": "1212"
+    }
+  ],
+  "datums": {
+    "vertical": {
+      "value": []
+    },
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    }
+  },
+  "inundation": {
+    "enabled": false,
+    "url": "",
+    "zeroDatum": null,
+    "downloads": null,
+    "siteSpecificInfo": "",
+    "dataAttribution": []
+  },
+  "upstreamLid": "GENF1",
+  "downstreamLid": "DLAF1",
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "lowThreshold": {
+    "units": "ft",
+    "value": 0
+  },
+  "forecastReliability": "Forecasts are issued as needed during times of high water, but are not routinely available.",
+  "TruncateObs": "-1",
+  "TruncateFcst": "7",
+  "ObservedFloodCategory": "major",
+  "ForecastFloodCategory": "major"
+}
