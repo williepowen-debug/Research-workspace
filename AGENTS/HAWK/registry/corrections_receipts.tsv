@@ -34,3 +34,12 @@ receipt_date	correction_id	action	note
 2026-11-18T15:50Z	COR-20261117-28	NO-OP	scope=HAWK held no Qeshm 11/17 line before 11/18, KB-HAWK-530 and STATUS say anonymous US official and TARA GAS hit twice; 
 2026-11-18T15:50Z	COR-20261118-06	NO-OP	scope=HAWK held no 11/18 Kuwait line before this session, KB-HAWK-530 and STATUS carry claimant unsettled, damage NOT ESTABLISHED, ADNOC hull probably distinct; 
 2026-11-20T16:53Z	COR-20261119-14	APPLIED	artifact=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-548; validation_ref=NONE; 
+2026-11-26T17:02Z	COR-20261120-12	APPLIED	artifact=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-552; validation_ref=NONE; Russia not-targeted line now carried as an X relay; Tarabrin MFA wording; STATUS 11/26
+2026-11-26T17:02Z	COR-20261123-09	APPLIED	artifact=AGENTS/HAWK/domain/europe-rearm/INCURSIONS.tsv#EUR-2026-021; validation_ref=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-552; three Kh-101 per prosecutors (secondary)
+2026-11-26T17:02Z	COR-20261123-03	NO-OP	scope=HAWK carried no VIX leg, no Bahrain first-damage line and no V14 claim; 
+2026-11-26T17:02Z	COR-20261123-23	NO-OP	scope=HAWK carried no Araghchi timing or DNI quote; 
+2026-11-26T17:02Z	COR-20261123-04	NO-OP	scope=HAWK carried no Bahrain 11/21 casualty figure, and KB-HAWK-553 was written from the corrected card; 
+2026-11-26T17:02Z	COR-20261123-25	NO-OP	scope=HAWK carried no 11/20 port-order wording or tanker-doubling headline before this read, and KB-HAWK-550 was written from the corrected card; 
+2026-11-26T17:02Z	COR-20261124-21	NO-OP	scope=CIA and ODNI breach is CYPHER's and on no HAWK surface; 
+2026-11-26T17:02Z	COR-20261125-16	NO-OP	scope=HAWK carried no 11/25 Brent figure, and KB-HAWK-550 cites the corrected sign; 
+2026-11-26T17:02Z	COR-20261125-23	NO-OP	scope=HAWK counts one Hodeidah strike in KB-HAWK-550, and no HAWK surface carried two; 

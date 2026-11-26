@@ -74,7 +74,7 @@ def _fetch(url, timeout=12):
     try:
         ctx = ssl.create_default_context()
         req = urllib.request.Request(
-            url, headers={"User-Agent": "Mozilla/5.0 (compatible; HAWK/1.0; +research)"})
+            url, headers={"User-Agent": "research-bot/1.0"})  # WQ-735 A (Will 2026-11-23): honest client name; switched 2026-11-26
         with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
             data = r.read()
             if not data:

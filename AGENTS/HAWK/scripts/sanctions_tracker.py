@@ -54,12 +54,14 @@ def run_web_search(query, limit=5):
         # Use Google News RSS feed
         encoded_query = urllib.parse.quote(query)
         url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
-        
+
         ctx = ssl.create_default_context()
         req = urllib.request.Request(
             url,
             headers={
-                'User-Agent': 'Mozilla/5.0 (compatible; HAWK/1.0; +research)'
+                # WQ-735 A (Will 2026-11-23): honest client name, switched 2026-11-26 (news.google.com passed 11/23).
+                # fetch_rss_feed below serves only feeds.reuters.com, which did NOT pass: left unswitched until Will's 12/07 ruling.
+                'User-Agent': 'research-bot/1.0'
             }
         )
         

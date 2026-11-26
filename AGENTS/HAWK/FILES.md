@@ -129,3 +129,5 @@ October 29 Will-directed checks: `research/2026-10-29_EURMIL_residuals.md` (Euro
 November 9 closeout: `archive/LESSONS_ROTATED_2026-11-09.md` (read-cap rotation; seven July 12 to August 20 entries moved verbatim, each Rule line and a pointer left in LESSONS.md). Existing rotated-lessons class.
 
 November 18 session: `archive/STATUS_ROTATED_2026-11-18.md` (the 11/11, 11/9 and 11/6 STATUS blocks moved verbatim to keep the live surface thin; historical, never cite as current). Existing archived-STATUS class.
+
+November 26 session: `research/2026-11-26_C3-limb2-canvass-prep.md` (C3 limb-2 canvass day 2 and grade prep, no grade; existing dated-research class) and `archive/CROSS_WAR_SUMMARY_ROTATED_2026-11-26.md` (the aggregate's historical refreshes, October 21 back to September 11, moved verbatim with bytes and crc32 in its header; historical, never cite as current). New rotated-aggregate class, same rule as rotated STATUS and LESSONS.

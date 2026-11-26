@@ -633,3 +633,29 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-20T16:53:58+00:00	SIG-W-20261118-014	noted	WALTER	INFO card read whole; Black Sea LPG tanker war-risk headline (title only) = C3 limb-2 lead for OSPREY's 11/24-27 canvass, not countable. KB-HAWK-549.
 2026-11-20T16:53:58+00:00	SIG-W-20261118-010	info-only	WALTER	INFO card read whole; HY OAS is LIQUID's; no HAWK read.
 2026-11-20T16:53:58+00:00	SIG-W-20261119-012	info-only	WALTER	INFO card read whole; Russian bombers to Vietnam is a Polymarket-account post, unverified; logged combo:russia-force-posture KB-HAWK-549.
+2026-11-26T17:02:14+00:00	SIG-W-20261125-042	acted	INBOX_WALTER	IMMEDIATE ACTION card read whole; Jazan Port hit graded on HAWK's side (cross-war, war-risk, combined oil read), FALCON and BRENT grades not redone. KB-HAWK-550; TERRY and WALTER packets.
+2026-11-26T17:02:14+00:00	SIG-W-20261124-013	acted	INBOX_WALTER	ACTION card read whole; AWACS forward to Poland (reported), Estonia warning, Finland summons. EURMIL ORANGE held, HAW-26 not met. KB-HAWK-552; INCURSIONS EUR-2026-021 note.
+2026-11-26T17:02:14+00:00	SIG-W-20261123-009	acted	INBOX_WALTER	CORRECTION read whole; three Kh-101 applied to INCURSIONS EUR-2026-021 and STATUS. COR-20261123-09 APPLIED. KB-HAWK-552.
+2026-11-26T17:02:14+00:00	SIG-W-20261120-012	acted	INBOX_WALTER	CORRECTION read whole; Russia 'not targeted' line is an X relay, Tarabrin MFA wording carried. COR-20261120-12 APPLIED. KB-HAWK-552.
+2026-11-26T17:02:14+00:00	SIG-W-20261125-017	acted	INBOX_WALTER	Read whole; MOFCOM No. 59 moves 46-hao clause 2 suspension to 2027-01-27; TRADE01 ORANGE held; STATUS clock corrected. KB-HAWK-554.
+2026-11-26T17:02:14+00:00	SIG-W-20261124-006	acted	INBOX_WALTER	IMMEDIATE (info to HAWK) read whole; Hodeidah strike and conditional Saudi-port threat, condition met; feeds the Jazan grade. KB-HAWK-550.
+2026-11-26T17:02:14+00:00	SIG-W-20261123-022	acted	INBOX_WALTER	Read whole; Iran full sweep 11/18-23, Houthi port order, IMO 141, Kpler clearance floor, OFAC 11/23. KB-HAWK-550, KB-HAWK-553.
+2026-11-26T17:02:14+00:00	SIG-W-20261123-025	acted	INBOX_WALTER	CORRECTION read whole; port order conditional, Jeddah named, tanker-doubling headline is June. COR-20261123-25 NO-OP (HAWK carried none of it). KB-HAWK-550.
+2026-11-26T17:02:14+00:00	SIG-W-20261121-002	noted	INBOX_WALTER	Read whole; Bahrain 11/21 industrial site hit, FALCON graded (rung NOT FIRED); superseded casualty line by 004.
+2026-11-26T17:02:14+00:00	SIG-W-20261123-004	noted	INBOX_WALTER	CORRECTION read whole; Bahrain 11/21 two injured; Rabigh claim; Chabahar incident unconfirmed. COR-20261123-04 NO-OP (HAWK carried no Bahrain 11/21 casualty figure). KB-HAWK-553.
+2026-11-26T17:02:14+00:00	SIG-W-20261123-015	noted	INBOX_WALTER	Read whole; Gulf follow-up, no convoy date, CENTCOM silent on 11/22 incident.
+2026-11-26T17:02:14+00:00	SIG-W-20261123-016	noted	INBOX_WALTER	Read whole; Israeli solo-strike debate reported (Channel 12), no decision. KB-HAWK-553.
+2026-11-26T17:02:14+00:00	SIG-W-20261123-023	noted	INBOX_WALTER	CORRECTION read whole; Araghchi one sentence, DNI quote on 008. COR-20261123-23 NO-OP.
+2026-11-26T17:02:14+00:00	SIG-W-20261123-024	noted	INBOX_WALTER	Read whole; TD3C vs TD34 gap widened; Gulf war rates 7-9% pre-hulls. KB-HAWK-553, war-risk aggregate.
+2026-11-26T17:02:14+00:00	SIG-W-20261124-017	noted	INBOX_WALTER	Read whole; UKMTO 219-26 three ships 22 Nov one event; ADNOC PPA transit ban notice. KB-HAWK-553.
+2026-11-26T17:02:14+00:00	SIG-W-20261125-002	noted	INBOX_WALTER	Read whole; IRGC mine and container-ship claims CLAIM ONLY; carrier count conflict FALCON's.
+2026-11-26T17:02:14+00:00	SIG-W-20261125-003	noted	INBOX_WALTER	Read whole; WSJ tanker cyber targeting, official denies Iran evidence. KB-HAWK-553.
+2026-11-26T17:02:14+00:00	SIG-W-20261125-008	noted	INBOX_WALTER	Read whole; Ras Tanura CLAIM ONLY, smoke not a refinery hit. KB-HAWK-550.
+2026-11-26T17:02:14+00:00	SIG-W-20261125-010	noted	INBOX_WALTER	Read whole; Hodeidah second report, CPC curb, Putin refinery-talks claim. KB-HAWK-553; CPC item carried to C3 canvass record.
+2026-11-26T17:02:14+00:00	SIG-W-20261125-016	noted	INBOX_WALTER	CORRECTION read whole; Brent January UP 2.3%, sign flip. COR-20261125-16 NO-OP (HAWK carried no 11/25 Brent figure). KB-HAWK-550 cites corrected sign.
+2026-11-26T17:02:14+00:00	SIG-W-20261125-023	noted	INBOX_WALTER	CORRECTION read whole; Hodeidah one strike counted. COR-20261125-23 NO-OP. KB-HAWK-550 counts one.
+2026-11-26T17:02:14+00:00	SIG-W-20261123-006	noted	INBOX_WALTER	Read whole; Merkury at Benghazi (out of C3 geography); Gulf of Finland Russia-bound ship 11/21-22 identity UNVERIFIED, carried to C3 canvass record as the only possible limb-1 item (OSPREY's). KB-HAWK-551, KB-HAWK-553.
+2026-11-26T17:02:14+00:00	SIG-W-20261123-003	info-only	INBOX_WALTER	CORRECTION read whole; VIX lateness, Bahrain 'first', V14: none on a HAWK surface. COR-20261123-03 NO-OP.
+2026-11-26T17:02:14+00:00	SIG-W-20261124-018	info-only	INBOX_WALTER	Read whole; small items; item 21 OFAC/FinCEN noted in KB-HAWK-553.
+2026-11-26T17:02:14+00:00	SIG-W-20261124-021	info-only	INBOX_WALTER	CORRECTION read whole; CIA/ODNI breach is CYPHER's. COR-20261124-21 NO-OP.
+2026-11-26T17:02:14+00:00	SIG-W-20261125-034	info-only	INBOX_WALTER	Read whole; small items; item 6 Red Sea insurance and Egypt Black Sea titles carried as non-in-scope leads in the C3 canvass record.
