@@ -84,6 +84,32 @@
 
 QQQ 690/670P put wall (Will's own hand, +$1,683.92 known, one leg's price UNKNOWN) · HYG 76/73P hedge (approved, fired 11/6, fill UNKNOWN, window to 12/4; PB-0011 paper fill $0.46 vs 11/25 vendor mid $0.61, bid side $0.28) · CRWV 40/30P (approved, NOT-FIRED, to 12/11) · VST shares, IEF 90/92C, FXY 58/60C (reached 10/20, shelved 10/29) and RSP Jan 215/225C (reached 10/20, declined 11/6). Those four can be valued the same way on request.
 
-## (c) and (d)
+## (c) The inbox: 21 packets read in full, NO CARD each (`TRY-NOTRADE-DRAIN-NOV26`)
 
-See the addendum below (filled after the inbox pass).
+Count reconciled: `boot.py` showed 22 at 16:21 EST = PROME's 21 plus PROME's own launch letter. All 21 committed by their senders. Position-facing first.
+
+| Packet | What it is | Disposition |
+|---|---|---|
+| DEWEY 11/26 HYG-BDC grade | owner thesis grade: **MIXED** (description right, persistence wrong) | recorded in `POSTMORTEMS.md` grade table: **owner grades now 11 of 12** (owed WAL; PROME ORCL) |
+| BOND 11/25 TLT-004 grade + auctions | grade already recorded 11/25 (packet was uncommitted then, committed since); auctions: bid substitution, no add gate | filed; no card. BOND's FR2004 dealer-leg read about 12/3 bears on any new duration-short card |
+| VIOLET ×2 (vol fade; view 75%) | VIX 28.29 [11/25]; Dec VX 25.03 already prices a fade to 25; wide credit means a slower fade, not a second spike | no card: the fade is priced, spot VIX not tradeable. **Constructible:** the pending VIX call-spread leg (earliest a VIX-down session from 11/30, a new card to Will), unchanged |
+| HENRY 11/25 close check | S&P 7,182.78; odds withdrawn; two-way 7,000–7,450 range; index options did not cheapen on the bounce | no card |
+| SHADE 11/26 Athene AI credit | $2.41B par of AI-linked credit bought in Q3, carried at amortized cost; no CoreWeave line | no card: no loss channel before NAIC migration (~10% by the FY2026 annual, SHADE). APO puts would be a proxy of a proxy |
+| CARL 11/26 lower-tier credit | borrower-level stress, balance-level losses stable, prime trusts improving | no card today. **Constructible:** CARL's dated trigger, Synchrony's November trust NCO above 4.35% (~mid-December), as a NOT-FIRED put idea; needs live prices, not built on a holiday |
+| CARL 11/26 Affirm vs Klarna | one lender's reserve build, contradicted by the other; prints 1–3 weeks old | no card |
+| LABOR 11/26 KELYA | thesis side of an 8/21 expiry: macro leg wrong, inferable at entry | recorded in `POSTMORTEMS.md`; construction point noted, no rule added |
+| BRENT, FALCON, HAWK (Jazan) | Houthi hit at Jazan Port, minor damage; no barrels lost; a skew toward a Yanbu loading-stop tail (~10% by 12/9, FALCON) | no card. **Fenced, not absent:** a Brent tail call spread on a stated Saudi Red Sea loading stop is constructible, but the energy arm is retired (Will 8/7); reviving it is his word only |
+| FERT 11/25 | MAP $1,004 (lagging retail series); Mosaic sells Faustina to CF (~$600M); s.301 proposal with no date | no card (CF was a declined card on 11/4; nothing here re-opens it) |
+| HOMER ×3, NEXUS ×2, REGINALD | mortgage distress moving FHA to GSE/VA; mortgage insurers' notices +10.6% but loss ratios 10–20% and capital 158–193% of requirement; apartment losses on Fannie, banks and junior holders before any listed stock; warehouse books secured, no late loans | no card: earnings drag not solvency, horizon Q4 prints (late Jan–Feb 2027), options on the insurers unread and thin (NEXUS). Two of the six are same-day corrections, one a copy |
+| CORAL 11/25 DeLand flood | rural single-family reach; Seacoast 10% of the three counties' deposits | no card (nothing observable before the 12/31 call report) |
+| CREED 11/25 Q3 QBP | CREED-T-03 NOT FIRED; the bad prints are one private bank | no card |
+
+Small items logged under Will's 11/5 rule: two `combo:` rows in `SIGNALS.tsv` (credit-following; bear-premise erosion, counterevidence included). Logging is not scoring.
+
+**PROME's two unverified claims, tested against what this desk saw (not adopted):**
+- **"Flooded":** 21 packets in about 28 hours (11/25 13:2x to 11/26 13:01). They carry about **14 distinct findings**: 3 packets on one Jazan event, 6 on one mortgage channel (2 of them same-day corrections, 1 a copy), 2 VIOLET packets on one view. Each took minutes to read; volume is not what stopped a card in this batch.
+- **"Upstream desks filter ideas":** not what this batch shows. Every finding arrived, with its numbers. What arrived pre-judged is the verdict: **19 of 21 carry "no card" wording (grep count, 16:36 EST)**, mostly the sender's own lean or the standard "NO CARD is complete" line (a few only say no card is asked), and none proposes a structure (WQ-696 does not ask for one). I cannot see ideas a desk never sent, so this tests only what reached me.
+
+## (d) Two sentences (labelled)
+
+**Of the 21 packets read, two held an idea this desk could construct on (the pending VIX call-spread leg and a Synchrony trust-print put idea), a third is constructible but fenced by Will's retirement of the energy arm (a Brent tail on a Yanbu loading stop), and the other 18 had no listed vehicle, no edge, or an already-priced move.** ⚠️ *Recollection:* I have no memory across sessions, so I cannot recall how my sessions since 11/6 divided; my own STATUS record for 11/24–11/25 shows three sessions, of which one built a card (CRWV, 11/24) and two went mostly to reading and grading packets (11 and 16 drained, NO CARD each) and encoding Will's ruling, and the repo's record of sessions is the count, not this.
