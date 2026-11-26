@@ -4,6 +4,10 @@
 
 ---
 
+## Reporting to Will
+
+- **Cash lines: say the direction in words, not only the signed figure** (DAEDALUS upgrade read of `filing_reader.py`, relayed by Will 2026-11-25 23:22 ET): e.g. "Rocket advances +$365M: cash came back in, advances fell", never a bare "+$365M". On a cash flow statement a positive figure added cash and a negative used it; say which, and say when the sign reading is mine rather than the issuer's.
+
 ## Promotion Provenance
 
 - **2026-07-12:** Promoted from `AGENTS/CARL/sub_agents/HOMER/` to top-level `AGENTS/HOMER/` via `git mv` (history preserved). Will-directed, same-day execution — overrode CARL's own recommendation to wait until the post-7/24 quiet window (compressed review, not skipped; DAEDALUS structural review at `AGENTS/DAEDALUS/builds/homer_promotion/PROMOTION_REVIEW.md`). Case originated from CARL: `AGENTS/DAEDALUS/inbox/2026-07-12_from-CARL_homer-promotion-case.md`.

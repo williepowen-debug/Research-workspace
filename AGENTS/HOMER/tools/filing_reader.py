@@ -220,6 +220,7 @@ STATEMENT_LINES = {  # line -> (statement, row pattern)
 }
 BALANCE_LINES = {"debt_equity", "msr"}  # idea 3: change since the last draft, balance sheet figures only
 MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+YEAR_TOKEN = re.compile(r"^(19|20)\d{2}$")  # a bare year is label text ("notes due 2031"), never a figure (DAEDALUS 11/25)
 NUM_TOKEN = re.compile(r"^\(?-?\$?(\d{1,3}(,\d{3})+|\d+)(\.\d+)?\)?$")  # no trailing comma: "30," is a date part
 DATE_LINE = re.compile(r"[A-Z][a-z]{2}\.? \d{1,2}, \d{4}")
 
@@ -251,7 +252,9 @@ def parse_number(tok):
 
 
 def parse_statement(text):
-    """(scale, [column dates], [(label, [values])]). Rows stop at the definitions section ('X')."""
+    """(scale, [column dates], [(label, [values])], [partial rows]). Rows stop at the definitions section ('X').
+    A row with fewer figures than columns (a blank cell) is never assigned to columns: DEWEY's text drops
+    blanks, so which column is empty cannot be known. It goes to `partial` for a "read the page" line."""
     lines = [l.strip() for l in text.splitlines() if l.strip()]
     scale = None
     for l in lines[:12]:
@@ -268,19 +271,25 @@ def parse_statement(text):
             dates.append(dt.date(int(m.group(3)), MONTHS[m.group(1).lower()], int(m.group(2))).isoformat())
     if not dates:
         raise ReadError("statement page has no column dates")
-    n, rows = len(dates), []
+    n, rows, partial = len(dates), [], []
     for l in lines:
         if l == "X":
             break
         if DATE_LINE.fullmatch(l):
             continue
         toks = l.replace("$ ", "$").split()
-        if len(toks) <= n or not all(NUM_TOKEN.match(x) for x in toks[-n:]):
+        k = 0
+        while k < len(toks) - 1 and NUM_TOKEN.match(toks[-1 - k]) and not YEAR_TOKEN.match(toks[-1 - k]):
+            k += 1
+        if k == 0:
+            continue
+        if k < n:
+            partial.append((" ".join(toks[:-k]), l))
             continue
         rows.append((" ".join(toks[:-n]), [parse_number(x) * scale for x in toks[-n:]]))
     if not rows:
         raise ReadError("statement page parsed to no rows")
-    return scale, dates, rows
+    return scale, dates, rows, partial
 
 
 def read_statements(cik, accn):
@@ -404,7 +413,7 @@ def read_company(key, name, cik, period, labels, prev_period, prev, record):
         stmt_found = False
         if lk in STATEMENT_LINES:
             skind, srx = STATEMENT_LINES[lk]
-            rname, scale, dates, rows = sts[skind]
+            rname, scale, dates, rows, partial = sts[skind]
             cols = " vs ".join(dates)
             if dates[0] != period:
                 out.append(f"- Statement {rname}: first column is {dates[0]}, not {period}; read the page")
@@ -412,6 +421,11 @@ def read_company(key, name, cik, period, labels, prev_period, prev, record):
             shown = set()
             for lab in confirmed:
                 row = next((r for r in rows if norm_label(r[0]) == norm_label(lab)), None)
+                half = next((r for r in partial if norm_label(r[0]) == norm_label(lab)), None)
+                if row is None and half is not None:
+                    stmt_found = True
+                    out.append(f"- **Confirmed label has a blank cell** on {rname}: `{half[1]}` (which column is blank is unknown: read the page)")
+                    continue
                 if row is None:
                     out.append(f"- **Confirmed label NOT FOUND** on {rname}: `{lab}` (relabelled or removed: read the page)")
                     continue
@@ -428,8 +442,13 @@ def read_company(key, name, cik, period, labels, prev_period, prev, record):
                 out.append(f"- Statement, pattern match ({rname}, {cols}): `{lab}` = "
                            + " vs ".join(money(v) for v in vals) + note)
                 record.append([key, lk, "statement", norm_label(lab), period, f"{vals[0]:.0f}"])
+            for lab, raw in [r for r in partial if pat.search(r[0])][:3]:
+                stmt_found = True
+                out.append(f"- Statement row with a blank cell ({rname}): `{raw}` (which column is blank is unknown: read the page)")
             if not stmt_found:
                 out.append(f"- Statement {rname}: **no row matches** (this page only)")
+            if skind == "cashflow":
+                out.append("- Cash flow sign as presented: a positive figure added cash, a negative used it")
         if not concepts and not stmt_found:
             out.append("- **No standard tag** (survey 2026-11-25) and no statement row: text search below")
         if lk not in STATEMENT_LINES or not stmt_found:
@@ -609,11 +628,16 @@ def selftest():
          and bool(text_hits(blocks("(Increase) decrease in servicing advances\n( 240,485 )\n\nX"), LINES[0][3], 0))),
         ("text with no match reports nothing, not a figure", text_hits(blocks("Nothing here 123\n\nOther 456"), LINES[1][3], 0) == []),
     ]
-    sc, ds, rws = parse_statement(page)
+    sc, ds, rws, prt = parse_statement(page)
+    sc2, ds2, rws2, prt2 = parse_statement(page.replace("X\nName", "6.5% senior notes due 2031 1,000,000\nX\nName"))
     checks += [
         ("statement rows read with scale and both columns", sc == 1e3 and ds == ["2026-09-30", "2025-09-30"]
          and ("(Increase) decrease in servicing advances", [-240485000.0, 7508000.0]) in rws),
         ("dollar figures inside a label do not become values", any(r[0].startswith("Mortgage servicing rights") and r[1] == [11639077000.0, 9598941000.0] for r in rws)),
+        ("a year at the end of a label with a blank cell is not read as a figure",
+         not any(r[0].startswith("6.5%") for r in rws2) and ("6.5% senior notes due 2031", "6.5% senior notes due 2031 1,000,000") in prt2),
+        ("a full row whose label ends in a year keeps the year in the label",
+         parse_statement("$ in Thousands\nSep. 30, 2026\nDec. 31, 2025\nNotes due 2031 1,000,000 900,000\n")[2] == [("Notes due 2031", [1e9, 9e8])]),
         ("definitions section after 'X' is not read as rows", not any("pfsi_Foo" in r[0] for r in rws)),
         ("parenthetical page skipped, one page per statement", statement_pages(summ) == {"cashflow": "R7.htm", "balance": "R2.htm"}),
         ("change computed for a balance line", change_note("2026-06-30", {("X", "msr", "L"): 100e6}, "X", "msr", "L", 150e6).endswith("$50.0M")),
