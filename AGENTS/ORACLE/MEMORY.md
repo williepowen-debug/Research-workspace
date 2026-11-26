@@ -49,3 +49,5 @@ ORACLE brought back online after 79 days dormant (last touch 2026-04-01 inaugura
 **Boot status (2026-11-05):** pull live BEFORE characterizing the day to Will. A "status only" boot on the routine's 10:15 ET read told him the crowd priced in less risk; the 18:11 ET pull showed Dec hike −10pp more during a −4.4% S&P day. Quote a stale read only with its time and without a direction-of-risk summary.
 
 **Move basis (2026-11-06):** quote a Fed move from the level held before it, with the basis. The 11/05 '17 points' started from a brief 80.5 spike; the held level gave 14. Check the hour bars around any headline move before repeating it.
+
+**Pins and listings (2026-11-26):** a by-date EVENT pin surfaces its top-priced leg, which can be a drained far leg (senior meeting showed 50.0 on $52 liq); pin the deep leg as a MARKET. Polymarket's monthly WTI ladder lists on the 25th at 04:01Z (April to November); December did not, so a missing listing is checkable by date, not just by search. For Kalshi Fed meetings beyond December, use the decision series (`KXFEDDECISION-<YYMMM>`), not the thin level ladder.

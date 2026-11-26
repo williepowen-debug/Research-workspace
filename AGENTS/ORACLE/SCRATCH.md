@@ -1,69 +1,73 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Last updated:** 2026-11-18 (Wed) 10:4x ET · **Box:** desktop `DESKTOP-BC6EF81`, Kalshi SIGNED (`status` rc=0) · Session: Claude Code, Opus 5.5, booted 10:32 ET on PROME's registered wake (prome-6e, DOCKET line 1173, WQ-704). Letter: no pull, no push until PROME's closeout ask; message prome-6e when the packet is committed; then hold the window. Prior live session: 2026-11-12 (oracle-a6); routine-only 11/13 to 11/18.
+**Last updated:** 2026-11-26 (Thu, Thanksgiving) 16:2x ET · **Box:** laptop `WilliePOwen`, Kalshi UNSIGNED (`status` rc=3; signed lane is desktop-only) · Session: Claude Code, Opus 5.5, oracle-47, booted 11:15 ET. Work came from Will's status ask, then PROME prome-80's Thanksgiving tasking (11:39 and 11:52 ET), then Will's own asks ("keep going on the overdue tasks" 12:42 ET; "lets work on whats still open" 15:39 ET; "lets close out" 16:20 ET). Prior live session: 11/18.
 
-## CHANGES SINCE 11/12
+## CHANGES SINCE 11/18
 
-- Routine ran every weekday 11/13 to 11/18 (ran-check OK); its rows are NOT graded (see NEXT).
-- Fed December went to about 97 on both venues (Kalshi 78 → 96 on 11/10, October CPI day). Iran: confirmed US self-defense strike on Qeshm 11/17; the pause by-11/8 leg resolved NO 11/17 21:30Z. Nvidia Q3 printed 11/17 (card SIG-W-20261117-019); Huang not reinstated.
+- The routine ran every weekday except **11/24**. That day the laptop was awake, and all five slots failed on `Could not resolve host: github.com`, inside PROME's recorded outage of 11/23–11/24. It was not sleep.
+- **Fed:** December is near-settled (Kalshi above-4.00 96, PM +25 93.5). January 2027 is near even odds for a second hike (PM 53.5, Kalshi 57).
+- **Iran:** the pause by 11/30 went 42 → 72 with no acknowledged US strike since Qeshm 11/17, while the Gulf war widened. The oil tail is gone: WTI $110 Nov 0.7, spread +96.6.
+- **Nvidia:** the board reinstated Huang as CEO on 11/23 (8-K), and the successor markets resolved. The AI-downturn market whipsawed 8 → 40 → 70 → 12 → 35 → 16 on a book that thinned about 8×.
+- **October CPI:** the market resolved 3.7% on 11/20, on its fallback rule.
 
-## WHAT I DID (11/18)
+## WHAT I DID (11/26), commits in order
 
-- **Boot:** no pull (letter); dirty tree is other desks'. Ran-check OK. Corrections rc 1 → COR-20261112-03 receipted NO-OP. Kalshi SIGNED. Pulls 15:33Z (PM 51 rows, Kalshi 9; context, after the routine's 15:15Z gate read); spread +92.8.
-- **WQ-704 document:** `research/2026-11-18_WQ704_market-vs-fleet-forecast-gaps.md`. 10 of 129 open fleet predictions have a priced counterpart. Largest gaps: HNS-13 ECB December (HANS 70 vs PM 98.4, −28.4, same event) and HEN-63 Fed December (HENRY 0.70 vs Kalshi 97 same letter, −27); third France HNS-14 (30 vs 9.5, partial, cannot tell). AEO-17 likely NO-VERDICT on print timing (OND RONI prints about early January; INFERRED). No investment implication. KB-ORC-140 (December read), KB-ORC-141 (ranking), KB-ORC-142 (Iran pause leg).
-- **Packets (committed, carve-out ①):** PROME delivery; TERRY (no implication, expects NO CARD); information to HENRY, HANS, AEOLUS, LABOR, RED, MIDAS.
-- **Stale KB (PROME 11/16, Will 11/16 23:16 ET):** 13 rows past Stale_By: retired 7 (128, 129, 131 STALE; 132, 134, 135, 138 SUPERSEDED), refreshed 6 (099 rule re-read; combos 119, 120, 122, 123, 124). Consumer check 90.5 → 92.5: 0 certified stale.
-- **Watchlist:** by-11/8 pause pin retired with a resolution record.
-- **Inbox:** 5 of 5 processed (`git mv` to each lane's `processed/`).
-- **Commit hashes:** see `git log --oneline -3 -- AGENTS/ORACLE/` (one session commit plus the packet commits).
+- a89c2f5efe: inbox 9/9 drained; routine backlog 11/13–11/25 graded late (VX-ORC-04 none, -06 Watch touched, -07 🔴 Critical on AI −21.4, -12 Alert held); KB-ORC-143 to 151; `workbook/F1_BRIER.tsv` (bank-failure Brier 0.217, n=5, every miss under-priced a failure); STATUS full rewrite; NEH full-rules PDF read. d802836255: PROME return packet.
+- 120954ff5e: `tools/routine_check.py` now prints band touches and 48h pairs since the last grade (read-only). Owner-TESTED: it reproduced the hand grade and found one Alert pair the hand grade missed (by-11/8 pause −14.0). 7e08f07b72: review ask to DAEDALUS, which is PENDING.
+- d83eceed11 + 9e5d3bafb5, 82f4a16289, 5e239f219b, 09f68a333a, a9141a33e5:
+  - Rolls: senior meeting → 12/31 market; pause 12/31 leg; Hormuz normal 1/31/27 and 6/30/27; Hormuz weekly → week of 11/23.
+  - January FOMC pinned on both venues (KB-ORC-152).
+  - Coverage sweep (KB-ORC-153), with nominations to HAWK, BRENT and VULCAN; INFO packets to BROCK and HENRY.
+- 2c3b0320e6: TRADE.md regenerated (TRADE_MARKS 624 rows); KB-ORC-155 (Nvidia successor resolution), KB-ORC-156 (integrity review); blockade-end 12/31 pinned. 5ed8ac8115, 6cc2f16f07: late Iran pause routing (+30pp) to HAWK and BRENT.
+- fee215bc2a: WQ-295 WATCH_FOR check closed with no proposal (KB-ORC-157); KB-ORC-086 back-sweep clean (158).
+- 49d9dcfbe9, 6e317279f9, f46b13a523: November CPI rungs T3.6 and T3.7 pinned (KB-ORC-159); December oil-leg status recorded (KB-ORC-160, Kalshi $115 settle-max pinned as context); Russian diesel nomination actually sent (KB-ORC-161, correcting the unsent 11/04 note).
+- Closeout commit: HISTORY.tsv refreshed, this file, NEXUS_BRIEF.
 
 ## NEXT SESSION (dated, priority-flagged)
 
-- **🔴 Every boot:** `tools/routine_check.py`; grade routine rows into `V5_NOV110_READS.tsv` (⚠️ SKIPPED 11/13 to 11/18), VX-ORC-04, VX-ORC-12; December read in the KB-ORC-140 form (venues + futures, both caveats).
-- **🔴 WQ-704 follow-ups:** watch for TERRY's answer (expected NO CARD); if Fed or ECB venues fall under about 85 before 12/9 or 12/17, re-run the comparison (doc §6).
-- **🟠 Iran:** HAWK/BRENT packet on the pause leg ⚠️ SKIPPED 11/18 (KB-ORC-142 carries it); pause by 11/30 42.0 (−14.5 d1).
-- **🟠 Hormuz weekly re-pin** (pinned weekly resolved 11/16) and **0-ships closure** context row: re-search.
-- **🟠 Coverage sweep:** due by 11/18, ⚠️ SKIPPED; run next session.
-- **🟠 Full STATUS rewrite:** tier tables are 11/06 vintage under the 11/12 and 11/18 alerts.
-- **🟠 Rolls:** December $110 at listing (~11/25; bump REGIME) · Kalshi Brent month-end 11/30.
-- **🟠 Nomination to VULCAN via PROME:** successor market (PM `next-ceo-of-nvidia`, Kalshi `KXNVDACEO-29JAN`); blockade-end by 12/31.
-- **🟠 Kalshi CPI:** pin `KXCPIYOY-26NOV` rungs after HENRY's view. **`TRADE.md`** tables (rendered 11/04). **Russian diesel** nomination (BRENT/OSPREY).
-- **🟡 Combination reviews:** 11/26 bank-book-depth · 11/30 strike-vs-oil, diplomacy-drift (REVERSED this week), ai-unwind-read · 12/11 print-miss-direction · polymarket-integrity and venue-legal-risk (review dates 11/19, 11/20 per their rows).
-- **🟡 ~12/10:** October CPI market fallback resolution (KB-ORC-136) → HENRY. **2026-12-15:** Kalshi gap-fill quarterly re-check (WQ-305).
-- **🟡 Carried:** DAEDALUS F-1 Brier (bank-failure family) · NEH PDF unread · KB-ORC-086 sweep · WQ-295 WATCH_FOR check · WQ-599 daily-grading owner (unowned per the ruling record).
+- **🔴 Every boot:** `tools/routine_check.py` now prints a BAND-SCAN section. Grade each touch on its VX row, route it per the signal table, then bump the row's Updated.
+- **🔴 Mon 11/30 – Tue 12/1:** the November $110 leg, Hormuz normal by 11/30, the pause by 11/30 (the run completes about 12/1 if no US strike) and Kalshi Brent month-end all resolve. Retire them with resolution records.
+  - **Re-search December WTI $110.** It is absent, breaking the pattern of listing on the 25th.
+  - If it is still absent, VX-ORC-04 goes UNKNOWN and the spread series ends. A substitute leg is Will's call: proposal to PROME (KB-ORC-160).
+  - Also re-search December yield ladders, Hormuz December legs and Kalshi Brent December.
+- **🟠 Replies owed TO ORACLE (no reply = not pinned):** HAWK (Israel–Iran ceasefire, Iran leadership change); BRENT (crude all-time-high pair; Russian diesel); OSPREY (Russian diesel); VULCAN (Anthropic bankruptcy). DAEDALUS: routine_check review.
+- **🟠 Thu 12/3:** coverage sweep due. **12/04:** November U3. **12/09:** FOMC; VX-ORC-12 retires either way. **12/10:** November CPI, scored against the Kalshi mode 3.7 (combo:print-miss-direction).
+- **🟡 Combination reviews:** 11/30 strike-vs-oil, diplomacy-drift, ai-unwind-read · 12/10 bank-book-depth, venue-legal-risk, polymarket-integrity (candidate to close) · 12/11 print-miss-direction.
+- **🟡 12/15:** Kalshi gap-fill quarterly re-check (WQ-305). Open bank-failure instance: add its F-1 row at resolution.
+- **🟡 Still unowned:** WQ-599 daily-grading owner. The same-day routine-grading variant is OFF: it changes WQ-527 C and sits in PROME's ideas list for Will.
 
 ## CARRY-FORWARD
 
-- **Push state:** at closeout 10:4x ET 11/18 (PROME's closeout ask), 2eef85ad28 and the eight packet commits 99022e2fcd..1b238fb435 were already on origin/master, carried by another desk's push (verified with merge-base). This SCRATCH fix goes by `safe-push.sh`. TERRY answered NO CARD (4fb5ef0e9b). PROME accepted WQ-704; D:L1173 RESOLVED.
+- **Push state:** before this closeout, every 11/26 commit above was already on origin/master (fetched 16:1x ET: 0 ahead, 0 behind). The closeout commit goes by `scripts/safe-push.sh`.
 - **Combination themes (`combo:` in KB Notes):** strike-vs-oil · diplomacy-drift · polymarket-integrity · bank-book-depth · ai-unwind-read · print-miss-direction · venue-legal-risk.
-- **Cadence settled:** PROME 11/04: one read per weekday stands. No halt rule proposed (Will 10/31: fewer rules).
-- **`TRADE.md` refresh:** rerun `tools/trade_marks.py --write`, then regenerate the tables; never hand-type a vintage.
-- **Fed futures method (verified 11/11 and 11/18):** Dec average = 100 − ZQZ26; post = (31 × avg − 9 × EFFR) / 22; unit check ZQX26 = EFFR. Full precision via `.venv/bin/python` yfinance. One 0.005 tick = 0.7bp. NY Fed EFFR API `markets.newyorkfed.org/api/rates/unsecured/effr/last/3.json`.
-- **WQ-704 method (re-usable):** open fleet rows = `AGENTS/*/workbook/PREDICTIONS.tsv` with Status OPEN/ACTIVE/PENDING/LIVE/WATCH/blank; pair only after reading each market's rule text; grade SAME / PARTIAL / SUPERSET / DERIVED; show the gap now and at registration (PM CLOB `prices-history`, own logs). Kalshi has no December 2026 ECB event (KXECB newest is September 2025). Kalshi `search` hits its page cap: a zero is not an absence; use `kalshi.py series --category` and the `/events?series_ticker=` API.
+- **Fed futures method:**
+  - December average = 100 − ZQZ26; post-meeting rate = (31 × average − 9 × EFFR) / 22.
+  - January: the February average (100 − ZQG27) is the post-January rate.
+  - Full precision via `.venv/bin/python` yfinance; one 0.005 tick = 0.7bp.
+  - NY Fed EFFR API: `markets.newyorkfed.org/api/rates/unsecured/effr/last/3.json`.
+- **Kalshi decision markets:** the decision market (`KXFEDDECISION-27JAN`) is deep; the `KXFED-27JAN` level ladder is thin. Use the decision market for January.
+- **Polymarket monthly ladders:** WTI lists on the 25th at 04:01Z; yields and Hormuz around the 3rd of the month.
 - **Standing framing (do not re-derive):**
-  - **In a fast move read the CLOB book, not Gamma** (KB-ORC-130). `liq` overstates near-touch depth.
-  - **A closed market drops out of the plain Gamma slug query**; `pull` finds it via `closed=true` and prints RESOLVED. A pin gone missing may be the event firing.
-  - **Kalshi pull's printed `Δp` is the API's previous-price change**, not the change from my last log row.
-  - Quote a Fed move from the level held before it, with its basis (KB-ORC-126). `end_period_ts` on Kalshi candles = period END.
-  - Fed: hiked 25bp 9/16 to 3.75–4.00% (KB-ORC-083); HELD 10/28 (KB-ORC-109). **December priced path is ORACLE's (WQ-671 A):** venue odds + futures cross-check, both caveats.
-  - **October 2026 CPI YoY does not exist at BLS**; PM's October market resolves on its fallback (KB-ORC-136).
-  - v4 is history; ⛔ never compute `82.5 − 100`. v5 at $110 since 9/24 (WQ-260). Current segment `v5-nov26-icewti110`.
-  - PM "ceasefire" = no US strike landing on Iran (KB-ORC-111). Never difference retired legs against the pause series. A resolution applies the market's rule; FALCON owns the event grade.
-  - A later pull on the same ET date is context (O3). Weekend reads are context.
-  - Hormuz legs resolve on the IMF PortWatch PRINT (KB-ORC-079). Kalshi mid only when `result` empty AND OI > 0 (KB-ORC-086). Recession venues use different definitions (KB-ORC-099, re-read 11/18).
-  - Three published σ remain retracted (KB-ORC-064). CME unreachable: do NOT re-attempt; Yahoo + NY Fed EFFR. Treasury par == DGS10 unconfirmed (BOND/TERRY).
-  - Polymarket trades: `data-api.polymarket.com/v2/trades?condition=<conditionId>&limit=500`. `prices-history`: `curl -A "Mozilla/5.0"` with startTs/endTs, fidelity 60 to 360.
-  - Never `pull --log --force` to log new pins. Kalshi `pull` has no double-log guard.
-  - **Never type a clock stamp from narrative:** this session wrote 11:0x into seven packets at 10:45 wall clock and corrected them before commit.
-  - Git: `rebase --continue` refuses while ANY tracked file is unstaged; `rebase --abort` silently discards a foreign dirty file.
-- `ledger_staleness` counts `HISTORY.tsv` but prints no row for it (PROME's tool; reported, not patched).
+  - **In a fast move, read the CLOB book, not Gamma** (KB-ORC-130). A by-date EVENT pin surfaces its top leg, which can be a drained far leg: pin the deep leg as a MARKET.
+  - A closed market drops out of the plain Gamma slug query; `pull` finds it via `closed=true`.
+  - Kalshi pull's `Δp` is the API's previous-price change. Kalshi mid applies only when `result` is empty AND OI > 0 (KB-ORC-086).
+  - Quote a Fed move from the level held before it, with its basis (KB-ORC-126). ORACLE owns the December priced path (WQ-671 A): venue odds plus the futures cross-check, both caveats.
+  - v5 at $110 since 9/24 (WQ-260); current segment `v5-nov26-icewti110`, which ends 11/30.
+  - PM "ceasefire"/"pause" = no qualifying US strike landing on Iran (KB-ORC-111, 145). A resolution applies the market's rule; FALCON owns the event grade.
+  - A later pull on the same ET date is context (O3). Holiday and weekend pulls are context.
+  - Hormuz legs resolve on the IMF PortWatch PRINT (KB-ORC-079). Recession venues use different definitions (KB-ORC-099).
+  - NEH: strikes don't count, only a land offensive (KB-ORC-150).
+  - Three published σ remain retracted (KB-ORC-064). CME is unreachable: do NOT re-attempt; use Yahoo plus NY Fed EFFR.
+  - Polymarket trades: `data-api.polymarket.com/v2/trades?condition=<conditionId>&limit=500`. `prices-history`: `curl -A "Mozilla/5.0"` with startTs/endTs.
+  - Never `pull --log --force` to log new pins (new 11/26 pins log at the next routine pull). Kalshi `pull` has no double-log guard.
+  - **Never type a clock stamp from narrative.** This session wrote stamps 10 to 20 minutes ahead four times, all caught before commit. Run `date` in the same command.
+  - **A "nominated"/"sent" note is not a packet:** git-log the recipient's inbox (the 11/04 Russian diesel item, KB-ORC-161).
+  - Git: commit with a pathspec only; the shared index held RED's staged files today.
 
 ## OPEN HYPOTHESES
 
-- **Fleet registered forecasts go stale against deep markets (n=2, 11/18):** HEN-63 and HNS-13 were 8 to 12 under the market at registration and 27 to 28 under a week later, unre-marked. Test: the 12/9 and 12/17 outcomes, and whether other desk rows registered against deep markets show the same drift.
-- **The crowd separates limited strikes from a supply shock (UNPROVEN, strengthening):** strikes 11/07, 11/13–11/17 (Qeshm confirmed 11/17) while WTI $110 Nov fell 17.0 → 2.7. HAWK and BRENT own the reality.
-- **Diplomacy drift reversed (11/18):** blockade end −15.5, senior meeting −16.0, deal −7.0 over 7 days. Watch the Trump–Xi–Putin trilateral (Iran "may" come up, BBC).
-- **Bank-failure crowd = the 2024-25 prior, not 2026 data.** Test in F-1 (Brier). Book still under $5K (11/18).
-- **Recession gap = PM's extra NBER leg** (structural).
-- **Crowd misses on prints may lean the same way (UNPROVEN, n=2);** next point November U3 (12/04).
-- **Huang-exit pricing reacted, did not lead (11/11–11/12).**
+- **Fleet registered forecasts go stale against deep markets (n=2):** HEN-63 is still 70 against 96 on the same letter (11/26). Tested by 12/9 and 12/17.
+- **The crowd separates Gulf violence from US strikes on Iran and from supply loss (strengthening, 11/26):** pause 72 and oil tail 0.7 while Iranian and Houthi strikes widen. HAWK and BRENT own the reality.
+- **The AI-downturn market trades NVDA's distance to its −50% condition** (timing matches 11/23 and 11/25 Nvidia news). VULCAN can test it by measuring the distance.
+- **Bank-failure crowd = the 2024–25 prior, not 2026 data:** F-1 supports it (n=5). The book is still under $5K.
+- **Crowd misses on prints lean the same way (UNPROVEN, n=2):** next points are November U3 (12/04) and November CPI (12/10).

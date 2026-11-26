@@ -1,7 +1,7 @@
 # ORACLE STATUS
 
 **Live dashboard: prediction-market probabilities, divergences, alerts.**
-**FULL REWRITE 2026-11-26 (Thu, Thanksgiving) 11:5x ET** — laptop `WilliePOwen`, Kalshi UNSIGNED public read, live session on PROME's prome-80 wake. Every figure below is the **2026-11-26T16:40Z** pull unless dated otherwise. US exchanges are shut today, so this is a CONTEXT pull (the 15:15Z routine row is also holiday context, not a gate read). Next gate read: Fri 11/27, routine 10:15 ET. Routine reads 11/13 to 11/25 were graded LATE this session (VX-ORC-04, -06, -07, -12); 11/24 was not read (routine did not run).
+**FULL REWRITE 2026-11-26 (Thu, Thanksgiving) 11:5x ET** — laptop `WilliePOwen`, Kalshi UNSIGNED public read, live session on PROME's prome-80 wake. Every figure below is the **2026-11-26T16:40Z** pull unless dated otherwise. US exchanges are shut today, so this is a CONTEXT pull (the 15:15Z routine row is also holiday context, not a gate read). Next gate read: Fri 11/27, routine 10:15 ET. Routine reads 11/13 to 11/25 were graded LATE this session (VX-ORC-04, -06, -07, -12); 11/24 was not read (network outage; laptop awake). **Closeout 2026-11-26 16:2x ET:** later 11/26 reads (January FOMC 17:4xZ, November CPI and oil max 20:4xZ) are in KB-ORC-152 to 161; this dashboard's tables stay the 16:40Z pull.
 
 > **Prices here are a LOG, not a live quote.** Never cite this file as the current price; re-pull. Every figure carries platform/date/depth. Thin books (<$5K liq) are flagged ⚠️ and never marked on one print. Kalshi depth proxy = open interest. "PM" = Polymarket.
 

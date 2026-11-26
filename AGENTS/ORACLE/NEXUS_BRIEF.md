@@ -1,26 +1,26 @@
 # ORACLE — NEXUS Brief
 
-**As of:** **2026-11-18T15:33Z context pull (Wed; after the routine's 15:15Z gate read, which is ungraded; desktop `DESKTOP-BC6EF81`, Kalshi SIGNED)**, folded 2026-11-18 10:4x ET in the WQ-704 session | **STATUS commit:** see `git log -1 -- AGENTS/ORACLE/STATUS.md` (same commit as this brief)
-**Status:** 🟠. December FOMC near-certain on both venues and futures. The fleet's two largest gaps to priced odds are the December Fed and ECB hikes, both registered at 70% on 11/06 and now priced at 97 to 98. Iran pause leg resolved NO after the confirmed 11/17 Qeshm strike.
+**As of:** **2026-11-26T16:40Z context pull** (Thanksgiving; US exchanges shut, so not a gate read; laptop `WilliePOwen`, Kalshi UNSIGNED public read). January FOMC and CPI reads from 17:4xZ to 20:4xZ. Folded 2026-11-26 16:2x ET at closeout | **STATUS commit:** see `git log -1 -- AGENTS/ORACLE/STATUS.md` (same commit as this brief)
+**Status:** 🟠. December FOMC near-settled (about 96). January is near even odds for a second straight hike. Iran: the crowd expects a two-week pause in US strikes while the wider Gulf war heats up; the oil tail is gone.
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi): crowd-implied probabilities and crowd-vs-thesis divergence. **Owner of the December FOMC priced path (WQ-671 A, 11/11).** Inbound routed by WALTER.
 **Constraint honored:** no trade implied, no P&L, no position language. No level moved.
 
-> **★ THE ONE THING: 12/9 FOMC, PRICED ODDS (11/18 15:33Z; cite this dated read).** PM hold **2.9** · +25 **92.5** (liq $644.3K) · +50 or more **5.1**. Kalshi `KXFED-26DEC` above 4.00 **97** (OI 182.9K) ⇒ hold 3 · +25 92 · +50 5. Venues about +25.5bp. Futures `ZQZ26` 95.93 (⚠️ Yahoo last trade, not a settlement), EFFR 3.88 (11/17) ⇒ **+26.8bp**; `ZQF27` +28.5bp. ⚠️ Futures give a size of move, not odds. Kalshi went 78 → 96 on 11/10 (October CPI day; cause inferred). KB-ORC-140.
+> **★ THE ONE THING: 12/9 FOMC, PRICED ODDS (11/26 16:40Z; cite this dated read).** PM hold **3.5** · +25 **93.5** (liq $993.2K) · +50 or more **2.2**. Kalshi `KXFED-26DEC` above 4.00 **96** (OI 206.1K), above 4.25 4 ⇒ hold 4 · +25 92 · +50 4. Futures `ZQZ26` 95.945, EFFR 3.88 (11/24) ⇒ **+24.7bp** (⚠️ Yahoo last trade on a holiday-dated bar, not a settlement; ⚠️ a size of move, not odds). HENRY's HEN-63 (70) has the same letter as Kalshi above-4.00, so the 26-point gap is real (news since 11/06). KB-ORC-143.
 >
-> **★ WQ-704 (fleet forecasts vs priced odds):** 10 of 129 open fleet predictions have a priced counterpart. HNS-13 ECB December hike (HANS 70) vs PM 98.4 (−28.4; single venue, liq $9.7K). HEN-63 Fed December hike (HENRY 0.70) vs Kalshi 97, same letter (−27). Both were 8 to 12 under at registration; the rest is news since; neither re-marked. France HNS-14 (30 vs 9.5) not the same event. AEO-17 likely NO-VERDICT on print timing. No investment implication. KB-ORC-141; `research/2026-11-18_WQ704_market-vs-fleet-forecast-gaps.md`.
+> **★ JANUARY 2027 FOMC (new pins, 17:4xZ):** PM hike 25 **53.5** (liq $148.4K) / no change 43.5. Kalshi `KXFEDDECISION-27JAN` hike 25 **57** (OI 128.1K) / hold 43. Futures about +16bp (same caveats). KB-ORC-152.
 >
-> **★ IRAN / OIL:** pause by-11/8 leg RESOLVED NO (closed 11/17 21:30Z) after the confirmed US self-defense strike on Qeshm 11/17. Pause by 11/30 **42.0** (−14.5 d1) · blockade end 3/31/27 49.0 (−15.5 d7) · senior meeting 12/31 22.5 (−16.0 d7) · WTI $110 Nov **2.7** · invade 7.5 · Hormuz normal 12/31 4.5. Spread +92.8pp. Strikes continue; the oil tail does not move. KB-ORC-142.
+> **★ IRAN / OIL:** 2-week pause by 11/30 **72.0** (42.0 on 11/18; run completes about 12/1 if no qualifying US strike since 11/17, INFERRED), by 12/31 85.5 · blockade end by 12/31 13.8, by 3/31/27 52.0 · invade 5.5 · war 1.8 · Hormuz normal by 12/31 2.8 · WTI $110 Nov **0.7** · spread +96.6pp. The crowd prices Iranian and Houthi strikes on Gulf states and shipping with no US strike on Iran and no supply loss. ⚠️ The November $110 leg ends 11/30 and no December market has listed (KB-ORC-160). KB-ORC-145.
 >
-> **★ OTHER:** AI bubble burst 8.0 after Nvidia's Q3. Recession PM 2.2 / Kalshi 1.0. Any-bank failure 59.0 on a $3.0K book: not a crowd view. ECB December +25 97.2 (PM).
+> **★ OTHER:** AI bubble burst **16.0** after swings of 8 → 40 → 70 → 12 → 35 on a book that thinned about 8×, tracking Nvidia news (Huang reinstated 11/23); not a crowd view (KB-ORC-144). November CPI YoY (Kalshi, prints 12/10) mode **3.7** at 44 (KB-ORC-159). Recession PM 2.8 / Kalshi 3.0. Any-bank failure 48.5 on a $2.8K book: not a crowd view. F-1 Brier for that family 0.217 (n=5); every miss under-priced a failure (KB-ORC-146). ⚠️ ECB December (HANS's HNS-13 gap, KB-ORC-141) NOT re-read 11/26; last read PM 98.4 on 11/18.
 
 ---
 
 ## Cross-agent tensions
 
-1. 🟠 **ORACLE ↔ HENRY and HANS: December hike forecasts 27 to 28 under priced odds** (HEN-63, HNS-13; KB-ORC-141). Information sent; the desks own their rows.
-2. 🟠 **ORACLE ↔ BRENT/HAWK/FALCON: strikes priced, oil tail gone.** Qeshm strike confirmed 11/17; WTI $110 Nov 2.7 (KB-ORC-142).
+1. 🟠 **ORACLE ↔ HENRY: HEN-63 at 70 against a 96 market on the same letter** (KB-ORC-143). Information sent; HENRY owns the row.
+2. 🟠 **ORACLE ↔ BRENT/HAWK/FALCON: pause priced, oil tail gone, Gulf violence up** (KB-ORC-145).
 3. 🟠 **ORACLE ↔ BOND/TERRY: 10Y resolution basis.** Treasury par "10 Yr" vs DGS10, unconfirmed since 9/17.
-4. 🟠 **ORACLE ↔ RED: recession definitions.** GDP-rule vs GDP-or-NBER is structural (KB-ORC-099, rule re-read 11/18).
+4. 🟠 **ORACLE ↔ RED: recession definitions.** GDP-rule vs GDP-or-NBER is structural (KB-ORC-099).
 
 ---
 
@@ -28,12 +28,11 @@
 
 | Date | Event | Instrument | Note |
 |---|---|---|---|
-| Thu 11/19 | Next gate read (routine 10:15 ET); Trump–Xi bilateral, trilateral with Putin after | all pins | Iran "may" be discussed (BBC) |
-| 11/20 | MIDAS-13 window ends; VIOLET VIX ≥30 window ends | no priced counterpart for VIX | |
-| ~11/25 | December $110 listing (INFERRED) | v5 roll; bump REGIME | |
-| 11/30 | Hormuz normal · Kalshi Brent month-end · pause by 11/30 | PM 0.9 · `>$97.99` 16 · pause 42.0 (11/18) | → BRENT, FALCON |
-| 12/04 | November jobs | Kalshi `KXU3-26NOV`; PM 4.1 mode 35.5 | → LABOR, HENRY |
-| Wed 12/09 | FOMC December | PM hold 2.9 / +25 92.5 / +50 5.1; Kalshi 3 / 92 / 5 (11/18) | → LIQUID, HENRY, BOND, CARL |
-| ~12/10 | October CPI market fallback resolution (INFERRED date) | PM 3.7% leg | KB-ORC-136 → HENRY |
+| Fri 11/27 | Next gate read (routine 10:15 ET) | all pins | — |
+| Sun 11/29 | OPEC+ meeting | no venue market; Kalshi Brent 11/30 >$95.99 13 / >$97.99 9 | → BRENT (KB-ORC-148) |
+| Mon 11/30 – Tue 12/1 | WTI $110 Nov, Hormuz normal by 11/30, Kalshi Brent month-end, pause run completes (~12/1) | PM 0.7 · 0.2 · Brent 13 / 9 · pause 72.0 | December roll check; → BRENT, HAWK, FALCON |
+| Fri 12/04 | November jobs | Kalshi `KXU3-26NOV` >4.1 52 / >4.2 16 | → LABOR, HENRY |
+| Wed 12/09 | FOMC December | PM hold 3.5 / +25 93.5 / +50 2.2; Kalshi 4 / 92 / 4 | → LIQUID, HENRY, BOND, CARL |
+| Thu 12/10 | November CPI | Kalshi >3.6 69 / >3.7 25 | → HENRY |
 | 2026-12-15 | Kalshi gap-fill quarterly re-check (WQ-305) | KXCREDEFMAX · KXCCDELINQ · KXCCCHGOFF · KXFEDFACILITY | |
-| Thu 12/17 | ECB December | PM +25 97.2 / no change 2.1 (11/18) | → HANS |
+| Wed 1/27/27 | FOMC January | PM hike 25 53.5; Kalshi 57 | → LIQUID, HENRY, BOND, CARL |
