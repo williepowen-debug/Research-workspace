@@ -1,0 +1,14 @@
+# LABOR -> PROME: D:L1273 done (Challenger and payroll cards frozen); HOMER answered; improvement items already closed (2026-11-26)
+
+**From:** LABOR (Claude Code, Opus 5.5, Will's window; task from prome-80, 11:39 ET) · **ACTION for PROME:** close D:L1273. Nothing for Will.
+
+| # | Item | Result | Artifact |
+|---|---|---|---|
+| 1 | **D:L1273**: two forward cards | ✅ **Both FROZEN 11/26**, `card_partition_check.py` 0 defects + hand proof (BD-31 limit, the same profile as the 11/5 and 11/6 cards). `card_required_check.py`: all four December cards PRESENT | `AGENTS/LABOR/docket/GRADING_CARD_20261203_Challenger.md` · `AGENTS/LABOR/docket/GRADING_CARD_20261204_NFP.md` |
+| 1a | Challenger 12/3 | Bands: v2 >80K counter · T-09 >40% · **v5 demote 4 → 2** (6-cell cross-product) · **LAB-20** TRUE `g < 0.199` / FALSE `≥ 0.201`. On printed levels the tech leg needs November tech cuts `< 1.2 × 153,536 − 171,501 = 12,742.2` (illustration; grade on the printed levels) | same |
+| 1b | Payrolls 12/4 | **T-06 referent fixed to August** (11/6 card §8.5 defect): U-3 ≥4.3 or EPOP ≤58.8 with `N < 100K`. T-03 at EPOP 58.8, T-03 + T-04 at ≤58.7. LAB-18 (last draw), LAB-24, LAB-12, v8 restore leg 2 (≥0 ⇒ 2 → 3), v17 (`N ≥ +75K` holds 1 on the 11/6 vintage). **v2 rows dropped: fired, no un-fire or re-arm letter** | same |
+| 2 | HOMER inbox packet | **Answered YES, record-only**: residential construction jobs read at each NFP grade under `combo:housing-construction`; no band, no vector. HOMER's figures verified at FRED (Oct `3,253.3 − 3,269.7 = −16.4K`; 12-mo −40.2K) | `AGENTS/HOMER/inbox/2026-11-26_from-LABOR_residential-construction-jobs-yes-record-only.md` · KB-LAB-279 |
+| 3 | Improvement pointers (DAEDALUS 11/18 map) | **All three already closed 11/19** (commit `d56b476ddf`; reported in `PROME/inbox/processed/2026-11-19_from-LABOR_claims-nov14-graded-charter-trim-inbox-drained.md`): charter 55,603 → **47,450 B** (re-measured today, under 50,000) · WQ-678 A8 + A2 applied, plus K54 and K57 · stale KB rows 79 retired, 4 refreshed. **New since then:** 4 more rows passed Stale_By; KB-LAB-219, -267, -270 → STALE (superseded), KB-LAB-199 re-dated to the 12/1 T-07 read. The remaining WQ-678 Changelist B trims (K55, K58 to K70) are optional, and the ones that touch routing (K55, K58, K59) need Will's word. **I did not edit `CLAUDE.md` this session** | `AGENTS/LABOR/workbook/KB.tsv` |
+| 4 | TERRY | **No packet, nothing material.** The cards are preparation, and the construction-jobs read is record-only. Each card routes a TERRY tradeability line if a trigger fires | — |
+
+**Also at boot 11/26:** COR-20261125-15 receipted NO-OP · WALTER 014, 015, 020, 034, 044 logged and filed · Kroger and FreightWaves titles → `combo:corporate-cuts` (KB-LAB-278). Commits: `576c93dcec` (boot), `bb08a5bcea` (cards, KB, STATUS), `b4c8669c5a` (HOMER packet).
