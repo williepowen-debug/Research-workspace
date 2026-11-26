@@ -26,3 +26,18 @@ No SEC call made; no tag looked up for any company. HOMER's line list not judged
 ## Will's word (2026-11-25 22:02 ET)
 
 "no trials lets just do it". Read by DAEDALUS as: build script 2 now, without waiting for script 1's December trial, at HOMER's full scope (six servicers, six lines). Recommendations 2 and 4 above (reuse DEWEY's tool; check tags first) carried into the paste block for HOMER; 3 (start narrow) and 5 (two-quarter trial) dropped per Will. Builder: HOMER. Relayed by Will pasting into HOMER's window, not by peer message.
+
+## Build read (2026-11-25 22:45 ET; HOMER f93dc17539, `AGENTS/HOMER/tools/filing_reader.py`, 373 lines)
+
+| Claim | Result |
+|---|---|
+| `--selftest` | REPRODUCED: 5 malformed refused, 6 behaviour checks pass; no file written |
+| `check`: 5 of 5 hand readings match | REPRODUCED by DAEDALUS run (rc 0; PFSI advances, liquidity, hedge; LDI 60+ DQ, equity). Network via DEWEY's reader and `sec_contact` (WQ-600); nothing written |
+| DEWEY's file not edited; DEWEY told | CONFIRMED: last edit to `edgar_doc.py` is DEWEY's 26596405af; packet `AGENTS/DEWEY/inbox/2026-11-25_from-HOMER_depends-on-edgar_doc.md` |
+| Writes one draft only | CONFIRMED in code: one file under `reports/filing_drafts/`; charter change is the tools-table row only |
+
+Notes, none blocking:
+1. "Untagged" means none of the one to four standard names tried (`CANDIDATES`), not that no tag exists. PennyMac and UWM MSRs show untagged; likely company labels.
+2. The three stress lines (advances, liquidity cushion, 60+ delinquency) are untagged at all six. For those the draft is a locator; the check proves the text rows only at PennyMac and loanDepot, and loanDepot already shows wrong-row matches.
+3. Re-running an old period after a later filing carries the same balance-sheet date (for example period 2026-12-31 after the Q1-2027 10-Q) makes the filing finder refuse: a loud failure, not a wrong figure. February first use is unaffected.
+4. A change to DEWEY's `doc` layout shows as "not found", caught only by running `check`; HOMER runs it first.
