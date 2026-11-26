@@ -48,6 +48,14 @@ run("random bytes rejected", bytes(range(256)) * 12, [], 2, "UNKNOWN", suffix=".
 run("plain-text release accepted", "THE EMPLOYMENT SITUATION -- SEPTEMBER 2026\nTotal nonfarm payroll employment changed little (+29,000).\n" * 30, ["--expect", "29,000"], 0, suffix=".txt")
 run("missing file is UNKNOWN", b"", [], 2)
 
+# --- BD-41 (2026-11-26): a vendor name in a script tag must not reject a full report page ---
+ism_like = ("<html><head><script src=\"https://cdnjs.cloudflare.com/x.js\"></script></head><body>"
+            "<p>Manufacturing PMI report, November 2026. Released December 1, 2026. The Employment "
+            "Index registered 52.4 percent.</p>" + "<p>report body text. </p>" * 1200 + "</body></html>")
+run("BD-41: 20 KB+ page citing cloudflare in a script tag accepted", ism_like, ["--expect", "52.4"], 0)
+run("BD-41: short cloudflare page still rejected", "<html><body>cloudflare ray id 8a1b</body></html>" * 60, [], 2, "UNKNOWN")
+run("BD-41: large 'just a moment' challenge still rejected", "<html><title>Just a moment...</title>" + "x" * 30000 + "</html>", [], 2, "UNKNOWN")
+
 # --- WQ-723 A (2026-11-25): one honest client string, one request, a refusal ends it ---
 import subprocess as _sp
 

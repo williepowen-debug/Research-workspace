@@ -2,7 +2,7 @@
 **Generated:** 2026-06-09 | **Domain:** LABOR (input agent) | **Direct trade:** NONE HELD (KELYA $7.5P expired worthless 2026-08-21)
 **Prior version:** `domain/sources/TRADE_archive_20260307.md`
 
-**Purpose.** Two jobs: (1) index which LABOR signals transmit to which other agents, so cross-agent triggers are explicit; (2) own the KELYA position decision logic. **Live position state (contracts, cost basis, mark) lives in FORGE — this file does not duplicate it.** Cross-position triggers for KRE/WAL/OZK/HYG/etc. live with the position owner; LABOR sends the signal, FORGE/REGINALD/HENRY/CARL act on it.
+**Purpose.** Two jobs: (1) index which LABOR signals transmit to which other agents, so cross-agent triggers are explicit; (2) keep the closed KELYA record (no position since 2026-08-21; history archived). **Live position state (contracts, cost basis, mark) lives in FORGE — this file does not duplicate it.** Cross-position triggers for KRE/WAL/OZK/HYG/etc. live with the position owner; LABOR sends the signal, FORGE/REGINALD/HENRY/CARL act on it.
 
 **Anchor reads:**
 - `STATUS.md` — current dashboard, convergence matrix, predictions, exit rules
@@ -14,7 +14,7 @@
 
 ## §1 — Transmission Signal Index
 
-LABOR vector → threshold → target agent(s) → priority. Thresholds reference STATUS § KEY THRESHOLDS; do not duplicate values here. When threshold fires: write `outbox/` signal per CLAUDE.md Outbox Protocol; append to `AGENTS/SIGNALS.md` if cross-agent.
+LABOR vector → threshold → target agent(s) → priority. This table owns the trigger definitions and their base-rate provenance; live levels and distances live in STATUS § KEY THRESHOLDS, not here. When a threshold fires: route the signal to WALTER per CLAUDE.md Outbox Protocol and self-commit the `AGENTS/SIGNALS.md` row (root carve-out ②).
 
 | # | Vector | Threshold (fires signal) | Target agent(s) | Priority |
 |---|---|---|---|---|
@@ -33,9 +33,9 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 | T-13 | DOGE/federal NFP | <-25K single print OR cumulative >400K | REGINALD (EGBN DC exposure), CARL | 🟠 |
 | T-14 | Hormuz hiring freeze (BRENT cross-check) | direct labor-transmission verified | CARL, HENRY | 🟠 |
 
-*(No standing broadcast queue — the Transmission Index above fires fresh outbox signals on trigger, e.g. Jun 18 >250K → T-01; Jul 2 NFP → T-05/T-06.)*
+*(No standing broadcast queue — each firing is routed fresh to WALTER. As of 2026-11-26 T-01, T-02, T-05 and T-06 have never fired; v2 freeze-thaw, which is not a T-number, fired 2026-11-06.)*
 
-> **State notes (2026-07-24 audit):** T-05 Kill-A is **DORMANT** — RESET 7/2 (revised run 214/148/129/57 = zero-of-3; standing rule kept, upward-revision threat is dead per STATUS §EXIT RULES). T-12 mechanistic trigger lives in STATUS Vector 14 If-Falsified column, not §KEY THRESHOLDS. T-14 re-arms only on BRENT demand-destruction Path B per Vector 15 (price re-arm alone ≠ labor transmission).
+> **State notes (re-stamped 2026-11-26 on the 11/6 vintage):** T-05 Kill-A is **DORMANT** — 0 of 3 (Aug rev +186K, Sep rev +60K, Oct +165K; STATUS § EXIT RULES). *(7/24 note: RESET 7/2, revised run 214/148/129/57.)* T-12 mechanistic trigger lives in STATUS Vector 14 If-Falsified column, not §KEY THRESHOLDS. T-14 re-arms only on BRENT demand-destruction Path B per Vector 15 (price re-arm alone ≠ labor transmission).
 
 ---
 
@@ -43,124 +43,10 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 
 **Position:** 🔒 **NONE — the KELYA $7.5P Aug 21 EXPIRED WORTHLESS on 2026-08-21.** KELYA closed **$17.09** that day (low $16.60; Yahoo daily bars, pulled 2026-09-29) ⇒ `17.09 − 7.50 = $9.59` out of the money. **No KELYA line in `FORGE/STATUS.md`** (broker-view reconcile 2026-09-27, to the Fri 9/25 close; `grep -i kely` = 0 rows). Premium lost / cost basis → FORGE, never restated here. *(Re-stated 2026-09-29 on DAEDALUS Staleness Sweep #5: this line named the expired contract as the live position for 39 days. The pre-expiry live-state text is preserved in git — `git log -p -- AGENTS/LABOR/TRADE.md`.)*
 
-**Still owed from expiry:** the post-mortem question below (*was the entry sound on the Mar-7 data, or was the company-vs-industry conflation already inferable?*) — unanswered since 8/21. Carried in STATUS PICKUP; no new position is implied by answering it.
+**Still owed from expiry:** the post-mortem question (*was the entry sound on the Mar-7 data, or was the company-vs-industry conflation already inferable?*) — unanswered since 8/21. Carried in STATUS PICKUP; no new position is implied by answering it.
 
-### Thesis state
+**Archived 2026-11-26:** the thesis state, verdict, re-arm conditions, decision triggers, lessons and the whole §3 Jun–Aug catalyst playbook moved verbatim to `domain/sources/TRADE_archive_20261126.md`. **BD-14** (§3 grids unenumerated) is discharged by the removal.
 
-**What we got right.** KELYA Q1 (May 7) confirmed company-tier weakness: revenue $1.041B (-10.7% YoY, MISS), Non-GAAP EPS $0.03 (MISS vs $0.0755), basic LOSS $0.17, adj SG&A -10.3% (3rd straight ~10%+ quarter), no forward guidance. The "small/mid staffing cracking" read was correct at the company level.
-
-**What we got wrong.** The market refused to price it bearishly. Tape framing: "smaller Q1 loss challenges bullish margin expansion narrative." Stock did not crater on the miss — it rallied to $11.65 (vs $9.50 stop, vs $7.5P strike).
-
-**Why the trade decayed:**
-1. **LAB-01 ❌ FALSIFIED Jun 2** — industry-tier temp-help is *expanding* (BLS CES TEMPHELPS +7.9K Apr; ASA index +4.9% YoY Apr). Company weakness (KELYA, RHI) ≠ industry employment direction. The bearish staffing-canary thesis the position rode is broken at the sector level. *(See LESSONS L-01 + auto-memory `[[feedback_prediction_canonical_measure]]`.)*
-2. **Staffing canary reversal confirmed** — KFRC raised Q2 guidance, RHI 2nd consecutive sequential growth quarter (May 4 STATUS). Sector is bottoming, not accelerating lower.
-3. **Hard data revising UP** — NFP May +172K beat with **net +93K upward revisions** (Apr 115K→179K, Mar→214K). Realization-weakness leg on the back foot; Kill A (NFP ≥200K ×3) now has Mar across the line.
-4. **Time decay** — 73 DTE on a $4.15 OTM put requires >35% drawdown in <2.5 months. Implied required move not supported by current vol or thesis state.
-
-### Verdict (written July, while the put was open): functionally dead → ✅ **expired worthless 2026-08-21.** Nothing below in §2 is a live instruction; it is the record.
-
-> **Jul-2 print resolution (added 2026-07-02):** The §2 re-arm letter *technically fired* — NFP June +57K (<100K ✓) AND revisions stopped trending up (reversed to net −74K ✓). But the third leg the grid assumed never came: **U-3 FELL to 4.2%** (labor force −720K = supply-shrink artifact, not strength), and the market shrugged (KELYA $13.00, −0.84%; spot moved *away* from the strike vs the "$9-10 on print" re-arm scenario). Mechanism read: freeze-deepening, not demand-break — no claims confirmation (215K). **Verdict unchanged: write-off; no action proposed to Will.** The playbook's Jul-2 grid lacked a "NFP <100K + U-3 ↓ (participation-driven)" branch — gap documented in LESSONS L-06; future grids carry a denominator-artifact branch.
-
-**Re-arm conditions (MOOT since the 8/21 expiry — kept as the record; a new KELYA position would need a new card on TERRY's side):**
-- Initial claims breach **>250K sustained 4+ weeks** + U-3 jump ≥0.2pp single print → would force fundamental re-rating
-- NFP June **<100K** AND headline revisions stop trending up → revives realization-weakness leg
-- Sector-wide staffing reversal (RHI/KFRC guide-DOWN Q2 update) → kills the canary-bottomed narrative
-
-### Decision triggers to Aug 21 (PAST — all resolved)
-
-> ⚠️ **Swept 2026-08-05: six of the seven rows below were PAST-DATED and still presented as forward triggers** (Jun 11, Jun 13/20, Jun 30, Jul 2 ×2, Jul 22). A decision table whose rows have all fired reads as live guidance to anyone scanning it. **Fired rows collapsed to one line; only genuinely-forward triggers remain live.**
-
-| Trigger | Action |
-|---|---|
-| ✅ **ALL JUNE–JULY TRIGGERS FIRED AND RESOLVED (6 rows collapsed 8/5)** | Claims never breached 250K (drift band all window, now 197K); **JOLTS May** hires 5.170M = LAB-16 ✅ but no claims companion, no KELYA move *(and that vintage is now itself superseded — June hires 5,348K)*; **NFP June +57K** hit the `<100K` leg but **U-3 FELL to 4.2%** so the `≥4.5%` companion never came (supply artifact, → L-06) — **no full re-arm, and the "$9-10 on print" scenario never materialised** (KELYA $13.00, −0.84%); **NFP ≥200K** did not fire, but **Kill A RESET** on the −74K revisions instead; **DTE≤30 (Jul 22) + spot >$10 FIRED 7/23** → mechanical write-off confirmed, attention off. |
-| ✅ **Aug 21 expiry — RESOLVED: EXPIRED WORTHLESS** (close $17.09 vs $7.5 strike) | *Was:* Position expires worthless absent a >35% KELYA drawdown in ~2 weeks. **No action proposed to Will.** Tax-loss close only if mark >$0.05 — implausible at $7.73 OTM *(on a stale 7/23 spot; needs a live chain quote either way)*. |
-| **Post-expiry (Aug 21+)** | **Post-mortem owed** — the §2 open question: *was the original entry sound given the Mar-7 data state, or was the company-vs-industry conflation already inferable then?* |
-
-### What this position taught us
-- Captured in `LESSONS.md` L-01: company-tier reads ≠ industry employment series; always pull canonical industry series for prediction calibration.
-- Captured in auto-memory `[[feedback_prediction_canonical_measure]]` (transferable across agents).
-- Open question for post-mortem at expiry: was the original entry sound at the time given Mar 7 data state, or was the company/industry conflation already inferable then? *(Not for this rebuild — flag for post-expiry review.)*
-
----
-
-## §3 — Forward Catalyst Playbook
-
-> 🔒 **HISTORICAL SINCE 2026-08-21 (bannered 2026-10-28).** Every dated entry in this section (Jun 11 – Aug 21) has passed and been graded; with no KELYA position there is no position implication to sync. **The forward calendar lives in `docket/CATALYSTS.tsv` and the STATUS MONITORING CALENDAR only — do not add new catalysts here.** Kept as the record of how each print was read against the position.
-
-### ✅ Jun 11 — Initial Claims w/e Jun 6 (RESOLVED, collapsed 7/24 audit)
-
-Landed in drift band (~213K); T-01 not fired; KELYA no move. Grid retired — the claims cadence is now covered by the 7/30 GRADING_CARD block below.
-
-### ✅ Jun 23 → Jul 21 grade — BLS State Employment (RESOLVED, collapsed 7/24 audit)
-
-FL UR **Jun 4.7%** (BLS LAUS 7/21) — −0.1pp MoM from May 4.8%, +0.9pp YoY. **T-11 NOT FIRED** (level 4.7<5.0; the 4-mo rise streak reset in May and June declined outright — first sequential decline in the FL UR uptrend). Read-only; marginal counter to FL-employment-stress leg. See STATUS calendar row Jul 21 for detail.
-
-### ✅ Jun 30 (Tue) — JOLTS May (PAST; resolved below)
-
-| Print | LABOR thesis read | KELYA implication | Cross-agent signal |
-|---|---|---|---|
-| Openings revise Apr down + May <7.0M | Apr 7.6M was noise; post-don't-hire wobbles | Mildly bullish position (hiring weakens) but small | Watch CARL |
-| Openings 7.0-7.5M + hires <5.0M | LAB-16 ✅ confirmed: post-don't-hire persists | Supports KELYA thesis but doesn't move alone | T-10 watch |
-| Openings >7.5M + hires <5.0M | Post-don't-hire intensifies | Marginal KELYA support | 🟠 CARL, HENRY |
-| ~~Hires recover >5.5M~~ 🔴 **ROW RETIRED 2026-08-07 — replaced by JOLTS NET** | ~~Post-don't-hire wobble; canary-bottomed thesis confirmed~~ **A GROSS flow cannot confirm a NET claim.** June hires printed 5,348K (+96K) while **separations rose +91K to 5,351K → JOLTS NET −3K** (May −8K) — hires and separations rose *together*, which is churn, not a hiring recovery. **Replacement row: `JOLTS NET (hires − separations) > 0 in both of the 2 most recent months` = the freeze-thaw v2 LEG C.** Gross hires rose in 66 months since 2015 with net ≤0 in only **2 (3%)** — **and both are May and June 2026**, so the proxy is usually fine and is inverting *right now* (→ **L-14**) | Position already confirmed dead by the 7/23 DTE≤30 write-off; unchanged | None |
-
-> ⚠️ **VINTAGE POINTER (added 8/5):** the figures in the grade below are the **May-reference JOLTS as first published**, kept unrewritten because a graded record keeps its own as-of. **Both are now superseded twice over** — May itself revised (hires 5,170→**5,252K**, openings 7,594→**7,537K**) and June printed **hires 5,348K / openings 7,359K**, which **reversed the direction of this grade's finding**: the gap is now closing from the hiring side. **Do not cite these as current — live values are STATUS § SIGNAL DASHBOARD.**
->
-> **✅ RESOLVED Jun 30 (graded Jul 2):** printed **between the grid's rows** — openings 7.594M (>7.5M) but hires 5.170M (5.0-5.5M band, not <5.0M). Read: post-don't-hire GAP widened (LAB-16 ✅ with stabilization nuance; Apr hires revised UP +99K to 5.215M). No cross-agent fire (T-10 needs <5.0M ×2). KELYA: no move.
-
-### ✅ Jul 2 (Thu) — NFP June + U-3 + Claims w/e Jun 27 (PAST; resolved below)
-
-LAB-02 effective resolution. Kill A check #2 (Mar revised 214K = #1).
-
-| Print | LABOR thesis read | KELYA implication | Cross-agent signal |
-|---|---|---|---|
-| **NFP <100K + U-3 ≥4.5%** | Realization-weak leg revives; T-06 fires | **Full KELYA re-arm.** Spot likely $9-10. Binary: hold to Aug or close green. | 🟠 CARL, REGINALD, HENRY |
-| NFP 100-150K + U-3 flat | Soft but not breaking; status quo | No change | None |
-| NFP 150-200K + U-3 flat | Hard-data strength continues | Position confirmed dead | None |
-| **NFP ≥200K** | **Kill A trigger #2** (Mar = #1). Bearish realization-weak thesis on the rocks. | Position confirmed dead. | 🔴 PROME, FORGE — Kill A countdown |
-| U-3 ≥4.7% regardless of NFP | LAB-02 ✅ confirmed | Supports KELYA but NFP dominates tape reaction | Watch HENRY |
-| **NFP <100K + U-3 ↓ + LFPR ↓** *(branch L-06 added post-7/2; this file 7/24)* | **Supply-shrink artifact** (immigration-signature) — U-3 fell mechanically on labor-force contraction; grade on claims/hires, NOT U-3 | Position confirmed dead — the demand read KELYA thesis needs is unavailable through U-3 in this regime | 🟠 CARL/HENRY (denominator-artifact flag, not a U-3 threshold fire) |
-
-> **✅ RESOLVED Jul 2:** printed **off-grid** — NFP **+57K** (<100K) but **U-3 4.2% DOWN** (participation −0.3pp = supply artifact; the grid's <100K row assumed U-3 ≥4.5%). T-06 did NOT fire (needs a U-3 *jump*). Revisions net **−74K** → **Kill A RESET** (revised run 148/129/57 — zero of three; the Mar-214K "count #1" no longer heads a live streak). LAB-02 ❌ formally. Claims same-morning 215K = no realization confirmation. KELYA $13.00 shrug → §2 verdict stands. Missing-branch gap → L-06.
-
-### ✅ Jul 6 — ISM Services PMI June — **GRADED 2026-08-05, A MONTH LATE, AND THE DELAY IS THE FINDING**
-
-| Print | LABOR thesis read | KELYA implication |
-|---|---|---|
-| Svs employment <47 (4th mo) | Realization catching up to announcements | Modest KELYA re-arm if accompanied by claims drift |
-| Svs employment ≥48 | Contraction stalling | No change |
-
-> 🔴 **RESOLVED — and it landed OFF-GRID, in the direction the grid did not contemplate.** Actual: **Employment 51.2%**, *"expanded for the first time in four months... a 3.3-percentage point increase from the 47.9 percent recorded in May"* [CONF **ISM Services June release, PRIMARY**, retrieved 8/5]. **Nearest band is "≥48 → contraction stalling → no change," but that band is wrong on substance:** the grid's ceiling case was *stalling contraction*, and the print was an outright **expansion** — the whole table was built on the assumption that services employment would keep contracting, so **there was no row for it turning.** Per card §6 discipline, an unlisted outcome is a **grid defect to record, not a band to improvise**. *(There is also an unenumerated 47–48 seam between the two rows.)*
->
-> **Two failures compounded here, and this grid is where they met.** (1) STATUS recorded the print as **47.4, "sub-50, 4th straight month contracting"** — wrong, and **wrong in sign** (→ **L-12**: no primary was opened; the `[CONF]` tag rested on two secondary web reads plus an arithmetic cross-check with free parameters that could not fail). (2) **This grid was never graded at all** — so the one artifact that would have forced a *"which band did it land in?"* question against the real release **was left open for a month.** A grid that is written and then not consumed is not a control; it is a note. **→ Same class as the B5b unconsumed-card gap** (which is why B5b enumerates cards at boot) — except **TRADE.md §3 grids are NOT enumerated by anything.** Logged as **BD-14**.
->
-> **KELYA implication: none, correctly** — the position was already written off on 7/23 at the DTE≤30 checkpoint. **LABOR thesis implication: material** — services employment turned in **June**, one month before manufacturing did, so the survey-employment thaw is two sectors deep and began earlier than this file or STATUS understood.
-
-### ✅ Aug 7 — NFP July (PAST; graded — see `STATUS_DETAIL.md`)
-
-**Kill A check #1 of a FRESH streak** *(renumbered Jul 2 — the Mar-214K-led streak died with the June report's −74K revisions; revised run 148/129/57 = zero banked; see §3 Jul-2 resolution)*. A ≥200K July print = first count only; trigger still needs 3 consecutive. KELYA already at ~14 DTE; mechanical write-off zone unless re-armed earlier.
-
-### ✅ Aug 21 (Thu) — KELYA Expiry — RESOLVED: spot $17.09 > $8.50 ⇒ first branch, expired worthless, position closed
-
-Mechanical close-out. Decision tree (as written pre-expiry):
-- Spot >$8.50: expires worthless, position closed.
-- Spot $7.50-8.50: marginal ITM/ATM, evaluate close-vs-let-expire for capital efficiency.
-- Spot <$7.50: ITM, exercise/close per FORGE rules.
-
----
-
-### ✅ Mon Jul 27 → Fri Jul 31 — 4-in-4 gauntlet (PAST; all graded)
-
-KELYA is functionally dead at 29→25 DTE (§2 write-off stands); scenarios here are for the LABOR thesis, not the position. Frozen cards / pre-registrations are the graded contracts — entries below are pointers, not new committed conditions.
-
-| Date | Event | Pointer / committed contract | Cross-agent signal |
-|---|---|---|---|
-| Mon 7/27 AMC | KFRC Q2 (canary triple completes) | Guide-down → T-12 re-opens; recovery-guide → Vector 14 drop-to-1. Bar: rev $344-352M / EPS $0.67-0.75, mid-single-digit YoY. | 🟠 PROME (T-12); RED (RED-05 keys here) |
-| Wed 7/29 | FOMC statement 2:00 / presser 2:30 (no SEP) | Pre-reg: `docket/graded/FOMC_LABOR_LANGUAGE_20260729.md` — 3 branches (70/25/5). Diff against June's "payroll gains had strengthened" (already superseded by −74K revisions). | 🟠 RED (labor-language seat) |
-| Thu 7/30 | Claims w/e Jul 25 (LAB-17 close + retooling confirm + Kill-B leg 1) | **🔒 frozen card: `docket/graded/GRADING_CARD_20260730.md`** — 7 outcome bands committed. Meta cohort ~4,665 pre-committed invisible. ≥327K needed for LAB-17 = tail; 301-326K seam fires T-02 but does NOT confirm LAB-17. | 🔴 CARL/REGINALD (T-01/T-02); PROME (Kill-B watch if ≤185K) |
-| Fri 7/31 | ECI Q2 8:30 ET | ≥3.6% = wage pressure real, supply-artifact framing weakens. ~3.4% flat while AHE went 3.4→3.5% = the AHE move was **composition** → hawkish wage premise undercut. Lands 2d AFTER Fed decides. | 🟠 HENRY/CARL (composition-flag routed 7/24) |
-
-**KELYA implication (all four):** none. The 29→25 DTE window + $7.73-OTM spot ($15.23 vs $7.50 strike) makes a re-arm operationally implausible. A ≥327K claims print on 7/30 (T-02 scale) is the only trigger that could theoretically pull the position back to $9-10 within 21 DTE — the tail. Otherwise: hold to Aug 21 expiry.
 
 ---
 
@@ -170,6 +56,6 @@ Per `[[finding_outside_this_rail_disclosure]]`:
 
 - **Other-agents' positions** (KRE/WAL/OZK/HYG/IWM/AAL/etc.) — position-level entry/exit triggers live with the position owner. LABOR sends the signal via §1; the owner decides.
 - **Live KELYA contracts/cost basis/mark** — owned by FORGE per `[[feedback_position_cost_basis_not_authoritative]]`.
-- **Cross-agent signal *delivery*** — messaging system in flight per `[[project_messaging_overhaul]]`; §1 Transmission Index fires fresh outbox signals on trigger (no standing queue).
+- **Cross-agent signal *delivery*** — signals route through WALTER (root `CLAUDE.md`; Direct Messaging v1 canon at `MESSAGING/`); no standing queue.
 - **New position ideas** — none proposed in this rebuild. LABOR-direct trade scope ends at KELYA absent new structural break.
-- **Hedging/repair structures on KELYA** — out of scope; position is functionally dead, not a candidate for roll/cover.
+- **Hedging/repair structures on KELYA** — none; the position expired 2026-08-21.

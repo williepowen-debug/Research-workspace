@@ -49,8 +49,14 @@ REFUSAL_CODES = {"401", "403", "429"}
 
 # Bodies that are a wall, not the document. Matched case-insensitively on the first 4 KB.
 BLOCK_MARKERS = [r"access denied", r"request rejected", r"captcha", r"are you a robot",
-                 r"akamai", r"cloudflare", r"enable javascript", r"just a moment",
+                 r"enable javascript", r"just a moment",
                  r"error\s*40[34]", r"page not found"]
+# Vendor names count only on a SHORT body (BD-41, 2026-11-26): a real report page can
+# reference a CDN script in its first 4 KB (ISM, 2026-11-05: 149,693 B and 161,177 B pages
+# rejected on /cloudflare/). A challenge or block page is small; the wording markers above
+# still reject at any size, so the DOL/BLS stub rejection is unchanged.
+VENDOR_MARKERS = [r"akamai", r"cloudflare"]
+VENDOR_MAX_BYTES = 20000
 MIN_BYTES = 2048
 
 DATE_LINE = re.compile(
@@ -83,7 +89,8 @@ def rejection(data, want_kind):
         return f"expected {want_kind}, got {k}"
     if k != "pdf":
         sample = data[:4096].decode("utf-8", "ignore").lower()
-        for m in BLOCK_MARKERS:
+        markers = BLOCK_MARKERS + (VENDOR_MARKERS if len(data) < VENDOR_MAX_BYTES else [])
+        for m in markers:
             if re.search(m, sample):
                 return f"block/stub marker /{m}/ in first 4 KB"
     return None

@@ -96,6 +96,12 @@
  *(Tension refreshed 2026-07-24, ECI result folded 2026-07-31; prior tension — staffing canaries bottoming / WARN surging / DOGE unpriced — resolved by March-April data as owed.)*
 ```
 
+**Identity Q2 ECI read, replaced 2026-11-26 by LABOR (Will "go", file sweep `reports/2026-11-26_file-sweep.md` L3; ECI Q3 closed the wedge), moved verbatim:**
+
+```text
+**ECI Q2 ran that test on 2026-07-31 and the composition read WON:** ECI civilian comp **3.4% flat** with wages *decelerating* (private 3.4→3.1%) while AHE ran **3.5% and accelerating** — a **0.4pp wedge, widening from ~0 in March**. So AHE now joins U-3 on the do-not-trust-as-a-stress/pressure-gauge list, and the honest bound is *"composition-controlled wage growth is not accelerating,"* **not** *"wages are rolling over"* (private wages *q/q* accelerated 0.7→0.9%).
+```
+
 <a id="h1119-spawn-1a"></a>
 ### § `h1119-spawn-1a`
 
