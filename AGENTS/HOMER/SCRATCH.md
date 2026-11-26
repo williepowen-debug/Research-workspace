@@ -1,4 +1,4 @@
-# HOMER SCRATCH — 2026-11-25 (fifth session: boot 17:25 ET; closed 20:47 ET; reopened 22:04 ET for script 2)
+# HOMER SCRATCH — 2026-11-25 (fifth session: boot 17:25 ET; closed 20:47 ET; reopened 22:04 ET for script 2; closed 23:35 ET)
 
 **Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), laptop. No helpers spawned. Fourth-session handoff: `git show c711ec8526:AGENTS/HOMER/SCRATCH.md`.
 
@@ -11,6 +11,7 @@
 | Will 18:49 ET "ok go" | January prior-year Treasury feed (d05e2671e0); Treasury 11/25 close 4.85 / 4.61 as context in RATES and STATUS; spread stays on 11/24 (LESSONS §44) |
 | READS re-sign | DONE by PROME at 02571a598e (packet consumed; HOMER rows re-signed in `PROME/registry/READS.tsv`) |
 | Script 2 after closeout (Will 22:02 ET, full scope) | `tools/filing_reader.py` built; tag survey 11 of 36 pairs tagged; `check` 5 of 5 hand readings match; draft `reports/filing_drafts/2026-09-30_servicers_DRAFT_2026-11-25_2226.md`; DEWEY told by packet |
+| Script 2 upgrade (Will 22:52 ET "build 1 and 2 and 3") + DAEDALUS fixes (23:22 ET) | Statement pages, confirmed labels (4 stored in `registry/FILING_LABELS.tsv`), balance sheet change since last draft; year-in-label and blank-cell fix; check 8 of 8. Drafts: June `..._2301`, September `..._2325`. **Next: read the UWMC, LDI, ONIT hedge matches (derivative balance changes, not settlement cash) and RITM/ONIT advances rows before confirming any label** |
 | Every-session checks | ATTOM 404 ×3 at 17:28 ET; servicer rating search nothing new (one thin search) |
 
 No reading, band, count, kill test or registered odds changed.
