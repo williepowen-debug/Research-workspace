@@ -57,3 +57,4 @@ receipt_date	correction_id	action	note
 2026-11-25T14:14Z	COR-20261123-03	NO-OP	scope=CARL is the source of the 004 V14 correction, STATUS wording already fixed 11/21 and V14 now marked judgment-scored per WQ-726, the 001 and 002 items are VIX and Bahrain, not CARL surfaces; 
 2026-11-25T14:14Z	COR-20261124-21	NO-OP	scope=CIA and ODNI OSINT breach sourcing is not a consumer-credit surface, no CARL row cites it; 
 2026-11-26T16:18Z	COR-20261125-15	DEFERRED	review=2026-12-01; KB-CARL-634 (China 20%, stacking) to be reconciled to the China notice at the 2026-12-01 Section 122/301 docket row; no CARL score or prediction carried the corrected 006/014 claims.
+2026-11-26T16:45Z	COR-20261125-15	APPLIED	artifact=AGENTS/CARL/workbook/KB.tsv#KB-CARL-635; validation_ref=NONE; Applied 2026-11-26 from ZHAO's notice-text packet; supersedes this desk's DEFERRED receipt of 11:18 ET. CRL-23 unchanged (leg C runs through Q4 2026, proposal has no effective date).
