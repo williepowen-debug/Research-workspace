@@ -1,5 +1,6 @@
 # CARL Sub-Agent Team
 **Parent freshness audit observed2026-10-26:** no child data refresh or launch this session. The canonical scanner is now wired into boot.py; these are genuine inherited age flags, not new data. Live-ledger scanner flags23/52declared ledgers (11otherTSVs outside perimeter); DATA clocks unchanged. Dated child predictions/deferrals remain for owner gates; historical roster-state labels below retain their printed vintages.
+**Parent read 2026-11-26 (no sub-agent spawned):** PHAN gate print leg read at parent (Affirm FQ1-27, Klarna Q3; KB-638/639; COCKROACH/REGULATORY sweep still owed 12/10). POP P05/P06/P08 assessed: not gradeable before year-end data; the new 12/31 docket row carries DOC-P08, GIG-P07, POLLY Q4 rows and POP P05/P06/P08. Ledger currency 11/26: STUE current; DOC partial; GIG and POLLY current to Q3; PHAN and POP not current; META frozen. Whether to fold sub-desks into CARL is on Will's agenda (ROADMAP thread 1).
 **Parent spawn 2026-11-14:** STUE (ES-02 final look, D:L150); no other sub-agent spawned.
 **Parent read 2026-11-10 (no sub-agent spawned):** DOC CPI-day refresh, October medical CPI into VX-DOC-1.01/1.02 (interpolated YoY labelled; KB-613); DOC-P10 still grades 11/25. POP: NFIB October read at secondary only (nfib.com 403; KB-612). Next DOC refresh rides the November CPI docket row (date unverified).
 
