@@ -108,12 +108,12 @@
 
 *Structural detail → `MAINTENANCE.md`; findings → `workbook/KB.tsv` (KB-ORC-143 to 151, 11/26).*
 
-- ⏳ **Rolls owed (re-search by 12/1):** December WTI $110 (not listed 11/26; bump REGIME at pin) · Kalshi Brent December (not listed) · 10Y/30Y December ladders and Hormuz December legs (not listed; November's listed 11/03). ✅ **Rolled 11/26:** senior meeting → 12/31 market (17.5) · pause 12/31 leg added (85.5) · blockade end 12/31 leg added (13.8) · Hormuz normal 1/31/27 and 6/30/27 added · Hormuz weekly → week of 11/23 (thin) · January 2027 FOMC pinned on both venues (KB-ORC-152, 154).
+- ⏳ **Rolls owed (re-search by 12/1):** December WTI $110 (not listed 11/26 20:4xZ, breaking an April-to-November pattern of listing on the 25th; if still absent 12/1, VX-ORC-04 goes UNKNOWN and a substitute leg is Will's call, KB-ORC-160; Kalshi $115 settle-max pinned as context) · Kalshi Brent December (not listed) · 10Y/30Y December ladders and Hormuz December legs (not listed; November's listed 11/03). ✅ **Rolled 11/26:** senior meeting → 12/31 market (17.5) · pause 12/31 leg added (85.5) · blockade end 12/31 leg added (13.8) · Hormuz normal 1/31/27 and 6/30/27 added · Hormuz weekly → week of 11/23 (thin) · January 2027 FOMC pinned on both venues (KB-ORC-152, 154).
 - ✅ **October CPI pin retired 11/26:** resolved 3.7% 11/20 22:41Z on its fallback rule (KB-ORC-151).
 - ✅ **NEH full-rules PDF read 11/26** (KB-ORC-150). ✅ **F-1 Brier built 11/26** (`workbook/F1_BRIER.tsv`).
 - ✅ **Boot check now prints band touches** (`tools/routine_check.py`, 11/26; read-only; DAEDALUS review pending). ⚠️ **The routine still pulls and never grades.** Reads 11/13 to 11/25 were graded only today; the Iran −23.0 pair (11/16 → 11/18) and the AI +31.8 pair (11/19 → 11/20) were Critical when they happened and nobody saw them. WQ-599 (daily-grading owner) is still unowned.
 - ⚠️ **11/24 not read:** the laptop was awake, all five slots failed on a network outage (`Could not resolve host: github.com`), not sleep (`SCHEDULED_RUNS.md`).
-- ✅ **Coverage sweep run 11/26** (KB-ORC-153); nominations to HAWK, BRENT, VULCAN; next due 12/03. Russian diesel nomination still awaits BRENT/OSPREY. Kalshi CPI `KXCPIYOY-26NOV` candidate, not pinned (awaits HENRY's view). Nvidia successor markets resolved after Huang's 11/23 reinstatement: nothing to pin (KB-ORC-155).
+- ✅ **Coverage sweep run 11/26** (KB-ORC-153); nominations to HAWK, BRENT, VULCAN; next due 12/03. Russian diesel nomination: never actually sent on 11/04; sent 11/26 to BRENT and OSPREY (KB-ORC-161). Kalshi November CPI rungs 3.6 and 3.7 pinned 11/26 (mode 3.7, prints 12/10; KB-ORC-159). Nvidia successor markets resolved after Huang's 11/23 reinstatement: nothing to pin (KB-ORC-155).
 - ⚠️ **Kalshi lane is per-box:** laptop = UNSIGNED (public data only); signed lane is desktop-only.
 - ✅ **Hormuz 0-ships closure `⛔` is a false flag:** context column only (diagnosed 8/27).
 - ⚠️ **Kalshi `pull` has no double-log guard** and logs FINALIZED markets' last trades as `yes_prob`. Never `pull --log --force` to log new pins.
@@ -145,5 +145,6 @@ The crowd's picture on 11/26: **a December quarter-point hike is all but settled
 | ~Tue 12/1 | 2-week pause run completes if no qualifying US strike since 11/17 (INFERRED) | PM pause by 11/30 72.0 | → HAWK, FALCON |
 | Fri 12/04 | November jobs | Kalshi `KXU3-26NOV` >4.1 52 / >4.2 16 | → LABOR, HENRY |
 | Wed 12/09 | FOMC December | hold 3.5 / +25 93.5 / +50 2.2 (PM); Kalshi 4 / 92 / 4 | VX-ORC-12 Critical = a hike |
+| Thu 12/10 | November CPI (BLS) | Kalshi `KXCPIYOY-26NOV` >3.6 69 / >3.7 25 (mode 3.7) | combo:print-miss-direction point; → HENRY |
 | 2026-12-15 | Kalshi gap-fill quarterly re-check (WQ-305) | KXCREDEFMAX · KXCCDELINQ · KXCCCHGOFF · KXFEDFACILITY | |
 | 2026-12-31 | Bank failure, AI downturn, NEH, war/invade legs resolve | — | F-1 row for the open bank instance |

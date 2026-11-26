@@ -32,6 +32,9 @@ Fed hike 25 at Jan 2027 mtg (decision)	market	KXFEDDECISION-27JAN-H25	T1	HENRY,L
 # ROLLED OUT 2026-10-15 (laptop, UNSIGNED public read): Sept CPI ladder FINALIZED — expiration_value 3.7 (>3.5 YES · >3.6 YES · >3.7 NO). KXCPIYOY-26OCT has 0 markets at 10/15 03:57Z — pin when it lists (Oct CPI prints ~mid-Nov).
 # September CPI YoY >3.5%	market	KXCPIYOY-26SEP-T3.5	T1	HENRY
 # September CPI YoY >3.6%	market	KXCPIYOY-26SEP-T3.6	T1	HENRY
+# ★ PINNED 2026-11-26 (carried since 11/04 as 'after HENRY's view'; HENRY has no registered November CPI row, so the rung choice is ORACLE's): November 2026 CPI YoY, prints 12/10 (after the 12/9 FOMC). Read 2026-11-26T20:4xZ: >3.5 94 · >3.6 69 (OI 165.7K) · >3.7 25 (OI 76.5K) · >3.8 4 (OI 125.0K) => implied 3.6 or lower 31 / 3.7 44 / 3.8 21 / 3.9+ 4; mode 3.7 (September's print). October YoY does not exist (KB-ORC-136), so this is the next YoY print. KB-ORC-159.
+November CPI YoY >3.6%	market	KXCPIYOY-26NOV-T3.6	T1	HENRY
+November CPI YoY >3.7%	market	KXCPIYOY-26NOV-T3.7	T1	HENRY
 # September CPI YoY >3.7%	market	KXCPIYOY-26SEP-T3.7	T1	HENRY
 # ★ ROLLED 2026-09-04 — July U3 finalized 8/07. Skipped straight past August, which **CLOSED ON TODAY'S 08:30 PRINT**: KXU3-26AUG-T4.2 last-traded 24.0% and closed with the book collapsed to bid 0.0 / ask 1.0 ⇒ **settling NO, i.e. U-3 came in at or below 4.2%** (T4.3 1.0%, T4.4 1.0%). Labor did NOT weaken — the hawkish leg of today's repricing. Pinned the live SEPTEMBER event (prints 2026-10-02).
 # ⚠️ ENTRY READ: >4.2% last 49.0% but the book is 9¢ wide — **cite the MID 41.5** (KB-ORC-069; the ⚠mid marker fired). >4.3% 19.0% on a 3¢ book. → LABOR, HENRY
@@ -71,6 +74,8 @@ Corporate bankruptcies 2026 >750	market	KXBANKRUPTCY-26-750	T2	CARL,REGINALD
 # ROLLED 2026-11-05: Brent Oct-30 ladder finalized (retired 11/04); November month-end event found: KXBRENTMON-26NOV3017 (closes 2026-11-30, 30 markets). T97.99 = deepest near-money rung (OI 6.3K, 2c book, 43.0 at pin); T95.99 next (OI 4.1K, 55.0). Off-center rungs are OI 0 and not monotonic: last trades, not a curve.
 Brent >$97.99 @ Nov30 (deepest near-money rung)	market	KXBRENTMON-26NOV3017-T97.99	T2	BRENT,FALCON
 Brent >$95.99 @ Nov30 (second rung)	market	KXBRENTMON-26NOV3017-T95.99	T2	BRENT,FALCON
+# ADDED 2026-11-26 (context, NOT a VX-ORC-04 leg): Kalshi 'How high will oil (WTI) get by Dec 31, 2026?' — YES if any ICE WTI front-month SETTLE is above the rung between issuance (2026-03-04) and 12/31. Lowest open rung $115.01: 5.6 (vol $2.8M, OI 950.6K, 20:4xZ). Differs from the PM $110 touch leg three ways: settle not intraday high, $115 not $110, window since March not one month. A candidate only if Will rules a substitute supply leg (KB-ORC-160).
+WTI settles above $115 by 12/31 (Kalshi max, context)	market	KXWTIMAX-26DEC31-T115	T2	BRENT,FALCON
 # SUPPLY TRUTH (barrel-level, better than WTI-$100 proxy): "Iran crude production Jul 2026 >2.0 mbpd". 77% Yes (thin OI 200). Iran ~2.0-2.2 mbpd = roughly its SANCTIONED baseline, NOT collapsed = direct barrel confirmation of "premium not shortage". Monthly (resolves Aug 12). -> BRENT,FALCON,HAWK
 # ⛔ RETIRED 2026-09-04 — finalized 8/12, and there is NO successor: `kalshi.py event KXIRANCRUDE` returns **0 markets** (series has no open event). The barrel-level supply-truth gauge is therefore a GAP again, not a roll. Re-check when Kalshi relists; until then the WTI-$100 Polymarket proxy is the only supply leg, with all the proxy caveats in ORACLE/CLAUDE.md.
 # Iran crude production Jul >2.0mbpd	market	KXIRANCRUDE-26AUG12-T2.0	T2	BRENT,FALCON,HAWK
