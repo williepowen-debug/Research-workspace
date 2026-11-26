@@ -8,11 +8,14 @@ Owner / cadence home: BRENT.  Scope: the AGGREGATE layer only (~10 keyless
 calls, stable schema).  `entsog_flows.py` is deliberately NOT built — the
 rot-prone point-keyed half; a dated revisit trigger is registered separately.
 
-⚠️ THE UA GATE. GIE returns HTTP 403 with no UA and 200 with a browser UA, and
-its own error text misnames the cause (it reads as an API-key problem, which it
-is not). Keyless works. An API key is OPTIONAL hardening, not a requirement —
-pass --key or set GIE_API_KEY. Verified live 2026-08-27: no-UA -> 403 on both
-AGSI+ and ALSI+; browser UA -> 200 on both.
+⚠️ THE KEY. Under the honest client name `research-bot/1.0` (WQ-735, 2026-11-23)
+GIE returns HTTP 200 with an EMPTY data list when no key is sent, and data when
+the fleet key is sent (HANS, 2026-11-26, KB-HANS-214; DEWEY re-run the same day).
+The key is read, in order, from --key, GIE_API_KEY, AGSI_API_KEY, then the
+AGSI_API_KEY line of FORGE/tools/market-data/.env (gitignored). It is never
+printed. A WRONG key also returns an empty list. History: on 2026-08-27 a
+browser client string worked keyless and no client string got 403; that string
+is retired.
   `[[finding_audit_resolution_path_before_reattempt]]`
 
 Usage:
@@ -66,14 +69,13 @@ def _fetch(url, key=None, timeout=30):
                 body = json.loads(r.read())
             if not body.get("data"):
                 # ⚠️ AMBIGUOUS, so do NOT name one cause. GIE returns HTTP 200
-                # with an EMPTY data[] for BOTH a wrong parameter (e.g.
-                # `country=eu` instead of `continent=eu`) AND a UA it dislikes —
-                # verified 2026-08-27, both produce an identical clean 200.
+                # with an EMPTY data[] for a missing key, a wrong key, and a
+                # wrong parameter (e.g. `country=eu` instead of `continent=eu`).
                 # A 200-with-no-rows is a FAILURE here, never "no data exists".
                 raise ValueError(
-                    "HTTP 200 but data[] is EMPTY — ambiguous: either the query "
-                    "params are wrong (continent=eu vs country=<iso>) or the UA "
-                    "was rejected. This is NOT evidence that no data exists.")
+                    "HTTP 200 but data[] is EMPTY — ambiguous: no key sent, a "
+                    "wrong key, or wrong query params (continent=eu vs "
+                    "country=<iso>). This is NOT evidence that no data exists.")
             if attempt == 2:
                 TRANSIENTS.append(f"{datetime.date.today()} {url} cleared on retry "
                                   f"(first pass: {last})")
@@ -83,8 +85,7 @@ def _fetch(url, key=None, timeout=30):
             if e.code == 403:
                 raise GieError(
                     f"HTTP 403 for {url}\n"
-                    "  This is the UA GATE, not an API-key problem — GIE's own error\n"
-                    "  text misnames it. A browser UA keyless returns 200.") from e
+                    "  Do not retry under another client name (WQ-735); report it to PROME.") from e
             if e.code < 500:
                 raise GieError(f"HTTP {e.code} for {url}") from e
         except Exception as e:                              # noqa: BLE001
@@ -292,11 +293,30 @@ def cmd_series(a):
     return 0
 
 
+def _default_key():
+    """The fleet key, never printed: env GIE_API_KEY, env AGSI_API_KEY, then the
+    AGSI_API_KEY line of the gitignored FORGE/tools/market-data/.env."""
+    for v in ("GIE_API_KEY", "AGSI_API_KEY"):
+        if os.environ.get(v, "").strip():
+            return os.environ[v].strip()
+    p = os.path.dirname(os.path.abspath(__file__))
+    while p != os.path.dirname(p):
+        env = os.path.join(p, "FORGE", "tools", "market-data", ".env")
+        if os.path.isfile(env):
+            with open(env) as f:
+                for line in f:
+                    if line.startswith("AGSI_API_KEY="):
+                        return line.split("=", 1)[1].strip().strip('"').strip("'") or None
+            return None
+        p = os.path.dirname(p)
+    return None
+
+
 def main():
     ap = argparse.ArgumentParser(description="GIE AGSI+/ALSI+ aggregate puller (BRENT-owned)")
     ap.add_argument("--country", help="ISO code (de, nl, ...); default = EU aggregate")
-    ap.add_argument("--key", default=os.environ.get("GIE_API_KEY"),
-                    help="optional GIE API key (keyless works; this is hardening)")
+    ap.add_argument("--key", default=_default_key(),
+                    help="GIE API key; default: GIE_API_KEY, AGSI_API_KEY, then FORGE .env")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     s = sub.add_parser("storage", help="EU storage level + same-date prior years")
