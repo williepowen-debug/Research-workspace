@@ -11,4 +11,6 @@
 
 **Not touched:** BRT-22 (scored a hit on mechanism under Will's June 1 split ruling; the letter regrade is Will's, held with PROME). BRT-26 confirmed scored at 85% (the 9/6 mark), answered 11/20. No level, operator, instrument or consequence moved; no live row is affected.
 
+**⛔ BRT-23 REGRADE WITHDRAWN 2026-11-25 20:12 EST (same day, evening session):** the dated read was done. Glencore's force majeure is dated June 2025 (Reuters via Kitco 2025-06-11), before this row was registered; the primary Q1 2026 Production Report (30 April 2026) has no force majeure. The BRT-23 line in the table above is superseded: status restored to FAILED, pending Will between two readings. Evidence: `research/2026-11-25_jazan/NOTE.md` § 5. BRT-28's regrade is unaffected.
+
 **Caveat:** BRT-23's force-majeure date is not in my records; "within 60 days of Hormuz closure" rests on my own archive's in-letter TRUE, not on a dated Glencore notice re-read today. If PROME's verification wants the date, it is a primary-source read at Glencore, not a change of rule.

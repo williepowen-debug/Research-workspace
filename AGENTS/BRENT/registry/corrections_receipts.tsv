@@ -50,3 +50,5 @@ receipt_date	correction_id	action	note
 2026-11-25T15:26Z	COR-20261123-23	NO-OP	scope=Araghchi and DNI items not carried by BRENT, kill strings absent (grep 2026-11-25); 
 2026-11-25T15:26Z	COR-20261123-25	NO-OP	scope=BRENT STATUS 11/24 already carries the Houthi port order as conditional on a Hodeidah strike with Jeddah named, rates-double headline never carried (grep 2026-11-25); 
 2026-11-25T15:26Z	COR-20261124-21	NO-OP	scope=CIA and ODNI breach is CYPHER lane and not carried by BRENT (grep 2026-11-25); 
+2026-11-26T01:13Z	COR-20261125-23	NO-OP	scope=BRENT counts one coalition Hodeidah strike on 11/25 and carries the 12:48Z item CLAIM ONLY in its note and CATALYSTS; 
+2026-11-26T01:13Z	COR-20261125-16	NO-OP	scope=BRENT authored the corrected figure and no BRENT surface carried the wrong one; 
