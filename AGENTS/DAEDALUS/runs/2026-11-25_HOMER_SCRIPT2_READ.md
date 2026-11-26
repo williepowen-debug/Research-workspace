@@ -41,3 +41,12 @@ Notes, none blocking:
 2. The three stress lines (advances, liquidity cushion, 60+ delinquency) are untagged at all six. For those the draft is a locator; the check proves the text rows only at PennyMac and loanDepot, and loanDepot already shows wrong-row matches.
 3. Re-running an old period after a later filing carries the same balance-sheet date (for example period 2026-12-31 after the Q1-2027 10-Q) makes the filing finder refuse: a loud failure, not a wrong figure. February first use is unaffected.
 4. A change to DEWEY's `doc` layout shows as "not found", caught only by running `check`; HOMER runs it first.
+
+## Ideas to make it more useful (Will 22:47 ET asked; ideas only, none begun, nothing sent)
+
+1. Read the filing's statement pages (the R*.htm tables EDGAR renders in each filing folder) instead of searching the whole 10-Q: one clean table per statement, company labels included, year-earlier column alongside. Cash flow lines (advances, hedge cash) are on the face statements, so tagged in the filing itself under company labels that SEC's standard-tag service drops. `edgar_doc.py exhibits` already lists them and `doc --doc` may read them: unverified; `choose_doc` excludes them today.
+2. Remember the right row: once a quarter is hand-confirmed, store each company-and-line label that was correct; next quarter look for that label first, search only as fallback. Removes the loanDepot wrong-row class.
+3. Show the change against last quarter's draft beside each figure. Print only; no threshold, flag or grade.
+4. Optional: run on the earnings-release 8-K (two to four weeks before the 10-Q; text only, no tags). Earlier, less exact.
+5. Optional, checker-like (Will prefers fewer): print sentences with covenant-waiver, facility-draw or going-concern wording, which map to servicer-watch classes B and C. Prints only; never an alarm.
+Not recommended: more companies, or any threshold or alert.
