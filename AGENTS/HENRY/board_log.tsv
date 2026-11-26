@@ -1047,3 +1047,7 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-25T15:36:53-05:00	SIG-W-20261125-036	info-only	INBOX_WALTER	Two CoreWeave 2031 bonds, not confirmation; COR-20261125-36 NO-OP.
 2026-11-25T16:36:19-05:00	2026-11-25_from-FERT_cc-G5-fired-retail-MAP-above-1000	info-only	INBOX_GENERAL	GATE-FERT-G5 fired, MAP $1,004; FERT expects no CPI effect Nov-Jan. Logged ML-HEN-251. Ask none.
 2026-11-25T16:36:19-05:00	2026-11-25_from-DAEDALUS_status-byte-headroom	acted	INBOX_GENERAL	STATUS rotated verbatim to STATUS_COLD ROT-11/25, under the 22,785 B stop line.
+2026-11-25T23:46:58-05:00	SIG-W-20261125-039	noted	INBOX_WALTER	CoreWeave 10-Q at SEC: principal due 2.433B rest of 2026, 10.974B in 2027, of 47.505B; covenants met Sep 30; no default filing at 18:16 ET. Context for AI-borrower stress; LIQUID, BROCK, VULCAN own.
+2026-11-25T23:46:58-05:00	SIG-W-20261125-040	info-only	INBOX_WALTER	CRWV-ORCL-ARM co-movement up since Oct 12 (0.88, 0.89); correlation not cause. Ask is SAM and VULCAN. Consistent with HENRY read: stress concentrated in AI names.
+2026-11-25T23:46:58-05:00	SIG-W-20261125-041	acted	INBOX_WALTER	LIQUID DTCC full day 11/25: no valid CRWV 5Y; 4Y 1,366 to 1,379 clean, about +130 bp; 5Y 1,314 [11/24]; Oracle flat. STATUS CoreWeave line refreshed from the 11:45 ET read.
+2026-11-25T23:46:58-05:00	SIG-W-20261125-042	noted	INBOX_WALTER	Houthi projectile hit Jazan commercial port, minor damage; Jeddah intercepted; no barrel removed. FALCON, BRENT own. HENRY watches only oil-to-vol transmission; Brent 94.60 evening, not a settle.
