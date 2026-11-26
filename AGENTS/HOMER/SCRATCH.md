@@ -1,4 +1,4 @@
-# HOMER SCRATCH — 2026-11-25 (fifth session: boot 17:25 ET; Will "continue working on your tools and plan"; written 17:31 ET)
+# HOMER SCRATCH — 2026-11-25 (fifth session: boot 17:25 ET; closed 20:47 ET on Will's "lets close out")
 
 **Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), laptop. No helpers spawned. Fourth-session handoff: `git show c711ec8526:AGENTS/HOMER/SCRATCH.md`.
 
@@ -6,15 +6,17 @@
 
 | Item | Result |
 |---|---|
-| Plan item 1 (steps 3, 4, 5, 7 and STATUS red marks) | Done; detail in MAINTENANCE 17:31 ET. No reading, band, count, kill test or odds changed |
-| Start-up read (charter + STATUS + SCRATCH + LESSONS + docket print) | 109,457 B before, about 90.7 KB after (-17%) |
-| READS re-sign | Proposed `reports/2026-11-25_READS.proposed.tsv`; packet to PROME, which owns the registry |
-| Every-session checks | ATTOM 404 ×3 (Aug control 200) at 17:28 ET; servicer rating search: nothing new (one thin search) |
-| Script 1 | Scope draft `reports/2026-11-25_script1-scope-DRAFT.md`; four feeds answered; nothing built |
+| Plan item 1 (DAEDALUS steps 3, 4, 5, 7; STATUS red marks) | Done 17:31 ET (8911d54f2c); MAINTENANCE. Start-up read 109,457 B to about 90.7 KB |
+| Plan item 2, script 1 (Will 18:28 ET "yes go ahead and build") | `tools/fetch_series.py` built and pushed (68d770494d); selftest 12 malformed inputs refused; live run matched hand readings |
+| Will 18:49 ET "ok go" | January prior-year Treasury feed (d05e2671e0); Treasury 11/25 close 4.85 / 4.61 as context in RATES and STATUS; spread stays on 11/24 (LESSONS §44) |
+| READS re-sign | DONE by PROME at 02571a598e (packet consumed; HOMER rows re-signed in `PROME/registry/READS.tsv`) |
+| Every-session checks | ATTOM 404 ×3 at 17:28 ET; servicer rating search nothing new (one thin search) |
+
+No reading, band, count, kill test or registered odds changed.
 
 ## Due next
 
-1. ICE October First Look, next check Mon 11/30 (**HOM-07, HOM-08**, C1). ATTOM Sept/Oct/Q3.
+1. **Run `python3 tools/fetch_series.py` first at each PMMS, FMHPI or Apartment List pull** (it saves and checks; it grades nothing, so the reading still goes to the ledger by hand). ICE October First Look, next check Mon 11/30 (**HOM-07, HOM-08**, C1). ATTOM Sept/Oct/Q3.
 2. Apartment List Nov (**HOM-06**) · FMHPI Oct · Redfin weekly · 11/30 EO check · 12/01 combination review (046 trigger HAS fired; 045 gained PennyMac) · ~12/01–05 Trepp Nov (**HOM-05**: did Cove revert, did Blackjack enter?) · 12/02 read-cap re-measure and MBA apps · 12/03 PMMS · 12/04 construction jobs · 12/07 Toll · 12/09 NAR (**HOM-09**).
 3. HUD FHA October report (~December): read EVERY table; starts against ~10,465 a month.
 4. PennyMac Q4 (about February): cushion over the Fannie/Freddie test (unscored view: lower than $94M about 25%, shortfall under 3%); Walker & Dunlop Q4 allowance (above $63.2M about 75%, unscored).
