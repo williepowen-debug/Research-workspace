@@ -1,8 +1,8 @@
 # CYPHER — NEXUS Brief
 
-**Status:** 🟠 New 11/20: R1 flip test run on its date: rows 1, 3, 4 all NOT-FIRED with in-window checks 11/13, 11/19, 11/20, so the toward-Log4Shell flip FIRED and WAVE-2026-10 is MECHANICAL (rows stay open; a named victim flips it back). ⚠️ The quiet is about names: vendor-confirmed unnamed compromises stand (047, 070). Off-wave: MUFG Bank confirms ~6.5M demographic records exposed via vendor PLAID's KARTE (089; WALTER had it NOT FOUND, corrected); N-able ties its worldwide Mail Assure outage to the breach (085). No score moved (25/40 raw, 16/40 adjusted).
+**Status:** 🟠 New 11/26: WAVE-2026-10 stays MECHANICAL (since the 11/20 R1 test); 7-day pass 11/26: 1 FIRED (row 2) · 8 NOT-FIRED. ⚠️ The quiet is about names: vendor-confirmed unnamed compromises stand (047, 070). Off-wave: two confirmed Barclays US data breaches at CA AG filings (Best Egg ~792,000 people, Barclays Bank Delaware ~27,000; SSNs, no funds, no PHP link; 092, 093; P1 to REGINALD, GIBBS); FinCEN intrusion, filing deadlines to 12/30, no evidence of BSA database breach per spokesperson (090); VSoft (CU core vendor) ransomware claim unconfirmed (094). No score moved (25/40 raw, 16/40 adjusted).
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-20 11:44:55 EST, written at closeout (PROME prome-77 due-row wake; record `research/2026-11-20_r1-flip-test/RECORD.md`) | STATUS commit: `6b4bfd243e92ab1e90d7be6e9f67800e9321de24`
+**As of:** 2026-11-26 11:21:15 EST, written at closeout (PROME prome-80 due-row wake; record `research/2026-11-26_due-rows/RECORD.md`) | STATUS commit: `7612e2cae9982452e29ea392282d19bf30bf90bf`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -11,6 +11,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| REGINALD / GIBBS / PROME / NEXUS / TERRY | 11/26: Best Egg (Barclays-owned lender) breach 10/25-10/26, SSNs and loan-payment account numbers, 791,852 (Texas AG, relayed); Barclays Bank Delaware card-application tool, detected 11/04, 27,272; both CONFIRMED at CA AG letters (092, 093). FinCEN unauthorized access, some systems offline, batch BSA filings due 11/18-12/29 extended to 12/30 (090). Packets sent (P1 by routing). TERRY: no investment implication on CYPHER's read | P1 | Bank consequence reads (REGINALD, GIBBS); data theft, no funding channel on CYPHER's read |
 | NEXUS / PROME / TERRY | 11/20: R1 flip test: toward-Log4Shell FIRED, WAVE-2026-10 MECHANICAL; rows open. No REGINALD/GIBBS packet (nothing they carry changes). TERRY: no investment implication | P3 | Wave stance for synthesis: mechanical for banks, confirmed unnamed compromises outstanding |
 | WALTER / SAM / NEXUS | 11/20: MUFG Bank notice 11/18 (PRIMARY): ~6.5M records of gender, age, region via contractor PLAID's KARTE; no identifying data; bank systems not accessed; PLAID names no flaw (no PHP2Shell link) (CYB-INC-089). WALTER correction (P2), SAM context (P3) | P2 / P3 | Japan supplier-route data event; combo:japan-october-cluster |
 | GIBBS / REGINALD / PROME / NEXUS | 11/19: JPMorgan (on X, via Fox 32): its vendors were attacked; "certain marketing data ... may include some customer names and email addresses"; "no disruption to our services"; no link to the 11/16 outage. Vendors and count unnamed; possibly n0n's 11/16 listing (081), unconfirmed. Off-wave, row 3 does not fire. Packets sent (P1 by routing) | P1 | Large-bank consequence is GIBBS's; CYPHER reads it as small |
