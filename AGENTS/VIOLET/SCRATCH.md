@@ -21,7 +21,7 @@
 
 ## NEXT SESSION
 
-1. **11/27 boot (short session, closes 13:00):** 11/25 History posted by 23:38 ET 11/25 and matched the print on all five spot cells (SKEW 142.06); still run `backfill.py --spot-only` (SKEW for 11/25 left blank on purpose: the vendor filled 139.16 forward); **no 11/26 VX_DAILY row** (D:L342); re-score convergence; mark thesis row 2' ARMED on History with CHANGELOG; HY 11/25 cell.
+1. **11/27 boot (short session, closes 13:00):** 11/25 History posted by 23:38 ET 11/25 and matched the print on all five spot cells (SKEW 142.06). `backfill.py --spot-only` ran at closeout: 2,837 cells agreed, the 11/25 SKEW blank filled with 142.06, 0 corrected; the 11/25 row stays TICK; **no 11/26 VX_DAILY row** (D:L342); re-score convergence; mark thesis row 2' ARMED on History with CHANGELOG; HY 11/25 cell.
 2. Prediction 2' window: 10 closes 11/27, 11/30, 12/01, 02, 03, 04, 07, 08, 09, 10. First close at 25.00 or under = fails.
 3. If the 11/25 archive differs from the print, correct both Artifacts.
 4. About 12/04 Nvidia 10-Q (VULCAN); 12/16 SOQ vs Z6 25.0258 [11/25], PRED-11 resolves, L441. CFTC 11/24 report due by 12/01.

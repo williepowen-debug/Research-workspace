@@ -1,7 +1,7 @@
 # VIOLET STATUS
 
 **As of:** November 25, 2026 (Wednesday), 16:41 ET (from `date`). PROME prome-77 wake on D:L1280 (the 11/25 close), in the session Will opened at 15:34 ET. Claude Code, Opus 5.5, laptop.
-- **Close print:** vendor mirror of the 16:15 ET print, two identical pulls (16:33, 16:35 ET). **Cboe History checked 23:38 ET: VIX 28.29, VIX9D 29.61, VIX3M 26.29, VIX6M 26.89 and VVIX 115.38 all match the print, so VIX3M/VIX 0.9293 and the 7th inverted close stand on History. SKEW 142.06 [11/25 History]. The ledger rows stay TICK until `backfill.py` runs at the 11/27 boot.**
+- **Close print:** vendor mirror of the 16:15 ET print, two identical pulls (16:33, 16:35 ET). **Cboe History checked 23:38 ET: VIX 28.29, VIX9D 29.61, VIX3M 26.29, VIX6M 26.89 and VVIX 115.38 all match the print, so VIX3M/VIX 0.9293 and the 7th inverted close stand on History. SKEW 142.06 [11/25 History]. `backfill.py --spot-only` at closeout filled SKEW and corrected nothing; the 11/25 row stays TICK.**
 - **Credit:** HY first-published through **11/24 = 372bp** [LIQUID owns]; 11/25 not posted.
 - **Last real data refresh:** 2026-11-25. Thesis **v4.1.10**. KB-VIO-409. Record `research/2026-11-25_close-read/GRADE.md`.
 
@@ -27,7 +27,7 @@ No Will decision, trade, score, threshold or letter change; $0 moved. Convergenc
 | VIX9D / VIX3M / VIX6M | **29.61 / 26.29 / 26.89** [11/25 print]; 26.68 / 25.47 / 26.19 [11/24] | 9D/VIX **1.0467**, 3M/VIX **0.9293** [EST]; 1.0121 / 0.9662 [11/24 CONF]. |
 | VX futures | settles 11/25 Z6 **25.0258**, F7 24.2921, G7 23.9679, H7 23.5523, M7 23.125; 11/24 Z6 23.9769, M7 22.9924 | [CONF] Cboe settlement CSV. Z6 3.26 points under spot; front +1.05, back +0.13. |
 | VVIX | **115.38** [11/25 print], high 131.48 at 11:20; 114.07 [11/24] | [EST]; over 120 intraday only. |
-| SKEW | **139.16** [11/24]; 140.37 [11/23]; 138.84 [11/20] | [CONF] History. RED-FT-10 exit count on my reading: 1 [11/20], reset [11/23], 1 [11/24]; RED grades. |
+| SKEW | **142.06** [11/25]; 139.16 [11/24]; 140.37 [11/23]; 138.84 [11/20] | [CONF] History (11/25 posted by 23:38 ET). RED-FT-10 exit count on my reading: 1 [11/20], reset [11/23], 1 [11/24]; 11/25 not read by me; RED grades. |
 | MOVE | **98.84** [11/24] | [CONF] investing.com primary. BOND owns rates. |
 | OVX / OVX:VIX | **49.39** (p83.7) / **1.87** (p45.0) CALM [11/24] | [CONF] History. |
 | JPY RV10 / RV20 | **4.58% / 4.74%**, p14.2, CALM [11/25 15:34 ET boot] | USDJPY 159.2. FXY IV/RV 2.45 (event-premium flag, context). SAM owns substance. |
