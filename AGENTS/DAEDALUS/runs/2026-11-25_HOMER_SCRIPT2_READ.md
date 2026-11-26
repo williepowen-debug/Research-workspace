@@ -22,3 +22,7 @@
 ## Limits
 
 No SEC call made; no tag looked up for any company. HOMER's line list not judged as housing analysis.
+
+## Will's word (2026-11-25 22:02 ET)
+
+"no trials lets just do it". Read by DAEDALUS as: build script 2 now, without waiting for script 1's December trial, at HOMER's full scope (six servicers, six lines). Recommendations 2 and 4 above (reuse DEWEY's tool; check tags first) carried into the paste block for HOMER; 3 (start narrow) and 5 (two-quarter trial) dropped per Will. Builder: HOMER. Relayed by Will pasting into HOMER's window, not by peer message.
