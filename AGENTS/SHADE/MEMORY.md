@@ -103,3 +103,7 @@ Private-credit impairment becomes more dangerous when it enters an insurance wra
 
 - **An issuer's marketing total is a perimeter claim: test it against the same filer's own lists.** The AI deck's $12.9B could not hold the 10-Q's $3,097M SVF II Finco line, and its "committed" footnote was $6.2B in the 10-Q. Read the concentrations table and the related-party note beside any themed deck.
 - **Read the footnote under a reassuring title.** "Guarantee from an IG counterparty" sits over a note saying the CML rating is "not a guarantee to Athene".
+
+## 2026-11-26
+
+- **"Third-party" in a rating release is relative to the obligor, not to the insurer.** KBRA called Saturn's parent WHCO "unaffiliated with SpaceX"; Athene's own Schedule Y lists it under Apollo control. Check the insurer's Schedule Y before accepting "third-party". The converse also holds: Schedule Y shows common control, never Athene capital.

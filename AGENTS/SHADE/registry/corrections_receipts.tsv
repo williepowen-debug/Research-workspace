@@ -15,3 +15,6 @@ receipt_date	correction_id	action	note
 2026-11-18T15:48Z	COR-20261117-17	NO-OP	scope=no SHADE artifact cited card 014's uncorrected figures, the 2026-11-18 record cites the FSR holder sentence via corrected card 017 and BROCK KB-BRK-510; SHADE 2026-11-18 boot
 2026-11-18T15:48Z	COR-20261117-31	NO-OP	scope=weekday label only on card 014, no SHADE artifact carries the publication weekday; SHADE 2026-11-18 boot
 2026-11-20T16:58Z	COR-20261119-20	NO-OP	scope=cards 017 and 018 corrections (S&P intraday legs, Hunterbrook AMD wording, REG-36 to REG-37) change no SHADE figure, trigger or record; 
+2026-11-26T17:16Z	COR-20261123-12	NO-OP	scope=SHADE holds no record citing 20261123-011 row 4 (SpaceX pricing), grep of AGENTS/SHADE outside archive 11/26. Corrected facts taken fresh from the card and KBRA 11/16 into research/INBOX_DRAIN_AND_INSURER_AI_HOLDERS_2026-11-26.md; 
+2026-11-26T17:16Z	COR-20261123-13	NO-OP	scope=SHADE never carried the GMI Cloud 635M or FT 300B guarantee lines from 20261116-005 item 2, grep of AGENTS/SHADE 11/26 finds none; 
+2026-11-26T17:16Z	COR-20261124-21	NO-OP	scope=CIA and ODNI breach is CYPHER lane, SHADE holds no record of 20261124-018 item 8, no insurer channel; 
