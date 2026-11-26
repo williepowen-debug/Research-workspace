@@ -38,7 +38,7 @@
 
 ## Open with Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-25 · 6 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-734 (11/27) · WQ-753 (—) · WQ-728 (—) · WQ-718 (—) · WQ-695 (—) · WQ-687 (—)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-25 · 8 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-734 (11/27) · WQ-755 (—) · WQ-754 (—) · WQ-753 (—) · WQ-728 (—) · WQ-718 (—) · WQ-695 (—) · WQ-687 (—)
 <!-- WILLQ-VIEW END -->
 - Parked (his hands): row 687, the laptop tokens. Told Will, his to do, no prompt owed: delete the two token text files from his Windows Desktop and wipe the thumb drive once the laptop is set up.
 
