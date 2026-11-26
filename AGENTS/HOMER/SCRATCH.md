@@ -1,4 +1,4 @@
-# HOMER SCRATCH — 2026-11-25 (fifth session: boot 17:25 ET; closed 20:47 ET on Will's "lets close out")
+# HOMER SCRATCH — 2026-11-25 (fifth session: boot 17:25 ET; closed 20:47 ET; reopened 22:04 ET for script 2)
 
 **Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), laptop. No helpers spawned. Fourth-session handoff: `git show c711ec8526:AGENTS/HOMER/SCRATCH.md`.
 
@@ -10,6 +10,7 @@
 | Plan item 2, script 1 (Will 18:28 ET "yes go ahead and build") | `tools/fetch_series.py` built and pushed (68d770494d); selftest 12 malformed inputs refused; live run matched hand readings |
 | Will 18:49 ET "ok go" | January prior-year Treasury feed (d05e2671e0); Treasury 11/25 close 4.85 / 4.61 as context in RATES and STATUS; spread stays on 11/24 (LESSONS §44) |
 | READS re-sign | DONE by PROME at 02571a598e (packet consumed; HOMER rows re-signed in `PROME/registry/READS.tsv`) |
+| Script 2 after closeout (Will 22:02 ET, full scope) | `tools/filing_reader.py` built; tag survey 11 of 36 pairs tagged; `check` 5 of 5 hand readings match; draft `reports/filing_drafts/2026-09-30_servicers_DRAFT_2026-11-25_2226.md`; DEWEY told by packet |
 | Every-session checks | ATTOM 404 ×3 at 17:28 ET; servicer rating search nothing new (one thin search) |
 
 No reading, band, count, kill test or registered odds changed.
@@ -27,7 +28,7 @@ Dated prints come first: the 11/30 ICE check outranks this plan.
 
 1. DONE 2026-11-25 (fifth session).
 2. **Script 1 BUILT 2026-11-25 18:31 ET (Will 18:28 ET "yes go ahead and build", option A):** `tools/fetch_series.py`. Use it at the next PMMS (12/03), FMHPI (~11/30) and Apartment List (~11/30) pulls; **keep or delete by the end of the December refreshes**: delete if it does not plainly save time. It is 353 lines, not the ~150 scoped (selftest included).
-3. **Possibly later, script 2:** filing reader (same 10-Q lines each quarter; PennyMac and the other listed servicers first). Separate scope approval. Reading the text stays required.
+3. **Script 2 BUILT 2026-11-25 22:26 ET (Will 22:02 ET, full scope, no trial):** `tools/filing_reader.py`. Use at the Q4/10-K servicer filings (~Feb 2027): `check` first, then `read --period 2026-12-31`, then read each filing. 9 of 36 company-line pairs come back not found and need a hand read (see MAINTENANCE 22:31 ET).
 4. **Not in the plan:** step 6 (band history out of CLAUDE.md) HELD for Will's separate word; the one-to-one with LABOR skipped; no new band, kill test, rule or check.
 
 Sources: `AGENTS/DAEDALUS/runs/2026-11-25_HOMER_ARCHITECTURE_REVIEW_READ.md` (incl. addendum) and `2026-11-25_HOMER_PEER_COMPARISON.md`.

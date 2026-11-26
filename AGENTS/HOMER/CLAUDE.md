@@ -254,7 +254,7 @@ The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAW
 | `registry/PREREG_*.md` | Pre-registrations of a print's outcome buckets, frozen on commit (first: Trepp MF Oct-2026) |
 | `registry/SERVICER_WATCH.md` | **Nonbank servicer watch trigger** (single home, moved verbatim from CATALYSTS row 3 on 2026-11-25; Will-gated). Read before grading any servicer event |
 | `registry/corrections_receipts.tsv` | R1 correction receipts |
-| `tools/` | `rent_breadth.py` (rent band), `threshold_scan.py` (band scan), `fetch_series.py` (built 2026-11-25, Will: fetches PMMS, FMHPI, the Treasury curve and the Apartment List roster extract into `data/series/`; fails loudly; grades nothing; `--selftest` must pass before use) |
+| `tools/` | `rent_breadth.py` (rent band), `threshold_scan.py` (band scan), `fetch_series.py` (built 2026-11-25, Will: fetches PMMS, FMHPI, the Treasury curve and the Apartment List roster extract into `data/series/`; fails loudly; grades nothing; `--selftest` must pass before use), `filing_reader.py` (built 2026-11-25, Will: six lines from six listed servicers' 10-Q/10-K via DEWEY's `edgar_doc.py`; writes one DRAFT to `reports/filing_drafts/`, never a ledger or alarm; run `check` before use; reading the filing stays required) |
 | `data/series/` | Dated copies saved by `fetch_series.py` + `FETCH_LOG.tsv` (one row per feed per run). Not a ledger: figures still go to `workbook/` |
 | `COVERAGE.md` | **Lane-by-lane coverage map** (built 2026-10-28): source, data vintage, build quality, gaps. Not boot-read; refresh when a lane's state changes |
 | `MAINTENANCE.md` | Structural change log (built 2026-10-28) — consult before restructuring; not a per-session ritual |
