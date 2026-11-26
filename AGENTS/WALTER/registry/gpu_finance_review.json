@@ -1176,6 +1176,69 @@
         "2026-11-25"
       ],
       "closed": "2026-11-25T19:29:34Z"
+    },
+    "gpu:51f7d3f7c902": {
+      "title": "CoreWeave’s Bankers Reportedly Ready $4.5B GPU-Backed Loan Tied To Meta Deal - Yahoo Finance",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261125-031/035 CoreWeave loan, already carded",
+      "days": [
+        "2026-11-25"
+      ],
+      "closed": "2026-11-26T03:49:28Z"
+    },
+    "gpu:fec1f363aa3f": {
+      "title": "CoreWeave Banks Plan $4.5 Billion Meta-Tied Loan Sale - The Defiant",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261125-031/035 CoreWeave loan, already carded",
+      "days": [
+        "2026-11-25"
+      ],
+      "closed": "2026-11-26T03:49:28Z"
+    },
+    "gpu:8666c4f1bebc": {
+      "title": "Here’s why AI stocks crashed today - Blockspace Media",
+      "disposition": "NOTE",
+      "ref": "TITLE ONLY; source not reviewed; dated 11/24 AI selloff recap, covered by 20261125-001",
+      "days": [
+        "2026-11-25"
+      ],
+      "closed": "2026-11-26T03:49:28Z"
+    },
+    "gpu:b5adf7a3a4b9": {
+      "title": "CRWV: CoreWeave Inc Latest Stock Price, Analysis, News and Trading Ideas - Stocktwits",
+      "disposition": "NOTE",
+      "ref": "TITLE ONLY; source not reviewed; Stocktwits ticker page, no event",
+      "days": [
+        "2026-11-25"
+      ],
+      "closed": "2026-11-26T03:49:28Z"
+    },
+    "gpu:608db246418e": {
+      "title": "Nvidia May Get A Credit Rating Cut Amid Governance Issues, While US Officials Reportedly Say No Chinese Interference in Huang’s Affair - Stocktwits",
+      "disposition": "NOTE",
+      "ref": "TITLE ONLY; source not reviewed; Nvidia rating-cut speculation, no agency named; folded on SIG-W-20261125-044",
+      "days": [
+        "2026-11-25"
+      ],
+      "closed": "2026-11-26T03:49:29Z"
+    },
+    "gpu:006a1512a73b": {
+      "title": "Polestar posted a wider loss as pricing and U.S. exit weighed on revenue - Quartz",
+      "disposition": "NOTE",
+      "ref": "TITLE ONLY; source not reviewed; Polestar results, not GPU finance",
+      "days": [
+        "2026-11-25"
+      ],
+      "closed": "2026-11-26T03:49:29Z"
+    },
+    "gpu:5ddd7246af6b": {
+      "title": "VinFast aims to make EV ownership more accessible in the Philippines - UnGeek",
+      "disposition": "NOTE",
+      "ref": "TITLE ONLY; source not reviewed; VinFast EV item, not GPU finance",
+      "days": [
+        "2026-11-25"
+      ],
+      "closed": "2026-11-26T03:49:29Z"
     }
   }
 }

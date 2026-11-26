@@ -1,0 +1,42 @@
+[
+ {
+  "id": "SIG-W-20261125-043",
+  "slug": "NYC-rent-freeze-UPHELD-Nov-25-judge-tosses-landlord-suit-over-RGB-freeze-for-about-2-million-stabilized-tenants-titles-only-NYT-Guardian-Crains-Gothamist-ruling-text-not-read",
+  "route_origin": "RESEARCH-INTAKE 23:40Z collect (FLG watch phrase 'upholds rent freeze'), title skim 22:5x ET",
+  "origin": ["Research-Intake data/2026-11-25/news.json, 12 titles 11/25: NYT, Guardian, Crain's NY, HousingWire, Gothamist, NY Daily News, Bisnow, Commercial Observer, amNewYork, Realtor.com, 6sqft, KFGO"],
+  "signal_type": "catalyst",
+  "title": "New York judge upholds the Rent Guidelines Board freeze on about 2 million rent-stabilized apartments and dismisses the landlords' suit (Nov 25; 12 headlines including NYT, Guardian, Crain's; ruling text NOT read); amNewYork: the judge rebuked the mayor's campaign promise",
+  "body": "# NYC rent freeze ruling, Wed Nov 25 (titles only)\n\n| Point | What the titles say | Basis |\n|---|---|---|\n| Ruling | judge upholds the freeze, tosses landlords' lawsuit | 12 headlines dated 11/25 (NYT 'Mamdani Wins Against Landlords in Rent Freeze Lawsuit'; Crain's 'Judge upholds historic rent freeze for more than two million stabilized tenants'; Realtor.com 'Tosses Landlords' Lawsuit') |\n| Scope | one- and two-year stabilized leases (6sqft: 'two-year rent freeze') | title; the June RGB vote froze both lease terms (search summary, not read) |\n| Caveat in the ruling | amNewYork: the freeze survives, but the judge rebukes the mayor over a 'reckless and irresponsible' campaign promise | title only |\n| Also | News12: the administration expands rent-freeze program eligibility | title only |\n| Not read | the decision, the judge's name, the docket, any appeal notice | WALTER's search (22:5x ET) did not find the ruling text; a court-docket read is FLG's |\n\n- **Labels:** headlines are many and consistent, but syndication is not corroboration; no figure here is from the decision itself.\n- **So what:** the freeze stays for now on the rent-regulated multifamily book FLG tracks (Flagstar's NYC rent-regulated loans); landlords' revenue on those buildings stays flat for the lease year, and an appeal is likely (search summary). FLG grades the effect; REGINALD and CREED hold the bank and CRE sides. Possible tradeability question for TERRY through FLG.",
+  "source": "Research-Intake data/2026-11-25/news.json (collect 2026-11-25T23:40Z), titles listed",
+  "action": ["FLG"],
+  "info": ["REGINALD", "CREED", "HOMER", "WAL", "RED", "PROME"],
+  "precedence": "PRIORITY",
+  "confidence": 0.75,
+  "confidence_language": "reports: many outlet titles, decision not read",
+  "cluster": "BANK_COLLATERAL",
+  "domain": "BANK_CRE",
+  "entities": ["New York City", "Rent Guidelines Board", "Flagstar", "FLG", "rent-stabilized housing"],
+  "dispatch_note": "FLG WATCH_HIT (upholds rent freeze). Titles only; not IMMEDIATE (secondhand-release rule by analogy: no primary read). RED, PROME by BOARD diff.",
+  "route_summary": "NYC rent freeze upheld (titles)"
+ },
+ {
+  "id": "SIG-W-20261125-044",
+  "slug": "Small-items-Nov-25-evening-lane-Barclays-Best-Egg-breach-claim-tanker-projectile-off-Dubai-claim-Kroger-and-Poundland-jobs-Russian-refinery-runs-copper-low-Texas-data-center-permit-pause",
+  "route_origin": "RESEARCH-INTAKE 23:40Z collect, 72 new titles read 22:5x ET (7e(h)); repeats checked against the BOARD",
+  "origin": ["Research-Intake data/2026-11-25/news.json, collect 23:40Z"],
+  "signal_type": "context",
+  "title": "Small items Nov 25 evening (titles only unless stated): Barclays' Best Egg breach of 792,000 records (American Banker title; not found by WALTER's search); projectile near a tanker 50 nm off Dubai (investingLive title; not found); Kroger corporate cuts; Poundland collapse; Russian refinery runs lowest in decades (Rystad); copper at 2026 low; Texas data-center permit pause",
+  "body": "# Small items, Wed Nov 25 evening (titles; WALTER did not read the bodies)\n\n| Theme tag | Item | Owner | Note |\n|---|---|---|---|\n| combo:CYPHER/bank-vendor | 'Barclays' Best Egg unit discloses breach of 792,000 records' (American Banker) | CYPHER | **CLAIM**: WALTER's search found nothing on it and the ownership link is unchecked; CYPHER verifies |\n| combo:FALCON/gulf-shipping | 'Projectile explodes near tanker 50 nautical miles off Dubai as Gulf shipping attacks mount' (investingLive) | FALCON | **CLAIM**: not found by WALTER's search (March to October cases only); no UKMTO read (403) |\n| combo:LABOR/corporate-cuts | Kroger starts corporate layoffs toward 3,000 jobs; Ohio weekly claims up | LABOR | title |\n| combo:HANS/uk-retail | Poundland collapses, 11,000 jobs at risk | HANS | title |\n| combo:OSPREY/refinery-campaign | Russian refinery runs lowest in decades (Rystad via Bloomberg); five Russian jets hit at an airfield (Ukraine); Boehly deal for Lukoil assets | OSPREY, YURI | title; Lukoil earlier on 20261123-006 |\n| combo:MIDAS/copper | copper at a 2026 low, 11-month low on tariff and rate-hike fears | MIDAS | title |\n| combo:WATT/data-center-power | Texas data-center projects face a permit pause pending ERCOT review; Constellation closes its 4.4 GW sale to LS Power | WATT | title; ERCOT earlier on 20261124-018 |\n| combo:VULCAN/memory | Micron -10% on TrendForce NAND oversupply; Ambarella -37% on memory shortage; 'Nvidia may get a credit rating cut' (Stocktwits, no agency named) | VULCAN | title; TrendForce read on 034. Rating item: no agency, no action found |\n| combo:BROCK/ai-debt | South Africa's central bank: AI debt binge becoming a bond-market problem; December redemption data to test private-credit funds | BROCK | title |\n| combo:CORAL/insurance | Citizens Property Insurance to mandate flood coverage from 2027 (Beinsure) | CORAL | title; may restate the existing phase-in |\n| NO-ACTION | 'Saudi Arabia resumes Yanbu oil loadings' (safety4sea) is dated **Sep 30**: a date trap (Kharg and Yanbu loadings-resume guard) | FALCON, BRENT | not new |\n\n- **Repeats, not new:** Ras Tanura claim (008, 016), Megaspeed (024 cycle, 034), Kress (20261123-001), CoreWeave loan (031, 035), Black Sea insurance (034), FinCEN (20261124-020).\n- **So what:** nothing here crosses a line; logged for combination by theme. Two claims go to their owners as claims.",
+  "source": "Research-Intake data/2026-11-25/news.json (collect 2026-11-25T23:40Z)",
+  "action": ["CYPHER", "FALCON"],
+  "info": ["LABOR", "HANS", "OSPREY", "YURI", "MIDAS", "WATT", "VULCAN", "BROCK", "CORAL", "BRENT", "RED", "PROME"],
+  "precedence": "ROUTINE",
+  "confidence": 0.5,
+  "confidence_language": "reports: titles only; two claims unverified",
+  "cluster": "MISC",
+  "domain": "CYBER",
+  "entities": ["Best Egg", "Barclays", "Dubai", "Kroger", "Poundland", "Rystad", "ERCOT", "Micron"],
+  "dispatch_note": "Small-items card (10.6). Two unverified claims go to owners as claims. RED, PROME by BOARD diff.",
+  "route_summary": "Small items evening lane"
+ }
+]
