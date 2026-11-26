@@ -693,3 +693,6 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-25	VULCAN	SIG-W-20261125-039	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 18:15 ET (liquid-bd, homer-e8, daedalus-b6, prome-77, nexus-99, reginald-9a, henry-7d, violet-29); UNKNOWN by 9b. ROUTINE; wake order is PROME's.
 2026-11-25	SAM	SIG-W-20261125-040	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 18:15 ET (liquid-bd, homer-e8, daedalus-b6, prome-77, nexus-99, reginald-9a, henry-7d, violet-29); UNKNOWN by 9b. ROUTINE; wake order is PROME's.
 2026-11-25	VULCAN	SIG-W-20261125-040	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 18:15 ET (liquid-bd, homer-e8, daedalus-b6, prome-77, nexus-99, reginald-9a, henry-7d, violet-29); UNKNOWN by 9b. ROUTINE; wake order is PROME's.
+2026-11-25	SAM	SIG-W-20261125-041	NONE	L1-UNKNOWN	NO	NA	NA	NA		Absent from ListAgents 18:15 ET; UNKNOWN by 9b. ROUTINE; wake order is PROME's.
+2026-11-25	BROCK	SIG-W-20261125-041	NONE	L1-UNKNOWN	NO	NA	NA	NA		same
+2026-11-25	VULCAN	SIG-W-20261125-041	NONE	L1-UNKNOWN	NO	NA	NA	NA		same

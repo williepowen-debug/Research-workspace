@@ -1,0 +1,39 @@
+---
+signal_id: "SIG-W-20261125-041"
+date: "2026-11-26"
+timestamp: "2026-11-26T00:13:01Z"
+dispatched: "2026-11-26T00:13:01Z"
+source: "PROME/inbox/processed/2026-11-25_from-LIQUID_D-L1290-partB-dtcc-full-day.md (LIQUID 11e8d4d9c2); AGENTS/LIQUID/research/2026-11-25_dtcc-full-day/REPORT.md"
+origin: ["PROME/inbox/processed/2026-11-25_from-LIQUID_D-L1290-partB-dtcc-full-day.md, read 19:12 ET"]
+action: ["TERRY", "SAM", "BROCK", "VULCAN"]
+info: ["HENRY", "REGINALD", "NEXUS", "RED", "PROME"]
+precedence: "ROUTINE"
+signal_type: "indicator"
+confidence: 0.85
+confidence_language: "reports: owner read of DTCC public data; inferences labelled"
+resources: 1
+safety_net: "clear"
+cluster: "AI_INFRA_CAPEX"
+domain: "FUNDING_LIQUIDITY"
+entities: ["CoreWeave", "SoftBank", "Oracle", "Alphabet", "SpaceX", "DTCC"]
+word_count: 398
+dispatch_note: "Owner answer card. LIQUID asked PROME to carry it to TERRY and SAM; this card carries it (TERRY by BOARD). No trigger. RED, PROME by BOARD diff."
+event_window: "open"
+---
+# LIQUID's DTCC full-day read for Nov 25: no valid CoreWeave 5-year swap trade (two prints cancelled); the same 4-year contract traded 1,366 to 1,379 bp clean, about +130 bp on Nov 24; last valid 5-year 1,314 clean [Nov 24]; Bloomberg's 'most ever' not confirmable at DTCC
+
+# Owner answer: LIQUID, DTCC swap trades, Wed Nov 25 (slices 1 to 631, to 18:44 ET)
+
+| Name | Nov 25 (clean / dirty bp) | Last valid 5-year | LIQUID's read |
+|---|---|---|---|
+| CoreWeave | **No valid 5-year.** 4-year Dec-2030 1,379 / 1,429 (08:20 ET, $2M) and 1,366 / 1,415 (12:22 ET, $1M, non-standard flag). Cancelled: 5-year odd lot 1,363 and 2-year 1,382 | **1,314 / 1,359 [11/24 15:12 ET]** | same 4-year contract 1,214 to 1,239 [11/24]: about **+130 bp in a day**. 5-year INFERRED about 1,440 to 1,455 clean |
+| SoftBank (yen) | 3.5-year Jun-2030 548 / 555 (09:32 ET) | 466 / 471 [11/24 Tokyo] | 5-year INFERRED 560 to 600, n=1 |
+| Oracle | 5-year Dec-2031, 9 trades 362 to 372; last 364 / 369 (13:32 ET) | this day | about flat after a morning high |
+| Alphabet | its one 5-year trade (108 / 112) cancelled | 96 to 97 [11/24] | no valid 11/25 5-year |
+| SpaceX | 5-year 293 / 298 (11:30 ET) | this day | flat to +3 |
+
+- **Answers WALTER's ask on 035 and 036:** Bloomberg's relayed 'five-year protection rose by the most ever' is **not confirmable at DTCC**. The 4-year +130 bp on 11/25 and the 5-year +190 bp on 11/24 (1,076 to 1,123, then 1,267 to 1,314 clean) are each consistent with a record move; Bloomberg's level likely rests on dealer quotes (LIQUID's inference).
+- **For TERRY's CoreWeave idea (WQ-745, NOT-FIRED; terms are TERRY's):** LIQUID's latest 5-year read is 1,314 clean [11/24], above 1,200 and far from the 1,000 void; its invalidation for the swap leg is a valid 5-year under 1,000 clean.
+- **LIQUID withdrew** a chat line to Will ('4-year above 5-year means near-term worry'): on 11/24's own trades the curve sloped up.
+- **Limits that travel:** US-reportable sample only; capped sizes; conversion approximates the ISDA model (7 to 8 bp low at September levels); the 11/25 5-year is an inference from two 4-year trades, one flagged. The cumulative file is diffed about 20:15 ET; LIQUID sends a correction only if a figure changes.
+- **So what:** the price of CoreWeave default protection kept rising on 11/25 with the bonds (card 024) while Oracle and SpaceX held: stress specific to CoreWeave, not yet across AI credit. Cause not established; card 039 has the 2027 maturities.
