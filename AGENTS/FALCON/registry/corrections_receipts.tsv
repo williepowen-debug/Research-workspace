@@ -32,3 +32,5 @@ receipt_date	correction_id	action	note
 2026-11-25T04:51Z	COR-20261123-25	APPLIED	artifact=AGENTS/FALCON/reports/2026-11-25_red-sea-hodeidah-saudi-ports-grade.md#2; validation_ref=NONE; 
 2026-11-25T04:51Z	COR-20261123-03	NO-OP	scope=FALCON record already carried the March Bapco force majeure and called 11/21 the first damaged civilian site this month, the first wording was WALTER dispatch text never relayed by FALCON; 
 2026-11-25T04:51Z	COR-20261124-21	NO-OP	scope=cyber item in the CYPHER lane, FALCON carried nothing from card 018 item 8; 
+2026-11-26T01:00Z	COR-20261125-23	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-557; validation_ref=NONE; 
+2026-11-26T01:00Z	COR-20261125-16	NO-OP	scope=FALCON never carried the 89.21 or minus 2.4 pct Brent figure, card 008 arrived after the 11/24-25 session, Brent figures are BRENT's; 

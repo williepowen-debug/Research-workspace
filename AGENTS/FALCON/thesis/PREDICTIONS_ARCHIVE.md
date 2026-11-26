@@ -212,3 +212,7 @@ SUCCESSOR TO FAL-04 (PARTIALLY 2026-08-20). REGISTERED 18 DAYS LATE — the 0-OP
 ## As-of line superseded 2026-11-25 (moved verbatim from thesis/PREDICTIONS.tsv line 3)
 
 As of 2026-11-06 11:18 ET: **3 CONFIRMED / 3 FAILED / 1 PARTIALLY / 0 VOIDED / 5 OPEN.** FAL-12 REGISTERED 11/06 at 10% under the PROME brief (WQ-596) on the card 018 grade, resolves 2026-12-31. FAL-06 RESOLVED CONFIRMED (registered 70%): no route fired on available evidence, route (c) never graded, not proof of no net loss. FAL-08..11 OPEN, all resolve 2026-12-31. FAL-06 and FAL-07 full rows rotated to archive/PREDICTIONS_snapshot_2026-11-06.tsv; older As-of lines to thesis/PREDICTIONS_ARCHIVE.md.
+
+## As-of line superseded 2026-11-25 evening (moved verbatim from thesis/PREDICTIONS.tsv line 3, FAL-13 resolution)
+
+As of 2026-11-24 23:45 ET: **3 CONFIRMED / 3 FAILED / 1 PARTIALLY / 0 VOIDED / 6 OPEN.** FAL-13 REGISTERED 11/25 at 25% (Saudi Red Sea port or coastal energy site damage confirmed by a counting source, 11/25 to 12/09), resolves 2026-12-09. FAL-08..12 OPEN, all resolve 2026-12-31. Prior As-of line moved to thesis/PREDICTIONS_ARCHIVE.md.
