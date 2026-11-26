@@ -161,6 +161,14 @@ def append_to_log(snapshot: dict) -> tuple[int, int]:
             "vix_spot": snapshot["vix_spot"],
             "source_ts": snapshot["source_ts"],
         }
+        # After-hours OI artifact (2026-11-25): write the OI leg BLANK so the
+        # null-preserving upsert keeps a good stored OI instead of letting the
+        # artifact's 0 overwrite it (a 0 is not null to `_daily_log`). The top
+        # strikes are ranked by OI, so they are the same artifact. Volume stays.
+        if is_oi_artifact(e["call_oi"], e["call_vol"]):
+            for c in ("call_oi", "put_oi", "cp_oi_ratio",
+                      "top_call_strikes", "top_call_oi", "top_call_vol"):
+                row[c] = ""
         status, _changes = upsert_row(
             DAILY_LOG, header, [row.get(c, "") for c in header],
             key_cols=["date", "expiry"], state_col=None,

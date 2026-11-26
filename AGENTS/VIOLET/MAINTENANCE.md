@@ -9,6 +9,18 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## November 25, 2026 — housekeeping (Will 20:13 ET): OI-zero fix, MEMORY rotation, KB review, two files retired
+
+**Trigger:** Will's "Can we do housekeeping now". The four items came from tonight's checks: the read cap had MEMORY.md at 79% of budget, `validate_workbook.py` showed 9 ACTIVE rows past Stale_By, and the 20:02 ET VIX_OPTIONS overwrite left an open defect.
+**What changed:**
+- **`vix_options.py`:** when `is_oi_artifact()` fires, the OI leg (OI, the OI ratio, the top call strikes) is written blank, so the null-preserving upsert keeps a good stored OI. A live after-hours run kept every 11/25 OI figure; the suite has 52 checks, all green.
+- **MEMORY.md:** six DATA SOURCES bullets and the September 14 sweep section were moved verbatim to `archive/MEMORY_DATA_CAVEATS_COLD.md` § 2026-11-25 rotation, each leaving a one-line pointer with its operative rule. The file went from 25,741 B to 22,449 B, 69% of budget.
+- **KB.tsv:** 9 overdue rows reviewed: 6 STALE and 1 CONFIRMED with a reason; KB-VIO-386 kept ACTIVE to 12/16 with a new member; KB-VIO-399 kept ACTIVE to 11/27 because the 11/26 catalyst row cites it (the closeout guard caught my first pass marking it STALE). The file's existing mix of CRLF and LF endings was kept line by line.
+- **Retired to `archive/`:** `2026-09-06_wq188_2nd_pass_receipt.md` (no references) and `2026-07-21_vio116-reopen-adjudication.md` (cited only by a delivered packet); both events are closed. The other 34 research items over 60 days old are still cited by the thesis, scripts, KB or MEMORY, so they stay.
+**Files touched:** `scripts/vix_options.py`, `MEMORY.md`, `archive/MEMORY_DATA_CAVEATS_COLD.md`, `workbook/KB.tsv`, `workbook/VIX_OPTIONS.tsv` (stamp only), the two moved files.
+**Boot-impact:** MEMORY.md reads about 3.3 KB smaller.
+**Lessons:** the after-hours OI caveat sat in MEMORY for months while the upsert built to protect good values did not treat 0 as missing; a documented artifact needs its guard at the write.
+
 ## November 25, 2026 — PREDICTIONS.tsv: Date_Made column, Confidence filled
 
 **Trigger:** PROME on D:L1280 (its scorer skipped VIO-PRED-08, -09 and -10 and read the resolve date as the made date).

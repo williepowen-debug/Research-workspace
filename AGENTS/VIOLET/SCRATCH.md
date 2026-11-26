@@ -17,14 +17,14 @@
 - PREDICTIONS.tsv: Confidence filled from letters, UNSCORED where the letter states none, `Date_Made` added.
 - D:L342 note to RED and REGINALD; TERRY packet; WALTER question 4 answered in the record.
 - **20:04 ET, Will's ask (options 1 and 3):** sticky-credit study and VIX options read, `research/2026-11-25_sticky-credit/FINDINGS.md`, KB-VIO-410. My unscored 2' fail view moved 88% → about 75%. Artifacts and NEXUS_BRIEF corrected. VIX_OPTIONS 11/25 rows: OI restored by hand after an after-hours run zeroed it (STATUS queue item 7).
+- **Housekeeping (Will 20:13 ET):** `vix_options.py` OI-zero fix; MEMORY.md rotated to 69% of budget; 9 overdue KB rows dispositioned; two research files archived (MAINTENANCE 11/25).
 
 ## NEXT SESSION
 
 1. **11/27 boot (short session, closes 13:00):** confirm 11/25 on History for every print cell; `backfill.py --spot-only` (SKEW for 11/25 left blank on purpose: the vendor filled 139.16 forward); **no 11/26 VX_DAILY row** (D:L342); re-score convergence; mark thesis row 2' ARMED on History with CHANGELOG; HY 11/25 cell.
 2. Prediction 2' window: 10 closes 11/27, 11/30, 12/01, 02, 03, 04, 07, 08, 09, 10. First close at 25.00 or under = fails.
 3. If the 11/25 archive differs from the print, correct both Artifacts.
-4. Fix `vix_options.py` / `_daily_log.py`: an OI of 0 must not overwrite good OI (STATUS queue 7).
-5. About 12/04 Nvidia 10-Q (VULCAN); 12/16 SOQ vs Z6 25.0258 [11/25], PRED-11 resolves, L441. CFTC 11/24 report due by 12/01.
+4. About 12/04 Nvidia 10-Q (VULCAN); 12/16 SOQ vs Z6 25.0258 [11/25], PRED-11 resolves, L441. CFTC 11/24 report due by 12/01.
 
 ## CARRY-FORWARD
 

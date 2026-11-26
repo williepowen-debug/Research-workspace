@@ -93,7 +93,7 @@ Position truth is off-repo (Will and the broker), with the separately dated FORG
 4. **12/16:** December expiry (Z6 SOQ against 25.0258 [11/25]) and VIO-PRED-11 resolves; L441 M1:M2 recheck.
 5. **WQ-735 refusals to PROME's 12/07 list:** Cboe delayed-quote JSON 403 to `research-bot/1.0`; `move.py` not switched.
 6. Corrections receipt COR-20261125-22 written (NO-OP).
-7. **Defect (own script):** an after-hours `vix_options.py` run writes OI 0 over good OI (`_daily_log.py` NULLS omits 0). Hit 11/25 20:02 ET; the OI fields were restored from HEAD by hand. Fix: treat 0 OI as null on upsert.
+7. **Fixed 11/25 (housekeeping):** an after-hours `vix_options.py` run wrote OI 0 over good OI; the artifact OI leg is now written blank so the upsert keeps the stored value (MAINTENANCE 11/25).
 
 **Done this session (11/25 afternoon):** boot, five WALTER cards and COR-20261125-22; D:L1280 close read; both Artifacts; PREDICTIONS.tsv Confidence and Date_Made; KB-VIO-408, -409; RED, REGINALD, TERRY packets.
 
