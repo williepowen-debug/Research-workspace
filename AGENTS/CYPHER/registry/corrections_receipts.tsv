@@ -11,3 +11,6 @@ receipt_date	correction_id	action	note
 2026-11-17T17:38Z	COR-20261116-10	APPLIED	artifact=AGENTS/CYPHER/workbook/INCIDENTS.tsv#CYB-INC-072; validation_ref=AGENTS/CYPHER/research/2026-11-16_bank-login-outage/RECORD.md#7; 
 2026-11-18T01:08Z	COR-20261117-12	APPLIED	artifact=AGENTS/CYPHER/workbook/INCIDENTS.tsv#CYB-INC-074; validation_ref=AGENTS/CYPHER/research/2026-11-17_optimizely-and-outage-list/RECORD.md#2; CYPHER's own 11/17 grade relayed by WALTER card 012; rows 071-077 carry it; evening update 077 CONFIRMED
 2026-11-20T16:41Z	COR-20261119-15	NO-OP	scope=CYPHER holds no surface citing card 010's declaration line. Its only CYPHER item, the FLHSMV outage, is logged out of scope in board_log 2026-11-20; 
+2026-11-26T16:18Z	COR-20261120-10	APPLIED	artifact=AGENTS/CYPHER/workbook/INCIDENTS.tsv#CYB-INC-089; validation_ref=AGENTS/CYPHER/research/2026-11-20_r1-flip-test/RECORD.md#section-5; 
+2026-11-26T16:18Z	COR-20261124-21	APPLIED	artifact=AGENTS/CYPHER/workbook/KB.tsv#KB-CYP-148; validation_ref=NONE; 
+2026-11-26T16:18Z	COR-20261123-23	NO-OP	scope=No CYPHER row cited the DNI glitches quote as NOT FOUND or the Delta item, and the Araghchi lines are FALCON's; 

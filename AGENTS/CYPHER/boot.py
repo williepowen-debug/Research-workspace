@@ -589,7 +589,7 @@ def bank_vendor_news():
             for chunk in chunks:   # any chunk failing fails the leg (rc 2): a partial sweep is not certified
                 query = f"({' OR '.join(chunk)}) {NEWS_TERMS} when:{NEWS_CONTROL_DAYS}d"
                 full = NEWS_URL + "?" + urllib.parse.urlencode({"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"})
-                req = urllib.request.Request(full, headers={"User-Agent": "Mozilla/5.0 (CYPHER boot leg 10)"})
+                req = urllib.request.Request(full, headers={"User-Agent": "research-bot/1.0"})   # WQ-735 honest client name (Will 2026-11-23)
                 with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
                     raw = resp.read().decode("utf-8", errors="ignore")
                 for it in ET.fromstring(raw).findall(".//item"):
