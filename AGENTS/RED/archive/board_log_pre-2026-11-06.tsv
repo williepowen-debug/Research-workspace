@@ -57,3 +57,10 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T17:19	SIG-W-20261106-035	noted	BOARD	Put-call 0.89 at Cboe; KB-RED-113 member
 2026-11-06T17:19	SIG-W-20261106-036	info-only	BOARD	Superseded by 041; already fixed S60-d
 2026-11-06T17:19	SIG-W-20261106-037	info-only	BOARD	Read with 042; Oracle CDS and IREN scope; KB-RED-109
+2026-11-06T17:19	SIG-W-20261106-040	noted	BOARD	Athene 12.9B, no loss; KB-RED-109 member
+2026-11-06T17:19	SIG-W-20261106-041	acted	BOARD	S60-d applied; confirmed CHG-057 report carries 22 to 24
+2026-11-06T17:19	SIG-W-20261106-042	noted	BOARD	Oracle CDS high 342.5 on 10/20; KB-RED-109 member
+2026-11-06T17:19	SIG-W-20261106-043	noted	BOARD	Qatar PM no comprehensive deal; continuation UNKNOWN; KB-RED-112 member; War read stays with FALCON
+2026-11-06T17:19	SIG-W-20261106-044	noted	BOARD	G.19 headline largely rebound; no stress measure; sign unclear; CARL owns
+2026-11-06T17:19	SIG-W-20261106-045	info-only	BOARD	FLG 10-Q filed, unread by RED; owner FLG
+2026-11-06T18:35	SIG-W-20261106-047	noted	BOARD	Qeshm projectiles reported, attacker unnamed, direction open; FALCON owns; KB-RED-112 member; no War move

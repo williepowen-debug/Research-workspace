@@ -33,6 +33,7 @@
 - **Anchor predictions to the workbook row at creation time** — STATUS/workbook numbering drifted (RED-11..14 vs 16..19); write the workbook ID immediately (ML-RED-068). → `MEMORY_ARCHIVE.md`
 
 **Pre-registration / falsification discipline**
+- **Base-rate a test before you call it decisive** (S70, ML-RED-339). RED named "VIX fades while BB stays wide" the decisive credit test; VIOLET's 29-spike study showed it is the normal state (18 of 29) and predicts no second leg. PROME found it, not RED. The discriminating test is the one the base case rarely produces (a new BB high with VIX below its peak).
 - **A binary sub-trigger scored with half-credit hides the yes/no that decides the line** (S67, ML-RED-334). CHG-027's (a) was scored 0.5 on 7/24, keeping the count at 1.5 of 4 under a 2-of-4 line whose letter had no fractions. An independent reader found it. Score 0 or 1; an ambiguous read scores 0 and says why. A self-graded ledger errs both ways, so it needs a second reader, not more care.
 - **An order book without its deal size is half a ratio** (S60-c, ML-RED-324). Take the size from the term sheet before citing a book, and ask the owner for the room left before calling a limit binding.
 - **A re-statement that re-pulls the panel but not the pre-written move table re-certifies without testing** (S60, ML-RED-323). KB-092's 'HY >320 with CCC >1100' clause was met and carried unflagged for two sessions. A window-bound probability also decays with the calendar; holding it is a claim to argue.
