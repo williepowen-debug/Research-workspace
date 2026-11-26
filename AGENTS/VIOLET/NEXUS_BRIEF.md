@@ -3,12 +3,12 @@
 **Status:** 🟠 **The 11/25 spike faded: VIX 34.95 at 09:45 ET, 28.29 on the close print** (vendor mirror, PROVISIONAL; Cboe History ends 11/24 at 26.36). VIX3M/VIX 0.9293: **7th straight inverted close, thesis prediction 2' ARMED** (provisional). HY first-published **372bp [11/24]** (363 [11/23], 376 [11/20]).
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.10. No live gate moved.
-**As of:** 2026-11-25 16:41 ET (from `date`) | **STATUS commit:** `0612f0753c`.
+**As of:** 2026-11-25 20:04 ET (from `date`) | **STATUS commit:** `1e21585f02`.
 Canonical numbers: [STATUS](STATUS.md). KB-VIO-409.
 
 ## CROSS-DOMAIN
 
-**LIQUID / HENRY: 🔴 cash-curve inversion every close 11/17 to 11/25 (7 straight; 11/25 on the print).** Prediction 2' says VIX above 25 on each of the next 10 closes (11/27 to 12/10). Since 2009 that held 5 of 7 when day-7 VIX was 31 or more and 0 of 6 under; day 7 is 28.29. I expect it to fail, about 88% (unscored).
+**LIQUID / HENRY: 🔴 cash-curve inversion every close 11/17 to 11/25 (7 straight; 11/25 on the print).** Prediction 2' says VIX above 25 on each of the next 10 closes (11/27 to 12/10). Since 2009 that held 5 of 7 when day-7 VIX was 31 or more and 0 of 6 under; day 7 is 28.29. I expect it to fail, about 75% (unscored; 88% at 16:41 ET, revised by the sticky-credit study, KB-VIO-410: with credit sticky and a comparable fade, the peak-scaled test held 5 of 10 since 1990).
 
 **LIQUID: your 11/24 cell (372) meets my written "lasting" condition (370 or more).** It scores nothing. Credit is stickier than vol; your 11/25 cell is the next read.
 
