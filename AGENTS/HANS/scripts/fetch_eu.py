@@ -24,6 +24,10 @@ from pathlib import Path
 
 ECB = "https://data-api.ecb.europa.eu/service/data"
 TIMEOUT = 25
+# WQ-735 (Will 2026-11-23; PROME packet 2026-11-23): the fleet's honest client name on every
+# request this module makes. If a source later refuses it, do NOT switch back: mark the reading
+# unavailable and send PROME a packet (rule 2 of that packet).
+UA = "research-bot/1.0"
 # euro-area AAA spot curve — the standard daily Bund proxy
 AAA10Y = "YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y"
 # long-term rate for convergence purposes, per country (MONTHLY)
@@ -31,7 +35,7 @@ CTRY = {c: f"IRS/M.{c}.L.L40.CI.0000.EUR.N.Z" for c in ("DE", "IT", "FR", "ES")}
 
 
 def _get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "HANS/1.0"})
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
         return r.read().decode("utf-8", "replace")
 
@@ -94,7 +98,7 @@ def boe(series, days=14):
     url = (f"{BOE}?csv.x=yes&Datefrom={fmt(f)}&Dateto={fmt(t)}&SeriesCodes={series}"
            f"&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N")
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
             txt = r.read().decode("utf-8", "replace")
     except Exception:
@@ -215,7 +219,7 @@ def agsi_eu():
         # testing rather than assuming; the wrong form fails SILENTLY with an empty
         # data array and a 200, which reads as "no data today" rather than "wrong query".
         req = urllib.request.Request("https://agsi.gie.eu/api?type=EU&size=1",
-                                     headers={"x-key": key, "User-Agent": "HANS/1.0"})
+                                     headers={"x-key": key, "User-Agent": UA})
         with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
             d = json.load(r)
         recs = d.get("data") or []
@@ -275,7 +279,7 @@ def _agsi_why_empty(key):
     """
     try:
         req = urllib.request.Request("https://agsi.gie.eu/api?type=EU&size=1",
-                                     headers={"x-key": "", "User-Agent": "HANS/1.0"})
+                                     headers={"x-key": "", "User-Agent": UA})
         with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
             probe_recs = (json.load(r).get("data") or [])
     except Exception as e:
@@ -321,7 +325,7 @@ def agsi_norm(gas_day, years=5):
         try:
             req = urllib.request.Request(
                 f"https://agsi.gie.eu/api?type=EU&date={y}-{md}",
-                headers={"x-key": key, "User-Agent": "HANS/1.0"})
+                headers={"x-key": key, "User-Agent": UA})
             with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
                 recs = (json.load(r).get("data") or [])
             if recs:

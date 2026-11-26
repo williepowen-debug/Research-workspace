@@ -20,6 +20,17 @@ This is the twin of the 2026-09-05 `DISPATCH_LOG.md` split: **a whole CATEGORY m
 
 ---
 
+## 🆕 SESSION 2026-11-26 (hans-1126) — PROME launch on Will's word (prome-80): whole-inbox drain, live refresh, WQ-735
+
+- **Pull refused** on other desks' dirty files (PROME `WQ_LEDGER.crc`, RED brief files); `git fetch` showed origin had nothing newer, so the current checkout was current.
+- **GIE "empty list":** DEWEY's report (relayed by PROME) read as a client-name refusal. Varying ONE thing at a time on both sites (honest name vs `HANS/1.0`, key vs no key) showed the key is the only variable that matters: data with the key under either name, empty without it under either name. Same shape as the 9/19 negative control. The empty array is the no-key case.
+- **S&P date:** the gap carried since 11/11 (`KB-188`) closed by searching for the Moody's 10/23 coverage rather than for S&P: Börsen-Zeitung's Moody's story names S&P's date. The Dow Jones/Morningstar page 403'd and was not retried.
+- **i-i table** read twice: once through a summarizing fetch, once as the raw page with a regex; the two agree row for row. The summarizer was not trusted alone.
+- **Doc audit caught:** two DISPATCH_LOG paths to packets the recipients had moved to `processed/` (4 test failures on the laptop 11/25 were this), and a C3 mismatch when I moved `T-10`'s spread but not its OAT level leg (`VX-3.07`).
+- **Corrections CLI** refused five `--scope` values for a semicolon again (same as 11/18): plain commas passed.
+- **Inbox moves:** all 23 signals were read in full before any move; each move ran per file after its own `board_log` row, in one scripted loop.
+- **Not done:** German 10Y on the TE/Bundesbank basis, daily BTP, UK 30Y benchmark, the EU Section 301 notice, UniCredit and Crédit Agricole Q3 rows, the `test_hans.py` temp-copy fix.
+
 ## 🆕 SESSION 2026-11-18 (hans-1118) — PROME registered wake D:L1146 + WALTER FSR card + inbox drain
 
 - **How the T-16 fire was reached:** the ECB Data Portal `ICP` series returned nothing after 2025-12 and Eurostat's `prc_hicp_manr` stopped in February 2026 (renamed `prc_hicp_minr`), so both API routes failed silently-shaped (empty, not an error). The figure came from the Eurostat euro-indicators page `2-18112026-ap` itself. Core 2.6 vs flash 2.5e: the fourth flash-to-final revision this desk has seen move against the energy-only read.

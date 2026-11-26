@@ -43,7 +43,8 @@ def _key():
 
 
 def _json(url, hdr=None):
-    req = urllib.request.Request(url, headers=hdr or {"User-Agent": "HANS/1.0"})
+    # WQ-735 (Will 2026-11-23): the fleet's honest client name
+    req = urllib.request.Request(url, headers=hdr or {"User-Agent": "research-bot/1.0"})
     with urllib.request.urlopen(req, timeout=60) as r:
         return json.load(r)
 

@@ -191,3 +191,28 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-23T17:33Z	SIG-W-20261123-005	graded	INBOX_WALTER	T-07 L3 exit MET 5/5 at the 11/20 close on my own re-pull (84.75 85.40 80.85 84.46 88.45); HANS-F-007 CLOSED; KB-209
 2026-11-23T17:33Z	SIG-W-20261123-006	noted	INBOX_WALTER	Merkury, Benghazi, Gulf of Finland, Black Sea risk area: combo:europe-gas-politics KB-212; no row moves
 2026-11-23T17:33Z	SIG-W-20261123-007	noted	INBOX_WALTER	Item 10 HANS: Simkus title to KB-210, Centrica and Capita to KB-211 combo:uk-cost-squeeze; rest not mine
+2026-11-26T17:54Z	SIG-W-20261123-008	noted	INBOX_WALTER	Item 2 ING data-centre loan auction (Bloomberg 11/20, search summary) to KB-216 combo:european-credit-funding; rest not mine (Citi UK unit is GIBBS)
+2026-11-26T17:54Z	SIG-W-20261123-009	acted	INBOX_WALTER	Correction applied: three Kh-101, drone ID superseded; KB-212 note appended, corrected form in KB-218; COR-20261123-09 receipted APPLIED
+2026-11-26T17:54Z	SIG-W-20261123-013	noted	INBOX_WALTER	Correction of an AI-finance card HANS never carried; COR-20261123-13 receipted NO-OP
+2026-11-26T17:54Z	SIG-W-20261123-016	noted	INBOX_WALTER	Israeli solo-strike reporting: HAWK and FALCON; no HANS row; no gas or LNG flow read
+2026-11-26T17:54Z	SIG-W-20261123-019	noted	INBOX_WALTER	US flash PMI is ISHM's; Germany mfg flash 55.0 to KB-215; HANS rows take the FINAL (12/01)
+2026-11-26T17:54Z	SIG-W-20261123-020	graded	INBOX_WALTER	Nov flash: DE mfg 55.0, EA composite 51.7; nothing grades at a flash; T-02 stays OPEN on Oct final 54.2; KB-215 with successor finals 12/01 and 12/03
+2026-11-26T17:54Z	SIG-W-20261123-022	noted	INBOX_WALTER	Iran sweep: T-15 leg (a) no Aramco, SPA or buyer notice; Kpler Yanbu ~2.7 mb/d Nov relay; no HANS row moves
+2026-11-26T17:54Z	SIG-W-20261123-025	noted	INBOX_WALTER	Correction of a Saudi-port card HANS never carried; COR-20261123-25 receipted NO-OP
+2026-11-26T17:54Z	SIG-W-20261124-006	noted	INBOX_WALTER	Hodeidah strike and Riyadh tower: no Saudi Red Sea port hit then; T-15 leg (a) not met; FALCON owns
+2026-11-26T17:54Z	SIG-W-20261124-017	noted	INBOX_WALTER	ADNOC PPA tanker transit notice and UKMTO 219-26 to KB-218; no LNG cargo affected on anything read
+2026-11-26T17:54Z	SIG-W-20261124-023	noted	INBOX_WALTER	Ifo 90.6 to KB-215 (not a HANS-T row); G.17 and Australia not mine
+2026-11-26T17:54Z	SIG-W-20261125-002	noted	INBOX_WALTER	Hormuz claims only; no HANS row; FALCON
+2026-11-26T17:54Z	SIG-W-20261125-006	noted	INBOX_WALTER	Section 301 proposal: EU among 14 partners, EU rate unread, deal cap 15%; KB-219 (read with corrections 014 and 015)
+2026-11-26T17:54Z	SIG-W-20261125-008	noted	INBOX_WALTER	Ras Tanura claim only; Brent line corrected by 016; T-15 leg (a) not met; KB-218
+2026-11-26T17:54Z	SIG-W-20261125-010	noted	INBOX_WALTER	Putin energy-infrastructure talks claim and Russian fuel-ban extension to KB-218 combo:europe-gas-politics; Kazakhstan is BRENT
+2026-11-26T17:54Z	SIG-W-20261125-014	noted	INBOX_WALTER	Section 301 dates (comments to 1/5/27, hearing from 1/25/27) to KB-219
+2026-11-26T17:54Z	SIG-W-20261125-015	noted	INBOX_WALTER	China Section 301 correction; HANS carried no China line; COR-20261125-15 receipted NO-OP
+2026-11-26T17:54Z	SIG-W-20261125-016	noted	INBOX_WALTER	Brent sign correction; HANS uses its own named-contract pull; COR-20261125-16 receipted NO-OP
+2026-11-26T17:54Z	SIG-W-20261125-023	noted	INBOX_WALTER	Hodeidah headline correction; one coalition-confirmed strike counted; COR-20261125-23 receipted NO-OP
+2026-11-26T17:54Z	SIG-W-20261125-032	graded	INBOX_WALTER	Ofgem Jan-Mar cap +26% (letter read by WALTER): T-17 stays NOT-MET (core 2.8, cap is headline energy, core moves only second-round); KB-217 combo:uk-cost-squeeze
+2026-11-26T17:54Z	SIG-W-20261125-034	noted	INBOX_WALTER	Item 6 Qatar LNG busiest month (title) to KB-218; item 8 Aareal SRT and Deutsche AM real-estate credit (titles) to KB-216; rest not mine
+2026-11-26T17:54Z	SIG-W-20261125-042	graded	INBOX_WALTER	Jazan Port HIT minor damage (coalition): T-15 leg (a) NOT-MET, a port hit is not an Aramco, SPA or buyer notice curtailing European allocations; KB-218
+2026-11-26T17:54Z	SIG-W-20261125-044	noted	INBOX_WALTER	Poundland to KB-217 combo:uk-cost-squeeze; Russian refinery runs to KB-218; Barclays Best Egg breach is a CYPHER claim
+2026-11-26T17:54Z	2026-11-23_from-PROME_WQ-735-honest-client-name	acted	INBOX_PEER	Switched 2 scripts to research-bot/1.0 (fetch_eu.py, pmi_ism_lead_test.py); fetch_eu run parses ECB, AGSI, BoE; Eurostat 200; no refusals; reply line in PROME packet 11/26
+2026-11-26T17:54Z	2026-11-25_from-DAEDALUS_wiring-17-run5	acted	INBOX_PEER	T-15 leg (b): component named on the row (HICP energy aggregate as registered, CP0722 read beside it at grade); narrowing to CP0722 recommended to Will via PROME, not made; no disagreement, no reply

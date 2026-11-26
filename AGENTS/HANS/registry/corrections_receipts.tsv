@@ -18,3 +18,9 @@ receipt_date	correction_id	action	note
 2026-11-19T17:13Z	COR-20261119-14	APPLIED	artifact=AGENTS/HANS/workbook/KB.tsv#KB-HANS-206; validation_ref=NONE; 
 2026-11-23T17:32Z	COR-20261120-10	NO-OP	scope=HANS carries no MUFG, KARTE or Plaid figure on any surface (grep of AGENTS/HANS outside inbox 2026-11-23 found none), and a Japanese bank data leak is outside the Europe desk; 
 2026-11-23T17:32Z	COR-20261120-12	NO-OP	scope=HANS never carried any card 011 line (embassy damage, Russian not-targeted line, summons, Austria), the last HANS session 11/19 predates the card, and card 005 Poland is noted only with no HANS row; 
+2026-11-26T17:53Z	COR-20261123-09	APPLIED	artifact=AGENTS/HANS/workbook/KB.tsv#KB-HANS-212; validation_ref=AGENTS/HANS/workbook/KB.tsv#KB-HANS-218; 
+2026-11-26T17:53Z	COR-20261123-13	NO-OP	scope=HANS never carried the GMI Cloud loan or the FT guarantees relay on any surface, AI-finance items are VULCAN and BROCK; 
+2026-11-26T17:53Z	COR-20261123-25	NO-OP	scope=HANS carried no line from cards 20261123-022 item 1 or 20261121-002 item 2, the Saudi-port threat is FALCON and BRENT, and T-15 leg (a) needs an Aramco, SPA or buyer notice which neither card has; 
+2026-11-26T17:53Z	COR-20261125-15	NO-OP	scope=HANS carried no Section 301 China line, the EU leg is logged in KB-HANS-219 from the corrected cards with the EU notice unread; 
+2026-11-26T17:53Z	COR-20261125-16	NO-OP	scope=HANS took no Brent figure from cards 008 or 010, T-15 leg (b) uses its own named-contract Brent pull (BZF27 read 11/26); 
+2026-11-26T17:53Z	COR-20261125-23	NO-OP	scope=HANS carried no Hodeidah strike count, KB-HANS-218 cites one coalition-confirmed strike only; 

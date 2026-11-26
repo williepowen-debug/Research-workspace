@@ -1,18 +1,19 @@
 # HANS LAST_COMPLETION — overwrite each session
 
-**STATUS:** ✅ DONE — 2026-11-23 (Mon) hans-1123. PROME due-row wake prome-77 (T-07 L3 exit). Boot ~12:28 ET rc1. Opus 5.5, Claude Code, laptop. No pull, no push (PROME pushes).
+**STATUS:** ✅ DONE — 2026-11-26 (Thu, US Thanksgiving) hans-1126. PROME launch on Will's word, prome-80. Boot ~12:42 ET rc1. Opus 5.5, Claude Code. Pull refused on other desks' dirty files (checkout matched origin); not pushed (PROME's brief).
 
 **CHANGED:**
-- **Registry:** T-07 (88.45 [11/20], L3 CLOSED by the exit), T-08 (-17.66, gas day 11/21). Fire log: HANS-F-007 CLOSED 2026-11-20. Corrections receipts COR-20261120-10 and -12 NO-OP.
-- **KB:** +209 (T-07 L3 exit grade), +210 (ECB hawk titles), +211 (UK small items), +212 (security events 11/19-23).
-- **VX:** 8.01, 8.02, 8.07. **Predictions:** tracking notes on HNS-16 and HNS-12. **FLOW:** FLOW-HANS-8 note.
-- **Other:** PUBLISHED +2 · board_log +8 · DISPATCH_LOG (+2 rows, TERRY 11/19 path re-pointed) · STATUS · SESSION_LOG.
-- **Packets:** TERRY (WQ-696 handoff, no card asked), PROME (memo).
+- **Registry:** T-07 (87.55 [11/26 bar]), T-08 (−17.90, gas day 11/24), T-10 (149.5bp / 4.75 [i-i 11/26]); T-15 notes (leg (b) component named); prior T-07 and T-10 state text → THRESHOLDS_HISTORY. No fire opened or closed. Corrections: 6 receipted (COR-20261123-09 APPLIED; -13, -25, 20261125-15, -16, -23 NO-OP).
+- **KB:** +213 to +219; KB-212 and KB-188 notes appended; 114, 132, 136, 174 RETIRED; 195 SUPERSEDED; 124, 179, 180 re-verified with Stale_By 12/31.
+- **VX:** 3.02, 3.07, 8.01, 8.02, 8.07. **Predictions:** tracking notes HNS-08 to HNS-16. **PUBLISHED:** +4.
+- **Scripts:** fetch_eu.py and pmi_ism_lead_test.py send `research-bot/1.0` (WQ-735).
+- **Other:** board_log +25 · DISPATCH_LOG (2 paths re-pointed, +2 rows) · STATUS · SESSION_LOG.
+- **Packets:** DEWEY (GIE key finding), PROME (memo). No TERRY packet.
 
-**RESULT:** T-07 L3 exit MET at the 11/20 close: named TTFZ26 Yahoo NYM closes 84.75, 85.40, 80.85, 84.46, 88.45, all under 90. HANS-F-007 CLOSED, L3 re-armed; open fire rows 7 → 6. Inbox 8 of 8 drained. TTF rebounded to 91.27 intraday 11/23; unscored view ~50% for a close ≥100 by 12/30 (HNS-16 registered 35%).
+**RESULT:** Inbox 25 of 25. No threshold fired, no prediction resolved. S&P France decision date sourced (Fri 11/27). EU storage draw accelerated to 0.58pp/d on 11/24. GIE feeds work under the honest name with the existing key.
 
-**GAPS:** ICE Endex settle unread (blocked site). 11/19 and 11/20 vendor bars carry identical volume (46). Nov flash PMI not found 11/23. Sovereigns not re-read (owed #40). 8 KB rows past Stale_By (owed #42).
+**GAPS:** German 10Y on TE/Bundesbank basis, daily BTP, UK 30Y benchmark not re-read. Morningstar page 403 (not retried). EU Section 301 notice unread. Euro HY by rating unread; bank funding unmeasured.
 
-**WILL_NEEDS:** None.
+**WILL_NEEDS:** One optional ruling, not urgent: narrow T-15 leg (b) from the HICP energy aggregate to the liquid-fuels component (instrument change; recommended, not made).
 
-**FOLLOW-UP:** Nov flash PMI ~11/24 (KB-004 refresh). HNS-09, -10 and -14 grade on 11/30. Z26 → F27 roll 11/27. Any named-front close over 100 = new L3 fire row.
+**FOLLOW-UP:** S&P France release 11/27 evening; HNS-09, -10, -14 grade 11/30; Z26 → F27 roll 11/27; PMI finals 12/01 and 12/03; Nov flash HICP 12/02; test_hans.py temp-copy fix (owed #44).
