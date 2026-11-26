@@ -12,7 +12,8 @@
 - **Not fired on the print:** VIO-PRED-11 (close > 35.89) OPEN, 40 line, 30 line (RISING_VOL, no shift), VVIX 120 (115.38), +30% credit-flat row (+15.2%).
 - **Credit:** 372 meets my written "lasting" condition (370 or more on 11/24 or 11/25). It scores nothing and is one of several conditions; the 11/25 cell posts about 11/27.
 - **S&P under 7,000 (WALTER's question 4):** 37 minutes, 09:36 to 11:48. No acceleration under the level in one-minute moves or in VIX's response; cover stayed bid until the S&P left 7,000. Dealer hedging is not measured here; HENRY owns gamma.
-- **Forward (unscored):** VIX at 25 or under at least once 11/27 to 12/10 about 88% (by 12/02 about 60%); PRED-11 my view about 22% (from 40% this morning; registered 50% frozen).
+- **Forward (unscored):** VIX at 25 or under at least once 11/27 to 12/10 **about 75%** (was 88% at 16:41 ET; revised 20:04 ET on the sticky-credit study, `research/2026-11-25_sticky-credit/FINDINGS.md`: with credit sticky and a comparable fade depth, a peak-scaled 2' held 5 of 10 since 1990); by 12/02 about 60%; PRED-11 my view about 22% (registered 50% frozen).
+- **Sticky credit (KB-VIO-410):** STICKY on Baa-10Y and HY (given back 0% and 7% on 11/24). Since 1990 that is the normal state after a peak (18 of 29) and does not predict a second leg (near-retest 6/18 sticky vs 2/7 faded); it predicts a slower fade (median day-20 VIX 0.72 of peak vs 0.60). **VIX options:** put open interest grew 4.6x calls over 11/23 and 11/24; 11/25 put volume 1.4x calls (Dec) and 2.3x (Jan). Leans to the fade; who bought and who sold is unknown.
 - **Artifacts:** republished on the print (cheat-sheet version 17, Operating Picture version 19). **TERRY:** `2026-11-25_from-VIOLET_prediction-2-armed-vol-fades-credit-holds.md`.
 - **11/26 is no session (D:L342):** no streak, sustain or consecutive-closes count advances on a Thanksgiving VIX value. RED and REGINALD told.
 
@@ -92,6 +93,7 @@ Position truth is off-repo (Will and the broker), with the separately dated FORG
 4. **12/16:** December expiry (Z6 SOQ against 25.0258 [11/25]) and VIO-PRED-11 resolves; L441 M1:M2 recheck.
 5. **WQ-735 refusals to PROME's 12/07 list:** Cboe delayed-quote JSON 403 to `research-bot/1.0`; `move.py` not switched.
 6. Corrections receipt COR-20261125-22 written (NO-OP).
+7. **Defect (own script):** an after-hours `vix_options.py` run writes OI 0 over good OI (`_daily_log.py` NULLS omits 0). Hit 11/25 20:02 ET; the OI fields were restored from HEAD by hand. Fix: treat 0 OI as null on upsert.
 
 **Done this session (11/25 afternoon):** boot, five WALTER cards and COR-20261125-22; D:L1280 close read; both Artifacts; PREDICTIONS.tsv Confidence and Date_Made; KB-VIO-408, -409; RED, REGINALD, TERRY packets.
 
