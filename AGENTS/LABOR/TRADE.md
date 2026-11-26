@@ -43,7 +43,7 @@ LABOR vector → threshold → target agent(s) → priority. This table owns the
 
 **Position:** 🔒 **NONE — the KELYA $7.5P Aug 21 EXPIRED WORTHLESS on 2026-08-21.** KELYA closed **$17.09** that day (low $16.60; Yahoo daily bars, pulled 2026-09-29) ⇒ `17.09 − 7.50 = $9.59` out of the money. **No KELYA line in `FORGE/STATUS.md`** (broker-view reconcile 2026-09-27, to the Fri 9/25 close; `grep -i kely` = 0 rows). Premium lost / cost basis → FORGE, never restated here. *(Re-stated 2026-09-29 on DAEDALUS Staleness Sweep #5: this line named the expired contract as the live position for 39 days. The pre-expiry live-state text is preserved in git — `git log -p -- AGENTS/LABOR/TRADE.md`.)*
 
-**Still owed from expiry:** the post-mortem question (*was the entry sound on the Mar-7 data, or was the company-vs-industry conflation already inferable?*) — unanswered since 8/21. Carried in STATUS PICKUP; no new position is implied by answering it.
+**Post-mortem ANSWERED 2026-11-26** (Will's word 15:40 ET): `domain/sources/2026-11-26_KELYA_POSTMORTEM.md` — the conflation was inferable at entry: the canonical BLS temp-help series was `−2.33%` YoY on the day LAB-01 was registered against a `<−6%` line, and `−3.38%` on the 3/6 data, not the `−12%` the dashboard carried. *Was:* the post-mortem question (*was the entry sound on the Mar-7 data, or was the company-vs-industry conflation already inferable?*) — unanswered since 8/21. Carried in STATUS PICKUP; no new position is implied by answering it.
 
 **Archived 2026-11-26:** the thesis state, verdict, re-arm conditions, decision triggers, lessons and the whole §3 Jun–Aug catalyst playbook moved verbatim to `domain/sources/TRADE_archive_20261126.md`. **BD-14** (§3 grids unenumerated) is discharged by the removal.
 
