@@ -42,9 +42,9 @@ probe used a known publisher route; see BACKLOG.md 2026-07-28 row.
 import sys, os, re, gzip, argparse, subprocess, urllib.request, urllib.error
 from html.parser import HTMLParser
 
-# A real browser UA. This is the whole fix for the Fed-family wall.
-BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-              "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+# WQ-735 (Will 2026-11-23): the honest client name replaces the browser string on every
+# non-SEC host; a site that refuses it is reported, never worked around. Name kept for callers.
+BROWSER_UA = "research-bot/1.0"
 # SEC wants the OPPOSITE: a declared contact, and 403s the browser UA.
 import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
 sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))

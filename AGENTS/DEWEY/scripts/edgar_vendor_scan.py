@@ -67,7 +67,7 @@ def get(url, tries=6, accept="application/json"):
 
 def kre_tickers():
     import openpyxl
-    req = urllib.request.Request(KRE_URL, headers={"User-Agent": "Mozilla/5.0"})
+    req = urllib.request.Request(KRE_URL, headers={"User-Agent": "research-bot/1.0"})
     wb = openpyxl.load_workbook(io.BytesIO(urllib.request.urlopen(req, timeout=60).read()), read_only=True)
     rows = list(wb.active.iter_rows(values_only=True))
     asof = next((str(c) for r in rows[:5] for c in r if c and "As of" in str(c)), "as-of unknown")

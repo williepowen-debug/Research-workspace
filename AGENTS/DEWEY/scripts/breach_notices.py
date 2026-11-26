@@ -26,7 +26,7 @@ attack-type "Ransomware" also tags MOVEit data theft — do not read it as a rou
 """
 import argparse, csv, html, json, os, re, sys, time, urllib.parse, urllib.request
 
-BROWSER = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+BROWSER = "research-bot/1.0"  # WQ-735 (Will 2026-11-23): honest client name; name kept for callers
 CA_LIST = "https://oag.ca.gov/privacy/databreach/list?"
 WA_API = "https://data.wa.gov/resource/sb4j-ca4h.json"
 ROUTES = [  # order matters: first hit wins

@@ -7,7 +7,7 @@ Built 2026-10-22 (Will-greenlit) from the bank legacy-technology and vendor
 studies (26 banks, 13 vendors). Stdlib only.
 
 GUARDRAIL (Will-approved scope, 2026-10-22): ONE normal homepage page load per
-domain with a browser user agent, plus the TLS handshake any browser makes.
+domain with the honest client name research-bot/1.0 (WQ-735, 2026-11-23), plus the TLS handshake any browser makes.
 No scanning, no probing, no extra paths. Findings about named banks stay in the
 desk report — never post them to the BOARD as a list of exposed banks.
 
@@ -29,7 +29,7 @@ to scripted reads — report them as "not observed".
 """
 import argparse, datetime, json, re, socket, ssl, sys, urllib.parse, urllib.request
 
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+UA = "research-bot/1.0"  # WQ-735 (Will 2026-11-23): honest client name, no browser string
 HEADERS = ["Server", "X-Powered-By", "X-AspNet-Version", "X-Generator", "Via", "X-Cache"]
 
 

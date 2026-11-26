@@ -40,8 +40,7 @@ import sys, os, json, csv, argparse, datetime, urllib.request, urllib.error
 
 AGSI = "https://agsi.gie.eu/api"
 ALSI = "https://alsi.gie.eu/api"
-BROWSER_UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-              "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+BROWSER_UA = "research-bot/1.0"  # WQ-735 (Will 2026-11-23): honest client name; name kept for callers
 
 TRANSIENTS = []          # CHECK_STANDARD §7: a cleared transient is still an EVENT
 

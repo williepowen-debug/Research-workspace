@@ -41,7 +41,7 @@ CR = [(n, re.compile(p, re.I)) for n, p in CLASSES]
 
 
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    req = urllib.request.Request(url, headers={"User-Agent": "research-bot/1.0"})
     return json.loads(urllib.request.urlopen(req, timeout=90).read())
 
 

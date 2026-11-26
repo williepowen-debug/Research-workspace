@@ -46,7 +46,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 STORE = HERE.parent / "research" / "etf_holdings"
-UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36"
+UA = "research-bot/1.0"  # WQ-735 (Will 2026-11-23): honest client name
 URLS = {
     "HYG": "https://www.ishares.com/us/products/239565/ishares-iboxx-high-yield-corporate-bond-etf/latest-holdings.csv",
     "JNK": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-jnk.xlsx",
