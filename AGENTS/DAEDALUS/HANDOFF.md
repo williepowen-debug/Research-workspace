@@ -1,6 +1,6 @@
 # Current continuation — November 25, 2026 (laptop)
 
-Will "go" 14:51 ET. Done: L1193 correction, scorecard 11/20, wiring ⑰ run 5, census 3 (records named in STATUS BOTTOM LINE). **Resume with:** YUR-F02 on 11/28 (do not grade early); scorecard 11/27; then the five DUE items. Desk replies to the 11/25 packets are the treatment evidence for wiring run 6 (12/16).
+Will "go" 14:51 ET. Done: L1193 correction, scorecard 11/20, wiring ⑰ run 5, census 3 (records named in STATUS BOTTOM LINE). **Resume with:** YUR-F02 on 11/28 (do not grade early); scorecard 11/27; then the five DUE items. Desk replies to the 11/25 packets are the treatment evidence for wiring run 6 (12/16). Evening: HOMER reads for Will (script 1, script 2 and its upgrade; `runs/2026-11-25_HOMER_SCRIPT2_READ.md`); DAEDALUS owes HOMER nothing; the parse_statement fix went to Will as a paste block, HOMER's to make.
 
 ---
 
