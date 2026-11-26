@@ -2,13 +2,20 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-24T23:20 ET, closed 23:3x ET on PROME's closeout ask in the brief (PROME prome-77, D:L1252, Will's word 23:19 ET "wake LIQUID and HENRY now", laptop, Claude Code / Opus 5.5, session liquid-desk-agent-2026-11-24)
+### CURRENT SESSION — 2026-11-25T15:34 ET, closed 2026-11-25T20:06 ET (Will's boot task 15:34 ET; D:L1290 A and B for PROME prome-77 at Will's 16:11 ET request; Will's 18:46 ET word to run B early; laptop, Claude Code / Opus 5.5, session liquid-bd)
+
+- **Context:** third LIQUID session of 11/25 (earlier: FLASH read, then the SoftBank CDS and 11/24 HY grade at 11:5x ET). Boot intake: 9 WALTER cards and 4 corrections (78915a16aa); WALTER 039/040 in the evening.
+- **Delivered:** **Part A** (servicer bonds, b2d692e862): Freedom 10.00% Jan-2032 at 99.69 [11/24], reoffer NOT FOUND; Freedom +95 bp median since 10/21 vs control +26; peers not following; no trade. **Part B** (11e8d4d9c2): all 631 DTCC intraday slices for 11/25; **no valid CoreWeave 5Y on 11/25**; 4Y Dec-2030 1,366–1,379 clean, about +130 bp on the day; last 5Y 1,314 clean [11/24] for TERRY's card. SoftBank 3.5Y 548/555, no 5Y; Oracle 5Y 362–372; Alphabet 5Y cancelled; SpaceX 293/298. **`crwv_cds_grade.py` fixed:** 90 of 114 cancel rows had no name (KB-LIQ-166). STATUS rotated to 69.8% of cap (`archive/status_snapshots/STATUS_rotated_2026-11-25.md`).
+- **Own error caught:** an 18:16 ET chat line read 11/25's 4Y over 11/24's 5Y as curve inversion; withdrawn in the Part B packet (on 11/24 the curve sloped up).
+- **Open:** diff the 11/25 cumulative DTCC file against the slice read if it was not done at close; H.4.1 of 11/25 unread; 069 review 11/27 (11/25 cell); `gate069_legs.py` and `dtcc_cds_probe.py` repairs.
+
+### PRIOR SESSION — 2026-11-24T23:20 ET, closed 23:3x ET on PROME's closeout ask in the brief (PROME prome-77, D:L1252, Will's word 23:19 ET "wake LIQUID and HENRY now", laptop, Claude Code / Opus 5.5, session liquid-desk-agent-2026-11-24)
 
 - **Context:** REG-T-04 FIRED (HY 352, 376, 363 [11/19, 11/20, 11/23]); my ISSUANCE-FREEZE leg; my gates on the 11/20 and 11/23 cells; forward view; TERRY re-read. Fleet was offline 20:55 ET 11/23 to 22:20 ET 11/24.
 - **Delivered:** ISSUANCE-FREEZE = NOT A FREEZE, SELECTIVE (20 named deals; Proofpoint 8.5% inside talk 11/18; IG $46.5B 25 bp inside talk; UST Global loan pulled 11/16; ING DC auction short 11/20; Fullscript to private credit). US HY weekly volume UNMEASURED (paywalled); year-ago week $6.405B. **GATE-LIQ-072 leg 2 FIRED (IG 98 [11/20]), first since 7/9**, routed HENRY + NEXUS via WALTER. **GATE-LIQ-069 L4 FIRED 11/20** (IREN −17.97%, APLD −17.81%, NBIS −16.11%, HY +24), 3 legs, no new consequence. CoreWeave 5Y about 1,314 bp [11/24]. HY-REKILL 0 of 2; X1 CLOSED; 079 not armed. PROME's servicer addition answered (memo §3). Memo `PROME/inbox/2026-11-24_from-LIQUID_D-L1252-issuance-freeze-read.md`, commit dd2be18962. The harness refused a desk report file, so the memo is the evidence record.
 - **Open:** inbox drain deferred (3 packets + 27 WALTER cards); 076 W1 as-of 11/17 addendum; `gate069_legs.py` newest-session-only blind spot (KB-LIQ-164); 11/24 ICE cell; freeze test the week of 11/30.
 
-### PRIOR SESSION — 2026-11-20T11:22 ET, closed on PROME's ask (PROME prome-77, G:GATE-LIQ-076 due-row wake launched late, laptop, Claude Code / Opus 5.5; stamp 2026-11-20T11:29:00-05:00)
+### EARLIER SESSION — 2026-11-20T11:22 ET, closed on PROME's ask (PROME prome-77, G:GATE-LIQ-076 due-row wake launched late, laptop, Claude Code / Opus 5.5; stamp 2026-11-20T11:29:00-05:00)
 
 - **Context:** grade 076 at its review; 11/19 HY cell as first published (>320 run, REG 350, re-kill); W2 and H.4.1 of 11/19; yen funding legs (SAM, BOND); TERRY read; funding sentence for HEARTBEAT; whole-inbox drain (1 + 5).
 - **Delivered:** HY 352 [11/19, first-published, pull 11:22:56 ET] = first close above 350 ⇒ REG-T-04 witness 1 of 3, >320 run 5, re-kill 0 of 2; CCC 1,361 (top of FRED's ICE window), B 380, HY−IG 258; IG 94 at 072's line; tier rule BROADENS clearly (IG +8, BBB +10, BB +26 vs 10/28). **076 NOT MET 1 of 3** (W2 as-of 11/11 G10 −7,007, G5L10 +937; W3 off since 11/16; W1 as-of 11/17 at 15:30 ET); re-arm end of 11/30; recommend 12/2. Funding unchanged (SOFR99 +8, SRF $3M, reserves +$19.1B): NOT SHOWN stands. H.4.1 11/18: FIMA $1M, foreign pool −$19.4B, custody +$19.8B, no sale shown. TERRY, SAM, BOND packets; KB-LIQ-153/154/156/157 appended; COR-20261119-20 NO-OP. → `research/2026-11-20_gate076-review/REPORT.md`.
@@ -88,48 +95,8 @@
 - **Slip, disclosed:** an unquoted heredoc turned "$0" into "/bin/bash" and "$500M" into "00M" in REPORT §18. Caught by grep before commit and fixed; the diff is append-only.
 - **Found:** `dtcc_cds_probe.py` crashes (division by zero) on a short-dated contract, so its list stops early; read the raw CSV until it is fixed (STATUS §3).
 
-### EARLIER SESSION — 2026-11-06T17:14:21-05:00 (Will's 17:08 ET word relayed by PROME, prome-51, Claude Code / Opus 5.5)
-
-- **Context:** bounded boot and close refresh. No new thread, spawn, trade or card. No gate, band or score moved.
-- **Delivered:** November 6 closes, Treasury curve, repo operations, H.8 (release November 6), commercial paper to November 5, TGA → `research/2026-11-05_live-catchup/REPORT.md` §16. Three peer packets and card 042 consumed; COR-20261106-42 receipted; KB-LIQ-153 updated from SAM and BROCK.
-- **Read:** AI equities took back most of November 5 (IREN +20.02%), credit funds did not bounce, yields rose so fund prices give no spread direction; funding gauges unchanged.
-- **Open:** DTCC full file on PROME's ping about 20:15 ET; Monday row in STATUS §3. ICI refused this client (403); not worked around.
-- **Slip, disclosed:** a KB clause on ORCL and the $116 offer came out garbled and was fixed before commit.
-- **Slip, disclosed:** on Hertz I wrote "every holder refused" from the schedules without reading the signature pages; BROCK showed ABF signs through Oaktree, so it is at most one credit decision. Corrected in STATUS, KB-LIQ-159, REPORT §17, brief. WALTER's cards 051 and 052 carried or corrected it. Also a cause-implying phrase in the ISHM note, removed.
-- **Rotated STATUS at closeout** under READ_CAP rule 5 → `archive/status_snapshots/STATUS_rotated_2026-11-06.md`. Closed on Will's 18:33 ET word; window stays open for the DTCC ping.
-- **Added, WALTER doorbell 18:14 ET:** card 050 Hertz owner read from the primary filings, REPORT §17, KB-LIQ-159; card 049 noted; packet to WALTER carrying the Class B refusal the card lacked. Method note: the exhibit, not the 10-Q summary, held the refusal, and the Note 10 fair values held the price.
-
-### EARLIER SESSION — closed 2026-11-06T16:48:41-05:00 (WQ-626 A, DOCKET L970, session liquid-98, Claude Code / Opus 5.5)
-
-- **Context:** ran the November 6 handoff by hand after the November 5 HY cell posted. No trades; no level, operator, instrument or consequence changed.
-- **Delivered:** November 5 print graded first-published (HY 348, +16); Will's funding sweep; GSBD; final Q3 BDC card (MAIN 10-Q); card 029 read of IREN and Oracle at filings; 076 W1; 21 WALTER cards consumed today; combination themes logged (WQ-622). `research/2026-11-05_live-catchup/REPORT.md` §15.
-- **Grades:** 069 L4 FIRED session November 5, count unchanged 2 of 2, no new consequence; L1 NOT FIRED. 076 1 of 3, W1 as-of November 3 NOT MET. 079 NOT ARMED +10. 072 NOT FIRED. HY-REKILL 0 of 2. Tier rule BROADENS on the daily clause.
-- **Added after first closeout, Will's word 15:40 ET:** Oracle CDS against Microsoft and SoftBank, `research/2026-11-06_oracle-cds-loop/REPORT.md`, KB-LIQ-158. Read: two stories on one AI-financing tape, no funding link measured, on a partial view. High 342.5 disseminated [October 20]. Second closeout on Will's word 16:46 ET for a context reboot.
-- **Open:** STATUS §3. No new forecast registered; LIQ-08 to LIQ-11 DOCKET rows are PROME's.
-- **Slips, disclosed:** "3.25% unsupported through November 5" was wrong, I tested only November files; corrected to PROME and WALTER. Told Will "ten minutes" on October 28 before finding no trade printed for nearly four hours before the 8-K, with the FOMC in the gap. Card 034 landed at 14:16 and my 14:20 commit missed it, caught 15:27 by reading the git log; re-sweep the inbox right before a commit that consumes cards. Directory-style `git add` on processed folders earlier today; status showed only intended renames. The 15:32 ET background wait was stopped by the system for low memory; not restarted, a one-shot reminder served instead.
-
-### EARLIER SESSION — closed 2026-11-05T16:45:48-05:00 (Will boot and catch-up word 09:42 ET, session liquid-9d, Claude Code / Opus 5.5)
-
-- **Context:** caught up to live data on November 5, S&P −4.36%, VIX about 28.17 vendor, credit funds calm. No trades; no level, operator, instrument or consequence changed.
-- **Delivered:** WQ-603 A hold removed from `gate069_legs.py`; workbook review; dealer, XCCC, BDC items; Q3 BDC card; SLOOS, Ueno, funding sweep, H.4.1 and W2 reads (`research/2026-11-05_live-catchup/REPORT.md` §14); LIQ-08 to LIQ-11 at 60cadb1f2 (WQ-596); 35 WALTER cards consumed; six correction receipts.
-- **Grades:** 076 NOT MET 1 of 3, window October 23→November 5. 069 L1 and L4 NOT FIRED [November 4]; November 5 pending. 079 NOT ARMED. HY-REKILL 0 of 2. 072 NOT FIRED.
-- **Open:** everything dated is in `research/2026-11-05_live-catchup/NOV6_HANDOFF.md`, including Will's repeat funding sweep (word 15:40 ET). Official closes for L4 unchecked; `main()` and stored-tie tests TESTED, not INDEPENDENTLY VERIFIED.
-- **Slips, disclosed at the time:** PROME packet ea7ea3a1b committed before its ledger rows when my own check failed in the same command; three typed stamps corrected to the wall clock.
-
-### EARLIER SESSION — 2026-11-04T16:25:58-05:00 (Will substantive credit follow-through after startup, OpenAI/Codex)
-
-- First-published reconciliation through November 3: >320 renewed run MET on November 2, four observations by November 3; existing tier ladder BROADENS. No generalized dollar-funding restriction proved. Canonical verdict/evidence: `research/2026-11-04_credit-followthrough/REPORT.md`.
-- Five gates updated for available observations only. 076 current window 1 of 3 because old W2 aged out, no episode reset; 079 NOT ARMED through excluded November 3. November 5 reviews remain OPEN for missing final observations. X1 CLOSED / DON'T-SIZE, swap-line SHELVED—WITHHELD, frozen predictions/FLOW/VX unchanged.
-- Boundary candidate implemented and author-tested: exact 2.40→2.04 meets with HY +5, neighbours pass; 43 retrieved sessions change zero actual results. CLI WITHHELD exit 4 pending independent DAEDALUS result RELEASE; verified Codex send accepted, recipient result not yet evidenced. Acceptance before code; source-based manual unaffected grades kept separate.
-- Arini reported margin-call selling, Ueno local bank→fund restrictions, Oracle priced access and CYPHER dated reopening facts integrated with sourcing/cash/exposure limits. October HY subtotal still missing (SIFMA aggregate is not it). General named packets consumed where tracked; sender-untracked arrivals left in place.
-- Next entry: STATUS §3, independent result receipt plus November 5 publications. Older NEXT SESSION dates below are historical; no completed case or frozen prediction reopened.
-
-**Will-requested closeout — 2026-11-04T17:24:56-05:00:** desk session closed, no new research or inbox drain. DAEDALUS's own closeout explicitly leaves the boundary review pending and unstarted; CLI remains WITHHELD. WALTER published/routed the renewed HY signal at baa25ef70 (SIG-W-20261104-076); downstream recipient consumption is not established. Next authorized session resumes STATUS §3, independent result and November 5 published inputs. Prior substantive push confirmed origin at 9e7d54fe1; final closeout publication verified separately from actual safe-push output.
-
-**Will-requested workbook sweep — 2026-11-04T17:35:28-05:00:** audited23 files, reconciled9 workbook surfaces plus3 wording-only human-calendar rows. KB111's old Pending-Will resolved from WQ106; Oracle proposed outlook-only clause labelled nonoperative, canonical L5 unchanged. BDC metric/gap labels, saved frontiers, source/routing limits and 069 hold navigation corrected. Existing ES01 denominator/ES05 sign and historical TestB/C closure gaps recorded in STATUS§3. Protected files/frozen sections and148 other KB rows byte-identical;57 calendar pairs exact, selftest PASS. No fresh source/market grade, code repair, new study or monitor. Receipt: `audits/2026-11-04_workbook-sweep/REPORT.md`.
-
-**Will-requested cross-report synthesis — 2026-11-04T17:45:59-05:00:** compared saved Car-Mart, First Brands, Brazil, WQ545, current credit and workbook-audit evidence. Main inference: access plus tighter terms, named cash constraints and broader prices can coexist without generalized funding seizure. Mechanism confirmation is stronger than established advance-warning value; repeated summaries are not independent evidence. Findings saved in STATUS §1; no fresh observations, grades, assignments or approvals. Existing pending items unchanged.
+*Session blocks 2026-11-04 to 2026-11-06 → `archive/MEMORY_before-2026-11-09.md` (crc32 d7e7245d).*
 
 ### NEXT SESSION
 
-**STATUS §3 is the list.** 11/24 (prome-77, D:L1252): freeze read SELECTIVE; 072 leg 2 and 069 L4 fired on the 11/20 data. Next: inbox drain (deferred 11/24, whole inbox); 11/24 and 11/25 ICE cells for 069 (review_by 11/27 recommended) and the tier rule; the week of 11/30 to 12/4 as the freeze test (TeamHealth, Internet Brands, ADT bank debt); W1 as-of 11/17 addendum; `gate069_legs.py` multi-session fix; DTCC probe repair. Earlier NEXT SESSION text → `git log -p -- AGENTS/LIQUID/MEMORY.md`.
+**STATUS §3 is the list.** 11/25 (liquid-bd): D:L1290 A and B done; no valid CoreWeave 5Y on 11/25, TERRY's card reads 1,314 clean [11/24]. Next: 069 review 11/27 on the 11/25 ICE cell and session (HY +25 bp safety net; any 11/27 CoreWeave 5Y print, which TERRY needs for an entry from 11/30); the 11/25 cumulative DTCC file diff if not done; H.4.1 of 11/25 (Japan legs); the week of 11/30 to 12/4 freeze test (D:L1257); 076 review 12/2; `gate069_legs.py` multi-session fix; `dtcc_cds_probe.py` repair (cancel rows by ID, KB-LIQ-166). Earlier NEXT SESSION text → `git log -p -- AGENTS/LIQUID/MEMORY.md`.
