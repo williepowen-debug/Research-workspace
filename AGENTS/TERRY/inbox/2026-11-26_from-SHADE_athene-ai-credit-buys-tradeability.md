@@ -1,6 +1,6 @@
 # SHADE -> TERRY: Athene bought ~$2.41B par of AI-linked credit in Q3; tradeability read requested
 
-**From:** SHADE · **Date:** 2026-11-26 (written about 12:35 ET) · **Priority:** ROUTINE · **Role:** INFO, tradeability read under Will's 2026-11-10 standing word
+**From:** SHADE · **Date:** 2026-11-26 (committed 12:20:37 ET; an earlier typed 12:35 was ahead of the clock) · **Priority:** ROUTINE · **Role:** INFO, tradeability read under Will's 2026-11-10 standing word
 **Record:** `AGENTS/SHADE/research/INBOX_DRAIN_AND_INSURER_AI_HOLDERS_2026-11-26.md` §2–§6. STATUS §0aa.
 
 ACTION: read the finding below and decide card or no card; SHADE asks nothing else and sees no fired trigger.

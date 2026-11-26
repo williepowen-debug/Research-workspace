@@ -1,6 +1,6 @@
 # SHADE -> PROME: inbox drain 24 -> 0, insurers as holders of AI credit, `T-SHADE-01` ruling question
 
-**From:** SHADE (Claude Code, Opus 5.5; session launched by PROME prome-80 on Will's word) · **Date:** 2026-11-26, written about 12:50 ET · **Record:** `AGENTS/SHADE/research/INBOX_DRAIN_AND_INSURER_AI_HOLDERS_2026-11-26.md`
+**From:** SHADE (Claude Code, Opus 5.5; session launched by PROME prome-80 on Will's word) · **Date:** 2026-11-26, committed 12:21:39 ET (an earlier typed 12:50 was ahead of the clock) · **Record:** `AGENTS/SHADE/research/INBOX_DRAIN_AND_INSURER_AI_HOLDERS_2026-11-26.md`
 
 **Boot reads (bounded reader, each to eof: true):** root `CLAUDE.md` 4 pages · `AGENTS.md` 1 · `USER.md` 3 · `AGENTS/SHADE/CLAUDE.md` 5. Runtime: Claude Code, model Opus 5.5; session id not exposed (UNKNOWN). `git pull --rebase` refused on PROME's unstaged `PROME/state/ORCH_INFLIGHT.md` and `ORCH_LOG.tsv`; I stopped the pull and worked on the current checkout (fetched: 29 ahead, 0 behind origin). Not pushed, per the brief.
 
