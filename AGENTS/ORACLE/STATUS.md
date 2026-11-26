@@ -108,16 +108,16 @@
 
 *Structural detail → `MAINTENANCE.md`; findings → `workbook/KB.tsv` (KB-ORC-143 to 151, 11/26).*
 
-- ⏳ **Rolls owed:** December WTI $110 (not listed 11/26; bump REGIME at pin) · Kalshi Brent month-end (11/30 → December) · Hormuz weekly (wk of 11/9 resolved) · US–Iran senior meeting (leg drained to $52) · 10Y/30Y November ladders and Hormuz November legs end 12/01.
+- ⏳ **Rolls owed (re-search by 12/1):** December WTI $110 (not listed 11/26; bump REGIME at pin) · Kalshi Brent December (not listed) · 10Y/30Y December ladders and Hormuz December legs (not listed; November's listed 11/03). ✅ **Rolled 11/26:** senior meeting → 12/31 market (17.5) · pause 12/31 leg added (85.5) · blockade end 12/31 leg added (13.8) · Hormuz normal 1/31/27 and 6/30/27 added · Hormuz weekly → week of 11/23 (thin) · January 2027 FOMC pinned on both venues (KB-ORC-152, 154).
 - ✅ **October CPI pin retired 11/26:** resolved 3.7% 11/20 22:41Z on its fallback rule (KB-ORC-151).
 - ✅ **NEH full-rules PDF read 11/26** (KB-ORC-150). ✅ **F-1 Brier built 11/26** (`workbook/F1_BRIER.tsv`).
-- ⚠️ **The routine pulls and never grades.** Reads 11/13 to 11/25 were graded only today; the Iran −23.0 pair (11/16 → 11/18) and the AI +31.8 pair (11/19 → 11/20) were Critical when they happened and nobody saw them. WQ-599 (daily-grading owner) is still unowned.
-- ⚠️ **11/24 routine did not run** (cron line present; cause not established).
-- 🔵 **Coverage sweep overdue** (due 11/18). Russian diesel nomination still awaits BRENT/OSPREY. Kalshi CPI `KXCPIYOY-26NOV` candidate, not pinned.
+- ✅ **Boot check now prints band touches** (`tools/routine_check.py`, 11/26; read-only; DAEDALUS review pending). ⚠️ **The routine still pulls and never grades.** Reads 11/13 to 11/25 were graded only today; the Iran −23.0 pair (11/16 → 11/18) and the AI +31.8 pair (11/19 → 11/20) were Critical when they happened and nobody saw them. WQ-599 (daily-grading owner) is still unowned.
+- ⚠️ **11/24 not read:** the laptop was awake, all five slots failed on a network outage (`Could not resolve host: github.com`), not sleep (`SCHEDULED_RUNS.md`).
+- ✅ **Coverage sweep run 11/26** (KB-ORC-153); nominations to HAWK, BRENT, VULCAN; next due 12/03. Russian diesel nomination still awaits BRENT/OSPREY. Kalshi CPI `KXCPIYOY-26NOV` candidate, not pinned (awaits HENRY's view). Nvidia successor markets resolved after Huang's 11/23 reinstatement: nothing to pin (KB-ORC-155).
 - ⚠️ **Kalshi lane is per-box:** laptop = UNSIGNED (public data only); signed lane is desktop-only.
 - ✅ **Hormuz 0-ships closure `⛔` is a false flag:** context column only (diagnosed 8/27).
 - ⚠️ **Kalshi `pull` has no double-log guard** and logs FINALIZED markets' last trades as `yes_prob`. Never `pull --log --force` to log new pins.
-- ⚠️ **`TRADE.md` tables not regenerated** (rendered 11/04).
+- ✅ **`TRADE.md` regenerated 11/26** from `TRADE_MARKS.tsv` (624 rows).
 - ⚠️ `STATUS.md` read-cap: re-check each closeout (`scripts/read_cap_check.py --agent ORACLE`).
 
 ## BOTTOM LINE

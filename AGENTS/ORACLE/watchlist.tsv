@@ -263,6 +263,8 @@ US-Iran 2-week pause begins by 11/30	market	us-x-iran-effective-ceasefire-by-nov
 US-Iran 2-week pause begins by 12/31	market	us-x-iran-effective-ceasefire-by-december-31-20261108	T2	HAWK,BRENT,FALCON,PROME
 # (2) US ANNOUNCES END OF IRANIAN BLOCKADE by… ($31.7M event). Ending the blockade is Iran's FIRST stated condition for reopening Hormuz. ENTRY READ 2026-09-25T02:1xZ: by 9/30 8.5% (Δ7d −2.0; $79.5K liq) · by 10/31 30.5% (Δ7d −2.5; $100.3K liq) · by 12/31 61.5% (Δ7d +1.4; $204.6K liq). ⚠️ Resolves on a US ANNOUNCEMENT, not on ships moving — pair with the PortWatch-basis Hormuz-normal legs, never substitute. → HAWK, BRENT, FALCON
 US announces end of Iran blockade (by-date)	event	us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	T1	HAWK,BRENT,FALCON
+# ADDED 2026-11-26: the by-date event surfaces its top leg (3/31/27, 52.0), which hides the near curve. The 12/31/26 leg is the deep one: 13.9 ($7.1M vol, $160.1K liq, 11/26 17:5xZ); 12/15 8.5 · 1/31/27 20.5 · 2/28/27 33.5.
+US announces end of Iran blockade by 12/31	market	us-announces-end-of-iranian-blockade-by-december-31-2026-20260727171803489-375-949-645-919-269-157-255-857	T1	HAWK,BRENT,FALCON
 
 # ===== ADDED 2026-07-02 (volume/sentiment sweep — off-fleet-radar credit signal) =====
 # Mamdani NYC rent freeze jumped +54.8/7d to 93.8% ($275K vol) — crowd near-certain of a rent-regulated-multifamily freeze. Transmission: freeze → regulated-multifamily NOI compression → the NYCB/Flagstar 2024 collateral → NYC multifamily-lender credit stress. Route REGINALD (bank fundamentals) + CARL (credit chain).
