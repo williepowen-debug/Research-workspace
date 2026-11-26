@@ -279,14 +279,11 @@ def main():
             status, final, data = fetch_curl(args.url, timeout=args.timeout, ua=args.ua)
 
     if status >= 400:
-        used = "contact" if pick_ua(args.url, args.ua) == CONTACT_UA else "browser"
-        other = "browser" if used == "contact" else "contact"
+        used = "SEC contact" if pick_ua(args.url, args.ua) == CONTACT_UA else "research-bot/1.0"
         sys.stderr.write(
-            f"HTTP {status} for {args.url}  (tried the {used} UA)\n"
-            f"  FIRST try the other UA: --ua {other}. The two 403 walls are inverses —\n"
-            "  the Fed family wants a browser UA, sec.gov wants a declared contact.\n"
-            "  Only if BOTH fail is it a TRUE bot-block: record it in scripts/BACKLOG.md\n"
-            "  as NOT UA-fixable rather than retrying.\n")
+            f"HTTP {status} for {args.url}  (client name: {used})\n"
+            "  WQ-735 (Will 2026-11-23): do NOT retry under another client name. Mark the\n"
+            "  reading unavailable and send PROME a packet naming the source and what is lost.\n")
         sys.exit(2)
 
     if args.save:
