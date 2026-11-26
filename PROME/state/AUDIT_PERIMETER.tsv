@@ -45,3 +45,6 @@ reviews/**	EXCLUDED	external audit reports — written BY the auditor, read by P
 CLAUDE.md	EXCLUDED	root canon — Will-gated; a change here is an operator decision, not PROME closeout output
 AGENTS.md	EXCLUDED	root roster/nav core — Will-gated
 USER.md	SHARED	root operator profile — Will edits freely and PROME holds standing permission to edit it (USER.md § Autonomy); PROME edits ARE closeout output to audit (first ARGUS miss: 0926321f6 changed it with no row, found 2026-09-30, DOCKET L591); row added 2026-10-28 22:4x ET under WQ-530 § D quick items
+conftest.py	SHARED	root pytest marker file, DAEDALUS's WQ-717 build (ef3aafbb8e, 2026-11-18; Will 2026-11-17 22:31 ET 'yes'); PROME reviewed the diff 2026-11-25 (D:L1193) and does not author it; audited as shared if a PROME closeout ever touches it, never claimed
+pytest.ini	SHARED	root pytest collection config, same build and terms as the conftest.py row above (WQ-717, D:L1193)
+requirements.txt	SHARED	root test-dependency list, same build and terms as the conftest.py row above (WQ-717, D:L1193)
