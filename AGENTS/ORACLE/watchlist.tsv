@@ -119,7 +119,7 @@ Clarity Act signed into law 2026	market	clarity-act-signed-into-law-in-2026	T2	B
 # ★ ROLLED 2026-09-24 — August headline-annual event resolved 9/11 (Kalshi: Aug YoY in (3.3, 3.4]). Rolled to the SEPTEMBER headline-annual event ($76.7K; prints 2026-10-14). ENTRY READ 2026-09-25T01:3xZ: 3.6% 46.5% (modal, $13.2K vol / $3.9K liq ⚠thin) · 3.7% 31.0% · 3.5% 13.5% · 3.8% 5.8% · 3.9% 3.6% · ≥4.0% 2.0%. Per-rung books are all <$5K — the Kalshi KXCPIYOY-26SEP ladder (34.7K OI at >3.5%) is the deeper read; cite Kalshi, use this as corroboration.
 # August CPI print (modal)	event	august-inflation-us-annual-1786474662954	T1	HENRY
 # ROLLED 2026-10-15: Sept CPI RESOLVED — printed 3.7% YoY (PM 3.7% leg -> 100; Kalshi KXCPIYOY-26SEP expiration_value 3.7). October CPI (prints ~mid-Nov). ⚠️ $4.6K event at pin — thin; cite Kalshi once KXCPIYOY-26OCT lists (0 markets 10/15).
-October CPI print (modal)	event	october-inflation-us-annual	T1	HENRY
+# RETIRED 2026-11-26 — RESOLUTION RECORD: October CPI print (modal) | event | october-inflation-us-annual | T1 | HENRY — every leg closed and UMA-resolved 2026-11-20T22:41Z: 3.7% YES, all others NO (Gamma event read 2026-11-26). Consistent with the fallback rule in KB-ORC-136 (no October YoY at BLS; resolves on September 3.7). KB-ORC-151.
 # RETIRED 2026-07-22 (sweep) — Citi + BAC Q2 provision binaries both went "not found" (Q2 earnings reported mid-July → resolved/delisted). Re-pin Q3 provision markets when they open (~early Oct).
 # Florida hurricane season-watch (thin live depth, high lifetime vol — ≥3-day re-check, do not mark single prints)
 FL: Cat-4 hurricane by 2027	market	will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	T3	CORAL,MARCO
