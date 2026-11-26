@@ -6,3 +6,4 @@ receipt_date	correction_id	action	note
 2026-10-29T13:03Z	COR-20261029-04	NO-OP	scope=LABOR carries none of the three withdrawn premises (MIA Spirit-free, CBO -290K to -525K, FL winter-dollar hole): grep of STATUS, NEXUS_BRIEF, TRADE, STATUS_DETAIL, KB 2026-10-29; 
 2026-11-06T21:49Z	COR-20261106-35	NO-OP	scope=LABOR never carried the 1.05 put/call figure: card 033 logged only for its long-term share line, nothing in STATUS, brief, KB or board_log; 
 2026-11-19T14:27Z	COR-20261117-10	NO-OP	scope=LABOR carries no retail sales or import-price figure in STATUS, KB or NEXUS_BRIEF, and card -004 was disposed info-only; 
+2026-11-26T16:18Z	COR-20261125-15	NO-OP	scope=China Section 301 tariff scope (cards 006 and 014): no LABOR vector, threshold, card or KB row cites either card, and the board_log 006 row was info-only with no LABOR letter; 
