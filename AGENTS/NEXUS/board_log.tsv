@@ -354,3 +354,7 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-25T16:09-05:00	SIG-W-20261125-035	acted	INBOX_WALTER	combo:ai-credit CORRECTION of 031: indications match size, existing loans near par; lender-stress reading WEAKENS; absorbed in the 11/25 catch-up T-27; COR-20261125-35 NO-OP
 2026-11-25T16:09-05:00	SIG-W-20261125-036	info-only	INBOX_WALTER	combo:ai-credit CORRECTION: two CoreWeave 2031 bonds, no cross-confirmation; COR-20261125-36 NO-OP
 2026-11-25T16:16-05:00	2026-11-25_from-HOMER_apartment-loss-order	acted	INBOX_HOMER	combo:apartment-losses loss order absorbed in STATUS R10, header, threads; my 'not banks' wording corrected; BROCK half owed
+2026-11-25T23:38-05:00	SIG-W-20261125-039	noted	INBOX_WALTER	combo:ai-credit CoreWeave 10-Q at SEC: $10.974B principal due 2027 of $47.505B; covenants met 9/30; no default 8-K; owners LIQUID/BROCK/VULCAN
+2026-11-25T23:38-05:00	SIG-W-20261125-040	noted	INBOX_WALTER	combo:ai-credit co-movement CRWV-ORCL-ARM 0.88-0.89 Oct12-Nov24, correlation not cause; owners SAM and VULCAN decide a test
+2026-11-25T23:38-05:00	SIG-W-20261125-041	acted	INBOX_WALTER	combo:ai-credit LIQUID DTCC full day: CoreWeave 4Y +130 bp, Oracle SpaceX flat; annotated on STATUS M-09 at closeout
+2026-11-25T23:38-05:00	SIG-W-20261125-042	acted	INBOX_WALTER	combo:iran-gulf Jazan Port HIT (minor), Jeddah intercepted; FAL-13 CONFIRMED; annotated on STATUS R2 at closeout
