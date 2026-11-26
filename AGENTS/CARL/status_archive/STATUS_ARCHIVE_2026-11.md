@@ -173,3 +173,26 @@ sha256 of the block: 3d92e0803fc070e1a9f480cf64acdf1c523d3e8daf7c54b9f698711886b
 | **PPI — OCTOBER** | **Final demand +0.348% m/m SA (September revised +1.343 → +1.408%), +6.52% y/y NSA; less food and energy +0.326%; final demand foods +1.13% m/m NSA, +1.71% y/y NSA (SA +1.3% is WALTER/HENRY relay, not reached).** Headline pipeline cooled from September's gasoline-led +1.4; core +0.3 keeps V12 locked. Producer food +1.7% y/y is far below what CRL-10 (food CPI YoY >4.0%) would need; CRL-10 stays 1%. Producer prices, not outlays. FRED PPIFIS/PPIFID/PPIFES/PPIFDF pulled by CARL 11/14; WALTER SIG-W-20261114-005; KB-621 (September KB-538). | Oct, BLS 11/13 | 🟠 pipeline cooling |
 
 | **K-Shape TRADE-DOWN** (`thesis/TRADEDOWN_INSTRUMENTS.md`) | **October (as-published 11/17) T1 2/3 AGAINST: grocery −1.39% real y/y vs restaurants +3.17%; GM share 12.879 → 12.487%; apparel −0.51% real (FOR, first time, tripwire only). ⚠️ T1-a and T1-c deflated with an interpolated October-2025 CPI (not published), labelled; KB-623.** September (as-published 10/15) T1 was 3/3 AGAINST: grocery −0.85% real vs restaurants +3.41%; GM share 12.779→12.540%; apparel +1.56% real (tripwire only). **BofA September** card spend +6.2% YoY (+5.1% ex gas); cohorts grow, lower 5.5% vs higher 4.8%; selected nominal sample, not 60/40. DG first OOS ~Dec; premium equity leg UNRESOLVED. KB511/512/535. | Sep Census; Sep BofA | ⚪ mixed; broad-collapse challenged |
+
+## Rotated 2026-11-26 (READ_CAP rule 5, room for the 11/26 news sweep): header line; Total Household Debt, Brent and Close read rows; 11/25 judgment. Verbatim as they stood at STATUS commit fee215bc2a; none is current data.
+
+sha256 of the line: 443918044dd794a87d8977d399ce4ff6dfdc245a084ac97a5b06ff9917843182
+
+**Updated:** 2026-11-26 11:49 ET (inbox, Affirm/Klarna leg; no score change). Prior: 2026-11-25 09:16 ET (PROME prome-77 wake, DOCKET L860: CRL-32 graded MISSED, NOT-FIRED-REBUILD, at the BEA October print; V5 4→3 on its registered AAA rule, **52/70 v2.6.7**; inbox drained; KB hygiene; STATUS rotated). Prior: 2026-11-21 18:22 ET (V14 holds 3; Michigan final). Prior headers → `status_archive/STATUS_ARCHIVE_2026-11.md`. Rows retain their observation dates.
+
+sha256 of the line: ca376b6184f2eb39ff32775aef007d5087c3ef7cd460119cca3f17d499b70367
+
+| Total Household Debt | **Q2 row rotated 11/17** (Q2 composition, KB452) → `status_archive/STATUS_ARCHIVE_2026-11.md`; Q3 totals not yet re-read by CARL. | Q2 NY Fed | [STALE — Q2] |
+
+sha256 of the line: 2ac6b03a567663027ef24df546c22158d3e04fcd53f86ceeb95156d74bd307ca
+
+| Brent *(reference; physicals owned by BRENT)* | **Spot (FRED DCOILBRENTEU) $92.14 11/11, from $123.10 10/27.** Spot and futures are two instruments: do not splice. BRENT owns physicals; pull live before citing. Full row rotated 11/17 → archive. | Spot 11/11 | 🔴 (reference row) |
+
+sha256 of the line: 9f176e44a34fd4f17c2a0bd8cf212cdc1630c00331f546d6d3e0f2ed6c6467f8
+
+| Close read (vendor, not official) | **11/10-11/11 row rotated 11/17** → `status_archive/STATUS_ARCHIVE_2026-11.md`. Pull live before citing. December Fed pricing: **ORACLE is the one owner (WQ-671 A, Will 11/11)**; cite its dated read, CARL publishes no version. | — | 🟡 |
+
+sha256 of the line: 070d26b1c8792a4ed5cb89164bb59d8648ae44d0eec4949919ab8f5259ad312e
+
+**11/25:** Households rebuilt some savings in October: the saving rate rose to 4.1% from a September that was revised down to 3.6%, so the drawdown CARL registered as CRL-32 did not continue and the letter resolved not fired. About a third of the income jump was a one-off Medicare premium rebate and real spending was flat, so this is one month of caution plus a windfall, not proof the buffer is healthy. Gas has been under $4.00 for over two weeks ($3.59 on 11/25), which by CARL's own rule takes the gas-squeeze score from 4 to 3 (52/70). What would change this: a November saving rate back at or under 3.8% on 12/23 without the rebate.
+
