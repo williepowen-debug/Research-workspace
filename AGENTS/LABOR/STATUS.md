@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-11-26 12:50 ET *(Will's window: Challenger 12/3 and NFP 12/4 cards frozen, HOMER answered, file sweep fixes applied; no new data, no score move)* · *Prior headers (11/25, 11/20, 11/6) verbatim → DETAIL § `status-rotated-20261126`.*
+**Last Updated:** 2026-11-26 16:19 ET *(Will's window, closeout: Challenger 12/3 and NFP 12/4 cards frozen, HOMER answered, file sweep fixes applied, Will's three rulings executed (KELYA post-mortem, BD-23 dropped, BUILD_DEBT split); no new data, no score move)* · *Prior headers (11/25, 11/20, 11/6) verbatim → DETAIL § `status-rotated-20261126`.*
 **Status:** 🟡 **FREEZE THESIS STOOD DOWN ON ITS LETTER (v2 fired 11/6): low-fire holds, low-hire is the half that failed.** Claims 189K / MA 196,000 · CC 1,697K (w/e Nov 14; record-only run restarts at 1) · JOLTS hires 5,402K / 3.4% · layoffs rate 1.0% · NFP Oct **+165K** first print (Aug rev +186K, Sep rev +60K, 3-mo avg 137K) · U-3 4.1% on LFPR 61.9% · EPOP 59.3%. ⚠️ First print cleared by 15K; involuntary part-time +339K; Sep JOLTS preliminary (card §8.3).
 
 > 🔒 **HOT/COLD SPLIT** (2026-09-02): this file is **canonical for every live figure, band, score and open grade**; `STATUS_DETAIL.md` is the cold half — **on demand, NOT a boot read**. Trim/rotation history → DETAIL § `hotcold-split-inventory`, § `status-rotated-20261029`.
@@ -81,7 +81,7 @@
 
 ---
 
-## EXIT RULES · vintage sweep (C1) run 2026-11-25: 4/4 rails re-read; DOL vintage rolled (11/25) ⇒ Kill B + break-confirm re-stamped; no CES/CPS or JOLTS release since 11/6 ⇒ Kill A + v2 stand on the 11/6 vintage · prior sweeps 11/20, 11/19
+## EXIT RULES · vintage sweep (C1) run 2026-11-26: 4/4 rails re-read; no release since DOL 11/25 (Thanksgiving; spine gate FRESH) ⇒ every rail stands on its 11/25 (DOL) or 11/6 (CES/CPS, JOLTS) vintage, nothing re-stamped · prior sweeps 11/25, 11/20
 
 - **Kill A:** NFP ≥+200K ×3, revised. 11/6 vintage Aug +186 / Sep +60 / Oct +165 ⇒ 0 of 3. Dormant.
 - **Kill B:** claims ≤185K ×5 clean sessions. 0 of 5 (11/25: 189,000, `4,000` above).
@@ -116,5 +116,7 @@
 **National picture unchanged since 11/6:** my hiring-freeze idea stands down on its own kill rule (October payrolls +165K, three-month average 137K, BLS 11/6) and layoffs stay low (claims 189,000, four-week average 196,000, DOL 11/25). *Full 11/6 and 11/12–11/19 bottom lines → DETAIL § `status-rotated-20261120`.*
 
 **2026-11-25 — Weekly jobless claims fell to 189,000 in the week to November 21 (DOL, released a day early for Thanksgiving), the four-week average to 196,000;** no rule of mine moves and the score stays 22/80. The fall rode the holiday seasonal factors (raw claims rose 15,894 where the factors expected 30,549) and I attribute it to nothing; raw claims ran 13% below the same week of 2025. Continuing claims dropped to 1,697,000 after the prior week was revised up to 1,792,000. My contrarian call that one of eight prints reaches 185,000 or less (LAB-22) missed again, now 4,000 away, and drops mechanically to 27%. *11/20 Florida bottom line verbatim → DETAIL § `status-rotated-20261125`.*
+
+**2026-11-26 — No new data on Thanksgiving; the day went to preparation and housekeeping.** Next week's Challenger and jobs-report grading cards are frozen. A sweep of my working files fixed stale text without changing any number or rule. The KELYA post-mortem finds the losing put's industry premise was visible as wrong on the day it was registered: official temp-help jobs were down 2.3% a year against my 6% bet. Score 22/80, unchanged.
 
 **Next — Tue 12/1 JOLTS Oct · Thu 12/3 claims and Challenger Nov · Fri 12/4 NFP Nov.**
