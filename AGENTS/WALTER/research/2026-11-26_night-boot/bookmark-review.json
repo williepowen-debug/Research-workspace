@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "staged_at": 1795750984.1496978,
+ "items": [
+  {
+   "id": "2125606894748262464",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-26_night-boot/cards-006.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126023450963611885",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-26_night-boot/cards-006.json",
+   "ask_user": null
+  },
+  {
+   "id": "2125996278089658444",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261126-005-Small-items-Nov-26-lane-CoreWeave-Meta-loan-IG-rating-title-only-SpaceX-cuts-Nvidia-chip-rents-Bank-of-Korea-hikes-to-3.25-ECB-accounts-BoE-FSR-AI-debt-Vanke-delay-Bangchak-fire.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "24a994f1460c4529bd9b56f566afda8a"
+}
