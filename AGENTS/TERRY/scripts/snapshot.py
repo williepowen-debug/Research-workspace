@@ -188,6 +188,39 @@ def coverage_flags(histories, days):
     return out
 
 
+# --- Normal daily move (Will 2026-11-26 21:39 ET "yes to both"; construction habit 4) ----
+# One printed number per instrument: the TYPICAL day-to-day move over the last 20 trading
+# days, in the unit an exit is keyed on (price for a stock or fund, bp for HY OAS). Used on a
+# card to show how far an exit sits from the last print in days of normal movement. A number
+# on the screen, not a gate. MEDIAN of absolute changes (typical, not pulled up by one gap day).
+# Known limit (PROME, told to Will): after a calm stretch the figure is small, so fewer exits
+# read as tight just before volatility rises; the card shows figure and distance, Will chooses.
+NORMAL_MOVE_N = 20
+NORMAL_MOVE_LOOKBACK_DAYS = 45   # calendar days pulled so 21 closes exist even across holidays
+
+
+def normal_move(values):
+    """values: chronological numbers. Median absolute day-to-day change over the last
+    NORMAL_MOVE_N changes, also as a % of the prior value. None if fewer than N+1 values:
+    a short series is reported as short, never stretched."""
+    if len(values) < NORMAL_MOVE_N + 1:
+        return None
+    w = values[-(NORMAL_MOVE_N + 1):]
+    ch = sorted(abs(b - a) for a, b in zip(w, w[1:]))
+    pc = sorted(abs(b - a) / abs(a) * 100 for a, b in zip(w, w[1:]) if a)
+    mid = lambda xs: (xs[len(xs) // 2] if len(xs) % 2 else (xs[len(xs) // 2 - 1] + xs[len(xs) // 2]) / 2)
+    return dict(abs=mid(ch), pct=mid(pc) if pc else None, n=len(ch), max_abs=ch[-1])
+
+
+def hy_normal_move():
+    """HY OAS typical daily move in bp, FRED latest-revised (the basis fred_fetch serves)."""
+    obs = fred_fetch("BAMLH0A0HYM2", limit=NORMAL_MOVE_N + 1)
+    if not obs or "error" in obs[0]:
+        return None, (obs[0].get("error", "no data") if obs else "no data")
+    vals = [float(o["value"]) * 100 for o in reversed(obs)]
+    return normal_move(vals), obs[0]["date"]
+
+
 def marker_for_location(loc):
     if loc is None:
         return "?"
@@ -277,6 +310,30 @@ def run(args):
         st = bench_stats
         print(f"\nBenchmark {benchmark}: {fmt_pct(bench_ret)} over {args.days}d; range {st.get('low', 0):.2f}–{st.get('high', 0):.2f}" if st else f"\nBenchmark {benchmark}: unavailable")
 
+    # Normal daily move: own pull, long enough for 21 closes; coverage-checked like the table.
+    mv_hist = price_history(tickers, days=NORMAL_MOVE_LOOKBACK_DAYS)
+    mv_cov = coverage_flags(mv_hist, NORMAL_MOVE_LOOKBACK_DAYS)
+    print(f"\nNORMAL DAILY MOVE (median |day-to-day change|, last {NORMAL_MOVE_N} sessions; habit 4: "
+          "state an exit's distance from the last print in these units)")
+    for t in tickers:
+        h = mv_hist.get(t, {})
+        rows = [r for r in (h.get("history") or []) if r.get("close") is not None]
+        flag = mv_cov.get(t, (0, 0, ""))[2]
+        mv = None if (flag or "error" in h) else normal_move([float(r["close"]) for r in rows])
+        if mv is None:
+            why = flag or ("ERROR" if "error" in h else f"only {len(rows)} closes")
+            print(f"  {t:<9} SUPPRESSED ({why}) — re-run; do not size an exit off a guess")
+            continue
+        print(f"  {t:<9} ${mv['abs']:.2f} a day ({mv['pct']:.2f}%), largest ${mv['max_abs']:.2f}; "
+              f"{mv['n']} changes to {rows[-1].get('date')}")
+    if args.stress:
+        hmv, hd = hy_normal_move()
+        if hmv:
+            print(f"  HY OAS    {hmv['abs']:.0f} bp a day, largest {hmv['max_abs']:.0f} bp; "
+                  f"{hmv['n']} changes to {hd} (FRED latest-revised; a cell lands the next business day)")
+        else:
+            print(f"  HY OAS    SUPPRESSED ({hd})")
+
     print("\nTERRY READ PROMPTS")
     print("- Entry quality: avoid chasing if price is near range extreme without fresh catalyst.")
     print("- Invalidation: use nearby support/resistance or thesis/tape break; do not hide behind macro narrative.")
@@ -325,7 +382,17 @@ def selftest():
     assert (FETCH_DIR / "fetch.py").exists(), "missing fetch.py"
     for fn in (fred_fetch, price_fetch, price_history):
         assert callable(fn), f"imported symbol not callable: {fn!r}"
-    print("snapshot.py SELFTEST: PASS (offline structural — imports + fetch.py reachable)")
+    # normal_move: 21 values -> 20 changes; median of |changes|; short series -> None.
+    vals = [100.0 + (i % 2) * 2 for i in range(21)]            # every change is 2.00
+    mv = normal_move(vals)
+    assert mv and abs(mv["abs"] - 2.0) < 1e-9 and mv["n"] == 20, mv
+    assert normal_move(vals[:20]) is None, "a 20-value series must be reported short"
+    spiky = [100.0] * 10 + [130.0] + [100.0] * 10              # one gap day must not set the typical move
+    sm = normal_move(spiky)
+    assert sm["abs"] == 0.0 and sm["max_abs"] == 30.0, sm
+    even = [0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105, 120, 136, 153, 171, 190, 210]
+    assert normal_move([float(x) for x in even])["abs"] == 10.5   # changes 1..20, median of an even count
+    print("snapshot.py SELFTEST: PASS (offline structural — imports + fetch.py reachable; normal_move)")
 
     have_key = _fred_credential_present()
     try:

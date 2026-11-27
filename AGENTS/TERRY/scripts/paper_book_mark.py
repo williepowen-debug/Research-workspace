@@ -6,9 +6,11 @@ Phase-1 shadow-book helper (see PAPER_BOOK_DESIGN.md, "★ PHASE-1 SHADOW BOOK")
 For every OPEN paper row it pulls a live option chain (via chain_fetch.py) —
 or, for a share row ("VLO common x1"), the timestamped regular-session last
 price (added 2026-09-24) — updates `mark` + `mark_asof`, and flags any row whose mark_asof is older than N
-business days as STALE. It does NOT score, does NOT compute open-row P&L, and
-does NOT execute — scoring is gated on N>=10 CLOSED rows per lane
-(PAPER_BOOK_DESIGN.md §Scoring gate). This tool only logs+marks.
+business days as STALE. Since 2026-11-26 (Will "yes to both", 21:39 ET) it also
+READS each OPEN row's `invalidation` cell and reports which exit clauses have
+fired (see "Exit check" below); it never closes a row or writes a fill. It does
+NOT score, does NOT compute open-row P&L, and does NOT execute — scoring is gated
+on N>=10 CLOSED rows per lane (PAPER_BOOK_DESIGN.md §Scoring gate).
 
 Marking convention: long options are marked at the chain MID = (bid+ask)/2.
 When the NBBO is unavailable (closed market / weekend -> bid/ask 0 or absent),
@@ -508,6 +510,195 @@ def mark_row(row, today, now_str, fetch=_fetch_chain, spot_fetch=_fetch_spot):
     return net, now_str, f"net-mid/{worst} [{detail}]"
 
 
+# ---------------------------------------------------------------------------
+# Exit check (Will 2026-11-26 21:39 ET, "yes to both", option B; PROME packet
+# inbox/processed/2026-11-26_from-PROME_will-yes-to-both-tool-changes.md).
+#
+# WHY: PB-0009 (RSP) stayed OPEN for 12 business days after its own invalidation
+# fired (HY OAS first-published 348 [11/5] > 344, readable 11/6): this tool marked
+# prices and never read the `invalidation` cell. This block READS it and reports,
+# per OPEN row, which exit clauses have fired. It is a report, not a gate: it never
+# closes a row and never writes a fill. A fired exit is closed by hand at the BID
+# at the trigger time; with no trigger-time quote the P&L stays BLANK (never a
+# modelled number or a mid). Clauses it cannot parse are LISTED as not machine-
+# checked, every run, so silence is never read as "nothing fired".
+#
+# LATE PUBLICATION: an ICE/FRED HY OAS cell dated D lands about 10:30 ET on the
+# next business day (card notes, 11/5–11/6). FRED's own realtime stamp for these
+# cells equals D (measured 2026-11-26), so it cannot give the readable time; the
+# lag is applied here. A cell dated ON the opened day counts: that day's close
+# comes after an intraday entry (the PB-0009 case). US holidays are not skipped
+# in the readable date (weekends are), so it can read one day early on a holiday.
+# ---------------------------------------------------------------------------
+HY_SERIES = "BAMLH0A0HYM2"
+HY_READABLE_LAG_BD = 1
+_NUMW = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5}
+_OPS = {"<": lambda a, b: a < b, ">": lambda a, b: a > b,
+        "<=": lambda a, b: a <= b, ">=": lambda a, b: a >= b,
+        "≤": lambda a, b: a <= b, "≥": lambda a, b: a >= b}
+_CLAUSE_SPLIT = re.compile(r";|,?\s+\bor\b\s+|,?\s+\bOR\b\s+")
+_HY_RE = re.compile(
+    r"HY(?: OAS)?(?: first-published)?\s*(?P<op><=|>=|<|>|≤|≥)\s*(?P<lvl>\d+(?:\.\d+)?)\s*(?:bp)?"
+    r"(?:\s*(?:x|×|on)\s*(?P<n>\d+|one|two|three|four|five)\s*(?:consecutive\s*)?(?:closes|sessions|cells))?",
+    re.I)
+_CLOSE_RE = re.compile(
+    r"(?:(?P<tk>[A-Z]{1,5})\s+)?(?:completed\s+)?(?:regular-session\s+)?closes?\s*"
+    r"(?P<op><=|>=|<|>|≤|≥)\s*\$?(?P<lvl>\d+(?:\.\d+)?)"
+    r"(?:\s*(?:on\s*)?(?P<n>\d+|one|two|three|four|five)\s*consecutive\s*(?:closes|sessions))?")
+_TIME_RE = re.compile(r"time stop\b.*?(?P<d>\d{4}-\d{2}-\d{2})", re.I)
+_HARVEST_RE = re.compile(r"harvest(?: bid)?\s*(?:>=|≥)\s*\$?(?P<lvl>\d+(?:\.\d+)?)", re.I)
+
+
+def _add_bd(d, n):
+    while n > 0:
+        d += timedelta(days=1)
+        if d.weekday() < 5:
+            n -= 1
+    return d
+
+
+def _clauses(text):
+    head = (text or "").split("||")[0]
+    return [c.strip().rstrip(".").strip() for c in _CLAUSE_SPLIT.split(head) if c and c.strip()]
+
+
+def _first_run(series, op, lvl, n):
+    """series: chronological [(date, value)]. Return the (date, value) of the obs
+    that completes the first run of n consecutive matches, or None."""
+    run_len = 0
+    for d, v in series:
+        if _OPS[op](v, lvl):
+            run_len += 1
+            if run_len >= n:
+                return d, v
+        else:
+            run_len = 0
+    return None
+
+
+def _fetch_hy_first_published(start):
+    """Chronological [(date, bp)] of first-published HY OAS cells dated >= start."""
+    sys.path.insert(0, str(SCRIPTS_DIR.parents[2] / "FORGE" / "tools" / "market-data"))
+    from fetch import fred_fetch_vintage
+    r = fred_fetch_vintage(HY_SERIES, limit=250, basis="first-published",
+                           observation_start=start.isoformat())
+    if r.get("error"):
+        raise RuntimeError(r["error"])
+    out = [(date.fromisoformat(x["date"]), float(x["value"]) * 100) for x in r.get("rows", [])]
+    return sorted(out), bool(r.get("short"))
+
+
+def _fetch_closes(ticker, start):
+    """Chronological [(date, close)] of COMPLETED regular-session daily bars >= start."""
+    sys.path.insert(0, str(SCRIPTS_DIR.parents[2] / "FORGE" / "tools" / "market-data"))
+    from fetch import price_history
+    days = (date.today() - start).days + 10
+    h = price_history([ticker], days=days).get(ticker, {})
+    if "error" in h:
+        raise RuntimeError(h["error"])
+    now = datetime.now()
+    out = []
+    for row in h.get("history", []):
+        if row.get("close") is None:
+            continue
+        d = date.fromisoformat(str(row["date"])[:10])
+        if d < start:
+            continue
+        if d == now.date() and (now.hour, now.minute) < (16, 15):
+            continue  # today's bar is not a completed close yet
+        out.append((d, float(row["close"])))
+    return sorted(out), (not h.get("complete", True))
+
+
+def exit_check(row, today, hy_fetch=_fetch_hy_first_published, close_fetch=_fetch_closes):
+    """Return a list of (state, clause, detail). state: FIRED | CLEAR | UNCHECKED | UNKNOWN | ADVISORY."""
+    opened = _asof_date(row.get("opened"))
+    root = None
+    parsed = parse_legs(row.get("structure"), opened or today) or {}
+    root = parsed.get("root") or (parse_equity(row.get("structure")) or {}).get("ticker")
+    out = []
+    for c in _clauses(row.get("invalidation")):
+        m = _HY_RE.fullmatch(c)
+        if m and opened:
+            op, lvl = m["op"], float(m["lvl"])
+            n = _NUMW.get((m["n"] or "1").lower(), None) or int(m["n"] or 1)
+            try:
+                ser, short = hy_fetch(opened)
+            except Exception as e:
+                out.append(("UNKNOWN", c, f"HY fetch failed: {e.__class__.__name__}"))
+                continue
+            hit = _first_run(ser, op, lvl, n)
+            warn = " ⚠ first-published set SHORT (missing cells)" if short else ""
+            if hit:
+                rd = _add_bd(hit[0], HY_READABLE_LAG_BD)
+                out.append(("FIRED", c, f"met by the {hit[0]} cell ({hit[1]:.0f} bp), readable about 10:30 ET {rd}{warn}"))
+            else:
+                last = f"{ser[-1][1]:.0f} bp [{ser[-1][0]}]" if ser else "no cells"
+                out.append(("CLEAR", c, f"{len(ser)} first-published cells since {opened}; latest {last}{warn}"))
+            continue
+        m = _CLOSE_RE.fullmatch(c)
+        if m and opened and (m["tk"] or root):
+            tk = (m["tk"] or root).upper()
+            op, lvl = m["op"], float(m["lvl"])
+            n = _NUMW.get((m["n"] or "1").lower(), None) or int(m["n"] or 1)
+            try:
+                ser, holes = close_fetch(tk, opened)
+            except Exception as e:
+                out.append(("UNKNOWN", c, f"{tk} closes fetch failed: {e.__class__.__name__}"))
+                continue
+            hit = _first_run(ser, op, lvl, n)
+            warn = " ⚠ series has gaps, verify" if holes else ""
+            if hit:
+                out.append(("FIRED", c, f"{tk} close {hit[1]:.2f} on {hit[0]} (readable at that close){warn}"))
+            else:
+                last = f"{ser[-1][1]:.2f} [{ser[-1][0]}]" if ser else "no bars"
+                out.append(("CLEAR", c, f"{len(ser)} {tk} closes since {opened}; latest {last}{warn}"))
+            continue
+        m = _TIME_RE.search(c)
+        if m:
+            d = date.fromisoformat(m["d"])
+            if today > d:
+                out.append(("FIRED", c, f"time stop {d} has passed"))
+            elif today == d:
+                out.append(("ADVISORY", c, f"time stop is TODAY {d}"))
+            else:
+                out.append(("CLEAR", c, f"time stop {d}, {(d - today).days} calendar days away"))
+            continue
+        m = _HARVEST_RE.fullmatch(c)
+        if m:
+            lvl = float(m["lvl"])
+            try:
+                mk = float(row.get("mark") or "nan")
+            except ValueError:
+                mk = float("nan")
+            if mk == mk and mk >= lvl:
+                out.append(("ADVISORY", c, f"MID mark {mk:g} is at/above {lvl:g}: check the BID (a mid is not a bid)"))
+            else:
+                out.append(("CLEAR", c, f"mark {row.get('mark') or '?'} (mid) under {lvl:g}; intraday highs not checked"))
+            continue
+        out.append(("UNCHECKED", c, "not machine-checked: read it by hand"))
+    return out
+
+
+def print_exit_checks(open_rows, today, **kw):
+    print("\nExit check (reads each OPEN row's `invalidation` cell; reports, never closes a row):")
+    tally = {}
+    for r in open_rows:
+        res = exit_check(r, today, **kw)
+        print(f"  {r.get('paper_id', '?')}")
+        for state, clause, detail in res:
+            tally[state] = tally.get(state, 0) + 1
+            icon = {"FIRED": "🔴 FIRED", "CLEAR": "· clear", "UNCHECKED": "? UNCHECKED",
+                    "UNKNOWN": "⚠ UNKNOWN", "ADVISORY": "⚠ ADVISORY"}[state]
+            print(f"    {icon:<12} \"{clause[:70]}\" — {detail}")
+    if tally.get("FIRED"):
+        print("  🔴 A FIRED exit: close the row at the BID at the trigger time; with no trigger-time quote,"
+              " close it with P&L BLANK (never a modelled number or a mid).")
+    print("  Exit check: " + " · ".join(f"{k} {v}" for k, v in sorted(tally.items())) if tally
+          else "  Exit check: no OPEN rows")
+    return tally
+
+
 def run(args):
     if not PAPER_BOOK.exists():
         print(f"FATAL: {PAPER_BOOK} not found.")
@@ -550,6 +741,8 @@ def run(args):
         print(f"  ⚠ STALE  {pid} {struct} — mark_asof {asof} ({age} business days)")
     for pid, struct, note in problems:
         print(f"  ⚠ UNMARKED {pid} {struct} — {note} (prior mark kept, not fabricated)")
+
+    print_exit_checks(open_rows, today)
 
     # Phase-2 (salaried desk) RETIRED 2026-11-23, WQ-730 (Will 14:14 ET "WQ-730: retire";
     # record PROME/proposals/2026-11-23_wq730-736-737-RULED.md). Its three counters are no
@@ -827,6 +1020,67 @@ def selftest():
     ]
     got3 = would_fire_90d(fb, tref)
     assert got3 == (2, 3), got3
+
+    # --- exit check (2026-11-26) -------------------------------------------
+    D = date.fromisoformat
+    # FRED percent values as first published, chronological; 11/4 332 sits BEFORE the open.
+    hy = [(D("2026-11-04"), 332.0), (D("2026-11-05"), 348.0), (D("2026-11-06"), 342.0),
+          (D("2026-11-09"), 334.0), (D("2026-11-10"), 330.0), (D("2026-11-11"), 330.0),
+          (D("2026-11-12"), 320.0), (D("2026-11-13"), 323.0), (D("2026-11-16"), 334.0)]
+    def hy_stub(start):
+        return [x for x in hy if x[0] >= start], False
+    rsp = [(D("2026-11-05"), 216.87), (D("2026-11-06"), 216.05), (D("2026-11-19"), 211.63),
+           (D("2026-11-20"), 207.44)]
+    def close_stub(tk, start):
+        assert tk == "RSP", tk
+        return [x for x in rsp if x[0] >= start], False
+    t26 = D("2026-11-26")
+    # (1) PB-0009 as it stood: late-published HY cell dated ON the opened day fires; readable next business day.
+    pb9 = {"paper_id": "PB-0009", "opened": "2026-11-05 13:33 ET", "mark": "1.15",
+           "structure": "RSP Dec-18-2026 220C/230C call debit spread x1",
+           "invalidation": "RSP completed close < 208.02, or HY OAS first-published > 344, or HENRY retracts; "
+                           "harvest bid >= 6.00; time stop close 2026-12-11"}
+    res = exit_check(pb9, t26, hy_fetch=hy_stub, close_fetch=close_stub)
+    st = [(s, c.split()[0]) for s, c, _ in res]
+    assert st == [("FIRED", "RSP"), ("FIRED", "HY"), ("UNCHECKED", "HENRY"), ("CLEAR", "harvest"),
+                  ("CLEAR", "time")], st
+    assert "2026-11-05 cell (348 bp), readable about 10:30 ET 2026-11-06" in res[1][2], res[1][2]
+    assert "207.44 on 2026-11-20" in res[0][2], res[0][2]
+    # (2) negative control: a breach dated BEFORE the open must not fire.
+    pre = dict(pb9, opened="2026-11-06 10:00 ET", invalidation="HY OAS first-published > 344")
+    assert exit_check(pre, t26, hy_fetch=hy_stub)[0][0] == "CLEAR"
+    # (3) a 5-close run: 4 of 5 (11/10-11/13) must NOT fire; adding the 5th must, on the 5th cell.
+    pb11 = {"paper_id": "PB-0011", "opened": "2026-11-06 10:09 ET", "mark": "0.5",
+            "structure": "HYG Jan-15-2027 76P/73P put debit spread x5",
+            "invalidation": "HY OAS <= 330 x5 closes; harvest bid >= 1.50; time stop close 2027-01-08"}
+    assert exit_check(pb11, t26, hy_fetch=hy_stub)[0][0] == "CLEAR"
+    hy.insert(8, (D("2026-11-14"), 329.0))  # hypothetical 5th consecutive cell
+    r5 = exit_check(pb11, t26, hy_fetch=hy_stub)[0]
+    assert r5[0] == "FIRED" and "2026-11-14 cell" in r5[2] and "2026-11-16" in r5[2], r5
+    hy.pop(8)
+    # (3b) five matches with a break between them (4 + 1 after 11/16's 334) is NOT a run of 5.
+    hy.append((D("2026-11-17"), 328.0))
+    assert exit_check(pb11, t26, hy_fetch=hy_stub)[0][0] == "CLEAR", "non-consecutive matches fired"
+    hy.pop()
+    # (3c) boundary: a cell exactly AT the line does not fire a strict ">", and does fire ">=".
+    def hy_at(start):
+        return [(D("2026-11-05"), 344.0)], False
+    at = dict(pb9, invalidation="HY OAS first-published > 344")
+    assert exit_check(at, t26, hy_fetch=hy_at)[0][0] == "CLEAR"
+    assert exit_check(dict(at, invalidation="HY OAS >= 344"), t26, hy_fetch=hy_at)[0][0] == "FIRED"
+    # (4) fetch failure is UNKNOWN, never CLEAR; harvest at/above on the MID is ADVISORY only.
+    def hy_dead(start):
+        raise OSError("down")
+    assert exit_check(pb11, t26, hy_fetch=hy_dead)[0][0] == "UNKNOWN"
+    hv = dict(pb11, mark="1.60")
+    assert exit_check(hv, t26, hy_fetch=hy_stub)[1][0] == "ADVISORY"
+    # (5) an unparseable cell is listed, not dropped; a past time stop fires.
+    odd = {"paper_id": "X", "opened": "2026-11-05 14:38 ET", "structure": "UNG Jan-15-2027 10C/12C call debit spread x5",
+           "invalidation": "AEOLUS logs no downward coupling by 2026-12-04; time stop close 2026-11-20"}
+    ro = exit_check(odd, t26)
+    assert [s for s, _, _ in ro] == ["UNCHECKED", "FIRED"], ro
+    # (6) the result never writes a fill: exit_check returns text only, the row is unchanged.
+    assert pb9.get("status") is None and pb9.get("close_fill") is None
 
     print("paper_book_mark.py SELFTEST: PASS")
     return 0

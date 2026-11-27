@@ -10,6 +10,8 @@ written**. At fire-time you fill **only ZONE 2** (LIVE MARKS), then present ZONE
 > Single default card — NOT a V1/V2/V3 menu. If an alternative structure matters,
 > name it once in ZONE 1 "alternatives rejected" and move on.
 
+> **Construction habits (Will 2026-11-26 21:32 ET; practice, not a rule): write ZONE 1 against `TRADE_CARD_TEMPLATE.md` §0b** — checkable entry conditions only (and say so at approval if one Will adds is not), a window that reaches the time stop, a cap from a priced chain (deliberate below-quote caps say so), and a flag with the distance in figures when an exit sits inside one day's normal move (`snapshot.py` prints it, `--stress` adds HY OAS in bp).
+
 ---
 
 ```markdown
