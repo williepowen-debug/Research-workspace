@@ -1,0 +1,37 @@
+---
+signal_id: "SIG-W-20261127-001"
+date: "2026-11-27"
+timestamp: "2026-11-27T17:32:51Z"
+dispatched: "2026-11-27T17:32:51Z"
+source: "BOARD/SIG-W-20260924-006; AGENTS/SAM/board_log.tsv (2026-11-25T14:20:43Z rows); web search 2026-11-27 before 12:32 ET for the exact title (businesstoday.in 2026-09-21, dealstreetasia, americanbazaaronline 2026-09-24, digg relay); outside review file given by Will 2026-11-27"
+origin: ["SAM board_log.tsv row for SIG-W-20261123-013 (2026-11-25)", "outside review 2026-11-27 section 2", "BOARD SIG-W-20260924-006"]
+action: ["LIQUID"]
+info: ["SAM", "VULCAN", "MIDAS", "HANS", "BOND", "SHADE", "BROCK", "CRUISE", "AEOLUS", "CORAL", "OTTO", "ZHAO", "WATT", "CARL", "RED", "PROME"]
+precedence: "ROUTINE"
+signal_type: "correction"
+confidence: 0.85
+confidence_language: "reports: several dated pages agree on September; Bloomberg not read"
+resources: 1
+safety_net: "clear"
+cluster: "MISC"
+domain: "FUNDING_LIQUIDITY"
+entities: ["SoftBank", "OpenAI", "Bloomberg"]
+word_count: 259
+dispatch_note: "ROUTINE correction. Recipients = 20261116-005's plus LIQUID as theme owner and RED. R1 COR-20261127-01 same commit; banner on 20261116-005. RED, PROME by BOARD diff."
+event_window: "closed"
+corrects: ["SIG-W-20261116-005"]
+corrects_direction: "ITEM 1 WITHDRAWN as a November event; the September 24 deal stands (card 20260924-006); other items of 005 unaffected (items 2 to 8 carry their own corrections 20261117-002 and 20261123-013)"
+kill_strings: ["SoftBank Seeks Over $11 Billion in Junk Bonds for OpenAI Bet", "Bloomberg, Nov 16"]
+---
+# CORRECTION of 20261116-005 item 1: 'SoftBank Seeks Over $11 Billion in Junk Bonds for OpenAI' is the September 21 to 22 Bloomberg report of the deal that priced at $11.1B on Sept 24 (card 20260924-006), re-served with a fresh date; not a November deal. SAM flagged it 11/25
+
+# Correction of SIG-W-20261116-005, item 1 (SoftBank junk bonds)
+
+| Card 005 line | Was | Now | Direction |
+|---|---|---|---|
+| Item 1 | Bloomberg, Nov 16: 'SoftBank Seeks Over $11 Billion in Junk Bonds for OpenAI Bet', carried as a new financing | The same title and figure are the **September 21 to 22** Bloomberg report (businesstoday 2026-09-21; digg relay of the same headline). The deal **priced 2026-09-24 at $11.1B**, about $10B in three dollar tranches plus EUR 1B, yields near 10%, replacing a $10B bridge loan (search summaries; WALTER card SIG-W-20260924-006). No November SoftBank junk deal found by my search | **WITHDRAWN as a November event**; the September deal stands as already carded |
+
+- **Who caught it:** SAM's reading log, 2026-11-25 14:20Z ('matches the September 24 deal in size and subject; a November deal is SEARCH-NOT-FOUND'). An outside check of WALTER's filter review on 11/27 found no correction card had been issued. This card is that correction, two days late.
+- **Why it got through:** the collector served a September headline with a fresh date; card 005 carried it from the title without opening the page or searching the BOARD for 'SoftBank' (MEMORY finding 2, grep before carding).
+- **Effect on readers:** SAM logged it to KB-SAM-262 with a bracket ('+2.3 points if new money, about zero if refinancing'); the refinancing-or-September reading is the right one. LIQUID owned the theme (combo:LIQUID/ai-financing).
+- **Limit:** Bloomberg's page was not read; the September dating rests on several dated secondary pages that agree, and on WALTER's own 9/24 card.

@@ -45,7 +45,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 PULL_INFO_ONLY = {"CARL", "RED"}
 BOARD_ONLY = {"TERRY"}
-NEVER_ROUTE = {"CATO": "PROME/ROSTER.md CATO row (WQ-255, Will 2026-09-26): no signal-routing eligibility"}
+NEVER_ROUTE = {"CATO": "PROME/ROSTER.md CATO row (WQ-255, Will 2026-09-26): no signal-routing eligibility",
+               # 2026-11-27: outside check found 6 cards (20261124-014/-015/-018/-019, 20261125-017/-019) delivered
+               # to these two, all unread. ROSTER wins; a revival is Will's word and removes the entry.
+               "YEYOU": "PROME/ROSTER.md RETIRED (WQ-181, Will 2026-09-05)",
+               "BARON": "PROME/ROSTER.md DORMANT since 5/08; revive only on Will's word"}
 REQUIRED = ["id", "slug", "title", "body", "source", "origin", "action", "info", "precedence", "signal_type",
             "confidence", "confidence_language", "cluster", "domain", "entities", "dispatch_note",
             "route_origin", "route_summary"]

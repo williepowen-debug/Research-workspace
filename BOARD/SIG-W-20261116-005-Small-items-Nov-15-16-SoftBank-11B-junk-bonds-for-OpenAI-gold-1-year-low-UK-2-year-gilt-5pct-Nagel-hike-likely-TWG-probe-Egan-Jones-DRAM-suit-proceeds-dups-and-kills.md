@@ -21,8 +21,10 @@ dispatch_note: "WQ-622 A small-items fold, WQ-684 A title skim over three batche
 event_window: "closed"
 status: PARTIALLY-CORRECTED
 status_date: 2026-11-17
-status_ref: "SIG-W-20261123-013 — item 2 GMI and FT lines are July 14 and September 21, not November; also SIG-W-20261117-002 — item 8 Credit Acceptance $694M settlement is the 2026-09-17 event already routed on SIG-W-20260924-005/-013 (OTTO); DUP, not a new settlement"
+status_ref: "SIG-W-20261127-001 — item 1 SoftBank $11B junk bonds is the September 21 to 22 report of the deal priced 9/24 (SIG-W-20260924-006), not November (SAM flagged 11/25); also SIG-W-20261123-013 — item 2 GMI and FT lines are July 14 and September 21, not November; also SIG-W-20261117-002 — item 8 Credit Acceptance $694M settlement is the 2026-09-17 event already routed on SIG-W-20260924-005/-013 (OTTO); DUP, not a new settlement"
 ---
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261127-001:** item 1's 'SoftBank Seeks Over $11 Billion in Junk Bonds for OpenAI' is the September 21 to 22 Bloomberg report of the deal that priced at $11.1B on 2026-09-24 (SIG-W-20260924-006), not a November deal.
+
 > ⚠️ **PARTIALLY CORRECTED by SIG-W-20261123-013:** item 2: the GMI Cloud $635M report is dated 2026-07-14 and the ForkLog FT $300B page 2026-09-21, not November 15 to 16.
 
 > ⚠️ **PARTIALLY CORRECTED by SIG-W-20261117-002 (OTTO):** item 8's Credit Acceptance $694M multistate settlement is the September 17 event already routed on SIG-W-20260924-005 (corrected by -013); a DUP, not a new settlement.
