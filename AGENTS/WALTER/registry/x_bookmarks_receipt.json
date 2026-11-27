@@ -1,35 +1,13 @@
 {
-  "kind": "marked",
-  "checked_at": "2026-11-27T03:44:04Z",
-  "items": 3,
+  "kind": "fetched",
+  "checked_at": "2026-11-27T04:01:27Z",
+  "items": 0,
   "scan": {
-    "checked_at": "2026-11-27T03:43:04Z",
-    "head_checked_at": "2026-11-27T03:43:03Z",
+    "checked_at": "2026-11-27T04:01:27Z",
+    "head_checked_at": "2026-11-27T04:01:27Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 3
+    "attempts": 1
   },
-  "review_recorded": true,
-  "read_counts": {
-    "fully_read": 3
-  },
-  "dispositions": {
-    "DISPATCH": 2,
-    "DUP": 1
-  },
-  "follow_ups": [
-    {
-      "id": "2125606894748262464",
-      "ref": "AGENTS/WALTER/research/2026-11-26_night-boot/cards-006.json"
-    },
-    {
-      "id": "2126023450963611885",
-      "ref": "AGENTS/WALTER/research/2026-11-26_night-boot/cards-006.json"
-    },
-    {
-      "id": "2125996278089658444",
-      "ref": "BOARD/SIG-W-20261126-005-Small-items-Nov-26-lane-CoreWeave-Meta-loan-IG-rating-title-only-SpaceX-cuts-Nvidia-chip-rents-Bank-of-Korea-hikes-to-3.25-ECB-accounts-BoE-FSR-AI-debt-Vanke-delay-Bangchak-fire.md"
-    }
-  ],
-  "requests": []
+  "review_recorded": false
 }
