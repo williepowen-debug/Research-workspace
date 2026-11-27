@@ -20,18 +20,20 @@ Observed 2026-11-27 17:05 ET from Will's Robinhood positions screenshot and past
 | QQQ 640C 11/25 | 3.84 (11/24) | 0.02 (11/25) | −$382 | overnight, to zero |
 | QQQ 635P 11/25 | 5.01 (11/24) | 22.40 (11/25) | **+$1,739** | overnight, the week's best |
 | QQQ 610P 11/25 | 4.11 (11/25) | expired $0 | −$411 | to zero |
-| QQQ 625P + 627P 11/27 | 3.66 + 4.32 (11/25) | not in list or positions | **likely −$798** | QQQ closed ≈ $651 on 11/27; expiry rows not posted at capture: UNCONFIRMED |
+| QQQ 625P + 627P 11/27 | 3.66 + 4.32 (11/25) | expired $0 (11/27) | **−$798** | Will 17:59 ET via PROME: "The two QQQ puts dated today expired worthless" |
 | QQQ 646P 11/30 | — | — | canceled 11/27 | |
 
-**Closed and seen:** 10 threads, 5 won +$4,151, 5 lost −$1,724, **net +$2,427**; with the two likely 11/27 expiries, **about +$1,629**. Puts +$2,942 closed (four stress-day winners), calls −$515.
+**Closed and seen: 12 tickets, 5 won +$4,151, 7 lost −$2,522, net +$1,629** (the two 11/27 expiries confirmed by Will 11/27 17:59 ET). Puts +$2,144 (overnight puts +$2,481, same-day puts −$337), calls −$515 (overnight 640C −$382, same-day −$133).
+
+**Will's context (17:59 ET via PROME, verbatim):** *"I saw the spike up after Jensen was reisntated and made some short dated puts to \"fade\" that move. I DO still want guidance and analysis."* and *"Better to be forward looking."* Forward read: PROME packet `2026-11-27_from-TERRY_robinhood-forward-read.md`.
 
 **Same pattern, both sides of it:**
 - **Best behavior (repeat):** short-dated QQQ/NVDA puts bought into the 11/20–11/25 selloff and sold into the move: 620P, 650P, NVDA 160P, 635P = +$4,024.
-- **Biggest leak (R1 walk-to-zero, CONFIRMED REPEAT):** every closed loser left at $0.35 or less or expired (5 of 5: 627C, 649P, 634P, 640C, 610P), plus the likely 625P/627P. The losers were not cut; the winners were.
+- **Biggest leak (R1 walk-to-zero, CONFIRMED REPEAT):** every closed loser left at $0.35 or less or expired (5 of 5: 627C, 649P, 634P, 640C, 610P), plus the 625P/627P: **7 of 7 losing tickets ended at $0.35 or less or expired.** The losers were not cut; the winners were.
 - **Both ways in one session again** (11/20, 11/24), and calls bought into a down tape lost (627C, 640C).
 - Size: single contracts; the largest entry $572 against a $2,305 account at capture (about 25%).
 
-**Watch next review:** the 11/27 expiry rows for 625P/627P; whether a loser gets cut at a set fraction instead of ridden to $0; the 11/20 buys below the cut.
+**Watch next review:** whether a loser gets cut at a set fraction instead of ridden to $0; the 11/20 buys below the cut.
 
 ---
 

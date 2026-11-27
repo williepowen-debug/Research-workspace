@@ -52,7 +52,7 @@ Account value $2,305.45; buying power $1,760.45; "+$992.01 (75.53%) past week" (
 
 ## What is UNKNOWN from this capture
 
-- **QQQ $625 and $627 Puts 11/27 (bought 11/25, $798 together):** no sell and no expiration row in the list, and neither is in the positions panel. QQQ closed about $651 on 11/27 (vendor), far above both strikes, so they most likely **expired worthless (−$798)**; the expiration rows had not posted at capture. Not booked as fact.
+- **QQQ $625 and $627 Puts 11/27 (bought 11/25, $798 together):** no sell and no expiration row in the list, and neither is in the positions panel. QQQ closed about $651 on 11/27 (vendor), far above both strikes, so they most likely **expired worthless (−$798)**; the expiration rows had not posted at capture. Not booked as fact. **Resolved 17:59 ET:** Will (via PROME): "The two QQQ puts dated today expired worthless": −$798.00, booked.
 - The buy legs of the 11/20 QQQ $635 Put sale ($1,106) and KRE $69 Put sale ($35) are below the cut.
 - Exact clock times; regulatory fees (not shown).
 - Fidelity: not in this capture.
