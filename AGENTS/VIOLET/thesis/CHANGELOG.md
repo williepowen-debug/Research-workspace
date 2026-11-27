@@ -6,6 +6,12 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## November 27, 2026 — v4.1.11: prediction 2' armed on History
+
+**Basis:** Cboe History pulled 09:55 ET 11/27 (KB-VIO-411, `research/2026-11-27_history-confirm/GRADE.md`). No ruling needed: a status update, no line, gate or threshold moved.
+**Old view → new view:** prediction 2' armed PROVISIONALLY on the 11/25 vendor print (0.9293) → ARMED on History: VIX3M/VIX under 1 on 7 straight true-session closes, 11/17 to 11/25; every 11/25 cell matched the print. The 11/26 Thanksgiving VIX bar (26.80, no companion series) is not a session and enters no count (D:L342).
+**Window:** 10 closes 11/27 to 12/10; the first VIX close at 25.00 or under fails it. My unscored view that it fails: about 78%.
+
 ## November 21, 2026 — v4.1.10: deep inversion refined; two registered calls resolved; HIGH_VOL
 
 **Basis:** Cboe History through 11/20, pulled 11/21 18:04 ET (KB-VIO-404, `research/2026-11-21_late-wake/GRADE.md`). No ruling needed: a refinement and a status update, no line, gate or threshold moved.
