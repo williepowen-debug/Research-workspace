@@ -1,10 +1,11 @@
 # BROCK catch-ups — INDEX
 
-**CURRENT:** `catchups/2026-11-25.md` (prome-77 C8 session on WALTER SIG-W-20261125-013: alt managers are beta, not leading, KB-BRK-531 · named AI-infra exposure ledger from Q3 filings, KB-BRK-532/533 · HY 372 [11/24], CCC/BB fell on the widening, KB-BRK-535 · CRMT feed empty since the petition · inbox 11/11; no score change).
+**CURRENT:** `catchups/2026-11-26.md` (PROME-launched inbox drain on Will's 11/26 11:38 ET word: 22/22 dispositioned · CRMT 8-K/A 11/25 read late: Nasdaq suspension 12/2, APA deposit and 12/3 rollover terms, KB-BRK-538 · NEXUS apartment-holder answer, KB-BRK-539 · CoreWeave 1,363 correction, KB-BRK-537 · VX-BRK-017 ORANGE; no score change).
 
 **Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 
 ## Superseded catch-ups
+- `catchups/2026-11-25.md` (prome-77 C8 session on WALTER SIG-W-20261125-013: alt managers are beta, not leading, KB-BRK-531 · named AI-infra exposure ledger from Q3 filings, KB-BRK-532/533 · HY 372 [11/24], CCC/BB fell on the widening, KB-BRK-535 · CRMT feed empty since the petition · inbox 11/11; no score change).
 - `catchups/2026-11-24.md` (prome-77 due-row wake, one day late after the fleet outage: D:L1232 GRADED, CRMT CHAPTER 11 FILED 11/24, prepack with stalking-horse sale to Cardinal, KB-BRK-526 · BRK-33 RESOLVED TRUE, Brier 0.4225, scoreboard 0.267 n=18 · D:L1071 IREN AGM nothing to grade, KB-BRK-527 · HY 363 [11/23] REG-T-04 fired, REGINALD's, KB-BRK-528 · inbox 11/11, KB-BRK-529/530 · LESSONS #46; no score change).
 - `catchups/2026-11-23.md` (prome-77 due-row wake, laptop: D:L1202 CRMT backstop #10 FINAL EMPTY · D:L1201 STD Sun 11/22 NOT GRADED, feed silent to 12:09 ET, carried to Tue 11/24, KB-BRK-521 · HY 376 [11/20], CCC/BB fell, KB-BRK-522 · inbox 13/13, KB-BRK-523 to 525 · TERRY thesis grade HYG-BDC WRONG for window; no score change).
 - `catchups/2026-11-19.md` (prome-36 due-row wake, laptop: D:L1175 GRADED — CRMT FOURTEENTH BRIDGE to Sun 11/22, 8-K accepted 11/19 08:00:27 ET, KB-BRK-519 · D:L1140 backstop #9 FINAL EMPTY · inbox 3/3, FOMC-minutes combo KB-BRK-520 · NEXUS_BRIEF charter lines aligned to WQ-719/721 A; no score change).
