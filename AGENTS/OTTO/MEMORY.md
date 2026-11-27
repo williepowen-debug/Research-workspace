@@ -1,6 +1,6 @@
 # OTTO MEMORY
 
-**Updated:** 2026-11-19, s048. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
+**Updated:** 2026-11-27, s049. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
 
 ## Desk boundaries
 - OTTO owns auto-fraud mechanisms, collateral evidence and identification of exposed counterparties. REGINALD owns bank sizing; BROCK owns CRMT financing grades and BDC marks; TERRY constructs trades and Will decides.
@@ -32,15 +32,16 @@
 - NY Fed HHDC workbook map (Q3-2026 file): p.3 balances by type; p.8 auto originations by riskscore (<620 bucket is NOT OTTO-10's Equifax share); p.12 share of balance 90+ by type; p.14 flow into 90+ by type, rounded; p.26 auto flow into 90+ by age with an 'all' column, four-quarter sum, full precision. CARL saves the file under `AGENTS/CARL/research/<date>_HHDC_prep/raw/`; a card's cited path can be wrong, so `find` before calling a source missing.
 - Verita: `DocketNumber` blank plus a date range lists every entry newest first; the docket number and `/tricolor/document/<id>` link sit in the HTML card above each `Document Name:` block. The G2 cert fetch must be plain `http://` with `-L`; `https://certificates.godaddy.com` fails its own name check.
 
-## LAST SESSION — s048, 2026-11-19 (Claude Code, Opus 5.5), PROME wake prome-36, D:L1186 (closed on PROME ask 09:46 ET)
-- CRMT thirteenth (11/16 → 11/18) and fourteenth (11/18 → Sun 11/22) bridges, BROCK-graded (KB-BRK-501/519), both 8-Ks re-read by OTTO; V9 held 🔴 4, graded. Tenors shortening (last five avg 3.6 d vs 6.4). ML-395–397. Use the EDGAR submissions JSON, not the browse-edgar atom (lagged 11/19).
-- NEXUS_BRIEF rewritten (5 NEXUS findings), pinned to 26e7870651. Charter step 7a now WQ-719 A / WQ-721 A: rewrite the brief only when a figure, threshold, send or wait in it changed; no As-of-only refreshes.
-- Inbox 6/6: audit item OTTO-06/-09 answered DISAGREE (already uncounted; THESIS L335 mirror fixed 3/8 → 3/9); KB.tsv 8 rows RETIRED; COR-20261117-02 NO-OP. WINTERKORN ran 11/19 (next due ≥11/26): FB 11/17 under advisement (Dkt 4105), D&O 12/15, Tricolor Chu D&O 12/16. WALTER drop committed.
-- s047 (11/16): SDT NO VERDICT; SDART/BLAST Oct 5/5 worse YoY, BROAD gap +0.04; FB sale hearing 12/09. Detail ML-390–394.
-- Stamp slip: the PROME packet header said "~09:50 ET" when `date` read ~09:45. Type no clock times; take them from `date` in the same command.
+- EDGAR company filings: read `data.sec.gov/submissions/CIK##########.json` (acceptance times, items, amendments), not the browse-edgar atom feed, which lagged 11/19. Car-Mart claims agent (omniagentsolutions.com/ACM) 403s this box (11/27): blocked, never work around it.
+
+## LAST SESSION — s049, 2026-11-27 (Claude Code, Opus 5.5), PROME prome-80 catch-up after 8 dark days (Will 17:59 ET: desks do not stay dark)
+- Inbox 9/9 drained (2 BROCK, 7 WALTER), census 9 → 0; three corrections receipted NO-OP (COR-20261123-13, -20261124-21, -20261127-01).
+- CRMT standstill ended in a prepackaged Chapter 11 on 11/24 (BROCK D:L1232, KB-BRK-526). OTTO re-read the 8-K and the 11/25 8-K/A at EDGAR; the 8-K/A (Nasdaq suspension 12/2) postdated BROCK's packet and BROCK caught it 11/26 (KB-BRK-538). V9 re-coloured by rule: 🔴 4 held on the orderly form, case re-labelled. ML-398/399. TERRY packet: no card from OTTO's leg.
+- Car-Mart claims agent omniagentsolutions.com/ACM returns 403: blocked site, do not retry; servicing motion UNOBSERVED; PACER ask-first.
+- WINTERKORN ran 11/27 (next due ≥12/04, and the first December run triggers the baseline audit): Chu ECF 204 ruled 11/20 (OTTO read it: not "material part", ML-401); Ares → 12/30; Goodgame → 5/18/27; Tricolor global mediation hearing 12/10 (ML-402); FB first MOR missing.
+- EART October 10-Ds not filed at 18:04 ET 11/27 (submissions JSON, four trusts).
 
 ## NEXT SESSION — keep last
-1. **Mon 11/23 AM:** if PROME wakes OTTO on BROCK's CRMT grade (relief expiry Sun 11/22), apply the same rule: another short bridge = standstill continues (V9 held); a sale agreement, new money, acceleration or a lender petition changes the case. Silence = ungraded, V9 held.
-2. **~11/20** Chu suppression re-check; First Brands 11/17 ruling (under advisement) and Kingsbridge (Dkt 3841) re-check; trustee's operating report 11/21. Read James ECF 166/167/168 bodies when reachable.
-3. **~11/30:** EART October 10-Ds resolve OTTO-36 (PROME grade deadline 12/04, DOCKET L990) and test BROAD's turn rule alongside the next SDART/BLAST print (~12/15); EART 2026-5 re-check (OTTO-07 candidate); Ares response (OTTO-33); Tricolor sales deadline. **By 12/10:** Holman November application into `HOLMAN_MONTHLY.tsv`.
-4. **12/07 Manheim November** (use `MID_TO_FINAL.tsv` before any mid-month forecast). 12/09 FB sale hearing + Chu final pretrial; 12/15 FB D&O; 12/16 Tricolor Chu D&O. SDT redesign question open (state before ~2027-02, no credit). OTTO-10 ~12/15, OTTO-11 STUCK keep their follow-ups. WQ-678 B deferred trims at a non-bounded session.
+1. **~11/30 to 12/04:** EART October 10-Ds resolve OTTO-36 (PROME DOCKET L990, grade by 12/04); test BROAD's turn rule with the ~12/15 SDART/BLAST print; EART 2026-5 re-check (OTTO-07 candidate); Tricolor sales deadline 11/30; Holman November application by 12/10.
+2. **CRMT 12/2 suspension and 12/3 rollover documents:** BROCK grades; OTTO re-colours V9 only after. A servicer termination notice, a missed 12/3 with no extension, or conversion to Chapter 7 changes the case; a sale order with servicing continued changes it the other way.
+3. **12/07 Manheim November** (use `MID_TO_FINAL.tsv` before any mid-month forecast). 12/09 FB sale (contested branch) + Chu FPTC; 12/10 Tricolor mediation hearing; 12/15 FB D&O; 12/16 Tricolor Chu D&O; 12/30 Ares. OTTO-33 grades 12/31 on its Prediction text (Manheim as a mediation party reads not met). SDT redesign question open (state before ~2027-02, no credit). OTTO-10 ~12/15, OTTO-11 STUCK keep their follow-ups. WQ-678 B deferred trims at a non-bounded session.

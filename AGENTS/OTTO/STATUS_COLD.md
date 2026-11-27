@@ -939,3 +939,38 @@ s047: CRMT silent on the expiry evening, V9 held pending BROCK; SDT NO VERDICT; 
 | V8 | Bank contagion | **3** | **src: THESIS stage [4] 🟠 "fired, then CLOSED"** · conviction LOW/DISCONFIRMED (OTTO-30 FALSIFIED 8/14) · dashboard "Bank case observations — separate bases" 🔴 | A channel of Root A | No new US bank name 4/15→8/14 (complete EDGAR scan). Prior≈$767M sum RETIRED: incompatible dates/currencies/cases and exposure/charge-off bases, not comparable current booked losses. Dated observations/limits: `research/2026-10-25_stale-file-sweep-phase2/BANK_OBSERVATIONS.tsv`; REGINALD sizes. No threshold comparison or V8 rescore | ↑ THESIS: reopens only on a NEW named counterparty first disclosed after 4/15; a further loss at a listed bank does not. Reads completed: M&T 10/19; Ally 10/25. No new bank discovered |
 | First Brands | Invoice fab + Ponzi | 🔴🔴 **Ch.7 since 9/1 (Dkt 3748)**; trustee Engelhart; §721 limited wind-down to 3/31/27 (Dkt 4022); DIP 22.8¢ (BROCK); criminal trial **2/9/27** (Caproni); adjournment motion to 6/21/27 opposed (ECF 166–167), no ruling. Full row cold §23 |
 Deal-level recovery, Exeter row, sentence removed s048: "CPS auction recovery rose, 32.0 vs 28.7%, different definition."
+
+## 27. November27 s049 rotation (verbatim; hot STATUS wins)
+
+> **s048 (11/19, PROME wake prome-36, D:L1186):** No score, band, gate, threshold or prediction moved. **CRMT: two more bridges, both BROCK-graded and re-read by OTTO at EDGAR:** thirteenth 11/16 → Wed 11/18 (2 days, 8-K -007505), fourteenth 11/18 → **Sun 11/22** (4 days, 8-K -007588, accepted 11/19 08:00 ET); Item 1.01 only, no new money. By the written rule V9 held 🔴 4, graded. Tenors shortening: last five average 3.6 days vs 6.4 for the first seven `[EST]` (ML-395/396). First Brands 11/17: under advisement (Dkt 4105); D&O reset to 12/15.
+
+| **CRMT — fourteenth bridge through Sun 11/22** `[CONF 8-K 0001171843-26-007588, accepted 11/19 08:00:27 ET, and -007505 (11/17), both re-read at EDGAR by OTTO; BROCK KB-BRK-501/519]` | Thirteenth 11/16 → 11/18 (2 days); fourteenth 11/18 → Sun 11/22 (4 days). Date extension only: no new money, fee, sale agreement or RSA; no Item 1.03, 2.04 or 3.01. Tenors 4,7,6,7,7,7,7,10,3,5,3,4,2,4 days. Relief expiry, not maturity. Not a fraud case; BROCK grades. Twelfth-bridge row → cold §26 | 🔴 |
+
+| V9 | CRMT lender standstill | **4** | **src: dashboard "CRMT" 🔴** (OTTO's colour) | **Root F**, single name, not a fraud case. BROCK grades each 8-K; BROCK's matrix has no CRMT vector | **Fourteenth bridge to Sun 11/22, +4 days, no new money** (BROCK KB-BRK-519, graded D:L1175 11/19; 8-K accepted 08:00 ET; thirteenth to 11/18 graded D:L1139). Rule (CATALYSTS 11/12): another short bridge = standstill continues, so colour held, graded | ↑/↓ a sale agreement, new money or a lender petition changes the case; OTTO re-colours only after BROCK's grade, never ahead. Next BROCK read Mon 11/23 ~08:00–09:30 ET |
+
+CRITICAL TIMELINE rows as they stood before the s049 sweep (verbatim):
+
+| 2026-11-17 (Tue) | First Brands Evolution turnover motions + DIP cash-sweep stipulation (Dkt 3953) | 🟠 fired: held, **under advisement, no order** (minutes Dkt 4105; undecided through Dkt 4124, 11/18); no ruling date, re-check each run |
+| ~2026-11-20 (Fri) | Chu suppression-ruling check (ECF 108) | 🟠 OTTO check date, not a court date. 11/12 check: no ruling on the public feed through ECF 198 (11/10); sealed ECF 191–193 + minute entry 11/06 unread; UNOBSERVED |
+| 2026-11-20 (Fri) | CRMT backstop #10 (any other agreement dated ≤11/16) | 🟠 BROCK's; silence narrows, never grades |
+| 2026-11-21 (Sat) | First Brands trustee first monthly operating report (Dkt 4022 ¶5) | 🟠 confirmed by order |
+| 2026-11-22 (Sun) | CRMT fourteenth-bridge relief expiry (graded 11/19, BROCK D:L1175; V9 held) | 🔴 BROCK grades Mon 11/23 ~08:00–09:30 ET from the submissions JSON; OTTO re-colours V9 only after |
+| ~2026-11-30 (Mon) | EART October-collection 10-Ds | 🟠 modeled; **OTTO-36 resolves on this print** |
+| 2026-11-30 (Mon) | Year-end follow-up OTTO-11/-12; Ares Rule 2004 response deadline (Dkt 1486) | 🟠 confirmed |
+| 2026-11-30 (Mon) | Tricolor Vehicle Sales Deadline (Dkt 1467) | 🟠 confirmed; next Holman application by 12/10 |
+| ~2026-12-01 (Tue) | Hertz fleet-disposal watch: $199M notes and HVF III 2021-2 ($1,000M at 9/30) mature 12/2026 | 🟡 modeled; not fired, not closed; a 12/31 Class B miss resets to 8/31/27, not a fire. LIQUID owns credit. Full row cold §23 |
+| 2026-12-04 (Fri) | Goodgame sentencing control date | 🟡 confirmed; 09:00 ET |
+| 2026-12-04 (Fri) | OTTO-36 grade deadline (PROME DOCKET L990) | 🟠 confirmed; grades on the ~11/30 EART October 10-Ds |
+| 2026-12-07 (Mon) | Manheim November full-month release | 🟠 confirmed at Cox 11/06 |
+| 2026-12-09 (Wed) | First Brands McHenry Wind Down Sale hearing (Dkt 3933 + SPV inventory) | 🟠 confirmed (Dkt 4097); 13:00 CT; price vs $14.89M minimum overbid; proceeds ownership reserved (Dkt 4020) |
+| 2026-12-09 (Wed) | Chu Final Pretrial Conference | 🟠 confirmed; 14:00 ET |
+| 2026-12-15 (Tue) | First Brands Excess D&O insurers' stay-relief motion (Dkt 3669), reset from 11/18 | 🟠 confirmed (minute entry 11/17); 15:00 CT |
+| ~2026-12-15 (Tue) | OTTO-10 covering Equifax edition check | 🟠 modeled; Equifax must cover September |
+| ~2026-12-15 / ~2027-01-15 | SDART + BLAST November and December-collection 10-Ds | 🟠 modeled; BROAD turn-rule test (tier mean ≤0 or any deal-month better YoY) |
+| 2026-12-16 (Wed) | Tricolor Ch.7: Chu's motion to use the Old Republic excess D&O policy for defense costs (Dkt 1500/1501) | 🟠 confirmed; 11:00 CT, objections due 12/04. Dkt 1500: primary policy exhausted June, CNA $5M layer paid out by 10/28 (WINTERKORN read) |
+| ~2026-12-30 (Wed) | EART November-collection 10-Ds: OTTO-34 resolving filing | 🟠 modeled, window 12/29–12/31 |
+| 2026-12-31 (Thu) | OTTO-07/-11/-12/-31/-33/-34 year-end resolve | 🟡 confirmed |
+| 2027-01-25 (Mon) | Chu criminal trial | 🟠 confirmed; Castel 10:00 ET |
+| 2027-02-01 (Mon) | James criminal pretrial | 🟠 date holds; Judge Caproni since 11/03; courtroom unverified |
+| 2027-02-09 (Tue) | James criminal trial | 🟠 date holds under an adjournment motion to 6/21/27 (ECF 160, 11/05); government opposes; no ruling |
+| 2027-03-17 (Wed) | Tricolor §341, continued again | 🟡 confirmed; 10:00 CT via Zoom (Dkt 1496, filed 11/09). The 11/11 meeting was not held
