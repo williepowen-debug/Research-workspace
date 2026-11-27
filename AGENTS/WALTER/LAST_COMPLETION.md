@@ -40,7 +40,7 @@ Cards 20261126-001 to -008 (003 IMMEDIATE); BOARD 2,397. REGISTRY (14 owner head
 
 ## WILL_NEEDS
 
-1. Filter review options (report 2026-11-26): his pick of the five, or none.
+1. Filter review options, revised 11/27 after the outside check (addendum in the report): option 2 recommendation withdrawn (spec edit only, no check); option 4 re-aimed at VULCAN, BRENT, FALCON, LIQUID 'noted' ACTION cards; option 5 (doorbell prompt in dispatch_card.py) or retire the doorbell log; keep the title skim at the 12/14 WQ-684 check and optionally sample its NO-ACTION titles there. His pick, or none. Done 11/27 without asking: correction 20261127-001, YEYOU and BARON refused by dispatch_card.py, PROME told (treasury_auctions feed, 12/14 Jazan count).
 2. The 10/16 news-search design request (REQ-PROME-20261016) is 41 days with PROME: a nudge to PROME if he wants it closed.
 
 ## FOLLOW-UP
