@@ -717,3 +717,4 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-26	SAM	SIG-W-20261126-007	NONE	L1-UNKNOWN	NO	NA	NA	NA		PRIORITY Tokyo CPI; absent from ListAgents; SAM wake 11/30
 2026-11-26	BRENT	SIG-W-20261126-008	NONE	IN-FLIGHT	NO	NA	NA	NA		PROME in-session BRENT spawn of 22:36 ET; card written after its grade
 2026-11-26	FALCON	SIG-W-20261126-008	NONE	IN-FLIGHT	NO	NA	NA	NA		PROME in-session FALCON spawn; card written after its grade
+2026-11-27	CORAL	SIG-W-20261127-003	NONE	L1-UNKNOWN	NO	NA	NA	NA		ROUTINE DeLand/Sanford update; absent from ListAgents 21:22Z; no open ORCH_INFLIGHT touch; last authored 2026-11-25 (D:L1244). First row from the dispatch_card.py prompt
