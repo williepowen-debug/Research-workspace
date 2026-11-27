@@ -28,6 +28,10 @@ Refusals (nothing is written for ANY card in the batch if one card is refused):
     the card id's year. The checker guesses years and can be wrong: override with the card key
     "weekday_override": "<stated reason, 10+ characters>", which is printed and written to the front matter.
 After writing, every handoff's body is re-read and must equal the BOARD card's body.
+Doorbell prompt (WQ-757 A item 5, Will 2026-11-27 16:02 ET; the only check that ruling added): after --check
+or a write, every ACTION recipient with no registry/DOORBELL_LOG.tsv row for that card is listed with a row
+template. It prompts and never refuses; WALTER writes the row unless step 9b shows the desk live
+(BOARD_CONSUMPTION_SPEC §3.5.7). DOORBELL_LOG had no rows dated 11/7 to 11/22 (filter review 11/26).
 
 Routing rules preserved (CLAUDE.md Rule 10, BOARD_CONSUMPTION_SPEC v0.37):
   * CARL, RED: handoff and delivery row only on ACTION; INFO by BOARD
@@ -77,6 +81,30 @@ def weekday_problems(card):
     for field in WEEKDAY_FIELDS:
         for n, line in enumerate(str(card.get(field, "")).splitlines(), 1):
             out += [f"{field} line {n}: {f[3]}" for f in cc.weekday_flags(field, n, line, year)]
+    return out
+
+
+DOORBELL = Path("AGENTS") / "WALTER" / "registry" / "DOORBELL_LOG.tsv"
+
+
+def doorbell_prompt(cards, root):
+    """Lines naming each ACTION recipient that has no DOORBELL_LOG row for its card. Prompts, never refuses."""
+    path = root / DOORBELL
+    if not path.exists():
+        return [f"DOORBELL PROMPT: {DOORBELL} not found; doorbell rows for this batch are UNKNOWN"]
+    have = set()
+    for line in path.read_text(encoding="utf-8").splitlines():
+        f = line.split("\t")
+        if len(f) > 2 and not line.startswith("#"):
+            have.add((f[2].strip(), f[1].strip()))
+    missing = [(c["id"], r) for c in cards for r in c["action"] if (c["id"], r) not in have]
+    if not missing:
+        return []
+    out = [f"DOORBELL PROMPT: {len(missing)} ACTION recipient(s) have no {DOORBELL} row. Check each by step 9b;"
+           " write a row unless the desk is shown LIVE (L1-UNKNOWN and IN-FLIGHT get rows; BOARD_CONSUMPTION_SPEC"
+           " §3.5.7). Template (date desk sig_id referent gate doorbelled disposition yield drained consumed_at notes):"]
+    out += [f"  {sid[6:10]}-{sid[10:12]}-{sid[12:14]}\t{r}\t{sid}\tNONE\t<L1-UNKNOWN|IN-FLIGHT|gate legs>\tNO\tNA\tNA\tNA\t\t<basis>"
+            for sid, r in missing]
     return out
 
 
@@ -217,6 +245,8 @@ def main(argv=None):
     if a.check:
         for p in plans:
             print(f"OK {p['card']['id']}  {p['board_rel']}  handoffs: {len(p['handoffs'])}")
+        for line in doorbell_prompt(cards, root):
+            print(line)
         return 0
     out = []
     for p in plans:
@@ -225,6 +255,8 @@ def main(argv=None):
         out.append([p["board_rel"], hs])
     if a.out:
         Path(a.out).write_text(json.dumps(out, indent=1) + "\n", encoding="utf-8")
+    for line in doorbell_prompt(cards, root):
+        print(line)
     print("Next: python3 AGENTS/WALTER/tools/gen_board_index.py --write BOARD/INDEX.md --cutover")
     return 0
 

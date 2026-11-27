@@ -172,6 +172,24 @@ class Dispatch(unittest.TestCase):
         self.assertIn("weekday mismatch", out)
 
 
+    def test_D16_doorbell_prompt_lists_action_without_a_row_and_never_refuses(self):
+        reg = self.root / "AGENTS/WALTER/registry"
+        reg.mkdir(parents=True)
+        (reg / "DOORBELL_LOG.tsv").write_text(
+            "# header\ndate\tdesk\tsig_id\treferent\n2099-12-31\tHENRY\tSIG-W-20991231-001\tNONE\n")
+        for mode in (["--check"], []):
+            rc, out = self.run_cards([card(action=["CYPHER", "HENRY"], info=["GIBBS"])], *mode)
+            self.assertEqual(rc, 0, out)
+            self.assertIn("DOORBELL PROMPT: 1 ACTION", out)
+            self.assertIn("\tCYPHER\tSIG-W-20991231-001\t", out)
+            self.assertNotIn("\tHENRY\t", out)   # has a row
+            self.assertNotIn("\tGIBBS\t", out)   # INFO only
+
+    def test_D17_doorbell_prompt_missing_log_says_unknown(self):
+        rc, out = self.run_cards([card()], "--check")
+        self.assertEqual(rc, 0, out)
+        self.assertIn("rows for this batch are UNKNOWN", out)
+
 import unittest.mock  # noqa: E402
 
 if __name__ == "__main__":
