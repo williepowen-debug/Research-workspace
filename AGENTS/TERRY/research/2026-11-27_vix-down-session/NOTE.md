@@ -64,3 +64,7 @@ Spread re-pulled 12:39 EST: 30C 1.06/1.12, 40C 0.52/0.55 ⇒ mid $0.54, **outer 
 **Card goes to Will (root rule #5), window 11/30 to 12/04, if:** a later first-published cell holds ≥ 376 with the CCC/BB ratio rising, or widens past 376 on an RSP-down close; **and** the outer is ≤ $0.65 on the build day. It substitutes for HYG ×5 on the same branch; it is not an add.
 
 **Other effects of the 377 cell:** QQQ 640/650 study cell (IDEA-QQQ-CAPIT-NOV20, DECLINED, $0): third first-published HY cell > 350 (363, 372, 377), so its invalidation fires; study only. HYG ×5 hedge: void clock (5 closes ≤ 330) stays **0 of 5**. Answer sent to PROME by SendMessage 12:40 EST.
+
+## 5. Addendum 12:4x EST — PROME's ORCL grade; owner-grade denominator reconciled
+
+PROME's ELLISON grade for IDEA-ORCL-PUTSPREAD-OCT23 (packet 12:43 ET, commit 17a9dcc118): **MIXED** (direction right, ORCL −19.8% 10/23→11/20; credit-led mechanism not confirmed, DTCC 5Y reads on file 293–305 and none after 11/12). Recorded in `POSTMORTEMS.md`. **Denominator, from the 11/20 ask packets on disk** (`AGENTS/*/inbox/processed/2026-11-20_from-TERRY_postmortem-thesis-grade-ask.md`): 12 desks asked (BOND, BRENT, BROCK, DEWEY, FALCON, HENRY, LIQUID, RED, REGINALD, VIOLET, VULCAN, WAL) plus PROME for ORCL = **13 asks, 13 of 13 answered, none owed**. LABOR's KELYA grade was unasked, so the table now holds 14 owners. The §3 "12 vs 13" is resolved: "of 12" counted asked desks and left PROME out; the 13 in the table counted LABOR in.
