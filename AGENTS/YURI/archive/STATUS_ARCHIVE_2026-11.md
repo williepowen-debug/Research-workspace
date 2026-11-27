@@ -46,3 +46,12 @@ Source: `STATUS.md` § Current instrument answers (six 2026-10-12-era bullets) a
     - **Long searches (report §11):** the signed 500 kt diesel act, the №686 goods-code list (overdue since about 08.10) and the signed ship-registration decree are all NOT-FOUND, the government perimeter now complete to 21.10 (non-public channel inferred, not established). №302-ФЗ (04.08) is not the ship decree (effective 2027); the "open register" dates from 2018. By-catches: 2818-р bill amending Arts 49/53 of the Military Duty law (content unread); 2783-р Verkhnekamsk potash auction (FERT triage); 2727-р Ussuri gas-pipeline crossing checkpoint closed.
     - Tarkett: press relays a 16.10 company statement of "loss of effective control"; not retrieved at the issuer.
 
+
+## Rotated 2026-11-27 (YURI, PROME prome-80 catch-up session) — verbatim, crc32 515104777 over the block below (UTF-8, newline-terminated lines): the 2026-11-20 Last Updated paragraph
+
+**Last Updated: 2026-11-20**: PROME prome-77 letter (class C8; WALTER IMMEDIATE SIG-W-20261120-005 and PRIORITY -011, ACTION YURI). Claude Code (Opus 5.5), laptop, read 11:47 ET.
+- **Poland:** no Russian state statement on the missiles in Poland at any reachable channel to 16:52Z: Kremlin, MoD, MFA and Zakharova Telegram, 215 TASS and RIA posts. mid.ru, tass.ru and the Warsaw embassy site refused or challenged automated access; mil.ru timed out. The MoD's own target list for the night is in western Ukraine (Lviv, Khodoriv, Burshtyn) and does not mention Poland.
+- **Embassies:** Ambassador Tarabrin (MFA channel 20.11) gave "regret" for the Dutch embassy damage, "strikes on military objects", the Vienna Convention and a renewed leave-Kyiv warning; Russia will keep striking Kyiv. The Russian embassy in Vienna (TASS relay) says responsibility lies with Vienna.
+- **Netherlands:** escalated separately through Destinus and the Crimean Bridge: "legitimate target" (embassy, 19.11) and "taken into account in military planning" (Zakharova, 20.11). Moscow treats the embassies and Poland as separate matters; targeting is established for neither.
+- **YUR-007 graded HIT** a day early (Brier 0.64). F02 call **YUR-C04** written. **Score 2 → 3** (reading beside the handle). Ledger and STATUS rotated verbatim.
+- **Record:** `research/2026-11-20_SIG-005-011_poland-embassies-state-read.md`. Prior: 2026-11-19 (Shenzhen declaration, bridge vow, JT) → `research/2026-11-19_SIG-004_shenzhen-declaration-bridge-JT.md`; that paragraph is rotated to `archive/STATUS_ARCHIVE_2026-11.md`.
