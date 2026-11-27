@@ -1,0 +1,24 @@
+[
+ {
+  "id": "SIG-W-20261126-007",
+  "slug": "Tokyo-November-CPI-core-2.9pct-from-2.6-vs-3.0-expected-core-core-2.5-from-2.6-energy-9.5pct-as-subsidies-end-secondary-pages-issuer-not-read",
+  "safety_net": "clear",
+  "event_window": "open",
+  "route_origin": "WALTER night boot, step 7i calendar catch-up (Tokyo CPI, Fri 11/27 08:30 JST)",
+  "origin": ["fxstreet.com 202611270027 (search result)", "investinglive.com, actionforex.com, mlq.ai (search summaries)"],
+  "signal_type": "indicator",
+  "title": "Tokyo November CPI (secondary pages; Statistics Bureau not read): core ex-fresh-food 2.9% y/y from 2.6%, a 16-month high, vs 3.0% expected; core-core ex-food-and-energy eased to 2.5% from 2.6%; energy 9.5% from 2.2% as electricity and gas subsidies ended",
+  "body": "# Tokyo CPI, November 2026 (released Fri 11/27 08:30 JST = Thu 11/26 18:30 ET)\n\n| Measure | November | October | Expected | Basis |\n|---|---|---|---|---|\n| Core (ex fresh food), y/y | **2.9%** | 2.6% | 3.0% | search summaries of fxstreet, investinglive, actionforex, mlq.ai; issuer page NOT read |\n| Core-core (ex fresh food and energy), y/y | **2.5%** | 2.6% | not stated | same |\n| Energy, y/y | 9.5% | 2.2% | - | same; driver: temporary end of government electricity and gas subsidy payments |\n\n- **Secondhand-release rule (ROUTING_TABLE v0.53):** PRIORITY until the figure is read at the Statistics Bureau of Japan; upgrade then.\n- **Context in the same summaries (not WALTER's read):** markets expect a BoJ hike to 1.5% at the 12/17 to 12/18 meeting; the national November CPI lands the same week; yen reaction reported both ways, USD/JPY near 160 (SAM's theme `usdjpy-160-intervention`).\n- **So what:** the headline rise is energy from subsidies ending, while the underlying measure eased: a split read for the December hike case. SAM grades; ORACLE owns any priced odds of the BoJ move.",
+  "source": "search summaries 2026-11-26 ET of fxstreet.com/news/japanese-yen-softens-after-soft-tokyo-core-cpi-inflation-data-202611270027, investinglive.com, actionforex.com, mlq.ai; Statistics Bureau of Japan not read",
+  "action": ["SAM"],
+  "info": ["LIQUID", "BOND", "ORACLE", "RED", "PROME"],
+  "precedence": "PRIORITY",
+  "confidence": 0.7,
+  "confidence_language": "reports: several secondary outlets agree; issuer release not read",
+  "cluster": "ASIA_CHINA",
+  "domain": "JAPAN_BOJ",
+  "entities": ["Tokyo CPI", "Statistics Bureau of Japan", "Bank of Japan", "USD/JPY"],
+  "dispatch_note": "PRIORITY by the v0.53 secondhand rule (flash-class figure from secondary pages). Calendar catch-up 7i: release elapsed 18:30 ET, neither record before this card. RED, PROME by BOARD diff.",
+  "route_summary": "Tokyo Nov CPI core 2.9, core-core 2.5 (secondary)"
+ }
+]

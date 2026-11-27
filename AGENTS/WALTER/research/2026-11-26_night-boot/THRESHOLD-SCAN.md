@@ -19,3 +19,22 @@ Written 2026-11-27T03:39:15Z (date command). US markets and agencies closed 11/2
 | UNKNOWN | gilt 30Y (HANS-T-13), SKEW, HY Energy, HANS-T-08, T-14 sweep, crack rows, CREED monthly rows (owner-graded) |
 
 No registered row fired in this pass. Near-trigger: none new.
+
+## Addendum 2026-11-27T03:46:11Z: owner registries read (boot 6b gap closed in part)
+
+RED scan view banner sha bca82363 equals canon FALSIFICATION_TRIGGERS.tsv (12 rows read; canon changed since the 11/25 d5bd0ab1, FT-10 outcome graded CORRECT 11/26). REGINALD THRESHOLDS.tsv read whole (8 rows). CREED and HANS: id and state columns of every row read, not every cell whole.
+
+| IDs | State against tonight's values |
+|---|---|
+| RED-FT-02, REG-T-03, REG-T-04 | fired states continue on HY 372 [11/24]; FT-02 exit <300 s3 not near |
+| RED-FT-07 | FIRING-BANKED; CCC 1,405 [11/24] over 930 |
+| RED-FT-10 | fired; exit 0 of 4 [11/25]; outcome CORRECT graded by RED 11/26 |
+| REG-T-02 (WAL <78) | WAL 70.76 [11/25 vendor] inside the existing fired cycle; no new fire |
+| REG-T-01 (KRE <60) | 69.84 [11/25]; not near |
+| HANS-T-08 | FIRED-OPEN, gap -17.90 pp on gas day 11/24 (HANS-graded 11/26, HANS-F-004); owner fire, no WALTER dispatch owed |
+| HANS-T-07 | L3 closed 11/20, re-armed (over 100 re-fires); TTF 87.55 [11/26 last trade] not near |
+| HANS-T-10 | MET, open: OAT 4.75 / Bund 3.25 / 149.5 bp on the governing i-i screen [11/26, HANS] |
+| HANS-T-16 | WATCH FIRED 11/18 (HANS-F-008) |
+| CREED-T-01a, 02, 06b, 08a | fired states per the 11/25 scan; T-03 NOT FIRED 11/25 (owner) |
+
+No new WALTER fire. Still not done: CREED and HANS cells read whole; per-desk STATUS first 30 to 50 lines (FILTER_SPEC Boot Context) read only for the 11 refreshed REGISTRY heads.
