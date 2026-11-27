@@ -132,7 +132,7 @@ BASE='https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_C
 p=urllib.parse.urlencode({'where':"portid='chokepoint6' AND date >= DATE '2025-01-01'",
   'outFields':'date,n_total,n_tanker,capacity_tanker','orderByFields':'date ASC',
   'resultRecordCount':'3000','f':'json'})
-req=urllib.request.Request(f'{BASE}?{p}', headers={'User-Agent':'Mozilla/5.0'})
+req=urllib.request.Request(f'{BASE}?{p}', headers={'User-Agent':'research-bot/1.0'})
 d=json.loads(urllib.request.urlopen(req, timeout=60).read())
 print(len(d['features']), 'rows')
 PY

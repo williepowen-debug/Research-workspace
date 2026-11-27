@@ -83,7 +83,9 @@ BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 # (tested 200 on 11/25); api.stlouisfed.org already sends an honest name. rigcount.bakerhughes.com
 # REFUSED it and is NOT switched until Will rules on PROME's 12/07 list. 11/25: the GIE API path
 # (agsi.gie.eu/api) REFUSES it ("Invalid or missing API key"); EU-STORAGE therefore reads DEAD and is
-# NOT switched back (WQ-735 rule 2; packeted to PROME 11/25). BROWSER_UA stays only for Baker Hughes.
+# NOT switched back (WQ-735 rule 2; packeted to PROME 11/25). 11/26: that refusal was the no-key case;
+# probe_gie now sends the fleet AGSI_API_KEY with the honest name and EU-STORAGE reads again (BRENT 11/26).
+# BROWSER_UA stays only for Baker Hughes.
 HONEST_UA = "research-bot/1.0"
 
 # Historical September 7 working request shape, retained as the BH fallback.
@@ -597,8 +599,24 @@ def probe_gie(spec):
     # 2026-11-25: agsi.gie.eu passed the honest name on 11/23 (WQ-735), so this probe now sends
     # HONEST_UA. Its API path refused it on 11/25 (the gate the docstring warns of): the reading is
     # unavailable by design until Will rules (PROME's 12/07 list); never switch back to BROWSER_UA.
+    # 2026-11-26: the 11/25 refusal was the NO-KEY case (HANS 11/26, PROME packet WQ-735 recipes);
+    # honest name + the fleet's existing AGSI_API_KEY (FORGE/tools/market-data/.env) returned data
+    # (BRENT test 22:4x EST, gas day 11/25). The key is sent as GIE's documented x-key header.
+    headers = {"User-Agent": HONEST_UA}
     try:
-        req = urllib.request.Request(spec.strip(), headers={"User-Agent": HONEST_UA})
+        import os
+        key = os.environ.get("AGSI_API_KEY", "")
+        envf = Path(__file__).resolve().parents[3] / "FORGE/tools/market-data/.env"
+        if not key and envf.exists():
+            for line in envf.read_text().splitlines():
+                if line.startswith("AGSI_API_KEY="):
+                    key = line.split("=", 1)[1].strip().strip('"').strip("'")
+        if key:
+            headers["x-key"] = key
+    except Exception:
+        pass
+    try:
+        req = urllib.request.Request(spec.strip(), headers=headers)
         with urllib.request.urlopen(req, timeout=30) as resp:
             if resp.status != 200:
                 return False, None, f"HTTP {resp.status}"

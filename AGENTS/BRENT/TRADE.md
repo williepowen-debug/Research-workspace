@@ -13,7 +13,7 @@
 
 ## CURRENT STANCE (THESIS v5.13; v5.8 numerical calibration retained)
 
-Thesis and calibration: [THESIS](thesis/THESIS.md). **WAIT; WQ-189/192 STAND DOWN; no live deploy gate or discretionary arm.** BG-02 remains binding. FALCON’s October 26 committed report resolves an old BULKER casualty; current tanker-disablement/fire relays establish no new confirmed cargo or Gulf-throughput loss. No head-clause match is established from these reports. Policy legB1 remains binding; the [October5 search](research/2026-10-05_market-open/REPORT.md) and [September28 sensitivities](research/2026-09-28_us-diesel-export-ban-risk.md) retain their dates, not a current policy clearance. Current OMR/shipping/option evidence is linked below; no new holding grade.
+Thesis and calibration: [THESIS](thesis/THESIS.md). **WAIT; WQ-189/192 STAND DOWN; no live deploy gate or discretionary arm.** BG-02 remains binding (WQ-755 A, Will 2026-11-25, verbatim "still in force"; the 9/25 lapse was instance (4)'s alone). FALCON’s October 26 committed report resolves an old BULKER casualty; current tanker-disablement/fire relays establish no new confirmed cargo or Gulf-throughput loss. No head-clause match is established from these reports. Policy legB1 remains binding; the [October5 search](research/2026-10-05_market-open/REPORT.md) and [September28 sensitivities](research/2026-09-28_us-diesel-export-ban-risk.md) retain their dates, not a current policy clearance. Current OMR/shipping/option evidence is linked below; no new holding grade.
 
 ### Dated expression comparison
 
