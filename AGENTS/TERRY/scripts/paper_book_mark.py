@@ -558,8 +558,12 @@ def _add_bd(d, n):
 
 
 def _clauses(text):
-    head = (text or "").split("||")[0]
-    return [c.strip().rstrip(".").strip() for c in _CLAUSE_SPLIT.split(head) if c and c.strip()]
+    """Clauses before the first '||' (the book's convention: text after '||' is dated
+    history notes). Returns (clauses, tail): the tail is NOT parsed, but exit_check
+    lists it as UNCHECKED so it is never silently dropped (PROME's read, 2026-11-26)."""
+    head, sep, tail = (text or "").partition("||")
+    cl = [c.strip().rstrip(".").strip() for c in _CLAUSE_SPLIT.split(head) if c and c.strip()]
+    return cl, (tail.strip() if sep else "")
 
 
 def _first_run(series, op, lvl, n):
@@ -584,8 +588,17 @@ def _fetch_hy_first_published(start):
                            observation_start=start.isoformat())
     if r.get("error"):
         raise RuntimeError(r["error"])
-    out = [(date.fromisoformat(x["date"]), float(x["value"]) * 100) for x in r.get("rows", [])]
-    return sorted(out), bool(r.get("short"))
+    return _hy_rows_to_series(r.get("rows", [])), bool(r.get("short"))
+
+
+def _hy_rows_to_series(rows):
+    """FRED HY OAS rows (percent, two decimals) -> chronological [(date, integer bp)].
+    ROUNDED: float('2.18') * 100 is 218.00000000000003 and float('2.01') * 100 is
+    200.99999999999997 (127 of the 1,300 values 2.00-14.99 miss their integer), so an
+    unrounded cell exactly AT a line could fire a strict '>' or miss a '>='. Found by
+    PROME's independent read, 2026-11-26 (AGENTS/TERRY/inbox/processed/
+    2026-11-26_from-PROME_exit-check-independent-read-two-findings.md)."""
+    return sorted((date.fromisoformat(x["date"]), round(float(x["value"]) * 100)) for x in rows)
 
 
 def _fetch_closes(ticker, start):
@@ -617,7 +630,8 @@ def exit_check(row, today, hy_fetch=_fetch_hy_first_published, close_fetch=_fetc
     parsed = parse_legs(row.get("structure"), opened or today) or {}
     root = parsed.get("root") or (parse_equity(row.get("structure")) or {}).get("ticker")
     out = []
-    for c in _clauses(row.get("invalidation")):
+    clauses, tail = _clauses(row.get("invalidation"))
+    for c in clauses:
         m = _HY_RE.fullmatch(c)
         if m and opened:
             op, lvl = m["op"], float(m["lvl"])
@@ -677,6 +691,8 @@ def exit_check(row, today, hy_fetch=_fetch_hy_first_published, close_fetch=_fetc
                 out.append(("CLEAR", c, f"mark {row.get('mark') or '?'} (mid) under {lvl:g}; intraday highs not checked"))
             continue
         out.append(("UNCHECKED", c, "not machine-checked: read it by hand"))
+    if tail:
+        out.append(("UNCHECKED", "|| " + tail, "text after '||' (history by convention) is not parsed: read it by hand"))
     return out
 
 
@@ -1068,6 +1084,18 @@ def selftest():
     at = dict(pb9, invalidation="HY OAS first-published > 344")
     assert exit_check(at, t26, hy_fetch=hy_at)[0][0] == "CLEAR"
     assert exit_check(dict(at, invalidation="HY OAS >= 344"), t26, hy_fetch=hy_at)[0][0] == "FIRED"
+    # (3d) THROUGH THE CONVERSION (PROME's read): FRED percent strings must land on integer bp.
+    assert _hy_rows_to_series([{"date": "2026-11-05", "value": "2.18"},
+                               {"date": "2026-11-04", "value": "2.01"}]) == [(D("2026-11-04"), 201),
+                                                                             (D("2026-11-05"), 218)]
+    def hy_conv(start):
+        return _hy_rows_to_series([{"date": "2026-11-05", "value": "2.18"}]), False
+    at2 = dict(pb9, invalidation="HY OAS first-published > 218")
+    assert exit_check(at2, t26, hy_fetch=hy_conv)[0][0] == "CLEAR", "218.00000000000003 fired a strict >"
+    assert exit_check(dict(at2, invalidation="HY OAS <= 218"), t26, hy_fetch=hy_conv)[0][0] == "FIRED"
+    # (3e) text after '||' is listed UNCHECKED, never dropped.
+    tl = exit_check(dict(at2, invalidation="HY OAS > 218 || 2026-11-20 note: kill if X"), t26, hy_fetch=hy_conv)
+    assert [s for s, _, _ in tl] == ["CLEAR", "UNCHECKED"] and tl[1][1].startswith("|| 2026-11-20"), tl
     # (4) fetch failure is UNKNOWN, never CLEAR; harvest at/above on the MID is ADVISORY only.
     def hy_dead(start):
         raise OSError("down")

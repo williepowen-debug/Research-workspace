@@ -217,7 +217,7 @@ def hy_normal_move():
     obs = fred_fetch("BAMLH0A0HYM2", limit=NORMAL_MOVE_N + 1)
     if not obs or "error" in obs[0]:
         return None, (obs[0].get("error", "no data") if obs else "no data")
-    vals = [float(o["value"]) * 100 for o in reversed(obs)]
+    vals = [round(float(o["value"]) * 100) for o in reversed(obs)]   # integer bp: float("2.18")*100 is not 218
     return normal_move(vals), obs[0]["date"]
 
 
