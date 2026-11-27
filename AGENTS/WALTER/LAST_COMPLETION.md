@@ -1,58 +1,51 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-26T03:52:27Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-4d on the laptop, Wednesday 11/25. Will's word at 22:46 ET: "lets close out for the day". **Tier 2 FULL closeout**; clears the light breadcrumbs of 19:30:30Z (walter-7f) and 22:05:38Z (walter-4d). Prior record verbatim at research/2026-11-25_evening-boot/LC-ROTATED.md, and through it research/2026-11-25_checkpoint/LC-ROTATED.md and research/2026-11-25_closeout/LC-ROTATED.md; open items there stay binding unless closed below.
-
-**Night boot addendum 2026-11-27T03:39:50Z (Claude Code Opus 5.5, laptop, Thu 11/26 Thanksgiving, Tier 1 LIGHT; full closeout DEFERRED, 1 breadcrumb since the last full).** The 11/25 record below stays binding except where this addendum closes an item.
-
-- **Done this session:** cards 20261126-001 (DeLand 6.12 ft observed 21:30 ET, forecast 6.5 ft Sun 11/29 07:00 ET held to 12/03, record 6.33), 002 (Gulf of Finland ship = Sparta II, ro-ro cargo, not a tanker; answers HAWK), 003 IMMEDIATE (Jazan REFINERY hit 11/26, Energy Ministry; one killed; some operations suspended), 004 (Kuwait: two Italian Rheinmetall technicians killed, Iran blamed, denies; Iranian Army mine claim 11/25, claim only), 005 small items. Pushed 5150d2114b (safe-push receipt); 005 and this closeout committed after. PROME told by message 22:35 ET; it launched FALCON and BRENT in-session; HAWK and OSPREY take 002 and 004 at their 11/27 wake.
-- **Inbox:** CYPHER, HAWK packets and both DEWEY handoffs consumed and filed; REQ-DEWEY-20261123-001 RESOLVED (PARTIAL by design; spot figure not re-read by WALTER). Research-Intake marked through data/2026-11-26/news.json; GPU review 10 closed; flood alerts marked.
-- **Boot gaps, updated 2026-11-27T03:46:11Z (Will 22:42 ET 'lets work on what still was not done'):** DONE: step 8 REGISTRY (11 owner heads; no desk missing), 6 ROUTING_TABLE and OVERLAYS read whole (routing check: card 004 omitted SAM from info, the GEOPOL_ENERGY default; recorded, not re-sent), 6b RED view sha bca82363 equals canon, REGINALD whole, CREED and HANS state columns (HANS-T-08 FIRED-OPEN by HANS 11/26), 7h bookmarks (3; card 006), 9 (LIAISON CARL and RED dormant since 6/06; outbox REQ-PROME-20261016-vulcan-intake-design is 41 days unresolved: no deployment receipt, a GPU review queue now exists in intake_scan; surfaced to Will), 9b (ORCH_INFLIGHT read whole; only prome-80 live with in-process FALCON, BRENT, WAL, GIBBS; no DARK verdict, absent desks UNKNOWN), FILTER_SPEC Boot Context (FORGE mirror 11/18 vintage rows, RED catalysts 11/27 to 12/04), Tokyo CPI carded 007. STILL NOT DONE: CREED and HANS cells whole, per-desk STATUS heads beyond the 11, BOARD INDEX ToC re-read (no other writer to BOARD). Full Tier 2 closeout still owed.
-- **New watch items:** Jazan refinery: which units stopped and restart (Aramco or ministry); Yanbu or Rabigh next. CoreWeave Meta-tied loan: an actual rating action or pricing (005 item 1 says 'wins IG ratings' is title only). Tokyo November CPI (11/27 08:30 JST, about 18:30 ET 11/26) status UNKNOWN, SAM. DeLand: an OBSERVED 6.33 ft or more is a new IMMEDIATE (CORAL); run flood_alerts.py at every boot through the weekend.
-- **Fri 11/27: refresh VIX and S&P before the first reply in market hours (equities close 13:00 ET); HY 11/25 cell due.**
-
+Updated 2026-11-27T04:04:45Z, Claude Code Opus 5.5 (claude-opus-5-5), WALTER session walter-dd on the laptop, Thanksgiving Thu 11/26 (boot 22:22 ET). Will's word at 23:02 ET: "Lets do a close out here to cement our updates". **Tier 2 FULL closeout**; clears the light breadcrumb of 03:39:33Z. Prior record verbatim at research/2026-11-26_night-boot/LC-ROTATED.md, and through it the 11/25 records; open items there stay binding unless closed below.
 
 ## RESUME — do these first
 
-**Where it stands (vendor, 11/25):** S&P 7,182.78 close, VIX 28.29 at the 16:15 print (provisional, VIOLET), BZF27 95.18 and ES 7,239.75 in the evening session (22:36 ET, not settles). HY for 11/25 not posted (about 11/27). **Thu 11/26 US markets closed; Fri 11/27 equities close 13:00 ET. Refresh VIX and S&P before the first reply in market hours.**
+**Where it stands:** US markets shut 11/26. Vendor at 03:53Z: ES 7,304.75, BZF27 96.48 (Brent January settled 96.57, +2.1%, per Reuters via search summaries), USD/JPY 159.22. HY 11/25 cell unposted (due about 11/27). **Fri 11/27: equities close 13:00 ET. Refresh VIX and S&P before the first reply in market hours.**
 
-1. **Search, do not only read, each IMMEDIATE-if event at boot:** a Saudi Red Sea port hit (Jazan happened 11/25, card 042; Yanbu, Jeddah damage, Rabigh would be new); a numbered Chinese countermeasure, 40% branch or final Section 301 notice; a record river or tide; a flash flood emergency.
-2. **DeLand:** official forecast 6.4 ft Sat 11/28 19:00 ET, held to 12/02, record 6.33 (card 037). An OBSERVED 6.33 or more is a new IMMEDIATE (CORAL action). Run flood_alerts.py at boot; NWPS DLAF1, SNFF1.
-3. **Owner returns to watch:** SAM and VULCAN on 040 (co-movement; 'no' is a complete answer); FLG on 043 (ruling text, appeal); CYPHER on 038 and the Best Egg claim (044); FALCON on the Dubai tanker claim (044); TERRY reads 039, 041, 042 by BOARD. HAWK not woken for 042 (PROME's call).
-4. **Clocks:** HY 11/25 cell about 11/27 (REG-T-04 fired state continues; FT-02 exit <300 not near); VIOLET confirms the 16:15 print on Cboe History 11/27; Fed H.4.1 for 11/25 UNKNOWN (not on FRED by 22:5x ET); Nvidia 10-Q not on EDGAR at 18:16 ET (VULCAN-194, owner grades); CoreWeave .5B loan launch 'as soon as next week'; OPEC+ 11/29; ICE First Look 11/26 to 11/30; Iran full sweep about 11/30 (Jazan is a state change for it); tanker-cost watch 11/30.
+1. **Search, do not only read, each IMMEDIATE-if event at boot:** Saudi Red Sea hits (Jazan PORT 11/25 card 20261125-042 and Jazan REFINERY 11/26 card 20261126-003 are done; Yanbu, Rabigh, Jeddah damage would be new); a Jazan restart or unit detail from Aramco or the ministry; a numbered Chinese countermeasure, 40% branch or final Section 301 notice; a record river or tide; a flash flood emergency. Run the 7e(h) title skim on every batch: on 11/26 it was the only net that caught Jazan.
+2. **DeLand:** observed 6.12 ft 21:30 ET 11/26 (second highest), official forecast 6.5 ft Sun 11/29 07:00 ET held to 12/03 19:00 ET, record 6.33 (card 001). An OBSERVED 6.33 or more is a new IMMEDIATE (CORAL action). Run flood_alerts.py at every boot through the weekend; NWPS DLAF1, SNFF1, ASTF1.
+3. **Owner returns to watch:** OSPREY and HAWK at their 11/27 wake on 002 (Sparta II, cargo not tanker, C3 limb 1) and 004 (Kuwait); FALCON graded 003 (marks held 1/14/85) and BRENT graded it (BRT-32, BG-02 NOT MET), both PROME in-session spawns, TERRY packets sent; SAM on 007 (Tokyo CPI, secondary) and the 11/30 wake; OSPREY and YURI on 006 (Lukoil International); HAWK on 006 (Estonia 12/1); VULCAN on 005 item 1 (CoreWeave rating claim unverified). Earlier carries: SAM and VULCAN on 20261125-040; FLG on 043; CYPHER on 038 and Best Egg (CONFIRMED by CYPHER 11/26); FALCON on the Dubai tanker claim.
+4. **Clocks:** HY 11/25 cell about 11/27 (REG-T-04 and RED-FT-02 fired states continue); VIOLET confirms the 11/25 16:15 VIX print on Cboe History; Nvidia 10-Q (VULCAN, RED CHG-057 12/04); CoreWeave $4.5B Meta-tied loan launch 'as soon as next week' and an actual rating action; OPEC+ Sun 11/29; Estonia road crossings close 12/1; ICE First Look 11/26 to 11/30; Iran full sweep about 11/30 (Jazan refinery, Kuwait deaths and the IRGC mine claims are state changes for it); tanker-cost watch 11/30.
 5. **Filter review (Will 11/23 17:18 ET): OWED, NOT STARTED;** timing is Will's. Report only; include confidence_language off-vocabulary and the missing DOORBELL rows 20261124-001 to -019. Boundary 4 has no instrument (retirement via PROME).
-6. **Carries unchanged:** DEWEY pilot REQ-DEWEY-20261123-001 due 12/01; Section 301 comments 1/5, hearing 1/25; MOFCOM 1/27; YUR-010 by 12/03; CATO's unconsumed 10/19 ACTION; Kazakhstan unsecond-sourced; 24 unconsumed over two days at 11 desks (doctor; PROME wakes); December 14 title-skim review (WQ-684); HANS THRESHOLDS.tsv at 85% of budget (HANS owns the rotation).
+6. **Carries unchanged:** Section 301 comments 1/5, hearing 1/25; MOFCOM 1/27; YUR-010 by 12/03; CATO's unconsumed 10/19 ACTION; Kazakhstan unsecond-sourced; unconsumed backlog over two days (doctor, PROME wakes); December 14 title-skim review (WQ-684); HANS THRESHOLDS.tsv at 85% of budget (HANS owns the rotation); outbox REQ-PROME-20261016-vulcan-intake-design 41 days unresolved (surfaced to Will 11/26; PROME's to close or drop).
 
-Calendar coverage cutoff: 2026-11-27T03:39:50Z (research/2026-11-26_night-boot/CALENDAR-RECONCILIATION.tsv; prior 2026-11-26T03:52:27Z).
+Calendar coverage cutoff: 2026-11-27T03:45:50Z (research/2026-11-26_night-boot/CALENDAR-RECONCILIATION.tsv, Tokyo CPI row; prior 2026-11-27T03:39:50Z).
 
 ## STATUS
 
-Tier 2 FULL closeout at 2026-11-26T03:52:27Z. Boot at 16:04 ET was PARTIAL (card bodies not re-read; owner STATUS skims only; SKEW, HY Energy, HANS-T-08, T-14 UNKNOWN).
+Tier 2 FULL closeout at 2026-11-27T04:04:45Z. Boot 22:22 ET PARTIAL; on Will's 22:42 ET word the gaps were closed (steps 6, 6b in part, 7h, 8, 9, 9b, FILTER_SPEC Boot Context, 7i Tokyo CPI) except CREED and HANS cells read whole and per-desk STATUS heads beyond the 14 refreshed.
 
 ## CHANGED
 
-Cards 20261125-037 to -044 (037, 042 IMMEDIATE); BOARD 2,389. REGISTRY (12 owner heads across two refreshes), STATUS (bottom line re-cut, one observation row rotated verbatim to SESSION_LOG), SESSION_LOG, MEMORY (session note; prior rotated verbatim to MEMORY_PROMOTED), DOORBELL_LOG, batch manifests BM-20261125-16 and BM-20261126-01, bookmarks 1 of 1, Research-Intake batch marked twice, GPU review 7 closed, flood alerts marked. Messages to PROME (4) and one rule-6 doorbell to LIQUID.
+Cards 20261126-001 to -008 (003 IMMEDIATE); BOARD 2,397. REGISTRY (14 owner heads plus WALTER), STATUS (bottom line re-cut, one observation row and two paragraphs rotated verbatim to SESSION_LOG), SESSION_LOG, MEMORY (session note; prior rotated verbatim to MEMORY_PROMOTED; n+1 on findings 26 and 34), DEEP_RESEARCH_FLAGGED_LOG (REQ-DEWEY-20261123-001 RESOLVED), kill_log (1), batch manifest BM-20261127-01 (19 of 19), GPU review 10 closed, Research-Intake marked through data/2026-11-26/news.json, bookmarks 3 marked then 0 new at 04:01Z, flood alerts marked, inbox 2 and DEWEY 2 consumed. One message to PROME (22:35 ET).
 
 ## RESULT
 
-- **Recovered the walter-7f open items** after its window closed by accident (transcript read): co-movement hand-off DONE (040); CoreWeave 10-Q and EDGAR DONE (039: 2027 principal $10.974B, covenants met 9/30, no 8-K since 11/10); LIQUID's swap answer carried (041); Pacific tides swept, no further records; Bloomberg article closed on Will's word (19:57 ET).
-- **No WALTER-scanned registered row fired.** HENRY red not fired; VIOLET's 7th inverted close armed 2' (provisional). 54 of 54 delivery rows for 037 to 044 delivered; 344 of 344 for 11/25. Delivered is not consumed.
+- **Jazan refinery (003):** Saudi Energy Ministry via Arab News: projectile, fire, some operations suspended, one worker killed; coalition blames the Houthis. Late (public about 10:19 ET), caught only by the title skim. PROME launched FALCON and BRENT on the card ID within minutes.
+- **HAWK's ask answered (002):** Sparta II, Russian-flagged ro-ro cargo ship linked to Oboronlogistika, not a tanker; Finland says Ukraine 'likely'.
+- **No WALTER-scanned registered row fired.** RED view sha bca82363 equals canon; HANS-T-08 FIRED-OPEN by HANS 11/26 (owner fire). 47 of 47 delivery rows for 20261126 delivered after origin proof. Delivered is not consumed.
 
 ## GAPS
 
-- **Late:** Jazan Port hit public from about noon; carded 20:06 ET (042), after FALCON's late 18:00 row. The 16:04 ET boot read the IMMEDIATE-if list and did not search it.
-- **Said wrong to Will and corrected:** VIX '28.20' at the close (print 28.29); 'my last commit is local' (pushed minutes later); a near-duplicate claim that the Bloomberg piece was unread was right, but Will had the substance from two relays.
-- **Unverified on cards:** 043 is titles only (ruling not read); Best Egg and Dubai tanker are claims (044); Jazan rests on relays of an X post (042).
-- **UNKNOWN:** SKEW (Cboe refused earlier, not retried), HY Energy, HANS-T-08 and T-14, crack rows, H.4.1.
-- **Refused, not retried:** ukmto.org, seatrade (FALCON); earlier Cboe, dol.gov and others as at LC-ROTATED.
-- closeout_run: research/2026-11-25_evening-boot/closeout/.
+- **Late:** Jazan refinery about 12 hours (no WALTER session on Thanksgiving until 22:22 ET); Estonia border closure (announced 11/15) never carded until 006.
+- **Routing:** card 004 omitted SAM from info (GEOPOL_ENERGY default); recorded, not re-sent.
+- **Unverified on cards:** Brent 96.57 settle and Tokyo CPI from search summaries (issuer and ICE not read); Lukoil from the Reuters reporter's post (article unread); Zakharova via a state-linked relay; 005 titles only; IRGC drone claim title only.
+- **UNKNOWN:** SKEW, HY Energy, gilt 30Y (HANS-T-13), crack rows, H.4.1 for 11/25.
+- **Not done:** CREED and HANS registry cells whole; per-desk STATUS heads beyond 14; filter review (Will's timing).
+- closeout_run: research/2026-11-26_night-boot/closeout/.
 
 ## WILL_NEEDS
 
 1. Filter review: due; his call on when.
+2. The 10/16 news-search design request (REQ-PROME-20261016) is 41 days with PROME: a nudge to PROME if he wants it closed.
 
 ## FOLLOW-UP
 
-Search the IMMEDIATE-if list at every boot. Write offers and asks into LAST_COMPLETION when made. Name the contract month on every oil figure. Before offering a wake, run ListAgents and read the desk's git log in the same turn. Read owner packets to PROME (PROME/inbox and processed), not only those to WALTER.
+Search the IMMEDIATE-if list at every boot; read every title in every batch. Message PROME on every IMMEDIATE while it is live. Name the contract month on every oil figure. Take every stamp from a command. Before offering a wake, run ListAgents and read the desk's git log in the same turn.
 
 ## OPEN DESIGN DECISIONS
 
@@ -60,44 +53,42 @@ Unchanged. Verbatim at research/2026-11-11_light-closeout/LC-ROTATED.md § OPEN 
 
 ## CLOSEOUT RECEIPT
 
-Tier 2 FULL closeout, walter-4d, laptop. Publication is not consumption. Retirement review: research/2026-11-25_evening-boot/ only (new today; nothing eligible). Weekday, owner and memory reviews done by hand as stated; a selected PASS is not the full procedure. Selected checks: receipt, read-cap, archives, weekdays, basis, reads, memory lines PASS; orphans ADVISORY (clean); ledger-nudge REVIEW (event-driven fire logs, no fire this session, nothing owed); doctor MED: Research-Intake lane degraded (treasury_auctions feed error, surfaced to Will), 24 unconsumed over two days (PROME wakes). Root 1b clean, 1c not applicable (no own figure superseded), 1d not applicable (no auto-memory), 1e run. The closeout commit follows the publication list.
+Tier 2 FULL closeout, walter-dd, laptop. Publication is not consumption. Retirement review: research/2026-11-26_night-boot/ only (new today; nothing eligible). Weekday, owner and memory reviews done by hand as stated; a selected PASS is not the full procedure. Selected checks (closeout_run full): receipt PASS (47 of 47 delivered), read-cap rc 0 (HANS THRESHOLDS.tsv 85%, HANS owns), archives 0 deletions, orphans ADVISORY clean; ledger-nudge REVIEW (event-driven logs DOORBELL, DEEP_RESEARCH_FLAGGED, BATCH_MANIFEST: the latter two written this session, nothing owed); doctor REVIEW, 3 MED, all carried: Research-Intake lane degraded (treasury_auctions feed error), 16 unconsumed over two days at 6 desks (oldest ACTION CATO 38d; OSPREY and YURI wake rows exist). Root 1b clean; 1c not applicable (no own figure superseded), 1d not applicable (no auto-memory written). The closeout commit follows the publication list.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
  "schema": 1,
- "as_of": "2026-11-26T03:52:27Z",
+ "as_of": "2026-11-27T04:04:45Z",
  "next_review": "2026-11-27",
  "publication": [
-  {"commit": "05628fdc40", "state": "published", "note": "037"},
-  {"commit": "f2fbb6bb56", "state": "published", "note": "038"},
-  {"commit": "f548ffdf31", "state": "published", "note": "039, 040"},
-  {"commit": "98e3af533b", "state": "published", "note": "041"},
-  {"commit": "888678396d", "state": "published", "note": "042"},
-  {"commit": "40c652148b", "state": "published", "note": "043, 044"}
+  {"commit": "03a4d84253", "state": "published", "note": "001"},
+  {"commit": "590679ea8f", "state": "published", "note": "002"},
+  {"commit": "5150d2114b", "state": "published", "note": "003, 004"},
+  {"commit": "ae5ca855ba", "state": "published", "note": "005"},
+  {"commit": "40f53a841b", "state": "published", "note": "006"},
+  {"commit": "ebe5508db3", "state": "published", "note": "007"},
+  {"commit": "3e03e8f952", "state": "published", "note": "008"}
  ],
  "delivery": {
-  "signal_date": "20261125",
-  "total": 344,
-  "delivered": 344,
-  "note": "all 11/25 rows delivered after origin proof; 54 for 037 to 044. Delivered is not consumed. CARL, RED, PROME INFO by BOARD diff; TERRY BOARD-only"
+  "signal_date": "20261126",
+  "total": 47,
+  "delivered": 47,
+  "note": "all 11/26 rows delivered after origin proof. Delivered is not consumed. CARL, RED, PROME INFO by BOARD diff; TERRY BOARD-only"
  },
  "owner_review": {
   "scope": "manual evidence review; no automatic completion",
   "evidence": [
-   {"path": "AGENTS/WALTER/research/2026-11-25_evening-boot/THRESHOLD-SCAN.md", "sha256": "e6122de611c463420463062ad0c2cbaa26125c2162bca8078a58bc4293cd29e9"},
-   {"path": "AGENTS/WALTER/research/2026-11-25_evening-boot/cards-037.json", "sha256": "40984cb9711b17f089b5f74855c29133b35d96f03b4f9c57e2000248b4d88b61"},
-   {"path": "AGENTS/WALTER/research/2026-11-25_evening-boot/cards-038.json", "sha256": "fc38b5c5414e608716b153e49fd33fb81df1bc92a2efc154ec6dba2e9bd374db"},
-   {"path": "AGENTS/WALTER/research/2026-11-25_evening-boot/cards-039.json", "sha256": "3c91cecb68bdd0b732cfa10a14814d486a9dd7b74ba1675b9f255d24f181877b"},
-   {"path": "AGENTS/WALTER/research/2026-11-25_evening-boot/cards-041.json", "sha256": "3dab3ae65fba1518a90c6ec0d46ef004f075a0da9de3462329ca8ce7290ef64c"},
-   {"path": "AGENTS/WALTER/research/2026-11-25_evening-boot/cards-042.json", "sha256": "d3d93f7cdfab94543e69c0f09c1af1f511cc7d0383c0f7ff58f88e8e31925a89"},
-   {"path": "AGENTS/WALTER/research/2026-11-25_evening-boot/cards-043.json", "sha256": "bd4f9b3f8e08ab36500d056d7ebe604ad3a4be6d117fa0a2ad61b484bcf6d8c4"},
-   {"path": "AGENTS/WALTER/research/2026-11-25_evening-boot/bookmark-review.json", "sha256": "5a6f40e244e65b3600f2d480daa3669d655cbdb38207253e081f99d5b798c858"}
+   {"path": "AGENTS/WALTER/research/2026-11-26_night-boot/THRESHOLD-SCAN.md", "sha256": "f3ea4ebf16474bf7b543785d53891b1def727aaa6f9464b05bb77d4b295abcf7"},
+   {"path": "AGENTS/WALTER/research/2026-11-26_night-boot/CALENDAR-RECONCILIATION.tsv", "sha256": "70d6120eead869240fef93c4ea1651381e4d0835c58c2e5b010c5e5583e0aaf0"},
+   {"path": "AGENTS/WALTER/research/2026-11-26_night-boot/cards-003.json", "sha256": "98b75385029f4d5fef0bf1e74e70820ea25dace19e522925e3117378b2b84938"},
+   {"path": "AGENTS/WALTER/research/2026-11-26_night-boot/cards-008.json", "sha256": "28ec071d3d36e6eda2115e5b4133a5c722aef9d6993ed4952d5d0da78952450a"},
+   {"path": "AGENTS/WALTER/research/2026-11-26_night-boot/bookmark-review.json", "sha256": "60cb962515b4c26d5fb4ae815ea400d6a4bde20249efe85c6f9787e8f6a02fc1"}
   ]
  },
  "procedure": {
   "tier": "full",
-  "boot": "walter-4d boot 16:04 ET PARTIAL",
-  "session": "walter-4d laptop 2026-11-25 16:03 ET to closeout; Rule 9 helpers for page reads; read directly: NWS, NWPS, NOAA CO-OPS, FRED, SEC EDGAR"
+  "boot": "walter-dd boot 22:22 ET PARTIAL, gaps closed in session except CREED/HANS cells whole",
+  "session": "walter-dd laptop 2026-11-26 22:22 ET to closeout; read directly: NWS, NWPS, FRED, Arab News, BBC, CNBC, gCaptain, Marine Insight, Kyiv Independent, TradingEconomics"
  }
 }
 END_CLOSEOUT_RECEIPT -->

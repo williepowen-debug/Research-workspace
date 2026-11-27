@@ -1,3 +1,19 @@
+## 2026-11-27T04:03:03Z TIER 2 FULL CLOSEOUT — WALTER Thanksgiving night session, laptop, Thu 11/26, Will's word 23:02 ET ('lets do a close out here to cement our updates')
+
+Clears the 03:39:33Z light breadcrumb. Cards 20261126-001 to -008 (003 IMMEDIATE). Boot 22:22 ET PARTIAL; gaps closed on Will's 22:42 ET word (steps 6, 6b in part, 7h, 8, 9, 9b, Tokyo CPI); night news sweep on his 22:52 ET word (card 008); bookmarks re-checked 04:01Z, 0 new. 1 kill (diesel-ban October date trap), 0 cluster_mediating. FILTER POSTURE unchanged (BALANCED). Near-trigger: none new. Routing gap: card 004 omitted SAM from info (GEOPOL_ENERGY default).
+
+### STATUS text rotated verbatim at this closeout
+
+BOTTOM LINE paragraphs as they stood:
+
+**November 26 night (Thanksgiving, laptop, 2026-11-27T03:39:33Z):** no WALTER session ran in the day; boot 22:22 ET PARTIAL. Cards 20261126-001 to -007; BOARD 2,396. **IMMEDIATE: 003** Saudi Jazan REFINERY hit 11/26 (Energy Ministry: projectile, fire, some operations suspended, one worker killed; coalition blames the Houthis; found late by the title skim; PROME launched FALCON and BRENT). 004 two Italian Rheinmetall technicians killed in Kuwait, Iran blamed and denies; Iranian Army mine claim for 11/25 (claim only). 001 DeLand observed 6.12 ft 21:30 ET, second highest, forecast 6.5 ft by Sun 11/29 vs the 6.33 record. 002 Gulf of Finland ship = Sparta II, ro-ro cargo, not a tanker (HAWK's ask; OSPREY 11/27). 005 small items (CoreWeave IG rating title only, BoK hike to 3.25%, ECB accounts, BoE FSR). 006 bookmarks (Lukoil International definitive deal with a US government stake; Estonia closes Russia road crossings 12/1). 007 Tokyo Nov CPI core 2.9, core-core 2.5 (secondary). No WALTER row fired; HY 11/25 unposted.
+
+**November 25, full closeout (walter-4d, laptop, 2026-11-26T03:51:20Z):** cards 20261125-037 to -044 this session; BOARD 2,389. **IMMEDIATE: 037** DeLand official forecast 6.4 ft Sat 11/28 over the 6.33 record (NWS 20:32 ET unchanged); **042** Jazan Port HIT, minor damage (coalition spokesman, via relays), Jeddah drone intercepted, no barrel lost (FALCON graded FAL-13 CONFIRMED; BRENT: BRT-32, BG-02 NOT MET). 038 1Password breach (CYPHER); 039 CoreWeave 10-Q at the SEC: 2027 principal $10.974B, covenants met 9/30, no 8-K since 11/10; 040 co-movement hand-off (SAM, VULCAN); 041 LIQUID DTCC: no valid CoreWeave 5Y 11/25, 4Y about +130 bp; 043 NYC rent freeze upheld (titles, FLG); 044 small items. Close (vendor, provisional): S&P 7,182.78, VIX 28.29; no WALTER row fired; HY 11/25 unposted. The walter-7f window closed by accident after its 15:47 ET reply (transcript last written 16:02 ET); its open items were recovered from the transcript (LAST_COMPLETION).
+
+DATED MARKET OBSERVATIONS row as it stood:
+
+| November 25 to 11:51 ET (FRED first seen 11:08 to 11:42 ET; vendor intraday, not closes) | FRED HY 372, CCC 1,405, SOFR 3.94 less IORB 3.90 = +4 bp, T5YIFR 2.13 [11/24]. Vendor: S&P 7,007.48 (6,970.11 to 7,063.54), ^VIX 33.86 at 11:36 ET (high 34.95), SMH 395.75, ARM 148.20 (low 143.59), HYG 76.32, KRE 69.14, WAL 69.25, TTFZ26 91.669 [11/24 close] 88.10 intraday, BZF27 91.40 [11/24] 93.1 intraday. Cushing 25.613M [w/e 11/20]. UNKNOWN for 11/25: Bund, gilt, BTP, France spread, HY Energy, SKEW. Evidence: research/2026-11-25_boot/THRESHOLD-SCAN.md. |
+
 ## 2026-11-27T03:39:33Z light-closeout — full deferred — WALTER night boot, laptop, Thu 11/26 (Thanksgiving)
 
 Boot 22:22 ET PARTIAL (steps 4, 6, 6b whole-registry reads, 7 BOARD scan, 7h bookmarks, 8 REGISTRY refresh, 9, 9b not run). Cards 20261126-001 to -005 (003 IMMEDIATE, pushed 5150d2114b). Inbox 4 packets consumed; REQ-DEWEY-20261123-001 RESOLVED; BM-20261127-01 closed 19/19; intake marked through data/2026-11-26/news.json; 1 kill (diesel-ban October date trap); 0 cluster_mediating. Evidence research/2026-11-26_night-boot/.
