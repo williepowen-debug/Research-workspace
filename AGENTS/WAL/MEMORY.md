@@ -1,4 +1,27 @@
-## Session Notes — current handoff, November 16 2026 (PROME prome-6f wake: inbox, due rows, extension funders, read cap)
+## Session Notes — current handoff, November 26 2026 (PROME inbox drain, WQ-206 aged asks)
+
+**⚠️ Open question:** the $99M secured-office credit is still NO-VERDICT, carried to the Q4 call; nothing on it has been disclosed since the Q2 call. New this session: WAL's $7,029M mortgage finance book is first among REGINALD's 14 banks against Tier 1 and clean on every reported metric. Its warehouse-versus-MSR split and its borrowers are not disclosed.
+
+**LAST SESSION (11/26 22:24–~23:00 ET, Claude Code, Opus 5.5, in-process desk session launched by PROME):**
+- Authority: aged-ask drain (WQ-206, drain only) plus Will's 11:38 ET "catching up on any missed signals". No pull and no push (PROME pushes); the WALTER window was live; the shared index was briefly locked twice (transient, retried).
+- Boot: 4 instruction files read to eof (root 4 pages, AGENTS 1, USER 3, charter 4). Checks: ledger staleness rc 0; KB expiry 100/197 past at boot; corrections rc 0; boot.py rc 1 (holiday price vintage plus a tracker refresh due).
+- Price: 11/25 close $70.76, 7.62% under EV; KRE $69.83. WAL −7.26% vs KRE −4.46% since 11/10. No WAL fact behind the move (EDGAR 10/28–11/26: KB-299).
+- Inbox 8 → 0: KB-297 (Plaza 11/17–11/26, NO-VERDICT) and KB-298 (mortgage finance, verified at the 10-Q). TERRY got grades (ROLL70 WRONG, Sep-18 pair WRONG). PROME got the KB answer. REGINALD got an ACK plus 3 stale $7.155B cites. Atlas SP figure withdrawn in THESIS (CHANGELOG 11/26), FRAUD riders and RETIRED_CLAIMS.
+- KB hygiene: 100 expired rows judged one by one: 78 SUPERSEDED, 22 extended with reasons, 6 refreshed at the Q3 10-Q. New KB-300 (CRE-NOO types and maturities) and KB-301 (pledged loans, uninsured deposits).
+- Combination watch: charter line added (step 7c, C4). New theme nonbank-mortgage-lenders; KB-291 updated.
+- STATUS: the stale Robinhood-guard row was corrected (GATE-TERRY-ROLL70-EXIT RETIRED 11/5, WQ-610 A); 11/16 and 11/11 sections rotated to `archive/STATUS_rotation_2026-11-26.md`.
+- Unchanged: v2.5 weights, EV, PT, scores, frozen grades, positions.
+
+**NEXT SESSION:**
+1. **Plaza Continental 12/1 status report and 12/7 hearings** (DEWEY reads, DOCKET L517): apply H1–H11 (KB-297).
+2. **Stupin §523 hearing Wed 12/9 11:00 AM** (KB-255).
+3. **Re-pin WAL-03 and WAL-06** when the Q4 print date is announced.
+4. **Carried:** the evidence-based vector/composite review, the hotel franchise finance read (WAL-04), the mid-December FOMC against KB-289, the Makhijani 11/30 date (not re-verified; CourtListener needs Will's token).
+5. **Drift check:** 3 new claim identities remain (the frozen SYNTHESIS_V2 Atlas line, KB-288 '+2.6%' and the rate-read '+2.6%', the last two false positives). Review them; do not edit frozen content.
+
+**Will-only dependencies → STATUS § OPERATOR DEPENDENCIES** (unchanged; none re-asked).
+
+## Prior session notes — November 16 2026 (PROME prome-6f wake: inbox, due rows, extension funders, read cap)
 
 **⚠️ Open question:** the $99M secured-office credit is still NO-VERDICT, carried to the Q4 call. New today: the one fact suggesting a third party is paying to carry it (the sponsor brought it current at end-June, as relayed in the 10/30 prior) is thin and unrefreshed; the next filing that could show a change is the Q4 print or the FY2026 10-K.
 
@@ -23,30 +46,5 @@
 
 **Will-only dependencies → STATUS § OPERATOR DEPENDENCIES** (unchanged today; none re-asked). Older archives: `archive/MEMORY_rotation_2026-11-16.md` lists them.
 
-## Prior session notes — November 11 2026 (catch-up wake, PROME prome-2b)
 
-**⚠️ Open question:** the $99M secured-office appraisal is still NO-VERDICT, carried to the Q4 call. New since 11/04: how far a hiking Fed goes past the one December hike already in the issuer's Q4 guide (KB-289).
-
-**LAST SESSION (11/11, Claude Code, Opus 5.5):**
-- Will's word via PROME at 09:24 ET: catch every desk up to live data and news. Research only.
-- Boot: Git HEAD was 4 commits ahead and 0 behind origin. The dirty tree was foreign (ORACLE, VIOLET, scripts), so pull and push were deferred and no foreign path was touched. Corrections check rc 0.
-- Inbox drained: 4 WALTER cards rowed in `board_log.tsv` and moved to processed; the DEWEY 11/02 Plaza Continental read is logged as KB-293 and moved.
-- PROME's "CPI/Waller IMMEDIATE card" (SIG-W-20261110-001) was never routed to WAL. It was read from BOARD.
-- Market tracker `--write`: 12 readings. 10/30 short interest 5.60M (−11.87%), 5.21% of shares; 11/10 close 76.30; beta to KRE 1.17; 20-day realized vol 33.4%.
-- Rate read `research/2026-11-11_hiking-fed-deposit-cost-securities-mark.md` (KB288–291):
-  - A December 25bp hike is already in the guide, and a hike is roughly neutral for pretax earnings on WAL's own model.
-  - The Q3 10-Q raised the beta assumptions (KB-288 supersedes 212/220/221).
-  - The AFS mark is probably about +$170M pretax better than at 9/30 (an estimate).
-  - Higher-for-longer risk is CRE/hotel credit.
-- Five combination-watch themes opened (WQ-622), but the charter line was deferred because this task barred charter changes.
-- The Basel III Q3 disclosure was not read: the issuer site returned 403 (KB-294).
-- Unchanged: v2.5 weights, EV, PT and scores.
-
-**NEXT SESSION:**
-1. **Forward Q4 predictions due Sun 11/15.** Include a deposit-cost / ECR line on the issuer's printed basis.
-2. **KB expiry backlog:** 95 of 191 ACTIVE rows (before today's adds) are past Stale_By, the oldest by 11 days. Judge them row by row, never in bulk.
-3. **OZK Q3 10-Q pointer (KB-228)** is overdue from ~11/5.
-4. **Combination-watch charter line:** add it if PROME or Will clears it (`PROME/COMBINATION_WATCH.md` step 3).
-5. **Basel III disclosure:** retry it or find another route (KB-294, review 11/25).
-6. **Carried:** the evidence-based vector/composite review, the hotel franchise finance read, and the mid-December FOMC result against KB-289.
-
+**Older handoffs:** `archive/MEMORY_rotation_2026-11-26.md` (11/11) and `archive/MEMORY_rotation_2026-11-16.md` (11/04 and earlier).

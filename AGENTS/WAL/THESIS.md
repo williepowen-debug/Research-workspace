@@ -1,6 +1,6 @@
 # WAL — Compounder with Concentrated CRE Tail Risk
 
-**Last Updated:** **2026-11-04** (Q3 Call Report evidence-only fold; v2.5 re-score remains dated 10/30) | **Version:** **v2.5** (dated 2026-10-30) | **EV $76.60 · PT $52-77** · spot vs EV → `STATUS.md` only | **Prior:** v2.4 (Aug 20; EV $75.96, PT $52-76) | v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
+**Last Updated:** **2026-11-26** (withdrawn-peer-figure note in § V3 only; before that 2026-11-04, Q3 Call Report evidence-only fold; v2.5 re-score remains dated 10/30) | **Version:** **v2.5** (dated 2026-10-30) | **EV $76.60 · PT $52-77** · spot vs EV → `STATUS.md` only | **Prior:** v2.4 (Aug 20; EV $75.96, PT $52-76) | v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
 
 ---
 
@@ -384,6 +384,8 @@ The original V3 thesis ($17.2B SSFA at 20% RW = $1.1B capital savings; "Other On
 ### Net V3 read
 
 V3 is now a **quality-of-names question on the 2,000 underlying lender-finance obligors**, not a sizing question. The headline NDFI exposure is at cohort center. The remaining concentration story is the $7.15B Mortgage Warehouse — but that book classifies as C&I (Call Report mechanics) and warehouse-counterparty work (`../REGINALD/domain/WAREHOUSE_EXPOSURE.md`) shows transmission lands at **Apollo Atlas SP**, not WAL — Atlas SP is the dominant warehouse provider to FHA-stressed non-bank servicers ($6.9B at PFSI = 78% concentration). WAL holds warehouse books to different counterparties.
+
+> ⛔ **Withdrawn 2026-11-26 (author's correction, REGINALD 11/25, commit c324dddc8f):** the PennyMac concentration figure in the paragraph above is superseded and wrong — that PennyMac table is *amount at risk* (collateral less advances) and the row is four firms; Atlas alone lent PennyMac **$1,648M of $8,098M repo at 9/30/26** (`../REGINALD/reports/2026-11-25_nonbank-mortgage-lenders/REPORT.md` §8). "Transmission lands at Apollo, not WAL" is withdrawn with it: Atlas is one lender of about a dozen, and no borrower filing names WAL's counterparties. WAL's current figure is mortgage finance **$7,029M at 9/30/26**, all current and none criticized (Q3 10-Q, KB-WAL-298). No weight or score moved (CHANGELOG 2026-11-26).
 
 ---
 

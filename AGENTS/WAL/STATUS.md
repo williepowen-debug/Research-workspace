@@ -1,39 +1,33 @@
 # WAL STATUS
 
-**Last Updated: 2026-11-16 — PROME prome-6f wake (Will's word 13:45 ET): inbox drained, forward Q4 predictions registered, extension-funder lines logged, read-cap rotations. No weight/score, EV or completed-grade change.** Record: `research/2026-11-16_inbox-drain-and-due-rows.md`; KB295–296. *Prior update 2026-11-11: catch-up wake, rate read (`research/2026-11-11_hiking-fed-deposit-cost-securities-mark.md`), KB288–294.*
+**Last Updated: 2026-11-26 — PROME inbox drain (WQ-206 aged-ask drain; Will 11:38 ET "catching up on any missed signals"): 8 inbox items consumed, 100 expired KB rows judged row by row, TERRY postmortem grades and the PROME KB answer sent, REGINALD's withdrawn Atlas SP figure corrected across WAL files. No weight, score, EV or completed-grade change.** Record: KB297–301; packets `../TERRY/inbox/2026-11-26_from-WAL_postmortem-thesis-grades.md`, `../../PROME/inbox/2026-11-26_from-WAL_stale-KB-rows-answer.md`, `../REGINALD/inbox/2026-11-26_from-WAL_ack-warehouse-rank-and-stale-7155.md`. *Prior update 2026-11-16 (PROME wake) and the 11/11 catch-up: rotated verbatim to `archive/STATUS_rotation_2026-11-26.md`.*
 
 *The 10/22 version of this file is preserved verbatim at `archive/STATUS_before-10-28_2026-10-28.md` (sha256 59f568d3…daca9); earlier history at `archive/STATUS_before-cleanup_2026-10-22.md` and `archive/STATUS_before-Q3-stage1_2026-10-19.md`.*
 
-## CURRENT — PROME wake, November 16
+## CURRENT — PROME inbox drain, November 26
 
-**Price:** WAL **$73.22 (−2.10%)** at 14:02 ET, 4.41% under EV $76.60; KRE $71.90 (−1.15%). No WAL filing since 11/11 and no new WAL fact behind the move, which is inside the 33.4% 20-day realized volatility. No trade finding, no direction argued.
+**Price:** WAL **$70.76** at the 11/25 close (vendor; FORGE `fetch.py` and `market_tracker.py`, pulled 11/26 22:29 ET; Thanksgiving, NYSE closed 11/26, half session 11/27), **7.62% under EV $76.60**; KRE $69.83. Since the 11/10 close ($76.30): **WAL −7.26% vs KRE −4.46%**; 60-day beta to KRE **1.31** (1.17 at 11/10); 20-day realized volatility 34.3%. Series A preferred $23.39 (11/10 $24.38). Short interest at the 11/13 settlement **5.23M shares (−6.62%), 4.86% of cover shares**, days-to-cover 5.83. **No WAL-specific fact behind the fall:** EDGAR 10/28–11/26 holds only the 10-Q, the 10/30 dividend 8-K, a 13G/A and nine routine RSU Form 4s (KB-299). No trade is argued here.
 
-**Forward Q4 predictions registered (one day after the 11/15 due date), all OPEN in `workbook/PREDICTIONS.tsv`:** WAL-03 Q4 NCO > 40bps (20%) · WAL-04 hotel franchise finance nonaccrual > $0 at 12/31 (35%) · WAL-05 more than 27 OREO properties at 12/31 (50%) · WAL-06 Q4 "deposit costs" line > Q3 $165.4M (55%) · WAL-07 $99M charge-off or specific reserve disclosed by the FY2026 10-K (25%; silence fails the row but stays NO-VERDICT on the thesis).
+**Present assessment:** v2.5 unchanged (2/12/49/30/7, EV $76.60, PT $52–77, composite 13/25). Spot is now 7.6% under the desk's EV. That gap opened on a sector-wide move with higher beta, not on WAL evidence. The EV is the scenario model's output and is no stronger than the open $99M leg and the unscored hotel and refinancing caution. A fall in price alone does not change the weights.
 
-**Inbox (8 packets):** Plaza Continental (DEWEY, 11/11–11/16) → KB-295: final cash-collateral hearing Tue 11/17 2 pm PT, unopposed on the docket; broker reports 31% occupancy, "Best Offer"; plan and disclosure statement unread (PACER is Will's call). **H1–H11: no move; Ontario stays B1.** DEWEY 003R Q3 bank population → KB-296: WAL's $10–100B band improved quarter on quarter; the smaller-bank deterioration is 69% one bank (United Fidelity). DAEDALUS WQ-678: C13 and C20 applied to the charter, C14–C19, C21, C22 declined today (reasons in the record).
+**Inbox 8 → 0** (`PROME/tools/inbox_census.py`; board receipts in `board_log.tsv`):
 
-**Who is paying to extend (logging only):** `research/2026-11-16_who-pays-to-extend.md`, 8 credits. The sponsor is the reported payer on the $99M loan (thin, from the 10/30 prior); WAL itself funds the delay on Cantor (lien purchases) and the office/OREO book; hotel, NDFI and the Stupin estate are UNKNOWN by party.
+| Item | Disposition |
+|---|---|
+| DEWEY 11/18 + 11/26 Plaza Continental, WALTER SIG-W-20261118-011 | Integrated, **KB-297**. #128 'Granting in Part', terms unread. Cash collateral approved on an interim basis through 12/7. Final and status hearings Mon 12/7, 1:30 pm PT; status report due 12/1. #132 Objection (11/23): filer unknown. **H1–H11 NO-VERDICT; Ontario stays B1** |
+| PROME 11/18 stale-KB ask | Answered: 100 judged, 78 SUPERSEDED, 22 extended with reasons (6 refreshed at the Q3 10-Q); expiry check now 0 of 124 |
+| TERRY 11/20 postmortem thesis grades | Answered: TRY-WAL-ROLL70 **WRONG** for its window (the $99M leg UNRESOLVED, no carrier before 12/18); Sep-18 pair **WRONG** for its window |
+| REGINALD 11/25 warehouse/MSR rank + Atlas correction (c324dddc8f) | Integrated, **KB-298**, verified at the Q3 10-Q: mortgage finance **$7,029M**, all current, none criticized, ACL $6.7M; 87.6% of Tier 1 on REGINALD's bank basis, 87.2% on the parent Tier 1 $8,058M. Atlas/PennyMac figure and $9.2B estimate withdrawn in THESIS, FRAUD riders and RETIRED_CLAIMS. Consumer check: 3 REGINALD surfaces still cite WAL's old $7.155B → packet sent |
+| WALTER SIG-W-20261118-010 HY OAS 343 | Info only; logged as a context member of `combo:cre-refi-rate-pressure` (KB-291) |
+| WALTER SIG-W-20261125-043 NYC rent freeze | Info only; FLG's book, no WAL rent-regulated exposure disclosed |
 
-**Read cap:** charter 82% → 63% (DOC OWNERSHIP and FILES → `CHARTER_REFERENCE.md`, verbatim; DOCKET L810 WAL leg); STATUS "LATEST (10/28)" → `archive/STATUS_rotation_2026-11-16.md`; MEMORY older handoffs → `archive/MEMORY_rotation_2026-11-16.md`. KB-228 OZK pointer re-read (OZK Q3 10-Q graded 11/7, sponsor support stands).
+**Fresh primary reads today** (Q3 10-Q re-fetched from EDGAR; Q3 bank SDF already verified 11/04): CRE non-owner-occupied **office $2,254M** (6/30 $2,139M), $387M of it maturing in the rest of 2026; **hotel $5,295M, LTV 57.6%** (6/30 $4,958M, 54.0%); CRE-NOO 2027 maturities $3,346M (KB-300). Parent CET1 $7,389M / RWA $67,756M = 10.9%, total capital 14.0% (KB-243). This answers the open Basel III question (KB-294 retired; the issuer site was not retried). Bank pledged loans 55.6% of loans; uninsured deposits 39.7% of deposits (KB-301, on a stated basis). Four-quarter average assets $97.1B, $2.9B under the $100B Category IV line (KB-198). CLN reference pools $7.6B (KB-095). Cantor and LAM text restated as in Q2, with no new figure (KB-143, KB-152).
 
-## Catch-up, November 11 (dated)
+**Material uncertainties:** (1) the $99M life-science loan stays **NO-VERDICT**, with no disclosure since the Q2 call; the next carrier is the Q4 call. (2) The **warehouse-versus-MSR split** of the $7,029M and its borrowers are not disclosed. Fitch's 11/16 review (Negative outlooks on Pennymac, Freedom, Planet) and LIQUID's 11/24 Freedom read are PROME relays that WAL has not read. (3) Plaza #132's filer is unknown. (4) Hotel criticized loans of $185M at 9/30 with $0 nonaccrual (WAL-04).
 
-**What changed since 11/04:** WAL fell with the 11/05 bank selloff: **$79.26 (11/04) → $76.30 close 11/10 (vendor) → $76.15 at 09:48 ET 11/11**, now ~0.4–0.6% below EV $76.60. Still no margin of safety either way. It trades more like the bank index now: 60-day beta to KRE is **1.17** (1.02 on 10/30) and 20-day realized volatility **33.4%** (25.0%). Short interest **fell** for the first time in four settlements: **5.60M shares at the 10/30 settlement (−11.87%), 5.21% of shares** (5.82%), days-to-cover 5.21. The 10/26 cover count is 107.55M shares (109.1M at 7/28), which is the buyback. Series → `workbook/MARKET_TRACKER.tsv`.
+**Combination watch (7 themes, `combo:` in `workbook/KB.tsv`):** bank-credit-breadth · cantor-collateral-liens (KB-297 added) · cre-refi-rate-pressure (KB-291 updated: KB-300, HY 343) · fraud-ecosystem-names · rate-path-deposit-cost · securities-mark-tbv · **nonbank-mortgage-lenders (opened 11/26, KB-298)**. Charter line added at boot step 7c (class C4: no authority, route or threshold moved).
 
-**Hiking Fed, on WAL's own numbers** (KB288–290):
-- A December 25bp hike is **already in management's Q4 guide** (KB-250).
-- WAL's own model says a hike is **roughly neutral for pretax earnings**: NII +4.7% per +100bp, while the ECR deposit cost (mostly in expenses) rises by a similar amount.
-- Per 25bp, that is about +$38M a year of NII against up to ~$58M a year of total earnings credits. Both are linear estimates.
-- The Q3 10-Q **raised the deposit-beta assumptions** (average 53% → 58%; ECR 70% → 77%; all non-maturity 59% → 65%). Rising rates now cut the economic value of equity more (−5.3% at +100bp, from −4.4%).
-- **The securities mark is probably better than the printed 9/30 loss** of −$1,223M. That mark was struck at 5Y 5.09% / 10Y 5.29%; on 11/10 the yields were 4.81% / 4.98%. That is about +$170M pretax (~$1.2 a share of TBV) by a rough one-quarter fit, of which the 11/05 → 11/10 repricing gave back ~$130M.
-- AOCI is not in regulatory CET1.
-- The live WAL risk from higher-for-longer is **credit** (floating-rate CRE/hotel refinancing), not funding or marks. It is logged as a theme, not scored.
-
-**Inbox:** 4 WALTER cards rowed in `board_log.tsv` (no change) and the DEWEY Plaza Continental read logged as KB-293. Ontario stays B1. A broker sale is in prospect, with none authorized; H8 has not fired.
-
-**Not read:** the Q3 Basel III disclosure (issuer site 403, KB-294).
-
-Five combination-watch themes are opened as `combo:` KB rows. The charter line is deferred because this task bars charter changes.
+**Unresolved obligations:** WAL-03 to WAL-07 OPEN; re-pin WAL-03/06 when the Q4 print date is announced. The evidence-based vector/composite review is still owed (carried since 11/04). Will-side items are unchanged (§ OPERATOR DEPENDENCIES). **Next dated triggers:** Tue 12/1 Plaza status report → Mon 12/7 Plaza hearings → Wed 12/9 Stupin §523 hearing → mid-December FOMC → Q4 print (not yet announced).
 
 ## Q3 Call Report, November 4 (dated)
 
@@ -55,11 +49,11 @@ The 10/28–10/30 item table (10-Q grade, WQ-553 amendment, frame dry run, $99M 
 
 ## PRICE
 
-**Price (11/16 vendor quote, boot.py 14:02 ET): $73.22 (−2.10%)**; SPOT vs EV **−4.41% vs v2.5 EV $76.60**; buffer to 81.90 **+11.85%** (delta/spot). KRE $71.90 (−1.15%). Intraday quote, not an official close; 11/10 session close $76.30 (market_tracker, vendor). REGINALD's exit log last row 11/10 close 76.30, run 0 of 3, FIRED (REGINALD grades).
+**Price (11/25 session close, vendor; fetch.py and boot.py 11/26 22:25–22:29 ET; NYSE closed 11/26): $70.76 (+0.47%)**; SPOT vs EV **−7.62% vs v2.5 EV $76.60**; buffer to 81.90 **+15.74%** (delta/spot). KRE $69.83 (+0.10%). REGINALD's REG-T-02 exit log last row 11/24 (close 70.43): run 0 of 3, FIRED (REGINALD grades; read via boot.py).
 
 ## JUDGMENT
 
-**10/30 eve:** the 10-Q left the $99M unaddressed, so the rule trimmed Bear-medium by the print/call evidence alone (16 → 12) and the kill stays unfired. Spot ($76.29 10/30 close) now sits ~0.4% below EV: still no margin of safety either way. The next real carriers are the Q4 call (the $99M asked directly), the Q3 Call Report (MI3, Bear-fast) and the hotel franchise finance book, whose criticized balance 2.5×'d in the quarter. *The paragraph below is the 10/22 judgment, kept as dated context.*
+**11/26:** no new credit evidence; spot $70.76 (11/25 close) is 7.62% under EV after a sector-wide fall, so the 10/30 'no margin of safety either way' line below is out of date on price only. Weights unchanged; see § CURRENT. **10/30 eve:** the 10-Q left the $99M unaddressed, so the rule trimmed Bear-medium by the print/call evidence alone (16 → 12) and the kill stays unfired. Spot ($76.29 10/30 close) now sits ~0.4% below EV: still no margin of safety either way. The next real carriers are the Q4 call (the $99M asked directly), the Q3 Call Report (MI3, Bear-fast) and the hotel franchise finance book, whose criticized balance 2.5×'d in the quarter. *The paragraph below is the 10/22 judgment, kept as dated context.*
 
 Q3 credit actuals weaken the near-term bear: NCO 30bps, Office classified $272.75M (provisional), coverage 118%. Earnings and capital are mixed: NIM improved, but costs, mortgage, guidance and tangible book need qualification. The $99M appraisal was not identified in the release, deck or call: unknown, not benign. No demonstrated expectations gap. A ledger invalidation is not a silent score change; the post-Q3 re-score waits for the 10-Q.
 
@@ -90,7 +84,7 @@ Q3 credit actuals weaken the near-term bear: NCO 30bps, Office classified $272.7
 | V1b broadening | 2/5 | Q2 DISCONFIRMED; Q3 DP2 DISCONFIRM final 10/21 (counter 2 of 3). A data point does not by itself trigger a re-score |
 | V1b magnitude | 4/5 | Held as prior judgment, not a fresh confirmation. Q3 NCO guide held; $99M appraisal unresolved; favorable coverage vs OREO/SM rise |
 | V2 fraud | 5/5 historical | EXCLUDED from composite. Auditor-nexus support weakened 10/28 (KB-071/072/076 superseded; RSM 2025 inspection clean on ACL, KB-268). Cantor Q3 disclosure NARROWED in the completed 10/30 grade; residual/allowance unresolved, no implied recovery. Court path 10/22: remand + stay relief granted 8/24, §523 hearing 12/9 |
-| V3 NDFI | 3/5 | Q3 bank nonaccrual **$122.497M** vs $122.456M (rate ~0.774%); unused commitments **$5.900B**, +20.8%, not funded draws. Share 25.723% HFI vs 25.943% Q2, dollars slightly up, consistent with completed 10-Q MIXED. Borrower/loss attribution remains unknown; no score change. KB283–284 |
+| V3 NDFI | 3/5 | Q3 bank nonaccrual **$122.497M** vs $122.456M (rate ~0.774%); unused commitments **$5.900B**, +20.8%, not funded draws. Share 25.723% HFI vs 25.943% Q2, dollars slightly up, consistent with completed 10-Q MIXED. Borrower/loss attribution remains unknown; no score change. KB283–284. **11/26:** mortgage finance $7,029M (warehouse + MSR loans), all current, none criticized; REGINALD ranks WAL first of 14 banks against Tier 1 (KB-298). That is a concentration, not stress; no score change |
 | V4 leadership | 3/5 | Held. 10/19 Form 4s routine (KB-252); Form 144 / 13D/G / open-market sweep clean 9/24 → 10/28 (KB-259). LEADERSHIP.md refreshed 10/28 (KB-261–264): Curley's stated reason is a CEO role elsewhere, RSM re-ratified, board 15 → 13; the March "repositioning" reading has weakened, residual is the June Gibbons/Mucha sales. Score re-judged at the re-score |
 
 Composite 13/25; current scenario weights → THESIS. No Call Report-driven change; no independent funding/peer/severity baseline built.
@@ -106,19 +100,18 @@ Composite 13/25; current scenario weights → THESIS. No Call Report-driven chan
 | Bear CONFIRM | WAL-01 Office > 500 or WAL-02 NCO > 40 | **NOT FIRED** on the completed 10/30 grade; WAL-01 and WAL-02 INVALIDATED FINAL. Forward Q4 predictions WAL-03 to WAL-07 registered 11/16 (OPEN); this rule's letter is unchanged |
 | Thesis RETIRE | Broadening disconfirmed 3 times AND coverage > 100% AND benign appraisal | **NOT FIRED**: counter **2 of 3**; coverage leg met 118%; appraisal NO-VERDICT after the 10-Q, carried to the Q4 call |
 | GATE-REG-T02 (PROME gate) | Close < 78 | **TERMINAL** since 9/1; never re-fire on a sub-78 quote. REGINALD's registry trigger REG-T-02 (same letters, separate object) is carried FIRED by REGINALD |
-| Robinhood exit guard | GATE-TERRY-ROLL70-EXIT, official close ≥ 81.90 × 3 | REGINALD's owner log last row 11/10 (close 76.30), read 11/16: run 0 of 3, state FIRED (REGINALD grades; this desk claims no count). Contract scope → POSITIONS |
+| Robinhood exit guard | GATE-TERRY-ROLL70-EXIT, official close ≥ 81.90 × 3 | **RETIRED 2026-11-05** (WQ-610 A, Will 11:03 ET; `PROME/GATES.tsv`, read 11/26): card TRY-WAL-ROLL70 dead by Will 10/29. This line read 'FIRED' through 11/16 and was stale. REGINALD's registry trigger REG-T-02 is a separate object, still FIRED by REGINALD. Contract scope → POSITIONS |
 
 ## NEXT CARRIERS
 
 | When | Required work |
 |---|---|
-| $99M appraisal / Q4 call (date not set) | Ask status at 9/30, whether the appraisal was received, and value vs carrying. The Q3 10-Q is already graded NO-VERDICT; never repeat that grade. Separately register forward Q4 predictions by 11/15 |
+| $99M appraisal / Q4 call (date not set) | Ask status at 9/30, whether the appraisal was received, and value vs carrying. The Q3 10-Q is already graded NO-VERDICT; never repeat that grade. WAL-07 resolves by the FY2026 10-K (2027-03-01) |
 | Q3 Call Report | **DONE 11/04:** complete primary source verified and independently extracted; no retrieval/extraction remainder. Next MI3 data is the existing standing quarterly Q4 Call Report pull; June/December semiannual fields retain their frequency. Borrower attribution, parent bridges and other carried work are separate conditions, not missing Q3 extraction. |
-| ~Thu 11/5 | **DONE 11/16:** OZK pointer behind KB-228 re-read (OZK Q3 10-Q graded 11/7: RaDD pass, no reserve or readvance); KB-228 extended to 2027-01-31 with reason. Next: OZK's Q4 print |
-| ~Tue 11/24 (FINRA calendar not verified) | FINRA 11/14 settlement: log in MARKET_TRACKER (`scripts/market_tracker.py --write`). Last logged: 10/30 settlement 5.60M shares, 5.21% of shares |
+| Next FINRA settlement (~mid-December; calendar not verified) | Log in MARKET_TRACKER (`scripts/market_tracker.py --write`). **DONE 11/26:** 11/13 settlement 5,228,513 shares, 4.86% of cover shares |
 | Mid-December FOMC (date per the Fed calendar; not verified here) | 0 / 25 / 50bp decides how far the hike goes past the guide's assumed +25bp (KB-289). Its earnings effect falls mostly in Q1 2027; read it against the Q4 total deposit cost and the ECR line |
-| By Sun 11/15 | **DONE 11/16 (one day late):** WAL-03 to WAL-07 registered, incl. the issuer-basis deposit-cost line (WAL-06). Re-pin WAL-03/06 Resolve_By when the Q4 print date is announced |
-| Tue 11/17 2:00 pm PT | Plaza Continental final cash-collateral hearing (DEWEY reads; DOCKET L517 check-by 11/18). Apply the H1–H11 sheet; a sale order or price would be H8 |
+| Q4 print date announcement | Re-pin WAL-03/06 Resolve_By (EXPECTED-EVENT anchors) |
+| **Tue 12/1** · **Mon 12/7 1:30 pm PT** | Plaza Continental: debtor's status report (#129), then the final cash-collateral and status hearings (#130). DEWEY reads. Apply the H1–H11 sheet (KB-297): a final order with terms, a sale motion with a price, or #132 identified as a secured-lender objection would be the first economic evidence; a sale order or price is H8 |
 | **Wed 12/9/2026 11:00 AM** | WAL v. Stupin §523 (8:26-ap-01096): motion-to-dismiss hearing + status conference |
 | Mon 11/30/2026 · Tue 1/12/2027 | Makhijani status conference / trial (KB-203) — **not re-verified** (10/22: RECAP Docs 93–98 had no text; 10/28: CourtListener refuses anonymous access) |
 
