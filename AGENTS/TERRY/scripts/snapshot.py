@@ -212,12 +212,45 @@ def normal_move(values):
     return dict(abs=mid(ch), pct=mid(pc) if pc else None, n=len(ch), max_abs=ch[-1])
 
 
+NORMAL_MOVE_MAX_AGE_DAYS = 5   # calendar days; a last bar older than this is stale (weekend + holiday fit)
+
+
+def move_window(h, now=None):
+    """Select the closes normal_move() may use from one price_history result, or say why not.
+    Returns (closes, None, window_end_date) or (None, reason, None). Added 2026-11-26 on an independent read:
+      - today's bar is dropped while the session is open (before 16:15 local = ET on this box);
+      - a dropped or null session INSIDE the 21-close window suppresses (price_history removes
+        null bars and lists them in null_bars / missing_sessions, so coverage_flags cannot see
+        them, and a change across the hole would span two days);
+      - a last bar older than NORMAL_MOVE_MAX_AGE_DAYS suppresses (stale pull)."""
+    now = now or datetime.now()
+    if not h or "error" in h:
+        return None, "ERROR", None
+    rows = [r for r in (h.get("history") or []) if r.get("close") is not None]
+    if rows and str(rows[-1].get("date"))[:10] == now.strftime("%Y-%m-%d") and (now.hour, now.minute) < (16, 15):
+        rows = rows[:-1]
+    if len(rows) < NORMAL_MOVE_N + 1:
+        return None, f"only {len(rows)} completed closes", None
+    win = rows[-(NORMAL_MOVE_N + 1):]
+    lo, hi = str(win[0]["date"])[:10], str(win[-1]["date"])[:10]
+    holes = sorted(d for d in (h.get("null_bars") or []) + (h.get("missing_sessions") or []) if lo <= d[:10] <= hi)
+    if holes:
+        return None, f"HOLE in the window ({', '.join(holes)})", None
+    age = (now.date() - datetime.strptime(hi, "%Y-%m-%d").date()).days
+    if age > NORMAL_MOVE_MAX_AGE_DAYS:
+        return None, f"STALE last bar {hi} ({age} days old)", None
+    return [float(r["close"]) for r in win], None, hi
+
+
 def hy_normal_move():
-    """HY OAS typical daily move in bp, FRED latest-revised (the basis fred_fetch serves)."""
-    obs = fred_fetch("BAMLH0A0HYM2", limit=NORMAL_MOVE_N + 1)
+    """HY OAS typical daily move in bp, FRED latest-revised (the basis fred_fetch serves).
+    Asks for more than 21 because fred_fetch drops '.' (no-value) rows after its limit."""
+    obs = fred_fetch("BAMLH0A0HYM2", limit=NORMAL_MOVE_N + 6)
     if not obs or "error" in obs[0]:
         return None, (obs[0].get("error", "no data") if obs else "no data")
-    vals = [round(float(o["value"]) * 100) for o in reversed(obs)]   # integer bp: float("2.18")*100 is not 218
+    if len(obs) < NORMAL_MOVE_N + 1:
+        return None, f"only {len(obs)} observations"
+    vals = [round(float(o["value"]) * 100) for o in reversed(obs[:NORMAL_MOVE_N + 1])]   # integer bp: float("2.18")*100 is not 218
     return normal_move(vals), obs[0]["date"]
 
 
@@ -317,19 +350,20 @@ def run(args):
           "state an exit's distance from the last print in these units)")
     for t in tickers:
         h = mv_hist.get(t, {})
-        rows = [r for r in (h.get("history") or []) if r.get("close") is not None]
         flag = mv_cov.get(t, (0, 0, ""))[2]
-        mv = None if (flag or "error" in h) else normal_move([float(r["close"]) for r in rows])
+        closes, why, end = move_window(h)
+        mv = None if (flag or why) else normal_move(closes)
         if mv is None:
-            why = flag or ("ERROR" if "error" in h else f"only {len(rows)} closes")
+            why = flag or why or "no result"
             print(f"  {t:<9} SUPPRESSED ({why}) — re-run; do not size an exit off a guess")
             continue
-        print(f"  {t:<9} ${mv['abs']:.2f} a day ({mv['pct']:.2f}%), largest ${mv['max_abs']:.2f}; "
-              f"{mv['n']} changes to {rows[-1].get('date')}")
+        pct_txt = f"{mv['pct']:.2f}%" if mv.get("pct") is not None else "% N/A"
+        print(f"  {t:<9} ${mv['abs']:.2f} a day ({pct_txt}), largest ${mv['max_abs']:.2f}; "
+              f"{mv['n']} changes to {end}")
     if args.stress:
         hmv, hd = hy_normal_move()
         if hmv:
-            print(f"  HY OAS    {hmv['abs']:.0f} bp a day, largest {hmv['max_abs']:.0f} bp; "
+            print(f"  HY OAS    {hmv['abs']:.1f} bp a day, largest {hmv['max_abs']:.0f} bp; "
                   f"{hmv['n']} changes to {hd} (FRED latest-revised; a cell lands the next business day)")
         else:
             print(f"  HY OAS    SUPPRESSED ({hd})")
@@ -392,6 +426,27 @@ def selftest():
     assert sm["abs"] == 0.0 and sm["max_abs"] == 30.0, sm
     even = [0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105, 120, 136, 153, 171, 190, 210]
     assert normal_move([float(x) for x in even])["abs"] == 10.5   # changes 1..20, median of an even count
+    # Independent read 2026-11-26: the NEWEST 21 of a longer series (oldest-window mutation passed before).
+    longer = [100.0 + (i % 2) * 5 for i in range(15)] + [100.0 + (i % 2) * 1 for i in range(21)]  # oldest 21: median 5; newest 21: median 1
+    assert normal_move(longer)["abs"] == 1.0, normal_move(longer)
+    # move_window: holes inside the window suppress; today's open bar is dropped; stale suppresses.
+    from datetime import date as _d, timedelta as _td
+    base = _d(2026, 11, 2)
+    days = [base + _td(days=k) for k in range(40) if (base + _td(days=k)).weekday() < 5][:25]
+    hist = {"history": [{"date": d.isoformat(), "close": 100.0 + (k % 2)} for k, d in enumerate(days)],
+            "null_bars": [], "missing_sessions": []}
+    after = datetime.combine(days[-1], datetime.min.time()).replace(hour=17)
+    cl, why, end = move_window(hist, now=after)
+    assert why is None and len(cl) == 21 and end == days[-1].isoformat(), (why, end)
+    holed = dict(hist, missing_sessions=[days[-5].isoformat()])
+    assert (move_window(holed, now=after)[1] or "").startswith("HOLE"), "a hole inside the window must suppress"
+    old_hole = dict(hist, null_bars=[(days[0] - _td(days=3)).isoformat()])
+    assert move_window(old_hole, now=after)[1] is None, "a hole before the window must not suppress"
+    during = datetime.combine(days[-1], datetime.min.time()).replace(hour=11)
+    assert move_window(hist, now=during)[2] == days[-2].isoformat(), "an open session's bar must be dropped"
+    stale = after + _td(days=9)
+    assert (move_window(hist, now=stale)[1] or "").startswith("STALE"), "a stale last bar must suppress"
+    assert move_window({"error": "x"})[1] == "ERROR"
     print("snapshot.py SELFTEST: PASS (offline structural — imports + fetch.py reachable; normal_move)")
 
     have_key = _fred_credential_present()

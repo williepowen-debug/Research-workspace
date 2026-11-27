@@ -4,7 +4,11 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current pickup — 2026-11-13 16:13 EST
+## Current pickup — 2026-11-26 21:5x EST
+
+Claude Code, Opus 5.5, Will's launcher window on PROME prome-80's caution-review letter (D:L1278); closed on PROME's ask and Will's word. Four asks delivered (2 PROME packets); PB-0009 closed at its 11/6 invalidation; 21 packets NO CARD; Will's four construction habits in `TRADE_CARD_TEMPLATE.md` §0b; `snapshot.py` normal-move line and `paper_book_mark.py` exit check built and tested (exit check read by PROME, 2 findings fixed). Read STATUS CURRENT STATE first: Friday 11/27 reads are next.
+
+## Prior pickup — 2026-11-13 16:13 EST
 
 Claude Code, Opus 5.5, session d39139ae, PROME assignment prome-72 (two parts, closed on PROME's ask). HYG ×4 WQ-513 LAPSED UNFIRED at the 11/13 close; NVDA 11/12 low $148.80 confirmed on its card; QQQ 200-day card T1 met but debit $6.23 > $4.90, no order; 11 NO CARD reads. Read STATUS CURRENT STATE first; next dated work is the NVDA fire window 11/18–11/20.
 
