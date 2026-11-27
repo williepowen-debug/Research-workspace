@@ -313,6 +313,30 @@ def _lane_days():
         return [], f"lane data/ unreadable ({type(e).__name__})"
 
 
+def _stale_tag(it):
+    """Label suffix for a collector-flagged old row; labels are display only and not in the scan receipt."""
+    return f" [STALE: pubDate {it.get('age_days')} days before collection]" if it.get("stale") is True else ""
+
+
+def stale_lines(batches):
+    """Display only (WQ-757 A item 1, Will 2026-11-27; PROME's collector flag, Research-Intake a768de3): per
+    scanned batch whose rows carry the collector's `stale` key, how many are over 7 days old by pubDate and
+    how many have no readable date. Never refuses, never kills, never changes a key or the receipt. Limits
+    (PROME's reader 11/27): RSS pubDate only, so ISO or Atom dates read unknown; a named zone like EST is read
+    as UTC; age is floored, so 7 days 23 hours is not stale. A stale title is still read."""
+    out = []
+    for b in batches:
+        items, err = read_batch_items(b)
+        if err or not items or not any("stale" in i for i in items if isinstance(i, dict)):
+            continue
+        rows = [i for i in items if isinstance(i, dict) and "stale" in i]
+        st = sum(1 for i in rows if i.get("stale") is True)
+        unk = sum(1 for i in rows if i.get("stale") is None)
+        out.append(("OK", f"{b}: {st} of {len(rows)} flagged rows dated more than 7 days before collection, "
+                          f"{unk} with no readable date (collector flag; titles still read)"))
+    return out
+
+
 def read_batch_items(batch):
     """(items, error). ONE reader for the scan and --mark (follow-up note 1): valid JSON that is
     not an object with an `items` list counts as unreadable in both places."""
@@ -620,13 +644,13 @@ def collect_alerts(live, last_marked=None, marked_sha=None, marked_commit=None):
                 phrases = "; ".join(f"{hw[0]}:'{hw[1]}'" for hw in hits if isinstance(hw, (list, tuple)) and len(hw) > 1)
                 recs.append(dict(feed="newsweep", key=f"news:WATCH_HIT:{h}", band=None, gate="ACTION",
                                  owners=owners, info_cc=[], precedence="PRIORITY", raw=title[:160],
-                                 label=f"WATCH_HIT [{phrases}]"))
+                                 label=f"WATCH_HIT [{phrases}]{_stale_tag(it)}"))
             else:
                 ents = it.get("entity") or "?"
                 recs.append(dict(feed="newsweep", key=f"news:DEVELOPMENT:{h}", band=None, gate="INFO",
                                  owners=list(it.get("agents") or []) or ["(per-item agents field)"],
                                  info_cc=[], precedence="ROUTINE", raw=title[:160],
-                                 label=f"DEVELOPMENT [known entity {ents} + escalation qualifier]"))
+                                 label=f"DEVELOPMENT [known entity {ents} + escalation qualifier]{_stale_tag(it)}"))
     return recs
 
 
@@ -962,7 +986,7 @@ def main():
         r["onset"] = r["key"] not in seen["seen"]
     new = [r for r in recs if r["onset"]]
     suppressed = [r for r in recs if not r["onset"]]
-    hz = health(live) + pointer_health(last_marked, newest)
+    hz = health(live) + pointer_health(last_marked, newest) + stale_lines(batches)
     rb = rewritten_marked(newest, last_marked, marked_sha) if newest else None
     if rb:
         hz.append(("MED", f"{rb} was rewritten by the collector after --mark (fingerprint {marked_sha} -> "
