@@ -176,6 +176,22 @@ def grade_l4(hy, eq):
     return out
 
 
+def grade_since(bb, ccc, hy, eq, since):
+    """PURE. KB-LIQ-164 fix (2026-11-27): grade EVERY session after `since`, not only the newest.
+    For each HY observation date d > since, L4 is graded on the series as they stood at d (every series
+    truncated to dates <= d), so d and its own calendar previous session are the pair; for each BB/CCC
+    date d > since, L1 likewise. Returns [(d, g1, g4)] oldest first. A session the truncation cannot
+    grade comes back INSTRUMENT-FAULT for that session; it is never skipped."""
+    cut = lambda s, d: {k: v for k, v in s.items() if k <= d}
+    days = sorted({d for d in hy if d > since} | {d for d in bb if d > since and d in ccc})
+    out = []
+    for d in days:
+        g1 = grade_l1(cut(bb, d), cut(ccc, d)) if d in bb and d in ccc else None
+        g4 = grade_l4(cut(hy, d), {t: cut(c, d) for t, c in eq.items()}) if d in hy else None
+        out.append((d, g1, g4))
+    return out
+
+
 def _main_l4_stubbed(name, prior, close, hy_last):
     """Run main() with vendor and FRED stubbed; return the L4 verdict its output prints."""
     import contextlib, io, types
@@ -260,6 +276,33 @@ def selftest():
     boundary_eq["NBIS"][D[-1]] = 2.04
     check("decimal equity boundary with HY +4 is NOT FIRED", grade_l4(
         {D[-2]: 273, D[-1]: 277}, boundary_eq)["state"], "NOT FIRED")
+    # KB-LIQ-164 (2026-11-27): the 11/20 fire hidden behind a newer NOT FIRED session must be graded
+    S = ["2026-11-18", "2026-11-19", "2026-11-20", "2026-11-23", "2026-11-24"]
+    hyS = dict(zip(S, [347, 352, 376, 363, 372]))
+    eqS = {t: dict(zip(S, [15.0, 14.41, 11.82, 14.64, 12.95])) if t == "IREN" else dict(zip(S, [50.0] * 5)) for t in TICK}
+    bbS, cccS = dict(zip(S, [205, 210, 229, 219, 225])), dict(zip(S, [1353, 1361, 1402, 1387, 1405]))
+    check("newest-only grade of the 11/24 session is NOT FIRED", grade_l4(hyS, eqS)["state"], "NOT FIRED")
+    gs = grade_since(bbS, cccS, hyS, eqS, "2026-11-19")
+    check("--since 11/19 grades 11/20, 11/23, 11/24 in order", [d for d, _, _ in gs], S[2:])
+    check("--since: the 11/20 session (IREN -17.97%, HY +24) is FIRED",
+          [(d, g4["state"]) for d, _, g4 in gs][0], ("2026-11-20", "FIRED"))
+    check("--since: a later session's equity bar does not leak into the 11/20 grade",
+          gs[0][2]["newer"], [])
+    hy_hole = {k: v for k, v in hyS.items() if k != "2026-11-20"}
+    gs = grade_since(bbS, cccS, hy_hole, eqS, "2026-11-19")
+    check("--since with HY 11/20 missing: 11/23 is INSTRUMENT-FAULT, not graded across two sessions",
+          [(d, g4 and g4["state"]) for d, _, g4 in gs if d == "2026-11-23"], [("2026-11-23", "INSTRUMENT-FAULT")])
+    check("--since: L1 with fewer than 6 CCC obs at that date fails closed",
+          [(d, g1["state"]) for d, g1, _ in grade_since(bbS, cccS, hyS, eqS, "2026-11-19")][0], ("2026-11-20", "INSTRUMENT-FAULT"))
+    E = ["2026-11-12", "2026-11-13", "2026-11-16", "2026-11-17"]
+    bbL, cccL = {**dict(zip(E, [183, 190, 196, 204])), **bbS}, {**dict(zip(E, [1314, 1320, 1330, 1329])), **cccS}
+    l1 = {d: g1 for d, g1, _ in grade_since(bbL, cccL, hyS, eqS, "2026-11-19")}
+    check("--since: L1 per date 11/20 (BB 229, CCC +82 vs 11/13, not flat) → NOT FIRED",
+          (l1["2026-11-20"]["state"], l1["2026-11-20"]["ccc_from"], l1["2026-11-20"]["ccc_chg"]), ("NOT FIRED", "2026-11-13", 82))
+    cccF = dict(cccL); cccF.update({"2026-11-20": 1320})
+    l1 = {d: g1 for d, g1, _ in grade_since(bbL, cccF, hyS, eqS, "2026-11-19")}
+    check("--since: an L1 fire on 11/20 (BB 229, CCC +6 over 5 sessions) is seen behind later dates",
+          (l1["2026-11-20"]["state"], l1["2026-11-24"]["state"]), ("FIRED", "NOT FIRED"))
     # CLI input path: float32 vendor closes through vendor_closes(), then the grade.
     # Both cases are real half-cent priors; 2dp rounding here flips each (DAEDALUS 2026-11-04).
     import pandas as pd
@@ -336,7 +379,9 @@ def bp(pct):
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--selftest", action="store_true"); a = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument("--selftest", action="store_true")
+    ap.add_argument("--since", metavar="YYYY-MM-DD", help="also grade EVERY session after this date (the last "
+                    "graded one), not only the newest (KB-LIQ-164)"); a = ap.parse_args()
     if a.selftest:
         return selftest()
     sys.path.insert(0, "FORGE/tools/market-data")
@@ -360,9 +405,12 @@ def main():
     # ⚠️ F1 IDENTITY GUARD (KB-LIQ-117): pass a LIST of tickers and verify the returned keys.
     eq, fetch_faults = {}, []
     hd = sorted(hy)
+    start = hd[-6] if len(hd) >= 6 else None
+    if a.since and start and prev_session(a.since) and prev_session(a.since) < start:
+        start = prev_session(a.since)
     try:
         import yfinance as yf, warnings; warnings.filterwarnings("ignore")
-        px = yf.download(TICK, start=hd[-6] if len(hd) >= 6 else None, end=None, auto_adjust=False, progress=False)["Close"]
+        px = yf.download(TICK, start=start, end=None, auto_adjust=False, progress=False)["Close"]
         px.index = [i.strftime("%Y-%m-%d") for i in px.index]
         extra = [k for k in px.columns if k not in TICK]
         if extra: fetch_faults.append(f"UNREQUESTED tickers returned {extra} — identity mismatch")
@@ -394,6 +442,18 @@ def main():
         w = g4["worst"]
         print(f"      worst name: {w[0]} {w[1]:+.2f}%  -> <=-15%? {'YES' if g4['eq_hit'] else 'NO'}")
         print(f"      => L4 {'🔴 FIRED' if g4['state'] == 'FIRED' else '🟢 NOT FIRED'}   (conjunctive)")
+    if a.since:
+        print(f"\n  EVERY SESSION after {a.since} (KB-LIQ-164; each graded on the series as they stood at that date)")
+        for d, s1, s4 in grade_since(bb, ccc, hy, eq, a.since):
+            l1 = "—" if s1 is None else s1["state"] + ("" if s1["state"] == "INSTRUMENT-FAULT" else
+                 f" (BB {s1['bb']}, CCC 5-sess {s1['ccc_chg']:+d} vs {s1['ccc_from']})")
+            if s4 is None:
+                l4 = "— (no HY obs)"
+            elif s4["state"] == "INSTRUMENT-FAULT" or fetch_faults:
+                l4 = "INSTRUMENT-FAULT " + "; ".join(fetch_faults + s4["faults"])
+            else:
+                l4 = f"{s4['state']} (HY {s4['hy_chg']:+d} vs {s4['hprev']}; worst {s4['worst'][0]} {s4['worst'][1]:+.2f}%)"
+            print(f"      {d}: L1 {l1} · L4 {l4}")
     print(f"\n  ↪ L2 CoreWeave 5Y CDS  — graded by scripts/crwv_cds_grade.py (DTCC PPD converted quotes; FIRED 9/26)")
     print(f"  ⛔ L3 AI-infra new-issue concessions — NO_INSTRUMENT (dealer/terminal primary)")
     print(f"  ⚠️  L5 ORCL fallen-angel ladder — SECONDARY-SOURCED (≥2 independent outlets); primary re-verification NO_INSTRUMENT (L345, 9/29)")

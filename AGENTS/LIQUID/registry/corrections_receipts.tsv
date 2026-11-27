@@ -78,3 +78,4 @@ receipt_date	correction_id	action	note
 2026-11-25T20:36Z	COR-20261125-16	NO-OP	scope=Brent 89.21 and falling-price line: not cited in LIQUID files outside inbox and board_log (grep 11/25); 
 2026-11-25T20:36Z	COR-20261125-35	NO-OP	scope=Card 031 loan coverage line: card 031 was first consumed together with 035, KB-LIQ-153 logged on the corrected basis; 
 2026-11-25T20:36Z	COR-20261125-36	NO-OP	scope=Card 031 and 035 comparison of the two CoreWeave 2031 bonds: not carried in LIQUID files (grep 11/25), KB-LIQ-153 logged with coupon and maturity; 
+2026-11-27T17:52Z	COR-20261127-01	APPLIED	artifact=AGENTS/LIQUID/workbook/KB.tsv#KB-LIQ-153; validation_ref=NONE; 
