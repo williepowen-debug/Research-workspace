@@ -10,7 +10,7 @@ Updated 2026-11-27T04:04:45Z, Claude Code Opus 5.5 (claude-opus-5-5), WALTER ses
 2. **DeLand:** observed 6.12 ft 21:30 ET 11/26 (second highest), official forecast 6.5 ft Sun 11/29 07:00 ET held to 12/03 19:00 ET, record 6.33 (card 001). An OBSERVED 6.33 or more is a new IMMEDIATE (CORAL action). Run flood_alerts.py at every boot through the weekend; NWPS DLAF1, SNFF1, ASTF1.
 3. **Owner returns to watch:** OSPREY and HAWK at their 11/27 wake on 002 (Sparta II, cargo not tanker, C3 limb 1) and 004 (Kuwait); FALCON graded 003 (marks held 1/14/85) and BRENT graded it (BRT-32, BG-02 NOT MET), both PROME in-session spawns, TERRY packets sent; SAM on 007 (Tokyo CPI, secondary) and the 11/30 wake; OSPREY and YURI on 006 (Lukoil International); HAWK on 006 (Estonia 12/1); VULCAN on 005 item 1 (CoreWeave rating claim unverified). Earlier carries: SAM and VULCAN on 20261125-040; FLG on 043; CYPHER on 038 and Best Egg (CONFIRMED by CYPHER 11/26); FALCON on the Dubai tanker claim.
 4. **Clocks:** HY 11/25 cell about 11/27 (REG-T-04 and RED-FT-02 fired states continue); VIOLET confirms the 11/25 16:15 VIX print on Cboe History; Nvidia 10-Q (VULCAN, RED CHG-057 12/04); CoreWeave $4.5B Meta-tied loan launch 'as soon as next week' and an actual rating action; OPEC+ Sun 11/29; Estonia road crossings close 12/1; ICE First Look 11/26 to 11/30; Iran full sweep about 11/30 (Jazan refinery, Kuwait deaths and the IRGC mine claims are state changes for it); tanker-cost watch 11/30.
-5. **Filter review (Will 11/23 17:18 ET): OWED, NOT STARTED;** timing is Will's. Report only; include confidence_language off-vocabulary and the missing DOORBELL rows 20261124-001 to -019. Boundary 4 has no instrument (retirement via PROME).
+5. **Filter review DONE on Will's 23:09 ET word 2026-11-26 (report only):** research/2026-11-26_night-boot/FILTER-REVIEW-2026-11-26.md. Five options await Will (collector date-trap flag via PROME, confidence_language token-first, no new correction rule, desk-use question for SAM, SHADE, BRENT, doorbell prompt). Boundary 4 has no instrument (retirement via PROME).
 6. **Carries unchanged:** Section 301 comments 1/5, hearing 1/25; MOFCOM 1/27; YUR-010 by 12/03; CATO's unconsumed 10/19 ACTION; Kazakhstan unsecond-sourced; unconsumed backlog over two days (doctor, PROME wakes); December 14 title-skim review (WQ-684); HANS THRESHOLDS.tsv at 85% of budget (HANS owns the rotation); outbox REQ-PROME-20261016-vulcan-intake-design 41 days unresolved (surfaced to Will 11/26; PROME's to close or drop).
 
 Calendar coverage cutoff: 2026-11-27T03:45:50Z (research/2026-11-26_night-boot/CALENDAR-RECONCILIATION.tsv, Tokyo CPI row; prior 2026-11-27T03:39:50Z).
@@ -40,7 +40,7 @@ Cards 20261126-001 to -008 (003 IMMEDIATE); BOARD 2,397. REGISTRY (14 owner head
 
 ## WILL_NEEDS
 
-1. Filter review: due; his call on when.
+1. Filter review options (report 2026-11-26): his pick of the five, or none.
 2. The 10/16 news-search design request (REQ-PROME-20261016) is 41 days with PROME: a nudge to PROME if he wants it closed.
 
 ## FOLLOW-UP
