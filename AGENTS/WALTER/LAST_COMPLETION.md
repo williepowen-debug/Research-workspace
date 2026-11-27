@@ -2,6 +2,15 @@
 
 Updated 2026-11-26T03:52:27Z, Claude Code Opus 5.5 (claude-opus-5-5), session walter-4d on the laptop, Wednesday 11/25. Will's word at 22:46 ET: "lets close out for the day". **Tier 2 FULL closeout**; clears the light breadcrumbs of 19:30:30Z (walter-7f) and 22:05:38Z (walter-4d). Prior record verbatim at research/2026-11-25_evening-boot/LC-ROTATED.md, and through it research/2026-11-25_checkpoint/LC-ROTATED.md and research/2026-11-25_closeout/LC-ROTATED.md; open items there stay binding unless closed below.
 
+**Night boot addendum 2026-11-27T03:39:50Z (Claude Code Opus 5.5, laptop, Thu 11/26 Thanksgiving, Tier 1 LIGHT; full closeout DEFERRED, 1 breadcrumb since the last full).** The 11/25 record below stays binding except where this addendum closes an item.
+
+- **Done this session:** cards 20261126-001 (DeLand 6.12 ft observed 21:30 ET, forecast 6.5 ft Sun 11/29 07:00 ET held to 12/03, record 6.33), 002 (Gulf of Finland ship = Sparta II, ro-ro cargo, not a tanker; answers HAWK), 003 IMMEDIATE (Jazan REFINERY hit 11/26, Energy Ministry; one killed; some operations suspended), 004 (Kuwait: two Italian Rheinmetall technicians killed, Iran blamed, denies; Iranian Army mine claim 11/25, claim only), 005 small items. Pushed 5150d2114b (safe-push receipt); 005 and this closeout committed after. PROME told by message 22:35 ET; it launched FALCON and BRENT in-session; HAWK and OSPREY take 002 and 004 at their 11/27 wake.
+- **Inbox:** CYPHER, HAWK packets and both DEWEY handoffs consumed and filed; REQ-DEWEY-20261123-001 RESOLVED (PARTIAL by design; spot figure not re-read by WALTER). Research-Intake marked through data/2026-11-26/news.json; GPU review 10 closed; flood alerts marked.
+- **Boot gaps (PARTIAL):** steps 4 and 8 (REGISTRY not refreshed; doctor MED rows ORACLE, HAWK, SHADE, CYPHER, HANS stale), 6 (ROUTING_TABLE, OVERLAYS not read whole), 6b (owner registries not re-read whole; scan in research/2026-11-26_night-boot/THRESHOLD-SCAN.md), 7 BOARD scan, 7h bookmarks, 9, 9b. The full closeout owed is the next Tier 2.
+- **New watch items:** Jazan refinery: which units stopped and restart (Aramco or ministry); Yanbu or Rabigh next. CoreWeave Meta-tied loan: an actual rating action or pricing (005 item 1 says 'wins IG ratings' is title only). Tokyo November CPI (11/27 08:30 JST, about 18:30 ET 11/26) status UNKNOWN, SAM. DeLand: an OBSERVED 6.33 ft or more is a new IMMEDIATE (CORAL); run flood_alerts.py at every boot through the weekend.
+- **Fri 11/27: refresh VIX and S&P before the first reply in market hours (equities close 13:00 ET); HY 11/25 cell due.**
+
+
 ## RESUME — do these first
 
 **Where it stands (vendor, 11/25):** S&P 7,182.78 close, VIX 28.29 at the 16:15 print (provisional, VIOLET), BZF27 95.18 and ES 7,239.75 in the evening session (22:36 ET, not settles). HY for 11/25 not posted (about 11/27). **Thu 11/26 US markets closed; Fri 11/27 equities close 13:00 ET. Refresh VIX and S&P before the first reply in market hours.**
@@ -13,7 +22,7 @@ Updated 2026-11-26T03:52:27Z, Claude Code Opus 5.5 (claude-opus-5-5), session wa
 5. **Filter review (Will 11/23 17:18 ET): OWED, NOT STARTED;** timing is Will's. Report only; include confidence_language off-vocabulary and the missing DOORBELL rows 20261124-001 to -019. Boundary 4 has no instrument (retirement via PROME).
 6. **Carries unchanged:** DEWEY pilot REQ-DEWEY-20261123-001 due 12/01; Section 301 comments 1/5, hearing 1/25; MOFCOM 1/27; YUR-010 by 12/03; CATO's unconsumed 10/19 ACTION; Kazakhstan unsecond-sourced; 24 unconsumed over two days at 11 desks (doctor; PROME wakes); December 14 title-skim review (WQ-684); HANS THRESHOLDS.tsv at 85% of budget (HANS owns the rotation).
 
-Calendar coverage cutoff: 2026-11-26T03:52:27Z (research/2026-11-25_evening-boot/CALENDAR-RECONCILIATION.tsv; prior 2026-11-25T21:30:00Z).
+Calendar coverage cutoff: 2026-11-27T03:39:50Z (research/2026-11-26_night-boot/CALENDAR-RECONCILIATION.tsv; prior 2026-11-26T03:52:27Z).
 
 ## STATUS
 
