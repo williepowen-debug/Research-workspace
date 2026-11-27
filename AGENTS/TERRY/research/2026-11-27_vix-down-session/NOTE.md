@@ -85,3 +85,14 @@ Closes (vendor, venv yfinance, 16:57 EST; half session ended 13:00 ET): VIX **23
 **QQQ 640/650 study cell (caution review (a), `research/2026-11-26_caution-review/NOTE.md`; IDEA-QQQ-CAPIT-NOV20 DECLINED, $0, study only):** its HY > 350 ×3 invalidation fired on the 11/25 cell (363/372/377), readable 11/27. The exit at 11/27 regular-session quotes (vendor, last trades 13:11–13:12): 640C 26.09/26.36, 650C 20.10/20.34 ⇒ **$5.75 at the bid side, $6.01 mid**. At the card's $4.50 limit that is **about +$122 to +$148** after ~$2.60 fees, replacing the open "+$20 to +$65 at 11/25 quotes". On the caution review's "Will's declines" line the forgone gain on his QQQ decline is about $57 to $128 larger than that table showed; the table's other rows are unchanged. A model study on vendor quotes, not a fill.
 
 **BOARD scan:** SIG-W-20261127-002 (action: LIQUID, YURI, BRENT, FALCON) and -003 (action: CORAL) do not name TERRY; nothing to log. Boot ID-diff clean.
+
+## 7. WALTER SIG-W-20261127-008 (AI credit) and -007 (US data), read 17:13 EST — NO CARD
+
+| Item | TERRY answer | Reason |
+|---|---|---|
+| Semafor 11/26: Citi and JPMorgan marketing AI loan portfolios, some via synthetic risk transfer (no amounts) | **NO CARD** | Fits the CRWV card's thesis precondition (lenders backing away from AI-infrastructure credit) but moves none of its triggers (green close ≥ $48.00, a fresh 5Y ≥ 1,200 bp). Synthetic risk transfer moves loss risk OFF the banks, so it is not a bank-equity put case (REGINALD: bank leg absent) |
+| SoftBank 5Y CDS 542 (Bloomberg chart via zerohedge, not read at Bloomberg) vs 466 verified [11/6]; retail bond spread ~229 bp | **NO CARD** | Chart-only level; no liquid US-listed option vehicle; an AI-financing stress gauge that feeds the same branch as HYG 76P ×2 and the CRWV lines |
+| CoreWeave "senior bonds worthless" (one anonymous account); DDTL 5.0 parent-guaranteed per a filing summary | **NO CARD** | Opinion, not evidence; no new CoreWeave 5Y print. Will's CRWV Dec-4 41P and the card both sit on this name already |
+| -007: Census October goods deficit $149.5B (issuer), inventories up; 8th District loan demand net −30% | **NO CARD** | CARL/ISHM/REGINALD's; no TERRY vehicle |
+
+Logged in `SIGNALS.tsv` COMBO-CREDIT-FOLLOWING (members and counterevidence) and `board_log.tsv` (008 noted). 007 not on TERRY's action line, read, not logged.
