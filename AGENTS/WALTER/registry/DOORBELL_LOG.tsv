@@ -740,3 +740,6 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-27	REGINALD	SIG-W-20261127-013	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
 2026-11-27	CARL	SIG-W-20261127-013	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
 2026-11-27	CYPHER	SIG-W-20261127-014	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	BRENT	SIG-W-20261127-015	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents (live: prome-80, terry-2a); YURI correction and relay card
+2026-11-27	OSPREY	SIG-W-20261127-015	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents (live: prome-80, terry-2a); YURI correction and relay card
+2026-11-27	HAWK	SIG-W-20261127-015	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents (live: prome-80, terry-2a); YURI correction and relay card

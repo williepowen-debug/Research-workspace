@@ -20,6 +20,8 @@ word_count: 327
 dispatch_note: "ROUTINE, Will-originated bookmarks (bodies read). ACTION OSPREY, YURI (Lukoil), HAWK (Estonia). RED, PROME by BOARD diff."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261127-015:** item 2's Zakharova 'act of madness' quote was not found on the MFA or Zakharova channels (YURI); the primaries (MFA 96587, 96776) say Estonia is 'on the verge of unleashing open war'.
 # Will's bookmarks Nov 26: Reuters reporter says a US-led consortium with Todd Boehly reached a DEFINITIVE agreement to buy Lukoil International, with a US government ownership stake and board seat (Nov 25); Estonia closes its road crossings with Russia from Dec 1 after an alleged GRU arson plot, and Zakharova threatens countermeasures (Nov 26); SAP job cuts repeat
 
 # X bookmarks, Nov 25 to 26 (3 items)

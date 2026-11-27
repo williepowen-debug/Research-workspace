@@ -20,6 +20,8 @@ word_count: 553
 dispatch_note: "PRIORITY: item 1 is an owner-due cell (LIQUID GATE-LIQ-069, TERRY D:L1278; TERRY live, told by message). Iran items are claims; IRAN_WAR_GUARDS read 11/26. RED, PROME by BOARD diff."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261127-015:** item 2's jet fuel ban is Government Resolution No. 1586 of 26.11.2026, 01.12.2026 to 31.03.2027, body read by YURI at the primary; the 'April' variant is wrong.
 # Nov 27 lane: FRED HY OAS 11/25 first-published 377 bp (372, 363 before), CCC 1,417; Russia extends its jet fuel export ban to March 31, 2027 (reported by about a dozen outlets, decree not read); US lobbied Iraq and Venezuela to exit OPEC (Middle East Eye) before Sunday's OPEC+ meeting; IRGC claims warning shots turned back a US F-16 near Hengam; EU calls for pressure on Iran over the Kuwait deaths
 
 # Friday 11/27 lane (collector run 17:43Z) and the 11/25 credit cells
