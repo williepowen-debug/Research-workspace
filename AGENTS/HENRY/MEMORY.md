@@ -53,17 +53,17 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-25 close, Will's window henry-7d, boot 15:34 ET and D:L1271 close check 16:15–16:4x ET (laptop; Claude Code, Opus 5.5).
+### CHANGES SINCE — 2026-11-27, PROME prome-80 wake for D:L1272, 12:38–13:4x ET (laptop; Claude Code, Opus 5.5).
 
-- **Close graded (vendor, PROVISIONAL):** S&P 7,182.78 (red not fired, YELLOW), RSP +0.83%, VIX 28.29 ORANGE, 30Y 5.24 YELLOW. Record `research/2026-11-25_close-check/CLOSE.md`.
-- **Own miss to carry:** the 11:50 ET read gave 65% for a red close and leaned on a 7,000 options pin; the pin released UPWARD ten minutes later. A pin read states both release directions, and intraday close odds start from the zero-drift walk (distance over VIX-scaled remaining time); say what the story adds.
-- **VIX stamp method without Cboe:** yfinance `get_history_metadata()['regularMarketTime']` showed 16:01 (28.22), 16:04 (27.87), then 16:15:01 (28.29) when read at 16:34. Read after 16:30.
-- **Treasury par same day:** XML feed `daily_treasury_yield_curve&field_tdr_date_value_month=YYYYMM` had 11/25 by 16:19 ET; check the NEW_DATE of the last entry.
-- **`boot.py` default source sends a Cboe request. n=2 (11/24, 11/25). Type `boot.py --source vendor`.**
-- STATUS rotated (§ ROT-11/25). BEA flat-file codes and the ZQ conversion: ML-HEN-247 and the 11/25 midday READ.
+- **D:L1272 graded:** FRED HY 11/25 377bp (over 376 by 1bp, 2026 high; since 2024 the high is 461 [2025-04-07]); RSP rose 11/25, marker NOT FIRED. FRED SP500 7,182.78 and VIXCLS 28.29 confirm the 11/25 close. Record `research/2026-11-27_l1272-grade/`.
+- **11/27 half day (vendor):** S&P 7,297.49 (+1.60%), RSP +1.23%, HYG +0.10%, LQD −0.28%; credit did not join. Own unscored "Friday under 7,200 ~55%" MISSED.
+- **FRED VIXCLS has a 2026-11-26 cell (26.80) on a NYSE holiday**; fetch.py's VIX change on 11/27 is against it. Compute VIX changes against the last trading-day settle by hand.
+- **Half-day VIX settles at 13:15 ET**; the 13:13 read still showed a 12:58 stamp.
+- Inbox 3 at boot + 2 mid-session → 0 (ORACLE FOMC, WALTER 003 Jazan refinery, 008 night sweep, 20261127-002 lane, MIDAS copper). TERRY packet sent. KB ML-HEN-252 to -256.
+- **USTR 11/25 Section 301 proposals (14 economies) read at ustr.gov after PROME relayed VULCAN's find:** my own search at 12:4x ET missed it (queried 'November 26', the press date). Search the agency press list by date range, not the reporter's date.
 
 ### NEXT SESSION
 
-1. D:L1272 Fri 11/27: FRED SP500 and VIXCLS 11/25 confirm; HY 11/25 for level only (RSP rose). Market closes 13:00.
-2. HEN-65 and payrolls 12/4; FOMC 12/9 (HEN-63 0.70); CPI 12/10; PCE Nov 12/23. Consider registering the broadening letter (enumerate the middle band first).
-3. LESSONS rotation (78%); dashboard v6 stale; DAEDALUS K38–K52; ECON_CALENDAR rebuild check.
+1. FRED 11/27 cells about Mon 11/30 (SP500, VIXCLS settle, HY level only: RSP rose). The 11/30 session is the first two-leg test; asked PROME for a row.
+2. HEN-65 and payrolls 12/4; FOMC 12/9 (HEN-63 letter 0.70, own view ~85%); CPI 12/10; PCE Nov 12/23. Broadening letter still unregistered (enumerate the middle band first).
+3. LESSONS rotation; dashboard v6 stale; DAEDALUS K38–K52; ECON_CALENDAR rebuild check.

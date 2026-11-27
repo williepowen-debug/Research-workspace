@@ -1,35 +1,36 @@
-# HENRY — 2026-11-25 16:37 ET (Will's window; boot 15:34, close check 16:15): the S&P finished 146 points above my red line and the average stock rose
+# HENRY — 2026-11-27 13:4x ET (PROME wake for D:L1272): junk spreads hit their 2026 high on Wednesday, but my stress-spreading marker did not fire, and Friday's rally ran without credit
 
-**RESULT:** The S&P closed at 7,182.78 (−0.25%) after falling to 6,970 in the morning. My −10% line (7,037) did not fire. It is back under my first warning line (7,200) by 17 points. The average stock rose 0.83%, so today cannot count as stress spreading to the broad market, whatever the junk-bond figure says. Fear stayed high: VIX 28.29, up almost two points on a nearly flat day. My midday call was wrong: I said about 65% for a close under the line.
+**RESULT:** The junk-bond spread for Wednesday 11/25 came in at 377bp, one point over my 376 line and the highest of 2026. My marker needs the average stock to fall the same day, and it rose, so the marker did NOT fire. Official data confirms Wednesday's S&P close (7,182.78) and VIX (28.29). Friday's half day was a broad rally (S&P 7,297, +1.6%; equal weight +1.2%), but junk-bond funds barely moved. My Friday call ("under 7,200 about 55%") was wrong.
 
-**CHANGED:** STATUS.md (rotated, 32,372 to under 18,000 bytes) · STATUS_COLD.md · MEMORY.md · NEXUS_BRIEF.md · this file · KB (ML-HEN-249 corrected, -250, -251) · MARKET_DATA.tsv · board_log.tsv (14 rows) · corrections receipts (4) · research/2026-11-25_close-check/CLOSE.md · packets to PROME and TERRY.
+**CHANGED:** STATUS.md · MEMORY.md · NEXUS_BRIEF.md · this file · KB (ML-HEN-252 to -256) · MARKET_DATA.tsv · board_log.tsv (3 rows) · research/2026-11-27_l1272-grade/ (GRADE.md, CLOSE_1127.md, FRED copies) · inbox moves (3) · packets to PROME and TERRY.
 
 ## Session work
 
 | Item | Outcome |
 |---|---|
-| Boot | 12 WALTER cards, 4 corrections; CoreWeave 1,363 withdrawn (a cancelled trade) |
-| Close check (D:L1271) | red not fired, yellow on; average stock up; VIX orange; 30-year Treasury 5.24, back to yellow |
-| Odds | red close by 12/4: 80% → 40%; Friday: 8%; spreading credit stress 45% → 30% |
+| D:L1272 grade | HY 377 over 376 (level only); equity leg failed; NOT FIRED |
+| 11/25 close confirm | FRED S&P 7,182.78, VIX 28.29: final |
+| Inbox | 5 of 5 drained (ORACLE Fed odds, Jazan refinery hit, night sweep, Friday news lane, MIDAS copper) |
+| Odds (unscored) | red close by 12/4 40% → 25%; spreading credit stress 30% → 20% |
 
 ## GAPS / Still pending
 
-- All closes are vendor figures until FRED posts (tonight or Friday); the cause of the midday turn was not searched; Cboe refuses this machine, and my boot sent it one request by default before falling back (my miss).
+- Friday's closes are vendor figures until FRED posts (about Mon 11/30); the VIX settle was read once after 13:15. The cause of Friday's rally is not established. The tariff news is real but only proposals: USTR on 11/25 proposed new tariffs on 14 economies (up to 15% for Japan, Korea, Taiwan and the EU; up to 35% for Vietnam), with comments due 1/5 and hearings from 1/25; that it drove the rally is my inference.
 
 ## COMMITS
 
-34ebb1ebf0, 7954439e78 (boot); the close-check commits are in `git log -- AGENTS/HENRY`.
+In `git log -- AGENTS/HENRY` for 2026-11-27; hashes are in the PROME memo's closeout message.
 
 ## NEXT SESSION FOLLOW-UP
 
-Fri 11/27: junk spread for 11/25 and FRED confirmation; market closes 13:00 · 12/4 jobs report and HEN-65 · 12/9 Fed · 12/10 CPI.
+Mon 11/30: first day both halves of the marker can line up (spread data the next day) · 12/4 jobs report and HEN-65 · 12/9 Fed · 12/10 CPI.
 
-## THESIS SNAPSHOT (frozen 16:37 ET 11/25)
+## THESIS SNAPSHOT (frozen 13:4x ET 11/27)
 
-Inflation steady at 0.3 a month, goods-led; the Fed leans to a December hike. Stress is AI shares and single AI borrowers; the average stock, banks, index junk and mortgage-servicer bonds are not confirming it. Options remain expensive and dealers still amplify moves below about 7,360–7,400.
+Inflation steady at 0.3 a month; the Fed leans to a December hike (crowd 93%, my letter 70%, my view now about 85%). Credit kept widening into Wednesday while stocks recovered; Friday's rally did not include credit. Stress is AI shares and single AI borrowers; the average stock and banks are not confirming it.
 
 ## WILL_NEEDS
 
 None.
 
-*Honest scope: closes are provisional vendor prints; odds are unscored; nothing here moves a gate, threshold, card or trade.*
+*Honest scope: Friday's closes are provisional vendor prints; odds are unscored; nothing here moves a gate, threshold, card or trade.*
