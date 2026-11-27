@@ -1,0 +1,111 @@
+
+000
+NWUS56 KSGX 270201
+LSRSGX
+
+Preliminary Local Storm Report
+National Weather Service San Diego CA
+600 PM PST Thu Nov 26 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+0900 AM     Coastal Flood    2 S Mission Beach       32.77N 117.25W
+11/26/2026                   San Diego          CA   NWS Employee
+
+            Portions of the Mission Bay boardwalk were closed due to
+            water and ocean debris over the boardwalk starting at
+            Belmont Park. Surf heights of 7-12 ft were observed at
+            Mission Beach Thursday morning and high tide was 7.87 ft
+            MLLW.
+
+&&
+
+$$
+CO
+
+
+
+
+000
+NWUS56 KSGX 270154
+LSRSGX
+
+Preliminary Local Storm Report
+National Weather Service San Diego CA
+554 PM PST Thu Nov 26 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+0900 AM     High Surf        3 S Mission Beach       32.75N 117.25W
+11/26/2026                   PZZ740             CA   Broadcast Media
+
+            Damage to Ocean Beach Pier. Large waves removed guard
+            rails on both sides of the pier. Wave heights at Mission
+            Beach were 7-12 ft. High tide was 7.85 ft MLLW.
+
+&&
+
+$$
+CO
+
+
+
+
+000
+NWUS56 KSGX 252011
+LSRSGX
+
+Preliminary Local Storm Report
+National Weather Service San Diego CA
+1211 PM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+0730 AM     Coastal Flood    2 S Mission Beach       32.76N 117.25W
+11/24/2026                   San Diego          CA   Newspaper
+
+            Street flooding reported on Mission Boulevard between
+            Brighton Ct and Balboa Ct in South Mission Beach. High
+            tide was 7.97 feet (MLLW) at La Jolla.
+
+&&
+
+$$
+QD
+
+
+
+
+000
+NWUS56 KSGX 251936
+LSRSGX
+
+Preliminary Local Storm Report
+National Weather Service San Diego CA
+1136 AM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+0820 AM     Coastal Flood    2 SW Huntington Beach   33.68N 118.03W
+11/25/2026                   Orange             CA   Emergency Mngr
+
+            PCH is closed between Seapoint Ave and Warner Ave due to
+            inundation of seawater over the road. High tide this
+            morning was 8.19 ft MLLW around 8:20 AM. Surf of 4-7 ft
+            was observed at Huntington Beach.
+
+&&
+
+$$
+CO
+
+
+

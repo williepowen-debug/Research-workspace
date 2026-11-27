@@ -112,12 +112,12 @@ curl -s -A "Mozilla/5.0" -L "https://www.artemis.bm/catastrophe-bond-market-yiel
 
 ### ✅ VERIFIED 2026-10-08 — offshore SHUT-IN releases (energy theater; BRENT prices them)
 ```bash
-curl -s -A "Mozilla/5.0" -L "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias"
+curl -s -A "research-bot/1.0" -L "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias"
 # strip tags; the table sits after "Total Percentage of GOA": platforms evacuated, rigs, Oil BOPD shut-in + %, Gas MMCFD + %
 ```
 **🔑 FIND THE LATEST RELEASE VIA THE ISSUER'S RSS — verified 2026-10-08 (aeolus-1008b) and 2026-10-09 (this read).** The index page is "Access denied", and update slugs are not guessable (10/7 = `…isaias`, 10/8 = `…isaias2`, **10/9 = `…isaias3`**):
 ```bash
-curl -s -A "Mozilla/5.0" -L "https://www.bsee.gov/rss.xml" | python3 -c "
+curl -s -A "research-bot/1.0" -L "https://www.bsee.gov/rss.xml" | python3 -c "
 import sys,re
 for it in re.findall(r'<item>(.*?)</item>',sys.stdin.read(),re.S):
     t=re.search(r'<title>(.*?)</title>',it).group(1)

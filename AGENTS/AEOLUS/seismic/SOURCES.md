@@ -60,7 +60,7 @@ for v in json.load(sys.stdin):
 
 ### Weekly Volcanic Activity Report (RSS)
 ```bash
-curl -s -A "Mozilla/5.0 (research)" "https://volcano.si.edu/news/WeeklyVolcanoRSS.xml" \
+curl -s -A "research-bot/1.0" "https://volcano.si.edu/news/WeeklyVolcanoRSS.xml" \
  | grep -oP '(?<=<title>).*?(?=</title>)' | head -25
 ```
 **Verified return (8/13): 23 items**, week of **30 July – 5 August 2026**. New eruptive activity: **Etna** (Italy), **Fuego** (Guatemala), **Krakatau** (Indonesia), **Puracé** (Colombia), **Telica** (Nicaragua). Continuing: Aira (Japan), Ambae, Dukono, Great Sitkin, Ibu, Kilauea + others.

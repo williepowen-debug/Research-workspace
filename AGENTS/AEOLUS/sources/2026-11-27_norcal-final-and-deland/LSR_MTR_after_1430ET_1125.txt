@@ -1,0 +1,78 @@
+
+000
+NWUS56 KMTR 252115
+LSRMTR
+
+Preliminary Local Storm Report
+National Weather Service San Francisco CA
+112 PM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+1241 PM     Coastal Flood    1 E Larkspur            37.94N 122.52W
+11/25/2026                   Marin              CA   Law Enforcement
+
+            Roadway flooding reported at US-101 N / Sir Francis Drake
+            offramp.
+
+&&
+
+$$
+FR
+
+
+
+
+000
+NWUS56 KMTR 251950
+LSRMTR
+
+Preliminary Local Storm Report
+National Weather Service San Francisco CA
+1150 AM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+1029 AM     Coastal Flood    1 S Strawberry          37.88N 122.51W
+11/25/2026                   Marin              CA   Law Enforcement
+
+            Roadway Flooding report for Sausalito Onramp / US-101 N.
+            High tide waters reaching onramp.
+
+&&
+
+$$
+FR
+
+
+
+
+000
+NWUS56 KMTR 251935
+LSRMTR
+
+Preliminary Local Storm Report
+National Weather Service San Francisco CA
+1135 AM PST Wed Nov 25 2026
+
+..TIME...   ...EVENT...      ...CITY LOCATION...     ...LAT.LON...
+..DATE...   ....MAG....      ..COUNTY LOCATION..ST.. ...SOURCE....
+            ..REMARKS..
+
+1101 AM     High Surf        2 NW Pacifica           37.63N 122.50W
+11/25/2026                   PZZ545             CA   Public
+
+            Video footage of large breaking wave knocking down part
+            of the Pacific Pier.
+
+&&
+
+$$
+FR
+
+
+

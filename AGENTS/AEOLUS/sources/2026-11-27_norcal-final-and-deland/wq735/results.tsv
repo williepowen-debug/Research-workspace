@@ -1,0 +1,14 @@
+recipe_line	host	request_at_ET	http	bytes	content_type	parser_check
+water/SOURCES.md 166	www.contargo.net	2026-11-27 09:59	200	72966	text/html	gauge table found (dated 19.11.2026)
+water/SOURCES.md 192	www.fastenergy.de	2026-11-27 09:59	200	117147	text/html	Länder table dates 27.11./26.11., 16 rows
+water/SOURCES.md 275+315, PANAMA_SERIES.md 18	pancanal.com (advisory index)	2026-11-27 09:59	200	778464	text/html	1019 PDF anchors
+seismic/SOURCES.md 63	volcano.si.edu RSS	2026-11-27 10:00	200	31540	text/xml	titles parse (week 12-18 Nov 2026)
+C2 instrument 29	www.usda.gov WASDE page	2026-11-27 10:00	200	159363	text/html	page lists 2027
+C2 instrument 30	www.sagis.org.za CEC_Dates_2026.pdf	2026-11-27 10:00	200	359455	application/pdf	pdfminer text read
+C2 instrument 32	bepi.mpob.gov.my	2026-11-27 10:00	200	188208	text/html	Monthly Release line present
+C2 instrument 33	www.fao.org FFPI CSV	2026-11-27 10:00	200	48217	text/csv	header FAO Food Price Index
+hurricane/SOURCES.md 115+120	www.bsee.gov rss.xml	2026-11-27 10:00	200	35425	application/rss+xml	10 items
+wildfire/SOURCES.md 63	home.treasury.gov FIO PDF	2026-11-27 10:00	200	3429278	application/pdf	pdfminer title read
+C3 instrument 101	www.eia.gov STEO_m.xlsx	2026-11-27 10:00	200	1096645	xlsx	zip opens, 98 members
+hurricane/SOURCES.md 100	www.artemis.bm	not requested	-	-	-	NOT switched (PROME 403 11/26)
+candidate replacement	www.insuranceinsiderils.com/data/plenum-indices	2026-11-27 10:01	200	170265	text/html	no spread figures in HTML: not usable

@@ -15,7 +15,7 @@
 **A different path on the same host returns the COMPLETE archive, server-rendered, at HTTP 200:**
 
 ```bash
-curl -sLk -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" \
+curl -sLk -A "research-bot/1.0" \
   "https://pancanal.com/en/maritime-services/advisory-to-shipping/"
 ```
 

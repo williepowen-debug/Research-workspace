@@ -8,7 +8,15 @@
 **Maintain first-class tracking on MAJOR RIVER water shortages — especially where they affect SHIPPING / TRADE.** Will confirmed C6 water stays inside AEOLUS (no standalone agent for now) AND named the river→navigation→freight nexus as a priority. Coverage split: **C5 = river NAVIGATION→freight** (Rhine, Mississippi/Ohio; the "affects shipping/trade" leg; current score in STATUS); **C6 = water ALLOCATION** (Colorado reservoirs/shortage-tiers/hydropower). Keep a standing scan on the major navigable trade rivers: **Rhine, Mississippi/Ohio, Yangtze, Danube, Paraná** + Panama chokepoint. An empty river read is a gap to close (the #1 guard applies to this watch).
 *(August trade lines resolved 8/12 → `archive/SCRATCH_ARCHIVE_2026-11-23_august-trade-lines.md`. No live trade instruction stands here; TRADE.md row 1 = not armed.)*
 
-## 🔴 NEXT SESSION — START HERE (2026-11-25 14:42 ET close, PROME due-row wake D:L1256 owed #23, Claude Code Opus 5.5)
+## 🔴 NEXT SESSION — START HERE (2026-11-27 ~10:10 ET close, PROME due-row wake D:L1256, Claude Code Opus 5.5)
+
+1. **Florida St. Johns (owed #24):** DeLand 6.21 ft [08:30 ET 11/27], forecast 6.6 from 12/01 held to 12/04 vs 6.33 record (KB-340, ~85% observed record by Sun). CORAL packet sent 11/27; CORAL wakes 11/30. Named-building tripwire for Will's weekend condition: Sanford 9.5 ft (Sanford Landing Apartments), forecast 8.9. Read NWPS DLAF1/SNFF1/ASTF1 first thing.
+2. **Record "European low water ended"** once 11/27 is a complete day (9 of 10 at 11/26; 11/27 partial 201.7, n=64). PEGELONLINE KAUB W.
+3. **water/SOURCES.md is at 77% of its read budget (25,117 B):** rotate dated history verbatim to archive until under 22,785 B (KB-342 residue).
+4. NorCal #23 closed on complete-day data (KB-338); only CO-OPS verified values remain (~12/31). WQ-735 recipes switched (KB-341); artemis.bm unswitched, "none found" sent to PROME for 12/07.
+5. Then the 11/25 block below (Memphis, SA CEC final, alert-vs-measurement pass = owed #25).
+
+## (prior) NEXT SESSION — START HERE (2026-11-25 14:42 ET close, PROME due-row wake D:L1256 owed #23, Claude Code Opus 5.5)
 
 1. **#23 DONE** (KB-334…336): Arena Cove 9.216 record; Santa Barbara 8.209 record; Monterey 8.032 one sample; SF 8.213, North Spit 9.814, Crescent City 9.741 not. **Record basis from now: above BOTH NOAA top-ten (`dpapi ... name=toptenwaterlevels`) and the 6-min series; between = name the basis (KB-335).** Residue: North Spit data ended 14:24 ET inside its window to 16:00 ET (falling); verified (q=v) values later. CO-OPS answered 18 paced requests at 14:32–14:37 ET (3 s, default curl, `application=research`). Thu highs next (SD predicted 7.303 at 09:19 PST); Oregon/Charleston 11/25 still rising at my read.
 2. **December view (unscored):** a new high at SD, LJ, SB or Arena Cove on 12/23–25 ~60%; SF ~20% (needs residual +1.43 at 12/24 predicted 7.23; 11/24–25 gave +1.29 / +1.18). Re-read the mid-December residual (CO-OPS 12/1–15) before 12/23.
@@ -46,7 +54,7 @@
 PROME: one recommendation (SUPERSEDES packet 11/23, KB-325): river-only exit offered, property replacement withdrawn, forecasts MWD 50% and FL rain 75% OFFERED NOT REGISTERED (Will 18:28 ET), WQ-738 count (KB-316: full C2→4 step 1–2 of 36 seasons), diff reads, recipe test row 11/27, artemis.bm on the 12/07 list, `_NETWORK.md` note · AEO-17 re-date (DOCKET 11/24). TERRY: Panama, Memphis, FL/CA floods. CARL: Panama, Memphis. CORAL: rain 17.59 in, tornado, flood watches.
 
 ### RULES TO REMEMBER
-⛔ **WQ-735: no "Mozilla" request;** default client name, stop on a refusal; do not switch the 10 `SOURCES.md` lines until PROME's packet. Blocked 11/23: FICH (Paraná), CJH (Yangtze timeout), artemis.bm, pslc.org, 8newsnow. WQ-736/737/738 encoded (KB-311/316); neither 4 step has a come-down rule. Owed register: STATUS.
+⛔ **WQ-735: no "Mozilla" request;** default client name, stop on a refusal; recipe lines switched to `research-bot/1.0` 11/27 on PROME's packet (KB-341); artemis.bm stays unswitched until Will rules 12/07. Blocked 11/23: FICH (Paraná), CJH (Yangtze timeout), artemis.bm, pslc.org, 8newsnow. WQ-736/737/738 encoded (KB-311/316); neither 4 step has a come-down rule. Owed register: STATUS.
 
 ### ⬇️ ROTATED — history lives in `archive/`
 - `archive/SCRATCH_ARCHIVE_2026-11-23_11-22-block.md` — the 11/22 pickup block, verbatim.

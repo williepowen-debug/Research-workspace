@@ -60,7 +60,7 @@ Drought was originally filed in this folder because it was the instrument I was 
 ### 🔑 Non-renewal rate — NATIONAL + REGIONAL, verified 2026-08-27
 **US Treasury FIO, "Analyses of U.S. Homeowners Insurance Markets, 2018-2022: Climate-Related Risks and Other Factors" (Jan 2025)** — built on the NAIC/FIO PCMI Data Call (80% of HO-3/HO-5 policies nationwide by premium).
 ```
-curl -sL -A "Mozilla/5.0" -o fio_report.pdf "https://home.treasury.gov/system/files/311/Analyses_of_US_Homeowners_Insurance_Markets_2018-2022_Climate-Related_Risks_and_Other_Factors_0.pdf"
+curl -sL -A "research-bot/1.0" -o fio_report.pdf "https://home.treasury.gov/system/files/311/Analyses_of_US_Homeowners_Insurance_Markets_2018-2022_Climate-Related_Risks_and_Other_Factors_0.pdf"
 python3 -c "from pdfminer.high_level import extract_text; open('fio_report.txt','w').write(extract_text('fio_report.pdf'))"
 grep -n -i "nonrenewal rate" fio_report.txt
 ```

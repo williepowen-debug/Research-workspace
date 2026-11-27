@@ -163,7 +163,7 @@ curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/WV
 ### ✅ RHINE BARGE FREIGHT — GAP CLOSED 2026-09-28
 **① Contargo surcharge (KWZ)** — DAILY, by gauge:
 ```bash
-curl -sL -A 'Mozilla/5.0' "https://www.contargo.net/de/business/business-news/detail-business/pegelstaende-am-rhein-und-kleinwasserzuschlag-1/" \
+curl -sL -A "research-bot/1.0" "https://www.contargo.net/de/business/business-news/detail-business/pegelstaende-am-rhein-und-kleinwasserzuschlag-1/" \
  | python3 -c "
 import re,html,sys
 s=re.sub(r'<script.*?</script>|<style.*?</style>','',sys.stdin.read(),flags=re.S)
@@ -189,7 +189,7 @@ for x in json.load(sys.stdin)['value']:
 Base: dry-spot 2018 **+87%**, 2022-Q3 **+104% y/y**. ⚠️ Fuel contaminates; **n=2 — NO band.** 2026-Q3 = first print of this event.
 **③ TANKER** — no free €/t. (a) CBS `A042619`: level and y/y disagree — quote both. (b) `https://www.insights-global.com/category/blogs/freight-rates/` — direction + deal counts only. (c) press quotes → `LOG.tsv`. (d) fastenergy.de, €/100 L, no history:
 ```bash
-curl -sL -A 'Mozilla/5.0' "https://www.fastenergy.de/heizoelpreise.htm" \
+curl -sL -A "research-bot/1.0" "https://www.fastenergy.de/heizoelpreise.htm" \
  | python3 -c "
 import re,html,sys
 s=re.sub(r'<script.*?</script>|<style.*?</style>','',sys.stdin.read(),flags=re.S)
@@ -272,7 +272,7 @@ St. Louis peaks: 2022 **2,653%** · 2023 **1,326%**; 9/22 834.7%. ⚠️ **Compa
 ### 🔴 Panama — INSTRUMENT GAP CLOSED 2026-08-13
 ACP Monthly Canal Operations Summary — **oceangoing transits, daily average**.
 ```bash
-curl -sL -A "Mozilla/5.0 (research)" \
+curl -sL -A "research-bot/1.0" \
  "https://pancanal.com/wp-content/uploads/2026/04/ADV-14-2026-Monthly-Canal-Operations-Summary-April-2026-.pdf" -o adv.pdf
 python3 -c "from pdfminer.high_level import extract_text; print(' '.join(extract_text('adv.pdf').split()))"
 ```
@@ -312,7 +312,7 @@ A-27-2024: **85.02 ft** — a spot reading, not a series.
 ### ✅ THE COMPLETE ADVISORY ARCHIVE — a WORKING path beside the known-bad one
 ⚠️ PLURAL `advisories-to-shipping/` truncates at A-46-2024. ✅ SINGULAR = complete (1,005 PDFs):
 ```bash
-curl -sLk -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://pancanal.com/en/maritime-services/advisory-to-shipping/"
+curl -sLk -A "research-bot/1.0" "https://pancanal.com/en/maritime-services/advisory-to-shipping/"
 ```
 
 ### 🔴 STILL-TRUE NEGATIVES (now n=33, scoped to the statistics table)

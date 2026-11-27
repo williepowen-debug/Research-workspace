@@ -98,7 +98,7 @@ HTTP 200, 86,898 B, header "300 PM EDT THU 17 SEP 2026". Monthly mean plus 90%/1
 
 ### 1d. EIA STEO regional HDD (forecast; carries EIA's own "prior 10-year average")
 ```
-curl -sL -A "Mozilla/5.0" -o STEO_m.xlsx "https://www.eia.gov/outlooks/steo/xls/STEO_m.xlsx"
+curl -sL -A "research-bot/1.0" -o STEO_m.xlsx "https://www.eia.gov/outlooks/steo/xls/STEO_m.xlsx"
 ```
 HTTP 200, 1,098,385 B. Sheet `9ctab` "U.S. Regional Weather Data" has series `ZWHDPUS`, `ZWHD_NEC/MAC/ENC/SAC…` and `…_10YR` ("Heating Degree Days, Prior 10-year average"). Forecast date: Thursday, October 1, 2026 (October STEO). Footnote: *"Regional degree days … calculated by EIA as contemporaneous period population-weighted averages of state degree day data published by NOAA."* Reading it needs `openpyxl` (present in `.venv`; absent in system python).
 

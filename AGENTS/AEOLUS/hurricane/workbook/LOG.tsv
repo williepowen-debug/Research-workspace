@@ -103,3 +103,4 @@ date	event	detail	source	pulled_at	routed_to
 2026-11-23	nhc_two	1 PM EST 11/23: tropical cyclone formation not expected during the next 7 days. KB-AEO-309	NHC-TWO	2026-11-23 14:04 ET	
 2026-11-24	c1_tag_cited	KB-AEO-329 carries a C1 tag for the insurance read only (tidal flood outside homeowners and FAIR Plan; NFIP only). No NHC product read this session. Done directly by AEOLUS	KB-AEO-329	2026-11-24 23:38 ET	
 2026-11-25	c1_tag_cited	KB-AEO-336 carries a C1 tag for the insurance read only (Wed 11/25 tidal flood impacts are NFIP or uninsured, immaterial). No NHC product read this session. Done directly by AEOLUS	KB-AEO-336	2026-11-25 14:40 ET	
+2026-11-27	wq735_recipe_switch	hurricane/SOURCES 115/120 (bsee.gov) moved to research-bot/1.0, RSS HTTP 200 10 items; line 100 artemis.bm NOT switched (403 bot challenge per PROME 11/26), no replacement found. No NHC product read. KB-AEO-341	curl bsee.gov/rss.xml	2026-11-27 10:04 ET	PROME

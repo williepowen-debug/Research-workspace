@@ -26,11 +26,11 @@
 | CPC ONI | `curl -sS -o oni.ascii.txt "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt"` | HTTP 200; last row `JAS 2026 29.12 2.16`; sha256 `5d6fa3a2f857d916…` |
 | NASS Crop Progress (revived) | `P=$(curl -sS "https://esmis.nal.usda.gov/publication/crop-progress" \| grep -oE '/sites/default/release-files/[0-9]+/prog[0-9_]+\.txt' \| head -1); curl -sS "https://esmis.nal.usda.gov$P" -o prog.txt; grep -A22 '^Corn Condition - Selected States' prog.txt \| grep -E '^1[0-9] States'` | HTTP 200 text/plain; latest `prog4026.txt` "Released October 5, 2026"; the 18-States row parses |
 | WASDE text | `curl -sS -o wasde1026.txt "https://esmis.nal.usda.gov/sites/default/release-files/796099/wasde1026.txt"` (also `…/796054/wasde0926.txt`; also at `https://www.usda.gov/oce/commodity/wasde/wasde1026.txt`) | HTTP 200 |
-| WASDE schedule | `curl -sS -L -A "Mozilla/5.0" "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report"` | HTTP 200; 2026 and 2027 date lists (§5) |
-| SA CEC dates | `curl -sS -A "Mozilla/5.0" -o CEC_Dates_2026.pdf "https://www.sagis.org.za/wp-content/uploads/2025/08/CEC_Dates_2026.pdf"`, then pdfminer | Department of Agriculture meeting-dates sheet (§5) |
+| WASDE schedule | `curl -sS -L -A "research-bot/1.0" "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report"` | HTTP 200; 2026 and 2027 date lists (§5) |
+| SA CEC dates | `curl -sS -A "research-bot/1.0" -o CEC_Dates_2026.pdf "https://www.sagis.org.za/wp-content/uploads/2025/08/CEC_Dates_2026.pdf"`, then pdfminer | Department of Agriculture meeting-dates sheet (§5) |
 | SA CEC 8th estimate | `…/wp-content/uploads/2026/09/CEC_2026-09-29.pdf` | §4 |
-| MPOB | `curl -sS -L -A "Mozilla/5.0" "https://bepi.mpob.gov.my/"` | "Monthly Release of Malaysian Palm Oil Industry Performance (September 2026) Release Date: 12th October 2026"; "release on 10th. of every month by 12.30 noon"; statistics are behind a login |
-| FAO FFPI | `curl -sS -L -A "Mozilla/5.0" -o ffpi.csv "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?sfvrsn=523ebd2a_84&download=true"` | HTTP 200, `last-modified: Fri, 02 Oct 2026 13:25:45 GMT` (the `sfvrsn` token rotates monthly; take the current link from the FFPI page) |
+| MPOB | `curl -sS -L -A "research-bot/1.0" "https://bepi.mpob.gov.my/"` | "Monthly Release of Malaysian Palm Oil Industry Performance (September 2026) Release Date: 12th October 2026"; "release on 10th. of every month by 12.30 noon"; statistics are behind a login |
+| FAO FFPI | `curl -sS -L -A "research-bot/1.0" -o ffpi.csv "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?sfvrsn=523ebd2a_84&download=true"` | HTTP 200, `last-modified: Fri, 02 Oct 2026 13:25:45 GMT` (the `sfvrsn` token rotates monthly; take the current link from the FFPI page) |
 
 ---
 
