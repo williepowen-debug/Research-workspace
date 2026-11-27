@@ -19,6 +19,12 @@ Copy this into `setups/YYYY-MM-DD_<ticker>_<structure>.md` for every actionable 
 - [ ] Catalyst dates checked
 - [ ] Thesis owner current enough
 
+## 0b. Construction habits (Will 2026-11-26 21:32 ET, "yes send TERRY the four habits with those adjustments"; practice, not a rule; PROME packet `inbox/processed/2026-11-26_from-PROME_will-word-four-construction-habits.md`)
+- [ ] **Checkable entry conditions only.** Every entry condition can be verified by a desk from a source it can reach. If Will adds one at approval that cannot be checked, tell him then, in the window where he adds it.
+- [ ] **Window reaches the time stop.** The entry window runs to the card's own time stop; the card says the approval stays open that long. Live price check at entry unchanged (root rule #4).
+- [ ] **Cap from a priced chain.** The cost cap is set from a priced option chain (a screen, re-checked at order time). A cap set below the quote on purpose is allowed; the card says it is deliberate.
+- [ ] **Flag a tight exit, do not widen it.** If an exit sits inside one day's normal move of the last print, say so on the card with the distance in figures and let Will choose. Not writing the card that day is an acceptable answer.
+
 ## 1. One-line setup
 [What this trade is trying to express, in trader language.]
 
