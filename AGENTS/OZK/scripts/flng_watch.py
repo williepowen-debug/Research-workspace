@@ -20,7 +20,9 @@ import sys
 import urllib.request
 
 API = "https://securitiesfilings.fdicconnect.fdic.gov/api/instflng/cert/110"
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
+# Honest client name (WQ-735, Will 2026-11-23; PROME packet 849a416ff2). Switched 2026-11-27 from a browser string.
+# If this host later refuses it: do NOT switch back; the watch reads UNKNOWN (rc 2) and PROME gets a packet.
+UA = "research-bot/1.0"
 # Baseline = newest filing already READ by the desk. Advanced 2026-10-22 (D:L793 item 4) from 11981 (Q2'26 10-Q,
 # 2026-08-05) to 12022 (Q3'26 8-K bundle, 2026-10-20) — 12019 (10/12 RaDD 8-K) and 12022 were both read, and
 # leaving the baseline behind printed them as NEW at every boot. Advance it again after each filing is read.
