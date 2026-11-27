@@ -1,6 +1,6 @@
 # VIOLET — session handoff
 
-**As of:** November 27, 2026 (Friday), 10:12 ET (from `date`).
+**As of:** November 27, 2026 (Friday), 10:07 ET (from `date`; corrected from a typed 10:12).
 - **Task:** D:L1292 (History check of the 11/25 close) and D:L342 (11/26 holiday-bar check), PROME prome-80 wake; whole-inbox drain.
 - **Limits:** $0; no band, threshold or letter change. Convergence re-score was the task.
 - **Canonical numbers:** [STATUS](STATUS.md); record `research/2026-11-27_history-confirm/GRADE.md`; KB-VIO-411, -412.

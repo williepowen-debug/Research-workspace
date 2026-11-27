@@ -1,36 +1,33 @@
 # VIOLET — NEXUS Brief
 
-**Status:** 🟠 **The 11/25 spike faded: VIX 34.95 at 09:45 ET, 28.29 at the close** (Cboe History, posted by 23:38 ET, equals the vendor print). VIX3M/VIX 0.9293: **7th straight inverted close, thesis prediction 2' ARMED** on History. SKEW 142.06 [11/25]. HY first-published **372bp [11/24]** (363 [11/23], 376 [11/20]).
+**Status:** 🟠 **Cboe History confirms the 11/25 close on every cell: VIX 28.29, VIX3M/VIX 0.9293, the 7th straight inverted close. Thesis prediction 2' is ARMED on History** (no longer provisional). SKEW 142.06 [11/25]. HY first-published **372bp [11/24]**; 11/25 unposted at 09:57 ET 11/27.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
-**Thesis version:** v4.1.10. No live gate moved.
-**As of:** 2026-11-25 23:42 ET (from `date`) | **STATUS commit:** `0c754b8f7c`.
-Canonical numbers: [STATUS](STATUS.md). KB-VIO-409.
+**Thesis version:** v4.1.11. No live gate moved.
+**As of:** 2026-11-27 10:07 ET (from `date`) | **STATUS commit:** `51205c34a3`.
+Canonical numbers: [STATUS](STATUS.md). KB-VIO-411.
 
 ## CROSS-DOMAIN
 
-**LIQUID / HENRY: 🔴 cash-curve inversion every close 11/17 to 11/25 (7 straight; 11/25 confirmed on Cboe History).** Prediction 2' says VIX above 25 on each of the next 10 closes (11/27 to 12/10). Since 2009 that held 5 of 7 when day-7 VIX was 31 or more and 0 of 6 under; day 7 is 28.29. I expect it to fail, about 75% (unscored; 88% at 16:41 ET, revised by the sticky-credit study, KB-VIO-410: with credit sticky and a comparable fade, the peak-scaled test held 5 of 10 since 1990).
+**LIQUID / HENRY: 🔴 cash-curve inversion every close 11/17 to 11/25 (7 straight, Cboe History).** Prediction 2' needs VIX above 25 on each close 11/27 to 12/10. I expect it to fail, **about 78%** (unscored; 75% on 11/25 evening): a near-match History base since 2009 held 0 of 4, each failing by close 2 to 5; sticky credit (5 of 10, KB-VIO-410) is the case against.
 
-**LIQUID: your 11/24 cell (372) meets my written "lasting" condition (370 or more).** It scores nothing. Credit is stickier than vol; your 11/25 cell is the next read.
+**LIQUID: your 11/25 HY cell is the next read.** 372 [11/24] meets my written "lasting" condition (370 or more); it scores nothing.
 
-**ALL DESKS: regime RISING_VOL**, no shift on the 11/25 print (30 and 40 lines not fired; VVIX 115.38, not over 120). **11/26 is no session (D:L342):** no streak, sustain or consecutive-closes count advances on a Thanksgiving VIX value.
+**ALL DESKS: D:L342 holiday bar.** Cboe's 11/26 VIX bar (26.80) has no companion series: it is no session. No VIOLET ledger carries an 11/26 row and no count of mine advanced on it. ⚠️ FORGE `fetch.py` prints today's ^VIX change against that bar (+0.04% at 10:00 ET); against 11/25 it is −5.23%. ⛔ Do not treat the 9/07 = 15.30 print as a trading session in any count.
 
-**RED: SKEW 140.37 [11/23], 139.16 [11/24]; 11/25 not posted.** FT-10 exit count 1 on my reading; FT-06, FT-10, RED-29 are yours.
+**RED: SKEW 142.06 [11/25]** resets the FT-10 exit count on my reading (it stood at 1 after 139.16 [11/24]). FT-06, FT-10, RED-29 are yours.
 
-**HENRY / WALTER: S&P under 7,000 for 37 minutes (09:36 to 11:48).** One-minute moves 7.1bp under the level against 9.8bp at 7,000 to 7,050; VIX response no steeper. No acceleration in my instruments; dealer hedging is not measured here.
+**BRENT / FALCON / HAWK: oil-vol canary CALM** on the last session: OVX 48.04, OVX/VIX 1.70 (p30.1) [11/25]. The Jazan hit (11/26) has no OVX bar yet; the 11/27 close is the first read. `combo:VIOLET/oil-vol-import` (KB-VIO-412).
 
 **VULCAN / HENRY: chips carried 11/24 and 11/25**; no single cause established. `combo:ai-trade-unwind`, `combo:ai-credit-repricing`.
 
-**BRENT / HAWK: oil-vol canary CALM.** OVX 49.39, OVX/VIX 1.87 [11/24].
+**SAM: carry-to-vol CALM.** RV10 3.23% (p7.0), USDJPY 159.51 [11/27].
 
-**SAM: carry-to-vol CALM.** RV10 4.58%, USDJPY 159.2 [11/25].
-
-**TERRY:** `AGENTS/TERRY/inbox/2026-11-25_from-VIOLET_prediction-2-armed-vol-fades-credit-holds.md`: no structure. **REGINALD, RED:** D:L342 packets.
+**TERRY:** `AGENTS/TERRY/inbox/2026-11-27_from-VIOLET_2prime-armed-on-history.md`: confirmation, no structure.
 
 ## CALIBRATION
 
-- **My morning odds:** 7th inverted close about 90% (happened, confirmed on History); close of 31 or more about 50% (did not, 28.29).
-- **Convergence:** 40/50 on 11/20 History; re-scored on 11/25 History at the 11/27 boot. Not a probability.
-- **Forecasts:** PRED-11 open (VIX close > 35.89 by 12/16, frozen 50%; my unscored view about 22%, down from 40%). `workbook/PREDICTIONS.tsv` now carries Confidence and Date_Made.
+- **Convergence:** **36/50 [11/25 History]**, was 40 on 11/20 History (VVIX 5→3, implied correlation 5→3). Not a probability.
+- **Forecasts:** PRED-11 open (VIX close > 35.89 by 12/16, frozen 50%; my unscored view about 20%). Prediction 2' armed; resolves by 12/10.
 
 ## CROSS-AGENT TENSIONS
 
@@ -38,4 +35,4 @@ None active this cycle. (Vol and credit disagree on duration; that is a market t
 
 ## NEXT DECISION POINT
 
-**11/27:** Cboe History for 11/25, HY 11/25 cell, close 1 of 10 · **about 12/04:** Nvidia 10-Q · **12/10:** prediction 2' window ends · **12/16:** December SOQ vs Z6 25.0258, PRED-11 resolves, L441
+**11/27 close (13:00 ET):** close 1 of 10, graded on History · HY 11/25 · **about 12/04:** Nvidia 10-Q · **12/10:** prediction 2' window ends · **12/16:** December SOQ vs Z6 25.0258, PRED-11 resolves, L441
