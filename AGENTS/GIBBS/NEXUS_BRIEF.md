@@ -1,9 +1,9 @@
 # GIBBS — NEXUS Brief
 
-**Status:** 🟡 Large banks: Q3 read unchanged (deposit repricing shared, CRE mostly recognition, stress at PNC office and possibly Goldman CRE, Goldman's $368M unattributed); Will kept the desk 11/16 (WQ-692, premise: watch the bigger banks); JPMorgan's 11/16 outage and 11/19 vendor marketing-data exposure move no read and name no other of the 16; Fed FSR: largest BHCs close to $1T exposure to tech, data-center, computing-SPE, private-credit and utility borrowers (size, not stress)
+**Status:** 🟡 Large banks: Q3 read unchanged (deposit repricing shared, CRE mostly recognition, stress at PNC office and possibly Goldman CRE, Goldman's $368M unattributed); Will kept the desk 11/16 (WQ-692, premise: watch the bigger banks); JPMorgan's 11/16 outage and 11/19 vendor marketing-data exposure move no read and name no other of the 16; Fed FSR: largest BHCs close to $1T exposure to tech, data-center, computing-SPE, private-credit and utility borrowers (size, not stress); 11/26 drain (20 items) moves no read: no credit or Item 1.05 8-K at the 16 11/19-11/26, GS and MS led the large-bank fall vs KRE 11/13-11/25
 **Domain:** 16 US Category I-III banks as REGINALD's comparison group (Q1 industry-wide vs regional-only) and large-lender NDFI transmission (Q2, one figure with BROCK); large-bank consequence of CYPHER's cyber events
-**Recent thesis pivot:** no analytical pivot; desk-level: WQ-692 RULED KEEP 2026-11-16 (encoded 0655c7135b), the 11/16 zero-cite R0 result stands as a fact. New 11/19: Fed FSR figure logged as Q2 context, unsplittable to the 16 (KB-GIB-070); JPMorgan events KB-GIB-068/069
-**As of:** 2026-11-19 12:04 ET | STATUS commit: `140b247b37`
+**Recent thesis pivot:** no analytical pivot; desk-level: WQ-692 RULED KEEP 2026-11-16 (encoded 0655c7135b), the 11/16 zero-cite R0 result stands as a fact. New 11/19: Fed FSR figure logged as Q2 context, unsplittable to the 16 (KB-GIB-070); JPMorgan events KB-GIB-068/069. New 11/26: KB-GIB-074..080 (Barclays US and Citi CGML to the exclusions register; nonbank mortgage lines; FDIC QBP; tape)
+**As of:** 2026-11-26 22:42 ET | STATUS commit: `fe2ea51322`
 
 ---
 
@@ -23,7 +23,7 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
 | REGINALD | Q4 cohort reads on the same items and basis (HBAN stays in its frozen cohort, no hand-off condition, packet 2026-11-16) | mid-January 2027 | Tags need the same item, quarter and basis | NOT-YET-DETERMINABLE rows resolve to INDUSTRY-WIDE or REGIONAL-ONLY |
-| CYPHER | JPMorgan vendor names and customer count (CYB-INC-086); n0n link; R1 flip | 11/24 · R1 flip 11/20 | A named vendor could reach other perimeter firms | A vendor shared with another of the 16, or an 8-K Item 1.05, turns a no-read event into a graded consequence |
+| CYPHER | JPMorgan vendor names and customer count (CYB-INC-086, still none at the 11/26 re-check); n0n link | next CYPHER read | A named vendor could reach other perimeter firms | A vendor shared with another of the 16, or an 8-K Item 1.05, turns a no-read event into a graded consequence |
 
 ---
 
@@ -52,7 +52,7 @@
 ## NEXT DECISION POINT
 
 - **What:** the Q4 print cluster: Goldman's other-collateralized charge-offs and nonaccruals, PNC office, custody deposits, NII guides, any NDFI reserve line.
-- **When:** from about 2027-01-13 (usual JPM/C/WFC/GS week, not verified at any issuer).
+- **When:** from 2027-01-14 (JPMorgan and Citi, at issuer pages; BAC and BNY 2027-01-15 and USB 2027-01-19 from search summaries); FY2026 10-K deadline 2027-03-01.
 - **What would falsify the trigger:** an earlier 8-K at one of the 16 (credit, Item 1.05 cyber, or enforcement) wakes the desk before then.
 
 ---
@@ -61,7 +61,5 @@
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 2026-11-20 | CYPHER R1 flip date | KB-GIB-025 re-dated on a named victim or none |
-| 2026-11-24 | CYPHER re-check of JPMorgan's vendors (CYB-INC-086) | Vendor named; customer count; any other of the 16 named |
 | 2026-12-18 | Vendor-guidance comment file after the 12/16 close (D:L798; extended from 11/16) | BPI/ABA substantive letters; any letter by one of the 16 (log only) |
-| 2027-01-13 | Q4 print cluster | Four-item read, tagged against REGINALD; GIB-01 grading starts (Goldman first tell) |
+| 2027-01-14 | Q4 print cluster (JPMorgan, Citi) | Four-item read, tagged against REGINALD; GIB-01 grading starts (Goldman first tell) |
