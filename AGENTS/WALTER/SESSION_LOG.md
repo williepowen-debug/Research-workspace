@@ -1,3 +1,17 @@
+## 2026-11-27T21:23:50Z TIER 2 FULL CLOSEOUT — WALTER walter-dd, laptop, Fri 11/27, Will's word 16:20 ET ('Lets do a close out now')
+
+Session since the 04:03:03Z full closeout: outside review of the filter review accepted (addendum 11/27); correction 20261127-001 (SoftBank); dispatch_card.py refuses YEYOU and BARON; PROME's treasury_auctions repair confirmed in collector run 46043724643; 11/27 lane card 002; WQ-757 RULED A (Will 16:02 ET) encoded: FORMAT_SPEC v0.30 (confidence keyword first), dispatch_card.py doorbell prompt, intake_scan stale display for PROME's collector flag (Research-Intake a768de3); inbox 3 consumed (PROME, OSPREY, VULCAN; BM-20261127-03 2/2 NOTE); card 003 ROUTINE (DeLand forecast 6.6, Sanford 8.86 vs 8.96) at closeout. 0 kills, 0 cluster_mediating. FILTER POSTURE unchanged (BALANCED). spec changes: FORMAT_SPEC v0.30 (confidence_language keyword first, then optional free text; no checker); CHECKLIST v0.57 dependent lines only (no version bump); STATE row.
+
+### STATUS text rotated verbatim at this closeout
+
+BOTTOM LINE paragraph as it stood:
+
+**November 26, full closeout (Thanksgiving night, laptop, 2026-11-27T04:03:03Z):** no WALTER session in the day; boot 22:22 ET, gaps closed later in the session except CREED and HANS cells whole. Cards 20261126-001 to -008; BOARD 2,397. **IMMEDIATE: 003** Saudi Jazan REFINERY hit 11/26 (Energy Ministry: projectile, fire, some operations suspended, one worker killed; coalition blames the Houthis; found late by the title skim). FALCON graded it, marks held 1/14/85; BRENT graded BRT-32, BG-02 NOT MET (both PROME in-session spawns). 004 two Italian Rheinmetall technicians killed in Kuwait, Iran blamed and denies. 001 DeLand observed 6.12 ft 21:30 ET, second highest, forecast 6.5 ft Sun 11/29 vs the 6.33 record. 002 Gulf of Finland ship = Sparta II, ro-ro cargo, not a tanker (HAWK, OSPREY 11/27). 005 small items; 006 bookmarks (Lukoil International deal with a US government stake; Estonia closes Russia road crossings 12/1); 007 Tokyo Nov CPI core 2.9, core-core 2.5 (secondary); 008 night sweep (Brent January settled 96.57, +2.1%, search summaries). No WALTER row fired; HY 11/25 unposted.
+
+DATED MARKET OBSERVATIONS row as it stood:
+
+| November 25 close and evening (vendor and FRED; read 16:05 to 22:47 ET) | S&P 7,182.78 close (HENRY red 7,037.04 NOT FIRED), ^VIX 28.29 at the 16:15 print (VIOLET provisional; high 28.89 since 14:25), KRE 69.84, WAL 70.76, HYG 76.52, BZF27 95.18 at 22:36 ET evening trade (not a settle), ES 7,239.75 evening. FRED HY 372, CCC 1,405, VIXCLS 26.36, T5YIFR 2.13, SOFR 3.94 [11/24]; claims 189,000 [w/e 11/21]. TE 11/25: Bund 3.2209, gilt 5.136, BTP 4.3685, OAT 4.738. Cushing 25.613M [w/e 11/20]. UNKNOWN: SKEW, HY Energy, HANS-T-08, T-14. Evidence: research/2026-11-25_evening-boot/THRESHOLD-SCAN.md. |
+
 ## 2026-11-27T04:03:03Z TIER 2 FULL CLOSEOUT — WALTER Thanksgiving night session, laptop, Thu 11/26, Will's word 23:02 ET ('lets do a close out here to cement our updates')
 
 Clears the 03:39:33Z light breadcrumb. Cards 20261126-001 to -008 (003 IMMEDIATE). Boot 22:22 ET PARTIAL; gaps closed on Will's 22:42 ET word (steps 6, 6b in part, 7h, 8, 9, 9b, Tokyo CPI); night news sweep on his 22:52 ET word (card 008); bookmarks re-checked 04:01Z, 0 new. 1 kill (diesel-ban October date trap), 0 cluster_mediating. FILTER POSTURE unchanged (BALANCED). Near-trigger: none new. Routing gap: card 004 omitted SAM from info (GEOPOL_ENERGY default).

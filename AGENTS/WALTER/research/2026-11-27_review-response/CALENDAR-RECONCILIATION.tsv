@@ -1,0 +1,7 @@
+series	period	release_date	owner	status	ref
+FRED ICE BofA HY OAS, CCC	2026-11-25 cell	2026-11-27	LIQUID	PUBLISHED, ROUTED	card SIG-W-20261127-002 (377, CCC 1,417); LIQUID, REGINALD, HENRY graded 11/27
+US releases	-	2026-11-27	HENRY	NONE SCHEDULED	equity early close 13:00 ET (HENRY ECON_CALENDAR line 26)
+MOFCOM 公告2024年第46号 clause 2 suspension end	-	2026-11-27	ZHAO	OWNER-COMPLETED	DOCKET row RESOLVED 2026-11-25: extended to 2027-01-27 (公告2026年第59号, KB-ZHAO-293)
+BRT-33 prediction resolution	-	2026-11-27	BRENT	OWNER-COMPLETED	BRENT 026c945f47 / e12ed40927: FAILED (NO)
+CBOE holiday-bar check	2026-11-26	2026-11-27	VIOLET	OWNER-COMPLETED	DOCKET RESOLVED 10:13 ET 11/27 (VIOLET 51205c34a3)
+Treasury auctions (lane feed)	through 2026-11-27	2026-11-27	BOND	PUBLISHED, NOT WEAK	collector 2788b49 (17:43Z): 40 auctions, none weak; no card owed

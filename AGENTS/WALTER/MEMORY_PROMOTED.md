@@ -508,3 +508,7 @@ November 25 Wednesday (walter-7f, laptop): a VIX-over-30 morning with two owner 
 ## Rotation 2026-11-27T04:03:40Z (the 11/25 evening walter-4d session note, verbatim)
 
 November 25 evening (walter-4d, laptop): the walter-7f window closed by accident and its open items survived only in its transcript; reading the transcript (~/.claude/projects/<cwd>/*.jsonl, newest before this session) recovered them. Write offers and asks into LAST_COMPLETION when they are made, not at closeout. A Saudi Red Sea port hit was public from about noon and was carded at 20:06 ET: the RESUME list in LAST_COMPLETION names IMMEDIATE-if events, and a boot must search each one, not only read the list. A collector run after --mark rewrites the day's batch: the evening scan holds new titles. Rotation of the prior note: MEMORY_PROMOTED.md § Rotation 2026-11-26T03:51:33Z.
+
+## Rotation 2026-11-27T21:25:59Z (the 11/26 Thanksgiving night session note, verbatim)
+
+November 26 Thanksgiving night (laptop): no WALTER session ran in the day, and the Jazan REFINERY hit (Energy Ministry, public about 10:19 ET) was found at the night boot (card 003 dispatched 03:34:22Z) only by the 7e(h) title skim, not by any alert or watch hit; on a holiday with live theaters, the title skim is the only net. PROME launched FALCON and BRENT within minutes of a SendMessage naming the card ID; message PROME on every IMMEDIATE when it is live. Rotation of the prior note: MEMORY_PROMOTED.md § Rotation 2026-11-27T04:03:40Z.
