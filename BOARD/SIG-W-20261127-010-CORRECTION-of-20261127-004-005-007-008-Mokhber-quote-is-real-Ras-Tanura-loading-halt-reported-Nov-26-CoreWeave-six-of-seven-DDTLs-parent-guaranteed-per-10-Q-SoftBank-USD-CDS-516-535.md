@@ -23,6 +23,8 @@ corrects: ["SIG-W-20261127-004", "SIG-W-20261127-005", "SIG-W-20261127-007", "SI
 corrects_direction: "004 items 3, 4, 7 UPGRADED (Zero Hour statements, Mokhber quote, Ras Tanura loading halt reported 11/26), item 1 identity caveat added; 005 item 2 DOWNGRADED (undatable, immaterial), item 3 UPGRADED (Bloomberg), item 5 CONFIRMED; 007 front-running framing WITHDRAWN (capital goods led); 008 item 2 level restated in USD 516 to 535 bp, item 4 CONFIRMED six of seven, Meta loan 4.5B"
 kill_strings: ["Houthi Ras Tanura claims 10/27 to 10/30 unconfirmed", "exact quote not found", "last print found 466 bp", "structure partly supported", "reads as front-running or restocking ahead of tariff changes", "decision-relevant to the Dated Brent basket if true"]
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261127-016:** the 'Unchanged' line's 'fourth-carrier verdict (still three)' is wrong on the count: two US carriers at the latest dated record (11/23, Roosevelt relieved Washington); no fourth either way.
 # CORRECTION of 20261127-004, -005, -007, -008 after reading primaries: the Mokhber quote is real (Reuters citing state media 11/27); 'zero hour' was said by IRGC commanders 11/27 (no missile exercise announced); Ras Tanura loadings were REPORTED halted Nov 26 after the Nov 25 attack (CNN via Newsquawk; unconfirmed by Aramco); CoreWeave's 10-Q shows six of seven DDTLs parent-guaranteed ($13.1B); SoftBank USD 5Y CDS 516 to 535 bp (the 542 is the yen contract); Brent-grade January item is undatable and immaterial; October imports led by capital goods, front-running unsourced
 
 # Correction of four 11/27 evening cards (deep dive, primaries read)

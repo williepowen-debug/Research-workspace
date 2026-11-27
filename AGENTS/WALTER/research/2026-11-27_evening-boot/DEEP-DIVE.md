@@ -23,7 +23,7 @@ Written 2026-11-27T23:14:09Z (date command) by WALTER walter-dd, laptop. Five re
 - **Mine claim 11/27:** IRGC Navy via Fars/Anadolu: two tankers on an unauthorised route north of Ghavam Island, one hit a mine; no names, no UKMTO, owner or CENTCOM confirmation. IRGC mine claims 11/23, 24, 25, 26 all unconfirmed (JMIC called 11/24's unconfirmed).
 - **UKMTO hits found (none dated 11/26 or 27):** 11/20 UKMTO 214-26, 8 nm N of Khasab, outbound tanker struck, fire; 11/21 two tankers hit; 11/22 Chabahar 'incident with military forces'; **11/25 about 1300Z UKMTO 223-26 / JMIC 117/26, 18 nm E of Khasab: Kun Peng (Hong Kong, IMO 9272503), engine-room fire extinguished, crew safe per UKMTO (another report: one severely injured)**; 11/25 50 nm N of Madinat ash Shamal, tanker hit by two projectiles (weak secondary). Kun Peng is not on the BOARD.
 - **Ynet / Netanyahu water:** not found. Closest Ynet piece (undated, probably March to July) quotes Netanyahu on energy, not water; a ~11/18 Ynet relay of NYT says he wants a 4 to 7 day campaign that could include energy targets.
-- **Carriers:** three (Roosevelt, Bush, Washington); no fourth. Makin Island ARG left Singapore 11/24 for the Indian Ocean (snippet). Trump 11/22: blockade runners 'at the bottom of the sea'.
+- **Carriers:** three (Roosevelt, Bush, Washington); no fourth. ⚠️ **Corrected 2026-11-27 (card 20261127-016, TERRY's flag): three was the 11/16 count; the 11/23 anchor and Military Times 11/23 (per TERRY) have Roosevelt relieving Washington, so TWO.** Makin Island ARG left Singapore 11/24 for the Indian Ocean (snippet). Trump 11/22: blockade runners 'at the bottom of the sea'.
 
 ## 3. AI credit (owners BROCK, VULCAN, SAM; TERRY BOARD-only)
 
