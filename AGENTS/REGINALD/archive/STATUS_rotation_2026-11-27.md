@@ -41,3 +41,38 @@
 
 *Update 10/28 (HY 318, FL frame, H.8, CCB) → `archive/STATUS_rotation_2026-11-11.md` BLOCK T42, crc32 `7855c74e`.*
 <!-- BLOCK T72 end -->
+
+<!-- BLOCK T73 begin crc32 fe713cf3 -->
+| **WAL** | **<$78** | **$70.43** [11/24 settled; Yahoo/Nasdaq agree, retrieved 11/25 ~09:10 ET]; 69.63 [11/23]; 67.90 [11/20]; 69.65 [11/19] | 🔴 REG-T-02 FIRED; exit 0-of-3; 60 rows through 11/24 in `registry/REG_T02_EXIT_LOG.tsv`. Suppressed sub-$78 re-entries, no new fire; needs +16.29% to reach $81.90. Prior rows of this table → BLOCK T36, crc32 `024f387b`. |
+| KRE | <$60 | **$69.76** [11/24 settled; Yahoo/Nasdaq agree, retrieved 11/25 ~09:10 ET]; 69.54 [11/23]; 68.32 [11/20]; premarket vendor 69.22 [11/25 ~09:07 ET, not graded] | 🟡 `REG-T-01` UN-FIRED; $9.76 above line. 11/24: KRE +0.32% vs SPY −0.49%. 11/25 premarket KRE −0.8% vs ES −2.1% (AI selloff, WALTER -005). |
+| HY OAS | >320 (`REG-T-03`) · >350 (`REG-T-04`) | **363bp** [FRED 11/23 first-published, read 11/24 22:26 ET]; **376 [11/20]**; **352 [11/19]**; 347 [11/18]; 343 [11/17]; **372 [11/24]** (FRED read 11/25 15:37 ET) | REG-T-03 CREDIT-CANARY-FIRED remains (exit ≤300 ×5, run 0). 🔴 **REG-T-04 FIRED on 11/23 (3 of 3: 352, 376, 363); ISSUANCE-FREEZE to LIQUID and Will 11/24; exit ≤330 ×5, run 0 through 11/24** (LIQUID 11/24: "not a freeze, selective", WALTER -022) (⚠️ a CSC default plus a month-end rebalance can lower the index mechanically). WQ-512 rider: issuer effect UNMEASURED (corrected 11/25, line above). **REG-37 and REG-34 RESOLVED TRUE 11/24**; REG-36 VOID (WQ-722). Wide HY alone does not establish bank transmission: 11/18 → 11/23 cross-check BANK-ABSENT, no ex-dividends (memo 2026-11-24 §3). Full cell before 11/17 → `archive/STATUS_rotation_2026-11-17.md` BLOCK T54, crc32 `75a30f7f`. |
+| **CCC/HY ratio** | >3.6× (3 consec) | **3.82×** [CCC 1,387 / HY 363, FRED 11/23]; 3.73× [11/20]; 3.87× [11/19]; 3.90× [11/18] | HARD-FIRE continues. 11/20 → 11/23 HY-led tightening (HY −13, CCC −15): ratio up by the denominator, NO escalate. **B 393 [11/23], 408 [11/20], above ORANGE 330 since 10/29;** BB 219 [11/23]. Watch row, no trigger. LIQUID owns re-entry. |
+<!-- BLOCK T73 end -->
+
+<!-- BLOCK T74 begin crc32 0795892d -->
+**Evidence limits:** EGBN Q4 wall ~$525M (REG-28): the 10/27 maturities stayed unobservable at the 10-Q [11/05]; next the Q4 release. VLY 10-Q read 11/06: property-type past dues, the $30.1M loan's appraisal and the $18.5M NDFI borrower are not disclosed. WAL F3/NDFI and OZK NDFI type are filing-only. FLG special mention has no rent-regulated split in the 10-Q. SBCF's VBI-loan reserve ($8.4M) and past-due rise are unexplained; call not heard. Reported provisions do not prove loss completeness (Will 10/20). Full 10/22 list → BLOCK T35.
+<!-- BLOCK T74 end -->
+
+<!-- BLOCK T75 begin crc32 8c2106b3 -->
+> 🔴 **FLG price ladder `VX-REG-6.03` RED since 10/7** (band 3 $11.39 broken at $11.30 [10/7]). **Last settled $9.96 [11/20] = −30.1% vs FROZEN $14.24; 32 settled closes below RED since 10/7** (detector 11/23, band broken, state unchanged). CFO Lee Smith bought 5,000 sh at $9.93 on 11/20 (ML-REG-318); CEO Joseph Otting bought 47,324 sh at $10.49 on 11/10 (KB ML-REG-306). Ladder exhausted. Director Alan L. Frank bought 10,000 sh at $10.14 on 10/27 (Form 4 acc 0001649471-26-000006; KB ML-REG-254). Matrix score unchanged (price is not an input). Prior text → `archive/STATUS_rotation_2026-10-28.md` BLOCK T37, crc32 `a4ec5248`.
+<!-- BLOCK T75 end -->
+
+<!-- BLOCK T76 begin crc32 d68527aa -->
+| **CRE anchor — WAL source** (was "WAL Q2 NCO ex-fraud <25bp AND no office classified migration (REG-24/25 both fail)") | Re-keyed to WAL-01/WAL-02 (WAL-owned since 7/25): stand-down REVIEW if WAL Q3 ex-fraud NCO **<25bp** AND office classified **≤$500M**, both at WAL's Q3 10-Q confirmation | WAL graded 10/19; **Q3 10-Q confirmation 10/30** (acc 0001628280-26-068599; `../WAL/research/2026-10-30_Q3_10Q_GRADE.md`): **NCO 30bp, no fraud attribution** (WAL-02 INVALIDATED, FINAL); **office classified $272.75M** (WAL-01 INVALIDATED, FINAL) | **NOT FIRED, FINAL for Q3** (30bp > 25bp; both legs read at the 10-Q). Both WAL bear predictions failed, which is evidence against the WAL-specific mechanism. That weighs on WAL's thesis (WAL's call), not on this desk's concentrated-names claim |
+<!-- BLOCK T76 end -->
+
+<!-- BLOCK T77 begin crc32 d7660f9a -->
+| Registry TOKEN `V1V3-ACCELERATE` rename (from F#4 flags; re-asked DAEDALUS falsification #5, 10/30) | **DONE 11/17:** REG-T-02 action = `WAL-PRICE-STRESS`, old name a retired alias (`registry/NOTES.md`); landed in WALTER's `06f187503c` (swept, content verified); WALTER, TERRY, PROME told | WALTER's four mirror edits are WALTER's |
+<!-- BLOCK T77 end -->
+
+<!-- BLOCK T78 begin crc32 eb5f5a1c -->
+**Next existing work:** **REG-T-04 FIRED 11/23: exit (≤330 ×5) run 0 through 11/25; next cells HY [11/27] and [11/30] at FRED (~Mon 11/30 and Tue 12/01 mornings); before any non-zero exit count check the CSC grace period (~12/16) and the 11/30 index rebalance; re-run the cross-check on any further widening, and close the 11/23 window with the 11/27 settled bars** · REG-T-02 graded through 11/25 (log row 61), next closes from 11/27 · H.4.1 and H.8 since 11/06 NOT read this session · D:L798 full comment file after the Wed 12/16 23:59 ET close (extended 11/13; Fed and FDIC read 11/17; regulations.gov attachments blocked to automation) · PFBC: does the $150.2M 60–89 reach nonaccrual at the 12/31 Call Report · REG-T-06 grades 11/13 from the CFR · GDOT 10-Q not filed [17:12 ET 11/06]; full FLG and OZK 10-Q reads sit with those desks · FDIC Q3 posting ~mid/late Nov for the frozen concentration verdict · REG-06 next 11/30 · Nano: posting closed 11/05, remaining reads move to L515, L517 and the Fed OIG review
+<!-- BLOCK T78 end -->
+
+<!-- BLOCK T79 begin crc32 e629e57e -->
+Prior: 2026-11-25 16:16 ET; PROME commission D:L1291 (banks lending to nonbank mortgage companies). Prior: 2026-11-25 09:13 ET; due-row wake (PROME prome-77, D:L514): **FDIC Q3 QBP read at the primary**; WQ-313 foreclosed CRE second rise, OZK-led; REG-03 1.417x, not met; DR-4956 meets the Seacoast check; inbox 4 + 14 WALTER cards drained → memo `PROME/inbox/2026-11-25_from-REGINALD_l514-fdic-q3-qbp.md`. Prior: 2026-11-24 22:37 ET, D:L1235, REG-T-04 FIRED on HY 363 [11/23]. Prior stamp chain (11/23 16:51 ET back to 11/19) → `archive/STATUS_rotation_2026-11-24.md` BLOCK T64, crc32 `421cd40b`.
+<!-- BLOCK T79 end -->
+
+<!-- BLOCK T80 begin crc32 62f52c8d -->
+> ⚠️ **11/07 qualifier: L180 reads BROADER on its letter, weak, foreclosure limb only, rate test 0 of 5.** The read plan pre-registered that as the move away from 'concentrated'; severity on Q3 levels is still concentrated. **QBP read 11/25: the $10-250B foreclosed-CRE rise repeated but is ~3/4 Bank OZK; large-bank nonfarm-nonresidential and construction noncurrent fell; large-bank MULTIFAMILY noncurrent rose 0.76 → 0.85% (NEXUS, corrected 11/25; KB ML-REG-323, 324).** No score moved.
+<!-- BLOCK T80 end -->
