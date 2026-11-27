@@ -1,6 +1,26 @@
 # HAWK STATUS
 
-**Updated:** November 26, 2026 (Thanksgiving, NYSE closed), block written from 12:03 ET (from `date`; session start 11:54 ET). PROME prome-80 wake on Will's word to catch up on missed signals; DOCKET line 1057 (C3 first kill window) and WALTER IMMEDIATE card SIG-W-20261125-042 (Jazan). Claude Code, Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. **No mark, band, score, gate or letter moved. C3 limb 2 NOT graded (window ends 11/27).** The 11/20 and 11/18 blocks below stand except where this block differs.
+**Updated:** November 27, 2026 (Fri; US equities close 13:00 ET), block written from about 10:00 ET (from `date`; session start 09:53 ET). PROME prome-80 wake for DOCKET line 1057 (C3 first kill window, grade date today). Claude Code, Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. **C3 limb 2 GRADED: (c) NOT MEASURED, does not block. No mark, band, score, gate or letter moved.** The 11/26 block below stands except where this block differs.
+
+## November 27 — C3 limb 2 graded; Saudi Red Sea and Baltic cards (KB-556..560)
+
+| Item | Read 11/27 | Letter touched |
+|---|---|---|
+| **C3 limb 2 (DOCKET line 1057)** | **Window 11/07–11/27: (c) NOT MEASURED, does not block.** Canvass 11/26 (7 queries) and 11/27 (9 entries; outlet-free queries; Swedish Club circulars read, nothing on war risk since 11/1): no insurer, club or JWC act and no named-broker or wire quote naming Russian ports. Any kill is written "limb 1 only; limb 2 NOT MEASURED"; clause (d) live. **Limb 1 and the kill are OSPREY's** (packet `AGENTS/OSPREY/inbox/2026-11-27_from-HAWK_C3-limb2-grade.md`). Record `research/2026-11-27_C3-limb2-GRADE.md` | C3 limb 2 graded (KB-556) |
+| **Combined C3 result, by OSPREY's limb 1** | No qualifying tanker in the window ⇒ **kill**, limb 1 only, OSPREY executes, its §1b floor applies; a qualifying tanker ⇒ no kill, C3 stays 3; no limb-1 grade today ⇒ no kill today, a later date is a new window needing HAWK's grade | OSPREY's |
+| Gulf of Finland ship (card 002) | **Sparta II**, Russian-flagged ro-ro **cargo** ship (Oboronlogistika-linked), not a tanker; drones about 50 km west of Gogland 11/21, en route to Kaliningrad; Finland: Ukraine 'likely'; Russian helicopter in Finnish airspace up to 4.1 km. On its face not a qualifying C3 hull (OSPREY rules) | EURMIL ORANGE held; HAW-26 not met (KB-558) |
+| Jazan REFINERY 11/26 (card 003) | State-confirmed hit, fire, 'some operations' halted, 1 killed. FALCON: rung NOT FIRED (refineries out), FAL-08 NOT FIRED; BRENT: BRT-32, BG-02 NOT MET. Two confirmed damaging Saudi Red Sea hits in two days; product-side, not crude; no Yanbu, Jeddah or Rabigh loading loss | None; decoupling holds (KB-557) |
+| Kuwait 11/26 (card 004) | Two Italian Rheinmetall air-defence technicians killed; Kuwait and Italy blame Iran; Iran denies; 'intercepted' and 'killed' both on record. IRGC mine claims 11/25 CLAIM ONLY | HAW-26 not met (KB-557) |
+| Lukoil International, Estonia (card 006) | Definitive deal, US-led Boehly consortium, **US government stake and board seat** (Reuters reporter's post; article unread): logged as new theme combo:sanctions-to-ownership (n=2 with Venezuela). Estonia road crossings close 12/1; Zakharova countermeasure threat (relay) | EURMIL ORANGE held (KB-559) |
+| ORACLE (two packets) | Pause by 11/30 72.0, by 12/31 85.5 (11/26, ORACLE's); nominations answered do-not-pin | None (KB-560) |
+
+**FORWARD VIEW (material, unscored, KB-556/557):** (1) **C3:** killed today on limb 1 only about 85%; after a kill, a qualifying Ukrainian tanker strike in geography re-arming it by about 12/18 about 20%. Why: November's Baltic strikes hit a corvette and a military cargo ship, not tankers; the last qualifying tanker was 10/6. Alternative: a return to multi-hull tanker nights (as in July and May). Changes my mind: a named tanker struck in geography, or an insurer notice on Russian-port tanker calls. A C3 kill moves no barrel; no trade implication on its own. (2) **Saudi Red Sea:** the 11/26 view stands, decoupling holds to about 12/10 about 85%; the refinery hit raises damage, not lost crude. The break is still a stated Yanbu loading stop or a carrier or insurer leaving Jeddah or Yanbu. No new TERRY packet: HAWK's 11/26 packet and FALCON's 11/26 refinery packet already carry it.
+
+**Unreadable or unverified here:** LMA JWC page (a guessed URL 404'd); S&P and Argus war-risk bodies (subscriber); FT and BBC Sparta II pages; the Reuters Lukoil article. No site refused access.
+
+---
+
+**Prior update:** November 26, 2026 (Thanksgiving, NYSE closed), block written from 12:03 ET (from `date`; session start 11:54 ET). PROME prome-80 wake on Will's word to catch up on missed signals; DOCKET line 1057 (C3 first kill window) and WALTER IMMEDIATE card SIG-W-20261125-042 (Jazan). Claude Code, Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. **No mark, band, score, gate or letter moved. C3 limb 2 NOT graded (window ends 11/27).** The 11/20 and 11/18 blocks below stand except where this block differs.
 
 ## November 26 — catch-up: Jazan, the C3 window, the eastern flank (KB-550..555)
 
@@ -21,20 +41,7 @@
 
 ---
 
-**Prior update:** November 20, 2026, about 11:53 ET (corrected at closeout: first typed as 11:58 from narrative, not `date`; session start 11:45 ET). PROME prome-77 task letter, class C8 wake on WALTER IMMEDIATE card SIG-W-20261120-005 (plus card 011 added by PROME). Claude Code, Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. **No mark, band, score or letter moved.** The 11/18 block below stands except where this block differs.
-
-## November 20 — Poland missiles and Kyiv embassies (KB-545..549; grade `research/2026-11-20_SIG-005-011_poland-missiles-kyiv-embassies-grade.md`)
-
-| Item | Read 11/20 (about 11:50 ET) | Letter touched |
-|---|---|---|
-| Poland, overnight 11/19-20 | Polish government primaries 20.11: a Kh-101 near Nowy Lipowiec, a second object near Rudnik nad Sanem, jet-drone parts near Mołodycz; **no damage, no victims**; Polish F-16 and Swedish Gripen pairs flew, Patriot/Poprad/Pilica+ activated, **no shoot-down stated**. Tusk: "it seems" a deliberate Russian provocation; exercise link "a hypothesis" (KOALICJA 26.2, Nowa Dęba). Intent NOT ESTABLISHED | EURMIL RED (a), (c) NOT MET, ORANGE held; INCURSIONS EUR-2026-021 (one response event) |
-| Article 4 | **Not requested** in either government text; Poland will ask NATO for more Eastern Sentry forces (future tense). NATO Article 4 page lists nothing after 23 Sep 2025. Rutte: solidarity, jets scrambled (his X post via one relay). No NAC, no nato.int statement found | **HAW-26 TOUCHED, NOT MET**; stays 10%, 12/31 dated search governs |
-| Kyiv embassies 11/19 | Projectile hit the area behind the Dutch embassy, minor damage, staff safe (Berendsen via NL Times); Russia's embassy: "not a targeted attack". Summons, Jetten "escalation", Austrian damage: UNVERIFIED. No NATO or EU step found | None (RU-UA object, OSPREY's) |
-| Russia | Russian MoD 20.11 strike text names Ukrainian targets only (Lviv, Ivano-Frankivsk, bridges); no Russian statement on Poland found (mid.ru, kremlin.ru unreachable) | YURI owns |
-| Shenzhen (correction COR-20261119-14) | The trilateral DID adopt a declaration (kremlin.ru): refined products, nuclear; no Ukraine, NATO or sanctions clause. Putin closed the sea and energy truce talk | None; settlement brake unchanged (KB-548) |
-
-**PROJECTION (unscored, KB-547):** Poland requests Article 4 over these objects by 11/27 about 10%; any ally by 12/31 (HAW-26's question) about 15% against the registered 10%. Trade line: supports no investment implication on its own (no energy asset, no casualty, no Article 4, no Russian statement).
-**Unreadable here:** Polish Operational Command (captcha, stopped), AIRCOM and SHAPE (403), mid.ru, kremlin.ru, government.nl news.
+**Prior update:** November 20, 2026 (Poland missiles and Kyiv embassies, KB-545..549): rotated verbatim to `archive/STATUS_ROTATED_2026-11-27.md`.
 
 ---
 
@@ -44,7 +51,7 @@
 
 | Item | State |
 |---|---|
-| **C3 limb 2 / WQ-637 A** | **11/26: canvass day 2 run, no in-scope print; NO GRADE until 11/27 (window 11/07–11/27). Limb 2 would read (c) NOT MEASURED, not blocking; limb 1 (OSPREY's, OSPREY dark since 11/20) turns on the unverified Gulf of Finland ship 11/21-22 (KB-551).** ADOPTED 11/6; the WQ-470 joint text is the letter (KB-503). **Earliest first kill 11/27**; HAWK grades on the 21 days ending the grade date, dated canvass 11/25–11/27; no canvass, no grade, no kill. No grade yet; C3 stays 3. Leads seen 11/18, none countable: CPC Novorossiysk 'up to 20%' is dated 10/27, before the window opened; Sulina 11/14 is not a Russian port and has no established attacker; Ukrainian-port quotes are out of scope (KB-537, KB-533). Caveats Will saw at adoption stand (easier to kill, 21-day strike clock with a veto, most windows NOT MEASURED, grader can go dark). |
+| **C3 limb 2 / WQ-637 A** | **11/27 GRADED: window 11/07–11/27, (c) NOT MEASURED, does not block (KB-556). Limb 1 and any kill are OSPREY's; the Gulf of Finland ship is the Sparta II, a cargo ship, not a tanker. A later grade date is a new window and needs a new HAWK grade.** 11/26: canvass day 2 run, no in-scope print (KB-551). ADOPTED 11/6; the WQ-470 joint text is the letter (KB-503). **Earliest first kill 11/27**; HAWK grades on the 21 days ending the grade date, dated canvass 11/25–11/27; no canvass, no grade, no kill. No grade yet; C3 stays 3. Leads seen 11/18, none countable: CPC Novorossiysk 'up to 20%' is dated 10/27, before the window opened; Sulina 11/14 is not a Russian port and has no established attacker; Ukrainian-port quotes are out of scope (KB-537, KB-533). Caveats Will saw at adoption stand (easier to kill, 21-day strike clock with a veto, most windows NOT MEASURED, grader can go dark). |
 | **HAW-22** (65% UNCALIBRATED) | OPEN, not due; final search 12/15–12/21, resolves 12/22. **undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity**. |
 | **HAW-23..26** | CIT S301 55%, Majlis floor vote 20%, PRC-named Taiwan exercise 14%, Article 4 request 10%; all resolve 12/31. **None met at 11/18 search** (KB-539, KB-536, KB-533). **11/26: none met on the lane read; HAW-26 touched again (AWACS forward to Poland, no Article 4 request, KB-552); the USTR 301 excess-capacity proposal is not HAW-23's forced-labor case.** Romania named Article 4 as an option after Sulina; Euronews sources say it will not be activated. |
 | **Forward physical-loss window** | **WQ-698 WITHDRAWN by Will, 11/16 18:26 ET, verbatim "WQ-698 ok go with your rec"**: no physical-loss log, no successor forecast, no desk assigned a barrels-lost read. HAW-22 runs to 12/22 on its own letter. A confidence basis or a reachable barrels-lost source later is a new question for Will through PROME, not a reopening. |
@@ -101,6 +108,6 @@ Marks unchanged: VEN GREEN; TWN/TWNMIL/IRAQ/FININFRA YELLOW; TRADE01/TRADE02/COD
 
 ## BOTTOM LINE
 
-**November 26:** the Houthis carried out their threat against Saudi Red Sea ports at its smallest size, a minor hit on Jazan Port on 11/25 with a drone at Jeddah shot down, so for the first time in this round both of Saudi Arabia's crude outlets are under fire at once, yet no barrel has been lost on either and the decoupling holds. The single most important watch is now Yanbu: a stated loading stop there, or a carrier or insurer pulling out, is the shortest path from attacks to lost barrels. C3's first kill window ends tomorrow; limb 2 has no in-scope print so far, so the outcome rests on OSPREY's limb 1 and an unidentified ship in the Gulf of Finland, and OSPREY has been dark since 11/20.
+**November 27:** HAWK graded the war-insurance half of OSPREY's Russian tanker-channel kill test: in the three weeks to today nobody published an insurer act or broker quote on Russian-port tanker calls, so that half reads NOT MEASURED and does not block. Whether the channel is shut off today rests on OSPREY's tanker count; the Gulf of Finland ship turned out to be a military-linked cargo ship, not a tanker, so on its face nothing resets the clock. On the Gulf side the Houthis hit Jazan refinery a day after Jazan port and Iran-attributed fire killed two Italian contractors in Kuwait, yet no crude barrel is lost and the decoupling holds; Yanbu is still the single most important watch.
 
-**November 18 (kept):** The wars got louder this week but took no more oil out: the US struck Iran on 11/17, Iran fired at Kuwait and Bahrain on 11/18, and seven ships were hit near Hormuz, yet nothing in Gulf-ally production was hit, Saudi supply to market is back near 9.2 mb/d, and Dated Brent now trades at or under the futures, so the physical war premium is gone. The decoupling of attacks from supply holds and is firmer, but the cushion is thin: land stocks are the lowest since at least 2016, so the single most important watch is still a confirmed production-class hit (Abqaiq class), which would land on a market with little buffer. What changed since 11/11: a confirmed US strike day, Iranian fire on a second Gulf host state, the Dated premium gone, and settlement odds down about 15 points in a week (ORACLE's).
+**Earlier bottom lines (November 26, November 18):** rotated verbatim to `archive/STATUS_ROTATED_2026-11-27.md`.

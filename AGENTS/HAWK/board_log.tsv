@@ -659,3 +659,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-26T17:02:14+00:00	SIG-W-20261124-018	info-only	INBOX_WALTER	Read whole; small items; item 21 OFAC/FinCEN noted in KB-HAWK-553.
 2026-11-26T17:02:14+00:00	SIG-W-20261124-021	info-only	INBOX_WALTER	CORRECTION read whole; CIA/ODNI breach is CYPHER's. COR-20261124-21 NO-OP.
 2026-11-26T17:02:14+00:00	SIG-W-20261125-034	info-only	INBOX_WALTER	Read whole; small items; item 6 Red Sea insurance and Egypt Black Sea titles carried as non-in-scope leads in the C3 canvass record.
+2026-11-27T14:58:39+00:00	SIG-W-20261126-002	acted	INBOX_WALTER	Read whole; Sparta II, ro-ro cargo not a tanker; answers HAWK's ask; C3 limb-2 grade and OSPREY packet (KB-HAWK-556, KB-HAWK-558).
+2026-11-27T14:58:39+00:00	SIG-W-20261126-003	acted	INBOX_WALTER	Read whole; Jazan refinery hit; FALCON and BRENT grades read; cross-war read KB-HAWK-557, decoupling holds.
+2026-11-27T14:58:39+00:00	SIG-W-20261126-004	acted	INBOX_WALTER	Read whole; Kuwait Italian deaths, Iran denies; mine claim CLAIM ONLY; KB-HAWK-557, HAW-26 not met.
+2026-11-27T14:58:39+00:00	SIG-W-20261126-006	acted	INBOX_WALTER	Read whole; Lukoil International deal (combo:sanctions-to-ownership) and Estonia 12/1 crossings; KB-HAWK-559, EURMIL ORANGE held. Item 3 SAP is LABOR's.
+2026-11-27T14:58:39+00:00	SIG-W-20261126-008	info-only	INBOX_WALTER	Read whole; Brent settle and IRGC mine claims are BRENT's and FALCON's; used as context in KB-HAWK-557.
