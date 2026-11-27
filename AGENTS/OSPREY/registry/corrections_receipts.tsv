@@ -6,3 +6,7 @@ receipt_date	correction_id	action	note
 2026-11-06T14:58Z	COR-20261031-03	APPLIED	artifact=AGENTS/OSPREY/domain/energy-strikes/STRIKES.tsv#RU-20261030-NOVOKUIBYSHEVSK; artifact=AGENTS/OSPREY/workbook/KB.tsv#KB-OSPREY-245; validation_ref=NONE; Rowed 11/2. Output loss stays unknown; the +5 day re-read is still owed.
 2026-11-06T14:58Z	COR-20261105-62	NO-OP	scope=OSPREY holds no Abrigo premise: the name appears only in WALTER cards 060 and 062 in this desk inbox (grep 2026-11-06). Not in this domain.; 
 2026-11-20T16:42Z	COR-20261119-14	APPLIED	artifact=AGENTS/OSPREY/workbook/KB.tsv#KB-OSPREY-300; validation_ref=AGENTS/OSPREY/STATUS.md#ACTIVE-11/19-item-1; 
+2026-11-27T15:02Z	COR-20261123-09	APPLIED	artifact=AGENTS/OSPREY/workbook/KB.tsv#KB-OSPREY-321; validation_ref=NONE; 
+2026-11-27T15:02Z	COR-20261120-12	NO-OP	scope=card 011 attribution and summons lines are YURI and HAWK lanes, OSPREY returns on card 012 (KB-306 to 308) unchanged; 
+2026-11-27T15:02Z	COR-20261125-16	NO-OP	scope=Brent contract-month figure is BRENT's, OSPREY cited no Brent figure from cards 008 or 010; 
+2026-11-27T15:02Z	COR-20261125-23	NO-OP	scope=Hodeidah chronology is FALCON's, outside the Russia-Ukraine theater; 

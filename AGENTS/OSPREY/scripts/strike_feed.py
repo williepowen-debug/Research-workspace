@@ -23,7 +23,7 @@ from email.utils import parsedate_to_datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)  # AGENTS/OSPREY
-UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+UA = {"User-Agent": "research-bot/1.0",  # WQ-735 A (Will 2026-11-23): honest client name; was a browser string
       "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.8,ru;q=0.5,uk;q=0.5"}
 COLS = ["run_date", "pub_date", "source", "title", "url", "matched_tokens", "ledger_match", "note"]
 

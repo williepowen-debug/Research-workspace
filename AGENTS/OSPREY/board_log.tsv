@@ -205,3 +205,19 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-20T11:43	SIG-W-20261119-014	integrated	WALTER	PRIORITY INFO correction of card 004: matches OSPREY's own 11/19 grade (43% on stated tonnes, KB-300); receipt COR-20261119-14 APPLIED.
 2026-11-20T11:43	SIG-W-20261120-005	integrated	WALTER	IMMEDIATE ACTION graded in lane: Polish MON 'no reports of damage to critical infrastructure'; no Polish energy, rail, fuel or pipeline asset hit; the 11/19-20 strike mainly on Ukrainian energy incl. the west (Air Force via secondary); retaliation link NOT ESTABLISHED; no score, clock or trigger moves -> KB-306, combo:energy-tit-for-tat. NATO reaction is HAWK's.
 2026-11-20T11:43	SIG-W-20261120-006	integrated	WALTER	ACTION items 5 and 16 graded: item 5 Druzhba/Tatarstan = Kaleykino 11/19, SAME strike, now General Staff-confirmed (3 tanks) -> KB-307, row updated; Reuters fuel-limits title -> KB-312 combo:domestic-fuel-policy. Item 16 CMB 11/18 = Gas Husky, basin-wide, already KB-304, not in-scope for C3 limb 2. Other items not OSPREY.
+2026-11-27T15:03Z	SIG-W-20261120-011	info-only	INBOX_WALTER	Dutch/Austrian embassies Kyiv 11/19: already graded at KB-313 on 11/20; nothing new in lane.
+2026-11-27T15:03Z	SIG-W-20261120-012	noted	INBOX_WALTER	Correction of 011 + 005 additions: OSPREY returns (KB-306..308) unchanged; receipt COR-20261120-12 NO-OP.
+2026-11-27T15:03Z	SIG-W-20261121-003	acted	INBOX_WALTER	ACTION item 8 Gulf of Finland ship = Sparta II, ro-ro cargo, excluded from C3 -> KB-316, rowed RU-20261121-GOF-SPARTA-II. Other items not OSPREY.
+2026-11-27T15:03Z	SIG-W-20261123-006	acted	INBOX_WALTER	ACTION: item 3 Sparta II (KB-316); item 4 Perm 11/23 rowed, Novoshakhtinsk date NOT ESTABLISHED (lead, not rowed), Tatarstan station title (lead); item 5 Bloomberg 4-wk not found (KB-320); items 1-2 Benghazi Mediterranean, out of geography (KB-321); items 6-7 combo:war-risk-repricing / domestic-fuel-policy.
+2026-11-27T15:03Z	SIG-W-20261123-009	acted	INBOX_WALTER	Correction Poland three Kh-101: KB-306 drone-parts line superseded -> KB-321; receipt COR-20261123-09 APPLIED.
+2026-11-27T15:03Z	SIG-W-20261124-013	info-only	INBOX_WALTER	AWACS Poland, Estonia warning, Finland summons (Sparta II helicopter): HAWK/YURI lanes; logged KB-321.
+2026-11-27T15:03Z	SIG-W-20261125-010	acted	INBOX_WALTER	ACTION: Putin 11/24 Trump-asked-Ukraine-to-halt claim read at Moscow Times -> KB-319 combo:energy-tit-for-tat; Kazakhstan CPC dip, no strike found -> KB-320. Hodeidah FALCON.
+2026-11-27T15:03Z	SIG-W-20261125-016	noted	INBOX_WALTER	Brent sign correction: BRENT lane; receipt COR-20261125-16 NO-OP.
+2026-11-27T15:03Z	SIG-W-20261125-023	noted	INBOX_WALTER	Hodeidah headline correction: FALCON lane; receipt COR-20261125-23 NO-OP.
+2026-11-27T15:03Z	SIG-W-20261125-034	info-only	INBOX_WALTER	Item 6 Novak jet-fuel ban proposal, Egypt Black Sea warning: combo:domestic-fuel-policy (KB-319); no clock.
+2026-11-27T15:03Z	SIG-W-20261125-042	info-only	INBOX_WALTER	Jazan PORT hit: FALCON/BRENT theater, not OSPREY.
+2026-11-27T15:03Z	SIG-W-20261125-044	noted	INBOX_WALTER	Rystad runs lowest in decades read at Militarnyi -> KB-318; Boehly/Lukoil -> KB-319.
+2026-11-27T15:03Z	SIG-W-20261126-002	acted	INBOX_WALTER	ACTION: Sparta II verified at Moscow Times 11/21 + Kyiv Independent 11/24 (Zelensky confirms Ukraine) + registry; ro-ro cargo -> NOT C3-qualifying; C3 killed limb 1 only (KB-316, KB-317); packets HAWK, WALTER.
+2026-11-27T15:03Z	SIG-W-20261126-003	info-only	INBOX_WALTER	Jazan REFINERY (Saudi): FALCON/BRENT theater; not an OSPREY row.
+2026-11-27T15:03Z	SIG-W-20261126-005	acted	INBOX_WALTER	Item 10: Krasnodar refinery = Slavyansk ECO 11/26 rowed, NEWEST C1 anchor (KB-314/315); Rystad -> KB-318. Other items not OSPREY.
+2026-11-27T15:03Z	SIG-W-20261126-006	acted	INBOX_WALTER	ACTION item 1 Lukoil International: read at Kyiv Independent (share swap, DFC stake, OFAC pending) -> KB-319, no clock moves; item 2 Estonia HAWK.
