@@ -4,6 +4,37 @@ Append-only. **Newest on top.** One entry per review. Metrics mirror to `LEDGER.
 
 ---
 
+## November 27, Robinhood — partial intake, 11/20 to 11/27, the selloff and the bounce
+
+Observed 2026-11-27 17:05 ET from Will's Robinhood positions screenshot and pasted Recent list; `../research/2026-11-27_robinhood-capture/TRANSCRIPTION.md`. Relative clocks only, list cut at the bottom (the buys behind the 11/20 QQQ 635P sale, $1,106, and KRE 69P sale, $35, are below the cut). Gross per thread, regulatory fees not shown. **Partial intake: no LEDGER metrics row.** Thesis-book lines in the same capture (HYG 76P ×2, CRWV 41P, USO 139C, KRE 25P) are booked on their cards / CARD_LEDGER, not here.
+
+| Thread (all ×1) | Buy | Exit | Result | Note |
+|---|---:|---:|---:|---|
+| QQQ 627C 11/20 | 2.77 (11/20) | 0.17 | −$260 | same day as the 620P: both ways |
+| QQQ 620P 11/20 | 2.79 (11/20) | 10.24 | **+$745** | |
+| QQQ 649P 11/23 | 4.19 (11/23) | 0.12 | −$407 | to near zero |
+| QQQ 650P 11/24 | 5.72 (11/23) | 15.97 (11/24) | **+$1,025** | overnight, won |
+| NVDA 160P 11/25 | 3.85 (11/23) | 9.00 (11/24) | **+$515** | overnight, won |
+| QQQ 634P 11/24 | 2.99 (11/24) | 0.35 | −$264 | to near zero; both ways with the 636C |
+| QQQ 636C 11/24 | 1.88 (11/24) | 3.15 | +$127 | |
+| QQQ 640C 11/25 | 3.84 (11/24) | 0.02 (11/25) | −$382 | overnight, to zero |
+| QQQ 635P 11/25 | 5.01 (11/24) | 22.40 (11/25) | **+$1,739** | overnight, the week's best |
+| QQQ 610P 11/25 | 4.11 (11/25) | expired $0 | −$411 | to zero |
+| QQQ 625P + 627P 11/27 | 3.66 + 4.32 (11/25) | not in list or positions | **likely −$798** | QQQ closed ≈ $651 on 11/27; expiry rows not posted at capture: UNCONFIRMED |
+| QQQ 646P 11/30 | — | — | canceled 11/27 | |
+
+**Closed and seen:** 10 threads, 5 won +$4,151, 5 lost −$1,724, **net +$2,427**; with the two likely 11/27 expiries, **about +$1,629**. Puts +$2,942 closed (four stress-day winners), calls −$515.
+
+**Same pattern, both sides of it:**
+- **Best behavior (repeat):** short-dated QQQ/NVDA puts bought into the 11/20–11/25 selloff and sold into the move: 620P, 650P, NVDA 160P, 635P = +$4,024.
+- **Biggest leak (R1 walk-to-zero, CONFIRMED REPEAT):** every closed loser left at $0.35 or less or expired (5 of 5: 627C, 649P, 634P, 640C, 610P), plus the likely 625P/627P. The losers were not cut; the winners were.
+- **Both ways in one session again** (11/20, 11/24), and calls bought into a down tape lost (627C, 640C).
+- Size: single contracts; the largest entry $572 against a $2,305 account at capture (about 25%).
+
+**Watch next review:** the 11/27 expiry rows for 625P/627P; whether a loser gets cut at a set fraction instead of ridden to $0; the 11/20 buys below the cut.
+
+---
+
 ## November 5, Robinhood — partial intake, 0DTE QQQ during the selloff
 
 Observed 2026-11-05 11:10 EST from Will's two Robinhood screenshots; `../research/2026-11-05_robinhood-capture/TRANSCRIPTION.md`. Relative clocks only, list cut at the bottom, a $1,058.37 gain gap unexplained. **Reference only; never sum as new P/L.**
