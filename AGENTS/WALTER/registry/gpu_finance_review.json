@@ -1239,6 +1239,96 @@
         "2026-11-25"
       ],
       "closed": "2026-11-26T03:49:29Z"
+    },
+    "gpu:0ebfa1c5042c": {
+      "title": "CoreWeave Can Now Borrow at 7% With Meta’s Name on the Loan - Yahoo Finance",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261126-005 item 1; CoreWeave 7% Meta loan; repeat of 20261125-031/-035",
+      "days": [
+        "2026-11-26"
+      ],
+      "closed": "2026-11-27T03:36:33Z"
+    },
+    "gpu:6be27b14a201": {
+      "title": "CoreWeave Can Now Borrow at 7% With Meta’s Name on the Loan - 24/7 Wall St.",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261126-005 item 1; same story, 24/7 Wall St",
+      "days": [
+        "2026-11-26"
+      ],
+      "closed": "2026-11-27T03:36:33Z"
+    },
+    "gpu:b225d2972884": {
+      "title": "CoreWeave Lines Up $4.5B GPU-Backed Loan - Briefs Finance",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261126-005 item 1; 4.5B GPU-backed loan, repeat",
+      "days": [
+        "2026-11-26"
+      ],
+      "closed": "2026-11-27T03:36:34Z"
+    },
+    "gpu:653e8e6cac5b": {
+      "title": "CoreWeave Just Fell 11% in a Week as Default Fears Mount. Can a $4.5 Billion Meta-Backed Loan Get CRWV Stock Back to $50? - 24/7 Wall St.",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261126-005 item 1; CRWV -11% week, repeat",
+      "days": [
+        "2026-11-26"
+      ],
+      "closed": "2026-11-27T03:36:34Z"
+    },
+    "gpu:9cb2ccf5cdd2": {
+      "title": "At the eye of the AI sell-off storm, CoreWeave secures $4.5 billion in emergency GPU financing! As mechanical selling pressure subsides, is a December tech stock rally poised to take off? - Moomoo",
+      "disposition": "NOTE",
+      "ref": "TITLE ONLY; source not reviewed; promotional framing of the same 4.5B loan",
+      "days": [
+        "2026-11-26"
+      ],
+      "closed": "2026-11-27T03:36:34Z"
+    },
+    "gpu:321e79c7913d": {
+      "title": "Compute Is Getting Cheaper—Who Cracks First? - SoSoValue",
+      "disposition": "NOTE",
+      "ref": "TITLE ONLY; source not reviewed; opinion on compute prices, on 005 item 2",
+      "days": [
+        "2026-11-26"
+      ],
+      "closed": "2026-11-27T03:36:35Z"
+    },
+    "gpu:fc10fbaa7ae5": {
+      "title": "Nvidia’s Crash = 1.5 Fed Rate Hikes｜RiskReversal Media - finance.biggo.com",
+      "disposition": "NOTE",
+      "ref": "TITLE ONLY; source not reviewed; commentary",
+      "days": [
+        "2026-11-26"
+      ],
+      "closed": "2026-11-27T03:36:35Z"
+    },
+    "gpu:0a880c63e7b3": {
+      "title": "Serenity Backs CoreWeave as $4.5 Billion GPU-Backed Loan Signals AI Financing Is Far From Drying Up in November 2026 - KuCoin",
+      "disposition": "NOTE",
+      "ref": "TITLE ONLY; source not reviewed; KuCoin promotional piece on the 4.5B loan",
+      "days": [
+        "2026-11-26"
+      ],
+      "closed": "2026-11-27T03:36:35Z"
+    },
+    "gpu:6900a575c199": {
+      "title": "SpaceX Reportedly Slashes Some Nvidia Chip Rents — AI Researcher Sees Musk’s Edge In A GPU Glut - TradingView",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261126-005 item 2; SpaceX chip rents; title only",
+      "days": [
+        "2026-11-26"
+      ],
+      "closed": "2026-11-27T03:36:35Z"
+    },
+    "gpu:4c93619a1a1e": {
+      "title": "CoreWeave (CRWV) Debt Sale Wins Investment Grade Ratings - Yahoo Finance",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261126-005 item 1; IG rating claim, no agency action found",
+      "days": [
+        "2026-11-26"
+      ],
+      "closed": "2026-11-27T03:36:35Z"
     }
   }
 }
