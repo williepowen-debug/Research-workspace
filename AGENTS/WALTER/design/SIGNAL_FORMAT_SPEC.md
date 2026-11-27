@@ -1,4 +1,6 @@
-# WALTER Signal Format Specification v0.29
+# WALTER Signal Format Specification v0.30
+
+**v0.30 (2026-11-27):** `confidence_language` is written **one keyword first, then optional free text**: one of `confirmed` / `reports` / `assessed` / `unconfirmed`, then, if wanted, `: ` and a caveat line (`reports: NWS primary read directly; a forecast`). Will ruled WQ-757 A, 2026-11-27 16:02 ET (record `PROME/proposals/2026-11-27_wq757-758-RULED.md`; source `research/2026-11-26_night-boot/FILTER-REVIEW-2026-11-26.md` option 2: 169 of 228 cards 11/12 to 11/26 began with something else). A writing rule, not a check: no script validates the field, and the ruling added no checker for it. Forward-only from 2026-11-28; earlier values are vintage, never re-filled. Field type, the four keywords and the band mapping are unchanged.
 
 **v0.29 (2026-10-31):** Will-approved burst-window retirement. `event_window` retains its historical enum; new dispatches omit it or use `closed`. No current precedence is inferred from an old `open` value.
 
@@ -127,7 +129,7 @@ case: ["5400 Westheimer Court, Houston TX [CASE-CREED-002]"]   # one entry per p
 | `group` | string | AIG name | Optional. Which Address Indicating Group, if any. |
 | `signal_type` | enum | See Signal Types | What kind of signal this is. |
 | `confidence` | float | 0.0–1.0 | Numerical confidence score. For machine routing and threshold filters. See Confidence Model below. |
-| `confidence_language` | enum | `confirmed` / `reports` / `assessed` / `unconfirmed` | Human-readable confidence tier. For prose context. Must be consistent with `confidence` per the mapping below. |
+| `confidence_language` | enum keyword, then optional free text | `confirmed` / `reports` / `assessed` / `unconfirmed`, optionally followed by `: <caveat>` | Human-readable confidence tier. For prose context. The leading keyword must be consistent with `confidence` per the mapping below. **v0.30:** the keyword comes first; free text may follow after `: ` (`assessed: titles only, source not read`). No checker (WQ-757 A). |
 | `confidence_note` | string | Free text | **v0.13 — Optional.** Use when observation quality and interpretation quality diverge materially (≥1 confidence band apart) — the single `confidence` score would suppress both the solid observation and the real interpretation doubt. Free prose captures the asymmetry, e.g. *"observation 0.85 / interpretation 0.40 — broadcast physically verified by SDR community but ops-vs-training intent ambiguous."* Non-structured (can't filter mechanically); WALTER's discretion, not a mandatory gate. Per FILTER_V2_PLAN Segment D (Will Option A, 2026-04-20). |
 | `resources` | int | 0 / 1 / 2 | Estimated processing resources needed. |
 | `safety_net` | enum | `clear` / `triggered` | Whether safety net override was triggered. |

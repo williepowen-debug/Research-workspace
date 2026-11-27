@@ -239,6 +239,8 @@ See FORMAT_SPEC v0.6 Multi-Origin Signals section for full combine rule, origin 
 | `unconfirmed` | **0.30–0.49** | Single source, no corroboration — flag heavily, usually shouldn't route |
 | (filtered) | **<0.30** | Below threshold — kill log, not the archive |
 
+Write `confidence_language` as the keyword first, then optional free text after `: ` (`reports: single outlet, decree not read`). Canonical: SIGNAL_FORMAT_SPEC v0.30 (WQ-757 A, Will 2026-11-27). A writing rule; no checker.
+
 The numerical score lives in the YAML header for machine routing. The language tier is a SECOND header field bound to the score. They cannot disagree. See SIGNAL_FORMAT_SPEC.md "Confidence Model" section for full mapping rules and adjustment factors.
 
 
@@ -433,7 +435,7 @@ group: AIG_NAME                       # optional; see FORMAT_SPEC AIGs
 
 signal_type: threshold-crossed | pattern-match | catalyst | divergence | research | position-risk | context | manual-flag
 confidence: 0.0–1.0                   # numerical score, bound to language tier
-confidence_language: confirmed | reports | assessed | unconfirmed
+confidence_language: confirmed | reports | assessed | unconfirmed   # keyword first; optional ': free text' after (FORMAT_SPEC v0.30)
 resources: 0 | 1 | 2                  # processing resource estimate
 safety_net: clear | triggered         # override fired?
 
