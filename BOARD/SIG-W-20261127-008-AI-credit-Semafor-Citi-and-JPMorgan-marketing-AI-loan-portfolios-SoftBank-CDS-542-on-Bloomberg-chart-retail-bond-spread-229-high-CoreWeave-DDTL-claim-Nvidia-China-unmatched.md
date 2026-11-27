@@ -20,6 +20,8 @@ word_count: 554
 dispatch_note: "PRIORITY: financing-leg news (PRIVATE_CREDIT per the AI-capex substance-vs-financing boundary) with VULCAN co-action on the substance items. TERRY BOARD-only, told by message (CRWV card). RED, PROME by BOARD diff."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261127-010:** item 2: SoftBank USD 5Y CDS 516 to 535 bp (Bloomberg, Reuters 11/26); 542.255 is the yen contract. Item 4: the 10-Q shows six of seven DDTLs parent-guaranteed ($13.1B). Meta-backed loan is $4.5B, price talk 7 to 7.5%.
 # AI credit, Nov 26 to 27: Semafor exclusive (11/26) says Citi and JPMorgan are marketing AI loan portfolios, some via synthetic risk transfer (no amounts); SoftBank 5Y CDS 542 bp on a Bloomberg screen chart (zerohedge; last verified print 466 bp on 11/6) and its retail bond spread at a post-issuance high near 229 bp (Bloomberg chart); CoreWeave 'senior bonds worthless' is one anonymous account (DDTL 5.0 parent guarantee per a filing summary); the 'Blackwell rack found as loan collateral' story is not matched
 
 # AI-credit items from Will's bookmarks

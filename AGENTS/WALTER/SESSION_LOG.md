@@ -1,3 +1,7 @@
+## 2026-11-27T23:17:49Z light-closeout — full deferred — WALTER walter-dd, deep dive on Will's 11/27 bookmarks (Will 18:00 ET)
+
+Five research helpers read primaries (memo research/2026-11-27_evening-boot/DEEP-DIVE.md). Cards 20261127-010 (CORRECTION of 004, 005, 007, 008; R1 COR-20261127-02; four banners) and 011 to 014 dispatched 23:16:57Z; BOARD 2,411. Doorbell rows 13 (L1-UNKNOWN). Missed earlier, now carded: Ras Tanura loading halt reported 11/26 (in 010), Kun Peng hit 11/25 (011).
+
 ## 2026-11-27T22:14:08Z light-closeout — full deferred — WALTER walter-dd, laptop, Fri 11/27 evening (Will boot word 16:55 ET, 17:05 ET 'lets do the full triage now')
 
 Evening boot after the 21:23:50Z full closeout: threshold scan (no new fire; research/2026-11-27_evening-boot/THRESHOLD-SCAN.md), lane marked (0 new), flood check (0 new; DeLand 6.25 obs, 6.6 forecast), REGISTRY TERRY row. Will's X bookmarks: 71 fetched 22:02:22Z, four Rule 9 helpers, manifest BM-20261127-04 closed 71/71, cards 20261127-004 to -009 dispatched 22:12:55Z (BOARD 2,406). Calendar miss found: Census advance indicators 11/27 08:30 ET not in DOCKET or HENRY calendar (card 007; PROME told). Doorbell rows 9 (L1-UNKNOWN). TERRY and PROME messaged. Full closeout deferred: MEMORY, REGISTRY full refresh, closeout_run.

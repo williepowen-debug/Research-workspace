@@ -20,6 +20,8 @@ word_count: 555
 dispatch_note: "PRIORITY: confirmed blockade enforcement strike plus a set of escalation claims, none of which fires a registered row. ACTION FALCON (grades all). Iran pre-dispatch guard read this session. RED, PROME by BOARD diff."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261127-010:** items 3, 4 and 7 upgraded: the Mokhber quote is real (Reuters citing state media 11/27); 'zero hour' was said by IRGC commanders 11/27, no missile exercise announced; item 7's referent is the Nov 25 Ras Tanura attack, and loadings were REPORTED halted Nov 26 (CNN via Newsquawk), unconfirmed by Aramco. Pacific Archer identity unresolved.
 # Iran blockade, Nov 26 to 27: CENTCOM says a US aircraft disabled the Palau-flagged bulk carrier Pacific Archer in the Gulf of Oman on Nov 26 after it left Bandar Abbas (Iran International: first ship disabled since Tehran vowed to break the blockade); the 'Saudi supertanker Ghazal hit in Hormuz' post matches the July 28 Red Sea NCC Ghazal event, no Nov 27 hit found; IRGC 'Zero Hour', the Mokhber quote, a 'fourth carrier' and a Ras Tanura loading halt are unverified
 
 # Iran and Gulf items from Will's bookmarks, Nov 26 to 27

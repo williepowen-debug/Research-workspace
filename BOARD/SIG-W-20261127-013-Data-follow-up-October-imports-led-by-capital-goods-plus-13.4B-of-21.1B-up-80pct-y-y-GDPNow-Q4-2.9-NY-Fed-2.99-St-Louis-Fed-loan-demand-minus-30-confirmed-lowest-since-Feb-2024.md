@@ -1,0 +1,36 @@
+---
+signal_id: "SIG-W-20261127-013"
+date: "2026-11-27"
+timestamp: "2026-11-27T23:16:57Z"
+dispatched: "2026-11-27T23:16:57Z"
+source: "AGENTS/WALTER/research/2026-11-27_evening-boot/DEEP-DIVE.md; census.gov/econ/indicators/2026/advance_report2610.pdf; bea.gov trad0926.pdf and time series xlsx; atlantafed.org GDPNow; newyorkfed.org Staff Nowcast xlsx; stlouisfed.org economic-conditions-survey xlsx; dallasfed.org pcehist; ustr.gov Section 301 China FRN"
+origin: ["Rule 9 deep-dive helpers 2026-11-27 (census.gov PDF, bea.gov, atlantafed.org and newyorkfed.org xlsx, stlouisfed.org xlsx, dallasfed.org xls read)", "AGENTS/WALTER/research/2026-11-27_evening-boot/DEEP-DIVE.md"]
+action: ["ISHM", "REGINALD", "CARL"]
+info: ["HENRY", "VULCAN", "LIQUID", "ZHAO", "GIBBS", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "indicator"
+confidence: 0.85
+confidence_language: "confirmed: issuer files read"
+resources: 1
+safety_net: "clear"
+cluster: "INFLATION_TRANSMISSION"
+domain: "INDUSTRIAL_CYCLE"
+entities: ["Census Bureau", "capital goods imports", "FT-900", "GDPNow", "NY Fed Staff Nowcast", "St. Louis Fed", "Economic Conditions Survey", "Dallas Fed", "trimmed mean PCE", "USTR", "Section 301"]
+word_count: 384
+dispatch_note: "PRIORITY: issuer-read detail behind card 007. ACTION ISHM (imports, inventories), REGINALD (8th District lending), CARL (inflation, trade). RED, PROME by BOARD diff."
+event_window: "open"
+---
+# Data follow-up: October's $21.1B import jump was led by capital goods (+$13.4B, 64%; +80% y/y; September's was computers and accessories), which fits AI hardware more than a tariff rush; GDPNow Q4 2.9% (11/25), NY Fed Nowcast 2.99% (11/27); St. Louis Fed Eighth District loan demand net -30 confirmed at the issuer's file, lowest since Feb 2024 and 41 points below what bankers expected
+
+# US data follow-up (issuer files read)
+
+| # | Item | Read | Owner |
+|---|---|---|---|
+| 1 | **October imports by end use (Census, SA, nominal, $M):** total 365,297 (+21,100, +6.1%, +42.4% y/y); **capital goods 171,405 (+13,438, +8.5%, +80.0% y/y)**; industrial supplies 62,717 (+3,548); consumer goods 61,427 (+1,585); automotive 35,706 (+1,403); foods 18,597 (+459). Exports 215,819 (+6,704). September FT-900: capital goods +$11.6B led by computers (+$7.6B) and accessories (+$5.7B); pharma +$2.9B; gold -$2.7B. Product detail for October comes in the FT-900 on 12/8 | census.gov advance_report2610.pdf, bea.gov trad0926 | ISHM, CARL, VULCAN |
+| 2 | Inventories: wholesale +0.9% (durables +1.6%, nondurables -0.3%); retail +0.8% (ex autos +0.6%, autos +1.3%); September revised up | census.gov | ISHM |
+| 3 | **Nowcasts:** GDPNow Q4 2.9% SAAR (11/25, from 3.2% on 11/18): net exports -0.54 pp, inventories +0.58 pp, consumer +1.44; the 11/27 trade release is an internal update, first posted 12/1. NY Fed Staff Nowcast 2.99% (11/27, from 2.85%) | atlantafed.org GDPNow xlsx, newyorkfed.org xlsx | HENRY, CARL |
+| 4 | **St. Louis Fed Economic Conditions Survey, banking (11/17 file):** loan demand -30 (prior quarter +11; expected for this quarter +11; next quarter -7), credit standards +13 (prior +6), delinquency +28 (prior +25); **lowest loan demand since Feb 2024 (-50)**; Eighth District only, no loan-category or respondent count | stlouisfed.org xlsx (Figure3_banking_bar, BankingTS) | REGINALD, CARL |
+| 5 | Dallas Fed trimmed mean: October 2.83 (1-mo ann.), 2.39 (6-mo), 2.37 (12-mo); September 2.99. Core PCE y/y 3.3% (card 20261125-007) vs trimmed mean 2.4%: pressure in the tails | dallasfed.org pcehist | CARL, HENRY |
+| 6 | Front-running: no tier-1 source; USTR's Section 301 proposals (China up to 20% / 10% Annex A, alternative 40%; comments 1/5/2027, hearings 1/25) were posted 11/25, after October (cards 20261125-005, -006) | ustr.gov read | ZHAO, ISHM |
+
+- **So what:** imports of capital goods up 80% in a year is an AI-capex signature in the trade data (ISHM's borrowed-demand question: AI capex, not end demand). It is a GDP drag through net exports, partly offset by equipment investment and inventories; the net shows on 12/1. The Eighth District pattern (demand down, standards tighter, delinquency up) is a stress shape on one regional survey; REGINALD may want the national SLOOS and H.8 beside it.

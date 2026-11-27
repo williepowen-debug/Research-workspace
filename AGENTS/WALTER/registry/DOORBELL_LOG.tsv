@@ -727,3 +727,16 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-27	BROCK	SIG-W-20261127-008	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents run before 2026-11-27T22:02:57Z (live: prome-80, terry-2a only); last ORCH_INFLIGHT drained touch a closeout; evening bookmark triage card
 2026-11-27	VULCAN	SIG-W-20261127-008	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents run before 2026-11-27T22:02:57Z (live: prome-80, terry-2a only); last ORCH_INFLIGHT drained touch a closeout; evening bookmark triage card
 2026-11-27	YURI	SIG-W-20261127-009	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents run before 2026-11-27T22:02:57Z (live: prome-80, terry-2a only); last ORCH_INFLIGHT drained touch a closeout; evening bookmark triage card
+2026-11-27	FALCON	SIG-W-20261127-010	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	BRENT	SIG-W-20261127-010	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	BROCK	SIG-W-20261127-010	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	CARL	SIG-W-20261127-010	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	FALCON	SIG-W-20261127-011	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	BRENT	SIG-W-20261127-011	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	BROCK	SIG-W-20261127-012	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	VULCAN	SIG-W-20261127-012	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	SAM	SIG-W-20261127-012	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	ISHM	SIG-W-20261127-013	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	REGINALD	SIG-W-20261127-013	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	CARL	SIG-W-20261127-013	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card
+2026-11-27	CYPHER	SIG-W-20261127-014	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents at 2026-11-27T23:17:07Z (live: prome-80, terry-2a only); deep-dive follow-up card

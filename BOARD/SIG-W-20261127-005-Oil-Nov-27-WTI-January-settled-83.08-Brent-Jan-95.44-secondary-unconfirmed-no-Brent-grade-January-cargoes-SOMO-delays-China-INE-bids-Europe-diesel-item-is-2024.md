@@ -20,6 +20,8 @@ word_count: 390
 dispatch_note: "ROUTINE: market and supply claims, none confirmed beyond a secondary settle. ACTION BRENT. RED, PROME by BOARD diff."
 event_window: "open"
 ---
+
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261127-010:** item 2 downgraded (Brent-grade January item undatable, immaterial to Dated Brent); item 3 upgraded (SOMO delay is a Bloomberg 11/27 report); item 5 confirmed (17.6 mb/d = EIA gross inputs w/e 11/20).
 # Oil, Nov 27: WTI January settled $83.08, down $0.60 (0.72%), Brent January $95.44, down 1.2% (one secondary report; settles not read at exchange); unconfirmed: no North Sea Brent-grade cargoes in January for low stock (Bloomberg notice via X), Iraq SOMO November loadings delayed 20 to 30 million barrels, China bidding on Shanghai INE crude; Kemp's 3-2-1 under $36 and 17.6 mb/d runs not matched; Bloomberg Europe diesel 'below Covid' item is August 2024
 
 # Oil items from Will's bookmarks, Nov 25 to 27
