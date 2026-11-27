@@ -1,0 +1,50 @@
+[
+ {
+  "id": "SIG-W-20261127-005",
+  "slug": "Oil-Nov-27-WTI-January-settled-83.08-Brent-Jan-95.44-secondary-unconfirmed-no-Brent-grade-January-cargoes-SOMO-delays-China-INE-bids-Europe-diesel-item-is-2024",
+  "safety_net": "clear",
+  "event_window": "open",
+  "route_origin": "WALTER evening boot step 7h, Will's X bookmarks (71 fetched 2026-11-27T22:02:22Z), Will 17:05 ET 'lets do the full triage now'",
+  "origin": [
+   "X bookmarks @FirstSquawk, @chigrl, @MarhelmData, @DarioCpx, @JKempEnergy, @business (11/25 to 11/27)",
+   "Rule 9 helper verify (search summaries; EIA WPSR 11/18)"
+  ],
+  "signal_type": "context",
+  "title": "Oil, Nov 27: WTI January settled $83.08, down $0.60 (0.72%), Brent January $95.44, down 1.2% (one secondary report; settles not read at exchange); unconfirmed: no North Sea Brent-grade cargoes in January for low stock (Bloomberg notice via X), Iraq SOMO November loadings delayed 20 to 30 million barrels, China bidding on Shanghai INE crude; Kemp's 3-2-1 under $36 and 17.6 mb/d runs not matched; Bloomberg Europe diesel 'below Covid' item is August 2024",
+  "body": "# Oil items from Will's bookmarks, Nov 25 to 27\n\n| # | Item | Read | Verdict | Owner |\n|---|---|---|---|---|\n| 1 | WTI January (CLF27) settled $83.08, -$0.60, -0.72% on Nov 27 (half day); Brent January $95.44, -1.2%; week: Brent about +3.1%, WTI about -1.1% | one secondary report via search summary; not read at CME or ICE. ⚠️ Brent card 20261126-008 had BZF27 settle 96.57 on 11/26 | CONFIRMED secondary | BRENT |\n| 2 | **'No North Sea Brent-grade cargoes in January due to insufficient stock', per a notice seen by Bloomberg** (@chigrl 13:35Z) | no Bloomberg or Reuters item found by search; only a January 2026 Platts item (different year) | UNVERIFIED; decision-relevant to the Dated Brent basket if true | BRENT |\n| 3 | Iraq SOMO pushed back November loadings, 20 to 30 million barrels delayed, some to load in the first 10 days of December (@MarhelmData) | nothing current found | UNVERIFIED | BRENT, FALCON |\n| 4 | China bidding heavily on Shanghai INE crude futures 11/26 to 11/27; 'China to lead a global stockpiling drive over 1 to 2 years' (@DarioCpx, @MarhelmData; charts opened) | no source found for either; card 20261117-006 item 8 carried 'China resumes crude stockpiling' (investingLive 11/16) | UNVERIFIED; repeat theme | BRENT, ZHAO |\n| 5 | Kemp: US 3-2-1 crack under $36 from a $72 late-September peak; refiners running almost 17.6 mb/d (charts opened) | Reuters/Kemp record 3-2-1 was $69.66 in July; no $72 or $36 found; EIA crude runs 16.9 mb/d w/e 11/13 (95.7%), w/e 11/20 not read; Kemp's figure may be gross inputs | UNMATCHED figures; WTI-basis crack, not Boundary #8 (Brent 3:2:1, NAMED January legs) | BRENT |\n| 6 | Bloomberg 'Europe's diesel demand on course to be lower this year than during Covid' (tweet dated 11/25 with a 2026-11-25 URL) | helper found only the August 27, 2024 version (IEA OECD Europe); 2026 article page not read | Probable recirculation; open the 2026 URL before citing | BRENT, HANS |\n\n- **So what:** only item 1 is a market fact, and it is secondary. Item 2 would matter (Dated Brent basket supply) and is unconfirmed: BRENT may want it checked at Bloomberg or a loading programme. Boundary rows #6 and #8 not graded here (named contracts not pulled).",
+  "source": "search summaries 2026-11-27 (oil settle report, Platts 2026-01, CME PVM note 11/10); EIA WPSR 2026-11-18 archive page; BNN Bloomberg 2024-08-27; X bookmark texts and images",
+  "action": [
+   "BRENT"
+  ],
+  "info": [
+   "FALCON",
+   "HAWK",
+   "ZHAO",
+   "HANS",
+   "CARL",
+   "HENRY",
+   "RED",
+   "PROME"
+  ],
+  "precedence": "ROUTINE",
+  "confidence": 0.55,
+  "confidence_language": "unconfirmed: one secondary settle report; claims 2 to 4 not found at any primary",
+  "cluster": "HYDROCARBON_INFRA",
+  "domain": "OIL_ENERGY",
+  "entities": [
+   "WTI",
+   "CLF27",
+   "Brent",
+   "BZF27",
+   "SOMO",
+   "Iraq",
+   "INE",
+   "China",
+   "Kemp",
+   "EIA",
+   "Europe diesel"
+  ],
+  "dispatch_note": "ROUTINE: market and supply claims, none confirmed beyond a secondary settle. ACTION BRENT. RED, PROME by BOARD diff.",
+  "route_summary": "Oil: WTI Jan 83.08; unverified Brent-grade January and SOMO delay claims"
+ }
+]

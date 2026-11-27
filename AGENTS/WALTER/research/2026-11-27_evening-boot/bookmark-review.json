@@ -1,0 +1,504 @@
+{
+ "schema": 2,
+ "staged_at": 1795816956.7203436,
+ "items": [
+  {
+   "id": "2126348275662106750",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-007.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126329824000328003",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+   "ask_user": null
+  },
+  {
+   "id": "2126402434738298919",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-005.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126196510631276915",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126327798658678792",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126358901427687556",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+   "ask_user": null
+  },
+  {
+   "id": "2126357480032604482",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126303821555265624",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2125852239885738061",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-005.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126142975306826231",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-005.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126216400117391448",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-009.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126113809077096529",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261127-009-Small-items-Russia-December-military-pay-delay-is-Oct-30-draft-combat-troops-exempt-Su-34-Dachne-unmatched-Norse-Atlantic-suspended-Nov-26-Korea-NPS-won-valuation.md",
+   "ask_user": null
+  },
+  {
+   "id": "2126253221970649299",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-005.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126275844163387826",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+   "ask_user": null
+  },
+  {
+   "id": "2126375640521937349",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+   "ask_user": null
+  },
+  {
+   "id": "2126189186898362840",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126053583284306078",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-009.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126328469818921404",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-007.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126313360790581436",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-009.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126348608375025692",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-009.json",
+   "ask_user": null
+  },
+  {
+   "id": "2125667118980936038",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-005.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126406452785078560",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-007.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126404366366335445",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-004.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126366524713922986",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-004.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126401401831985156",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-007.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126367430066733280",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-006.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126287956617175376",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-004.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126374946091987417",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126398103209337245",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-009.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126281221147865355",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126209562659184646",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-006.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126373466379071799",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+   "ask_user": null
+  },
+  {
+   "id": "2126380354181460087",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+   "ask_user": null
+  },
+  {
+   "id": "2126285386112708767",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-006.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126342216998129909",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-009.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126234320532549685",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-009.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126308974399983803",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-005.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126298972004212842",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-005.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126373399832219982",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-004.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126354222211793104",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126318100832481505",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126326069812944988",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-006.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126333169658102265",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-007.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126350839157821771",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+   "ask_user": null
+  },
+  {
+   "id": "2126293712380518431",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-006.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126343783621255472",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-009.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126365234021773393",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-004.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126359657023230373",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-004.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126223688358097009",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-007.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126238799101374750",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-006.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126026310950551980",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-005.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126357626846154825",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-004.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126308235024179301",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+   "ask_user": null
+  },
+  {
+   "id": "2126350758010306894",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-007.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126337161532465381",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": "BOARD/SIG-W-20261127-002-Nov-27-lane-HY-11-25-first-published-377-CCC-1417-Russia-extends-jet-fuel-export-ban-to-March-31-2027-reported-US-lobbied-Iraq-Venezuela-to-exit-OPEC-MEE-IRGC-F-16-claim-EU-Kuwait-pressure.md",
+   "ask_user": null
+  },
+  {
+   "id": "2126299109371879655",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-005.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126329004504588359",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126360536971612613",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-006.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126327118024089952",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-007.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126339374895796670",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126358802572140581",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-004.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126038201949364557",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126307977673965852",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-007.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126323592757432692",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+   "ask_user": null
+  },
+  {
+   "id": "2126340471597457552",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-004.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126320131089354986",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-006.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126150924955521043",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126311747627733433",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-007.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126344534447505432",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-006.json",
+   "ask_user": null
+  },
+  {
+   "id": "2125984172875694377",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-008.json",
+   "ask_user": null
+  },
+  {
+   "id": "2126324724959449537",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-27_evening-boot/cards-006.json",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "0764e481b64847e1a03250ccbae97cbf"
+}
