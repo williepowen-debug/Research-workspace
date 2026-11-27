@@ -10,3 +10,7 @@ receipt_date	correction_id	action	note
 2026-11-19T16:56Z	COR-20261117-12	NO-OP	scope=GIBBS held no card 008 or 011 claim. KB-GIB-068 carries the corrected cause (software bug on on-premise hardware) and the several-stories verdict; 
 2026-11-19T16:56Z	COR-20261117-17	NO-OP	scope=GIBBS never encoded card 014. The corrected Fed FSR Box 2.2 figures are logged directly at KB-GIB-070 citing BROCK KB-BRK-510; 
 2026-11-19T16:56Z	COR-20261117-31	NO-OP	scope=label only. No GIBBS surface carries the Thursday weekday for the 11/13 report; 
+2026-11-27T03:38Z	COR-20261120-10	APPLIED	artifact=AGENTS/GIBBS/workbook/KB.tsv#KB-GIB-075; validation_ref=AGENTS/GIBBS/board_log.tsv#SIG-W-20261120-010; my 11/19 board_log NOT FOUND note on SIG-W-20261119-011 superseded; MUFG outside the 16
+2026-11-27T03:38Z	COR-20261123-03	NO-OP	scope=GIBBS carried none of the corrected VIX-timing, Bahrain or V14 claims; 
+2026-11-27T03:39Z	COR-20261123-12	NO-OP	scope=KB-GIB-029 carried no SpaceX pricing claim, update logged as KB-GIB-079; 
+2026-11-27T03:39Z	COR-20261125-22	NO-OP	scope=GIBBS carried no CoreWeave 1363 figure, KB-GIB-079 uses LIQUID corrected levels; 
