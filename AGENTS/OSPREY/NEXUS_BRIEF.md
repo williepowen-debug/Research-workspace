@@ -1,8 +1,14 @@
 # OSPREY — NEXUS Brief
 
-**Status:** Elevated, active Russia/Ukraine energy campaign. **2026-11-20: scores 5 / 5 / 3 unchanged; OSP-08 FAILED (Ust-Luga 11/11 under WQ-669 A); OSP-12 re-marked 50 → 60%; OSP-13 registered (November runs 3.00–3.79, 55%) and OSP-10 re-marked 60 → 90%; Poland missiles touched no energy or transit asset; Kaleykino now General Staff-claimed.**
+**Status:** Elevated, active Russia/Ukraine energy campaign. **2026-11-27: scores 5 / 5 / ⚪1. Channel 3 (shadow-fleet tankers) KILLED, limb 1 only; limb 2 NOT MEASURED. C1 step-down test (L914) NOT MET, earliest 12/10.**
 **Domain:** Russia/Ukraine military and energy-infrastructure evidence; prices owned by BRENT.
-**As of:** 2026-11-20 (Fri) 11:47 ET (from `date`) (osprey-1120, PROME prome-77 letter) | **STATUS commit: `86bea707c1`**
+**As of:** 2026-11-27 (Fri) 10:06 ET (from `date`) (osprey-1127, PROME prome-80 wake D:L914 + D:L1057) | **STATUS commit: `87c1558bb5`**
+🆕 **2026-11-27 (osprey-1127) — READ FIRST; ONE mark moved by my own written rule (C3 3 → ⚪1), +6 strike rows, swept mark stays 11/15 BOUNDED:**
+1. **HAWK/BRENT — C3 KILLED (KB-317):** no qualifying Ukrainian strike on a merchant tanker in the Black Sea, Azov or Baltic in 11/07–11/27 (52/21 from RIO 10/6); HAWK limb 2 (c) NOT MEASURED (eaad1fcb4d). Re-arms at 3 on the next qualifying tanker strike; clause (d) and a backfilled in-window tanker void it. ⚠️ Palaemon unpublished for 16–27 Nov: those days rest on news RSS and name-free queries.
+2. **HAWK — Sparta II (KB-316):** the Gulf of Finland ship of 11/21 is a ro-ro military-logistics cargo hull (IMO 9160994, Oboronlogistics), Ukraine-CONFIRMED by Zelensky 11/24; excluded from C3 by hull class. With Naro-Fominsk 11/11 and Merkury at Benghazi 11/22, Ukraine's maritime strikes now target military shipping, not tankers.
+3. **BRENT — refineries and runs (KB-314/315/318):** Perm 11/23, Syzran + Kuibyshev 11/25 (primary units per the General Staff; satellite confirms Kuibyshev AVT-4), Slavyansk ECO 11/26 (CDU damaged per the operator; it was already down). 16 refinery rows in November. **Rystad via Bloomberg: runs 2.6–2.7 M bpd at 11/23, lowest in 20+ years** (B3, one date). Band ~30% stale, not moved (OWED-52). C1 1/30; leg A 1/14, earliest **12/10**; leg B UNREACHABLE.
+4. **YURI/BRENT — policy (KB-319):** Lukoil International definitive sale 11/25 (Boehly-led consortium with a US DFC ownership interest, share swap, OFAC approval pending); Putin 11/24: Trump asked Kyiv to halt refinery strikes, retaliation "inevitable" (no confirmation); jet-fuel export ban extended (title).
+5. **Clocks 11/27:** C1 1/30 from Slavyansk ECO 11/26 · C2 16/30 from Ust-Luga 11/11 (re-kill 12/11) · C3 KILLED (52/21). Bloomberg 4-wk after 11/8 NOT FOUND (asked BRENT).
 🆕 **2026-11-20 (osprey-1120) — READ FIRST; no mark, band, gate or threshold moved, +0 strike rows, swept mark stays 11/15 BOUNDED:**
 1. **HAWK — Poland:** Kh-101s and jet-drone parts fell in SE Poland overnight 11/19–20 (gov.pl PM and MON primaries); MON: *"no reports of damage to critical infrastructure"*. **No energy, rail, fuel or pipeline asset hit; no Russian oil asset involved.** The wave (Ukrainian Air Force via secondary: >100 missiles, ~400 drones, mainly energy, outages in western Ukraine) is a combo:energy-tit-for-tat member; that it is Putin's announced response is NOT ESTABLISHED. Druzhba-south flows: no effect found (MOL primary unread). NATO reaction is yours (KB-306).
 2. **HAWK/BRENT — midstream and north:** Kaleykino LPDS 11/19 now claimed by the General Staff (three tanks); inland, no clock (KB-307). Madyar claims a previously unreported strike on **Vitino** oil port (White Sea), undated, unconfirmed, not rowed; out of C2 geography (KB-308).
@@ -79,7 +85,8 @@
 |---|---|---|---|
 | **BRENT / HAWK** | **Refinery strikes resumed: six plants 10/30–11/6, after the lull of 10/16–10/29** (KB-245…252) | P2 | NEXUS_BRIEF (routine). Capacity, not barrels. Abu Dhabi 11/10–11 is the next test of the brake. |
 | **BRENT** | **Primorsk ~3-day pause in the week to 10/18 (your Bloomberg 3.59 print): cause NOT established** (KB-226) | P2 | An ask, not a claim: if BRENT has the cause, it decides whether this is a C2 shut-in signal at the 11/17 re-kill. |
-| **HAWK** | **C3 limb-2 letter adopted 11/6, WQ-637 A (KB-270)** | P1 | You grade. My canvass 11/24–11/27; earliest first kill 11/27. |
+| **HAWK / BRENT** | **C3 KILLED 11/27, limb 1 only; limb 2 NOT MEASURED (KB-317)** | P1 | Packets 9b0650adec (HAWK), 54b929aee2 (BRENT). Re-arm on the next qualifying tanker strike. |
+| **TERRY** | **Russian refining at a 20-year low (Rystad 2.6–2.7 M bpd at 11/23): tradeability read asked** | P2 | Packet 97346b0d71. |
 
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters |
@@ -100,11 +107,11 @@
 - Conviction: products impairment direction high; incremental lost-volume level low; duration of the October lull low.
 - Diverge from market by: no independent consensus measurement made. Do not infer price mispricing from strike tempo.
 - Counter-signal: a lull plus recovering runs weakens C1. Russian diesel exports to the US (KB-229) are a demand-side sign of product recovery.
-- Book: OSP-01..06 resolved (3 CONFIRMED / 3 FAILED). **OSP-07 OPEN (10/29, 60%): a Ukrainian strike on a Russian crude refinery dated 10/30–11/15**, graded on or after 11/18 (KB-232). **BRENT:** this is the products-half swing factor (`FLOW-OSPREY-06`). OSP-07 CONFIRMED 11/18; **OSP-08 FAILED 11/20** (KB-309). **Open:** OSP-09 (30%), OSP-10 (**90%**, re-marked 11/20; first call 60%), OSP-11 (25%), OSP-12 (**60%**, re-marked 11/20; first call 50%), OSP-13 (55%, registered 11/20). Scoreboard 4 CONFIRMED / 4 FAILED / 5 OPEN.
+- Book: OSP-01..06 resolved (3 CONFIRMED / 3 FAILED). **OSP-07 OPEN (10/29, 60%): a Ukrainian strike on a Russian crude refinery dated 10/30–11/15**, graded on or after 11/18 (KB-232). **BRENT:** this is the products-half swing factor (`FLOW-OSPREY-06`). OSP-07 CONFIRMED 11/18; **OSP-08 FAILED 11/20** (KB-309). **Open:** OSP-09 (30%), OSP-10 (**90%**, re-marked 11/20; first call 60%), OSP-11 (25%), OSP-12 (**60%**, re-marked 11/20; first call 50%; the kill it names was written 11/27, grades ≥12/07), OSP-13 (55%, registered 11/20). Scoreboard 4 CONFIRMED / 4 FAILED / 5 OPEN.
 - Failure patterns: syndication ≠ independent evidence; nameplate ≠ lost output; source silence ≠ verified quiet; a lull ≠ a ceasefire.
 
 ## NEXT DECISION POINT
-No Will-gated decision open; band re-derivation (OWED-52) goes to him when the October print lands. Desk points: **11/10** Bloomberg print, Abu Dhabi 11/10–11 · **11/17** earliest C2 re-kill · **11/18** GATE-OSPREY-001 review + OSP-07 grade · **12/02** C1 leg A · **12/11** earliest C2 re-kill · **11/24–11/27** C3 canvass · **11/27** earliest C3 kill · **by 12/6** §5 re-read.
+No Will-gated decision open; band re-derivation (OWED-52) goes to him on the monthly print. **11/27 points: Palaemon 16–29 Nov (could void the C3 kill) · ~12/01 re-reads · 12/07 OSP-12 · 12/10 C1 leg A · 12/11 earliest C2 re-kill · 12/18 GATE-001 and OSP-11.** Older desk points: **11/10** Bloomberg print, Abu Dhabi 11/10–11 · **11/17** earliest C2 re-kill · **11/18** GATE-OSPREY-001 review + OSP-07 grade · **12/02** C1 leg A · **12/11** earliest C2 re-kill · **11/24–11/27** C3 canvass · **11/27** earliest C3 kill · **by 12/6** §5 re-read.
 
 ## WATCH
 | Date | Event | Signal |
