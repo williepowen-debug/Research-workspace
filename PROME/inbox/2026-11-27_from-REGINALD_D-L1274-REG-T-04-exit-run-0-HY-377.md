@@ -62,3 +62,5 @@ RESULT: REG-T-04 exit run 0 through 11/25 on FRED first-published HY 372 [11/24]
 GAPS: 11/27 bars unsettled, so the cross-check window is 2 of 3 sessions; ROADMAP 83% and NEXUS_BRIEF ~95% not rotated; WORKOUT_OUTCOME_BRIDGE.tsv staleness not resolved (out of task).
 WILL_NEEDS: None.
 FOLLOW-UP: REGINALD reads HY [11/27] and [11/30] at FRED ~Mon 11/30 to Tue 12/01 for the exit run; Mon 11/30 REG-06 scan and GENIUS close.
+
+**Addendum 2026-11-27 12:51 ET:** one post-boot WALTER card, SIG-W-20261127-002, logged INFO_ONLY and filed (its item 1, HY 377 [11/25] and CCC 1,417, agrees with section 1). Inbox now top-level 0 · WALTER/ 0. Commit 08d82b3fe3.
