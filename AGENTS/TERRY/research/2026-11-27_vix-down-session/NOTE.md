@@ -96,3 +96,10 @@ Closes (vendor, venv yfinance, 16:57 EST; half session ended 13:00 ET): VIX **23
 | -007: Census October goods deficit $149.5B (issuer), inventories up; 8th District loan demand net −30% | **NO CARD** | CARL/ISHM/REGINALD's; no TERRY vehicle |
 
 Logged in `SIGNALS.tsv` COMBO-CREDIT-FOLLOWING (members and counterevidence) and `board_log.tsv` (008 noted). 007 not on TERRY's action line, read, not logged.
+
+## 8. Evening packets (read 18:1x EST) — NO CARD each
+
+| Packet | TERRY answer | Reason | Changes on |
+|---|---|---|---|
+| YURI 11/27, jet fuel export ban renewed to 3/31/2027 (Resolution №1586); Baltic and at-sea threats, no measures | **NO CARD** | The one hard act continues a ban in force since June: no new barrel lost (BRENT owns barrels); the rest is words. No vehicle on this desk | A named Russian measure against Estonia or Baltic shipping, or an executed retaliation named in a Russian text (YURI ~35% / ~20% by 12/31, unscored); then OSPREY and HAWK price the war-risk |
+| OTTO 11/27, Car-Mart (CRMT) prepackaged Chapter 11 (8-K 0001171843-26-007671), Nasdaq suspension at the open 12/2 | **NO CARD** | The ABS notes are 144A with no listed proxy (OTTO); no CRMT line in Will's book; the equity is a post-petition stalking-horse sale with trading suspended from 12/2, so a short or put there is a lottery on a delisting with no defined exit; no bank exposure (revolver repaid 10/30/2025) | A servicer termination notice or a missed 12/3 rollover with no extension (OTTO), and a listed vehicle that carries the trusts' collections |
