@@ -22,7 +22,7 @@
 
 ```bash
 curl -s "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2026-08-06" \
-  -H "User-Agent: Mozilla/5.0 (research; <declared contact>)"
+  -H "User-Agent: research-bot/1.0"
 ```
 
 - ⚠️ **`^TNX` IS COUNT-NEUTRAL.** It neither counts nor resets. Drift is routine and expected (8/19: ^TNX 4.65–4.67 intraday vs DGS10 4.72 official [8/17]). **Do not let a ^TNX print near 4.50 start or reset anything.**
