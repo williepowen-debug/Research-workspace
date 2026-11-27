@@ -34,3 +34,6 @@ receipt_date	correction_id	action	note
 2026-11-25T04:51Z	COR-20261124-21	NO-OP	scope=cyber item in the CYPHER lane, FALCON carried nothing from card 018 item 8; 
 2026-11-26T01:00Z	COR-20261125-23	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-557; validation_ref=NONE; 
 2026-11-26T01:00Z	COR-20261125-16	NO-OP	scope=FALCON never carried the 89.21 or minus 2.4 pct Brent figure, card 008 arrived after the 11/24-25 session, Brent figures are BRENT's; 
+2026-11-27T23:31Z	COR-20261127-02	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-572; validation_ref=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-574; 
+2026-11-27T23:31Z	COR-20261127-03	NO-OP	scope=Russia jet-fuel ban and Zakharova quote are OSPREY, YURI and BRENT objects, no FALCON surface carries them; 
+2026-11-27T23:31Z	COR-20261127-04	NO-OP	scope=no FALCON surface carried the still-three carrier count, two-carrier record noted in KB-FALCON-576; 
