@@ -145,3 +145,5 @@ gold	gold	sources	gold/sources/2026-11-18_L821_TIC	TIC September Table 5 capture
 platinum	platinum	sources	platinum/sources/2026-11-18_MIDAS-20_WPIC	WPIC Platinum Quarterly Q3 2026	Tables XLSX, press release and report PDFs, extracted text, SHA256SUMS.
 gold	gold	research	gold/research/2026-11-23_1120-close-grade.md	Gold through the 11/19-11/20 equity break	MIDAS-11/13/17, WQ-451 L1/L2, 11/18-11/20 classes, forward view.
 gold	gold	sources	gold/sources/2026-11-23_1120_grade	11/18-11/20 grade bundle	Plain-client capture (SPDR 403 recorded), FORGE fetch.py history, Treasury CSVs, grade.py, grade_output.txt.
+gold	gold	research	gold/research/2026-11-27_D-L1113-backstop-grade.md	D:L1113 backstop: MIDAS-11/17 on the issuer row	MIDAS-11 HIT, MIDAS-17 MISS, 11/19-11/20 LIQUIDATION, three-month trust line crossed (lean neutral), 11/27 half-day levels, forward view.
+gold	gold	sources	gold/sources/2026-11-27_backstop	11/27 backstop bundle	One honest-name SPDR request (HTTP 200), Treasury CSVs, FORGE fetch.py history, grade.py, grade_output.txt.

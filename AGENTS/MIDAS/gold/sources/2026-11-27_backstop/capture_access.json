@@ -1,0 +1,31 @@
+[
+  {
+    "file": "treasury_real.csv",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "client": "python urllib, User-Agent research-bot/1.0",
+    "requested_utc": "2026-11-27T18:03:07.839664+00:00",
+    "status": 200,
+    "bytes": 8178,
+    "sha256": "d2364714a93e328908b52a8f4f8292b547fd44316d373264c7b938f6099c1e6b",
+    "received_utc": "2026-11-27T18:03:33.301337+00:00"
+  },
+  {
+    "file": "treasury_nominal.csv",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "client": "python urllib, User-Agent research-bot/1.0",
+    "requested_utc": "2026-11-27T18:03:33.301375+00:00",
+    "status": 200,
+    "bytes": 18416,
+    "sha256": "7d6dcae74563a23ba35e68aa4477e532f13b70b84fd498445243db0238691b15",
+    "received_utc": "2026-11-27T18:03:52.605960+00:00"
+  },
+  {
+    "file": "fetch_history.json",
+    "tool": "FORGE fetch.py price --history 420 --json",
+    "rc": 0,
+    "stderr_tail": "",
+    "requested_utc": "2026-11-27T18:03:52.605984+00:00",
+    "received_utc": "2026-11-27T18:04:12.634265+00:00",
+    "sha256": "714d761bf0065d019f4fc93f57ac711613c8b42eec7613766536e9f3265eb99c"
+  }
+]

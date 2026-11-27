@@ -115,9 +115,19 @@ ETF_PROXIES = {"GLD": "Gold ETF", "SLV": "Silver ETF", "CPER": "Copper ETF",
 #      HGZ26 70,493 vs HGH27 36,956 (1.9x) · PLF27 15,579 vs PLJ27 1,280 (12.2x) ·
 #      PAZ26 10,704 vs PAH27 4,135 (2.6x) -> map unchanged. December leads narrowing
 #      (GC 15x -> 5x since 10/22); HG, PA and SI may cross before the next review.
-FRONT_MONTHS = {"GC=F": "GCZ26.CMX", "SI=F": "SIZ26.CMX", "HG=F": "HGZ26.CMX",
-                "PL=F": "PLF27.NYM", "PA=F": "PAZ26.NYM"}
-FRONT_MONTHS_REVIEW_ON = "2026-11-20"  # chosen weekly maintenance date, not an expiry
+#      REVIEW + ROLL 2026-11-27 (FORGE fetch.py volumes, bundle gold/sources/2026-11-27_backstop/):
+#      11/25 row GCZ26 124,601 vs GCG27 256,159 · SIZ26 48,110 vs SIH27 104,836 · HGZ26 25,360 vs
+#      HGH27 82,362 (HG crossed 11/24: 66,195 vs 80,247) · PAZ26 4,524 vs PAH27 10,266 · PLF27
+#      24,797 vs PLJ27 3,718 (6.7x, stays). ROLLED HG -> HGH27 and PA -> PAH27.
+#      GC and SI leads ALSO flipped (11/25) but are NOT rolled: primary_gsr() requires one
+#      delivery month for both legs, and the next active months differ (GC Feb, SI Mar; GCH27
+#      traded 960 lots on 11/25). Rolling them would fail the GSR leg (rc 2) every boot. Open
+#      design question (OPEN_ITEMS 11/27): which same-month pair grades the GSR after December.
+#      Dec GC/SI still trade (last trade late December); quote Feb/Mar beside them in reports.
+#      Review was overdue since 11/20; the old review script (curl_cffi) was not run.
+FRONT_MONTHS = {"GC=F": "GCZ26.CMX", "SI=F": "SIZ26.CMX", "HG=F": "HGH27.CMX",
+                "PL=F": "PLF27.NYM", "PA=F": "PAH27.NYM"}
+FRONT_MONTHS_REVIEW_ON = "2026-12-04"  # chosen weekly maintenance date, not an expiry
 MAX_PRIOR_BAR_AGE_DAYS = 7  # source freshness bound, not a market alarm level
 # A pointer carrying under this share of the explicit month's volume is DYING.
 DYING_VOL_SHARE = 0.05
@@ -339,8 +349,7 @@ GSR_YELLOW, GSR_ORANGE, GSR_RED = 85, 90, 95
 
 WESTMETALL_CU_URL = ("https://www.westmetall.com/en/markdaten.php"
                      "?action=table&field=LME_Cu_cash")
-BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-              "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+BROWSER_UA = "research-bot/1.0"  # honest client name, WQ-735 (Will 2026-11-23); westmetall passed it 11/25. Name kept for callers.
 
 # LME copper inventory bands (MIDAS CLAUDE.md THRESHOLDS: "+X% vs normal").
 # "normal" is now DEFINED (round-3, KB-018) as the trailing-2yr rolling MEDIAN

@@ -69,7 +69,7 @@ import time
 import urllib.request
 
 URL = "https://www.cftc.gov/dea/newcot/deafut.txt"
-UA = "Mozilla/5.0 (research; MIDAS metals agent; contact via repo)"  # 403 w/o a UA
+UA = "research-bot/1.0"  # honest client name, WQ-735 (Will 2026-11-23); CFTC passed it 11/25. 403 w/o a UA
 
 # metal -> (CFTC contract market code, EXACT expected market name). Full-size only.
 CONTRACTS = {

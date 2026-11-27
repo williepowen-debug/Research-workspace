@@ -91,5 +91,6 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 
 - [November 11: the 11/10 gold fall graded](research/2026-11-11_1110-gold-move-grade.md) — RATE on the frozen WQ-451 classifier (KB-267).
 - [November 18: TIC sign, L2 count, MIDAS-20 and the 11/18 gold class](research/2026-11-18_L819-L821-MIDAS20-close-grade.md) — L821 SUPPORTS on sign; 11/18 UNEXPLAINED-DOWN, no driver (KB-283, KB-284).
+- [November 27: D:L1113 backstop on the issuer row](research/2026-11-27_D-L1113-backstop-grade.md) — MIDAS-11 HIT, MIDAS-17 MISS; 11/19–11/20 LIQUIDATION; three-month trust line crossed 11/20, lean neutral (KB-292..295).
 - [November 23: gold through the 11/19–11/20 equity break](research/2026-11-23_1120-close-grade.md) — MIDAS-13 HIT; MIDAS-11/17 pending the issuer row (archive refuses automation); L2 falsifier unreachable; 11/20 LIQUIDATION-candidate (KB-285..290).
 - [November 14: the 11/11–11/13 gold fall graded](research/2026-11-14_1111-1113-gold-move-grade.md) — 11/12 UNEXPLAINED-DOWN, not liquidation; real 10Y 9 bp from the 3.00% line (KB-278).

@@ -43,7 +43,7 @@ import urllib.request
 URL = "https://www.cftc.gov/dea/newcot/deafut.txt"
 GOLD_CODE = "088691"          # COMEX full-size gold. Micro gold is a DIFFERENT code.
 GOLD_NAME_EXPECT = "GOLD - COMMODITY EXCHANGE INC."
-UA = "Mozilla/5.0 (research; MIDAS metals agent; contact via repo)"  # 403 w/o a UA
+UA = "research-bot/1.0"  # honest client name, WQ-735 (Will 2026-11-23); CFTC passed it 11/25. 403 w/o a UA
 
 # Legacy futures-only short-format field indices.
 F_NAME, F_DATE_YMD, F_CODE = 0, 2, 3

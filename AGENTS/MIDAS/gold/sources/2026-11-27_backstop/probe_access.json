@@ -1,0 +1,9 @@
+{
+  "url": "https://api.spdrgoldshares.com/api/v1/historical-archive?exchange=NYSE&lang=en&product=gld",
+  "client": "python urllib, User-Agent research-bot/1.0",
+  "requested_utc": "2026-11-27T18:01:43.704017+00:00",
+  "status": 200,
+  "bytes": 544904,
+  "sha256": "4e04cec2c1efbfee26a746960c2128b56d86f2b21e2a47b92b362c851bc28279",
+  "received_utc": "2026-11-27T18:01:49.099108+00:00"
+}

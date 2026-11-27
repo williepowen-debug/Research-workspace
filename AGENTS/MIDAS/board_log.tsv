@@ -67,3 +67,14 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-23T12:13:42-05:00	SIG-W-20261121-003	noted	INBOX_WALTER	Copper bear-market and US-to-China copper-move titles -> KB-289, routed with the copper band packet to ZHAO/HENRY. No score.
 2026-11-23T12:18:08-05:00	SIG-W-20261123-001	noted	INBOX_WALTER	Nvidia 8-K reinstates Huang; intraday S&P +4.99%, VIX 27.68, gold GC=F +4.23%: stress clearing and gold rising with risk, as the 11/23 forward view expects (KB-291). Intraday, not a grade.
 2026-11-23T12:18:08-05:00	SIG-W-20261123-003	info-only	INBOX_WALTER	WALTER correction of 11/21 cards (VIX +5 crossing time, Bahrain, 7,037 line); no MIDAS figure changes: L2 uses the 11/20 close (VIX 35.89).
+2026-11-27T13:11:05-05:00	SIG-W-20261123-007	noted	INBOX_WALTER	Item 15 copper almost +4% 11/23, GLD 335.50 intraday, GSR 86 (11/21) -> KB-295/294 combo notes; rest VULCAN/BROCK/other owners. No score.
+2026-11-27T13:11:05-05:00	SIG-W-20261123-013	info-only	INBOX_WALTER	Correction of 20261116-005 item 2 (GMI Cloud, FT dates); receipted COR-20261123-13 NO-OP, MIDAS cited item 4 only (KB-282).
+2026-11-27T13:11:05-05:00	SIG-W-20261124-001	noted	INBOX_WALTER	VIX flash 11/24 premarket over 30, close 26.36; GLD 325.45 (-2.27%) equals the issuer close; 11/24 not a stress day on closes (S&P -0.50%, VIX -0.26) -> KB-293/296.
+2026-11-27T13:11:05-05:00	SIG-W-20261124-016	info-only	INBOX_WALTER	Portland hotel CMBS total-loss projection; not metals.
+2026-11-27T13:11:05-05:00	SIG-W-20261124-018	noted	INBOX_WALTER	Item 10 CME gold margin 5 to 6%, silver 8 to 9% (advisory image) and item 11 copper -3.5% (title) -> KB-295/294 combo notes. No score.
+2026-11-27T13:11:05-05:00	SIG-W-20261124-021	info-only	INBOX_WALTER	Correction of 20261124-018 item 8 (CIA/ODNI breach); receipted COR-20261124-21 NO-OP.
+2026-11-27T13:11:05-05:00	SIG-W-20261125-005	noted	INBOX_WALTER	VIX flash 11/25 intraday high 31.47; on closes VIX +1.93 (< +2.0) and S&P -0.25%, so 11/25 not a WQ-451 stress day (class RATE) -> KB-293/296.
+2026-11-27T13:11:05-05:00	SIG-W-20261125-017	noted	INBOX_WALTER	MOFCOM No. 59 extends 46 clause 2 (Ga/Ge/Sb/graphite) to 2027-01-27; MIDAS holds no row on the 11/27 clock (KB-270), NO-OP -> KB-296.
+2026-11-27T13:11:05-05:00	SIG-W-20261125-044	noted	INBOX_WALTER	Copper at a 2026 low (title) -> KB-294 combo:copper; MIDAS measures HGH27 QoQ -20.18% red on that measure, I1 stays 1.
+2026-11-27T13:11:05-05:00	SIG-W-20261127-001	info-only	INBOX_WALTER	Correction of 20261116-005 item 1 (SoftBank September deal); receipted COR-20261127-01 NO-OP.
+2026-11-27T13:11:05-05:00	SIG-W-20261127-002	noted	INBOX_WALTER	Item 5 COMEX gold +4% to $3,708, silver +10% (title, 10:33Z) -> KB-295 with MIDAS vendor read 13:04 ET (GCG27 +2.76%, SIH27 +7.55%); HY OAS 377 is LIQUID's.
