@@ -125,3 +125,30 @@ An outside commit review (read at origin/master 1c7f415407; Will gave PROME the 
 | news.google.com RSS search | CYPHER `boot.py` leg 10 | works: HTTP 200, valid RSS |
 
 BOND `monitors/dm_cross_section.py` uses ECB, Bank of England and Japan MoF, which are in the table above from 11/23; not re-run. Packets sent 11/25 to WATT, MIDAS, BOND and CYPHER (`AGENTS/<desk>/inbox/2026-11-25_from-PROME_WQ-735-honest-client-name.md`). Limits: one request each; no desk parser was exercised; the count of script files still carrying "Mozilla/5.0" was 127 at this check, most of them research and archive scripts that no longer run (not classified one by one). The second pass over written recipes is D:L1239.
+
+## Addendum 2026-11-26 (PROME prome-80, 2026-11-26 22:27 ET): written pull recipes, the second pass (D:L1239)
+
+The 11/23 test scanned scripts only. Written recipes carry the same browser string (AEOLUS's packet of 11/23). Census 22:25 ET 11/26: `grep -rIn --include='*.md' Mozilla AGENTS FORGE`, archives, inboxes, outboxes and processed folders excluded, gives 78 lines in 36 files. PROME sorted them by reading the lines: standing recipes a desk re-runs (19 lines in 11 files: AEOLUS 15 in 7, and one each at OZK, TERRY, BRENT and ORACLE), notes that mention the string without sending it (AEOLUS `SCRATCH.md`, RED and VIOLET `MAINTENANCE.md`, CYPHER `DATA_ROUTES.md`, CATO `TASK_INDEX.md`, CORAL `STATUS_DETAIL.md`, one AEOLUS 403 note), and dated research records that quote what a past session ran (DEWEY, WALTER, HAWK, YURI, HOMER, DAEDALUS, CYPHER, CATO, BRENT, HANS, CORAL; left as written, not tested). The sorting is PROME's judgment and was not read by anyone else.
+
+Each recipe source not already in the tables above was requested ONCE under `research-bot/1.0` from the laptop, 22:25:30 to 22:26:27 ET 11/26 (curl, redirects followed, 30 s limit; raw log `probe_2026-11-26_recipes.tsv`).
+
+| Source | Desk and recipe | Result under the honest name |
+|---|---|---|
+| www.contargo.net | AEOLUS `water/SOURCES.md` | works: HTTP 200, 72,956 B |
+| www.fastenergy.de | AEOLUS `water/SOURCES.md` | works: HTTP 200, 117,174 B |
+| pancanal.com advisory index | AEOLUS `water/SOURCES.md`, `water/PANAMA_SERIES.md` | works: HTTP 200, 778,464 B |
+| volcano.si.edu weekly RSS | AEOLUS `seismic/SOURCES.md` | works: HTTP 200, 31,540 B, XML |
+| www.usda.gov WASDE page | AEOLUS C2 instrument file | works: HTTP 200, 159,363 B |
+| www.sagis.org.za dates PDF | AEOLUS C2 instrument file | works: HTTP 200, a PDF, 359,455 B |
+| bepi.mpob.gov.my | AEOLUS C2 instrument file | works: HTTP 200, 188,208 B |
+| www.fao.org food price index CSV | AEOLUS C2 instrument file | works: HTTP 200, a CSV, 48,217 B |
+| www.bsee.gov `rss.xml` | AEOLUS `hurricane/SOURCES.md` | works: HTTP 200, RSS, 35,425 B |
+| www.artemis.bm cat-bond yield page | AEOLUS `hurricane/SOURCES.md` | REFUSED: HTTP 403, a bot challenge page; AEOLUS had the same on 11/23 under curl's default name |
+
+Not requested again, host already passed above: home.treasury.gov and www.eia.gov (AEOLUS), securitiesfilings.fdicconnect.fdic.gov (OZK), fred.stlouisfed.org (TERRY), services9.arcgis.com (BRENT). NOT TESTED: Polymarket's price-history call (ORACLE `SCRATCH.md`); it needs a live token identifier from ORACLE's pins, so ORACLE is asked to run it once at its next session.
+
+Packets sent 11/26 to AEOLUS, OZK, TERRY, BRENT and ORACLE (`AGENTS/<desk>/inbox/2026-11-26_from-PROME_WQ-735-written-recipes.md`); each switches at its next ordinary session.
+
+Additions to the 12/07 list from this pass and since 11/25: www.artemis.bm (AEOLUS; loses the mid-cycle cat-bond spread it uses to search for AEO-03, not that forecast's resolving instrument; replacement asked of AEOLUS, none tested) · CourtListener's docket web page (DEWEY, 11/26: HTTP 403 to the honest name; loses free full-text docket descriptions; replacement: the CourtListener API with a token, which is WILL_QUEUE row 687, Will's hands). REMOVED as a refusal: GIE's storage API (HANS 11/26: it answers the honest name when the fleet's existing key is sent; BRENT asked to confirm for its probe).
+
+Limits: one request per source; no desk parser was exercised; same-host files other than the one requested are assumed, not shown, to behave alike; no browser-name request was sent for comparison.
