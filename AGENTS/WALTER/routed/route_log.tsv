@@ -2400,3 +2400,4 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-26T03:49:12Z	SIG-W-20261125-043	RESEARCH-INTAKE 23:40Z collect (FLG watch phrase 'upholds rent freeze'), title skim 22:5x ET	NYC rent freeze upheld (titles)	PRIORITY	FLG	REGINALD,CREED,HOMER,WAL,RED,PROME	0.75
 2026-11-26T03:49:12Z	SIG-W-20261125-044	RESEARCH-INTAKE 23:40Z collect, 72 new titles read 22:5x ET (7e(h)); repeats checked against the BOARD	Small items evening lane	ROUTINE	CYPHER,FALCON	LABOR,HANS,OSPREY,YURI,MIDAS,WATT,VULCAN,BROCK,CORAL,BRENT,RED,PROME	0.5
 2026-11-27T03:27:30Z	SIG-W-20261126-001	WALTER night boot flood check 7j, 2026-11-26 22:20 ET	DeLand 6.12 ft observed, forecast 6.5 vs 6.33 record	ROUTINE	CORAL	AEOLUS,SHADE,HOMER,REGINALD,MARCO,RED,PROME	0.95
+2026-11-27T03:29:09Z	SIG-W-20261126-002	WALTER night boot, HAWK ask in inbox 2026-11-26 (b7185cd97b)	Gulf of Finland ship = Sparta II, ro-ro cargo, not tanker	PRIORITY	OSPREY,HAWK	YURI,PROME	0.85

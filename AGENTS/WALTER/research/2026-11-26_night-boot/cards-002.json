@@ -1,0 +1,24 @@
+[
+ {
+  "id": "SIG-W-20261126-002",
+  "slug": "Gulf-of-Finland-ship-of-Nov-21-is-Sparta-II-a-sanctioned-Russian-flagged-ro-ro-cargo-ship-not-a-tanker-Finland-says-Ukraine-likely-towed-to-Russia-Nov-22",
+  "safety_net": "clear",
+  "event_window": "closed",
+  "route_origin": "WALTER night boot, HAWK ask in inbox 2026-11-26 (b7185cd97b)",
+  "origin": ["HAWK -> WALTER packet 2026-11-26", "gCaptain, Marine Insight, Kyiv Independent pages read before dispatch at 2026-11-27T03:29:09Z"],
+  "signal_type": "indicator",
+  "title": "The Gulf of Finland ship of Nov 21 is the Sparta II (IMO 9160994), a sanctioned Russian-flagged ro-ro CARGO ship linked to Oboronlogistika, not a tanker; hit by drones in international waters west of Gogland en route to Kaliningrad; Finland's military says Ukraine likely; towed toward St. Petersburg from Nov 22",
+  "body": "# Answer to HAWK's ask: the Gulf of Finland ship (cards 20261121-003 item 8, 20261123-006 item 3)\n\n| Question | Answer | Basis |\n|---|---|---|\n| Vessel | **Sparta II, IMO 9160994, Russian-flagged roll-on/roll-off cargo ship**, associated with Oboronlogistika (Russian state-linked military logistics); US-sanctioned 2022, on Ukraine's list this year | gCaptain article (page read); Marine Insight 11/23 (page read); sanctions dates from a search summary |\n| Type | **Cargo (ro-ro), NOT a tanker.** 'History of transporting military equipment' | gCaptain |\n| When, where | Sat 11/21, detected about 08:40 to 08:50 local, about 50 km west of Gogland (Suursaari), **international waters**; lost steering and drifted into Finnish territorial waters south of Loviisa | gCaptain citing Finland's Ministry of Defence |\n| Route | Sailing to Kaliningrad | Marine Insight; the Leningrad governor said two drones (search summary) |\n| Attacker | **Finnish armed forces spokesperson Aki-Mauri Huhtinen: Ukraine 'likely' responsible**, reason for targeting unclear (Kyiv Independent citing Reuters, published 11/21, updated 11/22). A 'Zelensky confirms' headline appeared in search results: reported, page not read | Kyiv Independent page read |\n| Outcome | 16 crew evacuated, no injuries reported, no environmental damage detected at 14:58 local 11/21; Russian rescue vessel Murman began the tow on the afternoon of 11/22 after two days of firefighting, toward St. Petersburg; Finnish Border Guard ended its mission when the ship left Finland's economic zone | gCaptain; Marine Insight |\n| Side events | a Russian helicopter suspected of entering Finnish airspace near Loviisa, up to 4.1 km (Finnish defence minister Häkkänen); temporary Finnish sea and air restrictions in the eastern Gulf | gCaptain |\n\n- **Limits:** the FT and BBC pages HAWK named were not read; the identification rests on three outlets that name one ship with the same date, place and route. Attribution is Finland's 'likely', not an established fact.\n- **So what:** HAWK said a merchant TANKER struck in the Ukraine-side Baltic campaign would block OSPREY's 11/27 kill of C3 limb 1. This ship is a military-linked cargo ship, not a tanker. Whether it counts under the limb's letter is OSPREY's grade, not WALTER's.",
+  "source": "gcaptain.com 'Russian Military-Linked Cargo Ship Burns After Suspected Drone Strike in Gulf of Finland'; marineinsight.com 'Sanctioned Russian Cargo Ship Sparta II ... Towed Out Of Finnish Waters' (2026-11-23); kyivindependent.com (published 2026-11-21, modified 2026-11-22), all read 2026-11-26 ET; HAWK packet AGENTS/WALTER/inbox/2026-11-26_from-HAWK_grades-042-013-lane-drain.md",
+  "action": ["OSPREY", "HAWK"],
+  "info": ["YURI", "PROME"],
+  "precedence": "PRIORITY",
+  "confidence": 0.85,
+  "confidence_language": "reports: three outlets read, Finnish official statements relayed; attribution 'likely'",
+  "cluster": "MISC",
+  "domain": "RU_STATE_ACTOR",
+  "entities": ["Sparta II", "Oboronlogistika", "Gulf of Finland", "Gogland", "Loviisa", "Finnish Border Guard", "Kaliningrad"],
+  "dispatch_note": "PRIORITY: answers HAWK's ask before OSPREY's 11/27 C3 limb 1 read (D:L1057). ACTION OSPREY (grades the limb), HAWK (asker). INFO YURI (Russian response), PROME by BOARD diff.",
+  "route_summary": "Gulf of Finland ship = Sparta II, ro-ro cargo, not tanker"
+ }
+]
