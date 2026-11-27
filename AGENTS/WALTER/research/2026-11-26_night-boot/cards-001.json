@@ -1,0 +1,24 @@
+[
+ {
+  "id": "SIG-W-20261126-001",
+  "slug": "DeLand-St-Johns-6.12-ft-observed-Thu-Nov-26-now-second-highest-on-record-forecast-raised-to-6.5-ft-Sun-Nov-29-vs-6.33-record",
+  "safety_net": "clear",
+  "event_window": "open",
+  "route_origin": "WALTER night boot flood check 7j, 2026-11-26 22:20 ET",
+  "origin": ["NWS alerts api, Melbourne warnings 20:38 to 20:58 ET", "NWPS DLAF1, SNFF1, ASTF1 read 22:26 ET"],
+  "signal_type": "indicator",
+  "title": "St. Johns at DeLand observed 6.12 ft at 21:30 ET Thu Nov 26, above the 1953 crest (6.06) and second only to the 2022 record 6.33; NWS raised the forecast crest to 6.5 ft by Sun Nov 29 07:00 ET, held through Thu Dec 3",
+  "body": "# Florida flood check, Thu Nov 26, 22:26 ET\n\n| Object | Read | Basis |\n|---|---|---|\n| DeLand observed | **6.12 ft at 21:30 ET Thu 11/26** (was 5.88 ft 15:30 ET Wed 11/25); now above the 1953 crest 6.06 ft, second highest in the gauge's crest list; record 6.33 ft (2022-10-11), 0.21 ft above the reading | NWPS DLAF1 observed series, historic crests from the same gauge page |\n| DeLand forecast | **6.5 ft by Sun 11/29 07:00 ET, held at 6.5 through the last point, Thu 12/03 19:00 ET** (was 6.4 ft Sat 11/28 in card 20261125-037) | NWPS forecast issued 20:14 ET; NWS warning 20:53 ET: 'forecast to rise above its former record crest this weekend, reaching 6.5 feet, where it is expected to linger into early next week' |\n| Sanford | 8.74 ft at 21:30 ET; forecast 8.8 ft Fri 11/27 07:00 ET, 8.6 by 12/03; record 8.96 (2022), not forecast to break | NWPS SNFF1; warning 20:47 ET |\n| Astor | 4.42 ft at 21:30 ET; forecast steady 4.3 to 4.4; record 4.81 (2024-10-12, per card 037); at 4.5 ft NWS lists water rescues and evacuations and most low-lying homes uninhabitable | NWPS ASTF1; warning 20:58 ET |\n| Lake Harney, Cocoa | 13.2 ft (19:30 ET) and 18.3 ft (19:15 ET), both still above their old records; Harney steady then slow decline this weekend, Cocoa very slow decline to 18.0 | NWS warnings 20:43 and 20:38 ET; continuing state |\n\n- **Limits:** the record at DeLand is a forecast, not yet an observation; 0.21 ft remains. Volusia and Seminole were not on DR-4956-FL as AEOLUS read it on 11/25 (KB-AEO-331); not re-read here.\n- **So what:** the river is on track: it gained 0.24 ft in about 30 hours, and the forecast now sits 0.17 ft over the record for five days rather than touching it. An OBSERVED 6.33 ft or more is a new IMMEDIATE (CORAL action). PROME's weekend condition: a launch only if water reaches a named condo or apartment building.",
+  "source": "api.weather.gov alerts FL (NWS Melbourne Flood Warnings 20:38, 20:43, 20:47, 20:53, 20:58 ET Nov 26); api.water.noaa.gov NWPS DLAF1, SNFF1, ASTF1 read 22:26 ET",
+  "action": ["CORAL"],
+  "info": ["AEOLUS", "SHADE", "HOMER", "REGINALD", "MARCO", "RED", "PROME"],
+  "precedence": "ROUTINE",
+  "confidence": 0.95,
+  "confidence_language": "reports: NWS and NWPS primary, read directly; the record is a forecast",
+  "cluster": "CLIMATE_MACRO",
+  "domain": "CLIMATE_MACRO",
+  "entities": ["St. Johns River", "DeLand", "Sanford", "Astor", "Lake Harney", "Cocoa", "Volusia County", "NWS"],
+  "dispatch_note": "ROUTINE by step 7j: the forecast-record IMMEDIATE was carded at 20261125-037; this is the same still-true condition with a higher forecast and a new observed second-highest stage. An observed record would be a new IMMEDIATE. Same recipients as 037. RED, PROME by BOARD diff.",
+  "route_summary": "DeLand 6.12 ft observed, forecast 6.5 vs 6.33 record"
+ }
+]
