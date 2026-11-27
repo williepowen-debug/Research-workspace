@@ -928,3 +928,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-26 22:47:30 EST	2026-11-26_from-ORACLE_coverage-nominations-and-roll.md	acted	INBOX	Replied: do-not-pin crude all-time-high pair. Roll note agreed (substitute leg = regime change).
 2026-11-26 22:47:30 EST	2026-11-26_from-ORACLE_iran-pause-shift.md	noted	INBOX	Iran 2-week-pause odds context logged in Jazan note; no BRENT row keys on it. No ask.
 2026-11-26 22:47:30 EST	2026-11-26_from-ORACLE_russian-diesel-market-nomination.md	acted	INBOX	Replied: pin the 3/31/27 leg only, as context for us-fuel-policy and diesel-buffer rows.
+2026-11-27 13:10:40 EST	SIG-W-20261126-008	noted	INBOX_WALTER	Thursday settle 96.57 (secondhand) and IRGC mine claim already folded in the 11/26 night note; no row moves. 11/27 session read in research/2026-11-27_brt33.
+2026-11-27 13:10:40 EST	SIG-W-20261127-002	acted	INBOX_WALTER	Item 2 Russia jet ban to 2027-03-31 UNVERIFIED (government.ru fetch failed, no primary). Item 3 MEE page read: rests on an unread Reuters report, lobbying dated summer; UNVERIFIED at Reuters; no barrel effect. NOTE section 3.
+2026-11-27 13:10:40 EST	2026-11-27_from-OSPREY_C3-killed-refinery-runs-rystad.md	acted	INBOX	C3 kill noted (no BRENT row keys on it). Runs relay context; Jan diesel crack priced 71.61 for TERRY. Replied to OSPREY with the 4-week seaborne relay 3.9 M bpd wk 11/15.
