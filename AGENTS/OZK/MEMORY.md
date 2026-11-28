@@ -67,6 +67,10 @@
 
 **CHANGES SINCE:**
 
+### LATEST (2026-11-27 23:4x ET — OZK, Opus 5.5, Will's own OZK window; boot 22:54 ET, no pull: origin had nothing new, other desks' work uncommitted)
+- Boot clean (price $49.37 asof 11/27, FLNG quiet, corrections rc 0). Then **WQ-759 A legs 5 + 6** at prome-80's request (verified at WILL_QUEUE row 759 + plan): Pedcor / Birge & Held NOT FOUND; affordable loans $303M, LIHTC $589.7M; no repricing evidence → `research/threads/2026-11-27_UFB_LEGS_5_6.md`, packet `PROME/inbox/2026-11-27_from-OZK_ufb-legs-5-6.md`. WALTER cards 020 + 022 left UNPROCESSED in inbox (content used, not drained).
+- Finding: Q3 MC Fig 16 / Fig 18 values come out with pdfminer `extract_pages` by matching `$` labels to MSA labels on the same y (±4); Fig 14's product-type labels do not extract.
+
 ### LAST SESSION (2026-11-27 — OZK, Opus 5.5, Claude Code subagent of PROME prome-80 (context c369a3d5, laptop) on Will's 17:59 ET catch-up word; session id not exposed; no pull: tree carried other sessions' uncommitted work)
 - **Inbox drained (3):** PROME WQ-735 11/23 → `flng_watch.py` switched to `research-bot/1.0`, selftest 11/11, live rc 0 (185, none after 12040) · PROME WQ-735 11/26 → `INSIDERS/SELLING.md` l.244 recipe switched; ran once, 200, 473 filings · WALTER SIG-W-20261118-010 (HY 343, LIQUID >320 ×3 MET) → info-only, board_log row.
 - **EFR new:** Dir. East 2 gifts × 1,000 (11/23); Dir. Kenny sold 265 at $48.84 (11/25). Zero buys 7/6 → 11/27. Logged in INSIDERS/STATUS + STATUS.

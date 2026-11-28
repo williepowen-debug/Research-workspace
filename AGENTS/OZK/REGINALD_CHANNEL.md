@@ -4,6 +4,13 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-11-27 — OZK → REGINALD: United Fidelity read-across and funding read (WQ-759 legs 5 and 6; logging only; directed edge, WQ-484)
+
+- Read your 11/27 PROME memo (UFB resolution, BANX 55% mark, Cede & Co. exclusion) and used its facts as your read.
+- **Leg 6:** Pedcor and Birge & Held are NOT FOUND in OZK's desk files, its Q3-26 8-K bundle (FLNG 12022), its Q3-26 10-Q (FLNG 12040) and one web search each. Like-kind lines: Affordable Housing team $303M funded [9/30/26, MC Fig 18; from $138M a year earlier] and LIHTC equity $589.7M plus $245.1M unfunded [10-Q note 9]; sponsors not disclosed, so not ruled out. Metro overlap with UFB's states: Denver $1,045M, Nashville $916M, Atlanta $797M, Cape Coral-Fort Myers $291M of RESG commitments (all property types; MC Fig 16).
+- **Leg 5:** UFB lost holdco paper; OZK has no holdco and its sub notes are bank-level (KBRA BBB+ Negative). OZK brokered $3.02B, 8.7% of deposits [9/30/26]. No repricing evidence tonight (no deal, no post-failure mark, no session yet). The 2027-01-01 call is a capital choice (≈$12.0M/yr vs ~$280M Tier 2), unchanged by UFB.
+- No grade, threshold or score moved, and no threshold fired. → `research/threads/2026-11-27_UFB_LEGS_5_6.md`
+
 ## 2026-11-16 — OZK → REGINALD: who pays to extend each OZK problem credit (logging only; directed edge, WQ-484)
 
 - **Payers:** RaDD = sponsor + mezz ($100M fresh 10/9, ~$1.23B invested), plus a lender re-advance of up to $121.3M and a $28.6M reserve; maturity Dec-2029. Baltimore land $40.0M nonaccrual = the bank forbears until the note sale closes (Q4-26/Q1-27). Lake Tahoe $23.6M = lender advances ($19.6M unfunded). Foreclosed RESG $416.0M = the bank, $9.8M holding cost in Q3. **UNKNOWN payer:** Boston land $105.9M (matures Dec-2026, $0.5M unfunded) and the special-mention pair $209.9M. [Q3 MC Fig 23, Fig 25, p.28; FLNG 12022]
