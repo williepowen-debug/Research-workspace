@@ -512,3 +512,8 @@ November 25 evening (walter-4d, laptop): the walter-7f window closed by accident
 ## Rotation 2026-11-27T21:25:59Z (the 11/26 Thanksgiving night session note, verbatim)
 
 November 26 Thanksgiving night (laptop): no WALTER session ran in the day, and the Jazan REFINERY hit (Energy Ministry, public about 10:19 ET) was found at the night boot (card 003 dispatched 03:34:22Z) only by the 7e(h) title skim, not by any alert or watch hit; on a holiday with live theaters, the title skim is the only net. PROME launched FALCON and BRENT within minutes of a SendMessage naming the card ID; message PROME on every IMMEDIATE when it is live. Rotation of the prior note: MEMORY_PROMOTED.md § Rotation 2026-11-27T04:03:40Z.
+
+
+## Rotation 2026-11-28T00:10:39Z (the 11/27 day session note, verbatim)
+
+November 27 (Fri, laptop): an outside reader of the filter review found what WALTER's own pass could not: it sampled only what was kept, so 'no false-positive kill' said nothing about misses, and it measured desk use by ID citation while every desk keeps a board_log disposition column (17% unused, not 33%). Before reporting a rate, read the reader's own ledger; before calling a filter clean, sample what it dropped. A peer asked whether a scan was open before writing Research-Intake, and a held scan plus 'push landed' message kept the lock rule without a tool. A rebase by another session rewrites unpushed hashes: report commits by subject after one. The new dispatch_card.py doorbell prompt fired on its first card (CORAL, 003). Rotation of the prior note: MEMORY_PROMOTED.md § Rotation 2026-11-27T21:25:59Z.
