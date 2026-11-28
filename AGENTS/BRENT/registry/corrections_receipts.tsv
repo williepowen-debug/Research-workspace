@@ -52,3 +52,6 @@ receipt_date	correction_id	action	note
 2026-11-25T15:26Z	COR-20261124-21	NO-OP	scope=CIA and ODNI breach is CYPHER lane and not carried by BRENT (grep 2026-11-25); 
 2026-11-26T01:13Z	COR-20261125-23	NO-OP	scope=BRENT counts one coalition Hodeidah strike on 11/25 and carries the 12:48Z item CLAIM ONLY in its note and CATALYSTS; 
 2026-11-26T01:13Z	COR-20261125-16	NO-OP	scope=BRENT authored the corrected figure and no BRENT surface carried the wrong one; 
+2026-11-28T00:17Z	COR-20261127-02	APPLIED	artifact=AGENTS/BRENT/research/2026-11-27_ras-tanura/NOTE.md#1. What the reports are; validation_ref=NONE; 
+2026-11-28T00:17Z	COR-20261127-03	APPLIED	artifact=AGENTS/BRENT/SCRATCH.md#NEXT SESSION; validation_ref=NONE; 
+2026-11-28T00:17Z	COR-20261127-04	NO-OP	scope=carrier count is HAWK and FALCON domain and no BRENT figure, row or note cites a carrier count; 

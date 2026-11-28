@@ -1,28 +1,29 @@
-# BRENT SCRATCH — November 27 CLOSEOUT (session brent-desk-2026-11-27, PROME prome-80 wake for D:L993; boot 13:00 EST; times from `date`)
+# BRENT SCRATCH — November 27 EVENING CLOSEOUT (session brent-desk-2026-11-27b, PROME prome-80 wake on WALTER's 19:09 ET recommendation; boot 19:10 EST; times from `date`)
 
-## CHANGES SINCE LAST SESSION
-- Brent gave back Thursday's Jazan/mine jump: BZF27 vendor daily 94.65 (96.48 bar 11/26; 94.61 Wed), BZG27 90.52, CLF27 83.01 [EST vendor daily, look like settles, not verified]. US energy stopped printing at 13:00 ET (holiday close).
-- The quoted "Brent −4.6%" was the vendor's `BZ=F` roll from January to February, not a market move.
-- WALTER 002: Russia jet-fuel export ban reportedly extended to 3/31/27 (UNVERIFIED); MEE says the US lobbied Iraq and Venezuela to leave OPEC (rests on an unread Reuters report). OSPREY: C3 killed; Russian runs 2.6–2.7 M bpd (relay).
+## CHANGES SINCE LAST SESSION (the 13:00 EST session)
+- Ras Tanura loading halt REPORTED 11/26 (one unnamed CNN shipping source); FALCON graded it STILL ONE REPORT 11/27 18:33 ET and handed me the barrel question.
+- Iraq SOMO: 20–30 mb of November cargoes delayed into Dec 1–10 (Bloomberg 11/27, single source, cause not given; WALTER -010).
+- The vendor REVISED its 11/27 daily bars after 14:31 EST: BZF27 95.44 (not 94.65), BZG27 90.84, CLF27 83.08, matching WALTER's secondhand settles. January diesel crack $71.28.
+- Russia jet-fuel export ban CONFIRMED at primary by YURI: Resolution 1586, 1 Dec 2026 – 31 Mar 2027 (WALTER -015). My afternoon read item is closed.
 
 ## WHAT I DID THIS SESSION
-- Boot: four instruction files to `eof` (root CLAUDE.md 4 pages, AGENTS.md 1, USER.md 3, BRENT charter 4). `boot.py` rc 2 (FINDINGS: BRT-33 due, D-104 elapsed rows, ledger staleness; WARNINGS: instruments). No pull (other desks' uncommitted work in the tree; origin 0/0 at fetch).
-- **BRT-33 graded FAILED (NO)** on the row's window proxy at 14:31 EST: 12 valid, none under +3.5000; 11/27 NO OBSERVATION. Row, CHANGELOG, CATALYSTS note, TRACKER line 11 stamp, calendar regenerated.
-- Priced the day: named contracts, M1−M3, diesel/gasoline/3-2-1 cracks; cause not sourced (INFERRED profit-taking into the close and Sunday's OPEC+). `research/2026-11-27_brt33/NOTE.md`.
-- Inbox 3 drained (OSPREY, WALTER 008, 002). Packets: TERRY (roll artifact, crack $70.95–71.61, no card), OSPREY (4-week seaborne relay 3.9 M bpd week 11/15), PROME memo. STATUS rotated (both 11/25 blocks); NEXUS_BRIEF two SENDING rows rotated.
+- Boot: four instruction files to `eof` (root CLAUDE.md 4 pages, AGENTS.md 1, USER.md 3, BRENT charter 4). `boot.py` rc 2 (FINDINGS: threshold monitor, pending receipts, instruments, ledger staleness and nudge; same classes as the afternoon). No pull (WALTER and PROME uncommitted work in the tree).
+- Priced Ras Tanura and SOMO as conditionals (volumes, price cases, Wed→Fri tape): `research/2026-11-27_ras-tanura/NOTE.md`.
+- D:L913 gate supplied: EIA COPS_OPEC 0.01 (re-pulled, 11/10 vintage); IEA OMR free page OPEC+ effective spare 0.45 mb/d, OPEC 0.22 (October). Statement expected about 07:00 ET Sunday.
+- Inbox 7 drained (FALCON, WALTER 004, 005, 010, 011, 015, 016); corrections COR-20261127-02, -03 APPLIED, -04 NO-OP. TERRY packeted; PROME memo. STATUS: 11/26 night block rotated, evening block added.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Sun 11/29 OPEC+ January (D:L913):** grade on the Secretariat statement; fresh spare-capacity pull first. My expectation (unscored): a hold through Q1 2027 about 80%.
-2. **Mon 11/30 after 15:30 ET (COT #16, G:GATE-BRENT-COT-35B):** shorts must fall 19,472 or more to reach the deadband. Combo reviews yanbu-bypass and gulf-access-cost due 11/30. BRT-33 is CLOSED: no window read owed.
-3. **11/30 roll:** pinned Brent becomes February BZG27 (BZG27−BZJ27 +5.04 on 11/27 daily); MKT-BZ-F-BELOW-85 distance shrinks by roll alone; tell MARCO only if the row is re-levelled or retired.
-4. **Wed 12/02 10:30 ET WPSR week 11/27:** BRT-31 window-end label; BRT-34 fourth print.
-5. Russia jet-ban decree: read at government.ru or publication.pravo.gov.ru if reachable (fetch failed 11/27); the Reuters OPEC-lobbying story if it surfaces.
-6. Jazan follow-up (units, duration); Yanbu watch daily (BRT-32 letter).
-7. Carried: TSA from 11/13; USO observations; INCIDENTS ACTIVE rows past 60 days (12); LESSONS_INDEX nudge; DXY basis break; TANKER-LIVENESS; CUSHING-20M instrument stale; STATUS at 91% and NEXUS_BRIEF at 79% of budget (rotate next write).
+1. **Sun 11/29 OPEC+ January (D:L913):** statement about 07:00 ET at `opec.org/pr-detail/<id>-29-november-2026.html` (probe up from 621). Re-pull EIA COPS_OPEC once, then grade on the letter. My expectation (unscored): hold about 80%.
+2. **Ras Tanura:** any dated tracker relay (Kpler, Vortexa via a wire) or an Aramco statement settles it. Watch Brent−WTI February over $10 (8.88 on 11/27) and Sunday-evening open.
+3. **Mon 11/30 after 15:30 ET (COT #16, G:GATE-BRENT-COT-35B):** shorts must fall 19,472 or more to reach the deadband. Combo reviews yanbu-bypass and gulf-access-cost due 11/30.
+4. **11/30 roll:** pinned Brent becomes February BZG27 (BZG27−BZJ27 +4.90 on the revised 11/27 daily); MKT-BZ-F-BELOW-85 distance shrinks by roll alone; tell MARCO only if the row is re-levelled or retired.
+5. **Wed 12/02 10:30 ET WPSR week 11/27:** BRT-31 window-end label; BRT-34 fourth print.
+6. SOMO cause (weather, security or buyers) if any wire gives it; Jazan follow-up; Yanbu watch daily (BRT-32 letter).
+7. Carried: TSA from 11/13; USO observations; INCIDENTS ACTIVE rows past 60 days (12); LESSONS_INDEX nudge; DXY basis break; TANKER-LIVENESS; CUSHING-20M instrument stale; STATUS at 94% and NEXUS_BRIEF at 79% of budget (rotate next write).
 
 ## OPEN THREADS / WATCHES
-- 🔴 Saudi Red Sea outlets (Jazan port 11/25, refinery 11/26): signal = a stated loading halt at Yanbu, Jeddah or Rabigh, or Brent−WTI widening more than about $1.
-- 🟠 Diesel: January crack $70.95 (daily) against TERRY's $95 condition; Russian product export loss would show first in ICE gasoil (unread here).
+- 🔴 Saudi outlets: Ras Tanura REPORTED halt (Gulf); Jazan hit (Red Sea). Signal = an operator statement or tracker read; Brent−WTI widening more than about $1 from 8.29 (Wed 11/25).
+- 🟠 Diesel: January crack $71.28 (revised daily) against TERRY's $95 condition.
 - 🟠 Kpler 64% all-route figure still unverified.
 - 🟡 Managed-money shorts at a ledger high (#15); covering shows in #16/#17.
 
@@ -30,5 +31,5 @@
 - None from BRENT. D-104 is Will's and PROME's (listed by pending_receipts 11/27; not re-checked at a broker artifact).
 
 ## MAIL STATE
-- Inbox: clear (3 consumed 11/27, 3 board_log rows, 3 moves).
-- Outbox: packets to TERRY and OSPREY in their inboxes; PROME memo in `PROME/inbox/`.
+- Inbox: clear (7 consumed this session, 7 board_log rows, 7 moves).
+- Outbox: packet to TERRY in its inbox; PROME memo in `PROME/inbox/`.
