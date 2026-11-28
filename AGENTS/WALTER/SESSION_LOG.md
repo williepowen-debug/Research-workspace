@@ -1,3 +1,7 @@
+## 2026-11-28T03:44:58Z light-closeout — full deferred — WALTER walter-dd, laptop, Fri 11/27 night boot (Will 22:30 ET 'please boot up')
+
+Cards 20261127-017 to -021 (BOARD 2,418), commit ee6e119b76 on origin. 017 IMMEDIATE CORAL: Sanford official forecast 9.0 ft above the 8.96 record (NWPS issue 01:22Z). 018 PRIORITY HANS: correction of 007 item 5 (France recession verdict withdrawn, INSEE 11/27 page unread; R1 COR-20261127-05) and S&P France A+ outlook negative. 019 ROUTINE small items (BM-20261128-01, 87/87). 020 IMMEDIATE REGINALD, HOMER, CORAL: United Fidelity Bank, fsb failed 11/27 (FDIC: $5.9B assets, DIF cost $1.83B; DOCKET L1126 case). 021 ROUTINE HENRY: bookmark, NDX futures positioning. Wakes recommended to PROME (REGINALD, HOMER, CORAL; HANS not urgent). TERRY: NO CARD on 020 (b521f8025b). No registered market row fired.
+
 ## 2026-11-28T00:10:18Z TIER 2 FULL CLOSEOUT — WALTER walter-dd, laptop, Fri 11/27 evening, Will's word 19:08 ET ('do the full closeout')
 
 Session since the 21:23:50Z full closeout: evening boot 16:55 ET; Will's 71 bookmarks (BM-20261127-04, cards 004 to 009); deep dive on Will's 18:00 ET word (cards 010 to 014); YURI packet (015); TERRY's carrier flag (016). Corrections R1 COR-20261127-02, -03, -04. Wakes recommended to PROME 19:08 ET. Two light-closeout breadcrumbs below are cleared by this entry.

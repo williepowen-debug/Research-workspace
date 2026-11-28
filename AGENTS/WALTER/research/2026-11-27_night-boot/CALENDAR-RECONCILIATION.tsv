@@ -1,0 +1,6 @@
+release_or_event	scheduled	source	status	disposition
+Window 2026-11-28T00:11:30Z to 03:43:19Z	none scheduled	PROME/DOCKET.tsv (11/27, 11/28 rows: MOFCOM clause-2 clock, YURI grade rows), HENRY ECON_CALENDAR (11/27 early close only), AGENTS/*/workbook/CATALYSTS.tsv	no release in window	NONE
+INSEE France Q3 detailed national accounts	2026-11-27 08:45 Paris (before the cutoff; missed by the day pass)	IR263 next-publication line; France 24 with Reuters 11/27 23:00	published, INSEE page NOT read	CARDED late: SIG-W-20261127-018 (correction of 007 item 5), UNVERIFIED at issuer
+S&P France sovereign review	2026-11-27 after the European close	France 24 with Reuters (read); FT title 22:45Z	published	CARDED: SIG-W-20261127-018
+FRED T5YIFR 11/27	daily	fredgraph csv 03:43Z	2.14 [11/27]	RED-FT-09 >2.55 not near; no card
+FDIC bank closure United Fidelity (unscheduled)	Fri 2026-11-27 evening	FDIC press release (read 03:40Z)	published	CARDED: SIG-W-20261127-020
