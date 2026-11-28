@@ -755,3 +755,4 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-27	HOMER	SIG-W-20261127-020	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; United Fidelity failure
 2026-11-27	CORAL	SIG-W-20261127-020	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; United Fidelity failure
 2026-11-27	HENRY	SIG-W-20261127-021	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; bookmark positioning chart
+2026-11-27	REGINALD	SIG-W-20261127-022	NONE	IN-FLIGHT	NO	NA	NA	NA		PROME launched REGINALD on card 020 (commit 851ec4187f); session not in my ListAgents; follow-up card
