@@ -1392,6 +1392,24 @@
         "2026-11-27"
       ],
       "closed": "2026-11-27T17:46:04Z"
+    },
+    "gpu:40c1df71c0ae": {
+      "title": "How NVIDIA’s new export restrictions could impact neoclouds like CoreWeave, Nebius - Blockspace Media",
+      "disposition": "NOTE",
+      "ref": "TITLE ONLY; source not reviewed; folded on SIG-W-20261127-019",
+      "days": [
+        "2026-11-27"
+      ],
+      "closed": "2026-11-28T03:39:09Z"
+    },
+    "gpu:827c113cc118": {
+      "title": "GPU-Backed Loan Cuts Slow Data Center Builds - Wisevoter",
+      "disposition": "NOTE",
+      "ref": "TITLE ONLY; source not reviewed; folded on SIG-W-20261127-019",
+      "days": [
+        "2026-11-27"
+      ],
+      "closed": "2026-11-28T03:39:09Z"
     }
   }
 }

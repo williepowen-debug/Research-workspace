@@ -21,6 +21,8 @@ dispatch_note: "PRIORITY rather than the data-day IMMEDIATE default: a late catc
 event_window: "open"
 ---
 
+> ⚠️ **PARTIALLY CORRECTED by SIG-W-20261127-018:** item 5's verdict that France's '-0.2% and recession' were unsupported is WITHDRAWN: it tested a Nov 27 claim against INSEE's Oct 30 flash. Reuters (via France 24, 11/27 23:00) says INSEE's Nov 27 detailed release shows a technical recession; INSEE's page not read, so UNVERIFIED.
+
 > ⚠️ **PARTIALLY CORRECTED by SIG-W-20261127-010:** the 'front-running' so-what is withdrawn: capital goods were +$13.4B of the +$21.1B import jump (+80% y/y), and the Section 301 proposals came 11/25, after October.
 # US data catch-up (missed by the 11/27 day calendar pass): Census October advance goods deficit $149.5B, widest since March 2025 per relay (Sept $135.1B; exports $215.8B, imports $365.3B, SA; released Fri 11/27 08:30 ET; wholesale inventories +0.9%, retail +0.8%); Dallas Fed trimmed mean PCE October 2.8% 1-month annualized, 2.4% 6-month and 12-month (11/25); St. Louis Fed 8th District bankers (11/17 edition): loan demand net -30% vs +11%, delinquency net +28%; France Q3 is -0.1% (flash), not -0.2% recession
 

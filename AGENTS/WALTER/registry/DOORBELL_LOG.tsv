@@ -744,3 +744,14 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-27	OSPREY	SIG-W-20261127-015	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents (live: prome-80, terry-2a); YURI correction and relay card
 2026-11-27	HAWK	SIG-W-20261127-015	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents (live: prome-80, terry-2a); YURI correction and relay card
 2026-11-27	FALCON	SIG-W-20261127-016	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents (live: prome-80, terry-2a); one-line correction
+2026-11-27	CORAL	SIG-W-20261127-017	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; IMMEDIATE Sanford record forecast
+2026-11-27	HANS	SIG-W-20261127-018	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; France correction and S&P
+2026-11-27	FALCON	SIG-W-20261127-019	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; small items
+2026-11-27	ZHAO	SIG-W-20261127-019	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; small items
+2026-11-27	VULCAN	SIG-W-20261127-019	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; small items
+2026-11-27	CRUISE	SIG-W-20261127-019	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; small items
+2026-11-27	SHADE	SIG-W-20261127-019	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; small items
+2026-11-27	REGINALD	SIG-W-20261127-020	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; United Fidelity failure
+2026-11-27	HOMER	SIG-W-20261127-020	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; United Fidelity failure
+2026-11-27	CORAL	SIG-W-20261127-020	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; United Fidelity failure
+2026-11-27	HENRY	SIG-W-20261127-021	NONE	L1-UNKNOWN	NO	NA	NA	NA		absent from ListAgents 03:37Z (live: prome-80, terry-2a, one unnamed bg); ORCH_INFLIGHT open touch is IN-FLIGHT, not live; bookmark positioning chart

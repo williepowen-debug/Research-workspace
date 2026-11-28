@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "staged_at": 1795837181.2095294,
+  "items": [
+    {
+      "id": "2126487902616187341",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-11-27_night-boot/cards-020.json",
+      "ask_user": null
+    },
+    {
+      "id": "2126434072331534650",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-11-27_night-boot/cards-021.json",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "df4beb647ac94e3aab7c76ca7f091523"
+}
