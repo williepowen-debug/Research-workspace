@@ -1,0 +1,1011 @@
+{
+ "thresholds": {
+  "mf_share": 50.0,
+  "mf_cap": 300.0,
+  "ventures_cap": 25.0,
+  "insider_cap": 18.8,
+  "brokered": 15.0,
+  "margin": 2.0,
+  "mf_stress": 5.0,
+  "mf_stress_rise": 2.0,
+  "cov": 50.0,
+  "na_floor": 1.0,
+  "shortlist_mf_cap": 100.0
+ },
+ "lines": {
+  "total": 8.0,
+  "tier1": 6.0,
+  "cet1": 4.5,
+  "leverage": 4.0
+ },
+ "20250930": {
+  "banks": 4323,
+  "flag_counts": {
+   "A1_mf_share": 17,
+   "A2_mf_cap": 21,
+   "B1_ventures": 3,
+   "B2_insider": 414,
+   "C_brokered": 350,
+   "D_thin_capital": 11,
+   "E_mf_stress": 79,
+   "F_thin_reserve": 236
+  },
+  "mf_cap_ge_100": 198,
+  "n_all_dist_eligible": {
+   "0": 113,
+   "1": 59,
+   "2": 16,
+   "3": 9,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0
+  },
+  "ufb": {
+   "CERT": 29566,
+   "NAME": "UNITED FIDELITY BANK FSB",
+   "STALP": "IN",
+   "CITY": "EVANSVILLE",
+   "BKCLASS": "SB",
+   "ASSET": 6284217,
+   "LNLSGR": 3537734,
+   "cap": 715539,
+   "capbasis": "RBC",
+   "cblr": false,
+   "mf": 3163080,
+   "mf_share": 89.40977473150893,
+   "mf_cap": 442.05556929810956,
+   "cre_cap": 448.92675311897744,
+   "cons_cap": 0.6314121242867266,
+   "ventures": 1021367,
+   "ventures_cap": 142.74092676988954,
+   "insider": 119192,
+   "insider_cap": 16.65765248295341,
+   "bro_share": 31.668576747871303,
+   "min_margin": 5.7732516665125075,
+   "min_line": "leverage",
+   "tot_ratio": 14.69012606335934,
+   "lev_ratio": 9.773251666512508,
+   "cet1_ratio": 10.519753703845133,
+   "mf_na": 121,
+   "mf_p3": 0,
+   "mf_p9": 0,
+   "mf_na_pct": 0.003825385383866358,
+   "mf_p3_pct": 0.0,
+   "mf_stress": 0.003825385383866358,
+   "nal_pct": 0.5744355002382882,
+   "cov": 402.9081783289046,
+   "d_mf_stress": null,
+   "d_mf_na": null,
+   "d_mf_p3": null,
+   "d_bro_share": null,
+   "A1_mf_share": true,
+   "A2_mf_cap": true,
+   "B1_ventures": true,
+   "B2_insider": false,
+   "C_brokered": true,
+   "D_thin_capital": false,
+   "E_mf_stress": false,
+   "F_thin_reserve": false,
+   "n_struct": 4,
+   "n_stress": 0,
+   "n_all": 4
+  },
+  "ufb_rank": 1,
+  "top20": [
+   [
+    29566,
+    "UNITED FIDELITY BANK FSB",
+    4,
+    0
+   ],
+   [
+    23966,
+    "ONEUNITED BANK",
+    3,
+    0
+   ],
+   [
+    32282,
+    "MALAGA BANK FSB",
+    3,
+    0
+   ],
+   [
+    14769,
+    "DMB COMMUNITY BANK",
+    3,
+    0
+   ],
+   [
+    6662,
+    "RIVERHILLS BANK",
+    3,
+    0
+   ],
+   [
+    59154,
+    "PIERMONT BANK",
+    3,
+    0
+   ],
+   [
+    34352,
+    "CITY FIRST BANK NA",
+    3,
+    0
+   ],
+   [
+    32541,
+    "FLAGSTAR BANK NATIONAL ASSN",
+    1,
+    2
+   ],
+   [
+    22398,
+    "MODERN BANK NATIONAL ASSN",
+    1,
+    2
+   ],
+   [
+    58590,
+    "NANO BANC",
+    1,
+    2
+   ],
+   [
+    16250,
+    "MARQUETTE BANK",
+    2,
+    0
+   ],
+   [
+    59245,
+    "GENESIS BANK",
+    2,
+    0
+   ],
+   [
+    31406,
+    "FIRST FS&LA OF SAN RAFAEL",
+    2,
+    0
+   ],
+   [
+    21721,
+    "HERITAGE BANK OF SCHAUMBURG",
+    2,
+    0
+   ],
+   [
+    28710,
+    "NORTHFIELD BANK",
+    2,
+    0
+   ],
+   [
+    58647,
+    "FIRST FOUNDATION BANK",
+    2,
+    0
+   ],
+   [
+    90211,
+    "HINGHAM INST FOR SVG",
+    2,
+    0
+   ],
+   [
+    3722,
+    "PROSPECT BANK",
+    2,
+    0
+   ],
+   [
+    59144,
+    "OHIO STATE BANK",
+    2,
+    0
+   ],
+   [
+    34363,
+    "CORE BANK",
+    2,
+    0
+   ]
+  ]
+ },
+ "20251231": {
+  "banks": 4284,
+  "flag_counts": {
+   "A1_mf_share": 17,
+   "A2_mf_cap": 18,
+   "B1_ventures": 3,
+   "B2_insider": 415,
+   "C_brokered": 341,
+   "D_thin_capital": 14,
+   "E_mf_stress": 101,
+   "F_thin_reserve": 237
+  },
+  "mf_cap_ge_100": 208,
+  "n_all_dist_eligible": {
+   "0": 121,
+   "1": 63,
+   "2": 14,
+   "3": 7,
+   "4": 3,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0
+  },
+  "ufb": {
+   "CERT": 29566,
+   "NAME": "UNITED FIDELITY BANK FSB",
+   "STALP": "IN",
+   "CITY": "EVANSVILLE",
+   "BKCLASS": "SB",
+   "ASSET": 6295144,
+   "LNLSGR": 3516120,
+   "cap": 729218,
+   "capbasis": "RBC",
+   "cblr": false,
+   "mf": 3148942,
+   "mf_share": 89.55729611048542,
+   "mf_cap": 431.82450241217305,
+   "cre_cap": 438.47011456107776,
+   "cons_cap": 0.6223104750568417,
+   "ventures": 1024073,
+   "ventures_cap": 140.43441056035368,
+   "insider": 117992,
+   "insider_cap": 16.180620884289745,
+   "bro_share": 29.17370438094254,
+   "min_margin": 6.082474001243952,
+   "min_line": "leverage",
+   "tot_ratio": 15.024032295515338,
+   "lev_ratio": 10.082474001243952,
+   "cet1_ratio": 10.941684005754812,
+   "mf_na": 121,
+   "mf_p3": 0,
+   "mf_p9": 0,
+   "mf_na_pct": 0.003842560453638079,
+   "mf_p3_pct": 0.0,
+   "mf_stress": 0.003842560453638079,
+   "nal_pct": 0.5320637520903724,
+   "cov": 437.4919820397691,
+   "d_mf_stress": 1.717506977172087e-05,
+   "d_mf_na": 0,
+   "d_mf_p3": 0,
+   "d_bro_share": -2.494872366928764,
+   "A1_mf_share": true,
+   "A2_mf_cap": true,
+   "B1_ventures": true,
+   "B2_insider": false,
+   "C_brokered": true,
+   "D_thin_capital": false,
+   "E_mf_stress": false,
+   "F_thin_reserve": false,
+   "n_struct": 4,
+   "n_stress": 0,
+   "n_all": 4
+  },
+  "ufb_rank": 1,
+  "top20": [
+   [
+    29566,
+    "UNITED FIDELITY BANK FSB",
+    4,
+    0
+   ],
+   [
+    23966,
+    "ONEUNITED BANK",
+    3,
+    1
+   ],
+   [
+    58590,
+    "NANO BANC",
+    1,
+    3
+   ],
+   [
+    32282,
+    "MALAGA BANK FSB",
+    3,
+    0
+   ],
+   [
+    14769,
+    "DMB COMMUNITY BANK",
+    3,
+    0
+   ],
+   [
+    6662,
+    "RIVERHILLS BANK",
+    3,
+    0
+   ],
+   [
+    59154,
+    "PIERMONT BANK",
+    3,
+    0
+   ],
+   [
+    58647,
+    "FIRST FOUNDATION BANK",
+    3,
+    0
+   ],
+   [
+    30394,
+    "CARVER FEDERAL SAVINGS BANK",
+    1,
+    2
+   ],
+   [
+    22398,
+    "MODERN BANK NATIONAL ASSN",
+    1,
+    2
+   ],
+   [
+    16250,
+    "MARQUETTE BANK",
+    2,
+    0
+   ],
+   [
+    31406,
+    "FIRST FS&LA OF SAN RAFAEL",
+    2,
+    0
+   ],
+   [
+    59245,
+    "GENESIS BANK",
+    2,
+    0
+   ],
+   [
+    21721,
+    "HERITAGE BANK OF SCHAUMBURG",
+    2,
+    0
+   ],
+   [
+    28710,
+    "NORTHFIELD BANK",
+    2,
+    0
+   ],
+   [
+    34352,
+    "CITY FIRST BANK NA",
+    2,
+    0
+   ],
+   [
+    30722,
+    "UNIVERSAL BANK",
+    2,
+    0
+   ],
+   [
+    3722,
+    "PROSPECT BANK",
+    2,
+    0
+   ],
+   [
+    59144,
+    "OHIO STATE BANK",
+    2,
+    0
+   ],
+   [
+    58259,
+    "FIRST NB OF MICHIGAN",
+    2,
+    0
+   ]
+  ]
+ },
+ "20260331": {
+  "banks": 4224,
+  "flag_counts": {
+   "A1_mf_share": 17,
+   "A2_mf_cap": 20,
+   "B1_ventures": 3,
+   "B2_insider": 416,
+   "C_brokered": 303,
+   "D_thin_capital": 11,
+   "E_mf_stress": 122,
+   "F_thin_reserve": 277
+  },
+  "mf_cap_ge_100": 203,
+  "n_all_dist_eligible": {
+   "0": 117,
+   "1": 60,
+   "2": 13,
+   "3": 10,
+   "4": 3,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0
+  },
+  "ufb": {
+   "CERT": 29566,
+   "NAME": "UNITED FIDELITY BANK FSB",
+   "STALP": "IN",
+   "CITY": "EVANSVILLE",
+   "BKCLASS": "SB",
+   "ASSET": 6332519,
+   "LNLSGR": 3495018,
+   "cap": 726544,
+   "capbasis": "RBC",
+   "cblr": false,
+   "mf": 3135753,
+   "mf_share": 89.7206537992079,
+   "mf_cap": 431.5984991961946,
+   "cre_cap": 438.166305137748,
+   "cons_cap": 0.5747759254773283,
+   "ventures": 1037035,
+   "ventures_cap": 142.73533330397058,
+   "insider": 117571,
+   "insider_cap": 16.18222709154573,
+   "bro_share": 22.389407299624196,
+   "min_margin": 6.128821760090599,
+   "min_line": "leverage",
+   "tot_ratio": 14.969522949268649,
+   "lev_ratio": 10.128821760090599,
+   "cet1_ratio": 10.985336731027253,
+   "mf_na": 121,
+   "mf_p3": 177,
+   "mf_p9": 0,
+   "mf_na_pct": 0.0038587222909457473,
+   "mf_p3_pct": 0.00564457723551568,
+   "mf_stress": 0.009503299526461428,
+   "nal_pct": 0.448123586201845,
+   "cov": 522.0789171242498,
+   "d_mf_stress": 0.0056607390728233495,
+   "d_mf_na": 0,
+   "d_mf_p3": 177,
+   "d_bro_share": -6.784297081318343,
+   "A1_mf_share": true,
+   "A2_mf_cap": true,
+   "B1_ventures": true,
+   "B2_insider": false,
+   "C_brokered": true,
+   "D_thin_capital": false,
+   "E_mf_stress": false,
+   "F_thin_reserve": false,
+   "n_struct": 4,
+   "n_stress": 0,
+   "n_all": 4
+  },
+  "ufb_rank": 1,
+  "top20": [
+   [
+    29566,
+    "UNITED FIDELITY BANK FSB",
+    4,
+    0
+   ],
+   [
+    59154,
+    "PIERMONT BANK",
+    3,
+    1
+   ],
+   [
+    58590,
+    "NANO BANC",
+    1,
+    3
+   ],
+   [
+    23966,
+    "ONEUNITED BANK",
+    3,
+    0
+   ],
+   [
+    32282,
+    "MALAGA BANK FSB",
+    3,
+    0
+   ],
+   [
+    14769,
+    "DMB COMMUNITY BANK",
+    3,
+    0
+   ],
+   [
+    6662,
+    "RIVERHILLS BANK",
+    3,
+    0
+   ],
+   [
+    58647,
+    "FIRST FOUNDATION BANK",
+    3,
+    0
+   ],
+   [
+    30722,
+    "UNIVERSAL BANK",
+    2,
+    1
+   ],
+   [
+    59144,
+    "OHIO STATE BANK",
+    2,
+    1
+   ],
+   [
+    30394,
+    "CARVER FEDERAL SAVINGS BANK",
+    1,
+    2
+   ],
+   [
+    22398,
+    "MODERN BANK NATIONAL ASSN",
+    1,
+    2
+   ],
+   [
+    14207,
+    "LINCOLN SAVINGS BANK",
+    1,
+    2
+   ],
+   [
+    16250,
+    "MARQUETTE BANK",
+    2,
+    0
+   ],
+   [
+    31406,
+    "FIRST FS&LA OF SAN RAFAEL",
+    2,
+    0
+   ],
+   [
+    59245,
+    "GENESIS BANK",
+    2,
+    0
+   ],
+   [
+    21721,
+    "HERITAGE BANK OF SCHAUMBURG",
+    2,
+    0
+   ],
+   [
+    57129,
+    "COMMUNITY FSB",
+    2,
+    0
+   ],
+   [
+    90211,
+    "HINGHAM INST FOR SVG",
+    2,
+    0
+   ],
+   [
+    3664,
+    "INB NATIONAL ASSN",
+    2,
+    0
+   ]
+  ]
+ },
+ "20260630": {
+  "banks": 4185,
+  "flag_counts": {
+   "A1_mf_share": 16,
+   "A2_mf_cap": 18,
+   "B1_ventures": 4,
+   "B2_insider": 416,
+   "C_brokered": 313,
+   "D_thin_capital": 9,
+   "E_mf_stress": 111,
+   "F_thin_reserve": 273
+  },
+  "mf_cap_ge_100": 200,
+  "n_all_dist_eligible": {
+   "0": 116,
+   "1": 54,
+   "2": 20,
+   "3": 8,
+   "4": 2,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0
+  },
+  "ufb": {
+   "CERT": 29566,
+   "NAME": "UNITED FIDELITY BANK FSB",
+   "STALP": "IN",
+   "CITY": "EVANSVILLE",
+   "BKCLASS": "SB",
+   "ASSET": 6493323,
+   "LNLSGR": 3436066,
+   "cap": 728416,
+   "capbasis": "RBC",
+   "cblr": false,
+   "mf": 3089016,
+   "mf_share": 89.89978655823258,
+   "mf_cap": 424.0730571541537,
+   "cre_cap": 430.40034815270394,
+   "cons_cap": 0.5651990071607433,
+   "ventures": 1065248,
+   "ventures_cap": 146.24170803496904,
+   "insider": 86094,
+   "insider_cap": 11.819344989676228,
+   "bro_share": 20.51681322875674,
+   "min_margin": 6.1618733291925825,
+   "min_line": "leverage",
+   "tot_ratio": 15.085096173659524,
+   "lev_ratio": 10.161873329192582,
+   "cet1_ratio": 11.082352585461178,
+   "mf_na": 121,
+   "mf_p3": 0,
+   "mf_p9": 0,
+   "mf_na_pct": 0.003917104993952767,
+   "mf_p3_pct": 0.0,
+   "mf_stress": 0.003917104993952767,
+   "nal_pct": 0.4717895407131295,
+   "cov": 504.0219603972611,
+   "d_mf_stress": -0.005586194532508661,
+   "d_mf_na": 0,
+   "d_mf_p3": -177,
+   "d_bro_share": -1.872594070867457,
+   "A1_mf_share": true,
+   "A2_mf_cap": true,
+   "B1_ventures": true,
+   "B2_insider": false,
+   "C_brokered": true,
+   "D_thin_capital": false,
+   "E_mf_stress": false,
+   "F_thin_reserve": false,
+   "n_struct": 4,
+   "n_stress": 0,
+   "n_all": 4
+  },
+  "ufb_rank": 1,
+  "top20": [
+   [
+    29566,
+    "UNITED FIDELITY BANK FSB",
+    4,
+    0
+   ],
+   [
+    58590,
+    "NANO BANC",
+    1,
+    3
+   ],
+   [
+    23966,
+    "ONEUNITED BANK",
+    3,
+    0
+   ],
+   [
+    32282,
+    "MALAGA BANK FSB",
+    3,
+    0
+   ],
+   [
+    14769,
+    "DMB COMMUNITY BANK",
+    3,
+    0
+   ],
+   [
+    6662,
+    "RIVERHILLS BANK",
+    3,
+    0
+   ],
+   [
+    23373,
+    "UNITED ORIENT BANK",
+    2,
+    1
+   ],
+   [
+    30722,
+    "UNIVERSAL BANK",
+    2,
+    1
+   ],
+   [
+    30394,
+    "CARVER FEDERAL SAVINGS BANK",
+    1,
+    2
+   ],
+   [
+    22398,
+    "MODERN BANK NATIONAL ASSN",
+    1,
+    2
+   ],
+   [
+    16250,
+    "MARQUETTE BANK",
+    2,
+    0
+   ],
+   [
+    31406,
+    "FIRST FS&LA OF SAN RAFAEL",
+    2,
+    0
+   ],
+   [
+    59245,
+    "GENESIS BANK",
+    2,
+    0
+   ],
+   [
+    21721,
+    "HERITAGE BANK OF SCHAUMBURG",
+    2,
+    0
+   ],
+   [
+    59154,
+    "PIERMONT BANK",
+    2,
+    0
+   ],
+   [
+    57129,
+    "COMMUNITY FSB",
+    2,
+    0
+   ],
+   [
+    30879,
+    "PROVIDENT SAVINGS BANK FSB",
+    2,
+    0
+   ],
+   [
+    34352,
+    "CITY FIRST BANK NA",
+    2,
+    0
+   ],
+   [
+    3722,
+    "PROSPECT BANK",
+    2,
+    0
+   ],
+   [
+    59144,
+    "OHIO STATE BANK",
+    2,
+    0
+   ]
+  ]
+ },
+ "20260930": {
+  "banks": 4154,
+  "flag_counts": {
+   "A1_mf_share": 13,
+   "A2_mf_cap": 16,
+   "B1_ventures": 4,
+   "B2_insider": 419,
+   "C_brokered": 257,
+   "D_thin_capital": 9,
+   "E_mf_stress": 121,
+   "F_thin_reserve": 283
+  },
+  "mf_cap_ge_100": 194,
+  "n_all_dist_eligible": {
+   "0": 126,
+   "1": 48,
+   "2": 13,
+   "3": 5,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1
+  },
+  "ufb": {
+   "CERT": 29566,
+   "NAME": "UNITED FIDELITY BANK FSB",
+   "STALP": "IN",
+   "CITY": "EVANSVILLE",
+   "BKCLASS": "SB",
+   "ASSET": 5915451,
+   "LNLSGR": 3059390,
+   "cap": 402133,
+   "capbasis": "RBC",
+   "cblr": false,
+   "mf": 2721595,
+   "mf_share": 88.95874667825939,
+   "mf_cap": 676.7897685591582,
+   "cre_cap": 686.8774758599767,
+   "cons_cap": 1.0337375942785099,
+   "ventures": 1034101,
+   "ventures_cap": 257.1539764207364,
+   "insider": 85738,
+   "insider_cap": 21.320806797750993,
+   "bro_share": 18.74429552411528,
+   "min_margin": -0.7353426655112099,
+   "min_line": "total",
+   "tot_ratio": 7.26465733448879,
+   "lev_ratio": 5.818776212904364,
+   "cet1_ratio": 4.73916311728487,
+   "mf_na": 2143246,
+   "mf_p3": 0,
+   "mf_p9": 0,
+   "mf_na_pct": 78.7496302719545,
+   "mf_p3_pct": 0.0,
+   "mf_stress": 78.7496302719545,
+   "nal_pct": 70.57263049169933,
+   "cov": 0.2928545888734709,
+   "d_mf_stress": 78.74571316696054,
+   "d_mf_na": 2143125,
+   "d_mf_p3": 0,
+   "d_bro_share": -1.7725177046414586,
+   "A1_mf_share": true,
+   "A2_mf_cap": true,
+   "B1_ventures": true,
+   "B2_insider": true,
+   "C_brokered": true,
+   "D_thin_capital": true,
+   "E_mf_stress": true,
+   "F_thin_reserve": true,
+   "n_struct": 5,
+   "n_stress": 3,
+   "n_all": 8
+  },
+  "ufb_rank": 1,
+  "top20": [
+   [
+    29566,
+    "UNITED FIDELITY BANK FSB",
+    5,
+    3
+   ],
+   [
+    59154,
+    "PIERMONT BANK",
+    3,
+    1
+   ],
+   [
+    14769,
+    "DMB COMMUNITY BANK",
+    3,
+    0
+   ],
+   [
+    32282,
+    "MALAGA BANK FSB",
+    3,
+    0
+   ],
+   [
+    6662,
+    "RIVERHILLS BANK",
+    3,
+    0
+   ],
+   [
+    30722,
+    "UNIVERSAL BANK",
+    2,
+    1
+   ],
+   [
+    22398,
+    "MODERN BANK NATIONAL ASSN",
+    1,
+    2
+   ],
+   [
+    23966,
+    "ONEUNITED BANK",
+    2,
+    0
+   ],
+   [
+    16250,
+    "MARQUETTE BANK",
+    2,
+    0
+   ],
+   [
+    31406,
+    "FIRST FS&LA OF SAN RAFAEL",
+    2,
+    0
+   ],
+   [
+    59245,
+    "GENESIS BANK",
+    2,
+    0
+   ],
+   [
+    21721,
+    "HERITAGE BANK OF SCHAUMBURG",
+    2,
+    0
+   ],
+   [
+    57129,
+    "COMMUNITY FSB",
+    2,
+    0
+   ],
+   [
+    30879,
+    "PROVIDENT SAVINGS BANK FSB",
+    2,
+    0
+   ],
+   [
+    3722,
+    "PROSPECT BANK",
+    2,
+    0
+   ],
+   [
+    8595,
+    "I3 BANK",
+    2,
+    0
+   ],
+   [
+    58658,
+    "LOCUS BANK INC",
+    1,
+    1
+   ],
+   [
+    2455,
+    "BANK OF BRODHEAD",
+    1,
+    1
+   ],
+   [
+    32541,
+    "FLAGSTAR BANK NATIONAL ASSN",
+    0,
+    2
+   ],
+   [
+    30394,
+    "CARVER FEDERAL SAVINGS BANK",
+    0,
+    2
+   ]
+  ]
+ }
+}
