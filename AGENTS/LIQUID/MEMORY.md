@@ -2,14 +2,21 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-27T12:33 ET, closed 2026-11-27T13:0x ET (PROME prome-80 due-row wake D:L1279, launched about 12:36 ET; laptop, Claude Code / Opus 5.5)
+### CURRENT SESSION — 2026-11-27T20:22 ET, closed 2026-11-27T20:4x ET (PROME prome-80 evening wake, D:L1302 part, launched about 20:25 ET; laptop, Claude Code / Opus 5.5)
+
+- **Context:** two reads waiting on publications from the midday memo: the DTCC 11/27 full file for TERRY's WQ-745, and the H.4.1 as-of 11/25. No pull (PROME's dirty ORCH files at start). `gate069_legs.py` was held byte-stable for PROME's reader.
+- **Delivered:** DTCC 11/27 full file (755 rows) has **0 CoreWeave trades**; latest valid 5Y **revised to 1,371 dirty / 1,326 clean at 16:07 ET 11/24**. The two $3M prints at 1,359 are EROR'd in the 11/25 and 11/27 files, and the 16:07 prints are named only by ISIN, which my grader missed (KB-LIQ-168). H.4.1 11/25: reserves Wed $2,928.7B (−$73.1B, TGA and currency), SRF/FIMA nil, primary credit $8.9B, secondary credit $50M from 0, custody Treasuries flat; assessment unchanged. Inbox 10 → 0; COR-02 APPLIED (SoftBank DTCC = yen contract), COR-03/04 NO-OP. PROME's independent read of `--since` = STILL UNRESOLVED, encoded in STATUS §3. TERRY packet; memo `PROME/inbox/2026-11-27_from-LIQUID_crwv-5y-1127-file-h41-1125.md`.
+- **Method note:** CoreWeave DTCC rows can carry the bond ISIN US21873SAC26 or RED 239FAVAA8 in both name fields, and cancels for a trade date arrive in LATER days' files; read with `research/2026-11-27_crwv-5y-1127-file/crwv_xfile.py` until the grader is fixed.
+- **Open:** `--since` repair (findings 1-3) and the grader fix, each to an independent read; 11/30 DTCC for a fresh 5Y; SoftBank 3.5Y 576 vs 555 recompute unreconciled.
+
+### PRIOR SESSION — 2026-11-27T12:33 ET, closed 2026-11-27T13:0x ET (PROME prome-80 due-row wake D:L1279, launched about 12:36 ET; laptop, Claude Code / Opus 5.5)
 
 - **Context:** GATE-LIQ-069 review_by 11/27; HY 11/25 cell posted mid-session (12:35 ET); RED's breadth challenge (ML-RED-337); no pull (PROME's dirty ORCH files; origin 0 ahead).
 - **Delivered:** 069 on the 11/25 cell (HY 377, 2026 high; BB 228): L1, L4 NOT FIRED, legs fired 3; BROADENS; safety net not met. **Composition: BB widening BROAD** (HYG bonds in HYBB 11/25: +31.4 bp since 10/21, ex-tech/AI +28.9, 89% wider; tech + SoftBank about 25% at 13% weight) → KB-LIQ-167. HYG flows −$0.99B (week of 11/16) then +$0.31B. Decoupling test 11/25 NOT MET. No CoreWeave 5Y in 11/25 or 11/26 files. H.4.1 not out (expected 11/27 16:30, INFERRED). `gate069_legs.py --since` fix IMPLEMENTED/TESTED (KB-LIQ-164). Inbox drained (6). TERRY packet. Memo `PROME/inbox/2026-11-27_from-LIQUID_gate069-1125-breadth-crwv.md`.
 - **Method note:** the iShares fund-document API (blackrock.com varnish path, portfolioId) serves Holdings AND a Historical sheet (daily shares outstanding): HYG 239565, SHYG 258100, HYBB 305259. The ishares.com ajax holdings asOfDate path served HTML, not data.
 - **Open:** DTCC 11/27 full file (WQ-745); H.4.1 as-of 11/25; independent read of `--since`; 11/27 and 11/30 cells at the 12/02 review.
 
-### PRIOR SESSION — 2026-11-25T15:34 ET, closed 2026-11-25T20:06 ET (Will's boot task 15:34 ET; D:L1290 A and B for PROME prome-77 at Will's 16:11 ET request; Will's 18:46 ET word to run B early; laptop, Claude Code / Opus 5.5, session liquid-bd)
+### EARLIER SESSION — 2026-11-25T15:34 ET, closed 2026-11-25T20:06 ET (Will's boot task 15:34 ET; D:L1290 A and B for PROME prome-77 at Will's 16:11 ET request; Will's 18:46 ET word to run B early; laptop, Claude Code / Opus 5.5, session liquid-bd)
 
 - **Context:** third LIQUID session of 11/25 (earlier: FLASH read, then the SoftBank CDS and 11/24 HY grade at 11:5x ET). Boot intake: 9 WALTER cards and 4 corrections (78915a16aa); WALTER 039/040 in the evening.
 - **Delivered:** **Part A** (servicer bonds, b2d692e862): Freedom 10.00% Jan-2032 at 99.69 [11/24], reoffer NOT FOUND; Freedom +95 bp median since 10/21 vs control +26; peers not following; no trade. **Part B** (11e8d4d9c2): all 631 DTCC intraday slices for 11/25; **no valid CoreWeave 5Y on 11/25**; 4Y Dec-2030 1,366–1,379 clean, about +130 bp on the day; last 5Y 1,314 clean [11/24] for TERRY's card. SoftBank 3.5Y 548/555, no 5Y; Oracle 5Y 362–372; Alphabet 5Y cancelled; SpaceX 293/298. **`crwv_cds_grade.py` fixed:** 90 of 114 cancel rows had no name (KB-LIQ-166). STATUS rotated to 69.8% of cap (`archive/status_snapshots/STATUS_rotated_2026-11-25.md`).
@@ -106,4 +113,4 @@
 
 ### NEXT SESSION
 
-**STATUS §3 is the list.** 11/27 (prome-80 wake): 069 graded on the 11/25 cell, breadth answered (broad, KB-LIQ-167), `gate069_legs.py --since` built. Next: the 11/27 DTCC full file for TERRY's WQ-745 (CoreWeave 5Y, latest valid 11/24 close); H.4.1 as-of 11/25 (Japan legs, MOF about 11/30); 069 and 076 reviews 12/2 (`--since 2026-11-25`, RED decoupling test per BB cell); freeze test week of 11/30 (D:L1257); independent read of `--since`; `dtcc_cds_probe.py` cancel-row repair.
+**STATUS §3 is the list.** 11/27 evening: DTCC 11/27 read (no CoreWeave trade; latest valid 5Y 1,371 [1,326] 16:07 ET 11/24), H.4.1 11/25 read (no strain). Next: 069 and 076 reviews 12/2 (do not rest a grade on `--since` output alone until repaired and re-read; RED decoupling test per BB cell); `gate069_legs.py --since` repair, findings 1-3 (PROME packet in `inbox/processed/`); `crwv_cds_grade.py` fix (KB-LIQ-168); 11/30 DTCC for CoreWeave 5Y; freeze test week of 11/30 (D:L1257); `dtcc_cds_probe.py` cancel-row repair; MOF monthly about 11/30.

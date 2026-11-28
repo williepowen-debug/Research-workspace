@@ -79,3 +79,6 @@ receipt_date	correction_id	action	note
 2026-11-25T20:36Z	COR-20261125-35	NO-OP	scope=Card 031 loan coverage line: card 031 was first consumed together with 035, KB-LIQ-153 logged on the corrected basis; 
 2026-11-25T20:36Z	COR-20261125-36	NO-OP	scope=Card 031 and 035 comparison of the two CoreWeave 2031 bonds: not carried in LIQUID files (grep 11/25), KB-LIQ-153 logged with coupon and maturity; 
 2026-11-27T17:52Z	COR-20261127-01	APPLIED	artifact=AGENTS/LIQUID/workbook/KB.tsv#KB-LIQ-153; validation_ref=NONE; 
+2026-11-28T01:33Z	COR-20261127-02	APPLIED	artifact=AGENTS/LIQUID/STATUS.md#1-NOW-credit-SoftBank; validation_ref=AGENTS/LIQUID/research/2026-11-27_crwv-5y-1127-file/OUTPUT.txt#softbank_rows; SoftBank DTCC prints are yen contracts; USD 5Y 516-535 [11/26 relays] kept separate; yen-curve 560-600 inference withdrawn as a USD read
+2026-11-28T01:33Z	COR-20261127-03	NO-OP	scope=Russia jet fuel Resolution 1586 and Estonia quote: no LIQUID claim, STATUS or KB row cites either; 
+2026-11-28T01:33Z	COR-20261127-04	NO-OP	scope=US carrier count two not three: no LIQUID claim, STATUS or KB row cites it; 
