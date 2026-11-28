@@ -60,3 +60,7 @@ receipt_date	correction_id	action	note
 2026-11-25T20:39Z	COR-20261125-22	NO-OP	scope=CoreWeave 5Y 1,363 cancelled. No REGINALD figure cites it. The HY 372 line of card 018 that concerns REG-T-04 is confirmed, not changed; card text read whole in inbox WALTER, Will-launched boot 2026-11-25
 2026-11-25T20:39Z	COR-20261125-35	NO-OP	scope=CoreWeave 4.5B loan. No REGINALD figure cites it, card 031 logged INFO_ONLY; card text read whole in inbox WALTER, Will-launched boot 2026-11-25
 2026-11-25T20:39Z	COR-20261125-36	NO-OP	scope=CoreWeave two 2031 bonds. No REGINALD figure cites either, cards 031 and 035 logged INFO_ONLY; card text read whole in inbox WALTER, Will-launched boot 2026-11-25
+2026-11-28T04:52Z	COR-20261127-03	NO-OP	scope=Russia jet fuel export ban dates: no REGINALD bank figure or channel; 
+2026-11-28T04:52Z	COR-20261127-04	NO-OP	scope=US carrier count near Iran: no REGINALD figure; 
+2026-11-28T04:52Z	COR-20261127-02	NO-OP	scope=Mokhber quote, Ras Tanura, CoreWeave DDTL guarantees and SoftBank CDS level: no REGINALD figure, threshold or prediction cites them, and the 11/27 KB row for card 008 quotes the corrected SoftBank CDS range; 
+2026-11-28T04:52Z	COR-20261127-05	NO-OP	scope=France Q3 recession verdict: no REGINALD figure, European banks are HANS's; 
