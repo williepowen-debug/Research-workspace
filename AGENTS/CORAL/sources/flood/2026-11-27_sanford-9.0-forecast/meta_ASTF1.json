@@ -1,0 +1,645 @@
+{
+  "lid": "ASTF1",
+  "usgsId": "02236125",
+  "reachId": "10989141",
+  "name": "St. Johns River at Astor",
+  "description": "",
+  "rfc": {
+    "abbreviation": "SERFC",
+    "name": "Southeast River Forecast Center"
+  },
+  "wfo": {
+    "abbreviation": "MLB",
+    "name": "Melbourne"
+  },
+  "state": {
+    "abbreviation": "FL",
+    "name": "Florida"
+  },
+  "county": "Lake",
+  "timeZone": "EST5EDT",
+  "latitude": 29.166666666667,
+  "longitude": -81.522222222222,
+  "pedts": {
+    "observed": "HGIRG",
+    "forecast": "HGIFF"
+  },
+  "status": {
+    "observed": {
+      "primary": 4.42,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "floodCategory": "major",
+      "validTime": "2026-11-28T02:30:00Z"
+    },
+    "forecast": {
+      "primary": 4.4,
+      "primaryUnit": "ft",
+      "secondary": -999,
+      "secondaryUnit": "kcfs",
+      "floodCategory": "major",
+      "validTime": "2026-11-28T06:00:00Z"
+    }
+  },
+  "flood": {
+    "stageUnits": "ft",
+    "flowUnits": "cfs",
+    "categories": {
+      "major": {
+        "stage": 4,
+        "flow": -9999
+      },
+      "moderate": {
+        "stage": 3,
+        "flow": -9999
+      },
+      "minor": {
+        "stage": 2.3,
+        "flow": -9999
+      },
+      "action": {
+        "stage": 2,
+        "flow": -9999
+      }
+    },
+    "lro": {
+      "minorCS": "> 0.95",
+      "moderateCS": "0.338",
+      "majorCS": "< 0.05",
+      "producedTime": "2026-11-17T14:39:54Z",
+      "interval": "NDJ"
+    },
+    "crests": {
+      "historic": [
+        {
+          "occurredTime": "2024-10-12T00:00:00Z",
+          "stage": 4.81,
+          "flow": 0,
+          "preliminary": "R",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2022-10-01T01:15:00Z",
+          "stage": 4.71,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2022-11-10T00:00:00Z",
+          "stage": 4.52,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2017-10-06T00:00:00Z",
+          "stage": 4.46,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2017-09-13T00:00:00Z",
+          "stage": 4.43,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2004-09-26T00:00:00Z",
+          "stage": 4.18,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2017-10-20T00:00:00Z",
+          "stage": 4.03,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2001-09-17T00:00:00Z",
+          "stage": 3.9,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2008-09-25T00:00:00Z",
+          "stage": 3.82,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2025-10-12T00:00:00Z",
+          "stage": 3.64,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2016-10-12T00:00:00Z",
+          "stage": 3.49,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1994-11-21T00:00:00Z",
+          "stage": 3.48,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2020-09-23T00:00:00Z",
+          "stage": 3.46,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2024-09-16T00:00:00Z",
+          "stage": 3.45,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2015-10-08T00:00:00Z",
+          "stage": 3.29,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1994-10-17T00:00:00Z",
+          "stage": 3.26,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1995-10-15T00:00:00Z",
+          "stage": 3.24,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2023-10-04T17:30:00Z",
+          "stage": 3.13,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2020-10-06T20:30:00Z",
+          "stage": 3.1,
+          "flow": 12755,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1995-09-10T00:00:00Z",
+          "stage": 3.1,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2025-09-14T19:00:00Z",
+          "stage": 3.1,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2005-09-10T00:00:00Z",
+          "stage": 3.08,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2023-11-18T00:00:00Z",
+          "stage": 3.04,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2023-12-18T00:00:00Z",
+          "stage": 3.01,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1998-03-02T00:00:00Z",
+          "stage": 2.87,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2005-10-07T00:00:00Z",
+          "stage": 2.86,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1999-10-17T00:00:00Z",
+          "stage": 2.85,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2026-09-26T00:00:00Z",
+          "stage": 2.7,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1996-10-14T00:00:00Z",
+          "stage": 2.58,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2024-02-08T00:00:00Z",
+          "stage": 2.47,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2023-05-28T00:00:00Z",
+          "stage": 2.47,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2023-06-06T00:00:00Z",
+          "stage": 2.37,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        }
+      ],
+      "recent": [
+        {
+          "occurredTime": "2026-09-26T00:00:00Z",
+          "stage": 2.7,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2025-10-12T00:00:00Z",
+          "stage": 3.64,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2025-09-14T19:00:00Z",
+          "stage": 3.1,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2024-10-12T00:00:00Z",
+          "stage": 4.81,
+          "flow": 0,
+          "preliminary": "R",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2024-09-16T00:00:00Z",
+          "stage": 3.45,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2024-02-08T00:00:00Z",
+          "stage": 2.47,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2023-12-18T00:00:00Z",
+          "stage": 3.01,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2023-11-18T00:00:00Z",
+          "stage": 3.04,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2023-10-04T17:30:00Z",
+          "stage": 3.13,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2023-06-06T00:00:00Z",
+          "stage": 2.37,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2023-05-28T00:00:00Z",
+          "stage": 2.47,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2022-11-10T00:00:00Z",
+          "stage": 4.52,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2022-10-01T01:15:00Z",
+          "stage": 4.71,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2020-10-06T20:30:00Z",
+          "stage": 3.1,
+          "flow": 12755,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2020-09-23T00:00:00Z",
+          "stage": 3.46,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2017-10-20T00:00:00Z",
+          "stage": 4.03,
+          "flow": 0,
+          "preliminary": "P",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2017-10-06T00:00:00Z",
+          "stage": 4.46,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2017-09-13T00:00:00Z",
+          "stage": 4.43,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2016-10-12T00:00:00Z",
+          "stage": 3.49,
+          "flow": -9999,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2015-10-08T00:00:00Z",
+          "stage": 3.29,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2008-09-25T00:00:00Z",
+          "stage": 3.82,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2005-10-07T00:00:00Z",
+          "stage": 2.86,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2005-09-10T00:00:00Z",
+          "stage": 3.08,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2004-09-26T00:00:00Z",
+          "stage": 4.18,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "2001-09-17T00:00:00Z",
+          "stage": 3.9,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1999-10-17T00:00:00Z",
+          "stage": 2.85,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1998-03-02T00:00:00Z",
+          "stage": 2.87,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1996-10-14T00:00:00Z",
+          "stage": 2.58,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1995-10-15T00:00:00Z",
+          "stage": 3.24,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1995-09-10T00:00:00Z",
+          "stage": 3.1,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1994-11-21T00:00:00Z",
+          "stage": 3.48,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        },
+        {
+          "occurredTime": "1994-10-17T00:00:00Z",
+          "stage": 3.26,
+          "flow": 0,
+          "preliminary": "O",
+          "olddatum": false
+        }
+      ]
+    },
+    "lowWaters": {
+      "historic": []
+    },
+    "impacts": [
+      {
+        "stage": 4.5,
+        "statement": "Major widespread and long duration flooding occurs, with water rescues and evacuations necessary. Most low-lying homes become uninhabitable due to 2 to 3 feet water depth in many areas of the community on or near the river. Water reaches Front Street south of SR-40. Areas off of Riveredge Drive are inaccessible. Water surrounds and enters homes on Riverview Drive and Claire Street. Most areas near the Astor Landing Camptround are inaccessible due to knee-deep water."
+      },
+      {
+        "stage": 4,
+        "statement": "Major flooding occurs with water entering many structures on canals and along the river. Long duration flooding will occur, with levels taking weeks to months to return below flood stage. Water rescues will be necessary. River Road becomes inaccessible, with 1 to 2 feet water depth in numerous homes on Wildhog, Possum, Bonnet and Snail roads. Roads along Blue Creek are inaccessible with major flooding of homes on Otter, Branch and Chestnut roads. Camp South Moon Road and Juno Trail are inaccessible."
+      },
+      {
+        "stage": 3.5,
+        "statement": "Canals have overflowed into yards. Homes on or near Wildhog and Bonnet roads become inaccessible with several inches of water inside homes along the river and canals. Docks at Astor Bridge marina and throughout Astor are completely submerged. Bartram Rd and Holiday Circle are inaccessible with yards completely submerged. Clair Street is inaccessible. Roads flooded in South Moon Fish Camp, docks and yards at condominiums on Juno Trail and water breaches the sea wall at Blair's Jungle Den. "
+      },
+      {
+        "stage": 3,
+        "statement": "Water approaches or may enter lowest homes on or near Wildhog Road and nearby canals. Flooding reaches the parking lot of the Juno Trail Apartments. Flooding on portions of Alligator Road and Holiday Road. Lowest lying yards along Blue Creek are flooded. Roads at Astor Landing Campground and Lake Dexter Boat Ramp begin to flood. Water enters lower homes closest to the river on McPherson Lane."
+      },
+      {
+        "stage": 2.8,
+        "statement": "Docks and boat ramps covered at South Moon Fish Camp and approaching sea wall at Blair's Jungle Den. Water approaching sites closest to the river at Fish Tales RV Resort and Astor Landing Campground. Portion of Clair Street covered by river water south of the Butler Boat Ramp. Docks underwater at the Astor Bridge Marina and along Riveredge Drive. Portions of Fox Road are covered with water nearest to the river. Acorn, Hazelnut and Redbud roads are underwater with yards inundated."
+      },
+      {
+        "stage": 2.3,
+        "statement": "Many docks become submerged along the river and in canals in the Astor community. Water enters yards of properties on Bartram Road, Holiday Circle and along Wild Hog Road on the Lake County side. In Volusia County, water encroaches yards of homes on the river side of Alice Drive. No wake zones are in effect from near the South Moon Canal to approximately 800 feet south of the Riverview lodge."
+      },
+      {
+        "stage": 2,
+        "statement": "River levels rise and fills canals, encroaching on docks, yards and boat ramps in the vicinity of SR-40. Properties in low areas along and near the river and many canals should prepare for further water encroachment."
+      }
+    ]
+  },
+  "images": {
+    "probability": {
+      "weekint": {
+        "stage": "https://water.noaa.gov/resources/probabilistic/exceedance/ASTF1.SSTG.prob.weekint.gif",
+        "flow": "https://water.noaa.gov/resources/probabilistic/exceedance/ASTF1.QINE.prob.weekint.gif",
+        "volume": "https://water.noaa.gov/resources/probabilistic/exceedance/ASTF1.volume.prob.weekint.gif"
+      },
+      "entperiod": {
+        "stage": "https://water.noaa.gov/resources/probabilistic/exceedance/ASTF1.SSTG.exceed.90day.gif",
+        "flow": "https://water.noaa.gov/resources/probabilistic/exceedance/ASTF1.QINE.exceed.90day.gif",
+        "volume": "https://water.noaa.gov/resources/probabilistic/exceedance/ASTF1.volume.exceed.90day.gif"
+      },
+      "shortrange": "https://water.noaa.gov/resources/probabilistic/short_term/ASTF1.shortrange.hefs.png"
+    },
+    "hydrograph": {
+      "default": "https://water.noaa.gov/resources/hydrographs/astf1_hg.png",
+      "floodcat": "https://water.noaa.gov/resources/hydrographs/astf1_record.png"
+    },
+    "photos": []
+  },
+  "dataAttribution": [
+    {
+      "abbrev": "US Geological Survey",
+      "text": "USGS--Water Resources of the United States",
+      "title": "US Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis"
+    },
+    {
+      "abbrev": "USGS",
+      "text": "02236125",
+      "title": "Observations courtesy of U.S. Geological Survey",
+      "url": "https://waterdata.usgs.gov/nwis/inventory/?site_no=02236125"
+    }
+  ],
+  "impactsLowWaters": [],
+  "normalThreshold": {
+    "value": 0,
+    "units": "ft"
+  },
+  "hydronotes": [
+    {
+      "statement": "River forecasts for this location take into account past precipitation and the precipitation amounts expected approximately 48 hours into the future from the forecast issuance time.",
+      "effective": "0101",
+      "expiration": "1212"
+    }
+  ],
+  "datums": {
+    "vertical": {
+      "value": [
+        {
+          "label": "National Geodetic Vertical Datum of 1929",
+          "abbrev": "NGVD29",
+          "description": "A fixed reference adopted as a standard geodetic datum for elevations determined by leveling. The datum was derived for surveys from a general adjustment of the first-order leveling nets of both the United States and Canada. In the adjustment, mean sea level was held fixed as observed at 21 tide stations in the United States and 5 in Canada. The year indicates the time of the general adjustment. A synonym for Sea-level Datum of 1929. The geodetic datum is fixed and does not take into account the changing stands of sea level. Because there are many variables affecting sea level, and because the geodetic datum represents a best fit over a broad area, the relationship between the geodetic datum and local mean sea level is not consistent from one location to another in either time or space. For this reason, the National Geodetic Vertical Datum should not be confused with mean sea level. See North American Vertical Datum of 1988 (NAVD 88). NGVD 29 should not be used as Mean Sea Level. NGVD 29 is no longer supported by NGS.",
+          "value": 0
+        }
+      ]
+    },
+    "horizontal": {
+      "value": []
+    },
+    "notes": {
+      "value": []
+    }
+  },
+  "inundation": {
+    "enabled": false,
+    "url": "",
+    "zeroDatum": null,
+    "downloads": null,
+    "siteSpecificInfo": "",
+    "dataAttribution": []
+  },
+  "upstreamLid": "DLAF1",
+  "downstreamLid": "",
+  "inService": {
+    "enabled": true,
+    "message": ""
+  },
+  "lowThreshold": null,
+  "forecastReliability": "Forecasts are issued as needed during times of high water, but are not routinely available.",
+  "TruncateObs": "-1",
+  "TruncateFcst": "7",
+  "ObservedFloodCategory": "major",
+  "ForecastFloodCategory": "major"
+}
