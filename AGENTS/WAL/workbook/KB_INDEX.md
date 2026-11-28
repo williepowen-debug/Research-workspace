@@ -1,6 +1,6 @@
 # WAL KB Index — generated group navigation
 
-**301 rows | 20 groups | Inventory updated November 26 (KB297 Plaza Continental 11/17-11/26 DEWEY reads; KB298 Q3 mortgage finance $7,029M and REGINALD peer rank; KB299 EDGAR window 10/28-11/26; KB300 Q3 CRE-NOO property types and maturities; KB301 Q3 bank pledged loans and uninsured deposits; 100 expired rows judged row by row). Prior: November 16 (KB295 Plaza Continental 11/11-11/16 DEWEY reads; KB296 DEWEY 003R Q3 bank population). Prior: November 11 (KB288–294: Q3 10-Q rate sensitivity/betas, rate path and AFS-mark estimate, CRE refi theme, Tricolor/First Brands relay, Plaza Continental docket, unread Basel III disclosure; 212/220/221 superseded for current use by 288).** Source dates/status/expiry govern.
+**302 rows | 20 groups | Inventory updated November 27 (KB302 United Fidelity read-across: sponsor exposure NOT FOUND, multifamily and LIHTC like-book sized, brokered funding and the Call Report reciprocal basis trap). Prior: November 26 (KB297 Plaza Continental 11/17-11/26 DEWEY reads; KB298 Q3 mortgage finance $7,029M and REGINALD peer rank; KB299 EDGAR window 10/28-11/26; KB300 Q3 CRE-NOO property types and maturities; KB301 Q3 bank pledged loans and uninsured deposits; 100 expired rows judged row by row). Prior: November 16 (KB295 Plaza Continental 11/11-11/16 DEWEY reads; KB296 DEWEY 003R Q3 bank population). Prior: November 11 (KB288–294: Q3 10-Q rate sensitivity/betas, rate path and AFS-mark estimate, CRE refi theme, Tricolor/First Brands relay, Plaza Continental docket, unread Basel III disclosure; 212/220/221 superseded for current use by 288).** Source dates/status/expiry govern.
 
 | Group | Rows | IDs |
 |---|---:|---|
@@ -15,7 +15,7 @@
 | EARNINGS | 32 | 050, 051, 052, 053, 100, 101, 102, 104, 105, 115, 116, 117, 118, 122, 139, 149, 158, 217, 220, 224, 225, 233, 235, 239, 240, 244, 245, 246, 247, 250, 274, 286 |
 | MARKET_SIGNAL | 15 | 054, 055, 056, 057, 058, 059, 061, 125, 126, 160, 180, 214, 229, 258, 276 |
 | ANALYST_SIGNALS | 10 | 062, 063, 064, 065, 138, 197, 213, 223, 226, 253 |
-| CRE_MACRO | 9 | 067, 068, 070, 179, 209, 228, 272, 291, 296 |
+| CRE_MACRO | 10 | 067, 068, 070, 179, 209, 228, 272, 291, 296, 302 |
 | NDFI_PC | 1 | 069 |
 | FRAUD_AUDITOR | 10 | 071, 072, 073, 074, 075, 076, 077, 264, 268, 269 |
 | FRAUD_GENERAL | 7 | 078, 079, 080, 087, 088, 089, 292 |

@@ -1,8 +1,19 @@
 # WAL STATUS
 
-**Last Updated: 2026-11-26 — PROME inbox drain (WQ-206 aged-ask drain; Will 11:38 ET "catching up on any missed signals"): 8 inbox items consumed, 100 expired KB rows judged row by row, TERRY postmortem grades and the PROME KB answer sent, REGINALD's withdrawn Atlas SP figure corrected across WAL files. No weight, score, EV or completed-grade change.** Record: KB297–301; packets `../TERRY/inbox/2026-11-26_from-WAL_postmortem-thesis-grades.md`, `../../PROME/inbox/2026-11-26_from-WAL_stale-KB-rows-answer.md`, `../REGINALD/inbox/2026-11-26_from-WAL_ack-warehouse-rank-and-stale-7155.md`. *Prior update 2026-11-16 (PROME wake) and the 11/11 catch-up: rotated verbatim to `archive/STATUS_rotation_2026-11-26.md`.*
+**Last Updated: 2026-11-27 23:5x ET — United Fidelity read-across (WQ-759 RULED A, Will 23:40 ET; plan legs 5 and 6, relayed by PROME prome-80): sponsor exposure NOT FOUND, no like book, brokered funding moderate and well-capitalized; no evidence tonight either way. No weight, score, EV or grade change.** Record: KB-302, `research/2026-11-27_united-fidelity-legs-5-6.md`, packet `../../PROME/inbox/2026-11-27_from-WAL_united-fidelity-legs-5-6.md`. *Prior update 2026-11-26 (PROME inbox drain, WQ-206): § CURRENT below; record KB297–301 and its three packets.*
 
 *The 10/22 version of this file is preserved verbatim at `archive/STATUS_before-10-28_2026-10-28.md` (sha256 59f568d3…daca9); earlier history at `archive/STATUS_before-cleanup_2026-10-22.md` and `archive/STATUS_before-Q3-stage1_2026-10-19.md`.*
+
+## CURRENT — United Fidelity read-across, November 27 (WQ-759 legs 5 and 6)
+
+**Price:** WAL **$71.38** at the 11/27 half-session close (+0.88%; vendor, FORGE `fetch.py` via `boot.py` 22:54 ET), **6.81% under EV $76.60**; KRE $70.35 (+0.74%). The session closed at 13:00 ET, before the failure was announced (REGINALD, INFERRED), so no price reflects it yet.
+
+| Leg | Answer (primaries: Q3 10-Q acc 0001628280-26-068599; bank SDF 9/30 and 6/30; EDGAR full-text search) |
+|---|---|
+| 6: Pedcor / Birge & Held or a like book | **NOT FOUND**: 0 hits for either sponsor, UFB or its parent in WAL filings 2019 to 11/27 (control 38). Multifamily $581M = 0.94% of loans, LTV 52.7%, falling (UFB 89%). LIHTC + renewable equity $597M, partners unnamed. ⚠️ Names are never disclosed, so this is absence of disclosure, not a confirmed zero |
+| 5: funding for brokered-reliant banks | **No evidence tonight either way.** Wholesale brokered $5.6B = 6.9% of deposits (UFB 18.7%), 93% insured-size and due within a year; well-capitalized, so the brokered-deposit bar that bound UFB does not apply. +25bp on the whole book costs about $14M a year pretax (~0.8% of PPNR). ⚠️ The Call Report 'total brokered' line falls $15.4B → $5.6B only because Q2 counted $10.2B of reciprocal deposits as brokered; it is not an outflow |
+
+**Forward (unscored, no row):** ~85% no measurable WAL funding effect through the Q4 print; ~15% a sector funding scare, where the stock (beta 1.31 to KRE) falls harder than funding costs rise. First evidence: the Mon 11/30 tape (plan leg 8). KB-302 is a `combo:bank-credit-breadth` member; nothing moved.
 
 ## CURRENT — PROME inbox drain, November 26
 
@@ -49,7 +60,7 @@ The 10/28–10/30 item table (10-Q grade, WQ-553 amendment, frame dry run, $99M 
 
 ## PRICE
 
-**Price (11/25 session close, vendor; fetch.py and boot.py 11/26 22:25–22:29 ET; NYSE closed 11/26): $70.76 (+0.47%)**; SPOT vs EV **−7.62% vs v2.5 EV $76.60**; buffer to 81.90 **+15.74%** (delta/spot). KRE $69.83 (+0.10%). REGINALD's REG-T-02 exit log last row 11/24 (close 70.43): run 0 of 3, FIRED (REGINALD grades; read via boot.py).
+**Price (11/27 half-session close, vendor; boot.py 11/27 22:54 ET): $71.38 (+0.88%)**; SPOT vs EV **−6.81% vs v2.5 EV $76.60**; buffer to 81.90 **+14.74%** (delta/spot). KRE $70.35 (+0.74%). REGINALD's REG-T-02 exit log last row 11/25 (close 70.76): run 0 of 3, FIRED; the 11/27 bar is not yet settled (REGINALD grades; read via boot.py).
 
 ## JUDGMENT
 
