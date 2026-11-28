@@ -64,3 +64,11 @@ Verbatim; moved from MEMORY.md at the 11/27 D:L1274 closeout to hold the read ca
 02a. **V1V3 rename DONE 11/17** (`WAL-PRICE-STRESS`, alias kept; WALTER edits its four mirrors).
 03. **Dated:** H.4.1 11/12; REG-T-06 grades 11/13 from the CFR; FDIC Q3 posting ~mid/late Nov for the frozen borrowing verdict; QBP ~11/25; REG-06 scan 11/30; combo reviews 11/20 and 11/30.
 <!-- BLOCK M39 end -->
+
+<!-- BLOCK M40 begin crc32 be3d838c -->
+### LAST SESSION — 2026-11-27 from 12:34 ET, due-row wake (PROME prome-80, D:L1274); delivered, closeout in the task
+- **Boot:** Claude Code, Opus 5.5 (claude-opus-5-5), session id not exposed (scratchpad 2b805141 is PROME's context). Four boot files through `boot_read.py` to eof (root 4, AGENTS 1, USER 3, charter 4 pages); COMPLETION_SPEC, STATUS, LESSONS, CALENDAR, MEMORY, ROADMAP whole. 0 behind origin, no pull needed (PROME dirty). market.py, VX ladder (RED, 35 below), boot.py (rc 1: known alerts; OZK Form 4s UNREAD) all run.
+- **HY:** 372 [11/24], 377 [11/25] (posted 11/27 ~12:35 ET; PROME's mid-task word), one ALFRED vintage each: REG-T-04 exit run 0. Cross-check 11/23 → 11/25 BANK-ABSENT, softer (basket −0.82%, IG +2bp, KRE beat SPY). WAL 70.76 [11/25], log row 61.
+- **OZK Form 4s:** FDIC disclosures 36079 (East, two 1,000-share gifts) and 36081 (Kenny, 265 sold at $48.84); EDGAR CIK 1569650 has none (FDIC route). KB ML-REG-330; EGBN Montano sale ML-REG-331; CYPHER combo ML-REG-332.
+- **Inbox 3 + 1 drained;** BOARD diff 10 new signals, none selected (no action, mediating or bank-ticker hit). STATUS rotated T68-T80 (93% → 69%), MEMORY M34-M37. TERRY packet (no candidate).
+<!-- BLOCK M40 end -->

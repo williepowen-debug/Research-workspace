@@ -84,6 +84,8 @@ October20 key-file audit: `reports/2026-10-20_key-file-sweep/REPORT.md` inventor
 
 ## RECENTLY RESOLVED — October20
 
+**11/27 night (Will's window, plan WQ-759 A leg 4):** United Fidelity failed (DIF $1.83B, 30.9% of assets); seven 2026 failures tabled by stated cause: real estate at 2 of 7, five unrelated causes, prior formal action at 6 of 7 → `reports/2026-11-27_united-fidelity-failure/LEG4_seven-failures.md`, KB ML-REG-333, 334. Open: legs 1 and 8 Mon 11/30; DEWEY leg 3 list to interpret. Last touched 2026-11-27.
+
 **11/25 PM (PROME commission D:L1291, class C9):** which banks lend to nonbank mortgage companies → `reports/2026-11-25_nonbank-mortgage-lenders/REPORT.md`, KB ML-REG-327; April Atlas SP claim corrected; 11 general packets and 23 WALTER cards drained. Open: MSR share at WAL, M&T, MBIN undisclosed; check at the 10-Ks (~late Feb 2027). Last touched 2026-11-25.
 
 **11/24 wake (prome-77, D:L1235; a day late, PROME offline 11/23 20:55 to 11/24 22:20 ET):** HY 363 [11/23] after 352, 376: REG-T-04 FIRED; WQ-512 rider not issuer-driven (INFERRED, CSC bound ~+2,770bp); REG-37 and REG-34 TRUE; cross-check BANK-ABSENT (basket +0.61%, IG +4bp); ISSUANCE-FREEZE to LIQUID, tradeability ask to TERRY; DEWEY lenders (none of my 14) and CREED correction drained; 4 WALTER cards; KB ML-REG-321, 322. Last touched 2026-11-24.
