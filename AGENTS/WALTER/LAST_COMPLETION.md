@@ -21,7 +21,7 @@ Tier 1 light closeout at 2026-11-28T03:44:58Z; full deferred (one breadcrumb). N
 
 ## CHANGED
 
-Cards 20261127-017 to -021 (5; BOARD 2,418), commit ee6e119b76 on origin; delivery rows reconciled (39 delivered; 193 of 193 for 20261127). Correction R1 COR-20261127-05; banner on 007. Batch manifest BM-20261128-01 (87/87). GPU review gpu:40c1df71c0ae, gpu:827c113cc118 closed NOTE (title only). Doorbell rows 12 (all L1-UNKNOWN). Messages: PROME (wakes), TERRY (020; NO CARD returned).
+Cards 20261127-017 to -021 (5), commit ee6e119b76 on origin; then, on Will's 23:14 ET word, a bank news sweep: card 022 (PRIORITY REGINALD: First Citizens deal terms, brokered deposits excluded, holding company out of the deal, 7th 2026 failure; BOARD 2,419), commit 85fc4d93cc on origin; delivery rows reconciled (39 delivered; 193 of 193 for 20261127). Correction R1 COR-20261127-05; banner on 007. Batch manifest BM-20261128-01 (87/87). GPU review gpu:40c1df71c0ae, gpu:827c113cc118 closed NOTE (title only). Doorbell rows 12 (all L1-UNKNOWN). Messages: PROME (wakes), TERRY (020; NO CARD returned).
 
 ## RESULT
 
@@ -31,6 +31,8 @@ Cards 20261127-017 to -021 (5; BOARD 2,418), commit ee6e119b76 on origin; delive
 
 ## GAPS
 
+- **Foreign files committed by WALTER:** 85fc4d93cc also swept PROME/registry/WQ_LEDGER.crc and AGENTS/REGINALD/scripts/.kre_float_state.json (the path list was built from all of git status). Pushed; nothing lost; not reverted; reported to PROME by message before 2026-11-28T04:18:44Z; PROME confirmed the .crc is correct (do not revert); REGINALD (reginald-96) told directly. Build commit path lists from `git status -- AGENTS/WALTER` plus WALTER's own named inbox and BOARD files only.
+- **Bank sweep limits:** EDGAR full-text search HTTP 500 (no scan of other banks' 8-Ks for United Fidelity exposure); OCC release, CNN body, American Banker, Bloomberg not read; negatives are search-level.
 - **Not read:** INSEE's 11/27 release; S&P's own release; OCC and First Citizens releases; the Al Jazeera blockade page; ft.com (refused); title-only folds on 019.
 - **Typed stamps caught before commit:** card 019 origin '03:3xZ', two REGISTRY drafts; replaced from commands.
 - **UNKNOWN:** SKEW, HY Energy, 11/27 European closes, TTF; cracks #6 and #8 not pulled; Cushing after w/e 11/20.
@@ -59,13 +61,14 @@ Tier 1 light closeout, walter-dd, laptop, night boot. Publication is not consump
  "as_of": "2026-11-28T03:44:58Z",
  "next_review": "2026-11-30",
  "publication": [
-  {"commit": "ee6e119b76", "state": "published", "note": "20261127-017 to -021"}
+  {"commit": "ee6e119b76", "state": "published", "note": "20261127-017 to -021"},
+  {"commit": "85fc4d93cc", "state": "published", "note": "20261127-022 (also swept two foreign files; reported to PROME)"}
  ],
  "delivery": {
   "signal_date": "20261127",
-  "total": 193,
-  "delivered": 193,
-  "note": "all 11/27 rows delivered (154 evening plus 39 night-boot rows 017 to 021) after origin proof (reconcile_delivery_log --apply after ee6e119b76). Delivered is not consumed. RED, PROME INFO by BOARD diff; TERRY BOARD-only plus a direct message"
+  "total": 205,
+  "delivered": 205,
+  "note": "all 11/27 rows delivered (154 evening plus 39 night-boot rows 017 to 021 plus 12 for 022) after origin proof (reconcile_delivery_log --apply after ee6e119b76). Delivered is not consumed. RED, PROME INFO by BOARD diff; TERRY BOARD-only plus a direct message"
  },
  "owner_review": {
   "scope": "manual evidence review; no automatic completion",
