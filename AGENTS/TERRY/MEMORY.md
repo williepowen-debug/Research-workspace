@@ -4,7 +4,11 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current pickup — 2026-11-26 21:5x EST
+## Current pickup — 2026-11-27 22:3x EST
+
+Claude Code, Opus 5.5, PROME prome-80 launch letter D:L1278 (VIX-down half session); closed on Will's word. VIX leg NO BUILD with written card conditions for 11/30–12/04; Robinhood capture transcribed (HYG card FILLED DIFFERENTLY; WILL-OWN CRWV 41P and USO 139C); owner grades 13 of 13; 4 PROME packets plus a closeout packet. Read STATUS CURRENT STATE first: Monday needs the 11/27 HY cell (about 10:30 ET), a fresh CoreWeave 5Y print, and the OPEC+ Sunday result.
+
+## Prior pickup — 2026-11-26 21:5x EST
 
 Claude Code, Opus 5.5, Will's launcher window on PROME prome-80's caution-review letter (D:L1278); closed on PROME's ask and Will's word. Four asks delivered (2 PROME packets); PB-0009 closed at its 11/6 invalidation; 21 packets NO CARD; Will's four construction habits in `TRADE_CARD_TEMPLATE.md` §0b; `snapshot.py` normal-move line and `paper_book_mark.py` exit check built and tested (exit check read by PROME, 2 findings fixed). Read STATUS CURRENT STATE first: Friday 11/27 reads are next.
 
