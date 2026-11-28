@@ -46,3 +46,8 @@ Verbatim from `NEXUS_BRIEF.md` at commit `47d954b1e0`-pinned version (file crc32
 
 | **CARL, REGINALD** | **loanDepot Q3 (8-K 11/09):** net loss $28.7M; servicing 60+ DQ **2.0%** (1.5% a year ago); ~$19B MSRs sold since July; refinancing upcoming debt maturities; no going-concern language | 🟡 MED | Non-bank servicer strain (KB-HOMER-045): liquidity management, not a liquidity event |
 | **CARL, REGINALD** | Policy: EO 10/22 (FHFA MI-cancellation pilot for NEW loans only; USDA/VA direct-loan rates) — KB-HOMER-039 · Treasury NPRM: large-investor SF purchase restriction from 2027-01-07, ≥350 homes, BTR exempt — KB-HOMER-040 | 🟡 LOW | No current-rate or existing-loan effect; directives and a proposal |
+
+
+## Row replaced 2026-11-27 (verbatim)
+
+| **REGINALD** | **United Fidelity: ~89% of the FDIC Q3 MF past-due rise** (1.404 → 1.742%); ex-bank ~1.41 → 1.43% (your packet 11/25, KB ML-REG-325; confirmed by HOMER at api.fdic.gov). Maturity of the impaired loans, trigger and containment UNRESOLVED | 🟡 MED | Affordable-housing loans to related sponsors, not market-rate Sun Belt; the broad bank-MF reading is weaker; HOMER's label is 'early, not settled' |
