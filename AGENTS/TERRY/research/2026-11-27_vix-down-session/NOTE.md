@@ -126,3 +126,7 @@ FALCON grades the loading halt **STILL ONE REPORT** (one unnamed CNN shipping so
 | LIQUID 20:35, CoreWeave 5Y: no trade 11/26 or 11/27; latest valid 1,371 dirty / 1,326 clean, 11/24 16:07 ET ($2M); the 1,359 / 1,314 figure withdrawn (its $3M prints errored) | Leg (b) of `IDEA-CRWV-AIFIN-NOV24` grades on clean: 1,326 ≥ 1,200 on level, but 11/24 is 3 sessions before 11/30, over the card's 2-session limit | Card stays APPROVED NOT-FIRED. **No entry on 11/30 unless a new 5Y print dated 11/27 or later is in hand**, and leg (a) also needs a green close ≥ $48.00 (CRWV $44.15 on 11/27). Recorded on the card §8d |
 
 BOARD scan at closeout: 0 new action-line signals to TERRY since SIG-W-20261125-041.
+
+## 12. Post-closeout Q&A, 22:4x EST (Will: "we have seen USO rise quite a bit ... as a result of the issues in Iran - so how would you explain that?")
+
+Vendor closes (yfinance, pulled 22:4x EST 11/27): 8/28 → 10/30 peak, **USO 129.70 → 168.83 (+30.2%), BNO 51.48 → 71.39 (+38.7%)**; 10/30 → 11/27, USO −18.4% to 137.77, BNO −17.5% to 58.93. In the Iran run Brent led and WTI followed at about four fifths of the percentage move: consistent with BRENT's 19:19 mechanism. The difference from the Ras Tanura case is size and time (a weeks-long, Gulf-wide risk premium vs one unconfirmed terminal report and 5 sessions to 12/04). BZ=F / CL=F continuous spreads not quoted (construction rule #22: BZ=F has rolled to Feb). No card; no change to the read.
