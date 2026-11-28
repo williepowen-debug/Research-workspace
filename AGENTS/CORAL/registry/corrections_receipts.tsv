@@ -8,3 +8,6 @@ receipt_date	correction_id	action	note
 2026-11-23T21:44Z	COR-20261123-13	NO-OP	scope=GPU-finance item 2 dates - CORAL logged only item 8 of card 20261116-005 (property tax) and carries no GPU figure; 
 2026-11-23T21:44Z	COR-20261119-15	APPLIED	artifact=AGENTS/CORAL/workbook/KB.tsv#ML-CORAL-181; artifact=AGENTS/CORAL/STATUS_DETAIL.md#AK; validation_ref=AGENTS/CORAL/STATUS_DETAIL.md#AK; scope=card 010 state-declaration line - CORAL sourced the correction and carried EO 26-232 on 11/19; 
 2026-11-25T16:52Z	COR-20261124-21	NO-OP	scope=CIA and ODNI breach correction, no CORAL artifact cited card 018 item 8, no Florida channel; 
+2026-11-28T00:15Z	COR-20261127-01	NO-OP	scope=Not Florida and not in any CORAL record - nothing CORAL holds relied on the corrected line (grep of AGENTS/CORAL 2026-11-27); coral-desk 2026-11-27 evening drain
+2026-11-28T00:15Z	COR-20261127-02	NO-OP	scope=Not Florida and not in any CORAL record - nothing CORAL holds relied on the corrected line (grep of AGENTS/CORAL 2026-11-27); coral-desk 2026-11-27 evening drain
+2026-11-28T00:15Z	COR-20261127-04	NO-OP	scope=Not Florida and not in any CORAL record - nothing CORAL holds relied on the corrected line (grep of AGENTS/CORAL 2026-11-27); coral-desk 2026-11-27 evening drain
