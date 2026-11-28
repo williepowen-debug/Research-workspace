@@ -1,0 +1,7 @@
+{
+ "url": "https://api.fdic.gov/banks/financials?filters=REPDTE%3A20241231&fields=CERT%2CNAME%2CREPDTE%2CSTALP%2CBKCLASS%2CASSET%2CEQ%2CINTAN%2CLNATRES%2CNCLNLS%2CORE%2CNETINCQ%2CBRO%2CDEP%2CRBC%2CRBCRWAJ%2CRBC1RWAJ%2CIDT1CER%2CRBC1AAJ%2CLNLSGR&limit=10000&format=json&sort_by=CERT&sort_order=ASC",
+ "retrieved_utc": "2026-11-28T05:31:56.419904+00:00",
+ "rows": 4560,
+ "total": 4560,
+ "sha256_payload": "88b82aee3bb1ded8acb0cf59b7c207ff0f99fb30b63ecbaa252def1efc98daa8"
+}
