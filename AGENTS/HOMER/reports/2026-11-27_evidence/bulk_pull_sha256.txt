@@ -1,0 +1,7 @@
+0997ddf75ab0131ba7e14a94054762d83de941fad2bd4b64c2b06e7ca7da0ea5  /tmp/claude-1000/-home-willi-Research-workspace-PROME/8654c74a-a566-45fd-86ca-fffc43df16d9/scratchpad/fdic/all_20250630.json
+903b8e981bc61fb94ab7a270c3f5eb54288f443bfd4de31234ef313b279cfffd  /tmp/claude-1000/-home-willi-Research-workspace-PROME/8654c74a-a566-45fd-86ca-fffc43df16d9/scratchpad/fdic/all_20250930.json
+946bb4c2863f4b9d8a63ad4cfb184f6700a4733369be07075f446518fe78b26d  /tmp/claude-1000/-home-willi-Research-workspace-PROME/8654c74a-a566-45fd-86ca-fffc43df16d9/scratchpad/fdic/all_20251231.json
+ed5108996083013972a5eac4812514ab0d9fec196011bece3f990fa9940a166c  /tmp/claude-1000/-home-willi-Research-workspace-PROME/8654c74a-a566-45fd-86ca-fffc43df16d9/scratchpad/fdic/all_20260331.json
+c7cbe5260f0db0efe482834d016d555e226cdc1fff322ecf04f4ae1f9ad31ab8  /tmp/claude-1000/-home-willi-Research-workspace-PROME/8654c74a-a566-45fd-86ca-fffc43df16d9/scratchpad/fdic/all_20260630.json
+1012df984d494098061169d20c7b30c1e83f87654f4e2bdd6e566e5a71d21355  /tmp/claude-1000/-home-willi-Research-workspace-PROME/8654c74a-a566-45fd-86ca-fffc43df16d9/scratchpad/fdic/all_20260930.json
+Fri Nov 27 22:52:38 EST 2026

@@ -177,3 +177,8 @@ SIG-W-20261001-013	2026-10-02	noted-off-domain	electricity price = ENERGY/BLS; H
 2026-11-25T19:35Z	SIG-W-20261125-030	INFO-LOGGED	INBOX_WALTER	second record-tide card; AEOLUS owns the read; exposure signal, no loss or housing figure; no HOMER row moved
 2026-11-25T19:35Z	SIG-W-20261125-033	INFO-LOGGED	INBOX_WALTER	owner-answer digest; HOMER line matches 3d6eed2e83; CORAL NFIP 1,157 already held from its 11/25 packet; no HOMER row moved
 2026-11-25T21:15Z	SIG-W-20261125-037	INFO-LOGGED	INBOX_WALTER	DeLand forecast 6.4 ft vs 6.33 record; Volusia and Seminole already on the flood watch row (ZHVI baseline), not declared; forecast only, no HOMER row moved
+2026-11-28T03:54Z	SIG-W-20261127-020	ACTIONED	INBOX_WALTER	United Fidelity failure: ex-UF bank MF Q3 flat (1.405 to 1.424%), one bank plus a handful; report reports/2026-11-27_united-fidelity-multifamily-read.md; MULTIFAMILY rows appended; attribution corrected to WALTER by packet (HOMER ~89% lives in MULTIFAMILY/NEXUS_BRIEF not STATUS; $784M is nine months)
+2026-11-28T03:54Z	SIG-W-20261125-043	INFO-LOGGED	INBOX_WALTER	NYC rent-freeze ruling, titles only; FLG's rent-regulated book; no HOMER row moved
+2026-11-28T03:54Z	SIG-W-20261126-001	INFO-LOGGED	INBOX_WALTER	DeLand 6.12 ft observed, forecast 6.5; CORAL/AEOLUS read; Volusia on the ZHVI flood baseline (KB-HOMER-048); forecast only, no HOMER row moved
+2026-11-28T03:54Z	SIG-W-20261127-003	INFO-LOGGED	INBOX_WALTER	DeLand forecast 6.6 ft, Sanford 8.86 observed; CORAL/AEOLUS read; no HOMER row moved
+2026-11-28T03:54Z	SIG-W-20261127-017	INFO-LOGGED	INBOX_WALTER	Sanford official forecast 9.0 ft over the 8.96 record (IMMEDIATE, CORAL action); Seminole/Volusia already on the flood baseline; no housing figure; no HOMER row moved

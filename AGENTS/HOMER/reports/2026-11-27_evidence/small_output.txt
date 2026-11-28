@@ -1,0 +1,4 @@
+P3REMULT same-bank <$10B net change $M 342.7  top5 233.7  rest 109.0  top5 names: [('PREFERRED BANK', 80.3), ('BANKPLUS', 44.9), ('AMERICAN MOMENTUM BANK', 39.8), ('MAINSTREET BANK', 34.4), ('CFG BANK', 34.3)]
+NAREMULT same-bank <$10B net change $M 78.2  top5 150.7  rest -72.5  top5 names: [('PREFERRED BANK', 52.6), ('EAGLEBANK', 46.6), ('MIDWEST REGIONAL BANK', 22.7), ('SHORE UNITED BANK NA', 14.8), ('CITIZENS COMMUNITY BAN', 13.9)]
+P9REMULT same-bank <$10B net change $M -19.9  top5 37.0  rest -56.9  top5 names: [('BLUE SKY BANK', 17.5), ('EXCHANGE BANK', 6.9), ('NORTH STAR BANK', 5.7), ('FIRST PRYORITY BANK', 3.5), ('CALDWELL BANK&TRUST CO', 3.5)]
+<$10B banks with MF>=$50M n=726: PDNA ratio up 161, down 155, flat 410
